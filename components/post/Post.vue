@@ -4,12 +4,13 @@ import { defineAsyncComponent } from "vue";
 import PostSkeleton from "../common/PostSkeleton.vue";
 import ErrorBoundary from "../common/ErrorBoundary.vue";
 
-const NuxtLink = resolveComponent("NuxtLink");
-
 const props = defineProps<{
   post: Post;
   standalone?: boolean;
 }>();
+
+const route = useRoute();
+const router = useRouter();
 
 const { components, getComponentName } = usePostComponent();
 
@@ -23,37 +24,68 @@ const getAsyncComponent = (type: Post["type"]) => {
     errorComponent: ErrorBoundary,
   });
 };
+
+const isModalOpen = computed(() => route.path === `/post/${props.post.id}`);
+
+const openModal = (e: MouseEvent) => {
+  if (!props.standalone && !e.metaKey && !e.ctrlKey) {
+    e.preventDefault();
+    router.push(`/post/${props.post.id}`);
+  }
+};
+
+const closeModal = () => {
+  router.push("/");
+};
 </script>
 
 <template>
-  <div class="bg-white rounded-lg shadow-sm border border-gray-200">
-    <ErrorBoundary>
-      <PostHeader
-        :author="post.author"
-        :timestamp="post.timestamp"
-        :type="post.type"
+  <div>
+    <div
+      class="bg-white rounded-lg shadow-sm border border-gray-200"
+      :class="{ 'cursor-pointer hover:bg-gray-50': !standalone }"
+    >
+      <NuxtLink
+        v-if="!standalone"
+        :to="`/post/${post.id}`"
+        @click="openModal"
+        class="hidden"
       />
+      <ErrorBoundary>
+        <PostHeader
+          :author="post.author"
+          :timestamp="post.timestamp"
+          :type="post.type"
+        />
 
-      <component
-        :is="!standalone ? NuxtLink : 'div'"
-        :to="!standalone ? `/post/${post.id}` : undefined"
-        class="block"
-      >
-        <Suspense>
-          <template #default>
-            <component
-              :is="getAsyncComponent(post.type)"
-              :content="post.content"
-            />
-          </template>
-          <template #fallback>
-            <PostSkeleton />
-          </template>
-        </Suspense>
-      </component>
+        <div>
+          <Suspense>
+            <template #default>
+              <component
+                :is="getAsyncComponent(post.type)"
+                :content="post.content"
+              />
+            </template>
+            <template #fallback>
+              <PostSkeleton />
+            </template>
+          </Suspense>
+        </div>
 
-      <PostTags v-if="post.content.tags" :tags="post.content.tags" />
-      <PostActions :stats="post.stats" :type="post.type" />
-    </ErrorBoundary>
+        <PostTags v-if="post.content.tags" :tags="post.content.tags" />
+        <PostActions :stats="post.stats" :type="post.type" />
+      </ErrorBoundary>
+    </div>
+
+    <Dialog :open="isModalOpen" @close="closeModal" class="relative z-50">
+      <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
+      <div class="fixed inset-0 overflow-y-auto">
+        <div class="flex min-h-full items-center justify-center">
+          <DialogPanel class="w-full">
+            <PostView :post="post" />
+          </DialogPanel>
+        </div>
+      </div>
+    </Dialog>
   </div>
 </template>
