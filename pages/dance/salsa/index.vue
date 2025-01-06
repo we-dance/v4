@@ -60,15 +60,15 @@ const upcomingEvents = computed(() =>
     <section class="mb-16">
       <h2 class="text-2xl font-semibold mb-8">Choose Your Style</h2>
 
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
         <NuxtLink
           v-for="style in styles.styles"
           :key="style.to"
           :to="style.to"
-          class="group relative bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
+          class="group relative bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
         >
           <!-- Style Image -->
-          <div class="aspect-video rounded-t-xl overflow-hidden">
+          <div class="aspect-video rounded-t-lg overflow-hidden">
             <img
               :src="style.image"
               :alt="style.name"
@@ -77,26 +77,28 @@ const upcomingEvents = computed(() =>
           </div>
 
           <!-- Style Info -->
-          <div class="p-6">
-            <div class="flex items-start justify-between mb-4">
+          <div class="p-4">
+            <div class="flex items-start justify-between mb-2">
               <div>
-                <h3 class="text-xl font-semibold mb-2">{{ style.name }}</h3>
-                <p class="text-gray-600">{{ style.description }}</p>
+                <h3 class="text-lg font-semibold mb-1">{{ style.name }}</h3>
+                <p class="text-sm text-gray-600 line-clamp-2">
+                  {{ style.description }}
+                </p>
               </div>
               <div class="text-right">
-                <div class="text-sm font-medium text-purple-600">
-                  {{ style.members.toLocaleString() }} dancers
+                <div class="text-xs font-medium text-purple-600">
+                  {{ (style.stats?.members ?? 0).toLocaleString() }} dancers
                 </div>
               </div>
             </div>
 
             <!-- Style Characteristics -->
-            <div class="space-y-3">
-              <div class="flex flex-wrap gap-2">
+            <div class="space-y-2">
+              <div class="flex flex-wrap gap-1">
                 <span
                   v-for="alias in style.aliases"
                   :key="alias"
-                  class="px-2 py-1 bg-gray-100 text-gray-600 text-sm rounded-full"
+                  class="px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded-full"
                 >
                   {{ alias }}
                 </span>
@@ -104,16 +106,16 @@ const upcomingEvents = computed(() =>
 
               <ul
                 v-if="style.characteristics"
-                class="text-sm text-gray-600 space-y-1"
+                class="text-xs text-gray-600 space-y-0.5"
               >
                 <li
-                  v-for="char in style.characteristics.slice(0, 3)"
+                  v-for="char in style.characteristics.slice(0, 2)"
                   :key="char"
                   class="flex items-center"
                 >
                   <Icon
                     name="ph:check-circle"
-                    class="w-4 h-4 text-green-500 mr-2"
+                    class="w-3 h-3 text-green-500 mr-1"
                   />
                   {{ char }}
                 </li>
@@ -121,12 +123,12 @@ const upcomingEvents = computed(() =>
             </div>
 
             <!-- Join CTA -->
-            <div class="mt-6">
+            <div class="mt-3">
               <span
-                class="inline-flex items-center text-purple-600 font-medium group-hover:text-purple-700"
+                class="inline-flex items-center text-sm text-purple-600 font-medium group-hover:text-purple-700"
               >
                 Join Community
-                <Icon name="ph:arrow-right" class="w-4 h-4 ml-2" />
+                <Icon name="ph:arrow-right" class="w-3 h-3 ml-1" />
               </span>
             </div>
           </div>
