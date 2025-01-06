@@ -93,13 +93,6 @@ export const getDanceStyles = (): DanceStyle[] => [
   },
   // Latin
   {
-    name: "Casino",
-    image: "https://img.youtube.com/vi/R7E9cNydevg/hqdefault.jpg",
-    to: "/dance/casino",
-    members: 754,
-    category: "Latin",
-  },
-  {
     name: "Bachata",
     image: "https://img.youtube.com/vi/4nJfpQ3kCbw/hqdefault.jpg",
     to: "/dance/bachata",
