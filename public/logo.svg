@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle (optional, can be removed) -->
+    <circle cx="100" cy="100" r="98" fill="white" stroke="#7C3AED" stroke-width="4" />
+
+    <!-- Flowing Dance Movement Lines -->
+    <path d="M60 140 Q 100 60 140 140" stroke="#7C3AED" stroke-width="8" fill="none" stroke-linecap="round" />
+    <path d="M80 130 Q 100 80 120 130" stroke="#7C3AED" stroke-width="8" fill="none" stroke-linecap="round" />
+
+    <!-- Community Dots -->
+    <circle cx="100" cy="70" r="12" fill="#7C3AED" />
+    <circle cx="60" cy="140" r="12" fill="#7C3AED" />
+    <circle cx="140" cy="140" r="12" fill="#7C3AED" />
+</svg>
