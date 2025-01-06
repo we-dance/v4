@@ -1,110 +1,132 @@
-# Create the main salsa page
+# Create the salsa family page
 <script setup lang="ts">
-import { ref } from "vue";
-import { getMockCommunities } from "~/data/mockCommunities";
+import { ref, computed } from "vue";
+import { getDanceStyles } from "~/data/mockStyles";
 import { mockEvents } from "~/data/mockEvents";
 import { mockPosts } from "~/data/mockPosts";
-import CommunityCard from "~/components/community/CommunityCard.vue";
 import type { ArticlePost } from "~/schemas/post";
 
-const styles = [
-  {
-    id: "cuban",
-    name: "Cuban Style (Casino)",
-    description:
-      "Circular style with Afro-Cuban roots, danced to Son and Timba music",
-    aliases: ["Salsa Cubana", "Casino", "Cuban Salsa"],
-    image:
-      "https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80",
-  },
-  {
-    id: "linear",
-    name: "Linear Style",
-    description: "Danced in a slot, includes LA Style (On1) and NY Style (On2)",
-    aliases: ["LA Style", "NY Style", "On1", "On2"],
-    image:
-      "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
-  },
-  {
-    id: "colombian",
-    name: "Colombian Style",
-    description: "Close embrace style with Colombian rhythms and moves",
-    aliases: ["Caleña", "Colombiana"],
-    image:
-      "https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80",
-  },
-];
+// Get salsa family and its styles
+const styles = computed(() => {
+  const allStyles = getDanceStyles();
+  return {
+    family: allStyles.find((s) => s.name === "Salsa"),
+    styles: allStyles.filter((s) => s.family === "salsa"),
+  };
+});
 
-const communities = ref(getMockCommunities());
-const events = ref(mockEvents);
-
-const beginnerPosts = ref(
-  mockPosts.filter((p) => {
-    if (p.type !== "article") return false;
-    const tags = p.content.tags || [];
-    return tags.some((tag) =>
-      ["beginner-guide", "salsa-basics", "salsa-styles"].includes(tag)
-    );
-  }) as ArticlePost[]
+// Get beginner-friendly content
+const beginnerContent = computed(
+  () =>
+    mockPosts.filter((p) => {
+      if (p.type !== "article") return false;
+      const tags = p.content.tags || [];
+      return tags.some((tag) =>
+        ["beginner-guide", "salsa-basics", "getting-started"].includes(tag)
+      );
+    }) as ArticlePost[]
 );
 
-const teacherPosts = ref(
-  mockPosts.filter((p) => {
-    if (p.type !== "article") return false;
-    const tags = p.content.tags || [];
-    return tags.some((tag) =>
-      ["teaching", "instruction", "methodology"].includes(tag)
-    );
-  }) as ArticlePost[]
+// Get upcoming events
+const upcomingEvents = computed(() =>
+  mockEvents
+    .filter((e) => {
+      const tags = e.tags || [];
+      return tags.some((tag) => tag.includes("salsa"));
+    })
+    .slice(0, 3)
 );
-
-const handleImageError = (event: Event) => {
-  const img = event.target as HTMLImageElement;
-  if (img) {
-    img.style.display = "none";
-  }
-};
 </script>
 
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Hero Section -->
-    <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold mb-4">Salsa Dancing</h1>
-      <p class="text-xl text-gray-600">
-        Discover the vibrant world of salsa dancing - from Cuban rhythms to
-        linear precision
+    <section class="text-center mb-16">
+      <h1 class="text-4xl font-bold mb-4">Welcome to Salsa</h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        Discover different styles of salsa dancing and find your perfect match.
+        Each style has its own unique character, music, and community.
       </p>
-    </div>
 
-    <!-- Styles Section -->
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-6">Styles</h2>
-      <div class="grid md:grid-cols-3 gap-6">
+      <!-- Quick Actions -->
+      <div class="flex flex-wrap justify-center gap-4">
+        <Button size="lg" variant="default">Find Local Classes</Button>
+        <Button size="lg" variant="outline">Compare Styles</Button>
+        <Button size="lg" variant="outline">Take Style Quiz</Button>
+      </div>
+    </section>
+
+    <!-- Style "Train Station" -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold mb-8">Choose Your Style</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
         <NuxtLink
-          v-for="style in styles"
-          :key="style.id"
-          :to="`/dance/salsa/${style.id}`"
-          class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+          v-for="style in styles.styles"
+          :key="style.to"
+          :to="style.to"
+          class="group relative bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
         >
-          <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
-            <NuxtImg
+          <!-- Style Image -->
+          <div class="aspect-video rounded-t-xl overflow-hidden">
+            <img
               :src="style.image"
               :alt="style.name"
-              class="w-full h-full object-cover"
-              loading="lazy"
+              class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
             />
           </div>
-          <div class="p-4">
-            <h3 class="font-semibold text-lg mb-2">{{ style.name }}</h3>
-            <p class="text-gray-600 text-sm mb-2">{{ style.description }}</p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                v-for="alias in style.aliases"
-                :key="alias"
-                class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full"
+
+          <!-- Style Info -->
+          <div class="p-6">
+            <div class="flex items-start justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-semibold mb-2">{{ style.name }}</h3>
+                <p class="text-gray-600">{{ style.description }}</p>
+              </div>
+              <div class="text-right">
+                <div class="text-sm font-medium text-purple-600">
+                  {{ style.members.toLocaleString() }} dancers
+                </div>
+              </div>
+            </div>
+
+            <!-- Style Characteristics -->
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-2">
+                <span
+                  v-for="alias in style.aliases"
+                  :key="alias"
+                  class="px-2 py-1 bg-gray-100 text-gray-600 text-sm rounded-full"
+                >
+                  {{ alias }}
+                </span>
+              </div>
+
+              <ul
+                v-if="style.characteristics"
+                class="text-sm text-gray-600 space-y-1"
               >
-                {{ alias }}
+                <li
+                  v-for="char in style.characteristics.slice(0, 3)"
+                  :key="char"
+                  class="flex items-center"
+                >
+                  <Icon
+                    name="ph:check-circle"
+                    class="w-4 h-4 text-green-500 mr-2"
+                  />
+                  {{ char }}
+                </li>
+              </ul>
+            </div>
+
+            <!-- Join CTA -->
+            <div class="mt-6">
+              <span
+                class="inline-flex items-center text-purple-600 font-medium group-hover:text-purple-700"
+              >
+                Join Community
+                <Icon name="ph:arrow-right" class="w-4 h-4 ml-2" />
               </span>
             </div>
           </div>
@@ -112,28 +134,32 @@ const handleImageError = (event: Event) => {
       </div>
     </section>
 
-    <!-- Communities Section -->
-    <section class="mb-12">
-      <div class="flex justify-between items-center mb-6">
-        <h2 class="text-2xl font-semibold">Communities</h2>
-        <NuxtLink
-          to="/communities?style=salsa"
-          class="text-purple-600 hover:text-purple-700"
-        >
-          View All
-        </NuxtLink>
-      </div>
+    <!-- Getting Started -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold mb-6">Getting Started</h2>
+
       <div class="grid md:grid-cols-3 gap-6">
-        <CommunityCard
-          v-for="community in communities"
-          :key="community.id"
-          :community="community"
-        />
+        <NuxtLink
+          v-for="post in beginnerContent"
+          :key="post.id"
+          :to="`/posts/${post.id}`"
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-4"
+        >
+          <div class="aspect-video rounded-lg overflow-hidden mb-4">
+            <img
+              :src="post.content.cover"
+              :alt="post.content.title"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <h3 class="font-semibold mb-2">{{ post.content.title }}</h3>
+          <p class="text-sm text-gray-600">{{ post.content.description }}</p>
+        </NuxtLink>
       </div>
     </section>
 
-    <!-- Events Section -->
-    <section class="mb-12">
+    <!-- Upcoming Events -->
+    <section class="mb-16">
       <div class="flex justify-between items-center mb-6">
         <h2 class="text-2xl font-semibold">Upcoming Events</h2>
         <NuxtLink
@@ -143,145 +169,31 @@ const handleImageError = (event: Event) => {
           View All
         </NuxtLink>
       </div>
+
       <div class="grid md:grid-cols-3 gap-6">
         <NuxtLink
-          v-for="event in events"
+          v-for="event in upcomingEvents"
           :key="event.id"
           :to="`/events/${event.id}`"
-          class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
         >
-          <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
-            <NuxtImg
+          <div class="aspect-video rounded-t-lg overflow-hidden">
+            <img
               :src="event.image"
               :alt="event.name"
               class="w-full h-full object-cover"
-              loading="lazy"
             />
           </div>
           <div class="p-4">
-            <div class="flex items-center justify-between mb-2">
-              <h3 class="font-semibold text-lg">{{ event.name }}</h3>
-              <span
-                class="text-sm bg-purple-50 text-purple-600 px-2 py-1 rounded-full"
-              >
-                {{ event.tags[0] }}
-              </span>
-            </div>
-            <p class="text-gray-600 text-sm mb-4">{{ event.description }}</p>
-            <div class="space-y-2 text-sm">
-              <div class="flex items-center text-gray-500">
-                <span class="w-20">When:</span>
-                <span>
-                  {{ new Date(event.date.start).toLocaleDateString() }},
-                  {{
-                    new Date(event.date.start).toLocaleTimeString([], {
-                      hour: "2-digit",
-                      minute: "2-digit",
-                    })
-                  }}
-                  -
-                  {{
-                    new Date(event.date.end).toLocaleTimeString([], {
-                      hour: "2-digit",
-                      minute: "2-digit",
-                    })
-                  }}
-                </span>
+            <h3 class="font-semibold mb-2">{{ event.name }}</h3>
+            <div class="text-sm text-gray-600">
+              <div class="mb-1">
+                {{ new Date(event.date.start).toLocaleDateString() }}
               </div>
-              <div class="flex items-center text-gray-500">
-                <span class="w-20">Where:</span>
-                <span
-                  >{{ event.location.name }}, {{ event.location.city }}</span
-                >
-              </div>
-              <div class="flex items-center text-gray-500">
-                <span class="w-20">Price:</span>
-                <span>{{
-                  event.price?.amount === 0
-                    ? "Free"
-                    : `${event.price?.amount}${event.price?.currency}`
-                }}</span>
-              </div>
-              <div class="flex items-center text-gray-500">
-                <span class="w-20">By:</span>
-                <span>{{ event.organizer.name }}</span>
-              </div>
+              <div>{{ event.location.city }}, {{ event.location.country }}</div>
             </div>
           </div>
         </NuxtLink>
-      </div>
-    </section>
-
-    <!-- Resources Section -->
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-6">Resources</h2>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow-sm">
-          <h3 class="font-semibold text-lg mb-4">For Beginners</h3>
-          <div class="space-y-4">
-            <NuxtLink
-              v-for="post in beginnerPosts"
-              :key="post.id"
-              :to="`/posts/${post.id}`"
-              class="group block"
-            >
-              <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
-                  <NuxtImg
-                    :src="post.content.cover"
-                    :alt="post.content.title"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flex-1">
-                  <h4 class="font-medium group-hover:text-purple-600">
-                    {{ post.content.title }}
-                  </h4>
-                  <p class="text-sm text-gray-600 line-clamp-1">
-                    {{ post.content.description }}
-                  </p>
-                  <div class="text-xs text-gray-500 mt-1">
-                    {{ post.author.name }} •
-                    {{ new Date(post.timestamp).toLocaleDateString() }}
-                  </div>
-                </div>
-              </div>
-            </NuxtLink>
-          </div>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-sm">
-          <h3 class="font-semibold text-lg mb-4">For Teachers</h3>
-          <div class="space-y-4">
-            <NuxtLink
-              v-for="post in teacherPosts"
-              :key="post.id"
-              :to="`/posts/${post.id}`"
-              class="group block"
-            >
-              <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
-                  <NuxtImg
-                    :src="post.content.cover"
-                    :alt="post.content.title"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flex-1">
-                  <h4 class="font-medium group-hover:text-purple-600">
-                    {{ post.content.title }}
-                  </h4>
-                  <p class="text-sm text-gray-600 line-clamp-1">
-                    {{ post.content.description }}
-                  </p>
-                  <div class="text-xs text-gray-500 mt-1">
-                    {{ post.author.name }} •
-                    {{ new Date(post.timestamp).toLocaleDateString() }}
-                  </div>
-                </div>
-              </div>
-            </NuxtLink>
-          </div>
-        </div>
       </div>
     </section>
   </div>

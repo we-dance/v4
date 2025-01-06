@@ -4,9 +4,93 @@ export interface DanceStyle {
   to: string;
   members: number;
   category: string;
+  family?: string;
+  aliases?: string[];
+  description?: string;
+  characteristics?: string[];
+  musicStyles?: {
+    name: string;
+    description: string;
+    examples: string[];
+  }[];
 }
 
 export const getDanceStyles = (): DanceStyle[] => [
+  // Salsa Family
+  {
+    name: "Salsa",
+    image: "https://images.unsplash.com/photo-1545959570-a94084071b5d",
+    to: "/dance/salsa",
+    members: 2500,
+    category: "Latin",
+    description: "Popular social dance with Latin American roots",
+  },
+  {
+    name: "Cuban Style Salsa",
+    image: "https://images.unsplash.com/photo-1516834474-48c0abc2a902",
+    to: "/dance/salsa/cuban",
+    members: 754,
+    category: "Latin",
+    family: "salsa",
+    aliases: ["Casino", "Salsa Cubana", "Cuban Salsa"],
+    description:
+      "Circular style with Afro-Cuban roots, danced to Son and Timba music",
+    characteristics: [
+      "Circular dance style",
+      "Strong Afro-Cuban influence",
+      "Complex turn patterns (ruedas)",
+      "Emphasis on musicality and improvisation",
+      "Social dance focus",
+    ],
+    musicStyles: [
+      {
+        name: "Timba",
+        description: "Modern Cuban dance music with complex rhythms",
+        examples: ["Los Van Van", "Havana D'Primera", "Pupy y Los Que Son Son"],
+      },
+      {
+        name: "Casino Music",
+        description: "Traditional Cuban dance music",
+        examples: ["Son Cubano", "Rumba", "Guaguancó"],
+      },
+    ],
+  },
+  {
+    name: "LA Style Salsa",
+    image: "https://images.unsplash.com/photo-1504609813442-a8924e83f76e",
+    to: "/dance/salsa/la",
+    members: 680,
+    category: "Latin",
+    family: "salsa",
+    aliases: ["On1", "Linear Salsa"],
+    description:
+      "Linear style danced on beat 1, popular in Los Angeles and worldwide",
+    characteristics: [
+      "Linear dance style",
+      "Danced on beat 1",
+      "Theatrical performance influence",
+      "Emphasis on turns and patterns",
+      "Strong connection to entertainment industry",
+    ],
+  },
+  {
+    name: "NY Style Salsa",
+    image: "https://images.unsplash.com/photo-1547153760-18fc86324498",
+    to: "/dance/salsa/ny",
+    members: 580,
+    category: "Latin",
+    family: "salsa",
+    aliases: ["On2", "Mambo Style"],
+    description:
+      "Linear style danced on beat 2, with strong connection to mambo",
+    characteristics: [
+      "Linear dance style",
+      "Danced on beat 2",
+      "Strong connection to mambo",
+      "Smooth, grounded movement",
+      "Complex musicality",
+    ],
+  },
   // Latin
   {
     name: "Casino",

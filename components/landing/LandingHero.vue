@@ -28,6 +28,55 @@ const danceStyles = computed(() => {
 
   return filtered.slice(0, 3);
 });
+
+const searchResults = computed(() => {
+  if (!searchQuery.value) return null;
+
+  const query = searchQuery.value.toLowerCase();
+  const styles = getDanceStyles();
+
+  // Find exact family match first
+  const family = styles.find(
+    (s) => !s.family && s.name.toLowerCase() === query
+  );
+
+  // Find all styles in the family
+  const familyStyles = styles.filter(
+    (s) => s.family && s.family.toLowerCase() === query
+  );
+
+  // Find styles by name or aliases
+  const styleMatches = styles.filter(
+    (s) =>
+      s.name.toLowerCase().includes(query) ||
+      s.aliases?.some((a) => a.toLowerCase().includes(query))
+  );
+
+  if (family || familyStyles.length > 0) {
+    // If it's a family search, show family + its styles
+    return {
+      family,
+      styles: familyStyles,
+      type: "family",
+    };
+  }
+
+  if (styleMatches.length > 0) {
+    // If it's a style search, show parent family + matching styles
+    const firstMatch = styleMatches[0];
+    const parentFamily = styles.find(
+      (s) => !s.family && s.name.toLowerCase() === firstMatch.family
+    );
+
+    return {
+      family: parentFamily,
+      styles: styleMatches,
+      type: "style",
+    };
+  }
+
+  return null;
+});
 </script>
 
 <template>
@@ -50,14 +99,14 @@ const danceStyles = computed(() => {
             discover events worldwide
           </p>
 
-          <!-- Dance Style Selection -->
+          <!-- Search Section -->
           <div class="flex flex-col items-center gap-8">
             <div class="w-full max-w-lg">
               <div class="relative group">
                 <Input
                   v-model="searchQuery"
                   variant="on-dark"
-                  placeholder="Search dance styles..."
+                  placeholder="Try 'salsa' or search by style..."
                   class="h-14 pl-12 pr-4 text-lg font-medium rounded-2xl"
                 />
                 <Icon
@@ -82,7 +131,66 @@ const danceStyles = computed(() => {
               </div>
             </div>
 
-            <div class="grid grid-cols-3 gap-6 w-full max-w-3xl mx-auto">
+            <!-- Search Results -->
+            <div v-if="searchResults" class="w-full max-w-3xl">
+              <!-- Family Card -->
+              <div
+                v-if="searchResults.family"
+                class="bg-white/10 backdrop-blur-md rounded-xl p-6 mb-6"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 class="text-xl font-semibold text-white mb-2">
+                      {{ searchResults.family.name }}
+                    </h3>
+                    <p class="text-white/80">
+                      {{ searchResults.family.description }}
+                    </p>
+                  </div>
+                  <NuxtLink
+                    :to="searchResults.family.to"
+                    class="px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-colors"
+                  >
+                    Explore Family
+                  </NuxtLink>
+                </div>
+              </div>
+
+              <!-- Style Cards -->
+              <div class="grid md:grid-cols-2 gap-4">
+                <NuxtLink
+                  v-for="style in searchResults.styles"
+                  :key="style.to"
+                  :to="style.to"
+                  class="bg-white/10 backdrop-blur-md rounded-xl p-6 hover:bg-white/20 transition-colors group"
+                >
+                  <h4 class="text-lg font-semibold text-white mb-2">
+                    {{ style.name }}
+                  </h4>
+                  <p class="text-white/70 text-sm mb-3">
+                    {{ style.description }}
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      v-for="alias in style.aliases"
+                      :key="alias"
+                      class="px-2 py-1 bg-white/10 text-white/90 text-xs rounded-full"
+                    >
+                      {{ alias }}
+                    </span>
+                  </div>
+                  <div class="mt-4 text-sm text-white/60">
+                    {{ style.members.toLocaleString() }} dancers
+                  </div>
+                </NuxtLink>
+              </div>
+            </div>
+
+            <!-- Popular Styles (when no search) -->
+            <div
+              v-else
+              class="grid md:grid-cols-3 gap-6 w-full max-w-3xl mx-auto"
+            >
               <StyleCard
                 v-for="style in danceStyles"
                 :key="style.name"
