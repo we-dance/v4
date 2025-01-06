@@ -41,32 +41,7 @@ watch(
               to="/"
               class="flex items-center gap-2 text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
             >
-              <svg
-                width="32"
-                height="32"
-                viewBox="0 0 200 200"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="text-primary"
-              >
-                <path
-                  d="
-                    M 60,100
-                    C 60,80 80,70 100,70
-                    C 120,70 140,80 140,100
-                    C 140,120 120,130 100,130
-                    C 80,130 60,120 60,100
-                    Z
-                    M 100,50
-                    C 70,50 40,70 40,100
-                    C 40,130 70,150 100,150
-                    C 130,150 160,130 160,100
-                    C 160,70 130,50 100,50
-                    Z
-                  "
-                  class="fill-current"
-                />
-              </svg>
+              <img src="/logo.svg" alt="WeDance" class="w-8 h-8" />
               <span class="text-xl font-bold">WeDance</span>
             </NuxtLink>
           </div>
