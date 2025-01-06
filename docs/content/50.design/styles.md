@@ -1452,3 +1452,135 @@ This hybrid approach:
 - Better matches how people learn dance
 
 Would you like me to show how this could be implemented in the code?
+
+## Iteration 12
+
+so in suggestions I see "salsa", do you think it's a good approach? or is it better to list in suggestions only dance styles but when they search show results for salsa? or you think people might relate better if they see "salsa"?
+
+## Iteration 12 Answer
+
+Let me analyze how people typically search for dance styles:
+
+1. **How Beginners Search**
+
+   - "I want to learn salsa"
+   - "Salsa classes near me"
+   - They rarely search directly for "LA Style" or "Casino"
+
+2. **How Experienced Dancers Search**
+   - "On1 classes"
+   - "Casino social"
+   - More specific style names
+
+Given this behavior, here's my recommendation for search suggestions:
+
+```vue
+<template>
+  <SearchBar>
+    <!-- Initial Popular Suggestions (before typing) -->
+    <PopularSearches>
+      <Chip>Cuban Style Salsa</Chip>
+      <Chip>LA Style Salsa</Chip>
+      <Chip>NY Style Salsa</Chip>
+    </PopularSearches>
+
+    <!-- Dynamic Suggestions (while typing "sa") -->
+    <SearchSuggestions>
+      <!-- Show specific styles first -->
+      <SuggestionGroup label="Popular Styles">
+        <Suggestion>
+          Cuban Style Salsa
+          <Badge>Casino</Badge>
+        </Suggestion>
+        <Suggestion>
+          LA Style Salsa
+          <Badge>On1</Badge>
+        </Suggestion>
+      </SuggestionGroup>
+
+      <!-- Then related styles -->
+      <SuggestionGroup label="Related">
+        <Suggestion>Salsa Bachata Fusion</Suggestion>
+        <Suggestion>Mambo (NY Style)</Suggestion>
+      </SuggestionGroup>
+    </SearchSuggestions>
+  </SearchBar>
+</template>
+```
+
+This approach:
+
+1. Shows specific styles in suggestions
+2. But when they search "salsa", shows the family overview
+3. Helps users discover styles they didn't know about
+4. Still works for general "salsa" searches
+
+The key is to:
+
+- Guide users to specific styles
+- But not force them to choose immediately
+- Show relationships between styles
+- Support both beginner and experienced search patterns
+
+Would you like me to show how to implement this improved search behavior?
+
+## Iteration 13
+
+In "salsa" it currently shows "2,500" dancers, what that number means?
+
+## Iteration 13 Answer
+
+Looking at our current data in `mockStyles.ts`, we have:
+
+```typescript
+{
+  name: "Salsa",
+  image: "https://images.unsplash.com/photo-1545959570-a94084071b5d",
+  to: "/dance/salsa",
+  members: 2500,  // This number
+  category: "Latin",
+  description: "Popular social dance with Latin American roots",
+}
+```
+
+You're right to question this - the number is problematic because:
+
+1. It's unclear what it represents:
+
+   - All salsa dancers?
+   - Platform users who selected salsa?
+   - Active community members?
+
+2. It's misleading because:
+   - We also show numbers for specific styles (Cuban: 754, LA: 680, NY: 580)
+   - These numbers don't add up logically
+   - One person might dance multiple styles
+
+Better approaches could be:
+
+1. **For Dance Family (Salsa)**
+
+   ```typescript
+   stats: {
+     totalCommunities: 12,      // Number of active communities
+     weeklyEvents: 45,          // Events this week
+     activeDancers: "2.5K+"     // Active in any salsa style
+   }
+   ```
+
+2. **For Specific Styles**
+   ```typescript
+   stats: {
+     activeDancers: 754,        // Active in this specific style
+     regularEvents: 8,          // Weekly events
+     teachers: 12               // Active teachers
+   }
+   ```
+
+Would you like me to update the data structure to make these numbers more meaningful and accurate?
+
+## Iteration 14
+
+What about fusion styles? like salsa bachata fusion? do we need to show them?
+
+## Iteration 14 Answer

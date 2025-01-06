@@ -5,10 +5,32 @@ import { getDanceStyles } from "@/data/mockStyles";
 // Search state
 const searchQuery = ref("");
 
+// Popular styles to show initially
+const popularStyles = computed(() => {
+  const styles = getDanceStyles();
+  const familyShown = new Set(); // Track which families we've shown
+
+  // Show styles with most members, but only one per family
+  return styles
+    .filter((style) => style.stats?.members) // Only show styles with member stats
+    .sort((a, b) => {
+      const aMembers = a.stats?.members || 0;
+      const bMembers = b.stats?.members || 0;
+      return bMembers - aMembers;
+    })
+    .filter((style) => {
+      if (!style.family) return false; // Skip family pages
+      if (familyShown.has(style.family)) return false; // Skip if we already showed this family
+      familyShown.add(style.family); // Mark this family as shown
+      return true;
+    })
+    .slice(0, 3);
+});
+
 // Dance styles with filter
 const danceStyles = computed(() => {
   const styles = getDanceStyles();
-  if (!searchQuery.value) return styles.slice(0, 3);
+  if (!searchQuery.value) return popularStyles.value;
 
   const query = searchQuery.value.toLowerCase();
   const filtered = styles.filter((style) =>
@@ -21,7 +43,12 @@ const danceStyles = computed(() => {
         name: "Can't find your style?",
         image: "/images/dance-styles/not-found.jpg",
         to: "/contact",
-        members: 0,
+        category: "Other",
+        description: "Contact us to add your dance style",
+        stats: {
+          members: 0,
+          teachers: 0,
+        },
       },
     ];
   }
@@ -147,12 +174,25 @@ const searchResults = computed(() => {
                       {{ searchResults.family.description }}
                     </p>
                   </div>
-                  <NuxtLink
-                    :to="searchResults.family.to"
-                    class="px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-colors"
-                  >
-                    Explore Family
-                  </NuxtLink>
+                </div>
+
+                <!-- Family Stats -->
+                <div
+                  v-if="searchResults.family.stats"
+                  class="flex gap-6 mt-4 text-white/90"
+                >
+                  <div>
+                    <div class="text-2xl font-bold">
+                      {{ searchResults.family.stats.communities }}
+                    </div>
+                    <div class="text-sm text-white/70">Communities</div>
+                  </div>
+                  <div>
+                    <div class="text-2xl font-bold">
+                      {{ searchResults.family.stats.teachers }}
+                    </div>
+                    <div class="text-sm text-white/70">Teachers</div>
+                  </div>
                 </div>
               </div>
 
@@ -170,6 +210,25 @@ const searchResults = computed(() => {
                   <p class="text-white/70 text-sm mb-3">
                     {{ style.description }}
                   </p>
+
+                  <!-- Style Stats -->
+                  <div
+                    v-if="style.stats"
+                    class="flex gap-4 mb-3 text-white/90 text-sm"
+                  >
+                    <div>
+                      <Icon name="ph:users" class="w-4 h-4 inline mr-1" />
+                      {{ style.stats.members }} dancers
+                    </div>
+                    <div>
+                      <Icon
+                        name="ph:graduation-cap"
+                        class="w-4 h-4 inline mr-1"
+                      />
+                      {{ style.stats.teachers }} teachers
+                    </div>
+                  </div>
+
                   <div class="flex flex-wrap gap-2">
                     <span
                       v-for="alias in style.aliases"
@@ -178,9 +237,6 @@ const searchResults = computed(() => {
                     >
                       {{ alias }}
                     </span>
-                  </div>
-                  <div class="mt-4 text-sm text-white/60">
-                    {{ style.members.toLocaleString() }} dancers
                   </div>
                 </NuxtLink>
               </div>

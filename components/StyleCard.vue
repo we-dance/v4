@@ -1,13 +1,8 @@
 <script setup lang="ts">
-interface Style {
-  name: string;
-  image: string;
-  to: string;
-  members: number;
-}
+import type { DanceStyle } from "~/data/mockStyles";
 
 defineProps<{
-  style: Style;
+  style: DanceStyle;
 }>();
 </script>
 
@@ -27,8 +22,15 @@ defineProps<{
     ></div>
     <div class="relative h-full p-4 flex flex-col justify-end text-left">
       <h3 class="font-bold text-xl text-white">{{ style.name }}</h3>
-      <div v-if="style.members > 0" class="text-sm text-white/80">
-        <p class="flex items-center gap-1">{{ style.members }} members</p>
+      <div v-if="style.stats" class="text-sm text-white/80">
+        <p v-if="style.stats.members" class="flex items-center gap-1">
+          <Icon name="ph:users" class="w-4 h-4" />
+          {{ style.stats.members }} dancers
+        </p>
+        <p v-else-if="style.stats.communities" class="flex items-center gap-1">
+          <Icon name="ph:buildings" class="w-4 h-4" />
+          {{ style.stats.communities }} communities
+        </p>
       </div>
     </div>
   </NuxtLink>
