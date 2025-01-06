@@ -1,5 +1,103 @@
 # Dance Styles
 
+## Overview
+
+Based on our detailed discussion, here are the key questions we need to address with the dance community to validate and refine our approach:
+
+1. **Style Organization**
+
+   - How do you prefer to discover new dance styles?
+   - What terminology do you use for your style? (e.g., "On1" vs "LA Style" vs "Linear")
+   - Should fusion styles (like salsa-bachata) be listed separately or within parent styles?
+
+2. **Community Structure**
+
+   - Should sub-styles have separate communities (e.g., Rueda within Cuban Salsa)?
+   - How do you want to organize cross-style communities?
+   - What makes you join or stay active in a dance community?
+
+3. **Navigation & Discovery**
+
+   - When you search for dance styles, what terms do you use?
+   - How do you prefer to compare different styles?
+   - What information helps you choose a style to learn?
+
+4. **Music Integration**
+
+   - How important is music understanding to your dance journey?
+   - How do you discover music for your dance style?
+   - Should music genres have their own pages or be integrated into dance pages?
+
+5. **Local Context**
+
+   - How important is seeing local activity in search results?
+   - What local information is most valuable? (events, teachers, venues?)
+   - How do you want to connect with your local dance scene?
+
+6. **Beginner Journey**
+   - What confused you most when starting to dance?
+   - How did you choose your first dance style?
+   - What would have made your learning journey easier?
+
+These questions would help us validate our assumptions and ensure we're building something that truly serves the dance community's needs.
+
+## Use Cases
+
+Let me reformulate these as specific, actionable questions with concrete examples:
+
+1. **Style Names & Discovery**
+
+   - When you hear "Cuban Salsa" and "Casino", which name resonates more with you?
+   - If you search for "salsa classes", what specific style information would help you choose?
+   - When you see "LA Style (On1)" vs just "Salsa On1", which makes more sense to you?
+
+2. **Style Relationships**
+
+   - Should Rueda be shown as:
+     a) Part of Cuban Salsa community
+     b) Its own separate community
+     c) Both with cross-references?
+   - When you dance multiple styles (e.g., both On1 and On2), do you see these as separate communities or one salsa community?
+
+3. **Navigation Structure**
+
+   - Which URL would you expect to find Cuban style salsa at:
+     a) `/dance/casino`
+     b) `/dance/salsa/cuban`
+     c) `/dance/cuban-salsa`
+   - When searching for "bachata", would you prefer to:
+     a) See all styles immediately (Dominican, Modern, Sensual)
+     b) Land on a general bachata page first, then explore styles
+
+4. **Local Scene Integration**
+
+   - When you search for "salsa", what's more important to see first:
+     a) Different style explanations
+     b) Tonight's events
+     c) Local teachers
+   - Would you prefer to join:
+     a) One city-wide salsa community
+     b) Specific style communities (e.g., LA Style Berlin)
+     c) Both options
+
+5. **Music Connection**
+
+   - If you're dancing Cuban style, would you prefer:
+     a) Music info integrated in the Cuban style page
+     b) Separate pages for Timba, Son, etc.
+   - When exploring a style, how important is it to:
+     a) See example songs
+     b) Understand music structure
+     c) Learn about music history
+
+6. **Beginner Guidance**
+   - When starting salsa, what would be more helpful:
+     a) Immediate style comparison (On1 vs On2 vs Cuban)
+     b) General salsa introduction first
+   - Would a "Find Your Style" quiz be useful with questions like:
+     a) "Do you prefer structured or freestyle movement?"
+     b) "What kind of music do you enjoy more?"
+
 ## Iteration 1
 
 we were talking about dance communities, our platform communities, dance styles and tags. now let's think from ux perspective. we have 2 different concepts: /dance/casino (opens /dance/[style]/index) and /dance/salsa and /dance/salsa/cuban.
