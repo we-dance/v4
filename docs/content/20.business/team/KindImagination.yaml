@@ -1,0 +1,108 @@
+name: "Egor Kruglov"
+title: "Junior Full Stack Developer"
+summary: "A dedicated Application Developer with expertise in modern web development, artificial intelligence, and a passion for innovative and efficient solutions. Known for analytical thinking, problem-solving skills, and a continuous drive to learn and grow in the field."
+
+quick_info:
+  location: "Munich, Bavaria, Germany"
+  experience: "2+ years"
+  languages:
+    - "Russian (Native)"
+    - "German (Professional proficiency)"
+    - "English (Professional proficiency)"
+  contact:
+    email: "egorkruglov@gmail.com"
+    linkedin: "egor-kruglov-28a6b5239"
+    github: "KindImagination"
+
+technical_expertise:
+  frontend_development:
+    title: "Frontend Development"
+    skills:
+      - "HTML"
+      - "CSS"
+      - "Angular"
+      - "React"
+      - "Vue.js"
+
+  backend_infrastructure:
+    title: "Backend & Infrastructure"
+    skills:
+      - "Java"
+      - "Kotlin"
+      - "Spring"
+      - "Python, Django"
+      - "Docker, CI/CD Pipelines"
+      - "AWS"
+      - "SQL & NoSQL Databases"
+
+certifications:
+  - title: "Frontend Development"
+    issuer: "Training Program"
+    date: "2021-2022"
+    description: "Basics of Frontend Development, Advanced Frontend and Backend Development"
+
+  - title: "Technical Stack"
+    issuer: "Professional Training"
+    date: "2023-2024"
+    description: "Docker, Angular, Java, Kotlin, C++"
+
+professional_experience:
+  - company: "Be Shaping The Future"
+    position: "IT Consultant"
+    period: "Aug 2024 - Dec 2024"
+    responsibilities:
+      - "Backend development using Django framework"
+      - "C++ application development"
+      - "IT consulting services"
+
+  - company: "Be Shaping The Future"
+    position: "IT Consultant & Application Developer Trainee"
+    period: "May 2022 - Jul 2024"
+    responsibilities:
+      - "Full-stack development projects"
+      - "Formal IT qualification training"
+
+major_projects:
+  - name: "Scan Spend"
+    role: "Full Stack Developer"
+    period: "2023-2024"
+    achievements:
+      - "Implemented AI model fine-tuning using 400+ manually verified receipts"
+      - "Created comprehensive dataset with manual verification"
+      - "Developed REST API for the service"
+      - "Implemented Docker containerization"
+      - "Successfully deployed the project to production"
+
+  - name: "Custom Web Components Library"
+    role: "Frontend Developer"
+    period: "2022-2023"
+    achievements:
+      - "Developed highly reusable custom components"
+      - "Created comprehensive documentation"
+      - "Focused on developer experience and ease of use"
+      - "Implemented best practices for component architecture"
+
+leadership_process:
+  process_improvement:
+    - "AI Implementation"
+    - "Development Standards"
+    - "Documentation Management"
+
+  team_leadership:
+    - "Technical Collaboration"
+    - "Code Review Participation"
+    - "Knowledge Sharing"
+
+education:
+  - institution: "Städtische Berufsschule für Informationstechnik"
+    degree: "Secondary Education Certificate (Mittlere Reife)"
+    period: "Sep 2021 - Jul 2024"
+    achievements:
+      - "Information Technology specialization"
+      - "GPA: 2.3"
+
+speaking_community:
+  conference_talks: []
+  community_involvement: []
+
+volunteering: [] 
