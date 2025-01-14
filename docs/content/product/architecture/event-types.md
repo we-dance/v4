@@ -134,3 +134,40 @@
 
 - Live group classes
 - Live workshops
+
+# Event Schema Documentation
+
+## Schema Organization
+The event schema is organized into several types to handle different kinds of events:
+- Workshop Events
+- Festival Events
+- Concert Events
+- Party Events
+
+## Completed Steps ✅
+1. Schema alignment with mock data structure
+2. Schema organization and type definitions
+3. Price handling standardization across components
+   - Added festival type support
+   - Fixed free event detection
+   - Implemented currency conversion
+   - Unified price display logic
+
+## Remaining Steps
+1. Component Updates
+   - Update event creation form
+   - Add validation for event fields
+   - Implement event editing functionality
+   - Add event deletion confirmation
+
+2. Data Layer Migration
+   - Move from mock data to API endpoints
+   - Implement proper error handling
+   - Add loading states
+   - Cache frequently accessed data
+
+3. Schema.org Alignment
+   - Review schema.org Event standards
+   - Implement required properties
+   - Add recommended properties
+   - Validate against schema.org requirements

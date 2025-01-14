@@ -31,15 +31,22 @@ export const EventLocationSchema = z.object({
 });
 
 export const EventOrganizerSchema = z.object({
-  id: z.string(),
+  id: z.string().optional(),
   name: z.string(),
   image: z.string(),
   points: z.number().optional(),
 });
 
+export const EventStatsSchema = z.object({
+  interested: z.number().default(0),
+  saves: z.number().default(0),
+  views: z.number().default(0),
+  shares: z.number().default(0),
+});
+
 // Base event schema
 export const BaseEventSchema = z.object({
-  id: z.string(),
+  id: z.number(),
   name: z.string(),
   type: z.enum(["party", "workshop", "concert", "festival"]),
   date: z.object({
@@ -52,17 +59,10 @@ export const BaseEventSchema = z.object({
   prices: z.array(EventPriceSchema).optional(),
   tags: z.array(z.string()),
   status: z.enum(["upcoming", "ongoing", "past"]),
-  artists: z.array(z.string()),
+  artists: z.array(z.union([z.string(), z.number()])),
   organizer: EventOrganizerSchema,
-  schedule: z.array(EventScheduleItemSchema),
-  stats: z
-    .object({
-      interested: z.number().default(0),
-      saves: z.number().default(0),
-      views: z.number().default(0),
-      shares: z.number().default(0),
-    })
-    .optional(),
+  schedule: z.array(EventScheduleItemSchema).optional(),
+  stats: EventStatsSchema.optional(),
 });
 
 // Specific event types
@@ -72,6 +72,7 @@ export const PartyEventSchema = BaseEventSchema.extend({
 
 export const WorkshopEventSchema = BaseEventSchema.extend({
   type: z.literal("workshop"),
+  level: z.enum(["beginner", "intermediate", "advanced", "all"]).optional(),
   level: z.enum(["beginner", "intermediate", "advanced", "all"]),
 });
 
@@ -85,24 +86,32 @@ export const ConcertEventSchema = BaseEventSchema.extend({
     .optional(),
 });
 
+export const FestivalEventSchema = BaseEventSchema.extend({
+  type: z.literal("festival"),
+  prices: z.array(EventPriceItemSchema),
+});
+
 // Export types
 export type EventPrice = z.infer<typeof EventPriceSchema>;
+export type EventPriceItem = z.infer<typeof EventPriceItemSchema>;
 export type EventLocation = z.infer<typeof EventLocationSchema>;
 export type EventOrganizer = z.infer<typeof EventOrganizerSchema>;
+export type EventStats = z.infer<typeof EventStatsSchema>;
 export type BaseEvent = z.infer<typeof BaseEventSchema>;
 export type PartyEvent = z.infer<typeof PartyEventSchema>;
 export type WorkshopEvent = z.infer<typeof WorkshopEventSchema>;
 export type ConcertEvent = z.infer<typeof ConcertEventSchema>;
+export type FestivalEvent = z.infer<typeof FestivalEventSchema>;
 
 export type AnyEvent = PartyEvent | WorkshopEvent | ConcertEvent;
 export type Price = z.infer<typeof EventPriceSchema>;
 
 // Conversion to feed post
 export const eventToFeedPost = (event: AnyEvent): Post => ({
-  id: parseInt(event.id),
+  id: event.id,
   type: "event",
   author: {
-    id: event.organizer.id,
+    id: event.organizer.id || String(event.id),
     name: event.organizer.name,
     image: event.organizer.image,
     location: event.location.city,
@@ -120,7 +129,7 @@ export const eventToFeedPost = (event: AnyEvent): Post => ({
     },
     tags: event.tags,
   },
-  timestamp: "3 hours ago",
+  timestamp: new Date(event.date.start).toLocaleString(),
   stats: {
     interested: event.stats?.interested || 0,
     comments: 0,

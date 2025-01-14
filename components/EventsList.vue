@@ -4,6 +4,40 @@ import { mockEvents } from "~/data/mockEvents";
 import type { AnyEvent } from "~/schemas/event";
 import EventCard from "~/components/event/EventCard.vue";
 
+// Get minimum price for an event
+const getMinPrice = (event: AnyEvent): { amount: number; currency: string } => {
+  // Check if event is free
+  if (event.price?.type === "free") {
+    return { amount: 0, currency: event.price.currency || "EUR" };
+  }
+
+  // Check prices array first
+  if (event.prices?.length) {
+    const minPrice = event.prices.reduce((min, p) => p.amount < min.amount ? p : min, event.prices[0]);
+    return { amount: minPrice.amount, currency: minPrice.currency };
+  }
+
+  // Then check single price
+  if (event.price) {
+    return { amount: event.price.amount, currency: event.price.currency };
+  }
+
+  // If no price information at all, consider it free
+  return { amount: 0, currency: "EUR" };
+};
+
+// Currency conversion rates (simplified for example)
+const currencyRates = {
+  EUR: 1,
+  GBP: 1.17, // 1 GBP = 1.17 EUR
+  USD: 0.92  // 1 USD = 0.92 EUR
+};
+
+// Convert price to EUR for comparison
+const convertToEUR = (price: { amount: number; currency: string }): number => {
+  return price.amount * (currencyRates[price.currency as keyof typeof currencyRates] || 1);
+};
+
 const events = ref(mockEvents);
 
 // Primary filter states
@@ -109,20 +143,18 @@ const filteredEvents = computed(() => {
   // Price range filter
   if (selectedPriceRange.value !== "all") {
     filtered = filtered.filter((event) => {
-      // Get minimum price from either single price or multiple prices
-      const minPrice =
-        event.price?.amount ||
-        (event.prices ? Math.min(...event.prices.map((p) => p.amount)) : 0);
+      const price = getMinPrice(event);
+      const priceInEUR = convertToEUR(price);
 
       switch (selectedPriceRange.value) {
         case "free":
-          return minPrice === 0;
+          return priceInEUR === 0 || event.price?.type === "free";
         case "0-20":
-          return minPrice > 0 && minPrice <= 20;
+          return priceInEUR > 0 && priceInEUR <= 20;
         case "20-50":
-          return minPrice > 20 && minPrice <= 50;
+          return priceInEUR > 20 && priceInEUR <= 50;
         case "50+":
-          return minPrice > 50;
+          return priceInEUR > 50;
         default:
           return true;
       }
@@ -143,11 +175,11 @@ const sortedEvents = computed(() => {
       );
     case "price-low":
       return events.sort(
-        (a, b) => (a.price?.amount || 0) - (b.price?.amount || 0)
+        (a, b) => convertToEUR(getMinPrice(a)) - convertToEUR(getMinPrice(b))
       );
     case "price-high":
       return events.sort(
-        (a, b) => (b.price?.amount || 0) - (a.price?.amount || 0)
+        (a, b) => convertToEUR(getMinPrice(b)) - convertToEUR(getMinPrice(a))
       );
     default:
       return events;

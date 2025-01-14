@@ -51,37 +51,48 @@ const relatedEvents = computed(() => {
   return mockEvents
     .filter(
       (e) =>
-        String(e.id) !== String(event.value?.id) &&
+        e.id !== event.value?.id &&
         (e.type === event.value?.type ||
           e.tags.some((t) => event.value?.tags.includes(t)))
     )
-    .map((e) => {
+    .map((e): AnyEvent => {
+      // Base event properties are already correct
       const base = {
         ...e,
-        id: String(e.id),
         schedule: e.schedule || [],
-        type: e.type as "party" | "workshop" | "concert",
       };
 
-      // Add required properties based on type
-      if (base.type === "workshop") {
-        return {
-          ...base,
-          prices: [],
-          level: "all" as const,
-        };
+      // Return type-specific event
+      switch (base.type) {
+        case "workshop":
+          return {
+            ...base,
+            type: "workshop",
+            level: base.level || "all",
+            prices: base.prices || [],
+          };
+        case "concert":
+          return {
+            ...base,
+            type: "concert",
+            venue: base.venue || { capacity: 0, seating: false },
+          };
+        case "festival":
+          return {
+            ...base,
+            type: "festival",
+            prices: base.prices || [],
+          };
+        case "party":
+          return {
+            ...base,
+            type: "party",
+          };
+        default:
+          throw new Error(`Unknown event type: ${base.type}`);
       }
-
-      if (base.type === "concert") {
-        return {
-          ...base,
-          venue: { capacity: 0, seating: false },
-        };
-      }
-
-      return base;
     })
-    .slice(0, 2) as unknown as AnyEvent[];
+    .slice(0, 2);
 });
 
 // Event availability status

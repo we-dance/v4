@@ -86,3 +86,59 @@ API-specific schemas are located in `/server/trpc/schemas`:
    - Keep schemas DRY
    - Update all related schemas when making changes
    - Consider backwards compatibility
+
+## Schema Documentation
+
+### Event Schema Refactoring
+
+### Completed Steps
+
+1. Schema Alignment with Mock Data
+   - ✅ Changed ID type from string to number
+   - ✅ Added support for "free" price type
+   - ✅ Made schedule field optional
+   - ✅ Added support for multiple prices (prices array)
+   - ✅ Added support for mixed artist IDs (string | number)
+   - ✅ Made organizer ID optional
+   - ✅ Added FestivalEvent type
+   - ✅ Extracted EventStatsSchema
+   - ✅ Updated Post schema to support events
+   - ✅ Fixed eventToFeedPost conversion
+
+2. Schema Organization
+   - ✅ Consolidated all event-related schemas in one file
+   - ✅ Added proper type exports
+   - ✅ Added proper schema validation
+
+### Remaining Steps
+
+1. Component Updates
+   - [ ] Fix relatedEvents type casting in event detail page
+   - [ ] Update price filtering in EventsList to handle multiple price formats
+   - [ ] Update price sorting in EventsList to consider both price and prices fields
+   - [ ] Add festival type handling in event detail page
+
+2. Data Layer Migration
+   - [ ] Migrate mocks to load from tRPC
+   - [ ] Align interfaces with schema.org standards
+   - [ ] Analyze schema differences between v3, prisma and v4
+   - [ ] Plan data migration strategy
+   - [ ] Set up Prisma + PostgreSQL database
+
+### Schema.org Alignment (Pending)
+
+The next major step will be aligning our schemas with schema.org standards. We will need to:
+
+1. Research relevant schema.org types:
+   - [ ] Event
+   - [ ] MusicEvent
+   - [ ] DanceEvent
+   - [ ] Festival
+   - [ ] Course
+
+2. Map our fields to schema.org properties:
+   - [ ] Basic properties (name, description, etc.)
+   - [ ] Temporal properties (startDate, endDate, duration)
+   - [ ] Spatial properties (location, venue)
+   - [ ] Organizational properties (organizer, performer)
+   - [ ] Commercial properties (offers, price)
