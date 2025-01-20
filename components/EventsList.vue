@@ -171,7 +171,7 @@ const sortedEvents = computed(() => {
   switch (sortBy.value) {
     case "date":
       return events.sort(
-        (a, b) => new Date(a.date.start) - new Date(b.date.start)
+        (a, b) => +new Date(a.date.start) - +new Date(b.date.start)
       );
     case "price-low":
       return events.sort(
