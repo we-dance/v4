@@ -6,23 +6,13 @@ import EventCard from "~/components/event/EventCard.vue";
 
 // Get minimum price for an event
 const getMinPrice = (event: AnyEvent): { amount: number; currency: string } => {
-  // Check if event is free
-  if (event.price?.type === "free") {
-    return { amount: 0, currency: event.price.currency || "EUR" };
-  }
-
-  // Check prices array first
+  // Check prices array
   if (event.prices?.length) {
     const minPrice = event.prices.reduce((min, p) => p.amount < min.amount ? p : min, event.prices[0]);
     return { amount: minPrice.amount, currency: minPrice.currency };
   }
 
-  // Then check single price
-  if (event.price) {
-    return { amount: event.price.amount, currency: event.price.currency };
-  }
-
-  // If no price information at all, consider it free
+  // If no prices, consider it free
   return { amount: 0, currency: "EUR" };
 };
 
@@ -148,7 +138,7 @@ const filteredEvents = computed(() => {
 
       switch (selectedPriceRange.value) {
         case "free":
-          return priceInEUR === 0 || event.price?.type === "free";
+          return priceInEUR === 0;
         case "0-20":
           return priceInEUR > 0 && priceInEUR <= 20;
         case "20-50":

@@ -7,14 +7,16 @@ defineProps<{
 }>();
 
 const getPrice = (event: AnyEvent) => {
-  if ((event.type === "workshop" || event.type === "festival") && event.prices?.length > 0) {
-    const lowestPrice = event.prices.reduce(
-      (min, p) => (p.amount < min.amount ? p : min),
-      event.prices[0]
-    );
-    return `From ${lowestPrice.amount} ${lowestPrice.currency}`;
-  }
-  return event.price?.type === "free" ? "Free" : event.price ? `${event.price.amount} ${event.price.currency}` : "Free";
+  if (!event.prices?.length) return "Free";
+
+  const lowestPrice = event.prices.reduce(
+    (min, p) => (p.amount < min.amount ? p : min),
+    event.prices[0]
+  );
+
+  // If there is more than one price, show "From"
+  const prefix = event.prices.length > 1 ? "From " : "";
+  return `${prefix}${lowestPrice.amount} ${lowestPrice.currency}`;
 };
 </script>
 

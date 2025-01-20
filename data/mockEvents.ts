@@ -227,6 +227,7 @@ export const mockEvents: AnyEvent[] = [
     id: 500,
     name: "Cuban Open Air",
     type: "party",
+    artists: [],
     date: {
       start: "2023-10-18T19:00:00",
       end: "2023-10-18T23:00:00",
@@ -261,6 +262,7 @@ export const mockEvents: AnyEvent[] = [
     id: 501,
     name: "Timba Night",
     type: "party",
+    artists: ["local_band"],
     date: {
       start: "2023-10-21T21:00:00",
       end: "2023-10-22T03:00:00",
@@ -296,6 +298,7 @@ export const mockEvents: AnyEvent[] = [
     id: 502,
     name: "Rueda de Casino Workshop",
     type: "workshop",
+    artists: ["instructor_1"],
     date: {
       start: "2023-10-22T14:00:00",
       end: "2023-10-22T17:00:00",

@@ -72,8 +72,7 @@ export const PartyEventSchema = BaseEventSchema.extend({
 
 export const WorkshopEventSchema = BaseEventSchema.extend({
   type: z.literal("workshop"),
-  level: z.enum(["beginner", "intermediate", "advanced", "all"]).optional(),
-  level: z.enum(["beginner", "intermediate", "advanced", "all"]),
+  level: z.enum(["beginner", "intermediate", "advanced", "all"]).optional()
 });
 
 export const ConcertEventSchema = BaseEventSchema.extend({
@@ -88,12 +87,11 @@ export const ConcertEventSchema = BaseEventSchema.extend({
 
 export const FestivalEventSchema = BaseEventSchema.extend({
   type: z.literal("festival"),
-  prices: z.array(EventPriceItemSchema),
+  prices: z.array(EventPriceSchema),
 });
 
 // Export types
 export type EventPrice = z.infer<typeof EventPriceSchema>;
-export type EventPriceItem = z.infer<typeof EventPriceItemSchema>;
 export type EventLocation = z.infer<typeof EventLocationSchema>;
 export type EventOrganizer = z.infer<typeof EventOrganizerSchema>;
 export type EventStats = z.infer<typeof EventStatsSchema>;
@@ -103,7 +101,7 @@ export type WorkshopEvent = z.infer<typeof WorkshopEventSchema>;
 export type ConcertEvent = z.infer<typeof ConcertEventSchema>;
 export type FestivalEvent = z.infer<typeof FestivalEventSchema>;
 
-export type AnyEvent = PartyEvent | WorkshopEvent | ConcertEvent;
+export type AnyEvent = PartyEvent | WorkshopEvent | ConcertEvent | FestivalEvent;
 export type Price = z.infer<typeof EventPriceSchema>;
 
 // Conversion to feed post
@@ -123,9 +121,9 @@ export const eventToFeedPost = (event: AnyEvent): Post => ({
     image: event.image,
     date: event.date.start,
     location: `${event.location.name}, ${event.location.city}`,
-    price: event.price && {
-      amount: event.price.amount,
-      currency: event.price.currency,
+    price: event.prices?.[0] && {
+      amount: event.prices[0].amount,
+      currency: event.prices[0].currency,
     },
     tags: event.tags,
   },
