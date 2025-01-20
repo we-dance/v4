@@ -1,33 +1,13 @@
 <script setup lang="ts">
-import { Calendar } from "@/components/ui/calendar";
+import { ref } from "vue";
+import { Calendar } from "~/components/ui/calendar";
 import { format } from "date-fns";
 import { today, getLocalTimeZone } from "@internationalized/date";
-
-interface Area {
-  id: number;
-  name: string;
-  description: string;
-  pricePerHour: number;
-  capacity: number;
-  size: {
-    width: number;
-    length: number;
-    height: number;
-    unit: string;
-  };
-  amenities: string[];
-  floorType: string;
-  images: string[];
-  availability: Record<string, string>;
-}
+import type { DialogArea, DialogVenue } from "~/types/dialog";
 
 interface Props {
-  area: Area;
-  venue: {
-    id: number;
-    name: string;
-    areas: Area[];
-  };
+  area: DialogArea;
+  venue: DialogVenue;
 }
 
 const props = defineProps<Props>();
@@ -75,7 +55,7 @@ const handleBook = () => {
         <Icon name="ph:ruler" class="w-4 h-4" />
         {{ area.size.width }}x{{ area.size.length }}m
       </div>
-      <Badge variant="secondary">{{ area.pricePerHour }}€/h</Badge>
+      <Badge variant="secondary">{{ area.pricing.hourly }}€/h</Badge>
     </div>
   </DialogHeader>
 

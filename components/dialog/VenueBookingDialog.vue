@@ -1,35 +1,17 @@
 <script setup lang="ts">
-import { Calendar } from "@/components/ui/calendar";
+import { ref } from "vue";
+import { Calendar } from "~/components/ui/calendar";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "~/components/ui/popover";
 import { format } from "date-fns";
 import { today, getLocalTimeZone } from "@internationalized/date";
+import type { DialogArea, DialogVenue } from "~/types/dialog";
 
 interface Props {
-  venue: {
-    id: number;
-    name: string;
-    areas: {
-      id: number;
-      name: string;
-      description: string;
-      pricePerHour: number;
-      capacity: number;
-      size: {
-        width: number;
-        length: number;
-        height: number;
-        unit: string;
-      };
-      amenities: string[];
-      floorType: string;
-      images: string[];
-      availability: Record<string, string>;
-    }[];
-  };
+  venue: DialogVenue;
   selectedAreaId?: number;
   selectedDateTime?: string;
   onBook: (date: string, areaId: number) => void;
@@ -116,7 +98,7 @@ const handleBook = () => {
                 {{ area.capacity }} people
               </div>
             </div>
-            <Badge variant="secondary">{{ area.pricePerHour }}€/h</Badge>
+            <Badge variant="secondary">{{ area.pricing.hourly }}€/h</Badge>
           </div>
         </Button>
       </div>

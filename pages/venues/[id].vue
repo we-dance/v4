@@ -1,12 +1,23 @@
 <script setup lang="ts">
 import { mockVenues } from "~/data/mockVenues";
+import type { Area, Package, Service, Venue } from "@/types";
+import type { DialogArea, DialogVenue } from "@/types/dialog";
 
 const route = useRoute();
-const venue = computed(() =>
-  mockVenues.find((v) => v.id === Number(route.params.id))
-);
-
 const dialog = useDialog();
+
+const venue = computed<Venue | undefined>(() => {
+  const found = mockVenues.find((v) => v.id === Number(route.params.id));
+  if (!found) return undefined;
+
+  return {
+    ...found,
+    services: found.services?.map((s) => ({
+      ...s,
+      type: s.type as "per_hour" | "per_event",
+    })) as Service[],
+  };
+});
 
 const totalCapacity = computed(
   () => venue.value?.areas.reduce((sum, area) => sum + area.capacity, 0) || 0
@@ -48,207 +59,245 @@ const handleExploreAreas = () => {
     areasSection.scrollIntoView({ behavior: "smooth" });
   }
 };
+
+const toDialogArea = (area: Area) => {
+  const { pricing, ...rest } = area;
+  return {
+    ...rest,
+    pricePerHour: pricing.hourly,
+  } as DialogArea;
+};
+
+const toDialogVenue = (v: Venue): DialogVenue => ({
+  id: v.id,
+  name: v.name,
+  areas: v.areas.map(toDialogArea),
+});
+
+const openAreaDetails = (area: Area) => {
+  if (!venue.value) return;
+  dialog.open({
+    component: "VenueAreaDetailsDialog",
+    props: {
+      area,
+      venue: {
+        id: venue.value.id,
+        name: venue.value.name,
+        areas: venue.value.areas,
+      },
+    },
+  });
+};
+
+const openBooking = (target?: Area | Package) => {
+  if (!venue.value) return;
+  dialog.open({
+    component: "VenueBookingDialog",
+    props: {
+      venue: {
+        id: venue.value.id,
+        name: venue.value.name,
+        areas: venue.value.areas,
+      },
+      selectedAreaId: target && "pricing" in target ? target.id : undefined,
+      onBook: (date: string, areaId: number) => {
+        console.log("Booking:", { date, areaId });
+      },
+    },
+  });
+};
 </script>
 
 <template>
-  <div v-if="venue">
+  <div v-if="venue" class="space-y-8">
     <!-- Hero Section -->
-    <div class="relative min-h-[50vh]">
+    <div class="relative h-[400px] w-full overflow-hidden rounded-lg">
+      <img
+        :src="venue.image"
+        :alt="venue.name"
+        class="h-full w-full object-cover"
+      />
       <div
-        class="relative flex items-center overflow-hidden min-h-[50vh] py-12"
-      >
-        <GradientBackground />
-
-        <!-- Content -->
-        <div class="relative w-full">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-8 items-center">
-              <!-- Left: Content -->
-              <div class="text-center md:text-left">
-                <h1
-                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
-                >
-                  {{ venue.name }}
-                </h1>
-                <div
-                  class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-white/80 mb-6"
-                >
-                  <div class="flex items-center gap-2">
-                    <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{
-                      venue.address
-                    }}</span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <Icon name="ph:users" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base"
-                      >{{ totalCapacity }} people total</span
-                    >
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <Icon
-                      name="ph:currency-eur"
-                      class="w-4 h-4 md:w-5 md:h-5"
-                    />
-                    <span class="text-sm md:text-base"
-                      >{{ minPrice }}-{{ maxPrice }}€/hour</span
-                    >
-                  </div>
-                </div>
-
-                <!-- Rating -->
-                <div
-                  class="flex items-center justify-center md:justify-start gap-2 text-white mb-8"
-                >
-                  <div class="flex items-center gap-1">
-                    <Icon name="ph:star-fill" class="w-5 h-5 text-amber-400" />
-                    <span class="font-medium">{{ venue.rating }}</span>
-                  </div>
-                  <span class="text-white/60"
-                    >({{ venue.reviewCount }} reviews)</span
-                  >
-                </div>
-
-                <!-- Action Buttons -->
-                <div class="flex justify-center md:justify-start gap-4">
-                  <Button
-                    variant="secondary"
-                    size="lg"
-                    @click="handleExploreAreas"
-                  >
-                    <Icon name="ph:squares-four" class="w-5 h-5 mr-2" />
-                    Explore Spaces
-                  </Button>
-                </div>
-              </div>
-
-              <!-- Right: Image -->
-              <div
-                class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
-              >
-                <img
-                  :src="venue.image"
-                  :alt="venue.name"
-                  class="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
+      />
+      <div class="absolute bottom-0 left-0 p-6 text-white">
+        <h1 class="text-3xl font-bold">{{ venue.name }}</h1>
+        <p class="mt-2 flex items-center gap-2">
+          <span class="flex items-center">
+            {{ venue.rating }}
+            <Icon name="star" class="ml-1 h-4 w-4" />
+          </span>
+          <span>({{ venue.reviewCount }} reviews)</span>
+          <span>•</span>
+          <span>{{ venue.address }}</span>
+        </p>
       </div>
     </div>
 
     <!-- Main Content -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div
-        class="flex flex-col md:flex-row justify-center gap-8 max-w-7xl mx-auto"
-      >
-        <!-- Left Column: Details -->
-        <div class="space-y-8 max-w-xl">
-          <!-- Description -->
-          <div class="bg-card rounded-xl border p-6">
-            <h3 class="text-lg font-bold mb-4">About this Venue</h3>
-            <p class="text-muted-foreground">{{ venue.description }}</p>
-          </div>
+    <div class="grid gap-8 lg:grid-cols-3">
+      <!-- Left Column: Details -->
+      <div class="lg:col-span-2 space-y-6">
+        <div>
+          <h2 class="text-2xl font-semibold">About</h2>
+          <p class="mt-2 text-muted-foreground">{{ venue.description }}</p>
+        </div>
 
-          <!-- Areas -->
-          <div
-            id="areas-section"
-            class="bg-card rounded-xl border p-6 scroll-mt-8"
-          >
-            <div class="flex justify-between items-center mb-4">
-              <h3 class="text-lg font-bold">Available Areas</h3>
-              <Button variant="ghost" size="sm" @click="handleBook">
-                View All Availability
-              </Button>
-            </div>
-            <div class="grid sm:grid-cols-2 gap-6">
-              <VenueAreaCard
-                v-for="area in venue.areas"
-                :key="area.id"
-                :area="area"
-                :venue="venue"
-                :is-popular="area.pricePerHour === maxPrice"
-              />
-            </div>
-          </div>
+        <div>
+          <h2 class="text-2xl font-semibold">Features</h2>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            <li
+              v-for="feature in venue.features"
+              :key="feature"
+              class="rounded-full bg-muted px-3 py-1 text-sm"
+            >
+              {{ feature }}
+            </li>
+          </ul>
+        </div>
 
-          <!-- Features -->
-          <div class="bg-card rounded-xl border p-6">
-            <h3 class="text-lg font-bold mb-4">Features</h3>
-            <div class="grid grid-cols-2 gap-4">
-              <div
-                v-for="feature in venue.features"
-                :key="feature"
-                class="flex items-center gap-2"
-              >
-                <Icon name="ph:check-circle" class="w-5 h-5 text-green-500" />
-                <span>{{ feature }}</span>
-              </div>
-            </div>
-          </div>
+        <div>
+          <h2 class="text-2xl font-semibold">Dance Styles</h2>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            <li
+              v-for="style in venue.styles"
+              :key="style"
+              class="rounded-full bg-muted px-3 py-1 text-sm"
+            >
+              {{ style }}
+            </li>
+          </ul>
+        </div>
 
-          <!-- Dance Styles -->
-          <div class="bg-card rounded-xl border p-6">
-            <h3 class="text-lg font-bold mb-4">Dance Styles</h3>
-            <div class="flex flex-wrap gap-2">
-              <Badge
-                v-for="style in venue.styles"
-                :key="style"
-                variant="secondary"
-              >
-                {{ style }}
-              </Badge>
-            </div>
-          </div>
-
-          <!-- Location -->
-          <div class="bg-card rounded-xl border p-6">
-            <h3 class="text-lg font-bold mb-4">Location</h3>
-            <div class="space-y-4">
-              <div class="flex items-start gap-3">
-                <Icon
-                  name="ph:map-pin"
-                  class="w-5 h-5 text-primary flex-shrink-0 mt-1"
-                />
-                <div>
-                  <div class="font-medium">{{ venue.name }}</div>
-                  <div class="text-muted-foreground">{{ venue.address }}</div>
+        <!-- Areas -->
+        <div>
+          <h2 class="text-2xl font-semibold">Areas</h2>
+          <div class="mt-4 space-y-4">
+            <Card v-for="area in venue.areas" :key="area.id">
+              <CardHeader>
+                <CardTitle>{{ area.name }}</CardTitle>
+                <CardDescription>{{ area.description }}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <h4 class="font-medium">Details</h4>
+                    <ul class="mt-2 space-y-1 text-sm text-muted-foreground">
+                      <li>Capacity: {{ area.capacity }} people</li>
+                      <li>
+                        Size: {{ area.size.width }}x{{ area.size.length }}x{{
+                          area.size.height
+                        }}{{ area.size.unit }}
+                      </li>
+                      <li>Floor: {{ area.floorType }}</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-medium">Pricing</h4>
+                    <ul class="mt-2 space-y-1 text-sm text-muted-foreground">
+                      <li>Hourly: €{{ area.pricing.hourly }}</li>
+                      <li>Daily: €{{ area.pricing.daily }}</li>
+                      <li>Weekly: €{{ area.pricing.weekly }}</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <!-- Map placeholder -->
-              <div class="aspect-[4/3] bg-muted rounded-lg"></div>
-            </div>
+
+                <div class="mt-4">
+                  <h4 class="font-medium">Amenities</h4>
+                  <ul class="mt-2 flex flex-wrap gap-2">
+                    <li
+                      v-for="amenity in area.amenities"
+                      :key="amenity"
+                      class="rounded-full bg-muted px-3 py-1 text-xs"
+                    >
+                      {{ amenity }}
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mt-4 flex gap-2">
+                  <Button @click="openAreaDetails(area)">View Details</Button>
+                  <Button variant="default" @click="openBooking(area)"
+                    >Book Now</Button
+                  >
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
-        <!-- Right Column: Booking & Additional Info -->
-        <div class="w-full md:w-96 space-y-8">
-          <!-- Booking Card -->
-          <div class="bg-card rounded-xl border p-6 sticky top-8">
-            <h3 class="text-lg font-bold mb-4">Book this Venue</h3>
-            <div class="space-y-4">
-              <div class="flex justify-between items-center">
-                <span class="text-muted-foreground">Price range</span>
-                <span class="font-medium"
-                  >{{ minPrice }}-{{ maxPrice }}€/hour</span
-                >
-              </div>
-              <div class="flex justify-between items-center">
-                <span class="text-muted-foreground">Total capacity</span>
-                <span class="font-medium">{{ totalCapacity }} people</span>
-              </div>
-              <div class="text-sm text-muted-foreground">
-                * Prices and capacity vary by area. Select an area when booking.
-              </div>
-              <Button class="w-full" size="lg" @click="handleBook">
-                <Icon name="ph:calendar-check" class="w-5 h-5 mr-2" />
-                Check Availability
-              </Button>
-            </div>
+        <!-- Packages -->
+        <div v-if="venue.packages?.length">
+          <h2 class="text-2xl font-semibold">Packages</h2>
+          <div class="mt-4 space-y-4">
+            <Card v-for="pkg in venue.packages" :key="pkg.id">
+              <CardHeader>
+                <CardTitle>{{ pkg.name }}</CardTitle>
+                <CardDescription>{{ pkg.description }}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <ul class="space-y-1 text-sm text-muted-foreground">
+                      <li>Duration: {{ pkg.duration }}</li>
+                      <li>Price: €{{ pkg.price }}</li>
+                      <li>Minimum bookings: {{ pkg.minimumBookings }}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <Button variant="default" @click="openBooking(pkg)"
+                    >Book Package</Button
+                  >
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
+
+      <!-- Right Column: Booking Card -->
+      <div class="lg:col-span-1">
+        <Card class="sticky top-4">
+          <CardHeader>
+            <CardTitle>Book this venue</CardTitle>
+            <CardDescription>
+              Choose from various booking options
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div class="space-y-4">
+              <div>
+                <h4 class="font-medium">Full Venue Pricing</h4>
+                <ul class="mt-2 space-y-1 text-sm text-muted-foreground">
+                  <li>Hourly: €{{ venue.fullVenuePricing.hourly }}</li>
+                  <li>Daily: €{{ venue.fullVenuePricing.daily }}</li>
+                  <li>Weekly: €{{ venue.fullVenuePricing.weekly }}</li>
+                </ul>
+              </div>
+
+              <div v-if="venue.services?.length">
+                <h4 class="font-medium">Available Services</h4>
+                <ul class="mt-2 space-y-1 text-sm text-muted-foreground">
+                  <li v-for="service in venue.services" :key="service.id">
+                    {{ service.name }} - €{{ service.price }}/{{
+                      service.type === "per_hour" ? "hour" : "event"
+                    }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </CardContent>
+          <CardFooter>
+            <Button class="w-full" @click="openBooking()"
+              >Book Full Venue</Button
+            >
+          </CardFooter>
+        </Card>
+      </div>
     </div>
+  </div>
+  <div v-else class="flex items-center justify-center min-h-screen">
+    <p class="text-muted-foreground">Venue not found</p>
   </div>
 </template>
