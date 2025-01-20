@@ -11,13 +11,69 @@ export const mockVenues = [
       "Premier dance studio with 3 halls and professional sound system",
     features: ["Sprung Floor", "Mirrors", "Sound System"],
     styles: ["Ballet", "Contemporary", "Hip Hop"],
+    fullVenuePricing: {
+      hourly: 150,
+      daily: 1200,
+      weekly: 5000,
+    },
+    packages: [
+      {
+        id: "ts-pkg-1",
+        name: "Workshop Weekend",
+        description: "All areas for a full weekend workshop",
+        includedAreas: [1, 2, 3],
+        duration: "2d",
+        price: 2000,
+        minimumBookings: 1,
+      },
+      {
+        id: "ts-pkg-2",
+        name: "Regular Class",
+        description: "Weekly slot in Studio A or B",
+        includedAreas: [2, 3],
+        duration: "2h",
+        price: 70,
+        minimumBookings: 8,
+      },
+    ],
+    services: [
+      {
+        id: "ts-svc-1",
+        name: "Sound Engineer",
+        description: "Professional sound system operation",
+        price: 40,
+        type: "per_hour",
+      },
+      {
+        id: "ts-svc-2",
+        name: "Event Staff",
+        description: "Check-in and general assistance",
+        price: 25,
+        type: "per_hour",
+      },
+      {
+        id: "ts-svc-3",
+        name: "Basic Cleaning",
+        description: "Standard cleaning after event",
+        price: 50,
+        type: "per_event",
+      },
+    ],
     areas: [
       {
         id: 1,
         name: "Main Hall",
         description:
           "Spacious main hall with professional sound system and natural light",
-        pricePerHour: 50,
+        minimumBookingTime: 2,
+        setupTimeRequired: 30,
+        cleanupTimeRequired: 30,
+        pricing: {
+          hourly: 50,
+          daily: 400,
+          weekly: 1600,
+          monthly: 5000,
+        },
         capacity: 30,
         size: {
           width: 12,
@@ -25,6 +81,45 @@ export const mockVenues = [
           height: 4,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "mh-eq-1",
+            name: "Professional Sound System",
+            description: "JBL speakers with mixer",
+            pricePerHour: 20,
+            available: 1,
+          },
+          {
+            id: "mh-eq-2",
+            name: "Wireless Microphone",
+            description: "Shure wireless system",
+            pricePerHour: 10,
+            available: 2,
+          },
+          {
+            id: "mh-eq-3",
+            name: "Stage Lights",
+            description: "Professional LED system",
+            pricePerHour: 15,
+            available: 1,
+          },
+        ],
+        storage: [
+          {
+            id: "mh-st-1",
+            name: "Large Locker",
+            size: "100x50x180cm",
+            pricePerMonth: 30,
+            available: 4,
+          },
+          {
+            id: "mh-st-2",
+            name: "Equipment Room Share",
+            size: "2x2m",
+            pricePerMonth: 100,
+            available: 2,
+          },
+        ],
         amenities: [
           "Professional Sound System",
           "Sprung Floor",
@@ -47,13 +142,37 @@ export const mockVenues = [
           saturday: "10:00-18:00",
           sunday: "10:00-16:00",
         },
+        policies: {
+          cancellation: [
+            {
+              hours: 48,
+              refundPercentage: 100,
+            },
+            {
+              hours: 24,
+              refundPercentage: 50,
+            },
+          ],
+          insurance: {
+            required: true,
+            pricePerEvent: 15,
+          },
+        },
       },
       {
         id: 2,
         name: "Studio A",
         description:
           "Medium-sized studio perfect for small groups and private lessons",
-        pricePerHour: 40,
+        minimumBookingTime: 1,
+        setupTimeRequired: 15,
+        cleanupTimeRequired: 15,
+        pricing: {
+          hourly: 40,
+          daily: 320,
+          weekly: 1280,
+          monthly: 4000,
+        },
         capacity: 20,
         size: {
           width: 8,
@@ -61,6 +180,24 @@ export const mockVenues = [
           height: 3.5,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "sa-eq-1",
+            name: "Portable Sound System",
+            description: "Bluetooth speaker system",
+            pricePerHour: 10,
+            available: 1,
+          },
+        ],
+        storage: [
+          {
+            id: "sa-st-1",
+            name: "Medium Locker",
+            size: "50x50x180cm",
+            pricePerMonth: 20,
+            available: 6,
+          },
+        ],
         amenities: [
           "Bluetooth Speaker",
           "Sprung Floor",
@@ -81,13 +218,37 @@ export const mockVenues = [
           saturday: "10:00-18:00",
           sunday: "10:00-16:00",
         },
+        policies: {
+          cancellation: [
+            {
+              hours: 24,
+              refundPercentage: 100,
+            },
+            {
+              hours: 12,
+              refundPercentage: 50,
+            },
+          ],
+          insurance: {
+            required: false,
+            pricePerEvent: 10,
+          },
+        },
       },
       {
         id: 3,
         name: "Studio B",
         description:
           "Cozy practice room ideal for solo practice and private coaching",
-        pricePerHour: 35,
+        minimumBookingTime: 1,
+        setupTimeRequired: 15,
+        cleanupTimeRequired: 15,
+        pricing: {
+          hourly: 35,
+          daily: 280,
+          weekly: 1120,
+          monthly: 3500,
+        },
         capacity: 15,
         size: {
           width: 6,
@@ -95,6 +256,24 @@ export const mockVenues = [
           height: 3.5,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "sb-eq-1",
+            name: "Portable Sound System",
+            description: "Bluetooth speaker system",
+            pricePerHour: 10,
+            available: 1,
+          },
+        ],
+        storage: [
+          {
+            id: "sb-st-1",
+            name: "Small Locker",
+            size: "30x50x180cm",
+            pricePerMonth: 15,
+            available: 4,
+          },
+        ],
         amenities: [
           "Bluetooth Speaker",
           "Sprung Floor",
@@ -114,6 +293,22 @@ export const mockVenues = [
           saturday: "10:00-18:00",
           sunday: "10:00-16:00",
         },
+        policies: {
+          cancellation: [
+            {
+              hours: 24,
+              refundPercentage: 100,
+            },
+            {
+              hours: 12,
+              refundPercentage: 50,
+            },
+          ],
+          insurance: {
+            required: false,
+            pricePerEvent: 10,
+          },
+        },
       },
     ],
   },
@@ -128,12 +323,68 @@ export const mockVenues = [
     description: "Modern dance space perfect for classes and social events",
     features: ["Air Conditioning", "Bar", "Stage"],
     styles: ["Salsa", "Bachata", "Kizomba"],
+    fullVenuePricing: {
+      hourly: 120,
+      daily: 960,
+      weekly: 4000,
+    },
+    packages: [
+      {
+        id: "df-pkg-1",
+        name: "Social Dance Night",
+        description: "Full venue rental for social dance events",
+        includedAreas: [1, 2],
+        duration: "6h",
+        price: 500,
+        minimumBookings: 1,
+      },
+      {
+        id: "df-pkg-2",
+        name: "Regular Dance Class",
+        description: "Weekly slot in Practice Room",
+        includedAreas: [2],
+        duration: "2h",
+        price: 60,
+        minimumBookings: 8,
+      },
+    ],
+    services: [
+      {
+        id: "df-svc-1",
+        name: "DJ Services",
+        description: "Professional DJ with Latin music expertise",
+        price: 50,
+        type: "per_hour",
+      },
+      {
+        id: "df-svc-2",
+        name: "Bar Staff",
+        description: "Bartender and bar service",
+        price: 30,
+        type: "per_hour",
+      },
+      {
+        id: "df-svc-3",
+        name: "Event Security",
+        description: "Professional security staff",
+        price: 35,
+        type: "per_hour",
+      },
+    ],
     areas: [
       {
         id: 1,
         name: "Main Ballroom",
         description: "Large ballroom with stage and professional lighting",
-        pricePerHour: 75,
+        minimumBookingTime: 3,
+        setupTimeRequired: 45,
+        cleanupTimeRequired: 45,
+        pricing: {
+          hourly: 75,
+          daily: 600,
+          weekly: 2400,
+          monthly: 8000,
+        },
         capacity: 50,
         size: {
           width: 15,
@@ -141,6 +392,45 @@ export const mockVenues = [
           height: 5,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "mb-eq-1",
+            name: "Professional Sound System",
+            description: "Complete PA system with subwoofers",
+            pricePerHour: 25,
+            available: 1,
+          },
+          {
+            id: "mb-eq-2",
+            name: "Stage Lighting System",
+            description: "Professional DMX lighting setup",
+            pricePerHour: 20,
+            available: 1,
+          },
+          {
+            id: "mb-eq-3",
+            name: "Fog Machine",
+            description: "Professional fog effects",
+            pricePerHour: 15,
+            available: 1,
+          },
+        ],
+        storage: [
+          {
+            id: "mb-st-1",
+            name: "Equipment Storage",
+            size: "3x2m",
+            pricePerMonth: 120,
+            available: 2,
+          },
+          {
+            id: "mb-st-2",
+            name: "Personal Locker",
+            size: "60x60x180cm",
+            pricePerMonth: 25,
+            available: 8,
+          },
+        ],
         amenities: [
           "Professional Sound System",
           "Stage",
@@ -164,12 +454,40 @@ export const mockVenues = [
           saturday: "10:00-23:00",
           sunday: "10:00-22:00",
         },
+        policies: {
+          cancellation: [
+            {
+              hours: 72,
+              refundPercentage: 100,
+            },
+            {
+              hours: 48,
+              refundPercentage: 50,
+            },
+            {
+              hours: 24,
+              refundPercentage: 25,
+            },
+          ],
+          insurance: {
+            required: true,
+            pricePerEvent: 20,
+          },
+        },
       },
       {
         id: 2,
         name: "Practice Room",
         description: "Intimate practice space with mirrors and sound system",
-        pricePerHour: 45,
+        minimumBookingTime: 1,
+        setupTimeRequired: 15,
+        cleanupTimeRequired: 15,
+        pricing: {
+          hourly: 45,
+          daily: 360,
+          weekly: 1440,
+          monthly: 4800,
+        },
         capacity: 20,
         size: {
           width: 8,
@@ -177,6 +495,31 @@ export const mockVenues = [
           height: 3.5,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "pr-eq-1",
+            name: "Portable Sound System",
+            description: "High-quality portable speaker system",
+            pricePerHour: 10,
+            available: 1,
+          },
+          {
+            id: "pr-eq-2",
+            name: "Portable Mirror",
+            description: "Mobile full-length mirror",
+            pricePerHour: 5,
+            available: 2,
+          },
+        ],
+        storage: [
+          {
+            id: "pr-st-1",
+            name: "Small Locker",
+            size: "40x40x180cm",
+            pricePerMonth: 15,
+            available: 6,
+          },
+        ],
         amenities: [
           "Sound System",
           "Wall-to-Wall Mirrors",
@@ -197,6 +540,22 @@ export const mockVenues = [
           saturday: "10:00-22:00",
           sunday: "10:00-22:00",
         },
+        policies: {
+          cancellation: [
+            {
+              hours: 48,
+              refundPercentage: 100,
+            },
+            {
+              hours: 24,
+              refundPercentage: 50,
+            },
+          ],
+          insurance: {
+            required: false,
+            pricePerEvent: 15,
+          },
+        },
       },
     ],
   },
@@ -211,12 +570,75 @@ export const mockVenues = [
     description: "Authentic Latin club with live music every weekend",
     features: ["Live Music", "Dance Floor", "Bar"],
     styles: ["Salsa", "Bachata", "Latin"],
+    fullVenuePricing: {
+      hourly: 150,
+      daily: 1200,
+      weekly: 5000,
+    },
+    packages: [
+      {
+        id: "hc-pkg-1",
+        name: "Live Band Night",
+        description: "Full venue with live band setup and staff",
+        includedAreas: [1, 2],
+        duration: "8h",
+        price: 1200,
+        minimumBookings: 1,
+      },
+      {
+        id: "hc-pkg-2",
+        name: "Dance Academy Package",
+        description: "Private room for regular dance classes",
+        includedAreas: [2],
+        duration: "2h",
+        price: 80,
+        minimumBookings: 8,
+      },
+    ],
+    services: [
+      {
+        id: "hc-svc-1",
+        name: "Live Band",
+        description: "Professional Latin band (5 musicians)",
+        price: 400,
+        type: "per_event",
+      },
+      {
+        id: "hc-svc-2",
+        name: "Professional DJ",
+        description: "Experienced Latin music DJ",
+        price: 60,
+        type: "per_hour",
+      },
+      {
+        id: "hc-svc-3",
+        name: "Bar Package",
+        description: "Full bar service with 2 bartenders",
+        price: 80,
+        type: "per_hour",
+      },
+      {
+        id: "hc-svc-4",
+        name: "Security Team",
+        description: "2 security staff members",
+        price: 70,
+        type: "per_hour",
+      },
+    ],
     areas: [
       {
         id: 1,
         name: "Main Dance Floor",
         description: "Spacious dance floor with stage for live bands",
-        pricePerHour: 100,
+        minimumBookingTime: 4,
+        setupTimeRequired: 60,
+        cleanupTimeRequired: 60,
+        pricing: {
+          hourly: 100,
+          daily: 800,
+          weekly: 3200,
+          monthly: 12000,
+        },
         capacity: 150,
         size: {
           width: 20,
@@ -224,6 +646,45 @@ export const mockVenues = [
           height: 6,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "hc-eq-1",
+            name: "Professional Sound System",
+            description: "Complete band and DJ setup with monitors",
+            pricePerHour: 50,
+            available: 1,
+          },
+          {
+            id: "hc-eq-2",
+            name: "Stage Lighting System",
+            description: "Full professional lighting rig",
+            pricePerHour: 30,
+            available: 1,
+          },
+          {
+            id: "hc-eq-3",
+            name: "Band Equipment",
+            description: "Basic backline (amps, monitors, mics)",
+            pricePerHour: 40,
+            available: 1,
+          },
+        ],
+        storage: [
+          {
+            id: "hc-st-1",
+            name: "Band Storage Room",
+            size: "4x3m",
+            pricePerMonth: 200,
+            available: 1,
+          },
+          {
+            id: "hc-st-2",
+            name: "Equipment Locker",
+            size: "100x100x200cm",
+            pricePerMonth: 50,
+            available: 4,
+          },
+        ],
         amenities: [
           "Professional Sound System",
           "Stage for Live Music",
@@ -247,12 +708,40 @@ export const mockVenues = [
           saturday: "18:00-04:00",
           sunday: "18:00-02:00",
         },
+        policies: {
+          cancellation: [
+            {
+              hours: 72,
+              refundPercentage: 100,
+            },
+            {
+              hours: 48,
+              refundPercentage: 50,
+            },
+            {
+              hours: 24,
+              refundPercentage: 0,
+            },
+          ],
+          insurance: {
+            required: true,
+            pricePerEvent: 30,
+          },
+        },
       },
       {
         id: 2,
         name: "Private Room",
         description: "Intimate space for private events and dance lessons",
-        pricePerHour: 60,
+        minimumBookingTime: 2,
+        setupTimeRequired: 30,
+        cleanupTimeRequired: 30,
+        pricing: {
+          hourly: 60,
+          daily: 480,
+          weekly: 1920,
+          monthly: 6000,
+        },
         capacity: 30,
         size: {
           width: 10,
@@ -260,6 +749,31 @@ export const mockVenues = [
           height: 4,
           unit: "meters",
         },
+        equipment: [
+          {
+            id: "hc-pr-eq-1",
+            name: "Sound System",
+            description: "High-quality speaker system",
+            pricePerHour: 15,
+            available: 1,
+          },
+          {
+            id: "hc-pr-eq-2",
+            name: "Lighting Package",
+            description: "Basic party lighting setup",
+            pricePerHour: 10,
+            available: 1,
+          },
+        ],
+        storage: [
+          {
+            id: "hc-pr-st-1",
+            name: "Personal Locker",
+            size: "50x50x180cm",
+            pricePerMonth: 25,
+            available: 6,
+          },
+        ],
         amenities: [
           "Sound System",
           "Wall-to-Wall Mirrors",
@@ -280,6 +794,22 @@ export const mockVenues = [
           friday: "09:00-04:00",
           saturday: "09:00-04:00",
           sunday: "09:00-02:00",
+        },
+        policies: {
+          cancellation: [
+            {
+              hours: 48,
+              refundPercentage: 100,
+            },
+            {
+              hours: 24,
+              refundPercentage: 50,
+            },
+          ],
+          insurance: {
+            required: true,
+            pricePerEvent: 20,
+          },
         },
       },
     ],
