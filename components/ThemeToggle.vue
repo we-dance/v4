@@ -10,9 +10,9 @@ const isDark = computed(() => colorMode.value === "dark");
 
 <template>
   <Switch :checked="isDark" @update:checked="toggleTheme" class="relative">
-    <Icon
-      :name="isDark ? 'lucide:moon' : 'lucide:sun'"
-      class="h-4 w-4 absolute left-0.5 top-1/2 -translate-y-1/2 z-10 text-slate-900 dark:text-slate-50"
-    />
+    <template #thumb>
+      <Icon v-if="isDark" name="lucide:moon" size="16" />
+      <Icon v-else name="lucide:sun" size="16" />
+    </template>
   </Switch>
 </template>
