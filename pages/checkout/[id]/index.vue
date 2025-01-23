@@ -453,7 +453,7 @@ const handleSubmit = async () => {
               <!-- Terms -->
               <TermsCheckbox v-model="formData.terms" />
 
-              <div v-if="error" class="text-red-600 text-sm">
+              <div v-if="error" class="text-destructive text-sm">
                 {{ error }}
               </div>
 
@@ -473,9 +473,9 @@ const handleSubmit = async () => {
     <div class="text-center">
       <Icon
         :name="type === 'event' ? 'ph:calendar-x' : 'ph:video-camera-slash'"
-        class="w-16 h-16 text-gray-400 mx-auto mb-4"
+        class="w-16 h-16 text-foreground-muted mx-auto mb-4"
       />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">
+      <h2 class="text-2xl font-bold text-foreground mb-2">
         {{ type === "event" ? "Event" : "Course" }} Not Found
       </h2>
       <p class="text-muted-foreground mb-6">

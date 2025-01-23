@@ -10,16 +10,16 @@ const event = computed(() =>
 </script>
 
 <template>
-  <div v-if="event" class="min-h-screen bg-muted py-12">
+  <div v-if="event" class="min-h-screen bg-background-secondary py-12">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <div
-          class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
+          class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6"
         >
-          <Icon name="ph:check-bold" class="w-8 h-8 text-green-600" />
+          <Icon name="ph:check-bold" class="w-8 h-8 text-success" />
         </div>
         <h1 class="text-3xl font-bold mb-4">Booking Confirmed!</h1>
-        <p class="text-gray-600 mb-8">
+        <p class="text-foreground-muted mb-8">
           Thank you for your booking. We've sent the details to your email.
         </p>
       </div>
@@ -36,7 +36,7 @@ const event = computed(() =>
           </div>
           <div>
             <h2 class="text-xl font-bold">{{ event.name }}</h2>
-            <div class="text-gray-600 space-y-1 mt-2">
+            <div class="text-foreground-muted space-y-1 mt-2">
               <div class="flex items-center gap-2">
                 <Icon name="ph:calendar" class="w-4 h-4" />
                 <span>{{ formatDate(event.date.start) }}</span>
@@ -67,9 +67,12 @@ const event = computed(() =>
   <!-- Empty State -->
   <div v-else class="min-h-screen flex items-center justify-center">
     <div class="text-center">
-      <Icon name="ph:calendar-x" class="w-16 h-16 text-gray-400 mx-auto mb-4" />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">Event Not Found</h2>
-      <p class="text-gray-600 mb-6">
+      <Icon
+        name="ph:calendar-x"
+        class="w-16 h-16 text-foreground-muted mx-auto mb-4"
+      />
+      <h2 class="text-2xl font-bold text-foreground mb-2">Event Not Found</h2>
+      <p class="text-foreground-muted mb-6">
         The event you're looking for doesn't exist or has been removed.
       </p>
       <Button as-child>
