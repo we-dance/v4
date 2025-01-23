@@ -49,10 +49,8 @@ const selectVideo = (style: string) => {
     <div class="pt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <!-- Header -->
       <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-background mb-4">
-          Find Your Dance Style
-        </h1>
-        <p class="text-xl text-background/80">
+        <h1 class="text-4xl font-bold mb-4">Find Your Dance Style</h1>
+        <p class="text-xl">
           Round {{ currentRound }} of {{ totalRounds }}: Watch and choose the
           style that moves you
         </p>
