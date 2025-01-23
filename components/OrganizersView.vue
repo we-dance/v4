@@ -265,7 +265,7 @@ watch(selectedEventType, (newValue) => {
     <div v-if="!filteredOrganizers.length" class="text-center">
       <div class="max-w-md mx-auto">
         <EmptyState variant="no-results" />
-        <p class="mt-4 text-gray-600">
+        <p class="mt-4 text-muted-foreground">
           Don't see your city? Help grow the community by
           <Button variant="link" class="px-1" as-child>
             <NuxtLink to="/register">adding your local dance groups</NuxtLink>

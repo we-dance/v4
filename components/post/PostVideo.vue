@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div class="px-4 pb-4 space-y-4">
-    <p class="text-gray-600">{{ content.description }}</p>
+    <p class="text-muted-foreground">{{ content.description }}</p>
 
     <div class="relative aspect-video mb-4">
       <NuxtImg
@@ -28,4 +28,4 @@ defineProps<{
       </div>
     </div>
   </div>
-</template> 
+</template>

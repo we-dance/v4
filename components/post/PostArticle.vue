@@ -17,7 +17,7 @@ defineProps<{
     </div>
     <div class="p-4 space-y-4">
       <PostTitle :title="content.title" />
-      <p class="text-gray-600">{{ content.description }}</p>
+      <p class="text-muted-foreground">{{ content.description }}</p>
       <div
         v-if="content.html"
         class="prose prose-purple max-w-none line-clamp-3"

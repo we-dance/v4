@@ -39,7 +39,7 @@ const eventData = computed<AnyEvent>(() => ({
 <template>
   <div class="flex-1 flex flex-col">
     <div class="px-4">
-      <p class="text-gray-600">{{ content.description }}</p>
+      <p class="text-muted-foreground">{{ content.description }}</p>
     </div>
     <EventCard :event="eventData" class="m-4" />
   </div>

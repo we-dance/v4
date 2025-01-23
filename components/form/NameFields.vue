@@ -13,7 +13,7 @@ const emit = defineEmits<{
 <template>
   <div class="grid sm:grid-cols-2 gap-6">
     <div>
-      <label class="block text-sm font-medium text-gray-700 mb-2"
+      <label class="block text-sm font-medium text-foreground mb-2"
         >First Name</label
       >
       <input
@@ -27,7 +27,7 @@ const emit = defineEmits<{
       />
     </div>
     <div>
-      <label class="block text-sm font-medium text-gray-700 mb-2"
+      <label class="block text-sm font-medium text-foreground mb-2"
         >Last Name</label
       >
       <input

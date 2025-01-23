@@ -165,7 +165,7 @@ const handleFollow = () => {
     <!-- Navigation -->
     <div class="bg-white z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="border-b border-gray-200">
+        <nav class="border-b border-muted">
           <div class="flex space-x-8 overflow-x-auto">
             <NuxtLink
               v-for="item in navigation"
@@ -174,7 +174,7 @@ const handleFollow = () => {
               class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
               :class="[
                 $route.path === item.to.split('#')[0]
-                  ? 'border-purple-600 text-purple-600'
+                  ? 'border-primary text-primary'
                   : 'border-transparent text-muted-foreground hover:text-foreground',
               ]"
             >
@@ -212,21 +212,22 @@ const handleFollow = () => {
                   <tbody class="divide-y">
                     <tr v-if="artist.availability.privateClasses" class="group">
                       <td class="py-3">
-                        <div class="flex items-center gap-2 text-gray-600">
-                          <Icon
-                            name="ph:user"
-                            class="w-5 h-5 text-purple-600"
-                          />
+                        <div
+                          class="flex items-center gap-2 text-muted-foreground"
+                        >
+                          <Icon name="ph:user" class="w-5 h-5 text-primary" />
                           Private Classes
                         </div>
                       </td>
                     </tr>
                     <tr v-if="artist.availability.workshops" class="group">
                       <td class="py-3">
-                        <div class="flex items-center gap-2 text-gray-600">
+                        <div
+                          class="flex items-center gap-2 text-muted-foreground"
+                        >
                           <Icon
                             name="ph:users-three"
-                            class="w-5 h-5 text-purple-600"
+                            class="w-5 h-5 text-primary"
                           />
                           Workshops
                         </div>
@@ -234,18 +235,20 @@ const handleFollow = () => {
                     </tr>
                     <tr v-if="artist.availability.touring" class="group">
                       <td class="py-3">
-                        <div class="flex items-center gap-2 text-gray-600">
+                        <div
+                          class="flex items-center gap-2 text-muted-foreground"
+                        >
                           <Icon
                             name="ph:airplane"
-                            class="w-5 h-5 text-purple-600"
+                            class="w-5 h-5 text-primary"
                           />
                           Available for Tours
                         </div>
                       </td>
-                      <td class="py-3 text-right text-gray-600">
+                      <td class="py-3 text-right text-muted-foreground">
                         <Icon
                           name="ph:check"
-                          class="w-5 h-5 inline-block text-green-600"
+                          class="w-5 h-5 inline-block text-success"
                         />
                       </td>
                     </tr>

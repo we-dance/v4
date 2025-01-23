@@ -45,7 +45,10 @@ const statusOptions = [
         type="search"
       >
         <template #prefix>
-          <Icon name="ph:magnifying-glass" class="h-4 w-4 text-gray-400" />
+          <Icon
+            name="ph:magnifying-glass"
+            class="h-4 w-4 text-muted-foreground"
+          />
         </template>
       </Input>
     </div>

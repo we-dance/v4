@@ -41,12 +41,17 @@ const filteredCities = computed(() => {
   <div class="flex flex-col gap-2">
     <Input v-model="locationSearch" placeholder="Search location...">
       <template #prefix>
-        <Icon name="ph:magnifying-glass" class="w-4 h-4 text-gray-400" />
+        <Icon
+          name="ph:magnifying-glass"
+          class="w-4 h-4 text-muted-foreground"
+        />
       </template>
     </Input>
 
     <div class="flex flex-col gap-1">
-      <div class="font-medium text-sm text-gray-500">Popular Regions</div>
+      <div class="font-medium text-sm text-muted-foreground">
+        Popular Regions
+      </div>
       <Button
         v-for="region in filteredRegions"
         :key="region.name"
@@ -56,10 +61,14 @@ const filteredCities = computed(() => {
         @click="emit('update:location', region.name)"
       >
         {{ region.name }}
-        <span class="ml-auto text-sm text-gray-500">{{ region.count }}</span>
+        <span class="ml-auto text-sm text-muted-foreground">{{
+          region.count
+        }}</span>
       </Button>
 
-      <div class="font-medium text-sm text-gray-500 mt-2">Popular Cities</div>
+      <div class="font-medium text-sm text-muted-foreground mt-2">
+        Popular Cities
+      </div>
       <Button
         v-for="city in filteredCities"
         :key="city.name"
@@ -69,7 +78,9 @@ const filteredCities = computed(() => {
         @click="emit('update:location', city.name)"
       >
         {{ city.name }}
-        <span class="ml-auto text-sm text-gray-500">{{ city.count }}</span>
+        <span class="ml-auto text-sm text-muted-foreground">{{
+          city.count
+        }}</span>
       </Button>
     </div>
   </div>

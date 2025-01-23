@@ -152,7 +152,7 @@ const getEventType = (value: string) =>
     <!-- Navigation -->
     <div class="bg-white z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="border-b border-gray-200">
+        <nav class="border-b border-muted">
           <div class="flex space-x-8 overflow-x-auto">
             <NuxtLink
               v-for="item in navigation"
@@ -161,7 +161,7 @@ const getEventType = (value: string) =>
               class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
               :class="[
                 $route.path === item.to.split('#')[0]
-                  ? 'border-purple-600 text-purple-600'
+                  ? 'border-primary text-primary'
                   : 'border-transparent text-muted-foreground hover:text-foreground',
               ]"
             >

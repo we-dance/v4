@@ -16,10 +16,12 @@ defineProps<{
           :key="i"
           :name="i <= content.rating ? 'ph:star-fill' : 'ph:star'"
           class="w-5 h-5"
-          :class="i <= content.rating ? 'text-yellow-400' : 'text-gray-300'"
+          :class="
+            i <= content.rating ? 'text-warning' : 'text-muted-foreground'
+          "
         />
       </div>
-      <p class="text-gray-600">{{ content.description }}</p>
+      <p class="text-muted-foreground">{{ content.description }}</p>
     </div>
   </div>
 </template>

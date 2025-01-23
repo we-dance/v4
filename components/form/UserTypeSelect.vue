@@ -56,10 +56,12 @@ const showInfo = () => {
 <template>
   <div class="space-y-3">
     <div class="flex items-center gap-2">
-      <label class="block text-sm font-medium text-gray-700"> I am a... </label>
+      <label class="block text-sm font-medium text-foreground">
+        I am a...
+      </label>
       <button
         type="button"
-        class="text-gray-400 hover:text-gray-500"
+        class="text-muted-foreground hover:text-muted-foreground"
         @click="showInfo"
       >
         <Icon name="heroicons-outline:question-mark-circle" class="w-4 h-4" />
@@ -73,7 +75,7 @@ const showInfo = () => {
         :class="[
           modelValue === type.id
             ? 'border-accent bg-accent/10'
-            : 'border-gray-200',
+            : 'border-muted',
         ]"
         @click="emit('update:modelValue', type.id)"
         type="button"
