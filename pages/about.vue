@@ -209,22 +209,6 @@ const team = [
             </p>
             <div class="flex justify-center gap-3">
               <a
-                v-if="member.links?.twitter"
-                :href="member.links.twitter"
-                target="_blank"
-                class="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Icon name="ph:x-logo" class="w-5 h-5" />
-              </a>
-              <a
-                v-if="member.links?.github"
-                :href="member.links.github"
-                target="_blank"
-                class="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Icon name="ph:github-logo" class="w-5 h-5" />
-              </a>
-              <a
                 v-if="member.links?.linkedin"
                 :href="member.links.linkedin"
                 target="_blank"
@@ -239,6 +223,22 @@ const team = [
                 class="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Icon name="ph:telegram-logo" class="w-5 h-5" />
+              </a>
+              <a
+                v-if="member.links?.github"
+                :href="member.links.github"
+                target="_blank"
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Icon name="ph:github-logo" class="w-5 h-5" />
+              </a>
+              <a
+                v-if="member.links?.twitter"
+                :href="member.links.twitter"
+                target="_blank"
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Icon name="ph:x-logo" class="w-5 h-5" />
               </a>
             </div>
           </div>
