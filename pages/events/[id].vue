@@ -354,7 +354,7 @@ const eventArtists = computed(() => {
                 </div>
                 <div>
                   <div class="font-medium">{{ artist?.name }}</div>
-                  <div class="text-sm text-gray-600">
+                  <div class="text-sm text-muted-foreground">
                     {{ artist?.roles?.join(", ") }}
                   </div>
                 </div>
@@ -484,7 +484,7 @@ const eventArtists = computed(() => {
                 />
                 <div>
                   <div class="font-medium">{{ event.location.name }}</div>
-                  <div class="text-gray-600">
+                  <div class="text-muted-foreground">
                     {{ event.location.address }}
                     <div>
                       {{ event.location.city }}, {{ event.location.country }}
@@ -511,7 +511,7 @@ const eventArtists = computed(() => {
               >
                 <div>
                   <div class="font-medium">{{ price.name }}</div>
-                  <div class="text-sm text-gray-600">
+                  <div class="text-sm text-muted-foreground">
                     {{ price.description }}
                   </div>
                 </div>
