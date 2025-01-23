@@ -23,7 +23,7 @@ const getPrice = (event: AnyEvent) => {
 <template>
   <NuxtLink :to="`/events/${event.id}`" class="block">
     <article
-      class="bg-background rounded-xl border border-border shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+      class="bg-background rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition-shadow"
     >
       <div class="aspect-[16/9] bg-primary/10 relative overflow-hidden">
         <img

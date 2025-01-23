@@ -16,11 +16,9 @@ const emit = defineEmits<{
       <label class="block text-sm font-medium text-foreground mb-2"
         >First Name</label
       >
-      <input
+      <Input
         :value="firstName"
-        @input="
-          emit('update:firstName', ($event.target as HTMLInputElement).value)
-        "
+        @update:modelValue="emit('update:firstName', $event)"
         type="text"
         required
         class="w-full px-4 py-2 border rounded-lg"
@@ -30,11 +28,9 @@ const emit = defineEmits<{
       <label class="block text-sm font-medium text-foreground mb-2"
         >Last Name</label
       >
-      <input
+      <Input
         :value="lastName"
-        @input="
-          emit('update:lastName', ($event.target as HTMLInputElement).value)
-        "
+        @update:modelValue="emit('update:lastName', $event)"
         type="text"
         required
         class="w-full px-4 py-2 border rounded-lg"

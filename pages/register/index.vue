@@ -53,7 +53,7 @@ const handleSubmit = async () => {
             <label class="block text-sm font-medium text-foreground mb-2">
               Email
             </label>
-            <input
+            <Input
               v-model="form.email"
               type="email"
               required
@@ -67,7 +67,7 @@ const handleSubmit = async () => {
             <label class="block text-sm font-medium text-foreground mb-2">
               Phone
             </label>
-            <input
+            <Input
               v-model="form.phone"
               type="tel"
               required
@@ -81,7 +81,7 @@ const handleSubmit = async () => {
             <label class="block text-sm font-medium text-foreground mb-2">
               Password
             </label>
-            <input
+            <Input
               v-model="form.password"
               type="password"
               required

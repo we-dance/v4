@@ -7,6 +7,12 @@
 }
 
 @layer base {
+  *,
+  ::before,
+  ::after {
+    @apply dark:border-border;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 12%;
