@@ -164,24 +164,29 @@ const formatNumber = (num: number) => {
 
     <!-- Dance Styles -->
     <div class="flex flex-col gap-2">
-      <div class="font-medium text-sm text-gray-500 px-3">Dance Styles</div>
+      <div class="font-medium text-sm text-muted-foreground px-3">
+        Dance Styles
+      </div>
       <div class="flex flex-col -mx-2">
         <button
           v-for="style in danceStyles"
           :key="style.id"
-          class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg transition-colors"
-          :class="{ 'bg-gray-100': selectedStyle === style.id }"
+          class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
+          :class="{ 'bg-muted': selectedStyle === style.id }"
           @click="selectedStyle = style.id"
         >
           <div
-            class="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center"
+            class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
           >
-            <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-purple-600" />
+            <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-primary" />
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center justify-between">
-              <span class="text-sm font-medium truncate">{{ style.name }}</span>
-              <span class="text-xs text-gray-500">{{
+              <span
+                class="text-sm font-medium truncate text-muted-foreground"
+                >{{ style.name }}</span
+              >
+              <span class="text-xs text-muted-foreground">{{
                 formatNumber(style.members)
               }}</span>
             </div>
