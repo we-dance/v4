@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-white rounded-lg shadow-sm border border-muted animate-pulse">
+  <div
+    class="bg-background rounded-lg shadow-sm border border-border animate-pulse"
+  >
     <!-- Header skeleton -->
     <div class="p-4 flex items-center space-x-3">
       <div class="h-10 w-10 bg-muted rounded-full"></div>

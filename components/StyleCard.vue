@@ -23,11 +23,11 @@ defineProps<{
       class="absolute inset-0 w-full h-full object-cover scale-[1.5] opacity-50 group-hover:opacity-70 transition"
     />
     <div
-      class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
+      class="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"
     ></div>
     <div class="relative h-full p-4 flex flex-col justify-end text-left">
-      <h3 class="font-bold text-xl text-white">{{ style.name }}</h3>
-      <div v-if="style.members > 0" class="text-sm text-white/80">
+      <h3 class="font-bold text-xl text-foreground">{{ style.name }}</h3>
+      <div v-if="style.members > 0" class="text-sm text-muted-foreground">
         <p class="flex items-center gap-1">{{ style.members }} members</p>
       </div>
     </div>

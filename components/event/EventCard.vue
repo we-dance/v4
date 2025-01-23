@@ -23,7 +23,7 @@ const getPrice = (event: AnyEvent) => {
 <template>
   <NuxtLink :to="`/events/${event.id}`" class="block">
     <article
-      class="bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+      class="bg-background rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition-shadow"
     >
       <div class="aspect-[16/9] bg-primary/10 relative overflow-hidden">
         <img
@@ -32,9 +32,9 @@ const getPrice = (event: AnyEvent) => {
           class="w-full h-full object-cover"
         />
         <div
-          class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"
+          class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/50 to-transparent"
         ></div>
-        <div class="absolute bottom-4 left-4 right-4 text-white">
+        <div class="absolute bottom-4 left-4 right-4 text-foreground">
           <div class="text-sm font-medium mb-1">
             {{ formatDate(event.date.start) }}
           </div>
