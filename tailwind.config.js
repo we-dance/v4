@@ -147,8 +147,8 @@ export default {
               marginBottom: "0.125em",
             },
             li: {
-              marginTop: "0.05em",
-              marginBottom: "0.05em",
+              marginTop: "0.5em",
+              marginBottom: "0.5em",
               lineHeight: "1.2",
             },
             "ul > li::before": {
