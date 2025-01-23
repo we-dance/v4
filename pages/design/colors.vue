@@ -3,17 +3,33 @@ definePageMeta({
   layout: "design",
 });
 
+/* Safelist:
+bg-background bg-foreground
+bg-primary bg-primary-foreground
+bg-secondary bg-secondary-foreground
+bg-accent bg-accent-foreground
+bg-muted bg-muted-foreground
+bg-destructive bg-destructive-foreground
+bg-success bg-success-foreground
+bg-warning bg-warning-foreground
+bg-info bg-info-foreground
+bg-card bg-card-foreground
+bg-popover bg-popover-foreground
+bg-border bg-input bg-ring
+bg-gradient-base bg-gradient-1 bg-gradient-2 bg-gradient-3
+*/
+
 const colorGroups = [
   {
     name: "Base",
     colors: [
       {
         name: "background",
-        description: "Main background color for pages",
+        description: "Default page background",
       },
       {
         name: "foreground",
-        description: "Default text color that works well on background",
+        description: "Default text color",
       },
     ],
   },
@@ -22,35 +38,35 @@ const colorGroups = [
     colors: [
       {
         name: "primary",
-        description: "Main brand color, used for key actions and emphasis",
+        description: "Primary brand color for key elements",
       },
       {
         name: "primary-foreground",
-        description: "Text color that's readable on primary color",
+        description: "Text color on primary background",
       },
       {
         name: "secondary",
-        description: "Supporting color for less prominent elements",
+        description: "Secondary color for less prominent elements",
       },
       {
         name: "secondary-foreground",
-        description: "Text color for secondary elements",
+        description: "Text color on secondary background",
       },
       {
         name: "accent",
-        description: "Highlights and accents in the interface",
+        description: "Accent color for highlights and emphasis",
       },
       {
         name: "accent-foreground",
-        description: "Text color for accented elements",
+        description: "Text color on accent background",
       },
       {
         name: "muted",
-        description: "Subtle backgrounds and disabled states",
+        description: "Muted color for subtle backgrounds",
       },
       {
         name: "muted-foreground",
-        description: "Text color for subtle elements",
+        description: "Text color on muted background",
       },
     ],
   },
@@ -59,35 +75,35 @@ const colorGroups = [
     colors: [
       {
         name: "destructive",
-        description: "Error states and delete actions",
+        description: "Color for error states and destructive actions",
       },
       {
         name: "destructive-foreground",
-        description: "Text color for error messages",
+        description: "Text color on destructive background",
       },
       {
         name: "success",
-        description: "Positive feedback and completion states",
+        description: "Color for success states and confirmations",
       },
       {
         name: "success-foreground",
-        description: "Text color for success messages",
+        description: "Text color on success background",
       },
       {
         name: "warning",
-        description: "Cautionary messages and alerts",
+        description: "Color for warning states and alerts",
       },
       {
         name: "warning-foreground",
-        description: "Text color for warning messages",
+        description: "Text color on warning background",
       },
       {
         name: "info",
-        description: "Informational messages and help text",
+        description: "Color for informational messages",
       },
       {
         name: "info-foreground",
-        description: "Text color for info messages",
+        description: "Text color on info background",
       },
     ],
   },
@@ -96,19 +112,19 @@ const colorGroups = [
     colors: [
       {
         name: "card",
-        description: "Background for cards, modals, and menus",
+        description: "Background color for card components",
       },
       {
         name: "card-foreground",
-        description: "Text color for cards",
+        description: "Text color on card background",
       },
       {
         name: "popover",
-        description: "Background for floating elements like tooltips",
+        description: "Background color for popovers and dropdowns",
       },
       {
         name: "popover-foreground",
-        description: "Text color for tooltips",
+        description: "Text color on popover background",
       },
     ],
   },
@@ -117,15 +133,15 @@ const colorGroups = [
     colors: [
       {
         name: "border",
-        description: "Border color for UI elements",
+        description: "Color for borders and dividers",
       },
       {
         name: "input",
-        description: "Border color for form inputs",
+        description: "Background color for input fields",
       },
       {
         name: "ring",
-        description: "Focus ring color for interactive elements",
+        description: "Color for focus rings and outlines",
       },
     ],
   },
@@ -138,26 +154,19 @@ const colorGroups = [
       },
       {
         name: "gradient-1",
-        description: "First gradient accent color",
+        description: "First accent gradient color",
       },
       {
         name: "gradient-2",
-        description: "Second gradient accent color",
+        description: "Second accent gradient color",
       },
       {
         name: "gradient-3",
-        description: "Third gradient accent color",
+        description: "Third accent gradient color",
       },
     ],
   },
 ];
-
-function getHSL(name: string) {
-  const value = getComputedStyle(document.documentElement).getPropertyValue(
-    `--${name}`
-  );
-  return value ? `hsl(${value})` : "";
-}
 </script>
 
 <template>
@@ -178,20 +187,12 @@ function getHSL(name: string) {
       <section v-for="group in colorGroups" :key="group.name">
         <h2 class="text-2xl font-semibold mb-8">{{ group.name }}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div
+          <ColorSwatch
             v-for="color in group.colors"
             :key="color.name"
-            class="p-4 rounded-lg border"
-          >
-            <div :class="`bg-${color.name}`" class="h-16 rounded-lg mb-2"></div>
-            <div class="font-medium mb-1">{{ color.name }}</div>
-            <div class="text-sm text-muted-foreground mb-2">
-              {{ getHSL(color.name) }}
-            </div>
-            <div class="text-sm text-muted-foreground">
-              {{ color.description }}
-            </div>
-          </div>
+            :name="color.name"
+            :description="color.description"
+          />
         </div>
       </section>
     </div>
