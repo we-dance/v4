@@ -100,14 +100,20 @@ defineProps({
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"
+            class="absolute inset-0 bg-gradient-to-t from-background/80 via-background/40 to-transparent"
           ></div>
           <div class="absolute bottom-0 left-0 p-6 w-full">
-            <h3 class="text-2xl font-bold text-white mb-2">{{ city.name }}</h3>
-            <p class="text-white/80 text-sm mb-3">{{ city.description }}</p>
+            <h3 class="text-2xl font-bold text-foreground mb-2">
+              {{ city.name }}
+            </h3>
+            <p class="text-foreground/80 text-sm mb-3">
+              {{ city.description }}
+            </p>
             <div class="flex gap-4">
-              <span class="text-white text-sm">{{ city.events }}+ Events</span>
-              <span class="text-white text-sm"
+              <span class="text-foreground text-sm"
+                >{{ city.events }}+ Events</span
+              >
+              <span class="text-foreground text-sm"
                 >{{ city.artists }}+ Artists</span
               >
             </div>

@@ -6,7 +6,7 @@ defineProps<{
 </script>
 
 <template>
-  <h2 class="text-xl font-bold" :class="white ? 'text-white' : ''">
+  <h2 class="text-xl font-bold" :class="white ? 'text-foreground' : ''">
     {{ title }}
   </h2>
 </template>

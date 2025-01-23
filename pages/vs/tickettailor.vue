@@ -234,7 +234,7 @@
               >
                 <Icon
                   name="ph:heart-straight-fill"
-                  class="w-5 h-5 text-white"
+                  class="w-5 h-5 text-foreground"
                 />
               </div>
               <h3 class="text-2xl font-semibold">WeDance</h3>

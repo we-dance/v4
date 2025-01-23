@@ -108,7 +108,7 @@ const mediaAssets = [
       <!-- About WeDance -->
       <section>
         <h2 class="text-2xl font-semibold mb-6">About WeDance</h2>
-        <div class="prose prose-slate max-w-none">
+        <div class="prose prose-neutral max-w-none">
           <p>
             WeDance is the world's leading platform for connecting dancers,
             dance instructors, and dance enthusiasts. Our mission is to make

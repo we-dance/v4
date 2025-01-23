@@ -48,7 +48,7 @@ defineProps({
               <div
                 class="w-8 h-8 flex items-center justify-center rounded-[60%_40%_30%_70%_/_30%_30%_70%_70%] bg-gradient-to-br from-fuchsia-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:users" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:users" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">
@@ -65,7 +65,7 @@ defineProps({
               <div
                 class="w-8 h-8 flex items-center justify-center rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] bg-gradient-to-br from-fuchsia-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:calendar" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:calendar" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">
@@ -82,7 +82,7 @@ defineProps({
               <div
                 class="w-8 h-8 flex items-center justify-center rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] bg-gradient-to-br from-fuchsia-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:money" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:money" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">Promote & Earn</h4>
@@ -110,12 +110,9 @@ defineProps({
         >
           <div class="text-center mb-6">
             <div
-              class="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-[60%_40%_30%_70%_/_30%_30%_70%_70%] bg-gradient-to-br from-primary-500 to-accent transform transition-all duration-300 group-hover:-rotate-6"
+              class="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-[60%_40%_30%_70%_/_30%_30%_70%_70%] bg-gradient-to-br from-purple-500 to-accent transform transition-all duration-300 group-hover:-rotate-6"
             >
-              <Icon
-                name="ph:microphone-stage"
-                class="w-8 h-8 text-foreground"
-              />
+              <Icon name="ph:microphone-stage" class="w-8 h-8 text-white" />
             </div>
             <h3 class="text-xl font-bold mb-2 text-foreground">For Artists</h3>
             <p class="text-muted-foreground text-sm">
@@ -136,9 +133,9 @@ defineProps({
           <div class="space-y-4">
             <div class="flex items-start gap-3 group/item">
               <div
-                class="w-8 h-8 flex items-center justify-center rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] bg-gradient-to-br from-primary-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
+                class="w-8 h-8 flex items-center justify-center rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] bg-gradient-to-br from-purple-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:video-camera" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:video-camera" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">Online Courses</h4>
@@ -150,12 +147,9 @@ defineProps({
 
             <div class="flex items-start gap-3 group/item">
               <div
-                class="w-8 h-8 flex items-center justify-center rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] bg-gradient-to-br from-primary-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
+                class="w-8 h-8 flex items-center justify-center rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] bg-gradient-to-br from-purple-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon
-                  name="ph:calendar-check"
-                  class="w-4 h-4 text-foreground"
-                />
+                <Icon name="ph:calendar-check" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">
@@ -169,9 +163,9 @@ defineProps({
 
             <div class="flex items-start gap-3 group/item">
               <div
-                class="w-8 h-8 flex items-center justify-center rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] bg-gradient-to-br from-primary-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
+                class="w-8 h-8 flex items-center justify-center rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] bg-gradient-to-br from-purple-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:money" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:money" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">Promote & Earn</h4>
@@ -191,7 +185,7 @@ defineProps({
             <div
               class="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] bg-gradient-to-br from-orange-500 to-accent transform transition-all duration-300 group-hover:rotate-6"
             >
-              <Icon name="ph:buildings" class="w-8 h-8 text-foreground" />
+              <Icon name="ph:buildings" class="w-8 h-8 text-white" />
             </div>
             <h3 class="text-xl font-bold mb-2 text-foreground">
               For Organizers
@@ -216,7 +210,7 @@ defineProps({
               <div
                 class="w-8 h-8 flex items-center justify-center rounded-[60%_40%_30%_70%_/_30%_30%_70%_70%] bg-gradient-to-br from-orange-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:ticket" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:ticket" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">
@@ -232,7 +226,7 @@ defineProps({
               <div
                 class="w-8 h-8 flex items-center justify-center rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] bg-gradient-to-br from-orange-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:users-three" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:users-three" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">
@@ -248,7 +242,7 @@ defineProps({
               <div
                 class="w-8 h-8 flex items-center justify-center rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] bg-gradient-to-br from-orange-500/80 to-accent/80 flex-shrink-0 mt-0.5 transform transition-all duration-300 group-hover/item:scale-110"
               >
-                <Icon name="ph:money" class="w-4 h-4 text-foreground" />
+                <Icon name="ph:money" class="w-4 h-4 text-white" />
               </div>
               <div>
                 <h4 class="font-medium mb-1 text-foreground">

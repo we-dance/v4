@@ -258,7 +258,7 @@
           Empower your community members to promote your events and earn rewards
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-white rounded-xl p-8">
+          <div class="bg-background rounded-xl p-8">
             <Icon name="ph:users-three" class="w-12 h-12 text-primary mb-6" />
             <h3 class="text-xl font-semibold mb-4">Community Promoters</h3>
             <p class="text-muted-foreground mb-6">
@@ -290,7 +290,7 @@
             </ul>
           </div>
 
-          <div class="bg-white rounded-xl p-8">
+          <div class="bg-background rounded-xl p-8">
             <Icon name="ph:chart-line" class="w-12 h-12 text-primary mb-6" />
             <h3 class="text-xl font-semibold mb-4">Growth Tools</h3>
             <p class="text-muted-foreground mb-6">
@@ -321,7 +321,7 @@
             </ul>
           </div>
 
-          <div class="bg-white rounded-xl p-8">
+          <div class="bg-background rounded-xl p-8">
             <Icon name="ph:crown" class="w-12 h-12 text-primary mb-6" />
             <h3 class="text-xl font-semibold mb-4">VIP Program</h3>
             <p class="text-muted-foreground mb-6">

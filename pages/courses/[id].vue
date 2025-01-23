@@ -47,7 +47,7 @@ const handleSubscribe = () => {
 <template>
   <div class="min-h-screen bg-muted">
     <!-- Course Header -->
-    <div class="bg-white border-b">
+    <div class="bg-background border-b">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div class="flex items-center justify-between">
           <div>
@@ -69,7 +69,7 @@ const handleSubscribe = () => {
         <!-- Main Content -->
         <div class="lg:col-span-2 space-y-8">
           <!-- Video Player -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="aspect-video">
               <iframe
                 :src="`https://www.youtube.com/embed/${currentLesson.videoId}`"
@@ -90,7 +90,7 @@ const handleSubscribe = () => {
           </div>
 
           <!-- Course Content -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
               <h3 class="font-semibold">Course Content</h3>
             </div>
@@ -144,7 +144,7 @@ const handleSubscribe = () => {
           </div>
 
           <!-- Course Materials -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
               <h3 class="font-semibold">Course Materials</h3>
             </div>
@@ -175,7 +175,7 @@ const handleSubscribe = () => {
           </div>
 
           <!-- Instructor Info -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
               <h3 class="font-semibold">About the Instructor</h3>
             </div>
@@ -255,7 +255,7 @@ const handleSubscribe = () => {
           </div>
 
           <!-- Reviews -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
               <h3 class="font-semibold">Student Reviews</h3>
             </div>
@@ -289,7 +289,7 @@ const handleSubscribe = () => {
           </div>
 
           <!-- Community -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
               <h3 class="font-semibold">Community</h3>
             </div>
@@ -326,7 +326,7 @@ const handleSubscribe = () => {
         <!-- Sidebar -->
         <div class="lg:sticky lg:top-8 space-y-8">
           <!-- Course Stats -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
               <h3 class="font-semibold">Course Overview</h3>
             </div>
@@ -361,7 +361,7 @@ const handleSubscribe = () => {
           </div>
 
           <!-- Pricing Tiers -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4">
               <div class="space-y-4">
                 <div>
@@ -392,7 +392,7 @@ const handleSubscribe = () => {
 
           <!-- Private Class Booking -->
           <div
-            class="bg-white rounded-xl shadow-sm overflow-hidden"
+            class="bg-background rounded-xl shadow-sm overflow-hidden"
             v-if="course.instructor.privateClass"
           >
             <div class="p-4 border-b">

@@ -42,7 +42,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
         </p>
       </div>
 
-      <div class="bg-white rounded-xl shadow-sm border p-8">
+      <div class="bg-background rounded-xl shadow-sm border p-8">
         <form @submit="form.handleSubmit(onSubmit)" class="space-y-6">
           <FormField v-slot="{ componentField }" name="email">
             <FormItem>

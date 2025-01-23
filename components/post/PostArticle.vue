@@ -20,7 +20,7 @@ defineProps<{
       <p class="text-muted-foreground">{{ content.description }}</p>
       <div
         v-if="content.html"
-        class="prose prose-purple max-w-none line-clamp-3"
+        class="prose prose-neutral max-w-none line-clamp-3"
         v-html="content.html"
       />
     </div>
