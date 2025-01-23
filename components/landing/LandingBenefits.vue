@@ -34,7 +34,7 @@ defineProps({
             <div
               class="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] bg-gradient-to-br from-fuchsia-500 to-accent transform transition-all duration-300 group-hover:rotate-6"
             >
-              <Icon name="ph:users-three" class="w-8 h-8 text-foreground" />
+              <Icon name="ph:users-three" class="w-8 h-8 text-white" />
             </div>
             <h3 class="text-xl font-bold mb-2 text-foreground">For Dancers</h3>
             <p class="text-muted-foreground text-sm">
