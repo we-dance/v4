@@ -1,99 +1,62 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-
-const sections = [
-  { id: "colors", label: "Colors" },
-  { id: "typography", label: "Typography" },
-  { id: "spacing", label: "Spacing" },
-  { id: "radius", label: "Border Radius" },
-  { id: "components", label: "Components" },
-] as const;
-
-type SectionId = (typeof sections)[number]["id"];
-const activeSection = ref<SectionId>("colors");
-
-onMounted(() => {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          activeSection.value = entry.target.id as SectionId;
-        }
-      });
-    },
-    { threshold: 0.5 }
-  );
-
-  sections.forEach(({ id }) => {
-    const element = document.getElementById(id);
-    if (element) observer.observe(element);
-  });
-});
-
 definePageMeta({
   layout: "design",
 });
+
+import { designConfig } from "~/config/design";
+
+const sections = [
+  {
+    ...designConfig.foundation,
+    links: designConfig.foundation.items,
+  },
+  {
+    ...designConfig.components,
+    links: [
+      ...designConfig.components.sections.ui.items,
+      ...designConfig.components.sections.domain.items,
+    ],
+  },
+  {
+    ...designConfig.patterns,
+    links: designConfig.patterns.items,
+  },
+];
 </script>
 
 <template>
   <div>
-    <h1 class="text-3xl font-bold mb-8">Design System</h1>
-    <p class="text-lg text-muted-foreground mb-8">
-      Welcome to the WeDance design system documentation. This system provides a
-      comprehensive set of design tokens, components, and guidelines to help
-      create consistent and beautiful user interfaces.
-    </p>
+    <div class="mb-16">
+      <h1 class="text-4xl font-bold mb-4">Design System</h1>
+      <p class="text-xl text-muted-foreground">
+        A comprehensive guide to building consistent and accessible interfaces
+        for WeDance.
+      </p>
+    </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <NuxtLink
-        to="/design/colors"
-        class="block p-6 rounded-lg border hover:border-primary transition-colors"
-      >
-        <h2 class="text-xl font-semibold mb-2">Colors</h2>
-        <p class="text-muted-foreground">
-          Semantic color tokens for consistent theming and dark mode support.
-        </p>
-      </NuxtLink>
+    <div class="space-y-16">
+      <section v-for="section in sections" :key="section.label">
+        <div class="mb-8">
+          <h2 class="text-2xl font-semibold mb-2">{{ section.label }}</h2>
+          <p class="text-muted-foreground">{{ section.description }}</p>
+        </div>
 
-      <NuxtLink
-        to="/design/typography"
-        class="block p-6 rounded-lg border hover:border-primary transition-colors"
-      >
-        <h2 class="text-xl font-semibold mb-2">Typography</h2>
-        <p class="text-muted-foreground">
-          Font families, weights, and sizes for clear visual hierarchy.
-        </p>
-      </NuxtLink>
-
-      <NuxtLink
-        to="/design/spacing"
-        class="block p-6 rounded-lg border hover:border-primary transition-colors"
-      >
-        <h2 class="text-xl font-semibold mb-2">Spacing</h2>
-        <p class="text-muted-foreground">
-          Consistent spacing scale for margins, padding, and layout.
-        </p>
-      </NuxtLink>
-
-      <NuxtLink
-        to="/design/radius"
-        class="block p-6 rounded-lg border hover:border-primary transition-colors"
-      >
-        <h2 class="text-xl font-semibold mb-2">Border Radius</h2>
-        <p class="text-muted-foreground">
-          Border radius tokens for consistent component shapes.
-        </p>
-      </NuxtLink>
-
-      <NuxtLink
-        to="/design/components"
-        class="block p-6 rounded-lg border hover:border-primary transition-colors md:col-span-2"
-      >
-        <h2 class="text-xl font-semibold mb-2">Components</h2>
-        <p class="text-muted-foreground">
-          A collection of reusable UI components built with shadcn-vue.
-        </p>
-      </NuxtLink>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <NuxtLink
+            v-for="link in section.links"
+            :key="link.to"
+            :to="link.to"
+            class="group relative rounded-lg border p-6 hover:bg-muted"
+          >
+            <h3 class="font-semibold mb-2 group-hover:underline">
+              {{ link.label }}
+            </h3>
+            <p class="text-sm text-muted-foreground">
+              {{ link.description }}
+            </p>
+          </NuxtLink>
+        </div>
+      </section>
     </div>
   </div>
 </template>

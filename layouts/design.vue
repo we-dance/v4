@@ -1,43 +1,5 @@
 <script setup lang="ts">
-const navigation = {
-  foundation: {
-    label: "Foundation",
-    items: [
-      { to: "/design/colors", label: "Colors" },
-      { to: "/design/typography", label: "Typography" },
-    ],
-  },
-  components: {
-    label: "Components",
-    sections: {
-      ui: {
-        label: "UI Components",
-        items: [
-          { to: "/design/components/button", label: "Button" },
-          { to: "/design/components/input", label: "Input" },
-          { to: "/design/components/dialog", label: "Dialog" },
-        ],
-      },
-      domain: {
-        label: "Domain Components",
-        items: [
-          { to: "/design/components/post", label: "Post" },
-          { to: "/design/components/profile", label: "Profile" },
-          { to: "/design/components/event", label: "Event" },
-          { to: "/design/components/venue", label: "Venue" },
-        ],
-      },
-    },
-  },
-  patterns: {
-    label: "Patterns",
-    items: [
-      { to: "/design/patterns/forms", label: "Forms" },
-      { to: "/design/patterns/navigation", label: "Navigation" },
-      { to: "/design/patterns/loading", label: "Loading States" },
-    ],
-  },
-};
+import { designConfig } from "~/config/design";
 </script>
 
 <template>
@@ -63,11 +25,11 @@ const navigation = {
             <!-- Foundation -->
             <div>
               <h4 class="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
-                {{ navigation.foundation.label }}
+                {{ designConfig.foundation.label }}
               </h4>
               <div class="grid grid-flow-row auto-rows-max text-sm">
                 <DesignNavLink
-                  v-for="item in navigation.foundation.items"
+                  v-for="item in designConfig.foundation.items"
                   :key="item.to"
                   :to="item.to"
                   :label="item.label"
@@ -78,11 +40,11 @@ const navigation = {
             <!-- Components -->
             <div>
               <h4 class="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
-                {{ navigation.components.label }}
+                {{ designConfig.components.label }}
               </h4>
               <div class="grid grid-flow-row auto-rows-max text-sm">
                 <template
-                  v-for="(section, key) in navigation.components.sections"
+                  v-for="(section, key) in designConfig.components.sections"
                   :key="key"
                 >
                   <h5
@@ -104,11 +66,11 @@ const navigation = {
             <!-- Patterns -->
             <div>
               <h4 class="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
-                {{ navigation.patterns.label }}
+                {{ designConfig.patterns.label }}
               </h4>
               <div class="grid grid-flow-row auto-rows-max text-sm">
                 <DesignNavLink
-                  v-for="item in navigation.patterns.items"
+                  v-for="item in designConfig.patterns.items"
                   :key="item.to"
                   :to="item.to"
                   :label="item.label"
