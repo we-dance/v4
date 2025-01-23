@@ -126,7 +126,7 @@ const badges = [
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50 py-32 sm:py-24">
+  <div class="min-h-screen bg-muted py-32 sm:py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Header -->
       <div class="text-center max-w-3xl mx-auto mb-16">

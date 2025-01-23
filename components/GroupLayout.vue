@@ -133,9 +133,12 @@ const getEventType = (value: string) =>
               />
               <div
                 v-else
-                class="w-full h-full bg-gray-200 flex items-center justify-center"
+                class="w-full h-full bg-muted flex items-center justify-center"
               >
-                <Icon name="ph:users-three" class="w-24 h-24 text-gray-400" />
+                <Icon
+                  name="ph:users-three"
+                  class="w-24 h-24 text-muted-foreground"
+                />
               </div>
             </div>
           </div>
@@ -184,11 +187,11 @@ const getEventType = (value: string) =>
             <!-- Group Info -->
             <div class="bg-white rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">About</h3>
-              <p class="text-gray-600 mb-4">{{ group.bio }}</p>
+              <p class="text-muted-foreground mb-4">{{ group.bio }}</p>
 
               <!-- Event Types -->
               <div class="mb-4">
-                <h4 class="font-medium text-gray-900 mb-2">Event Types</h4>
+                <h4 class="font-medium text-foreground mb-2">Event Types</h4>
                 <div class="flex flex-wrap gap-2">
                   <Badge
                     v-for="type in group.eventTypes"

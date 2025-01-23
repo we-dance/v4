@@ -46,14 +46,14 @@
           Common Dance Teacher Challenges
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:student" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Finding Students</h3>
             <p class="text-gray-600">
               Hard to reach dancers looking for classes in your style and level
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:calendar" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Class Management</h3>
             <p class="text-gray-600">
@@ -61,7 +61,7 @@
               platforms
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:users" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Building Community</h3>
             <p class="text-gray-600">
@@ -74,7 +74,7 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">
           Why Choose WeDance?
@@ -223,7 +223,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-6">
           Ready to Grow Your Dance Classes?

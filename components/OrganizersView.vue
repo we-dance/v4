@@ -198,7 +198,7 @@ watch(selectedEventType, (newValue) => {
     </div>
 
     <!-- Filters -->
-    <div v-if="showFilters" class="mb-8 p-4 bg-gray-50 rounded-lg">
+    <div v-if="showFilters" class="mb-8 p-4 bg-muted rounded-lg">
       <div class="grid sm:grid-cols-2 gap-4">
         <div>
           <Label>Dance Styles</Label>

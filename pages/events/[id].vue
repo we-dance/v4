@@ -494,7 +494,7 @@ const eventArtists = computed(() => {
                 </div>
               </div>
               <!-- Map placeholder -->
-              <div class="aspect-[4/3] bg-gray-100 rounded-lg"></div>
+              <div class="aspect-[4/3] bg-accent rounded-lg"></div>
             </div>
           </div>
 

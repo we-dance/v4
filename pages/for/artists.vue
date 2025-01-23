@@ -131,7 +131,7 @@
           No hidden fees. No monthly charges. Only pay when you earn.
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon
               name="ph:video-camera"
               class="w-12 h-12 text-purple-600 mb-6"
@@ -167,7 +167,7 @@
             </div>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon
               name="ph:users-three"
               class="w-12 h-12 text-purple-600 mb-6"
@@ -203,7 +203,7 @@
             </div>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon
               name="ph:calendar-check"
               class="w-12 h-12 text-purple-600 mb-6"
@@ -250,7 +250,7 @@
     </section>
 
     <!-- Tools Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4">All-in-One Platform</h2>
         <p
@@ -316,7 +316,7 @@
           Be among the first artists to shape the future of dance education
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
               <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
               <div>
@@ -333,7 +333,7 @@
               🎓 Pre-recorded & live classes
             </div>
           </div>
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
               <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
               <div>
@@ -350,7 +350,7 @@
               🎭 Private & festival bookings
             </div>
           </div>
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
               <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
               <div>
@@ -382,7 +382,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <NuxtLink to="/vs/instagram" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon
@@ -400,7 +400,7 @@
 
           <NuxtLink to="/vs/skool" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:student" class="w-8 h-8 text-purple-600" />
@@ -414,7 +414,7 @@
 
           <NuxtLink to="/vs/tickettailor" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:ticket" class="w-8 h-8 text-purple-600" />

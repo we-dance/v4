@@ -109,7 +109,7 @@
           Simple pricing, instant payouts, and all the tools you need to succeed
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon
               name="ph:video-camera"
               class="w-12 h-12 text-purple-600 mb-6"
@@ -144,7 +144,7 @@
             </div>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon
               name="ph:calendar-check"
               class="w-12 h-12 text-purple-600 mb-6"
@@ -179,7 +179,7 @@
             </div>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon name="ph:megaphone" class="w-12 h-12 text-purple-600 mb-6" />
             <h3 class="text-xl font-semibold mb-4">Festival Gigs</h3>
             <ul class="space-y-3 text-gray-600">
@@ -215,7 +215,7 @@
     </section>
 
     <!-- Tools Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4">All-in-One Platform</h2>
         <p
@@ -281,9 +281,9 @@
           Join hundreds of dance artists already growing their income
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent rounded-full"></div>
               <div>
                 <div class="font-semibold">Sarah Johnson</div>
                 <div class="text-gray-600">Salsa Instructor</div>
@@ -298,9 +298,9 @@
               📈 €24,000+ earned in 2024
             </div>
           </div>
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent rounded-full"></div>
               <div>
                 <div class="font-semibold">Michael Chen</div>
                 <div class="text-gray-600">Dance Studio Owner</div>
@@ -314,9 +314,9 @@
               🎯 80+ new students in 2024
             </div>
           </div>
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent rounded-full"></div>
               <div>
                 <div class="font-semibold">Maria Garcia</div>
                 <div class="text-gray-600">Bachata Performer</div>
@@ -335,7 +335,7 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-4">Start Growing Your Income Today</h2>
         <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">

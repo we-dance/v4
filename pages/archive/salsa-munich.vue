@@ -294,7 +294,7 @@
 
                 <!-- Current Step -->
                 <div class="flex items-center gap-4">
-                  <div class="bg-purple-100 p-2 rounded-full">
+                  <div class="bg-accent p-2 rounded-full">
                     <svg
                       class="w-6 h-6 text-purple-600"
                       fill="none"
@@ -314,9 +314,9 @@
                     <div class="text-sm text-gray-600">
                       Learn to dance with a partner
                     </div>
-                    <div class="mt-2 w-full bg-purple-100 rounded-full h-2">
+                    <div class="mt-2 w-full bg-secondary rounded-full h-2">
                       <div
-                        class="bg-purple-600 h-2 rounded-full"
+                        class="bg-primary h-2 rounded-full"
                         style="width: 60%"
                       ></div>
                     </div>
@@ -326,7 +326,7 @@
 
                 <!-- Locked Step -->
                 <div class="flex items-center gap-4 opacity-50">
-                  <div class="bg-gray-100 p-2 rounded-full">
+                  <div class="bg-muted p-2 rounded-full">
                     <svg
                       class="w-6 h-6 text-gray-600"
                       fill="none"

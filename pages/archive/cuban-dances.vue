@@ -100,7 +100,7 @@ const culturalContext = {
               <div
                 v-for="dance in tradition.dances || tradition.styles"
                 :key="dance.name"
-                class="bg-gray-50 rounded-lg p-4"
+                class="bg-muted rounded-lg p-4"
               >
                 <h3 class="font-bold mb-2">{{ dance.name }}</h3>
                 <p class="text-sm text-gray-600">{{ dance.description }}</p>
@@ -118,7 +118,7 @@ const culturalContext = {
     </div>
 
     <!-- Cultural Context -->
-    <div class="py-12 bg-gray-50">
+    <div class="py-12 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold mb-8 text-center">Cultural Heritage</h2>
         <div class="prose max-w-none">

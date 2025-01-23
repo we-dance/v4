@@ -36,7 +36,7 @@ const steps = [
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50 py-32">
+  <div class="min-h-screen bg-muted py-32">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Success Message -->
       <div class="text-center mb-12">
@@ -45,8 +45,10 @@ const steps = [
         >
           <Icon name="ph:check-bold" class="w-8 h-8 text-green-600" />
         </div>
-        <h1 class="text-3xl font-bold mb-4">Welcome to WeDance!</h1>
-        <p class="text-gray-600 text-lg">
+        <h1 class="text-3xl font-bold text-foreground mb-4">
+          Welcome to WeDance!
+        </h1>
+        <p class="text-lg text-muted-foreground">
           Your account has been successfully created. Let's get you started!
         </p>
       </div>
@@ -67,13 +69,13 @@ const steps = [
               <div class="flex items-center justify-between gap-4 mb-1">
                 <h3 class="text-lg font-medium">{{ step.title }}</h3>
                 <div class="flex items-center gap-1">
-                  <span class="text-sm text-gray-500">{{
+                  <span class="text-sm text-muted-foreground">{{
                     step.energyLabel
                   }}</span>
                   <UserPoints :points="step.energy" />
                 </div>
               </div>
-              <p class="text-gray-600 mb-4">{{ step.description }}</p>
+              <p class="text-muted-foreground mb-4">{{ step.description }}</p>
               <Button variant="outline" as-child>
                 <NuxtLink :to="step.to" class="flex items-center gap-2">
                   {{ step.action }}
@@ -90,7 +92,7 @@ const steps = [
             <Icon name="heroicons:fire" class="w-4 h-4" />
             <span class="font-medium">Dance Energy</span>
           </div>
-          <p class="text-sm text-gray-600">
+          <p class="text-sm text-muted-foreground">
             Dance Energy is our community reward system. Earn energy by
             completing actions, participating in events, and connecting with
             other dancers. Higher energy levels unlock special features and show
@@ -107,7 +109,7 @@ const steps = [
 
       <!-- Skip Option -->
       <div class="text-center mt-8">
-        <NuxtLink to="/" class="text-gray-600 hover:text-purple-600">
+        <NuxtLink to="/" class="text-muted-foreground hover:text-primary">
           Skip for now and go to homepage
         </NuxtLink>
       </div>

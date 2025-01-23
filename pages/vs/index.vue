@@ -21,12 +21,12 @@
     </section>
 
     <!-- Comparison Links Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <NuxtLink to="/vs/instagram" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon
@@ -43,7 +43,7 @@
 
           <NuxtLink to="/vs/whatsapp" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon
@@ -60,7 +60,7 @@
 
           <NuxtLink to="/vs/fitogram" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon
@@ -77,7 +77,7 @@
 
           <NuxtLink to="/vs/tickettailor" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:ticket" class="w-8 h-8 text-purple-600" />
@@ -91,7 +91,7 @@
 
           <NuxtLink to="/vs/skool" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:student" class="w-8 h-8 text-purple-600" />
@@ -105,7 +105,7 @@
 
           <NuxtLink to="/vs/salsaforums" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:chats-circle" class="w-8 h-8 text-purple-600" />
@@ -119,7 +119,7 @@
 
           <NuxtLink to="/vs/reddit" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:reddit-logo" class="w-8 h-8 text-purple-600" />
@@ -133,7 +133,7 @@
 
           <NuxtLink to="/vs/website" class="group">
             <div
-              class="bg-gray-50 rounded-xl p-8 hover:bg-purple-50 transition-colors"
+              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
                 <Icon name="ph:globe" class="w-8 h-8 text-purple-600" />

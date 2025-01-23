@@ -137,7 +137,7 @@
           No hidden fees. No monthly charges. Only pay when you get bookings.
         </p>
         <div class="max-w-lg mx-auto">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon name="ph:buildings" class="w-12 h-12 text-purple-600 mb-6" />
             <h3 class="text-xl font-semibold mb-4">Venue Management</h3>
             <ul class="space-y-3 text-gray-600">
@@ -194,7 +194,7 @@
           Maximize Your Space's Potential
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon name="ph:calendar" class="w-12 h-12 text-purple-600 mb-6" />
             <h3 class="text-xl font-semibold mb-4">Smart Scheduling</h3>
             <ul class="space-y-3 text-gray-600">
@@ -222,7 +222,7 @@
             </ul>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon name="ph:users" class="w-12 h-12 text-purple-600 mb-6" />
             <h3 class="text-xl font-semibold mb-4">Reach More Organizers</h3>
             <ul class="space-y-3 text-gray-600">
@@ -250,7 +250,7 @@
             </ul>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <Icon name="ph:chart-line" class="w-12 h-12 text-purple-600 mb-6" />
             <h3 class="text-xl font-semibold mb-4">Grow Revenue</h3>
             <ul class="space-y-3 text-gray-600">
@@ -282,7 +282,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">
           Tools Built for Dance Venues
@@ -340,9 +340,9 @@
           What Venue Owners Say
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent rounded-full"></div>
               <div>
                 <div class="font-semibold">James Wilson</div>
                 <div class="text-gray-600">Dance Studio Owner</div>
@@ -353,9 +353,9 @@
               event organizers. Our booking rate has increased significantly."
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent rounded-full"></div>
               <div>
                 <div class="font-semibold">Emma Rodriguez</div>
                 <div class="text-gray-600">Event Space Manager</div>
@@ -366,9 +366,9 @@
               operations and reduced administrative work."
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent rounded-full"></div>
               <div>
                 <div class="font-semibold">Thomas Lee</div>
                 <div class="text-gray-600">Community Center Director</div>

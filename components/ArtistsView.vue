@@ -320,7 +320,7 @@ const sortedArtists = computed(() => {
 
 <template>
   <!-- Add background to filters -->
-  <div class="bg-gray-50">
+  <div class="bg-muted">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
       <!-- Role Filter with Search -->
       <div class="flex items-center gap-4 overflow-x-auto">

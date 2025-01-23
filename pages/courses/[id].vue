@@ -45,7 +45,7 @@ const handleSubscribe = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
+  <div class="min-h-screen bg-muted">
     <!-- Course Header -->
     <div class="bg-white border-b">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -106,7 +106,7 @@ const handleSubscribe = () => {
                     v-for="lesson in module.lessons"
                     :key="lesson.id"
                     @click="selectLesson(lesson)"
-                    class="flex items-center gap-3 p-2 rounded hover:bg-gray-50 cursor-pointer"
+                    class="flex items-center gap-3 p-2 rounded hover:bg-accent cursor-pointer"
                     :class="{
                       'bg-purple-50': currentLesson.id === lesson.id,
                     }"
@@ -151,7 +151,7 @@ const handleSubscribe = () => {
                 <li
                   v-for="material in course.materials"
                   :key="material.id"
-                  class="flex items-center gap-3 p-2 rounded hover:bg-gray-50 cursor-pointer"
+                  class="flex items-center gap-3 p-2 rounded hover:bg-accent cursor-pointer"
                 >
                   <Icon :name="material.icon" class="w-5 h-5 text-gray-400" />
                   <div class="flex-1">
@@ -284,13 +284,13 @@ const handleSubscribe = () => {
             </div>
             <div class="p-4">
               <div class="grid grid-cols-2 gap-4 mb-4">
-                <div class="text-center p-3 bg-gray-50 rounded-lg">
+                <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-purple-600">
                     {{ course.community.discussions }}
                   </div>
                   <div class="text-sm text-gray-600">Discussions</div>
                 </div>
-                <div class="text-center p-3 bg-gray-50 rounded-lg">
+                <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-purple-600">
                     {{ course.community.activeStudents }}
                   </div>
@@ -319,25 +319,25 @@ const handleSubscribe = () => {
             </div>
             <div class="p-4">
               <div class="grid grid-cols-2 gap-4">
-                <div class="text-center p-3 bg-gray-50 rounded-lg">
+                <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-purple-600">
                     {{ course.stats.enrolled }}
                   </div>
                   <div class="text-sm text-gray-600">Students</div>
                 </div>
-                <div class="text-center p-3 bg-gray-50 rounded-lg">
+                <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-purple-600">
                     {{ course.stats.completed }}
                   </div>
                   <div class="text-sm text-gray-600">Completed</div>
                 </div>
-                <div class="text-center p-3 bg-gray-50 rounded-lg">
+                <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-yellow-500">
                     {{ course.stats.avgRating }}
                   </div>
                   <div class="text-sm text-gray-600">Avg Rating</div>
                 </div>
-                <div class="text-center p-3 bg-gray-50 rounded-lg">
+                <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-purple-600">
                     {{ course.stats.reviewCount }}
                   </div>

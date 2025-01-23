@@ -107,7 +107,7 @@ const handleImageError = (event: Event) => {
                 <span
                   v-for="example in style.examples"
                   :key="example"
-                  class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full"
+                  class="text-xs bg-accent text-gray-600 px-2 py-1 rounded-full"
                 >
                   {{ example }}
                 </span>
@@ -156,7 +156,7 @@ const handleImageError = (event: Event) => {
           :to="`/events/${event.id}`"
           class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
         >
-          <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
+          <div class="aspect-video rounded-t-lg overflow-hidden bg-accent">
             <NuxtImg
               :src="event.image"
               :alt="event.name"
@@ -222,7 +222,7 @@ const handleImageError = (event: Event) => {
               class="group block"
             >
               <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
+                <div class="w-24 h-16 rounded overflow-hidden bg-accent">
                   <NuxtImg
                     :src="post.content.cover"
                     :alt="post.content.title"
@@ -255,7 +255,7 @@ const handleImageError = (event: Event) => {
               class="group block"
             >
               <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
+                <div class="w-24 h-16 rounded overflow-hidden bg-accent">
                   <NuxtImg
                     :src="post.content.cover"
                     :alt="post.content.title"

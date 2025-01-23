@@ -46,7 +46,7 @@
           Common Instagram Frustrations
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:calendar-x" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Missing Events</h3>
             <p class="text-gray-600">
@@ -54,7 +54,7 @@
               what's happening tonight
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon
               name="ph:users-three"
               class="w-10 h-10 text-purple-600 mb-4"
@@ -64,7 +64,7 @@
               No way to find dance partners or join practice groups in your area
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:funnel" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Content Overload</h3>
             <p class="text-gray-600">
@@ -76,7 +76,7 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">
           Why Switch to WeDance?
@@ -230,7 +230,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-6">Join Your Dance Community</h2>
         <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">

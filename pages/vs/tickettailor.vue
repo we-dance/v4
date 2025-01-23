@@ -46,7 +46,7 @@
           Common Event Organizer Challenges
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:megaphone" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Limited Reach</h3>
             <p class="text-gray-600">
@@ -54,7 +54,7 @@
               existing network
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon
               name="ph:users-three"
               class="w-10 h-10 text-purple-600 mb-4"
@@ -64,7 +64,7 @@
               No tools to engage with attendees before and after events
             </p>
           </div>
-          <div class="bg-gray-50 rounded-xl p-6">
+          <div class="bg-muted rounded-xl p-6">
             <Icon name="ph:chart-line" class="w-10 h-10 text-purple-600 mb-4" />
             <h3 class="text-xl font-semibold mb-2">Growth Insights</h3>
             <p class="text-gray-600">
@@ -76,7 +76,7 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">
           Why Choose WeDance?
@@ -173,7 +173,7 @@
           Simple & Fair Pricing
         </h2>
         <div class="grid md:grid-cols-2 gap-8">
-          <div class="bg-gray-50 rounded-xl p-8">
+          <div class="bg-muted rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
               <Icon name="ph:ticket-bold" class="w-8 h-8 text-gray-600" />
               <h3 class="text-2xl font-semibold">TicketTailor</h3>
@@ -205,7 +205,7 @@
             </div>
           </div>
 
-          <div class="bg-gray-50 rounded-xl p-8 border-2 border-purple-600">
+          <div class="bg-muted rounded-xl p-8 border-2 border-purple-600">
             <div class="flex items-center gap-4 mb-6">
               <div
                 class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center"
@@ -314,7 +314,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-6">Ready to Grow Your Events?</h2>
         <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">

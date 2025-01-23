@@ -83,7 +83,7 @@ const levels = [
     </div>
 
     <!-- Skill Levels -->
-    <div class="py-12 bg-gray-50">
+    <div class="py-12 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold mb-12 text-center">Learning Path</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
