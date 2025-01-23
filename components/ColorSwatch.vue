@@ -20,10 +20,21 @@ const getGradient = (name: string) => {
 };
 
 const getHSL = (name: string) => {
-  if (typeof document === "undefined") return "";
-  return getComputedStyle(document.documentElement).getPropertyValue(
+  if (typeof document === "undefined") return { light: "", dark: "" };
+
+  // Get light mode value
+  const light = getComputedStyle(document.documentElement).getPropertyValue(
     `--${name}`
   );
+
+  // Get dark mode value by temporarily adding dark class
+  document.documentElement.classList.add("dark");
+  const dark = getComputedStyle(document.documentElement).getPropertyValue(
+    `--${name}`
+  );
+  document.documentElement.classList.remove("dark");
+
+  return { light, dark };
 };
 </script>
 
@@ -49,9 +60,10 @@ const getHSL = (name: string) => {
       </div>
     </div>
     <div class="font-medium mb-1">{{ name }}</div>
-    <div class="text-sm text-muted-foreground mb-2">
-      hsl({{ getHSL(name) }})
+    <div class="text-sm text-muted-foreground space-y-1">
+      <div>Light: hsl({{ getHSL(name).light }})</div>
+      <div>Dark: hsl({{ getHSL(name).dark }})</div>
     </div>
-    <div class="text-sm text-muted-foreground">{{ description }}</div>
+    <div class="text-sm text-muted-foreground mt-2">{{ description }}</div>
   </div>
 </template>
