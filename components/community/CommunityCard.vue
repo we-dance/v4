@@ -40,7 +40,7 @@ defineProps<{
           :href="community.links.whatsapp"
           target="_blank"
           rel="noopener"
-          class="text-green-600 hover:text-green-700"
+          class="text-success hover:text-success/80"
           @click.stop
         >
           Join WhatsApp

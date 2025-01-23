@@ -57,11 +57,11 @@ const teachingLevels = computed(() => {
             class="flex items-start gap-4"
           >
             <div
-              class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+              class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0"
             >
-              <Icon name="ph:trophy" class="w-4 h-4 text-purple-600" />
+              <Icon name="ph:trophy" class="w-4 h-4 text-accent" />
             </div>
-            <div class="text-gray-600 pt-1">{{ achievement }}</div>
+            <div class="text-muted-foreground pt-1">{{ achievement }}</div>
           </div>
         </div>
       </div>
@@ -76,11 +76,11 @@ const teachingLevels = computed(() => {
             class="flex items-start gap-4"
           >
             <div
-              class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+              class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0"
             >
-              <Icon name="ph:certificate" class="w-4 h-4 text-purple-600" />
+              <Icon name="ph:certificate" class="w-4 h-4 text-accent" />
             </div>
-            <div class="text-gray-600 pt-1">{{ certification }}</div>
+            <div class="text-muted-foreground pt-1">{{ certification }}</div>
           </div>
         </div>
       </div>
@@ -121,10 +121,10 @@ const teachingLevels = computed(() => {
     <div class="text-center">
       <Icon
         name="ph:user-circle-x"
-        class="w-16 h-16 text-gray-400 mx-auto mb-4"
+        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
       />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">Artist Not Found</h2>
-      <p class="text-gray-600 mb-6">
+      <h2 class="text-2xl font-bold text-foreground mb-2">Artist Not Found</h2>
+      <p class="text-muted-foreground mb-6">
         The artist you're looking for doesn't exist or has been removed.
       </p>
       <Button as-child>

@@ -11,7 +11,7 @@
             <!-- Left: Content -->
             <div class="text-center lg:text-left">
               <div
-                class="flex items-center justify-center lg:justify-start gap-2 text-white/80 mb-4"
+                class="flex items-center justify-center lg:justify-start gap-2 text-background/80 mb-4"
               >
                 <Badge variant="secondary">
                   <Icon name="ph:sparkle" class="w-4 h-4 mr-1" />
@@ -19,11 +19,13 @@
                 </Badge>
               </div>
               <h1
-                class="text-4xl lg:text-7xl font-extrabold text-white tracking-tight mb-6"
+                class="text-4xl lg:text-7xl font-extrabold text-background tracking-tight mb-6"
               >
                 The Future of Dance Spaces
               </h1>
-              <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto lg:mx-0">
+              <p
+                class="text-xl text-background/80 mb-8 max-w-2xl mx-auto lg:mx-0"
+              >
                 Be among the first venues to join our platform. Connect with
                 organizers, manage bookings, and grow your dance business
                 globally.
@@ -45,18 +47,18 @@
                 </Button>
               </div>
               <div
-                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-white/80"
+                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-background/80"
               >
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:check-circle" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:check-circle" class="w-5 h-5 text-success" />
                   <span>5-minute setup</span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:crown" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:crown" class="w-5 h-5 text-success" />
                   <span>Founding member benefits</span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:star" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:star" class="w-5 h-5 text-success" />
                   <span>First month free</span>
                 </div>
               </div>
@@ -65,49 +67,55 @@
             <!-- Right: Value Proposition -->
             <div class="grid grid-cols-2 gap-6">
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-background/10 backdrop-blur-sm rounded-2xl p-6 border border-background/20"
               >
-                <Icon name="ph:calendar" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon
+                  name="ph:calendar"
+                  class="w-8 h-8 text-background/80 mb-4"
+                />
+                <div class="text-xl font-bold text-background mb-2">
                   Smart Scheduling
                 </div>
-                <div class="text-white/80">
+                <div class="text-background/80">
                   Manage multiple spaces and rooms with ease
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-background/10 backdrop-blur-sm rounded-2xl p-6 border border-background/20"
               >
-                <Icon name="ph:users" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon name="ph:users" class="w-8 h-8 text-background/80 mb-4" />
+                <div class="text-xl font-bold text-background mb-2">
                   Event Discovery
                 </div>
-                <div class="text-white/80">
+                <div class="text-background/80">
                   Connect with organizers looking for spaces
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-background/10 backdrop-blur-sm rounded-2xl p-6 border border-background/20"
               >
                 <Icon
                   name="ph:credit-card"
-                  class="w-8 h-8 text-white/80 mb-4"
+                  class="w-8 h-8 text-background/80 mb-4"
                 />
-                <div class="text-xl font-bold text-white mb-2">
+                <div class="text-xl font-bold text-background mb-2">
                   Simple Payments
                 </div>
-                <div class="text-white/80">
+                <div class="text-background/80">
                   Secure payments and automatic payouts
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-background/10 backdrop-blur-sm rounded-2xl p-6 border border-background/20"
               >
-                <Icon name="ph:chart-line" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon
+                  name="ph:chart-line"
+                  class="w-8 h-8 text-background/80 mb-4"
+                />
+                <div class="text-xl font-bold text-background mb-2">
                   Business Tools
                 </div>
-                <div class="text-white/80">
+                <div class="text-background/80">
                   Analytics and marketing tools included
                 </div>
               </div>

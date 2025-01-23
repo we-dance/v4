@@ -11,7 +11,7 @@ defineProps<{
     <div
       v-for="option in poll.options"
       :key="option.id"
-      class="relative bg-purple-50 rounded-lg p-3 cursor-pointer hover:bg-purple-100"
+      class="relative bg-accent/10 rounded-lg p-3 cursor-pointer hover:bg-accent/20"
     >
       <div class="flex justify-between items-center relative z-10">
         <span>{{ option.text }}</span>

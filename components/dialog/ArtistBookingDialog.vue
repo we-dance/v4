@@ -68,7 +68,7 @@ const handleSelect = (service: {
     <div
       v-for="service in services"
       :key="service.type"
-      class="bg-white rounded-lg border p-4 hover:border-purple-600 cursor-pointer transition-colors"
+      class="bg-background rounded-lg border p-4 hover:border-accent cursor-pointer transition-colors"
       @click="handleSelect(service)"
     >
       <div class="flex items-start gap-4">

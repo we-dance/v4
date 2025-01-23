@@ -176,13 +176,13 @@ const toggleIssue = async (path: string) => {
           :class="[
             'px-2 py-1 rounded-full text-xs transition-all flex items-center gap-2',
             selectedEpic === epic.id
-              ? 'bg-purple-100 text-purple-800 ring-1 ring-purple-200'
-              : 'bg-purple-50 text-purple-600 hover:bg-purple-100',
+              ? 'bg-accent/10 text-accent ring-1 ring-accent/20'
+              : 'bg-accent/50 text-accent hover:bg-accent/20',
           ]"
         >
           {{ epic.title }}
           <span
-            class="px-1.5 py-0.5 rounded-full bg-purple-100 text-purple-800 text-[10px]"
+            class="px-1.5 py-0.5 rounded-full bg-accent/100 text-accent text-[10px]"
           >
             {{ epic.count }}
           </span>
@@ -192,7 +192,7 @@ const toggleIssue = async (path: string) => {
       <!-- Selected Epic Details -->
       <div
         v-if="selectedEpic"
-        class="mt-3 p-4 rounded-lg border border-purple-200 bg-purple-50 space-y-4"
+        class="mt-3 p-4 rounded-lg border border-accent/20 bg-accent/50 space-y-4"
       >
         <div class="flex items-start justify-between gap-4">
           <div>
@@ -225,7 +225,7 @@ const toggleIssue = async (path: string) => {
         :class="[
           'rounded-lg p-3 transition-all',
           selectedIssue === issue._path
-            ? 'shadow-lg ring-1 ring-purple-200'
+            ? 'shadow-lg ring-1 ring-accent/20'
             : 'hover:shadow-md',
           getStatusColor(issue.status),
         ]"
@@ -262,7 +262,7 @@ const toggleIssue = async (path: string) => {
                 <button
                   v-if="issue.epic"
                   @click.stop="selectEpic(issue.epic)"
-                  class="text-[10px] px-1.5 py-0.5 rounded-full border border-purple-200 bg-purple-50 text-purple-700 hover:bg-purple-100 transition-colors"
+                  class="text-[10px] px-1.5 py-0.5 rounded-full border border-accent/20 bg-accent/10 text-accent hover:bg-accent/20 transition-colors"
                 >
                   {{ getEpicTitle(issue.epic) }}
                 </button>
@@ -284,10 +284,9 @@ const toggleIssue = async (path: string) => {
               <Badge
                 class="text-[10px]"
                 :class="{
-                  'bg-gray-100 hover:bg-gray-200': issue.status === 'todo',
-                  'bg-blue-100 hover:bg-blue-200':
-                    issue.status === 'in-progress',
-                  'bg-green-100 hover:bg-green-200': issue.status === 'done',
+                  'bg-muted hover:bg-muted/80': issue.status === 'todo',
+                  'bg-info/10 hover:bg-info/20': issue.status === 'in-progress',
+                  'bg-success/10 hover:bg-success/20': issue.status === 'done',
                 }"
               >
                 {{ issue.status }}

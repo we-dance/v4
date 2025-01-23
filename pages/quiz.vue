@@ -49,10 +49,10 @@ const selectVideo = (style: string) => {
     <div class="pt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <!-- Header -->
       <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-white mb-4">
+        <h1 class="text-4xl font-bold text-background mb-4">
           Find Your Dance Style
         </h1>
-        <p class="text-xl text-white/80">
+        <p class="text-xl text-background/80">
           Round {{ currentRound }} of {{ totalRounds }}: Watch and choose the
           style that moves you
         </p>
@@ -63,7 +63,7 @@ const selectVideo = (style: string) => {
         <div
           v-for="video in getCurrentPair"
           :key="video.style"
-          class="bg-white rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition-transform duration-200"
+          class="bg-background rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition-transform duration-200"
         >
           <div class="aspect-video">
             <iframe
@@ -75,7 +75,7 @@ const selectVideo = (style: string) => {
             ></iframe>
           </div>
           <div class="p-6">
-            <h3 class="text-2xl font-bold text-gray-900 mb-2">
+            <h3 class="text-2xl font-bold text-foreground mb-2">
               {{ video.style }}
             </h3>
             <Button class="w-full" size="lg" @click="selectVideo(video.style)">
@@ -89,7 +89,7 @@ const selectVideo = (style: string) => {
       <div class="text-center mt-8">
         <NuxtLink
           to="/feed"
-          class="text-white/70 hover:text-white inline-flex items-center gap-1"
+          class="text-background/70 hover:text-background inline-flex items-center gap-1"
         >
           Skip quiz
           <Icon name="ph:arrow-right" class="w-4 h-4" />

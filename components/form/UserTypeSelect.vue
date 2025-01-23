@@ -69,16 +69,16 @@ const showInfo = () => {
       <button
         v-for="type in types"
         :key="type.id"
-        class="flex flex-col items-center gap-2 p-4 rounded-xl border-2 transition-all duration-200 hover:border-purple-500 hover:bg-purple-50"
+        class="flex flex-col items-center gap-2 p-4 rounded-xl border-2 transition-all duration-200 hover:border-accent hover:bg-accent/10"
         :class="[
           modelValue === type.id
-            ? 'border-purple-500 bg-purple-50'
+            ? 'border-accent bg-accent/10'
             : 'border-gray-200',
         ]"
         @click="emit('update:modelValue', type.id)"
         type="button"
       >
-        <Icon :name="type.icon" class="w-6 h-6 text-purple-600" />
+        <Icon :name="type.icon" class="w-6 h-6 text-muted-foreground" />
         <span class="font-medium">{{ type.label }}</span>
       </button>
     </div>

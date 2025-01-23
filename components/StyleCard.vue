@@ -14,7 +14,7 @@ defineProps<{
 <template>
   <NuxtLink
     :to="style.to"
-    class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-sm transition"
+    class="group relative aspect-[4/3] overflow-hidden rounded-xl bg-background/10 hover:bg-background/20 backdrop-blur-sm transition"
   >
     <NuxtImg
       :src="style.image"

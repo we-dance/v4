@@ -159,7 +159,7 @@ const getEventType = (value: string) =>
               :class="[
                 $route.path === item.to.split('#')[0]
                   ? 'border-purple-600 text-purple-600'
-                  : 'border-transparent text-gray-500 hover:text-gray-700',
+                  : 'border-transparent text-muted-foreground hover:text-foreground',
               ]"
             >
               <Icon v-if="item.icon" :name="item.icon" class="w-4 h-4" />

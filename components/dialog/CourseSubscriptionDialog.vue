@@ -76,7 +76,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     <Button
       v-if="course.pricing.trial"
       variant="outline"
-      class="w-full justify-between h-auto py-4 hover:border-purple-600"
+      class="w-full justify-between h-auto py-4 hover:border-accent"
       @click="handleSelect({ type: 'trial' })"
     >
       <div class="flex items-center gap-3">
@@ -101,7 +101,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     <!-- Regular Plan -->
     <Button
       variant="outline"
-      class="w-full justify-between h-auto py-4 hover:border-purple-600"
+      class="w-full justify-between h-auto py-4 hover:border-accent"
       @click="
         handleSelect({
           type: 'regular',
@@ -155,7 +155,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     <!-- Premium Plan -->
     <Button
       variant="outline"
-      class="w-full justify-between h-auto py-4 border-2 border-purple-600 hover:bg-purple-50"
+      class="w-full justify-between h-auto py-4 border-2 border-accent hover:bg-accent/10"
       @click="
         handleSelect({
           type: 'premium',
