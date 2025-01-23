@@ -18,12 +18,12 @@ const text = {
 
     <div class="space-y-4">
       <p class="text-lg">{{ text.body }}</p>
-      <p class="text-sm text-gray-600">{{ text.caption }}</p>
+      <p class="text-sm text-muted-foreground">{{ text.caption }}</p>
     </div>
 
     <div class="space-y-2">
       <div class="font-heading">
-        <div class="text-sm text-gray-500">Font: Montserrat</div>
+        <div class="text-sm text-muted-foreground">Font: Montserrat</div>
         <div class="space-y-1">
           <p class="font-normal">
             Normal 400: The quick brown fox jumps over the lazy dog
@@ -41,7 +41,7 @@ const text = {
       </div>
 
       <div>
-        <div class="text-sm text-gray-500">Font: Noto Sans</div>
+        <div class="text-sm text-muted-foreground">Font: Noto Sans</div>
         <div class="space-y-1">
           <p class="font-normal">
             Normal 400: The quick brown fox jumps over the lazy dog

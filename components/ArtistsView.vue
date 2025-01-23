@@ -340,7 +340,7 @@ const sortedArtists = computed(() => {
           <Button
             variant="ghost"
             size="sm"
-            class="text-gray-500"
+            class="text-muted-foreground"
             @click="showSearch = !showSearch"
           >
             <Icon
@@ -429,7 +429,9 @@ const sortedArtists = computed(() => {
         <!-- Availability Toggle -->
         <div class="flex items-center gap-2">
           <Switch v-model="showAvailable" />
-          <span class="text-sm text-gray-600">Available for Booking</span>
+          <span class="text-sm text-muted-foreground"
+            >Available for Booking</span
+          >
         </div>
       </div>
 
@@ -534,10 +536,12 @@ const sortedArtists = computed(() => {
     >
       <Icon
         name="ph:user-circle-minus"
-        class="mx-auto h-12 w-12 text-gray-400"
+        class="mx-auto h-12 w-12 text-muted-foreground"
       />
-      <h3 class="mt-2 text-sm font-semibold text-gray-900">No artists found</h3>
-      <p class="mt-1 text-sm text-gray-500">
+      <h3 class="mt-2 text-sm font-semibold text-foreground">
+        No artists found
+      </h3>
+      <p class="mt-1 text-sm text-muted-foreground">
         Try adjusting your search terms or clear the search.
       </p>
     </div>
