@@ -110,19 +110,11 @@ const getEventType = (value: string) =>
 
               <!-- Action Buttons -->
               <div class="flex justify-center md:justify-start gap-4">
-                <Button
-                  variant="primary-on-dark"
-                  size="lg"
-                  @click="handleFollow"
-                >
+                <Button variant="primary" size="lg" @click="handleFollow">
                   <Icon name="ph:user-plus" class="w-5 h-5 mr-2" />
                   Follow
                 </Button>
-                <Button
-                  variant="secondary-on-dark"
-                  size="lg"
-                  @click="handleMessage"
-                >
+                <Button variant="secondary" size="lg" @click="handleMessage">
                   <Icon name="ph:chat-circle" class="w-5 h-5 mr-2" />
                   Message
                 </Button>

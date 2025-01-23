@@ -30,13 +30,13 @@
               <div
                 class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start"
               >
-                <Button size="lg" variant="primary-on-dark" as-child>
+                <Button size="lg" variant="primary" as-child>
                   <NuxtLink to="/register">
                     Join Early Access
                     <Icon name="ph:arrow-right" class="w-5 h-5" />
                   </NuxtLink>
                 </Button>
-                <Button size="lg" variant="secondary-on-dark" as-child>
+                <Button size="lg" variant="secondary" as-child>
                   <NuxtLink to="/courses/1">
                     How It Works
                     <Icon name="ph:play-circle" class="w-5 h-5" />

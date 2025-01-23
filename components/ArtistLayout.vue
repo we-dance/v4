@@ -132,13 +132,10 @@ const handleFollow = () => {
 
               <!-- Action Buttons -->
               <div class="flex justify-center md:justify-start gap-4">
-                <Button variant="primary-on-dark" size="lg" @click="handleBook"
+                <Button variant="primary" size="lg" @click="handleBook"
                   >Book Now</Button
                 >
-                <Button
-                  variant="secondary-on-dark"
-                  size="lg"
-                  @click="handleFollow"
+                <Button variant="secondary" size="lg" @click="handleFollow"
                   >Follow</Button
                 >
               </div>

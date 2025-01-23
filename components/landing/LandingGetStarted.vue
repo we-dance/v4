@@ -22,44 +22,31 @@ defineProps({
 </script>
 
 <template>
-  <section class="py-24 relative overflow-hidden">
+  <section class="py-24 relative overflow-hidden gradient-section">
     <GradientBackground />
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="text-center md:text-left">
-          <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 class="text-4xl md:text-5xl font-bold mb-6">
             {{ title }}
           </h2>
-          <p class="text-xl text-white/80 mb-8 max-w-lg">
+          <p class="text-xl text-muted mb-8 max-w-lg">
             {{ description }}
           </p>
 
           <div
             class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8"
           >
-            <Button
-              size="lg"
-              variant="secondary-on-dark"
-              class="text-lg px-8"
-              as-child
-            >
-              <NuxtLink
-                to="/register"
-                class="flex items-center justify-center gap-2"
-              >
+            <Button size="lg" class="text-lg px-8" as-child>
+              <NuxtLink to="/register">
                 Get Started Free
                 <Icon name="ph:arrow-right" class="w-5 h-5" />
               </NuxtLink>
             </Button>
-            <Button
-              size="lg"
-              variant="secondary-on-dark"
-              class="text-lg px-8 !bg-transparent"
-              as-child
-            >
+            <Button size="lg" variant="secondary" as-child>
               <NuxtLink
                 :to="secondaryLink"
-                class="flex items-center justify-center gap-2 text-white hover:text-white/90"
+                class="flex items-center justify-center gap-2"
               >
                 {{ secondary }}
                 <Icon name="ph:arrow-right" class="w-5 h-5" />
@@ -67,7 +54,7 @@ defineProps({
             </Button>
           </div>
 
-          <div class="text-sm text-white/60">
+          <div class="text-sm text-muted">
             ⚡️ {{ time }}-minute setup • No credit card required
           </div>
         </div>
@@ -76,20 +63,18 @@ defineProps({
           <div class="grid grid-cols-2 gap-4 relative">
             <div class="space-y-4">
               <div
-                class="bg-white/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
+                class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
                 >
-                  <Icon name="ph:users-three" class="w-5 h-5 text-white" />
+                  <Icon name="ph:users-three" class="w-5 h-5 text-foreground" />
                 </div>
-                <div class="font-semibold text-white text-lg mb-1">
-                  For Dancers
-                </div>
-                <p class="text-white/80">
+                <div class="font-semibold text-lg mb-1">For Dancers</div>
+                <p class="text-muted">
                   Promote events and earn rewards<NuxtLink
                     to="/for/dancers"
-                    class="text-white hover:text-purple-200 font-medium ml-1 whitespace-nowrap"
+                    class="hover:text-primary font-medium ml-1 whitespace-nowrap"
                   >
                     Learn more
                     <Icon
@@ -100,21 +85,22 @@ defineProps({
                 </p>
               </div>
               <div
-                class="bg-white/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
+                class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
                 >
-                  <Icon name="ph:microphone-stage" class="w-5 h-5 text-white" />
+                  <Icon
+                    name="ph:microphone-stage"
+                    class="w-5 h-5 text-foreground"
+                  />
                 </div>
-                <div class="font-semibold text-white text-lg mb-1">
-                  For Artists
-                </div>
-                <p class="text-white/80">
+                <div class="font-semibold text-lg mb-1">For Artists</div>
+                <p class="text-muted">
                   Grow your audience & business
                   <NuxtLink
                     to="/for/artists"
-                    class="text-white hover:text-purple-200 font-medium ml-1"
+                    class="hover:text-primary font-medium ml-1"
                   >
                     Learn more
                     <Icon
@@ -127,21 +113,19 @@ defineProps({
             </div>
             <div class="space-y-4 mt-8">
               <div
-                class="bg-white/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
+                class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
                 >
-                  <Icon name="ph:buildings" class="w-5 h-5 text-white" />
+                  <Icon name="ph:buildings" class="w-5 h-5 text-foreground" />
                 </div>
-                <div class="font-semibold text-white text-lg mb-1">
-                  For Venues
-                </div>
-                <p class="text-white/80">
+                <div class="font-semibold text-lg mb-1">For Venues</div>
+                <p class="text-muted">
                   Fill your space with amazing events
                   <NuxtLink
                     to="/for/venues"
-                    class="text-white hover:text-purple-200 font-medium ml-1"
+                    class="hover:text-primary font-medium ml-1"
                   >
                     Learn more
                     <Icon
@@ -152,21 +136,19 @@ defineProps({
                 </p>
               </div>
               <div
-                class="bg-white/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
+                class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
                 >
-                  <Icon name="ph:users" class="w-5 h-5 text-white" />
+                  <Icon name="ph:users" class="w-5 h-5 text-foreground" />
                 </div>
-                <div class="font-semibold text-white text-lg mb-1">
-                  For Organizers
-                </div>
-                <p class="text-white/80">
+                <div class="font-semibold text-lg mb-1">For Organizers</div>
+                <p class="text-muted">
                   Create & promote events easily
                   <NuxtLink
                     to="/for/organizers"
-                    class="text-white hover:text-purple-200 font-medium ml-1"
+                    class="hover:text-primary font-medium ml-1"
                   >
                     Learn more
                     <Icon
@@ -183,3 +165,13 @@ defineProps({
     </div>
   </section>
 </template>
+
+<style>
+.gradient-section {
+  @apply text-foreground;
+}
+
+.gradient-section .text-muted {
+  @apply text-muted-foreground;
+}
+</style>

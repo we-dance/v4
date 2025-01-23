@@ -57,7 +57,7 @@ defineProps({
               </p>
               <div class="flex justify-center md:justify-start gap-4">
                 <slot name="actions">
-                  <Button variant="secondary-on-dark" size="lg" as-child>
+                  <Button variant="secondary" size="lg" as-child>
                     <NuxtLink to="/register">Join Community</NuxtLink>
                   </Button>
                 </slot>
@@ -104,7 +104,7 @@ defineProps({
                         Vote between pairs of videos
                       </p>
                     </div>
-                    <Button variant="secondary-on-dark" size="sm" as-child>
+                    <Button variant="secondary" size="sm" as-child>
                       <NuxtLink to="/quiz">Play Video Game</NuxtLink>
                     </Button>
                   </div>
