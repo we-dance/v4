@@ -9,10 +9,10 @@
       ></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div class="text-center">
-          <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h1 class="text-4xl md:text-6xl font-bold text-background mb-6">
             WeDance vs Reddit
           </h1>
-          <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p class="text-xl text-background/80 mb-8 max-w-2xl mx-auto">
             A dedicated dance platform built for dancers, not just another
             subreddit
           </p>
@@ -32,7 +32,7 @@
               </NuxtLink>
             </Button>
           </div>
-          <div class="text-sm text-white/60 mt-4">
+          <div class="text-sm text-background/60 mt-4">
             ⚡️ 2-minute setup • No credit card required
           </div>
         </div>
@@ -40,7 +40,7 @@
     </section>
 
     <!-- Pain Points Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">
           Reddit Dance Community Limitations
@@ -78,7 +78,7 @@
           Why Choose WeDance?
         </h2>
         <div class="grid md:grid-cols-2 gap-8">
-          <div class="bg-white rounded-xl p-8 shadow-sm">
+          <div class="bg-background rounded-xl p-8 shadow-sm">
             <div class="flex items-center gap-4 mb-6">
               <Icon
                 name="ph:reddit-logo"
@@ -125,7 +125,7 @@
             </ul>
           </div>
           <div
-            class="bg-white rounded-xl p-8 shadow-sm border-2 border-primary"
+            class="bg-background rounded-xl p-8 shadow-sm border-2 border-primary"
           >
             <div class="flex items-center gap-4 mb-6">
               <div
@@ -133,7 +133,7 @@
               >
                 <Icon
                   name="ph:heart-straight-fill"
-                  class="w-5 h-5 text-white"
+                  class="w-5 h-5 text-background"
                 />
               </div>
               <h3 class="text-2xl font-semibold">WeDance Platform</h3>
@@ -181,7 +181,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">
           Dance-Focused Features

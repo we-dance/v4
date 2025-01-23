@@ -65,13 +65,13 @@ const getEventType = (value: string) =>
             <!-- Left: Content -->
             <div class="text-center md:text-left">
               <div
-                class="flex items-center justify-center md:justify-start gap-2 text-white/80 mb-4"
+                class="flex items-center justify-center md:justify-start gap-2 text-background/80 mb-4"
               >
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
                 <span class="text-sm md:text-base">{{ group.location }}</span>
               </div>
               <h1
-                class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
+                class="text-2xl md:text-4xl lg:text-5xl font-bold text-background mb-4"
               >
                 {{ group.name }}
               </h1>
@@ -92,16 +92,16 @@ const getEventType = (value: string) =>
 
               <!-- Stats -->
               <div
-                class="flex justify-center md:justify-start gap-8 text-white/80 mb-8"
+                class="flex justify-center md:justify-start gap-8 text-background/80 mb-8"
               >
                 <div>
-                  <div class="text-xl font-bold text-white">
+                  <div class="text-xl font-bold text-background">
                     {{ group.eventCount }}
                   </div>
                   <div class="text-sm">events</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-white">
+                  <div class="text-xl font-bold text-background">
                     {{ group.memberCount }}
                   </div>
                   <div class="text-sm">members</div>
@@ -150,7 +150,7 @@ const getEventType = (value: string) =>
   <!-- Navigation and Content Wrapper -->
   <div class="relative">
     <!-- Navigation -->
-    <div class="bg-white z-10">
+    <div class="bg-background z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav class="border-b border-muted">
           <div class="flex space-x-8 overflow-x-auto">
@@ -185,7 +185,7 @@ const getEventType = (value: string) =>
           <!-- Right Column: Sidebar -->
           <div class="flex-shrink-0 space-y-6 md:w-[320px]">
             <!-- Group Info -->
-            <div class="bg-white rounded-lg border p-6">
+            <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">About</h3>
               <p class="text-muted-foreground mb-4">{{ group.bio }}</p>
 
@@ -219,7 +219,7 @@ const getEventType = (value: string) =>
             </div>
 
             <!-- Social Links -->
-            <div v-if="group.links" class="bg-white rounded-lg border p-6">
+            <div v-if="group.links" class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">Connect</h3>
               <div class="grid grid-cols-3 gap-4">
                 <a
@@ -264,7 +264,7 @@ const getEventType = (value: string) =>
             </div>
 
             <!-- Contact -->
-            <div class="bg-white rounded-lg border p-6">
+            <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">Contact</h3>
               <Button class="w-full" variant="outline" @click="handleMessage">
                 <Icon name="ph:envelope" class="w-5 h-5 mr-2" />

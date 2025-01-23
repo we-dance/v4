@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Section - Keep existing but add city context -->
-  <div class="pt-24 pb-12 bg-white">
+  <div class="pt-24 pb-12 bg-background">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- City Context -->
       <div
@@ -192,7 +192,7 @@
         <!-- Right Column -->
         <div class="lg:w-[420px]">
           <div
-            class="bg-white border border-muted rounded-xl shadow-sm overflow-hidden sticky top-24"
+            class="bg-background border border-muted rounded-xl shadow-sm overflow-hidden sticky top-24"
           >
             <div class="p-6">
               <!-- Success Story -->
@@ -264,7 +264,7 @@
         <!-- Main Content Column -->
         <div class="lg:col-span-2 space-y-8">
           <!-- Learning Path -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-6">
               <h2 class="text-xl font-bold mb-6">Your Learning Path</h2>
               <div class="space-y-6">
@@ -356,7 +356,7 @@
           </div>
 
           <!-- Global Scene -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-6">
               <h2 class="text-xl font-bold mb-6">Global Salsa Scene</h2>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -385,7 +385,7 @@
           </div>
 
           <!-- Safety Guidelines -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-6">
               <div class="flex items-center gap-3 mb-6">
                 <div class="bg-success/10 p-2 rounded-full">
@@ -477,7 +477,7 @@
         <!-- Sidebar -->
         <div class="space-y-8">
           <!-- Find Partners -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-6">
               <div class="flex items-center justify-between mb-6">
                 <h2 class="text-xl font-bold">Find Partners</h2>
@@ -516,7 +516,7 @@
           </div>
 
           <!-- Upcoming Events -->
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-6">
               <h2 class="text-xl font-bold mb-6">This Week</h2>
               <div class="space-y-4">

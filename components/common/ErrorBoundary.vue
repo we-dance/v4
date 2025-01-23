@@ -17,7 +17,7 @@ onErrorCaptured((err) => {
     <slot />
   </template>
   <div v-else class="p-4">
-    <div class="flex items-center gap-2 text-amber-600">
+    <div class="flex items-center gap-2 text-warning">
       <div class="i-ph-warning-circle text-xl" />
       <div class="font-medium">This content is not available</div>
     </div>

@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <NuxtLink
     :to="`/communities/${community.id}`"
-    class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+    class="block bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow"
   >
     <div class="aspect-video rounded-t-lg overflow-hidden bg-muted">
       <NuxtImg

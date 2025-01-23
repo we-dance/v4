@@ -46,7 +46,7 @@ const levels = [
 <template>
   <div>
     <!-- Hero Section -->
-    <div class="pt-32 pb-12 bg-gradient-to-b from-primary/10 to-white">
+    <div class="pt-32 pb-12 bg-gradient-to-b from-primary/10 to-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl md:text-5xl font-bold mb-6">Cuban Salsa</h1>
@@ -64,7 +64,7 @@ const levels = [
     </div>
 
     <!-- Key Features -->
-    <div class="py-12 bg-white">
+    <div class="py-12 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div
@@ -90,7 +90,7 @@ const levels = [
           <div
             v-for="level in levels"
             :key="level.name"
-            class="bg-white p-6 rounded-xl shadow-sm"
+            class="bg-background p-6 rounded-xl shadow-sm"
           >
             <h3 class="text-xl font-bold mb-4">{{ level.name }}</h3>
             <ul class="space-y-2">
@@ -109,7 +109,7 @@ const levels = [
     </div>
 
     <!-- Call to Action -->
-    <div class="py-12 bg-white">
+    <div class="py-12 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-6">Ready to Start Learning?</h2>
         <p class="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">

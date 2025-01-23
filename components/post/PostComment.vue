@@ -24,7 +24,7 @@ const likeComment = (comment: CommentWithReplies) => {
 
 <template>
   <div>
-    <div class="bg-white rounded-lg shadow-sm border border-muted p-4">
+    <div class="bg-background rounded-lg shadow-sm border border-muted p-4">
       <div class="flex gap-4">
         <img
           :src="comment.author.image"

@@ -82,23 +82,23 @@ const handleFollow = () => {
             <!-- Left: Content -->
             <div class="text-center md:text-left">
               <div
-                class="flex items-center justify-center md:justify-start gap-2 text-white/80 mb-4"
+                class="flex items-center justify-center md:justify-start gap-2 text-background/80 mb-4"
               >
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
                 <span class="text-sm md:text-base">{{ artist.location }}</span>
               </div>
               <h1
-                class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
+                class="text-2xl md:text-4xl lg:text-5xl font-bold text-background mb-4"
               >
                 {{ artist.name }}
               </h1>
               <div
-                class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-white/80 mb-6"
+                class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-background/80 mb-6"
               >
                 <Badge
                   v-if="artist.level === 'master'"
                   variant="secondary"
-                  class="bg-amber-50 text-amber-700 border-amber-200"
+                  class="bg-warning/10 text-warning border-warning/20"
                 >
                   Master
                 </Badge>
@@ -114,16 +114,16 @@ const handleFollow = () => {
 
               <!-- Stats -->
               <div
-                class="flex justify-center md:justify-start gap-8 text-white/80 mb-8"
+                class="flex justify-center md:justify-start gap-8 text-background/80 mb-8"
               >
                 <div>
-                  <div class="text-xl font-bold text-white">
+                  <div class="text-xl font-bold text-background">
                     {{ artist.stats.followers }}
                   </div>
                   <div class="text-sm">followers</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-white">
+                  <div class="text-xl font-bold text-background">
                     {{ artist.stats.reviews }}
                   </div>
                   <div class="text-sm">reviews</div>
@@ -163,7 +163,7 @@ const handleFollow = () => {
   <!-- Navigation and Content Wrapper -->
   <div class="relative">
     <!-- Navigation -->
-    <div class="bg-white z-10">
+    <div class="bg-background z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav class="border-b border-muted">
           <div class="flex space-x-8 overflow-x-auto">
@@ -204,7 +204,7 @@ const handleFollow = () => {
             <!-- Availability -->
             <div
               v-if="artist.availability"
-              class="bg-white rounded-lg border p-6"
+              class="bg-background rounded-lg border p-6"
             >
               <h3 class="text-lg font-bold mb-4">Availability</h3>
               <div class="space-y-4">
@@ -264,7 +264,7 @@ const handleFollow = () => {
             <!-- Social Links -->
             <div
               v-if="artist.socialLinks.length > 0"
-              class="bg-white rounded-lg border p-6"
+              class="bg-background rounded-lg border p-6"
             >
               <h3 class="text-lg font-bold mb-4">Social Media</h3>
               <div class="space-y-3">
@@ -286,7 +286,7 @@ const handleFollow = () => {
             </div>
 
             <!-- Contact -->
-            <div class="bg-white rounded-lg border p-6">
+            <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">Contact</h3>
               <Button class="w-full" variant="outline" @click="handleContact">
                 <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
