@@ -70,20 +70,10 @@ watch(
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
           <template v-if="auth.isAuthenticated">
-            <Button
-              variant="ghost"
-              @click="handleSignOut"
-              class="hover:text-accent transition-colors"
-            >
-              Sign Out
-            </Button>
+            <Button variant="ghost" @click="handleSignOut"> Sign Out </Button>
           </template>
           <template v-else>
-            <Button
-              variant="default"
-              class="hover:bg-accent transition-colors"
-              as-child
-            >
+            <Button as-child>
               <NuxtLink to="/login">Sign In</NuxtLink>
             </Button>
           </template>
