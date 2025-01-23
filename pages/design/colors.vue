@@ -3,22 +3,6 @@ definePageMeta({
   layout: "design",
 });
 
-/* Safelist:
-bg-background bg-foreground
-bg-primary bg-primary-foreground
-bg-secondary bg-secondary-foreground
-bg-accent bg-accent-foreground
-bg-muted bg-muted-foreground
-bg-destructive bg-destructive-foreground
-bg-success bg-success-foreground
-bg-warning bg-warning-foreground
-bg-info bg-info-foreground
-bg-card bg-card-foreground
-bg-popover bg-popover-foreground
-bg-border bg-input bg-ring
-bg-gradient-base bg-gradient-1 bg-gradient-2 bg-gradient-3
-*/
-
 const colorGroups = [
   {
     name: "Base",
