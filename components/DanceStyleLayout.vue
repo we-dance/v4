@@ -47,27 +47,29 @@ defineProps({
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <!-- Left: Content -->
             <div class="text-center md:text-left">
-              <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+              <h1
+                class="text-4xl md:text-5xl font-bold text-foreground/90 mb-6"
+              >
                 {{ title }}
               </h1>
               <p
-                class="text-xl text-white/80 mb-8 max-w-2xl md:max-w-none mx-auto"
+                class="text-xl text-muted-foreground mb-8 max-w-2xl md:max-w-none mx-auto"
               >
                 {{ description }}
               </p>
               <div class="flex justify-center md:justify-start gap-4">
                 <slot name="actions">
-                  <Button variant="secondary" size="lg" as-child>
+                  <Button size="lg" as-child>
                     <NuxtLink to="/register">Join Community</NuxtLink>
                   </Button>
                 </slot>
               </div>
 
               <div
-                class="flex justify-center md:justify-start gap-8 mt-8 text-white/80"
+                class="flex justify-center md:justify-start gap-8 mt-8 text-muted-foreground"
               >
                 <div v-for="stat in stats" :key="stat.label">
-                  <div class="text-xl font-bold text-white">
+                  <div class="text-xl font-bold text-foreground/90">
                     {{ stat.value }}
                   </div>
                   <div class="text-sm">
@@ -80,7 +82,7 @@ defineProps({
             <!-- Right: Video -->
             <div class="space-y-4">
               <div
-                class="aspect-video rounded-xl overflow-hidden shadow-xl bg-black/20 backdrop-blur"
+                class="aspect-video rounded-xl overflow-hidden shadow-xl bg-background/20 backdrop-blur"
               >
                 <iframe
                   class="w-full h-full"
@@ -94,17 +96,17 @@ defineProps({
 
               <slot name="video-extra">
                 <!-- Video Game Invitation -->
-                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                <div class="bg-background/50 backdrop-blur rounded-lg p-4">
                   <div class="flex items-center justify-between">
                     <div>
-                      <p class="text-sm font-medium text-white">
+                      <p class="text-sm font-medium text-foreground/90">
                         Help choose the best inspiration
                       </p>
-                      <p class="text-xs text-white/80">
+                      <p class="text-xs text-muted-foreground">
                         Vote between pairs of videos
                       </p>
                     </div>
-                    <Button variant="secondary" size="sm" as-child>
+                    <Button size="sm" as-child>
                       <NuxtLink to="/quiz">Play Video Game</NuxtLink>
                     </Button>
                   </div>
@@ -120,9 +122,9 @@ defineProps({
   <!-- Navigation and Content Wrapper -->
   <div class="relative">
     <!-- Navigation -->
-    <div class="sticky top-[64px] bg-white z-10">
+    <div class="sticky top-16 bg-background z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="border-b border-gray-200">
+        <nav class="border-b">
           <div class="flex space-x-8 overflow-x-auto">
             <NuxtLink
               v-for="item in navigation"
@@ -132,8 +134,8 @@ defineProps({
               :class="[
                 $route.path === item.to.split('#')[0] ||
                 $route.path.endsWith(item.to.split('#')[0].split('/').pop())
-                  ? 'border-purple-600 text-purple-600'
-                  : 'border-transparent text-gray-500 hover:text-gray-700',
+                  ? 'border-primary text-primary'
+                  : 'border-transparent text-muted-foreground hover:text-foreground',
               ]"
             >
               <Icon v-if="item.icon" :name="item.icon" class="w-4 h-4" />
@@ -153,10 +155,12 @@ defineProps({
   </div>
 
   <!-- Footer -->
-  <div class="py-12 bg-white">
+  <div class="py-12 bg-background">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <p class="text-gray-600">&copy; 2024 WeDance. All rights reserved.</p>
+        <p class="text-muted-foreground">
+          &copy; 2024 WeDance. All rights reserved.
+        </p>
       </div>
     </div>
   </div>
