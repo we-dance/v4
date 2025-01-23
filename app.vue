@@ -1,5 +1,7 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage :key="$route.fullPath" class="bg-background text-foreground" />
-  </NuxtLayout>
+  <div class="bg-background text-foreground">
+    <NuxtLayout>
+      <NuxtPage :key="$route.fullPath" />
+    </NuxtLayout>
+  </div>
 </template>

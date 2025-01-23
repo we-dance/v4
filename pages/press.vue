@@ -52,7 +52,7 @@ const mediaAssets = [
           </CardHeader>
           <CardContent>
             <div class="space-y-2">
-              <p>Email: press@wedance.com</p>
+              <p>Email: press@wedance.vip</p>
               <p>Response time: Within 24 hours</p>
             </div>
           </CardContent>
