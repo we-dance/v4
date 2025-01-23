@@ -333,13 +333,13 @@ const handleSubscribe = () => {
             <div class="p-4">
               <div class="grid grid-cols-2 gap-4">
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-accent">
+                  <div class="text-2xl font-bold">
                     {{ course.stats.enrolled }}
                   </div>
                   <div class="text-sm text-muted-foreground">Students</div>
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-accent">
+                  <div class="text-2xl font-bold">
                     {{ course.stats.completed }}
                   </div>
                   <div class="text-sm text-muted-foreground">Completed</div>
@@ -351,7 +351,7 @@ const handleSubscribe = () => {
                   <div class="text-sm text-muted-foreground">Avg Rating</div>
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-accent">
+                  <div class="text-2xl font-bold">
                     {{ course.stats.reviewCount }}
                   </div>
                   <div class="text-sm text-muted-foreground">Reviews</div>
@@ -366,7 +366,7 @@ const handleSubscribe = () => {
               <div class="space-y-4">
                 <div>
                   <h3 class="font-semibold mb-2">Starting from</h3>
-                  <div class="text-2xl font-bold text-accent">
+                  <div class="text-2xl font-bold">
                     {{ course.pricing.regular.monthly.amount }}
                     {{ course.pricing.regular.monthly.currency }}
                     <span class="text-base font-normal text-muted-foreground"
