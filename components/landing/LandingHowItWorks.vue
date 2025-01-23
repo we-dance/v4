@@ -34,10 +34,7 @@ defineProps({
               <div
                 class="w-20 h-20 rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] bg-gradient-to-br from-fuchsia-500 to-accent shadow-lg flex items-center justify-center mb-6 transform transition-all hover:scale-110 hover:rotate-6"
               >
-                <Icon
-                  name="ph:compass"
-                  class="w-10 h-10 text-primary-foreground"
-                />
+                <Icon name="ph:compass" class="w-10 h-10 text-white" />
               </div>
               <div class="text-center">
                 <div class="text-accent font-medium mb-2">Step 1</div>
@@ -58,10 +55,7 @@ defineProps({
               <div
                 class="w-20 h-20 rounded-[60%_40%_30%_70%_/_30%_30%_70%_70%] bg-gradient-to-br from-purple-500 to-accent shadow-lg flex items-center justify-center mb-6 transform transition-all hover:scale-110 hover:-rotate-6"
               >
-                <Icon
-                  name="ph:users-three"
-                  class="w-10 h-10 text-primary-foreground"
-                />
+                <Icon name="ph:users-three" class="w-10 h-10 text-white" />
               </div>
               <div class="text-center">
                 <div class="text-accent font-medium mb-2">Step 2</div>
@@ -82,10 +76,7 @@ defineProps({
               <div
                 class="w-20 h-20 rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] bg-gradient-to-br from-orange-500 to-accent shadow-lg flex items-center justify-center mb-6 transform transition-all hover:scale-110 hover:rotate-6"
               >
-                <Icon
-                  name="ph:calendar-check"
-                  class="w-10 h-10 text-primary-foreground"
-                />
+                <Icon name="ph:calendar-check" class="w-10 h-10 text-white" />
               </div>
               <div class="text-center">
                 <div class="text-accent font-medium mb-2">Step 3</div>
@@ -105,10 +96,7 @@ defineProps({
               <div
                 class="w-20 h-20 rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] bg-gradient-to-br from-pink-500 to-accent shadow-lg flex items-center justify-center mb-6 transform transition-all hover:scale-110 hover:-rotate-6"
               >
-                <Icon
-                  name="ph:heart-fill"
-                  class="w-10 h-10 text-primary-foreground"
-                />
+                <Icon name="ph:heart-fill" class="w-10 h-10 text-white" />
               </div>
               <div class="text-center">
                 <div class="text-accent font-medium mb-2">Step 4</div>

@@ -70,7 +70,7 @@ const danceStyles = computed(() => {
                 />
                 <Icon
                   name="ph:magnifying-glass"
-                  class="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-muted-foreground group-hover:text-foreground transition-colors duration-200"
+                  class="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-muted-foreground transition-colors duration-200"
                 />
               </div>
               <div class="mt-3 text-center">
