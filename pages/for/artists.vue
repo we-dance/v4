@@ -11,7 +11,7 @@
             <!-- Left: Content -->
             <div class="text-center lg:text-left">
               <div
-                class="flex items-center justify-center lg:justify-start gap-2 text-white/80 mb-4"
+                class="flex items-center justify-center lg:justify-start gap-2 text-primary-foreground/80 mb-4"
               >
                 <Badge variant="secondary">
                   <Icon name="ph:sparkle" class="w-4 h-4 mr-1" />
@@ -19,11 +19,13 @@
                 </Badge>
               </div>
               <h1
-                class="text-4xl lg:text-7xl font-extrabold text-white tracking-tight mb-6"
+                class="text-4xl lg:text-7xl font-extrabold text-primary-foreground tracking-tight mb-6"
               >
                 The Future of Dance Business
               </h1>
-              <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto lg:mx-0">
+              <p
+                class="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto lg:mx-0"
+              >
                 Be among the first artists to join our platform. Create online
                 courses, get bookings, and grow your dance business globally.
               </p>
@@ -44,18 +46,18 @@
                 </Button>
               </div>
               <div
-                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-white/80"
+                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-primary-foreground/80"
               >
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:check-circle" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:check-circle" class="w-5 h-5 text-success" />
                   <span>5-minute setup</span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:crown" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:crown" class="w-5 h-5 text-success" />
                   <span>Founding member benefits</span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:star" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:star" class="w-5 h-5 text-success" />
                   <span>First month free</span>
                 </div>
               </div>
@@ -64,52 +66,58 @@
             <!-- Right: Value Proposition -->
             <div class="grid grid-cols-2 gap-6">
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
                 <Icon
                   name="ph:video-camera"
-                  class="w-8 h-8 text-white/80 mb-4"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
                 />
-                <div class="text-xl font-bold text-white mb-2">
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Online Courses
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Create and sell dance courses to students worldwide
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
                 <Icon
                   name="ph:users-three"
-                  class="w-8 h-8 text-white/80 mb-4"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
                 />
-                <div class="text-xl font-bold text-white mb-2">
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Private Classes
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Get booked for private lessons and workshops
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
-                <Icon name="ph:ticket" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon
+                  name="ph:ticket"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                />
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Festival Gigs
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Perform and teach at international festivals
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
-                <Icon name="ph:chart-line" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon
+                  name="ph:chart-line"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                />
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Business Tools
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Everything you need to grow your dance business
                 </div>
               </div>
@@ -120,7 +128,7 @@
     </div>
 
     <!-- Revenue Streams Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4">
           Simple & Transparent Pricing
@@ -131,117 +139,108 @@
           No hidden fees. No monthly charges. Only pay when you earn.
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-muted rounded-xl p-8">
-            <Icon
-              name="ph:video-camera"
-              class="w-12 h-12 text-purple-600 mb-6"
-            />
+          <div class="bg-background rounded-xl p-8">
+            <Icon name="ph:video-camera" class="w-12 h-12 text-accent mb-6" />
             <h3 class="text-xl font-semibold mb-4">Pre-recorded Courses</h3>
-            <ul class="space-y-3 text-gray-600">
+            <ul class="space-y-3 text-muted-foreground">
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Create unlimited courses</span>
               </li>
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Set your own prices</span>
               </li>
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Reach global audience</span>
               </li>
             </ul>
-            <div class="mt-6 pt-6 border-t border-gray-200">
-              <div class="text-sm text-gray-500">Platform fee</div>
-              <div class="text-3xl font-bold text-purple-600">30%</div>
-              <div class="text-sm text-gray-500 mt-1">per sale</div>
+            <div class="mt-6 pt-6 border-muted">
+              <div class="text-sm text-muted-foreground">Platform fee</div>
+              <div class="text-3xl font-bold text-accent">30%</div>
+              <div class="text-sm text-muted-foreground mt-1">per sale</div>
             </div>
           </div>
 
-          <div class="bg-muted rounded-xl p-8">
-            <Icon
-              name="ph:users-three"
-              class="w-12 h-12 text-purple-600 mb-6"
-            />
+          <div class="bg-background rounded-xl p-8">
+            <Icon name="ph:users-three" class="w-12 h-12 text-accent mb-6" />
             <h3 class="text-xl font-semibold mb-4">Live Classes</h3>
-            <ul class="space-y-3 text-gray-600">
+            <ul class="space-y-3 text-muted-foreground">
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Host Zoom classes</span>
               </li>
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Automatic ticketing</span>
               </li>
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Manage registrations</span>
               </li>
             </ul>
-            <div class="mt-6 pt-6 border-t border-gray-200">
-              <div class="text-sm text-gray-500">Platform fee</div>
-              <div class="text-3xl font-bold text-purple-600">€0.25</div>
-              <div class="text-sm text-gray-500 mt-1">per ticket</div>
+            <div class="mt-6 pt-6 border-muted">
+              <div class="text-sm text-muted-foreground">Platform fee</div>
+              <div class="text-3xl font-bold text-accent">€0.25</div>
+              <div class="text-sm text-muted-foreground mt-1">per ticket</div>
             </div>
           </div>
 
-          <div class="bg-muted rounded-xl p-8">
-            <Icon
-              name="ph:calendar-check"
-              class="w-12 h-12 text-purple-600 mb-6"
-            />
+          <div class="bg-background rounded-xl p-8">
+            <Icon name="ph:calendar-check" class="w-12 h-12 text-accent mb-6" />
             <h3 class="text-xl font-semibold mb-4">Private Bookings</h3>
-            <ul class="space-y-3 text-gray-600">
+            <ul class="space-y-3 text-muted-foreground">
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Private classes</span>
               </li>
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Festival performances</span>
               </li>
               <li class="flex items-start gap-2">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1 shrink-0"
+                  class="w-5 h-5 text-success mt-1 shrink-0"
                 />
                 <span>Workshop bookings</span>
               </li>
             </ul>
-            <div class="mt-6 pt-6 border-t border-gray-200">
-              <div class="text-sm text-gray-500">Platform fee</div>
-              <div class="text-3xl font-bold text-purple-600">5%</div>
-              <div class="text-sm text-gray-500 mt-1">per booking</div>
+            <div class="mt-6 pt-6 border-muted">
+              <div class="text-sm text-muted-foreground">Platform fee</div>
+              <div class="text-3xl font-bold text-accent">5%</div>
+              <div class="text-sm text-muted-foreground mt-1">per booking</div>
             </div>
           </div>
         </div>
 
         <div class="mt-12 text-center">
-          <p class="text-sm text-gray-500 max-w-2xl mx-auto">
+          <p class="text-sm text-muted-foreground max-w-2xl mx-auto">
             All fees include payment processing, hosting, and platform tools.
             Get paid directly to your bank account every week.
           </p>
@@ -250,7 +249,7 @@
     </section>
 
     <!-- Tools Section -->
-    <section class="py-16 bg-muted">
+    <section class="py-16 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4">All-in-One Platform</h2>
         <p
@@ -259,46 +258,46 @@
           Everything you need to run your dance business professionally
         </p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="p-6 bg-white rounded-xl">
-            <Icon name="ph:video-camera" class="w-8 h-8 text-purple-600 mb-4" />
+          <div class="p-6 bg-background rounded-xl">
+            <Icon name="ph:video-camera" class="w-8 h-8 text-accent mb-4" />
             <h3 class="text-xl font-semibold mb-2">Course Creator</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Professional video hosting, curriculum builder, and student
               progress tracking
             </p>
           </div>
-          <div class="p-6 bg-white rounded-xl">
-            <Icon name="ph:credit-card" class="w-8 h-8 text-purple-600 mb-4" />
+          <div class="p-6 bg-background rounded-xl">
+            <Icon name="ph:credit-card" class="w-8 h-8 text-accent mb-4" />
             <h3 class="text-xl font-semibold mb-2">Payment System</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Secure payments, automatic payouts, and financial reporting
             </p>
           </div>
-          <div class="p-6 bg-white rounded-xl">
-            <Icon name="ph:users-three" class="w-8 h-8 text-purple-600 mb-4" />
+          <div class="p-6 bg-background rounded-xl">
+            <Icon name="ph:users-three" class="w-8 h-8 text-accent mb-4" />
             <h3 class="text-xl font-semibold mb-2">Student Portal</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Student profiles, messaging, and progress tracking
             </p>
           </div>
-          <div class="p-6 bg-white rounded-xl">
-            <Icon name="ph:calendar" class="w-8 h-8 text-purple-600 mb-4" />
+          <div class="p-6 bg-background rounded-xl">
+            <Icon name="ph:calendar" class="w-8 h-8 text-accent mb-4" />
             <h3 class="text-xl font-semibold mb-2">Booking Calendar</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Smart scheduling, availability management, and reminders
             </p>
           </div>
-          <div class="p-6 bg-white rounded-xl">
-            <Icon name="ph:chart-line" class="w-8 h-8 text-purple-600 mb-4" />
+          <div class="p-6 bg-background rounded-xl">
+            <Icon name="ph:chart-line" class="w-8 h-8 text-accent mb-4" />
             <h3 class="text-xl font-semibold mb-2">Analytics</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Revenue tracking, student engagement, and growth insights
             </p>
           </div>
-          <div class="p-6 bg-white rounded-xl">
-            <Icon name="ph:storefront" class="w-8 h-8 text-purple-600 mb-4" />
+          <div class="p-6 bg-background rounded-xl">
+            <Icon name="ph:storefront" class="w-8 h-8 text-accent mb-4" />
             <h3 class="text-xl font-semibold mb-2">Marketing Suite</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               SEO optimization, social sharing, and promotional tools
             </p>
           </div>
@@ -307,7 +306,7 @@
     </section>
 
     <!-- Social Proof -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4">Join Our Vision</h2>
         <p
@@ -316,53 +315,53 @@
           Be among the first artists to shape the future of dance education
         </p>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-muted rounded-xl p-8">
+          <div class="bg-background rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent/10 rounded-full"></div>
               <div>
                 <div class="font-semibold">For Dance Teachers</div>
-                <div class="text-gray-600">Create & Sell Courses</div>
+                <div class="text-muted-foreground">Create & Sell Courses</div>
               </div>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p class="text-muted-foreground mb-4">
               "I'm excited about the opportunity to reach students worldwide
               with my online courses. The platform makes it easy to start with
               zero tech experience."
             </p>
-            <div class="text-sm text-purple-600 font-medium">
+            <div class="text-sm text-accent font-medium">
               🎓 Pre-recorded & live classes
             </div>
           </div>
-          <div class="bg-muted rounded-xl p-8">
+          <div class="bg-background rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent/10 rounded-full"></div>
               <div>
                 <div class="font-semibold">For Performers</div>
-                <div class="text-gray-600">Get More Bookings</div>
+                <div class="text-muted-foreground">Get More Bookings</div>
               </div>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p class="text-muted-foreground mb-4">
               "Looking forward to a platform that helps me manage bookings and
               grow my performance career. The tools look perfect for
               professional artists."
             </p>
-            <div class="text-sm text-purple-600 font-medium">
+            <div class="text-sm text-accent font-medium">
               🎭 Private & festival bookings
             </div>
           </div>
-          <div class="bg-muted rounded-xl p-8">
+          <div class="bg-background rounded-xl p-8">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-purple-100 rounded-full"></div>
+              <div class="w-16 h-16 bg-accent/10 rounded-full"></div>
               <div>
                 <div class="font-semibold">For Studio Owners</div>
-                <div class="text-gray-600">Grow Your Business</div>
+                <div class="text-muted-foreground">Grow Your Business</div>
               </div>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p class="text-muted-foreground mb-4">
               "Can't wait to use the business tools to streamline my studio
               operations and reach new students in my area."
             </p>
-            <div class="text-sm text-purple-600 font-medium">
+            <div class="text-sm text-accent font-medium">
               🏢 Complete business solution
             </div>
           </div>
@@ -371,7 +370,7 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4">Why Choose WeDance?</h2>
         <p
@@ -382,16 +381,13 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <NuxtLink to="/vs/instagram" class="group">
             <div
-              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
+              class="bg-background rounded-xl p-8 hover:bg-accent/10 transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
-                <Icon
-                  name="ph:instagram-logo"
-                  class="w-8 h-8 text-purple-600"
-                />
+                <Icon name="ph:instagram-logo" class="w-8 h-8 text-accent" />
                 <h3 class="text-2xl font-semibold">vs Instagram</h3>
               </div>
-              <p class="text-gray-600">
+              <p class="text-muted-foreground">
                 Better reach and direct student engagement vs social media
                 algorithms
               </p>
@@ -400,13 +396,13 @@
 
           <NuxtLink to="/vs/skool" class="group">
             <div
-              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
+              class="bg-background rounded-xl p-8 hover:bg-accent/10 transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
-                <Icon name="ph:student" class="w-8 h-8 text-purple-600" />
+                <Icon name="ph:student" class="w-8 h-8 text-accent" />
                 <h3 class="text-2xl font-semibold">vs Skool</h3>
               </div>
-              <p class="text-gray-600">
+              <p class="text-muted-foreground">
                 Dance-specific features vs general course platform
               </p>
             </div>
@@ -414,13 +410,13 @@
 
           <NuxtLink to="/vs/tickettailor" class="group">
             <div
-              class="bg-muted rounded-xl p-8 hover:bg-accent transition-colors"
+              class="bg-background rounded-xl p-8 hover:bg-accent/10 transition-colors"
             >
               <div class="flex items-center gap-4 mb-4">
-                <Icon name="ph:ticket" class="w-8 h-8 text-purple-600" />
+                <Icon name="ph:ticket" class="w-8 h-8 text-accent" />
                 <h3 class="text-2xl font-semibold">vs TicketTailor</h3>
               </div>
-              <p class="text-gray-600">
+              <p class="text-muted-foreground">
                 Specialized dance event tools vs generic ticketing
               </p>
             </div>

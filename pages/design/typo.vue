@@ -18,12 +18,12 @@ const text = {
 
     <div class="space-y-4">
       <p class="text-lg">{{ text.body }}</p>
-      <p class="text-sm text-gray-600">{{ text.caption }}</p>
+      <p class="text-sm text-muted-foreground">{{ text.caption }}</p>
     </div>
 
     <div class="space-y-2">
       <div>
-        <div class="text-sm text-gray-500">Font: Noto Sans</div>
+        <div class="text-sm text-muted-foreground">Font: Noto Sans</div>
         <div class="space-y-1">
           <p class="font-light">
             Light 300: The quick brown fox jumps over the lazy dog

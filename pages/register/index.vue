@@ -37,7 +37,7 @@ const handleSubmit = async () => {
         </p>
       </div>
 
-      <div class="bg-white rounded-xl border p-6">
+      <div class="bg-background rounded-xl border p-6">
         <form @submit.prevent="handleSubmit" class="space-y-6">
           <!-- User Type Selection -->
           <UserTypeSelect v-model="form.userType" :simplified="false" />
@@ -94,7 +94,7 @@ const handleSubmit = async () => {
           <TermsCheckbox v-model="form.terms" />
 
           <!-- Error Message -->
-          <div v-if="error" class="text-red-600 text-sm">
+          <div v-if="error" class="text-destructive text-sm">
             {{ error }}
           </div>
 

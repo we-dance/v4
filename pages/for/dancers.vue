@@ -12,7 +12,7 @@
             <!-- Left: Content -->
             <div class="text-center lg:text-left">
               <div
-                class="flex items-center justify-center lg:justify-start gap-2 text-white/80 mb-4"
+                class="flex items-center justify-center lg:justify-start gap-2 text-primary-foreground/80 mb-4"
               >
                 <Badge variant="secondary">
                   <Icon name="ph:star" class="w-4 h-4 mr-1" />
@@ -20,11 +20,13 @@
                 </Badge>
               </div>
               <h1
-                class="text-4xl lg:text-7xl font-extrabold text-white tracking-tight mb-6"
+                class="text-4xl lg:text-7xl font-extrabold text-primary-foreground tracking-tight mb-6"
               >
                 Share & Earn with Dance
               </h1>
-              <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto lg:mx-0">
+              <p
+                class="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto lg:mx-0"
+              >
                 Turn your dance passion into earnings. Share events and services
                 with your network, grow your influence, and get rewarded.
               </p>
@@ -45,18 +47,18 @@
                 </Button>
               </div>
               <div
-                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-white/80"
+                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-primary-foreground/80"
               >
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:check-circle" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:check-circle" class="w-5 h-5 text-success" />
                   <span>No experience needed</span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:money" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:money" class="w-5 h-5 text-success" />
                   <span>Earn from day one</span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <Icon name="ph:users" class="w-5 h-5 text-green-400" />
+                  <Icon name="ph:users" class="w-5 h-5 text-success" />
                   <span>Grow your influence</span>
                 </div>
               </div>
@@ -65,52 +67,58 @@
             <!-- Right: Value Proposition -->
             <div class="grid grid-cols-2 gap-6">
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
-                <Icon name="ph:ticket" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon
+                  name="ph:ticket"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                />
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Event Tickets
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Share events and earn commission on every ticket sale
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
                 <Icon
                   name="ph:graduation-cap"
-                  class="w-8 h-8 text-white/80 mb-4"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
                 />
-                <div class="text-xl font-bold text-white mb-2">
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Class Packages
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Refer students and earn from their first class
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
                 <Icon
                   name="ph:users-three"
-                  class="w-8 h-8 text-white/80 mb-4"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
                 />
-                <div class="text-xl font-bold text-white mb-2">
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   Partner Network
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Connect with artists and venues for special deals
                 </div>
               </div>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
               >
-                <Icon name="ph:crown" class="w-8 h-8 text-white/80 mb-4" />
-                <div class="text-xl font-bold text-white mb-2">
+                <Icon
+                  name="ph:crown"
+                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                />
+                <div class="text-xl font-bold text-primary-foreground mb-2">
                   VIP Benefits
                 </div>
-                <div class="text-white/80">
+                <div class="text-primary-foreground/80">
                   Unlock exclusive perks as your influence grows
                 </div>
               </div>
@@ -210,15 +218,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>10% commission on ticket sales</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Festival & workshop referrals</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Special event access</span>
                 </li>
               </ul>
@@ -237,15 +245,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>15% on first-time students</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Recurring commission</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Free class credits</span>
                 </li>
               </ul>
@@ -264,15 +272,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>20% on service bookings</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Partner referral bonus</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Exclusive service deals</span>
                 </li>
               </ul>
@@ -301,15 +309,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Basic commission rates</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Referral dashboard</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Promotional materials</span>
                 </li>
               </ul>
@@ -324,15 +332,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Higher commission rates</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Early event access</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Custom promo codes</span>
                 </li>
               </ul>
@@ -347,15 +355,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Premium commission rates</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>VIP event perks</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Exclusive partnerships</span>
                 </li>
               </ul>

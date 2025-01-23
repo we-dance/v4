@@ -124,13 +124,13 @@ const getIssueId = (path: string) => {
 const getPriorityColor = (priority: string) => {
   switch (priority.toLowerCase()) {
     case "high":
-      return "bg-red-500";
+      return "bg-destructive";
     case "medium":
-      return "bg-yellow-500";
+      return "bg-warning";
     case "low":
-      return "bg-green-500";
+      return "bg-success";
     default:
-      return "bg-gray-500";
+      return "bg-muted-foreground";
   }
 };
 
@@ -141,7 +141,7 @@ const getStatusColor = (status: string) => {
     case "in-progress":
       return "bg-warning";
     case "done":
-      return "bg-accent";
+      return "bg-success";
     default:
       return "bg-muted";
   }

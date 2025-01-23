@@ -16,7 +16,7 @@ const handleGoHome = () => {
       <div class="mb-8">
         <Icon
           name="ph:footprints"
-          class="mx-auto h-24 w-24 text-purple-500 animate-bounce"
+          class="mx-auto h-24 w-24 text-accent animate-bounce"
         />
       </div>
 

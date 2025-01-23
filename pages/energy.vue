@@ -130,13 +130,11 @@ const badges = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Header -->
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <div
-          class="flex items-center justify-center gap-2 text-orange-500 mb-4"
-        >
+        <div class="flex items-center justify-center gap-2 text-warning mb-4">
           <Icon name="heroicons:fire" class="w-8 h-8" />
           <h1 class="text-3xl font-bold">Dance Energy</h1>
         </div>
-        <p class="text-xl text-gray-600">
+        <p class="text-xl text-muted-foreground">
           Dance Energy is a reward mechanism to encourage positive community
           contributions and recognize active members. It represents the vibrancy
           and passion each member brings to the dance community.
@@ -150,13 +148,15 @@ const badges = [
           <div
             v-for="level in energyLevels"
             :key="level.name"
-            class="bg-white rounded-xl shadow-sm border p-6 hover:border-orange-200 transition-colors"
+            class="bg-background rounded-xl shadow-sm border p-6 hover:border-warning/20 transition-colors"
           >
             <div class="flex items-center justify-between mb-4">
               <h3 class="text-lg font-medium">{{ level.name }}</h3>
               <UserPoints :points="level.energy" />
             </div>
-            <div class="text-gray-600">{{ level.benefits.join(", ") }}</div>
+            <div class="text-muted-foreground">
+              {{ level.benefits.join(", ") }}
+            </div>
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@ const badges = [
           <div
             v-for="category in earnEnergy"
             :key="category.category"
-            class="bg-white rounded-xl shadow-sm border p-6"
+            class="bg-background rounded-xl shadow-sm border p-6"
           >
             <h3 class="text-lg font-medium mb-6">{{ category.category }}</h3>
             <ul class="space-y-4">
@@ -179,7 +179,7 @@ const badges = [
                 :key="item.action"
                 class="flex items-center justify-between"
               >
-                <span class="text-gray-600">{{ item.action }}</span>
+                <span class="text-muted-foreground">{{ item.action }}</span>
                 <UserPoints :points="item.energy" />
               </li>
             </ul>
@@ -196,17 +196,17 @@ const badges = [
           <div
             v-for="badge in badges"
             :key="badge.name"
-            class="bg-white rounded-xl shadow-sm border p-6 hover:border-orange-200 transition-colors"
+            class="bg-background rounded-xl shadow-sm border p-6 hover:border-warning/20 transition-colors"
           >
             <div class="flex items-center gap-3 mb-2">
               <div
-                class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center"
+                class="w-10 h-10 rounded-full bg-warning/20 flex items-center justify-center"
               >
-                <Icon :name="badge.icon" class="w-5 h-5 text-orange-500" />
+                <Icon :name="badge.icon" class="w-5 h-5 text-warning" />
               </div>
               <h3 class="text-lg font-medium">{{ badge.name }}</h3>
             </div>
-            <p class="text-gray-600">{{ badge.description }}</p>
+            <p class="text-muted-foreground">{{ badge.description }}</p>
           </div>
         </div>
       </div>
@@ -214,41 +214,41 @@ const badges = [
       <!-- Energy Decay -->
       <div class="mb-24 max-w-3xl mx-auto">
         <h2 class="text-2xl font-semibold text-center mb-8">Energy Decay</h2>
-        <div class="bg-white rounded-xl shadow-sm border p-6">
+        <div class="bg-background rounded-xl shadow-sm border p-6">
           <ul class="space-y-4">
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:warning"
-                class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5"
+                class="w-5 h-5 text-warning flex-shrink-0 mt-0.5"
               />
-              <span class="text-gray-600"
+              <span class="text-muted-foreground"
                 >Energy starts decaying after 3 months of inactivity</span
               >
             </li>
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:chart-line-down"
-                class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5"
+                class="w-5 h-5 text-warning flex-shrink-0 mt-0.5"
               />
-              <span class="text-gray-600"
+              <span class="text-muted-foreground"
                 >10% of energy lost per month of inactivity</span
               >
             </li>
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:medal"
-                class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5"
+                class="w-5 h-5 text-warning flex-shrink-0 mt-0.5"
               />
-              <span class="text-gray-600"
+              <span class="text-muted-foreground"
                 >Core achievements (badges, verified status) remain</span
               >
             </li>
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:play"
-                class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5"
+                class="w-5 h-5 text-warning flex-shrink-0 mt-0.5"
               />
-              <span class="text-gray-600"
+              <span class="text-muted-foreground"
                 >Activity immediately stops decay</span
               >
             </li>
@@ -259,7 +259,7 @@ const badges = [
       <!-- Guidelines -->
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-2xl font-semibold mb-8">Guidelines</h2>
-        <ul class="text-gray-600 space-y-2 text-left mb-8">
+        <ul class="text-muted-foreground space-y-2 text-left mb-8">
           <li>• Dance Energy cannot be transferred</li>
           <li>• Spam or low-quality content earns no energy</li>
           <li>

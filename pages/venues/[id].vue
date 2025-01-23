@@ -66,12 +66,12 @@ const handleExploreAreas = () => {
               <!-- Left: Content -->
               <div class="text-center md:text-left">
                 <h1
-                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
+                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4"
                 >
                   {{ venue.name }}
                 </h1>
                 <div
-                  class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-white/80 mb-6"
+                  class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-primary-foreground/80 mb-6"
                 >
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
@@ -98,13 +98,13 @@ const handleExploreAreas = () => {
 
                 <!-- Rating -->
                 <div
-                  class="flex items-center justify-center md:justify-start gap-2 text-white mb-8"
+                  class="flex items-center justify-center md:justify-start gap-2 text-primary-foreground mb-8"
                 >
                   <div class="flex items-center gap-1">
-                    <Icon name="ph:star-fill" class="w-5 h-5 text-amber-400" />
+                    <Icon name="ph:star-fill" class="w-5 h-5 text-warning" />
                     <span class="font-medium">{{ venue.rating }}</span>
                   </div>
-                  <span class="text-white/60"
+                  <span class="text-primary-foreground/60"
                     >({{ venue.reviewCount }} reviews)</span
                   >
                 </div>
@@ -182,7 +182,7 @@ const handleExploreAreas = () => {
                 :key="feature"
                 class="flex items-center gap-2"
               >
-                <Icon name="ph:check-circle" class="w-5 h-5 text-green-500" />
+                <Icon name="ph:check-circle" class="w-5 h-5 text-success" />
                 <span>{{ feature }}</span>
               </div>
             </div>

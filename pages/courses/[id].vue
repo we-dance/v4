@@ -52,12 +52,12 @@ const handleSubscribe = () => {
         <div class="flex items-center justify-between">
           <div>
             <h1 class="text-2xl font-bold">{{ course.title }}</h1>
-            <p class="text-sm text-gray-600">
+            <p class="text-sm text-muted-foreground">
               Instructor: {{ course.instructor.name }}
             </p>
           </div>
           <div class="text-right">
-            <div class="text-sm text-gray-600">Progress</div>
+            <div class="text-sm text-muted-foreground">Progress</div>
             <div class="text-lg font-semibold">{{ progress }}%</div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const handleSubscribe = () => {
               <h2 class="text-xl font-semibold mb-2">
                 {{ currentLesson.title }}
               </h2>
-              <p class="text-sm text-gray-600">
+              <p class="text-sm text-muted-foreground">
                 Duration: {{ currentLesson.duration }}
               </p>
             </div>
@@ -108,7 +108,7 @@ const handleSubscribe = () => {
                     @click="selectLesson(lesson)"
                     class="flex items-center gap-3 p-2 rounded hover:bg-accent cursor-pointer"
                     :class="{
-                      'bg-purple-50': currentLesson.id === lesson.id,
+                      'bg-accent/10': currentLesson.id === lesson.id,
                     }"
                   >
                     <Icon
@@ -119,7 +119,9 @@ const handleSubscribe = () => {
                       "
                       class="w-5 h-5"
                       :class="
-                        lesson.completed ? 'text-green-600' : 'text-gray-400'
+                        lesson.completed
+                          ? 'text-success'
+                          : 'text-muted-foreground'
                       "
                     />
                     <div class="flex-1">
@@ -131,7 +133,7 @@ const handleSubscribe = () => {
                       >
                         {{ lesson.title }}
                       </div>
-                      <div class="text-xs text-gray-500">
+                      <div class="text-xs text-muted-foreground">
                         {{ lesson.duration }}
                       </div>
                     </div>
@@ -153,14 +155,19 @@ const handleSubscribe = () => {
                   :key="material.id"
                   class="flex items-center gap-3 p-2 rounded hover:bg-accent cursor-pointer"
                 >
-                  <Icon :name="material.icon" class="w-5 h-5 text-gray-400" />
+                  <Icon
+                    :name="material.icon"
+                    class="w-5 h-5 text-muted-foreground"
+                  />
                   <div class="flex-1">
                     <div class="text-sm font-medium">{{ material.title }}</div>
-                    <div class="text-xs text-gray-500">{{ material.size }}</div>
+                    <div class="text-xs text-muted-foreground">
+                      {{ material.size }}
+                    </div>
                   </div>
                   <Icon
                     name="ph:download-simple"
-                    class="w-5 h-5 text-gray-400"
+                    class="w-5 h-5 text-muted-foreground"
                   />
                 </li>
               </ul>
@@ -183,30 +190,30 @@ const handleSubscribe = () => {
                   <h4 class="font-semibold text-lg">
                     {{ course.instructor.name }}
                   </h4>
-                  <p class="text-sm text-gray-600 mb-2">
+                  <p class="text-sm text-muted-foreground mb-2">
                     {{ course.instructor.level }} instructor in
                     {{ course.instructor.location }}
                   </p>
                   <div
-                    class="flex items-center gap-2 text-sm text-gray-600 mb-2"
+                    class="flex items-center gap-2 text-sm text-muted-foreground mb-2"
                   >
-                    <Icon name="ph:star-fill" class="w-4 h-4 text-yellow-400" />
+                    <Icon name="ph:star-fill" class="w-4 h-4 text-warning" />
                     {{ course.instructor.rating }} ({{
                       course.instructor.reviewCount
                     }}
                     reviews)
                   </div>
                   <div class="space-y-2">
-                    <p class="text-sm text-gray-600">
+                    <p class="text-sm text-muted-foreground">
                       <Icon name="ph:translate" class="w-4 h-4 inline mr-1" />
                       Languages: {{ course.instructor.languages.join(", ") }}
                     </p>
-                    <p class="text-sm text-gray-600">
+                    <p class="text-sm text-muted-foreground">
                       <Icon name="ph:medal" class="w-4 h-4 inline mr-1" />
                       {{ course.instructor.experience.years }}+ years of
                       experience
                     </p>
-                    <div class="text-sm text-gray-600">
+                    <div class="text-sm text-muted-foreground">
                       <Icon name="ph:trophy" class="w-4 h-4 inline mr-1" />
                       Achievements:
                       <ul class="list-disc list-inside ml-5">
@@ -228,7 +235,7 @@ const handleSubscribe = () => {
                         v-if="course.instructor.socialMedia.instagram"
                         :href="`https://instagram.com/${course.instructor.socialMedia.instagram}`"
                         target="_blank"
-                        class="text-gray-600 hover:text-purple-600"
+                        class="text-muted-foreground hover:text-accent"
                       >
                         <Icon name="ph:instagram-logo" class="w-6 h-6" />
                       </a>
@@ -236,7 +243,7 @@ const handleSubscribe = () => {
                         v-if="course.instructor.socialMedia.youtube"
                         :href="`https://youtube.com/${course.instructor.socialMedia.youtube}`"
                         target="_blank"
-                        class="text-gray-600 hover:text-red-600"
+                        class="text-muted-foreground hover:text-destructive"
                       >
                         <Icon name="ph:youtube-logo" class="w-6 h-6" />
                       </a>
@@ -264,15 +271,19 @@ const handleSubscribe = () => {
                       v-for="i in review.rating"
                       :key="i"
                       name="ph:star-fill"
-                      class="w-4 h-4 text-yellow-400"
+                      class="w-4 h-4 text-warning"
                     />
                   </div>
-                  <span class="text-sm text-gray-600">{{ review.user }}</span>
-                  <span class="text-xs text-gray-400">
+                  <span class="text-sm text-muted-foreground">{{
+                    review.user
+                  }}</span>
+                  <span class="text-xs text-muted-foreground">
                     {{ new Date(review.date).toLocaleDateString() }}
                   </span>
                 </div>
-                <p class="text-sm text-gray-600">{{ review.comment }}</p>
+                <p class="text-sm text-muted-foreground">
+                  {{ review.comment }}
+                </p>
               </div>
             </div>
           </div>
@@ -285,21 +296,23 @@ const handleSubscribe = () => {
             <div class="p-4">
               <div class="grid grid-cols-2 gap-4 mb-4">
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-purple-600">
+                  <div class="text-2xl font-bold text-accent">
                     {{ course.community.discussions }}
                   </div>
-                  <div class="text-sm text-gray-600">Discussions</div>
+                  <div class="text-sm text-muted-foreground">Discussions</div>
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-purple-600">
+                  <div class="text-2xl font-bold text-accent">
                     {{ course.community.activeStudents }}
                   </div>
-                  <div class="text-sm text-gray-600">Active Students</div>
+                  <div class="text-sm text-muted-foreground">
+                    Active Students
+                  </div>
                 </div>
               </div>
-              <div class="bg-purple-50 rounded-lg p-4">
+              <div class="bg-accent/10 rounded-lg p-4">
                 <h4 class="font-medium mb-2">Next Live Q&A Session</h4>
-                <p class="text-sm text-gray-600">
+                <p class="text-sm text-muted-foreground">
                   {{ new Date(course.community.nextLiveQ_A).toLocaleString() }}
                 </p>
                 <Button class="w-full mt-3" variant="outline"
@@ -320,28 +333,28 @@ const handleSubscribe = () => {
             <div class="p-4">
               <div class="grid grid-cols-2 gap-4">
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-purple-600">
+                  <div class="text-2xl font-bold text-accent">
                     {{ course.stats.enrolled }}
                   </div>
-                  <div class="text-sm text-gray-600">Students</div>
+                  <div class="text-sm text-muted-foreground">Students</div>
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-purple-600">
+                  <div class="text-2xl font-bold text-accent">
                     {{ course.stats.completed }}
                   </div>
-                  <div class="text-sm text-gray-600">Completed</div>
+                  <div class="text-sm text-muted-foreground">Completed</div>
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-yellow-500">
+                  <div class="text-2xl font-bold text-warning">
                     {{ course.stats.avgRating }}
                   </div>
-                  <div class="text-sm text-gray-600">Avg Rating</div>
+                  <div class="text-sm text-muted-foreground">Avg Rating</div>
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-purple-600">
+                  <div class="text-2xl font-bold text-accent">
                     {{ course.stats.reviewCount }}
                   </div>
-                  <div class="text-sm text-gray-600">Reviews</div>
+                  <div class="text-sm text-muted-foreground">Reviews</div>
                 </div>
               </div>
             </div>
@@ -353,10 +366,10 @@ const handleSubscribe = () => {
               <div class="space-y-4">
                 <div>
                   <h3 class="font-semibold mb-2">Starting from</h3>
-                  <div class="text-2xl font-bold text-purple-600">
+                  <div class="text-2xl font-bold text-accent">
                     {{ course.pricing.regular.monthly.amount }}
                     {{ course.pricing.regular.monthly.currency }}
-                    <span class="text-base font-normal text-gray-600"
+                    <span class="text-base font-normal text-muted-foreground"
                       >/month</span
                     >
                   </div>
@@ -370,7 +383,7 @@ const handleSubscribe = () => {
                   View Pricing Plans
                 </Button>
 
-                <p class="text-xs text-center text-gray-500">
+                <p class="text-xs text-center text-muted-foreground">
                   14-day money-back guarantee
                 </p>
               </div>
@@ -390,7 +403,7 @@ const handleSubscribe = () => {
                 {{ course.instructor.privateClass.amount }}
                 {{ course.instructor.privateClass.currency }}
               </div>
-              <p class="text-sm text-gray-600 mb-4">
+              <p class="text-sm text-muted-foreground mb-4">
                 {{ course.instructor.privateClass.duration }} minutes private
                 lesson
               </p>
