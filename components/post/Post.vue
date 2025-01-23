@@ -44,7 +44,7 @@ function closeModal() {
 </script>
 
 <template>
-  <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+  <div class="bg-background rounded-lg shadow-sm border border-border">
     <ErrorBoundary>
       <PostHeader
         :author="post.author"
