@@ -2,7 +2,7 @@
   <div>
     <!-- Hero Section -->
     <section
-      class="pt-32 pb-24 bg-gradient-to-br from-primary to-primary/90 relative overflow-hidden"
+      class="pt-32 pb-24 bg-gradient-to-br from-primary to-primary-foreground relative overflow-hidden"
     >
       <div
         class="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
@@ -146,10 +146,10 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-6">Ready to Join WeDance?</h2>
-        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Experience the best platform built specifically for dancers
         </p>
         <div class="flex justify-center">

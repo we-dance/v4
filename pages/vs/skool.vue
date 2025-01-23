@@ -2,7 +2,7 @@
   <div>
     <!-- Hero Section -->
     <section
-      class="pt-32 pb-24 bg-gradient-to-br from-purple-600 to-purple-900 relative overflow-hidden"
+      class="pt-32 pb-24 bg-gradient-to-br from-primary to-primary-foreground relative overflow-hidden"
     >
       <div
         class="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
@@ -47,24 +47,24 @@
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
           <div class="bg-muted rounded-xl p-6">
-            <Icon name="ph:student" class="w-10 h-10 text-purple-600 mb-4" />
+            <Icon name="ph:student" class="w-10 h-10 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Finding Students</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Hard to reach dancers looking for classes in your style and level
             </p>
           </div>
           <div class="bg-muted rounded-xl p-6">
-            <Icon name="ph:calendar" class="w-10 h-10 text-purple-600 mb-4" />
+            <Icon name="ph:calendar" class="w-10 h-10 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Class Management</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Juggling schedules, bookings, and student communications across
               platforms
             </p>
           </div>
           <div class="bg-muted rounded-xl p-6">
-            <Icon name="ph:users" class="w-10 h-10 text-purple-600 mb-4" />
+            <Icon name="ph:users" class="w-10 h-10 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Building Community</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               No way to connect students and foster a supportive learning
               environment
             </p>
@@ -82,38 +82,56 @@
         <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-white rounded-xl p-8 shadow-sm">
             <div class="flex items-center gap-4 mb-6">
-              <Icon name="ph:graduation-cap" class="w-8 h-8 text-gray-600" />
+              <Icon
+                name="ph:graduation-cap"
+                class="w-8 h-8 text-muted-foreground"
+              />
               <h3 class="text-2xl font-semibold">Skool</h3>
             </div>
             <ul class="space-y-4">
               <li class="flex items-start gap-3">
-                <Icon name="ph:x-circle" class="w-5 h-5 text-red-500 mt-1" />
+                <Icon
+                  name="ph:x-circle"
+                  class="w-5 h-5 text-destructive mt-1"
+                />
                 <span>Generic course platform</span>
               </li>
               <li class="flex items-start gap-3">
-                <Icon name="ph:x-circle" class="w-5 h-5 text-red-500 mt-1" />
+                <Icon
+                  name="ph:x-circle"
+                  class="w-5 h-5 text-destructive mt-1"
+                />
                 <span>No built-in dance audience</span>
               </li>
               <li class="flex items-start gap-3">
-                <Icon name="ph:x-circle" class="w-5 h-5 text-red-500 mt-1" />
+                <Icon
+                  name="ph:x-circle"
+                  class="w-5 h-5 text-destructive mt-1"
+                />
                 <span>Limited in-person class features</span>
               </li>
               <li class="flex items-start gap-3">
-                <Icon name="ph:x-circle" class="w-5 h-5 text-red-500 mt-1" />
+                <Icon
+                  name="ph:x-circle"
+                  class="w-5 h-5 text-destructive mt-1"
+                />
                 <span>No partner matching</span>
               </li>
               <li class="flex items-start gap-3">
-                <Icon name="ph:x-circle" class="w-5 h-5 text-red-500 mt-1" />
+                <Icon
+                  name="ph:x-circle"
+                  class="w-5 h-5 text-destructive mt-1"
+                />
                 <span>High monthly fees</span>
               </li>
             </ul>
           </div>
           <div
-            class="bg-white rounded-xl p-8 shadow-sm border-2 border-purple-600"
+            class="bg-white rounded-xl p-8 shadow-sm border-2 border-primary"
           >
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center"
+                class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center"
               >
                 <Icon
                   name="ph:heart-straight-fill"
@@ -126,35 +144,35 @@
               <li class="flex items-start gap-3">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1"
+                  class="w-5 h-5 text-success mt-1"
                 />
                 <span>Dance-focused teaching tools</span>
               </li>
               <li class="flex items-start gap-3">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1"
+                  class="w-5 h-5 text-success mt-1"
                 />
                 <span>Active local dance community</span>
               </li>
               <li class="flex items-start gap-3">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1"
+                  class="w-5 h-5 text-success mt-1"
                 />
                 <span>In-person & online class support</span>
               </li>
               <li class="flex items-start gap-3">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1"
+                  class="w-5 h-5 text-success mt-1"
                 />
                 <span>Student-partner matching</span>
               </li>
               <li class="flex items-start gap-3">
                 <Icon
                   name="ph:check-circle"
-                  class="w-5 h-5 text-green-500 mt-1"
+                  class="w-5 h-5 text-success mt-1"
                 />
                 <span>Free to start teaching</span>
               </li>
@@ -174,47 +192,47 @@
           <div class="p-6">
             <Icon
               name="ph:chalkboard-teacher"
-              class="w-8 h-8 text-purple-600 mb-4"
+              class="w-8 h-8 text-primary mb-4"
             />
             <h3 class="text-xl font-semibold mb-2">Class Management</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Schedule classes, manage registrations, and track attendance
               easily
             </p>
           </div>
           <div class="p-6">
-            <Icon name="ph:users-three" class="w-8 h-8 text-purple-600 mb-4" />
+            <Icon name="ph:users-three" class="w-8 h-8 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Student Community</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Create practice groups, share updates, and foster student
               connections
             </p>
           </div>
           <div class="p-6">
-            <Icon name="ph:chart-line" class="w-8 h-8 text-purple-600 mb-4" />
+            <Icon name="ph:chart-line" class="w-8 h-8 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Progress Tracking</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Monitor student development and customize learning paths
             </p>
           </div>
           <div class="p-6">
-            <Icon name="ph:video-camera" class="w-8 h-8 text-purple-600 mb-4" />
+            <Icon name="ph:video-camera" class="w-8 h-8 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Hybrid Teaching</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Run in-person classes, online sessions, or both seamlessly
             </p>
           </div>
           <div class="p-6">
-            <Icon name="ph:wallet" class="w-8 h-8 text-purple-600 mb-4" />
+            <Icon name="ph:wallet" class="w-8 h-8 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Payment Handling</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Accept payments, manage subscriptions, and track revenue
             </p>
           </div>
           <div class="p-6">
-            <Icon name="ph:megaphone" class="w-8 h-8 text-purple-600 mb-4" />
+            <Icon name="ph:megaphone" class="w-8 h-8 text-primary mb-4" />
             <h3 class="text-xl font-semibold mb-2">Marketing Tools</h3>
-            <p class="text-gray-600">
+            <p class="text-muted-foreground">
               Promote classes to local dancers and grow your student base
             </p>
           </div>
@@ -228,7 +246,7 @@
         <h2 class="text-3xl font-bold mb-6">
           Ready to Grow Your Dance Classes?
         </h2>
-        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Join teachers who are building thriving dance communities with WeDance
         </p>
         <div class="flex justify-center">
