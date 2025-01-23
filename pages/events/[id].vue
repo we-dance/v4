@@ -189,18 +189,18 @@ const eventArtists = computed(() => {
               <!-- Left: Content -->
               <div class="text-center md:text-left">
                 <div
-                  class="flex items-center justify-center md:justify-start gap-2 text-white/80 mb-2 md:mb-4"
+                  class="flex items-center justify-center md:justify-start gap-2 text-muted-foreground mb-2 md:mb-4"
                 >
                   <Icon name="ph:calendar" class="w-4 h-4 md:w-5 md:h-5" />
                   <span class="text-sm md:text-base">{{ formattedDate }}</span>
                 </div>
                 <h1
-                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-2 md:mb-4"
+                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-2 md:mb-4"
                 >
                   {{ event.name }}
                 </h1>
                 <div
-                  class="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-4 text-white/80 mb-4 md:mb-6"
+                  class="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-4 text-muted-foreground mb-4 md:mb-6"
                 >
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
@@ -225,7 +225,7 @@ const eventArtists = computed(() => {
                 </div>
 
                 <!-- Status & Social Proof -->
-                <div class="flex items-center gap-4 text-white/80 mb-6">
+                <div class="flex items-center gap-4 text-muted-foreground mb-6">
                   <Badge
                     v-if="availability === 'sold-out'"
                     variant="destructive"
@@ -234,8 +234,7 @@ const eventArtists = computed(() => {
                   </Badge>
                   <Badge
                     v-else-if="availability === 'few-left'"
-                    variant="destructive"
-                    class="bg-yellow-500"
+                    variant="secondary"
                   >
                     Few Spots Left
                   </Badge>
@@ -250,28 +249,28 @@ const eventArtists = computed(() => {
 
                 <!-- Event Stats -->
                 <div
-                  class="flex justify-center md:justify-start gap-8 text-white/80"
+                  class="flex justify-center md:justify-start gap-8 text-muted-foreground"
                 >
                   <div>
-                    <div class="text-xl font-bold text-white">
+                    <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.interested || 0 }}
                     </div>
                     <div class="text-sm">guests</div>
                   </div>
                   <div>
-                    <div class="text-xl font-bold text-white">
+                    <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.saves || 0 }}
                     </div>
                     <div class="text-sm">saves</div>
                   </div>
                   <div>
-                    <div class="text-xl font-bold text-white">
+                    <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.views || 20 }}
                     </div>
                     <div class="text-sm">views</div>
                   </div>
                   <div>
-                    <div class="text-xl font-bold text-white">
+                    <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.shares || 1 }}
                     </div>
                     <div class="text-sm">shares</div>
@@ -316,16 +315,16 @@ const eventArtists = computed(() => {
               >
                 <div class="flex items-start gap-4">
                   <div
-                    class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+                    class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
                   >
-                    <Icon name="ph:clock" class="w-5 h-5 text-purple-600" />
+                    <Icon name="ph:clock" class="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <div class="font-medium">{{ item.time }}</div>
-                    <div class="text-gray-600">{{ item.activity }}</div>
+                    <div class="text-muted-foreground">{{ item.activity }}</div>
                     <p
                       v-if="item.description"
-                      class="text-sm text-gray-500 mt-1"
+                      class="text-sm text-muted-foreground mt-1"
                     >
                       {{ item.description }}
                     </p>
@@ -370,13 +369,13 @@ const eventArtists = computed(() => {
               <div class="bg-white rounded-lg border p-4">
                 <div class="flex items-start gap-4">
                   <div
-                    class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+                    class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
                   >
-                    <Icon name="ph:info" class="w-5 h-5 text-purple-600" />
+                    <Icon name="ph:info" class="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <div class="font-medium">Required Level</div>
-                    <p class="text-gray-600">
+                    <p class="text-muted-foreground">
                       This workshop is suitable for {{ event.level }} level
                       dancers. Previous experience with
                       {{ event.tags.join(" or ") }} is recommended.
@@ -392,13 +391,13 @@ const eventArtists = computed(() => {
                 <div class="bg-white rounded-lg border p-4">
                   <div class="flex items-start gap-4">
                     <div
-                      class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+                      class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
                     >
-                      <Icon name="ph:scroll" class="w-5 h-5 text-purple-600" />
+                      <Icon name="ph:scroll" class="w-5 h-5 text-primary" />
                     </div>
                     <div>
                       <div class="font-medium">Cancellation Policy</div>
-                      <p class="text-gray-600">
+                      <p class="text-muted-foreground">
                         Full refund up to 7 days before the event. 50% refund up
                         to 48 hours before the event. No refunds within 48 hours
                         of the event.
@@ -409,13 +408,13 @@ const eventArtists = computed(() => {
                 <div class="bg-white rounded-lg border p-4">
                   <div class="flex items-start gap-4">
                     <div
-                      class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+                      class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
                     >
-                      <Icon name="ph:users" class="w-5 h-5 text-purple-600" />
+                      <Icon name="ph:users" class="w-5 h-5 text-primary" />
                     </div>
                     <div>
                       <div class="font-medium">Partner Requirements</div>
-                      <p class="text-gray-600">
+                      <p class="text-muted-foreground">
                         No partner required. We will rotate partners during the
                         workshop to ensure everyone gets to practice with
                         different dancers.
@@ -462,12 +461,12 @@ const eventArtists = computed(() => {
                 </div>
                 <div>
                   <div class="font-medium">Guest {{ i }}</div>
-                  <div class="text-sm text-gray-600">Going</div>
+                  <div class="text-sm text-muted-foreground">Going</div>
                 </div>
               </div>
               <div
                 v-if="(event.stats?.interested || 0) > 5"
-                class="text-sm text-gray-600 mt-2"
+                class="text-sm text-muted-foreground mt-2"
               >
                 and {{ (event.stats?.interested || 0) - 5 }} more guests
               </div>
@@ -481,7 +480,7 @@ const eventArtists = computed(() => {
               <div class="flex items-start gap-3">
                 <Icon
                   name="ph:map-pin"
-                  class="w-5 h-5 text-purple-600 flex-shrink-0 mt-1"
+                  class="w-5 h-5 text-primary flex-shrink-0 mt-1"
                 />
                 <div>
                   <div class="font-medium">{{ event.location.name }}</div>
@@ -521,7 +520,7 @@ const eventArtists = computed(() => {
                 </div>
               </div>
             </div>
-            <Button class="w-full mt-6" variant="default" @click="handleBook">
+            <Button class="w-full mt-6" variant="primary" @click="handleBook">
               <Icon name="ph:ticket" class="w-5 h-5 mr-2" />
               Book Now
             </Button>
@@ -534,9 +533,12 @@ const eventArtists = computed(() => {
   <!-- Empty State -->
   <div v-else class="min-h-screen flex items-center justify-center">
     <div class="text-center">
-      <Icon name="ph:calendar-x" class="w-16 h-16 text-gray-400 mx-auto mb-4" />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">Event Not Found</h2>
-      <p class="text-gray-600 mb-6">
+      <Icon
+        name="ph:calendar-x"
+        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
+      />
+      <h2 class="text-2xl font-bold text-foreground mb-2">Event Not Found</h2>
+      <p class="text-muted-foreground mb-6">
         The event you're looking for doesn't exist or has been removed.
       </p>
       <Button as-child>

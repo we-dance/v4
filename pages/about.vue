@@ -85,8 +85,8 @@ const values = [
     <div class="max-w-4xl mx-auto">
       <!-- Hero -->
       <div class="text-center mb-16">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">About WeDance</h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        <h1 class="text-4xl font-bold text-foreground mb-4">About WeDance</h1>
+        <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
           A participatory network transforming how dance communities connect,
           organize, and thrive together.
         </p>
@@ -95,18 +95,24 @@ const values = [
       <!-- Mission -->
       <div class="mb-16">
         <div class="text-center mb-8">
-          <h2 class="text-2xl font-bold text-gray-900">{{ vision.title }}</h2>
-          <p class="text-lg text-gray-600 mt-2">{{ vision.description }}</p>
+          <h2 class="text-2xl font-bold text-foreground">{{ vision.title }}</h2>
+          <p class="text-lg text-muted-foreground mt-2">
+            {{ vision.description }}
+          </p>
         </div>
         <div class="text-center mb-8">
-          <h2 class="text-2xl font-bold text-gray-900">{{ mission.title }}</h2>
-          <p class="text-lg text-gray-600 mt-2">{{ mission.description }}</p>
+          <h2 class="text-2xl font-bold text-foreground">
+            {{ mission.title }}
+          </h2>
+          <p class="text-lg text-muted-foreground mt-2">
+            {{ mission.description }}
+          </p>
         </div>
       </div>
 
       <!-- Features -->
       <div class="mb-16">
-        <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+        <h2 class="text-2xl font-bold text-foreground text-center mb-8">
           What We're Building
         </h2>
         <div class="grid md:grid-cols-2 gap-6">
@@ -115,18 +121,20 @@ const values = [
             :key="feature.title"
             class="bg-white rounded-lg shadow-sm p-6"
           >
-            <Icon :name="feature.icon" class="w-8 h-8 text-purple-600 mb-3" />
-            <h3 class="font-semibold text-gray-900 mb-2">
+            <Icon :name="feature.icon" class="w-8 h-8 text-primary mb-3" />
+            <h3 class="font-semibold text-foreground mb-2">
               {{ feature.title }}
             </h3>
-            <p class="text-gray-600 text-sm">{{ feature.description }}</p>
+            <p class="text-muted-foreground text-sm">
+              {{ feature.description }}
+            </p>
           </div>
         </div>
       </div>
 
       <!-- Values -->
       <div class="mb-16">
-        <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+        <h2 class="text-2xl font-bold text-foreground text-center mb-8">
           Our Values
         </h2>
         <div class="grid md:grid-cols-2 gap-6">
@@ -135,8 +143,10 @@ const values = [
             :key="value.title"
             class="bg-white rounded-lg shadow-sm p-6"
           >
-            <h3 class="font-semibold text-gray-900 mb-2">{{ value.title }}</h3>
-            <p class="text-gray-600 text-sm">{{ value.description }}</p>
+            <h3 class="font-semibold text-foreground mb-2">
+              {{ value.title }}
+            </h3>
+            <p class="text-muted-foreground text-sm">{{ value.description }}</p>
           </div>
         </div>
       </div>
@@ -144,7 +154,7 @@ const values = [
       <!-- Join -->
       <div class="text-center">
         <h2 class="text-2xl font-bold mb-4">Join the Movement</h2>
-        <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
+        <p class="text-muted-foreground mb-6 max-w-2xl mx-auto">
           We're building the future of dance communities together. Join us in
           making dance more accessible, connected, and vibrant for everyone.
         </p>
@@ -152,14 +162,14 @@ const values = [
           <a
             href="https://t.me/WeDancePlatform"
             target="_blank"
-            class="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+            class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
           >
             <Icon name="ph:telegram-logo" class="w-5 h-5" />
             Join Community
           </a>
           <a
             href="/status"
-            class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700"
+            class="inline-flex items-center gap-2 text-primary hover:text-primary/90"
           >
             View Project Status
             <Icon name="ph:arrow-right" class="w-5 h-5" />

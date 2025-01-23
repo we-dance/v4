@@ -97,7 +97,7 @@ const upcomingFeatures = computed(
           </div>
           <div class="w-full bg-secondary rounded-full h-2.5">
             <div
-              class="bg-purple-600 h-2.5 rounded-full transition-all duration-500"
+              class="bg-primary h-2.5 rounded-full transition-all duration-500"
               :style="{ width: `${overallProgress}%` }"
             />
           </div>
@@ -110,7 +110,7 @@ const upcomingFeatures = computed(
 
         <NuxtLink
           to="/about"
-          class="inline-flex items-center gap-1 text-purple-600 hover:text-purple-700 mt-6"
+          class="inline-flex items-center gap-1 text-primary hover:text-primary/90 mt-6"
         >
           Learn About Our Vision
           <Icon name="ph:arrow-right" class="w-4 h-4" />
@@ -138,14 +138,14 @@ const upcomingFeatures = computed(
             :key="feature.name"
             class="p-4 flex items-start gap-3"
           >
-            <Icon name="ph:check-circle" class="w-5 h-5 text-green-500 mt-1" />
+            <Icon name="ph:check-circle" class="w-5 h-5 text-success mt-1" />
             <div class="flex-1">
               <div class="font-medium">{{ feature.name }}</div>
               <div class="text-sm text-muted-foreground">
                 {{ feature.description }}
               </div>
               <div class="mt-2 w-full bg-secondary rounded-full h-1.5">
-                <div class="bg-green-500 h-1.5 rounded-full w-full" />
+                <div class="bg-success h-1.5 rounded-full w-full" />
               </div>
             </div>
           </div>
@@ -161,10 +161,7 @@ const upcomingFeatures = computed(
             :key="feature.name"
             class="p-4 flex items-start gap-3"
           >
-            <Icon
-              name="ph:circle-dashed"
-              class="w-5 h-5 text-purple-500 mt-1"
-            />
+            <Icon name="ph:circle-dashed" class="w-5 h-5 text-primary mt-1" />
             <div class="flex-1">
               <div class="font-medium">{{ feature.name }}</div>
               <div class="text-sm text-muted-foreground">
@@ -172,7 +169,7 @@ const upcomingFeatures = computed(
               </div>
               <div class="mt-2 w-full bg-secondary rounded-full h-1.5">
                 <div
-                  class="bg-purple-500 h-1.5 rounded-full transition-all duration-500"
+                  class="bg-primary h-1.5 rounded-full transition-all duration-500"
                   :style="{ width: `${feature.progress}%` }"
                 />
               </div>
@@ -190,7 +187,10 @@ const upcomingFeatures = computed(
             :key="feature.name"
             class="p-4 flex items-start gap-3"
           >
-            <Icon name="ph:arrow-right" class="w-5 h-5 text-gray-400 mt-1" />
+            <Icon
+              name="ph:arrow-right"
+              class="w-5 h-5 text-muted-foreground mt-1"
+            />
             <div class="flex-1">
               <div class="font-medium">{{ feature.name }}</div>
               <div class="text-sm text-muted-foreground">
@@ -216,7 +216,7 @@ const upcomingFeatures = computed(
         <a
           href="https://t.me/WeDancePlatform"
           target="_blank"
-          class="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+          class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
         >
           <Icon name="ph:telegram-logo" class="w-5 h-5" />
           Join Our Telegram Channel

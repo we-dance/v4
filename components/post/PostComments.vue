@@ -73,8 +73,8 @@ const scrollToComment = (commentId: number) => {
   const element = document.getElementById(`comment-${commentId}`);
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
-    element.classList.add("bg-blue-50");
-    setTimeout(() => element.classList.remove("bg-blue-50"), 2000);
+    element.classList.add("bg-info/10");
+    setTimeout(() => element.classList.remove("bg-info/10"), 2000);
   }
 };
 </script>
