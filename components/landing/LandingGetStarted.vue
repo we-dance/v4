@@ -66,9 +66,9 @@ defineProps({
                 class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 flex items-center justify-center rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] bg-gradient-to-br from-fuchsia-500/80 to-accent/80 mb-3"
                 >
-                  <Icon name="ph:users-three" class="w-5 h-5 text-foreground" />
+                  <Icon name="ph:users-three" class="w-5 h-5 text-white" />
                 </div>
                 <div class="font-semibold text-lg mb-1">For Dancers</div>
                 <p class="text-muted">
@@ -88,12 +88,9 @@ defineProps({
                 class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 flex items-center justify-center rounded-[60%_40%_30%_70%_/_30%_30%_70%_70%] bg-gradient-to-br from-purple-500/80 to-accent/80 mb-3"
                 >
-                  <Icon
-                    name="ph:microphone-stage"
-                    class="w-5 h-5 text-foreground"
-                  />
+                  <Icon name="ph:microphone-stage" class="w-5 h-5 text-white" />
                 </div>
                 <div class="font-semibold text-lg mb-1">For Artists</div>
                 <p class="text-muted">
@@ -116,9 +113,9 @@ defineProps({
                 class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 flex items-center justify-center rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] bg-gradient-to-br from-orange-500/80 to-accent/80 mb-3"
                 >
-                  <Icon name="ph:buildings" class="w-5 h-5 text-foreground" />
+                  <Icon name="ph:buildings" class="w-5 h-5 text-white" />
                 </div>
                 <div class="font-semibold text-lg mb-1">For Venues</div>
                 <p class="text-muted">
@@ -139,9 +136,9 @@ defineProps({
                 class="bg-background/10 backdrop-blur rounded-xl p-6 transform hover:-translate-y-1 transition-transform"
               >
                 <div
-                  class="w-10 h-10 bg-foreground/20 rounded-lg flex items-center justify-center mb-3"
+                  class="w-10 h-10 flex items-center justify-center rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] bg-gradient-to-br from-orange-500/80 to-accent/80 mb-3"
                 >
-                  <Icon name="ph:users" class="w-5 h-5 text-foreground" />
+                  <Icon name="ph:users" class="w-5 h-5 text-white" />
                 </div>
                 <div class="font-semibold text-lg mb-1">For Organizers</div>
                 <p class="text-muted">
