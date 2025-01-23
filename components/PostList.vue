@@ -99,7 +99,10 @@ const showLoadMore = computed(
 
 <template>
   <!-- Error state -->
-  <div v-if="error" class="p-4 mb-4 text-red-500 bg-red-50 rounded-lg">
+  <div
+    v-if="error"
+    class="p-4 mb-4 text-destructive bg-destructive/10 rounded-lg"
+  >
     {{ (error as Error).message }}
   </div>
 
@@ -121,9 +124,9 @@ const showLoadMore = computed(
 
     <!-- Empty state -->
     <div v-if="!posts.length" class="text-center py-8">
-      <Icon name="ph:note" class="mx-auto h-12 w-12 text-gray-400" />
-      <h3 class="mt-2 text-sm font-medium text-gray-900">No posts</h3>
-      <p class="mt-1 text-sm text-gray-500">
+      <Icon name="ph:note" class="mx-auto h-12 w-12 text-muted-foreground" />
+      <h3 class="mt-2 text-sm font-medium text-foreground">No posts</h3>
+      <p class="mt-1 text-sm text-muted-foreground">
         {{
           props.authorId
             ? "This artist hasn't posted anything yet."

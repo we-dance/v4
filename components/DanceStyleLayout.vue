@@ -120,12 +120,12 @@ defineProps({
   </div>
 
   <!-- Navigation and Content Wrapper -->
-  <div class="relative">
+  <div class="relative bg-background">
     <!-- Navigation -->
-    <div class="sticky top-16 bg-background z-10">
+    <div class="sticky top-16 z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav class="border-b">
-          <div class="flex space-x-8 overflow-x-auto">
+          <div class="flex space-x-8 overflow-x-auto bg-background">
             <NuxtLink
               v-for="item in navigation"
               :key="item.to"

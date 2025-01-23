@@ -132,7 +132,7 @@ const formatNumber = (num: number) => {
       <Button
         v-for="type in postTypeOptions"
         :key="type.value"
-        :variant="selectedType === type.value ? 'default' : 'ghost'"
+        :variant="selectedType === type.value ? 'primary' : 'ghost'"
         @click="selectedType = type.value"
         class="justify-start"
       >
