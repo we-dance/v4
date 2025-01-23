@@ -311,7 +311,7 @@ const eventArtists = computed(() => {
               <div
                 v-for="(item, index) in event.schedule"
                 :key="index"
-                class="bg-white rounded-lg border p-4"
+                class="bg-background rounded-lg border p-4"
               >
                 <div class="flex items-start gap-4">
                   <div
@@ -341,7 +341,7 @@ const eventArtists = computed(() => {
               <div
                 v-for="artist in eventArtists"
                 :key="artist?.id"
-                class="bg-white rounded-lg border p-4 flex items-center gap-4"
+                class="bg-background rounded-lg border p-4 flex items-center gap-4"
               >
                 <div
                   class="w-12 h-12 rounded-full overflow-hidden flex-shrink-0"
@@ -366,7 +366,7 @@ const eventArtists = computed(() => {
           <div v-if="event.type === 'workshop'" class="space-y-8">
             <div>
               <h2 class="text-2xl font-bold mb-4">Prerequisites</h2>
-              <div class="bg-white rounded-lg border p-4">
+              <div class="bg-background rounded-lg border p-4">
                 <div class="flex items-start gap-4">
                   <div
                     class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
@@ -388,7 +388,7 @@ const eventArtists = computed(() => {
             <div>
               <h2 class="text-2xl font-bold mb-4">Policies</h2>
               <div class="space-y-4">
-                <div class="bg-white rounded-lg border p-4">
+                <div class="bg-background rounded-lg border p-4">
                   <div class="flex items-start gap-4">
                     <div
                       class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
@@ -405,7 +405,7 @@ const eventArtists = computed(() => {
                     </div>
                   </div>
                 </div>
-                <div class="bg-white rounded-lg border p-4">
+                <div class="bg-background rounded-lg border p-4">
                   <div class="flex items-start gap-4">
                     <div
                       class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
@@ -442,7 +442,7 @@ const eventArtists = computed(() => {
         <!-- Right Column: Sidebar -->
         <div class="space-y-6">
           <!-- Guests section -->
-          <div class="bg-white rounded-xl border p-6">
+          <div class="bg-background rounded-xl border p-6">
             <h3 class="text-lg font-bold mb-4">Guests</h3>
             <Button class="w-full mb-6" variant="outline" @click="handleGoing">
               <Icon name="ph:users" class="w-5 h-5 mr-2" />
@@ -451,7 +451,7 @@ const eventArtists = computed(() => {
             <div class="space-y-3">
               <div v-for="i in 5" :key="i" class="flex items-center gap-3">
                 <div
-                  class="w-10 h-10 rounded-full border-2 border-white overflow-hidden"
+                  class="w-10 h-10 rounded-full border-2 border-border overflow-hidden"
                 >
                   <img
                     :src="`https://api.dicebear.com/7.x/avataaars/svg?seed=guest${i}`"
@@ -474,7 +474,7 @@ const eventArtists = computed(() => {
           </div>
 
           <!-- Location -->
-          <div class="bg-white rounded-xl border p-6">
+          <div class="bg-background rounded-xl border p-6">
             <h3 class="text-lg font-bold mb-4">Location</h3>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
@@ -500,7 +500,7 @@ const eventArtists = computed(() => {
           <!-- Price Details -->
           <div
             v-if="event.type === 'workshop' && event.prices?.length"
-            class="bg-white rounded-xl border p-6"
+            class="bg-background rounded-xl border p-6"
           >
             <h3 class="text-lg font-bold mb-4">Pricing Options</h3>
             <div class="space-y-4">

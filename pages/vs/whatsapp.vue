@@ -130,7 +130,7 @@
             </ul>
           </div>
           <div
-            class="bg-white rounded-xl p-8 shadow-sm border-2 border-primary"
+            class="bg-background rounded-xl p-8 shadow-sm border-2 border-primary"
           >
             <div class="flex items-center gap-4 mb-6">
               <div
@@ -138,7 +138,7 @@
               >
                 <Icon
                   name="ph:heart-straight-fill"
-                  class="w-5 h-5 text-white"
+                  class="w-5 h-5 text-primary-foreground"
                 />
               </div>
               <h3 class="text-2xl font-semibold">WeDance Platform</h3>
@@ -268,7 +268,7 @@
             </NuxtLink>
           </Button>
         </div>
-        <div class="text-sm text-white/60 mt-4">
+        <div class="text-sm text-primary-foreground/60 mt-4">
           ⚡️ 2-minute setup • No credit card required
         </div>
       </div>

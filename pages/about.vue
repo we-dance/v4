@@ -119,7 +119,7 @@ const values = [
           <div
             v-for="feature in features"
             :key="feature.title"
-            class="bg-white rounded-lg shadow-sm p-6"
+            class="bg-background rounded-lg shadow-sm p-6"
           >
             <Icon :name="feature.icon" class="w-8 h-8 text-primary mb-3" />
             <h3 class="font-semibold text-foreground mb-2">
@@ -141,7 +141,7 @@ const values = [
           <div
             v-for="value in values"
             :key="value.title"
-            class="bg-white rounded-lg shadow-sm p-6"
+            class="bg-background rounded-lg shadow-sm p-6"
           >
             <h3 class="font-semibold text-foreground mb-2">
               {{ value.title }}
