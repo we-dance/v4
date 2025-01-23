@@ -65,7 +65,7 @@ const benefits = [
       <!-- Mission -->
       <section>
         <h2 class="text-2xl font-semibold mb-6">Our Mission</h2>
-        <div class="prose prose-slate max-w-none">
+        <div class="prose prose-muted max-w-none">
           <p>
             At WeDance, we're passionate about connecting dancers worldwide and
             making dance more accessible to everyone. We're building a platform
@@ -118,7 +118,7 @@ const benefits = [
       <!-- Values -->
       <section>
         <h2 class="text-2xl font-semibold mb-6">Our Values</h2>
-        <div class="prose prose-slate max-w-none">
+        <div class="prose prose-muted max-w-none">
           <ul>
             <li>
               <strong>Passion for Dance:</strong> We love dance and believe in

@@ -5,7 +5,7 @@
       Last updated: March 20, 2024
     </p>
 
-    <div class="prose prose-slate max-w-none">
+    <div class="prose prose-muted max-w-none">
       <section class="mb-12">
         <h2>Introduction</h2>
         <p>

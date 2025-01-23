@@ -6,7 +6,7 @@
       dance. These guidelines help maintain a positive environment for everyone.
     </p>
 
-    <div class="prose prose-slate max-w-none space-y-12">
+    <div class="prose prose-muted max-w-none space-y-12">
       <section>
         <h2>Core Values</h2>
         <ul>
