@@ -41,7 +41,7 @@ const getHSL = (name: string) => {
           'w-full h-full rounded-lg p-4',
           `bg-${name}`,
           name.includes('foreground')
-            ? `text-${name.replace('-foreground', '')}`
+            ? `text-${name.split('-')[0]}`
             : `text-${name}-foreground`,
         ]"
       >

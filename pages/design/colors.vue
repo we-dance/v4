@@ -3,6 +3,22 @@ definePageMeta({
   layout: "design",
 });
 
+/* Safelist:
+bg-background bg-foreground text-background text-foreground
+bg-primary bg-primary-foreground text-primary text-primary-foreground
+bg-secondary bg-secondary-foreground text-secondary text-secondary-foreground
+bg-accent bg-accent-foreground text-accent text-accent-foreground
+bg-muted bg-muted-foreground text-muted text-muted-foreground
+bg-destructive bg-destructive-foreground text-destructive text-destructive-foreground
+bg-success bg-success-foreground text-success text-success-foreground
+bg-warning bg-warning-foreground text-warning text-warning-foreground
+bg-info bg-info-foreground text-info text-info-foreground
+bg-card bg-card-foreground text-card text-card-foreground
+bg-popover bg-popover-foreground text-popover text-popover-foreground
+bg-border bg-input bg-ring text-border text-input text-ring
+bg-gradient-base bg-gradient-1 bg-gradient-2 bg-gradient-3
+*/
+
 const colorGroups = [
   {
     name: "Base",
