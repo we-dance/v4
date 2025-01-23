@@ -5,7 +5,6 @@ definePageMeta({
 
 import { mockPosts } from "~/data/mockPosts";
 import Post from "~/components/post/Post.vue";
-import { defineComponent, h } from "vue";
 
 // Example post
 const examplePost = mockPosts[0] as {
@@ -32,5 +31,9 @@ const ExampleInstance = defineComponent({
 </script>
 
 <template>
-  <ComponentDoc :component="Post" :example="ExampleInstance" />
+  <ComponentDoc
+    about="The Post component is used to display a single post in a social media platform."
+    :component="Post"
+    :example="ExampleInstance"
+  />
 </template>

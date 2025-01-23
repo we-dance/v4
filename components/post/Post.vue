@@ -1,24 +1,4 @@
 <script setup lang="ts">
-/**
- * A versatile component for displaying various types of content like events, classes, venues, and social posts.
- * Supports dynamic loading of different post types with loading and error states.
- *
- * @introduction
- * Post component is a versatile building block used to display various types of content like events, classes, venues, and social posts.
- * It supports dynamic loading of different post types with loading and error states.
- *
- * @example Basic Usage ---
- * <Post :post="post" :standalone="false" />
- * --- { "post": { "type": "note", "content": { "text": "Hello World" } } }
- *
- * @feature Dynamic Post Types - Supports different post types with async loading
- * @feature Loading States - Shows skeleton loading state while content is being loaded
- * @feature Error Handling - Gracefully handles and displays errors with ErrorBoundary
- * @feature Modal Support - Opens post details in a modal when clicked (unless standalone)
- *
- * @event update:open - Emitted when the modal is opened or closed
- */
-
 import type { Post } from "~/schemas/post";
 import { defineAsyncComponent, type Component } from "vue";
 import PostSkeleton from "../common/PostSkeleton.vue";
