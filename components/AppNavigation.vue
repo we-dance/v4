@@ -46,7 +46,7 @@ watch(
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
             <NuxtLink to="/">
-              <img src="/logo.svg" alt="WeDance" class="h-10" />
+              <WeDanceLogo />
             </NuxtLink>
           </div>
         </div>
@@ -59,8 +59,8 @@ watch(
             class="flex items-center gap-2 transition-colors"
             :class="[
               route.path === item.to
-                ? 'text-accent'
-                : 'text-muted-foreground hover:text-accent',
+                ? 'text-primary'
+                : 'text-muted-foreground hover:text-primary',
             ]"
           >
             <Icon :name="item.icon" class="h-4 w-4" />
