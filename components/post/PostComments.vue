@@ -81,7 +81,7 @@ const scrollToComment = (commentId: number) => {
 
 <template>
   <div class="mt-6 space-y-6">
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+    <div class="bg-background rounded-lg shadow-sm border border-border p-4">
       <form @submit.prevent="addComment" class="flex gap-4">
         <img
           src="https://images.unsplash.com/photo-1517841905240-472988babdf9"
@@ -90,15 +90,15 @@ const scrollToComment = (commentId: number) => {
         />
         <div class="flex-1">
           <div v-if="replyingTo" class="mb-2 flex items-center justify-between">
-            <span class="text-sm text-gray-500">
+            <span class="text-sm text-muted-foreground">
               Replying to
-              <span class="font-medium text-gray-700">{{
+              <span class="font-medium text-foreground">{{
                 replyingTo.author.name
               }}</span>
             </span>
             <button
               @click="cancelReply"
-              class="text-sm text-gray-500 hover:text-gray-700"
+              class="text-sm text-muted-foreground hover:text-foreground"
             >
               Cancel
             </button>
@@ -109,7 +109,7 @@ const scrollToComment = (commentId: number) => {
             :placeholder="
               replyingTo ? 'Write a reply...' : 'Write a comment...'
             "
-            class="w-full px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+            class="w-full px-3 py-2 text-foreground border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-ring resize-none bg-background"
           />
           <div class="mt-2 flex justify-end">
             <Button type="submit" :disabled="!newComment.trim()">
@@ -125,7 +125,7 @@ const scrollToComment = (commentId: number) => {
         v-for="comment in comments"
         :key="comment.id"
         :id="'comment-' + comment.id"
-        class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 transition-colors duration-500"
+        class="bg-background rounded-lg shadow-sm border border-border p-4 transition-colors duration-500"
       >
         <div class="flex gap-4">
           <img
@@ -136,20 +136,24 @@ const scrollToComment = (commentId: number) => {
           <div class="flex-1">
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-2">
-                <h3 class="font-semibold">{{ comment.author.name }}</h3>
+                <h3 class="font-semibold text-foreground">
+                  {{ comment.author.name }}
+                </h3>
                 <UserPoints :points="comment.author.points" />
               </div>
-              <span class="text-sm text-gray-500">{{ comment.timestamp }}</span>
+              <span class="text-sm text-muted-foreground">{{
+                comment.timestamp
+              }}</span>
             </div>
             <div v-if="comment.replyTo" class="mt-1">
               <button
                 @click="scrollToComment(comment.replyTo.id)"
-                class="text-sm text-gray-500 hover:text-gray-700"
+                class="text-sm text-muted-foreground hover:text-foreground"
               >
                 Replying to {{ comment.replyTo.authorName }}
               </button>
             </div>
-            <p class="mt-1 text-gray-700 whitespace-pre-wrap">
+            <p class="mt-1 text-foreground whitespace-pre-wrap">
               {{ comment.text }}
             </p>
             <div class="mt-2 flex items-center gap-4">
@@ -158,8 +162,8 @@ const scrollToComment = (commentId: number) => {
                 class="flex items-center gap-1 text-sm"
                 :class="
                   comment.isLiked
-                    ? 'text-blue-500'
-                    : 'text-gray-500 hover:text-gray-700'
+                    ? 'text-primary'
+                    : 'text-muted-foreground hover:text-foreground'
                 "
               >
                 <Icon
@@ -174,7 +178,7 @@ const scrollToComment = (commentId: number) => {
               </button>
               <button
                 @click="startReply(comment)"
-                class="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700"
+                class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
               >
                 <Icon
                   name="heroicons:chat-bubble-left-ellipsis"
