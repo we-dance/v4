@@ -192,7 +192,7 @@
         <!-- Right Column -->
         <div class="lg:w-[420px]">
           <div
-            class="bg-white border rounded-xl shadow-sm overflow-hidden sticky top-24"
+            class="bg-white border border-muted rounded-xl shadow-sm overflow-hidden sticky top-24"
           >
             <div class="p-6">
               <!-- Success Story -->
@@ -225,7 +225,7 @@
   </div>
 
   <!-- Navigation Tabs -->
-  <div class="border-b">
+  <div class="border-b border-muted">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <nav class="flex space-x-8 overflow-x-auto">
         <a
@@ -330,7 +330,7 @@
                 <div class="flex items-center gap-4 opacity-50">
                   <div class="bg-muted p-2 rounded-full">
                     <svg
-                      class="w-6 h-6 text-foreground-muted"
+                      class="w-6 h-6 text-muted-foreground"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -345,11 +345,11 @@
                   </div>
                   <div class="flex-1">
                     <div class="font-medium">Advanced Patterns</div>
-                    <div class="text-sm text-foreground-muted">
+                    <div class="text-sm text-muted-foreground">
                       Complex combinations and styling
                     </div>
                   </div>
-                  <span class="text-foreground-muted text-sm">Locked</span>
+                  <span class="text-muted-foreground text-sm">Locked</span>
                 </div>
               </div>
             </div>

@@ -473,7 +473,7 @@ const handleSubmit = async () => {
     <div class="text-center">
       <Icon
         :name="type === 'event' ? 'ph:calendar-x' : 'ph:video-camera-slash'"
-        class="w-16 h-16 text-foreground-muted mx-auto mb-4"
+        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
       />
       <h2 class="text-2xl font-bold text-foreground mb-2">
         {{ type === "event" ? "Event" : "Course" }} Not Found

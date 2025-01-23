@@ -50,7 +50,7 @@ const levels = [
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl md:text-5xl font-bold mb-6">Cuban Salsa</h1>
-          <p class="text-xl text-foreground-muted mb-8 max-w-3xl mx-auto">
+          <p class="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             Discover the vibrant and energetic style of Cuban Salsa,
             characterized by its circular movements, African influences, and
             rich cultural heritage.
@@ -76,7 +76,7 @@ const levels = [
               <Icon :name="feature.icon" class="w-12 h-12 text-primary" />
             </div>
             <h3 class="text-lg font-bold mb-2">{{ feature.title }}</h3>
-            <p class="text-foreground-muted">{{ feature.description }}</p>
+            <p class="text-muted-foreground">{{ feature.description }}</p>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ const levels = [
               <li
                 v-for="move in level.moves"
                 :key="move"
-                class="flex items-center gap-2 text-foreground-muted"
+                class="flex items-center gap-2 text-muted-foreground"
               >
                 <Icon name="ph:check-circle" class="w-5 h-5 text-primary" />
                 {{ move }}
@@ -112,7 +112,7 @@ const levels = [
     <div class="py-12 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold mb-6">Ready to Start Learning?</h2>
-        <p class="text-xl text-foreground-muted mb-8 max-w-2xl mx-auto">
+        <p class="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Join our community and start your Cuban Salsa journey today.
         </p>
         <Button variant="default" size="lg">Find Local Classes</Button>
