@@ -78,6 +78,42 @@ const values = [
       "Building a platform that supports long-term community growth and artist success",
   },
 ];
+
+const team = [
+  {
+    name: "Alex Razbakov",
+    role: "Founder",
+    photo: "/team/alex.jpg",
+    links: {
+      twitter: "https://twitter.com/razbakov",
+      github: "https://github.com/razbakov",
+      linkedin: "https://www.linkedin.com/in/razbakov/",
+    },
+  },
+  {
+    name: "Egor Kruglov",
+    role: "Developer",
+    photo: "/team/egor.jpg",
+    links: {
+      github: "https://github.com/KindImagination",
+      telegram: "https://t.me/Ek92020",
+      linkedin: "https://www.linkedin.com/in/egor-kruglov-28a6b5239/",
+    },
+  },
+  {
+    name: "Aina Kaiser",
+    role: "Community Manager",
+    photo: "/team/aina.jpg",
+    links: {
+      telegram: "https://t.me/Aina_G_K",
+    },
+  },
+  {
+    name: "Anja Sophie",
+    role: "Community Manager",
+    photo: "/team/anja.jpg",
+  },
+];
 </script>
 
 <template>
@@ -147,6 +183,64 @@ const values = [
               {{ value.title }}
             </h3>
             <p class="text-muted-foreground text-sm">{{ value.description }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team -->
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-foreground text-center mb-8">
+          Our Team
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div v-for="member in team" :key="member.name" class="text-center">
+            <div class="mb-4">
+              <img
+                :src="member.photo"
+                :alt="member.name"
+                class="w-32 h-32 rounded-full mx-auto object-cover"
+              />
+            </div>
+            <h3 class="font-semibold text-foreground mb-1">
+              {{ member.name }}
+            </h3>
+            <p class="text-muted-foreground text-sm mb-2">
+              {{ member.role }}
+            </p>
+            <div class="flex justify-center gap-3">
+              <a
+                v-if="member.links?.twitter"
+                :href="member.links.twitter"
+                target="_blank"
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Icon name="ph:x-logo" class="w-5 h-5" />
+              </a>
+              <a
+                v-if="member.links?.github"
+                :href="member.links.github"
+                target="_blank"
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Icon name="ph:github-logo" class="w-5 h-5" />
+              </a>
+              <a
+                v-if="member.links?.linkedin"
+                :href="member.links.linkedin"
+                target="_blank"
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Icon name="ph:linkedin-logo" class="w-5 h-5" />
+              </a>
+              <a
+                v-if="member.links?.telegram"
+                :href="member.links.telegram"
+                target="_blank"
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Icon name="ph:telegram-logo" class="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
