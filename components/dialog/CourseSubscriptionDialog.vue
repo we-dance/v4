@@ -58,15 +58,15 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
   <div class="space-y-4 py-4">
     <!-- Interval Toggle -->
     <div class="flex justify-center gap-4 items-center mb-6">
-      <span :class="{ 'text-purple-600 font-medium': !isAnnual }">Monthly</span>
+      <span :class="{ 'text-primary font-medium': !isAnnual }">Monthly</span>
       <Switch
         :checked="isAnnual"
         @update:checked="isAnnual = $event"
-        class="data-[state=checked]:bg-purple-600"
+        class="data-[state=checked]:bg-primary"
       />
-      <span :class="{ 'text-purple-600 font-medium': isAnnual }">
+      <span :class="{ 'text-primary font-medium': isAnnual }">
         Annual
-        <span class="text-sm text-green-600 ml-1"
+        <span class="text-sm text-accent ml-1"
           >Save up to {{ maxSavings }}%</span
         >
       </span>
@@ -81,9 +81,9 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     >
       <div class="flex items-center gap-3">
         <div
-          class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+          class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
         >
-          <Icon name="ph:sparkle" class="w-4 h-4 text-purple-600" />
+          <Icon name="ph:sparkle" class="w-4 h-4 text-primary" />
         </div>
         <div class="text-left">
           <div class="font-medium">Free Trial</div>
@@ -93,7 +93,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
         </div>
       </div>
       <div class="text-right">
-        <div class="font-bold text-purple-600">Free</div>
+        <div class="font-bold text-primary">Free</div>
         <div class="text-sm text-muted-foreground">No credit card</div>
       </div>
     </Button>
@@ -111,9 +111,9 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     >
       <div class="flex items-center gap-3">
         <div
-          class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+          class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
         >
-          <Icon name="ph:star" class="w-4 h-4 text-purple-600" />
+          <Icon name="ph:star" class="w-4 h-4 text-primary" />
         </div>
         <div class="text-left flex-1">
           <div class="font-medium">Regular Plan</div>
@@ -126,7 +126,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
             >
               <Icon
                 name="ph:check"
-                class="w-3.5 h-3.5 text-green-600 flex-shrink-0"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
               {{ feature }}
             </li>
@@ -165,9 +165,9 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     >
       <div class="flex items-center gap-3">
         <div
-          class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+          class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
         >
-          <Icon name="ph:crown" class="w-4 h-4 text-purple-600" />
+          <Icon name="ph:crown" class="w-4 h-4 text-primary" />
         </div>
         <div class="text-left flex-1">
           <div class="font-medium">Premium Plan</div>
@@ -178,7 +178,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
             <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
-                class="w-3.5 h-3.5 text-green-600 flex-shrink-0"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
               Everything in Regular
             </li>
@@ -191,7 +191,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
             >
               <Icon
                 name="ph:check"
-                class="w-3.5 h-3.5 text-green-600 flex-shrink-0"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
               {{ feature }}
             </li>
