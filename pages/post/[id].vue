@@ -23,7 +23,7 @@ const goBack = () => {
     <div class="flex items-center gap-2 mb-4">
       <button
         @click="goBack"
-        class="flex items-center text-gray-500 hover:text-gray-700"
+        class="flex items-center text-muted-foreground hover:text-foreground"
       >
         <Icon name="heroicons:arrow-left" class="w-6 h-6" />
       </button>
@@ -31,7 +31,7 @@ const goBack = () => {
     </div>
     <PostView v-if="post" :post="post" />
     <div v-else class="text-center py-8">
-      <p class="text-gray-500">Post not found</p>
+      <p class="text-muted-foreground">Post not found</p>
     </div>
   </div>
 </template>

@@ -100,15 +100,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>First month free</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Price lock guarantee</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority early bird rates</span>
                 </li>
               </ul>
@@ -128,15 +128,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Verified Founding Member badge</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority in search results</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Featured listings</span>
                 </li>
               </ul>
@@ -156,15 +156,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Beta testing of new features</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority access to new tools</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Exclusive previews</span>
                 </li>
               </ul>
@@ -184,15 +184,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Feature voting rights</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Direct dev team access</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Strategy participation</span>
                 </li>
               </ul>
@@ -212,15 +212,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Free newsletter promotion</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Featured blog stories</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Social media spotlight</span>
                 </li>
               </ul>
@@ -240,15 +240,15 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Private community access</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Exclusive events</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority partnerships</span>
                 </li>
               </ul>
@@ -277,19 +277,19 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Featured spotlights</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority bookings</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Profile optimization</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Promotional features</span>
                 </li>
               </ul>
@@ -304,19 +304,19 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Enhanced profiles</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority recommendations</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Free photography</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Premium listings</span>
                 </li>
               </ul>
@@ -331,19 +331,19 @@
             <CardContent>
               <ul class="space-y-2">
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Enhanced promotion</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Priority listings</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Free consultation</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Icon name="ph:check" class="w-5 h-5 text-green-500" />
+                  <Icon name="ph:check" class="w-5 h-5 text-success" />
                   <span>Special ticketing rates</span>
                 </li>
               </ul>
