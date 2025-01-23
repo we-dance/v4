@@ -10,9 +10,3 @@
     <CookieConsent />
   </div>
 </template>
-
-<script setup lang="ts">
-import PrototypeBanner from "@/components/PrototypeBanner.vue";
-import DialogProvider from "~/components/dialog/DialogProvider.vue";
-import CookieConsent from "~/components/CookieConsent.vue";
-</script>
