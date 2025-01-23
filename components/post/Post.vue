@@ -1,15 +1,39 @@
 <script setup lang="ts">
+/**
+ * A versatile component for displaying various types of content like events, classes, venues, and social posts.
+ * Supports dynamic loading of different post types with loading and error states.
+ *
+ * @introduction
+ * Post component is a versatile building block used to display various types of content like events, classes, venues, and social posts.
+ * It supports dynamic loading of different post types with loading and error states.
+ *
+ * @example Basic Usage ---
+ * <Post :post="post" :standalone="false" />
+ * --- { "post": { "type": "note", "content": { "text": "Hello World" } } }
+ *
+ * @feature Dynamic Post Types - Supports different post types with async loading
+ * @feature Loading States - Shows skeleton loading state while content is being loaded
+ * @feature Error Handling - Gracefully handles and displays errors with ErrorBoundary
+ * @feature Modal Support - Opens post details in a modal when clicked (unless standalone)
+ *
+ * @event update:open - Emitted when the modal is opened or closed
+ */
+
 import type { Post } from "~/schemas/post";
-import { defineAsyncComponent } from "vue";
+import { defineAsyncComponent, type Component } from "vue";
 import PostSkeleton from "../common/PostSkeleton.vue";
 import ErrorBoundary from "../common/ErrorBoundary.vue";
 
 const NuxtLink = resolveComponent("NuxtLink");
 
-const props = defineProps<{
+interface Props {
+  /** The post data including author, content, and stats */
   post: Post;
+  /** Whether the post is displayed standalone or in a list */
   standalone?: boolean;
-}>();
+}
+
+const props = defineProps<Props>();
 
 const { components, getComponentName } = usePostComponent();
 const route = useRoute();
@@ -19,7 +43,10 @@ const getAsyncComponent = (type: Post["type"]) => {
   const component = components[componentName];
 
   return defineAsyncComponent({
-    loader: () => component(),
+    loader: async () => {
+      const comp = await component();
+      return comp as Component;
+    },
     loadingComponent: PostSkeleton,
     errorComponent: ErrorBoundary,
   });
@@ -62,13 +89,13 @@ function closeModal() {
           >
             <component
               :is="getAsyncComponent(post.type)"
-              :content="post.content"
+              :content="post.content as any"
             />
           </a>
           <div v-else class="block">
             <component
               :is="getAsyncComponent(post.type)"
-              :content="post.content"
+              :content="post.content as any"
             />
           </div>
         </template>
