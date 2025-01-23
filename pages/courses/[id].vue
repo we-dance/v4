@@ -106,7 +106,7 @@ const handleSubscribe = () => {
                     v-for="lesson in module.lessons"
                     :key="lesson.id"
                     @click="selectLesson(lesson)"
-                    class="flex items-center gap-3 p-2 rounded hover:bg-accent cursor-pointer"
+                    class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
                     :class="{
                       'bg-accent/10': currentLesson.id === lesson.id,
                     }"
@@ -153,7 +153,7 @@ const handleSubscribe = () => {
                 <li
                   v-for="material in course.materials"
                   :key="material.id"
-                  class="flex items-center gap-3 p-2 rounded hover:bg-accent cursor-pointer"
+                  class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
                 >
                   <Icon
                     :name="material.icon"
@@ -377,7 +377,7 @@ const handleSubscribe = () => {
 
                 <Button
                   class="w-full"
-                  variant="default"
+                  variant="primary"
                   @click="handleSubscribe"
                 >
                   View Pricing Plans
@@ -407,7 +407,7 @@ const handleSubscribe = () => {
                 {{ course.instructor.privateClass.duration }} minutes private
                 lesson
               </p>
-              <Button class="w-full" variant="default" as-child>
+              <Button class="w-full" variant="primary" as-child>
                 <NuxtLink
                   :to="`/checkout/${route.params.id}?type=private&instructor=${course.instructor.id}`"
                 >
