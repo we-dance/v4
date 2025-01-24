@@ -45,8 +45,8 @@ watch(
       <div class="flex justify-between h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
-            <NuxtLink to="/">
-              <img src="/logo.svg" alt="WeDance" class="h-10" />
+            <NuxtLink to="/" id="logo">
+              <WeDanceLogo class="h-10" />
             </NuxtLink>
           </div>
         </div>
