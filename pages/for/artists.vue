@@ -1,444 +1,174 @@
 <template>
-  <div>
-    <!-- Hero Section -->
-    <div class="relative min-h-[80vh] flex items-center overflow-hidden">
-      <GradientBackground />
+  <LandingHeroFeatures
+    badge="Early Access"
+    badgeIcon="ph:sparkle"
+    title="The Future of Dance Business"
+    description="Be among the first artists to join our platform. Create online courses, get bookings, and grow your dance business globally."
+    primaryText="Join Early Access"
+    primaryLink="/register"
+    secondaryText="How It Works"
+    secondaryLink="/courses/1"
+    :features="[
+      { icon: 'ph:check-circle', text: '5-minute setup' },
+      { icon: 'ph:crown', text: 'Founding member benefits' },
+      { icon: 'ph:star', text: 'First month free' }
+    ]"
+    :cards="[
+      {
+        icon: 'ph:video-camera',
+        title: 'Online Courses',
+        description: 'Create and sell dance courses to students worldwide'
+      },
+      {
+        icon: 'ph:users-three',
+        title: 'Private Classes',
+        description: 'Get booked for private lessons and workshops'
+      },
+      {
+        icon: 'ph:ticket',
+        title: 'Festival Gigs',
+        description: 'Perform and teach at international festivals'
+      },
+      {
+        icon: 'ph:chart-line',
+        title: 'Business Tools',
+        description: 'Everything you need to grow your dance business'
+      }
+    ]"
+  />
 
-      <!-- Content -->
-      <div class="relative w-full py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <!-- Left: Content -->
-            <div class="text-center lg:text-left">
-              <div
-                class="flex items-center justify-center lg:justify-start gap-2 text-primary-foreground/80 mb-4"
-              >
-                <Badge>
-                  <Icon name="ph:sparkle" class="w-4 h-4 mr-1" />
-                  Early Access
-                </Badge>
-              </div>
-              <h1
-                class="text-4xl lg:text-7xl font-extrabold text-primary tracking-tight mb-6"
-              >
-                The Future of Dance Business
-              </h1>
-              <p
-                class="text-xl text-primary/80 mb-8 max-w-2xl mx-auto lg:mx-0"
-              >
-                Be among the first artists to join our platform. Create online
-                courses, get bookings, and grow your dance business globally.
-              </p>
-              <div
-                class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start"
-              >
-                <Button size="lg" variant="primary" as-child>
-                  <NuxtLink to="/register">
-                    Join Early Access
-                    <Icon name="ph:arrow-right" class="w-5 h-5" />
-                  </NuxtLink>
-                </Button>
-                <Button size="lg" variant="secondary" as-child>
-                  <NuxtLink to="/courses/1">
-                    How It Works
-                    <Icon name="ph:play-circle" class="w-5 h-5" />
-                  </NuxtLink>
-                </Button>
-              </div>
-              <div
-                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-primary/80"
-              >
-                <div class="flex items-center gap-2">
-                  <Icon name="ph:check-circle" class="w-5 h-5 text-success" />
-                  <span>5-minute setup</span>
-                </div>
-                <div class="flex items-center gap-2">
-                  <Icon name="ph:crown" class="w-5 h-5 text-success" />
-                  <span>Founding member benefits</span>
-                </div>
-                <div class="flex items-center gap-2">
-                  <Icon name="ph:star" class="w-5 h-5 text-success" />
-                  <span>First month free</span>
-                </div>
-              </div>
-            </div>
+  <LandingPricing
+    title="Simple & Transparent Pricing"
+    description="No hidden fees. No monthly charges. Only pay when you earn."
+    :plans="[
+      {
+        icon: 'ph:video-camera',
+        title: 'Pre-recorded Courses',
+        features: [
+          'Create unlimited courses',
+          'Set your own prices',
+          'Reach global audience'
+        ],
+        price: '30%',
+        unit: 'per sale'
+      },
+      {
+        icon: 'ph:users-three',
+        title: 'Live Classes',
+        features: [
+          'Host Zoom classes',
+          'Automatic ticketing',
+          'Manage registrations'
+        ],
+        price: '€0.25',
+        unit: 'per ticket'
+      },
+      {
+        icon: 'ph:calendar-check',
+        title: 'Private Bookings',
+        features: [
+          'Private classes',
+          'Festival performances',
+          'Workshop bookings'
+        ],
+        price: '5%',
+        unit: 'per booking'
+      }
+    ]"
+    footer="All fees include payment processing, hosting, and platform tools. Get paid directly to your bank account every week."
+  />
 
-            <!-- Right: Value Proposition -->
-            <div class="grid grid-cols-2 gap-6">
-              <div
-                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
-              >
-                <Icon
-                  name="ph:video-camera"
-                  class="w-8 h-8 text-primary/80 mb-4"
-                />
-                <div class="text-xl font-bold text-primary mb-2">
-                  Online Courses
-                </div>
-                <div class="text-primary/80">
-                  Create and sell dance courses to students worldwide
-                </div>
-              </div>
-              <div
-                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
-              >
-                <Icon
-                  name="ph:users-three"
-                  class="w-8 h-8 text-primary/80 mb-4"
-                />
-                <div class="text-xl font-bold text-primary mb-2">
-                  Private Classes
-                </div>
-                <div class="text-primary/80">
-                  Get booked for private lessons and workshops
-                </div>
-              </div>
-              <div
-                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
-              >
-                <Icon
-                  name="ph:ticket"
-                  class="w-8 h-8 text-primary/80 mb-4"
-                />
-                <div class="text-xl font-bold text-primary mb-2">
-                  Festival Gigs
-                </div>
-                <div class="text-primary/80">
-                  Perform and teach at international festivals
-                </div>
-              </div>
-              <div
-                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
-              >
-                <Icon
-                  name="ph:chart-line"
-                  class="w-8 h-8 text-primary/80 mb-4"
-                />
-                <div class="text-xl font-bold text-primary mb-2">
-                  Business Tools
-                </div>
-                <div class="text-primary/80">
-                  Everything you need to grow your dance business
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <LandingTools
+    title="All-in-One Platform"
+    description="Everything you need to run your dance business professionally"
+    :tools="[
+      {
+        icon: 'ph:video-camera',
+        title: 'Course Creator',
+        description: 'Professional video hosting, curriculum builder, and student progress tracking'
+      },
+      {
+        icon: 'ph:credit-card',
+        title: 'Payment System',
+        description: 'Secure payments, automatic payouts, and financial reporting'
+      },
+      {
+        icon: 'ph:users-three',
+        title: 'Student Portal',
+        description: 'Student profiles, messaging, and progress tracking'
+      },
+      {
+        icon: 'ph:calendar',
+        title: 'Booking Calendar',
+        description: 'Smart scheduling, availability management, and reminders'
+      },
+      {
+        icon: 'ph:chart-line',
+        title: 'Analytics',
+        description: 'Revenue tracking, student engagement, and growth insights'
+      },
+      {
+        icon: 'ph:storefront',
+        title: 'Marketing Suite',
+        description: 'SEO optimization, social sharing, and promotional tools'
+      }
+    ]"
+  />
 
-    <!-- Revenue Streams Section -->
-    <section class="py-16 bg-background">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center mb-4">
-          Simple & Transparent Pricing
-        </h2>
-        <p
-          class="text-xl text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
-        >
-          No hidden fees. No monthly charges. Only pay when you earn.
-        </p>
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-background rounded-xl p-8">
-            <Icon name="ph:video-camera" class="w-12 h-12 text-accent mb-6" />
-            <h3 class="text-xl font-semibold mb-4">Pre-recorded Courses</h3>
-            <ul class="space-y-3 text-muted-foreground">
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Create unlimited courses</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Set your own prices</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Reach global audience</span>
-              </li>
-            </ul>
-            <div class="mt-6 pt-6 border-muted">
-              <div class="text-sm text-muted-foreground">Platform fee</div>
-              <div class="text-3xl font-bold text-accent">30%</div>
-              <div class="text-sm text-muted-foreground mt-1">per sale</div>
-            </div>
-          </div>
+  <LandingTestimonials
+    title="Join Our Vision"
+    description="Be among the first artists to shape the future of dance education"
+    :testimonials="[
+      {
+        title: 'For Dance Teachers',
+        subtitle: 'Create & Sell Courses',
+        quote: 'I\'m excited about the opportunity to reach students worldwide with my online courses. The platform makes it easy to start with zero tech experience.',
+        highlight: '🎓 Pre-recorded & live classes'
+      },
+      {
+        title: 'For Performers',
+        subtitle: 'Get More Bookings',
+        quote: 'Looking forward to a platform that helps me manage bookings and grow my performance career. The tools look perfect for professional artists.',
+        highlight: '🎭 Private & festival bookings'
+      },
+      {
+        title: 'For Studio Owners',
+        subtitle: 'Grow Your Business',
+        quote: 'Can\'t wait to use the business tools to streamline my studio operations and reach new students in my area.',
+        highlight: '🏢 Complete business solution'
+      }
+    ]"
+  />
 
-          <div class="bg-background rounded-xl p-8">
-            <Icon name="ph:users-three" class="w-12 h-12 text-accent mb-6" />
-            <h3 class="text-xl font-semibold mb-4">Live Classes</h3>
-            <ul class="space-y-3 text-muted-foreground">
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Host Zoom classes</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Automatic ticketing</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Manage registrations</span>
-              </li>
-            </ul>
-            <div class="mt-6 pt-6 border-muted">
-              <div class="text-sm text-muted-foreground">Platform fee</div>
-              <div class="text-3xl font-bold text-accent">€0.25</div>
-              <div class="text-sm text-muted-foreground mt-1">per ticket</div>
-            </div>
-          </div>
+  <LandingComparison
+    title="Why Choose WeDance?"
+    description="See how WeDance compares to platforms you might be using today"
+    :items="[
+      {
+        icon: 'ph:instagram-logo',
+        title: 'vs Instagram',
+        description: 'Better reach and direct student engagement vs social media algorithms',
+        link: '/vs/instagram'
+      },
+      {
+        icon: 'ph:student',
+        title: 'vs Skool',
+        description: 'Dance-specific features vs general course platform',
+        link: '/vs/skool'
+      },
+      {
+        icon: 'ph:ticket',
+        title: 'vs TicketTailor',
+        description: 'Specialized dance event tools vs generic ticketing',
+        link: '/vs/tickettailor'
+      }
+    ]"
+  />
 
-          <div class="bg-background rounded-xl p-8">
-            <Icon name="ph:calendar-check" class="w-12 h-12 text-accent mb-6" />
-            <h3 class="text-xl font-semibold mb-4">Private Bookings</h3>
-            <ul class="space-y-3 text-muted-foreground">
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Private classes</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Festival performances</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <Icon
-                  name="ph:check-circle"
-                  class="w-5 h-5 text-success mt-1 shrink-0"
-                />
-                <span>Workshop bookings</span>
-              </li>
-            </ul>
-            <div class="mt-6 pt-6 border-muted">
-              <div class="text-sm text-muted-foreground">Platform fee</div>
-              <div class="text-3xl font-bold text-accent">5%</div>
-              <div class="text-sm text-muted-foreground mt-1">per booking</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mt-12 text-center">
-          <p class="text-sm text-muted-foreground max-w-2xl mx-auto">
-            All fees include payment processing, hosting, and platform tools.
-            Get paid directly to your bank account every week.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tools Section -->
-    <section class="py-16 bg-background">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center mb-4">All-in-One Platform</h2>
-        <p
-          class="text-xl text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
-        >
-          Everything you need to run your dance business professionally
-        </p>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="p-6 bg-background rounded-xl">
-            <Icon name="ph:video-camera" class="w-8 h-8 text-accent mb-4" />
-            <h3 class="text-xl font-semibold mb-2">Course Creator</h3>
-            <p class="text-muted-foreground">
-              Professional video hosting, curriculum builder, and student
-              progress tracking
-            </p>
-          </div>
-          <div class="p-6 bg-background rounded-xl">
-            <Icon name="ph:credit-card" class="w-8 h-8 text-accent mb-4" />
-            <h3 class="text-xl font-semibold mb-2">Payment System</h3>
-            <p class="text-muted-foreground">
-              Secure payments, automatic payouts, and financial reporting
-            </p>
-          </div>
-          <div class="p-6 bg-background rounded-xl">
-            <Icon name="ph:users-three" class="w-8 h-8 text-accent mb-4" />
-            <h3 class="text-xl font-semibold mb-2">Student Portal</h3>
-            <p class="text-muted-foreground">
-              Student profiles, messaging, and progress tracking
-            </p>
-          </div>
-          <div class="p-6 bg-background rounded-xl">
-            <Icon name="ph:calendar" class="w-8 h-8 text-accent mb-4" />
-            <h3 class="text-xl font-semibold mb-2">Booking Calendar</h3>
-            <p class="text-muted-foreground">
-              Smart scheduling, availability management, and reminders
-            </p>
-          </div>
-          <div class="p-6 bg-background rounded-xl">
-            <Icon name="ph:chart-line" class="w-8 h-8 text-accent mb-4" />
-            <h3 class="text-xl font-semibold mb-2">Analytics</h3>
-            <p class="text-muted-foreground">
-              Revenue tracking, student engagement, and growth insights
-            </p>
-          </div>
-          <div class="p-6 bg-background rounded-xl">
-            <Icon name="ph:storefront" class="w-8 h-8 text-accent mb-4" />
-            <h3 class="text-xl font-semibold mb-2">Marketing Suite</h3>
-            <p class="text-muted-foreground">
-              SEO optimization, social sharing, and promotional tools
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Social Proof -->
-    <section class="py-16 bg-background">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center mb-4">Join Our Vision</h2>
-        <p
-          class="text-xl text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
-        >
-          Be among the first artists to shape the future of dance education
-        </p>
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-background rounded-xl p-8">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-accent/10 rounded-full"></div>
-              <div>
-                <div class="font-semibold">For Dance Teachers</div>
-                <div class="text-muted-foreground">Create & Sell Courses</div>
-              </div>
-            </div>
-            <p class="text-muted-foreground mb-4">
-              "I'm excited about the opportunity to reach students worldwide
-              with my online courses. The platform makes it easy to start with
-              zero tech experience."
-            </p>
-            <div class="text-sm text-accent font-medium">
-              🎓 Pre-recorded & live classes
-            </div>
-          </div>
-          <div class="bg-background rounded-xl p-8">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-accent/10 rounded-full"></div>
-              <div>
-                <div class="font-semibold">For Performers</div>
-                <div class="text-muted-foreground">Get More Bookings</div>
-              </div>
-            </div>
-            <p class="text-muted-foreground mb-4">
-              "Looking forward to a platform that helps me manage bookings and
-              grow my performance career. The tools look perfect for
-              professional artists."
-            </p>
-            <div class="text-sm text-accent font-medium">
-              🎭 Private & festival bookings
-            </div>
-          </div>
-          <div class="bg-background rounded-xl p-8">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 bg-accent/10 rounded-full"></div>
-              <div>
-                <div class="font-semibold">For Studio Owners</div>
-                <div class="text-muted-foreground">Grow Your Business</div>
-              </div>
-            </div>
-            <p class="text-muted-foreground mb-4">
-              "Can't wait to use the business tools to streamline my studio
-              operations and reach new students in my area."
-            </p>
-            <div class="text-sm text-accent font-medium">
-              🏢 Complete business solution
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Comparison Section -->
-    <section class="py-16 bg-background">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center mb-4">Why Choose WeDance?</h2>
-        <p
-          class="text-xl text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
-        >
-          See how WeDance compares to platforms you might be using today
-        </p>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <NuxtLink to="/vs/instagram" class="group">
-            <div
-              class="bg-background rounded-xl p-8 hover:bg-accent/10 transition-colors"
-            >
-              <div class="flex items-center gap-4 mb-4">
-                <Icon name="ph:instagram-logo" class="w-8 h-8 text-accent" />
-                <h3 class="text-2xl font-semibold">vs Instagram</h3>
-              </div>
-              <p class="text-muted-foreground">
-                Better reach and direct student engagement vs social media
-                algorithms
-              </p>
-            </div>
-          </NuxtLink>
-
-          <NuxtLink to="/vs/skool" class="group">
-            <div
-              class="bg-background rounded-xl p-8 hover:bg-accent/10 transition-colors"
-            >
-              <div class="flex items-center gap-4 mb-4">
-                <Icon name="ph:student" class="w-8 h-8 text-accent" />
-                <h3 class="text-2xl font-semibold">vs Skool</h3>
-              </div>
-              <p class="text-muted-foreground">
-                Dance-specific features vs general course platform
-              </p>
-            </div>
-          </NuxtLink>
-
-          <NuxtLink to="/vs/tickettailor" class="group">
-            <div
-              class="bg-background rounded-xl p-8 hover:bg-accent/10 transition-colors"
-            >
-              <div class="flex items-center gap-4 mb-4">
-                <Icon name="ph:ticket" class="w-8 h-8 text-accent" />
-                <h3 class="text-2xl font-semibold">vs TicketTailor</h3>
-              </div>
-              <p class="text-muted-foreground">
-                Specialized dance event tools vs generic ticketing
-              </p>
-            </div>
-          </NuxtLink>
-        </div>
-
-        <div class="mt-8 text-center">
-          <Button variant="outline" as-child>
-            <NuxtLink to="/vs" class="flex items-center justify-center gap-2">
-              See All Comparisons
-              <Icon name="ph:arrow-right" class="w-5 h-5" />
-            </NuxtLink>
-          </Button>
-        </div>
-      </div>
-    </section>
-
-    <LandingGetStarted
-      title="Be Among the First Artists"
-      description="Join now and get exclusive founding member benefits"
-      secondary="Founding Member Benefits"
-      secondaryLink="/founding-members"
-    />
-  </div>
+  <LandingGetStarted
+    title="Be Among the First Artists"
+    description="Join now and get exclusive founding member benefits"
+    secondary="Founding Member Benefits"
+    secondaryLink="/founding-members"
+  />
 </template>
