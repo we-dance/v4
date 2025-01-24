@@ -1,31 +1,30 @@
 <script setup lang="ts">
 interface PricingPlan {
-  title: string
-  description: string
-  price: string
-  unit: string
-  features: string[]
-  icon: string
+  title: string;
+  price: string;
+  unit: string;
+  features?: string[];
+  icon: string;
 }
 
 defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   description: {
     type: String,
-    required: true
+    required: true,
   },
   plans: {
     type: Array as PropType<PricingPlan[]>,
-    required: true
+    required: true,
   },
   note: {
     type: String,
-    default: ''
-  }
-})
+    default: "",
+  },
+});
 </script>
 
 <template>
@@ -39,12 +38,23 @@ defineProps({
       >
         {{ description }}
       </p>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div v-for="plan in plans" :key="plan.title" class="bg-background rounded-xl p-8">
+      <div
+        class="grid gap-8"
+        :class="plans.length > 1 ? 'md:grid-cols-3' : 'flex justify-center'"
+      >
+        <div
+          v-for="plan in plans"
+          :key="plan.title"
+          class="bg-background rounded-xl p-8"
+        >
           <Icon :name="plan.icon" class="w-12 h-12 text-accent mb-6" />
           <h3 class="text-xl font-semibold mb-4">{{ plan.title }}</h3>
-          <ul class="space-y-3 text-muted-foreground">
-            <li v-for="feature in plan.features" :key="feature" class="flex items-start gap-2">
+          <ul v-if="plan.features" class="space-y-3 text-muted-foreground">
+            <li
+              v-for="feature in plan.features"
+              :key="feature"
+              class="flex items-start gap-2"
+            >
               <Icon
                 name="ph:check-circle"
                 class="w-5 h-5 text-success mt-1 shrink-0"
@@ -55,7 +65,9 @@ defineProps({
           <div class="mt-6 pt-6 border-muted">
             <div class="text-sm text-muted-foreground">Platform fee</div>
             <div class="text-3xl font-bold text-accent">{{ plan.price }}</div>
-            <div class="text-sm text-muted-foreground mt-1">{{ plan.unit }}</div>
+            <div class="text-sm text-muted-foreground mt-1">
+              {{ plan.unit }}
+            </div>
           </div>
         </div>
       </div>
