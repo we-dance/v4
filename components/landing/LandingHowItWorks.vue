@@ -4,12 +4,7 @@ interface Step {
   icon: string;
   title: string;
   description: string;
-  colors: {
-    from: string;
-    to: string;
-  };
-  shape: string;
-  rotate: string;
+  class: string;
 }
 
 defineProps({
@@ -47,8 +42,8 @@ defineProps({
           <div v-for="step in steps" :key="step.number" class="relative">
             <div class="flex flex-col items-center">
               <div
-                :class="[`bg-gradient-to-br from-${step.colors.from} to-${step.colors.to}`, `hover:${step.rotate}`, `rounded-[${step.shape}]`]"
-                class="w-20 h-20 shadow-lg flex items-center justify-center mb-6 transform transition-all hover:scale-110"
+                :class="step.class"
+                class="w-20 h-20 shadow-lg flex items-center justify-center mb-6 transform transition-all hover:scale-110 bg-gradient-to-br"
               >
                 <Icon :name="step.icon" class="w-10 h-10 text-white" />
               </div>

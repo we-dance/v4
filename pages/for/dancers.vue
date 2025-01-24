@@ -88,36 +88,21 @@
         icon: 'ph:compass',
         title: 'Create Profile',
         description: 'Sign up and create your dancer profile. Share your dance styles, experience, and social media presence.',
-        colors: {
-          from: 'fuchsia-500',
-          to: 'accent'
-        },
-        shape: '40%_60%_60%_40%_/_70%_30%_70%_30%',
-        rotate: 'rotate-6'
+        class: 'rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] hover:rotate-6 from-fuchsia-500 to-accent',
       },
       {
         number: 2,
         icon: 'ph:users-three',
         title: 'Share & Promote',
         description: 'Share events, classes, and services with your unique referral links on social media and with your network.',
-        colors: {
-          from: 'purple-500',
-          to: 'accent'
-        },
-        shape: '60%_40%_30%_70%_/_30%_30%_70%_70%',
-        rotate: '-rotate-6'
+        class: 'rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] hover:-rotate-6 from-purple-500 to-accent'
       },
       {
         number: 3,
         icon: 'ph:money',
         title: 'Earn Rewards',
         description: 'Earn commission when people book through your links. Get special perks as your influence grows.',
-        colors: {
-          from: 'orange-500',
-          to: 'accent'
-        },
-        shape: '40%_60%_30%_70%_/_60%_30%_70%_40%',
-        rotate: 'rotate-6'
+        class: 'rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] hover:rotate-6 from-orange-500 to-accent',
       },
     ]"
   />
