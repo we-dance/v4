@@ -3,6 +3,7 @@ interface PricingPlan {
   title: string;
   price: string;
   unit: string;
+  caption: string;
   features?: string[];
   icon: string;
 }
@@ -23,7 +24,7 @@ defineProps({
   note: {
     type: String,
     default: "",
-  },
+  }
 });
 </script>
 
@@ -63,7 +64,7 @@ defineProps({
             </li>
           </ul>
           <div class="mt-6 pt-6 border-muted">
-            <div class="text-sm text-muted-foreground">Platform fee</div>
+            <div class="text-sm text-muted-foreground">{{ plan.caption }}</div>
             <div class="text-3xl font-bold text-accent">{{ plan.price }}</div>
             <div class="text-sm text-muted-foreground mt-1">
               {{ plan.unit }}
