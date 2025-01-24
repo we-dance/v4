@@ -9,7 +9,7 @@
       <div class="relative w-full py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center">
-            <Badge variant="secondary" class="mb-4">
+            <Badge>
               <Icon name="ph:crown" class="w-4 h-4 mr-1" />
               Limited Time Offer
             </Badge>
