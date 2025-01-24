@@ -37,250 +37,90 @@
     ]"
   />
 
-  <!-- How It Works -->
-  <section class="py-16 bg-background">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-foreground">How It Works</h2>
-        <p class="text-muted-foreground mt-2">
-          Three simple steps to start earning with your dance influence
-        </p>
-      </div>
+  <LandingPricing
+    title="Earning Opportunities"
+    description="Multiple ways to earn from your dance influence. No hidden fees, no monthly charges."
+    :plans="[
+      {
+        icon: 'ph:ticket',
+        title: 'Event Tickets',
+        features: [
+          '10% commission on ticket sales',
+          'Festival & workshop referrals',
+          'Special event access'
+        ],
+        price: '10%',
+        unit: 'per sale'
+      },
+      {
+        icon: 'ph:graduation-cap',
+        title: 'Class Packages',
+        features: [
+          '15% on first-time students',
+          'Recurring commission',
+          'Free class credits'
+        ],
+        price: '15%',
+        unit: 'per student'
+      },
+      {
+        icon: 'ph:storefront',
+        title: 'Dance Services',
+        features: [
+          '20% on service bookings',
+          'Partner referral bonus',
+          'Exclusive service deals'
+        ],
+        price: '20%',
+        unit: 'per booking'
+      }
+    ]"
+    footer="All commissions are paid directly to your bank account every week. No minimum payout threshold."
+  />
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <Card>
-          <CardHeader>
-            <div
-              class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4"
-            >
-              <Icon name="ph:user-plus" class="w-6 h-6 text-primary" />
-            </div>
-            <CardTitle>1. Create Profile</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p class="text-muted-foreground">
-              Sign up and create your dancer profile. Share your dance styles,
-              experience, and social media presence.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <div
-              class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4"
-            >
-              <Icon name="ph:share" class="w-6 h-6 text-primary" />
-            </div>
-            <CardTitle>2. Share & Promote</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p class="text-muted-foreground">
-              Share events, classes, and services with your unique referral
-              links on social media and with your network.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <div
-              class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4"
-            >
-              <Icon name="ph:money" class="w-6 h-6 text-primary" />
-            </div>
-            <CardTitle>3. Earn Rewards</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p class="text-muted-foreground">
-              Earn commission when people book through your links. Get special
-              perks as your influence grows.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
-    </div>
-  </section>
-
-  <!-- Earning Opportunities -->
-  <section class="py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-foreground">
-          Earning Opportunities
-        </h2>
-        <p class="text-muted-foreground mt-2">
-          Multiple ways to earn through your dance network
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Card>
-          <CardHeader>
-            <div
-              class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4"
-            >
-              <Icon name="ph:ticket" class="w-6 h-6 text-primary" />
-            </div>
-            <CardTitle>Event Tickets</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ul class="space-y-2">
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>10% commission on ticket sales</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Festival & workshop referrals</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Special event access</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <div
-              class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4"
-            >
-              <Icon name="ph:graduation-cap" class="w-6 h-6 text-primary" />
-            </div>
-            <CardTitle>Class Packages</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ul class="space-y-2">
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>15% on first-time students</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Recurring commission</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Free class credits</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <div
-              class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4"
-            >
-              <Icon name="ph:storefront" class="w-6 h-6 text-primary" />
-            </div>
-            <CardTitle>Dance Services</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ul class="space-y-2">
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>20% on service bookings</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Partner referral bonus</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Exclusive service deals</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-      </div>
-    </div>
-  </section>
-
-  <!-- Influence Levels -->
-  <section class="py-16 bg-background">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-foreground">Influence Levels</h2>
-        <p class="text-muted-foreground mt-2">
-          Unlock more benefits as your influence grows
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <Card>
-          <CardHeader>
-            <CardTitle>Rising Star</CardTitle>
-            <CardDescription>Getting Started</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul class="space-y-2">
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Basic commission rates</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Referral dashboard</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Promotional materials</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Dance Leader</CardTitle>
-            <CardDescription>Established Influence</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul class="space-y-2">
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Higher commission rates</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Early event access</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Custom promo codes</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Dance Ambassador</CardTitle>
-            <CardDescription>Top Influencer</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul class="space-y-2">
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Premium commission rates</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>VIP event perks</span>
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="ph:check" class="w-5 h-5 text-success" />
-                <span>Exclusive partnerships</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-      </div>
-    </div>
-  </section>
+  <LandingHowItWorks
+    title="How It Works"
+    description="Three simple steps to start earning with your dance influence"
+    :steps="[
+      
+      {
+        number: 1,
+        icon: 'ph:compass',
+        title: 'Create Profile',
+        description: 'Sign up and create your dancer profile. Share your dance styles, experience, and social media presence.',
+        colors: {
+          from: 'fuchsia-500',
+          to: 'accent'
+        },
+        shape: '40%_60%_60%_40%_/_70%_30%_70%_30%',
+        rotate: 'rotate-6'
+      },
+      {
+        number: 2,
+        icon: 'ph:users-three',
+        title: 'Share & Promote',
+        description: 'Share events, classes, and services with your unique referral links on social media and with your network.',
+        colors: {
+          from: 'purple-500',
+          to: 'accent'
+        },
+        shape: '60%_40%_30%_70%_/_30%_30%_70%_70%',
+        rotate: '-rotate-6'
+      },
+      {
+        number: 3,
+        icon: 'ph:money',
+        title: 'Earn Rewards',
+        description: 'Earn commission when people book through your links. Get special perks as your influence grows.',
+        colors: {
+          from: 'orange-500',
+          to: 'accent'
+        },
+        shape: '40%_60%_30%_70%_/_60%_30%_70%_40%',
+        rotate: 'rotate-6'
+      },
+    ]"
+  />
 
   <LandingTestimonials
     title="Success Stories"

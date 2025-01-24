@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import GradientBackground from "~/components/common/GradientBackground.vue";
 
+interface Testimonial {
+  title: string;
+  subtitle: string;
+  quote: string;
+}
+
 defineProps({
   title: {
     type: String,
@@ -8,6 +14,9 @@ defineProps({
   description: {
     type: String,
   },
+  testimonials: {
+    type: Array as PropType<Testimonial[]>,
+  }
 });
 </script>
 
