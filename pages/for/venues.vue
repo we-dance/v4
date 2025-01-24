@@ -47,11 +47,34 @@
         price: '5%',
         unit: 'per booking',
         features: [
-          'Studio & venue bookings',
-          'Calendar management',
-          'Automated scheduling',
+          'Venue & equipment bookings',
+          'Equipment rental',
+          'Connect with dance teachers',
+          'Host private classes'
         ]
-      }
+      },
+      {
+        icon: 'ph:ticket',
+        title: 'Event Tickets',
+        features: [
+          'Create unlimited events',
+          'Set your own prices',
+          'Global reach'
+        ],
+        price: '€0.25',
+        unit: 'per ticket'
+      },
+      {
+        icon: 'ph:video-camera',
+        title: 'Pre-recorded Courses',
+        features: [
+          'Create unlimited courses',
+          'Set your own prices',
+          'Reach global audience'
+        ],
+        price: '30%',
+        unit: 'per sale'
+      },
     ]"
     footer="All fees include payment processing, hosting, and platform tools. Get paid directly to your bank account every week."
   />
