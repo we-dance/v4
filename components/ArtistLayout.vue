@@ -4,6 +4,8 @@ import GradientBackground from "~/components/common/GradientBackground.vue";
 import ArtistCard from "~/components/ArtistCard.vue";
 import { useDialog } from "~/composables/useDialog";
 
+const route = useRoute();
+
 const props = defineProps<{
   artist: ArtistProfile;
 }>();
@@ -173,7 +175,7 @@ const handleFollow = () => {
               :to="item.to"
               class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
               :class="[
-                $route.path === item.to.split('#')[0]
+                route.path === item.to.split('#')[0]
                   ? 'border-primary text-primary'
                   : 'border-transparent text-muted-foreground hover:text-foreground',
               ]"
