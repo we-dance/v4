@@ -45,7 +45,12 @@
         icon: 'ph:calendar',
         title: 'Space Rental',
         price: '5%',
-        unit: 'per booking'
+        unit: 'per booking',
+        features: [
+          'Studio & venue bookings',
+          'Calendar management',
+          'Automated scheduling',
+        ]
       }
     ]"
     footer="All fees include payment processing, hosting, and platform tools. Get paid directly to your bank account every week."
