@@ -8,7 +8,7 @@ export const badgeVariants = cva(
     variants: {
       variant: {
         default:
-          "border-transparent bg-muted text-foreground hover:bg-muted/80",
+          "border-transparent bg-foreground text-background hover:bg-muted/80",
         secondary:
           "border-transparent bg-muted text-foreground hover:bg-muted/80",
         destructive:

@@ -13,18 +13,18 @@
               <div
                 class="flex items-center justify-center lg:justify-start gap-2 text-primary-foreground/80 mb-4"
               >
-                <Badge variant="secondary">
+                <Badge>
                   <Icon name="ph:sparkle" class="w-4 h-4 mr-1" />
                   Early Access
                 </Badge>
               </div>
               <h1
-                class="text-4xl lg:text-7xl font-extrabold text-primary-foreground tracking-tight mb-6"
+                class="text-4xl lg:text-7xl font-extrabold text-primary tracking-tight mb-6"
               >
                 The Future of Dance Business
               </h1>
               <p
-                class="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto lg:mx-0"
+                class="text-xl text-primary/80 mb-8 max-w-2xl mx-auto lg:mx-0"
               >
                 Be among the first artists to join our platform. Create online
                 courses, get bookings, and grow your dance business globally.
@@ -46,7 +46,7 @@
                 </Button>
               </div>
               <div
-                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-primary-foreground/80"
+                class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-primary/80"
               >
                 <div class="flex items-center gap-2">
                   <Icon name="ph:check-circle" class="w-5 h-5 text-success" />
@@ -66,58 +66,58 @@
             <!-- Right: Value Proposition -->
             <div class="grid grid-cols-2 gap-6">
               <div
-                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
+                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
               >
                 <Icon
                   name="ph:video-camera"
-                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                  class="w-8 h-8 text-primary/80 mb-4"
                 />
-                <div class="text-xl font-bold text-primary-foreground mb-2">
+                <div class="text-xl font-bold text-primary mb-2">
                   Online Courses
                 </div>
-                <div class="text-primary-foreground/80">
+                <div class="text-primary/80">
                   Create and sell dance courses to students worldwide
                 </div>
               </div>
               <div
-                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
+                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
               >
                 <Icon
                   name="ph:users-three"
-                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                  class="w-8 h-8 text-primary/80 mb-4"
                 />
-                <div class="text-xl font-bold text-primary-foreground mb-2">
+                <div class="text-xl font-bold text-primary mb-2">
                   Private Classes
                 </div>
-                <div class="text-primary-foreground/80">
+                <div class="text-primary/80">
                   Get booked for private lessons and workshops
                 </div>
               </div>
               <div
-                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
+                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
               >
                 <Icon
                   name="ph:ticket"
-                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                  class="w-8 h-8 text-primary/80 mb-4"
                 />
-                <div class="text-xl font-bold text-primary-foreground mb-2">
+                <div class="text-xl font-bold text-primary mb-2">
                   Festival Gigs
                 </div>
-                <div class="text-primary-foreground/80">
+                <div class="text-primary/80">
                   Perform and teach at international festivals
                 </div>
               </div>
               <div
-                class="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/20"
+                class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
               >
                 <Icon
                   name="ph:chart-line"
-                  class="w-8 h-8 text-primary-foreground/80 mb-4"
+                  class="w-8 h-8 text-primary/80 mb-4"
                 />
-                <div class="text-xl font-bold text-primary-foreground mb-2">
+                <div class="text-xl font-bold text-primary mb-2">
                   Business Tools
                 </div>
-                <div class="text-primary-foreground/80">
+                <div class="text-primary/80">
                   Everything you need to grow your dance business
                 </div>
               </div>
