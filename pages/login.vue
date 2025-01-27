@@ -18,6 +18,7 @@ const form = useForm({
 });
 
 const onSubmit = async (values: z.infer<typeof formSchema>) => {
+  console.log('onSubmit', values)
   try {
     await auth.login(values.email, values.password);
     router.push("/feed");
