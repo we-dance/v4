@@ -22,7 +22,8 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
     await auth.login(values.email, values.password);
     router.push("/feed");
   } catch (error) {
-    toast.error(error);
+    const errorMessage = (error as Error).message || "An error occurred";
+    toast.error(errorMessage);
   }
 };
 </script>
@@ -43,7 +44,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
       </div>
 
       <div class="bg-background rounded-xl shadow-sm border p-8">
-        <form @submit="form.handleSubmit(onSubmit)" class="space-y-6">
+        <form @submit.prevent="form.handleSubmit(onSubmit)" class="space-y-6">
           <FormField v-slot="{ componentField }" name="email">
             <FormItem>
               <FormLabel>Email</FormLabel>
