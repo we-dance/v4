@@ -47,6 +47,7 @@ export const statsSchema = z.object({
   shares: z.number().optional(),
   bookmarks: z.number().optional(),
   interested: z.number().optional(),
+  views: z.number().optional(),
 });
 
 export type PostStats = z.infer<typeof statsSchema>;
@@ -55,6 +56,27 @@ export type PostStats = z.infer<typeof statsSchema>;
 export const noteContentSchema = z.object({
   text: z.string(),
   tags: z.array(z.string()).optional(),
+  poll: z
+    .object({
+      options: z.array(
+        z.object({
+          id: z.number(),
+          text: z.string(),
+          votes: z.number(),
+        })
+      ),
+      totalVotes: z.number(),
+    })
+    .optional(),
+  links: z
+    .array(
+      z.object({
+        url: z.string(),
+        title: z.string(),
+        description: z.string(),
+      })
+    )
+    .optional(),
 });
 
 export const videoContentSchema = z.object({
@@ -82,10 +104,13 @@ export const meetContentSchema = z.object({
   details: z.object({
     type: z.string(),
     format: z.string(),
-    gender: z.string(),
+    gender: z.string().optional(),
     when: z.string(),
     where: z.string(),
-    level: z.string(),
+    level: z.string().optional(),
+    style: z.string().optional(),
+    seats: z.string().optional(),
+    contribution: z.string().optional(),
   }),
   tags: z.array(z.string()).optional(),
 });
