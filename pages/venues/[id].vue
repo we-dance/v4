@@ -54,59 +54,41 @@ const handleExploreAreas = () => {
   <div v-if="venue">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
-      <div
-        class="relative flex items-center overflow-hidden min-h-[50vh] py-12"
-      >
-        <GradientBackground />
-
+      <div class="relative flex items-center overflow-hidden min-h-[50vh] py-12 bg-background/80">
+        <div class="absolute inset-0 bg-gradient-to-r from-background/90 to-background/50" />
+        <GradientBackground class="opacity-50" />
+    
         <!-- Content -->
-        <div class="relative w-full">
+        <div class="relative w-full z-10">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <!-- Left: Content -->
               <div class="text-center md:text-left">
-                <h1
-                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4"
-                >
+                <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                   {{ venue.name }}
                 </h1>
-                <div
-                  class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-primary-foreground/80 mb-6"
-                >
+                <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-muted-foreground mb-6">
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{
-                      venue.address
-                    }}</span>
+                    <span class="text-sm md:text-base">{{ venue.address }}</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <Icon name="ph:users" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base"
-                      >{{ totalCapacity }} people total</span
-                    >
+                    <span class="text-sm md:text-base">{{ totalCapacity }} people total</span>
                   </div>
                   <div class="flex items-center gap-2">
-                    <Icon
-                      name="ph:currency-eur"
-                      class="w-4 h-4 md:w-5 md:h-5"
-                    />
-                    <span class="text-sm md:text-base"
-                      >{{ minPrice }}-{{ maxPrice }}€/hour</span
-                    >
+                    <Icon name="ph:currency-eur" class="w-4 h-4 md:w-5 md:h-5" />
+                    <span class="text-sm md:text-base">{{ minPrice }}-{{ maxPrice }}€/hour</span>
                   </div>
                 </div>
-
+    
                 <!-- Rating -->
-                <div
-                  class="flex items-center justify-center md:justify-start gap-2 text-primary-foreground mb-8"
-                >
+                <div class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-8">
                   <div class="flex items-center gap-1">
                     <Icon name="ph:star-fill" class="w-5 h-5 text-warning" />
                     <span class="font-medium">{{ venue.rating }}</span>
                   </div>
-                  <span class="text-primary-foreground/60"
-                    >({{ venue.reviewCount }} reviews)</span
-                  >
+                  <span class="text-muted-foreground">({{ venue.reviewCount }} reviews)</span>
                 </div>
 
                 <!-- Action Buttons -->
@@ -213,7 +195,7 @@ const handleExploreAreas = () => {
                 />
                 <div>
                   <div class="font-medium">{{ venue.name }}</div>
-                  <div class="text-muted-foreground">{{ venue.address }}</div>
+                  <div class="text-muted-foreground">{{ venue.description }}</div>
                 </div>
               </div>
               <!-- Map placeholder -->
