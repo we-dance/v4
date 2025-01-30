@@ -45,7 +45,7 @@ function getStyleLabel(value: string) {
 <template>
   <div
     :class="[
-      'bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow',
+      'bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow',
       view === 'list' ? 'p-4' : '',
     ]"
   >
@@ -71,7 +71,9 @@ function getStyleLabel(value: string) {
             />
             <div>
               <h3 class="font-semibold text-lg">{{ organizer.name }}</h3>
-              <p class="text-sm text-gray-600">{{ organizer.location }}</p>
+              <p class="text-sm text-muted-foreground">
+                {{ organizer.location }}
+              </p>
             </div>
           </div>
           <div class="flex flex-wrap gap-2 mb-3">
@@ -83,7 +85,7 @@ function getStyleLabel(value: string) {
               {{ getStyleLabel(style) }}
             </Badge>
           </div>
-          <p class="text-sm text-gray-600 mb-4">
+          <p class="text-sm text-muted-foreground mb-4">
             {{ organizer.bio }}
           </p>
           <div class="flex flex-wrap gap-2">
@@ -195,9 +197,11 @@ function getStyleLabel(value: string) {
             <div class="flex items-start justify-between">
               <div>
                 <h3 class="font-semibold text-lg">{{ organizer.name }}</h3>
-                <p class="text-sm text-gray-600">{{ organizer.location }}</p>
+                <p class="text-sm text-muted-foreground">
+                  {{ organizer.location }}
+                </p>
               </div>
-              <div class="text-sm text-gray-600">
+              <div class="text-sm text-muted-foreground">
                 {{ organizer.eventCount }} events
               </div>
             </div>
@@ -210,7 +214,7 @@ function getStyleLabel(value: string) {
                 {{ getStyleLabel(style) }}
               </Badge>
             </div>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-muted-foreground mb-3">
               {{ organizer.bio }}
             </p>
             <div class="flex flex-wrap gap-2">

@@ -9,9 +9,9 @@ defineProps<{
 <template>
   <NuxtLink
     :to="`/communities/${community.id}`"
-    class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+    class="block bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow"
   >
-    <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
+    <div class="aspect-video rounded-t-lg overflow-hidden bg-muted">
       <NuxtImg
         :src="community.image"
         :alt="community.name"
@@ -20,18 +20,22 @@ defineProps<{
     </div>
     <div class="p-4">
       <div class="flex items-center justify-between mb-2">
-        <h3 class="font-semibold text-lg">{{ community.name }}</h3>
+        <h3 class="font-semibold text-lg text-foreground">
+          {{ community.name }}
+        </h3>
         <span
           v-if="community.style"
-          class="text-sm bg-purple-50 text-purple-600 px-2 py-1 rounded-full"
+          class="text-sm bg-primary/10 text-primary px-2 py-1 rounded-full"
         >
           {{ community.style }}
         </span>
       </div>
-      <p class="text-gray-600 text-sm mb-4">
+      <p class="text-muted-foreground text-sm mb-4">
         {{ community.description }}
       </p>
-      <div class="flex items-center justify-between text-sm text-gray-500">
+      <div
+        class="flex items-center justify-between text-sm text-muted-foreground"
+      >
         <div class="flex items-center">
           <span class="mr-4">{{ community.memberCount }}+ members</span>
         </div>
@@ -40,7 +44,7 @@ defineProps<{
           :href="community.links.whatsapp"
           target="_blank"
           rel="noopener"
-          class="text-green-600 hover:text-green-700"
+          class="text-success hover:text-success/80"
           @click.stop
         >
           Join WhatsApp

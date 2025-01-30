@@ -48,12 +48,12 @@ const danceStyles = computed(() => {
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto">
           <h1
-            class="text-5xl md:text-7xl font-extrabold text-primary-foreground tracking-tight"
+            class="text-5xl md:text-7xl font-extrabold text-foreground tracking-tight"
           >
             {{ title }}
           </h1>
           <p
-            class="text-lg md:text-xl text-primary-foreground/80 mt-4 mb-12 max-w-2xl mx-auto"
+            class="text-lg md:text-xl text-muted-foreground mt-4 mb-12 max-w-2xl mx-auto"
           >
             {{ description }}
           </p>
@@ -70,15 +70,15 @@ const danceStyles = computed(() => {
                 />
                 <Icon
                   name="ph:magnifying-glass"
-                  class="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-muted-foreground group-hover:text-foreground transition-colors duration-200"
+                  class="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-muted-foreground transition-colors duration-200"
                 />
               </div>
               <div class="mt-3 text-center">
-                <p class="text-primary-foreground/70">
+                <p class="text-muted-foreground">
                   New to dancing?
                   <NuxtLink
                     to="/quiz"
-                    class="text-primary-foreground hover:text-primary font-medium ml-1"
+                    class="text-foreground hover:text-primary font-medium ml-1"
                   >
                     Take our style quiz
                     <Icon

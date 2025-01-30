@@ -22,10 +22,10 @@ defineProps<{
   <div class="px-4 pb-4 flex-1">
     <div class="space-y-4">
       <PostTitle :title="content.title" />
-      <p class="text-gray-600 whitespace-pre-wrap">
+      <p class="text-muted-foreground whitespace-pre-wrap">
         {{ content.text }}
       </p>
-      <div class="bg-purple-50 rounded-lg p-4 space-y-2">
+      <div class="bg-primary/10 rounded-lg p-4 space-y-2">
         <div
           v-for="(value, key) in content.details"
           :key="key"
@@ -33,10 +33,10 @@ defineProps<{
         >
           <Icon
             :name="DETAIL_ICONS[key as keyof typeof DETAIL_ICONS]"
-            class="w-4 h-4 text-purple-600"
+            class="w-4 h-4 text-primary"
           />
-          <span class="capitalize text-gray-600">{{ key }}:</span>
-          <span class="text-purple-600">{{ value }}</span>
+          <span class="capitalize text-muted-foreground">{{ key }}:</span>
+          <span class="text-primary">{{ value }}</span>
         </div>
       </div>
     </div>

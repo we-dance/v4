@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+  build: {
+    transpile: ['vee-validate']
+  },
 
   postcss: {
     plugins: {

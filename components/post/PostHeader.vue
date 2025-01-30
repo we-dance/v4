@@ -16,33 +16,33 @@ defineProps<{
       <img
         :src="author.image"
         :alt="author.name"
-        class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-purple-500 transition-all"
+        class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-primary transition-all"
       />
     </NuxtLink>
     <div class="flex-1">
       <div class="flex items-center gap-2">
         <NuxtLink
           :to="`/artists/${author.id}`"
-          class="font-medium hover:text-purple-600 transition-colors"
+          class="font-medium text-foreground hover:text-primary transition-colors"
         >
           {{ author.name }}
         </NuxtLink>
         <UserPoints :points="author.points" />
       </div>
-      <div class="text-sm text-gray-500 flex items-center gap-1">
+      <div class="text-sm text-muted-foreground flex items-center gap-1">
         <span>{{ timestamp }}</span>
         <span>·</span>
-        <span class="text-purple-600">{{ author.location }}</span>
+        <span class="text-primary">{{ author.location }}</span>
       </div>
     </div>
     <div class="flex items-center gap-2">
-      <div class="flex items-center gap-1 bg-purple-50 px-2 py-1 rounded-full">
+      <div class="flex items-center gap-1 bg-primary/10 px-2 py-1 rounded-full">
         <Icon
           v-if="POST_TYPE_ICONS[type]"
           :name="POST_TYPE_ICONS[type]"
-          class="w-4 h-4 text-purple-600"
+          class="w-4 h-4 text-primary"
         />
-        <span class="text-sm text-purple-600 capitalize">{{
+        <span class="text-sm text-primary capitalize">{{
           type.replace("_", " ")
         }}</span>
       </div>

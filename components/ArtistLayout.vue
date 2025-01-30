@@ -4,6 +4,8 @@ import GradientBackground from "~/components/common/GradientBackground.vue";
 import ArtistCard from "~/components/ArtistCard.vue";
 import { useDialog } from "~/composables/useDialog";
 
+const route = useRoute();
+
 const props = defineProps<{
   artist: ArtistProfile;
 }>();
@@ -82,23 +84,18 @@ const handleFollow = () => {
             <!-- Left: Content -->
             <div class="text-center md:text-left">
               <div
-                class="flex items-center justify-center md:justify-start gap-2 text-white/80 mb-4"
-              >
+                class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-4">
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
                 <span class="text-sm md:text-base">{{ artist.location }}</span>
               </div>
-              <h1
-                class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
-              >
+              <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                 {{ artist.name }}
               </h1>
-              <div
-                class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-white/80 mb-6"
-              >
+              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-muted-foreground mb-6">
                 <Badge
                   v-if="artist.level === 'master'"
                   variant="secondary"
-                  class="bg-amber-50 text-amber-700 border-amber-200"
+                  class="bg-warning/20 text-warning border-warning/30"
                 >
                   Master
                 </Badge>
@@ -106,39 +103,30 @@ const handleFollow = () => {
                   v-for="role in artist.roles"
                   :key="role"
                   variant="secondary"
-                  class="capitalize"
+                  class="capitalize bg-background/10 text-foreground border-border/20"
                 >
                   {{ role }}
                 </Badge>
               </div>
 
               <!-- Stats -->
-              <div
-                class="flex justify-center md:justify-start gap-8 text-white/80 mb-8"
-              >
+              <div class="flex justify-center md:justify-start gap-8 text-foreground mb-8">
                 <div>
-                  <div class="text-xl font-bold text-white">
-                    {{ artist.stats.followers }}
-                  </div>
-                  <div class="text-sm">followers</div>
+                  <div class="text-xl font-bold text-foreground">{{ artist.stats.followers }}</div>
+                  <div class="text-sm text-muted-foreground">followers</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-white">
-                    {{ artist.stats.reviews }}
-                  </div>
-                  <div class="text-sm">reviews</div>
+                  <div class="text-xl font-bold text-foreground">{{ artist.stats.reviews }}</div>
+                  <div class="text-sm text-muted-foreground">reviews</div>
                 </div>
               </div>
 
               <!-- Action Buttons -->
               <div class="flex justify-center md:justify-start gap-4">
-                <Button variant="primary-on-dark" size="lg" @click="handleBook"
+                <Button variant="primary" size="lg" @click="handleBook"
                   >Book Now</Button
                 >
-                <Button
-                  variant="secondary-on-dark"
-                  size="lg"
-                  @click="handleFollow"
+                <Button variant="secondary" size="lg" @click="handleFollow"
                   >Follow</Button
                 >
               </div>
@@ -166,9 +154,9 @@ const handleFollow = () => {
   <!-- Navigation and Content Wrapper -->
   <div class="relative">
     <!-- Navigation -->
-    <div class="bg-white z-10">
+    <div class="bg-background z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="border-b border-gray-200">
+        <nav class="border-b border-muted">
           <div class="flex space-x-8 overflow-x-auto">
             <NuxtLink
               v-for="item in navigation"
@@ -176,9 +164,9 @@ const handleFollow = () => {
               :to="item.to"
               class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
               :class="[
-                $route.path === item.to.split('#')[0]
-                  ? 'border-purple-600 text-purple-600'
-                  : 'border-transparent text-gray-500 hover:text-gray-700',
+                route.path === item.to.split('#')[0]
+                  ? 'border-primary text-primary'
+                  : 'border-transparent text-muted-foreground hover:text-foreground',
               ]"
             >
               <Icon v-if="item.icon" :name="item.icon" class="w-4 h-4" />
@@ -207,29 +195,30 @@ const handleFollow = () => {
             <!-- Availability -->
             <div
               v-if="artist.availability"
-              class="bg-white rounded-lg border p-6"
+              class="bg-background rounded-lg border p-6"
             >
-              <h3 class="text-lg font-bold mb-4">Availability</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">Availability</h3>
               <div class="space-y-4">
                 <table class="w-full">
-                  <tbody class="divide-y">
+                  <tbody class="divide-y divide-border">
                     <tr v-if="artist.availability.privateClasses" class="group">
                       <td class="py-3">
-                        <div class="flex items-center gap-2 text-gray-600">
-                          <Icon
-                            name="ph:user"
-                            class="w-5 h-5 text-purple-600"
-                          />
+                        <div
+                          class="flex items-center gap-2 text-muted-foreground"
+                        >
+                          <Icon name="ph:user" class="w-5 h-5 text-primary" />
                           Private Classes
                         </div>
                       </td>
                     </tr>
                     <tr v-if="artist.availability.workshops" class="group">
                       <td class="py-3">
-                        <div class="flex items-center gap-2 text-gray-600">
+                        <div
+                          class="flex items-center gap-2 text-muted-foreground"
+                        >
                           <Icon
                             name="ph:users-three"
-                            class="w-5 h-5 text-purple-600"
+                            class="w-5 h-5 text-primary"
                           />
                           Workshops
                         </div>
@@ -237,18 +226,20 @@ const handleFollow = () => {
                     </tr>
                     <tr v-if="artist.availability.touring" class="group">
                       <td class="py-3">
-                        <div class="flex items-center gap-2 text-gray-600">
+                        <div
+                          class="flex items-center gap-2 text-muted-foreground"
+                        >
                           <Icon
                             name="ph:airplane"
-                            class="w-5 h-5 text-purple-600"
+                            class="w-5 h-5 text-primary"
                           />
                           Available for Tours
                         </div>
                       </td>
-                      <td class="py-3 text-right text-gray-600">
+                      <td class="py-3 text-right text-muted-foreground">
                         <Icon
                           name="ph:check"
-                          class="w-5 h-5 inline-block text-green-600"
+                          class="w-5 h-5 inline-block text-success"
                         />
                       </td>
                     </tr>
@@ -264,9 +255,9 @@ const handleFollow = () => {
             <!-- Social Links -->
             <div
               v-if="artist.socialLinks.length > 0"
-              class="bg-white rounded-lg border p-6"
+              class="bg-background rounded-lg border p-6"
             >
-              <h3 class="text-lg font-bold mb-4">Social Media</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">Social Media</h3>
               <div class="space-y-3">
                 <a
                   v-for="link in artist.socialLinks"
@@ -274,7 +265,7 @@ const handleFollow = () => {
                   :href="link.url"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex items-center gap-2 text-gray-600 hover:text-purple-600 transition-colors"
+                  class="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Icon
                     :name="`ph:${link.platform.toLowerCase()}-logo`"
@@ -286,8 +277,8 @@ const handleFollow = () => {
             </div>
 
             <!-- Contact -->
-            <div class="bg-white rounded-lg border p-6">
-              <h3 class="text-lg font-bold mb-4">Contact</h3>
+            <div class="bg-background rounded-lg border p-6">
+              <h3 class="text-lg font-bold text-foreground mb-4">Contact</h3>
               <Button class="w-full" variant="outline" @click="handleContact">
                 <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
                 Send Message

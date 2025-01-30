@@ -1,16 +1,20 @@
 <script setup lang="ts">
 import type { Post } from "~/schemas/post";
-import { defineAsyncComponent, markRaw } from "vue";
+import { defineAsyncComponent, markRaw, type Component } from "vue";
 import type { DefineComponent } from "vue";
 import PostSkeleton from "../common/PostSkeleton.vue";
 import ErrorBoundary from "../common/ErrorBoundary.vue";
 
 const NuxtLink = resolveComponent("NuxtLink");
 
-const props = defineProps<{
+interface Props {
+  /** The post data including author, content, and stats */
   post: Post;
+  /** Whether the post is displayed standalone or in a list */
   standalone?: boolean;
-}>();
+}
+
+const props = defineProps<Props>();
 
 const { components, getComponentName } = usePostComponent();
 const route = useRoute();
@@ -48,7 +52,7 @@ function closeModal() {
 </script>
 
 <template>
-  <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+  <div class="bg-background rounded-lg shadow-sm border border-border">
     <ErrorBoundary>
       <PostHeader
         :author="post.author"
@@ -66,13 +70,13 @@ function closeModal() {
           >
             <component
               :is="getAsyncComponent(post.type)"
-              :content="post.content"
+              :content="post.content as any"
             />
           </a>
           <div v-else class="block">
             <component
               :is="getAsyncComponent(post.type)"
-              :content="post.content"
+              :content="post.content as any"
             />
           </div>
         </template>

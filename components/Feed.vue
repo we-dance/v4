@@ -32,57 +32,60 @@ const energyRewards = [
 
     <!-- Right Sidebar -->
     <div class="hidden xl:block w-72 flex-shrink-0">
-      <div class="bg-white rounded-xl shadow-sm border p-4">
-        <h3 class="font-medium mb-4">Energy Rewards</h3>
+      <div class="bg-background rounded-xl shadow-sm border border-border p-4">
+        <h3 class="text-foreground font-medium mb-4">Energy Rewards</h3>
         <ul class="space-y-3">
           <li
             v-for="reward in energyRewards"
             :key="reward.action"
             class="flex items-center justify-between"
           >
-            <div class="flex items-center gap-2 text-sm text-gray-600">
-              <Icon :name="reward.icon" class="w-4 h-4 text-orange-500" />
+            <div class="flex items-center gap-2 text-sm text-foreground">
+              <Icon :name="reward.icon" class="w-4 h-4 text-accent" />
               <span>{{ reward.action }}</span>
             </div>
             <UserPoints :points="reward.energy" />
           </li>
         </ul>
-        <div class="mt-6 pt-6 border-t">
-          <h3 class="font-medium mb-4">Energy Tips</h3>
-          <ul class="space-y-3 text-sm text-gray-600">
+        <div class="mt-6 pt-6 border-t border-border">
+          <h3 class="text-foreground font-medium mb-4">Energy Tips</h3>
+          <ul class="space-y-3 text-sm">
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:lightbulb"
-                class="w-5 h-5 text-orange-500 flex-shrink-0"
+                class="w-5 h-5 text-accent flex-shrink-0"
               />
-              <span>Create quality content to earn more energy</span>
+              <span class="text-foreground"
+                >Create quality content to earn more energy</span
+              >
             </li>
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:chat-circle"
-                class="w-5 h-5 text-orange-500 flex-shrink-0"
+                class="w-5 h-5 text-accent flex-shrink-0"
               />
-              <span>Engage with others through comments and likes</span>
+              <span class="text-foreground"
+                >Engage with others through comments and likes</span
+              >
             </li>
             <li class="flex items-start gap-2">
-              <Icon
-                name="ph:users"
-                class="w-5 h-5 text-orange-500 flex-shrink-0"
-              />
-              <span>Help newcomers and share your knowledge</span>
+              <Icon name="ph:users" class="w-5 h-5 text-accent flex-shrink-0" />
+              <span class="text-foreground"
+                >Help newcomers and share your knowledge</span
+              >
             </li>
             <li class="flex items-start gap-2">
               <Icon
                 name="ph:calendar-check"
-                class="w-5 h-5 text-orange-500 flex-shrink-0"
+                class="w-5 h-5 text-accent flex-shrink-0"
               />
-              <span>Check in at events you attend</span>
+              <span class="text-foreground">Check in at events you attend</span>
             </li>
           </ul>
           <div class="mt-4">
             <NuxtLink
               to="/energy"
-              class="text-orange-500 hover:text-orange-600 text-sm flex items-center gap-1"
+              class="text-accent hover:text-accent/90 text-sm flex items-center gap-1"
             >
               Learn more about Dance Energy
               <Icon name="ph:arrow-right" class="w-4 h-4" />

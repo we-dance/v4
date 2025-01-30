@@ -15,7 +15,7 @@ const formatNumber = (num: number) => {
 </script>
 
 <template>
-  <span v-if="points" class="text-sm text-orange-500 flex items-center gap-0.5">
+  <span v-if="points" class="text-sm text-warning flex items-center gap-0.5">
     <Icon name="heroicons:fire" class="w-4 h-4" />
     <template v-if="typeof points === 'number'">
       {{ formatNumber(points) }}

@@ -182,6 +182,9 @@
                 </a>
               </Button>
             </div>
+            <div class="mt-4">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>

@@ -1,8 +1,3 @@
-<script setup>
-const selectedPostType = ref("all");
-const selectedLocation = ref(null);
-</script>
-
 <template>
   <DanceStyleLayout
     title="Salsa Cubana"

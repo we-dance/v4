@@ -198,7 +198,7 @@ watch(selectedEventType, (newValue) => {
     </div>
 
     <!-- Filters -->
-    <div v-if="showFilters" class="mb-8 p-4 bg-gray-50 rounded-lg">
+    <div v-if="showFilters" class="mb-8 p-4 bg-muted rounded-lg">
       <div class="grid sm:grid-cols-2 gap-4">
         <div>
           <Label>Dance Styles</Label>
@@ -265,7 +265,7 @@ watch(selectedEventType, (newValue) => {
     <div v-if="!filteredOrganizers.length" class="text-center">
       <div class="max-w-md mx-auto">
         <EmptyState variant="no-results" />
-        <p class="mt-4 text-gray-600">
+        <p class="mt-4 text-muted-foreground">
           Don't see your city? Help grow the community by
           <Button variant="link" class="px-1" as-child>
             <NuxtLink to="/register">adding your local dance groups</NuxtLink>
