@@ -7,12 +7,14 @@ defineProps<{
 }>();
 
 const getPrice = (event: AnyEvent) => {
-  if (!event.prices?.length) return "Free";
+  if (!event.prices?.length) return "";
 
   const lowestPrice = event.prices.reduce(
     (min, p) => (p.amount < min.amount ? p : min),
     event.prices[0]
   );
+
+  if (!lowestPrice) return "Free"
 
   // If there is more than one price, show "From"
   const prefix = event.prices.length > 1 ? "From " : "";
