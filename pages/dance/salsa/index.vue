@@ -71,7 +71,7 @@ const handleImageError = (event: Event) => {
     <!-- Hero Section -->
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold mb-4">Salsa Dancing</h1>
-      <p class="text-xl text-gray-600">
+      <p class="text-xl text-muted-foreground">
         Discover the vibrant world of salsa dancing - from Cuban rhythms to
         linear precision
       </p>
@@ -85,9 +85,9 @@ const handleImageError = (event: Event) => {
           v-for="style in styles"
           :key="style.id"
           :to="`/dance/salsa/${style.id}`"
-          class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+          class="block bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow"
         >
-          <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
+          <div class="aspect-video rounded-t-lg overflow-hidden bg-accent">
             <NuxtImg
               :src="style.image"
               :alt="style.name"
@@ -97,12 +97,14 @@ const handleImageError = (event: Event) => {
           </div>
           <div class="p-4">
             <h3 class="font-semibold text-lg mb-2">{{ style.name }}</h3>
-            <p class="text-gray-600 text-sm mb-2">{{ style.description }}</p>
+            <p class="text-muted-foreground text-sm mb-2">
+              {{ style.description }}
+            </p>
             <div class="flex flex-wrap gap-2">
               <span
                 v-for="alias in style.aliases"
                 :key="alias"
-                class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full"
+                class="text-xs bg-accent text-muted-foreground px-2 py-1 rounded-full"
               >
                 {{ alias }}
               </span>
@@ -118,7 +120,7 @@ const handleImageError = (event: Event) => {
         <h2 class="text-2xl font-semibold">Communities</h2>
         <NuxtLink
           to="/communities?style=salsa"
-          class="text-purple-600 hover:text-purple-700"
+          class="text-primary hover:text-primary/80"
         >
           View All
         </NuxtLink>
@@ -138,7 +140,7 @@ const handleImageError = (event: Event) => {
         <h2 class="text-2xl font-semibold">Upcoming Events</h2>
         <NuxtLink
           to="/events?style=salsa"
-          class="text-purple-600 hover:text-purple-700"
+          class="text-primary hover:text-primary/80"
         >
           View All
         </NuxtLink>
@@ -148,9 +150,9 @@ const handleImageError = (event: Event) => {
           v-for="event in events"
           :key="event.id"
           :to="`/events/${event.id}`"
-          class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+          class="block bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow"
         >
-          <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
+          <div class="aspect-video rounded-t-lg overflow-hidden bg-accent">
             <NuxtImg
               :src="event.image"
               :alt="event.name"
@@ -162,14 +164,16 @@ const handleImageError = (event: Event) => {
             <div class="flex items-center justify-between mb-2">
               <h3 class="font-semibold text-lg">{{ event.name }}</h3>
               <span
-                class="text-sm bg-purple-50 text-purple-600 px-2 py-1 rounded-full"
+                class="text-sm bg-primary/20 text-primary px-2 py-1 rounded-full"
               >
                 {{ event.tags[0] }}
               </span>
             </div>
-            <p class="text-gray-600 text-sm mb-4">{{ event.description }}</p>
+            <p class="text-muted-foreground text-sm mb-4">
+              {{ event.description }}
+            </p>
             <div class="space-y-2 text-sm">
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">When:</span>
                 <span>
                   {{ new Date(event.date.start).toLocaleDateString() }},
@@ -188,21 +192,21 @@ const handleImageError = (event: Event) => {
                   }}
                 </span>
               </div>
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">Where:</span>
                 <span
                   >{{ event.location.name }}, {{ event.location.city }}</span
                 >
               </div>
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">Price:</span>
                 <span>{{
-                  event.price?.amount === 0
-                    ? "Free"
-                    : `${event.price?.amount}${event.price?.currency}`
+                  event.prices?.length
+                    ? `${event.prices[0].amount}${event.prices[0].currency}`
+                    : "Free"
                 }}</span>
               </div>
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">By:</span>
                 <span>{{ event.organizer.name }}</span>
               </div>
@@ -216,7 +220,7 @@ const handleImageError = (event: Event) => {
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-6">Resources</h2>
       <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow-sm">
+        <div class="bg-background p-6 rounded-lg shadow-sm">
           <h3 class="font-semibold text-lg mb-4">For Beginners</h3>
           <div class="space-y-4">
             <NuxtLink
@@ -226,7 +230,7 @@ const handleImageError = (event: Event) => {
               class="group block"
             >
               <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
+                <div class="w-24 h-16 rounded overflow-hidden bg-accent">
                   <NuxtImg
                     :src="post.content.cover"
                     :alt="post.content.title"
@@ -234,13 +238,13 @@ const handleImageError = (event: Event) => {
                   />
                 </div>
                 <div class="flex-1">
-                  <h4 class="font-medium group-hover:text-purple-600">
+                  <h4 class="font-medium group-hover:text-primary">
                     {{ post.content.title }}
                   </h4>
-                  <p class="text-sm text-gray-600 line-clamp-1">
+                  <p class="text-sm text-muted-foreground line-clamp-1">
                     {{ post.content.description }}
                   </p>
-                  <div class="text-xs text-gray-500 mt-1">
+                  <div class="text-xs text-muted-foreground mt-1">
                     {{ post.author.name }} •
                     {{ new Date(post.timestamp).toLocaleDateString() }}
                   </div>
@@ -249,7 +253,7 @@ const handleImageError = (event: Event) => {
             </NuxtLink>
           </div>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-sm">
+        <div class="bg-background p-6 rounded-lg shadow-sm">
           <h3 class="font-semibold text-lg mb-4">For Teachers</h3>
           <div class="space-y-4">
             <NuxtLink
@@ -259,7 +263,7 @@ const handleImageError = (event: Event) => {
               class="group block"
             >
               <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
+                <div class="w-24 h-16 rounded overflow-hidden bg-accent">
                   <NuxtImg
                     :src="post.content.cover"
                     :alt="post.content.title"
@@ -267,13 +271,13 @@ const handleImageError = (event: Event) => {
                   />
                 </div>
                 <div class="flex-1">
-                  <h4 class="font-medium group-hover:text-purple-600">
+                  <h4 class="font-medium group-hover:text-primary">
                     {{ post.content.title }}
                   </h4>
-                  <p class="text-sm text-gray-600 line-clamp-1">
+                  <p class="text-sm text-muted-foreground line-clamp-1">
                     {{ post.content.description }}
                   </p>
-                  <div class="text-xs text-gray-500 mt-1">
+                  <div class="text-xs text-muted-foreground mt-1">
                     {{ post.author.name }} •
                     {{ new Date(post.timestamp).toLocaleDateString() }}
                   </div>

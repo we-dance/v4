@@ -26,16 +26,14 @@ const emit = defineEmits<{
       <NuxtLink
         to="/terms"
         class="font-medium text-primary underline underline-offset-4 hover:text-primary/90"
+        >Terms of Service</NuxtLink
       >
-        Terms of Service
-      </NuxtLink>
       and
       <NuxtLink
         to="/privacy"
         class="font-medium text-primary underline underline-offset-4 hover:text-primary/90"
+        >Privacy Policy</NuxtLink
       >
-        Privacy Policy
-      </NuxtLink>
     </label>
   </div>
 </template>

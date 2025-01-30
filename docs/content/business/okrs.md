@@ -29,25 +29,19 @@
 ## Objectives 2025 Q1
 
 **O1: Launch WeDance v4**
-
 - KR1: Data migrated from v3
-- KR2: Yarima Online Course is launched by end of January 2025
-- KR3: Eneris Zoom Class migrated from TicketTailor is launched by end of February, 2025
-- KR4: Pinakothek Booking is launched by end of March, 2025
-- KR5: Successful design sprint user testing for dancers
+- KR2: Successful design sprint user testing for navigation and city calendar (dancers)
 
-**O2: Establish Relationships with Artists**
+**O2: Online Classes**
 
-- KR1: Found 5 dance instructors interested in selling online classes (live zoom, pre-recorded)
-- KR2: Found 5 dancers interested in buying online classes
-- KR3: 3 successful design sprint user testing for online classes
+- KR1: Yarima Online Course is launched by end of February 2025
+- KR2: Successful design sprint user testing for online classes (providers/artists)
+- KR3: Successful design sprint user testing for online classes (consumers/dancers)
 
-**O3: Establish Relationships with Organizers**
-
-- KR1: Found 5 organizers interested in ticketing for Regular Parties
-- KR2: Found 5 organizers interested in ticketing for Courses
-- KR3: Found 5 organizers interested in ticketing for Festivals
-- KR4: Successful 3 design sprints user testing for ticketing
+**O3: Pinakothek Booking**
+- KR1: Successful design sprint user testing for Pinakothek Booking (organizers)
+- KR2: Voting for Pinakothek Booking Policy is posted by end of February 2025
+- KR3: Pinakothek Booking is launched by end of March, 2025
 
 **O4: Grow community**
 
@@ -55,7 +49,6 @@
 - KR2: Munich Salsa Calendar campaign is launched by end of January 2025 (newsletter, telegram, instagram)
 - KR3: 10 videos of salsa cubana dancers from different cities
 - KR4: 10 videos of different dance styles in Munich
-- KR5: Voting for Pinakothek Booking Policy is posted by end of February 2025
 
 ## Challenges
 

@@ -51,39 +51,56 @@ watch(
           </div>
         </div>
         <!-- Desktop Navigation -->
-        <div class="hidden sm:ml-6 sm:flex sm:items-center space-x-8">
-          <NuxtLink
+        <div class="hidden sm:ml-6 sm:flex sm:items-center gap-2">
+          <Button as-child
+            variant="ghost"
             v-for="item in navigationItems"
-            :key="item.to"
-            :to="item.to"
-            class="flex items-center gap-2 transition-colors"
-            :class="[
-              route.path === item.to
-                ? 'text-accent'
-                : 'text-muted-foreground hover:text-accent',
-            ]"
-          >
-            <Icon :name="item.icon" class="h-4 w-4" />
-            {{ item.label }}
-          </NuxtLink>
+            :class="{'text-accent bg-accent/10': route.path === item.to}"  
+            :key="item.to">
+            <NuxtLink :to="item.to">
+              <Icon :name="item.icon" class="h-4 w-4" />
+              {{ item.label }}
+            </NuxtLink>
+          </Button>
           <Button variant="ghost" @click="handleSearch">
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
           <template v-if="auth.isAuthenticated">
-            <Button
-              variant="ghost"
-              @click="handleSignOut"
-              class="hover:text-accent transition-colors"
-            >
-              Sign Out
-            </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger as-child>
+                <Button variant="ghost" size="icon">
+                  <Icon name="lucide:user" class="h-4 w-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/profile">
+                    <Icon name="lucide:user" class="mr-2 h-4 w-4" />
+                    Profile
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/settings">
+                    <Icon name="lucide:settings" class="mr-2 h-4 w-4" />
+                    Settings
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/admin/">
+                    <Icon name="lucide:shield" class="mr-2 h-4 w-4" />
+                    Admin Area
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem @click="handleSignOut">
+                  <Icon name="lucide:log-out" class="mr-2 h-4 w-4" />
+                  Sign Out
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </template>
           <template v-else>
-            <Button
-              variant="default"
-              class="hover:bg-accent transition-colors"
-              as-child
-            >
+            <Button as-child>
               <NuxtLink to="/login">Sign In</NuxtLink>
             </Button>
           </template>

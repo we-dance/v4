@@ -74,9 +74,14 @@ const content = computed(() => variants[props.variant]);
 <template>
   <div class="min-h-[50vh] flex items-center justify-center">
     <div class="text-center">
-      <Icon :name="content.icon" class="w-16 h-16 text-gray-400 mx-auto mb-4" />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">{{ content.title }}</h2>
-      <p class="text-gray-600 mb-6">{{ content.description }}</p>
+      <Icon
+        :name="content.icon"
+        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
+      />
+      <h2 class="text-2xl font-bold text-foreground mb-2">
+        {{ content.title }}
+      </h2>
+      <p class="text-muted-foreground mb-6">{{ content.description }}</p>
       <Button v-if="content.action" as-child>
         <NuxtLink :to="content.action.to">{{ content.action.label }}</NuxtLink>
       </Button>

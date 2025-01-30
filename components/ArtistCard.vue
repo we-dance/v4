@@ -36,7 +36,7 @@ defineProps({
               <Badge
                 v-if="artist.level === 'master'"
                 variant="secondary"
-                class="bg-amber-50 text-amber-700 border-amber-200"
+                class="bg-warning/10 text-warning border-warning/20"
               >
                 Master
               </Badge>
@@ -158,7 +158,7 @@ defineProps({
       <div class="ml-auto flex items-center gap-4 shrink-0">
         <div class="flex items-center gap-2">
           <div class="flex items-center gap-1">
-            <Icon name="ph:star-fill" class="h-4 w-4 text-amber-500" />
+            <Icon name="ph:star-fill" class="h-4 w-4 text-warning" />
             <span class="font-medium text-foreground">{{ artist.rating }}</span>
             <span class="text-muted-foreground"
               >({{ artist.reviewCount }})</span

@@ -56,10 +56,12 @@ const showInfo = () => {
 <template>
   <div class="space-y-3">
     <div class="flex items-center gap-2">
-      <label class="block text-sm font-medium text-gray-700"> I am a... </label>
+      <label class="block text-sm font-medium text-foreground">
+        I am a...
+      </label>
       <button
         type="button"
-        class="text-gray-400 hover:text-gray-500"
+        class="text-muted-foreground hover:text-muted-foreground"
         @click="showInfo"
       >
         <Icon name="heroicons-outline:question-mark-circle" class="w-4 h-4" />
@@ -69,16 +71,16 @@ const showInfo = () => {
       <button
         v-for="type in types"
         :key="type.id"
-        class="flex flex-col items-center gap-2 p-4 rounded-xl border-2 transition-all duration-200 hover:border-purple-500 hover:bg-purple-50"
+        class="flex flex-col items-center gap-2 p-4 rounded-xl border-2 transition-all duration-200 hover:border-accent hover:bg-accent/10"
         :class="[
           modelValue === type.id
-            ? 'border-purple-500 bg-purple-50'
-            : 'border-gray-200',
+            ? 'border-accent bg-accent/10'
+            : 'border-muted',
         ]"
         @click="emit('update:modelValue', type.id)"
         type="button"
       >
-        <Icon :name="type.icon" class="w-6 h-6 text-purple-600" />
+        <Icon :name="type.icon" class="w-6 h-6 text-muted-foreground" />
         <span class="font-medium">{{ type.label }}</span>
       </button>
     </div>

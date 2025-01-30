@@ -14,13 +14,13 @@ defineProps<{
       :href="link.url"
       target="_blank"
       rel="noopener noreferrer"
-      class="block bg-gray-50 p-3 rounded-lg hover:bg-gray-100"
+      class="block bg-muted p-3 rounded-lg hover:bg-muted/80"
     >
       <div class="flex items-center gap-2">
-        <Icon name="ph:link" class="w-4 h-4 text-purple-600" />
-        <span class="text-purple-600">{{ link.title }}</span>
+        <Icon name="ph:link" class="w-4 h-4 text-primary" />
+        <span class="text-primary">{{ link.title }}</span>
       </div>
-      <p v-if="link.description" class="text-sm text-gray-600 mt-1">
+      <p v-if="link.description" class="text-sm text-muted-foreground mt-1">
         {{ link.description }}
       </p>
     </a>

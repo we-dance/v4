@@ -255,13 +255,13 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <div v-if="item" class="min-h-screen bg-gray-50 py-12">
+  <div v-if="item" class="min-h-screen bg-muted py-12">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="space-y-8">
         <!-- Header -->
         <div class="text-center">
           <h1 class="text-3xl font-bold">Checkout</h1>
-          <p class="text-gray-600 mt-2">
+          <p class="text-muted-foreground mt-2">
             {{
               type === "event"
                 ? "Complete your booking"
@@ -271,7 +271,7 @@ const handleSubmit = async () => {
         </div>
 
         <!-- Item Summary -->
-        <div class="bg-white rounded-xl border p-6">
+        <div class="bg-background rounded-xl border p-6">
           <div class="flex gap-6">
             <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
               <img
@@ -282,7 +282,7 @@ const handleSubmit = async () => {
             </div>
             <div>
               <h2 class="text-xl font-bold">{{ item.name }}</h2>
-              <div class="text-gray-600 space-y-1 mt-2">
+              <div class="text-muted-foreground space-y-1 mt-2">
                 <template v-if="type === 'event'">
                   <div class="flex items-center gap-2">
                     <Icon name="ph:calendar" class="w-4 h-4" />
@@ -321,7 +321,7 @@ const handleSubmit = async () => {
                         : checkoutPrice.name
                   }}
                 </div>
-                <div class="text-sm text-gray-600">
+                <div class="text-sm text-muted-foreground">
                   <template v-if="checkoutPrice.type === 'subscription'">
                     {{
                       displayInterval === "year"
@@ -342,7 +342,7 @@ const handleSubmit = async () => {
                   {{ checkoutPrice.amount }} {{ checkoutPrice.currency }}
                   <span
                     v-if="checkoutPrice.type === 'subscription'"
-                    class="text-sm font-normal text-gray-600"
+                    class="text-sm font-normal text-muted-foreground"
                   >
                     /{{ displayInterval }}
                   </span>
@@ -357,13 +357,13 @@ const handleSubmit = async () => {
           @submit.prevent="
             checkoutState === 'email' ? handleEmailCheck() : handleSubmit()
           "
-          class="bg-white rounded-xl border p-6"
+          class="bg-background rounded-xl border p-6"
         >
           <div class="space-y-6">
             <!-- Email Step -->
             <div v-if="checkoutState === 'email'">
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium text-foreground mb-2">
                   Email
                 </label>
                 <input
@@ -385,12 +385,12 @@ const handleSubmit = async () => {
 
             <!-- Login Step -->
             <div v-else-if="checkoutState === 'login'" class="space-y-4">
-              <p class="text-sm text-gray-600">
+              <p class="text-sm text-muted-foreground">
                 Welcome back! Please log in to continue.
               </p>
 
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium text-foreground mb-2">
                   Password
                 </label>
                 <input
@@ -409,7 +409,7 @@ const handleSubmit = async () => {
 
             <!-- Registration Step -->
             <div v-else-if="checkoutState === 'register'" class="space-y-6">
-              <p class="text-sm text-gray-600">
+              <p class="text-sm text-muted-foreground">
                 Create your account to join our dance community
               </p>
 
@@ -424,7 +424,7 @@ const handleSubmit = async () => {
 
               <!-- Phone -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium text-foreground mb-2">
                   Phone
                 </label>
                 <input
@@ -438,7 +438,7 @@ const handleSubmit = async () => {
 
               <!-- Password -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium text-foreground mb-2">
                   Password
                 </label>
                 <input
@@ -453,7 +453,7 @@ const handleSubmit = async () => {
               <!-- Terms -->
               <TermsCheckbox v-model="formData.terms" />
 
-              <div v-if="error" class="text-red-600 text-sm">
+              <div v-if="error" class="text-destructive text-sm">
                 {{ error }}
               </div>
 
@@ -473,12 +473,12 @@ const handleSubmit = async () => {
     <div class="text-center">
       <Icon
         :name="type === 'event' ? 'ph:calendar-x' : 'ph:video-camera-slash'"
-        class="w-16 h-16 text-gray-400 mx-auto mb-4"
+        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
       />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">
+      <h2 class="text-2xl font-bold text-foreground mb-2">
         {{ type === "event" ? "Event" : "Course" }} Not Found
       </h2>
-      <p class="text-gray-600 mb-6">
+      <p class="text-muted-foreground mb-6">
         The {{ type === "event" ? "event" : "course" }} you're looking for
         doesn't exist or has been removed.
       </p>

@@ -216,7 +216,9 @@ onMounted(() => {
                   >
                     {{ result.type }}
                   </Badge>
-                  <p class="font-medium truncate text-sm sm:text-base">
+                  <p
+                    class="font-medium truncate text-sm sm:text-base text-foreground"
+                  >
                     {{ result.title }}
                   </p>
                 </div>
@@ -262,8 +264,13 @@ onMounted(() => {
               class="flex flex-col items-center gap-2 p-3 hover:bg-muted rounded-lg text-center"
               @click="dialog.close()"
             >
-              <Icon :name="category.icon" class="w-6 h-6" />
-              <span class="text-sm">{{ category.name }}</span>
+              <Icon
+                :name="category.icon"
+                class="w-6 h-6 text-muted-foreground"
+              />
+              <span class="text-sm text-muted-foreground">{{
+                category.name
+              }}</span>
             </NuxtLink>
           </div>
         </div>

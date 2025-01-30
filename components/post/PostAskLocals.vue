@@ -10,7 +10,7 @@ defineProps<{
   <div class="px-4 pb-4 flex-1">
     <div class="space-y-4">
       <PostTitle :title="content.title" />
-      <p class="text-gray-600 whitespace-pre-wrap">
+      <p class="text-muted-foreground whitespace-pre-wrap">
         {{ content.text }}
       </p>
     </div>

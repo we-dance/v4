@@ -28,16 +28,16 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <div class="bg-gray-50">
+  <div class="bg-muted">
     <div class="max-w-xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="text-center mb-8">
-        <h1 class="text-3xl font-bold mb-3">Join WeDance</h1>
-        <p class="text-gray-600">
+        <h1 class="text-3xl font-bold text-foreground mb-3">Join WeDance</h1>
+        <p class="text-muted-foreground">
           Create your free account and start connecting with the dance community
         </p>
       </div>
 
-      <div class="bg-white rounded-xl border p-6">
+      <div class="bg-background rounded-xl border p-6">
         <form @submit.prevent="handleSubmit" class="space-y-6">
           <!-- User Type Selection -->
           <UserTypeSelect v-model="form.userType" :simplified="false" />
@@ -50,10 +50,10 @@ const handleSubmit = async () => {
 
           <!-- Email -->
           <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">
+            <label class="block text-sm font-medium text-foreground mb-2">
               Email
             </label>
-            <input
+            <Input
               v-model="form.email"
               type="email"
               required
@@ -64,10 +64,10 @@ const handleSubmit = async () => {
 
           <!-- Phone -->
           <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">
+            <label class="block text-sm font-medium text-foreground mb-2">
               Phone
             </label>
-            <input
+            <Input
               v-model="form.phone"
               type="tel"
               required
@@ -78,10 +78,10 @@ const handleSubmit = async () => {
 
           <!-- Password -->
           <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">
+            <label class="block text-sm font-medium text-foreground mb-2">
               Password
             </label>
-            <input
+            <Input
               v-model="form.password"
               type="password"
               required
@@ -94,7 +94,7 @@ const handleSubmit = async () => {
           <TermsCheckbox v-model="form.terms" />
 
           <!-- Error Message -->
-          <div v-if="error" class="text-red-600 text-sm">
+          <div v-if="error" class="text-destructive text-sm">
             {{ error }}
           </div>
 
@@ -105,9 +105,9 @@ const handleSubmit = async () => {
         </form>
       </div>
 
-      <div class="text-center text-sm text-gray-600 mt-6">
+      <div class="text-center text-sm text-muted-foreground mt-6">
         Already have an account?
-        <NuxtLink to="/login" class="text-purple-600 hover:text-purple-700">
+        <NuxtLink to="/login" class="text-primary hover:text-primary/80">
           Sign in
         </NuxtLink>
       </div>

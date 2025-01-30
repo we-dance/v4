@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { getMockCommunities } from "~/data/mockCommunities";
 import { mockEvents } from "~/data/mockEvents";
 import { mockPosts } from "~/data/mockPosts";
-import type { ArticlePost } from "~/schemas/post";
+import type { Post } from "~/schemas/post";
 import type { AnyEvent } from "~/schemas/event";
 import CommunityCard from "~/components/community/CommunityCard.vue";
 
@@ -24,20 +24,20 @@ const learningPosts = ref(
   mockPosts.filter((p) => {
     if (p.type !== "article") return false;
     const tags = p.content.tags || [];
-    return tags.some((tag) =>
+    return tags.some((tag: string) =>
       ["cuban-salsa", "basics", "tutorial", "casino", "rueda"].includes(tag)
     );
-  }) as ArticlePost[]
+  }).filter((p): p is Extract<Post, { type: "article" }> => p.type === "article")
 );
 
 const culturePosts = ref(
   mockPosts.filter((p) => {
     if (p.type !== "article") return false;
     const tags = p.content.tags || [];
-    return tags.some((tag) =>
-      ["cuban-culture", "history", "timba", "music"].includes(tag)
+    return tags.some((tag: string) =>
+      ["cuban-culture", "history", "music", "timba"].includes(tag)
     );
-  }) as ArticlePost[]
+  }).filter((p): p is Extract<Post, { type: "article" }> => p.type === "article")
 );
 
 const musicStyles = [
@@ -67,6 +67,13 @@ const handleImageError = (event: Event) => {
     img.style.display = "none";
   }
 };
+
+// Helper function to get price display
+const getEventPrice = (event: AnyEvent) => {
+  if (!event.prices?.length) return "Free";
+  const price = event.prices[0];
+  return `${price.amount}${price.currency}`;
+};
 </script>
 
 <template>
@@ -74,7 +81,7 @@ const handleImageError = (event: Event) => {
     <!-- Hero Section -->
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold mb-4">Cuban Style Salsa (Casino)</h1>
-      <p class="text-xl text-gray-600">
+      <p class="text-xl text-muted-foreground">
         Experience the vibrant, circular style of Cuban salsa with its rich
         Afro-Cuban roots
       </p>
@@ -84,7 +91,7 @@ const handleImageError = (event: Event) => {
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-6">About Cuban Style</h2>
       <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-sm">
+        <div class="bg-background p-6 rounded-lg shadow-sm">
           <h3 class="font-semibold text-lg mb-4">Key Characteristics</h3>
           <ul class="space-y-2">
             <li
@@ -97,17 +104,19 @@ const handleImageError = (event: Event) => {
             </li>
           </ul>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-sm">
+        <div class="bg-background p-6 rounded-lg shadow-sm">
           <h3 class="font-semibold text-lg mb-4">Music Styles</h3>
           <div class="space-y-4">
             <div v-for="style in musicStyles" :key="style.name">
               <h4 class="font-medium">{{ style.name }}</h4>
-              <p class="text-sm text-gray-600 mb-2">{{ style.description }}</p>
+              <p class="text-sm text-muted-foreground mb-2">
+                {{ style.description }}
+              </p>
               <div class="flex flex-wrap gap-2">
                 <span
                   v-for="example in style.examples"
                   :key="example"
-                  class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full"
+                  class="text-xs bg-accent text-muted-foreground px-2 py-1 rounded-full"
                 >
                   {{ example }}
                 </span>
@@ -124,7 +133,7 @@ const handleImageError = (event: Event) => {
         <h2 class="text-2xl font-semibold">Communities</h2>
         <NuxtLink
           to="/communities?style=cuban-salsa"
-          class="text-purple-600 hover:text-purple-700"
+          class="text-primary hover:text-primary/90"
         >
           View All
         </NuxtLink>
@@ -144,7 +153,7 @@ const handleImageError = (event: Event) => {
         <h2 class="text-2xl font-semibold">Upcoming Events</h2>
         <NuxtLink
           to="/events?style=cuban-salsa"
-          class="text-purple-600 hover:text-purple-700"
+          class="text-primary hover:text-primary/90"
         >
           View All
         </NuxtLink>
@@ -154,9 +163,9 @@ const handleImageError = (event: Event) => {
           v-for="event in events"
           :key="event.id"
           :to="`/events/${event.id}`"
-          class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+          class="block bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow"
         >
-          <div class="aspect-video rounded-t-lg overflow-hidden bg-gray-100">
+          <div class="aspect-video rounded-t-lg overflow-hidden bg-accent">
             <NuxtImg
               :src="event.image"
               :alt="event.name"
@@ -167,14 +176,16 @@ const handleImageError = (event: Event) => {
             <div class="flex items-center justify-between mb-2">
               <h3 class="font-semibold text-lg">{{ event.name }}</h3>
               <span
-                class="text-sm bg-purple-50 text-purple-600 px-2 py-1 rounded-full"
+                class="text-sm bg-primary/10 text-primary px-2 py-1 rounded-full"
               >
                 {{ event.tags[0] }}
               </span>
             </div>
-            <p class="text-gray-600 text-sm mb-4">{{ event.description }}</p>
+            <p class="text-muted-foreground text-sm mb-4">
+              {{ event.description }}
+            </p>
             <div class="space-y-2 text-sm">
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">When:</span>
                 <span>{{
                   new Date(event.date.start).toLocaleDateString()
@@ -184,21 +195,17 @@ const handleImageError = (event: Event) => {
                   {{ event.date.end.split("T")[1].slice(0, 5) }}</span
                 >
               </div>
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">Where:</span>
                 <span
                   >{{ event.location.name }}, {{ event.location.city }}</span
                 >
               </div>
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">Price:</span>
-                <span>{{
-                  event.price?.amount === 0
-                    ? "Free"
-                    : `${event.price?.amount}${event.price?.currency}`
-                }}</span>
+                <span>{{ getEventPrice(event) }}</span>
               </div>
-              <div class="flex items-center text-gray-500">
+              <div class="flex items-center text-muted-foreground">
                 <span class="w-20">By:</span>
                 <span>{{ event.organizer.name }}</span>
               </div>
@@ -212,7 +219,7 @@ const handleImageError = (event: Event) => {
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-6">Learn Cuban Style</h2>
       <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow-sm">
+        <div class="bg-background p-6 rounded-lg shadow-sm">
           <h3 class="font-semibold text-lg mb-4">Getting Started</h3>
           <div class="space-y-4">
             <NuxtLink
@@ -222,7 +229,7 @@ const handleImageError = (event: Event) => {
               class="group block"
             >
               <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
+                <div class="w-24 h-16 rounded overflow-hidden bg-accent">
                   <NuxtImg
                     :src="post.content.cover"
                     :alt="post.content.title"
@@ -230,13 +237,13 @@ const handleImageError = (event: Event) => {
                   />
                 </div>
                 <div class="flex-1">
-                  <h4 class="font-medium group-hover:text-purple-600">
+                  <h4 class="font-medium group-hover:text-primary">
                     {{ post.content.title }}
                   </h4>
-                  <p class="text-sm text-gray-600 line-clamp-1">
+                  <p class="text-sm text-muted-foreground line-clamp-1">
                     {{ post.content.description }}
                   </p>
-                  <div class="text-xs text-gray-500 mt-1">
+                  <div class="text-xs text-muted-foreground mt-1">
                     {{ post.author.name }} •
                     {{ new Date(post.timestamp).toLocaleDateString() }}
                   </div>
@@ -245,7 +252,7 @@ const handleImageError = (event: Event) => {
             </NuxtLink>
           </div>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-sm">
+        <div class="bg-background p-6 rounded-lg shadow-sm">
           <h3 class="font-semibold text-lg mb-4">Music & Culture</h3>
           <div class="space-y-4">
             <NuxtLink
@@ -255,7 +262,7 @@ const handleImageError = (event: Event) => {
               class="group block"
             >
               <div class="flex gap-4">
-                <div class="w-24 h-16 rounded overflow-hidden bg-gray-100">
+                <div class="w-24 h-16 rounded overflow-hidden bg-accent">
                   <NuxtImg
                     :src="post.content.cover"
                     :alt="post.content.title"
@@ -263,13 +270,13 @@ const handleImageError = (event: Event) => {
                   />
                 </div>
                 <div class="flex-1">
-                  <h4 class="font-medium group-hover:text-purple-600">
+                  <h4 class="font-medium group-hover:text-primary">
                     {{ post.content.title }}
                   </h4>
-                  <p class="text-sm text-gray-600 line-clamp-1">
+                  <p class="text-sm text-muted-foreground line-clamp-1">
                     {{ post.content.description }}
                   </p>
-                  <div class="text-xs text-gray-500 mt-1">
+                  <div class="text-xs text-muted-foreground mt-1">
                     {{ post.author.name }} •
                     {{ new Date(post.timestamp).toLocaleDateString() }}
                   </div>

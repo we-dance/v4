@@ -36,6 +36,7 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        dark: "hsl(var(--dark))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -47,6 +48,18 @@ export default {
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        info: {
+          DEFAULT: "hsl(var(--info))",
+          foreground: "hsl(var(--info-foreground))",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
@@ -111,16 +124,16 @@ export default {
         DEFAULT: {
           css: {
             maxWidth: "none",
-            color: "rgb(107 70 193 / 0.8)", // purple-700 with opacity
+            color: "hsl(var(--foreground))",
             h2: {
-              color: "rgb(88 28 135)", // purple-900
+              color: "hsl(var(--foreground))",
               fontWeight: "600",
               fontSize: "1.25em",
               marginTop: "1.5em",
               marginBottom: "0.75em",
             },
             h3: {
-              color: "rgb(88 28 135)", // purple-900
+              color: "hsl(var(--foreground))",
               fontWeight: "500",
               fontSize: "1.1em",
               marginTop: "1.25em",
@@ -135,26 +148,26 @@ export default {
               marginBottom: "0.125em",
             },
             li: {
-              marginTop: "0.05em",
-              marginBottom: "0.05em",
+              marginTop: "0.5em",
+              marginBottom: "0.5em",
               lineHeight: "1.2",
             },
             "ul > li::before": {
-              backgroundColor: "rgb(147 51 234)", // purple-600
+              backgroundColor: "hsl(var(--muted-foreground))",
               width: "0.25em",
               height: "0.25em",
               marginTop: "0.5em",
               marginLeft: "-0.75em",
             },
             strong: {
-              color: "rgb(88 28 135)", // purple-900
+              color: "hsl(var(--foreground))",
               fontWeight: "600",
             },
             a: {
-              color: "rgb(147 51 234)", // purple-600
+              color: "hsl(var(--info))",
               textDecoration: "none",
+              transition: "all 0.2s ease",
               "&:hover": {
-                color: "rgb(126 34 206)", // purple-700
                 textDecoration: "underline",
               },
             },

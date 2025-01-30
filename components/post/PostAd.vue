@@ -16,7 +16,7 @@ defineProps<{
     />
     <div class="p-4 space-y-4">
       <PostTitle :title="content.title" />
-      <p class="text-gray-600">{{ content.description }}</p>
+      <p class="text-muted-foreground">{{ content.description }}</p>
     </div>
   </div>
 </template>

@@ -124,26 +124,39 @@ const getIssueId = (path: string) => {
 const getPriorityColor = (priority: string) => {
   switch (priority.toLowerCase()) {
     case "high":
-      return "bg-red-500";
+      return "bg-destructive";
     case "medium":
-      return "bg-yellow-500";
+      return "bg-warning";
     case "low":
-      return "bg-green-500";
+      return "bg-success";
     default:
-      return "bg-gray-500";
+      return "bg-muted-foreground";
   }
 };
 
 const getStatusColor = (status: string) => {
   switch (status) {
-    case "todo":
-      return "bg-gray-100";
+    case "blocked":
+      return "bg-destructive";
     case "in-progress":
-      return "bg-blue-50";
+      return "bg-warning";
     case "done":
-      return "bg-green-50";
+      return "bg-success";
     default:
-      return "bg-gray-50";
+      return "bg-muted";
+  }
+};
+
+const getBackgroundColor = (status: string) => {
+  switch (status) {
+    case "todo":
+      return "bg-muted/10";
+    case "in-progress":
+      return "bg-warning/10";
+    case "done":
+      return "bg-accent/10";
+    default:
+      return "bg-muted/10";
   }
 };
 
@@ -176,13 +189,13 @@ const toggleIssue = async (path: string) => {
           :class="[
             'px-2 py-1 rounded-full text-xs transition-all flex items-center gap-2',
             selectedEpic === epic.id
-              ? 'bg-purple-100 text-purple-800 ring-1 ring-purple-200'
-              : 'bg-purple-50 text-purple-600 hover:bg-purple-100',
+              ? 'bg-accent/10 text-accent ring-1 ring-accent/20'
+              : 'bg-accent/50 text-accent hover:bg-accent/20',
           ]"
         >
           {{ epic.title }}
           <span
-            class="px-1.5 py-0.5 rounded-full bg-purple-100 text-purple-800 text-[10px]"
+            class="px-1.5 py-0.5 rounded-full bg-accent/100 text-accent text-[10px]"
           >
             {{ epic.count }}
           </span>
@@ -192,16 +205,16 @@ const toggleIssue = async (path: string) => {
       <!-- Selected Epic Details -->
       <div
         v-if="selectedEpic"
-        class="mt-3 p-4 rounded-lg border border-purple-200 bg-purple-50 space-y-4"
+        class="mt-3 p-4 rounded-lg border border-accent/20 bg-accent/50 space-y-4"
       >
         <div class="flex items-start justify-between gap-4">
           <div>
             <div class="flex items-center gap-2">
-              <h3 class="font-medium text-gray-900 text-sm">
+              <h3 class="font-medium text-foreground text-sm">
                 {{ getEpicTitle(selectedEpic) }}
               </h3>
             </div>
-            <p class="mt-1 text-xs text-gray-600">
+            <p class="mt-1 text-xs text-muted-foreground">
               {{ getEpicInfo(selectedEpic)?.description }}
             </p>
           </div>
@@ -210,7 +223,7 @@ const toggleIssue = async (path: string) => {
         <!-- Driver -->
         <div
           v-if="getEpicInfo(selectedEpic)?.body"
-          class="prose prose-xs max-w-none prose-headings:text-xs prose-headings:font-semibold prose-headings:text-gray-900 prose-p:text-gray-600 prose-p:text-xs prose-li:text-gray-600 prose-li:text-xs"
+          class="prose prose-xs max-w-none prose-headings:text-xs prose-headings:font-semibold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:text-xs prose-li:text-muted-foreground prose-li:text-xs"
         >
           <ContentRendererMarkdown :value="getEpicInfo(selectedEpic)?.body" />
         </div>
@@ -225,9 +238,9 @@ const toggleIssue = async (path: string) => {
         :class="[
           'rounded-lg p-3 transition-all',
           selectedIssue === issue._path
-            ? 'shadow-lg ring-1 ring-purple-200'
+            ? 'shadow-lg ring-1 ring-accent/20'
             : 'hover:shadow-md',
-          getStatusColor(issue.status),
+          getBackgroundColor(issue.status),
         ]"
       >
         <div class="flex items-start gap-3">
@@ -242,27 +255,31 @@ const toggleIssue = async (path: string) => {
                   getPriorityColor(issue.priority),
                 ]"
               />
-              <div class="text-[10px] text-gray-500 font-mono">
+              <div class="text-[10px] text-muted-foreground font-mono">
                 US-{{ getIssueId(issue._path) }}
               </div>
-              <h3 class="font-medium text-sm">{{ issue.title }}</h3>
+              <h3 class="font-medium text-foreground text-sm">
+                {{ issue.title }}
+              </h3>
               <Icon
                 :name="
                   selectedIssue === issue._path
                     ? 'uil:angle-up'
                     : 'uil:angle-down'
                 "
-                class="w-3 h-3 ml-auto text-gray-500"
+                class="w-3 h-3 ml-auto text-muted-foreground"
               />
             </div>
-            <p class="mt-1 text-xs text-gray-600">{{ issue.description }}</p>
+            <p class="mt-1 text-xs text-muted-foreground">
+              {{ issue.description }}
+            </p>
 
             <div class="mt-2 flex flex-wrap items-center gap-2">
               <div class="flex gap-1">
                 <button
                   v-if="issue.epic"
                   @click.stop="selectEpic(issue.epic)"
-                  class="text-[10px] px-1.5 py-0.5 rounded-full border border-purple-200 bg-purple-50 text-purple-700 hover:bg-purple-100 transition-colors"
+                  class="text-[10px] px-1.5 py-0.5 rounded-full border border-accent/20 bg-accent/10 text-accent hover:bg-accent/20 transition-colors"
                 >
                   {{ getEpicTitle(issue.epic) }}
                 </button>
@@ -276,7 +293,9 @@ const toggleIssue = async (path: string) => {
                 </Badge>
               </div>
 
-              <div class="flex items-center gap-1 text-[10px] text-gray-500">
+              <div
+                class="flex items-center gap-1 text-[10px] text-muted-foreground"
+              >
                 <Icon name="uil:user" class="w-3 h-3" />
                 {{ issue.assignee }}
               </div>
@@ -284,10 +303,9 @@ const toggleIssue = async (path: string) => {
               <Badge
                 class="text-[10px]"
                 :class="{
-                  'bg-gray-100 hover:bg-gray-200': issue.status === 'todo',
-                  'bg-blue-100 hover:bg-blue-200':
-                    issue.status === 'in-progress',
-                  'bg-green-100 hover:bg-green-200': issue.status === 'done',
+                  'bg-muted hover:bg-muted/80': issue.status === 'todo',
+                  'bg-info/10 hover:bg-info/20': issue.status === 'in-progress',
+                  'bg-success/10 hover:bg-success/20': issue.status === 'done',
                 }"
               >
                 {{ issue.status }}
@@ -297,10 +315,10 @@ const toggleIssue = async (path: string) => {
             <!-- Expanded Content -->
             <div
               v-if="selectedIssue === issue._path"
-              class="mt-4 prose prose-xs max-w-none prose-headings:text-xs prose-headings:font-semibold prose-headings:text-gray-900 prose-p:text-gray-600 prose-p:text-xs prose-li:text-gray-600 prose-li:text-xs"
+              class="mt-4 prose prose-xs max-w-none prose-headings:text-xs prose-headings:font-semibold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:text-xs prose-li:text-muted-foreground prose-li:text-xs"
             >
               <ContentRendererMarkdown v-if="issue.body" :value="issue.body" />
-              <div v-else class="text-xs text-gray-500 italic">
+              <div v-else class="text-xs text-muted-foreground italic">
                 Loading content...
               </div>
             </div>

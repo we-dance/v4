@@ -13,28 +13,24 @@ const emit = defineEmits<{
 <template>
   <div class="grid sm:grid-cols-2 gap-6">
     <div>
-      <label class="block text-sm font-medium text-gray-700 mb-2"
+      <label class="block text-sm font-medium text-foreground mb-2"
         >First Name</label
       >
-      <input
+      <Input
         :value="firstName"
-        @input="
-          emit('update:firstName', ($event.target as HTMLInputElement).value)
-        "
+        @update:modelValue="emit('update:firstName', $event)"
         type="text"
         required
         class="w-full px-4 py-2 border rounded-lg"
       />
     </div>
     <div>
-      <label class="block text-sm font-medium text-gray-700 mb-2"
+      <label class="block text-sm font-medium text-foreground mb-2"
         >Last Name</label
       >
-      <input
+      <Input
         :value="lastName"
-        @input="
-          emit('update:lastName', ($event.target as HTMLInputElement).value)
-        "
+        @update:modelValue="emit('update:lastName', $event)"
         type="text"
         required
         class="w-full px-4 py-2 border rounded-lg"

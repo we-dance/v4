@@ -8,7 +8,10 @@ import EventCard from "~/components/event/EventCard.vue";
 const getMinPrice = (event: AnyEvent): { amount: number; currency: string } => {
   // Check prices array
   if (event.prices?.length) {
-    const minPrice = event.prices.reduce((min, p) => p.amount < min.amount ? p : min, event.prices[0]);
+    const minPrice = event.prices.reduce(
+      (min, p) => (p.amount < min.amount ? p : min),
+      event.prices[0]
+    );
     return { amount: minPrice.amount, currency: minPrice.currency };
   }
 
@@ -20,12 +23,15 @@ const getMinPrice = (event: AnyEvent): { amount: number; currency: string } => {
 const currencyRates = {
   EUR: 1,
   GBP: 1.17, // 1 GBP = 1.17 EUR
-  USD: 0.92  // 1 USD = 0.92 EUR
+  USD: 0.92, // 1 USD = 0.92 EUR
 };
 
 // Convert price to EUR for comparison
 const convertToEUR = (price: { amount: number; currency: string }): number => {
-  return price.amount * (currencyRates[price.currency as keyof typeof currencyRates] || 1);
+  return (
+    price.amount *
+    (currencyRates[price.currency as keyof typeof currencyRates] || 1)
+  );
 };
 
 const events = ref(mockEvents);
@@ -154,7 +160,18 @@ const filteredEvents = computed(() => {
   return filtered;
 });
 
-// Sort events
+// Update price calculation logic
+const getEventPrice = (event: AnyEvent) => {
+  if ("price" in event && event.price?.amount) {
+    return event.price.amount;
+  }
+  if ("prices" in event && event.prices?.length) {
+    return Math.min(...event.prices.map((p) => p.amount));
+  }
+  return 0;
+};
+
+// Update sorting logic
 const sortedEvents = computed(() => {
   const events = [...filteredEvents.value];
 
@@ -191,7 +208,7 @@ const handleBook = (event: AnyEvent) => {
 </script>
 
 <template>
-  <div class="bg-gray-50">
+  <div class="bg-muted">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
       <!-- Role Filter with Search -->
       <div class="flex items-center gap-4 overflow-x-auto">
@@ -199,7 +216,7 @@ const handleBook = (event: AnyEvent) => {
           <Button
             v-for="type in typeOptions"
             :key="type.value"
-            :variant="selectedType === type.value ? 'default' : 'outline'"
+            :variant="selectedType === type.value ? 'secondary' : 'outline'"
             @click="selectedType = type.value"
             class="whitespace-nowrap"
           >
@@ -304,9 +321,14 @@ const handleBook = (event: AnyEvent) => {
       v-if="sortedEvents.length === 0"
       class="col-span-full text-center py-12"
     >
-      <Icon name="ph:calendar-x" class="mx-auto h-12 w-12 text-gray-400" />
-      <h3 class="mt-2 text-sm font-semibold text-gray-900">No events found</h3>
-      <p class="mt-1 text-sm text-gray-500">
+      <Icon
+        name="ph:calendar-x"
+        class="mx-auto h-12 w-12 text-muted-foreground"
+      />
+      <h3 class="mt-2 text-sm font-semibold text-foreground">
+        No events found
+      </h3>
+      <p class="mt-1 text-sm text-muted-foreground">
         Try adjusting your search terms or clear the search.
       </p>
     </div>

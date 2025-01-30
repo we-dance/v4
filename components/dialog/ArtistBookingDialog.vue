@@ -68,20 +68,20 @@ const handleSelect = (service: {
     <div
       v-for="service in services"
       :key="service.type"
-      class="bg-white rounded-lg border p-4 hover:border-purple-600 cursor-pointer transition-colors"
+      class="bg-background rounded-lg border p-4 hover:border-accent cursor-pointer transition-colors"
       @click="handleSelect(service)"
     >
       <div class="flex items-start gap-4">
         <div
-          class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0"
+          class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
         >
-          <Icon :name="service.icon" class="w-5 h-5 text-purple-600" />
+          <Icon :name="service.icon" class="w-5 h-5 text-primary" />
         </div>
         <div class="flex-1">
           <div class="flex items-start justify-between gap-4">
             <div>
               <div class="font-medium">{{ service.name }}</div>
-              <div class="text-sm text-gray-600">
+              <div class="text-sm text-muted-foreground">
                 {{ service.description }}
               </div>
             </div>
@@ -89,7 +89,7 @@ const handleSelect = (service: {
               <div class="font-bold">
                 {{ service.amount }} {{ service.currency }}
               </div>
-              <div class="text-sm text-gray-600">
+              <div class="text-sm text-muted-foreground">
                 {{ service.duration }} minutes
               </div>
             </div>

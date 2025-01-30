@@ -69,13 +69,13 @@ const culturalContext = {
 <template>
   <div>
     <!-- Hero Section -->
-    <div class="pt-32 pb-12 bg-gradient-to-b from-purple-50 to-white">
+    <div class="pt-32 pb-12 bg-gradient-to-b from-primary-50 to-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl md:text-5xl font-bold mb-6">
             Cuban Dance Traditions
           </h1>
-          <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p class="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             Discover the rich tapestry of Cuban dance, from ancient Afro-Cuban
             traditions to modern social dances, each telling a unique story of
             cultural fusion and preservation.
@@ -85,29 +85,36 @@ const culturalContext = {
     </div>
 
     <!-- Dance Traditions -->
-    <div class="py-12 bg-white">
+    <div class="py-12 bg-background">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid gap-8">
           <div
             v-for="tradition in traditions"
             :key="tradition.name"
-            class="bg-white rounded-xl shadow-sm p-6"
+            class="bg-background rounded-xl shadow-sm p-6"
           >
             <h2 class="text-2xl font-bold mb-4">{{ tradition.name }}</h2>
-            <p class="text-gray-600 mb-6">{{ tradition.description }}</p>
+            <p class="text-muted-foreground mb-6">
+              {{ tradition.description }}
+            </p>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div
                 v-for="dance in tradition.dances || tradition.styles"
                 :key="dance.name"
-                class="bg-gray-50 rounded-lg p-4"
+                class="bg-muted rounded-lg p-4"
               >
                 <h3 class="font-bold mb-2">{{ dance.name }}</h3>
-                <p class="text-sm text-gray-600">{{ dance.description }}</p>
-                <div v-if="dance.origin" class="mt-2 text-sm text-gray-500">
+                <p class="text-sm text-muted-foreground">
+                  {{ dance.description }}
+                </p>
+                <div
+                  v-if="dance.origin"
+                  class="mt-2 text-sm text-muted-foreground"
+                >
                   Origin: {{ dance.origin }}
                 </div>
-                <div class="mt-2 text-sm text-gray-500">
+                <div class="mt-2 text-sm text-muted-foreground">
                   Context: {{ dance.context }}
                 </div>
               </div>
@@ -118,7 +125,7 @@ const culturalContext = {
     </div>
 
     <!-- Cultural Context -->
-    <div class="py-12 bg-gray-50">
+    <div class="py-12 bg-muted">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold mb-8 text-center">Cultural Heritage</h2>
         <div class="prose max-w-none">
