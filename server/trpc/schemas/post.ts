@@ -85,6 +85,19 @@ const adContentSchema = z.object({
   tags: z.array(z.string()).optional(),
 });
 
+const eventContentSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  image: z.string().optional(),
+  date: z.string(),
+  location: z.string(),
+  price: z.object({
+    amount: z.number(),
+    currency: z.string(),
+  }).optional(),
+  tags: z.array(z.string()).optional(),
+});
+
 // Main post schema using discriminated union
 export const postSchema = z.discriminatedUnion("type", [
   z.object({
@@ -149,6 +162,14 @@ export const postSchema = z.discriminatedUnion("type", [
     author: authorSchema,
     timestamp: z.string(),
     content: adContentSchema,
+    stats: statsSchema,
+  }),
+  z.object({
+    type: z.literal("event"),
+    id: z.number(),
+    author: authorSchema,
+    timestamp: z.string(),
+    content: eventContentSchema,
     stats: statsSchema,
   }),
 ]);
