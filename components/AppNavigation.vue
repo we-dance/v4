@@ -51,21 +51,24 @@ watch(
           </div>
         </div>
         <!-- Desktop Navigation -->
-        <div class="hidden sm:ml-6 sm:flex sm:items-center space-x-8">
-          <NuxtLink
+        <div class="hidden sm:ml-6 sm:flex sm:items-center">
+          <Button as-child
+            variant="ghost"
             v-for="item in navigationItems"
-            :key="item.to"
-            :to="item.to"
-            class="flex items-center gap-2 transition-colors"
-            :class="[
-              route.path === item.to
-                ? 'text-primary'
-                : 'text-muted-foreground hover:text-primary',
-            ]"
-          >
-            <Icon :name="item.icon" class="h-4 w-4" />
-            {{ item.label }}
-          </NuxtLink>
+            :key="item.to">
+            <NuxtLink  
+              :to="item.to"
+              class="flex items-center gap-2 transition-colors"
+              :class="[
+                route.path === item.to
+                  ? 'text-primary'
+                  : 'text-muted-foreground hover:text-primary',
+              ]"
+            >
+              <Icon :name="item.icon" class="h-4 w-4" />
+              {{ item.label }}
+            </NuxtLink>
+          </Button>
           <Button variant="ghost" @click="handleSearch">
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
