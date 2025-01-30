@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { getMockCommunities } from "~/data/mockCommunities";
 import { mockEvents } from "~/data/mockEvents";
 import { mockPosts } from "~/data/mockPosts";
-import type { ArticlePost } from "~/schemas/post";
+import type { Post } from "~/schemas/post";
 import type { AnyEvent } from "~/schemas/event";
 import CommunityCard from "~/components/community/CommunityCard.vue";
 
@@ -24,20 +24,20 @@ const learningPosts = ref(
   mockPosts.filter((p) => {
     if (p.type !== "article") return false;
     const tags = p.content.tags || [];
-    return tags.some((tag) =>
+    return tags.some((tag: string) =>
       ["cuban-salsa", "basics", "tutorial", "casino", "rueda"].includes(tag)
     );
-  }) as ArticlePost[]
+  }).filter((p): p is Extract<Post, { type: "article" }> => p.type === "article")
 );
 
 const culturePosts = ref(
   mockPosts.filter((p) => {
     if (p.type !== "article") return false;
     const tags = p.content.tags || [];
-    return tags.some((tag) =>
-      ["cuban-culture", "history", "timba", "music"].includes(tag)
+    return tags.some((tag: string) =>
+      ["cuban-culture", "history", "music", "timba"].includes(tag)
     );
-  }) as ArticlePost[]
+  }).filter((p): p is Extract<Post, { type: "article" }> => p.type === "article")
 );
 
 const musicStyles = [
@@ -66,6 +66,13 @@ const handleImageError = (event: Event) => {
   if (img) {
     img.style.display = "none";
   }
+};
+
+// Helper function to get price display
+const getEventPrice = (event: AnyEvent) => {
+  if (!event.prices?.length) return "Free";
+  const price = event.prices[0];
+  return `${price.amount}${price.currency}`;
 };
 </script>
 
@@ -196,7 +203,7 @@ const handleImageError = (event: Event) => {
               </div>
               <div class="flex items-center text-muted-foreground">
                 <span class="w-20">Price:</span>
-                <span>{{ event.prices ? event.prices[0] : "Free" }}</span>
+                <span>{{ getEventPrice(event) }}</span>
               </div>
               <div class="flex items-center text-muted-foreground">
                 <span class="w-20">By:</span>

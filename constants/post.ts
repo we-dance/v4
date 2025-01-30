@@ -17,4 +17,7 @@ export const POST_ACTIONS = {
   gig: "Apply",
   ask_locals: "Share Info",
   ad: "Contact",
+  event: "Book Now",
+  note: "Comment",
+  video: "Watch"
 } as const;

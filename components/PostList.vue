@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { usePostsList, useUpdateStats } from "~/composables/trpc";
 import { useQueryClient } from "vue-query";
-import type { Post } from "~/server/trpc/schemas/post";
+import type { Post } from "~/schemas/post";
 import type { PropType } from "vue";
 
 const props = defineProps({

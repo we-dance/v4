@@ -1,7 +1,10 @@
+import { z } from 'zod';
 import { mockEvents } from "./mockEvents";
 import { eventToFeedPost } from "~/schemas/event";
+import { postSchema, type Post } from "~/schemas/post";
 
-export const mockPosts = [
+// Define mock posts
+const mockPostsData = [
   {
     id: 1,
     type: "note",
@@ -38,12 +41,10 @@ export const mockPosts = [
       title: "3 Essential Body Movement Exercises for Salsa",
       video: {
         url: "https://youtube.com/watch?v=example",
-        thumbnail:
-          "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4",
+        thumbnail: "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4",
         duration: "8:24",
       },
-      description:
-        "Quick tutorial showing three fundamental exercises to improve your body movement in salsa. Perfect for beginners!",
+      description: "Quick tutorial showing three fundamental exercises to improve your body movement in salsa. Perfect for beginners!",
       tags: ["tutorial", "technique", "body-movement"],
     },
     stats: {
@@ -52,7 +53,6 @@ export const mockPosts = [
       shares: 45,
     },
   },
-  eventToFeedPost(mockEvents[3]),
   {
     id: 2,
     type: "note",
@@ -112,7 +112,6 @@ export const mockPosts = [
       shares: 0,
     },
   },
-  eventToFeedPost(mockEvents[2]),
   {
     id: 5,
     type: "article",
@@ -332,7 +331,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "cuban-salsa-basics",
+    id: 101,
     type: "article",
     author: {
       id: "pedro_1",
@@ -348,6 +347,7 @@ export const mockPosts = [
         "Learn the foundational steps and body movement of Cuban style salsa",
       cover:
         "https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80",
+      html: "Learn the foundational steps and body movement of Cuban style salsa...",
       tags: ["cuban-salsa", "basics", "tutorial"],
     },
     stats: {
@@ -357,7 +357,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "casino-rueda-guide",
+    id: 102,
     type: "article",
     author: {
       id: "rosa_1",
@@ -373,6 +373,7 @@ export const mockPosts = [
         "Get started with the exciting world of Cuban salsa circle dancing",
       cover:
         "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+      html: "Get started with the exciting world of Cuban salsa circle dancing...",
       tags: ["rueda", "casino", "tutorial"],
     },
     stats: {
@@ -382,7 +383,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "timba-music-guide",
+    id: 103,
     type: "article",
     author: {
       id: "dj_timba_1",
@@ -397,6 +398,7 @@ export const mockPosts = [
       description: "Deep dive into the complex rhythms and structure of Timba",
       cover:
         "https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80",
+      html: "Deep dive into the complex rhythms and structure of Timba...",
       tags: ["timba", "music", "musicality"],
     },
     stats: {
@@ -406,7 +408,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "cuban-dance-culture",
+    id: 104,
     type: "article",
     author: {
       id: "maria_1",
@@ -422,6 +424,7 @@ export const mockPosts = [
         "Explore the rich history and cultural context of Cuban salsa",
       cover:
         "https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80",
+      html: "Explore the rich history and cultural context of Cuban salsa...",
       tags: ["cuban-culture", "history", "dance"],
     },
     stats: {
@@ -431,7 +434,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "getting-started-with-salsa",
+    id: 105,
     type: "article",
     author: {
       id: "maria_1",
@@ -446,6 +449,7 @@ export const mockPosts = [
       description: "A complete beginner's guide to salsa dancing",
       cover:
         "https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80",
+      html: "A complete beginner's guide to salsa dancing...",
       tags: ["beginner-guide", "salsa-basics"],
     },
     stats: {
@@ -455,7 +459,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "choosing-salsa-style",
+    id: 106,
     type: "article",
     author: {
       id: "carlos_1",
@@ -470,6 +474,7 @@ export const mockPosts = [
       description: "Compare different salsa styles and find your perfect match",
       cover:
         "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+      html: "Compare different salsa styles and find your perfect match...",
       tags: ["salsa-styles", "beginner-guide"],
     },
     stats: {
@@ -479,7 +484,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "teaching-salsa",
+    id: 107,
     type: "article",
     author: {
       id: "juan_1",
@@ -494,6 +499,7 @@ export const mockPosts = [
       description: "Essential tools and methods for salsa instructors",
       cover:
         "https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80",
+      html: "Essential tools and methods for salsa instructors...",
       tags: ["teaching", "instruction", "methodology"],
     },
     stats: {
@@ -503,7 +509,7 @@ export const mockPosts = [
     },
   },
   {
-    id: "salsa-music-guide",
+    id: 108,
     type: "article",
     author: {
       id: "ana_1",
@@ -518,6 +524,7 @@ export const mockPosts = [
       description: "Understanding salsa music structure and rhythms",
       cover:
         "https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80",
+      html: "Understanding salsa music structure and rhythms...",
       tags: ["music", "musicality", "rhythm"],
     },
     stats: {
@@ -526,4 +533,14 @@ export const mockPosts = [
       shares: 32,
     },
   },
-];
+] as const;
+
+// Validate with Zod schema
+export const mockPosts = z.array(postSchema).parse([
+  ...mockPostsData,
+  eventToFeedPost(mockEvents[3]),
+  eventToFeedPost(mockEvents[2]),
+]);
+
+// Export type for TypeScript support
+export type MockPosts = typeof mockPosts;

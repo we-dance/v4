@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Post } from "~/schemas/post";
-import { defineAsyncComponent, type Component } from "vue";
+import { defineAsyncComponent, markRaw, type Component } from "vue";
+import type { DefineComponent } from "vue";
 import PostSkeleton from "../common/PostSkeleton.vue";
 import ErrorBoundary from "../common/ErrorBoundary.vue";
 
@@ -25,7 +26,7 @@ const getAsyncComponent = (type: Post["type"]) => {
   return defineAsyncComponent({
     loader: async () => {
       const comp = await component();
-      return comp as Component;
+      return markRaw(comp);
     },
     loadingComponent: PostSkeleton,
     errorComponent: ErrorBoundary,
