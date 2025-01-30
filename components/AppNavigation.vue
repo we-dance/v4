@@ -55,6 +55,7 @@ watch(
           <Button as-child
             variant="ghost"
             v-for="item in navigationItems"
+            :class="{'text-accent bg-accent/10': route.path === item.to}"  
             :key="item.to">
             <NuxtLink :to="item.to">
               <Icon :name="item.icon" class="h-4 w-4" />
