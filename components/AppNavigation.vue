@@ -66,7 +66,32 @@ watch(
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
           <template v-if="auth.isAuthenticated">
-            <Button variant="ghost" @click="handleSignOut"> Sign Out </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger as-child>
+                <Button variant="ghost" size="icon">
+                  <Icon name="lucide:user" class="h-4 w-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/profile">
+                    <Icon name="lucide:user" class="mr-2 h-4 w-4" />
+                    Profile
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/settings">
+                    <Icon name="lucide:settings" class="mr-2 h-4 w-4" />
+                    Settings
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem @click="handleSignOut">
+                  <Icon name="lucide:log-out" class="mr-2 h-4 w-4" />
+                  Sign Out
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </template>
           <template v-else>
             <Button as-child>
