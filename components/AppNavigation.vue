@@ -85,6 +85,12 @@ watch(
                     Settings
                   </NuxtLink>
                 </DropdownMenuItem>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/admin/">
+                    <Icon name="lucide:shield" class="mr-2 h-4 w-4" />
+                    Admin Area
+                  </NuxtLink>
+                </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem @click="handleSignOut">
                   <Icon name="lucide:log-out" class="mr-2 h-4 w-4" />
