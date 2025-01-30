@@ -84,23 +84,18 @@ const handleFollow = () => {
             <!-- Left: Content -->
             <div class="text-center md:text-left">
               <div
-                class="flex items-center justify-center md:justify-start gap-2 text-background/80 mb-4"
-              >
+                class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-4">
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
                 <span class="text-sm md:text-base">{{ artist.location }}</span>
               </div>
-              <h1
-                class="text-2xl md:text-4xl lg:text-5xl font-bold text-background mb-4"
-              >
+              <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                 {{ artist.name }}
               </h1>
-              <div
-                class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-background/80 mb-6"
-              >
+              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-muted-foreground mb-6">
                 <Badge
                   v-if="artist.level === 'master'"
                   variant="secondary"
-                  class="bg-warning/10 text-warning border-warning/20"
+                  class="bg-warning/20 text-warning border-warning/30"
                 >
                   Master
                 </Badge>
@@ -108,27 +103,21 @@ const handleFollow = () => {
                   v-for="role in artist.roles"
                   :key="role"
                   variant="secondary"
-                  class="capitalize"
+                  class="capitalize bg-background/10 text-foreground border-border/20"
                 >
                   {{ role }}
                 </Badge>
               </div>
 
               <!-- Stats -->
-              <div
-                class="flex justify-center md:justify-start gap-8 text-background/80 mb-8"
-              >
+              <div class="flex justify-center md:justify-start gap-8 text-foreground mb-8">
                 <div>
-                  <div class="text-xl font-bold text-background">
-                    {{ artist.stats.followers }}
-                  </div>
-                  <div class="text-sm">followers</div>
+                  <div class="text-xl font-bold text-foreground">{{ artist.stats.followers }}</div>
+                  <div class="text-sm text-muted-foreground">followers</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-background">
-                    {{ artist.stats.reviews }}
-                  </div>
-                  <div class="text-sm">reviews</div>
+                  <div class="text-xl font-bold text-foreground">{{ artist.stats.reviews }}</div>
+                  <div class="text-sm text-muted-foreground">reviews</div>
                 </div>
               </div>
 
@@ -208,10 +197,10 @@ const handleFollow = () => {
               v-if="artist.availability"
               class="bg-background rounded-lg border p-6"
             >
-              <h3 class="text-lg font-bold mb-4">Availability</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">Availability</h3>
               <div class="space-y-4">
                 <table class="w-full">
-                  <tbody class="divide-y">
+                  <tbody class="divide-y divide-border">
                     <tr v-if="artist.availability.privateClasses" class="group">
                       <td class="py-3">
                         <div
@@ -268,7 +257,7 @@ const handleFollow = () => {
               v-if="artist.socialLinks.length > 0"
               class="bg-background rounded-lg border p-6"
             >
-              <h3 class="text-lg font-bold mb-4">Social Media</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">Social Media</h3>
               <div class="space-y-3">
                 <a
                   v-for="link in artist.socialLinks"
@@ -276,7 +265,7 @@ const handleFollow = () => {
                   :href="link.url"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
+                  class="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Icon
                     :name="`ph:${link.platform.toLowerCase()}-logo`"
@@ -289,7 +278,7 @@ const handleFollow = () => {
 
             <!-- Contact -->
             <div class="bg-background rounded-lg border p-6">
-              <h3 class="text-lg font-bold mb-4">Contact</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">Contact</h3>
               <Button class="w-full" variant="outline" @click="handleContact">
                 <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
                 Send Message
