@@ -1,21 +1,6 @@
-export interface Community {
-  id: string;
-  name: string;
-  description: string;
-  image: string;
-  memberCount: number;
-  city: string;
-  style?: string;
-  schedule?: {
-    summer: string[];
-    winter: string[];
-  };
-  links?: {
-    whatsapp?: string;
-  };
-}
+import { type Community, validateCommunities } from '~/schemas/community';
 
-export const getMockCommunities = (): Community[] => [
+const mockCommunities = [
   {
     id: "afro-cuban-festivals",
     name: "Afro Cuban Festivals",
@@ -29,6 +14,15 @@ export const getMockCommunities = (): Community[] => [
     links: {
       whatsapp: "https://chat.whatsapp.com/xyz",
     },
+    features: {
+      eventCalendar: true,
+      photoGallery: true,
+      communityUpdates: true,
+    },
+    privacy: "public",
+    admins: ["admin1", "admin2"],
+    mission: "Bringing Cuban dance festivals to Europe",
+    regularActivities: ["Festival planning", "Travel coordination", "Experience sharing"],
   },
   {
     id: "salsa-cubana-munich",
@@ -43,5 +37,20 @@ export const getMockCommunities = (): Community[] => [
     },
     memberCount: 500,
     city: "Munich",
+    style: "Cuban Salsa",
+    features: {
+      eventCalendar: true,
+      photoGallery: true,
+      communityUpdates: true,
+      memberDirectory: true,
+    },
+    venues: ["Pinakothek der Moderne", "Kult Dance Studio"],
+    regularActivities: ["Regular socials", "Open air parties", "Music sharing"],
   },
 ];
+
+export const getMockCommunities = (): Community[] => {
+  return validateCommunities(mockCommunities);
+};
+
+export type { Community } from '~/schemas/community';
