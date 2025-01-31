@@ -1,4 +1,93 @@
-export const danceStyles = [
+import { z } from 'zod';
+
+const scheduleSchema = z.object({
+  summer: z.array(z.string()).optional(),
+  winter: z.array(z.string()).optional(),
+});
+
+const linksSchema = z.object({
+  whatsapp: z.string().url().optional(),
+  instagram: z.string().url().optional(),
+  facebook: z.string().url().optional(),
+});
+
+const communityFeatureSchema = z.object({
+  eventCalendar: z.boolean().default(false),
+  photoGallery: z.boolean().default(false),
+  communityUpdates: z.boolean().default(false),
+  memberDirectory: z.boolean().default(false),
+  discussionBoard: z.boolean().default(false),
+});
+
+export const communitySchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string(),
+  image: z.string().url(),
+  memberCount: z.number().default(0),
+  city: z.string(),
+  style: z.string().optional(),
+  schedule: scheduleSchema.optional(),
+  links: linksSchema.optional(),
+  features: communityFeatureSchema.optional(),
+  privacy: z.enum(['public', 'semi-private', 'private']).default('public'),
+  admins: z.array(z.string()).default([]),
+  mission: z.string().optional(),
+  guidelines: z.string().optional(),
+  membershipRules: z.string().optional(),
+  venues: z.array(z.string()).optional(),
+  regularActivities: z.array(z.string()).optional(),
+});
+
+
+export const validateCommunity = (data: unknown): z.infer<typeof communitySchema> => {
+  return communitySchema.parse(data);
+};
+
+
+export const validateCommunities = (data: unknown[]): z.infer<typeof communitySchema>[] => {
+  return z.array(communitySchema).parse(data);
+};
+
+
+const danceStyleSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string().optional(),
+});
+
+export const danceStylesSchema = z.array(danceStyleSchema);
+
+
+const eventTypeSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+});
+
+export const eventTypesSchema = z.array(eventTypeSchema);
+
+
+const organizerSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string().optional(),
+  image: z.string().url(),
+  memberCount: z.number().default(0),
+  city: z.string(),
+  styles: z.array(z.string()).optional(),
+  schedule: scheduleSchema.optional(),
+  links: linksSchema.optional(),
+  features: communityFeatureSchema.optional(),
+  privacy: z.enum(['public', 'semi-private', 'private']).default('public'),
+  admins: z.array(z.string()).default([]),
+  mission: z.string().optional(),
+  guidelines: z.string().optional(),
+  membershipRules: z.string().optional(),
+  venues: z.array(z.string()).optional(),
+  regularActivities: z.array(z.string()).optional(),
+});
+
+export const danceStylesData = [
   { value: "salsa", label: "Salsa" },
   { value: "bachata", label: "Bachata" },
   { value: "kizomba", label: "Kizomba" },
@@ -7,25 +96,29 @@ export const danceStyles = [
   { value: "tango", label: "Tango" },
   { value: "ballet", label: "Ballet" },
   { value: "contemporary", label: "Contemporary" },
-];
+].map((style) => ({
+  id: style.value,
+  name: style.label,
+}));
 
-export const eventTypes = [
+export const eventTypesData = [
   { value: "socials", label: "Socials" },
   { value: "workshops", label: "Workshops" },
   { value: "festivals", label: "Festivals" },
   { value: "classes", label: "Classes" },
   { value: "performances", label: "Performances" },
-];
+].map((event) => ({
+  id: event.value,
+  name: event.label,
+}));
 
-export const organizers = [
+export const organizersData = [
   {
     id: "1",
     name: "Berlin Salsa Community",
     location: "Berlin, Germany",
-    avatar:
-      "https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1200&h=800&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?w=400&h=400&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1200&h=800&fit=crop",
     styles: ["salsa", "bachata"],
     eventTypes: ["festivals", "workshops", "socials"],
     bio: "The main salsa & bachata community in Berlin. Join our WhatsApp group for daily socials and practice sessions.",
@@ -37,96 +130,28 @@ export const organizers = [
       website: "https://salsaberlin.de",
     },
   },
-  {
-    id: "2",
-    name: "Swing Dance Paris",
-    location: "Paris, France",
-    avatar:
-      "https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1200&h=800&fit=crop",
-    styles: ["swing", "jazz"],
-    eventTypes: ["classes", "socials"],
-    bio: "Weekly swing dance classes and social dances. Follow us on Instagram for latest updates and join our Telegram channel.",
-    eventCount: 32,
-    links: {
-      telegram: "t.me/swingparis",
-      instagram: "@swingdanceparis",
-      facebook: "Swing Dance Paris Official (2.8k members)",
-    },
-  },
-  {
-    id: "3",
-    name: "Tango Buenos Aires",
-    location: "Buenos Aires, Argentina",
-    avatar:
-      "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&h=800&fit=crop",
-    styles: ["tango"],
-    eventTypes: ["socials", "performances"],
-    bio: "Daily milongas and tango events. Join our WhatsApp group for real-time updates on milonga locations and special events.",
-    eventCount: 128,
-    links: {
-      whatsapp: "https://chat.whatsapp.com/...",
-      instagram: "@tangoba",
-      website: "https://tangobuenosaires.org",
-    },
-  },
-  {
-    id: "4",
-    name: "NYC Urban Dance",
-    location: "New York, USA",
-    avatar:
-      "https://images.unsplash.com/photo-1529335764857-3f1164d1cb24?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?w=1200&h=800&fit=crop",
-    styles: ["contemporary", "ballet"],
-    eventTypes: ["performances", "workshops", "classes"],
-    bio: "Contemporary dance community in NYC. Join our Discord for class schedules and practice sessions.",
-    eventCount: 67,
-    links: {
-      discord: "discord.gg/nycurbandance",
-      instagram: "@nycurbandance",
-      facebook: "NYC Urban Dance Community (5k members)",
-    },
-  },
-  {
-    id: "5",
-    name: "Rio Zouk Movement",
-    location: "Rio de Janeiro, Brazil",
-    avatar:
-      "https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1534685785745-60a2cea0ec34?w=1200&h=800&fit=crop",
-    styles: ["zouk", "salsa"],
-    eventTypes: ["festivals", "workshops"],
-    bio: "The largest Brazilian Zouk community in Rio. Daily classes and weekend parties. Join our WhatsApp for practice partners.",
-    eventCount: 89,
-    links: {
-      whatsapp: "https://chat.whatsapp.com/...",
-      instagram: "@riozouk",
-      facebook: "Rio Zouk Official (4.2k members)",
-      website: "https://riozouk.com.br",
-    },
-  },
-  {
-    id: "6",
-    name: "Kizomba Lisboa",
-    location: "Lisbon, Portugal",
-    avatar:
-      "https://images.unsplash.com/photo-1523307730650-594bc63f9d67?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1547153760-18fc86324498?w=1200&h=800&fit=crop",
-    styles: ["kizomba"],
-    eventTypes: ["festivals", "workshops", "classes"],
-    bio: "Authentic Kizomba community in Lisbon. Join our groups for daily socials and beach dance events.",
-    eventCount: 54,
-    links: {
-      whatsapp: "https://chat.whatsapp.com/...",
-      telegram: "t.me/kizombalisboa",
-      instagram: "@kizombalisboa",
-      facebook: "Kizomba Lisboa (3.1k members)",
-    },
-  },
-];
+].map((organizer) => ({
+  id: organizer.id,
+  name: organizer.name,
+  description: organizer.bio || '',
+  image: organizer.avatar,
+  memberCount: organizer.eventCount,
+  city: organizer.location,
+  styles: organizer.styles,
+  schedule: undefined, 
+  links: organizer.links,
+  features: undefined, 
+  privacy: 'public',
+  admins: [],
+  mission: undefined,
+  guidelines: undefined,
+  membershipRules: undefined,
+  venues: undefined,
+  regularActivities: undefined,
+}));
+
+const validatedDanceStyles = danceStylesSchema.parse(danceStylesData);
+const validatedEventTypes = eventTypesSchema.parse(eventTypesData);
+const validatedOrganizers = z.array(organizerSchema).parse(organizersData);
+
+console.log(validatedDanceStyles, validatedEventTypes, validatedOrganizers);
