@@ -1,7 +1,7 @@
 # Create the main salsa page
 <script setup lang="ts">
 import { ref } from "vue";
-import { getMockCommunities } from "~/data/mockCommunities";
+import { mockCommunities } from "~/data/mockCommunities";
 import { mockEvents } from "~/data/mockEvents";
 import { mockPosts } from "~/data/mockPosts";
 import CommunityCard from "~/components/community/CommunityCard.vue";
@@ -35,7 +35,7 @@ const styles = [
   },
 ];
 
-const communities = ref(getMockCommunities());
+const communities = ref(mockCommunities);
 const events = ref(mockEvents);
 
 const beginnerPosts = ref(
