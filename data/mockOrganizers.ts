@@ -1,5 +1,24 @@
 import { type Organizer, validateOrganizers } from '~/schemas/organizers';
 
+export const danceStyles = [
+  { value: "salsa", label: "Salsa" },
+  { value: "bachata", label: "Bachata" },
+  { value: "kizomba", label: "Kizomba" },
+  { value: "zouk", label: "Zouk" },
+  { value: "swing", label: "Swing" },
+  { value: "tango", label: "Tango" },
+  { value: "ballet", label: "Ballet" },
+  { value: "contemporary", label: "Contemporary" },
+];
+
+export const eventTypes = [
+  { value: "socials", label: "Socials" },
+  { value: "workshops", label: "Workshops" },
+  { value: "festivals", label: "Festivals" },
+  { value: "classes", label: "Classes" },
+  { value: "performances", label: "Performances" },
+];
+
 const mockOrganizers = [
   {
     id: "1",
@@ -125,7 +144,7 @@ const mockOrganizers = [
       instagram: "@kizombalisboa",
       facebook: "Kizomba Lisboa (3.1k members)",
     },
-  }
+  },
 ];
 
 export const getMockOrganizers = (): Organizer[] => {
