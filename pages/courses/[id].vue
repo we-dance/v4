@@ -225,28 +225,28 @@ const handleSubscribe = () => {
                           {{ achievement }}
                         </li>
                       </ul>
-                    </div>
-                    <!-- Social Media Links -->
-                    <div
-                      class="flex items-center gap-4 mt-4"
-                      v-if="course.instructor.socialMedia"
+                  </div>
+                  <!-- Social Media Links -->
+                  <div
+                    class="flex items-center gap-4 mt-4"
+                    v-if="course.instructor.socialMedia"
+                  >
+                    <a
+                      v-if="course.instructor.socialMedia.instagram"
+                      :href="`https://instagram.com/${course.instructor.socialMedia.instagram}`"
+                      target="_blank"
+                      class="text-muted-foreground hover:text-accent"
                     >
-                      <a
-                        v-if="course.instructor.socialMedia.instagram"
-                        :href="`https://instagram.com/${course.instructor.socialMedia.instagram}`"
-                        target="_blank"
-                        class="text-muted-foreground hover:text-accent"
-                      >
-                        <Icon name="ph:instagram-logo" class="w-6 h-6" />
-                      </a>
-                      <a
-                        v-if="course.instructor.socialMedia.youtube"
-                        :href="`https://youtube.com/${course.instructor.socialMedia.youtube}`"
-                        target="_blank"
-                        class="text-muted-foreground hover:text-destructive"
-                      >
-                        <Icon name="ph:youtube-logo" class="w-6 h-6" />
-                      </a>
+                      <Icon name="ph:instagram-logo" class="w-6 h-6" />
+                    </a>
+                    <a
+                      v-if="course.instructor.socialMedia.youtube"
+                      :href="`https://youtube.com/${course.instructor.socialMedia.youtube}`"
+                      target="_blank"
+                      class="text-muted-foreground hover:text-destructive"
+                    >
+                      <Icon name="ph:youtube-logo" class="w-6 h-6" />
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -393,19 +393,18 @@ const handleSubscribe = () => {
           <!-- Private Class Booking -->
           <div
             class="bg-background rounded-xl shadow-sm overflow-hidden"
-            v-if="course.instructor.privateClass"
+            v-if="course.instructor.availability.pricing?.privateClass"
           >
             <div class="p-4 border-b">
               <h3 class="font-semibold">Book Private Class</h3>
             </div>
             <div class="p-4">
               <div class="text-2xl font-bold mb-1">
-                {{ course.instructor.privateClass.amount }}
-                {{ course.instructor.privateClass.currency }}
+                {{ course.instructor.availability.pricing.privateClass.amount }}
+                {{ course.instructor.availability.pricing.privateClass.currency }}
               </div>
               <p class="text-sm text-muted-foreground mb-4">
-                {{ course.instructor.privateClass.duration }} minutes private
-                lesson
+                {{ course.instructor.availability.pricing.privateClass.duration }} minutes private lesson
               </p>
               <Button class="w-full" variant="primary" as-child>
                 <NuxtLink

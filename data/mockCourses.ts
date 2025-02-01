@@ -1,8 +1,12 @@
 import { mockArtists } from "~/data/mockArtists";
+import { type Course, validateCourse } from "~/schemas/course";
 
 const instructor = mockArtists.find((artist) => artist.id === 1)!;
+if (!instructor) {
+  throw new Error("Instructor not found");
+}
 
-export const mockCourses = [
+const mockCoursesData = [
   {
     id: "1",
     title: "Cuban Casino Fundamentals",
@@ -10,9 +14,7 @@ export const mockCourses = [
       "Master the authentic Cuban Casino style with world champion Maykel Fonts. From basic steps to advanced turn patterns, this comprehensive course will give you a solid foundation in Cuban dance.",
     instructor: {
       ...instructor,
-      credentials: instructor.experience.achievements[0],
-      socialMedia: instructor.socialMedia,
-      privateClass: instructor.availability.pricing?.privateClass,
+      credentials: instructor.experience.achievements?.[0],
     },
     pricing: {
       regular: {
@@ -205,3 +207,5 @@ export const mockCourses = [
     ],
   },
 ];
+
+export const mockCourses: Course[] = mockCoursesData.map(course => validateCourse(course));

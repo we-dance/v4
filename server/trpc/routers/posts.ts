@@ -26,7 +26,7 @@ export const postsRouter = router({
       // Filter posts by type and author
       const filtered = mockPosts.filter((post) => {
         const typeMatch = type === "all" || post.type === type;
-        const authorMatch = !authorId || post.author.id === authorId;
+        const authorMatch = typeof authorId === "undefined" || post.author.id === authorId;
         return typeMatch && authorMatch;
       });
 

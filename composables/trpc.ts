@@ -15,7 +15,7 @@ const client = createTRPCProxyClient<AppRouter>({
 });
 
 // Export composables for use in components
-export function usePostsList(params: { type: string; limit: number }) {
+export function usePostsList(params: { type: string; limit: number; authorId?: string }) {
   return useInfiniteQuery(
     ["posts.list", params],
     async ({ pageParam = 0 }) => {

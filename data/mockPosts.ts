@@ -1,10 +1,9 @@
-import { z } from 'zod';
 import { mockEvents } from "./mockEvents";
 import { eventToFeedPost } from "~/schemas/event";
 import { postSchema, type Post } from "~/schemas/post";
 
-// Define mock posts
-const mockPostsData = [
+// Define mock posts data without export
+const postsData = [
   {
     id: 1,
     type: "note",
@@ -535,9 +534,9 @@ const mockPostsData = [
   },
 ] as const;
 
-// Validate with Zod schema
-export const mockPosts = z.array(postSchema).parse([
-  ...mockPostsData,
+// Export validated posts
+export const mockPosts = postSchema.array().parse([
+  ...postsData,
   eventToFeedPost(mockEvents[3]),
   eventToFeedPost(mockEvents[2]),
 ]);

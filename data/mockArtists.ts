@@ -1,4 +1,6 @@
-export const mockArtists = [
+import { type Artist, validateArtists } from '~/schemas/artist';
+
+const mockArtistsData = [
   {
     id: 1,
     name: "Maykel Fonts",
@@ -492,3 +494,7 @@ export const mockArtists = [
     },
   },
 ];
+
+export const mockArtists: Artist[] = validateArtists(mockArtistsData);
+
+export type { Artist } from '~/schemas/artist';
