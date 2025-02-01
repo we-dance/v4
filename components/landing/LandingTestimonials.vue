@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import GradientBackground from "~/components/common/GradientBackground.vue";
+import GradientBackground from '~/components/common/GradientBackground.vue'
 
 interface Testimonial {
-  title: string;
-  subtitle: string;
-  quote: string;
+  title: string
+  subtitle: string
+  quote: string
 }
 
 defineProps({
@@ -16,8 +16,8 @@ defineProps({
   },
   testimonials: {
     type: Array as PropType<Testimonial[]>,
-  }
-});
+  },
+})
 </script>
 
 <template>

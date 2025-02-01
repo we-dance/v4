@@ -8,7 +8,9 @@ This document describes how community members interact with events.
 **Goal**: Interact with events socially
 
 ### Discussion
+
 1. **Comment Types**
+
    - Questions and answers
    - Experience sharing
    - Recommendations
@@ -21,7 +23,9 @@ This document describes how community members interact with events.
    - Shared preparation
 
 ### Social Sharing
+
 1. **Share Options**
+
    - Share with note
    - Tag friends
    - Share to groups
@@ -39,7 +43,9 @@ This document describes how community members interact with events.
 **Goal**: Plan event participation
 
 ### Pre-Event Planning
+
 1. **Information Gathering**
+
    - Check requirements
    - Verify schedule
    - Review policies
@@ -52,7 +58,9 @@ This document describes how community members interact with events.
    - Coordinate with friends
 
 ### Registration Process
+
 1. **Ticket Selection**
+
    - Choose ticket type
    - Apply discounts
    - Group registration
@@ -70,7 +78,9 @@ This document describes how community members interact with events.
 **Goal**: Build community around events
 
 ### Partner Finding
+
 1. **Search Options**
+
    - By dance role
    - By level
    - By schedule
@@ -83,7 +93,9 @@ This document describes how community members interact with events.
    - Style preferences
 
 ### Group Activities
+
 1. **Group Formation**
+
    - Create groups
    - Join existing groups
    - Set preferences
@@ -101,7 +113,9 @@ This document describes how community members interact with events.
 **Goal**: Enhance event participation
 
 ### During Event
+
 1. **Check-in Process**
+
    - Digital tickets
    - QR codes
    - Registration verification
@@ -114,7 +128,9 @@ This document describes how community members interact with events.
    - Emergency info
 
 ### Post-Event
+
 1. **Feedback**
+
    - Rate experience
    - Share photos
    - Write reviews
@@ -129,7 +145,9 @@ This document describes how community members interact with events.
 ## Best Practices
 
 ### For Attendees
+
 1. **Planning**
+
    - Register early
    - Find partners ahead
    - Arrange logistics
@@ -142,7 +160,9 @@ This document describes how community members interact with events.
    - Share feedback
 
 ### For Community
+
 1. **Support**
+
    - Welcome newcomers
    - Share knowledge
    - Help coordination
@@ -152,4 +172,4 @@ This document describes how community members interact with events.
    - Share experiences
    - Provide feedback
    - Help improvements
-   - Build community 
+   - Build community

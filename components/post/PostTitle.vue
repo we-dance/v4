@@ -1,8 +1,8 @@
 <script setup lang="ts">
 defineProps<{
-  title: string;
-  white?: boolean;
-}>();
+  title: string
+  white?: boolean
+}>()
 </script>
 
 <template>

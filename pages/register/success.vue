@@ -1,38 +1,38 @@
 <script setup>
-import UserPoints from "~/components/common/UserPoints.vue";
+import UserPoints from '~/components/common/UserPoints.vue'
 
 const steps = [
   {
-    title: "Complete Your Profile",
+    title: 'Complete Your Profile',
     description:
-      "Add your dance styles, experience level, and a profile photo to help others find you.",
-    icon: "ph:user-circle",
-    action: "Edit Profile",
-    to: "/settings/profile",
-    energy: "+5",
-    energyLabel: "for completion",
+      'Add your dance styles, experience level, and a profile photo to help others find you.',
+    icon: 'ph:user-circle',
+    action: 'Edit Profile',
+    to: '/settings/profile',
+    energy: '+5',
+    energyLabel: 'for completion',
   },
   {
-    title: "Discover Local Events",
+    title: 'Discover Local Events',
     description:
-      "Find dance events, workshops, and socials happening in your city.",
-    icon: "ph:calendar",
-    action: "Browse Events",
-    to: "/events",
-    energy: "+1",
-    energyLabel: "per check-in",
+      'Find dance events, workshops, and socials happening in your city.',
+    icon: 'ph:calendar',
+    action: 'Browse Events',
+    to: '/events',
+    energy: '+1',
+    energyLabel: 'per check-in',
   },
   {
-    title: "Connect with Dancers",
+    title: 'Connect with Dancers',
     description:
-      "Meet dance partners, teachers, and join local dance communities.",
-    icon: "ph:users",
-    action: "Meet Dancers",
-    to: "/feed",
-    energy: "+2",
-    energyLabel: "per connection",
+      'Meet dance partners, teachers, and join local dance communities.',
+    icon: 'ph:users',
+    action: 'Meet Dancers',
+    to: '/feed',
+    energy: '+2',
+    energyLabel: 'per connection',
   },
-];
+]
 </script>
 
 <template>

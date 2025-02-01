@@ -1,16 +1,16 @@
 <script setup>
-import { ref } from "vue";
-import UserPoints from "~/components/common/UserPoints.vue";
+import { ref } from 'vue'
+import UserPoints from '~/components/common/UserPoints.vue'
 
-const selectedType = ref("all");
+const selectedType = ref('all')
 
 const energyRewards = [
-  { action: "Create Article", energy: "+10", icon: "ph:article" },
-  { action: "Share Video", energy: "+5", icon: "ph:video-camera" },
-  { action: "Start Discussion", energy: "+3", icon: "ph:chats" },
-  { action: "Post Event", energy: "+5", icon: "ph:calendar" },
-  { action: "Write Review", energy: "+3", icon: "ph:star" },
-];
+  { action: 'Create Article', energy: '+10', icon: 'ph:article' },
+  { action: 'Share Video', energy: '+5', icon: 'ph:video-camera' },
+  { action: 'Start Discussion', energy: '+3', icon: 'ph:chats' },
+  { action: 'Post Event', energy: '+5', icon: 'ph:calendar' },
+  { action: 'Write Review', energy: '+3', icon: 'ph:star' },
+]
 </script>
 
 <template>

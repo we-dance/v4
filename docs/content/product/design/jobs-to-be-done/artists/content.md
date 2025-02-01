@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Share Knowledge**
+
    - Create tutorials
    - Share techniques
    - Provide resources
    - Document progress
 
 2. **Build Following**
+
    - Share performances
    - Document events
    - Create highlights
@@ -23,6 +25,7 @@
 ## Content Types
 
 ### Educational Content
+
 - Tutorial videos
 - Technique breakdowns
 - Practice drills
@@ -30,6 +33,7 @@
 - Music analysis
 
 ### Performance Content
+
 - Show videos
 - Competition highlights
 - Stage performances
@@ -37,6 +41,7 @@
 - Behind the scenes
 
 ### Class Content
+
 - Class highlights
 - Student showcases
 - Practice sessions
@@ -46,6 +51,7 @@
 ## Content Management
 
 ### Organization
+
 - Media library
 - Content categories
 - Playlists/Series
@@ -53,12 +59,14 @@
 - Version control
 
 ### Distribution
+
 - Post scheduling
 - Cross-posting
 - Audience targeting
 - Analytics tracking
 
 ### Engagement
+
 - Comments & feedback
 - Student discussions
 - Q&A sessions
@@ -67,19 +75,22 @@
 ## Content Strategy
 
 ### Teaching Resources
+
 - Lesson materials
 - Practice guides
 - Reference videos
 - Student resources
 
 ### Marketing Materials
+
 - Class promotions
 - Event announcements
 - Student testimonials
 - Achievement highlights
 
 ### Community Content
+
 - Student spotlights
 - Community events
 - Success stories
-- Dance journey 
+- Dance journey

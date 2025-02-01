@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { mockVenues } from "~/data/mockVenues";
+import { mockVenues } from '~/data/mockVenues'
 
-const route = useRoute();
+const route = useRoute()
 const venue = computed(() =>
   mockVenues.find((v) => v.id === Number(route.params.id))
-);
+)
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const totalCapacity = computed(
   () => venue.value?.areas.reduce((sum, area) => sum + area.capacity, 0) || 0
-);
+)
 
 const minPrice = computed(
   () =>
@@ -18,7 +18,7 @@ const minPrice = computed(
       (min, area) => Math.min(min, area.pricePerHour),
       Infinity
     ) || 0
-);
+)
 
 const maxPrice = computed(
   () =>
@@ -26,69 +26,90 @@ const maxPrice = computed(
       (max, area) => Math.max(max, area.pricePerHour),
       0
     ) || 0
-);
+)
 
 const handleBook = () => {
-  if (!venue.value) return;
+  if (!venue.value) return
   dialog.open({
-    component: "VenueBookingDialog",
+    component: 'VenueBookingDialog',
     props: {
       venue: venue.value,
       onBook: (date: string, areaId: number) => {
         // Handle booking logic
-        console.log("Booking venue for date:", date, "area:", areaId);
+        console.log('Booking venue for date:', date, 'area:', areaId)
       },
     },
-  });
-};
+  })
+}
 
 const handleExploreAreas = () => {
-  const areasSection = document.getElementById("areas-section");
+  const areasSection = document.getElementById('areas-section')
   if (areasSection) {
-    areasSection.scrollIntoView({ behavior: "smooth" });
+    areasSection.scrollIntoView({ behavior: 'smooth' })
   }
-};
+}
 </script>
 
 <template>
   <div v-if="venue">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
-      <div class="relative flex items-center overflow-hidden min-h-[50vh] py-12 bg-background/80">
-        <div class="absolute inset-0 bg-gradient-to-r from-background/90 to-background/50" />
+      <div
+        class="relative flex items-center overflow-hidden min-h-[50vh] py-12 bg-background/80"
+      >
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-background/90 to-background/50"
+        />
         <GradientBackground class="opacity-50" />
-    
+
         <!-- Content -->
         <div class="relative w-full z-10">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <!-- Left: Content -->
               <div class="text-center md:text-left">
-                <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+                <h1
+                  class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
+                >
                   {{ venue.name }}
                 </h1>
-                <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-muted-foreground mb-6">
+                <div
+                  class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-muted-foreground mb-6"
+                >
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{ venue.address }}</span>
+                    <span class="text-sm md:text-base">{{
+                      venue.address
+                    }}</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <Icon name="ph:users" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{ totalCapacity }} people total</span>
+                    <span class="text-sm md:text-base"
+                      >{{ totalCapacity }} people total</span
+                    >
                   </div>
                   <div class="flex items-center gap-2">
-                    <Icon name="ph:currency-eur" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{ minPrice }}-{{ maxPrice }}€/hour</span>
+                    <Icon
+                      name="ph:currency-eur"
+                      class="w-4 h-4 md:w-5 md:h-5"
+                    />
+                    <span class="text-sm md:text-base"
+                      >{{ minPrice }}-{{ maxPrice }}€/hour</span
+                    >
                   </div>
                 </div>
-    
+
                 <!-- Rating -->
-                <div class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-8">
+                <div
+                  class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-8"
+                >
                   <div class="flex items-center gap-1">
                     <Icon name="ph:star-fill" class="w-5 h-5 text-warning" />
                     <span class="font-medium">{{ venue.rating }}</span>
                   </div>
-                  <span class="text-muted-foreground">({{ venue.reviewCount }} reviews)</span>
+                  <span class="text-muted-foreground"
+                    >({{ venue.reviewCount }} reviews)</span
+                  >
                 </div>
 
                 <!-- Action Buttons -->
@@ -195,7 +216,9 @@ const handleExploreAreas = () => {
                 />
                 <div>
                   <div class="font-medium">{{ venue.name }}</div>
-                  <div class="text-muted-foreground">{{ venue.description }}</div>
+                  <div class="text-muted-foreground">
+                    {{ venue.description }}
+                  </div>
                 </div>
               </div>
               <!-- Map placeholder -->

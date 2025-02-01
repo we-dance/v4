@@ -1,14 +1,14 @@
 <script setup lang="ts">
 const emit = defineEmits<{
-  (e: "update:type", value: string): void;
-  (e: "update:location", value: string | null): void;
-  (e: "update:style", value: string | null): void;
-}>();
+  (e: 'update:type', value: string): void
+  (e: 'update:location', value: string | null): void
+  (e: 'update:style', value: string | null): void
+}>()
 
 const props = defineProps({
   type: {
     type: String,
-    default: "all",
+    default: 'all',
   },
   location: {
     type: String as () => string | null,
@@ -18,62 +18,62 @@ const props = defineProps({
     type: String as () => string | null,
     default: null,
   },
-});
+})
 
 // Post type options
 const postTypeOptions = [
-  { value: "all", label: "All Posts", icon: "ph:list" },
-  { value: "event", label: "Events", icon: "ph:calendar" },
-  { value: "meet", label: "Meet", icon: "ph:users" },
-  { value: "note", label: "Messages", icon: "ph:note" },
-  { value: "article", label: "Articles", icon: "ph:article" },
-  { value: "review", label: "Reviews", icon: "ph:star" },
-  { value: "gig", label: "Gigs", icon: "ph:music-notes" },
-  { value: "ask_locals", label: "Ask Locals", icon: "ph:question" },
-  { value: "video", label: "Videos", icon: "ph:video-camera" },
-];
+  { value: 'all', label: 'All Posts', icon: 'ph:list' },
+  { value: 'event', label: 'Events', icon: 'ph:calendar' },
+  { value: 'meet', label: 'Meet', icon: 'ph:users' },
+  { value: 'note', label: 'Messages', icon: 'ph:note' },
+  { value: 'article', label: 'Articles', icon: 'ph:article' },
+  { value: 'review', label: 'Reviews', icon: 'ph:star' },
+  { value: 'gig', label: 'Gigs', icon: 'ph:music-notes' },
+  { value: 'ask_locals', label: 'Ask Locals', icon: 'ph:question' },
+  { value: 'video', label: 'Videos', icon: 'ph:video-camera' },
+]
 
 // Dance styles
 const danceStyles = [
-  { id: "salsa", name: "Salsa", members: 12500 },
-  { id: "bachata", name: "Bachata", members: 10200 },
-  { id: "kizomba", name: "Kizomba", members: 8300 },
-  { id: "zouk", name: "Brazilian Zouk", members: 6100 },
-  { id: "merengue", name: "Merengue", members: 4500 },
-  { id: "mambo", name: "Mambo", members: 3800 },
-  { id: "cha-cha", name: "Cha Cha", members: 3200 },
-];
+  { id: 'salsa', name: 'Salsa', members: 12500 },
+  { id: 'bachata', name: 'Bachata', members: 10200 },
+  { id: 'kizomba', name: 'Kizomba', members: 8300 },
+  { id: 'zouk', name: 'Brazilian Zouk', members: 6100 },
+  { id: 'merengue', name: 'Merengue', members: 4500 },
+  { id: 'mambo', name: 'Mambo', members: 3800 },
+  { id: 'cha-cha', name: 'Cha Cha', members: 3200 },
+]
 
 // Location filter
-const showLocationFilter = ref(false);
+const showLocationFilter = ref(false)
 const clearLocationFilter = () => {
-  emit("update:location", null);
-  showLocationFilter.value = false;
-};
+  emit('update:location', null)
+  showLocationFilter.value = false
+}
 
 const selectedType = computed({
   get: () => props.type,
-  set: (value) => emit("update:type", value),
-});
+  set: (value) => emit('update:type', value),
+})
 
 const selectedLocation = computed({
   get: () => props.location,
   set: (value) => {
-    emit("update:location", value);
-    showLocationFilter.value = false;
+    emit('update:location', value)
+    showLocationFilter.value = false
   },
-});
+})
 
 const selectedStyle = computed({
   get: () => props.style,
-  set: (value) => emit("update:style", value),
-});
+  set: (value) => emit('update:style', value),
+})
 
 const formatNumber = (num: number) => {
-  if (num >= 1000000) return `${(num / 1000000).toFixed(1)}M`;
-  if (num >= 1000) return `${(num / 1000).toFixed(1)}K`;
-  return num;
-};
+  if (num >= 1000000) return `${(num / 1000000).toFixed(1)}M`
+  if (num >= 1000) return `${(num / 1000).toFixed(1)}K`
+  return num
+}
 </script>
 
 <template>
@@ -113,7 +113,7 @@ const formatNumber = (num: number) => {
       :class="{ 'text-primary': selectedLocation }"
     >
       <Icon name="ph:map-pin" class="w-5 h-5" />
-      <span>{{ selectedLocation || "Location" }}</span>
+      <span>{{ selectedLocation || 'Location' }}</span>
     </Button>
     <Button
       v-if="selectedLocation"
@@ -150,7 +150,7 @@ const formatNumber = (num: number) => {
         :class="{ 'text-primary': selectedLocation }"
       >
         <Icon name="ph:map-pin" class="w-5 h-5 mr-2" />
-        <span>{{ selectedLocation || "Location" }}</span>
+        <span>{{ selectedLocation || 'Location' }}</span>
       </Button>
       <Button
         v-if="selectedLocation"

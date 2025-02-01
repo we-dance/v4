@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { VideoContent } from "~/schemas/post";
+import type { VideoContent } from '~/schemas/post'
 
 defineProps<{
-  content: VideoContent;
-}>();
+  content: VideoContent
+}>()
 </script>
 
 <template>

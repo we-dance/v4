@@ -1,9 +1,9 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "design",
-});
+  layout: 'design',
+})
 
-import { designConfig } from "~/config/design";
+import { designConfig } from '~/config/design'
 
 const sections = [
   {
@@ -21,7 +21,7 @@ const sections = [
     ...designConfig.patterns,
     links: designConfig.patterns.items,
   },
-];
+]
 </script>
 
 <template>

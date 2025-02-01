@@ -1,22 +1,22 @@
 <script setup lang="ts">
 const form = ref({
-  name: "",
-  email: "",
-  subject: "",
-  message: "",
-});
+  name: '',
+  email: '',
+  subject: '',
+  message: '',
+})
 
 const subjects = [
-  { label: "General Inquiry", value: "general" },
-  { label: "Support", value: "support" },
-  { label: "Safety Concern", value: "safety" },
-  { label: "Partnership", value: "partnership" },
-  { label: "Press", value: "press" },
-];
+  { label: 'General Inquiry', value: 'general' },
+  { label: 'Support', value: 'support' },
+  { label: 'Safety Concern', value: 'safety' },
+  { label: 'Partnership', value: 'partnership' },
+  { label: 'Press', value: 'press' },
+]
 
 async function onSubmit() {
   // TODO: Implement form submission
-  console.log("Form submitted:", form.value);
+  console.log('Form submitted:', form.value)
 }
 </script>
 

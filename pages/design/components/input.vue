@@ -1,29 +1,29 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "design",
-});
+  layout: 'design',
+})
 
 const variants = [
-  { name: "default", description: "Default input style" },
+  { name: 'default', description: 'Default input style' },
   {
-    name: "error",
-    description: "Input with error state",
-    value: "",
-    error: "This field is required",
+    name: 'error',
+    description: 'Input with error state',
+    value: '',
+    error: 'This field is required',
   },
-];
+]
 
 const types = [
-  { name: "text", description: "Text input", placeholder: "Enter text" },
-  { name: "email", description: "Email input", placeholder: "Enter email" },
+  { name: 'text', description: 'Text input', placeholder: 'Enter text' },
+  { name: 'email', description: 'Email input', placeholder: 'Enter email' },
   {
-    name: "password",
-    description: "Password input",
-    placeholder: "Enter password",
+    name: 'password',
+    description: 'Password input',
+    placeholder: 'Enter password',
   },
-  { name: "number", description: "Number input", placeholder: "Enter number" },
-  { name: "search", description: "Search input", placeholder: "Search..." },
-];
+  { name: 'number', description: 'Number input', placeholder: 'Enter number' },
+  { name: 'search', description: 'Search input', placeholder: 'Search...' },
+]
 </script>
 
 <template>

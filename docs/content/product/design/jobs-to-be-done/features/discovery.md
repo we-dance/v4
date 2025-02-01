@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Find Relevant Content**
+
    - Discover events
    - Find dancers
    - Explore venues
    - Learn about styles
 
 2. **Filter & Refine**
+
    - Apply preferences
    - Narrow results
    - Sort options
@@ -23,6 +25,7 @@
 ## Discovery Surfaces
 
 ### Feed Discovery
+
 - Personalized feed
 - Style-specific feeds
 - City-based feeds
@@ -30,6 +33,7 @@
 - Trending content
 
 ### Search Interfaces
+
 - Global search
 - Event search
 - People search
@@ -37,6 +41,7 @@
 - Advanced filters
 
 ### Recommendations
+
 - Similar events
 - Related styles
 - Nearby venues
@@ -46,6 +51,7 @@
 ## Search Features
 
 ### Basic Search
+
 - Keyword search
 - Auto-complete
 - Recent searches
@@ -53,6 +59,7 @@
 - Search history
 
 ### Advanced Filters
+
 - Date range
 - Location radius
 - Price range
@@ -61,6 +68,7 @@
 - Event types
 
 ### Results Display
+
 - List view
 - Grid view
 - Map view
@@ -70,12 +78,14 @@
 ## Discovery Tools
 
 ### Saved Searches
+
 - Search alerts
 - Email updates
 - Custom filters
 - Quick access
 
 ### Bookmarks
+
 - Save events
 - Save profiles
 - Save venues
@@ -83,8 +93,9 @@
 - Quick access
 
 ### Personalization
+
 - Interest settings
 - Location preferences
 - Style preferences
 - Following list
-- Hidden content 
+- Hidden content

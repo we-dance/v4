@@ -5,9 +5,11 @@ This document describes how events are presented across different contexts and t
 ## Component Presentations
 
 ### Event Card
+
 **Purpose**: Quick discovery and decision-making
 
 **Key Features**:
+
 - Visual hierarchy (date, price, type)
 - Status indicators (Sold Out, Few Left)
 - Social proof elements
@@ -16,9 +18,11 @@ This document describes how events are presented across different contexts and t
 - Price comparisons
 
 ### Event Post
+
 **Purpose**: Social discovery and discussion
 
 **Key Features**:
+
 - Community endorsements
 - Personal recommendations
 - Experience sharing
@@ -27,9 +31,11 @@ This document describes how events are presented across different contexts and t
 - Pricing discussions
 
 ### Event Page
+
 **Purpose**: Comprehensive information and conversion
 
 **Key Features**:
+
 - Sticky registration CTA
 - Dynamic pricing display
 - Policy information
@@ -43,6 +49,7 @@ This document describes how events are presented across different contexts and t
 ## UX Principles
 
 ### 1. Contextual Intelligence
+
 - Show location-relevant information
 - Adapt to user preferences
 - Display personalized recommendations
@@ -53,6 +60,7 @@ This document describes how events are presented across different contexts and t
   - Friend activities
 
 ### 2. Trust Building
+
 - Verify organizers
 - Show event history
 - Display authentic reviews
@@ -64,6 +72,7 @@ This document describes how events are presented across different contexts and t
   - Organizer reputation
 
 ### 3. Mobile-First Actions
+
 - One-tap registration
 - Easy sharing flows
 - Quick calendar integration
@@ -73,6 +82,7 @@ This document describes how events are presented across different contexts and t
 - Offline capabilities
 
 ### 4. Community Engagement
+
 - Partner matching tools
 - Group coordination features
 - Social sharing incentives
@@ -83,30 +93,35 @@ This document describes how events are presented across different contexts and t
 ## Context-Specific Displays
 
 ### Feed Context
+
 - Compact information
 - Social elements
 - Quick actions
 - Engagement options
 
 ### Discovery Context
+
 - Search-optimized view
 - Filter controls
 - Comparison features
 - Booking focus
 
 ### Profile Context
+
 - Schedule-focused
 - History integration
 - Role-specific info
 - Relationship context
 
 ### Geographic Context
+
 - Map integration
 - Local relevance
 - Venue connections
 - Area context
 
 ### Style Context
+
 - Style-specific details
 - Level indicators
 - Community focus
@@ -115,6 +130,7 @@ This document describes how events are presented across different contexts and t
 ## Accessibility Guidelines
 
 ### Visual Design
+
 - High contrast options
 - Clear typography
 - Status indicators
@@ -122,12 +138,14 @@ This document describes how events are presented across different contexts and t
 - Loading states
 
 ### Navigation
+
 - Keyboard support
 - Screen reader optimization
 - Clear focus states
 - Logical tab order
 
 ### Content
+
 - Clear headings
 - Alt text for images
 - Descriptive labels
@@ -137,6 +155,7 @@ This document describes how events are presented across different contexts and t
 ## Best Practices
 
 ### Content Presentation
+
 - Clear hierarchy
 - Scannable layout
 - Progressive disclosure
@@ -144,6 +163,7 @@ This document describes how events are presented across different contexts and t
 - Visual feedback
 
 ### User Interaction
+
 - Clear affordances
 - Immediate feedback
 - Error prevention
@@ -151,15 +171,17 @@ This document describes how events are presented across different contexts and t
 - Confirmation for important actions
 
 ### Mobile Optimization
+
 - Touch targets
 - Gesture support
 - Responsive layout
 - Performance optimization
-- Offline support 
+- Offline support
 
 ## Series Presentation
 
 ### Feed View
+
 - Next occurrence highlight
 - Pattern indicator
 - Series badge
@@ -167,6 +189,7 @@ This document describes how events are presented across different contexts and t
 - Series navigation
 
 ### Discovery View
+
 - Series grouping
 - Pattern overview
 - Schedule expansion
@@ -176,6 +199,7 @@ This document describes how events are presented across different contexts and t
 ### Profile Views
 
 1. **Venue Profile**
+
    - Full schedule display
    - Pattern visualization
    - Next occurrence highlight
@@ -188,7 +212,8 @@ This document describes how events are presented across different contexts and t
    - Pattern overview
 
 ### Series Navigation
+
 - Context preservation
 - Pattern visibility
 - Exception handling
-- Schedule browsing 
+- Schedule browsing

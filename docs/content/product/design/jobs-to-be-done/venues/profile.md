@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Present Venue**
+
    - Showcase space
    - Display features
    - Share atmosphere
    - Build trust
 
 2. **Attract Bookings**
+
    - Show availability
    - Display pricing
    - Feature events
@@ -23,6 +25,7 @@
 ## Profile Components
 
 ### Basic Information
+
 - Venue name
 - Location & access
 - Contact details
@@ -30,6 +33,7 @@
 - About/History
 
 ### Space Details
+
 - Room types
 - Floor specs
 - Sound system
@@ -39,6 +43,7 @@
 - Photos/Videos
 
 ### Event Calendar
+
 - Regular events
 - Special events
 - Available slots
@@ -48,6 +53,7 @@
 ## Community Features
 
 ### Event Showcase
+
 - Upcoming events
 - Past events
 - Regular activities
@@ -55,6 +61,7 @@
 - Event photos
 
 ### Reviews & Feedback
+
 - Organizer reviews
 - Dancer feedback
 - Space ratings
@@ -62,8 +69,9 @@
 - Response handling
 
 ### Community Updates
+
 - Space improvements
 - New features
 - Policy updates
 - Special offers
-- Community news 
+- Community news

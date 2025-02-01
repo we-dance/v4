@@ -1,40 +1,40 @@
 <script setup>
-const route = useRoute();
-const auth = useAuthStore();
-const dialog = useDialog();
-const isMobileMenuOpen = ref(false);
+const route = useRoute()
+const auth = useAuthStore()
+const dialog = useDialog()
+const isMobileMenuOpen = ref(false)
 
 const navigationItems = [
-  { to: "/feed", label: "Feed", icon: "lucide:home" },
-  { to: "/courses", label: "Courses", icon: "lucide:book-open" },
-  { to: "/events", label: "Events", icon: "lucide:calendar" },
-  { to: "/groups", label: "Groups", icon: "lucide:users-2" },
-  { to: "/artists", label: "Artists", icon: "lucide:users" },
-  { to: "/venues", label: "Venues", icon: "lucide:map-pin" },
-];
+  { to: '/feed', label: 'Feed', icon: 'lucide:home' },
+  { to: '/courses', label: 'Courses', icon: 'lucide:book-open' },
+  { to: '/events', label: 'Events', icon: 'lucide:calendar' },
+  { to: '/groups', label: 'Groups', icon: 'lucide:users-2' },
+  { to: '/artists', label: 'Artists', icon: 'lucide:users' },
+  { to: '/venues', label: 'Venues', icon: 'lucide:map-pin' },
+]
 
 const toggleMobileMenu = () => {
-  isMobileMenuOpen.value = !isMobileMenuOpen.value;
-};
+  isMobileMenuOpen.value = !isMobileMenuOpen.value
+}
 
 const handleSearch = () => {
   dialog.open({
-    component: "SearchDialog",
-  });
-};
+    component: 'SearchDialog',
+  })
+}
 
 const handleSignOut = async () => {
-  await auth.logout();
+  await auth.logout()
   // Optionally redirect to home or login page
-  navigateTo("/");
-};
+  navigateTo('/')
+}
 
 watch(
   () => route.path,
   () => {
-    isMobileMenuOpen.value = false;
+    isMobileMenuOpen.value = false
   }
-);
+)
 </script>
 
 <template>
@@ -52,11 +52,13 @@ watch(
         </div>
         <!-- Desktop Navigation -->
         <div class="hidden sm:ml-6 sm:flex sm:items-center gap-2">
-          <Button as-child
+          <Button
+            as-child
             variant="ghost"
             v-for="item in navigationItems"
-            :class="{'text-accent bg-accent/10': route.path === item.to}"  
-            :key="item.to">
+            :class="{ 'text-accent bg-accent/10': route.path === item.to }"
+            :key="item.to"
+          >
             <NuxtLink :to="item.to">
               <Icon :name="item.icon" class="h-4 w-4" />
               {{ item.label }}

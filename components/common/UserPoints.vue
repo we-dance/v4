@@ -1,17 +1,17 @@
 <script setup lang="ts">
 defineProps<{
-  points?: number | string;
-}>();
+  points?: number | string
+}>()
 
 const formatNumber = (num: number) => {
   if (num >= 1000000) {
-    return (num / 1000000).toFixed(0) + "M";
+    return (num / 1000000).toFixed(0) + 'M'
   }
   if (num >= 1000) {
-    return (num / 1000).toFixed(0) + "K";
+    return (num / 1000).toFixed(0) + 'K'
   }
-  return num;
-};
+  return num
+}
 </script>
 
 <template>

@@ -1,36 +1,36 @@
 <script setup lang="ts">
 const pressReleases = [
   {
-    title: "WeDance Launches Global Dance Community Platform",
-    date: "2024-03-20",
+    title: 'WeDance Launches Global Dance Community Platform',
+    date: '2024-03-20',
     excerpt:
-      "WeDance introduces a revolutionary platform connecting dancers worldwide...",
+      'WeDance introduces a revolutionary platform connecting dancers worldwide...',
   },
   {
-    title: "WeDance Reaches 100,000 Active Users",
-    date: "2024-02-15",
+    title: 'WeDance Reaches 100,000 Active Users',
+    date: '2024-02-15',
     excerpt:
-      "Major milestone achieved as dance community grows exponentially...",
+      'Major milestone achieved as dance community grows exponentially...',
   },
-];
+]
 
 const mediaAssets = [
   {
-    title: "Brand Kit",
-    description: "Download our logo, brand guidelines, and visual assets.",
-    link: "#",
+    title: 'Brand Kit',
+    description: 'Download our logo, brand guidelines, and visual assets.',
+    link: '#',
   },
   {
-    title: "Press Photos",
-    description: "High-resolution photos of our platform and community events.",
-    link: "#",
+    title: 'Press Photos',
+    description: 'High-resolution photos of our platform and community events.',
+    link: '#',
   },
   {
-    title: "Fact Sheet",
-    description: "Key statistics and information about WeDance.",
-    link: "#",
+    title: 'Fact Sheet',
+    description: 'Key statistics and information about WeDance.',
+    link: '#',
   },
-];
+]
 </script>
 
 <template>

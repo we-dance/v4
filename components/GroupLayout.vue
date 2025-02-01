@@ -1,55 +1,55 @@
 <script setup lang="ts">
-import type { Group } from "~/schemas/group";
-import { danceStyles, eventTypes } from "~/schemas/group";
-import GradientBackground from "~/components/common/GradientBackground.vue";
-import { useDialog } from "~/composables/useDialog";
+import type { Group } from '~/schemas/group'
+import { danceStyles, eventTypes } from '~/schemas/group'
+import GradientBackground from '~/components/common/GradientBackground.vue'
+import { useDialog } from '~/composables/useDialog'
 
 const props = defineProps<{
-  group: Group;
-}>();
+  group: Group
+}>()
 
 const navigation = [
   {
-    label: "Feed",
+    label: 'Feed',
     to: `/groups/${props.group.id}#content`,
-    icon: "ph:newspaper",
+    icon: 'ph:newspaper',
   },
   {
-    label: "About",
+    label: 'About',
     to: `/groups/${props.group.id}/about#content`,
-    icon: "ph:info",
+    icon: 'ph:info',
   },
   {
-    label: "Events",
+    label: 'Events',
     to: `/groups/${props.group.id}/events#content`,
-    icon: "ph:calendar",
+    icon: 'ph:calendar',
   },
   {
-    label: "Members",
+    label: 'Members',
     to: `/groups/${props.group.id}/members#content`,
-    icon: "ph:users",
+    icon: 'ph:users',
   },
   {
-    label: "Media",
+    label: 'Media',
     to: `/groups/${props.group.id}/media#content`,
-    icon: "ph:image",
+    icon: 'ph:image',
   },
-];
+]
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const handleMessage = () => {
-  console.log("Message group:", props.group.name);
-};
+  console.log('Message group:', props.group.name)
+}
 
 const handleFollow = () => {
-  console.log("Follow group:", props.group.name);
-};
+  console.log('Follow group:', props.group.name)
+}
 
 const getDanceStyle = (value: string) =>
-  danceStyles.find((s) => s.value === value);
+  danceStyles.find((s) => s.value === value)
 const getEventType = (value: string) =>
-  eventTypes.find((t) => t.value === value);
+  eventTypes.find((t) => t.value === value)
 </script>
 
 <template>
@@ -64,29 +64,46 @@ const getEventType = (value: string) =>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <!-- Left: Content -->
             <div class="text-center md:text-left">
-              <div class="flex items-center justify-center md:justify-start gap-2 text-foreground/80 mb-4">
+              <div
+                class="flex items-center justify-center md:justify-start gap-2 text-foreground/80 mb-4"
+              >
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
                 <span class="text-sm md:text-base">{{ group.location }}</span>
               </div>
-              <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              <h1
+                class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
+              >
                 {{ group.name }}
               </h1>
 
               <!-- Dance Styles -->
-              <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-6">
-                <Badge v-for="style in group.styles" :key="style" variant="secondary" class="capitalize">
+              <div
+                class="flex flex-wrap justify-center md:justify-start gap-2 mb-6"
+              >
+                <Badge
+                  v-for="style in group.styles"
+                  :key="style"
+                  variant="secondary"
+                  class="capitalize"
+                >
                   {{ getDanceStyle(style)?.label }}
                 </Badge>
               </div>
 
               <!-- Stats -->
-              <div class="flex justify-center md:justify-start gap-8 text-muted-foreground mb-8">
+              <div
+                class="flex justify-center md:justify-start gap-8 text-muted-foreground mb-8"
+              >
                 <div>
-                  <div class="text-xl font-bold text-foreground">{{ group.eventCount }}</div>
+                  <div class="text-xl font-bold text-foreground">
+                    {{ group.eventCount }}
+                  </div>
                   <div class="text-sm">events</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-foreground">{{ group.memberCount }}</div>
+                  <div class="text-xl font-bold text-foreground">
+                    {{ group.memberCount }}
+                  </div>
                   <div class="text-sm">members</div>
                 </div>
               </div>

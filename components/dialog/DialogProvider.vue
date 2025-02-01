@@ -1,23 +1,23 @@
 <script setup lang="ts">
-import { dialogs } from "./index";
-import type { Component } from "vue";
+import { dialogs } from './index'
+import type { Component } from 'vue'
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const currentComponent = computed<Component>(() => {
-  return dialogs[dialog.currentDialog.value?.component as keyof typeof dialogs];
-});
+  return dialogs[dialog.currentDialog.value?.component as keyof typeof dialogs]
+})
 
 const currentProps = computed(() => {
-  return dialog.currentDialog.value?.props ?? {};
-});
+  return dialog.currentDialog.value?.props ?? {}
+})
 
 const isOpen = computed({
   get: () => dialog.isOpen.value,
   set: (value: boolean) => {
-    dialog.isOpen.value = value;
+    dialog.isOpen.value = value
   },
-});
+})
 </script>
 
 <template>

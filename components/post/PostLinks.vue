@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { Link } from "~/schemas/post";
+import type { Link } from '~/schemas/post'
 
 defineProps<{
-  links: Link[];
-}>();
+  links: Link[]
+}>()
 </script>
 
 <template>

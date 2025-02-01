@@ -24,30 +24,38 @@
         number: 1,
         icon: 'ph:compass',
         title: 'Find Your Scene',
-        description: 'Choose your city and dance styles - we\'ll show you what\'s happening tonight',
-        class: 'rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] hover:rotate-6 from-fuchsia-500 to-accent',
+        description:
+          'Choose your city and dance styles - we\'ll show you what\'s happening tonight',
+        class:
+          'rounded-[40%_60%_60%_40%_/_70%_30%_70%_30%] hover:rotate-6 from-fuchsia-500 to-accent',
       },
       {
         number: 2,
         icon: 'ph:users-three',
         title: 'Meet Dancers',
-        description: 'Join local groups, find dance buddies, and plan festival trips together',
-        class: 'rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] hover:-rotate-6 from-purple-500 to-accent'
+        description:
+          'Join local groups, find dance buddies, and plan festival trips together',
+        class:
+          'rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] hover:-rotate-6 from-purple-500 to-accent',
       },
       {
         number: 3,
         icon: 'ph:calendar-check',
         title: 'Join Events',
-        description: 'Book classes, attend socials, and experience amazing festivals',
-        class: 'rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] hover:rotate-6 from-orange-500 to-accent',
+        description:
+          'Book classes, attend socials, and experience amazing festivals',
+        class:
+          'rounded-[40%_60%_30%_70%_/_60%_30%_70%_40%] hover:rotate-6 from-orange-500 to-accent',
       },
       {
         number: 4,
         icon: 'ph:heart-fill',
         title: 'Fall in Love',
-        description: 'With the dance, the music, the community, and the lifestyle',
-        class: 'rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] hover:-rotate-6 from-pink-500 to-accent'
-      }
+        description:
+          'With the dance, the music, the community, and the lifestyle',
+        class:
+          'rounded-[30%_70%_70%_30%_/_50%_50%_50%_50%] hover:-rotate-6 from-pink-500 to-accent',
+      },
     ]"
   />
   <LandingGetStarted

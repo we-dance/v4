@@ -8,16 +8,16 @@ interface Feature {
 defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   description: {
     type: String,
-    required: true
+    required: true,
   },
   features: {
     type: Array as PropType<Feature[]>,
-    required: true
-  }
+    required: true,
+  },
 })
 </script>
 

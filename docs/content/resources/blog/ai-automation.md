@@ -1,6 +1,6 @@
 ---
-title: "AI Automation: A Framework for Collaborative Development"
-description: "How we combine AI with proven methodologies for effective project management"
+title: 'AI Automation: A Framework for Collaborative Development'
+description: 'How we combine AI with proven methodologies for effective project management'
 ---
 
 # AI Automation: A Framework for Collaborative Development

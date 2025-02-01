@@ -2,50 +2,50 @@
 defineProps({
   title: {
     type: String,
-    default: "Dance Venues",
+    default: 'Dance Venues',
   },
   description: {
     type: String,
-    default: "Discover the best dance studios, clubs, and event spaces",
+    default: 'Discover the best dance studios, clubs, and event spaces',
   },
-});
+})
 
 const venues = [
   {
     id: 1,
-    name: "TanzStudio",
+    name: 'TanzStudio',
     image:
-      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&h=400&fit=crop",
-    address: "Hauptstraße 1, Munich",
+      'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&h=400&fit=crop',
+    address: 'Hauptstraße 1, Munich',
     rating: 4.8,
     reviewCount: 124,
     description:
-      "Premier dance studio with 3 halls and professional sound system",
-    features: ["Sprung Floor", "Mirrors", "Sound System"],
+      'Premier dance studio with 3 halls and professional sound system',
+    features: ['Sprung Floor', 'Mirrors', 'Sound System'],
   },
   {
     id: 2,
-    name: "Dance Factory",
+    name: 'Dance Factory',
     image:
-      "https://images.unsplash.com/photo-1581974944026-5d6ed762f617?w=800&h=400&fit=crop",
-    address: "Karlsplatz 5, Munich",
+      'https://images.unsplash.com/photo-1581974944026-5d6ed762f617?w=800&h=400&fit=crop',
+    address: 'Karlsplatz 5, Munich',
     rating: 4.6,
     reviewCount: 89,
-    description: "Modern dance space perfect for classes and social events",
-    features: ["Air Conditioning", "Bar", "Stage"],
+    description: 'Modern dance space perfect for classes and social events',
+    features: ['Air Conditioning', 'Bar', 'Stage'],
   },
   {
     id: 3,
-    name: "Havana Club",
+    name: 'Havana Club',
     image:
-      "https://images.unsplash.com/photo-1536758305353-e47b72c06853?w=800&h=400&fit=crop",
-    address: "Schwabing West, Munich",
+      'https://images.unsplash.com/photo-1536758305353-e47b72c06853?w=800&h=400&fit=crop',
+    address: 'Schwabing West, Munich',
     rating: 4.9,
     reviewCount: 156,
-    description: "Authentic Latin club with live music every weekend",
-    features: ["Live Music", "Dance Floor", "Bar"],
+    description: 'Authentic Latin club with live music every weekend',
+    features: ['Live Music', 'Dance Floor', 'Bar'],
   },
-];
+]
 </script>
 
 <template>

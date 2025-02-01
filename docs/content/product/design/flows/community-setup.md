@@ -46,7 +46,7 @@ Create event series for:
 
 ```yaml
 Summer Series:
-  Name: "Salsa Cubana Open Air"
+  Name: 'Salsa Cubana Open Air'
   Location: Pinakothek der Moderne
   Schedule:
     - Every Wednesday
@@ -54,7 +54,7 @@ Summer Series:
   Period: May to September
 
 Winter Series:
-  Name: "Salsa Cubana Social"
+  Name: 'Salsa Cubana Social'
   Location: Kult Dance Studio
   Schedule: Every Wednesday
   Period: October to April

@@ -1,28 +1,28 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const isVisible = ref(true);
-const hasConsented = ref(false);
+const isVisible = ref(true)
+const hasConsented = ref(false)
 
 const acceptAll = () => {
-  hasConsented.value = true;
-  isVisible.value = false;
-  localStorage.setItem("cookie-consent", "true");
-};
+  hasConsented.value = true
+  isVisible.value = false
+  localStorage.setItem('cookie-consent', 'true')
+}
 
 const acceptEssential = () => {
-  hasConsented.value = true;
-  isVisible.value = false;
-  localStorage.setItem("cookie-consent", "essential");
-};
+  hasConsented.value = true
+  isVisible.value = false
+  localStorage.setItem('cookie-consent', 'essential')
+}
 
 onMounted(() => {
-  const consent = localStorage.getItem("cookie-consent");
+  const consent = localStorage.getItem('cookie-consent')
   if (consent) {
-    isVisible.value = false;
-    hasConsented.value = true;
+    isVisible.value = false
+    hasConsented.value = true
   }
-});
+})
 </script>
 
 <template>

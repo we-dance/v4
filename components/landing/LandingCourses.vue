@@ -112,22 +112,22 @@
 </template>
 
 <script setup lang="ts">
-import { mockCourses } from "@/data/mockCourses";
+import { mockCourses } from '@/data/mockCourses'
 
 defineProps({
   title: {
     type: String,
-    default: "Dance Courses",
+    default: 'Dance Courses',
   },
   description: {
     type: String,
-    default: "Learn dance online with world-class instructors",
+    default: 'Learn dance online with world-class instructors',
   },
   muted: {
     type: Boolean,
     default: false,
   },
-});
+})
 
-const featuredCourses = computed(() => mockCourses.slice(0, 3));
+const featuredCourses = computed(() => mockCourses.slice(0, 3))
 </script>

@@ -1,44 +1,44 @@
 <script setup lang="ts">
 interface Props {
   organizer: {
-    id: string;
-    name: string;
-    location: string;
-    avatar: string;
-    coverImage: string;
-    styles: string[];
-    eventTypes: string[];
-    bio: string;
-    eventCount: number;
+    id: string
+    name: string
+    location: string
+    avatar: string
+    coverImage: string
+    styles: string[]
+    eventTypes: string[]
+    bio: string
+    eventCount: number
     links: {
-      whatsapp?: string;
-      telegram?: string;
-      instagram?: string;
-      facebook?: string;
-      discord?: string;
-      website?: string;
-    };
-  };
-  view?: "grid" | "list";
+      whatsapp?: string
+      telegram?: string
+      instagram?: string
+      facebook?: string
+      discord?: string
+      website?: string
+    }
+  }
+  view?: 'grid' | 'list'
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  view: "grid",
+  view: 'grid',
   showImage: false,
-});
+})
 
 function getStyleLabel(value: string) {
   const danceStyles = [
-    { value: "salsa", label: "Salsa" },
-    { value: "bachata", label: "Bachata" },
-    { value: "kizomba", label: "Kizomba" },
-    { value: "zouk", label: "Zouk" },
-    { value: "swing", label: "Swing" },
-    { value: "tango", label: "Tango" },
-    { value: "ballet", label: "Ballet" },
-    { value: "contemporary", label: "Contemporary" },
-  ];
-  return danceStyles.find((style) => style.value === value)?.label || value;
+    { value: 'salsa', label: 'Salsa' },
+    { value: 'bachata', label: 'Bachata' },
+    { value: 'kizomba', label: 'Kizomba' },
+    { value: 'zouk', label: 'Zouk' },
+    { value: 'swing', label: 'Swing' },
+    { value: 'tango', label: 'Tango' },
+    { value: 'ballet', label: 'Ballet' },
+    { value: 'contemporary', label: 'Contemporary' },
+  ]
+  return danceStyles.find((style) => style.value === value)?.label || value
 }
 </script>
 

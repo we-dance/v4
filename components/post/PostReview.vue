@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { ReviewContent } from "~/schemas/post";
+import type { ReviewContent } from '~/schemas/post'
 
 defineProps<{
-  content: ReviewContent;
-}>();
+  content: ReviewContent
+}>()
 </script>
 
 <template>

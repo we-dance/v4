@@ -1,61 +1,57 @@
 <script setup lang="ts">
-import { mockVenues } from "~/data/mockVenues";
-const venues = mockVenues;
+import { mockVenues } from '~/data/mockVenues'
+const venues = mockVenues
 
-const showFilters = ref(false);
-const showLocationFilter = ref(false);
-const search = ref("");
-const selectedLocation = ref<string | null>(null);
-const selectedStyles = ref<string[]>([]);
-const selectedFeatures = ref<string[]>([]);
-const selectedPriceRange = ref<[number, number]>([0, 200]);
-const selectedCapacityRange = ref<[number, number]>([0, 200]);
+const showFilters = ref(false)
+const showLocationFilter = ref(false)
+const search = ref('')
+const selectedLocation = ref<string | null>(null)
+const selectedStyles = ref<string[]>([])
+const selectedFeatures = ref<string[]>([])
+const selectedPriceRange = ref<[number, number]>([0, 200])
+const selectedCapacityRange = ref<[number, number]>([0, 200])
 
 const allStyles = computed(() =>
   Array.from(new Set(venues.flatMap((venue) => venue.styles)))
-);
+)
 
 const allFeatures = computed(() =>
   Array.from(new Set(venues.flatMap((venue) => venue.features)))
-);
+)
 
 const filteredVenues = computed(() => {
   return venues.filter((venue) => {
     const matchesSearch =
-      search.value === "" ||
+      search.value === '' ||
       venue.name.toLowerCase().includes(search.value.toLowerCase()) ||
-      venue.description.toLowerCase().includes(search.value.toLowerCase());
+      venue.description.toLowerCase().includes(search.value.toLowerCase())
 
     const matchesLocation =
       !selectedLocation.value ||
-      venue.address
-        .toLowerCase()
-        .includes(selectedLocation.value.toLowerCase());
+      venue.address.toLowerCase().includes(selectedLocation.value.toLowerCase())
 
     const matchesStyles =
       selectedStyles.value.length === 0 ||
-      venue.styles.some((style) => selectedStyles.value.includes(style));
+      venue.styles.some((style) => selectedStyles.value.includes(style))
 
     const matchesFeatures =
       selectedFeatures.value.length === 0 ||
-      venue.features.some((feature) =>
-        selectedFeatures.value.includes(feature)
-      );
+      venue.features.some((feature) => selectedFeatures.value.includes(feature))
 
-    const minPrice = Math.min(...venue.areas.map((area) => area.pricePerHour));
-    const maxPrice = Math.max(...venue.areas.map((area) => area.pricePerHour));
+    const minPrice = Math.min(...venue.areas.map((area) => area.pricePerHour))
+    const maxPrice = Math.max(...venue.areas.map((area) => area.pricePerHour))
     const totalCapacity = venue.areas.reduce(
       (sum, area) => sum + area.capacity,
       0
-    );
+    )
 
     const matchesPrice =
       maxPrice >= selectedPriceRange.value[0] &&
-      minPrice <= selectedPriceRange.value[1];
+      minPrice <= selectedPriceRange.value[1]
 
     const matchesCapacity =
       totalCapacity >= selectedCapacityRange.value[0] &&
-      totalCapacity <= selectedCapacityRange.value[1];
+      totalCapacity <= selectedCapacityRange.value[1]
 
     return (
       matchesSearch &&
@@ -64,14 +60,14 @@ const filteredVenues = computed(() => {
       matchesFeatures &&
       matchesPrice &&
       matchesCapacity
-    );
-  });
-});
+    )
+  })
+})
 
 const clearLocationFilter = () => {
-  selectedLocation.value = null;
-  showLocationFilter.value = false;
-};
+  selectedLocation.value = null
+  showLocationFilter.value = false
+}
 </script>
 
 <template>
@@ -98,7 +94,7 @@ const clearLocationFilter = () => {
           :class="{ 'text-primary': selectedLocation }"
         >
           <Icon name="ph:map-pin" class="w-5 h-5" />
-          <span>{{ selectedLocation || "Location" }}</span>
+          <span>{{ selectedLocation || 'Location' }}</span>
         </Button>
         <Button
           v-if="selectedLocation"
@@ -297,8 +293,8 @@ const clearLocationFilter = () => {
         <LocationPanel
           :location="selectedLocation"
           @update:location="
-            selectedLocation = $event;
-            showLocationFilter = false;
+            selectedLocation = $event
+            showLocationFilter = false
           "
         />
       </div>

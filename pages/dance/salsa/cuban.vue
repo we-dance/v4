@@ -1,79 +1,85 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import { mockCommunities } from "~/data/mockCommunities";
-import { mockEvents } from "~/data/mockEvents";
-import { mockPosts } from "~/data/mockPosts";
-import type { Post } from "~/schemas/post";
-import type { AnyEvent } from "~/schemas/event";
-import CommunityCard from "~/components/community/CommunityCard.vue";
+import { ref } from 'vue'
+import { mockCommunities } from '~/data/mockCommunities'
+import { mockEvents } from '~/data/mockEvents'
+import { mockPosts } from '~/data/mockPosts'
+import type { Post } from '~/schemas/post'
+import type { AnyEvent } from '~/schemas/event'
+import CommunityCard from '~/components/community/CommunityCard.vue'
 
-const communities = ref(
-  mockCommunities.filter((c) => c.style === "Cuban")
-);
+const communities = ref(mockCommunities.filter((c) => c.style === 'Cuban'))
 
 // Filter events and ensure they match the AnyEvent type
 const events = ref(
   mockEvents.filter((e) => {
-    const tags = e.tags || [];
-    return tags.includes("cuban-salsa") || tags.includes("casino");
+    const tags = e.tags || []
+    return tags.includes('cuban-salsa') || tags.includes('casino')
   })
-);
+)
 
 // Filter for article posts only
 const learningPosts = ref(
-  mockPosts.filter((p) => {
-    if (p.type !== "article") return false;
-    const tags = p.content.tags || [];
-    return tags.some((tag: string) =>
-      ["cuban-salsa", "basics", "tutorial", "casino", "rueda"].includes(tag)
-    );
-  }).filter((p): p is Extract<Post, { type: "article" }> => p.type === "article")
-);
+  mockPosts
+    .filter((p) => {
+      if (p.type !== 'article') return false
+      const tags = p.content.tags || []
+      return tags.some((tag: string) =>
+        ['cuban-salsa', 'basics', 'tutorial', 'casino', 'rueda'].includes(tag)
+      )
+    })
+    .filter(
+      (p): p is Extract<Post, { type: 'article' }> => p.type === 'article'
+    )
+)
 
 const culturePosts = ref(
-  mockPosts.filter((p) => {
-    if (p.type !== "article") return false;
-    const tags = p.content.tags || [];
-    return tags.some((tag: string) =>
-      ["cuban-culture", "history", "music", "timba"].includes(tag)
-    );
-  }).filter((p): p is Extract<Post, { type: "article" }> => p.type === "article")
-);
+  mockPosts
+    .filter((p) => {
+      if (p.type !== 'article') return false
+      const tags = p.content.tags || []
+      return tags.some((tag: string) =>
+        ['cuban-culture', 'history', 'music', 'timba'].includes(tag)
+      )
+    })
+    .filter(
+      (p): p is Extract<Post, { type: 'article' }> => p.type === 'article'
+    )
+)
 
 const musicStyles = [
   {
-    name: "Timba",
-    description: "Modern Cuban dance music with complex rhythms",
-    examples: ["Los Van Van", "Havana D'Primera", "Pupy y Los Que Son Son"],
+    name: 'Timba',
+    description: 'Modern Cuban dance music with complex rhythms',
+    examples: ['Los Van Van', "Havana D'Primera", 'Pupy y Los Que Son Son'],
   },
   {
-    name: "Casino Music",
-    description: "Traditional Cuban dance music",
-    examples: ["Son Cubano", "Rumba", "Guaguancó"],
+    name: 'Casino Music',
+    description: 'Traditional Cuban dance music',
+    examples: ['Son Cubano', 'Rumba', 'Guaguancó'],
   },
-];
+]
 
 const characteristics = [
-  "Circular dance style",
-  "Strong Afro-Cuban influence",
-  "Complex turn patterns (ruedas)",
-  "Emphasis on musicality and improvisation",
-  "Social dance focus",
-];
+  'Circular dance style',
+  'Strong Afro-Cuban influence',
+  'Complex turn patterns (ruedas)',
+  'Emphasis on musicality and improvisation',
+  'Social dance focus',
+]
 
 const handleImageError = (event: Event) => {
-  const img = event.target as HTMLImageElement;
+  const img = event.target as HTMLImageElement
   if (img) {
-    img.style.display = "none";
+    img.style.display = 'none'
   }
-};
+}
 
 // Helper function to get price display
 const getEventPrice = (event: AnyEvent) => {
-  if (!event.prices?.length) return "Free";
-  const price = event.prices[0];
-  return `${price.amount}${price.currency}`;
-};
+  if (!event.prices?.length) return 'Free'
+  const price = event.prices[0]
+  return `${price.amount}${price.currency}`
+}
 </script>
 
 <template>
@@ -191,8 +197,8 @@ const getEventPrice = (event: AnyEvent) => {
                   new Date(event.date.start).toLocaleDateString()
                 }}</span>
                 <span
-                  >{{ event.date.start.split("T")[1].slice(0, 5) }} -
-                  {{ event.date.end.split("T")[1].slice(0, 5) }}</span
+                  >{{ event.date.start.split('T')[1].slice(0, 5) }} -
+                  {{ event.date.end.split('T')[1].slice(0, 5) }}</span
                 >
               </div>
               <div class="flex items-center text-muted-foreground">

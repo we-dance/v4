@@ -1,46 +1,46 @@
 <script setup>
 const features = [
   {
-    title: "Circular Movement",
+    title: 'Circular Movement',
     description:
-      "Dance patterns follow circular paths, influenced by African dance traditions",
-    icon: "ph:circles-three",
+      'Dance patterns follow circular paths, influenced by African dance traditions',
+    icon: 'ph:circles-three',
   },
   {
-    title: "Body Movement",
-    description: "Emphasis on hip movement and body isolation",
-    icon: "ph:wave",
+    title: 'Body Movement',
+    description: 'Emphasis on hip movement and body isolation',
+    icon: 'ph:wave',
   },
   {
-    title: "Partner Connection",
-    description: "Close partner work with intricate hand signals for leading",
-    icon: "ph:hands-clapping",
+    title: 'Partner Connection',
+    description: 'Close partner work with intricate hand signals for leading',
+    icon: 'ph:hands-clapping',
   },
   {
-    title: "Basic Step",
-    description: "Forward-back basic step with weight changes on 1-2-3, 5-6-7",
-    icon: "ph:footprints",
+    title: 'Basic Step',
+    description: 'Forward-back basic step with weight changes on 1-2-3, 5-6-7',
+    icon: 'ph:footprints',
   },
-];
+]
 
 const levels = [
   {
-    name: "Beginner",
-    moves: ["Basic Step", "Dile Que No", "Guapea", "Exhibela"],
+    name: 'Beginner',
+    moves: ['Basic Step', 'Dile Que No', 'Guapea', 'Exhibela'],
   },
   {
-    name: "Intermediate",
-    moves: ["Setenta", "Vacilala", "Sombrero", "Enchufla"],
+    name: 'Intermediate',
+    moves: ['Setenta', 'Vacilala', 'Sombrero', 'Enchufla'],
   },
   {
-    name: "Advanced",
+    name: 'Advanced',
     moves: [
-      "Multiple Turn Patterns",
-      "Complex Hand Combinations",
-      "Advanced Body Movement",
+      'Multiple Turn Patterns',
+      'Complex Hand Combinations',
+      'Advanced Body Movement',
     ],
   },
-];
+]
 </script>
 
 <template>

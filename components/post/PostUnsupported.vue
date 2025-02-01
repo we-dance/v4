@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
-  content: Record<string, unknown>;
-}>();
+  content: Record<string, unknown>
+}>()
 </script>
 
 <template>

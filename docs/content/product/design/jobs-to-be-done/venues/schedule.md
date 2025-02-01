@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Manage Calendar**
+
    - Coordinate bookings
    - Balance schedule
    - Handle conflicts
    - Plan ahead
 
 2. **Support Events**
+
    - Facilitate setup
    - Ensure quality
    - Solve issues
@@ -23,6 +25,7 @@
 ## Schedule Management
 
 ### Calendar Types
+
 - Regular classes
 - Weekly socials
 - Special events
@@ -30,6 +33,7 @@
 - Maintenance time
 
 ### Booking Process
+
 - Inquiry handling
 - Availability check
 - Contract setup
@@ -37,6 +41,7 @@
 - Access planning
 
 ### Schedule Coordination
+
 - Multi-room management
 - Time slots
 - Setup/cleanup time
@@ -45,6 +50,7 @@
 ## Event Support
 
 ### Pre-Event
+
 - Space preparation
 - Equipment check
 - Access setup
@@ -52,6 +58,7 @@
 - Organizer contact
 
 ### During Event
+
 - Technical support
 - Issue resolution
 - Space monitoring
@@ -59,6 +66,7 @@
 - Staff coordination
 
 ### Post-Event
+
 - Space restoration
 - Equipment check
 - Feedback collection
@@ -68,19 +76,22 @@
 ## Venue Growth
 
 ### Organizer Relations
+
 - Regular clients
 - New inquiries
 - Special requests
 - Feedback system
 
 ### Quality Control
+
 - Space standards
 - Service quality
 - Equipment maintenance
 - Safety checks
 
 ### Business Development
+
 - Pricing strategy
 - Package deals
 - Cross-promotion
-- Partnership building 
+- Partnership building

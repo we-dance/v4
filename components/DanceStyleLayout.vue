@@ -1,12 +1,12 @@
 <script setup>
-import GradientBackground from "~/components/common/GradientBackground.vue";
+import GradientBackground from '~/components/common/GradientBackground.vue'
 
 const navigation = [
-  { label: "Feed", to: "/dance/salsa#content", icon: "ph:newspaper" },
-  { label: "About", to: "/dance/salsa/about#content", icon: "ph:info" },
-  { label: "Artists", to: "/dance/salsa/artists#content", icon: "ph:star" },
-  { label: "Events", to: "/dance/salsa/events#content", icon: "ph:calendar" },
-];
+  { label: 'Feed', to: '/dance/salsa#content', icon: 'ph:newspaper' },
+  { label: 'About', to: '/dance/salsa/about#content', icon: 'ph:info' },
+  { label: 'Artists', to: '/dance/salsa/artists#content', icon: 'ph:star' },
+  { label: 'Events', to: '/dance/salsa/events#content', icon: 'ph:calendar' },
+]
 
 defineProps({
   title: {
@@ -20,17 +20,17 @@ defineProps({
   stats: {
     type: Array,
     default: () => [
-      { label: "Members", value: "1,200" },
-      { label: "Posts", value: "500" },
-      { label: "Projects", value: "50" },
-      { label: "Response Rate", value: "92%" },
+      { label: 'Members', value: '1,200' },
+      { label: 'Posts', value: '500' },
+      { label: 'Projects', value: '50' },
+      { label: 'Response Rate', value: '92%' },
     ],
   },
   videoUrl: {
     type: String,
-    default: "https://www.youtube.com/embed/R7E9cNydevg",
+    default: 'https://www.youtube.com/embed/R7E9cNydevg',
   },
-});
+})
 </script>
 
 <template>

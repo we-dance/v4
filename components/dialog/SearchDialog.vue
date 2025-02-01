@@ -1,40 +1,40 @@
 <script setup lang="ts">
-import { mockPosts } from "~/data/mockPosts";
-import { mockEvents } from "~/data/mockEvents";
-import { mockArtists } from "~/data/mockArtists";
-import { mockVenues } from "~/data/mockVenues";
-import { mockCourses } from "~/data/mockCourses";
+import { mockPosts } from '~/data/mockPosts'
+import { mockEvents } from '~/data/mockEvents'
+import { mockArtists } from '~/data/mockArtists'
+import { mockVenues } from '~/data/mockVenues'
+import { mockCourses } from '~/data/mockCourses'
 
-const dialog = useDialog();
-const router = useRouter();
-const searchQuery = ref("");
-const searchInput = ref();
+const dialog = useDialog()
+const router = useRouter()
+const searchQuery = ref('')
+const searchInput = ref()
 
 const categories = [
-  { name: "Events", icon: "ph:calendar", to: "/events" },
-  { name: "Artists", icon: "ph:users", to: "/artists" },
-  { name: "Venues", icon: "ph:map-pin", to: "/venues" },
-  { name: "Courses", icon: "ph:graduation-cap", to: "/courses" },
-  { name: "Posts", icon: "ph:newspaper", to: "/feed" },
-];
+  { name: 'Events', icon: 'ph:calendar', to: '/events' },
+  { name: 'Artists', icon: 'ph:users', to: '/artists' },
+  { name: 'Venues', icon: 'ph:map-pin', to: '/venues' },
+  { name: 'Courses', icon: 'ph:graduation-cap', to: '/courses' },
+  { name: 'Posts', icon: 'ph:newspaper', to: '/feed' },
+]
 
 const popularSearches = [
-  { query: "salsa", label: "Salsa" },
-  { query: "bachata", label: "Bachata" },
-  { query: "kizomba", label: "Kizomba" },
-  { query: "workshop", label: "Workshops" },
-  { query: "festival", label: "Festivals" },
-];
+  { query: 'salsa', label: 'Salsa' },
+  { query: 'bachata', label: 'Bachata' },
+  { query: 'kizomba', label: 'Kizomba' },
+  { query: 'workshop', label: 'Workshops' },
+  { query: 'festival', label: 'Festivals' },
+]
 
 const handlePopularSearch = (query: string) => {
-  searchQuery.value = query;
-};
+  searchQuery.value = query
+}
 
 const searchResults = computed(() => {
-  if (!searchQuery.value) return [];
+  if (!searchQuery.value) return []
 
-  const query = searchQuery.value.toLowerCase();
-  const results = [];
+  const query = searchQuery.value.toLowerCase()
+  const results = []
 
   // Search in courses
   results.push(
@@ -45,13 +45,13 @@ const searchResults = computed(() => {
           course.description.toLowerCase().includes(query)
       )
       .map((course) => ({
-        type: "course",
+        type: 'course',
         title: course.title,
         description: course.description,
         image: course.instructor.image,
         to: `/courses/${course.id}`,
       }))
-  );
+  )
 
   // Search in events
   results.push(
@@ -63,13 +63,13 @@ const searchResults = computed(() => {
           event.tags?.some((tag) => tag.toLowerCase().includes(query))
       )
       .map((event) => ({
-        type: "event",
+        type: 'event',
         title: event.name,
         description: event.description,
         image: event.image,
         to: `/events/${event.id}`,
       }))
-  );
+  )
 
   // Search in artists
   results.push(
@@ -82,13 +82,13 @@ const searchResults = computed(() => {
           )
       )
       .map((artist) => ({
-        type: "artist",
+        type: 'artist',
         title: artist.name,
-        description: artist.specialties?.join(", "),
+        description: artist.specialties?.join(', '),
         image: artist.image,
         to: `/artists/${artist.id}`,
       }))
-  );
+  )
 
   // Search in venues
   results.push(
@@ -99,73 +99,73 @@ const searchResults = computed(() => {
           venue.description.toLowerCase().includes(query)
       )
       .map((venue) => ({
-        type: "venue",
+        type: 'venue',
         title: venue.name,
         description: venue.description,
         image: venue.image,
         to: `/venues/${venue.id}`,
       }))
-  );
+  )
 
   // Search in posts
   results.push(
     ...mockPosts
       .filter((post) => {
-        const content = post.content;
+        const content = post.content
         return (
-          ("text" in content && content.text?.toLowerCase().includes(query)) ||
-          ("title" in content &&
+          ('text' in content && content.text?.toLowerCase().includes(query)) ||
+          ('title' in content &&
             content.title?.toLowerCase().includes(query)) ||
-          ("description" in content &&
+          ('description' in content &&
             content.description?.toLowerCase().includes(query)) ||
           content.tags?.some((tag) => tag.toLowerCase().includes(query))
-        );
+        )
       })
       .map((post) => {
-        const content = post.content;
+        const content = post.content
         return {
-          type: "post",
+          type: 'post',
           title:
-            "title" in content
+            'title' in content
               ? content.title
-              : "text" in content
+              : 'text' in content
                 ? content.text?.slice(0, 50)
-                : "",
+                : '',
           description:
-            "description" in content
+            'description' in content
               ? content.description
-              : "text" in content
+              : 'text' in content
                 ? content.text
-                : "",
-          image: "cover" in content ? content.cover : post.author.image,
+                : '',
+          image: 'cover' in content ? content.cover : post.author.image,
           to: `/post/${post.id}`,
-        };
+        }
       })
-  );
+  )
 
-  return results;
-});
+  return results
+})
 
 const handleSearch = () => {
-  if (!searchQuery.value) return;
+  if (!searchQuery.value) return
 
   // Close dialog
-  dialog.close();
+  dialog.close()
 
   // Navigate to search results
   router.push({
-    path: "/search",
+    path: '/search',
     query: { q: searchQuery.value },
-  });
-};
+  })
+}
 
 // Focus input when dialog opens
 onMounted(() => {
   nextTick(() => {
-    const input = searchInput.value?.$el?.querySelector("input");
-    input?.focus();
-  });
-});
+    const input = searchInput.value?.$el?.querySelector('input')
+    input?.focus()
+  })
+})
 </script>
 
 <template>

@@ -1,121 +1,121 @@
 <script setup>
-import { ref, computed } from "vue";
-import ArtistCard from "@/components/ArtistCard.vue";
-import { mockArtists } from "@/data/mockArtists";
+import { ref, computed } from 'vue'
+import ArtistCard from '@/components/ArtistCard.vue'
+import { mockArtists } from '@/data/mockArtists'
 
-const artists = mockArtists;
+const artists = mockArtists
 
 // Primary filter states
-const searchQuery = ref("");
-const selectedRole = ref("all");
-const selectedLocation = ref("all");
-const selectedLanguage = ref("all");
+const searchQuery = ref('')
+const selectedRole = ref('all')
+const selectedLocation = ref('all')
+const selectedLanguage = ref('all')
 
 // Secondary filter states
-const selectedLevel = ref("all");
-const selectedSpecialty = ref("all");
-const showAvailable = ref(false);
+const selectedLevel = ref('all')
+const selectedSpecialty = ref('all')
+const showAvailable = ref(false)
 
 // Role-specific filter states
-const selectedTeachingLevel = ref("all");
-const selectedEquipment = ref("all");
-const selectedInstruments = ref("all");
-const selectedServices = ref([]);
+const selectedTeachingLevel = ref('all')
+const selectedEquipment = ref('all')
+const selectedInstruments = ref('all')
+const selectedServices = ref([])
 
 // Filter options
 const roleOptions = [
-  { value: "all", label: "All" },
-  { value: "instructor", label: "Instructors" },
-  { value: "performer", label: "Performers" },
-  { value: "choreographer", label: "Choreographers" },
-  { value: "musician", label: "Musicians" },
-  { value: "dj", label: "DJs" },
-  { value: "videographer", label: "Videographers" },
-];
+  { value: 'all', label: 'All' },
+  { value: 'instructor', label: 'Instructors' },
+  { value: 'performer', label: 'Performers' },
+  { value: 'choreographer', label: 'Choreographers' },
+  { value: 'musician', label: 'Musicians' },
+  { value: 'dj', label: 'DJs' },
+  { value: 'videographer', label: 'Videographers' },
+]
 
 const levelOptions = [
-  { value: "all", label: "All Experience" },
-  { value: "master", label: "Master" },
-  { value: "advanced", label: "Advanced" },
-];
+  { value: 'all', label: 'All Experience' },
+  { value: 'master', label: 'Master' },
+  { value: 'advanced', label: 'Advanced' },
+]
 
 const teachingLevelOptions = [
-  { value: "all", label: "All Class Levels" },
-  { value: "beginner", label: "Beginner Classes" },
-  { value: "intermediate", label: "Intermediate Classes" },
-  { value: "advanced", label: "Advanced Classes" },
-];
+  { value: 'all', label: 'All Class Levels' },
+  { value: 'beginner', label: 'Beginner Classes' },
+  { value: 'intermediate', label: 'Intermediate Classes' },
+  { value: 'advanced', label: 'Advanced Classes' },
+]
 
 // Dynamic filter options based on role
 const serviceOptions = computed(() => {
   switch (selectedRole.value) {
-    case "instructor":
+    case 'instructor':
       return [
-        { value: "privateClasses", label: "Private Classes" },
-        { value: "workshops", label: "Workshops" },
-      ];
-    case "videographer":
+        { value: 'privateClasses', label: 'Private Classes' },
+        { value: 'workshops', label: 'Workshops' },
+      ]
+    case 'videographer':
       return [
-        { value: "eventCoverage", label: "Event Coverage" },
-        { value: "promotional", label: "Promotional Content" },
-      ];
+        { value: 'eventCoverage', label: 'Event Coverage' },
+        { value: 'promotional', label: 'Promotional Content' },
+      ]
     default:
-      return [];
+      return []
   }
-});
+})
 
 const specialtiesOptions = computed(() => {
   const roleSpecificSpecialties = artists
     .filter(
       (artist) =>
-        selectedRole.value === "all" ||
+        selectedRole.value === 'all' ||
         artist.roles.includes(selectedRole.value)
     )
-    .flatMap((artist) => artist.specialties || []);
+    .flatMap((artist) => artist.specialties || [])
 
-  const specialties = new Set(roleSpecificSpecialties);
+  const specialties = new Set(roleSpecificSpecialties)
   return [
-    { value: "all", label: "All Specialties" },
+    { value: 'all', label: 'All Specialties' },
     ...Array.from(specialties).map((s) => ({ value: s, label: s })),
-  ];
-});
+  ]
+})
 
 const equipmentOptions = computed(() => {
   const equipment = new Set(
     artists
       .filter(
         (artist) =>
-          artist.roles.includes("dj") || artist.roles.includes("videographer")
+          artist.roles.includes('dj') || artist.roles.includes('videographer')
       )
       .flatMap((artist) => artist.equipment || [])
-  );
+  )
   return [
-    { value: "all", label: "All Equipment" },
+    { value: 'all', label: 'All Equipment' },
     ...Array.from(equipment).map((e) => ({ value: e, label: e })),
-  ];
-});
+  ]
+})
 
 const instrumentOptions = computed(() => {
   const instruments = new Set(
     artists
-      .filter((artist) => artist.roles.includes("musician"))
+      .filter((artist) => artist.roles.includes('musician'))
       .flatMap((artist) => artist.instruments || [])
-  );
+  )
   return [
-    { value: "all", label: "All Instruments" },
+    { value: 'all', label: 'All Instruments' },
     ...Array.from(instruments).map((i) => ({ value: i, label: i })),
-  ];
-});
+  ]
+})
 
 // Show filters based on role
-const showTeachingLevels = computed(() => selectedRole.value === "instructor");
+const showTeachingLevels = computed(() => selectedRole.value === 'instructor')
 const showEquipment = computed(() =>
-  ["dj", "videographer"].includes(selectedRole.value)
-);
-const showInstruments = computed(() => selectedRole.value === "musician");
+  ['dj', 'videographer'].includes(selectedRole.value)
+)
+const showInstruments = computed(() => selectedRole.value === 'musician')
 const showServices = computed(() =>
-  ["instructor", "videographer"].includes(selectedRole.value)
-);
+  ['instructor', 'videographer'].includes(selectedRole.value)
+)
 
 // Get unique locations from artists
 const locationOptions = computed(() => {
@@ -123,26 +123,24 @@ const locationOptions = computed(() => {
     artists.map(
       (artist) => artist.availability?.currentLocation || artist.location
     )
-  );
+  )
   return [
-    { value: "all", label: "All Locations" },
+    { value: 'all', label: 'All Locations' },
     ...Array.from(locations).map((loc) => ({ value: loc, label: loc })),
-  ];
-});
+  ]
+})
 
 // Get unique languages from artists
 const languageOptions = computed(() => {
-  const languages = new Set(
-    artists.flatMap((artist) => artist.languages || [])
-  );
+  const languages = new Set(artists.flatMap((artist) => artist.languages || []))
   return [
-    { value: "all", label: "All Languages" },
+    { value: 'all', label: 'All Languages' },
     ...Array.from(languages).map((lang) => ({ value: lang, label: lang })),
-  ];
-});
+  ]
+})
 
 const filteredResults = computed(() => {
-  let filtered = artists;
+  let filtered = artists
 
   if (searchQuery.value) {
     filtered = filtered.filter(
@@ -152,36 +150,34 @@ const filteredResults = computed(() => {
           role.includes(searchQuery.value.toLowerCase())
         ) ||
         artist.location.toLowerCase().includes(searchQuery.value.toLowerCase())
-    );
+    )
   }
 
-  if (selectedRole.value !== "all") {
+  if (selectedRole.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.roles.includes(selectedRole.value)
-    );
+    )
   }
 
   // Level filter
-  if (selectedLevel.value !== "all") {
-    filtered = filtered.filter(
-      (artist) => artist.level === selectedLevel.value
-    );
+  if (selectedLevel.value !== 'all') {
+    filtered = filtered.filter((artist) => artist.level === selectedLevel.value)
   }
 
   // Location filter
-  if (selectedLocation.value !== "all") {
+  if (selectedLocation.value !== 'all') {
     filtered = filtered.filter(
       (artist) =>
         (artist.availability?.currentLocation || artist.location) ===
         selectedLocation.value
-    );
+    )
   }
 
   // Language filter
-  if (selectedLanguage.value !== "all") {
+  if (selectedLanguage.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.languages?.includes(selectedLanguage.value)
-    );
+    )
   }
 
   // Availability filter
@@ -191,131 +187,129 @@ const filteredResults = computed(() => {
         (artist.availability?.privateClasses ||
           artist.availability?.workshops) &&
         (!artist.availability?.touring || artist.availability?.currentLocation)
-    );
+    )
   }
 
   // Teaching Level filter
-  if (selectedTeachingLevel.value !== "all") {
+  if (selectedTeachingLevel.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.experience?.teachingLevels?.includes(selectedTeachingLevel.value)
-    );
+    )
   }
 
   // Specialty filter
-  if (selectedSpecialty.value !== "all") {
+  if (selectedSpecialty.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.specialties?.includes(selectedSpecialty.value)
-    );
+    )
   }
 
   // Services filter
   if (selectedServices.value.length > 0) {
     filtered = filtered.filter((artist) =>
       selectedServices.value.some((service) => artist.availability?.[service])
-    );
+    )
   }
 
   // Equipment filter (for DJs and Videographers)
-  if (selectedEquipment.value !== "all") {
+  if (selectedEquipment.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.equipment?.includes(selectedEquipment.value)
-    );
+    )
   }
 
   // Instruments filter (for Musicians)
-  if (selectedInstruments.value !== "all") {
+  if (selectedInstruments.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.instruments?.includes(selectedInstruments.value)
-    );
+    )
   }
 
-  return filtered;
-});
+  return filtered
+})
 
 const hasActiveFilters = computed(() => {
   return (
-    selectedRole.value !== "all" ||
-    selectedLocation.value !== "all" ||
-    selectedLanguage.value !== "all" ||
+    selectedRole.value !== 'all' ||
+    selectedLocation.value !== 'all' ||
+    selectedLanguage.value !== 'all' ||
     selectedServices.value.length > 0 ||
-    selectedTeachingLevel.value !== "all" ||
-    selectedSpecialty.value !== "all" ||
-    selectedEquipment.value !== "all" ||
-    selectedInstruments.value !== "all" ||
+    selectedTeachingLevel.value !== 'all' ||
+    selectedSpecialty.value !== 'all' ||
+    selectedEquipment.value !== 'all' ||
+    selectedInstruments.value !== 'all' ||
     showAvailable.value ||
-    searchQuery.value !== "" ||
-    sortBy.value !== "relevance"
-  );
-});
+    searchQuery.value !== '' ||
+    sortBy.value !== 'relevance'
+  )
+})
 
 function clearFilters() {
-  selectedRole.value = "all";
-  selectedLocation.value = "all";
-  selectedLanguage.value = "all";
-  selectedServices.value = [];
-  selectedTeachingLevel.value = "all";
-  selectedSpecialty.value = "all";
-  showAvailable.value = false;
-  searchQuery.value = "";
-  selectedEquipment.value = "all";
-  selectedInstruments.value = "all";
-  sortBy.value = "relevance";
+  selectedRole.value = 'all'
+  selectedLocation.value = 'all'
+  selectedLanguage.value = 'all'
+  selectedServices.value = []
+  selectedTeachingLevel.value = 'all'
+  selectedSpecialty.value = 'all'
+  showAvailable.value = false
+  searchQuery.value = ''
+  selectedEquipment.value = 'all'
+  selectedInstruments.value = 'all'
+  sortBy.value = 'relevance'
 }
 
 function toggleService(service) {
   if (selectedServices.value.includes(service)) {
-    selectedServices.value = selectedServices.value.filter(
-      (s) => s !== service
-    );
+    selectedServices.value = selectedServices.value.filter((s) => s !== service)
   } else {
-    selectedServices.value.push(service);
+    selectedServices.value.push(service)
   }
 }
 
-const showSearch = ref(false);
+const showSearch = ref(false)
 
-const sortBy = ref("relevance");
+const sortBy = ref('relevance')
 
 const sortedArtists = computed(() => {
-  let results = filteredResults.value;
+  let results = filteredResults.value
 
   switch (sortBy.value) {
-    case "rating":
-      return [...results].sort((a, b) => b.rating - a.rating);
-    case "near":
+    case 'rating':
+      return [...results].sort((a, b) => b.rating - a.rating)
+    case 'near':
       // Fake distances from Munich in km
       const distances = {
         // German cities first
-        "Munich, Germany": 0,
-        "Berlin, Germany": 584,
+        'Munich, Germany': 0,
+        'Berlin, Germany': 584,
         // European cities
-        "Amsterdam, Netherlands": 840,
-        "Paris, France": 828,
-        "London, UK": 1174,
-        "Barcelona, Spain": 1352,
-        "Madrid, Spain": 1807,
+        'Amsterdam, Netherlands': 840,
+        'Paris, France': 828,
+        'London, UK': 1174,
+        'Barcelona, Spain': 1352,
+        'Madrid, Spain': 1807,
         // Other continents
-        "Havana, Cuba": 8158,
-        "Miami, USA": 7836,
-        "Mexico City, Mexico": 9623,
-        "Tokyo, Japan": 9147,
-      };
+        'Havana, Cuba': 8158,
+        'Miami, USA': 7836,
+        'Mexico City, Mexico': 9623,
+        'Tokyo, Japan': 9147,
+      }
 
       return [...results].sort((a, b) => {
-        const locA = a.availability?.currentLocation || a.location;
-        const locB = b.availability?.currentLocation || b.location;
+        const locA = a.availability?.currentLocation || a.location
+        const locB = b.availability?.currentLocation || b.location
         // If location isn't in our distances map, put it at the end
-        const distA = distances[locA];
-        const distB = distances[locB];
-        if (distA === undefined && distB === undefined) return 0;
-        if (distA === undefined) return 1;
-        if (distB === undefined) return -1;
-        return distA - distB;
-      });
+        const distA = distances[locA]
+        const distB = distances[locB]
+        if (distA === undefined && distB === undefined) return 0
+        if (distA === undefined) return 1
+        if (distB === undefined) return -1
+        return distA - distB
+      })
     default:
-      return results;
+      return results
   }
-});
+})
 </script>
 
 <template>

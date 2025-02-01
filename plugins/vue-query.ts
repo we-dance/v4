@@ -1,4 +1,4 @@
-import { VueQueryPlugin, QueryClient } from "vue-query";
+import { VueQueryPlugin, QueryClient } from 'vue-query'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const queryClient = new QueryClient({
@@ -9,9 +9,9 @@ export default defineNuxtPlugin((nuxtApp) => {
         refetchOnWindowFocus: false,
       },
     },
-  });
+  })
 
   nuxtApp.vueApp.use(VueQueryPlugin, {
     queryClient,
-  });
-});
+  })
+})

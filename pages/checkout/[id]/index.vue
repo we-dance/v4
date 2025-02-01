@@ -1,88 +1,88 @@
 <script setup lang="ts">
-import { mockEvents } from "@/data/mockEvents";
-import { mockCourses } from "@/data/mockCourses";
-import type { AnyEvent, Price } from "~/schemas/event";
-import { formatDate } from "~/utils/format";
+import { mockEvents } from '@/data/mockEvents'
+import { mockCourses } from '@/data/mockCourses'
+import type { AnyEvent, Price } from '~/schemas/event'
+import { formatDate } from '~/utils/format'
 
 interface CoursePrice {
-  amount: number;
-  currency: string;
-  interval?: string;
-  description?: string;
+  amount: number
+  currency: string
+  interval?: string
+  description?: string
 }
 
 interface Course {
-  id: string;
-  name: string;
-  image?: string;
-  description?: string;
+  id: string
+  name: string
+  image?: string
+  description?: string
   instructor: {
-    name: string;
-    image?: string;
-  };
+    name: string
+    image?: string
+  }
   pricing: {
     regular: {
-      monthly: CoursePrice;
-      annual: CoursePrice;
-    };
+      monthly: CoursePrice
+      annual: CoursePrice
+    }
     premium: {
-      monthly: CoursePrice;
-      annual: CoursePrice;
-    };
+      monthly: CoursePrice
+      annual: CoursePrice
+    }
     trial?: {
-      duration: number;
-    };
-  };
+      duration: number
+    }
+  }
 }
 
 interface CheckoutItem {
-  id: string;
-  name: string;
-  image?: string;
-  description?: string;
+  id: string
+  name: string
+  image?: string
+  description?: string
   instructor?: {
-    id?: string;
-    name: string;
-    image?: string;
-  };
+    id?: string
+    name: string
+    image?: string
+  }
   pricing?: {
     regular: {
-      monthly: CoursePrice;
-      annual: CoursePrice;
-    };
+      monthly: CoursePrice
+      annual: CoursePrice
+    }
     premium: {
-      monthly: CoursePrice;
-      annual: CoursePrice;
-    };
+      monthly: CoursePrice
+      annual: CoursePrice
+    }
     trial?: {
-      duration: number;
-    };
-  };
+      duration: number
+    }
+  }
   privateClass?: {
-    amount: number;
-    currency: string;
-    duration: number;
-  };
+    amount: number
+    currency: string
+    duration: number
+  }
   date?: {
-    start: string;
-    end: string;
-  };
+    start: string
+    end: string
+  }
   location?: {
-    name: string;
-    city: string;
-  };
-  prices?: Price[];
+    name: string
+    city: string
+  }
+  prices?: Price[]
 }
 
-const route = useRoute();
-const type = route.query.type || "event";
+const route = useRoute()
+const type = route.query.type || 'event'
 
 // Get item details based on type
 const item = computed<CheckoutItem | null>(() => {
-  if (type === "event") {
+  if (type === 'event') {
     const event = mockEvents.find(
       (e) => String(e.id) === String(route.params.id)
-    );
+    )
     if (event) {
       return {
         id: String(event.id),
@@ -91,13 +91,13 @@ const item = computed<CheckoutItem | null>(() => {
         location: event.location,
         prices: event.prices,
         image: event.image,
-      };
+      }
     }
   }
-  if (type === "course") {
+  if (type === 'course') {
     const course = mockCourses.find(
       (c) => String(c.id) === String(route.params.id)
-    );
+    )
     if (course) {
       return {
         id: course.id,
@@ -109,17 +109,17 @@ const item = computed<CheckoutItem | null>(() => {
         },
         pricing: course.pricing,
         description: course.description,
-      };
+      }
     }
   }
-  if (type === "private") {
+  if (type === 'private') {
     const course = mockCourses.find(
       (c) => String(c.id) === String(route.params.id)
-    );
+    )
     if (course && course.instructor.privateClass) {
       return {
         id: course.id,
-        name: "Private Class",
+        name: 'Private Class',
         image: course.instructor.image,
         instructor: {
           id: String(course.instructor.id),
@@ -128,68 +128,68 @@ const item = computed<CheckoutItem | null>(() => {
         },
         privateClass: course.instructor.privateClass,
         description: `Private ${course.instructor.privateClass.duration}-minute lesson with ${course.instructor.name}`,
-      };
+      }
     }
   }
-  return null;
-});
+  return null
+})
 
 // Get selected price for workshops or courses
 const selectedPrice = computed(() => {
-  if (!item.value) return null;
+  if (!item.value) return null
 
-  if (type === "event") {
-    const priceId = route.query.priceId as string;
-    return item.value.prices?.find((p: Price) => p.id === priceId);
+  if (type === 'event') {
+    const priceId = route.query.priceId as string
+    return item.value.prices?.find((p: Price) => p.id === priceId)
   }
 
-  if (type === "course" && item.value.pricing) {
-    const plan = route.query.plan as "regular" | "premium" | "trial";
-    const interval = route.query.interval as "monthly" | "annual";
+  if (type === 'course' && item.value.pricing) {
+    const plan = route.query.plan as 'regular' | 'premium' | 'trial'
+    const interval = route.query.interval as 'monthly' | 'annual'
 
-    if (plan === "trial") {
+    if (plan === 'trial') {
       return {
-        type: "trial",
+        type: 'trial',
         amount: 0,
-        currency: "EUR",
-        name: "Free Trial",
+        currency: 'EUR',
+        name: 'Free Trial',
         description: `${item.value.pricing.trial?.duration || 7} days free trial`,
-        interval: "trial",
-      };
+        interval: 'trial',
+      }
     }
 
-    const price = item.value.pricing[plan]?.[interval];
+    const price = item.value.pricing[plan]?.[interval]
     if (price) {
       return {
-        type: "subscription",
+        type: 'subscription',
         ...price,
         name: `${plan.charAt(0).toUpperCase() + plan.slice(1)} Plan`,
         description:
-          interval === "annual" ? "Billed annually" : "Billed monthly",
+          interval === 'annual' ? 'Billed annually' : 'Billed monthly',
         interval,
-      };
+      }
     }
   }
 
-  if (type === "private" && item.value.privateClass) {
+  if (type === 'private' && item.value.privateClass) {
     return {
-      type: "one-time",
+      type: 'one-time',
       amount: item.value.privateClass.amount,
       currency: item.value.privateClass.currency,
-      name: "Private Class",
+      name: 'Private Class',
       description: `${item.value.privateClass.duration} minutes with ${item.value.instructor?.name}`,
-    };
+    }
   }
 
-  return null;
-});
+  return null
+})
 
 // Update template to handle subscription interval display
 const displayInterval = computed(() => {
-  if (!selectedPrice.value || !("interval" in selectedPrice.value)) return null;
-  if (selectedPrice.value.interval === "trial") return null;
-  return selectedPrice.value.interval === "annual" ? "year" : "month";
-});
+  if (!selectedPrice.value || !('interval' in selectedPrice.value)) return null
+  if (selectedPrice.value.interval === 'trial') return null
+  return selectedPrice.value.interval === 'annual' ? 'year' : 'month'
+})
 
 // Get final price for checkout
 const checkoutPrice = computed(() => {
@@ -198,60 +198,59 @@ const checkoutPrice = computed(() => {
       ...selectedPrice.value,
       type:
         selectedPrice.value.type ||
-        (type === "event" ? "one-time" : "subscription"),
-    };
+        (type === 'event' ? 'one-time' : 'subscription'),
+    }
   }
 
-  throw new Error("Unknown price checkout logic not implemented yet");
-});
+  throw new Error('Unknown price checkout logic not implemented yet')
+})
 
 // Checkout state management
-const checkoutState = ref("email"); // email, login, or register
+const checkoutState = ref('email') // email, login, or register
 
-const { checkEmail, createAccount, login, isLoading, error } =
-  useRegistration();
+const { checkEmail, createAccount, login, isLoading, error } = useRegistration()
 
 const formData = reactive({
-  firstName: "",
-  lastName: "",
-  email: "",
-  phone: "",
-  password: "",
-  userType: "dancer",
+  firstName: '',
+  lastName: '',
+  email: '',
+  phone: '',
+  password: '',
+  userType: 'dancer',
   terms: false,
-});
+})
 
 const handleEmailCheck = async () => {
-  if (!formData.email) return;
+  if (!formData.email) return
 
-  const exists = await checkEmail(formData.email);
-  checkoutState.value = exists ? "login" : "register";
-};
+  const exists = await checkEmail(formData.email)
+  checkoutState.value = exists ? 'login' : 'register'
+}
 
 const handleSubmit = async () => {
-  if (!item.value) return;
+  if (!item.value) return
 
   try {
-    let success = false;
+    let success = false
 
-    if (checkoutState.value === "login") {
-      success = await login(formData.email, formData.password);
+    if (checkoutState.value === 'login') {
+      success = await login(formData.email, formData.password)
     } else {
-      success = await createAccount(formData);
+      success = await createAccount(formData)
     }
 
     if (success) {
       // Here you would integrate with your payment provider
       // For now, we'll simulate a successful booking
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 1000))
 
       // Redirect to success page
-      navigateTo(`/checkout/${item.value.id}/success`);
+      navigateTo(`/checkout/${item.value.id}/success`)
     }
   } catch (e) {
-    console.error("Checkout failed:", e);
+    console.error('Checkout failed:', e)
   }
-};
+}
 </script>
 
 <template>
@@ -263,9 +262,9 @@ const handleSubmit = async () => {
           <h1 class="text-3xl font-bold">Checkout</h1>
           <p class="text-muted-foreground mt-2">
             {{
-              type === "event"
-                ? "Complete your booking"
-                : "Start your learning journey"
+              type === 'event'
+                ? 'Complete your booking'
+                : 'Start your learning journey'
             }}
           </p>
         </div>
@@ -314,19 +313,19 @@ const handleSubmit = async () => {
               <div>
                 <div class="font-medium">
                   {{
-                    checkoutPrice.type === "subscription"
-                      ? "Subscription Plan"
-                      : checkoutPrice.type === "trial"
-                        ? "Free Trial"
+                    checkoutPrice.type === 'subscription'
+                      ? 'Subscription Plan'
+                      : checkoutPrice.type === 'trial'
+                        ? 'Free Trial'
                         : checkoutPrice.name
                   }}
                 </div>
                 <div class="text-sm text-muted-foreground">
                   <template v-if="checkoutPrice.type === 'subscription'">
                     {{
-                      displayInterval === "year"
-                        ? "Billed annually"
-                        : "Billed monthly"
+                      displayInterval === 'year'
+                        ? 'Billed annually'
+                        : 'Billed monthly'
                     }}
                   </template>
                   <template v-else>
@@ -476,15 +475,15 @@ const handleSubmit = async () => {
         class="w-16 h-16 text-muted-foreground mx-auto mb-4"
       />
       <h2 class="text-2xl font-bold text-foreground mb-2">
-        {{ type === "event" ? "Event" : "Course" }} Not Found
+        {{ type === 'event' ? 'Event' : 'Course' }} Not Found
       </h2>
       <p class="text-muted-foreground mb-6">
-        The {{ type === "event" ? "event" : "course" }} you're looking for
+        The {{ type === 'event' ? 'event' : 'course' }} you're looking for
         doesn't exist or has been removed.
       </p>
       <Button as-child>
         <NuxtLink :to="type === 'event' ? '/events' : '/courses'">
-          Browse {{ type === "event" ? "Events" : "Courses" }}
+          Browse {{ type === 'event' ? 'Events' : 'Courses' }}
         </NuxtLink>
       </Button>
     </div>

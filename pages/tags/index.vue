@@ -1,27 +1,27 @@
 <script setup lang="ts">
-import { mockPosts } from "~/data/mockPosts";
+import { mockPosts } from '~/data/mockPosts'
 
 interface TagCount {
-  name: string;
-  count: number;
+  name: string
+  count: number
 }
 
 const tagCounts = computed(() => {
-  const counts = new Map<string, number>();
+  const counts = new Map<string, number>()
 
   mockPosts.forEach((post) => {
-    if ("tags" in post.content && post.content.tags) {
+    if ('tags' in post.content && post.content.tags) {
       post.content.tags.forEach((tag) => {
-        const normalizedTag = tag.toLowerCase();
-        counts.set(normalizedTag, (counts.get(normalizedTag) || 0) + 1);
-      });
+        const normalizedTag = tag.toLowerCase()
+        counts.set(normalizedTag, (counts.get(normalizedTag) || 0) + 1)
+      })
     }
-  });
+  })
 
   return Array.from(counts.entries())
     .map(([name, count]) => ({ name, count }))
-    .sort((a, b) => b.count - a.count);
-});
+    .sort((a, b) => b.count - a.count)
+})
 </script>
 
 <template>

@@ -121,10 +121,10 @@
 
 <script setup lang="ts">
 definePageMeta({
-  layout: "admin",
-});
+  layout: 'admin',
+})
 
 const onSubmit = () => {
   // TODO: Implement event creation
-};
+}
 </script>

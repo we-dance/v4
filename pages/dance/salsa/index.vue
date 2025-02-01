@@ -1,69 +1,69 @@
 # Create the main salsa page
 <script setup lang="ts">
-import { ref } from "vue";
-import { mockCommunities } from "~/data/mockCommunities";
-import { mockEvents } from "~/data/mockEvents";
-import { mockPosts } from "~/data/mockPosts";
-import CommunityCard from "~/components/community/CommunityCard.vue";
-import type { ArticlePost } from "~/schemas/post";
+import { ref } from 'vue'
+import { mockCommunities } from '~/data/mockCommunities'
+import { mockEvents } from '~/data/mockEvents'
+import { mockPosts } from '~/data/mockPosts'
+import CommunityCard from '~/components/community/CommunityCard.vue'
+import type { ArticlePost } from '~/schemas/post'
 
 const styles = [
   {
-    id: "cuban",
-    name: "Cuban Style (Casino)",
+    id: 'cuban',
+    name: 'Cuban Style (Casino)',
     description:
-      "Circular style with Afro-Cuban roots, danced to Son and Timba music",
-    aliases: ["Salsa Cubana", "Casino", "Cuban Salsa"],
+      'Circular style with Afro-Cuban roots, danced to Son and Timba music',
+    aliases: ['Salsa Cubana', 'Casino', 'Cuban Salsa'],
     image:
-      "https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80",
+      'https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80',
   },
   {
-    id: "linear",
-    name: "Linear Style",
-    description: "Danced in a slot, includes LA Style (On1) and NY Style (On2)",
-    aliases: ["LA Style", "NY Style", "On1", "On2"],
+    id: 'linear',
+    name: 'Linear Style',
+    description: 'Danced in a slot, includes LA Style (On1) and NY Style (On2)',
+    aliases: ['LA Style', 'NY Style', 'On1', 'On2'],
     image:
-      "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+      'https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80',
   },
   {
-    id: "colombian",
-    name: "Colombian Style",
-    description: "Close embrace style with Colombian rhythms and moves",
-    aliases: ["Caleña", "Colombiana"],
+    id: 'colombian',
+    name: 'Colombian Style',
+    description: 'Close embrace style with Colombian rhythms and moves',
+    aliases: ['Caleña', 'Colombiana'],
     image:
-      "https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80",
+      'https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80',
   },
-];
+]
 
-const communities = ref(mockCommunities);
-const events = ref(mockEvents);
+const communities = ref(mockCommunities)
+const events = ref(mockEvents)
 
 const beginnerPosts = ref(
   mockPosts.filter((p) => {
-    if (p.type !== "article") return false;
-    const tags = p.content.tags || [];
+    if (p.type !== 'article') return false
+    const tags = p.content.tags || []
     return tags.some((tag) =>
-      ["beginner-guide", "salsa-basics", "salsa-styles"].includes(tag)
-    );
+      ['beginner-guide', 'salsa-basics', 'salsa-styles'].includes(tag)
+    )
   }) as ArticlePost[]
-);
+)
 
 const teacherPosts = ref(
   mockPosts.filter((p) => {
-    if (p.type !== "article") return false;
-    const tags = p.content.tags || [];
+    if (p.type !== 'article') return false
+    const tags = p.content.tags || []
     return tags.some((tag) =>
-      ["teaching", "instruction", "methodology"].includes(tag)
-    );
+      ['teaching', 'instruction', 'methodology'].includes(tag)
+    )
   }) as ArticlePost[]
-);
+)
 
 const handleImageError = (event: Event) => {
-  const img = event.target as HTMLImageElement;
+  const img = event.target as HTMLImageElement
   if (img) {
-    img.style.display = "none";
+    img.style.display = 'none'
   }
-};
+}
 </script>
 
 <template>
@@ -179,15 +179,15 @@ const handleImageError = (event: Event) => {
                   {{ new Date(event.date.start).toLocaleDateString() }},
                   {{
                     new Date(event.date.start).toLocaleTimeString([], {
-                      hour: "2-digit",
-                      minute: "2-digit",
+                      hour: '2-digit',
+                      minute: '2-digit',
                     })
                   }}
                   -
                   {{
                     new Date(event.date.end).toLocaleTimeString([], {
-                      hour: "2-digit",
-                      minute: "2-digit",
+                      hour: '2-digit',
+                      minute: '2-digit',
                     })
                   }}
                 </span>
@@ -203,7 +203,7 @@ const handleImageError = (event: Event) => {
                 <span>{{
                   event.prices?.length
                     ? `${event.prices[0].amount}${event.prices[0].currency}`
-                    : "Free"
+                    : 'Free'
                 }}</span>
               </div>
               <div class="flex items-center text-muted-foreground">

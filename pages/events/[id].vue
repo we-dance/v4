@@ -1,52 +1,52 @@
 <script setup lang="ts">
-import { mockEvents } from "@/data/mockEvents";
-import { mockArtists } from "@/data/mockArtists";
-import type { AnyEvent, Price } from "~/schemas/event";
-import GradientBackground from "~/components/common/GradientBackground.vue";
-import { formatDate } from "~/utils/format";
-import UserPoints from "~/components/common/UserPoints.vue";
-import Post from "~/components/post/Post.vue";
-import { eventToFeedPost } from "~/schemas/event";
+import { mockEvents } from '@/data/mockEvents'
+import { mockArtists } from '@/data/mockArtists'
+import type { AnyEvent, Price } from '~/schemas/event'
+import GradientBackground from '~/components/common/GradientBackground.vue'
+import { formatDate } from '~/utils/format'
+import UserPoints from '~/components/common/UserPoints.vue'
+import Post from '~/components/post/Post.vue'
+import { eventToFeedPost } from '~/schemas/event'
 
-const route = useRoute();
+const route = useRoute()
 const event = computed(
   () =>
     mockEvents.find((e) => String(e.id) === String(route.params.id)) as
       | AnyEvent
       | undefined
-);
+)
 
 // Computed properties for UI
 const formattedDate = computed(() => {
-  if (!event.value) return "";
-  const start = formatDate(event.value.date.start);
-  const end = formatDate(event.value.date.end);
-  return start === end ? start : `${start} - ${end}`;
-});
+  if (!event.value) return ''
+  const start = formatDate(event.value.date.start)
+  const end = formatDate(event.value.date.end)
+  return start === end ? start : `${start} - ${end}`
+})
 
 const getPrice = (event: AnyEvent) => {
   if (!event.prices || event.prices.length === 0) {
-    return "Unknown price";
+    return 'Unknown price'
   }
 
   if (event.prices?.length === 1) {
     if (event.prices[0].amount === 0) {
-      return "Free";
+      return 'Free'
     }
 
-    return `${event.prices[0].amount} ${event.prices[0].currency}`;
+    return `${event.prices[0].amount} ${event.prices[0].currency}`
   }
 
   const lowestPrice = event.prices.reduce(
     (min, p) => (p.amount < min.amount ? p : min),
     event.prices[0]
-  );
-  return `From ${lowestPrice.amount} ${lowestPrice.currency}`;
-};
+  )
+  return `From ${lowestPrice.amount} ${lowestPrice.currency}`
+}
 
 // Related events
 const relatedEvents = computed(() => {
-  if (!event.value) return [];
+  if (!event.value) return []
 
   return mockEvents
     .filter(
@@ -60,117 +60,117 @@ const relatedEvents = computed(() => {
       const base = {
         ...e,
         schedule: e.schedule || [],
-      };
+      }
 
       // Return type-specific event
       switch (base.type) {
-        case "workshop":
+        case 'workshop':
           return {
             ...base,
-            type: "workshop",
-            level: base.level || "all",
+            type: 'workshop',
+            level: base.level || 'all',
             prices: base.prices || [],
-          };
-        case "concert":
+          }
+        case 'concert':
           return {
             ...base,
-            type: "concert",
+            type: 'concert',
             venue: base.venue || { capacity: 0, seating: false },
-          };
-        case "festival":
+          }
+        case 'festival':
           return {
             ...base,
-            type: "festival",
+            type: 'festival',
             prices: base.prices || [],
-          };
-        case "party":
+          }
+        case 'party':
           return {
             ...base,
-            type: "party",
-          };
+            type: 'party',
+          }
         default:
-          throw new Error(`Unknown event type: ${base.type}`);
+          throw new Error(`Unknown event type: ${base.type}`)
       }
     })
-    .slice(0, 2);
-});
+    .slice(0, 2)
+})
 
 // Event availability status
 const availability = computed(() => {
-  if (!event.value) return null;
-  const capacity = 100; // This should come from the event data
-  const interested = event.value.stats?.interested || 0;
-  if (interested >= capacity) return "sold-out";
-  if (interested >= capacity * 0.8) return "few-left";
-  return "available";
-});
+  if (!event.value) return null
+  const capacity = 100 // This should come from the event data
+  const interested = event.value.stats?.interested || 0
+  if (interested >= capacity) return 'sold-out'
+  if (interested >= capacity * 0.8) return 'few-left'
+  return 'available'
+})
 
 // Going state
-const isGoing = ref(false);
+const isGoing = ref(false)
 
 // Actions
 const handleShare = () => {
-  if (!event.value) return;
-  console.log("Share event:", event.value.name);
-};
+  if (!event.value) return
+  console.log('Share event:', event.value.name)
+}
 
 const handleBookmark = () => {
-  if (!event.value) return;
-  console.log("Bookmark event:", event.value.name);
-};
+  if (!event.value) return
+  console.log('Bookmark event:', event.value.name)
+}
 
 const handleGoing = () => {
-  if (!event.value) return;
-  isGoing.value = !isGoing.value;
+  if (!event.value) return
+  isGoing.value = !isGoing.value
   console.log(
-    isGoing.value ? "Going to event" : "Not going to event",
+    isGoing.value ? 'Going to event' : 'Not going to event',
     event.value.name
-  );
-};
+  )
+}
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const handleBook = () => {
-  if (!event.value) return;
+  if (!event.value) return
 
-  const prices = event.value.prices;
+  const prices = event.value.prices
 
   if (!prices || prices.length === 0) {
-    navigateTo(`/checkout/${event.value.id}`);
-    return;
+    navigateTo(`/checkout/${event.value.id}`)
+    return
   }
 
   if (prices.length === 1) {
-    navigateTo(`/checkout/${event.value.id}?priceId=${prices[0].id}`);
-    return;
+    navigateTo(`/checkout/${event.value.id}?priceId=${prices[0].id}`)
+    return
   }
 
   dialog.open({
-    component: "PricingOptionsDialog",
+    component: 'PricingOptionsDialog',
     props: {
       prices: prices,
       onSelect: (selectedPrice: Price) => {
         // Navigate to checkout with selected price
-        navigateTo(`/checkout/${event.value?.id}?priceId=${selectedPrice.id}`);
+        navigateTo(`/checkout/${event.value?.id}?priceId=${selectedPrice.id}`)
       },
     },
-  });
-};
+  })
+}
 
 interface Artist {
-  id: number;
-  name: string;
-  roles: string[];
-  image: string;
+  id: number
+  name: string
+  roles: string[]
+  image: string
 }
 
 // Get artists for the event
 const eventArtists = computed(() => {
-  if (!event.value?.artists) return [];
+  if (!event.value?.artists) return []
   return event.value.artists
     .map((id) => mockArtists.find((artist) => String(artist.id) === String(id)))
-    .filter((artist) => artist !== undefined);
-});
+    .filter((artist) => artist !== undefined)
+})
 </script>
 
 <template>
@@ -355,7 +355,7 @@ const eventArtists = computed(() => {
                 <div>
                   <div class="font-medium">{{ artist?.name }}</div>
                   <div class="text-sm text-muted-foreground">
-                    {{ artist?.roles?.join(", ") }}
+                    {{ artist?.roles?.join(', ') }}
                   </div>
                 </div>
               </div>
@@ -378,7 +378,7 @@ const eventArtists = computed(() => {
                     <p class="text-muted-foreground">
                       This workshop is suitable for {{ event.level }} level
                       dancers. Previous experience with
-                      {{ event.tags.join(" or ") }} is recommended.
+                      {{ event.tags.join(' or ') }} is recommended.
                     </p>
                   </div>
                 </div>
@@ -446,7 +446,7 @@ const eventArtists = computed(() => {
             <h3 class="text-lg font-bold mb-4">Guests</h3>
             <Button class="w-full mb-6" variant="outline" @click="handleGoing">
               <Icon name="ph:users" class="w-5 h-5 mr-2" />
-              {{ isGoing ? "Leave Guest List" : "Join Guest List" }}
+              {{ isGoing ? 'Leave Guest List' : 'Join Guest List' }}
             </Button>
             <div class="space-y-3">
               <div v-for="i in 5" :key="i" class="flex items-center gap-3">

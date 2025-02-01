@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Stay Informed**
+
    - Track interactions
    - Get updates
    - Receive reminders
    - Follow changes
 
 2. **Manage Attention**
+
    - Control frequency
    - Filter relevance
    - Set preferences
@@ -23,6 +25,7 @@
 ## Notification Types
 
 ### Social Interactions
+
 - Post likes/comments
 - Profile follows
 - Mentions/Tags
@@ -30,6 +33,7 @@
 - Connection requests
 
 ### Event Updates
+
 - Event changes
 - Price updates
 - Early bird deadlines
@@ -37,6 +41,7 @@
 - Event reminders
 
 ### Community Activity
+
 - Group updates
 - Local announcements
 - Style news
@@ -44,6 +49,7 @@
 - Community alerts
 
 ### Learning & Progress
+
 - Class reminders
 - Practice notifications
 - Achievement unlocks
@@ -53,6 +59,7 @@
 ## Delivery Channels
 
 ### In-App
+
 - Activity feed
 - Notification center
 - Badge counters
@@ -60,6 +67,7 @@
 - Banner alerts
 
 ### External
+
 - Email digests
 - Push notifications
 - Calendar updates
@@ -69,6 +77,7 @@
 ## User Control
 
 ### Preferences
+
 - Channel settings
 - Frequency control
 - Priority levels
@@ -76,8 +85,9 @@
 - Mute options
 
 ### Organization
+
 - Mark as read
 - Clear all
 - Archive
 - Categories
-- Search history 
+- Search history

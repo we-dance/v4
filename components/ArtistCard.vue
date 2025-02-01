@@ -4,7 +4,7 @@ defineProps({
     type: Object,
     required: true,
   },
-});
+})
 </script>
 
 <template>
@@ -70,7 +70,7 @@ defineProps({
               v-if="artist.specialties?.length"
               class="mt-2 text-sm text-muted-foreground line-clamp-2"
             >
-              {{ artist.specialties.join(" • ") }}
+              {{ artist.specialties.join(' • ') }}
             </p>
 
             <!-- Experience -->
@@ -80,7 +80,7 @@ defineProps({
             >
               {{ artist.experience.years }}+ years
               <template v-if="artist.experience.teachingLevels">
-                • {{ artist.experience.teachingLevels.join(", ") }}
+                • {{ artist.experience.teachingLevels.join(', ') }}
               </template>
             </div>
           </NuxtLink>

@@ -1,57 +1,57 @@
 <script setup lang="ts">
 const positions = [
   {
-    title: "Full Stack Developer",
-    department: "Engineering",
-    location: "Remote",
-    type: "Full-time",
+    title: 'Full Stack Developer',
+    department: 'Engineering',
+    location: 'Remote',
+    type: 'Full-time',
     description:
       "Join our engineering team to build and scale the WeDance platform. You'll work on exciting challenges in web development, real-time features, and dance-related technology.",
   },
   {
-    title: "Community Manager",
-    department: "Operations",
-    location: "Remote",
-    type: "Full-time",
+    title: 'Community Manager',
+    department: 'Operations',
+    location: 'Remote',
+    type: 'Full-time',
     description:
       "Help grow and nurture our global dance community. You'll engage with dancers, organize online events, and ensure our platform remains a vibrant space for dance enthusiasts.",
   },
   {
-    title: "Dance Content Creator",
-    department: "Content",
-    location: "Remote",
-    type: "Part-time",
+    title: 'Dance Content Creator',
+    department: 'Content',
+    location: 'Remote',
+    type: 'Part-time',
     description:
-      "Create engaging content about dance, from tutorials to articles. Share your passion for dance while helping others learn and connect.",
+      'Create engaging content about dance, from tutorials to articles. Share your passion for dance while helping others learn and connect.',
   },
-];
+]
 
 const benefits = [
   {
-    title: "Remote-First Culture",
-    description: "Work from anywhere in the world with flexible hours",
+    title: 'Remote-First Culture',
+    description: 'Work from anywhere in the world with flexible hours',
   },
   {
-    title: "Learning & Development",
-    description: "Budget for courses, conferences, and dance classes",
+    title: 'Learning & Development',
+    description: 'Budget for courses, conferences, and dance classes',
   },
   {
-    title: "Health & Wellness",
-    description: "Comprehensive health coverage and wellness programs",
+    title: 'Health & Wellness',
+    description: 'Comprehensive health coverage and wellness programs',
   },
   {
-    title: "Team Events",
-    description: "Regular virtual meetups and annual in-person gatherings",
+    title: 'Team Events',
+    description: 'Regular virtual meetups and annual in-person gatherings',
   },
   {
-    title: "Equipment Budget",
-    description: "Get the tools you need to work effectively",
+    title: 'Equipment Budget',
+    description: 'Get the tools you need to work effectively',
   },
   {
-    title: "Dance Perks",
-    description: "Free access to dance events and premium features",
+    title: 'Dance Perks',
+    description: 'Free access to dance events and premium features',
   },
-];
+]
 </script>
 
 <template>

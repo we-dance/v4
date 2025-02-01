@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Share Content**
+
    - Create posts
    - Share experiences
    - Ask questions
    - Spread information
 
 2. **Engage Community**
+
    - Start discussions
    - Give feedback
    - Help others
@@ -23,6 +25,7 @@
 ## Post Types
 
 ### Event Posts
+
 - Event details
 - Single social post per event
 - Community discussion
@@ -30,6 +33,7 @@
 - All engagement on original
 
 ### Notes & Discussions
+
 - Questions
 - Tips sharing
 - General discussions
@@ -37,6 +41,7 @@
 - Experience sharing
 
 ### Media Posts
+
 - Dance videos
 - Photo galleries
 - Performance clips
@@ -44,6 +49,7 @@
 - Event memories
 
 ### Community Posts
+
 - Partner search
 - Practice groups
 - Travel buddies
@@ -53,6 +59,7 @@
 ## Post Features
 
 ### Creation
+
 - Rich text editor
 - Media upload
 - Mention users
@@ -60,6 +67,7 @@
 - Location tagging
 
 ### Engagement
+
 - Like/React
 - Comment
 - Share/Boost
@@ -67,8 +75,9 @@
 - Report
 
 ### Distribution
+
 - Feed algorithms
 - Community targeting
 - Style-specific feeds
 - City-based feeds
-- Notification system 
+- Notification system

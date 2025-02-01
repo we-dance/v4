@@ -1,50 +1,50 @@
 <script setup lang="ts">
-import { Switch } from "@/components/ui/switch";
-import { ref, computed } from "vue";
+import { Switch } from '@/components/ui/switch'
+import { ref, computed } from 'vue'
 
 const props = defineProps<{
   course: {
-    id: string;
-    title: string;
+    id: string
+    title: string
     pricing: {
       trial?: {
-        duration: number;
-        features: string[];
-      };
+        duration: number
+        features: string[]
+      }
       regular: {
-        monthly: { amount: number; currency: string; savings?: string };
-        annual: { amount: number; currency: string; savings: string };
-        features: string[];
-      };
+        monthly: { amount: number; currency: string; savings?: string }
+        annual: { amount: number; currency: string; savings: string }
+        features: string[]
+      }
       premium: {
-        monthly: { amount: number; currency: string; savings?: string };
-        annual: { amount: number; currency: string; savings: string };
-        features: string[];
-      };
-    };
-  };
-  onSelect: (plan: { type: string; interval?: string }) => void;
-}>();
+        monthly: { amount: number; currency: string; savings?: string }
+        annual: { amount: number; currency: string; savings: string }
+        features: string[]
+      }
+    }
+  }
+  onSelect: (plan: { type: string; interval?: string }) => void
+}>()
 
-const dialog = useDialog();
-const isAnnual = ref(false);
+const dialog = useDialog()
+const isAnnual = ref(false)
 
 const maxSavings = computed(() => {
-  const regularSavings = props.course.pricing.regular.annual.savings;
-  const premiumSavings = props.course.pricing.premium.annual.savings;
+  const regularSavings = props.course.pricing.regular.annual.savings
+  const premiumSavings = props.course.pricing.premium.annual.savings
 
   const extractNumber = (str: string) => {
-    const match = str.match(/\d+/);
-    return match ? Number(match[0]) : 0;
-  };
+    const match = str.match(/\d+/)
+    return match ? Number(match[0]) : 0
+  }
 
-  return Math.max(extractNumber(regularSavings), extractNumber(premiumSavings));
-});
+  return Math.max(extractNumber(regularSavings), extractNumber(premiumSavings))
+})
 
 const handleSelect = (plan: { type: string; interval?: string }) => {
-  props.onSelect(plan);
-  dialog.close();
-};
+  props.onSelect(plan)
+  dialog.close()
+}
 </script>
 
 <template>
@@ -147,7 +147,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
           }}
         </div>
         <div class="text-sm text-muted-foreground">
-          per {{ isAnnual ? "year" : "month" }}
+          per {{ isAnnual ? 'year' : 'month' }}
         </div>
       </div>
     </Button>
@@ -212,7 +212,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
           }}
         </div>
         <div class="text-sm text-muted-foreground">
-          per {{ isAnnual ? "year" : "month" }}
+          per {{ isAnnual ? 'year' : 'month' }}
         </div>
       </div>
     </Button>

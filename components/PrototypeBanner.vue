@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const isVisible = ref(true);
+const isVisible = ref(true)
 
 const hide = () => {
-  isVisible.value = false;
-};
+  isVisible.value = false
+}
 </script>
 
 <template>

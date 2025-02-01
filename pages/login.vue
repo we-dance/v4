@@ -1,31 +1,33 @@
 <script setup lang="ts">
-import { useForm } from "vee-validate";
-import * as z from "zod";
-import { useAuthStore } from "~/stores/auth";
-import { toTypedSchema } from "@vee-validate/zod";
-import { toast } from "vue-sonner";
+import { useForm } from 'vee-validate'
+import * as z from 'zod'
+import { useAuthStore } from '~/stores/auth'
+import { toTypedSchema } from '@vee-validate/zod'
+import { toast } from 'vue-sonner'
 
-const router = useRouter();
-const auth = useAuthStore();
+const router = useRouter()
+const auth = useAuthStore()
 
 const formSchema = z.object({
-  email: z.string().email("Invalid email address"),
-  password: z.string().min(6, "Password must be at least 6 characters"),
-});
+  email: z.string().email('Invalid email address'),
+  password: z.string().min(6, 'Password must be at least 6 characters'),
+})
 
 const form = useForm({
   validationSchema: toTypedSchema(formSchema),
-});
+})
 
-const onSubmit = form.handleSubmit(async (values: z.infer<typeof formSchema>) => {
-  try {
-    await auth.login(values.email, values.password);
-    router.push("/feed");
-  } catch (error) {
-    const errorMessage = (error as Error).message
-    toast.error(errorMessage);
+const onSubmit = form.handleSubmit(
+  async (values: z.infer<typeof formSchema>) => {
+    try {
+      await auth.login(values.email, values.password)
+      router.push('/feed')
+    } catch (error) {
+      const errorMessage = (error as Error).message
+      toast.error(errorMessage)
+    }
   }
-});
+)
 </script>
 
 <template>
@@ -37,10 +39,7 @@ const onSubmit = form.handleSubmit(async (values: z.infer<typeof formSchema>) =>
         <h2 class="mt-6 text-3xl font-bold text-foreground">Welcome back</h2>
         <p class="mt-2 text-sm text-muted-foreground">
           Don't have an account?
-          <NuxtLink
-            to="/register"
-            class="text-primary hover:text-primary/90"
-          >
+          <NuxtLink to="/register" class="text-primary hover:text-primary/90">
             Sign up
           </NuxtLink>
         </p>

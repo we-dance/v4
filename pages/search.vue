@@ -1,29 +1,29 @@
 <script setup lang="ts">
-import { mockPosts } from "~/data/mockPosts";
-import { mockEvents } from "~/data/mockEvents";
-import { mockArtists } from "~/data/mockArtists";
-import { mockVenues } from "~/data/mockVenues";
-import { mockCourses } from "~/data/mockCourses";
+import { mockPosts } from '~/data/mockPosts'
+import { mockEvents } from '~/data/mockEvents'
+import { mockArtists } from '~/data/mockArtists'
+import { mockVenues } from '~/data/mockVenues'
+import { mockCourses } from '~/data/mockCourses'
 
-const route = useRoute();
-const searchQuery = ref((route.query.q as string) || "");
+const route = useRoute()
+const searchQuery = ref((route.query.q as string) || '')
 
 const categories = [
-  { name: "All", value: "all" },
-  { name: "Events", value: "event" },
-  { name: "Artists", value: "artist" },
-  { name: "Venues", value: "venue" },
-  { name: "Courses", value: "course" },
-  { name: "Posts", value: "post" },
-];
+  { name: 'All', value: 'all' },
+  { name: 'Events', value: 'event' },
+  { name: 'Artists', value: 'artist' },
+  { name: 'Venues', value: 'venue' },
+  { name: 'Courses', value: 'course' },
+  { name: 'Posts', value: 'post' },
+]
 
-const selectedCategory = ref("all");
+const selectedCategory = ref('all')
 
 const searchResults = computed(() => {
-  if (!searchQuery.value) return [];
+  if (!searchQuery.value) return []
 
-  const query = searchQuery.value.toLowerCase();
-  let results = [];
+  const query = searchQuery.value.toLowerCase()
+  let results = []
 
   // Search in courses
   results.push(
@@ -34,13 +34,13 @@ const searchResults = computed(() => {
           course.description.toLowerCase().includes(query)
       )
       .map((course) => ({
-        type: "course",
+        type: 'course',
         title: course.title,
         description: course.description,
         image: course.instructor.image,
         to: `/courses/${course.id}`,
       }))
-  );
+  )
 
   // Search in events
   results.push(
@@ -52,13 +52,13 @@ const searchResults = computed(() => {
           event.tags?.some((tag) => tag.toLowerCase().includes(query))
       )
       .map((event) => ({
-        type: "event",
+        type: 'event',
         title: event.name,
         description: event.description,
         image: event.image,
         to: `/events/${event.id}`,
       }))
-  );
+  )
 
   // Search in artists
   results.push(
@@ -71,13 +71,13 @@ const searchResults = computed(() => {
           )
       )
       .map((artist) => ({
-        type: "artist",
+        type: 'artist',
         title: artist.name,
-        description: artist.specialties?.join(", "),
+        description: artist.specialties?.join(', '),
         image: artist.image,
         to: `/artists/${artist.id}`,
       }))
-  );
+  )
 
   // Search in venues
   results.push(
@@ -88,67 +88,65 @@ const searchResults = computed(() => {
           venue.description.toLowerCase().includes(query)
       )
       .map((venue) => ({
-        type: "venue",
+        type: 'venue',
         title: venue.name,
         description: venue.description,
         image: venue.image,
         to: `/venues/${venue.id}`,
       }))
-  );
+  )
 
   // Search in posts
   results.push(
     ...mockPosts
       .filter((post) => {
-        const content = post.content;
+        const content = post.content
         return (
-          ("text" in content && content.text?.toLowerCase().includes(query)) ||
-          ("title" in content &&
+          ('text' in content && content.text?.toLowerCase().includes(query)) ||
+          ('title' in content &&
             content.title?.toLowerCase().includes(query)) ||
-          ("description" in content &&
+          ('description' in content &&
             content.description?.toLowerCase().includes(query)) ||
           content.tags?.some((tag) => tag.toLowerCase().includes(query))
-        );
+        )
       })
       .map((post) => {
-        const content = post.content;
+        const content = post.content
         return {
-          type: "post",
+          type: 'post',
           title:
-            "title" in content
+            'title' in content
               ? content.title
-              : "text" in content
+              : 'text' in content
                 ? content.text?.slice(0, 50)
-                : "",
+                : '',
           description:
-            "description" in content
+            'description' in content
               ? content.description
-              : "text" in content
+              : 'text' in content
                 ? content.text
-                : "",
-          image: "cover" in content ? content.cover : post.author.image,
+                : '',
+          image: 'cover' in content ? content.cover : post.author.image,
           to: `/post/${post.id}`,
-        };
+        }
       })
-  );
+  )
 
   // Filter by category if not 'all'
-  if (selectedCategory.value !== "all") {
-    results = results.filter(
-      (result) => result.type === selectedCategory.value
-    );
+  if (selectedCategory.value !== 'all') {
+    results = results.filter((result) => result.type === selectedCategory.value)
   }
 
-  return results;
-});
+  return results
+})
 
 const resultsByType = computed(() => {
-  const types = {} as Record<string, number>;
+  const types = {} as Record<string, number>
   searchResults.value.forEach((result) => {
-    types[result.type] = (types[result.type] || 0) + 1;
-  });
-  return types;
-});
+    types[result.type] = (types[result.type] || 0) + 1
+  })
+  return types
+})
 </script>
 
 <template>
@@ -189,7 +187,7 @@ const resultsByType = computed(() => {
             class="ml-2"
           >
             {{
-              category.value === "all"
+              category.value === 'all'
                 ? searchResults.length
                 : resultsByType[category.value] || 0
             }}

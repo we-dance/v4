@@ -1,18 +1,18 @@
 <script setup lang="ts">
-import { mockArtists } from "@/data/mockArtists";
+import { mockArtists } from '@/data/mockArtists'
 
 defineProps({
   title: {
     type: String,
-    default: "Dance Artists",
+    default: 'Dance Artists',
   },
   description: {
     type: String,
-    default: "Connect with talented dance artists and instructors",
+    default: 'Connect with talented dance artists and instructors',
   },
-});
+})
 
-const featuredArtists = computed(() => mockArtists.slice(0, 3));
+const featuredArtists = computed(() => mockArtists.slice(0, 3))
 </script>
 
 <template>

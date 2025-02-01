@@ -1,56 +1,56 @@
 <script setup lang="ts">
-import { useDialog } from "~/composables/useDialog";
+import { useDialog } from '~/composables/useDialog'
 
 const props = defineProps<{
-  modelValue: string;
-}>();
+  modelValue: string
+}>()
 
 const emit = defineEmits<{
-  (e: "update:modelValue", value: string): void;
-}>();
+  (e: 'update:modelValue', value: string): void
+}>()
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const types = computed(() => [
   {
-    id: "dancer",
-    label: "Dancer",
-    icon: "ph:users-three",
+    id: 'dancer',
+    label: 'Dancer',
+    icon: 'ph:users-three',
     default: true,
     description:
-      "Join dance events, find dance partners, and connect with the community. Perfect for social dancers and students looking to learn and participate.",
+      'Join dance events, find dance partners, and connect with the community. Perfect for social dancers and students looking to learn and participate.',
   },
   {
-    id: "artist",
-    label: "Artist",
-    icon: "ph:microphone-stage",
+    id: 'artist',
+    label: 'Artist',
+    icon: 'ph:microphone-stage',
     description:
-      "Showcase your talent as a performer, instructor, DJ, musician, or choreographer. Manage bookings and grow your audience.",
+      'Showcase your talent as a performer, instructor, DJ, musician, or choreographer. Manage bookings and grow your audience.',
   },
   {
-    id: "organizer",
-    label: "Organizer",
-    icon: "ph:buildings",
+    id: 'organizer',
+    label: 'Organizer',
+    icon: 'ph:buildings',
     description:
-      "Create and manage dance events, from regular parties to festivals. Handle ticketing, promotion, and attendee management.",
+      'Create and manage dance events, from regular parties to festivals. Handle ticketing, promotion, and attendee management.',
   },
   {
-    id: "venue",
-    label: "Venue Owner",
-    icon: "ph:house",
+    id: 'venue',
+    label: 'Venue Owner',
+    icon: 'ph:house',
     description:
-      "List your venue, manage bookings, and connect with event organizers. Perfect for dance studios and event spaces.",
+      'List your venue, manage bookings, and connect with event organizers. Perfect for dance studios and event spaces.',
   },
-]);
+])
 
 const showInfo = () => {
   dialog.open({
-    component: "UserTypeInfoDialog",
+    component: 'UserTypeInfoDialog',
     props: {
       types: types.value,
     },
-  });
-};
+  })
+}
 </script>
 
 <template>

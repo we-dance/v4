@@ -1,46 +1,46 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import GradientBackground from "~/components/common/GradientBackground.vue";
+import { ref, computed } from 'vue'
+import GradientBackground from '~/components/common/GradientBackground.vue'
 
 interface QuizVideo {
-  style: string;
-  videoId: string;
+  style: string
+  videoId: string
 }
 
 // Quiz state
-const currentRound = ref(1);
-const totalRounds = 3;
-const selectedStyles = ref<string[]>([]);
+const currentRound = ref(1)
+const totalRounds = 3
+const selectedStyles = ref<string[]>([])
 
 // Videos for comparison
 const videos: QuizVideo[] = [
-  { style: "Salsa", videoId: "R7E9cNydevg" },
-  { style: "Bachata", videoId: "4nJfpQ3kCbw" },
-  { style: "Kizomba", videoId: "jcW7Z9y5twQ" },
-];
+  { style: 'Salsa', videoId: 'R7E9cNydevg' },
+  { style: 'Bachata', videoId: '4nJfpQ3kCbw' },
+  { style: 'Kizomba', videoId: 'jcW7Z9y5twQ' },
+]
 
 // Get random pair of videos
 const getCurrentPair = computed(() => {
   const available = videos.filter(
     (v) => !selectedStyles.value.includes(v.style)
-  );
-  const shuffled = [...available].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, 2);
-});
+  )
+  const shuffled = [...available].sort(() => Math.random() - 0.5)
+  return shuffled.slice(0, 2)
+})
 
 // Handle video selection
 const selectVideo = (style: string) => {
-  selectedStyles.value.push(style);
+  selectedStyles.value.push(style)
 
   if (currentRound.value < totalRounds) {
-    currentRound.value++;
+    currentRound.value++
   } else {
     // Navigate to the winning style
     navigateTo(
       `/dance/${selectedStyles.value[selectedStyles.value.length - 1].toLowerCase()}`
-    );
+    )
   }
-};
+}
 </script>
 
 <template>

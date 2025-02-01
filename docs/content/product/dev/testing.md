@@ -22,47 +22,47 @@ We follow a comprehensive testing pyramid approach for the WeDance platform:
 
 ```typescript
 // components/calendar/__tests__/CalendarView.spec.ts
-import { describe, it, expect } from "vitest";
-import { mount } from "@vue/test-utils";
-import CalendarView from "../CalendarView.vue";
+import { describe, it, expect } from 'vitest'
+import { mount } from '@vue/test-utils'
+import CalendarView from '../CalendarView.vue'
 
-describe("CalendarView", () => {
-  it("renders month view by default", () => {
-    const wrapper = mount(CalendarView);
-    expect(wrapper.find('[data-test="month-view"]').exists()).toBe(true);
-  });
+describe('CalendarView', () => {
+  it('renders month view by default', () => {
+    const wrapper = mount(CalendarView)
+    expect(wrapper.find('[data-test="month-view"]').exists()).toBe(true)
+  })
 
-  it("filters events by style", async () => {
+  it('filters events by style', async () => {
     const wrapper = mount(CalendarView, {
       props: {
         events: [
-          { id: 1, style: "Salsa Cubana" },
-          { id: 2, style: "Bachata" },
+          { id: 1, style: 'Salsa Cubana' },
+          { id: 2, style: 'Bachata' },
         ],
       },
-    });
+    })
 
-    await wrapper.vm.filterByStyle("Salsa Cubana");
-    const visibleEvents = wrapper.findAll('[data-test="calendar-event"]');
-    expect(visibleEvents).toHaveLength(1);
-  });
+    await wrapper.vm.filterByStyle('Salsa Cubana')
+    const visibleEvents = wrapper.findAll('[data-test="calendar-event"]')
+    expect(visibleEvents).toHaveLength(1)
+  })
 
-  it("handles recurring events", () => {
+  it('handles recurring events', () => {
     const event = {
-      title: "Weekly Salsa",
+      title: 'Weekly Salsa',
       recurrence: {
-        frequency: "weekly",
-        day: "friday",
+        frequency: 'weekly',
+        day: 'friday',
       },
-    };
+    }
     const wrapper = mount(CalendarView, {
       props: { events: [event] },
-    });
+    })
 
-    const recurringEvents = wrapper.vm.expandRecurringEvent(event);
-    expect(recurringEvents).toHaveLength(4); // Next 4 occurrences
-  });
-});
+    const recurringEvents = wrapper.vm.expandRecurringEvent(event)
+    expect(recurringEvents).toHaveLength(4) // Next 4 occurrences
+  })
+})
 ```
 
 ### 2. Cypress + Cucumber for E2E Testing

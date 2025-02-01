@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { NoteContent } from "~/schemas/post";
+import type { NoteContent } from '~/schemas/post'
 
 defineProps<{
-  content: NoteContent;
-}>();
+  content: NoteContent
+}>()
 </script>
 
 <template>

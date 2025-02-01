@@ -50,18 +50,18 @@
 </template>
 
 <script setup>
-const route = useRoute();
-const auth = useAuthStore();
+const route = useRoute()
+const auth = useAuthStore()
 
 const navigationItems = [
-  { to: "/admin", label: "Dashboard", icon: "lucide:layout-dashboard" },
-  { to: "/admin/events", label: "Events", icon: "lucide:calendar" },
-  { to: "/admin/bookings", label: "Bookings", icon: "lucide:ticket" },
-  { to: "/admin/calendar", label: "Calendar", icon: "lucide:calendar-days" },
-];
+  { to: '/admin', label: 'Dashboard', icon: 'lucide:layout-dashboard' },
+  { to: '/admin/events', label: 'Events', icon: 'lucide:calendar' },
+  { to: '/admin/bookings', label: 'Bookings', icon: 'lucide:ticket' },
+  { to: '/admin/calendar', label: 'Calendar', icon: 'lucide:calendar-days' },
+]
 
 const handleSignOut = async () => {
-  await auth.logout();
-  navigateTo("/");
-};
+  await auth.logout()
+  navigateTo('/')
+}
 </script>

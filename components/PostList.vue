@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { usePostsList, useUpdateStats } from "~/composables/trpc";
-import { useQueryClient } from "vue-query";
-import type { Post } from "~/schemas/post";
-import type { PropType } from "vue";
+import { usePostsList, useUpdateStats } from '~/composables/trpc'
+import { useQueryClient } from 'vue-query'
+import type { Post } from '~/schemas/post'
+import type { PropType } from 'vue'
 
 const props = defineProps({
   type: {
     type: String,
-    default: "all",
+    default: 'all',
   },
   limit: {
     type: Number,
@@ -17,45 +17,45 @@ const props = defineProps({
     type: String as PropType<string | undefined>,
     default: undefined,
   },
-});
+})
 
 // Query params with ref to make it reactive
 const queryParams = ref<{
-  type: string;
-  limit: number;
-  cursor: number;
-  authorId?: string;
+  type: string
+  limit: number
+  cursor: number
+  authorId?: string
 }>({
-  type: props.type || "all",
+  type: props.type || 'all',
   limit: props.limit,
   cursor: 0,
   ...(props.authorId ? { authorId: props.authorId } : {}),
-});
+})
 
 // Watch for type changes
 watch(
   () => [props.type, props.authorId],
   ([newType, newAuthorId]) => {
     queryParams.value = {
-      type: newType || "all",
+      type: newType || 'all',
       limit: props.limit,
       cursor: 0,
       ...(newAuthorId ? { authorId: newAuthorId } : {}),
-    };
+    }
   }
-);
+)
 
 // Query client for cache invalidation
-const queryClient = useQueryClient();
+const queryClient = useQueryClient()
 
 // Posts query with infinite loading
 const { data, isLoading, error, fetchNextPage, hasNextPage } = usePostsList(
   queryParams.value
-);
+)
 
 // Computed posts from all pages
 const posts = computed(() => {
-  if (!data.value) return [] as Post[];
+  if (!data.value) return [] as Post[]
   return data.value.pages
     .flatMap((page) => page.items)
     .map((item) => ({
@@ -65,44 +65,44 @@ const posts = computed(() => {
         shares: item.stats?.shares ?? 0,
         comments: item.stats?.comments ?? 0,
       },
-    })) as Post[];
-});
+    })) as Post[]
+})
 
 // Watch for type changes and refetch
 watchEffect(() => {
   if (props.type || props.authorId) {
     // Clear cache and refetch when type or authorId changes
-    queryClient.invalidateQueries(["posts.list"]);
+    queryClient.invalidateQueries(['posts.list'])
   }
-});
+})
 
 // Load more posts
 const loadMore = async () => {
   if (hasNextPage?.value && !isLoading.value && fetchNextPage?.value) {
-    queryParams.value.cursor += 1;
-    await fetchNextPage.value();
+    queryParams.value.cursor += 1
+    await fetchNextPage.value()
   }
-};
+}
 
 // Post interactions mutation
-const { mutate: updateStats } = useUpdateStats();
+const { mutate: updateStats } = useUpdateStats()
 
 const handleLike = (postId: number) => {
-  updateStats({ postId, action: "like" });
-};
+  updateStats({ postId, action: 'like' })
+}
 
 const handleShare = (postId: number) => {
-  updateStats({ postId, action: "share" });
-};
+  updateStats({ postId, action: 'share' })
+}
 
 const handleComment = (postId: number) => {
-  updateStats({ postId, action: "comment" });
-};
+  updateStats({ postId, action: 'comment' })
+}
 
 // Computed states
 const showLoadMore = computed(
   () => posts.value.length > 0 && hasNextPage?.value
-);
+)
 </script>
 
 <template>
@@ -138,7 +138,7 @@ const showLoadMore = computed(
         {{
           props.authorId
             ? "This artist hasn't posted anything yet."
-            : "Get started by creating a new post."
+            : 'Get started by creating a new post.'
         }}
       </p>
     </div>

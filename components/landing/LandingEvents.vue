@@ -1,24 +1,24 @@
 <script setup lang="ts">
-import { mockEvents } from "@/data/mockEvents";
-import type { AnyEvent } from "~/schemas/event";
+import { mockEvents } from '@/data/mockEvents'
+import type { AnyEvent } from '~/schemas/event'
 
 defineProps({
   title: {
     type: String,
-    default: "Dance Events",
+    default: 'Dance Events',
   },
   description: {
     type: String,
-    default: "Discover amazing dance events happening near you",
+    default: 'Discover amazing dance events happening near you',
   },
-});
+})
 
 const featuredEvents = computed(
   () =>
     mockEvents
-      .filter((event) => event.status === "upcoming")
+      .filter((event) => event.status === 'upcoming')
       .slice(0, 3) as unknown as AnyEvent[]
-);
+)
 </script>
 
 <template>

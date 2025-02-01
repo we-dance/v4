@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { Poll } from "~/schemas/post";
+import type { Poll } from '~/schemas/post'
 
 defineProps<{
-  poll: Poll;
-}>();
+  poll: Poll
+}>()
 </script>
 
 <template>

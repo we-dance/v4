@@ -1,11 +1,11 @@
 <script setup lang="ts">
 interface PricingPlan {
-  title: string;
-  price: string;
-  unit: string;
-  caption: string;
-  features?: string[];
-  icon: string;
+  title: string
+  price: string
+  unit: string
+  caption: string
+  features?: string[]
+  icon: string
 }
 
 defineProps({
@@ -23,9 +23,9 @@ defineProps({
   },
   note: {
     type: String,
-    default: "",
-  }
-});
+    default: '',
+  },
+})
 </script>
 
 <template>

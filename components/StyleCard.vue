@@ -1,14 +1,14 @@
 <script setup lang="ts">
 interface Style {
-  name: string;
-  image: string;
-  to: string;
-  members: number;
+  name: string
+  image: string
+  to: string
+  members: number
 }
 
 defineProps<{
-  style: Style;
-}>();
+  style: Style
+}>()
 </script>
 
 <template>

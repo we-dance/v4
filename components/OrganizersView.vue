@@ -1,54 +1,54 @@
 <script setup lang="ts">
-import EmptyState from "~/components/common/EmptyState.vue";
-import OrganizerCard from "~/components/OrganizerCard.vue";
+import EmptyState from '~/components/common/EmptyState.vue'
+import OrganizerCard from '~/components/OrganizerCard.vue'
 import {
   danceStyles,
   eventTypes,
   organizers as mockOrganizers,
-} from "~/data/mockOrganizers";
+} from '~/data/mockOrganizers'
 
-const search = ref("");
-const showFilters = ref(false);
-const isGridView = ref(true);
-const showLocationFilter = ref(false);
+const search = ref('')
+const showFilters = ref(false)
+const isGridView = ref(true)
+const showLocationFilter = ref(false)
 
 interface Filters {
-  styles: string[];
-  location: string;
-  eventTypes: string[];
+  styles: string[]
+  location: string
+  eventTypes: string[]
 }
 
 const filters = ref<Filters>({
-  styles: ["any"],
-  location: "",
-  eventTypes: ["any"],
-});
+  styles: ['any'],
+  location: '',
+  eventTypes: ['any'],
+})
 
 watch(
   () => filters.value.styles,
   (newStyles) => {
     if (!Array.isArray(newStyles)) {
-      filters.value.styles = ["any"];
+      filters.value.styles = ['any']
     }
   },
   { deep: true }
-);
+)
 
 watch(
   () => filters.value.eventTypes,
   (newTypes) => {
     if (!Array.isArray(newTypes)) {
-      filters.value.eventTypes = ["any"];
+      filters.value.eventTypes = ['any']
     }
   },
   { deep: true }
-);
+)
 
-const organizers = ref(mockOrganizers);
+const organizers = ref(mockOrganizers)
 
 // Helper function to get style label
 function getStyleLabel(value: string) {
-  return danceStyles.find((style) => style.value === value)?.label || value;
+  return danceStyles.find((style) => style.value === value)?.label || value
 }
 
 const filteredOrganizers = computed(() => {
@@ -57,64 +57,64 @@ const filteredOrganizers = computed(() => {
     const matchesSearch =
       !search.value ||
       organizer.name.toLowerCase().includes(search.value.toLowerCase()) ||
-      organizer.location.toLowerCase().includes(search.value.toLowerCase());
+      organizer.location.toLowerCase().includes(search.value.toLowerCase())
 
     // Filter by styles
     const matchesStyles =
-      filters.value.styles.includes("any") ||
-      filters.value.styles.some((style) => organizer.styles.includes(style));
+      filters.value.styles.includes('any') ||
+      filters.value.styles.some((style) => organizer.styles.includes(style))
 
     // Filter by location
     const matchesLocation =
       !filters.value.location ||
       organizer.location
         .toLowerCase()
-        .includes(filters.value.location.toLowerCase());
+        .includes(filters.value.location.toLowerCase())
 
     // Filter by event types
     const matchesEventTypes =
-      filters.value.eventTypes.includes("any") ||
+      filters.value.eventTypes.includes('any') ||
       filters.value.eventTypes.some((type) =>
         organizer.eventTypes.includes(type)
-      );
+      )
 
     return (
       matchesSearch && matchesStyles && matchesLocation && matchesEventTypes
-    );
-  });
-});
+    )
+  })
+})
 
 function toggleView() {
-  isGridView.value = !isGridView.value;
+  isGridView.value = !isGridView.value
 }
 
 // Helper functions to get labels
 function getStylesLabel(selectedStyles: string[]) {
-  if (selectedStyles.includes("any")) return "Any Style";
+  if (selectedStyles.includes('any')) return 'Any Style'
   if (selectedStyles.length === 1) {
-    return getStyleLabel(selectedStyles[0]);
+    return getStyleLabel(selectedStyles[0])
   }
-  return `${selectedStyles.length} styles selected`;
+  return `${selectedStyles.length} styles selected`
 }
 
 function getEventTypesLabel(selectedTypes: string[]) {
-  if (selectedTypes.includes("any")) return "Any Event Type";
+  if (selectedTypes.includes('any')) return 'Any Event Type'
   if (selectedTypes.length === 1) {
     return (
       eventTypes.find((type) => type.value === selectedTypes[0])?.label ||
       selectedTypes[0]
-    );
+    )
   }
-  return `${selectedTypes.length} types selected`;
+  return `${selectedTypes.length} types selected`
 }
 
 function resetFilters() {
   filters.value = {
     styles: [],
-    location: "",
+    location: '',
     eventTypes: [],
-  };
-  search.value = "";
+  }
+  search.value = ''
 }
 
 const hasActiveFilters = computed(() => {
@@ -123,43 +123,43 @@ const hasActiveFilters = computed(() => {
     filters.value.location.length > 0 ||
     filters.value.eventTypes.length > 0 ||
     search.value.length > 0
-  );
-});
+  )
+})
 
-const selectedStyle = ref("any");
-const selectedEventType = ref("any");
+const selectedStyle = ref('any')
+const selectedEventType = ref('any')
 
 watch(selectedStyle, (newValue) => {
-  if (newValue === "any") {
-    filters.value.styles = ["any"];
+  if (newValue === 'any') {
+    filters.value.styles = ['any']
   } else {
-    const currentStyles = filters.value.styles.filter((s) => s !== "any");
+    const currentStyles = filters.value.styles.filter((s) => s !== 'any')
     if (currentStyles.includes(newValue)) {
-      filters.value.styles = currentStyles.filter((s) => s !== newValue);
+      filters.value.styles = currentStyles.filter((s) => s !== newValue)
       if (filters.value.styles.length === 0) {
-        filters.value.styles = ["any"];
+        filters.value.styles = ['any']
       }
     } else {
-      filters.value.styles = [...currentStyles, newValue];
+      filters.value.styles = [...currentStyles, newValue]
     }
   }
-});
+})
 
 watch(selectedEventType, (newValue) => {
-  if (newValue === "any") {
-    filters.value.eventTypes = ["any"];
+  if (newValue === 'any') {
+    filters.value.eventTypes = ['any']
   } else {
-    const currentTypes = filters.value.eventTypes.filter((t) => t !== "any");
+    const currentTypes = filters.value.eventTypes.filter((t) => t !== 'any')
     if (currentTypes.includes(newValue)) {
-      filters.value.eventTypes = currentTypes.filter((t) => t !== newValue);
+      filters.value.eventTypes = currentTypes.filter((t) => t !== newValue)
       if (filters.value.eventTypes.length === 0) {
-        filters.value.eventTypes = ["any"];
+        filters.value.eventTypes = ['any']
       }
     } else {
-      filters.value.eventTypes = [...currentTypes, newValue];
+      filters.value.eventTypes = [...currentTypes, newValue]
     }
   }
-});
+})
 </script>
 
 <template>
@@ -175,7 +175,7 @@ watch(selectedEventType, (newValue) => {
           @click="showLocationFilter = true"
         >
           <Icon name="ph:map-pin" class="w-4 h-4 mr-2" />
-          {{ filters.location || "Any Location" }}
+          {{ filters.location || 'Any Location' }}
         </Button>
         <Button variant="outline" @click="showFilters = !showFilters">
           <Icon name="ph:funnel" class="w-4 h-4 mr-2" />

@@ -1,89 +1,89 @@
 <script setup lang="ts">
-import { Calendar } from "@/components/ui/calendar";
+import { Calendar } from '@/components/ui/calendar'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { format } from "date-fns";
-import { today, getLocalTimeZone } from "@internationalized/date";
+} from '@/components/ui/popover'
+import { format } from 'date-fns'
+import { today, getLocalTimeZone } from '@internationalized/date'
 
 interface Props {
   venue: {
-    id: number;
-    name: string;
+    id: number
+    name: string
     areas: {
-      id: number;
-      name: string;
-      description: string;
-      pricePerHour: number;
-      capacity: number;
+      id: number
+      name: string
+      description: string
+      pricePerHour: number
+      capacity: number
       size: {
-        width: number;
-        length: number;
-        height: number;
-        unit: string;
-      };
-      amenities: string[];
-      floorType: string;
-      images: string[];
-      availability: Record<string, string>;
-    }[];
-  };
-  selectedAreaId?: number;
-  selectedDateTime?: string;
-  onBook: (date: string, areaId: number) => void;
+        width: number
+        length: number
+        height: number
+        unit: string
+      }
+      amenities: string[]
+      floorType: string
+      images: string[]
+      availability: Record<string, string>
+    }[]
+  }
+  selectedAreaId?: number
+  selectedDateTime?: string
+  onBook: (date: string, areaId: number) => void
 }
 
-const props = defineProps<Props>();
-const dialog = useDialog();
+const props = defineProps<Props>()
+const dialog = useDialog()
 
 const selectedDate = ref(
   props.selectedDateTime
     ? new Date(props.selectedDateTime)
     : today(getLocalTimeZone())
-);
+)
 
 const selectedTimeSlot = ref<string | null>(
-  props.selectedDateTime ? props.selectedDateTime.split(" ")[1] : null
-);
+  props.selectedDateTime ? props.selectedDateTime.split(' ')[1] : null
+)
 
-const selectedArea = ref<number | null>(props.selectedAreaId || null);
+const selectedArea = ref<number | null>(props.selectedAreaId || null)
 
 const timeSlots = [
-  "09:00-10:00",
-  "10:00-11:00",
-  "11:00-12:00",
-  "12:00-13:00",
-  "13:00-14:00",
-  "14:00-15:00",
-  "15:00-16:00",
-  "16:00-17:00",
-  "17:00-18:00",
-  "18:00-19:00",
-  "19:00-20:00",
-  "20:00-21:00",
-];
+  '09:00-10:00',
+  '10:00-11:00',
+  '11:00-12:00',
+  '12:00-13:00',
+  '13:00-14:00',
+  '14:00-15:00',
+  '15:00-16:00',
+  '16:00-17:00',
+  '17:00-18:00',
+  '18:00-19:00',
+  '19:00-20:00',
+  '20:00-21:00',
+]
 
 const formatDate = (date: Date) => {
-  return format(date, "PPP");
-};
+  return format(date, 'PPP')
+}
 
 const handleBook = () => {
   if (!selectedDate.value || !selectedTimeSlot.value || !selectedArea.value)
-    return;
+    return
 
   const date =
     selectedDate.value instanceof Date
       ? selectedDate.value
-      : selectedDate.value.toDate(getLocalTimeZone());
+      : selectedDate.value.toDate(getLocalTimeZone())
 
-  const bookingDate = format(date, "yyyy-MM-dd");
-  const bookingDateTime = `${bookingDate} ${selectedTimeSlot.value}`;
+  const bookingDate = format(date, 'yyyy-MM-dd')
+  const bookingDateTime = `${bookingDate} ${selectedTimeSlot.value}`
 
-  props.onBook(bookingDateTime, selectedArea.value);
-  dialog.close();
-};
+  props.onBook(bookingDateTime, selectedArea.value)
+  dialog.close()
+}
 </script>
 
 <template>
@@ -135,7 +135,7 @@ const handleBook = () => {
                       ? selectedDate
                       : selectedDate.toDate(getLocalTimeZone())
                   )
-                : "Pick a date"
+                : 'Pick a date'
             }}
           </Button>
         </PopoverTrigger>

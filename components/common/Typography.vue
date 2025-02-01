@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const text = {
-  heading1: "Welcome to WeDance",
-  heading2: "Dance Community Platform",
-  heading3: "Connect with dancers worldwide",
-  body: "Experience the joy of dance through our global community. Share your passion, find events, and connect with fellow dancers.",
-  caption: "Join thousands of dancers around the world",
-};
+  heading1: 'Welcome to WeDance',
+  heading2: 'Dance Community Platform',
+  heading3: 'Connect with dancers worldwide',
+  body: 'Experience the joy of dance through our global community. Share your passion, find events, and connect with fellow dancers.',
+  caption: 'Join thousands of dancers around the world',
+}
 </script>
 
 <template>

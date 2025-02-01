@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import type { Price } from "~/schemas/event";
+import type { Price } from '~/schemas/event'
 
 const props = defineProps<{
-  prices: Price[];
-  onSelect: (price: Price) => void;
-}>();
+  prices: Price[]
+  onSelect: (price: Price) => void
+}>()
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const handleSelect = (price: Price) => {
-  props.onSelect(price);
-  dialog.close();
-};
+  props.onSelect(price)
+  dialog.close()
+}
 </script>
 
 <template>

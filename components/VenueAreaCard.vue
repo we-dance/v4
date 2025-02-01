@@ -1,67 +1,67 @@
 <script setup lang="ts">
 interface Area {
-  id: number;
-  name: string;
-  description: string;
-  pricePerHour: number;
-  capacity: number;
+  id: number
+  name: string
+  description: string
+  pricePerHour: number
+  capacity: number
   size: {
-    width: number;
-    length: number;
-    height: number;
-    unit: string;
-  };
-  amenities: string[];
-  floorType: string;
-  images: string[];
-  availability: Record<string, string>;
+    width: number
+    length: number
+    height: number
+    unit: string
+  }
+  amenities: string[]
+  floorType: string
+  images: string[]
+  availability: Record<string, string>
 }
 
 interface Props {
-  area: Area;
+  area: Area
   venue: {
-    id: number;
-    name: string;
-    areas: Area[];
-  };
-  isPopular?: boolean;
+    id: number
+    name: string
+    areas: Area[]
+  }
+  isPopular?: boolean
 }
 
-const props = defineProps<Props>();
-const dialog = useDialog();
+const props = defineProps<Props>()
+const dialog = useDialog()
 
 const showDetails = () => {
   dialog.open({
-    component: "VenueAreaDetailsDialog",
+    component: 'VenueAreaDetailsDialog',
     props: {
       area: props.area,
       venue: props.venue,
     },
-  });
-};
+  })
+}
 
 // Get next available time slot
-const now = new Date();
+const now = new Date()
 const days = [
-  "sunday",
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-];
-const currentDay = days[now.getDay()];
-const currentTime = now.getHours().toString().padStart(2, "0") + ":00";
-const availabilityToday = props.area.availability[currentDay];
-const [start, end] = availabilityToday?.split("-") || [];
+  'sunday',
+  'monday',
+  'tuesday',
+  'wednesday',
+  'thursday',
+  'friday',
+  'saturday',
+]
+const currentDay = days[now.getDay()]
+const currentTime = now.getHours().toString().padStart(2, '0') + ':00'
+const availabilityToday = props.area.availability[currentDay]
+const [start, end] = availabilityToday?.split('-') || []
 
 const nextAvailable = computed(() => {
-  if (!availabilityToday) return null;
-  if (currentTime < start) return start;
-  if (currentTime > end) return `tomorrow ${start}`;
-  return currentTime;
-});
+  if (!availabilityToday) return null
+  if (currentTime < start) return start
+  if (currentTime > end) return `tomorrow ${start}`
+  return currentTime
+})
 </script>
 
 <template>

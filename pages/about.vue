@@ -1,119 +1,119 @@
 <script setup lang="ts">
 const features = [
   {
-    icon: "ph:users-three",
-    title: "Community First",
+    icon: 'ph:users-three',
+    title: 'Community First',
     description:
-      "Built by dancers for dancers, with focus on genuine connections and shared passion for dance",
+      'Built by dancers for dancers, with focus on genuine connections and shared passion for dance',
   },
   {
-    icon: "ph:globe",
-    title: "Global Network",
+    icon: 'ph:globe',
+    title: 'Global Network',
     description:
-      "Connect with dancers across 60+ countries while maintaining strong local community ties",
+      'Connect with dancers across 60+ countries while maintaining strong local community ties',
   },
   {
-    icon: "ph:calendar",
-    title: "Event Discovery",
+    icon: 'ph:calendar',
+    title: 'Event Discovery',
     description:
-      "Find dance events, festivals, and classes that match your interests and location",
+      'Find dance events, festivals, and classes that match your interests and location',
   },
   {
-    icon: "ph:handshake",
-    title: "Partner Finding",
+    icon: 'ph:handshake',
+    title: 'Partner Finding',
     description:
-      "Connect with dance partners for practice, events, and skill development",
+      'Connect with dance partners for practice, events, and skill development',
   },
   {
-    icon: "ph:buildings",
-    title: "Local Scenes",
+    icon: 'ph:buildings',
+    title: 'Local Scenes',
     description:
-      "Discover and contribute to your local dance scene with venue guides and community insights",
+      'Discover and contribute to your local dance scene with venue guides and community insights',
   },
   {
-    icon: "ph:star",
-    title: "Artist Platform",
+    icon: 'ph:star',
+    title: 'Artist Platform',
     description:
-      "Support dance artists with tools for class management, bookings, and content sharing",
+      'Support dance artists with tools for class management, bookings, and content sharing',
   },
-];
+]
 
 const introduction = {
-  title: "Introduction",
+  title: 'Introduction',
   description:
-    "WeDance is a global platform dedicated to uniting and empowering dance communities by making dance information accessible and supporting community growth. This document outlines our Vision and Mission, providing clear direction and purpose to guide our efforts in creating a more connected and inclusive dance world.",
-};
+    'WeDance is a global platform dedicated to uniting and empowering dance communities by making dance information accessible and supporting community growth. This document outlines our Vision and Mission, providing clear direction and purpose to guide our efforts in creating a more connected and inclusive dance world.',
+}
 
 const vision = {
-  title: "Our Vision",
+  title: 'Our Vision',
   description:
-    "To create a world where dance is universally accessible, and communities thrive through connection and shared experiences.",
-};
+    'To create a world where dance is universally accessible, and communities thrive through connection and shared experiences.',
+}
 
 const mission = {
-  title: "Our Mission",
+  title: 'Our Mission',
   description:
-    "We empower dance communities by providing an AI-driven platform that organizes global dance information, simplifies event management, and fosters inclusive participation to support community growth and connection.",
-};
+    'We empower dance communities by providing an AI-driven platform that organizes global dance information, simplifies event management, and fosters inclusive participation to support community growth and connection.',
+}
 
 const values = [
   {
-    title: "Community-Driven",
+    title: 'Community-Driven',
     description:
-      "Democratic structure with community members having voting rights and input in development",
+      'Democratic structure with community members having voting rights and input in development',
   },
   {
-    title: "Transparency",
+    title: 'Transparency',
     description:
-      "Open development process and clear communication about our progress and plans",
+      'Open development process and clear communication about our progress and plans',
   },
   {
-    title: "Inclusivity",
+    title: 'Inclusivity',
     description:
-      "Creating a welcoming space for dancers of all styles, levels, and backgrounds",
+      'Creating a welcoming space for dancers of all styles, levels, and backgrounds',
   },
   {
-    title: "Sustainability",
+    title: 'Sustainability',
     description:
-      "Building a platform that supports long-term community growth and artist success",
+      'Building a platform that supports long-term community growth and artist success',
   },
-];
+]
 
 const team = [
   {
-    name: "Alex Razbakov",
-    role: "Founder",
-    photo: "/team/alex.jpg",
+    name: 'Alex Razbakov',
+    role: 'Founder',
+    photo: '/team/alex.jpg',
     links: {
-      twitter: "https://twitter.com/razbakov",
-      github: "https://github.com/razbakov",
-      linkedin: "https://www.linkedin.com/in/razbakov/",
+      twitter: 'https://twitter.com/razbakov',
+      github: 'https://github.com/razbakov',
+      linkedin: 'https://www.linkedin.com/in/razbakov/',
     },
   },
   {
-    name: "Egor Kruglov",
-    role: "Developer",
-    photo: "/team/egor.jpg",
+    name: 'Egor Kruglov',
+    role: 'Developer',
+    photo: '/team/egor.jpg',
     links: {
-      github: "https://github.com/KindImagination",
-      telegram: "https://t.me/Ek92020",
-      linkedin: "https://www.linkedin.com/in/egor-kruglov-28a6b5239/",
+      github: 'https://github.com/KindImagination',
+      telegram: 'https://t.me/Ek92020',
+      linkedin: 'https://www.linkedin.com/in/egor-kruglov-28a6b5239/',
     },
   },
   {
-    name: "Aina Kaiser",
-    role: "Community Manager",
-    photo: "/team/aina.jpg",
+    name: 'Aina Kaiser',
+    role: 'Community Manager',
+    photo: '/team/aina.jpg',
     links: {
-      telegram: "https://t.me/Aina_G_K",
+      telegram: 'https://t.me/Aina_G_K',
     },
   },
   {
-    name: "Anja Sophie",
-    role: "Community Manager",
-    photo: "/team/anja.jpg",
+    name: 'Anja Sophie',
+    role: 'Community Manager',
+    photo: '/team/anja.jpg',
   },
-];
+]
 </script>
 
 <template>

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { PostStats, PostType } from "~/schemas/post";
-import { POST_ACTIONS } from "~/constants/post";
+import type { PostStats, PostType } from '~/schemas/post'
+import { POST_ACTIONS } from '~/constants/post'
 
 defineProps<{
-  stats: PostStats;
-  type: PostType;
-}>();
+  stats: PostStats
+  type: PostType
+}>()
 </script>
 
 <template>

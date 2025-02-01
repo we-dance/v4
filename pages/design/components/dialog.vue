@@ -1,21 +1,21 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "design",
-});
+  layout: 'design',
+})
 
-const isOpen = ref(false);
-const isDestructiveOpen = ref(false);
-const isFormOpen = ref(false);
+const isOpen = ref(false)
+const isDestructiveOpen = ref(false)
+const isFormOpen = ref(false)
 
 const formData = ref({
-  name: "",
-  email: "",
-});
+  name: '',
+  email: '',
+})
 
 const onSubmit = () => {
-  isFormOpen.value = false;
-  formData.value = { name: "", email: "" };
-};
+  isFormOpen.value = false
+  formData.value = { name: '', email: '' }
+}
 </script>
 
 <template>

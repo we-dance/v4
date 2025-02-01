@@ -1,69 +1,69 @@
 <script setup>
 const traditions = [
   {
-    name: "Afro-Cuban Traditions",
+    name: 'Afro-Cuban Traditions',
     description:
-      "Sacred and secular dances preserving African cultural heritage in Cuba",
+      'Sacred and secular dances preserving African cultural heritage in Cuba',
     dances: [
       {
-        name: "Yuka",
-        description: "Traditional Congo-derived social dance and drumming",
-        origin: "Congo/Bantú",
-        context: "Social gatherings, celebrations",
+        name: 'Yuka',
+        description: 'Traditional Congo-derived social dance and drumming',
+        origin: 'Congo/Bantú',
+        context: 'Social gatherings, celebrations',
       },
       {
-        name: "Yoruba Dances",
-        description: "Sacred dances connected to Orishas",
-        origin: "Yoruba",
-        context: "Religious ceremonies, cultural preservation",
+        name: 'Yoruba Dances',
+        description: 'Sacred dances connected to Orishas',
+        origin: 'Yoruba',
+        context: 'Religious ceremonies, cultural preservation',
       },
     ],
   },
   {
-    name: "Rumba Complex",
-    description: "Secular Cuban dance and music tradition with African roots",
+    name: 'Rumba Complex',
+    description: 'Secular Cuban dance and music tradition with African roots',
     styles: [
       {
-        name: "Guaguancó",
-        description: "Couple dance with characteristic vacunao movement",
-        context: "Social gatherings, performances",
+        name: 'Guaguancó',
+        description: 'Couple dance with characteristic vacunao movement',
+        context: 'Social gatherings, performances',
       },
       {
-        name: "Columbia",
-        description: "Solo male dance showcasing acrobatic skills",
-        context: "Competitive displays, celebrations",
+        name: 'Columbia',
+        description: 'Solo male dance showcasing acrobatic skills',
+        context: 'Competitive displays, celebrations',
       },
       {
-        name: "Yambú",
-        description: "Slower, more gentle form of rumba",
-        context: "Social dancing, older dancers",
+        name: 'Yambú',
+        description: 'Slower, more gentle form of rumba',
+        context: 'Social dancing, older dancers',
       },
     ],
   },
   {
-    name: "Popular Cuban Dances",
-    description: "Modern social dances evolved from traditional forms",
+    name: 'Popular Cuban Dances',
+    description: 'Modern social dances evolved from traditional forms',
     styles: [
       {
-        name: "Casino/Salsa Cubana",
-        description: "Modern Cuban social dance evolved from Son",
-        context: "Social dancing, global salsa community",
+        name: 'Casino/Salsa Cubana',
+        description: 'Modern Cuban social dance evolved from Son',
+        context: 'Social dancing, global salsa community',
       },
       {
-        name: "Son",
-        description: "Foundation of modern Cuban popular dance",
-        context: "Traditional social dancing, historical significance",
+        name: 'Son',
+        description: 'Foundation of modern Cuban popular dance',
+        context: 'Traditional social dancing, historical significance',
       },
     ],
   },
-];
+]
 
 const culturalContext = {
   history:
-    "The dance traditions of Cuba reflect its rich multicultural heritage...",
-  influences: ["African (Yoruba, Congo)", "Spanish", "Caribbean"],
-  significance: "These dances preserve cultural memory and create community...",
-};
+    'The dance traditions of Cuba reflect its rich multicultural heritage...',
+  influences: ['African (Yoruba, Congo)', 'Spanish', 'Caribbean'],
+  significance: 'These dances preserve cultural memory and create community...',
+}
 </script>
 
 <template>

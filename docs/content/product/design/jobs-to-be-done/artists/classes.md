@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Create Class Offerings**
+
    - Define class types
    - Set schedules
    - Price services
    - Design programs
 
 2. **Manage Bookings**
+
    - Handle registrations
    - Process payments
    - Track attendance
@@ -23,18 +25,21 @@
 ## Class Types
 
 ### Regular Classes
+
 - Group classes
 - Private lessons
 - Practice sessions
 - Online classes
 
 ### Special Programs
+
 - Workshops
 - Intensives
 - Master classes
 - Bootcamps
 
 ### Custom Offerings
+
 - Corporate classes
 - Wedding prep
 - Special events
@@ -43,18 +48,21 @@
 ## Class Management
 
 ### Schedule Setup
+
 - Regular timeslots
 - Recurring classes
 - Special events
 - Availability blocks
 
 ### Booking System
+
 - Registration process
 - Payment handling
 - Package management
 - Cancellation policies
 
 ### Attendance Tools
+
 - Check-in system
 - Capacity tracking
 - Waitlist management
@@ -63,19 +71,22 @@
 ## Student Experience
 
 ### Communication
+
 - Class updates
 - Schedule changes
 - Learning materials
 - Practice notes
 
 ### Progress Tracking
+
 - Skill assessment
 - Achievement tracking
 - Feedback collection
 - Development plans
 
 ### Resource Sharing
+
 - Class videos
 - Practice music
 - Technique guides
-- Study materials 
+- Study materials

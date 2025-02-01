@@ -30,13 +30,13 @@ technical_expertise:
   backend_infrastructure:
     title: Backend & Infrastructure
     skills:
-      - "Backend: PHP (Symfony), Node.js, Python"
-      - "CMS & DXP: Ibexa DXP, WordPress, Magento"
-      - "Databases: MongoDB, ElasticSearch"
-      - "Message Queue: RabbitMQ"
-      - "Cloud: AWS, Firebase, Azure"
-      - "DevOps: Docker, CI/CD, Varnish"
-      - "Deployment: Netlify, Vercel, Platform.sh, Cloud Platforms"
+      - 'Backend: PHP (Symfony), Node.js, Python'
+      - 'CMS & DXP: Ibexa DXP, WordPress, Magento'
+      - 'Databases: MongoDB, ElasticSearch'
+      - 'Message Queue: RabbitMQ'
+      - 'Cloud: AWS, Firebase, Azure'
+      - 'DevOps: Docker, CI/CD, Varnish'
+      - 'Deployment: Netlify, Vercel, Platform.sh, Cloud Platforms'
 
 certifications:
   - title: Ibexa DXP 4.5 Advanced Developer Training

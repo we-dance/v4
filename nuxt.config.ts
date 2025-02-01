@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
+  css: ['~/assets/css/main.css'],
   build: {
-    transpile: ['vee-validate']
+    transpile: ['vee-validate'],
   },
 
   postcss: {
@@ -13,59 +13,59 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: "2025-01-02",
+  compatibilityDate: '2025-01-02',
   modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/icon",
-    "shadcn-nuxt",
-    "@nuxt/image",
-    "@nuxtjs/color-mode",
-    "@pinia/nuxt",
-    "@nuxtjs/google-fonts",
-    "@nuxt/content",
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon',
+    'shadcn-nuxt',
+    '@nuxt/image',
+    '@nuxtjs/color-mode',
+    '@pinia/nuxt',
+    '@nuxtjs/google-fonts',
+    '@nuxt/content',
   ],
   components: [
     {
-      path: "~/components",
+      path: '~/components',
       pathPrefix: false,
     },
   ],
   colorMode: {
-    classSuffix: "",
-    preference: "light",
-    fallback: "light",
-    classPrefix: "",
-    storageKey: "nuxt-color-mode",
+    classSuffix: '',
+    preference: 'light',
+    fallback: 'light',
+    classPrefix: '',
+    storageKey: 'nuxt-color-mode',
   },
   app: {
     head: {
       htmlAttrs: {
-        class: "font-sans",
+        class: 'font-sans',
       },
     },
   },
   googleFonts: {
     download: true,
     families: {
-      "Noto+Sans": [300, 400, 500, 600, 700, 800],
+      'Noto+Sans': [300, 400, 500, 600, 700, 800],
     },
-    display: "swap",
+    display: 'swap',
     prefetch: true,
     preconnect: true,
   },
   shadcn: {
-    prefix: "",
-    componentDir: "./components/ui",
+    prefix: '',
+    componentDir: './components/ui',
   },
   image: {
-    provider: "ipx",
+    provider: 'ipx',
     quality: 80,
-    format: ["webp", "jpeg"],
+    format: ['webp', 'jpeg'],
   },
   typescript: {
     tsConfig: {
       compilerOptions: {
-        baseUrl: ".",
+        baseUrl: '.',
       },
     },
   },
@@ -74,10 +74,10 @@ export default defineNuxtConfig({
       if (to.hash) {
         return {
           el: to.hash,
-          behavior: "smooth",
+          behavior: 'smooth',
           top: 0,
-        };
+        }
       }
     },
   },
-});
+})

@@ -94,6 +94,7 @@ API-specific schemas are located in `/server/trpc/schemas`:
 ### Completed Steps
 
 1. Schema Alignment with Mock Data
+
    - ✅ Changed ID type from string to number
    - ✅ Added support for "free" price type
    - ✅ Made schedule field optional
@@ -113,6 +114,7 @@ API-specific schemas are located in `/server/trpc/schemas`:
 ### Remaining Steps
 
 1. Component Updates
+
    - [ ] Fix relatedEvents type casting in event detail page
    - [ ] Update price filtering in EventsList to handle multiple price formats
    - [ ] Update price sorting in EventsList to consider both price and prices fields
@@ -130,6 +132,7 @@ API-specific schemas are located in `/server/trpc/schemas`:
 The next major step will be aligning our schemas with schema.org standards. We will need to:
 
 1. Research relevant schema.org types:
+
    - [ ] Event
    - [ ] MusicEvent
    - [ ] DanceEvent

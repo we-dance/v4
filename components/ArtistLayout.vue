@@ -1,74 +1,74 @@
 <script setup lang="ts">
-import type { ArtistProfile } from "~/schemas/profile";
-import GradientBackground from "~/components/common/GradientBackground.vue";
-import ArtistCard from "~/components/ArtistCard.vue";
-import { useDialog } from "~/composables/useDialog";
+import type { ArtistProfile } from '~/schemas/profile'
+import GradientBackground from '~/components/common/GradientBackground.vue'
+import ArtistCard from '~/components/ArtistCard.vue'
+import { useDialog } from '~/composables/useDialog'
 
-const route = useRoute();
+const route = useRoute()
 
 const props = defineProps<{
-  artist: ArtistProfile;
-}>();
+  artist: ArtistProfile
+}>()
 
 const navigation = [
   {
-    label: "Feed",
+    label: 'Feed',
     to: `/artists/${props.artist.id}#content`,
-    icon: "ph:newspaper",
+    icon: 'ph:newspaper',
   },
   {
-    label: "About",
+    label: 'About',
     to: `/artists/${props.artist.id}/about#content`,
-    icon: "ph:info",
+    icon: 'ph:info',
   },
   {
-    label: "Classes",
+    label: 'Classes',
     to: `/artists/${props.artist.id}/classes#content`,
-    icon: "ph:graduation-cap",
+    icon: 'ph:graduation-cap',
   },
   {
-    label: "Reviews",
+    label: 'Reviews',
     to: `/artists/${props.artist.id}/reviews#content`,
-    icon: "ph:chat-circle",
+    icon: 'ph:chat-circle',
   },
   {
-    label: "Media",
+    label: 'Media',
     to: `/artists/${props.artist.id}/media#content`,
-    icon: "ph:image",
+    icon: 'ph:image',
   },
-];
+]
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 // Actions
 const handleContact = () => {
-  console.log("Contact artist:", props.artist.name);
-};
+  console.log('Contact artist:', props.artist.name)
+}
 
 const handleBook = () => {
   dialog.open({
-    component: "ArtistBookingDialog",
+    component: 'ArtistBookingDialog',
     props: {
       artist: props.artist,
       onSelect: (service: {
-        type: string;
-        amount: number;
-        currency: string;
-        duration: number;
+        type: string
+        amount: number
+        currency: string
+        duration: number
       }) => {
         // Navigate to checkout with selected service
         navigateTo(
           `/checkout/${props.artist.id}?type=${service.type}&instructor=${props.artist.id}`
-        );
-        return;
+        )
+        return
       },
     },
-  });
-};
+  })
+}
 
 const handleFollow = () => {
-  console.log("Follow artist:", props.artist.name);
-};
+  console.log('Follow artist:', props.artist.name)
+}
 </script>
 
 <template>
@@ -84,14 +84,19 @@ const handleFollow = () => {
             <!-- Left: Content -->
             <div class="text-center md:text-left">
               <div
-                class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-4">
+                class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-4"
+              >
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
                 <span class="text-sm md:text-base">{{ artist.location }}</span>
               </div>
-              <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              <h1
+                class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
+              >
                 {{ artist.name }}
               </h1>
-              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-muted-foreground mb-6">
+              <div
+                class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-muted-foreground mb-6"
+              >
                 <Badge
                   v-if="artist.level === 'master'"
                   variant="secondary"
@@ -110,13 +115,19 @@ const handleFollow = () => {
               </div>
 
               <!-- Stats -->
-              <div class="flex justify-center md:justify-start gap-8 text-foreground mb-8">
+              <div
+                class="flex justify-center md:justify-start gap-8 text-foreground mb-8"
+              >
                 <div>
-                  <div class="text-xl font-bold text-foreground">{{ artist.stats.followers }}</div>
+                  <div class="text-xl font-bold text-foreground">
+                    {{ artist.stats.followers }}
+                  </div>
                   <div class="text-sm text-muted-foreground">followers</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-foreground">{{ artist.stats.reviews }}</div>
+                  <div class="text-xl font-bold text-foreground">
+                    {{ artist.stats.reviews }}
+                  </div>
                   <div class="text-sm text-muted-foreground">reviews</div>
                 </div>
               </div>
@@ -197,7 +208,9 @@ const handleFollow = () => {
               v-if="artist.availability"
               class="bg-background rounded-lg border p-6"
             >
-              <h3 class="text-lg font-bold text-foreground mb-4">Availability</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">
+                Availability
+              </h3>
               <div class="space-y-4">
                 <table class="w-full">
                   <tbody class="divide-y divide-border">
@@ -257,7 +270,9 @@ const handleFollow = () => {
               v-if="artist.socialLinks.length > 0"
               class="bg-background rounded-lg border p-6"
             >
-              <h3 class="text-lg font-bold text-foreground mb-4">Social Media</h3>
+              <h3 class="text-lg font-bold text-foreground mb-4">
+                Social Media
+              </h3>
               <div class="space-y-3">
                 <a
                   v-for="link in artist.socialLinks"

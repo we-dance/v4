@@ -1,128 +1,128 @@
 <script setup>
-import UserPoints from "~/components/common/UserPoints.vue";
+import UserPoints from '~/components/common/UserPoints.vue'
 
 const energyLevels = [
   {
-    name: "Newcomer",
+    name: 'Newcomer',
     energy: 0,
-    benefits: ["Basic posting and interaction"],
+    benefits: ['Basic posting and interaction'],
   },
   {
-    name: "Regular",
+    name: 'Regular',
     energy: 50,
-    benefits: ["Create events, reviews"],
+    benefits: ['Create events, reviews'],
   },
   {
-    name: "Established",
+    name: 'Established',
     energy: 200,
-    benefits: ["Create projects, moderate comments"],
+    benefits: ['Create projects, moderate comments'],
   },
   {
-    name: "Trusted",
+    name: 'Trusted',
     energy: 500,
-    benefits: ["Edit tags, verify reviews"],
+    benefits: ['Edit tags, verify reviews'],
   },
   {
-    name: "Expert",
+    name: 'Expert',
     energy: 1000,
-    benefits: ["Content curation, mentor new users"],
+    benefits: ['Content curation, mentor new users'],
   },
   {
-    name: "Guardian",
+    name: 'Guardian',
     energy: 2000,
-    benefits: ["Community moderation, feature content"],
+    benefits: ['Community moderation, feature content'],
   },
-];
+]
 
 const earnEnergy = [
   {
-    category: "Content Creation",
+    category: 'Content Creation',
     items: [
-      { action: "Create Article", energy: "+10" },
-      { action: "Share Video", energy: "+5" },
-      { action: "Start Discussion", energy: "+3" },
-      { action: "Create Project", energy: "+5" },
-      { action: "Post Event", energy: "+5" },
-      { action: "Write Review", energy: "+3" },
-      { action: "Create Poll", energy: "+2" },
-      { action: "Post Gig", energy: "+3" },
-      { action: "Share Travel Plan", energy: "+2" },
-      { action: "Post Announcement", energy: "+2" },
+      { action: 'Create Article', energy: '+10' },
+      { action: 'Share Video', energy: '+5' },
+      { action: 'Start Discussion', energy: '+3' },
+      { action: 'Create Project', energy: '+5' },
+      { action: 'Post Event', energy: '+5' },
+      { action: 'Write Review', energy: '+3' },
+      { action: 'Create Poll', energy: '+2' },
+      { action: 'Post Gig', energy: '+3' },
+      { action: 'Share Travel Plan', energy: '+2' },
+      { action: 'Post Announcement', energy: '+2' },
     ],
   },
   {
-    category: "Comments & Interactions",
+    category: 'Comments & Interactions',
     items: [
-      { action: "Comment upvoted", energy: "+1" },
-      { action: "Comment upvoted by author", energy: "+3" },
-      { action: "Write a comment", energy: "+1" },
+      { action: 'Comment upvoted', energy: '+1' },
+      { action: 'Comment upvoted by author', energy: '+3' },
+      { action: 'Write a comment', energy: '+1' },
     ],
   },
   {
-    category: "Community Help",
+    category: 'Community Help',
     items: [
-      { action: "Share Local Info", energy: "+5" },
-      { action: "Project contribution", energy: "+2" },
-      { action: "Event check-in confirmed", energy: "+1" },
-      { action: "Partner request accepted", energy: "+2" },
-      { action: "Travel request accepted", energy: "+2" },
+      { action: 'Share Local Info', energy: '+5' },
+      { action: 'Project contribution', energy: '+2' },
+      { action: 'Event check-in confirmed', energy: '+1' },
+      { action: 'Partner request accepted', energy: '+2' },
+      { action: 'Travel request accepted', energy: '+2' },
     ],
   },
   {
-    category: "Profile Completion",
+    category: 'Profile Completion',
     items: [
-      { action: "Add profile photo", energy: "+2" },
-      { action: "Add dance styles", energy: "+1" },
-      { action: "Add bio", energy: "+2" },
-      { action: "Phone verified", energy: "+3" },
-      { action: "Email verified", energy: "+2" },
-      { action: "Add dance videos", energy: "+2" },
+      { action: 'Add profile photo', energy: '+2' },
+      { action: 'Add dance styles', energy: '+1' },
+      { action: 'Add bio', energy: '+2' },
+      { action: 'Phone verified', energy: '+3' },
+      { action: 'Email verified', energy: '+2' },
+      { action: 'Add dance videos', energy: '+2' },
     ],
   },
   {
-    category: "Community Trust",
+    category: 'Community Trust',
     items: [
-      { action: "Account age (monthly)", energy: "+1" },
-      { action: "No violations (monthly)", energy: "+2" },
-      { action: "Valid content report", energy: "+2" },
-      { action: "Successful event", energy: "+5" },
-      { action: "Venue verification", energy: "+5" },
+      { action: 'Account age (monthly)', energy: '+1' },
+      { action: 'No violations (monthly)', energy: '+2' },
+      { action: 'Valid content report', energy: '+2' },
+      { action: 'Successful event', energy: '+5' },
+      { action: 'Venue verification', energy: '+5' },
     ],
   },
-];
+]
 
 const badges = [
   {
-    name: "Local Guide",
-    description: "Helped 50+ people with local info",
-    icon: "ph:map-pin",
+    name: 'Local Guide',
+    description: 'Helped 50+ people with local info',
+    icon: 'ph:map-pin',
   },
   {
-    name: "Event Master",
-    description: "Successfully organized 20+ events",
-    icon: "ph:calendar-check",
+    name: 'Event Master',
+    description: 'Successfully organized 20+ events',
+    icon: 'ph:calendar-check',
   },
   {
-    name: "Mentor",
-    description: "Helped 100+ newcomers",
-    icon: "ph:student",
+    name: 'Mentor',
+    description: 'Helped 100+ newcomers',
+    icon: 'ph:student',
   },
   {
-    name: "Creator",
-    description: "Published 50+ quality articles/videos",
-    icon: "ph:pen",
+    name: 'Creator',
+    description: 'Published 50+ quality articles/videos',
+    icon: 'ph:pen',
   },
   {
-    name: "Guardian",
-    description: "1 year of active moderation",
-    icon: "ph:shield",
+    name: 'Guardian',
+    description: '1 year of active moderation',
+    icon: 'ph:shield',
   },
   {
-    name: "Pioneer",
-    description: "Early community member",
-    icon: "ph:flag",
+    name: 'Pioneer',
+    description: 'Early community member',
+    icon: 'ph:flag',
   },
-];
+]
 </script>
 
 <template>
@@ -155,7 +155,7 @@ const badges = [
               <UserPoints :points="level.energy" />
             </div>
             <div class="text-muted-foreground">
-              {{ level.benefits.join(", ") }}
+              {{ level.benefits.join(', ') }}
             </div>
           </div>
         </div>

@@ -1,41 +1,41 @@
 <script setup lang="ts">
 defineProps<{
-  name: string;
-  description: string;
-}>();
+  name: string
+  description: string
+}>()
 
 const getGradient = (name: string) => {
   switch (name) {
-    case "gradient-base":
-      return "hsl(var(--gradient-base))";
-    case "gradient-1":
-      return "hsl(var(--gradient-1))";
-    case "gradient-2":
-      return "hsl(var(--gradient-2))";
-    case "gradient-3":
-      return "hsl(var(--gradient-3))";
+    case 'gradient-base':
+      return 'hsl(var(--gradient-base))'
+    case 'gradient-1':
+      return 'hsl(var(--gradient-1))'
+    case 'gradient-2':
+      return 'hsl(var(--gradient-2))'
+    case 'gradient-3':
+      return 'hsl(var(--gradient-3))'
     default:
-      return "";
+      return ''
   }
-};
+}
 
 const getHSL = (name: string) => {
-  if (typeof document === "undefined") return { light: "", dark: "" };
+  if (typeof document === 'undefined') return { light: '', dark: '' }
 
   // Get light mode value
   const light = getComputedStyle(document.documentElement).getPropertyValue(
     `--${name}`
-  );
+  )
 
   // Get dark mode value by temporarily adding dark class
-  document.documentElement.classList.add("dark");
+  document.documentElement.classList.add('dark')
   const dark = getComputedStyle(document.documentElement).getPropertyValue(
     `--${name}`
-  );
-  document.documentElement.classList.remove("dark");
+  )
+  document.documentElement.classList.remove('dark')
 
-  return { light, dark };
-};
+  return { light, dark }
+}
 </script>
 
 <template>

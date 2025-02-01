@@ -11,29 +11,29 @@
     :features="[
       { icon: 'ph:check-circle', text: '5-minute setup' },
       { icon: 'ph:crown', text: 'Founding member benefits' },
-      { icon: 'ph:star', text: 'First month free' }
+      { icon: 'ph:star', text: 'First month free' },
     ]"
     :cards="[
       {
         icon: 'ph:calendar',
         title: 'Event Discovery',
-        description: 'Find dance events, classes, and festivals near you'
+        description: 'Find dance events, classes, and festivals near you',
       },
       {
         icon: 'ph:users-three',
         title: 'Partner Finding',
-        description: 'Connect with dance partners for events and practice'
+        description: 'Connect with dance partners for events and practice',
       },
       {
         icon: 'ph:map-pin',
         title: 'Local Community',
-        description: 'Join your city\'s dance scene and meet new friends'
+        description: 'Join your city\'s dance scene and meet new friends',
       },
       {
         icon: 'ph:star',
         title: 'Premium Features',
-        description: 'Access advanced tools to enhance your dance journey'
-      }
+        description: 'Access advanced tools to enhance your dance journey',
+      },
     ]"
   />
 
@@ -47,11 +47,11 @@
         features: [
           'Advanced partner matching',
           'Priority event notifications',
-          'Exclusive community features'
+          'Exclusive community features',
         ],
         price: '€9.99',
-        unit: 'per month'
-      }
+        unit: 'per month',
+      },
     ]"
     footer="All basic features are free forever. Premium features help support the platform and enhance your experience."
   />
@@ -63,33 +63,35 @@
       {
         icon: 'ph:calendar',
         title: 'Event Calendar',
-        description: 'Never miss a dance event with personalized recommendations'
+        description:
+          'Never miss a dance event with personalized recommendations',
       },
       {
         icon: 'ph:users-three',
         title: 'Partner Matching',
-        description: 'Find dance partners based on style, level, and availability'
+        description:
+          'Find dance partners based on style, level, and availability',
       },
       {
         icon: 'ph:map-pin',
         title: 'City Groups',
-        description: 'Connect with your local dance community'
+        description: 'Connect with your local dance community',
       },
       {
         icon: 'ph:chat-circle',
         title: 'Community Forum',
-        description: 'Share experiences and get advice from fellow dancers'
+        description: 'Share experiences and get advice from fellow dancers',
       },
       {
         icon: 'ph:book',
         title: 'Dance Journal',
-        description: 'Track your progress and dance experiences'
+        description: 'Track your progress and dance experiences',
       },
       {
         icon: 'ph:bell',
         title: 'Smart Notifications',
-        description: 'Get alerts for events and partner requests'
-      }
+        description: 'Get alerts for events and partner requests',
+      },
     ]"
   />
 
@@ -100,21 +102,24 @@
       {
         title: 'For Social Dancers',
         subtitle: 'Event Discovery',
-        quote: 'I love how easy it is to find dance events and connect with the community. The partner finding feature is a game-changer!',
-        highlight: '🎵 Active social life'
+        quote:
+          'I love how easy it is to find dance events and connect with the community. The partner finding feature is a game-changer!',
+        highlight: '🎵 Active social life',
       },
       {
         title: 'For Dance Students',
         subtitle: 'Learning Journey',
-        quote: 'WeDance helps me find great classes and keep track of my progress. The community is so supportive and welcoming.',
-        highlight: '🎓 Continuous learning'
+        quote:
+          'WeDance helps me find great classes and keep track of my progress. The community is so supportive and welcoming.',
+        highlight: '🎓 Continuous learning',
       },
       {
         title: 'For Dance Enthusiasts',
         subtitle: 'Community Connection',
-        quote: 'Finally, a platform that brings together all aspects of dance life. From finding events to meeting dance partners, it\'s all here.',
-        highlight: '🌟 Vibrant community'
-      }
+        quote:
+          'Finally, a platform that brings together all aspects of dance life. From finding events to meeting dance partners, it\'s all here.',
+        highlight: '🌟 Vibrant community',
+      },
     ]"
   />
 
@@ -126,20 +131,20 @@
         icon: 'ph:whatsapp-logo',
         title: 'vs WhatsApp',
         description: 'Organized event discovery vs scattered group messages',
-        link: '/vs/whatsapp'
+        link: '/vs/whatsapp',
       },
       {
         icon: 'ph:chat-circle',
         title: 'vs Facebook Groups',
         description: 'Dedicated dance platform vs general social network',
-        link: '/vs/facebook'
+        link: '/vs/facebook',
       },
       {
         icon: 'ph:globe',
         title: 'vs Dance Forums',
         description: 'Modern community features vs outdated forums',
-        link: '/vs/salsaforums'
-      }
+        link: '/vs/salsaforums',
+      },
     ]"
   />
 

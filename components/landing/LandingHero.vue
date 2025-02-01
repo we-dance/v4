@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import GradientBackground from "~/components/common/GradientBackground.vue";
-import { getDanceStyles } from "@/data/mockStyles";
+import GradientBackground from '~/components/common/GradientBackground.vue'
+import { getDanceStyles } from '@/data/mockStyles'
 
 defineProps({
   title: {
@@ -9,34 +9,34 @@ defineProps({
   description: {
     type: String,
   },
-});
+})
 
 // Search state
-const searchQuery = ref("");
+const searchQuery = ref('')
 
 // Dance styles with filter
 const danceStyles = computed(() => {
-  const styles = getDanceStyles();
-  if (!searchQuery.value) return styles.slice(0, 3);
+  const styles = getDanceStyles()
+  if (!searchQuery.value) return styles.slice(0, 3)
 
-  const query = searchQuery.value.toLowerCase();
+  const query = searchQuery.value.toLowerCase()
   const filtered = styles.filter((style) =>
     style.name.toLowerCase().includes(query)
-  );
+  )
 
   if (filtered.length === 0) {
     return [
       {
         name: "Can't find your style?",
-        image: "/images/dance-styles/not-found.jpg",
-        to: "/contact",
+        image: '/images/dance-styles/not-found.jpg',
+        to: '/contact',
         members: 0,
       },
-    ];
+    ]
   }
 
-  return filtered.slice(0, 3);
-});
+  return filtered.slice(0, 3)
+})
 </script>
 
 <template>

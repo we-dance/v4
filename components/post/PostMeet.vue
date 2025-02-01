@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import type { MeetContent } from "~/schemas/post";
+import type { MeetContent } from '~/schemas/post'
 
 const DETAIL_ICONS = {
-  type: "ph:users",
-  format: "ph:layout",
-  gender: "ph:gender-intersex",
-  when: "ph:calendar",
-  where: "ph:map-pin",
-  level: "ph:chart-line",
-  style: "ph:music-notes",
-  seats: "ph:car",
-  contribution: "ph:money",
-} as const;
+  type: 'ph:users',
+  format: 'ph:layout',
+  gender: 'ph:gender-intersex',
+  when: 'ph:calendar',
+  where: 'ph:map-pin',
+  level: 'ph:chart-line',
+  style: 'ph:music-notes',
+  seats: 'ph:car',
+  contribution: 'ph:money',
+} as const
 
 defineProps<{
-  content: MeetContent;
-}>();
+  content: MeetContent
+}>()
 </script>
 
 <template>

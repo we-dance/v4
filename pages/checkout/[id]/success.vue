@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { mockEvents } from "@/data/mockEvents";
-import type { AnyEvent } from "~/schemas/event";
-import { formatDate } from "~/utils/format";
+import { mockEvents } from '@/data/mockEvents'
+import type { AnyEvent } from '~/schemas/event'
+import { formatDate } from '~/utils/format'
 
-const route = useRoute();
+const route = useRoute()
 const event = computed(() =>
   mockEvents.find((e) => String(e.id) === String(route.params.id))
-);
+)
 </script>
 
 <template>

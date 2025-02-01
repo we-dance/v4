@@ -10,37 +10,37 @@ defineProps({
     type: Boolean,
     default: false,
   },
-});
+})
 
 const cities = [
   {
-    slug: "munich",
-    name: "Munich",
+    slug: 'munich',
+    name: 'Munich',
     image:
-      "https://images.unsplash.com/photo-1595867818082-083862f3d630?w=800&h=400&fit=crop",
+      'https://images.unsplash.com/photo-1595867818082-083862f3d630?w=800&h=400&fit=crop',
     events: 120,
     artists: 45,
-    description: "Vibrant dance scene with regular socials and festivals",
+    description: 'Vibrant dance scene with regular socials and festivals',
   },
   {
-    slug: "berlin",
-    name: "Berlin",
+    slug: 'berlin',
+    name: 'Berlin',
     image:
-      "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&h=400&fit=crop",
+      'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&h=400&fit=crop',
     events: 200,
     artists: 80,
     description: "Europe's dance capital with events every night",
   },
   {
-    slug: "london",
-    name: "London",
+    slug: 'london',
+    name: 'London',
     image:
-      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&h=400&fit=crop",
+      'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&h=400&fit=crop',
     events: 180,
     artists: 65,
-    description: "Rich diversity of dance styles and cultures",
+    description: 'Rich diversity of dance styles and cultures',
   },
-];
+]
 </script>
 
 <template>

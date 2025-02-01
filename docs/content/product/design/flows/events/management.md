@@ -8,7 +8,9 @@ This document describes how organizers manage their events after creation.
 **Goal**: Manage recurring events efficiently
 
 ### Series Setup
+
 1. **Create Template**
+
    - Define base event details
    - Set recurrence pattern
    - Configure exceptions
@@ -21,7 +23,9 @@ This document describes how organizers manage their events after creation.
    - Exception dates
 
 ### Series Updates
+
 1. **Update Types**
+
    - Single occurrence
    - All future events
    - Entire series
@@ -39,7 +43,9 @@ This document describes how organizers manage their events after creation.
 **Goal**: Keep event information current
 
 ### Content Updates
+
 1. **Basic Details**
+
    - Title and description
    - Date and time
    - Location
@@ -52,7 +58,9 @@ This document describes how organizers manage their events after creation.
    - Additional notes
 
 ### Status Updates
+
 1. **Availability**
+
    - Mark as sold out
    - Release more tickets
    - Early bird deadlines
@@ -70,7 +78,9 @@ This document describes how organizers manage their events after creation.
 **Goal**: Control event distribution
 
 ### Publishing Controls
+
 1. **Visibility Options**
+
    - Full visibility
    - Quiet publishing
    - Scheduled publishing
@@ -83,7 +93,9 @@ This document describes how organizers manage their events after creation.
    - Promotion settings
 
 ### Promotion Management
+
 1. **Boost Options**
+
    - Promote in feed
    - Featured placement
    - Community highlights
@@ -101,7 +113,9 @@ This document describes how organizers manage their events after creation.
 **Goal**: Monitor event performance
 
 ### Performance Metrics
+
 1. **Visibility Stats**
+
    - View counts
    - Search appearances
    - Click-through rates
@@ -114,7 +128,9 @@ This document describes how organizers manage their events after creation.
    - Click patterns
 
 ### Registration Tracking
+
 1. **Ticket Stats**
+
    - Sales velocity
    - Capacity status
    - Price point performance
@@ -132,7 +148,9 @@ This document describes how organizers manage their events after creation.
 **Goal**: Maintain attendee engagement
 
 ### Pre-Event
+
 1. **Updates**
+
    - Schedule changes
    - Important reminders
    - Additional information
@@ -145,7 +163,9 @@ This document describes how organizers manage their events after creation.
    - Build excitement
 
 ### Post-Event
+
 1. **Follow-up**
+
    - Thank you messages
    - Feedback collection
    - Photo sharing
@@ -155,4 +175,4 @@ This document describes how organizers manage their events after creation.
    - Share highlights
    - Recognize participants
    - Build connections
-   - Plan next events 
+   - Plan next events

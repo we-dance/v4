@@ -1,10 +1,10 @@
 <script setup lang="ts">
 interface Step {
-  number: number;
-  icon: string;
-  title: string;
-  description: string;
-  class: string;
+  number: number
+  icon: string
+  title: string
+  description: string
+  class: string
 }
 
 defineProps({
@@ -16,8 +16,8 @@ defineProps({
   },
   steps: {
     type: Array as PropType<Step[]>,
-  }
-});
+  },
+})
 </script>
 
 <template>
@@ -38,7 +38,11 @@ defineProps({
           class="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-accent/20 via-accent to-accent/20"
         ></div>
 
-        <div v-if="steps" class="grid grid-cols-1 gap-12 lg:gap-8 relative" :class="steps.length === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'">
+        <div
+          v-if="steps"
+          class="grid grid-cols-1 gap-12 lg:gap-8 relative"
+          :class="steps.length === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'"
+        >
           <div v-for="step in steps" :key="step.number" class="relative">
             <div class="flex flex-col items-center">
               <div
@@ -48,7 +52,9 @@ defineProps({
                 <Icon :name="step.icon" class="w-10 h-10 text-white" />
               </div>
               <div class="text-center">
-                <div class="text-accent font-medium mb-2">Step {{ step.number }}</div>
+                <div class="text-accent font-medium mb-2">
+                  Step {{ step.number }}
+                </div>
                 <h3 class="text-xl font-bold mb-3 text-foreground">
                   {{ step.title }}
                 </h3>

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-const route = useRoute();
+const route = useRoute()
 
 defineProps<{
-  to: string;
-  label: string;
-}>();
+  to: string
+  label: string
+}>()
 
-const isActive = (path: string) => route.path === path;
+const isActive = (path: string) => route.path === path
 </script>
 
 <template>

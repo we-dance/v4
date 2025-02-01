@@ -1,13 +1,13 @@
 <script setup lang="ts">
 const props = defineProps<{
-  firstName: string;
-  lastName: string;
-}>();
+  firstName: string
+  lastName: string
+}>()
 
 const emit = defineEmits<{
-  (e: "update:firstName", value: string): void;
-  (e: "update:lastName", value: string): void;
-}>();
+  (e: 'update:firstName', value: string): void
+  (e: 'update:lastName', value: string): void
+}>()
 </script>
 
 <template>

@@ -3,12 +3,14 @@
 ## Jobs-to-be-Done
 
 1. **Control Privacy**
+
    - Manage visibility
    - Set boundaries
    - Protect data
    - Control sharing
 
 2. **Customize Experience**
+
    - Set preferences
    - Configure notifications
    - Manage integrations
@@ -23,6 +25,7 @@
 ## Privacy Settings
 
 ### Profile Privacy
+
 - Profile visibility
 - Contact options
 - Activity sharing
@@ -30,6 +33,7 @@
 - Search visibility
 
 ### Content Privacy
+
 - Post visibility
 - Media sharing
 - Event attendance
@@ -37,6 +41,7 @@
 - Tagging permissions
 
 ### Connection Privacy
+
 - Follow settings
 - Message filters
 - Block list
@@ -46,6 +51,7 @@
 ## Experience Settings
 
 ### Feed Preferences
+
 - Content types
 - Language
 - Location
@@ -53,6 +59,7 @@
 - Content filters
 
 ### Notification Settings
+
 - In-app notifications
 - Email preferences
 - Push notifications
@@ -60,6 +67,7 @@
 - Important alerts
 
 ### Integration Settings
+
 - Calendar sync
 - Social connections
 - Payment methods
@@ -69,6 +77,7 @@
 ## Account Management
 
 ### Profile Settings
+
 - Basic info
 - Dance details
 - Roles & verification
@@ -76,6 +85,7 @@
 - Linked accounts
 
 ### Security Settings
+
 - Password
 - Two-factor auth
 - Login history
@@ -83,8 +93,9 @@
 - Account recovery
 
 ### Data Management
+
 - Download data
 - Delete account
 - Privacy logs
 - Usage history
-- Data sharing 
+- Data sharing

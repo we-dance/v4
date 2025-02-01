@@ -1,30 +1,30 @@
 <script setup lang="ts">
-const router = useRouter();
-const { createAccount, isLoading, error } = useRegistration();
+const router = useRouter()
+const { createAccount, isLoading, error } = useRegistration()
 
 const form = reactive({
-  firstName: "",
-  lastName: "",
-  email: "",
-  password: "",
-  phone: "",
-  userType: "dancer",
+  firstName: '',
+  lastName: '',
+  email: '',
+  password: '',
+  phone: '',
+  userType: 'dancer',
   terms: false,
-});
+})
 
 const handleSubmit = async () => {
   try {
-    const success = await createAccount(form);
+    const success = await createAccount(form)
     if (success) {
       router.push({
-        path: "/register/styles",
+        path: '/register/styles',
         query: { type: form.userType },
-      });
+      })
     }
   } catch (e) {
-    console.error("Registration failed:", e);
+    console.error('Registration failed:', e)
   }
-};
+}
 </script>
 
 <template>

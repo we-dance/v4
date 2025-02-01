@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import type { CommentWithReplies } from "~/schemas/comment";
+import type { CommentWithReplies } from '~/schemas/comment'
 
 const props = defineProps<{
-  comment: CommentWithReplies;
-  currentUserId: string;
-  isPostAuthor: boolean;
-}>();
+  comment: CommentWithReplies
+  currentUserId: string
+  isPostAuthor: boolean
+}>()
 
 const emit = defineEmits<{
-  (e: "reply", comment: CommentWithReplies): void;
-}>();
+  (e: 'reply', comment: CommentWithReplies): void
+}>()
 
 const likeComment = (comment: CommentWithReplies) => {
-  comment.isLiked = !comment.isLiked;
-  comment.stats.likes += comment.isLiked ? 1 : -1;
+  comment.isLiked = !comment.isLiked
+  comment.stats.likes += comment.isLiked ? 1 : -1
 
   // Internal helpful status when post author likes
   if (props.isPostAuthor && comment.author.id !== props.currentUserId) {
-    comment.stats.isHelpful = comment.isLiked;
+    comment.stats.isHelpful = comment.isLiked
   }
-};
+}
 </script>
 
 <template>

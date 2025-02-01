@@ -70,8 +70,8 @@ Each dance style should be defined with:
 
    ```yaml
    Event:
-     title: "Rueda de Casino Workshop"
-     style: "salsa/cuban" # Primary categorization
+     title: 'Rueda de Casino Workshop'
+     style: 'salsa/cuban' # Primary categorization
      tags: # Additional context
        - beginner-friendly
        - rueda-basics
@@ -80,7 +80,7 @@ Each dance style should be defined with:
        - social-dancing
 
    Artist Profile:
-     name: "Maria Rodriguez"
+     name: 'Maria Rodriguez'
      styles: # Main expertise
        - salsa/cuban
        - salsa/ny
@@ -282,18 +282,18 @@ origin: Caribbean (Puerto Rico, Cuba, New York)
 
    ```yaml
    Venue:
-     name: "Megano"
+     name: 'Megano'
      primary_styles:
        - salsa/cuban
      events:
-       - type: "party"
-         day: "Saturday"
-         style: "salsa/cuban"
-         music_style: "timba"
+       - type: 'party'
+         day: 'Saturday'
+         style: 'salsa/cuban'
+         music_style: 'timba'
 
    Event:
-     title: "Thursday Salsa Social"
-     style: "salsa/ny"
+     title: 'Thursday Salsa Social'
+     style: 'salsa/ny'
      venue: "Hakan's"
      tags:
        - on2
@@ -301,7 +301,7 @@ origin: Caribbean (Puerto Rico, Cuba, New York)
        - social-dancing
 
    Community:
-     style: "salsa/cuban"
+     style: 'salsa/cuban'
      venues:
        - megano
        - salsea
@@ -329,30 +329,30 @@ origin: Caribbean (Puerto Rico, Cuba, New York)
 
    ```yaml
    /dance/salsa:
-     overview: "General salsa information"
+     overview: 'General salsa information'
      communities:
        - salsa/cuban
        - salsa/ny
        - salsa/la
-     upcoming_events: "All salsa events"
+     upcoming_events: 'All salsa events'
 
    /dance/salsa/cuban:
-     overview: "Cuban style specific"
+     overview: 'Cuban style specific'
      venues:
        - megano
        - salsea
-     organizers: "Cuban style teachers"
-     events: "Cuban style events"
-     music: "Timba and Cuban music"
+     organizers: 'Cuban style teachers'
+     events: 'Cuban style events'
+     music: 'Timba and Cuban music'
    ```
 
 2. **Venue Pages**
    ```yaml
    /venues/megano:
-     primary_style: "salsa/cuban"
+     primary_style: 'salsa/cuban'
      regular_events:
-       - day: "Saturday"
-         style: "salsa/cuban"
+       - day: 'Saturday'
+         style: 'salsa/cuban'
      community:
        - teachers
        - upcoming_events
@@ -419,11 +419,11 @@ origin: Caribbean (Puerto Rico, Cuba, New York)
 
    ```yaml
    Search Filters:
-     style: "salsa/cuban"
-     venue: "megano"
-     music: "timba"
-     event_type: "social"
-     community: "munich_casino"
+     style: 'salsa/cuban'
+     venue: 'megano'
+     music: 'timba'
+     event_type: 'social'
+     community: 'munich_casino'
    ```
 
 4. **Community Growth**
@@ -444,8 +444,8 @@ Layout:
     - Key statistics (total events, active communities)
 
   Communities Section:
-    Title: "Local Communities"
-    Description: "Active salsa communities in your area"
+    Title: 'Local Communities'
+    Description: 'Active salsa communities in your area'
     Content:
       Munich Example:
         NY/On2 Community:
@@ -455,7 +455,7 @@ Layout:
           - Recent photos/videos
 
         Cuban Community:
-          - Regular Event: "Saturday Socials at Megano"
+          - Regular Event: 'Saturday Socials at Megano'
           - Additional Venue: Salsea
           - Music: Timba, Modern Cuban
           - Active organizers and teachers
@@ -597,14 +597,14 @@ Content Strategy:
 
    ```yaml
    Festival Event:
-     title: "Cuban Salsa Festival Berlin"
-     style: "salsa/cuban"
+     title: 'Cuban Salsa Festival Berlin'
+     style: 'salsa/cuban'
      related_groups:
-       - name: "Afro-Cuban Festivals"
-         type: "WhatsApp"
+       - name: 'Afro-Cuban Festivals'
+         type: 'WhatsApp'
          members: 234
-         focus: "Festival planning"
-         link: "https://chat.whatsapp.com/..."
+         focus: 'Festival planning'
+         link: 'https://chat.whatsapp.com/...'
    ```
 
 3. **Access Points**
@@ -718,7 +718,7 @@ Examples:
 3. **Call to Action**
    ```yaml
    Join Options:
-     Primary: "Join WhatsApp Group"
+     Primary: 'Join WhatsApp Group'
      Secondary:
        - Follow on social media
        - Subscribe to updates
@@ -799,8 +799,8 @@ Communities:
 ```yaml
 Scenario 1 - Local Scene:
   Organizer:
-    name: "Megano"
-    type: "Venue & Event Production"
+    name: 'Megano'
+    type: 'Venue & Event Production'
     services:
       - Weekly parties
       - Classes
@@ -813,8 +813,8 @@ Scenario 1 - Local Scene:
 
 Scenario 2 - Festival Circuit:
   Organizer:
-    name: "Berlin Salsa Festival"
-    type: "Event Production"
+    name: 'Berlin Salsa Festival'
+    type: 'Event Production'
     services:
       - Annual festival
       - Workshops
@@ -850,14 +850,14 @@ Scenario 2 - Festival Circuit:
 
    ```yaml
    Event:
-     organizer: "Megano" # Official entity running it
+     organizer: 'Megano' # Official entity running it
      communities: # Related groups
-       - "Saturday Cuban Salsa"
-       - "Afro-Cuban Festivals"
+       - 'Saturday Cuban Salsa'
+       - 'Afro-Cuban Festivals'
 
    Venue:
-     manager: "Megano" # Official management
+     manager: 'Megano' # Official management
      communities: # Groups that use the space
-       - "Practice Group"
-       - "Social Dancers"
+       - 'Practice Group'
+       - 'Social Dancers'
    ```

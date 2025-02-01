@@ -10,6 +10,7 @@ This document describes how events are published and distributed across the plat
 **Goal**: Get event live on platform
 
 1. **Pre-Publication Checklist**
+
    - Required fields complete
    - Images uploaded
    - Pricing set
@@ -17,18 +18,17 @@ This document describes how events are published and distributed across the plat
    - Dates verified
 
 2. **Publishing Options**
+
    - Full Publication
      - Event listings
      - Social post
      - Feed distribution
      - Notifications
-   
    - Quiet Publication
      - Event listings only
      - No social post
      - Limited distribution
      - No notifications
-   
    - Scheduled Publication
      - Future date
      - Preview available
@@ -38,6 +38,7 @@ This document describes how events are published and distributed across the plat
 ### Distribution Flow
 
 1. **Automatic Distribution**
+
    - Event listings placement
    - Social post creation
    - Feed distribution based on:
@@ -57,6 +58,7 @@ This document describes how events are published and distributed across the plat
 ### Content Updates
 
 1. **Update Types**
+
    - Basic details
    - Pricing changes
    - Schedule changes
@@ -72,6 +74,7 @@ This document describes how events are published and distributed across the plat
 ### Status Updates
 
 1. **Availability Updates**
+
    - Capacity changes
    - Sold out status
    - Waitlist opening
@@ -88,6 +91,7 @@ This document describes how events are published and distributed across the plat
 ### Timing Strategy
 
 1. **Publication Timing**
+
    - Major events: 2-3 months ahead
    - Regular events: 2-4 weeks ahead
    - Last-minute events: Special marking
@@ -101,6 +105,7 @@ This document describes how events are published and distributed across the plat
 ### Quality Optimization
 
 1. **Content Quality**
+
    - Complete all fields
    - High-quality images
    - Clear descriptions
@@ -115,6 +120,7 @@ This document describes how events are published and distributed across the plat
 ### Engagement Plan
 
 1. **Pre-Event**
+
    - Answer questions
    - Share updates
    - Build excitement
@@ -131,6 +137,7 @@ This document describes how events are published and distributed across the plat
 ### For Visibility
 
 1. **Content Standards**
+
    - Clear titles
    - Engaging descriptions
    - Quality images
@@ -145,6 +152,7 @@ This document describes how events are published and distributed across the plat
 ### For Engagement
 
 1. **Community Building**
+
    - Respond promptly
    - Encourage discussion
    - Facilitate connections
@@ -154,4 +162,4 @@ This document describes how events are published and distributed across the plat
    - Regular status updates
    - Clear communication
    - Timely notifications
-   - Transparent changes 
+   - Transparent changes

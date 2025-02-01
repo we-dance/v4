@@ -1,32 +1,32 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "design",
-});
+  layout: 'design',
+})
 
 type ButtonVariant =
-  | "primary"
-  | "secondary"
-  | "outline"
-  | "ghost"
-  | "link"
-  | "destructive";
-type ButtonSize = "default" | "sm" | "lg" | "icon";
+  | 'primary'
+  | 'secondary'
+  | 'outline'
+  | 'ghost'
+  | 'link'
+  | 'destructive'
+type ButtonSize = 'default' | 'sm' | 'lg' | 'icon'
 
 const variants: Array<{ name: ButtonVariant; description: string }> = [
-  { name: "primary", description: "Primary action button" },
-  { name: "secondary", description: "Secondary action button" },
-  { name: "outline", description: "Outlined button for less emphasis" },
-  { name: "ghost", description: "Ghost button for subtle actions" },
-  { name: "link", description: "Link-styled button" },
-  { name: "destructive", description: "For destructive actions" },
-];
+  { name: 'primary', description: 'Primary action button' },
+  { name: 'secondary', description: 'Secondary action button' },
+  { name: 'outline', description: 'Outlined button for less emphasis' },
+  { name: 'ghost', description: 'Ghost button for subtle actions' },
+  { name: 'link', description: 'Link-styled button' },
+  { name: 'destructive', description: 'For destructive actions' },
+]
 
 const sizes: Array<{ name: ButtonSize; description: string }> = [
-  { name: "default", description: "Default size" },
-  { name: "sm", description: "Small size" },
-  { name: "lg", description: "Large size" },
-  { name: "icon", description: "Icon button" },
-];
+  { name: 'default', description: 'Default size' },
+  { name: 'sm', description: 'Small size' },
+  { name: 'lg', description: 'Large size' },
+  { name: 'icon', description: 'Icon button' },
+]
 </script>
 
 <template>

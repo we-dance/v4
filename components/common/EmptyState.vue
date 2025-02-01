@@ -1,74 +1,74 @@
 <script setup lang="ts">
 interface EmptyStateContent {
-  icon: string;
-  title: string;
-  description: string;
+  icon: string
+  title: string
+  description: string
   action?: {
-    label: string;
-    to: string;
-  };
+    label: string
+    to: string
+  }
 }
 
 type Variant =
-  | "artist-not-found"
-  | "no-results"
-  | "no-reviews"
-  | "no-media"
-  | "no-classes"
-  | "group-not-found";
+  | 'artist-not-found'
+  | 'no-results'
+  | 'no-reviews'
+  | 'no-media'
+  | 'no-classes'
+  | 'group-not-found'
 
 const variants: Record<Variant, EmptyStateContent> = {
-  "artist-not-found": {
-    icon: "ph:user-circle-x",
-    title: "Artist Not Found",
+  'artist-not-found': {
+    icon: 'ph:user-circle-x',
+    title: 'Artist Not Found',
     description:
       "The artist you're looking for doesn't exist or has been removed.",
     action: {
-      label: "Browse Artists",
-      to: "/artists",
+      label: 'Browse Artists',
+      to: '/artists',
     },
   },
-  "no-results": {
-    icon: "ph:magnifying-glass",
-    title: "No Results Found",
-    description: "Try adjusting your search terms or filters.",
+  'no-results': {
+    icon: 'ph:magnifying-glass',
+    title: 'No Results Found',
+    description: 'Try adjusting your search terms or filters.',
   },
-  "no-reviews": {
-    icon: "ph:chat-circle",
-    title: "No Reviews Yet",
-    description: "Be the first to leave a review!",
+  'no-reviews': {
+    icon: 'ph:chat-circle',
+    title: 'No Reviews Yet',
+    description: 'Be the first to leave a review!',
     action: {
-      label: "Write a Review",
-      to: "/review/new",
+      label: 'Write a Review',
+      to: '/review/new',
     },
   },
-  "no-media": {
-    icon: "ph:image",
-    title: "No Media Yet",
-    description: "No photos or videos have been added yet.",
+  'no-media': {
+    icon: 'ph:image',
+    title: 'No Media Yet',
+    description: 'No photos or videos have been added yet.',
   },
-  "no-classes": {
-    icon: "ph:graduation-cap",
-    title: "No Classes Available",
-    description: "No classes are currently scheduled.",
+  'no-classes': {
+    icon: 'ph:graduation-cap',
+    title: 'No Classes Available',
+    description: 'No classes are currently scheduled.',
   },
-  "group-not-found": {
-    icon: "ph:users-three",
-    title: "Group Not Found",
+  'group-not-found': {
+    icon: 'ph:users-three',
+    title: 'Group Not Found',
     description:
-      "The group you are looking for does not exist or has been removed.",
+      'The group you are looking for does not exist or has been removed.',
     action: {
-      label: "Browse Groups",
-      to: "/groups",
+      label: 'Browse Groups',
+      to: '/groups',
     },
   },
-};
+}
 
 const props = defineProps<{
-  variant: Variant;
-}>();
+  variant: Variant
+}>()
 
-const content = computed(() => variants[props.variant]);
+const content = computed(() => variants[props.variant])
 </script>
 
 <template>

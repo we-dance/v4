@@ -1,47 +1,47 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import { mockCourses } from "~/data/mockCourses";
-import { useDialog } from "~/composables/useDialog";
-import { useRoute } from "vue-router";
+import { ref, computed } from 'vue'
+import { mockCourses } from '~/data/mockCourses'
+import { useDialog } from '~/composables/useDialog'
+import { useRoute } from 'vue-router'
 
-const route = useRoute();
+const route = useRoute()
 const course = ref(
   mockCourses.find((course) => String(course.id) === String(route.params.id))!
-);
-const dialog = useDialog();
+)
+const dialog = useDialog()
 
-const currentLesson = ref(course.value.modules[0].lessons[0]);
+const currentLesson = ref(course.value.modules[0].lessons[0])
 
 const progress = computed(() => {
   const totalLessons = course.value.modules.reduce(
     (acc, module) => acc + module.lessons.length,
     0
-  );
+  )
   const completedLessons = course.value.modules.reduce(
     (acc, module) =>
       acc + module.lessons.filter((lesson) => lesson.completed).length,
     0
-  );
-  return Math.round((completedLessons / totalLessons) * 100);
-});
+  )
+  return Math.round((completedLessons / totalLessons) * 100)
+})
 
 const selectLesson = (lesson: any) => {
-  currentLesson.value = lesson;
-};
+  currentLesson.value = lesson
+}
 
 const handleSubscribe = () => {
   dialog.open({
-    component: "CourseSubscriptionDialog",
+    component: 'CourseSubscriptionDialog',
     props: {
       course: course.value,
       onSelect: (plan: { type: string; interval?: string }) => {
         navigateTo(
-          `/checkout/${route.params.id}?type=course&plan=${plan.type}${plan.interval ? `&interval=${plan.interval}` : ""}`
-        );
+          `/checkout/${route.params.id}?type=course&plan=${plan.type}${plan.interval ? `&interval=${plan.interval}` : ''}`
+        )
       },
     },
-  });
-};
+  })
+}
 </script>
 
 <template>
@@ -206,7 +206,7 @@ const handleSubscribe = () => {
                   <div class="space-y-2">
                     <p class="text-sm text-muted-foreground">
                       <Icon name="ph:translate" class="w-4 h-4 inline mr-1" />
-                      Languages: {{ course.instructor.languages.join(", ") }}
+                      Languages: {{ course.instructor.languages.join(', ') }}
                     </p>
                     <p class="text-sm text-muted-foreground">
                       <Icon name="ph:medal" class="w-4 h-4 inline mr-1" />
@@ -225,28 +225,28 @@ const handleSubscribe = () => {
                           {{ achievement }}
                         </li>
                       </ul>
-                  </div>
-                  <!-- Social Media Links -->
-                  <div
-                    class="flex items-center gap-4 mt-4"
-                    v-if="course.instructor.socialMedia"
-                  >
-                    <a
-                      v-if="course.instructor.socialMedia.instagram"
-                      :href="`https://instagram.com/${course.instructor.socialMedia.instagram}`"
-                      target="_blank"
-                      class="text-muted-foreground hover:text-accent"
+                    </div>
+                    <!-- Social Media Links -->
+                    <div
+                      class="flex items-center gap-4 mt-4"
+                      v-if="course.instructor.socialMedia"
                     >
-                      <Icon name="ph:instagram-logo" class="w-6 h-6" />
-                    </a>
-                    <a
-                      v-if="course.instructor.socialMedia.youtube"
-                      :href="`https://youtube.com/${course.instructor.socialMedia.youtube}`"
-                      target="_blank"
-                      class="text-muted-foreground hover:text-destructive"
-                    >
-                      <Icon name="ph:youtube-logo" class="w-6 h-6" />
-                    </a>
+                      <a
+                        v-if="course.instructor.socialMedia.instagram"
+                        :href="`https://instagram.com/${course.instructor.socialMedia.instagram}`"
+                        target="_blank"
+                        class="text-muted-foreground hover:text-accent"
+                      >
+                        <Icon name="ph:instagram-logo" class="w-6 h-6" />
+                      </a>
+                      <a
+                        v-if="course.instructor.socialMedia.youtube"
+                        :href="`https://youtube.com/${course.instructor.socialMedia.youtube}`"
+                        target="_blank"
+                        class="text-muted-foreground hover:text-destructive"
+                      >
+                        <Icon name="ph:youtube-logo" class="w-6 h-6" />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -401,10 +401,15 @@ const handleSubscribe = () => {
             <div class="p-4">
               <div class="text-2xl font-bold mb-1">
                 {{ course.instructor.availability.pricing.privateClass.amount }}
-                {{ course.instructor.availability.pricing.privateClass.currency }}
+                {{
+                  course.instructor.availability.pricing.privateClass.currency
+                }}
               </div>
               <p class="text-sm text-muted-foreground mb-4">
-                {{ course.instructor.availability.pricing.privateClass.duration }} minutes private lesson
+                {{
+                  course.instructor.availability.pricing.privateClass.duration
+                }}
+                minutes private lesson
               </p>
               <Button class="w-full" variant="primary" as-child>
                 <NuxtLink

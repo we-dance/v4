@@ -13,48 +13,48 @@ interface Card {
 defineProps({
   badge: {
     type: String,
-    required: true
+    required: true,
   },
   badgeIcon: {
     type: String,
-    default: 'ph:sparkle'
+    default: 'ph:sparkle',
   },
   badgeVariant: {
     type: String,
-    default: 'default'
+    default: 'default',
   },
   title: {
     type: String,
-    required: true
+    required: true,
   },
   description: {
     type: String,
-    required: true
+    required: true,
   },
   primaryText: {
     type: String,
-    required: true
+    required: true,
   },
   primaryLink: {
     type: String,
-    required: true
+    required: true,
   },
   secondaryText: {
     type: String,
-    required: true
+    required: true,
   },
   secondaryLink: {
     type: String,
-    required: true
+    required: true,
   },
   features: {
     type: Array as PropType<Feature[]>,
-    default: () => []
+    default: () => [],
   },
   cards: {
     type: Array as PropType<Card[]>,
-    required: true
-  }
+    required: true,
+  },
 })
 </script>
 
@@ -81,9 +81,7 @@ defineProps({
             >
               {{ title }}
             </h1>
-            <p
-              class="text-xl text-primary/80 mb-8 max-w-2xl mx-auto lg:mx-0"
-            >
+            <p class="text-xl text-primary/80 mb-8 max-w-2xl mx-auto lg:mx-0">
               {{ description }}
             </p>
             <div
@@ -105,7 +103,11 @@ defineProps({
             <div
               class="mt-8 flex items-center justify-center lg:justify-start gap-8 text-primary/80"
             >
-              <div v-for="feature in features" :key="feature.text" class="flex items-center gap-2">
+              <div
+                v-for="feature in features"
+                :key="feature.text"
+                class="flex items-center gap-2"
+              >
                 <Icon :name="feature.icon" class="w-5 h-5 text-success" />
                 <span>{{ feature.text }}</span>
               </div>
@@ -119,10 +121,7 @@ defineProps({
               :key="card.title"
               class="bg-primary/10 backdrop-blur-sm rounded-2xl p-6 border border-primary/20"
             >
-              <Icon
-                :name="card.icon"
-                class="w-8 h-8 text-primary/80 mb-4"
-              />
+              <Icon :name="card.icon" class="w-8 h-8 text-primary/80 mb-4" />
               <div class="text-xl font-bold text-primary mb-2">
                 {{ card.title }}
               </div>

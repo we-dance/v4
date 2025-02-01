@@ -29,6 +29,7 @@
 ## Objectives 2025 Q1
 
 **O1: Launch WeDance v4**
+
 - KR1: Data migrated from v3
 - KR2: Successful design sprint user testing for navigation and city calendar (dancers)
 
@@ -39,6 +40,7 @@
 - KR3: Successful design sprint user testing for online classes (consumers/dancers)
 
 **O3: Pinakothek Booking**
+
 - KR1: Successful design sprint user testing for Pinakothek Booking (organizers)
 - KR2: Voting for Pinakothek Booking Policy is posted by end of February 2025
 - KR3: Pinakothek Booking is launched by end of March, 2025

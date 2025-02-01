@@ -1,35 +1,35 @@
 <script setup lang="ts">
-import type { ArtistProfile } from "~/schemas/profile";
-import EmptyState from "~/components/common/EmptyState.vue";
+import type { ArtistProfile } from '~/schemas/profile'
+import EmptyState from '~/components/common/EmptyState.vue'
 
-const { artist } = useArtist();
+const { artist } = useArtist()
 
 // Computed properties for UI
 const achievements = computed(() => {
-  if (!artist.value?.portfolio) return [];
+  if (!artist.value?.portfolio) return []
   return artist.value.portfolio
-    .filter((item) => item.type === "achievement")
-    .map((item) => item.description || "");
-});
+    .filter((item) => item.type === 'achievement')
+    .map((item) => item.description || '')
+})
 
 const certifications = computed(() => {
-  if (!artist.value?.experience?.certifications) return [];
-  return artist.value.experience.certifications;
-});
+  if (!artist.value?.experience?.certifications) return []
+  return artist.value.experience.certifications
+})
 
 const specialties = computed(() => {
-  if (!artist.value?.experience?.specialties) return [];
+  if (!artist.value?.experience?.specialties) return []
   return artist.value.experience.specialties.map(
     (specialty) => specialty.charAt(0).toUpperCase() + specialty.slice(1)
-  );
-});
+  )
+})
 
 const teachingLevels = computed(() => {
-  if (!artist.value?.experience?.teachingLevels) return [];
+  if (!artist.value?.experience?.teachingLevels) return []
   return artist.value.experience.teachingLevels.map(
     (level) => level.charAt(0).toUpperCase() + level.slice(1)
-  );
-});
+  )
+})
 </script>
 
 <template>

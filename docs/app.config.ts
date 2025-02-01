@@ -1,9 +1,9 @@
 // https://github.com/nuxt-themes/docus/blob/main/nuxt.schema.ts
 export default defineAppConfig({
   docus: {
-    title: "WeDance Docs",
+    title: 'WeDance Docs',
     description:
-      "A participatory network transforming how dance communities connect, organize, and thrive together",
+      'A participatory network transforming how dance communities connect, organize, and thrive together',
     aside: {
       level: 1,
       collapsed: true,
@@ -20,4 +20,4 @@ export default defineAppConfig({
       fluid: true,
     },
   },
-});
+})

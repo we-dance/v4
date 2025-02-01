@@ -1,77 +1,77 @@
 <script setup lang="ts">
 interface Issue {
-  _path: string;
-  title: string;
-  description: string;
-  status: "todo" | "in-progress" | "done";
-  priority: string;
-  assignee: string;
-  labels: string[];
-  created_at: string;
-  due_date: string;
-  epic?: string;
-  body?: any;
+  _path: string
+  title: string
+  description: string
+  status: 'todo' | 'in-progress' | 'done'
+  priority: string
+  assignee: string
+  labels: string[]
+  created_at: string
+  due_date: string
+  epic?: string
+  body?: any
 }
 
 const stats = [
-  { label: "Dancers", value: "2,455+" },
-  { label: "Cities", value: "102" },
-  { label: "Countries", value: "60" },
-];
+  { label: 'Dancers', value: '2,455+' },
+  { label: 'Cities', value: '102' },
+  { label: 'Countries', value: '60' },
+]
 
-const { data: issuesData } = await useAsyncData("issues", () =>
-  queryContent<Issue>("/issues").find()
-);
+const { data: issuesData } = await useAsyncData('issues', () =>
+  queryContent<Issue>('/issues').find()
+)
 
-const totalIssues = computed(() => issuesData.value?.length || 0);
+const totalIssues = computed(() => issuesData.value?.length || 0)
 const doneIssues = computed(
-  () => issuesData.value?.filter((i) => i.status === "done").length || 0
-);
+  () => issuesData.value?.filter((i) => i.status === 'done').length || 0
+)
 const inProgressIssues = computed(
-  () => issuesData.value?.filter((i) => i.status === "in-progress").length || 0
-);
+  () => issuesData.value?.filter((i) => i.status === 'in-progress').length || 0
+)
 
 const overallProgress = computed(() => {
-  if (!totalIssues.value) return 0;
+  if (!totalIssues.value) return 0
   return Math.round(
     ((doneIssues.value + inProgressIssues.value * 0.5) / totalIssues.value) *
       100
-  );
-});
+  )
+})
 
 const completedFeatures = computed(
   () =>
     issuesData.value
-      ?.filter((issue) => issue.status === "done")
+      ?.filter((issue) => issue.status === 'done')
       .map((issue) => ({
         name: issue.title,
         description: issue.description,
       })) || []
-);
+)
 
 const inProgressFeatures = computed(
   () =>
     issuesData.value
-      ?.filter((issue) => issue.status === "in-progress")
+      ?.filter((issue) => issue.status === 'in-progress')
       .map((issue) => ({
         name: issue.title,
         description: issue.description,
         progress: 50, // In-progress items are considered 50% complete
       })) || []
-);
+)
 
 const upcomingFeatures = computed(
   () =>
     issuesData.value
-      ?.filter((issue) => issue.status === "todo")
-      .sort((a, b) => (a.priority === "high" ? -1 : 1))
+      ?.filter((issue) => issue.status === 'todo')
+      .sort((a, b) => (a.priority === 'high' ? -1 : 1))
       .slice(0, 6)
       .map((issue) => ({
         name: issue.title,
         description: issue.description,
         progress: 0,
       })) || []
-);
+)
 </script>
 
 <template>

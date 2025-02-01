@@ -1,7 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "design",
-});
+  layout: 'design',
+})
 
 /* Safelist:
 bg-background bg-foreground text-background text-foreground
@@ -21,152 +21,152 @@ bg-gradient-base bg-gradient-1 bg-gradient-2 bg-gradient-3
 
 const colorGroups = [
   {
-    name: "Base",
+    name: 'Base',
     colors: [
       {
-        name: "background",
-        description: "Default page background",
+        name: 'background',
+        description: 'Default page background',
       },
       {
-        name: "foreground",
-        description: "Default text color",
+        name: 'foreground',
+        description: 'Default text color',
       },
     ],
   },
   {
-    name: "Components",
+    name: 'Components',
     colors: [
       {
-        name: "primary",
-        description: "Primary brand color for key elements",
+        name: 'primary',
+        description: 'Primary brand color for key elements',
       },
       {
-        name: "primary-foreground",
-        description: "Text color on primary background",
+        name: 'primary-foreground',
+        description: 'Text color on primary background',
       },
       {
-        name: "secondary",
-        description: "Secondary color for less prominent elements",
+        name: 'secondary',
+        description: 'Secondary color for less prominent elements',
       },
       {
-        name: "secondary-foreground",
-        description: "Text color on secondary background",
+        name: 'secondary-foreground',
+        description: 'Text color on secondary background',
       },
       {
-        name: "accent",
-        description: "Accent color for highlights and emphasis",
+        name: 'accent',
+        description: 'Accent color for highlights and emphasis',
       },
       {
-        name: "accent-foreground",
-        description: "Text color on accent background",
+        name: 'accent-foreground',
+        description: 'Text color on accent background',
       },
       {
-        name: "muted",
-        description: "Muted color for subtle backgrounds",
+        name: 'muted',
+        description: 'Muted color for subtle backgrounds',
       },
       {
-        name: "muted-foreground",
-        description: "Text color on muted background",
+        name: 'muted-foreground',
+        description: 'Text color on muted background',
       },
     ],
   },
   {
-    name: "Status",
+    name: 'Status',
     colors: [
       {
-        name: "destructive",
-        description: "Color for error states and destructive actions",
+        name: 'destructive',
+        description: 'Color for error states and destructive actions',
       },
       {
-        name: "destructive-foreground",
-        description: "Text color on destructive background",
+        name: 'destructive-foreground',
+        description: 'Text color on destructive background',
       },
       {
-        name: "success",
-        description: "Color for success states and confirmations",
+        name: 'success',
+        description: 'Color for success states and confirmations',
       },
       {
-        name: "success-foreground",
-        description: "Text color on success background",
+        name: 'success-foreground',
+        description: 'Text color on success background',
       },
       {
-        name: "warning",
-        description: "Color for warning states and alerts",
+        name: 'warning',
+        description: 'Color for warning states and alerts',
       },
       {
-        name: "warning-foreground",
-        description: "Text color on warning background",
+        name: 'warning-foreground',
+        description: 'Text color on warning background',
       },
       {
-        name: "info",
-        description: "Color for informational messages",
+        name: 'info',
+        description: 'Color for informational messages',
       },
       {
-        name: "info-foreground",
-        description: "Text color on info background",
+        name: 'info-foreground',
+        description: 'Text color on info background',
       },
     ],
   },
   {
-    name: "UI Elements",
+    name: 'UI Elements',
     colors: [
       {
-        name: "card",
-        description: "Background color for card components",
+        name: 'card',
+        description: 'Background color for card components',
       },
       {
-        name: "card-foreground",
-        description: "Text color on card background",
+        name: 'card-foreground',
+        description: 'Text color on card background',
       },
       {
-        name: "popover",
-        description: "Background color for popovers and dropdowns",
+        name: 'popover',
+        description: 'Background color for popovers and dropdowns',
       },
       {
-        name: "popover-foreground",
-        description: "Text color on popover background",
+        name: 'popover-foreground',
+        description: 'Text color on popover background',
       },
     ],
   },
   {
-    name: "Utility",
+    name: 'Utility',
     colors: [
       {
-        name: "border",
-        description: "Color for borders and dividers",
+        name: 'border',
+        description: 'Color for borders and dividers',
       },
       {
-        name: "input",
-        description: "Background color for input fields",
+        name: 'input',
+        description: 'Background color for input fields',
       },
       {
-        name: "ring",
-        description: "Color for focus rings and outlines",
+        name: 'ring',
+        description: 'Color for focus rings and outlines',
       },
     ],
   },
   {
-    name: "Gradients",
+    name: 'Gradients',
     colors: [
       {
-        name: "gradient-base",
-        description: "Base gradient color",
+        name: 'gradient-base',
+        description: 'Base gradient color',
       },
       {
-        name: "gradient-1",
-        description: "First accent gradient color",
+        name: 'gradient-1',
+        description: 'First accent gradient color',
       },
       {
-        name: "gradient-2",
-        description: "Second accent gradient color",
+        name: 'gradient-2',
+        description: 'Second accent gradient color',
       },
       {
-        name: "gradient-3",
-        description: "Third accent gradient color",
+        name: 'gradient-3',
+        description: 'Third accent gradient color',
       },
     ],
   },
-];
+]
 </script>
 
 <template>

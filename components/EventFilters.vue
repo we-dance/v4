@@ -6,31 +6,31 @@ const props = defineProps({
   },
   layout: {
     type: String,
-    default: "vertical", // or 'grid'
+    default: 'vertical', // or 'grid'
   },
-});
+})
 
 const emit = defineEmits([
-  "update:type",
-  "update:status",
-  "update:month",
-  "update:search",
-]);
+  'update:type',
+  'update:status',
+  'update:month',
+  'update:search',
+])
 
 const typeOptions = [
-  { value: "all", label: "All Types" },
-  { value: "party", label: "Parties" },
-  { value: "workshop", label: "Workshops" },
-  { value: "festival", label: "Festivals" },
-  { value: "concert", label: "Concerts" },
-  { value: "congress", label: "Congresses" },
-];
+  { value: 'all', label: 'All Types' },
+  { value: 'party', label: 'Parties' },
+  { value: 'workshop', label: 'Workshops' },
+  { value: 'festival', label: 'Festivals' },
+  { value: 'concert', label: 'Concerts' },
+  { value: 'congress', label: 'Congresses' },
+]
 
 const statusOptions = [
-  { value: "upcoming", label: "Upcoming" },
-  { value: "ongoing", label: "Happening Now" },
-  { value: "past", label: "Past Events" },
-];
+  { value: 'upcoming', label: 'Upcoming' },
+  { value: 'ongoing', label: 'Happening Now' },
+  { value: 'past', label: 'Past Events' },
+]
 </script>
 
 <template>

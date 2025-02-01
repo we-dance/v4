@@ -1,14 +1,14 @@
 <script setup lang="ts">
 const props = defineProps<{
   types: Array<{
-    id: string;
-    label: string;
-    icon: string;
-    description: string;
-  }>;
-}>();
+    id: string
+    label: string
+    icon: string
+    description: string
+  }>
+}>()
 
-const dialog = useDialog();
+const dialog = useDialog()
 </script>
 
 <template>

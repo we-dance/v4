@@ -11,29 +11,29 @@
     :features="[
       { icon: 'ph:check-circle', text: '5-minute setup' },
       { icon: 'ph:crown', text: 'Founding member benefits' },
-      { icon: 'ph:star', text: 'First month free' }
+      { icon: 'ph:star', text: 'First month free' },
     ]"
     :cards="[
       {
         icon: 'ph:ticket',
         title: 'Event Ticketing',
-        description: 'Sell tickets online with automated processing'
+        description: 'Sell tickets online with automated processing',
       },
       {
         icon: 'ph:users-three',
         title: 'Attendee Management',
-        description: 'Handle registrations and check-ins efficiently'
+        description: 'Handle registrations and check-ins efficiently',
       },
       {
         icon: 'ph:chart-line',
         title: 'Event Analytics',
-        description: 'Track sales, attendance, and engagement metrics'
+        description: 'Track sales, attendance, and engagement metrics',
       },
       {
         icon: 'ph:storefront',
         title: 'Marketing Tools',
-        description: 'Promote events and reach your target audience'
-      }
+        description: 'Promote events and reach your target audience',
+      },
     ]"
   />
 
@@ -47,10 +47,10 @@
         features: [
           'Create unlimited events',
           'Set your own prices',
-          'Global reach'
+          'Global reach',
         ],
         price: '€0.25',
-        unit: 'per ticket'
+        unit: 'per ticket',
       },
       {
         icon: 'ph:users-three',
@@ -58,22 +58,18 @@
         features: [
           'Book venues, teachers, DJs, and manage your resources',
           'Automatic contracts',
-          'Secure payments'
+          'Secure payments',
         ],
         price: '5%',
-        unit: 'per booking'
+        unit: 'per booking',
       },
       {
         icon: 'ph:megaphone',
         title: 'Community Referrals',
-        features: [
-          'Reward promoters',
-          'Grow attendance',
-          'Track referrals'
-        ],
+        features: ['Reward promoters', 'Grow attendance', 'Track referrals'],
         price: '10%',
-        unit: 'to promoters'
-      }
+        unit: 'to promoters',
+      },
     ]"
     footer="All fees include payment processing, hosting, and platform tools. Get paid directly to your bank account every week."
   />
@@ -85,33 +81,38 @@
       {
         icon: 'ph:ticket',
         title: 'Ticketing System',
-        description: 'Professional ticketing with QR codes, multiple ticket types, and easy refunds'
+        description:
+          'Professional ticketing with QR codes, multiple ticket types, and easy refunds',
       },
       {
         icon: 'ph:credit-card',
         title: 'Payment Processing',
-        description: 'Secure payments, automatic payouts, and financial reporting'
+        description:
+          'Secure payments, automatic payouts, and financial reporting',
       },
       {
         icon: 'ph:users-three',
         title: 'Attendee Portal',
-        description: 'Registration management, check-ins, and communication'
+        description: 'Registration management, check-ins, and communication',
       },
       {
         icon: 'ph:calendar',
         title: 'Event Planning',
-        description: 'Schedule management, artist booking, and venue coordination'
+        description:
+          'Schedule management, artist booking, and venue coordination',
       },
       {
         icon: 'ph:chart-line',
         title: 'Analytics Dashboard',
-        description: 'Sales tracking, attendance metrics, and performance insights'
+        description:
+          'Sales tracking, attendance metrics, and performance insights',
       },
       {
         icon: 'ph:storefront',
         title: 'Marketing Suite',
-        description: 'Promotion tools, email campaigns, and social media integration'
-      }
+        description:
+          'Promotion tools, email campaigns, and social media integration',
+      },
     ]"
   />
 
@@ -122,21 +123,24 @@
       {
         title: 'For Social Events',
         subtitle: 'Weekly Parties',
-        quote: 'The platform makes it so easy to manage our weekly socials. The ticketing system is smooth, and the analytics help us understand our audience better.',
-        highlight: '🎟️ Effortless ticketing'
+        quote:
+          'The platform makes it so easy to manage our weekly socials. The ticketing system is smooth, and the analytics help us understand our audience better.',
+        highlight: '🎟️ Effortless ticketing',
       },
       {
         title: 'For Workshops',
         subtitle: 'Dance Classes',
-        quote: 'Managing workshop registrations has never been easier. The communication tools help us stay connected with our students.',
-        highlight: '👥 Simple registration'
+        quote:
+          'Managing workshop registrations has never been easier. The communication tools help us stay connected with our students.',
+        highlight: '👥 Simple registration',
       },
       {
         title: 'For Festivals',
         subtitle: 'Multi-day Events',
-        quote: 'Finally, a platform that understands the complexity of running dance festivals. The artist management and scheduling tools are game-changers.',
-        highlight: '🎭 Complete event solution'
-      }
+        quote:
+          'Finally, a platform that understands the complexity of running dance festivals. The artist management and scheduling tools are game-changers.',
+        highlight: '🎭 Complete event solution',
+      },
     ]"
   />
 
@@ -148,20 +152,20 @@
         icon: 'ph:ticket',
         title: 'vs TicketTailor',
         description: 'Dance-focused features vs generic ticketing platform',
-        link: '/vs/tickettailor'
+        link: '/vs/tickettailor',
       },
       {
         icon: 'ph:whatsapp-logo',
         title: 'vs WhatsApp',
         description: 'Professional event tools vs chat groups',
-        link: '/vs/whatsapp'
+        link: '/vs/whatsapp',
       },
       {
         icon: 'ph:calendar',
         title: 'vs Fitogram',
         description: 'Dance-specific scheduling vs general booking system',
-        link: '/vs/fitogram'
-      }
+        link: '/vs/fitogram',
+      },
     ]"
   />
 

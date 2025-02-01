@@ -145,62 +145,62 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import { mockCourses } from "~/data/mockCourses";
+import { ref, computed } from 'vue'
+import { mockCourses } from '~/data/mockCourses'
 
-const search = ref("");
-const showFilters = ref(false);
+const search = ref('')
+const showFilters = ref(false)
 const filters = ref({
-  level: "",
-  style: "",
-  priceRange: "",
-  rating: "",
-});
+  level: '',
+  style: '',
+  priceRange: '',
+  rating: '',
+})
 
 const resetFilters = () => {
   filters.value = {
-    level: "",
-    style: "",
-    priceRange: "",
-    rating: "",
-  };
-};
+    level: '',
+    style: '',
+    priceRange: '',
+    rating: '',
+  }
+}
 
 const activeFiltersCount = computed(() => {
-  return Object.values(filters.value).filter(Boolean).length;
-});
+  return Object.values(filters.value).filter(Boolean).length
+})
 
 const filteredCourses = computed(() => {
-  let result = [...mockCourses];
+  let result = [...mockCourses]
 
   // Apply search
   if (search.value) {
-    const searchLower = search.value.toLowerCase();
+    const searchLower = search.value.toLowerCase()
     result = result.filter(
       (course) =>
         course.title.toLowerCase().includes(searchLower) ||
         course.description.toLowerCase().includes(searchLower) ||
         course.instructor.name.toLowerCase().includes(searchLower)
-    );
+    )
   }
 
   // Apply filters
   if (filters.value.rating) {
-    const minRating = parseFloat(filters.value.rating);
-    result = result.filter((course) => course.stats.avgRating >= minRating);
+    const minRating = parseFloat(filters.value.rating)
+    result = result.filter((course) => course.stats.avgRating >= minRating)
   }
 
   if (filters.value.priceRange) {
-    const [min, max] = filters.value.priceRange.split("-").map(Number);
+    const [min, max] = filters.value.priceRange.split('-').map(Number)
     result = result.filter((course) => {
-      const price = course.pricing.regular.monthly.amount;
+      const price = course.pricing.regular.monthly.amount
       if (max) {
-        return price >= min && price <= max;
+        return price >= min && price <= max
       }
-      return price >= min;
-    });
+      return price >= min
+    })
   }
 
-  return result;
-});
+  return result
+})
 </script>

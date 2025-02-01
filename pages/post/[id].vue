@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import type { Post } from "~/schemas/post";
-import { mockPosts } from "~/data/mockPosts";
+import type { Post } from '~/schemas/post'
+import { mockPosts } from '~/data/mockPosts'
 
-const route = useRoute();
-const router = useRouter();
-const id = parseInt(route.params.id as string);
+const route = useRoute()
+const router = useRouter()
+const id = parseInt(route.params.id as string)
 
-const post = computed(() => mockPosts.find((p) => p.id === id) as Post);
+const post = computed(() => mockPosts.find((p) => p.id === id) as Post)
 
 const goBack = () => {
   if (window.history.length > 2) {
-    router.back();
+    router.back()
   } else {
     // If opened directly (e.g. from bookmarks), go to feed
-    router.push("/feed");
+    router.push('/feed')
   }
-};
+}
 </script>
 
 <template>

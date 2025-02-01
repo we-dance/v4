@@ -140,13 +140,13 @@ Here's how I would enhance the simpler version:
 ```vue
 <script setup>
 const tabs = [
-  { id: "feed", label: "Community" },
-  { id: "events", label: "Events" },
-  { id: "learn", label: "Learn" },
-  { id: "about", label: "About" },
-];
+  { id: 'feed', label: 'Community' },
+  { id: 'events', label: 'Events' },
+  { id: 'learn', label: 'Learn' },
+  { id: 'about', label: 'About' },
+]
 
-const selectedTab = ref("feed");
+const selectedTab = ref('feed')
 </script>
 
 <template>
@@ -365,16 +365,16 @@ Salsa:
 
 ```yaml
 New Visitor:
-  Primary: "Find Local Classes"
-  Secondary: "Explore Styles"
+  Primary: 'Find Local Classes'
+  Secondary: 'Explore Styles'
 
 Style Page Visitor:
-  Primary: "Join Community"
-  Secondary: "Find Events"
+  Primary: 'Join Community'
+  Secondary: 'Find Events'
 
 Community Member:
-  Primary: "Share Event"
-  Secondary: "Find Partner"
+  Primary: 'Share Event'
+  Secondary: 'Find Partner'
 ```
 
 ### Content Organization
@@ -798,14 +798,14 @@ Cuban Salsa Community:
 
 ```yaml
 Regular Casino:
-  Primary CTA: "Join Community"
+  Primary CTA: 'Join Community'
   Activities:
     - Social dancing
     - Partner practice
     - Workshops
 
 Rueda Groups:
-  Primary CTA: "Find Group"
+  Primary CTA: 'Find Group'
   Activities:
     - Group practice
     - Call training
@@ -1174,30 +1174,30 @@ This is a crucial UX question that touches on a common challenge in dance commun
 
 ```yaml
 LA Style (On1):
-  Primary Name: "LA Style Salsa"
+  Primary Name: 'LA Style Salsa'
   Common Names:
-    - "Salsa On1"
-    - "Linear Salsa"
+    - 'Salsa On1'
+    - 'Linear Salsa'
   Tags:
     - on1
     - linear
     - los_angeles
 
 NY Style (On2):
-  Primary Name: "NY Style Salsa"
+  Primary Name: 'NY Style Salsa'
   Common Names:
-    - "Salsa On2"
-    - "Mambo"
+    - 'Salsa On2'
+    - 'Mambo'
   Tags:
     - on2
     - mambo
     - new_york
 
 Cuban Style:
-  Primary Name: "Cuban Style Salsa"
+  Primary Name: 'Cuban Style Salsa'
   Common Names:
-    - "Casino"
-    - "Cuban Salsa"
+    - 'Casino'
+    - 'Cuban Salsa'
   Tags:
     - casino
     - cuban
@@ -1216,9 +1216,9 @@ Cuban Style:
 
 ```yaml
 If local scene calls it:
-  "On1": Show as "LA Style (On1)"
-  "Linear": Show as "Linear Salsa (LA Style)"
-  "Urban": Show as "Urban Salsa (LA Style)"
+  'On1': Show as "LA Style (On1)"
+  'Linear': Show as "Linear Salsa (LA Style)"
+  'Urban': Show as "Urban Salsa (LA Style)"
 ```
 
 3. **Community Organization**

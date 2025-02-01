@@ -8,17 +8,17 @@ defineProps({
   },
   secondary: {
     type: String,
-    default: "Compare Platforms",
+    default: 'Compare Platforms',
   },
   secondaryLink: {
     type: String,
-    default: "/vs",
+    default: '/vs',
   },
   time: {
     type: String,
-    default: "5",
+    default: '5',
   },
-});
+})
 </script>
 
 <template>

@@ -1,35 +1,35 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "design",
-});
+  layout: 'design',
+})
 
 const fontSizes = [
-  { name: "text-xs", size: "0.75rem", example: "Extra small text" },
-  { name: "text-sm", size: "0.875rem", example: "Small text" },
-  { name: "text-base", size: "1rem", example: "Base text size" },
-  { name: "text-lg", size: "1.125rem", example: "Large text" },
-  { name: "text-xl", size: "1.25rem", example: "Extra large text" },
-  { name: "text-2xl", size: "1.5rem", example: "Heading level 2" },
-  { name: "text-3xl", size: "1.875rem", example: "Heading level 1" },
-  { name: "text-4xl", size: "2.25rem", example: "Display text" },
-];
+  { name: 'text-xs', size: '0.75rem', example: 'Extra small text' },
+  { name: 'text-sm', size: '0.875rem', example: 'Small text' },
+  { name: 'text-base', size: '1rem', example: 'Base text size' },
+  { name: 'text-lg', size: '1.125rem', example: 'Large text' },
+  { name: 'text-xl', size: '1.25rem', example: 'Extra large text' },
+  { name: 'text-2xl', size: '1.5rem', example: 'Heading level 2' },
+  { name: 'text-3xl', size: '1.875rem', example: 'Heading level 1' },
+  { name: 'text-4xl', size: '2.25rem', example: 'Display text' },
+]
 
 const fontWeights = [
-  { name: "font-light", weight: "300", example: "Light weight" },
-  { name: "font-normal", weight: "400", example: "Normal weight" },
-  { name: "font-medium", weight: "500", example: "Medium weight" },
-  { name: "font-semibold", weight: "600", example: "Semibold weight" },
-  { name: "font-bold", weight: "700", example: "Bold weight" },
-];
+  { name: 'font-light', weight: '300', example: 'Light weight' },
+  { name: 'font-normal', weight: '400', example: 'Normal weight' },
+  { name: 'font-medium', weight: '500', example: 'Medium weight' },
+  { name: 'font-semibold', weight: '600', example: 'Semibold weight' },
+  { name: 'font-bold', weight: '700', example: 'Bold weight' },
+]
 
 const lineHeights = [
-  { name: "leading-none", height: "1", example: "No line height" },
-  { name: "leading-tight", height: "1.25", example: "Tight line height" },
-  { name: "leading-snug", height: "1.375", example: "Snug line height" },
-  { name: "leading-normal", height: "1.5", example: "Normal line height" },
-  { name: "leading-relaxed", height: "1.625", example: "Relaxed line height" },
-  { name: "leading-loose", height: "2", example: "Loose line height" },
-];
+  { name: 'leading-none', height: '1', example: 'No line height' },
+  { name: 'leading-tight', height: '1.25', example: 'Tight line height' },
+  { name: 'leading-snug', height: '1.375', example: 'Snug line height' },
+  { name: 'leading-normal', height: '1.5', example: 'Normal line height' },
+  { name: 'leading-relaxed', height: '1.625', example: 'Relaxed line height' },
+  { name: 'leading-loose', height: '2', example: 'Loose line height' },
+]
 </script>
 
 <template>

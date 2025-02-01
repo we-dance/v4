@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import type { EventContent } from "~/schemas/post";
-import type { AnyEvent } from "~/schemas/event";
+import type { EventContent } from '~/schemas/post'
+import type { AnyEvent } from '~/schemas/event'
 
 const props = defineProps<{
-  content: EventContent;
-}>();
+  content: EventContent
+}>()
 
 // Transform PostEvent content into AnyEvent format
 const eventData = computed<AnyEvent>(() => ({
   id: crypto.randomUUID(),
-  type: "party",
-  status: "upcoming", // You might want to compute this based on date
+  type: 'party',
+  status: 'upcoming', // You might want to compute this based on date
   name: props.content.title,
   description: props.content.description,
   image: props.content.image,
@@ -20,20 +20,20 @@ const eventData = computed<AnyEvent>(() => ({
   },
   location: {
     name: props.content.location,
-    city: "", // Add if available in your content
-    country: "", // Required by schema
+    city: '', // Add if available in your content
+    country: '', // Required by schema
   },
   price: props.content.price,
   tags: props.content.tags || [],
   artists: [], // Required by schema
   organizer: {
-    id: "", // Required by schema
-    name: "Unknown Organizer",
-    image: "",
+    id: '', // Required by schema
+    name: 'Unknown Organizer',
+    image: '',
     points: 0,
   },
   schedule: [], // Required by schema
-}));
+}))
 </script>
 
 <template>

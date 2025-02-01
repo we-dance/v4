@@ -1,74 +1,74 @@
 <script setup lang="ts">
-import { getDanceStyles, type DanceStyle } from "@/data/mockStyles";
+import { getDanceStyles, type DanceStyle } from '@/data/mockStyles'
 
-const route = useRoute();
-const router = useRouter();
+const route = useRoute()
+const router = useRouter()
 
-const preselectedType = ref((route.query.type as string) || "");
-const selectedCommunities = ref<string[]>([]);
-const searchQuery = ref("");
-const showAll = ref(false);
+const preselectedType = ref((route.query.type as string) || '')
+const selectedCommunities = ref<string[]>([])
+const searchQuery = ref('')
+const showAll = ref(false)
 
 interface DanceStyleItem {
-  id: string;
-  label: string;
-  icon: string;
+  id: string
+  label: string
+  icon: string
 }
 
 interface CategoryGroup {
-  category: string;
-  styles: DanceStyleItem[];
+  category: string
+  styles: DanceStyleItem[]
 }
 
-const allStyles = getDanceStyles();
+const allStyles = getDanceStyles()
 
 // Get popular dance styles based on member count (top 5)
 const popularDanceIds = computed(() =>
   allStyles
     .sort((a, b) => b.members - a.members)
     .slice(0, 6)
-    .map((style) => style.to.split("/").pop() || "")
-);
+    .map((style) => style.to.split('/').pop() || '')
+)
 
 // Group styles by category
 const danceStyles = computed<CategoryGroup[]>(() => {
-  const groups: Record<string, DanceStyleItem[]> = {};
-  const popularStyles: DanceStyleItem[] = [];
+  const groups: Record<string, DanceStyleItem[]> = {}
+  const popularStyles: DanceStyleItem[] = []
 
   allStyles.forEach((style) => {
-    const id = style.to.split("/").pop() || "";
+    const id = style.to.split('/').pop() || ''
     const styleItem = {
       id,
       label: style.name,
-      icon: "ph:music-notes",
-    };
+      icon: 'ph:music-notes',
+    }
 
     // Add to popular category if it's a popular dance
     if (popularDanceIds.value.includes(id)) {
-      popularStyles.push(styleItem);
+      popularStyles.push(styleItem)
     }
 
     // Add to regular category if showing all or if searching
     if (showAll.value || searchQuery.value) {
       if (!groups[style.category]) {
-        groups[style.category] = [];
+        groups[style.category] = []
       }
-      groups[style.category].push(styleItem);
+      groups[style.category].push(styleItem)
     }
-  });
+  })
 
-  const result: CategoryGroup[] = [];
+  const result: CategoryGroup[] = []
 
   // Add popular category first if there are popular styles
   if (popularStyles.length > 0) {
     result.push({
-      category: "Popular",
+      category: 'Popular',
       styles: popularStyles.sort((a, b) => {
-        const aStyle = allStyles.find((s) => s.to.includes(a.id));
-        const bStyle = allStyles.find((s) => s.to.includes(b.id));
-        return (bStyle?.members || 0) - (aStyle?.members || 0);
+        const aStyle = allStyles.find((s) => s.to.includes(a.id))
+        const bStyle = allStyles.find((s) => s.to.includes(b.id))
+        return (bStyle?.members || 0) - (aStyle?.members || 0)
       }),
-    });
+    })
   }
 
   // Add other categories
@@ -79,17 +79,17 @@ const danceStyles = computed<CategoryGroup[]>(() => {
         category,
         // Show all styles in their categories, regardless of popularity
         styles,
-      });
+      })
     }
-  });
+  })
 
   // Filter out categories that became empty after filtering
-  return result.filter((group) => group.styles.length > 0);
-});
+  return result.filter((group) => group.styles.length > 0)
+})
 
 // Remove filteredStyles computed property as we handle search in danceStyles
 const filteredStyles = computed<CategoryGroup[]>(() => {
-  if (!searchQuery.value) return danceStyles.value;
+  if (!searchQuery.value) return danceStyles.value
 
   return danceStyles.value
     .map((category) => ({
@@ -98,34 +98,34 @@ const filteredStyles = computed<CategoryGroup[]>(() => {
         style.label.toLowerCase().includes(searchQuery.value.toLowerCase())
       ),
     }))
-    .filter((category) => category.styles.length > 0);
-});
+    .filter((category) => category.styles.length > 0)
+})
 
 // Preselect communities based on user type or query
 onMounted(() => {
   if (preselectedType.value) {
-    selectedCommunities.value = [preselectedType.value];
+    selectedCommunities.value = [preselectedType.value]
   }
-});
+})
 
 const toggleCommunity = (id: string) => {
-  const index = selectedCommunities.value.indexOf(id);
+  const index = selectedCommunities.value.indexOf(id)
   if (index === -1) {
-    selectedCommunities.value.push(id);
+    selectedCommunities.value.push(id)
   } else {
-    selectedCommunities.value.splice(index, 1);
+    selectedCommunities.value.splice(index, 1)
   }
-};
+}
 
 const handleSubmit = () => {
   // TODO: Handle community selection submission
-  console.log("Selected communities:", selectedCommunities.value);
-  router.push("/register/success");
-};
+  console.log('Selected communities:', selectedCommunities.value)
+  router.push('/register/success')
+}
 
 const removeStyle = (id: string) => {
-  selectedCommunities.value = selectedCommunities.value.filter((s) => s !== id);
-};
+  selectedCommunities.value = selectedCommunities.value.filter((s) => s !== id)
+}
 </script>
 
 <template>
@@ -163,7 +163,7 @@ const removeStyle = (id: string) => {
               variant="secondary"
               @click="showAll = !showAll"
             >
-              {{ showAll ? "Show Popular" : "Show All" }}
+              {{ showAll ? 'Show Popular' : 'Show All' }}
             </Button>
           </div>
 
@@ -243,7 +243,7 @@ const removeStyle = (id: string) => {
                 selectedCommunities.length === 0 ? 'outline' : 'default'
               "
             >
-              {{ selectedCommunities.length === 0 ? "Skip" : "Continue" }}
+              {{ selectedCommunities.length === 0 ? 'Skip' : 'Continue' }}
             </Button>
             <p class="text-sm text-muted-foreground">
               You can always update your preferences later in your profile

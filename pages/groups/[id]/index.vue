@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import EmptyState from "~/components/common/EmptyState.vue";
+import EmptyState from '~/components/common/EmptyState.vue'
 
-const { group, groupId } = useGroup();
+const { group, groupId } = useGroup()
 </script>

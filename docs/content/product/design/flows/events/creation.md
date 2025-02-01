@@ -8,6 +8,7 @@ This document describes the user flows for creating and publishing events.
 **Goal**: Share existing events quickly
 
 1. **Entry Points**
+
    - Share button on event card
    - Share button on event page
    - "Share Event" action in feed
@@ -24,17 +25,20 @@ This document describes the user flows for creating and publishing events.
 **Goal**: Create new event with complete details
 
 1. **Entry Points**
+
    - "Create Event" in navigation
    - "New Event" in dashboard
    - Quick action button in feed
 
 2. **Essential Information**
+
    - Event title
    - Date and time
    - Location
    - Event type selection
 
 3. **Additional Details**
+
    - Description
    - Pricing
    - Images
@@ -43,6 +47,7 @@ This document describes the user flows for creating and publishing events.
    - Policies
 
 4. **Review & Publish**
+
    - Preview presentation
    - Choose publishing options:
      - Publish now
@@ -57,11 +62,13 @@ This document describes the user flows for creating and publishing events.
 ## Publishing Options
 
 1. **Immediate Publishing**
+
    - Event appears in listings
    - Social post created
    - Notifications sent to followers
 
 2. **Quiet Publishing**
+
    - Event only in listings
    - No social post
    - No notifications
@@ -74,11 +81,13 @@ This document describes the user flows for creating and publishing events.
 ## Best Practices
 
 1. **Timing**
+
    - Major events: 2-3 months ahead
    - Regular events: 2-4 weeks ahead
    - Last-minute events: Mark as such
 
 2. **Quality Checklist**
+
    - Complete all recommended fields
    - Add high-quality images
    - Verify venue information
@@ -87,4 +96,4 @@ This document describes the user flows for creating and publishing events.
 3. **Engagement Setup**
    - Enable comments
    - Set up notifications
-   - Prepare response templates 
+   - Prepare response templates

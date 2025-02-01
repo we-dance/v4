@@ -1,53 +1,53 @@
 <script setup lang="ts">
-import type { Post } from "~/schemas/post";
-import { defineAsyncComponent, markRaw, type Component } from "vue";
-import type { DefineComponent } from "vue";
-import PostSkeleton from "../common/PostSkeleton.vue";
-import ErrorBoundary from "../common/ErrorBoundary.vue";
+import type { Post } from '~/schemas/post'
+import { defineAsyncComponent, markRaw, type Component } from 'vue'
+import type { DefineComponent } from 'vue'
+import PostSkeleton from '../common/PostSkeleton.vue'
+import ErrorBoundary from '../common/ErrorBoundary.vue'
 
-const NuxtLink = resolveComponent("NuxtLink");
+const NuxtLink = resolveComponent('NuxtLink')
 
 interface Props {
   /** The post data including author, content, and stats */
-  post: Post;
+  post: Post
   /** Whether the post is displayed standalone or in a list */
-  standalone?: boolean;
+  standalone?: boolean
 }
 
-const props = defineProps<Props>();
+const props = defineProps<Props>()
 
-const { components, getComponentName } = usePostComponent();
-const route = useRoute();
+const { components, getComponentName } = usePostComponent()
+const route = useRoute()
 
-const getAsyncComponent = (type: Post["type"]) => {
-  const componentName = getComponentName(type);
-  const component = components[componentName];
+const getAsyncComponent = (type: Post['type']) => {
+  const componentName = getComponentName(type)
+  const component = components[componentName]
 
   return defineAsyncComponent({
     loader: async () => {
-      const comp = await component();
-      return markRaw(comp);
+      const comp = await component()
+      return markRaw(comp)
     },
     loadingComponent: PostSkeleton,
     errorComponent: ErrorBoundary,
-  });
-};
+  })
+}
 
-const isModalOpen = ref(false);
+const isModalOpen = ref(false)
 
 function openModal(event: MouseEvent) {
   if (event.metaKey || event.ctrlKey) {
-    return;
+    return
   }
 
-  event.preventDefault();
-  isModalOpen.value = true;
-  history.pushState({}, "", `/post/${props.post.id}`);
+  event.preventDefault()
+  isModalOpen.value = true
+  history.pushState({}, '', `/post/${props.post.id}`)
 }
 
 function closeModal() {
-  isModalOpen.value = false;
-  history.back();
+  isModalOpen.value = false
+  history.back()
 }
 </script>
 

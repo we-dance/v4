@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { AskLocalsContent } from "~/schemas/post";
+import type { AskLocalsContent } from '~/schemas/post'
 
 defineProps<{
-  content: AskLocalsContent;
-}>();
+  content: AskLocalsContent
+}>()
 </script>
 
 <template>

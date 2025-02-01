@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { PostAuthor, PostType } from "~/schemas/post";
-import { POST_TYPE_ICONS } from "~/constants/post";
-import UserPoints from "~/components/common/UserPoints.vue";
+import type { PostAuthor, PostType } from '~/schemas/post'
+import { POST_TYPE_ICONS } from '~/constants/post'
+import UserPoints from '~/components/common/UserPoints.vue'
 
 defineProps<{
-  author: PostAuthor;
-  timestamp: string;
-  type: PostType;
-}>();
+  author: PostAuthor
+  timestamp: string
+  type: PostType
+}>()
 </script>
 
 <template>
@@ -43,7 +43,7 @@ defineProps<{
           class="w-4 h-4 text-primary"
         />
         <span class="text-sm text-primary capitalize">{{
-          type.replace("_", " ")
+          type.replace('_', ' ')
         }}</span>
       </div>
       <Button variant="ghost" size="icon">

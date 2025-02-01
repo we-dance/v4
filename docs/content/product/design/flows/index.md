@@ -21,4 +21,4 @@ This section documents the key user flows and use cases in the WeDance platform.
 
 - [Post Creation](/flows/posts/creation) - How users create and share content
 - [Feed Interaction](/flows/posts/feed) - How users interact with the feed
-- [Content Discovery](/flows/posts/discovery) - How users find relevant content 
+- [Content Discovery](/flows/posts/discovery) - How users find relevant content

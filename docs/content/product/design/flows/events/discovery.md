@@ -8,7 +8,9 @@ This document describes how users discover and interact with events across diffe
 **Goal**: Discover events through social context
 
 ### Main Feed
+
 1. **Content Mix**
+
    - Events from followed organizers
    - Events shared by friends
    - Promoted events
@@ -21,7 +23,9 @@ This document describes how users discover and interact with events across diffe
    - Join discussion
 
 ### Style-Specific Feeds
+
 1. **Entry Points**
+
    - Style community pages (e.g., /salsa)
    - Style navigation
    - Quick filters
@@ -33,7 +37,9 @@ This document describes how users discover and interact with events across diffe
    - Community discussions
 
 ### Local Feeds
+
 1. **Entry Points**
+
    - City pages
    - Location-based navigation
    - Map view
@@ -50,7 +56,9 @@ This document describes how users discover and interact with events across diffe
 **Goal**: Find specific events or browse options
 
 ### Search & Filter
+
 1. **Search Options**
+
    - By date range
    - By location
    - By dance style
@@ -64,7 +72,9 @@ This document describes how users discover and interact with events across diffe
    - Multiple styles
 
 ### Map View
+
 1. **Entry Points**
+
    - Map tab in events
    - Location search
    - Venue pages
@@ -78,13 +88,16 @@ This document describes how users discover and interact with events across diffe
 ## Contextual Discovery
 
 ### From Profiles
+
 1. **Venue Profiles**
+
    - Regular schedule
    - Upcoming events
    - Past events
    - Filtered by style
 
 2. **Artist Profiles**
+
    - Teaching schedule
    - Performances
    - Workshops
@@ -97,7 +110,9 @@ This document describes how users discover and interact with events across diffe
    - Organization patterns
 
 ### From Related Events
+
 1. **Similar Events**
+
    - Same style
    - Same venue
    - Same organizer
@@ -112,7 +127,9 @@ This document describes how users discover and interact with events across diffe
 ## Best Practices
 
 ### For Users
+
 1. **Search Efficiency**
+
    - Save frequent searches
    - Follow favorite organizers
    - Set location preferences
@@ -125,7 +142,9 @@ This document describes how users discover and interact with events across diffe
    - Share with dance partners
 
 ### For Organizers
+
 1. **Visibility**
+
    - Complete all fields
    - Add quality images
    - Tag appropriately
@@ -135,4 +154,4 @@ This document describes how users discover and interact with events across diffe
    - Post in advance
    - Use early bird pricing
    - Schedule reminders
-   - Update regularly 
+   - Update regularly

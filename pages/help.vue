@@ -1,49 +1,49 @@
 <script setup lang="ts">
 const faqs = [
   {
-    category: "Getting Started",
+    category: 'Getting Started',
     questions: [
       {
-        q: "How do I create an account?",
+        q: 'How do I create an account?',
         a: 'Click the "Sign Up" button in the top right corner and follow the registration process. You\'ll need to provide your email address and create a password.',
       },
       {
-        q: "How do I find dance events?",
-        a: "Use our event search feature to find events near you. You can filter by dance style, date, and location.",
+        q: 'How do I find dance events?',
+        a: 'Use our event search feature to find events near you. You can filter by dance style, date, and location.',
       },
       {
-        q: "How do I connect with other dancers?",
-        a: "You can browse dancer profiles, join communities, and interact with posts. Make sure to complete your profile to attract potential dance partners.",
+        q: 'How do I connect with other dancers?',
+        a: 'You can browse dancer profiles, join communities, and interact with posts. Make sure to complete your profile to attract potential dance partners.',
       },
     ],
   },
   {
-    category: "Account Settings",
+    category: 'Account Settings',
     questions: [
       {
-        q: "How do I update my profile?",
-        a: "Go to your profile settings to update your information, including your dance styles, experience level, and preferences.",
+        q: 'How do I update my profile?',
+        a: 'Go to your profile settings to update your information, including your dance styles, experience level, and preferences.',
       },
       {
-        q: "How do I change my password?",
+        q: 'How do I change my password?',
         a: "Visit your account settings to change your password. You'll need to enter your current password first.",
       },
     ],
   },
   {
-    category: "Safety & Privacy",
+    category: 'Safety & Privacy',
     questions: [
       {
-        q: "How do I report inappropriate behavior?",
-        a: "Use the report button on any content or profile, or contact our support team directly through the contact form.",
+        q: 'How do I report inappropriate behavior?',
+        a: 'Use the report button on any content or profile, or contact our support team directly through the contact form.',
       },
       {
-        q: "How is my data protected?",
-        a: "We take data protection seriously. Read our Privacy Policy to learn about how we protect your information.",
+        q: 'How is my data protected?',
+        a: 'We take data protection seriously. Read our Privacy Policy to learn about how we protect your information.',
       },
     ],
   },
-];
+]
 </script>
 
 <template>

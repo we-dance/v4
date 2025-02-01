@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import EmptyState from "~/components/common/EmptyState.vue";
+import EmptyState from '~/components/common/EmptyState.vue'
 
-const { artist, artistId } = useArtist();
+const { artist, artistId } = useArtist()
 </script>
 
 <template>

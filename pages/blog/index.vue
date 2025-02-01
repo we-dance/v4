@@ -1,13 +1,13 @@
 <script setup lang="ts">
 const posts = ref([
   {
-    title: "Welcome to WeDance",
-    date: "2024-03-20",
-    excerpt: "Discover how WeDance is transforming the dance community...",
-    slug: "welcome-to-wedance",
+    title: 'Welcome to WeDance',
+    date: '2024-03-20',
+    excerpt: 'Discover how WeDance is transforming the dance community...',
+    slug: 'welcome-to-wedance',
   },
   // More posts will be added dynamically
-]);
+])
 </script>
 
 <template>

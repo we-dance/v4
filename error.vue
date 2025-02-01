@@ -1,13 +1,13 @@
 <script setup lang="ts">
 defineProps({
   error: Object,
-});
+})
 
-const router = useRouter();
+const router = useRouter()
 
 const handleGoHome = () => {
-  router.push("/");
-};
+  router.push('/')
+}
 </script>
 
 <template>
@@ -21,7 +21,7 @@ const handleGoHome = () => {
       </div>
 
       <h1 class="text-4xl font-bold text-foreground mb-4">
-        {{ error?.statusCode === 404 ? "Lost Your Dance Partner?" : "Oops!" }}
+        {{ error?.statusCode === 404 ? 'Lost Your Dance Partner?' : 'Oops!' }}
       </h1>
 
       <p class="text-lg text-muted-foreground mb-8">

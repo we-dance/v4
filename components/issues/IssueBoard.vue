@@ -1,96 +1,96 @@
 <script setup lang="ts">
 interface Epic {
-  _path: string;
-  title: string;
-  description: string;
-  status: string;
-  priority: string;
-  assignee: string;
-  labels: string[];
-  created_at: string;
-  due_date: string;
+  _path: string
+  title: string
+  description: string
+  status: string
+  priority: string
+  assignee: string
+  labels: string[]
+  created_at: string
+  due_date: string
   body: {
-    driver?: string;
-    "user-stories"?: string[];
-    "success-metrics"?: string[];
-    "related-issues"?: string[];
-  };
+    driver?: string
+    'user-stories'?: string[]
+    'success-metrics'?: string[]
+    'related-issues'?: string[]
+  }
 }
 
 interface Issue {
-  _path: string;
-  title: string;
-  description: string;
-  status: "todo" | "in-progress" | "done";
-  priority: string;
-  assignee: string;
-  labels: string[];
-  created_at: string;
-  due_date: string;
-  epic?: string;
-  body?: any;
+  _path: string
+  title: string
+  description: string
+  status: 'todo' | 'in-progress' | 'done'
+  priority: string
+  assignee: string
+  labels: string[]
+  created_at: string
+  due_date: string
+  epic?: string
+  body?: any
 }
 
-const { data: issuesData } = await useAsyncData("issues", () =>
-  queryContent<Issue>("/issues").find()
-);
+const { data: issuesData } = await useAsyncData('issues', () =>
+  queryContent<Issue>('/issues').find()
+)
 
-const { data: epicsData } = await useAsyncData("epics", () =>
-  queryContent<Epic>("/epics").find()
-);
+const { data: epicsData } = await useAsyncData('epics', () =>
+  queryContent<Epic>('/epics').find()
+)
 
-const selectedEpic = ref<string | null>(null);
+const selectedEpic = ref<string | null>(null)
 
 const epicMap = computed(() => {
-  if (!epicsData.value) return new Map();
+  if (!epicsData.value) return new Map()
 
-  const map = new Map();
+  const map = new Map()
   epicsData.value.forEach((epic) => {
-    const epicId = epic._path.split("/").pop()?.replace(".md", "");
+    const epicId = epic._path.split('/').pop()?.replace('.md', '')
     if (epicId) {
       map.set(epicId, {
         title: epic.title,
         description: epic.description,
         body: epic.body,
-      });
+      })
     }
-  });
-  return map;
-});
+  })
+  return map
+})
 
 const getEpicTitle = (epicId: string) => {
-  return epicMap.value.get(epicId)?.title || epicId;
-};
+  return epicMap.value.get(epicId)?.title || epicId
+}
 
 const getEpicInfo = (epicId: string) => {
-  const epic = epicMap.value.get(epicId);
-  console.log(epic);
-  return epic;
-};
+  const epic = epicMap.value.get(epicId)
+  console.log(epic)
+  return epic
+}
 
 const issues = computed(() => {
-  if (!issuesData.value) return [];
+  if (!issuesData.value) return []
 
-  let filteredIssues = issuesData.value.filter((issue) => issue.status);
+  let filteredIssues = issuesData.value.filter((issue) => issue.status)
 
   if (selectedEpic.value) {
     filteredIssues = filteredIssues.filter(
       (issue) => issue.epic === selectedEpic.value
-    );
+    )
   }
 
   // Take only the first occurrence of each _path to avoid duplicates
-  const uniqueIssues = new Map();
+  const uniqueIssues = new Map()
   filteredIssues.forEach((issue) => {
     if (!uniqueIssues.has(issue._path)) {
-      uniqueIssues.set(issue._path, issue);
+      uniqueIssues.set(issue._path, issue)
     }
-  });
-  return Array.from(uniqueIssues.values());
-});
+  })
+  return Array.from(uniqueIssues.values())
+})
 
 const epics = computed(() => {
-  if (!epicsData.value) return [];
+  if (!epicsData.value) return []
 
   // Get all unique epic IDs from issues
   const epicIds = new Set(
@@ -99,81 +99,81 @@ const epics = computed(() => {
         Boolean(issue.epic)
       )
       .map((issue) => issue.epic) || []
-  );
+  )
 
   // Count issues per epic
-  const epicCounts = new Map();
+  const epicCounts = new Map()
   issuesData.value?.forEach((issue) => {
     if (issue.epic) {
-      epicCounts.set(issue.epic, (epicCounts.get(issue.epic) || 0) + 1);
+      epicCounts.set(issue.epic, (epicCounts.get(issue.epic) || 0) + 1)
     }
-  });
+  })
 
   return Array.from(epicIds).map((epicId) => ({
     id: epicId,
     title: getEpicTitle(epicId),
     count: epicCounts.get(epicId) || 0,
-  }));
-});
+  }))
+})
 
 const getIssueId = (path: string) => {
-  const match = path.match(/us-(\d+)-/);
-  return match ? match[1] : "";
-};
+  const match = path.match(/us-(\d+)-/)
+  return match ? match[1] : ''
+}
 
 const getPriorityColor = (priority: string) => {
   switch (priority.toLowerCase()) {
-    case "high":
-      return "bg-destructive";
-    case "medium":
-      return "bg-warning";
-    case "low":
-      return "bg-success";
+    case 'high':
+      return 'bg-destructive'
+    case 'medium':
+      return 'bg-warning'
+    case 'low':
+      return 'bg-success'
     default:
-      return "bg-muted-foreground";
+      return 'bg-muted-foreground'
   }
-};
+}
 
 const getStatusColor = (status: string) => {
   switch (status) {
-    case "blocked":
-      return "bg-destructive";
-    case "in-progress":
-      return "bg-warning";
-    case "done":
-      return "bg-success";
+    case 'blocked':
+      return 'bg-destructive'
+    case 'in-progress':
+      return 'bg-warning'
+    case 'done':
+      return 'bg-success'
     default:
-      return "bg-muted";
+      return 'bg-muted'
   }
-};
+}
 
 const getBackgroundColor = (status: string) => {
   switch (status) {
-    case "todo":
-      return "bg-muted/10";
-    case "in-progress":
-      return "bg-warning/10";
-    case "done":
-      return "bg-accent/10";
+    case 'todo':
+      return 'bg-muted/10'
+    case 'in-progress':
+      return 'bg-warning/10'
+    case 'done':
+      return 'bg-accent/10'
     default:
-      return "bg-muted/10";
+      return 'bg-muted/10'
   }
-};
+}
 
 const selectEpic = (epic: string | null) => {
-  selectedEpic.value = selectedEpic.value === epic ? null : epic;
-};
+  selectedEpic.value = selectedEpic.value === epic ? null : epic
+}
 
-const selectedIssue = ref<string | null>(null);
+const selectedIssue = ref<string | null>(null)
 
 const toggleIssue = async (path: string) => {
   if (selectedIssue.value === path) {
-    selectedIssue.value = null;
-    return;
+    selectedIssue.value = null
+    return
   }
 
-  selectedIssue.value = path;
-};
+  selectedIssue.value = path
+}
 </script>
 
 <template>

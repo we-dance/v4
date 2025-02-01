@@ -9,18 +9,18 @@ interface Competitor {
 defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   description: {
     type: String,
-    required: true
+    required: true,
   },
   items: {
     type: Array as PropType<Competitor[]>,
     required: true,
-    default: () => []
-  }
-});
+    default: () => [],
+  },
+})
 </script>
 
 <template>

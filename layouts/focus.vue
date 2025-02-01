@@ -8,5 +8,5 @@
 </template>
 
 <script setup lang="ts">
-import DialogProvider from "~/components/dialog/DialogProvider.vue";
+import DialogProvider from '~/components/dialog/DialogProvider.vue'
 </script>

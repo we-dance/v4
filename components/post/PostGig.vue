@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { GigContent } from "~/schemas/post";
+import type { GigContent } from '~/schemas/post'
 
 defineProps<{
-  content: GigContent;
-}>();
+  content: GigContent
+}>()
 </script>
 
 <template>

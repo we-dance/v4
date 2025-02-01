@@ -2,20 +2,20 @@ const common = {
   requireModule: [],
   require: ['features/support/*.js', 'features/step_definitions/*.js'],
   formatOptions: { snippetInterface: 'async-await' },
-  publishQuiet: true
-};
+  publishQuiet: true,
+}
 
 module.exports = {
   default: {
     ...common,
     worldParameters: {
-      headless: true
-    }
+      headless: true,
+    },
   },
   local: {
     ...common,
     worldParameters: {
-      headless: false
-    }
-  }
-};
+      headless: false,
+    },
+  },
+}

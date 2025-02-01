@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { AdContent } from "~/schemas/post";
+import type { AdContent } from '~/schemas/post'
 
 defineProps<{
-  content: AdContent;
-}>();
+  content: AdContent
+}>()
 </script>
 
 <template>

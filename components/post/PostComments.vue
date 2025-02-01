@@ -1,82 +1,82 @@
 <script setup lang="ts">
-import type { CommentWithReplies } from "~/schemas/comment";
-import { mockComments } from "~/data/mockComments";
-import UserPoints from "~/components/common/UserPoints.vue";
+import type { CommentWithReplies } from '~/schemas/comment'
+import { mockComments } from '~/data/mockComments'
+import UserPoints from '~/components/common/UserPoints.vue'
 
-const currentUserId = "4"; // Mock current user ID
-const isPostAuthor = true; // Mock post author status
+const currentUserId = '4' // Mock current user ID
+const isPostAuthor = true // Mock post author status
 
 // Comments data
-const comments = ref<CommentWithReplies[]>(mockComments);
+const comments = ref<CommentWithReplies[]>(mockComments)
 
-const newComment = ref("");
-const replyingTo = ref<CommentWithReplies | null>(null);
+const newComment = ref('')
+const replyingTo = ref<CommentWithReplies | null>(null)
 
 const addComment = () => {
-  if (!newComment.value.trim()) return;
+  if (!newComment.value.trim()) return
 
   const comment: CommentWithReplies = {
     id: Date.now(),
     author: {
       id: currentUserId,
-      name: "Current User",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+      name: 'Current User',
+      image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9',
       points: 50,
     },
     text: replyingTo.value
       ? `@${replyingTo.value.author.name} ${newComment.value}`
       : newComment.value,
-    timestamp: "Just now",
+    timestamp: 'Just now',
     stats: {
       likes: 0,
     },
-  };
+  }
 
   if (replyingTo.value) {
     comment.replyTo = {
       id: replyingTo.value.id,
       authorName: replyingTo.value.author.name,
-    };
-    replyingTo.value = null;
+    }
+    replyingTo.value = null
   }
 
-  comments.value.push(comment);
-  newComment.value = "";
-};
+  comments.value.push(comment)
+  newComment.value = ''
+}
 
 const likeComment = (comment: CommentWithReplies) => {
-  comment.isLiked = !comment.isLiked;
-  comment.stats.likes += comment.isLiked ? 1 : -1;
+  comment.isLiked = !comment.isLiked
+  comment.stats.likes += comment.isLiked ? 1 : -1
 
   // Internal helpful status when post author likes
   if (isPostAuthor && comment.author.id !== currentUserId) {
-    comment.stats.isHelpful = comment.isLiked;
+    comment.stats.isHelpful = comment.isLiked
   }
-};
+}
 
 const startReply = (comment: CommentWithReplies) => {
-  replyingTo.value = comment;
+  replyingTo.value = comment
   nextTick(() => {
-    const textarea = document.querySelector("textarea");
+    const textarea = document.querySelector('textarea')
     if (textarea) {
-      textarea.focus();
+      textarea.focus()
     }
-  });
-};
+  })
+}
 
 const cancelReply = () => {
-  replyingTo.value = null;
-  newComment.value = "";
-};
+  replyingTo.value = null
+  newComment.value = ''
+}
 
 const scrollToComment = (commentId: number) => {
-  const element = document.getElementById(`comment-${commentId}`);
+  const element = document.getElementById(`comment-${commentId}`)
   if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-    element.classList.add("bg-info/10");
-    setTimeout(() => element.classList.remove("bg-info/10"), 2000);
+    element.scrollIntoView({ behavior: 'smooth' })
+    element.classList.add('bg-info/10')
+    setTimeout(() => element.classList.remove('bg-info/10'), 2000)
   }
-};
+}
 </script>
 
 <template>
@@ -113,7 +113,7 @@ const scrollToComment = (commentId: number) => {
           />
           <div class="mt-2 flex justify-end">
             <Button type="submit" :disabled="!newComment.trim()">
-              {{ replyingTo ? "Reply" : "Comment" }}
+              {{ replyingTo ? 'Reply' : 'Comment' }}
             </Button>
           </div>
         </div>

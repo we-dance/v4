@@ -1,59 +1,59 @@
 <script setup lang="ts">
-import type { ArtistProfile } from "~/schemas/profile";
+import type { ArtistProfile } from '~/schemas/profile'
 
 const props = defineProps<{
-  artist: ArtistProfile;
+  artist: ArtistProfile
   onSelect: (service: {
-    type: string;
-    amount: number;
-    currency: string;
-    duration: number;
-  }) => void;
-}>();
+    type: string
+    amount: number
+    currency: string
+    duration: number
+  }) => void
+}>()
 
 const services = computed(() => {
-  const result = [];
+  const result = []
 
   // Private Classes
   if (props.artist.availability?.privateClasses) {
     result.push({
-      type: "private",
-      name: "Private Class",
-      description: "1-on-1 personalized instruction",
+      type: 'private',
+      name: 'Private Class',
+      description: '1-on-1 personalized instruction',
       amount: 50,
-      currency: "EUR",
+      currency: 'EUR',
       duration: 60,
-      icon: "ph:user",
-    });
+      icon: 'ph:user',
+    })
   }
 
   // Workshops
   if (props.artist.availability?.workshops) {
     result.push({
-      type: "workshop",
-      name: "Workshop",
-      description: "Group class for specific topics",
+      type: 'workshop',
+      name: 'Workshop',
+      description: 'Group class for specific topics',
       amount: 30,
-      currency: "EUR",
+      currency: 'EUR',
       duration: 90,
-      icon: "ph:users-three",
-    });
+      icon: 'ph:users-three',
+    })
   }
 
-  return result;
-});
+  return result
+})
 
-const dialog = useDialog();
+const dialog = useDialog()
 
 const handleSelect = (service: {
-  type: string;
-  amount: number;
-  currency: string;
-  duration: number;
+  type: string
+  amount: number
+  currency: string
+  duration: number
 }) => {
-  props.onSelect(service);
-  dialog.close();
-};
+  props.onSelect(service)
+  dialog.close()
+}
 </script>
 
 <template>

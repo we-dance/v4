@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { Post } from "~/schemas/post";
+import type { Post } from '~/schemas/post'
 
 defineProps<{
-  post: Post;
-}>();
+  post: Post
+}>()
 </script>
 
 <template>

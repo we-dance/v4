@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import type { Post } from "~/schemas/post";
-import { mockPosts } from "~/data/mockPosts";
+import type { Post } from '~/schemas/post'
+import { mockPosts } from '~/data/mockPosts'
 
-const route = useRoute();
-const tag = route.params.tag as string;
+const route = useRoute()
+const tag = route.params.tag as string
 
 const filteredPosts = computed(() => {
   return mockPosts.filter(
     (post) =>
-      "tags" in post.content &&
+      'tags' in post.content &&
       post.content.tags?.some((t) => t.toLowerCase() === tag.toLowerCase())
-  ) as Post[];
-});
+  ) as Post[]
+})
 </script>
 
 <template>

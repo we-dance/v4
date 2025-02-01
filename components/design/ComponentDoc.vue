@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import type { Component } from "vue";
+import type { Component } from 'vue'
 
 interface Props {
-  component: Component;
-  example?: Component;
-  about?: string;
+  component: Component
+  example?: Component
+  about?: string
 }
 
-const props = defineProps<Props>();
+const props = defineProps<Props>()
 
 const {
   name,
   props: componentProps,
   events,
-} = useComponentDocs(props.component);
+} = useComponentDocs(props.component)
 </script>
 
 <template>
@@ -53,7 +53,7 @@ const {
           <div class="font-mono text-sm">{{ prop.name }}</div>
           <div class="text-muted-foreground">{{ prop.type }}</div>
           <div class="text-muted-foreground">
-            {{ prop.required ? "required" : prop.default }}
+            {{ prop.required ? 'required' : prop.default }}
           </div>
           <div class="text-muted-foreground">{{ prop.description }}</div>
         </div>

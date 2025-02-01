@@ -1,66 +1,66 @@
 <script setup lang="ts">
-import { Calendar } from "@/components/ui/calendar";
-import { format } from "date-fns";
-import { today, getLocalTimeZone } from "@internationalized/date";
+import { Calendar } from '@/components/ui/calendar'
+import { format } from 'date-fns'
+import { today, getLocalTimeZone } from '@internationalized/date'
 
 interface Area {
-  id: number;
-  name: string;
-  description: string;
-  pricePerHour: number;
-  capacity: number;
+  id: number
+  name: string
+  description: string
+  pricePerHour: number
+  capacity: number
   size: {
-    width: number;
-    length: number;
-    height: number;
-    unit: string;
-  };
-  amenities: string[];
-  floorType: string;
-  images: string[];
-  availability: Record<string, string>;
+    width: number
+    length: number
+    height: number
+    unit: string
+  }
+  amenities: string[]
+  floorType: string
+  images: string[]
+  availability: Record<string, string>
 }
 
 interface Props {
-  area: Area;
+  area: Area
   venue: {
-    id: number;
-    name: string;
-    areas: Area[];
-  };
+    id: number
+    name: string
+    areas: Area[]
+  }
 }
 
-const props = defineProps<Props>();
-const dialog = useDialog();
+const props = defineProps<Props>()
+const dialog = useDialog()
 
-const selectedImageIndex = ref(0);
+const selectedImageIndex = ref(0)
 
 // Get today's availability
-const now = new Date();
+const now = new Date()
 const days = [
-  "sunday",
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-];
-const currentDay = days[now.getDay()];
-const availabilityToday = props.area.availability[currentDay];
+  'sunday',
+  'monday',
+  'tuesday',
+  'wednesday',
+  'thursday',
+  'friday',
+  'saturday',
+]
+const currentDay = days[now.getDay()]
+const availabilityToday = props.area.availability[currentDay]
 
 const handleBook = () => {
   dialog.open({
-    component: "VenueBookingDialog",
+    component: 'VenueBookingDialog',
     props: {
       venue: props.venue,
       selectedAreaId: props.area.id,
       onBook: (date: string, areaId: number) => {
-        console.log("Booking area for date:", date, "area:", areaId);
+        console.log('Booking area for date:', date, 'area:', areaId)
       },
     },
-  });
-};
+  })
+}
 </script>
 
 <template>
@@ -114,7 +114,7 @@ const handleBook = () => {
       <div>
         <div class="font-medium">Today's Hours</div>
         <div class="text-muted-foreground">
-          {{ availabilityToday || "Closed" }}
+          {{ availabilityToday || 'Closed' }}
         </div>
       </div>
     </div>
