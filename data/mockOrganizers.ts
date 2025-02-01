@@ -1,3 +1,5 @@
+import { type Organizer, validateOrganizers } from '~/schemas/organizers';
+
 export const danceStyles = [
   { value: "salsa", label: "Salsa" },
   { value: "bachata", label: "Bachata" },
@@ -17,15 +19,13 @@ export const eventTypes = [
   { value: "performances", label: "Performances" },
 ];
 
-export const organizers = [
+const mockOrganizers = [
   {
     id: "1",
     name: "Berlin Salsa Community",
     location: "Berlin, Germany",
-    avatar:
-      "https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1200&h=800&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?w=400&h=400&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1200&h=800&fit=crop",
     styles: ["salsa", "bachata"],
     eventTypes: ["festivals", "workshops", "socials"],
     bio: "The main salsa & bachata community in Berlin. Join our WhatsApp group for daily socials and practice sessions.",
@@ -36,15 +36,22 @@ export const organizers = [
       facebook: "Berlin Salsa Community (3.5k members)",
       website: "https://salsaberlin.de",
     },
+    features: {
+      eventCalendar: true,
+      photoGallery: true,
+      communityUpdates: true,
+    },
+    privacy: "public",
+    admins: ["admin1", "admin2"],
+    mission: "Promoting salsa and bachata in Berlin",
+    regularActivities: ["Weekly socials", "Workshops", "Dance practice"],
   },
   {
     id: "2",
     name: "Swing Dance Paris",
     location: "Paris, France",
-    avatar:
-      "https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?w=400&h=400&fit=crop",
-    coverImage:
-      "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1200&h=800&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?w=400&h=400&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1200&h=800&fit=crop",
     styles: ["swing", "jazz"],
     eventTypes: ["classes", "socials"],
     bio: "Weekly swing dance classes and social dances. Follow us on Instagram for latest updates and join our Telegram channel.",
@@ -54,6 +61,15 @@ export const organizers = [
       instagram: "@swingdanceparis",
       facebook: "Swing Dance Paris Official (2.8k members)",
     },
+    features: {
+      eventCalendar: true,
+      photoGallery: true,
+      communityUpdates: true,
+    },
+    privacy: "public",
+    admins: ["admin3", "admin4"],
+    mission: "Bringing swing dance to Paris",
+    regularActivities: ["Weekly classes", "Social dances", "Live music events"],
   },
   {
     id: "3",
@@ -130,3 +146,9 @@ export const organizers = [
     },
   },
 ];
+
+export const getMockOrganizers = (): Organizer[] => {
+  return validateOrganizers(mockOrganizers);
+};
+
+export type { Organizer } from '~/schemas/organizers';
