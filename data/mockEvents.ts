@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { BaseEventSchema, type AnyEvent } from '~/schemas/event';
+import { PartyEventSchema, WorkshopEventSchema, ConcertEventSchema, FestivalEventSchema, type AnyEvent } from '~/schemas/event';
 
 // Define mock events data without export
 const eventsData = [
@@ -332,8 +332,21 @@ const eventsData = [
   },
 ];
 
-// Export validated events
-export const mockEvents = z.array(BaseEventSchema).parse(eventsData);
+// Export validated events based on their type
+export const mockEvents = eventsData.map(event => {
+  switch (event.type) {
+    case 'party':
+      return PartyEventSchema.parse(event);
+    case 'workshop':
+      return WorkshopEventSchema.parse(event);
+    case 'concert':
+      return ConcertEventSchema.parse(event);
+    case 'festival':
+      return FestivalEventSchema.parse(event);
+    default:
+      throw new Error(`Unknown event type: ${event.type}`);
+  }
+}) as AnyEvent[];
 
 // Export type for TypeScript support
 export type MockEvents = typeof mockEvents;

@@ -20,20 +20,28 @@ const props = defineProps({
 });
 
 // Query params with ref to make it reactive
-const queryParams = ref({
+const queryParams = ref<{
+  type: string;
+  limit: number;
+  cursor: number;
+  authorId?: string;
+}>({
   type: props.type || "all",
   limit: props.limit,
-  authorId: props.authorId,
   cursor: 0,
+  ...(props.authorId ? { authorId: props.authorId } : {}),
 });
 
 // Watch for type changes
 watch(
   () => [props.type, props.authorId],
   ([newType, newAuthorId]) => {
-    queryParams.value.type = newType || "all";
-    queryParams.value.authorId = newAuthorId;
-    queryParams.value.cursor = 0;
+    queryParams.value = {
+      type: newType || "all",
+      limit: props.limit,
+      cursor: 0,
+      ...(newAuthorId ? { authorId: newAuthorId } : {}),
+    };
   }
 );
 
