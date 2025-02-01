@@ -1,8 +1,8 @@
 import { z } from 'zod';
 import { BaseEventSchema, type AnyEvent } from '~/schemas/event';
 
-// Define and validate mock events
-export const mockEvents: AnyEvent[] = [
+// Define mock events data without export
+const eventsData = [
   {
     id: 100,
     name: "Havana D'Primera Live in Munich",
@@ -332,8 +332,8 @@ export const mockEvents: AnyEvent[] = [
   },
 ];
 
-// Validate with Zod schema
-export const mockEventsZod = z.array(BaseEventSchema).parse(mockEvents);
+// Export validated events
+export const mockEvents = z.array(BaseEventSchema).parse(eventsData);
 
 // Export type for TypeScript support
 export type MockEvents = typeof mockEvents;
