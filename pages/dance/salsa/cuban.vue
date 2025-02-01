@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { getMockCommunities } from "~/data/mockCommunities";
+import { mockCommunities } from "~/data/mockCommunities";
 import { mockEvents } from "~/data/mockEvents";
 import { mockPosts } from "~/data/mockPosts";
 import type { Post } from "~/schemas/post";
@@ -8,7 +8,7 @@ import type { AnyEvent } from "~/schemas/event";
 import CommunityCard from "~/components/community/CommunityCard.vue";
 
 const communities = ref(
-  getMockCommunities().filter((c) => c.style === "Cuban")
+  mockCommunities.filter((c) => c.style === "Cuban")
 );
 
 // Filter events and ensure they match the AnyEvent type

@@ -1,21 +1,7 @@
-export interface Community {
-  id: string;
-  name: string;
-  description: string;
-  image: string;
-  memberCount: number;
-  city: string;
-  style?: string;
-  schedule?: {
-    summer: string[];
-    winter: string[];
-  };
-  links?: {
-    whatsapp?: string;
-  };
-}
+import { communitySchema, type Community } from "~/schemas/community";
 
-export const getMockCommunities = (): Community[] => [
+// Define mock communities data without export
+const communitiesData = [
   {
     id: "afro-cuban-festivals",
     name: "Afro Cuban Festivals",
@@ -45,3 +31,9 @@ export const getMockCommunities = (): Community[] => [
     city: "Munich",
   },
 ];
+
+// Export validated communities
+export const mockCommunities = communitySchema.array().parse(communitiesData);
+
+// Export type for TypeScript support
+export type MockCommunities = typeof mockCommunities;
