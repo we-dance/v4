@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from 'zod'
 
 // Base schemas for TRPC endpoints
 const authorSchema = z.object({
@@ -6,19 +6,19 @@ const authorSchema = z.object({
   name: z.string(),
   image: z.string(),
   location: z.string(),
-});
+})
 
 const statsSchema = z.object({
   likes: z.number().default(0),
   shares: z.number().default(0),
   comments: z.number().default(0),
-});
+})
 
 // Content schemas for different post types
 const noteContentSchema = z.object({
   text: z.string(),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const videoContentSchema = z.object({
   title: z.string(),
@@ -29,7 +29,7 @@ const videoContentSchema = z.object({
     duration: z.string(),
   }),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const articleContentSchema = z.object({
   title: z.string(),
@@ -37,7 +37,7 @@ const articleContentSchema = z.object({
   cover: z.string(),
   html: z.string(),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const meetContentSchema = z.object({
   title: z.string(),
@@ -51,14 +51,14 @@ const meetContentSchema = z.object({
     level: z.string(),
   }),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const reviewContentSchema = z.object({
   title: z.string(),
   rating: z.number(),
   description: z.string(),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const gigContentSchema = z.object({
   title: z.string(),
@@ -70,20 +70,20 @@ const gigContentSchema = z.object({
     })
   ),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const askLocalsContentSchema = z.object({
   title: z.string(),
   text: z.string(),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const adContentSchema = z.object({
   title: z.string(),
   image: z.string().optional(),
   description: z.string().optional(),
   tags: z.array(z.string()).optional(),
-});
+})
 
 const eventContentSchema = z.object({
   title: z.string(),
@@ -91,17 +91,19 @@ const eventContentSchema = z.object({
   image: z.string().optional(),
   date: z.string(),
   location: z.string(),
-  price: z.object({
-    amount: z.number(),
-    currency: z.string(),
-  }).optional(),
+  price: z
+    .object({
+      amount: z.number(),
+      currency: z.string(),
+    })
+    .optional(),
   tags: z.array(z.string()).optional(),
-});
+})
 
 // Main post schema using discriminated union
-export const postSchema = z.discriminatedUnion("type", [
+export const postSchema = z.discriminatedUnion('type', [
   z.object({
-    type: z.literal("note"),
+    type: z.literal('note'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -109,7 +111,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("video"),
+    type: z.literal('video'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -117,7 +119,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("article"),
+    type: z.literal('article'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -125,7 +127,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("meet"),
+    type: z.literal('meet'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -133,7 +135,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("review"),
+    type: z.literal('review'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -141,7 +143,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("gig"),
+    type: z.literal('gig'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -149,7 +151,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("ask_locals"),
+    type: z.literal('ask_locals'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -157,7 +159,7 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("ad"),
+    type: z.literal('ad'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
@@ -165,66 +167,66 @@ export const postSchema = z.discriminatedUnion("type", [
     stats: statsSchema,
   }),
   z.object({
-    type: z.literal("event"),
+    type: z.literal('event'),
     id: z.number(),
     author: authorSchema,
     timestamp: z.string(),
     content: eventContentSchema,
     stats: statsSchema,
   }),
-]);
+])
 
 // Schema for creating new posts
-export const createPostSchema = z.discriminatedUnion("type", [
+export const createPostSchema = z.discriminatedUnion('type', [
   z.object({
-    type: z.literal("note"),
+    type: z.literal('note'),
     content: noteContentSchema,
   }),
   z.object({
-    type: z.literal("video"),
+    type: z.literal('video'),
     content: videoContentSchema,
   }),
   z.object({
-    type: z.literal("article"),
+    type: z.literal('article'),
     content: articleContentSchema,
   }),
   z.object({
-    type: z.literal("meet"),
+    type: z.literal('meet'),
     content: meetContentSchema,
   }),
   z.object({
-    type: z.literal("review"),
+    type: z.literal('review'),
     content: reviewContentSchema,
   }),
   z.object({
-    type: z.literal("gig"),
+    type: z.literal('gig'),
     content: gigContentSchema,
   }),
   z.object({
-    type: z.literal("ask_locals"),
+    type: z.literal('ask_locals'),
     content: askLocalsContentSchema,
   }),
   z.object({
-    type: z.literal("ad"),
+    type: z.literal('ad'),
     content: adContentSchema,
   }),
-]);
+])
 
 export const updateStatsSchema = z.object({
   postId: z.number(),
-  action: z.enum(["like", "share", "comment"]),
-});
+  action: z.enum(['like', 'share', 'comment']),
+})
 
-export type Post = z.infer<typeof postSchema>;
-export type CreatePost = z.infer<typeof createPostSchema>;
-export type UpdateStats = z.infer<typeof updateStatsSchema>;
+export type Post = z.infer<typeof postSchema>
+export type CreatePost = z.infer<typeof createPostSchema>
+export type UpdateStats = z.infer<typeof updateStatsSchema>
 
 // Content type exports
-export type NoteContent = z.infer<typeof noteContentSchema>;
-export type VideoContent = z.infer<typeof videoContentSchema>;
-export type ArticleContent = z.infer<typeof articleContentSchema>;
-export type MeetContent = z.infer<typeof meetContentSchema>;
-export type ReviewContent = z.infer<typeof reviewContentSchema>;
-export type GigContent = z.infer<typeof gigContentSchema>;
-export type AskLocalsContent = z.infer<typeof askLocalsContentSchema>;
-export type AdContent = z.infer<typeof adContentSchema>;
+export type NoteContent = z.infer<typeof noteContentSchema>
+export type VideoContent = z.infer<typeof videoContentSchema>
+export type ArticleContent = z.infer<typeof articleContentSchema>
+export type MeetContent = z.infer<typeof meetContentSchema>
+export type ReviewContent = z.infer<typeof reviewContentSchema>
+export type GigContent = z.infer<typeof gigContentSchema>
+export type AskLocalsContent = z.infer<typeof askLocalsContentSchema>
+export type AdContent = z.infer<typeof adContentSchema>

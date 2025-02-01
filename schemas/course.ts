@@ -1,18 +1,18 @@
-import { z } from 'zod';
-import { artistSchema } from './artist';
+import { z } from 'zod'
+import { artistSchema } from './artist'
 
 const priceSchema = z.object({
   amount: z.number(),
   currency: z.string(),
   interval: z.enum(['month', 'year']),
   savings: z.string().optional(),
-});
+})
 
 const planSchema = z.object({
   monthly: priceSchema,
   annual: priceSchema,
   features: z.array(z.string()),
-});
+})
 
 const reviewSchema = z.object({
   id: z.number(),
@@ -20,7 +20,7 @@ const reviewSchema = z.object({
   rating: z.number(),
   comment: z.string(),
   date: z.string(),
-});
+})
 
 const materialSchema = z.object({
   id: z.number(),
@@ -28,7 +28,7 @@ const materialSchema = z.object({
   type: z.string(),
   size: z.string(),
   icon: z.string(),
-});
+})
 
 const lessonSchema = z.object({
   id: z.number(),
@@ -36,29 +36,31 @@ const lessonSchema = z.object({
   duration: z.string(),
   videoId: z.string(),
   completed: z.boolean(),
-});
+})
 
 const moduleSchema = z.object({
   id: z.number(),
   title: z.string(),
   lessons: z.array(lessonSchema),
-});
+})
 
-const courseInstructorSchema = artistSchema.pick({
-  id: true,
-  name: true,
-  image: true,
-  level: true,
-  location: true,
-  languages: true,
-  rating: true,
-  reviewCount: true,
-  socialMedia: true,
-  availability: true,
-  experience: true,
-}).extend({
-  credentials: z.string(),
-});
+const courseInstructorSchema = artistSchema
+  .pick({
+    id: true,
+    name: true,
+    image: true,
+    level: true,
+    location: true,
+    languages: true,
+    rating: true,
+    reviewCount: true,
+    socialMedia: true,
+    availability: true,
+    experience: true,
+  })
+  .extend({
+    credentials: z.string(),
+  })
 
 export const courseSchema = z.object({
   id: z.string(),
@@ -91,10 +93,10 @@ export const courseSchema = z.object({
   }),
   materials: z.array(materialSchema),
   modules: z.array(moduleSchema),
-});
+})
 
-export type Course = z.infer<typeof courseSchema>;
+export type Course = z.infer<typeof courseSchema>
 
 export const validateCourse = (data: unknown): Course => {
-  return courseSchema.parse(data);
-}; 
+  return courseSchema.parse(data)
+}

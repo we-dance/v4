@@ -14,4 +14,4 @@ I have read, understood, and agree to follow:
 
 ## Verification
 
-By creating this file and submitting a pull request, I digitally sign these agreements. 
+By creating this file and submitting a pull request, I digitally sign these agreements.

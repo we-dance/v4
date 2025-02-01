@@ -7,8 +7,8 @@ import {
   GigContentSchema,
   AskLocalsContentSchema,
   AdContentSchema,
-} from "~/schemas/post";
-import type { PostType } from "~/schemas/post";
+} from '~/schemas/post'
+import type { PostType } from '~/schemas/post'
 
 export function validateContent(type: PostType, content: unknown) {
   const schemas = {
@@ -20,9 +20,9 @@ export function validateContent(type: PostType, content: unknown) {
     gig: GigContentSchema,
     ask_locals: AskLocalsContentSchema,
     ad: AdContentSchema,
-  } as const;
+  } as const
 
-  const schema = schemas[type as keyof typeof schemas];
+  const schema = schemas[type as keyof typeof schemas]
 
   if (!schema) {
     return {
@@ -35,8 +35,8 @@ export function validateContent(type: PostType, content: unknown) {
           },
         ],
       },
-    };
+    }
   }
 
-  return schema.safeParse(content);
+  return schema.safeParse(content)
 }

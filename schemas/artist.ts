@@ -1,28 +1,30 @@
-import { z } from 'zod';
+import { z } from 'zod'
 
 const pricingSchema = z.object({
   amount: z.number(),
   currency: z.string(),
   duration: z.number(),
   note: z.string().optional(),
-});
+})
 
 const availabilitySchema = z.object({
   privateClasses: z.boolean().default(false),
   workshops: z.boolean().default(false),
   touring: z.boolean().default(false),
   currentLocation: z.string().optional(),
-  pricing: z.object({
-    privateClass: pricingSchema.optional(),
-    workshop: pricingSchema.optional(),
-  }).optional(),
-});
+  pricing: z
+    .object({
+      privateClass: pricingSchema.optional(),
+      workshop: pricingSchema.optional(),
+    })
+    .optional(),
+})
 
 const experienceSchema = z.object({
   years: z.number().optional(),
   teachingLevels: z.array(z.string()).optional(),
   achievements: z.array(z.string()).optional(),
-});
+})
 
 const socialMediaSchema = z.object({
   instagram: z.string().optional(),
@@ -30,7 +32,7 @@ const socialMediaSchema = z.object({
   facebook: z.string().optional(),
   tiktok: z.string().optional(),
   website: z.string().optional(),
-});
+})
 
 export const artistSchema = z.object({
   id: z.number(),
@@ -53,16 +55,16 @@ export const artistSchema = z.object({
   albums: z.array(z.string()).optional(),
   collaborations: z.array(z.string()).optional(),
   otherAchievements: z.array(z.string()).optional(),
-});
+})
 
-export type Artist = z.infer<typeof artistSchema>;
+export type Artist = z.infer<typeof artistSchema>
 
 // Helper function to validate mock data
 export const validateArtist = (data: unknown): Artist => {
-  return artistSchema.parse(data);
-};
+  return artistSchema.parse(data)
+}
 
 // Helper function to validate array of artists
 export const validateArtists = (data: unknown[]): Artist[] => {
-  return z.array(artistSchema).parse(data);
-}; 
+  return z.array(artistSchema).parse(data)
+}

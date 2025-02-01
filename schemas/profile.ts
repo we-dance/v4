@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from 'zod'
 
 // Base profile schema
 export const profileSchema = z.object({
@@ -6,13 +6,13 @@ export const profileSchema = z.object({
   name: z.string(),
   email: z.string().email(),
   points: z.number().default(0),
-  type: z.enum(["dancer", "artist", "organizer", "venue", "community"]),
+  type: z.enum(['dancer', 'artist', 'organizer', 'venue', 'community']),
   roles: z.array(z.string()).default([]),
   location: z.string().optional(),
   bio: z.string().optional(),
   languages: z.array(z.string()).default([]),
   styles: z.array(z.string()).default([]),
-  level: z.enum(["beginner", "intermediate", "advanced", "master"]).optional(),
+  level: z.enum(['beginner', 'intermediate', 'advanced', 'master']).optional(),
   verified: z.boolean().default(false),
   socialLinks: z
     .array(
@@ -53,8 +53,8 @@ export const profileSchema = z.object({
   privacy: z
     .object({
       profileVisibility: z
-        .enum(["public", "private", "connections"])
-        .default("public"),
+        .enum(['public', 'private', 'connections'])
+        .default('public'),
       contactPreferences: z
         .object({
           allowMessages: z.boolean().default(true),
@@ -68,20 +68,20 @@ export const profileSchema = z.object({
         }),
     })
     .default({
-      profileVisibility: "public",
+      profileVisibility: 'public',
       contactPreferences: {
         allowMessages: true,
         showEmail: false,
         showPhone: false,
       },
     }),
-});
+})
 
-export type Profile = z.infer<typeof profileSchema>;
+export type Profile = z.infer<typeof profileSchema>
 
 // Specialized profile types
 export const dancerProfileSchema = profileSchema.extend({
-  type: z.literal("dancer"),
+  type: z.literal('dancer'),
   partnerPreferences: z
     .object({
       roles: z.array(z.string()),
@@ -90,25 +90,25 @@ export const dancerProfileSchema = profileSchema.extend({
       goals: z.array(z.string()),
     })
     .optional(),
-});
+})
 
 export const artistProfileSchema = profileSchema.extend({
-  type: z.literal("artist"),
+  type: z.literal('artist'),
   equipment: z.array(z.string()).optional(),
   instruments: z.array(z.string()).optional(),
   portfolio: z
     .array(
       z.object({
-        type: z.enum(["video", "image", "achievement"]),
+        type: z.enum(['video', 'image', 'achievement']),
         url: z.string().url(),
         description: z.string().optional(),
       })
     )
     .optional(),
-});
+})
 
 export const organizerProfileSchema = profileSchema.extend({
-  type: z.literal("organizer"),
+  type: z.literal('organizer'),
   organization: z
     .object({
       name: z.string(),
@@ -124,10 +124,10 @@ export const organizerProfileSchema = profileSchema.extend({
         .optional(),
     })
     .optional(),
-});
+})
 
 export const venueProfileSchema = profileSchema.extend({
-  type: z.literal("venue"),
+  type: z.literal('venue'),
   venue: z
     .object({
       address: z.string(),
@@ -144,10 +144,10 @@ export const venueProfileSchema = profileSchema.extend({
         .optional(),
     })
     .optional(),
-});
+})
 
 export const communityProfileSchema = profileSchema.extend({
-  type: z.literal("community"),
+  type: z.literal('community'),
   community: z
     .object({
       mission: z.string(),
@@ -156,10 +156,10 @@ export const communityProfileSchema = profileSchema.extend({
       membershipRules: z.string().optional(),
     })
     .optional(),
-});
+})
 
-export type DancerProfile = z.infer<typeof dancerProfileSchema>;
-export type ArtistProfile = z.infer<typeof artistProfileSchema>;
-export type OrganizerProfile = z.infer<typeof organizerProfileSchema>;
-export type VenueProfile = z.infer<typeof venueProfileSchema>;
-export type CommunityProfile = z.infer<typeof communityProfileSchema>;
+export type DancerProfile = z.infer<typeof dancerProfileSchema>
+export type ArtistProfile = z.infer<typeof artistProfileSchema>
+export type OrganizerProfile = z.infer<typeof organizerProfileSchema>
+export type VenueProfile = z.infer<typeof venueProfileSchema>
+export type CommunityProfile = z.infer<typeof communityProfileSchema>

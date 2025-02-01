@@ -1,24 +1,24 @@
-import type { ArtistProfile } from "~/schemas/profile";
+import type { ArtistProfile } from '~/schemas/profile'
 
 export const adaptArtistToSchema = (mockArtist: any): ArtistProfile => ({
   id: String(mockArtist.id),
   name: mockArtist.name,
-  email: `${mockArtist.name.toLowerCase().replace(/\s+/g, ".")}@example.com`,
+  email: `${mockArtist.name.toLowerCase().replace(/\s+/g, '.')}@example.com`,
   points: 1000,
-  type: "artist",
+  type: 'artist',
   roles: mockArtist.roles,
   languages: mockArtist.languages,
   styles: mockArtist.specialties,
   level: mockArtist.level,
   verified: true,
   location: mockArtist.location,
-  bio: "",
+  bio: '',
   socialLinks: mockArtist.socialMedia
     ? [
         ...(mockArtist.socialMedia.instagram
           ? [
               {
-                platform: "Instagram",
+                platform: 'Instagram',
                 url: `https://instagram.com/${mockArtist.socialMedia.instagram}`,
               },
             ]
@@ -26,7 +26,7 @@ export const adaptArtistToSchema = (mockArtist: any): ArtistProfile => ({
         ...(mockArtist.socialMedia.youtube
           ? [
               {
-                platform: "YouTube",
+                platform: 'YouTube',
                 url: `https://youtube.com/${mockArtist.socialMedia.youtube}`,
               },
             ]
@@ -40,13 +40,13 @@ export const adaptArtistToSchema = (mockArtist: any): ArtistProfile => ({
     certifications: mockArtist.certifications,
   },
   stats: {
-    followers: parseInt(mockArtist.followers.replace(/[^0-9]/g, "")),
+    followers: parseInt(mockArtist.followers.replace(/[^0-9]/g, '')),
     following: 0,
     events: 0,
     reviews: mockArtist.reviewCount,
   },
   privacy: {
-    profileVisibility: "public",
+    profileVisibility: 'public',
     contactPreferences: {
       allowMessages: true,
       showEmail: false,
@@ -57,16 +57,16 @@ export const adaptArtistToSchema = (mockArtist: any): ArtistProfile => ({
     ...(mockArtist.image
       ? [
           {
-            type: "image" as const,
+            type: 'image' as const,
             url: mockArtist.image,
             description: `${mockArtist.name} profile photo`,
           },
         ]
       : []),
     ...(mockArtist.experience?.achievements?.map((achievement: string) => ({
-      type: "achievement" as const,
-      url: "https://example.com/achievement",
+      type: 'achievement' as const,
+      url: 'https://example.com/achievement',
       description: achievement,
     })) || []),
   ],
-});
+})
