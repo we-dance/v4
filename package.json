@@ -2,7 +2,6 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "future:build": "pnpm run format:check && nuxt build",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
