@@ -292,10 +292,10 @@ const clearLocationFilter = () => {
       <div class="mt-4">
         <LocationPanel
           :location="selectedLocation"
-          @update:location="
-            selectedLocation = $event
-            showLocationFilter = false
-          "
+          @update:location="{
+            selectedLocation = $event;
+            showLocationFilter = false;
+          }"
         />
       </div>
     </SheetContent>

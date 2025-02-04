@@ -3,23 +3,24 @@ import { ref, computed } from 'vue'
 import { mockCourses } from '~/data/mockCourses'
 import { useDialog } from '~/composables/useDialog'
 import { useRoute } from 'vue-router'
+import type { Course } from '~/schemas/course'
 
 const route = useRoute()
 const course = ref(
-  mockCourses.find((course) => String(course.id) === String(route.params.id))!
+  mockCourses.find((course) => String(course.identifier) === String(route.params.id))!
 )
 const dialog = useDialog()
 
-const currentLesson = ref(course.value.modules[0].lessons[0])
+const currentLesson = ref(course.value.hasPart[0].hasPart[0])
 
 const progress = computed(() => {
-  const totalLessons = course.value.modules.reduce(
-    (acc, module) => acc + module.lessons.length,
+  const totalLessons = course.value.hasPart.reduce(
+    (acc: number, module) => acc + module.hasPart.length,
     0
   )
-  const completedLessons = course.value.modules.reduce(
-    (acc, module) =>
-      acc + module.lessons.filter((lesson) => lesson.completed).length,
+  const completedLessons = course.value.hasPart.reduce(
+    (acc: number, module) =>
+      acc + module.hasPart.filter((lesson) => lesson.completed).length,
     0
   )
   return Math.round((completedLessons / totalLessons) * 100)
@@ -27,6 +28,31 @@ const progress = computed(() => {
 
 const selectLesson = (lesson: any) => {
   currentLesson.value = lesson
+}
+
+const getMonthlyPrice = () => {
+  const monthlyOffer = course.value.offers.find(offer => offer.duration === 'P1M')
+  if (monthlyOffer) {
+    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}/mo`
+  }
+  return 'Contact for pricing'
+}
+
+const getPrivateClassPrice = () => {
+  const privateOffer = course.value.instructor.availableService?.offers[0]
+  if (privateOffer) {
+    return `${privateOffer.price} ${privateOffer.priceCurrency}`
+  }
+  return 'Contact for pricing'
+}
+
+const getPrivateClassDuration = () => {
+  const privateOffer = course.value.instructor.availableService?.offers[0]
+  if (privateOffer?.duration) {
+    // Convert ISO duration to minutes (assuming PT60M format)
+    return privateOffer.duration.replace('PT', '').replace('M', '')
+  }
+  return '60'
 }
 
 const handleSubscribe = () => {
@@ -51,7 +77,7 @@ const handleSubscribe = () => {
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div class="flex items-center justify-between">
           <div>
-            <h1 class="text-2xl font-bold">{{ course.title }}</h1>
+            <h1 class="text-2xl font-bold">{{ course.name }}</h1>
             <p class="text-sm text-muted-foreground">
               Instructor: {{ course.instructor.name }}
             </p>
@@ -72,7 +98,7 @@ const handleSubscribe = () => {
           <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="aspect-video">
               <iframe
-                :src="`https://www.youtube.com/embed/${currentLesson.videoId}`"
+                :src="`https://www.youtube.com/embed/${currentLesson.video.identifier}`"
                 class="w-full h-full"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -81,10 +107,10 @@ const handleSubscribe = () => {
             </div>
             <div class="p-4">
               <h2 class="text-xl font-semibold mb-2">
-                {{ currentLesson.title }}
+                {{ currentLesson.name }}
               </h2>
               <p class="text-sm text-muted-foreground">
-                Duration: {{ currentLesson.duration }}
+                Duration: {{ currentLesson.timeRequired }}
               </p>
             </div>
           </div>
@@ -96,19 +122,19 @@ const handleSubscribe = () => {
             </div>
             <div class="divide-y">
               <div
-                v-for="module in course.modules"
-                :key="module.id"
+                v-for="module in course.hasPart"
+                :key="module.identifier"
                 class="p-4"
               >
-                <h4 class="font-medium mb-2">{{ module.title }}</h4>
+                <h4 class="font-medium mb-2">{{ module.name }}</h4>
                 <ul class="space-y-2">
                   <li
-                    v-for="lesson in module.lessons"
-                    :key="lesson.id"
+                    v-for="lesson in module.hasPart"
+                    :key="lesson.identifier"
                     @click="selectLesson(lesson)"
                     class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
                     :class="{
-                      'bg-accent/10': currentLesson.id === lesson.id,
+                      'bg-accent/10': currentLesson.identifier === lesson.identifier,
                     }"
                   >
                     <Icon
@@ -128,13 +154,13 @@ const handleSubscribe = () => {
                       <div
                         class="text-sm"
                         :class="{
-                          'font-medium': currentLesson.id === lesson.id,
+                          'font-medium': currentLesson.identifier === lesson.identifier,
                         }"
                       >
-                        {{ lesson.title }}
+                        {{ lesson.name }}
                       </div>
                       <div class="text-xs text-muted-foreground">
-                        {{ lesson.duration }}
+                        {{ lesson.timeRequired }}
                       </div>
                     </div>
                   </li>
@@ -151,7 +177,7 @@ const handleSubscribe = () => {
             <div class="p-4">
               <ul class="space-y-3">
                 <li
-                  v-for="material in course.materials"
+                  v-for="material in course.learningResources"
                   :key="material.id"
                   class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
                 >
@@ -160,9 +186,9 @@ const handleSubscribe = () => {
                     class="w-5 h-5 text-muted-foreground"
                   />
                   <div class="flex-1">
-                    <div class="text-sm font-medium">{{ material.title }}</div>
+                    <div class="text-sm font-medium">{{ material.name }}</div>
                     <div class="text-xs text-muted-foreground">
-                      {{ material.size }}
+                      {{ material.contentSize }}
                     </div>
                   </div>
                   <Icon
@@ -191,35 +217,33 @@ const handleSubscribe = () => {
                     {{ course.instructor.name }}
                   </h4>
                   <p class="text-sm text-muted-foreground mb-2">
-                    {{ course.instructor.level }} instructor in
+                    {{ course.instructor.teachingLevel }} instructor in
                     {{ course.instructor.location }}
                   </p>
                   <div
                     class="flex items-center gap-2 text-sm text-muted-foreground mb-2"
                   >
                     <Icon name="ph:star-fill" class="w-4 h-4 text-warning" />
-                    {{ course.instructor.rating }} ({{
-                      course.instructor.reviewCount
+                    {{ course.instructor.aggregateRating?.ratingValue }} ({{
+                      course.instructor.aggregateRating?.reviewCount
                     }}
                     reviews)
                   </div>
                   <div class="space-y-2">
                     <p class="text-sm text-muted-foreground">
                       <Icon name="ph:translate" class="w-4 h-4 inline mr-1" />
-                      Languages: {{ course.instructor.languages.join(', ') }}
+                      Languages: {{ course.instructor.knowsLanguage.join(', ') }}
                     </p>
-                    <p class="text-sm text-muted-foreground">
+                    <p class="text-sm text-muted-foreground" v-if="course.instructor.experience?.years">
                       <Icon name="ph:medal" class="w-4 h-4 inline mr-1" />
-                      {{ course.instructor.experience.years }}+ years of
-                      experience
+                      {{ course.instructor.experience.years }}+ years of experience
                     </p>
                     <div class="text-sm text-muted-foreground">
                       <Icon name="ph:trophy" class="w-4 h-4 inline mr-1" />
                       Achievements:
                       <ul class="list-disc list-inside ml-5">
                         <li
-                          v-for="achievement in course.instructor.experience
-                            .achievements"
+                          v-for="achievement in course.instructor.experience?.achievements"
                           :key="achievement"
                         >
                           {{ achievement }}
@@ -261,28 +285,28 @@ const handleSubscribe = () => {
             </div>
             <div class="divide-y">
               <div
-                v-for="review in course.reviews"
-                :key="review.id"
+                v-for="review in course.review"
+                :key="review.identifier"
                 class="p-4"
               >
                 <div class="flex items-center gap-2 mb-2">
                   <div class="flex">
                     <Icon
-                      v-for="i in review.rating"
+                      v-for="i in review.reviewRating.ratingValue"
                       :key="i"
                       name="ph:star-fill"
                       class="w-4 h-4 text-warning"
                     />
                   </div>
                   <span class="text-sm text-muted-foreground">{{
-                    review.user
+                    review.author.name
                   }}</span>
                   <span class="text-xs text-muted-foreground">
-                    {{ new Date(review.date).toLocaleDateString() }}
+                    {{ new Date(review.datePublished).toLocaleDateString() }}
                   </span>
                 </div>
                 <p class="text-sm text-muted-foreground">
-                  {{ review.comment }}
+                  {{ review.reviewBody }}
                 </p>
               </div>
             </div>
@@ -324,62 +348,68 @@ const handleSubscribe = () => {
         </div>
 
         <!-- Sidebar -->
-        <div class="lg:sticky lg:top-8 space-y-8">
-          <!-- Course Stats -->
+        <div class="space-y-6">
+          <!-- Course Info -->
           <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
-              <h3 class="font-semibold">Course Overview</h3>
+              <h3 class="font-semibold">Course Information</h3>
             </div>
-            <div class="p-4">
-              <div class="grid grid-cols-2 gap-4">
-                <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold">
-                    {{ course.stats.enrolled }}
-                  </div>
-                  <div class="text-sm text-muted-foreground">Students</div>
-                </div>
-                <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold">
-                    {{ course.stats.completed }}
-                  </div>
-                  <div class="text-sm text-muted-foreground">Completed</div>
-                </div>
-                <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold text-warning">
-                    {{ course.stats.avgRating }}
-                  </div>
-                  <div class="text-sm text-muted-foreground">Avg Rating</div>
-                </div>
-                <div class="text-center p-3 bg-muted rounded-lg">
-                  <div class="text-2xl font-bold">
-                    {{ course.stats.reviewCount }}
-                  </div>
-                  <div class="text-sm text-muted-foreground">Reviews</div>
-                </div>
+            <div class="p-4 space-y-4">
+              <div class="flex items-center gap-2">
+                <Icon name="ph:clock" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.timeRequired }}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:book" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.numberOfLessons }} lessons</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:graduation-cap" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.educationalLevel }}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:translate" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.inLanguage.join(', ') }}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:users" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.stats.enrolled }} enrolled</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:check-circle" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.stats.completed }} completed</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:star" class="w-5 h-5 text-muted-foreground" />
+                <span class="text-sm">{{ course.aggregateRating.ratingValue }} ({{ course.aggregateRating.reviewCount }} reviews)</span>
               </div>
             </div>
           </div>
 
-          <!-- Pricing Tiers -->
+          <!-- Subscription -->
           <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4">
               <div class="space-y-4">
                 <div>
                   <h3 class="font-semibold mb-2">Starting from</h3>
                   <div class="text-2xl font-bold">
-                    {{ course.pricing.regular.monthly.amount }}
-                    {{ course.pricing.regular.monthly.currency }}
-                    <span class="text-base font-normal text-muted-foreground"
-                      >/month</span
-                    >
+                    {{ getMonthlyPrice() }}
                   </div>
                 </div>
 
-                <Button
-                  class="w-full"
-                  variant="primary"
-                  @click="handleSubscribe"
-                >
+                <div v-if="course.subscriptionPlans?.regular.features.length" class="text-sm text-muted-foreground">
+                  <h4 class="font-medium mb-2">What's included:</h4>
+                  <ul class="space-y-2">
+                    <li v-for="feature in course.subscriptionPlans.regular.features" 
+                        :key="feature"
+                        class="flex items-center gap-2">
+                      <Icon name="ph:check" class="w-4 h-4 text-success" />
+                      {{ feature }}
+                    </li>
+                  </ul>
+                </div>
+
+                <Button class="w-full" size="lg" @click="handleSubscribe">
                   View Pricing Plans
                 </Button>
 
@@ -393,27 +423,21 @@ const handleSubscribe = () => {
           <!-- Private Class Booking -->
           <div
             class="bg-background rounded-xl shadow-sm overflow-hidden"
-            v-if="course.instructor.availability.pricing?.privateClass"
+            v-if="course.instructor.availableService"
           >
             <div class="p-4 border-b">
               <h3 class="font-semibold">Book Private Class</h3>
             </div>
             <div class="p-4">
               <div class="text-2xl font-bold mb-1">
-                {{ course.instructor.availability.pricing.privateClass.amount }}
-                {{
-                  course.instructor.availability.pricing.privateClass.currency
-                }}
+                {{ getPrivateClassPrice() }}
               </div>
               <p class="text-sm text-muted-foreground mb-4">
-                {{
-                  course.instructor.availability.pricing.privateClass.duration
-                }}
-                minutes private lesson
+                {{ getPrivateClassDuration() }} minutes private lesson
               </p>
               <Button class="w-full" variant="primary" as-child>
                 <NuxtLink
-                  :to="`/checkout/${route.params.id}?type=private&instructor=${course.instructor.id}`"
+                  :to="`/checkout/${route.params.id}?type=private&instructor=${course.instructor.identifier}`"
                 >
                   Book Private Class
                 </NuxtLink>
