@@ -293,29 +293,405 @@ const mockCoursesData = [
     // Metadata
     inLanguage: ['en', 'es'],
     dateCreated: '2024-01-01T00:00:00Z',
-    dateModified: '2024-03-15T00:00:00Z',
+    dateModified: '2024-03-20T00:00:00Z',
     image: {
       '@type': 'ImageObject',
-      url: 'https://wedance.vip/courses/cuban-casino-fundamentals.jpg',
+      url: instructor.image,
     },
     video: {
       '@type': 'VideoObject',
-      url: 'https://youtube.com/watch?v=abc123',
-      duration: 'PT2M30S',
-      thumbnailUrl: 'https://wedance.vip/courses/cuban-casino-fundamentals-thumb.jpg',
+      url: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/courses%2Fcuban-casino-preview.mp4',
+      duration: 'PT5M',
+      thumbnailUrl: instructor.image,
     },
 
     // Additional WeDance fields
     stats: {
-      enrolled: 120,
-      completed: 45,
+      enrolled: 234,
+      completed: 156,
     },
     community: {
-      discussions: 85,
-      activeStudents: 75,
-      nextLiveQ_A: '2024-04-01T18:00:00Z',
+      discussions: 15,
+      activeStudents: 89,
+      nextLiveQ_A: '2024-03-25T18:00:00Z',
     },
   },
+  {
+    '@type': 'Course',
+    '@id': 'salsa-lady-styling',
+    identifier: 'salsa-lady-styling-2024',
+    name: 'Salsa Lady Styling',
+    description: 'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
+    
+    provider: {
+      '@type': 'Organization',
+      name: 'Zensual Art',
+      description: 'Online dance education platform',
+      url: 'https://zensual.art',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://zensual.art/logo.png' // Добавлен логотип для соответствия
+      }
+    },
+  
+    instructor: {
+      '@type': 'Person',
+      identifier: 'yarima-rodriguez',
+      name: 'Yarima Rodríguez',
+      image: 'https://zensual.art/instructors/yarima.jpg',
+      jobTitle: 'Professional Cuban Dancer', // Взято из achievements
+      knowsAbout: ['Salsa Cubana', 'Son Cubano', 'Lady Styling'],
+      knowsLanguage: ['es', 'en'],
+      teachingLevel: 'Advanced',
+      location: 'Cuba',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: 4.9,
+        reviewCount: 150
+      },
+      experience: {
+        years: 15,
+        achievements: ['Professional Cuban Dancer', 'International Dance Instructor']
+      },
+      availableService: {
+        '@type': 'Service',
+        offers: [
+          {
+            '@type': 'PriceSpecification',
+            price: 160,
+            priceCurrency: 'EUR',
+            duration: 'PT60M'
+          }
+        ]
+      },
+      socialMedia: {
+        instagram: 'https://instagram.com/yarima.rodriguez',
+        youtube: 'https://youtube.com/@yarimaRodriguez'
+      }
+    },
+  
+    educationalLevel: 'Intermediate',
+    teaches: [
+      {
+        '@type': 'DefinedTerm',
+        termCode: 'lady-styling',
+        name: 'Core Techniques of Lady Styling',
+        description: 'Master the fundamental movements and stylistic nuances specific to Son Cubano'
+      },
+      {
+        '@type': 'DefinedTerm',
+        termCode: 'dance-mechanics',
+        name: 'Enhanced Dance Mechanics',
+        description: 'Improve your body alignment, elegance in hand movements, and precision in footwork'
+      },
+      {
+        '@type': 'DefinedTerm',
+        termCode: 'performance',
+        name: 'Performance and Expression',
+        description: 'Elevate your dance expression, learning to convey stories and emotions seamlessly through your movements'
+      }
+    ],
+  
+    timeRequired: 'PT2H',
+    numberOfLessons: 12,
+  
+    hasPart: [
+      {
+        '@type': 'Chapter',
+        identifier: 1,
+        name: 'Introduction',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 1,
+            name: 'Intro',
+            timeRequired: 'PT2M10S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
+              duration: 'PT2M10S',
+            },
+            completed: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 2,
+            name: 'Real-Time Phrase',
+            timeRequired: 'PT56S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
+              duration: 'PT56S',
+            },
+            completed: false,
+          },
+        ]
+      },
+      {
+        '@type': 'Chapter',
+        identifier: 2,
+        name: 'Warm-up',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 3,
+            name: 'Warm-up (part 1)',
+            timeRequired: 'PT7M4S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
+              duration: 'PT7M4S'
+            },
+            completed: false
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 4,
+            name: 'Warm-up (part 2)',
+            timeRequired: 'PT4M37S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
+              duration: 'PT4M37S'
+            },
+            completed: false
+          }
+        ]
+      },
+      {
+        '@type': 'Chapter',
+        identifier: 3,
+        name: 'Phrase',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 5,
+            name: 'Phrase (segment 1)',
+            timeRequired: 'PT8M24S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
+              duration: 'PT8M24S',
+            },
+            completed: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 6,
+            name: 'Phrase (segment 2)',
+            timeRequired: 'PT7M43S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
+              duration: 'PT7M43S',
+            },
+            completed: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 7,
+            name: 'Phrase (segment 3)',
+            timeRequired: 'PT7M34S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
+              duration: 'PT7M34S',
+            },
+            completed: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 8,
+            name: 'Phrase (segment 4)',
+            timeRequired: 'PT9M23S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
+              duration: 'PT9M23S',
+            },
+            completed: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 9,
+            name: 'Continued Phrase (without music)',
+            timeRequired: 'PT1M35S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
+              duration: 'PT1M35S',
+            },
+            completed: false,
+          },
+        ]
+      },
+      {
+        '@type': 'Chapter',
+        identifier: 4,
+        name: 'Details',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 10,
+            name: 'Details of the arms',
+            timeRequired: 'PT4M23S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
+              duration: 'PT4M23S',
+            },
+            completed: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 11,
+            name: 'Details of the legs',
+            timeRequired: 'PT1M31S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
+              duration: 'PT1M31S',
+            },
+            completed: false,
+          },
+        ]
+      },
+      {
+        '@type': 'Chapter',
+        identifier: 5,
+        name: 'Stretching',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 12,
+            name: 'Stretching',
+            timeRequired: 'PT16M02S',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
+              duration: 'PT16M02S',
+            },
+            completed: false,
+          },
+        ]
+      }
+    ],
+  
+    courseInstance: [
+      {
+        '@type': 'CourseInstance',
+        courseMode: 'online',
+        startDate: '2024-01-01',
+        location: {
+          '@type': 'Place',
+          name: 'Online Platform',
+          address: 'https://zensual.art'
+        },
+        offers: [
+          {
+            '@type': 'PriceSpecification',
+            price: 20,
+            priceCurrency: 'EUR',
+            duration: 'P1M'
+          }
+        ]
+      }
+    ],
+  
+    // **Добавлен блок learningResources для соответствия схеме**
+    learningResources: [
+      {
+        '@type': 'LearningResource',
+        id: 1,
+        name: 'Lady Styling Practice Guide',
+        learningResourceType: 'pdf',
+        contentSize: '3.0 MB',
+        icon: 'ph:file-pdf'
+      },
+      {
+        '@type': 'LearningResource',
+        id: 2,
+        name: 'Son Cubano Playlist',
+        learningResourceType: 'playlist',
+        contentSize: '15 songs',
+        icon: 'ph:music-notes'
+      },
+      {
+        '@type': 'LearningResource',
+        id: 3,
+        name: 'Arm and Leg Drills',
+        learningResourceType: 'video',
+        contentSize: '20 min',
+        icon: 'ph:video'
+      }
+    ],
+  
+    offers: [
+      {
+        '@type': 'PriceSpecification',
+        price: 60,
+        priceCurrency: 'EUR',
+        duration: 'P1M'
+      }
+    ],
+  
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: 4.8,
+      reviewCount: 10,
+      ratingCount: 10
+    },
+  
+    review: [
+      {
+        '@type': 'Review',
+        identifier: 1,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1
+        },
+        author: {
+          '@type': 'Person',
+          name: 'Maria G.'
+        },
+        reviewBody: 'Excellent course! Yarima explains everything in detail and makes it easy to follow along.',
+        datePublished: '2024-01-15'
+      }
+    ],
+  
+    inLanguage: ['en', 'es'],
+    dateCreated: '2024-01-01',
+    dateModified: '2024-01-01',
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://zensual.art/images/courses/lady-styling.jpg'
+    },
+    video: {
+      '@type': 'VideoObject',
+      url: 'https://zensual.art/videos/lady-styling-preview',
+      duration: 'PT2M10S',
+      thumbnailUrl: 'https://zensual.art/images/courses/lady-styling-thumb.jpg'
+    },
+  
+    stats: {
+      enrolled: 100,
+      completed: 50
+    },
+  
+    community: {
+      discussions: 25,
+      activeStudents: 75,
+      nextLiveQ_A: '2024-02-15T18:00:00Z'
+    }
+  }
+  
 ]
 
 export const mockCourses = mockCoursesData.map((course) => {
