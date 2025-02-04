@@ -293,31 +293,36 @@ const mockCoursesData = [
     // Metadata
     inLanguage: ['en', 'es'],
     dateCreated: '2024-01-01T00:00:00Z',
-    dateModified: '2024-03-20T00:00:00Z',
+    dateModified: '2024-03-15T00:00:00Z',
     image: {
       '@type': 'ImageObject',
-      url: 'https://wedance.vip/courses/cuban-casino-fundamentals/cover.jpg',
+      url: 'https://wedance.vip/courses/cuban-casino-fundamentals.jpg',
     },
     video: {
       '@type': 'VideoObject',
-      url: 'https://wedance.vip/courses/cuban-casino-fundamentals/preview.mp4',
-      duration: 'PT5M',
-      thumbnailUrl: 'https://wedance.vip/courses/cuban-casino-fundamentals/preview-thumb.jpg',
+      url: 'https://youtube.com/watch?v=abc123',
+      duration: 'PT2M30S',
+      thumbnailUrl: 'https://wedance.vip/courses/cuban-casino-fundamentals-thumb.jpg',
     },
 
     // Additional WeDance fields
     stats: {
-      enrolled: 234,
-      completed: 156,
+      enrolled: 120,
+      completed: 45,
     },
     community: {
-      discussions: 15,
-      activeStudents: 89,
-      nextLiveQ_A: '2024-03-25T18:00:00Z',
+      discussions: 85,
+      activeStudents: 75,
+      nextLiveQ_A: '2024-04-01T18:00:00Z',
     },
   },
 ]
 
-export const mockCourses: Course[] = mockCoursesData.map((course) =>
-  validateCourse(course)
-)
+export const mockCourses = mockCoursesData.map((course) => {
+  try {
+    return validateCourse(course)
+  } catch (error) {
+    console.error('Invalid course data:', error)
+    throw error
+  }
+})
