@@ -328,7 +328,7 @@ const mockCoursesData = [
     subscriptionControl: {
       showTrial: false,
       showMonthlyAnnualToggle: false,
-      plans: ['regular']
+      plans: ['regular', 'premium']
     },
     description: 'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
     
@@ -367,7 +367,7 @@ const mockCoursesData = [
         offers: [
           {
             '@type': 'PriceSpecification',
-            price: 160,
+            price: 80,
             priceCurrency: 'EUR',
             duration: 'PT60M'
           }
@@ -643,6 +643,12 @@ const mockCoursesData = [
             price: 20,
             priceCurrency: 'EUR',
             duration: 'P1M'
+          },
+          {
+            '@type': 'PriceSpecification',
+            price: 160,
+            priceCurrency: 'EUR',
+            duration: 'P1Y'
           }
         ]
       }
