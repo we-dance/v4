@@ -415,12 +415,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 1,
             name: 'Intro',
-            timeRequired: 'PT2M10S',
+            timeRequired: '2:10',
             video: {
               '@type': 'VideoObject',
               identifier: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
               playbackId: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
-              duration: 'PT2M10S',
+              duration: '2:10',
               provider: 'mux'
             },
             completed: false,
@@ -430,12 +430,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 2,
             name: 'Real-Time Phrase',
-            timeRequired: 'PT56S',
+            timeRequired: '0:56',
             video: {
               '@type': 'VideoObject',
               identifier: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
               playbackId: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
-              duration: 'PT56S',
+              duration: '0:56',
               provider: 'mux'
             },
             completed: false,
@@ -453,12 +453,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 3,
             name: 'Warm-up (part 1)',
-            timeRequired: 'PT7M4S',
+            timeRequired: '7:04',
             video: {
               '@type': 'VideoObject',
               identifier: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
               playbackId: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
-              duration: 'PT7M4S',
+              duration: '7:04',
               provider: 'mux'
             },
             completed: false,
@@ -468,12 +468,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 4,
             name: 'Warm-up (part 2)',
-            timeRequired: 'PT4M37S',
+            timeRequired: '4:37',
             video: {
               '@type': 'VideoObject',
               identifier: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
               playbackId: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
-              duration: 'PT4M37S',
+              duration: '4:37',
               provider: 'mux'
             },
             completed: false,
@@ -491,12 +491,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 5,
             name: 'Phrase (segment 1)',
-            timeRequired: 'PT8M24S',
+            timeRequired: '8:24',
             video: {
               '@type': 'VideoObject',
               identifier: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
               playbackId: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
-              duration: 'PT8M24S',
+              duration: '8:24',
               provider: 'mux'
             },
             completed: false,
@@ -506,12 +506,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 6,
             name: 'Phrase (segment 2)',
-            timeRequired: 'PT7M43S',
+            timeRequired: '7:43',
             video: {
               '@type': 'VideoObject',
               identifier: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
               playbackId: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
-              duration: 'PT7M43S',
+              duration: '7:43',
               provider: 'mux'
             },
             completed: false,
@@ -521,12 +521,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 7,
             name: 'Phrase (segment 3)',
-            timeRequired: 'PT7M34S',
+            timeRequired: '7:34',
             video: {
               '@type': 'VideoObject',
               identifier: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
               playbackId: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
-              duration: 'PT7M34S',
+              duration: '7:34',
               provider: 'mux'
             },
             completed: false,
@@ -536,12 +536,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 8,
             name: 'Phrase (segment 4)',
-            timeRequired: 'PT9M23S',
+            timeRequired: '9:23',
             video: {
               '@type': 'VideoObject',
               identifier: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
               playbackId: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
-              duration: 'PT9M23S',
+              duration: '9:23',
               provider: 'mux'
             },
             completed: false,
@@ -551,12 +551,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 9,
             name: 'Continued Phrase (without music)',
-            timeRequired: 'PT1M35S',
+            timeRequired: '1:35',
             video: {
               '@type': 'VideoObject',
               identifier: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
               playbackId: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
-              duration: 'PT1M35S',
+              duration: '1:35',
               provider: 'mux'
             },
             completed: false,
@@ -574,12 +574,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 10,
             name: 'Details of the arms',
-            timeRequired: 'PT4M23S',
+            timeRequired: '4:23',
             video: {
               '@type': 'VideoObject',
               identifier: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
               playbackId: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
-              duration: 'PT4M23S',
+              duration: '4:23',
               provider: 'mux'
             },
             completed: false,
@@ -589,12 +589,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 11,
             name: 'Details of the legs',
-            timeRequired: 'PT1M31S',
+            timeRequired: '1:31',
             video: {
               '@type': 'VideoObject',
               identifier: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
               playbackId: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
-              duration: 'PT1M31S',
+              duration: '1:31',
               provider: 'mux'
             },
             completed: false,
@@ -612,12 +612,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 12,
             name: 'Stretching',
-            timeRequired: 'PT16M02S',
+            timeRequired: '16:02',
             video: {
               '@type': 'VideoObject',
               identifier: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
               playbackId: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
-              duration: 'PT16M02S',
+              duration: '16:02',
               provider: 'mux'
             },
             completed: false,
