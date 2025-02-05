@@ -89,7 +89,7 @@ const relatedEvents = computed(() => {
             type: 'party',
           }
         default:
-          throw new Error(`Unknown event type: ${base.type}`)
+          throw new Error(`Unknown event type: ${(base as any).type}`)
       }
     })
     .slice(0, 2)

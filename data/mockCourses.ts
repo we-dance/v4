@@ -13,6 +13,11 @@ const mockCoursesData = [
     '@id': 'course-1',
     identifier: '1',
     name: 'Cuban Casino Fundamentals',
+    subscriptionControl: {
+      showTrial: true,
+      showMonthlyAnnualToggle: true,
+      plans: ['regular', 'premium']
+    },
     description:
       'Master the authentic Cuban Casino style with world champion Maykel Fonts. From basic steps to advanced turn patterns, this comprehensive course will give you a solid foundation in Cuban dance.',
     provider: {
@@ -305,7 +310,6 @@ const mockCoursesData = [
       thumbnailUrl: instructor.image,
     },
 
-    // Additional WeDance fields
     stats: {
       enrolled: 234,
       completed: 156,
@@ -321,6 +325,11 @@ const mockCoursesData = [
     '@id': 'salsa-lady-styling',
     identifier: 'salsa-lady-styling-2024',
     name: 'Salsa Lady Styling',
+    subscriptionControl: {
+      showTrial: false,
+      showMonthlyAnnualToggle: false,
+      plans: ['regular']
+    },
     description: 'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
     
     provider: {
@@ -330,7 +339,7 @@ const mockCoursesData = [
       url: 'https://zensual.art',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://zensual.art/logo.png' // Добавлен логотип для соответствия
+        url: 'https://zensual.art/logo.png'
       }
     },
   
@@ -339,7 +348,7 @@ const mockCoursesData = [
       identifier: 'yarima-rodriguez',
       name: 'Yarima Rodríguez',
       image: 'https://zensual.art/instructors/yarima.jpg',
-      jobTitle: 'Professional Cuban Dancer', // Взято из achievements
+      jobTitle: 'Professional Cuban Dancer',
       knowsAbout: ['Salsa Cubana', 'Son Cubano', 'Lady Styling'],
       knowsLanguage: ['es', 'en'],
       teachingLevel: 'Advanced',
@@ -603,7 +612,6 @@ const mockCoursesData = [
       }
     ],
   
-    // **Добавлен блок learningResources для соответствия схеме**
     learningResources: [
       {
         '@type': 'LearningResource',

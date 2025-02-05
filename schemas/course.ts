@@ -141,6 +141,13 @@ export const courseSchema = z.object({
   provider: providerSchema,
   instructor: courseInstructorSchema,
 
+  // Subscription control
+  subscriptionControl: z.object({
+    showTrial: z.boolean(),
+    showMonthlyAnnualToggle: z.boolean(),
+    plans: z.array(z.string())
+  }).optional(),
+
   // Educational details
   educationalLevel: educationalLevelSchema,
   teaches: z.array(learningObjectiveSchema),
