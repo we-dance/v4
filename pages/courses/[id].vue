@@ -33,7 +33,7 @@ const selectLesson = (lesson: any) => {
 const getMonthlyPrice = () => {
   const monthlyOffer = course.value.offers.find(offer => offer.duration === 'P1M')
   if (monthlyOffer) {
-    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}/mo`
+    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
   }
   return 'Contact for pricing'
 }
@@ -60,10 +60,14 @@ const handleSubscribe = () => {
     component: 'CourseSubscriptionDialog',
     props: {
       course: course.value,
-      onSelect: (plan: { type: string; interval?: string }) => {
-        navigateTo(
-          `/checkout/${route.params.id}?type=course&plan=${plan.type}${plan.interval ? `&interval=${plan.interval}` : ''}`
-        )
+      onSelect: async (plan: { type: string; interval?: string }) => {
+        try {
+          await navigateTo(
+            `/checkout/${route.params.id}?type=course&plan=${plan.type}${plan.interval ? `&interval=${plan.interval}` : ''}`
+          )
+        } catch (error) {
+          console.error('Navigation error:', error)
+        }
       },
     },
   })
@@ -348,40 +352,38 @@ const handleSubscribe = () => {
         </div>
 
         <!-- Sidebar -->
-        <div class="space-y-6">
-          <!-- Course Info -->
+        <div class="lg:sticky lg:top-8 space-y-8">
+          <!-- Course Overview -->
           <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="p-4 border-b">
-              <h3 class="font-semibold">Course Information</h3>
+              <h3 class="font-semibold">Course Overview</h3>
             </div>
-            <div class="p-4 space-y-4">
-              <div class="flex items-center gap-2">
-                <Icon name="ph:clock" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.timeRequired }}</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <Icon name="ph:book" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.numberOfLessons }} lessons</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <Icon name="ph:graduation-cap" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.educationalLevel }}</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <Icon name="ph:translate" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.inLanguage.join(', ') }}</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <Icon name="ph:users" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.stats.enrolled }} enrolled</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <Icon name="ph:check-circle" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.stats.completed }} completed</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <Icon name="ph:star" class="w-5 h-5 text-muted-foreground" />
-                <span class="text-sm">{{ course.aggregateRating.ratingValue }} ({{ course.aggregateRating.reviewCount }} reviews)</span>
+            <div class="p-4">
+              <div class="grid grid-cols-2 gap-4">
+                <div class="text-center p-3 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold">
+                    {{ course.stats.enrolled }}
+                  </div>
+                  <div class="text-sm text-muted-foreground">Students</div>
+                </div>
+                <div class="text-center p-3 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold">
+                    {{ course.stats.completed }}
+                  </div>
+                  <div class="text-sm text-muted-foreground">Completed</div>
+                </div>
+                <div class="text-center p-3 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold text-warning">
+                    {{ course.aggregateRating.ratingValue }}
+                  </div>
+                  <div class="text-sm text-muted-foreground">Avg Rating</div>
+                </div>
+                <div class="text-center p-3 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold">
+                    {{ course.aggregateRating.reviewCount }}
+                  </div>
+                  <div class="text-sm text-muted-foreground">Reviews</div>
+                </div>
               </div>
             </div>
           </div>
@@ -393,23 +395,16 @@ const handleSubscribe = () => {
                 <div>
                   <h3 class="font-semibold mb-2">Starting from</h3>
                   <div class="text-2xl font-bold">
-                    {{ getMonthlyPrice() }}
+                    {{ getMonthlyPrice() }}<span class="text-base font-normal text-muted-foreground">/month</span>
+                    
                   </div>
                 </div>
 
-                <div v-if="course.subscriptionPlans?.regular.features.length" class="text-sm text-muted-foreground">
-                  <h4 class="font-medium mb-2">What's included:</h4>
-                  <ul class="space-y-2">
-                    <li v-for="feature in course.subscriptionPlans.regular.features" 
-                        :key="feature"
-                        class="flex items-center gap-2">
-                      <Icon name="ph:check" class="w-4 h-4 text-success" />
-                      {{ feature }}
-                    </li>
-                  </ul>
-                </div>
-
-                <Button class="w-full" size="lg" @click="handleSubscribe">
+                <Button
+                  class="w-full"
+                  variant="primary"
+                  @click="handleSubscribe"
+                >
                   View Pricing Plans
                 </Button>
 

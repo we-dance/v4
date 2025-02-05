@@ -96,38 +96,89 @@ const item = computed<CheckoutItem | null>(() => {
   }
   if (type === 'course') {
     const course = mockCourses.find(
-      (c) => String(c.id) === String(route.params.id)
+      (c) => String(c.identifier) === String(route.params.id)
     )
     if (course) {
+      const monthlyOffer = course.offers.find(offer => offer.duration === 'P1M')
+      const annualOffer = course.offers.find(offer => offer.duration === 'P1Y')
       return {
-        id: course.id,
-        name: course.title,
+        id: course.identifier,
+        name: course.name,
         image: course.instructor.image,
         instructor: {
           name: course.instructor.name,
           image: course.instructor.image,
         },
-        pricing: course.pricing,
+        pricing: {
+          regular: {
+            monthly: monthlyOffer ? {
+              amount: monthlyOffer.price,
+              currency: monthlyOffer.priceCurrency,
+              interval: 'monthly'
+            } : {
+              amount: 0,
+              currency: 'EUR',
+              interval: 'monthly'
+            },
+            annual: annualOffer ? {
+              amount: annualOffer.price,
+              currency: annualOffer.priceCurrency,
+              interval: 'annual'
+            } : {
+              amount: 0,
+              currency: 'EUR',
+              interval: 'annual'
+            }
+          },
+          premium: {
+            monthly: monthlyOffer ? {
+              amount: monthlyOffer.price * 2,
+              currency: monthlyOffer.priceCurrency,
+              interval: 'monthly'
+            } : {
+              amount: 0,
+              currency: 'EUR',
+              interval: 'monthly'
+            },
+            annual: annualOffer ? {
+              amount: annualOffer.price * 2,
+              currency: annualOffer.priceCurrency,
+              interval: 'annual'
+            } : {
+              amount: 0,
+              currency: 'EUR',
+              interval: 'annual'
+            }
+          },
+          trial: course.subscriptionControl?.showTrial ? {
+            duration: 7
+          } : undefined
+        },
         description: course.description,
       }
     }
   }
   if (type === 'private') {
     const course = mockCourses.find(
-      (c) => String(c.id) === String(route.params.id)
+      (c) => String(c.identifier) === String(route.params.id)
     )
-    if (course && course.instructor.privateClass) {
+    const privateOffer = course?.instructor.availableService?.offers[0]
+    if (course && privateOffer) {
       return {
-        id: course.id,
+        id: course.identifier,
         name: 'Private Class',
         image: course.instructor.image,
         instructor: {
-          id: String(course.instructor.id),
+          id: course.instructor.identifier,
           name: course.instructor.name,
           image: course.instructor.image,
         },
-        privateClass: course.instructor.privateClass,
-        description: `Private ${course.instructor.privateClass.duration}-minute lesson with ${course.instructor.name}`,
+        privateClass: {
+          amount: privateOffer.price,
+          currency: privateOffer.priceCurrency,
+          duration: Number(privateOffer.duration?.replace('PT', '').replace('M', '') || 60)
+        },
+        description: `Private ${privateOffer.duration?.replace('PT', '').replace('M', '') || 60}-minute lesson with ${course.instructor.name}`,
       }
     }
   }
@@ -251,6 +302,11 @@ const handleSubmit = async () => {
     console.error('Checkout failed:', e)
   }
 }
+
+// Add at the top of the script
+const isEventItem = (item: CheckoutItem | null): item is CheckoutItem & { date: { start: string }; location: { name: string; city: string } } => {
+  return item !== null && 'date' in item && 'location' in item
+}
 </script>
 
 <template>
@@ -285,14 +341,11 @@ const handleSubmit = async () => {
                 <template v-if="type === 'event'">
                   <div class="flex items-center gap-2">
                     <Icon name="ph:calendar" class="w-4 h-4" />
-                    <span>{{ formatDate((item as AnyEvent).date.start) }}</span>
+                    <span v-if="isEventItem(item)">{{ formatDate(item.date.start) }}</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4" />
-                    <span
-                      >{{ (item as AnyEvent).location.name }},
-                      {{ (item as AnyEvent).location.city }}</span
-                    >
+                    <span v-if="isEventItem(item)">{{ item.location.name }}, {{ item.location.city }}</span>
                   </div>
                 </template>
                 <template v-else>
