@@ -21,8 +21,18 @@ export const eventTypes = [
 
 const mockOrganizers = [
   {
+    "@context": "https://schema.org",
+    "@type": "Organization",
     id: '1',
     name: 'Berlin Salsa Community',
+    email: "ijakinhy@gmail.com",
+    contactPoint: [{
+      "@type": "ContactPoint",
+      telephone: '+4930123456789',
+      email: 'contact@salsaberlin.de',
+      contactType: 'customer support',
+    }],
+
     location: 'Berlin, Germany',
     avatar:
       'https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?w=400&h=400&fit=crop',
@@ -51,6 +61,13 @@ const mockOrganizers = [
   {
     id: '2',
     name: 'Swing Dance Paris',
+    email: "ijakinhy@gmail.com",
+    contactPoint: [{
+      "@type": "ContactPoint",
+      telephone: '+4930123456789',
+      email: 'contact@salsaberlin.de',
+      contactType: 'customer support',
+    }],
     location: 'Paris, France',
     avatar:
       'https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?w=400&h=400&fit=crop',
@@ -78,6 +95,13 @@ const mockOrganizers = [
   {
     id: '3',
     name: 'Tango Buenos Aires',
+    email: "ijakinhy@gmail.com",
+    contactPoint: [{
+      "@type": "ContactPoint",
+      telephone: '+4930123456789',
+      email: 'contact@salsaberlin.de',
+      contactType: 'customer support',
+    }],
     location: 'Buenos Aires, Argentina',
     avatar:
       'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=400&h=400&fit=crop',
@@ -96,6 +120,13 @@ const mockOrganizers = [
   {
     id: '4',
     name: 'NYC Urban Dance',
+    email: "ijakinhy@gmail.com",
+    contactPoint: [{
+      "@type": "ContactPoint",
+      telephone: '+4930123456789',
+      email: 'contact@salsaberlin.de',
+      contactType: 'customer support',
+    }],
     location: 'New York, USA',
     avatar:
       'https://images.unsplash.com/photo-1529335764857-3f1164d1cb24?w=400&h=400&fit=crop',
@@ -114,6 +145,13 @@ const mockOrganizers = [
   {
     id: '5',
     name: 'Rio Zouk Movement',
+    email: "ijakinhy@gmail.com",
+    contactPoint: [{
+      "@type": "ContactPoint",
+      telephone: '+4930123456789',
+      email: 'contact@salsaberlin.de',
+      contactType: 'customer support',
+    }],
     location: 'Rio de Janeiro, Brazil',
     avatar:
       'https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=400&h=400&fit=crop',
@@ -133,6 +171,13 @@ const mockOrganizers = [
   {
     id: '6',
     name: 'Kizomba Lisboa',
+    email: "ijakinhy@gmail.com",
+    contactPoint: [{
+      "@type": "ContactPoint",
+      telephone: '+4930123456789',
+      email: 'contact@salsaberlin.de',
+      contactType: 'customer support',
+    }],
     location: 'Lisbon, Portugal',
     avatar:
       'https://images.unsplash.com/photo-1523307730650-594bc63f9d67?w=400&h=400&fit=crop',
