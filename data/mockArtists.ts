@@ -493,6 +493,51 @@ const mockArtistsData = [
       },
     },
   },
+  {
+    id: 17,
+    name: 'Yarima Rodríguez',
+    roles: ['instructor', 'performer', 'choreographer'],
+    specialties: ['salsa cubana', 'son cubano', 'lady styling'],
+    level: 'advanced',
+    location: 'Cuba',
+    image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
+    followers: '35k+',
+    rating: 4.9,
+    reviewCount: 150,
+    languages: ['Spanish', 'English'],
+    experience: {
+      years: 15,
+      teachingLevels: ['intermediate', 'advanced'],
+      achievements: ['Professional Cuban Dancer', 'International Dance Instructor']
+    },
+    availability: {
+      privateClasses: true,
+      workshops: true,
+      touring: true,
+      currentLocation: 'Cuba',
+      pricing: {
+        privateClass: {
+          amount: 80,
+          currency: 'EUR',
+          duration: 60
+        },
+        workshop: {
+          amount: 40,
+          currency: 'EUR',
+          duration: 120,
+          note: 'per person'
+        }
+      }
+    },
+    certifications: [
+      'Professional Cuban Dance Instructor',
+      'Lady Styling Specialist'
+    ],
+    socialMedia: {
+      instagram: 'https://www.instagram.com/zensual.art/',
+      youtube: 'yarimaRodriguez'
+    }
+  },
 ]
 
 export const mockArtists: Artist[] = validateArtists(mockArtistsData)
