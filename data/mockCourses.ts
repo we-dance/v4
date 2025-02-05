@@ -419,9 +419,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
+              playbackId: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
               duration: 'PT2M10S',
+              provider: 'mux'
             },
             completed: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -431,9 +434,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
+              playbackId: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
               duration: 'PT56S',
+              provider: 'mux'
             },
             completed: false,
+            locked: false
           },
         ]
       },
@@ -451,9 +457,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
-              duration: 'PT7M4S'
+              playbackId: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
+              duration: 'PT7M4S',
+              provider: 'mux'
             },
-            completed: false
+            completed: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -463,9 +472,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
-              duration: 'PT4M37S'
+              playbackId: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
+              duration: 'PT4M37S',
+              provider: 'mux'
             },
-            completed: false
+            completed: false,
+            locked: true
           }
         ]
       },
@@ -483,9 +495,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
+              playbackId: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
               duration: 'PT8M24S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -495,9 +510,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
+              playbackId: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
               duration: 'PT7M43S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -507,9 +525,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
+              playbackId: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
               duration: 'PT7M34S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -519,9 +540,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
+              playbackId: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
               duration: 'PT9M23S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -531,9 +555,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
+              playbackId: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
               duration: 'PT1M35S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
         ]
       },
@@ -551,9 +578,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
+              playbackId: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
               duration: 'PT4M23S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -563,9 +593,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
+              playbackId: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
               duration: 'PT1M31S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
         ]
       },
@@ -583,9 +616,12 @@ const mockCoursesData = [
             video: {
               '@type': 'VideoObject',
               identifier: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
+              playbackId: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
               duration: 'PT16M02S',
+              provider: 'mux'
             },
             completed: false,
+            locked: true
           },
         ]
       }
