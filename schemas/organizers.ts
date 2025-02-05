@@ -14,30 +14,39 @@ const EventTypeSchema = z.object({
 
 export const eventTypesSchema = z.array(EventTypeSchema)
 
-const OrganizerLinksSchema = z.object({
-  whatsapp: z.string().url().optional(),
-  instagram: z.string().url().optional(),
-  facebook: z.string().url().optional(),
-  website: z.string().url().optional(),
-  telegram: z.string().url().optional(),
-  discord: z.string().url().optional(),
+const OrganizerLinksSchema = z.array(z.string().url()) // sameAs requires an array of URLs
+
+const OrganizerAddressSchema = z.object({
+  '@type': z.literal('PostalAddress'),
+  addressLocality: z.string(),
+  addressCountry: z.string(),
 })
 
-const OrganizerFeaturesSchema = z.object({
-  eventCalendar: z.boolean().default(false),
-  photoGallery: z.boolean().default(false),
-  communityUpdates: z.boolean().default(false),
-  memberDirectory: z.boolean().default(false),
-  discussionBoard: z.boolean().default(false),
+const OrganizerEventSchema = z.object({
+  '@type': z.literal('Event'),
+  name: z.string(),
+  startDate: z.string(), // ISO 8601 date format recommended
+  location: z.object({
+    '@type': z.literal('Place'),
+    address: OrganizerAddressSchema,
+  }),
 })
+
+const OrganizerFeaturesSchema = z.array(
+  z.object({
+    '@type': z.literal('PropertyValue'),
+    name: z.string(),
+    value: z.boolean(),
+  })
+)
 
 export const OrganizerSchema = z.object({
   '@context': z.literal('https://schema.org'),
-  '@type': z.enum(['Person', 'Organization']),
-  id: z.string(),
+  '@type': z.array(z.enum(['Person', 'Organization'])),
+  '@id': z.string().url(), // Schema.org uses "@id" as a unique URL identifier
+  url: z.string().url().optional(),
   name: z.string(),
   email: z.string().email(),
-  url: z.string().url().optional(),
   contactPoint: z.array(
     z.object({
       '@type': z.literal('ContactPoint'),
@@ -46,22 +55,23 @@ export const OrganizerSchema = z.object({
       email: z.string().email(),
     })
   ),
-  location: z.string(),
-  avatar: z.string().url(),
-  coverImage: z.string().url(),
-  styles: z.array(z.string()),
-  eventTypes: z.array(z.string()),
-  bio: z.string(),
+  address: OrganizerAddressSchema, // Replaces  location to address
+  logo: z.string().url(), // Organization logo to avatar
+  image: z.string().url(), // Cover image to image
+  knowsAbout: z.array(z.string()), // Replaces styles to knowsAbout
+  hasEvent: z.array(OrganizerEventSchema).optional(), // Replaces eventTypes to  hasEvent
+  description: z.string(), // Replaces bio to description
   eventCount: z.number().default(0),
-  links: OrganizerLinksSchema.optional(),
-  features: OrganizerFeaturesSchema.optional(),
+  sameAs: OrganizerLinksSchema.optional(), // Replaces links to sameAs
+  additionalProperty: OrganizerFeaturesSchema.optional(), // Replaces features to additionalProperty
   privacy: z.enum(['public', 'semi-private', 'private']).default('public'),
-  admins: z.array(z.string()).default([]),
-  mission: z.string().optional(),
+  founder: z.array(z.string()).default([]), // Replaces admins to founder
+  about: z.string().optional(), // Replaces mission to about 
+  offers: z.array(z.string()).optional(), // Replaces regularActivities to offers 
   guidelines: z.string().optional(),
   membershipRules: z.string().optional(),
   venues: z.array(z.string()).optional(),
-  regularActivities: z.array(z.string()).optional(),
+  regularActivities: z.array(z.string()).optional()
 })
 
 export type Organizer = z.infer<typeof OrganizerSchema>
