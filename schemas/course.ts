@@ -55,10 +55,13 @@ const lessonSchema = z.object({
   timeRequired: z.string(), // previously 'duration', now in ISO 8601
   video: z.object({
     '@type': z.literal('VideoObject'),
-    identifier: z.string(), // previously 'videoId'
+    identifier: z.string(), // YouTube video ID
+    playbackId: z.string().optional(), // Mux playback ID
     duration: z.string(), // ISO 8601
+    provider: z.enum(['youtube', 'mux']).default('youtube'),
   }),
   completed: z.boolean(),
+  locked: z.boolean().default(false),
 })
 
 const moduleSchema = z.object({

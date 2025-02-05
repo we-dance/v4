@@ -4,6 +4,7 @@ import { mockCourses } from '~/data/mockCourses'
 import { useDialog } from '~/composables/useDialog'
 import { useRoute } from 'vue-router'
 import type { Course } from '~/schemas/course'
+import '@mux/mux-player'
 
 const route = useRoute()
 const course = ref(
@@ -101,13 +102,21 @@ const handleSubscribe = () => {
           <!-- Video Player -->
           <div class="bg-background rounded-xl shadow-sm overflow-hidden">
             <div class="aspect-video">
+              <mux-player
+                v-if="currentLesson.video.playbackId"
+                stream-type="on-demand"
+                :playback-id="currentLesson.video.playbackId"
+                :metadata-video-title="currentLesson.name"
+                accent-color="#F1023D"
+              />
               <iframe
+                v-else
                 :src="`https://www.youtube.com/embed/${currentLesson.video.identifier}`"
                 class="w-full h-full"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-              ></iframe>
+              />
             </div>
             <div class="p-4">
               <h2 class="text-xl font-semibold mb-2">
