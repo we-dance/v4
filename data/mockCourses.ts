@@ -347,7 +347,7 @@ const mockCoursesData = [
       '@type': 'Person',
       identifier: 'yarima-rodriguez',
       name: 'Yarima Rodríguez',
-      image: 'https://zensual.art/instructors/yarima.jpg',
+      image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
       jobTitle: 'Professional Cuban Dancer',
       knowsAbout: ['Salsa Cubana', 'Son Cubano', 'Lady Styling'],
       knowsLanguage: ['es', 'en'],
@@ -374,7 +374,7 @@ const mockCoursesData = [
         ]
       },
       socialMedia: {
-        instagram: 'https://instagram.com/yarima.rodriguez',
+        instagram: 'https://www.instagram.com/zensual.art/',
         youtube: 'https://youtube.com/@yarimaRodriguez'
       }
     },
