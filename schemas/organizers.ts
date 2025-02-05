@@ -32,18 +32,20 @@ const OrganizerFeaturesSchema = z.object({
 })
 
 export const OrganizerSchema = z.object({
-  "@context": z.literal("https://schema.org"),
-  "@type": z.enum(["Person", "Organization"]),
+  '@context': z.literal('https://schema.org'),
+  '@type': z.enum(['Person', 'Organization']),
   id: z.string(),
   name: z.string(),
   email: z.string().email(),
   url: z.string().url().optional(),
-  contactPoint: z.array(z.object({
-    "@type": z.literal("ContactPoint"),
-    contactType: z.string().optional(),
-    telephone: z.string().regex(/^\+?[1-9]\d{1,14}$/, "Invalid phone number"),
-    email: z.string().email(),
-  })),
+  contactPoint: z.array(
+    z.object({
+      '@type': z.literal('ContactPoint'),
+      contactType: z.string().optional(),
+      telephone: z.string().regex(/^\+?[1-9]\d{1,14}$/, 'Invalid phone number'),
+      email: z.string().email(),
+    })
+  ),
   location: z.string(),
   avatar: z.string().url(),
   coverImage: z.string().url(),
