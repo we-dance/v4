@@ -144,7 +144,7 @@ const handleSubscribe = () => {
                   <li
                     v-for="lesson in module.hasPart"
                     :key="lesson.identifier"
-                    @click="selectLesson(lesson)"
+                    @click="lesson.locked ? handleSubscribe() : selectLesson(lesson)"
                     class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
                     :class="{
                       'bg-accent/10': currentLesson.identifier === lesson.identifier,
@@ -154,12 +154,16 @@ const handleSubscribe = () => {
                       :name="
                         lesson.completed
                           ? 'ph:check-circle-fill'
+                          : lesson.locked
+                          ? 'ph:lock-simple'
                           : 'ph:play-circle'
                       "
                       class="w-5 h-5"
                       :class="
                         lesson.completed
                           ? 'text-success'
+                          : lesson.locked
+                          ? 'text-muted-foreground'
                           : 'text-muted-foreground'
                       "
                     />
