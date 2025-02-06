@@ -228,14 +228,57 @@ const mockCoursesData = [
         price: 15,
         priceCurrency: 'EUR',
         duration: 'P1M',
+        name: 'regular'
       },
       {
         '@type': 'PriceSpecification',
         price: 150,
         priceCurrency: 'EUR',
         duration: 'P1Y',
+        name: 'regular'
       },
+      {
+        '@type': 'PriceSpecification',
+        price: 30,
+        priceCurrency: 'EUR',
+        duration: 'P1M',
+        name: 'premium'
+      },
+      {
+        '@type': 'PriceSpecification',
+        price: 300,
+        priceCurrency: 'EUR',
+        duration: 'P1Y',
+        name: 'premium'
+      }
     ],
+    subscriptionPlans: {
+      regular: {
+        features: [
+          'Full course access',
+          'Downloadable materials',
+          'Community forum access',
+          'Monthly group Q&A'
+        ]
+      },
+      premium: {
+        features: [
+          'Everything in Regular',
+          'Weekly live Q&A sessions',
+          'Priority support',
+          '1-on-1 feedback',
+          'Private community access'
+        ]
+      },
+      trial: {
+        duration: 7,
+        features: [
+          'First module access',
+          'Community forum preview',
+          'No credit card required'
+        ]
+      }
+    },
 
     // Ratings and reviews
     aggregateRating: {
@@ -627,6 +670,36 @@ const mockCoursesData = [
       }
     ],
   
+    offers: [
+      {
+        '@type': 'PriceSpecification',
+        price: 60,
+        priceCurrency: 'EUR',
+        duration: 'P1M',
+        name: 'regular'
+      },
+      {
+        '@type': 'PriceSpecification',
+        price: 160,
+        priceCurrency: 'EUR',
+        duration: 'P1Y',
+        name: 'regular'
+      },
+      {
+        '@type': 'PriceSpecification',
+        price: 160,
+        priceCurrency: 'EUR',
+        duration: 'P1M',
+        name: 'premium'
+      },
+      {
+        '@type': 'PriceSpecification',
+        price: 600,
+        priceCurrency: 'EUR',
+        duration: 'P1Y',
+        name: 'premium'
+      }
+    ],
     courseInstance: [
       {
         '@type': 'CourseInstance',
@@ -636,21 +709,7 @@ const mockCoursesData = [
           '@type': 'Place',
           name: 'Online Platform',
           address: 'https://zensual.art'
-        },
-        offers: [
-          {
-            '@type': 'PriceSpecification',
-            price: 20,
-            priceCurrency: 'EUR',
-            duration: 'P1M'
-          },
-          {
-            '@type': 'PriceSpecification',
-            price: 160,
-            priceCurrency: 'EUR',
-            duration: 'P1Y'
-          }
-        ]
+        }
       }
     ],
   
@@ -681,14 +740,21 @@ const mockCoursesData = [
       }
     ],
   
-    offers: [
-      {
-        '@type': 'PriceSpecification',
-        price: 60,
-        priceCurrency: 'EUR',
-        duration: 'P1M'
+    subscriptionPlans: {
+      regular: {
+        features: [
+          'Full course access',
+          'Practice materials'
+        ]
+      },
+      premium: {
+        features: [
+          'Everything in Regular',
+          'Priority support',
+          'Live Q&A sessions'
+        ]
       }
-    ],
+    },
   
     aggregateRating: {
       '@type': 'AggregateRating',

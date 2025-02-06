@@ -9,6 +9,7 @@ const monetaryAmountSchema = z.object({
   validFrom: z.string().optional(),
   validThrough: z.string().optional(),
   duration: z.string().optional(), // ISO 8601 duration format
+  name: z.string().optional(), // 'regular' or 'premium'
 })
 
 const courseInstanceSchema = z.object({
