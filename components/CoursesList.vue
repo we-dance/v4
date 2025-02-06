@@ -36,9 +36,10 @@
           <Label>Level</Label>
           <Select v-model="filters.level">
             <option value="">All Levels</option>
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+            <option value="AllLevels">All Levels</option>
           </Select>
         </div>
         <div class="space-y-2">
@@ -77,19 +78,19 @@
 
     <!-- Course Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card v-for="course in filteredCourses" :key="course.id" class="group">
-        <NuxtLink :to="`/courses/${course.id}`">
+      <Card v-for="course in filteredCourses" :key="course.identifier" class="group">
+        <NuxtLink :to="`/courses/${course.identifier}`">
           <CardHeader class="space-y-4">
             <div class="aspect-video bg-muted rounded-lg overflow-hidden">
               <img
-                :src="course.instructor.image"
-                :alt="course.title"
+                :src="course.image?.url"
+                :alt="course.name"
                 class="w-full h-full object-cover transition group-hover:scale-105"
               />
             </div>
             <div class="space-y-2">
               <h3 class="font-semibold text-xl group-hover:text-primary">
-                {{ course.title }}
+                {{ course.name }}
               </h3>
               <p class="text-sm text-muted-foreground line-clamp-2">
                 {{ course.description }}
@@ -108,21 +109,20 @@
                   {{ course.instructor.name }}
                 </div>
                 <div class="text-xs text-muted-foreground">
-                  {{ course.instructor.credentials }}
+                  {{ course.instructor.jobTitle }}
                 </div>
               </div>
             </div>
             <div class="flex items-center justify-between text-sm">
               <div class="flex items-center gap-1">
                 <Icon name="ph:star-fill" class="w-4 h-4 text-yellow-400" />
-                <span>{{ course.stats.avgRating }}</span>
+                <span>{{ course.aggregateRating?.ratingValue }}</span>
                 <span class="text-muted-foreground"
-                  >({{ course.stats.reviewCount }})</span
+                  >({{ course.aggregateRating?.reviewCount }})</span
                 >
               </div>
               <div class="font-medium">
-                {{ course.pricing.regular.monthly.amount }}
-                {{ course.pricing.regular.monthly.currency }}/mo
+                {{ getMonthlyPrice(course) }}
               </div>
             </div>
           </CardContent>
@@ -147,6 +147,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { mockCourses } from '~/data/mockCourses'
+import type { Course } from '~/schemas/course'
 
 const search = ref('')
 const showFilters = ref(false)
@@ -170,6 +171,14 @@ const activeFiltersCount = computed(() => {
   return Object.values(filters.value).filter(Boolean).length
 })
 
+const getMonthlyPrice = (course: Course) => {
+  const monthlyOffer = course.offers?.find(offer => offer.duration === 'P1M')
+  if (monthlyOffer) {
+    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}/mo`
+  }
+  return 'Contact for pricing'
+}
+
 const filteredCourses = computed(() => {
   let result = [...mockCourses]
 
@@ -178,22 +187,31 @@ const filteredCourses = computed(() => {
     const searchLower = search.value.toLowerCase()
     result = result.filter(
       (course) =>
-        course.title.toLowerCase().includes(searchLower) ||
+        course.name.toLowerCase().includes(searchLower) ||
         course.description.toLowerCase().includes(searchLower) ||
         course.instructor.name.toLowerCase().includes(searchLower)
     )
   }
 
   // Apply filters
+  if (filters.value.level) {
+    result = result.filter((course) => course.educationalLevel === filters.value.level)
+  }
+
   if (filters.value.rating) {
     const minRating = parseFloat(filters.value.rating)
-    result = result.filter((course) => course.stats.avgRating >= minRating)
+    result = result.filter((course) => 
+      (course.aggregateRating?.ratingValue || 0) >= minRating
+    )
   }
 
   if (filters.value.priceRange) {
     const [min, max] = filters.value.priceRange.split('-').map(Number)
     result = result.filter((course) => {
-      const price = course.pricing.regular.monthly.amount
+      const monthlyOffer = course.offers?.find(offer => offer.duration === 'P1M')
+      if (!monthlyOffer) return false
+      
+      const price = monthlyOffer.price
       if (max) {
         return price >= min && price <= max
       }

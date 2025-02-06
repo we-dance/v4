@@ -1,26 +1,23 @@
 <script setup lang="ts">
 import { Switch } from '@/components/ui/switch'
 import { ref, computed } from 'vue'
+import type { Course } from '~/schemas/course'
 
 const props = defineProps<{
   course: {
-    id: string
-    title: string
-    pricing: {
-      trial?: {
-        duration: number
-        features: string[]
-      }
-      regular: {
-        monthly: { amount: number; currency: string; savings?: string }
-        annual: { amount: number; currency: string; savings: string }
-        features: string[]
-      }
-      premium: {
-        monthly: { amount: number; currency: string; savings?: string }
-        annual: { amount: number; currency: string; savings: string }
-        features: string[]
-      }
+    identifier: string
+    name: string
+    offers: Array<{
+      '@type': 'PriceSpecification'
+      price: number
+      priceCurrency: string
+      duration: string
+      name: string
+    }>
+    subscriptionControl: {
+      showTrial: boolean
+      showMonthlyAnnualToggle: boolean
+      plans: string[]
     }
   }
   onSelect: (plan: { type: string; interval?: string }) => void
@@ -29,20 +26,38 @@ const props = defineProps<{
 const dialog = useDialog()
 const isAnnual = ref(false)
 
-const maxSavings = computed(() => {
-  const regularSavings = props.course.pricing.regular.annual.savings
-  const premiumSavings = props.course.pricing.premium.annual.savings
-
-  const extractNumber = (str: string) => {
-    const match = str.match(/\d+/)
-    return match ? Number(match[0]) : 0
+const prices = computed(() => {
+  const regularMonthly = props.course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'regular')
+  const regularAnnual = props.course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'regular')
+  const premiumMonthly = props.course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'premium')
+  const premiumAnnual = props.course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'premium')
+  
+  return {
+    regular: {
+      monthly: regularMonthly?.price || 0,
+      annual: regularAnnual?.price || 0,
+      currency: regularMonthly?.priceCurrency || 'EUR'
+    },
+    premium: {
+      monthly: premiumMonthly?.price || 0,
+      annual: premiumAnnual?.price || 0,
+      currency: premiumMonthly?.priceCurrency || 'EUR'
+    }
   }
-
-  return Math.max(extractNumber(regularSavings), extractNumber(premiumSavings))
 })
 
-const handleSelect = (plan: { type: string; interval?: string }) => {
-  props.onSelect(plan)
+const savings = computed(() => {
+  const regularSavings = prices.value.regular.monthly * 12 - prices.value.regular.annual
+  const premiumSavings = prices.value.premium.monthly * 12 - prices.value.premium.annual
+  
+  const regularPercent = Math.round((regularSavings / (prices.value.regular.monthly * 12)) * 100)
+  const premiumPercent = Math.round((premiumSavings / (prices.value.premium.monthly * 12)) * 100)
+  
+  return Math.max(regularPercent, premiumPercent)
+})
+
+const handleSelect = async (plan: { type: string; interval?: string }) => {
+  await props.onSelect(plan)
   dialog.close()
 }
 </script>
@@ -57,8 +72,11 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
 
   <div class="space-y-4 py-4">
     <!-- Interval Toggle -->
-    <div class="flex justify-center gap-4 items-center mb-6">
-      <span :class="{ 'text-primary font-medium': !isAnnual }">Monthly</span>
+    <div
+      v-if="course.subscriptionControl?.showMonthlyAnnualToggle"
+      class="flex justify-center gap-4 items-center mb-6"
+    >
+      <span :class="{ 'text-primary font-medium': !isAnnual }">Ежемесячно</span>
       <Switch
         :checked="isAnnual"
         @update:checked="isAnnual = $event"
@@ -66,15 +84,15 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
       />
       <span :class="{ 'text-primary font-medium': isAnnual }">
         Annual
-        <span class="text-sm text-accent ml-1"
-          >Save up to {{ maxSavings }}%</span
+        <span v-if="savings" class="text-sm text-accent ml-1"
+          >Save up to {{ savings }}%</span
         >
       </span>
     </div>
 
     <!-- Trial Plan -->
     <Button
-      v-if="course.pricing.trial"
+      v-if="course.subscriptionControl.showTrial"
       variant="outline"
       class="w-full justify-between h-auto py-4 hover:border-accent"
       @click="handleSelect({ type: 'trial' })"
@@ -88,7 +106,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
         <div class="text-left">
           <div class="font-medium">Free Trial</div>
           <div class="text-sm text-muted-foreground">
-            Try for {{ course.pricing.trial.duration }} days
+            Try for 7 days
           </div>
         </div>
       </div>
@@ -100,6 +118,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
 
     <!-- Regular Plan -->
     <Button
+      v-if="course.subscriptionControl.plans.includes('regular')"
       variant="outline"
       class="w-full justify-between h-auto py-4 hover:border-accent"
       @click="
@@ -119,32 +138,27 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
           <div class="font-medium">Regular Plan</div>
           <div class="text-sm text-muted-foreground">Perfect for beginners</div>
           <ul class="mt-2 space-y-1">
-            <li
-              v-for="feature in course.pricing.regular.features"
-              :key="feature"
-              class="flex items-center gap-2 text-sm text-muted-foreground"
-            >
+            <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
                 class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              {{ feature }}
+              Full course access
+            </li>
+            <li class="flex items-center gap-2 text-sm text-muted-foreground">
+              <Icon
+                name="ph:check"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
+              />
+              Practice materials
             </li>
           </ul>
         </div>
       </div>
       <div class="text-right">
         <div class="font-bold">
-          {{
-            isAnnual
-              ? course.pricing.regular.annual.amount
-              : course.pricing.regular.monthly.amount
-          }}
-          {{
-            isAnnual
-              ? course.pricing.regular.annual.currency
-              : course.pricing.regular.monthly.currency
-          }}
+          {{ isAnnual ? prices.regular.annual : prices.regular.monthly }}
+          {{ prices.regular.currency }}
         </div>
         <div class="text-sm text-muted-foreground">
           per {{ isAnnual ? 'year' : 'month' }}
@@ -154,6 +168,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
 
     <!-- Premium Plan -->
     <Button
+      v-if="course.subscriptionControl?.plans.includes('premium')"
       variant="outline"
       class="w-full justify-between h-auto py-4 border-2 border-accent hover:bg-accent/10"
       @click="
@@ -182,34 +197,27 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
               />
               Everything in Regular
             </li>
-            <li
-              v-for="feature in course.pricing.premium.features.filter(
-                (f) => f !== 'Everything in Regular'
-              )"
-              :key="feature"
-              class="flex items-center gap-2 text-sm text-muted-foreground"
-            >
+            <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
                 class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              {{ feature }}
+              Priority support
+            </li>
+            <li class="flex items-center gap-2 text-sm text-muted-foreground">
+              <Icon
+                name="ph:check"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
+              />
+              Live Q&A sessions
             </li>
           </ul>
         </div>
       </div>
       <div class="text-right">
         <div class="font-bold">
-          {{
-            isAnnual
-              ? course.pricing.premium.annual.amount
-              : course.pricing.premium.monthly.amount
-          }}
-          {{
-            isAnnual
-              ? course.pricing.premium.annual.currency
-              : course.pricing.premium.monthly.currency
-          }}
+          {{ isAnnual ? prices.premium.annual : prices.premium.monthly }}
+          {{ prices.premium.currency }}
         </div>
         <div class="text-sm text-muted-foreground">
           per {{ isAnnual ? 'year' : 'month' }}
@@ -218,7 +226,7 @@ const handleSelect = (plan: { type: string; interval?: string }) => {
     </Button>
 
     <p class="text-xs text-center text-muted-foreground mt-4">
-      All plans include 14-day money-back guarantee. Cancel anytime.
+      All plans include 24-hours money-back guarantee. Cancel anytime.
     </p>
   </div>
 </template>

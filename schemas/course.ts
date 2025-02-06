@@ -1,102 +1,231 @@
 import { z } from 'zod'
 import { artistSchema } from './artist'
 
-const priceSchema = z.object({
-  amount: z.number(),
-  currency: z.string(),
-  interval: z.enum(['month', 'year']),
-  savings: z.string().optional(),
+// Basic schemas for Schema.org
+const monetaryAmountSchema = z.object({
+  '@type': z.literal('PriceSpecification'),
+  price: z.number(), // replaced 'amount'
+  priceCurrency: z.string(), // replaced 'currency'
+  validFrom: z.string().optional(),
+  validThrough: z.string().optional(),
+  duration: z.string().optional(), // ISO 8601 duration format
+  name: z.string().optional(), // 'regular' or 'premium'
 })
 
-const planSchema = z.object({
-  monthly: priceSchema,
-  annual: priceSchema,
-  features: z.array(z.string()),
+const courseInstanceSchema = z.object({
+  '@type': z.literal('CourseInstance'),
+  courseMode: z.enum(['online', 'onsite', 'hybrid']),
+  startDate: z.string(), // ISO 8601
+  endDate: z.string().optional(), // ISO 8601
+  location: z.object({
+    '@type': z.literal('Place'),
+    name: z.string(),
+    address: z.string().optional(),
+  }),
+  offers: z.array(monetaryAmountSchema).optional(),
 })
 
-const reviewSchema = z.object({
-  id: z.number(),
-  user: z.string(),
-  rating: z.number(),
-  comment: z.string(),
-  date: z.string(),
+const educationalLevelSchema = z.enum([
+  'Beginner',
+  'Intermediate',
+  'Advanced',
+  'AllLevels',
+])
+
+// WeDance schemas adapted to Schema.org standards
+const learningObjectiveSchema = z.object({
+  '@type': z.literal('DefinedTerm'),
+  termCode: z.string(), // previously 'category'
+  name: z.string(), // skill name
+  description: z.string().optional(),
 })
 
 const materialSchema = z.object({
+  '@type': z.literal('LearningResource'),
   id: z.number(),
-  title: z.string(),
-  type: z.string(),
-  size: z.string(),
+  name: z.string(), // previously 'title'
+  learningResourceType: z.string(), // previously 'type'
+  contentSize: z.string(), // previously 'size'
   icon: z.string(),
 })
 
 const lessonSchema = z.object({
-  id: z.number(),
-  title: z.string(),
-  duration: z.string(),
-  videoId: z.string(),
+  '@type': z.literal('LearningResource'),
+  identifier: z.number(), // previously 'id'
+  name: z.string(), // previously 'title'
+  timeRequired: z.string(), // previously 'duration', now in ISO 8601
+  video: z.object({
+    '@type': z.literal('VideoObject'),
+    identifier: z.string(), // YouTube video ID
+    playbackId: z.string().optional(), // Mux playback ID
+    duration: z.string(), // ISO 8601
+    provider: z.enum(['youtube', 'mux']).default('youtube'),
+  }),
   completed: z.boolean(),
+  locked: z.boolean().default(false),
 })
 
 const moduleSchema = z.object({
-  id: z.number(),
-  title: z.string(),
-  lessons: z.array(lessonSchema),
+  '@type': z.literal('Chapter'),
+  identifier: z.number(), // previously 'id'
+  name: z.string(), // previously 'title'
+  learningResourceType: z.literal('Module'),
+  hasPart: z.array(lessonSchema), // previously 'lessons'
 })
 
-const courseInstructorSchema = artistSchema
-  .pick({
-    id: true,
-    name: true,
-    image: true,
-    level: true,
-    location: true,
-    languages: true,
-    rating: true,
-    reviewCount: true,
-    socialMedia: true,
-    availability: true,
-    experience: true,
-  })
-  .extend({
-    credentials: z.string(),
-  })
+const personSchema = z.object({
+  '@type': z.literal('Person'),
+  identifier: z.string(), // previously 'id'
+  name: z.string(),
+  image: z.string(),
+  jobTitle: z.string().optional(), // for credentials
+  knowsAbout: z.array(z.string()).optional(), // for specialties
+  knowsLanguage: z.array(z.string()), // previously 'languages'
+})
 
+const courseInstructorSchema = personSchema.extend({
+  teachingLevel: z.string(), // previously 'level'
+  location: z.string(),
+  artirstid: z.number().optional(),
+  aggregateRating: z.object({
+    '@type': z.literal('AggregateRating'),
+    ratingValue: z.number(),
+    reviewCount: z.number(),
+  }).optional(),
+  availableService: z.object({
+    '@type': z.literal('Service'),
+    offers: z.array(monetaryAmountSchema),
+  }).optional(),
+  // Additional WeDance fields
+  socialMedia: z.object({
+    instagram: z.string().optional(),
+    youtube: z.string().optional(),
+  }).optional(),
+  experience: z.object({
+    years: z.number(),
+    achievements: z.array(z.string()),
+  }).optional(),
+})
+
+const reviewSchema = z.object({
+  '@type': z.literal('Review'),
+  identifier: z.number(), // previously 'id'
+  reviewRating: z.object({
+    '@type': z.literal('Rating'),
+    ratingValue: z.number(),
+    bestRating: z.number().default(5),
+    worstRating: z.number().default(1),
+  }),
+  author: z.object({
+    '@type': z.literal('Person'),
+    name: z.string(),
+  }),
+  reviewBody: z.string(), // previously 'comment'
+  datePublished: z.string(), // previously 'date'
+})
+
+const providerSchema = z.object({
+  '@type': z.literal('Organization'),
+  name: z.string(),
+  description: z.string().optional(),
+  url: z.string().optional(),
+  logo: z.object({
+    '@type': z.literal('ImageObject'),
+    url: z.string(),
+  }).optional(),
+})
+
+// Main course schema
 export const courseSchema = z.object({
-  id: z.string(),
-  title: z.string(),
+  // Core Schema.org fields
+  '@type': z.literal('Course'),
+  '@id': z.string(), // previously 'id'
+  identifier: z.string(), // additional identifier
+  name: z.string(), // previously 'title'
   description: z.string(),
+  provider: providerSchema,
   instructor: courseInstructorSchema,
-  pricing: z.object({
-    regular: planSchema,
-    premium: planSchema,
+
+  // Subscription control
+  subscriptionControl: z.object({
+    showTrial: z.boolean(),
+    showMonthlyAnnualToggle: z.boolean(),
+    plans: z.array(z.string())
+  }).optional(),
+
+  // Educational details
+  educationalLevel: educationalLevelSchema,
+  teaches: z.array(learningObjectiveSchema),
+  timeRequired: z.string(), // ISO 8601 duration format
+  numberOfLessons: z.number(),
+  
+  // Course structure
+  hasPart: z.array(moduleSchema), // previously 'modules'
+  courseInstance: z.array(courseInstanceSchema).optional(),
+  
+  // Materials and content
+  learningResources: z.array(materialSchema), // previously 'materials'
+  
+  // Pricing and offers
+  offers: z.array(monetaryAmountSchema),
+  
+  // Additional WeDance pricing fields
+  subscriptionPlans: z.object({
+    regular: z.object({
+      features: z.array(z.string()),
+    }),
+    premium: z.object({
+      features: z.array(z.string()),
+    }).optional(),
     trial: z.object({
       duration: z.number(),
       features: z.array(z.string()),
-    }),
+    }).optional(),
+  }).optional(),
+  
+  // Ratings and reviews
+  aggregateRating: z.object({
+    '@type': z.literal('AggregateRating'),
+    ratingValue: z.number(),
+    reviewCount: z.number(),
+    ratingCount: z.number(),
   }),
+  review: z.array(reviewSchema), // previously 'reviews'
+
+  // Metadata
+  inLanguage: z.array(z.string()),
+  dateCreated: z.string(),
+  dateModified: z.string(),
+  image: z.object({
+    '@type': z.literal('ImageObject'),
+    url: z.string(),
+  }),
+  video: z.object({
+    '@type': z.literal('VideoObject'),
+    url: z.string(),
+    duration: z.string(), // ISO 8601
+    thumbnailUrl: z.string().optional(),
+  }),
+
+  // Additional WeDance fields
   stats: z.object({
     enrolled: z.number(),
     completed: z.number(),
-    avgRating: z.number(),
-    reviewCount: z.number(),
-  }),
-  reviews: z.array(reviewSchema),
-  preview: z.object({
-    videoId: z.string(),
-    duration: z.string(),
   }),
   community: z.object({
     discussions: z.number(),
     activeStudents: z.number(),
     nextLiveQ_A: z.string(),
   }),
-  materials: z.array(materialSchema),
-  modules: z.array(moduleSchema),
 })
 
 export type Course = z.infer<typeof courseSchema>
 
 export const validateCourse = (data: unknown): Course => {
   return courseSchema.parse(data)
+}
+
+// Helper function to validate array of courses
+export const validateCourses = (data: unknown[]): Course[] => {
+  return z.array(courseSchema).parse(data)
 }
