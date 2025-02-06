@@ -28,6 +28,25 @@ export const profileSchema = z.object({
       workshops: z.boolean().default(false),
       touring: z.boolean().default(false),
       currentLocation: z.string().optional(),
+      pricing: z
+        .object({
+          privateClass: z
+            .object({
+              amount: z.number(),
+              currency: z.string(),
+              duration: z.number(),
+            })
+            .optional(),
+          workshop: z
+            .object({
+              amount: z.number(),
+              currency: z.string(),
+              duration: z.number(),
+              note: z.string().optional(),
+            })
+            .optional(),
+        })
+        .optional(),
     })
     .optional(),
   experience: z
@@ -35,6 +54,7 @@ export const profileSchema = z.object({
       teachingLevels: z.array(z.string()).optional(),
       specialties: z.array(z.string()).optional(),
       certifications: z.array(z.string()).optional(),
+      years: z.number().optional(),
     })
     .optional(),
   stats: z
@@ -43,6 +63,7 @@ export const profileSchema = z.object({
       following: z.number().default(0),
       events: z.number().default(0),
       reviews: z.number().default(0),
+      rating: z.number().min(0).max(5).optional(),
     })
     .default({
       followers: 0,
@@ -105,6 +126,8 @@ export const artistProfileSchema = profileSchema.extend({
       })
     )
     .optional(),
+  image: z.string().url().optional(),
+  specialties: z.array(z.string()).default([]),
 })
 
 export const organizerProfileSchema = profileSchema.extend({
