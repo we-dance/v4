@@ -1,10 +1,9 @@
-<script setup>
-defineProps({
-  artist: {
-    type: Object,
-    required: true,
-  },
-})
+<script setup lang="ts">
+import type { ArtistProfile } from '~/schemas/profile'
+
+defineProps<{
+  artist: ArtistProfile
+}>()
 </script>
 
 <template>
@@ -17,9 +16,9 @@ defineProps({
       <div class="p-4 flex gap-4">
         <div class="flex-shrink-0">
           <img
-            class="h-16 w-16 rounded-full object-cover"
-            :src="artist.image"
+            :src="artist.portfolio?.find(item => item.type === 'image')?.url || artist.image"
             :alt="artist.name"
+            class="h-16 w-16 rounded-full object-cover"
             loading="lazy"
           />
         </div>
@@ -78,7 +77,9 @@ defineProps({
               v-if="artist.experience"
               class="mt-2 text-sm text-muted-foreground"
             >
-              {{ artist.experience.years }}+ years
+              <template v-if="artist.experience.years">
+                {{ artist.experience.years }}+ years
+              </template>
               <template v-if="artist.experience.teachingLevels">
                 • {{ artist.experience.teachingLevels.join(', ') }}
               </template>
@@ -104,7 +105,8 @@ defineProps({
               class="text-foreground"
             >
               <span class="font-medium">
-                {{ artist.availability.pricing.privateClass.amount }}€
+                {{ artist.availability.pricing.privateClass.amount }}
+                {{ artist.availability.pricing.privateClass.currency }}
               </span>
               <span class="text-muted-foreground">
                 /{{ artist.availability.pricing.privateClass.duration }}min
@@ -124,7 +126,8 @@ defineProps({
               class="text-foreground"
             >
               <span class="font-medium">
-                {{ artist.availability.pricing.workshop.amount }}€
+                {{ artist.availability.pricing.workshop.amount }}
+                {{ artist.availability.pricing.workshop.currency }}
               </span>
               <span class="text-muted-foreground">
                 /{{ artist.availability.pricing.workshop.duration }}min
@@ -147,7 +150,7 @@ defineProps({
         <span>
           {{ artist.availability?.currentLocation || artist.location }}
           <span
-            v-if="artist.availability?.currentLocation"
+            v-if="artist.availability?.currentLocation && artist.location !== artist.availability.currentLocation"
             class="text-xs text-muted-foreground/70"
           >
             (from {{ artist.location }})
@@ -159,14 +162,14 @@ defineProps({
         <div class="flex items-center gap-2">
           <div class="flex items-center gap-1">
             <Icon name="ph:star-fill" class="h-4 w-4 text-warning" />
-            <span class="font-medium text-foreground">{{ artist.rating }}</span>
+            <span class="font-medium text-foreground">{{ artist.stats?.rating || 0 }}</span>
             <span class="text-muted-foreground"
-              >({{ artist.reviewCount }})</span
+              >({{ artist.stats?.reviews || 0 }})</span
             >
           </div>
           <div class="flex items-center gap-1 text-muted-foreground">
             <Icon name="ph:users" class="h-4 w-4" />
-            <span>{{ artist.followers }}</span>
+            <span>{{ artist.stats?.followers || 0 }}+</span>
           </div>
         </div>
       </div>
