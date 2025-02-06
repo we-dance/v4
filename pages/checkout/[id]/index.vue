@@ -99,8 +99,10 @@ const item = computed<CheckoutItem | null>(() => {
       (c) => String(c.identifier) === String(route.params.id)
     )
     if (course) {
-      const monthlyOffer = course.offers.find(offer => offer.duration === 'P1M')
-      const annualOffer = course.offers.find(offer => offer.duration === 'P1Y')
+      const monthlyRegularOffer = course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'regular')
+      const annualRegularOffer = course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'regular')
+      const monthlyPremiumOffer = course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'premium')
+      const annualPremiumOffer = course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'premium')
       return {
         id: course.identifier,
         name: course.name,
@@ -111,18 +113,18 @@ const item = computed<CheckoutItem | null>(() => {
         },
         pricing: {
           regular: {
-            monthly: monthlyOffer ? {
-              amount: monthlyOffer.price,
-              currency: monthlyOffer.priceCurrency,
+            monthly: monthlyRegularOffer ? {
+              amount: monthlyRegularOffer.price,
+              currency: monthlyRegularOffer.priceCurrency,
               interval: 'monthly'
             } : {
               amount: 0,
               currency: 'EUR',
               interval: 'monthly'
             },
-            annual: annualOffer ? {
-              amount: annualOffer.price,
-              currency: annualOffer.priceCurrency,
+            annual: annualRegularOffer ? {
+              amount: annualRegularOffer.price,
+              currency: annualRegularOffer.priceCurrency,
               interval: 'annual'
             } : {
               amount: 0,
@@ -131,18 +133,18 @@ const item = computed<CheckoutItem | null>(() => {
             }
           },
           premium: {
-            monthly: monthlyOffer ? {
-              amount: monthlyOffer.price * 2,
-              currency: monthlyOffer.priceCurrency,
+            monthly: monthlyPremiumOffer ? {
+              amount: monthlyPremiumOffer.price,
+              currency: monthlyPremiumOffer.priceCurrency,
               interval: 'monthly'
             } : {
               amount: 0,
               currency: 'EUR',
               interval: 'monthly'
             },
-            annual: annualOffer ? {
-              amount: annualOffer.price * 2,
-              currency: annualOffer.priceCurrency,
+            annual: annualPremiumOffer ? {
+              amount: annualPremiumOffer.price,
+              currency: annualPremiumOffer.priceCurrency,
               interval: 'annual'
             } : {
               amount: 0,

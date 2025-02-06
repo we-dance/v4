@@ -422,7 +422,7 @@ const handleSubscribe = () => {
                 </Button>
 
                 <p class="text-xs text-center text-muted-foreground">
-                  14-day money-back guarantee
+                  24-hours money-back guarantee
                 </p>
               </div>
             </div>
