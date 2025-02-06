@@ -78,7 +78,11 @@
 
     <!-- Course Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card v-for="course in filteredCourses" :key="course.identifier" class="group">
+      <Card
+        v-for="course in filteredCourses"
+        :key="course.identifier"
+        class="group"
+      >
         <NuxtLink :to="`/courses/${course.identifier}`">
           <CardHeader class="space-y-4">
             <div class="aspect-video bg-muted rounded-lg overflow-hidden">
@@ -172,7 +176,7 @@ const activeFiltersCount = computed(() => {
 })
 
 const getMonthlyPrice = (course: Course) => {
-  const monthlyOffer = course.offers?.find(offer => offer.duration === 'P1M')
+  const monthlyOffer = course.offers?.find((offer) => offer.duration === 'P1M')
   if (monthlyOffer) {
     return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}/mo`
   }
@@ -195,22 +199,26 @@ const filteredCourses = computed(() => {
 
   // Apply filters
   if (filters.value.level) {
-    result = result.filter((course) => course.educationalLevel === filters.value.level)
+    result = result.filter(
+      (course) => course.educationalLevel === filters.value.level
+    )
   }
 
   if (filters.value.rating) {
     const minRating = parseFloat(filters.value.rating)
-    result = result.filter((course) => 
-      (course.aggregateRating?.ratingValue || 0) >= minRating
+    result = result.filter(
+      (course) => (course.aggregateRating?.ratingValue || 0) >= minRating
     )
   }
 
   if (filters.value.priceRange) {
     const [min, max] = filters.value.priceRange.split('-').map(Number)
     result = result.filter((course) => {
-      const monthlyOffer = course.offers?.find(offer => offer.duration === 'P1M')
+      const monthlyOffer = course.offers?.find(
+        (offer) => offer.duration === 'P1M'
+      )
       if (!monthlyOffer) return false
-      
+
       const price = monthlyOffer.price
       if (max) {
         return price >= min && price <= max

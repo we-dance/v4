@@ -27,32 +27,46 @@ const dialog = useDialog()
 const isAnnual = ref(false)
 
 const prices = computed(() => {
-  const regularMonthly = props.course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'regular')
-  const regularAnnual = props.course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'regular')
-  const premiumMonthly = props.course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'premium')
-  const premiumAnnual = props.course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'premium')
-  
+  const regularMonthly = props.course.offers.find(
+    (offer) => offer.duration === 'P1M' && offer.name === 'regular'
+  )
+  const regularAnnual = props.course.offers.find(
+    (offer) => offer.duration === 'P1Y' && offer.name === 'regular'
+  )
+  const premiumMonthly = props.course.offers.find(
+    (offer) => offer.duration === 'P1M' && offer.name === 'premium'
+  )
+  const premiumAnnual = props.course.offers.find(
+    (offer) => offer.duration === 'P1Y' && offer.name === 'premium'
+  )
+
   return {
     regular: {
       monthly: regularMonthly?.price || 0,
       annual: regularAnnual?.price || 0,
-      currency: regularMonthly?.priceCurrency || 'EUR'
+      currency: regularMonthly?.priceCurrency || 'EUR',
     },
     premium: {
       monthly: premiumMonthly?.price || 0,
       annual: premiumAnnual?.price || 0,
-      currency: premiumMonthly?.priceCurrency || 'EUR'
-    }
+      currency: premiumMonthly?.priceCurrency || 'EUR',
+    },
   }
 })
 
 const savings = computed(() => {
-  const regularSavings = prices.value.regular.monthly * 12 - prices.value.regular.annual
-  const premiumSavings = prices.value.premium.monthly * 12 - prices.value.premium.annual
-  
-  const regularPercent = Math.round((regularSavings / (prices.value.regular.monthly * 12)) * 100)
-  const premiumPercent = Math.round((premiumSavings / (prices.value.premium.monthly * 12)) * 100)
-  
+  const regularSavings =
+    prices.value.regular.monthly * 12 - prices.value.regular.annual
+  const premiumSavings =
+    prices.value.premium.monthly * 12 - prices.value.premium.annual
+
+  const regularPercent = Math.round(
+    (regularSavings / (prices.value.regular.monthly * 12)) * 100
+  )
+  const premiumPercent = Math.round(
+    (premiumSavings / (prices.value.premium.monthly * 12)) * 100
+  )
+
   return Math.max(regularPercent, premiumPercent)
 })
 
@@ -105,9 +119,7 @@ const handleSelect = async (plan: { type: string; interval?: string }) => {
         </div>
         <div class="text-left">
           <div class="font-medium">Free Trial</div>
-          <div class="text-sm text-muted-foreground">
-            Try for 7 days
-          </div>
+          <div class="text-sm text-muted-foreground">Try for 7 days</div>
         </div>
       </div>
       <div class="text-right">

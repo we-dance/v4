@@ -8,7 +8,9 @@ import '@mux/mux-player'
 
 const route = useRoute()
 const course = ref(
-  mockCourses.find((course) => String(course.identifier) === String(route.params.id))!
+  mockCourses.find(
+    (course) => String(course.identifier) === String(route.params.id)
+  )!
 )
 const dialog = useDialog()
 
@@ -32,7 +34,9 @@ const selectLesson = (lesson: any) => {
 }
 
 const getMonthlyPrice = () => {
-  const monthlyOffer = course.value.offers.find(offer => offer.duration === 'P1M')
+  const monthlyOffer = course.value.offers.find(
+    (offer) => offer.duration === 'P1M'
+  )
   if (monthlyOffer) {
     return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
   }
@@ -144,10 +148,13 @@ const handleSubscribe = () => {
                   <li
                     v-for="lesson in module.hasPart"
                     :key="lesson.identifier"
-                    @click="lesson.locked ? handleSubscribe() : selectLesson(lesson)"
+                    @click="
+                      lesson.locked ? handleSubscribe() : selectLesson(lesson)
+                    "
                     class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
                     :class="{
-                      'bg-accent/10': currentLesson.identifier === lesson.identifier,
+                      'bg-accent/10':
+                        currentLesson.identifier === lesson.identifier,
                     }"
                   >
                     <Icon
@@ -155,23 +162,24 @@ const handleSubscribe = () => {
                         lesson.completed
                           ? 'ph:check-circle-fill'
                           : lesson.locked
-                          ? 'ph:lock-simple'
-                          : 'ph:play-circle'
+                            ? 'ph:lock-simple'
+                            : 'ph:play-circle'
                       "
                       class="w-5 h-5"
                       :class="
                         lesson.completed
                           ? 'text-success'
                           : lesson.locked
-                          ? 'text-muted-foreground'
-                          : 'text-muted-foreground'
+                            ? 'text-muted-foreground'
+                            : 'text-muted-foreground'
                       "
                     />
                     <div class="flex-1">
                       <div
                         class="text-sm"
                         :class="{
-                          'font-medium': currentLesson.identifier === lesson.identifier,
+                          'font-medium':
+                            currentLesson.identifier === lesson.identifier,
                         }"
                       >
                         {{ lesson.name }}
@@ -224,16 +232,22 @@ const handleSubscribe = () => {
             </div>
             <div class="p-4">
               <div class="flex items-start gap-4">
-                <NuxtLink :to="`/artists/${course.instructor.artirstid}`" class="hover:text-accent">
+                <NuxtLink
+                  :to="`/artists/${course.instructor.artirstid}`"
+                  class="hover:text-accent"
+                >
                   <img
-                  :src="course.instructor.image"
-                  :alt="course.instructor.name"
-                  class="w-24 h-24 rounded-lg object-cover"
-                />
-                    </NuxtLink>
+                    :src="course.instructor.image"
+                    :alt="course.instructor.name"
+                    class="w-24 h-24 rounded-lg object-cover"
+                  />
+                </NuxtLink>
                 <div>
                   <h4 class="font-semibold text-lg">
-                    <NuxtLink :to="`/artists/${course.instructor.artirstid}`" class="hover:text-accent">
+                    <NuxtLink
+                      :to="`/artists/${course.instructor.artirstid}`"
+                      class="hover:text-accent"
+                    >
                       {{ course.instructor.name }}
                     </NuxtLink>
                   </h4>
@@ -253,18 +267,24 @@ const handleSubscribe = () => {
                   <div class="space-y-2">
                     <p class="text-sm text-muted-foreground">
                       <Icon name="ph:translate" class="w-4 h-4 inline mr-1" />
-                      Languages: {{ course.instructor.knowsLanguage.join(', ') }}
+                      Languages:
+                      {{ course.instructor.knowsLanguage.join(', ') }}
                     </p>
-                    <p class="text-sm text-muted-foreground" v-if="course.instructor.experience?.years">
+                    <p
+                      class="text-sm text-muted-foreground"
+                      v-if="course.instructor.experience?.years"
+                    >
                       <Icon name="ph:medal" class="w-4 h-4 inline mr-1" />
-                      {{ course.instructor.experience.years }}+ years of experience
+                      {{ course.instructor.experience.years }}+ years of
+                      experience
                     </p>
                     <div class="text-sm text-muted-foreground">
                       <Icon name="ph:trophy" class="w-4 h-4 inline mr-1" />
                       Achievements:
                       <ul class="list-disc list-inside ml-5">
                         <li
-                          v-for="achievement in course.instructor.experience?.achievements"
+                          v-for="achievement in course.instructor.experience
+                            ?.achievements"
                           :key="achievement"
                         >
                           {{ achievement }}
@@ -412,8 +432,10 @@ const handleSubscribe = () => {
                 <div>
                   <h3 class="font-semibold mb-2">Starting from</h3>
                   <div class="text-2xl font-bold">
-                    {{ getMonthlyPrice() }}<span class="text-base font-normal text-muted-foreground">/month</span>
-                    
+                    {{ getMonthlyPrice()
+                    }}<span class="text-base font-normal text-muted-foreground"
+                      >/month</span
+                    >
                   </div>
                 </div>
 

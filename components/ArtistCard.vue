@@ -16,7 +16,10 @@ defineProps<{
       <div class="p-4 flex gap-4">
         <div class="flex-shrink-0">
           <img
-            :src="artist.portfolio?.find(item => item.type === 'image')?.url || artist.image"
+            :src="
+              artist.portfolio?.find((item) => item.type === 'image')?.url ||
+              artist.image
+            "
             :alt="artist.name"
             class="h-16 w-16 rounded-full object-cover"
             loading="lazy"
@@ -150,7 +153,10 @@ defineProps<{
         <span>
           {{ artist.availability?.currentLocation || artist.location }}
           <span
-            v-if="artist.availability?.currentLocation && artist.location !== artist.availability.currentLocation"
+            v-if="
+              artist.availability?.currentLocation &&
+              artist.location !== artist.availability.currentLocation
+            "
             class="text-xs text-muted-foreground/70"
           >
             (from {{ artist.location }})
@@ -162,7 +168,9 @@ defineProps<{
         <div class="flex items-center gap-2">
           <div class="flex items-center gap-1">
             <Icon name="ph:star-fill" class="h-4 w-4 text-warning" />
-            <span class="font-medium text-foreground">{{ artist.stats?.rating || 0 }}</span>
+            <span class="font-medium text-foreground">{{
+              artist.stats?.rating || 0
+            }}</span>
             <span class="text-muted-foreground"
               >({{ artist.stats?.reviews || 0 }})</span
             >

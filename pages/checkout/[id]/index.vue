@@ -99,10 +99,18 @@ const item = computed<CheckoutItem | null>(() => {
       (c) => String(c.identifier) === String(route.params.id)
     )
     if (course) {
-      const monthlyRegularOffer = course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'regular')
-      const annualRegularOffer = course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'regular')
-      const monthlyPremiumOffer = course.offers.find(offer => offer.duration === 'P1M' && offer.name === 'premium')
-      const annualPremiumOffer = course.offers.find(offer => offer.duration === 'P1Y' && offer.name === 'premium')
+      const monthlyRegularOffer = course.offers.find(
+        (offer) => offer.duration === 'P1M' && offer.name === 'regular'
+      )
+      const annualRegularOffer = course.offers.find(
+        (offer) => offer.duration === 'P1Y' && offer.name === 'regular'
+      )
+      const monthlyPremiumOffer = course.offers.find(
+        (offer) => offer.duration === 'P1M' && offer.name === 'premium'
+      )
+      const annualPremiumOffer = course.offers.find(
+        (offer) => offer.duration === 'P1Y' && offer.name === 'premium'
+      )
       return {
         id: course.identifier,
         name: course.name,
@@ -113,48 +121,58 @@ const item = computed<CheckoutItem | null>(() => {
         },
         pricing: {
           regular: {
-            monthly: monthlyRegularOffer ? {
-              amount: monthlyRegularOffer.price,
-              currency: monthlyRegularOffer.priceCurrency,
-              interval: 'monthly'
-            } : {
-              amount: 0,
-              currency: 'EUR',
-              interval: 'monthly'
-            },
-            annual: annualRegularOffer ? {
-              amount: annualRegularOffer.price,
-              currency: annualRegularOffer.priceCurrency,
-              interval: 'annual'
-            } : {
-              amount: 0,
-              currency: 'EUR',
-              interval: 'annual'
-            }
+            monthly: monthlyRegularOffer
+              ? {
+                  amount: monthlyRegularOffer.price,
+                  currency: monthlyRegularOffer.priceCurrency,
+                  interval: 'monthly',
+                }
+              : {
+                  amount: 0,
+                  currency: 'EUR',
+                  interval: 'monthly',
+                },
+            annual: annualRegularOffer
+              ? {
+                  amount: annualRegularOffer.price,
+                  currency: annualRegularOffer.priceCurrency,
+                  interval: 'annual',
+                }
+              : {
+                  amount: 0,
+                  currency: 'EUR',
+                  interval: 'annual',
+                },
           },
           premium: {
-            monthly: monthlyPremiumOffer ? {
-              amount: monthlyPremiumOffer.price,
-              currency: monthlyPremiumOffer.priceCurrency,
-              interval: 'monthly'
-            } : {
-              amount: 0,
-              currency: 'EUR',
-              interval: 'monthly'
-            },
-            annual: annualPremiumOffer ? {
-              amount: annualPremiumOffer.price,
-              currency: annualPremiumOffer.priceCurrency,
-              interval: 'annual'
-            } : {
-              amount: 0,
-              currency: 'EUR',
-              interval: 'annual'
-            }
+            monthly: monthlyPremiumOffer
+              ? {
+                  amount: monthlyPremiumOffer.price,
+                  currency: monthlyPremiumOffer.priceCurrency,
+                  interval: 'monthly',
+                }
+              : {
+                  amount: 0,
+                  currency: 'EUR',
+                  interval: 'monthly',
+                },
+            annual: annualPremiumOffer
+              ? {
+                  amount: annualPremiumOffer.price,
+                  currency: annualPremiumOffer.priceCurrency,
+                  interval: 'annual',
+                }
+              : {
+                  amount: 0,
+                  currency: 'EUR',
+                  interval: 'annual',
+                },
           },
-          trial: course.subscriptionControl?.showTrial ? {
-            duration: 7
-          } : undefined
+          trial: course.subscriptionControl?.showTrial
+            ? {
+                duration: 7,
+              }
+            : undefined,
         },
         description: course.description,
       }
@@ -178,7 +196,9 @@ const item = computed<CheckoutItem | null>(() => {
         privateClass: {
           amount: privateOffer.price,
           currency: privateOffer.priceCurrency,
-          duration: Number(privateOffer.duration?.replace('PT', '').replace('M', '') || 60)
+          duration: Number(
+            privateOffer.duration?.replace('PT', '').replace('M', '') || 60
+          ),
         },
         description: `Private ${privateOffer.duration?.replace('PT', '').replace('M', '') || 60}-minute lesson with ${course.instructor.name}`,
       }
@@ -306,7 +326,12 @@ const handleSubmit = async () => {
 }
 
 // Add at the top of the script
-const isEventItem = (item: CheckoutItem | null): item is CheckoutItem & { date: { start: string }; location: { name: string; city: string } } => {
+const isEventItem = (
+  item: CheckoutItem | null
+): item is CheckoutItem & {
+  date: { start: string }
+  location: { name: string; city: string }
+} => {
   return item !== null && 'date' in item && 'location' in item
 }
 </script>
@@ -343,11 +368,15 @@ const isEventItem = (item: CheckoutItem | null): item is CheckoutItem & { date: 
                 <template v-if="type === 'event'">
                   <div class="flex items-center gap-2">
                     <Icon name="ph:calendar" class="w-4 h-4" />
-                    <span v-if="isEventItem(item)">{{ formatDate(item.date.start) }}</span>
+                    <span v-if="isEventItem(item)">{{
+                      formatDate(item.date.start)
+                    }}</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4" />
-                    <span v-if="isEventItem(item)">{{ item.location.name }}, {{ item.location.city }}</span>
+                    <span v-if="isEventItem(item)"
+                      >{{ item.location.name }}, {{ item.location.city }}</span
+                    >
                   </div>
                 </template>
                 <template v-else>

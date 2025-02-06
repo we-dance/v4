@@ -16,7 +16,7 @@ const mockCoursesData = [
     subscriptionControl: {
       showTrial: true,
       showMonthlyAnnualToggle: true,
-      plans: ['regular', 'premium']
+      plans: ['regular', 'premium'],
     },
     description:
       'Master the authentic Cuban Casino style with world champion Maykel Fonts. From basic steps to advanced turn patterns, this comprehensive course will give you a solid foundation in Cuban dance.',
@@ -45,17 +45,22 @@ const mockCoursesData = [
         ratingValue: instructor.rating || 0,
         reviewCount: instructor.reviewCount || 0,
       },
-      availableService: instructor.availability ? {
-        '@type': 'Service',
-        offers: [
-          {
-            '@type': 'PriceSpecification',
-            price: instructor.availability.pricing?.privateClass?.amount || 0,
-            priceCurrency: instructor.availability.pricing?.privateClass?.currency || 'EUR',
-            duration: 'PT60M',
-          },
-        ],
-      } : undefined,
+      availableService: instructor.availability
+        ? {
+            '@type': 'Service',
+            offers: [
+              {
+                '@type': 'PriceSpecification',
+                price:
+                  instructor.availability.pricing?.privateClass?.amount || 0,
+                priceCurrency:
+                  instructor.availability.pricing?.privateClass?.currency ||
+                  'EUR',
+                duration: 'PT60M',
+              },
+            ],
+          }
+        : undefined,
     },
 
     // Educational details
@@ -228,29 +233,29 @@ const mockCoursesData = [
         price: 15,
         priceCurrency: 'EUR',
         duration: 'P1M',
-        name: 'regular'
+        name: 'regular',
       },
       {
         '@type': 'PriceSpecification',
         price: 150,
         priceCurrency: 'EUR',
         duration: 'P1Y',
-        name: 'regular'
+        name: 'regular',
       },
       {
         '@type': 'PriceSpecification',
         price: 30,
         priceCurrency: 'EUR',
         duration: 'P1M',
-        name: 'premium'
+        name: 'premium',
       },
       {
         '@type': 'PriceSpecification',
         price: 300,
         priceCurrency: 'EUR',
         duration: 'P1Y',
-        name: 'premium'
-      }
+        name: 'premium',
+      },
     ],
     subscriptionPlans: {
       regular: {
@@ -258,8 +263,8 @@ const mockCoursesData = [
           'Full course access',
           'Downloadable materials',
           'Community forum access',
-          'Monthly group Q&A'
-        ]
+          'Monthly group Q&A',
+        ],
       },
       premium: {
         features: [
@@ -267,17 +272,17 @@ const mockCoursesData = [
           'Weekly live Q&A sessions',
           'Priority support',
           '1-on-1 feedback',
-          'Private community access'
-        ]
+          'Private community access',
+        ],
       },
       trial: {
         duration: 7,
         features: [
           'First module access',
           'Community forum preview',
-          'No credit card required'
-        ]
-      }
+          'No credit card required',
+        ],
+      },
     },
 
     // Ratings and reviews
@@ -301,7 +306,8 @@ const mockCoursesData = [
           '@type': 'Person',
           name: 'John D.',
         },
-        reviewBody: "Excellent course! Maykel's teaching style is clear and engaging.",
+        reviewBody:
+          "Excellent course! Maykel's teaching style is clear and engaging.",
         datePublished: '2024-03-15',
       },
       {
@@ -317,7 +323,8 @@ const mockCoursesData = [
           '@type': 'Person',
           name: 'Maria S.',
         },
-        reviewBody: "The best online Cuban salsa course I've taken. Great progression and explanations.",
+        reviewBody:
+          "The best online Cuban salsa course I've taken. Great progression and explanations.",
         datePublished: '2024-03-10',
       },
       {
@@ -333,7 +340,8 @@ const mockCoursesData = [
           '@type': 'Person',
           name: 'David R.',
         },
-        reviewBody: 'Very comprehensive. The practice materials are super helpful.',
+        reviewBody:
+          'Very comprehensive. The practice materials are super helpful.',
         datePublished: '2024-03-05',
       },
     ],
@@ -371,9 +379,10 @@ const mockCoursesData = [
     subscriptionControl: {
       showTrial: false,
       showMonthlyAnnualToggle: false,
-      plans: ['regular', 'premium']
+      plans: ['regular', 'premium'],
     },
-    description: 'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
+    description:
+      'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
     provider: {
       '@type': 'Organization',
       name: 'Zensual Art',
@@ -381,16 +390,17 @@ const mockCoursesData = [
       url: 'https://zensual.art',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://zensual.art/logo.png'
-      }
+        url: 'https://zensual.art/logo.png',
+      },
     },
-  
+
     instructor: {
       '@type': 'Person',
       identifier: 'yarima-rodriguez',
       artirstid: 17,
       name: 'Yarima Rodríguez',
-      image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
+      image:
+        'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
       jobTitle: 'Professional Cuban Dancer',
       knowsAbout: ['Salsa Cubana', 'Son Cubano', 'Lady Styling'],
       knowsLanguage: ['Spanish', 'English'],
@@ -399,11 +409,14 @@ const mockCoursesData = [
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: 4.9,
-        reviewCount: 150
+        reviewCount: 150,
       },
       experience: {
         years: 15,
-        achievements: ['Professional Cuban Dancer', 'International Dance Instructor']
+        achievements: [
+          'Professional Cuban Dancer',
+          'International Dance Instructor',
+        ],
       },
       availableService: {
         '@type': 'Service',
@@ -412,40 +425,43 @@ const mockCoursesData = [
             '@type': 'PriceSpecification',
             price: 80,
             priceCurrency: 'EUR',
-            duration: 'PT60M'
-          }
-        ]
+            duration: 'PT60M',
+          },
+        ],
       },
       socialMedia: {
         instagram: '/zensual.art/',
-      }
+      },
     },
-  
+
     educationalLevel: 'Intermediate',
     teaches: [
       {
         '@type': 'DefinedTerm',
         termCode: 'lady-styling',
         name: 'Core Techniques of Lady Styling',
-        description: 'Master the fundamental movements and stylistic nuances specific to Son Cubano'
+        description:
+          'Master the fundamental movements and stylistic nuances specific to Son Cubano',
       },
       {
         '@type': 'DefinedTerm',
         termCode: 'dance-mechanics',
         name: 'Enhanced Dance Mechanics',
-        description: 'Improve your body alignment, elegance in hand movements, and precision in footwork'
+        description:
+          'Improve your body alignment, elegance in hand movements, and precision in footwork',
       },
       {
         '@type': 'DefinedTerm',
         termCode: 'performance',
         name: 'Performance and Expression',
-        description: 'Elevate your dance expression, learning to convey stories and emotions seamlessly through your movements'
-      }
+        description:
+          'Elevate your dance expression, learning to convey stories and emotions seamlessly through your movements',
+      },
     ],
-  
+
     timeRequired: 'PT2H',
     numberOfLessons: 12,
-  
+
     hasPart: [
       {
         '@type': 'Chapter',
@@ -463,10 +479,10 @@ const mockCoursesData = [
               identifier: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
               playbackId: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
               duration: '2:10 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -478,12 +494,12 @@ const mockCoursesData = [
               identifier: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
               playbackId: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
               duration: '0:56 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
-        ]
+        ],
       },
       {
         '@type': 'Chapter',
@@ -501,10 +517,10 @@ const mockCoursesData = [
               identifier: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
               playbackId: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
               duration: '7:04 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -516,12 +532,12 @@ const mockCoursesData = [
               identifier: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
               playbackId: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
               duration: '4:37 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
-          }
-        ]
+            locked: true,
+          },
+        ],
       },
       {
         '@type': 'Chapter',
@@ -539,10 +555,10 @@ const mockCoursesData = [
               identifier: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
               playbackId: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
               duration: '8:24 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -554,10 +570,10 @@ const mockCoursesData = [
               identifier: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
               playbackId: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
               duration: '7:43 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -569,10 +585,10 @@ const mockCoursesData = [
               identifier: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
               playbackId: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
               duration: '7:34 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -584,10 +600,10 @@ const mockCoursesData = [
               identifier: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
               playbackId: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
               duration: '9:23 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -599,12 +615,12 @@ const mockCoursesData = [
               identifier: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
               playbackId: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
               duration: '1:35 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
-        ]
+        ],
       },
       {
         '@type': 'Chapter',
@@ -622,10 +638,10 @@ const mockCoursesData = [
               identifier: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
               playbackId: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
               duration: '4:23 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -637,12 +653,12 @@ const mockCoursesData = [
               identifier: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
               playbackId: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
               duration: '1:31 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
-        ]
+        ],
       },
       {
         '@type': 'Chapter',
@@ -660,44 +676,44 @@ const mockCoursesData = [
               identifier: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
               playbackId: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
               duration: '16:02 min',
-              provider: 'mux'
+              provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
-        ]
-      }
+        ],
+      },
     ],
-  
+
     offers: [
       {
         '@type': 'PriceSpecification',
         price: 60,
         priceCurrency: 'EUR',
         duration: 'P1M',
-        name: 'regular'
+        name: 'regular',
       },
       {
         '@type': 'PriceSpecification',
         price: 160,
         priceCurrency: 'EUR',
         duration: 'P1Y',
-        name: 'regular'
+        name: 'regular',
       },
       {
         '@type': 'PriceSpecification',
         price: 160,
         priceCurrency: 'EUR',
         duration: 'P1M',
-        name: 'premium'
+        name: 'premium',
       },
       {
         '@type': 'PriceSpecification',
         price: 600,
         priceCurrency: 'EUR',
         duration: 'P1Y',
-        name: 'premium'
-      }
+        name: 'premium',
+      },
     ],
     courseInstance: [
       {
@@ -707,11 +723,11 @@ const mockCoursesData = [
         location: {
           '@type': 'Place',
           name: 'Online Platform',
-          address: 'https://zensual.art'
-        }
-      }
+          address: 'https://zensual.art',
+        },
+      },
     ],
-  
+
     learningResources: [
       {
         '@type': 'LearningResource',
@@ -719,7 +735,7 @@ const mockCoursesData = [
         name: 'Lady Styling Practice Guide',
         learningResourceType: 'pdf',
         contentSize: '3.0 MB',
-        icon: 'ph:file-pdf'
+        icon: 'ph:file-pdf',
       },
       {
         '@type': 'LearningResource',
@@ -727,7 +743,7 @@ const mockCoursesData = [
         name: 'Son Cubano Playlist',
         learningResourceType: 'playlist',
         contentSize: '15 songs',
-        icon: 'ph:music-notes'
+        icon: 'ph:music-notes',
       },
       {
         '@type': 'LearningResource',
@@ -735,33 +751,30 @@ const mockCoursesData = [
         name: 'Arm and Leg Drills',
         learningResourceType: 'video',
         contentSize: '20 min',
-        icon: 'ph:video'
-      }
+        icon: 'ph:video',
+      },
     ],
-  
+
     subscriptionPlans: {
       regular: {
-        features: [
-          'Full course access',
-          'Practice materials'
-        ]
+        features: ['Full course access', 'Practice materials'],
       },
       premium: {
         features: [
           'Everything in Regular',
           'Priority support',
-          'Live Q&A sessions'
-        ]
-      }
+          'Live Q&A sessions',
+        ],
+      },
     },
-  
+
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: 0,
       reviewCount: 0,
-      ratingCount: 0
+      ratingCount: 0,
     },
-  
+
     review: [
       {
         '@type': 'Review',
@@ -770,43 +783,43 @@ const mockCoursesData = [
           '@type': 'Rating',
           ratingValue: 5,
           bestRating: 5,
-          worstRating: 1
+          worstRating: 1,
         },
         author: {
           '@type': 'Person',
-          name: 'Maria G.'
+          name: 'Maria G.',
         },
-        reviewBody: 'Excellent course! Yarima explains everything in detail and makes it easy to follow along.',
-        datePublished: '2024-01-15'
-      }
+        reviewBody:
+          'Excellent course! Yarima explains everything in detail and makes it easy to follow along.',
+        datePublished: '2024-01-15',
+      },
     ],
-  
+
     inLanguage: ['en', 'es'],
     dateCreated: '2024-01-01',
     dateModified: '2024-01-01',
     image: {
       '@type': 'ImageObject',
-      url: 'https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0'
+      url: 'https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0',
     },
     video: {
       '@type': 'VideoObject',
       url: 'https://zensual.art/videos/lady-styling-preview',
       duration: 'PT2M10S',
-      thumbnailUrl: 'https://zensual.art/images/courses/lady-styling-thumb.jpg'
+      thumbnailUrl: 'https://zensual.art/images/courses/lady-styling-thumb.jpg',
     },
-  
+
     stats: {
       enrolled: 0,
-      completed: 0
+      completed: 0,
     },
-  
+
     community: {
       discussions: 25,
       activeStudents: 75,
-      nextLiveQ_A: '2024-02-15T18:00:00Z'
-    }
-  }
-  
+      nextLiveQ_A: '2024-02-15T18:00:00Z',
+    },
+  },
 ]
 
 export const mockCourses = mockCoursesData.map((course) => {

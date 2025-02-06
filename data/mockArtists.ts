@@ -500,7 +500,8 @@ const mockArtistsData = [
     specialties: ['salsa cubana', 'son cubano', 'lady styling'],
     level: 'advanced',
     location: 'Cuba',
-    image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
+    image:
+      'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
     followers: '0',
     rating: 0,
     reviewCount: 0,
@@ -508,7 +509,10 @@ const mockArtistsData = [
     experience: {
       years: 15,
       teachingLevels: ['intermediate', 'advanced'],
-      achievements: ['Professional Cuban Dancer', 'International Dance Instructor']
+      achievements: [
+        'Professional Cuban Dancer',
+        'International Dance Instructor',
+      ],
     },
     availability: {
       privateClasses: true,
@@ -519,24 +523,24 @@ const mockArtistsData = [
         privateClass: {
           amount: 80,
           currency: 'EUR',
-          duration: 60
+          duration: 60,
         },
         workshop: {
           amount: 40,
           currency: 'EUR',
           duration: 120,
-          note: 'per person'
-        }
-      }
+          note: 'per person',
+        },
+      },
     },
     certifications: [
       'Professional Cuban Dance Instructor',
-      'Lady Styling Specialist'
+      'Lady Styling Specialist',
     ],
     socialMedia: {
       instagram: 'https://www.instagram.com/zensual.art/',
-      youtube: 'yarimaRodriguez'
-    }
+      youtube: 'yarimaRodriguez',
+    },
   },
 ]
 

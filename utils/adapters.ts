@@ -21,9 +21,11 @@ export const adaptArtistToSchema = (mockArtist: any): ArtistProfile => ({
           ? [
               {
                 platform: 'Instagram',
-                url: typeof mockArtist.socialMedia.instagram === 'string' && mockArtist.socialMedia.instagram.startsWith('http')
-                  ? mockArtist.socialMedia.instagram
-                  : `https://instagram.com/${mockArtist.socialMedia.instagram.replace('@', '')}`,
+                url:
+                  typeof mockArtist.socialMedia.instagram === 'string' &&
+                  mockArtist.socialMedia.instagram.startsWith('http')
+                    ? mockArtist.socialMedia.instagram
+                    : `https://instagram.com/${mockArtist.socialMedia.instagram.replace('@', '')}`,
               },
             ]
           : []),
@@ -31,9 +33,11 @@ export const adaptArtistToSchema = (mockArtist: any): ArtistProfile => ({
           ? [
               {
                 platform: 'YouTube',
-                url: typeof mockArtist.socialMedia.youtube === 'string' && mockArtist.socialMedia.youtube.startsWith('http')
-                  ? mockArtist.socialMedia.youtube
-                  : `https://youtube.com/${mockArtist.socialMedia.youtube.replace('@', '')}`,
+                url:
+                  typeof mockArtist.socialMedia.youtube === 'string' &&
+                  mockArtist.socialMedia.youtube.startsWith('http')
+                    ? mockArtist.socialMedia.youtube
+                    : `https://youtube.com/${mockArtist.socialMedia.youtube.replace('@', '')}`,
               },
             ]
           : []),

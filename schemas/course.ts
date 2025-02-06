@@ -87,24 +87,32 @@ const courseInstructorSchema = personSchema.extend({
   teachingLevel: z.string(), // previously 'level'
   location: z.string(),
   artirstid: z.number().optional(),
-  aggregateRating: z.object({
-    '@type': z.literal('AggregateRating'),
-    ratingValue: z.number(),
-    reviewCount: z.number(),
-  }).optional(),
-  availableService: z.object({
-    '@type': z.literal('Service'),
-    offers: z.array(monetaryAmountSchema),
-  }).optional(),
+  aggregateRating: z
+    .object({
+      '@type': z.literal('AggregateRating'),
+      ratingValue: z.number(),
+      reviewCount: z.number(),
+    })
+    .optional(),
+  availableService: z
+    .object({
+      '@type': z.literal('Service'),
+      offers: z.array(monetaryAmountSchema),
+    })
+    .optional(),
   // Additional WeDance fields
-  socialMedia: z.object({
-    instagram: z.string().optional(),
-    youtube: z.string().optional(),
-  }).optional(),
-  experience: z.object({
-    years: z.number(),
-    achievements: z.array(z.string()),
-  }).optional(),
+  socialMedia: z
+    .object({
+      instagram: z.string().optional(),
+      youtube: z.string().optional(),
+    })
+    .optional(),
+  experience: z
+    .object({
+      years: z.number(),
+      achievements: z.array(z.string()),
+    })
+    .optional(),
 })
 
 const reviewSchema = z.object({
@@ -129,10 +137,12 @@ const providerSchema = z.object({
   name: z.string(),
   description: z.string().optional(),
   url: z.string().optional(),
-  logo: z.object({
-    '@type': z.literal('ImageObject'),
-    url: z.string(),
-  }).optional(),
+  logo: z
+    .object({
+      '@type': z.literal('ImageObject'),
+      url: z.string(),
+    })
+    .optional(),
 })
 
 // Main course schema
@@ -147,42 +157,50 @@ export const courseSchema = z.object({
   instructor: courseInstructorSchema,
 
   // Subscription control
-  subscriptionControl: z.object({
-    showTrial: z.boolean(),
-    showMonthlyAnnualToggle: z.boolean(),
-    plans: z.array(z.string())
-  }).optional(),
+  subscriptionControl: z
+    .object({
+      showTrial: z.boolean(),
+      showMonthlyAnnualToggle: z.boolean(),
+      plans: z.array(z.string()),
+    })
+    .optional(),
 
   // Educational details
   educationalLevel: educationalLevelSchema,
   teaches: z.array(learningObjectiveSchema),
   timeRequired: z.string(), // ISO 8601 duration format
   numberOfLessons: z.number(),
-  
+
   // Course structure
   hasPart: z.array(moduleSchema), // previously 'modules'
   courseInstance: z.array(courseInstanceSchema).optional(),
-  
+
   // Materials and content
   learningResources: z.array(materialSchema), // previously 'materials'
-  
+
   // Pricing and offers
   offers: z.array(monetaryAmountSchema),
-  
+
   // Additional WeDance pricing fields
-  subscriptionPlans: z.object({
-    regular: z.object({
-      features: z.array(z.string()),
-    }),
-    premium: z.object({
-      features: z.array(z.string()),
-    }).optional(),
-    trial: z.object({
-      duration: z.number(),
-      features: z.array(z.string()),
-    }).optional(),
-  }).optional(),
-  
+  subscriptionPlans: z
+    .object({
+      regular: z.object({
+        features: z.array(z.string()),
+      }),
+      premium: z
+        .object({
+          features: z.array(z.string()),
+        })
+        .optional(),
+      trial: z
+        .object({
+          duration: z.number(),
+          features: z.array(z.string()),
+        })
+        .optional(),
+    })
+    .optional(),
+
   // Ratings and reviews
   aggregateRating: z.object({
     '@type': z.literal('AggregateRating'),
