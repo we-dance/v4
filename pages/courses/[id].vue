@@ -224,11 +224,13 @@ const handleSubscribe = () => {
             </div>
             <div class="p-4">
               <div class="flex items-start gap-4">
-                <img
+                <NuxtLink :to="`/artists/${course.instructor.artirstid}`" class="hover:text-accent">
+                  <img
                   :src="course.instructor.image"
                   :alt="course.instructor.name"
                   class="w-24 h-24 rounded-lg object-cover"
                 />
+                    </NuxtLink>
                 <div>
                   <h4 class="font-semibold text-lg">
                     <NuxtLink :to="`/artists/${course.instructor.artirstid}`" class="hover:text-accent">
@@ -389,7 +391,7 @@ const handleSubscribe = () => {
                 </div>
                 <div class="text-center p-3 bg-muted rounded-lg">
                   <div class="text-2xl font-bold text-warning">
-                    {{ course.aggregateRating.ratingValue }}
+                    {{ course.aggregateRating.ratingValue || '?' }}
                   </div>
                   <div class="text-sm text-muted-foreground">Avg Rating</div>
                 </div>

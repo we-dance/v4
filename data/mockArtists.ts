@@ -501,9 +501,9 @@ const mockArtistsData = [
     level: 'advanced',
     location: 'Cuba',
     image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
-    followers: '35k+',
-    rating: 4.9,
-    reviewCount: 150,
+    followers: '0',
+    rating: 0,
+    reviewCount: 0,
     languages: ['Spanish', 'English'],
     experience: {
       years: 15,
