@@ -231,7 +231,9 @@ const handleSubscribe = () => {
                 />
                 <div>
                   <h4 class="font-semibold text-lg">
-                    {{ course.instructor.name }}
+                    <NuxtLink :to="`/artists/${course.instructor.artirstid}`" class="hover:text-accent">
+                      {{ course.instructor.name }}
+                    </NuxtLink>
                   </h4>
                   <p class="text-sm text-muted-foreground mb-2">
                     {{ course.instructor.teachingLevel }} instructor in

@@ -86,6 +86,7 @@ const personSchema = z.object({
 const courseInstructorSchema = personSchema.extend({
   teachingLevel: z.string(), // previously 'level'
   location: z.string(),
+  artirstid: z.number().optional(),
   aggregateRating: z.object({
     '@type': z.literal('AggregateRating'),
     ratingValue: z.number(),
