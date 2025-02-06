@@ -757,9 +757,9 @@ const mockCoursesData = [
   
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: 4.8,
-      reviewCount: 10,
-      ratingCount: 10
+      ratingValue: 0,
+      reviewCount: 0,
+      ratingCount: 0
     },
   
     review: [
@@ -796,8 +796,8 @@ const mockCoursesData = [
     },
   
     stats: {
-      enrolled: 100,
-      completed: 50
+      enrolled: 0,
+      completed: 0
     },
   
     community: {
