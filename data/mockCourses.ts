@@ -416,8 +416,7 @@ const mockCoursesData = [
         ]
       },
       socialMedia: {
-        instagram: 'https://www.instagram.com/zensual.art/',
-        youtube: 'https://youtube.com/@yarimaRodriguez'
+        instagram: '/zensual.art/',
       }
     },
   
