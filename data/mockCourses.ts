@@ -374,7 +374,6 @@ const mockCoursesData = [
       plans: ['regular', 'premium']
     },
     description: 'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
-    
     provider: {
       '@type': 'Organization',
       name: 'Zensual Art',
@@ -458,12 +457,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 1,
             name: 'Intro',
-            timeRequired: '2:10',
+            timeRequired: '2:10 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
               playbackId: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
-              duration: '2:10',
+              duration: '2:10 min',
               provider: 'mux'
             },
             completed: false,
@@ -473,12 +472,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 2,
             name: 'Real-Time Phrase',
-            timeRequired: '0:56',
+            timeRequired: '0:56 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
               playbackId: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
-              duration: '0:56',
+              duration: '0:56 min',
               provider: 'mux'
             },
             completed: false,
@@ -496,12 +495,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 3,
             name: 'Warm-up (part 1)',
-            timeRequired: '7:04',
+            timeRequired: '7:04 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
               playbackId: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
-              duration: '7:04',
+              duration: '7:04 min',
               provider: 'mux'
             },
             completed: false,
@@ -511,12 +510,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 4,
             name: 'Warm-up (part 2)',
-            timeRequired: '4:37',
+            timeRequired: '4:37 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
               playbackId: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
-              duration: '4:37',
+              duration: '4:37 min',
               provider: 'mux'
             },
             completed: false,
@@ -534,12 +533,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 5,
             name: 'Phrase (segment 1)',
-            timeRequired: '8:24',
+            timeRequired: '8:24 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
               playbackId: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
-              duration: '8:24',
+              duration: '8:24 min',
               provider: 'mux'
             },
             completed: false,
@@ -549,12 +548,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 6,
             name: 'Phrase (segment 2)',
-            timeRequired: '7:43',
+            timeRequired: '7:43 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
               playbackId: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
-              duration: '7:43',
+              duration: '7:43 min',
               provider: 'mux'
             },
             completed: false,
@@ -564,12 +563,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 7,
             name: 'Phrase (segment 3)',
-            timeRequired: '7:34',
+            timeRequired: '7:34 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
               playbackId: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
-              duration: '7:34',
+              duration: '7:34 min',
               provider: 'mux'
             },
             completed: false,
@@ -579,12 +578,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 8,
             name: 'Phrase (segment 4)',
-            timeRequired: '9:23',
+            timeRequired: '9:23 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
               playbackId: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
-              duration: '9:23',
+              duration: '9:23 min',
               provider: 'mux'
             },
             completed: false,
@@ -594,12 +593,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 9,
             name: 'Continued Phrase (without music)',
-            timeRequired: '1:35',
+            timeRequired: '1:35 min',
             video: {
               '@type': 'VideoObject',
               identifier: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
               playbackId: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
-              duration: '1:35',
+              duration: '1:35 min',
               provider: 'mux'
             },
             completed: false,
@@ -617,12 +616,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 10,
             name: 'Details of the arms',
-            timeRequired: '4:23',
+            timeRequired: '4:23 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
               playbackId: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
-              duration: '4:23',
+              duration: '4:23 min',
               provider: 'mux'
             },
             completed: false,
@@ -632,12 +631,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 11,
             name: 'Details of the legs',
-            timeRequired: '1:31',
+            timeRequired: '1:31 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
               playbackId: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
-              duration: '1:31',
+              duration: '1:31 min',
               provider: 'mux'
             },
             completed: false,
@@ -655,12 +654,12 @@ const mockCoursesData = [
             '@type': 'LearningResource',
             identifier: 12,
             name: 'Stretching',
-            timeRequired: '16:02',
+            timeRequired: '16:02 min',
             video: {
               '@type': 'VideoObject',
               identifier: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
               playbackId: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
-              duration: '16:02',
+              duration: '16:02 min',
               provider: 'mux'
             },
             completed: false,
@@ -787,7 +786,7 @@ const mockCoursesData = [
     dateModified: '2024-01-01',
     image: {
       '@type': 'ImageObject',
-      url: 'https://zensual.art/images/courses/lady-styling.jpg'
+      url: 'https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0'
     },
     video: {
       '@type': 'VideoObject',
