@@ -4,7 +4,7 @@ import OrganizerCard from '~/components/OrganizerCard.vue'
 import {
   danceStyles,
   eventTypes,
-  organizers as mockOrganizers,
+  getMockOrganizers,
 } from '~/data/mockOrganizers'
 
 const search = ref('')
@@ -44,7 +44,7 @@ watch(
   { deep: true }
 )
 
-const organizers = ref(mockOrganizers)
+const organizers = ref(getMockOrganizers())
 
 // Helper function to get style label
 function getStyleLabel(value: string) {
