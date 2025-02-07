@@ -1,4 +1,4 @@
-import { type Organizer, validateOrganizers } from '~/schemas/organizers'
+import { type Organizer } from '~/schemas/organizers'
 
 export const danceStyles = [
   { value: 'salsa', label: 'Salsa' },
@@ -19,7 +19,7 @@ export const eventTypes = [
   { value: 'performances', label: 'Performances' },
 ]
 
-const mockOrganizers = [
+const organizersData: Organizer[] = [
   {
     id: '1',
     name: 'Berlin Salsa Community',
@@ -42,6 +42,8 @@ const mockOrganizers = [
       eventCalendar: true,
       photoGallery: true,
       communityUpdates: true,
+      memberDirectory: true,
+      discussionBoard: true
     },
     privacy: 'public',
     admins: ['admin1', 'admin2'],
@@ -69,6 +71,8 @@ const mockOrganizers = [
       eventCalendar: true,
       photoGallery: true,
       communityUpdates: true,
+      memberDirectory: true,
+      discussionBoard: true
     },
     privacy: 'public',
     admins: ['admin3', 'admin4'],
@@ -92,6 +96,8 @@ const mockOrganizers = [
       instagram: '@tangoba',
       website: 'https://tangobuenosaires.org',
     },
+    privacy: 'public',
+    admins: ['admin5', 'admin6'],
   },
   {
     id: '4',
@@ -110,6 +116,8 @@ const mockOrganizers = [
       instagram: '@nycurbandance',
       facebook: 'NYC Urban Dance Community (5k members)',
     },
+    privacy: 'public',
+    admins: ['admin7', 'admin8'],
   },
   {
     id: '5',
@@ -129,6 +137,8 @@ const mockOrganizers = [
       facebook: 'Rio Zouk Official (4.2k members)',
       website: 'https://riozouk.com.br',
     },
+    privacy: 'public',
+    admins: ['admin9', 'admin10'],
   },
   {
     id: '6',
@@ -148,11 +158,11 @@ const mockOrganizers = [
       instagram: '@kizombalisboa',
       facebook: 'Kizomba Lisboa (3.1k members)',
     },
+    privacy: 'public',
+    admins: ['admin11', 'admin12'],
   },
 ]
 
-export const getMockOrganizers = (): Organizer[] => {
-  return validateOrganizers(mockOrganizers)
-}
+export const mockOrganizers = organizersData
 
 export type { Organizer } from '~/schemas/organizers'

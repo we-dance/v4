@@ -1,7 +1,7 @@
-import { communitySchema, type Community } from '~/schemas/community'
+import { type Community } from '~/schemas/community'
 
 // Define mock communities data without export
-const communitiesData = [
+const communitiesData: Community[] = [
   {
     id: 'afro-cuban-festivals',
     name: 'Afro Cuban Festivals',
@@ -32,8 +32,7 @@ const communitiesData = [
   },
 ]
 
-// Export validated communities
-export const mockCommunities = communitySchema.array().parse(communitiesData)
+export const mockCommunities = communitiesData
 
 // Export type for TypeScript support
 export type MockCommunities = typeof mockCommunities
