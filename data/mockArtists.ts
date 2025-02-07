@@ -1,6 +1,6 @@
-import { type Artist, validateArtists } from '~/schemas/artist'
+import { type Artist } from '~/schemas/artist'
 
-const mockArtistsData = [
+const mockArtistsData: Artist[] = [
   {
     id: 1,
     name: 'Maykel Fonts',
@@ -543,7 +543,6 @@ const mockArtistsData = [
     },
   },
 ]
-
-export const mockArtists: Artist[] = validateArtists(mockArtistsData)
+export const mockArtists = mockArtistsData
 
 export type { Artist } from '~/schemas/artist'

@@ -55,6 +55,7 @@ export const artistSchema = z.object({
   albums: z.array(z.string()).optional(),
   collaborations: z.array(z.string()).optional(),
   otherAchievements: z.array(z.string()).optional(),
+  portfolio: z.string().optional(),
 })
 
 export type Artist = z.infer<typeof artistSchema>
