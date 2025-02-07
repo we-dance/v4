@@ -1,9 +1,9 @@
 import { mockEvents } from './mockEvents'
 import { eventToFeedPost } from '~/schemas/event'
-import { postSchema, type Post } from '~/schemas/post'
+import { type Post } from '~/schemas/post'
 
 // Define mock posts data without export
-const postsData = [
+const postsData: Post[] = [
   {
     id: 1,
     type: 'note',
@@ -534,16 +534,14 @@ const postsData = [
       shares: 32,
     },
   },
-] as const
+]
 
 // Export validated posts
-export const mockPosts = postSchema
-  .array()
-  .parse([
-    ...postsData,
-    eventToFeedPost(mockEvents[3]),
-    eventToFeedPost(mockEvents[2]),
-  ])
+export const mockPosts = [
+  ...postsData,
+  eventToFeedPost(mockEvents[3]),
+  eventToFeedPost(mockEvents[2]),
+]
 
 // Export type for TypeScript support
 export type MockPosts = typeof mockPosts
