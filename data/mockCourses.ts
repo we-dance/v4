@@ -1,12 +1,12 @@
 import { mockArtists } from '~/data/mockArtists'
-import { type Course, validateCourse } from '~/schemas/course'
+import { type Course } from '~/schemas/course'
 
 const instructor = mockArtists.find((artist) => artist.id === 1)!
 if (!instructor) {
   throw new Error('Instructor not found')
 }
 
-const mockCoursesData = [
+const mockCoursesData: Course[] = [
   {
     // Core Schema.org fields
     '@type': 'Course',
@@ -99,8 +99,10 @@ const mockCoursesData = [
               '@type': 'VideoObject',
               identifier: 'abc123',
               duration: 'PT15M',
+              provider: 'youtube'
             },
             completed: true,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -111,8 +113,10 @@ const mockCoursesData = [
               '@type': 'VideoObject',
               identifier: 'def456',
               duration: 'PT20M',
+              provider: 'youtube'
             },
             completed: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -123,8 +127,10 @@ const mockCoursesData = [
               '@type': 'VideoObject',
               identifier: 'ghi789',
               duration: 'PT18M',
+              provider: 'youtube'
             },
             completed: false,
+            locked: false
           },
         ],
       },
@@ -143,8 +149,10 @@ const mockCoursesData = [
               '@type': 'VideoObject',
               identifier: 'jkl012',
               duration: 'PT25M',
+              provider: 'youtube'
             },
             completed: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -155,8 +163,10 @@ const mockCoursesData = [
               '@type': 'VideoObject',
               identifier: 'mno345',
               duration: 'PT22M',
+              provider: 'youtube'
             },
             completed: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -167,8 +177,10 @@ const mockCoursesData = [
               '@type': 'VideoObject',
               identifier: 'pqr678',
               duration: 'PT28M',
+              provider: 'youtube'
             },
             completed: false,
+            locked: false
           },
         ],
       },
@@ -482,7 +494,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -497,7 +509,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: false,
+            locked: false
           },
         ],
       },
@@ -520,7 +532,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: false,
+            locked: false
           },
           {
             '@type': 'LearningResource',
@@ -535,7 +547,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
         ],
       },
@@ -558,7 +570,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -573,7 +585,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -588,7 +600,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -603,7 +615,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -618,7 +630,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
         ],
       },
@@ -641,7 +653,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
           {
             '@type': 'LearningResource',
@@ -656,7 +668,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
         ],
       },
@@ -679,7 +691,7 @@ const mockCoursesData = [
               provider: 'mux',
             },
             completed: false,
-            locked: true,
+            locked: true
           },
         ],
       },
@@ -822,11 +834,4 @@ const mockCoursesData = [
   },
 ]
 
-export const mockCourses = mockCoursesData.map((course) => {
-  try {
-    return validateCourse(course)
-  } catch (error) {
-    console.error('Invalid course data:', error)
-    throw error
-  }
-})
+export const mockCourses = mockCoursesData
