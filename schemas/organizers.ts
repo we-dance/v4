@@ -14,7 +14,7 @@ const EventTypeSchema = z.object({
 
 export const eventTypesSchema = z.array(EventTypeSchema)
 
-const OrganizerLinksSchema = z.array(z.string().url()) // sameAs requires an array of URLs
+const OrganizerLinksSchema = z.array(z.string()) // sameAs requires an array of URLs
 
 const OrganizerAddressSchema = z.object({
   '@type': z.literal('PostalAddress'),
@@ -43,7 +43,7 @@ const OrganizerFeaturesSchema = z.array(
 export const OrganizerSchema = z.object({
   '@context': z.literal('https://schema.org'),
   '@type': z.array(z.enum(['Person', 'Organization'])),
-  '@id': z.string().url(), // Schema.org uses "@id" as a unique URL identifier
+  id: z.string(),
   url: z.string().url().optional(),
   name: z.string(),
   email: z.string().email(),
@@ -55,23 +55,23 @@ export const OrganizerSchema = z.object({
       email: z.string().email(),
     })
   ),
-  address: OrganizerAddressSchema, // Replaces  location to address
+  location: z.string(), // Replaces  address to location
   logo: z.string().url(), // Organization logo to avatar
   image: z.string().url(), // Cover image to image
-  knowsAbout: z.array(z.string()), // Replaces styles to knowsAbout
-  hasEvent: z.array(OrganizerEventSchema).optional(), // Replaces eventTypes to  hasEvent
+  keywords: z.array(z.string()), // Replaces styles to keywords
+  event: z.array(z.string()), // Replaces eventTypes to event
   description: z.string(), // Replaces bio to description
-  eventCount: z.number().default(0),
+  track: z.number().default(0), // eventCount  to track
   sameAs: OrganizerLinksSchema.optional(), // Replaces links to sameAs
   additionalProperty: OrganizerFeaturesSchema.optional(), // Replaces features to additionalProperty
-  privacy: z.enum(['public', 'semi-private', 'private']).default('public'),
+  serviceArea: z.enum(['public', 'semi-private', 'private']).default('public'),
   founder: z.array(z.string()).default([]), // Replaces admins to founder
-  about: z.string().optional(), // Replaces mission to about 
-  offers: z.array(z.string()).optional(), // Replaces regularActivities to offers 
+  mainEntityOfPage: z.string().optional(), // You can adjust this as needed
+  makesOffer: z.array(z.string()).optional(), // Replaces regularActivities to makesOffer
   guidelines: z.string().optional(),
   membershipRules: z.string().optional(),
   venues: z.array(z.string()).optional(),
-  regularActivities: z.array(z.string()).optional()
+  regularActivities: z.array(z.string()).optional(),
 })
 
 export type Organizer = z.infer<typeof OrganizerSchema>

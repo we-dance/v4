@@ -4,7 +4,8 @@ import OrganizerCard from '~/components/OrganizerCard.vue'
 import {
   danceStyles,
   eventTypes,
-  organizers as mockOrganizers,
+  getMockOrganizers,
+  type Organizer,
 } from '~/data/mockOrganizers'
 
 const search = ref('')
@@ -44,7 +45,7 @@ watch(
   { deep: true }
 )
 
-const organizers = ref(mockOrganizers)
+const organizers = ref(getMockOrganizers())
 
 // Helper function to get style label
 function getStyleLabel(value: string) {
@@ -52,7 +53,7 @@ function getStyleLabel(value: string) {
 }
 
 const filteredOrganizers = computed(() => {
-  return organizers.value.filter((organizer) => {
+  return organizers.value.filter((organizer: Organizer) => {
     // Search by name or location
     const matchesSearch =
       !search.value ||
@@ -62,7 +63,7 @@ const filteredOrganizers = computed(() => {
     // Filter by styles
     const matchesStyles =
       filters.value.styles.includes('any') ||
-      filters.value.styles.some((style) => organizer.styles.includes(style))
+      filters.value.styles.some((style) => organizer.keywords.includes(style))
 
     // Filter by location
     const matchesLocation =
@@ -74,9 +75,7 @@ const filteredOrganizers = computed(() => {
     // Filter by event types
     const matchesEventTypes =
       filters.value.eventTypes.includes('any') ||
-      filters.value.eventTypes.some((type) =>
-        organizer.eventTypes.includes(type)
-      )
+      filters.value.eventTypes.some((type) => organizer.event.includes(type))
 
     return (
       matchesSearch && matchesStyles && matchesLocation && matchesEventTypes
