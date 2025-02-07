@@ -4,7 +4,7 @@ import OrganizerCard from '~/components/OrganizerCard.vue'
 import {
   danceStyles,
   eventTypes,
-  getMockOrganizers,
+  mockOrganizers,
 } from '~/data/mockOrganizers'
 
 const search = ref('')
@@ -44,7 +44,7 @@ watch(
   { deep: true }
 )
 
-const organizers = ref(getMockOrganizers())
+const organizers = ref(mockOrganizers)
 
 // Helper function to get style label
 function getStyleLabel(value: string) {
@@ -169,11 +169,7 @@ watch(selectedEventType, (newValue) => {
       class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6"
     >
       <div class="flex gap-2">
-        <Button
-          variant="outline"
-          class="justify-start"
-          @click="showLocationFilter = true"
-        >
+        <Button variant="outline" @click="showLocationFilter = true">
           <Icon name="ph:map-pin" class="w-4 h-4 mr-2" />
           {{ filters.location || 'Any Location' }}
         </Button>
@@ -189,7 +185,7 @@ watch(selectedEventType, (newValue) => {
         </Button>
       </div>
 
-      <Button variant="default" as-child class="w-full sm:w-auto">
+      <Button variant="primary" as-child class="w-full sm:w-auto">
         <NuxtLink to="/register" class="flex items-center justify-center gap-2">
           <Icon name="ph:plus-circle" class="w-5 h-5" />
           Add Your City's Groups
