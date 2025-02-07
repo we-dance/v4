@@ -10,7 +10,7 @@ interface Props {
     eventTypes: string[]
     bio: string
     eventCount: number
-    links: {
+    links?: {
       whatsapp?: string
       telegram?: string
       instagram?: string
@@ -20,6 +20,7 @@ interface Props {
     }
   }
   view?: 'grid' | 'list'
+  showImage?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -90,7 +91,7 @@ function getStyleLabel(value: string) {
           </p>
           <div class="flex flex-wrap gap-2">
             <Button
-              v-if="organizer.links.whatsapp"
+              v-if="organizer.links?.whatsapp"
               variant="outline"
               size="sm"
               class="gap-1"
@@ -106,7 +107,7 @@ function getStyleLabel(value: string) {
               </a>
             </Button>
             <Button
-              v-if="organizer.links.telegram"
+              v-if="organizer.links?.telegram"
               variant="outline"
               size="sm"
               class="gap-1"
@@ -122,16 +123,14 @@ function getStyleLabel(value: string) {
               </a>
             </Button>
             <Button
-              v-if="organizer.links.instagram"
+              v-if="organizer.links?.instagram"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
               <a
-                :href="
-                  'https://instagram.com/' + organizer.links.instagram.slice(1)
-                "
+                :href="organizer.links.instagram"
                 target="_blank"
                 rel="noopener"
               >
@@ -140,28 +139,30 @@ function getStyleLabel(value: string) {
               </a>
             </Button>
             <Button
-              v-if="organizer.links.facebook"
-              variant="outline"
-              size="sm"
-              class="gap-1"
-              as-child
-            >
-              <a href="#" class="flex items-center">
-                <Icon name="ph:facebook-logo" class="w-4 h-4" />
-                <span class="truncate max-w-[150px]">{{
-                  organizer.links.facebook
-                }}</span>
-              </a>
-            </Button>
-            <Button
-              v-if="organizer.links.discord"
+              v-if="organizer.links?.facebook"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
               <a
-                :href="'https://' + organizer.links.discord"
+                :href="organizer.links.facebook"
+                target="_blank"
+                rel="noopener"
+              >
+                <Icon name="ph:facebook-logo" class="w-4 h-4" />
+                Facebook
+              </a>
+            </Button>
+            <Button
+              v-if="organizer.links?.discord"
+              variant="outline"
+              size="sm"
+              class="gap-1"
+              as-child
+            >
+              <a
+                :href="organizer.links.discord"
                 target="_blank"
                 rel="noopener"
               >
@@ -170,7 +171,7 @@ function getStyleLabel(value: string) {
               </a>
             </Button>
             <Button
-              v-if="organizer.links.website"
+              v-if="organizer.links?.website"
               variant="outline"
               size="sm"
               class="gap-1"
@@ -219,7 +220,7 @@ function getStyleLabel(value: string) {
             </p>
             <div class="flex flex-wrap gap-2">
               <Button
-                v-if="organizer.links.whatsapp"
+                v-if="organizer.links?.whatsapp"
                 variant="outline"
                 size="sm"
                 class="gap-1"
@@ -235,7 +236,7 @@ function getStyleLabel(value: string) {
                 </a>
               </Button>
               <Button
-                v-if="organizer.links.telegram"
+                v-if="organizer.links?.telegram"
                 variant="outline"
                 size="sm"
                 class="gap-1"
@@ -251,17 +252,14 @@ function getStyleLabel(value: string) {
                 </a>
               </Button>
               <Button
-                v-if="organizer.links.instagram"
+                v-if="organizer.links?.instagram"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
                 <a
-                  :href="
-                    'https://instagram.com/' +
-                    organizer.links.instagram.slice(1)
-                  "
+                  :href="organizer.links.instagram"
                   target="_blank"
                   rel="noopener"
                 >
@@ -270,28 +268,30 @@ function getStyleLabel(value: string) {
                 </a>
               </Button>
               <Button
-                v-if="organizer.links.facebook"
-                variant="outline"
-                size="sm"
-                class="gap-1"
-                as-child
-              >
-                <a href="#" class="flex items-center">
-                  <Icon name="ph:facebook-logo" class="w-4 h-4" />
-                  <span class="truncate max-w-[150px]">{{
-                    organizer.links.facebook
-                  }}</span>
-                </a>
-              </Button>
-              <Button
-                v-if="organizer.links.discord"
+                v-if="organizer.links?.facebook"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
                 <a
-                  :href="'https://' + organizer.links.discord"
+                  :href="organizer.links.facebook"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Icon name="ph:facebook-logo" class="w-4 h-4" />
+                  Facebook
+                </a>
+              </Button>
+              <Button
+                v-if="organizer.links?.discord"
+                variant="outline"
+                size="sm"
+                class="gap-1"
+                as-child
+              >
+                <a
+                  :href="organizer.links.discord"
                   target="_blank"
                   rel="noopener"
                 >
@@ -300,7 +300,7 @@ function getStyleLabel(value: string) {
                 </a>
               </Button>
               <Button
-                v-if="organizer.links.website"
+                v-if="organizer.links?.website"
                 variant="outline"
                 size="sm"
                 class="gap-1"

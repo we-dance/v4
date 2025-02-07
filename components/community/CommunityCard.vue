@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Community } from '~/data/mockCommunities'
+import type { Community } from '~/schemas/community'
 
 defineProps<{
   community: Community
