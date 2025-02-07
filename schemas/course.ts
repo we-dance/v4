@@ -238,12 +238,3 @@ export const courseSchema = z.object({
 })
 
 export type Course = z.infer<typeof courseSchema>
-
-export const validateCourse = (data: unknown): Course => {
-  return courseSchema.parse(data)
-}
-
-// Helper function to validate array of courses
-export const validateCourses = (data: unknown[]): Course[] => {
-  return z.array(courseSchema).parse(data)
-}

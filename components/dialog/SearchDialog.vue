@@ -41,15 +41,15 @@ const searchResults = computed(() => {
     ...mockCourses
       .filter(
         (course) =>
-          course.title.toLowerCase().includes(query) ||
+          course.name.toLowerCase().includes(query) ||
           course.description.toLowerCase().includes(query)
       )
       .map((course) => ({
         type: 'course',
-        title: course.title,
+        title: course.name,
         description: course.description,
         image: course.instructor.image,
-        to: `/courses/${course.id}`,
+        to: `/courses/${course.identifier}`,
       }))
   )
 
