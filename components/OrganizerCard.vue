@@ -43,7 +43,7 @@ function getValidUrl(url: string): string {
     return url
   } else if (url.includes('facebook.com')) {
     return url
-  } else if (url.includes(' ')) {
+  } else if (url.includes(' ') && !url.startsWith("https://")) {
     return '#'
   } else if (url.startsWith('t.me')) {
     return `https://${url}`
@@ -93,62 +93,72 @@ const getName = (url: string): string => {
       view === 'list' ? 'p-4' : '',
     ]"
   >
-    <NuxtLink :to="`/groups/${organizer.id}`">
-      <!-- Grid View -->
-      <template v-if="view === 'grid'">
-        <div
-          v-if="showImage"
-          class="aspect-w-16 aspect-h-9 rounded-t-lg overflow-hidden"
-        >
-          <img
-            :src="organizer.image || '/images/default-cover.jpg'"
-            :alt="organizer.name"
-            class="object-cover"
-          />
-        </div>
-        <div class="p-4">
-          <div class="flex items-center gap-3 mb-3">
-            <img
-              :src="organizer.image || '/images/default-avatar.jpg'"
-              :alt="organizer.name"
-              class="w-12 h-12 rounded-full"
-            />
-            <div>
-              <h3 class="font-semibold text-lg">{{ organizer.name }}</h3>
-              <p class="text-sm text-muted-foreground">
-                {{ organizer.location }}
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <Badge
-              v-for="style in organizer.keywords"
-              :key="style"
-              variant="secondary"
-            >
-              {{ getStyleLabel(style) }}
-            </Badge>
-          </div>
-          <p class="text-sm text-muted-foreground mb-4">
-            {{ organizer.description }}
-          </p>
-          <div class="flex flex-wrap gap-2">
-            <Button
-              v-for="(url, index) in organizer.sameAs"
-              :key="index"
-              variant="outline"
-              size="sm"
-              class="gap-1"
-              as-child
-            >
-              <a :href="getValidUrl(url)" target="_blank" rel="noopener">
-                <Icon :name="getIcon(url)" class="w-4 h-4" />
-                {{ getName(url) }}
-              </a>
-            </Button>
-          </div>
-        </div>
-      </template>
+    <!-- Move NuxtLink here (around the title/image) -->
+    <NuxtLink :to="`/groups/${organizer.id}`" class="block">
+      <div
+        v-if="showImage"
+        class="aspect-w-16 aspect-h-9 rounded-t-lg overflow-hidden"
+      >
+        <img
+          :src="organizer.image || '/images/default-cover.jpg'"
+          :alt="organizer.name"
+          class="object-cover"
+        />
+      </div>
     </NuxtLink>
+
+    <div class="p-4">
+      <NuxtLink :to="`/groups/${organizer.id}`">
+        <div class="flex items-center gap-3 mb-3">
+          <img
+            :src="organizer.image || '/images/default-avatar.jpg'"
+            :alt="organizer.name"
+            class="w-12 h-12 rounded-full"
+          />
+          <div>
+            <!-- Apply NuxtLink only to the title -->
+            <h3 class="font-semibold text-lg">{{ organizer.name }}</h3>
+
+            <p class="text-sm text-muted-foreground">
+              {{ organizer.location }}
+            </p>
+          </div>
+        </div>
+        
+        <div class="flex flex-wrap gap-2 mb-3">
+          <Badge
+          v-for="style in organizer.keywords"
+          :key="style"
+          variant="secondary"
+          >
+          {{ getStyleLabel(style) }}
+        </Badge>
+      </div>
+      
+      <p class="text-sm text-muted-foreground mb-4">
+        {{ organizer.description }}
+      </p>
+    </NuxtLink>
+
+      <div class="flex flex-wrap gap-2">
+        <Button
+          v-for="(url, index) in organizer.sameAs"
+          :key="index"
+          variant="outline"
+          size="sm"
+          class="gap-1"
+          as-child
+        >
+          <a v-if="getValidUrl(url) !== '#'" :href="getValidUrl(url)" target="_blank" rel="noopener">
+            <Icon :name="getIcon(url)" class="w-4 h-4" />
+            {{ getName(url) }}
+          </a>
+          <span v-else>
+            <Icon :name="getIcon(url)" class="w-4 h-4" />
+            {{getName(url)}}
+          </span>
+        </Button>
+      </div>
+    </div>
   </div>
 </template>
