@@ -8,6 +8,7 @@ export const useGroup = () => {
 
   const group = computed(() =>
     mockOrganizers.find((o: Organizer) => o.id === groupId)
+
   )
 
   return {
