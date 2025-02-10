@@ -48,7 +48,7 @@ function getStyleLabel(value: string) {
 }
 
 const filteredOrganizers = computed(() => {
-  return organizers.value.filter((organizer) => {
+  return organizers.value.filter((organizer: Organizer) => {
     // Search by name or location
     const matchesSearch =
       !search.value ||
@@ -58,7 +58,9 @@ const filteredOrganizers = computed(() => {
     // Filter by styles
     const matchesStyles =
       filters.value.styles.includes('any') ||
-      filters.value.styles.some((style) => organizer.styles.includes(style))
+      filters.value.styles.some((style: string) =>
+        organizer.keywords.includes(style)
+      )
 
     // Filter by location
     const matchesLocation =
@@ -70,8 +72,8 @@ const filteredOrganizers = computed(() => {
     // Filter by event types
     const matchesEventTypes =
       filters.value.eventTypes.includes('any') ||
-      filters.value.eventTypes.some((type) =>
-        organizer.eventTypes.includes(type)
+      filters.value.eventTypes.some((type: string) =>
+        organizer.event.includes(type)
       )
 
     return (
