@@ -16,10 +16,7 @@ defineProps<{
       <div class="p-4 flex gap-4">
         <div class="flex-shrink-0">
           <img
-            :src="
-              artist.portfolio?.find((item) => item.type === 'image')?.url ||
-              artist.image
-            "
+            :src="artist.image"
             :alt="artist.name"
             class="h-16 w-16 rounded-full object-cover"
             loading="lazy"
