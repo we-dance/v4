@@ -5,12 +5,19 @@ const { createAccount, isLoading, error } = useRegistration()
 const form = reactive({
   firstName: '',
   lastName: '',
+  username: '',
   email: '',
   password: '',
   phone: '',
   userType: 'dancer',
   terms: false,
-})
+  city: {
+    placeId: '',
+    label: '',
+  },
+  pronounce: 'they',
+  emailConsent: false,
+});
 
 const handleSubmit = async () => {
   try {
@@ -47,6 +54,39 @@ const handleSubmit = async () => {
             v-model:firstName="form.firstName"
             v-model:lastName="form.lastName"
           />
+
+          <!-- Username -->
+          <div>
+            <label class="block text-sm font-medium text-foreground mb-2">
+              Username
+            </label>
+            <Input
+              v-model="form.username"
+              required
+              class="w-full px-4 py-2 border rounded-lg"
+              placeholder="Enter your username"
+            />
+          </div>
+
+          <!-- City -->
+          <div>
+            <label class="block text-sm font-medium text-foreground mb-2">
+              City
+            </label>
+            <CityInput v-model="form.city" />
+          </div>
+
+          <!-- Pronounce -->
+          <div>
+            <label class="block text-sm font-medium text-foreground mb-2">
+              Pronounce
+            </label>
+            <RadioGroup v-model="form.pronounce" class="flex gap-4 justify-center">
+              <RadioGroupItem value="he" /> He
+              <RadioGroupItem value="she" /> She
+              <RadioGroupItem value="they" /> They
+            </RadioGroup>
+          </div>
 
           <!-- Email -->
           <div>
@@ -88,6 +128,14 @@ const handleSubmit = async () => {
               class="w-full px-4 py-2 border rounded-lg"
               placeholder="Create a password"
             />
+          </div>
+
+          <!-- Email Consent -->
+          <div class="flex items-center gap-x-3">
+            <Checkbox v-model="form.emailConsent" />
+            <label class="text-sm text-foreground">
+              I agree to receive emails from WeDance.
+            </label>
           </div>
 
           <!-- Terms -->
