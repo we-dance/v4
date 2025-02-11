@@ -5,4 +5,4 @@ Feature: Artists Page
 
   Scenario: Visit artists page
     When I visit the artists page
-    Then I should see the artists container 
+    Then I should see the list of dance artists 
