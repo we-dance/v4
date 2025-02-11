@@ -43,7 +43,7 @@ const organizersData: Organizer[] = [
       photoGallery: true,
       communityUpdates: true,
       memberDirectory: true,
-      discussionBoard: true
+      discussionBoard: true,
     },
     privacy: 'public',
     admins: ['admin1', 'admin2'],
@@ -72,7 +72,7 @@ const organizersData: Organizer[] = [
       photoGallery: true,
       communityUpdates: true,
       memberDirectory: true,
-      discussionBoard: true
+      discussionBoard: true,
     },
     privacy: 'public',
     admins: ['admin3', 'admin4'],
@@ -101,7 +101,7 @@ const organizersData: Organizer[] = [
       photoGallery: true,
       communityUpdates: true,
       memberDirectory: true,
-      discussionBoard: true
+      discussionBoard: true,
     },
     privacy: 'public',
     admins: ['admin5', 'admin6'],
@@ -130,7 +130,7 @@ const organizersData: Organizer[] = [
       photoGallery: true,
       communityUpdates: true,
       memberDirectory: true,
-      discussionBoard: true
+      discussionBoard: true,
     },
     privacy: 'public',
     admins: ['admin7', 'admin8'],
@@ -160,7 +160,7 @@ const organizersData: Organizer[] = [
       photoGallery: true,
       communityUpdates: true,
       memberDirectory: true,
-      discussionBoard: true
+      discussionBoard: true,
     },
     privacy: 'public',
     admins: ['admin9', 'admin10'],
@@ -190,7 +190,7 @@ const organizersData: Organizer[] = [
       photoGallery: true,
       communityUpdates: true,
       memberDirectory: true,
-      discussionBoard: true
+      discussionBoard: true,
     },
     privacy: 'public',
     admins: ['admin11', 'admin12'],

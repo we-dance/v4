@@ -99,10 +99,10 @@ const mockCoursesData: Course[] = [
               '@type': 'VideoObject',
               identifier: 'abc123',
               duration: 'PT15M',
-              provider: 'youtube'
+              provider: 'youtube',
             },
             completed: true,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -113,10 +113,10 @@ const mockCoursesData: Course[] = [
               '@type': 'VideoObject',
               identifier: 'def456',
               duration: 'PT20M',
-              provider: 'youtube'
+              provider: 'youtube',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -127,10 +127,10 @@ const mockCoursesData: Course[] = [
               '@type': 'VideoObject',
               identifier: 'ghi789',
               duration: 'PT18M',
-              provider: 'youtube'
+              provider: 'youtube',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
         ],
       },
@@ -149,10 +149,10 @@ const mockCoursesData: Course[] = [
               '@type': 'VideoObject',
               identifier: 'jkl012',
               duration: 'PT25M',
-              provider: 'youtube'
+              provider: 'youtube',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -163,10 +163,10 @@ const mockCoursesData: Course[] = [
               '@type': 'VideoObject',
               identifier: 'mno345',
               duration: 'PT22M',
-              provider: 'youtube'
+              provider: 'youtube',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -177,10 +177,10 @@ const mockCoursesData: Course[] = [
               '@type': 'VideoObject',
               identifier: 'pqr678',
               duration: 'PT28M',
-              provider: 'youtube'
+              provider: 'youtube',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
         ],
       },
@@ -494,7 +494,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -509,7 +509,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
         ],
       },
@@ -532,7 +532,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: false
+            locked: false,
           },
           {
             '@type': 'LearningResource',
@@ -547,7 +547,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
         ],
       },
@@ -570,7 +570,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -585,7 +585,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -600,7 +600,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -615,7 +615,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -630,7 +630,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
         ],
       },
@@ -653,7 +653,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
           {
             '@type': 'LearningResource',
@@ -668,7 +668,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
         ],
       },
@@ -691,7 +691,7 @@ const mockCoursesData: Course[] = [
               provider: 'mux',
             },
             completed: false,
-            locked: true
+            locked: true,
           },
         ],
       },
