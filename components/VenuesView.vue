@@ -293,8 +293,7 @@ const clearLocationFilter = () => {
         <LocationPanel
           :location="selectedLocation"
           @update:location="
-            selectedLocation = $event
-            showLocationFilter = false
+            ((selectedLocation = $event), (showLocationFilter = false))
           "
         />
       </div>
