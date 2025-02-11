@@ -5,4 +5,4 @@ Feature: Venues Page
 
   Scenario: Visit venues page
     When I visit the venues page
-    Then I should see the venues container
+    Then I should see the list of dance venues

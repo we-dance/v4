@@ -5,4 +5,4 @@ Feature: Courses Page
 
   Scenario: Visit courses page
     When I visit the courses page
-    Then I should see the courses container
+    Then I should see the list of dance courses
