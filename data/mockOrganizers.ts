@@ -42,7 +42,8 @@ const organizersData: Organizer[] = [
 
     keywords: ['salsa', 'bachata'],
     event: ['festivals', 'workshops', 'socials'],
-    description: 'The main salsa & bachata community in Berlin. Join our WhatsApp group for daily socials and practice sessions.',
+    description:
+      'The main salsa & bachata community in Berlin. Join our WhatsApp group for daily socials and practice sessions.',
     track: 45,
     sameAs: [
       'https://chat.whatsapp.com/...',
@@ -94,13 +95,13 @@ const organizersData: Organizer[] = [
       'https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1200&h=800&fit=crop',
     keywords: ['swing', 'jazz'],
     event: ['classes', 'socials'],
-    description: 'Weekly swing dance classes and social dances. Follow us on Instagram for latest updates and join our Telegram channel.',
+    description:
+      'Weekly swing dance classes and social dances. Follow us on Instagram for latest updates and join our Telegram channel.',
     track: 32,
     sameAs: [
       'https://t.me/swingparis',
       'https://instagram.com/swingdanceparis',
       'https://facebook.com/groups/swingdanceparis',
-
     ],
     additionalProperty: [
       {
@@ -123,7 +124,6 @@ const organizersData: Organizer[] = [
     founder: ['admin3', 'admin4'],
     mainEntityOfPage: 'Bringing swing dance to Paris',
     makesOffer: ['Weekly classes', 'Social dances', 'Live music events'],
-
   },
   {
     '@context': 'https://schema.org',
@@ -146,13 +146,13 @@ const organizersData: Organizer[] = [
       'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&h=800&fit=crop',
     keywords: ['tango'],
     event: ['socials', 'performances'],
-    description: 'Daily milongas and tango events. Join our WhatsApp group for real-time updates on milonga locations and special events.',
+    description:
+      'Daily milongas and tango events. Join our WhatsApp group for real-time updates on milonga locations and special events.',
     track: 128,
     sameAs: [
       'https://chat.whatsapp.com/...',
       'https://instagram.com/tangoba',
       'https://tangobuenosaires.org',
-
     ],
     additionalProperty: [
       {
@@ -176,7 +176,6 @@ const organizersData: Organizer[] = [
     founder: ['admin5', 'admin6'],
     mainEntityOfPage: 'Promoting tango culture in Buenos Aires',
     makesOffer: ['Daily milongas', 'Tango shows', 'Practice sessions'],
-
   },
   {
     '@context': 'https://schema.org',
@@ -228,7 +227,6 @@ const organizersData: Organizer[] = [
     founder: ['admin7', 'admin8'],
     mainEntityOfPage: 'Advancing contemporary dance in NYC',
     makesOffer: ['Weekly classes', 'Performances', 'Workshops'],
-
   },
   {
     '@context': 'https://schema.org',
@@ -280,7 +278,6 @@ const organizersData: Organizer[] = [
     founder: ['admin9', 'admin10'],
     mainEntityOfPage: 'Spreading Brazilian Zouk worldwide',
     makesOffer: ['Daily classes', 'Weekend parties', 'Workshops'],
-
   },
   {
     '@context': 'https://schema.org',
@@ -303,7 +300,8 @@ const organizersData: Organizer[] = [
       'https://images.unsplash.com/photo-1547153760-18fc86324498?w=1200&h=800&fit=crop',
     keywords: ['kizomba'],
     event: ['festivals', 'workshops', 'classes'],
-    description: 'Authentic Kizomba community in Lisbon. Join our groups for daily socials and beach dance events.',
+    description:
+      'Authentic Kizomba community in Lisbon. Join our groups for daily socials and beach dance events.',
     track: 54,
     sameAs: [
       'https://chat.whatsapp.com/',
@@ -332,7 +330,6 @@ const organizersData: Organizer[] = [
     founder: ['admin11', 'admin12'],
     mainEntityOfPage: 'Preserving authentic Kizomba culture',
     makesOffer: ['Beach dance events', 'Workshops', 'Social parties'],
-
   },
 ]
 

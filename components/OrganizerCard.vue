@@ -2,7 +2,6 @@
 import type { Organizer } from '~/schemas/organizers'
 
 interface Props {
-
   organizer: Organizer
   view?: 'grid' | 'list'
   showImage?: boolean
@@ -131,7 +130,6 @@ const getName = (url: string): string => {
           </p>
           <div class="flex flex-wrap gap-2">
             <Button
-
               v-for="(url, index) in organizer.sameAs"
               :key="index"
               variant="outline"
@@ -146,10 +144,8 @@ const getName = (url: string): string => {
                 target="_blank"
                 rel="noopener"
               >
-
                 <Icon :name="getIcon(url)" class="w-4 h-4" />
                 {{ getName(url) }}
-
               </a>
               <span v-else>
                 <Icon :name="getIcon(url)" class="w-4 h-4" />
@@ -194,7 +190,6 @@ const getName = (url: string): string => {
             </p>
             <div class="flex flex-wrap gap-2">
               <Button
-
                 v-for="(url, index) in organizer.sameAs"
                 :key="index"
                 variant="outline"
@@ -209,7 +204,6 @@ const getName = (url: string): string => {
                   target="_blank"
                   rel="noopener"
                 >
-
                   <Icon :name="getIcon(url)" class="w-4 h-4" />
                   {{ getName(url) }}
                 </a>
