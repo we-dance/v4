@@ -12,7 +12,7 @@ Then('I should see the page title', async function () {
   await expect(header).toBeVisible()
 })
 
-Then('I should see the search bar', async function () {
+Then('I should see the filter', async function () {
   const filter = await this.page.getByRole('search')
   await expect(filter).toBeVisible()
 })
