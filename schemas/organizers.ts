@@ -14,7 +14,7 @@ const EventTypeSchema = z.object({
 
 export const eventTypesSchema = z.array(EventTypeSchema)
 
-const OrganizerLinksSchema = z.array(z.string()) // sameAs requires an array of URLs
+const OrganizerLinksSchema = z.array(z.string().url()) // sameAs requires an array of URLs
 
 const OrganizerAddressSchema = z.object({
   '@type': z.literal('PostalAddress'),
