@@ -5,4 +5,4 @@ Feature: Events Page
 
   Scenario: Visit events page
     When I visit the events page
-    Then I should see the events container 
+    Then I should see the list of dance events 

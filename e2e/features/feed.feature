@@ -5,4 +5,4 @@ Feature: Feed Page
 
   Scenario: Visit feed page
     When I visit the feed page
-    Then I should see the posts container 
+    Then I should see the latest posts 
