@@ -1,11 +1,7 @@
 <script setup lang="ts">
 import EmptyState from '~/components/common/EmptyState.vue'
 import OrganizerCard from '~/components/OrganizerCard.vue'
-import {
-  danceStyles,
-  eventTypes,
-  mockOrganizers,
-} from '~/data/mockOrganizers'
+import { danceStyles, eventTypes, mockOrganizers } from '~/data/mockOrganizers'
 
 const search = ref('')
 const showFilters = ref(false)

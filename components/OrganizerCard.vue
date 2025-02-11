@@ -161,11 +161,7 @@ function getStyleLabel(value: string) {
               class="gap-1"
               as-child
             >
-              <a
-                :href="organizer.links.discord"
-                target="_blank"
-                rel="noopener"
-              >
+              <a :href="organizer.links.discord" target="_blank" rel="noopener">
                 <Icon name="ph:discord-logo" class="w-4 h-4" />
                 Discord
               </a>
