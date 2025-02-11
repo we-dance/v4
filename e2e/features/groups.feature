@@ -6,5 +6,5 @@ Feature: Groups Page
   Scenario: Visit groups page
     When I visit the groups page
     Then I should see the page title
-    And I should see the search bar
+    And I should see the filter
     And I should see the list of dance groups 
