@@ -11,4 +11,4 @@ Then('I should see the venues container', async function () {
   const container = await this.page.locator('main')
   await expect(container).toBeVisible()
   await this.cleanup()
-}) 
+})
