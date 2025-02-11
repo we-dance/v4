@@ -5,7 +5,7 @@ When('I click on {string} link', async function (linkText) {
   await this.init(this.parameters)
   await this.page.goto('http://localhost:3000')
   await this.page.waitForLoadState('networkidle')
-  
+
   const link = await this.page
     .getByRole('navigation')
     .getByRole('link', { name: linkText })
