@@ -19,6 +19,11 @@ const allFeatures = computed(() =>
   Array.from(new Set(venues.flatMap((venue) => venue.features)))
 )
 
+const updateLocation = (location: string | null) => {
+  selectedLocation.value = location
+  showLocationFilter.value = false
+}
+
 const filteredVenues = computed(() => {
   return venues.filter((venue) => {
     const matchesSearch =
@@ -292,10 +297,7 @@ const clearLocationFilter = () => {
       <div class="mt-4">
         <LocationPanel
           :location="selectedLocation"
-          @update:location="
-            selectedLocation = $event
-            showLocationFilter = false
-          "
+          @update:location="updateLocation(selectedLocation)"
         />
       </div>
     </SheetContent>
