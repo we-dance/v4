@@ -471,7 +471,7 @@ const mockCoursesData: Course[] = [
       },
     ],
 
-    timeRequired: 'PT2H',
+    timeRequired: '2 hours 10 minutes',
     numberOfLessons: 12,
 
     hasPart: [
