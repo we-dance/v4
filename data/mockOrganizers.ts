@@ -22,7 +22,7 @@ export const eventTypes = [
 const organizersData: Organizer[] = [
   {
     '@context': 'https://schema.org',
-    '@type': ['Organization', 'Person'],
+    '@type': 'Organization',
     id: '1',
     url: 'https://salsaberlin.de/organizer/1',
     name: 'Berlin Salsa Community',
@@ -76,7 +76,7 @@ const organizersData: Organizer[] = [
   },
   {
     '@context': 'https://schema.org',
-    '@type': ['Organization', 'Person'],
+    '@type': 'Organization',
     id: '2',
     url: 'https://salsaberlin.de/organizer/2',
     name: 'Swing Dance Paris',
@@ -127,7 +127,7 @@ const organizersData: Organizer[] = [
   },
   {
     '@context': 'https://schema.org',
-    '@type': ['Organization', 'Person'],
+    '@type': 'Organization',
     id: '3',
     url: 'https://salsaberlin.de/organizer/3',
     name: 'Tango Buenos Aires',
@@ -179,7 +179,7 @@ const organizersData: Organizer[] = [
   },
   {
     '@context': 'https://schema.org',
-    '@type': ['Organization', 'Person'],
+    '@type': 'Organization',
     id: '4',
     url: 'https://salsaberlin.de/organizer/4',
     name: 'NYC Urban Dance',
@@ -230,7 +230,7 @@ const organizersData: Organizer[] = [
   },
   {
     '@context': 'https://schema.org',
-    '@type': ['Organization', 'Person'],
+    '@type': 'Organization',
     id: '5',
     url: 'https://salsaberlin.de/organizer/5',
     name: 'Rio Zouk Movement',
@@ -281,7 +281,7 @@ const organizersData: Organizer[] = [
   },
   {
     '@context': 'https://schema.org',
-    '@type': ['Organization', 'Person'],
+    '@type': 'Organization',
     id: '6',
     url: 'https://salsaberlin.de/organizer/6',
     name: 'Kizomba Lisboa',
@@ -335,4 +335,4 @@ const organizersData: Organizer[] = [
 
 export const mockOrganizers = organizersData
 
-export type { Organizer } from '~/schemas/organizers'
+
