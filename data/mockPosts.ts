@@ -534,6 +534,36 @@ const postsData: Post[] = [
       shares: 32,
     },
   },
+  {
+    id: 109,
+    type: 'course',
+    author: {
+      id: '17',
+      name: 'Yarima Rodríguez',
+      image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
+      location: 'Cuba',
+      points: 0
+    },
+    timestamp: '2024-01-01',
+    content: {
+      title: 'Salsa Lady Styling Course',
+      description: 'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
+      course: {
+        id: 'salsa-lady-styling-2024',
+        duration: '12 lessons',
+        level: 'Intermediate',
+        provider: 'Zensual Art'
+      },
+      cover: 'https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0',
+      tags: ['lady-styling', 'son-cubano', 'salsa-cubana', 'online-course']
+    },
+    stats: {
+      likes: 0,
+      comments: 0,
+      shares: 0,
+      enrolled: 0
+    }
+  }
 ]
 
 // Export validated posts

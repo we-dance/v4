@@ -100,6 +100,19 @@ const eventContentSchema = z.object({
   tags: z.array(z.string()).optional(),
 })
 
+const courseContentSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  course: z.object({
+    id: z.string(),
+    duration: z.string(),
+    level: z.string(),
+    provider: z.string()
+  }),
+  cover: z.string(),
+  tags: z.array(z.string()).optional()
+})
+
 // Main post schema using discriminated union
 export const postSchema = z.discriminatedUnion('type', [
   z.object({
@@ -174,6 +187,16 @@ export const postSchema = z.discriminatedUnion('type', [
     content: eventContentSchema,
     stats: statsSchema,
   }),
+  z.object({
+    type: z.literal('course'),
+    id: z.number(),
+    author: authorSchema,
+    timestamp: z.string(),
+    content: courseContentSchema,
+    stats: statsSchema.extend({
+      enrolled: z.number().optional()
+    })
+  })
 ])
 
 // Schema for creating new posts
@@ -210,6 +233,10 @@ export const createPostSchema = z.discriminatedUnion('type', [
     type: z.literal('ad'),
     content: adContentSchema,
   }),
+  z.object({
+    type: z.literal('course'),
+    content: courseContentSchema
+  })
 ])
 
 export const updateStatsSchema = z.object({
@@ -230,3 +257,4 @@ export type ReviewContent = z.infer<typeof reviewContentSchema>
 export type GigContent = z.infer<typeof gigContentSchema>
 export type AskLocalsContent = z.infer<typeof askLocalsContentSchema>
 export type AdContent = z.infer<typeof adContentSchema>
+export type CourseContent = z.infer<typeof courseContentSchema>
