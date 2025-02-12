@@ -20,6 +20,7 @@ export type PostType =
   | 'ask_locals'
   | 'ad'
   | 'event'
+  | 'course'
 
 export const pollSchema = z.object({
   options: z.array(
@@ -162,6 +163,19 @@ export const eventContentSchema = z.object({
   tags: z.array(z.string()).optional(),
 })
 
+export const courseContentSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  course: z.object({
+    id: z.string(),
+    duration: z.string(),
+    level: z.string(),
+    provider: z.string()
+  }),
+  cover: z.string(),
+  tags: z.array(z.string()).optional()
+})
+
 // Export content types
 export type NoteContent = z.infer<typeof noteContentSchema>
 export type VideoContent = z.infer<typeof videoContentSchema>
@@ -172,6 +186,7 @@ export type GigContent = z.infer<typeof gigContentSchema>
 export type AskLocalsContent = z.infer<typeof askLocalsContentSchema>
 export type AdContent = z.infer<typeof adContentSchema>
 export type EventContent = z.infer<typeof eventContentSchema>
+export type CourseContent = z.infer<typeof courseContentSchema>
 
 // Post schema
 export const postSchema = z.discriminatedUnion('type', [
@@ -247,6 +262,16 @@ export const postSchema = z.discriminatedUnion('type', [
     content: eventContentSchema,
     stats: statsSchema,
   }),
+  z.object({
+    type: z.literal('course'),
+    id: z.number(),
+    author: authorSchema,
+    timestamp: z.string(),
+    content: courseContentSchema,
+    stats: statsSchema.extend({
+      enrolled: z.number().optional()
+    })
+  }),
 ])
 
 export type Post = z.infer<typeof postSchema>
@@ -261,3 +286,4 @@ export type GigPost = Extract<Post, { type: 'gig' }>
 export type AskLocalsPost = Extract<Post, { type: 'ask_locals' }>
 export type AdPost = Extract<Post, { type: 'ad' }>
 export type EventPost = Extract<Post, { type: 'event' }>
+export type CoursePost = Extract<Post, { type: 'course' }>
