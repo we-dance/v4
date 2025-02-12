@@ -99,6 +99,28 @@ const handleSubscribe = () => {
       </div>
     </div>
 
+    <!-- Course Overview -->
+    <div class="bg-background border-b">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="flex flex-col gap-4">
+          <div class="text-sm text-muted-foreground uppercase tracking-wide">
+            {{ course.educationalLevel }} • {{ course.teaches[0]?.name }}
+          </div>
+          <p class="text-lg">{{ course.description }}</p>
+          <div class="flex items-center gap-4 text-sm text-muted-foreground">
+            <div class="flex items-center gap-2">
+              <Icon name="ph:clock" class="w-4 h-4" />
+              {{ course.timeRequired }}
+            </div>
+            <div class="flex items-center gap-2">
+              <Icon name="ph:book-open" class="w-4 h-4" />
+              {{ course.numberOfLessons }} lessons
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <!-- Main Content -->
