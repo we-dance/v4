@@ -31,7 +31,11 @@ const OrganizerFeaturesSchema = z.array(
 )
 
 // Define the main schema for an `Organizer`
-export const OrganizerSchema: z.ZodType<WithContext<Organization | Person>, any, any> = z.object({
+export const OrganizerSchema: z.ZodType<
+  WithContext<Organization | Person>,
+  any,
+  any
+> = z.object({
   '@context': z.literal('https://schema.org'),
   '@type': z.union([z.literal('Person'), z.literal('Organization')]), // `Person` or `Organization`
   id: z.string(),
@@ -63,5 +67,5 @@ export const OrganizerSchema: z.ZodType<WithContext<Organization | Person>, any,
   membershipRules: z.string().optional(),
   venues: z.array(z.string()).optional(),
   regularActivities: z.array(z.string()).optional(),
-  employeeCount: z.number() /// as memberCount 
+  employeeCount: z.number(), /// as memberCount
 })

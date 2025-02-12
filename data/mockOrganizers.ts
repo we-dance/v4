@@ -73,7 +73,7 @@ const organizersData: Organizer[] = [
     founder: ['admin1', 'admin2'],
     mainEntityOfPage: 'Promoting salsa and bachata in Berlin',
     makesOffer: ['Weekly socials', 'Workshops', 'Dance practice'],
-    employeeCount: 20
+    employeeCount: 20,
   },
   {
     '@context': 'https://schema.org',
@@ -125,7 +125,7 @@ const organizersData: Organizer[] = [
     founder: ['admin3', 'admin4'],
     mainEntityOfPage: 'Bringing swing dance to Paris',
     makesOffer: ['Weekly classes', 'Social dances', 'Live music events'],
-    "employeeCount": 30
+    employeeCount: 30,
   },
   {
     '@context': 'https://schema.org',
@@ -178,7 +178,7 @@ const organizersData: Organizer[] = [
     founder: ['admin5', 'admin6'],
     mainEntityOfPage: 'Promoting tango culture in Buenos Aires',
     makesOffer: ['Daily milongas', 'Tango shows', 'Practice sessions'],
-    employeeCount: 48
+    employeeCount: 48,
   },
   {
     '@context': 'https://schema.org',
@@ -230,7 +230,7 @@ const organizersData: Organizer[] = [
     founder: ['admin7', 'admin8'],
     mainEntityOfPage: 'Advancing contemporary dance in NYC',
     makesOffer: ['Weekly classes', 'Performances', 'Workshops'],
-    "employeeCount": 10
+    employeeCount: 10,
   },
   {
     '@context': 'https://schema.org',
@@ -282,7 +282,7 @@ const organizersData: Organizer[] = [
     founder: ['admin9', 'admin10'],
     mainEntityOfPage: 'Spreading Brazilian Zouk worldwide',
     makesOffer: ['Daily classes', 'Weekend parties', 'Workshops'],
-    "employeeCount": 100
+    employeeCount: 100,
   },
   {
     '@context': 'https://schema.org',
@@ -335,10 +335,8 @@ const organizersData: Organizer[] = [
     founder: ['admin11', 'admin12'],
     mainEntityOfPage: 'Preserving authentic Kizomba culture',
     makesOffer: ['Beach dance events', 'Workshops', 'Social parties'],
-    "employeeCount": 55
+    employeeCount: 55,
   },
 ]
 
 export const mockOrganizers = organizersData
-
-
