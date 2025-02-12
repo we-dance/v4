@@ -170,10 +170,10 @@ export const courseContentSchema = z.object({
     id: z.string(),
     duration: z.string(),
     level: z.string(),
-    provider: z.string()
+    provider: z.string(),
   }),
   cover: z.string(),
-  tags: z.array(z.string()).optional()
+  tags: z.array(z.string()).optional(),
 })
 
 // Export content types
@@ -269,8 +269,8 @@ export const postSchema = z.discriminatedUnion('type', [
     timestamp: z.string(),
     content: courseContentSchema,
     stats: statsSchema.extend({
-      enrolled: z.number().optional()
-    })
+      enrolled: z.number().optional(),
+    }),
   }),
 ])
 

@@ -107,10 +107,10 @@ const courseContentSchema = z.object({
     id: z.string(),
     duration: z.string(),
     level: z.string(),
-    provider: z.string()
+    provider: z.string(),
   }),
   cover: z.string(),
-  tags: z.array(z.string()).optional()
+  tags: z.array(z.string()).optional(),
 })
 
 // Main post schema using discriminated union
@@ -194,9 +194,9 @@ export const postSchema = z.discriminatedUnion('type', [
     timestamp: z.string(),
     content: courseContentSchema,
     stats: statsSchema.extend({
-      enrolled: z.number().optional()
-    })
-  })
+      enrolled: z.number().optional(),
+    }),
+  }),
 ])
 
 // Schema for creating new posts
@@ -235,8 +235,8 @@ export const createPostSchema = z.discriminatedUnion('type', [
   }),
   z.object({
     type: z.literal('course'),
-    content: courseContentSchema
-  })
+    content: courseContentSchema,
+  }),
 ])
 
 export const updateStatsSchema = z.object({
