@@ -1,19 +1,14 @@
 export interface Group {
   id: string
   name: string
-  bio: string
+  description: string
   location: string
-  coverImage?: string
-  styles: string[]
-  eventTypes: string[]
-  eventCount: number
-  memberCount: number
-  links?: {
-    website?: string
-    instagram?: string
-    whatsapp?: string
-    telegram?: string
-  }
+  image?: string
+  keywords: string[]
+  event: string[]
+  track: number
+  employeeCount: number
+  sameAs?: string[]
 }
 
 export const danceStyles = [

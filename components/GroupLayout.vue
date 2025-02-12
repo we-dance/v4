@@ -4,10 +4,65 @@ import { danceStyles, eventTypes } from '~/schemas/group'
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { useDialog } from '~/composables/useDialog'
 
+function getValidUrl(url: string): string {
+  if (
+    url.includes('wa.me') ||
+    url.includes('api.whatsapp.com') ||
+    url.includes('chat.whatsapp')
+  ) {
+    return url
+  } else if (url.includes('discord.gg')) {
+    return `https://${url}`
+  } else if (url.startsWith('@')) {
+    return `https://www.instagram.com/${url.slice(1)}`
+  } else if (url.includes('instagram.com')) {
+    return url
+  } else if (url.includes('facebook.com')) {
+    return url
+  } else if (url.includes(' ') && !url.startsWith('https://')) {
+    return '#'
+  } else if (url.startsWith('t.me')) {
+    return `https://${url}`
+  }
+  return url
+}
+const getIcon = (url: string): string => {
+  if (url.includes('facebook')) {
+    return 'ph:facebook-logo'
+  } else if (url.includes('discord')) {
+    return 'ph:discord-logo'
+  } else if (url.includes('wa.me') || url.includes('chat.whatsapp')) {
+    return 'ph:whatsapp-logo'
+  } else if (url.includes('t.me')) {
+    return 'ph:telegram-logo'
+  } else if (url.includes('instagram.com') || url.startsWith('@')) {
+    return 'ph:instagram-logo'
+  } else if (url.includes(' ') && !url.startsWith('https')) {
+    return 'ph:facebook-logo'
+  }
+  return 'ph:globe'
+}
+const getName = (url: string): string => {
+  if (url.includes('facebook')) {
+    return 'Facebook'
+  } else if (url.includes('discord')) {
+    return 'Discord'
+  } else if (url.includes('wa.me') || url.includes('chat.whatsapp')) {
+    return 'WhatsApp'
+  } else if (url.includes('t.me')) {
+    return 'Telegram'
+  } else if (url.includes('instagram.com') || url.startsWith('@')) {
+    return 'Instagram'
+  } else if (url.startsWith('https://')) {
+    return 'Website'
+  }
+  return url
+}
+
 const props = defineProps<{
   group: Group
 }>()
-
+ 
 const navigation = [
   {
     label: 'Feed',
@@ -50,10 +105,13 @@ const getDanceStyle = (value: string) =>
   danceStyles.find((s) => s.value === value)
 const getEventType = (value: string) =>
   eventTypes.find((t) => t.value === value)
+
+
 </script>
 
 <template>
   <!-- Hero Section -->
+   <div>
   <div class="relative min-h-[50vh]">
     <div class="relative flex items-center overflow-hidden min-h-[50vh] py-12">
       <GradientBackground />
@@ -81,7 +139,7 @@ const getEventType = (value: string) =>
                 class="flex flex-wrap justify-center md:justify-start gap-2 mb-6"
               >
                 <Badge
-                  v-for="style in group.styles"
+                  v-for="style in group.keywords"
                   :key="style"
                   variant="secondary"
                   class="capitalize"
@@ -96,13 +154,13 @@ const getEventType = (value: string) =>
               >
                 <div>
                   <div class="text-xl font-bold text-foreground">
-                    {{ group.eventCount }}
+                    {{ group.track }}
                   </div>
                   <div class="text-sm">events</div>
                 </div>
                 <div>
                   <div class="text-xl font-bold text-foreground">
-                    {{ group.memberCount }}
+                    {{ group.employeeCount }}
                   </div>
                   <div class="text-sm">members</div>
                 </div>
@@ -126,8 +184,8 @@ const getEventType = (value: string) =>
               class="relative aspect-square rounded-xl overflow-hidden shadow-xl max-w-lg mx-auto"
             >
               <img
-                v-if="group.coverImage"
-                :src="group.coverImage"
+                v-if="group.image"
+                :src="group.image"
                 :alt="group.name"
                 class="w-full h-full object-cover"
               />
@@ -187,18 +245,19 @@ const getEventType = (value: string) =>
             <!-- Group Info -->
             <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">About</h3>
-              <p class="text-muted-foreground mb-4">{{ group.bio }}</p>
+              <p class="text-muted-foreground mb-4">{{ group.description }}</p>
 
               <!-- Event Types -->
               <div class="mb-4">
                 <h4 class="font-medium text-foreground mb-2">Event Types</h4>
                 <div class="flex flex-wrap gap-2">
                   <Badge
-                    v-for="type in group.eventTypes"
+                    v-for="type in group.event"
                     :key="type"
                     variant="secondary"
                   >
-                    {{ getEventType(type)?.label }}
+              
+                    {{ type }}
                   </Badge>
                 </div>
               </div>
@@ -219,46 +278,20 @@ const getEventType = (value: string) =>
             </div>
 
             <!-- Social Links -->
-            <div v-if="group.links" class="bg-background rounded-lg border p-6">
+            <div v-if="group.sameAs" class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">Connect</h3>
               <div class="grid grid-cols-3 gap-4">
                 <a
-                  v-if="group.links.website"
-                  :href="group.links.website"
+                v-for="(url,index)  in group.sameAs" :key="index"
+                  :href="getValidUrl(url)"
                   target="_blank"
+                  rel="noopener"
                   class="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-muted transition-colors"
+
                 >
-                  <Icon name="ph:globe" class="w-6 h-6 text-primary" />
-                  <span class="text-sm">Website</span>
-                </a>
-                <a
-                  v-if="group.links.instagram"
-                  :href="
-                    'https://instagram.com/' + group.links.instagram.slice(1)
-                  "
-                  target="_blank"
-                  class="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-muted transition-colors"
-                >
-                  <Icon name="ph:instagram-logo" class="w-6 h-6 text-primary" />
-                  <span class="text-sm">Instagram</span>
-                </a>
-                <a
-                  v-if="group.links.whatsapp"
-                  :href="group.links.whatsapp"
-                  target="_blank"
-                  class="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-muted transition-colors"
-                >
-                  <Icon name="ph:whatsapp-logo" class="w-6 h-6 text-primary" />
-                  <span class="text-sm">WhatsApp</span>
-                </a>
-                <a
-                  v-if="group.links.telegram"
-                  :href="'https://' + group.links.telegram"
-                  target="_blank"
-                  class="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-muted transition-colors"
-                >
-                  <Icon name="ph:telegram-logo" class="w-6 h-6 text-primary" />
-                  <span class="text-sm">Telegram</span>
+                <Icon :name="getIcon(url)" class="w-6 h-6 text-primary"/>
+                 
+                  <span class="text-sm"> {{ getName(url) }}</span>
                 </a>
               </div>
             </div>
@@ -276,4 +309,6 @@ const getEventType = (value: string) =>
       </div>
     </div>
   </div>
+  </div>
 </template>
+

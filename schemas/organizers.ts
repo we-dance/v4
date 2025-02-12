@@ -63,4 +63,5 @@ export const OrganizerSchema: z.ZodType<WithContext<Organization | Person>, any,
   membershipRules: z.string().optional(),
   venues: z.array(z.string()).optional(),
   regularActivities: z.array(z.string()).optional(),
+  employeeCount: z.number() /// as memberCount 
 })
