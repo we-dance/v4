@@ -2,6 +2,7 @@
 import EmptyState from '~/components/common/EmptyState.vue'
 import OrganizerCard from '~/components/OrganizerCard.vue'
 import { danceStyles, eventTypes, mockOrganizers } from '~/data/mockOrganizers'
+import type { Organizer } from '~/schemas/organizers'
 
 const search = ref('')
 const showFilters = ref(false)
@@ -59,7 +60,7 @@ const filteredOrganizers = computed(() => {
     const matchesStyles =
       filters.value.styles.includes('any') ||
       filters.value.styles.some((style: string) =>
-        organizer.keywords.includes(style)
+        organizer.knowsAbout.includes(style)
       )
 
     // Filter by location

@@ -19,8 +19,6 @@ function getValidUrl(url: string): string {
     return url
   } else if (url.includes('facebook.com')) {
     return url
-  } else if (url.includes(' ') && !url.startsWith('https://')) {
-    return '#'
   } else if (url.startsWith('t.me')) {
     return `https://${url}`
   }
@@ -37,8 +35,6 @@ const getIcon = (url: string): string => {
     return 'ph:telegram-logo'
   } else if (url.includes('instagram.com') || url.startsWith('@')) {
     return 'ph:instagram-logo'
-  } else if (url.includes(' ') && !url.startsWith('https')) {
-    return 'ph:facebook-logo'
   }
   return 'ph:globe'
 }
@@ -53,10 +49,8 @@ const getName = (url: string): string => {
     return 'Telegram'
   } else if (url.includes('instagram.com') || url.startsWith('@')) {
     return 'Instagram'
-  } else if (url.startsWith('https://')) {
-    return 'Website'
   }
-  return url
+  return 'website'
 }
 
 const props = defineProps<{
@@ -103,6 +97,7 @@ const handleFollow = () => {
 
 const getDanceStyle = (value: string) =>
   danceStyles.find((s) => s.value === value)
+
 const getEventType = (value: string) =>
   eventTypes.find((t) => t.value === value)
 </script>
@@ -139,7 +134,7 @@ const getEventType = (value: string) =>
                   class="flex flex-wrap justify-center md:justify-start gap-2 mb-6"
                 >
                   <Badge
-                    v-for="style in group.keywords"
+                    v-for="style in group.knowsAbout"
                     :key="style"
                     variant="secondary"
                     class="capitalize"

@@ -4,7 +4,7 @@ export interface Group {
   description: string
   location: string
   image?: string
-  keywords: string[]
+  knowsAbout: string[]
   event: string[]
   track: number
   employeeCount: number

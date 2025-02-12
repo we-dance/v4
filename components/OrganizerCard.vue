@@ -41,8 +41,6 @@ function getValidUrl(url: string): string {
     return url
   } else if (url.includes('facebook.com')) {
     return url
-  } else if (url.includes(' ') && !url.startsWith('https://')) {
-    return '#'
   } else if (url.startsWith('t.me')) {
     return `https://${url}`
   }
@@ -59,8 +57,6 @@ const getIcon = (url: string): string => {
     return 'ph:telegram-logo'
   } else if (url.includes('instagram.com') || url.startsWith('@')) {
     return 'ph:instagram-logo'
-  } else if (url.includes(' ') && !url.startsWith('https')) {
-    return 'ph:facebook-logo'
   }
   return 'ph:globe'
 }
@@ -75,10 +71,8 @@ const getName = (url: string): string => {
     return 'Telegram'
   } else if (url.includes('instagram.com') || url.startsWith('@')) {
     return 'Instagram'
-  } else if (url.startsWith('https://')) {
-    return 'Website'
   }
-  return url
+  return 'website'
 }
 </script>
 
@@ -118,7 +112,7 @@ const getName = (url: string): string => {
           </div>
           <div class="flex flex-wrap gap-2 mb-3">
             <Badge
-              v-for="style in organizer.keywords"
+              v-for="style in organizer.knowsAbout"
               :key="style"
               variant="secondary"
             >
@@ -178,7 +172,7 @@ const getName = (url: string): string => {
             </div>
             <div class="flex flex-wrap gap-2 my-2">
               <Badge
-                v-for="style in organizer.keywords"
+                v-for="style in organizer.knowsAbout"
                 :key="style"
                 variant="secondary"
               >

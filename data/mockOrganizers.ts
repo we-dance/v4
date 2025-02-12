@@ -40,7 +40,7 @@ const organizersData: Organizer[] = [
     image:
       'https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1200&h=800&fit=crop',
 
-    keywords: ['salsa', 'bachata'],
+    knowsAbout: ['salsa', 'bachata'],
     event: ['festivals', 'workshops', 'socials'],
     description:
       'The main salsa & bachata community in Berlin. Join our WhatsApp group for daily socials and practice sessions.',
@@ -94,7 +94,7 @@ const organizersData: Organizer[] = [
     logo: 'https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?w=400&h=400&fit=crop',
     image:
       'https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1200&h=800&fit=crop',
-    keywords: ['swing', 'jazz'],
+    knowsAbout: ['swing', 'jazz'],
     event: ['classes', 'socials'],
     description:
       'Weekly swing dance classes and social dances. Follow us on Instagram for latest updates and join our Telegram channel.',
@@ -146,7 +146,7 @@ const organizersData: Organizer[] = [
     logo: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=400&h=400&fit=crop',
     image:
       'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&h=800&fit=crop',
-    keywords: ['tango'],
+    knowsAbout: ['tango'],
     event: ['socials', 'performances'],
     description:
       'Daily milongas and tango events. Join our WhatsApp group for real-time updates on milonga locations and special events.',
@@ -199,7 +199,7 @@ const organizersData: Organizer[] = [
     logo: 'https://images.unsplash.com/photo-1529335764857-3f1164d1cb24?w=400&h=400&fit=crop',
     image:
       'https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?w=1200&h=800&fit=crop',
-    keywords: ['contemporary', 'ballet'],
+    knowsAbout: ['contemporary', 'ballet'],
     event: ['performances', 'workshops', 'classes'],
     description:
       'Contemporary dance community in NYC. Join our Discord for class schedules and practice sessions.',
@@ -251,7 +251,7 @@ const organizersData: Organizer[] = [
     logo: 'https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=400&h=400&fit=crop',
     image:
       'https://images.unsplash.com/photo-1534685785745-60a2cea0ec34?w=1200&h=800&fit=crop',
-    keywords: ['zouk', 'salsa'],
+    knowsAbout: ['zouk', 'salsa'],
     event: ['festivals', 'workshops'],
     description:
       'The largest Brazilian Zouk community in Rio. Daily classes and weekend parties. Join our WhatsApp for practice partners.',
@@ -303,7 +303,7 @@ const organizersData: Organizer[] = [
     logo: 'https://images.unsplash.com/photo-1523307730650-594bc63f9d67?w=400&h=400&fit=crop',
     image:
       'https://images.unsplash.com/photo-1547153760-18fc86324498?w=1200&h=800&fit=crop',
-    keywords: ['kizomba'],
+    knowsAbout: ['kizomba'],
     event: ['festivals', 'workshops', 'classes'],
     description:
       'Authentic Kizomba community in Lisbon. Join our groups for daily socials and beach dance events.',

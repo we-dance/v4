@@ -53,7 +53,7 @@ export const OrganizerSchema: z.ZodType<
   location: z.string(), // Replaces address to location
   logo: z.string().url(), // Organization logo to avatar
   image: z.string().url(), // Cover image to image
-  keywords: z.array(z.string()), // Replaces styles to keywords
+  knowsAbout: z.array(z.string()), // Replaces styles to keywords
   event: z.array(z.string()), // Replaces eventTypes to event
   description: z.string(), // Replaces bio to description
   track: z.number().default(0), // eventCount to track
@@ -61,10 +61,10 @@ export const OrganizerSchema: z.ZodType<
   additionalProperty: OrganizerFeaturesSchema.optional(), // Replaces features to additionalProperty
   serviceArea: z.enum(['public', 'semi-private', 'private']).default('public'),
   founder: z.array(z.string()).default([]), // Replaces admins to founder
-  mainEntityOfPage: z.string().optional(), // Adjust as needed
+  mainEntityOfPage: z.string().optional(),
   makesOffer: z.array(z.string()).optional(), // Replaces regularActivities to makesOffer
-  guidelines: z.string().optional(),
-  membershipRules: z.string().optional(),
+  diversityPolicy: z.string().optional(), /// guidelines to diversityPolicy
+  ethicsPolicy: z.string().optional(), // memberShipRules to  ethicsPolicy
   venues: z.array(z.string()).optional(),
   regularActivities: z.array(z.string()).optional(),
   employeeCount: z.number(), /// as memberCount
