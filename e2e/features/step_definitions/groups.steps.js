@@ -13,12 +13,12 @@ Then('I should see the page title', async function () {
 })
 
 Then('I should see the filter', async function () {
-  const filter = await this.page.getByRole('search')
+  const filter = await this.page.getByRole('button', { name: 'Filters' })
   await expect(filter).toBeVisible()
 })
 
 Then('I should see the list of dance groups', async function () {
-  const firstCard = await this.page.locator('.group-card').first()
-  await expect(firstCard).toBeVisible()
+  const organizerCard = await this.page.locator('div[class*="grid"] > div').first()
+  await expect(organizerCard).toBeVisible()
   await this.cleanup()
 })
