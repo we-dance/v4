@@ -18,7 +18,9 @@ Then('I should see the filter', async function () {
 })
 
 Then('I should see the list of dance groups', async function () {
-  const organizerCard = await this.page.locator('div[class*="grid"] > div').first()
+  const organizerCard = await this.page
+    .locator('div[class*="grid"] > div')
+    .first()
   await expect(organizerCard).toBeVisible()
   await this.cleanup()
 })
