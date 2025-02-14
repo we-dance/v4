@@ -424,5 +424,3 @@ export const mockOrganizers: Organizer[] = [
     employeeCount: 55,
   },
 ]
-
-
