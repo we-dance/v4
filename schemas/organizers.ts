@@ -1,8 +1,7 @@
 import { z } from 'zod'
-import { Organization, WithContext, Person } from 'schema-dts'
-
-// Define `Organizer` type using `WithContext` to maintain `schema-dts` structure
-export type Organizer = WithContext<Organization | Person>
+import type { Organization } from 'schema-dts'
+import type { Person } from 'schema-dts'
+import type { WithContext } from 'schema-dts'
 
 const OrganizerLinksSchema = z.array(z.string().url()) // sameAs requires an array of URLs
 
@@ -31,11 +30,7 @@ const OrganizerFeaturesSchema = z.array(
 )
 
 // Define the main schema for an `Organizer`
-export const OrganizerSchema: z.ZodType<
-  WithContext<Organization | Person>,
-  any,
-  any
-> = z.object({
+export const OrganizerSchema = z.object({
   '@context': z.literal('https://schema.org'),
   '@type': z.union([z.literal('Person'), z.literal('Organization')]), // `Person` or `Organization`
   id: z.string(),
@@ -61,11 +56,12 @@ export const OrganizerSchema: z.ZodType<
   additionalProperty: OrganizerFeaturesSchema.optional(), // Replaces features to additionalProperty
   serviceArea: z.enum(['public', 'semi-private', 'private']).default('public'),
   founder: z.array(z.string()).default([]), // Replaces admins to founder
-  mainEntityOfPage: z.string().optional(),
+  slogan: z.string().optional(),
   makesOffer: z.array(z.string()).optional(), // Replaces regularActivities to makesOffer
   diversityPolicy: z.string().optional(), /// guidelines to diversityPolicy
   ethicsPolicy: z.string().optional(), // memberShipRules to  ethicsPolicy
   venues: z.array(z.string()).optional(),
-  regularActivities: z.array(z.string()).optional(),
   employeeCount: z.number(), /// as memberCount
 })
+
+export type Organizer = WithContext<Organization | Person>

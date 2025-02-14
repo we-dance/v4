@@ -1,5 +1,8 @@
-import { type Organizer } from '~/schemas/organizers'
+import type { Organization } from 'schema-dts'
+import type { Person } from 'schema-dts'
+import type { WithContext } from 'schema-dts'
 
+export type Organizer = WithContext<Organization | Person>
 export const danceStyles = [
   { value: 'salsa', label: 'Salsa' },
   { value: 'bachata', label: 'Bachata' },
@@ -19,7 +22,7 @@ export const eventTypes = [
   { value: 'performances', label: 'Performances' },
 ]
 
-const organizersData: Organizer[] = [
+export const mockOrganizers: Organizer[] = [
   {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -71,8 +74,21 @@ const organizersData: Organizer[] = [
     ],
     serviceArea: 'public',
     founder: ['admin1', 'admin2'],
-    mainEntityOfPage: 'Promoting salsa and bachata in Berlin',
-    makesOffer: ['Weekly socials', 'Workshops', 'Dance practice'],
+    slogan: 'Promoting salsa and bachata in Berlin',
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Workshops',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Weekly socials',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Dance practice',
+      },
+    ],
     employeeCount: 20,
   },
   {
@@ -123,8 +139,22 @@ const organizersData: Organizer[] = [
     ],
     serviceArea: 'public',
     founder: ['admin3', 'admin4'],
-    mainEntityOfPage: 'Bringing swing dance to Paris',
-    makesOffer: ['Weekly classes', 'Social dances', 'Live music events'],
+    slogan: 'Bringing swing dance to Paris',
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Weekly classes',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Social dances',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Live music events',
+      },
+    ],
+
     employeeCount: 30,
   },
   {
@@ -176,8 +206,22 @@ const organizersData: Organizer[] = [
 
     serviceArea: 'public',
     founder: ['admin5', 'admin6'],
-    mainEntityOfPage: 'Promoting tango culture in Buenos Aires',
-    makesOffer: ['Daily milongas', 'Tango shows', 'Practice sessions'],
+    slogan: 'Promoting tango culture in Buenos Aires',
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Daily milongas',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Tango shows',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Practice sessions',
+      },
+    ],
+
     employeeCount: 48,
   },
   {
@@ -228,8 +272,22 @@ const organizersData: Organizer[] = [
     ],
     serviceArea: 'public',
     founder: ['admin7', 'admin8'],
-    mainEntityOfPage: 'Advancing contemporary dance in NYC',
-    makesOffer: ['Weekly classes', 'Performances', 'Workshops'],
+    slogan: 'Advancing contemporary dance in NYC',
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Weekly classes',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Performances',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Workshops',
+      },
+    ],
+
     employeeCount: 10,
   },
   {
@@ -280,8 +338,22 @@ const organizersData: Organizer[] = [
     ],
     serviceArea: 'public',
     founder: ['admin9', 'admin10'],
-    mainEntityOfPage: 'Spreading Brazilian Zouk worldwide',
-    makesOffer: ['Daily classes', 'Weekend parties', 'Workshops'],
+    slogan: 'Spreading Brazilian Zouk worldwide',
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Daily classes',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Weekend parties',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Workshops',
+      },
+    ],
+
     employeeCount: 100,
   },
   {
@@ -333,10 +405,24 @@ const organizersData: Organizer[] = [
     ],
     serviceArea: 'public',
     founder: ['admin11', 'admin12'],
-    mainEntityOfPage: 'Preserving authentic Kizomba culture',
-    makesOffer: ['Beach dance events', 'Workshops', 'Social parties'],
+    slogan: 'Preserving authentic Kizomba culture',
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Beach dance events',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Workshops',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Social parties',
+      },
+    ],
+
     employeeCount: 55,
   },
 ]
 
-export const mockOrganizers = organizersData
+
