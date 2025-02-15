@@ -1,16 +1,18 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
+import type { User } from '~/schemas/user'
 import type { Profile } from '~/schemas/profile'
 
 export const useAuthStore = defineStore('auth', () => {
   // State
-  const user = ref<Profile | null>(null)
+  const user = ref<User | null>(null)
+  const profile = ref<Profile | null>(null)
   const isLoading = ref(false)
   const error = ref<string | null>(null)
 
   // Getters
   const isAuthenticated = computed(() => !!user.value)
-  const userPoints = computed(() => user.value?.points || 0)
+  const userPoints = computed(() => profile.value?.points || 0)
   const userLevel = computed(() => {
     const points = userPoints.value
     if (points >= 2000) return 'Guardian'
@@ -26,14 +28,15 @@ export const useAuthStore = defineStore('auth', () => {
     try {
       isLoading.value = true
       error.value = null
-      // TODO: Implement actual login logic
-      // This is a placeholder for the actual implementation
       user.value = {
         id: '1',
-        name: 'Test User',
+        type: 'dancer',
+        firstName: 'Alex',
+        lastName: 'Razbakov',
         email,
-        points: 0,
-        // Add other required profile fields
+        phone: '111',
+        termsSigned: true,
+        termsSignedAt: new Date(),
       }
     } catch (e) {
       error.value = e instanceof Error ? e.message : 'Login failed'
@@ -45,7 +48,7 @@ export const useAuthStore = defineStore('auth', () => {
 
   function logout() {
     user.value = null
-    // Additional cleanup if needed
+    profile.value = null
   }
 
   return {
