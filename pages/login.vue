@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useForm } from 'vee-validate'
-import * as z from 'zod'
+import { type LoginForm, loginFormSchema } from '~/schemas/auth'
 import { useAuthStore } from '~/stores/auth'
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
@@ -8,17 +8,12 @@ import { toast } from 'vue-sonner'
 const router = useRouter()
 const auth = useAuthStore()
 
-const formSchema = z.object({
-  email: z.string().email('Invalid email address'),
-  password: z.string().min(6, 'Password must be at least 6 characters'),
-})
-
 const form = useForm({
-  validationSchema: toTypedSchema(formSchema),
+  validationSchema: toTypedSchema(loginFormSchema),
 })
 
 const onSubmit = form.handleSubmit(
-  async (values: z.infer<typeof formSchema>) => {
+  async (values: LoginForm) => {
     try {
       await auth.login(values.email, values.password)
       router.push('/feed')
