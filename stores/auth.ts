@@ -40,13 +40,13 @@ export const useAuthStore = defineStore('auth', () => {
         termsSignedAt: new Date(),
       }
       
-      const { error, url } = await signIn(provider, {
+      const { error: signInError, url } = await signIn(provider, {
         ...options,
         redirect: false,
         callbackUrl,
       });
       if (error) {
-        return signInErrors[error] ? signInErrors[error] : error;
+        return signInErrors[signInError] ? signInErrors[signInError] : signInError;
       } else {
         if (authQueryLoading.value) {
           authQueryLoading.value = false;
