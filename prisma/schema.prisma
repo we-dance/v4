@@ -1,0 +1,356 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch", "relationJoins"]
+}
+
+datasource db {
+  // NOTE: You probably want to change this to another database later on
+  provider = "postgres"
+
+  // This value is read from the .env file.
+  url = env("DATABASE_URL")
+
+  directUrl = env("DIRECT_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model User {
+  id            String    @id @default(nanoid())
+  email         String    @unique
+  name          String
+  salt          String    @default("")
+  hash          String    @default("")
+  firebaseId    String    @default("")
+  emailVerified Boolean   @default(false)
+  isDeleted     Boolean   @default(false)
+  deletedAt     DateTime?
+  deletedReason String?
+
+  profile         Profile?  @relation("owned_by")
+  profilesCreated Profile[] @relation("profile_created_by")
+  accounts        Account[]
+  sessions        Session[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  lastLoginAt DateTime @default(now())
+}
+
+model Country {
+  code String @id
+  name String
+
+  cities City[] @relation("country_cities")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model City {
+  id               String @id
+  name             String
+  region           String @default("")
+  countryCode      String
+  description      String @default("")
+  slug             String @unique
+  lat              Float
+  lng              Float
+  membersCount     Int    @default(0)
+  subscribersCount Int    @default(0)
+  viewsCount       Int    @default(0)
+
+  profiles Profile[] @relation("profile_city")
+  country  Country   @relation("country_cities", fields: [countryCode], references: [code])
+
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  subscribers CitySubscriber[] @relation("subscribers")
+}
+
+model Profile {
+  id               String    @id @default(nanoid())
+  username         String    @unique
+  firebaseUsername String    @default("")
+  pronounce        String    @default("they")
+  name             String
+  bio              String    @default("")
+  story            String    @default("")
+  firebaseId       String    @default("")
+  claimed          Boolean   @default(false)
+  formattedAddress String?
+  mapUrl           String?
+  lng              Float?
+  lat              Float?
+  placeId          String?
+  type             String
+  photo            String?
+  website          String?
+  instagram        String?
+  facebook         String?
+  phone            String?
+  youtube          String?
+  spotify          String?
+  tiktok           String?
+  linkedin         String?
+  whatsapp         String?
+  threads          String?
+  twitter          String?
+  vk               String?
+  telegram         String?
+  couchsurfing     String?
+  airbnb           String?
+  blablacar        String?
+  createdById      String?
+  lastLoginAt      DateTime?
+  isDeleted        Boolean   @default(false)
+  deletedAt        DateTime?
+  deletedReason    String?
+  followersCount   Int       @default(0)
+  followingCount   Int       @default(0)
+  viewsCount       Int       @default(0)
+
+  userId             String?           @unique
+  user               User?             @relation("owned_by", fields: [userId], references: [id])
+  cityId             String?
+  city               City?             @relation("profile_city", fields: [cityId], references: [id])
+  posts              Post[]
+  eventsCreated      Event[]           @relation("event_created_by")
+  eventsOrganized    Event[]           @relation("event_organized_by")
+  eventsHosted       Event[]           @relation("event_hosted_by")
+  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
+  styles             Experience[]      @relation("profile_experience")
+  followers          ProfileFollower[] @relation("followers")
+  following          ProfileFollower[] @relation("following")
+  cities             CitySubscriber[]  @relation("cities")
+  eventsParticipated Guest[]           @relation("guest_profile")
+  videosAdded        Video[]           @relation("video_created_by")
+  votes              Vote[]            @relation("vote_created_by")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("Profile")
+}
+
+model Experience {
+  level       String
+  highlighted Boolean
+
+  profileId String
+  profile   Profile    @relation("profile_experience", fields: [profileId], references: [id])
+  styleId   Int
+  style     DanceStyle @relation("experience_style", fields: [styleId], references: [id])
+
+  @@unique([profileId, styleId])
+}
+
+model Post {
+  id         String  @id @default(nanoid())
+  title      String  @default("")
+  image      String  @default("")
+  url        String  @default("")
+  content    String  @default("")
+  type       String  @default("")
+  slug       String  @unique
+  published  Boolean @default(false)
+  firebaseId String  @default("")
+
+  author   Profile     @relation(fields: [authorId], references: [id])
+  authorId String
+  event    Event?      @relation("post_event", fields: [eventId], references: [id])
+  eventId  String?
+  styleId  Int?
+  style    DanceStyle? @relation("post_style", fields: [styleId], references: [id])
+
+  upvotes       Int @default(0)
+  commentsCount Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Event {
+  id          String   @id @default(nanoid())
+  shortId     String   @default(nanoid(5))
+  slug        String
+  name        String
+  startDate   DateTime
+  endDate     DateTime
+  type        String   @default("Party")
+  description String   @default("")
+  cover       String   @default("")
+  price       String   @default("")
+  firebaseId  String   @default("")
+  published   Boolean  @default(false)
+
+  styles      DanceStyle[]
+  creatorId   String
+  creator     Profile      @relation("event_created_by", fields: [creatorId], references: [id])
+  organizerId String
+  organizer   Profile      @relation("event_organized_by", fields: [organizerId], references: [id])
+  venueId     String
+  venue       Profile      @relation("event_hosted_by", fields: [venueId], references: [id])
+  posts       Post[]       @relation("post_event")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  guests    Guest[]  @relation("event_guests")
+}
+
+model DanceStyle {
+  id           Int      @id @default(autoincrement())
+  name         String
+  hashtag      String   @unique
+  synonyms     String?
+  regexp       String?
+  popular      Boolean  @default(false)
+  popularity   Int?
+  familyOnly   Boolean  @default(false)
+  description  String?
+  history      String?
+  origins      String?
+  adjectives   String?
+  type         String?
+  holding      String?
+  year         String?
+  predecessors String?
+  parent       String?
+  influence    String?
+  family       String?
+  region       String?
+  country      String?
+  genres       String?
+  source       String?
+  root         Boolean?
+  partner      Boolean?
+  group        Boolean?
+  related      String?
+  music        String?
+  timing       String?
+  active       Boolean?
+  video        String?
+  intro        String?
+
+  membersCount Int @default(0)
+  eventsCount  Int @default(0)
+
+  events      Event[]
+  experiences Experience[] @relation("experience_style")
+  videos      Video[]      @relation("video_style")
+  posts       Post[]       @relation("post_style")
+}
+
+model ProfileFollower {
+  id Int @id @default(autoincrement())
+
+  followerId String
+  follower   Profile @relation("following", fields: [followerId], references: [id])
+  profileId  String
+  profile    Profile @relation("followers", fields: [profileId], references: [id])
+
+  createdAt DateTime @default(now())
+
+  @@unique([followerId, profileId])
+}
+
+model CitySubscriber {
+  id Int @id @default(autoincrement())
+
+  cityId    String
+  city      City    @relation("subscribers", fields: [cityId], references: [id])
+  profileId String
+  profile   Profile @relation("cities", fields: [profileId], references: [id])
+
+  @@unique([cityId, profileId])
+}
+
+model Redirect {
+  id   String  @id @default(nanoid())
+  from String
+  to   String
+  note String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Guest {
+  id        String  @id @default(nanoid())
+  profileId String
+  profile   Profile @relation("guest_profile", fields: [profileId], references: [id])
+  eventId   String
+  event     Event   @relation("event_guests", fields: [eventId], references: [id])
+
+  role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
+  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"
+
+  invitedAt    DateTime?
+  confirmedAt  DateTime?
+  cancelledAt  DateTime?
+  registeredAt DateTime?
+  waitlistedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([profileId, eventId]) // Ensure a profile can only be linked to an event once
+}
+
+model Video {
+  id      String     @id @default(nanoid())
+  url     String     @unique
+  styleId Int
+  style   DanceStyle @relation("video_style", fields: [styleId], references: [id])
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  createdBy   Profile? @relation("video_created_by", fields: [createdById], references: [id])
+  createdById String?
+}
+
+model Vote {
+  id          String   @id @default(nanoid())
+  winnerId    String
+  loserId     String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  createdBy   Profile  @relation("vote_created_by", fields: [createdById], references: [id])
+  createdById String
+}

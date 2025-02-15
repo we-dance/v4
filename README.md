@@ -44,13 +44,19 @@ nvm use
 pnpm install
 ```
 
-3. Run development server
+3. Start database server
+```
+docker compose up -d
+make build
+```
+
+4. Run development server
 
 ```bash
 pnpm dev
 ```
 
-4. Build for production
+5. Build for production
 
 ```bash
 pnpm build
