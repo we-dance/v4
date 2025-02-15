@@ -54,12 +54,7 @@ model VerificationToken {
 model User {
   id            String    @id @default(nanoid())
   email         String    @unique
-  name          String   // remove
-  firstName     String
-  lastName      String
-  phone         String
-  termsSigned   Boolean   @default(false)
-  termsSignedAt DateTime
+  name          String
   salt          String    @default("")
   hash          String    @default("")
   firebaseId    String    @default("")
