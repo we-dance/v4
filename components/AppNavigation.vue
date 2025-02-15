@@ -70,7 +70,7 @@ watch(
           <template v-if="auth.isAuthenticated">
             <DropdownMenu>
               <DropdownMenuTrigger as-child>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" data-test="profile-menu">
                   <Icon name="lucide:user" class="h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>

@@ -1,3 +1,5 @@
 const { setDefaultTimeout } = require('@cucumber/cucumber')
 
-setDefaultTimeout(30 * 1000) // 30 seconds
+const second = 1000
+
+setDefaultTimeout(5 * second)
