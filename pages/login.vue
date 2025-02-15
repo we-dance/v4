@@ -49,6 +49,7 @@ const onSubmit = form.handleSubmit(
                 <Input
                   type="email"
                   placeholder="Enter your email"
+                  autocomplete="email"
                   v-bind="componentField"
                   :disabled="auth.isLoading"
                 />
@@ -64,6 +65,7 @@ const onSubmit = form.handleSubmit(
                 <Input
                   type="password"
                   placeholder="Enter your password"
+                  autocomplete="current-password"
                   v-bind="componentField"
                   :disabled="auth.isLoading"
                 />
