@@ -2,6 +2,7 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import type { User } from '~/schemas/user'
 import type { Profile } from '~/schemas/profile'
+const { signIn, signOut, data, status } = useAuth();
 
 export const useAuthStore = defineStore('auth', () => {
   // State
@@ -38,6 +39,24 @@ export const useAuthStore = defineStore('auth', () => {
         termsSigned: true,
         termsSignedAt: new Date(),
       }
+      
+      const { error, url } = await signIn(provider, {
+        ...options,
+        redirect: false,
+        callbackUrl,
+      });
+      if (error) {
+        return signInErrors[error] ? signInErrors[error] : error;
+      } else {
+        if (authQueryLoading.value) {
+          authQueryLoading.value = false;
+        } else {
+          navigateTo(url, { external: true });
+        }
+  
+        return null;
+      }
+
     } catch (e) {
       error.value = e instanceof Error ? e.message : 'Login failed'
       throw e
