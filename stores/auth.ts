@@ -45,7 +45,7 @@ export const useAuthStore = defineStore('auth', () => {
         redirect: false,
         callbackUrl,
       });
-      if (error) {
+      if (signInError) {
         return signInErrors[signInError] ? signInErrors[signInError] : signInError;
       } else {
         if (authQueryLoading.value) {
