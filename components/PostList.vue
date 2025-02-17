@@ -57,7 +57,10 @@ const { data, isLoading, error, fetchNextPage, hasNextPage } = usePostsList(
 const posts = computed(() => {
   if (!data.value) return [] as Post[]
   return data.value.pages
-    .flatMap((page) => page.items)
+    .flatMap((page) => {
+      if (props.type === 'all') return page.items
+      return page.items.filter((item) => item.type === props.type)
+    })
     .map((item) => ({
       ...item,
       stats: {
