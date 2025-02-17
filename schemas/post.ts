@@ -9,6 +9,31 @@ export const authorSchema = z.object({
   points: z.number().optional(),
 })
 
+//SocialMediaPostingSchema Declaration here..
+
+export const AuthorSchema = z.object({
+  name: z.string(),
+  url: z.string().optional(),
+});
+
+export const InteractionStatisticSchema = z.object({
+  type: z.enum(["LikeAction", "ShareAction"]),
+  userInteractionCounter: z.number().min(0),
+});
+
+
+export const SocialMediaPostingSchema = z.object({
+   "@context": z.literal("https://schema.org"),
+  "@type": z.enum(["SocialMediaPosting", "BlogPosting"]),
+   articleBody: z.string(),
+   author: AuthorSchema,
+   datePublished: z.string().datetime(),
+  interactionStatistic: z.array(InteractionStatisticSchema).optional(),
+});
+
+
+
+
 export type PostAuthor = z.infer<typeof authorSchema>
 export type PostType =
   | 'note'

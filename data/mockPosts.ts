@@ -1,6 +1,43 @@
 import { mockEvents } from './mockEvents'
 import { eventToFeedPost } from '~/schemas/event'
 import { type Post } from '~/schemas/post'
+import { SocialMediaPostingSchema } from '~/schemas/post'
+
+
+//Validate with Schema Markup Validator
+
+const sample = {
+  "@context": "https://schema.org",
+  "@type": "SocialMediaPosting",
+  "headline": "Sample Social Media Post",
+  "articleBody": "This is a sample social media post.",
+  "author": {
+     "name": "Amadike .M. Chanoyah", 
+     "url": "https://example.com"
+     
+    },
+
+  "datePublished": "2022-03-14T10:30:00Z",
+  "interactionStatistic": [
+    { 
+      "@type": "InteractionCounter", 
+      "interactionType": "LikeAction",
+      "userInteractionCount": 20
+     },
+    { 
+      "@type": "InteractionCounter", 
+      "interactionType": "ShareAction",
+      "userInteractionCount": 5
+     }
+  ]
+}
+
+
+const validation = SocialMediaPostingSchema.safeParse('samplePost');
+console.log(validation.success ? "Valid Schema" : validation.error)
+
+
+
 
 // Define mock posts data without export
 const postsData: Post[] = [
