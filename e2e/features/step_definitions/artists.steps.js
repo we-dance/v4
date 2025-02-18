@@ -12,9 +12,18 @@ Then('I should see the list of dance artists', async function () {
   const header = await this.page.getByRole('heading', { level: 1 })
   await expect(header).toBeVisible()
 
-  // Check if there are artist cards in the grid
-  const artistCards = this.page.locator('.artist-card')
-  await expect(artistCards).toHaveCount(await artistCards.count())
+  // Wait for data to load
+  await this.page.waitForTimeout(1000)
+
+  // Check for artist cards using specific structure
+  const artistCards = this.page.locator('div.rounded-lg:has(img.rounded-full)')
+  const count = await artistCards.count()
+  await expect(count).toBeGreaterThan(0)
+
+  // Verify first card content
+  const firstCard = artistCards.first()
+  await expect(firstCard.locator('h3')).toBeVisible()
+  await expect(firstCard.locator('img.rounded-full')).toBeVisible()
 
   await this.cleanup()
 })

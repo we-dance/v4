@@ -7,8 +7,23 @@ When('I visit the venues page', async function () {
   await this.page.waitForLoadState('networkidle')
 })
 
-Then('I should see the venues container', async function () {
-  const container = await this.page.locator('main')
-  await expect(container).toBeVisible()
+Then('I should see the list of dance venues', async function () {
+  // Check header
+  const header = await this.page.getByRole('heading', { level: 1 })
+  await expect(header).toBeVisible()
+
+  // Wait for data to load
+  await this.page.waitForTimeout(1000)
+
+  // Check for venue cards using specific structure
+  const venueCards = this.page.locator('div.grid > a.group')
+  const count = await venueCards.count()
+  await expect(count).toBeGreaterThan(0)
+
+  // Verify first card content
+  const firstCard = venueCards.first()
+  await expect(firstCard.locator('h3')).toBeVisible()
+  await expect(firstCard.locator('img')).toBeVisible()
+
   await this.cleanup()
 })
