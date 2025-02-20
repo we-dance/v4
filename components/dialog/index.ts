@@ -5,6 +5,7 @@ import CourseSubscriptionDialog from './CourseSubscriptionDialog.vue'
 import VenueBookingDialog from './VenueBookingDialog.vue'
 import VenueAreaDetailsDialog from './VenueAreaDetailsDialog.vue'
 import SearchDialog from './SearchDialog.vue'
+import CourseReviewDialog from './CourseReviewDialog.vue'
 
 export const dialogs = {
   PricingOptionsDialog,
@@ -14,4 +15,5 @@ export const dialogs = {
   VenueBookingDialog,
   VenueAreaDetailsDialog,
   SearchDialog,
+  CourseReviewDialog,
 }

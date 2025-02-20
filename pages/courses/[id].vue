@@ -12,6 +12,20 @@ const course = ref(
     (course) => String(course.identifier) === String(route.params.id)
   )!
 )
+
+// Initialize course rating on page load
+if (course.value.review?.length > 0) {
+  const totalRating = course.value.review.reduce(
+    (acc, review) => acc + review.reviewRating.ratingValue,
+    0
+  )
+  course.value.aggregateRating.ratingValue = +(
+    totalRating / course.value.review.length
+  ).toFixed(1)
+  course.value.aggregateRating.reviewCount = course.value.review.length
+  course.value.aggregateRating.ratingCount = course.value.review.length
+}
+
 const dialog = useDialog()
 
 const currentLesson = ref(course.value.hasPart[0].hasPart[0])
@@ -73,6 +87,48 @@ const handleSubscribe = () => {
         } catch (error) {
           console.error('Navigation error:', error)
         }
+      },
+    },
+  })
+}
+
+const handleAddReview = () => {
+  dialog.open({
+    component: 'CourseReviewDialog',
+    props: {
+      course: course.value,
+      onSubmit: async (review: { rating: number; reviewBody: string }) => {
+        const newReview = {
+          '@type': 'Review' as const,
+          identifier: course.value.review.length + 1,
+          reviewRating: {
+            '@type': 'Rating' as const,
+            ratingValue: review.rating,
+            bestRating: 5,
+            worstRating: 1,
+          },
+          author: {
+            '@type': 'Person' as const,
+            name: 'Current User',
+          },
+          reviewBody: review.reviewBody,
+          datePublished: new Date().toISOString().split('T')[0],
+        }
+        
+        course.value.review.unshift(newReview)
+        
+        // Update aggregate rating
+        const totalRating = course.value.review.reduce(
+          (acc, review) => acc + review.reviewRating.ratingValue,
+          0
+        )
+        course.value.aggregateRating.ratingValue = +(
+          totalRating / course.value.review.length
+        ).toFixed(1)
+        course.value.aggregateRating.reviewCount = course.value.review.length
+        course.value.aggregateRating.ratingCount = course.value.review.length
+        
+        dialog.close()
       },
     },
   })
@@ -343,8 +399,9 @@ const handleSubscribe = () => {
 
           <!-- Reviews -->
           <div class="bg-background rounded-xl shadow-sm overflow-hidden">
-            <div class="p-4 border-b">
+            <div class="p-4 border-b flex items-center justify-between">
               <h3 class="font-semibold">Student Reviews</h3>
+              <Button @click="handleAddReview">Review</Button>
             </div>
             <div class="divide-y">
               <div
