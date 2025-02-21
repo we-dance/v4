@@ -29,3 +29,25 @@ Then('I should see the list of dance courses', async function () {
 
   await this.cleanup()
 })
+// Yarima Course Journey
+When('I click on {string} course', async function (courseName) {
+  const courseCard = this.page.getByText(courseName).first()
+  await courseCard.click()
+  await this.page.waitForLoadState('networkidle')
+})
+
+Then('I should be redirected to the course details page', async function () {
+  await this.page.waitForSelector('h1')
+  const courseTitle = await this.page.getByText('Salsa Lady Styling')
+  await expect(courseTitle).toBeVisible()
+})
+
+When('I click on {string} button', async function (buttonText) {
+  const button = this.page.getByRole('button', { name: buttonText })
+  await button.click()
+})
+
+Then('I should see a dialog with title {string}', async function (title) {
+  const dialogTitle = this.page.getByRole('heading', { name: title })
+  await expect(dialogTitle).toBeVisible()
+})
