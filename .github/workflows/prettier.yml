@@ -28,4 +28,4 @@ jobs:
         run: pnpm install
 
       - name: Run Prettier check
-        run: pnpm format:check
+        run: pnpm test
