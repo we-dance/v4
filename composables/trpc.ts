@@ -8,7 +8,7 @@ import type { CreatePost, UpdateStats } from '~/server/trpc/schemas/post'
 const client = createTRPCProxyClient<AppRouter>({
   links: [
     httpBatchLink({
-      url: '/api/trpc',
+      url: `${window.location.origin}/api/trpc`,
     }),
   ],
   transformer: superjson,
