@@ -6,10 +6,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "lint": "prettier --check .",
+    "test": "pnpm lint && pnpm test:unit && pnpm test:e2e",
+    "test:unit": "vitest",
+    "test:unit:coverage": "vitest run --coverage",
+    "test:e2e": "pnpm dev && cd e2e && pnpm i && pnpm test"
   },
   "dependencies": {
     "@internationalized/date": "^3.7.0",
