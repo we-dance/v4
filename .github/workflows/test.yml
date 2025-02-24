@@ -1,4 +1,4 @@
-name: Prettier Check
+name: Test Suite
 
 on:
   push:
@@ -27,5 +27,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run Prettier check
+      - name: Run tests
         run: pnpm test

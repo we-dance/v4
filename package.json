@@ -9,7 +9,7 @@
     "format": "prettier --write .",
     "lint": "prettier --check .",
     "test": "pnpm lint && pnpm test:unit && pnpm test:e2e",
-    "test:unit": "vitest",
+    "test:unit": "vitest run",
     "test:unit:coverage": "vitest run --coverage",
     "test:e2e": "pnpm build && start-server-and-test 'pnpm preview' http://localhost:3000 'cd e2e && pnpm test'"
   },
