@@ -6,10 +6,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "lint": "prettier --check .",
+    "test": "pnpm lint && pnpm test:unit && pnpm test:e2e",
+    "test:unit": "vitest run",
+    "test:unit:coverage": "vitest run --coverage",
+    "test:e2e": "start-server-and-test 'pnpm preview' http://localhost:3000 'cd e2e && pnpm install && pnpm test'"
   },
   "dependencies": {
     "@internationalized/date": "^3.7.0",
@@ -56,6 +58,7 @@
     "jsdom": "^26.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
+    "start-server-and-test": "^2.0.10",
     "vitest": "^3.0.4"
   }
 }

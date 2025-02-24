@@ -13,10 +13,7 @@ import {
 
 const props = defineProps<{
   course: any
-  onSubmit: (review: {
-    rating: number
-    reviewBody: string
-  }) => void
+  onSubmit: (review: { rating: number; reviewBody: string }) => void
 }>()
 
 const rating = ref(5)
@@ -73,10 +70,14 @@ const handleSubmit = () => {
     </div>
 
     <DialogFooter>
-      <Button type="button" variant="outline" @click="$emit('update:open', false)">
+      <Button
+        type="button"
+        variant="outline"
+        @click="$emit('update:open', false)"
+      >
         Cancel
       </Button>
       <Button type="button" @click="handleSubmit">Submit</Button>
     </DialogFooter>
   </DialogContent>
-</template> 
+</template>

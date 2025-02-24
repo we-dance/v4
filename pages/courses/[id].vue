@@ -114,9 +114,9 @@ const handleAddReview = () => {
           reviewBody: review.reviewBody,
           datePublished: new Date().toISOString().split('T')[0],
         }
-        
+
         course.value.review.unshift(newReview)
-        
+
         // Update aggregate rating
         const totalRating = course.value.review.reduce(
           (acc, review) => acc + review.reviewRating.ratingValue,
@@ -127,7 +127,7 @@ const handleAddReview = () => {
         ).toFixed(1)
         course.value.aggregateRating.reviewCount = course.value.review.length
         course.value.aggregateRating.ratingCount = course.value.review.length
-        
+
         dialog.close()
       },
     },
