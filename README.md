@@ -11,14 +11,11 @@ WeDance is a participatory network that empowers dance communities by providing 
 
 ## 🌟 Tech Stack
 
-- **Frontend Framework**: Nuxt 3
+- **Frontend**: Nuxt 3
+- **Backend**: Nodejs + Prisma + tRPC
 - **UI Components**: Vue Shadcn
 - **Styling**: TailwindCSS
 - **Form Handling**: VeeValidate + Zod
-- **State Management**: Pinia
-- **Content Management**: Nuxt Content
-- **Icons**: Nuxt Icon
-- **Fonts**: Google Fonts (Noto Sans)
 
 ## 📦 Prerequisites
 
@@ -37,13 +34,22 @@ git clone git@github.com:wedance/v4.git
 cd v4
 ```
 
-2. Build
+2. Configure
+
+Copy env file and provide configuration:
+
+```
+cp .env.example .env
+cp cli/.env.example cli/.env
+```
+
+3. Build
 
 ```bash
 make build
 ```
 
-3. Run development server
+4. Run development server
 
 ```bash
 pnpm dev
