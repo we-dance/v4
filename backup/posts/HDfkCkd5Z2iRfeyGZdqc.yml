@@ -1,0 +1,162 @@
+endDate: 1730419200000
+sourceUrl: https://www.facebook.com/events/394528103491536/
+createdAt: 1728413958513
+approved: true
+provider: ical
+providerId: jTN0EWu6B1fkGQvb7Ovx
+providerCreatedAt: 1726904630000
+updatedAt: 1728413958513
+importedAt: 1728413958513
+providerUpdatedAt: 1727643055000
+facebookId: "394528103491536"
+facebook: https://www.facebook.com/events/394528103491536/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/394528103491536/
+eventType: Party
+providerItemId: e394528103491536@facebook.com
+createdBy: 65gXCoXpZyNImhiysN6NDjcnrBM2
+name: 👻¡Vamos a Bailar!👻 Helloween im Logenhaus
+location: Kulturforum Logenhaus
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730399400000
+facebookUrlsCount: 1
+username: Tatjana
+venue:
+  formatted_address: Universitätsstraße 25, 91054 Erlangen, Germany
+  website: http://kulturforum-logenhaus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kulturforum Logenhaus
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.0122718197085
+        lat: 49.5968044197085
+      northeast:
+        lng: 11.0149697802915
+        lat: 49.5995023802915
+    location:
+      lng: 11.0135687
+      lat: 49.5982964
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: Universitätsstraße
+      long_name: Universitätsstraße
+    - types:
+        - locality
+        - political
+      short_name: ERH
+      long_name: Erlangen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Erlangen
+      long_name: Kreisfreie Stadt Erlangen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "91054"
+      long_name: "91054"
+  international_phone_number: +49 162 8925000
+  place_id: ChIJE8O9ux_5oUcRkWD-KjsEGjc
+  url: https://maps.google.com/?cid=3970490673651409041
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/DJ-NMB/100063611978124/
+  name: DJ NMB
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214841/utrfnvkkic8yflrcvwyy.jpg
+  bio: ""
+  id: 1rTqyo8jWHaegWnLIX9j
+  instagram: ""
+  username: DJNMB
+claimed: No
+link: ""
+description: >-
+  Halloweenparty vor dem Feiertag !!!
+
+
+  19:30 Einlass zur Unterwelt der Monster, Untoten und Hexen !
+
+
+  19:45 - 20:45 Uhr Salsa Kurs mit Tatjana & Ralf von Bailamos Würzburg
+
+
+  20:45 - 1:00 Uhr (länger wenn gut besucht) Party mit Dj NMB mit Salsa Cubana/NY, Bachata, Kizomba, Merengue & Cha Cha
+
+
+  Eintritt 10€
+
+
+  Zu Helloween wird das Reich der Unterwelt im Logenhaus geöffnet und wir lassen es richtig krachen... Zombis, Untote, Geister, Hexen und wer weiß was sich noch alles im Logenhaus rumtreiben wird !!! 
+
+
+  Verkleidungen erwünscht und ausdrücklich erlaubt !!!
+
+
+  Kommt und lasst uns das Logenhaus zum beben bringen. Wir freue uns auf euch !!!
+
+
+  Wir sehen uns...
+
+  Nos vemos....
+
+
+  Kulturforum Logenhaus
+
+  Universitätsstr 25
+
+  Erlangen
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728413971/vgdrnudtgbzqvtqflaws.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJoTR81cf4oUcR0Me1vjLaHgQ
+international: No
+hash: 1730399400000+ChIJE8O9ux_5oUcRkWD-KjsEGjc
+viewsCount: 1
+id: HDfkCkd5Z2iRfeyGZdqc

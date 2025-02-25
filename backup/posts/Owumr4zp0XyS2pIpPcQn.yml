@@ -1,0 +1,156 @@
+endDate: 1723838400000
+claimed: No
+program: []
+instagram: {}
+source: facebook
+type: event
+seriesId: LGT0m6Ry9lPz1jo7UaIA
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707854083/ilwalinot396atrl0nqy.jpg
+bookmarks: 1
+createdAt: 1717625908974
+approved: true
+checkin:
+  count: 0
+  list: {}
+price: FREE
+id: Owumr4zp0XyS2pIpPcQn
+providerCreatedAt: 1699610679000
+international: No
+updatedAt: 1717625908974
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+providerUpdatedAt: 1707849379000
+facebookId: "284637091214018"
+viewsCount: 1
+upVotes: 0
+eventType: Party
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+name: Salsa Cubana - Timba Party
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1723827600000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+startDate: 1723827600000
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: Area 4
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+  username: pinakothekdermoderne
+link: ""
+description: >-
+  The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+  you know from our parties with cool drinks to fair prices in an amazing
+  atmosphere.
+
+
+  Eintritt: free
+downVotes: 0
+duration: 180
+artists: []
+provider: ical
+providerId: anBgOWXJuGIEKeqfp7My
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+importedAt: 1707854075419
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/vacunaaa
+  name: Salsa Cubana Munich
+  bio: >
+    The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties. Join our Whatsapp group.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  instagram: https://instagram.com/salsa.cubana.munich
+  username: salsa.cubana.munich
+facebook: https://www.facebook.com/events/284637091214018/?event_time_id=284637121214015
+telegram: {}
+facebookUrlsList:
+  - https://www.facebook.com/events/284637091214018/?event_time_id=284637151214012
+providerItemId: e284637151214012@facebook.com
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+location: KULT Tanzschule
+votes: 0
+username: alexrazbakov
+facebookUrlsCount: 1
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOwumr4zp0XyS2pIpPcQn.png?generation=1717625984198381&alt=media

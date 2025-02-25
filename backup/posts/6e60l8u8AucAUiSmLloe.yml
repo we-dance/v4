@@ -1,0 +1,223 @@
+endDate: 1731819600000
+sourceUrl: https://www.facebook.com/events/335091792729588/?event_time_id=413478638224236
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1705522590000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727999693000
+facebookId: "413478638224236"
+facebook: https://www.facebook.com/events/335091792729588/?event_time_id=413478638224236
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/335091792729588/?event_time_id=413478638224236
+eventType: Party
+providerItemId: e413478638224236@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Fiesta Central 2024 Dates! - SBK Party "
+location: Romeo Dance Academy Ltd
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731794400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: The Old Bus Station, 1st Floor South Side, 401 Elder Gate,
+    Milton Keynes MK9 1LR, UK
+  website: http://www.romeodanceacademy.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Romeo Dance Academy Ltd
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.771946880291502
+        lat: 52.03281636970849
+      northeast:
+        lng: -0.769248919708498
+        lat: 52.03551433029149
+    location:
+      lng: -0.7706771
+      lat: 52.03428049999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "401"
+      long_name: "401"
+    - types:
+        - route
+      short_name: Elder Gate
+      long_name: Elder Gate
+    - types:
+        - postal_town
+      short_name: Milton Keynes
+      long_name: Milton Keynes
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Milton Keynes
+      long_name: Milton Keynes
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: MK9 1LR
+      long_name: MK9 1LR
+  international_phone_number: +44 7541 220602
+  place_id: ChIJX9ejTCWrd0gRHLdwGu8NbfE
+  url: https://maps.google.com/?cid=17396576256194033436
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417962382
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/RomeoDanceAcademy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417962/jwg1agigmhyvgur2arnp.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417962382
+  owned: false
+  name: Romeo Dance Academy Ltd
+  updatedAt: 1728417962382
+  username: RomeoDanceAcademy
+claimed: No
+link: https://bit.ly/321SVoO
+description: >-
+  Friday 25th October 2024
+
+  SALSA, BACHATA, KIZOMBA PARTY
+
+  💥 2 ROOMS, PARTY FROM 9PM TIL 3AM 💥
+
+
+  8️PM Workshop 
+
+  9PM PARTY TIL 3AM 
+
+  (2 rooms - Ballroom: Salsa & Bachata / Studio1: Kizomba)
+
+
+  🌟🌟🌟2024 FIESTA CENTRAL DATES🌟🌟🌟
+
+  20th January
+
+  17th February
+
+  16th March
+
+  20th April
+
+  18th May
+
+  15th June
+
+  20th July
+
+  17th August
+
+  21st September
+
+  25th October *exception Halloween Special is on a Friday night!*
+
+  16th November
+
+  21st December
+
+
+  What to expect?
+
+  ✅ Fully licensed bar
+
+  ✅ The hottest tracks
+
+  ✅ Fun, friendly atmosphere
+
+  ✅ Delicious Latin inspired food & cakes
+
+  ✅ Fully air conditioned venue
+
+  ✅ The only purpose built sprung dance floor and venue around!
+
+
+  🌟 Prices:
+
+  £10 online or on the door
+
+
+  Our unrivalled venue facilities include:
+
+  - Beautiful fully sprung dance floor
+
+  - Fully licensed bar
+
+  - Wheelchair accessible
+
+  - Toilet and changing facilities
+
+  - Friendly atmosphere!
+
+  - On-site parking
+
+
+  If you have any other questions, please do not hesitate to message/contact us!
+
+
+  ➖➖➖➖➖➖➖➖➖➖➖
+
+  ☎️ 07541220602
+
+  📧 info@romeodanceacademy.com
+
+  🚗 The Old Bus Station, 1st Floor South Side, 401 Elder Gate, Milton Keynes, MK9 1LR (Entrance via Train Station side)
+
+  www.romeodanceacademy.com
+
+  ➖➖➖➖➖➖➖➖➖➖➖
+
+
+  Getting here:
+
+  Ballroom located directly opposite Milton Keynes Central Train Station, within walking distance.
+
+  🚅 30 mins direct from London Euston
+
+  🚅 50 mins direct from Birmingham
+
+  Please Note: We have a compulsory heel protector policy in place to protect your dance shoes and our dancefloors. They can be purchased in reception for £1.50 a pair.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417963/vp8lwwuuv38def107nja.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1731794400000+ChIJX9ejTCWrd0gRHLdwGu8NbfE
+id: 6e60l8u8AucAUiSmLloe

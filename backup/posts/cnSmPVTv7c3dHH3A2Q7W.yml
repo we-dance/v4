@@ -1,0 +1,117 @@
+venue:
+  formatted_address: Am Feringasee 1, 85774 Unterföhring, Germany
+  website: http://www.feringa-see.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "1"
+      short_name: "1"
+    - types:
+        - route
+      long_name: Am Feringasee
+      short_name: Am Feringasee
+    - types:
+        - locality
+        - political
+      long_name: Unterföhring
+      short_name: Unterföhring
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "85774"
+      short_name: "85774"
+  url: https://maps.google.com/?cid=9366275174460800282
+  name: Feringas Restaurant
+  geometry:
+    viewport:
+      south: 48.1907573197085
+      north: 48.1934552802915
+      east: 11.6762295302915
+      west: 11.6735315697085
+    location:
+      lng: 11.674801
+      lat: 48.192155
+  international_phone_number: +49 89 9505375
+  place_id: ChIJC2to_7J0nkcRGr1LgqWx-4E
+endDate:
+  _seconds: 1629572400
+  _nanoseconds: 0
+description: >-
+  Es findet am Samstag ein Picknick mit anschließender Latino Party am Feringer
+  See in der Nähe von Feringas und den Beach Volleyball Platz statt
+
+
+  15-18 Picknick und Schwimmen
+
+  18-21 Salsaund Bachata
+type: event
+duration: "180"
+promo: ""
+cover: ""
+createdAt: 1629376040439
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ""
+id: cnSmPVTv7c3dHH3A2Q7W
+views: 4
+updatedAt: 1629376040439
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa and Bachata Party am Feringer See
+online: No
+styles:
+  Timba:
+    level: Interested
+    selected: true
+  BachataModerna:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaCalena:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-21T16:00:00.000Z
+username: Vitali
+viewsCount: 5

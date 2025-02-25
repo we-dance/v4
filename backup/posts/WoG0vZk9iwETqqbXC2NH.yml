@@ -1,0 +1,114 @@
+createdAt: 1708774252015
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1708774252015
+username: alexrazbakov
+venue:
+  formatted_address: R. do Teixeira 39, 1200-459 Lisboa, Portugal
+  website: https://100maneiras.com/restaurante/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: 100 Maneiras
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.146317680291503
+        lat: 38.7134103197085
+      northeast:
+        lng: -9.143619719708498
+        lat: 38.71610828029149
+    location:
+      lng: -9.145037199999999
+      lat: 38.714734
+  address_components:
+    - types:
+        - street_number
+      short_name: "39"
+      long_name: "39"
+    - types:
+        - route
+      short_name: R. do Teixeira
+      long_name: Rua do Teixeira
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Misericórdia
+      long_name: Misericórdia
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 1200-459
+      long_name: 1200-459
+  international_phone_number: +351 910 918 181
+  place_id: ChIJ4asYJYAzGQ0RXcdYOSuUidY
+  url: https://maps.google.com/?cid=15459050109292562269
+endDate: 1709078400000
+claimed: No
+link: ""
+description: >-
+  Festa de Salsa Cubana no Bar Miami Vice em Bairro Alto.
+  🇨🇺🇵🇹💯💯🔥🔥👏🏻👏🏻
+
+
+  @jodsrumba @angymar_d03 @yuniordjmix @miamivicebairroalto
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/jonas.desousa.71
+  name: Jonas De Sousa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774235/tg3gci9oeuqv1ir6i6db.jpg
+  bio: ""
+  id: V4OXIjfPWBPmEPqgVYRE
+  instagram: ""
+  username: jonas.de.sousa
+facebook: https://www.facebook.com/events/3019620021514620/?event_time_id=3019620098181279
+facebookId: "3019620098181279"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Noite de Salsa Cubana
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1709069400000+ChIJ4asYJYAzGQ0RXcdYOSuUidY
+startDate: 1709069400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708774257/sqjdqkumi4i0fvactvrt.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWoG0vZk9iwETqqbXC2NH.png?generation=1708774270815204&alt=media
+viewsCount: 8
+id: WoG0vZk9iwETqqbXC2NH

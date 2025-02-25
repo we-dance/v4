@@ -1,0 +1,66 @@
+endDate:
+  _seconds: 1603393200
+  _nanoseconds: 0
+city: Munich
+description: >
+  My dear DANCERS, 
+
+
+  This course is good for everyone, who wants to lean bachata techniques and different styles. 
+
+  Also you join this course if you want to refresh your basics #back2basics. 
+
+
+  to register, pls contact me 
+
+  +49 157 559 17 599
+
+
+  P.S. today we missing one leader!
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkNDQo4gmNYQKAnxY4bbSDQpJzrH2%2F587a6ad0-dfec-4a2e-9e9a-510b2f360177?alt=media&token=ee238aac-a2b3-43a2-8df9-68a11dc75e75
+createdAt: 1603323236681
+watchersCount: 0
+commentsLast: ~
+id: 4rfwHYVNDtqyl6bOJFhm
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617065895417
+address: Machtlfingerstrasse 10
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Course
+organiser: Elena
+form: Yes
+createdBy: kNDQo4gmNYQKAnxY4bbSDQpJzrH2
+commentsCount: 0
+name: BACHATA from ZERO
+styles:
+  BachataModerna:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  Bachatango:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate:
+  _seconds: 1603389600
+  _nanoseconds: 0
+username: Aljonali
+viewsCount: 52

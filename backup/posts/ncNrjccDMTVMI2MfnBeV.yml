@@ -1,0 +1,115 @@
+endDate: 1719687600000
+sourceUrl: https://www.facebook.com/events/1875333942922159/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1710852657000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1710852903000
+facebookId: "1875333942922159"
+facebook: https://www.facebook.com/events/1875333942922159/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1875333942922159/
+eventType: Concert
+providerItemId: e1875333942922159@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa & Bachata
+location: Oopperan amfiteatteri
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719669600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Helsinginkatu 58, 00251 Helsinki, Finland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Oopperan Amfiteatteri
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.9291250197085
+        lat: 60.1794602197085
+      northeast:
+        lng: 24.93182298029151
+        lat: 60.1821581802915
+    location:
+      lng: 24.930474
+      lat: 60.1808092
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00251"
+      long_name: "00251"
+  place_id: ChIJ2eIT3S4KkkYROUyafezSi5U
+  url: https://maps.google.com/?cid=10775938446575422521
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131868490
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid05Uq6yRcCJxVeyiYqoTez5nRTJHEVLB3PAqWzHsoEdbg6MKtzFdyCE7QLH89fuyNpl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131868/apsg3lit6qjuc2hc4aud.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131868490
+  owned: false
+  name: Lauri-Pekka Alanko
+  place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+  updatedAt: 1714131868490
+  username: lauri-pekka.alanko
+claimed: No
+link: ""
+description: Latin dances & concerts
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131870/youvfihdpcnxtvlhzkzh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+international: No
+hash: 1719669600000+ChIJ2eIT3S4KkkYROUyafezSi5U
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FncNrjccDMTVMI2MfnBeV.png?generation=1714131899666699&alt=media
+id: ncNrjccDMTVMI2MfnBeV

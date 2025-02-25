@@ -1,0 +1,179 @@
+venue:
+  website: http://www.tanzschuleamstachus.de/
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  url: https://maps.google.com/?cid=7618752569010268631
+  international_phone_number: +49 1590 1227277
+endDate: 2022-12-04T04:00
+claimed: No
+program: []
+type: event
+duration: 60
+promo: No
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZ8T3ohZhdEODNme2AoD68u8LOdh2%2Fc475ee3e-e9fa-438a-9191-2936da6221f6?alt=media&token=aa6c1747-4b3e-4192-9c30-3471f4fff882
+createdAt: 1668165765168
+artists: []
+price: 15 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1668165765168
+updatedBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bolingo.gomez.7
+  name: Bobby SweetKiz (Dj Longchamp)
+  bio: Aus Kamerun. Seit 17+ Jahre in Deutschland. Mit Zouk, Afro Zouk und Kompa
+    aufgewachsen.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf1c740b-0a89-4522-bb95-0dbfd4c3aae4?alt=media&token=1e3e6c30-33d0-474f-8365-add5b7bd1417
+  instagram: https://www.instagram.com/bobbysweetkiz
+  id: Z8T3ohZhdEODNme2AoD68u8LOdh2
+  username: MingaKizz
+facebook: https://fb.me/e/2iZPUr3dq
+eventType: Party
+form: No
+createdBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+watch:
+  count: 1
+  list:
+    undefined: true
+name: YOLO SATURDAY KIZZ - DECEMBER EDITION
+online: No
+startDate: 2022-12-03T20:00
+username: MingaKizz
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Interested
+    highlighted: false
+    selected: true
+id: tmpwTrMWlYrneB7JSONw
+description: |-
+  🔥Save the Date: Saturday December 03th 2022🔥
+
+  🔥Every 3. Saturday in the month🔥
+
+  🔥YOLO Saturday Kizz in Munich with DJ Valet🔥
+
+  🔥DJ Valet from Paris🔥
+
+  Program on Saturday December 03th 2022 at YOLO Saturday Kizz: 
+  🔥20:00 to 21:00 --> 1h Urbankiz (Open Level)🔥
+
+  🔥21:00 to 22:00 --> 1h Kompa (Open Level)🔥
+
+  🔥22:00 to 04:00 --> 6h Party All Night Long🔥🔥
+
+  🔥04:00 to Open End --> Douceur & Club Music🔥
+
+  Links for the Registration: Coming Soon...
+
+  Teachers:
+  🔥🔥Gloire Musenga & Partner (from Strasbourg)🔥🔥
+
+  DJs:
+  - 🔥🔥Valet🔥🔥
+  - 🔥🔥DJ Longchamp🔥🔥
+
+  Photographer 📸 📷:
+  - 🔥🔥Lino Art🔥🔥
+
+  Price in December at YOLO Saturday Kizz (Pre-sale not possible):
+  🔥🔥Party All Night Long: 15 €🔥🔥
+  🔥🔥2 Workshops: 30 €🔥🔥
+  🔥🔥Workshops + Party: 35 €🔥🔥
+  Price for Students (With personal ID and Student ID):
+  🔥🔥Party: 10 €🔥🔥
+  🔥🔥2 Workshops: 20 €🔥🔥
+  🔥🔥Workshops + Party: 25 €🔥🔥
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtmpwTrMWlYrneB7JSONw.png?generation=1668278171983468&alt=media
+telegram:
+  requestedAt: 1669558664405
+  messageUrl: https://t.me/WeDanceMunich/713
+  publishedAt: 1669558668994
+  messageId: 713
+  state: published
+instagram:
+  requestedAt: 1669558673065
+  messageUrl: https://instagram.com/p/Cld6uEjLmi5
+  publishedAt: 1669558691679
+  messageId: Cld6uEjLmi5
+  state: published
+viewsCount: 58

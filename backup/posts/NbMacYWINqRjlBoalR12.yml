@@ -1,0 +1,160 @@
+endDate: 1716076800000
+sourceUrl: https://fb.me/e/8mYzrWDBk
+createdAt: 1714557846382
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1712766347000
+updatedAt: 1714557846382
+importedAt: 1714557846382
+providerUpdatedAt: 1712766347000
+facebookId: 8mYzrWDBk
+isNew: true
+facebookUrlsList:
+  - https://fb.me/e/8mYzrWDBk
+providerItemId: eimmflqigrj07240nd757jfp5c@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: London, United Kingdom
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715904000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: 10 Orwell Terrace, Edinburgh EH11 2DZ, UK
+  website: https://linktr.ee/edinburghzouk
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Brazilian Zouk Edinburgh
+  geometry:
+    viewport:
+      southwest:
+        lng: -3.221682430291503
+        lat: 55.94011941970849
+      northeast:
+        lng: -3.218984469708499
+        lat: 55.94281738029149
+    location:
+      lng: -3.220382100000001
+      lat: 55.9415294
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Orwell Terrace
+      long_name: Orwell Terrace
+    - types:
+        - postal_town
+      short_name: Edinburgh
+      long_name: Edinburgh
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Edinburgh
+      long_name: Edinburgh
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Scotland
+      long_name: Scotland
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: EH11 2DZ
+      long_name: EH11 2DZ
+  place_id: ChIJkcc6qAvHh0gReCQZ8YkaIk0
+  url: https://maps.google.com/?cid=5558034069886411896
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714557860477
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02zsNiA4JQuWF45Enb2rRAKTjDzjQnyHxpGBA7Ndg7RHd9e32jaMk9abhLefU8C2mTl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557861/o3tjpfcknzrlalktxsrq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714557860477
+  owned: false
+  name: Sarah Gibbons
+  updatedAt: 1714557860477
+  username: sarah.gibbons
+claimed: No
+facebook: https://www.facebook.com/events/1113112216506064/
+link: ""
+description: >-
+  *Earlybird prices till Friday 10th May*
+
+  Friday workshop topic: inversions in the basic.
+
+
+  Workshop 7.30-9pm
+
+  Social till midnight
+
+  Early bird - £25
+
+  Late bird - £30
+
+  Social only - £10
+
+  (We'll also run a beginner/improver workshop for the normal £15)
+
+
+  Saturday workshop theme: travelling head movement technique and keeping the flow
+
+  Registration 3.45pm
+
+  Workshop 4-6.30pm (10 minute break in the middle)
+
+  Social 6.30-10pm
+
+  Workshop and social early bird - £45
+
+  Late bird £55
+
+  Social only £10
+
+  (If you want to do the workshop and no social deduct £5)
+
+  **Both Friday and Saturday super early bird £60 - before Friday 3rd May**
+
+  **Both Friday and Saturday early bird £65 - before 10th May**
+
+  **Both Friday and Saturday late bird £80**
+
+  PLUS if you did our last weekender you get an extra £5 off to say thanks for coming 🙂
+
+  Private message me to secure your spot!!
+
+  Friday address: 24 Exmouth Market, London EC1R 4QE
+
+  Saturday address: Academy Mews dance studio, 15 Pratt Mews, London NW1 0AD
+program: []
+source: facebook
+eventType: Workshop
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714557862/hvtgs8dasylz9bncb2lx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: The amazing Mafie Zouker back again!!! Save the date!!
+online: No
+place: ""
+international: No
+hash: 1715970600000+ChIJkcc6qAvHh0gReCQZ8YkaIk0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNbMacYWINqRjlBoalR12.png?generation=1714557873569483&alt=media
+id: NbMacYWINqRjlBoalR12

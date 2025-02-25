@@ -1,0 +1,35 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631512668769
+createdBy: LD6EiqdAcmb47SCAb7QhTfbcegV2
+name: Jutta
+username: Jutta
+lastLoginAt: 1631512668902
+daysUsed: 1
+pwaUsed: false
+cities:
+  ChIJqdYaECnPCUcRsP6IQsuxIQQ: true
+updatedAt: 1631512800388
+birthday: ""
+locales:
+  de: true
+  en: true
+gender: Female
+partner: Yes
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJqdYaECnPCUcRsP6IQsuxIQQ
+contacts: Yes
+viewsCount: 2
+id: LD6EiqdAcmb47SCAb7QhTfbcegV2

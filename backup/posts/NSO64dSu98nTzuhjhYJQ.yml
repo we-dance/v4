@@ -1,0 +1,148 @@
+venue:
+  formatted_address: Zámostí, 500 09 Hradec Králové, Czechia
+  name: Zámostí
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 15.8541980802915
+      south: 50.2042019197085
+      north: 50.2068998802915
+      west: 15.8515001197085
+    location:
+      lng: 15.8528491
+      lat: 50.2055509
+  address_components:
+    - types:
+        - route
+      short_name: Zámostí
+      long_name: Zámostí
+    - types:
+        - locality
+        - political
+      short_name: Hradec Králové
+      long_name: Hradec Králové
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hradec Králové
+      long_name: Hradec Králové
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Královéhradecký kraj
+      long_name: Královéhradecký kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 500 09
+      long_name: 500 09
+  place_id: Eitaw6Ftb3N0w60sIDUwMCAwOSBIcmFkZWMgS3LDoWxvdsOpLCBDemVjaGlhIi4qLAoUChIJidJ6JsXUDUcRitXktlBEzu8SFAoSCUlwOas-KwxHEVI64zs2z2U2
+  url: https://maps.google.com/?q=Z%C3%A1most%C3%AD,+500+09+Hradec+Kr%C3%A1lov%C3%A9,+Czechia&ftid=0x470dd4c5267ad289:0xefce4450b6e4d58a
+endDate: 2023-09-02T00:00
+claimed: No
+link: https://www.facebook.com/events/808644050722267
+description: >-
+  Dnes Vám bude hrát speciální host DJ Lole.
+
+  Přijďte si s námi opět zatančit.
+
+  Jako tradičně Vám budeme hrát styly jako Salsa, Bachata, Kizomba, Son, Timba a další.
+
+  Noc plná tance a hudby, rytmů a pozitivní energie ve skvělé společnosti.
+
+
+  Pravidelná tančírna v legendárním AC klubu, areál LTC Zámostí 684, Hradec Králové.
+
+
+  Vstupné 100,-
+
+
+  -------------------------------------------
+
+
+  Today, special guest DJ Lole will play for you.
+
+  Come and dance with us again.
+
+  As usual, we will play styles such as Salsa, Bachata, Kizomba, Son, Timba and others.
+
+  A night full of dance and music, rhythms and positive energy in great company.
+
+
+  Regular dance class at the legendary AC club, LTC Zámostí 684 complex, Hradec Králové. 
+
+  Entrance fee 100,-
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F4de60008-60c3-46b2-83ce-4c41a5e27b51?alt=media&token=3efdc06d-818a-4b34-9d49-f2d40d643bd9
+duration: 60
+createdAt: 1691625536643
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    instagram: https://instagram.com/dj.lole
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    username: DjLole
+price: 100 CZK
+artistsList:
+  - DjLole
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1691625536643
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  facebook: https://facebook.com/david.jonas.376
+  username: david.jonas.376
+facebook: https://www.facebook.com/events/808644050722267
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Salsa & Kizomba Party / Tančírna
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-09-01T08:00
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNSO64dSu98nTzuhjhYJQ.png?generation=1693546081929869&alt=media
+telegram:
+  requestedAt: 1693546019057
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/351
+  publishedAt: 1693546085398
+  messageId: 351
+  state: published
+viewsCount: 31
+id: NSO64dSu98nTzuhjhYJQ

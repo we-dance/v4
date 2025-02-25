@@ -1,0 +1,136 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bailame-cracow-bachata-festival/
+sourceUrl: https://facebook.com/events/867344918577824
+venue:
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: Witolda Budryka
+      short_name: Witolda Budryka
+      types:
+        - route
+    - long_name: Krowodrza
+      short_name: Krowodrza
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Kraków
+      short_name: Kraków
+      types:
+        - locality
+        - political
+    - long_name: Powiat Kraków
+      short_name: Powiat Kraków
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Województwo małopolskie
+      short_name: Województwo małopolskie
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Poland
+      short_name: PL
+      types:
+        - country
+        - political
+    - long_name: 30-072
+      short_name: 30-072
+      types:
+        - postal_code
+  formatted_address: Witolda Budryka 4, 30-072 Kraków, Poland
+  geometry:
+    location:
+      lat: 50.0680363
+      lng: 19.9082968
+    viewport:
+      northeast:
+        lat: 50.0695664802915
+        lng: 19.9089896
+      southwest:
+        lat: 50.06686851970851
+        lng: 19.90621840000001
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +48 12 617 45 45
+  name: Klub Studio
+  place_id: ChIJ77IDa7tbFkcRY4xtg-kKCdg
+  url: https://maps.google.com/?cid=15566985585031482467
+  website: http://www.klubstudio.pl/
+endDate: 1746414000000
+claimed: No
+link: ""
+description: >-
+  Bailameros!
+
+
+  We are thrilled to announce that the 6th edition of the BáilaMe Cracow Bachata Festival will take place from May 1-4, 2025! 
+
+
+  More information coming soon! 💜
+
+
+  Save the date in your calendar and plan your May holiday for a dance-filled weekend in Krakow. ☀🌈⛱🍹🎶🌴🕶🥳
+
+
+  --- POLSKA WERSJA ---
+
+
+  Bailameros!
+
+
+  Z radością informujemy, że 6 edycja BáilaMe Cracow Bachata Festival odbędzie się w dniach 1-4 maja 2025!  
+
+
+  Więcej informacji już wkrótce! 💜
+
+
+  Zarezerwuj ten termin w swoim kalendarzu i zaplanuj majówkę na taneczny weekend w Krakowie. ☀🌈⛱🍹🎶🌴🕶🥳
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/fui2lovnatzs6oueiddv.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ0RhONcBEFkcRv4pHdrW2a7Q
+international: No
+visibility: Public
+org:
+  createdAt: 1732293945935
+  importedAt: 1732293945935
+  updatedAt: 1732293945935
+  source: facebook
+  name: Báilame
+  facebook: https://www.facebook.com/bailamefestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/lvemmkojrq4bmmxd0bo4.jpg
+  username: bailamefestival
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ0RhONcBEFkcRv4pHdrW2a7Q
+facebook: https://www.facebook.com/events/867344918577824/
+facebookId: "867344918577824"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: BáilaMe Cracow Bachata Festival 2025 - Official Event
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1746129600000+ChIJ77IDa7tbFkcRY4xtg-kKCdg
+startDate: 1746129600000
+id: khyhTBqEzgmSFaLn9JT2

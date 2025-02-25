@@ -1,0 +1,95 @@
+venue:
+  formatted_address: Dachauer Str., München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - route
+      long_name: Dachauer Straße
+      short_name: Dachauer Str.
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+  url: https://maps.google.com/?q=Dachauer+Str.,+M%C3%BCnchen,+Germany&ftid=0x479e7655f53028e5:0x7504b206b2aa3a93
+  name: Dachauer Straße
+  geometry:
+    viewport:
+      south: 48.17745301970851
+      north: 48.18015098029151
+      east: 11.5174199802915
+      west: 11.5147220197085
+    location:
+      lng: 11.516071
+      lat: 48.178802
+  place_id: EiBEYWNoYXVlciBTdHIuLCBNw7xuY2hlbiwgR2VybWFueSIuKiwKFAoSCeUoMPVVdp5HEZM6qrIGsgR1EhQKEgnZX4yj-XWeRxF9mLF9SrgMAQ
+endDate:
+  _seconds: 1642363200
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+description: "Der Hochzeits - Express Tanzkurs vermittelt Ihnen die wichtigsten
+  Tänze. Er verfeinert und komplementiert zugleich Ihr Auftreten und zeigt Ihnen
+  die wichtigsten Verhaltensregeln, um Sie an Ihrem großen und schönsten Tag im
+  Leben präsentieren zu können. Dauer: 4 x 90 Minuten"
+type: event
+cover: ""
+duration: "90"
+createdAt: 1640363279777
+watchersCount: 0
+price: 75 EUR
+commentsLast: ~
+promoter: Vitali
+id: LSwI29ci1TvIWn9OPv2V
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 2
+updatedAt: 1640363279777
+website: http://tanzschule-proepster.de/component/option,com_seminar/Itemid,88/
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Course
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: "Hochzeits-Express "
+online: No
+styles: {}
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2022-01-16T18:30:00.000Z
+username: Vitali
+hide:
+  count: 0
+  list: {}
+viewsCount: 17

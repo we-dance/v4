@@ -1,0 +1,135 @@
+venue:
+  website: https://jangada.com/
+  formatted_address: Schönhauser Allee 36, 10435 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Schönhauser Allee
+      short_name: Schönhauser Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Pankow
+      short_name: Bezirk Pankow
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10435"
+      short_name: "10435"
+  url: https://maps.google.com/?cid=1723307110097778219
+  name: Dance School Academia Jangada
+  geometry:
+    viewport:
+      south: 52.5374885197085
+      north: 52.5401864802915
+      east: 13.4140457302915
+      west: 13.4113477697085
+    location:
+      lng: 13.4130435
+      lat: 52.5389378
+  place_id: ChIJQSAmgeRRqEcRK3ZIqK9q6hc
+  international_phone_number: +49 30 4495738
+endDate:
+  _seconds: 1635368400
+  _nanoseconds: 0
+organisedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+link: https://la-candela-salsa.de/salsa-advanced/
+description: >-
+  In this course, we deal with Salsa as it should be danced: free, rich in
+  movement, flow, full of style and sabor. We will increase our comfortability
+  with complex figures, and add some twists to make the dance more flavorsome.
+  As always, we keep our eyes on the details and work on perfecting our leading
+  and following technique.
+
+
+  The objective of the course is to let you feel free and creative in the dance:
+
+
+  You will learn advanced figures, and enrich your Salsa vocabulary and possibilities in the dance.
+
+  Improve your Partnerwork technique. become a leader that can lead a complex movement with the flow, and a follower that can follow any instruction with grace.
+
+  Starting from this level we also focus on styling and making our dance flavorsome.
+
+  Completing this course, you should have all the tools required to attend partner work Salsa classes of any level.
+
+  It includes 16 lessons, each lesson 90 minutes, and is each class is no dependent on other classes.
+
+
+  You can sign up for:
+
+  - Advanced 1 (Mondays)
+
+  - Advanced 2 (Wednesdays)
+
+  - Drop-ins are welcome.
+
+
+  Full information & Registration can be found here:
+
+  https://la-candela-salsa.de/salsa-advanced/
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2Fad842119-1d46-4043-aa3d-e218b7166114?alt=media&token=589a3cb1-fdf0-4deb-9e29-701841b88c2d
+promo: Yes
+duration: "90"
+createdAt: 1633288375880
+watchersCount: 0
+price: 20 Euro
+commentsLast: ~
+promotedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+id: HOiDKaEEkaVSkVAm1Ido
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+views: 2
+updatedAt: 1633288375880
+updatedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+visibility: Public
+eventType: Workshop
+organiser: idofle
+form: Yes
+createdBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+commentsCount: 0
+name: Salsa Advanced
+online: No
+styles:
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-10-27T19:30:00.000Z
+username: idofle
+viewsCount: 18

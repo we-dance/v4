@@ -1,0 +1,103 @@
+createdAt: 1610744496094
+createdBy: 8VJspddjsQR2AJYNKcS0CrI0Ioa2
+name: Asya
+username: Asya
+gender: Female
+community: Moscow
+step: photo
+birthday: 1989-05-05
+skills: "Professional&Intermediate "
+newsletter:
+  festival: true
+  workshop: true
+  online: true
+  class: true
+  party: true
+partnerBio: "Motivation "
+teacher: Yes
+languages: "English, Russian,Chinese "
+partner: No
+weight: "55"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+location:
+  country: Russia
+  latitude: 43.1332484
+  locality: Vladivostok
+  usedGps: false
+  place_id: ChIJhdRJUrqcs18RNX6W3dQEZxg
+  longitude: 131.9112975
+type: Dancer
+height: "165 "
+email: kuziya@mail.ru
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Members
+locales:
+  ru: true
+  en: true
+  zh: true
+lastLoginAt: 1611345637037
+language: en
+daysUsed: 2
+hometown: ChIJhdRJUrqcs18RNX6W3dQEZxg
+place: ChIJybDUc_xKtUYRTM9XV8zWRD0
+updatedAt: 1617064561484
+styles:
+  Tarraxinha:
+    level: Interested
+    selected: true
+  ChaChaCha:
+    level: Interested
+    selected: true
+  UrbanKizz:
+    level: Interested
+    selected: true
+  AfroHouse:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  Merengue:
+    level: Interested
+    selected: true
+  Rhumba:
+    level: Interested
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  Kizomba:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+  Casino:
+    level: Interested
+    selected: true
+  Latin:
+    level: Interested
+    selected: true
+  Lambada:
+    level: Interested
+    selected: true
+  Zumba:
+    level: Interested
+    selected: true
+  Semba:
+    level: Interested
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    selected: true
+id: 8VJspddjsQR2AJYNKcS0CrI0Ioa2

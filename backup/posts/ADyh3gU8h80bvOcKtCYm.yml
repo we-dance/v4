@@ -1,0 +1,228 @@
+endDate: 1734897600000
+sourceUrl: https://www.facebook.com/events/257140787406517/
+createdAt: 1718460037934
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1706875456000
+updatedAt: 1718460037934
+importedAt: 1718460037934
+providerUpdatedAt: 1716209249000
+facebookId: "257140787406517"
+facebook: https://www.facebook.com/events/257140787406517/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/257140787406517/
+eventType: Festival
+providerItemId: e257140787406517@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Fiesta Dominicana GRAND EDITION 20-22 DECEMBER 2024
+location: Cologne, Germany
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1734717600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Cologne, Germany
+  website: http://www.cologne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Cologne
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.772581896004226
+        lat: 50.83044273077376
+      northeast:
+        lng: 7.162062776434192
+        lat: 51.08496303119435
+    location:
+      lng: 6.9602786
+      lat: 50.937531
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Cologne
+      long_name: Cologne
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Köln
+      long_name: Kreisfreie Stadt Köln
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Cologne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: North Rhine-Westphalia
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: ChIJ5S-raZElv0cR8HcqSvxgJwQ
+  url: https://maps.google.com/?q=Cologne,+Germany&ftid=0x47bf259169ab2fe5:0x42760fc4a2a77f0
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718460062715
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bhavinandsoonruta
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718460063/wfdbeduwiobm8c40z94u.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718460062715
+  owned: false
+  name: Bhavin and Soonruta
+  place: ChIJL5KYTx_j9YcRUlc4_qeEe1g
+  updatedAt: 1718460062715
+  username: bhavinandsoonruta
+claimed: No
+link: https://www.eventbrite.com/e/819260920467?aff=oddtdtcreator
+description: >-
+  FIESTA DOMINICANA GRAND EDITION 2024
+
+  Dates - 20th to 22nd December 2024
+
+
+  We are so happy and excited to welcome you to the biggest celebration of Bachata y mas in Germany with a splash of Christmas!
+
+  We have Bachata, Merengue, Bolero, Son, Dembow, Salsa y mucho mas!
+
+
+  Location - Cologne, Germany
+
+  Workshops Location - ToR 28, Machabäerstr. 28
+
+  Party Location - Tanzschule Tanzraum, Salierring 33
+
+  Both locations are well connected from each other and are only 10 - 15 minutes away from each other (by car, tram, bicycle / e-scooter or taxi)
+
+  We recommend looking for hotels near the workshops location to have more ease and flexibility along with more number of options but anywhere close to either of the locations works great too :-)
+
+
+  We are always striving to bring you high quality education!
+
+  Line up -
+
+  Dakhóta & Edwin
+
+  Samy El Magico
+
+  Soonruta & Bhavin
+
+  Jr El Artista
+
+  Juan Pablo
+
+  Sara & Beatrice
+
+  Anna & Alfonso
+
+  Nora & Leslie
+
+  Nushi & John
+
+  Nyota & Jordy
+
+  Dori & Michael
+
+  Indiana & Rik
+
+  Sofia de Endaya
+
+  Theresa
+
+  Lolita
+
+  Edurne & Crysthian
+
+  Dj El Pequeño Loco
+
+  Dj Prachi
+
+  Dj Ando
+
+  Dj Sofia
+
+
+  Prices
+
+  Super Early Bird Full Festival Pass - 99€ (first 50 passes) SOLD OUT
+
+  Early Bird Full Festival Pass - 110€ (next 75 passes)
+
+  Full Festival Pass Phase 1 - 120€ (next 75 passes)
+
+  Couple Full Festival Pass Phase 1 - 230€ (15 passes)
+
+  More passes will be released as and when necessary!
+
+
+  Program
+
+  Here is a rough itinerary until the final program is released.
+
+
+  Friday
+
+  7pm onwards - workshops at Tanzschule Tanzraum
+
+  9.30pm onwards - party at Tanzschule Tanzraum
+
+
+  Saturday, 21st December
+
+  Workshops all day at Tor 28
+
+  Party at 10pm at Tanzschule Tanzraum
+
+
+  Sunday, 22nd December
+
+  Workshops all day at Tor 28
+
+  All day social until 9pm at Tor 28
+
+
+  **Direct exchange & resale of ticket is not allowed
+
+  **Refunds can be requested until 15th November based only on unavoidable circumstances
+
+  ** There will be no online sale of party passes. They will be available at the door untill 11.30pm
+
+
+  We look forward to spending this amazing time with you all in Köln!
+
+  For questions, you can always reach us on info@bhavinsoonruta.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718460063/w4fx9brpmfpgqmrvs7b0.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJL5KYTx_j9YcRUlc4_qeEe1g
+international: No
+hash: 1734717600000+ChIJ5S-raZElv0cR8HcqSvxgJwQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FADyh3gU8h80bvOcKtCYm.png?generation=1718460084900145&alt=media
+viewsCount: 4
+id: ADyh3gU8h80bvOcKtCYm

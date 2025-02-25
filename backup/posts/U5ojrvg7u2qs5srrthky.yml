@@ -1,0 +1,222 @@
+createdAt: 1704822894671
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/6783070355124900/
+source: facebook
+updatedAt: 1704822894671
+username: wedancebot
+venue:
+  formatted_address: Expo Dr, Singapore
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Expo Drive
+  geometry:
+    viewport:
+      southwest:
+        lng: 103.9596643197085
+        lat: 1.335047119708498
+      northeast:
+        lng: 103.9623622802915
+        lat: 1.337745080291502
+    location:
+      lng: 103.9610133
+      lat: 1.3363961
+  address_components:
+    - types:
+        - route
+      short_name: Expo Dr
+      long_name: Expo Drive
+    - types:
+        - neighborhood
+        - political
+      short_name: Tampines
+      long_name: Tampines
+    - types:
+        - locality
+        - political
+      short_name: Singapore
+      long_name: Singapore
+    - types:
+        - country
+        - political
+      short_name: SG
+      long_name: Singapore
+  place_id: ChIJdVHXCtg82jER4jXcJiUjgqQ
+  url: https://maps.google.com/?q=Expo+Dr,+Singapore&ftid=0x31da3cd80ad75175:0xa482232526dc35e2
+visibility: Public
+endDate: 1723413600000
+org:
+  owner: ""
+  importedAt: 1704822896679
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SBTS2023
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/303234549_156021430436376_2167513731030134204_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=596444&_nc_ohc=kb_kIU5GrWQAX-8PABw&_nc_ht=scontent-iad3-1.xx&oh=00_AfD5gam1hP93TVk1I4Iq-XtOS561tPM-sGEeexzhcuaX8A&oe=65A1DDF0
+  source: facebook
+  type: Organiser
+  createdAt: 1704822896679
+  owned: false
+  name: Salsa Bachata Temptation Singapore
+  place: ChIJ0e4CNAQ92jERy_T_mqOSB48
+  updatedAt: 1704822896679
+  username: SBTS2023
+claimed: No
+facebookId: "6783070355124900"
+link: https://www.eventbrite.com/e/salsa-bachata-temptation-singapore-2024-tickets-682884565117?aff=efbevent
+description: >-
+  Salsa Bachata Temptation Singapore 2024 (SBTS) Registration Form
+
+
+  Don't miss out One of the biggest Salsa & Bachata festival in Asia , with over 50+ top artistes, instructors and DJs from around the world at Salsa Bachata Temptation Singapore 2024, from 09-11 Aug!
+
+  Get EXCLUSIVE EARLY ACCESS to Salsa Bachata Temptation Singapore at just $280 now for the FULL EVENT with ALL parties, workshops and shows, featuring:
+
+
+  Salsa
+
+
+  -Yaiza
+
+  -Wilmer y Maria
+
+  -Luis Vazquez
+
+  -Alegria Dance Company
+
+  -Terry & Cecile
+
+  -Stefany y Yeeremy
+
+  -Mitchel Provence
+
+  -Samuel Marichal
+
+  -Klui & Dalla
+
+  -Inwoo y Jaelin
+
+  -ShinHee & Sera
+
+  -Suim
+
+  -Lucia
+
+  -Ssik & Woojeong
+
+
+
+  Bachata
+
+
+  -Pablo y Raquel
+
+  -Gero y Migle
+
+  -Truji
+
+  -Sammy El Magico
+
+  -Cristian & Gabriella
+
+  -Elena Khamsi & Derek
+
+  -Angelica y Ros
+
+  -Maycheal y Mayra
+
+  -Juan Luis y Sara
+
+  -Irene y Thomas
+
+  -Sunshire y Miguel
+
+  -YongSu & Tinkerbell
+
+  -Nam & Bingo
+
+  -Mongye & Amanda
+
+  -Tommy & Liso
+
+  -Valentino Son
+
+  -Julian Zhu
+
+  -Fran & Lacey
+
+  -Woo & Hillary
+
+  -Largo & Yves Saint
+
+  -Soo & Lauren
+
+  -Sarah
+
+  -Adi & Sonali
+
+
+  DJ
+
+
+  -DJ Husky
+
+  -DJ Alejandro
+
+
+  FULL EVENT PASS gives you access to
+
+  3 days of amazing parties and shows on FRIDAY, SATURDAY & SUNDAY
+
+
+  3 days of workshops on FRIDAY,SATURDAY & SUNDAY... and the opportunity to learn from and party with some of the best teachers and dancers of these genres from all over the world! With more international and regional artists to be announced.
+
+
+
+  It's an event that you absolutely do NOT want to miss!
+
+  Full Event Pass Early Bird S$320 (All workshops + All Parties)
+
+  Full Party Pass Early Bird S$230 (All Parties)
+
+
+  VENUE:
+
+  Garnet Ballroom Expo MAX Atria
+
+  1, #02-01 Expo Dr, 486150
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa Bachata Temptation Singapore 2024
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ0e4CNAQ92jERy_T_mqOSB48
+international: No
+hash: 1723165200000+ChIJdVHXCtg82jER4jXcJiUjgqQ
+startDate: 1723165200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FU5ojrvg7u2qs5srrthky.png?generation=1704822913269046&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853255/jifzwhyuixcdjasjr8rt.jpg
+viewsCount: 31
+id: U5ojrvg7u2qs5srrthky

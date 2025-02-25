@@ -1,0 +1,171 @@
+endDate: 1715644800000
+sourceUrl: https://www.facebook.com/events/923219292859615/
+createdAt: 1715608853330
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1707389407000
+updatedAt: 1715608853330
+importedAt: 1715608853330
+providerUpdatedAt: 1715518135000
+facebookId: "923219292859615"
+facebook: https://www.facebook.com/events/923219292859615/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/923219292859615/
+eventType: Party
+providerItemId: e923219292859615@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: KALYKIZ - LUNDI 13 MAI - NOUVELLE SALLE
+location: Le Triangle
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715628600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 22 Rue François Truffaut, 75012 Paris, France
+  website: https://letriangle.net/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Le Triangle
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.384754469708498
+        lat: 48.8314362697085
+      northeast:
+        lng: 2.387452430291502
+        lat: 48.8341342302915
+    location:
+      lng: 2.38564
+      lat: 48.8329622
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Rue François Truffaut
+      long_name: Rue François Truffaut
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Département de Paris
+      long_name: Département de Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "75012"
+      long_name: "75012"
+  international_phone_number: +33 7 77 94 60 05
+  place_id: ChIJSTzsxYxz5kcRAaqoSe1N3tY
+  url: https://maps.google.com/?cid=15482898250484722177
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715608901078
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/KALY-KIZ/61554021815558/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715608901/exe7gkg10ndznkos8ajy.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715608901078
+  owned: false
+  name: "KALY KIZ "
+  place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+  updatedAt: 1715608901078
+  username: KALYKIZ
+claimed: No
+link: ""
+description: >-
+  🚨🚨🚨🚨🚨 NOUVEAU 🚨🚨🚨🚨🚨
+
+  🎊🎊🎊🎊Venez découvrir notre nouvelle salle à BERCY VILLAGE !!!!!!!🎊🎊🎊🎊 
+
+
+  Notre but : 
+
+
+  💃🕺 Vous faire découvrir la Kizomba à travers nos cours et nos soirées, hebdomadaires et/ou mensuelles !!!!!💃🕺 
+
+
+  🤔 Vous n'avez jamais dansé la kizomba ???
+
+  🫣 Vous pensez ne pas savoir danser ? Seul ou à 2 😔 
+
+  Que tu sois débutant ou confirmé NO STRESS on s'occupe de toi !!! 🤩
+
+  😊😊 Les mots d'ordre partage et plaisir !!!!!! 😊😊 
+
+
+  En sortant du boulot, seul, entre amis, familles, collègues venez profiter d'un moment convivial avec nous. 
+
+
+  🌍🌎🌏 A Paris Bercy avec des Djs locaux, nationaux et internationaux. 🌍🌎🌏 
+
+
+  🎶🎶 Soirée mixé par Dj Thales & Dj MaxXx 🎶🎶 
+
+
+  🕗 * Ouverture des portes à 21h30 : 🕗 
+
+
+  ✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+
+  ⚠️⚠️  SOIREE PORTE OUVERTE* ⚠️⚠️
+
+  ENTREE GRATUITE MAIS LA 1ERE CONSO DE COURTOISIE EST OBLIGATOIRE 
+
+
+  📍 Lieu : Le TRIANGLE
+
+  22 rue François Truffaut 
+
+  75012 Paris 
+
+
+  Métro 14 : Cour Saint Emilion 
+
+  Bercy Village 
+
+
+  Interparking avec 440 place 
+
+
+  Info : 0611207520
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715608902/pdst14ymcpxio0kiv9hs.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+international: No
+hash: 1715628600000+ChIJSTzsxYxz5kcRAaqoSe1N3tY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FG3ZIakf8ay6msu2ItLh5.png?generation=1715608943546936&alt=media
+id: G3ZIakf8ay6msu2ItLh5

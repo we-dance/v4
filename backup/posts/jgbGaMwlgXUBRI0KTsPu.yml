@@ -1,0 +1,164 @@
+sourceUrl: https://www.eventbrite.com/e/alboroto-summer-season-vol-ii-tickets-943628306667?aff=ebdsshsms&utm_share_source=Search_android
+createdAt: 1721318602225
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+endDate: 1722049200000
+claimed: No
+link: https://www.eventbrite.com/e/alboroto-summer-season-vol-ii-tickets-943628306667
+program: []
+source: schema
+type: event
+price: 15 EUR
+international: No
+visibility: Public
+facebook: ""
+eventType: Party
+facebookUrlsList: []
+form: No
+watch:
+  count: 0
+  usernames: []
+name: ALBOROTO - Summer Season Vol. II
+online: No
+schemaEventsCount: 1
+hash: 1722027600000+ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+startDate: 1722027600000
+facebookUrlsCount: 0
+duration: 360
+venue:
+  formatted_address: Neuhauser Str. 47, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: La Rumba Latin Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5654322197085
+        lat: 48.1372389697085
+      northeast:
+        lng: 11.5681301802915
+        lat: 48.1399369302915
+    location:
+      lng: 11.5667554
+      lat: 48.1386827
+  address_components:
+    - types:
+        - street_number
+      short_name: "47"
+      long_name: "47"
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+  url: https://maps.google.com/?cid=9349263436906478143
+  international_phone_number: +49 176 70388835
+  username: larumba_latinclub
+id: jgbGaMwlgXUBRI0KTsPu
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/cazando.eventos.munich
+  name: CAZANDO EVENTOS_MUNICH
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTrUgADEod1SAVXx8gKZXf47qoS33%2F3d8d3f0c-7ec4-459c-a726-ee9103d23540?alt=media&token=5d8b8c87-f33c-43aa-96c2-4f8e26509e9a
+  bio: ""
+  id: TrUgADEod1SAVXx8gKZXf47qoS33
+  instagram: https://www.instagram.com/captando_eventos_en_munich
+  username: NOELUNA
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Jimie
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F40092b97-9ae9-4ea3-b3e0-430acf541fc6?alt=media&token=beec1a61-3b81-4698-8036-d23bcc05e7b5
+    bio: 🎧DJ / Munich, from🇻🇪 Music is life, music is my therapy 🎧 Urban /
+      Reggaeton / Dancehall / Afro / Latin / House
+    id: zAvfCkKaOe51vySz50w8
+    instagram: https://instagram.com/dj_jimie
+    username: dj_jimie
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Silber
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fcb9676f7-8f1e-476c-8651-d08d85532c15?alt=media&token=f8e82c59-67ac-49ae-a94c-064ed4d2ce47
+    bio: De Cali, Colombia 🇨🇴 en Múnich, Alemania 🇩🇪 Salsa, Cumbia, Merengue,
+      Bachata, Reggaeton.
+    id: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+    instagram: https://instagram.com/djsilber95
+    username: djsilber95
+artistsList:
+  - dj_jimie
+  - djsilber95
+bookmarks: 1
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+specialOffer: 5EUR discount
+confirmation: |
+  Discount code of 5 euros: CaptandoEventos_2024 
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F9a713a35-df89-454d-9831-22ba51e181ce?alt=media&token=07722798-4978-4884-9e1e-46256e1e6c73
+instagram:
+  messageUrl: https://instagram.com/p/C9kkr33RKoJ
+  publishedAt: 1721321629826
+  messageId: C9kkr33RKoJ
+  state: published
+promotionError: ""
+promotion: completed
+description: >-
+  Party with two areas, one of Urban Reggaeton and another of salsa, merengue
+  and bachata.
+
+
+  Click attend event to see discount code.
+updatedAt: 1721321696336
+viewsCount: 6

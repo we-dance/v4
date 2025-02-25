@@ -1,0 +1,172 @@
+venue:
+  formatted_address: Bahnhofstraße 22, 82256 Fürstenfeldbruck, Germany
+  name: Lokstation 22 Bistro Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.2630330802915
+      south: 48.1707846697085
+      north: 48.1734826302915
+      west: 11.2603351197085
+    location:
+      lng: 11.2616119
+      lat: 48.17211569999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Bahnhofstraße
+      long_name: Bahnhofstraße
+    - types:
+        - locality
+        - political
+      short_name: Fürstenfeldbruck
+      long_name: Fürstenfeldbruck
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: FFB
+      long_name: Fürstenfeldbruck
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82256"
+      long_name: "82256"
+  place_id: ChIJ9bblu_B_nkcRbHW1xsoQ1rY
+  url: https://maps.google.com/?cid=13174736223022183788
+endDate: 2022-11-13T02:00
+claimed: No
+link: https://www.facebook.com/events/852077182468601
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FCn8MENFGLnb81hIMgWAMAQxoCRf2%2Fb9b9ac8e-b3f7-4c53-8deb-c9056bbfc0aa?alt=media&token=f6255f7e-fcd4-4ada-9ca3-c7101878832b
+promo: ""
+duration: 60
+createdAt: 1667394013411
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1667394013411
+updatedBy: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: PicoLoco
+  photo: ""
+  bio: ""
+  instagram: ""
+  id: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+  username: PicoLoco
+facebook: https://www.facebook.com/events/852077182468601
+eventType: Party
+form: No
+createdBy: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+watch:
+  count: 1
+  list:
+    PicoLoco: true
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-11-12T20:00
+username: PicoLoco
+name: La Fiesta PicoLoco
+id: xAKs91u2es36sgBFeAX9
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxAKs91u2es36sgBFeAX9.png?generation=1667396033991520&alt=media
+description: >-
+  Wir starten erneut in der Location "Station 22" in FFB (direkt am Bahnhof).
+
+
+  Wir heißen Euch alle herzlich willkommen, und freuen uns alte und neue Gesichter zu sehen.
+
+  Das beste aus Salsa und Bachata.
+
+
+  La Fiesta ist die Latin-Party in Fürstenfeldbruck bei der man nicht fehlen darf.
+
+
+
+  ### SAMSTAG 12. November. 2022
+
+
+  ♫ Freut Euch auf eine inspirierende Salsa&Bachata Party der anderen Art ♫
+
+  Party in einem warmen und gemütlichem Ambiente
+
+
+  DJ Raul Torres aus Kolumbien
+
+
+  Best of Salsa Y Bachata. ♫
+
+
+  ### Location
+
+  Die Party findet in der "LokStation 22" statt.
+
+  (direkt am Bahnhof Fürstenfeldbruck)
+
+
+  ### Ort
+
+
+  LokStation 22
+
+
+  Bahnhofstraße 22
+
+
+  82256 Fürstenfeldbruck
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/dj.raul.rumberos
+    name: Raul Torres
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F84ad59d1-eac5-4f5d-ab89-14133c09ebf5?alt=media&token=a9f78fd1-4804-4b91-add6-0288048c6a26
+    instagram: ""
+    id: UoV2KBOkhgfIGBrTOZEw
+    username: dj.raul.rumberos
+artistsList:
+  - dj.raul.rumberos
+telegram:
+  requestedAt: 1667396257610
+  messageUrl: https://t.me/WeDanceMunich/676
+  publishedAt: 1667396262246
+  messageId: 676
+  state: published
+instagram:
+  requestedAt: 1667396263403
+  messageUrl: https://instagram.com/p/CkdePtaOhlf
+  publishedAt: 1667396279305
+  messageId: CkdePtaOhlf
+  state: published
+viewsCount: 38

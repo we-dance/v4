@@ -1,0 +1,113 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/chicago-international-salsa-congress/
+name: Chicago International Salsa Congress 2025
+sourceUrl: https://facebook.com/events/1578598572920328
+venue:
+  address_components:
+    - long_name: "6100"
+      short_name: "6100"
+      types:
+        - street_number
+    - long_name: North River Road
+      short_name: N River Rd
+      types:
+        - route
+    - long_name: Rosemont
+      short_name: Rosemont
+      types:
+        - locality
+        - political
+    - long_name: Leyden Township
+      short_name: Leyden Township
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Cook County
+      short_name: Cook County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Illinois
+      short_name: IL
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "60018"
+      short_name: "60018"
+      types:
+        - postal_code
+    - long_name: "5128"
+      short_name: "5128"
+      types:
+        - postal_code_suffix
+  formatted_address: 6100 N River Rd, Rosemont, IL 60018, USA
+  geometry:
+    location:
+      lat: 41.98885339999999
+      lng: -87.8613331
+    viewport:
+      northeast:
+        lat: 41.9904083302915
+        lng: -87.8598176197085
+      southwest:
+        lat: 41.9877103697085
+        lng: -87.8625155802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 847-698-6000
+  name: The Westin O'Hare
+  place_id: ChIJrQb7WBu2D4gRTJ9KKDEhpwc
+  url: https://maps.google.com/?cid=551445974389268300
+  website: https://www.marriott.com/en-us/hotels/chiwa-the-westin-ohare/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+endDate: 1739782800000
+claimed: No
+link: https://chicagosalsacongress.com/tickets/
+description: |-
+  The 23rd year of the Chicago International Salsa Congress.
+  Confirmed artist:
+
+  Coming soon!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/ihweqnos701mlk4uplsf.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJWQxoiA22D4gRMQBjnM91r3M
+international: No
+visibility: Public
+org:
+  id: Tvq6VQ3d5wOMq683mC9L
+  username: ChicagoInternationalSalsaCongress
+  name: Chicago International Salsa Congress
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953614/pkmrlw9hrfjowcxfhz8u.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/ChicagoInternationalSalsaCongress
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1578598572920328/
+facebookId: "1578598572920328"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1739469600000+ChIJrQb7WBu2D4gRTJ9KKDEhpwc
+startDate: 1739469600000
+id: ezAk5wqblKTbbrROU0cI

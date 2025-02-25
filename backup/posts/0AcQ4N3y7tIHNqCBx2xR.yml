@@ -1,0 +1,243 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/odac-cuban-salsa-festival/
+sourceUrl: https://www.facebook.com/events/s/odac-singapore-cuban-salsa-fie/1541790176658010/?mibextid=9l3rBW&rdid=fuoZQb9kY3YOfNbF
+venue:
+  address_components:
+    - long_name: "28"
+      short_name: "28"
+      types:
+        - street_number
+    - long_name: Aliwal Street
+      short_name: Aliwal St
+      types:
+        - route
+    - long_name: Rochor
+      short_name: Rochor
+      types:
+        - neighborhood
+        - political
+    - long_name: Singapore
+      short_name: Singapore
+      types:
+        - locality
+        - political
+    - long_name: Singapore
+      short_name: SG
+      types:
+        - country
+        - political
+    - long_name: "199918"
+      short_name: "199918"
+      types:
+        - postal_code
+  formatted_address: 28 Aliwal St, Singapore 199918
+  geometry:
+    location:
+      lat: 1.3025906
+      lng: 103.8611415
+    viewport:
+      northeast:
+        lat: 1.303875580291502
+        lng: 103.8623881802915
+      southwest:
+        lat: 1.301177619708498
+        lng: 103.8596902197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Aliwal Arts Centre
+  place_id: ChIJxesQRrEZ2jERzpjX3BIaAGc
+  url: https://maps.google.com/?cid=7421960854223427790
+  website: https://artshouselimited.sg/aac
+endDate: 1733076000000
+claimed: No
+link: https://odacsingapore2024.eventbrite.com/
+description: >-
+  ODAC Singapore's Cuban Salsa Fiesta 2024 brings to you renowned artistes from
+  the Cuban Salsa communities across the globe for the third time, in the heart
+  of Singapore!
+
+
+  Specially curated for you by Cuban Salsa lovers in Singapore, here's your chance to experience the culture and knowledge of Cuban dance through dedicated workshops, masterclasses and exclusive parties from the 29 November -1 December.
+
+
+  For this edition, look forward to MORE artistes & EXTENDED parties. 
+
+
+  🔥20+ hours of Workshops
+
+  🔥3 Parties
+
+  🔥6 hours of Masterclasses
+
+  🔥Pre-Party on Thursday, 28 Nov @ 1880
+
+
+  === Artistes Line up ===
+
+
+  ⭐ Diana Rodriguez (Cuba)
+
+  ⭐ Kevin y Geysa (Spain & Cuba)
+
+  ⭐ Yeni Molinet (Cuba)
+
+  ⭐ Fredyclan (Cuba)
+
+  ⭐ Osmani Segura (Cuba)
+
+  ⭐ Yusimi (Cuba)
+
+  ⭐ Nikola (Serbia)
+
+
+  === DJ Line up ===
+
+
+  🎧 DJ Jack El Calvo (France)
+
+  🎧 DJ El Gato Volador (Italy)
+
+  🎧 DJ Yuma (Switzerland)
+
+  🎧 DJ Camille (France)
+
+
+  === Tentative program schedule ===
+
+
+  Thursday 28 Nov
+
+  ✅ Pre-Party @ 1880 10pm-1am (100% Timba)
+
+
+  Friday 29 Nov
+
+  ✅ Masterclass by Diana Rodriguez 2.45pm-4.45pm
+
+  ✅ Video Recording for Masterclass 4.45pm-5.45pm
+
+  ✅ Masterclass by Yeni Molinet & Fredy Clan 6.30pm-8.30pm
+
+  ✅ Workshop 7.30pm-8.30pm
+
+  ✅ Pre-party Rueda 9pm-9.30pm
+
+  ✅ Party 9.00pm-2am (100% Timba)
+
+
+  Saturday 30 Nov
+
+  ✅ Masterclass by Kevin & Geysa 10.30am-12.30pm
+
+  ✅ Workshops 1.30pm-7.15pm
+
+  ✅ Party 9.30pm-2am (100% Timba)
+
+
+  Sunday1 Dec
+
+  ✅ Workshops 12pm-6pm
+
+  ✅ Party 9pm-2am (100% Timba)
+
+
+  * Details on private classes will be made available at a later stage
+
+  * Masterclasses & Thursday pre party are not included in the Full Pass
+
+
+  === Masterclasses ===
+
+
+  💫 Diana - Timba DRG style
+
+  💫 Kevin & Geysa - Son 
+
+  💫 Yeni & Fredy - Timba or Salsa partnerwork con afro & rumba
+
+
+  === Venue ===
+
+
+  Aliwal Arts Centre
+
+  28 Aliwal Street, Singapore 199918
+
+
+  === Pre-Party Venue ===
+
+
+  1880
+
+  1 Nanson Road, Level 3
+
+  Singapore 238909
+
+
+  === Registration & Payment ===
+
+
+  🎞 Online purchase is available via eventbrite: 
+
+  https://odacsingapore2024.eventbrite.com
+
+
+  🎞 Off platform payments:
+
+
+  Registration is complete upon payment made via PayNow to Wilfried Lapierre @ +6592956442 (local attendees) or your respective regional promoters.
+
+
+  🎞 For bank transfers and other methods of payment, please contact odacsingapore@gmail.com.
+
+
+  * Tickets are transferable (at an admin charge of SGD20 up till 31 Oct) but not refundable. ** International participant discounts are only applicable for attendees from the same region. Top up will be required if transfers are done out of attendee’s region.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293932/l1zyiciyhpearbssbswc.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJFYT6o7kZ2jERIKbarqz3AAU
+international: No
+visibility: Public
+org:
+  createdAt: 1732293930281
+  importedAt: 1732293930281
+  updatedAt: 1732293930281
+  source: facebook
+  name: ODAC Singapore - Only Dance Afro-Cuban
+  facebook: https://www.facebook.com/odacsingapore
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293930/hsqym1rsfm4f1urvlqrc.jpg
+  username: odacsingapore
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJFYT6o7kZ2jERIKbarqz3AAU
+facebook: https://www.facebook.com/events/1541790176658010/
+facebookId: "1541790176658010"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: ODAC Singapore Cuban Salsa Fiesta 2024
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1732861800000+ChIJxesQRrEZ2jERzpjX3BIaAGc
+startDate: 1732861800000
+id: 0AcQ4N3y7tIHNqCBx2xR

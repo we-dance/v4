@@ -1,0 +1,169 @@
+endDate: 1718497800000
+sourceUrl: https://www.facebook.com/events/1742842146247592/
+createdAt: 1718373634033
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714040645000
+updatedAt: 1718373634033
+importedAt: 1718373634033
+providerUpdatedAt: 1714044358000
+facebookId: "1742842146247592"
+facebook: https://www.facebook.com/events/1742842146247592/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1742842146247592/
+eventType: Party
+providerItemId: e1742842146247592@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "••• 🔹KIZGROOVE NEXT DATE 15.06.🔹••• "
+location: Ritmovida
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718476200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Saarstraße 2, 55122 Mainz, Germany
+  website: https://ritmovida.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Studio Ritmovida
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.2536539197085
+        lat: 49.9962694197085
+      northeast:
+        lng: 8.256351880291504
+        lat: 49.9989673802915
+    location:
+      lng: 8.255239500000002
+      lat: 49.99767909999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Saarstraße
+      long_name: Saarstraße
+    - types:
+        - locality
+        - political
+      short_name: MZ
+      long_name: Mainz
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Mainz
+      long_name: Mainz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: RP
+      long_name: Rheinland-Pfalz
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "55122"
+      long_name: "55122"
+  international_phone_number: +49 6131 9205080
+  place_id: ChIJtXIsgPiWvUcRUEUWSAyAL7I
+  url: https://maps.google.com/?cid=12839621852893955408
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718373672425
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ritmovidatanzstudio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718373672/ccq3boriy88vgdgpmxhf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718373672425
+  owned: false
+  name: Ritmovida
+  place: ChIJeRPfMy6RvUcRoBvbENXUIgQ
+  updatedAt: 1718373672425
+  username: ritmovidatanzstudio
+claimed: No
+link: ""
+description: >-
+  Die neue UrbanKiz Partyreihe in Mainz
+
+
+  Liebe Tanz-Community,
+
+  mit unserer brandneuen UrbanKiz Partyreihe ist es an der Zeit, das Tanzparkett zu erobern!
+
+  Wir laden euch alle ein, Teil einer aufregenden Tanzrevolution zu werden und die Tanzfläche mit internationalen Stars und erstklassigen DJs zu teilen.
+
+  Taucht ein in die Vielfalt der Tanzstile und erlebt die pulsierende Welt der Kiz-Groove-Partys in Mainz.
+
+  Hier verschmelzen die Klänge von UrbanKiz, Tarraxo, Kizomba und Semba zu einem einzigartigen Tanzspektakel!
+
+  Bereit, den nächsten Hotspot zu entdecken? Seid dabei!
+
+
+  PROGRAMM:
+
+  • 20:30 Uhr Einlass
+
+  • 21:00 Uhr UrbanKiz-Workshop mit @myriam.dani.lpk | Level: Intermediate
+
+  • ab 22:00 Uhr Kiz-Groove-Party mit @djomega_official aus München
+
+
+  MUSIK: 
+
+  Urbankiz, Tarraxo, Kizomba und Semba
+
+
+  PREISE:
+
+
+  • Party MIT Workshop: 19 €
+
+  • Party: 9€
+
+
+  Alle weiteren Infos und den Weg zur Anreise / Anmeldung findet Ihr auf unserer Homepage unter: www.ritmovida.de ✅
+
+
+  Wir freuen uns auf Euch!! ❤️
+
+
+  #ritmovida #dancestudio #dance #mainz #urbankiz #urban #tarraxo
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718373674/fkchiiiqskrbeympxp87.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJeRPfMy6RvUcRoBvbENXUIgQ
+international: No
+hash: 1718476200000+ChIJtXIsgPiWvUcRUEUWSAyAL7I
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FoI7X5juJWg2Z5leqJGf1.png?generation=1718373687848190&alt=media
+id: oI7X5juJWg2Z5leqJGf1

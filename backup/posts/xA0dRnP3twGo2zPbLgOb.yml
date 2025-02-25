@@ -1,0 +1,121 @@
+venue:
+  formatted_address: Guerickestraße 37, 80805 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Guerickestraße 37
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5965863302915
+      south: 48.1741464697085
+      north: 48.1768444302915
+      west: 11.5938883697085
+    location:
+      lng: 11.5951936
+      lat: 48.1754549
+  address_components:
+    - types:
+        - street_number
+      short_name: "37"
+      long_name: "37"
+    - types:
+        - route
+      short_name: Guerickestraße
+      long_name: Guerickestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-Freimann
+      long_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80805"
+      long_name: "80805"
+  place_id: ChIJ91QECkt0nkcRRCAdGvvoqyM
+  url: https://maps.google.com/?q=Guerickestra%C3%9Fe+37,+80805+M%C3%BCnchen,+Germany&ftid=0x479e744b0a0454f7:0x23abe8fb1a1d2044
+  username: guerickestrae37
+endDate: 1718550000000
+claimed: No
+hasLottery: ""
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6245411a-0c7d-4fe2-a325-d5661eba9120?alt=media&token=fe9ad8b0-a481-4014-a96f-b4c4a1c9a725
+createdAt: 1718390993633
+price: FREE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana. Join our WhatsApp group.
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  instagram: https://instagram.com/MontunoClub
+  username: MontunoClub
+eventType: Workshop
+hotDeal: ""
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Salsakurs beim Mundialito Latino
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718546400000
+hash: 1718546400000+ChIJ91QECkt0nkcRRCAdGvvoqyM
+username: alexrazbakov
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    bio: |+
+      Salsa Cubana Teacher @MontunoClub 
+      DJ @salsa.cubana.munich
+
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    instagram: https://instagram.com/alexrazbakov
+    username: alexrazbakov
+artistsList:
+  - alexrazbakov
+updatedAt: 1718391007511
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxA0dRnP3twGo2zPbLgOb.png?generation=1718391011888612&alt=media
+viewsCount: 8
+id: xA0dRnP3twGo2zPbLgOb

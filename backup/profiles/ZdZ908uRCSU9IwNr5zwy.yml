@@ -1,0 +1,80 @@
+createdAt: 1710598815095
+website: http://www.tangofusionclub.com/
+rooms: ""
+address:
+  formatted_address: Baaderstraße 75, 80469 München, Germany
+  website: http://www.tangofusionclub.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Sonja Armisén
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5730276197085
+        lat: 48.12655641970851
+      northeast:
+        lng: 11.5757255802915
+        lat: 48.12925438029151
+    location:
+      lng: 11.5744023
+      lat: 48.1278538
+  address_components:
+    - types:
+        - street_number
+      short_name: "75"
+      long_name: "75"
+    - types:
+        - route
+      short_name: Baaderstraße
+      long_name: Baaderstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  place_id: ChIJYVbxAmffnUcRT9K0qi79u6U
+  international_phone_number: +49 89 20206343
+  url: https://maps.google.com/?cid=11942417213777302095
+gender: Other
+phone: +49 89 20206343
+updateAt: 1710598815095
+type: Venue
+map: ""
+username: www.tangofusionclub.com
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Tango Fusion Club
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F154ccf08-76f0-4f0e-bced-09bf3f692b5b?alt=media&token=849c6a77-1bf8-489f-91f0-78fcffe27871
+team: []
+id: ZdZ908uRCSU9IwNr5zwy
+email: info@tangofusionclub.com
+updatedAt: 1710598905176
+viewsCount: 3

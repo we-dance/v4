@@ -1,0 +1,225 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/brussels-sensual-dance-festival/
+name: Brussels Sensual Dance Festival
+sourceUrl: https://facebook.com/events/1811851282422701
+venue:
+  address_components:
+    - long_name: Brussels
+      short_name: Brussels
+      types:
+        - locality
+        - political
+    - long_name: Bruxelles
+      short_name: Bruxelles
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Brussels
+      short_name: Brussels
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Belgium
+      short_name: BE
+      types:
+        - country
+        - political
+  formatted_address: Brussels, Belgium
+  geometry:
+    location:
+      lat: 50.84770289999999
+      lng: 4.357200100000001
+    viewport:
+      northeast:
+        lat: 50.91390130700456
+        lng: 4.437064898269528
+      southwest:
+        lat: 50.79634414446447
+        lng: 4.313768194738643
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Brussels
+  place_id: ChIJZ2jHc-2kw0cRpwJzeGY6i8E
+  url: https://maps.google.com/?q=Brussels,+Belgium&ftid=0x47c3a4ed73c76867:0xc18b3a66787302a7
+  website: http://www.brussel.be/
+endDate: 1738551600000
+claimed: No
+link: ""
+description: >-
+  Hey guys save the dates in your calendar
+   Jan. 31-3 Feb 2025 !!!
+  As you know our organization will bring you the best quality event with a great line up, wonderful venue with secure parking place and a lot of nice and friendly people from all over of europe...We promise it and will make it happen but not without your help and support ;) 
+
+
+  � Beautiful Venue
+
+  � 3 Amazing Parties
+
+  � 2 Dancefloors : Kizomba & Semba - Bachata & Salsa
+
+  � Great Performers for the Workshops & Shows (International & National)
+
+  � Top Deejays for the Parties
+
+  � Social Room during the Day
+
+  � Crazy Gala Party with Dress Code
+
+  � An Unforgettable Weekend
+
+
+  WE ARE STILL WORKING ON ARTISTS AND DJS LINE-UP 
+
+
+
+  Stay connected via our Facebook page or the event and don't forget to invite your friends.
+
+  Many thanks in advance.
+
+  -------------------------------------------------------
+
+
+  ARTISTS
+
+  -------------------------------------------------------
+
+  Kizomba
+
+  ★ 
+
+  ★ 
+
+  ★ 
+
+  ★
+
+  ★ 
+
+  ★ 
+
+  ★ 
+
+  ★ 
+
+  ★ 
+
+  ★ 
+
+
+  Bachata
+
+  ★ 
+
+  ★ 
+
+  ★
+
+
+  DEEJAYS
+
+  -------------------------------------------------------
+
+  Kizomba & Semba
+
+  ☊ 
+
+  ☊ 
+
+  ☊ 
+
+  ☊ 
+
+
+  Bachata & Salsa
+
+  ☊ 
+
+  ☊ 
+
+  ☊ 
+
+  ☊ 
+
+
+  -------------------------------------------------------
+
+
+  OFFICIAL PHOTOGRAPHER
+
+  -------------------------------------------------------
+
+  ★
+
+
+  ▒░░░▒░░░▒░░░▒▒░░░▒░░░▒░░░▒
+
+
+  TICKETS
+
+  -------------------------------------------------------
+
+
+
+  ▒░░░▒░░░▒░░░▒▒░░░▒░░░▒░░░▒
+
+
+  ACCOMMODATION
+
+  -------------------------------------------------------
+
+
+
+  More infos are coming soon ;)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/axlsohoibaotmwwgoszk.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJZ2jHc-2kw0cRpwJzeGY6i8E
+international: No
+visibility: Public
+org:
+  createdAt: 1732293947449
+  importedAt: 1732293947449
+  updatedAt: 1732293947449
+  source: facebook
+  name: Brussels Sensual Dance Festival
+  facebook: https://www.facebook.com/brusselskizombabachatafestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/fzthzmszz8bl13bgpzsx.jpg
+  username: brussels.sensual.dan
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJZ2jHc-2kw0cRpwJzeGY6i8E
+facebook: https://www.facebook.com/events/1811851282422701/
+facebookId: "1811851282422701"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1738335600000+ChIJZ2jHc-2kw0cRpwJzeGY6i8E
+startDate: 1738335600000
+id: I9Dy15l4KyTj2QvlWDBM

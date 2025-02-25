@@ -1,0 +1,49 @@
+isNew: true
+facebookId: "848887790467523"
+facebookUrlsList:
+  - https://www.facebook.com/events/848887790467523/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731510035600
+updatedAt: 1731510035600
+importedAt: 1731510035600
+providerId: h3mLnG49LCZb8gZIZhEa
+providerItemId: e848887790467523@facebook.com
+name: Party at Circulo
+description: >-
+  I will go with my salsa students to Circulo. Circulo will be closing end of
+  this year. Join us and enjoy the party there for the last time.
+
+
+  entrance: 13€
+
+
+  We will meet at 20:00 for their Rueda there at the salsa dance room.
+
+  If you wanna join after the Rueda, then join at 20:45.
+
+
+
+
+  https://www.facebook.com/events/848887790467523/
+providerCreatedAt: 1731239380000
+providerUpdatedAt: 1731239820000
+startDate: 1731783600000
+endDate: 1731794400000
+facebook: https://www.facebook.com/events/848887790467523/
+sourceUrl: https://www.facebook.com/events/848887790467523/
+location: ""
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+errorCode: no_event
+error: No event data found, please verify that your URL is correct and the event
+  is accessible without authentication
+type: import_error
+id: Z9nfD7FP1SVCWMsJk8HZ

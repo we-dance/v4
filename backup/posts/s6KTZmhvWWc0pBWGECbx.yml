@@ -1,0 +1,42 @@
+updatedBy: sJcvNL6LZ3S5xzhSh7NXRr8NsrY2
+address: Pinakothek der Moderne
+visibility: Public
+endDate:
+  _seconds: 1626724800
+  _nanoseconds: 0
+eventType: Party
+type: event
+duration: "120"
+createdAt: 1626352952766
+watchersCount: 0
+form: No
+createdBy: sJcvNL6LZ3S5xzhSh7NXRr8NsrY2
+price: Free
+commentsCount: 0
+name: Standard & Latin Outside
+online: No
+commentsLast: ~
+styles:
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+id: s6KTZmhvWWc0pBWGECbx
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-19T18:00:00.000Z
+updatedAt: 1626352952766
+username: StandardLatinBene
+viewsCount: 54

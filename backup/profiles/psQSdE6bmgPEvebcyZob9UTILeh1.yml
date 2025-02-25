@@ -1,0 +1,35 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631057297333
+locales:
+  de: true
+  en: true
+createdBy: psQSdE6bmgPEvebcyZob9UTILeh1
+name: Teddy
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Teddy
+daysUsed: 1
+pwaUsed: false
+gender: Male
+contacts: ""
+updatedAt: 1631057571922
+lastLoginAt: 1631057759801
+styles:
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Semba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+id: psQSdE6bmgPEvebcyZob9UTILeh1

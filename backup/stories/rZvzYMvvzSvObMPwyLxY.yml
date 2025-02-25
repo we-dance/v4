@@ -1,0 +1,87 @@
+venue:
+  formatted_address: Europaplatz 1/6, 1150 Wien, Austria
+  website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=B677&merchantid=seo-maps-AT-B677&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MjM3NDE5NTYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: JO&JOE Wien
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.3394501802915
+      south: 48.1943647197085
+      north: 48.1970626802915
+      west: 16.3367522197085
+    location:
+      lng: 16.33782650000001
+      lat: 48.1959786
+  address_components:
+    - types:
+        - subpremise
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Europaplatz
+      long_name: Europaplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Rudolfsheim-Fünfhaus
+      long_name: Rudolfsheim-Fünfhaus
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1150"
+      long_name: "1150"
+  international_phone_number: +43 1 4180060
+  place_id: ChIJGz1uScAHbUcRBmMbRxNaKBQ
+  url: https://maps.google.com/?cid=1452509918670840582
+receiver:
+  instagram: https://instagram.com/joandjoe.vienna
+  username: joandjoe.vienna
+question: ""
+link: ""
+description: Best place to dance Salsa and Bachata also sometimes Kizomba in
+  Vienna on Mondays 😍
+stars: 5
+type: review
+dances:
+  - "0"
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+createdAt: 1708394341804
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+style: Casino
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+username: Aina
+upvotes:
+  count: 1
+  usernames:
+    - alexrazbakov
+id: rZvzYMvvzSvObMPwyLxY

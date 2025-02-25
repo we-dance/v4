@@ -1,0 +1,40 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1619731894025
+locales:
+  de: true
+createdBy: fEVIFANChfZwt0HuxxC6hmNPf893
+name: hei
+place: ChIJt9Y6hM31qEcRm-yqC5j4ZcU
+username: hei
+pwaUsed: false
+cities:
+  ChIJt9Y6hM31qEcRm-yqC5j4ZcU: true
+hometown: ChIJt9Y6hM31qEcRm-yqC5j4ZcU
+id: fEVIFANChfZwt0HuxxC6hmNPf893
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfEVIFANChfZwt0HuxxC6hmNPf893%2F282de2d4-a5b6-400e-8abe-34796f5d6b71?alt=media&token=0d362b3b-d2ab-4b1a-a1bc-5f1ec3325c9f
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedBy: qyVB1zBc4FcdM7xmxJo4dMVd04G2
+savedBy:
+  qyVB1zBc4FcdM7xmxJo4dMVd04G2: true
+step: photo
+lastLoginAt: 1654784898452
+daysUsed: 10
+partner: ""
+permission: ""
+objectives:
+  outdoors: true
+  learn: true
+  teach: true
+  indoors: true
+  project: true
+  talk: true
+bannerNps: no
+updatedAt: 1654784989216
+viewsCount: 4

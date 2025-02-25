@@ -1,0 +1,128 @@
+venue:
+  formatted_address: Karolinská 8, 186 00 Praha 8-Karlín, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Karolinská 8
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4469662802915
+      south: 50.09330641970851
+      north: 50.09600438029151
+      west: 14.4442683197085
+    location:
+      lng: 14.4456173
+      lat: 50.0946554
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  place_id: Ei5LYXJvbGluc2vDoSA4LCAxODYgMDAgUHJhaGEgOC1LYXJsw61uLCBDemVjaGlhIjASLgoUChIJrzkPdLuUC0cR3EqP68W4vlAQCCoUChIJrROdnbuUC0cRqf-yd_28j7w
+  url: https://maps.google.com/?q=Karolinsk%C3%A1+8,+186+00+Praha+8-Karl%C3%ADn,+Czechia&ftid=0x470b94bb740f39af:0x36215863ac898ce5
+endDate: 2023-07-01T22:00
+claimed: No
+link: https://www.facebook.com/events/562877529095825/593061872744057
+description: |+2
+   ...Podrobnosti již brzy / Details coming soon...
+
+
+
+   ☛ River Rink Karlín: Karolinská 8 Praha 8
+
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F87d66e1d-efa0-487e-a420-c4d6db5f79c0?alt=media&token=6beb9733-717c-4da1-b3bb-e307604a0cf1
+createdAt: 1683554420042
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ksenimotion
+    photo: ""
+    bio: ""
+    id: 08M8kYBROSIiYN6QqF9F
+    instagram: https://instagram.com/ksenimotion
+    username: ksenimotion
+price: 100 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - ksenimotion
+international: No
+updatedAt: 1683554420042
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/DjLolePrague
+  name: Dj Lole
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  bio: ""
+  id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  instagram: https://instagram.com/dj.lole
+  username: DjLole
+facebook: https://www.facebook.com/events/562877529095825/593061872744057
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Salsa and bachata at River Rink Karlín
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-01T18:00
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fg8dqT1mx8QVfXUKiFKMF.png?generation=1685623480729731&alt=media
+telegram:
+  requestedAt: 1685623567499
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/300
+  publishedAt: 1685623569529
+  messageId: 300
+  state: published
+viewsCount: 29
+id: g8dqT1mx8QVfXUKiFKMF

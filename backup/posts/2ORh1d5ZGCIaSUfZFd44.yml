@@ -1,0 +1,154 @@
+program: []
+artists: []
+artistsList: []
+createdAt: 1732022633777
+updatedAt: 1732022633777
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+specialOffer: ""
+name: Salsa Cubana - Timba Party
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F84c10bc6-2708-42c6-b8df-565d42db9bc5?alt=media&token=7055a670-aa03-4910-8ef2-35f28c8d7b2b
+instagram: {}
+promo: ""
+duration: "180"
+promotion: ""
+endDate: 1732143600000
+star:
+  count: 0
+  list: {}
+votes: 0
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+visibility: Public
+commentsCount: 0
+watch:
+  count: 0
+  list: {}
+claimed: No
+international: No
+confirmation: You are on the guest list. Pay at the door.
+venue:
+  html_attributions: []
+  website: http://www.kult-tanzschule.de/
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  geometry:
+    viewport:
+      north: 48.1399034302915
+      south: 48.1372054697085
+      west: 11.5691703697085
+      east: 11.5718683302915
+    location:
+      lat: 48.1382762
+      lng: 11.5703078
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  url: https://maps.google.com/?cid=2237208673933871066
+  name: The KULT TANZSCHULE in ADTV
+  international_phone_number: +49 89 44313886
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  address_components:
+    - short_name: 15A
+      types:
+        - street_number
+      long_name: 15A
+    - types:
+        - route
+      long_name: Neuhauser Straße
+      short_name: Neuhauser Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - short_name: DE
+      types:
+        - country
+        - political
+      long_name: Germany
+    - long_name: "80331"
+      short_name: "80331"
+      types:
+        - postal_code
+price: FREE
+telegram: {}
+startDate: 1732132800000
+description: The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great
+  dancers you know from our parties with cool drinks to fair prices in an
+  amazing atmosphere.
+type: event
+id: 2ORh1d5ZGCIaSUfZFd44
+facebookId: ""
+hash: 1704916800000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+upVotes: 0
+org:
+  username: salsa.cubana.munich
+  bio: >-
+    The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties.
+
+
+    Sebastian, Hamza and Alex brought their speakers to Pinakothek der Moderne in 2019 and 30 Salsa Cubana dancers joined. Ever since they come every Wednesday and Friday to bring Cuban atmosphere to citizens of Munich. 
+
+
+    Best local casino and rumba dancers often give animations or come to chat.
+
+
+    Best of Alain Perez, Azucar Negra, Berna Jam, Celia Cruz, Charanga Habanera, D Punto D, Elito Revé, El Niño y la Verdad, Habana D'Primera, Leoni Torres, Leo Wilber, Los 4, Los Van Van, Manana Club, Manolito Simonet, Mayimbe, Mecánica Loca, Mixael Cabrera, Rafaelito y su Tumbao, Timbalive, Yasser Ramos.
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  instagram: https://instagram.com/salsa.cubana.munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  name: Salsa Cubana Munich
+  role: organiser
+  facebook: https://facebook.com/vacunaaa
+  youtube: ""
+  tiktok: ""
+promotionError: ""
+checkin:
+  count: 0
+  list: {}
+form: No
+downVotes: 0
+online: No
+eventType: Party
+commentsLast:
+  createdBy: 1X1pyh3lLGMxovkc1Ad5HRK7OEz2
+  username: juno81
+  updatedBy: 1X1pyh3lLGMxovkc1Ad5HRK7OEz2
+  postId: JJbe4fw38Zy4DpBeZtrb
+  body: "It's quite a closed circle, newcomers are not integrated. As a woman, you
+    should be either ask always for a dance or dance alone. But I don't complain
+    about the music. "
+  commentId: ""
+  updatedAt: 1704556569730
+  createdAt: 1704556569730
+socialCover: ""
+styles:
+  Casino:
+    selected: true
+    level: Interested
+    highlighted: false
+  Salsa:
+    selected: true
+    highlighted: false
+    level: Interested
+viewsCount: 3

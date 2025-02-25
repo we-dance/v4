@@ -1,0 +1,401 @@
+endDate: 1738537140000
+sourceUrl: https://www.facebook.com/events/1030080748720580/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1722114940000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728396450000
+facebookId: "1030080748720580"
+facebook: https://www.facebook.com/events/1030080748720580/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1030080748720580/
+eventType: Concert
+providerItemId: e1030080748720580@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Arena Dance Festival
+location: Montresor Hotel Tower
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1738278000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Via A. Mantegna, 30, 37012 Bussolengo VR, Italy
+  website: https://www.montresorhotels.com/hotel-tower/it/home
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Montresor Hotel Tower
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.8511376697085
+        lat: 45.4674980197085
+      northeast:
+        lng: 10.8538356302915
+        lat: 45.4701959802915
+    location:
+      lng: 10.8525858
+      lat: 45.4690743
+  address_components:
+    - types:
+        - street_number
+      short_name: "30"
+      long_name: "30"
+    - types:
+        - route
+      short_name: Via A. Mantegna
+      long_name: Via A. Mantegna
+    - types:
+        - locality
+        - political
+      short_name: Bussolengo
+      long_name: Bussolengo
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bussolengo
+      long_name: Bussolengo
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: VR
+      long_name: Provincia di Verona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Veneto
+      long_name: Veneto
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "37012"
+      long_name: "37012"
+  international_phone_number: +39 045 676 1000
+  place_id: ChIJ4zd2ev-dgUcR_v4J59gbn6c
+  url: https://maps.google.com/?cid=12078403344034037502
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417919292
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/feniceproduction
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417919/iiawyqvcfurbtumvfwrv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417919292
+  owned: false
+  name: Fenice Production
+  place: ChIJWcXrQS_kgUcRGLxAWmUutug
+  updatedAt: 1728417919292
+  username: feniceproduction
+claimed: No
+link: https://www.goandance.com/es/eventos/7178-arena-dance-festival
+description: >-
+  🟣🔵 ARENA DANCE FESTIVAL 🔵🟣
+
+
+  🏨 Location: Hotel Montresor Via A. Mantegna, 30, 37012 Bussolengo VR🏨
+
+  🔹 All in one Location 🔹
+
+
+  📆 dal 31 Gennaio al 2 Febbraio 2025📆
+
+
+  💃Dance -  Salsa | Bachata | Kizomba
+
+  🕺Shows
+
+  🪩 Themed parties and ESME Bachata live concert
+
+  🎉 3 days and 3 nights of fun
+
+
+  Domenica 2 Febbraio 2025 si terrà la gara di Ballo
+
+  ARENA COSMOPOLITAN DANCE CUP
+
+
+  Maggiori info a breve
+
+
+
+  Pass & Hotel⤵️
+
+  https://www.goandance.com/es/eventos/7178-arena-dance-festival
+
+
+  🔹 Un unico Full Pass per poter partecipare a tutti i Workshops, a tutte le serate ballando Salsa, Bachata e Kizomba su Sale dedicate
+
+
+  🔹 Social Room Pomeridiana
+
+
+  🔹 Concerto di Bachata dal vivo di ESME
+
+
+  🔹 Gare di Salsa, Bachata e Kizomba
+
+
+  more info coming soon...
+
+
+
+  🟣🔵 Artists Line up 🔵🟣
+
+
+
+  🔴 SALSA 🔴
+
+
+  🕺🏻 MARCO FERRIGNO Y ANSIMA
+
+  🕺🏻 CUBAN FLEX
+
+  🕺🏻 ANGELO RITO
+
+  🕺🏻 YUNIEL GUAL Y SONDEAKOKAN
+
+  🕺🏻 LIEB J
+
+  🕺🏻 SANTIAGO BALDONCINI & VITTORIA 💃🏻
+
+  🕺🏻 FADI FUSION 
+
+  🕺🏻 IVANCITO Y JULIO🕺🏻
+
+  💃🏻 VANESSA LACEDONIA
+
+  🕺🏻 CARLITO Y VICTORIA 💃🏻
+
+  🕺🏻 MATTE Y VERO 💃🏻
+
+  🕺🏻 AARON Y GIORGIA 💃🏻
+
+  🕺🏻 STEFANO Y ROBERTA 💃🏻
+
+  🕺🏻 FEDERICO Y ANNA 💃🏻
+
+  💃🏻 STEFANIA NOGARETTO
+
+  🕺🏻 MAURO TOMEZZOLI
+
+  🕺🏻 APO Y KATY 💃🏻
+
+  💃🏻 LORENZA PAVANELLO
+
+  🕺🏻 GABRIELE Y GLORIA 💃🏻
+
+  🕺🏻 VITO Y DESIRE' 💃🏻
+
+  💃🏻 MADDALENA BIANCO
+
+  🕺🏻 PAUL JORDAN
+
+  💃🏻 CLAUDIA DEL POPOLO
+
+
+  & more...
+
+
+
+  🔵 BACHATA 🔵
+
+
+  🕺🏻 CARLOS ESPINOSA
+
+  🕺🏻 FRANK Y NATALI 💃🏻
+
+  🕺🏻 ARNALDES Y BRI 💃🏻
+
+  🕺🏻 SAKIS Y MIA 💃🏻
+
+  🕺🏻 JUAN Y SARA 💃🏻
+
+  🕺🏻 ALAN Y CRISTINA 💃🏻
+
+  🕺🏻 MARVIN Y GINTARÈ 💃🏻
+
+  🕺🏻 SIMONE Y DANILA 💃🏻
+
+  💃🏻 CARLA Y SERGIO 🕺🏻
+
+  🕺🏻 SERGIO Y CHRISTINA 💃🏻
+
+  🕺🏻 DENNYZ Y OKSANA 💃🏻
+
+  🕺🏻 BYRON Y ELENA KHAMSI 💃🏻
+
+  💃🏻 LUISA CASTRO
+
+  🕺🏻 CASITO BACHATA
+
+  🕺🏻 FLOWLY
+
+  🕺🏻 LUIS Y ISABI 💃🏻
+
+  🕺🏻 MATTEO Y CELSA 💃🏻
+
+  🕺🏻 GIUSEPPE Y ROSEMARY 💃🏻
+
+  🕺🏻 MATTEO Y MARIA 💃🏻
+
+  🕺🏻 CARMELO Y TONIA 💃🏻
+
+  🕺🏻 RAFFAELE Y SAIANA 💃🏻
+
+  🕺🏻 RENE Y TANI DANCEFLOWKOPER 💃🏻
+
+  🕺🏻 LELE Y SARA 💃🏻
+
+  🕺🏻 ROBERTO Y ANNA 💃🏻
+
+  🕺🏻 SIMONE Y JESSICA 💃🏻
+
+  🕺🏻 FILIPPO Y ALE ELEGANCIA 💃🏻
+
+  🕺🏻 VINCENZO Y DALIA 💃🏻
+
+  🕺🏻 CLAUDIO Y ALEKSANDRA 💃🏻
+
+  💃🏻 STEFANIA Y FLORIANA 💃🏻
+
+  💃🏻 ALICE Y FRANCESCO 🕺🏻
+
+  🕺🏻 JACKSON Y CAROL 💃🏻
+
+  🕺🏻 MARCO Y EMILY 💃🏻
+
+
+  & more...
+
+
+
+  🟢 KIZOMBA 🟢
+
+
+  💃🏻 ISABELLE & FELICIEN 🕺🏻
+
+  🕺🏻 AZZEDINE
+
+  🕺🏻 KAREN & LUIS 💃🏻
+
+  🕺🏻 RICO & MANON 💃🏻
+
+  🕺🏻 DASMARA & ANASTASIYA 💃🏻
+
+  🕺🏻 DAVIDE & LAURA 💃🏻
+
+  🕺🏻 EDO & GIULY 💃🏻
+
+  🕺🏻 DAVID PACAVIRA & CELINE 💃🏻
+
+  🕺🏻 ALEX & MARY JAY 💃🏻
+
+  🕺🏻 FABRIZIO & NICOLETTA 💃🏻
+
+  🕺🏻 LUCA & ELENA 💃🏻
+
+  💃🏻 JANE & ARIADNE 💃🏻
+
+  🕺🏻 LORENZ & FEDE KIZ 💃🏻
+
+  🕺🏻 OMAR & CAROLA 💃🏻
+
+  🕺🏻 RAUL & LUCIA 💃🏻
+
+  🕺🏻 LUCA & FRANCESCA 💃🏻
+
+  💃🏻 ELENA ARCANGELI
+
+  🕺🏻 FRANCIS & LUCY 💃🏻
+
+  🕺🏻 DANIEL & MIKY💃🏻
+
+  🕺🏻 CHRISTIAN & FRANCESCA💃🏻
+
+  🕺🏻 HENRY & SILWAY💃🏻
+
+  💃🏻 LA STEFY
+
+  💃🏻 BIANCA IULIA
+
+  🕺🏻 STEF & CHRISTINE
+
+
+  & more...
+
+
+
+  🎧 Official DJs 🎧
+
+
+  🎧 DJ VIRGIN
+
+  🎧 DJ FAZE
+
+  🎧 DJ RYAN MILES
+
+  🎧 DJ GHOST FACE
+
+  🎧 DJ LOQUITO
+
+  🎧 DJ SAUX
+
+  🎧 DJ ANILSON
+
+  🎧 DJ EL TIGRE
+
+  🎧 DJ BORICUA
+
+  🎧 DJ HUG
+
+  🎧 DJ R.A.H.T.
+
+  🎧 DJ GEPPO
+
+  🎧 DJ MOMOLATINO
+
+  🎧 DJ MELANIO
+
+  🎧 DJ PEPPE A.
+
+  🎧 DJ ZORRO
+
+
+  & more...
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417921/kh89btg8ubz9w8ifnfh7.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJWcXrQS_kgUcRGLxAWmUutug
+international: No
+hash: 1738278000000+ChIJ4zd2ev-dgUcR_v4J59gbn6c
+id: EOqonNenYaXv1qI0Fvmx

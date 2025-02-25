@@ -1,0 +1,190 @@
+endDate: 1711487400000
+sourceUrl: https://www.facebook.com/events/2091142864596414/?event_time_id=2091142881263079
+createdAt: 1711220914623
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1707830881000
+updatedAt: 1711220914623
+importedAt: 1711220914623
+providerUpdatedAt: 1707831115000
+facebookId: "2091142881263079"
+facebook: https://www.facebook.com/events/2091142864596414/?event_time_id=2091142881263079
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2091142864596414/?event_time_id=2091142881263079
+eventType: Workshop
+providerItemId: e2091142881263079@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: URBAN KIZ REGULAR CLASSES - LÚCIO & SOFIA
+location: Praterstraße 25a / Broadway Connection, 1030 Wien, Austria
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711476000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Praterstraße 25a/1a, 1020 Wien, Austria
+  website: https://www.broadwayconnection.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kristina's Broadway Connection | Tanzstudio & Musicalschule in Wien 2
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3822107697085
+        lat: 48.2130098697085
+      northeast:
+        lng: 16.3849087302915
+        lat: 48.2157078302915
+    location:
+      lng: 16.3834797
+      lat: 48.21441429999999
+  address_components:
+    - types:
+        - subpremise
+      short_name: 1a
+      long_name: 1a
+    - types:
+        - street_number
+      short_name: 25a
+      long_name: 25a
+    - types:
+        - route
+      short_name: Praterstraße
+      long_name: Praterstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Leopoldstadt
+      long_name: Leopoldstadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1020"
+      long_name: "1020"
+  international_phone_number: +43 699 10158587
+  place_id: ChIJr9rf7QkHbUcRs57EJajMwFY
+  url: https://maps.google.com/?cid=6251221305350463155
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/motionbeats.vienna
+  name: Motion Beats - Kizomba, Urban Kiz and More
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/295886070_814919059886679_4369960075667100857_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=111&ccb=1-7&_nc_sid=596444&_nc_ohc=dfAn5tGZEZkAX-85-0c&_nc_ht=scontent-iad3-2.xx&oh=00_AfAc9dj0aiTWk2T8YLD9Z4uP02j68csXFnBERWfLCjmNRg&oe=659C185C
+  bio: ""
+  id: 4AwAF9aeJLXwi4gjc5zS
+  instagram: ""
+  username: motionbeats.vienna
+claimed: No
+link: https://www.eversports.at/scl/motion-beats-kizomba-urban-kiz-bachata-and-more
+description: >-
+  Dear dance community,
+
+  With a new level system and even more structured classes, you will be able to evolve your Kizomba/Urban Kiz skills in a short time.
+
+
+  19:00 - 20:00 - Level 2
+
+  Here is where you will expand your basic dancing vocabulary with the most popular steps and techniques.
+
+
+  20:05 - 21:05 - Level 3
+
+  Time to push your skills further, getting a deeper understanding of the dance and exploring new steps, techniques and your creativity.
+
+
+  21:10 - 22:10 - Social Practice
+
+  (3€ or included in the workshop price)
+
+
+
+  REGISTRATION: https://www.eversports.at/scl/motion-beats-kizomba-urban-kiz-bachata-and-more
+
+
+  Pay online or in cash at the location.
+
+
+  PRICES:
+
+
+  Single Class - 16€
+
+  Day pass (2 classes+social) - 26€
+
+
+  Monthly Kiz Basic - 50€ (Valid for 1 level)
+
+  Monthly Kiz Extra - 75€ (Valid for 3 Levels)
+
+  (Valid for 4 weeks from the date of the first booking.)
+
+
+  4x Blocks Card - 60€
+
+  8x Blocks Card - 100€
+
+  12x Blocks Card - 130€
+
+
+
+  CLASSES IN ENGLISH AND GERMAN.
+
+  PLEASE BRING EXTRA SHOES FOR DANCING.
+
+  We reserve all the rights to apply any change on the subjects above.
+
+  By coming to the classes, you agree to use any digital material made during the classes, such as photos and videos for future promotions.
+
+  Dance & Co. - MOTION BEATS
+
+  Kizomba, Urban Kiz, Bachata and more
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711220948/txrvb881wuzdmdladzqo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1711476000000+ChIJr9rf7QkHbUcRs57EJajMwFY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FaWqxjcO9DpNqs0C3b3ZR.png?generation=1711220984312101&alt=media
+id: aWqxjcO9DpNqs0C3b3ZR

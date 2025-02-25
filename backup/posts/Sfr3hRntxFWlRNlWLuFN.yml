@@ -1,0 +1,127 @@
+endDate: 1714953600000
+sourceUrl: https://facebook.com/events/s/cinco-de-mayo-celebration-at-4/978761037143401/
+createdAt: 1712906905521
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1712732024000
+updatedAt: 1712906905521
+importedAt: 1712906905521
+providerUpdatedAt: 1712732024000
+facebookId: "978761037143401"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/cinco-de-mayo-celebration-at-4/978761037143401/
+eventType: Party
+providerItemId: 6sqj8dpo75hmab9oc9im6b9k74rj0b9p70sj8bb575gj0dhi69gj8opoco@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Cinco de Mayo Celebration at 4th Street Live!
+location: 4th Street Live
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714941000000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 411 S 4th St, Louisville, KY 40202, USA
+  website: http://www.4thstlive.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Fourth Street Live!
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.7585218302915
+        lat: 38.2512743697085
+      northeast:
+        lng: -85.7558238697085
+        lat: 38.2539723302915
+    location:
+      lng: -85.75710169999999
+      lat: 38.2521904
+  address_components:
+    - types:
+        - street_number
+      short_name: "411"
+      long_name: "411"
+    - types:
+        - route
+      short_name: S 4th St
+      long_name: South 4th Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Downtown
+      long_name: Downtown
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40202"
+      long_name: "40202"
+    - types:
+        - postal_code_suffix
+      short_name: "3420"
+      long_name: "3420"
+  international_phone_number: +1 502-584-7170
+  place_id: ChIJLcQOIaVyaYgRtQdLJcknI00
+  url: https://maps.google.com/?cid=5558330109972907957
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/LouisvilleSalsa
+  name: Louisville Salsa Underground
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044570/id4qtxyiq4etpyf10li1.png
+  bio: ""
+  id: 43Vnvk5QwbG7WgWnkYFE
+  instagram: ""
+  username: LouisvilleSalsa
+claimed: No
+facebook: https://www.facebook.com/events/978761037143401/
+link: ""
+description: |-
+  FREE EVENT!
+
+  4:30 p.m. - Dance Lesson w/ Andrea Casinera
+  5:00 p.m. - Live Salsa music w/ Milenio Salsa Band
+  5:45 p.m. - DJ Robertón
+  6:15 p.m. - Live Salsa music w/ Milenio Salsa Band
+  7:00 p.m. - DJ Robertón
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712906917/neure2b1bolnwvb7cbul.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJlxLeD7tyaYgRAJCiTilnAPo
+international: No
+hash: 1714941000000+ChIJLcQOIaVyaYgRtQdLJcknI00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSfr3hRntxFWlRNlWLuFN.png?generation=1712906946375088&alt=media
+id: Sfr3hRntxFWlRNlWLuFN

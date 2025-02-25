@@ -1,0 +1,149 @@
+createdAt: 1705959274105
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/270779202659260/
+username: alexrazbakov
+venue:
+  formatted_address: 1-7, Level 8, Zuellig Building, Silom Rd, Khwaeng Silom, Khet
+    Bang Rak, Krung Thep Maha Nakhon 10500, Thailand
+  website: https://www.salsatalents.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: SALSA Modeling Agency
+  geometry:
+    viewport:
+      southwest:
+        lng: 100.5348133697085
+        lat: 13.7277555697085
+      northeast:
+        lng: 100.5375113302915
+        lat: 13.7304535302915
+    location:
+      lng: 100.5361837
+      lat: 13.7290516
+  address_components:
+    - types:
+        - subpremise
+      short_name: 1-7, Level 8
+      long_name: 1-7, Level 8
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Zuellig Building
+      long_name: Zuellig Building
+    - types:
+        - route
+      short_name: Silom Rd
+      long_name: Silom Road
+    - types:
+        - sublocality_level_2
+        - sublocality
+        - political
+      short_name: Khwaeng Silom
+      long_name: Khwaeng Silom
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Khet Bang Rak
+      long_name: Khet Bang Rak
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Krung Thep Maha Nakhon
+      long_name: Krung Thep Maha Nakhon
+    - types:
+        - country
+        - political
+      short_name: TH
+      long_name: Thailand
+    - types:
+        - postal_code
+      short_name: "10500"
+      long_name: "10500"
+  international_phone_number: +66 63 495 1649
+  place_id: ChIJz_JLk3ab4jARhyxvrwdzbak
+  url: https://maps.google.com/?cid=12208540641716546695
+endDate: 1730746800000
+claimed: No
+link: ""
+description: >-
+  Join SALSA BANGKOK FIESTA 2024 from 2-6 November in Bangkok, Thailand!!! Let's
+  dance SALSA, BACHATA, KIZOMBA!
+
+
+  Time to have fun + chilled + relax and to reconnect with each other.
+
+  Celebrate our 18th anniversary! We are known as one of the most fun and friendliest Salsa + Bachata + Kizomba Festivals in Asia, the longest running in S.E.Asia.
+
+
+  + Thursday --- Super Fun Pre-Party
+
+  + Friday - Sunday Highlights
+
+  +++3 Separate Rooms of Night Party (Salsa, Bachata and Kizomba) 
+
+  +++ Friday & Saturday Afternoon Party
+
+  +++ Sunday Famous Pool Party
+
+  +++ Dance Shows & Dance Workshops
+
+  +++ Outdoor Beer Garden
+
+  + Monday --- Fabulous Farewell Party
+
+
+  You will also enjoy shopping, Thai food, spa & massage in Bangkok to the max!
+
+  Everyone is welcome...let's meet old friends and make more new ones.
+
+
+  Our IG & FB: Salsa Bangkok Fiesta
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsabangkokfiesta
+  name: Salsa Bangkok Fiesta
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/410361662_882060050377691_4453523820238589322_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=109&ccb=1-7&_nc_sid=596444&_nc_ohc=yDVulXg2FRgAX-fNXEp&_nc_ht=scontent-atl3-1.xx&oh=00_AfD5DS2TMNBEeg0-0ENME2uRI6zovd6SgxXxYP2SJ63kqg&oe=65A1B8DB
+  bio: ""
+  id: LoqDD2EoaSl6j7hgWAGs
+  instagram: ""
+  username: salsabangkokfiesta
+facebookId: "270779202659260"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa Bangkok Fiesta - SBF 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1730379600000+ChIJz_JLk3ab4jARhyxvrwdzbak
+startDate: 1730379600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYSCAi3HjF5RCiDBBXLN0.png?generation=1705959285784729&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F74449bb3-bada-4307-a789-3891c49ebc59?alt=media&token=7bf83325-bc3f-4e29-b11c-b5c69ede1c0e
+artistsList: []
+id: YSCAi3HjF5RCiDBBXLN0
+updatedAt: 1705959499147
+viewsCount: 13

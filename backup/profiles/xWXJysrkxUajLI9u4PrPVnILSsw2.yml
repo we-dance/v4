@@ -1,0 +1,43 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628945225326
+createdBy: xWXJysrkxUajLI9u4PrPVnILSsw2
+name: Robin
+place: ChIJ4U9CTvFQlkcR6Yfp99HxvOM
+username: Robin
+pwaUsed: false
+cities:
+  ChIJ4U9CTvFQlkcR6Yfp99HxvOM: true
+updatedAt: 1628945316323
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxWXJysrkxUajLI9u4PrPVnILSsw2%2Fe60dcd99-662f-44c6-b35b-61ca5d6dd166?alt=media&token=69f110f7-5594-4d65-9f06-487d69c00b4a
+daysUsed: 8
+hometown: ChIJ4U9CTvFQlkcR6Yfp99HxvOM
+locales:
+  de: true
+  en: true
+  nl: true
+lastLoginAt: 1637273668718
+gender: Male
+permission: Yes
+styles:
+  BachataModerna:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+id: xWXJysrkxUajLI9u4PrPVnILSsw2

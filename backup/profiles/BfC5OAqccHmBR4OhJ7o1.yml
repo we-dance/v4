@@ -1,0 +1,71 @@
+createdAt: 1727107906162
+website: https://maps.google.com/?q=Humboldtstra%C3%9Fe+29,+81543+M%C3%BCnchen,+Germany&ftid=0x479ddf6ea8fea2f7:0xa7bdee872da7dccc
+rooms: ""
+address:
+  formatted_address: Humboldtstraße 29, 81543 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Humboldtstraße 29
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5764123302915
+      south: 48.11832116970849
+      north: 48.12101913029149
+      west: 11.5737143697085
+    location:
+      lng: 11.5751056
+      lat: 48.1197118
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Humboldtstraße
+      long_name: Humboldtstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81543"
+      long_name: "81543"
+  place_id: ChIJ96L-qG7fnUcRzNynLYfuvac
+  url: https://maps.google.com/?q=Humboldtstra%C3%9Fe+29,+81543+M%C3%BCnchen,+Germany&ftid=0x479ddf6ea8fea2f7:0xa7bdee872da7dccc
+gender: Other
+phone: ""
+name: Humboldtstraße 29
+updateAt: 1727107906162
+type: Venue
+map: ""
+username: humboldtstrae29
+id: BfC5OAqccHmBR4OhJ7o1

@@ -1,0 +1,125 @@
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  role: organiser
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  username: AnnaMil
+claimed: No
+eventType: Party
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fc8e20d34-8056-42ec-9e63-da9a49d4f9de?alt=media&token=f6055c2f-c38b-4cd9-b78e-42d138cd7b3b
+createdAt: 1651470473830
+form: No
+artists: []
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Salsa / Bachata - Party
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1651470473830
+username: AnnaMil
+duration: custom
+promo: Yes
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  website: http://www.tanzschuleamstachus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 1590 1227277
+  url: https://maps.google.com/?cid=7618752569010268631
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+price: from 7 EUR
+description: |-
+  Come and Dance with us 💃🕺
+  Best Hits Salsa & Bachata
+
+  what are you waiting for
+
+  Price: only 10€
+  and 7€ for Students
+
+  see you there and dance together 💥
+id: lFaPCxWvC53tw4w7bjkg
+startDate: 2022-05-04T21:00
+endDate: 2022-05-05T01:00
+viewsCount: 8

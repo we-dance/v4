@@ -1,0 +1,50 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1623358274583
+locales:
+  de: true
+  en: true
+createdBy: o2qzfMgKrXcJw3vFwT0aiBZz9vA3
+name: Yeni
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Yeni
+pwaUsed: false
+bio: "Dancing is a wonderful way to communicate. "
+styles:
+  UrbanKizz:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  LindyHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Beginner
+    highlighted: false
+    selected: true
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fo2qzfMgKrXcJw3vFwT0aiBZz9vA3%2F3d635da7-64c3-4617-881d-a516cb8c0e34?alt=media&token=05611477-1281-4c7e-b95b-dd5288303d4a
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FYeni.png?generation=1623510885392340&alt=media
+lastLoginAt: 1626473865639
+daysUsed: 3
+cities: {}
+updatedAt: 1626474167285
+id: o2qzfMgKrXcJw3vFwT0aiBZz9vA3

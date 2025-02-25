@@ -1,0 +1,125 @@
+venue:
+  formatted_address: Friedenstraße 26A, 81671 München, Germany
+  website: http://www.restaurante-portugal-muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Restaurante o Portugal
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6110473302915
+      south: 48.1276205697085
+      north: 48.1303185302915
+      west: 11.6083493697085
+    location:
+      lng: 11.6096853
+      lat: 48.1288965
+  address_components:
+    - types:
+        - street_number
+      short_name: 26A
+      long_name: 26A
+    - types:
+        - route
+      short_name: Friedenstraße
+      long_name: Friedenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  international_phone_number: +49 89 46088491
+  place_id: ChIJe4PbyoffnUcROpkLuQWwlL8
+  url: https://maps.google.com/?cid=13804852296423283002
+  username: www.restaurante-portugal-muenchen.de
+endDate: 1729287900000
+claimed: No
+hasLottery: No
+program: []
+type: event
+duration: 105
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc72dd3a6-975b-486a-bddb-416d374b64c0?alt=media&token=11a4c5f9-f511-42c1-b07f-a3df957c43dc
+createdAt: 1727960210425
+artists: []
+price: €12
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1727960210425
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: N'Salsa Latin Band
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F9b341510-c636-4996-a34b-5b4707bffc29?alt=media&token=d4cdcff8-de1b-4c09-8376-57ffb1958020
+  bio: ""
+  id: taiBhSvSncva05wnmKan
+  instagram: https://instagram.com/nsalsalatinband
+  username: nsalsalatinband
+coverSize: square
+eventType: Concert
+hotDeal: No
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: N'Salsa — Live Konzert
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729281600000
+hash: 1729281600000+ChIJe4PbyoffnUcROpkLuQWwlL8
+username: alexrazbakov
+instagram:
+  messageUrl: https://instagram.com/p/DAqbJuXJvUp
+  publishedAt: 1727960407130
+  messageId: DAqbJuXJvUp
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 3
+id: eXK2Ogp7fcD5RQlc084U

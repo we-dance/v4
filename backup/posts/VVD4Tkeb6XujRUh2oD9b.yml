@@ -1,0 +1,165 @@
+endDate: 1732471200000
+sourceUrl: https://www.facebook.com/events/356611800862086/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1718034346000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1718116644000
+facebookId: "356611800862086"
+facebook: https://www.facebook.com/events/356611800862086/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/356611800862086/
+eventType: Party
+providerItemId: e356611800862086@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Tango & Spa Panorama Hotel Oberuckersee/Uckermark Susanne & Rafael Judith
+  & Constantin "
+location: Panorama Hotel am Oberuckersee
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1732208400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Quastweg 2, 17291 Oberuckersee, Germany
+  website: http://www.panorama-see-resort-und-spa.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Panorama See Resort & Spa
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.8819112
+        lat: 53.1967667697085
+      northeast:
+        lng: 13.885268
+        lat: 53.1994647302915
+    location:
+      lng: 13.8827504
+      lat: 53.1983523
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Quastweg
+      long_name: Quastweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Warnitz
+      long_name: Warnitz
+    - types:
+        - locality
+        - political
+      short_name: Oberuckersee
+      long_name: Oberuckersee
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: UM
+      long_name: Uckermark
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BB
+      long_name: Brandenburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "17291"
+      long_name: "17291"
+  international_phone_number: +49 39863 63923
+  place_id: ChIJQXiw7uaLqUcRPSpZ4g0v6SA
+  url: https://maps.google.com/?cid=2371478415465851453
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/rafael.busch
+  name: Rafael Busch
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417951/njmabtrrusryu3tbnlch.jpg
+  bio: ""
+  id: cVrYO5APU72CSTc5A1Vs
+  instagram: ""
+  username: rafael.busch
+claimed: No
+link: ""
+description: "Wir wohnen im 4* Panorama Wellnesshotel direkt gelegen am
+  idyllischen Oberucker- see:  Der großzügige Wellnessbereich mit 1500m2, einem
+  28° warmen Pool, Saunen, Dampfbad und Kneippbecken ist im Preis inklusive.
+
+
+  Wir bieten 2 Gruppen an, die von beiden Paaren Susanne Opitz & Rafael Busch,
+  Judith Preuss & Constantin Rüger unterrichtet werden. Abends gibt es eine
+  Praktika und eine Tangonacht für alle.
+
+
+
+  Preise pro Person:
+
+
+  Hotel-Arrangement\ 
+
+  4 Tage von Do-So, 3x ÜN im DZ ab 416,00€ inkl. HP  pro Person\ 
+
+  3 Tage von Fr-So, 2 x ÜN im DZ ab 298,00€ inkl. HP pro Person\ 
+
+
+  • Übernachtung in einem Doppelzimmer first class mit Seeblick\ 
+
+  • reichhaltiges Frühstücksbüffet im Restaurant Provence inklusive.
+
+  • reichhaltiges Abend-Buffet (Fleisch, Fisch und vegetarisch)
+
+  • Spa Nutzung 1.500qm für den Schwimm-, Sauna- und Ruhebereich inklusive
+
+
+
+  Tangopaket für\ 
+
+
+  4 Tage von Do-So = 250,00€  pro Person\ 
+
+  3 Tage von Fr-So = 200,00€ pro Person\ 
+
+
+  • 8 h / 6h Tangoseminar\ 
+
+  • 3x  / 2x  1h Praktika
+
+  • 3x  / 2  x Tangonacht mit Auftritten
+
+  Anmeldung: Rafael@tangotanzenmachtschoen.de, Tel. 01782903100
+
+
+  \ "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417959/maym6mt5tcvekx1kvn2d.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJG4-bbPyLqUcRkIFeW0YgIQQ
+international: No
+hash: 1732208400000+ChIJQXiw7uaLqUcRPSpZ4g0v6SA
+id: VVD4Tkeb6XujRUh2oD9b

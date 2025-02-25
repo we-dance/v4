@@ -1,0 +1,141 @@
+endDate: 1724277600000
+sourceUrl: https://www.facebook.com/events/1694491041379094/
+createdAt: 1724076028102
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1723989933000
+updatedAt: 1724076028102
+importedAt: 1724076028102
+providerUpdatedAt: 1723989933000
+facebookId: "1694491041379094"
+facebook: https://www.facebook.com/events/1694491041379094/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1694491041379094/
+eventType: Party
+providerItemId: 47821-1724266800-1724277600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Alagút Tető, Alagút utca, Budapest, 1016, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724266800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Schuldamm 2, 21702 Ahlerstedt, Germany
+  website: https://www.eventhall-ahrensmoor.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Event Hall Ahrensmoor
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.487648919708498
+        lat: 53.3945334697085
+      northeast:
+        lng: 9.490346880291503
+        lat: 53.3972314302915
+    location:
+      lng: 9.488868100000001
+      lat: 53.3957589
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Schuldamm
+      long_name: Schuldamm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ahrensmoor
+      long_name: Ahrensmoor
+    - types:
+        - locality
+        - political
+      short_name: Ahlerstedt
+      long_name: Ahlerstedt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: STD
+      long_name: Landkreis Stade
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "21702"
+      long_name: "21702"
+  place_id: ChIJ2Y0gOAxzsUcRiFqbe6HEsQg
+  url: https://maps.google.com/?cid=626498021023767176
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/danzamorevents
+  name: DanzAmor Events
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1723039239/lgn86mot6omefrignygf.jpg
+  bio: ""
+  id: BiJKr6UXJksM49zjv35S
+  instagram: ""
+  username: danzamorevents
+claimed: No
+link: ""
+description: >-
+  🌞 Sunset Bachata Party 3.
+
+
+  Várhatóan a következő napokon lesz még buli:
+
+
+  Szeptember: 11, 18 , 25
+
+
+  💃🕺 mini workshop: 19:00-19:30-ig (all level)
+
+  📌 Helyszín: Alagút tető (Clark Ádám tértől 2 perc sétára az alagút jobb oldalán található lépcsőn közelíthető meg.)
+
+  🎶 Zene: 100% Bachata a legjobb és legfrissebb válogatásokkal.
+
+  A részvétel ingyenes. Támogatást elfogadunk, amit a hangfalnál lévő dobozban helyezhetsz el.
+
+  Kövess minket az esemény oldalunkon a legfrissebb infókért:
+
+  https://www.facebook.com/danzamorevents
+
+  A mosdó a sikló lábánál található, ami 20:00-ig van nyitva. (250 huf)
+
+  Az eseményen kép és hangfelvételeket készíthetnek, amelyeken, mint látogatók vagy résztvevők feltűnhetnek illetve marketing és promóciós céllal felhasználhatjuk.
+
+  Az eseményen mindenki a saját felelősségére vesz részt. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724076043/ooxeg1jekrrifqykyiul.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Sunset Bachata Party 3. | DanzAmor
+online: No
+place: ChIJ6ebCOVhysUcRlNoYOYhGxGo
+international: No
+hash: 1724259600000+ChIJ2Y0gOAxzsUcRiFqbe6HEsQg
+id: zL3H4gfp0M8vWViBDxNx

@@ -1,0 +1,97 @@
+sourceUrl: https://facebook.com/events/s/party-zan-kiz/1022581936105523/
+createdAt: 1720353335863
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+viewsCount: 1
+endDate: 1720468800000
+claimed: No
+link: ""
+description: |-
+  100% Urban kiz.
+  A dinamikus zenék kedvelőinek.
+
+  Helyszín: a kilátó terasz alatti rész.
+program: []
+source: facebook
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720353343/a7sozyy7tung9pjsnfd6.jpg
+artists: []
+price: ""
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0ADPk3dod2BMFQLaUwnDPqfVaBx87avEgx1EaXSyKYLMQdZed6GCpLaJhLHxL2D83l
+  name: Balázs Kovács
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444445/pln1gczslkir2ggjxcgy.jpg
+  bio: ""
+  id: 8m0Xj0oA35Qm3kbUoLVg
+  instagram: ""
+  username: balazs.kovacs
+facebook: https://www.facebook.com/events/1022581936105523/
+facebookId: "1022581936105523"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Party-zán Kiz
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1720458000000+ChIJTaDBFjfcQUcRdMhSazjKw_A
+startDate: 1720458000000
+errorCode: no_event
+error: No event data found, please verify that your URL is correct and the event
+  is accessible without authentication
+duration: 180
+venue:
+  website: https://www.kozterkep.hu/~/1873/Filozofiai_kert_Budapest_2010.html
+  formatted_address: Budapest, 1016 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Garden of Philosophers
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.03805291970849
+        lat: 47.4879282197085
+      northeast:
+        lng: 19.0407508802915
+        lat: 47.49062618029149
+    location:
+      lng: 19.0394019
+      lat: 47.4892772
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: District I.
+      long_name: District I.
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1016"
+      long_name: "1016"
+  place_id: ChIJTaDBFjfcQUcRdMhSazjKw_A
+  url: https://maps.google.com/?cid=17348932533228849268
+  username: www.kozterkep.hu
+hasLottery: ""
+artistsList: []
+id: aUvRvyb0yIiTYphGxNwq
+type: event
+updatedAt: 1720353429414

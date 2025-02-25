@@ -1,0 +1,93 @@
+venue:
+  formatted_address: Ulitsa Antonova-Ovseyenko, Sankt-Peterburg, Russia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Ulitsa Antonova-Ovseyenko
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 30.4666437802915
+      south: 59.90640991970849
+      north: 59.9091078802915
+      west: 30.4639458197085
+    location:
+      lng: 30.4652948
+      lat: 59.9077589
+  address_components:
+    - types:
+        - route
+      short_name: Ulitsa Antonova-Ovseyenko
+      long_name: Ulitsa Antonova-Ovseyenko
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Nevskiy rayon
+      long_name: Nevskiy rayon
+    - types:
+        - locality
+        - political
+      short_name: СПБ
+      long_name: Sankt-Peterburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nevskiy
+      long_name: Nevskiy
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Санкт-Петербург
+      long_name: Санкт-Петербург
+    - types:
+        - country
+        - political
+      short_name: RU
+      long_name: Russia
+  url: https://maps.google.com/?q=Ulitsa+Antonova-Ovseyenko,+Sankt-Peterburg,+Russia&ftid=0x46962e41122799cb:0x396de4fc49b4f916
+  place_id: EjJVbGl0c2EgQW50b25vdmEtT3ZzZXllbmtvLCBTYW5rdC1QZXRlcmJ1cmcsIFJ1c3NpYSIuKiwKFAoSCcuZJxJBLpZGERb5tEn85G05EhQKEgntZUrHjDeWRhH_joSrP2fHbQ
+claimed: No
+link: https://vk.com/zoukrebornfest
+description: |-
+  We are preparing for you:
+  - 20 hours of master classes in 2 Beginner and Intermediate rooms
+  - 18 teachers from all over Russia
+  - 3 powerful parties with photo zones and interior
+  - 14 DJs and a maximum variety of quality music
+  - 5 hours of MK solo directions
+  - professional music video shooting
+  and... a sea of ​​fun and comfort
+type: event
+promo: Yes
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEl5qA4QtXRZyJqt7rSbVkBcP8z42%2Fb5be40c7-4ca8-4275-acc4-ca2819423741?alt=media&token=f9c1bfeb-9aa2-4118-abcc-90ce74c05733
+createdAt: 1656277331278
+artists: []
+price: "- EUR"
+artistsList: []
+place: ChIJ7WVKx4w3lkYR_46Eqz9nx20
+international: No
+updatedAt: 1656277331278
+updatedBy: El5qA4QtXRZyJqt7rSbVkBcP8z42
+visibility: Public
+eventType: Congress
+form: No
+createdBy: El5qA4QtXRZyJqt7rSbVkBcP8z42
+watch:
+  count: 1
+  list:
+    RoberyClaudia: true
+name: Zouk Reborn Fest
+online: No
+username: RoberyClaudia
+endDate: 2022-07-17T20:00
+id: GGhrdFH2KkgBHQaFfqmC
+startDate: 2022-07-14T20:00
+org:
+  instagram: zoukrebornfestival
+  username: zoukrebornfestival
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 26

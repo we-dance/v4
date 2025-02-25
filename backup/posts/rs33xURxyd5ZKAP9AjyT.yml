@@ -1,0 +1,168 @@
+endDate: 1733364000000
+sourceUrl: https://www.facebook.com/events/1099465574544520/?event_time_id=1099465674544510
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1703850800000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1720008122000
+facebookId: "1099465674544510"
+facebook: https://www.facebook.com/events/1099465574544520/?event_time_id=1099465674544510
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1099465574544520/?event_time_id=1099465674544510
+eventType: Party
+providerItemId: e1099465674544510@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Tropical Kizomba Wednesdays @ The Rum Room, Bar Salsa Temple
+location: Bar Salsa Temple
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1733338800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Victoria Embankment, Temple, London WC2R 2PH, UK
+  website: https://www.bar-salsa.com/temple?utm_source=gmb&utm_medium=organic&utm_campaign=homepage
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Salsa - Temple
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.115600230291502
+        lat: 51.5095537697085
+      northeast:
+        lng: -0.112902269708498
+        lat: 51.5122517302915
+    location:
+      lng: -0.114235
+      lat: 51.511005
+  address_components:
+    - types:
+        - route
+      short_name: Victoria Embankment
+      long_name: Victoria Embankment
+    - types:
+        - neighborhood
+        - political
+      short_name: Temple
+      long_name: Temple
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: WC2R 2PH
+      long_name: WC2R 2PH
+  international_phone_number: +44 20 7395 3690
+  place_id: ChIJXc0oNrQEdkgRKBgunDHdh58
+  url: https://maps.google.com/?cid=11495399779029882920
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/RVdanceco
+  name: Rhythm & Vibes Dance Co - Kizomba, Salsa & Bachata Classes in London
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621885/jqvbpeem7eyrennipzmt.jpg
+  bio: ""
+  id: JDMb57PRXbnJvE2fSl7Z
+  instagram: ""
+  username: RVdanceco
+claimed: No
+link: https://rvdance.co.uk/shop/
+description: |-
+  Tropical Kizomba 🌴🍹- Every Wednesday 
+
+  **NO ID - NO ENTRY**
+  @ Bar Salsa Temple 🎊 Top Instructors & Dj's every week - Party till 2am
+
+  AMAZING DANCE LESSONS 💃
+  •7:30PM-9:30PM
+  •Absolute Beginners welcome 
+  •Kizomba & Semba
+
+  PARTY 9:30PM - 2AM
+  Free entry Before 9pm 🥳
+  Music Policy: Kizomba, Semba, Ghetto Zouk, Tarraxinha, Kompa & more
+
+  Plus Salsa & Bachata classes and party in separate room rvery Wednesday
+
+  TICKETS:
+  https://rvdance.co.uk/shop/
+
+  Option 1 - SAVE 40%
+  Newcomer discount offer!
+  (new students only - one time use)
+  - First 5 nights for £35
+
+  Option 2 - SAVE UP TO 25%
+  5 night pass £50 or 10 night pass £90
+
+  Option 3:
+  Drop in: 2hr classes & party only £12❗
+
+
+  🥂 SUPER DRINKS DEALS 🍹
+  - £3 BEERS, CIDERS & SINGLES W/ MIXER
+  - £4.25 DOUBLES 😱🤩
+
+  FULL DETAILS:
+  https://rvdance.co.uk/dance-classes-london/kizomba-classes-london/
+
+  BAR SALSA TEMPLE, WC2R 2PH
+  CALL: 07528722813
+
+  #kizombalondon  #kizombapartylondon #kizombaclasseslondon #kizombaparty
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417946/uxljv1zpdrkkou1lgurx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ88-2aip_bIcRpk0rAw_csWI
+international: No
+hash: 1733338800000+ChIJXc0oNrQEdkgRKBgunDHdh58
+id: rs33xURxyd5ZKAP9AjyT

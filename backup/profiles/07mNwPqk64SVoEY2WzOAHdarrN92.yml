@@ -1,0 +1,32 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1647434026549
+locales:
+  de: true
+createdBy: 07mNwPqk64SVoEY2WzOAHdarrN92
+name: Alex.T
+place: ChIJnxyEFIQbmUcRjOYktHot_tY
+username: Alex.T
+pwaUsed: false
+gender: Male
+partner: ""
+permission: ""
+contacts: ""
+updatedAt: 1647434073326
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+lastLoginAt: 1650798593846
+daysUsed: 2
+id: 07mNwPqk64SVoEY2WzOAHdarrN92

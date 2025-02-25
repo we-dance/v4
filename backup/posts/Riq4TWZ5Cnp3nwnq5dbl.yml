@@ -1,0 +1,125 @@
+endDate: 1719529200000
+sourceUrl: https://www.facebook.com/events/785707207028998/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717767910000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1717867667000
+facebookId: "785707207028998"
+facebook: https://www.facebook.com/events/785707207028998/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/785707207028998/
+eventType: Festival
+providerItemId: e785707207028998@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Pré-soirée Annecy bachata Lake festival - 27 juin à La Seiche
+location: La Seiche Sevrier
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719509400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 35 Rte de Piron, 74320 Sévrier, France
+  website: https://laseiche.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Le Marché de la Seiche
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.149224969708498
+        lat: 45.8445279197085
+      northeast:
+        lng: 6.151922930291502
+        lat: 45.8472258802915
+    location:
+      lng: 6.150692299999998
+      lat: 45.8459422
+  address_components:
+    - types:
+        - street_number
+      short_name: "35"
+      long_name: "35"
+    - types:
+        - route
+      short_name: Rte de Piron
+      long_name: Route de Piron
+    - types:
+        - locality
+        - political
+      short_name: Sévrier
+      long_name: Sévrier
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haute-Savoie
+      long_name: Haute-Savoie
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "74320"
+      long_name: "74320"
+  international_phone_number: +33 4 50 11 11 11
+  place_id: ChIJ52zI5BWRi0cRgSkxf5gEj8M
+  url: https://maps.google.com/?cid=14091486812081039745
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546494439
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/lemarchedelaseiche
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546494/dmptcl1aondd8in5crzp.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546494439
+  owned: false
+  name: La Seiche Sevrier
+  place: ChIJbfFyMEKQi0cRVZBfyHWzXpE
+  updatedAt: 1718546494439
+  username: lemarchedelaseiche
+claimed: No
+link: ""
+description: >-
+  🕺💃 SAVE THE DATE : JEUDI 27 JUIN PRÉ-SOIRÉE ANNECY BACHATA LAKE FESTIVAL À
+  LA SEICHE (SEVRIER, 74)
+
+
+  Pré-soirée Annecy bachata Lake festival : Cours de Bachata avec Roch et Coline de 19h30 à 20h30, puis soirée BSK avec DJ Will jusqu'à 1h du matin. Entrée = 10 €, cours compris.
+
+
+  #bachata #festival #annecy #BSK #sevrier #hautesavoie
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546495/pdzmie3ncyf1gux2ghxc.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJbfFyMEKQi0cRVZBfyHWzXpE
+international: No
+hash: 1719509400000+ChIJ52zI5BWRi0cRgSkxf5gEj8M
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FRiq4TWZ5Cnp3nwnq5dbl.png?generation=1718546513176342&alt=media
+bookmarks: 1
+id: Riq4TWZ5Cnp3nwnq5dbl

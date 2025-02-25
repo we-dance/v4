@@ -1,0 +1,48 @@
+endDate:
+  _seconds: 1628103600
+  _nanoseconds: 0
+link: www.thejoyavirtual.de/danceclasses
+type: event
+duration: "120"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fq5lJoRNRwYODGCZ2c4qCtTg3WgS2%2F7b5425f5-c987-400f-a1db-95a7a9a2ccc0?alt=media&token=628ef531-b433-420a-8407-3258c537a1ba
+createdAt: 1627295726248
+watchersCount: 0
+price: 10€
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 7SJpmCcgif3o1u42zzDX
+updatedAt: 1627295726248
+address: Schwanthalerhöhe
+updatedBy: q5lJoRNRwYODGCZ2c4qCtTg3WgS2
+visibility: Public
+eventType: Course
+form: Yes
+createdBy: q5lJoRNRwYODGCZ2c4qCtTg3WgS2
+commentsCount: 0
+name: "THE JOYA COLLECTIVE DANCE TRAINING "
+online: No
+styles:
+  Contemporary:
+    level: Interested
+    highlighted: false
+    selected: true
+  Commercial:
+    level: Interested
+    highlighted: false
+    selected: true
+  Jazz:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-04T17:00:00.000Z
+username: theJOYAcollective
+viewsCount: 53

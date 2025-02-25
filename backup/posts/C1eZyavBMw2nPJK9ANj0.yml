@@ -1,0 +1,128 @@
+endDate: 1723435200000
+sourceUrl: https://www.facebook.com/events/1523823891800941/
+createdAt: 1718373634033
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712074782000
+updatedAt: 1718373634033
+importedAt: 1718373634033
+providerUpdatedAt: 1712074782000
+facebookId: "1523823891800941"
+facebook: https://www.facebook.com/events/1523823891800941/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1523823891800941/
+eventType: Party
+providerItemId: e1523823891800941@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BerlinSalsaMarathon 2024
+location: Gaststätte Tegeler Seeterrassen
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723219200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Wilkestraße 1, 13507 Berlin, Germany
+  website: http://www.tegeler-seeterrassen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Tegeler Seeterrassen
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.2734332697085
+        lat: 52.5871321197085
+      northeast:
+        lng: 13.2761312302915
+        lat: 52.5898300802915
+    location:
+      lng: 13.2745627
+      lat: 52.5884509
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Wilkestraße
+      long_name: Wilkestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Reinickendorf
+      long_name: Bezirk Reinickendorf
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "13507"
+      long_name: "13507"
+  international_phone_number: +49 30 4338001
+  place_id: ChIJi-T_7kRUqEcRs8K_DcmfeBo
+  url: https://maps.google.com/?cid=1907450128059318963
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718373663470
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/All-You-Can-Dance-Berlin-Salsa-Marathon/100063602169028/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718373663/nly3nzhtdjxctskeughq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718373663470
+  owned: false
+  name: All You Can Dance - Berlin Salsa Marathon
+  place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+  updatedAt: 1718373663470
+  username: all.you.can.dance.-.
+claimed: No
+link: ""
+description: >-
+  Join us for our fabulous BerlinSalsaMarathon 2024!
+
+  Enjoy blissful hours of social dancing at our beautiful waterfront location in Berlin with excellent DJs, awesome live music and a whole bunch of lovely people!
+
+  Registration and all details to be found on www.berlinsalsamarathon.com :-D
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718373665/wazbmazmcixynjoe2nb8.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1723219200000+ChIJi-T_7kRUqEcRs8K_DcmfeBo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FC1eZyavBMw2nPJK9ANj0.png?generation=1718373681406085&alt=media
+viewsCount: 2
+id: C1eZyavBMw2nPJK9ANj0

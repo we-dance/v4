@@ -1,0 +1,128 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: Area 3
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+endDate: 2022-08-17T22:59
+claimed: No
+type: event
+promo: ""
+duration: 60
+cover: ""
+createdAt: 1660760771753
+artists:
+  - instagram: https://instagram.com/djmixmillion
+    username: djmixmillion
+  - instagram: https://instagram.com/saulkizomba
+    username: saulkizomba
+  - instagram: https://instagram.com/djremcyofficial
+    username: djremcyofficial
+  - instagram: https://instagram.com/dj.el.momo
+    username: dj.el.momo
+  - {}
+price: 0 EUR
+artistsList:
+  - djmixmillion
+  - saulkizomba
+  - djremcyofficial
+  - dj.el.momo
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1660760771753
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Fajul KizzTalk
+  bio: Urban Kiz & Afro Instructor
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+  instagram: https://instagram.com/kizztalk_
+  id: yCVXNW3rN1RPktmCXpXldFi57pr2
+  username: kizztalk
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    undefined: true
+name: UrbanKiz & Tarraxxo
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxinha:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-08-17T20:00
+username: alexrazbakov
+viewsCount: 19
+id: lsr8WQ2BwhvXJzSffVeg

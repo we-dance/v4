@@ -1,0 +1,196 @@
+endDate: 1715549400000
+sourceUrl: https://www.facebook.com/events/1340919883127495/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712693435000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1713173010000
+facebookId: "1340919883127495"
+facebook: https://www.facebook.com/events/1340919883127495/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1340919883127495/
+eventType: Party
+providerItemId: e1340919883127495@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SBK | XXXL LATIN PARTY | 3 AREA'S | 3 WORKSHOPS |
+location: Café Van Buren
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715533200000
+facebookUrlsCount: 1
+username: Aina
+errorCode: ""
+error: ""
+venue:
+  formatted_address: Molenstraat 89, 6511 HC Nijmegen, Netherlands
+  website: http://www.cafevanburen.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Café Van Buren
+  geometry:
+    viewport:
+      southwest:
+        lng: 5.860546169708497
+        lat: 51.84212821970851
+      northeast:
+        lng: 5.863244130291502
+        lat: 51.84482618029151
+    location:
+      lng: 5.8619581
+      lat: 51.84359180000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "89"
+      long_name: "89"
+    - types:
+        - route
+      short_name: Molenstraat
+      long_name: Molenstraat
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Nijmegen-Centrum
+      long_name: Nijmegen-Centrum
+    - types:
+        - locality
+        - political
+      short_name: Nijmegen
+      long_name: Nijmegen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Nijmegen
+      long_name: Nijmegen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: GE
+      long_name: Gelderland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 6511 HC
+      long_name: 6511 HC
+  international_phone_number: +31 24 323 4168
+  place_id: ChIJiXxxslwIx0cRxyRGj-BgaWw
+  url: https://maps.google.com/?cid=7811881546243515591
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715440835622
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Salsakardoof
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715440835/h75awkrfhwulcfizqnkn.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715440835622
+  owned: false
+  name: SBK Aan De Waal
+  place: ChIJO6Ub_XgIx0cR8xO0gvNuHuc
+  updatedAt: 1715440835622
+  username: Salsakardoof
+claimed: No
+link: https://ticketl.ink/vSgtK
+description: >
+  Zondag 12 mei     
+
+  3 zalen:
+
+  Zaal 1 = 100% Salsa incl. Salsa workshop
+
+  Zaal 2 = 100% Bachata incl. Bachata workshop
+
+  Zaal 3 = 100% Kizomba incl. Kizomba workshop
+
+  3 WORKSHOPS:
+
+  TIJDEN WORKSHOPS: 19 tot 20 uur in 3 verschillende zalen tegelijkertijd.
+
+  Workshop 1:
+
+  Zaal 1 = Salsa workshop by Watapana Dance company (André &Charlotte)
+
+  Zaal 2 = Bachata sensual workshop by Dansschool Bachata Romantica  - Mia & Sakis (Den Haag)
+
+  Zaal 3 = Tarraxo Urban Kiz Fusion By Narcisse & & Britt)  
+
+  SBK XL PARTY: 20 tot 23.30 uur
+
+  Zaal 1: 100% Salsa mix Area met DJ André Holland
+
+  Zaal 2: 100% Bachata mix Area met DJ'S: Nikita & Jango
+
+  Zaal 3: Kizomba mix Area met DJ Jo Marques 
+
+  Tickets online: €10,00 via: https://ticketl.ink/vSgtK
+
+  (Deurprijs € 12.00
+
+  Fotografie & Videografie: Loridana 
+
+  Adres: Café van Buren – Centrum Nijmegen 
+
+  Molenstraat 89 - 6511HC Nijmegen 
+
+  Extra Info:
+
+  * Gratis parkeren centrum Nijmegen
+
+  Of parkeren: Keizer Karelgarage (50 cent per uur).
+
+  De parkeergarage bevindt zich op 5 minuten loopafstand van Café van Buren
+
+  * Gratis Garderobe
+
+  * Gratis toegang toilet
+
+  * Airco aanwezig
+
+  * Catering aanwezig
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715440837/tbsxbqrkxsrp0p4khnvz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJO6Ub_XgIx0cR8xO0gvNuHuc
+international: No
+hash: 1715533200000+ChIJiXxxslwIx0cRxyRGj-BgaWw
+viewsCount: 1
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuUkGyg62UhB9Tjls8ERw.png?generation=1715440849435612&alt=media
+id: uUkGyg62UhB9Tjls8ERw

@@ -1,0 +1,131 @@
+sourceUrl: https://facebook.com/events/s/salsa-dance-club/3842543269400030/
+createdAt: 1720622002844
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622002844
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Anerley Rd, Anerley, London SE20 8BD, UK
+  website: http://www.cpct.org.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Anerley Town Hall & Business Centre
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.06843043029150203
+        lat: 51.4105170697085
+      northeast:
+        lng: -0.06573246970849797
+        lat: 51.4132150302915
+    location:
+      lng: -0.06719030000000001
+      lat: 51.4118402
+  address_components:
+    - types:
+        - route
+      short_name: Anerley Rd
+      long_name: Anerley Road
+    - types:
+        - neighborhood
+        - political
+      short_name: Anerley
+      long_name: Anerley
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: SE20 8BD
+      long_name: SE20 8BD
+  international_phone_number: +44 20 8676 5666
+  place_id: ChIJbSeE4moBdkgRK7Qp4NB7nSA
+  url: https://maps.google.com/?cid=2350170717601510443
+endDate: 1721080800000
+claimed: No
+link: ""
+description: >-
+  Join us for engaging and energetic salsa dancing lessons catered to three
+  different skill levels, ranging from beginners to advanced dancers.
+
+
+  Time: Every Monday evening (excluding Bank holidays)
+
+
+  Doors Open: 8 pm
+
+  Classes: 8.30 pm-9.30 pm
+
+  After Class Dancing: 9.30 pm-10.30 pm
+
+  Location: Anerley Town Hall (conveniently located opposite Anerley train station)
+
+
+  Cost: £9 payable in cash at the door. No prior booking or partner is required, making it hassle-free to join us and get started on your salsa journey.
+
+
+  Our lessons are designed to provide a fun and inclusive environment for individuals of all skill levels. Whether you're new to salsa or have been dancing for years, our experienced instructors will guide you through step-by-step routines and help you improve your skills.
+
+
+  Come alone or bring friends - everyone is welcome! So mark your calendars and get ready to immerse yourself in the vibrant rhythms of salsa.
+
+
+  We look forward to seeing you on the dance floor!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJY7UlvhIBdkgR6aPoKTcxNwo
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/3842543269400030/?event_time_id=3842543302733360
+facebookId: "3842543302733360"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa Dance Club
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1721070000000+ChIJbSeE4moBdkgRK7Qp4NB7nSA
+startDate: 1721070000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622005/iksniknalcckf9yxlpe6.jpg
+org:
+  owner: ""
+  importedAt: 1720622003515
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/CrystalPalaceCommunityTrust
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720622003/ovs9xnxb6jdckl8e8cyn.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1720622003515
+  owned: false
+  name: CPCT
+  place: ChIJY7UlvhIBdkgR6aPoKTcxNwo
+  updatedAt: 1720622003515
+  username: cpct
+id: uMza82eEuE7zpmFyuelJ

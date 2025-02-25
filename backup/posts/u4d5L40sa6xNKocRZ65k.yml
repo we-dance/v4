@@ -1,0 +1,114 @@
+createdAt: 1708515821642
+updatedBy: cVjsRVNkbNUGnEBwsceSe0cH2R32
+createdBy: cVjsRVNkbNUGnEBwsceSe0cH2R32
+username: Tiana
+venue:
+  formatted_address: 14-16 Faraday St, Manchester M1 1BE, UK
+  website: http://www.studiobeemcr.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Studio Bee Photography Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.234231330291502
+        lat: 53.4812664697085
+      northeast:
+        lng: -2.231533369708498
+        lat: 53.4839644302915
+    location:
+      lng: -2.232929
+      lat: 53.4826379
+  address_components:
+    - types:
+        - street_number
+      short_name: 14-16
+      long_name: 14-16
+    - types:
+        - route
+      short_name: Faraday St
+      long_name: Faraday Street
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M1 1BE
+      long_name: M1 1BE
+  international_phone_number: +44 7855 939129
+  place_id: ChIJowFQsL6xe0gRSIv-feW3nps
+  url: https://maps.google.com/?cid=11213602318488341320
+claimed: No
+link: https://www.fieradance.com/event-details-registration/dance-mastery-with-jessica-emma-latham-barcelona
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Fiera-Dance/61555495028621/
+  name: Fiera Dance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708470847/pv8bmfvt7zg8vba0becs.jpg
+  bio: ""
+  id: 96dUQrdFagHCvmLGuIpF
+  instagram: ""
+  username: fiera.dance
+facebook: https://www.facebook.com/events/700286068925473/
+facebookId: "700286068925473"
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Dance Mastery with Jessica Latham, BCN
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1710590400000+ChIJowFQsL6xe0gRSIv-feW3nps
+startDate: 1710590400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708515825/uqyouqn2ryxvamtxcotg.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fu4d5L40sa6xNKocRZ65k.png?generation=1708515847388763&alt=media
+endDate: 1710608400000
+price: GBP 35
+description: >-
+  Jessica Emma Latham will be joining us all the way from Barcelona, for an
+  incredible weekend of workshops and Matinee Party.
+
+
+  Designed specifically for social dancers aiming to unlock their potential and cultivate a distinctive and evolving dance style.
+artistsList: []
+id: u4d5L40sa6xNKocRZ65k
+place: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+eventType: Workshop
+confirmation: >-
+  To book on to the class/event, please visit www.fieradance.com and sign up!
+  Alternatively, you can pay at the class/event*.
+
+
+  Please feel free to DM us or reach out to us on Instagram. We look forward to seeing you soon! ✨
+
+
+  *Note that on the day prices are higher
+updatedAt: 1708548676968
+viewsCount: 8

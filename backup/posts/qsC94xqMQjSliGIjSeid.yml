@@ -1,0 +1,159 @@
+endDate: 1733335200000
+sourceUrl: https://www.facebook.com/events/2166146290413940/?event_time_id=2166146317080604
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1722910466000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1722917276000
+facebookId: "2166146317080604"
+facebook: https://www.facebook.com/events/2166146290413940/?event_time_id=2166146317080604
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2166146290413940/?event_time_id=2166146317080604
+eventType: Party
+providerItemId: e2166146317080604@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Kizomban ja Semban viikkotunnit - Syksy 2024 Helsinki
+location: Sörnäisten rantatie 33 C, Helsinki, Finland
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1733328000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Sörnäisten rantatie 33c, 00500 Helsinki, Finland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Sörnäisten rantatie 33c
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.9680688197085
+        lat: 60.18627111970849
+      northeast:
+        lng: 24.97076678029151
+        lat: 60.18896908029151
+    location:
+      lng: 24.9693195
+      lat: 60.1876508
+  address_components:
+    - types:
+        - street_number
+      short_name: 33c
+      long_name: 33c
+    - types:
+        - route
+      short_name: Sörnäisten rantatie
+      long_name: Sörnäisten rantatie
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00500"
+      long_name: "00500"
+  place_id: ChIJMzNzknsJkkYR6HhF_hr1w0E
+  url: https://maps.google.com/?q=S%C3%B6rn%C3%A4isten+rantatie+33c,+00500+Helsinki,+Finland&ftid=0x4692097b92733333:0x41c3f51afe4578e8
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417948100
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Helsinki-Kizomba-Studio/61552840134001/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417948/jzwdg0weo3cwtf1exrka.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417948100
+  owned: false
+  name: Helsinki Kizomba Studio
+  place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+  updatedAt: 1728417948100
+  username: helsinki.kizomba.stu
+claimed: No
+link: ""
+description: >
+  📣OVIKOODI 7302📣
+
+
+  Kizomban ja semban viikkotunnit syyskaudella 2024 Carlos Camban ja Annan sekä Svenin kanssa.
+
+
+  Syyskausi 
+
+  4.9.-11.12.2024
+
+
+  Syyskuu: Sven
+
+  Loka-marraskuu: Carlos & Anna
+
+
+  🕖Keskiviikkoisin
+
+  18:00-20:00 keskitaso
+
+
+  📈Taso
+
+
+  Keskitaso: hyvä perusosaaminen. Sosiaalitanssi sujuu jo, ja tanssikilometrejä on alla mukavasti. Kaipaat haastetta ja uusia kuvioita, askelia ja tekniikoita tanssiisi. 
+
+
+  💶Osta paikkasi täältä:
+
+  https://my.weezevent.com/kizomba-semba-syksy-2024-viikkotunnit
+
+
+  📍Helsinki Kizomba Studio
+
+  (ex-Azembora)
+
+  Sörnäisten rantatie 33c
+
+  4. kerros
+
+  Ovikoodi 7302
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417950/piasxiq0ovoazsavqnwm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+international: No
+hash: 1733328000000+ChIJMzNzknsJkkYR6HhF_hr1w0E
+id: qsC94xqMQjSliGIjSeid

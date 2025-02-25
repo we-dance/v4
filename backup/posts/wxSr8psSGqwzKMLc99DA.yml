@@ -1,0 +1,123 @@
+endDate: 1720908000000
+sourceUrl: https://www.facebook.com/events/1869900233521057
+createdAt: 1720533632337
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720473227000
+updatedAt: 1720533632337
+importedAt: 1720533632337
+providerUpdatedAt: 1720473227000
+facebookId: "1869900233521057"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1869900233521057
+eventType: Party
+providerItemId: 10009133-1720897200-1720908000@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Szabadság tér Nyíregyháza, Szabadság tér, Nyíregyháza, 4400
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720897200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Nyíregyháza, Szabadság tér, 4400 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Szabadság tér
+  geometry:
+    viewport:
+      southwest:
+        lng: 21.7181163197085
+        lat: 47.9556813197085
+      northeast:
+        lng: 21.7208142802915
+        lat: 47.9583792802915
+    location:
+      lng: 21.7194653
+      lat: 47.9570303
+  address_components:
+    - types:
+        - route
+      short_name: Szabadság tér
+      long_name: Szabadság tér
+    - types:
+        - locality
+        - political
+      short_name: Nyíregyháza
+      long_name: Nyíregyháza
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "4400"
+      long_name: "4400"
+  place_id: ChIJa1wezb2fOEcR53pY7DR3LlQ
+  url: https://maps.google.com/?q=Ny%C3%ADregyh%C3%A1za,+Szabads%C3%A1g+t%C3%A9r,+4400+Hungary&ftid=0x47389fbdcd1e5c6b:0x542e7734ec587ae7
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/euphoria.dance.hun
+  name: Euphoria Dance Studio - Táncvilág Stúdió
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902719/pcqhj3gvgsvqydj3nfwy.jpg
+  bio: ""
+  id: FjusBbgj4lQjYyxBvyzK
+  instagram: ""
+  username: euphoria.dance.hun
+claimed: No
+facebook: https://www.facebook.com/events/1869900233521057/
+link: ""
+description: >-
+  Megismételjük a tavalyi hatalmas sikerű rendezvényt!!
+
+
+  Gyere és kóstolj bele egy fülledt, karibi estébe, ahol a kubai eredetű pörgős, lendületes salsa, a dominikai gyökerekkel rendelkező szexi bachata, és az afrikai, vad kizomba keveredik.
+
+
+  Ha táncolni, kikapcsolódni szeretnél, vagy csak hallgatni és élvezni a latin zenét, és gyönyörködni a táncosokban, akkor itt a helyed!
+
+
+  A belépő... Milyen belépő?? 
+
+  Ez egy utcabál! A részvétel INGYENES! 🙂
+
+
+  Helyszín: Szabadság tér, Nyíregyháza
+
+  A Váci Mihály Kultúrális Központ előtti tér
+
+
+  Időpont: 2024 július 13. szombat 19:00 - 22:00
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720533650/wc3xgjvhy6fbsqjomipk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa-Latin Utcabál Nyíregyházán
+online: No
+place: ChIJ31dXt-efOEcRoBEeDCnEAAQ
+international: No
+hash: 1720890000000+ChIJa1wezb2fOEcR53pY7DR3LlQ
+viewsCount: 3
+id: wxSr8psSGqwzKMLc99DA

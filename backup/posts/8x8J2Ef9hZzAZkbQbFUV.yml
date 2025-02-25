@@ -1,0 +1,122 @@
+venue:
+  website: https://www.kizztalk.de/
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizztalk Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5388055302915
+      south: 48.1232715697085
+      north: 48.1259695302915
+      west: 11.5361075697085
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  international_phone_number: +49 1515 7942042
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+  url: https://maps.google.com/?cid=1174991087505886864
+claimed: No
+link: www.kizztalk.de
+description: >-
+  In diesem Workshop richte ich den Fokus auf Douceur (die Süße) Musik- neben
+  UrbanKiz Technik und Balancetraining gehe ich auf die Verbindung mit dir
+  selbst, deinem Köper und der Musik ein...
+
+
+  Ich freue mich auf dich!
+
+  Liebe Grüße
+
+  Claudia
+program: []
+type: event
+duration: 60
+createdAt: 1691333602500
+artists: []
+price: 15 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100008449750003&sk=about
+  name: ClaudiaLaDanse
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN3eRy8SaP0P5fFWGRHVZK3bUkI03%2Fbf91cfe0-1a30-4adf-973d-76d05807e068?alt=media&token=80798e8b-c816-4224-a1ea-3ee6c1dfa1ec
+  bio: ""
+  id: N3eRy8SaP0P5fFWGRHVZK3bUkI03
+  instagram: https://instagram.com/claudia_la_danse?igshid=YmMyMTA2M2Y=
+  username: ClaudiaLaDanse
+eventType: Workshop
+form: No
+watch:
+  count: 1
+  list:
+    cloudidagmx.net: true
+createdBy: ZZEEHbnfztgVANWfIwuKjSklMQh1
+name: UrbanKiz Ladystyling - OPEN LEVEL
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+username: cloudidagmx.net
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZZEEHbnfztgVANWfIwuKjSklMQh1%2F2141e80f-d716-4428-97fd-1ddf76ce944a?alt=media&token=4b20f42c-cfb6-49eb-a678-80714c9a4486
+id: 8x8J2Ef9hZzAZkbQbFUV
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1697373000000
+startDate: 1697369400000
+updatedAt: 1697301495498
+instagram: {}
+viewsCount: 39

@@ -1,0 +1,158 @@
+isNew: true
+facebookId: "563770929536910"
+facebookUrlsList:
+  - https://www.facebook.com/events/552634717317198/563770929536910/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730473247997
+updatedAt: 1730473247997
+importedAt: 1730473247997
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48634-1731096000-1731106800@latinfo.hu
+providerCreatedAt: 1730356383000
+providerUpdatedAt: 1730356383000
+startDate: 1731096000000
+endDate: 1731106800000
+sourceUrl: https://www.facebook.com/events/552634717317198/563770929536910/
+location: Hölgyválasz Dancestudio, Paulay Ede u. 41., Budapest, 1061, Hungary
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "41"
+      short_name: "41"
+      types:
+        - street_number
+    - long_name: Paulay Ede utca
+      short_name: Paulay Ede u.
+      types:
+        - route
+    - long_name: VI. kerület
+      short_name: VI. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1061"
+      short_name: "1061"
+      types:
+        - postal_code
+  formatted_address: Budapest, Paulay Ede u. 41, 1061 Hungary
+  geometry:
+    location:
+      lat: 47.5019834
+      lng: 19.0600525
+    viewport:
+      northeast:
+        lat: 47.50334923029149
+        lng: 19.0613386802915
+      southwest:
+        lat: 47.50065126970849
+        lng: 19.0586407197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +36 1 413 7643
+  name: Hölgyválasz Stúdió Táncoktatás
+  place_id: ChIJKU465WvcQUcRf9_6F60QmWg
+  url: https://maps.google.com/?cid=7537073786998939519
+  website: http://www.holgyvalasz.hu/
+visibility: Public
+org:
+  createdAt: 1730473276114
+  importedAt: 1730473276114
+  updatedAt: 1730473276114
+  source: facebook
+  name: Salsa Diabólica
+  facebook: https://www.facebook.com/@salsadiabolica/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1730473276/afedghngmnqqv83ed2ep.jpg
+  username: "@salsadiabolica/"
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+claimed: No
+facebook: https://www.facebook.com/events/552634717317198/?event_time_id=563770929536910
+link: ""
+description: >
+  A gyakorló este lényege, hogy  tanári felügyelet mellett gyakorolhattok, lehet
+  kérdezni, ha valamelyik figurával lépéssel gond van, ha egyéb kérdés van azt
+  is megválaszolják az oktatók.
+
+  A SALSA órákon tanultak a következő alkalomra már egy kicsit feledésbe merülhetnek. “Rendes” salsa buliba pedig még nem mertek lemenni, mert ott már mindenki “profi”. Ezek miatt hoztuk létre a gyakorló estet, ami átmenet egy normál salsa óra és egy „rendes” salsa buli között!
+
+  Mindenkit várunk szeretettel aki tanári segítséggel szeretne ismételni, táncolni!
+
+
+  Szint: elsősorban kezdő-középhaladó salsásokat várunk, de természetesen bárki jöhet, aki gyakorolni szeretne!
+
+
+  Helyszín: Hölgyválasz tánciskola Térkép, odajutás és információ a helyszínről itt! (1061 Budapest Paulay E. 41)
+
+  A belépő ára: Salsa Diabólicás bérlettel 90 percnyi bérletkocka, bérlettel nem rendelkezőknek 2.000 Ft.-
+
+  Fizetni lehet tehát: KP-ben, Bankkártyával vagy Diabólicás bérlettel, melyen van 90 percnyi hely (bérletvásárlás gyakorló esten NEM lehetséges!)
+
+
+  Salsa Gyakorló est (2 hetente): 20:00-23:00- ig
+
+  Tanárok:
+
+  11.08. Csabi, Zsani
+
+  11.22. Csabi, Juli
+
+
+  Fontos:
+
+  -A gyakorló estre a belépő megfizetését egy karszalag felhelyezésével adminisztrálják! Tehát a gyakorló esten karszalag viselése kötelező, mely a tanárok által ellenőrizhető! Akin nincs karszalag, azt jogukban áll kiküldeni!
+
+  -A terem kapacitása véges, a későn érkezők számoljanak a NEM bejutás eshetőségével!
+
+  -A beléptetést hasonlóan zajlik, mint egy normál órára, bérlet vagy napijegy váltása a tanároknál!
+
+  Parketta: van
+
+  Légtechnika a termekben: van
+
+  Büfé: nincs (érdemes tehát vizet magatokkal hozni)
+
+  Ruhatár: nincs (de van öltöző szekrény)
+
+  Öltöző szekrény: van és ingyenes
+
+  Öltöző: van
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Salsa KEZDŐ-KÖZÉPHALADÓ gyakorló est pénteken (2024. november)!
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1731092400000+ChIJKU465WvcQUcRf9_6F60QmWg
+id: wLscYmmGuv2JTdOXp97E

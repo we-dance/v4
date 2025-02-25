@@ -1,0 +1,75 @@
+createdAt: 1720626210964
+website: http://www.lacasonadelson.com/
+rooms: ""
+address:
+  formatted_address: "Empedrado | Empedrado # 411 entre Compostela y Aguacate, La
+    Havane 10100, Cuba, 411 Empedrado, La Habana 10100, Cuba"
+  website: http://www.lacasonadelson.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: La Casa del Son
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -82.35397356970849
+      south: 23.1384082197085
+      north: 23.1411061802915
+      west: -82.3566715302915
+    location:
+      lng: -82.3553077
+      lat: 23.1397181
+  address_components:
+    - types:
+        - street_number
+      short_name: "411"
+      long_name: "411"
+    - types:
+        - route
+      short_name: Empedrado
+      long_name: Empedrado
+    - types:
+        - locality
+        - political
+      short_name: La Habana
+      long_name: La Habana
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Centro Habana
+      long_name: Centro Habana
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: La Habana
+      long_name: La Habana
+    - types:
+        - country
+        - political
+      short_name: CU
+      long_name: Cuba
+    - types:
+        - postal_code
+      short_name: "10100"
+      long_name: "10100"
+  international_phone_number: +53 7 8616179
+  place_id: ChIJHwfd0a95zYgRR0yk1utwaAw
+  url: https://maps.google.com/?cid=894088684253760583
+gender: Other
+phone: +53 7 8616179
+name: La Casa del Son
+updateAt: 1720626210964
+map: ""
+username: www.lacasonadelson.com
+place: ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+offers: []
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+instagram: https://www.instagram.com/casonadelson_enlahabana/
+team: []
+id: Yxe1jK9HDjGHGVdPSfso
+import: importing
+venueType: DanceStudio
+type: Venue
+importError: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4d8bc1fa-b32a-4e92-8125-61b83943c81a?alt=media&token=1c9956fa-42dd-411a-a8ed-7631673bee8b
+bio: The best dance classes in Havana
+updatedAt: 1720626339409
+viewsCount: 4

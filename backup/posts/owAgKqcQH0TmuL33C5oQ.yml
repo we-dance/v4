@@ -1,0 +1,107 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: ""
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  username: pinakothekdermoderne
+endDate: 1723228200000
+claimed: No
+description: First Salsa Caleña Open Air Social in Munich. Let us grow a salsa
+  caleña community together!
+program: []
+type: event
+seriesId: nnyBa9Z0V4xj1yba9qfi
+duration: 150
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJkMWLbe51FNMc9zxxygLirl7Pg32%2Ff9cfcfd8-4471-4a35-bc31-1e7e4d28d782?alt=media&token=6c446dc4-9a23-4391-9d2d-c24d16aa3333
+createdAt: 1721986637016
+artists: []
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: owAgKqcQH0TmuL33C5oQ
+international: No
+updatedAt: 1721986637016
+updatedBy: JkMWLbe51FNMc9zxxygLirl7Pg32
+visibility: Public
+org:
+  username: Salsacalimuc
+eventType: Party
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: JkMWLbe51FNMc9zxxygLirl7Pg32
+watch:
+  count: 1
+  list:
+    Salsacalimuc: true
+name: Social Caleño
+online: No
+styles:
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723219200000
+hash: 1723219200000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+username: Salsacalimuc
+viewsCount: 7

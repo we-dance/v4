@@ -1,0 +1,44 @@
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Barer str. 40
+endDate:
+  _seconds: 1602784800
+  _nanoseconds: 0
+city: Munich
+link: ""
+description: |
+  Learning easy movements and enjoying the nice Reggae and Dancehall vybes
+
+  ### About teacher
+
+  <w-profile username="oxy" />
+eventType: Course
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FzPEdeDTnNBZwTdhFyRrvCBTMUd52%2Fd3c2d253-da64-4b6d-842d-8410a79f6769?alt=media&token=7ac44cef-d967-4595-bb47-b8e5f28e9401
+organiser: Oxy Dancer
+createdAt: 1601375541652
+watchersCount: 0
+createdBy: zPEdeDTnNBZwTdhFyRrvCBTMUd52
+commentsCount: 0
+name: OPEN FREE DANCEHALL CLASS
+commentsLast: ~
+styles:
+  Dancehall:
+    level: Interested
+    selected: true
+id: gDNwyu7wHWULE3oRvMxe
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate:
+  _seconds: 1602781200
+  _nanoseconds: 0
+username: oxy
+updatedAt: 1617065901697
+viewsCount: 51

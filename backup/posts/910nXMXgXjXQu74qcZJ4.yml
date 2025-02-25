@@ -1,0 +1,191 @@
+createdAt: 1705954512668
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/557705496468569/
+username: alexrazbakov
+venue:
+  formatted_address: 6278 Glenwood Ave Suite 200, Raleigh, NC 27612, USA
+  website: https://www.asteptogold.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: A Step To Gold International Ballroom
+  geometry:
+    viewport:
+      southwest:
+        lng: -78.70484403029151
+        lat: 35.8569392697085
+      northeast:
+        lng: -78.7021460697085
+        lat: 35.8596372302915
+    location:
+      lng: -78.703648
+      lat: 35.8581419
+  address_components:
+    - types:
+        - subpremise
+      short_name: Suite 200
+      long_name: Suite 200
+    - types:
+        - street_number
+      short_name: "6278"
+      long_name: "6278"
+    - types:
+        - route
+      short_name: Glenwood Ave
+      long_name: Glenwood Avenue
+    - types:
+        - neighborhood
+        - political
+      short_name: Northwest Raleigh
+      long_name: Northwest Raleigh
+    - types:
+        - locality
+        - political
+      short_name: Raleigh
+      long_name: Raleigh
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wake County
+      long_name: Wake County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NC
+      long_name: North Carolina
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "27612"
+      long_name: "27612"
+  international_phone_number: +1 919-899-2906
+  place_id: ChIJ7UQtwP_2rIkRJp0iTi2Y3x0
+  url: https://maps.google.com/?cid=2152606467258228006
+endDate: 1714345200000
+claimed: No
+link: https://nczm.square.site/registration
+description: >-
+  WE LOVE ZOUK MUSIC!! Top North America DJs, and dancers from all over North
+  America are coming together in the City of Oaks Raleigh, NC to TAKE OFF to
+  Zouk Heaven April 26-28, 2024.
+
+
+  30+ hours of Brazilian zouk social with 8 top & experienced djs
+
+  Venue & hotel 15 minute uber from rdu airport
+
+  Great hotel prices and location (3min walk to venue)
+
+  2400sq ft of dance floor
+
+
+  Registration now open
+
+  https://nczm.square.site/registration
+
+
+  Friday and Saturday Marathon MODE ON. Once we start dancing on Saturday 4/27 3pm the music does not stop till at 4am, 13 hours non-stop!! 
+
+
+  PROGRAM
+
+  4/25 Thursday Pre-Party 9pm - 1am
+
+  4/26 Friday Night Social 9pm - 4am
+
+  4/27 2hr Intensive Zouk Workshop with Elijah 1pm - 3pm
+
+  4/27 Saturday Marathon 3pm - 4am
+
+  4/28 Sunday Closing Day Social 2pm - 7pm
+
+  4/28 Sunday After Party (Tentative)
+
+  Schedule subject to change
+
+
+  Pre-Party and Sunday After Party not included in Full Pass
+
+  2hr Intensive Zouk Workshop with Elijah not included in Full Pass
+
+
+  DJ Team:
+
+  Swift - Raleigh, NC
+
+  Hex - Miami, FL
+
+  Dr. Óleo - Houston, TX
+
+  Tiger - Fort Worth, TX
+
+  Mbrace - Scottsdale, AZ
+
+  WarHoll - Richmond, VA
+
+  SIIX - Fayetteville, NC
+
+  Ocho Z - Washington, DC
+
+
+  VENUE
+
+  A Step To Gold International Ballroom
+
+  6278 Glenwood Ave Suite 200, Raleigh, NC 27612
+
+
+  HOTEL
+
+  Best Western Plus Raleigh Crabtree Valley Hotel
+
+  6209 Glenwood Ave, Raleigh, NC 27612
+
+
+  We are so excited to continue providing wonderful reunions for our family of Zouk dancers here on the East Coast. Our goals are to create an experience with a diverse group of dancers from all over North America and maintain an even lead/follow ratio. 
+
+
+  Produced by Zouk Energy Events, organizer of the Boston International Zouk Festival 2022 and DC Zouk Marathon 2023
+
+
+  #NCZM2024 #nczoukmarathon #welovezoukmusic
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJyRptaf32rIkRvBAkWmViREU
+international: No
+visibility: Public
+facebookId: "557705496468569"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: NC Zouk Marathon 2024
+online: No
+hash: 1714093200000+ChIJ7UQtwP_2rIkRJp0iTi2Y3x0
+startDate: 1714093200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705954521/wfwimztcefe2hfo4eljv.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F910nXMXgXjXQu74qcZJ4.png?generation=1705954544894891&alt=media
+org:
+  facebook: https://facebook.com/zoukn
+  username: zoukn
+artistsList: []
+id: 910nXMXgXjXQu74qcZJ4
+updatedAt: 1705954627973
+styles:
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 16

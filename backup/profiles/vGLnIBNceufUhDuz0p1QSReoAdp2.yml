@@ -1,0 +1,37 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630257785790
+createdBy: vGLnIBNceufUhDuz0p1QSReoAdp2
+name: westmond
+place: ChIJHWx6n04_u0cRRxciWD1jhC8
+username: westmond
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  es: true
+gender: Female
+permission: No
+objectives:
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Afro:
+    level: Beginner
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1630257930655
+visibility: Members
+lastLoginAt: 1637152073645
+daysUsed: 6
+id: vGLnIBNceufUhDuz0p1QSReoAdp2

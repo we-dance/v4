@@ -1,0 +1,224 @@
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  international_phone_number: +49 89 74039681
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  url: https://maps.google.com/?cid=8948474523406618165
+endDate: 1700928000000
+claimed: No
+link: https://www.eventbrite.de/e/munich-bachata-meeting-tickets-750008003127?aff=oddtdtcreator
+description: >-
+  Details
+
+
+  Bachata Lady Styling Bootcamp with Josie
+
+  Sat. November 25th, 2023 2:00 p.m.-5:00 p.m. Salsamás-Pasing
+
+
+  The program in this boot camp includes body isolations, body waves, hand & arm movements. After this Bachata boot camp with Josie, the participants should have a good basis for further development! A Bachata Booster for Bachata Dancers!!!
+
+
+  To take part in the boot camp, we recommend a good sense of tact and knowledge of the Bachata Basics steps.
+
+
+
+
+  === DEUTSCH ===
+
+
+  Bachata Lady-Styling Bootcamp with Josie
+
+  Sa. 25.11.2023 14:00-17:00 Salsamás-Pasing
+
+
+  Zu dem Programm in diesem Bootcamp gehören Body-Isolations, Body-Waves, Hände- & Arme-Bewegungen. Nach diesem Bachata Bootcamp mit Josie, sollten die Teilnehmerinnen eine gute Basis haben, um sich weiter zu entwickeln! Ein Bachata Booster für Bachata Tänzerinnen!!!
+
+
+  Für die Teilnahme an dem Bootcamp empfehlen wir ein sicheres Taktgefühl sowie Kenntnis der Bachata Basics Schritte.
+
+
+  Uhrzeit: 14:00-17:00 Uhr
+
+
+  Ort:
+
+  Salsamás-Pasing - Am Schützeneck 3, 81241 München
+
+
+  Preis:
+
+  Mini Bootcamp = €49 per person
+
+
+  Bitte die Tickets über Eventbrite online buchen. Hier der Link:
+
+  https://www.eventbrite.de/e/munich-bachata-meeting-tickets-750008003127?aff=oddtdtcreator
+
+
+  Weitere Infos unter:
+
+  +4912821669 oder info@salsa-mas.de
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fc4b48d12-c16d-4d5d-b2fa-d6270f89e0fe?alt=media&token=32a48f84-776d-43b9-91a8-21bed85c304f
+createdAt: 1700583900202
+price: 49 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+eventType: Workshop
+confirmation: >-
+  Time: 2:00 p.m. - 5:00 p.m
+
+
+  Location:
+
+  Salsamás-Pasing - Am Schützeneck 3, 81241 Munich
+
+
+  Price:
+
+  Mini Bootcamp = €49 per person
+
+  Please book your tickets online via Eventbrite. Here the link:
+
+  https://www.eventbrite.de/e/munich-bachata-meeting-tickets-750008003127?aff=oddtdtcreator
+
+
+  Further information at:
+
+  +4912821669 or info@salsa-mas.de
+
+
+  === DEUTSCH ===
+
+
+  Uhrzeit: 14:00-17:00 Uhr
+
+
+  Ort:
+
+  Salsamás-Pasing - Am Schützeneck 3, 81241 München
+
+
+  Preis:
+
+  Mini Bootcamp = €49 per person
+
+
+  Bitte die Tickets über Eventbrite online buchen. Hier der Link:
+
+  https://www.eventbrite.de/e/munich-bachata-meeting-tickets-750008003127?aff=oddtdtcreator
+
+
+  Weitere Infos unter:
+
+  +4912821669 oder info@salsa-mas.de
+form: No
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: BACHATA LADY-STYLING BOOTCAMP WITH JOSIE
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1700917200000
+username: Salsamas_Munich
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Pablo De Queiroz
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fea862ce6-c4ca-48be-b269-59c415a30dc7?alt=media&token=4d4f1c09-2dd4-4e7f-aff4-98c21cf81ed1
+    bio: ""
+    id: Gg9bygHaz0NBcUy0NLyz
+    instagram: https://instagram.com/pablo_de_queiroz_salsamas
+    username: pablo_de_queiroz_salsamas
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: https://facebook.com/SalsamasMunich
+  name: Salsamas_Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+  id: h1Q2XunkwqSUqIxinKiNaghTlal1
+  instagram: https://instagram.com/salsamasmunich
+  username: Salsamas_Munich
+artistsList:
+  - pablo_de_queiroz_salsamas
+id: xvzHwRGHjDuZFtA0jKmb
+updatedAt: 1700584072573
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxvzHwRGHjDuZFtA0jKmb.png?generation=1700584274844344&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/Cz6jdmkLtBc
+  publishedAt: 1700584349321
+  messageId: Cz6jdmkLtBc
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 22

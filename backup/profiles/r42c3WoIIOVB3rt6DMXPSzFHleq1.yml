@@ -1,0 +1,30 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628184360964
+locales:
+  de: true
+  sv: true
+  en: true
+  fr: true
+  es: true
+createdBy: r42c3WoIIOVB3rt6DMXPSzFHleq1
+name: jusmisterpi
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: jusmisterpi
+daysUsed: 1
+pwaUsed: false
+gender: Male
+styles:
+  SalsaNewYork:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1628184417820
+lastLoginAt: 1628184450703
+id: r42c3WoIIOVB3rt6DMXPSzFHleq1

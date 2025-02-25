@@ -1,0 +1,60 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628255929871
+createdBy: 3j1PNz6TRbWRw19Fqp11cGNmYrM2
+name: Flap
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Flap
+lastLoginAt: 1628255930038
+daysUsed: 1
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  fr: true
+gender: Male
+permission: No
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  HipHop:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Advanced
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Swing:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Latin:
+    level: Advanced
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Advanced
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1628256213855
+id: 3j1PNz6TRbWRw19Fqp11cGNmYrM2

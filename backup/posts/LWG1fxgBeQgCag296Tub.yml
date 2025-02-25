@@ -1,0 +1,142 @@
+endDate: 1719187200000
+sourceUrl: https://facebook.com/events/s/una-bulla-a-cuban-salsa-extrav/869402281639423/
+createdAt: 1711817788531
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1711814550000
+updatedAt: 1711817788531
+importedAt: 1711817788531
+providerUpdatedAt: 1711814550000
+facebookId: "869402281639423"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/una-bulla-a-cuban-salsa-extrav/869402281639423/
+eventType: Festival
+providerItemId: 6opjedb2coq64b9jc8p66b9kcdi68bb169hj2b9ockq6ccj164pj4dpo6k@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: "UNA BULLA: A Cuban Salsa Extravaganza "
+location: McNabb Community Centre
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719010800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 180 Percy St, Ottawa, ON K1R 6E5, Canada
+  website: https://ottawa.ca/en/residents/facilities/mcnabb-recreation-centre
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: McNabb Recreation Centre
+  geometry:
+    viewport:
+      southwest:
+        lng: -75.7031649302915
+        lat: 45.4077714197085
+      northeast:
+        lng: -75.7004669697085
+        lat: 45.4104693802915
+    location:
+      lng: -75.70215630000001
+      lat: 45.4088499
+  address_components:
+    - types:
+        - street_number
+      short_name: "180"
+      long_name: "180"
+    - types:
+        - route
+      short_name: Percy St
+      long_name: Percy Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Centretown
+      long_name: Centretown
+    - types:
+        - locality
+        - political
+      short_name: Ottawa
+      long_name: Ottawa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Ottawa
+      long_name: Ottawa
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Ottawa
+      long_name: Ottawa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: ON
+      long_name: Ontario
+    - types:
+        - country
+        - political
+      short_name: CA
+      long_name: Canada
+    - types:
+        - postal_code
+      short_name: K1R 6E5
+      long_name: K1R 6E5
+  international_phone_number: +1 613-564-1070
+  place_id: ChIJ4YsMWrMFzkwRhzevFevi29E
+  url: https://maps.google.com/?cid=15121929673135568775
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711817797739
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ottawacasinorueda
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711817798/xsvzl9xpkqlbh4gktunq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711817797739
+  owned: false
+  name: Ottawa Casino Rueda
+  place: ChIJixGuCK4FzkwR2sdKuIM2Xl4
+  updatedAt: 1711817797739
+  username: ottawacasinorueda
+claimed: No
+facebook: https://www.facebook.com/events/869402281639423/
+link: ""
+description: >-
+  Welcome everyone to our 2nd “UNA BULLA!  A Cuban Salsa Extravaganza” scheduled
+  to be held on June 21-22-23, 2024.
+
+
+  This is a three-day Cuba Salsa festival where we will be offering over a dozen hours of of intense workshops in Casino Salsa, Casino Rueda and Afro Cuban. 
+
+
+  FRIDAY, we have in the evening, workshops, performances then social dancing. On SATURDAY, we have workshops all day, Performances by locals and international talents then social dancing in the evening with live band. SUNDAY we have workshops all day and we will end the Festival with an outdoor social (If weather permits).
+
+
+  Mark your calendar. The weekend of June 21-22-23, 2024 will be “muy Caliente” 🔥🔥🔥
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711817799/czjzvze6p9zbricinpej.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJixGuCK4FzkwR2sdKuIM2Xl4
+international: No
+hash: 1719010800000+ChIJ4YsMWrMFzkwRhzevFevi29E
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLWG1fxgBeQgCag296Tub.png?generation=1711817817499921&alt=media
+viewsCount: 1
+id: LWG1fxgBeQgCag296Tub

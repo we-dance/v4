@@ -1,0 +1,129 @@
+venue:
+  formatted_address: Bannwaldallee 14, 76185 Karlsruhe, Germany
+  website: https://mywy.io/havanna-cafe-im-tempel-10235-de.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Havanna Café im Tempel
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.367145880291503
+      south: 49.0010580697085
+      north: 49.0037560302915
+      west: 8.364447919708498
+    location:
+      lng: 8.3657553
+      lat: 49.0023894
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Bannwaldallee
+      long_name: Bannwaldallee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Grünwinkel
+      long_name: Grünwinkel
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76185"
+      long_name: "76185"
+  international_phone_number: +49 176 32214042
+  url: https://maps.google.com/?cid=11150381579485848636
+  place_id: ChIJwW2wAt0Gl0cRPCRQI_gcvpo
+endDate:
+  _seconds: 1653163200
+  _nanoseconds: 0
+claimed: No
+link: https://facebook.com/events/s/salsa-kubana-workshops/326074956328833/
+description: >
+  Salsa Workshop (Timba, Son, Casino PW, Afro, Rumba uvm. mit Fokus auf Technik
+  & Musicality - intermediate/ advanced & Latin Afterparty ab 22:00 Uhr
+type: event
+promo: No
+duration: "120"
+createdAt: 1652705081416
+price: 14 EUR
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+updatedAt: 1652705081416
+updatedBy: WGzKteSTuicJ8SmorZkpJhK6Ic33
+visibility: Public
+facebook: https://facebook.com/events/s/salsa-kubana-workshops/326074956328833/
+eventType: Workshop
+confirmation: Pay at the door.
+form: No
+createdBy: WGzKteSTuicJ8SmorZkpJhK6Ic33
+watch:
+  count: 1
+  list:
+    undefined: true
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-05-21T20:00
+username: Cubania
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FWGzKteSTuicJ8SmorZkpJhK6Ic33%2F40f64690-bbc2-42c8-b23c-222455444c86?alt=media&token=bb98e515-a504-4e58-94c7-04b54f4238a7
+id: BwhycurWJQpnOIPCjqYk
+artists: []
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: havannatempel
+  name: HavannaTempel
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F676fe7bb-f9e7-42d7-b67c-8a7a2dced3f3?alt=media&token=80444719-9eef-488e-b2b8-5ad74b7eff00
+  bio: Die Salsatheka in Karlsruhe
+  instagram: ""
+  id: aXaY8N2ByG2IkqnZSmUw
+  username: HavannaTempel
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBwhycurWJQpnOIPCjqYk.png?generation=1652705866222666&alt=media
+name: "Salsa Workshop intermediate/ advanced  "
+viewsCount: 67

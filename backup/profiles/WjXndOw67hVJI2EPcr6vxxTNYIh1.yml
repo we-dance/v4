@@ -1,0 +1,28 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628360343626
+locales:
+  de: true
+  en: true
+  zh: true
+createdBy: WjXndOw67hVJI2EPcr6vxxTNYIh1
+name: Jinping
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Jinping
+lastLoginAt: 1628360343816
+daysUsed: 1
+pwaUsed: false
+gender: Male
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1628360416641
+id: WjXndOw67hVJI2EPcr6vxxTNYIh1

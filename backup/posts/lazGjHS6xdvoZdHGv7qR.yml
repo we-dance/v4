@@ -1,0 +1,166 @@
+venue:
+  formatted_address: Inselstraße 9, 10179 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "9"
+      short_name: "9"
+    - types:
+        - route
+      long_name: Inselstraße
+      short_name: Inselstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mitte
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10179"
+      short_name: "10179"
+  url: https://maps.google.com/?q=Inselstra%C3%9Fe+9,+10179+Berlin,+Germany&ftid=0x47a84e25cb77a4e5:0x5c203c9415020dd0
+  name: Inselstraße 9
+  geometry:
+    viewport:
+      south: 52.5109626697085
+      north: 52.5136606302915
+      east: 13.4133275302915
+      west: 13.4106295697085
+    location:
+      lng: 13.4118726
+      lat: 52.51225909999999
+  place_id: ChIJ5aR3yyVOqEcR0A0CFZQ8IFw
+endDate:
+  _seconds: 1646485200
+  _nanoseconds: 0
+claimed: No
+link: bachatadominicana.berlin@gmail.com
+type: event
+duration: "120"
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2Fd5eb4ca9-4c07-48e0-aba8-b9eaa93ba48b?alt=media&token=3491e13f-8f6e-4489-b4c8-54ac5331fa42
+createdAt: 1645194276434
+artists: []
+price: Einzelanmeldung 85 EUR / Paaranmeldung 80 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1645194276434
+updatedBy: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2F9e77e9f1-a0e9-4bf0-a720-35a1411799bd?alt=media&token=30fee5b6-8ba0-4d77-9434-23e2f7b6b871
+  name: Nora_Berlin
+  username: Nora_Berlin
+facebook: https://fb.me/e/1F0iYWh44
+eventType: Course
+form: Yes
+createdBy: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+name: "The Essence of Bachata - 6 weeks Fundamental "
+online: No
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2022-03-05T12:00
+username: Nora_Berlin
+watch:
+  count: 0
+  list: {}
+description: >+
+  In diesem 6 wöchigem Kurs erlernst du eine sichere Basis, die du für Bachata
+  Dominicana benötigst.
+
+
+  Wir arbeiten in jeder Kurseinheit an einem neuen Thema und fokussieren uns hierbei auf:
+
+  - verschiedene Basics in Dominican Bachata
+
+  - Body Movement
+
+  - das Führen und Folgen
+
+  - dekoriertes Footwork
+
+  - Musikalität
+
+  - Figuren im Partnerwork (Social Dance)
+
+  - Übungszeit für euch mit individueller Hilfe
+
+
+  Die Themen bauen aufeinander auf und sind sowohl für Anfänger als auch für Mittelstufe Tänzer geeignet.
+
+
+  Ziel des Kurses ist es, dass ihr euch sicher und selbstbewusst beim Tanzen fühlt, alleine und mit eurem Partner. Ihr lernt die Musik besser zu verstehen und den Tanz dadurch mehr zu genießen und zu lieben.
+
+
+  LOCATION:
+
+  Tanzstudio GLOW
+
+  Inselstraße 9 | 10179 Berlin-Mitte
+
+
+
+  TERMINE:
+
+  6X a 2 Stunden
+
+  Samstags 12-14 Uhr
+
+  05.03.22 | 12.03.22 | 19.03.22 | 26.03.22 | 02.04.22 | 09.04.22
+
+
+
+  PREISE:
+
+  Gesamter Kurs
+
+  Einzeln: 85 Euro / Person
+
+  Paar: 80 Euro / Person
+
+
+
+  ANMELDUNG:
+
+  Bitte eine E Mail mit deinem vollständigen Namen und deinem Status (Leader oder Follower) an:
+
+  bachatadominicana.berlin@gmail.com
+
+
+
+  Bei Fragen schreibt mich gerne an
+
+
+id: lazGjHS6xdvoZdHGv7qR
+viewsCount: 38

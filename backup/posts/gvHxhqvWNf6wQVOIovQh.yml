@@ -1,0 +1,132 @@
+endDate: 1750071600000
+sourceUrl: https://www.facebook.com/events/483107970933480/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1719567236000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726513582000
+facebookId: "483107970933480"
+facebook: https://www.facebook.com/events/483107970933480/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/483107970933480/
+eventType: Festival
+providerItemId: e483107970933480@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: CROATIAN SUMMER SALSA FESTIVAL 2025 DISCOUNT CODE🔥DANCINGTOM🔥
+location: Rovinj, Croatia
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1749463200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Rovinj, Croatia
+  website: http://www.rovinj.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.6065125747384
+        lat: 45.01590065493957
+      northeast:
+        lng: 13.73434351743165
+        lat: 45.13155585620012
+    location:
+      lng: 13.6387067
+      lat: 45.0811661
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istria County
+      long_name: Istria County
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417903884
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/DancingTom/100089174073973/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417904/diwm8dfubcwiewcri49v.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417903884
+  owned: false
+  name: DancingTom
+  place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  updatedAt: 1728417903884
+  username: DancingTom
+claimed: No
+link: https://www.crosalsafestival.com/tickets
+description: >+
+  🎉Dear salsa friends, mark your calendars for another extraordinary summer
+  dance holiday! 😃💃🕺
+
+
+  The 21st edition of Croatian Summer Salsa Festival invites you to the one and only 🌴 Rovinj, Croatia 🇭🇷:
+
+
+  📅 09 - 16 June 2025 📅 
+
+
+  Step into a new decade of salsa and bachata dancing and be part of the most fascinating event of summer 2025! 🎉🌞
+
+
+
+  ✅ DISCOUNT CODE👉DANCINGTOM 👈
+
+
+  🎟️ BUY TICKETS HERE:
+
+
+  https://dancingtom.com/events/croatian-summer-salsa-festival-2/
+
+
+  #salsa #salsadancing #salsafestival #croatiansummer #croatiansummersalsafestival #CroatianSalsa #salsamusic #salsadance #salsaromantica #bachata #salsadancers #salsadura #salsadancelessons #salsaboat #bachataboat #partytime #boatparty #rovinj #rovinjcroatia #rovinjmoments #discount #promocode #salseros #salsanight
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417905/hddv53cad9io0xs5k560.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: No
+hash: 1749463200000+ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+id: gvHxhqvWNf6wQVOIovQh

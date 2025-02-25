@@ -1,0 +1,132 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/mambo-in-palace/
+sourceUrl: https://facebook.com/events/411388458570567
+venue:
+  address_components:
+    - long_name: Palác Žofín
+      short_name: Palác Žofín
+      types:
+        - premise
+    - long_name: "226"
+      short_name: "226"
+      types:
+        - street_number
+    - long_name: Slovanský ostrov
+      short_name: Slovanský ostrov
+      types:
+        - route
+    - long_name: Nové Město
+      short_name: Nové Město
+      types:
+        - neighborhood
+        - political
+    - long_name: Praha 1
+      short_name: Praha 1
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Czechia
+      short_name: CZ
+      types:
+        - country
+        - political
+    - long_name: 110 00
+      short_name: 110 00
+      types:
+        - postal_code
+  formatted_address: Palác Žofín, Slovanský ostrov 226, 110 00 Praha 1-Nové Město, Czechia
+  geometry:
+    location:
+      lat: 50.0779055
+      lng: 14.4144582
+    viewport:
+      northeast:
+        lat: 50.0790116302915
+        lng: 14.4158458302915
+      southwest:
+        lat: 50.0763136697085
+        lng: 14.4131478697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +420 224 934 880
+  name: Žofín Palace
+  place_id: ChIJdRBxjPCUC0cRjvjubM4bcfU
+  url: https://maps.google.com/?cid=17685947785065461902
+endDate: 1765789200000
+claimed: No
+link: ""
+description: |-
+  Welcome to Prague, Czech Republic
+  For Mambo and Salsa Lovers 
+  Good Music & Good Dancers & Fantastic Palace 
+  Worldwide Mambo Dancers all around the world 
+
+  3 Days Afternoon Socials 
+  3 Days Night Social till Morning 
+  Mambo Workshops Each Day 3 hours Only ! 
+
+
+  Friday - Saturday - Sunday Program
+  Workshops 12:00 - 15:00 (Each day)
+  Afternoon Socials : 15:00 - 19:00 (Each Day)
+  Night Social : 22:30 - 06:00(Each Days)
+
+
+  Limited Mambo Tickets & Exclusive 
+  400 Followers & 400 Leaders 
+
+  More info Soon 
+
+  Organizer by Deniz Seven 
+  Present by Istanbul Social Dance Marathon
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/t5w1vkcy2eczno4df4yu.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJv6UAH9YkDEcR0f8QiF7UFW4
+international: No
+visibility: Public
+org:
+  id: HdMSaw3Wx6QHL6sUxaC5
+  username: Istanbulsocialdancemarathon
+  name: Istanbul Social Dance Marathon
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954289/t92wpjcmodx4wb03okwi.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/Istanbulsocialdancemarathon
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/411388458570567/
+facebookId: "411388458570567"
+eventType: Workshop
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Mambo in Palace & 12th-14th December 2025 & WorldWide & Prague, Czech Republic
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1765555200000+ChIJdRBxjPCUC0cRjvjubM4bcfU
+startDate: 1765555200000
+id: 57BeqjywFykVREN5wc7l

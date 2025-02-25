@@ -1,0 +1,239 @@
+venue:
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  website: http://www.kult-tanzschule.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The KULT TANZSCHULE in ADTV
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5708628802915
+      south: 48.1363358697085
+      north: 48.1390338302915
+      west: 11.5681649197085
+    location:
+      lng: 11.5698826
+      lat: 48.13758809999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 44313886
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  url: https://maps.google.com/?cid=2237208673933871066
+  username: kulttanz
+endDate: 1713911400000
+claimed: No
+program: []
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2Ffe6649fc-ffe8-45e9-a35b-8762a198375d?alt=media&token=d46c5f1b-b8ed-47ba-a937-4910ad689f5d
+createdAt: 1713864593160
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+org:
+  username: Djobi_bachata
+eventType: Party
+form: No
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+name: "Tuesday Salsa Bachata Party "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Djobi_bachata
+artistsList: []
+id: oGzYMdwcrTxznvjbNYvt
+type: series
+duration: 240
+hash: 1713897000000+ChIJnwr0yvV1nkcR2kdAim8pDB8
+startDate: 1713897000000
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+star:
+  count: 0
+  list: {}
+viewsCount: 0
+telegram: {}
+upVotes: 0
+instagram: {}
+downVotes: 0
+recurrence:
+  untilDate:
+    _seconds: 1727647200
+    _nanoseconds: 0
+  freq: weekly
+  days: {}
+  dates:
+    - _seconds: 1713897000
+      _nanoseconds: 0
+    - _seconds: 1714501800
+      _nanoseconds: 0
+    - _seconds: 1715106600
+      _nanoseconds: 0
+    - _seconds: 1715711400
+      _nanoseconds: 0
+    - _seconds: 1716316200
+      _nanoseconds: 0
+    - _seconds: 1716921000
+      _nanoseconds: 0
+    - _seconds: 1717525800
+      _nanoseconds: 0
+    - _seconds: 1718130600
+      _nanoseconds: 0
+    - _seconds: 1718735400
+      _nanoseconds: 0
+    - _seconds: 1719340200
+      _nanoseconds: 0
+    - _seconds: 1719945000
+      _nanoseconds: 0
+    - _seconds: 1720549800
+      _nanoseconds: 0
+    - _seconds: 1721154600
+      _nanoseconds: 0
+    - _seconds: 1721759400
+      _nanoseconds: 0
+    - _seconds: 1722364200
+      _nanoseconds: 0
+    - _seconds: 1722969000
+      _nanoseconds: 0
+    - _seconds: 1723573800
+      _nanoseconds: 0
+    - _seconds: 1724178600
+      _nanoseconds: 0
+    - _seconds: 1724783400
+      _nanoseconds: 0
+    - _seconds: 1725388200
+      _nanoseconds: 0
+    - _seconds: 1725993000
+      _nanoseconds: 0
+    - _seconds: 1726597800
+      _nanoseconds: 0
+    - _seconds: 1727202600
+      _nanoseconds: 0
+checkin:
+  count: 0
+  list: {}
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+socialCover: ""
+votes: 0
+promotion: ""
+children:
+  - endDate: 1713911400000
+    id: kXbDdVPke0r8mOYTUkUU
+    startDate: 1713897000000
+  - endDate: 1714516200000
+    id: WBX4pYefyizhBTIQE78f
+    startDate: 1714501800000
+  - endDate: 1715121000000
+    id: 58v2IicHFOF4t8nrpJu8
+    startDate: 1715106600000
+  - endDate: 1715725800000
+    id: LeShouM9JeAH7vucpG9e
+    startDate: 1715711400000
+  - endDate: 1716330600000
+    id: LD8A0gkDLx4nPBPrq0MV
+    startDate: 1716316200000
+  - endDate: 1716935400000
+    id: AnYkBaRy487mz2wIyi6d
+    startDate: 1716921000000
+  - endDate: 1717540200000
+    id: Tgl1ndLqGC2tLG6uEsgS
+    startDate: 1717525800000
+  - endDate: 1718145000000
+    id: 0Nv7fjQKrLlWi2N9gFXk
+    startDate: 1718130600000
+  - endDate: 1718749800000
+    id: xB3HCkV17XvFlj0wypZS
+    startDate: 1718735400000
+  - endDate: 1719354600000
+    id: ic5mMEMeJf0OHHK324yh
+    startDate: 1719340200000
+  - endDate: 1719959400000
+    id: daJsB1UgtPIbaZMh241D
+    startDate: 1719945000000
+  - endDate: 1720564200000
+    id: hRuEiiZOcHia9gSdOmqj
+    startDate: 1720549800000
+  - endDate: 1721169000000
+    id: LCL3k1uIGiX3FOjz7kbh
+    startDate: 1721154600000
+  - endDate: 1721773800000
+    id: aCvSGh0CThjumbUZtP8r
+    startDate: 1721759400000
+  - endDate: 1722378600000
+    id: M8L4FFqfmutLjLgIWopu
+    startDate: 1722364200000
+  - endDate: 1722983400000
+    id: 2ZEf1zJE2i5zRQKzq0io
+    startDate: 1722969000000
+  - endDate: 1723588200000
+    id: z70Fh3PTMjYANpGSoV9N
+    startDate: 1723573800000
+  - endDate: 1724193000000
+    id: fLcRV63TlmlBEQLuOR0T
+    startDate: 1724178600000
+  - endDate: 1724797800000
+    id: 6U6BVoAPpHzx6New1bbU
+    startDate: 1724783400000
+  - endDate: 1725402600000
+    id: SzuOFpnhn5TtHkFfwByO
+    startDate: 1725388200000
+  - endDate: 1726007400000
+    id: JuuJAUR4rpzRFuJvpbAr
+    startDate: 1725993000000
+  - endDate: 1726612200000
+    id: ZLdtb90nKByfd7dNS82K
+    startDate: 1726597800000
+  - endDate: 1727217000000
+    id: ehMQRAZ7WFROhCZf3yXr
+    startDate: 1727202600000
+updatedAt: 1720372175930

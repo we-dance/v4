@@ -1,0 +1,141 @@
+endDate: 1715965200000
+sourceUrl: https://www.facebook.com/events/1884827425288776/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713509670000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1713509742000
+facebookId: "1884827425288776"
+facebook: https://www.facebook.com/events/1884827425288776/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1884827425288776/
+eventType: Party
+providerItemId: e1884827425288776@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Kostenloser Salsa Cubana Schnupperkurs
+location: Tanzschule Rebecca- Studio Blau / Heimeranstrasse 70
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715961600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Studio Rebecca | Tanzstudio Rebecca
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5338375697085
+        lat: 48.1328692697085
+      northeast:
+        lng: 11.5365355302915
+        lat: 48.1355672302915
+    location:
+      lng: 11.5350716
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  url: https://maps.google.com/?cid=14332716633642345223
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/peyman.saba
+  name: Peyman Saba
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710400305/qnrhnybjjrghjxzjfype.jpg
+  bio: ""
+  id: 7th7rMxeIwRnktwkXRhV
+  instagram: ""
+  username: peyman.saba
+claimed: No
+link: ""
+description: >-
+  Peyman Saba führt dich in die faszinierende Welt der Salsatanz ein. Dieser
+  Schnupperkurs ist geeignet für alle Salsa-Liebhaber/Innen, die bis jetzt noch
+  keine Möglichkeit hatten diesen fröhlichen Tanz auszuprobieren. Komm, mach mit
+  und versuche zu lernen, wie man mit wenigen, leichten Moves seine Gefühle zum
+  Ausdruck bringen kann. Egal mit welcher Laune du an diesem Abend anwesend
+  bist, gehst du sicherlich mit guter Laune wieder zurück. Teilnahme an dem
+  Schnupperkurs ist nur mit Voranmeldung möglich. Ich freu mich auf einen neuen
+  Anfang mit dir.
+
+  Kontakt: Peyman saba 
+
+  Tel:0176-41715065
+
+  peymansaba.com/salsa 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131884/rsjrerokjp2raarslpn5.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1715961600000+ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fc2onBKIUeELahSLJA4WV.png?generation=1714131906026832&alt=media
+viewsCount: 9
+id: c2onBKIUeELahSLJA4WV

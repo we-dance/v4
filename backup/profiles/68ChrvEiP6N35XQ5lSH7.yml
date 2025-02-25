@@ -1,0 +1,74 @@
+name: Städtisches Lion-Feuchtwanger-Gymnasium
+username: lfg.musin.de
+website: https://lfg.musin.de/wordpress/
+phone: +49 89 3503010
+rooms: ""
+map: ""
+gender: Other
+address:
+  url: https://maps.google.com/?cid=9629520108181574440
+  address_components:
+    - short_name: "71"
+      types:
+        - street_number
+      long_name: "71"
+    - short_name: Freiligrathstraße
+      types:
+        - route
+      long_name: Freiligrathstraße
+    - short_name: Milbertshofen-Am Hart
+      long_name: Milbertshofen-Am Hart
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      types:
+        - locality
+        - political
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - short_name: Oberbayern
+      long_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "80807"
+      short_name: "80807"
+      types:
+        - postal_code
+  website: https://lfg.musin.de/wordpress/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  geometry:
+    location:
+      lng: 11.5805696
+      lat: 48.1781319
+    viewport:
+      northeast:
+        lat: 48.17967438029151
+        lng: 11.5819151802915
+      southwest:
+        lat: 48.17697641970851
+        lng: 11.57921721970849
+  international_phone_number: +49 89 3503010
+  name: Städtisches Lion-Feuchtwanger-Gymnasium
+  place_id: ChIJeYSTQDJ0nkcRKNOk3YTtooU
+  formatted_address: Freiligrathstraße 71, 80807 München, Germany
+type: Venue
+createdAt: 1730925000907
+updateAt: 1730925000907
+id: 68ChrvEiP6N35XQ5lSH7

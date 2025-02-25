@@ -1,0 +1,71 @@
+createdAt: 1712525130375
+website: https://maps.google.com/?cid=10150715274058354443
+rooms: ""
+address:
+  formatted_address: Sarit Centre Car Park, 6th floor Lower Kabete Rd, Nairobi, Kenya
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Alloy Bar and Lounge
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 36.8036863802915
+      south: -1.262066830291502
+      north: -1.259368869708498
+      west: 36.8009884197085
+    location:
+      lng: 36.8021913
+      lat: -1.2605664
+  address_components:
+    - types:
+        - premise
+      short_name: Sarit Centre Car Park
+      long_name: Sarit Centre Car Park
+    - types:
+        - street_number
+      short_name: 6th floor
+      long_name: 6th floor
+    - types:
+        - route
+      short_name: Lower Kabete Rd
+      long_name: Lower Kabete Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Spring Valley
+      long_name: Spring Valley
+    - types:
+        - locality
+        - political
+      short_name: Nairobi
+      long_name: Nairobi
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nairobi County
+      long_name: Nairobi County
+    - types:
+        - country
+        - political
+      short_name: KE
+      long_name: Kenya
+    - types:
+        - postal_code
+      short_name: "00606"
+      long_name: "00606"
+  international_phone_number: +254 709 665665
+  place_id: ChIJyaHxJ8EXLxgRC09hzsKV3ow
+  url: https://maps.google.com/?cid=10150715274058354443
+gender: Other
+phone: +254 709 665665
+name: Alloy Bar and Lounge
+updateAt: 1712525130375
+map: ""
+username: alloybarandlounge
+place: ChIJp0lN2HIRLxgRTJKXslQCz_c
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+team: []
+id: k3PJodjHsLtz7VXOi6m7
+type: Venue
+updatedAt: 1717627311169
+viewsCount: 4

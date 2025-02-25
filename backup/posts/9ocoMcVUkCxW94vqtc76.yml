@@ -1,0 +1,153 @@
+endDate: 1719615600000
+sourceUrl: https://www.facebook.com/events/s/mwangole-kizomba-and-semba-par/469552862332188/
+createdAt: 1719324030602
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1719245499000
+updatedAt: 1719324030602
+importedAt: 1719324030602
+providerUpdatedAt: 1719245499000
+facebookId: "469552862332188"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/s/mwangole-kizomba-and-semba-par/469552862332188/
+eventType: Party
+providerItemId: 10009068-1719603000-1719615600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Vígszínház utca 1., Vígszínház utca 1., Budapest, 1137, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719603000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Vígszínház u. 1, 1137 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Vígszínház u. 1
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0510715697085
+        lat: 47.5113521697085
+      northeast:
+        lng: 19.0537695302915
+        lat: 47.5140501302915
+    location:
+      lng: 19.05243
+      lat: 47.5127135
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Vígszínház u.
+      long_name: Vígszínház utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1137"
+      long_name: "1137"
+  place_id: ChIJsZp2lw7cQUcRUOXih4Mg9K8
+  url: https://maps.google.com/?q=Budapest,+V%C3%ADgsz%C3%ADnh%C3%A1z+u.+1,+1137+Hungary&ftid=0x4741dc0e97769ab1:0xaff4208387e2e550
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/black.panther.event.2024
+  name: Black Panther Event
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1716386456/o5st8nnewyhq64upei6p.jpg
+  bio: ""
+  id: rl4vzdppkZ5dOmwvyxk2
+  instagram: ""
+  username: black.panther.event
+claimed: No
+facebook: https://www.facebook.com/events/469552862332188/
+link: ""
+description: >-
+  🎉Egy csipetnyi Angola 🇦🇴 Budapesten🇭🇺
+
+
+  🌟 Mi: Táncparti
+
+  📅 Mikor: 2024.06.28., péntek
+
+  🕖 Időpont: Buli 20:00-tól 24 óráig
+
+  📍 Hol: Vígszínház Utca 1, Budapest 1137, Magyarország
+
+
+  🎵 Zene: DJ Mwangolé 🇦🇴: 100% angolai kizomba és semba party 🇦🇴💃🕺
+
+
+  Készülj fel, hogy elmerülj a táncos hangulatban és sok pozitív energiában 🕺🏿💃! Gyere egyedül, barátokkal vagy kísérővel - mindenkit szeretettel várunk egy felejthetetlen éjszakára.🫶🏿💪🏿
+
+
+  Buli: 2.000 Ft
+
+
+  Ne hagyd ki ezt a remek lehetőséget,  tanuljunk, táncoljunk, szórakozzunk együtt! 
+   🔥🎶    
+
+  ENG:
+
+  🎉Come join us for an evening full of rhythm, fun and learning! 100% Angolan kizomba & semba party 🇦🇴💃🕺
+
+
+  🌟 What: Dance Party
+
+  📅 When: Friday, 28/06/2024
+
+  🕖 Time: Party at 8:00pm until 12pm
+
+  📍 Where: Vígszínház Utca 1, Budapest 1137, Magyarország
+
+
+  🎵 Music: DJ Mwangolé 🇦🇴 playing the biggest dance hits.
+
+
+  Get ready to immerse yourself in the dance vibe and lots of positive energy 🕺🏿💃! Come alone, with friends or accompanied - everyone is welcome for an unforgettable night.🫶🏿💪🏿
+
+
+  Party: 2,000HUF
+
+
+  Don’t miss this opportunity to have fun☺️, learn and dance the night away🕺🏿💃! Confirm your presence and guarantee your place at this unmissable party! 🔥🎶
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324049/uaybnshlovevo5o5y6cg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Mwangole Kizomba and Semba Party "
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1719597600000+ChIJsZp2lw7cQUcRUOXih4Mg9K8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9ocoMcVUkCxW94vqtc76.png?generation=1719324083412464&alt=media
+id: 9ocoMcVUkCxW94vqtc76

@@ -1,0 +1,54 @@
+createdAt: 1721644903890
+website: http://www.manchester.gov.uk/
+rooms: ""
+address:
+  formatted_address: Manchester, UK
+  website: http://www.manchester.gov.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Manchester
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -2.146828844526851
+      south: 53.39990299768613
+      north: 53.54458793949853
+      west: -2.300096904893769
+    location:
+      lng: -2.2426305
+      lat: 53.4807593
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+  place_id: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+  url: https://maps.google.com/?q=Manchester,+UK&ftid=0x487a4d4c5226f5db:0xd9be143804fe6baa
+gender: Other
+phone: ""
+name: Manchester
+updateAt: 1721644903890
+type: Venue
+map: ""
+username: www.manchester.gov.uk
+viewsCount: 1
+id: iV577Q4662CuHwU65Vmw

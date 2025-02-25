@@ -1,0 +1,77 @@
+timezone: GMT+0200
+createdAt: 1626947867129
+createdBy: HiqSZ7LXx5SwePvO2KAU5gtaTBO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+pwaUsed: false
+gender: Female
+visibility: Members
+permission: Yes
+locales:
+  de: true
+  es: true
+partner: No
+name: Dance Community Munich
+objectives:
+  outdoors: true
+  indoors: true
+contacts: Yes
+username: DanceCommunityMunich
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: HiqSZ7LXx5SwePvO2KAU5gtaTBO2
+facebook: https://facebook.com/DanceCommunityMunich
+bannerNps: no
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+instagram: https://www.instagram.com/dance.community.munich/
+type: Organiser
+watch:
+  list:
+    DanceCommunityMunich: true
+    Lyolya_urban:
+      kiz_: true
+  count: 2
+  usernames:
+    - DanceCommunityMunich
+    - Lyolya_urban.kiz_
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHiqSZ7LXx5SwePvO2KAU5gtaTBO2%2Fbdf39aad-800f-412d-a7b5-64fd1c082dbf?alt=media&token=ad0bfbbf-9e47-4ac9-a9db-89e18684d0d7
+lastLoginAt: 1710938670757
+daysUsed: 15
+team:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/djyenny.munich
+    name: Dj Yenny
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707482453/e2mdggjuee03fbcbtdqi.jpg
+    bio: ""
+    id: 41o4SnHHCjOjoVHGU90v
+    instagram: https://www.instagram.com/dj.yenny
+    username: dj.yenny
+updatedAt: 1715685983392
+viewsCount: 236

@@ -1,0 +1,155 @@
+venue:
+  website: http://www.isarpost-eventlocation.de/
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: ISARPOST Eventlocation
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5665639302915
+      south: 48.1337302197085
+      north: 48.1364281802915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 24-26
+      long_name: 24-26
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 1499037894
+  url: https://maps.google.com/?cid=14604975425998091393
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+endDate: 1698800400000
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1698691414612
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 𝗬𝗘𝗡𝗡𝗬 𝗦𝗘𝗚𝗨𝗥𝗔
+    bio: |-
+      Reggaeton • Latin Urban DJ • Germany MUC🇩🇪🇵🇪
+      Resident @latinscene.munich @planet.reggaeton 
+      @munich.reggaeton 
+      Links:
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj.yenny%2F.png?generation=1655307056208321&alt=media
+    instagram: https://instagram.com/dj.yenny/
+    id: RpvmbiD9NuFihAtOdA8V
+    username: dj.yenny
+artistsList:
+  - dj.yenny
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/latinscene.munich
+  name: LATIN SCENE
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F73d142b3-58f8-456c-8cdf-c62583e9dfd8?alt=media&token=47b6050d-81f5-4946-9db3-7194d82f3320
+  bio: |-
+    Kulturveranstalter 📍MUNICH 🇩🇪 🌎
+
+    @planet.reggaeton @dj.yenny 💯
+
+    Join the Latin community
+  id: tmDC5QtoaTZPBYUEM1Ia
+  instagram: https://www.instagram.com/latinscene.munich/
+  username: latinscene.munich
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1698782400000
+username: alexrazbakov
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb9102715-c741-4825-91d0-be388a0036a4?alt=media&token=e3715e36-a260-47d1-bbce-8ca56784ad19
+price: 10 EUR
+facebook: https://fb.me/e/9nGBGlU3B
+name: Dia de los muertos
+id: EFJNQGk60OTqpMLRAu1F
+specialOffer: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEFJNQGk60OTqpMLRAu1F.png?generation=1698691531816008&alt=media
+description: >-
+  🎶 Varied Latin music!  Reggaeton, bachata, merengue, salsa, latin hits.
+
+
+  👉🏼 I recommend arriving early because from 02:00 there is Tanzverbot!💃🏽🚫
+
+
+  👉🏼 *Putting on a costume is optional!*🤖 They will give away a bottle of Moët🍾 to the most interesting and creative costume!
+updatedAt: 1698691588064
+viewsCount: 13

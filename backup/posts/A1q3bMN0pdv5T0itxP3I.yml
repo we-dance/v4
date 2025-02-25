@@ -1,0 +1,114 @@
+venue:
+  formatted_address: Maillingerstraße, München, Germany
+  name: Maillingerstraße
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5467220802915
+      south: 48.1472517197085
+      north: 48.1499496802915
+      west: 11.5440241197085
+    location:
+      lng: 11.5453731
+      lat: 48.1486007
+  address_components:
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  url: https://maps.google.com/?q=Maillingerstra%C3%9Fe,+M%C3%BCnchen,+Germany&ftid=0x479e760f5df4cabd:0xb1b815ef5dcd920e
+  place_id: EiRNYWlsbGluZ2Vyc3RyYcOfZSwgTcO8bmNoZW4sIEdlcm1hbnkiLiosChQKEgm9yvRdD3aeRxEOks1d7xW4sRIUChIJ2V-Mo_l1nkcRfZixfUq4DAE
+endDate: 1699392600000
+claimed: No
+description: >-
+  For all those who have already mastered the Sensual technique and want to get
+  more out of themselves.
+
+  Not complete figures are taught.
+
+
+  It is about teaching combinations in such a way that there is a natural lead while dancing with respect on musicality, following and connection can be built.
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F4b45326a-f8b4-44d2-9364-f3ec1d4a7757?alt=media&token=caa46b69-fae5-4233-a575-16c0a00ac73e
+createdAt: 1698746420904
+artists: []
+price: 12,5 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  instagram: https://instagram.com/milite_anna
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  username: AnnaMil
+telegram: {}
+upVotes: 0
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1699389000000
+username: AnnaMil
+socialCover: ""
+name: Bachata Intermediate with Special Guest Roberto
+id: A1q3bMN0pdv5T0itxP3I
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+eventType: Workshop
+updatedAt: 1699292174807
+viewsCount: 19

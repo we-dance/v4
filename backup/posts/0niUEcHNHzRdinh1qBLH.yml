@@ -1,0 +1,254 @@
+endDate: 1714766400000
+sourceUrl: https://www.facebook.com/events/555883460078513/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1686355977000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1707811478000
+facebookId: "555883460078513"
+facebook: https://www.facebook.com/events/555883460078513/
+isNew: true
+facebookUrlsList:
+  - https://fb.me/e/Vdpgfw9E
+  - https://fb.me/e/Vdpgfw9E
+  - https://www.facebook.com/events/555883460078513/
+eventType: Workshop
+providerItemId: e555883460078513@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: FLAWLESS WEEKENDER 2
+location: Extravadanse Ecole Bruno Yniesta
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714755600000
+facebookUrlsCount: 3
+username: Aina
+venue:
+  formatted_address: 20 Rue Jean Mermoz, 74100 Annemasse, France
+  website: http://www.extravadanse.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Extravadanse School Bruno Yniesta
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.250913069708497
+        lat: 46.1956947697085
+      northeast:
+        lng: 6.253611030291502
+        lat: 46.1983927302915
+    location:
+      lng: 6.2523873
+      lat: 46.1970408
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Rue Jean Mermoz
+      long_name: Rue Jean Mermoz
+    - types:
+        - locality
+        - political
+      short_name: Annemasse
+      long_name: Annemasse
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haute-Savoie
+      long_name: Haute-Savoie
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "74100"
+      long_name: "74100"
+  international_phone_number: +33 6 19 33 05 38
+  place_id: ChIJz_NKsBhujEcR5ohWf5GoHYk
+  url: https://maps.google.com/?cid=9880238500380838118
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224694116
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/flawlessweekender
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224694/qu71vmaktmiqj83chsgd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224694116
+  owned: false
+  name: Flawless Weekender
+  place: ChIJayauCipujEcR7W20_mIDW5w
+  updatedAt: 1711224694116
+  username: flawlessweekender
+claimed: No
+link: ""
+description: |
+  💥 FLAWLESS WEEKENDER - 2ème édition
+  🗓 Date : DU 03 MAI AU 05 2024
+  ⚠️ RÉSERVEZ CES DATES
+  ⬇️ Billetterie ⬇️
+  my.weezevent.com/flawless-weekender-2
+
+   Event FB : https://fb.me/e/Vdpgfw9E
+
+  🇫🇷 Français ⬇️
+
+  ✅ 3 salles de danse 💃🕺
+  ✅ Workshops 📝
+  ✅ DJs locaux + DJs internationaux 🎧
+  ✅ Taxi danseurs 🕺
+  ✅ Restauration 🍗
+  ✅ Photographe 📷
+  ✅ Paiement cash 💵 et par carte 💳
+
+
+  ✅ Profs  internationaux + Locaux 💃🕺
+
+  - Chamalo & Jalyssa  | Urban Kiz
+  - Frans & Sarah | Kizomba
+  - Fabricio | Semba
+  - Stompy (Lyon) | Afro House
+  - Laury Esmeralda (Paris) | Rebolar
+  - Yanti (Zurich) | Body Movement
+  - Jah J'a & Jeisy (Genève) | Tarraxo
+  - Kalypso & Adé (Genève)  | Kompa
+  - Byron & Julie (Genève) | Urban Kiz
+  - Chris & Marlie (Genève) | Tarraxhina
+
+
+  ✅ DJs internationaux + DJs locaux 🎧
+
+  - Dj Paparazzi (Madrid)
+  - Dj Willy G (Paris)
+  - Dj Chad (Paris)
+  - Dj Lenhy (Paris)
+  - Dj Ichigo (Paris)
+  - Dj Stou (Paris)
+  - Dj Sunky (Paris) 
+  - Dj Stompy (Lyon)
+  - Dj Naty (Lyon)
+  - Dj Jahnaï (Genève)
+  - Dj Kenkylla (Genève)
+
+  ⬇️ Billetterie ⬇️
+  my.weezevent.com/flawless-weekender-2
+
+  📍Adresse : 20 rue Jean Mermoz, Annemasse, France
+
+  ▫️Autres:
+  - Parking aux alentours gratuit 
+  (Géants Supermarché)
+
+  🏠 Hôtels à proximité :
+
+  - ibis budget Annemasse Genève - complet
+  - Comfort Hotel Annemasse Genève
+  - Hôtel Campanile Annemasse Centre - Gare
+  - Appart'City Annemasse Centre Pays de Genève - Appart Hôtel
+
+  ----------------------------------------
+
+  🇬🇧 English ⬇️
+
+  💥 FLAWLESS WEEKENDER - 2sd Edition
+  🗓 Date: 3rd to 5th of May 2024
+  ⚠️ SAVE THE DATES
+  ⬇️ Ticketing ⬇️
+  my.weezevent.com/flawless-weekender-2
+
+  ✅ 3 dance halls 💃🕺
+  ✅ Workshops 📝
+  ✅ Local DJs + International DJs 🎧
+  ✅ Taxi dancers 🕺
+  ✅ Catering 🍗
+  ✅ Photographer 📷
+  ✅ Payment cash 💵 and by card 💳
+
+  ✅ International + Locals Teachers 💃🕺
+
+  - Chamalo & Jalyssa  | Urban Kiz
+  - Frans & Sarah | Kizomba
+  - Fabricio | Semba
+  - Stompy (Lyon) | Afro House
+  - Laury Esmeralda (Paris) | Rebolar
+  - Yanti (Zurich) | Body Movement
+  - Jah J'a & Jeisy (Genève) | Tarraxo
+  - Kalypso & Adé (Genève)  | Kompa
+  - Byron & Julie (Genève) | Urban Kiz
+  - Chris & Marlie (Genève) | Tarraxhina
+
+
+  ✅ Local DJs + International DJs 🎧
+
+  - Dj Paparazzi (Madrid)
+  - Dj Willy G (Paris)
+  - Dj Chad (Paris)
+  - Dj Lenhy (Paris)
+  - Dj Ichigo (Paris)
+  - Dj Sunky (Paris)
+  - Dj Stou (Paris) 
+  - Dj Stompy (Lyon)
+  - Dj Naty (Lyon)
+  - Dj Jahnaï (Genève)
+  - Dj Kenkylla (Genève)
+
+  ⬇️ Billetterie ⬇️
+  my.weezevent.com/flawless-weekender-2
+
+  📍Adress : 20 rue Jean Mermoz, Annemasse, France
+
+  ▫️Others:
+
+  - Free parking nearby (Géants Supermarché)
+
+  🏠 Hotels Nearby:
+
+  - ibis budget Annemasse Geneva
+  - Comfort Hotel Annemasse Geneva
+  - Hotel Campanile Annemasse Center - Station
+  - Appart'City Annemasse Center Pays de Genève - Apart Hotel
+
+  ----------------------------------------
+
+   Event FB : https://fb.me/e/Vdpgfw9E
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224695/g5vzywcqi39mejetmo4g.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJayauCipujEcR7W20_mIDW5w
+international: No
+hash: 1714755600000+ChIJz_NKsBhujEcR5ohWf5GoHYk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0niUEcHNHzRdinh1qBLH.png?generation=1711224717488656&alt=media
+id: 0niUEcHNHzRdinh1qBLH

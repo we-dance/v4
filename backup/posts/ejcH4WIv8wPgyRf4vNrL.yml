@@ -1,0 +1,35 @@
+address: Ostbahnhof
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+endDate: 2020-12-12T19:00:00.000Z
+city: Munich
+description: Starting from Ostbahnhof
+eventType: Course
+type: event
+duration: custom
+createdAt: 1607259688805
+watchersCount: 0
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: Trip to Berlin All Stars Festival
+commentsLast: ~
+styles:
+  Salsa:
+    level: Interested
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: ejcH4WIv8wPgyRf4vNrL
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2020-12-06T18:00:00.000Z
+username: alejito
+updatedAt: 1617065901466
+viewsCount: 1

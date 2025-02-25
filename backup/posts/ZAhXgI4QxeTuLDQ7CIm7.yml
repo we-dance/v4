@@ -1,0 +1,118 @@
+endDate: 1698256800000
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FlQ0ufxwmuwhRtL13sVsCScbrscu2%2F671c3ca7-8d59-4759-9347-4ee255d25f95?alt=media&token=bb549f15-54e7-4c74-a231-5e39c7e8afe1
+createdAt: 1698157159297
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/peyman.saba/
+  name: Peyman
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4ce2621c-a5b9-4e0b-9c0d-06eb8d64779b?alt=media&token=4a2b45aa-4ecf-4182-b206-eb8db09f1072
+  id: MSxq3sqswZe9VfpHqFsI7OGngSD3
+  instagram: ""
+  username: Peyman
+telegram: {}
+upVotes: 0
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1698249600000
+username: Franzi
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Studio Rebecca | Tanzstudio Rebecca
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365355302915
+      south: 48.1328692697085
+      north: 48.1355672302915
+      west: 11.5338375697085
+    location:
+      lng: 11.5350716
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  url: https://maps.google.com/?cid=14332716633642345223
+  room: white
+artists: []
+price: FREE
+facebook: ""
+name: Tanzübungsparty
+description: ""
+artistsList: []
+id: ZAhXgI4QxeTuLDQ7CIm7
+eventType: Party
+updatedAt: 1698157237609
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZAhXgI4QxeTuLDQ7CIm7.png?generation=1698170196844263&alt=media
+viewsCount: 5

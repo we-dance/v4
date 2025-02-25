@@ -1,0 +1,125 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+  username: pinakothekdermoderne
+endDate: 1718042400000
+claimed: No
+description: Just drop by, there is no list and no charges, i just make these
+  partys out of passion
+program: []
+instagram: {}
+type: event
+seriesId: ruWOs4mi3OES7LynYXUh
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa21c902d-164f-46c5-b8eb-7235740906d0?alt=media&token=78894162-7c18-4732-86a7-4a7df6f664a6
+duration: 60
+createdAt: 1717574785533
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: Free
+artistsList: []
+id: DdGA2B40h92KMgyBydQY
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1717574836750
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  username: StandardLatinBene
+telegram: {}
+upVotes: 0
+eventType: Party
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Standard and Latin open air
+online: No
+styles:
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1718038800000
+hash: 1718038800000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+username: StandardLatinBene
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDdGA2B40h92KMgyBydQY.png?generation=1717574907172507&alt=media
+viewsCount: 4

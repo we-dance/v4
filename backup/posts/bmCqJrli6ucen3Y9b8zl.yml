@@ -1,0 +1,117 @@
+endDate: 1715990400000
+sourceUrl: https://www.facebook.com/events/316367307998028/
+createdAt: 1715444433114
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1714986425000
+updatedAt: 1715444433114
+importedAt: 1715444433114
+providerUpdatedAt: 1714986425000
+facebookId: "316367307998028"
+facebook: https://www.facebook.com/events/316367307998028/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/316367307998028/
+eventType: Party
+providerItemId: 10008820-1715904000-1715990399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Fröccsterasz, Erzsébet tér 13., Budapest, 1053, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715904000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Erzsébet tér 11-13, 1051 Hungary
+  website: http://froccsterasz.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Fröccsterasz
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0523180697085
+        lat: 47.4965621697085
+      northeast:
+        lng: 19.0550160302915
+        lat: 47.4992601302915
+    location:
+      lng: 19.0535922
+      lat: 47.4980561
+  address_components:
+    - types:
+        - street_number
+      short_name: 11-13
+      long_name: 11-13
+    - types:
+        - route
+      short_name: Erzsébet tér
+      long_name: Erzsébet tér
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1051"
+      long_name: "1051"
+  international_phone_number: +36 30 419 5040
+  place_id: ChIJrypkGEDcQUcRje6kwQ6OuHY
+  url: https://maps.google.com/?cid=8554743686219755149
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  id: nD23oRVHFCEDLp84nONP
+  instagram: ""
+  username: mimusica.djtombao
+claimed: No
+link: ""
+description: |-
+  FRÖCCSTERASZ Salsa-Bachata party con DJ Tombao
+  free-ingyenes, péntek-friday
+  Start: 21:00 - 24:00
+  Buli dátumok: április 19, április 26, május 3, május 17, május 31.
+  Gyertek 😉 Welcome
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444454/nc9fnyprq1fyvsjwuwet.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "FRÖCCSTERASZ Salsa-Bachata party × Péntek-Friday × DJ TOMBAO ×
+  ingyenes-free × start: 21:00-24:00"
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1715972400000+ChIJrypkGEDcQUcRje6kwQ6OuHY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbmCqJrli6ucen3Y9b8zl.png?generation=1715444474251346&alt=media
+id: bmCqJrli6ucen3Y9b8zl

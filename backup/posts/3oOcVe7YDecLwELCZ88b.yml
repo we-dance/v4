@@ -1,0 +1,176 @@
+importedAt: 1708510542555
+providerUpdatedAt: 1707918647000
+endDate: 1717943400000
+facebookId: "1287202272682420"
+facebook: https://www.facebook.com/events/1287202272682420/
+facebookUrlsList:
+  - https://www.facebook.com/events/1287202272682420/
+eventType: Party
+createdAt: 1708510542555
+providerItemId: e1287202272682420@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: Bachata Stars Weekend - Miguel y Sunsire
+location: Latin Groove Nürnberg
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1706962813000
+startDate: 1717851600000
+facebookUrlsCount: 1
+updatedAt: 1708510542555
+username: Aina
+venue:
+  formatted_address: Ulmenstraße 52A, 90443 Nürnberg, Germany
+  website: https://www.latin-groove.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Latin Groove Tanzschule
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.0718627697085
+        lat: 49.42828471970849
+      northeast:
+        lng: 11.0745607302915
+        lat: 49.43098268029149
+    location:
+      lng: 11.0732327
+      lat: 49.4297941
+  address_components:
+    - types:
+        - street_number
+      short_name: 52A
+      long_name: 52A
+    - types:
+        - route
+      short_name: Ulmenstraße
+      long_name: Ulmenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Süd
+      long_name: Süd
+    - types:
+        - locality
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90443"
+      long_name: "90443"
+  international_phone_number: +49 176 60823949
+  place_id: ChIJX6Q02VVWn0cRrTaxyabPuKY
+  url: https://maps.google.com/?cid=12013580321266153133
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1708510546670
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0ehUgzLmkCdT6sATuVnpNMgWk9EE5Xy7aBwH3YxhppWMy5EL8vft8GKgcY5QKWmbKl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708510546/hhgr1ohquffrh50vwesv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708510546670
+  owned: false
+  name: Jörg Neubauer
+  place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+  updatedAt: 1708510546670
+  username: jorg.neubauer
+claimed: No
+link: ""
+description: >+
+  Mission Bailar presents:
+
+  Bachata Stars Weekend with Miguel y Sunsire in Nuremberg!
+
+
+  Join us for 6 Workshops and one big Bachata-Party!
+
+
+  Workshops will be limited to 25 Followers and 25 Leaders to ensure private class feeling and best learning opportunitys. Level Intermediate and Advanced (not for Beginners).
+
+
+  Saturday:
+
+
+  15:00 - 16:00 Head Roll Mania
+
+  16:15 - 17:15 Signature Moves 1
+
+  17:30 - 18:30 Musicality
+
+
+  21:00 - 03:00 Party
+
+
+  Sunday:
+
+
+  13:00 - 14:00 Styling In Partnerwork
+
+  14:15 - 15:15 Signature Moves 2
+
+  15:30 - 16:30 Advanced Musicality
+
+
+
+  Tickets:
+
+  Fullpass 89 €  (75% sold)
+
+  Party Ticket 10 €
+
+
+  Infos and Tickets mail to:
+
+  Mission_Bailar@gmx.de
+
+
+  Follow us on Instagram @mission_bailar 
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708510550/eszpfk4gj6ugxb08hjcs.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+international: No
+hash: 1717851600000+ChIJX6Q02VVWn0cRrTaxyabPuKY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F3oOcVe7YDecLwELCZ88b.png?generation=1708510570075403&alt=media
+viewsCount: 31
+id: 3oOcVe7YDecLwELCZ88b

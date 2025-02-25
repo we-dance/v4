@@ -1,0 +1,41 @@
+createdAt: 1723976740831
+locales:
+  de: true
+  en: true
+invitedBy: ""
+visibility: Members
+gender: Female
+createdBy: DbzXnJzGUrgzXumzF40cGnBf7aJ2
+timezone: GMT+0200
+name: Jessi
+id: DbzXnJzGUrgzXumzF40cGnBf7aJ2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+type: Dancer
+username: Jessi
+pwaUsed: false
+offers: []
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDbzXnJzGUrgzXumzF40cGnBf7aJ2%2Fe10b74fd-0107-4037-8a8a-8bbac5651adf?alt=media&token=26eb24a6-df75-456e-bba8-671ea025c541
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+team: []
+updatedAt: 1723976896296
+watch:
+  count: 1
+  usernames:
+    - Elias_stph
+  history:
+    - username: Elias_stph
+      date: 1724010788864
+      invitedBy: ""
+      uid: RkfT6vNntmctKJwBsaDjoHoS2h83
+      action: joined
+viewsCount: 4
+lastLoginAt: 1725182340954
+daysUsed: 3

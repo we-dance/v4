@@ -1,0 +1,131 @@
+venue:
+  formatted_address: Atelierstraße 12, 81671 München, Germany
+  website: https://vivenu.com/seller/g3-club-lounge-srtk
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: G3 Club & Lounge
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6069751802915
+      south: 48.1233080197085
+      north: 48.1260059802915
+      west: 11.6042772197085
+    location:
+      lng: 11.6056646
+      lat: 48.12467659999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Atelierstraße
+      long_name: Atelierstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  url: https://maps.google.com/?cid=3534937430696522775
+  international_phone_number: +49 160 4440955
+  place_id: ChIJS1nYJe3fnUcRF_TlQ92eDjE
+claimed: No
+link: https://www.facebook.com/profile.php?id=100087674598073
+program: []
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdqWFaPAUCVb3UV6nSaTYZiQI6tR2%2F1fc005bd-2b4c-42f7-bdfa-1c67c35e7612?alt=media&token=99b63e65-4279-4d84-b72c-46d6c8a4dcba
+duration: 60
+createdAt: 1673451925273
+artists:
+  - instagram: https://instagram.com/vandooliveiraoficial
+    username: vandooliveiraoficial
+  - instagram: https://instagram.com/mcviviboop
+    username: mcviviboop
+price: 12 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - vandooliveiraoficial
+  - mcviviboop
+international: No
+updatedAt: 1673451925273
+updatedBy: dqWFaPAUCVb3UV6nSaTYZiQI6tR2
+visibility: Public
+facebook: https://www.facebook.com/profile.php?id=100087674598073
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    MunichDeJaneiro: true
+createdBy: dqWFaPAUCVb3UV6nSaTYZiQI6tR2
+name: Munich de Janeiro
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  FunkCarioca:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-13T22:00
+username: MunichDeJaneiro
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Munich de Janeiro
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdqWFaPAUCVb3UV6nSaTYZiQI6tR2%2F4ae2b466-5e22-4bd0-a199-044305bb828c?alt=media&token=b08a1797-0e6b-42cd-b2d5-a054d5f29793
+  id: dqWFaPAUCVb3UV6nSaTYZiQI6tR2
+  instagram: ""
+  username: MunichDeJaneiro
+id: ClL9ze6htYkJzbG9HaIU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FClL9ze6htYkJzbG9HaIU.png?generation=1673465423008937&alt=media
+telegram:
+  requestedAt: 1673465427608
+  messageUrl: https://t.me/WeDanceMunich/783
+  publishedAt: 1673465430120
+  messageId: 783
+  state: published
+instagram:
+  requestedAt: 1673465431116
+  messageUrl: https://instagram.com/p/CnSWQn7p8fW
+  publishedAt: 1673465444541
+  messageId: CnSWQn7p8fW
+  state: published
+endDate: 2023-01-13T04:30
+viewsCount: 34

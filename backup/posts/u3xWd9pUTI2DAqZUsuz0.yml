@@ -1,0 +1,157 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327139810
+updatedAt: 1732327139810
+importedAt: 1732327139810
+providerId: goandance
+providerItemId: "7093"
+name: BERLIN ZOUK FESTIVAL 2025
+description: Sin descripción
+sourceUrl: https://www.goandance.com/es/e/7093?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7093?promoter=WEDANCE123
+type: event
+startDate: 1754069400000
+endDate: 1754238600000
+tickets:
+  - name: Blind Pass for Berlin Zouk Festival
+    description: ""
+    priceValidUntil:
+      _seconds: 1723672800
+      _nanoseconds: 0
+    discount: 0
+    price: 79
+    comission: 0.95
+    originalPrice: 79
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+  - name: Early Bird Ticket for Leader / Follower
+    description: ""
+    priceValidUntil:
+      _seconds: 1725140520
+      _nanoseconds: 0
+    discount: 0
+    price: 89
+    comission: 0.95
+    originalPrice: 89
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+  - name: Full Pass for Berlin Zouk Festival
+    description: ""
+    priceValidUntil:
+      _seconds: 1732984200
+      _nanoseconds: 0
+    discount: 0
+    price: 99
+    comission: 0.95
+    originalPrice: 99
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+  - name: Full Pass for Berlin Zouk Festival
+    description: ""
+    priceValidUntil:
+      _seconds: 1738364100
+      _nanoseconds: 0
+    discount: 0
+    price: 119
+    comission: 0.95
+    originalPrice: 119
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+  - name: Full Pass for Berlin Zouk Festival
+    description: ""
+    priceValidUntil:
+      _seconds: 1743458100
+      _nanoseconds: 0
+    discount: 0
+    price: 129
+    comission: 0.95
+    originalPrice: 129
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+  - name: Full Pass for Berlin Zouk Festival
+    description: ""
+    priceValidUntil:
+      _seconds: 1751301000
+      _nanoseconds: 0
+    discount: 0
+    price: 139
+    comission: 0.95
+    originalPrice: 139
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+  - name: Full Pass for Berlin Zouk Festival
+    description: ""
+    priceValidUntil:
+      _seconds: 1722443400
+      _nanoseconds: 0
+    discount: 0
+    price: 159
+    comission: 0.95
+    originalPrice: 159
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7093-berlin-zouk-festival-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327141/ydaxgvcr7mymbvik1t78.jpg
+venue:
+  address_components:
+    - long_name: "10963"
+      short_name: "10963"
+      types:
+        - postal_code
+    - long_name: Friedrichshain-Kreuzberg
+      short_name: Friedrichshain-Kreuzberg
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Berlin
+      short_name: Berlin
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Berlin
+      short_name: BE
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+  formatted_address: 10963 Berlin-Friedrichshain-Kreuzberg, Germany
+  geometry:
+    location:
+      lat: 52.4985969
+      lng: 13.3783562
+    viewport:
+      northeast:
+        lat: 52.50837973885658
+        lng: 13.38953257220999
+      southwest:
+        lat: 52.49185439900443
+        lng: 13.36836950675899
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: "10963"
+  place_id: ChIJMdG0XzJQqEcRoPU_lUkgIRw
+  url: https://maps.google.com/?q=10963&ftid=0x47a850325fb4d131:0x1c212049953ff5a0
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+price: 99 EUR
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1754069400000+ChIJMdG0XzJQqEcRoPU_lUkgIRw
+org: ""
+viewsCount: 1
+id: u3xWd9pUTI2DAqZUsuz0

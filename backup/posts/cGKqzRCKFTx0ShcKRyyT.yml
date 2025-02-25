@@ -1,0 +1,112 @@
+venue:
+  formatted_address: Willy-Brandt-Allee 32, 81829 München, Germany
+  name: Willy-Brandt-Allee 32
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.7032423302915
+      south: 48.13209206970851
+      north: 48.13479003029151
+      west: 11.7005443697085
+    location:
+      lng: 11.701895
+      lat: 48.13335420000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "32"
+      long_name: "32"
+    - types:
+        - route
+      short_name: Willy-Brandt-Allee
+      long_name: Willy-Brandt-Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Trudering-Riem
+      long_name: Trudering-Riem
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81829"
+      long_name: "81829"
+  url: https://maps.google.com/?q=Willy-Brandt-Allee+32,+81829+M%C3%BCnchen,+Germany&ftid=0x479e0a88f5dd0db1:0x953a18101fed3042
+  place_id: ChIJsQ3d9YgKnkcRQjDtHxAYOpU
+endDate: 2023-01-21T17:00
+claimed: No
+link: https://la-kossa.de/produkt/workshops/
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F17cac711-4d9b-40ba-a972-93dd1b4a4b14?alt=media&token=18025603-8804-48a8-8e29-68a959651d45
+duration: 60
+promo: Yes
+createdAt: 1671447852629
+artists: []
+price: 19 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: ""
+updatedAt: 1671447852629
+updatedBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/lakossa.fitness
+  name: Ari - La Kossa®
+  bio: Empowerment through dancing
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F27efcc73-45f6-48aa-b1de-2dfc68e69964?alt=media&token=120a06cd-fcef-4baa-8f45-b121ad2beda2
+  instagram: https://instagram.com/la.kossa
+  id: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+  username: lakossa
+eventType: Workshop
+form: No
+createdBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+name: Afro Dance / Afrobeats Dance Workshop
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-21T15:00
+username: lakossa
+watch:
+  count: 1
+  list:
+    lakossa: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FcGKqzRCKFTx0ShcKRyyT.png?generation=1671471928447954&alt=media
+telegram:
+  requestedAt: 1671471930260
+  messageUrl: https://t.me/WeDanceMunich/752
+  publishedAt: 1671471935170
+  messageId: 752
+  state: published
+viewsCount: 22
+id: cGKqzRCKFTx0ShcKRyyT

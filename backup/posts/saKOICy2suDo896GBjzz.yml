@@ -1,0 +1,151 @@
+venue:
+  formatted_address: Lenbachpl. 7a, 80333 München, Germany
+  website: http://www.muenchen.mini/de_DE/home/content/aktionen-angebote/mini-pavillon.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: MINI Pavillon
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5696948802915
+      south: 48.1391931197085
+      north: 48.1418910802915
+      west: 11.5669969197085
+    location:
+      lng: 11.5684249
+      lat: 48.1404374
+  address_components:
+    - types:
+        - street_number
+      short_name: 7a
+      long_name: 7a
+    - types:
+        - route
+      short_name: Lenbachpl.
+      long_name: Lenbachplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  international_phone_number: +49 89 35355290
+  place_id: ChIJx1Q4s_Z1nkcRZpRgALyL3Ag
+  url: https://maps.google.com/?cid=638538886756209766
+endDate: 2023-03-26T20:00
+claimed: No
+link: https://www.joyofmovementlondon.com/projects-and-news/salsa-pavillon/
+description: >-
+  PREMIERE unseres neuen SALSA DAY SOCIALS!
+
+
+  Sonntag, 26.03.2023 von 15 Uhr bis 20 Uhr mit DJ Manu Ramos & Gast DJ Stefan
+
+
+  Einzigartige Location: Der MINI PAVILLON am Lenbachplatz im Herzen Münchens
+
+
+  Einmal pro Monat verwandeln wir den MINI PAVILLON in einen Salsa Palast. 
+
+
+  Unser Resident DJ Manu sorgt wie immer für beste SALSA Musik im Stil der weltberühmten Salsa Events in New York. Ein MUSS für alle Mambo Tänzer - hier trifft sich die Mambo Community aus München und weiter Umgebung!
+
+
+  Das Besondere bei SALSA PAVILLON: Die einzigartige Location ist offen für ALLE Besucher!
+
+
+  Die große Fläche im Untergeschoss verwandelt sich in eine Tanzfläche. Zur Stärkung versorgt euch ONE NATION mit leckeren Getränken und Essen. Bringt eure Freunde und Familie mit - dieser Sonntag Nachmittag ist für ALLE ein Erlebnis!
+
+
+  Da der Pavillon offen für alle Besucher ist, gibt es keine Eintrittsgebühr. Um Events wie dieses möglich zu machen, sind wir aber auf deine Unterstützung in Form eines freiwilligen Beitrags angewiesen. Vielen Dank!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F2ec10179-a488-45ec-9809-93d31a9ba3ea?alt=media&token=61a3efd6-1e33-4f13-996e-6d7a8e4de5fc
+createdAt: 1679832873288
+artists: []
+price: FREE
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1679832873288
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: MamboJazz by Manu & Jasmin
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fbd6e4acd-9493-4459-ab59-cbcaa4f19d25?alt=media&token=172890b8-a8a1-4774-8026-2f2837e92aee
+  bio: ""
+  id: E2tpkEYQqbLKFugdfCRg
+  instagram: https://instagram.com/mambojazz
+  username: mambojazz
+facebook: https://www.joyofmovementlondon.com/projects-and-news/salsa-pavillon/
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Salsa Pavillon
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-03-26T15:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsaKOICy2suDo896GBjzz.png?generation=1679832890405519&alt=media
+telegram:
+  requestedAt: 1679832894613
+  messageUrl: https://t.me/WeDanceMunich/1040
+  publishedAt: 1679832899211
+  messageId: 1040
+  state: published
+instagram:
+  requestedAt: 1679832900790
+  messageUrl: https://instagram.com/p/CqQHQKXO4Nj
+  publishedAt: 1679832919123
+  messageId: CqQHQKXO4Nj
+  state: published
+star:
+  count: 1
+  list:
+    andino2000: true
+viewsCount: 21
+id: saKOICy2suDo896GBjzz

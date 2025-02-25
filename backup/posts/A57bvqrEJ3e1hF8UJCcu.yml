@@ -1,0 +1,132 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327077525
+updatedAt: 1732327077525
+importedAt: 1732327077525
+providerId: goandance
+providerItemId: "6817"
+name: B.F.DanceFest (3rd Edition)
+description: >-
+  ARTISTS:
+
+
+  Janis & Joe(Germany) - Simona Buonanno(Italy) - Miguel & Sunshire(Spain) - Mario & Lydia(Spain)
+
+
+  Emigen & Emanouela(Albania) - Giorgos & Evgenia(Greece) - Vesko & Sofia(U.K) - Angel Vizcarra(Athens)
+
+
+  Konstantinos & Katerina(Thessaloniki) - Victoria KizzArte(Athens) - Ioanna Lampropoulou(Athens)
+
+
+  Eduardo(Athens) - Markos Bakolas(Athens) - Panagiotis & Xristina(Crete) - Fotini Anagnosti(Athens)
+
+
+  Katerina Ntavatzi(Patra) - Giorgos & Adriani(Amaliada) - Grego & Vasilis(Kalamata)
+
+
+  Panagiotis Giannouleas(Sparti) - Spyridoula Vasilaki(Kerkura) - Kiko(Arta) - Natasa Goloni(kalamata)
+
+
+  Eva Kladi(Athens) - Konstantinos & Nikoleta(Crete) - Dimitris Vafeiadis(Athens) - Alex Gewrgiou(Athens
+
+
+  Nasia Kosmaoglou(Athens) - Thanos & Chrysi(Athens) - Stelios & Konstantina(Athens) - Stella Anastasaki(Crete)
+
+
+  DJ'S
+
+
+  Tagada(France) - Yiota Nezi(Kalamata) - Kostas Stamos(Agrinio)
+sourceUrl: https://www.goandance.com/es/e/6817?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6817?promoter=WEDANCE123
+type: event
+startDate: 1742558400000
+endDate: 1742792400000
+tickets:
+  - name: Full Pass
+    description: (Included Workshops,Shows,Parties)
+    priceValidUntil:
+      _seconds: 1733007540
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 0
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6817-b-f-dancefest-3rd-edition?&promoter=WEDANCE123
+  - name: Full Pass/Accomodation 2 Nights/Breakfast/Overnight Tax
+    description: (price per person double room)
+    priceValidUntil:
+      _seconds: 1733007540
+      _nanoseconds: 0
+    discount: 0
+    price: 195
+    comission: 0
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6817-b-f-dancefest-3rd-edition?&promoter=WEDANCE123
+  - name: Full Pass/Accomodation 3 Nights/Breakfast/Overnight Tax
+    description: (price per person double room)
+    priceValidUntil:
+      _seconds: 1733007540
+      _nanoseconds: 0
+    discount: 0
+    price: 235
+    comission: 0
+    originalPrice: 235
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6817-b-f-dancefest-3rd-edition?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327079/ttwiihpk84gy31llvazx.jpg
+venue:
+  address_components:
+    - long_name: Kalamata
+      short_name: Kalamata
+      types:
+        - locality
+        - political
+    - long_name: Messenia
+      short_name: Messenia
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Greece
+      short_name: GR
+      types:
+        - country
+        - political
+    - long_name: 241 00
+      short_name: 241 00
+      types:
+        - postal_code
+  formatted_address: Kalamata 241 00, Greece
+  geometry:
+    location:
+      lat: 37.0366386
+      lng: 22.1143716
+    viewport:
+      northeast:
+        lat: 37.05029249734115
+        lng: 22.13070593762797
+      southwest:
+        lat: 37.01983140806301
+        lng: 22.09587524703633
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kalamata
+  place_id: ChIJKXhLYpmwYRMRnl9ice2VH_w
+  url: https://maps.google.com/?q=Kalamata+241+00,+Greece&ftid=0x1361b099624b7829:0xfc1f95ed71625f9e
+place: ChIJKXhLYpmwYRMRnl9ice2VH_w
+price: 95 EUR
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1742558400000+ChIJKXhLYpmwYRMRnl9ice2VH_w
+org: ""
+id: A57bvqrEJ3e1hF8UJCcu

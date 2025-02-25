@@ -1,0 +1,163 @@
+createdAt: 1704822882955
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/991439765190421/
+source: facebook
+updatedAt: 1704822882955
+username: wedancebot
+venue:
+  formatted_address: Takojankatu 11, 33540 Tampere, Finland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Takojankatu 11
+  geometry:
+    viewport:
+      southwest:
+        lng: 23.8046214197085
+        lat: 61.49370611970848
+      northeast:
+        lng: 23.8073193802915
+        lat: 61.4964040802915
+    location:
+      lng: 23.80600829999999
+      lat: 61.49514079999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Takojankatu
+      long_name: Takojankatu
+    - types:
+        - locality
+        - political
+      short_name: Tampere
+      long_name: Tampere
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Tampere
+      long_name: Tampere
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Tampere
+      long_name: Tampere
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Pirkanmaa
+      long_name: Pirkanmaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "33540"
+      long_name: "33540"
+  place_id: ChIJIaW9N1_fjkYRDNiRCYMKEtE
+  url: https://maps.google.com/?q=Takojankatu+11,+33540+Tampere,+Finland&ftid=0x468edf5f37bda521:0xd1120a830991d80c
+visibility: Public
+endDate: 1714338000000
+org:
+  owner: ""
+  importedAt: 1704822889958
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/tamperesocialdancing
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/392930274_309199688519827_1435823426911276422_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=596444&_nc_ohc=hWELW6MPHzYAX-pDSfh&_nc_ht=scontent-atl3-1.xx&oh=00_AfBGDt5TylQdNb4qKoO6qolWfowB96s-AQjnQUC4kFg-yQ&oe=65A36DCB
+  source: facebook
+  type: Organiser
+  createdAt: 1704822889958
+  owned: false
+  name: Tampere Social Dancing
+  place: ChIJXdqTRVXfjkYRwCILHr3j32o
+  updatedAt: 1704822889958
+  username: tamperesocialdancing
+claimed: No
+facebookId: "991439765190421"
+link: https://shop.tamperesocialdancing.fi/
+description: |-
+  2nd Edition of the Tampere Sensual Bachata Festival!
+  It's going to be epic ✨⚡
+
+  🔹 13+ hours of Workshops
+  🔹 3 Parties 💥💥💥
+  🔹 Local and International Teachers
+  🔹 Local and International DJs
+  🔹 Social Competition
+
+  Teachers:
+  Ofir & Ofri (Israel 🇮🇱)
+  Nikita & Natalia (Poland 🇵🇱)
+  Jordi & Noora (Spain 🇪🇦/Finland 🇫🇮)
+  Pinja (Finland 🇫🇮)
+  Mira & Fábio (Finland🇫🇮/Portugal🇵🇹)
+
+  DJs:
+  DJ Clau (Romania 🇷🇴)
+  DJ Pinjachata (Finland 🇫🇮)
+  DJ Puxa Puxa (Portugal 🇵🇹)
+
+  - Schedule -
+  Friday, 26/04/2024:
+  20:00-21:00 - Pre-party Workshop
+  21:00-02:00 - Opening Party
+
+  Saturday, 27/04/2024:
+  11:00-14:15 - Workshops
+  14:15-15:15 - Lunch Break
+  15:15-16:00 - Social Competition
+  16:10-18:15 - Workshops
+
+  20:30-21:30 - Pre-Party Workshop
+  21:30-02:00 - Grand Party
+
+  Sunday, 28/04/2024:
+  11:00-14:15 - Workshops
+  14:15-15:15 - Lunch Break
+  15:15-18:30 - Workshops
+  20:30-00:00 - Closing Party
+
+  - Tickets -
+  https://shop.tamperesocialdancing.fi
+
+  - Location -
+  LundDance
+  Takojankatu 11
+  33500 Tampere
+
+  - Questions -
+  tamperesocialdancing@gmail.com
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 2nd Tampere Sensual Bachata Festival 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJXdqTRVXfjkYRwCILHr3j32o
+international: No
+hash: 1714150800000+ChIJIaW9N1_fjkYRDNiRCYMKEtE
+startDate: 1714150800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVwzojAqG6pGAjrqQrS15.png?generation=1704822908926856&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853307/kerzwrttzu08i8mebcwa.jpg
+viewsCount: 18
+id: VwzojAqG6pGAjrqQrS15

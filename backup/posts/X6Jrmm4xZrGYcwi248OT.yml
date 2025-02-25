@@ -1,0 +1,123 @@
+endDate: 1711065600000
+sourceUrl: https://www.facebook.com/events/283467688115044/
+createdAt: 1710684370486
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710228209000
+updatedAt: 1710684370486
+importedAt: 1710684370486
+providerUpdatedAt: 1710228209000
+facebookId: "283467688115044"
+facebook: https://www.facebook.com/events/283467688115044/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/283467688115044/
+eventType: Party
+providerItemId: 10008570-1710979200-1711065599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: myhive Haller Gardens, Szent Benedek utca 1., Budapest, 1097, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710979200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Soroksári út 30-34, 1095 Hungary
+  website: https://immofinanz.com/en/office/myhive-haller-gardens
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: myhive Haller Gardens
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0693797697085
+        lat: 47.4730565697085
+      northeast:
+        lng: 19.0720777302915
+        lat: 47.4757545302915
+    location:
+      lng: 19.0708273
+      lat: 47.4744413
+  address_components:
+    - types:
+        - street_number
+      short_name: 30-34
+      long_name: 30-34
+    - types:
+        - route
+      short_name: Soroksári út
+      long_name: Soroksári út
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: IX. kerület
+      long_name: IX. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1095"
+      long_name: "1095"
+  place_id: ChIJG3mLpdDdQUcRX-RCKl1qOuQ
+  url: https://maps.google.com/?cid=16445573937670317151
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1710684383078
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/flowon2
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710684383/ssbkgvwr3rcijnatko0j.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1710684383078
+  owned: false
+  name: FLOW On2
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1710684383078
+  username: flowon2
+claimed: No
+link: ""
+description: >-
+  Get ready for an unforgettable night at Flowon2 - Special Edition Salsa Night!
+  🌟 We're thrilled to announce that we have 2 special guests—Europe's best
+  Salsa DJs will be joining us, ensuring an amazing night of music and dance.
+  💃🕺 Don't miss out on this extraordinary event! Save the date and let's make
+  it a night to remember! 🎶
+
+  Location / Helyszín: Budapest, 1097 Szent Benedek utca 1
+
+  DJS: DJ DMITRI DJ RSILVA DJ ANAS
+
+
+  Enry Fee : 4500 FT / 12 Euro
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684385/lfxyekif2suu8qfleqt2.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "SALSA FLOW Budapest "
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1711051200000+ChIJG3mLpdDdQUcRX-RCKl1qOuQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FX6Jrmm4xZrGYcwi248OT.png?generation=1710684411707635&alt=media
+id: X6Jrmm4xZrGYcwi248OT

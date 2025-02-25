@@ -1,0 +1,175 @@
+venue:
+  formatted_address: Möckernstrasse 68, 10965 Berlin, Germany
+  website: https://www.cumbancha.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Cumbancha "LaFamilia" -Salsa Tanzschule - Berlin
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3788282302915
+      south: 52.48947941970851
+      north: 52.49217738029151
+      west: 13.3761302697085
+    location:
+      lng: 13.3774641
+      lat: 52.4907097
+  address_components:
+    - types:
+        - street_number
+      short_name: "68"
+      long_name: "68"
+    - types:
+        - route
+      short_name: Möckernstrasse
+      long_name: Möckernstrasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10965"
+      long_name: "10965"
+  international_phone_number: +49 173 6554433
+  place_id: ChIJX3OibiVQqEcR9ehsDbX5Ysc
+  url: https://maps.google.com/?cid=14367320317274941685
+endDate: 2023-07-06T01:00
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2Fb729714f-4362-417f-a513-af9e6e45c3ae?alt=media&token=95cb99f0-a4de-4c99-b5e3-c4c1a23b9fa3
+createdAt: 1681826538615
+artists:
+  - instagram: https://instagram.com/kyanapuravida
+    username: kyanapuravida
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - kyanapuravida
+international: No
+updatedAt: 1681826538615
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+org:
+  instagram: https://instagram.com/cumbancha.tanzschule_berlin
+  username: cumbancha.tanzschule_berlin
+eventType: Course
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    aslihan: true
+name: Bachata Improver Fundamentals Intensivkurs
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-04T00:00
+username: aslihan
+description: >-
+  2 Monate mit Kyana
+
+
+  Es gibt Situationen, in den Du nicht sauber Führen kannst oder unsicher im Folgen?
+
+
+  In den offenen Kursen wird nicht ins Detail gegangen?
+
+
+  Du kommst aus Kursen mit noch mehr Fragen als Antworten?
+
+
+  Du gehörst nicht mehr zu den Einsteigern mit Erfahrung, bist aber in den Mittelstufen Kursen auch nicht richtig?
+
+
+
+
+  Kurz: Du weißt nicht, welcher Kurs der richtige ist, weil du dazwischen stehst.
+
+
+  Um dir in einem geschützen Raum die Möglichkeit zu geben, dich in deinem Tempo entwickeln zu können,
+
+
+  haben wir diesen Intensivkurs entworfen.
+
+
+  In diesem Kurs gibt es keine permanent wechselnden Teilnehmer- hier formt sich eine feste Gruppe.
+
+
+  Das gibt Sicherheit und Vertrauen.
+
+
+  Hier wird auch auf die Details geachtet.
+
+
+  Dein Stil wird in kleinen Schritten verfeinert und du wirst Schritt für Schritt merken,
+
+
+  wie du voran kommst und selbstsicherer wirst.
+
+
+
+
+  Wie?
+
+
+  In einer geschlossenen festen Gruppe (keine wechselnden Teilnehmer)
+
+  2 Monate
+
+  wöchentlich
+
+  intensives Training von 90 min.
+
+  jeden Donnerstag
+
+
+
+  Was?
+
+
+  Werde aufmerksam auf kleine Bewegungen
+
+  sauberes, sicheres Führen und Folgen sind die Grundlagen zu schönem Tanz
+
+  Körper-Isolationen sind enorm entscheidend für Bachata Sensual- das wird fokusiert unterrichtet
+
+  Übungen zum Verbinden als Tanzpaar
+
+  Kleine Schritt-Kombinationen , um „schnellere Füße“ zu bekommen
+
+
+
+  Ziel
+
+
+  Werde fit für die Mittelstufe.
+id: CYwbXUEWov8UOe01rN3E
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FCYwbXUEWov8UOe01rN3E.png?generation=1681826615749551&alt=media
+viewsCount: 8

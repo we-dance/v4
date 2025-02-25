@@ -1,0 +1,26 @@
+createdAt: 1669732227792
+updatedBy: ~
+createdBy: ~
+name: Helsinki, Finland
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+type: City
+updatedAt: 1669732227792
+username: Helsinki
+website: https://t.me/+JeHDwFcSAJ45ZWIy
+partner: ""
+id: BEUCIGF4BePfyX0NNlc9
+cityPlaceId: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+location:
+  country: Finland
+  latitude: 60.16985569999999
+  locality: Helsinki
+  region: ""
+  place_id: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+  longitude: 24.938379
+watch:
+  count: 1
+  list:
+    fritzmcormack: true
+  usernames:
+    - fritzmcormack
+viewsCount: 207

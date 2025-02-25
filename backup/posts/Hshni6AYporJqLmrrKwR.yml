@@ -1,0 +1,117 @@
+venue:
+  website: https://www.berlin.de/sehenswuerdigkeiten/3560363-3558930-volkspark-friedrichshain.html
+  formatted_address: 10249 Berlin, Germany
+  name: Volkspark Friedrichshain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.45337740000001
+      south: 52.52087049999999
+      north: 52.53232209999999
+      west: 13.4161126
+    location:
+      lng: 13.4363934
+      lat: 52.5280353
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Friedrichshain-Kreuzberg
+      long_name: Friedrichshain-Kreuzberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10249"
+      long_name: "10249"
+  url: https://maps.google.com/?cid=14015699396442722166
+  place_id: ChIJ_S5uaxJOqEcRdg-gu1fEgcI
+  international_phone_number: +49 30 902980
+endDate: 2023-06-27T00:00
+claimed: No
+description: |-
+  7.00 PM Beginner
+  8.00 PM Intermediate
+  9.00 PM Free Dancing
+
+  Prices:
+  Single Class 14€
+  5 Class Card 60€
+  Add. Class Same Day 10€
+
+  New location→
+  Volkspark Friedrichshain
+  https://maps.app.goo.gl/Sabn7kboQLizHZ5JA
+
+  Please send a PM to register 015737889466
+  Looking forward💃🥳
+  Charlotte
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4BTrx7emrafQqCGrNiBGdrpqhK83%2F932865da-5443-4363-99be-17fba3ad8573?alt=media&token=669ef20a-4e6e-4877-b411-986964d2ac91
+duration: 60
+createdAt: 1683330007653
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: charlotte.brohmeyer.dance
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/charlotte.brohmeyer.dance
+    id: 3nNQwtJvBi5p9Hpeltr0
+    username: charlotte.brohmeyer.dance
+price: 14 EUR
+socialCover: ""
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: Hshni6AYporJqLmrrKwR
+artistsList:
+  - charlotte.brohmeyer.dance
+international: No
+updatedAt: 1683330007653
+updatedBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  instagram: https://instagram.com/charlotte.brohmeyer.dance
+  username: charlotte.brohmeyer.dance
+telegram: {}
+upVotes: 0
+eventType: Course
+form: No
+createdBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Forró with Charlotte
+online: No
+votes: 0
+styles: {}
+startDate: 2023-06-27T19:00
+username: highheelsgermany
+viewsCount: 5

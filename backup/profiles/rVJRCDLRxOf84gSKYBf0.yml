@@ -1,0 +1,35 @@
+createdAt: 1666105204961
+updatedBy: ~
+createdBy: ~
+name: London, United Kingdom
+place: ChIJdd4hrwug2EcRmSrV3Vo6llI
+type: City
+updatedAt: 1666105204961
+username: London
+website: https://t.me/joinchat/GAWqVBJD5zpChUDe
+partner: ""
+id: rVJRCDLRxOf84gSKYBf0
+cityPlaceId: ChIJdd4hrwug2EcRmSrV3Vo6llI
+location:
+  country: United Kingdom
+  latitude: 51.5072178
+  locality: London
+  region: England
+  place_id: ChIJdd4hrwug2EcRmSrV3Vo6llI
+  longitude: -0.1275862
+watch:
+  count: 5
+  list:
+    lauraquick: true
+    jacob: true
+    mendoza: true
+    LewisSlater: true
+    frans:
+      kuitunen: true
+  usernames:
+    - lauraquick
+    - jacob
+    - mendoza
+    - LewisSlater
+    - frans.kuitunen
+viewsCount: 495

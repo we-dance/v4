@@ -1,0 +1,272 @@
+endDate: 1730760900000
+sourceUrl: https://www.facebook.com/events/696069752643564/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1706712050000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726840967000
+facebookId: "696069752643564"
+facebook: https://www.facebook.com/events/696069752643564/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/696069752643564/
+eventType: Festival
+providerItemId: e696069752643564@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: La Viruta Berlin 2024
+location: Ballhaus Studios
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730397600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Kottbusser Damm 76, 10967 Berlin, Germany
+  website: http://www.ballhaus-rixdorf.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Ballhaus Rixdorf Studios
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4223386697085
+        lat: 52.4894426697085
+      northeast:
+        lng: 13.4250366302915
+        lat: 52.49214063029149
+    location:
+      lng: 13.4238144
+      lat: 52.4908209
+  address_components:
+    - types:
+        - street_number
+      short_name: "76"
+      long_name: "76"
+    - types:
+        - route
+      short_name: Kottbusser Damm
+      long_name: Kottbusser Damm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Neukölln
+      long_name: Bezirk Neukölln
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10967"
+      long_name: "10967"
+  international_phone_number: +49 30 6916370
+  place_id: ChIJH7ksGLZPqEcRYbBMsFZw_fA
+  url: https://maps.google.com/?cid=17365159255837814881
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417979982
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/tango.rouge.berlin
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417980/puitoi5z4gusyaveiuqu.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417979982
+  owned: false
+  name: Tango Rouge
+  place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+  updatedAt: 1728417979982
+  username: tango.rouge.berlin
+claimed: No
+link: ""
+description: >
+  La Viruta Berlin 
+
+
+  Lineup: 
+
+  Horacio Godoy & Maricel Giacomini, Juampy Ramirez & Daniel Arroyo, Dilara Ogretmen & Juan David Vargas, Celeste Medina & Andrés Sautel 
+
+  DJs: Horacio Godoy, Claire Deville, Francesco Cieschi, Alma Mia 
+
+
+  Ballhaus Rixdorf Studios
+
+
+  Milongas: 
+
+
+  THU 31.10. 21:00-2:00 
+
+  DJ: Claire Deville 
+
+  Show: Dilara Ogretmen & Juan David Vargas  
+
+  Entrance 15 Euro / 10 Low Budget 
+
+
+  FRI 1.11. 21:30-4:00 
+
+  DJ: Horacio Godoy 
+
+  Show: Juampy Ramirez & Daniel Arroyo 
+
+  Entrance 15 Euro / 10 Low Budget 
+
+
+  SAT 2.11. 21:30-5:00 
+
+  DJ: Francesco Cieschi 
+
+  Show: Horacio Godoy & Maricel Giacomini 
+
+  Entrance 20 Euro / 15 Low Budget 
+
+
+  SUN 3.11. 21:00-2:00 
+
+  DJ: Alma Mia
+
+  Show: Celeste Medina & Andrés Sautel 
+
+  Entrance 15 Euro / 10 Low Budget 
+
+
+  Monday Afterparty @ Tango Rouge 
+
+  Entrance 10 Euro / 7 Low Budget 
+
+
+
+  Tango University with Horacio Godoy 
+
+
+  General Seminars: 
+
+
+  #1 Thu 31.10. 19:00: Osvaldo Pugliese.   			               
+
+  #2 Fri. 1.11. 18:00: Forgotten Moves of old Milongueros 	
+
+  #3  Fri. 1.11. 19:45: Ricardo Tanturi				               
+
+  #4 Sat. 2.11. 16:00: Technique for Expression 			
+
+
+  Advanced Musicality: Countermelody
+
+  Counter melodies are one or more melodies that complement the main melody. These complementary melodies cause a big confusion in the dancers. Understanding what they are, how they work, how to interpret them, gives dancers more possibilities for an interpretation close to what the music proposes.
+
+
+  #5 Countermelody 1 				Sat 2.11. 17:45
+
+  #6 Countermelody 2				Sat 2.11. 19:30
+
+  #7 Countermelody 3				Sun 3.11. 17:00
+
+  #8 Countermelody 4				Sun 3.11. 18:45
+
+
+
+  Tickets:
+
+  1 Workshop: 35 Euros
+
+  �2 Workshops: 60 Euros�
+
+  4 Workshops: 110 Euros�
+
+  6 Workshops: 160 Euros
+
+  8 Workshops: 190 Euros
+
+
+  Festival Ticket for all Seminars and all Milongas: 230 Euros
+
+
+  Festival Social Ticket for Low Budget: 150 Euro 
+
+  For Social Ticket please request via pebeteberlin@gmail.com 
+
+
+
+  Booking:
+
+  https://www.eventbrite.de/e/la-viruta-berlin-2024-tickets-933970790777 
+
+
+  _____________________________________________________
+
+
+  4 Workshops with Juampy Ramirez & Daniel Arroyo 
+
+
+  1. Sat 2.11. 17:45: Music and movement in tango (Part 1)	
+
+  2. Sat 2.11. 19:30: Let others guide you 				
+
+  3. Sun 3.11. 17:00: Development of spiral movement.		
+
+  4. Sun 3.11. 18:45: Music and movement in tango		
+
+
+  1 WS: 30 Euro
+
+  2 WS: 55 Euro 
+
+  4 WS: 100 Euro 
+
+  This Seminars are not included in the festival ticket. 
+
+  You pay cash at the entrance
+
+  Registration: pebeteberlin@gmail.com
+
+
+
+  Venue: 
+
+  Ballhaus Rixdorf 
+
+  Kottbusser Damm 76
+
+  10967 Berlin
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417981/u4hcxbecxteemwz34cqg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1730397600000+ChIJH7ksGLZPqEcRYbBMsFZw_fA
+id: 8fLtHJryW6xJ5FxJMVAJ

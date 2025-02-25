@@ -1,0 +1,124 @@
+sourceUrl: https://facebook.com/events/s/latino-life-in-the-park-2024/1080775853126402/
+createdAt: 1720622019645
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622019645
+username: alexrazbakov
+venue:
+  formatted_address: Mattock Ln, London W5 5EQ, UK
+  website: https://www.ealing.gov.uk/info/201136/parks_in_the_borough/662/ealing_parks/3
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Walpole Park
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.311475530291502
+        lat: 51.50844915
+      northeast:
+        lng: -0.308777569708498
+        lat: 51.51172935
+    location:
+      lng: -0.3097607
+      lat: 51.5092692
+  address_components:
+    - types:
+        - route
+      short_name: Mattock Ln
+      long_name: Mattock Lane
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: W5 5EQ
+      long_name: W5 5EQ
+  international_phone_number: +44 20 8825 6999
+  place_id: ChIJMYYNDYwNdkgRSqk4sr9yCwQ
+  url: https://maps.google.com/?cid=291452768549906762
+endDate: 1721509200000
+claimed: No
+link: https://www.skiddle.com/festivals/latino-life-in-the-park/
+description: >-
+  Latino Life in the Park 2024 - TICKETS NOW LIVE 🥳 🎟️
+
+  The UK’s largest Latin music festival returns for its 8th year this summer, showering Latin love and sprinkling Latin magic all over West London’s Walpole Park.
+
+  2 Fantastic Stages...taking you on a journey through Salsa, Reggaeton, Samba, Jazz, Fusion, Folk, Funk, Andean, Bolero, Hip-Hop and more, culminating in a party you won’t want to leave.
+
+  💥 Made by Latinos, for EVERYBODY.
+
+  💥 Celebrating Colombian Independence Day
+
+  Saturday 20th July, Walpole Park, Ealing W5, 12-10.30pm
+
+  Immersive Experiences - Viva Mexico 🇲🇽 / Cuba Linda 🇨🇺
+
+  Kids Fun Zone 🎠
+
+  Cocktail Bars 🍹
+
+  Latino Street Food 🌮
+
+  Family Friendly 👨‍👧‍👦
+
+  VIP Tickets Available 😎
+
+  Tickets now LIVE 🎟️
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1080775853126402/
+facebookId: "1080775853126402"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Latino Life in The Park 2024
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1721473200000+ChIJMYYNDYwNdkgRSqk4sr9yCwQ
+startDate: 1721473200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622020/av3dtdqzvap6xpwkyck2.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/latinolifeuk
+  name: Latino Life
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720622019/lw8h0xb958cv9ri0ylag.jpg
+  bio: ""
+  id: JA6VFjKF30YFoShCNe7D
+  instagram: ""
+  username: latinolifeuk
+viewsCount: 3
+id: JPGEtih4bdX7uqXjwxMg

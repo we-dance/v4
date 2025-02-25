@@ -1,0 +1,30 @@
+createdAt: 1711813108009
+locales:
+  en: true
+  es: true
+invitedBy: ""
+visibility: Members
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+timezone: GMT-0400
+name: yatusabes.blog
+type: Dancer
+username: yatusabes.blog
+daysUsed: 1
+pwaUsed: false
+lastLoginAt: 1711820073931
+viewsCount: 4
+offers: []
+website: https://yatusabes.blog/
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: Female
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+team: []
+id: SdUproFXNpdOdyk8z2pww1ndXMw1
+instagram: https://www.instagram.com/yatusabes.blog/
+updatedAt: 1718200663161
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"

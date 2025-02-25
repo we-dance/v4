@@ -1,0 +1,204 @@
+endDate: 1729483200000
+sourceUrl: https://www.facebook.com/events/2515715281951122/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1706168665000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725275709000
+facebookId: "2515715281951122"
+facebook: https://www.facebook.com/events/2515715281951122/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2515715281951122/
+eventType: Festival
+providerItemId: e2515715281951122@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: LA CASA DE BACHATA Festival 2024 - promocode GOS173
+location: Nürnberg
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729270800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 90 Nuremberg, Germany
+  website: http://www.nuernberg.de/internet/portal_e/index.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Nuremberg
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.98347899031199
+        lat: 49.3314338356583
+      northeast:
+        lng: 11.28259559965816
+        lat: 49.54075327608598
+    location:
+      lng: 11.0745641
+      lat: 49.45428810000001
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Nuremberg
+      long_name: Nuremberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Middle Franconia
+      long_name: Middle Franconia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bavaria
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code_prefix
+        - postal_code
+      short_name: "90"
+      long_name: "90"
+  place_id: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+  url: https://maps.google.com/?q=90+Nuremberg,+Germany&ftid=0x479f57aeb5b61cd3:0xdd5daf85a98c21b7
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: >-
+  LA CASA DE BACHATA Festival 2024
+
+
+  Buy your pass with discount here:
+
+
+  https://www.goandance.com/en/e/6660?promoter=GOS173
+
+
+  🔥🔥With promocode GOS173 you receive 5€ discount! 🔥🔥
+
+
+  NEW FESTIVAL, NEW CONCEPT AND NEW MEMORIES FOR ALL BACHATA-FANS.
+
+
+  Join our first Edition of "LA CASA DE BACHATA" and be Part of this new and unique Theme Festival.
+
+
+  This is waiting for you:
+
+  More than 25 Workshops:
+
+  -Bachata Sensual Workshops
+
+  -Bachazouk Workshops
+
+  -RoleRotation Workshops
+
+  -Bachata Fusion Workshops
+
+  -Salsa Workshops
+
+  -Pilates and Mindset Workshops
+
+  -More than 10 international Artists
+
+  -2 Floors
+
+  -4 Dj´s
+
+  -3 Parties (open End)
+
+  - Amazing Guestdancers from all over the World
+
+  -Nice Location -> LATIN GROOVE TANZSCHULE ULMENSTRAßE 52A 90443 - NÜRNBERG Bayern
+
+
+  TICKETS:
+
+
+  FULL PASS
+
+  50€ - until 31.01
+
+  69€ - until 29.02
+
+  79€ - until 31.03
+
+  89€ - until 30.04
+
+  99€ - until 31.05
+
+  109€ - until 30.06
+
+  119€ - until 31.07
+
+  129€ - until 31.08
+
+  139€ - until 30.09
+
+  149€ - until 15.10
+
+
+  PARTY PASS
+
+  85€ - until 30.09
+
+  95€ - until 21.10
+
+
+  🔥🔥With promocode GOS173 you receive 5€ discount! 🔥🔥
+
+  Buy your pass with discount here:
+
+  https://www.goandance.com/en/e/6660?promoter=GOS173
+
+
+  Be Part of the Dance heist.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417998/y68hqo9molysooawa0tn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+international: No
+hash: 1729270800000+ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+viewsCount: 7
+id: KZdqcq5br7L4mRi9T2V7

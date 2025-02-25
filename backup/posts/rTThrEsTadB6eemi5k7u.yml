@@ -1,0 +1,148 @@
+endDate: 1729465200000
+sourceUrl: https://www.facebook.com/events/2025050234517959/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1699448922000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1699450870000
+facebookId: "2025050234517959"
+facebook: https://www.facebook.com/events/2025050234517959/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2025050234517959/
+eventType: Workshop
+providerItemId: e2025050234517959@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: DUKE 2024
+location: MidKent College
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729267200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Medway Rd, Gillingham ME7 1FN, UK
+  website: https://www.midkent.ac.uk/?utm_source=google%20my%20business&utm_medium=organic&utm_campaign=google%20my%20business
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: MidKent College Gillingham Campus
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.540829469708498
+        lat: 51.39223181970849
+      northeast:
+        lng: 0.5435274302915021
+        lat: 51.39492978029149
+    location:
+      lng: 0.5418919999999999
+      lat: 51.3937538
+  address_components:
+    - types:
+        - route
+      short_name: Medway Rd
+      long_name: Medway Road
+    - types:
+        - postal_town
+      short_name: Gillingham
+      long_name: Gillingham
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Medway
+      long_name: Medway
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: ME7 1FN
+      long_name: ME7 1FN
+  international_phone_number: +44 1634 383000
+  place_id: ChIJCTmdAv3M2EcR-QPtNEEDoo0
+  url: https://maps.google.com/?cid=10205723284170671097
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417998467
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/danceukevolution
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417998/x4n4fdesw9djefyoj4mt.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417998467
+  owned: false
+  name: Dance UK Evolution
+  updatedAt: 1728417998467
+  username: danceukevolution
+claimed: No
+link: http://DanceUKevolution.com/
+description: >-
+  4th edition DUKE 2024 is now on sale!!!
+
+
+  This year we have changed it a week earlier as a one off to be 18 - 20 Oct 2024
+
+
+  We have an amazing modern venue for you to enjoy with free parking, boasting air conditioning in all rooms for your comfort including the main room being the Grande Theatre with retractable seating when needed. 
+
+
+  By Popular Demand we will have the return of 'The DUKE Kitchen' with our amazing chefs! All our food is Halal and it includes delicious vegetarian, vegan and gluten free options. 
+
+
+  ★ We are pleased to announce a New CUBAN Room (By popular demand)
+
+
+  ★ At least FOUR rooms: Salsa, Bachata, Kizomba, Cuban
+
+
+  ★ 3 amazing nights including a Halloween Special.
+
+
+  ★ Amazing exclusive shows for you to enjoy with many new and old school favourite performances .
+
+
+  ★ Impressive workshop timetable featuring some of the best UK & International Artists. 
+
+
+  ★ Epic Halloween Night Competition. The perfect excuse for dressing up !!! Details to follow.
+
+
+  ★ Artist & DJ  LINE UP - To be Confirmed
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418000/sp7mcqnxbxtyqamj1tk9.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1729267200000+ChIJCTmdAv3M2EcR-QPtNEEDoo0
+id: rTThrEsTadB6eemi5k7u

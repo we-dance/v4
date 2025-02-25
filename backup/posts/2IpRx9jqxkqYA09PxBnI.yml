@@ -1,0 +1,192 @@
+createdAt: 1704822892688
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1722690421562738/
+source: facebook
+updatedAt: 1704822892688
+username: wedancebot
+venue:
+  formatted_address: Newport Beach, CA, USA
+  website: http://www.newportbeachca.gov/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Newport Beach
+  geometry:
+    viewport:
+      southwest:
+        lng: -117.9572316295738
+        lat: 33.56426566328536
+      northeast:
+        lng: -117.7839002641163
+        lat: 33.6717529584798
+    location:
+      lng: -117.9298493
+      lat: 33.6188829
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Newport Beach
+      long_name: Newport Beach
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Orange County
+      long_name: Orange County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CA
+      long_name: California
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+  place_id: ChIJ3bO_xLbo3IARvVmLZFSVVPE
+  url: https://maps.google.com/?q=Newport+Beach,+CA,+USA&ftid=0x80dce8b6c4bfb3dd:0xf1549554648b59bd
+visibility: Public
+endDate: 1721635200000
+org:
+  owner: ""
+  importedAt: 1704822898035
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/lazoukmarathon
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/303369099_489643959834977_5766877034804609590_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=109&ccb=1-7&_nc_sid=596444&_nc_ohc=1tkrCvuK8oYAX9vMQCP&_nc_ht=scontent-atl3-1.xx&oh=00_AfBC73LijCGiBHgcACfgXAqFN4sZ1_ODjWrXMgk8ccNCjg&oe=65A2E12D
+  source: facebook
+  type: Organiser
+  createdAt: 1704822898035
+  owned: false
+  name: LA Zouk Marathon
+  place: ChIJ3bO_xLbo3IARvVmLZFSVVPE
+  updatedAt: 1704822898035
+  username: lazoukmarathon
+claimed: No
+facebookId: "1722690421562738"
+link: https://zouk-points.worldclass.cc/la-zouk-marathon-2024
+description: >
+  📅 July 18, 2024 to July 22, 2024
+
+  It's our 5th edition of LA Zouk Marathon! We had such an amazing time in Newport Beach with some epic day club and we are doing it again! Zouk all day and all night! Almost 40 hours of day and night parties with some of the best DJ's around! Some food provided to keep you fueled throughout the event!!!! Just Zouk, Eat, Chill, Repeat in the OC.
+
+  **Purchasing a full pass earns you 2 Zouk Points!
+
+  Save and get your pass early!
+
+  👉 https://zouk-points.worldclass.cc/la-zouk-marathon-2024 🎟
+
+  Join us for:
+
+  ★ Zoukers Disney Day 🏰
+
+  ★ Legendary Brunches 🙌
+
+  ★ Day Parties! ☀️🥳
+
+  ★ Night Parties! ✨️
+
+  ★ Beach Party! ⛱️
+
+
+  ▄▄▄▄▄▄ TALENT ▄▄▄▄▄▄
+
+  Talent 🎧
+
+  ★ TBA
+
+
+  ▄▄▄▄▄▄ SCHEDULE ▄▄▄▄▄
+
+  Thursday
+
+  ★ Come early to join us for a Zoukers Disney Day at Disneyland in Anaheim! (Not included in full pass)
+
+  Friday
+
+  ★ Night Party
+
+  Saturday
+
+  ★ Brunch & Day Party
+
+  ★ Night Party
+
+  Sunday
+
+  ★ Brunch & Day Party
+
+  ★ Night Party
+
+  Monday
+
+  ★ Newport Beach Party
+
+  *times may vary, subject to change.
+
+
+  ▄▄▄▄▄▄ VENUE ▄▄▄▄▄▄▄
+
+  Day Clubs:
+
+  ★ TBA
+
+  Night Parties:
+
+  ★ TBA
+
+
+  ▄▄▄▄▄▄ OFFICIAL HOTEL (Please read all info) ▄▄▄
+
+  ★ TBA
+
+
+  ▄▄▄▄▄▄ AIRPORT ▄▄▄▄▄▄▄
+
+  ★ Fly into John Wayne Airport (SNA) For the closest and most convenient flight. Only 1.5 miles to the hotel. Airport is just minutes away from our venues!
+
+
+  ▄▄▄▄▄▄ CONTACTS ▄▄▄▄▄
+
+  LA Zouk Marathon - Christina Montoya
+
+
+  ▄▄▄▄▄▄ POLICY ▄▄▄▄▄
+
+  N﻿o refunds. Pass transfers to another person accepted. $15 transfer fee applies. Transfer deadline July 1st.
+
+
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+
+  Event featured on the Global Zouk Calendar
+
+  http://zoukology.com/calendar
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: LA Zouk Marathon 2024
+online: No
+place: ChIJ3bO_xLbo3IARvVmLZFSVVPE
+international: No
+hash: 1721331000000+ChIJ3bO_xLbo3IARvVmLZFSVVPE
+startDate: 1721331000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F2IpRx9jqxkqYA09PxBnI.png?generation=1704822919601547&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851545/zpm1jlf4cklw5nnxqe0p.jpg
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 13
+id: 2IpRx9jqxkqYA09PxBnI

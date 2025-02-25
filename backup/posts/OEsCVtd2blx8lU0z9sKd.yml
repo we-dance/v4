@@ -1,0 +1,121 @@
+venue:
+  formatted_address: Thorwaldsenstraße 29, 80335 München, Germany
+  website: http://www.badlemonsdance.com/%20%20%20%20https://www.fokustanz.de%20%20https://www.tanz-quelle.de
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: T29 - dance space
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5488097802915
+      south: 48.1501192197085
+      north: 48.1528171802915
+      west: 11.5461118197085
+    location:
+      lng: 11.5474135
+      lat: 48.1514046
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Thorwaldsenstraße
+      long_name: Thorwaldsenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  place_id: ChIJhyNqQ5t3nkcR8N7BISOISZA
+  url: https://maps.google.com/?cid=10396990899233087216
+endDate: 2023-07-23T16:00
+claimed: No
+description: >-
+  Workshop on Movement and stillness in dance & Kalaripayattu basics (martial
+  art form)
+
+
+  Happy to bring this unique workshop to Munich for all dance and movement enthusiasts. This workshop is designed for anyone who would like to explore, experiment and develop. The workshop focuses on fundamentals such as breath, speed, and energy, involving the core structure of the body influenced by different methods of Kalaripayattu and other martial arts combined. If you are already a dancer, it is a good opportunity to broaden and deepen your movement horizon.
+
+
+  Abhilash Ningappa is a performer, choreographer, and teacher. He is a trained yoga practitioner and martial arts teacher in Kalaripayattu and contemporary dance.
+
+
+  All important details on the poster!
+
+
+  We, Mārgam school of dance are excited to organize this workshop with the support of TanzQuelle Munich.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F82TOc7OEOQXHND5jqQgGQ0tXi2z2%2F06f2fddc-7ad5-4f2e-840d-69b244b2d62c?alt=media&token=b3e3b56b-a0d8-420e-b47f-eab78ba8517b
+createdAt: 1689281897834
+artists: []
+price: 25 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1689281897834
+updatedBy: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/deepahegde28
+  name: deepahegde
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F82TOc7OEOQXHND5jqQgGQ0tXi2z2%2F7c0ae773-5617-4c01-a03e-a685c5599351?alt=media&token=d556cb24-47fa-40fb-80b3-c6ffb4c3c26f
+  bio: Indian classical performer/teacher
+  id: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+  instagram: https://instagram.com/deepahegade
+  username: deepahegde
+eventType: Workshop
+form: No
+createdBy: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+watch:
+  count: 1
+  list:
+    deepahegde: true
+name: Workshop with Abhilash Ningappa
+online: No
+styles: {}
+startDate: 2023-07-22T10:00
+username: deepahegde
+instagram:
+  requestedAt: 1689281914261
+  state: requested
+telegram:
+  requestedAt: 1689281919096
+  state: requested
+viewsCount: 41
+id: OEsCVtd2blx8lU0z9sKd

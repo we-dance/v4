@@ -1,0 +1,121 @@
+venue:
+  formatted_address: Kirchenstraße 88, 81675 München, Germany
+  website: http://www.teamwerk-architekten.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Teamwerk Architekten Jan Foerster
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6100068302915
+      south: 48.13134246970849
+      north: 48.13404043029149
+      west: 11.6073088697085
+    location:
+      lng: 11.6087
+      lat: 48.13261519999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "88"
+      long_name: "88"
+    - types:
+        - route
+      short_name: Kirchenstraße
+      long_name: Kirchenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81675"
+      long_name: "81675"
+  international_phone_number: +49 89 54547927
+  place_id: ChIJHwxion11nkcRmN-MW7iuH5Q
+  url: https://maps.google.com/?cid=10673441748724539288
+  username: www.teamwerk-architekten.de
+endDate: 1721845800000
+claimed: No
+link: https://tanze-samba-muenchen.de/2024/mini-anfaenger-kurse-fuer-samba-oder-forro-im-juli/
+description: Ein Samba de Gafieira-Mini-Kurs für die Niveaus Anfänger plus und
+  Mittelstufe. Wer vorher üben möchte, kann dies Dienstags ab 19 Uhr oder
+  Donnerstags von 19 bis 20 Uhr im Dianatempel im Hofgarten tun.
+program: []
+type: event
+seriesId: AMIyiUM9nHyPVxe6bZao
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5CA8tqiQDseLR3IcZSIigS9rVDH2%2F989fae2a-c5fd-4c6a-868b-6b76c7779920?alt=media&token=a6d6d9ab-121e-4873-bc9e-5172856e3172
+createdAt: 1719168768017
+price: 50 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: "Für Personen, die finanzielle Hilfen erhalten sowie für
+  Schüler/Studenten, gelten ermäßigte Preise: Je Kurs: 37 €"
+id: kbIAZQlSazfLn0QvY50U
+international: No
+updatedBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+visibility: Public
+org:
+  username: Tanze-Samba-Muenchen
+eventType: Course
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+watch:
+  count: 1
+  list:
+    Tanze-Samba-Muenchen: true
+name: Samba de Gafieira Minikurse für Anfänger Plus und Mittelstufe
+online: No
+styles:
+  Samba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 1721842200000
+hash: 1721842200000+ChIJHwxion11nkcRmN-MW7iuH5Q
+username: Tanze-Samba-Muenchen
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkbIAZQlSazfLn0QvY50U.png?generation=1719168786638791&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Noemia Pacheco
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd23a5ab0-7faf-4e06-ae7a-e16422306935?alt=media&token=00e10584-2211-4bd2-b123-5bf991679ef4
+    bio: "@tanzesambamitmir_munchen"
+    id: leNtAGXy9kdjgwoK5PossuB2puG3
+    instagram: ""
+    username: noemia.pacheco
+artistsList:
+  - noemia.pacheco
+updatedAt: 1719170368779
+viewsCount: 2

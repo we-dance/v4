@@ -1,0 +1,195 @@
+createdAt: 1704894114140
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+username: Aina
+artists: []
+facebook: https://www.facebook.com/events/347262114766396/
+facebookId: "347262114766396"
+artistsList: []
+id: DM8gElkgUun8laCWBUhv
+venue:
+  formatted_address: Wiesendamm 24, 22305 Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Wiesendamm 24
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.0369694697085
+        lat: 53.5862211697085
+      northeast:
+        lng: 10.0396674302915
+        lat: 53.5889191302915
+    location:
+      lng: 10.038348
+      lat: 53.5876539
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Wiesendamm
+      long_name: Wiesendamm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Nord
+      long_name: Hamburg-Nord
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "22305"
+      long_name: "22305"
+  place_id: ChIJJ6gh3DmJsUcRb38M7SjRSjI
+  url: https://maps.google.com/?q=Wiesendamm+24,+22305+Hamburg,+Germany&ftid=0x47b18939dc21a827:0x324ad128ed0c7f6f
+visibility: Public
+endDate: 1707616800000
+claimed: No
+link: ""
+description: >
+  Salsa & Kizomba on 2 Floors
+
+
+  Am 10. Februar 2024 ist es wieder so weit. Zum dritten Mal veranstalten wir unsere „Salsa & Kizomba on 2 Floors“ in der Wiese e.G. (Wiesendamm 24 in 22305 Hamburg)
+
+
+  100 % Salsa und 100 % Kizomba machen insgesamt 200 % Tanzspaß im Winter.
+
+
+  Euch erwarten unter anderem zwei große Tanzsäle mit Echtholz-Tanzboden, hochwertigen Beschallungsanlagen von LD-System, QSC und db und ein umfangreiches Getränkeangebot.
+
+
+  Besonderes Highlight – Workshop Nachmittag von 14:00 bis 18:00 Uhr
+
+
+  Am Nachmittag des 10. Februar erwarten euch dieses Mal zwei parallellaufende Workshop Nachmittage. Einmal für Salsa und einmal für Kizomba.
+
+
+  Salsa mit Rene, Ella und Alex:
+
+  14:00 – 15:00 Salsa On 1 (Part I)
+
+  15:00 – 16:00 Salsa On 1 (Part II)
+
+  16:00 – 17:00 Salsa Solo for everyone
+
+  17:00 – 18:00 Salsa On 2
+
+
+  Kizomba mit Joao und Giedre:
+
+  14:00 – 15:30 Mastering Foundations
+
+  15:30 – 17:00 Kizomba Musicality
+
+  17:00 – 18:00 Semba Moves
+
+
+  Preise:	
+  	
+  Fullpass Einzel	45 €
+
+  Fullpass Paar	79 €
+
+  Workshop Nachmittag Einzel	39 €
+
+  Workshop Nachmittag Paar	69 €
+
+  Party + Pre Party Workshop 	10 €
+
+
+  Kontakt für Ticketverkauf und Fragen zur Veranstaltung: 
+
+  info@one-event.hamburg
+
+
+  Tickets für die Workshop Nachmittage (14 – 18 Uhr) sind begrenzt auf 10 Paare je Workshop.
+
+
+  Was euch noch erwartet:
+
+
+  Pre-Party Workshops von 21:00 bis 22:00 Uhr
+
+
+  „Salsa Fusion for Ladies“ mit unserer bezaubernden Sandra
+
+  „Kizomba open Level“ mit Merle & Okan
+
+
+  Salsa DJs: DJ Yasser, DJ Noa, DJ Alexander
+
+  Kizomba DJs: DJ Rock, DJ Galo, DJ Lerroy
+
+
+  Euer Veranstalter 
+
+  One Event Hamburg
+program: []
+source: facebook
+eventType: Party
+type: event
+duration: 60
+form: No
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa & Kizomba on 2 Floors
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1707570000000+ChIJJ6gh3DmJsUcRb38M7SjRSjI
+startDate: 1707570000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDM8gElkgUun8laCWBUhv.png?generation=1704978400860935&alt=media
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid02o1WPizjMFnvsfJ7FVrB3eyhgbzMANKB5RrFK5EGHoPjjvXewPZsB1u6mjvmQjTtbl
+  name: Okan Kaplan
+  photo: https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/418854635_1691840971341256_9098274534809488361_n.jpg?stp=c24.0.40.40a_cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=5740b7&_nc_ohc=wuLQJSFxFbcAX80ONxA&_nc_ht=scontent-fra3-1.xx&oh=00_AfBLYqhG1ZPELWmHKZXyYstfadFXjkkJ3VzGW8MGDhipWA&oe=65A43C76
+  bio: ""
+  id: urN3RcjI8zrOzelXN6Bc
+  instagram: ""
+  username: okan.kaplan
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1705154806861
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851789/tsjpf1hjsiyb1qyqar1c.jpg
+viewsCount: 45

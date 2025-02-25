@@ -1,0 +1,153 @@
+endDate: 1715466600000
+sourceUrl: https://www.facebook.com/events/339927421849889/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1710809552000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710862271000
+facebookId: "339927421849889"
+facebook: https://www.facebook.com/events/339927421849889/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/339927421849889/
+eventType: Party
+providerItemId: e339927421849889@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Salsa Fiesta in Bad Aibling "
+location: Krokodo
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715448600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Schwimmbadstraße 13, 79100 Freiburg im Breisgau, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Schwimmbadstraße 13
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.840863869708499
+        lat: 47.9863942197085
+      northeast:
+        lng: 7.843561830291503
+        lat: 47.9890921802915
+    location:
+      lng: 7.842080500000001
+      lat: 47.9877531
+  address_components:
+    - types:
+        - street_number
+      short_name: "13"
+      long_name: "13"
+    - types:
+        - route
+      short_name: Schwimmbadstraße
+      long_name: Schwimmbadstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Süd
+      long_name: Süd
+    - types:
+        - locality
+        - political
+      short_name: Freiburg im Breisgau
+      long_name: Freiburg im Breisgau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Freiburg im Breisgau
+      long_name: Kreisfreie Stadt Freiburg im Breisgau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Freiburg
+      long_name: Freiburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "79100"
+      long_name: "79100"
+  place_id: ChIJua2GoKAckUcRBIXMHf2A1bU
+  url: https://maps.google.com/?q=Schwimmbadstra%C3%9Fe+13,+79100+Freiburg+im+Breisgau,+Germany&ftid=0x47911ca0a086adb9:0xb5d580fd1dcc8504
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsarosenheim
+  name: Baila y Fiesta de SalsaBina - Salsa Rosenheim
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953560/mnkubmdpw4mazo1i8q0l.jpg
+  bio: ""
+  id: V18OKknAZ4xLwc8EgdEr
+  instagram: ""
+  username: salsarosenheim
+claimed: No
+link: ""
+description: >-
+  Hola Familia,
+
+
+  eine Location mit dem besonderen Flair. Drinnen sein und sich wie draußen fühlen. Megageile große Tanzlocation mit großen Türen und Fenster und überdachtem Outdoor Bereich. 
+
+  Parkmöglichkeiten neben dem Freibad und direkt neben der Location. 
+
+  Ab 18 Uhr ist der Loungebereich für uns reserviert. Hier könnt ihr bis 21 Uhr a la carte fein speisen. 
+
+
+  Wie starten mit einem Salsa Schnupperkurs für absolute Starter mit Peter Ungaro und Salsabina.
+
+
+  Ab 20 Uhr serviert euch unser Residenz DJ JC Lahera aus Cuba feinste Latinomusica 50 % Salsa 40 % Bachata und 10 % Kizomba 
+
+
+  Wir freuen uns sehr, euch diesen Leckerbissen servieren zu dürfen 
+
+
+  Salsaludos 
+
+  Baila y Fiesta de Salsabina
+
+  und Team Rosenheim 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224696/rvatyvljh89evljtt5dw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJZdYLViYbkUcRsFffpbdrHwQ
+international: No
+hash: 1715448600000+ChIJua2GoKAckUcRBIXMHf2A1bU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FvBFNJdfZ6GFVSbjBGCxH.png?generation=1711224717233866&alt=media
+viewsCount: 2
+id: vBFNJdfZ6GFVSbjBGCxH

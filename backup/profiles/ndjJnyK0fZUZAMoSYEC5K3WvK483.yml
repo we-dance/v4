@@ -1,0 +1,27 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631119825823
+locales:
+  de: true
+createdBy: ndjJnyK0fZUZAMoSYEC5K3WvK483
+name: Marianna
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+username: Marianna
+gender: Female
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1631119941934
+lastLoginAt: 1631263387549
+daysUsed: 2
+pwaUsed: true
+viewsCount: 5
+id: ndjJnyK0fZUZAMoSYEC5K3WvK483

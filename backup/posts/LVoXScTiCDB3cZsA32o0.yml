@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Y Corazon - dance school
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5593370802915
+      south: 48.1218745197085
+      north: 48.1245724802915
+      west: 11.5566391197085
+    location:
+      lng: 11.5578922
+      lat: 48.1231417
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Zenettistraße
+      long_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80337"
+      long_name: "80337"
+  international_phone_number: +49 172 9659579
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  url: https://maps.google.com/?cid=8616399599048238742
+endDate: 2023-10-08T05:00
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZ8T3ohZhdEODNme2AoD68u8LOdh2%2F28ec14a0-bbcf-42c6-ad7d-063dc3e502b0?alt=media&token=f57e7e35-57aa-479e-be4e-4273d18cc331
+createdAt: 1696440870232
+price: 15 EUR (Regular) / 10 EUR (STUDENT)
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1696440870232
+updatedBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bolingo.gomez.7
+  name: Bobby SweetKiz (Dj Longchamp)
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf1c740b-0a89-4522-bb95-0dbfd4c3aae4?alt=media&token=1e3e6c30-33d0-474f-8365-add5b7bd1417
+  bio: Aus Kamerun. Seit 17+ Jahre in Deutschland. Mit Zouk, Afro Zouk und Kompa
+    aufgewachsen.
+  id: Z8T3ohZhdEODNme2AoD68u8LOdh2
+  instagram: https://www.instagram.com/bobbysweetkiz
+  username: MingaKizz
+facebook: https://fb.me/e/1e1EEcbXi
+eventType: Party
+form: No
+createdBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+watch:
+  count: 1
+  list:
+    MingaKizz: true
+name: MINGA KIZZ PALACE- OCTOBER EDITION
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Compas:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-10-07T22:00
+username: MingaKizz
+id: LVoXScTiCDB3cZsA32o0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLVoXScTiCDB3cZsA32o0.png?generation=1696441110806131&alt=media
+telegram:
+  requestedAt: 1696441018835
+  messageUrl: https://t.me/WeDanceMunich/1159
+  publishedAt: 1696441120351
+  messageId: 1159
+  state: published
+instagram:
+  requestedAt: 1696441029379
+  state: published
+  messageUrl: https://instagram.com/p/Cx_E6tJJ34O
+  publishedAt: 1696441137302
+  messageId: Cx_E6tJJ34O
+artists: []
+description: |-
+  this Saturday Oct. 7th 2023
+
+  DJ OMEGA (Munich)
+  https://soundcloud.com/dj_0mega
+
+  DJ LONGCHAMP(Munich)
+  https://soundcloud.com/bobby-longchamp
+artistsList: []
+viewsCount: 15

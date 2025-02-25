@@ -1,0 +1,141 @@
+sourceUrl: https://facebook.com/events/s/underground-salsa-party-worksh/990843556012788/
+createdAt: 1717793368793
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1717793368793
+username: alexrazbakov
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Am Schützeneck 3
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4609932197085
+        lat: 48.1464642197085
+      northeast:
+        lng: 11.4636911802915
+        lat: 48.1491621802915
+    location:
+      lng: 11.4623232
+      lat: 48.1477425
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  place_id: ChIJ1QgbwuJ3nkcR_zxBYFSmXb0
+  url: https://maps.google.com/?q=Am+Sch%C3%BCtzeneck+3,+81241+M%C3%BCnchen,+Germany&ftid=0x479e77e2c21b08d5:0xbd5da65460413cff
+endDate: 1717887600000
+claimed: No
+link: ""
+description: |-
+  💥SALSA UNDERGROUND PARTY💥
+  ✨Sa. 08.06.2024 20:00-01:00✨
+
+  Musik: Salsa, Bachata, Merengue & mehr…
+
+  🎵Salsa Live Musik „ Los Dones“ 
+  🎧DJ Nicemixx ✨
+  💃🏻 Lady-Styling Workshop 💥
+  🕺🏼💃🏻 Chacha All Levels Workshop
+
+  Programm:
+  17:00-19:00 Playfull Bachata Workshop
+  19:00-20:00 Merengue Workshop
+  20:00-21:00 ChaCha Partnerwork Workshop
+  21:00-22:00 DJ Nicemixx
+  22:00-22:45 Live Salsa Musik mit Los Dones
+  22:45-01:00 DJ Nicemixx
+
+  Bachata Playfull Workshop 35€*
+  Merengue Workshop 20€*
+  ChaCha Workshop 20€*
+  Party Eintritt: 12,50€
+
+  *Party Eintritt ab 21:00 Uhr inkl.
+
+  📍 Salsamás-Pasing 
+  Am Schützeneck 3, 81241 München
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Salsam%C3%A1s-Pasing/100063669156027/
+  name: Salsamás Munich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsalsamasmunich.png?generation=1644169115888529&alt=media
+  bio: ""
+  id: 4zHtG37DLPtSiFK0DQJZ
+  instagram: https://instagram.com/salsamasmunich
+  username: salsamasmunich
+facebook: https://www.facebook.com/events/990843556012788/
+facebookId: "990843556012788"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: UNDERGROUND SALSA PARTY - WORKSHOPS, LIVE MUSIK & ANIMATION
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1717869600000+ChIJ1QgbwuJ3nkcR_zxBYFSmXb0
+startDate: 1717869600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717793378/gbx26utyop0vgx2vxsij.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0UabYmbCYM79WCvFJhuL.png?generation=1717793396383618&alt=media
+viewsCount: 8
+id: 0UabYmbCYM79WCvFJhuL

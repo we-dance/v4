@@ -1,0 +1,211 @@
+isNew: true
+facebookId: "561037912939695"
+facebookUrlsList:
+  - https://www.facebook.com/events/561037912939695/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730559624540
+updatedAt: 1730559624540
+importedAt: 1730559624540
+providerId: te5o6z1Subn2jDFbMi9r
+providerItemId: e561037912939695@facebook.com
+name: NOITE de KIZOMBA - WS & Party - November-Edition
+providerCreatedAt: 1727808989000
+providerUpdatedAt: 1727808989000
+startDate: 1732386600000
+endDate: 1732410000000
+facebook: https://www.facebook.com/events/561037912939695/
+sourceUrl: https://www.facebook.com/events/561037912939695/
+location: Tango Palace Stuttgart
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Festival
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "101"
+      short_name: "101"
+      types:
+        - street_number
+    - long_name: Wagenburgstraße
+      short_name: Wagenburgstraße
+      types:
+        - route
+    - long_name: Stuttgart Ost
+      short_name: Stuttgart Ost
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Stuttgart
+      short_name: Stuttgart
+      types:
+        - locality
+        - political
+    - long_name: Stuttgart
+      short_name: Stuttgart
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Stuttgart
+      short_name: Süd
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Baden-Württemberg
+      short_name: BW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "70186"
+      short_name: "70186"
+      types:
+        - postal_code
+  formatted_address: Wagenburgstraße 101, 70186 Stuttgart, Germany
+  geometry:
+    location:
+      lat: 48.7808123
+      lng: 9.2032319
+    viewport:
+      northeast:
+        lat: 48.7821229802915
+        lng: 9.204600780291504
+      southwest:
+        lat: 48.7794250197085
+        lng: 9.201902819708499
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 711 480550
+  name: Tango Palace
+  place_id: ChIJ4Zbr9cPEmUcRdl_Hst4Zgrk
+  url: https://maps.google.com/?cid=13367275088261898102
+  website: https://tangopalace.de/
+visibility: Public
+org:
+  id: YFvM6QgKiltIbQr0kCTL
+  username: afromoves.-.tanz.musik
+  name: AfroMoves - Tanz & Musik
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431994/wi7evxupkq9zab79xehh.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/afromoves
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  23.11.24 NOITE de KIZOMBA
+
+  Workshop & Party
+
+
+  November Edition ❤️🥳
+         
+  ♫ Finest Kizomba – Urban Kiz – Ghetto Zouk – Kompa – Semba – Tarraxa ♫
+
+  Jeden 4. Samstag im Monat
+
+
+  feinste Musik mit
+
+  DJ Sorin
+
+
+  Workshop mit Marina
+
+  Kiz Feminity & Elegance Lady Style
+
+
+  Marina ist seit 2018 Kiz style Coach und Gründerin der Kizqueens Lady style Show Gruppe. Mit ihren Ladies hat sie schon mehrere Shows auf lokalen Events und  Festivals durchgeführt.
+
+
+  Sie wird in Stuttgart ihre Expertise mit euch teilen und euch mit der zauberhaften Lady style Welt verwöhnen.
+
+
+  In 1,5 Stunden erarbeitet sie mit euch eine elegante musicality Choreo und wird am Ende mit euch ein tolles Video drehen.
+
+
+  Workshop eignet sich sowohl für Highheels als auch für flache Schuhe.
+
+
+  Workshop ist open level + Gender open ❤️
+
+
+  Für jede Frage, gerne Marina direkt kontaktieren: https://www.facebook.com/Marina.kizqueens
+
+  Marina freut sich auf euch!
+
+
+
+  Workshop
+
+  ab 19:30 Uhr – 1,5 Std.
+
+
+  Party
+
+  ab 21:00 Uhr
+
+
+  Preise:
+
+  20 € Workshop + Party
+
+  15 € nur Workshop
+
+  10 € nur Party / 8 € AFROMOVES Schüler
+
+
+  Location:
+
+  Tango Palace
+
+  Wagenburgstr. 101, 70186 Stuttgart
+
+
+  Parkplätze im Hof
+
+
+  Mehr Info / Anmeldung per E-Mail kontakt@afro-moves.com oder unter 0176 63605812
+
+
+  Wie jeden Monat freuen wir uns auf Euch ❤️🥳
+
+  Euer AfroMoves Team ❤️🥳
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730559637/spsmk0tzpdy5gj8ja2cr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+international: No
+hash: 1732386600000+ChIJ4Zbr9cPEmUcRdl_Hst4Zgrk
+id: AfvMjt9FJ1iWEyvv1EXz

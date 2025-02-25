@@ -1,0 +1,73 @@
+venue:
+  formatted_address: Beşiktaş/İstanbul, Türkiye
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Beşiktaş
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 29.05509798420936
+      south: 41.03676202046704
+      north: 41.10667301862227
+      west: 28.98956607307095
+    location:
+      lng: 29.0285355
+      lat: 41.068616
+  address_components:
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Beşiktaş
+      long_name: Beşiktaş
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: İstanbul
+      long_name: İstanbul
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+  place_id: ChIJ8ZOBbz-2yhQRjAGhKalkyDY
+  url: https://maps.google.com/?q=Be%C5%9Fikta%C5%9F/%C4%B0stanbul,+T%C3%BCrkiye&ftid=0x14cab63f6f8193f1:0x36c864a929a1018c
+endDate: 2023-05-16T01:00
+claimed: No
+description: Kizomba party
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2F43ebeef7-cf11-46fb-92a7-217e478b01e6?alt=media&token=1c0663db-3a49-4146-91d1-10884cf02757
+createdAt: 1684255666150
+artists:
+  - instagram: https://instagram.com/omerklcgl
+    username: omerklcgl
+price: 100 tl
+place: ChIJawhoAASnyhQR0LABvJj-zOE
+artistsList:
+  - omerklcgl
+international: No
+updatedAt: 1684255666150
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/izzethinky
+  username: izzethinky
+eventType: Party
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    Bilal: true
+name: Kizzistanbul
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-16T21:00
+username: Bilal
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FX1e0NCCQNPFkT2moAIxz.png?generation=1684255685515898&alt=media
+viewsCount: 48
+id: X1e0NCCQNPFkT2moAIxz

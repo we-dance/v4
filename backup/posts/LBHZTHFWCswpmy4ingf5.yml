@@ -1,0 +1,124 @@
+createdAt: 1704822886945
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/918820122521347/
+source: facebook
+updatedAt: 1704822886945
+username: wedancebot
+venue:
+  formatted_address: 655 Dixon Rd, Toronto, ON M9W 1J3, Canada
+  website: https://www.marriott.com/en-us/hotels/yyzda-delta-hotels-toronto-airport-and-conference-centre/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Delta Hotels by Marriott Toronto Airport & Conference Centre
+  geometry:
+    viewport:
+      southwest:
+        lng: -79.5798463302915
+        lat: 43.6879833697085
+      northeast:
+        lng: -79.5771483697085
+        lat: 43.6906813302915
+    location:
+      lng: -79.5779068
+      lat: 43.6889932
+  address_components:
+    - types:
+        - street_number
+      short_name: "655"
+      long_name: "655"
+    - types:
+        - route
+      short_name: Dixon Rd
+      long_name: Dixon Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Etobicoke
+      long_name: Etobicoke
+    - types:
+        - locality
+        - political
+      short_name: Toronto
+      long_name: Toronto
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Toronto
+      long_name: Toronto
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Toronto
+      long_name: Toronto
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: ON
+      long_name: Ontario
+    - types:
+        - country
+        - political
+      short_name: CA
+      long_name: Canada
+    - types:
+        - postal_code
+      short_name: M9W 1J3
+      long_name: M9W 1J3
+  international_phone_number: +1 416-244-1711
+  place_id: ChIJyfqo4fM5K4gRX5suhd81C50
+  url: https://maps.google.com/?cid=11316197722826906463
+visibility: Public
+endDate: 1716199200000
+org:
+  owner: ""
+  importedAt: 1704822893623
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ToqueKizomba
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/260552594_2030757160433771_4920993522578461146_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=SphBcIRCC3AAX_9NecY&_nc_ht=scontent-iad3-1.xx&oh=00_AfBWXhAaLhuQ6dT5-psAvkW48kpLzfHLUg2widmZzbVIwQ&oe=65A1D4AD
+  source: facebook
+  type: Organiser
+  createdAt: 1704822893623
+  owned: false
+  name: TOQUE Kizomba
+  place: ChIJpTvG15DL1IkRd8S0KlBVNTI
+  updatedAt: 1704822893623
+  username: ToqueKizomba
+claimed: No
+facebookId: "918820122521347"
+link: ""
+description: >-
+  Toque - The Weekend is a unique Kizomba event held in the beautiful city of
+  Toronto. The event's main purpose is to promote the original roots of Kizomba
+  within Canada and abroad through music, dance and more.
+
+  *The event features dance classes from international and local instructors, complemented by daytime socials, night parties and yearly surprises.
+
+
+  More information on tickets, accommodations and artists is coming soon.
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: TOQUE "The Weekend" 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJpTvG15DL1IkRd8S0KlBVNTI
+international: No
+hash: 1715983200000+ChIJyfqo4fM5K4gRX5suhd81C50
+startDate: 1715983200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLBHZTHFWCswpmy4ingf5.png?generation=1704822909660844&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853113/luttatwlj9wxpx3qywgn.jpg
+viewsCount: 17
+id: LBHZTHFWCswpmy4ingf5

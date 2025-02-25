@@ -1,0 +1,117 @@
+endDate: 1718650800000
+sourceUrl: https://www.facebook.com/events/1003242270984669/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1694617523000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714843505000
+facebookId: "1003242270984669"
+facebook: https://www.facebook.com/events/1003242270984669/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1003242270984669/
+eventType: Festival
+providerItemId: e1003242270984669@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Croatian Summer Salsa Festival 2024 discount code🔥 DANCINGTOM 🔥
+location: Rovinj
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718035200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Rovinj, Croatia
+  website: http://www.rovinj.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.6065125747384
+        lat: 45.01590065493957
+      northeast:
+        lng: 13.73434351743165
+        lat: 45.13155585620012
+    location:
+      lng: 13.6387067
+      lat: 45.0811661
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istria County
+      long_name: Istria County
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Dancingtom/100088641805355/
+  name: Sbk Dancingtom
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131866/jehzenughbag91volutw.jpg
+  bio: ""
+  id: GQstybhn60OZaZZL8qFq
+  instagram: ""
+  username: SbkDancingtom
+claimed: No
+link: ""
+description: >
+  Get ready for the momentous 20th edition of the Croatian Summer Salsa
+  Festival! 🔥🔥 Be part of the ranks of a global sensation that will leave a
+  mark like no other! Mark your calendars now because Rovinj is the place to be
+  in 2024!
+
+  ****
+
+  🔗 TICKETS ARE AVAILABLE
+
+  💥5% discount with promo code: 👉dancingtom👈
+
+  https://www.crosalsafestival.com/2024/tickets
+
+  ****
+
+  🏖 CROATIAN SUMMER SALSA FESTIVAL
+
+  🏖 World’s unique sea, sun & salsa festival!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444468/zptarbid15emt8tnqsuk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: No
+hash: 1718035200000+ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpRkmUPkeFaEz4SiZxuc3.png?generation=1715444481391814&alt=media
+viewsCount: 4
+id: pRkmUPkeFaEz4SiZxuc3

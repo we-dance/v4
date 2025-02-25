@@ -1,0 +1,82 @@
+createdAt: 1708276302012
+locales:
+  en: true
+  es: true
+invitedBy: ~
+visibility: Members
+createdBy: E7TyzO3I8qaQuYz95u25BVU3vl52
+timezone: GMT+0100
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+type: Dancer
+username: Mnewman
+daysUsed: 1
+pwaUsed: false
+lastLoginAt: 1708289840931
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: Female
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+instagram: https://www.instagram.com/michellenewmanm
+team: []
+id: E7TyzO3I8qaQuYz95u25BVU3vl52
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"
+name: Michelle
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd53ac502-b411-42d5-9e24-27f9a17c642f?alt=media&token=55641cfd-c3cc-4466-9390-87e8530fe07a
+updatedAt: 1712265328375
+watch:
+  count: 3
+  usernames:
+    - Viacheslav
+    - Dhiresh
+    - celestemedina
+  history:
+    - username: alexrazbakov
+      date: 1717767702885
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1717767706169
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: Viacheslav
+      date: 1720522764652
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: Viacheslav
+      date: 1720522766896
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: left
+    - username: Viacheslav
+      date: 1720522772676
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: Viacheslav
+      date: 1720522776417
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: left
+    - username: Viacheslav
+      date: 1720522791322
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: Dhiresh
+      date: 1720791986985
+      invitedBy: ""
+      uid: pVVc69JwOYhkH1Dp8UgkIDaS20x1
+      action: joined
+    - username: celestemedina
+      date: 1721295015981
+      invitedBy: ""
+      uid: ugduS2KIFpfN0LpHggYowXoHYsA2
+      action: joined
+viewsCount: 49

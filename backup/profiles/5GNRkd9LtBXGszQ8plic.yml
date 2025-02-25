@@ -1,0 +1,24 @@
+createdAt: 1675774318005
+cityPlaceId: ChIJTzBpJ8dJkEcRkIpt83DrHDY
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Basel, Switzerland
+location:
+  country: Switzerland
+  latitude: 47.5595986
+  locality: Basel
+  region: Basel City
+  place_id: ChIJTzBpJ8dJkEcRkIpt83DrHDY
+  longitude: 7.5885761
+place: ChIJTzBpJ8dJkEcRkIpt83DrHDY
+type: City
+updatedAt: 1675774318005
+username: switzerland-basel
+watch:
+  count: 1
+  usernames:
+    - LucSkywalker
+  list:
+    LucSkywalker: true
+viewsCount: 227
+id: 5GNRkd9LtBXGszQ8plic

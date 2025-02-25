@@ -1,0 +1,240 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bachata-bratislava-weekend/
+sourceUrl: https://facebook.com/events/1740062346521080
+venue:
+  address_components:
+    - long_name: "34"
+      short_name: "34"
+      types:
+        - street_number
+    - long_name: "746"
+      short_name: "746"
+      types:
+        - premise
+    - long_name: Tomášikova
+      short_name: Tomášikova
+      types:
+        - route
+    - long_name: Bratislava
+      short_name: Bratislava
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Bratislava II
+      short_name: Bratislava II
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bratislavský kraj
+      short_name: Bratislavský kraj
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Slovakia
+      short_name: SK
+      types:
+        - country
+        - political
+    - long_name: 831 04
+      short_name: 831 04
+      types:
+        - postal_code
+  formatted_address: Tomášikova 746/34, 831 04 Bratislava, Slovakia
+  geometry:
+    location:
+      lat: 48.1647474
+      lng: 17.1532585
+    viewport:
+      northeast:
+        lat: 48.1660976302915
+        lng: 17.15454513029151
+      southwest:
+        lat: 48.1633996697085
+        lng: 17.1518471697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Tomášikova 746/34
+  place_id: ChIJUVc1ftCObEcRO_Xw3s1215g
+  url: https://maps.google.com/?q=Tom%C3%A1%C5%A1ikova+746/34,+831+04+Bratislava,+Slovakia&ftid=0x476c8ed07e355751:0x98d776cddef0f53b
+endDate: 1737302400000
+claimed: No
+link: ""
+description: >+
+  BACHATA BRATISLAVA WEEKEND 5-edicia 2025
+
+
+  (EN below)
+
+  Pozývame ťa na 5. edíciu Bachata Bratislava Weekendu. Opäť so zaujímavými hosťami, ktorých tanečná energia ťa určite nakopne 
+
+
+
+  INŠTRUKTORI
+
+  Miguel & Sunsire (ES)
+
+  Christian & Katerina (ES)
+
+
+  DJ-s
+
+  DJ Nena (SK)
+
+  DJ MomoLatino (IT/CZ)
+
+
+
+  KDE
+
+  Párty aj workshopy pod jednou strechou:
+
+  Dance Club SALSA by Norika, Bratislava, Tomášikova 34 (Student House)
+
+  https://shorturl.at/GYw8C 
+
+
+  REGISTRÁCIA ZA ZVÝHODNENÉ CENY:
+
+  od 1. septembra 2024 do 30. novembra 2024
+
+
+  TU: https://events.norika.sk/event/bbw25 
+
+
+  *Full Pass/ 80 Eur
+
+  zahŕňa ľubovoľný výber 6 workshopov (sobota 3 + nedeľa 3) + Piatkova a Sobotňajšia párty (Improvizácie hostí + animácie s hosťami)
+
+
+  TANEČNÉ ÚROVNE:
+
+  *Mierne pokročilí - cca 2 roky tancovania (so základmi sensual bachaty)
+
+  *Stredne pokročilí - cca 3+ rokov tancovania (s bohatšími skúsenosťami v sensual bachate)
+
+
+  PARTY PASS a DAY PASS NEPONÚKAME. 
+
+  Môžete si zakúpiť jednorázové vstupy na každú párty samostatne, priamo na mieste.
+
+
+  JEDNORÁZOVÉ VSTUPY NA MIESTE:
+
+  *1 workshop /14 Eur (budeme ponúkať v prípade voľnej kapacity)
+
+  *1 párty v piatok/ 15 Eur (pitný režim, strážená šatňa, animácie s hosťami)
+
+  *1 párty v sobotu/ 15 Eur (pitný režim, strážená šatňa, animácie s hosťami)
+
+
+
+  **************************************************
+
+  We invite you to the 5th edition of the Bachata Bratislava weekend. 
+
+
+  Again with interesting guests, whose dance energy will definitely bring some excitement. 
+
+
+  ARTISTS
+   Miguel & Sunsire (ES)
+   Christian & Katerina (ES)
+
+  DJ-s
+   DJ Nena (SK)
+   DJ MomoLatino(IT/CZ)
+
+  VENUE
+
+  Parties and workshops under one roof:
+
+  Dance Club SALSA by Norika, Bratislava, Tomasikova street 34 (Student House)
+
+  https://shorturl.at/GYw8C 
+
+
+
+  REGISTRATION FOR DISCOUNTED PRICES
+
+  from 1. September 2024 to 30. November 2024
+
+
+  HERE: https://events.norika.sk/event/bbw25 
+
+
+  *FULL PASS/ 80 Eur
+
+  includes any choice of 6 workshops (Saturday 3 + Sunday 3) + Friday and Saturday party (with guest improvisation + animations)
+
+
+  DANCE LEVELS
+
+  *Pre-intermediate - apx. 2 years of dancing (required are basics of sensual bachata)
+
+  *Intermediate + Advanced - apx.3+ years of dancing (required is a deeper knowledge of sensual bachata)
+
+
+
+  ! WE DO NOT OFFER PARTY PASS OR DAYPASS!
+
+  You can purchase one-time tickets for each party separately, directly on the spot.
+
+
+  ONE-TIME ENTRIES ON SITE:
+
+  *1 workshop / 14 Eur (we will offer in case of free capacity)
+
+  *1 party on Friday/ 15 Euros (drinking regime, guarded dressing room, animations with guests)
+
+  *1 party on Saturday/ 15 Euros (drinking regime, guarded dressing room, animations with guests)
+
+
+  More information soon
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/rjwvyxklygj5uk8hnh6w.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  id: kj1v0DMYwZN54lOZCHrT
+  username: Salsaby-Norika
+  name: Salsa by Norika
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954063/z8fjepdlbrct3aqzw6cg.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/people/Salsa-by-Norika/100039796815521/
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1740062346521080/
+facebookId: "1740062346521080"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: ♥ 𝔹𝕒𝕔𝕙𝕒𝕥𝕒 𝔹𝕣𝕒𝕥𝕚𝕤𝕝𝕒𝕧𝕒 𝕎𝕖𝕖𝕜𝕖𝕟𝕕 𝟝𝕥𝕙 𝔼𝕕𝕚𝕥𝕚𝕠𝕟
+  𝟚𝟘𝟚𝟝 ♥
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1737144000000+ChIJUVc1ftCObEcRO_Xw3s1215g
+startDate: 1737144000000
+id: LQ07Vyjx2kO94ezLA61A

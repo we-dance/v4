@@ -1,0 +1,134 @@
+endDate: 1728756000000
+sourceUrl: https://www.facebook.com/events/766941228846313/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1727700175000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727944887000
+facebookId: "766941228846313"
+facebook: https://www.facebook.com/events/766941228846313/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/766941228846313/
+eventType: Workshop
+providerItemId: e766941228846313@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "NEXUS: Kizomba Intensive_Vienna"
+location: Vienna, Austria
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728737100000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Vienna, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Vienna
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.18183037177429
+        lat: 48.11790316402028
+      northeast:
+        lng: 16.57745450947423
+        lat: 48.32256296964658
+    location:
+      lng: 16.3713095
+      lat: 48.20806959999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+  place_id: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  url: https://maps.google.com/?q=Vienna,+Austria&ftid=0x476d079e5136ca9f:0xfdc2e58a51a25b46
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Nexus-Dance/100095028619864/
+  name: Nexus Urbankiz Vienna
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954145/lit5prozljjqies1bwoy.jpg
+  bio: We are Felix and Nushin, two passionate friends providing Urbankiz
+    workshops, parties, and events in Vienna.
+  id: DEjk8m5fXNjaoJ7BEnli
+  instagram: https://www.instagram.com/nexusdancevienna
+  username: NexusUrbankiz
+claimed: No
+link: https://tally.so/r/nWMJOJ
+description: >+
+  🌟 NEXUS presents: Kizomba in Vienna 🌟
+
+
+  🗓 Date: October 12th, 15:00 - 20:00
+
+  📍 Location: Yass Me, Karl-Schweighofer-Gasse 12,
+
+  1070
+
+  📝 Registration link: https://tally.so/r/nWMJOJ
+
+
+  Join us for an unforgettable 3-hour intensive Kizomba workshop, followed by practice time! 💃🕺
+
+
+  ✨Explore the magic of this beautiful and soulful dance with Jelena and Noel. Whether you're completely new or looking to level up, this workshop will take you through the essentials of Kizomba and get you moving with confidence.
+
+  You might be wondering, what are the differences between Urbankiz and Kizomba? How can you tell if a DJ is playing Kizomba or Urbankiz? Why is it important to learn Kizomba? These and many other questions will be addressed in this intensive workshop too. 
+
+
+  💰 Costs:
+
+  Standard: 45 €
+
+  Students discount: -6€
+
+  Sign up with a partner: -6€
+
+  NEXUS:core card holders: 6€ and 3 stamps (Student discount is already included, Partner discount can be added) 🎟️
+
+  Don't miss out on this amazing opportunity to learn, dance, and connect with others! 💫
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418008/vqnohdajkv0iev7bhzsh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1728737100000+ChIJn8o2UZ4HbUcRRluiUYrlwv0
+viewsCount: 1
+id: PmC95iSsuHeWaFCWZ1Vw

@@ -1,0 +1,78 @@
+owner: ""
+importedAt: 1705150850143
+import: success
+visibility: Public
+facebook: https://www.facebook.com/billiesstudio
+source: facebook
+createdAt: 1705150850143
+owned: false
+name: Billie's Studio
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+username: billies.studio
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953782/usge2gczgseaj57yumxe.png
+address:
+  formatted_address: Capistrangasse 10, 1060 Wien, Austria
+  website: http://billiesstudio.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Billie's Studio
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.3586472302915
+      south: 48.19892946970851
+      north: 48.2016274302915
+      west: 16.3559492697085
+    location:
+      lng: 16.3573519
+      lat: 48.2003059
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Capistrangasse
+      long_name: Capistrangasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mariahilf
+      long_name: Mariahilf
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1060"
+      long_name: "1060"
+  place_id: ChIJ1XtL14MHbUcR4lhu-SALI7s
+  url: https://maps.google.com/?cid=13484633945529014498
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: Other
+venueType: DanceStudio
+team: []
+id: 5jW6gCaAbWO0r7ebEXGb
+type: Venue
+website: https://billiesstudio.com/
+email: office@billiesstudio.com
+updatedAt: 1717662993399
+viewsCount: 20

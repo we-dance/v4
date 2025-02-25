@@ -1,0 +1,53 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627287477010
+locales:
+  en: true
+createdBy: vjWnTZEkkFNbAwVbL0jNMBTomJs2
+pwaUsed: false
+name: Ronny
+username: Ron
+gender: Male
+cities:
+  ChIJ04-twTTbmUcR5M-RdxzB1Xk: true
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+step: photo
+updatedAt: 1627287519811
+birthday: 1978-10-16
+partnerBio: Do you like deep conversations?
+visibility: Members
+jobs: "Marketing "
+weight: "80"
+learning: Musicality in Salsa, Bachata
+permission: No
+meetingPlace:
+  public: true
+partner: Yes
+days:
+  Saturday: true
+  Sunday: true
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  talk: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+contacts: No
+height: "188"
+daysUsed: 2
+lastLoginAt: 1631726409759
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvjWnTZEkkFNbAwVbL0jNMBTomJs2%2Fe17e1d30-ed2b-4626-b006-67a2d5953628?alt=media&token=676e92c9-1dff-4ddf-a343-0cc027048172
+id: vjWnTZEkkFNbAwVbL0jNMBTomJs2

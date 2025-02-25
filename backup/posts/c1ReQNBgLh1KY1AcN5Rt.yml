@@ -1,0 +1,166 @@
+endDate: 1724284799000
+sourceUrl: https://www.facebook.com/events/1412388086116985/1412388092783651/
+createdAt: 1723644026117
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1723566502000
+updatedAt: 1723644026117
+importedAt: 1723644026117
+providerUpdatedAt: 1723566502000
+facebookId: "1412388092783651"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1412388086116985/1412388092783651/
+eventType: Party
+providerItemId: 47773-1724198400-1724284799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: El Cañonazo de la Habana, Ó utca 24-26., Budapest, 1066, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724198400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Ó u. 24-26, 1066 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: El Cañonazo de la Habana
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0566058697085
+        lat: 47.5027611197085
+      northeast:
+        lng: 19.0593038302915
+        lat: 47.5054590802915
+    location:
+      lng: 19.0579591
+      lat: 47.5041288
+  address_components:
+    - types:
+        - street_number
+      short_name: 24-26
+      long_name: 24-26
+    - types:
+        - route
+      short_name: Ó u.
+      long_name: Ó utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VI. kerület
+      long_name: VI. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1066"
+      long_name: "1066"
+  international_phone_number: +36 30 251 3733
+  place_id: ChIJLygoxxLcQUcROkK8vbIX5UY
+  url: https://maps.google.com/?cid=5108515408776544826
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0Y97EpPTqKUNWxGSs63EoavS99FBv67rHnRLDzy3Tn8zvtixd5YKgwiHweaccgjqpl
+  name: Éva Berényi
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902719/fakabuem9vuqbk3ojytn.jpg
+  bio: ""
+  id: hdAqs7hQgDQ6OFVNOXBr
+  instagram: ""
+  username: eva.berenyi
+claimed: No
+facebook: https://www.facebook.com/events/1412388086116985/?event_time_id=1412388092783651
+link: ""
+description: >-
+  🎉Egy csipetnyi Angola 🇦🇴 Kuba 🇨🇺Budapesten🇭🇺 
+
+
+  🌟 Mi: Táncparty
+
+  📆 Mikor: Szerda
+
+  🕖 Időpont: Buli 19:00-tól 24:00 óráig
+
+  📍 Hol: Ó utca 24-26., Budapest 1066 Magyarország 
+
+
+  🎵 Zene: DJ Mwangolé 🇦🇴:
+
+  kizomba, semba, salsa  bachata🏝💃🕺 
+
+
+  Készülj fel, hogy elmerülj a táncos hangulatban és sok pozitív energiában 🕺🏿💃! Gyere egyedül, barátokkal vagy kísérővel - mindenkit szeretettel várunk egy felejthetetlen éjszakára.🫶🏿💪🏿 
+
+
+  Buli: Ingyenes!!! 
+
+
+  Ne hagyd ki ezt a remek lehetőséget,  tanuljunk, táncoljunk, szórakozzunk együtt! 
+
+  🔥🎶    
+
+
+  ENG:
+
+  🎉A touch of Angola 🇦🇴 Cuba 🇨🇺 in Budapest🇭🇺 
+
+
+  🌟 What: Dance party 
+
+  📆 When: Wednesday
+
+  🕖 Time: Party from 19:00 to 24:00 
+
+  📍 Where: Ó utca 24-26, Budapest 1066 Hungary 
+
+
+  🎵 Music: DJ Mwangolé 🇦🇴: kizomba, semba, salsa, bachata 🏝💃🕺 
+
+
+  Get ready to immerse yourself in the dancing atmosphere and a lot of positive energy 🕺🏿💃! 
+
+  Come alone, with friends or with an escort - everyone is welcome for an unforgettable night. 🏿💪🏿 
+
+  Party: Free!!! 
+
+
+  Don't miss this great opportunity, let's learn, dance and have fun together! 🔥🎶
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723644039/zeo56a0rbwbzuachbva1.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Mwangolé kizomba & semba party
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1724259600000+ChIJLygoxxLcQUcROkK8vbIX5UY
+id: c1ReQNBgLh1KY1AcN5Rt

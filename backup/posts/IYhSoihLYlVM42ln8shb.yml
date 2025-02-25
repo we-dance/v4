@@ -1,0 +1,126 @@
+endDate: 1730543400000
+sourceUrl: https://www.facebook.com/events/850487403720352/
+createdAt: 1725372040379
+approved: true
+provider: ical
+providerId: wl8BYXUBmyRVcLZ1oxHU
+providerCreatedAt: 1725270575000
+updatedAt: 1725372040379
+importedAt: 1725372040379
+providerUpdatedAt: 1725270575000
+facebookId: "850487403720352"
+facebook: https://www.facebook.com/events/850487403720352/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/850487403720352/
+eventType: Party
+providerItemId: e850487403720352@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: KD Dance Fundraiser - Social & Performances
+location: Grey Lynn Community Centre
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730529000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: 510 Richmond Road, Grey Lynn, Auckland 1021, New Zealand
+  website: https://www.greylynn.org.nz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Grey Lynn Community Centre
+  geometry:
+    viewport:
+      southwest:
+        lng: 174.7315091197085
+        lat: -36.8612443302915
+      northeast:
+        lng: 174.7342070802915
+        lat: -36.8585463697085
+    location:
+      lng: 174.7330408
+      lat: -36.8598715
+  address_components:
+    - types:
+        - street_number
+      short_name: "510"
+      long_name: "510"
+    - types:
+        - route
+      short_name: Richmond Rd
+      long_name: Richmond Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Grey Lynn
+      long_name: Grey Lynn
+    - types:
+        - locality
+        - political
+      short_name: Auckland
+      long_name: Auckland
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auckland
+      long_name: Auckland
+    - types:
+        - country
+        - political
+      short_name: NZ
+      long_name: New Zealand
+    - types:
+        - postal_code
+      short_name: "1021"
+      long_name: "1021"
+  international_phone_number: +64 9 378 4908
+  place_id: ChIJrSm7IqBHDW0RSJoJcUw8oys
+  url: https://maps.google.com/?cid=3144423263846373960
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/KD-Dance-Latin-Dance-Project/61562017117609/
+  name: KD Dance - Latin Dance Project
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1723298450/pboluyyujthmm5ywchaa.jpg
+  bio: ""
+  id: rfiaI4ILVBnS4uSQi5y9
+  instagram: ""
+  username: kd.dance.-.latin.dan
+claimed: No
+link: ""
+description: >-
+  SAVE THE DATE! For the first time ever, KD Dance will be bringing a team to
+  compete at the World Salsa Solo in Gold Coast Australia in December! Join us
+  to help raise funds to support our team getting there, all proceeds will be
+  spilt between our team members. 
+
+
+  7:30pm Doors open for social dancing
+
+  8:30pm Performances
+
+
+  $20 tickets at the door. 
+
+
+  See you on the dance floor!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725372056/jivocurn49ilqnp2k6al.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ--acWvtHDW0RF5miQ2HvAAU
+international: No
+hash: 1730529000000+ChIJrSm7IqBHDW0RSJoJcUw8oys
+id: IYhSoihLYlVM42ln8shb

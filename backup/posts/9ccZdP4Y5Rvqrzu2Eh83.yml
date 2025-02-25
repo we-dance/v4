@@ -1,0 +1,129 @@
+venue:
+  formatted_address: Pivovarská 162, 463 11 Liberec-Vratislavice nad Nisou, Czechia
+  website: http://pivo-konrad.cz/o-nas/pivovarska-hospoda/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Pivovarská hospoda Konrad
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 15.0876456302915
+      south: 50.74949626970849
+      north: 50.75219423029149
+      west: 15.0849476697085
+    location:
+      lng: 15.0863867
+      lat: 50.7505884
+  address_components:
+    - types:
+        - street_number
+      short_name: "162"
+      long_name: "162"
+    - types:
+        - route
+      short_name: Pivovarská
+      long_name: Pivovarská
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Liberec-Vratislavice nad Nisou
+      long_name: Liberec-Vratislavice nad Nisou
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Liberec
+      long_name: Liberec
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Liberecký kraj
+      long_name: Liberecký kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 463 11
+      long_name: 463 11
+  international_phone_number: +420 722 022 621
+  place_id: ChIJbW4Sk0k0CUcRFA2Xjzq0K0Q
+  url: https://maps.google.com/?cid=4912217982187801876
+endDate: 2023-04-23T01:30
+claimed: No
+link: https://www.facebook.com/events/698297801795534
+description: >-
+  Jarní edice latino party má své datum.
+
+
+  Opět se můžete těšit na skvělou hudbu, hosty, animace, skvěle zásobený bar a obří parket.
+
+  Dj Lole pro vás bude hrát 20:00-00:00, poté zasedne za mix náš Lukáš.
+
+
+  Téma party je jaro, budeme rádi za barevné ošacení 🙂
+
+
+  Vstupné 150,-
+
+
+  Těšíme se my i personál Pivovarské hospody Vratislavice. 
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F0a223036-9ca3-4995-bc70-db70239d6c9c?alt=media&token=ae0f7350-8264-445c-b1e1-630fbd4c28db
+createdAt: 1681680039503
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+price: 150 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - DjLole
+international: No
+updatedAt: 1681680039503
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  facebook: https://facebook.com/salsaliberec
+  username: salsaliberec
+facebook: https://www.facebook.com/events/698297801795534
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Jarní latino party
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-22T20:00
+username: DjLole
+viewsCount: 8
+id: 9ccZdP4Y5Rvqrzu2Eh83

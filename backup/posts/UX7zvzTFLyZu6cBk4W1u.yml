@@ -1,0 +1,37 @@
+endDate: 2021-07-21T21:55:00.000Z
+description: Kizomba
+type: event
+duration: custom
+createdAt: 1626795770755
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: UX7zvzTFLyZu6cBk4W1u
+updatedAt: 1626795770755
+updatedBy: QKr5SgI8frboHrJRGspxP4u0GFP2
+address: Pinakothek der Moderne
+visibility: Public
+eventType: Party
+form: No
+createdBy: QKr5SgI8frboHrJRGspxP4u0GFP2
+commentsCount: 0
+name: Kizomba
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-21T17:00:00.000Z
+username: sAndyKiz
+viewsCount: 54

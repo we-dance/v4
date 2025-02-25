@@ -1,0 +1,35 @@
+owner: ""
+createdAt: 1710516332505
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+import: requested
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+facebook: https://facebook.com/arcasocialclub
+username: arcasocialclub
+gender: Other
+name: Arca Social Club
+team: []
+id: VSwd9u8kBcqFLS50rD68
+place: ChIJu46S-ZZhLxMROG5lkwZ3D7k
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0a8d2e86-286d-48f2-9189-b29b6b3d0227?alt=media&token=f98e3862-b66e-4bf3-af49-41ff0011b069
+type: Venue
+current: ChIJu46S-ZZhLxMROG5lkwZ3D7k
+hometown: ChIJu46S-ZZhLxMROG5lkwZ3D7k
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1710523597060
+watch:
+  count: 1
+  usernames:
+    - Cris_pt
+  history:
+    - username: Cris_pt
+      date: 1710956316435
+      invitedBy: ""
+      uid: 8SFnKFShtYfZR3ASq7jk6x3ovsx2
+      action: joined
+viewsCount: 11

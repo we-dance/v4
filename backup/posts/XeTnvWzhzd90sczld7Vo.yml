@@ -1,0 +1,141 @@
+endDate: 1727308799000
+sourceUrl: https://www.facebook.com/events/826851429436426/826851449436424/
+createdAt: 1727100040655
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1727081214000
+updatedAt: 1727100040655
+importedAt: 1727100040655
+providerUpdatedAt: 1727081214000
+facebookId: "826851449436424"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/826851429436426/826851449436424/
+eventType: Party
+providerItemId: 48249-1727222400-1727308799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Füge Udvar, Klauzál utca 19-21., Budapest, 1074
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1727222400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Klauzál u. 19, 1072 Hungary
+  website: https://fugeudvar.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Füge Udvar
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0651020697085
+        lat: 47.49689941970851
+      northeast:
+        lng: 19.0678000302915
+        lat: 47.4995973802915
+    location:
+      lng: 19.0665025
+      lat: 47.4982918
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Klauzál u.
+      long_name: Klauzál utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VII. kerület
+      long_name: VII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1072"
+      long_name: "1072"
+  international_phone_number: +36 20 200 1000
+  place_id: ChIJTSTv2mfcQUcRrQvxCmgABqA
+  url: https://maps.google.com/?cid=11530904342788901805
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  id: nD23oRVHFCEDLp84nONP
+  instagram: ""
+  username: mimusica.djtombao
+claimed: No
+facebook: https://www.facebook.com/events/826851429436426/?event_time_id=826851449436424
+link: ""
+description: >-
+  (ENG below) A Füge Udvarban táncolunk tovább az őszi szerda estéken 🙂
+
+  A teremben profi táncparkett és ventilátorok várnak! A bárokban jó áron mérik a frissítőket 🙂
+
+  Találkozunk szerdánként este 20:00 órától éjfélig! 🙂
+
+  Szeretettel várunk! Az esemény ingyenes :)
+
+
+  ui.: Kérünk, ne hozz magaddal enni- és innivalót a vendéglátóhelyre! Főként pedig ne fogyaszd el! Az ajtónál ellenőrizhetik a táskákat és elkérhetik az étel- és italféleségeket.
+
+  ui.2.: Amennyiben részt veszel a rendezvényen, azzal automatikusan beleegyezel, hogy a helyszínen, a rendezvény ideje alatt fénykép és videó felvétel készüljön rólad, amelyet a szervezők felhasználhatnak és publikálhatnak.
+
+
+
+  ENGLISH
+
+
+  We continue dancing in the Füge Udvar bar on Wednesday nights in autumn 🙂
+
+  The hall has a pro dance floor and fans! Refreshments at the bars are well priced 🙂
+
+  See you on Wednesdays from 8pm till midnight! 🙂
+
+  You are welcome! The event is free :)
+
+
+  p.s.: Please do not bring anything to eat or drink at the venue! Especially do not eat or drink you brought from home! The guards may check your bags at the door and take away the food and drinks.
+
+  Note 2: If you participate in the event, you automatically agree to have your photo and video taken on site during the event, which may be used and published by the organisers.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727100055/d44rcojbekg0chimuf1f.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Füge Udvar Szerda-Wednesday × 50-50% Salsa-Bachata party × DJ Tombao ×
+  start: 20:00 × ingyenes-free"
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1727287200000+ChIJTSTv2mfcQUcRrQvxCmgABqA
+id: XeTnvWzhzd90sczld7Vo

@@ -1,0 +1,229 @@
+venue:
+  formatted_address: Isolatorweg 28, 1014 AS Amsterdam, Netherlands
+  website: http://www.candancestudios.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: CanDance Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.852191680291502
+      south: 52.3914739697085
+      north: 52.3941719302915
+      west: 4.849493719708498
+    location:
+      lng: 4.851088199999999
+      lat: 52.3927722
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Isolatorweg
+      long_name: Isolatorweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westpoort
+      long_name: Westpoort
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 1014 AS
+      long_name: 1014 AS
+  place_id: ChIJ5TaEYKngxUcRbzzkrY8Upsg
+  url: https://maps.google.com/?cid=14458266261049850991
+endDate: 2023-11-05T23:30
+claimed: No
+link: https://www.yosoysalsero.com/eventshop/8353?compra=frame&idioma=en
+description: >-
+  ❌❌❌ ADAM BACHATA FESTIVAL 2023❌❌❌
+
+  5th anniversary of Adam Bachata Festival in Amsterdam. Learn and have fun in a familiar setting to enjoy a weekend full of Bachata in this unique city!
+
+  ⭐Amazing LINE-UP and workshops
+
+  ⭐International DJs
+
+  ⭐Dani J bachata concert
+
+  ⭐Surprising SHOWS
+
+  ⭐Official clothing sponsor & stand by Cupidanza
+
+  ⭐Jack & Jill competition with dancers from all around the world
+
+  ⭐Social parties (Thursday, Friday, Saturday and Sunday matinée)
+
+  LINE UP:
+
+  ❌ Daniel & Desiree (Spain)
+
+  ❌ Ronald & Alba (Spain)
+
+  ❌ Dario & Sara (Spain)
+
+  ❌ Janis & Zoe (Germany)
+
+  ❌ Gero & Migle (Spain)
+
+  ❌ Sergio & Marichu (Spain)
+
+  ❌ Gianmarco & Jessica (Italy)
+
+  ❌ David & Maya (Germany)
+
+  ❌ Erik & Katinka (Denmark)
+
+  ❌ Latin Dance Evolution (Belgium)
+
+  ❌ Tim & Sandra (Germany)
+
+  ❌ Bailemos Amsterdam (The Netherlands)
+
+  ❌ Florian & Edwige (France)
+
+  ❌Vrajim (Finland)
+
+  ❌ Casito & Mica (France)
+
+  and many more...
+
+  INTERNATIONAL DJs
+
+  ⭐ DJ Alejandro (Israel)
+
+  ⭐ DJ Husky (Spain)
+
+  ⭐ DJ Josh (Germany)
+
+  ⭐ DJ Cesc (France)
+
+  & many more..
+
+  VIDEOGRAPHERS
+
+  ⭐ Photomas (Italy)
+
+  ⭐ Armando (NL)
+
+
+  ❌❌❌ PROGRAM
+
+  Thursday from 8pm workshop with Dario & Sara and pre-party
+
+  Friday workshops from 5pm + party + DaniJ concert until 4am
+
+  Saturday full-day of workshops + party until 4am
+
+  Sunday workshops until 5pm + Jack & Jill + Matinee party until 4am
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Fe97ae582-32a7-49c6-be0a-02fd7ce90a34?alt=media&token=170fb5e9-58df-49a7-8ada-ec368f685a40
+createdAt: 1682538201189
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: danielydesireeoficial
+    photo: ""
+    bio: ""
+    id: HdBL4dzROUFIWTLlUksX
+    instagram: https://instagram.com/danielydesireeoficial
+    username: danielydesireeoficial
+  - instagram: https://instagram.com/ronaldyalba
+    username: ronaldyalba
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: darioysaraoficial
+    photo: ""
+    bio: ""
+    id: 2loNxzMQVpn2ozQxJ0x5
+    instagram: https://instagram.com/darioysaraoficial
+    username: darioysaraoficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: janisyzoe
+    photo: ""
+    bio: ""
+    id: zw8l5xuZCIuvHg2n6QIi
+    instagram: https://instagram.com/janisyzoe
+    username: janisyzoe
+  - instagram: https://instagram.com/geroymigleoficial
+    username: geroymigleoficial
+  - instagram: https://instagram.com/sergioymarichuoficial
+    username: sergioymarichuoficial
+  - instagram: https://instagram.com/oficialdanij
+    username: oficialdanij
+  - instagram: https://instagram.com/dj_alejandro_bachata
+    username: dj_alejandro_bachata
+  - instagram: https://instagram.com/djhuskybachata
+    username: djhuskybachata
+price: 75 - 422 EUR
+place: ChIJVXealLU_xkcRja_At0z9AGY
+artistsList:
+  - danielydesireeoficial
+  - ronaldyalba
+  - darioysaraoficial
+  - janisyzoe
+  - geroymigleoficial
+  - sergioymarichuoficial
+  - oficialdanij
+  - dj_alejandro_bachata
+  - djhuskybachata
+international: Yes
+updatedAt: 1682538201189
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: adambachatafestival
+  photo: ""
+  bio: ""
+  id: 01VqTQT3XrfOtLHFnENY
+  instagram: https://instagram.com/adambachatafestival
+  username: adambachatafestival
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: A'dam Bachata Festival
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-11-02T00:00
+username: IvanaSoldat
+viewsCount: 72
+id: UxD6E2gACIVHvw3LCQT0

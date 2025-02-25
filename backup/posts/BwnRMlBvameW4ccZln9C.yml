@@ -1,0 +1,131 @@
+venue:
+  website: http://www.isarpost-eventlocation.de/
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 24-26
+      short_name: 24-26
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=14604975425998091393
+  name: ISARPOST Eventlocation
+  geometry:
+    viewport:
+      south: 48.1337302197085
+      north: 48.1364281802915
+      east: 11.5665639302915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+  international_phone_number: +49 89 1499037894
+endDate: 2022-02-20T02:00
+claimed: No
+description: >
+  Latin Scene LOUNGE is back! 🎉 🥂
+
+  Nach mehreren Monaten Pause, sind wir endlich wieder voller Energie für euch da. Wir freuen uns sehr! 🤩
+
+  Am FREITAG, dem 18.02.22 und SAMSTAG, dem 19.02.22 treffen wir uns in der Isarpost bei gemütlicher Atmosphäre mit tollen Drinks, leckerem Essen (EMPANADAS 🥟) und den besten Latin Beats der Stadt. Wir singen und tanzen im Sitzen! Kommt frühzeitig, die Plätze sind heiß begehrt.
+
+  🎧 Music: Reggaeton | Salsa | Merengue | Bachata | Cumbia | Latin Pop y mucho amor 💗
+
+  📼 Videospecials
+
+  🍾Getränkeangebote
+
+  🥟 Leckere EMPANADAS für dem Hunger zwischendurch
+
+  🏰 Location: ISARPOST | Sonnenstr. 24-26
+
+  📅 Wann? FREITAG, 18.02.22. & SAMSTAG, 19.02.22 ab 21 Uhr / Ohne Reservierung
+
+  🎟 Eintritt: Freitag 5€, Samstag 7€ / 2G Regel
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F643bb71d-eaec-46af-8659-55594643efba?alt=media&token=30b5a67e-877e-42fc-ba3c-61234c61119f
+promo: No
+duration: custom
+createdAt: 1644857717242
+artists: []
+price: 5 to 7 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1644857717242
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org: ""
+facebook: https://facebook.com/events/s/latin-scene-lounge-is-back-isa/373713887425572/
+eventType: Party
+form: No
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Latin Scene Lounge
+online: No
+styles:
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-18T21:00
+username: Lakkana
+id: BwnRMlBvameW4ccZln9C
+watch:
+  count: 0
+  list: {}
+viewsCount: 11

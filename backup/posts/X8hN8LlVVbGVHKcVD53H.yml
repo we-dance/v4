@@ -1,0 +1,138 @@
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: meet & DANCE - Die Tanzschule GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4490632802915
+      south: 48.2429800697085
+      north: 48.2456780302915
+      west: 11.4463653197085
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  map: ""
+  international_phone_number: +49 8131 317151
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  url: https://maps.google.com/?cid=5524201826745450349
+  room: "3"
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2F88796420-e848-41d1-a64b-c8100d9275cb?alt=media&token=867094c0-02b1-4432-b501-6ecbc9b7cccf
+createdAt: 1681153041939
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+eventType: Festival
+form: No
+createdBy: XyetYZADJTTwLfv6SvqeX0tqcT63
+watch:
+  count: 1
+  list:
+    Ernest: true
+name: Latindancefestival & Sensualkiz days
+online: No
+styles: {}
+username: Ernest
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Ernest "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+  bio: ""
+  id: XyetYZADJTTwLfv6SvqeX0tqcT63
+  instagram: https://instagram.com/Sokporvondupe
+  username: Ernest
+price: ""
+link: https://my.weezevent.com/sensualkiz-days-latindancefestival
+id: X8hN8LlVVbGVHKcVD53H
+facebook: https://facebook.com/events/s/sensualkiz-days/189160366576056/
+facebookId: "189160366576056"
+description: >-
+  *Latin Dance Festival* 
+
+
+  Die perfekte Mischung aus Salsa, Bachata & Kizomba! Auf *4 Dancefloors*, hervorragende Musik! – Sei dabei und hol Dir jetzt Deinen Full-Pass!
+
+
+  Dresscode:
+
+
+  - Freitag: *Red/White*💃
+
+  - Samstag: *Elegant* 
+
+
+  Wir freuen uns auf Ihre Teilnahme und auf eine unvergessliche Wochenende mit Ihnen!🥰🥰🥰
+
+
+  *Infos*👇🏽
+
+  https://phenomenalkiz.com/event/sensualkiz-days-latindancefestival/
+
+
+  *Tickets*👇🏽
+
+  https://my.weezevent.com/sensualkiz-days-latindancefestival
+
+
+  *Profilbild*👇🏽
+
+  https://twb.nz/sensualikiz-latindance
+endDate: 1682730000000
+hash: 1682701200000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+startDate: 1682701200000
+updatedAt: 1704499155031
+viewsCount: 63

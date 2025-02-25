@@ -1,0 +1,20 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1629482839617
+locales:
+  de: true
+  en: true
+createdBy: 3XFUkD139zRNJBXISuPK6OilO382
+pwaUsed: false
+name: Ralf Schäffer
+username: rschaeff
+gender: Male
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+step: photo
+updatedAt: 1629482891391
+lastLoginAt: 1629628591634
+daysUsed: 2
+id: 3XFUkD139zRNJBXISuPK6OilO382

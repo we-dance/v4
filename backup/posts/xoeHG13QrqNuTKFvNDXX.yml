@@ -1,0 +1,166 @@
+venue:
+  website: http://www.tanzschuleamstachus.de/
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  map: ""
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  url: https://maps.google.com/?cid=7618752569010268631
+  room: 4 OG.
+  international_phone_number: +49 1590 1227277
+endDate: 2023-02-19T04:00
+claimed: No
+link: https://dancewithgeorge.skedflex.de/
+description: |-
+  2 Workshops: 20:00 - 22:00
+  Teachers: 🔥IVA & GEORGE(Munich)🔥
+
+  Party: 22:00 - 04:00
+
+  DJs:
+  🔥DJ REMCY🔥
+  🔥DJ SORIN🔥
+  🔥DJ LONGCHAMP🔥
+program: []
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZ8T3ohZhdEODNme2AoD68u8LOdh2%2F41ee5f81-ff81-4a49-8926-4c3ac6171dcd?alt=media&token=47548177-5c23-44e7-8acf-608aa28711dc
+duration: 60
+createdAt: 1676647759988
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 𝐈𝐕𝐀 & 𝐆𝐄𝐎𝐑𝐆𝐄 - 𝐏𝐀𝐂𝐊𝐍𝐃𝐀𝐍𝐂𝐄
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fiva_george_packndance.png?generation=1655231335702374&alt=media
+    bio: |-
+      🌏𝗜𝗡𝗧𝗘𝗥𝗡𝗔𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗥𝗕𝗔𝗡 𝗞𝗜𝗭 𝗜𝗡𝗦𝗧𝗥𝗨𝗖𝗧𝗢𝗥𝗦
+       UrbanKiz, Kizomba, Tarraxinha, Tarrashh
+      📩 Bookings&contact: info@packndance.com
+    instagram: https://instagram.com/iva_george_packndance
+    id: 1qVbicZMU6yFp1duCTFN
+    username: iva_george_packndance
+review: ""
+price: 15 EUR (Regular) / 10 EUR (Student)
+id: xoeHG13QrqNuTKFvNDXX
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - iva_george_packndance
+international: No
+gallery: https://www.facebook.com/media/set/?set=a.129808363317916&type=3
+updatedAt: 1676647759988
+updatedBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bolingo.gomez.7
+  name: Bobby SweetKiz (Dj Longchamp)
+  bio: Aus Kamerun. Seit 17+ Jahre in Deutschland. Mit Zouk, Afro Zouk und Kompa
+    aufgewachsen.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf1c740b-0a89-4522-bb95-0dbfd4c3aae4?alt=media&token=1e3e6c30-33d0-474f-8365-add5b7bd1417
+  id: Z8T3ohZhdEODNme2AoD68u8LOdh2
+  instagram: https://www.instagram.com/bobbysweetkiz
+  username: MingaKizz
+facebook: https://fb.me/e/37cyV5o3I
+upVotes: 0
+eventType: Party
+form: No
+createdBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: MINGA KIZZ PALACE - 🎂🎂GEORGE´s BIRTHDAY EDITION🎂🎂
+online: No
+votes: 0
+styles:
+  Compas:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-18T20:00
+username: MingaKizz
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxoeHG13QrqNuTKFvNDXX.png?generation=1676647831239355&alt=media
+telegram:
+  requestedAt: 1676647776996
+  messageUrl: https://t.me/WeDanceMunich/913
+  publishedAt: 1676647834204
+  messageId: 913
+  state: published
+instagram:
+  requestedAt: 1676647789620
+  state: published
+  messageUrl: https://instagram.com/p/CoxMODYrXdN
+  publishedAt: 1676647852559
+  messageId: CoxMODYrXdN
+viewsCount: 66

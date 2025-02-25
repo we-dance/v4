@@ -1,0 +1,130 @@
+venue:
+  website: https://www.abc-dance-studios.de/
+  formatted_address: Ingolstädter Str. 12, 80807 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "12"
+      short_name: "12"
+    - types:
+        - route
+      long_name: Ingolstädter Straße
+      short_name: Ingolstädter Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwabing-Freimann
+      short_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80807"
+      short_name: "80807"
+  url: https://maps.google.com/?cid=12206069501333857312
+  name: ABC Dance Studios
+  geometry:
+    viewport:
+      south: 48.18392466970851
+      north: 48.18662263029151
+      east: 11.5867996302915
+      west: 11.5841016697085
+    location:
+      lng: 11.5854485
+      lat: 48.1853578
+  place_id: ChIJUSbKQjp0nkcRIOS7eoqrZKk
+  international_phone_number: +49 89 3507565
+endDate:
+  _seconds: 1638117000
+  _nanoseconds: 0
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+claimed: Yes
+description: |+
+  Let’s enjoy together the Cuban folkloric spirit of social dance! 
+
+  2:30h Workshop:
+  - 20 traditional figuras
+  - harmonic group dynamics
+  - techniques 
+  - style & energy 
+
+  A gozar con salsa candela!
+
+  Open Level (min 1 year of dancing, knowledge of fundamental figuras de casino)
+
+type: event
+promo: ""
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+createdAt: 1636218549403
+watchersCount: 0
+price: 25EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4F3gzR2w2gJm5rwN3Maa.png?generation=1636304099493599&alt=media
+commentsLast: ~
+promoter: SalsaCandela
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: 4F3gzR2w2gJm5rwN3Maa
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 25
+updatedAt: 1636218549403
+updatedBy: EGc3bwBVyKbLykwQMelFbftcIk32
+visibility: Public
+eventType: Party
+organiser: ""
+form: No
+createdBy: EGc3bwBVyKbLykwQMelFbftcIk32
+commentsCount: 0
+name: "Rueda de Casino by Salsa Candela "
+online: No
+styles:
+  Salsa:
+    level: Advanced
+    selected: true
+  Casino:
+    level: Advanced
+    selected: true
+  RuedaDeCasino:
+    level: Advanced
+    selected: true
+  Afro:
+    level: Advanced
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-28T13:30:00.000Z
+username: SalsaCandela
+viewsCount: 101

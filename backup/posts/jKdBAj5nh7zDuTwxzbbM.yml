@@ -1,0 +1,154 @@
+endDate: 1715479200000
+sourceUrl: https://www.facebook.com/events/7600035730018880/
+createdAt: 1715444426682
+approved: true
+provider: ical
+providerId: te5o6z1Subn2jDFbMi9r
+providerCreatedAt: 1712772952000
+updatedAt: 1715444426682
+importedAt: 1715444426682
+providerUpdatedAt: 1713956360000
+facebookId: "7600035730018880"
+facebook: https://www.facebook.com/events/7600035730018880/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/7600035730018880/
+eventType: Party
+providerItemId: e7600035730018880@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: "KIZZADDICTION PARTY Episode 4 MIAMI VICE "
+location: Foyer Saint Martin
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715450400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: 68 Rue Ambroise Cottet, 10000 Troyes, France
+  website: http://www.lefoyerdestmartin.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Le Foyer de Saint Martin
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.062709669708497
+        lat: 48.3021906197085
+      northeast:
+        lng: 4.065407630291501
+        lat: 48.3048885802915
+    location:
+      lng: 4.064129699999999
+      lat: 48.3036392
+  address_components:
+    - types:
+        - street_number
+      short_name: "68"
+      long_name: "68"
+    - types:
+        - route
+      short_name: Rue Ambroise Cottet
+      long_name: Rue Ambroise Cottet
+    - types:
+        - locality
+        - political
+      short_name: Troyes
+      long_name: Troyes
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Aube
+      long_name: Aube
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "10000"
+      long_name: "10000"
+  international_phone_number: +33 6 82 30 24 85
+  place_id: ChIJPXueuFyY7kcRGJNLBthL5gk
+  url: https://maps.google.com/?cid=713340982175437592
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/DAVIDMATHIEU68
+  name: David Mathieu
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131855/pivrcuaflfbwmm8lqgo5.jpg
+  bio: ""
+  id: ZIykeVmV7mv204FVVz3M
+  instagram: ""
+  username: DAVIDMATHIEU68
+claimed: No
+link: ""
+description: |
+  ENGLISH 
+
+  KIZZADDICTION party is back for a new episode
+  MIAMI VICE 🌴 🌴 🌊 ☀️
+  #2 great DJs
+  🎧DjCelly and LEKRYPTONIAN🎧
+  🧑🏻‍🦱 🤖 
+  #1 magnificent dancefloor close to the 3 borders
+  #barbecue
+  #free parking
+  #dresscode: Flowers
+
+  🕺🏻💃🏾WORKSHOP🕺🏻💃🏾
+  Workshop urbankizz 
+  SARA&TOM 👩🏻🧑🏻‍🦱
+
+
+  Entrance: €20
+  Workshop €7
+
+  Tell your friends about it… you know you’ll be there 😏
+
+  FRANÇAIS
+
+  KIZZADDICTION  party est de retour pour un nouvel épisode 
+  MIAMI VICE 🌴 🌴 🌊 ☀️ 
+  # 2 super DJs 
+  🎧DJCELLY et 🎧LEKRYPTONIEN
+  🧑🏻‍🦱🤖
+
+  Workshop urbankizz 
+  🕺🏻💃🏾SARA&TOM 💃🏾🕺🏻
+  👩🏻🧑🏻‍🦱
+
+  # 1 magnifique dancefloor proche des 3 frontières 
+  #barbecue 
+  #parking gratuit 
+  #dresscode : Flowers 
+
+  Entree :20€
+  Workshop 7€
+
+  Parles en à tes potes … tu sais que tu sera la 😏
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444439/nssogmnwrhmgswofadfs.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJsbeH51eY7kcRdU_oZlUS3Vc
+international: No
+hash: 1715450400000+ChIJPXueuFyY7kcRGJNLBthL5gk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjKdBAj5nh7zDuTwxzbbM.png?generation=1715444458521728&alt=media
+id: jKdBAj5nh7zDuTwxzbbM

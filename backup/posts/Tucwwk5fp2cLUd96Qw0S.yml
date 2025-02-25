@@ -1,0 +1,112 @@
+venue:
+  formatted_address: 7, Štefánikova 230, 150 00 Praha 5-Anděl, Czechia
+  website: http://www.lamacumba.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: La Macumba Music Latino bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4045822802915
+      south: 50.0709519197085
+      north: 50.0736498802915
+      west: 14.4018843197085
+    location:
+      lng: 14.403744
+      lat: 50.0726811
+  address_components:
+    - types:
+        - subpremise
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - street_number
+      short_name: "230"
+      long_name: "230"
+    - types:
+        - route
+      short_name: Štefánikova
+      long_name: Štefánikova
+    - types:
+        - neighborhood
+        - political
+      short_name: Anděl
+      long_name: Anděl
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 5
+      long_name: Praha 5
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 150 00
+      long_name: 150 00
+  international_phone_number: +420 776 795 166
+  place_id: ChIJ5doTgviUC0cRMhb90JFMSe0
+  url: https://maps.google.com/?cid=17098281649449014834
+  username: www.lamacumba.cz
+claimed: No
+program: []
+type: event
+duration: 420
+createdAt: 1722520287399
+artists: []
+price: 0 CZK
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  role: dj
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: DjLole
+endDate: 1723600800000
+id: Tucwwk5fp2cLUd96Qw0S
+hash: 1723575600000+ChIJ5doTgviUC0cRMhb90JFMSe0
+startDate: 1723575600000
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F8390aab6-9276-480d-9fb9-800d158809ed?alt=media&token=09e1cc46-1a29-41d9-9084-1d07a2c46114
+link: https://www.facebook.com/events/519990663759653
+name: Tuesday´s salsa party - Fiesta Latina | DJ Lole | FREE entry
+updatedAt: 1723493255753
+viewsCount: 2

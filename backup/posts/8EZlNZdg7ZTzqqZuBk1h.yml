@@ -1,0 +1,101 @@
+endDate: 2023-02-25T19:30
+claimed: No
+link: https://la-kossa.de/produkt/workshops/
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F17cac711-4d9b-40ba-a972-93dd1b4a4b14?alt=media&token=18025603-8804-48a8-8e29-68a959651d45
+promo: Yes
+createdAt: 1673605363745
+artists: []
+price: 19 EUR
+socialCover: ""
+artistsList: []
+international: ""
+updatedAt: 1673605363745
+updatedBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/lakossa.fitness
+  name: Ari - La Kossa®
+  bio: Empowerment through dancing
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F27efcc73-45f6-48aa-b1de-2dfc68e69964?alt=media&token=120a06cd-fcef-4baa-8f45-b121ad2beda2
+  id: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+  instagram: https://instagram.com/la.kossa
+  username: lakossa
+upVotes: 0
+telegram: {}
+eventType: Workshop
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+commentsCount: 0
+name: Afro Dance / Afrobeats Dance Workshop
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-02-25T17:30
+username: lakossa
+venue:
+  formatted_address: 10437 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Milastr. (Berlin)
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4144158302915
+      south: 52.5442436197085
+      north: 52.5469415802915
+      west: 13.4117178697085
+    location:
+      lng: 13.4131161
+      lat: 52.5455894
+  address_components:
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pankow
+      long_name: Pankow
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - postal_code
+      short_name: "10437"
+      long_name: "10437"
+  place_id: ChIJX5RwcwFSqEcR7j1Mc042zxw
+  url: https://maps.google.com/?cid=2075937663810813422
+id: 8EZlNZdg7ZTzqqZuBk1h
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+star:
+  count: 0
+  list: {}
+viewsCount: 40

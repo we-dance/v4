@@ -1,0 +1,115 @@
+endDate: 1718578800000
+sourceUrl: https://www.facebook.com/events/224207844104937/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1708352669000
+importedAt: 1711224661147
+providerUpdatedAt: 1709404599000
+facebookId: "224207844104937"
+facebook: https://www.facebook.com/events/224207844104937/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/224207844104937/
+eventType: Party
+providerItemId: e224207844104937@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "♥️♥️WEEKENDER KIZOMBA GOOD VIBES I ♥️♥️HAPPY BIRTHDAY BASH  KNZO MENDY "
+location: SOKO FUNDI - 43 ALLEE PARIS - IVRY 75013 PARIS
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718470800000
+facebookUrlsCount: 1
+username: Aina
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Knzo-Mendy/100009219654492/
+  name: Knzo Mendy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224676/nl5cwlw2fkb0h7xjjphc.jpg
+  bio: ""
+  id: EDveLSf4MaxmWBoAWeUX
+  instagram: ""
+  username: KnzoMendy
+claimed: No
+link: ""
+description: "HAPPY BIRTHDAY KNZO MENDY "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224679/kopchmsyqamvxqlaeyac.jpg
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+international: No
+hash: 1718470800000+ChIJOZxaDelz5kcR4b-1iME36nE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FUTkLooovhFvWQDGR6k0P.png?generation=1711224711536806&alt=media
+viewsCount: 2
+duration: 1800
+venue:
+  website: https://instagram.com/sokofundi?igshid=ZDdkNTZiNTM=
+  formatted_address: 43 All. Paris-Ivry, 75013 Paris, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Soko Fundi
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.383104669708498
+        lat: 48.8248493197085
+      northeast:
+        lng: 2.385802630291502
+        lat: 48.8275472802915
+    location:
+      lng: 2.3844754
+      lat: 48.82621409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "43"
+      long_name: "43"
+    - types:
+        - route
+      short_name: All. Paris-Ivry
+      long_name: Allée Paris-Ivry
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Département de Paris
+      long_name: Département de Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "75013"
+      long_name: "75013"
+  url: https://maps.google.com/?cid=8208434575197978593
+  place_id: ChIJOZxaDelz5kcR4b-1iME36nE
+  international_phone_number: +33 6 18 56 55 91
+  username: instagram.com
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artistsList: []
+id: UTkLooovhFvWQDGR6k0P
+updatedAt: 1717875056819

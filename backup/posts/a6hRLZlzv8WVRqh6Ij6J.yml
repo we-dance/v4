@@ -1,0 +1,173 @@
+venue:
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  website: http://www.isarpost-eventlocation.de/
+  name: ISARPOST Eventlocation
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5665639302915
+      south: 48.1337302197085
+      north: 48.1364281802915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 24-26
+      long_name: 24-26
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 1499037894
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+  url: https://maps.google.com/?cid=14604975425998091393
+endDate: 2023-01-08T03:00
+claimed: No
+description: >-
+  La Fiesta Latina LADIES NIGHT
+
+  Ladies haben freien Eintritt bis 23 Uhr! Natürlich sind auch Gentlemen herzlich willkommen!
+
+
+  Reggaeton, Bachata, Salsa, Merengue & Latino Hits mit @dj.yenny & @tori.seg
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F52eedd77-2d93-4218-bfdb-cbebb9ebbade?alt=media&token=46b1f026-3e02-4458-952d-f8036b62c05c
+createdAt: 1673101599324
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 𝗬𝗘𝗡𝗡𝗬 𝗦𝗘𝗚𝗨𝗥𝗔
+    bio: |-
+      Reggaeton • Latin Urban DJ • Germany MUC🇩🇪🇵🇪
+      Resident @latinscene.munich @planet.reggaeton 
+      @munich.reggaeton 
+      Links:
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj.yenny%2F.png?generation=1655307056208321&alt=media
+    id: RpvmbiD9NuFihAtOdA8V
+    instagram: https://instagram.com/dj.yenny/
+    username: dj.yenny
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Tori Segura / Pia
+    bio: |-
+      👽 Music Production | DJ
+      👽 Computer Science
+      🌱
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftori.seg.png?generation=1655306915326935&alt=media
+    id: HFau6coAEIo5PfkPu6tp
+    instagram: https://instagram.com/tori.seg
+    username: tori.seg
+price: Ladies free till 23:00
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - dj.yenny
+  - tori.seg
+international: No
+updatedAt: 1673101599324
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/latinscene.munich
+  name: LATIN SCENE
+  bio: |-
+    Kulturveranstalter 📍MUNICH 🇩🇪 🌎
+
+    @planet.reggaeton @dj.yenny 💯
+
+    Join the Latin community
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F73d142b3-58f8-456c-8cdf-c62583e9dfd8?alt=media&token=47b6050d-81f5-4946-9db3-7194d82f3320
+  id: tmDC5QtoaTZPBYUEM1Ia
+  instagram: https://www.instagram.com/latinscene.munich/
+  username: latinscene.munich
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: La Fiesta Latina
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-07T22:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fa6hRLZlzv8WVRqh6Ij6J.png?generation=1673101610644994&alt=media
+telegram:
+  requestedAt: 1673101618705
+  messageUrl: https://t.me/WeDanceMunich/772
+  publishedAt: 1673101619942
+  messageId: 772
+  state: published
+instagram:
+  requestedAt: 1673101624032
+  messageUrl: https://instagram.com/p/CnHgWf5OFrC
+  publishedAt: 1673101637306
+  messageId: CnHgWf5OFrC
+  state: published
+star:
+  count: 1
+  list:
+    juno81: true
+viewsCount: 76
+id: a6hRLZlzv8WVRqh6Ij6J

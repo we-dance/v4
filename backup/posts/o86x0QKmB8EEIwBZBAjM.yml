@@ -1,0 +1,148 @@
+importedAt: 1707427286571
+providerUpdatedAt:
+  _seconds: 1705658302
+  _nanoseconds: 0
+endDate:
+  _seconds: 1708637400
+  _nanoseconds: 0
+facebookId: "219151567913613"
+facebook: https://www.facebook.com/events/219151567913613/
+createdAt: 1707427286571
+providerItemId: e219151567913613@facebook.com
+approved: false
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: 262LQz8uIYSRwrDAtGZ1
+name: "Wortgefecht #146 - Nürnbergs original Poetry Slam"
+location: Südpunkt
+styles: {}
+providerCreatedAt:
+  _seconds: 1704624563
+  _nanoseconds: 0
+startDate:
+  _seconds: 1708628400
+  _nanoseconds: 0
+updatedAt: 1707427286571
+username: alexrazbakov
+venue:
+  formatted_address: Pillenreuther Str. 147, 90459 Nürnberg, Germany
+  website: https://www.nuernberg.de/internet/kuf_kultur/kuf_suedpunkt.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: südpunkt - Zentrum für Bildung und Kultur
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.0855725197085
+        lat: 49.4301689697085
+      northeast:
+        lng: 11.0882704802915
+        lat: 49.4328669302915
+    location:
+      lng: 11.0872062
+      lat: 49.4314968
+  address_components:
+    - types:
+        - street_number
+      short_name: "147"
+      long_name: "147"
+    - types:
+        - route
+      short_name: Pillenreuther Str.
+      long_name: Pillenreuther Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90459"
+      long_name: "90459"
+  international_phone_number: +49 911 23114300
+  place_id: ChIJgYxSR2xXn0cRR5uRcboFt8Y
+  url: https://maps.google.com/?cid=14318919838575205191
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707427291503
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/poetryslam
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707427291/stjnrzvna8uwbs4inidb.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707427291503
+  owned: false
+  name: Poetry Slam Nürnberg
+  place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+  updatedAt: 1707427291503
+  username: poetry.slam.nurnberg
+claimed: No
+link: ""
+description: >+
+  Poetry Slam am 22.02.2024
+
+  um 20 Uhr im Südpunkt Nürnberg
+
+
+  Das Wortgefecht  - Nürnbergs original Poetry Slam - geht in die 146. Runde. Wir freuen uns darauf diesmal wieder hochkarätige Slammer*innen auf die Bühne des Südpunkts zu holen! Mit dabei sind wieder zum großen Teil deutschlandweit bekannte Szenestars. So kommen die Slam-Legende Wehwalt Koslovsky aus Husum, der Finalist der deutschsprachigen Meisterschaft und Baden-Württemberg-Vizemeister Marvin Suckut aus Konstanz, Philipp Stroh aus Offenburg, Jonathan Löffelbein aus Hannover, Teresa Honisch aus Schwabach und der Moderator des SüdSlams Nils Nektarine! 
+
+
+  Moderation: Michael Jakob 
+
+
+  Einlass: ab 19:30 Uhr, 
+
+
+  Eintritt/Tickets: nur Abendkasse, 8 normal / 7 ermäßigt), Nürnberg-Pass: 4 Euro. Platzreservierung für Gruppen möglich per Mail: info(ädd)kulturschockverein.de 
+
+  --> (ädd) mit @ ersetzen!
+
+
+  (Foto: Chris Bellaj)
+
+
+program: []
+source: facebook
+eventType: Party
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707427293/e8x5hozf5tsj3jc8hvlb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+international: No
+hash: 1708628400000+ChIJgYxSR2xXn0cRR5uRcboFt8Y
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fo86x0QKmB8EEIwBZBAjM.png?generation=1707427304219915&alt=media
+id: o86x0QKmB8EEIwBZBAjM

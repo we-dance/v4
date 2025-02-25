@@ -1,0 +1,52 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1647688736749
+createdBy: AHngNKakmFOujSGMgkHCnxsAiZJ3
+name: Nis
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Nis
+daysUsed: 1
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  zh: true
+  es: true
+gender: Female
+partner: No
+permission: No
+objectives:
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: Yes
+updatedAt: 1647688878801
+styles:
+  SalsaNewYork:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Advanced
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  LindyHop:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Afro:
+    level: Intermediate
+    highlighted: false
+    selected: true
+lastLoginAt: 1647707902169
+id: AHngNKakmFOujSGMgkHCnxsAiZJ3

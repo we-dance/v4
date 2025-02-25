@@ -1,0 +1,148 @@
+venue:
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  name: Martin-Behaim-Straße 3
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5388029302915
+      south: 48.1232719197085
+      north: 48.1259698802915
+      west: 11.5361049697085
+    location:
+      lng: 11.5373334
+      lat: 48.1246321
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  place_id: ChIJu8gT57PYnUcRvMTO4zzh3yw
+  url: https://maps.google.com/?q=Martin-Behaim-Stra%C3%9Fe+3,+81373+M%C3%BCnchen,+Germany&ftid=0x479dd8b3e713c8bb:0x2cdfe13ce3cec4bc
+claimed: No
+link: www.kizztalk.de
+description: >-
+  Die KizzTalk Dance Academy feiert ihre Eröffnung.
+
+  Alle Kurse sind gratis, man muss sich nur anmelden, da die Plätze begrenzt sind!
+type: event
+duration: 60
+promo: Yes
+createdAt: 1657195171421
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1657195171421
+updatedBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+visibility: Public
+eventType: Party
+form: No
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+name: Eröffnungsfeier KizzTalk Dance Academy
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-08-13T14:00
+username: Katj
+id: yAkOWsc9Xo5VypLbh0Yz
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2F3460ff26-7989-47cc-859f-b84de5438e7b?alt=media&token=5da693a1-9217-49f2-bc5c-b7e71cdfb8b4
+endDate:
+  _seconds: 1660395600
+  _nanoseconds: 0
+watch:
+  count: 1
+  list:
+    Katj: true
+star:
+  count: 1
+  list:
+    Katj: true
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    bio: Urban Kiz & Afro Instructor
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    instagram: https://instagram.com/kizztalk_
+    username: kizztalk
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Katja Diamé
+    photo: ""
+    bio: ""
+    instagram: ""
+    id: 5DxynglUsETxslO7UZaBnTrOi5I3
+    username: Katj
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Fajul KizzTalk
+  bio: Urban Kiz & Afro Instructor
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+  id: yCVXNW3rN1RPktmCXpXldFi57pr2
+  instagram: https://instagram.com/kizztalk_
+  username: kizztalk
+artistsList:
+  - kizztalk
+  - Katj
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyAkOWsc9Xo5VypLbh0Yz.png?generation=1657202864112274&alt=media
+viewsCount: 13

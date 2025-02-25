@@ -1,0 +1,65 @@
+visibility: Public
+type: Dancer
+community: Erfurt
+createdAt: 1613505219522
+createdBy: gyDpm1WDtZc0HyE6FriPRkvVyxJ3
+name: Sia
+username: Sia
+teacher: No
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FgyDpm1WDtZc0HyE6FriPRkvVyxJ3%2Fb04e0449-8879-470e-a82f-da2a926f1f3f?alt=media&token=09014983-1653-464c-b962-6e187b7a38a0
+partner: Yes
+location:
+  country: Germany
+  latitude: 50.98476789999999
+  locality: Erfurt
+  usedGps: false
+  place_id: ChIJcdZYg4VypEcRADYzdMGOIAQ
+  longitude: 11.0298799
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+locales:
+  de: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+language: de
+lastLoginAt: 1614787600912
+daysUsed: 3
+pwaUsed: false
+hometown: ChIJcdZYg4VypEcRADYzdMGOIAQ
+place: ChIJcdZYg4VypEcRADYzdMGOIAQ
+updatedAt: 1617064582032
+styles:
+  Kizomba:
+    level: Advanced
+    selected: true
+  Salsa:
+    level: Intermediate
+    selected: true
+  Tango:
+    level: Intermediate
+    selected: true
+  Tarraxinha:
+    level: Intermediate
+    selected: true
+  UrbanKizz:
+    level: Advanced
+    selected: true
+  Zumba:
+    level: Intermediate
+    selected: true
+  Semba:
+    level: Intermediate
+    selected: true
+  BrazilianZouk:
+    level: Beginner
+    selected: true
+  TangoArgentino:
+    level: Interested
+    selected: true
+viewsCount: 5
+id: gyDpm1WDtZc0HyE6FriPRkvVyxJ3

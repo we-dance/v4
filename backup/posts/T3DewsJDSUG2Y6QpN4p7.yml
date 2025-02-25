@@ -1,0 +1,134 @@
+venue:
+  website: https://www.kizztalk.de/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13483610605514083579
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizztalk Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5388055302915
+      south: 48.1232715697085
+      north: 48.1259695302915
+      west: 11.5361075697085
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  url: https://maps.google.com/?cid=1174991087505886864
+  international_phone_number: +49 1515 7942042
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+endDate: 1698253200000
+claimed: No
+description: Tauche ein in die Welt des Afro-Tanzes! Unser regelmäßiger
+  Afro-Kurs bietet die Gelegenheit, die rhythmische Energie und die kulturelle
+  Vielfalt dieses Tanzstils zu erleben. Geeignet für alle Altersgruppen und
+  Erfahrungslevel.
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2F60e11dde-4322-4db7-9b9f-ca1dcc06edd2?alt=media&token=9be80c4e-977f-4def-a5cd-173a2901fcdd
+createdAt: 1698060773149
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    bio: Urban Kiz & Afro Instructor
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    instagram: https://instagram.com/kizztalk_
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    username: kizztalk
+price: 15 EUR, all Price Plans and Partner
+socialCover: ""
+artistsList:
+  - kizztalk
+id: T3DewsJDSUG2Y6QpN4p7
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+paypal: info@kizztalk.de
+updatedAt: 1698060773149
+updatedBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizztalk
+  name: Kizztalk Dance Academy
+  bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+    zu kommunizieren, sich au
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+  instagram: https://www.instagram.com/kizztalk_/
+  id: 5DxynglUsETxslO7UZaBnTrOi5I3
+  username: kizztalkdanceacademy
+upVotes: 0
+telegram: {}
+eventType: Workshop
+form: No
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Afro Dance
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1698249600000
+username: kizztalkdanceacademy
+viewsCount: 4

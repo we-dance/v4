@@ -1,0 +1,201 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/btob-dance-festival/
+sourceUrl: https://facebook.com/events/357297850618786
+venue:
+  address_components:
+    - long_name: 4-6
+      short_name: 4-6
+      types:
+        - street_number
+    - long_name: Bulevardul Dimitrie Pompeiu
+      short_name: Bulevardul Dimitrie Pompeiu
+      types:
+        - route
+    - long_name: Sectorul 2
+      short_name: Sectorul 2
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: București
+      short_name: București
+      types:
+        - locality
+        - political
+    - long_name: Municipiul București
+      short_name: Municipiul București
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: București
+      short_name: București
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Romania
+      short_name: RO
+      types:
+        - country
+        - political
+  formatted_address: Bulevardul Dimitrie Pompeiu 4-6, București, Romania
+  geometry:
+    location:
+      lat: 44.4802498
+      lng: 26.1177759
+    viewport:
+      northeast:
+        lat: 44.4813790302915
+        lng: 26.1192609802915
+      southwest:
+        lat: 44.47868106970851
+        lng: 26.1165630197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +40 725 589 542
+  name: NORD Events Center by Globalworth
+  place_id: ChIJXzLX0Cn5sUAReDPYWGUq1as
+  url: https://maps.google.com/?cid=12381849365295674232
+  website: http://www.nordevents.ro/
+endDate: 1743998400000
+claimed: No
+link: https://dekadanceacademy.ro/btob-events/
+description: >-
+  ARTISTS:
+
+  DANIEL & DESIREE
+
+  RONALD & ALBA
+
+  SERGIO & MARICHU
+
+  DAVID & INES
+
+  CARLOS ESPINOSA & SARA
+
+  LOLA HONTAS 
+
+  MARCO & VESSY 
+
+  VALENTIN STEFAN & VERONICA
+
+  EDY & ALY
+
+  IRINA & LORENZO
+
+
+
+  DJ KHALID
+
+  DJ NICO
+
+  DJ El VECTOR 
+
+
+  🎃 **HALLOWEEN 👻 Special Offer!** 🎃  
+
+  **Valid from**: 5th Oct to 31st Oct 2024  
+
+  **ONLINE PURCHASE ONLY** 💻  
+
+  **Price**: 95€ for a Full Pass 🕸️
+
+
+  Starting November 1st 2024👇
+
+
+  🎟️ ** 10€ DISCOUNT available** only through your school or group leader!  
+
+
+  💥 **Plus** 1.5€ from every Full Pass online purchased will be donated to **HELPING CHILDREN WITH AUTISM** (Asociația Abilități din Dizabilități ❤️
+
+  -------
+
+  📅 **Until March 1st - 2025**:  
+
+  🎟 **Full Pass:** 110€  
+
+  🎉 **Party Pass:** 95€  
+
+  🎟 **Friday Pass:** 45€ (Fiday Workshops + Party)  
+
+  🎟 **Saturday Pass:** 55€ (Saturday Workshops + Party)  
+
+  🎟 **Sunday Pass:** 55€ (Sunday Workshops + Party)  
+
+  💃 **One Night Party:** 40€
+
+  --------
+
+  📅 **Starting March 2nd - 2025**:  
+
+  🎟 **Full Pass:** 120€  
+
+  🎉 **Party Pass:** 95€  
+
+  🎟 **Friday Pass:** 45€ (Friday Workshops + Party)  
+
+  🎟 **Saturday Pass:** 55€ (Saturday Workshops + Party)  
+
+  🎟 **Sunday Pass:** 55€ (Sunday Workshops + Party)  
+
+  💃 **One Night Party:** 40€
+
+
+  https://dekadanceacademy.ro/btob-events/
+
+
+  📍NO REFUND IS POSSIBLE.
+
+  ONLY CHANGES OF THE NAME FROM THE PASSES IS POSSIBLE❗️
+
+  Our guide line:
+
+  *Manners define a person*
+
+  *Education honors a person*
+
+  *Civic involvement builds a healthy and strong society *
+
+
+  We thank you for sharing our dreams and values 🙏 ❤️ 💃💫
+
+
+  📍 Let conquer the nights and seize the dawn! ❤️
+
+  https://youtube.com/c/BtoBDanceFestivalofficial Vezi mai puţin
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293943/pwitkeinwgc99pmhrl38.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJT608vzr5sUARKKacfOMyBqw
+international: No
+visibility: Public
+org:
+  id: YBD0RoUEDJaEQXBLeDIB
+  username: bachatatakesoverbucharest
+  name: Bachata Takes Over Bucharest / B to B
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953523/rcaqcm449domcc5rwfwm.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/bachatatakesoverbucharest
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/357297850618786/
+facebookId: "357297850618786"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: BtoB Dance Festival 4-6 April 2025
+online: No
+styles: {}
+hash: 1743778800000+ChIJXzLX0Cn5sUAReDPYWGUq1as
+startDate: 1743778800000
+id: c9dvs3Zu1A6PdjA4YFr6

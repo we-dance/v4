@@ -1,0 +1,150 @@
+endDate: 1729911600000
+sourceUrl: https://www.facebook.com/events/1182276029434064/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717497889000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728393263000
+facebookId: "1182276029434064"
+facebook: https://www.facebook.com/events/1182276029434064/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1182276029434064/
+eventType: Party
+providerItemId: e1182276029434064@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: ABSOLU'KIZ - VEND 25 OCT BLACK&WHITE Edition -  3 Salles - 3 Ambiances
+location: Sport Indoor Les Ulis
+styles:
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729884600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 8 Av. de Scandinavie, 91940 Les Ulis, France
+  website: http://www.sportindoor.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Sport Indoor Fitness Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.199938169708498
+        lat: 48.6861352197085
+      northeast:
+        lng: 2.202636130291502
+        lat: 48.6888331802915
+    location:
+      lng: 2.2013084
+      lat: 48.68730559999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Av. de Scandinavie
+      long_name: Avenue de Scandinavie
+    - types:
+        - locality
+        - political
+      short_name: Les Ulis
+      long_name: Les Ulis
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Essonne
+      long_name: Essonne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "91940"
+      long_name: "91940"
+  international_phone_number: +33 1 69 28 37 66
+  place_id: ChIJJYXgsDzW5UcR3C4PEzFmMA0
+  url: https://maps.google.com/?cid=950371882334367452
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/EcoleSiDance
+  name: Ecole SI Dance LES ULIS
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417922/rlgkn4yc596nnedxpwpz.jpg
+  bio: ""
+  id: l5C30ISgfDFBARfQJVOR
+  instagram: ""
+  username: EcoleSiDance
+claimed: No
+link: ""
+description: |-
+  VENDREDI 22 OCTOBRE 2024 
+  🔥 ABSOLU'KIZ Black & White edition
+
+   3 SALLES
+  KCMA / URBANKIZ TARRAXA / AUTHENTIQUE / BLACKROOM DOUCEUR
+  - Première Partie
+  💫 21H30 - 22H15
+  URBANKIZ DEBUTANT AVEC JEFF ET GHYS
+
+  💫 22H15 à 23H00 :
+  URBANKIZ INTERMEDIAIRE AVEC JEFF ET GHYS
+
+  22H / Sociale à l' accueil en simultané des cours 🔥
+
+  🚖TEAM TAXIS : infos à venir
+
+  💫À PARTIR DE 23H15 la soirée commence dans les 3 salles jusqu’à 5h du Matin
+  - 1 SALLE URBAN'KIZ TARRAXA
+  -1SALLE KCMA AUTHENTIQUE
+  -1 SALLE DOUCEUR
+
+  🎧 LINE UP 🎧
+  DJ LOYJ DEEJAY MOY DJ LAAK DJ LIONNAX
+
+
+  ✨Sur Place :
+  14 € VESTIAIRE COMPRIS ( 1 PETIT SAC 1 VESTE)
+
+  PAIEMENT CB PAS DE SANS CONTACT
+  ESPÈCES / PRÉVOIR L'APPOINT
+
+  📍STUDIO SI DANCE
+  ZAC COURTABOEUF
+  SPORT INDOOR
+  8 AV DE SCANDINAVIE
+  91940 LES ULIS Voir m
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417987/hy4rqpyyc1mzfkjxlbyn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ3w9g_OHV5UcRh6jQuXEwl1k
+international: No
+hash: 1729884600000+ChIJJYXgsDzW5UcR3C4PEzFmMA0
+id: 6tsXUFBp1QAKjfamZIGW

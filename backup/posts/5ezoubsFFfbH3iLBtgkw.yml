@@ -1,0 +1,155 @@
+createdAt: 1705925340649
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1705925340649
+username: Aina
+viewsCount: 1
+venue:
+  formatted_address: Harnischstraße 11, 30163 Hannover, Germany
+  website: http://bootshaus84-hannover.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Bootshaus 84 Unternehmergesellschaft (haftungsbeschränkt)
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.744136719708498
+        lat: 52.3889577197085
+      northeast:
+        lng: 9.746834680291503
+        lat: 52.3916556802915
+    location:
+      lng: 9.74529
+      lat: 52.39037
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Harnischstraße
+      long_name: Harnischstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Vahrenwald-List
+      long_name: Vahrenwald-List
+    - types:
+        - locality
+        - political
+      short_name: Hannover
+      long_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30163"
+      long_name: "30163"
+  international_phone_number: +49 511 27003886
+  place_id: ChIJcUrIGVdzsEcRK_78pztN2wc
+  url: https://maps.google.com/?cid=566131096781913643
+endDate: 1705870800000
+claimed: No
+link: ""
+description: >-
+  🕺 *SalSunday im Bootshaus - Tanz-Sonntag der Extraklasse!* 💃
+
+  - 📅 *Datum:* 21. Januar
+
+  - 🕒 *Zeit:* 15:00 Uhr - 22:00 Uhr
+
+  - 📍 *Ort:* Bootshaus84, Roesebeckstraße 1, Hannover
+
+
+  🎉 Tauche ein in die Welt von SalSunday, dem Tanz-Sonntag im Bootshaus, der dir das Beste aus Salsa, Bachata und Kizomba bietet! 🎉
+
+
+  🕒 *Programm:*
+
+  - Kizomba Kurse mit dem fantastischen Kizz L. 
+    - Anfängerkurs: 15:00 - 16:00 Uhr
+    - Mittelstufe Kurs: 16:00 - 17:00 Uhr.
+    - Anmeldung erforderlich unter Mobil: 017696656932
+    - Lerne neue Moves, vertiefe deine Technik und erlebe die Schönheit von Kizomba!
+  - Fiesta-Zeit mit DJ Julio Volcan (VEN)! 
+    - 17:00 - 22:00 Uhr
+    - Erlebe die mitreißenden Rhythmen von Salsa, die romantischen Klänge von Bachata und die sinnlichen Beats von Kizomba. 
+    - DJ Julio Volcan (VEN) sorgt für eine unvergessliche Tanznacht!
+
+  🎶 *Musikgenuss:*
+
+  - Tauche ein in die besten Hits und Rhythmen, die DJ Julio Volcan (VEN) für dich bereithält. 
+
+  - Von leidenschaftlichem Salsa über romantischen Bachata bis hin zu verführerischem Kizomba - erlebe eine Tanznacht, die deinen Sonntag unvergesslich macht!
+
+
+  #SalSunday #TanzSonntag #BootshausTanznacht #Salsa #Bachata #Kizomba
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/394141676476922/
+facebookId: "394141676476922"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: SalSunday mit Dj Julio Volcan (VEN) - Kizomba Kurs mit KIZZ L
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1705845600000+ChIJcUrIGVdzsEcRK_78pztN2wc
+startDate: 1705845600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705925350/edtk1wrqgf1goncgtqmo.jpg
+org:
+  owner: ""
+  importedAt: 1705925348934
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsabootshaus
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705925349/vqekp27vnqplvdk0vjss.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1705925348934
+  owned: false
+  name: Salsa Bootshaus Hannover
+  place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+  updatedAt: 1705925348934
+  username: salsa.bootshaus.hannover
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F5ezoubsFFfbH3iLBtgkw.png?generation=1705925371638473&alt=media
+id: 5ezoubsFFfbH3iLBtgkw

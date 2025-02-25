@@ -1,0 +1,341 @@
+sourceUrl: https://www.facebook.com/events/298640779817796/
+createdAt: 1717694266207
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+endDate: 1726887600000
+claimed: No
+program: []
+source: facebook
+type: event
+place: ChIJ3djGFgB7nkcRsLmL161IHgQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/298640779817796/
+facebookId: "298640779817796"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1726833600000+ChIJj92YQ7R7nkcRbf-5_kroqUw
+startDate: 1726833600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717694273/b0m7f6gxwv0zdwt8vryn.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSsFFuwATD7D9ohBz4pQD.png?generation=1717694291720442&alt=media
+duration: 900
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  name: meet & DANCE - Die Tanzschule GmbH
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4463653197085
+        lat: 48.2429800697085
+      northeast:
+        lng: 11.4490632802915
+        lat: 48.2456780302915
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  url: https://maps.google.com/?cid=5524201826745450349
+  international_phone_number: +49 8131 317151
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  username: dachau.meet-and-dance.de
+name: DDF - Dachau Dance Festival
+id: SsFFuwATD7D9ohBz4pQD
+star:
+  count: 1
+  usernames:
+    - Ernest
+  history:
+    - username: Ernest
+      date: 1722934963175
+      invitedBy: ""
+      uid: XyetYZADJTTwLfv6SvqeX0tqcT63
+      action: joined
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+price: €99 - FullPass
+link: https://www.bachata-kis-dachau.de/de/event-details-registration/sensual-night-dachau-presents-ddf-artists
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: gabyyestefyoficial
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fgabyyestefyoficial.png?generation=1705071465692481&alt=media
+    bio: |-
+      👫|Professional Dancer/Choreographer
+      💼|🎵 Salsa&Bachata🎵
+      📍Directors @acordanzaescueladebaile2022 
+      📍Based in Madrid
+      🏷️| #gabyestefy 
+      ➖➖➖➖➖➖➖➖➖➖➖➖
+    instagram: https://instagram.com/gabyyestefyoficial
+    id: jEdKubYpVhgQIqp1SQmL
+    username: gabyyestefyoficial
+  - youtube: https://youtube.com/@amadoart8953
+    tiktok: ""
+    facebook: https://www.facebook.com/jorgeamado.perezmachado
+    name: Jorge Amado Perez Machado
+    bio: Licenciado en Arte Danzario•Primer Nivel Dancístico
+      profesional•Especialista
+      Folclórico,Investigador,Profesor,Coreógrafo•Premio Nacional Ramiro Guerra
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Famado.art.official.png?generation=1655385406881655&alt=media
+    id: 81FVVCCsU3oyvfQwLrYS
+    instagram: https://instagram.com/amado.art.official
+    username: amado.art.official
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/kingsmanledoux
+    name: Kingsman Ledoux
+    bio: >-
+      Welcome to the LKA page ! 
+
+      Here, you’ll find all you need to know about this project and hopefully, you’ll take a part of.
+
+      #wearelka
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Flka_officiel.png?generation=1710528199750283&alt=media
+    id: Ix4HNnPGF8CEXSEoW6ic
+    instagram: https://instagram.com/lka_officiel
+    username: lka_officiel
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    bio: Urban Kiz & Afro Instructor
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    instagram: https://instagram.com/kizztalk_
+    username: kizztalk
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DanceWithGeorge
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FuEYEUCYc6aYx1n4YiirpJZIaG5z2%2F412e8911-4a0c-4209-8b3c-3e3fdcc45339?alt=media&token=e247691c-d90a-4d7c-a910-ae8654cf8e29
+    bio: >
+      We are a creative and high spirited team of dance teachers that love
+      sharing their passion for dance with you.
+    id: uEYEUCYc6aYx1n4YiirpJZIaG5z2
+    instagram: https://instagram.com/dancewithgeorge
+    username: DanceWithGeorge
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Remcy
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdjremcyofficial.png?generation=1662976947469425&alt=media
+    bio: |-
+      🎧 DJ | Producer | Beatmaker 🎶
+      📧 Booking: djremcy@djremcy.com
+      #djremcy #kizomba
+    id: KudD69t1x3oj1pk6yvtf
+    instagram: https://instagram.com/djremcyofficial
+    username: djremcyofficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: djichigodancer
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdjichigodancer.png?generation=1709890136821167&alt=media
+    bio: |-
+      DJ ICHIGO
+      Iɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ Dᴊ
+      📍WaKaNdA
+      orga :
+      @thewakandafestival 
+      @tokooskizombafestival
+      booking : @monama.agency
+    id: Lpbs6gzxmNzAneoweX8G
+    instagram: https://instagram.com/djichigodancer
+    username: djichigodancer
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Sorin Apahidean
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj.sorin.kizz.png?generation=1709890121973925&alt=media
+    bio: Urbankiz instructor | DJ & Producer
+    id: 6u38onFtLYELOFs2WQoQ
+    instagram: https://instagram.com/dj.sorin.kizz
+    username: dj.sorin.kizz
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/El.momo.p
+    name: Dj El Momo
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431991/kfwx47r0osmaiqdktwgz.jpg
+    bio: ""
+    id: Xj7z3PlbkjuNrzGsfdjn
+    instagram: https://www.instagram.com/dj.el.momo
+    username: dj.el.momo
+  - instagram: https://instagram.com/robertroberto.p
+    username: robertroberto.p
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/ernest.kasse
+    name: "DJ Maestro "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+    bio: ""
+    id: XyetYZADJTTwLfv6SvqeX0tqcT63
+    instagram: https://instagram.com/Sokporvondupe
+    username: Ernest
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Salser@s y Companer@s
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkGDD595byJY19rMbUCDsmFtvPDq2%2F95123d7e-4b42-4f8b-a98c-99704e0177a2?alt=media&token=7a76e647-f409-4c29-b198-7f4a75f4f87c
+    bio: We are Dancing Family
+    id: kGDD595byJY19rMbUCDsmFtvPDq2
+    instagram: https://instagram.com/salserosoutdoor
+    username: Salseros_y_Companeros
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Roberto Livieri
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdejay_rob.png?generation=1705226453005106&alt=media
+    bio: ""
+    id: YL5c6QYgmf1UMTLUJldF
+    instagram: https://instagram.com/dejay_rob
+    username: dejay_rob
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: erlandweber
+    photo: ""
+    bio: ""
+    id: li36sDwGMNgD7pBwrCiY
+    instagram: https://instagram.com/erlandweber
+    username: erlandweber
+  - instagram: https://instagram.com/szimona.dancing
+    username: szimona.dancing
+  - instagram: https://instagram.com/z.anzo_art
+    username: z.anzo_art
+  - instagram: https://instagram.com/b.e.lla.dob
+    username: b.e.lla.dob
+artistsList:
+  - gabyyestefyoficial
+  - amado.art.official
+  - lka_officiel
+  - kizztalk
+  - DanceWithGeorge
+  - djremcyofficial
+  - djichigodancer
+  - dj.sorin.kizz
+  - dj.el.momo
+  - robertroberto.p
+  - Ernest
+  - Salseros_y_Companeros
+  - dejay_rob
+  - erlandweber
+  - szimona.dancing
+  - z.anzo_art
+  - b.e.lla.dob
+description: >
+  A weekend in Dachau with the top Salsa, Bachata and Kizomba Artists from Cuba,
+  Spain & France.
+
+  Workshops for Beginners, Intermediate and Advanced dancers & Parties on 3 dance floors with the best DJs.
+
+
+  ## Attention: 
+
+  - There will be 2 shows performed by Gaby & Estefy:
+
+  - 1 Live Music Show performed by Gaby on Friday
+
+  - 1 Dance Show performed by both, Gaby & Estefy
+
+  - Full Pass Ticket will increase by 5€ per month 
+
+  - Full Party passes & Day passes will be on sale from Juli 2024 
+
+  - Combi-Ticket available for DDF + USC-Uni Salsa Camp Regensburg 
+
+  - SAVE THE DATE for USC-Festival: 08-10. November 2024 
+
+
+
+  ## Dance Location:
+
+  - “Meet & Dance” Tanzschule Dachau, Münchner Str. 87b, 85221 Dachau, Germany
+
+  - Dachau is a beautiful city located in the northwest of Munich
+
+  - Dachau-City is situated at the exit of Highway/Autobahn (A9)
+
+  - Munich to Dachau (S-Bahn 25min. By Car:25min)
+
+  - S-Bahn Munich Airport to Dachau - 25 min (https://www.bahnhof.de/dachau-stadt)
+
+
+  See you on the dance floor 
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/ernest.kasse
+  name: "DJ Maestro "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+  bio: ""
+  id: XyetYZADJTTwLfv6SvqeX0tqcT63
+  instagram: https://www.instagram.com/ernest_lionsnight/
+  username: Ernest
+lottery: https://www.instagram.com/p/C-VM3MeiTA1/
+specialOffer: Win FullPass with Lottery
+viewsCount: 43
+hasLottery: No
+hotDeal: No
+updatedAt: 1727125516150

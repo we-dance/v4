@@ -1,0 +1,74 @@
+createdAt: 1716105202726
+website: http://www.werkhaus-ev.de/
+rooms: ""
+address:
+  formatted_address: Leonrodstraße 19, 80634 München, Germany
+  website: http://www.werkhaus-ev.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: WERKHAUS human-kreative Gemeinschaft e.V.
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5341833697085
+        lat: 48.15218831970851
+      northeast:
+        lng: 11.5368813302915
+        lat: 48.15488628029151
+    location:
+      lng: 11.5355041
+      lat: 48.1535983
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Leonrodstraße
+      long_name: Leonrodstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neuhausen-Nymphenburg
+      long_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80634"
+      long_name: "80634"
+  place_id: ChIJg3CkrBZ2nkcRIgE1wYsINYw
+  international_phone_number: +49 89 166102
+  url: https://maps.google.com/?cid=10102990735410528546
+gender: Other
+phone: +49 89 166102
+name: WERKHAUS human-kreative Gemeinschaft e.V.
+updateAt: 1716105202726
+type: Venue
+map: ""
+username: www.werkhaus-ev.de
+id: idFnrXclqNcGjKrHKA4P

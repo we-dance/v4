@@ -1,0 +1,137 @@
+venue:
+  formatted_address: Atelierstraße 1, 81671 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "1"
+      short_name: "1"
+    - types:
+        - route
+      long_name: Atelierstraße
+      short_name: Atelierstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Berg am Laim
+      short_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81671"
+      short_name: "81671"
+  url: https://maps.google.com/?q=Atelierstra%C3%9Fe+1,+81671+M%C3%BCnchen,+Germany&ftid=0x479ddf8448180dc9:0x2b9aabd2d82a9e93
+  name: Atelierstraße 1
+  geometry:
+    viewport:
+      south: 48.1242938697085
+      north: 48.12699183029149
+      east: 11.6067607302915
+      west: 11.6040627697085
+    location:
+      lng: 11.605507
+      lat: 48.1257061
+  place_id: ChIJyQ0YSITfnUcRk54q2NKrmis
+endDate: 2021-11-19T00:00:00.000Z
+organisedBy: ""
+claimed: No
+link: https://www.tickettailor.com/events/salsaonstage/601070
+description: >-
+  Dear salsa fans,
+
+
+  Unfortunately, we have to postpone the Salsa Cantina Re-Opening with the live band "David Lenis & Orchestra" to spring 2022 due to the current Corona situation.
+
+
+  Already purchased tickets remain valid.
+
+
+  For refunds of ticket prices (minus the advance booking fee), please let us know so that we can initiate the refund.
+
+
+  We, the organizers, as well as the band and everyone involved, were looking forward to the re-opening so much, but after careful consideration, the current Corona situation unfortunately does not allow a boisterous dance festival as a new beginning on this scale.
+
+
+  As soon as the alternative date is fixed, you will be informed by email.
+
+
+  Thank you very much for your understanding and patience.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F5e66ad25-cf1f-4ccf-bb5e-b5dee01dc7c9?alt=media&token=037ff044-7fd7-4c0c-bf34-3900b6f7297d
+duration: custom
+createdAt: 1635433752355
+watchersCount: 0
+price: 25 EUR
+commentsLast: ~
+promoter: Vitali
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: JWoG60CnSZWhMd4CvOun
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+views: 26
+updatedAt: 1635433752355
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://www.facebook.com/events/301630314875251
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa Cantina [POSTPONED]
+online: No
+styles:
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-18T19:30:00.000Z
+username: Vitali
+viewsCount: 29

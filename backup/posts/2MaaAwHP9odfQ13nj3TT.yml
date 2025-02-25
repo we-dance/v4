@@ -1,0 +1,213 @@
+venue:
+  website: http://www.cernalabut.cz/
+  formatted_address: 25, Na Poříčí 1067, 110 00 Praha 1-Nové Město, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Art Gallery & Event Black Swan
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4357402302915
+      south: 50.0887176197085
+      north: 50.0914155802915
+      west: 14.4330422697085
+    location:
+      lng: 14.4343624
+      lat: 50.0902015
+  address_components:
+    - types:
+        - subpremise
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - street_number
+      short_name: "1067"
+      long_name: "1067"
+    - types:
+        - route
+      short_name: Na Poříčí
+      long_name: Na Poříčí
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 110 00
+      long_name: 110 00
+  place_id: ChIJIfhP2r-UC0cRbqMd0Ul3yJg
+  international_phone_number: +420 725 509 438
+  url: https://maps.google.com/?cid=11009180448031875950
+endDate: 2023-03-19T23:55
+claimed: No
+link: https://www.facebook.com/events/717389223188546
+description: >-
+  Spring is finally here 🌷🙌 Let's CELEBRATE it together and dance BACHATA &
+  SALSA in one of our favorite venues - beautiful Black Swan 💕
+
+
+  ✅ WHEN: Sun 19.03
+
+  ✅ VENUE: Black Swan Art & Event Gallery
+
+  (Address: Na Poříčí 25, 110 00 Prague 1)
+
+  ___________
+
+  Schedule
+
+
+  BACHATA ROOM:
+
+
+  19:00-20:00 Bachata Sensual Openclass with Ilyas & Anastasia
+
+  Level: Intermediate (not suitable for beginners)
+
+  Openclasses included in price.
+
+
+  20:00-00:00 PARTY - we dance until midnight
+
+
+  🎧 Music: 100% Bachata by DJ Coreleone aka Ilyas
+
+
+  💒 TERRACE will be available to dance outside as well as inside (until 22:00), so bring something warm and let's dance in the fresh air!
+
+
+  SALSA ROOM:
+
+
+  19:00-20:00 Salsa Openclass with the best Rafael (Cuban Salsa Champion)
+
+
+  20:00-00:00 Party in the dancehall with AC and extra ventilators
+
+
+  🎧 Music: 100% Salsa with your favorite DJ Lole
+
+
+  Entry: 150 Kč - party and workshops are included (Cash only)
+
+
+  ...What you can expect from this party:
+
+
+  🌷 Bachata & Salsa openclasses to learn cool new party combinations 💃
+
+  🌷 Amazing music 🎶
+
+  🌷 Prague's most awesome dancers 😍
+
+  🌷 Great location 📍 with a terrace with a view over Prague skyline 💒
+
+  🌷 Beautiful spring atmosphere 💐
+
+  🌷 Bar with a wide selection of affordable drinks 🍷🍹🍻 (both cash and cards are accepted)
+
+
+  ___________________
+
+  Event organizer:
+
+  Ilyas & Anastasia Bachata Prague
+
+  facebook.com/bachata.ilyas.anastasia/
+
+  About Ilyas & Anastasia:
+
+  Ilyas & Anastasia are professional bachata dancers, teachers and event organizers with over 15 years of various dance experience. Their strong technical background is what makes their dance style extraordinary as it combines dynamic flow with smooth sensuality of movement. Ilyas & Anastasia are the creators of Core Methodology in bachata. They currently co-own one of the biggest and most successful bachata schools in Prague.
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Fb4c30a09-5a7d-4213-ae3e-140b95946d01?alt=media&token=c40cf424-792b-433f-ac44-a5e15ac86af6
+duration: 60
+createdAt: 1678666317507
+artists:
+  - role: instructor
+    instagram: https://instagram.com/rafael.cuni.7
+    username: rafael.cuni.7
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    instagram: https://instagram.com/dj.lole
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    username: DjLole
+price: 150 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - rafael.cuni.7
+  - DjLole
+international: No
+updatedAt: 1678666317507
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.ilyas.anastasia
+  name: ILYAS & ANASTASIA
+  bio: >-
+    Pro dancers & teachers 🌍 International event organizers 💣 Creators of Core
+    Methodology 💪
+
+    F🔥CKING AWESOME PARTY 👇
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Filyas.anastasia.png?generation=1667833997229307&alt=media
+  instagram: https://instagram.com/ilyas.anastasia
+  id: h8VqoKEMvLMYF7bLdRs7
+  username: ilyas.anastasia
+facebook: https://www.facebook.com/events/717389223188546
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    DjLole: true
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+name: Welcome spring party - Bachata & Salsa in Black Swan
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-03-19T00:00
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F2MaaAwHP9odfQ13nj3TT.png?generation=1678786928530469&alt=media
+telegram:
+  requestedAt: 1678786963884
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/271
+  publishedAt: 1678786965542
+  messageId: 271
+  state: published
+viewsCount: 39
+id: 2MaaAwHP9odfQ13nj3TT

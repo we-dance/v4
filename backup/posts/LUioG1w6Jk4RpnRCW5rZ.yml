@@ -1,0 +1,109 @@
+venue:
+  formatted_address: Maxvorstadt, 80799 Munich, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: Munich
+      short_name: Munich
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Upper Bavaria
+      short_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bavaria
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=2141602145283666078
+  name: Universität
+  geometry:
+    viewport:
+      south: 48.14822055
+      north: 48.15219035
+      east: 11.5824822802915
+      west: 11.5797843197085
+    location:
+      lng: 11.5806856
+      lat: 48.14922909999999
+  place_id: ChIJNWuRsJR1nkcRnvDY781_uB0
+endDate:
+  _seconds: 1639598400
+  _nanoseconds: 0
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+claimed: Yes
+description: |-
+  I am looking an intermediate kizomba follower to learn this choreography.
+
+  We meet at my place for 1 hour to practice.
+
+  <w-youtube url="https://youtu.be/mE4EDgALRHU"></w-youtube>
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Ff741608c-ed48-4ba2-9294-60225273700b?alt=media&token=8930920f-1c3c-4255-81ac-c7c328b92621
+promo: Yes
+duration: 60
+createdAt: 1639346702383
+watchersCount: 0
+price: 0 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLUioG1w6Jk4RpnRCW5rZ.png?generation=1639418058241679&alt=media
+commentsLast: ~
+promoter: alejito
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: LUioG1w6Jk4RpnRCW5rZ
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 40
+updatedAt: 1639346702383
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+confirmation: |-
+  Thank you for your interest. 
+
+  I will confirm your participation in the separate email.
+eventType: Workshop
+organiser: alejito
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: UrbanKiz Choreography 1:1
+online: No
+styles:
+  UrbanKizz:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-15T19:00:00.000Z
+username: alejito
+viewsCount: 43

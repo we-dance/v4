@@ -1,0 +1,131 @@
+venue:
+  website: http://www.salsa-onstage.de/
+  formatted_address: Haager Str. 10a, 81671 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa OnStage
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6095120802915
+      south: 48.1251639197085
+      north: 48.12786188029149
+      west: 11.6068141197085
+    location:
+      lng: 11.6082717
+      lat: 48.1264051
+  address_components:
+    - types:
+        - street_number
+      short_name: 10a
+      long_name: 10a
+    - types:
+        - route
+      short_name: Haager Str.
+      long_name: Haager Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  place_id: ChIJEx0xXYXfnUcRUmF5nsN_fDI
+  international_phone_number: +49 178 3034004
+  url: https://maps.google.com/?cid=3637923077162623314
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1675246349097
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1675246349097
+updatedBy: VONp0bedfsb56C4Hx2A4Q2oyhZG3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsaonstage
+  name: Felipe OnStage
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FVONp0bedfsb56C4Hx2A4Q2oyhZG3%2F301bb19b-3a34-40dc-b9b1-fcf9d842f32b?alt=media&token=b0719bd2-ab24-4ab1-906b-10e505f37fca
+  id: VONp0bedfsb56C4Hx2A4Q2oyhZG3
+  instagram: https://www.instagram.com/salsaonstage/
+  username: Felipe_OnStage
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    Felipe_OnStage: true
+createdBy: VONp0bedfsb56C4Hx2A4Q2oyhZG3
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Felipe_OnStage
+id: fC7i0ddv2g2HAz0uKLQL
+star:
+  count: 1
+  list:
+    KatarinaMike: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfC7i0ddv2g2HAz0uKLQL.png?generation=1676729941886811&alt=media
+telegram:
+  requestedAt: 1676730041802
+  messageUrl: https://t.me/WeDanceMunich/920
+  publishedAt: 1676730044120
+  messageId: 920
+  state: published
+instagram:
+  requestedAt: 1676730045863
+  messageUrl: https://instagram.com/p/CozpBN2uTFB
+  publishedAt: 1676730060425
+  messageId: CozpBN2uTFB
+  state: published
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FVONp0bedfsb56C4Hx2A4Q2oyhZG3%2F7e75bbed-9965-48d3-aa9c-937d6473437e?alt=media&token=2686355c-d7a3-4d65-83c3-7592eb1b70c2
+price: "10"
+link: https://www.salsa-onstage.de/events/sommerfest/
+name: "ONSTAGE SOMMERFEST "
+endDate: 2023-08-06T03:00
+startDate: 2023-08-05T20:00
+viewsCount: 54

@@ -1,0 +1,145 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Zenettistraße
+      short_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80337"
+      short_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  name: Salsa Y Corazon - dance school
+  geometry:
+    viewport:
+      south: 48.12187606970849
+      north: 48.12457403029149
+      east: 11.5593379802915
+      west: 11.5566400197085
+    location:
+      lng: 11.557894
+      lat: 48.12314479999999
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  international_phone_number: +49 172 9659579
+endDate:
+  _seconds: 1638061200
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+link: https://salsaycorazon.splashthat.com/
+description: >-
+  Que  viva  la  Salsa!!!
+
+
+  🔥Hola liebe *SALSAFREAKS* 🔥
+
+
+  Nach Rücksprache und Absicherung mit dem *Landesamt für Gesundheit* dürfen wir am Samstag den 27.11. nach den Vorgaben der *2G+ Regel* einen Salsa Bachata Übungsabend *durchführen*
+
+
+  Bitte einen PCR oder Antigen Test mitbringen und vorzeigen.
+   
+  *Antigen Test für €3,- auch in der Tanzschule erhältlich*. Kleine Teststation vor dem Eingang der Tanzschule.
+
+
+  Das Impf- oder Genesen Zertifikat mit PCR oder Antigen Test an der Tür, mit Ausweis, vorzeigen‼️
+
+  TEILNEHMERZAHL IST BEGRENZT ‼️
+
+
+  Veranstalter: SALSAFREAKS EVENTS
+
+
+  👇🏾ANMELDUNG FÜR DIE WORKSHOPS👇🏽
+
+  Info@salsa-y-corazon.de
+
+
+  👇🏽Registrierung für den Übungsabend👇🏽
+
+  Salsaycorazon.splashthat.com
+type: event
+duration: "300"
+cover: ""
+promo: Yes
+createdAt: 1638036564325
+watchersCount: 0
+price: 10EUR
+commentsLast: ~
+promoter: alejito
+id: ClDQNIOYrGkBGDiIxGqa
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 3
+updatedAt: 1638036564325
+website: https://salsaycorazon.splashthat.com/
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: SALSAHOTMIX MIT DJ HEC 2G+
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-27T20:00:00.000Z
+username: alejito
+viewsCount: 6

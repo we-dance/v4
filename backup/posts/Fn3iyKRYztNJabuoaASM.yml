@@ -1,0 +1,145 @@
+endDate: 1729818000000
+sourceUrl: https://www.facebook.com/events/2404110849773763/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712249178000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727939764000
+facebookId: "2404110849773763"
+facebook: https://www.facebook.com/events/2404110849773763/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2404110849773763/
+eventType: Festival
+providerItemId: e2404110849773763@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "PRE-PARTY KKF- KAMBA KIZOMBA FESTIVAL "
+location: Centre Simone Signoret
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729796400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Chem. du Cassiot, 33610 Canéjan, France
+  website: http://www.signoret-canejan.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Center Simone Signoret in Canéjan
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.656300280291502
+        lat: 44.7599295197085
+      northeast:
+        lng: -0.6536023197084979
+        lat: 44.7626274802915
+    location:
+      lng: -0.654909
+      lat: 44.761281
+  address_components:
+    - types:
+        - route
+      short_name: Chem. du Cassiot
+      long_name: Chemin du Cassiot
+    - types:
+        - locality
+        - political
+      short_name: Canéjan
+      long_name: Canéjan
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gironde
+      long_name: Gironde
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "33610"
+      long_name: "33610"
+  international_phone_number: +33 5 56 89 38 93
+  place_id: ChIJF6mUpcbeVA0R_u8n00Mkql8
+  url: https://maps.google.com/?cid=6893362053367984126
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Kamba49
+  name: KAMBA kizomba Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417904/zaeobxpivtx0c1e89rk6.png
+  bio: ""
+  id: OfrhjRbKsvg1QAh9AeQF
+  instagram: ""
+  username: Kamba49
+claimed: No
+link: ""
+description: >+
+  PSBK vous présente son Before KAMBA.
+
+  Bienvenue à Angers🥳👌🌻🌹🌹🥳
+
+
+  📍Angers est la première ville de France où il fait bon vivre.💫💫
+
+
+  Ouverture des portes 🚪 20h 
+
+
+  💢La pré-party n'est pas incluse dans le prix du full pass Kamba Kizomba Festival 
+
+
+  Tarif unique :
+   15€ COURS+ SOIREE+ BOISSON
+  ( Paiement sur place, pas de CB ) 
+   
+
+  🚪Au programme:
+
+  21h-22h : Cours Evo Myriam & Giovani
+
+  22h-03h : Soirée kizomba Semba Urbankiz Afro
+
+
+  Line up DJ'S :
+
+
+  DJ Ozy Shyne 
+
+  DJ L.FIGO 
+
+  DJ  Bruno 
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417989/pthdp3udxezk6pium43p.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJA5fzhL_eVA0RYOsWSBdlBgQ
+international: No
+hash: 1729796400000+ChIJF6mUpcbeVA0R_u8n00Mkql8
+id: Fn3iyKRYztNJabuoaASM

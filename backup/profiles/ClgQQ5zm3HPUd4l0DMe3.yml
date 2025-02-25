@@ -1,0 +1,71 @@
+createdAt: 1727989742607
+website: https://maps.google.com/?q=Zentnerstra%C3%9Fe+39,+80798+M%C3%BCnchen,+Germany&ftid=0x479e75dc25efb82b:0xf086b65e449cb796
+rooms: ""
+address:
+  formatted_address: Zentnerstraße 39, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Zentnerstraße 39
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5660363802915
+      south: 48.1577258697085
+      north: 48.1604238302915
+      west: 11.5633384197085
+    location:
+      lng: 11.564601
+      lat: 48.1590917
+  address_components:
+    - types:
+        - street_number
+      short_name: "39"
+      long_name: "39"
+    - types:
+        - route
+      short_name: Zentnerstraße
+      long_name: Zentnerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-West
+      long_name: Schwabing-West
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  place_id: ChIJK7jvJdx1nkcRlrecRF62hvA
+  url: https://maps.google.com/?q=Zentnerstra%C3%9Fe+39,+80798+M%C3%BCnchen,+Germany&ftid=0x479e75dc25efb82b:0xf086b65e449cb796
+gender: Other
+phone: ""
+name: Zentnerstraße 39
+updateAt: 1727989742607
+type: Venue
+map: ""
+username: zentnerstrae39
+id: ClgQQ5zm3HPUd4l0DMe3

@@ -1,0 +1,125 @@
+endDate: 1723759200000
+sourceUrl: https://www.facebook.com/events/856033789768581
+createdAt: 1723384824753
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1723378147000
+updatedAt: 1723384824753
+importedAt: 1723384824753
+providerUpdatedAt: 1723378235000
+facebookId: "856033789768581"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/856033789768581
+providerItemId: 47740-1723750200-1723759200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Colors of Zouk - Zouk Social open-air
+location: Erzsébet tér, Erzsébet tér, Budapest, 1051, Hungary
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723750200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Deák Ferenc tér 2, 1052 Hungary
+  website: https://www.fokert.hu/nevezetesfa/_222/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Elizabeth Square
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0513161197085
+        lat: 47.4968823197085
+      northeast:
+        lng: 19.05401408029151
+        lat: 47.4995802802915
+    location:
+      lng: 19.0526651
+      lat: 47.4982313
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Deák Ferenc tér
+      long_name: Deák Ferenc tér
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1052"
+      long_name: "1052"
+  place_id: ChIJD5G-NEDcQUcRMB_lFEHvArE
+  url: https://maps.google.com/?cid=12755020157469138736
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/zoukbudapest
+  name: Brazilian ZOUK Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902717/w6wazzvtwt9cg5znrvtq.jpg
+  bio: ""
+  id: dZGYYcmKTiEK5EDxr3zS
+  instagram: ""
+  username: zoukbudapest
+claimed: No
+facebook: https://www.facebook.com/events/856033789768581/
+link: ""
+description: >-
+  ----- ENG BELOW -----
+
+  🤩 Augusztus 15-én újra várunk Titeket az Erzsébet téren, az Óriáskerék alatt a szökőkútnál! 💃🕺⛲🎡 Gyertek, zouk-oljunk újra egy jót a szabadban, de persze örömmel látunk akkor is, ha csak bandáznál kicsit velünk 🙃
+
+  A közelben van bolt, enni/inni venni tudtok a Fröccsterasznál, valamint mosdót is itt találtok. Plédekkel készülünk, de hozhattok Ti is nyugodtan!
+
+  Megköszönjük ha támogatod a szervezést bármilyen összeggel, ehhez lesz kihelyezve kis doboz!
+
+  Várunk Mindenkit szeretettel! 🧡
+
+  BZB Csapat
+   -----
+   🤩 On the 15th of August was we are waiting for You again on Erzsébet tér, under the Ferris Wheel by the fountain! 💃🕺⛲🎡 Come, let's zouk outside again, but of course we'd be happy to see you even if You just want to hang out with us a little 🙃
+  There is a shop nearby, and you can buy food/drink at Fröccsterasz, and you can also find the toilet here. We are preparing with blankets, but you can also bring your own!
+
+  We thank you if you support the organization with any amount, a small box will be placed for this purpose!
+
+  We welcome everyone with love! 🧡
+
+  BZB Team
+program: []
+source: facebook
+eventType: Course
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723384839/smdnkfqmpozen68aa2ht.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1723743000000+ChIJD5G-NEDcQUcRMB_lFEHvArE
+id: MALZDxRO5rsDOAqcHpIO

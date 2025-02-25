@@ -1,0 +1,127 @@
+endDate: 1725706800000
+sourceUrl: https://www.facebook.com/events/575522494784518/
+createdAt: 1715444430802
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1688827605000
+updatedAt: 1715444430802
+importedAt: 1715444430802
+providerUpdatedAt: 1713260088000
+facebookId: "575522494784518"
+facebook: https://www.facebook.com/events/575522494784518/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/575522494784518/
+eventType: Workshop
+providerItemId: e575522494784518@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: GARDASEE RETREAT - Bachata & La Dolce Vita
+location: San Zeno Di Montagna, Lago Di Garda
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725091200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 37010 San Zeno di Montagna, VR, Italy
+  website: http://www.baldolessinia.it/sanzeno/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: San Zeno di Montagna
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.71249314930676
+        lat: 45.61523666067099
+      northeast:
+        lng: 10.81850316347935
+        lat: 45.68283310997213
+    location:
+      lng: 10.7234058
+      lat: 45.6310887
+  address_components:
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: San Zeno di Montagna
+      long_name: San Zeno di Montagna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: VR
+      long_name: Province of Verona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Veneto
+      long_name: Veneto
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "37010"
+      long_name: "37010"
+  place_id: ChIJZ5cSRyf0gUcREEqRFYcJBwQ
+  url: https://maps.google.com/?q=37010+San+Zeno+di+Montagna,+VR,+Italy&ftid=0x4781f42747129767:0x407098715914a10
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444446446
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bailisima.dance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444446/lnjjuovxjynpy0o25adc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444446446
+  owned: false
+  name: Bianka Findeisen - Bachata, Mindset & Fashion
+  updatedAt: 1715444446446
+  username: bailisima.dance
+claimed: No
+link: https://bianka-findeisen.com/product/gardasee-retreat/
+description: >
+  Stell dir vor, du gehst zusammen mit anderen wunderbaren Frauen auf Reisen,
+  packst deine schönsten Kleider ein, flanierst damit abends durch enge
+  italienische Gassen, genießt leckerstes Essen und besten Wein. Nachdem du
+  tagsüber bezaubernde Städte entdeckt, italienische Mode geshoppt, an ruhigen
+  Stränden entspannt oder in meditativen und tänzerischen Workshops (mehr) zu
+  dir selbst gefunden hast.
+
+
+  Deine exklusive Me-Time nach dem Motto „Girls just wanna have fun“!
+
+
+  Dich erwarten inspirierende Impulse für dein selbstBEWUSSTES Strahlen, Beauty-Rituale für deine ungeschminkte Schönheit, ein kreativer Workshop, in dem du dein ganz persönliches (Selbst)Liebe Schmuckstück gestaltest, herzöffnende Kakaomomente, wertschätzender Austausch unter Ladies only und Bachata Feminine Feeling Workshops inkl. einer Choreografie.
+
+
+  EVENTDATUM
+
+  Samstag, 31. August bis Samstag, 7. September 2024
+
+
+  Nimm dir Zeit für dich und erlebe pure weibliche Energie, kreatives Miteinander, herzöffnende Momente und wertschätzenden Austausch in einer kleinen Gruppe aus WUNDER-vollen Frauen, wie dir.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444448/ohufcaa1y5qmqzcnwxge.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1725091200000+ChIJZ5cSRyf0gUcREEqRFYcJBwQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fjqnh9h4fadhgLJ94dp6D.png?generation=1715444467765127&alt=media
+viewsCount: 2
+id: jqnh9h4fadhgLJ94dp6D

@@ -1,0 +1,191 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/adam-bachata-experience/
+name: Adam Bachata Experience 2025
+sourceUrl: https://facebook.com/events/1600130990567172
+venue:
+  address_components:
+    - long_name: "28"
+      short_name: "28"
+      types:
+        - street_number
+    - long_name: Isolatorweg
+      short_name: Isolatorweg
+      types:
+        - route
+    - long_name: Westpoort
+      short_name: Westpoort
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Amsterdam
+      short_name: Amsterdam
+      types:
+        - locality
+        - political
+    - long_name: Amsterdam
+      short_name: Amsterdam
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Noord-Holland
+      short_name: NH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Netherlands
+      short_name: NL
+      types:
+        - country
+        - political
+    - long_name: 1014 AS
+      short_name: 1014 AS
+      types:
+        - postal_code
+  formatted_address: Isolatorweg 28, 1014 AS Amsterdam, Netherlands
+  geometry:
+    location:
+      lat: 52.3927722
+      lng: 4.851088199999999
+    viewport:
+      northeast:
+        lat: 52.3941719302915
+        lng: 4.852191680291502
+      southwest:
+        lat: 52.3914739697085
+        lng: 4.849493719708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: CanDance Studios
+  place_id: ChIJ5TaEYKngxUcRbzzkrY8Upsg
+  url: https://maps.google.com/?cid=14458266261049850991
+  website: http://www.candancestudios.nl/
+endDate: 1752451200000
+claimed: No
+link: https://www.adambachatafestival.com/tickets#experience
+description: >-
+  ❌❌❌ JOIN A UNIQUE BACHATA EXPERIENCE IN AMSTERDAM! ❌❌❌
+
+
+  This will be the 4th edition of this unique bachata experience in Amsterdam, Bachata with a twist! 3 days of thematic parties and workshops with a hype energy that you can only experience in Adam events.
+
+  Special experiences and surprises with international artists + Social parties: Friday, Saturday and Sunday
+
+
+  🔔 LINE UP 🔔
+
+  ❌Kike & Nahir (Spain)
+
+  ❌Dario & Sara (Spain)
+
+  ❌Gabi & Estefi (Spain)
+
+  ❌Janis & Zoé (Germany)
+
+  ❌ Leandro & Jomante (Spain & Lithuania)
+
+  ❌Antony & Ysenah (Switzerland & France)
+
+  ❌Cristian & Gabriela (Spain)
+
+  ❌York & Lisa (Germany)
+
+  ❌Erik & Katinka (Denmark)
+
+  ❌Gianmarco & Jessica (Italy)
+
+  ❌Erwin & Valentina (The Netherlands)
+
+  ❌Ahmedy & Caro (Belgium)
+
+  ❌David & Jessy (Germany)
+
+  ❌Tim & Sandra (Germany)
+
+  ❌Jase & Feline (The Netherlands)
+
+  And many more to come!
+
+
+  🔔 DJS🔔
+
+  ❌ DJ Alejandro (Israel)
+
+  ❌ DJ York (Germany)
+
+  ❌ DJ Cesc (France)
+
+  ❌ DJ Josh (Germany)
+
+  ❌ DJ Shay TLV (Israel)
+
+  & many more...
+
+
+  🔔 MASTER PASS 🔔
+
+  ❌ 3 Bachata Parties
+
+  ❌ 20+ Bachata workshops
+
+  💎 4 MasterClasses: TBA
+
+  🔴 Experiences: TBA
+
+
+
+  🔔 FULL PASS 🔔
+
+  ❌ 3 Bachata Parties
+
+  ❌ 20+ Bachata workshops
+
+
+  🔔 PARTY PASS 🔔
+
+  ❌ 3 Bachata Parties on Friday, Saturday, Sunday 
+
+
+  More info: www.adambachataxp.com  
+
+
+  Trailer video: https://youtu.be/eU3mnNkqyMM
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293951/fmkd2eo1frfnjnxhlgex.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJVXealLU_xkcRja_At0z9AGY
+international: No
+visibility: Public
+org:
+  id: r8BbMB5AoxATeiHeyxnI
+  username: AdamBachataFestival
+  name: Adam Bachata Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718719264/lq2upfm7nbageoykdymb.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/AdamBachataFestival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1600130990567172/
+facebookId: "1600130990567172"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1752246000000+ChIJ5TaEYKngxUcRbzzkrY8Upsg
+startDate: 1752246000000
+id: MDP2PEvR0KHSPa8waCpq

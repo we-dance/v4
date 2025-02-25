@@ -1,0 +1,31 @@
+visibility: Public
+timezone: GMT+0100
+community: Istanbul
+createdAt: 1615543096124
+createdBy: EeXR1pf6Z6QJsImymC1XvJ8m8yp2
+name: tolgahandanskursu
+username: tolgahandanskursu
+pwaUsed: false
+locales:
+  en: true
+  tr: true
+teacher: ""
+gender: ""
+partner: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEeXR1pf6Z6QJsImymC1XvJ8m8yp2%2Fa9489b63-7974-4480-86bf-ab1ea92e44a5?alt=media&token=a258ac30-1c23-4640-82f7-a1fc2e30ed10
+location:
+  country: Turkey
+  latitude: 41.0082376
+  locality: İstanbul
+  usedGps: false
+  place_id: ChIJawhoAASnyhQR0LABvJj-zOE
+  longitude: 28.9783589
+type: Organiser
+lastLoginAt: 1615827602186
+daysUsed: 2
+hometown: ChIJawhoAASnyhQR0LABvJj-zOE
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJawhoAASnyhQR0LABvJj-zOE
+updatedAt: 1617064565267
+viewsCount: 123
+id: EeXR1pf6Z6QJsImymC1XvJ8m8yp2

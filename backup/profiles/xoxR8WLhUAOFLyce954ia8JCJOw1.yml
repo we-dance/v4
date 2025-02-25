@@ -1,0 +1,35 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626963749151
+locales:
+  de: true
+  en: true
+createdBy: xoxR8WLhUAOFLyce954ia8JCJOw1
+name: Mica
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: Mica
+pwaUsed: false
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+updatedAt: 1626963782530
+gender: Female
+visibility: Members
+permission: No
+objectives:
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Afro:
+    level: Intermediate
+    highlighted: false
+    selected: true
+daysUsed: 5
+lastLoginAt: 1636127889741
+id: xoxR8WLhUAOFLyce954ia8JCJOw1

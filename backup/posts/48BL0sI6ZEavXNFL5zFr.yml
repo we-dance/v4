@@ -1,0 +1,103 @@
+artists: []
+program: []
+artistsList: []
+createdAt: 1731827163977
+updatedAt: 1731827163977
+createdBy: rrxwGQY60qgQjjAiuazufNbcRG12
+updatedBy: rrxwGQY60qgQjjAiuazufNbcRG12
+username: LambadaHelsinki
+type: event
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+visibility: Public
+form: No
+online: No
+international: No
+claimed: No
+eventType: Course
+duration: 120
+price: ""
+styles:
+  Lambada:
+    selected: true
+    highlighted: false
+    level: Interested
+cover: ""
+org:
+  username: LambadaHelsinki
+watch:
+  count: 1
+  list:
+    LambadaHelsinki: true
+name: LambadaHelsinki Fall Season block 2
+venue:
+  html_attributions: []
+  address_components:
+    - long_name: 33c
+      short_name: 33c
+      types:
+        - street_number
+    - long_name: Sörnäisten rantatie
+      short_name: Sörnäisten rantatie
+      types:
+        - route
+    - long_name: Helsinki
+      short_name: HKI
+      types:
+        - locality
+        - political
+    - long_name: Helsinki
+      short_name: Helsinki
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Helsinki
+      short_name: Helsinki
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Uusimaa
+      short_name: Uusimaa
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Finland
+      short_name: FI
+      types:
+        - country
+        - political
+    - long_name: "00500"
+      short_name: "00500"
+      types:
+        - postal_code
+  formatted_address: Sörnäisten rantatie 33c, 00500 Helsinki, Finland
+  geometry:
+    location:
+      lat: 60.1875113
+      lng: 24.96924599999999
+    viewport:
+      south: 60.1861434697085
+      west: 24.96796196970849
+      north: 60.18884143029151
+      east: 24.9706599302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +358 50 3312004
+  name: Helsinki Dance Central
+  place_id: ChIJMzNzknsJkkYR4IhndvLokgk
+  url: https://maps.google.com/?cid=689869821007333600
+  website: http://www.helsinkidancecentral.com/
+  username: www.helsinkidancecentral.com
+startDate: 1733058000000
+endDate: 1733065200000
+hash: 1733058000000+ChIJMzNzknsJkkYR4IhndvLokgk
+description: >-
+  This is an progressive Lambada course consisting of 6 classes. Neverthelss,
+  you are always welcome to join the course! 
+
+
+  We have two levels: fundamentals at 15:00 (no previous experience required) and improvers at 16:00 ( 6months of classes or previous knowledge required). 
+
+
+  You don’t need a partner to join- we change partners during the class!welcome!
+link: https://www.facebook.com/share/15Tw6LeBpd/?mibextid=9l3rBW
+viewsCount: 1
+id: 48BL0sI6ZEavXNFL5zFr

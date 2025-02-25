@@ -1,0 +1,133 @@
+endDate: 1720915200000
+sourceUrl: https://www.facebook.com/events/833926551519313/
+createdAt: 1719324027938
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1718351209000
+updatedAt: 1719324027938
+importedAt: 1719324027938
+providerUpdatedAt: 1718351209000
+facebookId: "833926551519313"
+facebook: https://www.facebook.com/events/833926551519313/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/833926551519313/
+eventType: Party
+providerItemId: e833926551519313@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Latino Salsa Club
+location: Studio Lounge Bar Club
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720897200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Auf den Häfen 12-15, 28203 Bremen, Germany
+  website: http://www.stu-dio.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.820724569708496
+        lat: 53.07494796970849
+      northeast:
+        lng: 8.8234225302915
+        lat: 53.07764593029149
+    location:
+      lng: 8.821767199999998
+      lat: 53.07620749999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 12-15
+      long_name: 12-15
+    - types:
+        - route
+      short_name: Auf den Häfen
+      long_name: Auf den Häfen
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28203"
+      long_name: "28203"
+  international_phone_number: +49 421 74577
+  place_id: ChIJNWPq3AgosUcR-gw3sboqVmQ
+  url: https://maps.google.com/?cid=7230013233115368698
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719324048504
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Studio-Lounge-Bar-Club/100039844006408/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719324048/af5p1cvxtjk7zwdq9txg.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719324048504
+  owned: false
+  name: Studio Lounge Bar Club
+  place: ChIJNePuDBAosUcRUd83-VyI6MI
+  updatedAt: 1719324048504
+  username: studio.lounge.bar.cl
+claimed: No
+link: ""
+description: >-
+  Latino Salsa Club
+
+
+  Am Samstag, den 13.07.2024 ab 21:00 Uhr im Studio „ Auf den Höfen“.
+
+  Ab 21:00 Uhr mit DJ Julio
+
+  An diesem einmaligen Abend erwartet euch direkt im Herzen Bremens in einer Top Location eine karibische Atmosphäre mit leckeren Cuba Libre Specials.
+
+  Neben feurigen Tänzern sorgt DJ Julio  für die beste Tanz-Musik.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324049/zihwp9p40p0rzvfbsq24.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+hash: 1720897200000+ChIJNWPq3AgosUcR-gw3sboqVmQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FL7OAU1DjA6YBYOqGfPD6.png?generation=1719324071053683&alt=media
+viewsCount: 1
+id: L7OAU1DjA6YBYOqGfPD6

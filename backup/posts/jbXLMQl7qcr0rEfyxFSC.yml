@@ -1,0 +1,191 @@
+venue:
+  website: http://www.salsa-mas.de/
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1498695697085
+      north: 48.15256753029149
+      east: 11.5717718302915
+      west: 11.5690738697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+  international_phone_number: +49 172 8216569
+endDate:
+  _seconds: 1634385600
+  _nanoseconds: 0
+link: https://www.facebook.com/events/1206202593196925/
+description: >-
+  Join us for a complete weekend to explore beyond Kizomba! 
+
+
+
+  ❇️ Looking to add more flavor to your dance?
+
+  ⁉️ Heard of Tarraxinha and/or Semba, but want to know more?
+
+  💯 Want to improve your dance and create a better connection?
+
+
+
+  SATURDAY: 
+
+  Unlock your own and your partner's potential with us in an intensive Saturday workshop dedicated to Tarraxinha. We will be focusing on body movement and creating the perfect, comfortable connection for those slow moments on the dance floor.
+
+
+
+  SUNDAY:
+
+  Focusing on FUN, our goal is to  help you better understand Semba rhythms and body movement for both leads and follows. We will also share some of the history behind Semba as we know it today and how it ALL relates to Kizomba. Of course, some fun steps can't be missing ;)
+
+  Kizomba fundamentals are required for this workshop.
+
+
+
+  Notes: 
+
+  Saturday AND Sunday from 12:00-14:00 (2x 120 minutes)
+
+
+  Workshops can be booked as a package OR individually
+
+
+
+  -----------------
+
+  Pricing:
+
+
+  Package: 50€ single / 90€ couple
+
+
+  Individual workshop: 30€ single / 50€ couple
+
+
+  Student/Azubi special: 5€ off any ticket type
+
+  ----------------
+
+
+
+  Some dance experience required
+
+  No partner required
+
+  All levels and styles welcome 🙏🏼
+
+
+  Dress code: Comfortable - your choice of heels or flats!
+
+
+
+  -----------------
+
+  Registration:
+
+  💌 to makambamukizomba@gmail.com
+
+  Registration open until October 15th
+
+
+  Help us to balance the number of leads and follows by registering in advance
+
+  -----------------
+
+
+
+  We can't wait to dance with you!
+
+
+
+  Madison & Simon have both been trained to dance and teach by the most renowned instructors on the scene, and implement a combination of several of the most effective international teaching methods.
+type: event
+duration: "120"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F51bda26d-f8db-4baf-8517-8ec4aa1464fc?alt=media&token=10b40312-f75c-409f-9b4a-6149bd202129
+createdAt: 1633504274611
+watchersCount: 0
+price: 30-90 EUR
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: jbXLMQl7qcr0rEfyxFSC
+views: 6
+updatedAt: 1633504274611
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Workshop
+organiser: LatinoDancer
+form: Yes
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: "Semba &  Taraxina weekend Workshops "
+online: No
+styles:
+  Tarraxinha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-16T10:00:00.000Z
+username: Vitali
+viewsCount: 35

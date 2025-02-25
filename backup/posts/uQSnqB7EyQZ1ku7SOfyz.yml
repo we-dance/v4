@@ -1,0 +1,150 @@
+sourceUrl: https://facebook.com/events/s/all-styles-salsa-party/1079247687051629/
+createdAt: 1726323873534
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1726323873534
+username: Salsamas_Munich
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Am Schützeneck 3
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4609859197085
+        lat: 48.1464643197085
+      northeast:
+        lng: 11.46368388029151
+        lat: 48.1491622802915
+    location:
+      lng: 11.4623232
+      lat: 48.1477425
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  place_id: ChIJ1QgbwuJ3nkcR_zxBYFSmXb0
+  url: https://maps.google.com/?q=Am+Sch%C3%BCtzeneck+3,+81241+M%C3%BCnchen,+Germany&ftid=0x479e77e2c21b08d5:0xbd5da65460413cff
+endDate: 1726354800000
+claimed: No
+link: ""
+description: >-
+  🗓️Sa. 14.09.2024 19:00-01:00
+
+
+  👉🏼 Von 21:00-21:30 Uhr freier Eintritt!‼️
+
+
+  ◾️ Programm:
+
+  🕖 19:00-20:00 - **Salsa Cubana PW Improves Workshop** mit Dajori & Partnerin 🇨🇺 
+
+  🕗 20:00-21:00 - **Rumba Cubana** im Partnerwork mit Dajori & Partnerin 🇨🇺 
+
+  🕘 21:00-01:00 - **Salsa All Styles Party** mit DJ Nicemixx 🎶
+
+
+  ◾️ Party-Eintritt: 10€ ab 21:30 Uhr
+
+
+  ◾️ Workshop-Gebühr:
+
+  1 Workshop: 25€ p. Person 
+
+  2 Workshops: 45€ p. Person 
+
+
+  *Bonus: Party Eintritt inklusive! 
+
+  *Paaranmeldungen erhalten 5€ Ermäßigung pro Person! 👯‍♂️
+
+
+  📍 Ort: Salsamás-Pasing - Am Schützeneck 3, 81241 München
+
+
+  Seid dabei und feiert mit uns eine Mega Salsa-Nacht! 💃🕺
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Salsam%C3%A1s-Pasing/100063669156027/
+  name: Salsamás Munich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsalsamasmunich.png?generation=1644169115888529&alt=media
+  bio: ""
+  id: 4zHtG37DLPtSiFK0DQJZ
+  instagram: https://instagram.com/salsamasmunich
+  username: salsamasmunich
+facebook: https://www.facebook.com/events/1079247687051629/
+facebookId: "1079247687051629"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: ⭐️All Styles Salsa Party⭐️
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1726333200000+ChIJ1QgbwuJ3nkcR_zxBYFSmXb0
+startDate: 1726333200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726323882/yc7ednzpvpaoxvod5llg.jpg
+instagram:
+  messageUrl: https://instagram.com/p/C_5pwk8RklE
+  publishedAt: 1726323899979
+  messageId: C_5pwk8RklE
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 6
+id: uQSnqB7EyQZ1ku7SOfyz

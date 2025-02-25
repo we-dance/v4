@@ -1,0 +1,161 @@
+artistsList: []
+program: []
+artists: []
+createdAt: 1731231504851
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+username: DjLole
+eventType: Party
+star:
+  count: 0
+  list: {}
+org:
+  username: DjLole
+  role: organiser
+type: event
+form: No
+endDate: 1731272400000
+instagram: {}
+claimed: No
+socialCover: ""
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+name: 100% Salsa party at Bowlers
+telegram: {}
+styles:
+  SalsaLA:
+    highlighted: false
+    level: Interested
+    selected: true
+  SalsaNewYork:
+    highlighted: false
+    level: Interested
+    selected: true
+  Casino:
+    highlighted: false
+    selected: true
+    level: Interested
+watch:
+  count: 0
+  list: {}
+upVotes: 0
+checkin:
+  count: 0
+  list: {}
+startDate: 1731258000000
+votes: 0
+venue:
+  html_attributions: []
+  formatted_address: Sokolovská 713/111c, 186 00 Praha 8-Invalidovna, Czechia
+  place_id: ChIJsy9J1KeUC0cR98nddAUyFIE
+  address_components:
+    - long_name: 111c
+      short_name: 111c
+      types:
+        - street_number
+    - types:
+        - premise
+      long_name: "713"
+      short_name: "713"
+    - long_name: Sokolovská
+      types:
+        - route
+      short_name: Sokolovská
+    - types:
+        - neighborhood
+        - political
+      long_name: Invalidovna
+      short_name: Invalidovna
+    - short_name: Praha 8
+      long_name: Praha 8
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - long_name: Hlavní město Praha
+      types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      long_name: Czechia
+      short_name: CZ
+    - types:
+        - postal_code
+      long_name: 186 00
+      short_name: 186 00
+  username: sokolovsk713111c
+  name: Sokolovská 713/111c
+  geometry:
+    location:
+      lng: 14.4611739
+      lat: 50.09665510000001
+    viewport:
+      north: 50.09794188029151
+      east: 14.4625771802915
+      south: 50.09524391970851
+      west: 14.4598792197085
+  url: https://maps.google.com/?q=Sokolovsk%C3%A1+713/111c,+186+00+Praha+8-Invalidovna,+Czechia&ftid=0x470b94a7d4492fb3:0x8114320574ddc9f7
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+promotion: ""
+online: No
+duration: 240
+downVotes: 0
+visibility: Public
+commentsCount: 0
+viewsCount: 1
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F1b33dbb9-82d3-4119-acf3-b91950f65618?alt=media&token=bfe22b4e-ff54-4f37-a30d-14cf99080079
+link: https://www.facebook.com/events/1506391666728139/
+description: |-
+  🇨🇿
+  Program ✨
+
+  🕔18:00-19:00 ➡️ Salsa On1 workshop s Stéphanem (FR):
+  https://www.facebook.com/stephane.massaro.1
+
+  🕖 19:00-22:00: 100% salsa party 🎹🪇🪘
+  🔊 Dj Lole + Dj Karlos 🎧
+  https://www.facebook.com/DjLolePrague
+  https://www.facebook.com/salsero.borrachero
+
+  📌 Ceny:
+  - Workshop: Tentokrát zdarma❗️
+  - Párty: 150 Kč
+
+  Těšíme se na vás! 💃🕺
+
+  📍 Praha, Bowlers Karlín:
+  Sokolovská 713/111c, 186 00 Praha 8-Invalidovna
+
+  ------------------------------------------------
+
+  🇬🇧
+  Program ✨
+
+  🕔18:00-19:00 ➡️ Salsa On1 workshop with Stéphane (FR):
+  https://www.facebook.com/stephane.massaro.1
+
+  🕖 19:00-22:00: 100% salsa party 🎹🪇🪘
+  🔊 Dj Lole + Dj Karlos 🎧
+  https://www.facebook.com/DjLolePrague
+  https://www.facebook.com/salsero.borrachero
+
+  📌 Prices:
+  - Workshop: For free for this time❗️
+  - Party: 150 Kč
+
+  We are looking forward to see you there! 💃🕺
+
+  📍 Prague, Bowlers Karlín:
+  Sokolovská 713/111c, 186 00 Praha 8-Invalidovna
+id: Vr9vAVJmGBxMQpZWmtpj
+hash: 1731258000000+ChIJsy9J1KeUC0cR98nddAUyFIE
+price: 150 CZK
+updatedAt: 1731231925643

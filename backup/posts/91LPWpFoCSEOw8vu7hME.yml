@@ -1,0 +1,120 @@
+endDate: 1720328400000
+sourceUrl: https://www.facebook.com/events/3903894816514896/
+createdAt: 1718287249591
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713550002000
+updatedAt: 1718287249591
+importedAt: 1718287249591
+providerUpdatedAt: 1713550002000
+facebookId: "3903894816514896"
+facebook: https://www.facebook.com/events/3903894816514896/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3903894816514896/
+eventType: Party
+providerItemId: e3903894816514896@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa @ Sonny's
+location: 1905 S 67th St, Omaha, NE 68106-2965, United States
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720317600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 1905 S 67th St, Omaha, NE 68106, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 1905 S 67th St
+  geometry:
+    viewport:
+      southwest:
+        lng: -96.01551788029151
+        lat: 41.2397563197085
+      northeast:
+        lng: -96.0128199197085
+        lat: 41.2424542802915
+    location:
+      lng: -96.0141677
+      lat: 41.2410206
+  address_components:
+    - types:
+        - street_number
+      short_name: "1905"
+      long_name: "1905"
+    - types:
+        - route
+      short_name: S 67th St
+      long_name: South 67th Street
+    - types:
+        - neighborhood
+        - political
+      short_name: South Central Omaha
+      long_name: South Central Omaha
+    - types:
+        - locality
+        - political
+      short_name: Omaha
+      long_name: Omaha
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Douglas County
+      long_name: Douglas County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NE
+      long_name: Nebraska
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "68106"
+      long_name: "68106"
+  place_id: ChIJN_ifkU2Mk4cRBY5b1L1-FYE
+  url: https://maps.google.com/?q=1905+S+67th+St,+Omaha,+NE+68106,+USA&ftid=0x87938c4d919ff837:0x81157ebdd45b8e05
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718287274866
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SonnysAksarben
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718287275/gtnlwc2ep3zqoaobjoti.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718287274866
+  owned: false
+  name: Sonny's
+  place: ChIJy9Iv5PSMk4cRVsPllYz3lVs
+  updatedAt: 1718287274866
+  username: SonnysAksarben
+claimed: No
+link: ""
+description: Join us for free live entertainment every weekend! Enjoy some tasty
+  cocktails, music, and fun with friends and family.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718287276/dyjgvrwbrvbimzsnhlvo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJy9Iv5PSMk4cRVsPllYz3lVs
+international: No
+hash: 1720317600000+ChIJN_ifkU2Mk4cRBY5b1L1-FYE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F91LPWpFoCSEOw8vu7hME.png?generation=1718287288481708&alt=media
+id: 91LPWpFoCSEOw8vu7hME

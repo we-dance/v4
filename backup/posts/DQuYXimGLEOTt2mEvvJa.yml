@@ -1,0 +1,125 @@
+venue:
+  formatted_address: Machtlfinger Str. 10, 81379 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "10"
+      short_name: "10"
+    - types:
+        - route
+      long_name: Machtlfinger Straße
+      short_name: Machtlfinger Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?cid=6594774642282850911
+  name: Tanzstudio Rebecca
+  geometry:
+    viewport:
+      south: 48.0955072197085
+      north: 48.09820518029149
+      east: 11.5149687302915
+      west: 11.5122707697085
+    location:
+      lng: 11.5135799
+      lat: 48.0969446
+  international_phone_number: +49 176 24414498
+  place_id: ChIJtabxvibZnUcRX-oFt5hYhVs
+endDate:
+  _seconds: 1645563600
+  _nanoseconds: 0
+claimed: No
+description: >-
+  SALSAÜBUNGSABEND ( 2G+)
+
+  💃🕺💃🕺💃🕺💃🕺💃
+
+  *Wann: Dienstag ,22. 02.2022
+
+  19:00-22:00 uhr
+
+  *Wo: Machtlfingerstrasse 10, / 2 OG., Tanzschule Rebecca Studio Gelb.
+
+  *Eintritt: Frei
+
+  🌴🌴🌴🌴🌴
+
+  Für Geboosterte, oder 2x Geimpft+ Genesungszertifikat ist KEIN Test nötig!*
+
+
+  *Eigene Antigen Test können unter Aufsicht vor Ort durchgeführt werden
+   
+  *FFP2 Maske von Eingang bis zum Studio Gelb  wird getragen
+
+  *Bitte das Impf- oder Genesen Zertifikat mit PCR oder Antigen Test an der Tür, mit Ausweis, vorzeigen.
+
+  PCR (< 48 Std.) oder Antigen Test (< 24 Std.) 
+        🌴 🌴 🌴 🌴 🌴
+  Registrierung direkt beim Peyman: 
+
+  Tel: 0176-4171565
+type: event
+promo: No
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Ff447b434-04a6-47e4-aef1-4f88f72712e4?alt=media&token=d6c9e052-03cb-4ce9-9c0b-1622ec583698
+createdAt: 1644865034602
+artists: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1644865034602
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org: ""
+eventType: Other
+form: No
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: SALSAÜBUNGSABEND
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-22T19:00
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+price: Free
+id: DQuYXimGLEOTt2mEvvJa
+viewsCount: 17

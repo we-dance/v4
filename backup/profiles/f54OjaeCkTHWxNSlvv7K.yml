@@ -1,0 +1,113 @@
+owner: ""
+createdAt: 1657383333423
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+instagram: https://instagram.com/tanzhaus_emotion
+username: tanzhaus_emotion
+partner: ""
+id: f54OjaeCkTHWxNSlvv7K
+hometown: ChIJz8Vi0BvenUcRF2mAIcGUvCU
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+locales:
+  de: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+gender: ""
+permission: ""
+styles:
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Interested
+    highlighted: false
+    selected: true
+  WestCoastSwing:
+    level: Interested
+    highlighted: false
+    selected: true
+importedAt: 1657619634771
+import: success
+name: Tanzhaus_emotion
+bio: >-
+  Tanzen ist träumen mit den Füßen.
+
+  Wir bieten Kindertanz, Hip Hop, Schülerkurse,Gesellschaftstanz,Social Dance, Salsa,West Coast Swing, Discofox
+photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftanzhaus_emotion.png?generation=1657619634678247&alt=media
+source: instagram
+type: FanPage
+updatedAt: 1657619634771
+watch:
+  count: 2
+  list:
+    Patricia: true
+    Lucasluu: true
+  usernames:
+    - Patricia
+    - Lucasluu
+website: http://www.tanzhausemotion.de/
+address:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  website: http://www.tanzhausemotion.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule München Tanzhaus emotion ADTV
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6214237802915
+      south: 48.0719041197085
+      north: 48.0746020802915
+      west: 11.6187258197085
+    location:
+      lng: 11.6200113
+      lat: 48.0733528
+  address_components:
+    - types:
+        - street_number
+      short_name: "91"
+      long_name: "91"
+    - types:
+        - route
+      short_name: Biberger Str.
+      long_name: Biberger Straße
+    - types:
+        - locality
+        - political
+      short_name: Unterhaching
+      long_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82008"
+      long_name: "82008"
+  international_phone_number: +49 89 74329895
+  place_id: ChIJHS2vnMnYnUcR2WkYy0VHHn0
+  url: https://maps.google.com/?cid=9015721869128002009
+phone: +49 89 74329895
+updateAt: 1722791061305
+viewsCount: 121

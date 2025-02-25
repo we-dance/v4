@@ -1,0 +1,166 @@
+venue:
+  formatted_address: Ludwigstraße 10, 83278 Traunstein, Germany
+  website: https://www.kulturforum-traunstein.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kulturforum Traunstein
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 12.6465755802915
+      south: 47.8688389697085
+      north: 47.8715369302915
+      west: 12.6438776197085
+    location:
+      lng: 12.6454062
+      lat: 47.8701977
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Ludwigstraße
+      long_name: Ludwigstraße
+    - types:
+        - locality
+        - political
+      short_name: Traunstein
+      long_name: Traunstein
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: TS
+      long_name: Traunstein
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "83278"
+      long_name: "83278"
+  international_phone_number: +49 1511 6163401
+  place_id: ChIJkxtPbdp6dkcRRUumdaavyMo
+  url: https://maps.google.com/?cid=14612122120476838725
+endDate: 2024-04-14T23:00
+claimed: No
+description: >-
+  DJ's zugesagt (alphabetisch)
+
+  DJane AngelKizz 
+
+  DJ Bert van Engel
+
+  DJane KizLiz
+
+  DJ NMB
+
+  DJ René
+
+  DJ Saul
+
+  DJ Toby M.G.
+
+  Fotograf: Sebastian Mayer 
+
+  ​
+
+  Trainer zugesagt (alphabetisch):
+
+  - Anastasia & Daniel (Frankfurt 🇩🇪) Bachata Sensual
+
+  - Elena & Erick (Österreich 🇦🇹/Kuba 🇨🇺) Salsa Cubana
+
+  - Helen & Lio (Ukraine 🇺🇦/Frankreich🇫🇷) Urban Kiz
+
+  - Kerstin & Franky Kizzfly (Frankfurt🇩🇪) Kizomba, Semba, Afrohouse
+
+  - Sónia & Martina (Portugal🇵🇹 / Chiemgau 🇩🇪) Kizomba
+
+
+  Zwei Tage lang Workshops mit tollen, und erfahrenen Trainern und jeden Abend von Freitag - Sonntag 
+
+  3 Tage Parties auf zwei Ebenen !
+
+  Es gibt: Fullpass, Tagespässe, Workshoppass, Partypass, Abendkasse zu den Parties, Zumbaticket
+
+  ****************************************
+
+  Du möchtest nur auf die Parties bei unserem Festival kommen ?
+
+  Auch kein Problem 😀😎😎😎😎
+
+  Es gibt jeden Tag (Freitag- Sonntag) eine Abendkasse
+
+  🔥 Freitag
+
+  Party ab 20:00 Uhr im Servus in Truchtlaching in zwei Räumen (Kizombafloor/Salsa Bachatafloor) 
+
+  Adresse: Chiemseestr. 3, 83376 Truchtlaching
+
+  🔥 Samstag
+
+  Party ab 20:00 Uhr im Kulturforum Klosterkirche Traunstein in zwei Räumen 
+
+  -> Salsa Bachata in der Kirche & Kizomba im Kapuzinersaal
+
+  Adresse: Kulturforum Klosterkirche, Ludwigstr. 10, 83278 Traunstein
+
+  🔥 Sonntag 
+
+  Party ab 18:00 Uhr im Kulturforum Klosterkirche Traunstein in zwei Räumen 
+
+  -> Salsa Bachata in der Kirche & Kizomba im Kapuzinersaal
+
+  Adresse: Kulturforum Klosterkirche, Ludwigstr. 10, 83278 Traunstein
+
+  ***********************************
+
+  Sonntag 10:00 Uhr – 12:30 Uhr
+
+  Mega Zumba-Party mit 4 Trainern (nicht im Fullpass enthalten)
+
+  Alle Infos auch auf 
+
+  https://tanzen-im-servus.de
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkKJjJH0ezCeJfbOKjU7jPQUjR292%2Fe3fb98c5-d5bf-4bd1-a500-fe217e8eada2?alt=media&token=82432975-9391-4836-b053-45a58c68ccc4
+createdAt: 1690452864119
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJGddxFT9tdkcRYKc3CaQlHQQ
+international: No
+updatedAt: 1690452864119
+updatedBy: kKJjJH0ezCeJfbOKjU7jPQUjR292
+visibility: Public
+org: {}
+eventType: Party
+form: No
+createdBy: kKJjJH0ezCeJfbOKjU7jPQUjR292
+watch:
+  count: 1
+  list:
+    ServusTruchtlaching: true
+name: Divine Days 3.0 Chiemsee / Traunstein
+online: No
+styles: {}
+startDate: 2024-04-12T19:00
+username: ServusTruchtlaching
+viewsCount: 2
+link: https://tanzen-im-servus.de/divine-days-3-0/
+id: zkEISJC1qwgolpTWyGKn

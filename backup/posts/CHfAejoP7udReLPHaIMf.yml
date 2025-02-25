@@ -1,0 +1,176 @@
+endDate: 1729436400000
+sourceUrl: https://www.facebook.com/events/2768859466615914/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717105760000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728316863000
+facebookId: "2768859466615914"
+facebook: https://www.facebook.com/events/2768859466615914/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2768859466615914/
+eventType: Festival
+providerItemId: e2768859466615914@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "𝐵𝒶𝒸𝒽𝒶𝓉𝒶 Revelation Caliente Weekend NEW location Dance One "
+location: Dance One
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729276200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Van Heybeeckstraat 5, 2170 Antwerpen, Belgium
+  website: http://danceone.be/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance One | Dansschool
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.446540569708498
+        lat: 51.24544811970851
+      northeast:
+        lng: 4.449238530291502
+        lat: 51.24814608029151
+    location:
+      lng: 4.4478103
+      lat: 51.24686379999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Van Heybeeckstraat
+      long_name: Van Heybeeckstraat
+    - types:
+        - locality
+        - political
+      short_name: Antwerpen
+      long_name: Antwerpen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: AN
+      long_name: Antwerpen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vlaams Gewest
+      long_name: Vlaams Gewest
+    - types:
+        - country
+        - political
+      short_name: BE
+      long_name: Belgium
+    - types:
+        - postal_code
+      short_name: "2170"
+      long_name: "2170"
+  international_phone_number: +32 499 73 09 91
+  place_id: ChIJT5t_UM0JxEcRebsD_oS-HmY
+  url: https://maps.google.com/?cid=7358528319576587129
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417997988
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/revelationweekend
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417998/reabo6mkk51kergyr4ps.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417997988
+  owned: false
+  name: Bachata Revelation Caliente
+  updatedAt: 1728417997988
+  username: revelationweekend
+claimed: No
+link: https://eventix.shop/mqevu677
+description: >+
+  GREAT NEWS🎶 !! 
+
+  We have a new location DANCE ONE with 2 Areas & parking for the best Bachata Festival in Antwerp.
+
+  Come enjoy the Bachata Revelation Caliente Weekend 
+
+  🗓️ 18 to 20 October (3 days) of Fun Dancing Workshops Parties Animation ..
+
+
+  🎟️ BUY YOUR EARLY BIRD TICKETS HERE:
+
+  https://eventix.shop/mqevu677
+
+   💃🕺LINE UP:
+  🌴 PEP & MARINA 🇪🇸
+
+  🌴 PEP & MARINA show team 🇳🇱
+
+  🌴 Marta Lips 🇵🇱 
+
+  🌴 Arawi & Eleonora 🇧🇪
+
+  🌴 Oscar & Liesje 🇧🇪
+
+  🌴 Kenny & Lindsey 🇧🇪
+
+  🌴 Salsa Rica 🇧🇪
+
+  🌴 Clave y Sabor 🇧🇪
+
+  🌴 Arawi & Selena  🇧🇪
+
+  🌴 Gaetan & Stelle 🇧🇪
+
+  🌴Eleonora Student Team 🇧🇪
+
+  more to confirm....
+
+
+  🎵DJ's
+
+  DJ ESK
+
+  DJ PEPE
+
+  DJ JUANITO
+
+  DJ MORES
+
+  DJ KIMO
+
+
+  📍 NEW LOCATION 📍
+
+  DANCE ONE 2 AREAS 
+
+  Van Heybeeckstraat 5 Merksem Antwerpen
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417999/wob9z6mhczgp6idsyg4q.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJfYjDv472w0cRuIqogoRErz4
+international: No
+hash: 1729276200000+ChIJT5t_UM0JxEcRebsD_oS-HmY
+id: CHfAejoP7udReLPHaIMf

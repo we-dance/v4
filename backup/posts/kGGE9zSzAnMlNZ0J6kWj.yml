@@ -1,0 +1,116 @@
+createdAt: 1708774284033
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/1383034365946677/
+updatedAt: 1708774284033
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Rua da Cintura do Porto de Lisboa, Edifício 78, Armazém I,
+    Naves 3/4/5, 1200-109 Lisboa, Portugal
+  website: http://udance.pt/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Udance Escola de Dança
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.156424380291503
+        lat: 38.70441106970849
+      northeast:
+        lng: -9.153726419708498
+        lat: 38.70710903029149
+    location:
+      lng: -9.155098599999999
+      lat: 38.70584319999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Estrela
+      long_name: Estrela
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 1200-109
+      long_name: 1200-109
+  international_phone_number: +351 912 160 967
+  place_id: ChIJyW63wGM1GQ0RQz0qdpwa3z8
+  url: https://maps.google.com/?cid=4602426603495636291
+endDate: ""
+claimed: No
+link: https://www.eventbuddy.pt/sergioyanabachata
+description: >-
+  Intensivo Bachata - Sergio Y Ana
+
+
+  Directamente de Sevilha, Espanha!
+
+
+  Sergio Y Ana irão estar connosco todo o fim de semana de 24 e 25 de Fevereiro, com dois dias de muita partilha e de muita dança!
+
+
+  Serão 5 horas intensivas de Bachata, que terminam com o nosso tradicional Social Set, no Domingo, dia 25 de Fevereiro.
+
+
+  Garante já o teu bilhete promocional do 1º Lote, temos a impressão que vão voar!!!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+facebookId: "1383034365946677"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Bachata Lovers - Sergio y Ana
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708786800000+ChIJyW63wGM1GQ0RQz0qdpwa3z8
+startDate: 1708786800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708774289/ikfhgi1rzrhzafjnmx4l.jpg
+org:
+  owner: ""
+  importedAt: 1708774285810
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/udanceschoollisboa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774286/fxguv4a8ft3dzb9sz2vq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708774285810
+  owned: false
+  name: U Dance School
+  place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+  updatedAt: 1708774285810
+  username: u.dance.school
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkGGE9zSzAnMlNZ0J6kWj.png?generation=1708774300454528&alt=media
+id: kGGE9zSzAnMlNZ0J6kWj

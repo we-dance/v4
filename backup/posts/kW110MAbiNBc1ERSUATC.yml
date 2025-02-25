@@ -1,0 +1,146 @@
+venue:
+  website: http://www.ballhauswedding.de/
+  formatted_address: Wriezener Str. 6, 13359 Berlin, Germany
+  more_opening_hours: []
+  name: Ballhaus Wedding
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3900537302915
+      south: 52.55529501970851
+      north: 52.5579929802915
+      west: 13.3873557697085
+    location:
+      lng: 13.3888296
+      lat: 52.556611
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Wriezener Str.
+      long_name: Wriezener Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "13359"
+      long_name: "13359"
+  international_phone_number: +49 162 3767712
+  place_id: ChIJu9_-sTpTqEcRMhpZp6Asz_E
+  url: https://maps.google.com/?cid=17424194551833762354
+claimed: No
+link: https://la-candela-salsa.de/palacio-de-la-salsa-cuban-party/
+description: >-
+  Get ready for the best Cuban Social in Berlin
+
+  Join us for a night full of 100% Cuban Music – Salsa, Rumba, Son, Afro Cuban & Reggaeton, and more! If you love Cuban Salsa – this one is for you! This party is for real Cuban music enthusiasts. It’s a unique experience that will allow being exposed and dance to the many genres that exist in Cuban repertoire, even the ones that are rarely played on your normal social night. Expect a ratio of about 60% Salsa Cubana, and 40% Rumba/Son/Folklore/Reggaeton.
+
+
+  More details can be seen in the events.
+
+
+  Schedule
+
+  19:00 – Salsa de la Calle with Ido Flaishon (Partnerwork, Open Level)
+
+  20:00 – 1:00 – Party Party Party
+type: event
+downVotes: 0
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F82341e6e-4340-486a-a53f-daec3ff4a106?alt=media&token=1f376c0f-5b18-4c7d-97db-476b3c873cb0
+duration: 60
+createdAt: 1681740112411
+artists: []
+price: 10 EUR (Reductions available)
+socialCover: ""
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1681740112411
+updatedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/la.candela.salsa.school/
+  name: Ido Flaishon
+  bio: |-
+    Salsa & Cuban dances teacher.
+    La Candela School head in Berlin.
+    Creator of the Salsayo.com project - Cuban moves international encyclopedia.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+  id: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+  instagram: https://www.instagram.com/la.candela.salsa/
+  username: idofle
+upVotes: 0
+eventType: Party
+form: No
+createdBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: El Palacio de la Salsa
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+username: idofle
+viewsCount: 1
+endDate: 2023-04-18T20:00
+facebook: https://www.facebook.com/events/918965192585337
+program: []
+id: kW110MAbiNBc1ERSUATC
+startDate: 2023-04-18T19:00
+telegram:
+  requestedAt: 1681740220383
+  state: requested
+instagram:
+  requestedAt: 1681740222923
+  state: requested

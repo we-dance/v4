@@ -1,0 +1,50 @@
+endDate:
+  _seconds: 1628190000
+  _nanoseconds: 0
+link: https://doo.net/veranstaltung/81688/buchung
+description: >-
+  I highly recommend the Beginners Intensive Class for all new (and new to be!)
+  Zouk dancers in Munich.
+
+  This class is MADE for you - you don't need any Zouk experience for joining.
+
+  If you want to have a kickstart into this beautiful, free and emotional dance: check out this class with Anna Hoekstra, visiting us from Australia for 10 days to teach! We are working on a Followup-Class for this next week - so prepare for an even more rapid start into the Zouk experience!
+
+  Only 10 Spots available.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG008dEeTZJcXLBzzL2krS0Ynumu2%2F05b398c0-3e92-4310-83c7-182c4514e6b1?alt=media&token=784344c3-3ef0-4d10-a159-382190a3f03f
+duration: "120"
+createdAt: 1627949865335
+watchersCount: 0
+price: 24€
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEV7DWScAnZvJDSbRx483.png?generation=1627992991884563&alt=media
+commentsLast: ~
+id: EV7DWScAnZvJDSbRx483
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1627949865335
+address: Performing Arts Studio, Bergmannstraße 22, 80339 München, Deutschland
+updatedBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+visibility: Public
+eventType: Course
+form: Yes
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+commentsCount: 0
+name: Brazilian Zouk - Beginner Intensive Class - with Anna Hoekstra
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-05T17:00:00.000Z
+username: Thomas
+viewsCount: 68

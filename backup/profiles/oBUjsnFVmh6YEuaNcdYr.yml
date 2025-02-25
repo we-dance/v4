@@ -1,0 +1,88 @@
+createdAt: 1708133599164
+updatedBy: THHcBeWZfmQh15QdCy9iaaf4A152
+cityPlaceId: ChIJKTOKk2ABnUcRgJyL161IHgQ
+createdBy: THHcBeWZfmQh15QdCy9iaaf4A152
+name: Garmisch-Partenkirchen, Germany
+location:
+  country: Germany
+  latitude: 47.4919023
+  locality: Garmisch-Partenkirchen
+  region: Bavaria
+  place_id: ChIJKTOKk2ABnUcRgJyL161IHgQ
+  longitude: 11.0947806
+place: ChIJKTOKk2ABnUcRgJyL161IHgQ
+type: City
+updatedAt: 1708133599164
+username: germany-garmisch-partenkirchen
+watch:
+  count: 1
+  usernames:
+    - Izzy
+  history:
+    - username: Izzy
+      date: 1719231468396
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231472800
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: left
+    - username: Izzy
+      date: 1719231488006
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231488573
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: left
+    - username: Izzy
+      date: 1719231488863
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231489053
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: left
+    - username: Izzy
+      date: 1719231497275
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231497724
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: left
+    - username: Izzy
+      date: 1719231498252
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231498446
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: left
+    - username: Izzy
+      date: 1719231498768
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231510160
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: left
+    - username: Izzy
+      date: 1719231512991
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+viewsCount: 58
+id: oBUjsnFVmh6YEuaNcdYr

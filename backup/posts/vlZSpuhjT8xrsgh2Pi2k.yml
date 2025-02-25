@@ -1,0 +1,215 @@
+endDate: 1733079600000
+sourceUrl: https://www.facebook.com/events/497065512684418/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1720995696000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727709720000
+facebookId: "497065512684418"
+facebook: https://www.facebook.com/events/497065512684418/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/497065512684418/
+eventType: Concert
+providerItemId: e497065512684418@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Hasta Santiago a pie "
+location: Mairie de Marssac-sur-Tarn
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1732903200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Rue Tonimarie, 81150 Marssac-sur-Tarn, France
+  website: http://marssac-sur-tarn.reseaudescommunes.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png
+  name: Mairie
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.028891519708498
+        lat: 43.9143017197085
+      northeast:
+        lng: 2.031589480291502
+        lat: 43.9169996802915
+    location:
+      lng: 2.0303536
+      lat: 43.91560560000001
+  address_components:
+    - types:
+        - route
+      short_name: Rue Tonimarie
+      long_name: Rue Tonimarie
+    - types:
+        - locality
+        - political
+      short_name: Marssac-sur-Tarn
+      long_name: Marssac-sur-Tarn
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Tarn
+      long_name: Tarn
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Occitanie
+      long_name: Occitanie
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "81150"
+      long_name: "81150"
+  international_phone_number: +33 5 63 55 40 47
+  place_id: ChIJKXD3jCXbrRIR9FEIEBMvZbc
+  url: https://maps.google.com/?cid=13215020440508453364
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417951017
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/helene.lopez.982
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417951/nw1zmfboj4klmcffx26y.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417951017
+  owned: false
+  name: Hé Lène
+  place: ChIJ1xfM69farRIRe1yKaUtg9wg
+  updatedAt: 1728417951017
+  username: helene.lopez.982
+claimed: No
+link: ""
+description: >-
+  1ère édition du festival Hasta Santiago a pie
+
+
+  2 soirées
+
+  1 sociale 
+
+  3 dj
+
+  2 concerts
+
+  13 heures d'ateliers
+
+  Attention, une précision: les cours sont destinés à des danseurs et danseuses ayant des bases salsa solides ! Pas de cours pour les débutants.
+
+  Seuls les cours de rumba et afrocubano peuvent être tentés par des débutants.
+
+  Des animations ouvertes à tout le monde seront proposées avant soirée. 
+
+
+  VENDREDI
+
+  19h Son con clave (couple) Mauricio
+
+  20h Rueda (couple) Mauricio
+
+  21h30 Concert du groupe toulousain AFINCAO
+
+  Dj Toscano (Toulouse) 
+
+
+  SAMEDI
+
+  10h afrocubano (solo) Chahera
+
+  11h son cubano (couple) Onilde
+
+  12h pause déjeuner 
+
+  13h estilo chico (solo) Mauricio
+
+  14h regueton (solo) Chahera
+
+  15h Timba (couple) Alexei y Emilia
+
+  16h Rumba (solo) Onilde
+
+
+  21h30Concert SEPTETO NABORI directement de Santiago de Cuba
+
+  DJ Lilimba (Narbonne) 
+
+
+  DIMANCHE
+
+  10h estilo fille (solo) Chahera
+
+  11h suelta (solo) Alexei y Emilia
+
+  12h pause déjeuner
+
+  13h musicalité Alexei y Emilia
+
+  14h Rueda contratiempo (couple) Onilde
+
+  15h Casino contratiempo (couple) Alexei y Emilia
+
+
+  16h30 Sociale
+
+  l'asso Cuba Libre et Dj Joss Mendes (Paris) se joint à nous pour une sociale solidaire !
+
+  1€ symbolique pour chaque participant qui sera reversé au télethon !
+
+
+
+  LES PROFS
+
+  Alexei y Emilia (Valencia /Brésil) 
+
+  Chahera (Toulouse) 
+
+  Onilde Valon (Santiago de Cuba)
+
+  Mauricio Oroceno (Santiago de Cuba) 
+
+
+  1€de chaque full pass, et pass 2 soirée +sociale Cuba libre sera reversé au telethon
+
+
+  Billetterie
+
+
+  https://www.billetweb.fr/hasta-santiago-a-pie
+
+
+  Un stand massage et bien-être pour vous relaxer avec Marion, un food truck dessert avec Léa Regourd pour vous régaler, nous vous proposerons également de quoi vous restaurer et vous désaltérer !
+
+
+  Entre Gaillac et Albi, vous trouverez facilement de quoi vous loger. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417952/fdfoabopytsxgbxpvugh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ1xfM69farRIRe1yKaUtg9wg
+international: No
+hash: 1732903200000+ChIJKXD3jCXbrRIR9FEIEBMvZbc
+id: vlZSpuhjT8xrsgh2Pi2k

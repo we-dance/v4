@@ -1,0 +1,148 @@
+endDate: 1723233600000
+sourceUrl: https://www.facebook.com/events/1184894512677881/
+createdAt: 1719496823996
+approved: true
+provider: ical
+providerId: XCqTnowC63qpb0GNh42Y
+providerCreatedAt: 1717070864000
+updatedAt: 1719496823996
+importedAt: 1719496823996
+providerUpdatedAt: 1717070864000
+facebookId: "1184894512677881"
+facebook: https://www.facebook.com/events/1184894512677881/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1184894512677881/
+eventType: Party
+providerItemId: e1184894512677881@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa im Park – Tanzen unter freiem Himmel im Fürther Stadtpark
+location: Freilichtbühne Fürth
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723219200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Engelhardtstraße, 90762 Fürth, Germany
+  website: https://www.facebook.com/freilichtbuehnefuerth
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Open-air theater in the city park in Fürth
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.9940226
+        lat: 49.4716764197085
+      northeast:
+        lng: 10.9975226
+        lat: 49.4743743802915
+    location:
+      lng: 10.9966476
+      lat: 49.47336529999999
+  address_components:
+    - types:
+        - route
+      short_name: Engelhardtstraße
+      long_name: Engelhardtstraße
+    - types:
+        - locality
+        - political
+      short_name: FÜ
+      long_name: Fürth
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Fürth
+      long_name: Kreisfreie Stadt Fürth
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90762"
+      long_name: "90762"
+  international_phone_number: +49 911 7418884
+  place_id: ChIJp_WiosFVn0cRXLLTPBI4tRM
+  url: https://maps.google.com/?cid=1420102908486333020
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/deejayNorb
+  name: DJ Norb
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707313198/u8zmtzpdoypkthtuybr6.png
+  bio: ""
+  id: K6u5QEHoZXuVI6gV8Oe5
+  instagram: ""
+  username: dj.norb
+claimed: No
+link: ""
+description: >-
+  Wir haben von der Stadt eine Genehmigung für einen Tag bekommen. Am Freitag,
+  den 9. August 2024 drehen wir die Zeit zurück und tanzen im Fürther Stadtpark
+  zu Salsa im Park.
+
+
+  Von 18.00 - 22.00 Uhr gibt es heiße Latin-Rhythmen. Salsa all styles mit ein paar Bachatas und ein wenig Kizombas. Für die musikalische Auswahl sorgen DJ Norb und Charles DJ Cuba von der Tanzschule Cuba Danza. Die beiden Profis wissen genau, wie man die Tanzfläche zum Kochen bringt.
+
+
+  Für das leibliche Wohl sorgt das Stadtparkcafé mit Speisen und Getränken.
+
+  Der Boden ist diesmal nicht präpariert. Also bitte asphalttaugliche Schuhe mitbringen.
+
+
+  DJ Norb und das Team von Salsa-im-Park freuen sich auf einen schönen Tanzabend mit euch!
+
+  Eintritt, Spendenbasis.
+
+
+  Anfahrt:
+
+  Freilichtbühne des Stadtparkcafés
+
+  Engelhardtstr. 20
+
+  90762 Fürth
+
+  U-Bahn: U 1 bis Hauptbahnhof Fürth, ca. 6 Min. Fußweg zum Stadtparkcafé
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719496835/hxfuaxqtbg3jkzl7gpdw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJMQVnDHpVn0cR4Me1vjLaHgQ
+international: No
+hash: 1723219200000+ChIJp_WiosFVn0cRXLLTPBI4tRM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9vXWMvNht5H67K5iARpD.png?generation=1719496853019342&alt=media
+viewsCount: 1
+id: 9vXWMvNht5H67K5iARpD

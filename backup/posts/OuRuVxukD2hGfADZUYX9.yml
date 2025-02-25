@@ -1,0 +1,124 @@
+sourceUrl: https://www.facebook.com/events/339720165742486/
+createdAt: 1724413591812
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+viewsCount: 1
+claimed: No
+link: https://blueticket.meo.pt/Event/11395
+description: >-
+  A BLACKANGELS & O MUKUETO uniram-se para apresentar um espectáculo bastante
+  especial. 
+
+  30 anos de carreira do grande cantor Johnny Ramos , uma carreira marcada de sucessos que certamente fazem parte da vida de muitos fãs, uma carreira com músicas e parcerias inesquecíveis, dono de vários hits memoráveis como 
+
+  “Tem fé “, “bo é di meu”, “Largal” entre muitos outros! 
+
+  Vem festejar connosco estes 30 anos.
+
+
+  Os bilhetes já estão disponíveis! 🎟️ 
+
+  » Mais Info:
+
+  Whatsapp: 966868663 | 961098766 | 912200118 | 969 158 375
+program: []
+source: facebook
+type: event
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/339720165742486/
+facebookId: "339720165742486"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: ✨️ JOHNNY RAMOS ✨️30 ANOS DE CARREIRA ✨️
+online: No
+styles: {}
+hash: 1729368000000+ChIJc-MGYN8zGQ0RoLVvfWLtQcc
+startDate: 1729368000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724413602/iydqkotsqbpesdjtrhjn.jpg
+duration: .nan
+venue:
+  website: http://www.lisboaaovivo.com/
+  formatted_address: Av. Mar. Gomes da Costa 29 B1, 1800-255 Lisboa, Portugal
+  name: LAV - Lisboa ao Vivo
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.111970480291502
+        lat: 38.7558323197085
+      northeast:
+        lng: -9.109272519708497
+        lat: 38.7585302802915
+    location:
+      lng: -9.110635499999999
+      lat: 38.7571856
+  address_components:
+    - types:
+        - subpremise
+      short_name: B1
+      long_name: B1
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Av. Mar. Gomes da Costa
+      long_name: Avenida Marechal Gomes da Costa
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Marvila
+      long_name: Marvila
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 1800-255
+      long_name: 1800-255
+  url: https://maps.google.com/?cid=14358018094300902816
+  place_id: ChIJc-MGYN8zGQ0RoLVvfWLtQcc
+  username: www.lisboaaovivo.com
+endDate: .nan
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mukueto/
+  name: Mukueto
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmukueto_.png?generation=1724413351605452&alt=media
+  bio: |-
+    Mukueto = Amigo Próximo
+    As Festas de Família, que faziam falta 🤗
+    📌Reserva o teu bilhete para o Mukueto no Tejo
+  id: oEDnixuymmtAkVXS33GR
+  instagram: https://instagram.com/mukueto_
+  username: mukueto_
+artistsList: []
+id: OuRuVxukD2hGfADZUYX9
+updatedAt: 1724413643500

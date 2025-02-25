@@ -1,0 +1,124 @@
+createdAt: 1704481108698
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1704481108698
+username: alexrazbakov
+venue:
+  formatted_address: RIZZ eat&drink, Weinstraße 12, 83022 Rosenheim, Germany
+  website: http://www.rizz-eat-drink.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: RIZZ eat&drink
+  geometry:
+    viewport:
+      southwest:
+        lng: 12.1276946197085
+        lat: 47.8563687697085
+      northeast:
+        lng: 12.1303925802915
+        lat: 47.8590667302915
+    location:
+      lng: 12.1288032
+      lat: 47.8578529
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Weinstraße
+      long_name: Weinstraße
+    - types:
+        - locality
+        - political
+      short_name: RO
+      long_name: Rosenheim
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Rosenheim
+      long_name: Kreisfreie Stadt Rosenheim
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "83022"
+      long_name: "83022"
+  international_phone_number: +49 8031 231731
+  place_id: ChIJkbEwcEgadkcRLx2_JjT-1gE
+  url: https://maps.google.com/?cid=132572738995821871
+endDate: 1704499200000
+claimed: No
+link: ""
+description: |
+  Hola Familia,
+
+  wir bringen unsere eigene Soundanlage mit 😅
+
+  Legendäääär sind die Salsa Parties im RIZZ Gewölbe.
+
+  Wir freuen uns sehr dort wieder tanzen und feiern zu dürfen.
+
+  DJ JC Lahera verwöhnt euch mit linda Musica am DJ Table. 
+
+  Vamos mi Gente
+
+  Baila y Fiesta de Salsabina 
+  Salsa Rosenheim 
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJ8Q8AgEcadkcRg8sr-Krd2yo
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/885290989788319/
+facebookId: "885290989788319"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Bailando Salsa y Mas
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1704484800000+ChIJ8Q8AgEcadkcRg8sr-Krd2yo
+startDate: 1704484800000
+org:
+  owner: ""
+  importedAt: 1704481113577
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsarosenheim
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/376835223_688142250025967_837582782013380251_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=596444&_nc_ohc=NQeTidv7kDkAX-v9IwC&_nc_ht=scontent-iad3-2.xx&oh=00_AfDUVQnklEDqDCbL40rtjo0bi6vBNAORlk8pTgAjrFPNEw&oe=659E2020
+  source: facebook
+  type: Organiser
+  createdAt: 1704481113577
+  owned: false
+  name: Baila y Fiesta de SalsaBina - Salsa Rosenheim
+  place: ChIJ8Q8AgEcadkcRg8sr-Krd2yo
+  updatedAt: 1704481113577
+  username: salsarosenheim
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9dbSQf4t4aAGKTa5ne4L.png?generation=1704481128570176&alt=media
+viewsCount: 3
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851692/qlusyhnhrknu8r2phjuf.jpg
+id: 9dbSQf4t4aAGKTa5ne4L

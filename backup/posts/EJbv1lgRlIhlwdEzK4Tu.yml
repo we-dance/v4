@@ -1,0 +1,115 @@
+endDate: 1716588000000
+sourceUrl: https://www.facebook.com/events/1581007586015878/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714582905000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714582905000
+facebookId: "1581007586015878"
+facebook: https://www.facebook.com/events/1581007586015878/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1581007586015878/
+eventType: Party
+providerItemId: e1581007586015878@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Stage Bachata / Soirée SBK collis martis "
+location: Collis Martis
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716577200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 7 Av. de la Foire aux Vins, 68000 Colmar, France
+  website: https://www.collis-martis.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Collis Martis
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.354343369708498
+        lat: 48.0966931197085
+      northeast:
+        lng: 7.357041330291502
+        lat: 48.0993910802915
+    location:
+      lng: 7.3554119
+      lat: 48.09797669999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Av. de la Foire aux Vins
+      long_name: Avenue de la Foire aux Vins
+    - types:
+        - locality
+        - political
+      short_name: Colmar
+      long_name: Colmar
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haut-Rhin
+      long_name: Haut-Rhin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "68000"
+      long_name: "68000"
+  place_id: ChIJB2x1ZWxmkUcR0s8oLjqZKp0
+  url: https://maps.google.com/?cid=11325032688138112978
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444477025
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsa.adel.311
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444477/jjxciizq0iu446fl6mpq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444477025
+  owned: false
+  name: Salsa Adel
+  place: ChIJz8Fw9t9lkUcRZulsYT5-XeM
+  updatedAt: 1715444477025
+  username: salsa.adel.311
+claimed: No
+link: ""
+description: ""
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444479/qva3jw45emwif6gwbaay.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJz8Fw9t9lkUcRZulsYT5-XeM
+international: No
+hash: 1716577200000+ChIJB2x1ZWxmkUcR0s8oLjqZKp0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEJbv1lgRlIhlwdEzK4Tu.png?generation=1715444494869396&alt=media
+id: EJbv1lgRlIhlwdEzK4Tu

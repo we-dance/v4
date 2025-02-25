@@ -1,0 +1,40 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1622577452672
+createdBy: RYR3xJ6wA5Oi12z6ucTLKqgfJBj1
+name: Erwin
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Erwin
+pwaUsed: false
+updatedBy: RYR3xJ6wA5Oi12z6ucTLKqgfJBj1
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRYR3xJ6wA5Oi12z6ucTLKqgfJBj1%2F03473adf-6469-4ef6-8cb9-2e0c3e6bb7b8?alt=media&token=1c93ccba-2b3c-42e2-9981-7c5e5dd86599
+id: RYR3xJ6wA5Oi12z6ucTLKqgfJBj1
+hometown: ChIJ7T0H5bDP7kYRMP7yaM3PAAQ
+locales:
+  de: true
+  ru: true
+  en: true
+teacher: No
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+learning: Salsa Cubana
+updatedAt: 1622621141850
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FErwin.png?generation=1622646988646466&alt=media
+bio: Suche Tanzpartnerin für Salsa Cubana / Casino
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+lastLoginAt: 1627983173072
+daysUsed: 4

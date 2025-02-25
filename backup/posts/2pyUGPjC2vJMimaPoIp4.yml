@@ -1,0 +1,176 @@
+endDate: 1748822400000
+sourceUrl: https://fb.me/e/altYERaEm
+createdAt: 1725976844836
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1725901529000
+updatedAt: 1725976844836
+importedAt: 1725976844836
+providerUpdatedAt: 1725901529000
+facebookId: altYERaEm
+isNew: true
+facebookUrlsList:
+  - https://fb.me/e/altYERaEm
+  - https://fb.me/e/altYERaEm
+  - https://fb.me/e/altYERaEm
+providerItemId: 2vipa1e51mao7j86v3ji2r2bc9@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Bréma, 28 Bréma, Németország
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1748476800000
+facebookUrlsCount: 3
+username: alexrazbakov
+venue:
+  formatted_address: Komturstraße 4, 28195 Bremen, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Komturstraße 4
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.8097237697085
+        lat: 53.07174711970851
+      northeast:
+        lng: 8.812421730291502
+        lat: 53.07444508029151
+    location:
+      lng: 8.8110064
+      lat: 53.0731193
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Komturstraße
+      long_name: Komturstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28195"
+      long_name: "28195"
+  place_id: ChIJxwqD2hoosUcRVs4aKF4oliY
+  url: https://maps.google.com/?q=Komturstra%C3%9Fe+4,+28195+Bremen,+Germany&ftid=0x47b1281ada830ac7:0x2696285e281ace56
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/BremenCalling
+  name: Bremen Calling
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557862/qbgqmkukbmz9jrnl7z8i.jpg
+  bio: ""
+  id: 9Dt9iXiPVQ7I6kpANG53
+  instagram: ""
+  username: BremenCalling
+claimed: No
+facebook: https://www.facebook.com/events/527323779714285/
+link: ""
+description: >-
+  Welcome to an event for zouk beginners! If you are looking for an intensive
+  way of learning and mastering the zouk basics, then this event is for you!
+
+
+  4 days and 20 hours of intensive training in the beautiful historic center of Bremen.  You will spend a beautiful time and after the training you will be able of assisting to zouk socials and enjoy them!
+
+
+  === SCHEDULE ===
+
+  - Thursday to Saturday: classes from 13:00 to 18:00, socials from 20:30
+
+  - Sunday: Classes from 12:00 to 17:00, social at 17:00
+
+
+  === TEACHERS ===
+
+  The teachers of the training are Olga & Fernando, who have given in the last 15 years more than 40 beginner courses. They developed during the pandemic the Zouk Atoms, a way of understanding the basics of Zouk that gives you fully freedom to move and create on the dance floor. They give regular classes every week in the charming Bremen and will love to see you dancing with them!
+
+
+  === THIS EVENT IS FOR YOU IF… ===
+
+  - You’ve started already a zouk beginner course and want to learn and practice the zouk basics, winning an overview over them
+
+  - You are an experienced dancer, who already dance other couple dances, want to start with zouk and to learn efficiently the basics in an intensive training
+
+  - You are an experienced zouk dancer who wants to improve the basics.
+
+
+  === THIS EVENT IS NOT FOR YOU IF… ===
+
+  - You don’t have any experience with couple dances
+
+
+  === PRICE AND REGISTRATION ===
+
+  The intensive training costs 160€ (Full-Pass).
+
+
+  You can register using the following form: 
+
+  https://forms.gle/f5Y3m54nDT5NPhdcA
+
+
+  For the workshops we have only 24 spots (12 for follower and 12 for leader). We love this format since it creates a very familiar and relax atmosphere - perfect for the learning procees - and it allows us to giev you personal feedback during the exercises.
+
+
+
+  If you perceive any problems with the registration form, please just send us an email to zoukatoms@gmail.com
+
+
+  After your registration, you will get an email from us with the confirmation and the payment details.
+
+
+  We would love to see you in Bremen!
+
+
+  Big hug,
+
+
+  Olga & Fernando
+program: []
+source: facebook
+eventType: Workshop
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725976856/pcsw7h2rmcc20tatmfsa.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Zouk Beginner Intensive Training
+online: No
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+hash: 1748516400000+ChIJxwqD2hoosUcRVs4aKF4oliY
+id: 2pyUGPjC2vJMimaPoIp4

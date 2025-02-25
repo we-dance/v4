@@ -1,0 +1,143 @@
+endDate: 1722121200000
+sourceUrl: https://www.facebook.com/events/1840349233153794/
+createdAt: 1721224833312
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1721207963000
+updatedAt: 1721224833312
+importedAt: 1721224833312
+providerUpdatedAt: 1721207988000
+facebookId: "1840349233153794"
+facebook: https://www.facebook.com/events/1840349233153794/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1840349233153794/
+eventType: Party
+providerItemId: 47488-1722106800-1722121200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Veranda Bistro & More, Fáklya utca 4., Tata, 2890, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722106800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Tata, Fáklya u. 4, 2890 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Fáklya u. 4
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.3420361697085
+        lat: 47.6371609697085
+      northeast:
+        lng: 18.3447341302915
+        lat: 47.6398589302915
+    location:
+      lng: 18.34297
+      lat: 47.638573
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Fáklya u.
+      long_name: Fáklya utca
+    - types:
+        - locality
+        - political
+      short_name: Tata
+      long_name: Tata
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2890"
+      long_name: "2890"
+  place_id: ChIJrYhxFxVHakcR9-oC92B3MOk
+  url: https://maps.google.com/?q=Tata,+F%C3%A1klya+u.+4,+2890+Hungary&ftid=0x476a4715177188ad:0xe9307760f702eaf7
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1721224852163
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/verandatata
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1721224852/u4fqenktisvsvlqfaml5.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1721224852163
+  owned: false
+  name: Veranda Bistro & More
+  place: ChIJH_hfhaAayYcRP2UcctufuAI
+  updatedAt: 1721224852163
+  username: verandatata
+claimed: No
+link: ""
+description: >+
+  💃🕺!Venga, Venga!    SALSÁSOK!!!!! Sigue bailando!💃🕺
+
+
+  ✨A Veranda Bistro & More boltíves tornáccal körbevett belső kertjében hatalmas tánc placcal, kis tóval, vízeséssel, híddal és filagóriával vár Benneteket egy fergeteges latin tánc partira  a szabad ég alatt✨ 
+
+  Tuti, jó idő lesz! Az árnyas kert kellemes hőmérséklete, a romantikus környezet garancia a feledhetetlen szórakozásra. Dj Ruiz pazar salsa és bachata arzenálja pedig még a falábakban is "feléleszti a bugit".
+
+
+  Mi van, ha mégis esik az eső?! Akkor is táncolunk!! Nem állít meg senki és semmi! Ebben az esetben a gyönyörű, kertkapcsolatos Veranda étteremben tartjuk a partit.
+
+
+  Ne feledjétek a dátumot!
+
+
+  ❣️2️⃣0️⃣2️⃣4️⃣   0️⃣7️⃣   2️⃣7️⃣    szombat   1️⃣9️⃣  0️⃣0️⃣ - 2️⃣3️⃣  0️⃣0️⃣❣️
+
+
+  Belépés oldalt a kerti kapunál, a belépőjegy is ott vásárolható, 
+
+  ára: 4.990 Ft.- 
+
+  Mit kapsz érte a fergeteges party mellett?💥
+
+
+  🍹Egy pohár welcome drink-et (alkoholos / alkoholmentes)
+
+  🌮Latin falatokat / kóstolót (quesadilla, tapas, nachos, dip)
+
+  🕶️Csinos karszalagot 🎀
+
+
+  Asztalfoglalás (erősen javasolt):     +36 30 756 6116
+
+
+  !Hasta la vista!
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1721224854/amtgltiaenmvrb5jxm4y.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Latin Party - SALSA y BACHATA "El Ritmo de la Noche"
+online: No
+place: ChIJH_hfhaAayYcRP2UcctufuAI
+international: No
+hash: 1722099600000+ChIJrYhxFxVHakcR9-oC92B3MOk
+id: OLxHxMuZ4r8DKTsLtbC6

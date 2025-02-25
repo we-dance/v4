@@ -1,0 +1,102 @@
+venue:
+  formatted_address: Dammtorwall 15, 20355 Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "15"
+      short_name: "15"
+    - types:
+        - route
+      long_name: Dammtorwall
+      short_name: Dammtorwall
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Hamburg-Mitte
+      short_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      long_name: Hamburg
+      short_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Hamburg
+      short_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Hamburg
+      short_name: HH
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "20355"
+      short_name: "20355"
+  url: https://maps.google.com/?q=Dammtorwall+15,+20355+Hamburg,+Germany&ftid=0x47b18f1700ced0eb:0x239889a010e5231b
+  name: Dammtorwall 15
+  geometry:
+    viewport:
+      south: 53.5551923197085
+      north: 53.5578902802915
+      east: 9.984689330291502
+      west: 9.9819913697085
+    location:
+      lng: 9.98345
+      lat: 53.55628
+  place_id: ChIJ69DOABePsUcRGyPlEKCJmCM
+endDate: 2021-10-03T18:00:00.000Z
+link: http://www.salsafestival-hamburg.de/wp/en/
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+createdAt: 1631880997605
+watchersCount: 0
+price: TICKETS
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fd90Nj2AY3EGlFeaVIxob.png?generation=1633121607060225&alt=media
+commentsLast: ~
+place: ""
+id: d90Nj2AY3EGlFeaVIxob
+views: 3
+updatedAt: 1631880997605
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+viewsCount: 3
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Festival Hamburg 18th
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-01T17:00:00.000Z
+username: Promoter

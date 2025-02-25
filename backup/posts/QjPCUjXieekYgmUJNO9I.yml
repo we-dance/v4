@@ -1,0 +1,186 @@
+endDate: 1737910800000
+sourceUrl: https://www.facebook.com/events/669202775255147/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1710881146000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726865923000
+facebookId: "669202775255147"
+facebook: https://www.facebook.com/events/669202775255147/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/669202775255147/
+eventType: Party
+providerItemId: e669202775255147@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Xplosion Hamburg Edition III
+location: Hamburg
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1737745200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Hamburg
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.732151000000002
+        lat: 53.399999
+      northeast:
+        lng: 10.123492
+        lat: 53.717145
+    location:
+      lng: 9.987170299999999
+      lat: 53.5488282
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  url: https://maps.google.com/?q=Hamburg,+Germany&ftid=0x47b161837e1813b9:0x4263df27bd63aa0
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417922363
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachatahari
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417922/nbz34hbdybphlifvdpjt.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417922363
+  owned: false
+  name: hari_bachata
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1728417922363
+  username: bachatahari
+claimed: No
+link: https://www.goandance.com/en/events/6667-xplosion-hamburg-edition-iii
+description: >-
+  Xplosion Hamburg Edition III on 24th - 26th Jan 2025
+
+
+  ✪ Artists Line up ✪
+
+
+  ❥ Felipe & Tiago - Madrid, Spain
+
+  ❥ Fiorella & Linda - Amsterdam, Netherlands
+
+  ❥ Masa & Polina - Barcelona, Spain
+
+  ❥ Edu & Natalia - Frankfurt, Germany
+
+  ❥ Johanna & Hannah - Berlin, Germany
+
+  ❥ Hari & Lilien - Berlin, Germany
+
+
+  ✪ DJ Line up ✪
+
+  ❥ DJ Lima - Lithuania
+
+  ❥ DJ Dia - Germany
+
+  ❥ DJ NAANDI - Germany
+
+
+  ✪ Official Photographers / Videographers ✪
+
+  ❥ AZU REC - Lithuania
+
+
+  ✪ What to Expect? ✪
+
+  ❥ +13 hrs of workshops with International and National Artists.
+
+  ❥ 2 Big Parties with Artists/Guest Dancers and International DJs
+
+  ❥ Lot more exciting, Fun, Dance & Xplosion
+
+
+  ✪ PASSES ✪
+
+  ★ Full Pass
+
+  ★ Party Pass
+
+  ★ Day Pass - Only At Door
+
+
+  ✪ Payment methods ✪
+
+  ❥ Ticket link:
+
+  https://www.goandance.com/en/events/6667-xplosion-hamburg-edition-iii
+
+
+  ✪ Venue ✪
+
+  ❥ Workshops / Party Location:
+
+  ❥ TBC
+
+
+  ★ There will be an official photographer / Videographers for the party nights
+
+
+  Information: Tickets are non-refundable and purchases are final. But you can sell the tickets and change the name of the passes until Dec 2024.
+
+
+  For Any other questions please contact:
+
+  ❥ Instagram / Facebook: @xplosion_event
+
+  ❥ Website: www.xplosionevent.com
+
+  ❥ Email: explosionbachata@gmail.com
+
+  ❥ Mobile: +49 17684175366
+
+
+  Event organised by
+
+  Xplosion_Event
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417924/pfaro1ixbnwurtmu3ocm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1737745200000+ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+id: QjPCUjXieekYgmUJNO9I

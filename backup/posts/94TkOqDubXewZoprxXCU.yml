@@ -1,0 +1,124 @@
+endDate: 1720641600000
+sourceUrl: https://www.facebook.com/events/942053944070184/942054000736845/
+createdAt: 1720274429866
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720254324000
+updatedAt: 1720274429866
+importedAt: 1720274429866
+providerUpdatedAt: 1720254324000
+facebookId: "942054000736845"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/942053944070184/942054000736845/
+eventType: Party
+providerItemId: 10009120-1720634400-1720641600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Gozsdu Salsa Matiné, Király u. 13., Budapest, 1075, Magyarország
+startDate: 1720634400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Gozsdu Udvar, 1075 Hungary
+  website: https://www.gozsduudvar.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Gozsdu Court
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0580908197085
+        lat: 47.4971376197085
+      northeast:
+        lng: 19.0607887802915
+        lat: 47.4998355802915
+    location:
+      lng: 19.0594862
+      lat: 47.498467
+  address_components:
+    - types:
+        - route
+      short_name: Gozsdu Udvar
+      long_name: Gozsdu Udvar
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VII. kerület
+      long_name: VII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1075"
+      long_name: "1075"
+  place_id: ChIJt2Gt72ncQUcRNLdVdQa5bRo
+  url: https://maps.google.com/?cid=1904381654837081908
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Gozsdu.Salsa.Matine
+  name: Gozsdu Salsa Matiné
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557714/c65wedmc3bmu1bsmy7il.png
+  bio: ""
+  id: 2J4eCB3Pi2Sy6dm6h4y9
+  instagram: ""
+  username: Gozsdu.Salsa.Matine
+claimed: No
+facebook: https://www.facebook.com/events/942053944070184/?event_time_id=942054000736845
+link: ""
+description: >-
+  Munka utáni felüdülés és lelazulás zenével, tánccal, ruedával, meglepetésekkel
+  a belváros közepén, a szabad ég alatt.
+
+  Az esemény nyitott, ingyenes, a talpalávalót DJ Greg biztosítja. Balettszőnyeget terítünk le és szól a zene hattól nyolcig, hogy munka után be tudj ugrani táncolni egyet!
+
+  Vár a Gozsdu Udvar számtalan szórakozóhelye és terasza, vidám salsa zenével. Munka után ne rögtön hazafelé vedd az irányt, hanem gyere táncolj egyet, gyakorolhatod a tánciskolában tanultakat.
+
+  Klasszikus és modern salsa, son, néhány timba, kolumbiai, kubai, miami és olasz salsa slágerek szólalnak meg, bachatával fűszerezve, időnként egy-egy különlegességgel, cha-cha-chával, merenguével.
+
+  Az esemény szabadtéri, INGYENES és eső esetén elmarad - már csak ezért is érdemes nézni a kiírást.
+
+  ***********************
+
+  This is a weekly outdoor salsa event at one of the most frequented places in Budapest, Gozsdu Udvar every Wednesday. The event is visited by many salsa&bachata dancers in all styles, so if you dance salsa please feel free to join this afternoon event! Open from 6 PM to 8 PM. It's an outdoor event so it's canceled when it rains. The event is free of charge and lasts until only 8 PM, so be there on time! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720274446/lkkb4poy0u2v8ge6ybdb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Gozsdu Salsa Matiné - minden szerdán 6-tól 8-ig
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1720627200000+ChIJt2Gt72ncQUcRNLdVdQa5bRo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F94TkOqDubXewZoprxXCU.png?generation=1720274466835470&alt=media
+id: 94TkOqDubXewZoprxXCU

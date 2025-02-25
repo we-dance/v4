@@ -1,0 +1,170 @@
+endDate: 1718839800000
+sourceUrl: https://www.facebook.com/events/1558461411380008/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717706323000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1718374016000
+facebookId: "1558461411380008"
+facebook: https://www.facebook.com/events/1558461411380008/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1558461411380008/
+eventType: Party
+providerItemId: e1558461411380008@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 19/06/2024 - Mercredi SBK - cours + soirée SBK - Nadoo & DJ Jeffito  & DJ
+  Chanchan
+location: Rev' Dance Club
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718821800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 19 Rue Lavoisier, 95220 Herblay-sur-Seine, France
+  website: https://revdanceclub.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: REV'DANCE CLUB
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.165794919708498
+        lat: 49.0043775197085
+      northeast:
+        lng: 2.168492880291501
+        lat: 49.0070754802915
+    location:
+      lng: 2.167094
+      lat: 49.00568860000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Rue Lavoisier
+      long_name: Rue Lavoisier
+    - types:
+        - locality
+        - political
+      short_name: Herblay-sur-Seine
+      long_name: Herblay-sur-Seine
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Val-d'Oise
+      long_name: Val-d'Oise
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "95220"
+      long_name: "95220"
+  international_phone_number: +33 6 60 99 45 05
+  place_id: ChIJL1vCKDRh5kcRQQmv30mVN_4
+  url: https://maps.google.com/?cid=18318274153870723393
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546490398
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/revdance.club
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546490/ox6ri5sff7rltlg4mpcv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546490398
+  owned: false
+  name: Rev' Dance Club
+  place: ChIJ_zyDO4pg5kcRoDGLaMOCCwQ
+  updatedAt: 1718546490398
+  username: revdance.club
+claimed: No
+link: ""
+description: >-
+  ★★★ Mercredi SBK ★★★
+
+  ★★★ Mercredi 19 juin - cours + soirée SBK ★★★
+
+  ★★★ Nadoo & DJ Jeffito & DJ Chanchan ★★★
+
+
+  20h30-21h15 : cours de salsa intermédiaire (en simultané)
+
+  21h15-22h15 : cours de bachata évolutif
+
+  22h15-01h30 : soirée SBK (Salsa, Bachata, Kizomba) avec DJ Jeffito & DJ Chanchan
+
+
+  ★★★ Entrée : 7€ ★★★
+
+  Cours + soirée + une conso. au choix
+
+  (Carte 10 cours avec entrée : 50€)
+
+
+  ★★★ Entrée : 5€ ★★★
+
+  Soirée (A partir de 22h15) + une conso. au choix
+
+
+  ★★★ Restauration & boissons payantes ★★★
+
+  Panini / Croquemonsieur / Crêpe
+
+  Boissons : (2€ à 8€)
+
+
+  ★★★ STAND BOKIT ★★★
+
+
+  Rev’ Dance Club
+
+  19 rue Lavoisier – 95220 HERBLAY
+
+  A15 – sortie 5.1
+
+  ★★★ Contact ★★★
+
+  Tél. : 06 60 99 45 05
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546491/r9fonzzfuph24fj5gg9j.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_zyDO4pg5kcRoDGLaMOCCwQ
+international: No
+hash: 1718821800000+ChIJL1vCKDRh5kcRQQmv30mVN_4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXtbrmaBGcePd2KWVXULy.png?generation=1718546507006284&alt=media
+id: XtbrmaBGcePd2KWVXULy

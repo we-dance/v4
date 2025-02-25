@@ -1,0 +1,50 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1625121060297
+locales:
+  en: true
+createdBy: T9QBFyLYNUb8I4z42TbL1YLJEjG3
+name: TheGoodLife357
+place: ~
+username: TheGoodLife357
+pwaUsed: false
+birthday: 1986-02-01
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  public: true
+gender: Male
+partner: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FT9QBFyLYNUb8I4z42TbL1YLJEjG3%2Ffe4497d7-e2b2-4ee0-badb-d12a16119c47?alt=media&token=2cb55520-7c58-4807-a193-df7ebb837982
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+permission: No
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1625121265202
+lastLoginAt: 1633440452337
+daysUsed: 8
+id: T9QBFyLYNUb8I4z42TbL1YLJEjG3

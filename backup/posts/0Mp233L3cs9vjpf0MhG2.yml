@@ -1,0 +1,139 @@
+endDate: 1731760200000
+sourceUrl: https://www.facebook.com/events/548353971083940/
+createdAt: 1728309634349
+approved: true
+provider: ical
+providerId: MTOPYQBDLa1C7ZHLcBax
+providerCreatedAt: 1728300021000
+updatedAt: 1728309634349
+importedAt: 1728309634349
+providerUpdatedAt: 1728300065000
+facebookId: "548353971083940"
+facebook: https://www.facebook.com/events/548353971083940/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/548353971083940/
+eventType: Workshop
+providerItemId: e548353971083940@facebook.com
+createdBy: Dq3lGZSO48OOehTqoqIX3stBM292
+name: Salsa Beginner Workshop | Samstag 16.11.
+location: Salsa Club Munich
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731751200000
+facebookUrlsCount: 1
+username: SalsaClubMunich
+venue:
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  website: http://www.salsaclub-munich.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5786316697085
+        lat: 48.13375011970849
+      northeast:
+        lng: 11.5813296302915
+        lat: 48.13644808029149
+    location:
+      lng: 11.579996
+      lat: 48.1351625
+  address_components:
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Westenriederstraße
+      long_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 172 8533891
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  url: https://maps.google.com/?cid=17999243784988121499
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsaclubmunich
+  name: Salsa Club Munich
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705960718/uhi9bvtzxrt91gp3q6yc.jpg
+  bio: ""
+  id: 4JsWOsc3URa8TbL9AfbC
+  instagram: ""
+  username: salsa.club.munich
+claimed: No
+link: https://salsaclub-munich.de/course.php?kid=77
+description: >-
+  *“Salsa Fever – Tanze und Teile die Freude!“*
+
+  Sa.16.11.   -  11.00  - 13.30 Uhr
+
+
+  Salsa Beginner Workshop  - Ohne Vorkenntnisse
+
+  Intensive Kurs an einem Tag! 
+
+  Grundschritte , wichtige Drehungen und einfache Kombinationen lernen in nur 2,5 Std.
+
+
+
+  🌟 Egal, ob du neu dabei bist oder schon immer tanzen wolltest – jetzt ist der perfekte Moment, loszulegen!
+
+
+  Anmeldung: https://salsaclub-munich.de/course.php?kid=77
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728309650/aqm2ijqtqk3xezt6a9vj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1731751200000+ChIJU60HW-F1nkcRm9nfvdsoyvk
+viewsCount: 2
+id: 0Mp233L3cs9vjpf0MhG2

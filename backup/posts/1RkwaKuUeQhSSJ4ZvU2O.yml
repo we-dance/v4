@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Forstenrieder Allee 61A, 81476 München, Germany
+  website: http://www.buergerbuero-muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png
+  name: Bürgerbüro Forstenrieder Allee | Kreisverwaltungsreferat (KVR)
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5007792802915
+      south: 48.0929378697085
+      north: 48.0956358302915
+      west: 11.4980813197085
+    location:
+      lng: 11.4992303
+      lat: 48.0938751
+  address_components:
+    - types:
+        - street_number
+      short_name: 61A
+      long_name: 61A
+    - types:
+        - route
+      short_name: Forstenrieder Allee
+      long_name: Forstenrieder Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81476"
+      long_name: "81476"
+  international_phone_number: +49 89 23396000
+  place_id: ChIJOdnElhnZnUcRXYVSFu5lm1s
+  url: https://maps.google.com/?cid=6600981752092722525
+  username: www.buergerbuero-muenchen.de
+endDate: 1711670400000
+claimed: No
+description: |-
+  🔥 Bachata Underground by Anna 2nd edition
+
+  📅 Date:
+  March 28th, 2024
+  🎶 Music:
+  Best bachata by Dj Bubu
+
+  👨‍🎓 Workshop:
+  By Patricia y Stephan
+
+  💶 Entry:
+  Workshop 5€; Party 5€; Workshop & Party 10€
+
+  🕐 Time:
+  Workshop 8-9pm
+  Party 9pm until late 
+
+  🛣 Venue:
+  Forstenrieder Allee 61A
+  81476 Munich
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fe501abf3-8ae7-4585-a2d3-6a23a2fbd7ec?alt=media&token=37299f71-b2c1-4cec-95f4-54556fcd7c65
+createdAt: 1711456256236
+artists: []
+price: 5 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+eventType: Party
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Bachata Underground by Anna 2nd edition
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711648800000
+hash: 1711648800000+ChIJOdnElhnZnUcRXYVSFu5lm1s
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1RkwaKuUeQhSSJ4ZvU2O.png?generation=1711456279821714&alt=media
+artistsList: []
+instagram:
+  messageUrl: https://instagram.com/p/C4-kFgFuUGA
+  publishedAt: 1711456311442
+  messageId: C4-kFgFuUGA
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 17
+duration: 360
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Anna-Milite/pfbid0PNNhDFesL2MSZmD2niboREKvGQRzYv1dUgUkqiLbs5yd2aq2U47ozobSvYPmbt3Vl/
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+id: 1RkwaKuUeQhSSJ4ZvU2O
+updatedAt: 1717148418213

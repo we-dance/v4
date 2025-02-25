@@ -1,0 +1,115 @@
+venue:
+  formatted_address: Haager Str. 10, 81671 München, Germany
+  name: Haager Str. 10
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6093488302915
+      south: 48.1252525197085
+      north: 48.1279504802915
+      west: 11.6066508697085
+    location:
+      lng: 11.60795
+      lat: 48.12657
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Haager Str.
+      long_name: Haager Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  url: https://maps.google.com/?q=Haager+Str.+10,+81671+M%C3%BCnchen,+Germany&ftid=0x479ddf867694c475:0x2bca06f0b53880ab
+  place_id: ChIJdcSUdobfnUcRq4A4tfAGyis
+endDate: 2023-02-18T23:30
+claimed: No
+link: https://www.salsa-onstage.de/events/bachata-star-weekend/
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fi2WvdhYyzcPBrSLlqDBhrdWKiBz1%2Fb3b8147e-6ed9-42d4-8bcc-b13446086856?alt=media&token=8a9582c7-aa55-47df-8556-feebb7af6863
+duration: 60
+createdAt: 1675688283570
+artists:
+  - instagram: https://instagram.com/@juangarciaysara_bachata
+    username: "@juangarciaysara_bachata"
+artistsList:
+  - "@juangarciaysara_bachata"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1675688283570
+updatedBy: i2WvdhYyzcPBrSLlqDBhrdWKiBz1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsa OnStage
+  bio: ""
+  photo: ""
+  id: i2WvdhYyzcPBrSLlqDBhrdWKiBz1
+  instagram: ""
+  username: SalsaOnStage
+eventType: Workshop
+form: No
+createdBy: i2WvdhYyzcPBrSLlqDBhrdWKiBz1
+name: Bachata Star Weekeend  with Juan Garcia & Sara Aviles
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-17T19:00
+username: SalsaOnStage
+price: ""
+id: Z8gkGtZOYzQyQzK9jr0C
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZ8gkGtZOYzQyQzK9jr0C.png?generation=1676626144839032&alt=media
+telegram:
+  requestedAt: 1676626384343
+  messageUrl: https://t.me/WeDanceMunich/910
+  publishedAt: 1676626386910
+  messageId: 910
+  state: published
+instagram: {}
+watch:
+  count: 1
+  list:
+    SalsaOnStage: true
+viewsCount: 62

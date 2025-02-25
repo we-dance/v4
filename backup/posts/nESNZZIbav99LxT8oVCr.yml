@@ -1,0 +1,172 @@
+endDate: 1730426400000
+sourceUrl: https://www.facebook.com/events/1214301593178091/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1725484024000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725484024000
+facebookId: "1214301593178091"
+facebook: https://www.facebook.com/events/1214301593178091/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1214301593178091/
+eventType: Congress
+providerItemId: e1214301593178091@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 13th VIENNA CUBAN SALSA WEEKEND - YOYO FLOW & BILLIE
+location: Billie's Studio
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730415600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Capistrangasse 10, 1060 Wien, Austria
+  website: http://billiesstudio.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Billie's Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3559482197085
+        lat: 48.1989304697085
+      northeast:
+        lng: 16.35864618029151
+        lat: 48.2016284302915
+    location:
+      lng: 16.3573519
+      lat: 48.2003059
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Capistrangasse
+      long_name: Capistrangasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mariahilf
+      long_name: Mariahilf
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1060"
+      long_name: "1060"
+  place_id: ChIJ1XtL14MHbUcR4lhu-SALI7s
+  url: https://maps.google.com/?cid=13484633945529014498
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/billiesstudio
+  name: Billie's Studio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953782/usge2gczgseaj57yumxe.png
+  bio: ""
+  id: 5jW6gCaAbWO0r7ebEXGb
+  instagram: ""
+  username: billies.studio
+claimed: No
+link: ""
+description: >-
+  The guest of our 13th VIENNA CUBAN SALSA WEEKEND is
+
+  YOANDY Villaurrutia, also known as YOYO FLOW!
+
+
+  🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯
+
+
+  Born in Cuba he is also one of the shiniest stars of Cuban salsa. He is an exceptional dancer with an extreme amount of energy, creating salsa “new style” that he has been promoting in the last couple of years.
+
+  He received choreographic education, later engaged in well-known professional dance studio Tony Mendez, in Havana. Since the age of 19, he works as a dancer and choreographer in wide variety of creative projects. He's a constant participant and instructor in dance congresses and festivals worldwide.
+
+
+  DATE: 1. November 2024
+
+
+  PROGRAM: 
+
+  12h Salsa (Casino) Partnerwork
+
+  13h Timba Partnerwork
+
+  14h Break
+
+  15h Timba Fusion Partnerwork
+
+
+  PRICE:
+
+
+  Until 30.09.2024 Early bird
+
+  65 euro
+
+
+  1.10.2023 – 15.10.2024
+
+  70 euro
+
+
+  16.10.2024-1.11.2024
+
+  79 euro
+
+
+  Registration via:
+
+  billiesstudio.com/vienna-cuban-salsa-weekend/
+
+
+  Not to be missed!
+
+  See you there 🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯🔥💯
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417979/ghvjmxkomilpjcadrfjd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1730415600000+ChIJ1XtL14MHbUcR4lhu-SALI7s
+id: nESNZZIbav99LxT8oVCr

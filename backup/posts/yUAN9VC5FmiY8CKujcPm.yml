@@ -1,0 +1,117 @@
+venue:
+  website: http://www.riddimdanceschool.de/
+  formatted_address: Hohenzollernstraße 26, 80801 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "26"
+      short_name: "26"
+    - types:
+        - route
+      long_name: Hohenzollernstraße
+      short_name: Hohenzollernstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwabing-Freimann
+      short_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80801"
+      short_name: "80801"
+  url: https://maps.google.com/?cid=16661819762270327990
+  name: Riddim Danceschool
+  geometry:
+    viewport:
+      south: 48.1585629197085
+      north: 48.1612608802915
+      east: 11.5833383802915
+      west: 11.5806404197085
+    location:
+      lng: 11.5819989
+      lat: 48.1599786
+  place_id: ChIJDck5Osd1nkcRttS0scusOuc
+  international_phone_number: +49 89 33037072
+endDate:
+  _seconds: 1638392400
+  _nanoseconds: 0
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+claimed: Yes
+link: https://www.santana-dance.de/tanzen/salsa-muenchen/
+description: |-
+  - Duration: 1 month
+  - Requirements: 2G+ (with Schnelltest)
+  - Level: Beginner 1 (Next Level - Beginner 2)
+
+  [Read more](https://www.santana-dance.de/tanzen/salsa-muenchen/)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F59fe40ac-72cf-41bd-b3f1-cc2d90ea31f3?alt=media&token=38fa66de-e6dc-403a-a344-7a63b2cd7802
+duration: 60
+promo: ""
+createdAt: 1638196463067
+watchersCount: 0
+price: 58EUR (5 classes)
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyUAN9VC5FmiY8CKujcPm.png?generation=1638381448641088&alt=media
+commentsLast: ~
+promoter: alejito
+id: yUAN9VC5FmiY8CKujcPm
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+views: 6
+updatedAt: 1638196463067
+website: https://www.santana-dance.de/
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Course
+organiser: SantanaDance
+form: No
+createdBy: xgxAOYblh9g57C0vaT1XXTOHWzB2
+commentsCount: 0
+name: Salsa Cubana Beginner Course
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-01T20:00:00.000Z
+username: SantanaDance
+viewsCount: 55

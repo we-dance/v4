@@ -1,0 +1,226 @@
+createdAt: 1704822884205
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/262463922834312/
+source: facebook
+updatedAt: 1704822884205
+username: wedancebot
+venue:
+  formatted_address: Klausenberg 6, 86199 Augsburg, Germany
+  website: https://www.parktheater.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Parktheater im Kurhaus Göggingen
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.8687444197085
+        lat: 48.3403982197085
+      northeast:
+        lng: 10.8714423802915
+        lat: 48.3430961802915
+    location:
+      lng: 10.8704081
+      lat: 48.3412854
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Klausenberg
+      long_name: Klausenberg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Göggingen
+      long_name: Göggingen
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86199"
+      long_name: "86199"
+  international_phone_number: +49 821 9062222
+  place_id: ChIJSantxJSinkcRivTx4_w7P_Q
+  url: https://maps.google.com/?cid=17599851826129269898
+visibility: Public
+endDate: 1714860000000
+org:
+  owner: ""
+  importedAt: 1704822890699
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SFAimParktheaterAugsburg
+  photo: https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/274707118_5312259135451880_7678871747962005227_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=596444&_nc_ohc=H-h2yrY-lfIAX8sjUNm&_nc_ht=scontent-dfw5-1.xx&oh=00_AfCWKnKW2Q_B6eIKJ6bVuXhuP-H-KqAZZV7TC8CqW1d30w&oe=65A26A73
+  source: facebook
+  type: Organiser
+  createdAt: 1704822890699
+  owned: false
+  name: Salsafestival Augsburg im Parktheater
+  place: ChIJKSshOsWinkcRoOeL161IHgQ
+  updatedAt: 1704822890699
+  username: SFAimParktheaterAugsburg
+claimed: No
+facebookId: "262463922834312"
+link: http://www.salsafestival-augsburg.de/
+description: >-
+  13.SALSAFESTIVAL  AUGSBURG 2024
+
+
+  Das Tanzen bringt Menschen zusammen und verbindet die Generationen. Durch unser Salsa-Bachata-Kizomba Festival 2024 wollen wir unseren eigenen Teil dazu beitragen – als Geschenk an die Gemeinschaft und als Ausdruck der Individualität jedes Einzelnen von uns.
+
+  Besuchen Sie unsere Workshops und Partys und lassen Sie sich von den Künstlern verzaubern. Wir versprechen Ihnen ein unvergessliches Wochenende!
+
+  Bereits jetzt haben die ersten Künstler, Tänzer und Tänzerinnen sowie DJs ihre Einladungen bestätigt. Nun sind Sie an der Reihe sich ihre Teilnahme zu sichern.
+
+
+  Die Tickets für Bayerns größtes SALSA-BACHATA-KIZOMBA FESTIVAL sind immer sehr begehrt. 
+
+
+  Sichern Sie sich deshalb schon ab 
+
+  1. September 2023 Ihre Tickets für das SALSAFESTIVAL AUGSBURG 2024 zu Vorverkaufspreisen!
+
+
+  Join us again in 2024 for the best SALSA-BACHATA-KIZOMBA 
+
+  FESTIVAL AUGSBURG!
+
+  See you soon!
+
+
+  www.salsafestival-augsburg.de
+
+  www.salsafestival-augsburg.com
+
+
+  LINE-UP 2024:
+
+
+  Adrian Rodriguez (Spain)
+
+  Anita Santos Rubin (Brazil)
+
+  Super Mario (UK)
+
+  Nuno Pesqueira (Portugal)
+
+  Nagyla Galvao (Brazil)
+
+  Azael & Sindi (Lithuania)
+
+  Nikita & Klau (Poland)
+
+  Nuno Silva (Spain)
+
+  Sarai Navalon (Spain)
+
+  Cézar & Kerstin (Peru/Germany)
+
+  Felipe & Christina (Germany)
+
+  Fajul Alagie (Gambia)
+
+  Pablo & Silvina (Germany)
+
+  Laura Del Vecchio (Germany)
+
+  Gianni & Yulia (Germany)
+
+  Salsa Onstage (Germany)
+
+  Salsamàs (Germany)
+
+  Jeanine & Jairo Bravo (Mexico)
+
+  Salsa Energy (Germany)
+
+  Claudia La Danse (Germany)
+
+  Erland Weber (Germany)
+
+  Melita Siomos (UK)
+
+  More soon.....!
+
+
+  TOP DJS
+
+
+  DJ René (Austria)
+
+  DJ Saber(Germany)
+
+  DJ Raul Torres (Colombia)
+
+  DJ Norb (Germany)
+
+  DJ Tomquez (Germany)
+
+  DJ Carlos Cigarro (Austria)
+
+  DJ Mixmillion (Germany)
+
+  DJ Rob (Germany)
+
+  and many more soon…
+
+   Coming soon......
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 13.Salsafestival Augsburg 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+international: No
+hash: 1714755600000+ChIJSantxJSinkcRivTx4_w7P_Q
+startDate: 1714755600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FecDXMY2PLdgFrDqjYoXz.png?generation=1704822916186923&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853401/uikx2ijagirlvjzeocuk.jpg
+viewsCount: 18
+id: ecDXMY2PLdgFrDqjYoXz

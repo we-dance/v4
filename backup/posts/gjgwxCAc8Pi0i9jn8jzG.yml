@@ -1,0 +1,124 @@
+importedAt: 1709722542057
+providerUpdatedAt: 1709287470000
+endDate: 1710021600000
+facebookId: "1509573839888952"
+facebook: https://www.facebook.com/events/1509573839888952/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1509573839888952/
+eventType: Party
+createdAt: 1709722542057
+providerItemId: e1509573839888952@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: qiHxHgMUqIaEu4hENzOW
+name: "Bachata Flavors 3rd Edition "
+location: Ludwig Erhard Straße
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1709287262000
+startDate: 1710010800000
+facebookUrlsCount: 1
+updatedAt: 1709722542057
+username: alexrazbakov
+venue:
+  formatted_address: Ludwig-Erhard-Straße, 84034 Landshut, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Ludwig-Erhard-Straße
+  geometry:
+    viewport:
+      southwest:
+        lng: 12.1002672197085
+        lat: 48.5385546197085
+      northeast:
+        lng: 12.1029651802915
+        lat: 48.5412525802915
+    location:
+      lng: 12.1016162
+      lat: 48.5399036
+  address_components:
+    - types:
+        - route
+      short_name: Ludwig-Erhard-Straße
+      long_name: Ludwig-Erhard-Straße
+    - types:
+        - locality
+        - political
+      short_name: LA
+      long_name: Landshut
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Landshut
+      long_name: Kreisfreie Stadt Landshut
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Niederbayern
+      long_name: Niederbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "84034"
+      long_name: "84034"
+  place_id: ChIJG0eXD6QlnkcRCl7f5SEzqDI
+  url: https://maps.google.com/?q=Ludwig-Erhard-Stra%C3%9Fe,+84034+Landshut,+Germany&ftid=0x479e25a40f97471b:0x32a83321e5df5e0a
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.flavors
+  name: Bachata Flavors
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954028/vksywjjk0beiyxhkg8ik.jpg
+  bio: ""
+  id: U73WRd7kQaZQSTUZScWA
+  instagram: ""
+  username: bachata.flavors
+claimed: No
+link: ""
+description: |-
+  Dear Bachater@s,
+
+  Bachata Flavors is excited to present 3rd Edition of 2024 on 09 March 2024
+
+  ➡️ At 8.30 PM Bachata Open Level Class with Mazen & Lea
+
+  ➡️ At 10 PM Social Dance Party with Bachata Music by DJ Naandi 🎼
+
+  🔥 Venue 🔥
+  ⭐️ Tango Chocolate: Ludwig-Erhard-Str.18,            Hamburg
+  ❣️ Entry : 10€ incl. workshop ❣️
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709722555/dqbq8sw7gjblas60p5qx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJe9zDlQcmnkcRIK83CaQlHQQ
+international: No
+hash: 1710010800000+ChIJG0eXD6QlnkcRCl7f5SEzqDI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgjgwxCAc8Pi0i9jn8jzG.png?generation=1709722570612387&alt=media
+id: gjgwxCAc8Pi0i9jn8jzG

@@ -1,0 +1,139 @@
+endDate: 1726200000000
+sourceUrl: https://facebook.com/events/s/coconut-salsa-thursdays/8232423203516268/
+createdAt: 1726063248448
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1725998512000
+updatedAt: 1726063248448
+importedAt: 1726063248448
+providerUpdatedAt: 1725998512000
+facebookId: "8232423203516268"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/coconut-salsa-thursdays/8232423203516268/
+eventType: Party
+providerItemId: cgs64oph75hmcbb670pjib9k70s30b9pcor3gb9k6go68p9m6koj6c9p6k@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Coconut Salsa Thursdays
+location: Coconut Beach Tacos & Cerveza
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726185600000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 2787 S Floyd St, Louisville, KY 40209, USA
+  website: http://facebook.com/CoconutbeachtacosandCerveza
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Coconut Beach
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.7576332302915
+        lat: 38.20483456970851
+      northeast:
+        lng: -85.75493526970848
+        lat: 38.2075325302915
+    location:
+      lng: -85.7562167
+      lat: 38.2062846
+  address_components:
+    - types:
+        - street_number
+      short_name: "2787"
+      long_name: "2787"
+    - types:
+        - route
+      short_name: S Floyd St
+      long_name: South Floyd Street
+    - types:
+        - neighborhood
+        - political
+      short_name: University
+      long_name: University
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40209"
+      long_name: "40209"
+    - types:
+        - postal_code_suffix
+      short_name: "1817"
+      long_name: "1817"
+  place_id: ChIJDZukeHANaYgR6ho3Bxal3eI
+  url: https://maps.google.com/?cid=16347403736453683946
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/merakidanceky
+  name: Meraki Dance Company
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717855233/epoy57mgeihbzt0xtjbe.jpg
+  bio: ""
+  id: abUZtKeP883FXYkmO4Ue
+  instagram: ""
+  username: merakidanceky
+claimed: No
+facebook: https://www.facebook.com/events/8232423203516268/
+link: ""
+description: |-
+  Your weekly Salsa/Bachata Home!
+
+  Lessons with Meraki Dance Company's Chelsey Owen
+
+  -----
+  Lessons:
+  8:15pm All Level Bachata
+  9:00 Beginner Salsa
+
+  -----
+  Music by:
+  DJ Frank & DJ Rico Suave 
+  9:30pm-12:00am Open Dancing
+  -----
+  Cover Charge: $10
+  Every Thursday night
+  Doors Open at 8pm
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726063258/whqz6n3vlidtifjsfmeu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJpcReaGYNaYgRU4n5sTByKDY
+international: No
+hash: 1726185600000+ChIJDZukeHANaYgR6ho3Bxal3eI
+id: epNQ1E0u4VAUbFXd0HIi

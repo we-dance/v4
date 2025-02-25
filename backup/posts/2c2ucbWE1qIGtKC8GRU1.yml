@@ -1,0 +1,245 @@
+endDate: 1726419600000
+claimed: No
+program: []
+instagram: {}
+type: event
+bookmarks: 20
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F325fd7e2-391d-4955-a021-adaa5c3f9fe1?alt=media&token=cba2f222-d0ee-46e2-be97-1b449f4a18cf
+createdAt: 1726315758679
+checkin:
+  count: 0
+  list: {}
+review: https://g.page/r/Ca_iCf0z9dH3EBM/review
+price: pay as you wish
+socialCover: ""
+id: 2c2ucbWE1qIGtKC8GRU1
+international: No
+gallery: https://photos.app.goo.gl/Tk9eXGkXHENnebJU6
+updatedAt: 1726315758679
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+facebookId: ""
+upVotes: 0
+eventType: Workshop
+confirmation: |-
+  You are on the guest list, see you at the event!
+
+  Join our [WhatsApp group](https://chat.whatsapp.com/JpnlQPyNaEbGxMb2u1A2EG)
+promotionError: ""
+venueProfile:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Buena Vista Bar
+  bio: Latino Restaurant München
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+  id: JEkADfAnw9nk7VIcgE5P
+  instagram: https://www.instagram.com/buenavistabar_oficial/
+  username: buena_vista_bar_munich
+name: Kizomba From Zero
+styles:
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Beginner
+    highlighted: false
+    selected: true
+hash: 1725811200000+ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+startDate: 1726416000000
+venue:
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  website: http://buena-vista-bar.de/
+  name: Buena Vista Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  international_phone_number: +49 89 26022811
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  url: https://maps.google.com/?cid=10819607444887102927
+  username: buena_vista_bar_munich
+description: >-
+  Kizomba is a traditional dance from Angola. They danced it at weddings.
+  Kizomba developed further in Portugal and later came to France where it
+  transformed to Urban Kiz. 
+
+
+  In our beginner class we will be starting with traditional kizomba and adding a few elements from urban kiz, as it's my favorite style.
+commentDoc:
+  createdAt: 1719764136089
+  updatedBy: yeW30cmR6hbaUIkM155R5sqheH43
+  createdBy: yeW30cmR6hbaUIkM155R5sqheH43
+  commentId: ""
+  postId: XgdUyvGPirhQ1Mp7drp7
+  id: xQfJalE2uLQeCGbb3hbs
+  body: Is there class today at Pinakothek?
+  updatedAt: 1719764136089
+  username: Pracht
+downVotes: 0
+promo: ""
+duration: 60
+playlist: https://open.spotify.com/playlist/39cUmntXWDEHFjqGmwGU8k?si=db34ec93a54d4b01&pt=445e9b025a84b5ed2b99f1a52f9164f9
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    bio: WeDance Ambassador in Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    instagram: https://instagram.com/alexrazbakov
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    username: alexrazbakov
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Celeste
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FugduS2KIFpfN0LpHggYowXoHYsA2%2F6a0e8b86-2ca6-4a9d-8161-a8fbe2e7d21b?alt=media&token=e415d3c4-a37b-468b-87ad-9281c4f726f1
+    bio: ""
+    id: ugduS2KIFpfN0LpHggYowXoHYsA2
+    instagram: https://www.instagram.com/celestemedina?igsh=MWJhOGJkNXo0dHA1aQ%3D%3D&utm_source=qr
+    username: celestemedina
+commentsLast:
+  createdAt: 1676727633768
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: LXApW1gu5g65mkAHYMCW
+  body: Yay! Sunday! Can't wait!
+  updatedAt: 1676727633768
+  username: alexrazbakov
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - alexrazbakov
+  - celestemedina
+paypal: https://paypal.me/razbakov
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MontunoClub
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  instagram: https://instagram.com/MontunoClub
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  username: MontunoClub
+telegram: {}
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+username: alexrazbakov
+promotion: ""
+star:
+  list: {}
+  count: 5
+  usernames:
+    - YanaY
+    - HannaStree
+    - najwan
+    - Rune
+    - AlexandraDiana6
+  history:
+    - username: YanaY
+      date: 1726316367752
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: MoxF2sT1LCWwLULES8d6lt1wq0k2
+      action: joined
+    - username: HannaStree
+      date: 1726316922819
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: rRh2Dh6kaOR3a4Fm8WVB0VYSqrm2
+      action: joined
+    - username: Tatevik
+      date: 1726318917068
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: bM54fX5rpyLdQrxGlA7TJZm4kta2
+      action: joined
+    - username: najwan
+      date: 1726399721058
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: VhtuVjRWR9enNn81zwB7Oyorh6r2
+      action: joined
+    - username: Tatevik
+      date: 1726409203592
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: bM54fX5rpyLdQrxGlA7TJZm4kta2
+      action: left
+    - username: Rune
+      date: 1726411214903
+      invitedBy: ""
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: Rune
+      date: 1726411217926
+      invitedBy: ""
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: left
+    - username: Rune
+      date: 1726411219925
+      invitedBy: ""
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: AlexandraDiana6
+      date: 1726411359435
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: ffTZv6BcacfHyj5kLYNpaloq5412
+      action: joined
+viewsCount: 21

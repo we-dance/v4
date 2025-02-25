@@ -1,0 +1,159 @@
+venue:
+  formatted_address: Sörnäisten rantatie 33C, 00500 Helsinki, Finland
+  website: http://www.helsinkidancecentral.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Helsinki Dance Central
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 24.9700787802915
+      south: 60.1864653697085
+      north: 60.18916333029151
+      west: 24.9673808197085
+    location:
+      lng: 24.9693195
+      lat: 60.1876508
+  address_components:
+    - types:
+        - street_number
+      short_name: 33C
+      long_name: 33C
+    - types:
+        - route
+      short_name: Sörnäisten rantatie
+      long_name: Sörnäisten rantatie
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00500"
+      long_name: "00500"
+  international_phone_number: +358 50 3312004
+  place_id: ChIJMzNzknsJkkYR4IhndvLokgk
+  url: https://maps.google.com/?cid=689869821007333600
+endDate: 2023-06-18T23:30
+claimed: No
+link: https://www.helsinkidancecentral.com/courses-events/helsinki-zouk-festival
+description: >-
+  Get ready for The Helsinki Zouk Festival 2023!
+
+
+  We’re so excited to celebrate 10 years anniversary of our beloved Helsinki Zouk Festival and have all our amazing team of artists, coming from different places in the world, just to share their knowledge with all of you here in Helsinki!
+
+  As always, we’ll be making sure to bring all the best you can have in both, knowledge content and a fun atmosphere so we can all have an unforgettable time together, as usual, doing what we love the most, dancing a lot of Brazilian Zouk!
+
+
+  Don’t miss the PRE PARTY on Thursday at 15.06.2023
+
+
+  Line up:
+
+
+  – William & Irene (BRA/SPA)
+
+  – Felipe & Bruna (BRA)
+
+  – Freddy & Andressa (BRA/FIN)
+
+  – Val & Vanessa (BRA)
+
+  – Carlos & Fernanda (BRA/CZE)
+
+  - Jukka & Sonja (FIN)
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Fe3418fab-28cc-4219-92ad-5681845105e9?alt=media&token=e4599779-941c-4102-90a9-39287ca91b86
+createdAt: 1682438247483
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "@williamandirene_dancers"
+    photo: ""
+    bio: ""
+    id: tcoIuLlNhrAocrAJPFGY
+    instagram: https://instagram.com/@williamandirene_dancers
+    username: "@williamandirene_dancers"
+  - instagram: https://instagram.com/felipeandbruna
+    username: felipeandbruna
+  - instagram: https://instagram.com/freddyandandressa
+    username: freddyandandressa
+  - instagram: https://instagram.com/valvanessa
+    username: valvanessa
+  - instagram: https://instagram.com/carlosandfernanda
+    username: carlosandfernanda
+  - instagram: https://instagram.com/jukkaandsonja
+    username: jukkaandsonja
+price: 145 - 675 EUR
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+artistsList:
+  - "@williamandirene_dancers"
+  - felipeandbruna
+  - freddyandandressa
+  - valvanessa
+  - carlosandfernanda
+  - jukkaandsonja
+international: Yes
+updatedAt: 1682438247483
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  facebook: https://facebook.com/helsinkidancecentral
+  username: helsinkidancecentral
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Helsinki Zouk Festival 2023 - 10 Years Anniversary
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-16T12:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FaypE8Tuji7ydXrFWUQxE.png?generation=1685303418891594&alt=media
+star:
+  count: 1
+  usernames:
+    - patrickLiXiagLi
+  list:
+    patrickLiXiagLi: true
+viewsCount: 52
+id: aypE8Tuji7ydXrFWUQxE

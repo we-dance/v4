@@ -1,0 +1,99 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732326979510
+updatedAt: 1732326979510
+importedAt: 1732326979510
+providerId: goandance
+providerItemId: "7582"
+name: LO’ TARDEO DEL MENEO
+description: Sin descripción
+sourceUrl: https://www.goandance.com/es/e/7582?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7582?promoter=WEDANCE123
+type: event
+startDate: 1732464000000
+endDate: 1732478400000
+tickets:
+  - name: Taller + social + refresco
+    description: ""
+    priceValidUntil:
+      _seconds: 1732388400
+      _nanoseconds: 0
+    discount: 0
+    price: 10
+    comission: 0.79
+    originalPrice: 10
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7582-lo-tardeo-del-meneo?&promoter=WEDANCE123
+  - name: Taller + social + refresco
+    description: ""
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 12
+    comission: 0.79
+    originalPrice: 12
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7582-lo-tardeo-del-meneo?&promoter=WEDANCE123
+eventType: Party
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732326981/e5huqsruzoodo64tijro.jpg
+venue:
+  address_components:
+    - long_name: "3"
+      short_name: "3"
+      types:
+        - street_number
+    - long_name: Moll Portuaria
+      short_name: Moll Portuaria
+      types:
+        - route
+    - long_name: La Ràpita
+      short_name: La Ràpita
+      types:
+        - locality
+        - political
+    - long_name: Tarragona
+      short_name: T
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Catalunya
+      short_name: CT
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "43540"
+      short_name: "43540"
+      types:
+        - postal_code
+  formatted_address: Moll Portuaria, 3, 43540 La Ràpita, Tarragona, Spain
+  geometry:
+    location:
+      lat: 40.6174216
+      lng: 0.595388
+    viewport:
+      northeast:
+        lat: 40.61869748029149
+        lng: 0.596163430291502
+      southwest:
+        lat: 40.6159995197085
+        lng: 0.5934654697084979
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Lo Cafè del Port
+  place_id: ChIJ9ZsGN0lVoBIRjHZXaUMlnDE
+  url: https://maps.google.com/?cid=3574773175685707404
+place: ChIJpUVO7khVoBIRhLZOdd7Usds
+price: 10 EUR
+styles: {}
+watch:
+  usernames: []
+  count: 0
+hash: 1732464000000+ChIJ9ZsGN0lVoBIRjHZXaUMlnDE
+org: ""
+id: 2oihKczOcJHGHRiAuE4y

@@ -1,0 +1,249 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327094019
+updatedAt: 1732327094019
+importedAt: 1732327094019
+providerId: goandance
+providerItemId: "7236"
+name: SBKFever Coimbra 2025
+description: >-
+  ¡Hola encantado de conocerte! Del 11 al 13 de abril de 2025, podrás bailar en
+  una de las ciudades más emblemáticas de Portugal, ¡la preciosa Coimbra!
+
+
+  📅 11 al 13 de Abril de 2025
+
+
+  Sería un evento con una energía contagiosa, ¡que no podrás parar de bailar!
+
+
+  🏢 En un gran lugar llamado Cuevas de Coimbra, grandes y hermosos espacios.
+
+
+  Este evento fue diseñado y organizado por el Dúo Tiago & Ana Rita, formados e investidos en Bachata Sensual con las mayores referencias mundiales.
+
+
+  El evento durará de viernes a domingo, donde tendrá la oportunidad de aprender de los mejores artistas de Portugal y España, en todos los estilos: Bachata, Kizomba y Salsa.
+
+
+  26 horas de formación de Calidad, Fiestas Sociales, Shows y por supuesto el mejor ambiente que contigo vamos a construir, para que juntos podamos hacer de SBKFever Coimbra una experiencia única en el Centro de Portugal.
+
+
+  Más información en las Redes Sociales oficiales:
+
+
+  https://www.instagram.com/sbkfeverc
+
+
+  https://www.facebook.com/profile.php?id=61561671804716
+
+
+  #sbkfevercoimbra
+sourceUrl: https://www.goandance.com/es/e/7236?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7236?promoter=WEDANCE123
+type: event
+startDate: 1744390800000
+endDate: 1744567200000
+tickets:
+  - name: FULL PASS 3 DIAS
+    description: |-
+      TODOS OS WORKSHOPS INCLUÍDOS 
+      TODAS AS FESTAS SOCIAIS INCLUÍDAS
+    priceValidUntil:
+      _seconds: 1735685700
+      _nanoseconds: 0
+    discount: 10
+    price: 40
+    comission: 3.93
+    originalPrice: 50
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: FULL PASS 3 DIAS
+    description: |-
+      TODOS OS WORKSHOPS INCLUÍDOS 
+      TODAS AS FESTAS SOCIAIS INCLUÍDAS
+    priceValidUntil:
+      _seconds: 1744300800
+      _nanoseconds: 0
+    discount: 12
+    price: 48
+    comission: 3.93
+    originalPrice: 60
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: FULLPASS 3 DAYS - LEADER (LÍDER)
+    description: |-
+      ALL WORKSHOPS INCLUDED
+      ALL SOCIAL PARTIES INCLUDED 
+      TODOS OS WORKSHOPS INCLUÍDOS 
+      TODOS OS SOCIAIS INCLUÍDOS
+    priceValidUntil:
+      _seconds: 1735682100
+      _nanoseconds: 0
+    discount: 10
+    price: 40
+    comission: 3.93
+    originalPrice: 50
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: FULLPASS 3 DAYS - LEADER (LÍDER)
+    description: |-
+      ALL WORKSHOPS INCLUDED
+      ALL SOCIAL PARTIES INCLUDED 
+      TODOS OS WORKSHOPS INCLUÍDOS 
+      TODOS OS SOCIAIS INCLUÍDOS
+    priceValidUntil:
+      _seconds: 1744300800
+      _nanoseconds: 0
+    discount: 12
+    price: 48
+    comission: 3.93
+    originalPrice: 60
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: SÓ FESTA SOCIAL SEXTA-FEIRA + 2 WORKSHOPS ABERTOS (11/4/2025)
+    description: |-
+      ENTRADA PARA:
+      FESTA SOCIAL SEXTA-FEIRA + SHOWS (11/4/2025) INCLUÍDOS
+      2 WORKSHOPS ABERTOS INCLUÍDOS (11/4/2025)
+    priceValidUntil:
+      _seconds: 1744563600
+      _nanoseconds: 0
+    discount: 0
+    price: 20
+    comission: 3.93
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: SÓ FESTA SOCIAL SÁBADO (12/4/2025)
+    description: ENTRADA FESTA SOCIAL SÁBADO INCLUÍDA + SHOWS (12/4/2025)
+    priceValidUntil:
+      _seconds: 1744563600
+      _nanoseconds: 0
+    discount: 0
+    price: 20
+    comission: 3.93
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: SÓ FESTA SOCIAL SUNSET (13/4/2025)
+    description: ENTRADA PARA FESTA SOCIAL SUNSET (13/4/2025)
+    priceValidUntil:
+      _seconds: 1744563600
+      _nanoseconds: 0
+    discount: 0
+    price: 15
+    comission: 3.93
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: ONE DAY PASS ( SATURDAY) 12 April 2025
+    description: >-
+      DAY PASS FOR SATURDAY INCLUDED: ALL SATURDAY WORKSHOPS + SHOWS SATURDAY+
+      SOCIAL SBK SATURDAY
+
+      PASS DIÁRIO PARA SÁBADO INCLUI: TODOS OS WORKSHOPS DE SÁBADO + SHOWS SÁBADO...  + SOCIAL SBK SÁBADO
+    priceValidUntil:
+      _seconds: 1744563600
+      _nanoseconds: 0
+    discount: 0
+    price: 40
+    comission: 3.93
+    originalPrice: 40
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+  - name: ONE DAY PASS (SUNDAY) 13 April 2025
+    description: >-
+      DAY PASS FOR SUNDAY INCLUDED: ALL SUNDAY WORKSHOPS + SOCIAL SBK SUNDAY
+
+      PASS DIÁRIO PARA DOMINGO INCLUI: TODOS OS WORKSHOPS DE DOMINGO + SOCIAL SBK DOMINGO
+    priceValidUntil:
+      _seconds: 1744563600
+      _nanoseconds: 0
+    discount: 0
+    price: 30
+    comission: 3.93
+    originalPrice: 30
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7236-sbkfever-coimbra-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327094/mnrinjldiau6bwl0jysd.jpg
+venue:
+  address_components:
+    - long_name: nº 24
+      short_name: nº 24
+      types:
+        - street_number
+    - long_name: Rua das Areias
+      short_name: R. das Areias
+      types:
+        - route
+    - long_name: Coimbra
+      short_name: Coimbra
+      types:
+        - locality
+        - political
+    - long_name: União das freguesias de Trouxemil e Torre de Vilela
+      short_name: União das freguesias de Trouxemil e Torre de Vilela
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Coimbra
+      short_name: Coimbra
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Coimbra
+      short_name: Coimbra
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Portugal
+      short_name: PT
+      types:
+        - country
+        - political
+    - long_name: 3025-137
+      short_name: 3025-137
+      types:
+        - postal_code
+  formatted_address: R. das Areias nº 24, 3025-137 Coimbra, Portugal
+  geometry:
+    location:
+      lat: 40.27275709999999
+      lng: -8.4462264
+    viewport:
+      northeast:
+        lat: 40.27421058029149
+        lng: -8.444897469708499
+      southwest:
+        lat: 40.2715126197085
+        lng: -8.447595430291504
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +351 964 000 200
+  name: Caves da Coimbra
+  place_id: ChIJvSfcTgP_Ig0RQcbTXS1BGr0
+  url: https://maps.google.com/?cid=13626275285666350657
+  website: http://cavesdecoimbra.pt/
+place: ChIJbdGsShT5Ig0RuaZCe0dkRWM
+price: 40 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1744390800000+ChIJvSfcTgP_Ig0RQcbTXS1BGr0
+org: ""
+id: F70teeGMazZmhng77NQc

@@ -1,0 +1,67 @@
+community: Munich
+createdAt: 1602791235628
+createdBy: ckH2SsWOh9NfXreJZq9lLyEsRWt1
+name: Maria
+username: Maria
+gender: Female
+step: photo
+partner: Yes
+skills: Salsa, Merengue, Bachata, Belly dance - all intermediate level
+newsletter:
+  workshop: true
+  class: true
+  party: true
+teacher: No
+languages: english, german, chinese
+weight: "59"
+location:
+  country: Germany
+  locality: Munich
+  label: Munich
+height: "168"
+story: Von klein auf habe ich gerne getanzt. Ich liebe tanzen. Dance is energy!
+styles:
+  BellyDance:
+    level: Interested
+    selected: true
+  Merengue:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  ForroLove:
+    level: Interested
+    selected: true
+  Reggaeton:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+bio: |-
+  Von klein auf habe ich gerne getanzt. Ich liebe tanzen. 
+  Dance is energy!
+partnerBio: He is a great dancer and a good friend!
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+visibility: Members
+locales:
+  de: true
+  en: true
+  zh: true
+language: de
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+pwaUsed: false
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1623482761953
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FckH2SsWOh9NfXreJZq9lLyEsRWt1%2F85d9254e-9fc9-49d8-abf2-ce53d4d5bc73?alt=media&token=3a739a62-5f51-46ac-94d5-97208c1d18f3
+permission: No
+objectives: {}
+contacts: ""
+lastLoginAt: 1643806054787
+daysUsed: 42
+viewsCount: 3
+id: ckH2SsWOh9NfXreJZq9lLyEsRWt1

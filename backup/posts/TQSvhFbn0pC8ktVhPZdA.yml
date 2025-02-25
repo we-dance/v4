@@ -1,0 +1,139 @@
+createdAt: 1705183857389
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+username: Aina
+venue:
+  formatted_address: Adenauerallee 3, 20097 Hamburg, Germany
+  website: https://www.latin-dance-academy.de/la-macumba/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: La Macumba - The Real Latin Club im Herzen Hamburgs
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.0100134697085
+        lat: 53.5511975197085
+      northeast:
+        lng: 10.0127114302915
+        lat: 53.5538954802915
+    location:
+      lng: 10.0113559
+      lat: 53.5525805
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Adenauerallee
+      long_name: Adenauerallee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20097"
+      long_name: "20097"
+  international_phone_number: +49 176 75485414
+  place_id: ChIJF8WdjOaOsUcRScDez4VMmEE
+  url: https://maps.google.com/?cid=4726611946527178825
+endDate: 1705194000000
+claimed: No
+link: ""
+description: >-
+  *MI SALSA*
+
+  🔥🔥🔥🔥
+
+  *** Das La Macumba - seit mehr als 22 Jahren die Latino Location No.1 in Deutschlands Norden.
+
+  ➡️ Ab 22 Uhr Social Dance im 2 Sälen SALSA - BACHATA
+
+  🍹Ein tolles Angebot an karibischen Cocktails und Getränken runden diesen perfekten Salsa - Bachata - Kizomba Abend ab.
+
+  ➡️ Eintritt 10€ (Eintritt FREI für Studenten).
+
+  ➡️ Location: La Macumba - Adenauerallee 3 - 20097 Hamburg
+
+  (directly at Hamburg Central Station) 
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/367052729345979/
+facebookId: "367052729345979"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Mi Salsa - Eintritt Frei für Studenten
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1705179600000+ChIJF8WdjOaOsUcRScDez4VMmEE
+startDate: 1705179600000
+org:
+  owner: ""
+  importedAt: 1705183862923
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0bCSBAb6aYVff1kRf9TuGim4WkTCPNHXijMng42qxSbDm5n9bjSJ3G6ZmdiSAonTol
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-1/72067938_1627607417381970_179463842663759872_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=105&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=w_CgfzMYZkIAX98VdNl&_nc_ht=scontent-atl3-2.xx&oh=00_AfDHd5RfzuciPLaOI62ZiIdafaP7hXUTOJtRfO3xR19sRg&oe=65CA93F7
+  source: facebook
+  type: Organiser
+  createdAt: 1705183862923
+  owned: false
+  name: Timba Ton
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1705183862923
+  username: timba.ton
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTQSvhFbn0pC8ktVhPZdA.png?generation=1705183878135947&alt=media
+viewsCount: 2
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3f3aeeff-ec2b-40f6-b361-66f2454ab8de?alt=media&token=4be90953-b17d-42a0-a534-0849a8765f26
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artistsList: []
+id: TQSvhFbn0pC8ktVhPZdA
+updatedAt: 1705959852978

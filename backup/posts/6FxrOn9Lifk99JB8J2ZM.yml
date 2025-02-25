@@ -1,0 +1,140 @@
+endDate: 1718827200000
+sourceUrl: https://www.facebook.com/events/3622853604636324/
+createdAt: 1718373634033
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1715936507000
+updatedAt: 1718373634033
+importedAt: 1718373634033
+providerUpdatedAt: 1716910688000
+facebookId: "3622853604636324"
+facebook: https://www.facebook.com/events/3622853604636324/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3622853604636324/
+eventType: Party
+providerItemId: e3622853604636324@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Salsa Salsa + Suntrip live at loophole "
+location: Loophole Berlin
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718816400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Boddinstraße 60, 12053 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Loophole
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4315876197085
+        lat: 52.47939281970851
+      northeast:
+        lng: 13.4342855802915
+        lat: 52.4820907802915
+    location:
+      lng: 13.4329532
+      lat: 52.4806977
+  address_components:
+    - types:
+        - street_number
+      short_name: "60"
+      long_name: "60"
+    - types:
+        - route
+      short_name: Boddinstraße
+      long_name: Boddinstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Neukölln
+      long_name: Bezirk Neukölln
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "12053"
+      long_name: "12053"
+  place_id: ChIJtZyCUrtPqEcRxyukrhSw0CY
+  url: https://maps.google.com/?cid=2796928971472907207
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718373674627
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0Y5ZQKMw2BvTGzSYjwEkynjxyazTFVrDgoTd6NkrhHzL6j6pFcQY2kti84e4TvCa3l
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718373674/v2wmz0ry3ktcwfz1ogsu.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718373674627
+  owned: false
+  name: Asim Niroula
+  place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+  updatedAt: 1718373674627
+  username: asim.niroula
+claimed: No
+link: ""
+description: >-
+  Suntrip:
+
+  Established in Berlin, in  2022, Suntrip is a psych rock quartet with diverse roots in psychedelic, kraut, space, and stoner/doom. These elements often come together to create unique atmospheric tunes that often take both the band, and the listeners on a journey unexpected. 
+
+
+  http://suntrip-berlin.bandcamp.com/
+
+  https://www.instagram.com/suntrip.berlin/
+
+  https://open.spotify.com/artist/3cdY6YzqtHT6afiZE7xyaC?si=E_OyWuO3Qt6bmRwIgcpj8A
+
+
+  Salsa Salsa 
+
+
+  Salsa Salsa emerge in the scoorching streets of santiago , chile , like thunder on a summer night. in the heat of garage rock, this band was born from sweat and the desire for raw expression. its members,fallen angels of the underground , came together in a dance of distorted chords and frenetic rhythms, turning the citys decay into sonic poetry. whit each chord , salsa salsa roared against monotony,distilling the essence of urban life into a symphony of rebellion and unrestrained passion
+
+
+  https://open.spotify.com/intl-de/album/5F80XA7gXPcw5yFFnaUhgM?si=taqZRRYWQAimo1TrM0lxQw&nd=1&dlsi=ebc09c7cbbcf4069
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718373676/ntunaw0gessow4pgzptp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1718816400000+ChIJtZyCUrtPqEcRxyukrhSw0CY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6FxrOn9Lifk99JB8J2ZM.png?generation=1718373689461937&alt=media
+viewsCount: 1
+id: 6FxrOn9Lifk99JB8J2ZM

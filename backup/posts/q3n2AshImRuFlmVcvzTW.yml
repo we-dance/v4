@@ -1,0 +1,110 @@
+endDate: 1721519999000
+sourceUrl: https://www.facebook.com/events/505121525323707
+createdAt: 1721224833312
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1721149520000
+updatedAt: 1721224833312
+importedAt: 1721224833312
+providerUpdatedAt: 1721149520000
+facebookId: "505121525323707"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/505121525323707
+eventType: Party
+providerItemId: 47484-1721433600-1721519999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Lapos Beach Szeged, Alsókikötő sor 1., Szeged, 6726, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721433600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Szeged, Hungary
+  website: http://szeged.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Szeged
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.97234004325152
+        lat: 46.11576603840545
+      northeast:
+        lng: 20.308597061775
+        lat: 46.34981198790985
+    location:
+      lng: 20.1414253
+      lat: 46.2530102
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Szeged
+      long_name: Szeged
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+  place_id: ChIJS-XMK-KHREcRkBEeDCnEAAQ
+  url: https://maps.google.com/?q=Szeged,+Hungary&ftid=0x474487e22bcce54b:0x400c4290c1e1190
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+facebook: https://www.facebook.com/events/505121525323707/
+link: ""
+description: |-
+  💦🌴💦🌴Gyere Laposban a Laposra -jön a szezon első szabadtéri bulija
+  👌 A lapos cipő a kényelem és a tánctér miatt is erősen javasolt!
+  -😍😎☀️ ..
+  ===💥Salsa - 💥Bachata - Kizomba===
+  OpenAir party💋💋
+
+  ⏰ Időpont: 2024. július 20. szombat 
+  ⚡️🌧💦 eső esetén elmarad.🌧💦
+  18:00-22:00 party /1500Ft/
+
+  📍Helyszín: Újszeged Lapos Beach
+
+  📬info@dolce-dance.com
+  📬www.dolce-dance.com
+  ☎️+36305153951
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1721224844/jxyrz7nlmeu57wcim9dd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Hot Summer Open Air Salsa-Sensual Party -Szeged
+online: No
+place: ChIJS-XMK-KHREcRkBEeDCnEAAQ
+international: No
+hash: 1721491200000+ChIJS-XMK-KHREcRkBEeDCnEAAQ
+id: q3n2AshImRuFlmVcvzTW

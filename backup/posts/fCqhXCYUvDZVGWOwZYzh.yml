@@ -1,0 +1,139 @@
+endDate: 1716476400000
+sourceUrl: https://www.facebook.com/events/443884534706302/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713183574000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1713183574000
+facebookId: "443884534706302"
+facebook: https://www.facebook.com/events/443884534706302/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/443884534706302/
+eventType: Party
+providerItemId: e443884534706302@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Salsa New York On 1 Anfänger 1 und 2  "
+location: Kurfürsten-Anlage 58, 69115 Heidelberg, Germany
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715266800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Kurfürsten-Anlage 58, 69115 Heidelberg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kurfürsten-Anlage 58
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.677829719708498
+        lat: 49.4036091197085
+      northeast:
+        lng: 8.680527680291503
+        lat: 49.4063070802915
+    location:
+      lng: 8.679150300000002
+      lat: 49.4050436
+  address_components:
+    - types:
+        - street_number
+      short_name: "58"
+      long_name: "58"
+    - types:
+        - route
+      short_name: Kurfürsten-Anlage
+      long_name: Kurfürsten-Anlage
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bergheim
+      long_name: Bergheim
+    - types:
+        - locality
+        - political
+      short_name: Heidelberg
+      long_name: Heidelberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Heidelberg
+      long_name: Heidelberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "69115"
+      long_name: "69115"
+  place_id: ChIJBe7Zn9_Al0cRNURq1jwkFNw
+  url: https://maps.google.com/?q=Kurf%C3%BCrsten-Anlage+58,+69115+Heidelberg,+Germany&ftid=0x4797c0df9fd9ee05:0xdc14243cd66a4435
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131882895
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/TJDancestudioHeidelberg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131883/cllopcowbrpbk0tnohvu.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131882895
+  owned: false
+  name: TJ Dancestudio Heidelberg
+  place: ChIJzdzMDgXBl0cR1zokRADq5u8
+  updatedAt: 1714131882895
+  username: tj.dancestudio.heide
+claimed: No
+link: ""
+description: |-
+  TJ Dancestudio Heidelberg
+
+  Salsa On1, Anfänger 1 und 2
+  (Für Single und Paare)
+  4 Termine ab Donnerstag, 09 Mai 2024
+  17:00 - 17:45 Uhr
+  45 Minuten ohne Pause
+  Nightingalestrasse 1, Haus Asien, 69115 Heidelberg (BANHSTADT)
+
+  Informationen:
+  info@tjdance.de
+  Tel.:  0176 41725994  
+  http://tjdance.de/kurse.html
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131887/pxgk1yvtecjjwrewultd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJzdzMDgXBl0cR1zokRADq5u8
+international: No
+hash: 1715266800000+ChIJBe7Zn9_Al0cRNURq1jwkFNw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfCqhXCYUvDZVGWOwZYzh.png?generation=1714131911115947&alt=media
+viewsCount: 2
+id: fCqhXCYUvDZVGWOwZYzh

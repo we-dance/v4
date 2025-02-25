@@ -1,0 +1,221 @@
+createdAt: 1704822899635
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/2043908692628036/
+source: facebook
+username: wedancebot
+visibility: Public
+endDate: 1730692800000
+org:
+  owner: ""
+  importedAt: 1704822904537
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/festival.international.cubano.orange
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/396038693_369432022081906_3965933470307333595_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=109&ccb=1-7&_nc_sid=596444&_nc_ohc=PzXRT_TdkOMAX8lia5J&_nc_ht=scontent-iad3-2.xx&oh=00_AfBxPL6ax7mfbTd_PxEa6zqc-igU_xHFM3vpLTNBTivvzg&oe=65A1E132
+  source: facebook
+  type: Organiser
+  createdAt: 1704822904537
+  owned: false
+  name: Festival International Cubano Orange, France
+  place: ChIJB4Uuf90b90cRIm-gOGAwlDk
+  updatedAt: 1704822904537
+  username: festival.international.cubano.orange
+claimed: No
+facebookId: "2043908692628036"
+link: https://my.weezevent.com/fic-2024
+description: >-
+  Le FIC est un événement de renommée mondiale qui se tiendra du 31 octobre au 4
+  Novembre 2024 à l'espace Daudet à Orange.
+
+
+  l'un des plus grands festivals cubains en Europe, il réunit les meilleurs professeurs de danse cubaine. 
+
+
+  Les participants auront l'occasion de découvrir les danses cubaines traditionnelles ainsi que les dernières tendances de la scène cubaine international.
+
+  et comme toujours des cours exceptionnels sur 4 niveaux différents, des concerts, et des befores ...
+
+
+  Les amateurs de musique auront l'occasion de découvrir des artistes talentueux et de vivre une expérience musicale unique. 
+
+
+  Ne manquez pas cette occasion de vivre une expérience culturelle et musicale inoubliable.
+
+  et pour votre confiance, nous vous proposons ce Full Pass à l'aveugle, un FULL PASS CONFIANCE à 89,99€
+
+
+  billetterie ici 👇👇👇
+
+  MINI SITE : https://my.weezevent.com/fic-2024 | 
+
+
+  🇬🇧🇺🇸🇬🇧
+
+  The FIC is a world-renowned event which will be held from October 31 to November 4, 2024 at the Espace Daudet in Orange.
+
+
+  one of the largest Cuban festivals in Europe, it brings together the best Cuban dance teachers.
+
+
+  Participants will have the opportunity to discover traditional Cuban dances as well as the latest trends on the international Cuban scene.
+
+  and as always exceptional courses on 4 different levels, concerts, and befores...
+
+
+  Music lovers will have the opportunity to discover talented artists and enjoy a unique musical experience.
+
+
+  Don't miss this opportunity to live an unforgettable cultural and musical experience.
+
+  and for your confidence, we offer you this Blind Full Pass, a FULL CONFIDENCE PASS at €89.99
+
+
+  ticket office here 👇👇👇
+
+  MINI SITE : https://my.weezevent.com/fic-2024 | 
+
+  🇪🇸🇪🇸🇪🇸
+
+  El FIC es un evento de renombre mundial que se celebrará del 31 de octubre al 4 de noviembre de 2024 en el Espace Daudet de Orange.
+
+
+  Uno de los festivales cubanos más grandes de Europa, reúne a los mejores profesores de danza cubanos.
+
+
+  Los participantes tendrán la oportunidad de descubrir danzas tradicionales cubanas así como las últimas tendencias del panorama cubano internacional.
+
+  y como siempre cursos excepcionales en 4 niveles diferentes, conciertos, y antes...
+
+
+  Los amantes de la música tendrán la oportunidad de descubrir artistas talentosos y disfrutar de una experiencia musical única.
+
+
+  No pierdas esta oportunidad de vivir una experiencia cultural y musical inolvidable.
+
+  y para tu confianza te ofrecemos este Blind Full Pass, un PASE DE CONFIANZA TOTAL a 89,99€
+
+
+  taquilla aquí 👇👇👇
+
+  MINI SITE : https://my.weezevent.com/fic-2024 | 
+program: []
+type: event
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+name: FIC 2024
+online: No
+place: ChIJB4Uuf90b90cRIm-gOGAwlDk
+international: No
+startDate: 1730390400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSPI8SGbm5lMWz0z682NU.png?generation=1704822918128384&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853218/k0egln22zomjqzz6skxv.jpg
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: SPI8SGbm5lMWz0z682NU
+eventType: Festival
+confirmation: Use discount code "WeDance"
+price: €110
+specialOffer: €10 discount
+duration: 5040
+venue:
+  formatted_address: 24 Av. Antoine Pinay, 84100 Orange, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Espace Alphonse DAUDET
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.800280480291502
+      south: 44.1332362197085
+      north: 44.1359341802915
+      west: 4.797582519708498
+    location:
+      lng: 4.7986949
+      lat: 44.1344933
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Av. Antoine Pinay
+      long_name: Avenue Antoine Pinay
+    - types:
+        - locality
+        - political
+      short_name: Orange
+      long_name: Orange
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Vaucluse
+      long_name: Vaucluse
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Provence-Alpes-Côte d'Azur
+      long_name: Provence-Alpes-Côte d'Azur
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "84100"
+      long_name: "84100"
+  place_id: ChIJzbg-vkWXtRIRXKeTYFVx_rM
+  url: https://maps.google.com/?cid=12969928588380055388
+  username: espacealphonsedaudet
+artistsList: []
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroCuban:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1730390400000+ChIJzbg-vkWXtRIRXKeTYFVx_rM
+bookmarks: 1
+hotDeal: No
+updatedAt: 1718906058684
+star:
+  count: 1
+  usernames:
+    - alexrazbakov
+  history:
+    - username: alexrazbakov
+      date: 1711716244198
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1711716249816
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1717073107361
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1717845590212
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1724410449330
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+viewsCount: 47

@@ -1,0 +1,63 @@
+createdAt: 1712054197130
+website: https://maps.google.com/?cid=14636644534717194450
+rooms: ""
+address:
+  formatted_address: Mulini Beach, Šetalište Lona, 52210, Rovinj, Croatia
+  name: Mulini Beach
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.6341786697085
+        lat: 45.0710114197085
+      northeast:
+        lng: 13.6368766302915
+        lat: 45.0737093802915
+    location:
+      lng: 13.6355031
+      lat: 45.072297
+  address_components:
+    - types:
+        - natural_feature
+        - establishment
+      short_name: Mulini Beach
+      long_name: Mulini Beach
+    - types:
+        - route
+      short_name: Šetalište Lona
+      long_name: Šetalište Lona
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istarska županija
+      long_name: Istarska županija
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+    - types:
+        - postal_code
+      short_name: "52210"
+      long_name: "52210"
+  place_id: ChIJo_mKw5HAfEcR0iB786fOH8s
+  url: https://maps.google.com/?cid=14636644534717194450
+gender: Other
+phone: ""
+name: Mulini Beach
+updateAt: 1712054197130
+type: Venue
+map: ""
+username: mulinibeach
+viewsCount: 4
+id: pVjZ63aaewKfEokPPd3L

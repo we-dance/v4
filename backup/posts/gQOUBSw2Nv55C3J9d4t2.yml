@@ -1,0 +1,160 @@
+endDate: 2023-01-08T02:00
+claimed: No
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1672842614539
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1663757911856
+updatedBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Dj Obi
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  bio: Best Bachata DJ In Town 😎🎛️
+  instagram: https://instagram.com/djobi_bachata
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  username: Djobi_bachata
+upVotes: 0
+eventType: Party
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+commentsCount: 0
+name: Bachata Sensual Nights Dj Obis
+online: No
+votes: 0
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-07T20:00
+username: Djobi_bachata
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F4fee3f68-7dcc-466a-89e0-011e7a749c4a?alt=media&token=3739bcee-0eac-466d-a05b-20f8e6032707
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Sebastian Birk
+    bio: I am a Bachata and Brazilian Zouk teacher in Munich. Follow me on Instagram
+      @bailadictos!
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7xBtAdIbIAYlfNzXdBlxItRCDfD2%2Fc545b589-7cfb-4c1d-82fa-0366ae130d28?alt=media&token=e0d6e080-c3af-4666-aef9-7f52f9876f6d
+    id: 7xBtAdIbIAYlfNzXdBlxItRCDfD2
+    instagram: https://instagram.com/bailadictos
+    username: sebastianbirk
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: ""
+    name: Dj Obi
+    bio: Best Bachata DJ In Town 😎🎛️
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+    instagram: https://instagram.com/djobi_bachata
+    id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+    username: Djobi_bachata
+link: https://www.tickettailor.com/events/bachatasensualnight/825852
+description: >-
+  A Bachata versus Zouk workshop is a great opportunity for you to learn new
+  elements and improve yourskills.
+
+
+  In this Bachata versus Zouk workshop, you will have the opportunity to learn Zouk elements that can be incorporated into your Bachata dancing. This can add a new level of excitement and variety to your dancing and help you stand out on the dance floor. By learning zouk elements, you can also improve your connection and movement with your partner, as Zouk places a strong emphasis on connection and fluidity.
+
+
+  This workshop can also focus on improving the connection and movement between the leader and follower in Bachata. This is an important aspect of any dance style, and by working on these skills, you can enhance the overall quality of your dancing.
+program: []
+artistsList:
+  - sebastianbirk
+  - Djobi_bachata
+id: gQOUBSw2Nv55C3J9d4t2
+venue:
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  website: http://www.kult-tanzschule.de/
+  name: The KULT TANZSCHULE in ADTV
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5718683302915
+      south: 48.1372054697085
+      north: 48.1399034302915
+      west: 11.5691703697085
+    location:
+      lng: 11.5703078
+      lat: 48.1382762
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  international_phone_number: +49 89 44313886
+  url: https://maps.google.com/?cid=2237208673933871066
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgQOUBSw2Nv55C3J9d4t2.png?generation=1673007871212770&alt=media
+telegram:
+  requestedAt: 1673007939693
+  messageUrl: https://t.me/WeDanceMunich/770
+  publishedAt: 1673007942657
+  messageId: 770
+  state: published
+instagram:
+  requestedAt: 1673007948838
+  messageUrl: https://instagram.com/p/CnEtrzUu7sa
+  publishedAt: 1673007963776
+  messageId: CnEtrzUu7sa
+  state: published
+star:
+  count: 2
+  list:
+    KataTata: true
+    alexrazbakov: true
+viewsCount: 24

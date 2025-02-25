@@ -1,0 +1,142 @@
+endDate: 1714280400000
+sourceUrl: https://facebook.com/events/s/salsa-night-at-parlour-new-ven/397112366366139/
+createdAt: 1712044560395
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1711854015000
+updatedAt: 1712044560395
+importedAt: 1712044560395
+providerUpdatedAt: 1711854015000
+facebookId: "397112366366139"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/salsa-night-at-parlour-new-ven/397112366366139/
+eventType: Party
+providerItemId: coqjadhhcgs34bb26gq32b9k6pgjab9o6kr32b9l69imaphhcoqjgp1oc4@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Salsa Night at PARLOUR! - NEW VENUE!
+location: Parlour Downtown Louisville
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714266000000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 133 W Liberty St, Louisville, KY 40202, USA
+  website: https://www.eatparlourpizza.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: PARLOUR
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.7550401302915
+        lat: 38.2514103197085
+      northeast:
+        lng: -85.75234216970848
+        lat: 38.2541082802915
+    location:
+      lng: -85.7536377
+      lat: 38.2528338
+  address_components:
+    - types:
+        - street_number
+      short_name: "133"
+      long_name: "133"
+    - types:
+        - route
+      short_name: W Liberty St
+      long_name: West Liberty Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Downtown
+      long_name: Downtown
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40202"
+      long_name: "40202"
+  international_phone_number: +1 502-888-1515
+  place_id: ChIJy_UeSGNzaYgRkuTKQ9i5AZc
+  url: https://maps.google.com/?cid=10881182513205273746
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1712044569873
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/LouisvilleSalsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044570/id4qtxyiq4etpyf10li1.png
+  source: facebook
+  type: Organiser
+  createdAt: 1712044569873
+  owned: false
+  name: Louisville Salsa Underground
+  place: ChIJlxLeD7tyaYgRAJCiTilnAPo
+  updatedAt: 1712044569873
+  username: LouisvilleSalsa
+claimed: No
+facebook: https://www.facebook.com/events/397112366366139/
+link: ""
+description: >-
+  NEW VENUE! 
+
+
+  This month at Salsa Night, we're welcoming back the phenomenal talent of Chichi!
+
+
+  Chichi will lead a 45-minute all-levels bachata dance lesson!
+
+
+  DJ Robertón will be spinning all the hottest Timba, Salsa, & Bachata beats!
+
+
+  $7 cash/Venmo/Cash App at the door
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712044571/y3oi73zjzkwdzzymqmkr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJlxLeD7tyaYgRAJCiTilnAPo
+international: No
+hash: 1714266000000+ChIJy_UeSGNzaYgRkuTKQ9i5AZc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVBhV6nLOI16Nj2QCUExK.png?generation=1712044586931590&alt=media
+id: VBhV6nLOI16Nj2QCUExK

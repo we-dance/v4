@@ -1,0 +1,126 @@
+endDate: 1719723600000
+sourceUrl: https://facebook.com/events/s/ruedx-havana-nights-masquerade/1442683763047678/
+createdAt: 1717509627117
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1717428797000
+updatedAt: 1717509627117
+importedAt: 1717509627117
+providerUpdatedAt: 1717428797000
+facebookId: "1442683763047678"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/ruedx-havana-nights-masquerade/1442683763047678/
+eventType: Party
+providerItemId: 6tgj0e9i6dh68b9ocdi30b9kcdhmcb9o70sm4b9l6go6cc9hc4ojap9gcg@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: "RuedX: Havana Nights Masquerade Social "
+location: 80 East Sharon Road Cincinnati ohio
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719712800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 80 E Sharon Rd, Cincinnati, OH 45246, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 80 E Sharon Rd
+  geometry:
+    viewport:
+      southwest:
+        lng: -84.4667600802915
+        lat: 39.2714958697085
+      northeast:
+        lng: -84.46406211970849
+        lat: 39.2741938302915
+    location:
+      lng: -84.465389
+      lat: 39.2729791
+  address_components:
+    - types:
+        - street_number
+      short_name: "80"
+      long_name: "80"
+    - types:
+        - route
+      short_name: E Sharon Rd
+      long_name: East Sharon Road
+    - types:
+        - locality
+        - political
+      short_name: Cincinnati
+      long_name: Cincinnati
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hamilton County
+      long_name: Hamilton County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: OH
+      long_name: Ohio
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "45246"
+      long_name: "45246"
+    - types:
+        - postal_code_suffix
+      short_name: "4433"
+      long_name: "4433"
+  place_id: ChIJZQ7OfoBPQIgRZy9d1o4Yfm4
+  url: https://maps.google.com/?q=80+E+Sharon+Rd,+Cincinnati,+OH+45246,+USA&ftid=0x88404f807ece0e65:0x6e7e188ed65d2f67
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1717509643149
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/CubanSalsaCincinnati
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717509643/zf4m86zjghf6os3dsex2.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1717509643149
+  owned: false
+  name: Casino Reál Cuban Dance
+  place: ChIJ-SE43rFRQIgRF5PA5It--2k
+  updatedAt: 1717509643149
+  username: CubanSalsaCincinnati
+claimed: No
+facebook: https://www.facebook.com/events/1442683763047678/
+link: https://www.eventbrite.com/e/ruedx-cincinnati-2024-tickets-877574668457
+description: >-2
+   Grab your best Havana out fit. Create/bring your own mysterious mask or grab one at the party and dance the night away!!!
+
+  10pm to 1am Social dancing to Cuban music by DJ Roberton and DJ Timba Titan.
+
+  Dancers from all over the USA will be in attendance.
+
+  360 photo booth!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717509645/d48li3wqphu0btehyu4w.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ-SE43rFRQIgRF5PA5It--2k
+international: No
+hash: 1719712800000+ChIJZQ7OfoBPQIgRZy9d1o4Yfm4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FedN64c4Yamwa5FLWdLL1.png?generation=1717509663613369&alt=media
+viewsCount: 1
+id: edN64c4Yamwa5FLWdLL1

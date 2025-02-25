@@ -1,0 +1,126 @@
+venue:
+  website: http://www.tanzstudio-rebecca.com/
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Anglerstraße
+      short_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  url: https://maps.google.com/?cid=14332716633642345223
+  name: Studio Rebecca | Tanzstudio Rebecca
+  geometry:
+    viewport:
+      south: 48.1328691697085
+      north: 48.1355671302915
+      east: 11.5365322802915
+      west: 11.53383431970849
+    location:
+      lng: 11.5350651
+      lat: 48.1342039
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+claimed: No
+link: https://docs.google.com/forms/d/1_OoJJQiWg6Ipv_ZwW4vGf6NJQn-qbwFpeHELbO2WwV0/edit?chromeless=1
+description: >-
+  The focus will be on body-insolations, step-combinations, sensual movements +
+  styling.
+
+
+  We are going to work on the entire body posture and technique to create a feminine and harmonious way of dancing. Including Movements from head to toe, plus arm movements.
+
+
+  We will build small choreographies to make it easier and have a lot of fun together
+
+
+  Can't wait to see you !
+type: event
+duration: 60
+createdAt: 1646037033963
+artists: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646037033963
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  name: Anna
+  username: AnnaMil
+eventType: Course
+confirmation: |-
+  Dear Guest,
+  after fillin the Google Form you are registered.
+
+  See you soon
+  Thank you
+
+  Anna
+form: No
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Bachata LadyStyling Class
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: AnnaMil
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F23970d9a-0bfb-475f-8588-d1ed5cc5a625?alt=media&token=043d3692-68a1-4ca3-824a-5d4472bf8da8
+endDate:
+  _seconds: 1647021600
+  _nanoseconds: 0
+price: 12.50 EUR
+id: ecc95GKloUAbQo1UV85E
+startDate: 2022-03-11T18:00
+promo: Yes
+viewsCount: 7

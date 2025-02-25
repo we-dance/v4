@@ -1,0 +1,48 @@
+endDate:
+  _seconds: 1628287200
+  _nanoseconds: 0
+type: event
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa435e9ef-de1f-437b-8fb6-0fb3fe1bc7e9?alt=media&token=9894a644-6ff9-4187-b5df-535c01fdb205
+createdAt: 1627900808971
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPQ8FADGX2v41o0WKT1dx.png?generation=1627997208057062&alt=media
+commentsLast: ~
+id: PQ8FADGX2v41o0WKT1dx
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1627900808971
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Pinakothek der Moderne
+visibility: Public
+eventType: Party
+form: No
+createdBy: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+commentsCount: 0
+name: Timba - Salsa Cubana
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-06T17:00:00.000Z
+username: salsa.cubana.munich
+viewsCount: 45

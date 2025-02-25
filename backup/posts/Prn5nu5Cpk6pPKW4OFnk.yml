@@ -1,0 +1,120 @@
+endDate: 1721345400000
+sourceUrl: https://www.facebook.com/events/1434573674090481/1434573684090480
+createdAt: 1720879232546
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720815715000
+updatedAt: 1720879232546
+importedAt: 1720879232546
+providerUpdatedAt: 1720875963000
+facebookId: "1434573684090480"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1434573674090481/1434573684090480
+eventType: Party
+providerItemId: 47440-1721332800-1721345400@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Wonder Island, Margitsziget, Gasztro sétány, Budapest, 1138, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721332800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Gasztro Sétány, 1138 Hungary
+  website: http://wonderisland.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Wonder Island
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0457743697085
+        lat: 47.5195776697085
+      northeast:
+        lng: 19.0484723302915
+        lat: 47.5222756302915
+    location:
+      lng: 19.0471853
+      lat: 47.5208952
+  address_components:
+    - types:
+        - route
+      short_name: Gasztro Sétány
+      long_name: Gasztro Sétány
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1138"
+      long_name: "1138"
+  international_phone_number: +36 70 658 3595
+  place_id: ChIJH2ejqLXbQUcRG-99HXX77sw
+  url: https://maps.google.com/?cid=14767016708618972955
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  id: nD23oRVHFCEDLp84nONP
+  instagram: ""
+  username: mimusica.djtombao
+claimed: No
+facebook: https://www.facebook.com/events/1434573674090481/?event_time_id=1434573684090480
+link: ""
+description: >-
+  Wonder Island × Margitsziget Csütörtökök - Thursdays :: Salsa, Bachata y Mas
+
+
+  × Július 11-én meglepetés vendég DJ zenél nekünk: DJ Akosz, azaz Demeter Attila 🙂 × On 11 July we have a surprise guest DJ: DJ Akosz, aka Attila Demeter
+
+  DJ profile: https://www.facebook.com/profile.php?id=100081518402847 ----> follow for more
+
+
+  Start: 20:00 - 23:30
+
+  Belépő × Ticket: 2000 HUF
+
+  Zene × Music: Salsa, Bachata, Merengue, Semba, Mambo, Cumbia... a táncos közönségtől függően - Depending on the attending dancers' 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720879259/d8tt7kdjqerof1doniyb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Csütörtök-Thursday MARGITSZIGET × Salsa, Bachata y mas × DJ Akosz × Wonder
+  Island Bar × Start 20:00
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1721325600000+ChIJH2ejqLXbQUcRG-99HXX77sw
+id: Prn5nu5Cpk6pPKW4OFnk

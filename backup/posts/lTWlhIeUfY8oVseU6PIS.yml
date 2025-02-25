@@ -1,0 +1,169 @@
+venue:
+  formatted_address: Oudenarder Str. 16-20, 13347 Berlin, Germany
+  website: https://www.tanzraum-berlin.de/
+  name: Tanzraum Wedding
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3617586802915
+      south: 52.55198601970851
+      north: 52.55468398029151
+      west: 13.3590607197085
+    location:
+      lng: 13.3602875
+      lat: 52.55318150000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 16-20
+      long_name: 16-20
+    - types:
+        - route
+      short_name: Oudenarder Str.
+      long_name: Oudenarder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "13347"
+      long_name: "13347"
+  international_phone_number: +49 173 6020040
+  place_id: ChIJ2Wd0Uw5TqEcR_udLwEs0oLI
+  url: https://maps.google.com/?cid=12871345234978269182
+claimed: No
+link: https://www.facebook.com/events/697845714648416
+description: >-
+  ENCUENTROS | CUBAN WORKSHOP WEEKEND
+
+  10. & 11. SEPTEMBER 2022
+
+  ORT: TANZRAUM WEDDING
+
+
+  Du wolltest schon immer mal mehr über die afrokubanischen Wurzeln der Salsa Cubana/Timba erfahren und dein Wissen und tänzerisches Repertoire noch erweitern? Dann ist Encuentros genau das richtige für dich!
+
+  Workshops u.a. in afrokubanischen Yoruba-Tänzen, Rumba, Arara, Abakua, Bailes Populares, Cantos (Gesang) & History, Timba, Rueda de Casino
+
+  Confirmed Artists: Leivan Garcia Valle, Timo Lingnau, Julia von Oy, Helen Maria, Sassan Ito !
+
+  _________________________________________
+
+
+
+  PREISE
+
+  ▷ TAGES-PASS 55,00 / *49,50 €
+
+  ▷ FULL-PASS (Samstag & Sonntag) 70,00 / *63,00 €
+
+  ▷ EINZELWORKSHOP 15,00 €
+
+  *Studentenrabatt - 10% (*nur mit gültigem Studentenausweis)
+
+
+  ▷ Voranmeldung erforderlich !
+
+  ▷ Begrenzte Teilnehmer-Zahl !
+
+
+
+  ANMELDUNG & INFOS: ENCUENTROS.BERLIN@GMAIL.COM
+
+
+  LEVEL: Die Workshops eignen sich für Tänzer*innen mit und ohne Vorkenntnisse in afrokubanischen Tänzen. Tanzerfahrung solltest du haben. Für die Paartanzkurse (Timba, Nudos, Rueda etc.) solltest du den Salsa Grundschritt beherrschen.
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpH0880yoosdst2YzH0t6hvWMmi63%2Fbc80260e-ccfd-4bee-b910-fd49cb618ae6?alt=media&token=64b5e367-8df5-440d-8bb2-e63c8ca79eeb
+duration: 60
+createdAt: 1659781292274
+artists: []
+price: "49.5"
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/julia.vonoy
+  name: Juli
+  bio: Dancer, Teacher, Model
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpH0880yoosdst2YzH0t6hvWMmi63%2F59945950-3cc4-44e7-81c2-0a00d9361c32?alt=media&token=2e0f3178-351e-45fb-9a8c-f108824a24fe
+  id: pH0880yoosdst2YzH0t6hvWMmi63
+  instagram: https://instagram.com/juliavonoy
+  username: Juli
+facebook: https://www.facebook.com/events/697845714648416
+eventType: Festival
+form: No
+watch:
+  count: 1
+  list:
+    Juli: true
+createdBy: pH0880yoosdst2YzH0t6hvWMmi63
+name: ENCUENTROS - CUBAN WORKSHOP WEEKEND - SEPT 2022 BERLIN
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaColumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Juli
+id: lTWlhIeUfY8oVseU6PIS
+startDate: 2022-09-10T09:00
+endDate: 2022-09-10T13:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlTWlhIeUfY8oVseU6PIS.png?generation=1659978115352616&alt=media
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1661038140424
+telegram:
+  requestedAt: 1661107921815
+  messageUrl: https://t.me/WeDanceBerlin/84
+  publishedAt: 1661432450856
+  messageId: 84
+  state: published
+star:
+  count: 2
+  list:
+    Juli: true
+    Iris: true
+viewsCount: 14

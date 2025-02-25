@@ -1,0 +1,103 @@
+venue:
+  formatted_address: Weiße G. 8, 86150 Augsburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Weiße G. 8
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.9013930302915
+      south: 48.3661154197085
+      north: 48.36881338029149
+      west: 10.8986950697085
+    location:
+      lng: 10.9000884
+      lat: 48.3674224
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Weiße G.
+      long_name: Weiße Gasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Augsburg-Innenstadt
+      long_name: Augsburg-Innenstadt
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86150"
+      long_name: "86150"
+  place_id: ChIJpUUMIVS9nkcRsKeLw_cI4g4
+  url: https://maps.google.com/?q=Wei%C3%9Fe+G.+8,+86150+Augsburg,+Germany&ftid=0x479ebd54210c45a5:0xee208f7c38ba7b0
+endDate: 2023-04-11T23:30
+claimed: No
+description: „JEDEN DIENSTAG IN AUGSBURG“ Cocktails Drinks und Food in der Le
+  Coq, Salsa-Kurs für Fortgeschrittene (19-20 Uhr), Bachata & Merengue Kurse für
+  Anfänger (20-21 Uhr)
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2Fc686f2f2-3c46-4a6b-8380-8feeaf0b92ab?alt=media&token=3b8408aa-cc5e-4372-bba9-d01cd3ac1f95
+duration: 60
+createdAt: 1681165225937
+artists: []
+price: 0 EUR
+socialCover: ""
+artistsList: []
+place: ""
+id: ZzT9v7J6h0nheuEesWS6
+international: No
+updatedAt: 1681165225937
+updatedBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+visibility: Public
+star:
+  count: 0
+  list: {}
+org: {}
+viewsCount: 0
+upVotes: 0
+telegram: {}
+eventType: Party
+confirmation: Bailabavaria@gmail.com
+form: No
+createdBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: "Latin Night Event in der Le Coq Augsburg "
+online: No
+votes: 0
+styles: {}
+startDate: 2023-04-18T19:00
+username: Franciscomsrinotoledodelrey2021

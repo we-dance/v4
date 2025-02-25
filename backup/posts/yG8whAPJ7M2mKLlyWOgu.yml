@@ -1,0 +1,161 @@
+venue:
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  website: https://www.kizztalk.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizztalk Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5388055302915
+      south: 48.1232715697085
+      north: 48.1259695302915
+      west: 11.5361075697085
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  international_phone_number: +49 1515 7942042
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+  url: https://maps.google.com/?cid=1174991087505886864
+endDate: 2023-07-29T18:00
+claimed: No
+link: kizztalk.de
+description: >
+  How does that feel having bachata all level(Beginner to Intermediate)
+  bootcamps in one place on a weekend ?
+
+
+  🕺🏻💃 Please refer banner for all price and venue details 
+
+
+  🕺🏻💃 Yes . It’s a bachata bootcamp day at kizztalk dance academy . 
+
+
+  Below are the bootcamp details 🕺🏻
+
+
+  🕺🏻💃 Bachata Beginner level 0: Bootcamp for complete beginner . Start with your first bachata step with us 🥰🥰
+
+
+  🕺🏻💃 Bachata Beginner Level 1 : For people who Finished level 0 and looking to start making bachata combination with Rombe , Bodywaves and cross hands , etc 
+
+
+  🕺🏻💃 Bachata Improver/Intermediate: Electrify your social moves with Elegant body flow combinations 🔥
+
+
+  🕺🏻💃 Please register at +4915222808578 or at kizztalk.de is mandatory 
+
+
+  🕺🏻💃 2€ discount if you bring partner 
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7SRXL9snb0Tj6WR1inqrtwGDJwt2%2Fe675fdb7-cc49-40be-b542-4c88bdc91ec3?alt=media&token=9200a4b7-fefd-46f8-ba5a-e7f649f94d17
+createdAt: 1690140131018
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1690140131018
+updatedBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizztalk
+  name: Kizztalk Dance Academy
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+  bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+    zu kommunizieren, sich au
+  id: 5DxynglUsETxslO7UZaBnTrOi5I3
+  instagram: https://www.instagram.com/kizztalk_/
+  username: kizztalkdanceacademy
+facebook: https://fb.me/e/2Mk7wmS9H
+eventType: Workshop
+confirmation: Welcome to bachata day 🔥🔥
+form: No
+createdBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+watch:
+  count: 1
+  list:
+    ananth: true
+name: Bachata Bootcamps Day @kizztalk
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-29T12:00
+username: ananth
+price: 22 EUR
+id: yG8whAPJ7M2mKLlyWOgu
+star:
+  count: 2
+  usernames:
+    - ananth
+    - kizztalkdanceacademy
+  list:
+    ananth: true
+    kizztalkdanceacademy: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyG8whAPJ7M2mKLlyWOgu.png?generation=1690531786324854&alt=media
+telegram:
+  requestedAt: 1690140194760
+  messageUrl: https://t.me/WeDanceMunich/1138
+  publishedAt: 1690531789445
+  messageId: 1138
+  state: published
+instagram:
+  requestedAt: 1690140193118
+  state: published
+  messageUrl: https://instagram.com/p/CvO9x8cuK0P
+  publishedAt: 1690531815668
+  messageId: CvO9x8cuK0P
+viewsCount: 64

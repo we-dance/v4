@@ -1,0 +1,126 @@
+venue:
+  formatted_address: Willy-Brandt-Allee 32, 81829 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Willy-Brandt-Allee 32
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.7032423302915
+      south: 48.13209206970851
+      north: 48.13479003029151
+      west: 11.7005443697085
+    location:
+      lng: 11.701895
+      lat: 48.13335420000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "32"
+      long_name: "32"
+    - types:
+        - route
+      short_name: Willy-Brandt-Allee
+      long_name: Willy-Brandt-Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Trudering-Riem
+      long_name: Trudering-Riem
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81829"
+      long_name: "81829"
+  place_id: ChIJsQ3d9YgKnkcRQjDtHxAYOpU
+  url: https://maps.google.com/?q=Willy-Brandt-Allee+32,+81829+M%C3%BCnchen,+Germany&ftid=0x479e0a88f5dd0db1:0x953a18101fed3042
+endDate: 1700334000000
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FANSbpfvpBaX77CMzuTrWSp8escy1%2Fec5dcbb3-4592-4bfb-8a57-6176bb5bb2a3?alt=media&token=851a7a33-d1b2-4586-8732-7fd164664ad4
+createdAt: 1700249045648
+artists: []
+price: 0 EUR
+artistsList: []
+specialOffer: Benefizveranstaltung auf Spendenbasis
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/lakossa.fitness
+  name: Ari - La Kossa®
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F27efcc73-45f6-48aa-b1de-2dfc68e69964?alt=media&token=120a06cd-fcef-4baa-8f45-b121ad2beda2
+  bio: Empowerment through dancing
+  id: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+  instagram: https://instagram.com/la.kossa
+  username: lakossa
+eventType: Workshop
+form: No
+createdBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+watch:
+  count: 1
+  list:
+    undefined: true
+name: Afrobeats Dance Workshop
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1700326800000
+username: AnnaNym
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQR8tSiRTptbAVFTn0IBO.png?generation=1700249067477642&alt=media
+description: >-
+  Tanzworkshop als Benefizveranstaltung von La Kossa Afrodance (von Ari
+  Fritzsche) zu Gunsten eines krebskranken Mitarbeiters.
+
+
+  Jeder kann mitmachen!
+
+  Einfach kommen!
+
+
+  Teilnahme auf Spendenbasis
+
+
+  Kontakt: info@la-kossa.de
+id: QR8tSiRTptbAVFTn0IBO
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1700249836055
+instagram:
+  messageUrl: https://instagram.com/p/CzwleERJrz2
+  publishedAt: 1700249856599
+  messageId: CzwleERJrz2
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 12

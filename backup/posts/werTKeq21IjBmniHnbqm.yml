@@ -1,0 +1,295 @@
+createdAt: 1704822884763
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/3835419543375502/
+source: facebook
+updatedAt: 1704822884763
+username: wedancebot
+venue:
+  formatted_address: Arbeidersamfunnets plass 1, 0181 Oslo, Norway
+  website: http://www.samfunnssalen.no/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Samfunnssalen Event & Konferanse
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.7500224197085
+        lat: 59.9141808697085
+      northeast:
+        lng: 10.7527203802915
+        lat: 59.91687883029151
+    location:
+      lng: 10.7517147
+      lat: 59.9156417
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Arbeidersamfunnets plass
+      long_name: Arbeidersamfunnets plass
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Grünerløkka
+      long_name: Grünerløkka
+    - types:
+        - postal_town
+      short_name: Oslo
+      long_name: Oslo
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oslo kommune
+      long_name: Oslo kommune
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Oslo
+      long_name: Oslo
+    - types:
+        - country
+        - political
+      short_name: NO
+      long_name: Norway
+    - types:
+        - postal_code
+      short_name: "0181"
+      long_name: "0181"
+  international_phone_number: +47 21 68 33 00
+  place_id: ChIJQwBWkHxuQUYRU5Ppr4lHSvk
+  url: https://maps.google.com/?cid=17963248720408056659
+visibility: Public
+endDate: 1714953600000
+org:
+  owner: ""
+  importedAt: 1704822887451
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/nordicsalsa
+  photo: https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/405112311_1185877832700785_1235608840712729017_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=qQx9vLmlrnUAX9gAK2k&_nc_ht=scontent-dfw5-2.xx&oh=00_AfD99xzK-qE26nmWPhMt3JtuDxGMSBgDRqz15Y39bjmSZQ&oe=65A1F154
+  source: facebook
+  type: Organiser
+  createdAt: 1704822887451
+  owned: false
+  name: Nordic Salsa & Bachata Experience
+  updatedAt: 1704822887451
+  username: nordicsalsa
+claimed: No
+facebookId: "3835419543375502"
+link: https://www.nordicsalsa.com/book
+description: >-
+  Knut Erik Productions in cooperation with Salsakompaniet have the pleasure of
+  inviting you to the 14th Nordic Salsa & Bachata Experience 2024! 
+
+
+  "EARLY BIRD" OFFER - THE FIRST 50 FULL PASSES
+
+  Registration: www.bachatasalsa.no/20-festivals
+
+  Web: www.nordicsalsa.com
+
+
+  We are happy to offer you a full packed program for the best dance weekend: 
+
+  - 40 workshops
+
+  - 20 artist
+
+  - 10 DJs
+
+  - 3 parties 
+
+  - Stargate - show team competition
+
+  - Jack & Jill - Social Dance Competition.
+
+  - Saturday Show-time
+
+
+  CONFIRMED ARTISTS: 
+
+  Luis Vasquez - Mexico  
+
+  Konstantin & Arcadia - Sweden
+
+  Alex & Vilde  - Spain/Norway
+
+  Javier & Jennifer - Cuba 
+
+  Marcelo & Nasti - Argentina/Lithuania
+
+  Fabian & Livia - Argentina/Sweden
+
+  Jazzy Ruiz & Iris - Guatemala/Norway
+
+  Alexistyle & Iselin - Guatemala/Norway
+
+  Aliochy  - Cuba
+
+  Miguel & Martine - Cuba/Norway
+
+  AK Mambo - Sweden
+
+  Alex Trapaga - Cuba
+
+  Allure - Norway
+
+  Royal Tumbao - Norway
+
+  more to come....
+
+
+  And we have some great DJs as well: 
+
+  DJ Alex - Spain 
+
+  DJ Sezar - Norway
+
+  DJ Neri - Greece
+
+  DJ Kasra - Norway
+
+  DJ Fabian - Argentina
+
+  DJ Livia - Sweden
+
+  DJ Javier - Cuba
+
+  DJ JP - Norway
+
+  DJ Lasse - Norway 
+
+  more to come....
+
+
+  PROGRAM FOR THE WEEKEND!
+
+
+  THURSDAY (Hall of Music) 
+
+  20:30 Pre-party at Hall of Music for those who want to get an early start
+
+
+  ----------------------
+
+  FRIDAY (Samfunnssalen)
+
+  15:00 Registration open
+
+  16:30 Dance Workshops
+
+
+  21:00 DANCE UNITED - Social Damce Competition "Jack & Jill".
+
+  ---
+
+  20:00 Welcome party on two dance floors
+
+  03:00 Party close
+
+  Ticket available at the door NOK 250,- or free entrance with full pass & party pass 
+
+  -----------------------
+
+  SATURDAY (Samfunnssalen)
+
+  09:00 Registration Open
+
+  10:00 Dance & Music Workshops 
+
+  12:10 Lunch
+
+  14:10 Workshops continue
+
+  14:10 Social dancing in the bar
+
+  ---
+
+  20:00 Galla party on twodance floors
+
+  21:00 ShowTime 
+
+  03:00 Close 
+
+  Tickets available at the door NOK 300,- or free entrance with full pass & party pass
+
+  -------------------------
+
+  SUNDAY (Samfunnssalen)
+
+  10:30 Registration Open
+
+  11:00 Dance & Music Workshops 
+
+  13:10 Lunch
+
+  14:10 Workshops continue
+
+  14:10 Social dancing in the bar
+
+  ---
+
+  20:00 Farewell party on three dance floors 
+
+  21:00 Concert
+
+  02:00 Close 
+
+  Tickets available at the door NOK 200,- or free entrance with full pass & party pass 
+
+  -----------------------
+
+
+  More info:
+
+  www.nordicsalsa.com
+
+
+  The location for the 2024 edition will be Samfunnssalen. This is the perfect place for dance festivals. Large spaces, perfect dance floors, good aircondition and a large terrace to get fresh air. 
+
+
+  There will be two large dance floors with all types of music during the parties. Floor one will be salsa mix and floor two bachata mix.
+program: []
+eventType: Concert
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 14th Nordic Salsa & Bachata Experience 2024
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Jazz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ""
+international: No
+hash: 1714741200000+ChIJQwBWkHxuQUYRU5Ppr4lHSvk
+startDate: 1714741200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwerTKeq21IjBmniHnbqm.png?generation=1704822915160635&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853639/weg8dsototvdyam1s3ei.jpg
+id: werTKeq21IjBmniHnbqm

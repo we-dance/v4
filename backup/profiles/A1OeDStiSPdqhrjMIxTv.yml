@@ -1,0 +1,73 @@
+createdAt: 1719432352205
+website: https://maps.google.com/?cid=5529570305121378017
+rooms: ""
+address:
+  formatted_address: Landtag NRW, Platz des Landtags 1, 40221 Düsseldorf, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Salsa Open Air Düsseldorf Landtag
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 6.764795280291503
+      south: 51.21743541970851
+      north: 51.22013338029151
+      west: 6.762097319708499
+    location:
+      lng: 6.763446300000001
+      lat: 51.2187844
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Platz des Landtags
+      long_name: Platz des Landtags
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Stadtbezirk 3
+      long_name: Stadtbezirk 3
+    - types:
+        - locality
+        - political
+      short_name: Düsseldorf
+      long_name: Düsseldorf
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Düsseldorf
+      long_name: Düsseldorf
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Düsseldorf
+      long_name: Düsseldorf
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "40221"
+      long_name: "40221"
+  place_id: ChIJMV0mSw3LuEcR4d5OReX6vEw
+  url: https://maps.google.com/?cid=5529570305121378017
+gender: Other
+phone: ""
+name: Salsa Open Air Düsseldorf Landtag
+updateAt: 1719432352205
+map: ""
+username: salsaopenairdsseldor
+place: ChIJB1lG8XvJuEcRsHMqSvxgJwQ
+type: Organiser
+viewsCount: 5
+id: A1OeDStiSPdqhrjMIxTv

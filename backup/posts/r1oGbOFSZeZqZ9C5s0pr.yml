@@ -1,0 +1,193 @@
+endDate: 1730415600000
+sourceUrl: https://www.facebook.com/events/491205647013056/
+createdAt: 1724162423762
+approved: true
+provider: ical
+providerId: xFVXUqhWEHWJCHD2fqnZ
+providerCreatedAt: 1724085079000
+updatedAt: 1724162423762
+importedAt: 1724162423762
+providerUpdatedAt: 1724085079000
+facebookId: "491205647013056"
+facebook: https://www.facebook.com/events/491205647013056/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/491205647013056/
+eventType: Party
+providerItemId: e491205647013056@facebook.com
+createdBy: rHlaIWm1AdeoZjot7KrxYtooB8t1
+name: 🎃 Halloween Latino 2024 🎃 31. OKT 🎃 2 DJS - ANIMATION - TOMBOLA - HAPPY HOUR
+location: Gablonzer Str. 9, 76185 Karlsruhe, Germany
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730404800000
+facebookUrlsCount: 1
+username: briankballero
+venue:
+  formatted_address: Gablonzer Str. 9, 76185 Karlsruhe, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Gablonzer Str. 9
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.351489469708499
+        lat: 49.0223380197085
+      northeast:
+        lng: 8.354187430291503
+        lat: 49.0250359802915
+    location:
+      lng: 8.3527194
+      lat: 49.0237396
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Gablonzer Str.
+      long_name: Gablonzer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mühlburg
+      long_name: Mühlburg
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76185"
+      long_name: "76185"
+  place_id: ChIJiSHcwycHl0cRxo9FnHSo9ZI
+  url: https://maps.google.com/?q=Gablonzer+Str.+9,+76185+Karlsruhe,+Germany&ftid=0x47970727c3dc2189:0x92f5a8749c458fc6
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/sonlatino.events
+  name: Son Latino Events
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953975/ppzxfn8yw01f8w52mjwy.jpg
+  bio: ""
+  id: kDu60vkxvCtZ8thhEO7M
+  instagram: ""
+  username: sonlatino.events
+claimed: No
+link: ""
+description: >-
+  🎃HALLOWEEN LATINO 2024🎃.
+
+  Die beste und gruseligste Latin-Party in der Karlsruher Region.
+
+  Donnerstag 31 Oktober ☠ 21H ☠
+
+
+  Kommt und genießt einer der berühmtesten Nächte der Welt.
+
+  Eine Nacht voller gruseligen Emotionen und vielen Überraschungen.
+
+  ___________
+
+  🎃 HALLOWEEN ☠ SPECIALS🎃
+
+  🕷 Die gruseligste Party des Jahres.
+
+  Latin Nacht: Salsa alle Stile, Bachata, Kizomba, Merengue, Reggaeton, Latin-Beats
+
+  2 DJS, Preise für das beste Kostüm, Tombola, Animationen und viele gruselige Sachen
+
+  🕷 Wir verwandeln unser Studio in ein Landjenseits dieser Welt! Erlebt die beste Halloween Party in der Latino-Szene, mit Dekoration, vielen Specials und der gruseligste Atmosphäre des Jahres!
+
+  🕷 Frankenstein Tombola:
+
+  Teste dein Glück und gewinne tolle gruselige Preise!
+
+  💥 Preise der Tombola 💥
+
+  1) Workshop-Gutschein
+
+  2) Eintritt frei für Halloween Latino 2025
+
+  3) Flasche Sekt
+
+  💥Preise für das beste Kostüm💥
+
+  Ein Tanzkurs in Son Latino Karlsruhe oder Baden-Baden
+
+  🕷 Zombies Cocktail Happy Hour
+
+  von 21:00H bis 22:00H (Cocktails zum halben Preis)
+
+  🕷 Animation Special
+
+  Genießt mit unseren Animation-Team und unterhaltsame Tänze
+
+  ___________
+
+  🎃 HALLOWEEN ☠ DRESSCODE 🎃
+
+  (Mit Kostüm oder geschminkt)
+
+  ___________
+
+  (Limitierte Plätze)
+
+  ___________
+
+  🎃 LOCATION ☠
+
+  Son Latino Studios
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724162437/cxaxyyv3g5du0cnxq6q7.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+hash: 1730404800000+ChIJiSHcwycHl0cRxo9FnHSo9ZI
+id: r1oGbOFSZeZqZ9C5s0pr

@@ -1,0 +1,105 @@
+createdAt: 1704822881203
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1725765627821791/
+source: facebook
+updatedAt: 1704822881203
+username: wedancebot
+venue:
+  formatted_address: Carrer de la Rioja, 41, 43, 46730 Gandia, Valencia, Spain
+  website: https://www.gandiapalace.com/?utm_source=google&utm_medium=business&utm_campaign=maps
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: VS Gandía Palace Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.169886030291502
+        lat: 39.0045936697085
+      northeast:
+        lng: -0.167188069708498
+        lat: 39.0072916302915
+    location:
+      lng: -0.1687892
+      lat: 39.0059733
+  address_components:
+    - types:
+        - subpremise
+      short_name: "43"
+      long_name: "43"
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Carrer de la Rioja
+      long_name: Carrer de la Rioja
+    - types:
+        - locality
+        - political
+      short_name: Gandia
+      long_name: Gandia
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: V
+      long_name: Valencia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "46730"
+      long_name: "46730"
+  international_phone_number: +34 962 84 82 00
+  place_id: ChIJMUWMW-7CYQ0RG5QmKFqWs7w
+  url: https://maps.google.com/?cid=13597377013926499355
+visibility: Public
+endDate: 1713758400000
+org:
+  owner: ""
+  importedAt: 1704822885364
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/FeverBachataSpain
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/310113888_538251638306900_8202585005260731669_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=596444&_nc_ohc=LAcn9-XcqQEAX8OjDN7&_nc_ht=scontent-iad3-1.xx&oh=00_AfDz_X6qqSgjW5KkF25XQWuWkVZv8IVTMU6i77jTCnXVFw&oe=65A2D94E
+  source: facebook
+  type: Organiser
+  createdAt: 1704822885364
+  owned: false
+  name: Fever Bachata
+  place: ChIJ27xZLTToYQ0RcWdI1pBvHoQ
+  updatedAt: 1704822885364
+  username: FeverBachataSpain
+claimed: No
+facebookId: "1725765627821791"
+link: https://lasalsadelbaile.com/comprar/FBWC2024
+description: "Muy pronto toda la información .. "
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Fever Bachata World Congress 2024 Cartoon Edition
+online: No
+styles: {}
+place: ChIJ27xZLTToYQ0RcWdI1pBvHoQ
+international: No
+hash: 1713456000000+ChIJMUWMW-7CYQ0RG5QmKFqWs7w
+startDate: 1713456000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWD56qyWlrD7kXdJk3d0f.png?generation=1704822909045257&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853315/uidpfyakwth0x4ux2jux.jpg
+viewsCount: 49
+id: WD56qyWlrD7kXdJk3d0f

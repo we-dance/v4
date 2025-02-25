@@ -1,0 +1,139 @@
+venue:
+  website: https://www.salsa-y-corazon.de/
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Zenettistraße
+      short_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80337"
+      short_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  name: Salsa Y Corazon - dance school
+  geometry:
+    viewport:
+      south: 48.12187606970849
+      north: 48.12457403029149
+      east: 11.5593379802915
+      west: 11.5566400197085
+    location:
+      lng: 11.557894
+      lat: 48.12314479999999
+  international_phone_number: +49 172 9659579
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+endDate:
+  _seconds: 1635631200
+  _nanoseconds: 0
+claimed: Yes
+organisedBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+description: |-
+  Salsa Bachata Halloween Tanzparty 
+  am 30.10.21 ab 21 Uhr 
+  Im Vorprogramm:
+  19-20 Uhr Bachata Mittelstufe Workshop mit Rubén 
+  20-21 Uhr Salsa Mittelstufe Workshop mit Marion 
+  Bitte um Anmeldung für die Workshops unter : info@salsa-y-corazon.de
+
+  Preis pro Workshop € 10,-
+  Party € 10,-
+  2 Workshops und Party € 25,- 
+  1 Workshop und Party € 20,- 
+
+  Keine Maskenpflicht!
+
+  Einlass für die Party nur mit 3G+  
+
+
+  Daher keine Registrierung für die Party vorher nötig 
+
+  Tanzstudio Salsa Y Corazon, Zenettistraße 7, München
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FLFoKqVBwSpYYkfNNAAst2m3KONw2%2F3adefd50-7d18-4a1e-b58a-e11ef1537185?alt=media&token=228b0c0f-c2cd-4339-913c-83566344e6de
+duration: "300"
+promo: Yes
+createdAt: 1634568707517
+watchersCount: 0
+price: 10€
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgfAJU2iBjjt48z5eTy55.png?generation=1635336073867496&alt=media
+commentsLast: ~
+promoter: Morena
+promotedBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+id: gfAJU2iBjjt48z5eTy55
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 15
+updatedAt: 1634568707517
+website: "www.Salsa-y-corazon.de/News "
+updatedBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+visibility: Public
+eventType: Party
+organiser: Morena
+form: Yes
+createdBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+commentsCount: 0
+name: Salsa Bachata Halloween Party am 30.10.21
+online: No
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-30T17:00:00.000Z
+username: Morena
+viewsCount: 74

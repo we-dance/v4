@@ -1,0 +1,147 @@
+endDate: 1719781200000
+sourceUrl: https://www.facebook.com/events/1100034427814955/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1708453095000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1710951961000
+facebookId: "1100034427814955"
+facebook: https://www.facebook.com/events/1100034427814955/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1100034427814955/
+eventType: Party
+providerItemId: e1100034427814955@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Latin Sunday - Free Family Dance Social and Market
+location: New World Tampa
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719770400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 810 E Skagway Ave, Tampa, FL 33604, USA
+  website: http://www.newworldtampa.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: New World Tampa
+  geometry:
+    viewport:
+      southwest:
+        lng: -82.4538099302915
+        lat: 28.03094796970849
+      northeast:
+        lng: -82.45111196970849
+        lat: 28.0336459302915
+    location:
+      lng: -82.4524689
+      lat: 28.0324123
+  address_components:
+    - types:
+        - street_number
+      short_name: "810"
+      long_name: "810"
+    - types:
+        - route
+      short_name: E Skagway Ave
+      long_name: East Skagway Avenue
+    - types:
+        - neighborhood
+        - political
+      short_name: Lowry Park North
+      long_name: Lowry Park North
+    - types:
+        - locality
+        - political
+      short_name: Tampa
+      long_name: Tampa
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hillsborough County
+      long_name: Hillsborough County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: FL
+      long_name: Florida
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "33604"
+      long_name: "33604"
+  international_phone_number: +1 813-304-0460
+  place_id: ChIJGSuR8FrEwogRutYYeYqDT8U
+  url: https://maps.google.com/?cid=14217727179392341690
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444465671
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/GozaderaLatinNights
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444465/kwjkogabbp1z2ebvjpit.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444465671
+  owned: false
+  name: Gozadera - Tampa Latin Nights
+  place: ChIJ6eTEqM7GwogR6Nb9FBMQFWA
+  updatedAt: 1715444465671
+  username: GozaderaLatinNights
+claimed: No
+link: ""
+description: >-
+  Join our free family dance event and market on June 30th.
+
+
+  Enjoy your Sunday with a great afternoon of music, dancing, food, drinks and vendors. Dance your Sunday away to your favorite music while enjoying our vendors and moving to your favorite Salsa, Bachata, Merengue and more.
+
+
+  No Cover! Kids friendly! Multiple vendors!
+
+
+  Complementary class by Tonos Latin Dance.
+
+
+  Hours:
+
+  Event Start - 2:30pm
+
+  Free Dance class - 3:00pm
+
+  Dance Social - 4:00pm
+
+
+  Relax, unwind, gather, celebrate and enjoy!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444467/ajiovd14bpzttemvzdni.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6eTEqM7GwogR6Nb9FBMQFWA
+international: No
+hash: 1719770400000+ChIJGSuR8FrEwogRutYYeYqDT8U
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fu1UIiGmJ2ksxE6FJNkdd.png?generation=1715444491748377&alt=media
+id: u1UIiGmJ2ksxE6FJNkdd

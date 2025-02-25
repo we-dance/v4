@@ -1,0 +1,194 @@
+isNew: true
+facebookId: "1042416770964381"
+facebookUrlsList:
+  - https://www.facebook.com/events/1042416770964381
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730818832381
+updatedAt: 1730818832381
+importedAt: 1730818832381
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48717-1731870000-1731875400@latinfo.hu
+providerCreatedAt: 1730797675000
+providerUpdatedAt: 1730797675000
+startDate: 1731870000000
+endDate: 1731875400000
+sourceUrl: https://www.facebook.com/events/1042416770964381
+location: Széchenyi Kertvendéglő, Állatkerti Krt. 9 - 11., Budapest, 1146, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "11"
+      short_name: "11"
+      types:
+        - street_number
+    - long_name: Állatkerti körút
+      short_name: Állatkerti krt.
+      types:
+        - route
+    - long_name: XIV. kerület
+      short_name: XIV. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1146"
+      short_name: "1146"
+      types:
+        - postal_code
+  formatted_address: Budapest, Állatkerti krt. 11, 1146 Hungary
+  geometry:
+    location:
+      lat: 47.518943
+      lng: 19.0834628
+    viewport:
+      northeast:
+        lat: 47.5203565802915
+        lng: 19.0848947802915
+      southwest:
+        lat: 47.5176586197085
+        lng: 19.0821968197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  international_phone_number: +36 30 906 1294
+  name: Széchenyi Garden Restaurant
+  place_id: ChIJ2bya1YXbQUcRYqJkNkaxYmk
+  url: https://maps.google.com/?cid=7593826836818469474
+  website: http://www.szechenyietterem.hu/
+visibility: Public
+org:
+  id: eBBGQql8ZjbSfSFG2Pzj
+  username: aholdritmusa
+  name: Ritmo de la Luna
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765533/klnyypjqtykckqnxnwal.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/aholdritmusa
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1042416770964381/
+link: ""
+description: >-
+  November 17-én, VASÁRNAP kora estétől, 18:00-22:30-ig egy vidám, könnyed Salsa
+  Partira várunk szeretettel, hogy jól végződjön és jól is induljon a hét!
+
+  (Éppen ezért korán kezdünk, hogy hétfőre feltöltődve és kipihenten kezdjük a hetet!)
+
+
+  📢A buli elején Salsa Challange Mini Workshoppal hangolódunk a partira!
+
+
+  Remek zenéket izzítunk Nektek!
+
+  🎺70% SALSA - 30% BACHATA, Cha - cha - cha, West Coast Swing 🎸
+
+
+  Baráti, vidám hangulat, remek társaság várható!🤩
+
+
+  Program
+
+  🔵17:50 - Kapunyitás
+
+  🔵18:00-18:45-ig 
+
+  Salsa Challenge Workshop
+
+  Tanár: Annamari
+
+  🔵18:45-22:30-ig - PARTY TIME!
+
+
+  70% SALSA - 30% BACHATA, Cha - cha - cha, West Coast Swing
+
+
+  Hexmex zenei válogatásai szólnak majd az este folyamán! 
+
+
+  Készüljetek! Tuti nem lehet ülve maradni majd!
+
+
+  Vezetett Ruedák és Hölgyválasz is lesz az este folyamán!
+
+
+
+  🧝‍♀️🦸‍♂️🙋‍♀️🙋‍♂️💃🕺
+
+
+  Csatlakozz Dance for Fun Luna Salsa Party FB csoportunkhoz, ahol mindig friss információkat találsz a bulijainkról és itt tudod megnézni a bulin készült fotóinkat is.
+
+
+  https://www.facebook.com/groups/929827887633933 
+
+
+  Várunk sok-sok szeretettel minden táncost, tánciskolától függetlenül, kezdőktől a mesterekig! 😊
+
+
+  ********************
+
+  Helyszín
+
+  Széchenyi Kertvendéglő
+
+  14. kerület, Állatkerti krt. 11.
+
+
+  *******************
+
+
+  Belépő
+
+  3 000 Ft/fő 
+
+
+  (A belépő tartalmazza a workshopon és a bulin való részvételt is. A belépő árát csak készpénzben tudod fizetni.)
+
+
+  A buli ideje alatt, hang- és képanyag felvétele is várható, így a belépőd megvásárlásával elfogadod és beleegyezel abba, hogy fotó, vagy videó készülhet rólad, amit utána a weboldalunkon és a facebook oldalunkon is megjeleníthetünk.
+
+
+  ************************
+
+
+  VÁRUNK SOK SZERETETTEL! :-)
+
+  https://www.ritmodelaluna.hu/aktu%C3%A1lis/sunday-salsa-party
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730818849/hodeasji5bfrmjhi1rrq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Sunday Salsa Party  november 17-én, a Szecskában! Dance for Fun !
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1731862800000+ChIJ2bya1YXbQUcRYqJkNkaxYmk
+id: lGXFsKVVVhPogiBR0p4t

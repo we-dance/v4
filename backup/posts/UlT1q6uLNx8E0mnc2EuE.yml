@@ -1,0 +1,124 @@
+isNew: true
+facebookId: "561373823139752"
+facebookUrlsList:
+  - https://www.facebook.com/events/561373809806420/561373823139752/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731942027656
+updatedAt: 1731942027656
+importedAt: 1731942027656
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48832-1732147200-1732233599@latinfo.hu
+providerCreatedAt: 1731927882000
+providerUpdatedAt: 1731927882000
+startDate: 1732147200000
+endDate: 1732233599000
+sourceUrl: https://www.facebook.com/events/561373809806420/561373823139752/
+location: Füge Udvar, Klauzál utca 19-21., Budapest, 1074
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "19"
+      short_name: "19"
+      types:
+        - street_number
+    - long_name: Klauzál utca
+      short_name: Klauzál u.
+      types:
+        - route
+    - long_name: VII. kerület
+      short_name: VII. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1072"
+      short_name: "1072"
+      types:
+        - postal_code
+  formatted_address: Budapest, Klauzál u. 19, 1072 Hungary
+  geometry:
+    location:
+      lat: 47.4982918
+      lng: 19.0665025
+    viewport:
+      northeast:
+        lat: 47.4995973802915
+        lng: 19.0678000302915
+      southwest:
+        lat: 47.49689941970851
+        lng: 19.0651020697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  international_phone_number: +36 20 200 1000
+  name: Füge Udvar
+  place_id: ChIJTSTv2mfcQUcRrQvxCmgABqA
+  url: https://maps.google.com/?cid=11530904342788901805
+  website: https://fugeudvar.hu/
+visibility: Public
+org:
+  id: nD23oRVHFCEDLp84nONP
+  username: mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/561373809806420/?event_time_id=561373823139752
+link: ""
+description: >-
+  Kora este: 20:30-tól fél 1-ig × ingyenes Salsa-Bachata buli a város közepén
+
+  -->Early evening free entrance Salsa-Bachata party in the heart of Budapest × Start: 8:30pm
+
+
+  RUHATÁR használata kötelező - átellenben, a másik udvarban van a ruhatár, 20 méterre a salsa teremtől, szemben
+
+  --> The CLOAKROOM is mandantory - it's opposite the salsa room, go straight ahead. You'll find it in the other court of the venue.
+
+
+  Ételt és italt behozni nem szabad, a táskákat a bejáratnál ellenőrizhetik. A Fügében enni, inni kapsz :) csak kérned kell ;)
+
+  --> Please leave all drinks and food at home, your bad may be checked at the entrance. In the bar there's plenty to eat and drink, all you need to ask :)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731942039/smdlxmvfbh0ou8baikdt.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: "Füge Udvar Salsa-Bachata × minden Csütörtök-Thursdays × DJ Tombao ×
+  ingyenes-free × Start: 20:30"
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1732217400000+ChIJTSTv2mfcQUcRrQvxCmgABqA
+id: UlT1q6uLNx8E0mnc2EuE

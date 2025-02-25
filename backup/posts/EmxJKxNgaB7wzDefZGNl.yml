@@ -1,0 +1,199 @@
+endDate: 1728698400000
+sourceUrl: https://www.facebook.com/events/3417537938540409/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1725643360000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725643360000
+facebookId: "3417537938540409"
+facebook: https://www.facebook.com/events/3417537938540409/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3417537938540409/
+eventType: Party
+providerItemId: e3417537938540409@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Absolu'SBK- VENDREDI 11 OCTOBRE - 4 SALLES - SALSA BACHATA KIZOMBA EDITION
+  OCTOBRE ROSE
+location: 8 AVENUE DE SCANDINAVIE, 91940 Les Ulis, France
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728673200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 8 Av. de Scandinavie, 91940 Les Ulis, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 8 Av. de Scandinavie
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.199926969708498
+        lat: 48.6860584197085
+      northeast:
+        lng: 2.202624930291502
+        lat: 48.68875638029149
+    location:
+      lng: 2.2012366
+      lat: 48.6871537
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Av. de Scandinavie
+      long_name: Avenue de Scandinavie
+    - types:
+        - locality
+        - political
+      short_name: Les Ulis
+      long_name: Les Ulis
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Essonne
+      long_name: Essonne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "91940"
+      long_name: "91940"
+  place_id: ChIJWZUNvDzW5UcR1T0YinKVZB8
+  url: https://maps.google.com/?q=8+Av.+de+Scandinavie,+91940+Les+Ulis,+France&ftid=0x47e5d63cbc0d9559:0x1f6495728a183dd5
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/EcoleSiDance
+  name: Ecole SI Dance LES ULIS
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417922/rlgkn4yc596nnedxpwpz.jpg
+  bio: ""
+  id: l5C30ISgfDFBARfQJVOR
+  instagram: ""
+  username: EcoleSiDance
+claimed: No
+link: ""
+description: >-
+  VENDREDI 11 OCTOBRE - 
+   C'est la rentrée  !
+  EDITION OCTOBRE ROSE DressCode UNE TOUCHE DE ROSE 
+
+
+  🎉 4 SALLES - 4 STYLES - - 6 COURS!
+
+  NOUS SOUHAITERIONS COMMENCER LES COURS À 21h30 précise afin de vous laisser profiter un peu plus de la soirée dansante !!
+
+  Le club ouvrira donc ces portes à 21H, afin d’être prêt pour commencer à l’heure !!
+
+  💫21H30 - 22H15
+
+  -> Bachata  DÉBUTANT avec KEYMO ET JASMINE
+
+  -> Urban'kiz DEBUTANT avec JEFF et GHYS 
+
+  -> Salsa INTERMEDIAIRE avec HERMINIO ET CAROLE
+
+  💫22h15 à 23h00 :
+
+  -> Salsa DEBUTANT avec HERMINIO ET CAROLE
+
+  -> Urbankiz INTER avec JEFF et GHYS 
+
+  -> Bachata  INTERMÉDIAIRE avec KEYMO ET JASMINE
+
+
+  💫À PARTIR DE 23h la soirée commence dans les 3 salles /
+
+  Ouverture de la douceur à 1h
+
+  🎧 LINE UP
+
+  🎚️ GRANDE SALLE BACHATA avec DJ ANTONIO
+
+  🎚️ SALLE KIZOMBA  avec DEEJAY MOY
+
+  🎚️ SALSA avec DJ ALAAKA
+
+
+  Présence de Taxis
+
+  💵ENTRÉE POUR TOUS
+
+  12 €
+
+  6 cours au choix soirée 4 salles 4 ambiances + Soft et Buffet sucré à volonté
+
+  Punch contre un Smile ! 🙂
+
+  Vestiaires OBLIGATOIRE : 2 €
+
+
+  💸PAIEMENT CB attention pas de sans contact
+
+  - ESPÈCES (merci de faire l'appoint)
+
+
+  ATTENTION STATIONNEMENT INTERDIT DEVANT LES PORTAILS DE LA ZONE DE COURTABOEUF SOUS PEINE DE FOURRIERE 
+
+
+  📍STUDIO SI DANCE
+
+  ZAC COURTABOEUF
+
+  SPORT INDOOR
+
+  8 AV DE SCANDINAVIE
+
+  91940 LES ULIS
+
+  BOUGEZ DANSEZ VIBREZ 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418009/c8inzhxbe8x6t8isgro1.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ3w9g_OHV5UcRh6jQuXEwl1k
+international: No
+hash: 1728673200000+ChIJWZUNvDzW5UcR1T0YinKVZB8
+viewsCount: 1
+id: EmxJKxNgaB7wzDefZGNl

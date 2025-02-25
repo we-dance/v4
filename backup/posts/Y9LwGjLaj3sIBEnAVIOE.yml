@@ -1,0 +1,141 @@
+venue:
+  formatted_address: Schloß Nymphenburg 1, 80638 München, Germany
+  website: https://www.schloss-nymphenburg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "1"
+      short_name: "1"
+    - types:
+        - route
+      long_name: Schloß Nymphenburg
+      short_name: Schloß Nymphenburg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Neuhausen-Nymphenburg
+      short_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80638"
+      short_name: "80638"
+  url: https://maps.google.com/?cid=2831732920968703334
+  name: Nymphenburg Palace
+  geometry:
+    viewport:
+      south: 48.15709676970851
+      north: 48.1597947302915
+      east: 11.5112847
+      west: 11.5006575
+    location:
+      lng: 11.5033143
+      lat: 48.1582675
+  place_id: ChIJLWiif8x3nkcRZm0epRZWTCc
+  international_phone_number: +49 89 179080
+endDate: 2021-12-12T18:30:00.000Z
+organisedBy: ""
+claimed: No
+description: >
+  Coming Sunday, 12 December 2021, I will be there for you in my last workshop
+  of this year. The location could hardly be more amazing this time: We will
+  dance in no other place than Schloss Nymphenburg!
+
+
+  The topic of the Workshop will be Volcada combinations – The goal is to start out with a solid Volcada technique and then learn some smooth and danceable combinations using that technique.
+
+
+  The class language will depend on you - It will be German, English or Spanish ;)
+
+
+  After the workshop, I will offer a guided practica where you can just practice or ask me any questions about your Tango.
+
+
+  Here is all the info:
+
+
+  Time Workshop: 17:00 – 18:30 (90 minutes)
+
+  Time Guided Practica: 18:30 – 19:30 (60 minutes)
+
+  Level of the Workshop: Advanced
+
+  Price Workshop: 20 Eur/Person
+
+  Price Workshop + Guided Practica: 25 Eur/Person
+
+  Address: Schloss Nymphenburg, Orangerietrakt (right side when you look at the castle), Johannissaal
+
+
+  Please note: Workshop and practica are under 2GPlus rule; For participating in the workshop or the practica, you need a valid certificate for a complete COVID vaccination, recovery AND a negative COVID Schnell- or PCR Test.
+
+
+  For registration or any questions, please write to: info@federicosuareztango.com
+
+
+  Looking forward to seeing you Sunday!
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F98055dd3-e8b8-4f10-b875-705090ee768d?alt=media&token=2e064a4d-5bd8-456c-9e5a-3fe58a596591
+createdAt: 1639251437004
+watchersCount: 0
+price: 20-25 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FY9LwGjLaj3sIBEnAVIOE.png?generation=1639311965924317&alt=media
+commentsLast: ~
+promoter: Vitali
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+id: Y9LwGjLaj3sIBEnAVIOE
+international: No
+views: 6
+updatedAt: 1639251437004
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/volcada-workshop-practica-schl/658487725160240/
+eventType: Workshop
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Volcada Workshop and practica @ Schloß Nymphenburg
+online: No
+styles: {}
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-12T16:00:00.000Z
+username: Vitali
+viewsCount: 15

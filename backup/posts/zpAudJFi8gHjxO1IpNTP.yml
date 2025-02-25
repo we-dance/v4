@@ -1,0 +1,96 @@
+venue:
+  website: http://www.salsabor.de/
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80798"
+      short_name: "80798"
+  url: https://maps.google.com/?cid=13068910098957006739
+  name: Salsabor Dance Academy
+  geometry:
+    viewport:
+      south: 48.1506543197085
+      north: 48.1533522802915
+      east: 11.5672969802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+  international_phone_number: +49 89 52059610
+endDate:
+  _seconds: 1649097000
+  _nanoseconds: 0
+claimed: No
+type: event
+promo: ""
+duration: "90"
+createdAt: 1648727621223
+artists: []
+price: 75 - 90 €
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1648727621223
+updatedBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2F6fb9415f-775b-43a3-9ab5-7eead510f8d0?alt=media&token=d1f4d624-42ff-4b1e-8b3e-5b8c854a916b
+  name: Carlos
+  username: Carlos
+eventType: Course
+form: No
+createdBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+name: Salsa LA Beginner I
+online: No
+styles:
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-04-04T19:00
+username: Carlos
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2F4c352f95-1a86-4943-90a0-4d19ca9b7855?alt=media&token=b73eb5a0-b5ca-4c61-8000-7384888193a1
+id: zpAudJFi8gHjxO1IpNTP
+description: |-
+  Please sign in for our monthly course with our form:
+  Anmeldeformular www.salsabor.de/kursanmeldung/ 
+watch:
+  count: 1
+  list:
+    Carlos: true
+viewsCount: 9

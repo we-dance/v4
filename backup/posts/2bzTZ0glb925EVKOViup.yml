@@ -1,0 +1,88 @@
+endDate: 2023-02-19T19:30
+claimed: No
+link: https://checkout.stripe.com/c/pay/cs_live_a1asYlD1gAnb7s40rL0mMOVpv3avc0w5TjKThIBPmlVu6myz1Ceyj6j0Dx#fidkdWxOYHwnPyd1blppbHNgWnRVXWdET2BPVWwxN3FpXUFQdmt1NEJOVycpJ3VpbGtuQH11anZgYUxhJz8nYFNkNTVUMDdvMzBwNU0zNDFgJ3gl
+description: |-
+  BACHATA💃🤩
+  This Monday! FEBRUARY 20th!
+  At 19:00 CET (Central European Time)
+
+  Don’t miss it!
+
+  ❗️JOIN this Live Zoom!
+
+  🌎JOIN our GLOBAL COMMUNITY
+  DANCE for LADIES🌎
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fbd6b368d-b34a-4db4-a35b-a2105ab20a7f?alt=media&token=50f13e4c-a02b-4feb-9ec3-6ad42f018d34
+createdAt: 1676791662189
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    instagram: https://instagram.com/milite_anna
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    username: AnnaMil
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: danceforladies
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/danceforladies
+    id: ebEn9VfkWrSNxMogi5tJ
+    username: danceforladies
+price: 6 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - AnnaMil
+  - danceforladies
+international: No
+updatedAt: 1676791662189
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  instagram: https://instagram.com/danceforladies
+  username: danceforladies
+eventType: Workshop
+form: No
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Bachata LadyStyling Online
+online: Yes
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-20T19:00
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F2bzTZ0glb925EVKOViup.png?generation=1676888866349045&alt=media
+telegram:
+  requestedAt: 1676888907700
+  messageUrl: https://t.me/WeDanceMunich/926
+  publishedAt: 1676888910427
+  messageId: 926
+  state: published
+instagram:
+  requestedAt: 1676888911589
+  messageUrl: https://instagram.com/p/Co4YB3HuNyH
+  publishedAt: 1676888926430
+  messageId: Co4YB3HuNyH
+  state: published
+star:
+  count: 0
+  list: {}
+viewsCount: 46
+id: 2bzTZ0glb925EVKOViup

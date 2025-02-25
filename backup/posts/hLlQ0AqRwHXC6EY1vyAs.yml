@@ -1,0 +1,159 @@
+isNew: true
+facebookId: "1013498247130736"
+facebookUrlsList:
+  - https://facebook.com/events/s/salsamantes-13th-anniversary-w/1013498247130736/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729692043709
+updatedAt: 1729692043709
+importedAt: 1729692043709
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerItemId: cksm6p9k6hj66b9j60qjgb9k6hj34bb16kr64b9n6lgjechp6cqj6cpj6g@google.com
+name: "Salsamante's 13th Anniversary Weekend "
+providerCreatedAt: 1729634413000
+providerUpdatedAt: 1729634413000
+startDate: 1733531400000
+endDate: 1733709600000
+sourceUrl: https://facebook.com/events/s/salsamantes-13th-anniversary-w/1013498247130736/
+location: 2809 Festival Ln, Dublin, OH
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Festival
+approved: true
+username: yatusabes.blog
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+venue:
+  address_components:
+    - long_name: "2809"
+      short_name: "2809"
+      types:
+        - street_number
+    - long_name: Festival Lane
+      short_name: Festival Ln
+      types:
+        - route
+    - long_name: Don Scott
+      short_name: Don Scott
+      types:
+        - neighborhood
+        - political
+    - long_name: Dublin
+      short_name: Dublin
+      types:
+        - locality
+        - political
+    - long_name: Franklin County
+      short_name: Franklin County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Ohio
+      short_name: OH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "43017"
+      short_name: "43017"
+      types:
+        - postal_code
+    - long_name: "2363"
+      short_name: "2363"
+      types:
+        - postal_code_suffix
+  formatted_address: 2809 Festival Ln, Dublin, OH 43017, USA
+  geometry:
+    location:
+      lat: 40.0924604
+      lng: -83.0896073
+    viewport:
+      northeast:
+        lat: 40.0939069802915
+        lng: -83.0883177697085
+      southwest:
+        lat: 40.0912090197085
+        lng: -83.0910157302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 2809 Festival Ln
+  place_id: ChIJo-db_K-SOIgRgJtf3nxkcDg
+  url: https://maps.google.com/?q=2809+Festival+Ln,+Dublin,+OH+43017,+USA&ftid=0x883892affc5be7a3:0x3870647cde5f9b80
+visibility: Public
+org:
+  id: oDKgwZq7FEIGsvAZd8ln
+  username: salsamante.dance.aca
+  name: Salsamante Dance Academy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444466/aaafr28sdsr6b5exvypg.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/SalsamanteDanceAcademy
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1013498247130736/
+link: https://www.eventbrite.com/e/salsamantes-13th-anniversary-weekend-tickets-1045191665407?aff=oddtdtcreator
+description: >+
+  What a wonderful 13 years its been for Mid-Ohio's Salsamante Dance Academy.
+  Here's what to expect:
+
+  3 Nights of Dancing 
+
+  2 Days of Workshops 
+
+  1 Night of Performances 
+
+
+  Friday December 6th 
+
+  Pre-Party at Grandview Salsa 
+
+  Dance Edge 1400 Dublin Rd Suite 103 
+
+  Columbus OH 43215
+
+  730pm - 2am 
+
+
+  December 7th & 8th
+
+  Emerald City Ballroom 2809 Festival Lane Dublin OH 43017 
+
+  Workshops 1pm-5pm
+
+
+  December 7th 
+
+  Emerald City Ballroom 
+
+  Anniversary Party 9pm-2am 
+
+  Performances & Dance Party 
+
+
+  After-Party 
+
+  More Details Later.......
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729692056/zswjwz7crwholdonyoqu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJvZYqUFyNOIgR6n3591Ka-zg
+international: No
+hash: 1733531400000+ChIJo-db_K-SOIgRgJtf3nxkcDg
+id: hLlQ0AqRwHXC6EY1vyAs

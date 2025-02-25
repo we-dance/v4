@@ -1,0 +1,165 @@
+createdAt: 1704822884076
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1503419377079060/
+source: facebook
+updatedAt: 1704822884076
+username: wedancebot
+venue:
+  formatted_address: 10 Newton Road, Grey Lynn, Auckland 1010, New Zealand
+  website: http://www.vivadance.co.nz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Viva Dance Studios
+  geometry:
+    viewport:
+      southwest:
+        lng: 174.7521647697085
+        lat: -36.8619022302915
+      northeast:
+        lng: 174.7548627302915
+        lat: -36.85920426970851
+    location:
+      lng: 174.7536438
+      lat: -36.8604882
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Newton Rd
+      long_name: Newton Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Grey Lynn
+      long_name: Grey Lynn
+    - types:
+        - locality
+        - political
+      short_name: Auckland
+      long_name: Auckland
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auckland
+      long_name: Auckland
+    - types:
+        - country
+        - political
+      short_name: NZ
+      long_name: New Zealand
+    - types:
+        - postal_code
+      short_name: "1010"
+      long_name: "1010"
+  international_phone_number: +64 9 376 7900
+  place_id: ChIJTYXDGMBHDW0Rkigwl-QjQvA
+  url: https://maps.google.com/?cid=17312439382261639314
+visibility: Public
+endDate: 1714921200000
+org:
+  owner: ""
+  importedAt: 1704822892043
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ZoukCentralNZ
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/227983321_4930591713623999_2137311131400196695_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=596444&_nc_ohc=szf9_AjZYuoAX-OwzqX&_nc_oc=AQlGxWPWi_PGsh92W-IFT5Tcm70RJjR_X-EyuuWZLVKwZ4n8TjQb25Oy5fMrN6B5Y6I&_nc_ht=scontent-iad3-1.xx&oh=00_AfDS5AEfduvO1FAu5FNsBoFYpiV7RmxuE2wzLHyI62xApA&oe=65A29B26
+  source: facebook
+  type: Organiser
+  createdAt: 1704822892043
+  owned: false
+  name: "Zouk Central: NZ Brazilian Dance Festival"
+  place: ChIJ--acWvtHDW0RF5miQ2HvAAU
+  updatedAt: 1704822892043
+  username: ZoukCentralNZ
+claimed: No
+facebookId: "1503419377079060"
+link: https://www.zoukcentral.co.nz/shop-2/
+description: >
+  Join us for the most anticipated Zouk event in New Zealand - Zouk Central
+  2024! 2nd - 5th May in Auckland! www.zoukcentral.co.nz
+
+
+  INTERNATIONAL artists:
+
+  Mathilde & Leo - France/Brazil
+
+  Bruno & Raiza - Brazil, Portugal
+
+  Saulo & Yasmim - Brazil
+
+  Sarah & Bruno - Brazil/Australia
+
+  ....More to announce!
+
+
+  NZ artists:
+
+  Leo Neves - Brazil/NZ
+
+  Shannon & Trajano - Argentina/NZ
+
+  ....More to announce!
+
+
+  DJs
+
+  COMING SOON!
+
+
+  Featuring:
+
+  International and National artists
+
+  30+ workshops over 3 days. Check out our 2023 schedule to get an idea of the huge selection of exciting workshops coming your way! https://www.zoukcentral.co.nz/schedule/
+
+
+  3x parties till 3am plus pre party. Featuring guest Ausie DJs and your fave Kiwi DJs. 2x Party rooms plus a 3rd Flow Zone room! Saturday night party theme coming soon!
+
+  Thursday Intensive with Mathilde and Leo
+
+  Day Parties
+
+  Jack & Jill Novice, Intermediate and Advanced!
+
+  Our famous Zouk Central original "Prática with the Pros" x2!
+
+  International Artist Showcase...
+
+  And more!
+
+  Get your pass here:
+
+  www.zoukcentral.co.nz/shop-2/
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: ZOUK CENTRAL 2024!
+online: No
+place: ChIJ--acWvtHDW0RF5miQ2HvAAU
+international: No
+hash: 1714622400000+ChIJTYXDGMBHDW0Rkigwl-QjQvA
+startDate: 1714622400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0NSirbRa8Im1AdOWhA9R.png?generation=1704822915934211&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851490/zdrxkydp2a0el3o086n0.jpg
+styles:
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 14
+id: 0NSirbRa8Im1AdOWhA9R

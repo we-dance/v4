@@ -1,0 +1,128 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/sarasota-salsa-bachata-fest/
+name: Sarasota Salsa & Bachata Fest 2025
+sourceUrl: https://facebook.com/events/484840321012258
+venue:
+  address_components:
+    - long_name: "1000"
+      short_name: "1000"
+      types:
+        - street_number
+    - long_name: Boulevard of the Arts
+      short_name: Boulevard of the Arts
+      types:
+        - route
+    - long_name: Sarasota
+      short_name: Sarasota
+      types:
+        - locality
+        - political
+    - long_name: Sarasota County
+      short_name: Sarasota County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Florida
+      short_name: FL
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "34236"
+      short_name: "34236"
+      types:
+        - postal_code
+  formatted_address: 1000 Boulevard of the Arts, Sarasota, FL 34236, USA
+  geometry:
+    location:
+      lat: 27.3410737
+      lng: -82.5492526
+    viewport:
+      northeast:
+        lat: 27.34197279999999
+        lng: -82.54663899999998
+      southwest:
+        lat: 27.33910120000001
+        lng: -82.5505526
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 941-953-1234
+  name: Hyatt Regency Sarasota
+  place_id: ChIJ1xeGlw9Aw4gRC92rxxSOc-k
+  url: https://maps.google.com/?cid=16821945253059353867
+  website: https://www.hyatt.com/hyatt-regency/en-US/srqss-hyatt-regency-sarasota?src=corp_lclb_google_seo_srqss&%3Futm_source=google&utm_medium=organic&utm_campaign=lmr
+endDate: 1757232000000
+claimed: No
+link: https://www.tickettailor.com/events/sarasotasalsabachata/1389169
+description: >-
+  Welcome to the 5th annual Sarasota Salsa and Bachata Festival in beautiful
+  Sarasota, Florida.
+
+
+  Come enjoy over 40 dance workshops, dance challenges and masterclasses from top of the line instructors, nightly showcases, insane pool parties, top Dj's, all the Latin dancing your body can handle.
+
+
+  Prices will increase accordingly: On the 1st of each month leading up to the event. Tickets are non-refundable. They may be transferable for a fee of ($25). Last day to transfer tickets will be September 1st, 2025. Your ticket purchase includes 1 wristband in accordance with your purchase. Wristbands must be worn at all times during the weekend/event. There is a wristband replacement fee of ($5). Prices at the door will differ from online. All online sale end September 3rd, 2025. If you won a pass at an promotional event, see organizer to claim. Only for winner, non performers only and may not be transferred nor sold.
+
+
+  https://www.tickettailor.com/events/sarasotasalsabachata/1389169
+
+
+  To Book hotel use link below. (TBA)
+
+
+  Tickets on sale use link below:
+
+  https://www.tickettailor.com/events/sarasotasalsabachata/1389169
+
+
+  LOCATION
+
+  Hyatt Regency Sarasota, 34236
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/ngdsz1zhsd8j20lgjn44.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJK8KyneY3w4gR2RVXHR00NeM
+international: No
+visibility: Public
+org:
+  id: FOA22QqzS0hoFGehd9n2
+  username: SarasotaSalsaBachata
+  name: Sarasota Salsa & Bachata Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954274/x92pdpvbxnct1s6vemc0.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/SarasotaSalsaBachata
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/484840321012258/
+facebookId: "484840321012258"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1757030400000+ChIJ1xeGlw9Aw4gRC92rxxSOc-k
+startDate: 1757030400000
+id: gugrangGct71yzHt7rQY

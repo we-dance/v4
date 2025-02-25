@@ -1,0 +1,132 @@
+venue:
+  formatted_address: Schillerstraße 23, 80336 München, Germany
+  website: https://www.mkhotels.de/de/muenchen-city/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "23"
+      short_name: "23"
+    - types:
+        - route
+      long_name: Schillerstraße
+      short_name: Schillerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80336"
+      short_name: "80336"
+  url: https://maps.google.com/?cid=12944722888733670252
+  name: mk | hotel münchen city
+  geometry:
+    viewport:
+      south: 48.1353451697085
+      north: 48.1380431302915
+      east: 11.5623832802915
+      west: 11.5596853197085
+    location:
+      lng: 11.561096
+      lat: 48.1367
+  international_phone_number: +49 8723 978712200
+  place_id: ChIJI--XBPh1nkcRbLvWGuLkpLM
+endDate:
+  _seconds: 1645138800
+  _nanoseconds: 0
+claimed: No
+type: event
+cover: ""
+promo: ""
+duration: "300"
+createdAt: 1645015196397
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1645015196397
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    Vitali: true
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+name: Bachata Übungsabend
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-17T19:00
+username: Vitali
+artists:
+  - youtube: ""
+    role: organiser
+    facebook: ""
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmGBrDaat7IOBChCiVQp6N9hB4sl1%2F081d12e2-ed2d-4c40-94ce-7de5bb6dbce1?alt=media&token=651098b8-1f50-43dd-9bfa-1976573991af
+    instagram: Mik3.467
+    tiktok: ""
+    name: Mik3.467
+    id: mGBrDaat7IOBChCiVQp6N9hB4sl1
+    username: Mik3.467
+org: ""
+description: >
+  Aufgepasst 😃
+
+  Unsere Bachateros und Bachateras organisieren eine private Party 💃🕺🎊🎊🎊🎉🎉🎉
+
+
+  Anmeldung entweder per WhatsApp, oder Insta
+
+  +4915216916871
+
+  Mik3.467
+
+
+  Beeilt Euch, es sind nur 12 Plätze verfügbar!!!
+
+
+  Bei der Veranstaltung gilt die 2G Regel
+id: F9oElyH38z5pZT0Yp3Ns
+viewsCount: 18

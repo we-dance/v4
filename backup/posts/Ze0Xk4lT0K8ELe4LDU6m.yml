@@ -1,0 +1,141 @@
+venue:
+  website: http://salsamas-pasing.de/
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  url: https://maps.google.com/?cid=8948474523406618165
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  international_phone_number: +49 89 74039681
+claimed: No
+link: https://salsamas-pasing.de
+type: event
+duration: 60
+promo: ""
+createdAt: 1664518166094
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1664518166094
+updatedBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/SalsamasMunich
+  name: Salsamas_Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+  instagram: https://instagram.com/salsamasmunich
+  id: h1Q2XunkwqSUqIxinKiNaghTlal1
+  username: Salsamas_Munich
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    AnnaNym: true
+createdBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+name: Crashkurs & Tanzabend
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-30T19:00
+username: AnnaNym
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FANSbpfvpBaX77CMzuTrWSp8escy1%2F511a0125-a6ba-42a4-ab4f-7383b882db77?alt=media&token=2503f6da-d242-4510-8b53-c093d6094671
+id: Ze0Xk4lT0K8ELe4LDU6m
+description: >-
+  Info aus Chatgruppe:
+
+
+  "Pablo Salsamas: Ab heute starten wir mit den Crashkursen und Tanzabenden! Diese Woche ist alles kostenlos 🙂
+
+
+  _Freitag, 30.09._ 
+
+  *Bachata Abend in Pasing*
+
+  19:00-20:00 Uhr - Kostenlosen Bachata Beginner Workshop 
+
+  20:00-22:00 Uhr - Tanzabend mit DJ Nicemixx
+
+
+  ☀️ Kommt zahlreich 😉🕺🏼💃🏻🤗
+
+  ☀️ Keine Voranmeldung erforderlich
+
+  ☀️ Diese Woche haben alle freien Eintritt"
+
+
+
+  -----
+
+
+  Bildquelle: <a href="https://www.freepik.com/free-vector/latin-dance-party-ballroom-club-school-master-class-with-dancing-couple-cartoon-motion-happy-woman-man-dancers-bachata-stylish-lettering-isolated-white_28945960.htm#query=Bachata&position=0&from_view=search">Image by studio4rt</a> on Freepik
+endDate: 2022-09-30T22:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZe0Xk4lT0K8ELe4LDU6m.png?generation=1664531655679187&alt=media
+telegram:
+  requestedAt: 1664531658929
+  messageUrl: https://t.me/WeDanceMunich/615
+  publishedAt: 1664531662245
+  messageId: 615
+  state: published
+viewsCount: 63

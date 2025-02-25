@@ -1,0 +1,115 @@
+venue:
+  website: http://www.salsa-onstage.de/
+  formatted_address: Haager Str. 10a, 81671 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 10a
+      short_name: 10a
+    - types:
+        - route
+      long_name: Haager Straße
+      short_name: Haager Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Berg am Laim
+      short_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81671"
+      short_name: "81671"
+  url: https://maps.google.com/?cid=3637923077162623314
+  name: Salsa OnStage
+  geometry:
+    viewport:
+      south: 48.1251639197085
+      north: 48.12786188029149
+      east: 11.6095120802915
+      west: 11.6068141197085
+    location:
+      lng: 11.6082717
+      lat: 48.1264051
+  place_id: ChIJEx0xXYXfnUcRUmF5nsN_fDI
+  international_phone_number: +49 178 3034004
+endDate:
+  _seconds: 1641840300
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: ""
+description: >-
+  You can learn Cuban Salsa. The most "Street" Salsa Style!
+
+
+
+  Attention This is a 2G+. You should be vaccinated / recovered + need a negative test to come in.
+type: event
+cover: ""
+duration: "60"
+createdAt: 1640295869009
+watchersCount: 0
+price: 69 EUR
+commentsLast: ~
+promoter: Vitali
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: lhGd1LotgQLAG2PBthNc
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+international: No
+views: 7
+updatedAt: 1640295869009
+website: https://www.salsa-onstage.de/kurse/
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Course
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa Cubana Beginner 1
+online: No
+styles:
+  Casino:
+    level: Beginner
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2022-01-10T17:45:00.000Z
+username: Vitali
+viewsCount: 17

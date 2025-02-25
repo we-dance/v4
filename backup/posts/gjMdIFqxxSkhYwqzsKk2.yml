@@ -1,0 +1,112 @@
+venue:
+  website: http://www.salsabor.de/
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80798"
+      short_name: "80798"
+  url: https://maps.google.com/?cid=13068910098957006739
+  name: Salsabor Dance Academy
+  geometry:
+    viewport:
+      south: 48.1506543197085
+      north: 48.1533522802915
+      east: 11.5672969802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+  international_phone_number: +49 89 52059610
+endDate:
+  _seconds: 1641643200
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: http://www.salsabor.de/kursanmeldung/
+description: >-
+  Learn the beautyfull Salsa LA Style at Beginner  Dance Worksop
+
+  Price: 60 EUR 2 Classes (50 EUR Students)
+
+
+
+
+  Attention
+
+  This is a 2G+. You should be vaccinated / recovered + need a negative test to come in.
+type: event
+duration: "120"
+cover: ""
+createdAt: 1640293488882
+watchersCount: 0
+price: 50-60 EUR
+commentsLast: ~
+promoter: Vitali
+id: gjMdIFqxxSkhYwqzsKk2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+international: No
+views: 5
+updatedAt: 1640293488882
+website: http://www.salsabor.de/kurse/salsa/
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Workshop
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa LA Beginner 1 Intensive
+online: No
+styles:
+  SalsaLA:
+    level: Beginner
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2022-01-08T10:00:00.000Z
+username: Vitali
+viewsCount: 11

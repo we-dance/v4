@@ -1,0 +1,229 @@
+endDate: 1726963200000
+sourceUrl: https://www.facebook.com/events/424577523432852/
+createdAt: 1718373634033
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709739959000
+updatedAt: 1718373634033
+importedAt: 1718373634033
+providerUpdatedAt: 1715695864000
+facebookId: "424577523432852"
+facebook: https://www.facebook.com/events/424577523432852/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/424577523432852/
+eventType: Congress
+providerItemId: e424577523432852@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: VIENNA BACHATA CONGRESS 2024
+location: Palais Wertheim
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726844400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Canovagasse 1a, 1010 Wien, Austria
+  website: http://www.palaiswertheim.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Palais Wertheim
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3724812697085
+        lat: 48.1998384697085
+      northeast:
+        lng: 16.3751792302915
+        lat: 48.2025364302915
+    location:
+      lng: 16.3736234
+      lat: 48.2010213
+  address_components:
+    - types:
+        - street_number
+      short_name: 1a
+      long_name: 1a
+    - types:
+        - route
+      short_name: Canovagasse
+      long_name: Canovagasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Innere Stadt
+      long_name: Innere Stadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1010"
+      long_name: "1010"
+  international_phone_number: +43 1 5032814
+  place_id: ChIJZ5e0ZZkHbUcRafvtVb9T3DY
+  url: https://maps.google.com/?cid=3953126654169971561
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718373650312
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/viennabachatacongress
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718373650/of8wc5eyonsyndqr2vdt.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718373650312
+  owned: false
+  name: Vienna Bachata Congress
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1718373650312
+  username: vienna.bachata.congr
+claimed: No
+link: ""
+description: >-
+  VIENNA BACHATA CONGRESS 2024
+
+  ... where Romance happens! ♥️
+
+
+  ••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+  Are you ready for "Social Dance Heaven"?
+
+
+  Join the VBC Crew as we fill your dancing dreams; swaying in the heart of Europe – Vienna! 
+
+  At the extravagant Palais Wertheim, your eyes will not be disappointed!
+
+  This gorgeous building is the backbone of our Congress,
+
+  where we hold workshops during the day, and parties all through the night.
+
+
+  From Friday the 20th to Sunday the 22nd of September, join us on a magical adventure and dance your weekend away. 
+
+
+  The amazing location is also right in the heart of the center of Vienna – meaning you can go and discover the city with your old AND new friends.
+
+  Workshops will be held in both the large and small hall of Palais Wertheim.
+
+
+  ••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+  LINE-UP - Amazing International Artists & Djs
+
+
+  • Pablo & Raquel
+
+  • Gero & Migle
+
+  • Cristian & Gabriella
+
+  • Sergio & Beige
+
+  • Owen & Eva
+
+  • Leo Cato
+
+  • Bachata Passion
+
+  • Dj Alejandro
+
+  • Dj Dimen5ions
+
+
+  and our very own:
+
+  • MyDance Vienna Team
+
+  • Dj Andy
+
+  • Dj Infinity
+
+
+  All incredible Photos, Videos & Media by
+
+  • PandaCam
+
+  • C-Studio
+
+  • Gwepa
+
+
+  ••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+  TICKETS and additional details here
+
+  🔗 https://www.viennabachatacongress.com
+
+
+  Be quick!  Tickets are limited!
+
+  ••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+  We look forward to dancing with YOU all!
+
+
+  See you in September at our 5th edition of Vienna Bachata Congress!
+
+
+  📲 Follow us in our social media to not miss any updates!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718373651/y2jugzlxrztvl8nruz1f.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1726844400000+ChIJZ5e0ZZkHbUcRafvtVb9T3DY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fc6BQgVn8Z4q46W4qkrA0.png?generation=1718373674748249&alt=media
+bookmarks: 0
+star:
+  count: 0
+  usernames: []
+  history:
+    - username: Rohit
+      date: 1725385842008
+      invitedBy: eOFqotyXrJQ5GJ9RxaGd5XsLOMh1
+      uid: eOFqotyXrJQ5GJ9RxaGd5XsLOMh1
+      action: joined
+    - username: Rohit
+      date: 1725385843799
+      invitedBy: eOFqotyXrJQ5GJ9RxaGd5XsLOMh1
+      uid: eOFqotyXrJQ5GJ9RxaGd5XsLOMh1
+      action: left
+viewsCount: 3
+id: c6BQgVn8Z4q46W4qkrA0

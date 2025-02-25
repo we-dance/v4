@@ -1,0 +1,183 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/apulia-bachata-congress/
+sourceUrl: https://facebook.com/events/1005852834875679
+venue:
+  address_components:
+    - long_name: Via della Pineta
+      short_name: Via della Pineta
+      types:
+        - route
+    - long_name: Specchiolla
+      short_name: Specchiolla
+      types:
+        - locality
+        - political
+    - long_name: Carovigno
+      short_name: Carovigno
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Provincia di Brindisi
+      short_name: BR
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Puglia
+      short_name: Puglia
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Italy
+      short_name: IT
+      types:
+        - country
+        - political
+    - long_name: "72012"
+      short_name: "72012"
+      types:
+        - postal_code
+  formatted_address: Via della Pineta, 72012 Specchiolla BR, Italy
+  geometry:
+    location:
+      lat: 40.7363354
+      lng: 17.7341843
+    viewport:
+      northeast:
+        lat: 40.7377283802915
+        lng: 17.7353027802915
+      southwest:
+        lat: 40.7350304197085
+        lng: 17.7326048197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +39 0832 351321
+  name: Riva Marina Resort - CDSHotels
+  place_id: ChIJFbmtxR5pRhMRET0ZGMKuJzs
+  url: https://maps.google.com/?cid=4262567720980659473
+  website: https://cdshotels.it/riva-marina-resort/
+endDate: 1746395940000
+claimed: No
+link: https://www.apuliabachatacongress.it/
+description: >-
+  🇮🇹 Il primo congresso dedicato unicamente alla Bachata del Sud Italia!
+
+
+  🗓️ 1-2-3-4 Maggio 2025 
+
+  🏨 Location: Riva Marina Resort - Ostuni 
+
+
+  Cosa troverete durante l'evento ❓
+
+  ✨️ 60 ore di stage 
+
+  Apulia Bachata Congress si compone di 60 ore di stage per studiare e migliorare il tuo stile
+
+
+  ✨️ FESTE A TEMA & POOL PARTY
+
+  Feste a tema per ballare con tutti gli artisti nazionali ed internazionali & Pool Party con i migliori Dj
+
+
+  ✨️ 3 SALE
+
+  con diverso stile musicale per scegliere la lezione durante gli stage mattutini e pomeridiani.
+
+
+  ✨️ 2 Serate di puro divertimento 
+
+
+  ✨️ Buon cibo e degustazioni di vino
+
+
+
+  🕺 Artists 💃
+
+  Kike Y Nahir
+
+  Jose Y Elena
+
+  Mariangeles y Rafa
+
+  Demetrio y Kenza
+
+  Simona Buonanno
+
+  Maurizio Bollo & Serena
+
+  Carlito y Victoria
+
+  Carmine y Claudia
+
+  Angelo y Sara
+
+  Vincenzo y Noemi
+
+  Luis y Isabi
+
+  Alex y Ana
+
+  Filippo y Alessandra
+
+  Antonella Masciopinto
+
+  Davide y Denise
+
+  Stiven y Mary
+
+  & more...
+
+
+  🎧 Djs 🎧
+
+  DJ TONY TIMBERO
+
+  & more...
+
+
+  I migliori artisti del mondo ti aspettano per studiare, ballare e divertirti con loro. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/q23s9ztt4cvyar9ivft0.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJFWrkxB5pRhMRCwols3jf3Fs
+international: No
+visibility: Public
+org:
+  createdAt: 1732293947279
+  importedAt: 1732293947279
+  updatedAt: 1732293947279
+  source: facebook
+  name: Apulia Bachata Congress
+  facebook: https://www.facebook.com/apuliabachatacongress
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/x6iw7r0negypgmmqcnpg.jpg
+  username: apulia.bachata.congr
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJFWrkxB5pRhMRCwols3jf3Fs
+facebook: https://www.facebook.com/events/1005852834875679/
+facebookId: "1005852834875679"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Apulia Bachata Congress "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1746050400000+ChIJFbmtxR5pRhMRET0ZGMKuJzs
+startDate: 1746050400000
+id: jazgs2eTS4VJoSWL4RPs

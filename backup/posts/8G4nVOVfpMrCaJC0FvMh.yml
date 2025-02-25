@@ -1,0 +1,40 @@
+city: Istanbul
+endDate: 2021-03-03T19:00:00.000Z
+link: https://www.instagram.com/p/CLzhRvOLU3M/?igshid=5oodnybdi84v
+description: Tek Ders 80 TL, Full Paket 220 TL
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F871c1e17-7312-4786-a991-32dda2f0429e?alt=media&token=cb8270cc-5bae-4622-add4-8e4a53e5852c
+createdAt: 1614455746568
+watchersCount: 0
+price: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F8G4nVOVfpMrCaJC0FvMh.png?generation=1614455770853628&alt=media
+commentsLast: ~
+place: ChIJawhoAASnyhQR0LABvJj-zOE
+id: 8G4nVOVfpMrCaJC0FvMh
+updatedAt: 1617065896062
+address: Dansorium Dans Merkezi
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Workshop
+organiser: aslihan
+form: Yes
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+commentsCount: 0
+name: Intensive Dancehall
+styles:
+  Dancehall:
+    level: Interested
+    selected: true
+region:
+  name: Istanbul
+  location:
+    country: Turkey
+    latitude: 41.0082376
+    locality: İstanbul
+    usedGps: false
+    place_id: ChIJawhoAASnyhQR0LABvJj-zOE
+    longitude: 28.9783589
+startDate: 2021-03-03T16:00:00.000Z
+username: aslihan
+viewsCount: 56

@@ -1,0 +1,142 @@
+venue:
+  formatted_address: Holstenstraße 24, 24103 Kiel, Germany
+  website: http://www.foerdelodge.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Förde Lodge Kiel
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.1391355302915
+      south: 54.3211682697085
+      north: 54.32386623029149
+      west: 10.1364375697085
+    location:
+      lng: 10.1379581
+      lat: 54.3224751
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Holstenstraße
+      long_name: Holstenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: KI
+      long_name: Kiel
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kiel
+      long_name: Kiel
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SH
+      long_name: Schleswig-Holstein
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "24103"
+      long_name: "24103"
+  place_id: ChIJdxYTcLJXskcRkYdtItma5v8
+  url: https://maps.google.com/?cid=18439595981691258769
+  international_phone_number: +49 177 8777504
+endDate: 2023-03-10T22:00
+claimed: No
+link: https://www.facebook.com/MazenUndLeaBachata
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fx52TNWvlAAUDpaBjtUj7tDBHssn2%2F7a00bf9b-b26d-4964-8d37-082cc2fe9986?alt=media&token=eeafff4b-7417-4d2a-bd70-da5bf9c82fba
+promo: ""
+createdAt: 1673211673159
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: mazen_bachatero
+    photo: ""
+    bio: ""
+    id: BAJv7e35A0PUWtaVgGid
+    instagram: https://instagram.com/mazen_bachatero
+    username: mazen_bachatero
+price: 64-88 EUR
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+artistsList:
+  - mazen_bachatero
+international: No
+updatedAt: 1673211673159
+updatedBy: x52TNWvlAAUDpaBjtUj7tDBHssn2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: lea_bachata
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fx52TNWvlAAUDpaBjtUj7tDBHssn2%2F611cfdf2-027f-43b1-826d-51802e69f666?alt=media&token=8dffdb40-fa48-431b-b4d5-ef23b9c054b3
+  id: x52TNWvlAAUDpaBjtUj7tDBHssn2
+  instagram: lea.rebensburg
+  username: lea_bachata
+facebook: https://m.facebook.com/events/701979101486493
+eventType: Course
+form: No
+createdBy: x52TNWvlAAUDpaBjtUj7tDBHssn2
+watch:
+  count: 1
+  list:
+    lea_bachata: true
+name: Bachata Sensual/Fusion Kiel - Neue Kurse ab 13.01.23
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-13T18:30
+username: lea_bachata
+id: W2MMnzM4RPpUrDvftazb
+description: >-
+  Anfänger:
+
+  Dieser Kurs richtet sich an alle, die Bachata Sensual neu lernen möchten oder schon Vorkenntnisse aus anderen Bachatastilrichtungen haben. Ihr werdet die Basiselemente (Body Rolls, Waves etc.) und deren Lead- und Followtechniken kennenlernen, sodass ihr in der Lage seid, mit nationalen und internationalen Bachateros/as zu tanzen.
+
+
+  Mittelstufe I:
+
+  Dieser Kurs ist für all diejenigen, die schon etwas länger Bachata tanzen und schon öfter an unseren Workshops teilgenommen oder einige Sensualelemente anderweitig gelernt haben. Ihr werdet die wichtigsten Elemente in verschiedenen Kombinationen kennenlernen und dabei eure Lead- und Followtechnik verfeinern.
+
+
+  Mittelstufe II:
+
+  Dieser Kurs richtet sich an fortgeschrittenere TänzerInnen, die bereits Erfahrungen in Bachata Sensual haben. Gemeinsam werden wir coole neue Figuren erarbeiten sowie an Timing, Musicality und Connection arbeiten.
+
+  Kursgebühr:
+
+
+  88€ / 64€ für Studis und Azubis
+
+
+  Preisnachlass bei zu Kursbeginn bekannten Fehltagen möglich
+
+
+  Wir freuen uns auf euch!
+viewsCount: 6

@@ -1,0 +1,157 @@
+venue:
+  formatted_address: Fraunhoferstraße 23I, 80469 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Fraunhoferstraße 23I
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5752657802915
+      south: 48.1283199197085
+      north: 48.1310178802915
+      west: 11.5725678197085
+    location:
+      lng: 11.5739791
+      lat: 48.129706
+  address_components:
+    - types:
+        - street_number
+      short_name: 23I
+      long_name: 23I
+    - types:
+        - route
+      short_name: Fraunhoferstraße
+      long_name: Fraunhoferstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  url: https://maps.google.com/?q=Fraunhoferstra%C3%9Fe+23I,+80469+M%C3%BCnchen,+Germany&ftid=0x479ddf673368e6f3:0x4803e78cb959357c
+  place_id: ChIJ8-ZoM2ffnUcRfDVZuYznA0g
+endDate: 2023-03-26T14:00
+claimed: No
+link: https://facebook.com/events/s/salsa-lady-styling/3601338973482101/
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdB5LUdAQInhAp0C4Jno5rDdUxG13%2F86efddaa-9c40-4cc1-b379-a2783dc763c9?alt=media&token=8978e3ed-e4db-4ff2-813d-735ef0594ff2
+createdAt: 1678341063659
+artists: []
+price: "50"
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1678341063659
+updatedBy: dB5LUdAQInhAp0C4Jno5rDdUxG13
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/denise.vukaj
+  name: Denissa.V.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdB5LUdAQInhAp0C4Jno5rDdUxG13%2F40801321-1949-45cf-a7ea-1a75d4bb5ad4?alt=media&token=55cf8519-c613-4152-b7b9-b175f2112df2
+  bio: ""
+  instagram: https://instagram.com/denissa_v__
+  id: dB5LUdAQInhAp0C4Jno5rDdUxG13
+  username: Denissa.V.
+facebook: https://facebook.com/events/s/salsa-lady-styling/3601338973482101/
+eventType: Workshop
+form: No
+createdBy: dB5LUdAQInhAp0C4Jno5rDdUxG13
+watch:
+  count: 1
+  list:
+    Denissa.V.: true
+name: "Salsa Lady Styling "
+online: No
+styles:
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-03-26T11:00
+username: Denissa.V.
+instagram:
+  requestedAt: 1678341126678
+  state: requested
+description: >-
+  𝐋𝐚𝐝𝐲 𝐒𝐭𝐲𝐥𝐢𝐧𝐠 / 𝐁𝐨𝐝𝐲 𝐌𝐨𝐯𝐞𝐦𝐞𝐧𝐭 𝐦𝐢𝐭 𝐃𝐞𝐧𝐢𝐬𝐚
+
+
+  Workshop :
+
+
+  Salsa Styling für Beginner
+
+  -Sonntag 26 März 
+
+  11:00 - 14:00 Uhr
+
+  -Gebühren €50.- (3 Stunden)
+
+
+  𝐋𝐢𝐦𝐢𝐭𝐢𝐞𝐫𝐭𝐞 𝐏𝐥ä𝐭𝐳𝐞
+
+
+  Anmeldungen an
+
+  info.bedancestudio@gmail.com
+
+  Ort: Ballettstudio Keller 
+
+  Fraunhoferstrasse 23i
+
+  80469 München
+
+
+  Unterrichtsinhalt 
+
+  Handbewegungen
+
+  Beinarbeit & Kopfdrehungen
+
+  Musikinterpretation
+
+  div. Becken- & Oberkörperbewegungen
+
+  einzelne Elemente die zu einer Figur zusammengefügt werden
+
+  Drehtechnik & Verziehrungen der Grundschritte
+
+  Open Shines
+
+  In diesem Workshop dreht sich alles darum euere Tanzkenntnisse auf ein neues Level zu bringen!
+
+  Eure Denisa
+id: YqVeFSHj9YTNpumfbK34
+viewsCount: 7

@@ -1,0 +1,132 @@
+endDate: 1726437540000
+sourceUrl: https://www.facebook.com/events/815812043816805/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717963755000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1717963755000
+facebookId: "815812043816805"
+facebook: https://www.facebook.com/events/815812043816805/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/815812043816805/
+eventType: Festival
+providerItemId: e815812043816805@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SUNNY Bachata Festival 2024 - promo code BACHALOVE
+location: Evenia Olympic Resort
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726236000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Edificio Park, Carrer Senyora de Rossell, 35, 17310 Lloret de
+    Mar, Girona, Spain
+  website: https://es.eveniahotels.com/playa/lloret-de-mar/evenia-olympic-park?utm_source=Google+My+Business&utm_medium=Ficha&utm_campaign=Evenia+Olympic+Park
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Evenia Olympic Park
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.835963319708498
+        lat: 41.70316656970851
+      northeast:
+        lng: 2.838661280291502
+        lat: 41.70586453029151
+    location:
+      lng: 2.8373372
+      lat: 41.70444860000001
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Edificio Park
+      long_name: Edificio Park
+    - types:
+        - street_number
+      short_name: "35"
+      long_name: "35"
+    - types:
+        - route
+      short_name: Carrer Senyora de Rossell
+      long_name: Carrer Senyora de Rossell
+    - types:
+        - locality
+        - political
+      short_name: Lloret de Mar
+      long_name: Lloret de Mar
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: GI
+      long_name: Girona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "17310"
+      long_name: "17310"
+  international_phone_number: +34 972 36 58 20
+  place_id: ChIJcd4lLT4XuxIR1wZu-021tvo
+  url: https://maps.google.com/?cid=18065826301778724567
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: |
+  SUNNY Bachata Festival 2024 
+  13-15.09.2024
+
+  Evenia Olympic Resort, Lloret de Mar
+
+  Tickets:
+  https://lasalsadelbaile.com/SunnyBachataFestival?ref=BACHALOVE
+
+  Full Pass:
+  35€ 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719274/owzozdbwhanxmq72yvys.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJWXoHhwcXuxIReIzmpj3vc5I
+international: No
+hash: 1726236000000+ChIJcd4lLT4XuxIR1wZu-021tvo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FRmzMRAfKcRLWcnwlD79q.png?generation=1718719297196283&alt=media
+viewsCount: 3
+id: RmzMRAfKcRLWcnwlD79q

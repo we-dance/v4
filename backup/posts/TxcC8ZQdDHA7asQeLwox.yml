@@ -1,0 +1,108 @@
+sourceUrl: https://facebook.com/events/s/latin-band-salsa-manzana-rock-/1144726373414596/
+createdAt: 1720622065471
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622065471
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: 801 Werner-Allen Rd, New London, WI 54961, USA
+  website: http://www.newlondonwi.org/index.php
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Hatten Park
+  geometry:
+    viewport:
+      southwest:
+        lng: -88.75691523029151
+        lat: 44.3857193197085
+      northeast:
+        lng: -88.7542172697085
+        lat: 44.3884172802915
+    location:
+      lng: -88.7554127
+      lat: 44.38662689999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "801"
+      long_name: "801"
+    - types:
+        - route
+      short_name: Werner-Allen Rd
+      long_name: Werner-Allen Road
+    - types:
+        - locality
+        - political
+      short_name: New London
+      long_name: New London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Waupaca County
+      long_name: Waupaca County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: WI
+      long_name: Wisconsin
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "54961"
+      long_name: "54961"
+  place_id: ChIJY89S4S7VA4gRc0Ap58UCsU8
+  url: https://maps.google.com/?cid=5742374048884146291
+endDate: 1723323600000
+claimed: No
+link: ""
+description: >-
+  🍎 Salsa Manzana is excited to play Latin music in New London at the Rock N
+  Corn Festival at Hatten Park in New London! 🎹🎼🎷 Saturday August 10th
+  2pm-4pm. 🎺👠😎 Enjoy salsa/mambo, Cha Cha, rumba/bolero, Latin jazz, &
+  more.🕺💃🏻 We look forward to seeing Fox Valley Latin Dancers & all the other
+  dancers!
+
+
+  Salsa Manzana 🍎🍏 is a traditional Latin music ensemble based out of the Fox Cities around Appleton, which is where the Manzana, (or Apple in English) comes from in Salsa Manzana. 🎷 Started in 2012, Carlos Mendez and Mark Te Tai started the group with Carlos' authentic Puerto Rican heritage and Mark’s long-standing relationship with the local music community. 🎺🪘Top musicians were brought together from Oshkosh to Green Bay, and Carlos sang the Salsa songs he grew up with in Puerto Rico.🕺💃🏻
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJvc0Stm4O5okRnZMrnOYDFtA
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1144726373414596/
+facebookId: "1144726373414596"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Latin Band Salsa Manzana 🎷🎹🎺 Rock N Corn Festival 💃🏻🕺 Hatten Park,
+  New London
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1723316400000+ChIJY89S4S7VA4gRc0Ap58UCsU8
+startDate: 1723316400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622066/qozyeoyzftqpolomh35z.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsamanzana3
+  name: Salsa Manzana
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720622065/cjmwexb9r5exhhy74feh.jpg
+  bio: ""
+  id: Gx0pbNy0S62dID2LYthl
+  instagram: ""
+  username: salsamanzana3
+id: TxcC8ZQdDHA7asQeLwox

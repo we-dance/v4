@@ -1,0 +1,113 @@
+createdAt: 1704822895358
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/339892355226220/
+source: facebook
+updatedAt: 1704822895358
+username: wedancebot
+venue:
+  formatted_address: Kačjak, 51265, Dramalj, Croatia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kačjak
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.6548832197085
+        lat: 45.20027191970849
+      northeast:
+        lng: 14.6575811802915
+        lat: 45.20296988029149
+    location:
+      lng: 14.6562322
+      lat: 45.20162089999999
+  address_components:
+    - types:
+        - route
+      short_name: Kačjak
+      long_name: Kačjak
+    - types:
+        - locality
+        - political
+      short_name: Dramalj
+      long_name: Dramalj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Crikvenica
+      long_name: Grad Crikvenica
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Primorsko-goranska županija
+      long_name: Primorsko-goranska županija
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+    - types:
+        - postal_code
+      short_name: "51265"
+      long_name: "51265"
+  place_id: ChIJX-X3P7R8Y0cRhCnDQMVVCeU
+  url: https://maps.google.com/?q=Ka%C4%8Djak,+51265,+Dramalj,+Croatia&ftid=0x47637cb43ff7e55f:0xe50955c540c32984
+visibility: Public
+endDate: 1725696000000
+org:
+  owner: ""
+  importedAt: 1704822897106
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/zouktimeevents
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/414479455_816306713839242_7027819249329044342_n.jpg?stp=c1.1.38.38a_cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=G6X40ojoNIYAX_qTPkU&_nc_ht=scontent-iad3-1.xx&oh=00_AfAcoufxjqpDlCoz8wpQZbesgsKBQTN3_i5GBUDrmTpu2A&oe=65A24772
+  source: facebook
+  type: Organiser
+  createdAt: 1704822897106
+  owned: false
+  name: ZOUKTIME events by Ludek & Pavla
+  place: ChIJdWRxBrh8Y0cRDH0P65tZYm0
+  updatedAt: 1704822897106
+  username: zouktimeevents
+claimed: No
+facebookId: "339892355226220"
+link: ""
+description: |-
+  *** www.danceholiday.cz *** 
+  --------------------------------------
+
+  << 1st week: >>
+  Saturday 24th until Saturday 31st August 2024
+
+  --------------------------------------
+
+  << 2nd week: >>
+  Saturday 31st August until Saturday 7th September 2024
+
+  -----------------------------------------
+
+  *** REGISTRATION (not open yet!)***
+  www.danceholiday.cz 
+
+  *** LOCATION ***
+  By the beach of Adriatic sea in Croatia, in Dramalj, close to Crikvenica.
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: ZOUKTIME! dance holiday in Croatia 2024 (2 separated weeks)
+online: No
+styles: {}
+place: ChIJdWRxBrh8Y0cRDH0P65tZYm0
+international: No
+hash: 1724508000000+ChIJX-X3P7R8Y0cRhCnDQMVVCeU
+startDate: 1724508000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbBmZC5JxVQu0bc784im6.png?generation=1704822915762323&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853353/v8p67blwjpba9texaamc.jpg
+viewsCount: 17
+id: bBmZC5JxVQu0bc784im6

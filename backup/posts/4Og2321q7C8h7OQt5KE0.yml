@@ -1,0 +1,150 @@
+endDate: 1712778300000
+sourceUrl: https://www.facebook.com/events/284498301155681/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1709037129000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1709037129000
+facebookId: "284498301155681"
+facebook: https://www.facebook.com/events/284498301155681/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/284498301155681/
+eventType: Course
+providerItemId: e284498301155681@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: NEW BACHATA BEGINNERS COURSE
+location: HafenCity
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712767500000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: HafenCity, 20 Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: HafenCity
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.979472705450357
+        lat: 53.53268397729016
+      northeast:
+        lng: 10.02574287931196
+        lat: 53.54660991187252
+    location:
+      lng: 10.0051291
+      lat: 53.5395358
+  address_components:
+    - types:
+        - sublocality_level_2
+        - sublocality
+        - political
+      short_name: HafenCity
+      long_name: HafenCity
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code_prefix
+        - postal_code
+      short_name: "20"
+      long_name: "20"
+  place_id: ChIJJ6C2yf6OsUcRV77hJxq5jx8
+  url: https://maps.google.com/?q=HafenCity,+20+Hamburg,+Germany&ftid=0x47b18efec9b6a027:0x1f8fb91a27e1be57
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224710086
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/issamandcharlottbachata
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224710/vhhyaccdlofrbeq5ckg7.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224710086
+  owned: false
+  name: Issam & Charlott Bachata
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1711224710086
+  username: issam.charlott.bacha
+claimed: No
+link: ""
+description: >-
+  We are pleased to announce that we are opening a new BACHATA BEGINNERS COURSE
+  in our school ICB Studios!
+
+
+  MAIN INFO:
+
+  ▪️ 12-week program from April 10th to June 27th
+
+  ▪️ Wednesdays 18:45 - 19:45
+
+  ▪️ Hafen City, Hamburg
+
+
+  This program is for absolute beginners who are ready to embark into the amazing world of Bachata dancing
+
+
+  ✅ Qualified teachers
+
+  ✅ Beautiful location
+
+  ✅ International community
+
+  ✅ No partner needed 
+
+
+  Registrations are open now and spots are limited!
+
+
+  📩 Contact us to register:
+
+  info@icbstudios.com
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1712767500000+ChIJJ6C2yf6OsUcRV77hJxq5jx8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4Og2321q7C8h7OQt5KE0.png?generation=1711224727976745&alt=media
+id: 4Og2321q7C8h7OQt5KE0

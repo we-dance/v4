@@ -1,0 +1,170 @@
+endDate: 1720915200000
+sourceUrl: https://www.facebook.com/events/1147233099924048
+createdAt: 1720533632337
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720473926000
+updatedAt: 1720533632337
+importedAt: 1720533632337
+providerUpdatedAt: 1720473926000
+facebookId: "1147233099924048"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1147233099924048
+eventType: Party
+providerItemId: 10009137-1720828800-1720915199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Művészetek Háza Gödöllő – MUZA, Szabadság út 6., Godollo, 2100, Hungary
+startDate: 1720828800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Gödöllő, Szabadság út 6, 2100 Hungary
+  website: http://www.muza.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: House of Arts
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.34888306970849
+        lat: 47.59695601970849
+      northeast:
+        lng: 19.3515810302915
+        lat: 47.59965398029149
+    location:
+      lng: 19.3500403
+      lat: 47.59795269999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Szabadság út
+      long_name: Szabadság út
+    - types:
+        - locality
+        - political
+      short_name: Gödöllő
+      long_name: Gödöllő
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2100"
+      long_name: "2100"
+  international_phone_number: +36 28 514 130
+  place_id: ChIJg_k5kSTJQUcRT3YkbkOWSFw
+  url: https://maps.google.com/?cid=6649730066167395919
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsamojitotanciskola
+  name: Salsa Mojito Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044598/gqq7ryxwwn8sznrxhpth.jpg
+  bio: ""
+  id: 14X8OHeVKxIe52ExV2Ia
+  instagram: ""
+  username: salsa.mojito.tancisk
+claimed: No
+facebook: https://www.facebook.com/events/1147233099924048/
+link: ""
+description: >-
+  Ha nyár, akkor végre újra bulizhatunk a szabad ég alatt! 
+
+
+  Újra dupla tánctérrel, mert imádtátok! 😎
+
+  ✳️ KINT - a NovoCafé terasza klassz balettpadlóval (és a jól bevált céges hintőporral 🤘)!
+
+  ✳️ BENT - klimatizált, parkettás terem
+
+
+  ✨ PROGRAM
+
+
+  ✪ 19:00-20:00 - Buliindító Salsa Workshop⎪Abe⎪ha legalább január óta salsázol, menni fog 😉
+
+  ✪ 20:00-01:00 - Salsa Party DJ ADALBERTO-val, ruedák, animációk, hölgyválaszok, 20-21 óráig lassabb zenékkel!
+
+
+  ✨ IDŐPONT
+
+
+  július 13. szombat
+
+  19.00-01.00
+
+
+  ✨ HELYSZÍN
+
+
+  NoVo Café terasza 
+
+  Művészetek Háza 
+
+  Gödöllő, Szabadság út 6.
+
+
+  ✨ A LEMEZJÁTSZÓKNÁL
+
+
+  DJ Adalberto
+
+  salsa, bachata, cha-cha-cha
+
+
+  ✨ RÉSZVÉTELI DÍJ
+
+
+  3000 HUF
+
+
+  Belépő csak a helyszínen váltható készpénzben, és tartalmazza a ruhatárat.
+
+
+  ✨ TOVÁBBI INFORMÁCIÓK
+
+
+  www.salsamojito.hu
+
+  info@salsamojito.hu
+
+  www.facebook.com/salsamojitotanciskola
+
+  +3620 418 1091
+
+
+  Várunk szeretettel!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720533648/t3calbqbdmf44zyzhj3u.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Júliusi Szabadtéri Mojito Salsa Party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJa2VoHxfJQUcRABoeDCnEAAQ
+international: No
+hash: 1720890000000+ChIJg_k5kSTJQUcRT3YkbkOWSFw
+id: yrmKTLyBHuGjR8GKte6m

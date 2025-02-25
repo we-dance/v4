@@ -1,0 +1,56 @@
+owner: ""
+createdAt: 1717608545109
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+instagram: https://instagram.com/felito6665
+username: felito6665
+importError: GET /api/v1/users/felito6665/usernameinfo/ - 429 Too Many Requests;
+  Please wait a few minutes before you try again.
+website: ""
+importedAt: 1717608555138
+import: success
+name: Felix Hernandez
+bio: |-
+  Cuban musician 
+  Latín percusions
+  Cuban original
+photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ffelito6665.png?generation=1717608554869136&alt=media
+source: instagram
+gender: Male
+styles:
+  AfroCuban:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+team: []
+id: Yi2K8bPESW1fNAaTVfpL
+type: Artist
+updatedAt: 1717608584844
+viewsCount: 2
+watch:
+  count: 1
+  usernames:
+    - alexrazbakov
+  history:
+    - username: alexrazbakov
+      date: 1717608643749
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: dance-mia
+      date: 1720015366345
+      invitedBy: ""
+      uid: 6tRXADoEK0f29kjGW5MNGntXoYH2
+      action: joined
+    - username: dance-mia
+      date: 1720015368382
+      invitedBy: ""
+      uid: 6tRXADoEK0f29kjGW5MNGntXoYH2
+      action: left

@@ -1,0 +1,164 @@
+claimed: No
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJkMWLbe51FNMc9zxxygLirl7Pg32%2F25bf757e-dd9f-48c8-899a-dc594cc53d34?alt=media&token=cd68c64e-f8b9-4fb6-a15c-b0d55555dbf6
+createdAt: 1706090636907
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+eventType: Party
+confirmation: "Danke für deine Anmeldung! Wir arbeiten um eine unvergessliche
+  Party zu machen! "
+form: No
+createdBy: JkMWLbe51FNMc9zxxygLirl7Pg32
+watch:
+  count: 1
+  list:
+    Salsacalimuc: true
+name: Salsa & Bachata Spring Social
+online: No
+username: Salsacalimuc
+venue:
+  formatted_address: Heßstraße 48b, 80798 München, Germany
+  website: https://salsea.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsea Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5675882802915
+      south: 48.1508856197085
+      north: 48.1535835802915
+      west: 11.5648903197085
+    location:
+      lng: 11.5661696
+      lat: 48.15226719999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 48b
+      long_name: 48b
+    - types:
+        - route
+      short_name: Heßstraße
+      long_name: Heßstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  international_phone_number: +49 176 61830740
+  place_id: ChIJpTxPR1XZnUcRER0LZABcUuE
+  url: https://maps.google.com/?cid=16236140763372264721
+endDate: 1714867200000
+price: 15 EUR
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+program:
+  - endDate: 2024-05-04T21:00
+    artists:
+      - instagram: https://instagram.com/danieladejesus4
+        username: danieladejesus4
+    name: Salsa On1 Ladystyling
+    eventType: Workshop
+    startDate: 2024-05-04T20:15
+  - endDate: 2024-01-24T23:40
+    artists:
+      - instagram: https://instagram.com/jhonjairosalsa
+        username: jhonjairosalsa
+      - instagram: https://instagram.com/danieladejesus4
+        username: danieladejesus4
+    name: Salsa Caleña Weltmeister
+    eventType: Show
+    startDate: 2024-01-24T23:30
+id: LNd7nQMPsfRK5uVNFYZq
+startDate: 1714845600000
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+hash: 1714845600000+ChIJpTxPR1XZnUcRER0LZABcUuE
+description: |-
+  Special Spring Salsa & Bachata Social!
+   
+  - Gratis Pre-Party Salsa On1 Ladystyling Workshop
+  - Show der Salsa Caleña Weltmeister
+  - Salsa Area mit Dj Silber
+  - Bachata Area mit Djs Mario & Fede.
+  - Venue: Salsa Dance Academy
+
+  Nur Abendkasse
+  15€
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsa Calimuc
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJkMWLbe51FNMc9zxxygLirl7Pg32%2F26b9b2cd-29d0-4811-89ef-5ad8357a227f?alt=media&token=d8eb5a9d-362a-49c7-9484-89573bf7d0b1
+  bio: ""
+  id: JkMWLbe51FNMc9zxxygLirl7Pg32
+  instagram: https://instagram.com/salsacalimuc
+  username: Salsacalimuc
+promotionError: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLNd7nQMPsfRK5uVNFYZq.png?generation=1706109182888707&alt=media
+artists:
+  - instagram: https://instagram.com/jhonjairosalsa
+    username: jhonjairosalsa
+  - instagram: https://instagram.com/danieladejesus4
+    username: danieladejesus4
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://www.facebook.com/salseadance
+    name: SALSEA
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F29A7vec0c6cKnrSTvqAEouzhNKD3%2Fd8a1c8fe-e41a-48bb-8007-cff964a785ba?alt=media&token=1de13269-1fa1-4e04-b69d-60c9c83cbb7f
+    bio: ""
+    id: 29A7vec0c6cKnrSTvqAEouzhNKD3
+    instagram: https://www.instagram.com/salsea_dance
+    username: SALSEA
+artistsList:
+  - jhonjairosalsa
+  - danieladejesus4
+  - SALSEA
+updatedAt: 1706109219045
+instagram:
+  state: published
+  messageUrl: https://instagram.com/p/C2fNYxProdT
+  publishedAt: 1706109258055
+  messageId: C2fNYxProdT
+promotion: completed
+viewsCount: 47

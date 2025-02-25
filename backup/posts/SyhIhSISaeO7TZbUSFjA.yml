@@ -1,0 +1,111 @@
+venue:
+  formatted_address: Hofgartenstraße 6, 80539 München, Germany
+  website: https://www.schloesser.bayern.de/deutsch/garten/objekte/mu_hofg.htm
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Hofgartenstraße
+      short_name: Hofgartenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80539"
+      short_name: "80539"
+  url: https://maps.google.com/?cid=11293452714311655983
+  name: Dianatempel
+  geometry:
+    viewport:
+      south: 48.1415994197085
+      north: 48.1442973802915
+      east: 11.5813681802915
+      west: 11.5786702197085
+    location:
+      lng: 11.5800192
+      lat: 48.14294839999999
+  place_id: ChIJF2pQDI11nkcRL6I3jGhnupw
+endDate:
+  _seconds: 1633208400
+  _nanoseconds: 0
+description: Salsa Outdoor Party im englischen Garten
+type: event
+promo: ""
+cover: ""
+duration: "240"
+createdAt: 1633106460615
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: SyhIhSISaeO7TZbUSFjA
+updatedAt: 1633106460615
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Hofgarten Salsa
+online: No
+styles:
+  SalsaCalena:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-02T17:00:00.000Z
+username: Vitali
+viewsCount: 40

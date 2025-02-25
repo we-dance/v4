@@ -1,0 +1,80 @@
+venue:
+  formatted_address: Baring Rd, London SE12 0JP, UK
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - postal_code
+      long_name: SE12 0JP
+      short_name: SE12 0JP
+    - types:
+        - route
+      long_name: Baring Road
+      short_name: Baring Rd
+    - types:
+        - postal_town
+      long_name: London
+      short_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Greater London
+      short_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: England
+      short_name: England
+    - types:
+        - country
+        - political
+      long_name: United Kingdom
+      short_name: GB
+  url: https://maps.google.com/?q=SE12+0JP&ftid=0x47d8a9ef1dec81ed:0xee38a9de42bee64d
+  name: SE12 0JP
+  geometry:
+    viewport:
+      south: 51.44359150348446
+      north: 51.44628946406745
+      east: 0.01599355556832895
+      west: 0.01329559498532489
+    location:
+      lng: 0.014564
+      lat: 51.44504999999999
+  place_id: ChIJ7YHsHe-p2EcRTea-Qt6pOO4
+endDate:
+  _seconds: 1630605600
+  _nanoseconds: 0
+description: "Do not use. Testing an event. "
+type: event
+cover: ""
+duration: 60
+createdAt: 1630434017349
+watchersCount: 0
+price: FREE
+commentsLast: ~
+id: ijQqmxjlu3Vca6ptUnah
+place: ""
+views: 1
+updatedAt: 1630434017349
+updatedBy: d4OnIz32xxbIho2iPFKkBAN3XHk1
+visibility: Public
+eventType: Party
+organiser: COSTA
+form: No
+createdBy: d4OnIz32xxbIho2iPFKkBAN3XHk1
+commentsCount: 0
+name: "Test Event "
+online: Yes
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-02T17:00:00.000Z
+username: COSTA
+viewsCount: 2

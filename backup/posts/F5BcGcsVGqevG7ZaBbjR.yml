@@ -1,0 +1,120 @@
+venue:
+  formatted_address: Landwehrstraße 24, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "24"
+      short_name: "24"
+    - types:
+        - route
+      long_name: Landwehrstraße
+      short_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80336"
+      short_name: "80336"
+  url: https://maps.google.com/?q=Landwehrstra%C3%9Fe+24,+80336+M%C3%BCnchen,+Germany&ftid=0x479e75f7fbe17679:0xf33f70e139725230
+  name: Landwehrstraße 24
+  geometry:
+    viewport:
+      south: 48.1350423197085
+      north: 48.1377402802915
+      east: 11.5632557802915
+      west: 11.5605578197085
+    location:
+      lng: 11.5618961
+      lat: 48.1364447
+  place_id: ChIJeXbh-_d1nkcRMFJyOeFwP_M
+endDate:
+  _seconds: 1633212000
+  _nanoseconds: 0
+description: >
+  *Location: DWG Landwehrstraße 24, 80336*
+
+  *DJs: Ema, Chuck and Momo*
+
+  *Entry: Free*
+
+  *Participants: 40*
+
+  *Entrance rules: 3G*
+
+  *Pre-Registration:* https://www.dancewithgeorge.com/ or using the DanceWithGeorge App  (Pre-Registration mandatory!) 
+type: event
+cover: ""
+duration: "240"
+createdAt: 1633107240241
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: F5BcGcsVGqevG7ZaBbjR
+views: 1
+updatedAt: 1633107240241
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+viewsCount: 1
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Bachata indoor Party at Dance with George
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-02T18:00:00.000Z
+username: Vitali

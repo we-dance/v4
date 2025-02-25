@@ -1,0 +1,193 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/latin-festival/
+name: Latin Festival 2024
+sourceUrl: https://facebook.com/events/351004447551336
+venue:
+  address_components:
+    - long_name: "29"
+      short_name: "29"
+      types:
+        - street_number
+    - long_name: Lindenschulstraße
+      short_name: Lindenschulstraße
+      types:
+        - route
+    - long_name: Untertürkheim
+      short_name: Untertürkheim
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Stuttgart
+      short_name: Stuttgart
+      types:
+        - locality
+        - political
+    - long_name: Stuttgart
+      short_name: Stuttgart
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Stuttgart
+      short_name: Süd
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Baden-Württemberg
+      short_name: BW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "70327"
+      short_name: "70327"
+      types:
+        - postal_code
+  formatted_address: Lindenschulstraße 29, 70327 Stuttgart, Germany
+  geometry:
+    location:
+      lat: 48.77677589999999
+      lng: 9.249750299999999
+    viewport:
+      northeast:
+        lat: 48.77826393029149
+        lng: 9.251001130291503
+      southwest:
+        lat: 48.7755659697085
+        lng: 9.248303169708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 1514 7557222
+  name: Sängerhalle Stuttgart-Untertürkheim
+  place_id: ChIJoXDXHYnFmUcRM2RB4sVSVl0
+  url: https://maps.google.com/?cid=6725654103382385715
+  website: https://www.saengerhalle-stuttgart.de/
+endDate: 1733716800000
+claimed: No
+link: ""
+description: >-
+  The Best Salsa, Mambo und Bachata Workshops in Germany.
+
+  INTERNATIONAL LATIN FESTIVAL 2024 !!!🎶 - STUTTGART
+
+  👉🏽COME & JOIN US THIS DECEMBER !!!
+
+  Welcome to the very special exclusive Festival in Germany! You will have the pleasure to meet, enjoy and dance with many of the best Salsa/Mambo Artists! Be sure not to miss this marvellous Festival!!! We are counting this year with....
+
+  ★★★ An amazing Line-up ★★★
+
+  ★★★ Amazing international DJs ★★★ ★★★ 2 DANCE FLOORS S-B ★★★
+
+  ★★★ 36h workshops ★★★
+
+  ★★★ Nº 1 social dance event in Europe ★★★
+
+  Check here our world-class Artists for this December 2024 !!!
+
+  *** FARID FERCHACH (FRANCE) ***
+
+  *** MICHELLE & BRANDON (USA) ***
+
+  *** TERRY & CECILE (FRANCE) ***
+
+  *** JAVI & EllI ( NYC ) ***  NEW ***
+
+  *** EUPHORIA DANCE COMPANY (NL) ***
+
+  *** JAVIER PADILLA (SPAIN) ***
+
+  *** EDSON J BLANCO (VENEZUELA)***
+
+  *** ANNE & ANICHI (GERMANY) ***
+
+  *** JULIA & OLIVER ( GER/ECU)
+
+  *** ALI & LEA (RITMOVIDA/GER) ***
+
+  *** TEO & KIA (GER) ***
+
+  *** NOOR & CHRIS (GER) ***
+
+  ***  Roy Reyes (MEX)***
+
+  *** SALSA COMPANY DC (GER) ***
+
+  *** MAMBONITAS (GER) ***
+
+  ✔ DJ RUMBERO (SALSA)
+
+  ✔ DJ Dmitri  (Salsa)
+
+  ✔ DJ Yosry  (Salsa)
+
+  ✔ DJ Michell (Salsa)
+
+  ✔ DJ MILAD (BACHATA)
+
+
+  ⬇Join US in Instagram:⬇
+
+  https://www.instagram.com/latinfestival/?hl=es
+
+  ⬇Join to our Facebook Group for News:⬇
+
+  https://www.facebook.com/groups/74605890980/
+
+
+
+  ⬇Tickets & Infos:⬇
+
+  www.bachata-festival.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/sapkhm6g0xtbhwvtlvqb.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+international: No
+visibility: Public
+org:
+  createdAt: 1732293946640
+  importedAt: 1732293946640
+  updatedAt: 1732293946640
+  source: facebook
+  name: Latin Festival
+  facebook: https://www.facebook.com/latinfestivalde
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/sogywwukkhjmhtnk9qxd.jpg
+  username: latinfestivalde
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+facebook: https://www.facebook.com/events/351004447551336/
+facebookId: "351004447551336"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1733428800000+ChIJoXDXHYnFmUcRM2RB4sVSVl0
+startDate: 1733428800000
+viewsCount: 1
+id: bIr1MElUoYUF9gwA1URq

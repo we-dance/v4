@@ -1,0 +1,169 @@
+endDate: 1712610000000
+sourceUrl: https://www.facebook.com/events/725336253105166/
+createdAt: 1712044578815
+approved: true
+provider: ical
+providerId: sMNkb1Uwnw9xCbMvPt60
+providerCreatedAt: 1711910299000
+updatedAt: 1712044578815
+importedAt: 1712044578815
+providerUpdatedAt: 1711910299000
+facebookId: "725336253105166"
+facebook: https://www.facebook.com/events/725336253105166/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/725336253105166/
+eventType: Workshop
+providerItemId: e725336253105166@facebook.com
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+name: Brazilian Zouk with Fran & Betts [Special Guest]
+location: 0161 Studios Apollo Business Centre Manchester, ENG, M12 6AW
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712599200000
+facebookUrlsCount: 1
+username: halfcubedance
+venue:
+  formatted_address: Unit 2, Apollo Business Centre, Ardwick, Manchester M12 6AW, UK
+  website: http://www.0161studios.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: 0161 Studios
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.221464080291502
+        lat: 53.4678992697085
+      northeast:
+        lng: -2.218766119708498
+        lat: 53.4705972302915
+    location:
+      lng: -2.2199668
+      lat: 53.4693845
+  address_components:
+    - types:
+        - subpremise
+      short_name: Unit 2
+      long_name: Unit 2
+    - types:
+        - premise
+      short_name: Apollo Business Centre
+      long_name: Apollo Business Centre
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ardwick
+      long_name: Ardwick
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M12 6AW
+      long_name: M12 6AW
+  international_phone_number: +44 7581 150092
+  place_id: ChIJNRSPjPyxe0gRLv1iLR2U7dE
+  url: https://maps.google.com/?cid=15126909576443788590
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mcrzouk
+  name: MCR Zouk
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708449459/xuugdqt8nqecsuij821y.jpg
+  bio: ""
+  id: TQZRruaMiJ4oJ3lr13R5
+  instagram: ""
+  username: espirito.latino
+claimed: No
+link: ""
+description: >+
+  We're thrilled to welcome the incredibly talented Fran Serrano, a maestro of
+  movement, as our special guest. Starting his journey in dance with Salsa in
+  2013 and swiftly moving through bachata to Brazilian Zouk in 2016, Fran has
+  cultivated his expertise under the guidance of renowned instructors like
+  William, Paloma, Irene, Kadu & Larissa, and many more. His passion for dance
+  didn't just stay within the confines of a studio; it propelled him to build a
+  vibrant Brazilian Zouk community in Valencia, Alicante, and his hometown,
+  Albacete, through countless workshops and socials.
+
+
+
+
+  This workshop isn't just a class; it's a gateway to a community bound by the love of Brazilian Zouk. Seize this chance to learn from one of the best, connect with fellow dance enthusiasts, and add Brazilian Zouk flair to your dance repertoire.
+
+
+
+
+  📅 Date: Monday, 8th August 2024
+
+  📍 Location: 0161 Studios, Ardwick, M12 6AW
+
+  ⏰ Time: 7 pm - 10 pm
+
+  💃 Level: Beginners+ and above
+
+
+
+
+  ::Schedule::
+
+  7pm - 9pm Workshop
+
+  9pm - 10pm Practice/Social
+
+
+
+
+  ::Pricing::
+
+  First 5 spaces £10
+
+  Early Bird: £15
+
+  April 1st: £20
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712044589/ertfovcmvac62s8vgv22.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1712599200000+ChIJNRSPjPyxe0gRLv1iLR2U7dE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJDXRnDETgRcrVrpa7yA2.png?generation=1712044624418059&alt=media
+id: JDXRnDETgRcrVrpa7yA2

@@ -1,0 +1,130 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13375011970849
+      north: 48.13644808029149
+      east: 11.5813296302915
+      west: 11.5786316697085
+    location:
+      lng: 11.579996
+      lat: 48.1351625
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  international_phone_number: +49 172 8533891
+endDate:
+  _seconds: 1646686800
+  _nanoseconds: 0
+claimed: No
+link: https://salsaclub-munich.de/course.php?kid=137
+description: >-
+  Ich lehre  eine neue Sensual Bachata Choreografie und geheime Tipps der
+  sinnliche Bewegung.
+
+
+  Wehr mag hat die Möglichkeit mit mir im Salsaclub  Festival und diverse Veranstaltung aufzutreten.
+
+
+  20% bei Anmeldungen bis Mitte Februar by SalsaClubMunich.
+
+
+  Bachata Sensual Erfahrung ist vorausgesetzt. 
+
+
+  Wir freuen uns auf Euch!
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd4acb248-c0ca-4947-a802-5060d6d797e4?alt=media&token=cd2dbebf-d5ad-4f0a-92ea-d912a3140e62
+duration: "90"
+promo: No
+createdAt: 1643931878276
+artists:
+  - youtube: ""
+    facebook: ""
+    bio: Show dancer. Event promoter
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fuxo8rOwaSoV6FMpxO2c1gpuosN13%2Fae490233-fff8-4118-9396-91b52ab191be?alt=media&token=4932d339-40f6-49da-b6a7-813986609a44
+    instagram: elisa_pura_dance
+    tiktok: ""
+    name: elisa_pura_dance
+    id: uxo8rOwaSoV6FMpxO2c1gpuosN13
+    username: elisa_pura_dance
+price: 70-85 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1643931878276
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  facebook: salsaclubmunich
+  bio: |-
+    Salsa in München
+    Lernen mit Spaß
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDq3lGZSO48OOehTqoqIX3stBM292%2F644bb7cd-af2c-437c-8e79-99daddb35d1d?alt=media&token=ce465682-33c5-457b-bfd2-76e7182d5ef4
+  instagram: salsaclubmunich
+  tiktok: ""
+  name: SalsaClubMunich
+  id: Dq3lGZSO48OOehTqoqIX3stBM292
+  username: SalsaClubMunich
+eventType: Workshop
+form: Yes
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Bachata Ladies Show Projekt
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-03-07T20:30
+username: alejito
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Flaq3eT42FzA9kziTtZwv.png?generation=1643986619455280&alt=media
+viewsCount: 18
+id: laq3eT42FzA9kziTtZwv

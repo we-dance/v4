@@ -1,0 +1,149 @@
+endDate: 1728864000000
+sourceUrl: https://fb.me/e/1iU3YLrod
+createdAt: 1712044613917
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1711972326000
+updatedAt: 1712044613917
+importedAt: 1712044613917
+providerUpdatedAt: 1711972326000
+facebookId: 1iU3YLrod
+isNew: true
+facebookUrlsList:
+  - https://fb.me/e/1iU3YLrod
+providerItemId: tt5fq4gbclp6lf89d8f5bqi1so@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Tallinn, Estonia
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728604800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Kopli 25, 10412 Tallinn, Estonia
+  website: http://www.euphoriastudio.ee/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Euphoria Studio Tallinn
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.7096612197085
+        lat: 59.44645731970849
+      northeast:
+        lng: 24.7123591802915
+        lat: 59.44915528029151
+    location:
+      lng: 24.71084
+      lat: 59.4478641
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: Kopli
+      long_name: Kopli
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Põhja-Tallinna linnaosa
+      long_name: Põhja-Tallinna linnaosa
+    - types:
+        - locality
+        - political
+      short_name: Tallinn
+      long_name: Tallinn
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Harju maakond
+      long_name: Harju maakond
+    - types:
+        - country
+        - political
+      short_name: EE
+      long_name: Estonia
+    - types:
+        - postal_code
+      short_name: "10412"
+      long_name: "10412"
+  international_phone_number: +372 5323 9331
+  place_id: ChIJQWTB76iUkkYRBRm3rHo0G2Q
+  url: https://maps.google.com/?cid=7213416929652316421
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1712044629036
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BachataStudioTallinn
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044629/le9o2nutgxir32ljon3n.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1712044629036
+  owned: false
+  name: Bachata Studio Tallinn
+  place: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+  updatedAt: 1712044629036
+  username: BachataStudioTallinn
+claimed: No
+facebook: https://www.facebook.com/events/1619176302255811/
+link: ""
+description: >-
+  SAVE THE DATES  October 11-13
+
+  ⭐️𝑻𝑨𝑳𝑳𝑰𝑵𝑵 𝒁𝑶𝑼𝑲 𝑺𝑬𝑵𝑺𝑨𝑻𝑰𝑶𝑵 - 𝑰𝑰𝑰 𝒆𝒅𝒊𝒕𝒊𝒐𝒏 ⭐️
+
+
+  ⭐️ 𝑾𝑯𝑨𝑻 𝑻𝑶 𝑬𝑿𝑷𝑬𝑪𝑻 ⭐️
+
+
+  - Weekend full of workshops with international zouk artists
+
+  - 3 nights of 100% zouk parties.
+
+  - A full weekend with Brazilian Zouk vibes among your favourite dancers and friends
+
+  - Snacks & cocktail bar
+
+  - Decorations
+
+  - Surprises
+   
+
+   
+  👑 𝑨𝑹𝑻𝑰𝑺𝑻𝑺 👑
+
+  ☑️ Tiago & Emilia Moraes  🇧🇷🇩🇪
+
+  ☑️ Bryan & Kate 🇵🇱
+
+  ☑️ To be revealed
+
+
+  ✨ STAY TUNED! More info coming SOON...
+program: []
+source: facebook
+eventType: Workshop
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712044630/twtp8qae4seprlqft7oz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 𝗧𝗔𝗟𝗟𝗜𝗡𝗡 𝗭𝗢𝗨𝗞 𝗦𝗘𝗡𝗦𝗔𝗧𝗜𝗢𝗡, Oct 11-13
+online: No
+place: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+international: No
+hash: 1728669600000+ChIJQWTB76iUkkYRBRm3rHo0G2Q
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbfRRYClxVwiHXPDjMkyp.png?generation=1712044640618627&alt=media
+id: bfRRYClxVwiHXPDjMkyp

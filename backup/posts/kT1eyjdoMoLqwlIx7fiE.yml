@@ -1,0 +1,144 @@
+endDate: 1712444400000
+sourceUrl: https://www.facebook.com/events/264181650079938/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1710262139000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710262833000
+facebookId: "264181650079938"
+facebook: https://www.facebook.com/events/264181650079938/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/264181650079938/
+eventType: Party
+providerItemId: e264181650079938@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: La Gran Fiesta
+location: Eckenerstraße 24, 24939 Flensburg, Germany
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712428200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Eckenerstraße 24, 24939 Flensburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Eckenerstraße 24
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.420187519708495
+        lat: 54.79338286970849
+      northeast:
+        lng: 9.4228854802915
+        lat: 54.79608083029149
+    location:
+      lng: 9.4215395
+      lat: 54.794663
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Eckenerstraße
+      long_name: Eckenerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westliche Höhe
+      long_name: Westliche Höhe
+    - types:
+        - locality
+        - political
+      short_name: FL
+      long_name: Flensburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Flensburg
+      long_name: Flensburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SH
+      long_name: Schleswig-Holstein
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "24939"
+      long_name: "24939"
+  place_id: ChIJeXz8D8hCs0cRFfEkxyxqak8
+  url: https://maps.google.com/?q=Eckenerstra%C3%9Fe+24,+24939+Flensburg,+Germany&ftid=0x47b342c80ffc7c79:0x4f6a6a2cc724f115
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224716886
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/DemisSalsaCubana
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224717/gegycdujk0s43kgllpvx.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224716886
+  owned: false
+  name: Demis Salsa Cubana
+  place: ChIJ6bkaGr1Cs0cRZ0ROgyxjz1s
+  updatedAt: 1711224716886
+  username: DemisSalsaCubana
+claimed: No
+link: ""
+description: >-
+  🎉 La Gran Fiesta bei Demis Salsa Cubana! 🎶
+
+
+  Bereitet euch auf eine unvergessliche Nacht voller Tanz und Musik vor! DJ Master Silot aus Kopenhagen bringt euch die heißesten Salsa- und Bachata-Hits sowie eine Auswahl an unwiderstehlichen lateinamerikanischen Rhythmen.
+
+
+  Freut euch auf spektakuläre Animationen mit Demis, Danger & Marielkis, die für eine unvergleichliche Stimmung sorgen werden. Zudem haben wir eine besondere Überraschung für euch: eine exklusive Präsentation von Danger und Marielkis!
+
+
+  🕺💃 Lasst uns gemeinsam die Tanzfläche zum Beben bringen. Seid bereit für eine Nacht voller Leidenschaft, Energie und natürlich jede Menge Tanz.
+
+
+  Eintritt: 10€
+
+
+  Verpasst nicht die Gelegenheit, mit uns die Freude am lateinamerikanischen Tanz zu teilen. Wir sehen uns auf der La Gran Fiesta!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224718/wta1v5zw1q8njpu8iruk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6bkaGr1Cs0cRZ0ROgyxjz1s
+international: No
+hash: 1712428200000+ChIJeXz8D8hCs0cRFfEkxyxqak8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkT1eyjdoMoLqwlIx7fiE.png?generation=1711224741660931&alt=media
+id: kT1eyjdoMoLqwlIx7fiE

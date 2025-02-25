@@ -1,0 +1,113 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/zurich-kiz-connexion/
+name: Zurich Kiz Connexion
+sourceUrl: https://facebook.com/events/1482148055733131
+venue:
+  address_components:
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Max-Högger-Strasse
+      short_name: Max-Högger-Strasse
+      types:
+        - route
+    - long_name: Zürich
+      short_name: Zürich
+      types:
+        - locality
+        - political
+    - long_name: Zürich
+      short_name: Zürich
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Zürich
+      short_name: ZH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Switzerland
+      short_name: CH
+      types:
+        - country
+        - political
+    - long_name: "8048"
+      short_name: "8048"
+      types:
+        - postal_code
+  formatted_address: Max-Högger-Strasse 2, 8048 Zürich, Switzerland
+  geometry:
+    location:
+      lat: 47.3939136
+      lng: 8.4890698
+    viewport:
+      northeast:
+        lat: 47.3953074802915
+        lng: 8.4904399802915
+      southwest:
+        lat: 47.3926095197085
+        lng: 8.487742019708495
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Max-Högger-Strasse 2
+  place_id: ChIJ38hRarcLkEcRbPxATFFyFDg
+  url: https://maps.google.com/?q=Max-H%C3%B6gger-Strasse+2,+8048+Z%C3%BCrich,+Switzerland&ftid=0x47900bb76a51c8df:0x381472514c40fc6c
+endDate: 1740942000000
+claimed: No
+link: https://my.weezevent.com/zurich-kiz-connexion
+description: >-
+  Zürich Kiz Connecxion is thrilled to have the support and collaboration of
+  talented teachers and DJs who have enthusiastically joined our project. 
+
+  With their expertise and passion for Kizomba, they bring a unique and dynamic energy to our community. 
+
+  Together, we aim to create a vibrant and inclusive environment where dancers can connect, learn, and grow. 
+
+  Our dedicated team of teachers and DJs are committed to providing exceptional experiences, helping individuals enhance their Kizomba skills, and fostering a sense of unity within the dance community. 
+
+  Join us on this exciting journey as we explore the beauty and joy of Kizomba together.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293943/yv4ajuqpkxmzqnv35n9z.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJGaK-SZcLkEcRA9wf5_GNbuY
+international: No
+visibility: Public
+org:
+  createdAt: 1732293940503
+  importedAt: 1732293940503
+  updatedAt: 1732293940503
+  source: facebook
+  name: Iron Mams Dancer & Dj
+  facebook: https://www.facebook.com/IronMamsD
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293941/xkc84tcyrnqjigchxzid.jpg
+  username: IronMamsD
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJGaK-SZcLkEcRA9wf5_GNbuY
+facebook: https://www.facebook.com/events/1482148055733131/
+facebookId: "1482148055733131"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740769200000+ChIJ38hRarcLkEcRbPxATFFyFDg
+startDate: 1740769200000
+id: TMp1U9A1CICl0Zt4iW57

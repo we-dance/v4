@@ -1,0 +1,117 @@
+endDate: 1710547200000
+sourceUrl: https://www.facebook.com/events/1184151292964129
+createdAt: 1709902701998
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1709891802000
+updatedAt: 1709902701998
+importedAt: 1709902701998
+providerUpdatedAt: 1709891802000
+facebookId: "1184151292964129"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1184151292964129
+eventType: Party
+providerItemId: 10008554-1710460800-1710547199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Nagykanizsai Honvéd Kaszinóért Alapítvány, Ady Endre u. 7.,
+  Nagykanizsa, 8800, Hungary
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710460800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Nagykanizsa, Ady Endre u. 7, 8800 Hungary
+  website: http://www.honvedkaszino.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Honvéd Casino
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.98836566970849
+        lat: 46.4523170197085
+      northeast:
+        lng: 16.9910636302915
+        lat: 46.45501498029149
+    location:
+      lng: 16.9898336
+      lat: 46.4537267
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Ady Endre u.
+      long_name: Ady Endre utca
+    - types:
+        - locality
+        - political
+      short_name: Nagykanizsa
+      long_name: Nagykanizsa
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8800"
+      long_name: "8800"
+  international_phone_number: +36 93 311 036
+  place_id: ChIJ_degmnSTaEcRHK5jY79P_O8
+  url: https://maps.google.com/?cid=17292784352620686876
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709902718332
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/kanizsasalsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902718/txkepsd5aqjliccysjwq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709902718332
+  owned: false
+  name: Kanizsa Salsa Egyesület
+  place: ChIJ6VsHHAaTaEcRsBIeDCnEAAQ
+  updatedAt: 1709902718332
+  username: kanizsasalsa
+claimed: No
+facebook: https://www.facebook.com/events/1184151292964129/
+link: ""
+description: |-
+  🎉 Tavaszköszöntő salsa-bachata-kizomba házibuli a nemzeti ünnep jegyében!
+  Dress Code: piros-fehér-zöld + kokárda 🇭🇺
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709902719/chhdupwz1sodihnck0ti.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Tavaszköszöntő Salsa Házibuli
+online: No
+place: ChIJ6VsHHAaTaEcRsBIeDCnEAAQ
+international: No
+hash: 1710532800000+ChIJ_degmnSTaEcRHK5jY79P_O8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgytOdntxsRSvDRD4QGVt.png?generation=1709902736100977&alt=media
+id: gytOdntxsRSvDRD4QGVt

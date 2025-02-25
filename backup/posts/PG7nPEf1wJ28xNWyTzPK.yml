@@ -1,0 +1,154 @@
+endDate: 1723446000000
+sourceUrl: https://facebook.com/events/s/siete-sundays-salsa-latin-nigh/933079711913823/
+createdAt: 1723384825956
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1723338381000
+updatedAt: 1723384825956
+importedAt: 1723384825956
+providerUpdatedAt: 1723338381000
+facebookId: "933079711913823"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/siete-sundays-salsa-latin-nigh/933079711913823/
+eventType: Party
+providerItemId: 6oqj6cb6c8s38b9i6grmab9k6krm2b9pckq6ab9g70r36e1mc4pm8dhjc8@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Siete Sundays Salsa & Latin Night
+location: Atomic Sound Club & Gameyard
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723420800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 1125 Bardstown Rd, Louisville, KY 40204, USA
+  website: https://atomiclouisville.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: ATOMIC
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.72103153029151
+        lat: 38.2366682697085
+      northeast:
+        lng: -85.71833356970849
+        lat: 38.23936623029149
+    location:
+      lng: -85.7197449
+      lat: 38.23805269999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1125"
+      long_name: "1125"
+    - types:
+        - route
+      short_name: Bardstown Rd
+      long_name: Bardstown Road
+    - types:
+        - neighborhood
+        - political
+      short_name: Cherokee Triangle
+      long_name: Cherokee Triangle
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40204"
+      long_name: "40204"
+    - types:
+        - postal_code_suffix
+      short_name: "1301"
+      long_name: "1301"
+  international_phone_number: +1 502-442-5151
+  place_id: ChIJM1HJAR8NaYgR3_qU-YCLYuw
+  url: https://maps.google.com/?cid=17033330126728002271
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1723384837845
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/gabescottdance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1723384838/ipy5qzidt9cqcoxyq5m3.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1723384837845
+  owned: false
+  name: Derby City Latin Dance
+  place: ChIJFxXYnC1zaYgR_NS4uG--yPY
+  updatedAt: 1723384837845
+  username: gabescottdance
+claimed: No
+facebook: https://www.facebook.com/events/933079711913823/
+link: ""
+description: "Atomic’s Siete Sundays Industry Night!\ 
+
+  Join the Derby City Latín Dance crew, DJ Seizure & DJ Dr. G this Sunday for
+  a new Latino experience!!
+
+  All Levels Salsa Lesson 8PM - Gabe Scott
+
+  Salsa/Bachata Mix 9-10 - Dr. G
+
+  Latin Mix, Hip-Hop, Dembow, Reggaeton & more 10-close - DJ Seizure
+
+
+  No cover
+
+  21+
+
+  Corn hole, beer pong, finger foods, cocktails, and cold ones!\ 
+
+
+  Don’t miss out!!!
+
+
+  \ "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723384839/jjvs49hujq4bmmbfpqnv.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJFxXYnC1zaYgR_NS4uG--yPY
+international: No
+hash: 1723420800000+ChIJM1HJAR8NaYgR3_qU-YCLYuw
+id: PG7nPEf1wJ28xNWyTzPK

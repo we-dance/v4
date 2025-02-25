@@ -1,0 +1,116 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/baila-tampa-latin-dance-fest/
+name: Baila Tampa Latin Dance Fest 2025
+sourceUrl: https://facebook.com/events/486442037591038
+venue:
+  address_components:
+    - long_name: "950"
+      short_name: "950"
+      types:
+        - street_number
+    - long_name: Lake Carillon Drive
+      short_name: Lake Carillon Dr
+      types:
+        - route
+    - long_name: St. Petersburg
+      short_name: St. Petersburg
+      types:
+        - locality
+        - political
+    - long_name: Pinellas County
+      short_name: Pinellas County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Florida
+      short_name: FL
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "33716"
+      short_name: "33716"
+      types:
+        - postal_code
+  formatted_address: 950 Lake Carillon Dr, St. Petersburg, FL 33716, USA
+  geometry:
+    location:
+      lat: 27.8904141
+      lng: -82.6658049
+    viewport:
+      northeast:
+        lat: 27.8918107302915
+        lng: -82.6645117197085
+      southwest:
+        lat: 27.8891127697085
+        lng: -82.6672096802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 727-540-0050
+  name: Hilton St. Petersburg Carillon Park
+  place_id: ChIJk3R-AsHlwogRdoSnjlg7bX0
+  url: https://maps.google.com/?cid=9037945278738957430
+  website: https://www.hilton.com/en/hotels/piecahf-hilton-st-petersburg-carillon-park/?SEO_id=GMB-AMER-HH-PIECAHF&y_source=1_MTIyMDk4MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ==
+endDate: 1746345600000
+claimed: No
+link: https://www.tickettailor.com/events/bailatampalatindancefest/1338653
+description: >-
+  Welcome to the 4th annual Baila Tampa Latin Dance Fest. 
+
+  Come enjoy over 40 dance workshops, dance challenges and masterclasses from top of the line instructors, nightly showcases, insane pool parties, top Dj's, all the Latin dancing your body can handle.
+
+  Prices will increase accordingly: On the 1st of each month leading up to the event. Tickets are non-refundable. They may be transferable. Prices at the door will differ from online. All online sale end April 30, 2025.
+
+
+  Hotel:
+
+  Hilton Carillon Park St. Pete.
+
+
+  Hotel link for reservations: TBA
+
+  No resort fee, Public parking available, $189+Fees room block discount.
+
+
+  Ticket:
+
+  https://www.tickettailor.com/events/bailatampalatindancefest/1338653
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293941/kil9vyirtizh2sx9qjum.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ7WVKx4w3lkYR_46Eqz9nx20
+international: No
+visibility: Public
+org:
+  id: xmiKPaF2SfYqLW3I7zPr
+  username: BailaTampaDanceFest
+  name: Baila Tampa Latin Dance Fest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953673/lie3lrpjdk4t0sfhqguq.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/BailaTampaDanceFest
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/486442037591038/
+facebookId: "486442037591038"
+eventType: Workshop
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles: {}
+hash: 1746144000000+ChIJk3R-AsHlwogRdoSnjlg7bX0
+startDate: 1746144000000
+id: JA1UxJ9si5kifSfmpcK1

@@ -1,0 +1,146 @@
+endDate: 1720906200000
+sourceUrl: https://www.facebook.com/events/137215700036084/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1467306124000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1684865116000
+facebookId: "137215700036084"
+facebook: https://www.facebook.com/events/137215700036084/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/137215700036084/
+eventType: Party
+providerItemId: e137215700036084@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Cuba Night Open Air auf der Liebesinsel Abensberg
+location: Liebesinsel Abensberg
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720886400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Max-Bronold-Straße, 93326 Abensberg, Germany
+  website: http://www.abensberg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Liebesinsel
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.8444469197085
+        lat: 48.8122716697085
+      northeast:
+        lng: 11.8471448802915
+        lat: 48.8149696302915
+    location:
+      lng: 11.845675
+      lat: 48.813392
+  address_components:
+    - types:
+        - route
+      short_name: Max-Bronold-Straße
+      long_name: Max-Bronold-Straße
+    - types:
+        - locality
+        - political
+      short_name: Abensberg
+      long_name: Abensberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: KEH
+      long_name: Kelheim
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Niederbayern
+      long_name: Niederbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "93326"
+      long_name: "93326"
+  international_phone_number: +49 9443 910359
+  place_id: ChIJGyEDoG20n0cRtr8y2hGQFQ8
+  url: https://maps.google.com/?cid=1086933291429445558
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaTanzschuleRegensburg
+  name: Salsa Tanzschule Regensburg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707482461/uyqqzaic5qe3agc0nofb.jpg
+  bio: ""
+  id: J5pen482YltbezFpxxsv
+  instagram: ""
+  username: salsa.tanzschule.regensburg
+claimed: No
+link: http://www.salsaparty.de/animation.html
+description: >-
+  kommt mit . nach Abensberg auf die Liebesinsel...Da es dort noch nicht so
+  viele Latinos, Salsataenzer etc gibt könnt ihr Euch den Eintritt sparen wenn
+  ihr Euch auf
+
+  www.salsaparty.de/animation.html
+
+  eintragt
+
+  Was musst ihr am tuen?
+
+  Nur ein bisschen mit den Leuten tanzen...alles weitere per mail...
+
+
+  In der 1. Bandpause gibts eine Salsa Animation/Schnupperkurs in der 2. Pause nen Salsa-Latino Mix von Salsa DJ Haiko SCALA
+
+  Ist übrigens ein einmaliges Ambiente da...
+
+  Lageplan: 
+
+  https://goo.gl/maps/ovratNM3sqr
+
+
+  Beschreibung vom Veranstalter (SPD abensberg)
+
+  Auch in diesem Jahr gibt es wieder karibisches Flair auf der Liebesinsel. Was vor einem Jahrzehnt als charmantes Impromptu in historischen Gemäuern begann, hat sich inzwischen zu einer der stimmungsvollsten Kulturveranstaltungen der Region entwickelt: Vergangenes Jahr feierten tausend Besucher unter freiem Himmel zu Salsa-Klängen.
+
+
+  An der Cocktail-Bar gibt es natürlich die kubanischen Klassiker „Cuba Libre“, „Daiquiri“ und „Mojito“. Für Hungrige serviert der Maître de Cuisine kreolisches Jambalaya. Auch für Aficionados edlen Rauchwerks ist die Liebesinsel eine Bastion: Eine Auswahl bester Havanna-Zigarren sorgt für stilechten Genuß.
+
+
+  Höhepunkt ist wie immer das Konzert von „El Comandante y Companeros“, die das Publikum nun bereits seit einer Dekade zum Tanzen bringen: Ron Sigl (Schlagzeug), Silvio Käsbauer (Percussion), Horacio Zirngibl (Bass), Sebastian Forster (Gitarre), Gerhard Strasser (Violine), Konstantin Ferstl (Piano), Johannes Laubmeier (Trompete), Kane Malone (Congas) und natürlich „El Comandante“ Walter Adam (Gesang, Charango) sind die bayerische Ausgabe des Buena Vista Social Club.
+
+
+  Ein Stückchen Kuba in Niederbayern – zumindest für eine Nacht. Kommt, und feiert mit uns!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224683/rve6wouul8qylrnhui8y.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJv5siPQ20n0cRWUIPZ4RtzsY
+international: No
+hash: 1720886400000+ChIJGyEDoG20n0cRtr8y2hGQFQ8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FteoAFrbKnrpITKKFPqJq.png?generation=1711224707529901&alt=media
+id: teoAFrbKnrpITKKFPqJq

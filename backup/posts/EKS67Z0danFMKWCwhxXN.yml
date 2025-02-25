@@ -1,0 +1,100 @@
+venue:
+  formatted_address: Joachimsthaler Str. 15, 10719 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "15"
+      short_name: "15"
+    - types:
+        - route
+      long_name: Joachimsthaler Straße
+      short_name: Joachimsthaler Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Charlottenburg-Wilmersdorf
+      short_name: Bezirk Charlottenburg-Wilmersdorf
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10719"
+      short_name: "10719"
+  url: https://maps.google.com/?q=Joachimsthaler+Str.+15,+10719+Berlin,+Germany&ftid=0x47a850f92ff865df:0x93f6f73cb4317188
+  name: Joachimsthaler Str. 15
+  geometry:
+    viewport:
+      south: 52.5007051697085
+      north: 52.5034031302915
+      east: 13.3323136802915
+      west: 13.3296157197085
+    location:
+      lng: 13.330835
+      lat: 52.5020624
+  place_id: ChIJ32X4L_lQqEcRiHExtDz39pM
+endDate:
+  _seconds: 1632765600
+  _nanoseconds: 0
+description: |-
+  Class starts at 19.00 
+  Party 20.00 
+  Tankurz + Party 10 euro (Incl 2 euro getränke coupon)
+type: event
+cover: ""
+duration: 60
+promo: Yes
+createdAt: 1632494307666
+watchersCount: 0
+price: 10 Euro
+commentsLast: ~
+id: EKS67Z0danFMKWCwhxXN
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+views: 1
+updatedAt: 1632494307666
+updatedBy: dRipXa4eZJVowvrrUWYYeyZvGnI3
+visibility: Public
+eventType: Course
+organiser: ""
+form: No
+createdBy: dRipXa4eZJVowvrrUWYYeyZvGnI3
+commentsCount: 0
+name: Latin Maxx
+online: No
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-09-27T17:00:00.000Z
+username: Bachata_Hari
+viewsCount: 41

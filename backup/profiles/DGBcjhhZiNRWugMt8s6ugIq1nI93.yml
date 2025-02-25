@@ -1,0 +1,43 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621676609563
+createdBy: DGBcjhhZiNRWugMt8s6ugIq1nI93
+name: sacha
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: sacha
+pwaUsed: false
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+updatedAt: 1621676870745
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+locales:
+  de: true
+  en: true
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+partner: Yes
+weight: "70"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+height: "180"
+updatedBy: DGBcjhhZiNRWugMt8s6ugIq1nI93
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDGBcjhhZiNRWugMt8s6ugIq1nI93%2F4845a70f-5ccf-40f2-8227-21eb3d429396?alt=media&token=62965563-99f9-4602-afa3-ee1e848327f9
+id: DGBcjhhZiNRWugMt8s6ugIq1nI93
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsacha.png?generation=1621815823373581&alt=media
+daysUsed: 3
+lastLoginAt: 1621859179597

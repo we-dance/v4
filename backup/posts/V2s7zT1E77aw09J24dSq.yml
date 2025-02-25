@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  website: http://www.kult-tanzschule.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The KULT TANZSCHULE in ADTV
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5708628802915
+      south: 48.1363358697085
+      north: 48.1390338302915
+      west: 11.5681649197085
+    location:
+      lng: 11.5698826
+      lat: 48.13758809999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 44313886
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  url: https://maps.google.com/?cid=2237208673933871066
+endDate: 1704240000000
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2Fc7bcddfb-c51c-4d7a-b9a9-4144556d1e35?alt=media&token=7c28bc1e-62f6-49e8-b01b-71d348f67b5b
+createdAt: 1704147845894
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Dj Obi
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  bio: Best Bachata DJ In Town 😎🎛️
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  instagram: https://instagram.com/djobi_bachata
+  username: Djobi_bachata
+facebook: https://www.facebook.com/events/1641514936668760/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22group%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22upcoming_events_for_group%22%2C%22surface%22%3A%22group%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22create_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D&onload_action=open_invite_flow&show_created_event_toast=true
+eventType: Party
+form: No
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+watch:
+  count: 1
+  list:
+    Djobi_bachata: true
+name: Tuesday SBK Party 2024 Edition
+online: No
+startDate: 1704223800000
+username: Djobi_bachata
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FV2s7zT1E77aw09J24dSq.png?generation=1704147860891181&alt=media
+description: >
+  
+  Welcome to the very first party in 2024 in Munich.
+
+
+  Ready to start the year on a high note? Join us tomorrow for Munich's finest SBK party at Kult Tanzschule! Let's bring in the new year with the rhythms of Salsa, Bachata, and Kizomba in the city's most vibrant dance venue.
+
+
+  🗓️ Date: Tomorrow, 02.01.2024
+
+  📍 Venue: Kult Tanzschule
+
+  ⏰ Time: 20:30
+
+
+  Get ready to dance, connect, and celebrate the new beginnings with the best SBK beats in town. We promise an evening filled with energy, passion, and the best company.
+
+
+  Don't miss out on the first big SBK bash of the year!
+
+
+  See you on the dance floor!
+id: V2s7zT1E77aw09J24dSq
+instagram:
+  messageUrl: https://instagram.com/p/C1k3l8SpIUQ
+  publishedAt: 1704151673224
+  messageId: C1k3l8SpIUQ
+  state: published
+promotionError: ""
+promotion: completed
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1704151694819
+viewsCount: 19

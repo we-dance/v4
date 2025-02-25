@@ -1,0 +1,95 @@
+venue:
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  website: http://www.salsabor.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80798"
+      short_name: "80798"
+  url: https://maps.google.com/?cid=13068910098957006739
+  name: Salsabor Dance Academy
+  geometry:
+    viewport:
+      south: 48.1506543197085
+      north: 48.1533522802915
+      east: 11.5672969802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+  international_phone_number: +49 89 52059610
+updatedBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2F6fb9415f-775b-43a3-9ab5-7eead510f8d0?alt=media&token=d1f4d624-42ff-4b1e-8b3e-5b8c854a916b
+  name: Carlos
+  username: Carlos
+endDate:
+  _seconds: 1649442600
+  _nanoseconds: 0
+claimed: No
+eventType: Course
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2F02fbf9ae-265d-4070-a195-80dea1abf0af?alt=media&token=caab655b-3fbb-4b49-84eb-121cf7429b9d
+duration: "90"
+createdAt: 1648728025836
+form: No
+artists: []
+watch:
+  count: 1
+  list:
+    Carlos: true
+createdBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+price: 75 - 90 €
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+startDate: 2022-04-08T19:00
+updatedAt: 1648728025836
+username: Carlos
+name: Salsa Cubana & Rueda de Casino Beginner
+description: |-
+  Please sign in for our monthly course with our form:
+  Anmeldeformular www.salsabor.de/kursanmeldung/ 
+id: fM27ise7kyvd7RKbRsTW
+viewsCount: 15

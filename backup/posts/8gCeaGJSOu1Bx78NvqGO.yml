@@ -1,0 +1,109 @@
+venue:
+  formatted_address: Kupferstraße 24, 85049 Ingolstadt, Germany
+  name: Kupferstraße 24
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4233564802915
+      south: 48.7636523697085
+      north: 48.76635033029149
+      west: 11.4206585197085
+    location:
+      lng: 11.4220147
+      lat: 48.7649675
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Kupferstraße
+      long_name: Kupferstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt Nordwest
+      long_name: Altstadt Nordwest
+    - types:
+        - locality
+        - political
+      short_name: Ingolstadt
+      long_name: Ingolstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Ingolstadt
+      long_name: Kreisfreie Stadt Ingolstadt
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85049"
+      long_name: "85049"
+  url: https://maps.google.com/?q=Kupferstra%C3%9Fe+24,+85049+Ingolstadt,+Germany&ftid=0x479efe508ab71d2f:0xa2e6eedf422e1f9d
+  place_id: ChIJLx23ilD-nkcRnR8uQt_u5qI
+endDate: 2023-05-17T23:30
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1684097438554
+artists: []
+price: Jeder Kurs 10 EUR +3 EUR Party
+socialCover: ""
+artistsList: []
+place: ChIJuwo2iFH-nkcR6op0EyJ-Xew
+international: No
+updatedAt: 1684097438554
+updatedBy: Vj0IGZeTlJgitzdkn77GWBGrMWf2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  instagram: https://instagram.com/salsagame_in
+  username: salsagame_in
+telegram: {}
+upVotes: 0
+eventType: Workshop
+form: No
+createdBy: Vj0IGZeTlJgitzdkn77GWBGrMWf2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Salsa & Bachata Workshop & Party
+online: No
+votes: 0
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-17T18:30
+username: Kllyric
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FVj0IGZeTlJgitzdkn77GWBGrMWf2%2Ffd596557-983c-4a10-a6d8-b134f6a5bdb3?alt=media&token=ccd7b002-a5c1-4648-a0b1-013fb823b8f8
+id: 8gCeaGJSOu1Bx78NvqGO
+viewsCount: 55

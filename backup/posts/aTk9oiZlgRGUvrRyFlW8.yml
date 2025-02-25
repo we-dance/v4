@@ -1,0 +1,135 @@
+createdAt: 1704994161398
+updatedBy: tzeqeeTxOhaIrtNbZZrg9pw7QSH2
+createdBy: tzeqeeTxOhaIrtNbZZrg9pw7QSH2
+updatedAt: 1704994161398
+username: Swiss_SalsaBachataEvents
+venue:
+  formatted_address: Europaplatz 1, 79576 Weil am Rhein, Germany
+  website: https://dreilaendergalerie.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: Dreiländergalerie
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.607725019708497
+        lat: 47.59176516970851
+      northeast:
+        lng: 7.610422980291502
+        lat: 47.59446313029151
+    location:
+      lng: 7.609343900000001
+      lat: 47.5935386
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Europaplatz
+      long_name: Europaplatz
+    - types:
+        - locality
+        - political
+      short_name: Weil am Rhein
+      long_name: Weil am Rhein
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: LÖ
+      long_name: Lörrach
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Freiburg
+      long_name: Freiburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "79576"
+      long_name: "79576"
+  international_phone_number: +49 1514 1271124
+  place_id: ChIJy_mwamC7kUcRtHwMoNonMNo
+  url: https://maps.google.com/?cid=15722110119091928244
+endDate: 1705118400000
+claimed: No
+link: ""
+description: |-
+  LATIN FRIDAY | Grand Opening | New Edition 2024
+  Freitag 12.01.2024 | Ab 21:30:00 Uhr | Eintritt 15 CHF | € + 1 Drink
+  Direkt an der Dreiländergalerie in Weil am Rhein
+  -
+  • Guest DJs
+  • Salsa, Bachata, Merengue, Latin Music & Open Format
+  • Drinks, Food & Party
+  -
+  El Gallo Resto Bar Lounge
+  Europaplatz 1
+  79576 Weil am Rhein
+  Deutschland
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJialRZQO6kUcR_Ziwl3tslgE
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/swisssalsabachataevents
+  name: Swiss Salsa Bachata Events
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtzeqeeTxOhaIrtNbZZrg9pw7QSH2%2Faea086d8-6897-40ca-99c8-f85f324548d1?alt=media&token=0c1c7fea-65b8-4a6a-a88e-d9095affa29d
+  bio: |-
+    Dance ist to unite people, not to separate them : 
+    "LET´S DANCE ALL TOGETHER"
+  id: tzeqeeTxOhaIrtNbZZrg9pw7QSH2
+  instagram: https://www.instagram.com/swiss_salsabachata2023/
+  username: Swiss_SalsaBachataEvents
+facebook: https://www.facebook.com/events/774355437856359/
+facebookId: "774355437856359"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: LATIN FRIDAY | GRAND OPENING | NEW EDITION 2024
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1705091400000+ChIJy_mwamC7kUcRtHwMoNonMNo
+startDate: 1705091400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FaTk9oiZlgRGUvrRyFlW8.png?generation=1704994199095264&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058088/oadgxif3d3a4lfxmxggg.jpg
+viewsCount: 12
+id: aTk9oiZlgRGUvrRyFlW8

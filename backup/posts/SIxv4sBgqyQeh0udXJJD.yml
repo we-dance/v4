@@ -1,0 +1,150 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  name: Studio Rebecca | Tanzstudio Rebecca
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365354302915
+      south: 48.1328692697085
+      north: 48.1355672302915
+      west: 11.5338374697085
+    location:
+      lng: 11.5350714
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  url: https://maps.google.com/?cid=14332716633642345223
+  room: white
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+endDate: 2023-01-29T16:00
+claimed: No
+link: https://doo.net/event/123293/order
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F0NOCq6OEwkPuVPX3XWAtwbvjRNY2%2F82990bac-9d04-4afb-9e67-ae2e02e3ad29?alt=media&token=14a945d4-4beb-478b-b833-4411c21ffb3e
+createdAt: 1674769742443
+artists: []
+price: see registration
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1674769742443
+updatedBy: 0NOCq6OEwkPuVPX3XWAtwbvjRNY2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: ZoukMunich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzoukmunich.png?generation=1662972737058077&alt=media
+  bio: "You're entering the mesmerizing world of Brazilian Zouk in Munich! #zouk
+    #sensualdance"
+  id: 7ACoBgOYQeMM32vaBREZ
+  instagram: https://instagram.com/zoukmunich
+  username: zoukmunich
+eventType: Workshop
+form: No
+createdBy: 0NOCq6OEwkPuVPX3XWAtwbvjRNY2
+name: Brazilian Zouk Workshop Weekend with Getúlio Ramalho (Brazil)
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-28T16:00
+username: sigrid_zouk
+id: SIxv4sBgqyQeh0udXJJD
+description: >-
+  Join Getúlio from Brazil for a great Brazilian Zouk workshop weekend including
+  social!
+
+  Intermediate/Advanced Workshop: 28 January 2023, 16:00-19:30 incl. break
+
+  Social (for all levels!): 28 January 2023, 19:30-22:00 incl. break
+
+  Beginner/Improver Workshop: 29 January 2023, 13:00-16:00 incl. break
+program:
+  - endDate: 2023-01-28T19:30
+    name: Intermediate/Advanced
+    description: 28 January 2023, incl. break
+    eventType: Workshop
+    startDate: 2023-01-28T16:00
+  - endDate: 2023-01-28T22:00
+    name: Social
+    description: 28 February 2023, feel free to bring food and drinks
+    eventType: Party
+    startDate: 2023-01-28T19:30
+  - endDate: 2023-01-29T16:00
+    name: Beginner/Improver
+    description: 29 February 2023, incl. break
+    eventType: Workshop
+    startDate: 2023-01-29T13:00
+watch:
+  count: 1
+  list:
+    sigrid_zouk: true
+star:
+  count: 1
+  list:
+    sigrid_zouk: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSIxv4sBgqyQeh0udXJJD.png?generation=1674918255536578&alt=media
+telegram:
+  requestedAt: 1674918281495
+  messageUrl: https://t.me/WeDanceMunich/828
+  publishedAt: 1674918285458
+  messageId: 828
+  state: published
+instagram:
+  requestedAt: 1674918289307
+  messageUrl: https://instagram.com/p/Cn9pXvpuQvD
+  publishedAt: 1674918305214
+  messageId: Cn9pXvpuQvD
+  state: published
+viewsCount: 66

@@ -1,0 +1,77 @@
+createdAt: 1717699699317
+website: http://tikibar.by/
+rooms: ""
+address:
+  formatted_address: vul. Zybickaja 6, Minsk, Minskaja voblasć, Belarus
+  website: http://tikibar.by/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: На Пляже Tiki Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 27.5592786302915
+      south: 53.9047750197085
+      north: 53.9074729802915
+      west: 27.5565806697085
+    location:
+      lng: 27.5579471
+      lat: 53.9062232
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: vul. Zybickaja
+      long_name: vulica Zybickaja
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Centraĺny rajon
+      long_name: Centraĺny rajon
+    - types:
+        - locality
+        - political
+      short_name: Minsk
+      long_name: Minsk
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Minski rajon
+      long_name: Minski rajon
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Minskaja voblasć
+      long_name: Minskaja voblasć
+    - types:
+        - country
+        - political
+      short_name: BY
+      long_name: Belarus
+  international_phone_number: +375 29 333-22-89
+  place_id: ChIJ_X_i1JTP20YRXZOzKCKRhok
+  url: https://maps.google.com/?cid=9909767605973128029
+gender: Other
+phone: +375 29 333-22-89
+name: На Пляже Tiki Bar
+updateAt: 1717699699317
+type: Venue
+map: ""
+username: tikibar.by
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venueType: Club
+instagram: https://www.instagram.com/na.plyazhe/
+team: []
+id: 91yoixnlSHMZ2RgJiuUb
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"
+bio: |-
+  🌴Food. Drinks. Sun. Tiki.
+  🌴Любим тики-коктейли и танцуем до утра!
+  🌴Ежедневно с 18:00
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb95def7f-78ec-4053-89c3-9f90f5d42706?alt=media&token=153f63d4-89c0-41b9-ab66-3746e7073e18
+updatedAt: 1717874025768
+viewsCount: 5

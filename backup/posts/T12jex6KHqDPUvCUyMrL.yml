@@ -1,0 +1,143 @@
+endDate: 1726963199000
+sourceUrl: https://www.facebook.com/events/s/salsa-bachata-party-v/1012375820571605/
+createdAt: 1726236034488
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1726208712000
+updatedAt: 1726236034488
+importedAt: 1726236034488
+providerUpdatedAt: 1726208712000
+facebookId: "1012375820571605"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/s/salsa-bachata-party-v/1012375820571605/
+eventType: Party
+providerItemId: 48135-1726876800-1726963199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Pápai Sportcsarnok, Várkert utca 4., Pápa, 8500, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726876800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Pápa, Várkert utca 2, 8500 Hungary
+  website: https://papaisport.hu/varosi-sportcsarnok
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Sports hall
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.4702668697085
+        lat: 47.3336500197085
+      northeast:
+        lng: 17.4729648302915
+        lat: 47.3363479802915
+    location:
+      lng: 17.4717554
+      lat: 47.3350617
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Várkert utca
+      long_name: Várkert utca
+    - types:
+        - locality
+        - political
+      short_name: Pápa
+      long_name: Pápa
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8500"
+      long_name: "8500"
+  international_phone_number: +36 30 293 5147
+  place_id: ChIJta8YcqhhaUcRP0vlHAM33ck
+  url: https://maps.google.com/?cid=14545842857985788735
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/KaribiTancEgyesulet.Gyor
+  name: Győri Karibi Tánc Egyesület
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044607/l7u7bybnvtqe0l6bxmel.jpg
+  bio: ""
+  id: 364DU36VJ7oILfo8Myce
+  instagram: ""
+  username: gyri.karibi.tanc.egy
+claimed: No
+facebook: https://www.facebook.com/events/1012375820571605/
+link: ""
+description: >-
+  2024.09.21. Pápa Városi sportcsarnok Várkert utca 2.
+
+  VIP terem
+
+  Program:
+
+  21:00 - 01:00 buli a kedvenc zenéiddel
+
+
+  A kellemes hőmérséklet biztosításáért légkondicionált terem ventillátorokkal felturbózva.
+
+
+  Belépő :
+
+
+  Party Fb regisztrácioval ( OTT LESZEK ) : 2500 ft
+
+
+  🔴 Büfé nem lesz ezért hozhattok/hozzatok kedvetekre bármi ételt 🥯🥩🍫-italt🍷☕️🍾
+
+  Amivel készülünk Nektek:
+
+  -Profi hang és látványos fénytechnika
+
+  -Sok-sok animációval -ruedákkal és hogy garantáltán senki ne ücsörögjön az est folyamán hölgyválaszt is hirdetünk
+
+  DJ. Paár Vilmos
+
+  A rendezvényre érkező a jegy megvételével automatikusan hozzájárulását adja, hogy a rendezvényen róla hang és képanyag készülhet, amit a rendező jogosult a későbbiekben marketing vagy egyéb anyaghoz kép és / vagy hang megjelenítéssel felhasználni.
+
+  A bulin való részvétellel a résztvevők vállalják, hogy a belépéskor kapott karszalagot a távozás pillanatáig magán tartják.
+
+  Kijelentik, hogy elfogadják és betartják a helyszín házirendjét.
+
+  Az eseményre ételt és italt lehet hozni!
+
+  A tánctérre italt bevinni Tilos!
+
+  Az őrizetlenül hagyott értéktárgyakért a rendező nem vállal felelősséget.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726236045/i50odkaf6aug5xicw7vn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa & Bachata Party V.
+online: No
+place: ChIJB0GaRAxhaUcRe9kpZREuBqU
+international: No
+hash: 1726945200000+ChIJta8YcqhhaUcRP0vlHAM33ck
+id: T12jex6KHqDPUvCUyMrL

@@ -1,0 +1,47 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1633105591192
+createdBy: bXn0xrYMcHPjvsIrXXeZ9Acf7J02
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: Robbie
+visibility: Members
+name: Robbie
+gender: Male
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+locales:
+  de: true
+  en: true
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbXn0xrYMcHPjvsIrXXeZ9Acf7J02%2Fa0ea2b8b-da2f-46ea-b186-9517027078a1?alt=media&token=69cfa9ff-45cf-4b98-bf50-5145deb64536
+partner: Yes
+height: "168"
+birthday: ""
+weight: "70"
+permission: ""
+pwaUsed: true
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+updatedAt: 1645902870103
+facebook: https://facebook.com/Robby
+lastLoginAt: 1673250278888
+daysUsed: 18
+viewsCount: 2
+id: bXn0xrYMcHPjvsIrXXeZ9Acf7J02

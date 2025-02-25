@@ -1,0 +1,108 @@
+venue:
+  formatted_address: Göttinger Str. 1, 83052 Bruckmühl, Germany
+  website: https://m.facebook.com/pages/category/Restaurant/Br%C3%BCckenwirt-1872883502770901/?locale2=de_DE
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "1"
+      short_name: "1"
+    - types:
+        - route
+      long_name: Göttinger Straße
+      short_name: Göttinger Str.
+    - types:
+        - locality
+        - political
+      long_name: Bruckmühl
+      short_name: Bruckmühl
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Rosenheim
+      short_name: RO
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "83052"
+      short_name: "83052"
+  url: https://maps.google.com/?cid=18010679776535684501
+  name: Brückenwirt
+  geometry:
+    viewport:
+      south: 47.87856936970851
+      north: 47.8812673302915
+      east: 11.9123447802915
+      west: 11.9096468197085
+    location:
+      lng: 11.9110789
+      lat: 47.879921
+  international_phone_number: +49 8062 9083334
+  place_id: ChIJFduhxPT2nUcRlaW4A9XJ8vk
+endDate:
+  _seconds: 1633816800
+  _nanoseconds: 0
+description: Buenos dias Familia de Baile, am Samstag 09.10. feiern wir unser
+  Salsa Jubiläum in geschlossener Gesellschaft mit der 3G Regel (Schnelltest
+  reicht, PCR wäre natürlich besser 😉). Bitte bei mir anmelden via WhatsApp
+  0176 83209699 Salsalu2 SalsaBina Casinera  und Dreamteam 💃🏼🕺🏽❣️
+type: event
+duration: "240"
+cover: ""
+createdAt: 1633363591958
+watchersCount: 0
+price: FREE
+commentsLast: ~
+id: ThMiczNOTTFpMADnyWdX
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 11
+updatedAt: 1633363591958
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: SaBaKi Party in Bruckmühl
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-09T18:00:00.000Z
+username: Vitali
+viewsCount: 13

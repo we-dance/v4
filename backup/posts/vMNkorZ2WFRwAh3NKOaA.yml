@@ -1,0 +1,273 @@
+endDate: 1723692600000
+sourceUrl: https://www.facebook.com/events/1508979826339919/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1704655738000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1704655738000
+facebookId: "1508979826339919"
+facebook: https://www.facebook.com/events/1508979826339919/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1508979826339919/
+eventType: Party
+providerItemId: e1508979826339919@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: PANAME - 14 AOUT 2024 - Veille de jour ferié - La Palmeraie
+location: ""
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723658400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 25 Rue du Faubourg-de-Pierre, 67000 Strasbourg, France
+  website: https://www.instagram.com/lepanamestrasbourg/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Restaurant Le Paname
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.744537819708497
+        lat: 48.5866056197085
+      northeast:
+        lng: 7.747235780291501
+        lat: 48.5893035802915
+    location:
+      lng: 7.7457805
+      lat: 48.58792819999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: Rue du Faubourg-de-Pierre
+      long_name: Rue du Faubourg-de-Pierre
+    - types:
+        - locality
+        - political
+      short_name: Strasbourg
+      long_name: Strasbourg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Bas-Rhin
+      long_name: Bas-Rhin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "67000"
+      long_name: "67000"
+  international_phone_number: +33 9 80 97 90 37
+  place_id: ChIJ0deyo0_IlkcRgASZnFNikUY
+  url: https://maps.google.com/?cid=5084953565527082112
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224682160
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Paname/100072264677332/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224682/cmyyzgfkej63sidvnsfj.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224682160
+  owned: false
+  name: Paname
+  updatedAt: 1711224682160
+  username: Paname
+claimed: No
+link: ""
+description: >-
+  ▫️💛▫️Paname ▫️💛▫️
+
+  ▫️◽️◻️ White party ◻️◽️▫️
+
+  🌟 Soirée d'exception 🌟
+
+
+  Date : Mercredi 14 août 2024
+
+  Veille de jour ferié
+
+  Lieu : La Palmeraie (Paris 15ème)
+
+  Billetterie :  à venir
+
+
+  Un lieu qui réunit tous les atouts pour passer une belle soirée ! 😍
+
+  🌟 La plus belle salle de paris
+
+  🌟 Un cadre unique et magique
+
+  🌟 Climatisation
+
+  🌟 Sol parfait
+
+  🌟 Une sonorisation optimum
+
+  🌟 Bar et restauration sur place
+
+  🌟 Une salle chill & chicha
+
+
+  ⚪️ DJ'S ⚪️
+
+  A venir
+
+
+  ⚪️ PROFESSEURS ⚪️
+
+  A venir
+
+
+  ⚪️ PROGRAMME ⚪️
+
+  > Ouverture des portes : 20h30
+
+  🕗 21h00-22h : cours 
+
+  🕗 22h00-23h : cours 
+
+  🕗 23h-05h30 : soirée
+
+
+  ⚪️ TARIFS ⚪️
+
+  🌟 En ligne : 20€ (VESTIAIRE OFFERT)
+
+  🌟 Sur place : 20€ + vestiaire obligatoire : 2€ par personne
+
+
+
+  ⚪️ ADRESSE ⚪️
+
+  La Palmeraie
+
+  18/20, rue du Colonel Pierre Avia
+
+  75015 Paris
+
+
+  ⚪️ CONTACT ⚪️
+
+  Facebook page : Paname
+
+  Instagram : Paname_kizomba_officiel
+
+
+  ——————————————————
+
+
+  ▫️💛▫️Paname ▫️💛▫️
+
+  ▫️◽️◻️ White party ◻️◽️▫️
+
+  🌟 Extraordinary party 🌟
+
+
+  Date: Wednesday August 14, 2024
+
+  Eve of public holiday
+
+  Location: La Palmeraie (Paris 15th)
+
+
+  Ticketing: to come
+
+
+  A place that brings together everything you need to spend a wonderful evening 😍
+
+  🌟 The most fancy party room in Paris
+
+  🌟 An unique and magical place
+
+  🌟 Air conditioning
+
+  🌟 Perfect floor
+
+  🌟 Optimum sound
+
+  🌟 Bar and catering on site
+
+  🌟 A chill & chicha room
+
+
+  ⚪️ DJ'S ⚪️
+
+  To come
+
+
+  ⚪️ TEACHERS ⚪️
+
+  To come
+
+
+  ⚪️ PROGRAM ⚪️
+
+  > Opening 8.30PM
+
+  🕗 9PM-10PM: workshop 
+
+  🕗 10PM-11PM: workshop 
+
+  🕗 11PM-5.30AM: party
+
+
+  ⚪️ PRICES ⚪️
+
+  🌟 Online: 20€ (free cloakroom)
+
+  🌟 At the door: 20€ + cloakroom: 2€ per person
+
+
+  ⚪️ ADDRESS ⚪️
+
+  La Palmeraie
+
+  18/20, rue du Colonel Pierre Avia
+
+  75015 Paris
+
+
+  ⚪️ CONTACT ⚪️
+
+  Facebook page: Paname
+
+  Instagram: Paname_kizomba_officiel
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/xhzskr6ehrcvaakcckcv.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJwbIYXknIlkcRHyTnGDFIGpc
+international: No
+hash: 1723658400000+ChIJ0deyo0_IlkcRgASZnFNikUY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FvMNkorZ2WFRwAh3NKOaA.png?generation=1711224702627803&alt=media
+viewsCount: 1
+id: vMNkorZ2WFRwAh3NKOaA

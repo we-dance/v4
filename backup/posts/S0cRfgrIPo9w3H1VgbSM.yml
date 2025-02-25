@@ -1,0 +1,136 @@
+venue:
+  formatted_address: Schönhauser Allee 36, 10435 Berlin, Germany
+  website: https://jangada.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance School Academia Jangada
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4137973302915
+      south: 52.5378642197085
+      north: 52.5405621802915
+      west: 13.4110993697085
+    location:
+      lng: 13.4125505
+      lat: 52.5392117
+  address_components:
+    - types:
+        - street_number
+      short_name: "36"
+      long_name: "36"
+    - types:
+        - route
+      short_name: Schönhauser Allee
+      long_name: Schönhauser Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Pankow
+      long_name: Bezirk Pankow
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10435"
+      long_name: "10435"
+  url: https://maps.google.com/?cid=1723307110097778219
+  international_phone_number: +49 30 4495738
+  place_id: ChIJQSAmgeRRqEcRK3ZIqK9q6hc
+endDate: 2022-09-14T20:00
+claimed: No
+link: https://la-candela-salsa.de/salsa-advanced/
+description: >-
+  in this course, we deal with Salsa as it should be danced, free, rich in
+  movement, flow, full of style and sabor. We will increase our comfortability
+  with complex figures, and add some twists to make the dance more flavorsome.
+  As always, we keep our eyes on the details and work on perfecting our leading
+  and following technique.
+
+
+  The objective of the course is to let you feel free and creative in the dance:
+
+
+  You will learn advanced figures, and enrich your Salsa vocabulary and possibilities in the dance.
+
+  Improve your Partnerwork technique. become a leader that can lead a complex movement with flow, and a follower that can follow any instruction with grace.
+
+
+  Starting from this level we focus on styling, and making our dance flavorsome.
+
+  By completing this level (advanced 1+2), you should have all the tools required to attend partnerwork Salsa classes of any level.
+type: event
+duration: 60
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F074160f3-0cf6-4f78-aea2-4834473373a1?alt=media&token=dfd0807b-05b3-4c00-abec-769046baa761
+createdAt: 1656759809452
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/la.candela.salsa.school/
+    name: Ido Flaishon
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+    bio: >-
+      Salsa & Cuban dances teacher.
+
+      La Candela School head in Berlin.
+
+      Creator of the Salsayo.com project - Cuban moves international encyclopedia.
+    instagram: https://www.instagram.com/la.candela.salsa/
+    id: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+    username: idofle
+price: 20 Eur Drop in  / 120-140 EUR full course
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - idofle
+international: No
+updatedAt: 1656759809452
+updatedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+visibility: Public
+org:
+  role: organiser
+  name: Ido Flaishon
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+  username: idofle
+facebook: ""
+eventType: Course
+form: No
+watch:
+  count: 1
+  list:
+    idofle: true
+createdBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+name: Salsa – Advanced 1 Level
+online: No
+styles:
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+startDate: 2022-07-27T20:00
+username: idofle
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FS0cRfgrIPo9w3H1VgbSM.png?generation=1656760456855403&alt=media
+viewsCount: 42
+id: S0cRfgrIPo9w3H1VgbSM

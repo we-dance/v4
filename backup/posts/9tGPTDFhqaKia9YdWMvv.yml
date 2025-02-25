@@ -1,0 +1,188 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/xplosion-hamburg-edition/
+name: Xplosion Hamburg Edition III
+sourceUrl: https://facebook.com/events/669202775255147/
+venue:
+  address_components:
+    - long_name: "55"
+      short_name: "55"
+      types:
+        - street_number
+    - long_name: Dehnhaide
+      short_name: Dehnhaide
+      types:
+        - route
+    - long_name: Hamburg-Nord
+      short_name: Hamburg-Nord
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Hamburg
+      short_name: Hamburg
+      types:
+        - locality
+        - political
+    - long_name: Hamburg
+      short_name: Hamburg
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Hamburg
+      short_name: HH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "22081"
+      short_name: "22081"
+      types:
+        - postal_code
+  formatted_address: Dehnhaide 55, 22081 Hamburg, Germany
+  geometry:
+    location:
+      lat: 53.5795122
+      lng: 10.0457204
+    viewport:
+      northeast:
+        lat: 53.5808031802915
+        lng: 10.0470134802915
+      southwest:
+        lat: 53.5781052197085
+        lng: 10.0443155197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Dehnhaide 55
+  place_id: ChIJreBhuUuJsUcRy67FMQrJlKA
+  url: https://maps.google.com/?q=Dehnhaide+55,+22081+Hamburg,+Germany&ftid=0x47b1894bb961e0ad:0xa094c90a31c5aecb
+endDate: 1737910800000
+claimed: No
+link: https://www.goandance.com/en/events/6667-xplosion-hamburg-edition-iii
+description: >-
+  Xplosion Hamburg Edition III on 24th - 26th Jan 2025
+
+
+  ✪ Artists Line up ✪
+
+
+  ❥ Felipe & Tiago - Spain
+
+  ❥ Fiorella & Linda - Netherlands
+
+  ❥ Masa & Polina - Spain
+
+  ❥ Edu & Natalia - Germany
+
+  ❥ Jessica & Johanna - Spain/Germany
+
+  ❥ Hari & Lilien - Germany
+
+
+  ✪ DJ Line up ✪
+
+  ❥ DJ Lima - Lithuania
+
+  ❥ DJ Dia - Germany
+
+  ❥ DJ NAANDI - Germany
+
+
+  ✪ Official Photographers / Videographers ✪
+
+  ❥ AZU REC - Lithuania
+
+  ❥ Eckhard Portraits - Germany
+
+
+  ✪ What to Expect? ✪
+
+  ❥ +13 hrs of workshops with International and National Artists.
+
+  ❥ 2 Big Parties with Artists/Guest Dancers and International DJs
+
+  ❥ Lot more exciting, Fun, Dance & Xplosion
+
+
+  ✪ PASSES ✪
+
+  ★ Full Pass
+
+  ★ Party Pass
+
+  ★ Day Pass - Only At Door
+
+
+  ✪ Venue ✪
+
+  ❥ Workshops / Party Location:
+
+  Tango Chocolate, Dehnhaide 55, 22081 Hamburg
+
+
+  ★ There will be an official photographer / Videographers for the party nights
+
+
+  Information: Tickets are non-refundable and purchases are final. But you can sell the tickets and change the name of the passes until Dec 2024.
+
+
+  For Any other questions please contact:
+
+  ❥ Instagram / Facebook: @xplosion_event
+
+  ❥ Website: www.xplosionevent.com
+
+  ❥ Email: explosionbachata@gmail.com
+
+  ❥ Mobile: +49 17684175366
+
+
+  Event organised by
+
+  Xplosion_Event
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293935/eka9fuwgtfsytb83xhkf.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+visibility: Public
+org:
+  id: PDAgk7Hcq068R7Y2iILe
+  username: bachatahari
+  name: hari_bachata
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417922/nbz34hbdybphlifvdpjt.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/bachatahari
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/669202775255147/
+facebookId: "669202775255147"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1737745200000+ChIJreBhuUuJsUcRy67FMQrJlKA
+startDate: 1737745200000
+id: 9tGPTDFhqaKia9YdWMvv

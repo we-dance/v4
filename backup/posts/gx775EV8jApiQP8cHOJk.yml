@@ -1,0 +1,171 @@
+endDate: 1716681600000
+sourceUrl: https://www.facebook.com/events/1113806539873257/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713981797000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1713983133000
+facebookId: "1113806539873257"
+facebook: https://www.facebook.com/events/1113806539873257/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1113806539873257/
+eventType: Party
+providerItemId: e1113806539873257@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Latin Night "
+location: Elberfelder Str. 64, Hagen
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716659100000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Elberfelder Str. 64, 58095 Hagen, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Elberfelder Str. 64
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.464639919708497
+        lat: 51.3584162197085
+      northeast:
+        lng: 7.467337880291502
+        lat: 51.3611141802915
+    location:
+      lng: 7.465949299999999
+      lat: 51.3597024
+  address_components:
+    - types:
+        - street_number
+      short_name: "64"
+      long_name: "64"
+    - types:
+        - route
+      short_name: Elberfelder Str.
+      long_name: Elberfelder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hagen-Mitte
+      long_name: Hagen-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hagen
+      long_name: Hagen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hagen
+      long_name: Hagen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Arnsberg
+      long_name: Arnsberg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "58095"
+      long_name: "58095"
+  place_id: ChIJewvfMn07uUcRaNfC3imyYOc
+  url: https://maps.google.com/?q=Elberfelder+Str.+64,+58095+Hagen,+Germany&ftid=0x47b93b7d32df0b7b:0xe760b229dec2d768
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444480580
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/TanzschuleSiebenhuener
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444480/newerendh5179wl5l7oj.png
+  source: facebook
+  type: Organiser
+  createdAt: 1715444480580
+  owned: false
+  name: Tanzschule Siebenhüner
+  place: ChIJM_s2IPfwtocR2srjA8Z7fe0
+  updatedAt: 1715444480580
+  username: tanzschule.siebenhun
+claimed: No
+link: ""
+description: >-
+  -Salsa&Bachata Party: Samstag, 20.04.2024 
+
+
+  🕺💃🕺💃🕺💃🕺💃🕺
+
+  Am Samstag heißt es wieder :
+
+  "Let's have a Latin Night"
+
+
+  mit DJ QuBa
+
+  Wir starten um 19:45 Uhr mit einem Bachata Workshop (Mittelstufe/Moderna)
+
+
+  Ab 20:30 Uhr heisst es dann Tanzfläche frei für Salsa und Bachata!
+
+
+  Eintritt: 10,00€ pro Person
+
+
+  Wir freuen uns auf euch🎉
+
+
+  🚙🚗🚌🚙🚗🚐🚙🚗🛻🚐🚗
+
+  Anfahrt:
+
+  Hagen Innenstadt, Stadttheater 
+
+
+  Parkmöglichkeiten:
+
+  -in den anliegenden Straßen (ab 21 kostenlos) 
+
+  -im Parkhaus am Theaterkarree (eine Stunde ist, durch abstempeln der Karte bei uns, frei)
+
+  -Der Hauptbahnhof ist fußläufig etwa 10 Minuten entfernt
+
+  - Die Bushaltestellen am Theaterkarree befinden sich direkt gegenüber
+
+  -
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444481/sofaubwmguhcnra5hmkr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJM_s2IPfwtocR2srjA8Z7fe0
+international: No
+hash: 1716659100000+ChIJewvfMn07uUcRaNfC3imyYOc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fgx775EV8jApiQP8cHOJk.png?generation=1715444496346630&alt=media
+id: gx775EV8jApiQP8cHOJk

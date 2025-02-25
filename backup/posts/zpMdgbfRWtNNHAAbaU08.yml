@@ -1,0 +1,161 @@
+endDate: 1725820200000
+sourceUrl: https://www.facebook.com/events/1331567440845827/
+createdAt: 1714557774703
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1713356849000
+updatedAt: 1714557774703
+importedAt: 1714557774703
+providerUpdatedAt: 1713510804000
+facebookId: "1331567440845827"
+facebook: https://www.facebook.com/events/1331567440845827/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1331567440845827/
+eventType: Party
+providerItemId: e1331567440845827@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa & Sensual Sunset Cruise
+location: Schiffsanlegestelle Wolfgangsee
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725806700000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Markt 35, 5360 St. Wolfgang im Salzkammergut, Austria
+  website: https://www.5schaetze.at/de/wolfgangseeschifffahrt.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: WolfgangseeSchifffahrt
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4380776697085
+        lat: 47.7385432697085
+      northeast:
+        lng: 13.4407756302915
+        lat: 47.7412412302915
+    location:
+      lng: 13.4396473
+      lat: 47.7399038
+  address_components:
+    - types:
+        - street_number
+      short_name: "35"
+      long_name: "35"
+    - types:
+        - route
+      short_name: Markt
+      long_name: Markt
+    - types:
+        - locality
+        - political
+      short_name: St. Wolfgang im Salzkammergut
+      long_name: Sankt Wolfgang im Salzkammergut
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gmunden
+      long_name: Gmunden
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Oberösterreich
+      long_name: Oberösterreich
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "5360"
+      long_name: "5360"
+  international_phone_number: +43 662 88849700
+  place_id: ChIJXZrPvA6xdkcRz1ym4CQzKkU
+  url: https://maps.google.com/?cid=4983852171119713487
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714557778063
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SalsaDJThunder
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557778/qb9xip02wowbmwpvtvg6.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714557778063
+  owned: false
+  name: Let's Salsa
+  place: ChIJhc3skbaxdkcRVqG-p0hjWbc
+  updatedAt: 1714557778063
+  username: SalsaDJThunder
+claimed: No
+link: https://eventfrog.de/de/p/party/latin-brasil/salsa-sensual-sunset-cruise-7186845943282474339.html
+description: >-
+  Let's Salsa and get sensual... 💃🏻⛱️🕺
+
+  ... in den Sonnenuntergang am Wolfgangsee
+
+  🎁 Tanzen, Genießen und einfach die Seele baumeln lassen 🍀
+
+  🚢 Die "MS Salzburg", das größte Schiff am See, ist exklusiv für uns reserviert ✨
+
+  Euch erwartet...
+
+  🎶 Feine Musik auf 2 tanzschuhgeeigneten, klimatisierbaren Floors:
+
+  💃🏻 Kizomba Floor mit DJane KizLiz 
+
+  🕺 Salsa & Bachata Floor mit DJ Tornado 🎵
+
+  🌅 einzigartiges Ambiente vor der traumhaften Kulisse St. Wolfgangs und der Berge des Salzkammerguts 🏔️
+
+  💰 Ticket € 37,-; Abendkasse falls verfügbar € 45,- (Preis inkludiert Schifffahrt und Party)
+
+
+  ⚓ Adresse: Schiffsanlegestelle Gschwendt Parkplatz
+
+  🎯 Boarding bei jedem Wetter um 17:00,  Rückkehr gegen 20:15.
+
+  ⏰ Seid bitte on time!
+
+  🍷🍴 Am Schiff gibt es nur Getränke, direkt am See einen feinen Kiosk mit Snacks und Getränken und für den großen Hunger eine Vielzahl von Restaurants im Salzkammergut
+
+  🌐 https://www.5schaetze.at/de/wolfgangseeschifffahrt.html
+
+  🅿️ Parken gratis direkt bei der Anlegestelle Gschwendt 
+
+  🔔 Infos zu unseren Veranstaltungen:
+
+  https://chat.whatsapp.com/IEXDq3KX96ODyQoeRF0mkX
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714557780/atvyrx3irglnbdzkt1cf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJhc3skbaxdkcRVqG-p0hjWbc
+international: No
+hash: 1725806700000+ChIJXZrPvA6xdkcRz1ym4CQzKkU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FzpMdgbfRWtNNHAAbaU08.png?generation=1714557792973843&alt=media
+viewsCount: 4
+id: zpMdgbfRWtNNHAAbaU08

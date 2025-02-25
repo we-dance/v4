@@ -1,0 +1,188 @@
+endDate: 1739140200000
+sourceUrl: https://www.facebook.com/events/1446270595925758/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1724239230000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1724239230000
+facebookId: "1446270595925758"
+facebook: https://www.facebook.com/events/1446270595925758/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1446270595925758/
+eventType: Festival
+providerItemId: e1446270595925758@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Lento Dance Festival 2025 - Viena - promo code GOS173
+location: Vienna
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1738940400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Vienna, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Vienna
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.18183037177429
+        lat: 48.11790316402028
+      northeast:
+        lng: 16.57745450947423
+        lat: 48.32256296964658
+    location:
+      lng: 16.3713095
+      lat: 48.20806959999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+  place_id: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  url: https://maps.google.com/?q=Vienna,+Austria&ftid=0x476d079e5136ca9f:0xfdc2e58a51a25b46
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: >
+  🌟 Get ready to warm up your winter at the second edition of Lento Dance
+  Festival! ❄️✨
+
+
+  Whether you're a dance floor pro or just starting, this fest is for YOU.
+
+
+  ⏩ 30+ Bachata Workshops for all levels
+
+
+  ⏩ 2 Dance floors at District Living
+
+
+  ⏩ x3 Social Dance Parties
+
+
+  📅 February 7th - February 9th, 2025
+
+
+  📍 District Living, Vienna
+
+
+  📙 Lineup:
+
+
+  ⏩ Igor & Ana
+
+
+  ⏩ Leandro & Jomante
+
+
+  ⏩ Daniel & Alma
+
+
+  ⏩ Cristian & Alma
+
+
+  ⏩ Marc & Lorena
+
+
+  ⏩ Laurenz & Olga
+
+
+  ⏩ Paul & Dragana
+
+
+  ⏩ Karina Osorio
+
+
+  ⏩ Sana
+
+
+  ⏩ Anna
+
+
+  🎧 DJ Husky
+
+
+  🎧 DJ Andy
+
+
+  🎧 DJ Infinity
+
+
+  Let's make this winter unforgettable on the dance floor!
+
+
+  TICKETS:
+
+  https://www.goandance.com/en/e/7272?promoter=GOS173
+
+
+  FULL PASS
+
+  89€ -  until 20.09
+
+  99€ - until 20.10
+
+
+  COUPLE PASS
+
+  160€ - until 20.09
+
+  170€ - until 20.10
+
+
+  PARTY PASS
+
+  65€ -  until 09.02
+
+
+  With promo code GOS173 you have 10€ discount!!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417916/acj1jxztflyfcmyazfzm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1738940400000+ChIJn8o2UZ4HbUcRRluiUYrlwv0
+id: sRLtim7Q8nzG3BssiwCa

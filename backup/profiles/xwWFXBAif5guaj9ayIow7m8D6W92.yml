@@ -1,0 +1,77 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621551788623
+locales:
+  de: true
+  en: true
+  es: true
+createdBy: xwWFXBAif5guaj9ayIow7m8D6W92
+name: spanishdancer_cm
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: spanishdancer_cm
+daysUsed: 1
+pwaUsed: false
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+birthday: 1992-09-24
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedBy: xwWFXBAif5guaj9ayIow7m8D6W92
+teacher: No
+partner: Yes
+jobs: Salsa, merengue, bachata, latein, standard, discofox
+id: xwWFXBAif5guaj9ayIow7m8D6W92
+height: "167"
+updatedAt: 1621551919308
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  public: true
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxwWFXBAif5guaj9ayIow7m8D6W92%2F44d3cc38-5e1b-4c55-90c9-85bb7a18b1ee?alt=media&token=d8f581bc-3ead-4526-a754-944ddb3e76ed
+permission: Yes
+styles:
+  HipHop:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Latin:
+    level: Advanced
+    highlighted: false
+    selected: true
+lastLoginAt: 1621587539808
+viewsCount: 3

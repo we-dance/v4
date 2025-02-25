@@ -1,0 +1,147 @@
+venue:
+  formatted_address: Isolatorweg 28, 1014 AS Amsterdam, Netherlands
+  website: http://www.candancestudios.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: CanDance Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.852191680291502
+      south: 52.3914739697085
+      north: 52.3941719302915
+      west: 4.849493719708498
+    location:
+      lng: 4.851088199999999
+      lat: 52.3927722
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Isolatorweg
+      long_name: Isolatorweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westpoort
+      long_name: Westpoort
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 1014 AS
+      long_name: 1014 AS
+  place_id: ChIJ5TaEYKngxUcRbzzkrY8Upsg
+  url: https://maps.google.com/?cid=14458266261049850991
+endDate: 1704670200000
+claimed: No
+link: https://my.weezevent.com/dsf-24
+description: >+
+  🥳🥳 Join the festival which was the first festival in the world to promote
+  traditional bachata and has contributed to the emergence of most artists on
+  the international bachatera scene
+
+
+  🥳🥳 Ticket Link : https://my.weezevent.com/dsf-24
+
+
+  🥳🥳 Use promo code: ,MUNICH' to get 10EUR discount
+
+
+  🥳🥳 Dates : January 5-6-7,2024
+
+
+  🥳🥳 WHAT TO EXPECT FROM THIS 10TH EDITION?
+
+  - 3 Festival days including Masterclasses, Workshops | Conferences | World Traditional Bachata Competition | International & national artists | Live Music | Social dance | Dominican Food...
+
+
+  🥳🥳 Live Music & Concert : Joan Soriano // Ricky Manuel // Gaby Galand
+
+
+  📍 WHERE CAN I FIND THIS EVENT?
+
+  Venue: CanDance Studios
+
+  Address: Isolatorweg 28, 1014 AS Amsterdam (NETHERLANDS) 🇳🇱
+
+
+  🏨 HOTELS NEARBY:
+
+  1) Hotel Ibis Amsterdam City West: Transformatorweg 36, 1014 AK Amsterdam (in front of the venue)
+
+  2) Park Inn by Radisson Amsterdam City West: La Guardiaweg 59, 1043 DE Amsterdam
+
+  3) Molenwerf 1, 1014 AG Amsterdam : Molenwerf 1, 1014 AG Amsterdam
+
+  ..and many more hotels just around the venue
+
+program: []
+type: event
+duration: 60
+createdAt: 1702372796775
+artists: []
+price: 110 EUR
+artistsList: []
+specialOffer: Use Promo Code "MUNICH" to get 10 EUR discount
+international: No
+visibility: Public
+facebook: https://fb.me/e/6rFPeSuzt
+eventType: Festival
+form: No
+createdBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+watch:
+  count: 1
+  list:
+    ananth: true
+name: DOMINICAN BACHATA SWAG FESTIVAL - Amsterdam (2024)
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1704448800000
+username: ananth
+id: lTJC2pDAg1e5yAbLPJe7
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7SRXL9snb0Tj6WR1inqrtwGDJwt2%2Fec3201b4-0076-433e-82e6-544bb318d554?alt=media&token=e575e532-c506-489c-9fbb-30870998481b
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotionError: ""
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  instagram: https://instagram.com/bachatainparis
+  username: bachatainparis
+updatedAt: 1702377366358
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlTJC2pDAg1e5yAbLPJe7.png?generation=1702377391830016&alt=media
+instagram:
+  state: published
+  messageUrl: https://instagram.com/p/C0v_e6OOdE-
+  publishedAt: 1702377425441
+  messageId: C0v_e6OOdE-
+promotion: completed
+viewsCount: 51

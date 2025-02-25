@@ -1,0 +1,150 @@
+endDate: 1721577600000
+sourceUrl: https://www.facebook.com/events/1155118282431057/
+createdAt: 1719324027938
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1719244578000
+updatedAt: 1719324027938
+importedAt: 1719324027938
+providerUpdatedAt: 1719244578000
+facebookId: "1155118282431057"
+facebook: https://www.facebook.com/events/1155118282431057/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1155118282431057/
+eventType: Party
+providerItemId: e1155118282431057@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa Beginner Workshop
+location: Tanz-Fluss Tanzstudio
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721566800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Admiralstraße 54, 28215 Bremen, Germany
+  website: http://www.tanz-fluss.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanz-Fluss Tanzstudio
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.805169619708499
+        lat: 53.0883092697085
+      northeast:
+        lng: 8.807867580291504
+        lat: 53.0910072302915
+    location:
+      lng: 8.806427500000002
+      lat: 53.0897245
+  address_components:
+    - types:
+        - street_number
+      short_name: "54"
+      long_name: "54"
+    - types:
+        - route
+      short_name: Admiralstraße
+      long_name: Admiralstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Findorff
+      long_name: Findorff
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28215"
+      long_name: "28215"
+  international_phone_number: +49 421 43180851
+  place_id: ChIJv7c4whYosUcRmjdtMOnK4yU
+  url: https://maps.google.com/?cid=2730248902005307290
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/tanzfluss.tanzstudio
+  name: Tanz-Fluss Tanzstudio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719324041/odqw9l9upom2lq7puejz.jpg
+  bio: ""
+  id: OgB4dXBfCUFdjGUojo7y
+  instagram: ""
+  username: tanzfluss.tanzstudio
+claimed: No
+link: http://www.tanz-fluss.de/
+description: >-
+  Lerne Salsa an einem Wochenende
+
+
+  An einem Wochenende lernst Du und Dein/e Tanzpartner/in alle Grundlagen über die verbreitetsten Salsatanzstile.
+
+  Du lernst die wichtigsten Salsa - Basics, wie den Grundschritt, die ersten Drehungen und natürlich auch schon die ersten Figuren und Kombinationen. So kannst Du nach ein wenig Übung bei der nächsten Party mutig auf’s Parkett.
+
+  Es sind keine Voraussetzungen oder Vorkenntnisse für die Teilnahme erforderlich!
+
+
+  Also schnell ein Platz sichern und mit uns tanzen!
+
+
+  Der Kurs/Workshop findet im Tanz-Fluss Tanzstudio Bremen statt
+
+  Admiralstraße 54
+
+  28215 Bremen
+
+
+  Für die Teilnahme ist eine Anmeldung notwendig
+
+  (die Plätze sind begrenzt)
+
+
+  Mehr Infos und Anmeldungen über unsere Anmelde Formular
+
+  www.tanz-fluss.de
+
+
+  tänzerische Grüße
+
+  Das Tanz-Fluss Team
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324048/l1y5zywtzhsme11uj4jj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+hash: 1721566800000+ChIJv7c4whYosUcRmjdtMOnK4yU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgXBcxrMiFmaQOzEel7lg.png?generation=1719324084667056&alt=media
+id: gXBcxrMiFmaQOzEel7lg

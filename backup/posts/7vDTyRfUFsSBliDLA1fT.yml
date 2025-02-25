@@ -1,0 +1,104 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/fever-bachata-world-congress/
+sourceUrl: https://facebook.com/events/1186294085865826
+venue:
+  address_components:
+    - long_name: "43"
+      short_name: "43"
+      types:
+        - subpremise
+    - long_name: "41"
+      short_name: "41"
+      types:
+        - street_number
+    - long_name: Carrer de la Rioja
+      short_name: Carrer de la Rioja
+      types:
+        - route
+    - long_name: Gandia
+      short_name: Gandia
+      types:
+        - locality
+        - political
+    - long_name: Valencia
+      short_name: V
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Comunidad Valenciana
+      short_name: VC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "46730"
+      short_name: "46730"
+      types:
+        - postal_code
+  formatted_address: Carrer de la Rioja, 41, 43, 46730 Gandia, Valencia, Spain
+  geometry:
+    location:
+      lat: 39.0059733
+      lng: -0.1687892
+    viewport:
+      northeast:
+        lat: 39.0072916302915
+        lng: -0.167188069708498
+      southwest:
+        lat: 39.0045936697085
+        lng: -0.169886030291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 962 84 82 00
+  name: VS Gandía Palace Hotel
+  place_id: ChIJMUWMW-7CYQ0RG5QmKFqWs7w
+  url: https://maps.google.com/?cid=13597377013926499355
+  website: https://www.gandiapalace.com/?utm_source=google&utm_medium=business&utm_campaign=maps
+endDate: 1745812800000
+claimed: No
+link: https://lasalsadelbaile.com/FBWC2025
+description: Welcome to The 2025 Edition 🤯😍
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293950/oxr9xcscwrm3uncol0u9.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ27xZLTToYQ0RcWdI1pBvHoQ
+international: No
+visibility: Public
+org:
+  id: Eiqp5Gc8H6cAeY9lRh3r
+  username: FeverBachataSpain
+  name: Fever Bachata
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954238/btavrktetamkagvxa7q8.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/FeverBachataSpain
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1186294085865826/
+facebookId: "1186294085865826"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Fever Bachata World Congress 2025 Epic Universe Edition
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1745506800000+ChIJMUWMW-7CYQ0RG5QmKFqWs7w
+startDate: 1745506800000
+id: 7vDTyRfUFsSBliDLA1fT

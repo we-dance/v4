@@ -1,0 +1,203 @@
+venue:
+  formatted_address: Paris, France
+  website: http://www.paris.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Paris
+      short_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Paris
+      short_name: Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Île-de-France
+      short_name: IDF
+    - types:
+        - country
+        - political
+      long_name: France
+      short_name: FR
+  url: https://maps.google.com/?q=Paris,+France&ftid=0x47e66e1f06e2b70f:0x40b82c3688c9460
+  name: Paris
+  geometry:
+    viewport:
+      south: 48.81556220872687
+      north: 48.90214747577797
+      east: 2.469850925555473
+      west: 2.224219054341255
+    location:
+      lng: 2.3522219
+      lat: 48.856614
+  place_id: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+endDate: 22 AUGUST 2022
+claimed: Yes
+organisedBy: FGBU2yqOClNVEQkSH3cEGnhIE7C2
+link: https://www.billetweb.fr/eiffeltowerkizombafestival
+description: >+
+  Welcome to Eiffel Tower Kizomba Festival. It’s very Good choice if you want to
+  mix visit of Paris, summer, vacation and dance. This event is lovely and an
+  experience of life
+
+
+  Bienvenue au Eiffel Tower Kizomba Festival. Cet événement est le meilleur choix si vous souhaitez visiter Paris, y passer des vacances et danser. C’est un événement sympa et une vraie expérience
+
+
+  Event Content
+
+
+  - Near Eiffel Tower
+
+
+  - Intensive Workshops
+
+
+  - Trainings
+
+
+  - Cruise party
+
+
+  - Social boat parties
+
+
+  - boat parties
+
+
+  - breakfast and food in the boat
+
+
+  - Good dancefloor
+
+
+  - Air conditional
+
+
+  - Good Music
+
+
+
+  The festival will take place during 3 days: 19-22 August 2022 / Ce festival aura lieu sur 3 jours: 19-22 Aout 2022
+
+
+  But we'll organize some events around Eiffel Tower between 12-18 August 2022 especially open air + some parties before the weekend of the festival
+
+
+  (more details coming soon) / Nous allons organiser plusieurs autres événements du 12-18 Aout 2022 une semaine avant le festival
+
+
+  Feel free to come in vacation 10-15 days in Paris between 12-22 August august 2022 / Vous avez la possibilité de venir 10 a 15 jours pour profiter des vacances et de la danse
+
+
+
+  Edition / 100% Boat / Port the Grenelle
+
+
+
+  Line Up
+
+
+  - Ben & Ana, Kizomba fusion
+
+
+  - Yami & Marta, Fusionkizz
+
+
+  - Jp & Stephy, Urbankiz Tango
+
+
+  - Micka & Morgane, Urbankiz
+
+
+  - Rodrigue, Urbankiz Training
+
+
+  - Fred & Chiara, kizomba fusion
+
+
+  - Guins & Camilla , Urbankiz
+
+
+  - Jules & Elise, TarraxoPop
+
+
+  - El Hadj Bak, Semba
+
+
+
+  - Dj Ellen, semba, urban, kizomba
+
+
+  - Dj Momento, urban, ghetto zouk
+
+
+  - Dj Angelo, semba, urban
+
+
+  - Dj PG, urban, ghetto zouk
+
+
+  - Dj Ryze, tarraxo, urban
+
+
+  - Dj LOY G, ghetto zouk, kizomba
+
+
+  - Dj Fouss, urban, tarraxo
+
+
+  - Dj Moustache, urban
+
+
+
+  Pass & terms
+
+
+  - VIP PASS: Cruise parties, Pre-party, intensive workshops, social-parties, parties
+
+
+
+  - FULL PASS: intensive workshops, social-parties, parties, No Cruise parties included, No pre-party included
+
+
+
+  -PARTY PASS: social-parties, parties, No Cruise parties included, No intensive workshops included, No pre-party included
+
+  , No Cruise parties included, No intensive workshops included, No pre-party included
+
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FFGBU2yqOClNVEQkSH3cEGnhIE7C2%2F6590d5e2-6bad-4376-aa14-805d4afd1d72?alt=media&token=62373002-6a37-49cf-810b-81491a1ebec9
+promo: Yes
+createdAt: 1642393815673
+price: "150"
+promoter: toureiffel
+promotedBy: FGBU2yqOClNVEQkSH3cEGnhIE7C2
+place: ""
+international: Yes
+updatedAt: 1642393815673
+website: https://eiffeltowerkizombafestival.com/welcome/
+updatedBy: FGBU2yqOClNVEQkSH3cEGnhIE7C2
+visibility: Public
+facebook: " https://fb.me/e/30DPLQfX9"
+eventType: Festival
+organiser: toureiffel
+form: No
+createdBy: FGBU2yqOClNVEQkSH3cEGnhIE7C2
+name: "Eiffel Tower Kizomba Festival "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 19-22 AUGUST 2022
+username: toureiffel
+viewsCount: 9
+id: Q3fi2nTNnpvkxfCxyLc9

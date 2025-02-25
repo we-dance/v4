@@ -1,0 +1,161 @@
+endDate: 1729983600000
+sourceUrl: https://www.facebook.com/events/1161367325162698/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1723592864000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1723592864000
+facebookId: "1161367325162698"
+facebook: https://www.facebook.com/events/1161367325162698/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1161367325162698/
+eventType: Party
+providerItemId: e1161367325162698@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachata Halloween Dance Party Saturday October 26th
+location: Tanssikoulu Salsa Latina
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729962000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Malminkatu 3, 00100 Helsinki, Finland
+  website: http://www.salsa-latina.fi/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanssikoulu Salsa Latina
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.9251049697085
+        lat: 60.16676486970849
+      northeast:
+        lng: 24.9278029302915
+        lat: 60.16946283029151
+    location:
+      lng: 24.92650349999999
+      lat: 60.16820360000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Malminkatu
+      long_name: Malminkatu
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00100"
+      long_name: "00100"
+  international_phone_number: +358 50 3528063
+  place_id: ChIJvbnox8QLkkYRhlSuhgYyTD4
+  url: https://maps.google.com/?cid=4489017932192306310
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417985939
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/TanssikouluSalsaLatina
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417986/pi0hkxstytbqv2vv30wn.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417985939
+  owned: false
+  name: Tanssikoulu Salsa Latina
+  place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+  updatedAt: 1728417985939
+  username: tanssikoulu.salsa.la
+claimed: No
+link: ""
+description: |+
+  Salsa Latina Dance Parties presents
+
+  Bachata Halloween Dance Party 2024
+  Pre Party Bachata class & Bachata Party
+
+  20:00-21:00 Open Level Bachata Couple Dance Class
+  21:00-21:30 Funny Costumes Choreography dances
+  (Make your own spontaneous funny choreography for everyone to follow it)
+
+  21:30-02:00 Bachata Party
+
+  Music By Patricio 80% Bachata, 20% Salsa 
+
+  Registration to the Bachata Open Level class and party
+  by sending a WhatsApp message to Salsa Latina
+  +358 503528063
+
+  Price
+
+  10€ with Pre Registration Bachata Dance Class & Dance Party 
+  15€ Drop-In  Bachata Dance Class & Dance Party
+
+  10€ Only Party Pre registration
+  13€ Only Party Drop-In
+
+  Payment methods
+
+  Mobile Pay / Cash / Edenred / Epassi / Smartum
+
+
+  Note 
+  -Please bring your indoor dance shoes
+  -at the party we offer some soft drinks and snacks
+  - Feel free to invite your non dance friends to the event.
+
+  Welcome to Salsa Latina
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417988/hncr8kmgawdio6nnkl6s.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+international: No
+hash: 1729962000000+ChIJvbnox8QLkkYRhlSuhgYyTD4
+id: KfYedFRj8qh0DOgzQuM4

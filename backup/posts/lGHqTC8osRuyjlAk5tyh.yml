@@ -1,0 +1,141 @@
+endDate: 1723316400000
+sourceUrl: https://www.facebook.com/events/910042036917087/?event_time_id=910042063583751
+createdAt: 1723298421472
+approved: true
+provider: ical
+providerId: xFVXUqhWEHWJCHD2fqnZ
+providerCreatedAt: 1704826723000
+updatedAt: 1723298421472
+importedAt: 1723298421472
+providerUpdatedAt: 1721039275000
+facebookId: "910042063583751"
+facebook: https://www.facebook.com/events/910042036917087/?event_time_id=910042063583751
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/910042036917087/?event_time_id=910042063583751
+eventType: Party
+providerItemId: e910042063583751@facebook.com
+createdBy: rHlaIWm1AdeoZjot7KrxYtooB8t1
+name: Salsa & Bachata Schnupperkurs in Baden-Baden
+location: Son Latino Tanzschule Baden-Baden
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723312800000
+facebookUrlsCount: 1
+username: briankballero
+venue:
+  formatted_address: (bei) Bahnhof, Güterbahnhofstraße 9, 76532 Baden-Baden, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule Son Latino
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.186476269708495
+        lat: 48.7850583197085
+      northeast:
+        lng: 8.1891742302915
+        lat: 48.7877562802915
+    location:
+      lng: 8.187567099999997
+      lat: 48.7861766
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Güterbahnhofstraße
+      long_name: Güterbahnhofstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oos
+      long_name: Oos
+    - types:
+        - locality
+        - political
+      short_name: Baden-Baden
+      long_name: Baden-Baden
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Baden-Baden
+      long_name: Kreisfreie Stadt Baden-Baden
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76532"
+      long_name: "76532"
+  international_phone_number: +49 721 6638886
+  place_id: ChIJxVb55csfl0cRtKkEX4RMWS8
+  url: https://maps.google.com/?cid=3411842324123396532
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1723298430036
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/sonlatino.badenbaden
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1723298430/ijidbfixurop5wjilpdg.png
+  source: facebook
+  type: Organiser
+  createdAt: 1723298430036
+  owned: false
+  name: Son Latino Tanzschule Baden-Baden
+  place: ChIJRTH3kUMfl0cRwcXzMxkpD2M
+  updatedAt: 1723298430036
+  username: sonlatino.badenbaden
+claimed: No
+link: ""
+description: >-
+  Jetzt anmelden unter www.sonlatino.de vorbei schauen und rein schnuppert!
+
+
+  Unsere Salsa & Bachata Schnupperstunde in Baden-Baden findet immer am 2 Samstag des Monats um 20:00 Uhr statt.
+
+
+  Hier werdet Ihr mit dem Rhythmus vertraut gemacht und lernt die wichtigsten Grundschritte. Die Gratis-Schnupperstunde gibt einen Vorgeschmack auf unsere Anfängerkurse. Solltet ihr bereits Vorkenntnisse mitbringen, könnt Ihr Euch, nach Absprache mit uns, von einem unserer Tanzlehrer einstufen lassen um den richtigen Kurse für Euch zu finden.
+
+
+  Wir freuen uns auf euch
+
+  Euer Son Latino Team!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723298431/lycteh8gnmhu9ybxcevw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJRTH3kUMfl0cRwcXzMxkpD2M
+international: No
+hash: 1723312800000+ChIJxVb55csfl0cRtKkEX4RMWS8
+id: lGHqTC8osRuyjlAk5tyh

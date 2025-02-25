@@ -1,0 +1,145 @@
+venue:
+  formatted_address: Vinohradská 25, Vinohrady, 120 00 Praha-Praha 2, Czechia
+  website: http://www.tresorclub.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Tresor Club Prague
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4373212802915
+      south: 50.0769060697085
+      north: 50.0796040302915
+      west: 14.4346233197085
+    location:
+      lng: 14.4360818
+      lat: 50.0782797
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: Vinohradská
+      long_name: Vinohradská
+    - types:
+        - neighborhood
+        - political
+      short_name: Vinohrady
+      long_name: Vinohrady
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 2
+      long_name: Praha 2
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 120 00
+      long_name: 120 00
+  international_phone_number: +420 777 789 992
+  place_id: ChIJD-3FpRCVC0cRQlT_c6lRy6U
+  url: https://maps.google.com/?cid=11946732224767808578
+  username: www.tresorclub.cz
+claimed: No
+program: []
+type: event
+duration: 270
+createdAt: 1724668707333
+artists: []
+price: 150 CZK
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  role: dj
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Latino Glamour Night
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: DjLole
+viewsCount: 1
+id: WOYpBL6GYA774qWjucDy
+confirmation: >-
+  🌟 LATINO GLAMOUR NIGHT 🌟
+
+
+  ✨ Máme pro Vás po prázdninách připravených pár bonusů, které určitě doceníte. Počas celé párty si budeš moci zatancovat s lektory z celé Prahy, které ti budeme průběžně představovat. Navíc přivítáme našeho nového Dj Lole, který rozjede ten nejlepší mix Salsa, Bachaty a Kizomby. Máš se na co těšit, bude to žhavá noc, kterou nám skvěle zdokumentuje fotograf Vlado.
+
+
+  Party začíná v 20:30 a končí ve 01:00. 💃🕺 Přijď se bavit a užít si nezapomenutelný večer plný tance a skvělé atmosféry!
+
+
+  Cena vstupného: 150 kč
+
+  Přijímáme pouze hotovost.
+
+
+  Těšíme se na tebe na parketu!
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F96dea0e3-3aa2-411d-9b8e-226bf0bbd6ab?alt=media&token=86b5c9d3-dc00-4182-9f35-643caea04117
+endDate: 1727305200000
+link: https://www.facebook.com/events/493219846795625/493219860128957
+description: >-
+  HOTTEST LATINO PARTY IN PRAGUE IS COMING BACK TO TRESOR CLUB!
+
+
+  Great news for all Salsa, Bachata, Kizomba enthusiasts! Feel free to visit us at Tresor club every Wednesday evening at 8:30 PM. Enjoy and learn with us the dance moves of these exciting South American dance styles and become the dancefloor king or queen at every party you visit.
+
+
+  Table reservations: info@tresorclub.cz
+
+
+  Price of entry: 150,- CZK (8 EUR)
+
+  We accept only cash! No posibility of paying by card at our club. ATM at the entrance.
+
+  _______________________________________________
+
+
+  NEJŽHAVĚJŠÍ LATINO PÁRTY V PRAZE SE VRACÍ DO TRESOR CLUBU!
+
+
+  Skvělá zpráva pro všechny nadšence Salsy, Bachaty a Kizomby! Od 25. září 2024 nás mužete znova navštívit v klubu každou středu večer. Začínáme vždy ve 20:30 a končíme někdy i v 01:00. Neváhejte a naučte se s námi taneční pohyby těchto vzrušujících jihoamerických tanečních stylů a staňte se králem či královnou tanečního parketu na každé párty.
+
+
+  Rezervace stolů: info@tresorclub.cz
+
+
+  Cena vstupného: 150,- Kč (8 EUR)
+
+  Přijímáme pouze hotovost! V klubu není možné platit kartou. Bankomat je hned u vstupu do klubu.
+hash: 1727289000000+ChIJD-3FpRCVC0cRQlT_c6lRy6U
+startDate: 1727289000000
+updatedAt: 1727011280719

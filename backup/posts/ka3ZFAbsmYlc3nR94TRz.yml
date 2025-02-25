@@ -1,0 +1,142 @@
+createdAt: 1729855011339
+updatedAt: 1729855011339
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+sourceUrl: https://www.facebook.com/events/340092845430925/416678657772343/
+viewsCount: 1
+venue:
+  address_components:
+    - long_name: "10"
+      short_name: "10"
+      types:
+        - street_number
+    - long_name: Hasenheide
+      short_name: Hasenheide
+      types:
+        - route
+    - long_name: Hasenheide
+      short_name: Hasenheide
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Fürstenfeldbruck
+      short_name: Fürstenfeldbruck
+      types:
+        - locality
+        - political
+    - long_name: Fürstenfeldbruck
+      short_name: FFB
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "82256"
+      short_name: "82256"
+      types:
+        - postal_code
+  formatted_address: Hasenheide 10, 82256 Fürstenfeldbruck, Germany
+  geometry:
+    location:
+      lat: 48.1953825
+      lng: 11.2495286
+    viewport:
+      northeast:
+        lat: 48.19668248029151
+        lng: 11.2507459802915
+      southwest:
+        lat: 48.19398451970851
+        lng: 11.2480480197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 8141 92021
+  name: Hardy's The Gym - Fuerstenfeldbruck
+  place_id: ChIJV3Cy13CAnkcRGVaj9I4hq1M
+  url: https://maps.google.com/?cid=6028949424038958617
+  website: http://www.hardys-the-gym.de/
+endDate: 1733522400000
+claimed: No
+link: ""
+description: |
+  ►►♫ ♫ Tanzabend PicoLoco♫ ♫
+
+  PicoLoco Tanzabend in Fürstenfeldbruck bei der man nicht fehlen darf.
+  Das beste aus Salsa und Bachata.
+  ══════════════════
+  ☼Jeden 1. FREITAG im Monat Start 05.04.2024 ☼
+  ══════════════════
+  ♫ Freut Euch auf eine inspirierende Salsa&Bachata Party der anderen Art ♫
+  Party in einem warmen und gemütlichem Ambiente
+  ══════
+  Best of Salsa Y Bachata. ♫
+  ════════════
+  ☼ EINTRITT ☼
+  7 Euro AB 20:30UHR
+  ═══════════
+  ☼ LOCATION ☼
+  ═══════════
+  HARDY's Fitness
+  Ludwigstraße 5 
+  82256 Fürstenfeldbruck
+  ═════════════
+
+  Wir freuen uns auf euch!
+  ═════════════
+  Mehr Infos findet ihr auf unserer Webseite und unserem Veranstaltungskalender:
+
+  https://www.picoloco-salsa.com/kalender
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJ24401eN_nkcRaEDJFuPBTUQ
+international: No
+visibility: Public
+org:
+  id: AGWeKOdFU6T7u0tBOLLi
+  username: picoloco
+  name: PicoLoco
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707040586/gmt00g9jwg9zsp9p9zrr.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/picolocoffb
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/340092845430925/?event_time_id=416678657772343
+facebookId: "416678657772343"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Tanzabend PicoLoco
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1733513400000+ChIJV3Cy13CAnkcRGVaj9I4hq1M
+startDate: 1733513400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729855015/ye5zjeyeiz2xw4hnlipu.jpg
+id: ka3ZFAbsmYlc3nR94TRz

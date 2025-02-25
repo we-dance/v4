@@ -1,0 +1,73 @@
+createdAt: 1718743020216
+website: http://www.raices.pt/
+rooms: ""
+address:
+  formatted_address: R. Faia 13 Armazém nº 9, 4300-526 Porto, Portugal
+  website: http://www.raices.pt/
+  name: Raíces - danzas cubanas Porto
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: -8.576257030291503
+        lat: 41.1429584197085
+      northeast:
+        lng: -8.573559069708498
+        lat: 41.1456563802915
+    location:
+      lng: -8.5751278
+      lat: 41.1443754
+  address_components:
+    - types:
+        - subpremise
+      short_name: Armazém nº 9
+      long_name: Armazém nº 9
+    - types:
+        - street_number
+      short_name: "13"
+      long_name: "13"
+    - types:
+        - route
+      short_name: R. Faia
+      long_name: Rua Faia
+    - types:
+        - locality
+        - political
+      short_name: Porto
+      long_name: Porto
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Campanhã
+      long_name: Campanhã
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Porto
+      long_name: Porto
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Porto
+      long_name: Porto
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 4300-526
+      long_name: 4300-526
+  place_id: ChIJy6dPPuORNmgRmXDfLq57iAU
+  url: https://maps.google.com/?cid=398704555063210137
+  international_phone_number: +351 962 255 512
+gender: Other
+phone: +351 962 255 512
+name: Raíces - danzas cubanas Porto
+updateAt: 1718743020216
+type: Venue
+map: ""
+username: www.raices.pt
+viewsCount: 5
+id: x8JfXXBRcKeUCFpo8Vcn

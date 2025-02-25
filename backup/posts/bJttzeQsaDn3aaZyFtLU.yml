@@ -1,0 +1,153 @@
+isNew: true
+facebookId: "533185999630081"
+facebookUrlsList:
+  - https://facebook.com/events/s/salsa-night-at-hotel-louisvill/533185999630081/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730300437379
+updatedAt: 1730300437379
+importedAt: 1730300437379
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerItemId: 71gm4cj570qj4bb460rjab9k74smabb2cpj36b9gc4rmacppc5i30phm6s@google.com
+name: Salsa Night at Hotel Louisville
+providerCreatedAt: 1730286803000
+providerUpdatedAt: 1730286803000
+startDate: 1731204000000
+endDate: 1731222000000
+sourceUrl: https://facebook.com/events/s/salsa-night-at-hotel-louisvill/533185999630081/
+location: 120 W Broadway, Louisville, KY 40202-2110, United States
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: yatusabes.blog
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+venue:
+  address_components:
+    - long_name: "120"
+      short_name: "120"
+      types:
+        - street_number
+    - long_name: West Broadway
+      short_name: W Broadway
+      types:
+        - route
+    - long_name: Old Louisville
+      short_name: Old Louisville
+      types:
+        - neighborhood
+        - political
+    - long_name: Louisville
+      short_name: Louisville
+      types:
+        - locality
+        - political
+    - long_name: Jefferson County
+      short_name: Jefferson County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Kentucky
+      short_name: KY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "40202"
+      short_name: "40202"
+      types:
+        - postal_code
+    - long_name: "2110"
+      short_name: "2110"
+      types:
+        - postal_code_suffix
+  formatted_address: 120 W Broadway, Louisville, KY 40202, USA
+  geometry:
+    location:
+      lat: 38.245351
+      lng: -85.75424749999999
+    viewport:
+      northeast:
+        lat: 38.2469223302915
+        lng: -85.7529592197085
+      southwest:
+        lat: 38.2442243697085
+        lng: -85.75565718029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 120 W Broadway
+  place_id: ChIJQ3fpKbJyaYgRJjBaRBklSzo
+  url: https://maps.google.com/?q=120+W+Broadway,+Louisville,+KY+40202,+USA&ftid=0x886972b229e97743:0x3a4b2519445a3026
+visibility: Public
+org:
+  createdAt: 1730300453357
+  importedAt: 1730300453357
+  updatedAt: 1730300453357
+  source: facebook
+  name: Louisville Salsa Underground
+  facebook: https://www.facebook.com/@LouisvilleSalsa/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1730300453/scdzphqbumjbkkc35kin.png
+  username: "@LouisvilleSalsa/"
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJwcsQqVENaYgRirMZHJrbHyQ
+claimed: No
+facebook: https://www.facebook.com/events/533185999630081/
+link: ""
+description: >-
+  Salsa Night at Hotel Louisville EVERY Second Saturday of the month!
+
+
+  This month, in honor of Veterans Day, ALL service members of the USA, USN, USAF, USMC, and USCG will be admitted FREE with a Veteran ID Card.
+
+
+  Our dance instructor this evening will be David Sommer of Dayton, OH, leading a 45-minute Bachata dance lesson. No partner or experience necessary!
+
+
+  DJ Robertón will be spinning all your fave Timba, Salsa, Bachata, and Merengue beats!
+
+
+  $10 cash/Venmo/Cash App at the door
+
+
+  Hotel Louisville offers a full bar & plenty of free parking.
+
+
+  FUTURE DATES:
+
+  December 14th
+
+  January 11th
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730300454/asjwyx5wbyf4rkagmevf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJwcsQqVENaYgRirMZHJrbHyQ
+international: No
+hash: 1731204000000+ChIJQ3fpKbJyaYgRJjBaRBklSzo
+id: bJttzeQsaDn3aaZyFtLU

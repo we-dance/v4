@@ -1,0 +1,54 @@
+endDate:
+  _seconds: 1627750800
+  _nanoseconds: 0
+link: https://forms.gle/QjHtuG5AawPhb4Ht7
+description: >-
+  Son Moderno is a new dance, an evolution from traditional Son Cubano (the
+  father of salsa). Son Moderno integrates different dances in one new fresh
+  style without modifying the roots of traditional Son.
+
+  We are looking forward to sharing this elegant dance with you.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fvew5WNYPxAXhWfD427hsBTZZUg73%2F0a9ad095-81a6-46d8-8403-064156264d01?alt=media&token=8ce34e10-a692-42b4-a11b-bf975ff02024
+duration: "120"
+createdAt: 1626185579736
+watchersCount: 0
+price: 20 EUR
+commentsLast: ~
+id: dUdnVOkSbQLdyKdoLqOV
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1626185579736
+updatedBy: vew5WNYPxAXhWfD427hsBTZZUg73
+address: Pinakothek der Moderne
+visibility: Public
+eventType: Workshop
+form: Yes
+createdBy: vew5WNYPxAXhWfD427hsBTZZUg73
+commentsCount: 0
+name: Son Moderno Munich
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-31T15:00:00.000Z
+username: annema_st
+viewsCount: 24

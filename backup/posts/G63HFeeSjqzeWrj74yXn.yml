@@ -1,0 +1,135 @@
+isNew: true
+facebookId: "1092677688988298"
+facebookUrlsList:
+  - https://www.facebook.com/events/1092677688988298/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731510044894
+updatedAt: 1731510044894
+importedAt: 1731510044894
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48798-1731715200-1731801599@latinfo.hu
+providerCreatedAt: 1731494056000
+providerUpdatedAt: 1731494056000
+startDate: 1731715200000
+endDate: 1731801599000
+facebook: https://www.facebook.com/events/1092677688988298/
+sourceUrl: https://www.facebook.com/events/1092677688988298/
+location: VDSZ Székház, Benczúr u. 45. IV. emelet, Budapest, 1068, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "45"
+      short_name: "45"
+      types:
+        - street_number
+    - long_name: Benczúr utca
+      short_name: Benczúr u.
+      types:
+        - route
+    - long_name: VI. kerület
+      short_name: VI. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1068"
+      short_name: "1068"
+      types:
+        - postal_code
+  formatted_address: Budapest, Benczúr u. 45, 1068 Hungary
+  geometry:
+    location:
+      lat: 47.51227009999999
+      lng: 19.0781814
+    viewport:
+      northeast:
+        lat: 47.5136741802915
+        lng: 19.0794725302915
+      southwest:
+        lat: 47.5109762197085
+        lng: 19.0767745697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Benczúr u. 45
+  place_id: ChIJ579PrXncQUcR1N1hYA-ZbRc
+  url: https://maps.google.com/?q=Budapest,+Bencz%C3%BAr+u.+45,+1068+Hungary&ftid=0x4741dc79ad4fbfe7:0x176d990f6061ddd4
+visibility: Public
+org:
+  id: PRiXV8DcWvB35tq4vYaJ
+  username: salsaclubazucar
+  name: Salsa Club Azucar
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719842452/vy01t2byulzm2jdeh0hc.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/salsaclubazucar
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  🔥🔥🔥 SALSA & Bachata Party a Salsa Club Azucar és a Carmen Dance
+  tánciskolával! 🕺😀💃
+
+  💃 2024.11.16-án szombaton szeretettel várjuk a salsa, bachata és cha-cha-cha táncok kedvelőit 21:00-01:30-ig tartandó bulira!
+
+  Program:
+
+  💃 21:00:  Bachata ws (mindenkinek, fiúknak és lányoknak tánctudás szinttôl függetlenül)
+
+  🕺 A buliban lesznek vezetett ruedák minden szinten!
+
+  🕺 Zene: Azucar
+
+  🕺Rueda (Animáció): Papp Zoli & Évi
+
+  🏠HelyszÍn: VDSZ 4. emelet (Díszterem, parkettás)
+
+  🏠Cím: 1068 Bp. Benczúr u. 45.
+
+  🏠 Belépő: 3600 Ft/fő vagy (Carmen tánc bérlettel 4 bérlet kocka)
+
+
+  🍔 A buli batyus lesz, kérjük hozz magaddal inni és ropogtatni valót, amit kiteszünk a megterített asztalra és közösen elfogyasztunk.
+
+  🍹Poharakat mi biztosítunk!
+
+  Várunk Mindenkit szeretettel 💃 💛
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731510052/tkniaqkdpa32vdjhox8b.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: 🔥 SALSA & BACHATA Dance Party 🔥 BACHATA WS 💃😀🕺
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1731787200000+ChIJ579PrXncQUcR1N1hYA-ZbRc
+id: G63HFeeSjqzeWrj74yXn

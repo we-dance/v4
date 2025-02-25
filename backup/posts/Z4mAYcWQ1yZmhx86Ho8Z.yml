@@ -1,0 +1,114 @@
+venue:
+  formatted_address: Rupert-Mayer-Straße 41, 81379 München, Germany
+  website: http://www.shk-innung-muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: SHK Guild Munich
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5377710302915
+      south: 48.0945415697085
+      north: 48.0972395302915
+      west: 11.5350730697085
+    location:
+      lng: 11.5361434
+      lat: 48.0957552
+  address_components:
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Rupert-Mayer-Straße
+      long_name: Rupert-Mayer-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  international_phone_number: +49 89 72441970
+  place_id: ChIJq79uERB2nkcRn92fJynqDgQ
+  url: https://maps.google.com/?cid=292428488305008031
+  username: www.shk-innung-muenchen.de
+endDate: 1714867200000
+claimed: No
+description: "Eine brasilianische Party nach den Samba no pé und Samba de
+  Gafieira Workshops mit Pety und Vannessinha. Getanzt wird zu Samba- und
+  Forró-Musik. Zur Stärkung gibt es leckere brasilianische Snacks von Marcos aus
+  Bahia und neben anderen Getränken hervorragend gemixte Caipirinhas! "
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5CA8tqiQDseLR3IcZSIigS9rVDH2%2F060f40b4-5c94-439e-8beb-e6fabb731ae3?alt=media&token=8977367f-bc48-4535-aa7e-c88b87100b8e
+createdAt: 1714397367616
+artists: []
+price: 7 EUR regulär, 5 EUR für Studenten und Arbeitslose
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1714397367616
+updatedBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+visibility: Public
+org:
+  username: Tanze-Samba-Muenchen
+eventType: Party
+form: No
+createdBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+watch:
+  count: 1
+  list:
+    Tanze-Samba-Muenchen: true
+name: Brasilianische Party mit Samba und Forró
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714849200000
+hash: 1714849200000+ChIJq79uERB2nkcRn92fJynqDgQ
+username: Tanze-Samba-Muenchen
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZ4mAYcWQ1yZmhx86Ho8Z.png?generation=1714397388777508&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C6WOHJtOWJL
+  publishedAt: 1714397580098
+  messageId: C6WOHJtOWJL
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 6
+id: Z4mAYcWQ1yZmhx86Ho8Z

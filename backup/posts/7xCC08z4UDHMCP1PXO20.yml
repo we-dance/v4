@@ -1,0 +1,116 @@
+venue:
+  formatted_address: Humboldtstraße 29, 81543 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Humboldtstraße 29
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5764123302915
+      south: 48.11832116970849
+      north: 48.12101913029149
+      west: 11.5737143697085
+    location:
+      lng: 11.5751056
+      lat: 48.1197118
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Humboldtstraße
+      long_name: Humboldtstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81543"
+      long_name: "81543"
+  place_id: ChIJ96L-qG7fnUcRzNynLYfuvac
+  url: https://maps.google.com/?q=Humboldtstra%C3%9Fe+29,+81543+M%C3%BCnchen,+Germany&ftid=0x479ddf6ea8fea2f7:0xa7bdee872da7dccc
+endDate: 2023-06-24T17:30
+claimed: No
+link: https://pretix.eu/ajpfonseca/workshopicaro/
+description: Ícaro Abreu is in Europe directly from Brazil for the first time.
+  Don't miss the chance.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fih2UcRH0mAg9dWwbN8P5Vmg1lgA3%2F13ae7539-c5b5-493b-abf3-b9282b49ca7e?alt=media&token=65056260-e0ff-48ad-ab1b-7c583154aba2
+createdAt: 1687448921900
+artists: []
+price: 14 - 45 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1687448921900
+updatedBy: ih2UcRH0mAg9dWwbN8P5Vmg1lgA3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Xique Xique - Samba de Gafieira e Forró "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fih2UcRH0mAg9dWwbN8P5Vmg1lgA3%2Fc8ff751a-aee3-477e-a30c-602465d1df51?alt=media&token=529602ee-c30a-4db1-b50a-e5740b67e3dd
+  bio: ""
+  id: ih2UcRH0mAg9dWwbN8P5Vmg1lgA3
+  instagram: ""
+  username: XiqueXique
+eventType: Workshop
+confirmation: We will be waiting for you.
+form: No
+createdBy: ih2UcRH0mAg9dWwbN8P5Vmg1lgA3
+watch:
+  count: 1
+  list:
+    XiqueXique: true
+name: "Forró Workshop with Ícaro Abreu "
+online: No
+styles: {}
+startDate: 2023-06-24T13:30
+username: XiqueXique
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7xCC08z4UDHMCP1PXO20.png?generation=1687448968159540&alt=media
+telegram:
+  requestedAt: 1687448935612
+  messageUrl: https://t.me/WeDanceMunich/1125
+  publishedAt: 1687448974259
+  messageId: 1125
+  state: published
+instagram:
+  requestedAt: 1687448929313
+  state: published
+  messageUrl: https://instagram.com/p/CtzFwyILzBt
+  publishedAt: 1687448992941
+  messageId: CtzFwyILzBt
+viewsCount: 60
+id: 7xCC08z4UDHMCP1PXO20

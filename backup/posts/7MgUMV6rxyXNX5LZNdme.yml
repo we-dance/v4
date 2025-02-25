@@ -1,0 +1,318 @@
+createdAt: 1704822871524
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/541826057780701/
+source: facebook
+updatedAt: 1704822871524
+username: wedancebot
+venue:
+  formatted_address: Budapest, Árpád fejedelem útja 94, 1036 Hungary
+  website: https://www.aquincumhotel.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: The Aquincum Hotel Budapest
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0451130697085
+        lat: 47.53653861970851
+      northeast:
+        lng: 19.0478110302915
+        lat: 47.5392365802915
+    location:
+      lng: 19.04633789999999
+      lat: 47.5377123
+  address_components:
+    - types:
+        - street_number
+      short_name: "94"
+      long_name: "94"
+    - types:
+        - route
+      short_name: Árpád fejedelem útja
+      long_name: Árpád fejedelem útja
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: III. kerület
+      long_name: III. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1036"
+      long_name: "1036"
+  international_phone_number: +36 1 436 4100
+  place_id: ChIJ_el5Dl_ZQUcRp6FzW4WtFU4
+  url: https://maps.google.com/?cid=5626594097745863079
+visibility: Public
+endDate: 1708329600000
+org:
+  owner: ""
+  importedAt: 1704822877284
+  import: success
+  visibility: Public
+  facebook: https://facebook.com/allstarsfestival
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/298605153_462376615897510_637144260644941492_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=493fe6&_nc_ohc=fpWq0fbkkeYAX9LvuFm&_nc_ht=scontent-iad3-1.xx&oh=00_AfC6UINYdfsTbsKkvwzeITkfZ5PHhXuE7lQv57zL6n-T0Q&oe=65A1C07E
+  source: facebook
+  type: Organiser
+  createdAt: 1704822877284
+  owned: false
+  name: All Stars Festival
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1704822877284
+  username: https://facebook.com/allstarsfestival
+claimed: No
+facebookId: "541826057780701"
+link: http://www.allstarsfestival.com/shop
+description: >-
+  All Stars Festival presents...
+
+  🌟 BUDAPEST BACHATA FESTIVAL 🌟
+
+  📅 16-18 February 2024
+
+
+  💢💢💢 Book you pass >>> www.allstarsfestival.com/shop
+
+
+  We would like to invite you to the first edition of our new 100% BACHATA event 😉
+
+
+  🔺 WHAT TO EXPECT? ️🔺️
+
+  ▪️ 100% bachata only event
+
+  ▪️ 30 workshops
+
+  ▪️ Afternoon socials
+
+  ▪️ Party til 6 am with the best DJs
+
+  ▪️ All Stars Couple Improvisation Competition
+
+  ▪️ Hungarian Bachata Social Competition
+
+
+  ⚜️ PROGRAM ️⚜️
+
+
+  ▪️▪️ THURSDAY ▪️▪️
+
+  Preparty at Sensual Thursdays (BCH), not in the hotel, info coming soon...
+
+
+  ▪️▪️ FRIDAY ▪️▪️
+
+  11:00-14:00: Sightseeing tour with professional tour guide 12 euro 
+
+  Register here == https://forms.gle/VULPScbENdbCuCJMA
+
+  16:00-20:00: Workshops 
+
+  20:00-22:00: All Stars Couple Improvisation Competition - Amateur & Semi-Pro category 
+
+  22:00-06:00: 100% Bachata Party 
+
+
+  ▪️ SATURDAY: 
+
+  11:00-19:00: Workshops 
+
+  17:00-20:00: Social Party
+
+  19:00-21:00: Social Improvisation Competition - 1st and 2nd eliminator
+
+  21:00-22:00: Preparty workshop
+
+  22:00-06:00: 100% Bachata Party 
+
+  00:00: SHOWTIME & COMPETITION FINAL
+
+
+  ▪️ SUNDAY: 
+
+  11:00-19:00: Workshops 
+
+  17:00-20:00: Social Party
+
+  21:00-22:00: Preparty workshop
+
+  22:00-06:00: 100% Bachata Party 
+
+
+
+  ✨️ INSTRUCTORS ✨️
+
+  ✔ Luis & Andrea (Spain)
+
+  ✔ Frank Santos & Natali (Spain)
+
+  ✔ Peter & Sindi (Hungary / Lithuania)
+
+  ✔ York & Lisa (Venezuela/Germany)
+
+  ✔ Greg & Sofia (UK/Spain)
+
+  ✔ Peynao & Melitta (UK)
+
+  ✔ Zoran & Andjela (Serbia) 
+
+  ✔ Lucio Lopes (Brazil/Austria) 
+
+  ✔ Mia Kazatska (Ukraine)
+
+  ✔ Dimitri Sensitiv (France)
+
+  ✔ Barny & Lily (Hungary)
+
+  ✔ Annita (Germany)
+
+  ✔ Hrvoje & Gloria (Croatia)
+
+  ✔ Gabor & Anna / Bachata Club Hungary (HU)
+
+  ✔ Balito & Viola (HU)
+
+  ✔ Sovi & Dia (Hungary)
+
+
+
+  🎧 DJs 🎧
+
+  ✔ DJ York (Venezuela)
+
+  ✔ DJ Clau (Romania)
+
+  ✔ DJ Balito (Hungary)
+
+  ✔ DJ MomoLatino (Italy)
+
+  ✔ DJ Brumi (Hungary) 
+
+  ✔ DJ Shisha (Hungary)
+
+  ✔ DJ Raven (Hungary)
+
+
+  📸 MEDIA - PHOTOGRAPHERS, VIDEOGRAPHERS
+
+  George Bufan Photography
+
+  Scarlat Bianka Photography
+
+  Bachatagrafia
+
+
+
+  📌 ALL in 1 HOTEL 📌 AQUINCUM HOTEL
+
+  Address: Árpád fejedelem útja 94. H-1036 Budapest
+
+
+  PRICES / night / room:
+
+  Room prices includes free wifi, and usage of the spa facilities.
+
+
+  ✔ BREAKFAST ONLY:
+
+  --- Superior single BB: 95 € /night/room
+
+  (including buffet breakfast and all taxes for 1 person)
+
+  --- Superior double BB: 108 € /night/room
+
+  (including buffet breakfast and all taxes for 2 people)
+
+
+  💢💢💢 BOOKING LINK: https://bit.ly/BachataFestivalRoom2024
+
+
+  You might see different prices on different booking sites. Please be aware that those might not include breakfast or taxes. Above prices include all these :) 
+
+
+
+  🔹 PASSES 🔹 
+
+
+  -- FULL PASS -- workshops, socials, parties: Friday, Saturday, Sunday
+
+
+  until 31st Jan: 110 eur / 42.000 HUF
+
+  until 15th Feb: 120 eur / 45.500 HUF
+
+  at the door: 130 eur / 49.000 HUF
+
+
+  -- PARTY PASS -- 3 parties: Friday, Saturday, Sunday
+
+
+  until 31st Jan: 60 eur / 23.000 HUF
+
+  until 15th Feb: 65  eur / 25.000 HUF
+
+  at the door: 70 eur / 27.000 HUF
+
+
+  Day passes are coming end of January.
+
+
+  💢💢💢 Book you pass >>> www.allstarsfestival.com/shop
+
+
+
+  ❤️ See you soon again in Budapest in 2024!! ❤️
+
+
+  Balito & Viola & All Stars Festival team
+
+  ©️ www.allstarsfestival.com
+
+  📧 info@allstarsfestival.com
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: All Stars - Budapest Bachata Festival 2024
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1708106400000+ChIJ_el5Dl_ZQUcRp6FzW4WtFU4
+startDate: 1708106400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7MgUMV6rxyXNX5LZNdme.png?generation=1704822898031152&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851639/bws9knavvbgrykqlfeqv.jpg
+viewsCount: 25
+id: 7MgUMV6rxyXNX5LZNdme

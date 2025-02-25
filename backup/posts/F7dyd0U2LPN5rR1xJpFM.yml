@@ -1,0 +1,163 @@
+endDate: 2023-05-31T01:00
+claimed: No
+link: ""
+description: >-
+  Toca Toca proudly presents PINA TOCA - Weekly Tuesday Kizomba Events
+
+
+  With Ellsys on the deck for the best of Kizomba, Urban Kiz, Tarraxa, Ghetto Zouk, Kompa, Douceur, and much more 🎶🎧 to make you dance all night 💃🕺
+
+
+  📍Pina 
+
+  ⏰ 8.0 pm - 1 am
+
+  💵 on donation
+program: []
+type: event
+downVotes: 0
+duration: 60
+promo: Yes
+createdAt: 1679671744435
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Ellsys Willy Douceur
+    bio: Beatmaker & DJ
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0c7adb5d-952a-4d8e-9783-888b9dde9494?alt=media&token=0b1cf646-a3cc-4d9f-a60d-ae047c99b4c8
+    id: 5gzli868zpuP62wyDqzx
+    instagram: https://instagram.com/ellsys_official
+    username: ellsys_official
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/djomega.christina
+    name: Dj_Omega
+    bio: Organiser - DJ - dancer
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+    instagram: https://instagram.com/djomega_official
+    id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+    username: Dj_Omega
+price: ""
+artistsList:
+  - ellsys_official
+  - Dj_Omega
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1679671744435
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100089569241943
+  name: TOCA TOCA
+  bio: "Welcome to TOCA TOCA! The only weekly Kizomba event in Munich! Every
+    Tuesday, we take you on a journey into the magic world of Kizomba 💫 "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmuNi4V3DD6MLPC4FKzwd9htiizW2%2Fd16202cb-a7b2-45a9-bcf0-c9e2a90aaa89?alt=media&token=7ce44b67-bf61-42d6-8cd1-5f9b31a2e08d
+  id: muNi4V3DD6MLPC4FKzwd9htiizW2
+  instagram: ""
+  username: TOCATOCA
+facebook: https://fb.me/e/2dbsc4wml
+upVotes: 0
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Pina Toca - Weekly Tuesday Kizomba Events @Pina
+online: No
+votes: 0
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-30T20:00
+username: TocaToca
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F3d6dea70-3b0d-4054-ad18-c2ad2cc47aa3?alt=media&token=a953af47-2bdf-4612-aabb-4cdc56576de0
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: Area 1
+id: F7dyd0U2LPN5rR1xJpFM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FF7dyd0U2LPN5rR1xJpFM.png?generation=1685561979204351&alt=media
+telegram:
+  requestedAt: 1685561933936
+  messageUrl: https://t.me/WeDanceMunich/1104
+  publishedAt: 1685561982407
+  messageId: 1104
+  state: published
+instagram:
+  requestedAt: 1685562009352
+  messageUrl: https://instagram.com/p/Cs62qY6p02t
+  publishedAt: 1685562029098
+  messageId: Cs62qY6p02t
+  state: published
+viewsCount: 24

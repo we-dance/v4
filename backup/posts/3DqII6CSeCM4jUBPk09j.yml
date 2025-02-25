@@ -1,0 +1,144 @@
+sourceUrl: https://www.eventbrite.de/e/el-micha-live-in-munchen-tickets-816677844417
+createdAt: 1710771426886
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+endDate: 1711166400000
+claimed: No
+link: https://www.eventbrite.de/e/el-micha-live-in-munchen-tickets-816677844417
+description: Sol, Palmeras, Haciendas, Habanos, Mojitos, directo de Miami - Cuba
+  El Micha en vivo en Múnich el 22 de marzo de 2024 einlass 22:00!
+program: []
+source: schema
+type: event
+duration: 60
+price: 38.47 EUR
+international: No
+visibility: Public
+org: ""
+facebook: https://www.facebook.com/events/1018179021712432
+facebookUrlsList:
+  - https://www.facebook.com/events/1018179021712432
+form: No
+watch:
+  count: 0
+  usernames: []
+name: EL MICHA LIVE IN MÜNCHEN
+online: No
+schemaEventsCount: 1
+hash: 1711141200000+ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+startDate: 1711141200000
+facebookUrlsCount: 1
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710771431/x6m68toj47upoej6wkwv.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F3DqII6CSeCM4jUBPk09j.png?generation=1710771456804323&alt=media
+venue:
+  formatted_address: Neuhauser Str. 47, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: La Rumba Latin Club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5681301802915
+      south: 48.1372389697085
+      north: 48.1399369302915
+      west: 11.5654322197085
+    location:
+      lng: 11.5667554
+      lat: 48.1386827
+  address_components:
+    - types:
+        - street_number
+      short_name: "47"
+      long_name: "47"
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 176 70388835
+  place_id: ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+  url: https://maps.google.com/?cid=9349263436906478143
+  username: larumba_latinclub
+facebookId: "1018179021712432"
+id: 3DqII6CSeCM4jUBPk09j
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Concert
+instagram:
+  messageUrl: https://instagram.com/p/C4qKKWLAO-e
+  publishedAt: 1710771632704
+  messageId: C4qKKWLAO-e
+  state: published
+promotionError: ""
+promotion: completed
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/SantanaDanceClub
+    name: SantanaDance
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+    bio: |
+      SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+    id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+    instagram: https://instagram.com/santana_dance
+    username: SantanaDance
+artistsList:
+  - SantanaDance
+updatedAt: 1710771653032
+star:
+  count: 1
+  usernames:
+    - Mia
+  history:
+    - username: Mia
+      date: 1711147126991
+      invitedBy: ""
+      uid: 0HNimKDHRkSjl27Z4zWJfbyqboy2
+      action: joined
+viewsCount: 16

@@ -1,0 +1,185 @@
+endDate: 1722546000000
+sourceUrl: https://www.facebook.com/events/331613286428761/?event_time_id=355983573991732
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1704305098000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714601028000
+facebookId: "355983573991732"
+facebook: https://www.facebook.com/events/331613286428761/?event_time_id=355983573991732
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/331613286428761/?event_time_id=355983573991732
+eventType: Workshop
+providerItemId: e355983573991732@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachata Chocolate meets Kizomba🍫 BEST Afterwork Social in Hamburg | Jeden
+  Donnerstag
+location: Böckmannstraße 4, 20099 Hamburg, Deutschland (KAFFEEWELT)
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722533400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Böckmannstraße 4, 20099 Hamburg, Germany
+  website: http://www.kaffeewelt-hamburg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: KAFFEEWELT - Therapiehilfe gGmbH
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.0157251197085
+        lat: 53.5520153697085
+      northeast:
+        lng: 10.0184230802915
+        lat: 53.55471333029149
+    location:
+      lng: 10.0169676
+      lat: 53.55333239999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Böckmannstraße
+      long_name: Böckmannstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20099"
+      long_name: "20099"
+  international_phone_number: +49 40 2000102080
+  place_id: ChIJv48NieiOsUcRVQFarqV66rQ
+  url: https://maps.google.com/?cid=13036366923390648661
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Tango-Chocolate/100063509295359/
+  name: Tango Chocolate
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954177/ny4xz5er11riybpdapq4.jpg
+  bio: ""
+  id: ZaA7QlZuk0TzihFCt5QI
+  instagram: ""
+  username: tango.chocolate
+claimed: No
+link: ""
+description: >-
+  Liebe Bachater@s, liebe Salsero@s und Kizomber@s,
+
+
+  ‼️ACHTUNG: NEUE LOCATION!
+
+
+  das beliebte AfterWork-Social 🍫 Bachata Chocolate 🍫 am Donnerstag hat ein neues (vorübergehendes) Zuhause und DU musst bei der Einweihung dabei sein! 
+
+
+
+  Freut euch auf:
+
+
+  ⭐Workshops⭐
+
+  • 19.30 Uhr • Main Floor • 
+
+  Open Level Bachata Workshop mit Moritz & Anna
+
+
+  • 20.30 Uhr • 2nd Floor • 
+
+  Open Level Kizomba / Urban Kiz Workshop mit wechselnden Lehrer:innen*
+
+
+  💃🏽Social Dance🕺🏽bis ca. 0 Uhr
+
+   •20.30 Uhr • Main Floor • 
+  90% Bachata, 10% Salsa mit DJ Naandi
+
+   •21.15 Uhr • 2nd Floor • 
+  Urban Kiz, Kizomba, Ghetto Zouk mit wechselnden DJs*
+
+
+  *die DJs und Lehrer für die jeweilige Woche werden als Posts Veranstaltung angekündigt. 
+
+
+  📍 Tango Chocolate in "KAFFEEWELT" - Böckmannstr. 4, Hamburg
+
+  (U/S Bahn Berliner Tor)
+
+
+  💸 10€ inkl. Workshop
+
+
+  Bis Donnerstag! 🕺💃
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444456/wpvmkbxdf6rgihcxgngx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1722533400000+ChIJv48NieiOsUcRVQFarqV66rQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FRRMpB2QIJZ74Wgj7QhCv.png?generation=1715444476770888&alt=media
+viewsCount: 5
+id: RRMpB2QIJZ74Wgj7QhCv

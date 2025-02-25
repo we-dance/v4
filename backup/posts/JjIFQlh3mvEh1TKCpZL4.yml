@@ -1,0 +1,172 @@
+endDate: 1747627200000
+sourceUrl: https://www.facebook.com/events/398103489886600/
+createdAt: 1725026418902
+approved: true
+provider: ical
+providerId: FDwgzaLrddKSK3dKkP1k
+providerCreatedAt: 1716134246000
+updatedAt: 1725026418902
+importedAt: 1725026418902
+providerUpdatedAt: 1724943534000
+facebookId: "398103489886600"
+facebook: https://www.facebook.com/events/398103489886600/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/398103489886600/
+eventType: Festival
+providerItemId: e398103489886600@facebook.com
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+name: The MouVement Festival 2025
+location: Budapest, Hangary
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1747400400000
+facebookUrlsCount: 1
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Budapest, Hungary
+  website: http://budapest.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Budapest
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.92610106630945
+        lat: 47.34941504569791
+      northeast:
+        lng: 19.33450493254384
+        lat: 47.61301194615275
+    location:
+      lng: 19.040235
+      lat: 47.497912
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+  place_id: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  url: https://maps.google.com/?q=Budapest,+Hungary&ftid=0x4741c334d1d4cfc9:0x400c4290c1e1160
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/The-Mouvement-Festival/61553980100441/
+  name: The Mouvement Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131885/agptj5ac0ed8xwsr3wyv.jpg
+  bio: ""
+  id: EOONqYvMtKRHG8yhUH4C
+  instagram: ""
+  username: the.mouvement.festiv
+claimed: No
+link: https://linktr.ee/themouvement
+description: >-
+  114 Early bird passes in 3 days only 
+
+
+  The Mouvement is a unique concept in the Kizz scene. We are the Mouvement Big Family: we care about the dancers because we are dancers, and we care about the artists because we are artists. We know how to organize because we are project managers. 
+
+
+  Let's come together and make the Mouvement to bring quality to this dance scene.
+
+
+   ✴️ High quality Festival 
+   ✴️ Confortable gender balance 
+   ✴️ Located in the beautiful Budapest 
+   ✴️ Pre Party on Thursday 
+   ✴️ 3 Days Festival 
+   ✴️ 3 Socials
+   ✴️ Good Vibes and many good dancers 
+   ✴️ ... and much much more
+
+  Line up 
+
+
+  Djs
+
+  🎧 
+
+  🎧 
+
+  🎧 
+
+  🎧 
+
+  🎧 
+
+  🎧
+
+
+  Teachers 
+
+  ⭐️ 
+
+  ⭐️ 
+
+  ⭐️ 
+
+  ⭐️ 
+
+  ⭐️ 
+
+
+  Dance Crew
+
+  🕺🏻💃🏻 Rebirth
+
+
+
+  Photo
+
+  📸 
+
+
+  Social media:
+
+  📱 Kizoteca
+
+
+  Venue:
+
+  ⚜️ 
+
+
+  Hotels: 
+
+
+  Tickets:
+
+  To buy your Pass and be part of the Mouvement Family:
+
+
+  https://linktr.ee/themouvement
+
+
+  💌 Contact: themouvement.festival@gmail.com
+
+
+  Mou 🧡 ement
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725026434/tm2c0woifr3kppu0erze.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1747400400000+ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+id: JjIFQlh3mvEh1TKCpZL4

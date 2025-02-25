@@ -1,0 +1,139 @@
+endDate: 1716681600000
+sourceUrl: https://www.facebook.com/events/1359481912110927/
+createdAt: 1715868042022
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1715687358000
+updatedAt: 1715868042022
+importedAt: 1715868042022
+providerUpdatedAt: 1715687358000
+facebookId: "1359481912110927"
+facebook: https://www.facebook.com/events/1359481912110927/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1359481912110927/
+eventType: Party
+providerItemId: 10008849-1716595200-1716681599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Alvégesi Művelődési Ház, Honvéd u. 41., Nyíregyháza, 4400, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716595200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Nyíregyháza, Honvéd u. 41, 4400 Hungary
+  website: https://vmkk.hu/alvegesi-muvelodesi-haz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Alvégesi Művelődési Ház
+  geometry:
+    viewport:
+      southwest:
+        lng: 21.7236185197085
+        lat: 47.9464370697085
+      northeast:
+        lng: 21.7263164802915
+        lat: 47.9491350302915
+    location:
+      lng: 21.72488
+      lat: 47.9477975
+  address_components:
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Honvéd u.
+      long_name: Honvéd utca
+    - types:
+        - locality
+        - political
+      short_name: Nyíregyháza
+      long_name: Nyíregyháza
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "4400"
+      long_name: "4400"
+  international_phone_number: +36 42 462 400
+  place_id: ChIJJaTUccifOEcRgA80RnAoL04
+  url: https://maps.google.com/?cid=5633766121543044992
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/euphoria.dance.hun
+  name: Euphoria Dance Studio - Táncvilág Stúdió
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902719/pcqhj3gvgsvqydj3nfwy.jpg
+  bio: ""
+  id: FjusBbgj4lQjYyxBvyzK
+  instagram: ""
+  username: euphoria.dance.hun
+claimed: No
+link: ""
+description: >-
+  💚 A legújabb salsa, bachata, kizomba, zouk slágerek várunk!
+
+
+  💚 A buli előtt open level workshop (20-21:00-ig)
+
+
+  💚 Dress code: Minden ami FEHÉR 🤍 (ruha, póló, nadrág, cipő, körömlakk stb.) Mert azt est folyamán minden ragyogni fog 🌟
+
+
+  💚 Alkoholos és alkoholmentes italok 🍸
+
+
+  Szóval minden adott ahhoz, hogy Te fantasztikusan érezd magad!
+
+
+  Időpont: 2024. május 25.
+
+  20:00 - 01:00
+
+
+  Helyszín: Alvégesi Művelődési Ház, Nyíregyháza, Honvéd u. 41.
+
+  Belépő: 3000 Ft, ami tartalmazza a bulit, a workshopot, az italokat, egyszóval MINDENT! 🙂
+
+
+  Várunk sok szeretettel ezen az igazán különleges bulin!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715868065/wt9rkeodkwm3jty4tcjk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: White Salsa-Sensual Party Nyíregyházán
+online: No
+place: ChIJ31dXt-efOEcRoBEeDCnEAAQ
+international: No
+hash: 1716660000000+ChIJJaTUccifOEcRgA80RnAoL04
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwE5JiZMq4HdPUdvvswjx.png?generation=1715868106271743&alt=media
+id: wE5JiZMq4HdPUdvvswjx

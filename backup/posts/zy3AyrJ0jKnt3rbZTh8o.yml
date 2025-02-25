@@ -1,0 +1,116 @@
+venue:
+  formatted_address: 3 Rue Pré-Gaudry, 69007 Lyon, France
+  website: https://lacommune.co/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: "La Commune : Incubateur Culinaire"
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.835206080291503
+      south: 45.74078841970851
+      north: 45.7434863802915
+      west: 4.832508119708498
+    location:
+      lng: 4.833928199999999
+      lat: 45.7421555
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Rue Pré-Gaudry
+      long_name: Rue Pré-Gaudry
+    - types:
+        - locality
+        - political
+      short_name: Lyon
+      long_name: Lyon
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Rhône
+      long_name: Rhône
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "69007"
+      long_name: "69007"
+  place_id: ChIJAa4K_jbq9EcR29014Btw7Ac
+  url: https://maps.google.com/?cid=570954517797264859
+endDate: 2023-03-02T00:30
+claimed: No
+link: https://www.eventbrite.com.br/e/billets-initiation-a-la-salsa-483702215347?aff=ebdssbdestsearch&keep_tld=1
+description: Une ambiance muy latina envahit La Commune... A base de mojitos et
+  de pas de danse endiablés !
+program:
+  - endDate: 2023-03-01T19:30
+    name: Initiation à la Salsa
+    eventType: Course
+    startDate: 2023-03-01T18:30
+  - endDate: 2023-03-01T18:30
+    name: "Initiation à la Bachata "
+    eventType: Course
+    startDate: 2023-03-01T20:15
+  - endDate: 2023-03-02T00:30
+    artists:
+      - instagram: https://instagram.com/djlafuriosa
+        username: djlafuriosa
+    name: DJ SET SALSA by DJ La Furiosa
+    eventType: Party
+    startDate: 2023-03-01T21:00
+type: event
+duration: 60
+createdAt: 1675716031661
+artists:
+  - instagram: https://instagram.com/djlafuriosa
+    username: djlafuriosa
+price: 0 EUR
+place: ChIJl4foalHq9EcR8CG75CqrCAQ
+artistsList:
+  - djlafuriosa
+international: No
+updatedAt: 1675716031661
+updatedBy: CTtVGCTqyKUfzEcIXuJYJFPAjj33
+visibility: Public
+org:
+  instagram: https://instagram.com/lacommuneentrezlibres
+  username: lacommuneentrezlibres
+eventType: Course
+form: No
+createdBy: CTtVGCTqyKUfzEcIXuJYJFPAjj33
+watch:
+  count: 1
+  list:
+    lulage: true
+name: INITIATION A LA SALSA
+online: ""
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-03-01T18:30
+username: lulage
+facebook: https://www.facebook.com/events/1820370574963893/1820370588297225?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22external%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D]%2C%22ref_notif_type%22%3Anull%7D
+id: zy3AyrJ0jKnt3rbZTh8o
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FCTtVGCTqyKUfzEcIXuJYJFPAjj33%2F2bd18a5c-9dfc-4682-838c-e6cb53b58020?alt=media&token=0e6c0d23-fe1b-4fdc-a485-45de11bb7ef3
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fzy3AyrJ0jKnt3rbZTh8o.png?generation=1675767345813661&alt=media
+star:
+  count: 0
+  list: {}
+viewsCount: 50

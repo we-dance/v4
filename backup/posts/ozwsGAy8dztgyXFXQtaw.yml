@@ -1,0 +1,120 @@
+endDate: 1725148799000
+sourceUrl: https://www.facebook.com/events/1841859149668726/
+createdAt: 1724767228004
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1724748799000
+updatedAt: 1724767228004
+importedAt: 1724767228004
+providerUpdatedAt: 1724748799000
+facebookId: "1841859149668726"
+facebook: https://www.facebook.com/events/1841859149668726/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1841859149668726/
+eventType: Party
+providerItemId: 47922-1725062400-1725148799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Kátai Söröző, Széchenyi István út 81., Taksony, 2335, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725062400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Miskolc, Andrássy Gyula u. 102, 3534 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Kata Cafe
+  geometry:
+    viewport:
+      southwest:
+        lng: 20.7123325197085
+        lat: 48.09927906970851
+      northeast:
+        lng: 20.7150304802915
+        lat: 48.10197703029151
+    location:
+      lng: 20.7135468
+      lat: 48.1006698
+  address_components:
+    - types:
+        - street_number
+      short_name: "102"
+      long_name: "102"
+    - types:
+        - route
+      short_name: Andrássy Gyula u.
+      long_name: Andrássy Gyula utca
+    - types:
+        - locality
+        - political
+      short_name: Miskolc
+      long_name: Miskolc
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "3534"
+      long_name: "3534"
+  place_id: ChIJ7T7D_0aeQEcR51deAKNucd8
+  url: https://maps.google.com/?cid=16100771789191141351
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsarevolutionbudapest
+  name: Salsa Revolution Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710684387/ja9kxvuohnii3jgbcm0q.jpg
+  bio: ""
+  id: pROhCAj7qQYWJGq5I98R
+  instagram: ""
+  username: salsa.revolution.bud
+claimed: No
+link: ""
+description: >-
+  Kedves Táncosok!
+
+
+  Szép lassan elmegy ez a nyár is, mi is kicsit pihenünk/pihentünk, de lassan szedjük össze magunkat és készülünk a következő tanévre.
+
+  Augusztus 31én újra elinditjuk a Party sorozatunkat Taksonyba 
+
+
+  Kezdés 19:00
+
+  Workshop (még tárgyalás alatt )
+
+  Beugró: 2000ft 
+
+
+  Várunk szeretettel 
+
+  Salsa Revolution csapata
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724767249/g4qw2p07ffwnrrjdzyer.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa & Bachata Party, 08.31, Taksony
+online: No
+place: ChIJ5-tyjYeeQEcRsBEeDCnEAAQ
+international: No
+hash: 1725123600000+ChIJ7T7D_0aeQEcR51deAKNucd8
+id: ozwsGAy8dztgyXFXQtaw

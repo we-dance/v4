@@ -1,0 +1,159 @@
+venue:
+  website: http://salsamas-pasing.de/
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  url: https://maps.google.com/?cid=8948474523406618165
+  international_phone_number: +49 89 74039681
+endDate: 2023-01-20T22:00
+claimed: No
+description: |-
+  Bachata Workshop + Bachata Social Evening
+
+  18:30-19:30 - Bachata Beginner Kurs* 
+  18:30-19:30 - Bachata All Levels Kurs* 
+  19:30-22:00 - Bachata Social Abend**
+
+  * Voranmeldung erwünscht 
+  ** Keine Voranmeldung nötig
+
+  Kursgebühr: 15€ p. Person für 60 Min. 
+
+  DER BACHATA SOCIAL ABEND IST KOSTENLOS VON 19:30-22:00!
+
+  Salsamás Pasing
+  Am Schützeneck 3, 81241 München 
+
+  Infos & Anmeldung unter:
+  E-Mail: info@salsa-mas.de
+  Mobile: +49(0)1728216569
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F356937c7-70aa-4c2c-a54b-00db0058e0f1?alt=media&token=cda5f7f9-4231-4cd0-ba47-9c6cd45fea08
+createdAt: 1674171371142
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Pablo De Queiroz
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fea862ce6-c4ca-48be-b269-59c415a30dc7?alt=media&token=4d4f1c09-2dd4-4e7f-aff4-98c21cf81ed1
+    id: Gg9bygHaz0NBcUy0NLyz
+    instagram: https://instagram.com/pablo_de_queiroz_salsamas
+    username: pablo_de_queiroz_salsamas
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - pablo_de_queiroz_salsamas
+international: No
+updatedAt: 1674171371142
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/SalsamasMunich
+  name: Salsamas_Munich
+  bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  id: h1Q2XunkwqSUqIxinKiNaghTlal1
+  instagram: https://instagram.com/salsamasmunich
+  username: Salsamas_Munich
+eventType: Party
+form: No
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: Bachata Social Evening - Munich‘s Weekly Bachata MeetUp
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-20T18:30
+username: Salsamas_Munich
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fu7PMIaHxwnO2jVBEIYRc.png?generation=1674208269675270&alt=media
+telegram:
+  requestedAt: 1674208281654
+  messageUrl: https://t.me/WeDanceMunich/805
+  publishedAt: 1674208286706
+  messageId: 805
+  state: published
+instagram:
+  requestedAt: 1674208288048
+  messageUrl: https://instagram.com/p/CnofJtjOu-L
+  publishedAt: 1674208304888
+  messageId: CnofJtjOu-L
+  state: published
+star:
+  count: 0
+  list: {}
+viewsCount: 22
+id: u7PMIaHxwnO2jVBEIYRc

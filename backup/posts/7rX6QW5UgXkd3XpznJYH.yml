@@ -1,0 +1,139 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  name: Pinakothek der Moderne
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  url: https://maps.google.com/?cid=14384342178029021798
+  international_phone_number: +49 89 23805360
+  username: pinakothekdermoderne
+endDate: 1714505400000
+claimed: No
+description: >-
+  So Boyz N Girlz, your MBC DJs planed the following socials for you at
+  *Pinakothek der Moderne* as the weather is getting better, we finish
+  officially at 21:XX* depending on the weather and as any music played after
+  around 21:50 the volume will be low, so come early if you want to enjoy the
+  good loud music! And dress smartly according to the weather forecast 🤓
+
+
+  As always more JBLs are welcome.
+
+
+  Let's bachata 💃🏻🕺🏻
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb8e34c94-2701-465e-9741-e9ec14c4f808?alt=media&token=e25f15fe-f2ea-4344-ac53-95ff78c549cf
+createdAt: 1714304974007
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: FREE
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 7rX6QW5UgXkd3XpznJYH
+international: No
+updatedAt: 1714304974007
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: MoMo Spring
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmomo.m.spring.png?generation=1704839144147082&alt=media
+  bio: |-
+    ♥️♥️Travel ✈️🛳️🐬🌊🗻
+    ❤️❤️ sport 🏊🏋️⛹️🏃🐎💨🥈
+    💕💕 dance 🕺💃
+    Only my own Pictures 😇
+    📌 Munich
+  instagram: https://instagram.com/momo.m.spring
+  id: y5xkM80BR51TVTZS1EWn
+  username: momo.m.spring
+upVotes: 0
+telegram: {}
+eventType: Party
+hotDeal: ""
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Bachata Open Air
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+hash: 1714314600000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+startDate: 1714492800000
+username: alexrazbakov
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7rX6QW5UgXkd3XpznJYH.png?generation=1714304983957968&alt=media
+bookmarks: 1
+viewsCount: 7

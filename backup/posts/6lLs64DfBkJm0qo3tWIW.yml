@@ -1,0 +1,166 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/vivafest-dance-festival/
+name: 20th Vivafest Dance Festival
+sourceUrl: https://facebook.com/events/450999454354824
+venue:
+  address_components:
+    - long_name: "502"
+      short_name: "502"
+      types:
+        - street_number
+    - long_name: Avenida Nossa Senhora de Fátima
+      short_name: Avenida Nossa Senhora de Fátima
+      types:
+        - route
+    - long_name: Taquaral
+      short_name: Taquaral
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Campinas
+      short_name: Campinas
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: São Paulo
+      short_name: SP
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Brazil
+      short_name: BR
+      types:
+        - country
+        - political
+    - long_name: 13076-000
+      short_name: 13076-000
+      types:
+        - postal_code
+  formatted_address: Av. Nossa Sra. de Fátima, 502 - Taquaral, Campinas - SP, 13076-000, Brazil
+  geometry:
+    location:
+      lat: -22.88131929999999
+      lng: -47.0510853
+    viewport:
+      northeast:
+        lat: -22.87988581970849
+        lng: -47.04975581970849
+      southwest:
+        lat: -22.8825837802915
+        lng: -47.05245378029149
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +55 19 3295-3280
+  name: Viva festi
+  place_id: ChIJj3kJtfvFyJQRnapa0FRmz-U
+  url: https://maps.google.com/?cid=16559566869323491997
+  website: https://instagram.com/vivafesti?igshid=YmMyMTA2M2Y=
+endDate: 1747220400000
+claimed: No
+link: ""
+description: |-
+  Vivafest 2025 
+  20th anniversary 
+  May 07-14, Bodrum 
+
+  Confirmed Artists & DJs 
+
+  Salsa & Bachata 
+
+  Pablito y su Mezcla 
+  Selene Tovar & Fernando 
+  Lenin & Genesis 
+  Michelle Yollina 
+  Alicia Velasco 
+  John & Kelly 
+  Tina Bantzi 
+  A.Williams & Yağmur 
+  Diego & Özlem
+  Leymin Şaylan 
+  Kıvanç & Merve 
+  Cenk & Tuğçe 
+  Koray & Beyza 
+  Max & Elza 
+  Besher Hamdan  
+
+  Dj Alejandro 
+  Dj Free 
+  Dj Gürkan Sürmeli  
+
+  AFRO & DANCEHALL 
+  Jay-C 
+
+  Kizomba & Urbankiz 
+
+  Audi & Laura 
+  Ledoux Kingsman 
+  Gwany & Liliana 
+  Danielle De Jong 
+  Loyal El Mir 
+  Jillian & Elnara
+  Kübra Çaylı 
+  Kizmir by İrfan Ayık 
+  Svitlana Sokalska  
+  Gökhan & Derya
+
+  Dj Lenhy 
+  Dj Ruela
+  Dj No Limits
+
+  MEDIA TEAM 
+
+  Latin Dance Photo 
+  Dancingraphy 
+  Neta Medya 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/z7s2sykfxto28ugtqyzd.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  id: EwXKCIsTEmamdQZ4V5Bl
+  username: vivafest.bodrum
+  name: Vivafest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953552/myetgsajhuacfiio0ish.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/vivafest.bodrum
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/450999454354824/
+facebookId: "450999454354824"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1746608400000+ChIJj3kJtfvFyJQRnapa0FRmz-U
+startDate: 1746608400000
+id: 6lLs64DfBkJm0qo3tWIW

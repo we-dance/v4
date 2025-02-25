@@ -1,0 +1,120 @@
+endDate: 1729987199000
+sourceUrl: https://www.facebook.com/events/568918312320219
+createdAt: 1729000852037
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1728980984000
+updatedAt: 1729000852037
+importedAt: 1729000852037
+providerUpdatedAt: 1728980984000
+facebookId: "568918312320219"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/568918312320219
+eventType: Party
+providerItemId: 48513-1729900800-1729987199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Nagykanizsai Honvéd Kaszinóért Alapítvány, Ady Endre u. 7.,
+  Nagykanizsa, 8800, Hungary
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729900800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Nagykanizsa, Ady Endre u. 7, 8800 Hungary
+  website: http://www.honvedkaszino.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Honvéd Casino
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.98836566970849
+        lat: 46.4523170197085
+      northeast:
+        lng: 16.9910636302915
+        lat: 46.45501498029149
+    location:
+      lng: 16.9898336
+      lat: 46.4537267
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Ady Endre u.
+      long_name: Ady Endre utca
+    - types:
+        - locality
+        - political
+      short_name: Nagykanizsa
+      long_name: Nagykanizsa
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8800"
+      long_name: "8800"
+  international_phone_number: +36 93 311 036
+  place_id: ChIJ_degmnSTaEcRHK5jY79P_O8
+  url: https://maps.google.com/?cid=17292784352620686876
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kanizsasalsa
+  name: Kanizsa Salsa Egyesület
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902718/txkepsd5aqjliccysjwq.jpg
+  bio: ""
+  id: g3K4pbx1Xn4e3FpApej7
+  instagram: ""
+  username: kanizsasalsa
+claimed: No
+facebook: https://www.facebook.com/events/568918312320219/
+link: ""
+description: >-
+  🕸-=Bola de Horrores=-🕸
+
+  💀🕸🎃👻🍬🦇💀🧡๋࣭ ⭑🕸
+
+  Jelmezes Salsa Bachata Kizomba bulink idén sem maradhat el.
+
+  🎭👺 💀☠️ 👽 👾 🤖 🧙 🧚 🧛 🧜
+
+  Ezúttal a legrémisztőbb ruházat a legjobb! Ezt értékes díjakkal is jutalmazzuk majd!🏆
+
+  Külsősöknek a belépő: 3.000 Ft
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729000869/sl24cnywjufuajwll0pz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Rémségek Salsa Bálja
+online: No
+place: ChIJ6VsHHAaTaEcRsBIeDCnEAAQ
+international: No
+hash: 1729967400000+ChIJ_degmnSTaEcRHK5jY79P_O8
+id: KcOhcdfTXY1VXYiZDFn1

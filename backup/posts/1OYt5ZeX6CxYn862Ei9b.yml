@@ -1,0 +1,140 @@
+isNew: true
+facebookId: "1311792553173997"
+facebookUrlsList:
+  - https://www.facebook.com/events/1311792553173997/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731078038477
+updatedAt: 1731078038477
+importedAt: 1731078038477
+providerId: 9gJQFW0qjHSP0sQHjuVV
+providerItemId: e1311792553173997@facebook.com
+name: Dienstagsparty Salsa Cubana für alle mit DJ Joycce
+providerCreatedAt: 1731006430000
+providerUpdatedAt: 1731006430000
+startDate: 1733860800000
+endDate: 1733871600000
+facebook: https://www.facebook.com/events/1311792553173997/
+sourceUrl: https://www.facebook.com/events/1311792553173997/
+location: Megano Tanzschule
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: megano123
+createdBy: dt1A4VFDatZohAVRh8Tw11N85LC2
+venue:
+  address_components:
+    - long_name: "6"
+      short_name: "6"
+      types:
+        - street_number
+    - long_name: Geretsrieder Straße
+      short_name: Geretsrieder Str.
+      types:
+        - route
+    - long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "81379"
+      short_name: "81379"
+      types:
+        - postal_code
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  geometry:
+    location:
+      lat: 48.1005716
+      lng: 11.533212
+    viewport:
+      northeast:
+        lat: 48.1019139302915
+        lng: 11.5344549302915
+      southwest:
+        lat: 48.0992159697085
+        lng: 11.5317569697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 160 5560717
+  name: MEGANO Dance School
+  place_id: ChIJ7cSE9lbZnUcRLl1y8iFygkM
+  url: https://maps.google.com/?cid=4864576037640625454
+  website: https://megano-tanzschule.de/
+visibility: Public
+org:
+  id: w1el0y0vP0aRSfra0pE5nmImDCr1
+  username: megano_dance
+  name: Megano Tanzschule
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmegano_dance.png?generation=1662975077262579&alt=media
+  bio: Salsa Cubana, Musik, Animation, News, Videos und Live Unterricht
+  instagram: https://instagram.com/megano_dance
+  facebook: https://www.facebook.com/MEGANOTANZSCHULE
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: |-
+  Jeden Dienstag heißt es bei Megano- die Chance zu üben!
+
+  Salsa Cubana mit DJ Joycce!
+
+  Einlass 21 Uhr
+  Preis 5€ (Normal), 2€ Familia Mitglieder und Studenten
+
+  Gute Getränke und schöne Atmosphäre erwartet euch.
+
+  Wo: Megano Tanzschule, Geretsriederstr. 6, 81379 München
+
+  U3 Obersendling, 3 Min zu Fuß.
+  Parken rund um Megano, Lidl Parkplatz (offen zugänglich) 300 Meter entfernt
+
+  S Bahn Siemenswerke 7 Min zu Fuß
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731078057/nsqgscvgsnbh8yulvzeb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1733860800000+ChIJ7cSE9lbZnUcRLl1y8iFygkM
+id: 1OYt5ZeX6CxYn862Ei9b

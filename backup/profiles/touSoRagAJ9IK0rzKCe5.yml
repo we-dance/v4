@@ -1,0 +1,25 @@
+owner: ""
+createdAt: 1709834930623
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+username: endirecto.de
+import: failed
+importError: POST /api/v1/accounts/login/ - 400 Bad Request; You'll need to
+  update Instagram to the latest version before you can use the app.
+website: https://endirecto.de/
+locales:
+  en: true
+gender: ""
+name: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa9709f96-2d11-4368-bfa1-3d31319d12b3?alt=media&token=6cc7f27d-b94d-47bc-bf33-42de5dabd799
+instagram: ""
+team: []
+id: touSoRagAJ9IK0rzKCe5
+place: ChIJmQ2WN0bUnUcRku5SCjIwJKM
+type: Organiser
+email: info@endirecto.de
+bio: Boosting Cuban music and Iberoamerican culture across the world.
+updatedAt: 1709835105133
+viewsCount: 4

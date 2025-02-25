@@ -1,0 +1,193 @@
+endDate: 1733738400000
+sourceUrl: https://www.facebook.com/events/1183042889738296/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712928569000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727640905000
+facebookId: "1183042889738296"
+facebook: https://www.facebook.com/events/1183042889738296/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1183042889738296/
+eventType: Workshop
+providerItemId: e1183042889738296@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Afro Cuban Pati Xmas Fiesta, Blackpool "
+location: Queens Hotel
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1733500800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Clarence Parade, Osborne Rd, Southsea, Portsmouth, Southsea PO5 3LJ, UK
+  website: http://www.queenshotelportsmouth.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: The Queens Hotel Portsmouth
+  geometry:
+    viewport:
+      southwest:
+        lng: -1.094524480291502
+        lat: 50.7838547197085
+      northeast:
+        lng: -1.091826519708498
+        lat: 50.7865526802915
+    location:
+      lng: -1.0931468
+      lat: 50.7851257
+  address_components:
+    - types:
+        - route
+      short_name: Clarence Parade
+      long_name: Clarence Parade
+    - types:
+        - route
+      short_name: Osborne Rd
+      long_name: Osborne Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Southsea
+      long_name: Southsea
+    - types:
+        - locality
+        - political
+      short_name: Portsmouth
+      long_name: Portsmouth
+    - types:
+        - postal_town
+      short_name: Southsea
+      long_name: Southsea
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Portsmouth
+      long_name: Portsmouth
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: PO5 3LJ
+      long_name: PO5 3LJ
+  international_phone_number: +44 23 9282 2466
+  place_id: ChIJ7yQOwZVddEgR8MPzTjV7tRQ
+  url: https://maps.google.com/?cid=1492234320431268848
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417946969
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/afrocubanpati
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417947/fatxb0pbipz6lrhqcheb.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417946969
+  owned: false
+  name: www.afrocuban.co.uk
+  place: ChIJ6fEUGKRCdEgReTs3A-qDtkU
+  updatedAt: 1728417946969
+  username: afrocubanpati
+claimed: No
+link: https://www.afrocubanpati.com/xmas-fiesta-tickets
+description: >+
+  💥JOIN US for our annual 🎄XMAS 🇨🇺CUBAN SALSA FIESTA🎶💃🏻🕺 at the Queens
+  Hotel in Blackpool🇬🇧—happening from December, 6th-9th 2024.
+
+
+  -----------------------------------------------------------------
+
+
+  Tickets get SOLD OUT on Xmas!
+
+  💥To BOOK your TICKET Visit ⬇️⬇️
+
+  https://www.afrocubanpati.com/xmas-fiesta-tickets
+
+
+  -----------------------------------------------------------------
+
+
+  💥 Featuring professional Afro, Cuban, and Latin artists.
+
+  💥 🤩Live Entertainment.
+
+  💥 💃🏻Dance Shows.
+
+  💥 🎷LIVE Cuban Band🎶
+
+  💥 🌞Day-time and🌙Night-time parties—till 5AM💃🏻🕺🎉🍾🥂
+
+   😍TWO FULL DAYs of quality dance lessons and workshops in Cuban salsa, rueda, son, Afro-Cuban folkloric dance, jazz dance, bachata, kizomba, and more... 😃
+
+  💥🛏THREE NIGHTS half board accommodation with COOKED BREAKFAST  and THREE COURSE EVENING-MEAL included. 
+
+
+  💥🛏TWO NIGHT OPTION AVAILABLE as well as DAY PASSES if you’re local.
+
+
+  -----------------------------------------------------------
+
+
+  Tickets SELLING OUT FAST!
+
+  💥To BOOK your TICKET Visit ⬇️⬇️
+
+  https://www.afrocubanpati.com/xmas-fiesta-tickets
+
+
+  ------------------------------------------------------------
+
+
+  Where: Queens Hotel,
+                 Promenade
+                   Blackpool
+                    FY4 1AY
+                    England
+
+                    
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417948/trb1wnjow9ak5kj8hdlt.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6fEUGKRCdEgReTs3A-qDtkU
+international: No
+hash: 1733500800000+ChIJ7yQOwZVddEgR8MPzTjV7tRQ
+id: fiAbukXOCk8RnZhIkpnb

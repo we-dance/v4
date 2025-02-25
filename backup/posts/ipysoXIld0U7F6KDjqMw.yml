@@ -1,0 +1,152 @@
+sourceUrl: https://www.facebook.com/events/953122410154619/
+createdAt: 1715682872935
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+endDate: 1716733800000
+claimed: No
+link: ""
+description: |-
+  𝕋𝕒𝕟𝕫𝕜𝕦𝕣𝕤𝕖 𝕓𝕪 𝔸𝕞𝕒𝕕𝕠 𝔸𝕣𝕋 💫...
+  ⚠️𝗪𝗼𝗰𝗵𝗲𝗻𝗲𝗻𝗱𝗲 𝗶𝗺 𝗠𝗮𝗶 2024
+  ✅️Samstag 25. Mai 
+  ✔️13:30 - 14:50 Afro Cuban Dance - Oshún
+  ✔️15:00 - 16:20 Reggaeton Technik
+  ✅️Sonntag 26. Mai
+  ✔️13:30 - 14:50 Afro Cuban Dance - Oggún
+  ✔️15:00 - 16:20 Reggaeton Choreo ⤵️
+  🔴Preise
+  ☑️ 1 Workshop 25€
+  ☑️ Day Pass  40€
+  ☑️ Fullpass  70€
+  .
+  .
+  .
+  🌐📧📲
+  www.dancegodscompany.com
+
+  info@dancegodscompany.com
+
+  +4915221024691
+
+  📍Location: Neuhauser Str. 15a, 80331 München
+  🏩 Kult Tanzschule 
+  .
+  :
+  𝑳𝒆𝒕'𝒔 𝑫𝒂𝒏𝒄𝒆 ✨️
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/953122410154619/
+facebookId: "953122410154619"
+eventType: Workshop
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Afro-Cuban-Dance & Reggaeton Weekend
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1716634800000+ChIJnwr0yvV1nkcR2kdAim8pDB8
+startDate: 1716634800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715682880/aq6cn5ktyuuss3s44pz9.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FipysoXIld0U7F6KDjqMw.png?generation=1715682899856692&alt=media
+venue:
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  website: http://www.kult-tanzschule.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The KULT TANZSCHULE in ADTV
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5681649197085
+        lat: 48.1363358697085
+      northeast:
+        lng: 11.5708628802915
+        lat: 48.1390338302915
+    location:
+      lng: 11.5698826
+      lat: 48.13758809999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  url: https://maps.google.com/?cid=2237208673933871066
+  international_phone_number: +49 89 44313886
+  username: kulttanz
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Jorge Amado Perez Machado
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Famado.art.official.png?generation=1655385406881655&alt=media
+  bio: Licenciado en Arte Danzario•Primer Nivel Dancístico
+    profesional•Especialista Folclórico,Investigador,Profesor,Coreógrafo•Premio
+    Nacional Ramiro Guerra
+  id: 81FVVCCsU3oyvfQwLrYS
+  instagram: https://instagram.com/amado.art.official
+  username: amado.art.official
+id: ipysoXIld0U7F6KDjqMw
+updatedAt: 1715683070047
+star:
+  count: 1
+  usernames:
+    - Viacheslav
+  history:
+    - username: Viacheslav
+      date: 1716555490974
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+viewsCount: 5

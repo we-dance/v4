@@ -1,0 +1,196 @@
+endDate: 1724623140000
+sourceUrl: https://www.facebook.com/events/978435066580552/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1697034189000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1711659371000
+facebookId: "978435066580552"
+facebook: https://www.facebook.com/events/978435066580552/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/978435066580552/
+eventType: Party
+providerItemId: e978435066580552@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Latin Vibes Summer Bootcamp - a Weekend of Bachata
+location: Kulturhuset Islands Brygge
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724436000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Islands Brygge 18, 2300 København, Denmark
+  website: https://kulturhusetislandsbrygge.kk.dk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kulturhuset Islands Brygge
+  geometry:
+    viewport:
+      southwest:
+        lng: 12.5751192697085
+        lat: 55.6654566197085
+      northeast:
+        lng: 12.5778172302915
+        lat: 55.6681545802915
+    location:
+      lng: 12.5763044
+      lat: 55.66687389999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "18"
+      long_name: "18"
+    - types:
+        - route
+      short_name: Islands Brygge
+      long_name: Islands Brygge
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: København S
+      long_name: København S
+    - types:
+        - locality
+        - political
+      short_name: København
+      long_name: København
+    - types:
+        - country
+        - political
+      short_name: DK
+      long_name: Denmark
+    - types:
+        - postal_code
+      short_name: "2300"
+      long_name: "2300"
+  place_id: ChIJ-7ufpWtTUkYRnquEI2Zt2H4
+  url: https://maps.google.com/?cid=9140175729198410654
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444453170
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/latinvibesdk
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444453/xdkxey4osadfgagyytsl.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444453170
+  owned: false
+  name: Latin Vibes
+  place: ChIJIz2AXDxTUkYRuGeU5t1-3QQ
+  updatedAt: 1715444453170
+  username: latinvibesdk
+claimed: No
+link: https://billetto.dk/e/latin-vibes-bachata-summer-bootcamp-billetter-886032
+description: >
+  Bachata family, we are happy to welcome you to this new concept! 🥰
+
+
+  Are you ready for workshops, out- and indoors dancing, international and local bachata stars, hot weather and hot water, all star battles, and a lot more? ☀️🌊💃🕺
+
+
+  Limited full passes available, so buy your tickets now! ‼️🚨
+
+
+
+  WHAT TO EXPECT
+
+  ☀️ There will be 4 hours of workshops both Saturday and Sunday, plus pre-party workshops. 
+
+  ☀️ There will be two big parties Friday and Saturday. 
+
+  ☀️ In the breaks and before and after the day-time workshops, there will be music and outdoor dancing. 
+
+  ☀️ We will host an All Star-battle featuring other dance styles and open for everyone from the outside also. 
+
+
+
+  WHERE
+
+  Everything will be held at Kulturhuset Islands Brygge, right by the water! They will also have their restaurant/café/bar open all the time ☕️🍸🎉
+
+
+
+  ARTISTS
+
+  Janis & Zoe (GER) 🇩🇪
+
+  Owen & Eva (NED/POL)🇾🇪 🇵🇱
+
+  Gabriele & Daniel (IT/DK)🇮🇹 🇩🇰
+
+  Benjamin & Sara 🇩🇰
+
+  +more to be announced!
+
+
+  We will also add DJ’s and guest dancers to the line up.
+
+
+
+  TICKETS
+
+  Buy your tickets here:
+
+  https://billetto.dk/e/latin-vibes-bachata-summer-bootcamp-billetter-886032
+
+
+  ❗️OBS Limited capacity on tickets ❗️
+
+
+  PRICES
+
+  Eirly bird 600 dkk. (Sold out) ❌
+
+  Eirly bird Student 500 dkk. (Sold out) ❌
+
+
+  Regular full pass 750 dkk. (untill 30th June)
+
+  Regular full pass (Student) 600 dkk. (untill 30th June)
+
+
+  Last minut full pass 900 dkk.
+
+  Last minut full pass (Student) 700 dkk.
+
+
+  A full pass gives you access to all the workshops and parties and additional activities. Separate party entrances can be purchased by the door.
+
+
+  Early Bird prices available until March 31 2024. When buying with student discount, please have a valid ID card ready by the time we hand you the full pass once the event starts.
+
+
+  We are looking so much forward to seeing you here next year! 😍☀️
+
+
+  Best wishes,
+
+  Latin Vibes Team
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444454/hbfvbbckejlka4r5zntq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJIz2AXDxTUkYRuGeU5t1-3QQ
+international: No
+hash: 1724436000000+ChIJ-7ufpWtTUkYRnquEI2Zt2H4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLSi3dusySI1PjqDIz4AU.png?generation=1715444471112982&alt=media
+viewsCount: 1
+id: LSi3dusySI1PjqDIz4AU

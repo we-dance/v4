@@ -1,0 +1,207 @@
+endDate: 2023-06-12T23:30
+claimed: No
+link: https://www.salsa-adria.hr/shop/next_events/summer_sensual_days_rovinj_2023
+description: >-
+  Join us in a unique sensual adventure where hundreds of dancers worldwide come
+  to share their passion, knowledge, and love for dancing. 
+
+
+  Welcome to the crazy world of non-stop partying at the world-famous Adriatic destination that will take your breath away!
+type: event
+duration: 60
+createdAt: 1681916106950
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: Yes
+updatedAt: 1681916106950
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/seasunsexy
+  name: SummerSensual
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FO9x6HmmJ40bCkoB7iFuX7YPRhJk2%2F15760c9b-9d9a-4789-b9d3-884dc7e4fbe5?alt=media&token=a14bd481-15d3-4dd0-ace4-d2de9f5d8e9e
+  bio: We will dance again
+  id: O9x6HmmJ40bCkoB7iFuX7YPRhJk2
+  instagram: https://instagram.com/seasunsalsa
+  username: SummerSensual
+facebook: https://it-it.facebook.com/seasunsexy/
+eventType: Festival
+confirmation: Hurray! You are on the guest list. Wear your biggest smile and get
+  ready to have an amazing time at the event!
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Summer Sensual Days
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-05T00:00
+username: IvanaSoldat
+id: W5iSzvRMIejVNE0ZtGM0
+price: 35 - 630 EUR
+program:
+  - endDate: 2023-06-08T19:15
+    name: BACHATA DIVAS with Belen
+    description: Includes lady styling bootcamp with Belen Tejedor on Thursday 8th
+      of June. The ticket price is increased on 1st of June.
+    eventType: Workshop
+    startDate: 2023-06-08T16:00
+  - endDate: 2023-06-10T00:00
+    name: HIGH HEELS by Chloe
+    description: Includes high heels bootcamp with Chloe on Friday 9th and Saturday
+      the 10th and Saturday's performance at the Adris stage. The ticket price
+      is increased on 1st of June.
+    eventType: Workshop
+    startDate: 2023-06-09T00:00
+  - endDate: 2023-06-08T20:00
+    name: SSD SUNSET KIZOMBA CRUISE
+    description: |-
+      DJs: DJ MADISS & DJ OZY
+      Boat trip on, Thursday, 8th June, boarding time: 16:30
+      Voyage time: 17:00 - 20:00
+      SCHEDULE TIME & DJs SUBJECT TO CHANGE!
+    eventType: Party
+    startDate: 2023-06-08T16:30
+  - endDate: 2023-06-10T20:00
+    name: SSD SUNSET SALSA CRUISE
+    description: |-
+      DJs: DJ DMITRI & DJ RUMBERO
+      Boat trip on Saturday, 10th June, boarding time: 16:30
+      Voyage time: 17:00 - 20:00
+      SCHEDULE TIME & DJs SUBJECT TO CHANGE!
+    eventType: Party
+    startDate: 2023-06-10T16:30
+  - endDate: 2023-06-12T16:00
+    name: SSD KIZOMBA PARTY BOAT
+    description: |-
+      DJs: DJ PINGUSSO & DJ SHARK
+      Boat trip on Monday, 12th June, boarding time: 12:30
+      Voyage time: 13:00 - 16:00
+      SCHEDULE TIME & DJs SUBJECT TO CHANGE!
+    eventType: Party
+    startDate: 2023-06-12T12:30
+star:
+  count: 1
+  list:
+    Ron62: true
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F4f576966-d12d-449c-81f9-a1b4eea31ac3?alt=media&token=fa8ad16a-3104-47a4-a063-9cb1aeecdb09
+venue:
+  formatted_address: Rovinj, Croatia
+  website: http://www.rovinj.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.73467942909843
+      south: 45.01594542236376
+      north: 45.13156702544286
+      west: 13.60671461200595
+    location:
+      lng: 13.6387067
+      lat: 45.0811661
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istria County
+      long_name: Istria County
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+artists:
+  - instagram: https://instagram.com/antoniybelenoficial
+    username: antoniybelenoficial
+  - instagram: https://instagram.com/sergioymarichuoficial
+    username: sergioymarichuoficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Nuno & Nagyla 🇵🇹 🇧🇷
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fnunonagyla.oficial.png?generation=1655307091386422&alt=media
+    bio: "Dancers | Instructors | Choreographers (Portugal,Brasil) For Booking:
+      nuno.nagyla@gmail.com"
+    id: SLJuQZ70BHwK4EsDKIiB
+    instagram: https://instagram.com/nunonagyla.oficial
+    username: nunonagyla.oficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: isabelle and Felicien
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fisabelleandfelicienofficial.png?generation=1655307255144658&alt=media
+    bio: |-
+      Dancers / Choreographers / Teachers
+      #isabelleandfelicien
+    id: dKinMwbw9oEQmFPOoEMv
+    instagram: https://instagram.com/isabelleandfelicienofficial
+    username: isabelleandfelicienofficial
+  - instagram: https://instagram.com/azaelbachatafever
+    username: azaelbachatafever
+  - instagram: https://instagram.com/sindibachatafever
+    username: sindibachatafever
+  - instagram: https://instagram.com/juniorycarolina
+    username: juniorycarolina
+  - instagram: https://instagram.com/pauloelanna
+    username: pauloelanna
+  - instagram: https://instagram.com/azzedine__k
+    username: azzedine__k
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: carlosychloebachata
+    photo: ""
+    bio: ""
+    id: zz00rwiql0G8aRhlxjVN
+    instagram: https://instagram.com/carlosychloebachata
+    username: carlosychloebachata
+  - instagram: https://instagram.com/maychealmayra
+    username: maychealmayra
+  - instagram: https://instagram.com/leocato_kingofelegancia
+    username: leocato_kingofelegancia
+  - instagram: https://instagram.com/cotiso.bailarte
+    username: cotiso.bailarte
+artistsList:
+  - antoniybelenoficial
+  - sergioymarichuoficial
+  - nunonagyla.oficial
+  - isabelleandfelicienofficial
+  - azaelbachatafever
+  - sindibachatafever
+  - juniorycarolina
+  - pauloelanna
+  - azzedine__k
+  - carlosychloebachata
+  - maychealmayra
+  - leocato_kingofelegancia
+  - cotiso.bailarte
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FW5iSzvRMIejVNE0ZtGM0.png?generation=1684789169703671&alt=media
+viewsCount: 53

@@ -1,0 +1,111 @@
+venue:
+  website: https://www.dancewithgeorge.com/
+  formatted_address: Landwehrstraße 24, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "24"
+      short_name: "24"
+    - types:
+        - route
+      long_name: Landwehrstraße
+      short_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80336"
+      short_name: "80336"
+  url: https://maps.google.com/?cid=7158368571314548597
+  name: Dance With George Tanzschule München
+  geometry:
+    viewport:
+      south: 48.13505101970851
+      north: 48.13774898029151
+      east: 11.5632495302915
+      west: 11.5605515697085
+    location:
+      lng: 11.5618859
+      lat: 48.1364618
+  international_phone_number: +49 172 4513580
+  place_id: ChIJpyPj-_d1nkcRdS-G-EmiV2M
+endDate:
+  _seconds: 1634851800
+  _nanoseconds: 0
+description: ""
+type: event
+duration: "90"
+cover: ""
+createdAt: 1633522959667
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: P4a5p7D0Th17Pv31tin3
+views: 2
+updatedAt: 1633522959667
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Kizomba Social DWG
+online: No
+styles:
+  Tarraxinha:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-21T20:00:00.000Z
+username: Vitali
+viewsCount: 8

@@ -1,0 +1,126 @@
+venue:
+  formatted_address: Rua Da Cintura Do Porto De Lisboa Edif., 226, Arm. H, Lisboa,
+    1350-352 Lisboa, Portugal
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Dock's Club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -9.165704369708498
+      south: 38.7018356197085
+      north: 38.7045335802915
+      west: -9.168402330291503
+    location:
+      lng: -9.167053899999999
+      lat: 38.7031461
+  address_components:
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Estrela
+      long_name: Estrela
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - postal_code
+      short_name: 1350-352
+      long_name: 1350-352
+  international_phone_number: +351 21 390 0222
+  place_id: ChIJ-3AKD6M0GQ0Rp3riMxSd3Co
+  url: https://maps.google.com/?cid=3088516154564704935
+  username: docksclub
+endDate: 1724374800000
+claimed: No
+description: >-
+  *Mukueto Kizomba Night Lisboa com Sean Wilson e Miro Kikola*
+
+  🗓️ Quinta-feira, 22 de Agosto
+
+  🕖 20h às 02h
+
+  📍 The Dock’s Club, Rua Da Cintura Do Porto, 226, Armazém H, Alcântara, Lisboa, 1350-352
+
+  💶 10€ consumiveis
+
+  🎧 Sean Wilson e Miro Kikola
+
+  🎵 Kizomba, Semba, Zouk e muito mais!
+program: []
+type: event
+duration: 360
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FNHObORJm8DWaDsG8CKujz0HhL1r1%2F234e4fd5-33f7-424a-ad69-b8d145cc21ff?alt=media&token=a238d77a-6375-4cc0-9cfc-2f0bbc22f209
+createdAt: 1724082491806
+price: 10 euros
+place: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+international: No
+visibility: Public
+eventType: Party
+confirmation: Pay on the door
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+  dates: []
+form: No
+createdBy: NHObORJm8DWaDsG8CKujz0HhL1r1
+watch:
+  count: 1
+  list:
+    SeanWilson: true
+name: Mukueto
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724353200000
+hash: 1724353200000+ChIJ-3AKD6M0GQ0Rp3riMxSd3Co
+username: SeanWilson
+star:
+  count: 1
+  usernames:
+    - SeanWilson
+  history:
+    - username: SeanWilson
+      date: 1724082519915
+      invitedBy: ""
+      uid: NHObORJm8DWaDsG8CKujz0HhL1r1
+      action: joined
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: SeanWilson
+    photo: ""
+    bio: ""
+    id: NHObORJm8DWaDsG8CKujz0HhL1r1
+    instagram: ""
+    username: SeanWilson
+artistsList:
+  - SeanWilson
+viewsCount: 3
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  instagram: https://instagram.com/mukueto_
+  username: mukueto_
+id: 7VWkTdrReVOi4hZPVixR
+updatedAt: 1724413341267

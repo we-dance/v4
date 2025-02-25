@@ -1,0 +1,24 @@
+createdAt: 1668135223194
+updatedBy: ~
+createdBy: ~
+name: Riga, Latvia
+place: ChIJ7T0H5bDP7kYRMP7yaM3PAAQ
+type: City
+updatedAt: 1668135223194
+username: Riga
+cityPlaceId: ChIJ7T0H5bDP7kYRMP7yaM3PAAQ
+location:
+  country: Latvia
+  latitude: 56.9676941
+  locality: Riga
+  region: ""
+  place_id: ChIJ7T0H5bDP7kYRMP7yaM3PAAQ
+  longitude: 24.1056221
+watch:
+  count: 1
+  usernames:
+    - AnnaNym
+  list:
+    AnnaNym: true
+viewsCount: 352
+id: hv7zKitCh0hL5igSv67J

@@ -1,0 +1,29 @@
+createdAt: 1722456105700
+updatedBy: ""
+cityPlaceId: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+createdBy: ""
+name: Munich, Germany
+location:
+  country: Germany
+  latitude: 48.1351253
+  locality: Munich
+  establishment: ""
+  region: Bavaria
+  place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  longitude: 11.5819806
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+type: City
+updatedAt: 1722456105700
+username: germany-munich
+watch:
+  count: 1
+  usernames:
+    - Klaus
+  history:
+    - username: Klaus
+      date: 1722785972993
+      invitedBy: ""
+      uid: RjtEUP2SpFVw4vseviMXVBMKP5k1
+      action: joined
+viewsCount: 33
+id: DQfFcS5A41PBifNi3VD3

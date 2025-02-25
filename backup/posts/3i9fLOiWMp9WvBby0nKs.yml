@@ -1,0 +1,46 @@
+endDate: 2021-04-27T21:00:00.000Z
+description: |-
+  ▪ВТОРНИК (27.04)- Salsa Night
+  ⏰ зажигаем с 20:30-00:00ч.
+  📍 Tiki Bar
+  🎧 Hus
+  Формат: S|B 4-1
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FErP9WITL4eMyf36LQ5iR9nCAIJ82%2F05eb0798-37ef-42ec-966b-b17c1e1a8663?alt=media&token=595cc9be-bb2e-4f02-83eb-4cd802873f9e
+createdAt: 1619427334976
+watchersCount: 0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F3i9fLOiWMp9WvBby0nKs.png?generation=1619427354490687&alt=media
+commentsLast: ~
+place: ChIJybDUc_xKtUYRTM9XV8zWRD0
+id: 3i9fLOiWMp9WvBby0nKs
+updatedAt: 1619427334976
+address: "Tiki-Bar / Тики-Бар: Садовая-Кудринская ул., д. 3А, Москва"
+updatedBy: ErP9WITL4eMyf36LQ5iR9nCAIJ82
+visibility: Public
+eventType: Party
+form: No
+createdBy: ErP9WITL4eMyf36LQ5iR9nCAIJ82
+commentsCount: 0
+name: Salsa Night in Tiki-Bar
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Moscow
+  location:
+    country: Russia
+    latitude: 55.755826
+    locality: Moscow
+    usedGps: false
+    place_id: ChIJybDUc_xKtUYRTM9XV8zWRD0
+    longitude: 37.6172999
+startDate: 2021-04-27T17:30:00.000Z
+username: MaryRys
+viewsCount: 22

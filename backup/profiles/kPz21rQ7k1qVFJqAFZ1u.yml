@@ -1,0 +1,69 @@
+createdAt: 1721644825057
+website: http://multiple-box.de/
+rooms: ""
+address:
+  formatted_address: Admiralitätstraße 76, 20459 Hamburg, Germany
+  website: http://multiple-box.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: MULTIPLE BOX Kunsthandel
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.9836720697085
+        lat: 53.54766076970851
+      northeast:
+        lng: 9.986370030291505
+        lat: 53.55035873029151
+    location:
+      lng: 9.984937100000002
+      lat: 53.5490398
+  address_components:
+    - types:
+        - street_number
+      short_name: "76"
+      long_name: "76"
+    - types:
+        - route
+      short_name: Admiralitätstraße
+      long_name: Admiralitätstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20459"
+      long_name: "20459"
+  international_phone_number: +49 40 37517510
+  url: https://maps.google.com/?cid=7326862618920205725
+  place_id: ChIJbzB5oxqPsUcRnb3Thrs-rmU
+gender: Other
+phone: +49 40 37517510
+name: MULTIPLE BOX Kunsthandel
+updateAt: 1721644825057
+type: Venue
+map: ""
+username: multiple-box.de
+id: kPz21rQ7k1qVFJqAFZ1u

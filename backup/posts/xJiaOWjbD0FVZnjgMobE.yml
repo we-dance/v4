@@ -1,0 +1,148 @@
+endDate: 1741114800000
+sourceUrl: https://www.facebook.com/events/400534272932320/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713309846000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727426400000
+facebookId: "400534272932320"
+facebook: https://www.facebook.com/events/400534272932320/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/share/tPf3yrjFnRuUPgwW/?mibextid=9l3rBW
+  - https://www.facebook.com/events/400534272932320/
+eventType: Congress
+providerItemId: e400534272932320@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: THE WEEKEND 25
+location: Lloret De Mar, Catalunya, España
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1741104000000
+facebookUrlsCount: 2
+username: Aina
+venue:
+  formatted_address: 17310 Lloret de Mar, Girona, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Lloret de Mar
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.818970036344392
+        lat: 41.68873262558949
+      northeast:
+        lng: 2.859688741467997
+        lat: 41.71662002458342
+    location:
+      lng: 2.8398821
+      lat: 41.6999471
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Lloret de Mar
+      long_name: Lloret de Mar
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: GI
+      long_name: Girona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalonia
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "17310"
+      long_name: "17310"
+  place_id: ChIJWXoHhwcXuxIReIzmpj3vc5I
+  url: https://maps.google.com/?q=17310+Lloret+de+Mar,+Girona,+Spain&ftid=0x12bb170787077a59:0x9273ef3da6e68c78
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Europe/100083255276338/
+  name: Sbk Europe
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954226/jk6fzups0hrxipgjyp4a.jpg
+  bio: ""
+  id: uiI4e3j7f7JJ2mvUr9wh
+  instagram: ""
+  username: SbkEurope
+claimed: No
+link: https://www.goandance.com/es/eventos/6793-bcn-sensual-family-the-weekend-2025?promoter=sbk
+description: >-
+  THE WEEKEND 25🎉🎉🎉🎉
+
+
+  🛒https://www.goandance.com/es/eventos/6793-bcn-sensual-family-the-weekend-2025?promoter=sbk
+
+  🔐PROMOCODE 20€: SBK
+
+
+  🚨🚨 🇪🇸SUBIDA DE PRECIO/ 🇬🇧RISING PRICE/ 🇫🇷LE PRIX AUGMENTE / 🇨🇳价格上涨 31/09/24‼️
+
+
+  🏨 Casino Costa Brava Avinguda Vila de Tossa , 27-43 17310 - Lloret de Mar (Gerona)
+
+
+  FACEBOOK EVENTO: https://www.facebook.com/share/tPf3yrjFnRuUPgwW/?mibextid=9l3rBW
+
+
+  🕺🏻💃🏻 line up:
+
+  Ataca y La Alemana 
+
+  Gabi y Estefi 
+
+  Ándele y Leti
+
+  Melvin y Gatica
+
+  Ronald y Alba
+
+  Korke y Judith
+
+  El tiguere y Bianca 
+
+  Carlos Espinosa y Sara
+
+
+  #bachataistakingover #bachata #bachateros #bachatadancing #bachatachallenge #bachatafusion #bachatadance #bachatadancers #bachataspain. #bachatacongress  #bachatasensual #bachataysalsa #bachataurbana #sbkeurope #princeroyce #bachatadominicana #bachatabrussels
+
+  #bachatabe gium #danceclass #quefairebruxelles
+
+  #bachatatradicional #traditionalbachata #dance
+
+  #bachataclass #joinus 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417908/ilvsawufsasaeistpoev.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJWXoHhwcXuxIReIzmpj3vc5I
+international: No
+hash: 1741104000000+ChIJWXoHhwcXuxIReIzmpj3vc5I
+id: xJiaOWjbD0FVZnjgMobE

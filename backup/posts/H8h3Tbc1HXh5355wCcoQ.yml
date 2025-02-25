@@ -1,0 +1,236 @@
+endDate: 1730080800000
+sourceUrl: https://www.facebook.com/events/1557005324890019/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1721678106000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1722181789000
+facebookId: "1557005324890019"
+facebook: https://www.facebook.com/events/1557005324890019/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1557005324890019/
+eventType: Festival
+providerItemId: e1557005324890019@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: LATIN OPEN - 24-27OCT 2024- MADRID (BACHATA, SALSA,KIZOMBA)
+location: Occidental Aranjuez
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729720800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Pl. de la Unesco, 2, 28300 Madrid, Spain
+  website: https://www.barcelo.com/es-es/occidental-aranjuez/?utm_source=google&utm_medium=organic&utm_campaign=my_business&utm_content=7352
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Occidental Aranjuez
+  geometry:
+    viewport:
+      southwest:
+        lng: -3.606334980291502
+        lat: 40.0557955197085
+      northeast:
+        lng: -3.603637019708497
+        lat: 40.0584934802915
+    location:
+      lng: -3.60491
+      lat: 40.057331
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Pl. de la Unesco
+      long_name: Plaza de la Unesco
+    - types:
+        - locality
+        - political
+      short_name: Madrid
+      long_name: Madrid
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: M
+      long_name: Madrid
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MD
+      long_name: Comunidad de Madrid
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "28300"
+      long_name: "28300"
+  international_phone_number: +34 918 09 93 99
+  place_id: ChIJC5_luw0FQg0R-rkluihJ4r8
+  url: https://maps.google.com/?cid=13826694245251398138
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417990712
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/LatinNectar
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417990/sbyj77xprxbp7dffuesp.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417990712
+  owned: false
+  name: LatinNectar
+  place: ChIJgTwKgJcpQg0RaSKMYcHeNsQ
+  updatedAt: 1728417990712
+  username: LatinNectar
+claimed: No
+link: ""
+description: >-
+  🇬🇧 (ENGLISH)
+
+  LATIN OPEN FESTIVAL (BACHATA & SALSA) + Kizomba Open Festival ** 2024 will be holding October 24Th to 27th.**
+
+  This year promises to be even more exciting and special than the last and we have many surprises waiting for you. The event is celebrating all in one hotel. Save the date and book your passes now.
+
+
+  🇪🇸 (ESPAÑOL)
+
+  LATIN OPEN FESTIVAL (BACHATA & SALSA) + Kizomba Open Festival 2024 se llevará a cabo del 24 al 27 de octubre.
+
+  Este año promete ser aún más emocionante y especial que el anterior, y tenemos muchas sorpresas esperándote. El evento se celebrará todo en un solo hotel. Reserva la fecha y adquiere tus pases ahora.
+
+
+  𝘼𝙇𝙇 𝙄𝙉 𝙊𝙉𝙀
+
+  𝟑 𝐒𝐎𝐂𝐈𝐀𝐋 𝐑𝐎𝐎𝐌
+
+  👉𝑅𝑂𝑂𝑀 3: 𝐵𝑎𝑐ℎ𝑎𝑡𝑎 & 𝑠𝑎𝑙𝑠𝑎
+
+  👉𝑅𝑂𝑂𝑀 2: 𝐾𝑖𝑧𝑜𝑚𝑏𝑎, 𝑆𝑒𝑚𝑏𝑎, 𝑘𝑜𝑚𝑝𝑎, Á𝑓𝑟𝑜 ℎ𝑜𝑢𝑠𝑒, 𝑎𝑛𝑑 𝑚𝑜𝑟𝑒
+
+  👉𝑅𝑂𝑂𝑀 1: 𝑈𝑟𝑏𝑎𝑛 𝑘𝑖𝑧𝑧, 𝑑𝑜𝑢𝑐𝑒𝑢𝑟 , 𝑇𝑎𝑟𝑟𝑎𝑥𝑖𝑛ℎ𝑎, 𝑇𝑎𝑟𝑟𝑎𝑥𝑜, 𝑎𝑛𝑑 𝑚𝑜𝑟𝑒.
+
+
+  BACHATA & SALSA ARTISTS
+
+  🔴 𝗟𝗜𝗡𝗘 𝗨𝗣 𝗗𝗝’𝗦
+
+  S_DANNY – 🇪🇸 (BACHATA , SALSA),  FARCHELO –USA (BACHATA, SALSA)  
+
+
+  🔴 𝐋𝐈𝐍𝐄 𝐔𝐏 𝐈𝐍𝐒𝐓𝐑𝐔𝐂𝐓𝐎𝐑𝐒:
+
+  MARLEY & LEO (Venezuela; BACHATA), JIUVEL & VANESKA (Cuba y Venezuela, BACHATA y SALSA), OTHO & ANIE (Marrueco, Venezuela, BACHATA), JUAN & BEATRIZ (Venezuela, España, SALSA y BACHATA), JOSE Y THALIA (Venezuela y Cuba, SALSA), EDITH & HARVEY (Peru y Ecuador, SALSA) , FRANKELYN & MARCO (Venezuela y Peru, BACHATA) , ARACELY (Ecuador , SALSA) ,  IVANHOE (Venezuela, SALSA) , MANU (Rep Dominicana, BACHATA)
+
+
+  KIZOMBA & SEMBA ARTISTS
+
+  🔴 𝗟𝗜𝗡𝗘 𝗨𝗣 𝗗𝗝’𝗦
+
+  ZAY´X – 🇫🇷, SHARK - 🇪🇸,and many more
+
+  🔴 𝐋𝐈𝐍𝐄 𝐔𝐏 𝐈𝐍𝐒𝐓𝐑𝐔𝐂𝐓𝐎𝐑𝐒:
+
+  ALBIR ROJAS – 🇪🇸 (Kizomba fusion), TONY PIRATA – 🇨🇻 (Kizomba)
+
+  JOJO LPK - 🇫🇷 (Urban Kizz), FRED NELSON & MORGANE - 🇫🇷 (Influence Sensual Kizomba), AZZEDINE 🇫🇷 (Urban Kizz), STEPHANE - 🇫🇷 (Urban Kizz), KIZOMBA FR - 🇫🇷 (Kizomba/Semba), TONY & CARLA – 🇪🇸 (Kizomba/Semba/Afro House), and many more
+
+  ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
+
+  🔷 FULL PASS 🔷
+
+  Workshops + Social Dance + Shows + Open Room
+
+  🎫 To Reserve your Full Pass:
+
+  ► LA SALSA DEL BAILE. https://lasalsadelbaile.com/kizombaopenfestival24?ref=Europe
+
+  Once purchased you will recieve an email with your confirmation number, you must print and present it at the event with valid identification. *(Una vez realizada la compra, recibirás un correo electrónico con tu número de confirmación. Debes imprimirlo y presentarlo en el evento junto con una identificación válida.)*
+
+  📌 PASS TRANSFERS:
+
+  Refunds will not be issued for passes purchased but you can request a transfer to another person*:
+
+  1- Through www.lasalsadelbaile.com by selecting in the entry change of holder and activating the resale. Resale of tickets allows customers to from
+
+  2 -Through the promoter from which the entry
+
+  * costs of € 5 per name change.
+
+  Kizomba Open Festival passes that are won via raffles will only be eligible for transfer with a 45€ fee, for more information contact via email at kizombaopen@gmail.com.
+
+  ********************************************
+
+  🏣𝗛𝗼𝘁𝗲𝗹 𝗢𝗰𝗰𝗶𝗱𝗲𝗻𝘁𝗮𝗹 𝗔𝗿𝗮𝗻𝗷𝘂𝗲𝘇 ⭐⭐⭐⭐
+
+  ********************************************
+
+  ✅Located just 5 minutes by car from the historic center of Aranjuez and 30 minutes from Madrid.
+
+  ✅ with 168 rooms of modern and elegant design
+
+  ✅ 1.200 m2 spa with numerous treatments, hydrotherapy circuit and fitness area.
+
+  ✅ A la carte restaurant and buffet breakfast
+
+  ✅ Summer pool
+
+  ✅ Gym
+
+  ✅ paddle tennis
+
+  𝑳𝑶𝑪𝑨𝑻𝑰𝑶𝑵
+
+  𝘗𝘭. 𝘥𝘦 𝘭𝘢 𝘜𝘯𝘦𝘴𝘤𝘰, 2,
+
+  28300 𝘈𝘳𝘢𝘯𝘫𝘶𝘦𝘻, 𝘔𝘢𝘥𝘳𝘪𝘥
+
+  ✈ Adolfo Suárez Madrid-Barajas Airport at 60 km
+
+  🚆 Chamartín Station at 52.2 km
+
+  🚆Madrid Atocha Station at 44.5 km
+
+  🚗40.3962415, -3.7544330 at 30 minutes from Madrid
+
+  ◅▻◅▻◅▻◅▻◅▻◅▻◅▻◅▻◅▻◅▻◅
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417992/vlkeygcbmvjc6pyypa9e.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJgTwKgJcpQg0RaSKMYcHeNsQ
+international: No
+hash: 1729720800000+ChIJC5_luw0FQg0R-rkluihJ4r8
+viewsCount: 2
+id: H8h3Tbc1HXh5355wCcoQ

@@ -1,0 +1,123 @@
+endDate: 1711152000000
+sourceUrl: https://www.facebook.com/events/964607888418972/
+createdAt: 1710684370486
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710409990000
+updatedAt: 1710684370486
+importedAt: 1710684370486
+providerUpdatedAt: 1710409990000
+facebookId: "964607888418972"
+facebook: https://www.facebook.com/events/964607888418972/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/964607888418972/
+eventType: Party
+providerItemId: 10008583-1711065600-1711151999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Déryné Művelődési Jászberény, Lehel vezér tér 33., Jászberény, 5100,
+  Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711065600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Jászberény, Lehel vezér tér 33, 5100 Hungary
+  website: http://www.jaszberenyiprogramok.hu/helyszinek.php
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Déryné Rendezvényház
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.9115346197085
+        lat: 47.5008982197085
+      northeast:
+        lng: 19.9142325802915
+        lat: 47.5035961802915
+    location:
+      lng: 19.9128324
+      lat: 47.50222489999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "33"
+      long_name: "33"
+    - types:
+        - route
+      short_name: Lehel vezér tér
+      long_name: Lehel vezér tér
+    - types:
+        - locality
+        - political
+      short_name: Jászberény
+      long_name: Jászberény
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "5100"
+      long_name: "5100"
+  international_phone_number: +36 57 411 976
+  place_id: ChIJER6geRsHQUcR8z4RqQV9u-o
+  url: https://maps.google.com/?cid=16914250288784817907
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+link: ""
+description: |-
+  🌹🥀🪷🌺🌸🌼
+  „Mi az?” – kérdezte Vén Rigó.
+  „Tavasz” – felelt a Nap.
+  „Megjött?” – kérdezte Vén Rigó.
+  „Meg ám!” – felelt a Nap.
+  🌷🌹🥀🪷🌺🌸🌼
+
+  🔥🔥Dress Code: Tavasz színei🔥🔥
+
+  📌Időpont: 2024. március 22. Péntek 21:00
+  📌Helyszín: Déryné
+
+  Party belépő:
+  1500Ft
+
+  Az este során SALSA ruedák, animáció ééééés mindenféle táncos jó! 🙂
+
+  📫
+  info@dolce-dance.com
+  www.dolce-dance.com
+  +36305153951
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684387/rmrwd1dyeoovthb5rwpx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Tavaszváró🌷-Salsa & Sensual  Party- Jászberény
+online: No
+place: ChIJhYk1fE0GQUcRwBMeDCnEAAQ
+international: No
+hash: 1711134000000+ChIJER6geRsHQUcR8z4RqQV9u-o
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FIzXD1hqgcTzKh9lPMRb8.png?generation=1710684402299937&alt=media
+id: IzXD1hqgcTzKh9lPMRb8

@@ -1,0 +1,165 @@
+endDate: 1726271999000
+sourceUrl: https://www.facebook.com/events/7624961237606245/
+createdAt: 1725890443938
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725873820000
+updatedAt: 1725890443938
+importedAt: 1725890443938
+providerUpdatedAt: 1725873820000
+facebookId: "7624961237606245"
+facebook: https://www.facebook.com/events/7624961237606245/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/7624961237606245/
+eventType: Party
+providerItemId: 48042-1726185600-1726271999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Táncosok Klubja, Reitter Ferenc utca 27., Budapest, 1135, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726185600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Reitter Ferenc u. 27, 1135 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: dancers Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0822402197085
+        lat: 47.5258262697085
+      northeast:
+        lng: 19.0849381802915
+        lat: 47.5285242302915
+    location:
+      lng: 19.0836893
+      lat: 47.52714809999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "27"
+      long_name: "27"
+    - types:
+        - route
+      short_name: Reitter Ferenc u.
+      long_name: Reitter Ferenc utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1135"
+      long_name: "1135"
+  international_phone_number: +36 20 492 0500
+  place_id: ChIJmZtIN87bQUcRxyhcbu13Q9o
+  url: https://maps.google.com/?cid=15727546185350392007
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaLoversHU
+  name: SalsaLovers
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765537/wmoxkiglu83avols6rtp.jpg
+  bio: ""
+  id: 4N3tlm1Yrq8pFlrDyKFl
+  instagram: ""
+  username: SalsaLoversHU
+claimed: No
+link: https://www.facebook.com/SalsaLoversHU/
+description: >-
+  Megnyitjuk a szezont! A kedvenc helyünk, a kedvenc muzsikáink, a kedvenc
+  büfésünk, a kedvenc csapatunk és a kedvenc táncpartnereink, egy helyen. Együtt
+  egy új szezonban, ahogy szeretjük. Gyere és légy részese a bulinak, táncold át
+  az estét! 
+
+  Ez itt a nyitóbuli, és egy igazán ütős estével készülünk!
+
+
+  Program:
+
+  - salsa (nagyterem): 21.00 - 01.30
+
+  - bachata (kisterem): buli: 21:30 - 01.30
+
+
+  Zene:
+
+  - salsa: Adalberto, DJ Greg
+
+  - bachata: DJ Detre és vendégei
+
+
+  A helyszín a Táncosok Klubja, ahol számos produkció mellett a népszerű táncos tévéműsor fellépői is gyakorolnak. Megközelítés: A ház előtt áll meg a 20E, 30, 30A és a 230-as busz, az 1-es és a 14-es villamos 3 perc sétára van, parkolóhely 30m-re, a Szegedi úton bőséggel található (az udvarban nem lehet parkolni).
+
+
+  A belépő 3500 Ft.
+
+  A helyszínen büfé és ruhatár áll rendelkezésre. 
+
+
+
+  <EN>
+
+  Salsa & bachata party in Budapest, from 21:00 till 1:30. Location is easy to access via tram no.1 or 14 or buses. Spacy dance floors, skilled DJs and nice crowd, 100% dance!
+
+
+  <ES>
+
+  Fiesta de salsa y bachata, desde 21:00 a 1:30 en Budapest. La ubicación es de fácil acceso a través de los tranvías 1 o 14 o los autobuses.
+
+  Pistas de baile espaciosas, DJs expertos y buen público, ¡100% baile!
+
+
+
+  A Club Latino! bulin való részvétellel a résztvevő:
+
+  - elfogadja, hogy a rendezvényen kép és hangfelvétel készülhet, melyen való szerepléshez a hozzájárulását adja;
+
+  - elfogadja, hogy a rendezvény területére italt bevinni nem szabad, s elfogadja, hogy ezt a bejáratnál ellenőrzik;
+
+  - vállalja, hogy az értékeit a ruhatárban helyezi el, amennyiben ezeket mégis magánál tartja, elfogadja, hogy azokért a helyszín és a szervezők felelősséget nem vállalnak;
+
+  - vállalja, hogy a belépéskor kapott karszalagot a távozás pillanatáig magán tartja;
+
+  - kijelenti, hogy elfogadja és betartja a helyszín házirendjét. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890463/anua8vcjg3wva9i07gwc.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Club Latino! - Grand Opening Party - 100%salsa, 100% bachata
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1726254000000+ChIJmZtIN87bQUcRxyhcbu13Q9o
+viewsCount: 1
+id: ujvBaqELbJdHL1rRwqwc

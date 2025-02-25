@@ -1,0 +1,169 @@
+createdAt: 1704822886392
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/659811725971870/
+source: facebook
+updatedAt: 1704822886392
+username: wedancebot
+venue:
+  formatted_address: Upės g. 9, 09308 Vilnius, Lithuania
+  website: http://www.bachatavilnius.lt/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Bachata Vilnius
+  geometry:
+    viewport:
+      southwest:
+        lng: 25.2747370697085
+        lat: 54.6923433197085
+      northeast:
+        lng: 25.2774350302915
+        lat: 54.6950412802915
+    location:
+      lng: 25.2762247
+      lat: 54.6937645
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Upės g.
+      long_name: Upės gatvė
+    - types:
+        - locality
+        - political
+      short_name: Vilnius
+      long_name: Vilnius
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vilniaus apskr.
+      long_name: Vilniaus apskritis
+    - types:
+        - country
+        - political
+      short_name: LT
+      long_name: Lithuania
+    - types:
+        - postal_code
+      short_name: "09308"
+      long_name: "09308"
+  international_phone_number: +370 683 68381
+  place_id: ChIJLZs6Eo2V3UYRTcE5dUB1JS8
+  url: https://maps.google.com/?cid=3397250413625983309
+visibility: Public
+endDate: 1716267600000
+org:
+  owner: ""
+  importedAt: 1704822892927
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/vilniussalsafestival
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/314896517_552315933569046_9207327472951397661_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=596444&_nc_ohc=JzkfqKelxb8AX-symyA&_nc_ht=scontent-iad3-2.xx&oh=00_AfCh-G6iCSMOF-ilE1Rm9UxebV-CyQTpNeAkSvcJF9DrwQ&oe=65A2A97C
+  source: facebook
+  type: Organiser
+  createdAt: 1704822892927
+  owned: false
+  name: Vilnius Salsa Festival
+  place: ChIJ9QhkXPuT3UYRQNzpcIzRAAQ
+  updatedAt: 1704822892927
+  username: vilniussalsafestival
+claimed: No
+facebookId: "659811725971870"
+link: ""
+description: >-
+  We invite you to the 16th edition of International Vilnius Salsa Festival!
+
+
+  5 NIGHT parties (Salsa room / Sensual room, 1 room (Salsa) on Thursday and Monday)
+
+
+  >> DAY socials on Saturday and Sunday (music from vinyl)
+
+  >> Shows only on Saturday (music from vinyl)
+
+  >> Thursday and Monday parties will be held: T.Ševčenkos g. 16F.
+
+
+  Workshops with:
+
+  PANAGIOTIS & MYRTO (Greece)
+
+  SAMUEL & LISA (Germany)
+
+  MOE FLEX (UK)
+
+  SALSA ONE (Lithuania)
+
+  MARVIN & GINTARE (Lithuania)
+
+  SAMI RODRIGUEZ (Colombia)
+
+  ...others to be confirmed
+
+
+  DJS:
+
+  TULI (UK)
+
+  PATRICK EL CLASICO (Switzerland)
+
+  WILLY (The Netherlands)
+
+  LATIN MASTER (The Netherlands)
+
+  RANDY CASTILLA (Australia)
+
+  RAIN (Estonia)
+
+  THE JOKER IS WILD (Latvia)
+
+  DONI (Spain)
+
+  MINIS (Lithuania)
+
+
+  Photo/Video Team:
+
+  Iron Mambo
+
+  Wepa TV
+
+  Artur Ganaev
+
+
+  Tickets: https://salsafestival.lt/Tickets
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 16th Int'l Vilnius Salsa Festival
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ9QhkXPuT3UYRQNzpcIzRAAQ
+international: No
+hash: 1715886000000+ChIJLZs6Eo2V3UYRTcE5dUB1JS8
+startDate: 1715886000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVTDoaOmNypZwJxqB8xSm.png?generation=1704822906100628&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853293/azmtrpxiwwf7ozllcyxp.jpg
+viewsCount: 30
+id: VTDoaOmNypZwJxqB8xSm

@@ -1,0 +1,110 @@
+venue:
+  formatted_address: Klausenberg 6, 86199 Augsburg, Germany
+  website: https://www.parktheater.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Parktheater im Kurhaus Göggingen
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.8715483802915
+      south: 48.3401413197085
+      north: 48.34283928029149
+      west: 10.8688504197085
+    location:
+      lng: 10.8704091
+      lat: 48.34128399999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Klausenberg
+      long_name: Klausenberg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Göggingen
+      long_name: Göggingen
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86199"
+      long_name: "86199"
+  place_id: ChIJSantxJSinkcRivTx4_w7P_Q
+  url: https://maps.google.com/?cid=17599851826129269898
+  international_phone_number: +49 821 9062222
+endDate: 2022-05-08T22:23
+claimed: No
+link: https://www.salsafestival-augsburg.de/
+type: event
+promo: Yes
+duration: custom
+createdAt: 1650000489082
+artists: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1650000489082
+updatedBy: EGc3bwBVyKbLykwQMelFbftcIk32
+visibility: Public
+org:
+  role: organiser
+  name: "SalsaCandela "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+  username: SalsaCandela
+facebook: https://facebook.com/events/s/11salsafestival-augsburg-2022/604916909918360/
+eventType: Festival
+form: No
+createdBy: EGc3bwBVyKbLykwQMelFbftcIk32
+watch:
+  count: 1
+  list:
+    SalsaCandela: true
+name: "Salsa Festival Augsburg "
+online: No
+username: SalsaCandela
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F71569f57-b1d9-4b97-8aa0-95af8adcd432?alt=media&token=69d6b9d3-292e-4bd2-8ba2-455ad7e9bcec
+price: 70-150€
+styles:
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+id: zy3r8Wej20BjuuxZt5Od
+startDate: 2022-05-06T19:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fzy3r8Wej20BjuuxZt5Od.png?generation=1650000873054217&alt=media
+viewsCount: 43

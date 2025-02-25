@@ -1,0 +1,136 @@
+venue:
+  formatted_address: Zentnerstraße 39, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "39"
+      short_name: "39"
+    - types:
+        - route
+      long_name: Zentnerstraße
+      short_name: Zentnerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwabing-West
+      short_name: Schwabing-West
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80798"
+      short_name: "80798"
+  url: https://maps.google.com/?q=Zentnerstra%C3%9Fe+39,+80798+M%C3%BCnchen,+Germany&ftid=0x479e75dc25efb82b:0xf086b65e449cb796
+  name: Zentnerstraße 39
+  geometry:
+    viewport:
+      south: 48.1577258697085
+      north: 48.1604238302915
+      east: 11.5660363802915
+      west: 11.5633384197085
+    location:
+      lng: 11.564601
+      lat: 48.1590917
+  place_id: ChIJK7jvJdx1nkcRlrecRF62hvA
+endDate:
+  _seconds: 1632661200
+  _nanoseconds: 0
+link: https://www.facebook.com/events/1315787538854821
+description: >
+  In just two hours you will get an overview of some elements that belong to the
+  art of burlesque and practice them under the creative individual guidance of
+  Trixie Trouble.
+
+
+  ### These are:
+
+
+  Burlesque Basics: arms, torso, legs, burlesque walk & variations plus facial expressions/gestures. Bumps, Grinds & Shimmies.
+
+
+  ### About Trixie:
+
+
+  Quite early on, Trixie was captivated by the charm of old Hollywood musicals and vintage dance directions. This is how she discovered her passion.
+
+
+  Trixie Trouble is a professional burlesque dancer and added other vintage dances to her repertoire: Charleston, 1960's GoGo and Solo Blues.
+
+
+  She also teaches these in the Vintage Dance Studio Munich.
+
+
+  Instagram:
+
+  https://www.instagram.com/trixietrouble_/
+
+
+  Facebook:
+
+  https://www.facebook.com/trixietroublee
+type: event
+duration: "120"
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxEJ6sGgC3QZuLeoxKRYiKvMgUtj2%2F3e261c9c-1808-45dd-b251-83359a337e57?alt=media&token=aae3b96b-2b74-4484-9e9c-b8c7d1c5208d
+createdAt: 1632380868412
+watchersCount: 0
+price: 15EUR, Members of Community 7Eur
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdkjlJl1Ha2f8uBEmiDAZ.png?generation=1632381101798339&alt=media
+commentsLast: ~
+id: dkjlJl1Ha2f8uBEmiDAZ
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1632380868412
+updatedBy: xEJ6sGgC3QZuLeoxKRYiKvMgUtj2
+visibility: Public
+eventType: Workshop
+confirmation: Please reigster mymia.miamy@gmail.com or via Personal Message to
+  Marta Pihelgas (insta, facebook)
+organiser: mymiapeoplemunich
+form: Yes
+createdBy: xEJ6sGgC3QZuLeoxKRYiKvMgUtj2
+commentsCount: 0
+name: Burlesque with Trixie
+online: No
+styles:
+  Burlesque:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-09-26T11:00:00.000Z
+username: mymiapeoplemunich
+viewsCount: 43

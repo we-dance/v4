@@ -1,0 +1,150 @@
+endDate: 1729198800000
+sourceUrl: https://www.facebook.com/events/1224681648495804/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717403147000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727979585000
+facebookId: "1224681648495804"
+facebook: https://www.facebook.com/events/1224681648495804/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1224681648495804/
+eventType: Party
+providerItemId: e1224681648495804@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BACHATA TOUCAN FRINGANT CONNEXION
+location: 6 Quai de la Monnaie, 33800 Bordeaux, France
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729188000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 6 Quai de la Monnaie, 33800 Bordeaux, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 6 Quai de la Monnaie
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.5649288302915021
+        lat: 44.8330782697085
+      northeast:
+        lng: -0.562230869708498
+        lat: 44.83577623029149
+    location:
+      lng: -0.5636124000000001
+      lat: 44.83440419999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Quai de la Monnaie
+      long_name: Quai de la Monnaie
+    - types:
+        - locality
+        - political
+      short_name: Bordeaux
+      long_name: Bordeaux
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gironde
+      long_name: Gironde
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "33800"
+      long_name: "33800"
+  place_id: ChIJH__EsjQmVQ0RfgGLrIGa8W8
+  url: https://maps.google.com/?q=6+Quai+de+la+Monnaie,+33800+Bordeaux,+France&ftid=0xd552634b2c4ff1f:0x6ff19a81ac8b017e
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418001145
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bordeauxImmobilieretEvenements
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418001/aynx0aefbemqbbdilvfr.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418001145
+  owned: false
+  name: Bordeaux Connexion
+  place: ChIJgcpR9-gnVQ0RiXo5ewOGY3k
+  updatedAt: 1728418001145
+  username: bordeaux.connexion
+claimed: No
+link: ""
+description: >-
+  Rendez-vous Bachata avec une pincée de Kiz et de Salsa dans un tout nouveau
+  bar ultra stylé de Bordeaux 🔥🔥
+
+
+  2 cours pour vous 😍😍
+
+  20h00 - 21h00 cours débutant évolutif ♥️♥️
+
+  21h00 - 22h00 cours intermédiaire ♥️♥️
+
+  22h00 - 1h00 soirée ♥️♥️
+
+
+  Tarifs :
+
+  1 cours + soirée + happy hour  : 5 euros
+
+  2 cours + soirée + happy hour : 10 euros
+
+  Soirée seule : Free ou 3 euros sans cours pour soutenir l'asso et te permettre de bénéficier de l'happy hour TOUTE LA SOIREE sur tes consos 😍😍
+
+  Paiement espèces/Lydia/Paylib (pas de CB)
+
+
+  Lieu original, spacieux, sol et équipe au top 🔥🔥
+
+  HAPPY HOUR toute la soirée grâce à ton bracelet 🔥🔥
+
+  Playlist Bachata avec quelques Kiz et Salsa🔥🔥
+
+
+  Venez nombreux 🥰
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418002/ywdv9dfy6mdci4iepjea.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJgcpR9-gnVQ0RiXo5ewOGY3k
+international: No
+hash: 1729188000000+ChIJH__EsjQmVQ0RfgGLrIGa8W8
+viewsCount: 1
+id: fzuYCWD313lF3p84b0mp

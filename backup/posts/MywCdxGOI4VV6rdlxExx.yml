@@ -1,0 +1,95 @@
+venue:
+  formatted_address: Schönfeldstraße 17, 80539 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "17"
+      short_name: "17"
+    - types:
+        - route
+      long_name: Schönfeldstraße
+      short_name: Schönfeldstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80539"
+      short_name: "80539"
+  url: https://maps.google.com/?q=Sch%C3%B6nfeldstra%C3%9Fe+17,+80539+M%C3%BCnchen,+Germany&ftid=0x479e759246e94947:0xab45ffdf71d4bc39
+  name: Schönfeldstraße 17
+  geometry:
+    viewport:
+      south: 48.14427791970849
+      north: 48.14697588029149
+      east: 11.5843599802915
+      west: 11.5816620197085
+    location:
+      lng: 11.5830256
+      lat: 48.1456762
+  place_id: ChIJR0npRpJ1nkcRObzUcd__Ras
+endDate:
+  _seconds: 1642183200
+  _nanoseconds: 0
+claimed: Yes
+duration: 60
+promo: Yes
+createdAt: 1642084186746
+price: 0 EUR
+promoter: deepahegde
+updatedAt: 1642084186746
+updatedBy: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+visibility: Public
+eventType: Course
+organiser: deepahegde
+form: No
+createdBy: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+online: No
+styles:
+  IndianClassicalDance:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-01-14T18:00
+username: deepahegde
+id: MywCdxGOI4VV6rdlxExx
+website: https://www.deepahegde.com
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: event
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+name: Indian Classical Dance - Trial class
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F39464cfd-5a10-4454-b5f0-07306150f50d?alt=media&token=6168ff27-0484-42b5-be40-20e45166a9cb
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMywCdxGOI4VV6rdlxExx.png?generation=1642087333679169&alt=media
+viewsCount: 72

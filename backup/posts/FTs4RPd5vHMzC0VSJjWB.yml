@@ -1,0 +1,291 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/cracow-bachata-experience-2/
+sourceUrl: https://facebook.com/events/7620872917999876
+venue:
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - subpremise
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Kamienna
+      short_name: Kamienna
+      types:
+        - route
+    - long_name: Krowodrza
+      short_name: Krowodrza
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Kraków
+      short_name: Kraków
+      types:
+        - locality
+        - political
+    - long_name: Powiat Kraków
+      short_name: Powiat Kraków
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Województwo małopolskie
+      short_name: Województwo małopolskie
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Poland
+      short_name: PL
+      types:
+        - country
+        - political
+    - long_name: 30-001
+      short_name: 30-001
+      types:
+        - postal_code
+  formatted_address: Kamienna 2/4, 30-001 Kraków, Poland
+  geometry:
+    location:
+      lat: 50.0745722
+      lng: 19.9387874
+    viewport:
+      northeast:
+        lat: 50.0759100302915
+        lng: 19.9403364802915
+      southwest:
+        lat: 50.0732120697085
+        lng: 19.9376385197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +48 533 770 377
+  name: School Salsa LOFToDANCE Łukasz Raś
+  place_id: ChIJa6gpdi9bFkcRT7c0QMYlpFU
+  url: https://maps.google.com/?cid=6171098922815371087
+  website: https://loftodance.pl/
+endDate: 1748199600000
+claimed: No
+link: https://bit.ly/Tickets-CBEX25
+description: >-
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ Tickets: https://bit.ly/Tickets-CBEX25 ◀
+
+  ▶ Tickets PLN: https://bit.ly/Tickets-CBEX25PL ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ★ After 3 highly successful editions we proudly present you the 4th 🇪🇸 𝐁𝐚𝐫𝐜𝐞𝐥𝐨𝐧𝐚 𝐅𝐥𝐨𝐰 𝐄𝐝𝐢𝐭𝐢𝐨𝐧 🇪🇸 An UNIQUE mix of International Bachata Couples from Barcelona that are bringing their own unique style and FLOW to the beautiful city of Cracow! 🇵🇱
+
+
+  ★ Cracow Bachata Experience is a partnership between Crazy Lion Events & LOFToDANCE.
+
+
+  ✪ What to expect ✪
+
+  ★ International & National artists in Sensual & Fusion style
+
+  ★ +15h Workshops and Party Workshops
+
+  ★ 2 Big parties (fri+sat)
+
+  ★ International DJs
+
+  ★ Event with international dancers
+
+  ★ Jack & Jill Competition with GRAND Prizes
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ ARTISTS, DJs & PHOTO/VIDEO ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✦ International Bachata Artists ✦
+
+  ✪ Adrian Ros & Klau (PT/PL)
+
+  ✪ Alonso & Noelia (ES)
+
+  ✪ Masa Jose & Polina (JP/PL)
+
+  ✪ Sorush & Elise (SE/EE)
+
+  ✪ Lukasz & Ewa (PL)
+
+  ✪ More to be announced...
+
+
+  ✦ MEDIA ✦
+
+  ✪ To be Announced...
+
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ TICKETS & PURCHASE INFO ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✦ PASSES ✦
+
+  ✪ Super Blind Bird - 60€ (SOLD OUT)
+
+  ✪ Blind Bird - 65€ (SOLD OUT)
+
+  ✪ Super Early Bird - 70€ (SOLD OUT)
+
+  ✪ Super Blind Bird - 75€
+
+
+  ✪ Party Pass - April 2025
+
+
+  ✪ Tickets €€: https://bit.ly/Tickets-CBEX25
+
+  ✪ Tickets PLN: https://bit.ly/Tickets-CBEX25PL
+
+
+  ✦ Prices of all types of tickets are at above link. Find your local promoter for your Promo code! Promo code only works for Fullpass and Couple passes. Not Early Bird or Party Pass.
+
+
+  ✦ TICKET POLICY: Tickets are non-refundable and purchases are final. We do not have any cancellation terms for purchases made online. We do offer the opportunity to sell tickets and change the name of the passes for a 5€ Name Change fee. Name Change policy is only possible for Fullpass & Party Pass, not for single day passes, masterclasses and single party tickets.
+
+
+  ✦ Payment methods:
+
+  ▸ Ticketlink: https://bit.ly/Tickets-CBEX25
+
+  ▸ Tickets PLN: https://bit.ly/Tickets-CBEX25PL
+
+  ▸ Card/Stripe: By Default
+
+  ▸ Paypal: By Request
+
+  ▸ Revolut: By Request
+
+  ▸ Swish: By Request
+
+  ▸ Int. Bank Transfer: By Request
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ Tickets: https://bit.ly/Tickets-CBEX25 ◀
+
+  ▶ Tickets PLN: https://bit.ly/Tickets-CBEX25PL ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ VENUE & HOTELS ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✦ Official Venue ✦
+
+  ✪ LOFToDANCE Lukasz Ras
+
+  Address: Kamienna 2-4, 30-001 Cracow, Poland
+
+
+  ✦ Recommended Hotels ✦
+
+  Soon
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ DRESSCODES ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✦ Dresscodes ✦
+
+  ✪ Friday: 
+
+  ✪ Saturday: 
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ POFILE FRAME ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✪ Show to your friends that you are going to be part of our festival
+
+  and/or going to compete in the J&J by sharing customized profile frame!
+
+
+  ✪ Get "I'M GOING" frame:
+
+  ✪ Get "I'M COMPETING" frame: 
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ TRAVEL, TRANSFERS & OTHER ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✈️️ International Travellers info ✈️️
+
+  Main airport: KRK - Krakow
+
+  2nd Airport: KTW - Katowice (connects with train/bus)
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ Tickets: https://bit.ly/Tickets-CBEX25 ◀
+
+  ▶ Tickets PLN: https://bit.ly/Tickets-CBEX25PL ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  For any other questions or inquiries please contact:
+
+  ☛ Crazy Lion Events / LOFToDANCE
+
+  ☛ Mail: events@crazylion.online / info@loftodance.pl
+
+
+  Organised by: Crazy Lion Events + LOFToDANCE
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/o37jd2lrxsyjybct0whe.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ0RhONcBEFkcRv4pHdrW2a7Q
+international: No
+visibility: Public
+org:
+  id: Zh5GanmqVnE3PMa9wEWx
+  username: crazylionevents
+  name: Crazy Lion Events
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718460057/bge96k4pzhze9ofbak1h.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/crazylionevents
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/7620872917999876/
+facebookId: "7620872917999876"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Cracow Bachata Experience 4th "Barcelona Flow Edt" || 23-25th May 2025
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1748030400000+ChIJa6gpdi9bFkcRT7c0QMYlpFU
+startDate: 1748030400000
+id: FTs4RPd5vHMzC0VSJjWB

@@ -1,0 +1,159 @@
+createdAt: 1732274190606
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+updatedBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+username: Djobi_bachata
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+sourceUrl: https://www.facebook.com/events/1272041900538062/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22create_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D&onload_action=open_invite_flow&show_created_event_toast=true
+viewsCount: 1
+claimed: No
+description: >-
+  The Roaring 20s 2024 Silvester party
+
+  Celebrate the end of 2024 with us! Join the DJ OBI SILVESTER GALA and get access to an unforgettable party.
+   
+  - Tuesday, 31st December:
+
+  BACHATA & Zouk
+
+  Party Theme: The Roaring 20s
+
+  Time: 20:00 - OPEN END
+
+  Price Online: 30 €
+
+  Price at door: 35 €
+   
+  Step back in time and ring in the New Year with style! As we reach the middle of the decade, we’re celebrating like it’s 100 years ago – with all the glitz, glamour, and excitement of the Roaring 20s. Dress to impress, hit the dance floor, and join us for an unforgettable night of celebration! 🥂✨
+   
+  DJ Obi 20s Silvester Gala:
+
+  Dress to impress in your finest 1920s-inspired attire and join us for an unforgettable night of celebration. We are looking forward to:
+   
+  - A complimentary Pre-Party Workshop
+
+  - A New Year's Champagne Shower
+
+  - The best Lady Styling Show in Munich
+   
+  All for just €30. Club members enjoy a special price of only €20. The party start at 20:00 with the pre-party workshop.  Let’s end the year on a high note and welcome the new one with even more energy!       
+   
+  #DanceMarathon   #NewYearsEveInMunich  
+program: []
+source: facebook
+type: event
+international: No
+visibility: Public
+org:
+  id: YxOKMghjaZH86CW9bo85
+  username: obaid.rahimi
+  name: Obaid Rahimi
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1729854480/j9zn7yxprdklhblgzlpp.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/pfbid02evW777YEaWpp8R46jhrnS9ZrTaLYMjHzgYuMcCSTXY8Aduew5Zw8hpc7AwHJqHJMl
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1272041900538062/
+facebookId: "1272041900538062"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Bachata Silvester 20s Gala
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1735671600000+ChIJnwr0yvV1nkcR2kdAim8pDB8
+startDate: 1735671600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732274203/sjod7lllkxbkqgzy9fqt.jpg
+artists:
+  - id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+    username: Djobi_bachata
+    name: Dj Obi
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+    bio: Best Bachata DJ In Town 😎🎛️
+    instagram: https://instagram.com/djobi_bachata
+    facebook: https://www.facebook.com/people/Bachata-Obi-Lara/pfbid0QEijFSwsTyiafXHPZcjR3k3mQe7UK7x7FC5nZuEPiC8LCbKUJ8AiBhWmPFSU3RLcl/
+    tiktok: ""
+    youtube: ""
+artistsList:
+  - Djobi_bachata
+duration: .nan
+venue:
+  website: http://www.kult-tanzschule.de/
+  url: https://maps.google.com/?cid=2237208673933871066
+  geometry:
+    location:
+      lat: 48.13758809999999
+      lng: 11.5698826
+    viewport:
+      northeast:
+        lng: 11.5708628802915
+        lat: 48.1390149802915
+      southwest:
+        lng: 11.5681649197085
+        lat: 48.1363170197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  international_phone_number: +49 89 44313886
+  address_components:
+    - long_name: 15A
+      types:
+        - street_number
+      short_name: 15A
+    - long_name: Neuhauser Straße
+      types:
+        - route
+      short_name: Neuhauser Str.
+    - short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      types:
+        - locality
+        - political
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - short_name: BY
+      long_name: Bayern
+      types:
+        - administrative_area_level_1
+        - political
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  name: The KULT TANZSCHULE in ADTV
+  username: kulttanz
+endDate: .nan
+price: 30.00EUR
+coverSize: horizontal
+link: http://www.bachata-sensual.party/silvester
+id: kryWHzDNdv6mqOKVlsmT
+updatedAt: 1732274272752

@@ -1,0 +1,158 @@
+importedAt: 1708510542555
+providerUpdatedAt: 1705886828000
+endDate: 1711368000000
+facebookId: "730385065400051"
+facebook: https://www.facebook.com/events/730385065400051/
+facebookUrlsList:
+  - https://www.facebook.com/events/730385065400051/
+eventType: Festival
+createdAt: 1708510542555
+providerItemId: e730385065400051@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: KIZBOMBA Urbankiz Festival 2024 - REVERSE Edition (Official)
+location: Best Western Smart Hotel
+styles:
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1680026931000
+startDate: 1711119600000
+facebookUrlsCount: 1
+updatedAt: 1708510542555
+username: Aina
+venue:
+  formatted_address: Nordring 4, 2334 Vösendorf, Austria
+  website: https://www.bestwestern.at/cgi-bin/WebObjects/BestWestern.woa/4/wa/goToRooomSelect?hotel=89146&iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:89146
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Best Western Smart Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3186035197085
+        lat: 48.1123528697085
+      northeast:
+        lng: 16.3213014802915
+        lat: 48.1150508302915
+    location:
+      lng: 16.3199766
+      lat: 48.11381799999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Nordring
+      long_name: Nordring
+    - types:
+        - locality
+        - political
+      short_name: Vösendorf
+      long_name: Vösendorf
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mödling
+      long_name: Mödling
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Niederösterreich
+      long_name: Niederösterreich
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "2334"
+      long_name: "2334"
+  international_phone_number: +43 1 6992601
+  place_id: ChIJ9xmm-yqvbUcRD48hjTKnwlw
+  url: https://maps.google.com/?cid=6684088632529227535
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizombachatacongress
+  name: Roma Sensual Symposium
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953626/btz81ibxvsk0wkenawh9.jpg
+  bio: ""
+  id: xDMCSLDCRRC9O9VRUjvL
+  instagram: ""
+  username: kizombachatacongress
+claimed: No
+link: https://www.dizizid.com/events-registration/index.html?officeId=250
+description: |
+  Urbankiz is taking over 💣 It is time for a turn around 🔝🔝
+  🔄🔄🔄 REVERSE edition 🔄🔄🔄
+
+  Let us blow your mind with the Urbankiz line-up:
+
+  THE GODFATHERS:
+  🎧 DJ SNAKES
+  🎧 DJ STEFANIO LIMA
+
+  DJs:
+  🎧 DJ BARTEF
+  🎧 DJ TRAYBEATZ
+  🎧 DJ F.A.Z.E
+  🎧 DJ EDDY
+  🎧 DJ LUCKY LUX
+
+  TEACHERS:
+  ★ ☆ SANJAY MJ
+  ★ ☆ KALYPSO & ADE
+  ★ ☆ MICHAEL & ANIKA
+  ★ ☆ AJDA & MARKUS
+  ★ ☆ EDDY & RITA
+  ★ ☆ VIKTOR & VICKY
+
+  OFFICIAL VIDEOGRAPHER:
+  📸 Farantini Photography
+  📸 Scarlat Bianka Photography
+
+  🏩🏨 ALL IN ONE VENUE 🏩🏨
+  ⚜ BEST WESTERN SMART HOTEL ⚜
+
+  HIGHLIGHTS:
+  🛡 Workshops with international instructors.
+  🛡 🔝🔝 🎧DJ's playing your favorite music
+  🛡🔊🎶 UrbanKiz/Tarraxo/Ghetto Zouk/Afrohouse
+  🛡🔊🎶 3 night parties
+  🛡🔊🎶 3 afternoons of socials
+
+  Book your room now: 
+  🟣https://kizbomba.smarthotel.wien/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708510554/wydkbcjdisnpd1wkbw5x.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJqz5toDGpbUcR9CkBfA-RKQ0
+international: No
+hash: 1711119600000+ChIJ9xmm-yqvbUcRD48hjTKnwlw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fctj7jbcsQAGnojCpDRVT.png?generation=1708510578926856&alt=media
+viewsCount: 14
+id: ctj7jbcsQAGnojCpDRVT

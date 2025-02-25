@@ -1,0 +1,37 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1629027303040
+locales:
+  de: true
+createdBy: bgUUWsNrfFOOVjhFOJ9PuPjNss62
+pwaUsed: false
+name: Heidi
+username: heidihatz
+gender: Female
+cities:
+  ChIJRT-OUSTMl0cRh-YGpHr-5LE: true
+place: ChIJRT-OUSTMl0cRh-YGpHr-5LE
+step: photo
+updatedAt: 1629027364603
+lastLoginAt: 1630770103840
+daysUsed: 2
+hometown: ChIJRT-OUSTMl0cRh-YGpHr-5LE
+partner: No
+learning: Musicality, Styling, Footwork
+permission: Yes
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: Yes
+id: bgUUWsNrfFOOVjhFOJ9PuPjNss62

@@ -1,0 +1,177 @@
+endDate: 1712442600000
+sourceUrl: https://www.facebook.com/events/1076324540122603/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1710282340000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710282340000
+facebookId: "1076324540122603"
+facebook: https://www.facebook.com/events/1076324540122603/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1076324540122603/
+eventType: Party
+providerItemId: e1076324540122603@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: ✰ ★ ✰►Havana Night - Die Cuban Latin Party◄✰ ★ ✰
+location: Casa Cultural / Bremen
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712431800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Bürgermeister-Smidt-Straße 55-61, 28195 Bremen, Germany
+  website: http://www.casa-cultural.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Casa Cultural Bremen e.V.
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.804386069708498
+        lat: 53.0802032197085
+      northeast:
+        lng: 8.807084030291502
+        lat: 53.0829011802915
+    location:
+      lng: 8.8055986
+      lat: 53.0816768
+  address_components:
+    - types:
+        - street_number
+      short_name: 55-61
+      long_name: 55-61
+    - types:
+        - route
+      short_name: Bürgermeister-Smidt-Straße
+      long_name: Bürgermeister-Smidt-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28195"
+      long_name: "28195"
+  international_phone_number: +49 421 68552733
+  place_id: ChIJyZ_4GBQosUcRchXSnbLZYdU
+  url: https://maps.google.com/?cid=15375809963994781042
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/DjNelly.net
+  name: Dj Nelly
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224686/ugnxwcfoxmvjcg7oisx1.jpg
+  bio: ""
+  id: PcZyn3nGzlSLhHFizV9E
+  instagram: ""
+  username: DjNelly.net
+claimed: No
+link: ""
+description: >-
+  "Havana Night - Die Cuban Latin Party"
+
+  ist keine unbekannte Party mehr in Bremen.
+
+
+  Havana Night bedeutet Spaß, Fun, Rhythmus.
+
+
+  Und nun kommt endlich wieder der 6. April und bringt vielen Highlight mit sich!
+
+
+  Mit DJ Nelly, DJ Rodry und alles seinen Freunden feier wir groß.....
+
+  Gestartet wird ab 21:30 Uhr die eigentliche Cuban-Latin Party zu heißen Rhythmen wie Salsa,Timba, Bachata, Merengue, Reggaeton, Kizomba und Latin Pop auf 2 Areas.
+
+
+  AREA 1 (DJ NELLY): Salsa, Son, Timba, Merengue, Reggaeton, Latin Pop.
+
+  AREA 2 (DJ RODRY): Bachata, Kizomba, Zouk
+
+
+  SPECIALS‼️‼️‼️:
+
+  ⭐ANIMATION....
+
+  ⭐ RUEDA DE CASINO FÜR ALLE
+
+  ⭐DIE ERSTEN 100 GÄSTE ERHALTEN EIN HAVANA CLUB SCHNAPS GRATIS.
+
+  ⭐ 20:30 Uhr Open level Salsa Kursen‼️‼️‼️:
+
+  ⭐ An der Bar werdet ihr mit Erfrischungen HAPPY HOUR COKTEILS versorgt ( BIS 23:00 Uhr)
+
+
+  Lasst Euch dieses feurige Ereignis nicht entgehen und feiert mit uns bis in die Morgenstunden.
+
+
+  Eintritt 10 EUR.
+
+  Ladies Frei bis 22:30 Uhr.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224715/vgi5wte3qwr6wjr0vmya.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+hash: 1712431800000+ChIJyZ_4GBQosUcRchXSnbLZYdU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F5nhZgv4gIBsZzYL8Mp2Q.png?generation=1711224736656047&alt=media
+id: 5nhZgv4gIBsZzYL8Mp2Q

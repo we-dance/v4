@@ -1,0 +1,184 @@
+createdAt: 1704822880233
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/623459846034390/
+source: facebook
+updatedAt: 1704822880233
+username: wedancebot
+venue:
+  formatted_address: 14 Street, Dubai Investment Park - قرية المجتمع الخضراء - DIP
+    1 - دبي - United Arab Emirates
+  website: https://www.millenniumhotels.com/en/dubai/copthorne-lakeview-hotel/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Copthorne Lakeview Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: 55.16356861970849
+        lat: 25.00228786970851
+      northeast:
+        lng: 55.16626658029149
+        lat: 25.00498583029151
+    location:
+      lng: 55.16487369999999
+      lat: 25.0036076
+  address_components:
+    - types:
+        - neighborhood
+        - political
+      short_name: DIP 1
+      long_name: DIP 1
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: قرية المجتمع الخضراء
+      long_name: قرية المجتمع الخضراء
+    - types:
+        - locality
+        - political
+      short_name: دبي
+      long_name: دبي
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: دبي
+      long_name: دبي
+    - types:
+        - country
+        - political
+      short_name: AE
+      long_name: United Arab Emirates
+  international_phone_number: +971 4 885 2222
+  place_id: ChIJIX408tZzXz4RzmZHoxteCOQ
+  url: https://maps.google.com/?cid=16431486713257748174
+visibility: Public
+endDate: ""
+org:
+  owner: ""
+  importedAt: 1704822888973
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bks.dxb
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/327266323_1155616948475246_4893377559644519973_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=hSAu-Dq4h0EAX_ZZzsR&_nc_ht=scontent-iad3-1.xx&oh=00_AfCAIw5bNWcztkFaQvKjfZ1EXYgiz9VBE1OP8VJIS_U_Og&oe=65A31A09
+  source: facebook
+  type: Organiser
+  createdAt: 1704822888973
+  owned: false
+  name: Bachata Kizomba Salsa Dubai
+  place: ChIJ2YA6kZRyXz4RLpCyB1-U3y0
+  updatedAt: 1704822888973
+  username: bks.dxb
+claimed: No
+facebookId: "623459846034390"
+link: https://www.latincrazytribe.com/event-details/latin-crazy-tribe-dance-festival-april-11-15-2024-2
+description: >+
+  YESS!!! The 3rd Edition of the LATIN CRAZY TRIBE DANCE FESTIVAL IS BACK!! 
+
+
+  An unforgettable event with with amazing Bachata , Salsa and Kizomba artists!!! Workshops to level up your dance style
+
+
+  ✪✪✪✪✪WHAT IS COMING✪✪✪✪✪
+
+
+  ★ 3rd Edition festival geared towards best quality and experience in Dubai;
+
+
+  ★ 3 dance styles: Bachata, Kizomba, Salsa.
+
+
+  ★ 1 location – large dance floors catering to the main dance style;
+
+
+  ★ 30+workshops from the best world-class instructors;
+
+
+  ★ 40+ hours of great parties
+
+
+  ★ PRE OPENING ARABIAN DHOW PARTY;
+
+
+  ★ Experience the shine and dazzle of DUBAI
+
+
+  ★ Build new connection and find new friends. Explore why Dubai is the DANCE HUB of the Middle East.
+
+
+  GET YOUR FULL PASS NOW 
+
+
+  ARTIST LINE UP : 
+
+
+  ✪✪✪✪✪BACHATA✪✪✪✪✪
+
+
+  KIKE & NAHIR 
+
+  MELVIN & GATICA 
+
+  SAJ & EMI
+
+
+  ✪✪✪✪✪SALSA✪✪✪✪✪
+
+
+  ADRIAN & ANITA
+
+  PANAGIOTIS & MYRTO 
+
+  ALINA IOANA
+
+
+  ✪✪✪✪✪KIZOMBA✪✪✪✪✪
+
+
+  MASTER LOKITO
+
+  SANJAY MJ
+
+  DJ ICHIGO
+
+
+
+  More artists to be added ..
+
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Dubai Latin Crazy Tribe Festival 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2YA6kZRyXz4RLpCyB1-U3y0
+international: No
+hash: 1712847600000+ChIJIX408tZzXz4RzmZHoxteCOQ
+startDate: 1712847600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fg7njORfAaXKG0PaiGwjI.png?generation=1704822918509784&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853432/dvndwmcm0tcjhumtagvz.jpg
+viewsCount: 22
+id: g7njORfAaXKG0PaiGwjI

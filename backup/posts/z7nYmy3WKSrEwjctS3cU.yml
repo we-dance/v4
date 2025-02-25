@@ -1,0 +1,128 @@
+isNew: true
+facebookId: "8331469176967549"
+facebookUrlsList:
+  - https://facebook.com/events/s/spooky-sunday-fiesta/8331469176967549/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729346426287
+updatedAt: 1729346426287
+importedAt: 1729346426287
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerItemId: 68qj0o9g6comab9j6pi38b9k6grj2bb161gjebb16oq38c1i6cpm4p33ck@google.com
+name: Spooky Sunday Fiesta!!!
+providerCreatedAt: 1729291581000
+providerUpdatedAt: 1729291581000
+startDate: 1730055600000
+endDate: 1730070000000
+sourceUrl: https://facebook.com/events/s/spooky-sunday-fiesta/8331469176967549/
+location: Hotel Preston by Marriott
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: yatusabes.blog
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+venue:
+  address_components:
+    - long_name: "4901"
+      short_name: "4901"
+      types:
+        - street_number
+    - long_name: West Plano Parkway
+      short_name: W Plano Pkwy
+      types:
+        - route
+    - long_name: Plano
+      short_name: Plano
+      types:
+        - locality
+        - political
+    - long_name: Collin County
+      short_name: Collin County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Texas
+      short_name: TX
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "75093"
+      short_name: "75093"
+      types:
+        - postal_code
+  formatted_address: 4901 W Plano Pkwy, Plano, TX 75093, USA
+  geometry:
+    location:
+      lat: 33.0173729
+      lng: -96.79398169999999
+    viewport:
+      northeast:
+        lat: 33.01874743029149
+        lng: -96.7928030697085
+      southwest:
+        lat: 33.0160494697085
+        lng: -96.7955010302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 972-867-8000
+  name: Courtyard Dallas Plano Parkway at Preston Road
+  place_id: ChIJS1ZYmLIjTIYR_YrNJ5lDuZE
+  url: https://maps.google.com/?cid=10500498331267861245
+  website: https://www.marriott.com/en-us/hotels/dalpn-courtyard-dallas-plano-parkway-at-preston-road/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+visibility: Public
+org:
+  id: vjeY5amALZXcr0dwE6H0
+  username: NashvilleRueda
+  name: Nashville Rueda
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711819726/w4rqklidfl3noaep20ze.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/NashvilleRueda
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/8331469176967549/
+link: ""
+description: >-
+  We will be hosting a special Halloween themed social on Oct. 27th at the Pool
+  House of Hotel Preston 733 Briley Pkwy Nashville TN 37217 from 2-6pm. Dress up
+  in your favorite costume or orange and black! The restaurant  is  open for
+  brunch, lunch and dinner! Enjoy the food and drinks to support this beautiful
+  venue (restaurant will open at 11am). The Pool House is located downstairs and
+  to the left from the Blackwood Restaurant.
+
+  Rueda de Casino class 2-3pm and social dancing 3-6pm. Let's dance the afternoon away to the best mix of Salsa,Bachata and Timba! 
+
+  Minimum suggested $5 donation
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729346438/wgpwxcxialvybcmgpxn2.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ""
+international: No
+hash: 1730055600000+ChIJS1ZYmLIjTIYR_YrNJ5lDuZE
+id: z7nYmy3WKSrEwjctS3cU

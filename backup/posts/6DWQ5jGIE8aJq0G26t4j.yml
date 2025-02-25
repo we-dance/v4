@@ -1,0 +1,121 @@
+endDate: 1727481599000
+sourceUrl: https://www.facebook.com/events/1018958019967237/
+createdAt: 1727100040655
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1727083711000
+updatedAt: 1727100040655
+importedAt: 1727100040655
+providerUpdatedAt: 1727083711000
+facebookId: "1018958019967237"
+facebook: https://www.facebook.com/events/1018958019967237/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1018958019967237/
+eventType: Party
+providerItemId: 48261-1727395200-1727481599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Kossuth Művelődési Központ, Kossuth tér 5/a, Cegléd, 2700, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1727395200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Cegléd, Kossuth tér 5/a, 2700 Hungary
+  website: http://www.cegledikultura.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kossuth Theater
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.7926405197085
+        lat: 47.1678707197085
+      northeast:
+        lng: 19.7953384802915
+        lat: 47.1705686802915
+    location:
+      lng: 19.7937846
+      lat: 47.169197
+  address_components:
+    - types:
+        - street_number
+      short_name: 5/a
+      long_name: 5/a
+    - types:
+        - route
+      short_name: Kossuth tér
+      long_name: Kossuth tér
+    - types:
+        - locality
+        - political
+      short_name: Cegléd
+      long_name: Cegléd
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2700"
+      long_name: "2700"
+  international_phone_number: +36 53 505 041
+  place_id: ChIJj59SRvRwQUcRX28APqTkd8k
+  url: https://maps.google.com/?cid=14517323317918068575
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+link: ""
+description: |-
+  🔥🔥Szezonnyító🔥🔥 PARTY Cegléd
+
+  ⏰Időpont: 2024. szeptember 27. péntek 20:00
+  📍Helyszín: Kossuth Művelődési Központ
+
+  Workshop:
+  20:00-21:00  Kubai Salsa /minden szint/
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+  Party:
+  21:00-tól
+
+  Party belépő 🎫🎫
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+
+  ✆ +36 30 5153951
+  ✉ info@dolce-dance.com
+  web: www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727100060/kuz4lvuzi3fb6p4fhzdr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa&Sensual party - Cegléd
+online: No
+place: ChIJJz8s-PNwQUcR5xLqGJk726E
+international: No
+hash: 1727460000000+ChIJj59SRvRwQUcRX28APqTkd8k
+id: 6DWQ5jGIE8aJq0G26t4j

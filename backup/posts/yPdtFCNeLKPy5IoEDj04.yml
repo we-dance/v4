@@ -1,0 +1,105 @@
+venue:
+  formatted_address: Novi Sad, Serbia
+  name: Novi Sad
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 19.93143084547652
+      south: 45.22092406527938
+      north: 45.32197865859539
+      west: 19.76745131891694
+    location:
+      lng: 19.8227056
+      lat: 45.2396085
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: NS
+      long_name: Novi Sad
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: South Backa District
+      long_name: South Backa District
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vojvodina
+      long_name: Vojvodina
+    - types:
+        - country
+        - political
+      short_name: RS
+      long_name: Serbia
+  place_id: ChIJVTTpPWEQW0cRKP4kN2h9bws
+  url: https://maps.google.com/?q=Novi+Sad,+Serbia&ftid=0x475b10613de93455:0xb6f7d683724fe28
+claimed: No
+link: https://tiktik.xeco.be/purchaseTicket.xhtml?id=1643743575137&casa=64e43k3l77&papel=1465&la=hggf9&fbclid=IwAR1v8OzFQv2aGoiCxUN51mvljSAd91Gl_JEJtoAsfzkSRvDiM8mFQ7pVcjc
+description: ""
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGdYrl8WJ4FQ0uGsbCbMAtAG8qkw2%2F5d87899c-4601-43d5-affd-e656312a5ad3?alt=media&token=6aa9c75c-6a13-4dff-a778-a6f1e908f8ba
+promo: Yes
+createdAt: 1658323858749
+artists: []
+artistsList: []
+place: ChIJVTTpPWEQW0cRKP4kN2h9bws
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/246560154143238
+eventType: Festival
+form: No
+createdBy: GdYrl8WJ4FQ0uGsbCbMAtAG8qkw2
+name: Faith Connect Serbian Sensual Festival
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-10-06T16:00
+username: FaithConnect
+watch:
+  count: 0
+  list: {}
+endDate:
+  _seconds: 1665068400
+  _nanoseconds: 0
+price: 90 EUR
+id: yPdtFCNeLKPy5IoEDj04
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: FaithConnect
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGdYrl8WJ4FQ0uGsbCbMAtAG8qkw2%2F54c770a2-6988-40ad-a467-d0796af7e537?alt=media&token=57f79174-67be-4a55-a456-9e1774048dc2
+  bio: Bachata Kizomba KizombaFusion instructors. Regular & private classes
+  instagram: https://www.instagram.com/faith_connect_zoran_andjela/
+  id: GdYrl8WJ4FQ0uGsbCbMAtAG8qkw2
+  username: FaithConnect
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyPdtFCNeLKPy5IoEDj04.png?generation=1658330053177776&alt=media
+star:
+  count: 0
+  list: {}
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1661039016233
+telegram: {}
+viewsCount: 48

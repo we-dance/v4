@@ -1,0 +1,155 @@
+venue:
+  formatted_address: Munich, Germany
+  website: https://www.muenchen.de/sehenswuerdigkeiten/orte/120242.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: English Garden
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6476866
+      south: 48.11393819999999
+      north: 48.21752780000001
+      west: 11.5631446
+    location:
+      lng: 11.6055522
+      lat: 48.16423229999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Munich
+      long_name: Munich
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Upper Bavaria
+      long_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bavaria
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  international_phone_number: +49 89 38666390
+  place_id: ChIJayv4lZd1nkcR0e_vfGLfm8k
+  url: https://maps.google.com/?cid=14527450637109555153
+  username: www.muenchen.desehenswuerdigkeiten/orte/120242.html
+endDate: 1712419200000
+claimed: No
+description: >-
+  Join us this Saturday in the English Garden for an afternoon filled with
+  vibrant Timba rhythms under the sun! 🌞
+
+
+  🌡 Weather Forecast: 26°C and sunny
+
+
+  Let's make the most of this beautiful weather! Bring along your favorite food and drinks to share. Get ready to dance, relax, and enjoy great company!
+
+
+  See you there!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F2ab27cf4-1c3a-4e71-92d4-da86cbb2b8fb?alt=media&token=fe939566-f121-4f36-966a-bc878fe08ef8
+createdAt: 1712266083908
+price: FREE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Party
+confirmation: "[Join our WhatsApp
+  group](https://chat.whatsapp.com/KyW6BO5sakz7uePgChzjbZ) for exact location."
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Timba Picnic
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712404800000
+hash: 1712404800000+ChIJayv4lZd1nkcR0e_vfGLfm8k
+username: alexrazbakov
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana. Join our WhatsApp group.
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  instagram: https://instagram.com/MontunoClub
+  username: MontunoClub
+id: ws8OmHhJf0XhpCDdXKZE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fws8OmHhJf0XhpCDdXKZE.png?generation=1712266858535361&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C5WuJumLuAl
+  publishedAt: 1712266894756
+  messageId: C5WuJumLuAl
+  state: published
+promotionError: ""
+promotion: completed
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    bio: |-
+      Founder of WeDance.
+      Senior Fullstack Developer.
+      Salsa Instructor @MontunoClub
+      DJ @salsa.cubana.munich
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    instagram: https://instagram.com/alexrazbakov
+    username: alexrazbakov
+artistsList:
+  - alexrazbakov
+updatedAt: 1712316059141
+bookmarks: 1
+star:
+  count: 5
+  usernames:
+    - alexrazbakov
+    - Joantorsiello
+    - Ieva__Kim
+    - aleksei_sh
+    - Jessi
+  history:
+    - username: alexrazbakov
+      date: 1712268079331
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Joantorsiello
+      date: 1712309271302
+      invitedBy: ""
+      uid: LypeMZXMMRQTE9IPEbdFV8XdStK2
+      action: joined
+    - username: Ieva__Kim
+      date: 1712314486493
+      invitedBy: ""
+      uid: xvpDfrhO4AgIge1wOCiKod6aJHE3
+      action: joined
+    - username: aleksei_sh
+      date: 1712334565667
+      invitedBy: ""
+      uid: KqAuNX9JqfTxnPT39cIu4Ma14Xv2
+      action: joined
+    - username: Jessi
+      date: 1723976741524
+      invitedBy: ""
+      uid: DbzXnJzGUrgzXumzF40cGnBf7aJ2
+      action: joined
+viewsCount: 48

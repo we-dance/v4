@@ -1,0 +1,205 @@
+createdAt: 1730917813843
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+sourceUrl: https://www.facebook.com/events/540797568541924
+viewsCount: 1
+endDate: 1740934800000
+claimed: No
+link: ""
+description: >-
+  Deutsch
+
+  English
+
+  Liebe Freunde der kubanischen Salsa und Lebensfreude.
+
+  Die Vorfreude auf das große Arrasando Cuban Afro-Salsa Festival vom 28. Februar bis 02. März 2025 kann starten. 
+
+  Wir werden wieder Weltklasse-Künstler und ausgewählte DJs dabei haben, um Euch ein unvergessliches Wochenende zu bereiten. Es erwartet Euch ein familiäres Ambiente voller Sympathie, Lebensfreude und kubanischem Feeling.
+
+  Ein Top-Workshop-Programm für alle Liebhaber von Afro Cubano und Salsa Cubana und anderen kubanisch geprägten Tänzen wartet auf Euch - dieses Jahr wieder mit vielen Schwerpunkten zu den Ursprüngen kubanischer Kultur. 
+   Wir freuen uns auf ein einzigartiges Kuba-Wochenende mit Euch. Lasst Euch von der einzigartigen Atmosphäre inspirieren…
+
+  Mit dabei sind diesmal z. B.
+
+
+  ★Yorgenis „Yoyo“ Danger, 
+
+  ★Fredy „Fredyclan“ Garcia, 
+
+  ★Laine Quesada,
+
+  ★Juan Carlos, 
+
+  ★Jetzenia Ligonde
+
+  ★Leonardo Frometa
+
+  ★Leydis Teodoro
+
+  ★Julia Montesinos
+
+  ★Renier Sarria Smidt
+
+  ★Angela Rodriguez
+
+  ★Kenny Moreira
+
+
+  Lasst Euch überraschen. Lest weitere Infos und bucht Eure Tickets jetzt auf www.arrasandofestival.de.
+
+
+  Viele Grüße,
+
+  Euer Arrasando Festival Team
+
+
+  ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+
+  Dear friends of the Cuban salsa and joie de vivre.
+
+  The anticipation for the big Arrasando Cuban Afro-Salsa Festival from 28th Februar to 02th of March 2025 can start. 
+   We will have world class artists and selected DJs here to give you an unforgettable weekend. You can expect an ambience full of familiar Cuban feeling, sympathy and joy of life.
+  A top workshop program for all lovers of afro Cubano and salsa Cubana is waiting for you - this year again with a focus on the origins of the Cuban culture. We are looking forward to a unique Cuban weekend with you. Let inspire you by the unique atmosphere…
+
+
+  This time we are awaiting e.g.
+
+
+  ★Yorgenis „Yoyo“ Danger, 
+
+  ★Fredy „Fredyclan“ Garcia, 
+
+  ★Laine Quesada,
+
+  ★Juan Carlos 
+
+  ★Jetzenia Ligonde
+
+  ★Leonardo Frometa
+
+  ★Leydis Teodoro
+
+  ★Julia Montesinos
+
+  ★Renier Sarria Smidt
+
+  ★Angela Rodriguez
+
+  ★Kenny Moreira
+
+
+  Let surprise you. Get more information and book your tickets on www.arrasandofestival.de now.
+
+
+  Best regards,
+
+  Yours Arrasando Festival Team.
+program: []
+source: facebook
+type: event
+artists: []
+price: ""
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/540797568541924/
+facebookId: "540797568541924"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+hash: 1740751200000+ChIJyZ_4GBQosUcRchXSnbLZYdU
+startDate: 1740751200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730917826/r9cgsxfftdjxmfgufrkd.jpg
+org:
+  id: URLidC1xFzEc7vWlLsAo
+  username: arrasandofestival
+  name: Arrasando Cuban Afro-Salsa Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1730917823/okznate1epirpimo07jo.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/arrasandofestival
+  tiktok: ""
+  youtube: ""
+duration: 3060
+venue:
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  place_id: ChIJyZ_4GBQosUcRchXSnbLZYdU
+  address_components:
+    - long_name: 55-61
+      types:
+        - street_number
+      short_name: 55-61
+    - types:
+        - route
+      long_name: Bürgermeister-Smidt-Straße
+      short_name: Bürgermeister-Smidt-Straße
+    - long_name: Mitte
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - short_name: Bremen
+      types:
+        - administrative_area_level_3
+        - political
+      long_name: Bremen
+    - long_name: Bremen
+      types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "28195"
+      short_name: "28195"
+      types:
+        - postal_code
+  formatted_address: Bürgermeister-Smidt-Straße 55-61, 28195 Bremen, Germany
+  geometry:
+    location:
+      lat: 53.0816768
+      lng: 8.8055986
+    viewport:
+      southwest:
+        lat: 53.0802046197085
+        lng: 8.804381269708498
+      northeast:
+        lng: 8.807079230291503
+        lat: 53.0829025802915
+  name: Casa Cultural Bremen e.V.
+  international_phone_number: +49 421 68552733
+  website: http://www.casa-cultural.de/
+  url: https://maps.google.com/?cid=15375809963994781042
+  username: www.casa-cultural.de
+artistsList: []
+id: 0kRErhCDo7mnnUxQh2ns
+name: Arrasando Cuban Afro-Salsa Festival 2025
+styles:
+  Salsa:
+    highlighted: false
+    level: Interested
+    selected: true
+  Casino:
+    selected: true
+    highlighted: false
+    level: Interested
+  AfroCuban:
+    selected: true
+    highlighted: false
+    level: Interested
+updatedAt: 1730917949667

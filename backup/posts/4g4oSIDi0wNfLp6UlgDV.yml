@@ -1,0 +1,183 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/world-bachata-festival-melbourne/
+sourceUrl: https://facebook.com/events/3783268161941379
+venue:
+  address_components:
+    - long_name: "1022"
+      short_name: "1022"
+      types:
+        - street_number
+    - long_name: Whitehorse Road
+      short_name: Whitehorse Rd
+      types:
+        - route
+    - long_name: Box Hill
+      short_name: Box Hill
+      types:
+        - locality
+        - political
+    - long_name: Whitehorse City
+      short_name: Whitehorse
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Victoria
+      short_name: VIC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Australia
+      short_name: AU
+      types:
+        - country
+        - political
+    - long_name: "3128"
+      short_name: "3128"
+      types:
+        - postal_code
+  formatted_address: 1022 Whitehorse Rd, Box Hill VIC 3128, Australia
+  geometry:
+    location:
+      lat: -37.819205
+      lng: 145.126622
+    viewport:
+      northeast:
+        lat: -37.8177225697085
+        lng: 145.1279422802915
+      southwest:
+        lat: -37.8204205302915
+        lng: 145.1252443197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png
+  international_phone_number: +61 3 9262 6243
+  name: Box Hill Town Hall
+  place_id: ChIJwX4S1q9A1moRTNr2CnFPSTg
+  url: https://maps.google.com/?cid=4055860286357690956
+  website: https://www.boxhilltownhall.com.au/
+endDate: 1751212800000
+claimed: No
+link: https://www.trybooking.com/events/landing/1252397?fbclid=PAZXh0bgNhZW0CMTEAAabzLQhrLnX_hknWmK9tH-ncGZtffengWXvh5C8tNCrQAxB2OSGBONXZn3A_aem_PLNuoFAqBYNsKa4eNRsS5w
+description: >
+  World Bachata Festival Melbourne- THE BIGGEST BACHATA DANCE EVENT IN Melbourne
+
+  Dancers and artists from all over the world under one roof for an epic weekend.
+
+  Don't miss the opportunity to learn from each of these experienced and skillful artists.
+
+  WBFM is offering over 30 workshops, 3 day performances and 3 social parties till 2am
+
+  Check out the below confirmed artists and book your tickets today!!!
+
+
+  👉 𝐂𝐎𝐍𝐅𝐈𝐑𝐌𝐄𝐃 𝐀𝐑𝐓𝐈𝐒𝐓𝐒: 
+
+
+  International Artist
+
+
+  Korke & Judith (Spain)
+
+  Frank Santos & Natali (Dominican Republic)
+
+  Antoni & Belen (Spain)
+
+  Mr Don ( Chile)
+
+
+  Local & Interstate Artist
+
+
+  Julian zhu & Caroline Tatter (New Zealand & Australia)
+
+  Vishu Yemula & Shannell Gagliardi (India & Australia)
+
+  Nisal Viraj & Louisa Brown (Sri Lanka & Australia)
+
+  Eric & Meilin (Melbourne, Australia)
+
+  Elyse & Chris (Sydney, Australia)
+
+  Julian & Kiki (Melbourne, Australia)
+
+  Kylie Clark (Sydney, Australia)
+
+  Ieva & Thari (Sydney/Melbourne, Australia)
+
+  Tanvi Mittal (Melbourne, Australia)
+
+  Nix Matt (Melbourne, Australia)
+
+  Justin ( Sydney, Australia)
+
+  Poorang(Melbourne, Australia)
+
+  Tomas & Marta (Melbourne, Australia)
+
+  Paula ( Melbourne, Australia)
+
+  Monika (Melbourne, Australia)
+
+  Axly ( Auckland, New Zealand ) and more
+
+
+  Live Performance 
+
+  Mr Don 
+
+
+
+  CONFIRMED DJ's:
+
+
+  DJ Sanchal (Melbourne, Australia)
+
+  DJ Papi Ruso ( Melbourne, Australia )
+
+  DJ Panda( Melbourne, Australia )
+
+  DJ Leonard (Newzealand)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/okhstkfaf9lfcsvtvmwf.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJW3YfKsnmdUgRd3yjBusTsxI
+international: No
+visibility: Public
+org:
+  createdAt: 1732293946138
+  importedAt: 1732293946138
+  updatedAt: 1732293946138
+  source: facebook
+  name: World Bachata Festival Melbourne
+  facebook: https://www.facebook.com/WBFMELBOURNE
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/vsj9htn8omrhkibxogfz.jpg
+  username: WBFMELBOURNE
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJW3YfKsnmdUgRd3yjBusTsxI
+facebook: https://www.facebook.com/events/3783268161941379/
+facebookId: "3783268161941379"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "WORLD BACHATA FESTIVAL MELBOURNE "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1751014800000+ChIJwX4S1q9A1moRTNr2CnFPSTg
+startDate: 1751014800000
+id: 4g4oSIDi0wNfLp6UlgDV

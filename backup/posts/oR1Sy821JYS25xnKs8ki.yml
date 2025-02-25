@@ -1,0 +1,156 @@
+endDate: 1713625200000
+sourceUrl: https://www.facebook.com/events/756015589497856/
+createdAt: 1711220914623
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1708299541000
+updatedAt: 1711220914623
+importedAt: 1711220914623
+providerUpdatedAt: 1708299541000
+facebookId: "756015589497856"
+facebook: https://www.facebook.com/events/756015589497856/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/756015589497856/
+eventType: Party
+providerItemId: e756015589497856@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 4th VIENNA TRADITIONAL BACHATA WEEKEND
+location: MaXX-Sportcenters
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1713614400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Jedlersdorfer Str. 94, 1210 Wien, Austria
+  website: http://maxx-sportcenters.info/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: MaXX Sportcenter
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.40285206970849
+        lat: 48.2734415197085
+      northeast:
+        lng: 16.4055500302915
+        lat: 48.2761394802915
+    location:
+      lng: 16.4046092
+      lat: 48.2746883
+  address_components:
+    - types:
+        - street_number
+      short_name: "94"
+      long_name: "94"
+    - types:
+        - route
+      short_name: Jedlersdorfer Str.
+      long_name: Jedlersdorfer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Floridsdorf
+      long_name: Floridsdorf
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1210"
+      long_name: "1210"
+  international_phone_number: +43 1 29240400
+  place_id: ChIJed03gdAFbUcRmT3YeMKfcq0
+  url: https://maps.google.com/?cid=12498227573506456985
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/billiesstudio
+  name: Billie's Studio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953782/usge2gczgseaj57yumxe.png
+  bio: ""
+  id: 5jW6gCaAbWO0r7ebEXGb
+  instagram: ""
+  username: billies.studio
+claimed: No
+link: ""
+description: >-
+  Bachateros!
+
+
+  On the 20th of April 2024, we have our 4th edition of the VIENNA DOMINICAN BACHATA WEEKEND.🙂
+
+
+  The registration has started! Get your spot via:
+
+  https://billiesstudio.com/bachata/
+
+
+  Program:
+
+  14h Dominican Bachata Footwork
+
+  15h Dominican Bachata Partnerwork
+
+  16h Break
+
+  17h Musicality in Footwork & Partnerwork
+
+
+  Price:
+
+  Special price for the first 10 passes: 59 eur
+
+  Early bird, until 2.04.2024: 69 eur
+
+  From the 3.04.2024: 79 eur
+
+
+  LOCATION: MAXX SPORTSCENTER, 21st district
+
+  Don't miss this 🙂
+
+
+  We are looking forward to seeing you on the 20th of April!
+
+  Billie's Studio 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711220929/xvsliwtn3g0krlznmh78.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1713614400000+ChIJed03gdAFbUcRmT3YeMKfcq0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FoR1Sy821JYS25xnKs8ki.png?generation=1711220949451341&alt=media
+id: oR1Sy821JYS25xnKs8ki

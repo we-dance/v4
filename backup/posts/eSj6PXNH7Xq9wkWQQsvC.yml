@@ -1,0 +1,182 @@
+endDate: 1729389600000
+sourceUrl: https://www.facebook.com/events/1228109298238946/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1726478621000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726754427000
+facebookId: "1228109298238946"
+facebook: https://www.facebook.com/events/1228109298238946/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1228109298238946/
+eventType: Party
+providerItemId: e1228109298238946@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Diversão Kizomba Monthly Party with DJ Miro Kikola & Dj Fofucho 🔥☄️
+location: 44 Brixton Road, London
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729368000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 44 Brixton Rd, London SW9 6BT, UK
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 44 Brixton Rd
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.113137930291502
+        lat: 51.47814141970851
+      northeast:
+        lng: -0.110439969708498
+        lat: 51.48083938029151
+    location:
+      lng: -0.1118945
+      lat: 51.4794864
+  address_components:
+    - types:
+        - street_number
+      short_name: "44"
+      long_name: "44"
+    - types:
+        - route
+      short_name: Brixton Rd
+      long_name: Brixton Road
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: SW9 6BT
+      long_name: SW9 6BT
+  place_id: ChIJM-iXGIwEdkgRp2cmVmbZbH0
+  url: https://maps.google.com/?q=44+Brixton+Rd,+London+SW9+6BT,+UK&ftid=0x4876048c1897e833:0x7d6cd966562667a7
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417994717
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Divers%C3%A3o-Nights/100083006507691/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417995/dtab3u5ckga23jiiehas.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417994717
+  owned: false
+  name: Diversão Nights
+  updatedAt: 1728417994717
+  username: Divers%C3%A3oNights
+claimed: No
+link: ""
+description: >
+  🚨 ANOTHER MONTH, ANOTHER PARTY AND MANY MORE MEMORIES TO MAKE TOGETHER🥰 
+
+  We had a great time last month! Thank you all for your support! Many thanks for the beautiful vibes ♥️♥️ 
+
+
+  DIVERSÃO is just simply the place to be 🤩
+
+  With your friends or Family 🫶🏼  
+
+
+  ✖️Amazing music played by the best Djs that we can find for you, amazing atmosphere and vibes! 🔥
+
+  - The best Playground for dancers!
+
+
+  Teachers: 
+
+  Manon Batrel 🇫🇷 🇬🇧 
+
+  Rico Suave 🇬🇼 🇵🇹 
+
+
+  DJS 🎵🎤:
+
+  DJ FOFUCHO 🇦🇴 🇬🇧 
+
+  DJ MIRO KIKOLA 🇦🇴 🇬🇧 
+
+
+  Dress Code: CHIC/ANIMAL PRINT
+
+
+  🎬 Program:
+
+  ▫️9:00pm - Doors open. 
+
+  ▫️9:30pm - Class Starts (Kizomba Open Level).
+
+  ▫️ 10:30pm - Party Starts.
+
+  ▫️3am - Party Finishes.
+
+
+  📍 🗺- Adulis 44-46 Brixton Rd, SW9 6BT
+
+
+  👉🏼 💷 Prices: 
+
+  Pre-Booking⤵️ NEW👇🏼
+
+  £10 until Friday 4th of October !
+
+  £12 until Wednesday 16th of October.
+
+  £15 on the door. 
+
+
+
+  ‼️ MANDATORY Cloak Room. 
+   In order to unsure seats availability, cloak room will now be mandatory.
+  In case of any bags/phone or jackets left unattended should get stolen, we will not be able to be held responsible. 
+
+
+  👉🏼 Contact/Pre-Booking: 
+
+  Payment Link( No account/No sign-up needed) https://revolut.me/manon15pg
+
+  Please add your name as a reference!!
+
+
+  📱Manon +44 7375 290969
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417996/jooe857zjlgchq5f8efw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1729368000000+ChIJM-iXGIwEdkgRp2cmVmbZbH0
+id: eSj6PXNH7Xq9wkWQQsvC

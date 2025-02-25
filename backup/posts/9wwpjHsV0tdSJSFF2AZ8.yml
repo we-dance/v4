@@ -1,0 +1,130 @@
+venue:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  website: http://www.maillingerstudios.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Maillinger Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5473257802915
+      south: 48.1478957697085
+      north: 48.1505937302915
+      west: 11.5446278197085
+    location:
+      lng: 11.5458639
+      lat: 48.1492179
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  international_phone_number: +49 89 36108944
+  place_id: ChIJc2-q5aJ3nkcRNdDDt759ZMA
+  url: https://maps.google.com/?cid=13863343811033550901
+endDate: 2023-06-11T19:45
+claimed: No
+description: >-
+  Do you want to learn how to dance salsa and hang out with nice people? Then
+  join us! Free trial-lesson is available. 
+
+  www.lipka-dance.com
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FcH2e6osrc2OHaCr2khIXd56KMRE2%2F904d1108-8ef5-4f11-95de-e7f5f40b3c14?alt=media&token=38912de0-116b-4a42-a55f-b8242b9385d7
+createdAt: 1686079060297
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1686079060297
+updatedBy: cH2e6osrc2OHaCr2khIXd56KMRE2
+visibility: Public
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: ""
+  name: Lipka Dance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FcH2e6osrc2OHaCr2khIXd56KMRE2%2Fbe59c6da-f57e-4d18-9a99-9d853a56465e?alt=media&token=e7865343-0070-4c26-9568-b9c207632c82
+  bio: salsa cuban style
+  id: cH2e6osrc2OHaCr2khIXd56KMRE2
+  instagram: ""
+  username: LipkaDance
+eventType: Course
+confirmation: Thank you for joining the guest list. In order to register for the
+  class, please fill out the registration form on www.lipka-dance.com
+form: No
+createdBy: cH2e6osrc2OHaCr2khIXd56KMRE2
+watch:
+  count: 1
+  list:
+    LipkaDance: true
+name: salsa lesson (beginner level)
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-11T18:45
+username: LipkaDance
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9wwpjHsV0tdSJSFF2AZ8.png?generation=1686235806292358&alt=media
+telegram:
+  requestedAt: 1686235810151
+  messageUrl: https://t.me/WeDanceMunich/1115
+  publishedAt: 1686235814625
+  messageId: 1115
+  state: published
+instagram:
+  requestedAt: 1686235816496
+  messageUrl: https://instagram.com/p/CtO712WrWvC
+  publishedAt: 1686235832426
+  messageId: CtO712WrWvC
+  state: published
+viewsCount: 53
+id: 9wwpjHsV0tdSJSFF2AZ8

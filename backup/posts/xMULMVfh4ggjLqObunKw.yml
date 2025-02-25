@@ -1,0 +1,117 @@
+venue:
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  website: http://www.salsaclub-munich.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17045066792704937237
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.1337356697085
+      north: 48.1364336302915
+      east: 11.5813150302915
+      west: 11.5786170697085
+    location:
+      lng: 11.5799762
+      lat: 48.1351326
+  international_phone_number: +49 172 8533891
+  place_id: ChIJi9k-sAF2nkcRFQ38d_A9jOw
+endDate:
+  _seconds: 1632528000
+  _nanoseconds: 0
+link: https://www.eventbrite.co.uk/e/bachata-sensual-party-tickets-173464144927
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTwFolAExNhgDzb6xIbYEmYwwsYo1%2F2f8b4678-0c88-49c5-b3e6-7d1c02ed0dcf?alt=media&token=15f57d4e-120b-40d0-90bf-e0dd66cad979
+promo: Yes
+duration: "300"
+createdAt: 1632168852683
+watchersCount: 0
+price: "10"
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxMULMVfh4ggjLqObunKw.png?generation=1632169002674863&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: xMULMVfh4ggjLqObunKw
+views: 8
+updatedAt: 1632168852683
+updatedBy: TwFolAExNhgDzb6xIbYEmYwwsYo1
+visibility: Public
+eventType: Party
+organiser: obaidr
+form: Yes
+createdBy: TwFolAExNhgDzb6xIbYEmYwwsYo1
+commentsCount: 0
+name: Bachata sensual Indoor Party
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachatango:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-09-24T19:00:00.000Z
+username: obaidr
+viewsCount: 37

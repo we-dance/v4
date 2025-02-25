@@ -1,0 +1,139 @@
+venue:
+  formatted_address: Schillerstraße 10, 80336 München, Germany
+  website: https://www.awa-hotel.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: AWA Hotel GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5623338802915
+      south: 48.1369230197085
+      north: 48.1396209802915
+      west: 11.5596359197085
+    location:
+      lng: 11.5608601
+      lat: 48.1382789
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Schillerstraße
+      long_name: Schillerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  international_phone_number: +49 89 904218585
+  place_id: ChIJEQbQNvh1nkcRtlhNL_ia03I
+  url: https://maps.google.com/?cid=8274127331145898166
+endDate: 2023-09-03T05:00
+claimed: No
+description: |+
+  DJ VALET (Paris)
+  DJ LONGCHAMP (Munich)
+
+  WIN A FULLPASS for :
+  KIZ 'N YOU NON STOP NANCY (15.09-18.09)
+  KIZINVAZION FRANKFURT (29.09-02.10) 
+
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZ8T3ohZhdEODNme2AoD68u8LOdh2%2F17ade534-8f09-441f-9b32-1a6d29783fc7?alt=media&token=46b8d1f7-8da3-4a56-9a46-cebab0d701b6
+createdAt: 1692974465686
+playlist: https://soundcloud.com/dj-valet
+artists: []
+price: 20 EUR (Regular) / 15 EUR (Student)
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://www.facebook.com/media/set/?set=a.140911135540972&type=3
+updatedAt: 1692974465686
+updatedBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bolingo.gomez.7
+  name: Bobby SweetKiz (Dj Longchamp)
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf1c740b-0a89-4522-bb95-0dbfd4c3aae4?alt=media&token=1e3e6c30-33d0-474f-8365-add5b7bd1417
+  bio: Aus Kamerun. Seit 17+ Jahre in Deutschland. Mit Zouk, Afro Zouk und Kompa
+    aufgewachsen.
+  id: Z8T3ohZhdEODNme2AoD68u8LOdh2
+  instagram: https://www.instagram.com/bobbysweetkiz
+  username: MingaKizz
+facebook: https://fb.me/e/1efCtIFrJ
+eventType: Party
+form: No
+createdBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+watch:
+  count: 1
+  list:
+    MingaKizz: true
+name: MINGA KIZZ PALACE - KIZ´N YOU NON STOP & KIZOMBAINVASION FANKFURT EDITION
+online: No
+styles:
+  Compas:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-09-02T22:00
+username: MingaKizz
+telegram:
+  requestedAt: 1692974476899
+  state: requested
+instagram:
+  requestedAt: 1692974480938
+  state: requested
+viewsCount: 51
+id: Xgk7ZfVD2FNfI6q81kmk

@@ -1,0 +1,136 @@
+createdAt: 1704426594440
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1704426594440
+username: alexrazbakov
+venue:
+  formatted_address: Pilgerhausstraße 24, 86152 Augsburg, Germany
+  website: http://www.emilito.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Cuban Salsa Power
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.9018115197085
+        lat: 48.36894256970849
+      northeast:
+        lng: 10.9045094802915
+        lat: 48.37164053029149
+    location:
+      lng: 10.9031288
+      lat: 48.37021269999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Pilgerhausstraße
+      long_name: Pilgerhausstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Augsburg-Innenstadt
+      long_name: Augsburg-Innenstadt
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86152"
+      long_name: "86152"
+  international_phone_number: +49 162 5280617
+  place_id: ChIJ3SG4iVW9nkcRooPTwmWtRHA
+  url: https://maps.google.com/?cid=8089781483236197282
+visibility: Public
+endDate: 1706369400000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/cubansalsapower
+  name: Cuban Salsa Power Augsburg
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fac94a25d-0f79-411e-8fb8-6376ae41f865?alt=media&token=cafa8ba9-1653-46eb-bc74-e18e67b70a7d
+  bio: >-
+    Kurse Montag-Sonntag ⤵️ Link
+
+    ✨#Salsa , #Bachata Sensual/Dominicana, #Kizomba, Lady & Man Style, Rumba, Son, #Reggaeton, Afro, Timba, Fusion Movement✨
+  id: KZ74NUaRBZCMjZEKc0pL
+  instagram: https://instagram.com/cubansalsapower
+  username: cubansalsapower
+claimed: No
+facebook: https://www.facebook.com/events/2017794425272329/
+link: https://www.emilito.de/produkt/cuban-bootcamp/
+description: >-
+  Der Name Yeni Molinet steht für sich. Eine bekannte kubanische Tänzerin,
+  direkt in Augsburg in unserer Tanzschule! 
+
+  Freu dich auf Energiegeladene, didaktisch super Stunden!
+
+
+  ⭐️ 13.00 Uhr: Afro Movement
+
+  ⭐️ 14.15 Uhr: Rumba Guaguanco
+
+  ⭐️ 15.30 Uhr: Timba
+
+
+  Dauer der Kurseinheit: je 60 min.
+
+
+  Und am Abend ab 21.00 Uhr Party mit DJ El Gato Volador aus Italien. Ebenso feiern wir an dem Abend unser 21jähriges Jubiläum und Emilitos Geburtstag.
+
+
+  Eintritt auf der Party:
+
+  ⭐️  5 Euro für CSP-Schüler und Bootcamp-Teilnehmer
+
+  ⭐️  8 Euro für alle Interessenten
+
+
+  Wir freuen uns auf ein tanzreiches Wochenende mit euch!
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Cuban Bootcamp mit Yeni Molinet & Übungsabend
+online: No
+styles: {}
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+international: No
+startDate: 1706356800000
+cover: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/412899294_831443945659491_4063589541523409031_n.jpg?stp=dst-jpg_p180x540&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WGJvuehKG6oAX_rZeED&_nc_ht=scontent-iad3-2.xx&oh=00_AfCBM3ajswO3uWfAXFWmv6LpiASTwUI1hXJdNBDsNHy1wA&oe=659C1E44
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FH9ehL9Xm0d61axYeu3nH.png?generation=1704426607783957&alt=media
+facebookId: "2017794425272329"
+hash: 1706356800000+ChIJKSshOsWinkcRoOeL161IHgQ
+viewsCount: 11
+id: H9ehL9Xm0d61axYeu3nH

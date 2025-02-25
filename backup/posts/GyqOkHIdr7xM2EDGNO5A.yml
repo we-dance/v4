@@ -1,0 +1,133 @@
+artists: []
+program: []
+artistsList: []
+createdAt: 1729782546178
+updatedAt: 1729782546178
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+username: DjLole
+type: event
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+visibility: Public
+form: No
+online: No
+international: No
+claimed: No
+eventType: Party
+duration: 330
+price: 150 / 200 CZK
+styles:
+  Salsa:
+    selected: true
+    highlighted: false
+    level: Interested
+  Bachata:
+    selected: true
+    highlighted: false
+    level: Interested
+cover: ""
+org:
+  username: DjLole
+watch:
+  count: 1
+  list:
+    DjLole: true
+coverSize: ""
+name: SALSA Y BACHATA
+venue:
+  html_attributions: []
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: "75"
+      short_name: "75"
+      types:
+        - premise
+    - long_name: Francouzská
+      short_name: Francouzská
+      types:
+        - route
+    - long_name: Vinohrady
+      short_name: Vinohrady
+      types:
+        - neighborhood
+        - political
+    - long_name: Praha 2
+      short_name: Praha 2
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Czechia
+      short_name: CZ
+      types:
+        - country
+        - political
+    - long_name: 120 00
+      short_name: 120 00
+      types:
+        - postal_code
+  formatted_address: Francouzská 75/4, 120 00 Praha 2-Vinohrady, Czechia
+  geometry:
+    location:
+      lat: 50.07448289999999
+      lng: 14.4377882
+    viewport:
+      south: 50.07319481970849
+      west: 14.4365014197085
+      north: 50.07589278029149
+      east: 14.43919938029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  international_phone_number: +420 606 824 005
+  name: OX Club Prague
+  place_id: ChIJ16701LWVC0cR-Fl5rtkFzxA
+  url: https://maps.google.com/?cid=1211193257279183352
+  website: https://www.oxclubprague.com/
+  username: www.oxclubprague.com
+startDate: 1729884600000
+endDate: 1729904400000
+hash: 1729884600000+ChIJ16701LWVC0cR-Fl5rtkFzxA
+link: https://www.facebook.com/events/1261527955071613
+description: >-
+  We dance because it makes us happy! ❤️‍🔥
+
+  This dance party has only music from South America and Happy attitude towards dance. Join us, make new friends and learn to dance for happiness.
+
+
+  🎧 Music by dj Lole
+
+
+  💄 Be yourself with touch of elegance
+
+  💃 Dance level: Enjoy 💋
+
+
+  🔸Get your tickets On-line! Best deal
+
+  🎟️ ATP (cash) until 23:30 150,- After 23:30 200,-
+
+
+  📍 Ox Club Lounge (-1 floor)
+
+  Lets enjoy the party with the passion we share for dance together 💃 The party will feature dance styles that are commonly danced in South America. Latin music only.
+
+
+  ❤️‍🔥 BONUS FOR VISITORS ❤️‍🔥
+
+  You will get unique discount code for tickets of our Latino Halloween on November 1st! You will get the code at the entrance.
+
+  ❗️Check our instagram account @vida.latina.prg
+viewsCount: 1
+id: GyqOkHIdr7xM2EDGNO5A

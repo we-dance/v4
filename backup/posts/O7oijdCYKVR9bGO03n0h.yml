@@ -1,0 +1,129 @@
+createdAt: 1704426864928
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+venue:
+  formatted_address: Augsburg Bohus Center, Halderstraße 29, 86150 Augsburg, Germany
+  website: http://www.baila-augsburg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: ¡baila! - social dance studio; Ariel Lopez & Sofia de Endaya GbR
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.8869013197085
+        lat: 48.36386796970849
+      northeast:
+        lng: 10.8895992802915
+        lat: 48.36656593029149
+    location:
+      lng: 10.88823
+      lat: 48.36509299999999
+  address_components:
+    - types:
+        - premise
+      short_name: Augsburg Bohus Center
+      long_name: Augsburg Bohus Center
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Halderstraße
+      long_name: Halderstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Augsburg-Innenstadt
+      long_name: Augsburg-Innenstadt
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86150"
+      long_name: "86150"
+  international_phone_number: +49 1520 8409533
+  place_id: ChIJuU6OLXy9nkcR8KCqqKg0ekY
+  url: https://maps.google.com/?cid=5078429428802560240
+visibility: Public
+endDate: 1705773600000
+claimed: No
+facebook: https://www.facebook.com/events/940597451045429/
+link: https://share.fitogram.pro/baila---social-dance-studio?w=%2Fevent%2Ff2caafe5-aef5-4878-9a48-4e8104ab0740
+description: >
+  Tauche ein in die Welt von Female Jazz, einem Tanzstil, der Eleganz, Ausdruck
+  und Weiblichkeit vereint. Der Jazztanz zeichnet sich durch fließende aber
+  ausdrucksstarke Bewegungen, sinnliche Rhythmen und kreative Improvisation aus.
+  In diesem Kurs stehen Weiblichkeit und Empowerment im Mittelpunkt, während
+  moderne Musik die Energie liefert. 
+
+  Egal, ob du Anfängerin oder Fortgeschrittene bist, dieser offene Workshop lädt alle ein, gemeinsam in einer berauschenden Atmosphäre ihre individuelle Tanzsprache zu entfalten. 
+
+  Sei dabei und entdecke die Leidenschaft am Female Jazz! 💃
+
+
+  17:30 - 19:00 Uhr (90 Min)
+
+
+  Im UG des Bohus Center
+
+  Halderstr. 29 
+
+  86150 Augsburg
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Female Jazz Workshop mit Mary
+online: No
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+international: No
+startDate: 1705768200000
+cover: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/410878896_692338202877305_6797551610893721135_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=hNJhyEXLe38AX9D3eM_&_nc_ht=scontent-iad3-1.xx&oh=00_AfDGvoevs92caxqELLcPrcqpipONTd28APWlRgqCXMBwcA&oe=659C8AC3
+org:
+  facebook: https://www.facebook.com/baila.augsburg
+  name: baila - social dance studio
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/298792952_415741137203681_634483998455252306_n.png?stp=cp0_dst-png_p40x40&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=_hf8L6mPI5EAX_5md_Y&_nc_ht=scontent-iad3-1.xx&oh=00_AfD4GGZwYgA9F4oS8lNB70U_NiCV6RreuNL7_edXtJgHKg&oe=659CDEEF
+  username: baila.augsburg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FO7oijdCYKVR9bGO03n0h.png?generation=1704426877446805&alt=media
+styles:
+  Jazz:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList: []
+id: O7oijdCYKVR9bGO03n0h
+updatedAt: 1704426929251
+facebookId: "940597451045429"
+hash: 1705768200000+ChIJKSshOsWinkcRoOeL161IHgQ
+viewsCount: 26

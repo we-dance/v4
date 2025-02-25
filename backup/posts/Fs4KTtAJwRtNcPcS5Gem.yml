@@ -1,0 +1,149 @@
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  name: meet & DANCE - Die Tanzschule GmbH
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4490632802915
+      south: 48.2429800697085
+      north: 48.2456780302915
+      west: 11.4463653197085
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  url: https://maps.google.com/?cid=5524201826745450349
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  international_phone_number: +49 8131 317151
+endDate: 2023-03-18T03:00
+claimed: No
+description: |-
+  White Kiz Party. München
+  Motto: Bitte weiß anziehen
+  Workshop mit Fajul und Yulia
+  7pm - 8 pm : Urban Kizz
+  8pm - 10pm : Tarraxina
+
+  Ab 10pm PARTY - Fajul hat Geburtstag
+  End um 03:00h
+  Preise:
+  Je Workshop: 15€
+  Beide Workshops: 25€
+  Party: 15€
+  Ein Workshop + Party: 25€
+  Beide Workshops + Party: 30€
+  Vorortzahlung
+  Adresse:Münchner Str. 87b, 85221 Dachau
+  von Dachau Bahnhof bis zum location dauert 8min
+  Bus N°710, 716
+  Aussteigen: Dachau, Watzmannstraße( 3 min)
+  Es tut uns leid, dass wir die Adresse ändern sollten.
+
+
+  Wir freuen uns auf euch ! 
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2F1bcc2c0d-6a7b-4653-b43c-7eab3fddcd75?alt=media&token=056f8f8d-92d9-4c9e-b09b-8eed61475818
+duration: 60
+createdAt: 1678360979837
+price: 15€ - 35€
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1678360979837
+updatedBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+visibility: Public
+org:
+  instagram: https://instagram.com/fallpape
+  username: fallpape
+eventType: Party
+form: No
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+watch:
+  count: 1
+  list:
+    kizztalkdanceacademy: true
+name: White Kiz Night
+online: No
+styles:
+  UrbanTarraxa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-03-17T19:00
+username: kizztalkdanceacademy
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    bio: Urban Kiz & Afro Instructor
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    instagram: https://instagram.com/kizztalk_
+    username: kizztalk
+artistsList:
+  - kizztalk
+id: Fs4KTtAJwRtNcPcS5Gem
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FFs4KTtAJwRtNcPcS5Gem.png?generation=1678988773173105&alt=media
+telegram:
+  requestedAt: 1678988777072
+  messageUrl: https://t.me/WeDanceMunich/1029
+  publishedAt: 1678988779704
+  messageId: 1029
+  state: published
+instagram:
+  requestedAt: 1678988781339
+  messageUrl: https://instagram.com/p/Cp29OGiJFtU
+  publishedAt: 1678988798108
+  messageId: Cp29OGiJFtU
+  state: published
+viewsCount: 45

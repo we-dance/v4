@@ -1,0 +1,52 @@
+endDate:
+  _seconds: 1630864800
+  _nanoseconds: 0
+link: https://www.sonlatino.de/tanzschule/courses.php?Salsa=info&cID=5776
+description: >-
+  Lerne die Lehrer und Ihren Unterrichtsstil kennen. Lasse dich einstufen und
+  beraten. Kostenlos für alle Salsa und Bachata Interessierten.
+
+  Wir freuen uns auf euch!
+type: event
+duration: "60"
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfPFOWINB1LNTCvLqLWxxgLuYhsX2%2Fe1fc3a44-69ca-4b26-9394-1c902311fd96?alt=media&token=b280d8d4-59e1-4f13-ad86-08632555da73
+createdAt: 1627376655893
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FW3JmJUdYT2naWKJzWobn.png?generation=1629203270222425&alt=media
+commentsLast: ~
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+id: W3JmJUdYT2naWKJzWobn
+views: 2
+updatedAt: 1627376655893
+updatedBy: fPFOWINB1LNTCvLqLWxxgLuYhsX2
+address: SON LATINO Tanzschule Gablonzer Str. 9,  76185 Karlsruhe-Mühlburg
+visibility: Public
+eventType: Course
+form: Yes
+createdBy: fPFOWINB1LNTCvLqLWxxgLuYhsX2
+commentsCount: 0
+name: SALSA & BACHATA SCHNUPPERKURS | immer am 1. So im Monat
+online: No
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+region:
+  name: Karlsruhe
+  location:
+    country: Germany
+    latitude: 49.0068901
+    locality: Karlsruhe
+    usedGps: false
+    place_id: ChIJCXjgokgGl0cRf-63THNV_LY
+    longitude: 8.4036527
+startDate: 2021-09-05T17:00:00.000Z
+username: alyonadance
+viewsCount: 66

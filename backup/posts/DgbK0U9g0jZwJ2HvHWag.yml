@@ -1,0 +1,102 @@
+createdAt: 1704822887823
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/928532595071054/
+source: facebook
+updatedAt: 1704822887823
+username: wedancebot
+venue:
+  formatted_address: Graf-Zeppelin-Platz, 71034 Böblingen, Germany
+  website: http://www.grm-locations.com/legendenhalle
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Legendenhalle
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.002753169708498
+        lat: 48.6898065197085
+      northeast:
+        lng: 9.005451130291503
+        lat: 48.6925044802915
+    location:
+      lng: 9.0042722
+      lat: 48.69111349999999
+  address_components:
+    - types:
+        - route
+      short_name: Graf-Zeppelin-Platz
+      long_name: Graf-Zeppelin-Platz
+    - types:
+        - locality
+        - political
+      short_name: Böblingen
+      long_name: Böblingen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: BB
+      long_name: Böblingen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Süd
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "71034"
+      long_name: "71034"
+  international_phone_number: +49 711 55340330
+  place_id: ChIJmQpw-CremUcRPGPQKlpjr0U
+  url: https://maps.google.com/?cid=5021341348457898812
+visibility: Public
+endDate: 1716760740000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: dj.gufil
+  photo: ""
+  bio: ""
+  id: Zi4b8a1QO3Z9M17NRl5W
+  instagram: https://instagram.com/dj.gufil
+  username: dj.gufil
+claimed: No
+facebookId: "928532595071054"
+link: https://www.goandance.com/en/events/5758-dj-got-us-fallin-in-love-bachata-2024
+description: |
+  #Bachata #Roar #BRoar 
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: DJ Got us fallin in love - Bachata All in One Festival 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJK9PTPoPgmUcRi3YOODzeD1c
+international: No
+hash: 1716570000000+ChIJmQpw-CremUcRPGPQKlpjr0U
+startDate: 1716570000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDgbK0U9g0jZwJ2HvHWag.png?generation=1704822910181314&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851796/saiwx3diend06growuoo.jpg
+viewsCount: 70
+id: DgbK0U9g0jZwJ2HvHWag

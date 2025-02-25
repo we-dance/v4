@@ -1,0 +1,37 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621685688344
+locales:
+  de: true
+createdBy: KgCRVaeytVWwBlD3abHTVYv9kDH3
+name: Ameedic
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Ameedic
+pwaUsed: false
+gender: Male
+visibility: Members
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKgCRVaeytVWwBlD3abHTVYv9kDH3%2F2179b063-6503-4920-9b33-ae598af6129c?alt=media&token=282fcbee-4d19-4f40-b324-7aa13b304963
+permission: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Breaking:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1621685893251
+bio: "I can dance forwards and backwards at the same time. "
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FAmeedic.png?generation=1621815314291693&alt=media
+lastLoginAt: 1622030527914
+daysUsed: 3
+id: KgCRVaeytVWwBlD3abHTVYv9kDH3

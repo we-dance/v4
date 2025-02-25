@@ -1,0 +1,45 @@
+endDate:
+  _seconds: 1626888600
+  _nanoseconds: 0
+description: |-
+  It will be 30min open level salsa on 1 workshop, salsa candela style.
+
+  No registration needed.
+type: event
+duration: "30"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F23b57550-6fb9-430d-8305-6cfc450cce6b?alt=media&token=025d0f1b-b3a0-439e-8f4f-22ba24cc732b
+createdAt: 1626796491379
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F3hlJ2ZV9QQwaKavPia05.png?generation=1626798976177285&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 3hlJ2ZV9QQwaKavPia05
+views: 1
+updatedAt: 1626796491379
+address: Pinakothek der Moderne
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Workshop
+form: No
+createdBy: EGc3bwBVyKbLykwQMelFbftcIk32
+commentsCount: 0
+name: Open Level Salsa Workshop
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-21T17:00:00.000Z
+username: SalsaCandela
+viewsCount: 72

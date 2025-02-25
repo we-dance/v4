@@ -1,0 +1,30 @@
+facebookUrlsList: []
+isNew: true
+facebookId: ""
+facebookUrlsCount: 0
+provider: ical
+createdAt: 1732201225454
+updatedAt: 1732201225454
+importedAt: 1732201225454
+providerId: prtkn3bWcsTw1unDTbtt
+providerItemId: c9gj4c1mc8q3ibb3c4sj8b9k6sqjibb2cpi3ab9l6sqm4e9j60r34phicg@google.com
+name: Improver Zouk Class with Andrius & Sigrid
+description: ""
+providerCreatedAt: 1732182563000
+providerUpdatedAt: 1732182563000
+startDate: 1733761800000
+endDate: 1733766000000
+facebook: ""
+sourceUrl: ""
+location: ""
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+type: event
+username: Thomas
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+id: LDaIxyrKqnHF8uN36VD8

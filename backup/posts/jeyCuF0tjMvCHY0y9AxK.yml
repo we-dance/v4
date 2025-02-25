@@ -1,0 +1,168 @@
+endDate: 1714867200000
+sourceUrl: https://www.facebook.com/events/3770133576536189
+createdAt: 1714557700625
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1714118914000
+updatedAt: 1714557700625
+importedAt: 1714557700625
+providerUpdatedAt: 1714118914000
+facebookId: "3770133576536189"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3770133576536189
+eventType: Party
+providerItemId: 10008775-1714780800-1714867199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Off Kultúrszövőgyár, Berni utca 1., Budapest, 1045, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714780800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Régi Gyapjúszövőgyár, Berni u. 1, 1045 Hungary
+  website: http://www.offkultur.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: OFF Kultur
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.09247889999999
+        lat: 47.5492003197085
+      northeast:
+        lng: 19.0952265
+        lat: 47.5518982802915
+    location:
+      lng: 19.0945396
+      lat: 47.55030439999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Berni u.
+      long_name: Berni utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: IV. kerület
+      long_name: IV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1045"
+      long_name: "1045"
+  international_phone_number: +36 30 756 6188
+  place_id: ChIJd8uEgbTbQUcRep_yEtLQ3RA
+  url: https://maps.google.com/?cid=1215357075139501946
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsamojitotanciskola
+  name: Salsa Mojito Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044598/gqq7ryxwwn8sznrxhpth.jpg
+  bio: ""
+  id: 14X8OHeVKxIe52ExV2Ia
+  instagram: ""
+  username: salsa.mojito.tancisk
+claimed: No
+facebook: https://www.facebook.com/events/3770133576536189/
+link: ""
+description: |-
+  🔥 Az erő napján újra visszatérünk az imádott Offba 🔥
+  May the 4th be with you! 😉
+
+  💥 350 m2 tánctér!
+  💥 Bárpult és hangulatos terasz!
+  💥 DJ Adalberto legjobb slágerei!
+  💥 Könnyű megközelíthetőség, menő loft helyszín!
+  💥 Őrzött ruhatár, mint mindig!
+  ___________________________________
+
+  ✨ PROGRAM
+
+  ⭐️ 20.00-21.00 // Ingyenes Buliindító Bachata Workshop
+  🔥 szint: gyere, ha már tudod a bachata alapjait
+  🔥 Levi & Rita
+
+  ⭐️ 21.00-02.00 // Salsa Party
+  🔥 salsa, bachata, ruedák, animációk, hölgyválaszok
+  🔥 21-22 óráig lassabb zenékkel
+  ___________________________________
+
+  ✨ IDŐPONT
+
+  május 4. szombat
+  20.00-02.00
+
+  ✨ HELYSZÍN
+
+  OffKultur
+  1045 Bp, Berni u. 1.
+  Google Maps: OFF Kultur
+
+  Off Hall 1 rendezvényterem
+  🎥 Videó a megközelítésről:
+  https://www.facebook.com/salsamojitotanciskola/videos/332066946186000
+
+  ✨ A LEMEZJÁTSZÓKNÁL
+
+  DJ Adalberto
+  salsa, bachata, cha-cha-cha, merengue
+
+  ✨ RÉSZVÉTELI DÍJ
+
+  3000 HUF
+
+  Belépő a helyszínen, csak készpénzben váltható!
+  ___________________________________
+
+  ✨ TOVÁBBI INFORMÁCIÓK
+
+  www.salsamojito.hu
+  info@salsamojito.hu
+  www.facebook.com/salsamojitotanciskola
+  +3620 418 1091
+
+  Várunk szeretettel!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714557720/l0sjjfgfdcmljdcamzps.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Mojito Salsa Party // május
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1714845600000+ChIJd8uEgbTbQUcRep_yEtLQ3RA
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjeyCuF0tjMvCHY0y9AxK.png?generation=1714557749853339&alt=media
+viewsCount: 1
+id: jeyCuF0tjMvCHY0y9AxK

@@ -1,0 +1,58 @@
+claimed: No
+description: "One of the biggest Fest in Türkiye. 7 stars Hotel, Kizomba,
+  Bachata and Salsa. Competitions, Shows, Live Salsa and Bachata Music. "
+program: []
+type: event
+duration: 60
+createdAt: 1681137169230
+price: 0 EUR
+updatedAt: 1681137169230
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+confirmation: Welcome to EDF
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    BilaKizz: true
+name: Eskisehir Dance Fest
+online: No
+username: BilaKizz
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2F063a9e30-e315-49e7-b1c7-d78f12bd057a?alt=media&token=2c4afb25-666b-4d9a-8013-b6f753b7826f
+endDate: 2023-05-07T06:00
+artists:
+  - role: instructor
+    instagram: https://instagram.com/bilakizz
+    username: bilakizz
+org:
+  role: instructor
+  instagram: https://instagram.com/bilakizz
+  username: bilakizz
+styles:
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+artistsList:
+  - bilakizz
+id: wmKX56Pw8RMe3rAX2I2D
+place: ChIJXw4MIgg-zBQRCJoEOFk5ibw
+eventType: Festival
+international: Yes
+startDate: 2023-05-04T10:00
+instagram:
+  requestedAt: 1682007003997
+  state: requested
+telegram:
+  requestedAt: 1682007052674
+  state: requested
+viewsCount: 14

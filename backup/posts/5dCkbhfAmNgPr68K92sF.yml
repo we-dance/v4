@@ -1,0 +1,194 @@
+venue:
+  website: https://www.bier-weingarten.de/
+  formatted_address: Praterinsel 4a, 80538 München, Germany
+  name: Praterstrand
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5912453802915
+      south: 48.1345261697085
+      north: 48.1372241302915
+      west: 11.5885474197085
+    location:
+      lng: 11.5902229
+      lat: 48.1357263
+  address_components:
+    - types:
+        - street_number
+      short_name: 4a
+      long_name: 4a
+    - types:
+        - route
+      short_name: Praterinsel
+      long_name: Praterinsel
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80538"
+      long_name: "80538"
+  place_id: ChIJQ68rU4Z1nkcRAocSxrS3qIE
+  url: https://maps.google.com/?cid=9342919414025193218
+endDate: 2022-04-30T23:00
+claimed: No
+link: https://bit.ly/3xME7f0
+description: >-
+  Cuban Area with beach atmosphere! 🌴☀️🌴
+
+
+  Mainly Cuban Salsa (Timba, Songo, Son, Timbaton) but also some Dominican Bachata and Cubaton 💃🏻🕺🏻
+
+
+  Main area with mainly Reggaeton, Hip Hop, Merengue, Bachata, and Latin Hits 🔥🔥
+
+
+  Salsa Couple Workshop by Salsa Candela (16:30 - 17:00)
+
+
+  - Reggaeton Show by Santana Dance
+
+  - Bachata Show by Pura Ladies
+
+  - Rueda de Casino with Salsa Candela
+
+  - Animation
+
+  - Laser show, confetti canon, 6 bars with cool drinks
+
+
+  Don't miss the first really big party this year!!!
+type: event
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4356e2ce-f567-46ea-8367-c39370058e9d?alt=media&token=ea57714e-c2f9-4f69-87d9-aa0f3f309f7e
+duration: custom
+createdAt: 1651057530316
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "SalsaCandela "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+    bio: |+
+      Salsa Candela is Gianni (Italy) and Yulia(Russia)! 
+
+      Salsa Cubana, Rumba, Rueda de Casino, Sosa Style and Mambo.
+      (Partnerwork, Footwork, Musicality, Lady & Men Style)
+
+
+    id: EGc3bwBVyKbLykwQMelFbftcIk32
+    instagram: SalsacandelaMUC
+    username: SalsaCandela
+  - youtube: ""
+    tiktok: ""
+    facebook: SantanaDanceClub
+    name: SantanaDance
+    bio: |
+      SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+    instagram: santana_dance
+    id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+    username: SantanaDance
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: elisa_pura_dance
+    bio: Show dancer. Event promoter
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fuxo8rOwaSoV6FMpxO2c1gpuosN13%2Fae490233-fff8-4118-9396-91b52ab191be?alt=media&token=4932d339-40f6-49da-b6a7-813986609a44
+    instagram: elisa_pura_dance
+    id: uxo8rOwaSoV6FMpxO2c1gpuosN13
+    username: elisa_pura_dance
+price: "Special offer: 15€ (instead of 25€)"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1651057530316
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: vacunaaa
+  name: salsa.cubana.munich
+  bio: Reunión Timbera
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  instagram: salsa.cubana.munich
+  username: salsa.cubana.munich
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Latin Open Air
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-04-30T14:00
+username: alejito
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F5dCkbhfAmNgPr68K92sF.png?generation=1651057548451897&alt=media
+facebook: https://www.facebook.com/events/531545168593468/
+id: 5dCkbhfAmNgPr68K92sF
+star:
+  count: 1
+  list:
+    alejito: true
+watch:
+  count: 2
+  list:
+    undefined: true
+    alejito: true
+viewsCount: 62

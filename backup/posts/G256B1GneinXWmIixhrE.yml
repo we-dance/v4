@@ -1,0 +1,216 @@
+createdAt: 1704822881432
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1372325283310337/
+source: facebook
+updatedAt: 1704822881432
+username: wedancebot
+venue:
+  formatted_address: Kounicova 686/22, 602 00 Brno-Brno-střed, Czechia
+  website: http://www.kcbabylon.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: KC BABYLON - Cultural Center Brno
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.5988566697085
+        lat: 49.2018952197085
+      northeast:
+        lng: 16.60155463029151
+        lat: 49.2045931802915
+    location:
+      lng: 16.600311
+      lat: 49.203259
+  address_components:
+    - types:
+        - street_number
+      short_name: 686/22
+      long_name: 686/22
+    - types:
+        - route
+      short_name: Kounicova
+      long_name: Kounicova
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Brno-střed
+      long_name: Brno-střed
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Brno-město
+      long_name: Brno-město
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihomoravský kraj
+      long_name: Jihomoravský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 602 00
+      long_name: 602 00
+  international_phone_number: +420 774 443 781
+  place_id: ChIJ77_NsxWUEkcRD-wzYNRCrog
+  url: https://maps.google.com/?cid=9848882915020368911
+visibility: Public
+endDate: 1713758400000
+org:
+  owner: ""
+  importedAt: 1704822883270
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/zouktimeevents
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/414479455_816306713839242_7027819249329044342_n.jpg?stp=c1.1.38.38a_cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=G6X40ojoNIYAX815fUu&_nc_ht=scontent-atl3-2.xx&oh=00_AfC3GKK1odS73g9BDq4d4WQgZB7TheDrcprGTcUGerOXvw&oe=65A24772
+  source: facebook
+  type: Organiser
+  createdAt: 1704822883270
+  owned: false
+  name: ZOUKTIME events by Ludek & Pavla
+  updatedAt: 1704822883270
+  username: zouktimeevents
+claimed: No
+facebookId: "1372325283310337"
+link: http://www.zouktime.com/
+description: >-
+  REGISTRATION IS OPEN!!
+
+  www.zouktime.com
+
+
+  TEACHERS TEAM:
+
+  Michael & Aline
+
+  Pedrinho & Paloma
+
+  Otavio & Sara
+
+  Olaya & Papagaio
+
+  …
+
+
+  You can look forward to:
+
+  - great line up
+
+  - your beloved Babylon congress venue
+
+  - 3 neverending parties + 2 afternoon parties + 2 days of workshops in 2-3 halls
+
+  - 80min long workshops!!
+
+  - all demos together in one room
+
+  - brazilian zouk & lambada under one roof
+
+  - music for all styles dancers
+
+  - familiar atmosphere, typical for our events
+
+
+
+  PRICES
+
+
+  FULLPASS:
+
+  130€ / 3100Kč until 31.1.2024
+
+  135€ / 3200Kč until 31.3.2024
+
+  140€ / 3300Kč from 1.4.2024
+
+
+  -> Includes Friday party, Saturday workshops, Saturday party, Saturday afternoon social dancing, Sunday workshops, Sunday afternoon social dancing, Sunday party
+   
+  PARTYPASS:
+
+  65 euro / 1400 Kč
+
+
+  ->Includes Friday party, Saturday afternoon social dancing, Saturday party, Sunday afternoon social dancing, Sunday party
+
+  ​
+
+  PARTIES:
+
+  25 euro / 500 Kč for night party
+
+  30 euro / 600 Kč for night party + afternoon social dancing
+
+
+  Single entrance for the parties can be paid only cash at the place.
+
+  ​
+
+  GROUP DISCOUNTS:
+
+  The condition to apply the group discount - the group organize will collect the money for whole group and give us IN CASH.
+
+
+  5 - 9 paid FULLPASSES -> 130 euro / 3100 CZK per FULLPASS + 50% discount for the group organizer
+
+
+  10 - 14 paid FULLPASSES -> 125 euro / 3000 CZK per FULLPASS + 75% discount for the group organizer
+
+
+  15 and more paid FULLPASSES -> 120 euro / 2900 CZK per FULLPASS + 100% discount for the group organizer
+
+
+  Discounted price for the PARTYPASS is 60 euro / 1300 CZK and in the group is counted as half of the person :)
+
+
+  ---> wanna be discount group organizer? write us to zouktimeteam@gmail.com
+
+
+  HOW TO GET HERE:
+
+  You can use both PRAGUE or VIENNA airport and take direct bus/train to Brno! :) Bus/trains takes about 2hours maximum :)
+
+
+  ACCOMODATION:
+
+  Recommended nearest 4* hotel - www.continentalbrno.cz
+
+  The hotel is about 5 minutes on foot from the festival venue Babylon.
+
+  Use promo code "ZOUKTIME" to book for better prices. Booking through email info@continentalbrno.cz
+program: []
+eventType: Congress
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: ZOUKTIME! festival in Brno 2024 - spring edition
+online: No
+place: ""
+international: No
+hash: 1713553200000+ChIJ77_NsxWUEkcRD-wzYNRCrog
+startDate: 1713553200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FG256B1GneinXWmIixhrE.png?generation=1704822904715142&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851834/krst6uz25niq7dlcpozo.jpg
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Lambada:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+id: G256B1GneinXWmIixhrE

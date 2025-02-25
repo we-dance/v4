@@ -1,0 +1,132 @@
+venue:
+  formatted_address: Elisabeth-Kohn-Straße 15, 80797 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "15"
+      short_name: "15"
+    - types:
+        - route
+      long_name: Elisabeth-Kohn-Straße
+      short_name: Elisabeth-Kohn-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwabing-West
+      short_name: Schwabing-West
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80797"
+      short_name: "80797"
+  room: Untergeschoss
+  url: https://maps.google.com/?q=Elisabeth-Kohn-Stra%C3%9Fe+15,+80797+M%C3%BCnchen,+Germany&ftid=0x479e767716410b47:0x638a508f812c21b7
+  name: Elisabeth-Kohn-Straße 15
+  geometry:
+    viewport:
+      south: 48.16399841970851
+      north: 48.1666963802915
+      east: 11.5566643802915
+      west: 11.5539664197085
+    location:
+      lng: 11.5551587
+      lat: 48.1653215
+  map: ""
+  place_id: ChIJRwtBFnd2nkcRtyEsgY9QimM
+endDate:
+  _seconds: 1635624000
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+link: https://forms.gle/bQKJC4Qi6DMF1ZET8
+description: |-
+  Tanz-Übung & Tanzen unter Freunde
+  Besser mit Partner
+
+  Hier der Link (für die Anmeldung):
+  https://forms.gle/bQKJC4Qi6DMF1ZET8
+
+  Bitte nur einmal ausfüllen und auf senden klcken...
+
+  Wenn Anzahl erreicht ist wird gestoppt
+type: event
+duration: "300"
+cover: ""
+createdAt: 1635313777933
+watchersCount: 0
+price: 5 EUR
+commentsLast: ~
+promoter: Vitali
+id: s1vNuPD67oJqRFaEXj57
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 8
+updatedAt: 1635313777933
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/summerkiz-meets-kizcafe/267267945183376/
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Summerkiz meets kizcafe
+online: No
+styles:
+  Tarraxinha:
+    level: Interested
+    selected: true
+  Kuduru:
+    level: Interested
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-30T15:00:00.000Z
+username: Vitali
+viewsCount: 55

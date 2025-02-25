@@ -1,0 +1,196 @@
+venue:
+  formatted_address: Dukelská 1093, 293 01 Mladá Boleslav-Mladá Boleslav 1, Czechia
+  website: http://www.kulturamb.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Culture House Mlada Boleslav, Ltd.
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.9135517802915
+      south: 50.4124190697085
+      north: 50.4151170302915
+      west: 14.9108538197085
+    location:
+      lng: 14.9122541
+      lat: 50.4136739
+  address_components:
+    - types:
+        - street_number
+      short_name: "1093"
+      long_name: "1093"
+    - types:
+        - route
+      short_name: Dukelská
+      long_name: Dukelská
+    - types:
+        - postal_town
+      short_name: Mladá Boleslav 1
+      long_name: Mladá Boleslav 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mladá Boleslav
+      long_name: Mladá Boleslav
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Středočeský kraj
+      long_name: Středočeský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 293 01
+      long_name: 293 01
+  international_phone_number: +420 326 792 082
+  place_id: ChIJA0ZPabtVCUcRFAMVgB_ickg
+  url: https://maps.google.com/?cid=5220483542996550420
+endDate: 1698804000000
+claimed: No
+link: https://www.facebook.com/events/994620691615780
+description: >-
+  Je to tady!!!
+
+
+  VELKÁ VÁNOČNÍ SALSA BACHATA PÁRTY S ŽIVOU KAPELOU!
+
+
+  V létě na oslavě 10 let výročí jsme se zamilovaly do tančení na živou hudbu tak jsme báječnou kubánskou kapelu Klan del Caribe pozvali znovu!
+
+
+  Na tuto akci ase stěhujeme do Kulturáku!!! 
+
+   
+
+
+   
+
+  Čeká na vás plně zásobený bar krásný prostorný sál hodně místa na tančení i na sezení .... a vynikající hosté!
+
+
+  Yaros a Katerina z Dance Different budou mít přes den workshopy a večer se s nimi uvidíte i na párty.
+
+
+  Maria Isabel a Rafael del Busto během večera zatančí ukázku sonu rumby a dáme s nimi i animace.
+
+
+  O hudbu se postará báječný DJ Lole a mezi 21.00 - 23.00 bude hrát kapela KLAN DEL CARIBE!!!
+
+
+  Bude to jízda těšíme se moc moc moc!!!
+
+
+
+
+  Místo: Dům kultury Dukelská 1093 Mladá Boleslav (zrcadlový sál)
+
+
+
+
+  Čas: 20.00 - 2.00
+
+
+  Cena vstupenky: 300 Kč
+
+
+
+
+  Prodej vstupenek bude probíhat na místě ale je možné koupit si vstupenku i předem a to buď ode mě (Blanky Novákové) na kurzech nebo zasláním 300 Kč na č.ú. 670100-2215404888/6210 a do textu dáte Mega párty a vaše jméno (pošlu potvrzení o zaplacení na email a u vstupu jen nahlásíte své jméno).
+
+
+  Pozvěte i své známé přátele rodinu.... večer je vhodný i pro netanečníky protože bude stále na co koukat a co poslouchat (hlavně ten živý konzert).
+
+
+  Těšíme se na vás!
+
+
+  vaše Salsa Familia 
+
+
+
+
+  p.s.
+
+
+  No a to bychom nebyli my Salsa Familia aby na naší párty chyběli pochutiny. S kulturákem máme dohodu že oni zajišťují pití a my si můžeme přinést drobnosti k jídlu - takže opět čekáme na ukázky už napečeného cukroví a jiné dobrůtky.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Fb7151e3e-509f-4ca7-b02b-d61bdb1fc1c7?alt=media&token=4a6c7bfa-ca13-4a5a-96b7-4d7fa700c1eb
+createdAt: 1698524315744
+artists:
+  - role: instructor
+    facebook: https://facebook.com/dancedifferent.cz
+    username: dancedifferent.cz
+  - role: instructor
+    instagram: https://instagram.com/mariaisabel7241
+    username: mariaisabel7241
+  - role: instructor
+    facebook: https://facebook.com/rafael.cuni.7
+    username: rafael.cuni.7
+  - role: musician
+    facebook: https://facebook.com/klandelcaribe
+    username: klandelcaribe
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+  - role: organiser
+    facebook: https://facebook.com/salsafamiliamladaboleslav
+    username: salsafamiliamladaboleslav
+price: 300 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - dancedifferent.cz
+  - mariaisabel7241
+  - rafael.cuni.7
+  - klandelcaribe
+  - DjLole
+  - salsafamiliamladaboleslav
+international: No
+updatedAt: 1698524315744
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/salsafamiliamladaboleslav
+  name: salsafamiliamladaboleslav
+  photo: ""
+  bio: ""
+  id: y3i0JUgG1mWwhSaalzmU
+  instagram: ""
+  username: salsafamiliamladaboleslav
+facebook: https://www.facebook.com/events/994620691615780
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: MEGA VÁNOČNí PÁRTY (s živou kapelou)
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1702753200000
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdTwvhvob6FhXhj9pWczO.png?generation=1698524328340195&alt=media
+viewsCount: 19
+id: dTwvhvob6FhXhj9pWczO

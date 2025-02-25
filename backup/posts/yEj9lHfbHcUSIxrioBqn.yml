@@ -1,0 +1,112 @@
+createdAt: 1704822887940
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/263406032712157/
+source: facebook
+updatedAt: 1704822887940
+username: wedancebot
+venue:
+  formatted_address: Albrechtgasse 1, 8010 Graz, Austria
+  website: https://mcg.at/locations/congress-graz
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Congress Center
+  geometry:
+    viewport:
+      southwest:
+        lng: 15.4367179697085
+        lat: 47.06865746970849
+      northeast:
+        lng: 15.4394159302915
+        lat: 47.07135543029149
+    location:
+      lng: 15.4377322
+      lat: 47.0698665
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Albrechtgasse
+      long_name: Albrechtgasse
+    - types:
+        - locality
+        - political
+      short_name: Graz
+      long_name: Graz
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Graz
+      long_name: Graz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Steiermark
+      long_name: Steiermark
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "8010"
+      long_name: "8010"
+  international_phone_number: +43 316 8088400
+  place_id: ChIJ30Cs2ng1bkcRF5pid28H9gQ
+  url: https://maps.google.com/?cid=357481395748248087
+visibility: Public
+endDate: 1716735600000
+org:
+  owner: ""
+  importedAt: 1704822893774
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/mylifeisadance
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/304801633_451103790384174_5440043665501907060_n.png?stp=cp0_dst-png_p40x40&_nc_cat=100&ccb=1-7&_nc_sid=596444&_nc_ohc=899dZI8RRawAX-L7dQM&_nc_ht=scontent-iad3-2.xx&oh=00_AfCnlrT4op1qM4j-qdP4O9ssVOG9UaPetwqwXGs8jRw0iQ&oe=65A200BF
+  source: facebook
+  type: Organiser
+  createdAt: 1704822893774
+  owned: false
+  name: Tanzschule Conny & Dado
+  place: ChIJu2UwF4c1bkcRm93f0tGKjv4
+  updatedAt: 1704822893774
+  username: mylifeisadance
+claimed: No
+facebookId: "263406032712157"
+link: https://ticketing.nimbuscloud.at/event/2114/8
+description: >+
+  GRAZy SALSA FESTIVAL 2024  -> 24-26 MAY 
+
+
+
+  Get your early bird full pass for our next year's GRAZy edition! -> https://ticketing.nimbuscloud.at/event/2114/16
+
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: GRAZy Salsa Weekend 2024 (official event)
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJu2UwF4c1bkcRm93f0tGKjv4
+international: No
+hash: 1716573600000+ChIJ30Cs2ng1bkcRF5pid28H9gQ
+startDate: 1716573600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyEj9lHfbHcUSIxrioBqn.png?generation=1704822909937252&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853679/pr8zy4feb5olgsszjg3z.jpg
+viewsCount: 34
+bookmarks: 1
+id: yEj9lHfbHcUSIxrioBqn

@@ -1,0 +1,68 @@
+createdAt: 1724668531254
+website: http://www.tresorclub.cz/
+rooms: ""
+address:
+  formatted_address: Vinohradská 25, Vinohrady, 120 00 Praha-Praha 2, Czechia
+  website: http://www.tresorclub.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Tresor Club Prague
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4373212802915
+      south: 50.0769060697085
+      north: 50.0796040302915
+      west: 14.4346233197085
+    location:
+      lng: 14.4360818
+      lat: 50.0782797
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: Vinohradská
+      long_name: Vinohradská
+    - types:
+        - neighborhood
+        - political
+      short_name: Vinohrady
+      long_name: Vinohrady
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 2
+      long_name: Praha 2
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 120 00
+      long_name: 120 00
+  international_phone_number: +420 777 789 992
+  place_id: ChIJD-3FpRCVC0cRQlT_c6lRy6U
+  url: https://maps.google.com/?cid=11946732224767808578
+gender: Other
+phone: +420 777 789 992
+name: Tresor Club Prague
+updateAt: 1724668531254
+type: Venue
+map: ""
+username: www.tresorclub.cz
+id: 80k4Kvsjmu4MYB0p6Sls

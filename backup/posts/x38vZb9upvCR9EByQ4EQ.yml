@@ -1,0 +1,193 @@
+endDate: 1745197200000
+sourceUrl: https://www.facebook.com/events/408072375460582/
+createdAt: 1715522446587
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1715351528000
+updatedAt: 1715522446587
+importedAt: 1715522446587
+providerUpdatedAt: 1715351528000
+facebookId: "408072375460582"
+facebook: https://www.facebook.com/events/408072375460582/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/408072375460582/
+eventType: Festival
+providerItemId: e408072375460582@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: ⚡️GUARACHANDO FESTIVAL⚡️18,19,20 AVRIL 2025
+location: Pavillon Josephine
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1744988400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 191 Av. Napoléon Bonaparte, 92500 Rueil-Malmaison, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Le Pavillon Josephine
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.167524219708498
+        lat: 48.8738508197085
+      northeast:
+        lng: 2.170222180291502
+        lat: 48.8765487802915
+    location:
+      lng: 2.1688507
+      lat: 48.8751273
+  address_components:
+    - types:
+        - street_number
+      short_name: "191"
+      long_name: "191"
+    - types:
+        - route
+      short_name: Av. Napoléon Bonaparte
+      long_name: Avenue Napoléon Bonaparte
+    - types:
+        - locality
+        - political
+      short_name: Rueil-Malmaison
+      long_name: Rueil-Malmaison
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hauts-de-Seine
+      long_name: Hauts-de-Seine
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "92500"
+      long_name: "92500"
+  place_id: ChIJaZim0UBj5kcR4sYA3aQOeB0
+  url: https://maps.google.com/?cid=2123463325550429922
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715522461679
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Jimi-Jacks/100010037619290/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715522462/mbaf3ksprlcnhdleqzkn.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715522461679
+  owned: false
+  name: Jimi Jacks
+  place: ChIJK4enU1pj5kcRID2LaMOCCwQ
+  updatedAt: 1715522461679
+  username: JimiJacks
+claimed: No
+link: ""
+description: >-
+  ⚡️ GUARACHANDO FESTIVAL ⚡️
+
+
+  L’école Salsa Guarachando Strasbourg est heureuse de vous annoncer la 2ème EDITION de son festival qui se situe dans le PAVILLON JOSEPHINE au cœur du parc de l'ORANGERIE.
+
+
+  🔥SAVE THE DATE🔥
+
+  18,19,20  AVRIL 2025
+
+
+  Infos à venir! Restez connectés et partagez l'information!
+
+
+  🔸PROFESSEURS🔸
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  🔸DJs🔸
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  ▸ 
+
+  🔸MUSICIENS🔸
+
+  ▸
+
+  ▸
+
+  ▸
+
+  ▸
+
+  ▸
+
+  🔸PHOTOGRAPHE🔸
+
+  ▸
+
+  🔸VIDEASTE🔸
+
+  ▸ 
+
+  〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️
+
+  🔹LIEU🔹
+
+  Pavillon Joséphine
+
+  Parc de l’Orangerie
+
+  Avenue de l’Europe
+
+  67000 Strasbourg
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715522463/dmlefesidsddsm2z6zwb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJK4enU1pj5kcRID2LaMOCCwQ
+international: No
+hash: 1744988400000+ChIJaZim0UBj5kcR4sYA3aQOeB0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fx38vZb9upvCR9EByQ4EQ.png?generation=1715522478404469&alt=media
+id: x38vZb9upvCR9EByQ4EQ

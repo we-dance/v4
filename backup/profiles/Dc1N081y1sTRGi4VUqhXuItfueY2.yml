@@ -1,0 +1,78 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626087931969
+locales:
+  en: true
+createdBy: Dc1N081y1sTRGi4VUqhXuItfueY2
+name: __saracc
+place: ChIJvT-116N6WkcR5H4X8lxkuB0
+username: __saracc
+daysUsed: 1
+pwaUsed: false
+lastLoginAt: 1626090978709
+gender: Female
+partner: No
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDc1N081y1sTRGi4VUqhXuItfueY2%2F2c0376b6-7858-4441-b128-0a13510c92ac?alt=media&token=1079b602-8a66-4da3-a758-2823a47477cb
+permission: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Pasodoble:
+    level: Interested
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  ModernJive:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoBallroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Quickstep:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  ChaChaChaBallroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  Waltz:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: Yes
+updatedAt: 1626091333001
+viewsCount: 1
+id: Dc1N081y1sTRGi4VUqhXuItfueY2

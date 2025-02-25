@@ -1,0 +1,169 @@
+endDate: 1741960800000
+sourceUrl: https://www.facebook.com/events/1866643390448391/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1710843027000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1716047110000
+facebookId: "1866643390448391"
+facebook: https://www.facebook.com/events/1866643390448391/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/share/QcCyGMtkJ3Ej1CXG/?mibextid=9l3rBW
+  - https://www.facebook.com/events/1866643390448391/
+eventType: Congress
+providerItemId: e1866643390448391@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Fever Bachata Zaragoza Congress 2025 (Hollywood Edition) "
+location: ""
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1741950000000
+facebookUrlsCount: 2
+username: Aina
+venue:
+  formatted_address: Unnaer Str. 12, 59439 Holzwickede, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: SBK Europe GmbH
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.629314669708498
+        lat: 51.4831742697085
+      northeast:
+        lng: 7.632012630291503
+        lat: 51.4858722302915
+    location:
+      lng: 7.630692699999999
+      lat: 51.4844278
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Unnaer Str.
+      long_name: Unnaer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Opherdicke
+      long_name: Opherdicke
+    - types:
+        - locality
+        - political
+      short_name: Holzwickede
+      long_name: Holzwickede
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Unna
+      long_name: Unna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Arnsberg
+      long_name: Arnsberg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "59439"
+      long_name: "59439"
+  international_phone_number: +49 2301 13132
+  place_id: ChIJuzJT80gUuUcRfkXY3ht1CqQ
+  url: https://maps.google.com/?cid=11820388934550570366
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Europe/100083255276338/
+  name: Sbk Europe
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954226/jk6fzups0hrxipgjyp4a.jpg
+  bio: ""
+  id: uiI4e3j7f7JJ2mvUr9wh
+  instagram: ""
+  username: SbkEurope
+claimed: No
+link: ""
+description: >
+  🛒https://lasalsadelbaile.com/FBZC2025?ref=SBK
+
+  💸 PROMOCODE 5€: SBK 🔐
+
+  🏦Ahorro en venta no online. Por privado en @sbkeurope 💬💬💬💬
+
+
+  Evento Facebook: https://www.facebook.com/share/QcCyGMtkJ3Ej1CXG/?mibextid=9l3rBW
+
+
+  🏨 Hotel Diagonal (Zaragoza)
+
+  🕺🏻💃🏻Artistas:
+
+  Ataca y Gloria
+
+  Kike y Nahir
+
+  Gaby y Estefy
+
+  Evelyn la negra
+
+  Luis y Andrea
+
+  Oscar e Inés
+
+  Triguere y Bianca
+
+  Nani y Noah
+
+  Pamela y Carlos
+
+  Irene y Tomas 
+
+  Berra y Nazaret 
+
+
+  INSTAGRAM: @sbkeurope
+
+   #bachata #bachateros #bachatadancing #bachatachallenge #bachatafusion #bachatadance #bachatadancers #bachataspain #bachatacongress  #bachatasensual #bachataysalsa #bachataurbana #sbkeurope #bachatadominicana 
+  #bachatatradicional #traditionalbachata 
+
+  #bachataclass #bachataflowdance #bachatachoreography #bachatafootwork  #bachatalove #bachatapartner #bachataclass #bachataworld #bachatafest #bachatainspiration #bachatacommunity #bachatadancestyle #bachatasalsa
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJd0n4s2EUuUcRQ-RnAEZlrMQ
+international: No
+hash: 1741950000000+ChIJuzJT80gUuUcRfkXY3ht1CqQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FiSth4ts8N4EXRSm2D8b9.png?generation=1718719271921971&alt=media
+id: iSth4ts8N4EXRSm2D8b9

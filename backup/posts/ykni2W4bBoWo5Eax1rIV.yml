@@ -1,0 +1,150 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  url: https://maps.google.com/?cid=14384342178029021798
+  international_phone_number: +49 89 23805360
+  room: Area 1
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+endDate: 2022-08-19T20:00
+claimed: No
+type: event
+promo: ""
+duration: 60
+createdAt: 1658254409915
+price: 0 EUR
+artistsList:
+  - alexrazbakov
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1658254409915
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 2
+  list:
+    francisca: true
+    Madikawa88: true
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MontunoClub
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  instagram: https://instagram.com/MontunoClub
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  username: MontunoClub
+confirmation: |-
+  Thank you for registration. 
+
+  See you on Friday. We start at 7PM.
+  Please come a bit earlier to get to know each other.
+
+  Join our group to get updates - https://t.me/+8fsIgZZluWE4OTIy
+eventType: Workshop
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-08-19T19:00
+username: alexrazbakov
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F832921a9-b46a-4a79-a0de-17e292f6b036?alt=media&token=4c7cef3d-2435-4b01-9c09-42f579da7057
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    bio: Dance Casino since Cuba in 2017
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    instagram: https://instagram.com/alexrazbakov
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    username: alexrazbakov
+  - {}
+id: ykni2W4bBoWo5Eax1rIV
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fykni2W4bBoWo5Eax1rIV.png?generation=1660858438008276&alt=media
+name: Salsa Cubana from Zero (CANCELED)
+commentsCount: .nan
+commentsLast:
+  createdAt: 1660913210659
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: ykni2W4bBoWo5Eax1rIV
+  body: |
+    Today is a big event at Pinakothek and we have to cancel today’s class.
+  updatedAt: 1660913210659
+  username: alexrazbakov
+description: |-
+  Today is a big event at Pinakothek and we have to cancel today's class.
+
+  Сегодня будет мероприятие от пинакотеки и не будет места. Урок отменяется.
+viewsCount: 11

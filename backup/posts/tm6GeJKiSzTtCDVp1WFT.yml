@@ -1,0 +1,106 @@
+venue:
+  formatted_address: Otrada, Odesa, Odessa Oblast, Ukraine, 65000
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Otrada
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 30.75946576694145
+      south: 46.46381734022187
+      north: 46.4699950576915
+      west: 30.75261519437119
+    location:
+      lng: 30.7557725
+      lat: 46.4674256
+  address_components:
+    - types:
+        - neighborhood
+        - political
+      short_name: Otrada
+      long_name: Otrada
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Prymorsk Raion
+      long_name: Prymorsk Raion
+    - types:
+        - locality
+        - political
+      short_name: Odesa
+      long_name: Odesa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Odes'ka city council
+      long_name: Odes'ka city council
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Odessa Oblast
+      long_name: Odessa Oblast
+    - types:
+        - country
+        - political
+      short_name: UA
+      long_name: Ukraine
+    - types:
+        - postal_code
+      short_name: "65000"
+      long_name: "65000"
+  place_id: ChIJ3egtOmUxxkARM3ddn0yGPb8
+  url: https://maps.google.com/?q=Otrada,+Odesa,+Odessa+Oblast,+Ukraine,+65000&ftid=0x40c631653a2de8dd:0xbf3d864c9f5d7733
+claimed: No
+description: |-
+  Every Sunday
+  Salsa on2
+  Горпляж (Отрада, Одеса)
+  Free Donation
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F2QyKbtEd2kXGacTHBc5pUzl40q73%2Fd2d13d9d-4a11-4ae5-bda4-20555e749321?alt=media&token=b2e935fe-80cf-4823-802f-9d53275bc633
+promo: ""
+duration: 60
+createdAt: 1658604617496
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJQ0yGC4oxxkARbBfyjOKPnxI
+international: No
+updatedAt: 1658604617496
+updatedBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsa Odessa
+  bio: |-
+    #Soul_DANCE_Studio
+    Нам на всё натанцевать! 
+    🍀 Три филиала в Одессе
+    🔖 Salsa New York
+    📲 viber 067-981-15-20
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsouldance.od.png?generation=1655307392456948&alt=media
+  instagram: https://instagram.com/souldance.od
+  id: s1gPO9jkuXs5wPosFvGb
+  username: souldance.od
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    undefined: true
+createdBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+name: Salsa Party
+online: ""
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-24T18:00
+username: milamazurmusic
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Ftm6GeJKiSzTtCDVp1WFT.png?generation=1658604637672485&alt=media
+endDate: 2022-07-23T20:30
+id: tm6GeJKiSzTtCDVp1WFT
+viewsCount: 37

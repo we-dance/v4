@@ -1,0 +1,39 @@
+endDate:
+  _seconds: 1628024400
+  _nanoseconds: 0
+link: https://pinakothek.splashthat.com/
+type: event
+duration: "180"
+createdAt: 1627921140822
+watchersCount: 0
+price: Free
+commentsLast: ~
+id: OJwlEKKVucPeEjZC3nVx
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1627921140822
+address: "Pinakothek der moderne "
+updatedBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+visibility: Public
+eventType: Party
+form: Yes
+createdBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+commentsCount: 0
+name: "Salsafreaks "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-03T18:00:00.000Z
+username: Katja
+viewsCount: 6

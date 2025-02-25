@@ -1,0 +1,37 @@
+facebookUrlsList: []
+isNew: true
+facebookId: ""
+facebookUrlsCount: 0
+provider: ical
+createdAt: 1730300437276
+updatedAt: 1730300437276
+importedAt: 1730300437276
+providerId: prtkn3bWcsTw1unDTbtt
+providerItemId: 6g4tgfka5ot3u88n1bvjs0ts8e@google.com
+name: Saturday Zouk Social - Boogiebären
+description: "<span>Join our weekly Saturday Zouk party. This time at Boogie
+  Bären. Come to social, get to know the other Zoukers from Munich and the
+  surrounding area. You can also use the time to practise newly learned Zouk
+  moves. We always have experienced Zouk dancers there willing to help out in
+  case you have any questions about Zouk technique. </span><span>Nessa, Curly
+  and Jin will bring out their best Zouk music and play a mix between relaxed
+  and high energy music.</span><br><span><br></span><br><br>Time: 20:00 - Open
+  End<br>Location: Boogie Bären e.V - Gneisenaustraße 16<br>Fee: 10€"
+providerCreatedAt: 1730222174000
+providerUpdatedAt: 1730222174000
+startDate: 1730574000000
+endDate: 1730592000000
+facebook: ""
+sourceUrl: ""
+location: ""
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+type: event
+username: Thomas
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+id: 4zUNcceSjOZ8NTueK0uT

@@ -1,0 +1,164 @@
+endDate: 1728698400000
+sourceUrl: https://www.facebook.com/events/388331520509479/?event_time_id=388331643842800
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1708352970000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1720123478000
+facebookId: "388331643842800"
+facebook: https://www.facebook.com/events/388331520509479/?event_time_id=388331643842800
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/388331520509479/?event_time_id=388331643842800
+eventType: Party
+providerItemId: e388331643842800@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "I ❤️ KIZOMBA FRIDAYS: London's New Kizomba Party - Every Friday"
+location: Bar Salsa Temple
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728673200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Victoria Embankment, Temple, London WC2R 2PH, UK
+  website: https://www.bar-salsa.com/temple?utm_source=gmb&utm_medium=organic&utm_campaign=homepage
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Salsa - Temple
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.115600230291502
+        lat: 51.5095537697085
+      northeast:
+        lng: -0.112902269708498
+        lat: 51.5122517302915
+    location:
+      lng: -0.114235
+      lat: 51.511005
+  address_components:
+    - types:
+        - route
+      short_name: Victoria Embankment
+      long_name: Victoria Embankment
+    - types:
+        - neighborhood
+        - political
+      short_name: Temple
+      long_name: Temple
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: WC2R 2PH
+      long_name: WC2R 2PH
+  international_phone_number: +44 20 7395 3690
+  place_id: ChIJXc0oNrQEdkgRKBgunDHdh58
+  url: https://maps.google.com/?cid=11495399779029882920
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/RVdanceco
+  name: Rhythm & Vibes Dance Co - Kizomba, Salsa & Bachata Classes in London
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621885/jqvbpeem7eyrennipzmt.jpg
+  bio: ""
+  id: JDMb57PRXbnJvE2fSl7Z
+  instagram: ""
+  username: RVdanceco
+claimed: No
+link: https://rvdance.co.uk/dance-classes-london/kizomba-classes-london/kizomba-classes-london-friday/
+description: >+
+  I ❤️ KIZOMBA FRIDAYS 💃
+
+
+  **NO ID - NO ENTRY Dress code: No Tracksuits or gym clothes
+
+
+  🔥THE HOTTEST NEW KIZOMBA PARTY IN 2024 🔥
+
+  · EVERY FRIDAY TILL 3AM
+
+  @ The Rum Room, Bar Salsa Temple 🎊
+
+
+  Kizomba Classes - 8:30pm
+
+  - Beginners Welcome 🙌
+
+  Lesson & Party only £12 (card only)
+
+
+  PARTY FREE ENTRY BEFORE 9PM 😱
+
+  - £8 before 10pm - £10 after
+
+
+  🎵KIZOMBA-SEMBA-GHETTO ZOUK-KOMPA
+
+
+  **HAPPY HOUR 4-8PM: UP TO 50% OFF DRINKS
+
+
+  Top Dj’s & Teachers on Rotation
+
+  - Dj’s: Resident G-Sousa & Gatito plus guest
+
+  - Teachers: Richard Voogt, Josy Semkiz, Mikumba, Khalifa, Shaina, Kyla & more
+
+
+  💻 rvdance.co.uk
+
+  📲 07528722813
+
+  .
+
+  #kizombalondon #kizombaclasseslondon #kizombapartylondon #Kizombauk #kizombadancing #kizombadance #kompa #zouk
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418009/wjhyjwjtct1iagadkyvn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ88-2aip_bIcRpk0rAw_csWI
+international: No
+hash: 1728673200000+ChIJXc0oNrQEdkgRKBgunDHdh58
+id: jlQhJoVoRoeFzfXUZuOy

@@ -1,0 +1,118 @@
+endDate: 1711238400000
+sourceUrl: https://www.facebook.com/events/2096398057361086/
+createdAt: 1710684370486
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710233483000
+updatedAt: 1710684370486
+importedAt: 1710684370486
+providerUpdatedAt: 1710233483000
+facebookId: "2096398057361086"
+facebook: https://www.facebook.com/events/2096398057361086/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2096398057361086/
+eventType: Party
+providerItemId: 10008574-1711152000-1711238399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Kátai Söröző, Széchenyi István út 81., Taksony, 2335, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711152000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Szentlőrinckáta, Turai u. 36, 2255 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Stüszi Vadász Söröző
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.74899916970849
+        lat: 47.5198588697085
+      northeast:
+        lng: 19.7516971302915
+        lat: 47.5225568302915
+    location:
+      lng: 19.7503481
+      lat: 47.5212077
+  address_components:
+    - types:
+        - street_number
+      short_name: "36"
+      long_name: "36"
+    - types:
+        - route
+      short_name: Turai u.
+      long_name: Turai utca
+    - types:
+        - locality
+        - political
+      short_name: Szentlőrinckáta
+      long_name: Szentlőrinckáta
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2255"
+      long_name: "2255"
+  place_id: ChIJ-ThyOxavQUcR-qlxVAjejzU
+  url: https://maps.google.com/?cid=3859547533037644282
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1710684387371
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsarevolutionbudapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710684387/ja9kxvuohnii3jgbcm0q.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1710684387371
+  owned: false
+  name: Salsa Revolution Budapest
+  place: ChIJgc-rQiyvQUcR8G4eDCnEAAQ
+  updatedAt: 1710684387371
+  username: salsa.revolution.bud
+claimed: No
+link: ""
+description: >-
+  Kedves Táncosok!
+
+
+  Március 23- án szombaton újra felcsendül a salsa és Bachata fülbemászó dallama :) 
+
+
+  Közös táncok, hideg italok és a legjobb arcok :)
+
+
+  Egyéb részletek hamarosan 😉
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684388/fqbffhulskr8jut2q1yu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Revolution Salsa Party, 03.23
+online: No
+place: ChIJgc-rQiyvQUcR8G4eDCnEAAQ
+international: No
+hash: 1711213200000+ChIJ-ThyOxavQUcR-qlxVAjejzU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgQoo4m3wEiRBwbehHETv.png?generation=1710684410061095&alt=media
+id: gQoo4m3wEiRBwbehHETv

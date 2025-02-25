@@ -1,0 +1,131 @@
+venue:
+  formatted_address: 77700 Chessy, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Chessy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 2.791775446140879
+      south: 48.85435243072335
+      north: 48.88926014236571
+      west: 2.747696670169344
+    location:
+      lng: 2.7657959
+      lat: 48.87846159999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Chessy
+      long_name: Chessy
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Seine-et-Marne
+      long_name: Seine-et-Marne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "77700"
+      long_name: "77700"
+  place_id: ChIJsXXmVeEc5kcRMF-MaMOCCwQ
+  url: https://maps.google.com/?q=77700+Chessy,+France&ftid=0x47e61ce155e675b1:0x40b82c3688c5f30
+endDate: 2023-04-16T01:00
+claimed: No
+link: https://fb.me/e/3CPYaEuGe
+description: >-
+  ✨ 𝕃𝔸 𝔽𝔸𝕄𝕀𝕃𝕀𝔸 ✨
+
+  🟡 C’est quoi ?
+
+  💥 Ta nouvelle soirée mensuelle Bachata/Kiz du dimanche ! 💥
+
+  🕖 Salle 1 : De 20h à 20h30 : Bachata initiation avec Kamel et Lisa
+
+  🕖 Salle 2 : De 20h à 20h30 : Kizomba initiation avec César et Flavie
+
+  🕢 De 20h30 à 21h30 nous te proposons 3 cours :
+
+  Salle 1 :
+
+  • Bachata débutant évolutif avec Kamel et Lisa
+
+  • Bachata intermédiaire avec Nicolas et Laurane
+
+  Salle 2 :
+
+  • Kizomba débutant évolutif avec César et Flavie
+
+  ✨️ Mais ce n'est pas tout ! ✨️
+
+  • Salle 1 : De 21h30 à 1h : Soirée 60% Bachata et 40% Kizomba avec Dj Taga'Da aux platines ! 🎧
+
+  🟡 Toujours plus !
+
+  PIXOMATH notre super photographe qui immortalisera tes meilleures danses. 📸
+
+  Notre équipe de taxis danseurs et taxis danseuses qui te feront danser toute la soirée.🕺🏻💃🏼
+
+  Des boissons et de quoi grignoter à volonté pour reprendre des forces. 🍬🍹
+
+  Un parking gratuit pour stationner facilement. 🚘
+
+  🟡 C’est où ?
+
+  Dans un lieu que tu connais peut-être déjà :
+
+  📍16 rue des quilles 77700 Chessy
+
+  🗓 C’est quand ?
+
+  Deuxième édition le dimanche 16 avril, be ready ! 🔥
+
+  💶 Le tarif ?
+
+  ⚠️ 10€ - règlement sur place en espèces uniquement!
+program: []
+type: event
+duration: 60
+cover: ""
+createdAt: 1681288658014
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJw3Bjhzc4qhIRHScGZUDcCDE
+international: ""
+updatedAt: 1681288658014
+updatedBy: izNGE3Y3EFWaEcwvLr4te8S1I4G2
+visibility: Public
+org: {}
+facebook: https://fb.me/e/3CPYaEuGe
+eventType: Party
+form: No
+createdBy: izNGE3Y3EFWaEcwvLr4te8S1I4G2
+watch:
+  count: 1
+  list:
+    DJTagaDa: true
+name: La Familia - 2éme édition ✨️
+online: ""
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-15T20:00
+username: DJTagaDa
+viewsCount: 2
+id: rl2AXZ0hKwEo3fHg13NJ

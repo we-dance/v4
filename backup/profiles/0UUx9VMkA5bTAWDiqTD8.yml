@@ -1,0 +1,22 @@
+owner: ""
+createdAt: 1693300861187
+visibility: Public
+createdBy: iFTImIIl7gQY6hpyCEVKg3LQs5u1
+owned: false
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+username: www.latin-fusion-festival.de
+viewsCount: 1
+website: https://latin-fusion-festival.de/
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: ""
+partner: ""
+reviews: []
+facebook: https://www.facebook.com/latinfusionfestival
+permission: ""
+instagram: https://instagram.com/latinfusionfestival/
+team: []
+id: 0UUx9VMkA5bTAWDiqTD8
+type: Organiser
+updatedAt: 1705954261365
+import: failed
+importError: "GET /api/v1/users/latinfusionfestival//usernameinfo/ - 404 Not Found; "

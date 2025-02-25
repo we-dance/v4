@@ -1,0 +1,157 @@
+venue:
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  website: http://www.salsa-mas.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+  international_phone_number: +49 172 8216569
+endDate:
+  _seconds: 1644094800
+  _nanoseconds: 0
+claimed: No
+link: https://salsamas.de/en/course/details/397
+description: >
+  PRACTICE EVENING
+
+  05.02.2022 Bachata practice evening
+
+  12.02.2022 Bachata practice evening
+
+  19.02.2022 Kizomba practice evening
+
+  26.02.2022 Tango practice evening
+
+
+  Prices:
+
+  1x practice evening € 10 € *
+
+  * Pay cash, please bring the correct amount money with you.
+
+
+  Important:
+
+  - 2G + applies in the Salsamás studio, no tests can be carried out at place. Please bring your ID card, vaccination card & a negative rapid test from the pharmacy or test center and show it to the teacher when entering Salsamás Studio. Boosted people don't need an extra test, but we recommend taking a quick test before coming to the practice night.
+
+
+  registration
+
+  …………………………………………….
+
+  If you are not registered on Salsamas.de, please do the following:
+
+  1. Click on register below.
+
+  2. Fill out the form and send it.
+
+  3. Check your email inbox and confirm your registration.
+
+  4. After you have confirmed, come back to the Salsamás website, log in,
+
+  go to the "Practice evening" page again and enter which dates you would like to attend.
+
+
+  If you should be registered on Salsamas.de, please do the following:
+
+  1. Log in to Salsamas.de with your login details.
+
+  2. Come back to the "Practice evening" page and enter which appointments you would like to attend.
+
+
+  Classdates:
+
+
+  FEBRUARY 2022 - SIGN UP
+
+  Location: Salsamás München, Arcisstraße 36, 80799 München
+
+
+  Saturday, February 5, 2022 7:00 PM - 10:00 PM
+    	
+  Saturday, February 12, 2022 7:00 PM - 10:00 PM
+    	
+  Saturday, February 19, 2022 7:00 PM - 10:00 PM
+    	
+  Saturday, February 26, 2022 7:00 PM - 10:00 PM
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Fb14a35a8-cf26-44f7-9cdf-2fbc36371c39?alt=media&token=ff963c69-bb4a-471b-abd6-ddd7145a8b58
+duration: "180"
+promo: No
+createdAt: 1643754574693
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1643754574693
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org: ""
+eventType: Other
+form: No
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Bachata Übungsabend mit Antonio & Friends
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-05T19:00
+username: Lakkana
+viewsCount: 9
+id: SwyXdbTOdLdpJiQZezlS

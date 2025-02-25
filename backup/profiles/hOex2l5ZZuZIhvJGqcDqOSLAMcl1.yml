@@ -1,0 +1,38 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628542300784
+locales:
+  de: true
+createdBy: hOex2l5ZZuZIhvJGqcDqOSLAMcl1
+name: GregJul
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: GregJul
+pwaUsed: false
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FhOex2l5ZZuZIhvJGqcDqOSLAMcl1%2F566052e2-3d52-4832-ae8d-6703ecf77f40?alt=media&token=226b0873-71a2-421a-83c0-b9f975c60939
+objectives:
+  outdoors: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Advanced
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1628543260176
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FGregJul.png?generation=1628543292560423&alt=media
+lastLoginAt: 1630605021828
+daysUsed: 5
+id: hOex2l5ZZuZIhvJGqcDqOSLAMcl1

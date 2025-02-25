@@ -1,0 +1,201 @@
+program: []
+createdAt: 1731862832454
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fbc1bc625-7918-4541-b79b-a701f356563c?alt=media&token=ad9aa07d-4361-419a-806a-aedef00185ba
+promotion: ""
+visibility: Public
+review: https://g.page/r/Ca_iCf0z9dH3EBM/review
+artistsList:
+  - celestemedina
+  - alexrazbakov
+watch:
+  count: 0
+  list: {}
+socialCover: ""
+commentsCount: 0
+upVotes: 0
+bookmarks: 17
+artists:
+  - name: Celeste
+    tiktok: ""
+    username: celestemedina
+    instagram: https://www.instagram.com/celestemedina?igsh=MWJhOGJkNXo0dHA1aQ%3D%3D&utm_source=qr
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FugduS2KIFpfN0LpHggYowXoHYsA2%2F6a0e8b86-2ca6-4a9d-8161-a8fbe2e7d21b?alt=media&token=e415d3c4-a37b-468b-87ad-9281c4f726f1
+    youtube: ""
+    id: ugduS2KIFpfN0LpHggYowXoHYsA2
+    facebook: ""
+  - tiktok: ""
+    youtube: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    bio: |+
+      Salsa Cubana Teacher @MontunoClub 
+      DJ @salsa.cubana.munich
+
+    instagram: https://instagram.com/alexrazbakov
+    name: Alex Razbakov
+    username: alexrazbakov
+    facebook: https://facebook.com/alexrazbakov
+star:
+  count: 0
+  list: {}
+description: >-
+  Dive deeper into the rhythmic heart of Cuba with our Salsa Cubana Intermediate
+  Workshop! Building on foundational knowledge, this intensive session will
+  elevate your dancing by introducing intricate patterns, advanced turns, and
+  styling techniques that encapsulate the essence of authentic Cuban salsa.
+
+
+  ### Pre-requisites:
+
+
+  - Proficiency in rhythm: Participants should have a solid grasp of the salsa beat and timing.
+
+  - Mastery of basic steps: Attendees need to be comfortable with the core salsa steps such as "Enchufla", "Dile Que No", and "Guapea".
+
+  - Familiarity with basic turns: Both single and double turns, including leading and following techniques.
+claimed: No
+international: No
+telegram: {}
+confirmation: You are on the guest list, see you at the event!
+duration: 60
+endDate: 1733083200000
+commentDoc:
+  body: The class today and next week is cancelled because of Tanzverbot. I just
+    got news from bar owner. I am sorry I didn't know it earlier.
+  username: alexrazbakov
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  id: TMgRwmrDtb8qg6iDv323
+  updatedAt: 1731862619067
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdAt: 1731862619067
+  postId: VikSMij4qlndl1q1OqsX
+  commentId: ""
+online: No
+promo: ""
+form: No
+commentsLast:
+  commentId: ""
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  username: alexrazbakov
+  updatedAt: 1676727633768
+  postId: LXApW1gu5g65mkAHYMCW
+  createdAt: 1676727633768
+  body: Yay! Sunday! Can't wait!
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+votes: 0
+paypal: https://paypal.me/razbakov
+checkin:
+  count: 0
+  list: {}
+styles:
+  Casino:
+    selected: true
+    level: Interested
+    highlighted: false
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+downVotes: 0
+facebookId: ""
+venue:
+  html_attributions: []
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  geometry:
+    location:
+      lat: 48.1336406
+      lng: 11.5746203
+    viewport:
+      south: 48.1323055697085
+      east: 11.5760210802915
+      north: 48.1350035302915
+      west: 11.5733231197085
+  international_phone_number: +49 89 26022811
+  url: https://maps.google.com/?cid=10819607444887102927
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  website: http://buena-vista-bar.de/
+  name: Buena Vista Bar
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - long_name: Am Einlaß
+      types:
+        - route
+      short_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - short_name: München
+      types:
+        - locality
+        - political
+      long_name: München
+    - short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80469"
+      short_name: "80469"
+  username: buena_vista_bar_munich
+org:
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  username: MontunoClub
+  facebook: https://facebook.com/MontunoClub
+  instagram: https://instagram.com/MontunoClub
+  name: MontunoClub
+  tiktok: ""
+  youtube: ""
+promotionError: ""
+venueProfile:
+  youtube: ""
+  facebook: ""
+  username: buena_vista_bar_munich
+  instagram: https://www.instagram.com/buenavistabar_oficial/
+  id: JEkADfAnw9nk7VIcgE5P
+  bio: Latino Restaurant München
+  name: Buena Vista Bar
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+  tiktok: ""
+startDate: 1733079600000
+eventType: Workshop
+playlist: https://open.spotify.com/playlist/39cUmntXWDEHFjqGmwGU8k?si=db34ec93a54d4b01&pt=445e9b025a84b5ed2b99f1a52f9164f9
+type: event
+gallery: https://photos.app.goo.gl/Tk9eXGkXHENnebJU6
+instagram: {}
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+price: pay as you wish
+name: Salsa Intermediate
+id: EXwNJ08h1NFneNLhtUPC
+hash: 1733079600000+ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+updatedAt: 1731862837701
+viewsCount: 2

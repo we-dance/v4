@@ -1,0 +1,213 @@
+endDate: 1729465200000
+sourceUrl: https://www.facebook.com/events/877937673705572/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1698847706000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1723914401000
+facebookId: "877937673705572"
+facebook: https://www.facebook.com/events/877937673705572/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/877937673705572/
+eventType: Concert
+providerItemId: e877937673705572@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Festival Afro Latino Pornichet (FALP)7EME ÉDITION "
+location: Hippodrome de Pornichet
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729266300000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 3 Av. de l’Hippodrome, 44380 Pornichet, France
+  website: http://www.hippodrome-pornichet.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Racing Society of Côte d'Amour
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.331699730291502
+        lat: 47.2583217197085
+      northeast:
+        lng: -2.329001769708498
+        lat: 47.2610196802915
+    location:
+      lng: -2.330285
+      lat: 47.25976199999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Av. de l’Hippodrome
+      long_name: Avenue de l’Hippodrome
+    - types:
+        - locality
+        - political
+      short_name: Pornichet
+      long_name: Pornichet
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Loire-Atlantique
+      long_name: Loire-Atlantique
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Pays de la Loire
+      long_name: Pays de la Loire
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "44380"
+      long_name: "44380"
+  international_phone_number: +33 2 40 61 13 94
+  place_id: ChIJd2tE8BBoBUgRatDT7f9U1JA
+  url: https://maps.google.com/?cid=10436059694707757162
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417999717
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/FALP/100088819909889/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417999/llricc8xczfzw3kyzgn1.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417999717
+  owned: false
+  name: FALP
+  place: ChIJXy1-aktdBUgRa3ogH02LEzM
+  updatedAt: 1728417999717
+  username: FALP
+claimed: No
+link: https://falp.fr/
+description: |-2
+            ▬▬▬ ⭐️ F A L P 7 ⭐️ ▬▬▬
+
+  🌍 Festival Afro-Latino Pornichet 🌎
+
+  🚨 Week-end du 18-19-20 Oct 2024🚨
+  🎗 7ème Édition - Édition Safari 🎗
+
+  🎫Full Pass
+  💳 https://falp.fr/full-pass/ 
+
+  ⛺️ Camping Bel Air Partenaire 
+  💳https://www.belairpornichet.fr/
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ⭕️ 4 Salles - 4 Ambiances ⭕️
+  ⚡️Salsa⚡️Bachata ⚡️Zokoki ⚡️World 
+  ☆ 40 heures workshop 
+  ☆ 2 concerts Cubain 
+  ☆ 3 soirées 
+  ☆ 1 show amateurs & Pro
+  ☆ Restauration sur Place
+  ☆ Navette Gratuite 
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  🎗 Artist Workshop 🎗
+  ☆ Chris & Elo 
+  ☆ Daniel & Johanna
+  ☆ Didier & Coralie
+  ☆ Edu & Gaëlle 
+  ☆ Ema Dance 
+  ☆ Espérance & Laurena 
+  ☆ Fabrice & Ludivine
+  ☆ Gerson Domingos 
+  ☆ Gervais 
+  ☆ Guy 
+  ☆ Hélène Denigot 
+  ☆ Hicham El Loco 
+  ☆ Julien & Alice
+  ☆ Junior Kingpiste 
+  ☆ Koko & Inès 
+  ☆ Miguel & Aleksandra 
+  ☆ Moh Salsa
+  ☆ Nancy
+  ☆ Ricardo Garcia 
+  ☆ Victor Valdes 
+  ☆ Thierry & Céline 
+  ☆ Yannick El Mambo 
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  🎗 Concierto Cubano 🎗
+  ☆ Geysa Maria
+  ☆ Rodney Morales Hernandez 
+  ☆ Ruben Rodriguez 
+  ☆ Wilfredo Benavides Fernandez 
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  🎗Falp Music 🎗
+  ☆ Dj Did
+  ☆ Dj Sensación 
+  ☆ Dj El Mambo 
+  ☆ Dj Moh
+  ☆ Dj Mackenz
+  ☆ Dj My'Co
+  ☆ Dj El Loco 
+  ☆ Dj Kin
+  ☆ Dj Miguel 
+  ☆ Dj Kin
+  ☆ Dj Corazón Coração 
+  ☆ Dj Will Van Hype
+  ☆ Dj Ast
+  ☆ Dj Clemzo
+  ☆ Dj Gmt Akatsuki
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  🎗 Photo - Video 🎗
+  ☆ E4 Média 
+  ☆ Edu
+  ☆ Jag Studio 
+  ☆ Philippe Jeuland
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  👗 Dress Code 👖
+  ☆ Vendredi - Safari 
+  ☆ Samedi - Élégance 
+  ☆ Dimanche - A La Cool
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  🎗 Tarif Full Pass 🎗
+  ☆ Juin - Juillet - Août - 95€
+  ☆ Septembre - 105€
+  ☆ Octobre - 120€
+  ☆ Sept - Autres Résa sur falp.fr
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418000/znlesnp54gicygv3fjft.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJXy1-aktdBUgRa3ogH02LEzM
+international: No
+hash: 1729266300000+ChIJd2tE8BBoBUgRatDT7f9U1JA
+id: oUZceAhThz0pivma12pN

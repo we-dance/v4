@@ -1,0 +1,144 @@
+venue:
+  website: http://vivacetanz.de/
+  formatted_address: Nollendorfstraße 11, 10777 Berlin, Germany
+  name: Vivace Tanzstudio
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3541005802915
+      south: 52.49672786970851
+      north: 52.49942583029151
+      west: 13.3514026197085
+    location:
+      lng: 13.3526961
+      lat: 52.4981911
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Nollendorfstraße
+      long_name: Nollendorfstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Tempelhof-Schöneberg
+      long_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10777"
+      long_name: "10777"
+  international_phone_number: +49 30 21750450
+  url: https://maps.google.com/?cid=6839389771385820681
+  place_id: ChIJUzNBV05QqEcRCVbkq8Jk6l4
+endDate:
+  _seconds: 1656615600
+  _nanoseconds: 0
+claimed: No
+link: https://la-candela-salsa.de/salsa-musicality-instruments-and-finding-the-one/
+description: >+
+  In this class, we will give you a sneak peek into the standard structure of
+  Salsa songs. We will talk about the instruments in Salsa and some of their
+  typical patterns.
+
+
+  We will also construct slowly the understanding of what really is “The 1”, why we care for it, how can we find it and how can the instruments help us find “The 1” easily.
+
+
+  We will give you the time to experience the relationship between the theory and the dance, but expect your ears to work harder than your feet in this class.
+
+
+  Who is it for?
+
+  No previous experience is technically needed beyond knowing the basic step of Salsa.
+
+
+  You will however be able to absorb the material better at a minimum of Beginner level finished.
+
+
+  The class can also give great insight to experienced and advanced dancers as you come to understand the structure of the song which can potentially make you a more musically attuned dancer.
+
+
+  More details and information:
+
+  https://la-candela-salsa.de/salsa-musicality-instruments-and-finding-the-one/
+
+
+type: event
+duration: "90"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F3357e556-21d7-4cbd-b982-5a39f07851fb?alt=media&token=a13778bc-0f3d-4ccd-a03b-0237437ebc83
+promo: Yes
+createdAt: 1654245800563
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/la.candela.salsa.school/
+    name: Ido Flaishon
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+    bio: >-
+      Salsa & Cuban dances teacher.
+
+      La Candela School head in Berlin.
+
+      Creator of the Salsayo.com project - Cuban moves international encyclopedia.
+    instagram: https://www.instagram.com/la.candela.salsa/
+    id: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+    username: idofle
+price: 15-20 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1654245800563
+updatedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+visibility: Public
+org:
+  role: organiser
+  name: Ido Flaishon
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+  username: idofle
+eventType: Workshop
+form: No
+createdBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+watch:
+  count: 1
+  list:
+    idofle: true
+name: Salsa Musicality – Instruments and Finding the one
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-06-30T19:30
+username: idofle
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FvNt0lJoPPVPhGeDnFv5a.png?generation=1654246074932922&alt=media
+viewsCount: 9
+id: vNt0lJoPPVPhGeDnFv5a

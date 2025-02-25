@@ -1,0 +1,144 @@
+venue:
+  website: http://www.weyhalla.de/
+  formatted_address: Mangfallweg 24, 83629 Weyarn, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "24"
+      short_name: "24"
+    - types:
+        - route
+      long_name: Mangfallweg
+      short_name: Mangfallweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Stürzlham
+      short_name: Stürzlham
+    - types:
+        - locality
+        - political
+      long_name: Weyarn
+      short_name: Weyarn
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Miesbach
+      short_name: MB
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "83629"
+      short_name: "83629"
+  url: https://maps.google.com/?cid=16701517978914147998
+  name: WeyHalla
+  geometry:
+    viewport:
+      south: 47.8527283197085
+      north: 47.8554262802915
+      east: 11.8040476302915
+      west: 11.8013496697085
+    location:
+      lng: 11.8027155
+      lat: 47.853996
+  place_id: ChIJ8-v8WjPynUcRnk76Bh22x-c
+  international_phone_number: +49 8020 908114
+endDate: 2021-10-01T22:00:00.000Z
+description: >
+  Hola Familia, 
+
+
+  dieses Mal tanzen wir wieder beim Girgl in seinem urigen (vorallem warmen) WeyHalla in Weyarn. 
+
+  Bitte gebt bei eurer Anmeldung euren 3 G Status dazu. 
+
+
+  Salsaludos 
+
+  euere Salsabina und das Baila y Fiesta Team💃🏼🕺🏽
+
+
+  Anmeldung bitte direkt bei Salsabina 
+
+  0176/83209699 (Anruf/Whatsapp)
+
+
+  Ort: 
+
+  WeyHalla, 
+
+  Mangfallweg 24,
+
+  83629 Weyarn
+
+
+  Zeit: 19:30 Uhr bis 24 Uhr
+type: event
+promo: Yes
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FuZ1VEvLP7bP7ryCIyMFyuUDWm7n1%2F9050f960-a227-4ee5-be12-1b83299635ec?alt=media&token=da83036e-b542-4782-938f-fa5bc4142c67
+createdAt: 1632924118844
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FozLOl83o37c7O44ROQ7E.png?generation=1633004955187394&alt=media
+commentsLast: ~
+place: ""
+id: ozLOl83o37c7O44ROQ7E
+views: 1
+updatedAt: 1632924118844
+updatedBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+visibility: Public
+confirmation: |
+  Hola lieber Gast,
+  bitte die Anmeldung direkt an mich 
+  0176/83209699 (Anruf/Whatsapp).
+  Gracias!
+  Salsaludos Salsabina
+eventType: Party
+organiser: MiMe72
+form: No
+createdBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+commentsCount: 0
+name: Salsajubiläum Weyarn - (Rosenheim/München)
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-01T17:30:00.000Z
+username: MiMe72
+viewsCount: 2

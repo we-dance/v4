@@ -1,0 +1,31 @@
+visibility: Public
+timezone: GMT+0300
+type: Dancer
+createdAt: 1627220315108
+locales:
+  en: true
+  et: true
+  tr: true
+createdBy: EACZN2Erdje4Fs0GSSddsTbkTUx1
+name: Viker
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Viker
+pwaUsed: false
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEACZN2Erdje4Fs0GSSddsTbkTUx1%2F8366103b-1925-44db-ad7d-d8e2827ff030?alt=media&token=512093a9-5046-4c26-ae7b-a023ae88bcd1
+step: photo
+updatedAt: 1628364921536
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FViker.png?generation=1628364965143314&alt=media
+daysUsed: 6
+lastLoginAt: 1636828605506
+id: EACZN2Erdje4Fs0GSSddsTbkTUx1

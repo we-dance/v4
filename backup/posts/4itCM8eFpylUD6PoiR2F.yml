@@ -1,0 +1,188 @@
+endDate: 1713097800000
+sourceUrl: https://www.facebook.com/events/981753366639072/
+createdAt: 1711220045047
+approved: true
+provider: ical
+providerId: UpUEUY8GVX2mNAFJIA5n
+providerCreatedAt: 1709208564000
+importedAt: 1711220045047
+providerUpdatedAt: 1709208666000
+facebookId: "981753366639072"
+facebook: https://www.facebook.com/events/981753366639072/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/981753366639072/
+providerItemId: e981753366639072@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Fusion All Stars Timba Special with Yoyo Flow & Laura del Vecchio
+location: Rupert-Mayer-Str. 44, München
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1713036600000
+facebookUrlsCount: 1
+username: Aina
+visibility: Public
+claimed: No
+link: ""
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711220066/wayq3jjnqym1uaonpdzb.jpg
+duration: 60
+form: No
+watch:
+  count: 0
+  usernames: []
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4itCM8eFpylUD6PoiR2F.png?generation=1711220097164755&alt=media
+venue:
+  formatted_address: Rupert-Mayer-Straße 44, 81379 München, Germany
+  website: http://delvecchio-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Del Vecchio Dance im Fechtzentrum
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5371798802915
+      south: 48.0958963697085
+      north: 48.0985943302915
+      west: 11.5344819197085
+    location:
+      lng: 11.5358577
+      lat: 48.0971327
+  address_components:
+    - types:
+        - street_number
+      short_name: "44"
+      long_name: "44"
+    - types:
+        - route
+      short_name: Rupert-Mayer-Straße
+      long_name: Rupert-Mayer-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  international_phone_number: +49 176 20730063
+  place_id: ChIJaYQhotXenUcRAqft_0GYUkg
+  url: https://maps.google.com/?cid=5211395128055146242
+  username: laura.delvecchio87
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Del-Vecchio-Dance/100037978854946/
+  name: Laura Del Vecchio
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F940a7ab4-a7df-445c-a0f3-70e7a65a6c4a?alt=media&token=23669c3d-2ddf-4b92-b2c8-87112b072fbf
+  bio: |-
+    Del Vecchio Dance - Dance Studio
+    Dance/Fitness/Lifestyle/Mindsetinspiration
+  id: BFrJJLVsHPfGH0W5gHJFqPIKnkA2
+  instagram: https://instagram.com/laura.delvecchio87
+  username: laura.delvecchio87
+id: 4itCM8eFpylUD6PoiR2F
+hash: 1713036600000+ChIJaYQhotXenUcRAqft_0GYUkg
+description: |-
+  We have a brilliant special for you 😍
+
+  Yoyo Flow is back in Munich and this time we've created something new for you:
+
+  Timba With Live Percussion and a great party with the incredible Dj Tom 🤩
+
+  ### Schedule:
+
+  #### Saturday 13.04.24
+
+  9.30 pm - 10.30pm
+  Timba Partnerwork followed by a party
+
+  Warm Up Workshop and Party Location:
+  Salsa on Stage:
+  Haager Str. 10a, 81671 München
+  Party Fee : 18€
+
+  #### Sunday 14.04.24
+
+  Del Vecchio Dance Studio
+  11am-12.30pm
+  Timba Solo with Live Percussion ✨️
+  12.45pm - 2pm
+  Reparto
+
+  ### Workshop Fee:
+  - Fullpass incl. Party - 105€
+  - Single WS: 35€ (for Saturday Workshop Party is included)
+eventType: Festival
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/yoandy.villaurrutia
+    name: Yoyo Flow
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Ff59a2964-1355-4b79-850a-470e445f4bf8?alt=media&token=c48a01d7-30c7-49a5-b1d0-ce05042ae504
+    bio: |-
+      Professional dancer & choreographer Founder of NewStyle
+      Italy |Spain
+    id: QiGveilrAtrTFt7hjjA7
+    instagram: https://instagram.com/yoyoflowofficial
+    username: yoyoflowofficial
+artistsList:
+  - yoyoflowofficial
+price: "WS: 35€ • Fullpass: 105€ "
+specialOffer: Win Ticket
+confirmation: '[Join our lottery](https://www.instagram.com/p/C5WIGwYijjn/) to
+  win a Ticket for "Warm Up Workshop and Party"'
+star:
+  count: 2
+  usernames:
+    - Joantorsiello
+    - alexrazbakov
+  history:
+    - username: Joantorsiello
+      date: 1712309570111
+      invitedBy: ""
+      uid: LypeMZXMMRQTE9IPEbdFV8XdStK2
+      action: joined
+    - username: alexrazbakov
+      date: 1712833461330
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+viewsCount: 20
+hotDeal: No
+updatedAt: 1713631265126

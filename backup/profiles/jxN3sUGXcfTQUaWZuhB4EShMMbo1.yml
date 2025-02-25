@@ -1,0 +1,45 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1641890253054
+createdBy: jxN3sUGXcfTQUaWZuhB4EShMMbo1
+name: yumi
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: yumi
+pwaUsed: false
+locales:
+  de: true
+  en: true
+gender: Female
+partner: Yes
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  SalsaNewYork:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+height: "150"
+updatedAt: 1641890386249
+offers: []
+viewsCount: 3
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FjxN3sUGXcfTQUaWZuhB4EShMMbo1%2Fc3d2b575-9c93-4192-a5e5-8ea2b6c3c8dd?alt=media&token=15c521f0-45e1-424b-a850-307abe7146d4
+team: []
+id: jxN3sUGXcfTQUaWZuhB4EShMMbo1
+lastLoginAt: 1726401261419
+daysUsed: 7

@@ -1,0 +1,150 @@
+venue:
+  formatted_address: Rungestraße 20, 10179 Berlin, Germany
+  website: http://artdance-berlin.blogspot.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Artdance Tanzstudio
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4213437802915
+      south: 52.5110790697085
+      north: 52.51377703029149
+      west: 13.4186458197085
+    location:
+      lng: 13.4200077
+      lat: 52.5125964
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Rungestraße
+      long_name: Rungestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10179"
+      long_name: "10179"
+  international_phone_number: +49 176 45607369
+  place_id: ChIJpzm7_bZPqEcRcQK-amFF7wM
+  url: https://maps.google.com/?cid=283521586252612209
+endDate: 2023-06-11T18:00
+claimed: No
+link: https://www.artdance-tanzstudio.com/2017/12/samba-no-pe-tanzworkshop-in-berlin-am.html
+description: >-
+  AM  10.UND 11. JUNI 2023 VON 15:00 UHR BIS 18:00 UHR MIT AILTON SILVA
+
+
+  6 STUNDEN WORKSHOPS FÜR ALLE LEVELS.
+
+  Es spielt keine Rolle, ob bzw. wie viel Tanzerfahrung Sie haben. Ailton Silva hilft Ihnen bei der Erarbeitung und Umsetzung Ihrer ganz persönlichen Ziele.
+
+
+  * SAMBA INTRODUKTION + BASIS 
+
+  Von 15:00 Uhr bis 16.00 Uhr
+
+  wir werden die Grundschritte des Sambas lernen. Besonderes Augenmerk wird nicht nur auf die technisch saubere Durchführung der Schrittfolgen, sonder auch besonders auf die Bewegungen der Hüfte und der Arme gelegt (Biomechanik)! 
+
+  Der Samba ist ein Tanz, der mit dem ganzen Körper getanzt wird.
+
+
+  * SAMBA KOMBINATION + MUSIKALITÄT 
+
+  Von 16:00 Uhr bis 18:00 Uhr
+
+  Bei diesem Moment, das Universum ist unser Limit!!!
+
+  Neue Samba-schritte, Bewegungskombinationen , Kleine Choreographien von andere Samba-Tanzstile und viele mehr.
+
+
+  PREISE PRO PERSON:
+
+  Samstag oder Sonntag (3 Stunden): 40,- €
+
+  BEIDE TAGE (6 Stunden): 60,-€
+
+
+  ANGEBOTE:
+
+  Wenn Sie eine Person mitbringen, bekommen sie als Dankeschön  10,-€ Rabatt auf dem Beide Tage Workshop.
+
+
+  Samba No Pé Brazilian Style
+
+  Samba no Pé ist ein Solo-Tanz, die am häufigsten getanzt, improvisierte beim auf Samba-Musik. Das Basiswerk umfasst einen geraden Körper und eine Biegung ein Knie auf einmal. Die Füße bewegen sich sehr leicht - nur ein paar Zentimeter zu einer Zeit. Der Rhythmus ist 2 / 4, mit 3 rückwärts Schritten pro Takt. Es kann als ein wechsel Schritt (auf dem platz) beschreiben nannte.
+
+  Der elegante und energievolle Sambatanz ist das Markenzeichen Brasiliens und aus der brasilianischen Kultur nicht wegzudenken.
+
+
+  Mein Samba Workshop bietet eine intensive Begegnung mit der faszinierenden brasilianischen Tanzkultur. Die Teilnehmer werden die vielfältigen Bewegungen des Sambatanzes erkunden, die wichtigsten Grundschritte erlernen und Tanzfiguren einstudieren. Samba weckt TANZLUST PUR und fördert auf besondere Weise die motorische Koordination, das Rhythmusgefühl und „Axé“ (Energie)!
+
+
+  Mit Spaß und großartiger Partystimmung durch den heißen Musik- Mix aus Samba, Afro, Funk, Samba-Reggae und Samba Axé.
+
+  Geleitet wird der Workshop von der brasilianischen Profitänzer Ailton Silva. Echtes Sambafeeling ist also garantiert.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2Ff6277d7d-9187-49fe-9bf3-9607c2fea8ac?alt=media&token=3bf8bf9b-ae60-4589-b1b7-2f7724836596
+createdAt: 1684144433096
+artists:
+  - instagram: https://instagram.com/ailtonartdance
+    username: ailtonartdance
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - ailtonartdance
+international: No
+updatedAt: 1684144433096
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+org:
+  instagram: https://instagram.com/artdancetanzstudio
+  username: artdancetanzstudio
+eventType: Workshop
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    aslihan: true
+name: SAMBA NO PÉ TANZWORKSHOP
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-10T15:00
+username: aslihan
+viewsCount: 2
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fvf7nFE9kV7cxF6T4K0wv.png?generation=1684144494029820&alt=media
+id: vf7nFE9kV7cxF6T4K0wv

@@ -1,0 +1,39 @@
+address: Adolf-Kolping-Straße 10
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate:
+  _seconds: 1603740600
+  _nanoseconds: 0
+city: Munich
+link: https://joinloca.com/courses-and-prices
+description: Learn figures ideal for social dancing!
+eventType: Course
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fc96f9ZjvlvbWIHVlXSpbpPn1lan2%2Fd45cf93e-4d1c-4b49-9a3b-4a8e0bea32d3?alt=media&token=44e2d084-e020-412c-bf8f-3a7c2cb5d2ab
+organiser: The LOCA Project
+createdAt: 1601932010200
+watchersCount: 0
+createdBy: c96f9ZjvlvbWIHVlXSpbpPn1lan2
+commentsCount: 0
+name: Intermediate Bachata
+commentsLast: ~
+styles:
+  Bachata:
+    level: Intermediate
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: p1dq7uNVxNeJIqmMTCmT
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate:
+  _seconds: 1603737000
+  _nanoseconds: 0
+username: Rebecca
+updatedAt: 1617065903323
+viewsCount: 1

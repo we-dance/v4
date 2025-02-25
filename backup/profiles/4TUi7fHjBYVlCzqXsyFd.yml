@@ -1,0 +1,73 @@
+createdAt: 1728828379565
+website: https://strikefit.de/
+rooms: ""
+address:
+  formatted_address: Berliner Str. 312, 63067 Offenbach am Main, Germany
+  website: https://strikefit.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: STRIKEFIT
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.7410644302915
+      south: 50.1037662697085
+      north: 50.1064642302915
+      west: 8.738366469708495
+    location:
+      lng: 8.739730699999999
+      lat: 50.1050027
+  address_components:
+    - types:
+        - street_number
+      short_name: "312"
+      long_name: "312"
+    - types:
+        - route
+      short_name: Berliner Str.
+      long_name: Berliner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Frankfurt-Süd
+      long_name: Frankfurt-Süd
+    - types:
+        - locality
+        - political
+      short_name: Offenbach am Main
+      long_name: Offenbach am Main
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Offenbach am Main
+      long_name: Kreisfreie Stadt Offenbach am Main
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: DA
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HE
+      long_name: Hessen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "63067"
+      long_name: "63067"
+  international_phone_number: +49 69 80089994
+  place_id: ChIJZV978bQPvUcRUY07Re9gSN8
+  url: https://maps.google.com/?cid=16089216249556077905
+gender: Other
+phone: +49 69 80089994
+name: STRIKEFIT
+updateAt: 1728828379565
+type: Venue
+map: ""
+username: strikefit.de
+id: 4TUi7fHjBYVlCzqXsyFd

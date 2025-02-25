@@ -1,0 +1,123 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bcn-dance-life-hot-weekend/
+sourceUrl: https://facebook.com/events/870412741811818
+venue:
+  address_components:
+    - long_name: "45"
+      short_name: "45"
+      types:
+        - street_number
+    - long_name: Calle Real
+      short_name: C. Real
+      types:
+        - route
+    - long_name: Villanueva de la Cañada
+      short_name: Villanueva de la Cañada
+      types:
+        - locality
+        - political
+    - long_name: Madrid
+      short_name: M
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Comunidad de Madrid
+      short_name: MD
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "28691"
+      short_name: "28691"
+      types:
+        - postal_code
+  formatted_address: C. Real, 45, 28691 Villanueva de la Cañada, Madrid, Spain
+  geometry:
+    location:
+      lat: 40.44694239999999
+      lng: -4.0044669
+    viewport:
+      northeast:
+        lat: 40.4482639302915
+        lng: -4.003072369708498
+      southwest:
+        lat: 40.4455659697085
+        lng: -4.005770330291503
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 918 11 73 10
+  name: Hotel don angel
+  place_id: ChIJv7u_49abQQ0Ro6DoeQgNens
+  url: https://maps.google.com/?cid=8897438343880024227
+  website: http://www.hoteldonangeli.com/
+endDate: 1753675200000
+claimed: No
+link: https://www.goandance.com/es/eventos/7224-bcn-dance-life-hot-weekend-julio-2025
+description: >-
+  Apreciada familia BCN Dance LIFE 💝💝💝
+
+
+  El reencuentro más ardiente de la historia se avecina...🔥🔥🔥
+
+
+  💃🏼💃🏼BCN DANCE LIFE HOT WEEKEND 💃🏼💃🏼
+
+
+  MUY IMPORTANTE: ante ningún caso se devolverá el importe de ninguna entrada adquirida por circunstancias ajenas al evento. Únicamente se emitiría su reembolso en caso de la cancelación del mismo. 
+
+
+  Nos complace mucho poder iniciar una nueva era, volver a vivir, volver a bailar...
+
+
+  No pienses ni preguntes mucho, reserva rápido que en nada se agota.
+
+
+  Ven y forma parte del episodio más importante de nuestras vidas, ¡la tuya! 
+
+
+  BCN Dance LIFE
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/wls5xzgzrrfcsponuhjn.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJX81KHHSZQQ0Rf2ZX3jSOmj4
+international: No
+visibility: Public
+org:
+  createdAt: 1732293941682
+  importedAt: 1732293941682
+  updatedAt: 1732293941682
+  source: facebook
+  name: bcndancelife
+  facebook: https://www.facebook.com/bcndancelife
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/npm0tm8lrgtj6jmxcvcs.png
+  username: bcndancelife
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJX81KHHSZQQ0Rf2ZX3jSOmj4
+facebook: https://www.facebook.com/events/870412741811818/
+facebookId: "870412741811818"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: BcnDanceLife HOT Weekend 2025
+online: No
+styles: {}
+hash: 1753448400000+ChIJv7u_49abQQ0Ro6DoeQgNens
+startDate: 1753448400000
+id: JrwYEPx5kHHFMZ1OGFSP

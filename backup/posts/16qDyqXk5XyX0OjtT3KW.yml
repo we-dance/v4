@@ -1,0 +1,155 @@
+venue:
+  website: http://www.maillingerstudios.de/
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Maillinger Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5473257802915
+      south: 48.1478957697085
+      north: 48.1505937302915
+      west: 11.5446278197085
+    location:
+      lng: 11.5458639
+      lat: 48.1492179
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa926f8da-fcc0-4484-8f02-f2b5169ffd0c?alt=media&token=3bc31b37-bc8d-4b56-8620-4c5b15d6a7ca
+  url: https://maps.google.com/?cid=13863343811033550901
+  place_id: ChIJc2-q5aJ3nkcRNdDDt759ZMA
+  international_phone_number: +49 89 36108944
+  room: Saal 3
+endDate: 2023-02-22T20:00
+claimed: No
+link: https://forms.gle/TR8qWxH4gCFLdXoT8
+description: >-
+  Our Bachata Sensual (intermediate) course is build on what you learned on the
+  Bachata Sensual Beginner Course and covers all essential techniques, cool new
+  moves, and following tips to get you dancing better and really enjoying the
+  experience on the dance floor.
+
+
+  During this course you will discover that dancing is more than a movement – it’s a passion and love for music and your body is an instrument to express it.
+program: []
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGgOplXgNX1PA5LRyB7QJbW13fHt2%2Ffeb22373-894c-4c56-aa19-1bb5be4e9c9c?alt=media&token=f4d9f864-6355-4e87-a5ac-026f01ed55d9
+createdAt: 1676919987469
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/profile.php?id=100082222737215
+    name: Dalidance
+    bio: let's learn Bachata together in Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGgOplXgNX1PA5LRyB7QJbW13fHt2%2Fd5951196-b675-4669-b6b3-030a81c7a8cb?alt=media&token=1b20e2eb-75d5-49dc-b98d-9f9c0af8fc3b
+    id: GgOplXgNX1PA5LRyB7QJbW13fHt2
+    instagram: https://instagram.com/aliydanai_dali?igshid=YmMyMTA2M2Y=
+    username: DaliDance
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Aly Salman
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fa1y9uTQtbrSnpZaBwQ6BixXgeSB2%2Ff0c66bcd-66d1-4f7d-9e50-bfc1ab2943c8?alt=media&token=25675c34-6292-4127-8e68-6a33162f4f01
+    bio: to Dance is to Live
+    id: a1y9uTQtbrSnpZaBwQ6BixXgeSB2
+    instagram: https://www.instagram.com/_salman.alii_/
+    username: AlySalman
+price: 13 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - DaliDance
+  - AlySalman
+id: 16qDyqXk5XyX0OjtT3KW
+international: ""
+updatedAt: 1676919987469
+updatedBy: GgOplXgNX1PA5LRyB7QJbW13fHt2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100082222737215
+  name: Dalidance
+  bio: let's learn Bachata together in Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGgOplXgNX1PA5LRyB7QJbW13fHt2%2Fd5951196-b675-4669-b6b3-030a81c7a8cb?alt=media&token=1b20e2eb-75d5-49dc-b98d-9f9c0af8fc3b
+  id: GgOplXgNX1PA5LRyB7QJbW13fHt2
+  instagram: https://instagram.com/aliydanai_dali?igshid=YmMyMTA2M2Y=
+  username: DaliDance
+upVotes: 0
+eventType: Course
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: GgOplXgNX1PA5LRyB7QJbW13fHt2
+commentsCount: 0
+name: Bachata Sensual Wednesday Intermediate Course
+online: ""
+styles:
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-02-22T19:00
+username: DaliDance
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F16qDyqXk5XyX0OjtT3KW.png?generation=1677062126361607&alt=media
+telegram:
+  requestedAt: 1677062129593
+  messageUrl: https://t.me/WeDanceMunich/933
+  publishedAt: 1677062135129
+  messageId: 933
+  state: published
+instagram:
+  requestedAt: 1677062136027
+  messageUrl: https://instagram.com/p/Co9ib5VuILO
+  publishedAt: 1677062153211
+  messageId: Co9ib5VuILO
+  state: published
+viewsCount: 66

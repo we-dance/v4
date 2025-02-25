@@ -1,0 +1,159 @@
+sourceUrl: https://www.facebook.com/events/s/udance-social-set/975995974305738/
+createdAt: 1719263691204
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1719263691204
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Rua da Cintura do Porto de Lisboa, Edifício 78, Armazém I,
+    Tv. Nova de Santos 3 4/5, 1200-109 Lisboa, Portugal
+  website: http://udance.pt/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Udance Escola de Dança
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.156504080291501
+        lat: 38.7046218697085
+      northeast:
+        lng: -9.153806119708499
+        lat: 38.7073198302915
+    location:
+      lng: -9.1551345
+      lat: 38.7059107
+  address_components:
+    - types:
+        - subpremise
+      short_name: 4/5
+      long_name: 4/5
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Tv. Nova de Santos
+      long_name: Travessa Nova de Santos
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Estrela
+      long_name: Estrela
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 1200-109
+      long_name: 1200-109
+  international_phone_number: +351 912 160 967
+  place_id: ChIJyW63wGM1GQ0RQz0qdpwa3z8
+  url: https://maps.google.com/?cid=4602426603495636291
+endDate: ""
+claimed: No
+link: https://thelastseat.com/wjaqv
+description: >-
+  O UDance Social Set é um evento de danças sociais, em que tu danças a par, de
+  forma descontraída e lúdica ao som de ritmos latinos e africanos.
+
+
+  Podes dançar em 3 pistas de dança temáticas, climatizadas, com Dj’s convidados, pisos especiais para a prática da dança e sistema de luz e som profissional.
+
+
+  O UDance Social Set, inicia com aulas de dança onde podes aprender alguns novos passos em diversos estilos.
+
+
+  A UDance está localizada em frente à estação de comboio de Santos, numa localização privilegiada com estacionamento público gratuito, com serviço de bar e um ambiente acolhedor.
+
+
+  Reserva a tua vaga e garante o teu lugar no UDance Social Set. O valor da entrada aumenta terminando o 1º Lote de bilhetes.
+
+
+  Programa:
+
+
+  17h30 Abertura de portas
+
+
+  18h00 Aulas de abertura pista
+
+  Bachata c/ Paulo & Patrícia
+
+  Cha cha cha c/ Duarte & Cátia
+
+
+  19h00 Abertura pistas:
+
+  Pista Salsa c/ DJ Guima Rosário
+
+  Pista Africana c/ DJ Emerson Franklin
+
+  Pista Bachata c/ Ray DJ Music
+
+
+  22h30 Fecho de portas
+
+
+  - Temos serviço de bengaleiro gratuito;
+
+  - Idade mínima para participar é de 16 anos;
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/udanceschoollisboa
+  name: U Dance School
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774286/fxguv4a8ft3dzb9sz2vq.jpg
+  bio: ""
+  id: QFdUkmx2qkdFrSdSTK3N
+  instagram: ""
+  username: u.dance.school
+facebook: https://www.facebook.com/events/975995974305738/
+facebookId: "975995974305738"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: UDance Social Set
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1719765000000+ChIJyW63wGM1GQ0RQz0qdpwa3z8
+startDate: 1719765000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719263702/lcpc8xqmn2h0u9gppf72.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpVYz3ZYUBf8rAGXxEUon.png?generation=1719263714429711&alt=media
+id: pVYz3ZYUBf8rAGXxEUon

@@ -1,0 +1,140 @@
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  website: http://www.birdbar.de/
+  name: Bird Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+  international_phone_number: +49 89 55969710
+endDate: 2023-01-04T01:00
+claimed: No
+description: >-
+  Toca Toca - 2023 Welcome Back Party💫🥂🍾
+
+  Lets celebrate a new year of new adventures, of love & peace, of dancing - lets welcome 2023 all together!!
+
+  With Ellsys on the deck for the best of Kizomba, Urban Kiz, Tarraxa, Ghetto Zouk, Kompa, Douceur, and much more 🎶🎧 to make you dance all night 💃🕺
+
+  📍Bird bar 🦜
+
+  ⏰ 9 pm - 1 am
+
+  💵 10 €
+program: []
+type: event
+promo: Yes
+duration: 60
+createdAt: 1672216390102
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Ellsys Willy Douceur
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0c7adb5d-952a-4d8e-9783-888b9dde9494?alt=media&token=0b1cf646-a3cc-4d9f-a60d-ae047c99b4c8
+    bio: Beatmaker & DJ
+    instagram: https://instagram.com/ellsys_official
+    id: 5gzli868zpuP62wyDqzx
+    username: ellsys_official
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - ellsys_official
+international: No
+updatedAt: 1672216390102
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/djomega.christina
+  name: Toca Toca
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+  bio: The only weekly Tuesday & Thursday Kizomba parties in Munich
+  instagram: https://instagram.com/djomega_official
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  username: TocaToca
+facebook: https://fb.me/e/2dbsc4wml
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 1
+  list:
+    TocaToca: true
+name: Toca Toca - 2023 Welcome Back Party💫🥂🍾
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-03T21:00
+username: TocaToca
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2Fd5fdd4bb-f595-4ec4-ba9d-689f0c94e723?alt=media&token=bf8eac53-f0ca-499f-8d2b-4c389c18b4ec
+id: KK42IgjNeU0OIXdO2D0v
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKK42IgjNeU0OIXdO2D0v.png?generation=1672424433497236&alt=media
+telegram:
+  requestedAt: 1672424446754
+  messageUrl: https://t.me/WeDanceMunich/761
+  publishedAt: 1672424447112
+  messageId: 761
+  state: published
+star:
+  count: 1
+  list:
+    AnnaNym: true
+viewsCount: 50

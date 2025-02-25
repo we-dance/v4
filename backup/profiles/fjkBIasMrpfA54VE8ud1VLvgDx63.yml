@@ -1,0 +1,37 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1618260745139
+createdBy: fjkBIasMrpfA54VE8ud1VLvgDx63
+name: MonaRazavi
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: MonaRazavi
+lastLoginAt: 1618260745378
+daysUsed: 1
+pwaUsed: false
+updatedBy: fjkBIasMrpfA54VE8ud1VLvgDx63
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfjkBIasMrpfA54VE8ud1VLvgDx63%2F964777ce-0847-446f-9906-877ce2d8d8e2?alt=media&token=48b1f917-2216-457f-81a0-2356d5291e5c
+styles:
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+id: fjkBIasMrpfA54VE8ud1VLvgDx63
+updatedAt: 1618261037265
+locales:
+  de: true
+  en: true
+  es: true
+teacher: Yes
+contacts: Yes
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FMonaRazavi.png?generation=1621357271602202&alt=media
+instagram: https://instagram.com/Monasitarazavi
+viewsCount: 54

@@ -1,0 +1,33 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631765836746
+locales:
+  en: true
+createdBy: 0zTF7VJzAVQi43ydgyepk4YYhmH2
+name: Kabana
+place: ChIJcb2YQi-3xUcREGwejVreAAQ
+username: Kabana
+lastLoginAt: 1631765836893
+daysUsed: 1
+pwaUsed: false
+gender: Male
+objectives:
+  talk: true
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1631765893197
+viewsCount: 4
+id: 0zTF7VJzAVQi43ydgyepk4YYhmH2

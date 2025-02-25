@@ -1,0 +1,186 @@
+venue:
+  website: http://www.studiobeemcr.com/
+  formatted_address: 14-16 Faraday St, Manchester M1 1BE, UK
+  name: Studio Bee Photography Studio
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -2.231533369708498
+      south: 53.4812664697085
+      north: 53.4839644302915
+      west: -2.234231330291502
+    location:
+      lng: -2.232929
+      lat: 53.4826379
+  address_components:
+    - types:
+        - street_number
+      short_name: 14-16
+      long_name: 14-16
+    - types:
+        - route
+      short_name: Faraday St
+      long_name: Faraday Street
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M1 1BE
+      long_name: M1 1BE
+  place_id: ChIJowFQsL6xe0gRSIv-feW3nps
+  international_phone_number: +44 7855 939129
+  url: https://maps.google.com/?cid=11213602318488341320
+claimed: No
+description: >-
+  💃💫Brazilian ZOUK on FRIDAYS!!!!💫💃
+
+  JOIN US for our Brazilian ZOUK FRIDAY ~ CLASS and SOCIAL ~ with our ✨Free Fundamentals Class✨ to get your basics practiced and help prepare you for some smooth moves in our 💫OPEN LEVEL class💫
+
+  🌟 Beginners welcome 🌟
+
+  💫Free Zouk fundamentals class 19:30
+
+  🌟OPEN LEVEL class 20:10
+
+  ✨Social 21:00
+
+  Improvers class and Social £8
+
+  Social Only £5
+program:
+  - artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/betts.corrigan
+        name: betts.corrigan
+        photo: ""
+        bio: ""
+        id: 37mDufSg9NL9kU4iq8c4
+        instagram: ""
+        username: betts.corrigan
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/giuseppe.palumbo.792
+        name: giuseppe.palumbo.792
+        bio: ""
+        photo: ""
+        id: j1ZuzbzNdKAOVhZWKwB2
+        instagram: ""
+        username: giuseppe.palumbo.792
+    endDate: 2023-02-10T21:00
+    name: Class
+    eventType: Workshop
+    startDate: 2023-02-10T19:30
+  - artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/giuseppe.palumbo.792
+        name: giuseppe.palumbo.792
+        bio: ""
+        photo: ""
+        id: j1ZuzbzNdKAOVhZWKwB2
+        instagram: ""
+        username: giuseppe.palumbo.792
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: DJ Kai (HalfcubeDance)
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F59oFxtlbtAXrbjFZH7PABuwk01N2%2Fc6225ab7-774f-4ed8-9936-6a5ebb35edc8?alt=media&token=9068280e-592c-45fc-b77c-842367210f50
+        bio: ""
+        instagram: https://instagram.com/halfcubedance
+        id: 59oFxtlbtAXrbjFZH7PABuwk01N2
+        username: halfcubedance
+    endDate: 2023-02-10T23:30
+    name: Party
+    eventType: Party
+    startDate: 2023-02-10T21:00
+type: event
+duration: 60
+cover: ""
+createdAt: 1677537428341
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/betts.corrigan
+    name: betts.corrigan
+    photo: ""
+    bio: ""
+    id: 37mDufSg9NL9kU4iq8c4
+    instagram: ""
+    username: betts.corrigan
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/giuseppe.palumbo.792
+    name: giuseppe.palumbo.792
+    bio: ""
+    photo: ""
+    instagram: ""
+    id: j1ZuzbzNdKAOVhZWKwB2
+    username: giuseppe.palumbo.792
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Kai (HalfcubeDance)
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F59oFxtlbtAXrbjFZH7PABuwk01N2%2Fc6225ab7-774f-4ed8-9936-6a5ebb35edc8?alt=media&token=9068280e-592c-45fc-b77c-842367210f50
+    instagram: https://instagram.com/halfcubedance
+    id: 59oFxtlbtAXrbjFZH7PABuwk01N2
+    username: halfcubedance
+price: 5 GBP
+artistsList:
+  - betts.corrigan
+  - giuseppe.palumbo.792
+  - halfcubedance
+place: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+international: No
+updatedAt: 1677537428341
+updatedBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/espirito-latino-295535240556713
+  name: espirito-latino-295535240556713
+  bio: ""
+  photo: ""
+  id: GpxiDTQdJuvV0lFtvN5z
+  instagram: ""
+  username: espirito-latino-295535240556713
+facebook: https://fb.me/e/2IR7sCvbS
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    halfcubedance: true
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+name: 💃💫Brazilian ZOUK on FRIDAYS!!!!💫💃
+online: No
+styles: {}
+username: halfcubedance
+star:
+  count: 1
+  list:
+    halfcubedance: true
+endDate: 2023-03-10T23:30
+id: EU7FydwtCozVhDuDMKvr
+startDate: 2023-03-10T19:30
+viewsCount: 57

@@ -1,0 +1,186 @@
+venue:
+  website: https://www.leonardo-hotels.de/munich/leonardo-hotel-munich-arabellapark?utm_source=gmb&utm_medium=link_site_gmb&utm_campaign=leonardo-hotel-munich-arabellapark
+  formatted_address: Effnerstraße 99, 81925 München, Germany
+  name: Leonardo Hotel Munich Arabellapark
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6216065302915
+      south: 48.1584507197085
+      north: 48.1611486802915
+      west: 11.6189085697085
+    location:
+      lng: 11.6202658
+      lat: 48.1598575
+  address_components:
+    - types:
+        - street_number
+      short_name: "99"
+      long_name: "99"
+    - types:
+        - route
+      short_name: Effnerstraße
+      long_name: Effnerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bogenhausen
+      long_name: Bogenhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81925"
+      long_name: "81925"
+  place_id: ChIJ5yKwgg91nkcREgpRwgxAk-4
+  url: https://maps.google.com/?cid=17191154626147191314
+  international_phone_number: +49 89 927980
+endDate: 2023-11-05T03:00
+claimed: No
+link: https://www.tickettailor.com/events/halloweenbachataweekend/852280
+program: []
+type: event
+duration: 60
+createdAt: 1676538431191
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1676538431191
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+eventType: Congress
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Halloween Bachata Weekend 2.0
+online: No
+startDate: 2023-11-03T13:30
+username: AnnaMil
+id: F0SluHeF4wOSo6uACVHs
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  instagram: https://instagram.com/milite_anna
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  username: AnnaMil
+facebook: https://www.facebook.com/halloweenbachataweekend
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Ff339d1d6-689f-4d20-8348-927c5e7284c9?alt=media&token=e72c81b4-8e31-43f3-940a-a0313295b84e
+price: 75 EUR
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Marcelobachata
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmarcelobachata.png?generation=1655306706192930&alt=media
+    bio: |-
+      🕺Professional Bachata Dancer
+      🥇World Bachata Champion 🏆
+      Curso trucos para el social link en destacadas
+      I teach you BACHATA tricks and dips int-adv👇
+    instagram: https://instagram.com/marcelobachata
+    id: 2Zzu2Isxrq7m71el3Hep
+    username: marcelobachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: alexandros_dancer
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/alexandros_dancer
+    id: YaBGwW5EIj05zf958BWh
+    username: alexandros_dancer
+  - instagram: https://instagram.com/nasti.bachata
+    username: nasti.bachata
+  - instagram: https://instagram.com/svitlana_kulygina
+    username: svitlana_kulygina
+  - instagram: https://instagram.com/leandroyjomanteoficial
+    username: leandroyjomanteoficial
+  - instagram: https://instagram.com/jomantita
+    username: jomantita
+description: |-
+  This year, we do it again!
+
+
+  For the First Time in Munich - All in One Location
+  -- Workshops, Bootcamps, Socials --
+
+  ~> Hotel rooms available at an incredible price
+
+  EARLY BIRD TICKET AVAILABLE NOW 
+artistsList:
+  - marcelobachata
+  - alexandros_dancer
+  - nasti.bachata
+  - svitlana_kulygina
+  - leandroyjomanteoficial
+  - jomantita
+star:
+  count: 2
+  usernames:
+    - Jelix
+    - Inessa
+  list:
+    Jelix: true
+    Inessa: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FF0SluHeF4wOSo6uACVHs.png?generation=1698840195025616&alt=media
+telegram:
+  messageUrl: https://t.me/WeDanceMunich/1222
+  publishedAt: 1698840220665
+  messageId: 1222
+  state: published
+instagram:
+  messageUrl: https://instagram.com/p/CzGkyoOufUO
+  publishedAt: 1698840220665
+  messageId: CzGkyoOufUO
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 138

@@ -1,0 +1,37 @@
+type: Dancer
+community: Munich
+createdAt: 1613062838248
+createdBy: dW2eNVvIp1hHClMR51grppmlTNW2
+name: kevin
+username: kevin
+newsletter:
+  workshop: true
+  class: true
+  party: true
+teacher: No
+gender: Male
+visibility: Members
+partner: Yes
+weight: "65"
+height: "180"
+languages: English, German
+styles:
+  SensualBachata:
+    level: Intermediate
+    selected: true
+  Bachata:
+    level: Intermediate
+    selected: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+locales:
+  de: true
+  en: true
+language: de
+hometown: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617064579070
+pwaUsed: false
+lastLoginAt: 1683976484810
+daysUsed: 8
+viewsCount: 2
+id: dW2eNVvIp1hHClMR51grppmlTNW2

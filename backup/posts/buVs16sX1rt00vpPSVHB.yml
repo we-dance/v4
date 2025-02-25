@@ -1,0 +1,144 @@
+endDate: 1719111600000
+sourceUrl: https://facebook.com/events/s/dive-bar-takeover-salsa-social/990327062697883/
+createdAt: 1717423221831
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1717373502000
+updatedAt: 1717423221831
+importedAt: 1717423221831
+providerUpdatedAt: 1717373502000
+facebookId: "990327062697883"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/dive-bar-takeover-salsa-social/990327062697883/
+eventType: Party
+providerItemId: ckq34cj3c5i64b9i6tj6ab9k74sjibb1corjgb9n70om4cpi6kq62ohhcg@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Dive bar takeover salsa social
+location: Seidenfaden’s
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719100800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 1134 E Breckinridge St, Louisville, KY 40204, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Seidenfaden's
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.7341378302915
+        lat: 38.2378986197085
+      northeast:
+        lng: -85.7314398697085
+        lat: 38.24059658029149
+    location:
+      lng: -85.7327778
+      lat: 38.2391667
+  address_components:
+    - types:
+        - street_number
+      short_name: "1134"
+      long_name: "1134"
+    - types:
+        - route
+      short_name: E Breckinridge St
+      long_name: East Breckinridge Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Germantown
+      long_name: Germantown
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40204"
+      long_name: "40204"
+    - types:
+        - postal_code_suffix
+      short_name: "1856"
+      long_name: "1856"
+  place_id: ChIJCSzO0iwNaYgRr6_ptoEPP34
+  url: https://maps.google.com/?cid=9097006822105657263
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1717423236175
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/michael.list1
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717423236/dvtzu6inektdhb6iawuz.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1717423236175
+  owned: false
+  name: Michael List
+  place: ChIJnWil6S4NaYgRuDJmiPIz_xY
+  updatedAt: 1717423236175
+  username: michael.list1
+claimed: No
+facebook: https://www.facebook.com/events/990327062697883/
+link: ""
+description: >
+  Guys we are doing another of the dive bar takeovers. 
+
+
+  Seidenfadens salsa special. No cover.
+
+
+  Class at 8:15 with Joshua Gaona!!!!!
+
+
+  this is a can't miss. 9pm social.
+
+
+  as always suggest your favorite salsa, Bachata, and merengue tunes to dance to.
+
+
+  this is going to be a blast!!!!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717423238/fe8exevhjtgtiyn1i1jd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJnWil6S4NaYgRuDJmiPIz_xY
+international: No
+hash: 1719100800000+ChIJCSzO0iwNaYgRr6_ptoEPP34
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbuVs16sX1rt00vpPSVHB.png?generation=1717423261898419&alt=media
+viewsCount: 1
+id: buVs16sX1rt00vpPSVHB

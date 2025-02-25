@@ -1,0 +1,156 @@
+venue:
+  formatted_address: Mehringdamm 61, 10961 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "61"
+      short_name: "61"
+    - types:
+        - route
+      long_name: Mehringdamm
+      short_name: Mehringdamm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Friedrichshain-Kreuzberg
+      short_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10961"
+      short_name: "10961"
+  url: https://maps.google.com/?q=Mehringdamm+61,+10961+Berlin,+Germany&ftid=0x47a85028803d8a4d:0xba1c7db9eee3901f
+  name: Mehringdamm 61
+  geometry:
+    viewport:
+      south: 52.4894093197085
+      north: 52.4921072802915
+      east: 13.3883985802915
+      west: 13.3857006197085
+    location:
+      lng: 13.3872931
+      lat: 52.4907257
+  place_id: ChIJTYo9gChQqEcRH5Dj7rl9HLo
+endDate: 2021-11-20T23:30:00.000Z
+claimed: Yes
+organisedBy: 91wGbG4Kwaa2XmcEoEpKvwcfleL2
+description: >
+  welcome to ''FLASHBACK TO 80',90 & 2000,Salsa & Bachata cocktails, dancing and
+  making new friends''
+
+
+  This is included in the €8 payment 
+
+
+  *Coupon for drink at the bar 
+
+
+  *This is a Non Smoking room, but we also have a Smoking area
+
+
+  *Best music hits to listen and dance
+
+
+  *Dj 
+
+
+  * Show Dancing performance 
+
+
+  *Photographer to capture our best moments and Portraits
+
+
+  I look forward to celebrate an excellent night with you all
+type: event
+promo: Yes
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F91wGbG4Kwaa2XmcEoEpKvwcfleL2%2F610f463e-cbf8-40d5-bab6-c24b39d7f216?alt=media&token=cf3300dc-9308-44fa-9b2a-5ba40d2e8bbe
+createdAt: 1637193490267
+watchersCount: 0
+price: 8EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYZEKxu3UZ32eeNnJ7Cu0.png?generation=1637229979122299&alt=media
+commentsLast: ~
+promoter: Latinvibes
+id: YZEKxu3UZ32eeNnJ7Cu0
+promotedBy: 91wGbG4Kwaa2XmcEoEpKvwcfleL2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+views: 2
+updatedAt: 1637193490267
+updatedBy: 91wGbG4Kwaa2XmcEoEpKvwcfleL2
+visibility: Public
+eventType: Party
+confirmation: Dear Guest,you are confirmed to our event.
+organiser: Latinvibes
+form: No
+createdBy: 91wGbG4Kwaa2XmcEoEpKvwcfleL2
+commentsCount: 0
+name: FLASHBACK TO 80',90 & 2000, Salsa & Bachata cocktails, dancing and new friends
+online: No
+styles:
+  BoogieWoogie:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Advanced
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Advanced
+    highlighted: false
+    selected: true
+  RockAndRoll:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Breakdance:
+    level: Advanced
+    highlighted: false
+    selected: true
+  K-Pop:
+    level: Advanced
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-11-20T18:30:00.000Z
+username: Latinvibes
+star:
+  count: 0
+  usernames: []
+  list: {}
+viewsCount: 67

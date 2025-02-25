@@ -1,0 +1,36 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1646251907519
+locales:
+  de: true
+  en: true
+createdBy: pyfuNbr4ayVGgo0eczOLI7InQWn2
+name: Gwendo
+place: ChIJ5S-raZElv0cR8HcqSvxgJwQ
+username: Gwendo
+pwaUsed: false
+cities:
+  ChIJp4UQ55EcvEcRx9vbDB05wj0: true
+updatedAt: 1646252120599
+hometown: ChIJp4UQ55EcvEcRx9vbDB05wj0
+meetingPlace:
+  public: true
+gender: Female
+partner: Yes
+bio: "Hi zusammen! Ich bin Gwen, studiere in Köln und liebe Salsa cubana! "
+permission: No
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  Casino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: No
+height: "174"
+story: ""
+lastLoginAt: 1647791238277
+daysUsed: 3
+id: pyfuNbr4ayVGgo0eczOLI7InQWn2

@@ -1,0 +1,172 @@
+endDate: 1735088400000
+sourceUrl: https://www.facebook.com/events/26895575653389329/?event_time_id=26895575696722658
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1725202641000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728386682000
+facebookId: "26895575696722658"
+facebook: https://www.facebook.com/events/26895575653389329/?event_time_id=26895575696722658
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/26895575653389329/?event_time_id=26895575696722658
+eventType: Party
+providerItemId: e26895575696722658@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Les Mardis Somos Salseros - Spécial Guest DJ Tom Nka - Adel Martinez
+  -  Mardi 1er Octobre
+location: The arts
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1735063200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 80 Av. Marceau G20, 92400 Courbevoie, France
+  website: https://thearts-paris.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: The arts
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.243125519708498
+        lat: 48.9000559697085
+      northeast:
+        lng: 2.245823480291502
+        lat: 48.9027539302915
+    location:
+      lng: 2.2446598
+      lat: 48.90145389999999
+  address_components:
+    - types:
+        - subpremise
+      short_name: G20
+      long_name: G20
+    - types:
+        - street_number
+      short_name: "80"
+      long_name: "80"
+    - types:
+        - route
+      short_name: Av. Marceau
+      long_name: Avenue Marceau
+    - types:
+        - locality
+        - political
+      short_name: Courbevoie
+      long_name: Courbevoie
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hauts-de-Seine
+      long_name: Hauts-de-Seine
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "92400"
+      long_name: "92400"
+  international_phone_number: +33 7 87 30 95 04
+  place_id: ChIJFfzNFnBl5kcRNsMlMaj7wNQ
+  url: https://maps.google.com/?cid=15330529831366804278
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Somos-Familia/100063541062260/
+  name: Somos Familia
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417935/jhjkp6llqw7x2gkjwxyf.png
+  bio: ""
+  id: LD4YIlViNy5vtYWWyxZU
+  instagram: ""
+  username: SomosFamilia
+claimed: No
+link: ""
+description: >-
+  
+
+  C'est reparti pour notre soirée hebdomadaire chaque mardi avec trois cours.
+
+  Et nouveauté de l'année, les soirées commencent plus tôt à 21h30 !!! 😋
+
+
+  Quel est le programme de ce mardi 1 Octobre ?
+
+
+  📋 19h00 - 19h55 : Salsa Cubaine Initiation & Débutant By JH
+
+  📋 19h45 - 20h30 : Salsa Cubaine Intermédiaire avec by JH
+
+  📋 20h30 - 21h30 : Cours Afro Cubain avec by Adel Martinez
+
+
+  🎶 21h300 - 02h00 : Un Mix Cubaine 70% - 30% Bachata by DJ Tom NKA & DJ JH, qui vous feraONT danser sur les meilleurs sons du moment.
+
+  On danse donc à partir de 21h30 !!!!
+
+
+  💶Entrée Soft : 10€ 💶
+
+  💵Entrée Alcool : 15€ 💵
+
+  *********************************************
+
+  🧥Le vestiaire : 2 € par personne🧥
+
+  *********************************************
+
+  📌The Arts Restaurant, 80 Avenue Marceau, 92400 Courbevoie
+
+  https://thearts-paris.fr/
+
+  Le restaurant The Art vous accueille dans un cadre chaleureux et convivial, avec une carte variée et savoureuse.
+
+  N’hésitez pas à réserver votre table au 01 23 45 67 89
+
+  .
+
+  Si restauration l'accès aux cours et à la soirée est gratuite.
+
+
+  Ne manquez pas cette occasion de retrouver notre soirée festive,
+
+  simple et conviviale, en compagnie de la "Somos Familia" !
+
+
+  N’hésitez pas à partager et diffuser cet Event.
+
+  Nous avons hâte de vous voir sur la piste de danse !!!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417936/udql1b0zctivad4di2xf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJvccvsApl5kcRED6LaMOCCwQ
+international: No
+hash: 1735063200000+ChIJFfzNFnBl5kcRNsMlMaj7wNQ
+id: NBTf9X3DVSAVEexT6usK

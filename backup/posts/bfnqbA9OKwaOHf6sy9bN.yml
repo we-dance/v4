@@ -1,0 +1,125 @@
+sourceUrl: https://www.eventbrite.de/e/893928242437
+createdAt: 1715685461785
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+endDate: 1716087600000
+claimed: No
+link: https://www.eventbrite.de/e/bombon-fiesta-latina-dosage-tickets-893928242437
+description: // BOMBÓN, una experiencia de Latin Scene Munich
+program: []
+source: schema
+type: event
+duration: 60
+artists: []
+price: 10.65 EUR
+international: No
+visibility: Public
+facebook: ""
+eventType: Party
+facebookUrlsList: []
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Bombón - Fiesta Latina @Dosage
+online: No
+styles: {}
+schemaEventsCount: 1
+hash: 1716062400000+ChIJcY8QaNJ1nkcRtf6oNcDSm6E
+startDate: 1716062400000
+facebookUrlsCount: 0
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715685475/huisjkqg2fszubbrcyhy.jpg
+venue:
+  website: https://www.instagram.com/dosage.bar
+  formatted_address: Alter Hof 3, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Dosage Bar München
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5765877697085
+        lat: 48.1368875697085
+      northeast:
+        lng: 11.5792857302915
+        lat: 48.1395855302915
+    location:
+      lng: 11.5777793
+      lat: 48.1382931
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Alter Hof
+      long_name: Alter Hof
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJcY8QaNJ1nkcRtf6oNcDSm6E
+  url: https://maps.google.com/?cid=11645132984472370869
+  username: www.instagram.com
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbfnqbA9OKwaOHf6sy9bN.png?generation=1715685489715823&alt=media
+id: bfnqbA9OKwaOHf6sy9bN
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/latinscene.munich
+  name: LATIN SCENE
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954299/bo21h9b2ougvabtgvf1a.jpg
+  bio: |-
+    Kulturveranstalter 📍MUNICH 🇩🇪 🌎
+
+    @planet.reggaeton @dj.yenny 💯
+
+    Join the Latin community
+  id: tmDC5QtoaTZPBYUEM1Ia
+  instagram: https://www.instagram.com/latinscene.munich/
+  username: latinscene.munich
+updatedAt: 1715685849284
+star:
+  count: 1
+  usernames:
+    - alexrazbakov
+  history:
+    - username: alexrazbakov
+      date: 1715693241795
+      invitedBy: ZTkrsZL5RoNyATK9HFav
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+viewsCount: 9

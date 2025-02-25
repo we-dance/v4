@@ -1,0 +1,145 @@
+endDate: 1714870800000
+sourceUrl: https://www.facebook.com/events/1106365147150029/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712402320000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1712417704000
+facebookId: "1106365147150029"
+facebook: https://www.facebook.com/events/1106365147150029/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1106365147150029/
+eventType: Party
+providerItemId: e1106365147150029@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: HOT KIZOMBA NIGHT MÜNICH
+location: Munich, Germany
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714845600000
+facebookUrlsCount: 1
+username: Aina
+errorCode: ""
+error: ""
+venue:
+  formatted_address: 6250 Saulueg, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Saulueg
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.95463257622858
+        lat: 47.43968365718108
+      northeast:
+        lng: 11.98664742377142
+        lat: 47.45477526030702
+    location:
+      lng: 11.97064
+      lat: 47.44723
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Saulueg
+      long_name: Saulueg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Kufstein
+      long_name: Kufstein
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Tirol
+      long_name: Tirol
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "6250"
+      long_name: "6250"
+  place_id: ChIJo_89JrTSd0cRPWZ0qoPxamo
+  url: https://maps.google.com/?q=6250+Saulueg,+Austria&ftid=0x4777d2b4263dffa3:0x6a6af183aa74663d
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0ZUdzULthq5RQxRswsDBdRssYxJGtu2rPXy4Eg5UwLFzjAdYNudWm2DKHb41s8es6l
+  name: Saul Ai
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708510581/nzqzuvktiohwvlwnzzhw.jpg
+  bio: ""
+  id: 9LPMeKV6BA0oPUiG2BmJ
+  instagram: ""
+  username: saul.ai
+claimed: No
+link: ""
+description: |+
+  +++Kizomba Party , Hot Kizomba Night+++
+
+  Musical styles:
+  UrbanKiz, GhettoZouk, Tarraxo, Afro, Kompa, Douceur.
+
+  Programm:
+  20:00-21:15 Mittelstufe Workshop mit
+  Saul & MajaKiz
+  Keine Voranmeldung erforderlich für die Workshop*
+
+  PREISE:
+  Nur Workshops 15 Euro p. Person*
+  WORKSHOPS + Party 25 Euro
+  EINTRITT PARTY
+  13 EUR
+  Party ab 21:30 Bis 3 Uhr
+
+  Music
+  DJ SAUL
+  DJ REMCY
+
+  Location:
+  TanzHaus emotion
+  Biberger Straße 91
+  82008 Unterhaching
+
+
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715440822/nascybynjoqdl7ywridu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJo_89JrTSd0cRPWZ0qoPxamo
+international: No
+hash: 1714845600000+ChIJo_89JrTSd0cRPWZ0qoPxamo
+viewsCount: 1
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fvim1RM0qpPU2wmRq51dJ.png?generation=1715440833402189&alt=media
+id: vim1RM0qpPU2wmRq51dJ

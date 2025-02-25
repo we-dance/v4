@@ -1,0 +1,71 @@
+createdAt: 1711878678116
+website: http://www.benidormsummerfestival.com/
+rooms: ""
+address:
+  formatted_address: Gran Bali Hotel, 03502 Benidorm, Alicante, Spain
+  website: http://www.benidormsummerfestival.com/
+  name: Benidorm Summer Festival - Sede Gran Hotel Bali
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.125019230291502
+        lat: 38.5398108197085
+      northeast:
+        lng: -0.122321269708498
+        lat: 38.5425087802915
+    location:
+      lng: -0.1236834
+      lat: 38.5411594
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Gran Bali Hotel
+      long_name: Gran Bali Hotel
+    - types:
+        - locality
+        - political
+      short_name: Benidorm
+      long_name: Benidorm
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: A
+      long_name: Alicante
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "03502"
+      long_name: "03502"
+  international_phone_number: +34 640 02 67 29
+  place_id: ChIJgbqlT6MbYg0RW7d1XG8nzsk
+  url: https://maps.google.com/?cid=14541603606071981915
+gender: Other
+phone: +34 640 02 67 29
+name: Benidorm Summer Festival - Sede Gran Hotel Bali
+updateAt: 1711878678116
+type: Venue
+map: ""
+username: www.benidormsummerfestival.com
+watch:
+  count: 1
+  usernames:
+    - Relentless
+  history:
+    - username: Relentless
+      date: 1718862790619
+      invitedBy: ""
+      uid: 4r7hCDvMsSfqQsaeNZtHAWWpaHG2
+      action: joined
+viewsCount: 1
+id: laEEopEBzDKaNi4YJfpM

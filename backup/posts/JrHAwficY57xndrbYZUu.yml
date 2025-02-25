@@ -1,0 +1,152 @@
+endDate: 1718564400000
+sourceUrl: https://www.facebook.com/events/1008323341003537/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1716822695000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1716822695000
+facebookId: "1008323341003537"
+facebook: https://www.facebook.com/events/1008323341003537/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1008323341003537/
+eventType: Party
+providerItemId: e1008323341003537@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa/Bachata Café in Heidelberg
+location: Don Carlitos, Handelsstraße 9a, 69214 Eppelheim (Heildelberg)
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718550000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Handelsstraße 9A, 69214 Eppelheim, Germany
+  website: http://don-carlitos-tanzpalast.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Don Carlitos
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.626988469708502
+        lat: 49.40735786970851
+      northeast:
+        lng: 8.629686430291507
+        lat: 49.4100558302915
+    location:
+      lng: 8.628329100000002
+      lat: 49.40864370000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 9A
+      long_name: 9A
+    - types:
+        - route
+      short_name: Handelsstraße
+      long_name: Handelsstraße
+    - types:
+        - locality
+        - political
+      short_name: Eppelheim
+      long_name: Eppelheim
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Rhein-Neckar-Kreis
+      long_name: Rhein-Neckar-Kreis
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "69214"
+      long_name: "69214"
+  international_phone_number: +49 171 4738929
+  place_id: ChIJswUEcR7Hl0cRhY4OD3je3Ag
+  url: https://maps.google.com/?cid=638629854409821829
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546489588
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02Fcqxg84NU8vt5EeEnrpwgNduPDXec4pc1UexUh2Y3ScyCuNzLScaV7efB97j6FErl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546489/hvaqu1v6tahucake0smr.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546489588
+  owned: false
+  name: Juan Ve
+  place: ChIJJX5_UhbHl0cRUFAJjTz9HwQ
+  updatedAt: 1718546489588
+  username: juan.ve
+claimed: No
+link: ""
+description: >
+  
+  Für Rückfragen oder Reservierungen, bitte die 01522-3090052 anrufen.
+
+
+  Liebe Salseras/os, Batacheras/os, 
+
+
+  Was machen an einem Sonntagabend? Das Don Carlitos in Heidelberg bietet mit seiner einzigartigen Atmosphäre in Heidelberg ein neues familienfreundliches Event für euch: 
+
+  Das Salsa-Café für Heidelberg! 
+
+  In stilvollem Ambiente bieten wir Kaffee und Kuchen, einen Mix aus Salsa, Bachata und Cha-Cha-Cha, eine Menge Raum für flotte Tänze auf edlem Parkett und gemeinsame Gespräche auf eleganten Sesseln. 
+
+  Familien mit Kindern sind willkommen! 
+
+
+  Eintritt frei bis inklusive 14 Jahren.
+
+  Abendkasse: 8 €
+
+
+  Wir freuen uns auf ein schönen Tanzabend mit euch!
+
+
+  Bemerkung:
+
+  Mit dem Betreten der Veranstaltung wird dem Veranstalter die Erlaubnis erteilt, während der Veranstaltung Foto- und Filmaufnahmen zu machen und diese Aufnahmen im Zusammenhang mit der Veranstaltung für die Öffentlichkeitsarbeit, das Marketing und die Dokumentation, analog und digital, zu verwenden und zu veröffentlichen
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546490/lezrnjlxiuljwfhgolca.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJJX5_UhbHl0cRUFAJjTz9HwQ
+international: No
+hash: 1718550000000+ChIJswUEcR7Hl0cRhY4OD3je3Ag
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJrHAwficY57xndrbYZUu.png?generation=1718546511545616&alt=media
+id: JrHAwficY57xndrbYZUu

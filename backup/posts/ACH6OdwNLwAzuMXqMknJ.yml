@@ -1,0 +1,127 @@
+createdAt: 1707854531229
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/1098263811450835/
+updatedAt: 1707854531229
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Gstättengasse 16, 5020 Salzburg, Austria
+  website: http://www.latino-mio.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Latino Mio
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.0375711697085
+        lat: 47.80023336970851
+      northeast:
+        lng: 13.0402691302915
+        lat: 47.80293133029151
+    location:
+      lng: 13.038588
+      lat: 47.80190150000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "16"
+      long_name: "16"
+    - types:
+        - route
+      short_name: Gstättengasse
+      long_name: Gstättengasse
+    - types:
+        - locality
+        - political
+      short_name: Salzburg
+      long_name: Salzburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Salzburg
+      long_name: Salzburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Salzburg
+      long_name: Salzburg
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "5020"
+      long_name: "5020"
+  international_phone_number: +43 680 2407075
+  place_id: ChIJeSzX2SqRdkcRIAiRBTNyAUU
+  url: https://maps.google.com/?cid=4972381027056027680
+endDate: ""
+claimed: No
+link: https://latino-mio.at/
+description: |-
+  
+  Dienstag 13. Februar 2024
+  CARNAVAL LATINO SALZBURG
+
+  21°° Uhr DJ JHONNY mit Salsa Bachata Kizomba
+  Eintritt €5 | LM Gratis
+
+  LATINO MIO
+  Gstättengasse 16 | 5020 Salzburg
+
+  +43 (0) 680 2407075
+  office@latino-mio.com
+
+  www.latino-mio.com
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJsdQIqd2adkcRPfcqQaGD4cE
+international: No
+visibility: Public
+facebookId: "1098263811450835"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Carnaval Latino 2024 | Salzburg
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1707854400000+ChIJeSzX2SqRdkcRIAiRBTNyAUU
+startDate: 1707854400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707854536/xp4yn3rgeixre0zdbygk.jpg
+org:
+  owner: ""
+  importedAt: 1707854534935
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Latino.Mio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707854535/t6mxfa6dyrlcesvuvvsd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707854534935
+  owned: false
+  name: Latino Mio
+  place: ChIJsdQIqd2adkcRPfcqQaGD4cE
+  updatedAt: 1707854534935
+  username: latino.mio
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FACH6OdwNLwAzuMXqMknJ.png?generation=1707854547071872&alt=media
+id: ACH6OdwNLwAzuMXqMknJ

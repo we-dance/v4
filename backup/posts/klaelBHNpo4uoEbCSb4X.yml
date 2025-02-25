@@ -1,0 +1,40 @@
+city: Istanbul
+endDate: 2020-10-31T17:30:00.000Z
+link: https://instagram.com/garajdancecenter
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2Fd550edea-7acb-4487-939b-2315814e47f5?alt=media&token=1d0691a2-0c69-4572-9cae-41f09d0b6398
+duration: custom
+createdAt: 1603910899349
+watchersCount: 0
+commentsLast: ~
+place: ChIJawhoAASnyhQR0LABvJj-zOE
+id: klaelBHNpo4uoEbCSb4X
+updatedAt: 1617065902337
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Merkez Mh., Darüleceze Cad. Nadide Sk., Emre Apt. 16/C, Șișli, Istanbul
+visibility: Public
+eventType: Course
+organiser: Garaj Dance Center
+form: Yes
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+commentsCount: 0
+name: Afro & Dancehall with Zaggazo & Jay-C
+styles:
+  AfroHouse:
+    level: Interested
+    selected: true
+  Dancehall:
+    level: Interested
+    selected: true
+region:
+  name: Istanbul
+  location:
+    country: Turkey
+    latitude: 41.0082376
+    locality: İstanbul
+    usedGps: false
+    place_id: ChIJawhoAASnyhQR0LABvJj-zOE
+    longitude: 28.9783589
+startDate: 2020-10-31T14:00:00.000Z
+username: aslihan
+viewsCount: 1

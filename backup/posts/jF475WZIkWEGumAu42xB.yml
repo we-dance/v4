@@ -1,0 +1,160 @@
+endDate: 1749438000000
+sourceUrl: https://www.facebook.com/events/327113366981482/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1705928178000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1712070780000
+facebookId: "327113366981482"
+facebook: https://www.facebook.com/events/327113366981482/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/327113366981482/
+eventType: Festival
+providerItemId: e327113366981482@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Kizomba Beach Festival ☀️
+location: BOHO Village Experience
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1749225600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Koning Albert-I-laan 59, 8370 Blankenberge, Belgium
+  website: https://bohobar.be/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Boho Village Experience
+  geometry:
+    viewport:
+      southwest:
+        lng: 3.147554669708498
+        lat: 51.3174188697085
+      northeast:
+        lng: 3.150252630291501
+        lat: 51.3201168302915
+    location:
+      lng: 3.1488722
+      lat: 51.3188806
+  address_components:
+    - types:
+        - street_number
+      short_name: "59"
+      long_name: "59"
+    - types:
+        - route
+      short_name: Koning Albert-I-laan
+      long_name: Koning Albert-I-laan
+    - types:
+        - locality
+        - political
+      short_name: Blankenberge
+      long_name: Blankenberge
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: WV
+      long_name: West-Vlaanderen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vlaams Gewest
+      long_name: Vlaams Gewest
+    - types:
+        - country
+        - political
+      short_name: BE
+      long_name: Belgium
+    - types:
+        - postal_code
+      short_name: "8370"
+      long_name: "8370"
+  international_phone_number: +32 476 86 00 72
+  place_id: ChIJ-_uXjjarxEcROdYH77VrxBc
+  url: https://maps.google.com/?cid=1712612187451151929
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718719254856
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/DJ-Bambino/100071463038240/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718719255/sv1pmjzzfkcfcbvlpgcv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718719254856
+  owned: false
+  name: DJ Bambino
+  place: ChIJoYgMM4lVw0cREE5NL6uZAAQ
+  updatedAt: 1718719254856
+  username: DJBambino
+claimed: No
+link: ""
+description: >-
+  kizomba on the beach☀️☀️🏖️🏖️🏝️🌴🏝️🌴🏖️☀️
+
+  more information soon...😉We're going to have a big festival like never before...☀️☀️🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+  DJ
+
+  ⚓️DJ
+
+  ⚓️DJ 
+
+  ⚓️DJ 
+
+  ⚓️DJ 
+
+  ⚓️DJ
+
+
+  ⚓️⚓️Musical Entertainment⚓️⚓️
+
+  🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴
+
+  🎶Kizomba 
+
+  🎶Tarraxinha
+
+  🎶Urban 
+
+  🎶Amapiano,  
+
+  🎶Dancehall 
+
+  🎶Doucur
+
+  🎶Kompa
+
+  🎶Afrobeat
+
+
+  🎓 ⚓️teachers⚓️🎓
+
+  🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴
+
+  🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719256/kwyz19z8y28kt2r4yyfd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJoYgMM4lVw0cREE5NL6uZAAQ
+international: No
+hash: 1749225600000+ChIJ-_uXjjarxEcROdYH77VrxBc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjF475WZIkWEGumAu42xB.png?generation=1718719278986597&alt=media
+viewsCount: 1
+id: jF475WZIkWEGumAu42xB

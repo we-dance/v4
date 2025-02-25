@@ -1,0 +1,84 @@
+venue:
+  website: https://www.hoteles-silken.com/es/hotel-puerta-madrid/
+  formatted_address: C. Juan Rizi, 5, 28027 Madrid, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "5"
+      short_name: "5"
+    - types:
+        - route
+      long_name: Calle Juan Rizi
+      short_name: C. Juan Rizi
+    - types:
+        - locality
+        - political
+      long_name: Madrid
+      short_name: Madrid
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Madrid
+      short_name: M
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Comunidad de Madrid
+      short_name: MD
+    - types:
+        - country
+        - political
+      long_name: Spain
+      short_name: ES
+    - types:
+        - postal_code
+      long_name: "28027"
+      short_name: "28027"
+  url: https://maps.google.com/?cid=3580420081044241265
+  name: Hotel Silken Puerta Madrid
+  geometry:
+    viewport:
+      south: 40.4465523197085
+      north: 40.44925028029149
+      east: -3.635095169708498
+      west: -3.637793130291502
+    location:
+      lng: -3.6359962
+      lat: 40.447788
+  international_phone_number: +34 917 43 83 00
+  place_id: ChIJOYvnKxovQg0RcTtRBRg1sDE
+endDate: 2021-09-19T18:00:00.000Z
+link: https://www.facebook.com/events/213612863983445
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+createdAt: 1631882040027
+watchersCount: 0
+price: TICKETS
+commentsLast: ~
+id: 95vVCCQJJPB7JCtGHCYW
+place: ""
+updatedAt: 1631882040027
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Madrid Zouk Bachata Congress
+online: No
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-17T17:00:00.000Z
+username: Promoter
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 1

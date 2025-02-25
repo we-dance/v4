@@ -1,0 +1,148 @@
+endDate: 1724544000000
+sourceUrl: https://www.facebook.com/events/1535693237298661/
+createdAt: 1721138423988
+approved: true
+provider: ical
+providerId: zGm8eGZqRRdVnZUdYamz
+providerCreatedAt: 1721138218000
+updatedAt: 1721138423988
+importedAt: 1721138423988
+providerUpdatedAt: 1721138218000
+facebookId: "1535693237298661"
+facebook: https://www.facebook.com/events/1535693237298661/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1535693237298661/
+eventType: Party
+providerItemId: e1535693237298661@facebook.com
+createdBy: G6GTLgzCYIa9RRJiryKXggSuDMT2
+name: Mission Bailar Summer Dance Party
+location: Tanzstudio Schlegl
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724522400000
+facebookUrlsCount: 1
+username: MissionBailarNuernberg
+venue:
+  formatted_address: Regensburger Str. 330, 90480 Nürnberg, Germany
+  website: https://www.tanzstudio-schlegl.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance studio Schlegl KG
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.1282561197085
+        lat: 49.43126156970849
+      northeast:
+        lng: 11.1309540802915
+        lat: 49.43395953029149
+    location:
+      lng: 11.1295121
+      lat: 49.43249329999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "330"
+      long_name: "330"
+    - types:
+        - route
+      short_name: Regensburger Str.
+      long_name: Regensburger Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ost
+      long_name: Ost
+    - types:
+        - locality
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90480"
+      long_name: "90480"
+  international_phone_number: +49 911 226080
+  place_id: ChIJeQ7COaFXn0cRWap3MTYq1rY
+  url: https://maps.google.com/?cid=13174764172165491289
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mission.bailar
+  name: MissionBailarNuernberg
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG6GTLgzCYIa9RRJiryKXggSuDMT2%2F8b7fc922-55e6-4316-ac59-796dda4e5050?alt=media&token=f1161bd6-77b4-4a26-b48c-aea0371d3e11
+  bio: |+
+    Mission Bailar e.V.
+    Community
+    Bachata/Salsa/Kizomba Partys
+    Nürnberg, Germany
+
+  id: G6GTLgzCYIa9RRJiryKXggSuDMT2
+  instagram: https://www.instagram.com/mission_bailar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+  username: MissionBailarNuernberg
+claimed: No
+link: ""
+description: >
+  Feiert mit uns den Sommer - in perfekt klimatisierten Räumen, mit tollem
+  Ambiente, einem super Tanzparkett, und natürlich mit der besten Musik von
+  Mission Bailar!
+
+
+  Area 1 (großer Saal): Bachata + Salsa
+
+  Area 2: Kizomba
+
+
+  Eintritt 10€
+
+
+  20:00 Bachata Anfänger Workshop by Tanzstudio Schlegl (15€ mit Party) 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1721138442/a42b6qsrdw4nubbedlh1.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+international: No
+hash: 1724522400000+ChIJeQ7COaFXn0cRWap3MTYq1rY
+id: lnq1vZL6hnb2pMF0VYxL

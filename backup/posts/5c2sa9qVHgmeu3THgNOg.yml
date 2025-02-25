@@ -1,0 +1,151 @@
+endDate: 1728860400000
+sourceUrl: https://www.facebook.com/events/407050445060974/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1707334580000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726247893000
+facebookId: "407050445060974"
+facebook: https://www.facebook.com/events/407050445060974/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/407050445060974/
+eventType: Concert
+providerItemId: e407050445060974@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Concert + Soirée Maykel Blanco y su Salsa Mayor à Paris
+location: Cabaret Sauvage
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728835200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 59 Bd Macdonald, 75019 Paris, France
+  website: http://www.cabaretsauvage.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Cabaret Sauvage
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.390810619708498
+        lat: 48.89409851970849
+      northeast:
+        lng: 2.393508580291501
+        lat: 48.89679648029149
+    location:
+      lng: 2.392159599999999
+      lat: 48.8954475
+  address_components:
+    - types:
+        - street_number
+      short_name: "59"
+      long_name: "59"
+    - types:
+        - route
+      short_name: Bd Macdonald
+      long_name: Boulevard Macdonald
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Département de Paris
+      long_name: Département de Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "75019"
+      long_name: "75019"
+  international_phone_number: +33 1 42 09 03 09
+  place_id: ChIJp5OWcslt5kcRqIxFo29GBV8
+  url: https://maps.google.com/?cid=6846956253781265576
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/rafaeletvirginie
+  name: Rafael & Virginie San Martin
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953540/jqvbawris7l1cj3mzv9n.jpg
+  bio: ""
+  id: sxM3CZDdIEWGSLWeoZYf
+  instagram: ""
+  username: rafaeletvirginie
+claimed: No
+link: https://www.helloasso.com/associations/tropicuba/evenements/concert-maykel-blanco-paris
+description: >-
+  C'est un évènement exceptionnel ! Tropicuba présente le concert du célèbre
+  artiste cubain Maykel Blanco y Salsa Mayor accompagné de tous ses musiciens,
+  qui aura lieu le Dimanche 13 Octobre 2024 au Cabaret Sauvage à Paris.
+
+
+  * PROGRAMME *
+
+
+  > 19h : Ouverture des portes et de la piste de danse. Deejay, Patricia la Peruana et Pesentation Roberto burgosanimations
+
+
+  > 21h : Concert de Maykel Blanco y Su Salsa Mayor7
+
+
+  > 23h Soirée après concert jusqu’à 1 heure du matin
+
+
+  Possibilité de Restauration sur place
+
+
+  * TARIFS *
+
+  . 35€ les 100 premières places
+
+  . 40€ les 100 places suivantes
+
+  . 45€ les places suivantes
+
+  . 50€ sur place le jour du concert (dans la limite des places disponibles)
+
+   
+
+  * INFOS / CONTACT *tropicuba@hotmail.fr06.61.63.52.24
+
+
+  * CONDITIONS DE RESERVATION *
+
+  La réservation est ferme et définitive. Les billets ne sont ni repris ni échangés y compris en cas de force majeure. Ils sont remboursables uniquement en cas d'annulation ou report de l'évènement
+
+
+  https://www.helloasso.com/associations/tropicuba/evenements/concert-maykel-blanco-paris
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418005/ryegjlv8egnfp8b6w3wm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+international: No
+hash: 1728835200000+ChIJp5OWcslt5kcRqIxFo29GBV8
+id: 5c2sa9qVHgmeu3THgNOg

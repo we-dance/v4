@@ -1,0 +1,182 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/mexico-kizomba-congress/
+sourceUrl: https://facebook.com/events/1212924349975762
+venue:
+  address_components:
+    - long_name: "333"
+      short_name: "333"
+      types:
+        - street_number
+    - long_name: Avenida Revolución
+      short_name: Av. Revolución
+      types:
+        - route
+    - long_name: Tacubaya
+      short_name: Tacubaya
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Ciudad de México
+      short_name: México D.F.
+      types:
+        - locality
+        - political
+    - long_name: Ciudad de México
+      short_name: CDMX
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Mexico
+      short_name: MX
+      types:
+        - country
+        - political
+    - long_name: "11870"
+      short_name: "11870"
+      types:
+        - postal_code
+  formatted_address: Av. Revolución 333, Tacubaya, Miguel Hidalgo, 11870 Ciudad de
+    México, CDMX, Mexico
+  geometry:
+    location:
+      lat: 19.3964017
+      lng: -99.18565330000001
+    viewport:
+      northeast:
+        lat: 19.3977998302915
+        lng: -99.18410971970852
+      southwest:
+        lat: 19.3951018697085
+        lng: -99.18680768029152
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Av. Revolución 333
+  place_id: ChIJSc0ER2P_0YURWEC8cWvxoU8
+  url: https://maps.google.com/?q=Av.+Revoluci%C3%B3n+333,+Tacubaya,+Miguel+Hidalgo,+11870+Ciudad+de+M%C3%A9xico,+CDMX,+Mexico&ftid=0x85d1ff634704cd49:0x4fa1f16b71bc4058
+endDate: 1740974400000
+claimed: No
+link: ""
+description: >
+  THE BIGGEST KIZOMBA EVENT IN LATIN AMERICA 
+
+  Locally and Internationally renowned instructors, teaching: Kizomba / Urban Kiz / Semba / Tarraxo / AfroBeats and more !!!
+
+
+  What to Expect in this WILD ON Edition:
+
+  - 2 Rooms   - 4 Party Nights  Socials   - 30 hours Workshops   
+
+  - 4 Days Crazy Activities     - 4 Themed Parties
+
+  - High Quality of Audio/Visual Production
+
+  - Scenography     - Special Welcome Party  (Thursday 27th Feb)
+
+  - Kizomba Championships    Couples/Teams Division  (Friday 28th)
+
+  - Social Dance Competition 
+
+
+  CONFIRMED  ARTISTS:
+
+  *Liliana & Gwany (Brazil/France)     *Asia Voronova (Ukraine)
+
+  *Teresa Jimenez (Sweden)  *Karo & Juan (Mexico)
+
+  *Tresor Enzita (Netherlands)  *Samy & Dede (Canada / France)
+
+  *Yadan Giraldo (Colombia)  *Annalise & Eric (USA)
+
+  *Sara Santos (Portugal)  * Beto Alifh  (Mexico)
+
+  *Jalyssa & Chamalo (Netherlands/France)
+
+  *Mística Hinojosa (Mexico)
+    
+
+
+  CONFIRMED  DJ´s:
+
+  *DJ Mike (Mexico)  *DJ Lenhy (France)  *DJ Casanova (USA)
+
+  *DJ Kayel (France)   *DJ Lamar (Italy)
+
+  *DJ Wizah (Mexico)
+
+
+  HOTEL COURTYARD MARRIOT REVOLUCIÓN   MEXICO CITY
+
+  Single/Double Room:    $120 usd per night x room (1 bed)
+
+  Triple/Quadruple Room:  $140 usd per night x room (2 beds)
+
+
+  **Its MANDATORY to reserve through the Organization, otherwise, a DayPass penalty will be Charged
+
+
+  ***We recommend arriving on Wednesday night or Thursday morning
+
+
+  TAXI DANCER´s   (send us a WhatsApp)
+
+  We are open to negotiating so that several groups of dancers can support this Great Event.
+
+
+  We look forward to your presence at this historic edition of the Mexico Kizomba Congress. For more details on registration and reservations, please do not hesitate to contact us via WhatsApp at +52 5543602094 and +52 5522155533. We thank you in advance for your support and remain at your disposal for any additional inquiries or requests.
+
+                                     With much appreciation
+                                Assul Jiménez & Jeffrey Bello
+                             Visionary Organizers of MKC 4.0
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/l0drqf8puw9ymzorxvih.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJB3UJ2yYAzoURQeheJnYQBlQ
+international: No
+visibility: Public
+org:
+  id: cxFbJERFJ4xeT8yZ5tVa
+  username: mexicokizombacongress
+  name: Mexico Kizomba Congress
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F65f9df7d-c452-4411-ad7a-fcede46bf11e?alt=media&token=a13bfc48-c66a-4bda-b2d6-90f94e94426a
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/mexicokizombacongress
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1212924349975762/
+facebookId: "1212924349975762"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "MEXICO KIZOMBA CONGRESS 4.0  WILD ON "
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740643200000+ChIJSc0ER2P_0YURWEC8cWvxoU8
+startDate: 1740643200000
+id: P8anAEbxJ5Rxy8IntPw3

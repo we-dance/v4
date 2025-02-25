@@ -1,0 +1,42 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630706667323
+createdBy: N3DQABybqTRXB0YWEgE8DgbTigV2
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+gender: Female
+visibility: Members
+permission: No
+locales:
+  de: true
+  en: true
+  es: true
+meetingPlace:
+  public: true
+partner: Yes
+name: "Kerstin "
+days: {}
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+contacts: Yes
+height: "176"
+updatedAt: 1630706986661
+username: KerstinK
+pwaUsed: true
+lastLoginAt: 1635494589544
+daysUsed: 5
+id: N3DQABybqTRXB0YWEgE8DgbTigV2

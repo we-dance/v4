@@ -1,0 +1,139 @@
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  international_phone_number: +49 89 74039681
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  url: https://maps.google.com/?cid=8948474523406618165
+endDate: 1700967600000
+claimed: No
+link: https://www.eventbrite.de/e/munich-bachata-meeting-tickets-750008003127?aff=oddtdtcreator
+description: >
+  BACHATA MEETING - SATURDAY PARTY
+
+  Datum: 25.11.2023 20:00
+
+
+
+  We are delighted to invite all Bachateros & Bachateras, leaders & followers in Munich and the surrounding area to our second Bachata Meeting at Salsamás Pasing.
+
+  Bootcamps, workshops, socials, and a big Saturday party are on the program. Specifically selected trainers & DJs have been invited exclusively for this "Meeting."
+
+  The Bachata Meeting at Salsamás is the best opportunity to connect with like-minded Bachateros and Bachateras, dance together, and experience unforgettable moments on the dance floor!
+
+  Whether it's just for the party and socials or for workshops & bootcamps, it doesn't matter – everyone participating in this Bachata Meeting will have a great time :)
+
+  Book your ticket online now and secure your spot! Being there is everything :)
+
+  Your Salsamás & Bachata Meeting Team
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F27cf1cec-00a6-4bc7-a47b-e4a974766753?alt=media&token=cef0f233-e6a1-4b70-85f0-72c475db7886
+createdAt: 1700586104929
+artists: []
+price: 15 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1700586104929
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Pablo De Queiroz
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fea862ce6-c4ca-48be-b269-59c415a30dc7?alt=media&token=4d4f1c09-2dd4-4e7f-aff4-98c21cf81ed1
+  bio: ""
+  id: Gg9bygHaz0NBcUy0NLyz
+  instagram: https://instagram.com/pablo_de_queiroz_salsamas
+  username: pablo_de_queiroz_salsamas
+eventType: Party
+confirmation: >-
+  - 19:30-20:30: Bachata Blindfold Workshop mit Migo & Raya
+
+  - 20:30-21:30: Bachata Man- & Lady-Styling Battle (für alle Levels) mit Steffi & Luygi
+
+  - Ab 21:30 bis Open End: Bachata Party mit DJ Nicemixx & Friends
+form: No
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: II. Bachata Meeting Saturday Party
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1700937000000
+username: Salsamas_Munich
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FCa1KojiEbPMpOspvYzGV.png?generation=1700586122054065&alt=media
+star:
+  count: 2
+  usernames:
+    - efleury
+    - Roni
+  list:
+    efleury: true
+    Roni: true
+viewsCount: 24
+id: Ca1KojiEbPMpOspvYzGV

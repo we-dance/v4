@@ -1,0 +1,160 @@
+venue:
+  formatted_address: Bahnhofstraße 26-30, 86150 Augsburg, Germany
+  website: https://www.fit-one.de/augsburg.html
+  name: FIT/ONE Augsburg
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.8891793302915
+      south: 48.3645507697085
+      north: 48.3672487302915
+      west: 10.8864813697085
+    location:
+      lng: 10.8879729
+      lat: 48.3660053
+  address_components:
+    - types:
+        - street_number
+      short_name: 26-30
+      long_name: 26-30
+    - types:
+        - route
+      short_name: Bahnhofstraße
+      long_name: Bahnhofstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Augsburg-Innenstadt
+      long_name: Augsburg-Innenstadt
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86150"
+      long_name: "86150"
+  url: https://maps.google.com/?cid=18007143084545460699
+  place_id: ChIJaYiRAU29nkcR28n2vTo55vk
+  international_phone_number: +49 821 45401886
+endDate: 2023-07-13T20:00
+claimed: No
+link: https://www.integracion-cultural.de/integratioskurse/
+description: >-
+  Jeden Donnerstag-Bachata-Training 19-21
+
+
+  BACHATA TOUCH TRAINING NIGHT - LERNEN IN REKORDZEIT MIT VLADI IN AUGSBURG! Bachata Touch Basics for everyone in Augsburg, Wir zeigen Dir Jeden Donnerstag ab 19:00 Uhr Anfänger und 20:00 Uhr Mittelstufe wie Du Bachata in Rekordzeit lernen kannst, damit Du ohne Probleme und dauerhaft interessante Menschen kennen lernen kannst. Inkl. Melde dich jetzt an und tauche ein in die aufregende Welt des Salsa!. FIT/ONE Augsburg: Bahnhofstraße 26-30 / Straßenbahn 3/4/6, 86150 Augsburg
+program:
+  - endDate: 2023-07-06T20:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: "Baila Bavaria Social Dance "
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F0f98ef5a-ab79-49c9-9f11-7dc791b2be2e?alt=media&token=6e2165e8-ba32-43ea-81d9-a7011b0aeaec
+        bio: Herzlich willkommen - Bienvenidos a Baila Bavaria Social Dance mit Vladimir
+          Toledo Sánchez aus Havana.
+        id: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+        instagram: ""
+        username: VladimirToledo
+    name: BACHATA TOUCH TRAINING NIGHT
+    description: "BACHATA TOUCH TRAINING NIGHT - LERNEN IN REKORDZEIT MIT VLADI IN
+      AUGSBURG! Bachata Touch Basics for everyone in Augsburg, "
+    eventType: Course
+    startDate: 2023-07-06T19:00
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F55dc411b-58f8-4e2a-9524-0c2849fd8898?alt=media&token=006e33ae-e617-4fe0-af6f-8072d5d8bdfc
+duration: 60
+createdAt: 1688591607138
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "Baila Bavaria Social Dance "
+    bio: Herzlich willkommen - Bienvenidos a Baila Bavaria Social Dance mit Vladimir
+      Toledo Sánchez aus Havana.
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F0f98ef5a-ab79-49c9-9f11-7dc791b2be2e?alt=media&token=6e2165e8-ba32-43ea-81d9-a7011b0aeaec
+    instagram: ""
+    id: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+    username: VladimirToledo
+price: 50,00 EUR
+socialCover: ""
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+id: gpYlvzxlW6Wn2sHzb0o6
+artistsList:
+  - VladimirToledo
+international: ""
+paypal: toledo.sanchez@web.de
+updatedAt: 1688591607138
+updatedBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Baila Bavaria Social Dance "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F0f98ef5a-ab79-49c9-9f11-7dc791b2be2e?alt=media&token=6e2165e8-ba32-43ea-81d9-a7011b0aeaec
+  bio: Herzlich willkommen - Bienvenidos a Baila Bavaria Social Dance mit Vladimir
+    Toledo Sánchez aus Havana.
+  instagram: ""
+  id: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+  username: VladimirToledo
+facebook: https://www.facebook.com/bailabavaria
+telegram: {}
+upVotes: 0
+confirmation: bailabavaria@gmail.com
+eventType: Course
+form: No
+createdBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Bachata Training Day - Jeden Donnerstag im Fit/One Augsburg
+online: ""
+votes: 0
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachatango:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-13T19:00
+username: VladimirToledo
+viewsCount: 22

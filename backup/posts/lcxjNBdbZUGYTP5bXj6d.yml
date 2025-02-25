@@ -1,0 +1,167 @@
+endDate: 1728775800000
+sourceUrl: https://www.facebook.com/events/2035192936896899/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1726497161000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726939125000
+facebookId: "2035192936896899"
+facebook: https://www.facebook.com/events/2035192936896899/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2035192936896899/
+eventType: Party
+providerItemId: e2035192936896899@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 🌟 Salsa y Sabor - Soirée d'Octobre 🌟
+location: 136 rue de lourmel, 75015
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728759600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 136 Rue de Lourmel, 75015 Paris, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 136 Rue de Lourmel
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.283368119708498
+        lat: 48.8399840697085
+      northeast:
+        lng: 2.286066080291502
+        lat: 48.8426820302915
+    location:
+      lng: 2.2846626
+      lat: 48.8413523
+  address_components:
+    - types:
+        - street_number
+      short_name: "136"
+      long_name: "136"
+    - types:
+        - route
+      short_name: Rue de Lourmel
+      long_name: Rue de Lourmel
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Département de Paris
+      long_name: Département de Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "75015"
+      long_name: "75015"
+  place_id: ChIJ_eRByQ1w5kcRB1rCGi3367o
+  url: https://maps.google.com/?q=136+Rue+de+Lourmel,+75015+Paris,+France&ftid=0x47e6700dc941e4fd:0xbaebf72d1ac25a07
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418006767
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Salsa-Y-Sabor/61558473973649/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418007/bapxpeozwfftkttkuwup.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418006767
+  owned: false
+  name: Salsa Y Sabor
+  place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+  updatedAt: 1728418006767
+  username: SalsaY-Sabor
+claimed: No
+link: ""
+description: >
+  
+  **Date et heure :**  
+
+  📅 **Samedi 12 octobre 2024**  
+
+  🕘 **De 21h00 à 01h30**  
+
+
+  **Lieu :**  
+
+  📍 **Les 2 Pianos**  
+
+  136 Rue De Lourmel, Paris 15ème
+
+
+  **Description :**  
+
+  💃🕺 **Ne manquez pas cette soirée exceptionnelle avec Simo Y Su Pasion !** 🎶
+
+
+  Rejoignez-nous pour une nuit de salsa et de musique live enflammée avec des musiciens talentueux et une ambiance festive ! Au programme, **descarga** et des rythmes latinos endiablés pour vous faire danser toute la soirée. 🎤💃
+
+
+  DJ Jamal et Dj Sam seront permis nous pour assurer un son en continue.
+
+
+  **Au programme :**  
+
+  21h -- 21h30 : Ouverture des portes et mix Dj
+
+  21h30 -- 22h15 : Premier set live avec Simo Y Su Pasion
+
+  22h15 -- 22h45 : Mix Dj
+
+  22h45 -- 23h30 : Deuxième set live 
+
+  23h30 -- 00h00 : Descarga
+
+  00h00 -- 1h30: Mix Dj
+
+
+
+  🎟️ Entrée: 
+
+  12€ Cash only 🚨
+
+  10€ pour les élèves Bakido sur présentation d'une carte d'abonnement
+
+
+  **Rejoignez-nous et partagez l'événement avec vos amis pour vivre une soirée salsa inoubliable !**
+
+
+  #SalsaYSabore #SalsaNightParis #LiveMusic #DanceVibes #Les2Pianos  #LatinMusic #Descarga
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418007/sciltnpygihgpbvbwd4i.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+international: No
+hash: 1728759600000+ChIJ_eRByQ1w5kcRB1rCGi3367o
+viewsCount: 1
+id: lcxjNBdbZUGYTP5bXj6d

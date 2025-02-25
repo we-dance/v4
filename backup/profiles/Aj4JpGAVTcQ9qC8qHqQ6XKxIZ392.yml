@@ -1,0 +1,31 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627038460916
+createdBy: Aj4JpGAVTcQ9qC8qHqQ6XKxIZ392
+name: Anna_Maria
+place: ChIJqdYaECnPCUcRsP6IQsuxIQQ
+username: Anna_Maria
+daysUsed: 1
+pwaUsed: false
+locales:
+  de: true
+  en: true
+gender: Female
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+updatedAt: 1627038647797
+lastLoginAt: 1627045525801
+viewsCount: 1
+id: Aj4JpGAVTcQ9qC8qHqQ6XKxIZ392

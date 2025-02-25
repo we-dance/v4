@@ -1,0 +1,215 @@
+venue:
+  website: http://www.salsa-onstage.de/
+  formatted_address: Haager Str. 10a, 81671 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 10a
+      short_name: 10a
+    - types:
+        - route
+      long_name: Haager Straße
+      short_name: Haager Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Berg am Laim
+      short_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81671"
+      short_name: "81671"
+  url: https://maps.google.com/?cid=3637923077162623314
+  name: Salsa OnStage
+  geometry:
+    viewport:
+      south: 48.1251639197085
+      north: 48.12786188029149
+      east: 11.6095120802915
+      west: 11.6068141197085
+    location:
+      lng: 11.6082717
+      lat: 48.1264051
+  international_phone_number: +49 178 3034004
+  place_id: ChIJEx0xXYXfnUcRUmF5nsN_fDI
+endDate: 2021-12-04T21:00:00.000Z
+organisedBy: ""
+claimed: No
+link: https://www.salsa-onstage.de/kurse/kurse/
+description: >
+  Wir wollen euch trotz der angespannten Lage auf eine großartige Möglichkeit
+  hinweisen: 
+
+  Die beiden Brasilian Zouk Superstars auf Brasilien: JEFFERSON DADINHO & KELLY PALHARES sind zur Zeit auf Europa Tournee und wir konnten für kommendes Wochenende einen Termin ergattern. Die beiden sind absolute Weltklasse und sehr gute Lehrer in ihrem ganz eigenen R&B Style. 
+
+  Hier ein paar Beispiele ihres Könnens: 
+
+  - 2019 auf dem OnStage Bachata Festival: 
+
+  - 2021: Impro auf dem Dutch Zouk Congress 
+
+  https://www.youtube.com/watch?v=KGSVbYbvG5c 
+
+  - Instagram:  
+
+  Jefferson Dadinho 
+
+  Kelly Palhares  
+
+  Zouk ist ein wundervoller Tanz und viele Bachata Sensual Techniken (Leading &
+
+  Following, Spinning Technique etc.) haben ihren Ursprung in Zouk!
+
+  Wer seinen Tanzhorizont erweitern möchte, Zouk kennenlernen oder ausbauen.
+
+  Seine Leading & Following Skills verbessern möchte oder einfach neue coole Moves
+
+  lernen möchte, für den haben wir folgendes Angebot:
+   
+  *PROGRAMM:* 
+
+  *Freitag, 03.12.2021*
+
+  18:30-21:30 Zouk Crash Course - Learn the fundamentals of Zouk from the World
+
+  Stars
+   
+  *Samstag.04.12.2021*
+
+  17:00 -18:30 Zouk R&B Styling (Ladystyling & MenStyling - creative Footwork &
+
+  Bodymovement)
+
+  18:45 - 20:45 Zouk Partnerwork inkl. Spinning Technique
+
+  20:45 - 22:00 Zouk Practica - Practice
+   
+  INHALTE:
+
+  Zouk Crash Course: 
+
+  Für alle die in diesen wunderschönen Tanz schnuppern möchten oder die
+
+  Grundtechniken nochmal von den Profis in ihrem einzigartigen Stil erlernen
+
+  möchten. 
+   
+  Zouk Styling: 
+
+  All Levels: Erlebe hier neue Bewegungen und Schritte im R&B Style: Footwork,
+
+  Walking Styles & Bodymovement, Arm Work, Turns & Spins
+   
+  Zouk Partnerwork: 
+
+  Für alle die schon solide Grundtechniken haben und bereit sind für kreative Zouk
+
+  Kombination mit viel Style und Musikgefühl!
+
+  - Leading & Following, Connection, Arm Technique, Spinning Technique
+   
+  *PREIS:* 
+
+  Zouk Crash Course (Fr. 3 Std.): 49 €
+
+  Zouk Styling (Sa. Footwork & Bodymovement, 1,5 Std.): 25 €
+
+  Zouk Partnerwork (Sa. 2 Std.) 35 € 
+   
+  Saturday pass (3,5 Std. + Practica): 55 €
+
+  Fullpass (alle Workshops 6,5 Std. + Practica) 89 €
+   
+  Die Zouk Practica am Samstag abend ist inbegriffen!
+
+  Für Studenten 10 € Rabatt. Auch Einzelanmeldungen ohne Partner möglich.
+   
+  *ORT*: 
+
+  Salsa OnStage Tanzstudio
+
+  Haagerstr.10a
+
+  81671 München
+   
+  *ANMELDUNG*
+
+  https://www.salsa-onstage.de/kurse/kurse/
+
+  Anmeldung auch ohne Tanzpartner/in möglich 
+
+  !!!Alle Workshops mit 2G plus (Geimpft, Genesen + Test (Anitigen oder Pcr) 
+
+  Wir haben auch Selbsttests für 3 € vor Ort!!! 
+
+  Nutzt diese Gelegenheit, man weiß nie wann die nächste ist :)  
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Ffb1e021a-79fc-412c-b7e3-c80be25ba0e2?alt=media&token=fd7f542d-9946-4308-8c14-d536ee6ca85d
+duration: custom
+promo: No
+createdAt: 1638491175648
+watchersCount: 0
+price: 89 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FM7NJvelwl7sJtWGubeoa.png?generation=1638549852046365&alt=media
+commentsLast: ~
+promoter: Lakkana
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+id: M7NJvelwl7sJtWGubeoa
+international: No
+views: 4
+updatedAt: 1638491175648
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+eventType: Workshop
+organiser: ""
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+commentsCount: 0
+name: ZOUK Weekend mit Jefferson Dadinho & Kelly Palhares
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-03T17:30:00.000Z
+username: Lakkana
+viewsCount: 13

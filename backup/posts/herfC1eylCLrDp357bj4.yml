@@ -1,0 +1,153 @@
+venue:
+  website: https://www.muffatwerk.de/de/pages/ampere
+  formatted_address: Zellstraße 4, 81667 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "4"
+      short_name: "4"
+    - types:
+        - route
+      long_name: Zellstraße
+      short_name: Zellstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Au-Haidhausen
+      short_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81667"
+      short_name: "81667"
+  url: https://maps.google.com/?cid=1323106633268589125
+  name: Ampere
+  geometry:
+    viewport:
+      south: 48.13153071970851
+      north: 48.1342286802915
+      east: 11.5904969302915
+      west: 11.5877989697085
+    location:
+      lng: 11.5894095
+      lat: 48.13292069999999
+  place_id: ChIJt0EF7MHfnUcRRfLvC3meXBI
+  international_phone_number: +49 89 45875000
+endDate:
+  _seconds: 1635107400
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+description: >-
+  Hola liebe Freunde,     
+   
+  Wir tun es und wir freuen uns 
+
+  am Sonntag den 24. Oktober die Südafrikanische Sängerin **Nomfusi** im Ampere zu präsentieren. 
+
+
+  Tickets gibt es unter https://www.muffatwerk.de/de/events/view/5588/nomfusi   
+
+
+  Kommt zahlreich, lass uns tanzen, reisen und Musik live erleben!   
+
+
+  Es gilt für den Abend die 3G plus-Regel (geimpft, genesen oder PCR-Test)! Bitte die entsprechenden Nachweise mit Ausweisdokument am Einlass parat halten.    
+
+
+  Wir freuen uns auf Euch!   
+
+
+  Einlass: 18:30 Uhr    
+
+  Beginn: 19:30 Uhr 
+   
+  Ort: 
+
+  Ampere München, Zellstraße 4, 81667 München   
+
+
+  <w-youtube url="https://www.youtube.com/watch?v=IGS50zNG95U&t=2s"></w-youtube>
+
+
+
+  ---------------------------------------------
+
+
+  Zu den Veranstaltern Stefanie Schumann & Julia Kastl (Delicious Tunes): 
+
+
+  Sie sind Gründerinnen der Stiftung http://www.Soulidarity.org  mit dem Ziel durch die Pandemie in Not geratene afrikanische Künstler zu helfen. Diese Stiftung wird auch unter anderem vom weltberühmten angolanischen Sänger Paulo Flores und weiteren bekannten Künstlern unterstützt.
+
+
+
+  https://www.youtube.com/watch?v=D1z_MSfTI40&list=TLGGXEbxJtVLgd0yMTEwMjAyMQ
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FuZ1VEvLP7bP7ryCIyMFyuUDWm7n1%2F7a6c5457-173b-42a5-9b0b-3b5d3e419c41?alt=media&token=12f40928-c5cb-4255-8a2a-041a4b86c781
+promo: Yes
+duration: "180"
+createdAt: 1634838489985
+watchersCount: 0
+price: 25 - 27 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FherfC1eylCLrDp357bj4.png?generation=1634974569878119&alt=media
+commentsLast: ~
+promoter: MiMe72
+id: herfC1eylCLrDp357bj4
+promotedBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+place: ""
+international: Yes
+views: 5
+updatedAt: 1634838489985
+website: https://www.muffatwerk.de/de/events/view/5588/nomfusi
+updatedBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+visibility: Public
+eventType: Concert
+organiser: ""
+form: No
+createdBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+commentsCount: 0
+name: Nomfusi The Red Stoep Experience Album Tour
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Jazz:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-24T17:30:00.000Z
+username: MiMe72
+viewsCount: 7

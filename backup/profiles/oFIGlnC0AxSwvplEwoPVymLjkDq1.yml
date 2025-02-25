@@ -1,0 +1,70 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627938814388
+createdBy: oFIGlnC0AxSwvplEwoPVymLjkDq1
+name: Selma leona
+username: Leona1987
+gender: Female
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+step: photo
+updatedAt: 1627938954872
+permission: Yes
+birthday: 1987-02-16
+meetingPlace:
+  public: true
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+contacts: Yes
+height: "161"
+locales:
+  de: true
+  en: true
+  es: true
+pwaUsed: true
+bio: Dancing has been always part of my life
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FoFIGlnC0AxSwvplEwoPVymLjkDq1%2F22e2a32c-a62a-485b-ada4-918e62e30026?alt=media&token=3f1c3a0d-91e1-46cc-8534-4c7684d3ba06
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  SalsaNewYork:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Ballet:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsaton:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FLeona1987.png?generation=1632299729965486&alt=media
+daysUsed: 14
+lastLoginAt: 1639918710319
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+instagram: https://www.instagram.com/leonaareeiro/
+id: oFIGlnC0AxSwvplEwoPVymLjkDq1

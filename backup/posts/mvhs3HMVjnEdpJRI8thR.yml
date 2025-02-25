@@ -1,0 +1,168 @@
+endDate: 1712448000000
+sourceUrl: https://www.facebook.com/events/1455502395317781/
+createdAt: 1712044585011
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1711453409000
+updatedAt: 1712044585011
+importedAt: 1712044585011
+providerUpdatedAt: 1711453409000
+facebookId: "1455502395317781"
+facebook: https://www.facebook.com/events/1455502395317781/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1455502395317781/
+eventType: Party
+providerItemId: 10008626-1712361600-1712447999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: "Völgyikút Ház: BowlingCafe-Wellness-Étterem-Panzió, Kopácsi u. 2.,
+  Veszprém, 8200, Hungary"
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712361600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Veszprém, Kopácsi u. 2, 8200 Hungary
+  website: http://www.volgyikut.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Völgyikút House
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.9101657197085
+        lat: 47.0963655197085
+      northeast:
+        lng: 17.9128636802915
+        lat: 47.0990634802915
+    location:
+      lng: 17.9114208
+      lat: 47.09766219999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Kopácsi u.
+      long_name: Kopácsi utca
+    - types:
+        - locality
+        - political
+      short_name: Veszprém
+      long_name: Veszprém
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8200"
+      long_name: "8200"
+  international_phone_number: +36 30 429 3341
+  place_id: ChIJiXK0HWSaaUcRJJ50HO-c9Fk
+  url: https://maps.google.com/?cid=6481978314481507876
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsasabrosavp
+  name: Salsa Sabrosa Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765536/upxtkp0zhqvuaxx3prai.jpg
+  bio: ""
+  id: rxzDWLoGjB8CkZMWGWrI
+  instagram: ""
+  username: salsasabrosavp
+claimed: No
+link: ""
+description: >
+  Nagy mérföldkőhöz érkezett a Salsa Sabrosa: 10 éves évfordulót ünneplünk a
+  hétvégén! Egy 2 napos szülinapi workshop keretén belül kerül megrendezésre az
+  esemény GÁLA PARTYJA! 
+
+
+  ⏰ Időpont: 2024. április 6. szombat
+
+  🍹 Party: 21:00-02:00
+
+  🏁 Kapunyitás: 20:50
+
+  🎧 Zene: Dj LibErty és Dj Roy
+
+  🎵 70% salsa, son, timba - 30% bachata
+
+
+  🔖 Belépő:
+
+  ℹ Előzetes visszaigazolás esetén: 4.000 Ft; helyszínen: 5.000 Ft
+
+  A workshop résztvevőknek, aki olyan jegyet igényelt, benne van az árban!
+
+
+  Jegyváltás érkezéskor a helyszínen vagy elővételben az órákon!
+
+  Létszámstop: 200 főnél! 
+
+
+  👣 Dress code: elegáns, a legcsinosabb ruhák :) 
+
+  🎩 Kötelező ruhatár: nincs
+
+  📍 Helyszín: Völgyikút Ház
+
+  🌏 Cím: Veszprém, Kopácsi u. 2. 
+
+  🅿 Parkolás a Völgyikút Ház előtt, alatt (helyek függvényében)
+
+
+  Az este során lesznek meglepetések, tombola, óránkénti hölgyválaszok és animációk! :) <3
+
+
+  A workshopon oktató tanárok teljes létszámmal jelen lesznek a partyn:
+
+  👑 Ács Bea 
+
+  👑 Yusimi Moya Rodriguez 
+
+  👑 L.K. Sofie és Ladányi Zoli 
+
+  👑 Tóth Viki és Tóth Norbi 
+
+  👑 Csike Melina és Andreas Papadimi 
+
+  👑 Chris Lee
+
+
+  Szeretettel várunk mindenkit, akik velünk ünnepelnének! <3 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712044604/meudaebjy7vrwxu8t9to.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Gála Party | 10 éves a Salsa Sabrosa "
+online: No
+place: ChIJkS-MAt2aaUcREBIeDCnEAAQ
+international: No
+hash: 1712430000000+ChIJiXK0HWSaaUcRJJ50HO-c9Fk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fmvhs3HMVjnEdpJRI8thR.png?generation=1712044631807154&alt=media
+id: mvhs3HMVjnEdpJRI8thR

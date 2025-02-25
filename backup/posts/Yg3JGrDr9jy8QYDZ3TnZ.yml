@@ -1,0 +1,139 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Studio Rebecca | Tanzstudio Rebecca
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365355302915
+      south: 48.1328692697085
+      north: 48.1355672302915
+      west: 11.5338375697085
+    location:
+      lng: 11.5350716
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  url: https://maps.google.com/?cid=14332716633642345223
+  room: orange
+endDate: 2023-09-02T16:00
+claimed: No
+description: >-
+  🔥 Join us for an electrifying Bachata Bootcamp, designed specifically for
+  improver and intermediate level dancers looking to elevate their moves with
+  mesmerising Combinations🔥
+
+
+  Workshop 1 : Improver Level 💃 Bootcamp Theme 🕺 => Social moves and Combinations
+
+
+  => Specifically designed for dancers who are improver level to elevate their moves with Social moves(double tap body-waves) combinations
+
+
+  When => Sep 2 , 12:00 Bis 14:00 (2 hours) Price => 22 EUR
+
+
+  Workshop 2 : Intermediate Level 💃 Bootcamp Theme 🕺 => Body Isolations and Combinations
+
+
+  => Designed to electrify the dance with Body Isolations and combinations in elegant way. When => Sep 5 , 14:00 Bis 16:00 (2 hours) Price => 22 EUR
+
+
+  Partner => No need a partner to attend this course (2 EUR discount if you bring your partner)
+
+
+  We usually switch partner during class . But registration at +4915222808578 is needed to have balanced number of couples
+
+
+  Venue => Tanzstudio Rebecca , Anglerstraße 6, 80339 München . (ORANGE ROOM)
+program: []
+type: event
+duration: 60
+createdAt: 1693422048802
+artists: []
+price: 22 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1693422048802
+updatedBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+visibility: Public
+org: {}
+facebook: https://fb.me/e/38WEYhFl8
+eventType: Workshop
+confirmation: You got it 🥳🥳🥳
+form: No
+createdBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+watch:
+  count: 1
+  list:
+    ananth: true
+name: Bachata Bootcamp - Improver and Intermediate Level
+online: No
+styles:
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+startDate: 2023-09-02T12:00
+username: ananth
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7SRXL9snb0Tj6WR1inqrtwGDJwt2%2F103199a7-4ef7-460b-8255-16be6588802a?alt=media&token=edb703a6-95fc-442d-b822-4434022095f4
+id: Yg3JGrDr9jy8QYDZ3TnZ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYg3JGrDr9jy8QYDZ3TnZ.png?generation=1693422246795285&alt=media
+instagram:
+  requestedAt: 1693422285097
+  messageUrl: https://instagram.com/p/CwlG8e6p4LT
+  publishedAt: 1693422302133
+  messageId: CwlG8e6p4LT
+  state: published
+viewsCount: 28

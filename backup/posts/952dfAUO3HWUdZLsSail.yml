@@ -1,0 +1,142 @@
+endDate: 1721678400000
+sourceUrl: https://www.facebook.com/events/1098936797861361/
+createdAt: 1718287223548
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1717843976000
+updatedAt: 1718287223548
+importedAt: 1718287223548
+providerUpdatedAt: 1718019543000
+facebookId: "1098936797861361"
+facebook: https://www.facebook.com/events/1098936797861361/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1098936797861361/
+eventType: Party
+providerItemId: e1098936797861361@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: "del Vecchio Dance & Salsa Freaks Party am Kulturstrand "
+location: Kulturstrand München
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721660400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Isarbalkon, Corneliusbrücke, 80469 München, Germany
+  website: https://www.facebook.com/kulturstrand
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Kulturstrand der urbanauten
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5785542697085
+        lat: 48.12729886970849
+      northeast:
+        lng: 11.5812522302915
+        lat: 48.12999683029149
+    location:
+      lng: 11.5798103
+      lat: 48.1286
+  address_components:
+    - types:
+        - route
+      short_name: Corneliusbrücke
+      long_name: Corneliusbrücke
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  place_id: ChIJPxVvNH3fnUcRKbOUU90hyJw
+  url: https://maps.google.com/?cid=11297316899732632361
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Del-Vecchio-Dance/100037978854946/
+  name: Del Vecchio Dance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd014edc2-2fd5-43e8-b25d-579a187a986f?alt=media&token=7868eb70-5693-43b5-9a64-068a408200f1
+  bio: |-
+    Del Vecchio Dance - Dance Studio
+    Dance/Fitness/Lifestyle/Mindsetinspiration
+  id: 92LchPkQqWqhdoUsCSSy
+  instagram: ""
+  username: DelVecchioDance
+claimed: No
+link: ""
+description: >-
+  KARIBISCHES Feeling am Kulturstrand! 🌴
+
+  Best of Salsa, Bachata und Reggaeton mit Laura del Vecchio & DJ Hec ( del Vecchio Dance Studio & Salsa Freaks)
+
+
+  Für jeden wird etwas dabei sein.
+
+  Kommt vorbei und geniesst das tolle Urlaubsfeeling mit Sonne, Sand und gutem Sound.
+
+  Laura del Vecchio wird einen kleinen Salsa Crash Kurs geben und zwischendurch animieren.
+
+  Eintritt for Free ♡ 
+
+  See you 💃🕺🥳😍
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718287236/r9a6vqexvvjlrlm1plju.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1721660400000+ChIJPxVvNH3fnUcRKbOUU90hyJw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F952dfAUO3HWUdZLsSail.png?generation=1718287274996809&alt=media
+viewsCount: 9
+id: 952dfAUO3HWUdZLsSail

@@ -1,0 +1,166 @@
+venue:
+  formatted_address: Invalidenstraße 158, 10115 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Invalidenstraße 158
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3984449802915
+      south: 52.53095086970851
+      north: 52.5336488302915
+      west: 13.3957470197085
+    location:
+      lng: 13.3971152
+      lat: 52.5321244
+  address_components:
+    - types:
+        - street_number
+      short_name: "158"
+      long_name: "158"
+    - types:
+        - route
+      short_name: Invalidenstraße
+      long_name: Invalidenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10115"
+      long_name: "10115"
+  place_id: ChIJTZu1XuVRqEcRqwjivmifDSY
+  url: https://maps.google.com/?q=Invalidenstra%C3%9Fe+158,+10115+Berlin,+Germany&ftid=0x47a851e55eb59b4d:0x260d9f68bee208ab
+endDate: 2024-06-07T23:55
+claimed: No
+link: https://www.facebook.com/events/s/assisted-kizz-practice-party-b/2866400340157637/
+description: >-
+  Dear Kizomba Dancers,
+
+  we all join many useful classes and workshops in order to improve our dancing and this is already really really graet😉
+
+  On the other side one thing we definitely miss a lot is 💪🏼PRACTICING received information💪🏽
+
+
+  🎯This Wednesday evenings will focus on exactly this, PRACTICING.
+
+  Following program is awaiting you:
+
+  🎫Confirmed dates🎫
+
+  every 1. Wednesday
+
+  05.04.2023
+
+  03.05.2023
+
+  07.06.2023
+
+  05.07.2023
+
+
+  🛠 7 pm - 9 pm ASSISTED practice (with teacher)
+
+  🛠 9 pm - 12 pm PARTY on 🔥
+
+  💸 
+
+  Regular: 12€
+
+  Reduced: 10 €
+
+  Supporter: 15€
+
+  (Free entrance for kizz teachers)
+
+  PayPal or cash on the spot
+
+  🦦 Of course we also want to just enjoy the time and get together so feel free to bring drinks 🧃🧉and/ or snacks 🍪🥨
+
+
+  📍
+
+  Invalidenstraße 158
+
+  10115 Berlin
+
+  (Rewe entrance, after 1. glasdoor stairway on the right, 1. floor)
+
+
+  Please check our community guidelines📋 and directions🗺️ in the post below.
+
+
+  Very much looking forward to seeing you at Kizz PRACTICE in Berlin 💜🌺😉 
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F239aa18e-9ba8-48c5-bb5c-b9d6112d6e84?alt=media&token=54adf618-08f2-4edb-aa76-db26160a5264
+createdAt: 1682509424754
+artists: []
+price: 12 EUR
+socialCover: ""
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: OB7SP5mzTeG7i0OQYK6l
+international: No
+updatedAt: 1682509424754
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "@julchik.hbl"
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEUuKwggiZjcEiZMOzXV5P8U6lQh2%2Fa86a4b89-25f3-4f63-934d-2ea6c03c9534?alt=media&token=f61affe7-e1e7-4abe-a5ac-e6a318bcb4dd
+  bio: I am former ballet dancer and I am teaching Ballet, Kizomba and Brazilian
+    Zouk in Berlin ✌️💪😉
+  id: EUuKwggiZjcEiZMOzXV5P8U6lQh2
+  instagram: ""
+  username: Julchik
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Assisted Kizz Practice & Party
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2024-06-07T19:00
+username: aslihan
+viewsCount: 88

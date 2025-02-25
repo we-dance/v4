@@ -1,0 +1,155 @@
+venue:
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  website: http://www.isarpost-eventlocation.de/
+  name: ISARPOST Eventlocation
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5665639302915
+      south: 48.1337302197085
+      north: 48.1364281802915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 24-26
+      long_name: 24-26
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  url: https://maps.google.com/?cid=14604975425998091393
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+  international_phone_number: +49 89 1499037894
+endDate: 2022-10-30T04:00
+claimed: No
+link: https://m.regioactive.de/party/halloween-latino-isarpost-munich-muenchen-isar-post-2022-10-29-w8jS1j9WY9
+program: []
+type: event
+duration: 60
+createdAt: 1666795452419
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1666795452419
+updatedBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Munich de Noche
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0bdcf8ca-92a9-433a-92b7-08ca4ede2397?alt=media&token=411f2168-0dfa-462c-835e-897ff7ab5fc5
+  bio: Willkommen auf Munich de Noche. Dem Portal für Latin Events in München.
+  id: 4apTkM2lgJ24HQw6h4VN
+  instagram: https://instagram.com/munichdenoche
+  username: munichdenoche
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    undefined: true
+createdBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+name: Halloween Latino
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-10-29T23:00
+username: AnnaNym
+id: Ko9xcKz7XevlcDihCPnw
+telegram:
+  requestedAt: 1666795645386
+  messageUrl: https://t.me/WeDanceMunich/663
+  publishedAt: 1666795649794
+  messageId: 663
+  state: published
+instagram:
+  requestedAt: 1666795650778
+  messageUrl: https://instagram.com/p/CkLkrcEJQ7l
+  publishedAt: 1666795672671
+  messageId: CkLkrcEJQ7l
+  state: published
+description: >+
+  Bienvenido al infierno! #Halloween 🎃 steht vor der Tür und Munich de Noche
+  zelebriert dieses schaurige Spektakel mit Latin Beats am Sa, 29.10.22. Wir
+  verwandeln die Isarpost in eine schaurige Grotte, um mit euch den Día de los
+  Muertos richtig zu feiern.
+
+
+  DJ Javi & DJ Benido con Flow spielen das Beste aus Salsa / Merengue / Bachata / Reggaeton. Verkleidungen sind erwünscht und werden großzügig belohnt. Der Gast mit dem besten Kostüm bekommt eine Flasche Aguardiente auf’s Haus und feiert eine unvergessliche Halloween Nacht. Weitere gruseligen Specials und farbenprächtige und gespenstige Halloween Dekoration werden nicht fehlen.
+
+
+  FACTS:
+
+  Halloween Latino – Isarpost
+
+  Einlass: 23:00h
+
+  DJ Javi, DJ Benido con Flow (Salsa / Merengue / Bachata / Reggaeton)
+
+  Tickets: 10 €
+
+
+  Los esperamos 💕
+
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0f41817d-d15f-43a0-a8b4-cbf63ddab6f3?alt=media&token=86148526-b045-4d66-9300-431ba4526ad9
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKo9xcKz7XevlcDihCPnw.png?generation=1666795859607404&alt=media
+viewsCount: 24

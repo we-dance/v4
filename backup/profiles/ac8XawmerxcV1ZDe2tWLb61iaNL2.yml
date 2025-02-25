@@ -1,0 +1,57 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1622796640879
+createdBy: ac8XawmerxcV1ZDe2tWLb61iaNL2
+name: Denise_Sba
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+username: Denise_Sba
+pwaUsed: false
+hometown: ChIJnxyEFIQbmUcRjOYktHot_tY
+permission: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fac8XawmerxcV1ZDe2tWLb61iaNL2%2F3c70fadd-e003-4b9d-bde4-eb0b7740cdc5?alt=media&token=f70646ed-0c24-4fd3-8617-c9baa5c4f4f3
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+gender: Female
+locales:
+  de: true
+  en: true
+  es: true
+teacher: No
+partner: Yes
+contacts: Yes
+height: "173"
+meetingPlace:
+  public: true
+objectives:
+  learn: true
+  outdoors: true
+cities:
+  ChIJnxyEFIQbmUcRjOYktHot_tY: true
+  ChIJ04-twTTbmUcR5M-RdxzB1Xk: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1622798908350
+daysUsed: 3
+lastLoginAt: 1627201461922
+instagram: https://instagram.com/denise__sba
+viewsCount: 1
+id: ac8XawmerxcV1ZDe2tWLb61iaNL2

@@ -1,0 +1,36 @@
+visibility: Public
+community: Moscow
+type: Dancer
+createdAt: 1613522067833
+createdBy: EEyZld4FqcTBYzQU6LpGHpyoICD2
+name: Tatiana
+username: Tatiana
+teacher: Yes
+gender: Female
+languages: "Русский "
+photo: ""
+styles:
+  Bachata:
+    level: Interested
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  Kizomba:
+    level: Interested
+    selected: true
+  HighHeels:
+    level: Interested
+    selected: true
+locales:
+  ru: true
+  en: true
+lastLoginAt: 1613522416184
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+language: ru
+daysUsed: 1
+hometown: ""
+place: ChIJybDUc_xKtUYRTM9XV8zWRD0
+updatedAt: 1617064565042
+viewsCount: 7
+id: EEyZld4FqcTBYzQU6LpGHpyoICD2

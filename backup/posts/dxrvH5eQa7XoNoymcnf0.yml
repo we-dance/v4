@@ -1,0 +1,104 @@
+venue:
+  formatted_address: Sonnenstraße 5, 80331 München, Germany
+  website: https://www.citylounge-muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: City Lounge
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668863302915
+      south: 48.1369496697085
+      north: 48.1396476302915
+      west: 11.5641883697085
+    location:
+      lng: 11.5656373
+      lat: 48.13827939999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 51514870
+  place_id: ChIJg4VX_vZ1nkcRTXke2R-vgvc
+  url: https://maps.google.com/?cid=17835010025662085453
+endDate: 1700276400000
+claimed: No
+description: Freitag 17. November findet die zweite Kizz in the City statt. Mit
+  DJ Remcy und DJ Saul. 12 € Eintritt inklusive 2€ Getränk Gutschein. Es gibt
+  super Cocktails an der Bar auch alkoholfrei und die beste Pizza Münchens bis 3
+  Uhr. Die Party geht von 23:00 bis 4:00. City lounge ist auch eine super
+  lokation zum Essen und Trinken tagsüber. Freuen uns auf euch
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FrCBDTQtDQnaEl1Bm3LF9WE0HVvp2%2F7d121e71-3333-490e-a8ce-f9e099fe4c26?alt=media&token=8bc2d4bb-2a7a-44bc-ab77-e5b4098ac9bf
+createdAt: 1699550461421
+artists: []
+price: "12€ plus 2€ Gutschein für ein Getränk "
+artistsList: []
+international: No
+visibility: Public
+org:
+  instagram: https://instagram.com/citylounge
+  username: citylounge
+eventType: Party
+form: No
+createdBy: rCBDTQtDQnaEl1Bm3LF9WE0HVvp2
+watch:
+  count: 1
+  list:
+    Sandrdida33: true
+name: Kizz in the City
+online: No
+startDate: 1700258400000
+username: Sandrdida33
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdxrvH5eQa7XoNoymcnf0.png?generation=1699550484434409&alt=media
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+id: dxrvH5eQa7XoNoymcnf0
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1699552517018
+viewsCount: 17

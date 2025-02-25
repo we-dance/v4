@@ -1,0 +1,182 @@
+venue:
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  website: https://megano-tanzschule.de/
+  name: MEGANO Tanzschule
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5344533802915
+      south: 48.0992748197085
+      north: 48.1019727802915
+      west: 11.5317554197085
+    location:
+      lng: 11.533212
+      lat: 48.1005716
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Geretsrieder Str.
+      long_name: Geretsrieder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  international_phone_number: +49 160 5560717
+  place_id: ChIJ7cSE9lbZnUcRLl1y8iFygkM
+  url: https://maps.google.com/?cid=4864576037640625454
+endDate: 2023-02-04T01:30
+claimed: No
+link: https://facebook.com/events/s/salsa-bachata-all-styles/1180902129199413/
+description: >
+  Hola Gente,
+
+
+  Wir freuen uns sehr euch jeden Freitag die beste SALSA und BACHATA HITS zu präsentieren. Für jeden Geschmack ist was dabei!
+
+
+  Coole Drinks, Top Location und eine Megaparty sind garantiert!﻿﻿
+
+
+
+  ﻿﻿📆 JEDEN Freitag, ab 03.02.2023
+
+   ⏰ ab 21:00 Uhr
+
+
+  Mit DJ MEL﻿﻿
+
+
+  ﻿🔸 Programm
+  	•	Inkl. Schnupperkurs: 21:00 - 21:30
+  	•	Party ab 21:30﻿﻿
+
+  🔸 Gewinnspiel
+  	•	Folge DJ Mel – Dance auf Instagram
+  	•	Teile den Beitrag zur Party in deiner Story und markiere @dj_mel_dance
+  	•	Und erwähne 2 Partyfreunde in den Kommentaren
+
+  🔸 Zu gewinnen:
+  	•	Gewinn 1: 2-VIP-Plätze auf der Gästeliste für die Party am 03.02.23
+  	•	Gewinn 2: Kostenlose Salsa Free Style – Kursstunde für 2 Personen
+
+  🔸 Eintrittspreis
+  	•	Regulär: 10 € 
+  	•	Studenten: 8 €
+
+   
+  ﻿🔸 Ort
+  	•	Megano, ﻿Geretsrieder Str. 6, 81379 München
+  	•	5 min zu Fuß von der Ubahn-Haltestelle U3 Obersendling
+
+  ﻿Wir freuen uns auf Euch! 💃🏻 🔥﻿🕺🏼🎉🎉﻿
+program: []
+type: event
+promo: ""
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F41a1885b-7ed1-4b8e-87a7-55bb2c1bf94c?alt=media&token=dfc50cfa-8fb0-48e7-b779-4bd86c9ec64d
+createdAt: 1673384062320
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/djmeldance
+    name: DJ MEL - Dance
+    bio: DJ & Tanzlehrer 🇵🇪💃🏻🕺🏼
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FoSg1TkXwg1Vw4XlEbDEPEQw3ONz1%2Fd69e26c9-487d-42e5-82d4-2ef9f91ab2d2?alt=media&token=cf17ae4b-eca3-4662-a6fc-0a60c0c72e13
+    instagram: https://www.instagram.com/dj_mel_dance/
+    id: oSg1TkXwg1Vw4XlEbDEPEQw3ONz1
+    username: melmori
+price: 8-10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - melmori
+international: No
+updatedAt: 1673384062320
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/MEGANOTANZSCHULE
+  name: Megano Tanzschule
+  bio: Salsa Cubana, Musik, Animation, News, Videos und Live Unterricht
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmegano_dance.png?generation=1662975077262579&alt=media
+  id: drB3tICooGFyNp4hwqW3
+  instagram: https://instagram.com/megano_dance
+  username: megano_dance
+facebook: https://facebook.com/events/s/salsa-bachata-all-styles/1180902129199413/
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa & Bachata - All Styles
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-03T21:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FGdEvFUS3Y47Virp03X83.png?generation=1673384122339362&alt=media
+telegram:
+  requestedAt: 1674756430183
+  messageUrl: https://t.me/WeDanceMunich/825
+  publishedAt: 1674756434718
+  messageId: 825
+  state: published
+instagram:
+  requestedAt: 1674756436838
+  messageUrl: https://instagram.com/p/Cn40qflp9TK
+  publishedAt: 1674756454339
+  messageId: Cn40qflp9TK
+  state: published
+star:
+  count: 2
+  list:
+    Aina: true
+    juno81: true
+viewsCount: 56
+id: GdEvFUS3Y47Virp03X83

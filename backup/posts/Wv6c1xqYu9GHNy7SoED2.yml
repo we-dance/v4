@@ -1,0 +1,120 @@
+createdAt: 1705334086247
+updatedBy: xOrw2NjMzVecHsEpnREijhr9fCv2
+createdBy: xOrw2NjMzVecHsEpnREijhr9fCv2
+updatedAt: 1705334086247
+username: Amira
+venue:
+  formatted_address: Türkenstraße 3, 1090 Wien, Austria
+  website: https://www.cafeafro.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Café Afro
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.35919146970849
+        lat: 48.2154192197085
+      northeast:
+        lng: 16.3618894302915
+        lat: 48.2181171802915
+    location:
+      lng: 16.3605125
+      lat: 48.2168091
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Türkenstraße
+      long_name: Türkenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Alsergrund
+      long_name: Alsergrund
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1090"
+      long_name: "1090"
+  international_phone_number: +43 664 73090579
+  place_id: ChIJf7YWtL4HbUcR8wT51CX7Tvg
+  url: https://maps.google.com/?cid=17892514509495010547
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  Mambo Club obens its doors again on 19.01.24 @ the legendary Cafe Afro,
+  Türkenstr. 3.
+
+  20.30h - 21.30h open Level on2 Workshop
+
+  21.30h - 1.00h Party, Party, Partry
+
+
+  Let´s Style the Dance!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/932980254915926/
+facebookId: "932980254915926"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Mambo Club
+online: No
+styles:
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1705692600000+ChIJf7YWtL4HbUcR8wT51CX7Tvg
+startDate: 1705692600000
+org:
+  owner: ""
+  importedAt: 1705334093295
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/mamboclubvienna
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/400778806_666867015549356_4565648515133925000_n.jpg?stp=c16.14.37.38a_cp0_dst-jpg_p68x68&_nc_cat=106&ccb=1-7&_nc_sid=596444&_nc_ohc=sacnbikyREQAX8vqvbr&_nc_ht=scontent-iad3-2.xx&oh=00_AfBnPgXopkcanA7Ji-nEIEoxSnzPcCwt4v_8Y6veAvHoiQ&oe=65A9BC6C
+  source: facebook
+  type: Organiser
+  createdAt: 1705334093295
+  owned: false
+  name: Salsa & Mambo Club Vienna
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1705334093295
+  username: salsa.mambo.club.vienna
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWv6c1xqYu9GHNy7SoED2.png?generation=1705334106931794&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058069/xvlosujphe8crwwgilh4.jpg
+viewsCount: 3
+id: Wv6c1xqYu9GHNy7SoED2

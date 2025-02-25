@@ -1,0 +1,64 @@
+createdAt: 1718868458708
+website: http://www.markadas-danse.com/
+rooms: ""
+address:
+  website: http://www.markadas-danse.com/
+  formatted_address: 20 Av. du Dr Schweitzer, 69330 Meyzieu, France
+  name: Markadas Dance Center School Dances Lyon Dance Classes Child Adult Meyzieu
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 5.030024669708498
+        lat: 45.7679572697085
+      northeast:
+        lng: 5.032722630291502
+        lat: 45.7706552302915
+    location:
+      lng: 5.031808799999999
+      lat: 45.7695251
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Av. du Dr Schweitzer
+      long_name: Avenue du Docteur Schweitzer
+    - types:
+        - locality
+        - political
+      short_name: Meyzieu
+      long_name: Meyzieu
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Rhône
+      long_name: Rhône
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "69330"
+      long_name: "69330"
+  url: https://maps.google.com/?cid=17562166072965873600
+  international_phone_number: +33 4 72 02 80 00
+  place_id: ChIJURe9qQDH9EcRwD-Muf5YufM
+gender: Other
+phone: +33 4 72 02 80 00
+name: Markadas Dance Center School Dances Lyon Dance Classes Child Adult Meyzieu
+updateAt: 1718868458708
+type: Venue
+map: ""
+username: www.markadas-danse.com
+viewsCount: 1
+id: MtHT06bsmwHI6V9o4pag

@@ -1,0 +1,121 @@
+createdAt: 1708546927388
+updatedBy: cVjsRVNkbNUGnEBwsceSe0cH2R32
+createdBy: cVjsRVNkbNUGnEBwsceSe0cH2R32
+username: Tiana
+venue:
+  formatted_address: 14-16 Faraday St, Manchester M1 1BE, UK
+  website: http://www.studiobeemcr.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Studio Bee Photography Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.234231330291502
+        lat: 53.4812664697085
+      northeast:
+        lng: -2.231533369708498
+        lat: 53.4839644302915
+    location:
+      lng: -2.232929
+      lat: 53.4826379
+  address_components:
+    - types:
+        - street_number
+      short_name: 14-16
+      long_name: 14-16
+    - types:
+        - route
+      short_name: Faraday St
+      long_name: Faraday Street
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M1 1BE
+      long_name: M1 1BE
+  international_phone_number: +44 7855 939129
+  place_id: ChIJowFQsL6xe0gRSIv-feW3nps
+  url: https://maps.google.com/?cid=11213602318488341320
+endDate: 1709924400000
+claimed: No
+link: https://www.fieradance.com/event-details-registration/bachata-dance-class-6
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Fiera-Dance/61555495028621/
+  name: Fiera Dance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708470847/pv8bmfvt7zg8vba0becs.jpg
+  bio: ""
+  id: 96dUQrdFagHCvmLGuIpF
+  instagram: ""
+  username: fiera.dance
+facebook: https://www.facebook.com/events/1149521676212175/
+facebookId: "1149521676212175"
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Beginners Bachata Drop in - Manchester
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1709920800000+ChIJowFQsL6xe0gRSIv-feW3nps
+startDate: 1709920800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMqxhniIo3IdiZHPjYVvV.png?generation=1708546970743917&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FcVjsRVNkbNUGnEBwsceSe0cH2R32%2F72496d81-0e47-488f-9d10-f6b31304539e?alt=media&token=bd17b4e6-3f58-4ff2-b27a-334a4a2a8679
+price: GBP 6
+description: |-
+  🕺 BEGINNERS - NO PARTNER REQUIRED 💃
+
+  NO DANCE EXPERIENCE REQUIRED
+
+  🗓️ Friday 8 March 2024, 6pm to 7pm
+
+  📍StudioBee, 14-16 Faraday St, Manchester M1 1BE
+
+  💸 £6 for class only (£9 inc. 9pm social)
+
+  👗 Dress code:
+  Wear anything comfortable for busting a move! Non-sticky shoes.
+artistsList: []
+id: MqxhniIo3IdiZHPjYVvV
+place: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+eventType: Workshop
+confirmation: >-
+  To book on to the class/event, please visit www.fieradance.com and sign up!
+  Alternatively, you can pay at the class/event*.
+
+
+  Please feel free to DM us or reach out to us on Instagram. We look forward to seeing you soon! ✨
+
+
+  *Note that on the day prices are higher.
+updatedAt: 1708548567070
+viewsCount: 15

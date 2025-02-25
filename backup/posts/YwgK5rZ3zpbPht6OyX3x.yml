@@ -1,0 +1,132 @@
+venue:
+  formatted_address: Munich, Germany
+  website: http://www.muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Munich
+      short_name: Munich
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Upper Bavaria
+      short_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bavaria
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+  url: https://maps.google.com/?q=Munich,+Germany&ftid=0x479e75f9a38c5fd9:0x10cb84a7db1987d
+  name: Munich
+  geometry:
+    viewport:
+      south: 48.06160176222775
+      north: 48.24821969652085
+      east: 11.72287551432547
+      west: 11.36079598983695
+    location:
+      lng: 11.5819806
+      lat: 48.1351253
+  place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+endDate: 2021-12-05T19:00:00.000Z
+claimed: No
+organisedBy: ""
+link: https://forms.gle/UjYgjRTtCQX3PZXi8
+description: >-
+  After very long time WILLIAM & JOANNA are BACK IN MUNICH!
+
+  We have the pleasure to invite you for this unforgettable Christmas weekend in the heart of Bavaria.
+
+  This time we make it big and we bring back the fire to Munich!
+
+  ⚡️ TEACHERS
+
+  William (Brazil) & Joanna (Poland)
+
+  Dora & DJ HushZ (Poland)
+
+  Can it be even better?
+
+  YES!
+
+  ⚡️ 10h of workshops
+
+  ⚡️ 2 parties (Friday & Saturday)
+
+  ⚡️ unlimited amount of fun, knowledge, energy and inspiration
+
+  ⚡️ possiblity of private classes
+
+
+  ⚡️ REGISTER
+
+  https://forms.gle/UjYgjRTtCQX3PZXi8
+
+
+  ⚡️SCHEDULE
+
+  Comes soon...
+
+
+  ⚡️PRICES
+
+  Early Bird (till 05.11) - 90€
+
+  Regular (6-25.11) - 100€
+
+  Last Call (26.11-02.12) - 115€ See Less
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG008dEeTZJcXLBzzL2krS0Ynumu2%2Fc36ad44b-6927-4e6a-91d5-34cb8992bc7e?alt=media&token=7faba5f3-0556-4dc3-93d6-490b548832be
+duration: custom
+createdAt: 1635358887840
+watchersCount: 0
+price: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYwgK5rZ3zpbPht6OyX3x.png?generation=1638388280883746&alt=media
+commentsLast: ~
+promoter: Thomas
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: YwgK5rZ3zpbPht6OyX3x
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 13
+updatedAt: 1635358887840
+updatedBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+visibility: Public
+facebook: https://www.facebook.com/events/932961247616505/?ref=newsfeed
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+commentsCount: 0
+name: "WILLIAM & JOANNA: Zouk [CANCELLED]"
+online: No
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-03T18:00:00.000Z
+username: Thomas
+styles:
+  BrazilianZouk:
+    level: Beginner
+    highlighted: false
+    selected: true
+viewsCount: 75

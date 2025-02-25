@@ -1,0 +1,125 @@
+sourceUrl: https://www.facebook.com/events/1345696942757171/1345696946090504/?active_tab=about
+createdAt: 1710085549244
+updatedBy: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+createdBy: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: MunichMax
+endDate: 1710455400000
+claimed: No
+link: ""
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/MunichMaxUrbanKizSalsa
+  name: MunichMax
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDzxaQ89yYASZwZ4rxqZ9iCOD1yC3%2F2cdfac4b-f5d1-4de4-ad75-5b1fe66154ad?alt=media&token=b02fed5c-72f5-492a-8254-f2a7f3f542a6
+  bio: Music is the Key and Dance is the way!
+  id: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+  instagram: https://instagram.com/munichmax
+  username: MunichMax
+facebook: https://www.facebook.com/events/1345696942757171/?event_time_id=1345696946090504
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa Afterwork Party + Workshops
+online: No
+startDate: 1710439200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710085553/qjvkhmrgltc1nt1mf4p8.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FD4YlHGKkhLTuQwuAIFB7.png?generation=1710085566402594&alt=media
+venue:
+  formatted_address: Marienpl. 2, 85354 Freising, Germany
+  website: http://www.lacueva.bar/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: La Cueva Restaurant & Tapas Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.7450440802915
+      south: 48.3997359697085
+      north: 48.4024339302915
+      west: 11.7423461197085
+    location:
+      lng: 11.7434967
+      lat: 48.4011232
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Marienpl.
+      long_name: Marienplatz
+    - types:
+        - locality
+        - political
+      short_name: Freising
+      long_name: Freising
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: FS
+      long_name: Freising
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85354"
+      long_name: "85354"
+  international_phone_number: +49 8161 8878172
+  place_id: ChIJYclpROJrnkcR-gqeXVdspOM
+  url: https://maps.google.com/?cid=16403354865278782202
+facebookId: "1345696942757171"
+styles:
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Casino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+id: D4YlHGKkhLTuQwuAIFB7
+promotionError: ""
+description: |-
+  19 Uhr Workshops:
+  14.03. Bachata
+  Keine Vorkenntnisse Erforderlich
+
+  20 Uhr Salsa Bachata Party
+hash: 1710439200000+ChIJYclpROJrnkcR-gqeXVdspOM
+instagram:
+  state: published
+  messageUrl: https://instagram.com/p/C4VuPCrOGmY
+  publishedAt: 1710085900661
+  messageId: C4VuPCrOGmY
+promotion: completed
+updatedAt: 1710104310388
+viewsCount: 6

@@ -1,0 +1,57 @@
+createdAt: 1715702839626
+website: https://lepassage.com.eg/
+rooms: ""
+address:
+  website: https://lepassage.com.eg/
+  formatted_address: Al Houreya - Heliopolis, شيراتون المطار، قسم النزهة، محافظة
+    القاهرة‬ 11861, Egypt
+  name: Le Passage Cairo Hotel & Casino
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 31.39912436970851
+        lat: 30.1206424697085
+      northeast:
+        lng: 31.40182233029151
+        lat: 30.1233404302915
+    location:
+      lng: 31.4004738
+      lat: 30.1219859
+  address_components:
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: شيراتون المطار
+      long_name: شيراتون المطار
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: قسم النزهة
+      long_name: قسم النزهة
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: محافظة القاهرة‬
+      long_name: محافظة القاهرة‬
+    - types:
+        - country
+        - political
+      short_name: EG
+      long_name: Egypt
+    - types:
+        - postal_code
+      short_name: "11861"
+      long_name: "11861"
+  url: https://maps.google.com/?cid=2695979403679861436
+  international_phone_number: +20 2 22670099
+  place_id: ChIJ756gegIXWBQRvIob1vsKaiU
+gender: Other
+phone: +20 2 22670099
+name: Le Passage Cairo Hotel & Casino
+updateAt: 1715702839626
+type: Venue
+map: ""
+username: lepassage.com.eg
+viewsCount: 3
+id: 0PVjN6kpvx9bZUsgkIXZ

@@ -1,0 +1,58 @@
+endDate: 1725667199000
+description: |-
+  Program:21:30-01:00 Salsa & Bachata 01:00-05:00 Reggaeton
+
+
+  Részletes információk:
+
+
+
+
+
+
+
+
+
+
+
+  https://www.facebook.com/events/358850087272242
+sourceUrl: https://www.facebook.com/events/358850087272242
+createdAt: 1725544833235
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725478299000
+updatedAt: 1725544833235
+importedAt: 1725544833235
+providerUpdatedAt: 1725478299000
+facebookId: "358850087272242"
+facebook: https://www.facebook.com/events/358850087272242
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/358850087272242
+eventType: Party
+providerItemId: 48007-1725580800-1725667199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa & Bachata Party - Győr
+location: Viki’s, Baross Gábor út 23., Győr, 9021, Magyarország
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725580800000
+facebookUrlsCount: 1
+username: alexrazbakov
+errorCode: no_event
+error: No event data found, please verify that your URL is correct and the event
+  is accessible without authentication
+type: import_error
+id: SsqAKCvHA6GSWGrFdW0H

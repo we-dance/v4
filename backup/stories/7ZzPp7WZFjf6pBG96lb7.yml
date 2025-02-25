@@ -1,0 +1,55 @@
+venue:
+  formatted_address: Mpaka Rd, Nairobi, Kenya
+  website: http://www.nairobistreetkitchen.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Nairobi Street Kitchen
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 36.80563163029149
+      south: -1.266764080291502
+      north: -1.264066119708498
+      west: 36.8029336697085
+    location:
+      lng: 36.8045135
+      lat: -1.2652667
+  address_components:
+    - types:
+        - route
+      short_name: Mpaka Rd
+      long_name: Mpaka Road
+    - types:
+        - locality
+        - political
+      short_name: Nairobi
+      long_name: Nairobi
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nairobi County
+      long_name: Nairobi County
+    - types:
+        - country
+        - political
+      short_name: KE
+      long_name: Kenya
+  international_phone_number: +254 707 800800
+  place_id: ChIJt1Jlq00XLxgR_EqbyJNNUdE
+  url: https://maps.google.com/?cid=15082921924161653500
+  username: www.nairobistreetkitchen.com
+createdAt: 1712525505860
+receiver:
+  username: www.nairobistreetkitchen.com
+question: HakXEhWY1qsE9WmD19vV
+createdBy: 4W8V6pKxZphuvTqahvE14wqCFfm2
+link: ""
+description: >-
+  Thursdays,
+
+  Latino Thursdays by DFK at Nairobi Street Kitche on Mpaka road, Westlands Nairobi.
+place: ChIJp0lN2HIRLxgRTJKXslQCz_c
+type: review
+dances:
+  - ""
+username: Salsabenjamin
+id: 7ZzPp7WZFjf6pBG96lb7

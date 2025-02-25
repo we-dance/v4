@@ -1,0 +1,197 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327020491
+updatedAt: 1732327020491
+importedAt: 1732327020491
+providerId: goandance
+providerItemId: "7122"
+name: CORE BACHATA FESTIVAL - PRAGUE 2025
+description: |-
+  For the year 2025, CORE BACHATA ACADEMY is proud to present:
+
+  ⭐️⭐️⭐️⭐️⭐️ CORE BACHATA FESTIVAL - PRAGUE 2025 ⭐️⭐️⭐️⭐️⭐️
+
+  ➠ You can look forward to:
+
+  ☆ 3 days of bachata ALL IN ONE PLACE
+
+  ☆ As always, impressive venue
+
+  ☆ Great line up of artists & ambassadors
+
+  ☆ Best CZ dancers & top international dancers
+
+  ☆ 15+ hours of High-Quality Workshops
+
+  ☆ 3 Big parties (Friday-Sunday)
+
+  ☆ Stylish Modern Music by DJ Cat
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ ARTISTS, DJs & MEDIA ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✦ 𝗕𝗮𝗰𝗵𝗮𝘁𝗮 𝗔𝗿𝘁𝗶𝘀𝘁𝘀 ✦
+
+  ✪ 🇨🇭 Kiko & Christina (CH)
+
+  ✪ 🇪🇸 Leandro & Jomante (ES)
+
+  ✪ 🇵🇱 Kornel & Catharine (PL)
+
+  ✪ 🇪🇸 Javi & Mariluz (ES) 🆕
+
+  ✪ 🇨🇿 Ilyas & Anastasia (CZ)
+
+  ✪ 🇬🇧 Kate Samol (EN)
+
+  More announced 🔜
+
+  ✦ 𝗗𝗝𝘀 ✦
+
+  ✪ 🇵🇱 DJ Cat (PL) #mainDJ
+
+  ✪ 🇮🇹 DJ Erik La Voz (IT)
+
+  More announced 🔜
+
+  ✦ 𝗠𝗘𝗗𝗜𝗔 ✦
+
+  Main Videographer ✪ It’s Cam Time (CZ)
+
+  Main photographer ✪ Announced 🔜
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ DRESSCODES & PROFILE FRAME ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  ✦ Dresscodes ✦
+
+  ✪ More details announced closer to the event
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ▶ TRAVEL ◀
+
+  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+  Location: PRAGUE (CZ)
+
+  ✈️️ Travel details ✈️️
+
+  ✦ By plane
+
+  🛬 PRG - Vaclav Havel Airport
+
+  ➠ https://www.google.com/travel/flights
+
+  ✦ By train
+
+  🚆 Prague Main Station
+
+  🚆 Masaryk Railway Station
+
+  ➠ https://idos.cz/
+
+  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+  ✦ Whatsapp community: link posted soon
+
+  For any inquiries, contact the festival organisers:
+
+  CORE BACHATA ACADEMY
+
+  facebook.com/corebachataacademy/
+
+  instagram.com/core\_bachata\_academy/
+sourceUrl: https://www.goandance.com/es/e/7122?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7122?promoter=WEDANCE123
+type: event
+startDate: 1737831600000
+endDate: 1737939600000
+tickets:
+  - name: FULLPASS - Includes all workshops and parties Fri-Sun
+    description: ""
+    priceValidUntil:
+      _seconds: 1737741600
+      _nanoseconds: 0
+    discount: 5
+    price: 60
+    comission: 7.87
+    originalPrice: 65
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7122-core-bachata-festival-prague-2025?&promoter=WEDANCE123
+  - name: PARTY PASS - Includes 3x pre-party workshops and all parties Fri-Sun
+    description: ""
+    priceValidUntil:
+      _seconds: 1737676800
+      _nanoseconds: 0
+    discount: 5
+    price: 34
+    comission: 7.87
+    originalPrice: 39
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7122-core-bachata-festival-prague-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327021/q8fkhyq08h9xhdfjsy9p.jpg
+venue:
+  address_components:
+    - long_name: 101 00
+      short_name: 101 00
+      types:
+        - postal_code
+    - long_name: Prague 10
+      short_name: Prague 10
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Prague
+      short_name: Prague
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Czechia
+      short_name: CZ
+      types:
+        - country
+        - political
+  formatted_address: 101 00 Prague-Prague 10, Czechia
+  geometry:
+    location:
+      lat: 50.0638314
+      lng: 14.4621256
+    viewport:
+      northeast:
+        lat: 50.07601856775981
+        lng: 14.48617154433702
+      southwest:
+        lat: 50.05486383776787
+        lng: 14.44087543084607
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 101 00
+  place_id: ChIJmy53-3eTC0cRkAdjmBKvABw
+  url: https://maps.google.com/?q=101+00&ftid=0x470b9377fb772e9b:0x1c00af1298630790
+place: ""
+price: 60 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1737831600000+ChIJmy53-3eTC0cRkAdjmBKvABw
+org: ""
+id: urZvREVgLN1zj40VGkT6

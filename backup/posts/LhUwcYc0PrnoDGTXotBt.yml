@@ -1,0 +1,109 @@
+endDate: 1711238400000
+claimed: No
+link: https://www.facebook.com/events/226987030405063
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff904a32f-c41d-43af-ab00-81623d1067f0?alt=media&token=a706c7ed-3208-4ebc-a52e-c89e5250bc20
+createdAt: 1710068995562
+price: 100 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+facebook: https://www.facebook.com/events/226987030405063
+facebookId: "226987030405063"
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+venueProfile: {}
+name: Březnavová Salsa Familia párty
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711220400000
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLhUwcYc0PrnoDGTXotBt.png?generation=1710069013226138&alt=media
+org:
+  role: organiser
+  facebook: https://facebook.com/salsafamiliamladaboleslav
+  username: salsafamiliamladaboleslav
+id: LhUwcYc0PrnoDGTXotBt
+hash: 1711220400000+ChIJn8tl9LdVCUcRoHYVZg-vAAQ
+venue:
+  website: http://web.archive.org/web/20060107010424/http://www.mb-net.cz/mesto/index.phtml
+  formatted_address: 293 01 Mlada Boleslav-Mladá Boleslav 1, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Mlada Boleslav
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.96094026238665
+      south: 50.38010040490726
+      north: 50.45816042219256
+      west: 14.84827901102449
+    location:
+      lng: 14.908438
+      lat: 50.4134249
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Mlada Boleslav
+      long_name: Mlada Boleslav
+    - types:
+        - postal_town
+      short_name: Mladá Boleslav 1
+      long_name: Mladá Boleslav 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mladá Boleslav District
+      long_name: Mladá Boleslav District
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Central Bohemian Region
+      long_name: Central Bohemian Region
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 293 01
+      long_name: 293 01
+  place_id: ChIJn8tl9LdVCUcRoHYVZg-vAAQ
+  url: https://maps.google.com/?q=293+01+Mlada+Boleslav-Mlad%C3%A1+Boleslav+1,+Czechia&ftid=0x470955b7f465cb9f:0x400af0f661576a0
+  username: web.archive.orgweb/20060107010424/http://www.mb-net.cz/mesto/index.phtml
+description: >-
+  Tradiční párty, kterou pořádáme 1x za měsíc.
+
+  Těšíme se na vás všechny přátelé z MB, LBC, JBC, HK.... a další. S lítostí i radostí musíme oznámit, že tentokrát musíme na skok zpět do našeho legendárního výměníku ❤ Kdo to nezažil, máte jedinečnou možnost 🤣😇❤💃 Vlastní občerstvení a náhradní tričko sebou! 😉🙏 V kulturáku se nám moc líbí (časem ještě zvětšíme parket), ale nejde to, v ten termín tam je erotický ples!🤭 Jo a návrhy, jakože by to šlo a za jakých podmínek už slyším 🤣 .... nenene, hezky oblečení a potit se a družit se na baru v našem milovaném výměníku 😜😎💃🪇👍🤣❤💃🕺Celý večer vás bude provázet báječný DJ Lole ❤
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://www.facebook.com/SalsaInPrague
+    name: Dj Lole
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706212324/jagkm8hjqhtzgelsniyq.jpg
+    bio: ""
+    id: jyRiItwVJKoB5FbdrXOH
+    instagram: ""
+    username: dj.lole
+artistsList:
+  - dj.lole
+updatedAt: 1710766297079
+viewsCount: 2

@@ -1,0 +1,42 @@
+endDate: 2021-07-20T21:00:00.000Z
+link: https://pinakothek.splashthat.com/
+description: Nur mit Anmeldung
+type: event
+duration: custom
+createdAt: 1626691517182
+watchersCount: 0
+price: FREE
+commentsLast: ~
+id: DmhhAUN4gx4r8rNtjzhk
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1626691517182
+address: Pinakothek der Moderne
+updatedBy: yj4bkZGCKRVNew48YXtuZAirlU82
+visibility: Public
+eventType: Party
+form: Yes
+createdBy: yj4bkZGCKRVNew48YXtuZAirlU82
+commentsCount: 0
+name: Salsamix
+online: No
+styles:
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-20T18:00:00.000Z
+username: DJHEC
+viewsCount: 44

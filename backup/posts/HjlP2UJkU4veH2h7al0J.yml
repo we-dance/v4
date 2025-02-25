@@ -1,0 +1,192 @@
+endDate: 1725831900000
+sourceUrl: https://www.facebook.com/events/279472344587574/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1687675336000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1711546383000
+facebookId: "279472344587574"
+facebook: https://www.facebook.com/events/279472344587574/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/279472344587574/
+eventType: Festival
+providerItemId: e279472344587574@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Ay Chi Chi Bachata Festival 2024
+location: Kajen Nacka Strand
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725634800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Augustendalsvägen 49, 131 52 Nacka Strand, Sweden
+  website: http://www.kajen.nu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: KAJEN ''THE QUAY''
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.1530914197085
+        lat: 59.3164343697085
+      northeast:
+        lng: 18.15578938029151
+        lat: 59.31913233029151
+    location:
+      lng: 18.15473889999999
+      lat: 59.31787740000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "49"
+      long_name: "49"
+    - types:
+        - route
+      short_name: Augustendalsvägen
+      long_name: Augustendalsvägen
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Nacka
+      long_name: Nacka
+    - types:
+        - postal_town
+      short_name: Nacka Strand
+      long_name: Nacka Strand
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Stockholms län
+      long_name: Stockholms län
+    - types:
+        - country
+        - political
+      short_name: SE
+      long_name: Sweden
+    - types:
+        - postal_code
+      short_name: 131 52
+      long_name: 131 52
+  international_phone_number: +46 8 502 310 92
+  place_id: ChIJsaRfL-SDX0YR06VRBBykUhU
+  url: https://maps.google.com/?cid=1536470863125259731
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131851316
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/losbonitillosdance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131851/dzpk99wcghu1plcel87q.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131851316
+  owned: false
+  name: Los Bonitillos
+  updatedAt: 1714131851316
+  username: losbonitillosdance
+claimed: No
+link: https://losbonitillos.com/ay-chi-chi-bachata-festival/
+description: >-
+  Welcome to what we hope will be Northern Europes biggest Dominican Bachata
+  festival! The weekend 6-8th of September 2024 Los Bonitillos present a 3 day
+  festival in Stockholm, Sweden 🇸🇪 Enjoy a full weekend of intriguing
+  workshops, crazy theme parties and Dominican spirit!
+
+
+  CONFIRMED ARTISTS
+
+  🇩🇴🇸🇪 Los Bonitillos 
+
+  🇫🇷 Samy el Magico
+
+  🇩🇴 Yernan Flores
+
+  🇩🇴 Juan Pablo Paredes
+
+  🇩🇴 Swagger
+
+  🇸🇪🇩🇴 Isoldita
+
+  🇩🇴 Yocasti Puntiel
+
+  🇫🇮 Vesa Parkari
+
+  🇷🇺 Bailamar: Maria & Alex
+
+  🇺🇸 Guillermo Reyes
+
+  🇩🇪 Anna
+
+  🇩🇴 Junior Almanzar
+
+  🇵🇱 Margaret
+
+  🇩🇴 Maquiol Rodriguez
+
+  🇸🇪 Evelina 
+
+  🇳🇱 Dj Bripa
+
+  🇺🇸 Dj RJ
+
+
+  FULL PASS
+
+  ➡️ 130€ (September-February 2024)
+
+  Then 150€ (March - May 2024)
+
+  Then 170€ (June - August 2024)
+
+  Price at door 200€ 
+
+
+  BUY YOUR FULL PASS
+
+  Link: https://losbonitillos.com/shop/
+
+
+  ‼️ If you don’t have a promo code use LOSBONITILLOS to get your discount price!
+
+
+  ✈️ Fly to Stockholm: ARN Arlanda Airport or BMA Bromma Airport (Optional: NYO Skavsta Airport that’s 1,5h away but has bus transfer)
+
+  💸 Flights from European cities start at 30€ round trip (check Norwegian, Ryanair, Wizzair, Eurowings), flights from the US East coast start at $300 round trip (check Play Airlines or sales on SAS).
+
+
+  🏨 Collaborating hotel: Hotel J
+
+  Ellensviksvägen 1, Nacka Strand
+
+  Within walking distance to the venue.
+
+  20% discount with promo code: AYCHICHI
+
+  Webpage: https://www.hotelj.com/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131853/hkqucw1bklz8w33stz6b.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1725634800000+ChIJsaRfL-SDX0YR06VRBBykUhU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHjlP2UJkU4veH2h7al0J.png?generation=1714131887649652&alt=media
+viewsCount: 1
+id: HjlP2UJkU4veH2h7al0J

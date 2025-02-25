@@ -1,0 +1,278 @@
+endDate: 1731952800000
+sourceUrl: https://www.facebook.com/events/863532911850497/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1700065623000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1724815593000
+facebookId: "863532911850497"
+facebook: https://www.facebook.com/events/863532911850497/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/863532911850497/
+eventType: Concert
+providerItemId: e863532911850497@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: ElSol Festival 2024 - discount 🔥 DANCINGTOM 🔥
+location: Międzynarodowe Centrum Kongresowe
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731603600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: plac Sławika i Antalla 1, 40-163 Katowice, Poland
+  website: http://www.mckkatowice.pl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Katowice International Conference Centre
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0250159
+        lat: 50.2645641197085
+      northeast:
+        lng: 19.0298815
+        lat: 50.26726208029149
+    location:
+      lng: 19.0275632
+      lat: 50.266161
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: plac Sławika i Antalla
+      long_name: plac Sławika i Antalla
+    - types:
+        - locality
+        - political
+      short_name: Katowice
+      long_name: Katowice
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Powiat Katowice
+      long_name: Powiat Katowice
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Województwo śląskie
+      long_name: Województwo śląskie
+    - types:
+        - country
+        - political
+      short_name: PL
+      long_name: Poland
+    - types:
+        - postal_code
+      short_name: 40-163
+      long_name: 40-163
+  international_phone_number: +48 32 438 40 30
+  place_id: ChIJZyZrQzDOFkcRjmu6kOYy4Kw
+  url: https://maps.google.com/?cid=12457012535158795150
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Dancingtom/100088641805355/
+  name: Sbk Dancingtom
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131866/jehzenughbag91volutw.jpg
+  bio: ""
+  id: GQstybhn60OZaZZL8qFq
+  instagram: ""
+  username: SbkDancingtom
+claimed: No
+link: ""
+description: >-
+  ElSol is happening for the 19th time!
+
+
+  ‼️Prices go up at the beginning of each month
+
+  ‼️ DISCOUNT CODE BELOW‼️👇
+
+  🔥DANCINGTOM🔥 - 10% DISCOUNT ON ALL PASSES
+
+
+  https://elsolfestival.pl/en/payment/
+
+
+  The location is MCK in Katowice again and we cannot wait to have you back here.
+
+
+  We're super excited to share this amazing line up with you:
+
+
+  SALSA
+
+  Juan Diago Camilo (Peru)
+
+  Jhoana Palhua (Peru)
+
+  Adolfo & Tania (NYC)
+
+  Karel & Bruno (NYC)
+
+  Benny & Ashley (USA)
+
+  Maykel Fonts (Italy)
+
+  Michelle and Brandon (USA)
+
+  Dimitris & Yolena La Secta (Greece)
+
+  Angelo Rito (Italy)
+
+  Antonio & Jasmina (Italy)
+
+  Willy Arrey (Italy)
+
+  Marco Ferrigno & Ansima
+
+
+  DJ Dmitri (Germany)
+
+  DJ Mauri (Greece)
+
+  DJ Sezar (Norway)
+
+  DJ Alexio (Italy)
+
+
+
+  BACHATA
+
+  Pablo & Raquel (Spain)
+
+  Kike y Nahir (Spain)
+
+  Luis & Andrea (Spain)
+
+  Sara Panero (Spain)
+
+  Miguel & Sunsire (Spain)
+
+  Duda & Adriana (Poland)
+
+  Daniel & Monika (Poland)
+
+  Konrad & Malwina (Poland)
+
+
+  DJ Husky (Spain)
+
+  DJ York (Germany)
+
+  DJ Dimen5cions (UK)
+
+  DJ Momo Latino (Czech Republic)
+
+
+
+  KIZOMBA & UBAN KIZ
+
+  Tony Viser & Carla Andrade (Angola / Cape Verde)
+
+  Teresa Freitas (Angola)
+
+  Nowaczki - Piotr & Marta (Poland)
+
+  JP & Stephy (France)
+
+  Karl & Nima (France)
+
+  Yami (France)
+
+  Sanjay (India)
+
+
+  DJ Miro Kikola (Angola / UK)
+
+  DJ Bakongo (Angola / Portugal)
+
+  DJ Chad (France)
+
+  DJ Narc6 (Germany)
+
+  DJ Bartef (Poland)
+
+  DJ Papa Luc (Poland)
+
+
+
+  CUBAN
+
+  Yanek Revilla & Yisel (Cuba)
+
+  Kirenia Cantin (Cuba/Spain)
+
+  Maykel Fonts (Cuba/Italy)
+
+  Andy & Yuliet (Cuba/Finland)
+
+  Cubanflex (Cuba/Italy)
+
+  Diana Rodriguez (Cuba/Spain)
+
+  Yoandy "YoyoFlow" Villaurrutia (Cuba/Spain)
+
+  Yorgenis Danger Garcia (Cuba/Germany)
+
+  Silvio Leroy (Cuba/Spain)
+
+  Julio Molina & Timbacerra (Cuba/Italy)
+
+
+  DJ LeODCuba (Cuba/Spain)
+
+  DJ Jack El Calvo (France)
+
+  DJ El Honguito (Poland)
+
+
+  We hope these beautiful artists will inspire you with their art, pedagogy, energy and passion.
+
+
+  There will be more.....
+
+
+  Let's celebrate life. Together.Again. 🎉💃🕺🔥
+
+
+  #esf #elsol #elsolfestival #salsa #discountcode #salsafestival #concerts #bachatafestival #kizombafestival #salseros #bachateros #kizombaaddict  #salsadura #salsadancing #bachatasensual #bachatadominicana #salsacubana #cubansalsa #afro #urbankizz #bachata #kizomba #poland #katowice #party #congress #workshops #shows #discount #promocode
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417966/nhhdi0hqidxrielugcod.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0cyhNiPOFkcRu_pZBTUqr7k
+international: No
+hash: 1731603600000+ChIJZyZrQzDOFkcRjmu6kOYy4Kw
+id: UsiWZ6U5xFirWehEtarz

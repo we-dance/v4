@@ -1,0 +1,91 @@
+venue:
+  formatted_address: Plzeňská 14, 150 00 Praha 5-Smíchov, Czechia
+  website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=5211&merchantid=seo-maps-CZ-5211&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MTUzNTgxODMtNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "14"
+      short_name: "14"
+    - types:
+        - route
+      long_name: Plzeňská
+      short_name: Plzeňská
+    - types:
+        - neighborhood
+        - political
+      long_name: Smíchov
+      short_name: Smíchov
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Praha 5
+      short_name: Praha 5
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      long_name: Czechia
+      short_name: CZ
+    - types:
+        - postal_code
+      long_name: 150 00
+      short_name: 150 00
+  url: https://maps.google.com/?cid=8836278098869872572
+  name: ibis Praha Mala Strana
+  geometry:
+    viewport:
+      south: 50.0708992697085
+      north: 50.0735972302915
+      east: 14.4018398302915
+      west: 14.39914186970849
+    location:
+      lng: 14.4005985
+      lat: 50.072271
+  international_phone_number: +420 221 701 700
+  place_id: ChIJ62Uo3lWUC0cRvOezQx3EoHo
+endDate: 2021-11-15T19:00:00.000Z
+link: https://www.facebook.com/events/553222425470697/
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+createdAt: 1631881732031
+watchersCount: 0
+price: TICKETS
+commentsLast: ~
+id: ZeUMeR4C5Tjehmsa6eZZ
+place: ""
+views: 3
+updatedAt: 1631881732031
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+viewsCount: 3
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Prague Kizomba Festival - Balumuka 2021
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-11-12T18:00:00.000Z
+username: Promoter

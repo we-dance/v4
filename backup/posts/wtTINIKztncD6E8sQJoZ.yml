@@ -1,0 +1,169 @@
+venue:
+  formatted_address: Euckenstraße 15, 81369 München, Germany
+  website: https://www.myturn-studio.de/kontakt/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: MY TURN Tanz & Pilates
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5319908802915
+      south: 48.11325246970851
+      north: 48.11595043029151
+      west: 11.5292929197085
+    location:
+      lng: 11.5306544
+      lat: 48.11466120000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "15"
+      long_name: "15"
+    - types:
+        - route
+      short_name: Euckenstraße
+      long_name: Euckenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81369"
+      long_name: "81369"
+  place_id: ChIJE9SwMMnYnUcRmq3r07upus0
+  url: https://maps.google.com/?cid=14824347747622825370
+endDate: 2023-02-01T01:00
+claimed: No
+link: https://eventfrog.de/de/p/diverses/toca-toca-special-edition-dj-ichigo-teacher-marianne-7021566378386522430.html
+description: >-
+  SPECIAL EDITION of TOCA TOCA - DJ ICHIGO and teachers MARIANNE JOST, VERA &
+  GARY
+
+  ***** TUESDAY 31 JANUAR 2023 *****
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmuNi4V3DD6MLPC4FKzwd9htiizW2%2F76728c25-1c92-4c79-95dc-016cbb7c754b?alt=media&token=add7c1fd-d4d7-45d8-91d9-8dd7bbcba120
+createdAt: 1674126357712
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1674126357712
+updatedBy: muNi4V3DD6MLPC4FKzwd9htiizW2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100089569241943
+  name: TOCA TOCA
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmuNi4V3DD6MLPC4FKzwd9htiizW2%2Fd16202cb-a7b2-45a9-bcf0-c9e2a90aaa89?alt=media&token=7ce44b67-bf61-42d6-8cd1-5f9b31a2e08d
+  bio: "Welcome to TOCA TOCA! The only weekly Kizomba event in Munich! Every
+    Tuesday, we take you on a journey into the magic world of Kizomba 💫 "
+  id: muNi4V3DD6MLPC4FKzwd9htiizW2
+  instagram: ""
+  username: TOCATOCA
+facebook: https://fb.me/e/3hL50qfoG
+confirmation: We are looking forward to see you on the 31st of January! Note,
+  the location is a different one than the weekly Tuesday parties. Please bring
+  your dance shoes, no street shoes allowed! Your TOCA TOCA
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    TOCATOCA: true
+createdBy: muNi4V3DD6MLPC4FKzwd9htiizW2
+name: Toca Toca Special Edition - DJ Ichigo & Teachers Marianne, Vera & Gary
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-31T20:30
+username: TOCATOCA
+price: 10 - 30 EUR
+online: Yes
+id: wtTINIKztncD6E8sQJoZ
+star:
+  count: 1
+  list:
+    TOCATOCA: true
+artistsList:
+  - ellsys_official
+  - Dj_Omega
+  - mariannejost
+  - ichigo.y.iii
+artists:
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: ""
+    name: Ellsys Willy Douceur
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0c7adb5d-952a-4d8e-9783-888b9dde9494?alt=media&token=0b1cf646-a3cc-4d9f-a60d-ae047c99b4c8
+    bio: Beatmaker & DJ
+    instagram: https://instagram.com/ellsys_official
+    id: 5gzli868zpuP62wyDqzx
+    username: ellsys_official
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/djomega.christina
+    name: Dj_Omega
+    bio: Organiser - DJ - dancer
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+    instagram: https://instagram.com/djomega_official
+    id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+    username: Dj_Omega
+  - role: instructor
+    facebook: https://facebook.com/mariannejost
+    username: mariannejost
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/ichigo.y.iii
+    name: ichigo.y.iii
+    bio: ""
+    photo: ""
+    instagram: ""
+    id: U14J64glGXrXRXwoc1cC
+    username: ichigo.y.iii
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwtTINIKztncD6E8sQJoZ.png?generation=1675194187899320&alt=media
+instagram:
+  requestedAt: 1675194198571
+  messageUrl: https://instagram.com/p/CoF3oBeJv43
+  publishedAt: 1675194216930
+  messageId: CoF3oBeJv43
+  state: published
+telegram:
+  requestedAt: 1675194224258
+  messageUrl: https://t.me/WeDanceMunich/830
+  publishedAt: 1675194226118
+  messageId: 830
+  state: published
+viewsCount: 55

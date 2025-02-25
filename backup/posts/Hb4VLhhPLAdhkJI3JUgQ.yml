@@ -1,0 +1,162 @@
+venue:
+  formatted_address: Schönhauser Allee 36, 10435 Berlin, Germany
+  website: http://www.soda-berlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Soda Club Berlin
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4153025
+      south: 52.53734965
+      north: 52.54009145
+      west: 13.4114169
+    location:
+      lng: 13.4143311
+      lat: 52.539406
+  address_components:
+    - types:
+        - street_number
+      short_name: "36"
+      long_name: "36"
+    - types:
+        - route
+      short_name: Schönhauser Allee
+      long_name: Schönhauser Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Pankow
+      long_name: Bezirk Pankow
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10435"
+      long_name: "10435"
+  international_phone_number: +49 30 44315155
+  place_id: ChIJyxITSP5RqEcRmhR_3DacIpE
+  url: https://maps.google.com/?cid=10458093044149195930
+endDate: 2023-05-02T05:00
+claimed: No
+link: https://www.gaesteliste030.de/de/berlin/events/party/01-05-23/soda-social-club
+description: >-
+  Hier werden afro- und lateinamerikanische Musikrichtungen nicht nur gespielt,
+  im Soda Club werden sie gelebt, getanzt und gefeiert. Mit den besten DJs der
+  Szene wird jeder Abend zu etwas Besonderem. Kommt vorbei und lass dich
+  mitreißen von der Musik und Tanze was du fühlst.
+
+
+  Für coole Drinks zum Abkühlen sorgen die besten Barkeeper der Stadt. ;)
+
+
+  + Tanzanleitung 19 – 20 Uhr (8€ inkl. Party)
+
+  + Party ab 20 Uhr (8€ inkl. 3€ Getränkebon)
+
+  + Geburtstagsspecial – erhalte eine Flasche Sekt für dich und deine Freunde
+
+
+  Line-Up:
+
+  Soda Salsa: 
+
+  + DJ Panterra
+
+
+  Kizz me at the Moon:
+
+  + DJ ViSa
+
+
+  Bachatéame mucho:
+
+  + DJ Reza
+
+
+  Sala dominicana:
+
+  + DJ Ando
+
+
+  Rueda de Casino: 
+
+  (Tanzanleitung)
+
+
+  + Musik: Salsa, Kizomba, Bachata, Rueda
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4BTrx7emrafQqCGrNiBGdrpqhK83%2F489c91bb-5454-446b-8521-c006946a8c3d?alt=media&token=bb7cf818-8a4d-4dac-a864-1ca7bafd5f47
+createdAt: 1682703968475
+artists: []
+price: 8 EUR
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1682703968475
+updatedBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Soda Club Berlin
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsodaclubberlin.png?generation=1662972746781196&alt=media
+  bio: |-
+    FR | SA ab 21 Uhr 
+    ❤️Special: Ladies erhalten bis 22 Uhr Freedrinks 
+    Hier geht’s zur SODA CLUB APP ⬇️
+  id: JIiXgP8RvxTiY5oUCSrs
+  instagram: https://instagram.com/sodaclubberlin
+  username: sodaclubberlin
+eventType: Party
+form: No
+createdBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+watch:
+  count: 1
+  list:
+    highheelsgermany: true
+name: Soda Social Club
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-01T19:00
+username: highheelsgermany
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHb4VLhhPLAdhkJI3JUgQ.png?generation=1682703987230526&alt=media
+viewsCount: 49
+id: Hb4VLhhPLAdhkJI3JUgQ

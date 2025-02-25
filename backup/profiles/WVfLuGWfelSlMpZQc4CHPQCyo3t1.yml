@@ -1,0 +1,43 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626596200917
+createdBy: WVfLuGWfelSlMpZQc4CHPQCyo3t1
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: Djeen
+pwaUsed: false
+locales:
+  de: true
+gender: Male
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+partner: Yes
+name: Eugen
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  public: true
+days:
+  Saturday: true
+  Friday: true
+  Sunday: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+  talk: true
+height: "178"
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FWVfLuGWfelSlMpZQc4CHPQCyo3t1%2F1d0d7aec-8a2f-4ec1-9dce-eb19b5cfd4a2?alt=media&token=ce74dce1-c531-4bca-827c-9f3696d70fe2
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+updatedAt: 1630084061944
+lastLoginAt: 1639736382534
+daysUsed: 14
+id: WVfLuGWfelSlMpZQc4CHPQCyo3t1

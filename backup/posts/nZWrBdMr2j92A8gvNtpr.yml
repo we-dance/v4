@@ -1,0 +1,217 @@
+venue:
+  formatted_address: Isolatorweg 28, 1014 AS Amsterdam, Netherlands
+  website: http://www.candancestudios.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: CanDance Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.852191680291502
+      south: 52.3914739697085
+      north: 52.3941719302915
+      west: 4.849493719708498
+    location:
+      lng: 4.851088199999999
+      lat: 52.3927722
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Isolatorweg
+      long_name: Isolatorweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westpoort
+      long_name: Westpoort
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 1014 AS
+      long_name: 1014 AS
+  place_id: ChIJ5TaEYKngxUcRbzzkrY8Upsg
+  url: https://maps.google.com/?cid=14458266261049850991
+endDate: 2023-07-09T23:30
+claimed: No
+link: https://www.yosoysalsero.com/eventshop/8030?compra=frame&idioma=en
+description: >
+  ❌❌ JOIN A UNIQUE BACHATA EXPERIENCE IN AMSTERDAM! ❌❌
+
+
+  Bachata with a twist!
+
+
+  ❌ 3 days of parties and workshops
+
+  ❌ Bootcamp of Bachata Sensual & Fusion and opportunity to perform with Dario&Sara and Carlos&Chloe
+
+  ❌ Rising Stars competition
+
+  ❌ Special experiences and surprises
+
+  ❌ International DJs: DJ Alejandro & DJ York and many more..
+
+  ❌ Social parties ( Friday, Sat and Sun)
+
+
+  🔔 DRESS CODES 🔔
+
+  ❌FRIDAY: Pijama party
+
+  ❌SATURDAY: Wedding day
+
+  ❌SUNDAY: Back to Childhood
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Ffd4778d2-bc35-4ba9-adf3-64aa76a26841?alt=media&token=8a9058fd-1e2f-4b71-841f-2975b03a64c1
+createdAt: 1682538770848
+artists:
+  - instagram: https://instagram.com/luisyandreaoficial
+    username: luisyandreaoficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: carlosychloebachata
+    photo: ""
+    bio: ""
+    id: zz00rwiql0G8aRhlxjVN
+    instagram: https://instagram.com/carlosychloebachata
+    username: carlosychloebachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: darioysaraoficial
+    photo: ""
+    bio: ""
+    id: 2loNxzMQVpn2ozQxJ0x5
+    instagram: https://instagram.com/darioysaraoficial
+    username: darioysaraoficial
+  - instagram: https://instagram.com/djyork_er
+    username: djyork_er
+  - instagram: https://instagram.com/dj_alejandro_bachata
+    username: dj_alejandro_bachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: janisyzoe
+    photo: ""
+    bio: ""
+    id: zw8l5xuZCIuvHg2n6QIi
+    instagram: https://instagram.com/janisyzoe
+    username: janisyzoe
+  - instagram: https://instagram.com/tamaraycandido
+    username: tamaraycandido
+  - instagram: https://instagram.com/erikkatinka_bachata
+    username: erikkatinka_bachata
+  - instagram: https://instagram.com/gianmarcoejessica
+    username: gianmarcoejessica
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Tim_Sandra_Bachata_Sensual
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpIDluajd1LUEVViczAN3rcP3vDk2%2F43563abd-41c6-4179-96ed-88a42b5ab077?alt=media&token=f2025424-ee0b-4b89-bc38-11bfcdab3857
+    bio: ""
+    id: pIDluajd1LUEVViczAN3rcP3vDk2
+    instagram: https://instagram.com/tim_sandra_bachata_sensual?igshid=YmMyMTA2M2Y=
+    username: Tim_Sandra_Bachata_Sensual
+  - instagram: https://instagram.com/davidymaya_bachatafrankfurt
+    username: davidymaya_bachatafrankfurt
+  - instagram: https://instagram.com/sonu.annika
+    username: sonu.annika
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: bailemos.amsterdam
+    photo: ""
+    bio: ""
+    id: kwW6PrKrgAsExa4B4bt1
+    instagram: https://instagram.com/bailemos.amsterdam
+    username: bailemos.amsterdam
+  - instagram: https://instagram.com/jeremyt___
+    username: jeremyt___
+  - instagram: https://instagram.com/alejandroyevelyn_official
+    username: alejandroyevelyn_official
+  - instagram: https://instagram.com/alejandroyevelyn_official
+    username: alejandroyevelyn_official
+  - instagram: https://instagram.com/marianopucheta.bachata
+    username: marianopucheta.bachata
+  - instagram: https://instagram.com/mikaelandirinabachata
+    username: mikaelandirinabachata
+price: 65 - 220 EUR
+place: ChIJVXealLU_xkcRja_At0z9AGY
+artistsList:
+  - luisyandreaoficial
+  - carlosychloebachata
+  - darioysaraoficial
+  - djyork_er
+  - dj_alejandro_bachata
+  - janisyzoe
+  - tamaraycandido
+  - erikkatinka_bachata
+  - gianmarcoejessica
+  - Tim_Sandra_Bachata_Sensual
+  - davidymaya_bachatafrankfurt
+  - sonu.annika
+  - bailemos.amsterdam
+  - jeremyt___
+  - alejandroyevelyn_official
+  - alejandroyevelyn_official
+  - marianopucheta.bachata
+  - mikaelandirinabachata
+international: Yes
+updatedAt: 1682538770848
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: adambachatafestival
+  photo: ""
+  bio: ""
+  id: 01VqTQT3XrfOtLHFnENY
+  instagram: https://instagram.com/adambachatafestival
+  username: adambachatafestival
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Adam Bachata Experience
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-07T00:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FnZWrBdMr2j92A8gvNtpr.png?generation=1685738795994048&alt=media
+viewsCount: 65
+id: nZWrBdMr2j92A8gvNtpr

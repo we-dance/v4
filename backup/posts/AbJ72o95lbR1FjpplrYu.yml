@@ -1,0 +1,176 @@
+venue:
+  website: http://www.malajunta.de/
+  formatted_address: Kolonnenstraße 29, 10829 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Mala Junta
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3682545802915
+      south: 52.4834834197085
+      north: 52.4861813802915
+      west: 13.3655566197085
+    location:
+      lng: 13.3668409
+      lat: 52.484587
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Kolonnenstraße
+      long_name: Kolonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Tempelhof-Schöneberg
+      long_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10829"
+      long_name: "10829"
+  place_id: ChIJfZ8fNDxQqEcRBC9cQj1BFuY
+  international_phone_number: +49 30 78712453
+  url: https://maps.google.com/?cid=16579510809573207812
+endDate:
+  _seconds: 1658583000
+  _nanoseconds: 0
+claimed: No
+link: https://www.tickettailor.com/events/bachataexplosion/677500/r/facebook
+description: >-
+  💣 Bachata Explosion 💣 presents you the second event in Berlin 💥 Bachata
+  Dominican Special 💥 on 23rd July 2022
+
+
+  Artists Line Up:
+
+  ❥ Bhavin and Soonruta
+
+  ❥ Julio and Linda
+
+  ❥ Nora 
+
+
+  What you will get for Full pass?
+
+  ❥ 5hrs Dominican workshops (Partner work + Foot work)
+
+  ❥ 1 hr Pre-Party workshop in 2 floors (Sensual + Dominican)
+
+  ❥ Party with two dance floors
+
+  ✔ Bachata Dominican with DJ Bhavin    
+
+  ✔Bachata Sensual with DJ DenisS
+
+
+  Don’t miss the chance to learn from the best Dominican teachers 💕 
+type: event
+promo: Yes
+duration: "300"
+createdAt: 1653503610569
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/bhavinandsoonruta
+    name: Bhavinandsoonruta
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh31z2ww5PDeFB9IeguK1cb3fSqx1%2Fabf4bcea-7954-40c6-9ef7-cc96a9bbcb21?alt=media&token=b84c4bff-424c-446a-84fe-bf4bebc81f78
+    bio: Bhavin and Soonruta | International Dance Artists
+    instagram: https://instagram.com/bhavinandsoonruta
+    id: h31z2ww5PDeFB9IeguK1cb3fSqx1
+    username: Bhavinandsoonruta
+  - instagram: julioylinda
+    username: julioylinda
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/nora.langstrumpf.9
+    name: Nora_Berlin
+    bio: |-
+      In love with the music and dance of the traditional way of Bachata
+
+      Teaching Dominican Bachata in Berlin- Germany
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2F008f282c-68d0-458e-8d0c-77092c66afe7?alt=media&token=202ac02c-d421-478c-8435-8690fa19e644
+    id: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+    instagram: ""
+    username: Nora_Berlin
+  - instagram: elenaydennis
+    username: elenaydennis
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/Harigopal
+    name: Bachata_Hari
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdRipXa4eZJVowvrrUWYYeyZvGnI3%2Fc1b2fc28-8a3d-42c7-a2d1-d843e7cf81a6?alt=media&token=01aef1f1-36ab-43f1-bd13-2b19eed2a372
+    id: dRipXa4eZJVowvrrUWYYeyZvGnI3
+    instagram: https://instagram.com/Hari_bachata
+    username: Bachata_Hari
+  - instagram: pabloyanja
+    username: pabloyanja
+price: 75 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1653503610569
+updatedBy: dRipXa4eZJVowvrrUWYYeyZvGnI3
+visibility: Public
+org:
+  role: organiser
+  name: Bachata_Hari
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdRipXa4eZJVowvrrUWYYeyZvGnI3%2Fc1b2fc28-8a3d-42c7-a2d1-d843e7cf81a6?alt=media&token=01aef1f1-36ab-43f1-bd13-2b19eed2a372
+  username: Bachata_Hari
+facebook: https://facebook.com/events/s/bachata-dominican-special/1381264022310345/
+eventType: Festival
+confirmation: Dear Guest, You are confirmed for the event.
+form: No
+watch:
+  count: 1
+  list:
+    Bachata_Hari: true
+createdBy: dRipXa4eZJVowvrrUWYYeyZvGnI3
+name: "Bachata Dominican weekend "
+online: No
+styles:
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+startDate: 2022-07-23T10:30
+username: Bachata_Hari
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdRipXa4eZJVowvrrUWYYeyZvGnI3%2Feade1e69-595e-4fd8-ade1-241a38d2b12a?alt=media&token=ad3dafe7-4139-44c3-8f28-771fe103d566
+id: AbJ72o95lbR1FjpplrYu
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAbJ72o95lbR1FjpplrYu.png?generation=1653504297509382&alt=media
+viewsCount: 69

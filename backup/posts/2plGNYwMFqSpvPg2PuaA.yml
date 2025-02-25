@@ -1,0 +1,152 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/zouk-heat/
+name: ZOUK HEAT 2025
+sourceUrl: https://facebook.com/events/1093330245231241
+venue:
+  address_components:
+    - long_name: "2300"
+      short_name: "2300"
+      types:
+        - street_number
+    - long_name: Dulles Corner Boulevard
+      short_name: Dulles Corner Blvd
+      types:
+        - route
+    - long_name: Herndon
+      short_name: Herndon
+      types:
+        - locality
+        - political
+    - long_name: Hunter Mill District
+      short_name: Hunter Mill District
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Fairfax County
+      short_name: Fairfax County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Virginia
+      short_name: VA
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "20171"
+      short_name: "20171"
+      types:
+        - postal_code
+  formatted_address: 2300 Dulles Corner Blvd, Herndon, VA 20171, USA
+  geometry:
+    location:
+      lat: 38.9605941
+      lng: -77.4234005
+    viewport:
+      northeast:
+        lat: 38.9615246302915
+        lng: -77.4219646697085
+      southwest:
+        lat: 38.95882666970851
+        lng: -77.42466263029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 703-713-1234
+  name: Hyatt Regency Dulles
+  place_id: ChIJQUumvYJHtokRz1JgP9NRqWg
+  url: https://maps.google.com/?cid=7541649018751832783
+  website: https://www.hyatt.com/hyatt-regency/en-US/dulle-hyatt-regency-dulles?src=corp_lclb_google_seo_dulle&%3Futm_source=google&utm_medium=organic&utm_campaign=lmr
+endDate: 1744016400000
+claimed: No
+link: http://www.zoukheat.com/
+description: >-
+  THE HEAT IS BACK:
+
+  ————-——————————————
+
+  🔥🔥🔥🔥 APRIL 3-7, 2025 🔥🔥🔥🔥
+
+  —————————-—————————
+
+
+  —— 2025's FESTIVAL FEATURES ——
+
+  🔥 New event schedule: No long J&Js & waiting to dance
+
+  🔥 Fire (lit vibes) & Ice (chill energy) Rooms for social dancing
+
+  🔥 Extended workshop times for better learning (1.5hrs)
+
+  🔥 Additional ballroom space added for better workshop experience
+
+  🔥 Lit lineup of both domestic & international instructors
+
+  🔥 Day parties
+
+  🔥 Official BZDC J&J
+
+  🔥 Free parking 
+
+  🔥 Free airport shuttle (IAD airport)
+
+  🔥 Beautiful venue  
+
+  🔥 Official Thursday preparty at the main venue (separate ticket)
+
+  ———————————————————
+
+  🔥 EVENT TICKETS: https://tinyurl.com/ZH2025TICKETS
+
+
+  🔥 HOTEL BOOKING: https://tinyurl.com/ZH2025HOTEL
+
+
+  🔥 BZDC J&J REGISTRATION: COMING SOON!
+
+  ———————————————————
+
+
+  PLEASE NOTE: Pass sales are monitored by role (Lead or Follow) & will be paused accordingly to maintain a reasonable Lead-to-Follow ratio for social dancing as necessary. Additionally, there will be LIMITED party & single day passes. Availability of party & single day passes will be contingent upon ratio (no DMs or Emails). We encourage our attendees to strongly consider a Full Pass for the best event weekend experience 🔥. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/dcrmo3uycygakutoihlz.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJQ6ZdDwY4tokRfTVsHLUigJI
+international: No
+visibility: Public
+org:
+  id: Rxf2FOPvSMeWLSJ8XiGu
+  username: zoukheat
+  name: Zouk Heat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953533/ckbtg1f1nkpa2w6d7tks.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/zoukheat
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1093330245231241/
+facebookId: "1093330245231241"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1743724800000+ChIJQUumvYJHtokRz1JgP9NRqWg
+startDate: 1743724800000
+id: 2plGNYwMFqSpvPg2PuaA

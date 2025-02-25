@@ -1,0 +1,135 @@
+endDate: 1731801600000
+sourceUrl: https://www.facebook.com/events/463058526371293/?event_time_id=463058599704619
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1719312135000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1719312135000
+facebookId: "463058599704619"
+facebook: https://www.facebook.com/events/463058526371293/?event_time_id=463058599704619
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/463058526371293/?event_time_id=463058599704619
+eventType: Party
+providerItemId: e463058599704619@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SATURDAY SALSA & BACHATA PARTY by BILLIE'S STUDIO
+location: Jaz in the City Vienna
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731789000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Windmühlgasse 28, 1060 Wien, Austria
+  website: https://hrewards.com/de/jaz-in-the-city-vienna
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Jaz in the City Vienna
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3542353197085
+        lat: 48.1970777197085
+      northeast:
+        lng: 16.3569332802915
+        lat: 48.19977568029149
+    location:
+      lng: 16.3555085
+      lat: 48.19846829999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Windmühlgasse
+      long_name: Windmühlgasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mariahilf
+      long_name: Mariahilf
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1060"
+      long_name: "1060"
+  international_phone_number: +43 1 25300610
+  place_id: ChIJL4h3dVQHbUcR767fQrwoZFQ
+  url: https://maps.google.com/?cid=6081030185897930479
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/billiesstudio
+  name: Billie's Studio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953782/usge2gczgseaj57yumxe.png
+  bio: ""
+  id: 5jW6gCaAbWO0r7ebEXGb
+  instagram: ""
+  username: billies.studio
+claimed: No
+link: ""
+description: >-
+  ❤️ Saturday's Dancing Hotspot – Salsa & Bachata Party by Billie’s Studio!
+
+  Mit einer unvergleichlichen Atmosphäre und ansteckender Energie ist unsere Party ein Must-Visit für alle, die sich von der Magie der lateinamerikanishen Rhythmen mitreißen lassen möchten. Die feinste Auswahl an Salsa & Bachata Musik & belebende Atmosphäre, die jedes Wochende einzigartig machen. ❤️
+
+  Party Time: 21.30-01h
+
+  Entry: 8 Euro
+
+  ❤️ Saturday's Dancing Hotspot - Saturday Salsa & Bachata Party by Billie's Studio
+
+  With its contagious energy, our party is a must-visit for everyone who wants to be swept away by the magic of Latin American rhythms. The finest selection of Salsa & Bachata music and an uplifting atmosphere make every weekend unique.
+
+  Join us!
+
+  Billie's Studio
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417962/yfozsssemjjmckyll0gh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1731789000000+ChIJL4h3dVQHbUcR767fQrwoZFQ
+id: Ul0i5rjYqSOJsFfx8Shk

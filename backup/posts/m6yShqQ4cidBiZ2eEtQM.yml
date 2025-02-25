@@ -1,0 +1,197 @@
+createdAt: 1704822875201
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1028288611177922/
+source: facebook
+updatedAt: 1704822875201
+username: wedancebot
+venue:
+  formatted_address: 77 All. de l'Orée de la Forêt, 45770 Saran, France
+  website: http://www.wodenfitnessclub.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Woden Fitness Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 1.892137169708498
+        lat: 47.9571279197085
+      northeast:
+        lng: 1.894835130291501
+        lat: 47.9598258802915
+    location:
+      lng: 1.893683799999999
+      lat: 47.9578541
+  address_components:
+    - types:
+        - street_number
+      short_name: "77"
+      long_name: "77"
+    - types:
+        - route
+      short_name: All. de l'Orée de la Forêt
+      long_name: Allée de l'Orée de la Forêt
+    - types:
+        - locality
+        - political
+      short_name: Saran
+      long_name: Saran
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Loiret
+      long_name: Loiret
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Centre-Val de Loire
+      long_name: Centre-Val de Loire
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "45770"
+      long_name: "45770"
+  international_phone_number: +33 2 38 53 69 94
+  place_id: ChIJMSgrpk_65EcROL2q41Q7EEQ
+  url: https://maps.google.com/?cid=4904485229989379384
+visibility: Public
+endDate: 1709503200000
+org:
+  owner: ""
+  importedAt: 1704822881975
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Tangokiz
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/410126374_855689946557051_8228429168422919838_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=596444&_nc_ohc=-sXwUuZfghwAX8oHtJ7&_nc_ht=scontent-iad3-2.xx&oh=00_AfBm2yjspkzc58eCkfskzuLhljbzMpDfXIc-M9_l98OR6g&oe=65A1956D
+  source: facebook
+  type: Organiser
+  createdAt: 1704822881975
+  owned: false
+  name: TangoKiz Olivet
+  place: ChIJMUm2Xia7kjkRcjw9CoDga7s
+  updatedAt: 1704822881975
+  username: Tangokiz
+claimed: No
+facebookId: "1028288611177922"
+link: https://my.weezevent.com/festival-oad-spring-edition-2024
+description: >-
+  La prochaine édition du festival Orléans Afrolatin days se déroulera du 1 au 4
+  mars 2024 et fera la part belle non seulement aux danseurs mais aussi aux
+  artistes chanteurs. Lors de cette édition il y aura des shows exceptionnels de
+  chanteurs et de danseurs de kizomba.
+
+
+  SHOWCASE:
+
+
+  Jennifer Dias
+
+  a suivre....
+
+
+
+  LINE UP PROFESSEURS
+
+
+  KIZOMBA
+
+
+  Isabelle et Félicien
+
+  Chamalo et Mirty 
+
+  Enah et Pocahontas
+
+  Julien et Ami
+
+  Ben et Ana
+
+  Anais Millon et Heneco
+
+  Said et Oksana
+
+
+  SALSA
+
+
+  Wilmer et Maria
+
+  Philippe Gomis
+
+  Terry et Cécile
+
+
+  BACHATA
+
+
+  Morgan et Monique
+
+  Samy el magico
+
+  Luis Duarte et Sophie
+
+
+  A suivre...
+
+
+  LINE UP DJ'S
+
+
+  DI Ichigo
+
+  DJ Colts
+
+  DJ Zay'X
+
+  DJ Chico
+
+  DJ Kouan
+
+  DJ David Pedron
+
+  DJ Philipe Gomis
+
+  Lady West
+
+
+  Et d'autres encore....
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Festival OAD - Edition SBK Shows
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJMUm2Xia7kjkRcjw9CoDga7s
+international: No
+hash: 1709319600000+ChIJMSgrpk_65EcROL2q41Q7EEQ
+startDate: 1709319600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fm6yShqQ4cidBiZ2eEtQM.png?generation=1704822902059472&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853488/ppedeegoyet7z5iukkfa.jpg
+viewsCount: 14
+id: m6yShqQ4cidBiZ2eEtQM

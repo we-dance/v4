@@ -1,0 +1,167 @@
+venue:
+  website: http://artdance-berlin.blogspot.com/
+  formatted_address: Rungestraße 20, 10179 Berlin, Germany
+  name: Artdance Tanzstudio
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4213437802915
+      south: 52.5110790697085
+      north: 52.51377703029149
+      west: 13.4186458197085
+    location:
+      lng: 13.4200077
+      lat: 52.5125964
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Rungestraße
+      long_name: Rungestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10179"
+      long_name: "10179"
+  international_phone_number: +49 176 45607369
+  place_id: ChIJpzm7_bZPqEcRcQK-amFF7wM
+  url: https://maps.google.com/?cid=283521586252612209
+endDate: 2023-05-29T19:00
+claimed: No
+link: https://www.artdance-tanzstudio.com/2011/01/samba-tanzkurse-in-berlin.html
+description: >-
+  jeden Montag und Donnerstag von 18:00 Uhr bis 19:00 Uhr
+
+
+  Hier lernen Sie 100% SAMBA AUS BRASILIEN
+
+
+  Ich habe in meinem Tanzunterricht die besten Methoden, um für diejenigen noch nie Samba getanzt haben, beizubringen. Meine Tanzkurse sind für Frauen und Männer.
+
+
+  Mit diesem Samba Tanzkurs Anfänger Basis beginnen Sie, jeder Zeit ohne Vorkenntnisse. Es werden die Grundschritte des Samba gelehrt. Besonderes Augenmerk wird nicht nur auf die technisch saubere Durchführung der Schrittfolgen, sondern auch besonders auf die Bewegungen der Hüfte und der Arme gelegt! 
+
+  Der Samba ist ein Tanz, der mit dem ganzen Körper getanzt wird.
+
+
+
+  TEILNEHMEN OHNE VERTRAG:
+
+  Probe Stunde: 10,-€
+
+  Einzelstunde:15,-€
+
+  5er-Karte: 70,-€  (2 Monate Gültig)
+
+  10er-Karte: 130,-€  (3 Monate Gültig)
+
+
+  TEILNEHMEN MIT VERTRAG:
+
+  SCHÜLER  MITGLIEDER (mindestens 3 Monatsvertrag)
+
+
+  1 Kurs pro Woche: 50,-€ Pro Monat/ 35,- € Studenten
+
+  2 Kurse pro Woche: 90,- € Pro Monat/ 75,- € Studenten
+
+
+  ARTDANCE MITGLIEDER (mindestens 6 Monatsvertrag)
+
+  Sie können an allen Abendkursen von Mo. bis Fr. teilnehmen. 
+
+  Artdance Mitglieder: 120,-€ pro Monat
+
+
+  Verträge Kündigungsfrist:
+
+  also mindestens 2 Wochen vorher, sonst verlängert der Vertrag sich automatisch.
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2Fac5600df-a6c3-467c-9d42-dd5a96c967d8?alt=media&token=d255ed3d-a1b4-4cd2-976b-68e0ac2b615d
+createdAt: 1684148962079
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ailtonartdance
+    bio: ""
+    photo: ""
+    instagram: https://instagram.com/ailtonartdance
+    id: c9YmP4wPQRr4x0ezXnst
+    username: ailtonartdance
+price: 0 EUR
+socialCover: ""
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: 8Qrl6QpjHMz2bj6073sf
+artistsList:
+  - ailtonartdance
+international: No
+updatedAt: 1684148962079
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: artdancetanzstudio
+  photo: ""
+  bio: ""
+  id: 3YQakrnFEYKK0G7N2cqe
+  instagram: https://instagram.com/artdancetanzstudio
+  username: artdancetanzstudio
+upVotes: 0
+telegram: {}
+eventType: Course
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Samba  – Basis Anfänger 1 (Ohne Vorkenntnisse)
+online: No
+votes: 0
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-29T18:00
+username: aslihan
+viewsCount: 17

@@ -1,0 +1,119 @@
+venue:
+  formatted_address: Spiridon-Louis-Ring 100, 80809 München, Germany
+  website: http://www.tollwood.de/
+  name: Tollwood Sommerfestival
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5494145302915
+      south: 48.1656278197085
+      north: 48.1683257802915
+      west: 11.5467165697085
+    location:
+      lng: 11.5483169
+      lat: 48.1670372
+  address_components:
+    - types:
+        - street_number
+      short_name: "100"
+      long_name: "100"
+    - types:
+        - route
+      short_name: Spiridon-Louis-Ring
+      long_name: Spiridon-Louis-Ring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neuhausen-Nymphenburg
+      long_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80809"
+      long_name: "80809"
+  international_phone_number: +49 89 3838500
+  url: https://maps.google.com/?cid=13036029929095361515
+  place_id: ChIJScoz_9R3nkcR6_MWFSdI6bQ
+endDate: 2022-07-15T22:00
+claimed: No
+description: >-
+  The full range of Latino dances and dances from the States, from Canada to
+  Tierra del Fuego, with Maikel Pérez Santana and DJ Javier.
+
+
+  Come by and dance along – here you can have a little taster course free of charge.
+type: event
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fcf3bddd2-caea-4f86-9249-e7eea2a76596?alt=media&token=d057385c-3900-49b7-936c-29940a473e36
+promo: ""
+createdAt: 1656445959802
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/SantanaDanceClub
+    name: SantanaDance
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+    bio: |
+      SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+    instagram: santana_dance
+    id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+    username: SantanaDance
+price: 0 EUR
+id: QdRaJUYMyosrRIKDSmhU
+artistsList:
+  - SantanaDance
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1656445959802
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: tollwoodfestival
+  username: tollwoodfestival
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Latin Mix Friday
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-15T19:00
+username: alexrazbakov
+viewsCount: 5

@@ -1,0 +1,114 @@
+createdAt: 1732201775143
+updatedAt: 1732201775143
+createdBy: 4sojs9VE3lXHEkDER47rpyfFqD62
+updatedBy: 4sojs9VE3lXHEkDER47rpyfFqD62
+username: VkirilV
+sourceUrl: https://www.facebook.com/events/1185841759332972/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D
+viewsCount: 1
+venue:
+  address_components:
+    - long_name: "163"
+      short_name: "163"
+      types:
+        - street_number
+    - long_name: Waymouth Street
+      short_name: Waymouth St
+      types:
+        - route
+    - long_name: Adelaide
+      short_name: Adelaide
+      types:
+        - locality
+        - political
+    - long_name: City of Adelaide
+      short_name: City of Adelaide
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: South Australia
+      short_name: SA
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Australia
+      short_name: AU
+      types:
+        - country
+        - political
+    - long_name: "5000"
+      short_name: "5000"
+      types:
+        - postal_code
+  formatted_address: 163 Waymouth St, Adelaide SA 5000, Australia
+  geometry:
+    location:
+      lat: -34.9262316
+      lng: 138.5932498
+    viewport:
+      northeast:
+        lat: -34.9248285697085
+        lng: 138.5945920802915
+      southwest:
+        lat: -34.9275265302915
+        lng: 138.5918941197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  international_phone_number: +61 487 586 334
+  name: Atlantis Lounge Bar
+  place_id: ChIJac170yXPsGoRl0f1xQ_DerI
+  url: https://maps.google.com/?cid=12860806158422984599
+  website: http://www.atlantisadelaide.com.au/
+endDate: 1732365000000
+claimed: No
+link: https://fixr.co/event/bed-by-10-is-coming-to-brisbane-tickets-55859861
+description: >-
+  🎉 Bed By 10: The Ultimate 30+ Clubbing Experience! 🎉
+
+
+  Fancy going out for a dance but not keen on sacrificing the next day? We've got you covered!
+
+
+  Bed By 10 is a chance for ravers over 30 to relive the peak of the 80s, 90s & early 2000s clubbing scene! Expect crazy visuals, confetti showers, Co2 cannons and more as our resident DJ spins all the club classics 🚀
+
+
+  Good vibes only! Our event is designed for those who love to dance, socialize, and enjoy great music—all while being home and in bed by 10 PM ✨
+
+
+  Tickets on sale! 👉 https://fixr.co/event/bed-by-10-is-coming-to-adleaide-tickets-371376306
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJP7Mmxcc1t2oRQMaOYlQ2AwQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1185841759332972/
+facebookId: "1185841759332972"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Bed By 10 Is Coming To Adelaide! "
+online: No
+styles: {}
+hash: 1732343400000+ChIJac170yXPsGoRl0f1xQ_DerI
+startDate: 1732343400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732201780/skywzbtlsuxon9f6160e.jpg
+org:
+  createdAt: 1732201778327
+  importedAt: 1732201778327
+  updatedAt: 1732201778327
+  source: facebook
+  name: Bed By 10
+  facebook: https://www.facebook.com/people/Bed-By-10/61563316870695/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732201778/orc97zh7ss0dkpvusuj0.jpg
+  username: BedBy-10
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJP7Mmxcc1t2oRQMaOYlQ2AwQ
+id: epMjEgnT2cNOeqWMjsuD

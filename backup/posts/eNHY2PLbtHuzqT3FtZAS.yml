@@ -1,0 +1,154 @@
+endDate: 1740366000000
+sourceUrl: https://www.facebook.com/events/737105488487567/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1708905285000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714515540000
+facebookId: "737105488487567"
+facebook: https://www.facebook.com/events/737105488487567/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/737105488487567/
+eventType: Congress
+providerItemId: e737105488487567@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Black & White Salsa-Bachata-Kizomba Congress
+location: Stadthalle , Pollheimerstraße 1, 4600 WELS
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1740079800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Pollheimerstraße 1, 4600 Wels, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Stadthalle Wels
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.0195122197085
+        lat: 48.15326726970851
+      northeast:
+        lng: 14.0222101802915
+        lat: 48.1559652302915
+    location:
+      lng: 14.0207614
+      lat: 48.1543165
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Pollheimerstraße
+      long_name: Pollheimerstraße
+    - types:
+        - locality
+        - political
+      short_name: Wels
+      long_name: Wels
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wels
+      long_name: Wels
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Oberösterreich
+      long_name: Oberösterreich
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "4600"
+      long_name: "4600"
+  place_id: ChIJF6ekcR7zc0cRaPvPrf7quSU
+  url: https://maps.google.com/?cid=2718462229653486440
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaCongressBlackAndWhite
+  name: SalsaCongressBlackAndWhite
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FUzwp1ur8gwc44iQacSXpTEuWmbA3%2F1ac391a2-8456-44a4-8ab9-5556f5306b5a?alt=media&token=4d3a11fa-47d0-4b26-a5ea-3d629ad1279e
+  bio: ""
+  id: Uzwp1ur8gwc44iQacSXpTEuWmbA3
+  instagram: https://www.instagram.com/salsacongressblackandwhite/
+  username: SalsaCongressBlackAndWhite
+claimed: No
+link: https://www.salsacongress-blackandwhite.at/shop/
+description: |-
+  Dance first! Think later. It`s the natural order!
+  The 5th Congress in Wels in beautiful Austria will be great! 
+  You ask why? Because you and fantastic crew will be there!
+
+  Teachers 💃🕺:
+  - Marvin / Colombia 🇨🇴
+  - Edson & Juan / Venezuela 🇻🇪
+  - Geovanni & Jennie / Guatemala 🇬🇹 - Sweden 🇸🇪
+  - Céline & Adrian / Switzerland 🇨🇭
+  - Alex & Marina / Italy 🇮🇹
+  - Andrea & Silvia / Italy 🇮🇹
+  - Arnaldes & Bri / Israel 🇮🇱
+  - Nuno & Nágyla / Portugal 🇵🇹
+  - Martina & Sónia / Germany 🇩🇪 - Portugal 🇵🇹
+  - Vie & Sir J / France 🇫🇷
+  - Angie Salsera / Austria 🇦🇹 - Workshop "Dancers´ Wellbeing"
+
+  and the best music 🔊 from:
+  - 🎧 DJ Dimitri / Dubai 🇦🇪
+  - 🎧 DJ Sergio / France 🇫🇷
+  - 🎧 DJ The Patrick / Austria 🇦🇹
+  - 🎧 DJ El Blanco / Austria 🇦🇹
+  - 🎧 DJ René / Austria 🇦🇹
+  - 🎧 DJ Dennis ‘THE CHEMIST‘ / UK 🇬🇧
+  - 🎧 DJ Trevor Anthony / UK 🇬🇧
+  - 🎧 DJ Azmaël / Austria 🇦🇹
+  - 🎧 DJane AngelKizz / Germany 🇩🇪
+
+  4 days of Parties 😎
+  3 days of Awesome Workshops 🕺🏻💃🏻👫
+  3 x Master Class (Salsa-Bachata-Kizomba)
+  3 x Dance Floor (Salsa-Bachata-Kizomba)
+  Shows 🤩
+  Social dancing 💃🕺
+  Dance shoes & dress shop👗👠👞👚
+
+  🔗 https://www.salsacongress-blackandwhite.at/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444449/i3erai5pyvc3kehbpdw9.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJZ6Rf0QWpBYgRcRlJn9W6nEw
+international: No
+hash: 1740079800000+ChIJF6ekcR7zc0cRaPvPrf7quSU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FeNHY2PLbtHuzqT3FtZAS.png?generation=1715444466582287&alt=media
+id: eNHY2PLbtHuzqT3FtZAS

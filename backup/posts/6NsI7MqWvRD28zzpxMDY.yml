@@ -1,0 +1,105 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "40"
+      short_name: "40"
+    - types:
+        - route
+      long_name: Barer Straße
+      short_name: Barer Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80333"
+      short_name: "80333"
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      south: 48.1457500697085
+      north: 48.1484480302915
+      east: 11.5730605802915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+endDate:
+  _seconds: 1635105600
+  _nanoseconds: 0
+organisedBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+claimed: Yes
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9GwaYZZIzkgWWeuHb63MejTPjAu2%2F009505d2-b704-45c9-8ec2-31087c2c5b1b?alt=media&token=ce8d4120-af52-428b-9e3e-1daad2b78df0
+duration: "120"
+createdAt: 1635013020803
+watchersCount: 0
+price: FREE
+commentsLast: ~
+promoter: Katja
+promotedBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 6NsI7MqWvRD28zzpxMDY
+international: No
+views: 2
+updatedAt: 1635013020803
+updatedBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+visibility: Public
+eventType: Party
+organiser: Katja
+form: No
+createdBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+commentsCount: 0
+name: "Kleine Cubana Party "
+online: No
+styles: {}
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-24T18:00:00.000Z
+username: Katja
+viewsCount: 22

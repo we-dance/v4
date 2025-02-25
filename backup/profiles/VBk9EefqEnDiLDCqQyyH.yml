@@ -1,0 +1,75 @@
+createdAt: 1717591183913
+website: https://ballettverein-karlsruhe.de/
+rooms: ""
+address:
+  formatted_address: Sophienstraße 128, 76135 Karlsruhe, Germany
+  website: https://ballettverein-karlsruhe.de/
+  name: Ballet Club EDD Pirouette Karlsruhe e.V.
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.378000519708499
+        lat: 49.0068121697085
+      northeast:
+        lng: 8.380698480291503
+        lat: 49.0095101302915
+    location:
+      lng: 8.3792701
+      lat: 49.00819200000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "128"
+      long_name: "128"
+    - types:
+        - route
+      short_name: Sophienstraße
+      long_name: Sophienstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Weststadt
+      long_name: Weststadt
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76135"
+      long_name: "76135"
+  international_phone_number: +49 721 91581748
+  url: https://maps.google.com/?cid=2766208771213649980
+  place_id: ChIJ65mZJfcGl0cRPGjCrjiMYyY
+gender: Other
+phone: +49 721 91581748
+name: Ballet Club EDD Pirouette Karlsruhe e.V.
+updateAt: 1717591183913
+type: Venue
+map: ""
+username: ballettverein-karlsruhe.de
+viewsCount: 1
+id: VBk9EefqEnDiLDCqQyyH

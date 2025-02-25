@@ -1,0 +1,162 @@
+venue:
+  formatted_address: Warnemünde, 18119 Rostock, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - sublocality_level_2
+        - sublocality
+        - political
+      long_name: Warnemünde
+      short_name: Warnemünde
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ortsamt 1
+      short_name: Ortsamt 1
+    - types:
+        - locality
+        - political
+      long_name: Rostock
+      short_name: Rostock
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Rostock
+      short_name: Kreisfreie Stadt Rostock
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Mecklenburg-Vorpommern
+      short_name: MV
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "18119"
+      short_name: "18119"
+  url: https://maps.google.com/?cid=4461702759731446146
+  name: Klettergerüst am Teepott
+  geometry:
+    viewport:
+      south: 54.1811698197085
+      north: 54.1838677802915
+      east: 12.08627045
+      west: 12.08338585
+    location:
+      lng: 12.084107
+      lat: 54.1823893
+  place_id: ChIJOyOrn6H4rEcRgkEsVwUn6z0
+endDate: 2021-08-15T21:59:00.000Z
+description: >-
+  Wir laden Salsa- Bachata- und Kizombatänzer zu uns an die Ostsee ein um
+  gemeinsam mit uns direkt auf dem Warnemünder Ostseestrand und im Rostocker
+  Stadthafen auf unseren Tanzböden zu tanzen. Immer wenn die Gruppen groß genug
+  werden, dann teilen wir sie nach den Musikrichtungen auf und bilden dann
+  mehrere Tanzfloors(Salsa Bachata Kizomba) Fast alles ist OpenAir und dann ohne
+  Eintritt. Organisiert wird es über eine Whatsapp Gruppe, damit immer alle die
+  aktuellen Infos haben. 
+
+
+  Ich empfehle eine Unterkunft in Rostock zu nehmen und dann über den Tag mit der S-Bahn nach Warnemünde zu fahren (schwierige und teure Parkplatz- und Hotelsituation in Warnemünde).
+
+
+  So könnte das Programm aussehen(aber alles ist natürlich Wetter und Corona abhönig:
+
+  Freitag 13.8.2021: 
+
+  - 	Anreise der Gäste 
+
+  - 	ab 18 Uhr Treffen am Strand in Warnemünde (Rostocker bringen Musikbox mit)
+  	möglicher Treffpunkt: https://goo.gl/maps/4pkZCevos4ASwkV28
+  - 	Eventuell ab ca. 21 Uhr ziehen wir dann vielleicht in eine Strandbar um, wenn wir dort Musik machen dürfen.
+
+  -	evtl. kleine Afterparty in Rostock z.B. „Pauluste“??
+
+
+  Samstag 14.8.2021: 
+
+  -	ab 11 Uhr „Tänzerbrunch“ in Rostock im Garten der Pauluste ????
+
+  -	ab 14 Uhr Treffen am Strand in Warnemünde (Rostocker bringen Musikbox mit)
+
+  -	ab 20 Uhr Salsa/Kizomba/Bachata Party  am Stadthafen mit Tanzboden bei der Aida: 	https://goo.gl/maps/JdJx9RkBFneF8V4L7 oder wenn möglich 21-2Uhr im Möckelsaal(Peter Weiß Haus Rostock):	https://goo.gl/maps/1zJXRwNzzL621mWi7
+
+  - 	evtl. kleine Afterparty in Rostock z.B. „Pauluste“??
+
+
+  Sonntag 15.
+
+  -	ab 11 Uhr „Tänzerbrunch“ in Rostock im Garten der Pauluste ????
+
+  - 	den Rest des Tages organisiert Ihr euch selbst nach euren Interessen (Strand oder Stadthafen oder Treffen in privaten Lokations).
+
+  Wir Rostocker freuen uns auf euch und ein tolles Tanzwochenende
+
+
+  Akutelle Infos bekommt Ihr über 
+
+
+  die Whatsappgruppe: https://chat.whatsapp.com/LrrKzF3TCUC138zGxyToAF
+
+
+  oder Telegramm:
+
+  https://t.me/SensualWE
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FU96FovAnuqbWOt8NaYkm269Z3Bn1%2Fbf316b87-6f38-4f6c-8a9e-be0ffad8bfb0?alt=media&token=f6a302fe-b537-47c2-8bd3-17f570f9f555
+createdAt: 1626790664354
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fnhq7iQqkKK5fVxUbsnew.png?generation=1626863477379713&alt=media
+commentsLast: ~
+place: ""
+id: nhq7iQqkKK5fVxUbsnew
+views: 8
+updatedAt: 1626790664354
+updatedBy: U96FovAnuqbWOt8NaYkm269Z3Bn1
+address: Rostock und Warnemünde Germany
+visibility: Public
+eventType: Party
+form: No
+createdBy: U96FovAnuqbWOt8NaYkm269Z3Bn1
+commentsCount: 0
+name: Sensual WE an der Ostsee in Rostock und Warnemüde
+online: No
+styles:
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-13T14:00:00.000Z
+username: Arne_Rostock_Salsa_Bachata_Kizomba
+viewsCount: 18

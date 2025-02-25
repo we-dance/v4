@@ -1,0 +1,124 @@
+endDate: 1717902000000
+sourceUrl: https://www.facebook.com/events/1084650972618367/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713368573000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1713812711000
+facebookId: "1084650972618367"
+facebook: https://www.facebook.com/events/1084650972618367/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1084650972618367/
+eventType: Party
+providerItemId: e1084650972618367@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Downtown Joliet Salsa Fest
+location: 110 N Ottawa St, Joliet, IL 60432-4202, United States
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717885800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 110 N Ottawa St, Joliet, IL 60432, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 110 N Ottawa St
+  geometry:
+    viewport:
+      southwest:
+        lng: -88.0840002802915
+        lat: 41.5246378697085
+      northeast:
+        lng: -88.08130231970848
+        lat: 41.5273358302915
+    location:
+      lng: -88.0826751
+      lat: 41.5260006
+  address_components:
+    - types:
+        - street_number
+      short_name: "110"
+      long_name: "110"
+    - types:
+        - route
+      short_name: N Ottawa St
+      long_name: North Ottawa Street
+    - types:
+        - locality
+        - political
+      short_name: Joliet
+      long_name: Joliet
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Joliet Township
+      long_name: Joliet Township
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Will County
+      long_name: Will County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IL
+      long_name: Illinois
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "60432"
+      long_name: "60432"
+  place_id: ChIJv7eQMshmDogRmUarGbgDdow
+  url: https://maps.google.com/?q=110+N+Ottawa+St,+Joliet,+IL+60432,+USA&ftid=0x880e66c83290b7bf:0x8c7603b819ab4699
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131869880
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/JolietCityCenterPartnership
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131870/lrewjy2cozoybwn6ng3k.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131869880
+  owned: false
+  name: Joliet City Center Partnership
+  place: ChIJfT027GtFDogRQsBro_dmnp8
+  updatedAt: 1714131869880
+  username: joliet.city.center.p
+claimed: No
+link: ""
+description: >-
+  Join us for live music from Latin Satin Soul band, DJ entertainment, and Salsa
+  dancing lessons and demonstration.  Vendors will have free salsa samples and
+  amazing food and beverages for purchase. 
+
+  Thank you to our Presenting Sponsor, Midwest Orthopaedics at Rush! 
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJfT027GtFDogRQsBro_dmnp8
+international: No
+hash: 1717885800000+ChIJv7eQMshmDogRmUarGbgDdow
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXCau4kdvyES18Ek85BtX.png?generation=1714131897238034&alt=media
+id: XCau4kdvyES18Ek85BtX

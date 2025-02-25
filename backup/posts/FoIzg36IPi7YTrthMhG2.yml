@@ -1,0 +1,109 @@
+createdAt: 1708774244473
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/772731288166952/
+updatedAt: 1708774244473
+username: alexrazbakov
+venue:
+  formatted_address: R. Principal 19, 2560-410 Silveira, Portugal
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Mercado Saloio
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.360970030291503
+        lat: 39.10967571970851
+      northeast:
+        lng: -9.358272069708498
+        lat: 39.1123736802915
+    location:
+      lng: -9.359625
+      lat: 39.1109825
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: R. Principal
+      long_name: Rua Principal
+    - types:
+        - locality
+        - political
+      short_name: Silveira
+      long_name: Silveira
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Silveira
+      long_name: Silveira
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Torres Vedras
+      long_name: Torres Vedras
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 2560-410
+      long_name: 2560-410
+  international_phone_number: +351 261 144 207
+  place_id: ChIJP29bZAIwHw0RVoXKtaivhko
+  url: https://maps.google.com/?cid=5370172744825210198
+endDate: ""
+claimed: No
+link: ""
+description: Salsa&Merengue com ritmos Cubanos
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJLw72AMkQhIARpaenakb13dU
+international: No
+visibility: Public
+facebookId: "772731288166952"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Cuban Fever & Performers-Salsa e Merengue de volta ao Mercado
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708894800000+ChIJP29bZAIwHw0RVoXKtaivhko
+startDate: 1708894800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708774255/jfdupsiouhgjtz1791al.jpg
+org:
+  owner: ""
+  importedAt: 1708774253939
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/restaurante.mercado.saloio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774254/y7gkkmk87mwkppjgq3no.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708774253939
+  owned: false
+  name: Mercado Saloio
+  place: ChIJLw72AMkQhIARpaenakb13dU
+  updatedAt: 1708774253939
+  username: mercado.saloio
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FFoIzg36IPi7YTrthMhG2.png?generation=1708774269870773&alt=media
+viewsCount: 13
+id: FoIzg36IPi7YTrthMhG2

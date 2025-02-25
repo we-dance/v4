@@ -1,0 +1,144 @@
+createdAt: 1708026905843
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1708026905843
+username: alexrazbakov
+venue:
+  formatted_address: Sechshauser Str. 9, 1150 Wien, Austria
+  website: http://somelikeithot.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Some Like It Hot!
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3342985697085
+        lat: 48.1877636697085
+      northeast:
+        lng: 16.3369965302915
+        lat: 48.19046163029149
+    location:
+      lng: 16.335726
+      lat: 48.189087
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Sechshauser Str.
+      long_name: Sechshauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Rudolfsheim-Fünfhaus
+      long_name: Rudolfsheim-Fünfhaus
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1150"
+      long_name: "1150"
+  place_id: ChIJv6tXwxiobUcRuMOC9hyVB6M
+  url: https://maps.google.com/?cid=11747522104646615992
+endDate: 1708207200000
+claimed: No
+link: ""
+description: >-
+  
+  Hallo ihr lieben Salsa-Freunde, 
+
+
+  Die Latino Party in der Some Like it hot Findet Statt in den wunderschönen Ballsaal von "Some Like it Hot" in der Sechshauser Straße 9, 1150 Wien ein.
+
+
+
+  👉19-23:00 LATINO PARTY 
+
+  Dj. Isi
+
+
+  👉 Wunderschöne Lokation, Große Parkett-Tanzfläche, 
+
+  👉Eintritt  - 5 Euro😲 👌👌
+
+  BITTE ZUSAGEN,TEILEN,FREUNDE EINLADEN ;)
+
+
+  Musik: Salsa all Styles,  Bachata, Kizomba
+
+  Alle Stilrichtungen sind herzlich willkommen! 
+
+
+  Wir freuen uns auf Euch!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/722780296288080/
+facebookId: "722780296288080"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa Cafe-  Latino Party, Salsa , Bachata, Kizomba!
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708192800000+ChIJv6tXwxiobUcRuMOC9hyVB6M
+startDate: 1708192800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708026910/bs78z9nhqbvxbjz7gmpw.jpg
+org:
+  owner: ""
+  importedAt: 1708026909270
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Salsa-Vienna/100064451901729/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708026909/dcfmmhlhgeqebzajlf7c.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708026909270
+  owned: false
+  name: Salsa Vienna
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1708026909270
+  username: salsa.vienna
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfmyX3mCXzTMbUpeYVdfo.png?generation=1708026919818952&alt=media
+viewsCount: 3
+id: fmyX3mCXzTMbUpeYVdfo

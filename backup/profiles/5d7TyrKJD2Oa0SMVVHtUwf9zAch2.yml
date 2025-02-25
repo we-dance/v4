@@ -1,0 +1,56 @@
+createdAt: 1600617771799
+createdBy: 5d7TyrKJD2Oa0SMVVHtUwf9zAch2
+name: Andrea
+username: LaLocita
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5d7TyrKJD2Oa0SMVVHtUwf9zAch2%2Fe4ad942a-3a61-4381-ab7e-25c0d52b635a?alt=media&token=c84c9987-050f-42ff-8cd2-ea4f9b9e07bc
+step: photo
+partner: Yes
+newsletter:
+  workshop: true
+  festival: true
+  online: true
+  class: true
+  party: true
+teacher: No
+languages: "German, English, Spanish and a little bit French "
+visibility: Members
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+location:
+  country: Germany
+  locality: Munich
+  label: Munich
+styles:
+  Bachata:
+    level: Intermediate
+    selected: true
+  Salsa:
+    level: Advanced
+    selected: true
+  Zumba:
+    level: Interested
+    selected: true
+community: Munich
+height: "180"
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+locales:
+  de: true
+  en: true
+  fr: true
+  es: true
+language: de
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617064559519
+pwaUsed: false
+lastLoginAt: 1633602153888
+daysUsed: 7
+id: 5d7TyrKJD2Oa0SMVVHtUwf9zAch2

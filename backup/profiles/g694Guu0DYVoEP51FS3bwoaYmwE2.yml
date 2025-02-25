@@ -1,0 +1,36 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621577672617
+locales:
+  de: true
+  bg: true
+  en: true
+createdBy: g694Guu0DYVoEP51FS3bwoaYmwE2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+pwaUsed: false
+teacher: No
+gender: Male
+visibility: Members
+partner: Yes
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1621712843897
+updatedBy: g694Guu0DYVoEP51FS3bwoaYmwE2
+id: g694Guu0DYVoEP51FS3bwoaYmwE2
+height: "185"
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fg694Guu0DYVoEP51FS3bwoaYmwE2%2Fd95d7ec8-f2b9-4d08-a113-5ae43a4726b9?alt=media&token=e2b0142b-4fcb-46a5-a395-40c9869b5b3f
+bio: Interested to practice Bachata Sensual 😊
+name: Krasti
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FKoki.png?generation=1622308909643311&alt=media
+username: Krasti
+jobs: Bachata Sensual
+learning: Bachata
+lastLoginAt: 1625841677651
+daysUsed: 16

@@ -1,0 +1,138 @@
+venue:
+  formatted_address: 5. května 1640/65, 140 21 Praha 4-Nusle, Czechia
+  website: https://www.praguecc.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Prague Congress Centre
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4307662302915
+      south: 50.0608935197085
+      north: 50.06359148029149
+      west: 14.4280682697085
+    location:
+      lng: 14.4290206
+      lat: 50.0625764
+  address_components:
+    - types:
+        - street_number
+      short_name: 1640/65
+      long_name: 1640/65
+    - types:
+        - route
+      short_name: 5. května
+      long_name: 5. května
+    - types:
+        - neighborhood
+        - political
+      short_name: Nusle
+      long_name: Nusle
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 4
+      long_name: Praha 4
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 140 21
+      long_name: 140 21
+  url: https://maps.google.com/?cid=5559277398893748727
+  international_phone_number: +420 261 171 111
+  place_id: ChIJeeuGwWSUC0cR92HrCFeFJk0
+  username: www.praguecc.cz
+claimed: No
+description: >-
+  Srdečně vás zveme na další řadu venkovních párty před kongresovým centrem
+  Vyšehrad. Potkávat se budeme vždy mezi 18-22 hodinou každou sobotu a hrát bude
+  DJ Lole salsu i bachatu v poměru 50/50.
+
+
+  Vstupné 100 Kč
+
+  Těšíme se na vás!
+
+
+  Tomáš & Lole
+
+
+  ================ English version ===============
+
+
+  We cordially invite you to another series of outdoor parties in front of the Vyšehrad Congress Centre. We will meet every Saturday between 6-10 pm and DJ Lole will play salsa and bachata in a 50/50 ratio.
+
+
+  entrance fee of 100 CZK
+
+  We look forward to seeing you there!
+
+
+  Tomas & Lole
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 240
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F5d60919e-9e06-4ba8-892b-b36fe1742b6d?alt=media&token=05faf88a-f5c7-4083-a398-d7c6f5c6cb5c
+createdAt: 1722200543617
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: 100 CZK
+socialCover: ""
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  username: DjLole
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: " Regular salsa a bachata - Open air party - metro Vyšehrad"
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+username: DjLole
+promotion: ""
+viewsCount: 1
+link: https://www.facebook.com/events/1850620035360137/1903536276735179
+id: 4FfxyMo23sgRJZ4iBqO3
+endDate: 1722715200000
+hash: 1722700800000+ChIJeeuGwWSUC0cR92HrCFeFJk0
+startDate: 1722700800000
+updatedAt: 1722599316002

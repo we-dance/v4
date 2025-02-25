@@ -1,0 +1,160 @@
+venue:
+  formatted_address: Sörnäisten rantatie 33c 4th floor, 00500 Helsinki, Finland
+  name: Sörnäisten rantatie 33c 4th floor
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.9680688197085
+        lat: 60.18627111970849
+      northeast:
+        lng: 24.97076678029151
+        lat: 60.18896908029151
+    location:
+      lng: 24.9693195
+      lat: 60.1876508
+  address_components:
+    - types:
+        - subpremise
+      short_name: 4th floor
+      long_name: 4th floor
+    - types:
+        - street_number
+      short_name: 33c
+      long_name: 33c
+    - types:
+        - route
+      short_name: Sörnäisten rantatie
+      long_name: Sörnäisten rantatie
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00500"
+      long_name: "00500"
+  url: https://maps.google.com/?q=S%C3%B6rn%C3%A4isten+rantatie+33c+4th+floor,+00500+Helsinki,+Finland&ftid=0x4692097b92733333:0x9dfbe34166865667
+  place_id: EjxTw7ZybsOkaXN0ZW4gcmFudGF0aWUgMzNjIDR0aCBmbG9vciwgMDA1MDAgSGVsc2lua2ksIEZpbmxhbmQiJRojChYKFAoSCTMzc5J7CZJGEeh4Rf4a9cNBEgk0dGggZmxvb3I
+  username: srnistenrantatie33c4
+endDate: 1739815200000
+claimed: No
+link: https://www.sdances.com/category/autumn-2024
+description: >
+  BEGINNER FRIENDLY CLASSES ON MONDAYS
+
+  are 4 months courses to guide you from the very 1st steps of Urbankiz and Kizomba/Semba to Improver level. We will work on posture, weight transfer, body movement and body control, connection with a partner and frame, leading and following techniques while learning basic figures.
+
+
+  During these few months you will learn to understand main leading and following techniques, basics figures and general principles of combining those and improvising. You will also learn to dance with different partners and be ready to join social dances & parties. We will cover the basics of Tarraxo and Douceur as well.
+
+
+  18:00-19:30 - URBANKIZ with Tatjana and Juri
+
+  19:30-21:00 - KIZOMBA/SEMBA with Tatjana and Tiina
+
+
+  PRICES:
+
+
+  Our payment plans are very flexible - choose from 4, 8, 12 or 16 time cards, or simply come when you have a time and pay drop-in. 
+
+  1x (drop-in) - 23€
+
+  4x card - 78€
+
+  8x card - 150€
+
+  12x card - 225€
+
+  16x card - 300€.
+
+  All cards are valid until the end of the season.
+
+
+  PAYMENT OPTIONS:
+
+
+  To save time before classes, we encourage payments to be made online through our webpage. We also accept Epassi, Edenred, and Smartum payments, which can be processed online and emailing us with your payment details. Anyway, for your comfort we take also card and cash payments at the school.
+
+
+  NOTE!
+
+  We're a dance school equipped with a hardwood floor. Please bring indoor shoes or be ready to dance in socks.
+
+  The door code for entry downstairs is 7302, and we're located on the fourth floor. 
+program: []
+source: facebook
+type: event
+seriesId: a6VHFZk6qxqfkSfTL4ND
+sourceUrl: https://fb.me/e/3QgyBEJ2Y
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724921643/yygdsjsc9bg0oulwqtnn.jpg
+duration: 151380
+createdAt: 1724921630016
+artists: []
+price: ""
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+id: HxGCQN6w1b9tZnrBJxpX
+international: No
+updatedAt: 1724921630016
+updatedBy: p1w8MCXJxvXIJx8cd8WJYy8JFRX2
+visibility: Public
+facebook: https://www.facebook.com/events/431421126570822/?event_time_id=431421129904155
+facebookId: "431421126570822"
+viewsCount: 1
+eventType: Course
+confirmation: You are in, welcome to our community!
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: p1w8MCXJxvXIJx8cd8WJYy8JFRX2
+watch:
+  count: 0
+  usernames: []
+name: FALL 2024 - BEGINNER FRIENDLY CLASSES
+online: ""
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1730732400000+EjxTw7ZybsOkaXN0ZW4gcmFudGF0aWUgMzNjIDR0aCBmbG9vciwgMDA1MDAgSGVsc2lua2ksIEZpbmxhbmQiJRojChYKFAoSCTMzc5J7CZJGEeh4Rf4a9cNBEgk0dGggZmxvb3I
+startDate: 1730732400000
+username: s.dance.school.helsinki
+org:
+  username: s.dance.school.helsinki

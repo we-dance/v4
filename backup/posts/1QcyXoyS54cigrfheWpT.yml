@@ -1,0 +1,169 @@
+venue:
+  website: http://www.zapatissimo.de/
+  formatted_address: Kolonnenstraße 29, 10829 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "29"
+      short_name: "29"
+    - types:
+        - route
+      long_name: Kolonnenstraße
+      short_name: Kolonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Tempelhof-Schöneberg
+      short_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10829"
+      short_name: "10829"
+  url: https://maps.google.com/?cid=9790870095956310328
+  name: Zapatissimo Danceschool
+  geometry:
+    viewport:
+      south: 52.4834834197085
+      north: 52.4861813802915
+      east: 13.3682545802915
+      west: 13.3655566197085
+    location:
+      lng: 13.3668409
+      lat: 52.484587
+  place_id: ChIJfZ8fNDxQqEcROHl4X3oo4Ic
+  international_phone_number: +49 1578 7117166
+claimed: No
+description: >-
+  Liebe Tanzfreunde,
+
+
+  dieses Wochenende findet wieder Bachata Unterricht sowie anschließende Bachata Praktika in der Tanzschule Zapatissimo statt.
+
+  Wo ? Zapatissimo Tanzschule,  Kolonnenstr.29, 10890 Berlin
+
+  Wann? 27.02.
+
+  16 Uhr Bachata Beginner Kurs 
+
+  17 Uhr Bachata Intermediate Kurs
+
+  18 -23.30 Uhr Praktika
+
+
+  Urbansports wird akzeptiert. (Bis 20 uhr)
+
+  2G+ 
+
+
+  Der Preis pro Kurs beträgt 7€ pro Std und die Bachata Praktika ist im Preis inkludiert. 
+
+  Ab 18 uhr kostet die Praktika 7€ inkl. Getränkebon (Bier,Cola etc.) 
+
+  Eintritt für die Praktika mit USC bis 20 Uhr möglich (ohne Getränkebon)
+
+
+  Lovely dancers,
+
+
+  This weekend we will have bachata classes and practice time.
+
+  Where? Zapatissimo Danceschool, 
+
+  Kolonnenstr.29, 10829 Berlin 
+
+  When ? 27.02.
+
+  4pm beginner class
+
+  5pm intermediate class
+
+  6-11.30pm assisted practice time 
+
+
+  2G+ Rules
+
+  People who are attending for the workshop are welcome to join the practice without beeing charged additionally.
+
+
+  Each class cost regulary 7€ p.p.
+
+  Practice 7€ incl. a Voucher for one drink (beer,softdrink)
+
+  Entrance with USC is also possible untill 8 pm (without a voucher)
+type: event
+promo: Yes
+duration: "120"
+createdAt: 1645727628395
+international: No
+updatedAt: 1645727628395
+updatedBy: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+visibility: Public
+org:
+  youtube: ""
+  facebook: Florian Kanehl
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTMr0jPNzmHNYEnVPUmmA34OeEqj1%2Ff0595cf4-a571-46b9-ac40-ddd7ace5e705?alt=media&token=30e3ec79-8b10-4916-a842-5a79ff7f0d9f
+  bio: "Hi my name is Florian i am from Hamburg and i ve been living in Berlin for
+    4 years. "
+  instagram: FlorianKanehl
+  tiktok: ""
+  name: BachataFlow
+  id: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+  username: BachataFlow
+confirmation: "Hello, you are confirmed, we are looking forward to see you on sunday. "
+eventType: Course
+form: No
+createdBy: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+watch:
+  count: 1
+  list:
+    undefined: true
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+username: BachataFlow
+endDate:
+  _seconds: 1645981200
+  _nanoseconds: 0
+artists:
+  - youtube: ""
+    facebook: Florian Kanehl
+    bio: "Hi my name is Florian i am from Hamburg and i ve been living in Berlin for
+      4 years. "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTMr0jPNzmHNYEnVPUmmA34OeEqj1%2Ff0595cf4-a571-46b9-ac40-ddd7ace5e705?alt=media&token=30e3ec79-8b10-4916-a842-5a79ff7f0d9f
+    instagram: FlorianKanehl
+    tiktok: ""
+    name: BachataFlow
+    id: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+    username: BachataFlow
+price: 7 EUR
+id: 1QcyXoyS54cigrfheWpT
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+startDate: 2022-02-27T16:00
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTMr0jPNzmHNYEnVPUmmA34OeEqj1%2Fcda88edc-5b9f-4715-be68-b0efb967f549?alt=media&token=6047abc9-afe1-40ce-a59f-426f9d320a14
+viewsCount: 19

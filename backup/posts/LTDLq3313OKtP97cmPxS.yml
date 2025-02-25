@@ -1,0 +1,146 @@
+venue:
+  formatted_address: Blumenstraße 7, 80469 München, Germany
+  website: http://www.glockenbachwerkstatt.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Bürgerhaus Glockenbachwerkstatt
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5752321802915
+      south: 48.1321970697085
+      north: 48.1348950302915
+      west: 11.5725342197085
+    location:
+      lng: 11.5740553
+      lat: 48.1335614
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Blumenstraße
+      long_name: Blumenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  place_id: ChIJafgJYl3fnUcRpiWeyB75tSk
+  url: https://maps.google.com/?cid=3005582236949816742
+  international_phone_number: +49 89 268838
+endDate: 2022-11-19T00:00
+claimed: No
+link: https://www.glockenbachwerkstatt.de/events/we-are-family-session-concert/
+program: []
+type: event
+duration: 60
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F7a03124d-a060-4985-a898-5d8b224395de?alt=media&token=8c4485f9-ba10-449a-b352-f10bd28338f6
+createdAt: 1668771322746
+price: 8 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1668771322746
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: https://instagram.com/glockenbachwerkstatt
+  username: glockenbachwerkstatt
+eventType: Concert
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Afroson – We are Family
+online: No
+styles: {}
+startDate: 2022-11-18T20:00
+username: alexrazbakov
+description: >-
+  Es ist eine wahre Freude wenn man so spannende, moderne und sympathische
+  kubanische Musik auch außerhalb ihres Heimatlandes findet. Um die großartige
+  und charismatische Sängerin und Komponistin Yeni Toro aus Havanna, hat sich
+  eine ganz besondere Band geformt, der es gelingt mit viel Hingabe und
+  Erfahrung einen Sound zu entwickeln, der die Wurzeln dieser Musik respektiert
+  und gleichzeitig mit viel Kreativität und Spielwitz ein eigenes, sehr
+  hörenswertes und sehenswertes, tanzbares Statement setzt. Die Grenzen von Son,
+  Salsa, Rumba , Afro , Jazz und Timba verschmelzen und es entsteht eine sehr
+  farbenfrohe Musik, die sich von lyrischen und poetischen Momenten immer wieder
+  zu euphorischen und mitreißenden Höhepunkten schraubt.
+
+
+
+  <w-youtube url="https://youtu.be/tzzwzeZkNcU"></w-youtube>
+id: LTDLq3313OKtP97cmPxS
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Jorge Yeranis Silega Martinez
+    bio: Salsa Percussion Instructor
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F17dfe0a9-0c36-44c6-bdc4-dd3bb5d1db5d?alt=media&token=5bd7a5cc-5b44-4e09-80ae-c530f0e46941
+    instagram: https://instagram.com/jorge_la_musica
+    id: ZDmf6FVVLM1jVzTeIue8
+    username: jorge_la_musica
+  - instagram: https://instagram.com/mulata_dorada
+    username: mulata_dorada
+  - instagram: https://instagram.com/undukeable89
+    username: undukeable89
+  - instagram: https://instagram.com/borisvonjohnson
+    username: borisvonjohnson
+  - instagram: https://instagram.com/acosta.sax
+    username: acosta.sax
+artistsList:
+  - jorge_la_musica
+  - mulata_dorada
+  - undukeable89
+  - borisvonjohnson
+  - acosta.sax
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLTDLq3313OKtP97cmPxS.png?generation=1668771646124286&alt=media
+telegram:
+  requestedAt: 1668771651183
+  messageUrl: https://t.me/WeDanceMunich/704
+  publishedAt: 1668771653348
+  messageId: 704
+  state: published
+instagram:
+  requestedAt: 1668771654256
+  messageUrl: https://instagram.com/p/ClGdl4zuGkb
+  publishedAt: 1668771668180
+  messageId: ClGdl4zuGkb
+  state: published
+viewsCount: 35

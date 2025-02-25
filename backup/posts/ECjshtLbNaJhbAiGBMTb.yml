@@ -1,0 +1,138 @@
+endDate: 1721449800000
+sourceUrl: https://facebook.com/events/s/colombian-independence-day-dan/2827013394125368/
+createdAt: 1718200829039
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1718174711000
+updatedAt: 1718200829039
+importedAt: 1718200829039
+providerUpdatedAt: 1718174711000
+facebookId: "2827013394125368"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/colombian-independence-day-dan/2827013394125368/
+eventType: Party
+providerItemId: 69gj4oj1c5h3ib9mccrm2b9k6so3ab9p6dgm2bb1ckoj8dr26cq3ec9p60@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Colombian Independence Day Dance
+location: Old 502 Winery
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721433600000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 915 E Liberty St, Louisville, KY 40204, USA
+  website: http://www.old502.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Old 502 Winery
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.73729163029151
+        lat: 38.2489078697085
+      northeast:
+        lng: -85.7345936697085
+        lat: 38.2516058302915
+    location:
+      lng: -85.73571960000001
+      lat: 38.2503629
+  address_components:
+    - types:
+        - street_number
+      short_name: "915"
+      long_name: "915"
+    - types:
+        - route
+      short_name: E Liberty St
+      long_name: East Liberty Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Phoenix Hill
+      long_name: Phoenix Hill
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40204"
+      long_name: "40204"
+  international_phone_number: +1 502-540-5650
+  place_id: ChIJweJGVl9taYgRGpkfPjm0ME0
+  url: https://maps.google.com/?cid=5562143697750956314
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/LouisvilleSalsa
+  name: Louisville Salsa Underground
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044570/id4qtxyiq4etpyf10li1.png
+  bio: ""
+  id: 43Vnvk5QwbG7WgWnkYFE
+  instagram: ""
+  username: LouisvilleSalsa
+claimed: No
+facebook: https://www.facebook.com/events/2827013394125368/
+link: ""
+description: >-
+  In honor of Colombia's Independence (July 20th), we shall dance and celebrate
+  with Louisville's much beloved Colombiana, Ivonne Obando!
+
+
+  Ivonne will teach a 30-minute dance lesson!
+
+
+  There will also be a performance by Colombia y Su Encanto!
+
+
+  DJ Robertón will be spinning classic Colombian Salsa music, AS WELL AS your favorite Timba, Salsa, & Bachata!
+
+
+  $10 cash/Venmo/Cash App at the door.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718200843/sbbgkfx9enyudvqut0be.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_fyWXc9yaYgRPvVcIagypAM
+international: No
+hash: 1721433600000+ChIJweJGVl9taYgRGpkfPjm0ME0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FECjshtLbNaJhbAiGBMTb.png?generation=1718200863114951&alt=media
+id: ECjshtLbNaJhbAiGBMTb

@@ -1,0 +1,143 @@
+createdAt: 1704822867511
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/7096452740422050/
+source: facebook
+updatedAt: 1704822867511
+username: wedancebot
+venue:
+  formatted_address: Handelseweg 11, 5423 SB Handel, Netherlands
+  website: http://www.time-out.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Time Out Uitgaanscentrum
+  geometry:
+    viewport:
+      southwest:
+        lng: 5.704756519708497
+        lat: 51.5661787197085
+      northeast:
+        lng: 5.707454480291502
+        lat: 51.5688766802915
+    location:
+      lng: 5.7060751
+      lat: 51.5674697
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Handelseweg
+      long_name: Handelseweg
+    - types:
+        - locality
+        - political
+      short_name: Handel
+      long_name: Handel
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gemert-Bakel
+      long_name: Gemert-Bakel
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NB
+      long_name: Noord-Brabant
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 5423 SB
+      long_name: 5423 SB
+  international_phone_number: +31 492 363 536
+  place_id: ChIJgYViPvoYx0cRGQJwPvz018s
+  url: https://maps.google.com/?cid=14688478073908625945
+visibility: Public
+endDate: 1705806000000
+org:
+  owner: ""
+  importedAt: 1704822877088
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachata.mania.3
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/370854361_887735379415158_3143259235905845111_n.jpg?stp=c9.6.38.38a_cp0_dst-jpg_p56x56&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=75Qxe9w_FQAAX8lGEil&_nc_ht=scontent-iad3-1.xx&oh=00_AfBfuTnwieKzCslYUuw6lWwQkYK43V19yB0ghC2QZFnOOQ&oe=65A1A474
+  source: facebook
+  type: Organiser
+  createdAt: 1704822877088
+  owned: false
+  name: Bachata Mania
+  place: ChIJgaR41eaMtocRV_K3oF0w-V8
+  updatedAt: 1704822877088
+  username: bachata.mania.3
+claimed: No
+facebookId: "7096452740422050"
+link: http://www.bachatamania.nl/
+description: >-
+  Mis deze unieke gelegenheid niet om je helemaal te laten gaan op de ritmes van
+  Bachata, Salsa, Kizomba, Merengue, Bomba en zwoele Reggaeton tijdens onze
+  geweldige fiesta! 
+
+
+  BACHATA MANIATICS, we hebben zo lang gewacht om samen te komen en ongehinderd te dansen, lachen, eten en flirten. Dit is jouw kans om deel te nemen aan een onvergetelijke ervaring 💃❤ Una vaina biennnnnn!
+
+
+  Onze line-up bevat de beste workshops en DJ's. Line-up wordt later bekend gemaakt, maar je kan er verzekerd zijn dat het 🔥🔥 is
+
+
+  Wees er snel bij en koop nu je ticket via www.bachatamania.nl voor de datum van 20 jan 2023. De fiesta begint om 22:00 en duurt tot 3:59. 
+
+
+  Er zijn verschillende soorten tickets beschikbaar, van Super early maniatic Tickets voor €10,- excl. service tot Late Maniatic Tickets voor €20,- excl. service. Maar wees snel, want op de dag zelf zijn alleen Door Tickets beschikbaar voor €20,- excl. service (tenzij uitverkocht in VVK). 
+
+
+  Druk nu op 'gaan' en maak deel uit van deze onvergetelijke fiesta!
+program: []
+eventType: Workshop
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Bachata Mania -20 JAN 2024 - Gemert
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJgaR41eaMtocRV_K3oF0w-V8
+international: No
+hash: 1705784400000+ChIJgYViPvoYx0cRGQJwPvz018s
+startDate: 1705784400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7DJlLPX5NznSCDeizEDD.png?generation=1704822906642102&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851636/gsn6iczata54eppbhmfz.jpg
+viewsCount: 20
+id: 7DJlLPX5NznSCDeizEDD

@@ -1,0 +1,171 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/alfa-afro-latin-fest-asia/
+name: "ALFA 2025 : Afro-Latin Fest Asia (7th Sensual Ed)"
+facebook: https://www.facebook.com/events/1048661760287400/
+sourceUrl: https://www.facebook.com/events/1048661760287400/
+venue:
+  address_components:
+    - long_name: 3-10
+      short_name: 3-10
+      types:
+        - subpremise
+    - long_name: Lakeville Lifestyle Shoplot
+      short_name: Lakeville Lifestyle Shoplot
+      types:
+        - point_of_interest
+        - establishment
+    - long_name: Jalan Sibu
+      short_name: Jalan Sibu
+      types:
+        - route
+    - long_name: Taman Wahyu
+      short_name: Taman Wahyu
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Kuala Lumpur
+      short_name: Kuala Lumpur
+      types:
+        - locality
+        - political
+    - long_name: Wilayah Persekutuan Kuala Lumpur
+      short_name: Wilayah Persekutuan Kuala Lumpur
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Malaysia
+      short_name: MY
+      types:
+        - country
+        - political
+    - long_name: "51200"
+      short_name: "51200"
+      types:
+        - postal_code
+  formatted_address: 3-10, Lakeville Lifestyle Shoplot, Jalan Sibu, Taman Wahyu,
+    51200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia
+  geometry:
+    location:
+      lat: 3.2097616
+      lng: 101.6691322
+    viewport:
+      northeast:
+        lat: 3.211112230291501
+        lng: 101.6704812802915
+      southwest:
+        lat: 3.208414269708498
+        lng: 101.6677833197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +60 12-319 3668
+  name: SkyArk Event Spaces
+  place_id: ChIJf5xAyMlHzDERo9n8Spxottc
+  url: https://maps.google.com/?cid=15543726184398117283
+  website: https://web.facebook.com/Skyark-Event-Spaces-1963664623909957/
+visibility: Public
+endDate: 1750010400000
+org:
+  id: 6p0HTJfFuLdB9azjWSXs
+  username: alfa.asia
+  name: "ALFA : Afro Latin Fest Asia"
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954215/xh3yldcrbh2u3v8fmvdk.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/alfa.asia
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebookId: "1048661760287400"
+link: https://www.alfa-asia.net/
+description: >-
+  Welcome to the 7th ALFA 2025. In this edition we bring you our first ever
+  Sensual Vibe, focusing more on Bachata, Kizomba & Urban Kiz ... but that
+  doesn't mean we won't cover Salsa :)
+
+
+  Confirmed Artists so far ...
+
+  ⭐️ Ronie Saleh (Fusion Kizomba) 🇸🇪
+
+  ⭐️ Albir Rojas (Urban Kiz) 🇪🇸
+
+  ⭐️ Mandela Show (Kizomba / Semba) 🇦🇴
+
+  ⭐️ Igor & Ana (Bachata Sensual) 🇪🇸
+
+  ⭐️ Sergio & Beige (Bachata Moderna) 🇪🇸 🇭🇺
+
+
+  Stay Tuned for upcoming Artist Announcements ...
+
+  Festival Venue : SkyArk Event Spaces.
+
+  For Tickets, Venue, Accommodation, Schedule & more info go to our website : https://www.alfa-asia.net
+
+
+  ⏩️ 6 Masterclass
+
+  ⏩️ 25 Workshops
+
+  ⏩️ 5 Parties
+
+  ⏩️ Taxi Dancers
+
+  ⏩️ Shows
+
+
+  FULL FESTIVAL SCHEDULE ...
+
+  12-June : Thursday | Pre-Party | Venue : TBC
+
+  13-June : Friday | Masterclass & Opening Party
+
+  14-June : Saturday | Workshops, Party & Show
+
+  15-June : Sunday | Workshops & Closing Party
+
+  16-June : Monday | ALFA Hangover After Party | Venue : TBC
+
+
+  Insta : alfa.festival
+
+  FB : alfa.asia
+program: []
+source: facebook
+eventType: Festival
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293951/rxiafbhpvzcvpvblxixp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ0-cIvSo2zDERmWzYQPUfLiM
+international: No
+hash: 1749780000000+ChIJf5xAyMlHzDERo9n8Spxottc
+startDate: 1749780000000
+id: v3ymUAiPHGb3OefdE3Yn

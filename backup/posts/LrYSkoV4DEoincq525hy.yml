@@ -1,0 +1,130 @@
+venue:
+  website: http://www.tanzschuleamstachus.de/
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 1590 1227277
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  url: https://maps.google.com/?cid=7618752569010268631
+endDate: 2022-11-30T23:59
+claimed: No
+description: >-
+  💽🎶 Finest Bachata Sound is played DJ bubu  in the bachata area
+
+
+  In the heart of Munich, with a nice view from glass windows, good floor and cocktails bar 💃🏻🕺🏻🍹 
+program: []
+type: event
+duration: 60
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa96d23b4-fb6a-43cd-b13d-74af6fcfb67d?alt=media&token=50cf6f63-d893-4b12-8a2a-52ca4163be02
+createdAt: 1669764124012
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1669764124012
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Bullet Shakirov
+  bio: |-
+    🇷🇺 🇩🇪 🇬🇧 
+    Engineer
+    DJ
+    📍 Munich
+    Bachata/Kizomba
+    Music/Sport/Health/Traveling
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj_bullet_munich%2F.png?generation=1655306150735454&alt=media
+  id: 1gQaoIh4PDwSXyb19LBY
+  instagram: https://instagram.com/dj_bullet_munich/
+  username: dj_bullet_munich
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Bachata Rooftop Social by Bubu
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-11-30T21:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLrYSkoV4DEoincq525hy.png?generation=1669800074664534&alt=media
+telegram:
+  requestedAt: 1669800082181
+  messageUrl: https://t.me/WeDanceMunich/717
+  publishedAt: 1669800085748
+  messageId: 717
+  state: published
+instagram:
+  requestedAt: 1669800088856
+  messageUrl: https://instagram.com/p/CllHLTMOfTN
+  publishedAt: 1669800104772
+  messageId: CllHLTMOfTN
+  state: published
+viewsCount: 18
+id: LrYSkoV4DEoincq525hy

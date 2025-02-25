@@ -1,0 +1,36 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1625145499843
+createdBy: JFzlRIogssPQgX4Cl0eg6kxs8Ag2
+place: ~
+birthday: 1999-02-27
+weight: "66"
+learning: Bachata,salsa
+permission: Yes
+locales:
+  de: true
+  es: true
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+teacher: No
+partner: Yes
+name: Christian
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+contacts: Yes
+height: "1.71"
+updatedAt: 1625145862208
+username: Christian
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJFzlRIogssPQgX4Cl0eg6kxs8Ag2%2F5e224ad0-c3c6-4645-ac82-adcaf841d18f?alt=media&token=65522e83-9587-4284-b494-2c94e0d93cfc
+lastLoginAt: 1625237146930
+daysUsed: 2
+pwaUsed: true
+instagram: https://instagram.com/@Christia_f_arrieta
+id: JFzlRIogssPQgX4Cl0eg6kxs8Ag2

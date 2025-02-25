@@ -1,0 +1,197 @@
+isNew: true
+facebookId: "1077712383618859"
+facebookUrlsList:
+  - https://www.facebook.com/events/1077712320285532/?event_time_id=1077712383618859
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1732287626553
+updatedAt: 1732287626553
+importedAt: 1732287626553
+providerId: Hdy36PpWW12iDUEDgycb
+providerItemId: e1077712383618859@facebook.com
+name: SPRING SEASON 2025
+providerCreatedAt: 1732207394000
+providerUpdatedAt: 1732281756000
+startDate: 1745852400000
+endDate: 1745863200000
+facebook: https://www.facebook.com/events/1077712320285532/?event_time_id=1077712383618859
+sourceUrl: https://www.facebook.com/events/1077712320285532/?event_time_id=1077712383618859
+location: Sörnäisten Rantatie 33C - 4th floor, 00500 Helsinki, Finland
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Course
+approved: true
+username: s.dance.school.helsinki
+createdBy: p1w8MCXJxvXIJx8cd8WJYy8JFRX2
+venue:
+  address_components:
+    - long_name: 1. Etage
+      short_name: 1. Etage
+      types:
+        - subpremise
+    - long_name: "11"
+      short_name: "11"
+      types:
+        - street_number
+    - long_name: Holzmarktstraße
+      short_name: Holzmarktstraße
+      types:
+        - route
+    - long_name: Mitte
+      short_name: Mitte
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Berlin
+      short_name: Berlin
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Berlin
+      short_name: BE
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "10179"
+      short_name: "10179"
+      types:
+        - postal_code
+  formatted_address: Holzmarktstraße 11/1. Etage, 10179 Berlin, Germany
+  geometry:
+    location:
+      lat: 52.5140791
+      lng: 13.4214545
+    viewport:
+      northeast:
+        lat: 52.5154467802915
+        lng: 13.4227718802915
+      southwest:
+        lat: 52.5127488197085
+        lng: 13.42007391970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 30 2060590
+  name: D!'s Dance School
+  place_id: ChIJq6q6YTtOqEcRJSN0aZHNWfY
+  url: https://maps.google.com/?cid=17751445430680691493
+  website: https://deesdanceschool.de/
+visibility: Public
+org:
+  id: p1w8MCXJxvXIJx8cd8WJYy8JFRX2
+  username: s.dance.school.helsinki
+  name: S-Dance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8e2d4466-7f66-4c2e-8c7d-702079d1c820?alt=media&token=b45d2319-cea7-4f8a-b521-862df96f7c93
+  bio: S-Dance is a social dance school focused on Kizomba/Semba and Urbankiz &
+    Tarraxo dances in Helsinki. Join our community!
+  instagram: https://www.instagram.com/S.Dance.School.Helsinki
+  facebook: https://www.facebook.com/S.Dance.School.Helsinki
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: https://www.sdances.com/category/spring-2025
+description: >-
+  WHAT'S COMING THIS SEASON?
+
+
+  5 Different Courses: 
+
+  - Kizomba & Semba (Open Level) 
+
+  - Tarraxo (Open Level)
+
+  - Urbankiz (Open Level, Intermediate, Int/Adv).
+
+
+  15 Lessons Per Course: 
+
+  Held on Mondays or Wednesdays, running from February 3rd to May 28th.
+
+
+  Class Duration: 1h each.
+
+
+  OPEN LEVEL CLASSES ON MONDAYS
+
+  Mondays are designed for dancers of all levels to enjoy three unique dance styles:
+
+
+  18:00-19:00 - KIZOMBA/SEMBA 
+
+  19:00-20:00 - TARRAXO
+
+  20:00-21:00 - URBANKIZ 
+
+
+  CLASSES ON WEDNESDAYS
+
+  Wednesdays focus on Urbankiz (for dancers with at least of 1-2 years of experience) and Tarraxo (Open Level):
+
+
+  18:00-19:00 – URBANKIZ INTERMEDIATE
+
+  19:00-20:00 – TARRAXO OPEN LEVEL
+
+  20:00-21:00 – URBANKIZ INT/ADV
+
+
+  *Read more about every course in product description.
+
+
+  PRICES:
+
+  Our payment plans are very flexible - choose from 4, 8, 11 or 15 time cards, or simply come when you have a time and pay drop-in.
+
+
+  We sell every course separately, BUT Special Combo Passes are Available too. Take advantage of discounted combo passes for those ready to dive deeper and dance more!
+
+
+  All cards are valid until the end of the season!!!
+
+
+  PAYMENT OPTIONS:
+
+  To save time before classes, we encourage payments to be made online through our webpage. We also accept Epassi, Edenred, and Smartum payments, which can be processed online and emailing us with your payment details. Anyway, for your comfort we take also card and cash payments at the school.
+
+  NOTE!
+
+  It's a dance school equipped with a hardwood floor. Please bring indoor shoes or be ready to dance in socks.
+
+
+  The door code for entry downstairs is 7302, and we're located on the fourth floor.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732287642/hcllh1pugee61mvsanqs.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1745852400000+ChIJq6q6YTtOqEcRJSN0aZHNWfY
+id: KERcBjUV0IYNovXGOZ4Y

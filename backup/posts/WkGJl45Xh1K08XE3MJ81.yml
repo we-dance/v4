@@ -1,0 +1,867 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327108313
+updatedAt: 1732327108313
+importedAt: 1732327108313
+providerId: goandance
+providerItemId: "7151"
+name: Tenerife Dance Festival 2025
+description: |-
+  💥 FESTIVAL Y VACACIONES
+
+  💥 MÁS DE 40 ARTISTAS
+
+  💥 MÁS DE 40 HORAS DE TALLERES (BACHATA, SALSA Y TALLERES ESPECIALES)
+
+  💥 SHOWS
+
+  💥 EXCURSION EN BARCO CON AVISTAMIENTO DE DELFINES + BAILE + NADAR
+
+  💥 BAILE SOCIAL DE DÍA Y DE NOCHE
+
+  💥 COMPETICION DE BAILE
+
+  💥 HOTEL DE 4 ESTRELLAS CON SALON Y AREAS EXTERIORES PARA BAILAR
+
+  •••••••• CONFIRMED ARTISTS ••••••••
+
+  BACHATA:
+
+  🔥 CARLOS Y PAZ
+
+  🔥 DARIO Y SARA
+
+  🔥 AITOR Y ANGELICA
+
+  🔥 LEANDRO Y JOMANTE
+
+  🔥 OWEN Y EVA
+
+  🔥 JUDIT Y TONI
+
+  🔥 NACHO Y SILVIA
+
+  🔥 HABIBI Y PETRA
+
+  🔥 MARCO Y ELEONORA
+
+  🔥 JOHNY Y NOE
+
+  🔥 JERAY Y MELISSA
+
+  🔥 PIERRE Y ISA
+
+  🔥 YESENIA VIALARD
+
+  🔥 JEAN Y BEA
+
+  🔥 GABY Y LIA
+
+  🔥 CLAUDIA JIMENEZ
+
+  (MÁS POR CONFIRMAR)
+
+  SALSA:
+
+  🔥 ALEX TOLEDO
+
+  🔥 MARCO LORUSSO
+
+  🔥 DENNY IMPERIALE
+
+  🔥 CRISTO Y EMMA
+
+  🔥 YLENIA ALVAREZ
+
+  🔥 JOSUE SANTO
+
+  (MÁS POR CONFIRMAR)
+
+  DJ's:
+
+  🔥 DJ CESC
+
+  🔥 DJ DIA
+
+  🔥 DJ VIREACK
+
+  🔥 DJ LEO
+
+  🔥 DJ TOXICA
+
+  🔥 DJ CHUCHA
+
+  VIDEÓGRAFOS
+
+  🔥 AZU RECORDS
+
+  🔥 LDR PROD
+
+  ✅ ENTRADAS: GOANDANCE
+
+  ✅ HOTEL OFICIAL:
+
+  ⚜️ PUERTO PALACE ★★★★
+
+  Puerto de la Cruz, Tenerife
+
+  RESERVA TU ESTANCIA CON NOSOTROS PARA OBTENER NUESTRO DESCUENTO!!
+
+  EN CASO DE QUE QUIERAS QUEDARTE MÁS DE LAS 3 NOCHES CONTACTA CON NOSOTROS.
+
+  —————————————————————
+
+  ✅ Instagram: tenerife\_dance\_festival
+
+  ✅ Facebook Page: Tenerife Dance Festival
+
+  ✅ Contact: tenerifedancefestival@gmail.com
+sourceUrl: https://www.goandance.com/es/e/7151?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7151?promoter=WEDANCE123
+type: event
+startDate: 1746734400000
+endDate: 1747000740000
+tickets:
+  - name: FULL PASS (Primeros 30)
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1746478800
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 0.79
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: BLACK FRIDAY 2 x FULL PASSES POR 190€
+    description: |-
+      AHORRA 30€
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala...  de baile del hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1733003940
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 0.79
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1725224340
+      _nanoseconds: 0
+    discount: 5
+    price: 100
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1735768800
+      _nanoseconds: 0
+    discount: 5
+    price: 105
+    comission: 7.87
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1738447200
+      _nanoseconds: 0
+    discount: 5
+    price: 115
+    comission: 7.87
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1740866400
+      _nanoseconds: 0
+    discount: 5
+    price: 120
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1746133200
+      _nanoseconds: 0
+    discount: 5
+    price: 125
+    comission: 7.87
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS
+    description: |-
+      Acceso a más de 40 horas de talleres 
+      Acceso a todas las fiestas y actividades de día en el Hotel
+      Acceso a todas las fiestas nocturnas en la sala de baile del...  hotel
+      Shows
+      - No Reembolsable 
+      - Hotel no incluido
+      - Excursiones no incluidas
+    priceValidUntil:
+      _seconds: 1746651600
+      _nanoseconds: 0
+    discount: 5
+    price: 135
+    comission: 7.87
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: TICKET BARCO
+    description: |-
+      - Transporte NO incluido
+      - Avistamiento de delfines y ballenas
+      - Bebidas incluidas: Sangría, cerveza, refrescos
+      - Salida de 4 horas y media 
+      - Se hará...  una parada para bañarnos y bailar.
+      - Disfrutar de nuestra música en un ambiente único
+      -  8 de Mayo 2025 salida del puerto 13:30 horas
+      - No reembolsable
+    priceValidUntil:
+      _seconds: 1746126000
+      _nanoseconds: 0
+    discount: 0
+    price: 45
+    comission: 0.79
+    originalPrice: 45
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: TICKET BARCO CON TRASPORTE DESDE HOTEL PRINCIPAL
+    description: >-
+      - Este ticket incluye el transporte desde el Hotel hasta el puerto y
+      vuelta. (45 minutos cada trayecto)
+
+      - Avistamiento de delfines y ballenas
+
+      - Bebidas incluidas:...  Sangría, cerveza, refrescos
+
+      - Salida de 4 horas y media 
+
+      - Se hará una parada para bañarnos y bailar.
+
+      - Disfrutar de nuestra música en un ambiente único
+
+      -  8 de Mayo 2025 salida del puerto 13:30 horas
+
+      - No reembolsable
+    priceValidUntil:
+      _seconds: 1746126000
+      _nanoseconds: 0
+    discount: 0
+    price: 50
+    comission: 0.79
+    originalPrice: 50
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 3 Noches de Hotel para 2 personas - Media Pensión
+    description: >-
+      1 x Habitación Doble
+
+      Precio por persona por noche = 50,5 eur
+
+      Desayuno y cena incluido. 
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No...  incluye el pase para el evento
+
+      - Entrada el viernes 9/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar  con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 303
+    comission: 0.79
+    originalPrice: 303
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 3 Noches de Hotel para 2 personas -  Pensión Completa
+    description: >-
+      1 x Habitación Doble 
+
+      Precio por persona por noche = 65eur
+
+      Desayuno, almuerzo y cena incluido. 
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS...  />
+
+      - No incluye pase de festival
+
+      - Entrada el viernes 9/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 390
+    comission: 0.79
+    originalPrice: 390
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 3 Noches de Hotel para 3 Personas  - Media Pensión
+    description: >-
+      1 x Habitación Triple
+
+      Precio por persona por noche = 47 eur
+
+      Desayuno y cena incluido.
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el viernes 9/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 423
+    comission: 0.79
+    originalPrice: 423
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 3 Noches de Hotel para 3 personas - Pensión Completa
+    description: >-
+      1x Habitación triple 
+
+      Precio por persona por noche = 60 eur
+
+      Desayuno, almuerzo y cena incluido.
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS...  />
+
+      - No incluye pase de festival
+
+      - Entrada el viernes 9/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 540
+    comission: 0.79
+    originalPrice: 540
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 4 Noche de Hotel para 2 personas - Media Pensión
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 50,5 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Jueves 8/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 404
+    comission: 0.79
+    originalPrice: 404
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 4 Noches de Hotel para 2 Personas - Pensión Completa
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 65 eur
+
+      Desayuno, almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Jueves 8/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 520
+    comission: 0.79
+    originalPrice: 520
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 4 Noches de Hotel para 3 Personas - Media Pension
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 47 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Jueves 8/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 564
+    comission: 0.79
+    originalPrice: 564
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 4 Noches de Hotel para 3 Personas - Pensión Completa
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 60 eur
+
+      Desayuno, almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Jueves 8/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743800400
+      _nanoseconds: 0
+    discount: 0
+    price: 720
+    comission: 0.79
+    originalPrice: 720
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 5 Días de Hotel para 2 Personas - Media Pensión
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 49 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Miércoles 7/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 490
+    comission: 0.79
+    originalPrice: 490
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 5 Días de Hotel para 2 Personas - Pensión Completa
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 63,5 eur
+
+      Desayuno, Almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Miércoles 7/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 635
+    comission: 0.79
+    originalPrice: 635
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 5 Días de Hotel para 3 Personas - Media Pensión
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 46 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Miércoles 7/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 690
+    comission: 0.79
+    originalPrice: 690
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 5 Días de Hotel para 3 Personas - Pensión Completa
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 59 eur
+
+      Desayuno, Almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Miércoles 7/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 885
+    comission: 0.79
+    originalPrice: 885
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 6 Días en Hotel para 2 Personas - Media Pensión
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 49 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Martes 6/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 588
+    comission: 0.79
+    originalPrice: 588
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 6 Días de Hotel para 2 Personas - Pensión Completa
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 63,5 eur
+
+      Desayuno, Almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Martes 6/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 762
+    comission: 0.79
+    originalPrice: 762
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 6 Días de Hotel para 3 personas - Media Pensión
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 46 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Martes 6/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 828
+    comission: 0.79
+    originalPrice: 828
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 6 Días de Hotel para 3 Personas - Pensión Completa
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 59 eur
+
+      Desayuno, Almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Martes 6/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 1.062
+    comission: 0.79
+    originalPrice: 1.062
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 7 Días de Hotel para 2 Personas - Media Pensión
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 49 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Lunes 5/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 686
+    comission: 0.79
+    originalPrice: 686
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 7 Días de Hotel para 2 Personas - Pensión Completa
+    description: >-
+      1x Habitación Doble
+
+      Precio por persona por noche = 63,5 eur
+
+      Desayuno, Almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Lunes 5/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 889
+    comission: 0.79
+    originalPrice: 889
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 7 Días de Hotel para 3 Personas - Media Pensión
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 46 eur
+
+      Desayuno y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      - No incluye...  pase de festival
+
+      - Entrada el Lunes 5/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 966
+    comission: 0.79
+    originalPrice: 966
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+  - name: 7 Días de Hotel para 3 Personas - Pensión Completa
+    description: >-
+      1x Habitación Triple
+
+      Precio por persona por noche = 59 eur
+
+      Desayuno, Almuerzo y cena incluido
+
+      - Necesario que todos tengan FULL PASS o WEEKEND PASS
+
+      -...  No incluye pase de festival
+
+      - Entrada el Lunes 5/05/2025 y salida Lunes 12/05/2025
+
+      En caso de querer otros días de entrada y salida consultar con la organización.
+    priceValidUntil:
+      _seconds: 1743793200
+      _nanoseconds: 0
+    discount: 0
+    price: 1.239
+    comission: 0.79
+    originalPrice: 1.239
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7151-tenerife-dance-festival-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327109/gq3msgj7lk0zpxrxkutp.jpg
+venue:
+  address_components:
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Calle Doctor Cobiella Zaera
+      short_name: Calle Doctor Cobiella Zaera
+      types:
+        - route
+    - long_name: Puerto de la Cruz
+      short_name: Puerto de la Cruz
+      types:
+        - locality
+        - political
+    - long_name: Santa Cruz de Tenerife
+      short_name: TF
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Canarias
+      short_name: CN
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "38400"
+      short_name: "38400"
+      types:
+        - postal_code
+  formatted_address: Calle Doctor Cobiella Zaera, 2, 38400 Puerto de la Cruz,
+    Santa Cruz de Tenerife, Spain
+  geometry:
+    location:
+      lat: 28.4081694
+      lng: -16.5505272
+    viewport:
+      northeast:
+        lat: 28.4096561302915
+        lng: -16.54918916970849
+      southwest:
+        lat: 28.4069581697085
+        lng: -16.5518871302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Puerto Palace
+  place_id: ChIJ7d03xeV_agwR0Z-YKTX-eaM
+  url: https://maps.google.com/?cid=11779725804648832977
+  website: https://www.puertopalace.com/?utm_medium=organic&utm_source=google&utm_campaign=google-my-business&utm_term=google-local
+place: ChIJsf16ifp_agwRdmMUyVe6IP4
+price: 90 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1746734400000+ChIJ7d03xeV_agwR0Z-YKTX-eaM
+org: ""
+id: WkGJl45Xh1K08XE3MJ81

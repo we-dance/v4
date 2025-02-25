@@ -1,0 +1,128 @@
+venue:
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  name: Geretsrieder Str. 6
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5346033302915
+      south: 48.0993283197085
+      north: 48.1020262802915
+      west: 11.5319053697085
+    location:
+      lng: 11.533212
+      lat: 48.10057159999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Geretsrieder Str.
+      long_name: Geretsrieder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  url: https://maps.google.com/?q=Geretsrieder+Str.+6,+81379+M%C3%BCnchen,+Germany&ftid=0x479dd8d532131c0d:0xf463e52cbecb2077
+  place_id: ChIJDRwTMtXYnUcRdyDLvizlY_Q
+endDate: 2022-11-13T15:15
+claimed: No
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9GwaYZZIzkgWWeuHb63MejTPjAu2%2Ff3f2a183-6928-457c-afff-c146cd98a6c3?alt=media&token=7d8761b4-dbab-4703-bc79-09c80d129f9a
+duration: 60
+createdAt: 1667331829162
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1667331829162
+updatedBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/MEGANOTANZSCHULE
+  name: Megano Tanzschule
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmegano_dance.png?generation=1662975077262579&alt=media
+  bio: Salsa Cubana, Musik, Animation, News, Videos und Live Unterricht
+  instagram: https://instagram.com/megano_dance
+  id: drB3tICooGFyNp4hwqW3
+  username: megano_dance
+facebook: https://m.facebook.com/story.php?story_fbid=470900441684306&id=100062930634798
+eventType: Workshop
+form: No
+createdBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+watch:
+  count: 1
+  list:
+    Katja: true
+name: "Bachata Workshop mit Silvia Pires Nuevo "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-11-12T13:00
+username: Katja
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Silvia
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FNVtSLOLOIGSvCRWwfrfzx5ARV7f1%2Fabc0f540-c623-444a-97e8-dba4abf376e2?alt=media&token=f892ad8e-c3c7-4bb7-b180-cf4b34281555
+    instagram: https://www.instagram.com/spndanceandevents/
+    id: NVtSLOLOIGSvCRWwfrfzx5ARV7f1
+    username: Silviadominicanbeat
+artistsList:
+  - Silviadominicanbeat
+id: reRR3mn1KuO5Y7U0vAoJ
+price: 30 EUR
+link: https://megano-tanzschule.de/anmelden-workshops/
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FreRR3mn1KuO5Y7U0vAoJ.png?generation=1667332131839090&alt=media
+telegram:
+  requestedAt: 1667332140216
+  messageUrl: https://t.me/WeDanceMunich/672
+  publishedAt: 1667332143384
+  messageId: 672
+  state: published
+instagram:
+  requestedAt: 1667332147667
+  messageUrl: https://instagram.com/p/Ckbj8o7p2P8
+  publishedAt: 1667332160205
+  messageId: Ckbj8o7p2P8
+  state: published
+viewsCount: 49

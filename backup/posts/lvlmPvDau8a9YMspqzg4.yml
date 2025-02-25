@@ -1,0 +1,175 @@
+endDate: 1718463600000
+sourceUrl: https://www.facebook.com/events/1104754620583522/
+createdAt: 1716904826979
+approved: true
+provider: ical
+providerId: FDwgzaLrddKSK3dKkP1k
+providerCreatedAt: 1716837698000
+importedAt: 1716904826979
+providerUpdatedAt: 1716837698000
+facebookId: "1104754620583522"
+facebook: https://www.facebook.com/events/1104754620583522/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1104754620583522/
+providerItemId: e1104754620583522@facebook.com
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+name: "Lady´s Dance Day "
+location: Kizztalk Dance Academy
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718452800000
+facebookUrlsCount: 1
+username: kizztalkdanceacademy
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Claudia-la-Danse-Tanz-Yoga/61552825300746/
+  name: Claudia la Danse - Tanz & Yoga
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707497659/sbwvxuv4hqjxih4oye2q.jpg
+  bio: ""
+  id: grpsZP3jwYt9xXG5Fhyo
+  instagram: ""
+  username: claudia.la.danse.-.tanz.yoga
+claimed: No
+link: ""
+description: >-
+  Unsere gemeinsame Vision ist es, unseren Content für mehr Selbstbewusstsein,
+  mehr Freude an euren Bewegungen und eurem Ausdruck als die, die du bist, als
+  auch für mehr Connection zu eurer Weiblichkeit zu geben, so dass wir gemeinsam
+  in unserer Schönheit erblühen 💐 ...
+
+  ABLAUF:
+
+  14:00 Begrüßung/Ankommen/Ritual 
+
+  14:15 Claudia: Balancetraining & Ladystyling UrbanKiz (mit und ohne Heels) 
+
+  💎Du erlernst Balanceübungen und eine kurze Choreografie 
+
+  15:00 Pause
+
+  15:15 Isabel: Dance with the Flow - Bachata Sensual Fluidity 
+
+  💎Du erlernst viele Flow-Bewegungen für deinen weiblichen Ausdruck beim Tanzen
+
+  16:00 Pause
+
+  16:15 Marta: Heelstraining (bring your Heels!)
+
+  💎Du erlernst, dich auf Heels selbstsicher, weiblich und mit Freude zu bewegen 
+
+  17:00 kurzer Abschluss/Streching mit Yin-Yoga 
+
+
+  ANMELDUNG unter www.kizztalk.de - Bezahlung vor Ort
+
+  1 einzelner WS (je 45 Min.) 15 €
+
+  Kombination aus WS 25 €
+
+  Kombination alle 3 WS 35 €
+
+
+  SPECIAL DEAL- am 14.7.24 kommt Sara Lopez nach München und wird einen "Feminity Day" geben, wenn ihr bei unserem Tag dabei wart bekommt ihr für das Feminity Event einen Discount von 
+
+  10 %- Preis und Ort wird noch bekannt gegeben!
+
+
+  Wir freuen uns auf euch,
+
+  Claudia - Isabel - Marta
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716904846/bzpo3cq0kb8zke0y4x47.jpg
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1718452800000+ChIJu6gvmqrZnUcRkM4JMStoThA
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlvlmPvDau8a9YMspqzg4.png?generation=1716904864479040&alt=media
+viewsCount: 1
+duration: 180
+venue:
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  website: https://www.kizztalk.de/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13483610605514083579
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizztalk Dance Academy
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5361075697085
+        lat: 48.1232715697085
+      northeast:
+        lng: 11.5388055302915
+        lat: 48.1259695302915
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  international_phone_number: +49 1515 7942042
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+  url: https://maps.google.com/?cid=1174991087505886864
+  username: kizztalkdanceacademy
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artistsList: []
+id: lvlmPvDau8a9YMspqzg4
+eventType: Workshop
+updatedAt: 1718208890274

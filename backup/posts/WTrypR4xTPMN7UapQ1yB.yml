@@ -1,0 +1,152 @@
+isNew: true
+facebookId: "1316574689725594"
+facebookUrlsList:
+  - https://www.facebook.com/events/1316574689725594/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731078042954
+updatedAt: 1731078042954
+importedAt: 1731078042954
+providerId: qS2Z6rULei8yIZj5aCmK
+providerItemId: e1316574689725594@facebook.com
+name: Vienna Salsa Christmas Weekend
+providerCreatedAt: 1730915062000
+providerUpdatedAt: 1731074698000
+startDate: 1732912200000
+endDate: 1733086800000
+facebook: https://www.facebook.com/events/1316574689725594/
+sourceUrl: https://www.facebook.com/events/1316574689725594/
+location: Innere Stadt
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: Innere Stadt
+      short_name: Innere Stadt
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Vienna
+      short_name: Vienna
+      types:
+        - locality
+        - political
+    - long_name: Vienna
+      short_name: Vienna
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Vienna
+      short_name: Vienna
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Austria
+      short_name: AT
+      types:
+        - country
+        - political
+    - long_name: "1010"
+      short_name: "1010"
+      types:
+        - postal_code
+  formatted_address: Innere Stadt, 1010 Vienna, Austria
+  geometry:
+    location:
+      lat: 48.2102634
+      lng: 16.3705687
+    viewport:
+      northeast:
+        lat: 48.21849426012844
+        lng: 16.38489560724499
+      southwest:
+        lat: 48.19952675166869
+        lng: 16.35519348937991
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Innere Stadt
+  place_id: ChIJOe-7qAcHbUcRm17S3Qhm7cg
+  url: https://maps.google.com/?q=Innere+Stadt,+1010+Vienna,+Austria&ftid=0x476d0707a8bbef39:0xc8ed6608ddd25e9b
+  website: http://www.wien.gv.at/bezirke/innerestadt/
+visibility: Public
+org:
+  createdAt: 1731078058807
+  importedAt: 1731078058807
+  updatedAt: 1731078058807
+  source: facebook
+  name: Lisa Vogler
+  facebook: https://www.facebook.com/pfbid0pfTMeyCMaVEmRv5RUVXHb7kfgxagBFnjXtXPirJhcWvdAbLEUFzeQPurJrJm77X4l
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1731078059/mrlhtwy7b0iyxx0cy0ay.jpg
+  username: lisa.vogler
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+claimed: No
+link: ""
+description: >-
+  Vienna Salsa Christmas Weekend 🎄💃
+
+
+  Experience the magic of a Viennese Christmas as we dance, learn, and celebrate together! Join us for a festive weekend full of salsa, bachata, and holiday cheer in the heart of Vienna.🎅✨
+
+
+  🎅 Friday | 9.30 PM – 2 AM
+
+  Mambo Club at Café Afro
+
+  Kick off with a lively salsa party to start the weekend right! 🎶💥
+
+
+  🎄 Saturday at Atelier Sol
+
+
+  🕛 12 PM – 3 PM Workshops with Lisa & Samuel
+
+  🎶 3 PM – 7 PM Daytime Social
+
+  Let's dance and hang out in a fun, relaxed and cozy atmosphere! 👯‍♂️✨
+
+
+  🎁 Sunday at Palais Eschenbach
+
+
+  🎓 5 PM – 6 PM Workshop
+
+  🎶 6 PM – 10 PM The Sunday Jam (Salsa & Bachata Party)
+
+  Close out the weekend with an unforgettable Christmas party with DJ Lindo and DJ Samuel!🎊💃🕺
+
+
+  ❗️Ticket sale is starting soon ❗️
+
+  We can’t wait to celebrate with you in festive Vienna! 🎄🎶
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731078060/ozao5kuuyxkcojavqoby.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1732912200000+ChIJOe-7qAcHbUcRm17S3Qhm7cg
+id: WTrypR4xTPMN7UapQ1yB

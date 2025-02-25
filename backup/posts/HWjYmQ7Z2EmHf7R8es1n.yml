@@ -1,0 +1,129 @@
+venue:
+  formatted_address: Unnamed Rd, 93073 Neutraubling, Germany
+  website: http://cantina-bar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Neutraubling
+      short_name: Neutraubling
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Regensburg
+      short_name: R
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberpfalz
+      short_name: Oberpfalz
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "93073"
+      short_name: "93073"
+  url: https://maps.google.com/?cid=17937483790681625023
+  name: Cantina Bar
+  geometry:
+    viewport:
+      south: 48.9746510197085
+      north: 48.9773489802915
+      east: 12.2190261802915
+      west: 12.2163282197085
+    location:
+      lng: 12.2177152
+      lat: 48.9760023
+  place_id: ChIJD75IbjbDn0cRv9Hng3i-7vg
+  international_phone_number: +49 171 2760555
+endDate:
+  _seconds: 1628971200
+  _nanoseconds: 0
+link: https://fb.me/e/1FR4onsKz
+description: '"El Papacho DJ" aus Perú diesmal in Regensburg in der besten Lage
+  am See und mit den besten Latino-Rhythmen!!!...'
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxVFXq4lPYzPhITIbk4BMDIoxR5J3%2F6703636f-533a-4474-ba37-ce45f6334c5c?alt=media&token=33a80849-fcc9-4023-8e0f-c9139e463b6c
+duration: "300"
+createdAt: 1628491514710
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHWjYmQ7Z2EmHf7R8es1n.png?generation=1628507831050281&alt=media
+commentsLast: ~
+place: ""
+id: HWjYmQ7Z2EmHf7R8es1n
+views: 1
+updatedAt: 1628491514710
+updatedBy: xVFXq4lPYzPhITIbk4BMDIoxR5J3
+address: Cantina Bar, Unnamed Rd, 93073 Neutraubling
+visibility: Public
+eventType: Party
+organiser: ElPapachoDJ
+form: Yes
+createdBy: xVFXq4lPYzPhITIbk4BMDIoxR5J3
+commentsCount: 0
+name: Cantina @Live Season am See
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  ChaChaCha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bolero:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  FunkCarioca:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Dembow:
+    level: Interested
+    highlighted: false
+    selected: true
+  Perreo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-14T15:00:00.000Z
+username: ElPapachoDJ
+viewsCount: 5

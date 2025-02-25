@@ -1,0 +1,165 @@
+endDate: 1709942400000
+sourceUrl: https://www.facebook.com/events/318043991270983
+createdAt: 1709765512999
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1709547203000
+updatedAt: 1709765512999
+importedAt: 1709765512999
+providerUpdatedAt: 1709547203000
+facebookId: "318043991270983"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/318043991270983
+eventType: Party
+providerItemId: 10008522-1709856000-1709942399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Broadway Dance Center Táncstúdió, Kerepesi út 26., Budapest, 1146, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1709856000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Kerepesi út 26-I. emelet, 1146 Hungary
+  website: https://broadway-dance-center-budapest.business.site/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Broadway Dance Center Táncstúdió Budapest
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.1076625697085
+        lat: 47.49906566970851
+      northeast:
+        lng: 19.1103605302915
+        lat: 47.50176363029151
+    location:
+      lng: 19.1089688
+      lat: 47.50054060000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: I. emelet
+      long_name: I. emelet
+    - types:
+        - street_number
+      short_name: "26"
+      long_name: "26"
+    - types:
+        - route
+      short_name: Kerepesi út
+      long_name: Kerepesi út
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 20 571 9050
+  place_id: ChIJG0XgPpjcQUcRpVRbrJDeZvw
+  url: https://maps.google.com/?cid=18187468858130650277
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709765528754
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Party-Paradiso/100094765094306/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765529/dhpkjsw2v8oi2vqjz2kd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709765528754
+  owned: false
+  name: Party Paradiso
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1709765528754
+  username: PartyParadiso
+claimed: No
+facebook: https://www.facebook.com/events/318043991270983/
+link: ""
+description: >-
+  Újfent kéttermes partyval várunk Titeket, ha már olyan sokan szeretitek ezt
+  két táncot! 💃🕺😉 A salsa teremben DJ Victor, bachata fronton DJ Dawe játsza
+  a legtáncolhatóbb zenéket! 🎶🤩 Szuper hang- fény- és légtechnika teszi még
+  kellemesebbé az estéd! 👌 Hölgyeim! 😍 Ti pedig nőnapi extráink miatt annyit
+  táncoltok az általatok választott partnerekkel, a kedvenc zenéitekre, amennyit
+  csak akartok + meglepetés a beléptetéskor!! Urak! Ez az az este, amikor
+  feldobott Hölgyek fokozzák mégtovább a Paradiso-hangulatot! 😉 Szeretettel
+  várunk Minden Táncost és Táncos Barátaidat!
+
+
+  🎶🎶🎶ZENEI LINE-UP: két közönségre kiválóan rezonáló DJ játsza a legtáncolhatóbb minőségi zenéket
+
+  SALSA - DJ VICTOR: fő irányként popular cuban, igény szerint fűszerezve autentikus és vonalas dalokkal
+
+  BACHATA - DJ DAWE: változatos tempójú aktuális bachata slágerek, urbana, sensual és fusion
+
+
+  NŐNAPI EXTRÁK:
+
+  👉 Hogy már az indulása is jó legyen az estének:
+
+  -> a beléptetésnél minden Nőt meglepetés vár
+
+  👉 Hogy annyit táncolj kedvenc táncpartnereiddel, amennyi jól esik:
+
+  -> minden páros órában 60 perc Hölgyválasz, azaz 20h-tól, 22h-től és 24h-től ne fogd vissza Magad :)
+
+  👉 Hogy kedvenc zenéidre bulizhass az este során:
+
+  -> küldd el kedvenc zenéidet a Party Paradiso oldalnak és az este során lejátszuk
+
+
+  🥂🥂🥂ITALPULT, baráti árakkal vár most is, ajánjuk a Paradiso-koktélt
+
+
+  🛒🛒🛒BELÉPŐ: 3000 Ft, benne a ruhatár is, fizetni jelenleg készpénzzel tudtok!
+
+
+  📸📸📸MÉDIA: Az eseményen kép és videó felvétel készülhet, ami a közösségi oldalakra kerül feltöltésre (Facebook, youtube). Az eseményen való részvétellel a fentieket az ott jelenlevő személyek elfogadják. Így szuper képekkel idézheted fel az est legnagyszerűbb pillanatait!
+
+
+  👫👫👫Megosztásra és ismerőseid meghívásra ezúton buzdítunk, legyetek részesei egy egészen emelkedett és egyben közvetlen hangulatú Party-sorozatnak, Táncos Barátaid bevonásától pedig éppen a Te bulid lesz még pezsgőbb!
+
+
+  🧡🧡🧡Szeretettel várunk Mindenkit!!!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709765530/rjvdpsiq9llxvirjndkh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 2 rooms SALSA & BACHATA PARTY Women's Day & Gifts @ Party Paradiso Event
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1709924400000+ChIJG0XgPpjcQUcRpVRbrJDeZvw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fvg5M3q5afcYCIk7Mgqrq.png?generation=1709765560342161&alt=media
+id: vg5M3q5afcYCIk7Mgqrq

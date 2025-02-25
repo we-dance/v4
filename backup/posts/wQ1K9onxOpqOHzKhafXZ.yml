@@ -1,0 +1,178 @@
+venue:
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  website: http://www.isarpost-eventlocation.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 24-26
+      short_name: 24-26
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=14604975425998091393
+  name: ISARPOST Eventlocation
+  geometry:
+    viewport:
+      south: 48.1337302197085
+      north: 48.1364281802915
+      east: 11.5665639302915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+  international_phone_number: +49 89 1499037894
+endDate: 2021-10-10T03:00:00.000Z
+claimed: No
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+link: https://bit.ly/3DyAaKR
+description: >-
+  In einer der schönsten Locations Münchens feiern wir die erste Ü30 Latino
+  Party der Stadt. 🎉 Es wird eine unvergessliche Nacht! ❤️
+
+  Wir bringen tolle Leute im richtigen Alter zusammen und bereiten unseren Gästen ein individuelles, persönliches Partyerlebnis. Paare, Gruppen und Singles feiern, tanzen, haben Spaß und flirten in einem exklusiven Ambiente. Dort treffen wir alte Bekannte und finden neue Freunde! 🫂 🍷 🎈
+
+
+  🎧 DJ JIMMIE & DJ YENNY SEGURA spielen die Latin-Hits der letzten 30 Jahre. Endlich wieder so feiern, wie ihr es von früher gewohnt seid: OHNE MASKE & OHNE ABSTAND!
+
+
+
+  FACTS:
+
+  Wann: Samstag 09.10. 2021 ab 22:00 Uhr
+
+  Wo: MUFFATCAFÉ – Zellstr. 4
+
+  Einlass: Ab 28 Jahren – wer 27 Jahre alt ist muss jedoch sicherlich nicht wieder nach Hause gehen...
+
+
+  Weitere Details bezüglich VVK, Reservierungen und Eintritt folgen!
+
+
+  Wir freuen uns riesig darauf, euch wieder zu sehen 😍 und mit euch in einer legendären Nacht zu feiern, flirten und zu tanzen. 🥂
+
+
+
+  ❤️💃🏽 🕺🏽❤️💃🏽 🕺🏽❤️💃🏽 🕺🏽❤️💃🏽 🕺🏽❤️
+
+
+
+  ❌ Gewinne 3 x 2 Gästelistenplätze für dich und deine Begleitung! Einfach bei dieser Veranstaltung hier zusagen und deine Wunschbegleitung als Kommentar in der Veranstaltung markieren. 
+
+
+
+  #BACKTOLIVE #MUENCHENTANZTWIEDER
+
+
+
+  📸 Für Bilder, Videos & zukünftige Einladungen
+
+  ● LATINSCENE MUNICH bei Instagram adden
+
+  @latinscene.munich
+
+  LINK 👉🏽 https://www.instagram.com/latinscene.munich/
+
+  ● unserer Gruppe beitreten
+
+  LINK 👉🏽https://www.facebook.com/groups/latinscene.munich/
+
+  ● und LATIN SCENE MUNICH liken
+
+  LINK 👉🏽 www.facebook.com/latinscene.munich/
+
+
+  INFOS:
+
+  Wir müssen uns an die gültigen 3G Regeln halten: 
+
+  - Bitte den Ausweis unaufgefordert vorzeigen. Es herrscht für jeden 100% Ausweispflicht.
+
+  - Bitte 3G Nachweis bereithalten – möglichst digitales Impfzertifikat, digitales Genesungszertifikat oder gültigen PCR-Test.
+
+  - Online-Check-In - Bitte checkt euch online für euren Besuch bei uns ein.
+type: event
+cover: ""
+duration: custom
+createdAt: 1633363042143
+watchersCount: 0
+price: 15EUR
+commentsLast: ~
+id: wQ1K9onxOpqOHzKhafXZ
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+views: 30
+updatedAt: 1633363042143
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/u30-latino-party/338331484715733/
+eventType: Party
+organiser: Vitali
+form: Yes
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Ü30 Latino Party@Isarpost
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-22T19:30:00.000Z
+username: Vitali
+viewsCount: 53

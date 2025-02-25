@@ -1,0 +1,134 @@
+endDate: 1728777599000
+sourceUrl: https://www.facebook.com/events/8661018297244553/
+createdAt: 1728136836154
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1727861485000
+updatedAt: 1728136836154
+importedAt: 1728136836154
+providerUpdatedAt: 1727861485000
+facebookId: "8661018297244553"
+facebook: https://www.facebook.com/events/8661018297244553/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/8661018297244553/
+eventType: Party
+providerItemId: 48376-1728691200-1728777599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Kátai Söröző, Széchenyi István út 81., Taksony, 2335, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728691200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Ráckeve, Kossuth Lajos u. 115, 2300 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Kata söröző
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.9416215697085
+        lat: 47.17154076970849
+      northeast:
+        lng: 18.9443195302915
+        lat: 47.17423873029149
+    location:
+      lng: 18.942928
+      lat: 47.17287439999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "115"
+      long_name: "115"
+    - types:
+        - route
+      short_name: Kossuth Lajos u.
+      long_name: Kossuth Lajos utca
+    - types:
+        - locality
+        - political
+      short_name: Ráckeve
+      long_name: Ráckeve
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2300"
+      long_name: "2300"
+  place_id: ChIJMVl3kBP3QUcRVM3yJ0B99t0
+  url: https://maps.google.com/?cid=15994108841154497876
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsarevolutionbudapest
+  name: Salsa Revolution Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710684387/ja9kxvuohnii3jgbcm0q.jpg
+  bio: ""
+  id: pROhCAj7qQYWJGq5I98R
+  instagram: ""
+  username: salsa.revolution.bud
+claimed: No
+link: ""
+description: >
+  
+
+  Salsa & Bachata Oktoberfest Party
+
+
+  🎉 Dátum: 2024. október 12(szombat)
+
+
+  🕖 Időpont: 19:00
+
+
+  📍 Helyszín: Taksony, Kátai Söröző, Széchenyi István út 81.
+
+  Csatlakozz hozzánk egy fergeteges Salsa és Bachata partira. Az este témája az Oktoberfest, így készülj fel egy igazán különleges bulira, ahol a latin ritmusok találkoznak a sörfesztivál hangulatával. 🎶🍻
+
+  Program:
+
+  19.00 tól workshop óra 
+
+  Közös táncok és animációk
+
+  Jelmezverseny és egyéb játékok 
+
+  Finom italok és harapnivalók
+
+  Ne hagyd ki ezt az egyedülálló eseményt! Hozd el barátaidat is, és töltsünk együtt egy felejthetetlen estét!
+
+  Belépő: 2000 Ft
+
+  Várunk szeretettel 
+
+  Salsa Revolution csapata 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728136850/sizazifk6jq4wdffwgd4.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Salsa & Bachata party, Oktoberfest módra :) "
+online: No
+place: ChIJz0-lr6P3QUcR0zI_yTnHMSM
+international: No
+hash: 1728752400000+ChIJMVl3kBP3QUcRVM3yJ0B99t0
+id: OFtw0C6PTmruPxTwXWte

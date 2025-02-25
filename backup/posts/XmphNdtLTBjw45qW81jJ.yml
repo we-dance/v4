@@ -1,0 +1,236 @@
+venue:
+  website: http://www.isarpost-eventlocation.de/
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  name: ISARPOST Eventlocation
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5665639302915
+      south: 48.1337302197085
+      north: 48.1364281802915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 24-26
+      long_name: 24-26
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+  url: https://maps.google.com/?cid=14604975425998091393
+  international_phone_number: +49 89 1499037894
+endDate: 2022-11-06T04:00
+claimed: No
+link: https://bit.ly/3TNwhtq
+description: Ab 22 Uhr findet die "Reggaetonaso Festival 2022" After-Show-Party
+  mit tollen Shows, Animationen und einem live Auftritt von Jorge Amado 🎤
+  statt.
+program:
+  - endDate: 2022-11-05T04:00
+    name: Doors open
+    eventType: Party
+    startDate: 2022-11-05T22:00
+  - endDate: 2022-11-05T23:45
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/SantanaDanceClub
+        name: SantanaDance
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+        bio: |
+          SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+        id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+        instagram: https://instagram.com/santana_dance
+        username: SantanaDance
+    name: Reggaetonaso Festival After-Show
+    eventType: Show
+    startDate: 2022-11-05T23:15
+  - artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: Jorge Amado Perez Machado
+        photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Famado.art.official.png?generation=1655385406881655&alt=media
+        bio: Licenciado en Arte Danzario•Primer Nivel Dancístico
+          profesional•Especialista
+          Folclórico,Investigador,Profesor,Coreógrafo•Premio Nacional Ramiro
+          Guerra
+        instagram: https://instagram.com/amado.art.official
+        id: 81FVVCCsU3oyvfQwLrYS
+        username: amado.art.official
+    endDate: 2022-11-06T00:30
+    name: Concert
+    eventType: Concert
+    startDate: 2022-11-05T23:45
+  - endDate: 2022-11-06T04:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: 𝗬𝗘𝗡𝗡𝗬 𝗦𝗘𝗚𝗨𝗥𝗔
+        bio: |-
+          Reggaeton • Latin Urban DJ • Germany MUC🇩🇪🇵🇪
+          Resident @latinscene.munich @planet.reggaeton 
+          @munich.reggaeton 
+          Links:
+        photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj.yenny%2F.png?generation=1655307056208321&alt=media
+        id: RpvmbiD9NuFihAtOdA8V
+        instagram: https://instagram.com/dj.yenny/
+        username: dj.yenny
+    name: La Fiesta Latina
+    eventType: Party
+    startDate: 2022-11-06T00:30
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3d364fe1-0776-4864-b828-947d7f3c0a11?alt=media&token=738634b6-4bac-4bba-b600-22299a67fdec
+duration: 60
+promo: ""
+createdAt: 1667584141052
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Jorge Amado Perez Machado
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Famado.art.official.png?generation=1655385406881655&alt=media
+    bio: Licenciado en Arte Danzario•Primer Nivel Dancístico
+      profesional•Especialista
+      Folclórico,Investigador,Profesor,Coreógrafo•Premio Nacional Ramiro Guerra
+    id: 81FVVCCsU3oyvfQwLrYS
+    instagram: https://instagram.com/amado.art.official
+    username: amado.art.official
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 𝗬𝗘𝗡𝗡𝗬 𝗦𝗘𝗚𝗨𝗥𝗔
+    bio: |-
+      Reggaeton • Latin Urban DJ • Germany MUC🇩🇪🇵🇪
+      Resident @latinscene.munich @planet.reggaeton 
+      @munich.reggaeton 
+      Links:
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj.yenny%2F.png?generation=1655307056208321&alt=media
+    id: RpvmbiD9NuFihAtOdA8V
+    instagram: https://instagram.com/dj.yenny/
+    username: dj.yenny
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/SantanaDanceClub
+    name: SantanaDance
+    bio: |
+      SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+    id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+    instagram: https://instagram.com/santana_dance
+    username: SantanaDance
+price: 12 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - amado.art.official
+  - dj.yenny
+  - SantanaDance
+international: No
+updatedAt: 1667584141052
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/latinscene.munich
+  name: LATIN SCENE
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F73d142b3-58f8-456c-8cdf-c62583e9dfd8?alt=media&token=47b6050d-81f5-4946-9db3-7194d82f3320
+  bio: |-
+    Kulturveranstalter 📍MUNICH 🇩🇪 🌎
+
+    @planet.reggaeton @dj.yenny 💯
+
+    Join the Latin community
+  id: tmDC5QtoaTZPBYUEM1Ia
+  instagram: https://www.instagram.com/latinscene.munich/
+  username: latinscene.munich
+facebook: https://www.facebook.com/events/6137538456260436
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: La Fiesta Latina / Reggaetonaso After Party
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-11-05T22:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXmphNdtLTBjw45qW81jJ.png?generation=1667584171127215&alt=media
+telegram:
+  requestedAt: 1667584182015
+  messageUrl: https://t.me/WeDanceMunich/681
+  publishedAt: 1667584187055
+  messageId: 681
+  state: published
+instagram:
+  requestedAt: 1667584188240
+  messageUrl: https://instagram.com/p/CkjErw1prNL
+  publishedAt: 1667584203552
+  messageId: CkjErw1prNL
+  state: published
+viewsCount: 43
+id: XmphNdtLTBjw45qW81jJ

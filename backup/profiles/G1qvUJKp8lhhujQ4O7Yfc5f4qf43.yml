@@ -1,0 +1,48 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631390343695
+createdBy: G1qvUJKp8lhhujQ4O7Yfc5f4qf43
+name: Batollo
+username: Batollo
+pwaUsed: false
+gender: Male
+permission: No
+styles:
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Beginner
+    highlighted: false
+    selected: true
+contacts: ""
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+updatedAt: 1631390516688
+locales:
+  de: true
+  en: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG1qvUJKp8lhhujQ4O7Yfc5f4qf43%2F6eb9d91b-c827-43ca-8bcb-eafc9abc2916?alt=media&token=e1731a39-d764-4a0c-a098-4975f3aa2678
+objectives:
+  learn: true
+bio: I want to spend more time dancing. 💃🕺
+story: >-
+  Hello,
+
+  I am very motivated to learn to dance but I am missing a dance partner.💃🕺
+
+  If you are interested in Casino (Salsa Cubana), Cumbia or Bachata Dominican please send me a message🙏
+
+
+  Saludos Emanuel😁
+visibility: Members
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+step: photo
+lastLoginAt: 1635893851484
+daysUsed: 19
+id: G1qvUJKp8lhhujQ4O7Yfc5f4qf43

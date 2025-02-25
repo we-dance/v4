@@ -1,0 +1,27 @@
+createdAt: 1667850086963
+updatedBy: ~
+createdBy: ~
+name: Santa Cruz de Tenerife, Spain
+place: ChIJcUElzOzMQQwRLuV30nMUEUM
+type: City
+updatedAt: 1667850086963
+username: SantaCruzdeTenerife
+website: https://t.me/joinchat/T0vZb7qrA2MzOGRi
+twitter: ""
+partner: ""
+id: 3g6KALaL5mWb1cWncasD
+cityPlaceId: ChIJcUElzOzMQQwRLuV30nMUEUM
+location:
+  country: Spain
+  latitude: 28.4636296
+  locality: Santa Cruz de Tenerife
+  region: Canary Islands
+  place_id: ChIJcUElzOzMQQwRLuV30nMUEUM
+  longitude: -16.2518467
+watch:
+  count: 1
+  list:
+    bety: true
+  usernames:
+    - bety
+viewsCount: 266

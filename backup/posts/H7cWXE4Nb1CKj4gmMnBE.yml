@@ -1,0 +1,172 @@
+importedAt: 1707564116364
+providerUpdatedAt: 1704801456000
+endDate: 1710086400000
+facebookId: "898478228436720"
+facebook: https://www.facebook.com/events/898478228436720/
+createdAt: 1707564116364
+providerItemId: e898478228436720@facebook.com
+approved: false
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: anBgOWXJuGIEKeqfp7My
+name: Run The World Weekend
+location: Bel étage Saarbrücken
+providerCreatedAt: 1704801229000
+startDate: 1709978400000
+updatedAt: 1707564116364
+username: alexrazbakov
+venue:
+  formatted_address: Deutschmühlental, 66117 Saarbrücken, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Bel étage
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.960206669708497
+        lat: 49.22527101970851
+      northeast:
+        lng: 6.962904630291502
+        lat: 49.22796898029151
+    location:
+      lng: 6.961776
+      lat: 49.22655700000001
+  address_components:
+    - types:
+        - route
+      short_name: Deutschmühlental
+      long_name: Deutschmühlental
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Saarbrücken
+      long_name: Saarbrücken
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Regionalverband Saarbrücken
+      long_name: Regionalverband Saarbrücken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SL
+      long_name: Saarland
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "66117"
+      long_name: "66117"
+  international_phone_number: +49 681 58955900
+  place_id: ChIJMad3q-izlUcR7SVfbKrDO_4
+  url: https://maps.google.com/?cid=18319451045989656045
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707564134774
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Cubaila
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707564135/r9okauluorxta9wkjcrb.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707564134774
+  owned: false
+  name: Cubaila Salsa Tanzschule & Events
+  place: ChIJ68AC41KxlUcRgGvbENXUIgQ
+  updatedAt: 1707564134774
+  username: cubaila.salsa.tanzschule.events
+claimed: No
+link: https://forms.gle/6Yji1VGngPMbNb7Q7
+description: |+
+  Mädels, Les filles, Girls, 
+
+
+  🇩🇪"Cubaila" & Me Salsa sind froh euch eine Besonders Wochenende anzubieten🤩
+
+  🇨🇵"Cubaila" & Me Salsa " sont content de vous presenter un weekend special
+
+  🇬🇧"Cubaila" & "MeSalsa" are happy to offer you a very special weekend🤩
+
+  💃 Run The World weekend - II🕺
+
+  Wann? Quand? When? 
+
+  📅09/10 Mars
+
+
+  Wo? Ou? Where
+  📍Cubaila Tanzschule
+
+
+  Samstag/Samedi/Saturday  Social Party :
+
+   📍Bel Etage - Saarbrucken - Germany
+
+
+  3️⃣ Top Artists
+  🌟 Yusimi (Cuba/Wien)
+  🌟 Royma (Cuba /Paris)
+  🌟 Laura Del Vecchio (Italy/München)
+  🌟 Ania Seruga (Poland)
+
+
+  9 hours intensive workshops 🔥
+  1️⃣ Parties where 💃 🕺who will run the dancefloor? 🥳
+  2️⃣ DJs
+  💿 @DJYala
+  💿 @DJAssane
+
+  Full program of workshops and party will be released very 🔜
+
+  🔸First 10 Full passes for 60 euros?
+
+
+  🔹Info & Booking
+  1️⃣Fill in the form
+  2️⃣Use one of the following payment options
+
+  👉 Paypal: events@cubaila.de
+
+  👉 Bank transfer : 
+
+         IBAN:  DE64 5905 0101 0067 1592 44 ; BIC: SAKSDE55
+
+  👉 Cash (Cubaila students)
+
+
+  We Are The Party  💥
+  This is going to be 🔥💥
+
+program: []
+source: facebook
+eventType: Party
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707564138/tib0qnjdg3qdovixinoz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ68AC41KxlUcRgGvbENXUIgQ
+international: No
+hash: 1709978400000+ChIJMad3q-izlUcR7SVfbKrDO_4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FH7cWXE4Nb1CKj4gmMnBE.png?generation=1707564159780054&alt=media
+viewsCount: 24
+id: H7cWXE4Nb1CKj4gmMnBE

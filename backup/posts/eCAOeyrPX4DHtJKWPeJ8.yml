@@ -1,0 +1,113 @@
+venue:
+  formatted_address: Çınar, Üniversite Cd. 103/E, 35090 Bornova/İzmir, Türkiye
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Armadas
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 27.1820535802915
+      south: 38.44075091970851
+      north: 38.44344888029151
+      west: 27.1793556197085
+    location:
+      lng: 27.1807412
+      lat: 38.4420595
+  address_components:
+    - types:
+        - street_number
+      short_name: 103/E
+      long_name: 103/E
+    - types:
+        - route
+      short_name: Üniversite Cd.
+      long_name: Üniversite Caddesi
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: Çınar
+      long_name: Çınar
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Bornova
+      long_name: Bornova
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: İzmir
+      long_name: İzmir
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+    - types:
+        - postal_code
+      short_name: "35090"
+      long_name: "35090"
+  international_phone_number: +90 532 247 89 60
+  place_id: ChIJ_7AWa1tjuRQRFY539ay-igk
+  url: https://maps.google.com/?cid=687571543189327381
+claimed: No
+description: İzmir'de Eşsiz bir Kizomba Etkinliği
+program: []
+type: event
+duration: 60
+createdAt: 1689319879520
+artists:
+  - instagram: https://instagram.com/izzethinky
+    username: izzethinky
+  - instagram: https://instagram.com/omerklcgl
+    username: omerklcgl
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ MixMillion
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F71dcc01b-c6ad-48d8-a0b7-31e5959b7c6e?alt=media&token=4da4068e-a0e8-4d51-833c-bf932bc7c809
+    bio: |
+      Kizomba, HipHop, Funk, Mashups 🎧🎚️ Producer Munich
+    id: 0VsGo4WRHgY76IE3H90CDDAUdRx2
+    instagram: https://instagram.com/djmixmillion
+    username: djmixmillion
+price: ""
+place: ChIJzcpip2LYuxQR_uicpaG7jGI
+artistsList:
+  - izzethinky
+  - omerklcgl
+  - djmixmillion
+international: No
+updatedAt: 1689319879520
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/urfankiz
+  username: urfankiz
+eventType: Party
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    Bilal: true
+name: Kizmir Kizomba Weekend
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Bilal
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2Fe9066691-aa0f-4a05-98d8-f78a0d8131b2?alt=media&token=c710da84-b426-4c22-aa8c-fcb54f3bc52a
+id: eCAOeyrPX4DHtJKWPeJ8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FeCAOeyrPX4DHtJKWPeJ8.png?generation=1689329633599734&alt=media
+endDate: 2023-07-15T00:00
+startDate: 2023-07-14T08:00
+viewsCount: 47

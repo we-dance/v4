@@ -1,0 +1,170 @@
+endDate: 1719781200000
+sourceUrl: https://www.facebook.com/events/s/evzaro-heat-up-bachata-party-s/1713546355872827/
+createdAt: 1719410429612
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1719386293000
+updatedAt: 1719410429612
+importedAt: 1719410429612
+providerUpdatedAt: 1719386293000
+facebookId: "1713546355872827"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/s/evzaro-heat-up-bachata-party-s/1713546355872827/
+eventType: Party
+providerItemId: 10009080-1719770400-1719781200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Tango-Zug Stúdió, Telepes utca 51., Budapest, 1147, Magyarország
+startDate: 1719770400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Telepes u. 51, 1147 Hungary
+  website: https://www.tancteremzuglo.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tango-Zug Stúdió
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.1139103697085
+        lat: 47.52340731970851
+      northeast:
+        lng: 19.11660833029151
+        lat: 47.52610528029151
+    location:
+      lng: 19.1153875
+      lat: 47.52469180000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "51"
+      long_name: "51"
+    - types:
+        - route
+      short_name: Telepes u.
+      long_name: Telepes utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1147"
+      long_name: "1147"
+  international_phone_number: +36 30 966 3663
+  place_id: ChIJIXfHornbQUcR9IBcxmbnmTQ
+  url: https://maps.google.com/?cid=3790314990009614580
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719410446646
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/GaboryNiki
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719410447/niasma2grtclxyagc1xb.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719410446646
+  owned: false
+  name: Upskill Dance Academy - Gábor & Niki Bachata
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1719410446646
+  username: GaboryNiki
+claimed: No
+facebook: https://www.facebook.com/events/1713546355872827/
+link: ""
+description: >-
+  ★★★ Heat Up Bachata Party - Tánciskola független bachata buli ★★★
+
+
+  ★ Dátum: 2024. Június 30. vasárnap, 18:00 - 21:00
+
+
+  ★ Helyszín: Tango-Zug Stúdió – 1147 Budapest, Telepes utca 51.
+
+  (Telepes utca - Rákospatak utca sarkán)
+
+
+  ★ 100% Bachata.
+
+
+  Aktuális slágerekre számíthatsz + amit Te szeretnél.
+
+  Ha az eseménybe posztolod a kedvenc zenéidet, beletesszük a listába.
+
+
+  ★ Showtime!! 💃💃💃🕺
+
+  - Niki legújabb bachata fusion koreóját avatják a Lányok.
+
+  Két hónapja kezdték a közös munkát egy teljesen új koreográfiával. 
+
+  Ne hagyd ki, emlékezetes lesz! 😍💥
+
+
+  ★ Batyus buli lesz, így kérünk, hozz magadnak olyat, amit szívesen ennél-innál.
+
+
+  ★ Hozzájárulási díj: 1500 Ft
+
+
+  ★ Parkolás: a környező utcákban.
+
+
+  További infók hamarosan. 
+
+
+  Téged is várunk szeretettel!
+
+
+  Ha megosztanád másokkal is ezt az élményt, hívd meg őket is az eseményre!
+
+
+  ------------------------
+
+
+  Médiapartner: Latinfo.hu
+
+  A rendezvényen való részvételeddel automatikusan hozzájárulsz ahhoz, hogy kép- és hanganyag készülhet rólad, amit a rendezők marketing céllal felhasználhatnak.
+
+  Az eseményen mindenki saját felelősségére vesz részt.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719410447/vkruqck42owtm10afpnd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Évzáró Heat Up Bachata Party + Showtime! "
+online: No
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1719763200000+ChIJIXfHornbQUcR9IBcxmbnmTQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7pGUF2UhdFBQlpF0ySkk.png?generation=1719410458792373&alt=media
+id: 7pGUF2UhdFBQlpF0ySkk

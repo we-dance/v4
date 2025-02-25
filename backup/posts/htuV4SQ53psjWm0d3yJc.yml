@@ -1,0 +1,94 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/salsanor-rueda-congress/
+name: SalsaNor Rueda Congress 2025
+sourceUrl: https://facebook.com/events/1094626878974392
+venue:
+  address_components:
+    - long_name: Graz
+      short_name: Graz
+      types:
+        - locality
+        - political
+    - long_name: Graz
+      short_name: Graz
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Styria
+      short_name: Styria
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Austria
+      short_name: AT
+      types:
+        - country
+        - political
+  formatted_address: Graz, Austria
+  geometry:
+    location:
+      lat: 47.0678961
+      lng: 15.4417305
+    viewport:
+      northeast:
+        lat: 47.1345011167949
+        lng: 15.53419948443839
+      southwest:
+        lat: 47.01188683734127
+        lng: 15.34972595817819
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Graz
+  place_id: ChIJu2UwF4c1bkcRm93f0tGKjv4
+  url: https://maps.google.com/?q=Graz,+Austria&ftid=0x476e3587173065bb:0xfe8e8ad1d2dfdd9b
+  website: http://www.graz.at/
+endDate: ""
+claimed: No
+link: https://www.letsreg.com/no/register/SalsaNorRC2025
+description: >-
+  Welcome to next year´s SalsaNor Rueda Congress in Graz, Austria!
+
+
+  Remember to sign up for the SalsaNor membership to get priority sign-up for 2025! 
+
+
+  https://www.ruedacongress.com/2024/08/02/time-to-renew-the-salsanor-international-membership-and-get-priority-sign-up-2025/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/a3nv5sduokv6dv7pske0.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJu2UwF4c1bkcRm93f0tGKjv4
+international: No
+visibility: Public
+org:
+  id: ivkwMT0iCkhou4RfwOut
+  username: ruedacongress
+  name: Rueda Congress
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954128/bm4fyrbfbdyt4uhndcg7.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/ruedacongress
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1094626878974392/
+facebookId: "1094626878974392"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1756980000000+ChIJu2UwF4c1bkcRm93f0tGKjv4
+startDate: 1756980000000
+id: htuV4SQ53psjWm0d3yJc

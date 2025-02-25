@@ -1,0 +1,135 @@
+endDate: 1710180000000
+claimed: No
+description: >-
+  Open for all the Ladies who want to develop their Bodymovements,  Technik &
+  Style
+
+
+  All levels are welcome, we will work on a small choreo with different focusing
+
+
+  Grow with me
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fa417d581-05d1-4b98-8980-270e4375f7bf?alt=media&token=093362c9-9f3b-465d-a396-7efb8d1ae188
+createdAt: 1709983950100
+artists: []
+price: 12.50 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+eventType: Course
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+venueProfile:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaYCorazon
+  name: Salsa y Corazon
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709069616/ug77hycnudgubekvnwou.png
+  bio: ""
+  id: gJwiTAG1D8LXIpaedszZ
+  instagram: ""
+  username: SalsaYCorazon
+name: "Bachata LadyStyling "
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710176400000
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FvdUR6b7RMYvfQ3XeVHMs.png?generation=1709983965736259&alt=media
+viewsCount: 3
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  name: Salsa Y Corazon - dance school
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5593370802915
+      south: 48.1218745197085
+      north: 48.1245724802915
+      west: 11.5566391197085
+    location:
+      lng: 11.5578922
+      lat: 48.1231417
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Zenettistraße
+      long_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80337"
+      long_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  international_phone_number: +49 172 9659579
+  username: SalsaYCorazon
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Anna-Milite/pfbid0PNNhDFesL2MSZmD2niboREKvGQRzYv1dUgUkqiLbs5yd2aq2U47ozobSvYPmbt3Vl/
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+artistsList: []
+id: vdUR6b7RMYvfQ3XeVHMs
+hash: 1710176400000+ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+updatedAt: 1717148441713

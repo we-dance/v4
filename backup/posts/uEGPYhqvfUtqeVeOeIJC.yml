@@ -1,0 +1,153 @@
+sourceUrl: https://www.facebook.com/events/1694202514658633
+createdAt: 1719239035766
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+username: DjLole
+viewsCount: 1
+endDate: 1720294200000
+claimed: No
+description: |
+  
+  🇨🇿
+  Salsa a bachata párty na Náměstí Republiky ⭐️ 
+
+  🕕 Od 18:00 do 21:30
+  S Dj Lole 🎧
+
+  🎈 Vstup zdarma 🎈
+
+  📌 Oficiální akce Sabor Latino Praha:
+  https://www.facebook.com/events/358928797181022
+
+
+  ------------------------------------------
+
+  🇬🇧
+  Salsa and bachata party in Náměstí Republiky ⭐️ 
+
+  🕕 From 18:00 to 21:30
+  With Dj Lole 🎧
+
+  🎈 Free entrance 🎈
+
+  📌 Official Sabor Latino Praha event:
+  https://www.facebook.com/events/358928797181022
+
+
+  ------------------------------------------
+
+  🇪🇸
+  Fiesta de salsa y bachata en Náměstí Republiky ⭐️ 
+
+  🕕 De 18:00 a 21:30
+  Con Dj Lole 🎧
+
+  🎈 Entrada gratuita 🎈
+
+  📌 Evento oficial de Sabor Latino Praga:
+  https://www.facebook.com/events/358928797181022
+program: []
+source: facebook
+type: event
+artists: []
+place: ChIJO5iNIeadDUcRQIwVZg-vAAQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1694202514658633/
+facebookId: "1694202514658633"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa and Bachata party at Sabor Latino ⭐️
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1720281600000+ChIJ4_n0O1CVC0cRNIKCLMu4UsQ
+startDate: 1720281600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719239049/scvxhzdicvbkaabx6bzb.jpg
+duration: 210
+venue:
+  formatted_address: Nám. Republiky 1078/1, 110 00 Praha 1-Nové Město, Czechia
+  website: https://www.palladiumpraha.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: PALLADIUM
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4271470197085
+        lat: 50.0877256697085
+      northeast:
+        lng: 14.4298449802915
+        lat: 50.0904236302915
+    location:
+      lng: 14.4287604
+      lat: 50.0890204
+  address_components:
+    - types:
+        - street_number
+      short_name: 1078/1
+      long_name: 1078/1
+    - types:
+        - route
+      short_name: Nám. Republiky
+      long_name: Náměstí Republiky
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 110 00
+      long_name: 110 00
+  place_id: ChIJ4_n0O1CVC0cRNIKCLMu4UsQ
+  url: https://maps.google.com/?cid=14146572562288771636
+  international_phone_number: +420 225 770 250
+  username: www.palladiumpraha.cz
+price: 0 CZK
+link: https://www.facebook.com/events/1694202514658633
+artistsList: []
+id: uEGPYhqvfUtqeVeOeIJC
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuEGPYhqvfUtqeVeOeIJC.png?generation=1719239069307823&alt=media
+org:
+  youtube: ""
+  role: dj
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaInPrague
+  name: Dj Lole
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706212324/jagkm8hjqhtzgelsniyq.jpg
+  bio: ""
+  instagram: ""
+  id: jyRiItwVJKoB5FbdrXOH
+  username: dj.lole
+updatedAt: 1719239090168

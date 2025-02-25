@@ -1,0 +1,138 @@
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+type: event
+promo: ""
+duration: 60
+createdAt: 1642486829628
+organiser: ""
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+online: No
+promoter: AnnaMil
+promotedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1642486829628
+username: AnnaMil
+name: Bachata B1 & B2
+id: w8qdysCQXiMvGS8DDcTo
+venue:
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Geretsrieder Straße
+      short_name: Geretsrieder Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?q=Geretsrieder+Str.+6,+81379+M%C3%BCnchen,+Germany&ftid=0x479dd8d532131c0d:0xf463e52cbecb2077
+  name: Geretsrieder Str. 6
+  geometry:
+    viewport:
+      south: 48.0993283197085
+      north: 48.1020262802915
+      east: 11.5346033302915
+      west: 11.5319053697085
+    location:
+      lng: 11.533212
+      lat: 48.10057159999999
+  place_id: ChIJDRwTMtXYnUcRdyDLvizlY_Q
+confirmation: >-
+  Dear Guest,
+
+  after filling the Google Form, you are registered. If you have any questions, please write us.
+
+
+  Thank you
+
+
+  Bests Anna y Paolo
+price: 12,50 EUR
+description: >-
+  Levels:
+
+  B1 7.30 - 8.30 h
+
+  Here you learn the basic steps as well as figures and step-combinations.
+
+  The focus is on good dance posture as well as leadership and follow-up elements
+
+  ----------------------------••••••••••--------------------
+
+  B2 8.30 - 9.30 h
+
+  For students who want to start, have already attended beginner courses.
+
+  You will have significantly better control over your body movements and enjoy bachata in pairs.
+
+  ----------------------------••••••••••--------------------
+
+  Do you have any questions?
+
+  Text me on Messenger / per E-Mail an.milite@gmail.com or WhatsApp 004917683366552
+
+  see you there 🔥
+
+
+  Attention
+
+  This is a 2G+. You should be vaccinated / recovered + need a negative test to come in.
+eventType: Course
+claimed: Yes
+organisedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+link: https://docs.google.com/forms/d/1-EtXJM96peme6QfNrYdItekVpta1e9C6n1q4lhoI-PQ/edit
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+endDate:
+  _seconds: 1642620600
+  _nanoseconds: 0
+startDate: 2022-01-19T19:30
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fb2530606-65b0-4c82-8783-a98033b477f7?alt=media&token=0c701af1-05c6-4f58-8f0d-c1c3cf294250
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fw8qdysCQXiMvGS8DDcTo.png?generation=1642487514342823&alt=media
+viewsCount: 18

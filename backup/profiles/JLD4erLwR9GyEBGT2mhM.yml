@@ -1,0 +1,21 @@
+owner: ""
+visibility: Public
+owned: false
+facebook: https://www.facebook.com/people/La-Mambita/61552328349965/
+name: La Mambita
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+type: Organiser
+username: LaMambita
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+partner: ""
+reviews: []
+team: []
+id: JLD4erLwR9GyEBGT2mhM
+instagram: https://instagram.com/la.mambita_
+import: failed
+importError: POST /api/v1/accounts/login/ - 400 Bad Request; Please wait a few
+  minutes before you try again.
+source: facebook
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953990/hwstj7dajwh1szgz9kd6.jpg
+updatedAt: 1705953989380
+viewsCount: 10

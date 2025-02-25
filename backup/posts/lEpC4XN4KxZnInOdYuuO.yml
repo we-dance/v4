@@ -1,0 +1,106 @@
+venue:
+  website: http://www.saengerhalle-stuttgart.de/
+  formatted_address: Lindenschulstraße 29, 70327 Stuttgart, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "29"
+      short_name: "29"
+    - types:
+        - route
+      long_name: Lindenschulstraße
+      short_name: Lindenschulstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Untertürkheim
+      short_name: Untertürkheim
+    - types:
+        - locality
+        - political
+      long_name: Stuttgart
+      short_name: Stuttgart
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Stuttgart
+      short_name: Stuttgart
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Stuttgart
+      short_name: Süd
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Baden-Württemberg
+      short_name: BW
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "70327"
+      short_name: "70327"
+  url: https://maps.google.com/?cid=6725654103382385715
+  name: Sängerhalle Stuttgart-Untertürkheim
+  geometry:
+    viewport:
+      south: 48.7755596697085
+      north: 48.7782576302915
+      east: 9.2510040302915
+      west: 9.248306069708496
+    location:
+      lng: 9.249756099999999
+      lat: 48.7767633
+  international_phone_number: +49 1514 7557222
+  place_id: ChIJoXDXHYnFmUcRM2RB4sVSVl0
+endDate: 2021-09-11T01:00:00.000Z
+link: ""
+description: >-
+  20:00 - Open-Level Bachata Pre-Party Workshop mit Migo & Rebecca (MUC)
+
+  21:00 - Party mit der besten Bachata von DJ KHALID 
+
+
+  Bewährtes und durchdachtes Hygienekonzept unter Befolgung der aktuellsten Richtlinien (CoronaVO BW). Einlass nur unter Beachtung von 3G (Getestet, geimpft oder genesen).
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTv49tJF9gQbN5et4IAsF4Hlg8V63%2F1cb184d8-158c-48ee-92fd-f3ac50a0217c?alt=media&token=86d54539-02cc-47e6-94db-959bdcf0720e
+duration: custom
+promo: Yes
+createdAt: 1629805602825
+watchersCount: 0
+price: 15 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlEpC4XN4KxZnInOdYuuO.png?generation=1629805717124776&alt=media
+commentsLast: ~
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+id: lEpC4XN4KxZnInOdYuuO
+views: 2
+updatedAt: 1629805602825
+updatedBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+visibility: Public
+eventType: Party
+organiser: Flo.Oteca
+form: Yes
+createdBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+commentsCount: 0
+name: "*SOLD OUT* Dansecrecy Bachata "
+online: No
+styles: {}
+region:
+  name: Stuttgart
+  location:
+    country: Germany
+    latitude: 48.7758459
+    locality: Stuttgart
+    usedGps: false
+    place_id: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+    longitude: 9.1829321
+startDate: 2021-09-10T18:00:00.000Z
+username: Flo.Oteca
+viewsCount: 26

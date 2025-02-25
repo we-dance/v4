@@ -1,0 +1,135 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Studio Rebecca | Tanzstudio Rebecca
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365354302915
+      south: 48.1328692697085
+      north: 48.1355672302915
+      west: 11.5338374697085
+    location:
+      lng: 11.5350714
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  room: white
+  international_phone_number: +49 176 24414498
+  url: https://maps.google.com/?cid=14332716633642345223
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1673978095338
+artists: []
+price: 5 EUR (free for bootcamp attendees)
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1673978095338
+updatedBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: bailadictos
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F09029a3f-6cd2-43f2-a140-f6d7e8c0a7fe?alt=media&token=116f2239-df54-4307-9467-6c2c1f93da33
+  bio: |-
+    ⚜️ Brazilian Zouk | Bachata | Kizomba | Salsa
+    💃 @paulitavf 🇪🇸🇺🇸
+    🕺 @sebastian_birk 🇩🇪
+  instagram: https://instagram.com/bailadictos
+  id: 7pxK28kiJbcNMdckh8lu
+  username: bailadictos
+eventType: Party
+form: No
+createdBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+watch:
+  count: 1
+  list:
+    Paulita: true
+name: Open Brazilian Zouk Practice
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Paulita
+description: >-
+  We are happy to announce we have added a practice/party after our bootcamps on
+  Sunday 22nd. 
+
+  The practice is included for attendees of the bootcamps and only 5Euros for those who want to spend their Sunday with a little Zouk ☺️
+
+  Registration: none needed, just come!
+id: aboCIxwNPTkCKPlSLawy
+star:
+  count: 2
+  list:
+    Aina: true
+    sebastianbirk: true
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2F764b7bd8-c44e-432d-b42a-cea66cb31728?alt=media&token=9be6f276-c963-414a-89f1-e895c45135ed
+endDate: 2023-01-22T22:00
+startDate: 2023-01-22T20:30
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FaboCIxwNPTkCKPlSLawy.png?generation=1674402307414534&alt=media
+telegram:
+  requestedAt: 1674402314162
+  messageUrl: https://t.me/WeDanceMunich/811
+  publishedAt: 1674402315617
+  messageId: 811
+  state: published
+instagram:
+  requestedAt: 1674402318731
+  messageUrl: https://instagram.com/p/CnuROpGLcdj
+  publishedAt: 1674402331212
+  messageId: CnuROpGLcdj
+  state: published
+viewsCount: 51

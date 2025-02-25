@@ -1,0 +1,34 @@
+createdAt: 1666675721295
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Augsburg, Germany
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+type: City
+username: Augsburg
+updatedAt: 1666675721295
+cityPlaceId: ChIJKSshOsWinkcRoOeL161IHgQ
+location:
+  country: Germany
+  latitude: 48.3705449
+  locality: Augsburg
+  region: Bavaria
+  place_id: ChIJKSshOsWinkcRoOeL161IHgQ
+  longitude: 10.89779
+website: https://t.me/+TMhFwc9aZ9ghAf2p
+partner: ""
+id: Y20A3OTNTOGSSoAafDzD
+watch:
+  list:
+    Lyolya_urban:
+      kiz_: true
+  count: 2
+  usernames:
+    - Lyolya_urban.kiz_
+    - salsa-mouse
+  history:
+    - username: salsa-mouse
+      date: 1722174996408
+      invitedBy: ""
+      uid: mPL8SZJFGah62DA8l0YFIIBvDKX2
+      action: joined
+viewsCount: 284

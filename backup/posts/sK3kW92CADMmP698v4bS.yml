@@ -1,0 +1,199 @@
+venue:
+  formatted_address: Karolinská 8, 186 00 Praha 8-Karlín, Czechia
+  name: Karolinská 8
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4469662802915
+      south: 50.09330641970851
+      north: 50.09600438029151
+      west: 14.4442683197085
+    location:
+      lng: 14.4456173
+      lat: 50.0946554
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  url: https://maps.google.com/?q=Karolinsk%C3%A1+8,+186+00+Praha+8-Karl%C3%ADn,+Czechia&ftid=0x470b94bb740f39af:0x36215863ac898ce5
+  place_id: Ei5LYXJvbGluc2vDoSA4LCAxODYgMDAgUHJhaGEgOC1LYXJsw61uLCBDemVjaGlhIjASLgoUChIJrzkPdLuUC0cR3EqP68W4vlAQCCoUChIJrROdnbuUC0cRqf-yd_28j7w
+endDate: 2023-07-13T22:00
+claimed: No
+description: >+
+  (ENG bellow)
+
+  Salsa a bachata open air v River Rink Karlín ⭐️
+
+  📍 Každý čtvrtek 📍
+
+
+  Po úspěchu salsa a bachata party v River Rink během loňského léta jsme se rozhodli pokračovat i letos !
+
+  Takže čekáme, až přijdete a vychutnáte si hudbu k tanci a poznáte nové lidi na nádherném místě blízko řeky s výborným jídlem a pitím.
+
+
+  🕕 18:00-19:00: Hudba, drink a tanec 🎧💃🕺
+
+  🕖 19:00-20:00: Lekce kubánské salsy pro mírně pokročilé (rueda de casino) s Ksenií a Francescem ze Salsaholics.
+
+  🕗 20:00-22:00: Social dancing a animaci se Kseniou Chkalovou:
+
+  https://www.facebook.com/groups/salsa.praha.komunita/permalink/5006322769488320
+
+
+  Těšíme se na Vás! 💃🕺
+
+
+  Vstupné:
+
+  - Párty + lekce: 250 Kč-
+
+  - Jenom párty: 100 Kč-
+
+
+  👉 River City Karlín: Karolinská 8 - Prague 8
+
+
+
+  [ENG] --------------------------------------
+
+
+
+  Salsa and bachata open air at River Rink Karlín ⭐️
+
+  📍 Every Thursday 📍
+
+
+  After the success of the salsa and bachata parties at River Rink during the last summer we decided to continue this year !
+
+  So we are waiting for you to come on and enjoy the music to dance and meet new people in a wonderful place close to the river with delicious food and drinks.
+
+
+  🕕 18:00-19:00: Music, drink and dance 🎧💃🕺
+
+  🕖 19:00-20:00: Cuban salsa lesson for intermediates (rueda de casino) with Ksenia and Francesco from Salsaholics.
+
+  🕗 20:00-22:00: Social dancing and animation with Ksenia Chkalova:
+
+  https://www.facebook.com/groups/salsa.praha.komunita/permalink/5006322769488320
+
+
+  Looking forward to see you! 💃🕺
+
+
+  Entrance fee:
+
+  - Party + class: 250 CZK-
+
+  - Párty only: 100 Kč-
+
+
+  👉 River City Karlín: Karolinská 8 - Prague 8
+
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F5ab4ea83-96e6-40f4-be38-63bcd44bca2b?alt=media&token=ff05717d-b483-4332-817f-e6e9dd9a130a
+createdAt: 1689172210735
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ksenimotion
+    photo: ""
+    bio: ""
+    id: 08M8kYBROSIiYN6QqF9F
+    instagram: https://instagram.com/ksenimotion
+    username: ksenimotion
+price: 100 CZK / 250 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - ksenimotion
+international: No
+updatedAt: 1689172210735
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/DjLolePrague
+  name: Dj Lole
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  bio: ""
+  id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  instagram: https://instagram.com/dj.lole
+  username: DjLole
+upVotes: 0
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Salsa and bachata at River Rink Karlín
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-07-13T18:00
+username: DjLole
+facebook: https://www.facebook.com/events/562877529095825/593061939410717
+link: https://www.facebook.com/events/562877529095825/593061939410717
+id: sK3kW92CADMmP698v4bS
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsK3kW92CADMmP698v4bS.png?generation=1689172467113748&alt=media
+telegram:
+  requestedAt: 1689172309502
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/325
+  publishedAt: 1689172472014
+  messageId: 325
+  state: published
+viewsCount: 39

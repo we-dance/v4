@@ -1,0 +1,134 @@
+endDate: 1735862400000
+sourceUrl: https://www.facebook.com/share/FD3ag19DAprxNFA7/?mibextid=9l3rBW
+createdAt: 1725976844836
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1725901365000
+updatedAt: 1725976844836
+importedAt: 1725976844836
+providerUpdatedAt: 1725901365000
+facebookId: FD3ag19DAprxNFA7
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/share/FD3ag19DAprxNFA7/?mibextid=9l3rBW
+  - https://www.facebook.com/share/FD3ag19DAprxNFA7
+eventType: Festival
+providerItemId: 729qsln95sqntuskv68nnkehn8@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Erfurt, 99 Erfurt, Németország
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1735344000000
+facebookUrlsCount: 2
+username: alexrazbakov
+venue:
+  formatted_address: 99 Erfurt, Germany
+  website: http://www.erfurt.de/ef/en/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Erfurt
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.85540093286367
+        lat: 50.89078534609003
+      northeast:
+        lng: 11.17527007181602
+        lat: 51.07989554199057
+    location:
+      lng: 11.0298799
+      lat: 50.98476789999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: EF
+      long_name: Erfurt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Erfurt
+      long_name: Kreisfreie Stadt Erfurt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: TH
+      long_name: Thuringia
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code_prefix
+        - postal_code
+      short_name: "99"
+      long_name: "99"
+  place_id: ChIJcdZYg4VypEcRADYzdMGOIAQ
+  url: https://maps.google.com/?q=99+Erfurt,+Germany&ftid=0x47a472858358d671:0x4208ec174333600
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1725976852854
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Essential-Rhythm-Zouk-Festival/100083342950642/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1725976853/xauzr5fdql2x0jodscop.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1725976852854
+  owned: false
+  name: Essential Rhythm Zouk Festival
+  place: ChIJcdZYg4VypEcRADYzdMGOIAQ
+  updatedAt: 1725976852854
+  username: essential.rhythm.zou
+claimed: No
+facebook: https://www.facebook.com/events/1515846332359719/
+link: ""
+description: >-
+  We are proud and happy to present our teacher team 🤩❤️
+
+
+  Will & Myriam 🇧🇷🇫🇷 
+
+  Deniz & Mayara 🇧🇷🇩🇪
+
+  Kassio & Ania 🇧🇷🇵🇱🇩🇪 
+
+  Marcello & Meli 🇧🇷🇩🇪
+
+  Bruno Prado 🇧🇷🇩🇪
+
+  Alessandro & Anecia 🇳🇱🇩🇪
+
+  - one surprise couple - 
+
+
+  Ticket sale will start 01.08. ✨✨✨
+
+
+  All Tickets come with a water flatrate for the whole festival, social activities,  and lots of surprises ✨ 
+
+
+  We can‘t wait to welcome the new year together with You in Erfurt 🇩🇪 ♥️ for the third time already 😍
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725976854/shmgh91ppyqjbolwatln.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Essential Rhythm Zouk Festival 24/25
+online: No
+place: ChIJcdZYg4VypEcRADYzdMGOIAQ
+international: No
+hash: 1735398000000+ChIJcdZYg4VypEcRADYzdMGOIAQ
+viewsCount: 1
+id: fZOZFAs8PhWlQE0Hk3sg

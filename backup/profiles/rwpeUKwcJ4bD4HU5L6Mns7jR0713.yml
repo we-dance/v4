@@ -1,0 +1,48 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1639060539915
+createdBy: rwpeUKwcJ4bD4HU5L6Mns7jR0713
+name: Hanna
+place: ChIJ5S-raZElv0cR8HcqSvxgJwQ
+username: Hanna
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  pl: true
+gender: Female
+partner: No
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FrwpeUKwcJ4bD4HU5L6Mns7jR0713%2F213bf011-e208-485a-82a6-98715d4bfe3b?alt=media&token=eab99593-079a-406b-8337-ac99da8e07e6
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+instagram: ""
+contacts: Yes
+updatedAt: 1639060900122
+lastLoginAt: 1647896979054
+daysUsed: 3
+styles:
+  ForroLove:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+id: rwpeUKwcJ4bD4HU5L6Mns7jR0713

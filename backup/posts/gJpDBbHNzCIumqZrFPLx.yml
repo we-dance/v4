@@ -1,0 +1,145 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/hanmer-salsa-fest/
+name: Hanmer Salsa Fest 2025
+sourceUrl: https://facebook.com/events/1217737832886813
+venue:
+  address_components:
+    - long_name: "49"
+      short_name: "49"
+      types:
+        - street_number
+    - long_name: Amuri Avenue
+      short_name: Amuri Ave
+      types:
+        - route
+    - long_name: Hanmer Springs
+      short_name: Hanmer Springs
+      types:
+        - locality
+        - political
+    - long_name: Canterbury
+      short_name: Canterbury
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: New Zealand
+      short_name: NZ
+      types:
+        - country
+        - political
+    - long_name: "7334"
+      short_name: "7334"
+      types:
+        - postal_code
+  formatted_address: 49 Amuri Avenue, Hanmer Springs 7334, New Zealand
+  geometry:
+    location:
+      lat: -42.5219636
+      lng: 172.8302486
+    viewport:
+      northeast:
+        lat: -42.5205048697085
+        lng: 172.8314661302915
+      southwest:
+        lat: -42.5232028302915
+        lng: 172.8287681697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Hanmer Memorial Hall
+  place_id: ChIJNZxnFHhjMG0RRpF5mXYB-eA
+  url: https://maps.google.com/?cid=16210989942589460806
+endDate: 1755946800000
+claimed: No
+link: ""
+description: >-
+  
+  Hanmer Salsa Fest 2025 (30 Year Anniversary)
+
+  The 30th Annual Hanmer Hot Springs Alpine Salsa Winter Festival in New Zealand
+
+
+  Joining us once again is Jaime Jesus, a remarkable talent, as well as Mary from Australia, who brings her unique style and expertise. We have other teachers yet to be announced. But already promising to be another amazing event not to be missed. To catch a glimpse of their incredible skills, we invite you to visit our website, instagram & facebook, where you can find captivating videos. 
+
+
+  - x10 Workshops in Salsa & Bachata
+
+  - Friday & Saturday Parties
+
+
+  Special International Guest Teachers
+
+  - Jaime Jesus & Mary Grace (Sydney)
+
+  - More teachers to come
+
+
+  150 Full Passes in Total for 2025
+
+  - x50 Extra Early Bird Full Passes - Available Now
+
+  - x50 Early Bird 2 Full Passes  - Coming in 2025
+
+  - x50 Full Passes - Coming in 2025
+
+  - 2 Party Discount Passes - Coming in 2025
+
+
+  All Online Sales End in Aug 2025 but you can purchase individually parties & workshops at the door
+
+  .. please read details online >
+
+
+  www.hanmersalsa.com/shop
+
+
+  Find out more info & book now >
+
+  www.hanmersalsa.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/baurntl2rqn48pln82lz.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJR1lUb3ljMG0R8HN5hIbvAAU
+international: No
+visibility: Public
+org:
+  createdAt: 1732293946069
+  importedAt: 1732293946069
+  updatedAt: 1732293946069
+  source: facebook
+  name: Hanmer Salsa Winter Festival
+  facebook: https://www.facebook.com/hanmersalsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/aesa6bkd9ijbwxhqr8lb.jpg
+  username: hanmersalsa
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJR1lUb3ljMG0R8HN5hIbvAAU
+facebook: https://www.facebook.com/events/1217737832886813/
+facebookId: "1217737832886813"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1755831600000+ChIJNZxnFHhjMG0RRpF5mXYB-eA
+startDate: 1755831600000
+id: gJpDBbHNzCIumqZrFPLx

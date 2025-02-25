@@ -1,0 +1,152 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/albania-afro-latin-festival/
+name: ALBANIA AFRO LATIN FESTIVAL
+sourceUrl: https://facebook.com/events/978602950664588
+venue:
+  address_components:
+    - long_name: 8RC8+99P
+      short_name: 8RC8+99P
+      types:
+        - plus_code
+    - long_name: Rruga Vaso Pasha
+      short_name: Rruga Vaso Pasha
+      types:
+        - route
+    - long_name: Tiranë
+      short_name: Tiranë
+      types:
+        - locality
+        - political
+    - long_name: Tiranë
+      short_name: Tiranë
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Qarku i Tiranës
+      short_name: Qarku i Tiranës
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Albania
+      short_name: AL
+      types:
+        - country
+        - political
+  formatted_address: 8RC8+99P, Rruga Vaso Pasha, Tiranë, Albania
+  geometry:
+    location:
+      lat: 41.3209689
+      lng: 19.815948
+    viewport:
+      northeast:
+        lat: 41.3223165802915
+        lng: 19.8172885302915
+      southwest:
+        lat: 41.3196186197085
+        lng: 19.8145905697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  international_phone_number: +355 69 403 5428
+  name: The Bar Velvet
+  place_id: ChIJzXmDi2IxUBMRCbWSdYMi3ng
+  url: https://maps.google.com/?cid=8709436677389726985
+endDate: 1747108800000
+claimed: No
+link: https://www.dizizid.com/events-registration/index.html?officeId=192&eventId=1084
+description: |-
+  💃🏼🕺🏻 LINE UP🕺🏻💃🏼
+
+  BACHATA
+
+  ♠️ Melvin Gatica
+  ♥️ Cavalier Roger
+  ♠️ Simone & Daniela
+  ♥️ Abdel & Lety
+  ♠️Willy & Lauriane
+  ♥️ Zoran & Andjela
+  ♠️ Joan Hasanmema
+  ♥️ Samantha
+  ♠️ York & Lisa
+  ♥️ Khaled
+  ♠️ David Pedron
+  ♥️ Trevor Anthony
+  ♠️  Lupo
+
+
+  KIZOMBA
+
+  ♥️Jojo Jenny
+  ♠️ Albir
+  ♥️ Dwe Gaby
+  ♠️ El Ceprino
+  ♥️Justinho
+  ♠️ Pingusso 
+  ♥️ Mory
+  ♠️ Bartef
+  ♥️ Marianna
+  ♠️ Lucas
+  ♥️Snakes
+  ♠️ Stefanio Lima
+  ♥️ Xtra
+  ♠️No Step
+
+
+  SALSA
+
+  ♥️ Panagiotis & Myrto
+  ♠️ Dancefloor
+  ♥️ Jacopo Linda
+  ♠️ Rron & Afkej
+  ♥️ Yoyo Flow
+  ♠️Combinacion Perfecta
+  ♥️Patrick
+  ♠️ Dimitri
+  ♥️Oni Ndreko
+  ♠️ Dennis
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293943/snujdjg6vfrpqxmx0iuo.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ28X6cAQxUBMRIDdlEK-SAAQ
+international: No
+visibility: Public
+org:
+  id: 1uGDztMcU4lZA9dol84n
+  username: OfficialAlbaniaAfrolatin
+  name: Albania Afro Latin Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954217/ajmjwhlrakh4woeufev8.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/OfficialAlbaniaAfrolatin
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/978602950664588/
+facebookId: "978602950664588"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1746579600000+ChIJzXmDi2IxUBMRCbWSdYMi3ng
+startDate: 1746579600000
+id: Iiblg7K8szrjtaeWlRu8

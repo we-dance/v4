@@ -1,0 +1,132 @@
+isNew: true
+facebookId: "966655438830778"
+facebookUrlsList:
+  - https://www.facebook.com/events/966655438830778/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730473249177
+updatedAt: 1730473249177
+importedAt: 1730473249177
+providerId: jTN0EWu6B1fkGQvb7Ovx
+providerItemId: e966655438830778@facebook.com
+name: SALSA NAVIDAD in den Haas-Sälen Bamberg
+providerCreatedAt: 1729939784000
+providerUpdatedAt: 1729939784000
+startDate: 1733598000000
+endDate: 1733608800000
+facebook: https://www.facebook.com/events/966655438830778/
+sourceUrl: https://www.facebook.com/events/966655438830778/
+location: Haas Säle Bamberg
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: Tatjana
+createdBy: 65gXCoXpZyNImhiysN6NDjcnrBM2
+venue:
+  address_components:
+    - long_name: "7"
+      short_name: "7"
+      types:
+        - street_number
+    - long_name: Obere Sandstraße
+      short_name: Ob. Sandstraße
+      types:
+        - route
+    - long_name: Bamberg
+      short_name: BA
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt Bamberg
+      short_name: Kreisfreie Stadt Bamberg
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberfranken
+      short_name: Oberfranken
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "96049"
+      short_name: "96049"
+      types:
+        - postal_code
+  formatted_address: Ob. Sandstraße 7, 96049 Bamberg, Germany
+  geometry:
+    location:
+      lat: 49.8917709
+      lng: 10.8839777
+    viewport:
+      northeast:
+        lat: 49.8931405302915
+        lng: 10.8852572802915
+      southwest:
+        lat: 49.8904425697085
+        lng: 10.8825593197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 951 53304
+  name: Haas halls Bamberg
+  place_id: ChIJzZGSXBYjokcREsZv5rTKwEQ
+  url: https://maps.google.com/?cid=4954182468416554514
+  website: http://www.live-club.de/haas-saele
+visibility: Public
+org:
+  createdAt: 1730473263754
+  importedAt: 1730473263754
+  updatedAt: 1730473263754
+  source: facebook
+  name: Ollie Haas
+  facebook: https://www.facebook.com/pfbid0nDv2dCJXredeGQj2nW2xM4ph2Zj5NLeYMBB5NXzkt4sS31RA7XJEwKk5A2d1Ex6al
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1730473264/leu2p2br6znmpugtulvk.jpg
+  username: ollie.haas
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJtb7UOAUjokcRgNlh8Ci3HQQ
+claimed: No
+link: ""
+description: |-
+  Bambergs Legendäre Salsa-Night auf 2 Areas. 
+  19.30 Uhr Einlass
+  20.00 Uhr Salsa Schnupperkurs für Anfänger
+  20.45 Uhr Salsa Special Workshop Int./Adv.
+  21.30 Uhr Party mit DJ Antonio, DJ Walty, DJ Ollie
+  00.00 Uhr Showtime (Salsa with Passion Dance Crew)
+
+  Eintritt: Abendkasse
+  Parken: Geyerswörth Parkhaus
+
+  Weitere Infos: 
+  www.salsaservice.de / bamberg-salsa.de / live-club.de
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730473265/wloauikqxqvynziidngr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJtb7UOAUjokcRgNlh8Ci3HQQ
+international: No
+hash: 1733598000000+ChIJzZGSXBYjokcREsZv5rTKwEQ
+id: XYx0Lp4dQF1HkQrlC1tn

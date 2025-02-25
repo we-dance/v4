@@ -1,0 +1,143 @@
+endDate: 1740664800000
+sourceUrl: https://www.facebook.com/events/512765165052177/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1724165585000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1724198724000
+facebookId: "512765165052177"
+facebook: https://www.facebook.com/events/512765165052177/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/512765165052177/
+eventType: Festival
+providerItemId: e512765165052177@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Pre-Party of Perth Summer Sensual 2025
+location: The Bell Tower, Perth WA
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1740654000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Barrack Square, Riverside Dr, Perth WA 6000, Australia
+  website: https://www.thebelltower.com.au/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The Bell Tower
+  geometry:
+    viewport:
+      southwest:
+        lng: 115.8568601197085
+        lat: -31.96009713029149
+      northeast:
+        lng: 115.8595580802915
+        lat: -31.95739916970849
+    location:
+      lng: 115.8582526
+      lat: -31.95894569999999
+  address_components:
+    - types:
+        - route
+      short_name: Riverside Dr
+      long_name: Riverside Drive
+    - types:
+        - locality
+        - political
+      short_name: Perth
+      long_name: Perth
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Perth
+      long_name: City of Perth
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: WA
+      long_name: Western Australia
+    - types:
+        - country
+        - political
+      short_name: AU
+      long_name: Australia
+    - types:
+        - postal_code
+      short_name: "6000"
+      long_name: "6000"
+  international_phone_number: +61 8 6210 0444
+  place_id: ChIJo28cfCm7MioRToYv2-GHZ5Y
+  url: https://maps.google.com/?cid=10837780432405104206
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/perthsummersens
+  name: Perth Summer Sensual
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546473/tnqa3hdwhm0ij1egp1ki.jpg
+  bio: ""
+  id: t1f3xlF8sgvexFrTJ2vV
+  instagram: ""
+  username: perthsummersens
+claimed: No
+link: ""
+description: >-
+  Join the official Pre-Party of the Perth Summer Sensual 2025 festival at the
+  Bell Tower.
+
+
+  Enjoy a warm Perth summer night, dance at the rooftop and marvel in the beautiful evening views.
+
+
+  🕺🎉
+
+
+  SALSA - BACHATA - KIZOMBA
+
+
+  🔗 www.buytickets.at/perthsummersensual 
+
+  ___
+
+
+  📍 Bell Tower (dedicated SB and Kiz rooms)
+
+  🗓️ Date: 27 Feb 2025
+
+  🌟 7:00-8:00 Workshop by one of our international superstars 
+
+  🕺8:00- midnight party
+
+
+  Get your tickets early as space is limited and only a set number of tickets will be released!!!!!!! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417911/guhk1bsdycv1ro4wylmo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJPXNH22yWMioR0FXfNbXwBAM
+international: No
+hash: 1740654000000+ChIJo28cfCm7MioRToYv2-GHZ5Y
+viewsCount: 1
+id: IGUMVa9GrIH5jO2frB1M

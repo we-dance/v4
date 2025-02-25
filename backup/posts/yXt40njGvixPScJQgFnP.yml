@@ -1,0 +1,144 @@
+endDate: 1728842400000
+sourceUrl: https://www.facebook.com/events/775064053953055/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1707991933000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1707991933000
+facebookId: "775064053953055"
+facebook: https://www.facebook.com/events/775064053953055/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/775064053953055/
+eventType: Festival
+providerItemId: e775064053953055@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachata me mucho 2024
+location: Circulo
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728640800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Rosenheimer Str. 139, 81671 München, Germany
+  website: http://www.circulo.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: CIRCULO Tanzschule München
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.6007091197085
+        lat: 48.1229271697085
+      northeast:
+        lng: 11.6034070802915
+        lat: 48.1256251302915
+    location:
+      lng: 11.6024306
+      lat: 48.1242407
+  address_components:
+    - types:
+        - street_number
+      short_name: "139"
+      long_name: "139"
+    - types:
+        - route
+      short_name: Rosenheimer Str.
+      long_name: Rosenheimer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  international_phone_number: +49 89 494888
+  place_id: ChIJ30VdnYPfnUcRZlJCNX3nv5U
+  url: https://maps.google.com/?cid=10790597757153464934
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224683912
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachata.me.mucho
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/v9nxbp4gshmb8yburcur.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224683912
+  owned: false
+  name: Bachata me mucho
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  updatedAt: 1711224683912
+  username: bachata.me.mucho
+claimed: No
+link: https://bachata-me-mucho.de/de/tickets/
+description: >-
+  Bachata me mucho - Take the best!
+
+
+  Bachata dominicana - the original!
+
+  11.-23. Octobre 2024 "Bachata me mucho" - the Bachata Festival in Munich, Germany!
+
+  Workshops, parties and amazing shows!
+
+  Don´t miss it!!
+
+
+  All informations you will find on
+
+  www.bachata-me-mucho.de
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224685/hpgis0ethy0swvqh2jwe.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1728640800000+ChIJ30VdnYPfnUcRZlJCNX3nv5U
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyXt40njGvixPScJQgFnP.png?generation=1711224717391342&alt=media
+bookmarks: 2
+viewsCount: 8
+id: yXt40njGvixPScJQgFnP

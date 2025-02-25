@@ -1,0 +1,160 @@
+endDate: 1729461600000
+sourceUrl: https://www.facebook.com/events/299129003114748/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1704534131000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725944292000
+facebookId: "299129003114748"
+facebook: https://www.facebook.com/events/299129003114748/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/299129003114748/
+eventType: Party
+providerItemId: e299129003114748@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Le Weekender RKF
+location: STAND UP Fitness
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729245600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 1 Rue du Golf, 03200 Vichy, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Stand Up Paddle libre service
+  geometry:
+    viewport:
+      southwest:
+        lng: 3.414567719708498
+        lat: 46.1262903197085
+      northeast:
+        lng: 3.417265680291501
+        lat: 46.12898828029149
+    location:
+      lng: 3.4158982
+      lat: 46.127681
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Rue du Golf
+      long_name: Rue du Golf
+    - types:
+        - locality
+        - political
+      short_name: Vichy
+      long_name: Vichy
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Allier
+      long_name: Allier
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "03200"
+      long_name: "03200"
+  place_id: ChIJjVTKewDN9kcRmO5xM3j-3Fc
+  url: https://maps.google.com/?cid=6331214968388710040
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418000351
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Rkf-Reunion/pfbid065sSKsRnceopwVnAMcASd1U9M1x6K7yrbeZuY3sXwmdfs3YnenXdQzPqqAySvJjGl/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418000/dmgbkafwspujnbvnzyt9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418000351
+  owned: false
+  name: Rkf Reunion
+  place: ChIJ6XOZXxDN9kcRMLjry688CQQ
+  updatedAt: 1728418000351
+  username: RkfReunion
+claimed: No
+link: ""
+description: >-2
+                                                                     RÉUNION KIZOMBA FLAVOUR 🌋 
+  Du 18 au 20 octobre 2024 
+
+
+  L’ÎLE DE LA RÉUNION terre d’accueil, du sens de la fraternité, de joie de vivre, du savoir vivre et de SAVEUR incontournable, combinée avec un week-end KIZOMBA SALSA BACHATA donnent LE RÉNYON KIZOMBA FLAVOUR.🌋
+
+  Une édition qui s’annonce unique, avec une Line up d’artistes chauds et déterminés à vous faire passé un moment inoubliable. Il y en aura pour tous les goûts . 
+
+  3 SOIRÉE 
+
+  2 SALLE 
+
+  1 WEEK-END DE MALADE 
+
+
+  SOYEZ PRÊT POUR VIVRE L’EXPÉRIENCE RKF 
+
+  Restez connecté la révélation du Line Up arrive …🔥🔥🔥
+
+  Billetterie en ligne: https://my.weezevent.com/rkf-renyon-kizomba-flavour
+
+
+  REUNION ISLAND, a welcoming land, a sense of fraternity, unity and unmissable FLAVOR, combined with a KIZOMBA SALSA BACHATA weekend give THE RÉNYON KIZOMBA FLAVOR.🌋
+
+  An edition that promises to be incredible, with a line up of hot artists determined to make you have an unforgettable time. There will be something for everyone .
+
+  3 EVENING
+
+  2 ROOM
+
+  1 SICK WEEKEND
+
+
+  BE READY FOR THE RKF EXPERIENCE
+
+
+  stay connected, the line up reveal is coming🔥🔥🔥
+
+  https://my.weezevent.com/rkf-renyon-kizomba-flavour
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418001/vozndotknp3pof667qnn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6XOZXxDN9kcRMLjry688CQQ
+international: No
+hash: 1729245600000+ChIJjVTKewDN9kcRmO5xM3j-3Fc
+id: qj5kdELgqnMhp3dBnFUI

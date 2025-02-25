@@ -1,0 +1,155 @@
+endDate: 1730836800000
+sourceUrl: https://www.facebook.com/events/3310606762576018/?event_time_id=3310606809242680
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717352563000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728338672000
+facebookId: "3310606809242680"
+facebook: https://www.facebook.com/events/3310606762576018/?event_time_id=3310606809242680
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3310606762576018/?event_time_id=3310606809242680
+eventType: Workshop
+providerItemId: e3310606809242680@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Traditional Bachata Workshops 🇩🇴
+location: Lento Dance Vienna
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730826000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Traungasse 14, 1030 Wien, Austria
+  website: https://www.lentodance.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Lento Dance Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3766823197085
+        lat: 48.1971503697085
+      northeast:
+        lng: 16.3793802802915
+        lat: 48.19984833029149
+    location:
+      lng: 16.3779644
+      lat: 48.1985394
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Traungasse
+      long_name: Traungasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Landstraße
+      long_name: Landstraße
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1030"
+      long_name: "1030"
+  international_phone_number: +43 660 6283662
+  place_id: ChIJhYVFgUMHbUcRfAb8OSrkCeM
+  url: https://maps.google.com/?cid=16359857991412614780
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/lento.club
+  name: Lento Club Wien
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220943/hxewvvwhqwnew3arpzej.jpg
+  bio: ""
+  id: Xd7YaeXQULPE1lSuEoRL
+  instagram: ""
+  username: lento.club
+claimed: No
+link: ""
+description: >-
+  Bachata Dominicana Workshop 🇩🇴🔥
+
+  __
+
+  Event Agenda:
+
+  18:00-19:00 Beginner
+
+  19:00-20:00 Improver 
+
+  20:00-21:00 Imrpover 2
+
+  ___
+
+  Prices:
+
+  10€/ Workshop 
+
+  (6€/ Workshop with Student-ID)
+
+  ___
+
+  - Drop-by / No registration required or long term commitment approach!
+
+  - No partner required, we rotate dance partners!
+
+  ___
+
+  Gonna be 🔥, See you there!
+
+  ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+  Photo & Video Disclaimer: Lento Dance reserves the right to use any photograph/video taken at any event without the expressed written permission of those included within the photograph/video.
+
+  Attendees who do not wish to have their image recorded for distribution should make their wishes known to the photographer, and/or the event organizers, and/or contact info@lentodance.at.
+
+  Thank you for your understanding and cooperation!
+
+  ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417975/f7uectpj9u2adivzr8fn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1730826000000+ChIJhYVFgUMHbUcRfAb8OSrkCeM
+id: oFRlP9NALR4VaSs8dYqR

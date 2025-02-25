@@ -1,0 +1,141 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13375011970849
+      north: 48.13644808029149
+      east: 11.5813296302915
+      west: 11.5786316697085
+    location:
+      lng: 11.579996
+      lat: 48.1351625
+  international_phone_number: +49 172 8533891
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+endDate:
+  _seconds: 1645221600
+  _nanoseconds: 0
+claimed: No
+link: www.bachata-sensual.party.de
+description: >
+  *Bachata sports event #6* Dear community, 
+
+  the tickets sale for next week's Bachata sports event #6 is open. Due to the current regulations only a limited number of Tickets are available.
+
+
+  We will start the evening with another sensual partner-workshop by the amazing *Patricia & Anastasiia*. You don't need a partner to join the class.
+
+
+  _Bachata Sensual partner-workshop_:
+
+  *19:00 to 20:00*
+
+  Price (Inc. Sports night Ticket): *20 €*
+
+
+  _Dance Sport Event_: 
+
+  *20:00 to 23:00*
+
+  Price: *10 €*
+
+
+
+  COVID rule: 
+
+  *2G+* (_as the current law people with a booster vaccine will not need a Schnelltest. Everyone else must be vaccinated/recovered and have a negative Schnelltest_)
+type: event
+duration: "240"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2Ff0dc8ef9-2d70-4494-9988-51610b76d9f8?alt=media&token=ef22df45-4201-4666-ad3b-b37bef475b43
+promo: ""
+createdAt: 1644961109927
+artists: []
+price: 10-20 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1644961109927
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+org:
+  youtube: ""
+  facebook: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  bio: ""
+  instagram: djobi_bachata
+  tiktok: ""
+  name: Dj Obi
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  username: Djobi_bachata
+eventType: Party
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+name: Bachata Spots Night
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-18T19:00
+username: Vitali
+watch:
+  count: 1
+  list:
+    undefined: true
+viewsCount: 15
+star:
+  count: 0
+  list: {}
+id: doI9AtPP2lp44lumWkax

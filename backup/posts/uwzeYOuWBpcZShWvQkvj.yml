@@ -1,0 +1,167 @@
+endDate: 1723946400000
+sourceUrl: https://www.facebook.com/events/849102023708901/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1716907392000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1718301370000
+facebookId: "849102023708901"
+facebook: https://www.facebook.com/events/849102023708901/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/849102023708901/
+eventType: Party
+providerItemId: e849102023708901@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "FLASH Kizomba-Workshop mit Teresa Freitas + After Party auf 2
+  Floors.  White Party. "
+location: Kulturschloss Wandsbek
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723916400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Königsreihe 4, 22041 Hamburg, Germany
+  website: http://www.kulturschloss-wandsbek.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kulturschloss Wandsbek -Seminarräume & Feiern
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.0584213197085
+        lat: 53.5728675197085
+      northeast:
+        lng: 10.0611192802915
+        lat: 53.5755654802915
+    location:
+      lng: 10.0596153
+      lat: 53.5741192
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Königsreihe
+      long_name: Königsreihe
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Wandsbek
+      long_name: Wandsbek
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "22041"
+      long_name: "22041"
+  international_phone_number: +49 40 682854555657
+  place_id: ChIJ7_JatqyOsUcRrh6eC1P6YS0
+  url: https://maps.google.com/?cid=3270170039031832238
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546468376
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/kizombagalahamburg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546468/lxulrbwpixx5medb6avn.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546468376
+  owned: false
+  name: Kizomba Gala Hamburg
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1718546468376
+  username: kizombagalahamburg
+claimed: No
+link: ""
+description: >+
+  Liebe Tänzerin, liebe Tänzer, 
+
+  es ist soweit, mit großer Freude möchte ich Euch etwas Besonderes anbieten. Möchtet Ihr, liebe Tänzerinen, sowohl als Leader auch als Follower tanzen können, ohne auf die feminine Ausstrahlung zu verzichten? Und Ihr, liebe Tänzer, Eure Führung verfestigen und Euren Hüftschwung mit Banga verfeinern? Sei dabei, wenn das Original aus Angola, die einzigartige Meisterin 💃 Teresa Freitas, Euch am 17.08.2024 die Haltung und Attitüde von Ginga und Banga vorstellt. 💞
+
+
+  Im Anschluss an den Workshop folgt die FLASH Party. 🥳
+
+  Programm:
+
+  19:40 Uhr Anmeldung
+
+  20:00-22:00 Uhr Workshop 😍
+
+  20:00 - 21:00 Uhr Ginga & Banga 🔥🔥🔥
+
+  21:00 - 22:00 Uhr Tricks in Führungs- und Folgequalitäten ♀️♂️
+
+  22:00 - 04:00 Uhr Party auf 2 Floors. Kizomba Floor. Afro Beats Floor. 💃🎉🕺
+
+  Anmeldeschluß 15.08.24!!! 
+
+  Preis: 
+
+  Vorverkauf bis zum 31.07. 24
+
+  Paar-Fullpasse 80€
+
+  Einzel-Fullpasse 45€
+
+  Party 15€
+
+  Ab dem 01.Aug. - 15.Aug.24:
+
+  Paar-Vollpässe 85€
+
+  Einzel-Fullpass 50€
+
+  PayPal FREUNDE bernert_craig@hotmail.de, anderenfalls fallen Gebühren an! 
+
+  Wo:
+
+  Kulturschloss Wandsbek Königsreihe 4. 22041 Hamburg
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546469/xbaj0qtc9sk0ravdk4zk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1723916400000+ChIJ7_JatqyOsUcRrh6eC1P6YS0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuwzeYOuWBpcZShWvQkvj.png?generation=1718546502331882&alt=media
+viewsCount: 2
+id: uwzeYOuWBpcZShWvQkvj

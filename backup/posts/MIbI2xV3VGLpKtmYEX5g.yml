@@ -1,0 +1,165 @@
+venue:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  name: Maillingerstraße 6
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5472725802915
+      south: 48.1478431197085
+      north: 48.1505410802915
+      west: 11.5445746197085
+    location:
+      lng: 11.5458494
+      lat: 48.1492406
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  url: https://maps.google.com/?q=Maillingerstra%C3%9Fe+6,+80636+M%C3%BCnchen,+Germany&ftid=0x479e760f391635f1:0x7893e6b381a29647
+  place_id: ChIJ8TUWOQ92nkcRR5aigbPmk3g
+  username: maillingerstrae6
+endDate: 1717525800000
+claimed: No
+description: >-
+  Bachata Ladystyling class: where every step tells a story, every movement
+  paints a picture.
+
+
+  Feel the rhythm, embrace the elegance.
+
+
+  Let the music guide your hips and the passion flow through your fingertips. Don't miss it !
+program: []
+seriesId: OxR05jPlq0wpuKSpB814
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F30e3285d-8103-49b5-8696-a37d060b39ea?alt=media&token=de324a51-1716-4f72-9328-2c6033fc192b
+createdAt: 1711374414083
+artists: []
+price: 12,50 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Anna-Milite/pfbid0PNNhDFesL2MSZmD2niboREKvGQRzYv1dUgUkqiLbs5yd2aq2U47ozobSvYPmbt3Vl/
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+eventType: Course
+promotionError: ""
+recurrence:
+  untilDate:
+    _seconds: 1719352800
+    _nanoseconds: 0
+  freq: weekly
+  days: {}
+  dates:
+    - _seconds: 1717522200
+      _nanoseconds: 0
+    - _seconds: 1718127000
+      _nanoseconds: 0
+    - _seconds: 1718731800
+      _nanoseconds: 0
+    - _seconds: 1719336600
+      _nanoseconds: 0
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Bachata LadyStyling
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717522200000
+hash: 1717522200000+ChIJ8TUWOQ92nkcRR5aigbPmk3g
+username: AnnaMil
+promotion: ""
+star:
+  count: 0
+  list: {}
+telegram: {}
+upVotes: 0
+instagram: {}
+type: series
+downVotes: 0
+checkin:
+  count: 0
+  list: {}
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+socialCover: ""
+votes: 0
+id: MIbI2xV3VGLpKtmYEX5g
+children:
+  - endDate: 1717525800000
+    id: CeNRt5xy7ntIAE24TEv8
+    startDate: 1717522200000
+  - endDate: 1718130600000
+    id: YsI10zHknHQJMjnhZSMe
+    startDate: 1718127000000
+  - endDate: 1718735400000
+    id: qgXxwBgC2zS9dCOHG5a2
+    startDate: 1718731800000
+  - endDate: 1719340200000
+    id: ZF8DBx4D7xwdpng08Kb9
+    startDate: 1719336600000
+updatedAt: 1717503486793
+viewsCount: 1

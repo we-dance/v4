@@ -1,0 +1,159 @@
+createdAt: 1705925444476
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1705925444476
+username: Aina
+venue:
+  formatted_address: Wolfenbütteler Str. 31A, 38102 Braunschweig, Germany
+  website: http://www.salsa-del-alma.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa del alma Dance Academy
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.5302047197085
+        lat: 52.24848721970851
+      northeast:
+        lng: 10.5329026802915
+        lat: 52.25118518029151
+    location:
+      lng: 10.53128
+      lat: 52.24987999999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 31A
+      long_name: 31A
+    - types:
+        - route
+      short_name: Wolfenbütteler Str.
+      long_name: Wolfenbütteler Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Viewegs Garten-Bebelhof
+      long_name: Viewegs Garten-Bebelhof
+    - types:
+        - locality
+        - political
+      short_name: BS
+      long_name: Braunschweig
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Braunschweig
+      long_name: Kreisfreie Stadt Braunschweig
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "38102"
+      long_name: "38102"
+  international_phone_number: +49 531 28792549
+  place_id: ChIJt_X7YOb1r0cRhuT0nqnq13U
+  url: https://maps.google.com/?cid=8491513636667581574
+endDate: ""
+claimed: No
+link: ""
+description: >
+  Save the Date ❣️
+
+
+  Liebe Freunde und Tanzbegeisterte,
+
+
+  Wir freuen uns, euch zur ersten Party des Jahres einzuladen! Lasst uns gemeinsam das neue Jahr mit einer aufregenden und unvergesslichen Nacht voller Tanz, Musik und guter Laune begrüßen.
+
+
+  Datum: Samstag, 27. Januar 
+
+  Eintritt: 10€
+
+  Party ab 21:00 Uhr
+
+  Bachata Workshop (open Level) um 20:00 Uhr 💃🎉
+
+
+  Wir starten die Party bereits um 20 Uhr mit einem kostenlosen Bachata Workshop (open Level), geleitet von den talentierten Tänzern Ahmet und Anna. ❤️🕺💃 
+
+  Wenn ihr eure Tanzfähigkeiten verbessern oder einfach nur neue Leute kennenlernen möchtet, ist dies eure Chance! Sie werden euch die Grundlagen und fortgeschrittenen Schritte des Bachata näher bringen und euch somit auf einen wunderbaren Abend vorbereiten.
+
+
+  Auf der Party wird DJ Bayra für uns die perfekte Tanzmusik auflegen. Seid bereit für heiße Rhythmen und mitreißende Beats von Salsa, Bachata und Kizomba! Egal ob ihr Anfänger seid oder bereits erfahrene Tänzer, unsere Tanzfläche wartet auf euch. 🥳🎶
+
+
+  Jeder ist herzlich eingeladen! Schnappt euch eure Freunde und kommt in großer Zahl! Je mehr, desto besser! Vergesst nicht, gute Laune mitzubringen!
+
+
+  Wir freuen uns schon sehr darauf, mit euch zusammen eine unvergessliche Party zu erleben. Lasst uns das Jahr gebührend einläuten und gemeinsam die Nacht durchtanzen!
+
+
+  Für weitere Informationen schreibt uns gerne eine Nachricht oder ruft uns an. Wir freuen uns auf eure Rückmeldungen!
+
+
+  Lasst uns das Jahr mit einer unvergesslichen Party beginnen! ❤️🤗🥳
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJO2YAitX1r0cRsDqslG2sJQQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/6871547872921973/
+facebookId: "6871547872921973"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Ritmo del Alma in Braunschweig mit kostenlosem Bachata Workshop
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1706382000000+ChIJt_X7YOb1r0cRhuT0nqnq13U
+startDate: 1706382000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705925448/madvof65kbxzyvsom9mp.jpg
+org:
+  owner: ""
+  importedAt: 1705925447260
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsadelalmabraunschweig
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705925447/xzcr1tybtqtyakv70ycf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1705925447260
+  owned: false
+  name: Salsa del alma Dance Academy Braunschweig
+  place: ChIJO2YAitX1r0cRsDqslG2sJQQ
+  updatedAt: 1705925447260
+  username: salsa.del.alma.dance.academy.braunschweig
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F855g9FebQTp1awe2du6h.png?generation=1705925460341515&alt=media
+viewsCount: 6
+id: 855g9FebQTp1awe2du6h

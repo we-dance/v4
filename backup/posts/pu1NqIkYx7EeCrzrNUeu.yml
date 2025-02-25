@@ -1,0 +1,124 @@
+venue:
+  website: http://www.sonlatino.de/
+  formatted_address: Gablonzer Str. 9, 76185 Karlsruhe, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "9"
+      short_name: "9"
+    - types:
+        - route
+      long_name: Gablonzer Straße
+      short_name: Gablonzer Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mühlburg
+      short_name: Mühlburg
+    - types:
+        - locality
+        - political
+      long_name: Karlsruhe
+      short_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Karlsruhe
+      short_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Karlsruhe
+      short_name: KA
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Baden-Württemberg
+      short_name: BW
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "76185"
+      short_name: "76185"
+  url: https://maps.google.com/?cid=8926798613940117231
+  name: Son Latino Dance Studio
+  geometry:
+    viewport:
+      south: 49.02229426970851
+      north: 49.02499223029151
+      east: 8.354233980291502
+      west: 8.351536019708497
+    location:
+      lng: 8.352825700000002
+      lat: 49.0236634
+  international_phone_number: +49 721 6638886
+  place_id: ChIJ12tDlScHl0cR755ZDQtc4ns
+endDate:
+  _seconds: 1633192200
+  _nanoseconds: 0
+link: https://www.sonlatino.de/tanzschule/courses.php?Salsa=info&cID=5964&fbclid=IwAR3ySl9pXigpxI3fuvXQTGRf4dlqkj1BApHP8lOhEh8gQUI3NngAG6MZq_Y
+description: >-
+  Für alle Liebhaber der Afro-Kubanischen Kultur!
+
+  Son Latino lädt zu einem "Palo" Workshop mit Live-Musik bei Roberto Santamaria ein!
+
+  Im Workshop werdet ihr:
+
+  - lernen, was "Palo" ist und welcher Platz es im kubanischen Musik und Tanz hat.
+
+  - verstehen, wozu Salsa-Tänzer das Wissen über Palo benötigen.
+
+  - und natürlich Grundschritte und Körperbewegungen mit Live Musik ausarbeiten!
+
+
+  Der Workshop dauert 1,5 Stunden. Die Anmeldung kann einzeln erfolgen. Ein Tanzpartner ist nicht notwendig. Bitte bequeme Bekleidung und Schuhe anziehen.
+
+  Um einen Eindruck zu bekommen, sieht euch eine Videozusammenfassung unseres letzten Afro-Workshops mit Live-Musik (nicht Palo) an: https://youtu.be/WeVPnCe1T7U 
+
+
+  Für die Sicherheit aller Teilnehmer kommt bitte getestet. Geimpften und Genesenen brauchen mit dem entsprechenden Nachweis kein Test.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfPFOWINB1LNTCvLqLWxxgLuYhsX2%2F0624b03f-817c-412b-b401-6510b8207281?alt=media&token=c6c1b70f-2ca2-4417-a829-6f4afdbe9da5
+duration: "90"
+promo: Yes
+createdAt: 1632332253394
+watchersCount: 0
+price: ab 19€
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fpu1NqIkYx7EeCrzrNUeu.png?generation=1632332277558135&alt=media
+commentsLast: ~
+id: pu1NqIkYx7EeCrzrNUeu
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+updatedAt: 1632332253395
+updatedBy: fPFOWINB1LNTCvLqLWxxgLuYhsX2
+visibility: Public
+eventType: Workshop
+organiser: alyonadance
+form: Yes
+createdBy: fPFOWINB1LNTCvLqLWxxgLuYhsX2
+commentsCount: 0
+name: PALO - Afro-Workshop mit LIVE MUSIK
+online: No
+styles:
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Karlsruhe
+  location:
+    country: Germany
+    latitude: 49.0068901
+    locality: Karlsruhe
+    usedGps: false
+    place_id: ChIJCXjgokgGl0cRf-63THNV_LY
+    longitude: 8.4036527
+startDate: 2021-10-02T15:00:00.000Z
+username: alyonadance
+viewsCount: 3

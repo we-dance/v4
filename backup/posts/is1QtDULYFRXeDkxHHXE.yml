@@ -1,0 +1,121 @@
+venue:
+  website: https://www.vavruska.info/
+  formatted_address: Karlovo nám. 317/5, 120 00 Praha 2-Nové Město, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance School Vavruška
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4200140302915
+      south: 50.0729464197085
+      north: 50.0756443802915
+      west: 14.4173160697085
+    location:
+      lng: 14.4186171
+      lat: 50.0742662
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - premise
+      short_name: "317"
+      long_name: "317"
+    - types:
+        - route
+      short_name: Karlovo nám.
+      long_name: Karlovo náměstí
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 2
+      long_name: Praha 2
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 120 00
+      long_name: 120 00
+  url: https://maps.google.com/?cid=17433359908162761586
+  place_id: ChIJYfOQRvSUC0cRcvOTd3i87_E
+  international_phone_number: +420 732 888 899
+  username: www.vavruska.info
+endDate: 1733014800000
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 405
+createdAt: 1727960201459
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: 200 / 300 CZK
+socialCover: ""
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+star:
+  count: 0
+  list: {}
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1732990500000
+username: DjLole
+promotion: ""
+viewsCount: 1
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F4e6b1855-7991-408c-aa91-dfc2b48d1ef8?alt=media&token=defc7a81-30b8-44a6-acdb-074dcc2fb44e
+org:
+  role: dj
+  username: DjLole
+link: https://www.facebook.com/events/383388581295896
+name: UNITED Bachata Party (Vol.11)
+description: |-
+  11th UNITED 🌎 Bachata Parties!! Let's celebrate! 🥳
+
+  MORE INFO COMING SOON
+id: is1QtDULYFRXeDkxHHXE
+hash: 1732990500000+ChIJYfOQRvSUC0cRcvOTd3i87_E
+updatedAt: 1727960337053

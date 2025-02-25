@@ -1,0 +1,184 @@
+createdAt: 1705156573256
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1705156573256
+username: Aina
+viewsCount: 1
+venue:
+  formatted_address: Komturstraße 4, 28195 Bremen, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Komturstraße 4
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.809742469708498
+        lat: 53.07173991970851
+      northeast:
+        lng: 8.812440430291502
+        lat: 53.07443788029151
+    location:
+      lng: 8.811051299999999
+      lat: 53.0731049
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Komturstraße
+      long_name: Komturstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28195"
+      long_name: "28195"
+  place_id: ChIJxwqD2hoosUcRVs4aKF4oliY
+  url: https://maps.google.com/?q=Komturstra%C3%9Fe+4,+28195+Bremen,+Germany&ftid=0x47b1281ada830ac7:0x2696285e281ace56
+endDate: 1702245600000
+claimed: No
+link: ""
+description: >-
+  Lovely people,
+
+
+  the winter is here! But no problem, the Atoms are here too! ;-)  If you are interested in knowing closer the system of the Zouk Atoms, you should add December to your zouk calendar 
+
+
+  Learn with Olga & Fernando how to have more freedom on the dance floor and be ready to move in any direction! Your basics would never be the same!
+
+
+
+  === PROGRAMM ===
+
+
+  From Tuesday 5th to Sunday 10th of December you will have classes everyday from 13:00 to 18:00 in the center of Bremen. Prepare yourself for 30 hours of intensive zouk training! Every evening we will have socials starting at 21.00
+
+
+
+  ===LOCATION===
+
+  All the classes and socials will take place in our dance studio in the historic center of Bremen: Isla Zouk - Komturstr. 4
+
+
+
+  === PRICE ===
+
+  The full week with the training and the socials costs 240€ and we have only 20 spots, so Olga and I can spend enough time with you (what we would love to do! ).
+
+
+
+  === LEVEL & REGISTRATION ===
+
+  In order to apply for the week you should have an intermediate level of zouk. Intermediate level means for us, that you should be able to dance the basics with head movements (lateral, bumerangue, etc., with head movements). Here you have a sample, how a intermediate dance level looks like:
+
+  https://youtu.be/BukX8e50JJU
+
+
+
+  You can register filling this form:
+
+
+  https://forms.gle/L59S1bsKSZfqa51N8
+
+
+
+  If you perceive any problems with the registration form, please just send us an email to zoukatoms@gmail.com , you can register there as well.
+
+
+
+  Once we get your registration we will send you an email with the payment details.
+
+
+  More than 40 dancers have taken part in this program and the feedback was amazing! Don’t miss this new chance!
+
+
+  Big hug,
+
+
+  Olga & Fernando
+
+
+
+  ######
+
+
+
+  WHAT ARE THE ZOUK ATOMS?
+
+
+  The Zouk Atoms are a system to organize the footwork of Brazilian, allowing you to see the structure behind all the footwork possibilities and making you free to move in any direction and express yourself. Furthermore we show a way of dancing fluent head movements that makes you feel how smooth zouk can be.
+
+
+
+  You can see some examples and possibilities of the Zouk Atoms in this playlist on youtube:
+
+  https://youtube.com/playlist...
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/850049736050410/
+facebookId: "850049736050410"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Zouk Atoms Intensive Week - Level 1 - Winter Edition - 5th to 10th December
+online: No
+hash: 1701777600000+ChIJxwqD2hoosUcRVs4aKF4oliY
+startDate: 1701777600000
+cover: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/394753665_665454072375995_5217202517971518348_n.jpg?stp=dst-jpg_p180x540&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=hYby3PJ6j0oAX8l0Kv9&_nc_ht=scontent-iad3-1.xx&oh=00_AfA0Rf3gh7pHYqNW6SO0HWTlKxzrhy-giDhe2oq1F2TGYw&oe=65A7C99F
+org:
+  owner: ""
+  importedAt: 1705156574610
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ZoukAtoms
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/277580855_308130234775049_229633011379711471_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=104&ccb=1-7&_nc_sid=596444&_nc_ohc=SiNAgXXi3_YAX_DztWE&_nc_ht=scontent-iad3-1.xx&oh=00_AfBjZrpXFRynGvSfU7zKKZvlUv8xJ3v-xOOdShu48ia2wg&oe=65A6E753
+  source: facebook
+  type: Organiser
+  createdAt: 1705156574610
+  owned: false
+  name: Zouk Atoms
+  place: ChIJNePuDBAosUcRUd83-VyI6MI
+  updatedAt: 1705156574610
+  username: zouk.atoms
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fz4FsGzScN7tu6GNUF5ea.png?generation=1705156585373361&alt=media
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+id: z4FsGzScN7tu6GNUF5ea

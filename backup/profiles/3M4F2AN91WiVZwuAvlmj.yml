@@ -1,0 +1,50 @@
+createdAt: 1712054208644
+website: http://www.rovinj.hr/
+rooms: ""
+address:
+  formatted_address: Rovinj, Croatia
+  website: http://www.rovinj.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.73434351743165
+      south: 45.01590065493957
+      north: 45.13155585620012
+      west: 13.6065125747384
+    location:
+      lng: 13.6387067
+      lat: 45.0811661
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istria County
+      long_name: Istria County
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+gender: Other
+phone: ""
+name: Rovinj
+updateAt: 1712054208644
+type: Venue
+map: ""
+username: www.rovinj.hr
+viewsCount: 1
+id: 3M4F2AN91WiVZwuAvlmj

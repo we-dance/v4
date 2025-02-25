@@ -1,0 +1,47 @@
+endDate:
+  _seconds: 1628289000
+  _nanoseconds: 0
+type: event
+duration: "300"
+createdAt: 1627648409608
+watchersCount: 0
+price: Free
+commentsLast: ~
+id: WzAXNL3oUcD3kGb03Ggd
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 1
+updatedAt: 1627648409608
+updatedBy: EtJ6yKKLTAeXUZvCIGRrs6rQU9J2
+address: "Pinakothek der Moderne München "
+visibility: Public
+eventType: Party
+form: No
+createdBy: EtJ6yKKLTAeXUZvCIGRrs6rQU9J2
+commentsCount: 0
+name: Kiz an der Pina
+online: No
+styles:
+  UrbanTarraxa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-06T17:30:00.000Z
+username: Chris
+viewsCount: 26

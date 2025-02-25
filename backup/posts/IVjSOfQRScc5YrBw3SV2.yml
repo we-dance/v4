@@ -1,0 +1,218 @@
+endDate: 1728779400000
+sourceUrl: https://www.facebook.com/events/1044370767192171/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1724689129000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727867666000
+facebookId: "1044370767192171"
+facebook: https://www.facebook.com/events/1044370767192171/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1044370767192171/
+eventType: Party
+providerItemId: e1044370767192171@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Ritmos Latinos "
+location: Original Sokos Hotel Presidentti
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728756000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Eteläinen Rautatiekatu 4, 00100 Helsinki, Finland
+  website: https://www.sokoshotels.fi/fi/helsinki/sokos-hotel-presidentti
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Original Sokos Hotel Presidentti
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.9308542697085
+        lat: 60.16943196970849
+      northeast:
+        lng: 24.9335522302915
+        lat: 60.1721299302915
+    location:
+      lng: 24.9323809
+      lat: 60.1706895
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Eteläinen Rautatiekatu
+      long_name: Eteläinen Rautatiekatu
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00100"
+      long_name: "00100"
+  international_phone_number: +358 20 1234608
+  place_id: ChIJFyyobDMKkkYRUl0vgwMyFDU
+  url: https://maps.google.com/?cid=3824736974211603794
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418007637
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/CaribbeanParties
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418008/huvgi2myig4npqnq5bs5.png
+  source: facebook
+  type: Organiser
+  createdAt: 1728418007637
+  owned: false
+  name: Caribbean Latin Parties Helsinki
+  place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+  updatedAt: 1728418007637
+  username: CaribbeanParties
+claimed: No
+link: https://holvi.com/shop/6xb0b9/
+description: >-
+  
+
+  🎉 Announcing Ritmos Latinos in Helsinki! 🎉
+
+
+  🗓 Date: Saturday, 12th October 2024
+
+  🕘 Time:
+
+
+  Dance Class: 21:00 - 22:00 Severi & Sanna
+
+  Party: 22:00 - 3:30🎟 
+
+  Happy Hour: 22:00 - 23:00📍
+   Venue: Original Sokos Hotel Presidentti, Eteläinen Rautatiekatu 4, 00100 Helsinki
+
+  Get ready to dive into the vibrant rhythms of the Caribbean and Latin America at Ritmos Latinos—the ultimate Latin dance party in Helsinki! 🎶💃
+
+
+  Whether you're a seasoned dancer or just want to experience the energy of Latin music, we've got something for everyone:
+
+
+  🎧 Music Lineup:
+
+
+  Reggaeton
+
+  Latin Pop
+
+  Salsa
+
+  Bachata
+
+  Kizomba
+
+  Samba
+
+  Rumba
+
+  Cumbia
+
+  And much more! 🎵🔥
+
+
+  💥 Featured DJs:
+
+
+  DJ Tito Helsinki
+
+  DJ The Mexican
+
+  DJ Pies Locos Tampere
+
+  DJ Late
+
+  Live Performance by: Leonardo Roncol
+
+  Teachers: 
+   Severi & Sanna: Bachata Class o
+  open level
+
+
+  ✨ Live Performances: The amazing Las Cristalinas will set the stage on fire with their mesmerizing moves!
+
+
+  Krista - Päivi- Salla- Helene-Elina- Marianne-Anna-Nelli-Carolina-Viivi-Jenni
+
+
+  🕺💃 Bachata Workshop: Kickstart the night with a Bachata dance class from 21:00 - 22:00! Perfect for beginners and pros alike!
+
+
+  Don’t miss out on this electrifying night of dance, music, and culture! Invite your friends, dress up, and get ready to party until the early hours! 🌟
+
+
+
+  Admission:
+
+
+  - Entry fee of 10€ including the Dance class 
+
+
+  Don't miss this opportunity to immerse yourself in the vibrant culture and music of the Caribbean and Latin America. Join us for an unforgettable night of dancing, entertainment, and cultural exchange.
+
+
+  We look forward to seeing you there!🤗🥰
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418009/iv5kuwxs1lfeiw5eeig1.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+international: No
+hash: 1728756000000+ChIJFyyobDMKkkYRUl0vgwMyFDU
+id: IVjSOfQRScc5YrBw3SV2

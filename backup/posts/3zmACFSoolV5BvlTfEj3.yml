@@ -1,0 +1,117 @@
+venue:
+  formatted_address: Wilhelmstraße 115, 10963 Berlin, Germany
+  website: http://www.ahorn-club.de/
+  name: Ahorn-Club TSA im PSV Berlin e.V.
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3868586302915
+      south: 52.5029150197085
+      north: 52.5056129802915
+      west: 13.3841606697085
+    location:
+      lng: 13.3854277
+      lat: 52.5042493
+  address_components:
+    - types:
+        - street_number
+      short_name: "115"
+      long_name: "115"
+    - types:
+        - route
+      short_name: Wilhelmstraße
+      long_name: Wilhelmstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10963"
+      long_name: "10963"
+  international_phone_number: +49 173 7385029
+  url: https://maps.google.com/?cid=7114675207208259697
+  place_id: ChIJmRE2q_lWqEcRcVDt4WdnvGI
+endDate: 2023-07-23T06:00
+claimed: No
+link: https://www.tickettailor.com/events/bachataexplosionbyelenadennis?
+description: |
+  +10h of workshops +2h Pre-Party Workshop +2 Big Parties (Friday + Saturday)
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Frfl4tgIzGggnZDuHud1dHcOo49B3%2Fcd1f7d70-7575-4b4c-9d1a-e6dfbabc856b?alt=media&token=f66917d7-d98d-4ab6-a711-faf8e522daeb
+duration: 60
+createdAt: 1678321448346
+artists: []
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1678321448346
+updatedBy: rfl4tgIzGggnZDuHud1dHcOo49B3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100089956572510
+  name: Elena & Dennis
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Frfl4tgIzGggnZDuHud1dHcOo49B3%2F0460c3b6-1410-41f6-8797-ab8124317c2a?alt=media&token=b9cbbaa9-3a9b-4dfe-9375-d3465982915d
+  bio: ""
+  instagram: https://www.instagram.com/bachataexplosion_official/
+  id: rfl4tgIzGggnZDuHud1dHcOo49B3
+  username: BachataExplosion
+facebook: https://fb.me/e/2udjh48lF
+eventType: Festival
+confirmation: Thank you for the order you recently placed for tickets to the
+  event Bachata Explosion Berlin Summer Edition
+form: No
+createdBy: rfl4tgIzGggnZDuHud1dHcOo49B3
+watch:
+  count: 1
+  list:
+    BachataExplosion: true
+name: Bachata Explosion Summer Edition
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-21T00:00
+username: BachataExplosion
+price: 79 EUR
+id: 3zmACFSoolV5BvlTfEj3
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F3zmACFSoolV5BvlTfEj3.png?generation=1678378327546782&alt=media
+telegram:
+  requestedAt: 1678378331358
+  messageUrl: https://t.me/WeDanceBerlin/115
+  publishedAt: 1678378333690
+  messageId: 115
+  state: published
+star:
+  count: 1
+  list:
+    BachataExplosion: true
+viewsCount: 84

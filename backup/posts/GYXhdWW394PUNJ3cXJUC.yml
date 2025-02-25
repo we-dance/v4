@@ -1,0 +1,151 @@
+venue:
+  formatted_address: Gellertstraße 12, 76185 Karlsruhe, Germany
+  website: https://karlsruhe.tanz-loft.de/?utm_source=google&utm_medium=maps&utm_campaign=website
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dancing School Gutmann Karlsruhe
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.372962530291503
+      south: 49.0085405197085
+      north: 49.0112384802915
+      west: 8.3702645697085
+    location:
+      lng: 8.3716355
+      lat: 49.0099571
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Gellertstraße
+      long_name: Gellertstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Weststadt
+      long_name: Weststadt
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76185"
+      long_name: "76185"
+  place_id: ChIJrT0J5u8Gl0cRx7pLPKD5Dxw
+  url: https://maps.google.com/?cid=2022109224314321607
+  international_phone_number: +49 721 48073350
+endDate: 2022-12-03T02:00
+claimed: No
+type: event
+promo: Yes
+duration: 60
+createdAt: 1669273006428
+artists: []
+price: 10 EUR social, 15 EUR social +ws
+artistsList: []
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+updatedAt: 1669273006428
+updatedBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/itsstreetparty
+  name: streetparty
+  bio: "Helping people meet by organizing social events
+
+
+    \ "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2Febeae68f-0b9e-422b-a878-60240290cbc0?alt=media&token=ce999862-61c6-430b-8737-7c7a201b751a
+  instagram: https://instagram.com/itsstreetparty
+  id: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+  username: socialdance
+eventType: Other
+form: No
+watch:
+  count: 1
+  list:
+    socialdance: true
+createdBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-12-02T08:00
+username: socialdance
+name: "2 Floors: Bachata & Salsa"
+id: GYXhdWW394PUNJ3cXJUC
+description: |
+  ## Event Schedule  
+  - 7.50pm Admission
+  - 8.00pm Salsa workshop by Enes & Julia
+  - 9.00pm Salsa floor DJ Juan from Heidelberg 
+  - 9.20pm Bachata floor DJ AI
+
+  ## Entry fee
+  - 10 euro social
+  - 15 euro social and workshop
+
+  ## Student fee with valid ID
+  - 5 euro social
+  - 10 euro social and workshop
+
+  ## Address
+
+  Gellertstr. 12, Karlsruhe, Germany.
+
+  ## Parking 
+  Available parking direct outside
+program:
+  - endDate: 2022-12-02T20:00
+    name: Admission
+    eventType: Other
+    startDate: 2022-12-02T19:45
+  - endDate: 2022-12-02T21:00
+    name: Salsa workshop by Enes&Julia
+    description: ""
+    eventType: Workshop
+    startDate: 2022-12-02T20:00
+  - endDate: 2022-12-03T02:00
+    name: Salsa Floor DJ Juan
+    eventType: Other
+    startDate: 2022-12-02T21:00
+  - endDate: 2022-12-03T02:00
+    name: Bachata Floor DJ AI
+    eventType: Other
+    startDate: 2022-12-02T21:20
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2F4985c56d-0426-4433-9164-10ffd2987529?alt=media&token=14295f53-789a-432e-bd7b-78eb3032a31f
+viewsCount: 197

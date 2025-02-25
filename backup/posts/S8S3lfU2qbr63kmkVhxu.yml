@@ -1,0 +1,124 @@
+venue:
+  formatted_address: Robert Baum-Promenade 1, 5310 Mondsee, Austria
+  website: http://www.seecafe-mondsee.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "1"
+      short_name: "1"
+    - types:
+        - route
+      long_name: Robert Baum-Promenade
+      short_name: Robert Baum-Promenade
+    - types:
+        - locality
+        - political
+      long_name: Mondsee
+      short_name: Mondsee
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Vöcklabruck
+      short_name: Vöcklabruck
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Oberösterreich
+      short_name: Oberösterreich
+    - types:
+        - country
+        - political
+      long_name: Austria
+      short_name: AT
+    - types:
+        - postal_code
+      long_name: "5310"
+      short_name: "5310"
+  url: https://maps.google.com/?cid=3455879511446891564
+  name: Seecafe-Mondsee
+  geometry:
+    viewport:
+      south: 47.8495376697085
+      north: 47.8522356302915
+      east: 13.3521781302915
+      west: 13.3494801697085
+    location:
+      lng: 13.3514085
+      lat: 47.8506041
+  place_id: ChIJpx1kqaaldkcRLKxXChvA9S8
+  international_phone_number: +43 660 4434931
+endDate:
+  _seconds: 1631471400
+  _nanoseconds: 0
+link: https://facebook.com/events/s/salsa-sunset-cruise/353590949804000/
+description: |+
+  #SOLD OUT # AUSVERKAUFT
+
+  Let's Salsa... 💃🏻⛱️🕺
+  ... in den Sonnenuntergang am Mondsee 
+
+  🎁 Tanzen, Genießen und einfach die Seele baumeln lassen 🍀
+  🚢 Das Schiff "Mondseeland" ist exklusiv für uns reserviert ✨
+
+  Euch erwartet... 
+  🎶 Feine Musik mit DJ Thunder,
+  eigener Kizomba Floor mit DJ Toby MG. 🎵
+  🌅 einzigartiges Ambiente direkt am Mondsee 
+  💰 Ticket € 25,- keine Abendkasse 
+  ‼️ Anmeldung über WhatsApp oder Facebook bis 22.8.21 möglich
+  🍷🍴 Vorher/Nachher gut Essen & Trinken im Seecafe Mondsee 
+  (https://seecafe-mondsee.at/)
+  ⚓ Beim Seecafe ist auch die An- und Ablegestelle 
+  🅿️ Parken gratis in Mondsee
+  🎯 Abfahrt bei jedem Wetter um 16:30. Seid bitte on time!
+
+
+
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F53bFyMDEdaWXfRIuzPxuzDUvMew1%2Fd95f658c-917c-4ec8-b77f-a3e1ccdafd5c?alt=media&token=78fadee3-897e-4331-868b-cb2ddfdbd15a
+duration: "240"
+createdAt: 1630424631250
+watchersCount: 0
+price: 25 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FS8S3lfU2qbr63kmkVhxu.png?generation=1630425809306464&alt=media
+commentsLast: ~
+id: S8S3lfU2qbr63kmkVhxu
+place: ""
+views: 3
+updatedAt: 1630424631250
+updatedBy: 53bFyMDEdaWXfRIuzPxuzDUvMew1
+visibility: Public
+viewsCount: 3
+eventType: Party
+organiser: Toby_mg
+form: Yes
+createdBy: 53bFyMDEdaWXfRIuzPxuzDUvMew1
+commentsCount: 0
+name: "Salsa Sunset Cruise  #SOLD OUT # AUSVERKAUFT"
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-12T14:30:00.000Z
+username: Toby_m_g

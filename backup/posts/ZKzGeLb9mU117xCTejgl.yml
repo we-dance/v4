@@ -1,0 +1,129 @@
+venue:
+  website: http://www.salsabor.de/
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsabor Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5672969802915
+      south: 48.1506543197085
+      north: 48.1533522802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+  url: https://maps.google.com/?cid=13068910098957006739
+endDate: 2023-04-16T16:00
+claimed: No
+link: http://www.salsabor.de/kursanmeldung/
+description: In diesem Workshop lernst du die Grundlagen von Cha Cha Cha, im
+  freien Tanzen und Partnerwork. Voraussetzung sind Grundkenntnisse in Salsa.
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FFueU9csxangcCCZhMYhZzE0zeao2%2Fa8d1c947-af1c-4c6a-8a56-6c88de307265?alt=media&token=24cf7cfe-9f5a-4f3f-bc5c-c57deeffbbc1
+duration: 60
+createdAt: 1678660354516
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ThorstenW
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FFueU9csxangcCCZhMYhZzE0zeao2%2Fbc13c49d-0545-4349-93e4-635a06aa1c00?alt=media&token=4f8f48b8-cf7a-4d93-b3a5-57c0a8595ff0
+    bio: ""
+    instagram: https://www.instagram.com/th0r.stein/
+    id: FueU9csxangcCCZhMYhZzE0zeao2
+    username: ThorstenW
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/kraeuterhexe07
+    name: "Baerbel "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqOorLsCtFoXcWhx9FofUrqkeYV83%2F9c1906f0-95b9-4300-ab87-168c8842a6e5?alt=media&token=983f4fcb-5915-4c4a-83ac-ce0a02c95a9e
+    bio: ""
+    id: qOorLsCtFoXcWhx9FofUrqkeYV83
+    instagram: instagram.com/baerbel_kupferdacherl
+    username: Baerbel
+price: 45 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - ThorstenW
+  - Baerbel
+international: No
+updatedAt: 1678660354516
+updatedBy: FueU9csxangcCCZhMYhZzE0zeao2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaborMunich
+  name: Salsabor Dance Academy Munich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsalsabor.de.png?generation=1644170896601956&alt=media
+  bio: 💃🕺 Lerne Salsa und Bachata in Münchens ersten Salsa-Tanzschule seit 1988!
+  instagram: https://instagram.com/salsabor.de
+  id: VMPzE9gfxHm8lTYzn2yc
+  username: salsabor.de
+confirmation: >-
+  Lieber Teilnehmer, 
+
+  Wir freuen uns, dass du an unserem Workshop am 16.04. um 13 Uhr im Salsabor teilnehmen willst. Hierfür musst du dich noch unter http://www.salsabor.de/kursanmeldung/ anmelden.
+
+  Deine vorherige Anmeldung erlaubt es uns, den Workshop entsprechend auszugleichen. Deshalb ist zur Anmeldung auch kein Partner notwendig.
+eventType: Workshop
+form: No
+createdBy: FueU9csxangcCCZhMYhZzE0zeao2
+watch:
+  count: 1
+  list:
+    ThorstenW: true
+name: Cha Cha Cha Einsteiger Workshop
+online: No
+styles:
+  ChaChaCha:
+    level: Beginner
+    highlighted: false
+    selected: true
+startDate: 2023-04-16T13:00
+username: ThorstenW
+star:
+  count: 1
+  list:
+    ThorstenW: true
+viewsCount: 54
+id: ZKzGeLb9mU117xCTejgl

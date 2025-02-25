@@ -1,0 +1,83 @@
+venue:
+  formatted_address: Berlin, Germany
+  name: Berlin
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.76111748460941
+      south: 52.33823404386677
+      north: 52.67545420869131
+      west: 13.08834600183454
+    location:
+      lng: 13.404954
+      lat: 52.52000659999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+  url: https://maps.google.com/?q=Berlin,+Germany&ftid=0x47a84e373f035901:0x42120465b5e3b70
+claimed: No
+type: event
+promo: Yes
+duration: custom
+createdAt: 1653768768525
+artists: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: Yes
+updatedAt: 1653768768525
+updatedBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+visibility: Public
+org:
+  role: organiser
+  name: Erol & Martyna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F3ucRV7NCdPMWMf2mHXAutsuorhm2%2F40c5da0a-ace1-4230-89fa-caf5b96080bd?alt=media&token=ff2479fb-74b0-4e63-b593-9621a889e12c
+  username: eNm
+facebook: https://www.facebook.com/events/501934868235735
+eventType: Festival
+form: No
+watch:
+  count: 1
+  list:
+    eNm: true
+createdBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: eNm
+id: lNDIjKiJbvIVHjM7ET3V
+artistsList: []
+price: ""
+link: https://www.tickettailor.com/events/adicto/720195/
+name: "ADICTO: BBF23"
+description: https://www.tickettailor.com/events/adicto/720195/
+endDate: 2023-06-26T04:00
+startDate: 2023-06-23T20:00
+star:
+  count: 0
+  list: {}
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F3ucRV7NCdPMWMf2mHXAutsuorhm2%2F31936438-5338-4ec9-8ba7-6672e50d72b4?alt=media&token=2782c4d8-1ee5-4190-b06b-57d199dedd64
+program: []
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlNDIjKiJbvIVHjM7ET3V.png?generation=1681827558558695&alt=media
+viewsCount: 88

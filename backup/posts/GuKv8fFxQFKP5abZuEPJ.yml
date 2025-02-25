@@ -1,0 +1,121 @@
+endDate: 1717250400000
+sourceUrl: https://www.facebook.com/events/724027166607143/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712764046000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1713348551000
+facebookId: "724027166607143"
+facebook: https://www.facebook.com/events/724027166607143/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/724027166607143/
+eventType: Party
+providerItemId: e724027166607143@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Sabor Dominicano with Isolde (Dominican Republic/Sweden)
+location: Simmering,1110,AT
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717243200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 1110 Vienna, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: "1110"
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.39527424574568
+        lat: 48.13797792653023
+      northeast:
+        lng: 16.51377573520665
+        lat: 48.18728415208791
+    location:
+      lng: 16.4457987
+      lat: 48.1637569
+  address_components:
+    - types:
+        - postal_code
+      short_name: "1110"
+      long_name: "1110"
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Simmering
+      long_name: Simmering
+    - types:
+        - locality
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vienna
+      long_name: Vienna
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+  place_id: ChIJHXiAO2KqbUcRE6wRRyE4INM
+  url: https://maps.google.com/?q=1110&ftid=0x476daa623b80781d:0xd32038214711ac13
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444473938
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachataconsazon
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444474/geqveduvdlvn2ggzglfo.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444473938
+  owned: false
+  name: Bachata con sazon
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1715444473938
+  username: bachataconsazon
+claimed: No
+link: https://www.eventbrite.at/e/sabor-dominicano-with-isolde-dominican-republicsweden-tickets-880869122257?aff=efbevent
+description: >-
+  Dominican Bachata from the source!
+
+
+  Mark your calendars for 1 June 2024 - it will be hot �
+
+  Isolde is known for her improvising dance videos and bachata tutorials with Adam Taub, both which has inspired thousands around the world to learn the dance. She’s often referred and listed as the quintessential example of how bachata is danced, with a representation of it’s complex simplicity and praised for her natural and effortless dominican flow.
+
+
+  As a teacher she goes out of her way to bring the students the tools to develop a natural flow to their foundation, add flavor to their movements, get a deeper musical understanding and grow a stronger connection to their creative dancing. She’s looking forward to share her knowledge with you! Ya tu sabe, no te lo pierdas! Dominican Bachata straight from the source in the Dominican Republic!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444475/sy7pl0b3vybqtcf3xr3b.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1717243200000+ChIJHXiAO2KqbUcRE6wRRyE4INM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FGuKv8fFxQFKP5abZuEPJ.png?generation=1715444486780046&alt=media
+id: GuKv8fFxQFKP5abZuEPJ

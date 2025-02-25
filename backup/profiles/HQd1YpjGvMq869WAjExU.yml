@@ -1,0 +1,29 @@
+createdAt: 1720443410723
+updatedBy: ""
+cityPlaceId: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+createdBy: ""
+name: Stuttgart, Germany
+location:
+  country: Germany
+  latitude: 48.7758459
+  locality: Stuttgart
+  establishment: ""
+  region: Baden-Württemberg
+  place_id: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+  longitude: 9.1829321
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+type: City
+updatedAt: 1720443410723
+username: germany-stuttgart
+watch:
+  count: 1
+  usernames:
+    - salsa-mouse
+  history:
+    - username: salsa-mouse
+      date: 1722174985936
+      invitedBy: ""
+      uid: mPL8SZJFGah62DA8l0YFIIBvDKX2
+      action: joined
+viewsCount: 14
+id: HQd1YpjGvMq869WAjExU

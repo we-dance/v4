@@ -1,0 +1,123 @@
+isNew: true
+facebookId: "1251938452669013"
+facebookUrlsList:
+  - https://www.facebook.com/events/1251938452669013
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731337241432
+updatedAt: 1731337241432
+importedAt: 1731337241432
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48782-1732320000-1732406399@latinfo.hu
+providerCreatedAt: 1731315491000
+providerUpdatedAt: 1731315491000
+startDate: 1732320000000
+endDate: 1732406399000
+sourceUrl: https://www.facebook.com/events/1251938452669013
+location: Atlétikai Centrum, Bajcsy-Zsilinszky utca 2., Bonyhád, 7150, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: MÁV sporttelep
+      short_name: MÁV sporttelep
+      types:
+        - premise
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: Tiszavasvári út
+      short_name: Tiszavasvári út
+      types:
+        - route
+    - long_name: Nyíregyháza
+      short_name: Nyíregyháza
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "4400"
+      short_name: "4400"
+      types:
+        - postal_code
+  formatted_address: Nyíregyháza, MÁV sporttelep, Tiszavasvári út 4, 4400 Hungary
+  geometry:
+    location:
+      lat: 47.95657579999999
+      lng: 21.6953009
+    viewport:
+      northeast:
+        lat: 47.9577626802915
+        lng: 21.6965012302915
+      southwest:
+        lat: 47.9550647197085
+        lng: 21.69380326970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Nyíregyházi Atlétikai Centrum
+  place_id: ChIJBd8wKqifOEcRIGvaklBJ3Uc
+  url: https://maps.google.com/?cid=5178375756955937568
+visibility: Public
+org:
+  id: BM4HtpPAFK8ujCbJIrCn
+  username: dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1251938452669013/
+link: ""
+description: |-
+  🔥🔥Salsa & Sensual 🔥🔥 PARTY Bonyhád
+
+  ⏰Időpont: 2024. november 23. szombat 19:00
+  📍Helyszín: Atlétikai Centrum
+
+  Workshop:
+  19:00-20:00  Kubai Salsa /minden szint/
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+  Party:
+  20:00-tól
+
+  Party belépő 🎫🎫
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+
+  ✆ +36 30 5153951
+  ✉ info@dolce-dance.com
+  web: www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731337261/i6h77cvrasmnmkb6vmfj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Salsa & Sensual party - Bonyhád
+online: No
+place: ChIJ31dXt-efOEcRoBEeDCnEAAQ
+international: No
+hash: 1732384800000+ChIJBd8wKqifOEcRIGvaklBJ3Uc
+id: puU3ZSDyZLWbxXOJjpjO

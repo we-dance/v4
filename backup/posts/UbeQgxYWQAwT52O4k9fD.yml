@@ -1,0 +1,109 @@
+venue:
+  formatted_address: Ul. Vijenac Braće Lorenzetto 17, 52210, Rovinj, Croatia
+  website: http://steelvenue.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "17"
+      short_name: "17"
+    - types:
+        - route
+      long_name: Ulica Vijenac Braće Lorenzetto
+      short_name: Ul. Vijenac Braće Lorenzetto
+    - types:
+        - locality
+        - political
+      long_name: Rovinj
+      short_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Općina Rovinj
+      short_name: Općina Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Istarska županija
+      short_name: Istarska županija
+    - types:
+        - country
+        - political
+      long_name: Croatia
+      short_name: HR
+    - types:
+        - postal_code
+      long_name: "52210"
+      short_name: "52210"
+  url: https://maps.google.com/?cid=647354496231779742
+  name: Steel Bar & Club
+  geometry:
+    viewport:
+      south: 45.0837216697085
+      north: 45.08641963029149
+      east: 13.6415590802915
+      west: 13.6388611197085
+    location:
+      lng: 13.6402746
+      lat: 45.0850541
+  place_id: ChIJDThP0I2_fEcRnq2lB3zd-wg
+  international_phone_number: +385 91 111 1500
+city: ""
+endDate: 2021-09-06T15:30:00.000Z
+link: https://www.salsa-adria.hr/shop/next_events/croatian_summer_salsa_festival_2021
+description: >-
+  Imagine a perfect sunset. Colors you have never seen in your life and your
+  favorite salsa tune inviting you to dance. Imagine you're surrounded by
+  thousands of people from all over the world who feel that same sensation. And
+  imagine giving in to the music and dancing your feet away from that moment
+  on. 
+
+
+  Welcome to Croatian Summer Salsa Festival!
+
+
+  01st - 5th September 2021
+
+
+  - [Program](https://www.crosalsafestival.com/program)
+
+  - [COVID Info](https://www.crosalsafestival.com/covid_19)
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FO9x6HmmJ40bCkoB7iFuX7YPRhJk2%2Fdae74a49-6fba-439e-9315-97f1bef955fa?alt=media&token=06548e74-de79-4b2d-a873-aba91614f9be
+createdAt: 1613645220009
+watchersCount: 0
+price: 30EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FUbeQgxYWQAwT52O4k9fD.png?generation=1628763482688349&alt=media
+commentsLast: ~
+place: ""
+id: UbeQgxYWQAwT52O4k9fD
+views: 2
+updatedAt: 1613645220009
+updatedBy: O9x6HmmJ40bCkoB7iFuX7YPRhJk2
+address: Rovinj
+visibility: Public
+eventType: Festival
+organiser: SummerSensual
+form: Yes
+createdBy: szPaBdUVRxOPEQBKblAhyE7iInl2
+commentsCount: 0
+name: Croatian Summer Salsa Festival
+styles:
+  Bachata:
+    level: Interested
+    selected: true
+  Kizomba:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-31T12:00:00.000Z
+username: SeaSunSalsa
+viewsCount: 4

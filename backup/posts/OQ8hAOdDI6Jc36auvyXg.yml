@@ -1,0 +1,204 @@
+venue:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  name: Biberger Str. 91
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6214697302915
+      south: 48.0718889697085
+      north: 48.07458693029149
+      west: 11.61877176970849
+    location:
+      lng: 11.6201032
+      lat: 48.0733225
+  address_components:
+    - types:
+        - street_number
+      short_name: "91"
+      long_name: "91"
+    - types:
+        - route
+      short_name: Biberger Str.
+      long_name: Biberger Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Unterbiberg
+      long_name: Unterbiberg
+    - types:
+        - locality
+        - political
+      short_name: Unterhaching
+      long_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82008"
+      long_name: "82008"
+  place_id: ChIJH1G13CPenUcRZxygFgVPMOE
+  url: https://maps.google.com/?q=Biberger+Str.+91,+82008+Unterhaching,+Germany&ftid=0x479dde23dcb5511f:0xe1304f0516a01c67
+endDate: 2023-04-23T04:00
+claimed: No
+program:
+  - endDate: 2023-04-22T12:30
+    name: MANA
+    eventType: Workshop
+    startDate: 2023-04-22T12:30
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1675079424911
+price: 50 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1675079424911
+updatedBy: kNDQo4gmNYQKAnxY4bbSDQpJzrH2
+visibility: Public
+upVotes: 0
+confirmation: Thank you so much For your choice and see you on 22.04
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: kNDQo4gmNYQKAnxY4bbSDQpJzrH2
+commentsCount: 0
+name: MANA
+online: No
+votes: 0
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-22T12:30
+username: Aljonali
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Elena
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkNDQo4gmNYQKAnxY4bbSDQpJzrH2%2Fc33613fc-fc47-49d1-a179-674679ccf1c8?alt=media&token=1d7e5e1f-6e93-48d5-8895-1b2f27404ef9
+  bio: If I haven’t dance one day I conceded this day as lost one
+  id: kNDQo4gmNYQKAnxY4bbSDQpJzrH2
+  instagram: https://instagram.com/Aljonali
+  username: Aljonali
+id: OQ8hAOdDI6Jc36auvyXg
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Elena
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkNDQo4gmNYQKAnxY4bbSDQpJzrH2%2Fc33613fc-fc47-49d1-a179-674679ccf1c8?alt=media&token=1d7e5e1f-6e93-48d5-8895-1b2f27404ef9
+    bio: If I haven’t dance one day I conceded this day as lost one
+    id: kNDQo4gmNYQKAnxY4bbSDQpJzrH2
+    instagram: https://instagram.com/Aljonali
+    username: Aljonali
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    instagram: https://instagram.com/milite_anna
+    username: AnnaMil
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: alexandros_dancer
+    bio: ""
+    photo: ""
+    id: YaBGwW5EIj05zf958BWh
+    instagram: https://instagram.com/alexandros_dancer
+    username: alexandros_dancer
+  - instagram: https://instagram.com/felipeytiago_official
+    username: felipeytiago_official
+  - instagram: https://instagram.com/herrtanzlehrer
+    username: herrtanzlehrer
+artistsList:
+  - Aljonali
+  - AnnaMil
+  - alexandros_dancer
+  - felipeytiago_official
+  - herrtanzlehrer
+link: https://www.tickettailor.com/events/manabachata/845924
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOQ8hAOdDI6Jc36auvyXg.png?generation=1675705478523336&alt=media
+telegram:
+  requestedAt: 1675705482752
+  messageUrl: https://t.me/WeDanceMunich/850
+  publishedAt: 1675705490368
+  messageId: 850
+  state: published
+instagram:
+  requestedAt: 1675705491251
+  messageUrl: https://instagram.com/p/CoVG12VJiI0
+  publishedAt: 1675705509280
+  messageId: CoVG12VJiI0
+  state: published
+international: Yes
+description: >-
+  *MANA_Bachata* 22 - 23.04.2023
+
+  📍Tanzhaus Emotion
+
+
+  Very famous artists of the BACHATA scene will inspire us with special themes
+
+
+  *Felipe y Tiago (Madrid, Spain)
+
+  *Alexandros (Sofia, Bulgaria)
+
+  & *Xi (Cologne, Germany)
+
+
+
+  🗓️22.04. // Saturday , all day workshops and in the evening with socials in 2 rooms (Bachata & Kizomba)
+
+
+  --Kizomba : Teacher and Dj--
+
+  *VJ (Copenhagen, Denmark)
+
+  and DJ Mixmillion (Munich)
+
+
+
+  🗓️23.04. // Sunday = Bachata Masterclass (exclusive to Fullpass) Level Advanced.
+
+
+  ***Feel free to explore yourself and your creativity***
+
+
+  💃 Believe us, you don't want to miss it
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkNDQo4gmNYQKAnxY4bbSDQpJzrH2%2Fd0ca6476-1508-43b1-8727-d6bc3eebe5f3?alt=media&token=ffa83686-34bd-434a-a76a-1084705fa647
+eventType: Festival
+star:
+  count: 1
+  list:
+    Aljonali: true
+viewsCount: 99

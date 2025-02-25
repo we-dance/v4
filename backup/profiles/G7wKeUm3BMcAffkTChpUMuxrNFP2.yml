@@ -1,0 +1,62 @@
+locales:
+  de: true
+timezone: GMT+0200
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+pwaUsed: false
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+visibility: Public
+partner: ""
+objectives:
+  learn: true
+  indoors: true
+lastLoginAt: 1676327483025
+daysUsed: 5
+import: success
+bio: |-
+  Tanzschule für SALSA, BACHATA, KIZOMBA, GESELLSCHAFTSTANZ und WCS
+  📷 markiert uns @circulo_tanzschule & #tanzschulecirculo 
+  💃🏻 Anmeldung über Homepage
+instagram: https://www.instagram.com/circulo_tanzschule/
+source: instagram
+reviews: []
+owner: ""
+website: https://www.circulo.de/
+importedAt: 1655306300745
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/circulo
+photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fcirculo_tanzschule.png?generation=1655306300387997&alt=media
+permission: ""
+team: []
+owned: false
+name: CIRCULO Tanzschulen
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: circulo_tanzschule
+watch:
+  usernames:
+    - AnnaNym
+    - Lyolya_urban.kiz_
+  count: 2
+createdBy: G7wKeUm3BMcAffkTChpUMuxrNFP2
+createdAt: 1653242794560
+fanCreatedAt: "1655218869710"
+fanCreatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: Other
+venueType: DanceStudio
+id: G7wKeUm3BMcAffkTChpUMuxrNFP2
+type: Venue
+updatedAt: 1717584053815
+viewsCount: 142

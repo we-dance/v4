@@ -1,0 +1,124 @@
+endDate: 1726358399000
+sourceUrl: https://www.facebook.com/events/871237737831781/
+createdAt: 1725976835418
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725898196000
+updatedAt: 1725976835418
+importedAt: 1725976835418
+providerUpdatedAt: 1725898196000
+facebookId: "871237737831781"
+facebook: https://www.facebook.com/events/871237737831781/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/871237737831781/
+eventType: Party
+providerItemId: 48105-1726272000-1726358399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Otthon Kávéző, Kossuth tér 4., Kecskemét, 6000, Magyarország
+startDate: 1726272000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Kecskemét, Kossuth tér 4, 6000 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: Otthon Mozi és Kávézó
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.6892896197085
+        lat: 46.9072516697085
+      northeast:
+        lng: 19.69198758029151
+        lat: 46.9099496302915
+    location:
+      lng: 19.6906963
+      lat: 46.9086499
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Kossuth tér
+      long_name: Kossuth tér
+    - types:
+        - locality
+        - political
+      short_name: Kecskemét
+      long_name: Kecskemét
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "6000"
+      long_name: "6000"
+  international_phone_number: +36 30 631 5898
+  place_id: ChIJGb63NRHaQ0cRxI7gZI82c0s
+  url: https://maps.google.com/?cid=5436749164666982084
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+link: ""
+description: |-
+  🔥🔥Szezonnyító🔥🔥 PARTY Kecskemét
+
+  ⏰Időpont: 2024. szeptember 14. szombat 20:00
+  📍Helyszín: Otthon kávézó Kossuth tér
+
+  Workshop:
+  20:00-21:00  Bachata /minden szint/
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+  Party:
+  21:00-tól
+
+  Party belépő 🎫🎫
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+
+  ✆ +36 30 5153951
+  ✉ info@dolce-dance.com
+  web: www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725976849/orhunfkcvrx85seuqxfx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa&Sensual party - Kecskemét
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJPxz2CGHaQ0cRgBEeDCnEAAQ
+international: No
+hash: 1726336800000+ChIJGb63NRHaQ0cRxI7gZI82c0s
+id: KEqQsgbfdmhaOM82AzZs

@@ -1,0 +1,153 @@
+createdAt: 1708102393965
+updatedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+createdBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+facebook: https://www.facebook.com/events/3784534741774930/
+updatedAt: 1708102393965
+username: MontunoClub
+venue:
+  formatted_address: Kosovska 26a, Novi Sad 21101, Serbia
+  website: http://faithconnectdancestudio.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Faith Connect Dance Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.8503321697085
+        lat: 45.26146126970851
+      northeast:
+        lng: 19.8530301302915
+        lat: 45.2641592302915
+    location:
+      lng: 19.8515935
+      lat: 45.2628081
+  address_components:
+    - types:
+        - street_number
+      short_name: 26a
+      long_name: 26a
+    - types:
+        - route
+      short_name: Kosovska
+      long_name: Kosovska
+    - types:
+        - locality
+        - political
+      short_name: NS
+      long_name: Novi Sad
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Južnobački okrug
+      long_name: Južnobački okrug
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vojvodina
+      long_name: Vojvodina
+    - types:
+        - country
+        - political
+      short_name: RS
+      long_name: Serbia
+    - types:
+        - postal_code
+      short_name: "21101"
+      long_name: "21101"
+  international_phone_number: +381 64 5575776
+  place_id: ChIJ46NqoBwRW0cRtzdsv7ejrwU
+  url: https://maps.google.com/?cid=409726100699887543
+endDate: ""
+claimed: No
+link: ""
+description: >+
+  🔹Drage žene, dame, djevojke, mame, sestre, bake, tetke, supruge...
+
+
+  🔹Ostavite jedan 9. mart za sebe.
+
+
+  💪Ne garantujemo radikalne transformacije posle ovih radionica, 
+
+
+  ali garantujemo one male pozitivne od kojih sve počinje.
+
+
+  🗣️Časove i razgovore vodiće sjajne Sanja Štulić, Srđana Šijan i Anđela Riđešić.
+
+
+  🔹A časovi su naravno otvoreni za sve nivoe, sve generacije, za sve dame.
+
+
+  Radionice su (sat i po vremena):
+
+
+  15:00 | Sanja-Heels
+
+  16:30 | Andjela-Konekcija
+
+  18:00 | Srdjana-Razgovor o samopouzdanju i ženskoj energiji
+
+
+  👠Bilo bi sjajno da sve dame na Heels-nose štikle i štitnike za njih.
+
+
+  ‼️Rezervišite svoje mjesto prijavom i uplatom:
+
+
+  🔹Prijava:
+
+  https://forms.gle/pdhp8AZSurLnzmxj7
+
+
+  💸Cijene:
+
+
+  Ukoliko uplatu izvršite do 1. marta
+
+  🔹4 i po sata radionica | 2400 RSD
+
+
+  Od 1. marta
+
+  🔹4 i po sata radionica | 3000 RSD
+
+
+  Vidimo se,
+
+  Vaš i naš Faith. 🎀
+
+
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJVTTpPWEQW0cRKP4kN2h9bws
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachatafaith
+  name: Faith Connect Dance Studio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708102355/aeatb1rvl1ll7no1gctl.jpg
+  bio: ""
+  id: iR4RBRRZgMfbo86hXd4Z
+  instagram: ""
+  username: faith.connect.dance.studio
+facebookId: "3784534741774930"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: LADIES DAY | Faith Connect Dance Studio
+online: No
+styles: {}
+hash: 1709991000000+ChIJ46NqoBwRW0cRtzdsv7ejrwU
+startDate: 1709991000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708102395/dvyrt1pjpmyphhgj1ifi.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdqfBlUNsf2sNNJiGTAop.png?generation=1708102406981365&alt=media
+viewsCount: 34
+id: dqfBlUNsf2sNNJiGTAop

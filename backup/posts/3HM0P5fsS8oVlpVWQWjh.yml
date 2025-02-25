@@ -1,0 +1,30 @@
+facebookUrlsList: []
+isNew: true
+facebookId: ""
+facebookUrlsCount: 0
+provider: ical
+createdAt: 1729778439775
+updatedAt: 1729778439775
+importedAt: 1729778439775
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerItemId: snindjad3n0ba3d8a32r0npu04@google.com
+name: Zouk Atoms Intensive Week Level 2 - Position F - Bremen, Germany
+description: https://forms.gle/vERJTgdK1wwjhoeG7
+providerCreatedAt: 1729777883000
+providerUpdatedAt: 1729777883000
+startDate: 1733011200000
+endDate: 1733529600000
+facebook: ""
+sourceUrl: ""
+location: Bremen, Germany
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+type: event
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: 3HM0P5fsS8oVlpVWQWjh

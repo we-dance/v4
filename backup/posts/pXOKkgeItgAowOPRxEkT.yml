@@ -1,0 +1,235 @@
+isNew: true
+facebookId: "1728085218028762"
+facebookUrlsList:
+  - https://www.facebook.com/events/1728085218028762
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730818832381
+updatedAt: 1730818832381
+importedAt: 1730818832381
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48692-1731628800-1731715199@latinfo.hu
+name: B(l)ack & White Salsa & Bachata Reload Party
+providerCreatedAt: 1730794721000
+providerUpdatedAt: 1730794721000
+startDate: 1731628800000
+endDate: 1731715199000
+sourceUrl: https://www.facebook.com/events/1728085218028762
+location: Broadway Dance Center Táncstúdió, Kerepesi út 26., Budapest, 1146, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: I. emelet
+      short_name: I. emelet
+      types:
+        - subpremise
+    - long_name: "26"
+      short_name: "26"
+      types:
+        - street_number
+    - long_name: Kerepesi út
+      short_name: Kerepesi út
+      types:
+        - route
+    - long_name: XIV. kerület
+      short_name: XIV. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1146"
+      short_name: "1146"
+      types:
+        - postal_code
+  formatted_address: Budapest, Kerepesi út 26-I. emelet, 1146 Hungary
+  geometry:
+    location:
+      lat: 47.50054060000001
+      lng: 19.1089688
+    viewport:
+      northeast:
+        lat: 47.50176363029151
+        lng: 19.1103605302915
+      southwest:
+        lat: 47.49906566970851
+        lng: 19.1076625697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +36 20 571 9050
+  name: Broadway Dance Center Táncstúdió Budapest
+  place_id: ChIJG0XgPpjcQUcRpVRbrJDeZvw
+  url: https://maps.google.com/?cid=18187468858130650277
+visibility: Public
+org:
+  createdAt: 1730818848227
+  importedAt: 1730818848227
+  updatedAt: 1730818848227
+  source: facebook
+  name: Dance Essence Agency
+  facebook: https://www.facebook.com/people/Dance-Essence-Agency/100093043222060/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1730818849/ffasacmnon1jg89azjkh.jpg
+  username: DanceEssence-Agency
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+claimed: No
+facebook: https://www.facebook.com/events/1728085218028762/
+link: ""
+description: >-
+  Szeretettel meghívunk Benneteket a következő eseményre! ☺️
+
+
+  B(l)ack & White Salsa & Bachata Reload 💃🕺
+
+
+  👗 Dress Code: 
+
+  ☯️ Fekete-fehér
+
+
+  🎶 Zene: 
+
+  🎶 DJ Evita
+
+  🎶 DJ Zolee
+
+
+  💣 Program: 
+
+  ⏰ 21:15 Bachata All Level Workshop, Szasza & Isti
+
+  ⏰ 23:30 Tandari Ági Salsa, Bachata, Chachacha Minikoncert
+
+  ⏰ 22:00-1:30 Party
+
+
+  💵 Belépő díj: 3500.-
+
+  💵 Jegyvásárlás a helyszínen lehetséges készpénzben!
+
+
+  🍾 Büfé a helyszínen található! 😉
+
+  ( Táncosbarát büfével várunk, kérjük a rendezvényre italt ne hozzatok, köszönjük! ) 
+
+
+  ❗️ A jegy megvásárlása egyben hozzájárulás ahhoz, hogy kép és hanganyag készüljön rólad, amit felhasználhatunk a buli eseményein és Facebook oldalán.
+
+
+  📜 Médiapartnerünk: http://latinfo.hu/
+
+
+  🏣 Helyszín: BROADWAY DANCE CENTER BUDAPEST
+
+  🏣 1146. Budapest, Kerepesi út 26. 1. emelet
+
+  🚗 Parkolási lehetőség a környező utcákban.
+
+  🚌 Éjszakai járatok a helyszínről: 901, 908, 931, 937, 956, 990
+
+
+  😘 Szeretettel várunk!
+
+
+  Dance Essence Party csapata
+
+  https://danceessence.hu/20241115
+
+
+  >>>>> ENGLISH DESCRIPTION <<<<<
+
+
+  We are kindly inviting You for our next event. 🙂
+
+
+  B(l)ack & White Salsa & Bachata Reload Party
+
+
+  Dress Code: Black & White
+
+
+  Resident DJ's:
+
+  DJ Evita
+
+  DJ Zolee
+
+
+  Program: 
+
+  21: 15 Bachata All Level Workshop, Szasza & Isti
+
+  23:30 Tandari Ági Salsa, Bachata, Chachacha Concert
+
+  22:00-1:30 Party
+
+
+  Entry fee: 3500 HUF
+
+  Tickets can be purchased on site in cash.
+
+
+  Buffet on site 😉
+
+
+  With the purchase of the ticket you approve that imagery and soundtrack can be taken of you that can later be published in the events of the upcoming parties or on our Facebook page.
+
+
+  Our media partner: http://latinfo.hu/
+
+
+  Venue: BROADWAY DANCE CENTER BUDAPEST
+
+  1146. Budapest, Kerepesi Road 26. 1st floor
+
+  Parking in the surrounding streets.
+
+  Night buses departing from the venue: 901, 908, 931, 937, 956, 990
+
+
+  We look forward to you,
+
+
+  Dance Essence Party Team
+
+  https://danceessence.hu/20241115
+program: []
+source: facebook
+eventType: Concert
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730818850/vyrkuk7gor8zyyar7zxn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1731700800000+ChIJG0XgPpjcQUcRpVRbrJDeZvw
+id: pXOKkgeItgAowOPRxEkT

@@ -1,0 +1,110 @@
+sourceUrl: https://www.facebook.com/events/999373185528047
+createdAt: 1719528223927
+updatedBy: U1RdgC22ufP0CluwOEW6WgANqT13
+createdBy: U1RdgC22ufP0CluwOEW6WgANqT13
+username: Vacuba
+viewsCount: 1
+endDate: 1719612000000
+claimed: No
+link: ""
+program: []
+source: facebook
+type: event
+artists: []
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid021Vz2vdwQqStKh7tDu8zhRoHN6ZEhReqyvRtxivYnviW3WxM9aQXpXCTWScG27urpl
+  name: Oksana Zinchenko
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718025322/munj4tabb9ny2nqh6yfc.jpg
+  bio: ""
+  id: zec0O0Zw6i7rKNvmpyEy
+  instagram: ""
+  username: oksana.zinchenko
+facebook: https://www.facebook.com/events/999373185528047/
+facebookId: "999373185528047"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Salsa Open Air: dance meet up"
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1719601200000+ChIJA99wNtf3zpQRxVvBQZz_tNY
+startDate: 1719601200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FeOnD8AXzcF6dQvnt2qn4.png?generation=1719528254352713&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FU1RdgC22ufP0CluwOEW6WgANqT13%2F3f988af0-59ae-4e6a-9b15-b2a3af27587d?alt=media&token=08dc2129-2526-4931-a069-1a56b9c48034
+duration: 180
+price: contribution
+description: >-
+  Welcome everyone to Lisbon summer salsa meet up!
+
+  Every level is welcome :)
+
+
+  We dance salsa and timba, bachata, merengue outside, at quiosque Mustarda in Jardim São Bento on Friday!
+
+  Animation and Rueda are included :)
+
+
+  Come early as we finish sharp.
+
+
+  Entry: contribution based
+artistsList: []
+id: eOnD8AXzcF6dQvnt2qn4
+venue:
+  formatted_address: Lisbon, Portugal
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Lisbon
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -9.08963599547923
+      south: 38.69139936595241
+      north: 38.79675952753452
+      west: -9.229835557691242
+    location:
+      lng: -9.1393366
+      lat: 38.7222524
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Lisbon
+      long_name: Lisbon
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisbon
+      long_name: Lisbon
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisbon
+      long_name: Lisbon
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+  place_id: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+  url: https://maps.google.com/?q=Lisbon,+Portugal&ftid=0xd19331a61e4f33b:0x400ebbde49036d0
+  username: lisbon
+updatedAt: 1719528855055

@@ -1,0 +1,120 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  website: http://www.tanzschuleamstachus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=7618752569010268631
+  name: Tanzschule am Stachus
+  geometry:
+    viewport:
+      south: 48.13684386970849
+      north: 48.13954183029149
+      east: 11.5668774802915
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  international_phone_number: +49 1590 1227277
+endDate:
+  _seconds: 1648855800
+  _nanoseconds: 0
+claimed: No
+description: |-
+  Friday, 1 April 2022
+  22:30 - 02:30
+
+  Timba Party 🔥🔥🔥
+  by Tanzschule am Stachus and Salsa Cubana Munich
+
+  Animation:
+  Ale de la Paz 🇲🇽 y Elito Rojas 🇨🇺
+
+  Cover: 10€ / 7€ (students)
+  Sonnenstraße 7, Munich
+  3G rules apply
+type: event
+promo: ""
+duration: "180"
+createdAt: 1648495420119
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1648495420119
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  facebook: vacunaaa
+  bio: Reunión Timbera
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  instagram: salsa.cubana.munich
+  tiktok: ""
+  name: salsa.cubana.munich
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  username: salsa.cubana.munich
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alejito: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa Cubana
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-04-01T22:30
+username: alejito
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa863bb4c-fd65-486f-96eb-335a0f4ca813?alt=media&token=e6f89344-3f03-4815-9f47-cbf9e65c02f3
+id: kNWjP7o93twdHreaLuGf
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkNWjP7o93twdHreaLuGf.png?generation=1648495483751250&alt=media
+viewsCount: 8

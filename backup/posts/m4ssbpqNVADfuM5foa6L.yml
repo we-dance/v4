@@ -1,0 +1,134 @@
+sourceUrl: https://www.facebook.com/events/1982570125518060
+createdAt: 1727967626110
+updatedBy: fBw7JhiBtHOD8dZWOxkeGWVHWum1
+createdBy: fBw7JhiBtHOD8dZWOxkeGWVHWum1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1727967626110
+username: Franco
+venue:
+  formatted_address: Adi-Maislinger-Straße 12, 81373 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Adi-Maislinger-Straße 12
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5342582697085
+        lat: 48.1276010697085
+      northeast:
+        lng: 11.5369562302915
+        lat: 48.1302990302915
+    location:
+      lng: 11.5359279
+      lat: 48.1288017
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Adi-Maislinger-Straße
+      long_name: Adi-Maislinger-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  place_id: ChIJ0yX6KK7YnUcRtY4TYtwJ5i8
+  url: https://maps.google.com/?q=Adi-Maislinger-Stra%C3%9Fe+12,+81373+M%C3%BCnchen,+Germany&ftid=0x479dd8ae28fa25d3:0x2fe609dc62138eb5
+endDate: 1728162000000
+claimed: No
+link: ""
+description: >-
+  Samstag 5.10.24 Tangofusion Party und Workshop
+
+
+  Bei diesm Workshop werden wir mit Elementen aus dem Tango, Contango und Freestyle eine lockerere und freiere Art des Tangotanzens erlernen. Dabei sind die Rollen des Führens und Folgens nicht festgelegt und wir tanzen Figuren wie ganchos, barridas, voleos, Verzierungen ecc. frei von festgelegten Abläufen. Die Workshops eignen sich auch sehr gut zum aufwärmen und kennen lernen vor der Milonga.
+
+  Singles herzlich willkommen !  10 €
+
+
+  Tango Fusion Milonga 20:00 - 23:00 Uhr
+
+  DJ Sonja + DJ Franco
+
+  Party: 10 € Iwanson-Tanzschule, Adi-Meislingerstr. 12 (beim Feierwerk)
+
+  Workshop + Party 15 €
+
+
+  Kein Barbetrieb, drum kann jeder sein Lieblingsgetränk selbst mitbringen !
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/sonja.armisen
+  name: Sonja Armisen
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710440955/ozc1on6tnaivtansakjz.jpg
+  bio: ""
+  id: w9PYhYH55mqFDVCeExmk
+  instagram: ""
+  username: sonja.armisen
+facebook: https://www.facebook.com/events/1982570125518060/
+facebookId: "1982570125518060"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Sa. 5. 10. 24 TangoFusion-Party (Neolonga) + Workshop
+online: No
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1728147600000+ChIJ0yX6KK7YnUcRtY4TYtwJ5i8
+startDate: 1728147600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727967636/u2efsuabc1glrevuoitn.jpg
+instagram:
+  messageUrl: https://instagram.com/p/DAqpAXiRVwE
+  publishedAt: 1727967670146
+  messageId: DAqpAXiRVwE
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 2
+id: m4ssbpqNVADfuM5foa6L

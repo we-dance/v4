@@ -1,0 +1,136 @@
+isNew: true
+facebookId: "2021827424922115"
+facebookUrlsList:
+  - https://www.facebook.com/events/2021827424922115
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730559625088
+updatedAt: 1730559625088
+importedAt: 1730559625088
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48671-1731110400-1731196799@latinfo.hu
+providerCreatedAt: 1730536297000
+providerUpdatedAt: 1730536297000
+startDate: 1731110400000
+endDate: 1731196799000
+sourceUrl: https://www.facebook.com/events/2021827424922115
+location: Dunaújváros, Kallós Dezső utca, Kallós Dezső utca, Dunaújváros, 2400,
+  Magyarország
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "1"
+      short_name: "1"
+      types:
+        - street_number
+    - long_name: Kallós Dezső utca
+      short_name: Kallós Dezső u.
+      types:
+        - route
+    - long_name: Dunaújváros
+      short_name: Dunaújváros
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "2400"
+      short_name: "2400"
+      types:
+        - postal_code
+  formatted_address: Dunaújváros, Kallós Dezső u. 1, 2400 Hungary
+  geometry:
+    location:
+      lat: 46.9597417
+      lng: 18.9308139
+    viewport:
+      northeast:
+        lat: 46.96115168029149
+        lng: 18.9320318302915
+      southwest:
+        lat: 46.95845371970849
+        lng: 18.9293338697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kallós Dezső u. 1
+  place_id: ChIJJaeWwHEXQkcR1LeEkZTYjs4
+  url: https://maps.google.com/?q=Duna%C3%BAjv%C3%A1ros,+Kall%C3%B3s+Dezs%C5%91+u.+1,+2400+Hungary&ftid=0x47421771c096a725:0xce8ed8949184b7d4
+visibility: Public
+org:
+  id: BM4HtpPAFK8ujCbJIrCn
+  username: dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/2021827424922115/
+link: ""
+description: |-
+  🔥🔥Bachata Day🔥🔥
+
+  📌15:00-18:00 Bachata órák
+  📌20:00-21:00 + Bachata ws :)
+  📌21:00-tól 2 termes Party
+
+  ⏰Időpont: 2024. november 9. szombat
+  📍Helyszín: Kallós Dezső utca 1.
+
+  💥Bachata Day💥
+  15:00-18:00
+
+  Ár: 3 db óra
+  💥6.500Ft - nov. 8-ig
+  💥7.500Ft - helyszínen
+
+
+  💥Workshop:
+  20:00-21:00  Bachata /KH/
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+  💥2 termes Party:
+  21:00-tól
+
+  💥Party belépő 🎫🎫
+  elővételben: 2500Ft
+  helyszínen: 3000Ft
+
+
+  ✆ +36 30 5153951
+  ✉ info@dolce-dance.com
+  web: www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730559645/h9li6xbacxvyjrslfiyc.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Bachata day 2 + Salsa&Sensual party - Dunaújváros
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ9_3lBRoXQkcRwBIeDCnEAAQ
+international: No
+hash: 1731160800000+ChIJJaeWwHEXQkcR1LeEkZTYjs4
+id: gEmFRVsnkuK9bRFsB11u

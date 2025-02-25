@@ -1,0 +1,161 @@
+createdAt: 1708035211375
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1708035211375
+username: alexrazbakov
+venue:
+  formatted_address: Marxergasse 17, 1030 Wien, Austria
+  website: http://theroom.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: the Room Sofiensäle
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.39020671970849
+        lat: 48.2054961197085
+      northeast:
+        lng: 16.3929046802915
+        lat: 48.2081940802915
+    location:
+      lng: 16.3914806
+      lat: 48.2067468
+  address_components:
+    - types:
+        - street_number
+      short_name: "17"
+      long_name: "17"
+    - types:
+        - route
+      short_name: Marxergasse
+      long_name: Marxergasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Landstraße
+      long_name: Landstraße
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1030"
+      long_name: "1030"
+  international_phone_number: +43 1 7105577
+  place_id: ChIJEaSZ1QcHbUcRyX0k7KKMSwc
+  url: https://maps.google.com/?cid=525668412893199817
+endDate: 1708138800000
+claimed: No
+link: https://mimomento.at/events-salsa/
+description: >-
+  Valentines Salsa Night - 1st edition 
+
+
+
+  🌹✨ Join us for a night of passion, rhythm, and romance at our Valentine’s Salsa Night! ✨🌹
+
+
+  Date: Time: 18:00 – Open End (Possible till 04:00) 
+
+  Dress Code: “Little Red”
+
+
+  🎟️ Entry Options: Option 1 (18:00 – 20:00):
+
+
+  Entry, Aperitivo dinner, and 1 cocktail for €30. (Order separate – a regular à la carte dinner available during kitchen hours 17:00-22:00.)
+
+  Option 2 (Starting from 20:00):
+
+  Entry and 1 cocktail included for €15.
+
+
+  🌟 Show Program:
+
+  International DJs from Europe
+
+  Special Guests
+
+
+  Program:
+
+  18:00 Dinner – Doors open
+
+  20:30 Welcome dance class for everyone with Salsa Super Star from Mexico
+
+  23:30 Show & Animation
+
+
+  📍 Location: The Rooms - Sofiensäle, Marxergasse 17 1030 Wien, Austria
+
+
+  📸 Event Policy:
+
+
+  Pictures will be taken. By entering the event, you agree to be photographed, and your pictures may be used for future promotions and social media. Additionally, you support and adhere to the Mi Momento Verein Rules, behaving accordingly during the event. Event details may be subject to change with short notice.
+
+  🥂 We are excited to welcome you to our new dance location at the ❤️ of Vienna! With your support, we hope to make this a regular 2x/month dance event. Let’s celebrate love and dance the night away! 🌹💃🕺
+
+
+  #ValentinesSalsaNight #DancePassionately #LittleRedAffair #Sofiensäle #ViennaNights
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/917239359789633/
+facebookId: "917239359789633"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Valentines Salsa Night - 1st edition "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708102800000+ChIJEaSZ1QcHbUcRyX0k7KKMSwc
+startDate: 1708102800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708035214/ldziz6ap1xprvwfv2gvv.jpg
+org:
+  owner: ""
+  importedAt: 1708035213811
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/MiMomentoDanceAcademy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708035214/rnuvmwmwkamvnxjnuesv.png
+  source: facebook
+  type: Organiser
+  createdAt: 1708035213811
+  owned: false
+  name: Mi Momento Dance Academy
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1708035213811
+  username: mi.momento.dance.academy
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdfAag6VqlSz2bFyZyG6R.png?generation=1708035230052068&alt=media
+viewsCount: 2
+id: dfAag6VqlSz2bFyZyG6R

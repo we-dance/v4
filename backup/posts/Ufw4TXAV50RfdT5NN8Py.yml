@@ -1,0 +1,125 @@
+venue:
+  formatted_address: Kantstraße 12, 10623 Berlin, Germany
+  website: https://www.stage-entertainment.de/landingpages/standortseiten/theater-des-westens.html
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Theater des Westens
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3303957302915
+      south: 52.5042515197085
+      north: 52.50694948029149
+      west: 13.3276977697085
+    location:
+      lng: 13.3290618
+      lat: 52.5056903
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Kantstraße
+      long_name: Kantstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Charlottenburg-Wilmersdorf
+      long_name: Bezirk Charlottenburg-Wilmersdorf
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10623"
+      long_name: "10623"
+  international_phone_number: +49 180 5 4444
+  place_id: ChIJN4Q-LfxQqEcR4hnbjCaBMsQ
+  url: https://maps.google.com/?cid=14137504182841317858
+endDate: 2023-09-29T21:30
+claimed: No
+link: https://tingeltangel.online-ticket.de/sharon-eyal-tickets-29-09-2023?language=de
+description: >-
+  “...things get broken, and sometimes they get repaired, and in most cases, you
+  realize that no matter what gets damaged, life rearranges itself to compensate
+  for your loss, sometimes wonderfully.”
+
+  Hanya Yanagihara | Little Life
+
+
+  Moment. Silence. Dryness. Emptiness. Fear. Wholeness. Concealment. Longing. Black. Moon. Water. Corner. Smell. Demon. Gap. Coldness. Eyes. Intension. Impulse. Fold. Hideout. Color. Lis. Salt. huge. Side. Stitches. Love. Point.
+
+  - Sharon Eyal.
+
+
+  Sharon Eyal wurde in Jerusalem geboren. Sie tanzte von 1990 bis 2008 in der Batsheva Dance Company und begann im Rahmen des Projekts Batsheva Dancers Create der Kompanie zu choreografieren. Von 2003 bis 2004 war Eyal stellvertretende künstlerische Leiterin von Batsheva und von 2005 bis 2012 Hauschoreografin des Ensembles.Im Jahr 2009 begann Eyal, Stücke für andere Tanzkompanien auf der ganzen Welt zu kreieren: Killer Pig (2009) und Corps de Walk (2011) für Carte Blanche Dance of Norway; Too Beaucoup (2011) für Hubbard Street Dance Chicago; Plafona (2012) für die Tanzcompagnie Oldenburg, Deutschland.Im Jahr 2013 gründete Eyal zusammen mit ihrem langjährigen Mitarbeiter Gai Behar das Projekt L-E-V.
+
+
+  Das Repertoire von L-E-V besteht aus 7 Kreationen. Ihr neuestes Stück Chapter 3: The Brutal Journey of the Heart, wurde im September 2019 bei der RuhrTriennale in Bochum uraufgeführt. Zum dritten Mal wird die Kreation von L-E-V in Koproduktion mit zwei der führenden Tanzhäuser der Welt aufgeführt: Sadler's Wells - London und Julidans - Amsterdam. Für diese Kreation haben sich auch die Koproduzenten zusammengeschlossen: Ruhrtriennale, Christian Dior Couture, Montpellier Danse, Torinodanza Festival, Carolina Performing Arts, Bold Tendencies, Young Turks.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FwWoc9fXpK9bV8Iq27MJPQwQQygq1%2Fc641d644-e6e9-490a-8a7d-b34af3452fa3?alt=media&token=a68fd772-569f-45f5-b88b-59d36de5e808
+createdAt: 1690289935840
+artists:
+  - instagram: https://instagram.com/tingeltangel
+    username: tingeltangel
+  - instagram: https://instagram.com/sharoneyal
+    username: sharoneyal
+price: 40 EUR- 80 EURO
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - tingeltangel
+  - sharoneyal
+international: Yes
+updatedAt: 1690289935840
+updatedBy: wWoc9fXpK9bV8Iq27MJPQwQQygq1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Apricot Productions
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FwWoc9fXpK9bV8Iq27MJPQwQQygq1%2F894cb16d-8c7d-4e9b-a187-dd3c0eb8edf7?alt=media&token=dc973a44-6084-407c-bf7d-9bb872d4ef5e
+  bio: "Apricot Productions is an international production & marketing company
+    based in Berlin, with a focus on dance and immersive experiences 🍑 "
+  id: wWoc9fXpK9bV8Iq27MJPQwQQygq1
+  instagram: ""
+  username: ApricotProductions
+eventType: Concert
+form: No
+createdBy: wWoc9fXpK9bV8Iq27MJPQwQQygq1
+watch:
+  count: 1
+  list:
+    ApricotProductions: true
+name: "L-E-V Chapter 3 The Brutal Journey of the Heart "
+online: No
+styles:
+  Contemporary:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-09-29T19:30
+username: ApricotProductions
+viewsCount: 15
+id: Ufw4TXAV50RfdT5NN8Py

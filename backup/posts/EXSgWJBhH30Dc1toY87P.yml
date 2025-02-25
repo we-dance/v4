@@ -1,0 +1,164 @@
+endDate: 1720897200000
+sourceUrl: https://www.facebook.com/events/1193417928667583/
+createdAt: 1719324027938
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1719141496000
+updatedAt: 1719324027938
+importedAt: 1719324027938
+providerUpdatedAt: 1719141496000
+facebookId: "1193417928667583"
+facebook: https://www.facebook.com/events/1193417928667583/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1193417928667583/
+eventType: Party
+providerItemId: e1193417928667583@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BBQ & Dance Summer Vibes Bailando Oldenburg
+location: Bailando Oldenburg Tanzschule Salsa Bachata Kizomba
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720886400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Amalienstraße 17-21, 26133 Oldenburg, Germany
+  website: http://www.bailando-oldenburg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Bailando Oldenburg
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.219598469708497
+        lat: 53.1376467197085
+      northeast:
+        lng: 8.222296430291502
+        lat: 53.14034468029149
+    location:
+      lng: 8.2209518
+      lat: 53.1390377
+  address_components:
+    - types:
+        - street_number
+      short_name: 17-21
+      long_name: 17-21
+    - types:
+        - route
+      short_name: Amalienstraße
+      long_name: Amalienstraße
+    - types:
+        - locality
+        - political
+      short_name: Oldenburg
+      long_name: Oldenburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Oldenburg
+      long_name: Kreisfreie Stadt Oldenburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "26133"
+      long_name: "26133"
+  international_phone_number: +49 170 4626945
+  place_id: ChIJi6TinwXftkcRfY6jug-yPKo
+  url: https://maps.google.com/?cid=12266875265675923069
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719324051231
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bailando.oldenburg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719324051/gnopmxalq9ve9mgwv3tr.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719324051231
+  owned: false
+  name: Bailando Oldenburg Tanzschule Salsa Bachata Kizomba
+  place: ChIJs2m2tVPetkcRZUiFrRvLHO0
+  updatedAt: 1719324051231
+  username: bailando.oldenburg
+claimed: No
+link: ""
+description: >-
+  Liebe Tanzfreunde,
+
+
+  am Samstag, den 13.07, laden wir euch zu unserem Tanzabend ein. 🤩🤩
+
+  Diesmal im Summer Vibes Modus zu BBQ & Dance Hawaii Party Edition mit Outdoor Bereich.
+
+
+  🍔🍉 Damit für alle gut gesorgt ist, bringt jeder Gast für das Buffet und Grill etwas mit.
+
+  Wir bauen für euch einen kleinen Outdoorbereich auf und versorgen euch mit Wassermelone und Begrüßungs Sangria! 🍷🍷😍
+
+  Einlass ist ab 17.30 Uhr
+
+
+  18 Uhr gibt es einen tollen BACHATA Sensual  Open Level Workshop 
+
+  Wir zeigen euch eine schöne Kombination um auf der Tanzfläche zu glänzen.  🤗❣️🕺💃
+
+
+  Um 19 Uhr startet die Party und wir schmeißen den Grill schon vorher an. 🥰
+
+  Wir spielen für euch die beste Salsa, Bachata, Kizomba zum abdancen. 😍🥳
+
+  Es zählt immer, was mehr getanzt wird, wird mehr gespielt.
+
+
+  Leckere Cocktails, tolle Menschen und super Ambiente warten auf euch.
+
+
+  Eintritt pro Person: 5 € / Inklusive Workshop. 
+
+
+  Für Bailando Mitglieder ist die Teilnahme kostenlos.
+
+
+  Anmeldung ist nicht erforderlich.
+
+  Wir freuen uns auf alle Gäste.🥰
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324053/rpliscmz6v9jjbn7zo2u.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJs2m2tVPetkcRZUiFrRvLHO0
+international: No
+hash: 1720886400000+ChIJi6TinwXftkcRfY6jug-yPKo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEXSgWJBhH30Dc1toY87P.png?generation=1719324081562356&alt=media
+viewsCount: 3
+id: EXSgWJBhH30Dc1toY87P

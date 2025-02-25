@@ -1,0 +1,134 @@
+venue:
+  website: http://www.kreativhaus-berlin.de/
+  formatted_address: Fischerinsel 3, 10179 Berlin, Germany
+  name: KREATIVHAUS - Stadtteilzentrum
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4104575802915
+      south: 52.5123074697085
+      north: 52.5150054302915
+      west: 13.4077596197085
+    location:
+      lng: 13.40973
+      lat: 52.5136182
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Fischerinsel
+      long_name: Fischerinsel
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10179"
+      long_name: "10179"
+  place_id: ChIJN6l-jiZOqEcRB7x2dXgQfO8
+  url: https://maps.google.com/?cid=17256685981729733639
+  international_phone_number: +49 30 2380913
+endDate: 2023-12-13T22:00
+claimed: No
+description: |-
+  3 levels of classes every Wednesday
+  The beginners level is always for free!
+  No registration, no partner needed. All profit goes to an NGO.
+program:
+  - endDate: 2023-01-04T22:00
+    name: Cuban Salsa Classes - Free for beginners
+    description: |-
+      Cuban salsa classes every Wednesday from January 4th.
+
+      19:00 -Beginners (For Free)
+      20:00 - Improvers 1
+      21.10 - Improvers 2
+
+      No registration
+    eventType: Course
+    startDate: 2023-01-04T19:00
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxWWNktVM8ZaH5SdUSEFeFrGPPC13%2F6cfcbfb2-95a1-4073-9f00-05a5338f952b?alt=media&token=19ff11ad-e790-46a6-86c2-8b00269721da
+promo: Yes
+duration: 60
+createdAt: 1671096221082
+artists: []
+price: From 0 EUR to 7 EUR
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1671096221082
+updatedBy: xWWNktVM8ZaH5SdUSEFeFrGPPC13
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsa4Water
+  bio: Salsa4water Berlin is a 100% Volunteer Driven Dance School. All profits are
+    given to the NGO Welthungerhilfe for WASH projects in Malawi.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxWWNktVM8ZaH5SdUSEFeFrGPPC13%2F0a28423e-413f-4a50-b172-9eb0fb781144?alt=media&token=d785b69f-84ac-4be7-bb90-9ffefe84719d
+  id: xWWNktVM8ZaH5SdUSEFeFrGPPC13
+  instagram: ""
+  username: Salsa4Water
+facebook: https://www.facebook.com/events/3372982546282198
+eventType: Course
+form: No
+watch:
+  count: 1
+  list:
+    Salsa4Water: true
+createdBy: xWWNktVM8ZaH5SdUSEFeFrGPPC13
+name: Cuban Salsa Classes - Free for Beginners
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-04T19:00
+username: Salsa4Water
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FcM1QtnWqgY0n7wcH7yrb.png?generation=1671096255804916&alt=media
+telegram:
+  requestedAt: 1671096261015
+  messageUrl: https://t.me/WeDanceBerlin/105
+  publishedAt: 1671096264455
+  messageId: 105
+  state: published
+viewsCount: 9
+id: cM1QtnWqgY0n7wcH7yrb

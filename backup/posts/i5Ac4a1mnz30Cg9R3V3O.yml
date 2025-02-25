@@ -1,0 +1,47 @@
+endDate:
+  _seconds: 1621098000
+  _nanoseconds: 0
+description: Some beautiful salsa and bachata tracks for two hours on worldsalsaradio.com
+type: event
+duration: "120"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FwW4OHZqHHUQk3DAfF9HJ3KkfBEm2%2Fc06f58f3-c26e-492a-add3-597b416976df?alt=media&token=ce6b7d23-3600-4e74-ac66-a4182e2643ab
+createdAt: 1620670279090
+watchersCount: 0
+price: Free
+commentsLast: ~
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+id: i5Ac4a1mnz30Cg9R3V3O
+updatedAt: 1620670279090
+address: worldsalsaradio.com
+updatedBy: wW4OHZqHHUQk3DAfF9HJ3KkfBEm2
+visibility: Public
+eventType: Show
+form: No
+createdBy: wW4OHZqHHUQk3DAfF9HJ3KkfBEm2
+commentsCount: 0
+name: Musica Sin Fronteras - worldsalsaradio.com
+styles:
+  Bolero:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Karlsruhe
+  location:
+    country: Germany
+    latitude: 49.0068901
+    locality: Karlsruhe
+    usedGps: false
+    place_id: ChIJCXjgokgGl0cRf-63THNV_LY
+    longitude: 8.4036527
+startDate: 2021-05-15T15:00:00.000Z
+username: DjPrachi
+viewsCount: 53

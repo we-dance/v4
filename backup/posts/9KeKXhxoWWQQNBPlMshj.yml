@@ -1,0 +1,101 @@
+venue:
+  website: http://www.salsabor.de/
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80798"
+      short_name: "80798"
+  url: https://maps.google.com/?cid=13068910098957006739
+  name: Salsabor Dance Academy
+  geometry:
+    viewport:
+      south: 48.1506543197085
+      north: 48.1533522802915
+      east: 11.5672969802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  international_phone_number: +49 89 52059610
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+endDate:
+  _seconds: 1642543200
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+type: event
+promo: No
+duration: "240"
+createdAt: 1642365273768
+price: 10 EUR (Students 7 EUR)
+promoter: Lakkana
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+international: No
+updatedAt: 1642365273768
+website: http://www.salsabor.de/kursanmeldung/
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+eventType: Other
+organiser: ""
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Schnupperkurs & Übungsabend
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-01-18T19:00
+username: Lakkana
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Fb89592d3-5cd1-452d-b0c7-c6b54f3131b8?alt=media&token=ae95fd42-c793-4aa2-979f-e266dae20efb
+id: 9KeKXhxoWWQQNBPlMshj
+description: |-
+  Salsa Schnupperkurs - 19.00 to 20.00
+  Salsa & bachata Übungsabend - 20.00 to 23.00
+  http://www.salsabor.de/kursanmeldung/
+watch:
+  count: 2
+  list:
+    Theresa: true
+    Marcos: true
+viewsCount: 73

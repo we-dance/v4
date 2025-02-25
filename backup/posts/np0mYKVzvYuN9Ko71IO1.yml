@@ -1,0 +1,317 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327044581
+updatedAt: 1732327044581
+importedAt: 1732327044581
+providerId: goandance
+providerItemId: "7244"
+name: BAM - Bachata Masquerade 2025
+description: >-
+  ¡BAM! Nuevo festival, nueva ubicación y artistas de renombre...😉
+
+
+  ¡Reserva las fechas del 22 y 23 de febrero de 2025 porque llega Bachata Enmascarada! Prepárate para disfrutar de 7 artistas internacionales y croatas, una glamorosa fiesta de gala con máscaras, todo en un hotel de lujo en Velika Gorica.
+
+
+  ¿Te suena tentador? Compra tus entradas ahora, porque cada vez que lo pospones, ¡el precio sube!
+
+
+  ¡No te pierdas el evento de baile del año!
+sourceUrl: https://www.goandance.com/es/e/7244?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7244?promoter=WEDANCE123
+type: event
+startDate: 1740092400000
+endDate: 1740265200000
+tickets:
+  - name: Full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1727816400
+      _nanoseconds: 0
+    discount: 10
+    price: 80
+    comission: 3.93
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1730498400
+      _nanoseconds: 0
+    discount: 10
+    price: 85
+    comission: 3.93
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1740088800
+      _nanoseconds: 0
+    discount: 10
+    price: 90
+    comission: 3.93
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1740261600
+      _nanoseconds: 0
+    discount: 10
+    price: 110
+    comission: 3.93
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Party pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1727816400
+      _nanoseconds: 0
+    discount: 2
+    price: 10
+    comission: 3.93
+    originalPrice: 12
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Party pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1730498400
+      _nanoseconds: 0
+    discount: 2
+    price: 13
+    comission: 3.93
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Party pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1740088800
+      _nanoseconds: 0
+    discount: 2
+    price: 18
+    comission: 3.93
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Party pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1740175200
+      _nanoseconds: 0
+    discount: 2
+    price: 38
+    comission: 3.93
+    originalPrice: 40
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Marco y Paola (3 workshops)
+    description: ""
+    priceValidUntil:
+      _seconds: 1727816400
+      _nanoseconds: 0
+    discount: 10
+    price: 30
+    comission: 3.93
+    originalPrice: 40
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Marco y Paola (3 workshops)
+    description: ""
+    priceValidUntil:
+      _seconds: 1730498400
+      _nanoseconds: 0
+    discount: 10
+    price: 35
+    comission: 3.93
+    originalPrice: 45
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Marco y Paola (3 workshops)
+    description: ""
+    priceValidUntil:
+      _seconds: 1740088800
+      _nanoseconds: 0
+    discount: 10
+    price: 40
+    comission: 3.93
+    originalPrice: 50
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Marco y Paola (3 workshops)
+    description: ""
+    priceValidUntil:
+      _seconds: 1740261600
+      _nanoseconds: 0
+    discount: 10
+    price: 60
+    comission: 3.93
+    originalPrice: 70
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Couple full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1727816400
+      _nanoseconds: 0
+    discount: 10
+    price: 145
+    comission: 3.93
+    originalPrice: 155
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Couple full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1730498400
+      _nanoseconds: 0
+    discount: 10
+    price: 150
+    comission: 3.93
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Couple full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1740088800
+      _nanoseconds: 0
+    discount: 10
+    price: 170
+    comission: 3.93
+    originalPrice: 180
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: Couple full pass
+    description: ""
+    priceValidUntil:
+      _seconds: 1740261600
+      _nanoseconds: 0
+    discount: 10
+    price: 220
+    comission: 3.93
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: VIP pass
+    description: Full pass, Hotel accomodation (one night 22-23 of Februray),  spa
+      and breakfest, BAM T-shirt, priority enterence
+    priceValidUntil:
+      _seconds: 1727816400
+      _nanoseconds: 0
+    discount: 10
+    price: 130
+    comission: 3.93
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: VIP pass
+    description: Full pass, Hotel accomodation (one night 22-23 of Februray),  spa
+      and breakfest, BAM T-shirt, priority enterence
+    priceValidUntil:
+      _seconds: 1730498400
+      _nanoseconds: 0
+    discount: 10
+    price: 160
+    comission: 3.93
+    originalPrice: 170
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: VIP pass
+    description: Full pass, Hotel accomodation (one night 22-23 of Februray),  spa
+      and breakfest, BAM T-shirt, priority enterence
+    priceValidUntil:
+      _seconds: 1740088800
+      _nanoseconds: 0
+    discount: 10
+    price: 290
+    comission: 3.93
+    originalPrice: 300
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+  - name: VIP pass
+    description: Full pass, Hotel accomodation (one night 22-23 of Februray),  spa
+      and breakfest, BAM T-shirt, priority enterence
+    priceValidUntil:
+      _seconds: 1740088800
+      _nanoseconds: 0
+    discount: 10
+    price: 190
+    comission: 3.93
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7244-bam-bachata-masquerade-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327046/l5f6tta6jhzw1jhsn8vs.jpg
+venue:
+  address_components:
+    - long_name: 1A
+      short_name: 1A
+      types:
+        - street_number
+    - long_name: Rakarska ulica
+      short_name: Rakarska ul.
+      types:
+        - route
+    - long_name: Velika Gorica
+      short_name: Velika Gorica
+      types:
+        - locality
+        - political
+    - long_name: Grad Velika Gorica
+      short_name: Grad Velika Gorica
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Zagrebačka županija
+      short_name: Zagrebačka županija
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Croatia
+      short_name: HR
+      types:
+        - country
+        - political
+    - long_name: "10410"
+      short_name: "10410"
+      types:
+        - postal_code
+  formatted_address: Rakarska ul. 1A, 10410, Velika Gorica, Croatia
+  geometry:
+    location:
+      lat: 45.71812420000001
+      lng: 16.0769383
+    viewport:
+      northeast:
+        lat: 45.7194035302915
+        lng: 16.0783067302915
+      southwest:
+        lat: 45.7167055697085
+        lng: 16.0756087697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +385 1 5544 500
+  name: Hotel Garden Hill
+  place_id: ChIJU69gRGN-ZkcRbySme3Ecq1A
+  url: https://maps.google.com/?cid=5812771017783125103
+  website: http://www.hotel-garden-hill.hr/
+place: ChIJRwO2gGeHZkcRkLcrhlCtAAQ
+price: 90 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1740092400000+ChIJU69gRGN-ZkcRbySme3Ecq1A
+org: ""
+id: np0mYKVzvYuN9Ko71IO1

@@ -1,0 +1,156 @@
+venue:
+  website: https://togather-restaurant.com/
+  formatted_address: Schwanthalerstraße 160, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "160"
+      short_name: "160"
+    - types:
+        - route
+      long_name: Schwanthalerstraße
+      short_name: Schwanthalerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  url: https://maps.google.com/?cid=2922041413195276671
+  name: togather CAFÉ & RESTAURANT
+  geometry:
+    viewport:
+      south: 48.1365342697085
+      north: 48.1392322302915
+      east: 11.5449987302915
+      west: 11.5423007697085
+    location:
+      lng: 11.543676
+      lat: 48.1379419
+  international_phone_number: +49 89 54030651
+  place_id: ChIJa6Dc2B13nkcRfyF8BC8tjSg
+endDate: 2021-10-20T20:30:00.000Z
+organisedBy: ""
+claimed: No
+link: https://docs.google.com/forms/d/e/1FAIpQLSd3nbh3XuDh528cJDF-Hjm1giIx90GlT1wYrYUoQSqQpdRNbQ/viewform?usp=sf_link
+description: >+
+  Ein Abend, an dem für jeden was dabei ist: Wer will kann in einem Raum
+  Gemeinschaftsspiele spielen und neue Bekannschaften schließen bei einem
+  alkoholhaltigen - oder alkoholfreien Getränk für 3 Euro. Nebenan wird
+  Tanzunterricht gegeben und später Freies Tanzen stattfinden, sodass man auch
+  nachträglich dazustoße kann. 
+
+  Aber nicht mit Straßenschuhen :-)
+
+
+
+  Intensivkurse , Freies Tanzen und Spieleabend
+
+  19.Oktober, 26.Oktober, 2.November und 09.November
+
+
+  17:50Uhr: Latinotänze ( Samba, Forró, Salsa, merengue, Bachata...)
+
+  18:55Uhr: Forró Anfänger und Anfänger Plus 
+
+  20:00Uhr: Samba de Gafieira Anfänger und  Anfänger Plus 
+
+  21-22:30Uhr: Freies Tanzen und  Spieleabend ( verschiedene Karten und Brettspielen)
+
+
+
+
+
+  Alle Teilnehmer müssen die 3G-Regel befolgen. Und dafür  sich Anmelden 
+   
+  Link zu Anmelden 
+
+  https://docs.google.com/forms/d/e/1FAIpQLSd3nbh3XuDh528cJDF-Hjm1giIx90GlT1wYrYUoQSqQpdRNbQ/viewform?usp=sf_link
+
+
+
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2Fce4ccd7a-e18c-45f1-9775-6eb6bebf1a93?alt=media&token=628eaa6b-4d54-48a2-a328-787655a09513
+promo: ""
+duration: custom
+createdAt: 1634495006546
+watchersCount: 0
+price: 10 EUR
+commentsLast: ~
+promoter: Vitali
+id: VA6txj4sAu4fDUMcerj0
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+international: No
+views: 22
+updatedAt: 1634495006546
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/mini-kurse-freies-tanzen-und-s/230743999099664/
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Mini Kurse und freies Tanzen
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-26T15:50:00.000Z
+username: Vitali
+viewsCount: 23

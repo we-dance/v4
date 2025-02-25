@@ -1,0 +1,162 @@
+sourceUrl: https://facebook.com/events/s/chango-thursdays-chiswick-sals/363426120011827/
+createdAt: 1720621940118
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720621940118
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Airedale Ave, Chiswick, London W4 2NW, UK
+  website: http://www.thehogarth.co.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The Hogarth Health Club
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.2503817302915021
+        lat: 51.4903303697085
+      northeast:
+        lng: -0.247683769708498
+        lat: 51.49302833029149
+    location:
+      lng: -0.24923
+      lat: 51.49166399999999
+  address_components:
+    - types:
+        - route
+      short_name: Airedale Ave
+      long_name: Airedale Avenue
+    - types:
+        - neighborhood
+        - political
+      short_name: Chiswick
+      long_name: Chiswick
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: W4 2NW
+      long_name: W4 2NW
+  international_phone_number: +44 20 8995 4600
+  place_id: ChIJRbsaxkcOdkgRNbZ5upg41bA
+  url: https://maps.google.com/?cid=12742152949329409589
+endDate: 1720734300000
+claimed: No
+link: ""
+description: >-
+  *JOIN US FOR OUR 100% AUTHENTIC LATIN EXPERIENCE*
+
+
+  Every Thursday at the Hogarth Club in Chiswick, join our Salsa and Bachata classes and put your moves into practice with music and social dancing till late!
+
+
+  LOCATION
+
+  Hogarth Health Club, Airedale Avenue, Chiswick, London W4 2NW
+
+
+  CLASSES & SOCIAL
+
+
+  Bachata Classes --> 7.30-8.30 pm
+
+  Salsa Classes --> 8.40-9.40 pm
+
+  Social Dancing --> Till 10.45pm
+
+  PLEASE NOTE
+
+
+  Absolute beginners warmly welcomed
+
+  There's a bar at the venue
+
+  2 levels of Salsa & Bachata
+
+  Fun & Friendly classes and community
+
+  100% Authentic Latin music all night
+
+  TRANSPORT & PARKING
+
+
+  Nearest station is Turnham Green (12min walk) or Stamford Brook (7min walk)
+
+  Free parking nearby.
+
+  COST & STUDIO CLASSES
+
+
+  £13 for both classes or £10 for just social only
+
+  For more info on our studio classes please visit https://calibeatdance.com/timetable/
+
+  SOCIALS
+
+
+  https://www.instagram.com/calibeatdance
+
+  https://www.facebook.com/calibeatdance
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJuftOanAOdkgR7TaUo1gZL8g
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/363426120011827/?event_time_id=363426246678481
+facebookId: "363426246678481"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Changó Thursdays - Chiswick Salsa & Bachata Classes & Party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1720722600000+ChIJRbsaxkcOdkgRNbZ5upg41bA
+startDate: 1720722600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720621942/hxzkznrv59pseeiwykia.jpg
+org:
+  owner: ""
+  importedAt: 1720621940901
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/calibeatdance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621941/cubmp6it75hv5v7xhj0p.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1720621940901
+  owned: false
+  name: Cali Beat Dance
+  place: ChIJuftOanAOdkgR7TaUo1gZL8g
+  updatedAt: 1720621940901
+  username: calibeatdance
+id: DUdQFVy0cZymF5WTLgGW

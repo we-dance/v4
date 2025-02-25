@@ -1,0 +1,46 @@
+timezone: GMT+0200
+type: Dancer
+community: Berlin
+createdAt: 1616954080309
+createdBy: shqBOINPltPaSGnAXXE1VYmIm7L2
+name: Irina
+username: Irina
+pwaUsed: false
+hometown: ""
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+visibility: Members
+partner: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FshqBOINPltPaSGnAXXE1VYmIm7L2%2F034d6803-edba-4ee4-92e3-7c59532d1b2f?alt=media&token=0092c05b-0d43-4400-863a-030a7f6060e0
+weight: "55"
+permission: No
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+id: shqBOINPltPaSGnAXXE1VYmIm7L2
+locales:
+  el: true
+  en: true
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FIrina.png?generation=1617300371088421&alt=media
+updatedBy: 4CNXB84fF6aLRVQQDXb1lZVlrbu2
+savedBy: {}
+updatedAt: 1617727303170
+height: "165"
+lastLoginAt: 1618042716976
+daysUsed: 9

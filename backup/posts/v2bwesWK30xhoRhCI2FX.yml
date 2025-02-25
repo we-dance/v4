@@ -1,0 +1,101 @@
+venue:
+  formatted_address: Puricellistraße 40, 93049 Regensburg, Germany
+  website: http://swingmaniacs.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Swingmaniacs
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 12.0586447802915
+      south: 49.0212258197085
+      north: 49.0239237802915
+      west: 12.0559468197085
+    location:
+      lng: 12.0572873
+      lat: 49.0226797
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Puricellistraße
+      long_name: Puricellistraße
+    - types:
+        - locality
+        - political
+      short_name: Regensburg
+      long_name: Regensburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Regensburg
+      long_name: Kreisfreie Stadt Regensburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberpfalz
+      long_name: Oberpfalz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "93049"
+      long_name: "93049"
+  international_phone_number: +49 160 95462951
+  place_id: ChIJVVUVtKfBn0cRNv7lqMIxqAw
+  url: https://maps.google.com/?cid=912033636669586998
+endDate: 2023-07-16T18:00
+claimed: No
+description: |-
+  Save the date !
+  Live Forró Music
+  Forró Dance and Music Workshops
+  Free dancing
+  And lots of fun, joy and love :)
+  Details coming soon !
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGiz3aqG1Q2aDf5vnGLebQvPkoLB2%2Fa1c204c1-d37b-4b6a-8983-35c5c7a86383?alt=media&token=801897a4-84b9-40e7-86e8-6a3c4af13828
+createdAt: 1681202433523
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ9y4icpjBn0cREMs3CaQlHQQ
+international: No
+updatedAt: 1681202433524
+updatedBy: Giz3aqG1Q2aDf5vnGLebQvPkoLB2
+visibility: Public
+org:
+  instagram: https://instagram.com/@forroregensburg
+  username: "@forroregensburg"
+facebook: https://facebook.com/events/s/forro-regensburg-sommerfest/1350831262314282/
+eventType: Festival
+form: No
+createdBy: Giz3aqG1Q2aDf5vnGLebQvPkoLB2
+watch:
+  count: 1
+  list:
+    FReg: true
+name: Forró Regensburg Sommerfest
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-14T18:00
+username: FReg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fv2bwesWK30xhoRhCI2FX.png?generation=1685894534318431&alt=media
+viewsCount: 60
+id: v2bwesWK30xhoRhCI2FX

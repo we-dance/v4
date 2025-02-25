@@ -1,0 +1,54 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1624902864277
+createdBy: 6CkXw0dunRfQPn8PolO62R6cFjs1
+name: Apfeltanz
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Apfeltanz
+pwaUsed: true
+bio: I love dancing Salsa cubana!
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6CkXw0dunRfQPn8PolO62R6cFjs1%2F972e1ceb-5c78-47e4-96ee-3b5da4817a66?alt=media&token=b58d31ae-193c-40a7-ba9f-c3f4b887713f
+styles:
+  Schottische:
+    level: Beginner
+    highlighted: true
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: true
+    selected: true
+  SensualBachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: true
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: true
+    selected: true
+  Latin:
+    level: Advanced
+    highlighted: false
+    selected: true
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+locales:
+  de: true
+  en: true
+  es: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FApfeltanz.png?generation=1624978782000805&alt=media
+updatedBy: ydKaHhCUvPfjvTDCP6wYN57ewEN2
+savedBy:
+  ydKaHhCUvPfjvTDCP6wYN57ewEN2: true
+updatedAt: 1628463341171
+lastLoginAt: 1628793674069
+daysUsed: 4
+id: 6CkXw0dunRfQPn8PolO62R6cFjs1

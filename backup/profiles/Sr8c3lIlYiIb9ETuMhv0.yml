@@ -1,0 +1,50 @@
+createdAt: 1718743247718
+website: https://maps.google.com/?q=Portsmouth,+UK&ftid=0x487442a41814f1e9:0x45b683ea03373b79
+rooms: ""
+address:
+  formatted_address: Portsmouth, UK
+  name: Portsmouth
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: -1.174968154437815
+        lat: 50.75016244025156
+      northeast:
+        lng: -1.018492180614025
+        lat: 50.85930910310679
+    location:
+      lng: -1.0879769
+      lat: 50.8197675
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Portsmouth
+      long_name: Portsmouth
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Portsmouth
+      long_name: Portsmouth
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+  url: https://maps.google.com/?q=Portsmouth,+UK&ftid=0x487442a41814f1e9:0x45b683ea03373b79
+  place_id: ChIJ6fEUGKRCdEgReTs3A-qDtkU
+gender: Other
+phone: ""
+name: Portsmouth
+updateAt: 1718743247718
+type: Venue
+map: ""
+username: portsmouth
+viewsCount: 1
+id: Sr8c3lIlYiIb9ETuMhv0

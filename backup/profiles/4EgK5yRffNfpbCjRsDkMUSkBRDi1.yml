@@ -1,0 +1,86 @@
+visibility: Public
+timezone: GMT+0100
+community: Munich
+createdAt: 1614792608250
+locales:
+  de: true
+  en: true
+  es: true
+createdBy: 4EgK5yRffNfpbCjRsDkMUSkBRDi1
+name: Seb
+username: Seb
+pwaUsed: false
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4EgK5yRffNfpbCjRsDkMUSkBRDi1%2F6126235e-5252-4d88-8679-ee0ebf884b61?alt=media&token=6c9dae10-3886-4c56-be7b-c0e9493ed491
+weight: "72"
+teacher: ""
+partner: Yes
+location:
+  country: Germany
+  locality: Munich
+  label: Munich
+socialCoverPublish: No
+socialCoverAt: 1614793458269
+story: >-
+  I'm a fan of Cuban music and dance styles. Currently, I'm focussing on Son and
+  Guaguancó as well as Yoruba basics.
+
+  I'm also interested in Colombian styles such as Champeta, Choke and Mapalé. 
+jobs: "I'm quite good in marketing and promotion. "
+styles:
+  RumbaGuaguanco:
+    level: Intermediate
+    selected: true
+  RumbaYambu:
+    level: Beginner
+    selected: true
+  Timba:
+    level: Intermediate
+    selected: true
+  RumbaColumbia:
+    level: Intermediate
+    selected: true
+  Dancehall:
+    level: Interested
+    selected: true
+  Reggaeton:
+    level: Beginner
+    selected: true
+  Son:
+    level: Intermediate
+    selected: true
+  Salsa:
+    level: Advanced
+    selected: true
+  Casino:
+    level: Advanced
+    selected: true
+  Twerking:
+    level: Interested
+    selected: true
+  Afro:
+    level: Beginner
+    selected: true
+height: "170"
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FSeb.png?generation=1614800905477386&alt=media
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+savedBy:
+  "null": true
+daysUsed: 24
+lastLoginAt: 1652625319511
+instagram: https://instagram.com/Salsa.cubana.munich
+offers: []
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: 4EgK5yRffNfpbCjRsDkMUSkBRDi1
+team: []
+type: Artist
+bio: DJ Timba & Afro-Cuban
+updatedAt: 1726832180028
+viewsCount: 121

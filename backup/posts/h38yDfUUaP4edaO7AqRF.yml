@@ -1,0 +1,128 @@
+createdAt: 1704821039756
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1381260436122035/
+source: facebook
+username: wedancebot
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4610187197085
+        lat: 48.1464650697085
+      northeast:
+        lng: 11.4637166802915
+        lat: 48.1491630302915
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  international_phone_number: +49 89 74039681
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  url: https://maps.google.com/?cid=8948474523406618165
+visibility: Public
+claimed: No
+facebookId: "1381260436122035"
+link: ""
+description: >-
+  Liebe Bachata-begeisterte Damen,
+
+
+  wir haben aufregende Neuigkeiten für euch! 
+
+
+  Ab Januar 2024 startet ein neues Bachata Choreografie Projekt mit der talentierten Silvina an der Spitze. 
+
+
+  Wir laden euch herzlich ein, euch bei Silvina unter silvina@salsa-mas.de zu melden, um weitere Informationen über das Projekt zu erhalten und euch anzumelden. Ganz gleich, ob ihr Anfängerinnen seid oder bereits Erfahrung in Bachata habt, dieses Projekt bietet für jeden etwas.
+
+  Meldet euch noch heute an und seid Teil dieser einzigartigen Erfahrung.
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: BACHATA LADY-STYLING PROJEKT MIT SILVINA IGOVA
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1707062400000+ChIJ0QgbwuJ3nkcRNc5IASteL3w
+startDate: 1707062400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fh38yDfUUaP4edaO7AqRF.png?generation=1704821053232905&alt=media
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: .nan
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsamás Munich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsalsamasmunich.png?generation=1644169115888529&alt=media
+  bio: ""
+  id: 4zHtG37DLPtSiFK0DQJZ
+  instagram: https://instagram.com/salsamasmunich
+  username: salsamasmunich
+artistsList: []
+id: h38yDfUUaP4edaO7AqRF
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F5fd8f9ec-cd7e-4316-adf5-a6b14e154072?alt=media&token=14e3aded-4984-4de9-8f89-d0d2c45094f9
+updatedAt: 1706455074302
+viewsCount: 24

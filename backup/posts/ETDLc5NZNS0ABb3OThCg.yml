@@ -1,0 +1,167 @@
+venue:
+  website: http://www.starnberg.de/
+  formatted_address: 82319 Starnberg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Starnberg
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4334957032158
+      south: 47.97293377253001
+      north: 48.03920186271066
+      west: 11.22362110009205
+    location:
+      lng: 11.3390089
+      lat: 47.9999615
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Starnberg
+      long_name: Starnberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: STA
+      long_name: Starnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Upper Bavaria
+      long_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bavaria
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82319"
+      long_name: "82319"
+  url: https://maps.google.com/?q=82319+Starnberg,+Germany&ftid=0x479dd029374171df:0x8e75ee3812388242
+  place_id: ChIJ33FBNynQnUcRQoI4EjjudY4
+claimed: No
+link: https://www.salsa-y-corazon.de/salsa-news-parties-events/grosse-salsa-tanzschifffahrt/
+description: >-
+  Endlich nach 2 Jahren Zwangspause dürfen wir wieder unsere legendäre Salsa
+  Tanzschifffahrt durchführen.
+
+
+  Salsa Tanzschifffahrt auf dem Starnberger See auf der MS Starnberg am Sonntag den 3. Juli 2022
+
+
+  - N.Y./L.A. Style und Cuban Dance Floor und natürlich auch Bachata 
+
+  - Gastronomie an Bord mit Bistro, Bar und Cocktails
+
+  - Tanzshows, DJs
+
+
+  ## Plan
+
+
+  - Einlass ab 19.30  Uhr am Ablege Steg Starnberg direkt an der S-Bahn (P+R Parkplätze)
+
+  - Abfahrt 19.45 Uhr. Das Schiff kann nicht warten.
+
+  - Ankunft 22.45 Uhr
+
+
+  ## Karten
+
+
+  werden nicht mehr reserviert oder verschickt sondern sind nur online zu buchen hier auf der Seite.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F329a1efa-8cfe-41f9-af4a-86b114db7373?alt=media&token=75ccfd2c-8b9b-496c-867b-f8625cf5396c
+promo: ""
+duration: custom
+createdAt: 1652961957165
+price: 37 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1652961957165
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: tanzschule_salsa_y_corazon
+  photo: ""
+  bio: ""
+  instagram: tanzschule_salsa_y_corazon
+  id: VNshyxohYMiHvS7XxiIw
+  username: tanzschule_salsa_y_corazon
+eventType: Festival
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Große SALSA-Tanzschifffahrt
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-03T19:30
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FETDLc5NZNS0ABb3OThCg.png?generation=1652961971393681&alt=media
+id: ETDLc5NZNS0ABb3OThCg
+endDate:
+  _seconds: 1656873000
+  _nanoseconds: 0
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: "Marion Morena "
+    name: Morena
+    bio: "Dance school owner, festival organiser, dance instructor for Salsa,
+      Bachata and Kizomba "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FLFoKqVBwSpYYkfNNAAst2m3KONw2%2Ffad2bcbe-7bf7-4e0b-bd00-1a9bb758c721?alt=media&token=c5c9717b-a944-44b9-9bed-277acb7fa8d9
+    instagram: ""
+    id: LFoKqVBwSpYYkfNNAAst2m3KONw2
+    username: Morena
+  - instagram: emerson_aka_emi
+    username: emerson_aka_emi
+  - instagram: vranagan
+    username: vranagan
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Diamarys
+    bio: "Cuban artist. Graduated from the Higher Institute of Art in Havana: ISA
+      Profesional dancer and Teacher"
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F81504cf3-758b-46a2-9588-143202e18825?alt=media&token=6100dbba-9871-4b75-bb07-23eb4bfd139e
+    id: A8yGlV4lX1flTO1QwLOP3oMThNQ2
+    instagram: https://instagram.com/diama_nte
+    username: Diamarys
+artistsList:
+  - Morena
+  - emerson_aka_emi
+  - vranagan
+  - Diamarys
+viewsCount: 39

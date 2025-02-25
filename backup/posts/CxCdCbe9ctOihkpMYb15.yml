@@ -1,0 +1,107 @@
+sourceUrl: https://facebook.com/events/s/salsa-in-the-park/1527148728011160/
+createdAt: 1720621964950
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720621964950
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Hyde Park, London W2 2UH, UK
+  website: https://www.royalparks.org.uk/whats-on/hyde-park-bandstand-concerts
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Hyde Park Bandstand
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.157844180291502
+        lat: 51.50353511970851
+      northeast:
+        lng: -0.155146219708498
+        lat: 51.5062330802915
+    location:
+      lng: -0.1564583
+      lat: 51.5050116
+  address_components:
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: W2 2UH
+      long_name: W2 2UH
+  international_phone_number: +44 300 061 2000
+  place_id: ChIJD7ltkDAFdkgR6zD3wKu-IBE
+  url: https://maps.google.com/?cid=1234195942785626347
+endDate: 1720980000000
+claimed: No
+link: ""
+description: >-
+  This Sunday 14 July 2024 at Hyde Park bandstand 1pm-7pm or later. 
+
+  Pre-event open level classes FREE (donations welcome): 
+
+  1pm-2pm Open level Salsa Partner work; 2pm-3pm Rueda de Casino.
+
+  DM Chris Diamond 07463818822 to confirm your interest in classes to help  manage numbers. 
+
+  3pm-7pm or later FREE SOCIAL.
+
+
+  No partner required.  Playing the best in Salsa & Bachata.  Nearest tube Hyde Park Corner.  See you all in the park 🙌🏽🫶🏽🥳
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1527148728011160/
+facebookId: "1527148728011160"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa in the Park
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1720958400000+ChIJD7ltkDAFdkgR6zD3wKu-IBE
+startDate: 1720958400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720621966/sgl38nkcaw6svnhoudnu.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid02EFMSUsSZeBL3frJCnq2GQ93yz7MqCDxaYdX6rrZK1BNF97uwbrckpfXzZJpnaZ4Ml
+  name: Chris Diamond
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621965/xbbmtynjtoatboqpar6j.jpg
+  bio: ""
+  id: LotYEJITIOWzKYkkBjjT
+  instagram: ""
+  username: chris.diamond
+id: CxCdCbe9ctOihkpMYb15

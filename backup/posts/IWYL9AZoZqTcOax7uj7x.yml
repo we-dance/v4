@@ -1,0 +1,127 @@
+createdAt: 1704822884645
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1041566306890290/
+source: facebook
+updatedAt: 1704822884645
+username: wedancebot
+venue:
+  formatted_address: 950 Lake Carillon Dr, St. Petersburg, FL 33716, USA
+  website: https://www.hilton.com/en/hotels/piecahf-hilton-st-petersburg-carillon-park/?SEO_id=GMB-AMER-HH-PIECAHF&y_source=1_MTIyMDk4MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hilton St. Petersburg Carillon Park
+  geometry:
+    viewport:
+      southwest:
+        lng: -82.6672096802915
+        lat: 27.8891127697085
+      northeast:
+        lng: -82.6645117197085
+        lat: 27.8918107302915
+    location:
+      lng: -82.6658049
+      lat: 27.8904141
+  address_components:
+    - types:
+        - street_number
+      short_name: "950"
+      long_name: "950"
+    - types:
+        - route
+      short_name: Lake Carillon Dr
+      long_name: Lake Carillon Drive
+    - types:
+        - locality
+        - political
+      short_name: St. Petersburg
+      long_name: St. Petersburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Pinellas County
+      long_name: Pinellas County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: FL
+      long_name: Florida
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "33716"
+      long_name: "33716"
+  international_phone_number: +1 727-540-0050
+  place_id: ChIJk3R-AsHlwogRdoSnjlg7bX0
+  url: https://maps.google.com/?cid=9037945278738957430
+visibility: Public
+endDate: 1714899600000
+org:
+  owner: ""
+  importedAt: 1704822887973
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BailaTampaDanceFest
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271172150_103450378887640_6367722633672107117_n.jpg?stp=c13.0.40.40a_cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=9L5IrQISCpoAX_QfakQ&_nc_ht=scontent-iad3-1.xx&oh=00_AfBvIVLWZGe2_WsFrDxdIxulah4WJRADHrXortUzGUoH-A&oe=65A26E2E
+  source: facebook
+  type: Organiser
+  createdAt: 1704822887973
+  owned: false
+  name: Baila Tampa Latin Dance Fest
+  place: ChIJQao6aWPmwogR_4vUvANAzAQ
+  updatedAt: 1704822887973
+  username: BailaTampaDanceFest
+claimed: No
+facebookId: "1041566306890290"
+link: https://www.tickettailor.com/events/bailatampalatindancefest/1035592#
+description: >-
+  Welcome to the 3rd annual Baila Tampa Latin Dance Fest. 
+
+  Come enjoy over 40 dance workshops, dance challenges and masterclasses from top of the line instructors, nightly showcases, insane pool parties, top Dj's, all the Latin dancing your body can handle.
+
+  Prices will increase accordingly: On the 1st of each month leading up to the event. Tickets are non-refundable. They may be transferable. Prices at the door will differ from online. All online sale end May 1st, 2024.
+
+
+  Hotel:
+
+  Hilton Carillon Park St. Pete.
+
+
+  Hotel link for reservations:
+
+  https://tinyurl.com/4pj3a9kv
+
+  No resort fee, Public parking available, $179 room block discount
+
+
+  Ticket:
+
+  https://www.tickettailor.com/events/bailatampalatindancefest/1035592#
+program: []
+eventType: Workshop
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Baila Tampa Latin Dance Fest 2024
+online: No
+styles:
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJQao6aWPmwogR_4vUvANAzAQ
+international: No
+hash: 1714698900000+ChIJk3R-AsHlwogRdoSnjlg7bX0
+startDate: 1714698900000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FIWYL9AZoZqTcOax7uj7x.png?generation=1704822907901398&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851860/hilq7mj1imchcnrfnxgh.jpg
+viewsCount: 10
+id: IWYL9AZoZqTcOax7uj7x

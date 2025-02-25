@@ -1,0 +1,205 @@
+sourceUrl: https://www.facebook.com/events/777987084209011/
+createdAt: 1710856704837
+createdBy: HiqSZ7LXx5SwePvO2KAU5gtaTBO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: DanceCommunityMunich
+claimed: No
+link: ""
+description: >
+  Liebe Freunde, wir laden euch zur GRÖßTEN LATINO PARTY Münchens, im
+  Muffatwerk! 🌟 🎉 Zwei Bereiche erwarten euch:
+
+
+  1. Im AMPERE AB 23 Uhr‼️ Tanzen wir zu den besten Reggaeton-Hits mit unserer resident DJ: DJ Yenny & Tori Segura!
+
+
+  2. Im MUFFATCAFÉ AB 22 Uhr‼️ Erlebt ihr die Vielfalt lateinamerikanischer Musik: von Salsa bis Bachata und Merengue, präsentiert von DJ Silber!
+
+
+  👉🏼 Zum Beginn der Party bieten wir einen kostenlosen BACHATA Schnupperkurs mit Antonio Santana 🇻🇪 an! 💃🏽
+
+
+  Die MORE LATINO Party ist der perfekte Ort, um neue Leute kennenzulernen, Spaß zu haben und das Tanzbein zu schwingen. Egal, ob ihr erfahrener Tänzer oder Anfänger seid, hier ist jeder willkommen. Bringt eure Freunde mit und erlebt eine unvergessliche Nacht voller Musik und Tanz.💃🏽🕺🏽🎊
+
+
+  💎🌟 MORE LATINO🌟💎
+
+  📆 Samstag 06.04.24
+
+  🕚 22:00 - 05:00Uhr
+
+  📍 Muffatwerk: AMPERE & MUFFATCAFFÉ - Zellstr. 4.
+
+  🎟️ Tickets: Early Bird: 10€
+
+  - Abendkasse: 15€ / Studenten 12€ 
+
+  Ticket-Link 👉🏼 https://www.eventbrite.de/e/856310747497
+
+
+  Vorverkauf Tickets sind günstiger als Tickets an der Abendkasse, beinhalten jedoch nicht einen schnelleren Einlass!!
+
+
+  Bis bald auf der Tanzfläche! 🎶🔥😄
+
+
+  🍍🌴🎉🍾🍍🌴🎉🍾
+
+
+  Queridos amigos y amigas,
+
+
+  ¡Únanse a la fiesta latina más espectacular de Múnich en el Muffatwerk! Dos áreas les esperan: en el AMPERE, disfruta de lo mejor del REGGAETON y Latin Urban con nuestras DJ Yenny & Tori Segura!
+
+
+  En el MUFFATCAFÉ, experimentarás la diversidad de la música latina crossover, desde Salsa hasta Bachata, Merengue, hits latinos clásicos SIN REGGAETON! Presentado por DJ Silber 🇨🇴. También habrá un curso gratuito de Bachata al inicio de la fiesta.
+
+  ¿Están listos para bailar hasta que salga el sol?☀️😎 Los esperamos el sábado 06 de Abril a las 22:00h en el MUFFATWERK - Zellstr. 4
+
+
+  ¡Invita a tus amigos y vive una noche inolvidable llena de música y baile!💃🏽🕺🏽🎊
+
+
+  🎟️ Entradas Early Bird: 10€
+
+  En la puerta 15€, Estudiantes 12€
+
+  👉🏼 https://www.eventbrite.de/e/856310747497
+
+
+  ¡Nos vemos pronto en la pista de baile! 🎶🔥😄
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/777987084209011/
+facebookId: "777987084209011"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: MORE LATINO! Party auf 2 Areas - Muffatwerk
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1712433600000+ChIJGZydHH3fnUcR4OmcAeTMGVE
+startDate: 1712433600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710856712/pdq6u72vualxys33wjox.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FO0WGtKWqOwPy7Rv1VNoR.png?generation=1710856724779458&alt=media
+star:
+  count: 3
+  usernames:
+    - DanceCommunityMunich
+    - Viacheslav
+    - efleury
+  history:
+    - username: Viacheslav
+      date: 1712078939403
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: efleury
+      date: 1712413156437
+      invitedBy: ""
+      uid: Cqv6puRrQVbprrPwogm4zlJzW8h2
+      action: joined
+viewsCount: 16
+venue:
+  website: http://www.muffatwerk.de/
+  formatted_address: Zellstraße 4, 81667 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Muffathalle
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.58780736970849
+        lat: 48.1314236697085
+      northeast:
+        lng: 11.5905053302915
+        lat: 48.1341216302915
+    location:
+      lng: 11.5893659
+      lat: 48.1328889
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Zellstraße
+      long_name: Zellstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81667"
+      long_name: "81667"
+  international_phone_number: +49 89 45875000
+  place_id: ChIJGZydHH3fnUcR4OmcAeTMGVE
+  url: https://maps.google.com/?cid=5843927271141599712
+  username: muffatwerk
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: .nan
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/latinscene.munich
+  name: LATIN SCENE
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954299/bo21h9b2ougvabtgvf1a.jpg
+  bio: |-
+    Kulturveranstalter 📍MUNICH 🇩🇪 🌎
+
+    @planet.reggaeton @dj.yenny 💯
+
+    Join the Latin community
+  id: tmDC5QtoaTZPBYUEM1Ia
+  instagram: https://www.instagram.com/latinscene.munich/
+  username: latinscene.munich
+id: O0WGtKWqOwPy7Rv1VNoR
+updatedAt: 1715685881319

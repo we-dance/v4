@@ -1,0 +1,50 @@
+visibility: Members
+timezone: GMT+0100
+createdAt: 1639062938063
+locales:
+  de: true
+  en: true
+  es: true
+createdBy: zAhKmN6zpXMpbsMsm3JvHrcaaAc2
+name: TiMueve
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: TiMueve
+pwaUsed: false
+styles:
+  RumbaGuaguanco:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Timba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Son:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Afro:
+    level: Advanced
+    highlighted: false
+    selected: true
+contacts: ""
+cities:
+  ChIJKSshOsWinkcRoOeL161IHgQ: true
+viewsCount: 1
+bannerNps: no
+updatedAt: 1668916736359
+gender: ""
+partner: ""
+permission: ""
+type: Artist
+daysUsed: 4
+lastLoginAt: 1670208871176
+id: zAhKmN6zpXMpbsMsm3JvHrcaaAc2

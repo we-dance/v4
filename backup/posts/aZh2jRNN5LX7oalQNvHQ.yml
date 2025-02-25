@@ -1,0 +1,190 @@
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: meet & DANCE - Die Tanzschule GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4490632802915
+      south: 48.2429800697085
+      north: 48.2456780302915
+      west: 11.4463653197085
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  international_phone_number: +49 8131 317151
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  url: https://maps.google.com/?cid=5524201826745450349
+claimed: No
+link: https://www.bachata-kis-dachau.de/de/event-details-registration/pre-halloween-festival
+description: >
+  Dear Dance Community,
+
+  we are so excited to be hosting the PRE-HALLOWEEN FESTIVAL from Oct 27th-29th in Dachau this year!
+
+  This event is sure to be a delight for all who attend, and we have put together an amazing lineup of Artists and DJs. We have the great Bachata Sensual Instructors Yatin and Nikol from Prague at our Festival. You can expect 4 hours of Bachata Workshops with them to improve your high level with some real advanced tricks, techniques and learn some new dancing skills. We also have Fajul from Kizztalk Dance Academy Munich and Inna Jadore (Munich) with us. Both of them are international Urban Kiz Instructors and they will bring your dancing skills to a new level. 
+
+  We have more than 13 DJs for you playing the best Bachata, Kizomba and Salsa beats.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2F76440f85-f6f3-4af0-b3a4-9739bcf5b090?alt=media&token=a8e037c6-4acc-4f27-8d9b-ed818ad59c62
+createdAt: 1694099009307
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "Ernest "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+    bio: ""
+    id: XyetYZADJTTwLfv6SvqeX0tqcT63
+    instagram: https://instagram.com/Sokporvondupe
+    username: Ernest
+price: 5 - 169 EUR
+review: "https://www.bachata-kis-dachau.de/events-1 "
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - Ernest
+international: Yes
+gallery: https://www.bachata-kis-dachau.de/de/copy-of-team
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Ernest "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+  bio: ""
+  id: XyetYZADJTTwLfv6SvqeX0tqcT63
+  instagram: https://instagram.com/Sokporvondupe
+  username: Ernest
+facebook: https://fb.me/e/KWfL4RTv
+form: No
+createdBy: XyetYZADJTTwLfv6SvqeX0tqcT63
+watch:
+  count: 1
+  list:
+    Ernest: true
+online: Yes
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Ernest
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FaZh2jRNN5LX7oalQNvHQ.png?generation=1694268773367837&alt=media
+instagram:
+  requestedAt: 1694268784782
+  messageUrl: https://instagram.com/p/Cw-VhNXOADB
+  publishedAt: 1694268804207
+  messageId: Cw-VhNXOADB
+  state: published
+id: aZh2jRNN5LX7oalQNvHQ
+confirmation: >
+  
+  *WEDANCE-FP*
+
+  Promocode for your Fullpass 
+
+  5€ Rabatt (85€ statt 90€)
+
+
+  *WEDANCE-CP*
+
+  Promocode for your Couple-Pas
+
+  14€ Rabatt (155€ statt 169€)
+
+
+  Please do not mix up the codes!
+
+
+  ARTIST LINE-UP:
+
+  -Yatin & Nikol (Prague); International Bachata-Sensual- Instructors
+
+  -Fajul-Aladji (Kizztalk Dance Academie Munich); International Urban Kiz- Instructor
+
+  -Inna Jadore (Munich); Internationaler Urban Kiz- Instructor
+
+  -Sorin & Kathlen (Ulm); Urban Kiz- Instructor
+
+  -CHRIS & TINI (Augsburg); Bachata Sensual Instructors BOOTCAMP BEGINNER (2. hours)
+
+  -Bruno & Nicole (Ingolstadt); Bachata Sensual Instructors
+
+  ...and many more...
+
+
+  Homepage: https://www.bachata-kis-dachau.de
+
+
+  Artists & DJ Line up here: https://www.bachata-kis-dachau.de/de/copy-of-team
+
+  You can find the Upcoming Events / WorKshop Program here:
+
+  https://www.bachata-kis-dachau.de/events-1 
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1698546600000
+startDate: 1698429600000
+name: Pre-Halloween Festival
+eventType: Festival
+updatedAt: 1698183146383
+viewsCount: 51

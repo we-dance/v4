@@ -1,0 +1,126 @@
+endDate: 1718308800000
+claimed: No
+description: Let's bachata 💃🏻🕺🏻
+program: []
+instagram: {}
+type: event
+seriesId: 2xQGgmP3mUUCgB4gC9ED
+downVotes: 0
+bookmarks: 1
+duration: 180
+createdAt: 1717692823252
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: FREE
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: MBC
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Facf6feb4-46de-42f8-83b6-270f479358f2?alt=media&token=7485087f-23fd-46d5-aec7-b98aa375ad89
+  bio: Munich Bachata Community. Join our Whatsapp Group.
+  id: C1CcJNMaALXp63WAyoH3
+  instagram: ""
+  username: munich.bachata.community
+upVotes: 0
+telegram: {}
+eventType: Party
+hotDeal: ""
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Bachata Open Air
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1718298000000
+username: alexrazbakov
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fsw0ciNw3PCffVmr8H42v.png?generation=1717692862568106&alt=media
+id: sw0ciNw3PCffVmr8H42v
+venue:
+  formatted_address: Am Bavariapark 5, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Große Schnecke - Sweet Brown Snail
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5447593802915
+      south: 48.1306177197085
+      north: 48.1333156802915
+      west: 11.5420614197085
+    location:
+      lng: 11.5433264
+      lat: 48.1321483
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Am Bavariapark
+      long_name: Am Bavariapark
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  place_id: ChIJV8gyiKzYnUcRL37w4bBYJco
+  url: https://maps.google.com/?cid=14566146086527860271
+  username: schnecke
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fff2ea2f6-14ed-4dcd-a45b-05faeaebe4c7?alt=media&token=8393a31f-5b3a-441c-b8a8-19f0b6878a1a
+hash: 1718298000000+ChIJV8gyiKzYnUcRL37w4bBYJco
+updatedAt: 1718264313903
+viewsCount: 6

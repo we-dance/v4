@@ -1,0 +1,134 @@
+endDate: 1712950200000
+sourceUrl: https://www.facebook.com/events/1460258577915427/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1709376673000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1709376673000
+facebookId: "1460258577915427"
+facebook: https://www.facebook.com/events/1460258577915427/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1460258577915427/
+eventType: Workshop
+providerItemId: e1460258577915427@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachata Anfängerkurs
+location: Wilhelmstrasse 24, Siegburg
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712939400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Wilhelmstraße 24, 53721 Siegburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Wilhelmstraße 24
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.203210469708496
+        lat: 50.7924744197085
+      northeast:
+        lng: 7.2059084302915
+        lat: 50.7951723802915
+    location:
+      lng: 7.204589800000001
+      lat: 50.7939123
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Wilhelmstraße
+      long_name: Wilhelmstraße
+    - types:
+        - locality
+        - political
+      short_name: Siegburg
+      long_name: Siegburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Rhein-Sieg-Kreis
+      long_name: Rhein-Sieg-Kreis
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Köln
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "53721"
+      long_name: "53721"
+  place_id: ChIJQ0xH4ovdvkcRYv6Tv2pTB9A
+  url: https://maps.google.com/?q=Wilhelmstra%C3%9Fe+24,+53721+Siegburg,+Germany&ftid=0x47bedd8be2474c43:0xd007536abf93fe62
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224711930
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BailaBachataSiegburg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224712/znn8id96r75y24tw8oy0.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224711930
+  owned: false
+  name: Baila Bachata Siegburg
+  place: ChIJKYsa023dvkcRsH0qSvxgJwQ
+  updatedAt: 1711224711930
+  username: BailaBachataSiegburg
+claimed: No
+link: ""
+description: |-
+  NEUER BACHATA ANFÄNGERKURS in Siegburg!
+
+  Teilnahme mit und ohne festen Tanzpartner möglich.
+
+  6x 60Min Kurs freitags 18:30Uhr ab 12.04.2024
+
+  Single Ticket: 65€
+  Paar Ticket: 120€
+
+  Ort: Therapiezentrum Snoek, Wilhelmstr. 24, Siegburg
+
+  Jetzt anmelden unter: cari@bailabachata.de oder www.bailabachata.de.
+
+  Übrigens: Gratis Schnupperworkshop am 7. April im Brando Coffee in Siegburg
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224713/zszimrt4oxb4xsx8uxvm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJKYsa023dvkcRsH0qSvxgJwQ
+international: No
+hash: 1712939400000+ChIJQ0xH4ovdvkcRYv6Tv2pTB9A
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMxNxGLvB4o3GmJAwGMa8.png?generation=1711224734253020&alt=media
+viewsCount: 2
+id: MxNxGLvB4o3GmJAwGMa8

@@ -1,0 +1,161 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/rimini-kizombafro-meet-salsa-bachata/
+sourceUrl: https://facebook.com/events/976812099358777
+venue:
+  address_components:
+    - long_name: "82"
+      short_name: "82"
+      types:
+        - street_number
+    - long_name: Viale Regina Margherita
+      short_name: Viale Regina Margherita
+      types:
+        - route
+    - long_name: Rimini
+      short_name: Rimini
+      types:
+        - locality
+        - political
+    - long_name: Rimini
+      short_name: Rimini
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Provincia di Rimini
+      short_name: RN
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Emilia-Romagna
+      short_name: Emilia-Romagna
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Italy
+      short_name: IT
+      types:
+        - country
+        - political
+    - long_name: "47924"
+      short_name: "47924"
+      types:
+        - postal_code
+  formatted_address: Viale Regina Margherita, 82, 47924 Rimini RN, Italy
+  geometry:
+    location:
+      lat: 44.0338874
+      lng: 12.6188029
+    viewport:
+      northeast:
+        lat: 44.0355056302915
+        lng: 12.6202734802915
+      southwest:
+        lat: 44.0328076697085
+        lng: 12.6175755197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +39 0541 373005
+  name: Hotel Touring
+  place_id: ChIJ52mWh9TCLBMRka0I55i5n2A
+  url: https://maps.google.com/?cid=6962487615300349329
+  website: https://www.touringhotelrimini.com/
+endDate: 1739745000000
+claimed: No
+link: ""
+description: |+
+  📌RKAF📌
+        ♥️RIMINI KIZOMBAFRO FESTIVAL 2025
+                 MEET SALSA E BACHATA♥️
+                        📌7TH EDITION📌
+        ▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆
+
+                  🔥🔥️ 7TH° EDITION🔥🔥
+              ❤ IT'S YOUR TIME TO SHINE  ❤
+                
+         —————— RIMINI - ITALY—————-
+
+  🏢ALL IN ONE HOTEL 🏢
+
+  LINE UP DJ 'S 
+
+  DJ LE GRAND TIWOSH 
+  DJ RAPH ONE 
+  DJ YRRIT 
+  DJ MAN MAN 
+  DJ MARC 
+
+  More coming soon 
+
+
+  TEACHERS 
+
+  JULES  & YUNA TARRAXO POP 
+  KNZO MENDY 
+  PASCAL YEUX BANDES 
+  Stefano Montanari & MAURA 
+  Christian Scoponi 
+  MORE COMING SOON 
+
+
+
+  PHOTOGRAPHE 
+  Ndamosé 
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/lyvjo6tumewlbdthafo6.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJK1mmj6TDLBMRnUTxF9uE8sE
+international: No
+visibility: Public
+org:
+  createdAt: 1732293944080
+  importedAt: 1732293944080
+  updatedAt: 1732293944080
+  source: facebook
+  name: Voglio Ballare  CON TE
+  facebook: https://www.facebook.com/MIFAIBALLARE
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/vge0e6hx9iquibvsqoa9.jpg
+  username: MIFAIBALLARE
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJK1mmj6TDLBMRnUTxF9uE8sE
+facebook: https://www.facebook.com/events/976812099358777/
+facebookId: "976812099358777"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "♥️♥️We BACK - ITALIA - ♥️♥️RIMINI KIZOMBAFRO meet SALSA /BACHATA 2025
+  ♥️ALL IN ONE♥️ 3 ROOMS "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1739539800000+ChIJ52mWh9TCLBMRka0I55i5n2A
+startDate: 1739539800000
+id: nh6SUMUMZmJctGg9kdg8

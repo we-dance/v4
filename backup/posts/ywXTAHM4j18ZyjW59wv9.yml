@@ -1,0 +1,157 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/esencia-paradise-dance-congress/
+sourceUrl: https://facebook.com/events/1150573883055660
+venue:
+  address_components:
+    - long_name: 27-43
+      short_name: 27-43
+      types:
+        - street_number
+    - long_name: Avinguda Vila de Tossa
+      short_name: Av. Vila de Tossa
+      types:
+        - route
+    - long_name: Lloret de Mar
+      short_name: Lloret de Mar
+      types:
+        - locality
+        - political
+    - long_name: Girona
+      short_name: GI
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Catalunya
+      short_name: CT
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "17310"
+      short_name: "17310"
+      types:
+        - postal_code
+  formatted_address: Av. Vila de Tossa, 27-43, 17310 Lloret de Mar, Girona, Spain
+  geometry:
+    location:
+      lat: 41.7041941
+      lng: 2.8507275
+    viewport:
+      northeast:
+        lat: 41.7054751802915
+        lng: 2.852053680291502
+      southwest:
+        lat: 41.7027772197085
+        lng: 2.849355719708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +34 972 36 11 66
+  name: Gran Casino Costa Brava
+  place_id: ChIJGTeCQTYXuxIR3T8-Ec4iAhU
+  url: https://maps.google.com/?cid=1513810693197807581
+  website: https://www.gccb.com/
+endDate: 1746370800000
+claimed: No
+link: https://www.goandance.com/es/eventos/6890-esencia-paradise-dance-congress-2025?discount=esencia
+description: |-
+  🇪🇸ESP - ENG🏴󠁧󠁢󠁥󠁮󠁧󠁿
+
+  🔥¿Estas preparado para el Esencia Paradise 2025 en Lloret de Mar?🔥
+
+  🌴¡MAS ARTISTAS, MAS DIAS, MAS TALLERES Y MAS FIESTA!🌴
+
+  ———————————————
+
+  🔥Are you ready for Esencia Paradise 2025 in Lloret de Mar?🔥
+
+  🌴 MORE ARTISTS, MORE DAYS, MORE WORKSHOPS AND MORE PARTY!🌴
+
+  ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+
+  ✅Artistas Confirmados | Confirmed Artists✅
+
+  MARCO ESPEJO 🇵🇪
+  ATACA Y LA ALEMANA 🇺🇸
+  GABY Y ESTEFY🇩🇴 🇪🇸
+  MELVIN Y GATICA 
+  PABLO Y RAQUEL 🇪🇸
+  ANTHONY Y BELÉN 
+  SAMMY "EL MÁGICO"
+  MAGDA Y VALERIA 🇵🇱🇮🇹 
+  TIGUERE Y BIANCA 🇩🇴🇺🇸
+  ABDEL Y LETY
+  ALONSO Y NOELIA 🇪🇸
+  MIGUEL Y SUNSIRE 🇪🇸
+  CARLOS Y CHLOE 
+  FALCO Y LETY 🇫🇷 🇮🇨 
+  DANIEL Y TOM🇮🇱 
+  GLORIA RAMOS 🇪🇸
+  KADU Y CAROLINA 🇧🇷🇪🇸
+  BERRA Y NAZARETH 🇪🇸
+  ARTHUR Y LAURE 🇧🇷 🇫🇷 
+  ARGENIS Y CAROLINA🇩🇴 🇪🇸
+  ISSAM Y CHARLOTTE 🇩🇪 
+  PEDRO Y NOE 🇪🇸
+  PEP Y MARINA 🇪🇸
+  RAFA Y MARI ANGELES 🇪🇸
+  IGOR Y ANA 🇲🇩🇷🇴
+  ADRIÁN Y NAIRA 🇪🇸
+  IRENE Y TOMÁS 🇪🇸
+  OWEN Y EVA 🇬🇧
+  PAMELA Y CARLOS 🇪🇸
+  JAVI Y MARI LUZ 🇪🇸
+  ERICA PONCE🇪 🇪🇸
+  ARY ROMÁN 🇪🇸
+  ROBER Y DENISE 🇪🇸
+  CARLOS Y ANAÏS 🇪🇸
+  JORGE Y AROA 🇪🇸
+  MATHI Y EUGE 🇺🇾
+  GUILLERMO Y ANASTASIA 🇲🇽🇩🇪
+  OSCAR Y NEUS 🇪🇸
+  LAYO Y LOLA 🇪🇸
+  YORK Y LISA 🇩🇪 🇻🇪 
+  ANTONIO Y FLAVIO 🇮🇹
+  GIO Y JOSSY 
+  UMEKO YUKO 🇯🇵 
+  CHRIS WELL 🇪🇸
+  YAIZA Y ALAN 🇪🇸
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293941/jeafcnovqmvyakqfadov.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJWXoHhwcXuxIReIzmpj3vc5I
+international: No
+visibility: Public
+org:
+  id: RWwNMb6m79V5uhFM3ijy
+  username: EsenciaNights
+  name: Esencia Nights
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953548/fllq9grxqd1ajn5u15tk.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/EsenciaNights
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1150573883055660/
+facebookId: "1150573883055660"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: 🔥ESENCIA PARADISE 2k25🔥
+online: No
+styles: {}
+hash: 1746018000000+ChIJGTeCQTYXuxIR3T8-Ec4iAhU
+startDate: 1746018000000
+id: ywXTAHM4j18ZyjW59wv9

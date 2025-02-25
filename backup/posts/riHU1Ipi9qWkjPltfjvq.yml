@@ -1,0 +1,175 @@
+venue:
+  formatted_address: Bartolomějská 110 00/13, Staré Město, 110 00 Praha 1, Czechia
+  website: http://www.papasbar.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Papas bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4193088802915
+      south: 50.08197371970851
+      north: 50.08467168029151
+      west: 14.4166109197085
+    location:
+      lng: 14.4179599
+      lat: 50.0833227
+  address_components:
+    - types:
+        - neighborhood
+        - political
+      short_name: Staré Město
+      long_name: Staré Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 110 00
+      long_name: 110 00
+  international_phone_number: +420 734 625 624
+  place_id: ChIJIWhVWTGVC0cR1Dk1qHpDmXA
+  url: https://maps.google.com/?cid=8113590397771790804
+  username: www.papasbar.cz
+endDate: 1727989200000
+claimed: No
+link: https://www.facebook.com/events/813089954232762
+program: []
+type: event
+duration: 300
+createdAt: 1727101934132
+artists: []
+price: 100 / 150 / 200 CZK
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  role: organiser
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Salsa and Bachata party at PAPAS Bar 🔥
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1727971200000
+hash: 1727971200000+ChIJIWhVWTGVC0cR1Dk1qHpDmXA
+username: DjLole
+viewsCount: 1
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F28f6c563-5449-4c69-a11b-901bdd865145?alt=media&token=10620f64-852a-4438-ab7a-332fa2ed062e
+id: riHU1Ipi9qWkjPltfjvq
+description: >-
+  🇨🇿 
+
+  🔥 Párty v PAPAS už jsou zpět ! 🔥
+
+
+
+  🕕 18:00-19:00 : Salsa lekce se Kseniou Chkalovou (footwork pro všechny úrovně) :
+
+  https://www.facebook.com/groups/salsa.praha.komunita/permalink/5006322769488320
+
+  https://www.instagram.com/kseniamotion/
+
+
+  🕖 19:00-23:00: Salsa a Bachata párty s Dj Lole
+
+
+
+  📍 Vstupné (💵jjen hotovost💵j):
+
+  - Salsa lekce : 150 Kč
+
+  - Párty : 100 Kč
+
+  - Lekce + párty : 200 Kč
+
+
+
+  📌 Místo konání:
+
+  PAPAS tapas & bar
+
+  Bartolomějská 13, Praha 1
+
+
+  👉 Rezervace:
+
+  📞 420 734 625 624
+
+  📧 papasbar@email.cz
+
+
+  ------------------------------------------------
+
+  🇬🇧
+
+  🔥 Parties at PAPAS are back ! 🔥
+
+
+
+  🕕 18:00-19:00 :  Salsa lesson with Ksenia Chkalova (footwork for all levels)
+
+  https://www.facebook.com/groups/salsa.praha.komunita/permalink/5006322769488320
+
+  https://www.instagram.com/kseniamotion/
+
+
+  🕖 19:00-23:00 : Salsa and Bachata party s Dj Lole
+
+
+
+  📍 Entrance fee (💵jcash only💵j)
+
+  - Salsa lesson : 150 Kč :
+
+  - Party : 100 Kč
+
+  - Lesson + party : 200 Kč
+
+
+
+  📌 Venue:
+
+  PAPAS tapas & bar
+
+  Bartolomějská 13, Praha 1
+
+
+  👉 Reservations:
+
+  📞 420 734 625 624
+
+  📧 papasbar@email.cz
+updatedAt: 1727909816647

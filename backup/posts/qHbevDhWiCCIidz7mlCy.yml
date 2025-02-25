@@ -1,0 +1,37 @@
+address: Pinakothek der Moderne
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+city: Munich
+endDate:
+  _seconds: 1601582400
+  _nanoseconds: 0
+description: Max. 50 people
+eventType: Party
+type: event
+createdAt: 1601552038338
+organiser: Duke
+watchersCount: 0
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: Bachata Open Air
+commentsLast: ~
+styles:
+  Bachata:
+    level: Interested
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: qHbevDhWiCCIidz7mlCy
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate:
+  _seconds: 1601571600
+  _nanoseconds: 0
+updatedAt: 1617065903735
+username: alejito
+viewsCount: 1

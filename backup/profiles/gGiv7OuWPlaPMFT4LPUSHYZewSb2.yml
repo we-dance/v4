@@ -1,0 +1,91 @@
+visibility: Public
+timezone: GMT+0100
+type: Dancer
+createdAt: 1616134628421
+locales:
+  de: true
+  en: true
+  fr: true
+  pl: true
+createdBy: gGiv7OuWPlaPMFT4LPUSHYZewSb2
+username: mrehker
+pwaUsed: false
+birthday: 1976-08-16
+partnerBio: Do you love getting lost in the music and the connection?
+weight: "83"
+teacher: No
+partner: Yes
+name: Martin
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+location:
+  country: Germany
+  locality: Munich
+  label: Munich
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+id: gGiv7OuWPlaPMFT4LPUSHYZewSb2
+email: martin@rehker.de
+contacts: Yes
+height: "183"
+story: Love to Dance Bachata (intermediate) and Kizomba (starter). Lot's of
+  dancing experience from competition Ballroom and Latin.
+zipcode: "81245"
+gender: Male
+permission: Yes
+community: Munich
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+jobs: Ballroom, Bachata
+bio: Seek to improving Bachata and learn Zouk. Know how to lead and move due to
+  experience in ballroom. Looking for a lady for regular training.
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FgGiv7OuWPlaPMFT4LPUSHYZewSb2%2F580496fa-20e2-4ee5-8908-a640a790708e?alt=media&token=5f1ee2b8-0f8c-4f0d-bab0-9fdb4e0dffe4
+learning: Bachata, Zouk, Kizomba
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1628627310226
+telegram: https://t.me/mrehker
+instagram: https://instagram.com/mrehker
+facebook: https://facebook.com/martin.rehker
+styles:
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Latin:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+lastLoginAt: 1719175996497
+daysUsed: 35
+viewsCount: 1

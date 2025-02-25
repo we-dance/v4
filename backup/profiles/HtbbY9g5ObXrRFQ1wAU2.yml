@@ -1,0 +1,87 @@
+owner: ""
+createdAt: 1653930735416
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+username: larumba_latinclub
+partner: ""
+name: La Rumba - Latin Bar Club
+permission: ""
+objectives:
+  indoors: true
+id: HtbbY9g5ObXrRFQ1wAU2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+instagram: https://www.instagram.com/larumba_latinclub/
+website: ""
+importedAt: 1655306920650
+import: success
+bio: Reggaeton | Salsa | Bachata | Merengue |Trap | Brasil | Latin Hits |
+photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Flarumba_latinclub.png?generation=1655306920519168&alt=media
+source: instagram
+address:
+  formatted_address: Neuhauser Str. 47, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: La Rumba Latin Club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5681301802915
+      south: 48.1372389697085
+      north: 48.1399369302915
+      west: 11.5654322197085
+    location:
+      lng: 11.5667554
+      lat: 48.1386827
+  address_components:
+    - types:
+        - street_number
+      short_name: "47"
+      long_name: "47"
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 176 70388835
+  place_id: ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+  url: https://maps.google.com/?cid=9349263436906478143
+team: []
+gender: Other
+type: Venue
+updatedAt: 1710771530788
+viewsCount: 137

@@ -1,0 +1,173 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  website: http://www.tanzschuleamstachus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 1590 1227277
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  url: https://maps.google.com/?cid=7618752569010268631
+endDate: 2023-06-18T04:00
+claimed: No
+description: |-
+  CENTRAL LOCATION MUNICH
+
+  DJ Remcy(Munich)
+  https://soundcloud.com/djremcyofficial
+  DJ Longchamp(Munich)
+  https://soundcloud.com/bobby-longchamp
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZ8T3ohZhdEODNme2AoD68u8LOdh2%2F0193087f-db69-4567-bbb3-a606e66ae775?alt=media&token=a14d7189-4522-487d-aa50-6dc180a3ce49
+createdAt: 1686733962673
+playlist: https://soundcloud.com/djremcyofficial
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Remcy
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdjremcyofficial.png?generation=1662976947469425&alt=media
+    bio: |-
+      🎧 DJ | Producer | Beatmaker 🎶
+      📧 Booking: djremcy@djremcy.com
+      #djremcy #kizomba
+    id: KudD69t1x3oj1pk6yvtf
+    instagram: https://instagram.com/djremcyofficial
+    username: djremcyofficial
+price: 15 EUR (Regular) / 10 EUR (Student)
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - djremcyofficial
+international: No
+gallery: https://www.facebook.com/media/set/?set=a.136024172815633&type=3
+updatedAt: 1686733962673
+updatedBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bolingo.gomez.7
+  name: Bobby SweetKiz (Dj Longchamp)
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf1c740b-0a89-4522-bb95-0dbfd4c3aae4?alt=media&token=1e3e6c30-33d0-474f-8365-add5b7bd1417
+  bio: Aus Kamerun. Seit 17+ Jahre in Deutschland. Mit Zouk, Afro Zouk und Kompa
+    aufgewachsen.
+  id: Z8T3ohZhdEODNme2AoD68u8LOdh2
+  instagram: https://www.instagram.com/bobbysweetkiz
+  username: MingaKizz
+facebook: https://fb.me/e/fSYiFu88I
+eventType: Party
+form: No
+createdBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+name: MINGA KIZZ PALACE - JUNE EDITION
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Compas:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-17T22:00
+username: MingaKizz
+watch:
+  count: 2
+  list:
+    MingaKizz: true
+    patrickLiXiagLi: true
+commentsCount: 2
+commentsLast:
+  createdAt: 1686744750460
+  updatedBy: r8WIFl9rwpYEmCa0hK87CLeDdaq2
+  createdBy: r8WIFl9rwpYEmCa0hK87CLeDdaq2
+  commentId: ""
+  postId: bayHjWxFr4vWockHwZHS
+  body: test
+  updatedAt: 1686744750460
+  username: patrickLiXiagLi
+star:
+  count: 0
+  usernames: []
+  list: {}
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbayHjWxFr4vWockHwZHS.png?generation=1686906591627452&alt=media
+telegram:
+  requestedAt: 1686733970718
+  messageUrl: https://t.me/WeDanceMunich/1121
+  publishedAt: 1686906597082
+  messageId: 1121
+  state: published
+instagram:
+  requestedAt: 1686733976236
+  state: published
+  messageUrl: https://instagram.com/p/Cti7Qhuugdw
+  publishedAt: 1686906615183
+  messageId: Cti7Qhuugdw
+viewsCount: 38
+id: bayHjWxFr4vWockHwZHS

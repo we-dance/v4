@@ -1,0 +1,206 @@
+importedAt: 1707431983045
+providerUpdatedAt:
+  _seconds: 1707285981
+  _nanoseconds: 0
+facebookId: "320949950917029"
+facebook: https://www.facebook.com/events/320949950917029/
+eventType: Festival
+createdAt: 1707431983045
+providerItemId: e320949950917029@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: te5o6z1Subn2jDFbMi9r
+name: Kizoukba Festival in Freiburg 4th Edition
+location: Kaiser-Joseph-Straße 268, 79098 Freiburg
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1707431983045
+username: alexrazbakov
+venue:
+  formatted_address: Kaiser-Joseph-Straße 268, 79098 Freiburg im Breisgau, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kaiser-Joseph-Straße 268
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.847089719708496
+        lat: 47.9906833197085
+      northeast:
+        lng: 7.849787680291501
+        lat: 47.99338128029149
+    location:
+      lng: 7.8482976
+      lat: 47.991997
+  address_components:
+    - types:
+        - street_number
+      short_name: "268"
+      long_name: "268"
+    - types:
+        - route
+      short_name: Kaiser-Joseph-Straße
+      long_name: Kaiser-Joseph-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Freiburg im Breisgau
+      long_name: Freiburg im Breisgau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Freiburg im Breisgau
+      long_name: Kreisfreie Stadt Freiburg im Breisgau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Freiburg
+      long_name: Freiburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "79098"
+      long_name: "79098"
+  place_id: ChIJeeU1RJ8ckUcR92cOhvfjnmM
+  url: https://maps.google.com/?q=Kaiser-Joseph-Stra%C3%9Fe+268,+79098+Freiburg+im+Breisgau,+Germany&ftid=0x47911c9f4435e579:0x639ee3f7860e67f7
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707431991807
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Kizoukba-Festival/100057671228874/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431992/mj6osy7zk95rvx6sgm9h.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707431991807
+  owned: false
+  name: Kizoukba Festival
+  place: ChIJZdYLViYbkUcRsFffpbdrHwQ
+  updatedAt: 1707431991807
+  username: kizoukba.festival
+claimed: No
+link: https://www.eventbrite.de/e/kizoukba-festival-in-freiburg-4th-edition-tickets-778904914567?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
+description: |-
+  ----CONFIRMED ARTISTS -----
+  Kizomba Artists:
+  - Mister Tecas (Paris)
+  - Dino da Cruz (Basel)
+  - Miguel Kizomba Monteiro (Karlsruhe)
+  - Thierry Sambakin (Nante/France)
+
+  Kizomba DJs:
+  - DJ Hugo Boss (Londre)
+  - DJ Carlos King (Portugal)
+  - DJ SupaMan (Bratislava)
+  - DJ Kin (Nante/France)
+
+  Urban Kiz Artists:
+  - Enah Lebon (UrbanKiz Creator Founder)
+  - Azzedine (Paris)
+  - Stef KiZz & Sonia (FR/DE)
+  - Dim Dim & Ophelie (Nancy/Strasbourg)
+  - Daniel & Nora (Freiburg)
+  - Carmelo (Luxemburg)
+  - Arnaud Djbn (Paris)
+  - Kristina Muno (Köln)
+  - Lio & Helen (Frankfurt)
+  - Franky Kizzfly & Kerstin (Frankfurt)
+  - JN D BI & Jeanne-Marie (France)
+  - Nam De Poy (Karlsruhe)
+
+  Urbankiz DJs:
+  - Dj Lisa Rose (Holland)
+  - DJ Madiss (Paris)
+  - Dj Dani Fernandes (Holland)
+  - DJ Paraïso (Paris)
+  - DJ Narc6 (Frankfurt)
+  - DJ Remcy (Munich)
+  - DJ MGI (Paris)
+  - DJ Harryz Kizz (Stuttgart)
+
+  Bachata Artists:
+  - Aziz & Agne (Stuttgart)
+  - Naida (Stuttgart)
+  - Esra & Martin (Freiburg)
+
+  Bachata DJs:
+  - Dj Gwadadom (Guadelupe)
+  - DJ Narc6 (Frankfurt)
+  - DJ Harryz Kizz (Stuttgart)
+
+  Zouk Artists:
+  - Tiago & Emilia (Köln)
+  - Abdel Zouk (Düsseldorf)
+
+  Official Photographers:
+  - Franck Cuny (France)
+
+  +++Festivalplan / Festival schedule+++
+  ✨✨✨Kizoukba Festival in Freiburg 4th Edition✨✨✨
+  Festivalplan / Festival schedule
+  +++Location+++
+  M.A.K. Studios GmbH 
+  Kaiser-Joseph-Straße 268
+  79098 Freiburg
+  +++Freitag / Friday+++
+  19:00 Check-in(pick-up your pass)
+  20:00-21:00 workshop
+  21:00-22:00 workshop
+  22:00-04:00 Friday Night Party
+  +++Samstag / Saturday+++
+  11:45 Check-in
+  12:00 – 19:00 Workshops
+  14:00 – 20:30 Social
+  22:00 – 05:00 Saturday Night Party
+  +++Sonntag / Sunday+++
+  11:45 Check-in
+  12:00 – 18:30 Workshops
+  13:00 – 01:00 Social 12h Non Stop
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707431995/lathhqtvn41v2hfijhoc.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJZdYLViYbkUcRsFffpbdrHwQ
+international: No
+hash: 1732298400000+ChIJeeU1RJ8ckUcR92cOhvfjnmM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBAsAZwPbgCPMeJEufFaZ.png?generation=1707432011742805&alt=media
+endDate: 1732496400000
+providerCreatedAt: 1702758995000
+startDate: 1732298400000
+viewsCount: 53
+id: BAsAZwPbgCPMeJEufFaZ

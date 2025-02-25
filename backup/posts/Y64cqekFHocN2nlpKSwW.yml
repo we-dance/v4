@@ -1,0 +1,209 @@
+venue:
+  website: https://www.facebook.com/Terrace-NQ-831225890260097/
+  formatted_address: 43 Thomas St, Manchester M4 1NA, UK
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Terrace NQ
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -2.235325119708498
+      south: 53.4827376197085
+      north: 53.4854355802915
+      west: -2.238023080291501
+    location:
+      lng: -2.2366545
+      lat: 53.48413470000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "43"
+      long_name: "43"
+    - types:
+        - route
+      short_name: Thomas St
+      long_name: Thomas Street
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M4 1NA
+      long_name: M4 1NA
+  url: https://maps.google.com/?cid=12329016590886193579
+  place_id: ChIJtTl8xrixe0gRq0mreUR3Gas
+endDate: 2023-03-14T23:00
+claimed: No
+link: ""
+program:
+  - endDate: 2023-03-14T20:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://www.facebook.com/lucas.wetzel.56
+        name: Lucasw1st
+        bio: |-
+          🕺Urban Kiz Teachers💃
+          DM for Bookings, Privates & Collaborations
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvzIGL5QBaBPjdyt8Dbrhdvh80Tk2%2F690953a1-7cec-46d7-8058-fee50c1f46e5?alt=media&token=0e73932d-c6dd-434f-94e4-30c76e6d3a76
+        id: vzIGL5QBaBPjdyt8Dbrhdvh80Tk2
+        instagram: https://www.instagram.com/lucasw1st/
+        username: Lucasw1st
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/jeyda.salih.1
+        name: jeyda.salih.1
+        bio: ""
+        photo: ""
+        instagram: ""
+        id: glz99UpExq4aO5DhxK2n
+        username: jeyda.salih.1
+    name: Beginner
+    eventType: Workshop
+    startDate: 2023-03-14T19:30
+  - artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://www.facebook.com/lucas.wetzel.56
+        name: Lucasw1st
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvzIGL5QBaBPjdyt8Dbrhdvh80Tk2%2F690953a1-7cec-46d7-8058-fee50c1f46e5?alt=media&token=0e73932d-c6dd-434f-94e4-30c76e6d3a76
+        bio: |-
+          🕺Urban Kiz Teachers💃
+          DM for Bookings, Privates & Collaborations
+        instagram: https://www.instagram.com/lucasw1st/
+        id: vzIGL5QBaBPjdyt8Dbrhdvh80Tk2
+        username: Lucasw1st
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/jeyda.salih.1
+        name: jeyda.salih.1
+        bio: ""
+        photo: ""
+        instagram: ""
+        id: glz99UpExq4aO5DhxK2n
+        username: jeyda.salih.1
+    endDate: 2023-03-14T21:00
+    name: Intermediate
+    eventType: Workshop
+    startDate: 2023-03-14T20:00
+  - artists: []
+    endDate: 2023-03-14T22:00
+    name: Practice Session
+    eventType: Party
+    startDate: 2023-03-14T21:00
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvzIGL5QBaBPjdyt8Dbrhdvh80Tk2%2F6c3e25ca-a7e8-4bd6-b36c-77a2f08ec8fd?alt=media&token=8adb95d8-85cc-405f-b123-489c11fff4cf
+duration: 60
+createdAt: 1678663669912
+playlist: https://open.spotify.com/playlist/0oC5i3G15OZgI2AwLB8JiW?si=80ca3be193034798
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/lucas.wetzel.56
+    name: Lucasw1st
+    bio: |-
+      🕺Urban Kiz Teachers💃
+      DM for Bookings, Privates & Collaborations
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvzIGL5QBaBPjdyt8Dbrhdvh80Tk2%2F690953a1-7cec-46d7-8058-fee50c1f46e5?alt=media&token=0e73932d-c6dd-434f-94e4-30c76e6d3a76
+    id: vzIGL5QBaBPjdyt8Dbrhdvh80Tk2
+    instagram: https://www.instagram.com/lucasw1st/
+    username: Lucasw1st
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/jeyda.salih.1
+    name: jeyda.salih.1
+    bio: ""
+    photo: ""
+    instagram: ""
+    id: glz99UpExq4aO5DhxK2n
+    username: jeyda.salih.1
+review: ""
+price: £3 - £10
+socialCover: ""
+place: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+artistsList:
+  - Lucasw1st
+  - jeyda.salih.1
+international: No
+gallery: https://www.instagram.com/kizfusion_tuesdays/
+updatedAt: 1678663669912
+updatedBy: vzIGL5QBaBPjdyt8Dbrhdvh80Tk2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/lucas.wetzel.56
+  name: Lucasw1st
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvzIGL5QBaBPjdyt8Dbrhdvh80Tk2%2F690953a1-7cec-46d7-8058-fee50c1f46e5?alt=media&token=0e73932d-c6dd-434f-94e4-30c76e6d3a76
+  bio: |-
+    🕺Urban Kiz Teachers💃
+    DM for Bookings, Privates & Collaborations
+  instagram: https://www.instagram.com/lucasw1st/
+  id: vzIGL5QBaBPjdyt8Dbrhdvh80Tk2
+  username: Lucasw1st
+telegram: {}
+upVotes: 0
+eventType: Workshop
+confirmation: We look forward to seeing you all at our event ;)
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: vzIGL5QBaBPjdyt8Dbrhdvh80Tk2
+commentsCount: 0
+name: Kiz Fusion Tuesdays
+online: No
+votes: 0
+styles:
+  UrbanKizz:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2023-03-21T19:30
+username: Lucasw1st
+id: Y64cqekFHocN2nlpKSwW
+star:
+  count: 1
+  list:
+    KizFusion_Tuesdays: true
+description: >-
+  Kizomba Fusion workshops brought to you every Tuesday in Manchester!
+
+
+  Tips, Tricks & All The Important Bits!
+
+
+  This Week's Theme: Lifts Part 2.
+
+
+  Beginner: 19:30 - 20:00 (£3)
+
+
+  Intermediate: 20:00 - 21:00 (£7)
+
+
+  FREE Practice Session: 21:00 - 23:00
+
+
+  Event Location: Terrace NQ, M4 1NA.
+
+
+  Every week we focus on different themes/topics, as well as the fundamentals of Urban Kiz and how to play and bring fun to the dance. We welcome new and old faces and anyone willing to learn and take on a challenge!
+viewsCount: 57

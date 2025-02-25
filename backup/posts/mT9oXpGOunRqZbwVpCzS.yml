@@ -1,0 +1,186 @@
+venue:
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  website: http://www.salsaclub-munich.de/
+  name: Salsa Club Munich by Hakan
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5813456802915
+      south: 48.13373901970849
+      north: 48.13643698029149
+      west: 11.5786477197085
+    location:
+      lng: 11.5800076
+      lat: 48.1351427
+  address_components:
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Westenriederstraße
+      long_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  international_phone_number: +49 172 8533891
+  url: https://maps.google.com/?cid=17999243784988121499
+endDate: 2023-03-17T00:30
+claimed: Yes
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+link: https://salsaclub-munich.de/course.php?kid=119
+program: []
+type: event
+downVotes: 0
+duration: "240"
+createdAt: 1678450286269
+watchersCount: 0
+artists: []
+price: Free for member/ 5 ermäßigt / 10€ regulär
+commentsLast: ~
+promoter: Vitali
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+views: 48
+updatedAt: 1678450286269
+updatedBy: Dq3lGZSO48OOehTqoqIX3stBM292
+visibility: Public
+upVotes: 0
+eventType: Party
+organiser: SalsaClubMunich
+form: Yes
+createdBy: Dq3lGZSO48OOehTqoqIX3stBM292
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2023-03-16T20:30
+username: SalsaClubMunich
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDq3lGZSO48OOehTqoqIX3stBM292%2Fccc75f29-391e-4ba8-bead-7ba4d652816d?alt=media&token=b644d9b3-43e5-43d5-91f3-895e0625e96f
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/salsaclubmunich
+  name: SalsaClubMunich
+  bio: Salsa Lernen mit Spaß in München
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDq3lGZSO48OOehTqoqIX3stBM292%2F58a7e683-6aff-4680-b11b-08a78df77b03?alt=media&token=10f62772-cded-4b05-96b5-772d72bd22eb
+  instagram: https://instagram.com/salsaclubmunich
+  id: Dq3lGZSO48OOehTqoqIX3stBM292
+  username: SalsaClubMunich
+id: mT9oXpGOunRqZbwVpCzS
+name: "Donnerstag  | Salsa Beats Party "
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FmT9oXpGOunRqZbwVpCzS.png?generation=1678618991885626&alt=media
+telegram:
+  requestedAt: 1678450401565
+  messageUrl: https://t.me/WeDanceMunich/1026
+  publishedAt: 1678618995270
+  messageId: 1026
+  state: published
+instagram:
+  requestedAt: 1678450402265
+  messageUrl: https://instagram.com/p/Cpr76Itu9Ue
+  publishedAt: 1678619013166
+  messageId: Cpr76Itu9Ue
+  state: published
+description: >-
+  Dance salsa with us, get to know other dancers, in a cool location with nice
+  people and cool cocktails & long drinks.
+
+
+  * Music with various Djs
+
+  * Salsa, Bachata, Mambo, Guaguanco, Charanga, Cha Cha
+
+
+  ### Special offer from WeDance
+
+
+  - Free entrance for ladies
+
+  - Receive 50% discount on the entrance fee.
+
+  - The lucky first 10 people will have a free shot at the Bar!
+
+
+  ### How to use the offer?
+
+
+  - Register for the event
+
+  - Use promo code "WeDance" at the check-in
+
+
+
+  Siempre Salsa e.V. 
+
+  & Salsa Club Munich
+star:
+  count: 1
+  list:
+    juno81: true
+viewsCount: 51

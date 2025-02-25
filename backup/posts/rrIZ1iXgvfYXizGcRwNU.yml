@@ -1,0 +1,44 @@
+address: "Pinakothek der Moderne "
+updatedBy: EtJ6yKKLTAeXUZvCIGRrs6rQU9J2
+visibility: Members
+endDate: 2021-07-23T21:00:00.000Z
+eventType: Party
+type: event
+duration: custom
+createdAt: 1626699706475
+watchersCount: 0
+form: No
+createdBy: EtJ6yKKLTAeXUZvCIGRrs6rQU9J2
+price: FREE
+commentsCount: 0
+name: Kiz an der Pina
+commentsLast: ~
+online: No
+styles:
+  UrbanTarraxa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+id: rrIZ1iXgvfYXizGcRwNU
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-23T17:00:00.000Z
+updatedAt: 1626699706475
+username: Chris
+viewsCount: 26

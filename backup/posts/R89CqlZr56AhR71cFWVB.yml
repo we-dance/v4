@@ -1,0 +1,148 @@
+venue:
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  website: http://www.isarpost-eventlocation.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: ISARPOST Eventlocation
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5665639302915
+      south: 48.1337302197085
+      north: 48.1364281802915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 24-26
+      long_name: 24-26
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 1499037894
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+  url: https://maps.google.com/?cid=14604975425998091393
+endDate: 1699153200000
+claimed: No
+description: |-
+  🎶 Música latina variada!
+  Reggaeton, bachata, merengue, salsa, latin hits.
+
+  👉🏼 Shots de bienvenida para los 150 primeros invitados! 
+
+  👉🏼 Entrada especial:
+  *15€ para 2 personas hasta la media noche!* ✅
+  Luego 13€, estudiantes 10€
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F207f5666-8bb2-4e65-98e6-6ea988ebb342?alt=media&token=6d0dec40-86c1-47a2-ba25-209442c5d7f4
+createdAt: 1698691362480
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 𝗬𝗘𝗡𝗡𝗬 𝗦𝗘𝗚𝗨𝗥𝗔
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj.yenny%2F.png?generation=1655307056208321&alt=media
+    bio: |-
+      Reggaeton • Latin Urban DJ • Germany MUC🇩🇪🇵🇪
+      Resident @latinscene.munich @planet.reggaeton 
+      @munich.reggaeton 
+      Links:
+    id: RpvmbiD9NuFihAtOdA8V
+    instagram: https://instagram.com/dj.yenny/
+    username: dj.yenny
+price: 13 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: 15 EUR for 2 persons until midnight
+artistsList:
+  - dj.yenny
+international: No
+updatedAt: 1698691362480
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/latinscene.munich
+  name: LATIN SCENE
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F73d142b3-58f8-456c-8cdf-c62583e9dfd8?alt=media&token=47b6050d-81f5-4946-9db3-7194d82f3320
+  bio: |-
+    Kulturveranstalter 📍MUNICH 🇩🇪 🌎
+
+    @planet.reggaeton @dj.yenny 💯
+
+    Join the Latin community
+  id: tmDC5QtoaTZPBYUEM1Ia
+  instagram: https://www.instagram.com/latinscene.munich/
+  username: latinscene.munich
+facebook: https://fb.me/e/1ngSPpFs3
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: La Fiesta Latina
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1699131600000
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FR89CqlZr56AhR71cFWVB.png?generation=1698691378173879&alt=media
+viewsCount: 19
+id: R89CqlZr56AhR71cFWVB

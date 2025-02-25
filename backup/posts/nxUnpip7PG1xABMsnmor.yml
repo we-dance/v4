@@ -1,0 +1,165 @@
+endDate: 1725710400000
+sourceUrl: https://www.facebook.com/events/850934346676189/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1697699658000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1706824562000
+facebookId: "850934346676189"
+facebook: https://www.facebook.com/events/850934346676189/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/850934346676189/
+eventType: Festival
+providerItemId: e850934346676189@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: MILENIUM DANCE FESTIVAL
+location: A Coruña - España
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725670800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: A Coruña, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: A Coruña
+  geometry:
+    viewport:
+      southwest:
+        lng: -8.438259241343363
+        lat: 43.33734103107062
+      northeast:
+        lng: -8.387108247885937
+        lat: 43.38640725506653
+    location:
+      lng: -8.4115401
+      lat: 43.3623436
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: A Coruña
+      long_name: A Coruña
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: A Coruña
+      long_name: A Coruña
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: C
+      long_name: A Coruña
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+  place_id: ChIJTVd08fx8Lg0R7t9cCQ01R2o
+  url: https://maps.google.com/?q=A+Coru%C3%B1a,+Spain&ftid=0xd2e7cfcf174574d:0x6a47350d095cdfee
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1713214845579
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/V-P-fusi%C3%B3n/100091904090225/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214845/ybmgg1lntrmyixnxxebd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1713214845579
+  owned: false
+  name: "V & P fusión "
+  place: ChIJTVd08fx8Lg0R7t9cCQ01R2o
+  updatedAt: 1713214845579
+  username: VP-fusi%C3%B3n
+claimed: No
+link: ""
+description: >-
+  � Hola amig@s!
+
+
+  Os presentamos la II edición de  V & P fusión !!
+
+  MILENIUM DANCE FESTIVAL  � hecho con mucho cariño que será el 6  y 7 de septiembre 2024 en el  HOTEL NH Collection A coruña-finisterre 5* en La Coruña - Galicia  situado �calle Pr.Parrote 2-4 15001
+   
+  Os presentamos nuestros artistas: �� 
+
+   �  BACHATEROS �
+  ~ Stephanie Lucero ~ �
+   ~ Felipe y Tiago ~ � � 
+   ~ Lionel y Debby ~ �
+
+  � SALSEROS �
+
+  ~ Adrián y Anita ~ � �
+
+  ~ Pedro Sousa e Inés Gameiro ~ �
+
+  ~ Franco Rocha ~ �
+   
+  � KIZOMBEROS �
+   ~ Nuno y Nagyla~ � �
+  ~ Jaime y Antía ~ � �
+
+  ~ Guiu y Borboleta ~ � �
+
+
+  �  Y nuestro Dj Javi Azúcar �
+   
+  Contaremos con 1 GRAN SALA para que disfrutéis de TODOS los talleres y el SOCIAL SBK que disfrutaremos hasta las 5.00 de la mañana  ��
+
+   �  FULL PASS 60€ PARA LAS PRIMERAS 50 PERSONAS, DESPUÉS  70€�
+
+  �  AFORO LIMITADO 
+
+
+  Mas información y/o compra de entrada en el tlf: +34 655639938 y en el +34 611597028 y LA SALSA DEL BAILE  https://lasalsadelbaile.com/milenium  O SALSERO https://www.salsero.es/events/8805/milenium-dance-festival
+
+  Cambio de titularidad 5€ gastos de gestión  �
+
+  NO SE HACEN RESERVAS NI DEVOLUCIONES  DE LAS ENTRADAS SALVO POR CANCELACIÓN DEL EVENTO POR FUERZA MAYOR. 
+
+  �Instagram: vyp_fusion�
+
+  �Facebook: V & P fusión�
+
+
+  #salsa #bachata #kizomba 
+
+  #salsaybachata #urbankiz
+
+  #rolerotation
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214847/av1x3ylhpa32nbqs08ub.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJTVd08fx8Lg0R7t9cCQ01R2o
+international: No
+hash: 1725670800000+ChIJTVd08fx8Lg0R7t9cCQ01R2o
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FnxUnpip7PG1xABMsnmor.png?generation=1713214899696489&alt=media
+viewsCount: 1
+id: nxUnpip7PG1xABMsnmor

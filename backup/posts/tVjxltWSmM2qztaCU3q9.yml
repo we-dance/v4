@@ -1,0 +1,142 @@
+endDate: 2023-05-29T19:50
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: ""
+duration: 60
+createdAt: 1680438674313
+price: 75 EUR
+socialCover: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1680438674313
+updatedBy: 0NOCq6OEwkPuVPX3XWAtwbvjRNY2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Sigrid
+  photo: ""
+  bio: ""
+  instagram: ""
+  id: 0NOCq6OEwkPuVPX3XWAtwbvjRNY2
+  username: sigrid_zouk
+upVotes: 0
+telegram: {}
+eventType: Course
+form: No
+createdBy: 0NOCq6OEwkPuVPX3XWAtwbvjRNY2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Brazilian Zouk 6 Week Beginner Course
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-04-24T18:15
+username: sigrid_zouk
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Anglerstraße 6
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365754302915
+      south: 48.1329222697085
+      north: 48.1356202302915
+      west: 11.5338774697085
+    location:
+      lng: 11.5351485
+      lat: 48.1343269
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  url: https://maps.google.com/?q=Anglerstra%C3%9Fe+6,+80339+M%C3%BCnchen,+Germany&ftid=0x479dd8a8ae673a6f:0x814b753d2a7c7abc
+  place_id: ChIJbzpnrqjYnUcRvHp8Kj11S4E
+  room: Tanzstudio Rebecca, "Studio Orange"
+facebook: https://fb.me/e/2sHWQ3sQU
+link: https://doo.net/event/130097/order
+description: Learn Brazilian Zouk from scratch with Andrius and Sigrid. The
+  course will run 6 weeks from 18:15 - 19:45 starting on Monday, 24 April 2023
+  (there will be classes on the bank holidays). 6x 90 min course for 75 EUR per
+  person. No partner required.
+id: tVjxltWSmM2qztaCU3q9
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Sigrid
+    bio: ""
+    photo: ""
+    id: 0NOCq6OEwkPuVPX3XWAtwbvjRNY2
+    instagram: ""
+    username: sigrid_zouk
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ZoukMunich
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzoukmunich.png?generation=1662972737058077&alt=media
+    bio: "You're entering the mesmerizing world of Brazilian Zouk in Munich! #zouk
+      #sensualdance"
+    id: 7ACoBgOYQeMM32vaBREZ
+    instagram: https://instagram.com/zoukmunich
+    username: zoukmunich
+artistsList:
+  - sigrid_zouk
+  - zoukmunich
+star:
+  count: 1
+  list:
+    Sandy: true
+viewsCount: 73

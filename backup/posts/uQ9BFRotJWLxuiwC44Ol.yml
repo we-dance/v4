@@ -1,0 +1,213 @@
+endDate: 1730671200000
+sourceUrl: https://www.facebook.com/events/674751847994152/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709642985000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1709642985000
+facebookId: "674751847994152"
+facebook: https://www.facebook.com/events/674751847994152/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/674751847994152/
+eventType: Congress
+providerItemId: e674751847994152@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Afrolatin Caribe Party Congress 2024 - promo code GOS173
+location: Hotel OCA Puerta del Camino
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730466000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: C/ Miguel Ferro Caaveiro, s/n, 15703 Santiago de Compostela, A Coruña, Spain
+  website: https://www.ocahotels.com/hoteles/hotel-oca-puerta-del-camino
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel OCA Porta do Caminho
+  geometry:
+    viewport:
+      southwest:
+        lng: -8.514579630291502
+        lat: 42.8827974697085
+      northeast:
+        lng: -8.511881669708497
+        lat: 42.8854954302915
+    location:
+      lng: -8.5131414
+      lat: 42.8840762
+  address_components:
+    - types:
+        - street_number
+      short_name: s/n
+      long_name: s/n
+    - types:
+        - route
+      short_name: C/ Miguel Ferro Caaveiro
+      long_name: C/ Miguel Ferro Caaveiro
+    - types:
+        - locality
+        - political
+      short_name: Santiago de Compostela
+      long_name: Santiago de Compostela
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: C
+      long_name: A Coruña
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "15703"
+      long_name: "15703"
+  international_phone_number: +34 981 56 94 00
+  place_id: ChIJIVPmn7v_Lg0RpeSd8J9C31E
+  url: https://maps.google.com/?cid=5899507291582751909
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: |
+  2nd edition of the biggest congress in Galicia!
+
+  AMATEUR AND PROFESSIONAL COMPANY COMPETITION WITH €2,700 IN PRIZES
+
+  SOCIAL 2 ROOMS (SALSA/BACHATA and KIZOMBA)
+
+  PREMIUM CLASSES
+
+  SHOWS
+
+  **CONFIRMED ARTISTS:
+
+  *BACHATA
+
+  MELVIN & GATICA
+  GERO & MIGLE
+  ALONSO & NOELIA
+  KLAUS & ROS
+  EVELYN "LA NEGRA
+  DIOGO & SARA
+  PEDRO & NOE
+  KENZ & JULI
+  ALEX & ORNELLA
+  LIONEL & DEBBY
+  ROBER & MIRI
+
+  *SALSA
+
+  PABLITO & HIS FULL LATIN MIX
+  ANITA SANTOS RUBÍN
+  ERIK & MONICA
+  ALICIA VELASCO
+  CHARLIE & VERO
+  IRENA & NOELIA
+  FERNANDO ALONSO & AYELEN GAUNA
+  JOSÉ & MARÍA "PURA PASIÓN" (PURE PASSION)
+  EDGAR RODRIGUEZ
+  ANA ZAMORA & STEVE
+  AARÓN & MAGALI
+
+  *KIZOMBA
+
+  AZZEDINE
+  ALBIR ROJAS
+  AUREA FEBRAIO
+  NUNO & NAGYLA
+  GUIU & BORBOLETA
+  MIGUEL & SUSANA
+  TONY & CARLA
+  NUNO & CATIA
+  JORGE & ROCÍO
+
+  *WEST COAST SWING
+
+  FRAN VIDAL
+
+  *DJs
+
+  DJ CUMBANCHERO
+  DJ EVELYN "LA NEGRA
+  DJ LEON
+  DJ STEVE
+  DJ JORGE AZ
+  DJ CAYOLLA
+  DJ NACHO HABANERO
+  DJ CARBALLO
+
+  ** TICKETS:
+  https://www.goandance.comhttps://www.goandance.com/en/e/6430?promoter=GOS173
+
+  Premium Pass:
+  130€ - the firsts 40 people
+  150€
+
+  Full Pass:
+  95€
+
+  Friday Ticket:
+  65€ - the firsts 150
+  75€
+
+  Saturday Ticket:
+  85€ - the firsts 150
+  95€
+
+  Sunday Ticket
+  65€ - the firsts 100
+  75€ - 
+
+  Pack 3 Social + Shows
+  50€ - the firsts 150
+  60€
+
+  Pack 2 Social + Shows
+  45€ - the firsts 200
+  55€
+
+  There are also available tickets for accommodation in hotel.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719267/wfskwbht8swyifjuboet.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJp3Hd4kT-Lg0REeOHwIhoFOA
+international: No
+hash: 1730466000000+ChIJIVPmn7v_Lg0RpeSd8J9C31E
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuQ9BFRotJWLxuiwC44Ol.png?generation=1718719285433253&alt=media
+viewsCount: 2
+id: uQ9BFRotJWLxuiwC44Ol

@@ -1,0 +1,53 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631113103373
+createdBy: lEUSLBXsgfNDBaTbMcLdLv4Zzuf1
+place: ChIJb7Dv8ExPYA0ROR1_HwFRo7Q
+pwaUsed: false
+birthday: 1994-08-29
+locales:
+  en: true
+  es: true
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+gender: Male
+partner: Yes
+weight: "75"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+permission: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: No
+height: "180"
+updatedAt: 1631113229217
+name: Santi
+username: Santi
+lastLoginAt: 1653254268478
+daysUsed: 2
+id: lEUSLBXsgfNDBaTbMcLdLv4Zzuf1

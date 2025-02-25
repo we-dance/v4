@@ -1,0 +1,160 @@
+endDate: 1729990800000
+sourceUrl: https://www.facebook.com/events/477842801310153/
+createdAt: 1718460037934
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717393443000
+updatedAt: 1718460037934
+importedAt: 1718460037934
+providerUpdatedAt: 1717393443000
+facebookId: "477842801310153"
+facebook: https://www.facebook.com/events/477842801310153/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/477842801310153/
+eventType: Party
+providerItemId: e477842801310153@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Barcelona Kizomba Weekend "
+location: Asisebaila Dance Studio
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729884600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Gran Via de les Corts Catalanes, 432, LOCAL 2, L'Eixample,
+    08015 Barcelona, Spain
+  website: http://asisebaila.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Así Se Baila Dance Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.152187819708498
+        lat: 41.37662801970851
+      northeast:
+        lng: 2.154885780291502
+        lat: 41.3793259802915
+    location:
+      lng: 2.1536289
+      lat: 41.3779154
+  address_components:
+    - types:
+        - subpremise
+      short_name: LOCAL 2
+      long_name: LOCAL 2
+    - types:
+        - street_number
+      short_name: "432"
+      long_name: "432"
+    - types:
+        - route
+      short_name: Gran Via de les Corts Catalanes
+      long_name: Gran Via de les Corts Catalanes
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: L'Eixample
+      long_name: L'Eixample
+    - types:
+        - locality
+        - political
+      short_name: Barcelona
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "08015"
+      long_name: "08015"
+  international_phone_number: +34 932 92 46 13
+  place_id: ChIJDz495nyipBIR9pdzNy3IoiY
+  url: https://maps.google.com/?cid=2784007616197793782
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718460061277
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/kizomba.barcelona
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718460061/mzam4hfch6whzomolkr9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718460061277
+  owned: false
+  name: Kizomba Barcelona - Elsa & Sergi
+  place: ChIJw4JiY0kyyocR9VJ03Rf5XQo
+  updatedAt: 1718460061277
+  username: kizomba.barcelona
+claimed: No
+link: https://www.goandance.com/es/eventos/7048-barcelona-kizomba-weekend
+description: >-
+  En Octubre 1a edición de un Super Weekend Kizombero 🔥🔥
+
+
+  2 noches de social, talleres, tardeo con bebidas soft i picoteos incluidos durante todo el evento.
+
+
+  En el centro de Barcelona, en la escuela Asisebaila. Disfruta de la ciudad y kizombea ❤️
+
+
+  Artistas:
+
+
+  Josué y Celine
+
+  Elsa y Sergi
+
+  PEPUS y NOEMI
+
+  Jose y Yoli
+
+  Elías y Vicky 
+
+  Mary y Francisco 
+
+  .....más por confirmar 
+
+
+  Djs
+
+
+  Antony Tarraxa
+
+  Pepus
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718460062/dtikbcumgbpp2lg1rxtu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJw4JiY0kyyocR9VJ03Rf5XQo
+international: No
+hash: 1729884600000+ChIJDz495nyipBIR9pdzNy3IoiY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsoDHjOQhh2D7r5rjZuaO.png?generation=1718460075140571&alt=media
+id: soDHjOQhh2D7r5rjZuaO

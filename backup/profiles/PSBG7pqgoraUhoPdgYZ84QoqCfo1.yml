@@ -1,0 +1,35 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630181088335
+locales:
+  de: true
+createdBy: PSBG7pqgoraUhoPdgYZ84QoqCfo1
+name: cappy
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+username: cappy
+lastLoginAt: 1630181088499
+daysUsed: 1
+pwaUsed: false
+gender: Male
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1630181288512
+id: PSBG7pqgoraUhoPdgYZ84QoqCfo1

@@ -1,0 +1,174 @@
+venue:
+  formatted_address: St Petersburg, Russia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Saint Petersburg
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 30.7645440604225
+      south: 59.634086042813
+      north: 60.24674196279669
+      west: 29.42479911275882
+    location:
+      lng: 30.3609097
+      lat: 59.9310584
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: СПБ
+      long_name: Saint Petersburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Санкт-Петербург
+      long_name: Санкт-Петербург
+    - types:
+        - country
+        - political
+      short_name: RU
+      long_name: Russia
+  place_id: ChIJ7WVKx4w3lkYR_46Eqz9nx20
+  url: https://maps.google.com/?q=St+Petersburg,+Russia&ftid=0x4696378cc74a65ed:0x6dc7673fab848eff
+claimed: No
+link: https://vk.com/russianzoukcongresschampionship
+type: event
+promo: Yes
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEl5qA4QtXRZyJqt7rSbVkBcP8z42%2F74254c12-0666-4a9d-88fd-68ff2176acbe?alt=media&token=5c7b24c0-e228-4db5-9704-351876b96102
+createdAt: 1656277974210
+artists: []
+price: "- EUR"
+artistsList: []
+place: ChIJ7WVKx4w3lkYR_46Eqz9nx20
+international: No
+updatedAt: 1656277974210
+updatedBy: El5qA4QtXRZyJqt7rSbVkBcP8z42
+visibility: Public
+facebook: https://www.facebook.com/events/223290096556254/
+eventType: Festival
+form: No
+createdBy: El5qA4QtXRZyJqt7rSbVkBcP8z42
+watch:
+  count: 1
+  list:
+    RoberyClaudia: true
+name: Russian Zouk Congress
+online: No
+username: RoberyClaudia
+description: >-
+  We are happy to invite you to X Anniversary Russian Zouk Congress &
+  Championship in August 10-16 in the most beautiful city of Russia - Saint
+  Petersburg!
+
+
+  INTERNATIONAL ARTISTS:
+
+  > William Teixeira & Paloma Alves
+
+  > Alexandre Gustavo & Natasha Terekhina
+
+  > Léo Gomes & Ana Paula Gomes
+
+  > Marck Silva & Melyssa Tamada - 1ST TIME IN 
+
+
+  RUSSIA!
+
+  > Mafie Zouker & Anna Russa
+
+  > Michael Boy & Aline Borges
+
+
+  RUSSIAN ARTISTS:
+
+  > Anastasia Lyakh
+
+  > Maxim Chistokletov
+
+  > Oksana Zemtsova
+
+  > Gulnara Yudintseva
+
+
+  CONFIRMED DJ'S:
+
+  > DJ AMIGO, Russia
+
+  > DJ BRIXX, Israel
+
+  > DJ PALOMA, Brazil
+
+  > DJ WILLIAM, Spain
+
+  > DJ MAFIE ZOUKER, Brazil
+
+  > DJ PLUSHA, Russia
+
+  > DJ KRIKI, Russia
+
+  > DJ REMY, Russia
+
+  > DJ TROPIKANA, Russia
+
+
+  WORKSHOPS:
+
+  > 3 days of intensive Zouk & Lambada workshops for all levels
+
+  > Brazilian Zouk Teachers' course (5 hours)
+
+  > Lambada course (3 hours)
+
+  > Neo Zouk course (3 hours)
+
+  > Advanced course (3 hours)
+
+  RUSSIAN ZOUK CHAMPIONSHIP!
+
+  BZDC rating competitions Jack and Jill: Newcomers, Novice, Intermediate, Advanced. All-Stars+Champions / Strictly / Showcase
+
+
+  PARTIES:
+
+  > 4 main night parties in Azimut concert hall with 1250 m2 dancefloor
+
+  > 4 special parties in unique venues of St.Petersburg:
+
+  Wed, 3 August - PREPARTY
+
+  Thu, 4 August - ZOUK BOAT PARTY! 3 hours dancing and watching the open bridges across Neva river!
+
+  Mon, 8 August - VODA BIKINI PARTY! The only one in Europe unique night club with aqua drop dance floor! EXCLUSIVELY FOR RZC 10 YEARS!!!
+
+  Tue, 9 August - ROOFTOP OPEN-AIR! Afterparty on the roof of Artmusa center in the historic center of St.Petersburg!
+
+  The event will take place with all the precautions due to Covid-19!
+
+  GET TICKETS:
+
+  Available at russianzoukcongress.com
+
+  After registration you will recieve the letter with the payment detailes.
+
+  DISOCUNTS:
+
+  We offer DISCOUNTS to all foreign dancers!
+
+  Contact us to get more information!
+
+  QUESTIONS:
+
+  Please write to russianzoukcongress@gmail.com our team answers within 24 up to 48 hours. We speak English/Russian/Portuguese
+id: Vyxqegsz17hGZkICgy8G
+endDate: 2022-08-10T20:00
+startDate: 2022-08-03T20:00
+org:
+  instagram: russianzoukcongress
+  username: russianzoukcongress
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 56

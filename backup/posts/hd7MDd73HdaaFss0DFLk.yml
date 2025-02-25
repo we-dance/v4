@@ -1,0 +1,131 @@
+sourceUrl: https://facebook.com/events/s/club-cuba-escape-bar/477228768330496/
+createdAt: 1720622103000
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622103000
+username: alexrazbakov
+venue:
+  formatted_address: 25 W Ham Ln, London E15 4PH, UK
+  website: https://www.escapebars.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Escape Bar Stratford
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.00167036970849797
+        lat: 51.5387821697085
+      northeast:
+        lng: 0.004368330291502031
+        lat: 51.5414801302915
+    location:
+      lng: 0.003036800000000001
+      lat: 51.5400717
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: W Ham Ln
+      long_name: West Ham Lane
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: E15 4PH
+      long_name: E15 4PH
+  place_id: ChIJFVVYhC-n2EcR1wWKPX5bXW8
+  url: https://maps.google.com/?cid=8024670708800554455
+endDate: 1721080800000
+claimed: No
+link: ""
+description: |-
+  Club Cuba
+  With
+  DJ D Cuban Salsa
+
+  Salsa - Timba - Son - Reggaeton
+
+  Every Monday
+
+  DANCE           20.30 - 23.00
+  Free entry
+  DJ D, DJ Sol
+
+  CLASSES     19:30 - 20:30
+  £8 
+  ☆ No partner required ☆
+
+  Escape Bar and Caribbean Tapas
+  72 Westow Hill, 
+  London SE19 1SB
+
+  https://maps.app.goo.gl/qxgLXxxq1XAGemQ8A
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/477228768330496/?event_time_id=477228784997161
+facebookId: "477228784997161"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Club Cuba  @Escape Bar
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1721068200000+ChIJFVVYhC-n2EcR1wWKPX5bXW8
+startDate: 1721068200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622104/bsoqydpn2ol1ot1vprjm.jpg
+org:
+  owner: ""
+  importedAt: 1720622102973
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0uDnVEuqxUDo3QBrAPqjBJPtjKBMiSyXuJS7J1Tp7PH1p3FQADd58867LpeyHrbgZl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720622103/adxpeflet4ltek55svmq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1720622102973
+  owned: false
+  name: Daren Allen
+  updatedAt: 1720622102973
+  username: daren.allen
+viewsCount: 3
+id: hd7MDd73HdaaFss0DFLk

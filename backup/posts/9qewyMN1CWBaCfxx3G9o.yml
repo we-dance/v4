@@ -1,0 +1,190 @@
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+claimed: No
+eventType: Party
+type: event
+createdAt: 1652941436575
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: PFINGSTKONGRESS Regensburg
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+international: No
+username: AnnaMil
+updatedAt: 1652941436575
+price: ab 12 EUR
+id: 9qewyMN1CWBaCfxx3G9o
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F95933649-11c7-4766-b585-d80ba7fa7715?alt=media&token=1b80a8b4-218a-4910-a782-35cc89f1447c
+duration: custom
+promo: Yes
+venue:
+  formatted_address: Belgrader Str. 2, 93055 Regensburg, Germany
+  website: http://www.tanzstudio-ritmo.de/
+  name: Tanzstudio Ritmo
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 12.1343285802915
+      south: 49.01262586970849
+      north: 49.01532383029149
+      west: 12.1316306197085
+    location:
+      lng: 12.132954
+      lat: 49.01389409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Belgrader Str.
+      long_name: Belgrader Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Irlmauth
+      long_name: Irlmauth
+    - types:
+        - locality
+        - political
+      short_name: Regensburg
+      long_name: Regensburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Regensburg
+      long_name: Kreisfreie Stadt Regensburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberpfalz
+      long_name: Oberpfalz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "93055"
+      long_name: "93055"
+  place_id: ChIJtXF0SfHAn0cRJXn9PZYYrg8
+  url: https://maps.google.com/?cid=1129867590080756005
+  international_phone_number: +49 176 20335796
+endDate: 2022-05-06T00:00
+artists:
+  - instagram: christina_lagatita
+    username: christina_lagatita
+  - instagram: dylandhaas
+    username: dylandhaas
+  - instagram: lunazul.dance
+    username: lunazul.dance
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Babsi
+    bio: Bachata Sensual Instructor - Certified by korkeyjudith
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F5baa77f7-9e85-43ef-a0d9-290a7de91763?alt=media&token=2a972251-186d-4504-9672-2de41f1fe059
+    instagram: babsi.bachata
+    id: TlDa57DcY05cwPD7IfwM
+    username: babsi.bachata
+  - instagram: bailadoro.dance
+    username: bailadoro.dance
+  - instagram: martin.bailadoro
+    username: martin.bailadoro
+  - instagram: brinas_profil
+    username: brinas_profil
+  - youtube: ""
+    tiktok: ""
+    facebook: annamilite88
+    name: Anna
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    instagram: milite_anna
+    username: AnnaMil
+  - instagram: lombardo_walter
+    username: lombardo_walter
+  - instagram: mamifit_happymama
+    username: mamifit_happymama
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Carlos
+    bio: We have 2 good dance floors to spin well with good music at Salsabor
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2F6fb9415f-775b-43a3-9ab5-7eead510f8d0?alt=media&token=d1f4d624-42ff-4b1e-8b3e-5b8c854a916b
+    instagram: ""
+    id: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+    username: Carlos
+  - instagram: ryan.villa.flor
+    username: ryan.villa.flor
+org:
+  instagram: salsa.bachata.regensburg
+  username: salsa.bachata.regensburg
+facebook: https://facebook.com/events/s/pfingstkongress-regensburg/517399179989118/
+link: ""
+place: ChIJ9y4icpjBn0cREMs3CaQlHQQ
+startDate: 2022-06-04T12:00
+description: |-
+  ***PFINGSTKONGRESS Regensburg***
+
+  2 Säle
+  Salsa und Bachata
+
+  Künstler Bachata:
+
+  Anna Milite - München
+  Christina La Gatita - Barcelona
+  Dylan (Bachata Passion) - Niederlande
+  Martin & Sabrina (BailAdoro) - Schweiz
+  Barbara & Stephan - Regensburg
+
+  Künstler Salsa:
+
+  Carlos Lazarte & Bärbel (Salsabor) - München
+  Ryan Villaflor & Milehi
+  Walter Lombardo - Italien
+  & Ela
+
+  Lasst euch das nicht entgehen!!! 🕺🏻💃🏼
+viewsCount: 7

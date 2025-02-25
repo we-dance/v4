@@ -1,0 +1,136 @@
+createdAt: 1704425950954
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+venue:
+  formatted_address: Schwanthalerstraße 13, 80336 München, Germany
+  website: http://www.deutsches-theater.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Deutsches Theater
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5611429197085
+        lat: 48.1359796697085
+      northeast:
+        lng: 11.5638408802915
+        lat: 48.1386776302915
+    location:
+      lng: 11.5624884
+      lat: 48.1372537
+  address_components:
+    - types:
+        - street_number
+      short_name: "13"
+      long_name: "13"
+    - types:
+        - route
+      short_name: Schwanthalerstraße
+      long_name: Schwanthalerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  international_phone_number: +49 89 55234444
+  place_id: ChIJN8er8vd1nkcRvHcEy6igzZ8
+  url: https://maps.google.com/?cid=11515036469077243836
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/DeutschesTheaterMuenchen
+  name: deutsches_theater_muenchen
+  photo: ""
+  bio: ""
+  id: ubsiiCtfsc5nVVdGqX2x
+  instagram: https://instagram.com/deutsches_theater_muenchen
+  username: deutsches_theater_muenchen
+claimed: No
+facebook: https://www.facebook.com/events/721722883317161/
+link: ""
+description: >-
+  Gemeinschaftsprojekt der Münchner Tanzschulen
+
+
+  Die Münchner Tanzschulen laden alle Tanzbegeisterten zu einer rauschenden Nacht voller Musik und Tanz ein! Bei diesem Gemeinschaftsprojekt ist für wirklich jedes Tänzerherz etwas geboten – denn alle unsere Räume und Flächen öffnen an diesem Abend gleichzeitig ihre Pforten: Im Theatersaal, Silbersaal und im Foyer werden Walzer, Foxtrott, Rock’n’Roll, Salsa u.v.m. zu tollen Live-Bands getanzt. Für das leibliche Wohl sorgt ein zünftiger „Weißwursthimmel“ mit nicht minder zünftiger Stimmungs- und Partymusik. Abgerundet wird die Münchner Tanznacht durch ein vielfältiges Showprogramm sowie die traditionelle Münchner Francaise um Mitternacht.
+
+
+  Mehr: https://www.deutsches-theater.de/programm/ballsaison/#se48111
+
+
+  BALLSAISON 2024
+
+  Endlich! Es darf wieder getanzt und gefeiert werden. Vom 19. Januar an ist unser Theatersaal wieder als wunderschöner Ballsaal umgebaut – zusammen mit den Räumlichkeiten Silbersaal, Foyer und Barocksaal verwandelt sich das Theater damit wieder zu Münchens größtem und schönstem Ballhaus. Insgesamt werden in der Zeit vom 19. Januar bis 12. Februar 12 Balltermine stattfinden. 
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Münchner Tanznacht
+online: No
+international: No
+startDate: 1706382000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1sE2VgRkn2PXLqi0IEVE.png?generation=1704425969856151&alt=media
+endDate: .nan
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Foxtrot:
+    level: Interested
+    highlighted: false
+    selected: true
+  Waltz:
+    level: Interested
+    highlighted: false
+    selected: true
+  RockAndRoll:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList: []
+id: 1sE2VgRkn2PXLqi0IEVE
+updatedAt: 1704426001780
+facebookId: "721722883317161"
+hash: 1706382000000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+source: facebook
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851540/rmsnfypnu3akps8xq5gf.jpg
+viewsCount: 28

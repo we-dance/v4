@@ -1,0 +1,83 @@
+venue:
+  formatted_address: Kazimdirlik mah. 367 sokak. no:10/2 B Blok Kat:4 daire:7,
+    Kazımdirik, 35100 Bornova/İzmir, Türkiye
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dans Stop
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 27.2045751802915
+      south: 38.4486932197085
+      north: 38.4513911802915
+      west: 27.2018772197085
+    location:
+      lng: 27.2032664
+      lat: 38.4498368
+  address_components:
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Bornova
+      long_name: Bornova
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: Kazımdirik
+      long_name: Kazımdirik
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: İzmir
+      long_name: İzmir
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+    - types:
+        - postal_code
+      short_name: "35100"
+      long_name: "35100"
+  international_phone_number: +90 555 565 84 92
+  place_id: ChIJASrMbUFjuRQR1to438_ht7w
+  url: https://maps.google.com/?cid=13598585882788027094
+endDate: 2023-05-16T01:00
+claimed: No
+description: "%100 Kizomba Party"
+program: []
+type: event
+duration: 60
+cover: ""
+createdAt: 1684254638192
+artists:
+  - instagram: https://instagram.com/urfankizz
+    username: urfankizz
+price: 0 EUR
+place: ChIJzcpip2LYuxQR_uicpaG7jGI
+artistsList:
+  - urfankizz
+international: No
+updatedAt: 1684254638192
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/kizomba.izmir
+  username: kizomba.izmir
+eventType: Party
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    Bilal: true
+name: Kizomba Night
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-16T21:30
+username: Bilal
+viewsCount: 51
+id: 0meCTDd6FY5obpjX5sRX

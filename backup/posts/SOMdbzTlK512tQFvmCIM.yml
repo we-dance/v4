@@ -1,0 +1,117 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  more_opening_hours: []
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  international_phone_number: +49 89 23805360
+  url: https://maps.google.com/?cid=14384342178029021798
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+claimed: No
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9GwaYZZIzkgWWeuHb63MejTPjAu2%2Fe75d1c41-596f-41a8-822c-52636cf1f25d?alt=media&token=d666b33f-3f27-4e64-8d46-7e5880d8a0e8
+duration: 60
+promo: Yes
+createdAt: 1663848082799
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1663848082799
+updatedBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+visibility: Public
+eventType: Party
+form: No
+createdBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+watch:
+  count: 1
+  list:
+    Katja: true
+name: "Kleine Cubana Party "
+online: ""
+startDate: 2022-09-25T20:00
+username: Katja
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Ekaterina "
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9GwaYZZIzkgWWeuHb63MejTPjAu2%2F0fe24185-53c1-43e8-a854-12fc9d8a5034?alt=media&token=48ec1762-7dd7-4a26-ab45-f7a625e19f8b
+  id: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+  instagram: ""
+  username: Katja
+id: SOMdbzTlK512tQFvmCIM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSOMdbzTlK512tQFvmCIM.png?generation=1663853047966225&alt=media
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+endDate: 2022-09-25T22:00
+description: Bin heute wieder an der Pina mit Salsa um 20 Uhr 😀
+telegram: {}
+viewsCount: 46

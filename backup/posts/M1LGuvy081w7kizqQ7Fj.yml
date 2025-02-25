@@ -1,0 +1,137 @@
+endDate: 1728172799000
+sourceUrl: https://www.facebook.com/events/s/szezonnyito-bachata-salsa-buli/914465350495366/
+createdAt: 1727791244242
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1727084391000
+updatedAt: 1727791244242
+importedAt: 1727791244242
+providerUpdatedAt: 1727084391000
+facebookId: "914465350495366"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/s/szezonnyito-bachata-salsa-buli/914465350495366/
+eventType: Party
+providerItemId: 48264-1728086400-1728172799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Freedancehall Tánc-Centrum, Teleki László út 11., Tatabánya, 2800, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728086400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Tatabánya, Teleki László u. 11, 2800 Hungary
+  website: http://www.freedancehall.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: FreedanceHall Tánc-Centrum
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.4060788197085
+        lat: 47.5615911197085
+      northeast:
+        lng: 18.4087767802915
+        lat: 47.56428908029149
+    location:
+      lng: 18.4074459
+      lat: 47.5628967
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Teleki László u.
+      long_name: Teleki László utca
+    - types:
+        - locality
+        - political
+      short_name: Tatabánya
+      long_name: Tatabánya
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2800"
+      long_name: "2800"
+  international_phone_number: +36 20 326 5959
+  place_id: ChIJr6zvFYxAakcR42HyWKXtCbY
+  url: https://maps.google.com/?cid=13117276684110946787
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1727791262477
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02Ta4XgcZ8D7V6Du8xKuZb2yMR1pNL2BhnYDoTKeC7j2qhQkVnWWnaxSTbeSESfn1nl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727791262/jxbjdqpusovbdfd1x4on.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1727791262477
+  owned: false
+  name: Eszter Varga
+  place: ChIJhw6XrnlAakcRgBIeDCnEAAQ
+  updatedAt: 1727791262477
+  username: eszter.varga
+claimed: No
+facebook: https://www.facebook.com/events/914465350495366/
+link: ""
+description: >-
+  Kedves Táncosok! 
+
+
+  Itt az ideje, hogy beindítsuk az őszi táncos szezont 🤩 
+
+
+  A szokásos helyen és időben, a szokásos jó hangulattal, a legújabb bachata zenékkel várunk titeket 🥳  Persze a kedvenc salsa zenék sem maradhatnak el 🪇 
+
+
+  Tehát a részletek 👇
+
+  📌 Kezdés 20.30-kor 😉
+
+  📌 Közös hangolódás egy rövid ws keretében Ákos és Eszter vezetésével 🕺💃
+
+  📌 Batyus buli 🍹🍰🥂🍿
+
+  📌 Terembérleti hozzájárulás: 2500 Ft/fő
+
+  📌 Váltócipő használta kötelező! 👠👟 
+
+
+  ‼️Tánciskola független esemény!‼️ 
+
+
+  Várunk mindenkit szeretettel! 🩷
+
+  Eszter és Ákos, Zsófi és Feri
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727791264/pkh8haqfwxhwakbtpdkz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Szezonnyitó bachata-salsa buli "
+online: No
+place: ChIJhw6XrnlAakcRgBIeDCnEAAQ
+international: No
+hash: 1728153000000+ChIJr6zvFYxAakcR42HyWKXtCbY
+id: M1LGuvy081w7kizqQ7Fj

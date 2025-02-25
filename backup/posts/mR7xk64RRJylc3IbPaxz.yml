@@ -1,0 +1,45 @@
+facebookUrlsList: []
+isNew: true
+facebookId: ""
+facebookUrlsCount: 0
+provider: ical
+createdAt: 1729260042316
+updatedAt: 1729260042316
+importedAt: 1729260042316
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerItemId: 71hj2c3360p6cbb26cp3cb9kcos68bb260s3ab9kcdj3ic1o6hh64dr3cc@google.com
+name: "Waterfront Dancing Spooky Edition. "
+description: |-
+  Event: fb://event/408064925508186
+
+  Let's Dance Fall weather is on our side.
+  Halloween 🎃 Edition cause we all need another reason to wear our costume!
+  Bring Water and sunscreen. 
+
+  Playing Salsa, Bachata, Timba, Merengue for the whole town!!!
+providerCreatedAt: 1729222381000
+providerUpdatedAt: 1729222381000
+startDate: 1729454400000
+endDate: 1729461600000
+facebook: ""
+sourceUrl: ""
+location: Big Four Bridge
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+type: event
+username: yatusabes.blog
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+id: mR7xk64RRJylc3IbPaxz

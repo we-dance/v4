@@ -1,0 +1,167 @@
+createdAt: 1704822878328
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1334716813812525/
+source: facebook
+updatedAt: 1704822878328
+username: wedancebot
+venue:
+  formatted_address: Kongresová 1, 140 69 Praha 4-Nusle, Czechia
+  website: https://www.corinthia.com/prague/?utm_source=gmb&utm_medium=seo&utm_campaign=praguelisting
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Corinthia Prague
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4305009697085
+        lat: 50.0615486697085
+      northeast:
+        lng: 14.4331989302915
+        lat: 50.0642466302915
+    location:
+      lng: 14.432054
+      lat: 50.06278770000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Kongresová
+      long_name: Kongresová
+    - types:
+        - neighborhood
+        - political
+      short_name: Nusle
+      long_name: Nusle
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 4
+      long_name: Praha 4
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 140 69
+      long_name: 140 69
+  international_phone_number: +420 261 191 211
+  place_id: ChIJH-y6tGSUC0cRJbAIDhfN3zA
+  url: https://maps.google.com/?cid=3521758932530409509
+visibility: Public
+endDate: 1711335600000
+org:
+  owner: ""
+  importedAt: 1704822886007
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachatamagic
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/396941379_820235743439164_4492705616473926139_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=104&ccb=1-7&_nc_sid=596444&_nc_ohc=gRPjk3HuG4EAX-SZzg9&_nc_ht=scontent-iad3-1.xx&oh=00_AfCD9I5D1dFtHT3K-unXr7UwsU3-Mo1zHbOyOAUWewPFcA&oe=65A36C80
+  source: facebook
+  type: Organiser
+  createdAt: 1704822886007
+  owned: false
+  name: Bachata Magic Prague
+  place: ChIJv8kfQWGUC0cRdk3weR7UJ7s
+  updatedAt: 1704822886007
+  username: bachatamagic
+claimed: No
+facebookId: "1334716813812525"
+link: https://www.goandance.com/en/events/6387-bachata-magic-festival-2024
+description: >-
+  🎉 Get ready for the 7th edition of our iconic festival - it's going to be an
+  absolute blast! 🥳 We've got a treasure trove of surprises waiting for you!
+  🎁 
+
+  Artists:
+
+  Samy El Magico (FR)
+
+  Daniel&Tom (ISR)
+
+  Andi Bsensual (ES)
+
+  Alex Alberola (ES)
+
+  Evelyn La Negra (ES)
+
+  Nora Bachatera (HU)
+
+  Chris&Noor (GER)
+
+  Kyla Hallums (USA)
+
+  Yatin&Nikol (CZ)
+
+  Bachata Passion (NL)
+
+
+  🎫Kind of passes:
+
+
+  💃🏽🕺Full pass leader/follower - includes all the workshops and parties, excluding only Nora’s show bootcamp
+
+  💃🏽Lady Styling Show Bootcamp by Nora Bachatera - includes 4h lady styling choreo bootcamp with Nora, where you learn a show choreo, that you will later perform at Sat party (entrance to the party is gratis for bootcamp participants)
+
+  🎶Party Pass+Daniel&Tom Musicality Workshop - includes all parties and pre-party workshops plus special 1h Musicality Workshop with Daniel&Tom. INCLUDED IN THE FULL PASS! Only 50 bungles available (25 leaders and 25 followers)
+
+  🎉Party Pass - includes 3 amazing parties (Fri, Sat, Sun) and 2 pre-party workshops (Fri&Sat)
+
+  🕺💃🏽Fri&Sat Party Pass - includes 2 parties (Fri&Sat) and 2 pre-part workshops (Fri&Sat)
+
+
+  Passes available by the link: https://www.goandance.com/en/events/6387-bachata-magic-festival-2024
+
+  Passes in CZK are available on request (DM us)!
+
+
+  Location:  🎉Get ready to spend with us 2 days and 3 nights in the most incredible 5*  hotel Corinthia🏨 Immerse yourself in luxury with panoramic views of enchanting Prague, relax in style at heavenly SPA and top-floor pool, and indulge your taste buds in several amazing bars and restaurants! 🌆
+
+  🌟 But most importantly! We're turning up the excitement with 2 gorgeous and spacious conference halls waiting to be filled with dancing!🕺💃
+
+
+  🛌 Accommodation Simplified! Dance and Stay All in One Place! 🛌 Book your room: https://reservations.corinthia.com/?Hotel=28701&Chain=10210&locale=en-GB&arrive=2024-03-22&depart=2024-03-25&adult=1&child=0&promo=BMF24 ✨
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Bachata Magic Festival Prague
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJv8kfQWGUC0cRdk3weR7UJ7s
+international: No
+hash: 1711134000000+ChIJH-y6tGSUC0cRJbAIDhfN3zA
+startDate: 1711134000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuXsX2BkqyGEsINshve5X.png?generation=1704822906124574&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853619/bbum1fmxqrope0rp2v0e.jpg
+viewsCount: 31
+id: uXsX2BkqyGEsINshve5X

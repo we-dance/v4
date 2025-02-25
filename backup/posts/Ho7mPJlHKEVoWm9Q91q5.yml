@@ -1,0 +1,119 @@
+venue:
+  website: https://www.havanna-berlin.de/
+  formatted_address: Hauptstraße 30, 10827 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Havanna
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.35504813029151
+      south: 52.4837329697085
+      north: 52.4864309302915
+      west: 13.3523501697085
+    location:
+      lng: 13.353549
+      lat: 52.485115
+  address_components:
+    - types:
+        - street_number
+      short_name: "30"
+      long_name: "30"
+    - types:
+        - route
+      short_name: Hauptstraße
+      long_name: Hauptstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Tempelhof-Schöneberg
+      long_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10827"
+      long_name: "10827"
+  international_phone_number: +49 30 78899655
+  place_id: ChIJxyswtkFQqEcRg1L-WEZCk2Q
+  url: https://maps.google.com/?cid=7247209095277466243
+endDate: 2022-09-14T21:00
+claimed: No
+link: https://www.havanna-berlin.de/wednesday
+description: Die heißesten Salsa & Bachata Beats
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F7c8cfd29-3636-4050-844f-0223819b3fba?alt=media&token=6b2c0af7-a23b-4337-b917-9a40643935c4
+duration: 60
+promo: ""
+createdAt: 1663168782343
+artists: []
+price: 6 EUR
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1663168782343
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: HAVANNA Berlin
+  bio: |-
+    Salsa | Reggaeton | Hip Hop | Charts
+    all on 4 floors
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fhavanna_berlin.png?generation=1662972742108090&alt=media
+  id: 8pvk13McIcXUs1Bi8qTO
+  instagram: https://instagram.com/havanna_berlin
+  username: havanna_berlin
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: SALSA & BACHATA AFTER WORK
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-14T20:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHo7mPJlHKEVoWm9Q91q5.png?generation=1663168802130693&alt=media
+telegram:
+  requestedAt: 1663168840006
+  messageUrl: https://t.me/WeDanceBerlin/89
+  publishedAt: 1663168843734
+  messageId: 89
+  state: published
+viewsCount: 8
+id: Ho7mPJlHKEVoWm9Q91q5

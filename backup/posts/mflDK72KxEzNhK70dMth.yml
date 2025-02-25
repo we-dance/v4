@@ -1,0 +1,161 @@
+importedAt: 1708451316496
+providerUpdatedAt: 1707778010000
+endDate: 1708812000000
+facebookId: "1414361095845531"
+facebook: https://www.facebook.com/events/1414361095845531/
+facebookUrlsList:
+  - https://www.facebook.com/events/1414361095845531/
+eventType: Workshop
+createdAt: 1708451316496
+providerItemId: e1414361095845531@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: "Bachata Pura 💃🏼 BE YOURSELF 🫵 Edition | NEW: Zouk Floor🕺"
+location: Tango Chocolate
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1706881020000
+startDate: 1708801200000
+facebookUrlsCount: 1
+updatedAt: 1708451316496
+username: Aina
+venue:
+  formatted_address: Ludwig-Erhard-Straße 18, 20459 Hamburg, Germany
+  website: http://www.tango-chocolate.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Tango Chocolate das besondere Tanzstudio
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.978504019708497
+        lat: 53.5479515697085
+      northeast:
+        lng: 9.981201980291502
+        lat: 53.5506495302915
+    location:
+      lng: 9.979908199999999
+      lat: 53.549429
+  address_components:
+    - types:
+        - street_number
+      short_name: "18"
+      long_name: "18"
+    - types:
+        - route
+      short_name: Ludwig-Erhard-Straße
+      long_name: Ludwig-Erhard-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20459"
+      long_name: "20459"
+  international_phone_number: +49 160 95586674
+  place_id: ChIJmY6qweCOsUcR3RHZj1Xig3U
+  url: https://maps.google.com/?cid=8467860581500129757
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1708451332486
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BachataPuraHamburg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708451332/v5eh21iijq8wvise6nh3.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708451332486
+  owned: false
+  name: Bachata Pura Hamburg
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1708451332486
+  username: bachata.pura.hamburg
+claimed: No
+link: ""
+description: >-
+  SAVE THE DATE: Saturday, February 24th is Bachata Pura time!
+
+
+  The theme for this edition is the easiest you can imagine - just be yourself! 🫵😎
+
+
+  🤩NEW: For the first time, we are opening a Zouk floor!
+
+
+
+  📆Schedule
+
+  • 8 pm Zouk Workshop with Roxi & Christian
+
+  • 9 pm Bachata Sensual Workshop with Alex & Anna
+
+
+  (Open Level, no registration, no dance partner necessary, included in the entrance fee)
+
+
+  • 9 pm Zouk Social with Playlist & Roxi
+
+  • 10 pm Bachata Social with DJ Loots
+
+
+  Both socials end at max. 3 am
+
+
+  💸Entry? 
+
+  10€ incl. workshop
+
+
+  -----------------------------------------
+
+
+  We are looking forward to rock the dance floor with you! 💃🏽🕺🏾
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708451336/skb2yx6mdw82nmh0x9yb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1708801200000+ChIJmY6qweCOsUcR3RHZj1Xig3U
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FmflDK72KxEzNhK70dMth.png?generation=1708451358254963&alt=media
+id: mflDK72KxEzNhK70dMth

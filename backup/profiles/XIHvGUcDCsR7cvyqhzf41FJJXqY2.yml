@@ -1,0 +1,45 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627417743134
+createdBy: XIHvGUcDCsR7cvyqhzf41FJJXqY2
+name: Joe
+place: ChIJWwEkOrXfmUcRUCgJjTz9HwQ
+username: Joe
+pwaUsed: false
+birthday: 1974-01-01
+gender: Male
+visibility: Members
+partner: Yes
+weight: "80"
+permission: No
+contacts: No
+height: "182"
+learning: |-
+  Kizomba, Bachata
+  Tanzparty oder Tanzkurs
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+locales:
+  de: true
+  en: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+current: ChIJcb2YQi-3xUcREGwejVreAAQ
+updatedAt: 1686518410794
+lastLoginAt: 1686555681506
+daysUsed: 4
+viewsCount: 15
+id: XIHvGUcDCsR7cvyqhzf41FJJXqY2

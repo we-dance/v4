@@ -1,0 +1,108 @@
+endDate: 1726351200000
+sourceUrl: https://www.facebook.com/events/2584858408365738
+createdAt: 1725890443938
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725874560000
+updatedAt: 1725890443938
+importedAt: 1725890443938
+providerUpdatedAt: 1725874560000
+facebookId: "2584858408365738"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2584858408365738
+eventType: Party
+providerItemId: 48051-1726340400-1726351200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: BudaPart Stég, BudaPart, Budapest, 1117, Magyarország
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726340400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Dombóvári út 28, 1117 Hungary
+  website: https://www.molcampus.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: MOL Campus
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0592643697085
+        lat: 47.4666173197085
+      northeast:
+        lng: 19.0619623302915
+        lat: 47.4693152802915
+    location:
+      lng: 19.0600103
+      lat: 47.46795119999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Dombóvári út
+      long_name: Dombóvári út
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XI. kerület
+      long_name: XI. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1117"
+      long_name: "1117"
+  place_id: ChIJE9O6KYrdQUcR_R4q9vWr25Y
+  url: https://maps.google.com/?cid=10870471198474116861
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizzpinkdance
+  name: KizzPink
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722866452/lkubgvr0neijz1ptgj5m.jpg
+  bio: ""
+  id: B1EQlTjyC2hHNv0ND0lC
+  instagram: ""
+  username: kizzpinkdance
+claimed: No
+facebook: https://www.facebook.com/events/2584858408365738/
+link: ""
+description: >-
+  Gyere el, táncoljunk a naplementében UrbanKiz ritmusokra!
+
+  Elfogadta meghívásunk DJ Blázs, aki az ingyenes partinkon egy órás élő mixxel örvendeztet meg minket!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890463/tvvdbpoovp0y3yjxf1rd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: KizzPink - Open air | Live UrbanKiz DJ set
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1726333200000+ChIJE9O6KYrdQUcR_R4q9vWr25Y
+id: QTO6UV4qErgnrLHTn1Wp

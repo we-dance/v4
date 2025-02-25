@@ -1,0 +1,182 @@
+createdAt: 1708774292839
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/249236361321124/
+updatedAt: 1708774292839
+username: alexrazbakov
+venue:
+  formatted_address: R. Gen. Humberto Delgado, 2970-628 Sesimbra, Portugal
+  website: https://www.hoteldomar.pt/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel do Mar
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.108767680291503
+        lat: 38.4426829697085
+      northeast:
+        lng: -9.106069719708499
+        lat: 38.4453809302915
+    location:
+      lng: -9.107393499999999
+      lat: 38.44401409999999
+  address_components:
+    - types:
+        - route
+      short_name: R. Gen. Humberto Delgado
+      long_name: Rua General Humberto Delgado
+    - types:
+        - locality
+        - political
+      short_name: Sesimbra
+      long_name: Sesimbra
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Santiago
+      long_name: Santiago
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Sesimbra
+      long_name: Sesimbra
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Setúbal
+      long_name: Setúbal
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 2970-628
+      long_name: 2970-628
+  international_phone_number: +351 21 228 8300
+  place_id: ChIJ-d3PuyFSGQ0REw2ubKkIMFU
+  url: https://maps.google.com/?cid=6138415815871827219
+endDate: 1710100800000
+claimed: No
+link: https://setubailasfestival.netlify.com/
+description: |-
+  Setubailas Festival 8ªedição
+  8 a 10 de março de 2024
+
+  Início de vendas.... em breve (fica atento à promoção de lançamento).
+
+  Artistas presentes na 9ª edição (Ordenados por ordem alfabética)
+
+  Artistas Bachata:
+  Adrian & Léticia (Spain - Écija)
+  Klau & Ros (Warsaw - Barcelona)
+  Antoni & Belen (Spain - Madrid)
+  Diogo & Sara (Portugal - Porto)
+  Fi Antunes (Portugal - Lisboa)
+  Garrocho & Isa (Spain - Huelva)
+  José Sentimiento (Spain - Badajoz)
+  Kalú & Marta (Portugal - Setúbal)
+  Kike (Spain - Cádiz)
+  Luís Nunes (Portugal - Lisboa)
+  Morgan & Monique (France)
+  Ouzin & Rita (Portugal - Lisboa)
+  Paulo & Patrícia (Portugal - Lisboa)
+  Ricardo & Xénia (Portugal - Almada/Lisboa)
+  Tiago & Maya (Portugal - Lisboa)
+
+  Artistas Salsa:
+  Angel Rojas (Portugal - Lisboa)
+  Carlos Ekaterina (Portugal - Lisboa)
+  José Sentimiento (Portugal - Lisboa)
+  Luís Nunes (Portugal - Lisboa)
+  Marcos & Dedy (Portugal - Lisboa)
+  Paulo & Patrícia (Portugal - Lisboa)
+  Pedro & Inês (Portugal - Porto/Lisboa)
+  Tânia Lopes (Portugal - Lisboa)
+  Tiago Ferreira (Portugal - Lisboa)
+
+  Artistas Kizomba:
+  André & Susana (Portugal - Almada)
+  Ben & Ana  (Portugal - Faro)
+  Joel & Liza (Portugal - Faro)
+  Mac & Alexa (Portugal - Lisboa)
+  Nuno e Cátia (Portugal - Chaves)
+  Nuno & Nágila (Portugal - Porto)
+  Ouzin Gozmir (Portugal - Lisboa)
+  Tiago & Mara (Portugal - Porto)
+  Tiago & Maya (Portugal - Lisboa)
+
+
+  Dj's:
+
+  Bachata:
+  Dj Fi
+  Dj Ornelas
+  Dj Richard
+  outros
+
+  Salsa
+  Dj Hugo Leite
+  Dj Paulo Filipe
+  outros 
+
+  Kizomba
+  Dj Macalak
+  Dj Carlos Vaz
+  outros 
+
+  Local: 
+  Hotel do Mar
+  R. Gen. Humberto Delgado, 2970-628 Sesimbra
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJja9tSotRGQ0RiwZekB3GbdE
+international: No
+visibility: Public
+facebookId: "249236361321124"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Setubailas Festival 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1709913600000+ChIJ-d3PuyFSGQ0REw2ubKkIMFU
+startDate: 1709913600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708774297/irixhwjdele67sun1cvm.jpg
+org:
+  owner: ""
+  importedAt: 1708774295881
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SetubailasFestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774296/wku8m0qd2yoqotuqzgwe.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708774295881
+  owned: false
+  name: Setubailas Festival
+  place: ChIJja9tSotRGQ0RiwZekB3GbdE
+  updatedAt: 1708774295881
+  username: setubailas.festival
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtWKnjJM6ZVlXfdopPI5q.png?generation=1708774307996871&alt=media
+viewsCount: 5
+id: tWKnjJM6ZVlXfdopPI5q

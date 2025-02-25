@@ -1,0 +1,39 @@
+endDate:
+  _seconds: 1628197200
+  _nanoseconds: 0
+type: event
+duration: "240"
+createdAt: 1627810186801
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: wRWCXqsFtFIMyG26CigZ
+views: 2
+updatedAt: 1627810186801
+updatedBy: kGDD595byJY19rMbUCDsmFtvPDq2
+address: "Pinakothek der Moderne "
+visibility: Public
+eventType: Party
+form: No
+createdBy: kGDD595byJY19rMbUCDsmFtvPDq2
+commentsCount: 0
+name: "Salsa Party "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-05T17:00:00.000Z
+username: Salseros_y_Companeros
+viewsCount: 16

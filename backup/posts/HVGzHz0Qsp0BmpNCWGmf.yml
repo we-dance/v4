@@ -1,0 +1,130 @@
+sourceUrl: https://www.facebook.com/events/1280415200067668/1280415206734334/?active_tab=about
+createdAt: 1728295291785
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1728295291785
+username: AnnaMil
+viewsCount: 1
+venue:
+  formatted_address: Untermenzinger Str. 79, 80997 München, Germany
+  website: https://www.annamilite.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Anna Milite - Dance & Dream
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4938407197085
+        lat: 48.1770776197085
+      northeast:
+        lng: 11.4965386802915
+        lat: 48.1797755802915
+    location:
+      lng: 11.4952705
+      lat: 48.1784027
+  address_components:
+    - types:
+        - street_number
+      short_name: "79"
+      long_name: "79"
+    - types:
+        - route
+      short_name: Untermenzinger Str.
+      long_name: Untermenzinger Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Moosach
+      long_name: Moosach
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80997"
+      long_name: "80997"
+  international_phone_number: +49 176 83366552
+  place_id: ChIJjfAYzid3nkcRt3BgoHKWzFo
+  url: https://maps.google.com/?cid=6542769777723601079
+endDate: 1728415800000
+claimed: No
+link: ""
+description: >-
+  In this course we will get into the modern Bachata Sensual style and learn the
+  first basic steps, movements, fundamental methods and dance elements of this
+  beautiful dance style.
+
+
+  Registration without a partner is also possible!
+
+
+  EUR 12,50 per h // 1 Month 50 EUR 
+
+
+  Urban Sport Club Member & Wellpass Member are welcome.
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Anna-Milite/pfbid0PNNhDFesL2MSZmD2niboREKvGQRzYv1dUgUkqiLbs5yd2aq2U47ozobSvYPmbt3Vl/
+  name: Anna Milite
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/300657536_101554999352173_8765931596120452010_n.jpg?stp=c8.0.40.40a_cp0_dst-jpg_p40x40&_nc_cat=105&ccb=1-7&_nc_sid=5740b7&_nc_ohc=l4UDFRNFI9UAX_7FByv&_nc_ht=scontent-iad3-2.xx&oh=00_AfCzCQ_4-BgEt12DHUVjFD1A61ab0T2fnY05pTbVB5Wg9A&oe=65A20686
+  bio: ""
+  id: gBYrbZtU2HPYaDib1hyu
+  instagram: ""
+  username: AnnaMilite
+facebook: https://www.facebook.com/events/1280415200067668/?event_time_id=1280415206734334
+facebookId: "1280415206734334"
+eventType: Course
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Bachata Beginner Partnerwork
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1728412200000+ChIJjfAYzid3nkcRt3BgoHKWzFo
+startDate: 1728412200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728295296/olydx5hdfgjqsdqakzth.jpg
+instagram:
+  messageUrl: https://instagram.com/p/DA0Z_CwJe9q
+  publishedAt: 1728295339001
+  messageId: DA0Z_CwJe9q
+  state: published
+promotionError: ""
+promotion: completed
+id: HVGzHz0Qsp0BmpNCWGmf

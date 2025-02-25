@@ -1,0 +1,166 @@
+venue:
+  website: http://www.upside-east.com/
+  formatted_address: Rosenheimer Str. 145D, 81671 München, Germany
+  name: upside east
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6080039302915
+      south: 48.12103026970851
+      north: 48.1237282302915
+      west: 11.6053059697085
+    location:
+      lng: 11.606619
+      lat: 48.1224736
+  address_components:
+    - types:
+        - street_number
+      short_name: 145D
+      long_name: 145D
+    - types:
+        - route
+      short_name: Rosenheimer Str.
+      long_name: Rosenheimer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  international_phone_number: +49 89 79086615
+  place_id: ChIJoywKy5rfnUcRXaMkL9jOfNY
+  url: https://maps.google.com/?cid=15455455449127887709
+endDate: 2022-07-31T05:00
+claimed: No
+link: https://bit.ly/3HKFVIt
+description: >-
+  This is not Miami, this is Munich de Noche.
+
+
+  Wer die epischen Rooftop Partys im Upside East nicht verpassen möchte, muss sich den Sa, 30.07.22 fett markieren. Freut euch auf eine einzigartigen Sommernacht auf Münchens schönster & höchster Dachterrasse. 
+
+
+  Wir feiern auf 2 Areas (Indoor / Outdoor mit Rooftop) über den Dächern der Stadt zu den heissesten Latin Beats. ❤️
+
+
+  Hier gehts zum Ticket Link: https://bit.ly/3HKFVIt
+
+  🇦🇷🇧🇷🇨🇺🇨🇱🇵🇪🇨🇴🇺🇾🇩🇴🇪🇨🇲🇽🇪🇸🇧🇴🇵🇷
+
+
+  Los geht es um 21:00 Uhr damit ihr die letzten Sonnenstrahlen und den Sonnenuntergang auf der Terrasse mit direktem Blick auf die Alpen genießen könnt. Später bespielen DJ Javi / DJ Gira & DJ Cali Sabor auf 2 Areas die besten Latin Beats aus Reggaeton / Merengue / Salsa / Bachata / Dembow sowie Hip-Hop & Dancehall.
+
+
+  Eine exklusive Location verdient ein exklusives Publikum. Daher sind die Eintrittskarten limitiert.
+
+
+  ► Ticketshop: https://bit.ly/3HKFVIt
+
+
+  ▩ Regular Ticket 15 €
+
+  ▩ Abendkasse 20 € (wenn verfügbar)
+
+
+  FACTS:
+
+  ► Sa, 30. Juli 2022, Einlass: 21 Uhr
+
+  ► 3 DJs / 2 Areas (Reggaeton / Merengue / Salsa / Bachata / Dembow / Hip-Hop / Dancehall)
+
+  ► Specials: Walking Acts / Rooftop Area
+
+  ► Location: Upside East, Rosenheimer Strasse 145D, 81671 München
+
+
+  www.munichdenoche.de
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0ba94e6c-8d1f-47df-8798-c6d0968f5e68?alt=media&token=37d79f15-28ec-444a-ac70-a62d9e64d9ea
+duration: 60
+promo: ""
+createdAt: 1659193179820
+artists: []
+price: 15 EUR Vorverkauf ★ 20 EUR Abendkasse
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1659193179820
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: https://instagram.com/munichdenoche
+  username: munichdenoche
+facebook: https://facebook.com/events/s/latinbeats-on-a-rooftop-pt3-up/1932937303573704/
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Latinbeats on a Rooftop Pt. 3
+online: No
+styles:
+  Dancehall:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Dembow:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-30T21:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYhbtX1E6xtoXaDqKyO4y.png?generation=1659193201393181&alt=media
+viewsCount: 21
+id: YhbtX1E6xtoXaDqKyO4y

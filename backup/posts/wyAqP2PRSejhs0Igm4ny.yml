@@ -1,0 +1,231 @@
+venue:
+  formatted_address: Am Mittleren Moos 53, 86167 Augsburg, Germany
+  website: https://ichiban-sushi-grill.de/
+  name: Ichiban Sushi-Grill-Restaurant
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.9325261802915
+      south: 48.39913686970851
+      north: 48.4018348302915
+      west: 10.9298282197085
+    location:
+      lng: 10.9312572
+      lat: 48.4004521
+  address_components:
+    - types:
+        - street_number
+      short_name: "53"
+      long_name: "53"
+    - types:
+        - route
+      short_name: Am Mittleren Moos
+      long_name: Am Mittleren Moos
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hammerschmiede
+      long_name: Hammerschmiede
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86167"
+      long_name: "86167"
+  international_phone_number: +49 821 56747105
+  place_id: ChIJL3pGyDKWnkcRsjK8a02a4uU
+  url: https://maps.google.com/?cid=16564972036732760754
+endDate: 2023-07-09T02:00
+claimed: No
+link: https://fb.me/e/4jIpdzb75
+description: >-
+  Karibische Nacht Augsburg! Salsa - Bachata - Kizomba Open Air indoor im
+  Ichiban!
+
+
+  🌴 Am Samstag 08. Juli 2023
+
+  Beginn: 19:00 Uhr - Ende: 01:00 Uhr
+
+
+  Am Ausweichtermin findet die Veranstaltung bei jeder Witterung statt.
+
+
+  🌴 Wir bieten Euch folgen de Highlights:
+
+
+  KIZOMBA ÁREA 1
+
+  - Urbankiz Ladystyling Workshop 20:00 Uhr
+
+  A1-M1 mit Inna Voranmeldung 01737628001
+
+  - Dj Paps ( München-Angola ) 21:00 Uhr
+
+
+  SALSA & BACHATA ÁREA 2
+
+  - Bachata Sensual Workshop 19:00 Uhr A1-M1
+
+  Mit Chris & Tini von FlowAway Academy
+
+  - Bachatango Workshop 20:00 Uhr / A1-M1 Workshop Aznor Ragadio - Tanzgalerie kuschill
+
+  - DJ ROB Augsburg & DJ VLADI Havanna
+
+  - Rueda de Casino Animation mit Vladi
+
+  - Bachata Touch Animation mit Enrique
+
+
+  ICHIBAN SUSHI & GRILL
+
+  - Lateinamerikanische Cocktails Drinks
+
+  - leckeres Essen, 🍣🍣 Sushi & Grill 🥢🥢
+
+  - Bayerische Bierspezialitäten
+
+  - Kommen Sie vorbei: Am Mittleren Moos 53, 86167 Augsburg A8 München - Augsburg / Bus 48 / Größe Parkplätze, Tische und Workshop Reservierung: +4982156747105
+
+
+  UNKOSTENBEITRAG
+
+  3 Workshop 30,00€ inklusive Party
+
+  2 Workshop 25,00€ inklusive Party
+
+  1 Workshop 15,00€ inklusive Party
+
+  Nur Social Dance Night 5,00€
+
+
+  Wir freuen uns schon jetzt riesig darauf, einen unvergesslichen Abend in dieser großen Open Air Terrasse indoor - Ichiban mit Euch zu feiern!
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2Ff886215b-156e-43a8-a20f-acf1e90b88c1?alt=media&token=f9235dc2-9c40-42d4-900d-fd0202e6c159
+duration: 60
+createdAt: 1688547355189
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: dejay_rob
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/dejay_rob
+    id: YL5c6QYgmf1UMTLUJldF
+    username: dejay_rob
+  - instagram: https://instagram.com/innakizombaladystyling
+    username: innakizombaladystyling
+  - instagram: https://instagram.com/aznorragadio
+    username: aznorragadio
+  - instagram: https://instagram.com/flowaway
+    username: flowaway
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "Baila Bavaria Social Dance "
+    bio: Herzlich willkommen - Bienvenidos a Baila Bavaria Social Dance mit Vladimir
+      Toledo Sánchez aus Havana.
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F0f98ef5a-ab79-49c9-9f11-7dc791b2be2e?alt=media&token=6e2165e8-ba32-43ea-81d9-a7011b0aeaec
+    id: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+    instagram: ""
+    username: VladimirToledo
+  - instagram: https://instagram.com/gasparpapskings
+    username: gasparpapskings
+price: 5,00 EUR
+socialCover: ""
+artistsList:
+  - dejay_rob
+  - innakizombaladystyling
+  - aznorragadio
+  - flowaway
+  - VladimirToledo
+  - gasparpapskings
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+id: wyAqP2PRSejhs0Igm4ny
+international: Yes
+updatedAt: 1688547355189
+updatedBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Baila Bavaria Social Dance "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F0f98ef5a-ab79-49c9-9f11-7dc791b2be2e?alt=media&token=6e2165e8-ba32-43ea-81d9-a7011b0aeaec
+  bio: Herzlich willkommen - Bienvenidos a Baila Bavaria Social Dance mit Vladimir
+    Toledo Sánchez aus Havana.
+  instagram: ""
+  id: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+  username: VladimirToledo
+facebook: https://www.facebook.com/bailabavaria
+upVotes: 0
+telegram: {}
+eventType: Party
+confirmation: bailabavaria@gmail.com
+form: No
+createdBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: "Karibische Nacht Augsburg! Salsa - Bachata - Kizomba Open Air indoor im
+  Ichiban "
+online: ""
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-07-08T18:30
+username: VladimirToledo
+viewsCount: 1

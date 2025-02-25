@@ -1,0 +1,36 @@
+address: Pinakothek der Moderne
+updatedBy: kGDD595byJY19rMbUCDsmFtvPDq2
+visibility: Public
+endDate: 2021-07-15T21:00:00.000Z
+eventType: Party
+type: event
+duration: custom
+createdAt: 1626204334900
+watchersCount: 0
+form: No
+createdBy: kGDD595byJY19rMbUCDsmFtvPDq2
+commentsCount: 0
+price: FREE
+name: Salsa All Styles
+commentsLast: ~
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+id: m07N0pq6P8Ygi3rHtcDh
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-15T17:00:00.000Z
+username: Salseros_y_Companeros
+updatedAt: 1626204334900
+viewsCount: 34

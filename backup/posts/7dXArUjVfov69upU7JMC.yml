@@ -1,0 +1,178 @@
+endDate: 1724360400000
+sourceUrl: https://www.facebook.com/events/331613286428761/
+createdAt: 1724335224503
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1704305098000
+updatedAt: 1724335224503
+importedAt: 1724335224503
+providerUpdatedAt: 1724317141000
+facebookId: "331613286428761"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/331613286428761/
+eventType: Workshop
+providerItemId: e331613286428761@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachata Chocolate meets Kizomba🍫 BEST Afterwork Social in Hamburg | Jeden
+  Donnerstag
+location: Stockmeyerstraße 43 20457 Hamburg Deutschland
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724347800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Stockmeyerstraße 43, 20457 Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Stockmeyerstraße 43
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.0081814197085
+        lat: 53.5400222197085
+      northeast:
+        lng: 10.0108793802915
+        lat: 53.54272018029149
+    location:
+      lng: 10.0097822
+      lat: 53.5412796
+  address_components:
+    - types:
+        - street_number
+      short_name: "43"
+      long_name: "43"
+    - types:
+        - route
+      short_name: Stockmeyerstraße
+      long_name: Stockmeyerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20457"
+      long_name: "20457"
+  place_id: ChIJbc9wF_qOsUcROPT3UCKon3M
+  url: https://maps.google.com/?q=Stockmeyerstra%C3%9Fe+43,+20457+Hamburg,+Germany&ftid=0x47b18efa1770cf6d:0x739fa82250f7f438
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Tango-Chocolate/100063509295359/
+  name: Tango Chocolate
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954177/ny4xz5er11riybpdapq4.jpg
+  bio: ""
+  id: ZaA7QlZuk0TzihFCt5QI
+  instagram: ""
+  username: tango.chocolate
+claimed: No
+facebook: https://www.facebook.com/events/331613286428761/?event_time_id=355983583991731
+link: ""
+description: >-
+  Liebe Bachater@s, liebe Salsero@s und Kizomber@s,
+
+
+  ‼️ACHTUNG: NEUE LOCATION!
+
+
+  das beliebte AfterWork-Social 🍫 Bachata Chocolate 🍫 am Donnerstag hat ein neues (vorübergehendes) Zuhause und DU musst bei der Einweihung dabei sein! 
+
+
+
+  Freut euch auf:
+
+
+  ⭐Workshops⭐
+
+  • 19.30 Uhr • Main Floor • 
+
+  Open Level Bachata Workshop mit Moritz & Anna
+
+
+  • 20.30 Uhr • 2nd Floor • 
+
+  Open Level Kizomba / Urban Kiz Workshop mit wechselnden Lehrer:innen*
+
+
+  💃🏽Social Dance🕺🏽bis ca. 0 Uhr
+
+   •20.30 Uhr • Main Floor • 
+  90% Bachata, 10% Salsa mit DJ Naandi
+
+   •21.15 Uhr • 2nd Floor • 
+  Urban Kiz, Kizomba, Ghetto Zouk mit wechselnden DJs*
+
+
+  *die DJs und Lehrer für die jeweilige Woche werden als Posts Veranstaltung angekündigt. 
+
+
+  📍 Tango Chocolate in Gleise-Halle . Stockmeyerstraße 43. 
+
+  💸 10€ inkl. Workshop
+
+
+  Bis Donnerstag! 🕺💃
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724335238/yiielqxgt4w3vxysouwp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1724347800000+ChIJbc9wF_qOsUcROPT3UCKon3M
+id: 7dXArUjVfov69upU7JMC

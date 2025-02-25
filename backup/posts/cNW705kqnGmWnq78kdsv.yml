@@ -1,0 +1,111 @@
+createdAt: 1704430759157
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/3278053352492339/
+username: alexrazbakov
+venue:
+  formatted_address: Mehringdamm 33, 10961 Berlin, Germany
+  website: https://www.mambita.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Mambita Etage
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.3872889697085
+        lat: 52.4920036197085
+      northeast:
+        lng: 13.3899869302915
+        lat: 52.4947015802915
+    location:
+      lng: 13.3888555
+      lat: 52.4933802
+  address_components:
+    - types:
+        - street_number
+      short_name: "33"
+      long_name: "33"
+    - types:
+        - route
+      short_name: Mehringdamm
+      long_name: Mehringdamm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10961"
+      long_name: "10961"
+  international_phone_number: +49 176 21538233
+  place_id: ChIJgzvrRrJRqEcR8VukPApvTwI
+  url: https://maps.google.com/?cid=166473800993758193
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/La-Mambita/61552328349965/
+  name: La Mambita
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/393811510_122105904422077611_6067679008808682859_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=100&ccb=1-7&_nc_sid=596444&_nc_ohc=SPgCq_rRVgsAX-nYEs2&_nc_ht=scontent-iad3-2.xx&oh=00_AfAukbo7W_9txFGbZyW6ZLZ5Rvaj90Vk1-eRpmK5PJ3XeA&oe=659C6E9A
+  bio: ""
+  id: JLD4erLwR9GyEBGT2mhM
+  instagram: ""
+  username: LaMambita
+claimed: No
+link: ""
+description: |-
+  Salsa Party
+  22:00 – 1:00 Uhr
+
+  Fr. 23.2. 
+  Dj Flori & bettina_lady.mambo
+
+  Eintritt: 7 € 
+  USC check-in + 3 €
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa Party
+online: No
+styles: {}
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+startDate: 1708722000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FcNW705kqnGmWnq78kdsv.png?generation=1704430771581385&alt=media
+facebookId: "3278053352492339"
+endDate: .nan
+artistsList: []
+id: cNW705kqnGmWnq78kdsv
+hash: 1708722000000+ChIJgzvrRrJRqEcR8VukPApvTwI
+updatedAt: 1704911988790
+source: facebook
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058096/mipcyujvzlv7www4npcj.jpg
+viewsCount: 19

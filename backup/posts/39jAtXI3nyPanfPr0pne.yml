@@ -1,0 +1,193 @@
+venue:
+  formatted_address: Běhounská 22, 612 00 Brno-Brno-střed, Czechia
+  website: https://www.typos.club/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Typos music club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.6109429302915
+      south: 49.1957763697085
+      north: 49.1984743302915
+      west: 16.6082449697085
+    location:
+      lng: 16.6090739
+      lat: 49.1973102
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Běhounská
+      long_name: Běhounská
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Brno-střed
+      long_name: Brno-střed
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Brno-město
+      long_name: Brno-město
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihomoravský kraj
+      long_name: Jihomoravský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 612 00
+      long_name: 612 00
+  place_id: ChIJC3nsttkzA6cRPQCIa6RoaYY
+  url: https://maps.google.com/?cid=9685387529024962621
+  username: www.typos.club
+endDate: 1730421000000
+claimed: No
+link: https://www.facebook.com/events/1976240199467490
+description: >-
+  -CZ-
+
+  Legendární strašidelná párty je opět zpátky! Oslava svátku dne mrtvých v doprovodu latinských rytmů.
+
+
+  Těšit se můžete na nezapomenutelnou atmosféru plnou masek, dekorací a především tance!
+
+
+  🎵 Music:
+
+  ⟡ SALSA - BACHATA - KIZOMBA (90%)
+
+  ⟡ MERENGUE - REGGAETON (10%)
+
+
+  👗👕 Dresscode:
+
+  ⟡ Strašidelné masky - Halloweenské kostýmy - černá - bílá - oranžová
+
+
+  💃🕺 Openclass: (START 20:15)
+
+  ⟡ Strašidelná SALSA (halloween rueda de casino)
+
+
+  🎧 Djs:
+
+  ⟡ Dj Lole
+
+  ⟡ Dj Happy Feet
+
+  ⟡ Dj Radek
+
+
+  🚩 Lokace:
+
+  ⟡ Typos music club - párty přímo v centru Brna!
+
+
+  Začátek párty: 21:00 - 2:30
+
+  Vstup (pouze hotově): 150,-
+
+  _______________________________________________
+
+  -ENG-
+
+
+  The legendary halloween party is back again! Celebration of the Day of the Dead accompanied by Latin rhythms.
+
+  You can look forward to an unforgettable atmosphere full of masks, decorations and, above all, dancing!
+
+
+  🎵 Music:
+
+  ⟡ SALSA - BACHATA - KIZOMBA (90%)
+
+  ⟡ MERENGUE - REGGAETON (10%)
+
+
+  👗👕 Dresscode:
+
+  ⟡ Scary masks - Halloween costumes - black - white - orange
+
+
+  💃🕺 Openclass: (START 20:15)
+
+  ⟡ Scary SALSA (halloween rueda de casino)
+
+
+  🎧 Djs:
+
+  ⟡ Dj Lole
+
+  ⟡ Dj Happy Feet
+
+  ⟡ Dj Radek
+
+
+  🚩 Lokace:
+
+  ⟡ Typos music club - party right in the center of Brno!
+
+
+  Party start: 21:00 - 2:30
+
+  Entry (cash only): 150,-
+program: []
+type: event
+duration: 390
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Fd4f21f51-4ead-42dc-85c2-30f742a23ba2?alt=media&token=7a576071-a521-403e-82c5-bbd2244b61a6
+createdAt: 1727960134656
+artists: []
+price: 150 CZK
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1727960134656
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Latino Halloween 2024 - Día de los muertos
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730397600000
+hash: 1730397600000+ChIJC3nsttkzA6cRPQCIa6RoaYY
+username: DjLole
+viewsCount: 1
+id: 39jAtXI3nyPanfPr0pne

@@ -1,0 +1,134 @@
+sourceUrl: https://www.facebook.com/events/276282818860302
+createdAt: 1712333259526
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+claimed: No
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/276282818860302/
+facebookId: "276282818860302"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "East African Party 🎉 "
+online: No
+startDate: 1712347200000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/ntambala.suker
+  name: Ntambala Suker Senior
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712333265/lsopfqmguo3eymj0bthu.jpg
+  bio: ""
+  id: amOVSLJ6skXmOlXN1STI
+  instagram: ""
+  username: ntambala.suker
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9EpuSJpBYOYarLQ8LiyX.png?generation=1712333283671256&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0cde4c04-0d7d-40e7-9475-c3cf2f5b4803?alt=media&token=5fb6785f-8fa8-4724-98f9-dd1795a6fd67
+endDate: .nan
+price: 10EUR
+link: https://allevents.in/munich/east-african-party/80001520083686
+description: >-
+  Get ready to experience the vibrant rhythms infectious beats and electrifying
+  energy of Africa like never before! Join us for the inaugural edition of the
+  East African Party a celebration of culture music and unity that promises to
+  set your soul on fire.
+
+
+
+  What to Expect:
+
+
+  - Global Grooves: Immerse yourself in a sonic journey that transcends borders. From the pulsating sounds of East Africa to the mesmerizing rhythms from every corner of the globe our DJs will keep you dancing all night long.
+
+  - Inclusive Vibes: Regardless of where you're from everyone is welcome to join the celebration! Whether you're a seasoned dancer or just looking to experience something new our event is a melting pot of cultures and backgrounds.
+
+  - Cultural Fusion: Explore the rich tapestry of African music while also indulging in a diverse mix of international sounds. From Afrobeat to Reggae Dancehall to Salsa there's something for every taste and preference.
+
+  - Monthly Tradition: This isn't just a one-time event—it's the beginning of a monthly tradition! Mark your calendars because the East African Party will be lighting up Munich's nightlife scene with its exhilarating atmosphere month after month.
+
+
+  Don't miss out on the excitement! Join us at Gasteig Munich on April 5th for an unforgettable evening of music dance and celebration. Let's come together and make history at the East African Party: First Edition!
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Interested
+    highlighted: false
+    selected: true
+id: 9EpuSJpBYOYarLQ8LiyX
+venue:
+  formatted_address: Rosenheimer Str. 5, 81667 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Misafir Cafe
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5932098802915
+      south: 48.1293050197085
+      north: 48.1320029802915
+      west: 11.5905119197085
+    location:
+      lng: 11.591861
+      lat: 48.130654
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Rosenheimer Str.
+      long_name: Rosenheimer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81667"
+      long_name: "81667"
+  place_id: ChIJj5O0awDfnUcReiA5gHL-Qlw
+  url: https://maps.google.com/?cid=6648155767683227770
+  username: misafircafe
+hash: 1712347200000+ChIJNZhjBgvfnUcRT_uVB6JksjA
+updatedAt: 1712333502144
+viewsCount: 6

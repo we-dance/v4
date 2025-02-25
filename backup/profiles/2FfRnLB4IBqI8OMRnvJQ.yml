@@ -1,0 +1,68 @@
+createdAt: 1719410463928
+website: https://www.thelowry.com/
+rooms: ""
+address:
+  formatted_address: Pier, 8 The Quays, Salford, Manchester M50 3AZ, UK
+  website: https://www.thelowry.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The Lowry
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.296777380291501
+        lat: 53.4696325697085
+      northeast:
+        lng: -2.294079419708498
+        lat: 53.4723305302915
+    location:
+      lng: -2.2959907
+      lat: 53.4708242
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: The Quays
+      long_name: The Quays
+    - types:
+        - locality
+        - political
+      short_name: Salford
+      long_name: Salford
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M50 3AZ
+      long_name: M50 3AZ
+  place_id: ChIJPT10BWyue0gRocCf5NHdL_g
+  international_phone_number: +44 343 208 6000
+  url: https://maps.google.com/?cid=17883756538865107105
+gender: Other
+phone: +44 343 208 6000
+name: The Lowry
+updateAt: 1719410463928
+type: Venue
+map: ""
+username: www.thelowry.com
+viewsCount: 1
+id: 2FfRnLB4IBqI8OMRnvJQ

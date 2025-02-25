@@ -1,0 +1,191 @@
+createdAt: 1704822870574
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/773228907263852/
+source: facebook
+updatedAt: 1704822870574
+username: wedancebot
+venue:
+  formatted_address: 400 Sydney Rd, Brunswick VIC 3056, Australia
+  website: https://www.thehallbrunswick.com.au/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: The Hall at Welcome to Brunswick
+  geometry:
+    viewport:
+      southwest:
+        lng: 144.9607001697085
+        lat: -37.7698544302915
+      northeast:
+        lng: 144.9633981302915
+        lat: -37.7671564697085
+    location:
+      lng: 144.9622067
+      lat: -37.7685363
+  address_components:
+    - types:
+        - street_number
+      short_name: "400"
+      long_name: "400"
+    - types:
+        - route
+      short_name: Sydney Rd
+      long_name: Sydney Road
+    - types:
+        - locality
+        - political
+      short_name: Brunswick
+      long_name: Brunswick
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: City of Merri-bek
+      long_name: City of Merri-bek
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VIC
+      long_name: Victoria
+    - types:
+        - country
+        - political
+      short_name: AU
+      long_name: Australia
+    - types:
+        - postal_code
+      short_name: "3056"
+      long_name: "3056"
+  international_phone_number: +61 3 9388 0297
+  place_id: ChIJowkkxUxD1moRyj_mpejo10c
+  url: https://maps.google.com/?cid=5176862382599061450
+visibility: Public
+endDate: 1707667200000
+org:
+  owner: ""
+  importedAt: 1704822878352
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/LivetoKiz
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/393795399_840236554556885_6594899724112165046_n.jpg?stp=c28.0.40.40a_cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=8sXpVNjfP8cAX9l7ZsB&_nc_ht=scontent-iad3-1.xx&oh=00_AfCOSIA_1nu8bLxSFMHr3C_6jfXhPnr-tnAyW-vS9Lx9oA&oe=65A1C6B2
+  source: facebook
+  type: Organiser
+  createdAt: 1704822878352
+  owned: false
+  name: Kizomba Kollective Live to Kiz Festival
+  place: ChIJI4shgXVXwocRv6fqhiRV7wE
+  updatedAt: 1704822878352
+  username: LivetoKiz
+claimed: No
+facebookId: "773228907263852"
+link: http://www.kizombakollective.com/shop
+description: >+
+  Save the Dates!
+
+
+  7th, 8th & 13th Feb: JP & STEPHY METHODOLOGY LEVEL 2 (not included in festival full pass)
+
+
+  9th, 10th & 11th Feb: Festival Workshops and Parties (included in Full Pass)
+
+
+  12th Feb: Boat & Beach Party (not included in festival full pass)
+
+
+
+  More events to be announced for the week/weekend before. If you want to buy flights before we have locked these in, please message us for more information.
+
+
+  Ticket Link: www.kizombakollective.com/shop 
+
+
+  Round 1: $300
+
+
+  Round 2: $325
+
+
+  Round 3: $350
+
+
+  Round 4: $375
+
+
+  We are planning an exciting Sydney Summer Kiz Festival for all the Kizombies to enjoy! We will be featuring workshops in Kizomba Fusion, Urban Kiz, and Tarraxo. All workshops with international teachers will be at least 75 mins long. 
+
+
+  We will also be featuring a discussion session at the end of each day with our teachers. This is a great opportunity to ask anything about Urban Kiz, Fusion and Tarraxo. These sessions have always been popular among our Kizombies.
+
+
+  💪INSTRUCTORS💪
+
+
+  👏JP & STEPHY - FRANCE
+
+  👏AUDI & LAURA - SPAIN
+
+  👏JESUS & ANNI – SPAIN
+
+  👏CHRISTOPHE & AMANDA - AUS
+
+  👏JASMINE & EDYTA - AUS
+
+
+
+  ☄DJs☄
+
+
+  🎶DJ Sassy
+
+  🎶DJ DB Chris
+
+  🎶DJ Tang Tang
+
+  🎶DJ David Vasquez
+
+  🎶DJ Hapi Papi
+
+
+
+  Location: The Australian Hall – 150 Elizabeth St, Sydney CBD. The Australian Hall is a very large, beautiful hall in the heart of the city, with very danceable wooden floors.
+
+
+  Tickets may be transferred to another name for a $20 fee. Tickets may not be transferred to another festival, event or ticket type. Tickets are non-refundable.
+
+
+  FULL PASS (FRI, SAT, SUN) ALL WORKSHOPS & PARTIES DURING THE FESTIVAL!!! 9th Feb – 11th Feb 2024!
+
+
+  Remember, if you want to do a private with our international artists, you must have a full pass. To reserve your place, please message us on Facebook as soon as you purchase your full pass.
+
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Live to Kiz Festival 6th edition 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJI4shgXVXwocRv6fqhiRV7wE
+international: No
+hash: 1707433200000+ChIJowkkxUxD1moRyj_mpejo10c
+startDate: 1707433200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAqqKCeZWe1GjCi1KEKSs.png?generation=1704822907068570&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851729/sy6ups8aglbnsrebxtrj.jpg
+viewsCount: 16
+id: AqqKCeZWe1GjCi1KEKSs

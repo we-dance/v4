@@ -1,0 +1,127 @@
+venue:
+  formatted_address: Landwehrstraße 58, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Landwehrstraße 58
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5577660802915
+      south: 48.1350921697085
+      north: 48.1377901302915
+      west: 11.5550681197085
+    location:
+      lng: 11.5563992
+      lat: 48.1365194
+  address_components:
+    - types:
+        - street_number
+      short_name: "58"
+      long_name: "58"
+    - types:
+        - route
+      short_name: Landwehrstraße
+      long_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  place_id: ChIJWaa1H1bfnUcRMqdsS46R1eY
+  url: https://maps.google.com/?q=Landwehrstra%C3%9Fe+58,+80336+M%C3%BCnchen,+Germany&ftid=0x479ddf561fb5a659:0xe6d5918e4b6ca732
+endDate: 2022-12-17T23:59
+claimed: No
+program: []
+type: event
+promo: ""
+duration: 60
+createdAt: 1670947043113
+artists: []
+price: FREE
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1670947043113
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Djcarlos
+  bio: DJ aus Kuba
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FhehbDwPmEzScT2WgHDGHFKE0hvv1%2F08ce8c85-aafe-41a1-bd8e-2d9570cbb9ee?alt=media&token=e687302b-123c-498b-b474-eb85924f1b52
+  instagram: ""
+  id: hehbDwPmEzScT2WgHDGHFKE0hvv1
+  username: Djcarlos
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-12-17T21:00
+username: alexrazbakov
+name: Fiesta Loca!
+id: uABYtJD25BmEEm4iyG0H
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Ffd228714-69ca-4b17-9ffc-79a44d6ab7a2?alt=media&token=c4721358-a0c0-4648-9356-ade7507558ae
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuABYtJD25BmEEm4iyG0H.png?generation=1670949442006046&alt=media
+telegram:
+  requestedAt: 1670951975659
+  messageUrl: https://t.me/WeDanceMunich/739
+  publishedAt: 1670951981269
+  messageId: 739
+  state: published
+watch:
+  count: 2
+  list:
+    alexrazbakov: true
+    Saoco: true
+description: Cumpleaños de DJ Carlos aus Kuba. Eintritt frei mit
+  Anmeldung.  Bitte auf "Attend" drucken.
+star:
+  count: 2
+  list:
+    alexrazbakov: true
+    Saoco: true
+viewsCount: 187

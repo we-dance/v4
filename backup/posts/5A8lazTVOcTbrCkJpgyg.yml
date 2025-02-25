@@ -1,0 +1,188 @@
+createdAt: 1704798389571
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+username: Aina
+venue:
+  formatted_address: Guglgasse 12 Gasometer C, 1110 Wien, Austria
+  website: https://soundcube.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: SoundCube
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.4191553197085
+        lat: 48.18311171970851
+      northeast:
+        lng: 16.42185328029151
+        lat: 48.18580968029151
+    location:
+      lng: 16.42059680000001
+      lat: 48.1846743
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Simmering
+      long_name: Simmering
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1110"
+      long_name: "1110"
+  international_phone_number: +43 660 6297080
+  place_id: ChIJaVhWFLkHbUcRSVoLU34Gwzs
+  url: https://maps.google.com/?cid=4306292808325225033
+endDate: 1714932000000
+claimed: No
+description: >-
+  Welcome to NEXUS:tech, our Urban Kiz weekend in Vienna! We provide you with
+  quality workshops, locations, parties and DJs. All you have to come and dance
+  the night away with us!
+
+
+  Each of the 2-hour workshops topic is chosen in cooperation between us and the international teachers, to help you grow as a dancer as much as possible.
+
+  The teachers we chose typically are working on building their own local community, thus know what's important for students to become better! 
+
+
+  We chose to keep the size of the event small to stand against current developments in the community. With a small event size we can guarantee: 
+
+  - better focus on you during the workshops 
+
+  - ⁠good leader / Follower ratio without having to rely on guest dancers for more follower pass sales 
+
+  - ⁠less lines, less waiting, less pressure - to make sure you can enjoy your weekend to the fullest
+
+
+   Registration link: TBA
+
+    Location: SoundCube Gasometer*
+
+    Our DJs:
+  TO BE ANNOUNCED
+
+     Your Workshop Instructors:
+  TO BE ANNOUNCED
+
+   Schedule
+  Friday:
+
+  - 18:30 Registration
+
+  - 19:00-21:00 - Workshops
+
+  - 22:00-03:00 - Party
+
+  Saturday: 
+
+  - 19:00-21:00 - Workshops
+
+  - 22:00-03:00 - Party
+
+  Sunday: 
+
+  - 13:00-16:00 - Workshops
+
+  - 16:00-20:00 - Social Dancing
+
+    Weekend passes - UP TO 30€ DISCOUNTS BELOW
+  - Full pass: (Early Bird €80 / 90€ / 100€ / 110€)
+
+  - Party pass 70€ (Parties on Fr & Sa, and social on Su)
+    
+    Day passes and party pass: not available yet and not guaranteed due to limitation of participants
+  - Fr pass 45€ (Workshops and party on Fr)
+
+  - Sa pass 45€ (Workshops and party on Sa)
+
+  - Su pass 35€ (Workshops and party on Su)
+
+
+   NEXUS discounts valid for full pass and party pass! (get 6€ off for each of them)
+  * N EXUS:core Card Holder
+
+  * E vent Supporter (participation previous NEXUS:tech editions)
+
+  * X tra Mile Discount (if you aren't from Vienna)
+
+  * U sign up with a Partner (leader & follower)
+
+  * S tudent Discount (Under the age of 27)
+
+
+
+  Important: 
+
+  • Bring your own drink, the studio doesn’t have a bar
+
+  • The studio has locker rooms
+
+  • Bring dance shoes, street shoes are not allowed on the dance floor
+
+   Ready for an unforgettable dance journey? Don't miss out on this NEXUS:tech edition!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Nexus-Dance/100095028619864/
+  name: Nexus Dance
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/370700882_133138209863799_5397720998011334833_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=596444&_nc_ohc=0O_jBQpnLP4AX_3_ox_&_nc_ht=scontent-iad3-2.xx&oh=00_AfC3Q-ORkG7R6ho2JGskztWhqdvz4yUbQ91BT6ZZPQqn_A&oe=659EF94E
+  bio: ""
+  id: DEjk8m5fXNjaoJ7BEnli
+  instagram: ""
+  username: NexusDance
+facebook: https://www.facebook.com/events/895617455557090/
+facebookId: "895617455557090"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: NEXUS:tech 5 - Urbankiz Weekender Vienna
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1714753800000+ChIJn8o2UZ4HbUcRRluiUYrlwv0
+startDate: 1714753800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F5A8lazTVOcTbrCkJpgyg.png?generation=1704798400983699&alt=media
+link: https://tally.so/r/w7NagR
+artistsList: []
+id: 5A8lazTVOcTbrCkJpgyg
+updatedAt: 1704798448736
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851610/fenjyiv6o14gqh3zuipk.jpg
+viewsCount: 17

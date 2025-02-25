@@ -1,0 +1,186 @@
+endDate: 1716145200000
+sourceUrl: https://www.facebook.com/events/3776258182642290/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713121665000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1713121665000
+facebookId: "3776258182642290"
+facebook: https://www.facebook.com/events/3776258182642290/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3776258182642290/
+eventType: Workshop
+providerItemId: e3776258182642290@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BOCHUM SENSUAL SUNDAY - Special Edition Pfingstsonntag 19.05.
+location: Am Poter 16, 44879 Bochum, Deutschland
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716134400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Am Poter 16, 44879 Bochum, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Am Poter 16
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.163081969708498
+        lat: 51.4255642697085
+      northeast:
+        lng: 7.165779930291502
+        lat: 51.4282622302915
+    location:
+      lng: 7.1645222
+      lat: 51.4269276
+  address_components:
+    - types:
+        - street_number
+      short_name: "16"
+      long_name: "16"
+    - types:
+        - route
+      short_name: Am Poter
+      long_name: Am Poter
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bochum Südwest
+      long_name: Bochum Südwest
+    - types:
+        - locality
+        - political
+      short_name: BO
+      long_name: Bochum
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bochum
+      long_name: Bochum
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Arnsberg
+      long_name: Arnsberg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "44879"
+      long_name: "44879"
+  place_id: ChIJ8dBX2VbeuEcR2PLQK_T3MAc
+  url: https://maps.google.com/?q=Am+Poter+16,+44879+Bochum,+Germany&ftid=0x47b8de56d957d0f1:0x730f7f42bd0f2d8
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131880680
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/andreystela
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131881/sjirimzwnskeesru4jnq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131880680
+  owned: false
+  name: André y Stela
+  place: ChIJdVfT-Q_guEcRQIdUMYHyJwQ
+  updatedAt: 1714131880680
+  username: andreystela
+claimed: No
+link: ""
+description: |-
+  ✨ BOCHUM SENSUAL SUNDAY✨
+   Jeden Sonntag
+
+  ✨SPECIAL EDITION am 19.05. im PHÖNIX🔥
+
+  Finest Bachata & Salsa 🎧📣🎶
+  Best Social Dancing in Bochum
+
+  Teilnahme auch ohne Tanzpartner möglich!
+  Keine Voranmeldung, einfach vorbeikommen
+  No Dance partner needed
+
+  Workshops & Practice Night
+
+  TANZABEND ab 21 Uhr 🔥MIT DJ Elito & DJ Senor Benjamin
+
+  3x Bachata Workshops 
+
+  18 Uhr André & Stela - Bachata Sensual AmV / Mittelstufe
+
+  19 Uhr Gianmarco & Laura - Bachata Sensual Mittelstufe
+
+  20 Uhr Denis & Elina - Bachata Sensual Mittelstufe/Fortgeschritten
+
+  21 Social Dancing
+
+  📣🎶💡 Finest Bachata & Salsa
+
+  EINTRITT:
+  Nur 7€ & 3€ für Getränke (MVZ)
+  Practice Night + 3 Workshops: 30 € (Inklusive 3€ MVZ)
+  Practice Night + 2 Workshops: 25 € (Inklusive 3€ MVZ)
+  Practice Night + 1 Workshop: 20 € (Inklusive 3€ MVZ)
+
+  TICKETS an der AK / at the door
+
+  -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+
+  📍Tanzlokation Phönix Bochum
+
+  (Hattinger Str. 821)
+
+  How to find: // ANFAHRT: 
+
+  Am Poter 16 / Parkplatz Linden-Mitte
+
+
+  Back entrance over stairs // Hintereingang über Treppe
+
+
+  🅿️ Free Parking! Kostenlose Parkplätze vor Ort
+
+  -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+
+  ALLE INFOS in der Community Gruppe. Einladungslink & bei Fragen: 01782384166
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131882/ge2jqrupjsbkwy691crr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJdVfT-Q_guEcRQIdUMYHyJwQ
+international: No
+hash: 1716134400000+ChIJ8dBX2VbeuEcR2PLQK_T3MAc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAmerZVAfOVLIDSlHv2VN.png?generation=1714131904474894&alt=media
+id: AmerZVAfOVLIDSlHv2VN

@@ -1,0 +1,169 @@
+endDate: 1723586400000
+sourceUrl: https://www.facebook.com/events/s/salsa-cubanismo-open-air-salsa/465155429692635/
+createdAt: 1723384824753
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1723375620000
+updatedAt: 1723384824753
+importedAt: 1723384824753
+providerUpdatedAt: 1723375620000
+facebookId: "465155429692635"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/s/salsa-cubanismo-open-air-salsa/465155429692635/
+providerItemId: 47715-1723572000-1723586400@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Orom utca, Orom utca, Budapest, 1016, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723572000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Orom u., 1016 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Orom Street
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0396507197085
+        lat: 47.48775091970851
+      northeast:
+        lng: 19.0423486802915
+        lat: 47.49044888029151
+    location:
+      lng: 19.0409997
+      lat: 47.48909990000001
+  address_components:
+    - types:
+        - route
+      short_name: Orom u.
+      long_name: Orom utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: I. kerület
+      long_name: I. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1016"
+      long_name: "1016"
+  place_id: ChIJeZ7LvzfcQUcR-YC-i7bNPXs
+  url: https://maps.google.com/?q=Budapest,+Orom+u.,+1016+Hungary&ftid=0x4741dc37bfcb9e79:0x7b3dcdb68bbe80f9
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaCubanismo
+  name: Salsa Cubanismo Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557708/uyy77zrwwr3q2h6wf7hb.jpg
+  bio: ""
+  id: pP9hHzFdr0pQWEYBNHAn
+  instagram: ""
+  username: SalsaCubanismo
+claimed: No
+facebook: https://www.facebook.com/events/465155429692635/
+link: ""
+description: >-
+  Nyáridéző - Salsa-Timba matiné
+
+  Forró, táncba hívó este, tömegre, bicajra pattanva, ismét 'Cubanismo'-piknikre várunk! 
+
+  /Mindig kövesd az eseményt, - köszönjük, ha transzparens jelzel - az 'Ott leszek'-által informálunk és informálódunk, az esetleges rossz idő esetén, publikáltan elmarad/
+
+
+
+  RÉSZVÉTEL feltétele, hogy beköveted a szervező alábbi platformjait, támogatva azzal az ötletgazda munkáját! (Ezt ellenőrizzük)
+
+  www.facebook.com/DjAlgoMas
+
+  www.facebook.com/TeamGustoCubano
+
+  www.facebook.com/SalsaCubanismo
+
+  www.facebook.com/GustoCubano
+
+
+  Ha Facebook-on nem kívánsz támogató magatartással élni, akkor 1000 HUF hozzájárulással tudod a rendezvény költségeit támogatni. (erre kihelyezett doboz áll rendelkezésre)
+
+
+
+  PROGRAM:
+
+  Salsa-social (társas-vegyülés): 18:00-tól
+
+  Finom salsa-timba muzsikák (óránként 1-2 bachata), vezetett ruedák, animációk: AlgoMás jóvoltából!
+
+
+
+  ZENEI REPERTOÁR (powered by AlgoMás): itthon ritkán hallott
+
+  -salsa peruana
+
+  -kolumbiai, puerto-ricó-i salsa romantika
+
+  -timba cubana
+
+  -bachata
+
+
+
+  Eseményeinkre befizetés is lehetséges (őszi, kecskeméti salsa-bachata weekender festival):
+
+  https://facebook.com/events/s/gusto-cubano-2024-kecskemet-sa/758249399417496/
+
+
+  INFO:
+
+  Étel-italt-frissítőt - ill. maga után a szemetet eltakarítva - mindenki batyujából intézze! 🙂
+
+  Toilette: helyszínen nem, de Tabán-vendéglátóipari egységeiben - pár száz méterre - rendelkezésre áll
+
+  Parkolás: Orom utcában
+
+
+  Várunk!
+
+  AlgoMás & Salsa Cubanismo
+program: []
+source: facebook
+eventType: Festival
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723384841/pfb8lgbic0nukiwktrmb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa Cubanismo open-air salsa dance & picnic /// (Kecskemét salsa-bachata
+  weekender promo party)
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1723564800000+ChIJeZ7LvzfcQUcR-YC-i7bNPXs
+id: NRZSOd3IhBhGeDMtus4A

@@ -1,0 +1,125 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/prague-salsa-marathon/
+sourceUrl: https://facebook.com/events/1392677138100309
+venue:
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: "122"
+      short_name: "122"
+      types:
+        - premise
+    - long_name: Mikulandská
+      short_name: Mikulandská
+      types:
+        - route
+    - long_name: Nové Město
+      short_name: Nové Město
+      types:
+        - neighborhood
+        - political
+    - long_name: Praha 1
+      short_name: Praha 1
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Czechia
+      short_name: CZ
+      types:
+        - country
+        - political
+    - long_name: 110 00
+      short_name: 110 00
+      types:
+        - postal_code
+  formatted_address: Mikulandská 122/4, 110 00 Praha 1-Nové Město, Czechia
+  geometry:
+    location:
+      lat: 50.0811625
+      lng: 14.4182758
+    viewport:
+      northeast:
+        lat: 50.08249693029151
+        lng: 14.4204218
+      southwest:
+        lat: 50.07979896970851
+        lng: 14.4174578
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +420 721 821 821
+  name: Salsa-Dance
+  place_id: ChIJKRmR4fGUC0cRkVD2mhjfZBk
+  url: https://maps.google.com/?cid=1829832645391306897
+  website: http://www.salsa-dance.cz/
+endDate: 1747076400000
+claimed: No
+link: https://praguesalsa.com/
+description: |+
+  💖💃🏻✨ ... PRAGUE SALSA MARATHON 2025 ... ✨💃🏻💖
+  new decade
+
+  https://salsamarathons.com
+  https://praguesalsa.com
+
+  💖🎧 ... Your Marathon DJs ... 🎧💖
+  🎧 DJ ...
+  🎧 DJ ...
+  🎧 DJ ...
+  🎧 DJ ...
+  🎧 DJ ...
+  🎧 DJ ...
+  🎧 DJ ...
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/uq320w7qvpysabbc7vpi.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJv6UAH9YkDEcR0f8QiF7UFW4
+international: No
+visibility: Public
+org:
+  id: 7pJ0XFnCSvV0TF385Ut0
+  username: PragueSalsa
+  name: Prague Salsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954095/mrbnnpmjhb1q0i5ptxkv.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/PragueSalsa
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1392677138100309/
+facebookId: "1392677138100309"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Prague Salsa Marathon 2025 - new decade ✨💖
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1746720000000+ChIJKRmR4fGUC0cRkVD2mhjfZBk
+startDate: 1746720000000
+id: XSj66iLY3DseyCCtQMg9

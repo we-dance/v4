@@ -1,0 +1,165 @@
+isNew: true
+facebookId: "593146983068575"
+facebookUrlsList:
+  - https://www.facebook.com/events/593146983068575/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730818832381
+updatedAt: 1730818832381
+importedAt: 1730818832381
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48698-1731715200-1731801599@latinfo.hu
+providerCreatedAt: 1730795230000
+providerUpdatedAt: 1730796290000
+startDate: 1731715200000
+endDate: 1731801599000
+facebook: https://www.facebook.com/events/593146983068575/
+sourceUrl: https://www.facebook.com/events/593146983068575/
+location: KÖFÉM Művelődési Ház, Verseci utca 1-15., Székesfehérvár, 8000, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: Verseci utca
+      short_name: Verseci u.
+      types:
+        - route
+    - long_name: Székesfehérvár
+      short_name: Szfvár
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "8000"
+      short_name: "8000"
+      types:
+        - postal_code
+  formatted_address: Székesfehérvár, Verseci u., 8000 Hungary
+  geometry:
+    location:
+      lat: 47.1910853
+      lng: 18.4638338
+    viewport:
+      northeast:
+        lat: 47.19250213029149
+        lng: 18.4650803302915
+      southwest:
+        lat: 47.1898041697085
+        lng: 18.4623823697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +36 22 531 610
+  name: Köfém Művelődési Ház
+  place_id: ChIJOVNZ3CD4aUcRb1QZdHS3MSI
+  url: https://maps.google.com/?cid=2463952181940278383
+  website: https://kofemmuvhaz.hu/
+visibility: Public
+org:
+  createdAt: 1730818851778
+  importedAt: 1730818851778
+  updatedAt: 1730818851778
+  source: facebook
+  name: Salsa Jam Táncklub
+  facebook: https://www.facebook.com/SalsaJamTancklub
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1730818852/kkh46uwf9ocefqbe6ftb.jpg
+  username: SalsaJamTancklub
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ33hKdpP3aUcR8BEeDCnEAAQ
+claimed: No
+link: ""
+description: >-
+  Az afrolatin táncok kedvelőinek jó hírrel szolgálunk, mert egy új
+  együttműködésnek köszönhetően megrendezésre kerül egy remek, minőségi workshop
+  és latin party!
+
+
+  ► Dupla Bachata Workshop ► 
+
+  Carlos és Kitti Székesfehérváron már több alkalommal oktattak, a tánc iránti elkötelezettségük vitathatatlan. Könnyed, laza ugyanakkor színvonalas bachata órákkal készülnek nektek, melyeket egyből gyakorolhattok a workshopokat követő partin is, hiszen semmi koreográfia, viszont látványos és technikás figurák sorai várnak rátok különböző tudásszinteken.
+
+
+  ► PROGRAM ►
+
+  Kapunyitás: 18.45
+
+  19.00-20:00 Bachata After Basic workshop / kezdő 2-es szint
+
+  20:00-21:00 Bachata Party Style workshop / középhaladó szint
+
+
+  ❗ Workshop info: teljesen kezdőknek nem ajánlott, az alapok ismerete fontos! (2-3 hónapos tudás már elegendő)
+
+
+  ► Latin SBK Party ►
+
+  21.00 - 01:00 Salsa-Bachata-Kizomba buli! A legjobb slágerzenék és új kedvencek a Salsa Jam rezidense, DJ Dawe tolmácsolásában! Animációk, ruedák és jó hangulat!
+
+  Zene: DJ Dawe
+
+
+  ► JEGYÁRAK ►
+
+  ✅ 1 Workshop: 3.500 Ft / fő
+
+  ✅ 2 Workshop: 6.000 Ft / fő
+
+  ✅ COMBO jegy (2WS+party): 7.500 Ft/ fő
+
+  ✅ Partyjegy 21.00-tól kapható: 2.500 Ft/ fő
+
+
+  A helyszínen CSAK készpénzzel tudsz majd fizetni, kérjük ezt vedd figyelembe!
+
+
+  ► HELYSZÍN►
+
+  KÖFÉM Közösségi Ház
+
+  Székesfehérvár, Verseci u. 1-15.
+
+  ⚠️ Figyelem! A helyszínen LESZ büfészolgáltatás! Kaphatóak hideg italok, szendvicsek, meg mindenféle.:)
+
+
+  Várunk szeretettel!
+
+
+  Médiatámogató: Latinfo.hu  
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730818853/vq7hnemcdk86oqsxsabo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Latin SBK Party // 2 Bachata Workshop - Carlos & Kitti
+online: No
+place: ChIJ33hKdpP3aUcR8BEeDCnEAAQ
+international: No
+hash: 1731780000000+ChIJOVNZ3CD4aUcRb1QZdHS3MSI
+id: 7FUTiQFoAck10zT8hLRG

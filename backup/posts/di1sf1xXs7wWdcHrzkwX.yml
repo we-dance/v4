@@ -1,0 +1,243 @@
+createdAt: 1704822888749
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/765157558485824/
+source: facebook
+username: wedancebot
+visibility: Public
+endDate: 1717668000000
+org:
+  owner: ""
+  importedAt: 1704822892608
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/festivalcubaintunisia
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/327438130_1379304212824767_3488646685807058428_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=MtvqQHYAg_wAX-5bPJK&_nc_ht=scontent-atl3-2.xx&oh=00_AfAa3j2b_fgEQieB6j5NIvu6GQZSBZR3ZNZ2gf9kNritkA&oe=65A2C7BE
+  source: facebook
+  type: Organiser
+  createdAt: 1704822892608
+  owned: false
+  name: Festival Cuba in Tunisia
+  place: ChIJWU90HbYSAhMR70A-HT50hPI
+  updatedAt: 1704822892608
+  username: festivalcubaintunisia
+claimed: No
+facebookId: "765157558485824"
+link: https://my.weezevent.com/cit-24
+description: >-
+  Join us for the 6th edition of Cuba In Tunisia and let's make memories for
+  life! We are preparing something really special, so make sure you will not
+  miss the biggest event of 2024!
+
+
+  What to expect?
+
+  🔸 Beautiful All-Inclusive hotel for 7 nights 😍
+
+  🔸 LIVE concerts! 💣
+
+  🔸 Top DJs with their finest music selection
+
+  🔸 More than 50 international artists
+
+  🔸 More Than 100h of quality workshops 
+
+  🔸 Crazy parties that will blow your mind 🤩 (including foam party, colour powder party, beach party and evenings!) 
+
+  🔸 Afterparties with no-end or just a break for breakfast 🤪
+
+  🔸 Classes with the best live percussion ever!
+
+  🔸 Legendary boat trip 🌊
+
+  🔸 Rumba abierta that will tickle your ❤️ 
+
+  🔸 Top animations
+
+  And much, much more!
+
+
+  Cuba in Tunisia is the biggest and most amusing Cuban Festival in the world!
+
+  One week of 24/7 pure madness dedicated 100% to Cuban culture at the shores of beautiful Tunisian sea. The unforgettable experience of passion, friendship and connection, all of this in amazing scenery and All-inclusive hotel.
+
+  Join us and be a part of #LocuraSinFreno family!
+
+
+  We are authentic. 
+
+  Passionate. 
+
+  And sooo much fun! 😉
+
+
+  🛒Tickets available: Coming Soon
+program: []
+eventType: Concert
+type: event
+duration: 60
+form: No
+artists: []
+name: Festival Cuba In Tunisia 2024 Official
+online: No
+place: ChIJWU90HbYSAhMR70A-HT50hPI
+international: No
+hash: 1717074000000+ChIJWU90HbYSAhMR70A-HT50hPI
+startDate: 1717074000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fdi1sf1xXs7wWdcHrzkwX.png?generation=1704822907115149&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853380/ag7ip2szb8s8hhztujic.jpg
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+price: See link
+id: di1sf1xXs7wWdcHrzkwX
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+venue:
+  formatted_address: Route Touristique, Monastir 5029, Tunisia
+  website: https://oneaqua.tn/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: One Resort Aqua Park & Spa
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.7159742802915
+      south: 35.7702811197085
+      north: 35.7729790802915
+      west: 10.7132763197085
+    location:
+      lng: 10.7147255
+      lat: 35.7716804
+  address_components:
+    - types:
+        - route
+      short_name: Route Touristique
+      long_name: Route Touristique
+    - types:
+        - locality
+        - political
+      short_name: Monastir
+      long_name: Monastir
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Monastir
+      long_name: Monastir
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Monastir
+      long_name: Monastir
+    - types:
+        - country
+        - political
+      short_name: TN
+      long_name: Tunisia
+    - types:
+        - postal_code
+      short_name: "5029"
+      long_name: "5029"
+  international_phone_number: +216 73 521 750
+  place_id: ChIJQ9nY-6UMAhMRL8iKcKYLJZ0
+  url: https://maps.google.com/?cid=11323469647573600303
+  username: oneaqua.tn
+updatedAt: 1715612853147
+bookmarks: 0
+watch:
+  count: 1
+  usernames:
+    - Viacheslav
+  history:
+    - username: Viacheslav
+      date: 1716631343576
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+viewsCount: 39
+star:
+  count: 2
+  usernames:
+    - AnA
+    - Viacheslav
+  history:
+    - username: alexrazbakov
+      date: 1715363577807
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715363579111
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1715363579905
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715363580515
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1715363585203
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715363585856
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1715363598712
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715363691469
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1715363699622
+      invitedBy: ablQj6g1IzyvL5yWXc32
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: AnA
+      date: 1715364214095
+      invitedBy: ""
+      uid: tJ1r0WeODsPQpGlelwAd6M4x1K83
+      action: joined
+    - username: AnA
+      date: 1715364215980
+      invitedBy: ""
+      uid: tJ1r0WeODsPQpGlelwAd6M4x1K83
+      action: left
+    - username: AnA
+      date: 1716289354307
+      invitedBy: ""
+      uid: tJ1r0WeODsPQpGlelwAd6M4x1K83
+      action: joined
+    - username: AnA
+      date: 1716289532889
+      invitedBy: ""
+      uid: tJ1r0WeODsPQpGlelwAd6M4x1K83
+      action: left
+    - username: AnA
+      date: 1716289536698
+      invitedBy: ""
+      uid: tJ1r0WeODsPQpGlelwAd6M4x1K83
+      action: joined
+    - username: Viacheslav
+      date: 1716631394516
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: alexrazbakov
+      date: 1717106322482
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left

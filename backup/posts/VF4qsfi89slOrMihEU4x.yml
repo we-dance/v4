@@ -1,0 +1,186 @@
+venue:
+  formatted_address: Kurfürstenstraße 8, 80799 München, Germany
+  website: https://fitnessanddance.center/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "8"
+      short_name: "8"
+    - types:
+        - route
+      long_name: Kurfürstenstraße
+      short_name: Kurfürstenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=4968408430539880362
+  name: Fitness and Dance Munich
+  geometry:
+    viewport:
+      south: 48.1529793197085
+      north: 48.15567728029149
+      east: 11.5777645802915
+      west: 11.5750666197085
+    location:
+      lng: 11.5764797
+      lat: 48.154286
+  place_id: ChIJfUVB3L11nkcRqrdi0SRV80Q
+  international_phone_number: +49 172 7328816
+endDate: 2022-02-20T16:00
+claimed: No
+link: https://fb.me/e/29gzmmccy?ti=wa
+type: event
+promo: No
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F4db46ad1-f88a-49e8-b85f-ad6ba8bbdcf3?alt=media&token=553d579a-39aa-4247-bc96-86ed4836555e
+duration: custom
+createdAt: 1643756879535
+artists: []
+price: 90 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1643756879535
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+facebook: https://fb.me/e/29gzmmccy?ti=wa
+eventType: Workshop
+form: No
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Lady Styling & Body Movement with Denisa
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-19T14:00
+username: Lakkana
+description: >-
+  Workshop:
+
+
+  Samstag 19.02 14-17 Uhr
+
+  Salsa Styling für Beg/Int
+
+  Gebühren €45.- (3 Stunden)
+
+
+  Sonntag 20.02 13-16 Uhr
+
+  Salsa Ladies Styling für Int/Adv
+
+  Gebühren €45.- (3 Stunden)
+
+
+  Anmeldungen an denisa.v.dance@gmail.com
+
+
+  Das Ziel dieses Kurs besteht darin seinen Körper beim Tanzen bewusst zu spüren und kontrollieren zu lernen. Wir setzen den Fokus darauf, eure Tanzbewegungen geschmeidiger zu machen und euren “Basics”, Drehungen, Open Shines, sowie euren Tanzkenntnissen im Partnerwork mehr “sabor” und “smothness “zu bringen.
+
+
+  Ihr werdet lernen wie ihr euer Gewicht während eurer Basic und Drehungen richtig verlagern könnt und wie ihr eure Schritte kontrolliert macht, ohne dabei die Balance zu verlieren.
+
+
+  Unterrichtsinhalt:
+
+  - Handbewegungen
+
+  - Beinarbeit & Kopfdrehungen
+
+  - Musikinterpretation
+
+  - div. Becken- & Oberkörperbewegungen
+
+  - einzelne Elemente die zu einer Figur zusammengefügt werden
+
+  - Drehtechnik & Verziehrungen der Grundschritte
+
+  - Open Shines
+
+
+  In diesem Workshop dreht sich alles darum euere Tanzkenntnisse auf ein neues Level zu bringen!
+
+
+  ### Limitierte Plätze
+
+
+  Seit 24.11. gilt die 2G+ Regelung, d.h. dürft
+
+  ihr leider nur teilnehm en wenn ihr geimpft oder genesen seid und zusützlich einen negativen Testnachweis vorlegt
+
+
+  Ab 15.12 die Testpflicht entfällt für alle, die die Boosterimpfung erhalten haben (ab dem 15. Tag nach der 3. Impfung).
+
+
+  Es gibt folgende Möglichkeiten für den Testnachweis:
+
+  - Antigen-Schnelltest einer Teststation (nicht älter als 24
+
+  Stunden)
+
+  - PCR-Test (nicht älter als 48 Stunden)
+
+  - Schnelltest vor Ort selbst gemacht (aus organisatorischen
+
+  Gründen ist das leider nur vor der ersten Stunde am Tag
+
+  möglich).
+
+
+  Bringe deinen eigenen Test mit, sei bitte 20 min vor
+
+
+  Kursbeginn da und führe den Test unter Aufsicht des Tanzlehrer
+
+  selbst durch.
+
+
+  Bitte entschuldigt di Unannehmlichkeiten!
+
+
+  Eure Denisa
+
+  🌹
+id: VF4qsfi89slOrMihEU4x
+org:
+  facebook: denise.vukaj
+  username: denise.vukaj
+viewsCount: 10
+watch:
+  count: 1
+  list:
+    alejito: true

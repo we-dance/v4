@@ -1,0 +1,163 @@
+endDate: 1714939200000
+sourceUrl: https://www.facebook.com/events/1492857164637844/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713941036000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1714023281000
+facebookId: "1492857164637844"
+facebook: https://www.facebook.com/events/1492857164637844/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1492857164637844/
+eventType: Party
+providerItemId: e1492857164637844@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "NEXUS  100% BACHATA IN DORTMUND "
+location: majema DANCECENTER
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714917600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Glückaufsegenstraße 82-86, 44265 Dortmund, Germany
+  website: http://www.majema.net/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: majema DANCECENTER
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.478173519708497
+        lat: 51.4744014197085
+      northeast:
+        lng: 7.480871480291501
+        lat: 51.4770993802915
+    location:
+      lng: 7.479739799999999
+      lat: 51.475835
+  address_components:
+    - types:
+        - street_number
+      short_name: 82-86
+      long_name: 82-86
+    - types:
+        - route
+      short_name: Glückaufsegenstraße
+      long_name: Glückaufsegenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hörde
+      long_name: Hörde
+    - types:
+        - locality
+        - political
+      short_name: DO
+      long_name: Dortmund
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Dortmund
+      long_name: Dortmund
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Arnsberg
+      long_name: Arnsberg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "44265"
+      long_name: "44265"
+  international_phone_number: +49 231 75810797
+  place_id: ChIJxwOrb5cXuUcR_kZ9JaEgA2U
+  url: https://maps.google.com/?cid=7278697299251644158
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Loft-Afro-Latin-weekend/100065193121370/
+  name: Loft Afro Latin weekend
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224710/k7e2gglynbpzow9lulee.jpg
+  bio: ""
+  id: EgC8t4A5kmvsUpBPHDsP
+  instagram: ""
+  username: loft.afro.latin.week
+claimed: No
+link: ""
+description: |-
+  ♦️ NEXUS  💯 BACHATA ♦️
+
+  🔴 Sonntag, 5. Mai  2024🔴
+
+  Workshop & day party 
+  💯 BACHATA 
+
+  Kommen Sie, tanzen Sie und genießen Sie mit uns 💃🕺
+
+  ✅ Wichtige Links ✅
+
+  🔰Infos per WhatsApp: ⬇️
+  https://chat.whatsapp.com/L1dBpSCvNSk66WHNBCw4Sf
+
+  🔰 Instagram-Link :⬇️
+  https://www.instagram.com/loft.afrolatin?
+
+  Aufstellung : 
+
+  🎧 DJ JONIDA & DJ MITCH  🎧
+
+  💃🕺 Lehrer: SONU & ISABELLA
+
+   📖Programm:
+
+  15:45 Uhr: Einlass
+
+  16: 00 Uhr - 17:00 Uhr :
+  Bachata-Workshop für alle Niveaus mit SONU & ISABELLA
+
+  17:00 Uhr - 22:00 Uhr: day Party 💯 Bachata  mit DJ JONIDA & DJ MITCH 
+
+  Die Tickets müssen beim Eingang bezahlt werden.
+
+  Preis :
+  Day Party-Workshop: 15€
+  Nur Party: 10€
+
+  Ort :
+  MAJEMA DANCE CENTER 
+  Glückaufsegenstraße 82-86, 44265 Dortmund
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131888/uravukn4eals6rijvxxp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJEXrwv2AXuUcRUIdUMYHyJwQ
+international: No
+hash: 1714917600000+ChIJxwOrb5cXuUcR_kZ9JaEgA2U
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwtJcy7ukIwFSyApX3hrK.png?generation=1714131923809210&alt=media
+id: wtJcy7ukIwFSyApX3hrK

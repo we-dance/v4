@@ -1,0 +1,41 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1629492576335
+locales:
+  de: true
+  en: true
+createdBy: DY7JFLno1bTBBJblhcObAlB1HT22
+name: amanda
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: amanda
+pwaUsed: false
+gender: Female
+visibility: Members
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDY7JFLno1bTBBJblhcObAlB1HT22%2Fb0a3e6c7-69b6-40a1-926c-5281aa072a6c?alt=media&token=7e659ddf-a53e-44e9-8117-e29c9c1f9d94
+styles:
+  StreetDance:
+    level: Interested
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  Ballet:
+    level: Interested
+    highlighted: false
+    selected: true
+  Modern:
+    level: Interested
+    highlighted: false
+    selected: true
+  Jazz:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1629493582931
+daysUsed: 3
+lastLoginAt: 1724179609648
+viewsCount: 6
+id: DY7JFLno1bTBBJblhcObAlB1HT22

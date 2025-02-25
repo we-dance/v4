@@ -1,0 +1,204 @@
+createdAt: 1704822873843
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1441470179971131/
+source: facebook
+updatedAt: 1704822873843
+username: wedancebot
+venue:
+  formatted_address: Av. el Racó, 27, 46400 Cullera, Valencia, Spain
+  website: http://culleraholiday.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Cullera Holiday Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.243072930291502
+        lat: 39.1756330697085
+      northeast:
+        lng: -0.2403749697084979
+        lat: 39.1783310302915
+    location:
+      lng: -0.2417112
+      lat: 39.1770215
+  address_components:
+    - types:
+        - street_number
+      short_name: "27"
+      long_name: "27"
+    - types:
+        - route
+      short_name: Av. el Racó
+      long_name: Avinguda el Racó
+    - types:
+        - locality
+        - political
+      short_name: Cullera
+      long_name: Cullera
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: V
+      long_name: Valencia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "46400"
+      long_name: "46400"
+  international_phone_number: +34 961 73 15 55
+  place_id: ChIJC0EhFsHIYQ0RLbmMQR67F8w
+  url: https://maps.google.com/?cid=14706428846824798509
+visibility: Public
+endDate: 1708876800000
+org:
+  owner: ""
+  importedAt: 1704822881785
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/AnthonyDominicanFlow
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/367054942_748979267027538_5744352630856602184_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=hMD-Sx7-JE4AX-wcbtq&_nc_ht=scontent-atl3-1.xx&oh=00_AfCHG3wAsZzfWHBjiBJzLR21Nz5vdmeHLDr_S-aTdxt8BA&oe=65A2D282
+  source: facebook
+  type: Organiser
+  createdAt: 1704822881785
+  owned: false
+  name: Dominican Flow Festival Valencia
+  place: ChIJlcqFTX3IYQ0RoIUj126vAgQ
+  updatedAt: 1704822881785
+  username: AnthonyDominicanFlow
+claimed: No
+facebookId: "1441470179971131"
+link: ""
+description: >-
+  🔥🔥🇩🇴DOMINICAN FLOW FESTIVAL 2024🇩🇴🔥🔥
+
+
+  Compra tu FullPass con descuento 
+                          👇🏼👇🏼👇🏼
+
+  https://www.goandance.com/es/eventos/6329-dominican-flow-festival-2024?discount=DOMINICANFLOW
+
+
+  Esta primera edición con muchos de los mejores instructores de Bachata Tradicional a nivel mundial promete llevarnos a un viaje lleno de pasión y ritmo directo al corazón de la bachata. No importa si eres principiante o un experto en la pista de baile, en este festival tendrás la oportunidad de tomar clases impartidas por profesionales de renombre mundial y de todos los niveles. 
+
+
+
+
+  Disfruta, además, de la música en vivo con “El Nene de la Bachata” y su agrupación en conjunto, shows y animaciones durante los sociales. 
+   ¡No hay mejor manera de pasar este fin de semana inolvidable lleno de alegría!
+  —————————————————————
+
+
+  🔵TALLERES - WORKSHOP
+
+
+  🔵SOCIAL
+
+
+  🔵CONCIERTO
+
+
+  🔵SHOWS 
+
+
+  🔵MUCHO MÁS….
+
+
+  No te quepa duda que será un evento lleno de alegría y real cultura Domincana
+
+
+  —————————————————————
+
+
+  ARTISTAS: 
+
+  Anthony y Carla 🇩🇴 🇪🇸
+
+  Samy el Magico 🇫🇷 
+
+  Argenis y Carolina 🇩🇴 🇪🇸
+
+  Frank y Natali 🇩🇴 🇪🇸
+
+  Brandy Colores 🇩🇴 
+
+  Julio y linda 🇩🇪🇵🇪
+
+  Alain Soldek 🇨🇺
+
+  Miriam  🇫🇷
+
+  Carlos y Anáis 🇪🇸 
+
+  Mabel Oriola 🇪🇸
+
+  Thiago y Ari 🇪🇸
+
+  Cristina Camarasa 🇪🇸
+
+  Toni y Nadia 🇪🇸
+
+
+  DJs 
+
+
+  Dj Bripa 
+
+  Dj El Pequeño Francia 🇫🇷 
+
+  Dj Jorge Dominican Flow 🇪🇸
+
+  Dj Anthony Dominican Flow 🇩🇴
+
+  —————————————————————
+
+  Puedes ver los precios actualizados en las entradas del evento en go and dance 
+
+  —————————————————————
+
+
+  💢Imprescindible alojamiento 2 noches en hotel sede Cullera Holiday 4⭐️ (Valencia) - El hospedaje fuera de el hotel sede puede ocasionar la anualidad del pase al evento sin devolución del importe
+
+  (Próximamente facilitaremos información  para reserva)
+
+
+
+  💢Los cambios de titular en los pases tendrá un coste de 10€ 
+
+
+  —————————————————————
+
+  Te esperamos en esta experiencia única
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Dominican Flow Festival 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJlcqFTX3IYQ0RoIUj126vAgQ
+international: No
+hash: 1708678800000+ChIJC0EhFsHIYQ0RLbmMQR67F8w
+startDate: 1708678800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQj2BdXCkehDQ7B4RnsCz.png?generation=1704822904526013&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853202/bvtelbnqqvhjymfa80sl.jpg
+viewsCount: 69
+id: Qj2BdXCkehDQ7B4RnsCz

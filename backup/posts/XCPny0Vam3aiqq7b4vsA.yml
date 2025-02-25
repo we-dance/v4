@@ -1,0 +1,275 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Club Munich by Hakan
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5813296302915
+      south: 48.13375011970849
+      north: 48.13644808029149
+      west: 11.5786316697085
+    location:
+      lng: 11.579996
+      lat: 48.1351625
+  address_components:
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Westenriederstraße
+      long_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  international_phone_number: +49 172 8533891
+claimed: No
+link: https://www.annamilite.com/halloweenbachataweekend
+type: event
+duration: 60
+promo: Yes
+createdAt: 1660987694489
+artistsList:
+  - AnnaMil
+  - iansalvadorlopez
+  - andresyyessica
+  - marcelobachata
+  - indre_gatelyte
+  - alexandros_y_elena_bachata
+  - cavalierecracco
+  - lynn.996
+  - emersonalaraofficial
+  - babsi.bachata
+  - lunazul.dance
+  - migo.bachatero
+  - becca.bachatera
+  - Silviadominicanbeat
+  - laura.delvecchio87
+  - sophieklara_
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1660987694489
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  instagram: https://instagram.com/milite_anna
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  username: AnnaMil
+facebook: https://www.facebook.com/events/772174104194436/
+confirmation: |-
+  Dear guest,
+
+  Please buy your ticket on the website. If you have any questions, write me.
+
+  Much love,
+  Anna
+eventType: Festival
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-10-28T17:00
+username: AnnaMil
+star:
+  count: 0
+  list: {}
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fc35af6f1-2174-4373-a69b-36ef59725a80?alt=media&token=b4e1d93e-cbb1-40e3-b865-18b0d56c814f
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    instagram: https://instagram.com/milite_anna
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    username: AnnaMil
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Ian Salvador Lopéz
+    bio: 📍BLN 🇩🇪 Origin 🇵🇭°Professional dancer•Certified Choreographer•Artist
+      of 30 dance-styles•@islaphotoart 📲•Winner of:🏆Streetdance 64x🏆Salsa 12x
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fiansalvadorlopez.png?generation=1655237409450420&alt=media
+    id: SIdi7ZEbwxq66shZD2nq
+    instagram: https://instagram.com/iansalvadorlopez
+    username: iansalvadorlopez
+  - instagram: https://instagram.com/andresyyessica
+    username: andresyyessica
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Marcelobachata
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmarcelobachata.png?generation=1655306706192930&alt=media
+    bio: |-
+      🕺Professional Bachata Dancer
+      🥇World Bachata Champion 🏆
+      Curso trucos para el social link en destacadas
+      I teach you BACHATA tricks and dips int-adv👇
+    instagram: https://instagram.com/marcelobachata
+    id: 2Zzu2Isxrq7m71el3Hep
+    username: marcelobachata
+  - instagram: https://instagram.com/indre_gatelyte
+    username: indre_gatelyte
+  - instagram: https://instagram.com/alexandros_y_elena_bachata
+    username: alexandros_y_elena_bachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Roger Cracco
+    bio: |-
+      📍London
+      #bachata #dance teacher
+      🇻🇪🇮🇹🇬🇧 #wanderlust 🗺️
+      Learning to be thankful around the world 🌍
+      Work #smart, #train hard
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fcavalierecracco.png?generation=1655307334235041&alt=media
+    instagram: https://instagram.com/cavalierecracco
+    id: nFoGQ083iObzRswv20lw
+    username: cavalierecracco
+  - instagram: https://instagram.com/lynn.996
+    username: lynn.996
+  - instagram: https://instagram.com/emersonalaraofficial
+    username: emersonalaraofficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Babsi
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbabsi.bachata.png?generation=1655307171323443&alt=media
+    bio: |-
+      Bachata Sensual Instructor - Certified by @korkeyjudith_oficial
+      @lunazul.dance
+      @salsa.bachata.regensburg
+      📍 Regensburg, Munich, Germany
+    instagram: https://instagram.com/babsi.bachata
+    id: TlDa57DcY05cwPD7IfwM
+    username: babsi.bachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: lunazul.dance
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/lunazul.dance
+    id: UELqqwR9m6mfe3jyNn3t
+    username: lunazul.dance
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Migo
+    bio: ""
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmigo.bachatero.png?generation=1644349620686392&alt=media
+    instagram: https://instagram.com/migo.bachatero
+    id: O7gLklMu43ExEP1YA6RZ
+    username: migo.bachatero
+  - instagram: https://instagram.com/becca.bachatera
+    username: becca.bachatera
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Silvia
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FNVtSLOLOIGSvCRWwfrfzx5ARV7f1%2Fabc0f540-c623-444a-97e8-dba4abf376e2?alt=media&token=f892ad8e-c3c7-4bb7-b180-cf4b34281555
+    bio: ""
+    id: NVtSLOLOIGSvCRWwfrfzx5ARV7f1
+    instagram: https://www.instagram.com/spndanceandevents/
+    username: Silviadominicanbeat
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Laura Del Vecchio
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F940a7ab4-a7df-445c-a0f3-70e7a65a6c4a?alt=media&token=23669c3d-2ddf-4b92-b2c8-87112b072fbf
+    bio: |-
+      Del Vecchio Dance - Dance Studio
+      Dance/Fitness/Lifestyle/Mindsetinspiration
+    instagram: https://instagram.com/laura.delvecchio87
+    id: 6cksnCDd4uBaP3LZOhkG
+    username: laura.delvecchio87
+  - instagram: https://instagram.com/sophieklara_
+    username: sophieklara_
+price: 60,00 EUR
+name: "Halloween Bachata Weekend "
+id: XCPny0Vam3aiqq7b4vsA
+endDate: 2022-10-28T18:00
+description: |-
+  Various artists for the 1st time in Munich - Don't miss it !
+
+  Buy your ticket now
+  Don't forget the discount code
+  halloween 
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXCPny0Vam3aiqq7b4vsA.png?generation=1666776101540414&alt=media
+telegram:
+  requestedAt: 1666776106331
+  messageUrl: https://t.me/WeDanceMunich/659
+  publishedAt: 1666776108617
+  messageId: 659
+  state: published
+instagram:
+  requestedAt: 1666776111573
+  messageUrl: https://instagram.com/p/CkK_ZoTuFvU
+  publishedAt: 1666776128673
+  messageId: CkK_ZoTuFvU
+  state: published
+viewsCount: 128

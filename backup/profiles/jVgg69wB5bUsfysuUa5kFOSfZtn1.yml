@@ -1,0 +1,48 @@
+visibility: Public
+timezone: GMT+0100
+type: Dancer
+createdAt: 1616571503197
+createdBy: jVgg69wB5bUsfysuUa5kFOSfZtn1
+name: JuliaGreece
+username: JuliaGreece
+pwaUsed: false
+locales:
+  de: true
+  el: true
+teacher: No
+partner: Yes
+weight: "55"
+learning: |-
+  Salsa
+  Bachata 
+  Lindy hop
+  Jazz
+location:
+  country: Austria
+  latitude: 47.2692124
+  locality: Innsbruck
+  usedGps: false
+  place_id: ChIJc8r44c9unUcRDZsdKH0cIJ0
+  longitude: 11.4041024
+id: jVgg69wB5bUsfysuUa5kFOSfZtn1
+height: "163"
+story: I love music 🎶 and I love dance 💃 that is enough ☺️☺️🥰🥰
+days:
+  Saturday: true
+  Sunday: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+community: Munich
+hometown: ChIJc8r44c9unUcRDZsdKH0cIJ0
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+cities:
+  ChIJc8r44c9unUcRDZsdKH0cIJ0: true
+updatedAt: 1619163837107
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FjVgg69wB5bUsfysuUa5kFOSfZtn1%2F22fd47f0-aac7-4eae-82ac-b28b3bbdf937?alt=media&token=8e90e308-8890-4ad3-be19-1b19d358749b
+daysUsed: 5
+lastLoginAt: 1619638057813
+viewsCount: 1

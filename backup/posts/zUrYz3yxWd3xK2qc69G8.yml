@@ -1,0 +1,154 @@
+endDate: 1720314000000
+sourceUrl: https://www.facebook.com/events/1511883479730235/
+createdAt: 1719495833581
+approved: true
+provider: ical
+providerId: XCqTnowC63qpb0GNh42Y
+providerCreatedAt: 1718550646000
+updatedAt: 1719495833581
+importedAt: 1719495833581
+providerUpdatedAt: 1718551016000
+facebookId: "1511883479730235"
+facebook: https://www.facebook.com/events/1511883479730235/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1511883479730235/
+eventType: Party
+providerItemId: e1511883479730235@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 333 - Salsa, Bachata & Kizomba
+location: Dance Cube Lauf
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720288800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Am Winkelsteig 1a, 91207 Lauf an der Pegnitz, Germany
+  website: https://dance-cube-nuernberg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance Cube Tanzschule Lauf a. d. Pegnitz
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.26199681970849
+        lat: 49.49603221970849
+      northeast:
+        lng: 11.2646947802915
+        lat: 49.49873018029149
+    location:
+      lng: 11.2634302
+      lat: 49.49740639999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 1a
+      long_name: 1a
+    - types:
+        - route
+      short_name: Am Winkelsteig
+      long_name: Am Winkelsteig
+    - types:
+        - locality
+        - political
+      short_name: Lauf an der Pegnitz
+      long_name: Lauf an der Pegnitz
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Landkreis Nürnberger Land
+      long_name: Landkreis Nürnberger Land
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "91207"
+      long_name: "91207"
+  international_phone_number: +49 911 541464
+  place_id: ChIJDRBgXiThoUcRkedTYlHj-UY
+  url: https://maps.google.com/?cid=5114368790537430929
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dancecube.nuernberg
+  name: Dance Cube
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707313191/czsdkwwwqdfw9p0szgb9.jpg
+  bio: ""
+  id: HB9eozStzZScmxsNB6iy
+  instagram: ""
+  username: dance.cube
+claimed: No
+link: https://backoffice.bsport.io/m/Dance%20Cube%20Lauf/1368/workshop/?isPreview=true&activity__in=69407%2C85375
+description: >-
+  🟪 Programm:
+
+  ☑️20:00 - 21:00 Bachata - Footwork & Style mit Yuri & Schirin
+
+  ☑️21:00 - 03:00 Party mit der besten Salsa, Bachata und Kizomba Auswahl - DJ Rob Saldana
+
+
+  🟪 Location:
+
+  Dance Cube Lauf
+
+  Am Winkelsteig 1a, 91207 Lauf a. d. Pegnitz
+
+
+  🟪 Preis:
+
+  15€ Workshop & Party
+
+  10€ Party only
+
+
+  🟪 Anmeldung:
+
+  Link: https://backoffice.bsport.io/m/Dance%20Cube%20Lauf/1368/workshop/?isPreview=true&activity__in=69407,85375
+
+  🌎 www.dance-cube.com
+
+  📧 info@dance-cube.com
+
+  ☎️ und WhatsApp 0911 541464
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719495845/jirgvddyuro8litzffsp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJdR40fwzhoUcRzQm_TiurMQs
+international: No
+hash: 1720288800000+ChIJDRBgXiThoUcRkedTYlHj-UY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FzUrYz3yxWd3xK2qc69G8.png?generation=1719495862723757&alt=media
+id: zUrYz3yxWd3xK2qc69G8

@@ -1,0 +1,133 @@
+venue:
+  website: https://www.salsa-y-corazon.de/
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  name: Salsa Y Corazon - dance school
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5593370802915
+      south: 48.1218745197085
+      north: 48.1245724802915
+      west: 11.5566391197085
+    location:
+      lng: 11.5578922
+      lat: 48.1231417
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Zenettistraße
+      long_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80337"
+      long_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  international_phone_number: +49 172 9659579
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  username: SalsaYCorazon
+endDate: 1722277200000
+claimed: No
+link: https://surveyheart.com/form/667bdb4c79a05076b3da345c
+description: |-
+  Ready to learn Bachata? It's easier than you think!
+
+  All you need are comfortable clothes and a bit of motivation.
+
+  We'll guide you from the basics to figure and partner work.
+
+  -- USC / Wellpass Members are welcome.
+
+  Registrations: https://surveyheart.com/form/667bdb4c79a05076b3da345c
+program: []
+instagram: {}
+type: event
+seriesId: YcMB1QBGKBMM4tKcgdQJ
+downVotes: 0
+duration: 80
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F038f7f1d-4b15-406d-b639-dfdd0a239295?alt=media&token=212e403d-2754-43db-bf24-94d79eeac723
+createdAt: 1719557434419
+checkin:
+  count: 0
+  list: {}
+children: []
+artists: []
+price: from EUR 85
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: tkV0HWLNi8tCljiKrneh
+international: No
+updatedAt: 1719557435090
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  username: AnnaMil
+upVotes: 0
+telegram: {}
+eventType: Course
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Bachata Basics
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+hash: 1722272400000+ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+startDate: 1722272400000
+username: AnnaMil
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtkV0HWLNi8tCljiKrneh.png?generation=1719557470358797&alt=media
+viewsCount: 2

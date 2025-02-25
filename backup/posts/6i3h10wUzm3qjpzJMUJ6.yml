@@ -1,0 +1,127 @@
+venue:
+  formatted_address: Estr. Nacional 10 nº 1260, 2694-001 Santa Iria de Azoia, Portugal
+  website: https://www.vipsantairiahotel.com/es/?partner=8189utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: VIP Executive Santa Iria Hotel
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -9.081925519708497
+      south: 38.8372753197085
+      north: 38.8399732802915
+      west: -9.084623480291501
+    location:
+      lng: -9.083327299999999
+      lat: 38.8386275
+  address_components:
+    - types:
+        - subpremise
+      short_name: nº 1260
+      long_name: nº 1260
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Estr. Nacional
+      long_name: Estrada Nacional
+    - types:
+        - locality
+        - political
+      short_name: Santa Iria de Azoia
+      long_name: Santa Iria de Azoia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 2694-001
+      long_name: 2694-001
+  international_phone_number: +351 21 003 2300
+  place_id: ChIJfdfkFGEuGQ0R9CoXfmiWZP0
+  url: https://maps.google.com/?cid=18258884164803046132
+endDate: 2023-08-27T23:30
+claimed: No
+link: https://my.weezevent.com/musseque-kizomba-festival-summer-ii
+description: >-
+  The word Oriunda originates from Kinbundo, one of the official languages of
+  Angola. The ghetto is the biggest source of inspiration of Angolan dances like
+  Kizomba, Semba, Afro-House, Kuduro and Rebita etc. 
+
+   
+
+  WHAT TO EXPECT FROM THIS EDITION:
+
+
+  - ALL IN ONE HOTEL 
+
+
+  - QUALITY TEACHERS
+
+
+  - THE BEST DJS OF THE MOMENT
+
+
+  - POSITIVE AND CONSTRUCTIVE ENERGY
+
+
+  - DANCERS FROM AROUND THE WORLD
+
+
+  - KIZOMBA WORKSHOPS, SEMBA, AFRO-HOUSE, KUDURO, REBITA, AFRO TRIBAL
+
+
+  - THEMATIC PARTIES
+
+
+  - ANIMATIONS DURING THE FESTIVAL
+
+
+  - POOL PARTY
+
+   
+
+  We’d like to welcome you to live this unique experience.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Fc36d584e-4bad-4e75-a4dd-e12ad809b1a1?alt=media&token=d36724a4-f827-44fe-bb48-a3ccafedf504
+createdAt: 1689634061787
+artists: []
+price: 50 - 160 EUR
+artistsList: []
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: Yes
+updatedAt: 1689634061787
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/mussequekizombafestival
+  username: mussequekizombafestival
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Musseque Kizomba Festival Summer II
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-08-25T00:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6i3h10wUzm3qjpzJMUJ6.png?generation=1689776565205125&alt=media
+viewsCount: 57
+id: 6i3h10wUzm3qjpzJMUJ6

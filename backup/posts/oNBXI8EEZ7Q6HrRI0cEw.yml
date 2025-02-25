@@ -1,0 +1,172 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327102220
+updatedAt: 1732327102220
+importedAt: 1732327102220
+providerId: goandance
+providerItemId: "7161"
+name: 7mo Festival Internacional de Bailes Cubanos "Ritmo Cuba" 2025
+description: >-
+  Ritmo Cuba es un encuentro internacional único en el que bailarines,
+  estudiantes, maestros y coreógrafos de todo el mundo vienen a compartir el
+  amor por la danza latina en La Habana Cuba – el lugar de nacimiento de la
+  salsa. El festival cuenta con más de 60 de los mejores profesores de salsa de
+  toda Cuba y del mundo – incluyendo a los principales instructores de baile de
+  cada una de las principales escuelas de salsa de La Habana.
+
+
+  Durante 7 días, se ofrecen más de 100 horas de clases, en 3 salones diferentes para que los participantes puedan seleccionar su estilo y nivel preferidos. Tome clases de Salsa Cubana, Rueda de Casino, Reggaeton, Cha Cha Cha, Bachata, Hip Hop, Kizomba, Rumba o Folklorico, y luego únete a nosotros en la noche mientras llevamos la fiesta a los mejores clubes de salsa en Cuba. Esta edición se llevará a cabo en el Hotel Nacional, uno de los mejores hoteles 5 estrellas de La Habana ubicado en la céntrica zona de Vedado, con una espectacular vista al Malecón.
+sourceUrl: https://www.goandance.com/es/e/7161?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7161?promoter=WEDANCE123
+type: event
+startDate: 1745218800000
+endDate: 1745776800000
+tickets:
+  - name: Pase completo
+    description: 7 días de acceso a todas las clases, talleres, tours, clubes
+      nocturnos, shows y nuestra famosa fiesta en la playa
+    priceValidUntil:
+      _seconds: 1730415600
+      _nanoseconds: 0
+    discount: 0
+    price: 460
+    comission: 7.87
+    originalPrice: 460
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7161-7mo-festival-internacional-de-bailes-cubanos-ritmo-cuba-2025?&promoter=WEDANCE123
+  - name: Pase completo
+    description: 7 días de acceso a todas las clases, talleres, tours, clubes
+      nocturnos, shows y nuestra famosa fiesta en la playa
+    priceValidUntil:
+      _seconds: 1740783600
+      _nanoseconds: 0
+    discount: 0
+    price: 510
+    comission: 7.87
+    originalPrice: 510
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7161-7mo-festival-internacional-de-bailes-cubanos-ritmo-cuba-2025?&promoter=WEDANCE123
+  - name: Pase completo
+    description: 7 días de acceso a todas las clases, talleres, tours, clubes
+      nocturnos, shows y nuestra famosa fiesta en la playa
+    priceValidUntil:
+      _seconds: 1745733600
+      _nanoseconds: 0
+    discount: 0
+    price: 570
+    comission: 7.87
+    originalPrice: 570
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7161-7mo-festival-internacional-de-bailes-cubanos-ritmo-cuba-2025?&promoter=WEDANCE123
+  - name: Pase de Fin de semana
+    description: 3 días de acceso de viernes a domingo a todas las clases, talleres,
+      tours, clubes nocturnos, shows y nuestra famosa fiesta en la playa
+    priceValidUntil:
+      _seconds: 1730415600
+      _nanoseconds: 0
+    discount: 0
+    price: 290
+    comission: 7.87
+    originalPrice: 290
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7161-7mo-festival-internacional-de-bailes-cubanos-ritmo-cuba-2025?&promoter=WEDANCE123
+  - name: Pase de Fin de semana
+    description: 3 días de acceso de viernes a domingo a todas las clases, talleres,
+      tours, clubes nocturnos, shows y nuestra famosa fiesta en la playa
+    priceValidUntil:
+      _seconds: 1740783600
+      _nanoseconds: 0
+    discount: 0
+    price: 310
+    comission: 7.87
+    originalPrice: 310
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7161-7mo-festival-internacional-de-bailes-cubanos-ritmo-cuba-2025?&promoter=WEDANCE123
+  - name: Pase de Fin de semana
+    description: 3 días de acceso de viernes a domingo a todas las clases, talleres,
+      tours, clubes nocturnos, shows y nuestra famosa fiesta en la playa
+    priceValidUntil:
+      _seconds: 1745733600
+      _nanoseconds: 0
+    discount: 0
+    price: 330
+    comission: 7.87
+    originalPrice: 330
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7161-7mo-festival-internacional-de-bailes-cubanos-ritmo-cuba-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327103/u1kjgkdbdidyrvo2zk5m.jpg
+venue:
+  address_components:
+    - long_name: Cuba
+      short_name: CU
+      types:
+        - country
+        - political
+    - long_name: La Habana
+      short_name: La Habana
+      types:
+        - locality
+        - political
+    - long_name: Centro Habana
+      short_name: Centro Habana
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: La Habana
+      short_name: La Habana
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: "10400"
+      short_name: "10400"
+      types:
+        - postal_code
+  formatted_address: Calle 21 y O, Vedado, Plaza La Habana, La Habana 10400, Cuba
+  geometry:
+    location:
+      lat: 23.1434624
+      lng: -82.3807994
+    viewport:
+      northeast:
+        lat: 23.14523478029151
+        lng: -82.3795072697085
+      southwest:
+        lat: 23.1425368197085
+        lng: -82.3822052302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +53 7 8363564
+  name: Hotel Nacional de Cuba
+  place_id: ChIJ_dKuClh3zYgRJUd04ZBawGo
+  url: https://maps.google.com/?cid=7692247741853091621
+  website: https://www.hotelnacionaldecuba.com/
+place: ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+price: 510 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1745218800000+ChIJ_dKuClh3zYgRJUd04ZBawGo
+org: ""
+id: oNBXI8EEZ7Q6HrRI0cEw

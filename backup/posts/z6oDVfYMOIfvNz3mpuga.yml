@@ -1,0 +1,129 @@
+endDate: 1728504000000
+sourceUrl: https://www.facebook.com/events/356764490808587/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1723048472000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1723304913000
+facebookId: "356764490808587"
+facebook: https://www.facebook.com/events/356764490808587/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/356764490808587/
+eventType: Party
+providerItemId: e356764490808587@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Fruko y sus Tesos à Paris
+location: Cabaret Sauvage
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728493200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 59 Bd Macdonald, 75019 Paris, France
+  website: http://www.cabaretsauvage.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Cabaret Sauvage
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.390810619708498
+        lat: 48.89409851970849
+      northeast:
+        lng: 2.393508580291501
+        lat: 48.89679648029149
+    location:
+      lng: 2.392159599999999
+      lat: 48.8954475
+  address_components:
+    - types:
+        - street_number
+      short_name: "59"
+      long_name: "59"
+    - types:
+        - route
+      short_name: Bd Macdonald
+      long_name: Boulevard Macdonald
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Département de Paris
+      long_name: Département de Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "75019"
+      long_name: "75019"
+  international_phone_number: +33 1 42 09 03 09
+  place_id: ChIJp5OWcslt5kcRqIxFo29GBV8
+  url: https://maps.google.com/?cid=6846956253781265576
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418014016
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/wearewbliveuk
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418014/cmvrwdtenhbcdvjfja2l.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418014016
+  owned: false
+  name: WB Live
+  place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+  updatedAt: 1728418014016
+  username: wearewbliveuk
+claimed: No
+link: ""
+description: >-
+  Haciendo bailar al mundo
+
+
+  Los legendarios Fruko y Sus Tesos llegan a París! El 9 de octubre de 2024, la icónica banda de salsa se presentará en el Cabaret Sauvage.
+
+
+  Celebrando décadas de influencia, la banda colombiana es conocida por su mezcla única de ritmos latinos tradicionales y estilo contemporáneo. Espera éxitos como "El Preso," "Cachondea," y "El Ausente."
+
+
+  Fundada por Julio Ernesto Estrada (Fruko), Fruko y Sus Tesos han inspirado y cautivado audiencias globales. No te pierdas la oportunidad de verlos en vivo en París como parte de su gira europea 60 Años de Música!
+
+
+  #FrukoYSusTesos #LeyendasDeLaSalsa #EnVivoEnParís #CabaretSauvage #MúsicaSalsa #RitmosLatinos #60AñosDeMúsica #FrukoEnParís #ConciertoDeSalsa #IconosDeLaMúsica
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418015/ijc05upflkfym4ryrvl9.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+international: No
+hash: 1728493200000+ChIJp5OWcslt5kcRqIxFo29GBV8
+viewsCount: 1
+id: z6oDVfYMOIfvNz3mpuga

@@ -1,0 +1,145 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/mambo-con-son/
+name: Mambo Con Son
+sourceUrl: https://facebook.com/events/493324379700138
+venue:
+  address_components:
+    - long_name: "140"
+      short_name: "140"
+      types:
+        - street_number
+    - long_name: Bath Road
+      short_name: Bath Rd
+      types:
+        - route
+    - long_name: Harlington
+      short_name: Harlington
+      types:
+        - locality
+        - political
+    - long_name: Hayes
+      short_name: Hayes
+      types:
+        - postal_town
+    - long_name: Greater London
+      short_name: Greater London
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: England
+      short_name: England
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United Kingdom
+      short_name: GB
+      types:
+        - country
+        - political
+    - long_name: UB3 5AW
+      short_name: UB3 5AW
+      types:
+        - postal_code
+  formatted_address: 140 Bath Rd, Harlington, Hayes UB3 5AW, UK
+  geometry:
+    location:
+      lat: 51.4814337
+      lng: -0.4410154
+    viewport:
+      northeast:
+        lat: 51.48284668029149
+        lng: -0.4388071
+      southwest:
+        lat: 51.4801487197085
+        lng: -0.4446107
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +44 20 8759 6311
+  name: Radisson Blu Hotel, London Heathrow
+  place_id: ChIJY4LbtEhydkgRsDKg4kWv6hM
+  url: https://maps.google.com/?cid=1435152145960678064
+  website: https://www.radissonhotels.com/en-us/hotels/radisson-blu-london-heathrow?cid=a:se+b:gmb+c:emea+i:local+e:rdb+d:ukirwe+h:GBEDLHRHTR
+endDate: 1736722800000
+claimed: No
+link: https://www.eventbrite.com/cc/mambo-city-events-2749529
+description: |-
+  Mambo Con Son 
+  10th-12th Jan 2025
+
+  Connecting Music and Dance
+
+  Join us for a memorable Mambo-Son weekend featuring dance workshops,
+  performances, and musical dance fusion.
+  Our distinguished lineup of artists so far includes:
+
+  Adolfo Indacochea
+  Franklin Diaz
+  Tania Cannarsa
+  Yoannis Tomayo & Anita Jiminez
+  Anichi Perez
+  Bersy Cortez
+  Edwar Ramos
+  Alexistyle Ruiz
+  Osbanis & Anneta
+  Luanda Pau
+  Noemi La Tomasa
+
+  Djs:
+  Julian The Duke
+  Julian Summers
+  Rumbero
+  Sergio Ribeiro 
+
+  ☆ Live Band: El Chino la Diferencia
+
+  ☆ Steve Star Mambo (Video)
+
+  Reserve you Bedroom and pass via this link https://mamboconson.com/hotel/
+
+  Register your interest early to secure your spot at this unique event!
+  Pass Types:
+  ☆ All Workshops/Parties/Shows Early Bird 
+  1st August 
+  1st September 
+  1st October 
+  1st November 
+  1﻿st December 
+  1﻿st January 
+  Party Nights until 4am Friday, Saturday and Sunday, Matinee Dance until 11pm
+
+  Updates to follow, closer to the time
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293938/msxildy37hrzn58yrfqp.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ8X0alTdydkgRyhBxB8_jEXI
+international: No
+visibility: Public
+org:
+  id: KF8j5QoY7oKajfb98ELP
+  username: MamboCity
+  name: Mambo City
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954179/kj8xdd92yeiojti80pcv.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/MamboCity
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/493324379700138/
+facebookId: "493324379700138"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles: {}
+hash: 1736478000000+ChIJY4LbtEhydkgRsDKg4kWv6hM
+startDate: 1736478000000
+id: wKkeEOmZ7TX5d6E3rldv

@@ -1,0 +1,186 @@
+venue:
+  formatted_address: Sonnenstraße 24-26, 80331 München, Germany
+  website: http://www.isarpost-eventlocation.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 24-26
+      short_name: 24-26
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=14604975425998091393
+  name: ISARPOST Eventlocation
+  geometry:
+    viewport:
+      south: 48.1337302197085
+      north: 48.1364281802915
+      east: 11.5665639302915
+      west: 11.5638659697085
+    location:
+      lng: 11.5650711
+      lat: 48.13503660000001
+  international_phone_number: +49 89 1499037894
+  place_id: ChIJg2EMgljfnUcRgfTs-8RLr8o
+endDate: 2021-11-08T23:00:00.000Z
+organisedBy: ""
+claimed: No
+description: >-
+  Vamos a bailar! 
+
+  Liebe Salseros & Bachateros, es ist so weit! 💃🏽 🕺🏽 
+
+  Wir gehen Indoors tanzen in eine der tollsten Locations im Herzens Münchens, die Isarpost. 🎊
+
+  Wir bringen euch jeden Montag das lateinamerikanische Feeling nach München mit unserer DJ YENNY SEGURA aus Perú 🎧 💯: https://www.facebook.com/djyenny.munich  
+
+  Sie hat euch in den letzten 12 Wochen immer montags mit ihrem tollen Salsa & Bachata Mix an der Pinakothek zum Tanzen gebracht.
+
+
+  👉🏽 Von 19:30 bis ca. 20:00 Uhr gibt es einen gratis Salsa Schnupperkurs für Beginner mit ALEX vom MONTUNO CLUB: https://www.facebook.com/montunoclub/
+
+
+  FACTS:
+
+  Opening Party: 
+
+  Montag, 11.10.2021 von 19:30 bis 00:00 Uhr, danach jeden Montag wieder 😍
+
+  Unkostenbeitrag: 
+
+  10,- € | Studenten 7,- €
+
+  Location: 
+
+  Isarpost – Sonnenstr 24-26
+
+  Musik:
+
+  50% Salsa, 50% Bachata und ab 22:00 Uhr ein Merengue Lied zwischendurch 😉
+
+  Ganz wichtig:‼️
+
+  Kein Puder für den Boden nutzen, sonst müssen die Kosten für die Reinigung vom Verursacher getragen werden.
+
+  Danke für euer Verständnis 🙏🏽
+
+
+  Wir freuen uns euch tanzend zu sehen. Eure Dance Community Munich
+
+
+
+  3G+:
+
+  Wir müssen uns an die gültigen 3G Regeln halten:
+
+  - Bitte den Ausweis unaufgefordert vorzeigen. Es herrscht für jeden 100% Ausweispflicht.
+
+  - Bitte 3G Nachweis bereithalten – möglichst digitales Impfzertifikat, digitales Genesungszertifikat oder gültigen PCR-Test.
+
+  - Online-Check-In - Bitte checkt euch online für euren Besuch bei uns ein
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F8e261fa6-7465-45ff-96d1-3ef19db3f7a4?alt=media&token=231a2072-fb25-4bfc-ad2d-92e870483ab7
+createdAt: 1634038212170
+watchersCount: 0
+price: 7-10 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9T8cdX8Bz1BG7KMFiu7u.png?generation=1636219122665667&alt=media
+commentsLast: ~
+promoter: Vitali
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: 9T8cdX8Bz1BG7KMFiu7u
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 40
+updatedAt: 1634038212170
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/salsa-bachata-party-isarpost/417902116638786/
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: " Salsa and Bachata Social @Isarpost"
+online: No
+styles:
+  Timba:
+    level: Interested
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    selected: true
+  SalsaCalena:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+  Semba:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-08T18:30:00.000Z
+username: Vitali
+viewsCount: 79

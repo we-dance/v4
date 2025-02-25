@@ -1,0 +1,148 @@
+claimed: No
+program: []
+type: event
+seriesId: iyBiGYiXjDcY2j4HUgpY
+bookmarks: 3
+createdAt: 1725918241768
+checkin:
+  count: 0
+  list: {}
+children: []
+socialCover: ""
+specialOffer: ""
+international: ""
+updatedBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+visibility: Public
+facebookId: lakossa.fitness
+upVotes: 0
+eventType: Workshop
+venue:
+  website: http://www.ana-ana.de/
+  formatted_address: Willy-Brandt-Allee 32, 81829 München, Germany
+  name: Ballett in Riem
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.7032423302915
+      south: 48.13209206970851
+      north: 48.13479003029151
+      west: 11.7005443697085
+    location:
+      lng: 11.701895
+      lat: 48.13335420000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "32"
+      long_name: "32"
+    - types:
+        - route
+      short_name: Willy-Brandt-Allee
+      long_name: Willy-Brandt-Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Trudering-Riem
+      long_name: Trudering-Riem
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81829"
+      long_name: "81829"
+  url: https://maps.google.com/?cid=13717990847223687380
+  international_phone_number: +49 89 13936254
+  place_id: ChIJL9rGdKQLnkcR1OjTmP4XYL4
+  username: www.ana-ana.de
+downVotes: 0
+promo: Yes
+duration: 240
+artists:
+  - youtube: https://youtube.com/channel/UC_Z_RdZ1WggLxiu_tdxEAvg
+    tiktok: https://www.tiktok.com/@la_kossa
+    facebook: https://facebook.com/lakossa.fitness
+    name: Ari - La Kossa®
+    bio: Empowerment through dancing
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F27efcc73-45f6-48aa-b1de-2dfc68e69964?alt=media&token=120a06cd-fcef-4baa-8f45-b121ad2beda2
+    instagram: https://instagram.com/la.kossa
+    id: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+    username: lakossa
+artistsList:
+  - lakossa
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+paypal: ""
+star:
+  count: 0
+  list: {}
+org: {}
+facebook: https://www.facebook.com/lakossa.fitness
+telegram: {}
+form: No
+createdBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+votes: 0
+username: lakossa
+viewsCount: 1
+endDate: 1729429200000
+link: https://la-kossa.de/produkt/afrodancetrier
+description: Afro Fusion is a versatile blend of African dance styles that
+  combines both traditional and urban influences from various African countries.
+  Additionally, elements from other dance genres such as Hip-Hop and Dancehall
+  are incorporated.
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F8878df14-0147-4e09-8e32-d69d63a31600?alt=media&token=29419571-2f80-4d47-8b34-066cf151a30a
+recurrence:
+  untilDate: ""
+  freq: ""
+  days: {}
+  dates: []
+price: 55 EUR - EarlyBird 39 EUR
+name: Afrofusion - Basics, Freestyle, Choreos
+online: ""
+styles:
+  Afrobeats:
+    level: Beginner
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Beginner
+    highlighted: false
+    selected: true
+id: IyYEUIQCZpy1sPwdjy4O
+hash: 1729414800000+ChIJL9rGdKQLnkcR1OjTmP4XYL4
+startDate: 1729414800000
+updatedAt: 1725918562929
+instagram:
+  messageUrl: https://instagram.com/p/C_tkq1WPexV
+  publishedAt: 1725918575956
+  messageId: C_tkq1WPexV
+  state: published
+promotionError: ""
+promotion: completed

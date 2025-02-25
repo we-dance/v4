@@ -1,0 +1,172 @@
+claimed: No
+link: ""
+program: []
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1671556264775
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1671555938911
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+star:
+  count: 0
+  list: {}
+visibility: Public
+upVotes: 0
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-01-05T21:00
+username: DjOmega
+artists:
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: ""
+    name: ellsys_official
+    bio: ""
+    photo: ""
+    id: 5gzli868zpuP62wyDqzx
+    instagram: https://instagram.com/ellsys_official
+    username: ellsys_official
+artistsList:
+  - ellsys_official
+id: TMFSUMin96NkaqxPAYmn
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: https://www.facebook.com/djomega.christina
+  name: DjOmega
+  bio: Co-organiser of Toca Toca and Kiz München
+  photo: ""
+  instagram: www.instagram.com/djomega_official
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  username: DjOmega
+promo: Yes
+venue:
+  website: https://www.dancewithgeorge.com/
+  formatted_address: Landwehrstraße 24, 80336 München, Germany
+  name: Dance With George Tanzschule München
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5632495302915
+      south: 48.13505101970851
+      north: 48.13774898029151
+      west: 11.5605515697085
+    location:
+      lng: 11.5618859
+      lat: 48.1364618
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Landwehrstraße
+      long_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  url: https://maps.google.com/?cid=7158368571314548597
+  place_id: ChIJpyPj-_d1nkcRdS-G-EmiV2M
+endDate: 2023-01-06T02:00
+facebook: https://fb.me/e/2whYj9ZAF
+name: Kiz München | Special Three Kings Edition 👑👑👑 @ DanceWithGeorge Dance School
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F04463ca4-8047-4d7d-9b43-e7f4991554f5?alt=media&token=a580ab9e-a38d-4c1b-a5c3-369be33bf60c
+description: >-
+  TOCA TOCA proudly presents
+
+  💫 Kiz München | Special Three Kings Edition @ DanceWithGeorge Dance School 👑👑👑
+
+
+  Please bring a clean pair of shoes 🩰 and your own drinks 🍹 
+
+
+  This week with a special edition in collaboration with the Dance school DanceWithGeorge!
+
+  Ellsys will bring you the best of Kizomba, Ghetto Zouk, Urban Kiz, Kompa, Afro from 9pm till 2am💥
+
+
+  📍 DanceWithGeorge, Landwehrstraße 24, 80336 München
+
+  💃🕺 BACHATA WORKSHOPS with DancewithGeorge*
+
+  18:30-19:30 Workshop 1
+
+  19:40-20:40 Workshop 2
+
+  20:50-21:50 Workshop 3
+
+  (*for workshops and prices, see https://www.dancewithgeorge.com/prices/)
+
+
+  💥 PARTY - 2 rooms from 10pm
+
+  ⌚️ 21:00 - 02:00
+
+  💫 10€** and party until 2am!
+
+  (** price only for the party, excluding workshops) 
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTMFSUMin96NkaqxPAYmn.png?generation=1672937632048449&alt=media
+telegram:
+  requestedAt: 1672937640006
+  messageUrl: https://t.me/WeDanceMunich/766
+  publishedAt: 1672937643800
+  messageId: 766
+  state: published
+instagram:
+  requestedAt: 1672937655710
+  messageUrl: https://instagram.com/p/CnCnm_iJYUf
+  publishedAt: 1672937669510
+  messageId: CnCnm_iJYUf
+  state: published
+viewsCount: 45

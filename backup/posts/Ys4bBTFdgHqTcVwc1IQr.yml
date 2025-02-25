@@ -1,0 +1,147 @@
+venue:
+  formatted_address: Helene-Mayer-Ring 14, 80809 München, Germany
+  name: Helene-Mayer-Ring 14
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5543965302915
+      south: 48.1808516697085
+      north: 48.1835496302915
+      west: 11.5516985697085
+    location:
+      lng: 11.5529576
+      lat: 48.18224550000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Helene-Mayer-Ring
+      long_name: Helene-Mayer-Ring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Milbertshofen-Am Hart
+      long_name: Milbertshofen-Am Hart
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80809"
+      long_name: "80809"
+  place_id: ChIJfbTTsoh2nkcRgwLVhWuzbho
+  url: https://maps.google.com/?q=Helene-Mayer-Ring+14,+80809+M%C3%BCnchen,+Germany&ftid=0x479e7688b2d3b47d:0x1a6eb36b85d50283
+endDate: 2023-02-18T01:00
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1675679538714
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Egon
+    bio: De Cali, Colombia 🇨🇴 en Múnich, Alemania 🇩🇪 Salsa, Cumbia, Merengue,
+      Bachata, Reggaeton.
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fcb9676f7-8f1e-476c-8651-d08d85532c15?alt=media&token=f8e82c59-67ac-49ae-a94c-064ed4d2ce47
+    instagram: https://instagram.com/djsilber95
+    id: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+    username: djsilber95
+price: 0 EUR
+artistsList:
+  - djsilber95
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1675679538714
+updatedBy: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100063636367651
+  name: Barrio Latino Bar Restaurante
+  bio: |-
+    Un lugar diferente.
+
+    Ambiente acojedor y familiar.
+    Buena comida latina, Live Musik, Dj's
+    Fomentando
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6f8b15b4-b0c7-4edf-a176-e13bf9995d8b?alt=media&token=e2759501-f093-4a77-9eb6-58beb3c553f8
+  instagram: https://instagram.com/barriolatinobarmunich
+  id: lQIaoFUGqxY9KloxjiBA
+  username: barriolatino
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    djsilber95: true
+createdBy: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+name: "Rumba al Barrio "
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-17T21:00
+username: djsilber95
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fbd7183eb-8c84-4628-9480-f9bb52768864?alt=media&token=b626a741-9031-4f31-8966-47816d69e5f1
+id: Ys4bBTFdgHqTcVwc1IQr
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYs4bBTFdgHqTcVwc1IQr.png?generation=1676626135191036&alt=media
+telegram:
+  requestedAt: 1676626435302
+  messageUrl: https://t.me/WeDanceMunich/912
+  publishedAt: 1676626437500
+  messageId: 912
+  state: published
+instagram: {}
+viewsCount: 75

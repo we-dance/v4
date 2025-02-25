@@ -1,0 +1,37 @@
+facebookUrlsList: []
+isNew: true
+facebookId: ""
+facebookUrlsCount: 0
+provider: ical
+createdAt: 1730300437276
+updatedAt: 1730300437276
+importedAt: 1730300437276
+providerId: prtkn3bWcsTw1unDTbtt
+providerItemId: 4f0ldhjc954a8df8bemld4gv4o@google.com
+name: Saturday Zouk Party by DanceBro.com
+description: >-
+  Weekly Saturday Zouk party by DanceBro.com
+
+
+  Come to socialize, get to know the other Zoukers from Munich and the surrounding area. Practise newly learned Zouk moves. We always have experienced Zouk dancers there willing to help out in case you have any questions about Zouk technique. We will put our best Zouk music and guide you through a journey of slow and chill music to energetic music with strong beats.
+
+
+  When the date gets closer we will announce more details for location and time.
+providerCreatedAt: 1730222543000
+providerUpdatedAt: 1730222622000
+startDate: 1731182400000
+endDate: 1731196800000
+facebook: ""
+sourceUrl: ""
+location: ""
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+type: event
+username: Thomas
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+id: EZMdpQpZrFlMYztf1nDW

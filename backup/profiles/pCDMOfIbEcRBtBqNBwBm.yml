@@ -1,0 +1,67 @@
+createdAt: 1719435611870
+website: https://maps.google.com/?cid=7199454819360741656
+rooms: ""
+address:
+  formatted_address: Simplonstraße 23, 10245 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: SaliGari Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4604788802915
+      south: 52.50702796970851
+      north: 52.5097259302915
+      west: 13.4577809197085
+    location:
+      lng: 13.4592078
+      lat: 52.50842830000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "23"
+      long_name: "23"
+    - types:
+        - route
+      short_name: Simplonstraße
+      long_name: Simplonstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10245"
+      long_name: "10245"
+  international_phone_number: +49 30 55604670
+  place_id: ChIJM24D0_JPqEcRGJl4jAOa6WM
+  url: https://maps.google.com/?cid=7199454819360741656
+gender: Other
+phone: +49 30 55604670
+name: SaliGari Bar
+updateAt: 1719435611870
+type: Venue
+map: ""
+username: saligaribar
+id: pCDMOfIbEcRBtBqNBwBm

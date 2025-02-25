@@ -1,0 +1,154 @@
+endDate: 1730439000000
+sourceUrl: https://www.facebook.com/events/432881359566771/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1719483613000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1722366739000
+facebookId: "432881359566771"
+facebook: https://www.facebook.com/events/432881359566771/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/432881359566771/
+eventType: Workshop
+providerItemId: e432881359566771@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Kizomba / UrbanKiz 6-Hr Teacher's Training & Musicality Master Class
+location: Bangkok thailand
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730343600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Bangkok, Thailand
+  website: http://www.bangkok.go.th/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Bangkok
+  geometry:
+    viewport:
+      southwest:
+        lng: 100.3278135588086
+        lat: 13.4940880622837
+      northeast:
+        lng: 100.9384080394661
+        lat: 13.9551109646008
+    location:
+      lng: 100.5017651
+      lat: 13.7563309
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: กทม
+      long_name: Bangkok
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Bangkok
+      long_name: Bangkok
+    - types:
+        - country
+        - political
+      short_name: TH
+      long_name: Thailand
+  place_id: ChIJ82ENKDJgHTERIEjiXbIAAQE
+  url: https://maps.google.com/?q=Bangkok,+Thailand&ftid=0x311d6032280d61f3:0x10100b25de24820
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsabangkokfiesta
+  name: Salsa Bangkok Fiesta
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fe2e488f5-5b23-4096-bef6-04645fefdbab?alt=media&token=cfa66d6c-a089-488d-8ca5-870a6906458a
+  bio: ""
+  id: LoqDD2EoaSl6j7hgWAGs
+  instagram: ""
+  username: salsabangkokfiesta
+claimed: No
+link: https://bit.ly/sbf2024tickets
+description: >-
+  🎓 Kizomba / Urbankiz
+
+  6-Hr Teacher's Training!🎓
+
+
+  🌍 For the FIRST time EVER, the renowned Laurent Yishu, esteemed for his style and technique together with Sophie Madison, is stepping beyond the borders of Paris to host an extraordinary workshop just for YOU, here at Salsa Bangkok Fiesta!! 😍 🌍
+
+
+  Exclusive teacher's training - learn with the master to become a master !! - receive a certificate after completing the sessions
+
+
+  Topics :
+
+  - Teaching to beginner / intermediate / advanced
+
+  - Teaching leading and following
+
+  - ⁠Efficient teaching techniques
+
+  - ⁠Musicality teaching method of Laurent Yìshù
+
+  - ⁠Q&A
+
+
+  Date: Thursday 31 October 2024
+
+  Time: 10:00 - 17:00
+
+  Location: rumPUREE-world dance studio (with in the same building with Jasmine City building, Sulhumvit 23)
+
+
+
+  🎓 Kizomba / Urbankiz
+
+  Musicality Master Class🎓
+
+
+  😍 Unlock your potential with an exclusive master class with Laurent Yishu & Sophie Madison in Bangkok at the Salsa Bangkok Fiesta
+
+
+  The Musicality Master class is suitable for both Kizomba and Urbankiz dance lovers. You will learn the special tricks that make their dance magical. They will teach you how to do that!!
+
+
+  Date: Friday 1 November 2024
+
+  Time: 10:30-12:30
+
+  Location: Jasmine City Hotel
+
+  Fee: THB 2,000
+
+
+  Get your spot now: https://bit.ly/sbf2024tickets
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417981/pa8ijhmrsv8m93k0mzgf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ82ENKDJgHTERIEjiXbIAAQE
+international: No
+hash: 1730343600000+ChIJ82ENKDJgHTERIEjiXbIAAQE
+viewsCount: 1
+id: Yo1UPOD6qtbxY4MU3WdO

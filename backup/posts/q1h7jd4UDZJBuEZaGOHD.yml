@@ -1,0 +1,232 @@
+createdAt: 1704822867127
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/520430060164472/
+source: facebook
+updatedAt: 1704822867127
+username: wedancebot
+venue:
+  formatted_address: IJweg 1094, 2133 MH Hoofddorp, Netherlands
+  website: http://www.latinclubfiesta.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Latin Club Fiesta
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.662087869708498
+        lat: 52.3104454697085
+      northeast:
+        lng: 4.664785830291502
+        lat: 52.3131434302915
+    location:
+      lng: 4.663515199999999
+      lat: 52.31184709999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1094"
+      long_name: "1094"
+    - types:
+        - route
+      short_name: IJweg
+      long_name: IJweg
+    - types:
+        - locality
+        - political
+      short_name: Hoofddorp
+      long_name: Hoofddorp
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haarlemmermeer
+      long_name: Haarlemmermeer
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 2133 MH
+      long_name: 2133 MH
+  place_id: ChIJnwhb1MznxUcRAhrGiLxcpYQ
+  url: https://maps.google.com/?cid=9558147748982036994
+visibility: Public
+endDate: 1705804200000
+org:
+  owner: ""
+  importedAt: 1704822874312
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/FlavourKizz
+  photo: https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/245064617_2955682941310488_1796829633770576578_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=104&ccb=1-7&_nc_sid=596444&_nc_ohc=pJ7ZLCCGpbIAX_l8cB_&_nc_ht=scontent-dfw5-2.xx&oh=00_AfDFwkrIZhvQ5-taUvkeppLzy6zQFGIt_BgQAMZnj4v5Nw&oe=65A31633
+  source: facebook
+  type: Organiser
+  createdAt: 1704822874312
+  owned: false
+  name: FlavourKizz Events
+  place: ChIJDeaapa_nxUcRgz4JJwaDET8
+  updatedAt: 1704822874312
+  username: FlavourKizz
+claimed: No
+facebookId: "520430060164472"
+link: https://www.latinworld.nl/buyticket.php?id=90540
+description: >-
+  FIESTA DELUXE - 15th ANNIVERSARY
+
+
+  Saturday 20 JANUARY 2024
+
+  Event Center Fokker, IJweg 1094, Hoofddorp (Netherlands)
+
+
+  SATURDAY | 3 AREAS 21:00 - 03:00/03:30
+
+  Workshops 21.15 - 22.00
+
+  *Bachata by Will MP (Fr)
+
+  *Salsa by Guateque
+
+
+  Party Time 3 AREAS : 22:00 - 03:00/03:30
+
+  *Room 1 (BG) 100% Vinyl Salsa
+
+  DJ Willy & Asmadi
+
+  *Room 2 (1e) 100% Bachata 
+
+  DJ Bripa & El Che 
+
+  *Room 3 (2e) 100% Kizomba
+
+  DJ Tony & Walter Correia
+
+
+  SHOWTIME 01:00
+
+  Bachata Passion
+
+  Vivendi Dance Collective
+
+  Fuerza Dance
+
+
+  ENTRANCE https://www.latinworld.nl/buyticket.php?id=90540
+
+
+  Regular online €15 ex fee 
+
+  Door Cash €17
+
+  Door Pin €18
+
+
+
+  ►PHOTOS
+
+  Are made by NedPress
+
+  The photos are shown on our Fiesta Deluxe Facebook page: Fiesta DeLuxe
+
+
+  ► Bag controls
+
+  The location carries random preventive bag controls
+
+
+  ► Food:
+
+  Surinamese Food
+
+
+  ►SHOESTAND 
+
+
+  ► Partially guarded wardrobe:
+
+  Make your own choice whether you want a guarded or unguarded wardrobe. Below is unguarded and guarded is upstairs.
+
+  € 1,- per coat or bag. ONLY CASH!!
+
+  It is possible that the guarded wardrobe is full at a certain time!
+
+  If you want to be sure of a place in the guarded cloakroom, make sure you are there on time!
+
+
+  ► Information / Location Party:
+
+  • Drinks can be paid cash or by pin at the bar
+
+  • Dresscode: come as you are, but nice, sexy, classy clothing is appreciated
+
+  • The festival is meant for fun, social, friendly dancers, beginners and advanced: no (bad) attitude on the dancefloor!
+
+  • NOTE: Keep in mind that it can be fresh at the start
+
+
+  ► Location / Address:
+
+  Event Center Fokker
+
+  IJweg 1094
+
+  2133 MH at Hoofddorp (Netherlands)
+
+
+  ►MORE INFORMATION:
+
+  06 21 541 494 (BRIPA)
+
+  fiestadeluxe-debby@outlook.com (DEBBY)
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: FIESTA DELUXE - 15th Anniversary
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJDeaapa_nxUcRgz4JJwaDET8
+international: No
+hash: 1705780800000+ChIJnwhb1MznxUcRAhrGiLxcpYQ
+startDate: 1705780800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fq1h7jd4UDZJBuEZaGOHD.png?generation=1704822894741934&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853559/kv6ck5p5nxsvoes2mv1h.jpg
+viewsCount: 15
+id: q1h7jd4UDZJBuEZaGOHD

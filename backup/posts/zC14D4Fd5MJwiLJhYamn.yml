@@ -1,0 +1,92 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/dpsf/
+name: DPSF 2025
+sourceUrl: https://facebook.com/events/2058758134526571
+venue:
+  address_components:
+    - long_name: Maho Beach
+      short_name: Maho Beach
+      types:
+        - natural_feature
+        - establishment
+    - long_name: Sint Maarten
+      short_name: SX
+      types:
+        - country
+        - political
+  formatted_address: Maho Beach, Sint Maarten
+  geometry:
+    location:
+      lat: 18.0400527
+      lng: -63.1208828
+    viewport:
+      northeast:
+        lat: 18.041026233408
+        lng: -63.11975836900923
+      southwest:
+        lat: 18.03832827282499
+        lng: -63.12245632959224
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Maho Beach
+  place_id: ChIJscbyY0VpDowRviXYd4B-NTE
+  url: https://maps.google.com/?cid=3545879371855701438
+endDate: 1745215200000
+claimed: No
+link: ""
+description: >-
+  Le St.Martin DP Salsa Fest (DPSF) est de retour en 2025. La 7è édition aura
+  lieu du 17 au 21 Avril 2025, au début des vacances de Pâques. Quoi de mieux
+  que de vivre sa passion et la partager avec les meilleurs danseurs de salsa du
+  monde? 
+
+  Sans plus tarder, obtenez toutes les informations sur le festival et achetez vos pass à plus bas prix sur https://www.dpsalsa.com 💃🏽🕺🏽🍹🏖️👙🩳☀️
+
+
+  The St. Martin DP Salsa Fest (DPSF) is back in 2025. The 7th edition will happen in April 17-21, at the beginning of the Easter holidays. What better heavenly place to live your passion and share it with the best dancers in the world?
+
+  Without further delay, get all informations and book your EARLY BIRD tickets at https://www.dpsalsa.com  💃🏽🕺🏽🍹🏖️👙🩳☀️
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/cgqxowxmfk3m9bx4w39x.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  createdAt: 1732293940332
+  importedAt: 1732293940332
+  updatedAt: 1732293940332
+  source: facebook
+  name: Davy Ontwo
+  facebook: https://www.facebook.com/pfbid0VkZHU5S1pm9LouhBvsWxhHTcrswGA6tDvxNkeu9TdeSZZn1L8kXdZUUTVRhuDQRxl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293940/svenuqcmdi9cakuiazob.jpg
+  username: davy.ontwo
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+facebook: https://www.facebook.com/events/2058758134526571/
+facebookId: "2058758134526571"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1744934400000+ChIJscbyY0VpDowRviXYd4B-NTE
+startDate: 1744934400000
+viewsCount: 1
+id: zC14D4Fd5MJwiLJhYamn

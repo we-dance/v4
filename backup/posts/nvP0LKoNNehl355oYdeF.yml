@@ -1,0 +1,101 @@
+address: EineWeltHaus
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+endDate:
+  _seconds: 1603036800
+  _nanoseconds: 0
+city: Munich
+description: >
+  ## What is Salsa Jam?
+
+
+  It's similar to a [jam session](https://en.wikipedia.org/wiki/Jam_session), i.e. informal dance event, where dancers share moves, improvise and exchange.
+
+
+  ## Who can join?
+
+
+  Everyone can join! It's open level. Maximum 5 couples. Pre-registration is required.
+
+
+  - You know some cool combination to share with others – join!
+
+  - You found an interesting combination on youtube and would like to practice it – join!
+
+  - You just want to learn something new – join!
+
+
+  It's a salsa practice hour, where you can  not only enjoy dancing, but also improve.
+
+
+  ## How much does it cost?
+
+
+  It's for free
+
+
+  ## How does it work?
+
+
+  Maybe you have seen street hip-hop events where dancers go in the middle of a circle and perform? We do the same! Everyone gets his time to shine in the middle and we all together decide who we want to learn from.
+
+
+  - Music never stops
+
+  - There are no teachers and everyone is equal
+
+  - We start with dance battle on the stage
+
+  - The winner of the battle starts a session
+
+  - Session lasts for 5-15 minutes and we repeat
+
+
+  ## Hygiene Rules
+
+
+  - At the same time, change your dance partners as little as possible
+
+  - Disinfect your hands often
+
+  - Stay at home when you're sick
+eventType: Party
+type: event
+organiser: MontunoClub
+createdAt: 1602342606039
+watchersCount: 0
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: Salsa Jam
+commentsLast: ~
+styles:
+  Timba:
+    level: Interested
+    selected: true
+  Son:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+  Casino:
+    level: Interested
+    selected: true
+id: nvP0LKoNNehl355oYdeF
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate:
+  _seconds: 1603022400
+  _nanoseconds: 0
+username: alejito
+updatedAt: 1617065902855
+viewsCount: 1

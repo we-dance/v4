@@ -1,0 +1,143 @@
+venue:
+  website: http://www.tanzschuleamstachus.de/
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 1590 1227277
+  url: https://maps.google.com/?cid=7618752569010268631
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+endDate:
+  _seconds: 1652299200
+  _nanoseconds: 0
+claimed: No
+description: |-
+  Come and Dance with us 💃
+
+  Party starts after the workshops at 9 pm
+
+  Where:
+  Tanzschule am Stachus, Sonnenstraße 7 , München 
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Faf6edab9-fa53-423d-8977-dbd8890ce216?alt=media&token=10f622e6-1e93-4126-aa21-aee2dec2b540
+promo: Yes
+createdAt: 1652128097975
+price: 7 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1652128097975
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Tanzschule Am Stachus
+  bio: ""
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftanzschuleamstachus.png?generation=1644226759021693&alt=media
+  id: VXs1CvvdTLEDxJuVXZcH
+  instagram: tanzschuleamstachus
+  username: tanzschuleamstachus
+eventType: Party
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    undefined: true
+name: "Salsa & Bachata Party am Stachus "
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-05-11T21:00
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F5R4pcqTqDSduupHuSj6n.png?generation=1652129169140880&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    instagram: milite_anna
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    username: AnnaMil
+id: 5R4pcqTqDSduupHuSj6n
+viewsCount: 13

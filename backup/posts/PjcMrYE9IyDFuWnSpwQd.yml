@@ -1,0 +1,251 @@
+endDate: 1751241600000
+sourceUrl: https://www.facebook.com/events/435811729481581
+createdAt: 1725976844836
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1725901840000
+updatedAt: 1725976844836
+importedAt: 1725976844836
+providerUpdatedAt: 1725901840000
+facebookId: "435811729481581"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/435811729481581
+  - https://www.facebook.com/events/435811729481581
+eventType: Party
+providerItemId: 2bder10pgr2ukqap8jf1jvc3b7@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Krakkó, Lengyelország
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1750896000000
+facebookUrlsCount: 2
+username: alexrazbakov
+venue:
+  formatted_address: 33, Bělohorská 263, 169 00 Praha 6-Břevnov, Czechia
+  website: http://www.praguezoukmarathon.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Prague Zouk Marathon
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.3740329697085
+        lat: 50.0830540197085
+      northeast:
+        lng: 14.3767309302915
+        lat: 50.0857519802915
+    location:
+      lng: 14.375413
+      lat: 50.0843609
+  address_components:
+    - types:
+        - subpremise
+      short_name: "33"
+      long_name: "33"
+    - types:
+        - street_number
+      short_name: "263"
+      long_name: "263"
+    - types:
+        - route
+      short_name: Bělohorská
+      long_name: Bělohorská
+    - types:
+        - neighborhood
+        - political
+      short_name: Břevnov
+      long_name: Břevnov
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 6
+      long_name: Praha 6
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 169 00
+      long_name: 169 00
+  international_phone_number: +420 733 542 593
+  place_id: ChIJQfdctA2VC0cRIjLI6BLHKBI
+  url: https://maps.google.com/?cid=1308514575779901986
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1725976854033
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Cracow-Zouk-Marathon/100083860953041/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1725976854/srte1zdanyxqskossqh7.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1725976854033
+  owned: false
+  name: Cracow Zouk Marathon
+  updatedAt: 1725976854033
+  username: CracowZouk-Marathon
+claimed: No
+facebook: https://www.facebook.com/events/435811729481581/
+link: ""
+description: >-
+  ~~~polish below
+
+  The 6th Cracow Zouk Marathon is coming - Summer Edition❗️
+
+  Cracow Zouk Marathon, aka the neverending fiesta, this time to celebrate the long weekend and the end of academic holidays.
+
+  A great opportunity to mingle, with nearly 40h of dancing🔥, the best DJs🤩 , and an atmospheric location close to the Wawel Royal Castle and the Kazimierz District 😍
+
+
+  👉2 dance floors
+
+  👉the best DJs
+
+  👉incredibly atmospheric venue
+
+  👉dress-code party
+
+  👉chocolate fountain
+
+
+  ~~~~~~~ ⭐️ SCHEDULE ⭐️ ~~~~~~
+
+  FRIDAY
+
+  ⭐️21:00–06:00 Night Party
+
+  📍Forum Tańca, Marii Konopnickiej 29
+
+
+  SATURDAY
+
+  ⭐️14:00–20:00 Day Party
+
+  ⭐️22:00–6:00 Night Party
+
+  📍Forum Tańca, Marii Konopnickiej 29
+
+
+  SUNDAY
+
+  ⭐️14:00–20:00 Day Party
+
+  ⭐️22:00–6:00 Night Party
+
+  📍Forum Tańca, Marii Konopnickiej 29
+
+
+  ~~~~~~~ 💸 PRICING 💸 ~~~~~~~
+
+  more soon...
+
+
+  ~~~~~~~ 🏠 LOCATION 🏠 ~~~~~~
+
+  Forum Tańca
+
+  ul. Marii Konopnickiej 29
+
+  30-302 Kraków
+
+  Question:
+
+  kontakt@ondance.pl
+
+
+  ~~~polish
+
+
+  Zapraszamy na VI edycję krakowskiego Maratonu ❗️
+
+  Cracow Zouk Marathon - Summer Edition, czyli niekończąca się fiesta z okazji długiego weekendu i końca akademickich wakacji.
+
+  Wielka zoukowa integracja - prawie 40h tańca🔥 , najlepsi DJ-e🤩 oraz klimatyczne miejsce niedaleko Wawelu oraz Kazimierza😍
+
+  👉2 parkiety
+
+  👉najlepsi DJ-e
+
+  👉niesamowicie klimatyczne miejsce
+
+  👉impreza z motywem przewodnim
+
+  👉fontanna czekolady
+
+
+  ~~~~~~ ⭐️ PROGRAM ⭐️~~~~~~~
+
+  PIĄTEK
+
+  ⭐️ 21:00–06:00 Night Party
+
+  📍Forum Tańca, Marii Konopnickiej 29
+
+  SOBOTA
+
+  ⭐️ 14:00–20:00 Day Party
+
+  ⭐️22:00–6:00 Night Party
+
+  📍Forum Tańca, Marii Konopnickiej 29
+
+  NIEDZIELA
+
+  ⭐️14:00–20:00 Day Party
+
+  ⭐️22:00–6:00 Night Party
+
+  📍Forum Tańca, Marii Konopnickiej 29
+
+
+  ~~~~~~~~~ 💸 CENNIK 💸 ~~~~~~~
+
+  wkrótce...
+
+
+  ~~~~~~~~~ 🏠 ADRES 🏠 ~~~~~~~~
+
+  Forum Tańca
+
+  ul. Marii Konopnickiej 29
+
+  30-302 Kraków
+
+  Pytania:
+
+  kontakt@ondance.pl
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725976856/h7tdi86l0hxgvp8knbtz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Cracow Zouk Marathon // 27-29 June 2025! "
+online: No
+place: ChIJYS3Al3CVC0cRlYlIZ_e1BqY
+international: No
+hash: 1751047200000+ChIJQfdctA2VC0cRIjLI6BLHKBI
+id: PjcMrYE9IyDFuWnSpwQd

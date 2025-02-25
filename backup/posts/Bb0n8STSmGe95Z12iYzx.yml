@@ -1,0 +1,121 @@
+venue:
+  formatted_address: Heimeranstraße 70, 80339 München, Germany
+  name: Heimeranstraße 70
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5361372802915
+      south: 48.1323961197085
+      north: 48.13509408029149
+      west: 11.5334393197085
+    location:
+      lng: 11.5347432
+      lat: 48.1338561
+  address_components:
+    - types:
+        - street_number
+      short_name: "70"
+      long_name: "70"
+    - types:
+        - route
+      short_name: Heimeranstraße
+      long_name: Heimeranstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  url: https://maps.google.com/?q=Heimeranstra%C3%9Fe+70,+80339+M%C3%BCnchen,+Germany&ftid=0x479dd8a8ad50a081:0xcdfd01f9ddb37281
+  place_id: ChIJgaBQrajYnUcRgXKz3fkB_c0
+  room: Studio Blau
+endDate: 2022-09-16T20:00
+claimed: No
+link: https://www.facebook.com/events/s/kostenloser-salsa-cubana-schnu/491916642758217/
+description: Dieser Schnupperkurs ist geeignet für alle Salsa-Liebhaber/innen,
+  die bis jetzt noch keine Möglichkeit hatten diesen fröhlichen Tanz
+  auszuprobieren. Komm, mach mit und versuche zu lernen, wie man mit wenigen,
+  leichten Moves seine Gefühle zum Ausdruck bringen kann. Egal mit welcher Laune
+  du an diesem Abend anwesend bist, gehst du sicherlich mit guter Laune zurück.
+  Teilnahme an dem Schnupperkurs ist nur mit Voranmeldung möglich. Ich freu mich
+  auf einen neuen Anfang mit dir.
+type: event
+promo: ""
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F147a4ffc-8ac4-44ef-ad18-9562f12a1c59?alt=media&token=0bdab6a0-1be6-4853-a529-a6ada6be7fa8
+createdAt: 1662976096242
+artists: []
+price: FREE
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1662976096242
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/peyman.saba/
+  name: Peyman
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4ce2621c-a5b9-4e0b-9c0d-06eb8d64779b?alt=media&token=4a2b45aa-4ecf-4182-b206-eb8db09f1072
+  id: MSxq3sqswZe9VfpHqFsI7OGngSD3
+  instagram: ""
+  username: Peyman
+facebook: https://www.facebook.com/events/s/kostenloser-salsa-cubana-schnu/491916642758217/
+eventType: Workshop
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Kostenloser Salsa-Cubana Schnupperkurs
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-16T19:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBb0n8STSmGe95Z12iYzx.png?generation=1662976123939409&alt=media
+telegram:
+  requestedAt: 1662976128975
+  messageUrl: https://t.me/WeDanceMunich/597
+  publishedAt: 1662976131221
+  messageId: 597
+  state: published
+viewsCount: 13
+id: Bb0n8STSmGe95Z12iYzx

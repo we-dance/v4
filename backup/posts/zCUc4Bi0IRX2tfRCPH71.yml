@@ -1,0 +1,152 @@
+endDate: 1747530000000
+sourceUrl: https://www.facebook.com/events/881225373333546/?event_time_id=881225400000210
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1725464230000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727328058000
+facebookId: "881225400000210"
+facebook: https://www.facebook.com/events/881225373333546/?event_time_id=881225400000210
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/881225373333546/?event_time_id=881225400000210
+eventType: Party
+providerItemId: e881225400000210@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: LATINE TEAM SBK PARTY by Latine Team
+location: Studio AnWa Dance
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1747504800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Bâtiment 1 Hall 118, 9 Chau. Jules César, 95520 Osny, France
+  website: https://www.anwadance.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Studio Anwa Dance
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.071035069708498
+        lat: 49.04798461970851
+      northeast:
+        lng: 2.073733030291502
+        lat: 49.0506825802915
+    location:
+      lng: 2.072446
+      lat: 49.049412
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Chau. Jules César
+      long_name: Chaussée Jules César
+    - types:
+        - locality
+        - political
+      short_name: Osny
+      long_name: Osny
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Val-d'Oise
+      long_name: Val-d'Oise
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "95520"
+      long_name: "95520"
+  international_phone_number: +33 6 58 48 05 82
+  place_id: ChIJq-GGdBz15kcREiVyvoV3isk
+  url: https://maps.google.com/?cid=14522551364719093010
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bylatineteam
+  name: Latine Team
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444462/v5ihuxnoo2a7tisksojm.jpg
+  bio: ""
+  id: gItgGCdN15aRFfJvAGsf
+  instagram: ""
+  username: bylatineteam
+claimed: No
+link: ""
+description: >-
+  La mensuelle 100% 𝗦𝗕𝗞 by 𝗟𝗔𝗧𝗜𝗡𝗘 𝗧𝗘𝗔𝗠 au Studio ANWA DANCE
+
+  📅 Date : Samedi 19 octobre 2024
+
+  🕒 Heure : de 20h30 jusqu’à 3h00
+
+  📍 Lieu : Studio ANWA DANCE,
+
+  9 Chaussée Jules César, 95520 OSNY
+
+  🏁 GPS : STUDIO ANWA DANCE
+
+  🚘 ENORME PARKING SUR PLACE GRATUIT
+
+
+  Rejoignez nous pour une soirée exceptionnelle de danse, de partage et de convivialité ! 💃🕺
+
+
+  ✔️ 𝗔𝗨 𝗣𝗥𝗢𝗚𝗥𝗔𝗠𝗠𝗘 :
+
+  Cours avec Clément DUGARO (PARIS BACHATA VIBE)
+
+  ▫️ à partir de 20h30
+
+
+  ▫️ 22h30 : 𝗦𝗢𝗜𝗥É𝗘 𝗦𝗕𝗞 (Semba, Kompa, Session « BORDEL ») avec 𝖣𝖩 𝖤𝖫 𝖣𝖨𝖠𝖡𝖫𝖮 et 𝖣𝖩 KARIM SBK
+
+
+  📌 Contact et informations :
+
+  📞 Téléphone : 06 50 62 69 93
+
+  💻 E-mail : latineteam@gmail.com
+
+  Suivez-nous sur les réseaux sociaux :
+
+  ✅ Facebook : Latine Team
+
+  ✅ Instagram : latineteam
+
+
+  Infos à venir... restez connectés !😊
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417906/pypchs0tdmauakbvzfyl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJCaHVm1b05kcRAC-LaMOCCwQ
+international: No
+hash: 1747504800000+ChIJq-GGdBz15kcREiVyvoV3isk
+id: zCUc4Bi0IRX2tfRCPH71

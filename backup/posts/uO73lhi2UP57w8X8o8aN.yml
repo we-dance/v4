@@ -1,0 +1,144 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bachataland/
+name: BACHATALAND 2025
+sourceUrl: https://facebook.com/events/1010386177359806
+venue:
+  address_components:
+    - long_name: S/N
+      short_name: S/N
+      types:
+        - street_number
+    - long_name: Calle Autovia
+      short_name: C. Autovia
+      types:
+        - route
+    - long_name: Albacete
+      short_name: Albacete
+      types:
+        - locality
+        - political
+    - long_name: Albacete
+      short_name: AB
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Castilla-La Mancha
+      short_name: CM
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "02007"
+      short_name: "02007"
+      types:
+        - postal_code
+  formatted_address: C. Autovia, S/N, 02007 Albacete, Spain
+  geometry:
+    location:
+      lat: 39.0132707
+      lng: -1.8698022
+    viewport:
+      northeast:
+        lat: 39.01584020000001
+        lng: -1.866349
+      southwest:
+        lat: 39.01241419999999
+        lng: -1.8762346
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 967 59 93 90
+  name: Hotel Palacio Albacete
+  place_id: ChIJcadW9apfZg0RqEEp3gLsO04
+  url: https://maps.google.com/?cid=5637358855645643176
+endDate: 1745161200000
+claimed: No
+link: https://lasalsadelbaile.com/bachataland2025?ref=oscareines
+description: |-
+  *🎡BACHATALAND*🎡
+          (ALBACETE)
+
+  _- ¿CUÁNDO?_ 🗓️
+  Del 17 al 20 de Abril de 2025 
+  (Semana Santa)
+
+  _- ¿DÓNDE?_ 📍
+  Hotel Beatriz**** (Albacete)
+
+  _- ¿CUÁNTO?_ 💶
+  45€ FullPass
+  65€ TotalPass
+
+  *CONTAREMOS CON ARTISTAS COMO:*
+  - Magda & Valeria
+  - David & Inés
+  - Alfonso & Mónica 
+  - Luis & Marina
+  - Basi & Deisy
+  - Oscar & Inés 
+  - Edu & Fátima
+  - Alejandro & Vanessa
+  - Leif & Candela
+  - César & Lidia
+  - Emilio & Esther 
+  - Mar & Mike
+
+  Y MUCHOS MÁS!!! 🤩
+
+  ¿Dónde puedes conseguir tu pase?
+  Pinchando en este link:
+
+  👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼
+
+  https://lasalsadelbaile.com/bachataland2025?ref=oscareines
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/floxiivtdihkebd7phgk.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJFY0h--JfZg0RgGEY1jHNaYI
+international: No
+visibility: Public
+org:
+  createdAt: 1732293944480
+  importedAt: 1732293944480
+  updatedAt: 1732293944480
+  source: facebook
+  name: Óscar e inés Bachata Sensual
+  facebook: https://www.facebook.com/Oscareinesbachata
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/uuxzdwmdklo2tcst63ya.jpg
+  username: Oscareinesbachata
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJFY0h--JfZg0RgGEY1jHNaYI
+facebook: https://www.facebook.com/events/1010386177359806/
+facebookId: "1010386177359806"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1744891200000+ChIJcadW9apfZg0RqEEp3gLsO04
+startDate: 1744891200000
+id: uO73lhi2UP57w8X8o8aN

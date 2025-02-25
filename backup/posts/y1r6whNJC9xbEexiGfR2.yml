@@ -1,0 +1,160 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327088364
+updatedAt: 1732327088364
+importedAt: 1732327088364
+providerId: goandance
+providerItemId: "7330"
+name: CRUCERO DREAM DANCE FESTIVAL
+description: >-
+  ¡Embárcate en el Dream Dance Festival Cruise y vive una experiencia de baile
+  inolvidable!
+
+
+  Del 5 al 9 de abril de 2025, únete a nosotros a bordo del espectacular crucero Costa Smeralda, partiendo desde Barcelona, para un viaje de 4 noches lleno de salsa, bachata, kizomba, semba y afro. Este festival de ensueño combina lo mejor de la música, el baile y la diversión, creando una atmósfera única en alta mar.
+
+
+  ¿Qué te espera?
+
+
+  Acceso completo a las zonas de baile y actuaciones durante las 4 noches del crucero.
+
+
+  Fiestas temáticas cada noche con los mejores DJ's: desde pool parties hasta espectaculares sesiones en cubierta bajo las estrellas.
+
+
+  Talleres y clases intensivas con instructores de élite que te ayudarán a mejorar tus movimientos en cada estilo.
+
+
+  Espectáculos y shows en vivo que te dejarán sin aliento.
+
+
+  Incluye:
+
+
+  Paquete de crucero con Full Pass Dream Dance Festival.
+
+
+  Acceso a las fiestas y actividades del festival durante las 4 noches.
+
+
+  Opcional:
+
+
+  Seguro de asistencia médica y cancelación (50 euros).
+
+
+  Desplazamientos desde/hasta tu ciudad de origen a Barcelona.
+
+
+  Billetes de avión ida y vuelta desde varios aeropuertos europeos.
+
+
+  Traslados de aeropuerto – puerto – aeropuerto.
+
+
+  Imagina bailar bajo las estrellas, con la brisa marina acariciando tu piel y la música envolviéndote en una experiencia que te hará vibrar. Conecta con personas que comparten tu pasión por la salsa, bachata y kizomba, crea recuerdos inolvidables y vive momentos mágicos en un ambiente festivo y social.
+
+
+  Este es el festival de baile que estabas esperando. ¡No pierdas la oportunidad de ser parte de esta experiencia única! Reserva tu plaza hoy mismo en go&dance, y prepárate para una aventura llena de ritmo, diversión y nuevas amistades.
+
+
+  Para más información, puedes escribirnos a dreamsfestival2025@gmail.com, llamarnos al +34 619 991 636, o seguirnos en Instagram (@dreamcruisefestival).
+sourceUrl: https://www.goandance.com/es/e/7330?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7330?promoter=WEDANCE123
+type: event
+startDate: 1743832800000
+endDate: 1744207200000
+tickets:
+  - name: OFERTA PRIMERO PAGO
+    description: >-
+      Esta oferta de BLACK FRIDAY es el primero pago de Dream Dance Festival
+      Cruise que sirve de reserva del crucero.
+
+      Fecha límite de esta oferta es el día 5 de  diciembre...  2024
+    priceValidUntil:
+      _seconds: 1744203600
+      _nanoseconds: 0
+    discount: 10
+    price: 40
+    comission: 15.73
+    originalPrice: 50
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7330-crucero-dream-dance-festival?&promoter=WEDANCE123
+  - name: PRIMERO PAGO
+    description: Primero pago del DREAM DANCE FESTIVAL CRUISE  sirve como reserva al crucero
+    priceValidUntil:
+      _seconds: 1744203600
+      _nanoseconds: 0
+    discount: 10
+    price: 140
+    comission: 15.73
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7330-crucero-dream-dance-festival?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327089/ihwv68bhdpeagnk7qriv.jpg
+venue:
+  address_components:
+    - long_name: "08039"
+      short_name: "08039"
+      types:
+        - postal_code
+    - long_name: Barcelona
+      short_name: Barcelona
+      types:
+        - locality
+        - political
+    - long_name: Barcelona
+      short_name: B
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Catalonia
+      short_name: CT
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+  formatted_address: 08039 Barcelona, Spain
+  geometry:
+    location:
+      lat: 41.3570442
+      lng: 2.1683571
+    viewport:
+      northeast:
+        lat: 41.38238162155581
+        lng: 2.18997917271884
+      southwest:
+        lat: 41.33505001463073
+        lng: 2.145757897812188
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: "08039"
+  place_id: ChIJ4ZjQyT2ipBIR8N1HeuP6ABw
+  url: https://maps.google.com/?q=08039&ftid=0x12a4a23dc9d098e1:0x1c00fae37a47ddf0
+place: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+price: 40 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1743832800000+ChIJ4ZjQyT2ipBIR8N1HeuP6ABw
+org: ""
+id: y1r6whNJC9xbEexiGfR2

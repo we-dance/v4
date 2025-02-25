@@ -1,0 +1,199 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/dubai-kizomba-fusion-x-ilksf/
+name: Dubai Kizomba Fusion x ILKSF 2025
+sourceUrl: https://facebook.com/events/336208049247685
+venue:
+  address_components:
+    - long_name: East
+      short_name: East
+      types:
+        - point_of_interest
+        - establishment
+    - long_name: Crescent Road
+      short_name: Crescent Rd
+      types:
+        - route
+    - long_name: Palm Jumeirah
+      short_name: Palm Jumeirah
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Dubai
+      short_name: Dubai
+      types:
+        - locality
+        - political
+    - long_name: Dubai
+      short_name: Dubai
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United Arab Emirates
+      short_name: AE
+      types:
+        - country
+        - political
+  formatted_address: East - Crescent Rd - Palm Jumeirah - Dubai - United Arab Emirates
+  geometry:
+    location:
+      lat: 25.1253644
+      lng: 55.15401120000001
+    viewport:
+      northeast:
+        lat: 25.1267037802915
+        lng: 55.1557414302915
+      southwest:
+        lat: 25.1240058197085
+        lng: 55.1530434697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +971 4 247 5555
+  name: Aloft Palm Jumeirah
+  place_id: ChIJZ3TuJd9qXz4Rv83p3TU08x4
+  url: https://maps.google.com/?cid=2230183646439525823
+  website: https://www.marriott.com/en-us/hotels/dxbap-aloft-palm-jumeirah/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+endDate: 1739822400000
+claimed: No
+link: https://my.weezevent.com/dkf-ilksf
+description: >-
+  𝗗𝘂𝗯𝗮𝗶 𝗞𝗶𝘇𝗼𝗺𝗯𝗮 𝗙𝘂𝘀𝗶𝗼𝗻 𝗠𝗲𝗲𝘁𝘀 𝗜 𝗟𝗼𝘃𝗲 𝗞𝗶𝘇𝗼𝗺𝗯𝗮
+  𝗦𝗲𝗻𝘀𝘂𝗮𝗹 𝗙𝗲𝘀𝘁𝗶𝘃𝗮𝗹: where passion meets magic 🪄 💜🕺🏻
+
+
+  Habibi, Dubai is calling you! 🇦🇪🇦🇪
+
+
+  Welcome to the 5th edition of Dubai Kizomba Fusion which is bigger, better and stronger! DKF is joining forces with ILKSF, one of the biggest kizomba brands in the world, to give you the most unforgettable dance holiday in Dubai.
+
+
+  𝗘𝗫𝗣𝗘𝗖𝗧𝗔𝗧𝗜𝗢𝗡𝗦
+
+  🏨All In ONE Hotel on the Palm Jumeirah 
+
+  🏖️See, Sun & Beach Holiday Vibes
+
+  🕺🏻International & National Artists & DJs
+
+  💃🏻High Quality Workshops
+
+  🎉Amazing Night Parties
+
+  ☀️Beach Parties
+
+  🐪Dubai Desert Tour
+
+  🏙️Dubai City Tour
+
+  🌟The Rising Star Competition
+
+
+  𝗧𝗘𝗔𝗖𝗛𝗘𝗥𝗦 𝗟𝗜𝗡𝗘-𝗨𝗣
+
+  🕺🏻💃🏻Karl & Nima
+
+  🕺🏻Tresor 
+
+  🕺🏻Ledoux Kingsman
+
+  🕺🏻Stéphane 
+
+  💃🏻Sandra Guiterrez 
+
+  🕺🏻Fabricio Dozongado
+
+  🕺🏻Jadilson
+
+  💃🏻Elsy
+
+
+  𝗗𝗘𝗘𝗝𝗔𝗬𝗦 𝗟𝗜𝗡𝗘-𝗨𝗣
+
+  🎧DJ Pingusso
+
+  🎧DJ Traybeats
+
+  🎧DJ Bass
+
+
+  🎟️𝗣𝗔𝗦𝗦𝗘𝗦🎟️
+
+  Link to book tickets👇
+
+  www.dubaikizombafusion.com
+
+
+  *FULL PASS October: €120
+
+  FULL PASS November: €125
+
+  FULL PASS December: €130
+
+  FULL PASS January: €135
+
+  FULL PASS February: €145
+
+  The FULL PASS includes: all workshops, socials and parties.
+
+  *is the current price. The price will increase every month so get your ticket asap!
+
+
+  🏨HOTEL: Aloft Palm Jumeirah
+
+  https://www.marriott.com/event-reservations/reservation-link.mi?id=1717152284816&key=GRP&app=resvlink
+
+
+  💪 𝗜’𝗟𝗟 𝗕𝗘 𝗧𝗛𝗘𝗥𝗘 𝗟𝗜𝗡𝗞:
+
+  https://twb.nz/dkfilksf
+
+
+  ✈️✈️DID YOU KNOW YOU CAN FLY TO DUBAI FOR LESS THAN 100 EUROS with WIZZAIR?
+
+  You would land in Abu Dhabi and they offer a 1-hour bus shuttle to Dubai for €9 only!
+
+  www.wizzair.com.
+
+
+  Love,
+
+  Team DKF & ILKSF
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293938/gdbg9wmdxt1rulnkev0w.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJRcbZaklDXz4RYlEphFBu5r0
+international: No
+visibility: Public
+org:
+  id: kwHxV3RfwbrbOJEqcPmY
+  username: dubaikizombafusion
+  name: Dubai Kizomba Fusion Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954072/bb4jftn9zcgjmlja7aov.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dubaikizombafusion
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/336208049247685/
+facebookId: "336208049247685"
+eventType: Workshop
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1739433600000+ChIJZ3TuJd9qXz4Rv83p3TU08x4
+startDate: 1739433600000
+id: yW6PhUcvZrnILin4vYKe

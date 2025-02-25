@@ -1,0 +1,177 @@
+sourceUrl: https://www.facebook.com/events/961749528840182/?ti=ls
+createdAt: 1711547693429
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1711547693429
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Gästrikegatan 10, 113 62 Stockholm, Sweden
+  website: https://www.pacesthlm.se/?utm_source=google
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: PACE Gym & Golfsimulator
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.03868921970849
+        lat: 59.3399129697085
+      northeast:
+        lng: 18.0413871802915
+        lat: 59.34261093029151
+    location:
+      lng: 18.0402568
+      lat: 59.3413134
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Gästrikegatan
+      long_name: Gästrikegatan
+    - types:
+        - postal_town
+      short_name: Stockholm
+      long_name: Stockholm
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Stockholms län
+      long_name: Stockholms län
+    - types:
+        - country
+        - political
+      short_name: SE
+      long_name: Sweden
+    - types:
+        - postal_code
+      short_name: 113 62
+      long_name: 113 62
+  international_phone_number: +46 8 128 509 59
+  place_id: ChIJjyQnqGGdX0YRc1bYdpD9k6I
+  url: https://maps.google.com/?cid=11714985852631799411
+endDate: 1711666800000
+claimed: No
+link: ""
+description: >+
+  
+  ”The Showdown”
+
+
+  New weekly zouk and kizomba social including dance battles with a cash prize. 
+
+
+
+  We want to give an incentive to your development. 
+
+
+  🏅Practice. 
+
+
+  🏅Show up. 
+
+
+  🏅Battle for the price. 
+
+
+  And of course just dance and have fun. 
+
+
+
+  Opening instructors Mickaela Jalkteg & Palita Thonthan. 
+
+
+  Master of ceremony C.H.O.N.
+
+
+  Spring Theme Invite
+
+
+  This Skärtorsdagen, embrace the spring spirit! Dress in floral, bright colors, or anything symbolizing renewal. Let's celebrate the fresh start of spring with dance and creativity.
+
+
+
+  The program will consist of a similar setup each week with a varied schedule, guest instructors and taxi dancers.
+
+
+
+  19 - 20 P.M. 
+
+  📚 Workshops with various instructors:
+
+  Thematic teaching in Brazilian zouk, kizomba, tarraxinha, urban kizomba, semba, tarraxo, body control, movement quality, musicality, and much more will be covered.
+
+
+  20-24 P.M.
+
+  🥳 Party/social with a theme.
+
+
+  22-22:30 P.M.
+
+  🆚 Dance battle:
+
+  Styles will vary, and the outcome will be determined by the audience.
+
+  Guidelines for judging improvised Jack and Jill battles: Musicality, movement quality, creativity, originality.
+
+
+
+  Payment at the door, Swish and PayPal. 
+
+
+  Workshop 50 kr. 
+
+  Party/ social 100 kr. 
+
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/961749528840182/
+facebookId: "961749528840182"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "The Showdown "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1711648800000+ChIJjyQnqGGdX0YRc1bYdpD9k6I
+startDate: 1711648800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711547698/rq1f7pzllqmh7w6o7eha.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/PabloAcostaGomez
+  name: Pablo Acosta
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711547696/xvqhnoej6upvq4bxs7ge.jpg
+  bio: ""
+  id: tlQ5LRmNGwNSx9YM4jYJ
+  instagram: ""
+  username: PabloAcostaGomez
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FplAURP4XH6P8uRQH9mdL.png?generation=1711547730080016&alt=media
+id: plAURP4XH6P8uRQH9mdL

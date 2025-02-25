@@ -1,0 +1,143 @@
+endDate: 1719705600000
+sourceUrl: https://www.facebook.com/events/1114737046271041
+createdAt: 1719583228754
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1719562961000
+updatedAt: 1719583228754
+importedAt: 1719583228754
+providerUpdatedAt: 1719562961000
+facebookId: "1114737046271041"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1114737046271041
+eventType: Party
+providerItemId: 10009093-1719619200-1719705599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Hangvilla Multifunkcionális Közösségi Tér, Brusznyai Árpád u. 2.,
+  Veszprém, 8200, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719619200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Veszprém, Brusznyai Árpád u. 2, 8200 Hungary
+  website: http://www.hangvilla.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Hangvilla Multifunkcionális Közösségi Tér
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.9077598197085
+        lat: 47.0905250197085
+      northeast:
+        lng: 17.9104577802915
+        lat: 47.0932229802915
+    location:
+      lng: 17.909142
+      lat: 47.092196
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Brusznyai Árpád u.
+      long_name: Brusznyai Árpád utca
+    - types:
+        - locality
+        - political
+      short_name: Veszprém
+      long_name: Veszprém
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8200"
+      long_name: "8200"
+  international_phone_number: +36 88 889 180
+  place_id: ChIJNYzwr2iaaUcRJZFWtvP5Li4
+  url: https://maps.google.com/?cid=3327871999804870949
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsasabrosavp
+  name: Salsa Sabrosa Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765536/upxtkp0zhqvuaxx3prai.jpg
+  bio: ""
+  id: rxzDWLoGjB8CkZMWGWrI
+  instagram: ""
+  username: salsasabrosavp
+claimed: No
+facebook: https://www.facebook.com/events/1114737046271041/
+link: ""
+description: >
+  Ismét nagy party Veszprémben! 70% SALSA - 30% BACHATA 
+
+
+  ⏰ Időpont: 2024. június 29. szombat 21:00 - 02:00
+
+
+  📍 Helyszín: Hangvilla, Veszprém Brusznyai Á. u. 2.
+
+
+  🎶Zene: dj LibErty 😉
+
+
+  A partyn 70% kubai salsa, son és 30% bachata, kizomba vár benneteket! 🙂
+
+
+  Dress code: PIZSI PARTY, ahogy te értelmezed! :) Lehet kezeslábas, old school pizsi, de lehet szexi is ;) 
+
+
+  💃🏼 Hölgyeink: óránként Hölgyválasz, az első időpontja: 22 óra
+
+
+  Belépő:
+
+
+  Visszaigazolás esetén: 2.500 Ft (hat.idő.: június 29. szombat 11 óra - aki eddig nem igazol vissza, a helyszínen nem tudjuk elfogadni, hiába igazolt vissza utána!!! )
+
+  Helyszínen: 3.000 Ft
+
+
+  Lesz TOMBOLA is! :) 
+
+
+  Napközben 13 órától KIZOMBA WORKSHOPPAL várunk minden kedves érdeklődőt!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719583236/sxqezuogbei8p4iyhj2a.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: PIZSI PARTY | SALSA & BACHATA | Veszprém
+online: No
+place: ChIJkS-MAt2aaUcREBIeDCnEAAQ
+international: No
+hash: 1719687600000+ChIJNYzwr2iaaUcRJZFWtvP5Li4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHV9QMvECA3ygIS4tWvDh.png?generation=1719583256387675&alt=media
+id: HV9QMvECA3ygIS4tWvDh

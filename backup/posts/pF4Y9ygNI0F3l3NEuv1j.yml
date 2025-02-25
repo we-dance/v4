@@ -1,0 +1,188 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732326996736
+updatedAt: 1732326996736
+importedAt: 1732326996736
+providerId: goandance
+providerItemId: "7358"
+name: BSER Bachata Social E.R.
+description: |-
+  BACHATA SOCIAL EMILIA ROMAÑA
+
+  🗓️ Sábado 07 de diciembre de 2024
+
+  Talleres y Noches Sociales
+
+  💯BACHATA🔥🔥🔥
+
+  🔥Elenco artístico🔥
+
+  Invitados especiales Darío y Sara
+
+  Huéspedes:
+
+  matías y marta
+
+  Milón y Giada
+
+  Danza Ataca de Javi y Alice
+
+  Danza DyM de Davide y Manu
+
+  sonny ve
+
+  Lio Bachatero
+
+  robin y elisa
+
+  antonio y laura
+
+  Giuli Movement
+
+  🎧 Música de
+
+  DJ Álex
+
+  dj Nico
+
+  DJ Requinto
+
+  📸 Foto
+
+  Frencys
+sourceUrl: https://www.goandance.com/es/e/7358?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7358?promoter=WEDANCE123
+type: event
+startDate: 1733601600000
+endDate: 1733630400000
+tickets:
+  - name: Full Pass BSER
+    description: 2. Workshop e Night Party Con Drink
+    priceValidUntil:
+      _seconds: 1733608800
+      _nanoseconds: 0
+    discount: 0
+    price: 35
+    comission: 3.93
+    originalPrice: 35
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7358-bser-bachata-social-e-r?&promoter=WEDANCE123
+  - name: Pass BSER 1 Workshop + Night Party
+    description: 1 Workshop to choose between Open level or Intermediate/Advanced
+      level + Night Party
+    priceValidUntil:
+      _seconds: 1733608800
+      _nanoseconds: 0
+    discount: 2
+    price: 28
+    comission: 2.36
+    originalPrice: 30
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7358-bser-bachata-social-e-r?&promoter=WEDANCE123
+  - name: Pass BSER 1 Workshop (no night party)
+    description: 1 Workshop to choose between Open level or Intermediate/Advanced
+      level (no Night Party)
+    priceValidUntil:
+      _seconds: 1733608800
+      _nanoseconds: 0
+    discount: 2.5
+    price: 17.5
+    comission: 1.98
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7358-bser-bachata-social-e-r?&promoter=WEDANCE123
+  - name: Pass BSER 2 Workshop (no night party)
+    description: 2 Workshops 1 hour Open level + 1 hour Intermediate/Advanced
+    priceValidUntil:
+      _seconds: 1733608800
+      _nanoseconds: 0
+    discount: 5
+    price: 35
+    comission: 3.93
+    originalPrice: 40
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7358-bser-bachata-social-e-r?&promoter=WEDANCE123
+  - name: Pass BSER Night Party
+    description: Entrance to the evening with drink included
+    priceValidUntil:
+      _seconds: 1733616000
+      _nanoseconds: 0
+    discount: 2
+    price: 13
+    comission: 1.57
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7358-bser-bachata-social-e-r?&promoter=WEDANCE123
+eventType: Party
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732326998/gpiwezqyz2tgjbtunc5r.jpg
+venue:
+  address_components:
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Via Monti Urali
+      short_name: Via Monti Urali
+      types:
+        - route
+    - long_name: Reggio Emilia
+      short_name: Reggio Emilia
+      types:
+        - locality
+        - political
+    - long_name: Reggio nell'Emilia
+      short_name: Reggio nell'Emilia
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Provincia di Reggio Emilia
+      short_name: RE
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Emilia-Romagna
+      short_name: Emilia-Romagna
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Italy
+      short_name: IT
+      types:
+        - country
+        - political
+    - long_name: "42122"
+      short_name: "42122"
+      types:
+        - postal_code
+  formatted_address: Via Monti Urali, 2, 42122 Reggio Emilia RE, Italy
+  geometry:
+    location:
+      lat: 44.68459430000001
+      lng: 10.6682733
+    viewport:
+      northeast:
+        lat: 44.6858657302915
+        lng: 10.6694939802915
+      southwest:
+        lat: 44.6831677697085
+        lng: 10.6667960197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +39 347 688 2686
+  name: Obiettivo danza
+  place_id: ChIJH78mRnQdgEcRF80ANTu6LUo
+  url: https://maps.google.com/?cid=5345133096213728535
+  website: https://www.obiettivodanza.eu/
+place: ChIJs_nlB1scgEcRNQOGTL5Q5tk
+price: 35 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1733601600000+ChIJH78mRnQdgEcRF80ANTu6LUo
+org: ""
+id: pF4Y9ygNI0F3l3NEuv1j

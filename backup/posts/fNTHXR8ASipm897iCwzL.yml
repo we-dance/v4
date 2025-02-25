@@ -1,0 +1,173 @@
+endDate: 1714856400000
+sourceUrl: https://www.facebook.com/events/433162749064701/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1710524943000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1710524977000
+facebookId: "433162749064701"
+facebook: https://www.facebook.com/events/433162749064701/
+facebookUrlsList: []
+isNew: true
+eventType: Party
+providerItemId: e433162749064701@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: FIESTA LATINA 💃🏻✨ DJ SENCI // PARTY + GRATIS BACHATA TANZKURS!
+location: FRANZ • Die Kultstätte in Aachen
+startDate: 1714845600000
+facebookUrlsCount: 0
+username: Aina
+venue:
+  formatted_address: Franzstraße 74, 52064 Aachen, Germany
+  website: https://www.aachen-franz.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: FRANZ - Die Kultstätte in Aachen
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.085328119708497
+        lat: 50.7671014697085
+      northeast:
+        lng: 6.088026080291502
+        lat: 50.7697994302915
+    location:
+      lng: 6.086624399999999
+      lat: 50.7684518
+  address_components:
+    - types:
+        - street_number
+      short_name: "74"
+      long_name: "74"
+    - types:
+        - route
+      short_name: Franzstraße
+      long_name: Franzstraße
+    - types:
+        - locality
+        - political
+      short_name: AC
+      long_name: Aachen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: AC
+      long_name: Aachen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Köln
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "52064"
+      long_name: "52064"
+  international_phone_number: +49 179 5073300
+  place_id: ChIJHTGJ99ibwEcRBUbmQftvGP4
+  url: https://maps.google.com/?cid=18309507410007836165
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/franz.aachen
+  name: FRANZ • Die Kultstätte in Aachen
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953836/i6qzvcuy4uewzay528tv.jpg
+  bio: ""
+  id: FgrO7jbQHdmGtzF63GJD
+  instagram: ""
+  username: franz.aachen
+claimed: No
+link: ""
+description: >
+  • AB 20 UHR kostenlosen Bachata Tanzkurs mit „GRETE & RAMÓN"
+
+
+  • AB 21 UHR Party mit "DJ SENCI" : SALSA / BACHATA / KIZOMBA MERENGUE Y MAS
+
+
+  Der große Saal lädt dabei zum Tanzen und sich Ausprobieren ein. An der Bar werden zudem leckere Erfrischungen verteilt. 
+
+
+  Ein kleines Stück Sommerfeeling - im Saal des Franz.
+
+
+  ---------------------------------
+
+
+  💃🏻✨
+
+  FIESTA LATINA 
+
+  DJ SENCI 
+
+
+  FREITAG • 05.04.2024
+
+
+  EINLASS & BEGINN: 20 UHR
+
+  ABENDKASSE : 7€
+
+
+  FRANZ PROGRAMM:
+
+  www.aachen-franz.de
+
+
+  FRANZ | Die Kultstätte in Aachen
+
+  Franzstrasse 74 / 52064 Aachen
+
+
+
+  ---------------------------------
+
+
+
+  #franzaachen #wasgehtinaachen #clubaachen #tanzen #tanzenaachen #nachtlebenaachen #salsa #salsaaachen #bachata #bachataaachen #partyaachen #salsaparty #zouk #zoukaachen #merenque #kizomba
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214846/fz9budzklv42xnk0ogp8.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJHRmKsHyZwEcRT0QOC64Oo2M
+international: No
+hash: 1714845600000+ChIJHTGJ99ibwEcRBUbmQftvGP4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfNTHXR8ASipm897iCwzL.png?generation=1713214884592563&alt=media
+id: fNTHXR8ASipm897iCwzL

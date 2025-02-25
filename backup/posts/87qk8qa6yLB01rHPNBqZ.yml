@@ -1,0 +1,127 @@
+sourceUrl: https://www.facebook.com/events/2006767576386398
+createdAt: 1716311584691
+updatedBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+username: halfcubedance
+viewsCount: 1
+claimed: No
+link: ""
+description: >+
+  CALLING ZOUKEIROS!!   
+
+  Another ZOUKY TREAT is in store!!!
+
+
+
+
+  🔸 LUAN CORREIA & ADRIANA GOMES UK DEBUT!🔸   
+
+
+
+
+  SAVE THE DATE!!!!
+
+  🔸 MANCHESTER EDITION: SUNDAY 30TH JUNE, 3-11pm 🔸 
+
+
+
+
+  MORE DETAILS TBC Shortly!
+                         
+
+  Enjoy another UP CLOSE & PERSONAL experience with INCREDIBLE ARTISTS AT YOUR DOORSTEP!!!
+
+
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Latino-Euphoria/100054326750072/
+  name: Latino Euphoria
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1716311548/pgie35yuuehjnqha1hfz.jpg
+  bio: ""
+  id: UFEnFzfMc6RvczroW5Rd
+  instagram: ""
+  username: LatinoEuphoria
+facebook: https://www.facebook.com/events/2006767576386398/
+facebookId: "2006767576386398"
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "MANCHESTER EDITION: LUAN & ADRIANA UK DEBUT (Sun 30th June): BRAZILIAN
+  ZOUK ALL DAYER "
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1719756000000+ChIJlWcVDeuxe0gRMiMi3HGO1jw
+startDate: 1719756000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716311592/riqnnrdt8muzcsxkwl1x.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F87qk8qa6yLB01rHPNBqZ.png?generation=1716311604277242&alt=media
+venue:
+  formatted_address: 90-94 Oxford Rd, Manchester M1 5WH, UK
+  website: https://www.revolution-bars.co.uk/bar/manchester-oxford-road?utm_source=Google&utm_medium=Yext&y_source=1_NTAyNDA2NDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Revolution Manchester - Oxford Road
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.241827130291502
+        lat: 53.4723044197085
+      northeast:
+        lng: -2.239129169708499
+        lat: 53.47500238029149
+    location:
+      lng: -2.240642900000001
+      lat: 53.4735971
+  address_components:
+    - types:
+        - street_number
+      short_name: 90-94
+      long_name: 90-94
+    - types:
+        - route
+      short_name: Oxford Rd
+      long_name: Oxford Road
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M1 5WH
+      long_name: M1 5WH
+  place_id: ChIJlWcVDeuxe0gRMiMi3HGO1jw
+  url: https://maps.google.com/?cid=4383847906967429938
+  international_phone_number: +44 161 236 7470
+  username: www.revolution-bars.co.uk
+endDate: .nan
+id: 87qk8qa6yLB01rHPNBqZ
+eventType: Congress
+updatedAt: 1716311832782

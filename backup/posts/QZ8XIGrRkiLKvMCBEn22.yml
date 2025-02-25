@@ -1,0 +1,139 @@
+endDate: 1719619200000
+sourceUrl: https://www.facebook.com/events/340454699085850/?event_time_id=340454719085848
+createdAt: 1718287228652
+approved: true
+provider: ical
+providerId: ya6tzQALdEQP7whs5xQM
+providerCreatedAt: 1718285892000
+updatedAt: 1718287228652
+importedAt: 1718287228652
+providerUpdatedAt: 1718285892000
+facebookId: "340454719085848"
+facebook: https://www.facebook.com/events/340454699085850/?event_time_id=340454719085848
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/340454699085850/?event_time_id=340454719085848
+eventType: Party
+providerItemId: e340454719085848@facebook.com
+createdBy: oSg1TkXwg1Vw4XlEbDEPEQw3ONz1
+name: 🔸CUBAN SALSEA - The Pina After Party🔸
+location: Salsea Dance Academy
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719606600000
+facebookUrlsCount: 1
+username: melmori
+venue:
+  formatted_address: Heßstraße 48b, 80798 München, Germany
+  website: https://salsea.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsea Dance Academy
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5645834197085
+        lat: 48.1507940697085
+      northeast:
+        lng: 11.5672813802915
+        lat: 48.1534920302915
+    location:
+      lng: 11.5661696
+      lat: 48.15226719999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 48b
+      long_name: 48b
+    - types:
+        - route
+      short_name: Heßstraße
+      long_name: Heßstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  international_phone_number: +49 176 61830740
+  place_id: ChIJpTxPR1XZnUcRER0LZABcUuE
+  url: https://maps.google.com/?cid=16236140763372264721
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salseadance
+  name: Salsea Dance Academy
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F29A7vec0c6cKnrSTvqAEouzhNKD3%2Fd8a1c8fe-e41a-48bb-8007-cff964a785ba?alt=media&token=1de13269-1fa1-4e04-b69d-60c9c83cbb7f
+  bio: ""
+  id: 29A7vec0c6cKnrSTvqAEouzhNKD3
+  instagram: https://www.instagram.com/salsea_dance
+  username: SALSEA
+claimed: No
+link: https://salsea.de/events/cuban-salsea-party/#tickets
+description: |
+  Hola Gente,
+
+  🔥‼️Ladys Gratis Eintritt bis 23:00 Uhr‼️💃🏻
+
+  JEDEN FREITAG, nach der Timba Party an der Pinakothek gehts weiter bei SALSEA
+
+  ⏰ Einlass 22:30 Uhr
+  🎟️ Eintritt: 5 € (Abendkasse und Vorverkauf) 
+  🎟️ TICKETS: https://salsea.de/CUBANPARTY
+  📍 Ort: Salsea Dance Academy
+  🎧 DJ: Mel
+
+  Saludos,
+
+  Euer SALSEA TEAM🫶🏼😊
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718287243/r8ws6fwqsaw6elrnlafd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1719606600000+ChIJpTxPR1XZnUcRER0LZABcUuE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQZ8XIGrRkiLKvMCBEn22.png?generation=1718287260913614&alt=media
+bookmarks: 1
+viewsCount: 6
+id: QZ8XIGrRkiLKvMCBEn22

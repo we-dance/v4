@@ -1,0 +1,133 @@
+venue:
+  formatted_address: Bogholder Allé 4, 2720 København, Denmark
+  name: Bogholder Allé 4
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 12.4956323302915
+      south: 55.6848816697085
+      north: 55.68757963029149
+      west: 12.4929343697085
+    location:
+      lng: 12.4942669
+      lat: 55.6863317
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Bogholder Allé
+      long_name: Bogholder Allé
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Vanløse
+      long_name: Vanløse
+    - types:
+        - locality
+        - political
+      short_name: København
+      long_name: København
+    - types:
+        - country
+        - political
+      short_name: DK
+      long_name: Denmark
+    - types:
+        - postal_code
+      short_name: "2720"
+      long_name: "2720"
+  url: https://maps.google.com/?q=Bogholder+All%C3%A9+4,+2720+K%C3%B8benhavn,+Denmark&ftid=0x465253d91d6f5e47:0x8de0cf6fcf78a851
+  place_id: ChIJR15vHdlTUkYRUah4z2_P4I0
+endDate: 2023-02-14T22:30
+claimed: No
+link: ""
+description: |-
+  we would invite you all to a little valentines social ❤️🍫🌹
+
+  Price:
+  Workshop&Social / 125dkk
+  Social / 50dkk
+  Pay at the door - cash or card
+program:
+  - endDate: 2023-02-14T22:30
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/danzaholiccph
+        name: danzaholiccph
+        photo: ""
+        bio: ""
+        id: 0Ncf6oxDCBRVk0gGrpmz
+        instagram: ""
+        username: danzaholiccph
+      - instagram: https://instagram.com/vj_danzaholic
+        username: vj_danzaholic
+      - instagram: https://instagram.com/sablaulund
+        username: sablaulund
+    name: Evening Program
+    description: |-
+      18.00 // Doors open - Dj SoundCloud will be ready!
+      18.30 // Workshop with Sabine & Melanie
+      19.30 // Social dancing with DJ VJ
+      22.30 // Thank you for today
+    eventType: Other
+    startDate: 2023-02-14T18:00
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fd3841625-8af9-46d2-a489-23f8bc0526f2?alt=media&token=fb465670-39ed-48cf-8a56-88dea6db2b4c
+createdAt: 1676280253382
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/danzaholiccph
+    name: danzaholiccph
+    bio: ""
+    photo: ""
+    id: 0Ncf6oxDCBRVk0gGrpmz
+    instagram: ""
+    username: danzaholiccph
+  - instagram: https://instagram.com/vj_danzaholic
+    username: vj_danzaholic
+  - instagram: https://instagram.com/sablaulund
+    username: sablaulund
+price: ""
+place: ChIJIz2AXDxTUkYRuGeU5t1-3QQ
+artistsList:
+  - danzaholiccph
+  - vj_danzaholic
+  - sablaulund
+international: No
+updatedAt: 1676280253382
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  facebook: https://facebook.com/danzaholiccph
+  username: danzaholiccph
+facebook: https://www.facebook.com/events/5608260172633327
+eventType: Party
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Kizaholic Social // Valentine Special
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-14T18:00
+username: AnnaMil
+viewsCount: 32
+id: 5Ums8NwYdGWYqiOP5MPL

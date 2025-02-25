@@ -1,0 +1,171 @@
+endDate: 1714423500000
+sourceUrl: https://www.facebook.com/events/748737880716349/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712666834000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1712667488000
+facebookId: "748737880716349"
+facebook: https://www.facebook.com/events/748737880716349/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/748737880716349/
+eventType: Workshop
+providerItemId: e748737880716349@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Tarraxo School London - International teacher Jah'ja - 2 level "
+location: ""
+styles:
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714413600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 6 Rue Jules Raimu, 31200 Toulouse, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tarraxo School Toulouse
+  geometry:
+    viewport:
+      southwest:
+        lng: 1.473742519708498
+        lat: 43.6336370197085
+      northeast:
+        lng: 1.476440480291502
+        lat: 43.63633498029149
+    location:
+      lng: 1.4750065
+      lat: 43.634908
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Rue Jules Raimu
+      long_name: Rue Jules Raimu
+    - types:
+        - locality
+        - political
+      short_name: Toulouse
+      long_name: Toulouse
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haute-Garonne
+      long_name: Haute-Garonne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Occitanie
+      long_name: Occitanie
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "31200"
+      long_name: "31200"
+  international_phone_number: +33 7 61 14 13 66
+  place_id: ChIJObXhtlejrhIRwp-BsKAgrPk
+  url: https://maps.google.com/?cid=17990790485966430146
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1713214842398
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/tarraxolondon
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214842/a6infadpkmww2xw1k9zp.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1713214842398
+  owned: false
+  name: Tarraxo School London
+  updatedAt: 1713214842398
+  username: tarraxolondon
+claimed: No
+link: ""
+description: >-
+  Tarraxo School London is back 💥 
+
+
+  Monday 29th April 7pm-9.45pm 
+
+  2 LEVEL | Absolute beginners & Improvers 
+
+  2 hours Tarraxo workshop & practise 7.00pm – 9.45pm 
+
+
+  You know the drill, we’re back to school with 2 level covering everything from Tarraxo technique and basics to body movement and what we tarraxo dancers call “sauce” 🔥
+
+
+  Whether you’re an experienced dancer looking to perfect your skills or a newcomer to the scene, our workshops have something for everyone.
+
+
+  Our International Teacher :  Jah’ja (Swizterland)
+
+  Olympiads Tarraxo World Champion!
+
+  Our UK teacher : Sanchia (UK)
+
+
+  —————————————————–
+
+
+  Our lessons & topics 
+
+
+  Improvers | Jha’ja 
+
+  Partner work | Isolations | Musicality | Leading and Following | 
+
+
+  Absolute Beginners/ Beginners | Sanchia
+
+  Technique | Foundations | Body Movement
+
+
+  Don’t miss out on this incredible opportunity to learn from the best. 
+
+  Get ready to Tarraxo your life!
+   
+  ★ Prices Online (no fees) : 
+
+  Online closes Monday 29th April 6.30pm
+
+  https://gingaboo.com/tarraxo-school-london/
+
+
+  ★ADDRESS : Central London
+
+  Revolution London – Leadenhall
+
+  140-144 Leadenhall St, London EC3V 4QT
+
+  5 minutes walk from Bank or Monument station. Buses all night.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214845/eeolzlyeoymgleovnabf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_1J17G-7rhIRMBBBL5z2BgQ
+international: No
+hash: 1714413600000+ChIJObXhtlejrhIRwp-BsKAgrPk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FqhkNzSjtByzOKIg8lVfQ.png?generation=1713214885931930&alt=media
+id: qhkNzSjtByzOKIg8lVfQ

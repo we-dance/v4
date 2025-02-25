@@ -1,0 +1,71 @@
+createdAt: 1606917705824
+createdBy: mNlo4oxz2Xgo9UOUWcdsSBhjdHK2
+step: name
+name: FRAN VEGA
+username: VEGA
+gender: Male
+community: Munich
+styles:
+  SalsaNewYork:
+    level: Interested
+    selected: true
+  SalsaCalena:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+birthday: 1981-03-12
+newsletter:
+  class: true
+  party: true
+languages: Spanish, English, German, Italian
+bio: everything in life is better when dancing🤣
+weight: "72"
+skills: Intermediate
+teacher: No
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+location:
+  country: Germany
+  locality: Munich
+  label: Munich
+height: "174"
+story: Salsamas
+photoFull: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmNlo4oxz2Xgo9UOUWcdsSBhjdHK2%2F560c06b6-ce99-4d09-92ee-0833be0f25e0?alt=media&token=4e3d3f7c-8449-4531-84a0-fd18ac896451
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmNlo4oxz2Xgo9UOUWcdsSBhjdHK2%2Fe15f2d20-8a19-42f9-b45b-3a23198ff965?alt=media&token=ce6b54b5-c855-4cba-b362-5eeb1236532c
+visibility: Unlisted
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+locales:
+  de: true
+  en: true
+  it: true
+  es: true
+language: es
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617064585242
+pwaUsed: false
+lastLoginAt: 1607932777852
+daysUsed: 6
+id: mNlo4oxz2Xgo9UOUWcdsSBhjdHK2

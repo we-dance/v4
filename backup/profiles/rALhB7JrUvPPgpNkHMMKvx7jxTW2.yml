@@ -1,0 +1,38 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1642237516103
+locales:
+  de: true
+createdBy: rALhB7JrUvPPgpNkHMMKvx7jxTW2
+name: Dancer_12
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Dancer_12
+pwaUsed: false
+gender: Male
+contacts: ""
+updatedAt: 1642237570375
+styles:
+  Ballroom:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Dancehall:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Advanced
+    highlighted: false
+    selected: true
+lastLoginAt: 1645854771398
+daysUsed: 2
+id: rALhB7JrUvPPgpNkHMMKvx7jxTW2

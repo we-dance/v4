@@ -1,0 +1,103 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bailamar-bachata-camp-in-the-dominican-republic-33/
+sourceUrl: https://www.facebook.com/events/372152205680076
+venue:
+  address_components:
+    - long_name: Dominican Republic
+      short_name: DO
+      types:
+        - country
+        - political
+  formatted_address: Dominican Republic
+  geometry:
+    location:
+      lat: 18.735693
+      lng: -70.162651
+    viewport:
+      northeast:
+        lat: 19.9786989016584
+        lng: -68.2526000505517
+      southwest:
+        lat: 17.36110005053662
+        lng: -72.00750992566606
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Dominican Republic
+  place_id: ChIJ9bbx3jiIr44R4PcNBiQPAqY
+  url: https://maps.google.com/?q=Dominican+Republic&ftid=0x8eaf8838def1b6f5:0xa6020f24060df7e0
+  website: http://www.godominicanrepublic.com/
+endDate: ""
+claimed: No
+link: https://www.bailamar.com/december
+description: >+
+  
+  Experience a two-week Bachata retreat in the heart of the Dominican Republic, fully immersed in the authentic culture, music, and dance. Unlike large bachata festivals, our bachata camp offers a close-knit, family atmosphere. We learn in small groups, live together, and explore the country, all while prioritizing high-quality instruction and the personal progress of each student. It's a journey filled with learning, fun, and unforgettable new experiences!
+
+
+  In BailaMar Bachata Camp program:
+
+  * About 30 hours of dance classes: bachata, merengue, bolero, music etc.
+
+  * Paradise beaches! Different every day!
+
+  * Local parties every night!
+
+  * Exploring Dominican Republic from different sides: 
+
+  beautiful nature with its calm or wavy ocean, forests, waterfalls, caves, animals.
+
+  Real Caribbean life as it is, culture, history and music, food and drinks!
+
+  All about the Dominican Republic in one tour!
+
+
+  All details and booking on https://www.bailamar.com/june
+
+
+
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293933/dq9cca058nxdxhdipkhx.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  createdAt: 1732293931207
+  importedAt: 1732293931207
+  updatedAt: 1732293931207
+  source: facebook
+  name: Bailamar Bachata Camp in the Dominican Republic
+  facebook: https://www.facebook.com/BailaMar
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293931/qg6oq5a15ynnejsa7oe5.png
+  username: BailaMar
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+facebook: https://www.facebook.com/events/372152205680076/
+facebookId: "372152205680076"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "BailaMar Bachata Camp #33 December 2024"
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1733029200000+ChIJ9bbx3jiIr44R4PcNBiQPAqY
+startDate: 1733029200000
+id: sLR2qKlsB0h3tFGAt2ff

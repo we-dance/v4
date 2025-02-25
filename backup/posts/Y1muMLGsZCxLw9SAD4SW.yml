@@ -1,0 +1,160 @@
+venue:
+  website: https://www.trybedancestudio.com/
+  formatted_address: Kurfürstenstraße 3a, 10785 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 3a
+      short_name: 3a
+    - types:
+        - route
+      long_name: Kurfürstenstraße
+      short_name: Kurfürstenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mitte
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10785"
+      short_name: "10785"
+  url: https://maps.google.com/?cid=1968106549161841524
+  name: Trybe Dance Studio
+  geometry:
+    viewport:
+      south: 52.49778586970849
+      north: 52.50048383029149
+      east: 13.3699097302915
+      west: 13.3672117697085
+    location:
+      lng: 13.3686256
+      lat: 52.4993133
+  international_phone_number: +49 171 5652454
+  place_id: ChIJ8_citTVRqEcRdFPpnnoeUBs
+endDate:
+  _seconds: 1638039600
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+link: https://cspberlin.com/
+description: >
+  RUMBA CUBANA WORKSHOP
+
+  Mit Leivan & Julia
+
+  27.11.2021
+
+  Das Wort Rumba beschreibt sowohl die Rumba-Musik-, den –Tanz und -Gesang, als auch das weltliche Fest. Eines der wichtigsten Eigenschaften ist der Improvisationscharakter!
+
+  In diesem 3-stünmdigen Workshop beschäftigen wir uns mit den drei Hauptformen der Rumba Cubana: Yambú, Guaguancó und Columbia. 
+
+  Yambú, der älteste bekannte Rumba-Stil, charakterisiert durch seinen langsameren Takt („cadencia“) und sanfte Bewegungen im Paartanz. Es geht auch hier, wie im Guaguancó um Koketterie zwischen Frau und Mann, jedoch gibt es keinen Vacunao. 
+
+  Im Guaguancó  versucht der Mann in einem tänzerischen Spiel die Frau zu „verführen“. Die Frau versucht sich dagegen zu wehren bzw. sich vor dem Vacunao zu schützen. Hierbei zeigen beide ihr tänzerisches Geschick mit viel Gestik und Mimik.
+
+  Die Columbia, wird oft als Männer-Solo Tanz bezeichnet. Die Tänzer bewegen sich auf sehr schnelle und spielerische Art und Weise und setzen Akzente mit Schultern und Armen etc. Der Columbia-Tänzer zeigt und beweist sein Geschick und seine Eleganz.
+   
+  ORT: TRYBE DANCE STUDIO, Berlin
+
+  OPEN LEVEL
+
+
+  PREISE:   30,00 Euro     bis zum 5.11
+                  35,00 Euro     ab dem 6.11
+  *Studentenrabatt - 5,00€
+
+
+  *Nur mit VORANMELDUNG über unsere Website: cspberlin.com
+
+
+  WICHTIGER HINWEIS:
+
+  Im Studio sind Straßenschuhe nicht gestattet. Bitte bringt Wechselschuhe mit :-)
+
+  ES GELTEN DIE 3-G REGELN
+
+
+  DOZENTEN
+
+  Leivan García Valle ist erster Solist, Lehrer und Choreograf des Conjunto Folklórico Nacional de Cuba mit Sitz in Havanna. Seit 11 Jahren tanzt und choreografiert er für die Company auf nationaler und internationaler Ebene. Unter anderem wurde er mit dem Premio Nacional de Danza (Nationalpreis Kubas) für seine Rumba-Inszenierung "En mi patio" ausgezeichnet. Er ist Dozent des Folkuba, welches zweimal jährlich für Kubaner und Ausländer als Fortbildung in Yoruba- und Congo-Tänzen sowie Bailes Populares (Cha-cha-cha, Mambo, Son, Rumba und Casino) angeboten wird.
+
+
+  Julia von Oy ist Tänzerin, Tanzlehrerin und Choreographin und lebt und arbeitet in Berlin und Havanna. Ihre Ausbildung machte sie teils in Berlin, Barcelona und teils auf Kuba und nahm dort an nationalen und internationalen Tanzprojekten teil. Julia widmete sich intensiv dem afrokubanischen Folklore, der Salsa Cubana und zeitgenössischen Tanz. Seit über 4 Jahren arbeitet sie bei Cuban Salsa Power Berlin.
+
+  Die Stunde ist also perfekt für dich wenn du andere kubanische Tänze kennen lernen möchtest.
+type: event
+promo: Yes
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpH0880yoosdst2YzH0t6hvWMmi63%2Fece796db-ad48-4459-9a64-e3a82d7c59c1?alt=media&token=cf5e227d-d4a2-47c9-a334-269fb520cdb9
+createdAt: 1635766365883
+watchersCount: 0
+price: From 25
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FY1muMLGsZCxLw9SAD4SW.png?generation=1637684174074934&alt=media
+commentsLast: ~
+promoter: Juli
+promotedBy: pH0880yoosdst2YzH0t6hvWMmi63
+id: Y1muMLGsZCxLw9SAD4SW
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+views: 8
+updatedAt: 1635766365883
+website: https://cspberlin.com/
+updatedBy: pH0880yoosdst2YzH0t6hvWMmi63
+visibility: Public
+facebook: julia.vonoy
+eventType: Workshop
+organiser: ""
+form: No
+createdBy: pH0880yoosdst2YzH0t6hvWMmi63
+commentsCount: 0
+name: RUMBA CUBANA WORKSHOP Mit Leivan & Julia
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaYambu:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaColumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-11-27T16:00:00.000Z
+username: Juli
+viewsCount: 16

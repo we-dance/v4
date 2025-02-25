@@ -1,0 +1,193 @@
+endDate: 1720915200000
+sourceUrl: https://www.facebook.com/events/914864897064521/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D
+createdAt: 1719669627239
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1719667086000
+updatedAt: 1719669627239
+importedAt: 1719669627239
+providerUpdatedAt: 1719667086000
+facebookId: "914864897064521"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/914864897064521/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D
+providerItemId: bl6kac0c51du0lnta9kensaku8@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Esslingen (Stuttgart), Germany
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720742400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Blumenstraße 15, 73728 Esslingen am Neckar, Germany
+  website: http://www.tanzes.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: TANZ ES
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.314078619708498
+        lat: 48.7350699697085
+      northeast:
+        lng: 9.316776580291503
+        lat: 48.7377679302915
+    location:
+      lng: 9.3151887
+      lat: 48.7364449
+  address_components:
+    - types:
+        - street_number
+      short_name: "15"
+      long_name: "15"
+    - types:
+        - route
+      short_name: Blumenstraße
+      long_name: Blumenstraße
+    - types:
+        - locality
+        - political
+      short_name: Esslingen am Neckar
+      long_name: Esslingen am Neckar
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Esslingen
+      long_name: Esslingen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Süd
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "73728"
+      long_name: "73728"
+  place_id: ChIJx2I3BdjAmUcRG32al5J7wiw
+  url: https://maps.google.com/?cid=3225276152689622299
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719669641562
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Tanzschule-Tanzes/61555803872467/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719669641/uc0vgulb8tuxt8gjmiu0.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719669641562
+  owned: false
+  name: Tanzschule Tanzes
+  place: ChIJy0zuWdLAmUcRgCkJjTz9HwQ
+  updatedAt: 1719669641562
+  username: TanzschuleTanzes
+claimed: No
+facebook: https://www.facebook.com/events/914864897064521/
+link: https://tanzes.nimbuscloud.at/index.php?c=PublicCustomers&a=Registration&item=course&id=502&onlineId=355hreibung
+description: >-
+  
+  Save the Date !
+
+  SPECIAL SUMMER ZOUK WEEKEND ✨✨✨✨
+
+  ENGLISH Text below
+
+
+  🚀 Endlich kommt sie nach Stuttgart / Esslingen zu uns @tanzes 🤩
+
+
+  Julinha aus Köln! 🚀
+
+
+  Sie setzt neue Maßstäbe in der Brazilian Zouk Szene in ganz Deutschland.
+
+
+  Als Top-Tänzerin und Top Trainerin wird sie uns vom 
+
+  12.- 13.07 ihr Know how zur Verfügung stellen.💃🔥
+
+
+  Anmeldung hier:
+
+  https://tanzes.nimbuscloud.at/index.php?c=PublicCustomers&a=Registration&item=course&id=502&onlineId=355hreibung
+
+
+  Sichert euch den nächsten Termin und bucht eure Spots!
+
+
+  Macht euch bereit für energiegeladene Sessions und heiße Moves! 🙌✨
+
+
+  We love what we do 🫶
+
+  Petroula und euer TANZES Team
+
+
+
+  Save the Date !
+
+  SPECIAL SUMMER ZOUK WEEKEND ✨✨✨✨
+
+
+  🚀 Finally she comes to Stuttgart / Esslingen to us @tanzes 🤩
+
+
+  @julinhajohann from Cologne! 🚀
+
+
+  She sets new standards in the Brazilian Zouk scene throughout Germany.
+
+
+  As a top dancer and top trainer, she will provide us with her know-how from 12 - 13 July 💃🔥
+
+
+  Registration here:
+
+  https://tanzes.nimbuscloud.at/index.php?c=PublicCustomers&a=Registration&item=course&id=502&onlineId=355hreibung
+
+
+  Save the next date and book your spots!
+
+
+  To register you can write us an E Mail. info@tanzes.com
+
+
+  Get ready for energetic sessions and hot moves! 🙌✨
+
+
+  We love what we do 🫶
+
+  Petroula and your TANZES team
+program: []
+source: facebook
+eventType: Course
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719669642/m75ank4uzj9dy6c2o9w4.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: " Save the Date ! SPECIAL SUMMER ZOUK WEEKEND "
+online: No
+place: ChIJy0zuWdLAmUcRgCkJjTz9HwQ
+international: No
+hash: 1720810800000+ChIJx2I3BdjAmUcRG32al5J7wiw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fsc3NdZqyvFs6dn2xeIZf.png?generation=1719669658228265&alt=media
+id: sc3NdZqyvFs6dn2xeIZf

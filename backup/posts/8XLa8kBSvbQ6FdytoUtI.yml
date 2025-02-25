@@ -1,0 +1,154 @@
+program: []
+createdAt: 1731487979219
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+id: 8XLa8kBSvbQ6FdytoUtI
+endDate: 1731538800000
+downVotes: 0
+commentsLast:
+  updatedBy: 1X1pyh3lLGMxovkc1Ad5HRK7OEz2
+  createdBy: 1X1pyh3lLGMxovkc1Ad5HRK7OEz2
+  updatedAt: 1704556569730
+  postId: JJbe4fw38Zy4DpBeZtrb
+  username: juno81
+  body: "It's quite a closed circle, newcomers are not integrated. As a woman, you
+    should be either ask always for a dance or dance alone. But I don't complain
+    about the music. "
+  commentId: ""
+  createdAt: 1704556569730
+org:
+  role: organiser
+  username: salsa.cubana.munich
+  bio: >-
+    The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties.
+
+
+    Sebastian, Hamza and Alex brought their speakers to Pinakothek der Moderne in 2019 and 30 Salsa Cubana dancers joined. Ever since they come every Wednesday and Friday to bring Cuban atmosphere to citizens of Munich. 
+
+
+    Best local casino and rumba dancers often give animations or come to chat.
+
+
+    Best of Alain Perez, Azucar Negra, Berna Jam, Celia Cruz, Charanga Habanera, D Punto D, Elito Revé, El Niño y la Verdad, Habana D'Primera, Leoni Torres, Leo Wilber, Los 4, Los Van Van, Manana Club, Manolito Simonet, Mayimbe, Mecánica Loca, Mixael Cabrera, Rafaelito y su Tumbao, Timbalive, Yasser Ramos.
+  name: Salsa Cubana Munich
+  youtube: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  facebook: https://facebook.com/vacunaaa
+  instagram: https://instagram.com/salsa.cubana.munich
+  tiktok: ""
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+form: No
+name: Salsa Cubana - Timba Party
+star:
+  count: 0
+  list: {}
+instagram: {}
+online: No
+promotion: ""
+startDate: 1731528000000
+commentsCount: 0
+international: No
+description: The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great
+  dancers you know from our parties with cool drinks to fair prices in an
+  amazing atmosphere.
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F84c10bc6-2708-42c6-b8df-565d42db9bc5?alt=media&token=7055a670-aa03-4910-8ef2-35f28c8d7b2b
+promotionError: ""
+telegram: {}
+watch:
+  count: 0
+  list: {}
+promo: ""
+facebookId: ""
+styles:
+  Salsa:
+    level: Interested
+    selected: true
+    highlighted: false
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+socialCover: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+upVotes: 0
+eventType: Party
+specialOffer: ""
+votes: 0
+visibility: Public
+type: event
+price: FREE
+hash: 1704916800000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+venue:
+  html_attributions: []
+  url: https://maps.google.com/?cid=2237208673933871066
+  name: The KULT TANZSCHULE in ADTV
+  geometry:
+    location:
+      lng: 11.5703078
+      lat: 48.1382762
+    viewport:
+      east: 11.5718683302915
+      north: 48.1399034302915
+      west: 11.5691703697085
+      south: 48.1372054697085
+  address_components:
+    - types:
+        - street_number
+      long_name: 15A
+      short_name: 15A
+    - types:
+        - route
+      long_name: Neuhauser Straße
+      short_name: Neuhauser Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - long_name: München
+      types:
+        - locality
+        - political
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - long_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+    - long_name: Bayern
+      types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+    - short_name: DE
+      types:
+        - country
+        - political
+      long_name: Germany
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  website: http://www.kult-tanzschule.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  international_phone_number: +49 89 44313886
+confirmation: You are on the guest list. Pay at the door.
+claimed: No
+duration: "180"
+checkin:
+  count: 0
+  list: {}
+artists: []
+artistsList: []
+updatedAt: 1731487987336
+viewsCount: 4

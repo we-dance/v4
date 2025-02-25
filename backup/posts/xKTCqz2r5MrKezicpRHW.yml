@@ -1,0 +1,136 @@
+venue:
+  formatted_address: Landwehrstraße 58, 80336 München, Germany
+  website: https://www.instagram.com/arkadien1988/
+  name: Arkadi
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5577719802915
+      south: 48.1350979697085
+      north: 48.1377959302915
+      west: 11.5550740197085
+    location:
+      lng: 11.556411
+      lat: 48.136531
+  address_components:
+    - types:
+        - street_number
+      short_name: "58"
+      long_name: "58"
+    - types:
+        - route
+      short_name: Landwehrstraße
+      long_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  url: https://maps.google.com/?cid=13651077529923448533
+  place_id: ChIJc4C5H1bfnUcR1W5n3K9ecr0
+  international_phone_number: +49 89 5328150
+endDate: 2023-01-13T22:30
+claimed: No
+link: https://www.santana-dance.de/event/salsa-preparty/
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F83836166-c145-4ff3-b3e6-3965d70a27b6?alt=media&token=3107a0d9-a185-4bb8-bd3a-a201eecb4a2f
+promo: ""
+createdAt: 1673630139659
+artists: []
+price: FREE
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1673630139659
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/SantanaDanceClub
+  name: SantanaDance
+  bio: |
+    SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+  id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+  instagram: https://instagram.com/santana_dance
+  username: SantanaDance
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Salsa Pre-Party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-13T21:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxKTCqz2r5MrKezicpRHW.png?generation=1673630186016285&alt=media
+telegram:
+  requestedAt: 1673630209981
+  messageUrl: https://t.me/WeDanceMunich/786
+  publishedAt: 1673630215313
+  messageId: 786
+  state: published
+description: >-
+  Buena Vista Social Club Live Band 🎤
+
+  Mit Luis Frank
+
+
+  Join [Magic Mike Bootcamp](https://wedance.vip/events/jAXNGExtYAdGpUlek64I) on 14th January!
+id: xKTCqz2r5MrKezicpRHW
+star:
+  count: 1
+  list:
+    alexrazbakov: true
+instagram:
+  requestedAt: 1673630218188
+  state: published
+  messageUrl: https://instagram.com/p/CnXQq5OJU1H
+  publishedAt: 1673630286342
+  messageId: CnXQq5OJU1H
+viewsCount: 21

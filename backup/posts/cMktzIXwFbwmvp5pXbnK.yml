@@ -1,0 +1,172 @@
+venue:
+  formatted_address: Am Bavariapark 5, 80339 München, Germany
+  website: https://www.deutsches-museum.de/verkehrszentrum/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "5"
+      short_name: "5"
+    - types:
+        - route
+      long_name: Am Bavariapark
+      short_name: Am Bavariapark
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  url: https://maps.google.com/?cid=17888041464318074900
+  name: Deutsches Museum Verkehrszentrum
+  geometry:
+    viewport:
+      south: 48.1308411697085
+      north: 48.1335391302915
+      east: 11.54421105
+      west: 11.54137245
+    location:
+      lng: 11.5421352
+      lat: 48.1325951
+  place_id: ChIJLZsxWKvYnUcRFCAj2O8WP_g
+  international_phone_number: +49 89 2179333
+endDate: 2021-08-14T23:00:00.000Z
+description: Schneckenplatz
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F48d3788a-45d6-4ab8-94e0-836e20337870?alt=media&token=24948a3c-299c-4ebb-a4b0-dd76e2cfdae3
+createdAt: 1628953092803
+watchersCount: 0
+price: FREE
+commentsLast: ~
+id: cMktzIXwFbwmvp5pXbnK
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1628953092803
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Bachata Sensual Party
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    selected: true
+  Tarraxinha:
+    level: Interested
+    selected: true
+  Kuduru:
+    level: Interested
+    selected: true
+  Timba:
+    level: Interested
+    selected: true
+  RumbaYambu:
+    level: Interested
+    selected: true
+  BachataModerna:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    selected: true
+  Mambo:
+    level: Interested
+    selected: true
+  Salsaton:
+    level: Interested
+    selected: true
+  SalsaCalena:
+    level: Interested
+    selected: true
+  RumbaColumbia:
+    level: Interested
+    selected: true
+  Merengue:
+    level: Interested
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  Kizomba:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+  Son:
+    level: Interested
+    selected: true
+  Lambada:
+    level: Interested
+    selected: true
+  Cubaton:
+    level: Interested
+    selected: true
+  Semba:
+    level: Interested
+    selected: true
+  Bachatango:
+    level: Interested
+    selected: true
+  RuedaDeCasino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-14T18:00:00.000Z
+username: Vitali
+viewsCount: 74

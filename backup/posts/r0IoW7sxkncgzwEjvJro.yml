@@ -1,0 +1,143 @@
+createdAt: 1704822885851
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/230292273251473/
+source: facebook
+updatedAt: 1704822885851
+username: wedancebot
+venue:
+  formatted_address: Austraße 21, 6200 Jenbach, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Salsa on the Beach
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.7808614197085
+        lat: 47.3870191197085
+      northeast:
+        lng: 11.7835593802915
+        lat: 47.3897170802915
+    location:
+      lng: 11.7821727
+      lat: 47.3884781
+  address_components:
+    - types:
+        - street_number
+      short_name: "21"
+      long_name: "21"
+    - types:
+        - route
+      short_name: Austraße
+      long_name: Austraße
+    - types:
+        - locality
+        - political
+      short_name: Jenbach
+      long_name: Jenbach
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaz
+      long_name: Schwaz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Tirol
+      long_name: Tirol
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "6200"
+      long_name: "6200"
+  international_phone_number: +43 5244 20625
+  place_id: ChIJzb7adgzWd0cRWG2mDtW34ho
+  url: https://maps.google.com/?cid=1937312915424439640
+visibility: Public
+endDate: 1715529600000
+org:
+  owner: ""
+  importedAt: 1704822889140
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsaonthebeach
+  photo: https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/302095681_491654889633818_8837401464824705437_n.png?stp=cp0_dst-png_p40x40&_nc_cat=111&ccb=1-7&_nc_sid=596444&_nc_ohc=4DnxRC3u6QIAX_Ilsvu&_nc_ht=scontent-lga3-2.xx&oh=00_AfCZz3euYfctyXNMChh2nkI-LKea6LvyiCnVYKXe7_zjfg&oe=65A32E2D
+  source: facebook
+  type: Organiser
+  createdAt: 1704822889140
+  owned: false
+  name: Salsa on the Beach
+  place: ChIJhUbk2-HVd0cR9nj_pyK5r0k
+  updatedAt: 1704822889140
+  username: salsaonthebeach
+claimed: No
+facebookId: "230292273251473"
+link: ""
+description: >-
+  Bereits zum 19. Mal findet von Freitag, 10. bis Sonntag, 12. Mai 2024 mit
+  „Salsa on the Beach“ eines der exklusivsten Tanz-Events auch 2024 wieder im
+  **** Bibione Palace Spa Hotel in Bibione, Italien statt.
+
+
+  Es erwartet dich mit einer weiteren Sensual Edition wieder etwas ganz Besonderes! Eine unvergleichbare und hochkarätige Kombination aus Urlaubs-Feeling, Relaxen, Workshops, Partys und „Träumen mit den Füßen“. Der Schwerpunkt beim kommenden Event liegt auf Bachata, Kizomba, Salsa Romantica und weiteren neuen Workshops. Aber natürlich kommen auch Fans von Rueda, Salsa & Co in Bibione nicht zu kurz!
+
+
+  In den letzten Jahren hat es sich vor allem in Österreich, Deutschland und der Schweiz herumgesprochen: „Dieses Event sollte man einfach nicht versäumen“. Jahr für Jahr erleben unsere begeisterten Teilnehmer ein abwechslungsreiches Wochenende mit vielen Tanz-Workshops, Partys und ausgelassener Stimmung. Die Kombination aus Urlaubsfeeling, Workshops und Partys in einem der wohl schönsten Hotels der Oberen Adria ist in ihrer Art absolut einzigartig.
+
+
+  Bei "Salsa on the Beach" wird nichts dem Zufall überlassen: Professionalität bei der Organisation, Workshops mit den beliebtesten Tanzlehrern, Latin-Sound mit Top-DJs, ein modernes Traumhotel und kulinarische Leckerbissen sind Garant für ein rundum gelungenes Event.
+
+
+  https://www.salsaonthebeach.at/
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa on the Beach
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Modern:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJhUbk2-HVd0cR9nj_pyK5r0k
+international: No
+hash: 1715335200000+ChIJzb7adgzWd0cRWG2mDtW34ho
+startDate: 1715335200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fr0IoW7sxkncgzwEjvJro.png?generation=1704822916408901&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853574/vzjcir4gsdkymyzsmyew.jpg
+viewsCount: 19
+id: r0IoW7sxkncgzwEjvJro

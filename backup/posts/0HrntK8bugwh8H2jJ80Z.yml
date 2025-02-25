@@ -1,0 +1,123 @@
+createdAt: 1704822876902
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/593321039433776/
+source: facebook
+updatedAt: 1704822876902
+username: wedancebot
+venue:
+  formatted_address: Huzares 113, Zona Lunes Feb 09, Centro, 68000 Oaxaca de Juárez, Oax., Mexico
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Club de salsa social SON MONTUNO
+  geometry:
+    viewport:
+      southwest:
+        lng: -96.73378293029151
+        lat: 17.0611204697085
+      northeast:
+        lng: -96.7310849697085
+        lat: 17.0638184302915
+    location:
+      lng: -96.7324421
+      lat: 17.0624347
+  address_components:
+    - types:
+        - street_number
+      short_name: "113"
+      long_name: "113"
+    - types:
+        - route
+      short_name: Huzares
+      long_name: Huzares
+    - types:
+        - neighborhood
+        - political
+      short_name: Zona Lunes Feb 09
+      long_name: Zona Lunes Feb 09
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Centro
+      long_name: Centro
+    - types:
+        - locality
+        - political
+      short_name: Oaxaca de Juárez
+      long_name: Oaxaca de Juárez
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Oax.
+      long_name: Oaxaca
+    - types:
+        - country
+        - political
+      short_name: MX
+      long_name: Mexico
+    - types:
+        - postal_code
+      short_name: "68000"
+      long_name: "68000"
+  international_phone_number: +52 951 214 2511
+  place_id: ChIJM4-4D58jx4URX1CS9oqaCdI
+  url: https://maps.google.com/?cid=15134797944388210783
+visibility: Public
+endDate: 1710741540000
+org:
+  owner: ""
+  importedAt: 1704822880599
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/OAXACASALSAYBACHATAFESTIVAL
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/342935529_774542017521396_6224118235778445304_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=105&ccb=1-7&_nc_sid=596444&_nc_ohc=pEsb31qqMPIAX9nnYKj&_nc_ht=scontent-iad3-2.xx&oh=00_AfA9Ilg9poXgqOpy-gmTTrFn_3ngaHsHxSkql7seYNoe3A&oe=65A310EA
+  source: facebook
+  type: Organiser
+  createdAt: 1704822880599
+  owned: false
+  name: Oaxaca Salsa & Bachata Paramount Cup
+  updatedAt: 1704822880599
+  username: OAXACASALSAYBACHATAFESTIVAL
+claimed: No
+facebookId: "593321039433776"
+link: ""
+description: Decimo Aniversario del Campeonato 🏆 y Congreso Internacional de
+  Bailes Latinos🕺💃, Oaxaca Salsa & Bachata Paramount Cup, La Capital Salseda
+  de México🇲🇽.
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Oaxaca Salsa & Bachata Paramount Cup 2024
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJEcQsxWoix4URNUTTyLaH0dY
+international: No
+hash: 1710338400000+ChIJM4-4D58jx4URX1CS9oqaCdI
+startDate: 1710338400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0HrntK8bugwh8H2jJ80Z.png?generation=1704822902281568&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851487/vu3gu5borngjv7pdwsrd.jpg
+star:
+  count: 1
+  usernames:
+    - Sosa
+viewsCount: 57
+id: 0HrntK8bugwh8H2jJ80Z

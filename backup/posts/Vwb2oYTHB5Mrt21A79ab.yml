@@ -1,0 +1,147 @@
+endDate: 1720310400000
+sourceUrl: https://www.facebook.com/events/795467919424771
+createdAt: 1719842426459
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1719823920000
+updatedAt: 1719842426459
+importedAt: 1719842426459
+providerUpdatedAt: 1719823920000
+facebookId: "795467919424771"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/795467919424771
+eventType: Party
+providerItemId: 10009107-1720224000-1720310399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Budaörs Városi Uszoda Sportcsarnok és Strand, Hársfa utca 6., 2040,
+  Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720224000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budaörs, Hársfa u. 6, 2040 Hungary
+  website: http://bvuss.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Budaörs Városi Uszoda Sportcsarnok és Strand
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.96843921970849
+        lat: 47.45469001970849
+      northeast:
+        lng: 18.9711371802915
+        lat: 47.45738798029149
+    location:
+      lng: 18.9694583
+      lat: 47.4559806
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Hársfa u.
+      long_name: Hársfa utca
+    - types:
+        - locality
+        - political
+      short_name: Budaörs
+      long_name: Budaörs
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2040"
+      long_name: "2040"
+  international_phone_number: +36 23 428 026
+  place_id: ChIJGfYx0hjeQUcR0TBhSDmE-qg
+  url: https://maps.google.com/?cid=12176189924111888593
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719842451423
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsaclubazucar
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719842452/vy01t2byulzm2jdeh0hc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719842451423
+  owned: false
+  name: Salsa Club Azucar
+  place: ChIJtQUjHX_gQUcRgB4eDCnEAAQ
+  updatedAt: 1719842451423
+  username: salsaclubazucar
+claimed: No
+facebook: https://www.facebook.com/events/795467919424771/
+link: ""
+description: >-
+  ☀️☀️☀️ Szabadtéri STRAND SALSA & Bachata MEDENCÉS party a  Budaörs Városi
+  Uszoda és Strand -on a Salsa Club Azucar és a Carmen Dance tánciskolával!
+  🏖️☀️
+
+
+  💛2024. 07. 06 szombaton szeretettel várjuk a salsa, bachata és cha-cha-cha táncok kedvelőit 20:00-00:00-ig tartandó szabadtéri bulira Budaörsre! 🏝️💃
+
+  A szabad tánc mellett vezetett ruedák is lesznek!🕺💃
+
+
+  🕺 A buli a medencék partján lévő bár előtti nagy területen lesz. Lehet jönni rendes utcai ruhában is.  A buli közben / alatt felfrissülésnek lehet fürödni, úszni vagy akár táncolni is a medencékben.
+
+
+  ⛱️ Helyszín: Budaörs Városi Uszoda Sportcsarnok és Strand (BVUSS)
+
+  📀 Zene: Azucar (salsa és bachata mega slágerek)
+
+  🕺 Rueda (Animáció): Papp Zoli & Évi
+
+  🏝️ Belépő: 4950 Ft / fő 
+
+  ⛱️ Az ár tartalmazza: 
+
+  🍹 Wellcome drink
+
+  🏊‍♂️🤽‍♀️ Összes szabadtéri medence használata, 
+
+  💃 Salsa & Bachata szabadtéri party. 🏝️
+
+
+  🧢 Dress code:  Strand ruha, fürdő ruha, beach nadrág........stb
+
+  ☀️ Érdemes a szép időt kihasználni 🏖️☀️
+
+  🏖️ Várunk Mindenki szeretettel 💛 ☀️
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719842453/iaqiaz8yosfu66o7nbjv.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 🏖️☀️ STRAND Salsa & Bachata MEDENCÉS Party 🏝️🕺
+online: No
+place: ChIJtQUjHX_gQUcRgB4eDCnEAAQ
+international: No
+hash: 1720288800000+ChIJGfYx0hjeQUcR0TBhSDmE-qg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVwb2oYTHB5Mrt21A79ab.png?generation=1719842469766961&alt=media
+viewsCount: 1
+id: Vwb2oYTHB5Mrt21A79ab

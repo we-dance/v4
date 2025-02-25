@@ -1,0 +1,163 @@
+venue:
+  formatted_address: Atelierstraße 12, 81671 München, Germany
+  website: https://g3club.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: G3 Club & Lounge
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6072323302915
+      south: 48.1237160197085
+      north: 48.12641398029149
+      west: 11.6045343697085
+    location:
+      lng: 11.6057904
+      lat: 48.1250064
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Atelierstraße
+      long_name: Atelierstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  international_phone_number: +49 160 4440955
+  place_id: ChIJS1nYJe3fnUcRF_TlQ92eDjE
+  url: https://maps.google.com/?cid=3534937430696522775
+endDate: 2023-04-15T05:00
+claimed: No
+description: >-
+  MUNICH DE JANEIRO 
+
+  + Sertanejo 🤠
+
+
+  > Freitag, 14. April <
+
+  Ort: G3 Club Werksviertel München
+
+  Start: 22 Uhr | Eintritt: 12€
+
+
+  Livemusik mit Vando Oliveira & Band, Sertanejo mit Leverson Solo und alle Genres mit DJ Vivi ✨
+
+
+  😎🥂💃🇩🇪🇧🇷🎉
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6jZHQZLbDpbhLlWpT8sYOPFQvMi1%2Fb3349e8b-9209-47a4-839f-ac51af8f5e65?alt=media&token=0cd566c7-2619-4f8b-9d77-d52126ef39f1
+createdAt: 1680281520047
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Vando Oliveira
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F00899c0d-257d-4353-acc9-667b3fa0bc18?alt=media&token=354f7004-e9ca-49f7-a22d-9b1e879acd27
+    bio: |-
+      Conta oficial
+      Sou brazuca/RJ - Moro na Alemanha 🇩🇪
+      Embaixador do Samba na Alemanha
+      Cantor:
+      Samba, MPB, Pagode e por aí 🎶🎤
+      💍❤️
+      🇧🇷🌍
+      Um dia de cada vez
+    id: CTDDKogIv5UZnf1Hz3CU
+    instagram: https://instagram.com/vandooliveiraoficial
+    username: vandooliveiraoficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Viviane Silveira
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F486df0fe-29d0-463d-b477-f19e7e7ecb1e?alt=media&token=9ce6dd0b-645d-4bed-968d-49ecd828e612
+    bio: Na minha vida só quero o que for verdadeiro !Se não for somar por favor
+      suma .Seja honesto(a) . Lembrando que o mundo não gira ele capota .😉♌🦁💋
+    id: qmurdo5FCfnjZ5GnUJx0
+    instagram: https://instagram.com/mcviviboop
+    username: mcviviboop
+  - instagram: https://instagram.com/leverson_solo
+    username: leverson_solo
+price: 12 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - vandooliveiraoficial
+  - mcviviboop
+  - leverson_solo
+international: Yes
+updatedAt: 1680281520047
+updatedBy: 6jZHQZLbDpbhLlWpT8sYOPFQvMi1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Munich de Janeiro
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdqWFaPAUCVb3UV6nSaTYZiQI6tR2%2F4ae2b466-5e22-4bd0-a199-044305bb828c?alt=media&token=b08a1797-0e6b-42cd-b2d5-a054d5f29793
+  bio: ""
+  id: dqWFaPAUCVb3UV6nSaTYZiQI6tR2
+  instagram: ""
+  username: MunichDeJaneiro
+facebook: https://facebook.com/events/s/munich-de-janeiro-sertanejo/555864853315623/
+eventType: Party
+form: No
+createdBy: 6jZHQZLbDpbhLlWpT8sYOPFQvMi1
+watch:
+  count: 1
+  list:
+    caliente.nights: true
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  FunkCarioca:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-14T22:00
+username: caliente.nights
+name: MUNICH DE JANEIRO - Festa Brasileira
+id: DmOP2GOqz1PGORXGgEhI
+viewsCount: 15

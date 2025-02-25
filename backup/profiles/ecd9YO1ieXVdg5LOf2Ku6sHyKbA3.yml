@@ -1,0 +1,54 @@
+community: Munich
+createdBy: ecd9YO1ieXVdg5LOf2Ku6sHyKbA3
+createdAt: 1600856233542
+name: Daniel
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fecd9YO1ieXVdg5LOf2Ku6sHyKbA3%2F4203eba2-654d-4edd-8607-35f51df1d916?alt=media&token=0f202097-b852-4bc1-9212-141b5d17f8c3
+step: photo
+partner: Yes
+newsletter:
+  festival: true
+  party: true
+teacher: Yes
+languages: German, Spanish, English
+bio: "You are looking for a Kizomba dance partner? Please feel free to contact me. "
+weight: "76"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+location:
+  country: Germany
+  locality: Munich
+  label: Munich
+height: "181"
+story: "My dance story: https://taxi-dancer.net/"
+username: DanielKizomba
+visibility: Public
+learning: Kizomba y Zouk
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+locales:
+  de: true
+  en: true
+  es: true
+lastLoginAt: 1603190815688
+language: de
+daysUsed: 2
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617064579608
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FDanielKizomba.png?generation=1621357128219604&alt=media
+styles:
+  Kizomba:
+    level: Advanced
+    selected: true
+  BrazilianZouk:
+    level: Intermediate
+    selected: true
+viewsCount: 87
+id: ecd9YO1ieXVdg5LOf2Ku6sHyKbA3

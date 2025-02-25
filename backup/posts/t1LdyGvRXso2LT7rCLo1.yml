@@ -1,0 +1,203 @@
+endDate: 1719010800000
+sourceUrl: https://www.facebook.com/events/1600190477405150/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713210146000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1713448371000
+facebookId: "1600190477405150"
+facebook: https://www.facebook.com/events/1600190477405150/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1600190477405150/
+eventType: Workshop
+providerItemId: e1600190477405150@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Latin Foyer, Bigger & Better
+location: De Meenthe
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718992800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Stationsplein 1, 8331 GM Steenwijk, Netherlands
+  website: https://www.demeenthe.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Rabotheater The Meenthe
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.113950269708496
+        lat: 52.7888601697085
+      northeast:
+        lng: 6.116648230291501
+        lat: 52.79155813029149
+    location:
+      lng: 6.115390299999999
+      lat: 52.79011149999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Stationsplein
+      long_name: Stationsplein
+    - types:
+        - locality
+        - political
+      short_name: Steenwijk
+      long_name: Steenwijk
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Steenwijkerland
+      long_name: Steenwijkerland
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: OV
+      long_name: Overijssel
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 8331 GM
+      long_name: 8331 GM
+  international_phone_number: +31 521 514 004
+  place_id: ChIJfSwghsduyEcR12KpSFOvDIE
+  url: https://maps.google.com/?cid=9299000102849438423
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444468576
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Latin-Foyer/100089337025761/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444468/bes8fddqabalpmi4syqn.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444468576
+  owned: false
+  name: Latin Foyer
+  place: ChIJVY8y-LduyEcRSaNmuXIx2q4
+  updatedAt: 1715444468576
+  username: LatinFoyer
+claimed: No
+link: ""
+description: >-
+  LATIN FOYER is terug en beter dan ooit op een schitterende nieuwe locatie,
+  Theater De Meenthe in Steenwijk!
+
+
+  Met maar liefst 3 dance areas gevuld met de heetste salsa, sensuele bachata en opzwepende kizomba beloven we je een avond vol passie en ritme. De ideale plek om je weekend te starten!
+
+
+  Wat kan je verwachten van Latin Foyer?
+
+
+  Als eerst 3 prachtige en sfeervolle dance areas:
+
+  ▪︎ De Foyer: Bachata 100% (een heerlijke mix van dominican, moderna en sensual)
+
+  ▪︎ De Theaterzaal: Salsa 100%
+
+  ▪︎ De Balletzaal: Kizomba 100%
+
+
+  Een geweldige Line-up:
+
+  ▪︎ DJ Bripa (bachata area)
+
+  ▪︎ DJ Toni (salsa area)
+
+  ▪︎ DJ Jessie Santos (kizomba area)
+
+  ▪︎ DJ Curtley Jeandor (onze geweldige vaste SBK DJ)
+
+
+  Workshops van de beste dansscholen in Nederland:
+
+  ☆ 20:15 uur: Workshop bachata sensual van Sakis & Mia (Bachata Romantica, Den Haag)
+
+   ☆ 20:15 uur: Workshop urban kiz van Endos & Nien (Elevate your Kiz, Rotterdam)
+
+  Natuurlijk kan een geweldige show tijdens de opening van deze nieuwe danslocatie niet ontbreken!
+
+  ☆ 23:00 uur: Showteam Bachata Romantica
+
+
+  Divalicious Musthaves is weer aanwezig met hun shoestand. Grijp je kans en scoor een paar comfortabele exclusieve dansschoenen.
+
+
+  Fotografie: 
+
+  Victor Reinier
+
+
+  Overige faciliteiten:
+
+  ▪︎ Mooie houten dansvloeren
+
+  ▪︎ Airco
+
+  ▪︎ Uitstekend geluid
+
+  ▪︎ Gratis garderobe
+
+  ▪︎ Gratis parkeergelegenheid op eigen terrein
+
+  ▪︎ Goed bereikbaar met het OV (tegenover het treinstation)
+
+  ▪︎ Good vibes only
+
+
+  Latin Foyer zal plaatsvinden bij Theater de Meenthe. Het adres is Stationsstraat 1, Steenwijk. 
+
+
+  De deuren gaan open om 20:00 uur. 
+
+
+  Tickets:
+
+  €15,00 (exclusief transactie- reserveringskosten)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444470/zj2nu0vnxazofvgjw6yl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJVY8y-LduyEcRSaNmuXIx2q4
+international: No
+hash: 1718992800000+ChIJfSwghsduyEcR12KpSFOvDIE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Ft1LdyGvRXso2LT7rCLo1.png?generation=1715444483588689&alt=media
+id: t1LdyGvRXso2LT7rCLo1

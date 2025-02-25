@@ -1,0 +1,36 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621504895431
+locales:
+  en: true
+createdBy: fvO5oGdbI1fiBKWOFBNMtIIr5sC3
+name: LILANY
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: LILANY
+pwaUsed: false
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+updatedAt: 1621504929598
+lastLoginAt: 1622804267161
+daysUsed: 2
+gender: Female
+bio: "Hi everyone, I dance both, cuban and LA style salsa. I used to be at
+  advanced level but had a few years break. Also enjoy Rueda and bachata
+
+  \ "
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+viewsCount: 46
+id: fvO5oGdbI1fiBKWOFBNMtIIr5sC3

@@ -1,0 +1,229 @@
+venue:
+  formatted_address: Hans-Sachs-Straße 8, 76133 Karlsruhe, Germany
+  website: http://tanzgeist-karlsruhe.de/
+  name: Tanzgeist-Karlsruhe
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.387455730291501
+      south: 49.0069415197085
+      north: 49.0096394802915
+      west: 8.384757769708497
+    location:
+      lng: 8.3859449
+      lat: 49.0079947
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Sachs-Straße
+      long_name: Hans-Sachs-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Weststadt
+      long_name: Weststadt
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76133"
+      long_name: "76133"
+  international_phone_number: +49 721 96318105
+  place_id: ChIJc-Tfa1gGl0cRO1C6yGx8hCQ
+  url: https://maps.google.com/?cid=2631364888957177915
+endDate: 2023-02-26T02:30
+claimed: No
+instagram: {}
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1675177584610
+price: 8 EUR
+commentsLast:
+  createdAt: 1674389226319
+  updatedBy: FXUDlpG4ORTSKHFXD9Vn1axsCGp2
+  createdBy: FXUDlpG4ORTSKHFXD9Vn1axsCGp2
+  commentId: ""
+  postId: GZ7yY22gBgslbAl8EJiz
+  body: Hallo, ich möchte fragen, ob ich am Samstag unbedingt für Workshops
+    Tanzpartner brauche? Danke.
+  username: Zydrone
+  updatedAt: 1674389226319
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+updatedAt: 1675177584610
+updatedBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/itsstreetparty
+  name: socialdance
+  bio: "Helping people meet by organizing social events
+
+
+    \ "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2F663ed559-5b51-436e-b43e-a25d9d0de48a?alt=media&token=87ec95d0-2ff8-4a20-8f10-3608c28a3fea
+  id: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+  instagram: https://instagram.com/itsstreetparty
+  username: socialdance
+upVotes: 0
+eventType: Other
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+commentsCount: 0
+name: SOCIAL
+online: No
+votes: 0
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-25T20:00
+username: socialdance
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2Fc6a144f8-01c9-46aa-a496-4a6cd9b3ae41?alt=media&token=c341fe87-9883-45cc-a449-e183a2118de9
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: J O H A N N A
+    bio: |-
+      ॐ
+      🐾 Mia 
+      💃🏽 Salsa • Bachata • Kizomba
+      🎓 B. Sc. International Management
+      📍 Stuttgart, Germany
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fjohanna.bailarina.png?generation=1667834003469619&alt=media
+    id: n1ezGMzTQfWVrwBF9L7C
+    instagram: https://instagram.com/johanna.bailarina
+    username: johanna.bailarina
+  - instagram: https://instagram.com/jorgeluismendezbenitez2022
+    username: jorgeluismendezbenitez2022
+  - instagram: https://instagram.com/enes.ceric
+    username: enes.ceric
+  - instagram: https://instagram.com/ceric.enes
+    username: ceric.enes
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 𝓙𝓮𝓷𝓷𝔂 𝓜𝓮𝓷𝓭𝓲𝓿𝓮𝓵𝓼𝓸 💃🏽
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fjennyaleh.png?generation=1655307272956566&alt=media
+    bio: WELCOME TO MY LIFE♥💃 🇨🇴 🇩🇪
+    id: eoRElrpY57R447dfSdYP
+    instagram: https://instagram.com/jennyaleh
+    username: jennyaleh
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Carsten
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fhs0KQPTYCkedtP0mUbPVsggxrJs2%2Fb623fc79-5548-423a-af0c-6d7e0d777634?alt=media&token=87a183db-ec02-4022-a9f4-61f04056127b
+    bio: ""
+    id: hs0KQPTYCkedtP0mUbPVsggxrJs2
+    instagram: https://www.instagram.com/carsten_dancer/
+    username: Carsten_Dancer
+  - instagram: https://instagram.com/encanto_salsero
+    username: encanto_salsero
+  - instagram: https://instagram.com/valudancer07
+    username: valudancer07
+  - instagram: https://instagram.com/anasofimc
+    username: anasofimc
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "Laura Camila "
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FPncr6lusUHZc7eYZTjH3HPiZjuz2%2F92ee92f7-cab2-431e-811c-32df0aed84fa?alt=media&token=8e01ef21-30f0-4943-8f9a-20bdb8044d7f
+    id: Pncr6lusUHZc7eYZTjH3HPiZjuz2
+    instagram: ""
+    username: LauraCamilart
+  - instagram: https://instagram.com/cristhiampul
+    username: cristhiampul
+  - instagram: https://instagram.com/tato_eslava
+    username: tato_eslava
+  - instagram: https://instagram.com/nicolayev_felice
+    username: nicolayev_felice
+  - instagram: https://instagram.com/dani09torres
+    username: dani09torres
+socialCover: ""
+telegram: {}
+artistsList:
+  - johanna.bailarina
+  - jorgeluismendezbenitez2022
+  - enes.ceric
+  - ceric.enes
+  - jennyaleh
+  - Carsten_Dancer
+  - encanto_salsero
+  - valudancer07
+  - anasofimc
+  - LauraCamilart
+  - cristhiampul
+  - tato_eslava
+  - nicolayev_felice
+  - dani09torres
+id: Reh7pcKOIu0vDFunJv8j
+program: []
+description: |+
+  ## Event Schedule  
+    
+  - 7.45pm Admission
+  - 8.00pm Cuban workshop by Johanna and Jorge
+  - 9.00pm Bachata workshop by Enes and Julia
+  - 10.00pm Salsa Floor DJ Gerardo from Pforzheim
+  - 10.00pm Bachata Floor DJ Jua from Heidelberg.
+  - 11.45pm Gig by Encanto Salsero Jenny and Carsten Colombian Salsa group
+
+  ## Entry fee
+  - 8 euro social
+  - 6 euro per workshop additionally
+
+  ## Student fee with valid ID
+  - 5 euro social
+  - 5 euro per workshop additionally
+
+  ## Address
+
+  Hans-Sachs-Str. 8, Karlsruhe,Germany
+
+viewsCount: 203

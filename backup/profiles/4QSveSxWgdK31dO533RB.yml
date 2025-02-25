@@ -1,0 +1,19 @@
+createdAt: 1731053948452
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: royma_sabordecuba
+owned: false
+owner: ""
+visibility: Public
+instagram: https://instagram.com/royma_sabordecuba
+viewsCount: 1
+offers: []
+gender: Female
+team: []
+id: 4QSveSxWgdK31dO533RB
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+type: Artist
+updatedAt: 1731054111480
+import: failed
+importError: GET /api/v1/users/royma_sabordecuba/usernameinfo/ - 400 Bad
+  Request; challenge_required

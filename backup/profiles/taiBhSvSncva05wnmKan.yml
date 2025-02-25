@@ -1,0 +1,30 @@
+owner: ""
+createdAt: 1669150682318
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+instagram: https://instagram.com/nsalsalatinband
+username: nsalsalatinband
+updatedAt: 1669150682318
+import: failed
+importError: Navigation timeout of 30000 ms exceeded
+id: taiBhSvSncva05wnmKan
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+partner: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F9b341510-c636-4996-a34b-5b4707bffc29?alt=media&token=d4cdcff8-de1b-4c09-8376-57ffb1958020
+name: N'Salsa Latin Band
+objectives:
+  project: true
+type: Artist
+viewsCount: 114
+watch:
+  count: 1
+  usernames:
+    - alexrazbakov
+  history:
+    - username: alexrazbakov
+      date: 1727960430270
+      invitedBy: taiBhSvSncva05wnmKan
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined

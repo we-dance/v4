@@ -1,0 +1,108 @@
+timezone: GMT+0100
+createdAt: 1636424853408
+createdBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+name: Carlos
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Carlos
+pwaUsed: false
+gender: Male
+visibility: Public
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2F6fb9415f-775b-43a3-9ab5-7eead510f8d0?alt=media&token=d1f4d624-42ff-4b1e-8b3e-5b8c854a916b
+permission: Yes
+styles:
+  SalsaNewYork:
+    level: Advanced
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  VienneseWaltz:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Timba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  ChaChaCha:
+    level: Advanced
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Pachanga:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Son:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Moonwalk:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachatango:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Advanced
+    highlighted: false
+    selected: true
+locales:
+  de: true
+  en: true
+  fr: true
+  es: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+partner: ""
+id: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+type: Artist
+cities:
+  ChIJD6T1BArfXpERs4pFtHb821c: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+contacts: No
+bannerNps: no
+bannerV3Beta: no
+updatedAt: 1654594321482
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+hometown: ChIJD6T1BArfXpERs4pFtHb821c
+reviews: []
+bio: "Check out my new Dance School LazarteDanceAcademy.de "
+team: []
+lastLoginAt: 1704896324502
+daysUsed: 51
+viewsCount: 103

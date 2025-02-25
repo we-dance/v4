@@ -1,0 +1,104 @@
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "3"
+      short_name: "3"
+    - types:
+        - route
+      long_name: Am Schützeneck
+      short_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Pasing-Obermenzing
+      short_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81241"
+      short_name: "81241"
+  url: https://maps.google.com/?cid=8948474523406618165
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  geometry:
+    viewport:
+      south: 48.1464650697085
+      north: 48.1491630302915
+      east: 11.4637166802915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  international_phone_number: +49 89 17929039
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+endDate: 2022-03-07T20:45
+claimed: No
+link: https://salsamas-pasing.de/de/course/details/348
+description: Der Schwerpunkt in dieser Stufe liegt auf Verbesserung der
+  Drehtechnik für Frauen und Männer, Verfeinerung der Führung der Männer und
+  Ausbau der Grundfiguren. Der Inhalt ist für den erfolgreichen Aufbau Ihrer
+  zukünftigen Salsa- Repertoire wichtig. In diesem Kurs wird eine gewisse
+  Sicherheit in den Basics und Verständnis der Salsa-Musik vorausgesetzt.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F7c909af5-8d98-43e8-a950-6d63f4eada3e?alt=media&token=f6fa1035-b64f-453f-805d-cb1ab21c0ce3
+duration: custom
+createdAt: 1646049698784
+artists: []
+price: "Einzelanmeldung: 79 € p. Person (4x 75 Min.) / Studenten: 69 € p. Person"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646049698784
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: Salsa Mittelstufe I
+online: Yes
+styles:
+  SalsaLA:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2022-03-07T19:30
+username: Salsamas_Munich
+viewsCount: 4
+id: aYEbIvydC6B99YketZm6

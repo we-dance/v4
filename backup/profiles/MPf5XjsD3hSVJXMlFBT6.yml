@@ -1,0 +1,75 @@
+createdAt: 1718779939678
+website: https://www.saengerhalle-stuttgart.de/
+rooms: ""
+address:
+  formatted_address: Lindenschulstraße 29, 70327 Stuttgart, Germany
+  website: https://www.saengerhalle-stuttgart.de/
+  name: Sängerhalle Stuttgart-Untertürkheim
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.248303169708498
+        lat: 48.7755659697085
+      northeast:
+        lng: 9.251001130291503
+        lat: 48.77826393029149
+    location:
+      lng: 9.249750299999999
+      lat: 48.77677589999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Lindenschulstraße
+      long_name: Lindenschulstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Untertürkheim
+      long_name: Untertürkheim
+    - types:
+        - locality
+        - political
+      short_name: Stuttgart
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Stuttgart
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Süd
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "70327"
+      long_name: "70327"
+  url: https://maps.google.com/?cid=6725654103382385715
+  place_id: ChIJoXDXHYnFmUcRM2RB4sVSVl0
+  international_phone_number: +49 1514 7557222
+gender: Other
+phone: +49 1514 7557222
+name: Sängerhalle Stuttgart-Untertürkheim
+updateAt: 1718779939678
+type: Venue
+map: ""
+username: www.saengerhalle-stuttgart.de
+viewsCount: 1
+id: MPf5XjsD3hSVJXMlFBT6

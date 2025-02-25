@@ -1,0 +1,132 @@
+createdAt: 1704430691727
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/275154232224126/
+username: alexrazbakov
+venue:
+  formatted_address: Kolonnenstr. 29, Eingang Gewerbe über, Privatstraße
+    3/Hinterhof 2.Aufgang 1.Etage, 10829 Berlin, Germany
+  website: https://www.mambita.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: La Mambita Salsa Dance School
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.3655600697085
+        lat: 52.4834087697085
+      northeast:
+        lng: 13.3682580302915
+        lat: 52.4861067302915
+    location:
+      lng: 13.36685
+      lat: 52.48443510000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: Hinterhof 2.Aufgang 1.Etage
+      long_name: Hinterhof 2.Aufgang 1.Etage
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Eingang Gewerbe über
+      long_name: Eingang Gewerbe über
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Privatstraße
+      long_name: Privatstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Tempelhof-Schöneberg
+      long_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10829"
+      long_name: "10829"
+  international_phone_number: +49 30 23615779
+  place_id: ChIJSUa_AilQqEcRM3sd4J6lNuU
+  url: https://maps.google.com/?cid=16516570785211317043
+visibility: Public
+claimed: No
+link: ""
+description: |-
+  Salsa Party
+  22:00 – 1:00 Uhr
+
+  Fr. 26.1. 
+  Dj Flori
+
+  Fr. 23.2. 
+  Dj Flori & bettina_lady.mambo
+
+  Eintritt: 7 € 
+  USC check-in + 3 €
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa Party
+online: No
+styles: {}
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+startDate: 1706302800000
+org:
+  owner: ""
+  import: requested
+  visibility: Public
+  owned: false
+  facebook: https://www.facebook.com/people/La-Mambita/61552328349965/
+  name: La Mambita
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/393811510_122105904422077611_6067679008808682859_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=100&ccb=1-7&_nc_sid=596444&_nc_ohc=SPgCq_rRVgsAX-nYEs2&_nc_ht=scontent-iad3-2.xx&oh=00_AfAukbo7W_9txFGbZyW6ZLZ5Rvaj90Vk1-eRpmK5PJ3XeA&oe=659C6E9A
+  place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+  type: Organiser
+  username: LaMambita
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fb6Ux4Su6LmlVuZL5VNkw.png?generation=1704430704483386&alt=media
+facebookId: "275154232224126"
+endDate: .nan
+artistsList: []
+id: b6Ux4Su6LmlVuZL5VNkw
+hash: 1706302800000+ChIJSUa_AilQqEcRM3sd4J6lNuU
+source: facebook
+instagram:
+  messageUrl: https://instagram.com/p/C17iTeRPM0X
+  publishedAt: 1704912262319
+  messageId: C17iTeRPM0X
+  state: published
+promotionError: ""
+promotion: completed
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F9ae344c3-3d6b-468d-9ff2-4b783f5d950a?alt=media&token=69bda01e-8b35-4908-8490-37518e8cd466
+updatedAt: 1706266163867
+viewsCount: 25

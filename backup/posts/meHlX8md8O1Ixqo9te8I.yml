@@ -1,0 +1,231 @@
+venue:
+  formatted_address: Böckhstraße 21, 10967 Berlin, Germany
+  website: http://www.caminada.de/
+  name: La Caminada Tanzstudio
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4210892802915
+      south: 52.49209066970851
+      north: 52.49478863029151
+      west: 13.4183913197085
+    location:
+      lng: 13.4197042
+      lat: 52.49338880000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "21"
+      long_name: "21"
+    - types:
+        - route
+      short_name: Böckhstraße
+      long_name: Böckhstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10967"
+      long_name: "10967"
+  url: https://maps.google.com/?cid=2639942359527432436
+  place_id: ChIJAwhy0ctPqEcR9KAjx5b1oiQ
+  international_phone_number: +49 30 6949744
+endDate: 2023-01-29T16:30
+claimed: No
+link: https://www.instagram.com/p/CnHT6TKo_Wg/?igshid=YmMyMTA2M2Y=
+description: Ready to kick off the new year with your Heels on? You won't help
+  moving with Nastya & Nadjana. Don't miss this chance and grab your spot!
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4BTrx7emrafQqCGrNiBGdrpqhK83%2F1a988eca-0f26-4c0c-a1d5-a8271ed6ce42?alt=media&token=f92cfdfb-13db-4ab9-8f0c-3d0d803fa21c
+promo: Yes
+createdAt: 1673453838402
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - ddjunna
+  - hotchocolate23
+international: No
+updatedAt: 1673453838402
+updatedBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+visibility: Public
+confirmation: Please contact https://instagram.com/highheelsgermany
+eventType: Workshop
+form: No
+createdBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+watch:
+  count: 1
+  list:
+    Highheelsgermany: true
+name: High Heels Workshop
+online: No
+styles:
+  HighHeels:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-29T13:00
+username: Highheelsgermany
+commentsCount: 2
+commentsLast:
+  createdAt: 1673453897165
+  updatedBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+  createdBy: 4BTrx7emrafQqCGrNiBGdrpqhK83
+  commentId: ""
+  postId: meHlX8md8O1Ixqo9te8I
+  body: >-
+    EARLY BIRD TICKETS UNTIL JANUARY 15
+
+
+    Schedule:
+
+    1.00 pm Registration (ends at 1.15 pm!)
+
+    1.15 pm - 2.45 pm High Heels Class with Nadjana @HotChocolate23
+
+    2.45 pm Break
+
+    3.00 pm - 4.30 pm High Heels Class with Nastya @Ddjunna 
+
+    4.30 pm End
+
+
+    High Heels Class with Nadjana coming all the way from L.A.:
+
+    You learn performing in Heels and receive Audition Tips and Techniques from dancer, model, actress and business owner Nadjana. Also, Nadjana will offer special information on Mindset and Goal Setting as well as Branding.
+
+
+    High Heels Class with Nastya from Ukraine:
+
+    You learn High Heels Dance Style techniques from choreographer, performer & experimental dancer Nastya. Nastya is an official representative of the dance style Frame Up Strip. In this workshop Nastya shares a choreography that will definitely push your boundaries in High Heels.
+
+
+    Check out the videos we shared introducing Nadjana and Nastya.
+
+
+    Please note: We recommend packing your knee pads when going to a Heels Class.
+
+
+    LIMITED SPOTS!
+
+    TO GET A SPOT:
+
+    - Send a message including your full name and the class/es you wish to take to
+
+    via Instagram @HighHeelsGermany or
+
+    via Mail (highheelsgermany@protonmail.com)
+
+    You receive more information on the registration via direct message/email.
+
+
+    Venue: La Caminada Studio (Böckhstraße 21, 10967 Berlin) @Tanzstudio_La_Caminada
+
+
+    See ya, @Aslihan.Dans
+
+    High Heels Germany
+  username: Highheelsgermany
+  updatedAt: 1673453897165
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FmeHlX8md8O1Ixqo9te8I.png?generation=1673453920002595&alt=media
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Highheelsgermany
+  bio: Our vision is to spread the Heels Dance Style and bring people together who
+    have made dancing in Heels a passion.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4BTrx7emrafQqCGrNiBGdrpqhK83%2F3b521b90-221e-4baf-acd3-56c206d2b66c?alt=media&token=88dfd48a-e3c8-4779-96ba-7148fbe39a6d
+  instagram: ""
+  id: 4BTrx7emrafQqCGrNiBGdrpqhK83
+  username: highheelsgermany
+id: meHlX8md8O1Ixqo9te8I
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Nastya
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fddjunna.png?generation=1655307397083600&alt=media
+    bio: |-
+      Berlin, Germany
+      choreographer / performer / experimental dancer
+      official representative @frameup_official 
+      •💫🌌
+    id: srt6qvoByasFDo0jETYU
+    instagram: https://instagram.com/ddjunna
+    username: ddjunna
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: NADJANA CHANDRA
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb050ee12-dcdb-4bfc-9dfa-50673a1b94e4?alt=media&token=f462de58-c87b-4427-a061-ad11fe0f69a3
+    bio: ""
+    id: XaDoegkDe3Q5ov2OdHXB
+    instagram: https://instagram.com/hotchocolate23
+    username: hotchocolate23
+telegram:
+  requestedAt: 1673464333723
+  messageUrl: https://t.me/WeDanceBerlin/109
+  publishedAt: 1673464338702
+  messageId: 109
+  state: published
+program:
+  - endDate: 2023-01-29T13:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: Nastya
+        bio: |-
+          Berlin, Germany
+          choreographer / performer / experimental dancer
+          official representative @frameup_official 
+          •💫🌌
+        photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fddjunna.png?generation=1655307397083600&alt=media
+        instagram: https://instagram.com/ddjunna
+        id: srt6qvoByasFDo0jETYU
+        username: ddjunna
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: NADJANA CHANDRA
+        bio: ""
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb050ee12-dcdb-4bfc-9dfa-50673a1b94e4?alt=media&token=f462de58-c87b-4427-a061-ad11fe0f69a3
+        instagram: https://instagram.com/hotchocolate23
+        id: XaDoegkDe3Q5ov2OdHXB
+        username: hotchocolate23
+    name: EARLY BIRD TICKETS TIL JANUARY 15
+    description: |-
+      Schedule:
+      1.00 pm Registration
+      1.15 pm High Heels Class with Nadjana
+      3.00 pm High Heels Class with Nastya 
+      4.30 pm End
+    eventType: Workshop
+    startDate: 2023-01-29T13:00
+viewsCount: 14

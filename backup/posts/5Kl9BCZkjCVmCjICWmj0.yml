@@ -1,0 +1,134 @@
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1677072141426
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ZoukMunich
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzoukmunich.png?generation=1662972737058077&alt=media
+    bio: "You're entering the mesmerizing world of Brazilian Zouk in Munich! #zouk
+      #sensualdance"
+    id: 7ACoBgOYQeMM32vaBREZ
+    instagram: https://instagram.com/zoukmunich
+    username: zoukmunich
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - zoukmunich
+international: ""
+updatedAt: 1677072141426
+updatedBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/itsjustme.de
+  name: Thomas
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG008dEeTZJcXLBzzL2krS0Ynumu2%2Fe018e495-359d-462c-bbef-590da40f99bc?alt=media&token=75fd0f14-1beb-4375-af14-da9550364f55
+  bio: In love with Brazilian Zouk <3
+  id: G008dEeTZJcXLBzzL2krS0Ynumu2
+  instagram: ""
+  username: Thomas
+eventType: Workshop
+form: No
+watch:
+  count: 1
+  list:
+    Thomas: true
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+name: "Zouk Workshop: ZoukCeption 2 - Wave-It"
+online: ""
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Thomas
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG008dEeTZJcXLBzzL2krS0Ynumu2%2F59cd55aa-5216-43de-a19d-fac8b20a169a?alt=media&token=726d0d73-b961-4cd8-9963-6ddff73160bc
+venue:
+  formatted_address: Schwanseestraße 93, 81549 München, Germany
+  website: http://www.tanzstudio-step-by-step.de/
+  name: Step by Step Dance Studio
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6003337302915
+      south: 48.1000399197085
+      north: 48.10273788029149
+      west: 11.5976357697085
+    location:
+      lng: 11.5991031
+      lat: 48.10145359999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "93"
+      long_name: "93"
+    - types:
+        - route
+      short_name: Schwanseestraße
+      long_name: Schwanseestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Obergiesing-Fasangarten
+      long_name: Obergiesing-Fasangarten
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81549"
+      long_name: "81549"
+  international_phone_number: +49 89 62509319
+  url: https://maps.google.com/?cid=16227053835019248917
+  place_id: ChIJxaaM5K_fnUcRFWV2A30TMuE
+endDate: 2023-03-19T19:00
+price: 110 EUR
+facebook: https://fb.me/e/KjGmfT0D
+link: https://doo.net/event/127452/order
+description: >-
+  TOPIC: WAVE-IT
+
+  A big part of the fascinating flow and fluidity of Zouk that mesmerizes so many people, originates in the extensive use of waves, a continuous progression of movement through your body. We gonna be studying the bits and pieces necessary to create waves and how to use them in our dancing. This involves:
+
+  -Hip & core & chest work (lines, cross, circles, volume)
+
+  -The 8-movement applied in various body parts.
+
+  -Directions, Orientations & Designs.
+
+  -Expansion, Collection & Transformation.
+
+  -Waves as a tool for Lead&Follow.
+
+  Join us and let‘s WAVE-IT together!
+id: 5Kl9BCZkjCVmCjICWmj0
+startDate: 2023-03-18T13:00
+viewsCount: 71

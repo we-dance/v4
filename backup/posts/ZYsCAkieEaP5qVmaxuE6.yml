@@ -1,0 +1,203 @@
+isNew: true
+facebookId: "1076878340659003"
+facebookUrlsList:
+  - https://www.facebook.com/events/1076878340659003
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730818832381
+updatedAt: 1730818832381
+importedAt: 1730818832381
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48714-1731715200-1731801599@latinfo.hu
+providerCreatedAt: 1730796966000
+providerUpdatedAt: 1730796966000
+startDate: 1731715200000
+endDate: 1731801599000
+sourceUrl: https://www.facebook.com/events/1076878340659003
+location: BHG Tánc- és mozgásstúdió, Sopron út 19., Budapest, 1117, Magyarország
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "19"
+      short_name: "19"
+      types:
+        - street_number
+    - long_name: Sopron út
+      short_name: Sopron út
+      types:
+        - route
+    - long_name: XI. kerület
+      short_name: XI. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1117"
+      short_name: "1117"
+      types:
+        - postal_code
+  formatted_address: Budapest, Sopron út 19, 1117 Hungary
+  geometry:
+    location:
+      lat: 47.46798689999999
+      lng: 19.0457574
+    viewport:
+      northeast:
+        lat: 47.4693089802915
+        lng: 19.0472631302915
+      southwest:
+        lat: 47.4666110197085
+        lng: 19.0445651697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +36 20 317 8333
+  name: BHG Tánc- és Mozgásstúdió
+  place_id: ChIJey5POaXdQUcR9U22Oko40I4
+  url: https://maps.google.com/?cid=10290787040005344757
+  website: https://www.facebook.com/bhgtanc
+visibility: Public
+org:
+  id: 5tUFd6fdT6sY2YTjw9si
+  username: kizzland
+  name: KizzLand
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717596048/swcgy6otgclsemssbgp3.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/kizzland
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1076878340659003/
+link: ""
+description: >-
+  👇🏻 ENGLISH BELOW 👇🏻
+
+
+  Trowback november!
+
+
+  "a 80-as években mindenki táncolt... és micsoda tánc volt..."
+
+
+  Közeleg a következő KizzLand, ahol különleges meglepetésekkel felszerelkezve visszatérünk a múltba és megidézzük az ős tánc szellemét.
+
+
+  Habár a dallamok továbbra is napjaink #urbankiz, #tartaxo, #afrobeat, #ghettozouk és talán egy kis #kompa zenéi lesznek, de a dresscode akkor lesz az igazi ha te is kinyitod a régi szekrényeket, mélyükre túrsz és felturbózva érkezel meg a helyszínre.
+
+
+  Ráadásul a black friday hónapjában az árak is kedvezményesek és pénztárcabarátok lesznek, hogy mindenkinek maradjon még karácsonyra is!
+
+
+  🔥🔥Program🔥🔥
+
+  20:45 Kapunyitás
+
+
+  21.00-22.00 Workshop:
+
+  Krisz & Drea - UrbanKiz
+
+
+  22:00-04.00 Buli:
+
+  🇫🇷 Dj Yaya
+
+  🇭🇺 Dj Berry
+
+  🇭🇺 Dj Krizz Beats
+
+
+  Árak:
+
+  20.45-től Workshopok + Buli: 4000 HUF (~10 €)
+
+  22.00-tól Buli: 3000 HUF (~7,5 €)
+
+
+  Az eseményre való belépő megvásárlásával automatikusan hozzájárulásod adod ahhoz, hogy az este folyamán hang és képanyag készülhet rólad, amit a későbbiekben a KizzLand felhasználhat.
+
+
+  👇🏻 ENGLISH👇🏻
+
+
+  Throwback November!
+
+
+  "everyone was dancing in the 80's... and what a dance it was..."
+
+
+  The next KizzLand is approaching, where we will return to the past, equipped with special surprises and evoke the spirit of the ancient dance.
+
+
+  Although the tunes will continue to be today's #urbankiz, #tartaxo, #afrobeat, #ghettozouk and maybe a little #kompa songs, the dress code will be the real deal if you open old wardrobes and arrive at the venue with an ‘80s deep dive and pumped up.
+
+
+  In addition, in the month of Black Friday, the prices will be discounted and budget-friendly, so that everyone can have more for Christmas!
+
+
+  🔥🔥Program🔥🔥
+
+  21.00-22.00 Workshop:
+
+  Krisz & Drea - UrbanKiz
+
+
+  22:00-04.00 Party:
+
+  🇫🇷 Dj Yaya
+
+  🇭🇺 Dj Berry
+
+  🇭🇺 Dj Krizz Beats
+
+
+  Prices:
+
+  From 20.45 Workshops + Party: 4000 HUF (~10 €)
+
+  From 22.00 Party: 3000 HUF (~7,5 €)
+
+
+  By purchasing a ticket to the event, you automatically give your consent for audio and video footage to be taken of you during the evening, which may be used by KizzLand in the future.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730818848/akmqhdiuhxbn3skszc1n.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: KizzLand - Back to the 80's
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1731786300000+ChIJey5POaXdQUcR9U22Oko40I4
+id: ZYsCAkieEaP5qVmaxuE6

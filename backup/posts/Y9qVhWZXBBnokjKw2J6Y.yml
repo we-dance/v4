@@ -1,0 +1,166 @@
+endDate: 1755504000000
+sourceUrl: https://www.facebook.com/events/1165171291450176/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1725391405000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725902613000
+facebookId: "1165171291450176"
+facebook: https://www.facebook.com/events/1165171291450176/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1165171291450176/
+eventType: Party
+providerItemId: e1165171291450176@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachaturo 2025 grupa SENSUALOVE (promocode discount group)
+location: Bachaturo Festival
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1755172800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Wczasowa 15, 40-694 Katowice, Poland
+  website: http://www.amfirockfestiwal.pl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: AmfiROCK Festiwal
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.9613061197085
+        lat: 50.2156059197085
+      northeast:
+        lng: 18.96400408029151
+        lat: 50.21830388029149
+    location:
+      lng: 18.9626551
+      lat: 50.2169549
+  address_components:
+    - types:
+        - street_number
+      short_name: "15"
+      long_name: "15"
+    - types:
+        - route
+      short_name: Wczasowa
+      long_name: Wczasowa
+    - types:
+        - locality
+        - political
+      short_name: Katowice
+      long_name: Katowice
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Powiat Katowice
+      long_name: Powiat Katowice
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Województwo śląskie
+      long_name: Województwo śląskie
+    - types:
+        - country
+        - political
+      short_name: PL
+      long_name: Poland
+    - types:
+        - postal_code
+      short_name: 40-694
+      long_name: 40-694
+  international_phone_number: +48 513 527 638
+  place_id: ChIJlwOaGCvPFkcRO90eCpwh92k
+  url: https://maps.google.com/?cid=7635608647298374971
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417900615
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Natalia-Kielak-instruktortancerka/100056465627118/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417900/ltpvq5qwc82yb4raw6uo.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417900615
+  owned: false
+  name: Natalia Kielak - instruktor/tancerka
+  place: ChIJ0cyhNiPOFkcRu_pZBTUqr7k
+  updatedAt: 1728417900615
+  username: natalia.kielak.-.ins
+claimed: No
+link: ""
+description: >-
+  📅 15 - 17 sierpnia 2025
+
+  BACHATA | KIZOMBA | SALSA | CUBANA
+
+  📍 Miejsce imprez i warsztatów: Katowicki Spodek i Międzynarodowe Centrum Kongresowe
+
+  Aktualne ceny są zawsze na stronie http://www.bachaturo.com/cennik
+
+
+
+  🔴FULLPASS GRUPOWY :  490 PLN
+
+
+
+
+  Jak skorzystać ze zniżki❓
+
+  zarejestruj się na stronie
+
+  http://www.bachaturo.com/cennik
+
+  ‼️wybierz opcję FULLPASS GRUPOWY
+
+  ‼️ wpisz kod promocyjny - nazwę grupy SENSUALOVE
+
+
+
+  🇬🇧️ ----------- EN -----------
+
+  Actual price of fullpass: 114 euro 
+
+
+  Register on website
+
+  http://www.bachaturo.com/tickets
+
+  ‼️ select option (Type of ticket) ➡️ Group Fullpass
+
+  ‼️ enter group name:➡️ SENSUALOVE
+
+
+
+  Print your ticket a (without printed ticket - additional fee 10€ )
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417901/danmanlfzd8dq5jhj6gy.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0cyhNiPOFkcRu_pZBTUqr7k
+international: No
+hash: 1755172800000+ChIJlwOaGCvPFkcRO90eCpwh92k
+id: Y9qVhWZXBBnokjKw2J6Y

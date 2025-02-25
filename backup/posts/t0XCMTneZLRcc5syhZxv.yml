@@ -1,0 +1,143 @@
+endDate: 1734019200000
+sourceUrl: https://www.facebook.com/events/944416924062135/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712160024000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1720947423000
+facebookId: "944416924062135"
+facebook: https://www.facebook.com/events/944416924062135/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/944416924062135/
+eventType: Party
+providerItemId: e944416924062135@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Pre Party (Kiz Nature 2024)
+location: Good Morning Bar
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1734008400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 184, 3 Unnamed Road, Tambon Su Thep, Amphoe Mueang Chiang
+    Mai, Chang Wat Chiang Mai 50200, Thailand
+  website: https://www.facebook.com/JaoYingRumpapak/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Bailamos Chiangmai Dance Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 98.95600416970848
+        lat: 18.7825085197085
+      northeast:
+        lng: 98.9587021302915
+        lat: 18.7852064802915
+    location:
+      lng: 98.95737229999999
+      lat: 18.783917
+  address_components:
+    - types:
+        - subpremise
+      short_name: "184"
+      long_name: "184"
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Unnamed Road
+      long_name: Unnamed Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Tambon Su Thep
+      long_name: Tambon Su Thep
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amphoe Mueang Chiang Mai
+      long_name: Amphoe Mueang Chiang Mai
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: จ.เชียงใหม่
+      long_name: Chang Wat Chiang Mai
+    - types:
+        - country
+        - political
+      short_name: TH
+      long_name: Thailand
+    - types:
+        - postal_code
+      short_name: "50200"
+      long_name: "50200"
+  international_phone_number: +66 97 918 4609
+  place_id: ChIJbTf6Gaw72jAR2P4YpJGX9Kk
+  url: https://maps.google.com/?cid=12246579938506374872
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417940813
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/KizChiangMai
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417941/tiuubif8mitekgqkt12e.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417940813
+  owned: false
+  name: Kizomba Chiang Mai
+  updatedAt: 1728417940813
+  username: KizChiangMai
+claimed: No
+link: ""
+description: >-
+  Let's get warming up on Thursday 12th December in downtown Chiang Mai Thailand
+  🇹🇭 before Kiz Nature 2024 will be happening on 13-14-15 December in Chiang
+  Dao
+
+
+  This Pre Party will be starting from 8 pm til late at Good Morning Bar in the town by our DJs (Live mix) 
+
+
+  Ticket Link 🔗 TBA 
+
+  The Pre Party Pass is not included in any Kiz Nature Pass, except VIP Pass & VIP PLUS (A,B,C) are included a Pre Party Pass
+
+
+  Ticket 🎫 To be announced 
+
+  ***Reservation is required*** 
+
+  Contact SiRi +66897046166
+
+  kizombachiangmai@gmail.com
+
+  @kizombachiangmai @kiz.nature
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417944/aqiuirurtpagu84fyzir.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1734008400000+ChIJbTf6Gaw72jAR2P4YpJGX9Kk
+viewsCount: 1
+id: t0XCMTneZLRcc5syhZxv

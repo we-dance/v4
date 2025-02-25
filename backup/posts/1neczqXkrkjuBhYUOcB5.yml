@@ -1,0 +1,186 @@
+isNew: true
+facebookId: "2127291674394887"
+facebookUrlsList:
+  - https://www.facebook.com/events/2127291674394887/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731769223908
+updatedAt: 1731769223908
+importedAt: 1731769223908
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48815-1732924800-1733011199@latinfo.hu
+providerCreatedAt: 1731577018000
+providerUpdatedAt: 1731577018000
+startDate: 1732924800000
+endDate: 1733011199000
+facebook: https://www.facebook.com/events/2127291674394887/
+sourceUrl: https://www.facebook.com/events/2127291674394887/
+location: Székesfehérvár Balatoni út 8., Balatoni út 8., Székesfehérvár, 8000,
+  Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "14"
+      short_name: "14"
+      types:
+        - street_number
+    - long_name: Strada Tăbăcarilor
+      short_name: Strada Tăbăcarilor
+      types:
+        - route
+    - long_name: Bucureşti Sectorul 4
+      short_name: Bucureşti Sectorul 4
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: București
+      short_name: București
+      types:
+        - locality
+        - political
+    - long_name: Municipiul București
+      short_name: Municipiul București
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: București
+      short_name: București
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Romania
+      short_name: RO
+      types:
+        - country
+        - political
+    - long_name: "030167"
+      short_name: "030167"
+      types:
+        - postal_code
+  formatted_address: Strada Tăbăcarilor 14, București 030167, Romania
+  geometry:
+    location:
+      lat: 44.42001109999999
+      lng: 26.1090998
+    viewport:
+      northeast:
+        lat: 44.4213923302915
+        lng: 26.1104493802915
+      southwest:
+        lat: 44.4186943697085
+        lng: 26.10775141970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +40 763 150 403
+  name: Free Spirit Dance Studio
+  place_id: ChIJ_0gwEX__sUARKPOo-xSZzTo
+  url: https://maps.google.com/?cid=4237211139826053928
+  website: https://freespiritdance.ro/
+visibility: Public
+org:
+  id: BM4HtpPAFK8ujCbJIrCn
+  username: dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  ===SALSA & SENSUAL PARTY===
+
+
+  🔥🔥Dress Code: Piros, Fekete, Fehér
+
+  🔥🔥
+
+  * Mikulás 🎅* Krampusz 😈* Hóember☃️
+
+  Nincs is jobb, mint egy Salsa és Sensual party ahol kedvenc zenéinkre táncolhatunk 🙂. és közösen várhatjuk az ünnepeket. 🥳🤩😎
+
+
+  ===Salsa - Bachata - Kizomba- Reggaeton - Son===
+
+
+  ⏰Időpont: 2024. november 30. 18:00
+
+  🔴Órák helyszíne: Balatoni út 8. Free Spirit
+
+
+  📌Workshop
+
+  18:00-20:00 Kizomba /alapokon túl/
+
+  20:00-21:00 Bachata /minden szint/
+
+  elővételben: 2000Ft/ws - november 29-ig
+
+  helyszínen: 2500Ft/ws
+
+
+
+  📌21:00- Party
+
+  ----------------------------------------
+
+  2 teremben
+
+  📌Külön #Salsa #Bachata #Kizomba
+
+  elővételben: 2500Ft - november 29-ig
+
+  helyszínen: 3000Ft
+
+
+  Fizetés személyesen az órákon vagy utalással.
+
+  Utalás: Raiffeiesn Bank 12067204-00202462-00100005
+
+
+  📧📬📞
+
+  Elérhetőség:
+
+  +36305153951
+
+  www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731769240/hauchnculvscnghadyhh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: 🎅 2 termes Salsa&Sensual Party - Székesfehérvár
+online: No
+place: ChIJT608vzr5sUARKKacfOMyBqw
+international: No
+hash: 1732986000000+ChIJ_0gwEX__sUARKPOo-xSZzTo
+id: 1neczqXkrkjuBhYUOcB5

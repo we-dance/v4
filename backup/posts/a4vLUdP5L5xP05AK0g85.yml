@@ -1,0 +1,149 @@
+venue:
+  website: http://delvecchio-dance.de/
+  formatted_address: Rupert-Mayer-Straße 44, 81379 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "44"
+      short_name: "44"
+    - types:
+        - route
+      long_name: Rupert-Mayer-Straße
+      short_name: Rupert-Mayer-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?cid=5211395128055146242
+  name: Del Vecchio Dance im Fechtzentrum
+  geometry:
+    viewport:
+      south: 48.0958963697085
+      north: 48.0985943302915
+      east: 11.5371798802915
+      west: 11.5344819197085
+    location:
+      lng: 11.5358577
+      lat: 48.0971327
+  place_id: ChIJaYQhotXenUcRAqft_0GYUkg
+  international_phone_number: +49 176 20730063
+endDate:
+  _seconds: 1641654000
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+description: >-
+  
+  Ich bin so happy euch mein neuestes Konzept vorzustellen ♡ 
+
+  High Quality, super professionelle und qualitative Lehrer die euch an 2 Tagen einen tollen Input geben werden. 
+
+  An diesen 2 Tagen wird es wirklich für jeden etwas geben 🥳
+
+  Egal ob Paar oder Solo Tanz - traditionelle Tänze oder fusionierte Stile es wird wirklich alles geboten ❤️
+
+
+  Ihr habt die Möglichkeit an diesen 2 Tagen alles mitzunehmen ...
+
+  Tradition, Kultur, Movement, Freude , Leidenschaft, Gute Energie & ganz viel neuen Input 
+
+
+
+  Samstag Abend gibt es dann noch ein Highlight ✨
+
+  Shows, Animationen y Fiesta 
+
+  Mit einem der besten Djs in Town ( für mich der Beste) 
+
+  Dj Mel ✨ 
+
+
+  Nimmt diese Chance wahr , tut euch etwas Gutes und startet ins neue Jahr mit einem genialen Event ♡ 
+
+
+  Bis zum 12.12.21 gibt es das Early Bird Special also greift zu und macht euch eine Freude 
+
+
+  Es wird limitierte Plätze geben da mir die Qualität dieses Events sehr wichtig ist 
+
+
+  Falls ihr Fragen habt könnt ihr mir jederzeit gerne schreiben ❤
+
+
+
+  Ganz viel Liebe 
+
+  Eure Laura 
+
+  💚
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F123937ed-530d-4c0d-bfc1-bcc5a2aa8acc?alt=media&token=2d86d58e-38cd-4b4e-9d30-afc27f718008
+duration: "300"
+createdAt: 1639556295929
+watchersCount: 0
+price: Unknown
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fa4vLUdP5L5xP05AK0g85.png?generation=1640528510354203&alt=media
+commentsLast: ~
+promoter: Vitali
+id: a4vLUdP5L5xP05AK0g85
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 7
+updatedAt: 1639556295929
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/fusion-all-stars-vol1/605892713893936/
+eventType: Workshop
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Fusion All Stars  Voll.1 ✨
+online: No
+styles: {}
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2022-01-08T10:00:00.000Z
+username: Vitali
+viewsCount: 16

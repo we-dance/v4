@@ -1,0 +1,174 @@
+endDate: 1729459800000
+sourceUrl: https://www.facebook.com/events/1512401836296497/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1698933594000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1698947570000
+facebookId: "1512401836296497"
+facebook: https://www.facebook.com/events/1512401836296497/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1512401836296497/
+eventType: Festival
+providerItemId: e1512401836296497@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BACHATA EXPERIENCE 7 EDITION “Una Vaina Tradicional “🌴🇩🇴
+location: Ateneu Martorell
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729270800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Carrer Gomis, 10, 08760 Martorell, Barcelona, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Ateneu de Martorell
+  geometry:
+    viewport:
+      southwest:
+        lng: 1.925253269708498
+        lat: 41.47644551970851
+      northeast:
+        lng: 1.927951230291502
+        lat: 41.4791434802915
+    location:
+      lng: 1.9266148
+      lat: 41.4777362
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Carrer Gomis
+      long_name: Carrer Gomis
+    - types:
+        - locality
+        - political
+      short_name: Martorell
+      long_name: Martorell
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "08760"
+      long_name: "08760"
+  international_phone_number: +34 661 97 41 40
+  place_id: ChIJvXM0qMOOpBIRCclmLc7uDnc
+  url: https://maps.google.com/?cid=8579056909479758089
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444446103
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Bachata-Experience-Festival/100077031795224/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444446/jie38suimww6iecrtd5j.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444446103
+  owned: false
+  name: Bachata Experience Festival
+  place: ChIJh4i3vMOOpBIR8lyXuWwDGHE
+  updatedAt: 1715444446103
+  username: bachata.experience.f
+claimed: No
+link: https://www.goandance.com/es/eventos/6488-bachata-experience-festival-2024-7a-edicion-una-vaina-tradicional?fbclid=PAAaaxcMb0FVdBJ1KAY-ud58pnVuXBI63LIsr01SEZ7ozrNmATTZWFzcFW4aY%3Ffbclid%3DPAAaaxcMb0FVdBJ1KAY-ud58pnVuXBI63LIsr01SEZ7ozrNmATTZWFzcFW4aY
+description: >-
+  Séptima edición de Bachata Experience Festival, Una Vaina Tradicional.
+
+
+  Os esperamos del 18 al 20 de Octubre 2024 en Martorell, Barcelona! 
+
+
+  Sociales, Comida Auténtica Dominicana, Talleres de gran calidad y mucho más, todo en un entorno natural a 20 minutos de Barcelona.
+
+
+  Acompáñanos en ésta aventura! 
+
+
+  ☀️Argenis y Carolina
+
+  ☀️Anthony y Carla
+
+  ☀️Brandy Colores
+
+  ☀️ Bhavin y Soonruta
+
+  ☀️Camilo
+
+  ☀️Crysthian y Edurne
+
+  ☀️Thiago y Ari
+
+  ☀️Daniela Garay
+
+  ☀️DJ BRUJA
+
+  🔺Tarifas venta en Go&Dance 
+
+
+  🔺Lugar: 
+
+  Calle Gomis 10, Martorell 08760 Barcelona
+
+  🔺Servicios:
+
+  -Junto a estación de Renfe y estación de -Ferrocarriles Catalanes
+
+  -Parada de Taxis 
+
+  -Parking gratuito
+
+  🔺Hoteles cercanos: 
+
+  -Hotel Ciutat de Martorell
+
+  -Hotel Catalonia Bristol
+
+  -Hotel Ibis Budget Barcelona Sant Andreu de la Barca
+
+  🔺Distancias: 
+
+  -Distancia entre el aeropuerto de Barcelona y Martorell 27 minutos
+
+  -Distancia entre la estación de Sants Barcelona a Martorell 33 minutos
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444448/x3yotf55xnbe4z6rxo5b.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJh4i3vMOOpBIR8lyXuWwDGHE
+international: No
+hash: 1729270800000+ChIJvXM0qMOOpBIRCclmLc7uDnc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FiHaJAFwCVV6ku24kzK9c.png?generation=1715444469061978&alt=media
+viewsCount: 3
+id: iHaJAFwCVV6ku24kzK9c

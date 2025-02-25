@@ -1,0 +1,353 @@
+endDate: 1732492800000
+sourceUrl: https://www.facebook.com/events/325316140328199/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1703440902000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1710749690000
+facebookId: "325316140328199"
+facebook: https://www.facebook.com/events/325316140328199/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/325316140328199/
+eventType: Festival
+providerItemId: e325316140328199@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SUNNY KIZOMBA
+location: Playa Las Canteras, Las Palmas, Gran Canaria
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1732212000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Las Canteras Beach, Spain
+  website: http://www.playadelascanteras.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Las Canteras Beach
+  geometry:
+    viewport:
+      southwest:
+        lng: -15.44820776994017
+        lat: 28.1303993
+      northeast:
+        lng: -15.429793
+        lat: 28.1487215
+    location:
+      lng: -15.4337165
+      lat: 28.1428538
+  address_components:
+    - types:
+        - natural_feature
+        - establishment
+      short_name: Las Canteras Beach
+      long_name: Las Canteras Beach
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CN
+      long_name: Canary Islands
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+  place_id: ChIJOZUfwBeVQAwRMY-lsCJwETw
+  url: https://maps.google.com/?cid=4328364011174596401
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718719264707
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Sunny-Kizomba/61553913331831/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718719265/tidwwtc5vfpy01vazin5.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718719264707
+  owned: false
+  name: "Sunny Kizomba "
+  updatedAt: 1718719264707
+  username: SunnyKizomba
+claimed: No
+link: https://www.billetweb.fr/sunny-kizomba-grand-canaria-festival
+description: >-
+  🇬🇧 English version 🇬🇧
+
+
+  SUNNY KIZOMBA 
+
+  🇮🇨 GRAN CANARIA FESTIVAL 
+
+  🏝️ LAS CANTERAS BEACH 
+
+  🇪🇸 SOUTH OF SPAIN 
+
+
+  🗓️ 21 to 25 NOV/ 2024 
+
+
+  😍 4 CRAZY DAYS 
+
+  🙌 DAY SOCIAL 
+
+  🪩 NIGHT PARTY 
+
+  🛥️ PARTY BOAT 
+   💃🏼WORKSHOPS🕺🏾
+  🇦🇴 KIZOMBA NA RUA 
+
+
+  KIZOMBA~SEMBA~TARRAXINHA
+
+  GUETTO ZOUK~AFROHOUSE
+
+  KOMPA~ZOUK RETRO…
+
+
+  Come and enjoy our dance on Las Canteras Beach with 25 degree weather in November on the wonderful island of Gran Canaria, Spain
+
+   OUR DJs 
+
+  🎧DJ JAROD 
+
+  🎧DJ MIRO KIKOLA
+
+  🎧DJ BK 
+
+  🎧DJ FRANK 
+
+  🎧DJ ADON 
+
+  🎧DJ PELNICE
+
+
+
+  OUR TEACHERS 
+
+
+  ✨BERTO 
+
+  ✨ELIZA SALA
+
+  ✨ADILSON MAIZA & TELMA
+
+  ✨JONE V. & NELINHA
+
+  ✨SYPARYO
+
+  ✨ANDERSON 
+
+  ✨ECHEDEY & ROMAREY
+
+
+
+  📍GRAN CANARIA 
+
+  LAS CANTERAS BEACH 
+
+  BULL REINA ISABEL HOTEL 
+
+  Alfredo L. Jones, 40 
+
+  P.C 35008
+
+  SPAIN
+
+   🇪🇸 VERSIÓN EN ESPAÑOL 🇪🇸 
+
+  SUNNY KIZOMBA 
+
+  🇮🇨FESTIVAL EN GRAN CANARIA
+
+  🏝️PLAYA DE LAS CANTERAS
+
+  🇪🇸SUR DE ESPAÑA
+
+
+  🗓️ 21 al 25 NOV/ 2024
+
+
+  😍 4 DÍAS LOCOS
+
+  🙌 SOCIALES DE DÍA
+
+  🪩 FIESTAS NOCTURNAS 
+
+  🛥️ FIESTA EN BARCO 
+   💃🏼TALLERES🕺🏾
+  🇦🇴 KIZOMBA NA RUA 
+
+
+  KIZOMBA~SEMBA~TARRAXINHA
+
+  GHETTO ZOUK~AFROHOUSE
+
+  KOMPA~ZOUK RETRO..
+
+
+
+  Ven y disfruta del baile en la Playa de Las Canteras con un clima de 25 grados en noviembre en la maravillosa isla de Gran Canaria, España.
+
+   NUESTROS DJ
+
+  🎧DJ JAROD
+
+  🎧DJ MIRO KIKOLA
+
+  🎧DJ BK
+
+  🎧DJ FRANK
+
+  🎧DJ ADON
+
+  🎧DJ PELNICE
+
+
+
+  NUESTROS PROFESORES
+
+
+  ✨BERTO
+
+  ✨ELIZA SALA
+
+  ✨ADILSON MAIZA & TELMA
+
+  ✨JONE V. & NELINHA
+
+  ✨SYPARYO
+
+  ✨ANDERSON
+
+  ✨ECHEDEY & ROMAREY
+
+
+
+  📍 GRAN CANARIA
+
+  PLAYA DE LAS CANTERAS
+
+  HOTEL BULL REINA ISABEL
+
+  Alfredo L. Jones, 40 
+
+  PC 35008
+
+  ESPAÑA
+
+
+  🇫🇷 VERSION FRANÇAISE🇫🇷
+
+
+  SUNNY KIZOMBA 
+
+  🇮🇨FESTIVAL GRANDE CANARIE
+
+  🏝️PLAGE DE LAS CANTERAS
+
+  🇪🇸SUD DE L'ESPAGNE
+
+
+  🗓️ 21 au 25 NOV 2024
+
+
+  😍 4 JOURS DE FOLIE 
+
+  🙌 SOCIALS 
+
+  🪩 SOIRÉE 
+
+  🛥️ croisière en bateaux 
+   💃🏼 COURS  🕺🏾
+  🇦🇴 KIZOMBA (na rua)
+
+
+  KIZOMBA ~ SEMBA ~ TARRAXINHA
+
+  GHETTO ZOUK~AFROHOUSE
+
+  KOMPA ~ ZOUK RETRO…
+
+
+
+  Venez profiter de notre ambiance sous le soleil ☀️ sur la plage de Las Canteras par 25 degrés en novembre sur la magnifique île de Gran Canaria, en Espagne.
+
+   NOTRE DJs
+
+  🎧DJ JAROD
+
+  🎧DJ MIRO KIKOLA
+
+  🎧DJ BK
+
+  🎧DJ FRANC
+
+  🎧DJ ADON
+
+  🎧DJ PELNICE
+
+
+
+  NOS ENSEIGNANTS
+
+
+  ✨BERTO
+
+  ✨ELIZA SALA
+
+  ✨ADILSON MAIZA & TELMA
+
+  ✨JONE V. & NELINHA
+
+  ✨SYPARYO
+
+  ✨ANDERSON
+
+  ✨ECHEDEY & ROMAREY
+
+
+
+  📍 GRANDE CANARIE
+
+  PLAGE DE CANTERAS
+
+  HÔTEL BULL REINA ISABEL
+
+  Alfredo L. Jones, 40
+
+  CODE POSTAL 35008
+
+  ESPAGNE
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719269/gkt6nfgf9zus1317fo2e.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1732212000000+ChIJOZUfwBeVQAwRMY-lsCJwETw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F40YMQI15CVxfrCWJ7Fjy.png?generation=1718719286636968&alt=media
+viewsCount: 2
+id: 40YMQI15CVxfrCWJ7Fjy

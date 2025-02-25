@@ -1,0 +1,41 @@
+owner: ""
+importedAt: 1707432026404
+import: success
+visibility: Public
+facebook: https://www.facebook.com/salsaammeer
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707432026/huy6376ur3cqqqfaw5lr.jpg
+source: facebook
+createdAt: 1707432026404
+owned: false
+name: Salsa am Meer
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+username: salsa.am.meer
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: Female
+partner: ""
+reviews: []
+permission: ""
+team: []
+id: ptThDAqXPie6QweLka5G
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  count: 0
+  usernames: []
+  history:
+    - username: alexrazbakov
+      date: 1717766745042
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1717766755226
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+type: Organiser
+updatedAt: 1718011374519
+viewsCount: 12

@@ -1,0 +1,149 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  website: http://www.tanzschuleamstachus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule am Stachus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5668774802915
+      south: 48.13684386970849
+      north: 48.13954183029149
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 1590 1227277
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  url: https://maps.google.com/?cid=7618752569010268631
+endDate: 2023-04-16T04:00
+claimed: No
+description: |-
+  Central Location in Munich
+  7 min walk from Munich HBF
+  0 min Stachus U-Station
+
+  DJs:
+  🔥IRON MAMS🔥 (Zurich) https://soundcloud.com/iron-mams
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZ8T3ohZhdEODNme2AoD68u8LOdh2%2F9d61fe79-ee48-45c2-acc6-2030d0d13883?alt=media&token=1b262860-095e-4c23-a736-89c8d9c58876
+createdAt: 1681397900925
+playlist: https://soundcloud.com/iron-mams
+artists: []
+price: 15 EUR (Regular) / 10 EUR (Student)
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://www.facebook.com/media/set/?set=a.140911135540972&type=3
+updatedAt: 1681397900925
+updatedBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bolingo.gomez.7
+  name: Bobby SweetKiz (Dj Longchamp)
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf1c740b-0a89-4522-bb95-0dbfd4c3aae4?alt=media&token=1e3e6c30-33d0-474f-8365-add5b7bd1417
+  bio: Aus Kamerun. Seit 17+ Jahre in Deutschland. Mit Zouk, Afro Zouk und Kompa
+    aufgewachsen.
+  id: Z8T3ohZhdEODNme2AoD68u8LOdh2
+  instagram: https://www.instagram.com/bobbysweetkiz
+  username: MingaKizz
+facebook: https://fb.me/e/XfdV4Na6
+eventType: Party
+form: No
+createdBy: Z8T3ohZhdEODNme2AoD68u8LOdh2
+watch:
+  count: 1
+  list:
+    MingaKizz: true
+name: MINGA KIZZ PALACE
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Compas:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-15T22:00
+username: MingaKizz
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9jup5vKQMe1IWDRYKoPd.png?generation=1681397925234690&alt=media
+telegram:
+  requestedAt: 1681397956307
+  state: published
+  messageUrl: https://t.me/WeDanceMunich/1060
+  publishedAt: 1681397964159
+  messageId: 1060
+instagram:
+  requestedAt: 1681397959411
+  messageUrl: https://instagram.com/p/Cq-wXb1OiSs
+  publishedAt: 1681397977979
+  messageId: Cq-wXb1OiSs
+  state: published
+star:
+  count: 0
+  usernames: []
+  list: {}
+viewsCount: 88
+id: 9jup5vKQMe1IWDRYKoPd

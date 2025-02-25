@@ -1,0 +1,71 @@
+createdAt: 1724921729109
+website: https://maps.google.com/?q=S%C3%B6rn%C3%A4isten+rantatie+33c+4th+floor,+00500+Helsinki,+Finland&ftid=0x4692097b92733333:0x9dfbe34166865667
+rooms: ""
+address:
+  formatted_address: Sörnäisten rantatie 33c 4th floor, 00500 Helsinki, Finland
+  name: Sörnäisten rantatie 33c 4th floor
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.9680688197085
+        lat: 60.18627111970849
+      northeast:
+        lng: 24.97076678029151
+        lat: 60.18896908029151
+    location:
+      lng: 24.9693195
+      lat: 60.1876508
+  address_components:
+    - types:
+        - subpremise
+      short_name: 4th floor
+      long_name: 4th floor
+    - types:
+        - street_number
+      short_name: 33c
+      long_name: 33c
+    - types:
+        - route
+      short_name: Sörnäisten rantatie
+      long_name: Sörnäisten rantatie
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00500"
+      long_name: "00500"
+  url: https://maps.google.com/?q=S%C3%B6rn%C3%A4isten+rantatie+33c+4th+floor,+00500+Helsinki,+Finland&ftid=0x4692097b92733333:0x9dfbe34166865667
+  place_id: EjxTw7ZybsOkaXN0ZW4gcmFudGF0aWUgMzNjIDR0aCBmbG9vciwgMDA1MDAgSGVsc2lua2ksIEZpbmxhbmQiJRojChYKFAoSCTMzc5J7CZJGEeh4Rf4a9cNBEgk0dGggZmxvb3I
+gender: Other
+phone: ""
+name: Sörnäisten rantatie 33c 4th floor
+updateAt: 1724921729109
+type: Venue
+map: ""
+username: srnistenrantatie33c4
+viewsCount: 2
+id: uOeMg5p26Vab8fRPvpvz

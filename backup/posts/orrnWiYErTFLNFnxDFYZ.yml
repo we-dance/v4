@@ -1,0 +1,344 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/kizz-ryders-festival-krakow/
+name: Kizz Ryders Festival Kraków 2025
+sourceUrl: https://facebook.com/events/214399018389211
+venue:
+  address_components:
+    - long_name: 22A
+      short_name: 22A
+      types:
+        - street_number
+    - long_name: Gęsia
+      short_name: Gęsia
+      types:
+        - route
+    - long_name: Grzegórzki
+      short_name: Grzegórzki
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Kraków
+      short_name: Kraków
+      types:
+        - locality
+        - political
+    - long_name: Powiat Kraków
+      short_name: Powiat Kraków
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Województwo małopolskie
+      short_name: Województwo małopolskie
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Poland
+      short_name: PL
+      types:
+        - country
+        - political
+    - long_name: 31-535
+      short_name: 31-535
+      types:
+        - postal_code
+  formatted_address: Gęsia 22A, 31-535 Kraków, Poland
+  geometry:
+    location:
+      lat: 50.05343850000001
+      lng: 19.9586487
+    viewport:
+      northeast:
+        lat: 50.0547605302915
+        lng: 19.95999048029151
+      southwest:
+        lat: 50.0520625697085
+        lng: 19.9572925197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +48 12 342 81 00
+  name: Hotel Galaxy
+  place_id: ChIJaRXlvDhbFkcRIu6f2sZpiPc
+  url: https://maps.google.com/?cid=17836622626993204770
+  website: http://www.galaxyhotel.pl/
+endDate: 1750654800000
+claimed: No
+link: https://www.dizizid.com/events-registration/index.html?officeId=217&eventId=1089
+description: >
+  🔸 Welcome to the Kizz Ryders Festival 2025 Krakow Edition!
+
+
+  🔸 From Thursday the 19th till Monday the 23rd of June 2025 we present the Kizz Ryders Festival Kraków Edition. It's an All in One Venue - ⭐️⭐️⭐️⭐️ Hotel. The hotel is located in the city centre. 
+
+
+  🔸 A weekend full of Urban Kiz / Tarraxo / Kizomba / Ghetto Zouk / Afrobeat & Douceur with top class (Inter)national artists.
+
+
+  🔸 The weekender offers you:
+
+  ▪️ 42 hours of Parties & Socials spread out over 4 days
+
+  ▪️ 6 hours of Workshops 
+
+  ▪️ ILKSF Rising Star Competition 
+
+  ▪️ 1 Pre-Party on Thursday
+
+
+  🔸 Are you ready for the next KIZZ RYDERS FESTIVAL KRAKOW
+
+  🔸 💎 Embrace the Ultimate Kiz Experience and join us!
+
+
+  🔸 Early Bird passes available from 23th of June 2024 from 15:00
+
+
+  🔸 PROFILE COVER PICTURE - I"LL BE THERE FRAME
+
+  ▪️ MORE COMING SOON
+
+
+  ------⚜️LINE UP⚜️------
+
+
+  🔸 DJ's 🎧 LINE UP:
+
+  ▪️ D&L BEATS
+
+  ▪️ STEFANIO LIMA
+
+  ▪️ TRAYBEATZ
+
+  ▪️ RENE AMPLO
+
+  ▪️ DJ NUO
+
+  ▪️ DJ F.A.Z.E
+
+  ▪️ DJ BARTEF
+
+
+  🔸 TEACHERS 💃🕺🏻 LINE UP
+
+  ▪️ MORE COMING SOON
+
+
+  🔸 TAXI DANCERS TEAM 🕺🏻💃
+
+  ▪️ MORE COMING SOON ❗️
+
+
+  🔸 GUEST DANCERS TEAM 🕺🏻💃
+
+  ▪️ KIZZ RYDERS 
+
+
+  🔸 SPECIAL GUESTS ARTIST 🕺🏻💃
+
+  ▪️ MORE COMING SOON ❗️
+
+
+  🔸 PHOTOGRAPHER 📷
+
+  ▪️ MORE COMING SOON ❗️
+
+
+  🔸 VIDEOGRAPHER 🎥
+
+  ▪️ MORE COMING SOON ❗️
+
+
+  ------⚜️GENERAL PROGRAM⚜️------
+
+
+  🔸 Program Thursday
+
+  ◾️ 22:30 - 03:00 - REGISTRATION
+
+  ◾️ 23:00 - 07:00 - PARTY
+
+
+  🔸 Program Friday
+
+  ◾️ 15:00 - 18:00 - REGISTRATION
+
+  ◾️ 16:00 - 20:00 - SOCIAL
+
+  ◾️ 20:00 - 21:30 - BREAK
+
+  ◾️ 21:00 - 03:00 - REGISTRATION
+
+  ◾️ 21:45 - 22:45 - WORKSHOP
+
+  ◾️ 23:00 - 07:00 - PARTY
+
+
+  🔸 Program Saturday
+
+  ◾️ 13:00 - 18:00 - REGISTRATION
+
+  ◾️ 13:30 - 14:30 - WORKSHOP
+
+  ◾️ 14:45 - 15:45 - WORKSHOP
+
+  ◾️ 16:00 - 20:00 - SOCIAL
+
+  ◾️ 20:15 - 22:15 - ILKSF RISING STAR COMPETITION 
+
+  ◾️ 22:15  - 00:00 - BREAK 
+
+  ◾️ 00:00 - 03:00 - REGISTRATION
+
+  ◾️ 00:00 - 07:00 - PARTY
+
+
+  🔸 Program Sunday
+
+  ◾️ 13:00 - 18:00 - REGISTRATION
+
+  ◾️ 13:30 - 14:30 - WORKSHOP
+
+  ◾️ 14:45 - 15:45 - WORKSHOP
+
+  ◾️ 16:00 - 17:00 - WORKSHOP
+
+  ◾️ 17:00 - 21:00 - SOCIAL
+
+  ◾️ 21:15 - 22:15 - HAPPY HOUR 
+
+  ◾️ 22:15  - 00:00 - BREAK 
+
+  ◾️ 00:00 - 03:00 - REGISTRATION
+
+  ◾️ 00:00 - 07:00 - PARTY
+
+
+  ------⚜️ NAME CHANGE & RESELL POLICY ⚜️------
+
+
+  ◾️ Only event passes directly bought at Kizz Ryders ticketlink are valid:
+
+  ◾️ Reselling KR event passes are only accepted through the “NAME CHANGE PROCESS“, see process description, deadline and name change fee below.
+
+
+  🔸 NAME CHANGE CONDITIONS KIZZ RYDERS  FESTIVAL ’ KRAKOW EDITION 2025
+
+  ◾️ Name change fee € 12,50
+
+  ◾️ Name change requests are possible until 8th of June 2025 till  23:55
+
+
+  🔸 NAME CHANGE PROCESS:
+
+  1) Please purchase the name change ticket via official Kizz Ryders ticketlink:
+
+  2) Send an e-mail to kizzrydersweekend@gmail.com, share and attach the following :
+
+  - copy of your change name ticket
+
+  - copy of your purchased event pass
+
+  - Name, Surname and E-mail of the new event pass owner
+
+  3) You will receive the new event pass and the name change confirmation within 3 working days.
+
+  If you have any questions or requests, please contact us at:
+
+  Facebook page: https://www.facebook.com/kizzryders
+
+  Instagram profile: https://www.instagram.com/kizz_ryders_events?igsh=NmQ5ZDd6a3R3NmZ3&utm_source=qr
+
+
+  ------ ⚜️PRICE INCREASE INFORMATION⚜️ ------
+
+
+  ◾️ MORE COMING SOON
+
+
+  ------⚜️ HOUSERULES ⚜️------
+
+  ▪️ Doorsale only paid in cash appropriately
+
+  ▪️ Online prices are not valid at the door
+
+  ▪️ Passes will cost more at the door
+
+  ▪️ Your pass is only transferable via Name Change Process
+
+  ▪️ Your pass is only valid when bought directly at KIZZ RYDERS
+
+  ▪️ Wardrobe is mandatory
+
+
+  ------⚜️ VENUE & HOTEL INFORMATION ⚜️------
+
+
+  🔸 VENUE 🏢
+
+  ▪️ GALAXY HOTEL KRAKÓW 
+
+
+  🔸 HOTEL 🏨
+
+  ▪️ https://galaxyhotel.pl/en
+
+
+  ------⚜️ ADDITIONAL INFORMATION ⚜️------
+
+
+  ◾️ MORE COMING SOON
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293941/aecdfmyyrru7x9hgowis.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ0RhONcBEFkcRv4pHdrW2a7Q
+international: No
+visibility: Public
+org:
+  id: XZfZJ3qgFzKVotL7VgWY
+  username: kizzryders
+  name: Kizz Ryders
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417914/rhnaegha5uf7u6mrtkoi.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/kizzryders
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/214399018389211/
+facebookId: "214399018389211"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1750366800000+ChIJaRXlvDhbFkcRIu6f2sZpiPc
+startDate: 1750366800000
+id: orrnWiYErTFLNFnxDFYZ

@@ -1,0 +1,170 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13373901970849
+      north: 48.13643698029149
+      east: 11.5813456802915
+      west: 11.5786477197085
+    location:
+      lng: 11.5800076
+      lat: 48.1351427
+  international_phone_number: +49 172 8533891
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+endDate:
+  _seconds: 1633737600
+  _nanoseconds: 0
+link: https://www.bachata-sensual.party
+description: >-
+  Die Bachata Open Air Parties gehen weiter: die beste Musik, die besten Tänzer,
+  die besten Locations innendrin.
+
+
+  Vamos a dentro, chicos!
+
+
+  Heiß, heißer, Herbst 2021! Der Sommer ist vorbei aber unsere Hüften schwingen weiter. Die heißesten Bachata Beats der Stadt gibt es jetzt jeden Freitag ab dem 24. September. Der Salsa Club Munich, einer der schönsten Locations im Herzen Münchens, wartet auf Euch. Vorbei sind die Zeiten mit Steinboden, Regen und Non-Tänzer, wir sagen: hallo Tanzparkett! Im Tanzherbst geboten: Von Bachata Sensual, über Dominicana bis hin zu Bachata Moderna (und vielleicht sogar etwas Salsa).
+
+
+  Ab 20:00 könnt mir mit Anna & Paolo im Bachata Sensual Workshop neue Figuren und Moves lernen. Der Workshop eignet sich für alle, die schonmal Bachata Unterricht genommen haben und die Basics bereits beherrschen. 
+
+
+  Das Kombo-Ticket Workshop + Party kostet nur 15 €! 
+
+
+  ACHTUNG: Anzahl der Kursteilnehmen ist begrenzt auf Max. 30 Personen!
+
+
+  Wir freuen uns auf euch!
+
+
+  COVID INFO:
+
+
+  DE
+
+
+  Solltest du weder geimpft , genesen oder negativ getestet sein, ist der Einlass nicht gestattet, wir bitten um dein Verständnis.
+
+
+  Aufgrund des Corona-Hygienekonzepts & der laufenden Verordnungen sind limitierte Tickets verfügbar.
+
+
+  Wir freuen uns über deinen Ausweis/Reisepass und die notwendigen Dokumente, die deine Impfung / Genesung / negativ Test belegen.
+
+
+  EN
+
+
+  If you are not vaccinated , recovered or tested there is no entry permitted, we appreciate your understanding.
+
+
+  Limited tickets available due to the corona hygiene concept & ongoing regulations.
+
+
+  We would appreciate your ID, passport, and necessary documents that prove your vaccination & recovery or tested ready at the door.
+
+
+  <w-youtube url="https://www.youtube.com/watch?v=LU6wymgFAWU"></w-youtube>
+
+
+  ![](https://uploads.tickettailor.com/c_limit,w_630/v1/production/userfiles/event_description_image_105946_1633262955_c9320.png)
+
+  ![](https://uploads.tickettailor.com/c_limit,w_630/v1/production/userfiles/event_description_image_105946_1633344261_5aeab.png)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTwFolAExNhgDzb6xIbYEmYwwsYo1%2Fb2b26575-8a12-4fb1-bc13-02618954de05?alt=media&token=4f0aaa41-75ea-4e30-9183-b8a79a8fce9c
+duration: "300"
+promo: Yes
+createdAt: 1633360073926
+watchersCount: 0
+price: 10EUR
+commentsLast: ~
+id: Wb70NoWryfZjpd5hTSps
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 51
+updatedAt: 1633360073926
+updatedBy: TwFolAExNhgDzb6xIbYEmYwwsYo1
+visibility: Public
+confirmation: order@bachata-sensual.party
+eventType: Party
+organiser: obaidr
+form: Yes
+createdBy: TwFolAExNhgDzb6xIbYEmYwwsYo1
+commentsCount: 0
+name: Bachata sensual Night Dj Obi
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachatango:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-08T19:00:00.000Z
+username: obaidr
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWb70NoWryfZjpd5hTSps.png?generation=1665398971606491&alt=media
+viewsCount: 150

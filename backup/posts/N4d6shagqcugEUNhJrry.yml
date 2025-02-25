@@ -1,0 +1,177 @@
+endDate: 1716760500000
+sourceUrl: https://www.facebook.com/events/2355083991367778/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1711573693000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1712237035000
+facebookId: "2355083991367778"
+facebook: https://www.facebook.com/events/2355083991367778/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2355083991367778/
+eventType: Festival
+providerItemId: e2355083991367778@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Sabor Cubano Salsafestival
+location: Eggenfelden
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716552000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 84307 Eggenfelden, Germany
+  website: http://www.eggenfelden.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Eggenfelden
+  geometry:
+    viewport:
+      southwest:
+        lng: 12.69862616639153
+        lat: 48.36984845111501
+      northeast:
+        lng: 12.79912607512683
+        lat: 48.44634075334376
+    location:
+      lng: 12.7575168
+      lat: 48.40508879999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Eggenfelden
+      long_name: Eggenfelden
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Rottal-Inn
+      long_name: Rottal-Inn
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lower Bavaria
+      long_name: Lower Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bavaria
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "84307"
+      long_name: "84307"
+  place_id: ChIJ71zqqlC5dUcRIMY3CaQlHQQ
+  url: https://maps.google.com/?q=84307+Eggenfelden,+Germany&ftid=0x4775b950aaea5cef:0x41d25a40937c620
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1713214831796
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02U7Xciyfe8KgdbHSBCaU4Jt6PZdY1wyPvy8VysNDgoNjKvEqWdcx6KEaVoLn6rcvRl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214832/ymk0xbphmbz3qqmce3cf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1713214831796
+  owned: false
+  name: Jan Azucarblanca
+  place: ChIJ71zqqlC5dUcRIMY3CaQlHQQ
+  updatedAt: 1713214831796
+  username: jan.azucarblanca
+claimed: No
+link: ""
+description: >-
+  Nach dem Erfolg vom letzten Jahr, jetzt zum zweiten Mal:
+
+  Sabor Cubano, das Salsafestival in Eggenfelden
+
+  3 Tage, 8 Workshops, 2 Partys
+
+  Mit Asdrubal aus Santiago de Cuba
+
+  Er unterrichtet seit vielen Jahren Salsa Cubana (Casino), Son, Rumba, Reggaeton und vieles mehr. Asdrubal ist nicht nur ein hervorragender Tänzer sondern auch ein außergewöhnlicher Lehrer!
+
+  Wir legen Wert auf authentisch cubanischen Stil, persönliche Atmosphäre und Unterricht in überschaubaren Gruppen.
+
+  Die genaue Location der Workshops und der Partys wird noch bekannt gegeben.
+
+
+  Freitag 24.5.2024
+
+  15:00-17:15 Son Cubano Bootcamp 45€
+
+  ab 21:00 Party
+
+
+  Samstag 25.5.2024
+
+  Workshops
+
+  14:00 Salsa Mittelstufe
+
+  15:15 Styling (M+F)
+
+  16:30 Rueda de Casino
+
+  ab 21:00 Party
+
+
+  Sonntag 26.5.2024
+
+  Workshops
+
+  14:00 Musicalidad
+
+  15:15 Salsa Fortgeschritten
+
+  16:30 Salsa con Rumba
+
+
+  1 Workshop 25€, 1 Tag 60€, 2 Tage 90€, 3 Tage 115 €
+
+  bis 1.5.2024 10% Rabatt
+
+
+  Die genauen Locations geben wir rechtzeitig bekannt.
+
+  Infos und Anmeldung unter azucarblanca@gmx.de
+
+  Weitere Infos und Anmeldung unter azucarblanca@gmx.de
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214833/bh3ukenpshwoujkpeeph.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ71zqqlC5dUcRIMY3CaQlHQQ
+international: No
+hash: 1716552000000+ChIJ71zqqlC5dUcRIMY3CaQlHQQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FN4d6shagqcugEUNhJrry.png?generation=1713214877797811&alt=media
+viewsCount: 1
+id: N4d6shagqcugEUNhJrry

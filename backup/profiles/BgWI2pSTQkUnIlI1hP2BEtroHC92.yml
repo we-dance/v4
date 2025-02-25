@@ -1,0 +1,57 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1625825855242
+locales:
+  de: true
+  en: true
+createdBy: BgWI2pSTQkUnIlI1hP2BEtroHC92
+pwaUsed: false
+cities:
+  ChIJt9Y6hM31qEcRm-yqC5j4ZcU: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FBgWI2pSTQkUnIlI1hP2BEtroHC92%2F6329ab54-25a6-4b96-b190-5dcbfb8ddfae?alt=media&token=9ee8a8f2-6ce7-4665-bddd-b9ead2394549
+gender: Male
+styles:
+  ChaChaCha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJt9Y6hM31qEcRm-yqC5j4ZcU
+daysUsed: 3
+lastLoginAt: 1626089280452
+name: lanfare
+step: photo
+hometown: ChIJt9Y6hM31qEcRm-yqC5j4ZcU
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: Yes
+username: Hei
+updatedBy: ~
+savedBy:
+  "null": true
+updatedAt: 1628877291095
+viewsCount: 3
+id: BgWI2pSTQkUnIlI1hP2BEtroHC92

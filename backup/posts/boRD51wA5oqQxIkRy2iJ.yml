@@ -1,0 +1,127 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/musseque-kizomba-festival/
+name: Musseque Kizomba Festival IV
+sourceUrl: https://facebook.com/events/1258165808674695
+venue:
+  address_components:
+    - long_name: Lisbon
+      short_name: Lisbon
+      types:
+        - locality
+        - political
+    - long_name: Lisbon
+      short_name: Lisbon
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Lisbon
+      short_name: Lisbon
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Portugal
+      short_name: PT
+      types:
+        - country
+        - political
+  formatted_address: Lisbon, Portugal
+  geometry:
+    location:
+      lat: 38.7222524
+      lng: -9.1393366
+    viewport:
+      northeast:
+        lat: 38.79675952753452
+        lng: -9.08963599547923
+      southwest:
+        lat: 38.69139936595241
+        lng: -9.229835557691242
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Lisbon
+  place_id: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+  url: https://maps.google.com/?q=Lisbon,+Portugal&ftid=0xd19331a61e4f33b:0x400ebbde49036d0
+endDate: 1756087200000
+claimed: No
+link: https://my.weezevent.com/musseque-kizomba-festival-1
+description: >
+  🔥🔥🔥 MUSSEQUE 3RD EDITION🔥🔥🔥
+
+  🎈ALL IN ONE FESTIVAL
+
+  🎈3 PARTIES
+
+  🎈THE BEST WORKSHOPS
+
+  🎈 POOL PARTIES WITH ANIMATIONS AND GAMES
+
+  🎈 THE BEST SECRETS OF LUANDA’S MUSSEQUE SHARED TO YOU
+
+  ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+  [EN - 🇬🇧]
+
+  The Musseque is where our culture originates. Dance, songs, folklore, so much has been born from it. And since 2016, the Musseaue festival is here to share to you the biggest secrets of Luanda’s traditional neighborhood.
+
+  The word Oriunda originates from Kinbundo, one of the official languages of Angola. The ghetto is the biggest source of inspiration of Angolan dances like Kizomba, Semba, Afro-House, Kuduro and Rebita etc.
+
+  WHAT TO EXPECT FROM THIS EDITION:
+
+  ✨ QUALITY TEACHERS
+
+  ✨THE BEST DJS OF THE MOMENT
+
+  ✨ POSITIVE AND CONSTRUCTIVE ENERGY
+
+  ✨ DANCERS FROM AROUND THE WORLD
+
+  ✨ KIZOMBA WORKSHOPS, SEMBA, AFRO-HOUSE, KUDURO, REBITA, AFRO TRIBAL
+
+  ✨ THEMATIC PARTIES
+
+  ✨ ANIMATIONS DURING THE FESTIVAL
+
+  ✨ GAMES
+
+  ✨ POOL PARTY
+
+  🌪 This is a unique experience with a unique line up 🌪
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/tbenclexasr3pnakip9s.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+org:
+  id: HuU91caZiLbum7MspVYj
+  username: musseque.kizomba.fes
+  name: Musseque Kizomba Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546468/wnmbemfzvduf72zlr5j4.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/mussequekizombafestival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1258165808674695/
+facebookId: "1258165808674695"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1755871200000+ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+startDate: 1755871200000
+id: boRD51wA5oqQxIkRy2iJ

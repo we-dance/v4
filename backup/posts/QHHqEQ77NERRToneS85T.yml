@@ -1,0 +1,171 @@
+endDate: 1711317600000
+sourceUrl: https://www.facebook.com/events/1088773385529329
+createdAt: 1711289039134
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710840631000
+updatedAt: 1711289039134
+importedAt: 1711289039134
+providerUpdatedAt: 1710840631000
+facebookId: "1088773385529329"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1088773385529329
+eventType: Party
+providerItemId: 10008586-1711303200-1711317600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Tánctemplom, Huszár u. 4., Budapest, 1074, Hungary
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711303200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Huszár u. 4, 1074 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tánctemplom
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0758831197085
+        lat: 47.49820031970849
+      northeast:
+        lng: 19.07858108029151
+        lat: 47.50089828029149
+    location:
+      lng: 19.0771765
+      lat: 47.49953619999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Huszár u.
+      long_name: Huszár utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VII. kerület
+      long_name: VII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1074"
+      long_name: "1074"
+  international_phone_number: +36 30 598 3347
+  place_id: ChIJCdNmGGHcQUcRNeC3WU_634Q
+  url: https://maps.google.com/?cid=9574646551527546933
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/tanctemplom
+  name: Tánctemplom
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765535/bu1wa0kodail6jx1ewjd.jpg
+  bio: ""
+  id: aQ73xCctI52HmsaE7jXP
+  instagram: ""
+  username: tanctemplom
+claimed: No
+facebook: https://www.facebook.com/events/1088773385529329/
+link: ""
+description: >-
+  CHUPITOS PARTY - salsa🥥🍊🏖, bachata,❤️ kizomba 🌗 party 3 teremben, kellemes
+  vasárnap😀 🌺esti időtöltés barátokkal, zenével, tánccal....chupitossal! Az
+  első 50 táncosnak ajándék limonádéval!
+
+  📭 CÍM: Tánctemplom, 1074 Bp. Huszár u. 4.
+
+  ⏰ Időpont: minden Vasárnap 18.00-22.00
+
+  🎶 ZENE - DJ Gavallér
+
+  salsa, bachata és kizomba
+
+  🥃🍷🍿🍡Bár
+
+  Táncosbarát árak
+
+  💲 BELÉPŐ
+
+  2.500 Ft/fő vagy 7€/fő
+
+  🚗🛴✈️🚀🛳🚜 MEGKÖZELÍTÉS
+
+  - Gyalogosan a Blahától a Keleti felé 2 percre a bal oldalon vagy a Keletitől a Blaha felé 1 percre a jobb oldalon.
+
+  - Tömegközlekedéssel:
+
+  - 2-es metróval:
+
+  a Blaha Lujza térig, onnan gyalog a Keleti felé 2 percre vagy a Keleti pályaudvartól gyalog a Blaha felé 1percre
+
+  - 4-es metróval :
+
+  a II. János Pál Pápa térig, onnan gyalog 2 percre a Rákóczi út felé
+
+  - 7-es busszal a Huszár u. megállóhelyig
+
+  - Éjszakai járatok a közelben: 907, 956 és 973.
+
+  - Autóval:
+
+  a Rózsák tere felől, vasárnap ingyenes parkolás a környező utcákban, illetve az Erkel Színház előtt.
+
+  💻☎️ INFO
+
+  mobil: 003630 598 3347
+
+  szakmai partnereink:
+
+  www.chilisalsa.hu
+
+  www.kizombaakademia.hu
+
+  www.bachataakademia.hu
+
+  médiapartnerünk:
+
+  www.latinfo.hu 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711289066/aawkjbycx6ml0bjnj5dw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Chupitos Party a Tánctemplomban *salsa*bachata*kizomba*
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1711299600000+ChIJCdNmGGHcQUcRNeC3WU_634Q
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQHHqEQ77NERRToneS85T.png?generation=1711289096599128&alt=media
+id: QHHqEQ77NERRToneS85T

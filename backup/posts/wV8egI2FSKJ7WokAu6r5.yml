@@ -1,0 +1,96 @@
+venue:
+  formatted_address: Körtestraße 10 2. Hof, Aufgang 0 (Metallwendeltreppe), 2. OG,
+    10967 Berlin, Germany
+  website: http://www.backstageberlin.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Backstage - das Tanzstudio der Trainerhelden
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4117387302915
+      south: 52.4898999697085
+      north: 52.4925979302915
+      west: 13.4090407697085
+    location:
+      lng: 13.4105435
+      lat: 52.491457
+  address_components:
+    - types:
+        - subpremise
+      short_name: Aufgang 0 (Metallwendeltreppe), 2. OG
+      long_name: Aufgang 0 (Metallwendeltreppe), 2. OG
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10967"
+      long_name: "10967"
+  international_phone_number: +49 173 9126821
+  place_id: ChIJm-cC9UdPqEcR3MJZ6HXaKZ0
+  url: https://maps.google.com/?cid=11324822937944048348
+endDate: 2023-05-18T19:00
+claimed: No
+link: www.topup-production.com
+description: with Dynamic Legends
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F189ce73a-8daa-4c29-9dc3-b25b06481e1b?alt=media&token=18552fb9-6db3-4aaf-a210-73d3a879e29c
+createdAt: 1684168916770
+artists:
+  - instagram: https://instagram.com/dynamiclegends_
+    username: dynamiclegends_
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - dynamiclegends_
+international: No
+updatedAt: 1684168916770
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+org:
+  instagram: https://instagram.com/topup_production
+  username: topup_production
+eventType: Workshop
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    aslihan: true
+name: Dancehall Workshop
+online: No
+styles:
+  Dancehall:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-18T17:30
+username: aslihan
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwV8egI2FSKJ7WokAu6r5.png?generation=1684168945598530&alt=media
+viewsCount: 36
+id: wV8egI2FSKJ7WokAu6r5

@@ -1,0 +1,178 @@
+endDate: 1726952400000
+sourceUrl: https://www.facebook.com/events/501333739495558/
+createdAt: 1724853629797
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1724785513000
+updatedAt: 1724853629797
+importedAt: 1724853629797
+providerUpdatedAt: 1724785513000
+facebookId: "501333739495558"
+facebook: https://www.facebook.com/events/501333739495558/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/501333739495558/
+eventType: Party
+providerItemId: e501333739495558@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Joycce Geburtstags- Salsa Cubana Party für alle in der MEGANO Tanzschule
+location: Megano Tanzschule
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726941600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  website: https://megano-tanzschule.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: MEGANO Dance School
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5317569697085
+        lat: 48.0992159697085
+      northeast:
+        lng: 11.5344549302915
+        lat: 48.1019139302915
+    location:
+      lng: 11.533212
+      lat: 48.1005716
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Geretsrieder Str.
+      long_name: Geretsrieder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  international_phone_number: +49 160 5560717
+  place_id: ChIJ7cSE9lbZnUcRLl1y8iFygkM
+  url: https://maps.google.com/?cid=4864576037640625454
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/MEGANOTANZSCHULE
+  name: Megano Tanzschule
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmegano_dance.png?generation=1662975077262579&alt=media
+  bio: Salsa Cubana, Musik, Animation, News, Videos und Live Unterricht
+  id: w1el0y0vP0aRSfra0pE5nmImDCr1
+  instagram: https://instagram.com/megano_dance
+  username: megano_dance
+claimed: No
+link: ""
+description: >-
+  Jeden Samstag die Gelegenheit zu tanzen - Salsa Cubana mit DJ Joycce!
+
+
+  Diesen Samstag feiern wir Joycce Geburtstag nach. Vielleicht bald schon Tradition- viele Leckereien und Kuchen sowie eine tolle Party warten auf euch!
+
+
+  Für wen? Für ALLE!🥳
+
+
+  🕺🏻💃🏻🤩🇨🇺
+
+
+
+  ❗️Zwei Mal im Monat❗️
+
+  -> Start um 20 Uhr ⏰ mit einem kostenfreien Schnupperkurs! 
+
+  Termine wann die Schnupperkurse stattfinden:
+   https://megano-tanzschule.de/programm/
+
+  Ab ca 20:45 Uhr Rueda mit Joycce
+
+
+  Anschließend Partytime, Animation, noch mehr Rueda, gute Musik und Stimmung!
+
+  💃🏻🎶🇨🇺
+
+
+  Komm vorbei und unser Team heißt dich Willkommen!
+
+
+  Drinks 🍾 gibt es an unserer traumhaften Bar!
+
+
+  Eintritt normal 10€
+
+  Familia / Studenten 8€*
+
+
+  Geretsrieder Str. 6/ Obersendling/ München
+
+  U3 Station Obersendling!
+
+  3 min zu Fuß
+
+
+  S Bahn Siemenswerke
+
+  7 min zu Fuß!
+
+
+  *Nachweis erforderlich 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724853642/hghriihes4iaogwpe8rn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1726941600000+ChIJ7cSE9lbZnUcRLl1y8iFygkM
+viewsCount: 5
+id: tDtRHH2tCTAcMWXswHJ2

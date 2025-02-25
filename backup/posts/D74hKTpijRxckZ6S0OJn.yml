@@ -1,0 +1,107 @@
+venue:
+  formatted_address: Simplonstraße 23, 10245 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: SaliGari Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4604788802915
+      south: 52.50702796970851
+      north: 52.5097259302915
+      west: 13.4577809197085
+    location:
+      lng: 13.4592078
+      lat: 52.50842830000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "23"
+      long_name: "23"
+    - types:
+        - route
+      short_name: Simplonstraße
+      long_name: Simplonstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10245"
+      long_name: "10245"
+  international_phone_number: +49 30 55604670
+  place_id: ChIJM24D0_JPqEcRGJl4jAOa6WM
+  url: https://maps.google.com/?cid=7199454819360741656
+  username: saligaribar
+endDate: 1719622800000
+claimed: No
+link: https://www.eventbrite.com/e/rooted-workshop-series-tickets-915237067707?aff=oddtdtcreator&_gl=1%2A17uyq81%2A_up%2AMQ..%2A_ga%2AMTU3NTA4ODE0My4xNzE5NDM1MzQz%2A_ga_TQVES5V6SH%2AMTcxOTQzNTM0My4xLjEuMTcxOTQzNTM0OC4wLjAuMA..
+description: >+
+  Apricot is launching its inaugural mini-festival series this summer for
+  creative freelancers in Berlin over two weekends including information
+  workshops and performances. 
+
+
+  Find full details here: https://www.eventbrite.com/e/rooted-workshop-series-tickets-915237067707?aff=oddtdtcreator&_gl=1%2A1bykk1o%2A_up%2AMQ..%2A_ga%2AMTU3NTA4ODE0My4xNzE5NDM1MzQz%2A_ga_TQVES5V6SH%2AMTcxOTQzNTM0My4xLjEuMTcxOTQzNTM0OC4wLjAuMA..
+
+
+
+program: []
+type: event
+duration: 13320
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfqGUzLNU4LT8SjZScmLtE6VOnyd2%2F905fcbda-a33e-454d-87da-e1d4f42ce9d1?alt=media&token=842bb8c8-b98b-4bf1-a6a9-b7e65c937931
+createdAt: 1719436285984
+artists: []
+price: "96.27 EUR (Full Day), 45.55 EUR (1 Workshop) "
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1719436285984
+updatedBy: fqGUzLNU4LT8SjZScmLtE6VOnyd2
+visibility: Public
+org:
+  username: apricotproductions
+eventType: Festival
+confirmation: You can purchase tickets via the following Eventbrite
+  link:https://www.eventbrite.com/e/rooted-workshop-series-tickets-915237067707?aff=oddtdtcreator&_gl=1%2A1bykk1o%2A_up%2AMQ..%2A_ga%2AMTU3NTA4ODE0My4xNzE5NDM1MzQz%2A_ga_TQVES5V6SH%2AMTcxOTQzNTM0My4xLjEuMTcxOTQzNTM0OC4wLjAuMA..
+form: No
+createdBy: fqGUzLNU4LT8SjZScmLtE6VOnyd2
+watch:
+  count: 1
+  list:
+    apricotproductions: true
+name: "ROOTED: Mini Festival Series "
+online: Yes
+styles:
+  Contemporary:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718823600000
+hash: 1718823600000+ChIJM24D0_JPqEcRGJl4jAOa6WM
+username: apricotproductions
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FD74hKTpijRxckZ6S0OJn.png?generation=1719436298554221&alt=media
+viewsCount: 2
+id: D74hKTpijRxckZ6S0OJn

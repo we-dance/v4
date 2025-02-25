@@ -1,0 +1,180 @@
+endDate: 1714946100000
+sourceUrl: https://www.facebook.com/events/955675015560940/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1683239039000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1683784314000
+facebookId: "955675015560940"
+facebook: https://www.facebook.com/events/955675015560940/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/955675015560940/
+eventType: Festival
+providerItemId: e955675015560940@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: CALPE DANCE FESTIVAL 2024 ~ BSKDANCER (PROMOTOR OFICIAL)
+location: Calpe, Alicante
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714572000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Calp, Alicante, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Calp
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.01073337106970372
+        lat: 38.62853034863768
+      northeast:
+        lng: 0.0859760749608157
+        lat: 38.67468200550323
+    location:
+      lng: 0.04568759999999999
+      lat: 38.6436469
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Calp
+      long_name: Calp
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: A
+      long_name: Alicante
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Valencian Community
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+  place_id: ChIJuaWi6C_-nRIRc0dVDVMq04s
+  url: https://maps.google.com/?q=Calp,+Alicante,+Spain&ftid=0x129dfe2fe8a2a5b9:0x8bd32a530d554773
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/BSKDancer0
+  name: BSKDancer
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/pocetzjrb87ztuk7phrh.jpg
+  bio: ""
+  id: MogQAq5ZGbus6Y4tVwxD
+  instagram: ""
+  username: BSKDancer0
+claimed: No
+link: https://lasalsadelbaile.com/congreso/1644.html?ref=BSKDANCER
+description: >-
+  ℂ𝔸𝕃ℙ𝔼 𝔻𝔸ℕℂ𝔼 𝔽𝔼𝕊𝕋𝕀𝕍𝔸𝕃 𝟚𝟘𝟚 𝟜
+
+
+  𝗣𝗥𝗢𝗠𝗢𝗖𝗢𝗗𝗘: 𝗕𝗦𝗞𝗗𝗔𝗡𝗖𝗘𝗥
+
+
+  📍Hotel Bahía Calpe (Calpe)
+
+  📆 1 - 5 Mayo 2024
+
+
+  𝗟𝗶𝗻𝗸 𝗱𝗶𝗿𝗲𝗰𝘁𝗼: ⬇️
+
+  https://lasalsadelbaile.com/congreso/1644.html?ref=BSKDANCER
+
+
+  Vuelve el evento del puente de Mayo en la playa de Calpe (Alicante).
+
+
+  Todo el evento será en el mismo hotel, el magnífico hotel BAHIA CALPE BY PIERRE VACANCES, en primera línea de playa.
+
+
+  RONALD & ALBA
+
+  TAMARA & CÁNDIDO
+
+  JESUS & MARÍA
+
+  JOAN & MARÍA
+
+  DAVID & INES
+
+  JUAN & NEREA
+
+  ALEJANDRO & VANESA
+
+  DOMI MONTALVO
+
+  MANUEL & CRISTINA
+
+  DAVID & LORENA
+
+  OSCAR GARCIA
+
+  JOSHUA & IRIS
+
+  MIGUEL ANGEL & ANABEL
+
+  NACHO & MIRIAM
+
+  VERO B.DANCE
+
+  FOX & MI.J.
+
+  KEVIN & ALISON
+
+  LADIES ESTILOS UNIDOS
+
+  JUANMA & TANIA
+
+  BIANCA & ADÁN
+
+  Y muchos más...
+
+
+  DJ 🎧:
+
+  Dj Salva
+
+  Dj Miguelón
+
+  Dj Frank
+
+
+  #bskdancer #coloreatubaile #bachata #salsa #baile #dance #dancer #ronaldyalba #bachataspain #calpedancefestival #bachatasensual #bachatadancing #bachatadance #salsaenlinea #salsaon2 #kizz #kizomba #calpe #playa #verano2023
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131897/swkw4anri6ipgjmnkquw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJDTFvEWmSo4cRPGlwsjivQwY
+international: No
+hash: 1714572000000+ChIJuaWi6C_-nRIRc0dVDVMq04s
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEYG0LJKhWHwO3qxFU3oq.png?generation=1714131920499686&alt=media
+id: EYG0LJKhWHwO3qxFU3oq

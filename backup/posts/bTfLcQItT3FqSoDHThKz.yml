@@ -1,0 +1,42 @@
+endDate:
+  _seconds: 1628355600
+  _nanoseconds: 0
+link: https://www.eventbrite.de/e/outdoor-afrobeats-dance-workshop-munchen-pinakotheken-tickets-165520025853?aff=ebdsoporgprofile
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F651deb3d-9534-469e-8f04-250bdfbd2fb0?alt=media&token=3485ee5b-8b0b-4702-8cb0-2380ebd12c5f
+duration: "120"
+createdAt: 1626859594012
+watchersCount: 0
+price: "15"
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbTfLcQItT3FqSoDHThKz.png?generation=1628069752440042&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: bTfLcQItT3FqSoDHThKz
+views: 1
+updatedAt: 1626859594012
+updatedBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+address: Pinakothek der Moderne
+visibility: Public
+eventType: Workshop
+form: Yes
+createdBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+commentsCount: 0
+name: Afrobeats - Dance Workshop
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-07T15:00:00.000Z
+username: lakossa
+viewsCount: 6

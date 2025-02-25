@@ -1,0 +1,149 @@
+endDate: 1716588000000
+sourceUrl: https://www.facebook.com/events/1589553758565951/
+createdAt: 1716386442200
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1716364895000
+updatedAt: 1716386442200
+importedAt: 1716386442200
+providerUpdatedAt: 1716364895000
+facebookId: "1589553758565951"
+facebook: https://www.facebook.com/events/1589553758565951/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1589553758565951/
+eventType: Party
+providerItemId: 10008918-1716577200-1716588000@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Euphoria Dance Studio, Hunyadi utca 22., Debrecen, 4026, Magyarország
+startDate: 1716577200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Debrecen, Párizsi Udvar II, Hunyadi János u. 22, 4026 Hungary
+  website: http://tanc-vilag.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Euphoria Dance Studio - Táncvilág Stúdió
+  geometry:
+    viewport:
+      southwest:
+        lng: 21.6252875697085
+        lat: 47.5332585197085
+      northeast:
+        lng: 21.6279855302915
+        lat: 47.5359564802915
+    location:
+      lng: 21.6265724
+      lat: 47.5346596
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Hunyadi János u.
+      long_name: Hunyadi János utca
+    - types:
+        - locality
+        - political
+      short_name: Debrecen
+      long_name: Debrecen
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "4026"
+      long_name: "4026"
+  international_phone_number: +36 30 470 5308
+  place_id: ChIJHzA7NQYOR0cR4A7tmG6UA08
+  url: https://maps.google.com/?cid=5693557556659424992
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/euphoria.dance.hun
+  name: Euphoria Dance Studio - Táncvilág Stúdió
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902719/pcqhj3gvgsvqydj3nfwy.jpg
+  bio: ""
+  id: FjusBbgj4lQjYyxBvyzK
+  instagram: ""
+  username: euphoria.dance.hun
+claimed: No
+link: ""
+description: >-
+  💓 Hevesebben ver a szíved, ha kizomba ritmust hallasz?
+
+  Akkor itt a Te helyed: KIZOMBA SOCIAL, ami 💯%-ban erről szól
+
+  Kizombulj velünk és közben töltődj fel a tánc energiájával! 🙂
+
+
+  Gyakorolj szabadon, tökéletesítsd technikádat, és egyszerűen érezd jól magad elvárások nélkül!
+
+
+  ⚠ Figyelem
+
+  ✅ szünet nélküli, kevert zenék
+
+  ✅ kiváló táncparkett
+
+  ✅ ügyes táncosok
+
+  ✅ korlátlan tánclehetőség
+
+  ✅ nasi és innivaló behozható
+
+
+  Kérjük, hogy váltócipőt hozzatok magatokkal❗
+
+
+  👉 Jelezz vissza az eseményre, hogy ne maradj le a friss infóról!
+
+
+  🎫 Belépő: 1500 Ft
+
+  ❗A belépővel a Salsa Happy Hour eseményen is részt tudsz venni 18:00 - 19:00-ig.
+
+  https://www.facebook.com/events/3754054434827325/
+
+
+  📍 Helyszín: Euphoria Dance Studio, Párizsi Udvar II, 2.emelet
+
+  Debrecen, Hunyadi u. 22. (Medicover mellett)
+
+  🕓 Időpont: 2024. május 24. (péntek) 19:00 - 22:00
+
+
+  🥰 Várunk nagyon sok szeretettel!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716386456/rjyaerjcynvfjfg5h8b2.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 100% Kizomba Social | Debrecen
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJgyte_ioMR0cRcBEeDCnEAAQ
+international: No
+hash: 1716570000000+ChIJHzA7NQYOR0cR4A7tmG6UA08
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FqWc267OdtC2Ttba0thmL.png?generation=1716386478670849&alt=media
+id: qWc267OdtC2Ttba0thmL

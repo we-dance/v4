@@ -1,0 +1,137 @@
+endDate: 1724569200000
+sourceUrl: https://www.facebook.com/events/1783018305470710/
+createdAt: 1718287249591
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1708575976000
+updatedAt: 1718287249591
+importedAt: 1718287249591
+providerUpdatedAt: 1717697299000
+facebookId: "1783018305470710"
+facebook: https://www.facebook.com/events/1783018305470710/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1783018305470710/
+eventType: Party
+providerItemId: e1783018305470710@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SALSA TREMBLANT
+location: 1000 chemin des voyageurs, Mont-Tremblant, QC, Canada, Quebec
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724385600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 1000 Chem. des Voyageurs, Mont-Tremblant, QC J8E 1T1, Canada
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 1000 Chem. des Voyageurs
+  geometry:
+    viewport:
+      southwest:
+        lng: -74.58674818029151
+        lat: 46.2082921697085
+      northeast:
+        lng: -74.5840502197085
+        lat: 46.2109901302915
+    location:
+      lng: -74.5852914
+      lat: 46.2098453
+  address_components:
+    - types:
+        - street_number
+      short_name: "1000"
+      long_name: "1000"
+    - types:
+        - route
+      short_name: Chem. des Voyageurs
+      long_name: Chemin des Voyageurs
+    - types:
+        - locality
+        - political
+      short_name: Mont-Tremblant
+      long_name: Mont-Tremblant
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Les Laurentides
+      long_name: Les Laurentides
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Laurentides
+      long_name: Laurentides
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: QC
+      long_name: Québec
+    - types:
+        - country
+        - political
+      short_name: CA
+      long_name: Canada
+    - types:
+        - postal_code
+      short_name: J8E 1T1
+      long_name: J8E 1T1
+  place_id: ChIJv2BzMdJ3z0wRo4FIIEvMP4c
+  url: https://maps.google.com/?q=1000+Chem.+des+Voyageurs,+Mont-Tremblant,+QC+J8E+1T1,+Canada&ftid=0x4ccf77d2317360bf:0x873fcc4b204881a3
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718287269217
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/quoifairetremblant
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718287269/sjgvg7jjjvwhvfgehu5z.png
+  source: facebook
+  type: Organiser
+  createdAt: 1718287269217
+  owned: false
+  name: Quoi Faire Tremblant
+  place: ChIJF1KUvA12z0wRwFRNrq0MBAU
+  updatedAt: 1718287269217
+  username: quoifairetremblant
+claimed: No
+link: https://www.tremblant.ca/quoi-faire/evenements/salsa-tremblant
+description: >-
+  𝙈𝙐𝙎𝙄𝙌𝙐𝙀 𝙇𝘼𝙏𝙄𝙉𝙀 𝘿𝘼𝙉𝙎 𝙐𝙉𝙀 𝘼𝙈𝘽𝙄𝘼𝙉𝘾𝙀 𝙁𝙀𝙎𝙏𝙄𝙑𝙀
+  𝙀𝙏 𝘿𝙀́𝘾𝙊𝙉𝙏𝙍𝘼𝘾𝙏𝙀́𝙀.
+
+  .
+
+  Une fête de rue familiale transforme tout le village en une vitrine de la vie latine avec une musique trépidante, des danses passionnées et une culture vibrante !
+
+  .
+
+  𝙇𝘼𝙏𝙄𝙉 𝙈𝙐𝙎𝙄𝘾 𝙄𝙉 𝘼 𝙁𝙀𝙎𝙏𝙄𝙑𝙀 𝘼𝙉𝘿 𝙍𝙀𝙇𝘼𝙓𝙀𝘿 𝘼𝙏𝙈𝙊𝙎𝙋𝙃𝙀𝙍𝙀
+
+  .
+
+  A family street party transforms the entire Village into a showcase of Latin life with pulsating music, passionate dancing, and vibrant culture!
+
+
+
+  Découvrez la programmation complète / See full program https://www.tremblant.ca/quoi-faire/evenements/salsa-tremblant
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718287270/or7situ7fslwvhgzaakg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJF1KUvA12z0wRwFRNrq0MBAU
+international: No
+hash: 1724385600000+ChIJv2BzMdJ3z0wRo4FIIEvMP4c
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1guzJUzgOHDBBM8ZoMlY.png?generation=1718287291986028&alt=media
+id: 1guzJUzgOHDBBM8ZoMlY

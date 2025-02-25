@@ -1,0 +1,350 @@
+venue:
+  formatted_address: Karolinská 8, 186 00 Praha 8-Karlín, Czechia
+  website: https://riverrink.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: River Rink Karlín
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4475821802915
+      south: 50.0935840697085
+      north: 50.0962820302915
+      west: 14.4448842197085
+    location:
+      lng: 14.4463764
+      lat: 50.0950757
+  address_components:
+    - types:
+        - premise
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  place_id: ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+  url: https://maps.google.com/?cid=13502229040501932412
+  username: riverrink.cz
+endDate: 1721332800000
+claimed: No
+description: >-
+  When two DJs and two dance schools get together, amazing stuff happens! And so
+  we - Salsaholics, DanceDifferent, Ksenia Chkalova, DJ Lole and DJ Lusithano -
+  are incredibly excited to invite you to our joined HUGE LATIN PARTY for all
+  you dance lovers out there! Let’s enjoy TOGETHER!
+
+
+  🕺💃 Program:
+
+
+  1️⃣ 18.00-18.45 Cuban Salsa Workshop
+
+  DanceDifferent and Salsaholics teachers prepared classes together!!! (Schedule will always be posted in the discussion)
+
+
+  ✅ Level of the workshop:
+
+  - at least improvers (you need to know basic step casino or quapea, dile que no, enchufala, vasilala
+
+  - for beginners and absolute beginners we will have a special teacher to give you the salsa basics so you can also enjoy the party dance floor 😉
+
+
+  2️⃣ 18.45-22.00 Latino Party - Bachata and Cuban salsa
+
+
+  🏷 PRICE
+
+  100czk for the whole night (workshop and party included)
+
+
+  📍 LOCATION
+
+  River Rink Karlín - https://maps.app.goo.gl/7H7bVFhtaRsRwRPy6
+
+  🇨🇿🇬🇧 LANGUAGE
+
+
+  Workshop will be led 50/50 in English and Czech language.
+
+
+  **🇨🇿**🇨🇿**🇨🇿**🇨🇿**🇨🇿**🇨🇿**
+
+
+  Když se sejdou staří kamarádi, a navíc to jsou salsa/bachata DJové a taneční školy, dějí se prostě skvělé věci! A tak je nám - Salsaholics, DanceDifferent, Ksenia Chkalova, DJ Lole a DJ Lusithano - neuvěřitelným potěšením, že Vás můžeme pozvat na naší společnou OBROVSKOU párty pod širým nebem, kterou jsme připravili pro Vás všechny, taneční nadšence a milovníky salsy a bachaty! 😊
+
+
+  🕺💃 Program:
+
+
+  1️⃣ 18.00-18.45 Workshop kubánské salsy
+
+  DanceDifferent a Salsaholics lektoři si workshopy připravili společně!!! (Rozvrh bude vždy zveřejněn v diskusi události)
+
+
+  ✅ Úroveň workshopu:
+
+  - alespoň mírně pokročilí (musíte znát základní krok casino nebo quapea, dile que no, enchufala, vasilala)
+
+  - pro začátečníky a úplné začátečníky bude připraven jeden lektor navíc, se kterým se naučíte základy salsy, abyste si následující párty víc užili. 😉
+
+
+  2️⃣ 18.45-22.00 Latino party - bachata a kubánská salsa
+
+
+  🏷 CENA
+
+  100 Kč za celý večer (zahrnuje workshop a party)
+
+
+  📍 MÍSTO
+
+  River Rink Karlín - 
+
+  https://maps.app.goo.gl/7H7bVFhtaRsRwRPy6
+
+
+  Workshop bude veden 50:50 v anglickém a českém jazyce.
+program: []
+type: event
+seriesId: 04SEDGNRgkaMinbEVOYj
+duration: 240
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F5791574f-eb3e-4cda-ace8-e6ab2cc56f04?alt=media&token=1c637568-3148-4320-95f4-6c27e37483e9
+artists: []
+price: 100 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  username: DjLole
+eventType: Party
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+name: Latin Summer Parties | Salsa & Bachata Openair Thursdays
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721318400000
+hash: 1721318400000+ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+username: DjLole
+viewsCount: 1
+star:
+  count: 0
+  list: {}
+link: https://www.facebook.com/events/2697969937031944
+telegram: {}
+upVotes: 0
+instagram: {}
+downVotes: 0
+createdAt: 1721231075115
+checkin:
+  count: 0
+  list: {}
+children:
+  - endDate: 1727380800000
+    id: ZSno6W6ZfsgoDejOJoB9
+    startDate: 1727366400000
+  - endDate: 1727985600000
+    id: Eu5QR5D6fzHkU3OqDbj0
+    startDate: 1727971200000
+  - endDate: 1728590400000
+    id: w075AgUHUBiz5b14lixD
+    startDate: 1728576000000
+  - endDate: 1729195200000
+    id: NZbV1dz8rZeA6InSLqwU
+    startDate: 1729180800000
+  - endDate: 1729800000000
+    id: 1X4FDxGTQofM1CBB2p47
+    startDate: 1729785600000
+  - endDate: 1730404800000
+    id: kUDM9NvwPj7OdFTcgyXO
+    startDate: 1730390400000
+  - endDate: 1731009600000
+    id: 5D2Mg47IWLe0yLXood4q
+    startDate: 1730995200000
+  - endDate: 1731614400000
+    id: FYe7zO6nKHVkflVE2d3o
+    startDate: 1731600000000
+  - endDate: 1732219200000
+    id: 0cQAF8urmx7Tm7Y0KR4W
+    startDate: 1732204800000
+  - endDate: 1732824000000
+    id: Vi24bwpq9WviBKLFW1yr
+    startDate: 1732809600000
+  - endDate: 1733428800000
+    id: 9WNYjoGrVp8iGtM4coCB
+    startDate: 1733414400000
+  - endDate: 1734033600000
+    id: MgxeF0HljNHgShLIfA4F
+    startDate: 1734019200000
+  - endDate: 1734638400000
+    id: 16cNgHfvhLNqukkXIjBq
+    startDate: 1734624000000
+  - endDate: 1735243200000
+    id: f7FO5wKme58yvLCJubeK
+    startDate: 1735228800000
+  - endDate: 1735848000000
+    id: eAjl2m54jfldS05M5mGB
+    startDate: 1735833600000
+  - endDate: 1736452800000
+    id: StxByqBr6cmRJQGFQOmw
+    startDate: 1736438400000
+  - endDate: 1737057600000
+    id: bDOsDi0ALgnrpBSCIvDv
+    startDate: 1737043200000
+  - endDate: 1737662400000
+    id: SIxnGO7ctmnC0AZ1xywt
+    startDate: 1737648000000
+  - endDate: 1738267200000
+    id: rviGV1xtOctEBWyJWDnE
+    startDate: 1738252800000
+  - endDate: 1738872000000
+    id: 9mSyIsz7aU2KZi8EOAJO
+    startDate: 1738857600000
+  - endDate: 1739476800000
+    id: BbqeeEQBwbNTkWL0boHk
+    startDate: 1739462400000
+  - endDate: 1740081600000
+    id: OjTae2HQTrROEAkMONXl
+    startDate: 1740067200000
+  - endDate: 1740686400000
+    id: pGy7fSs0O2njviVVLdZi
+    startDate: 1740672000000
+  - endDate: 1741291200000
+    id: 2ECv0DfKjN8RRQuX8b4H
+    startDate: 1741276800000
+  - endDate: 1741896000000
+    id: iyRpIRROhcAiFRnS6Clq
+    startDate: 1741881600000
+  - endDate: 1742500800000
+    id: NHmz4ug9iOXp2lLN2P6l
+    startDate: 1742486400000
+  - endDate: 1743105600000
+    id: 1z33L28KXXPqfDRhPwPL
+    startDate: 1743091200000
+  - endDate: 1743710400000
+    id: hARqDS8JaOhEVf1ae3hu
+    startDate: 1743696000000
+  - endDate: 1744315200000
+    id: oNzbnZUDHQE4RU95SQ4j
+    startDate: 1744300800000
+  - endDate: 1744920000000
+    id: 2L04BSJw9vPGilgDljHA
+    startDate: 1744905600000
+  - endDate: 1745524800000
+    id: 3PzWZm9SEDVzTzd5Ntyc
+    startDate: 1745510400000
+  - endDate: 1746129600000
+    id: TKMxoZWyanBYcI89w1TV
+    startDate: 1746115200000
+  - endDate: 1746734400000
+    id: b4f5FrOz4WxIX5Jvvj4N
+    startDate: 1746720000000
+  - endDate: 1747339200000
+    id: szDRUAv828draU4Hwn6L
+    startDate: 1747324800000
+  - endDate: 1747944000000
+    id: mFuwcQ5oyQFwWHabXcbj
+    startDate: 1747929600000
+  - endDate: 1748548800000
+    id: CtgcOLCHRJA9K15eXbs7
+    startDate: 1748534400000
+  - endDate: 1749153600000
+    id: 2orpnUpTLzMUpPxBk6qc
+    startDate: 1749139200000
+  - endDate: 1749758400000
+    id: x4jxAP2iDT4hLQrD0hrq
+    startDate: 1749744000000
+  - endDate: 1750363200000
+    id: 5vcUAiA8jejVNWJBnEGD
+    startDate: 1750348800000
+  - endDate: 1750968000000
+    id: oGsydb2RYgW5qZD19GBm
+    startDate: 1750953600000
+  - endDate: 1751572800000
+    id: QDJJnOhwbDrnJi5Zn9U7
+    startDate: 1751558400000
+  - endDate: 1752177600000
+    id: t9O6j4Ztij5SeUxBFTa3
+    startDate: 1752163200000
+  - endDate: 1752782400000
+    id: Ld86r4YQmVa5fjsDTVjQ
+    startDate: 1752768000000
+  - endDate: 1753387200000
+    id: Ypy5b1SVkFcEWmPNRt58
+    startDate: 1753372800000
+  - endDate: 1753992000000
+    id: wdhBAhIBYEbUnICgAk9M
+    startDate: 1753977600000
+  - endDate: 1754596800000
+    id: guR3PzdQd6hcZwGsNIOO
+    startDate: 1754582400000
+  - endDate: 1755201600000
+    id: qbvKbCOuKb3lMXbx3Pnl
+    startDate: 1755187200000
+  - endDate: 1755806400000
+    id: icBLj50VMPx4QT7PaA9P
+    startDate: 1755792000000
+  - endDate: 1756411200000
+    id: OFQYh8TNQk9xRwKmnkHn
+    startDate: 1756396800000
+  - endDate: 1757016000000
+    id: eI084BZ9AqnoFZsVrayh
+    startDate: 1757001600000
+  - endDate: 1757620800000
+    id: 2n0z8PH3fuA57z0yCcGe
+    startDate: 1757606400000
+  - endDate: 1758225600000
+    id: lq0CxiHKFi3FGeT2xcJE
+    startDate: 1758211200000
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+socialCover: ""
+votes: 0
+artistsList: []
+id: sFqVFvEea533Uje14dXh
+updatedAt: 1722076481303
+promotion: ""

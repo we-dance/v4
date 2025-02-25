@@ -1,0 +1,109 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?q=Sonnenstra%C3%9Fe+7,+80331+M%C3%BCnchen,+Germany&ftid=0x479e75f6558f3ac9:0xd67f164b299d1cf5
+  name: Sonnenstraße 7
+  geometry:
+    viewport:
+      south: 48.1368983697085
+      north: 48.1395963302915
+      east: 11.5669362302915
+      west: 11.5642382697085
+    location:
+      lng: 11.5657473
+      lat: 48.1382348
+  place_id: ChIJyTqPVfZ1nkcR9RydKUsWf9Y
+endDate:
+  _seconds: 1635980400
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+description: "Rooftop bachata indoor sensual social on Wednesday 03.11.2021 at
+  9pm By DJ bubu  Limited tickets!  For registration please send message to bubu
+  on WhatsApp: +61 412 564562"
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Fd0d6c73a-f4fa-4b0e-b6dc-8ba00681943b?alt=media&token=a6912dbc-9141-4b20-be1a-47ac67266f2f
+promo: No
+duration: "180"
+createdAt: 1635785848811
+watchersCount: 0
+price: 8 EUR
+commentsLast: ~
+promoter: Lakkana
+promotedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+id: QcXwXHxOelIBNOGnXsiL
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 10
+updatedAt: 1635785848811
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+eventType: Party
+organiser: ""
+form: No
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+commentsCount: 0
+name: Rooftop bachata sensual social
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-03T20:00:00.000Z
+username: Lakkana
+viewsCount: 16

@@ -1,0 +1,85 @@
+createdAt: 1719310114454
+website: http://www.deutsches-theater.de/
+rooms: ""
+address:
+  formatted_address: Schwanthalerstraße 13, 80336 München, Germany
+  website: http://www.deutsches-theater.de/
+  name: Deutsches Theater
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5611429197085
+        lat: 48.1359796697085
+      northeast:
+        lng: 11.5638408802915
+        lat: 48.1386776302915
+    location:
+      lng: 11.5624884
+      lat: 48.1372537
+  address_components:
+    - types:
+        - street_number
+      short_name: "13"
+      long_name: "13"
+    - types:
+        - route
+      short_name: Schwanthalerstraße
+      long_name: Schwanthalerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  international_phone_number: +49 89 55234444
+  place_id: ChIJN8er8vd1nkcRvHcEy6igzZ8
+  url: https://maps.google.com/?cid=11515036469077243836
+gender: Other
+phone: +49 89 55234444
+name: Deutsches Theater
+updateAt: 1719310114454
+type: Venue
+map: ""
+username: www.deutsches-theater.de
+viewsCount: 1
+offers: []
+amenities:
+  - WiFi
+  - AirConditioning
+  - Restrooms
+  - Security
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venueType: Theatre
+team: []
+id: Yd6j4JHdIPPolPCYl9iF
+updatedAt: 1719310186772

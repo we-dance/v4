@@ -1,0 +1,138 @@
+venue:
+  formatted_address: Westenriederstraße, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Westenriederstraße
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5809478802915
+      south: 48.1337244197085
+      north: 48.13642238029149
+      west: 11.5782499197085
+    location:
+      lng: 11.5795989
+      lat: 48.1350734
+  address_components:
+    - types:
+        - route
+      short_name: Westenriederstraße
+      long_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: EixXZXN0ZW5yaWVkZXJzdHJhw59lLCA4MDMzMSBNw7xuY2hlbiwgR2VybWFueSIuKiwKFAoSCUfF-w6KdZ5HEf0uDWiqxtj5EhQKEgnZX4yj-XWeRxF9mLF9SrgMAQ
+  url: https://maps.google.com/?q=Westenriederstra%C3%9Fe,+80331+M%C3%BCnchen,+Germany&ftid=0x479e758a0efbc547:0xf9d8c6aa680d2efd
+endDate: 2023-06-15T01:00
+claimed: No
+description: |-2
+   SALSA BEATS PARTY | Do.15.Juni 🌸
+  🌸EINTRITT FREI !🌸
+
+  🌸20.30  Uhr kostenloser Einführungskurs
+  für Freunde, Bekannte und alle die On2|Mambo ausprobieren möchten
+
+  🌸ab 21.oo Social Party
+  🌸klimatisierter Raum und Tanzparkett
+  🌸Salsa 70% 30% Bachata Music für Tänzer 
+  🌸Social Party mit einem tollen Bar mitten in MÜNCHEN.
+
+  Ort: Westenrieder Str 41 / Isartorplatz münchen
+
+  🌸Screen shot 👉 Weiterleiten 🙏🌸
+
+  #bachataparty  #salsaparty #salsaclubmunich #salsakurse
+  #salsaanfänger  #salsabeginner  #tanzkurs
+  #salsamünchen.  #salsamunich 
+  #mamboshines 
+  #bahatamunich
+  #mambo
+  #mambomunich
+  #on2munich
+  #mambomunich 
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDq3lGZSO48OOehTqoqIX3stBM292%2Fbe7da3e8-77b2-409d-aaca-96956a7ed0b6?alt=media&token=d2da228b-453e-479f-93c9-7fc383a5d646
+createdAt: 1686233890752
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1686233890752
+updatedBy: Dq3lGZSO48OOehTqoqIX3stBM292
+visibility: Public
+org: {}
+eventType: Party
+form: No
+createdBy: Dq3lGZSO48OOehTqoqIX3stBM292
+watch:
+  count: 1
+  list:
+    SalsaClubMunich: true
+name: Salsa beats party Do.15.Juni 🌸 🌸EINTRITT FREI !🌸
+online: ""
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-15T00:00
+username: SalsaClubMunich
+star:
+  count: 1
+  usernames:
+    - yasharai
+  list:
+    yasharai: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOKp8mVJv18l2HZ0L5xZJ.png?generation=1686744606853279&alt=media
+telegram:
+  requestedAt: 1686744617870
+  messageUrl: https://t.me/WeDanceMunich/1119
+  publishedAt: 1686744625641
+  messageId: 1119
+  state: published
+instagram:
+  requestedAt: 1686744624893
+  messageUrl: https://instagram.com/p/CteGUkGuGAH
+  publishedAt: 1686744643505
+  messageId: CteGUkGuGAH
+  state: published
+viewsCount: 83
+id: OKp8mVJv18l2HZ0L5xZJ

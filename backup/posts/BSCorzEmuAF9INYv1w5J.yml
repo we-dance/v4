@@ -1,0 +1,120 @@
+venue:
+  website: http://www.facebook.com/cafebar.maracas
+  formatted_address: Nekázanka 8, Nové Město, 110 00 Praha-Praha 1, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "8"
+      short_name: "8"
+    - types:
+        - route
+      long_name: Nekázanka
+      short_name: Nekázanka
+    - types:
+        - neighborhood
+        - political
+      long_name: Nové Město
+      short_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Praha 1
+      short_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      long_name: Czechia
+      short_name: CZ
+    - types:
+        - postal_code
+      long_name: 110 00
+      short_name: 110 00
+  url: https://maps.google.com/?cid=4567179202943258383
+  name: Café Bar Maracas
+  geometry:
+    viewport:
+      south: 50.0838506697085
+      north: 50.0865486302915
+      east: 14.4290272302915
+      west: 14.4263292697085
+    location:
+      lng: 14.4276184
+      lat: 50.08516760000001
+  place_id: ChIJf6kboeyUC0cRDw_8gEnhYT8
+  international_phone_number: +420 734 141 712
+endDate: 2021-12-18T21:00:00.000Z
+organisedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+claimed: Yes
+description: |-
+  👉 Flamenco animations with La Chiri 💃
+
+  👉 Salsa & Bachata with Dj Lole 🎧
+
+  ⭐️ Free entry ⭐️
+
+  Reservations: +420 734 141 712
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F891a22a1-a08a-40f1-9c34-74ca4a43cc0a?alt=media&token=debd9526-99c4-40a5-9bb6-1a2e9fa31996
+duration: custom
+createdAt: 1637177853335
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBSCorzEmuAF9INYv1w5J.png?generation=1638386046014634&alt=media
+commentsLast: ~
+promoter: DjLole
+id: BSCorzEmuAF9INYv1w5J
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+promotedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+international: No
+views: 14
+updatedAt: 1637177853335
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+facebook: https://www.facebook.com/events/1215299845634694
+eventType: Party
+organiser: DjLole
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+commentsCount: 0
+name: Flamenco Salsa Bachata Party
+online: No
+styles:
+  Timba:
+    level: Interested
+    selected: true
+  Flamenco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+region:
+  name: Prague
+  location:
+    country: Czechia
+    latitude: 50.0755381
+    locality: Prague
+    usedGps: false
+    place_id: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+    longitude: 14.4378005
+startDate: 2021-12-18T18:00:00.000Z
+username: DjLole
+viewsCount: 67

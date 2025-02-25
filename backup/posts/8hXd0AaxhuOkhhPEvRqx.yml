@@ -1,0 +1,93 @@
+venue:
+  formatted_address: Gotenstraße 5, 86343 Königsbrunn, Germany
+  website: https://spirit-erlebniswelt.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "5"
+      short_name: "5"
+    - types:
+        - route
+      long_name: Gotenstraße
+      short_name: Gotenstraße
+    - types:
+        - locality
+        - political
+      long_name: Königsbrunn
+      short_name: Königsbrunn
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Augsburg
+      short_name: A
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Schwaben
+      short_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "86343"
+      short_name: "86343"
+  url: https://maps.google.com/?cid=1742164394446727905
+  name: SPIRIT COCKTAILBAR
+  geometry:
+    viewport:
+      south: 48.2876005197085
+      north: 48.2902984802915
+      east: 10.8955869802915
+      west: 10.8928890197085
+    location:
+      lng: 10.8941812
+      lat: 48.28877629999999
+  place_id: ChIJVxvhy7aYnkcR4apUT0lpLRg
+  international_phone_number: +49 8231 915525
+endDate:
+  _seconds: 1645833600
+  _nanoseconds: 0
+claimed: No
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F9e4f95eb-50d5-492b-8d59-d8c5f48a58b5?alt=media&token=7d7a2b60-c1be-4d09-8134-b2d6397ebc3e
+duration: "240"
+promo: No
+createdAt: 1645735254843
+artists:
+  - role: dj
+    facebook: mulatoeuropeo/
+    username: mulatoeuropeo/
+price: 5 EUR
+place: ChIJEyZ25ECfnkcRFLF492HC5Co
+international: No
+updatedAt: 1645735254843
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org: ""
+eventType: Party
+form: No
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Salsa Karneval
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-25T21:00
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+viewsCount: 54
+id: 8hXd0AaxhuOkhhPEvRqx

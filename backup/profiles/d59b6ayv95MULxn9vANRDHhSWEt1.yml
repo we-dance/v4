@@ -1,0 +1,37 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1641877761162
+createdBy: d59b6ayv95MULxn9vANRDHhSWEt1
+name: Chri
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Chri
+lastLoginAt: 1641877761364
+daysUsed: 1
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  fr: true
+gender: Female
+partner: No
+objectives:
+  learn: true
+  project: true
+  indoors: true
+styles:
+  Shimmy:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Quickstep:
+    level: Interested
+    highlighted: false
+    selected: true
+  LindyHop:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: No
+updatedAt: 1641878166755
+id: d59b6ayv95MULxn9vANRDHhSWEt1

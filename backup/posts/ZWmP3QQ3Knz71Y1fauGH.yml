@@ -1,0 +1,141 @@
+endDate: 1728122400000
+sourceUrl: https://www.facebook.com/events/800002062065085/
+createdAt: 1727013624978
+approved: true
+provider: ical
+providerId: wl8BYXUBmyRVcLZ1oxHU
+providerCreatedAt: 1726532262000
+updatedAt: 1727013624978
+importedAt: 1727013624978
+providerUpdatedAt: 1726902690000
+facebookId: "800002062065085"
+facebook: https://www.facebook.com/events/800002062065085/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/800002062065085/
+eventType: Party
+providerItemId: e800002062065085@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Saturday Latin Night
+location: Club Onehunga 2020
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728111600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: 57 Princes Street, Onehunga, Auckland 1061, New Zealand
+  website: http://clubonehunga2020.co.nz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Club Onehunga 2020
+  geometry:
+    viewport:
+      southwest:
+        lng: 174.7840226697085
+        lat: -36.92658278029151
+      northeast:
+        lng: 174.7867206302915
+        lat: -36.92388481970851
+    location:
+      lng: 174.7853698
+      lat: -36.92530440000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "57"
+      long_name: "57"
+    - types:
+        - route
+      short_name: Princes St
+      long_name: Princes Street
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Onehunga
+      long_name: Onehunga
+    - types:
+        - locality
+        - political
+      short_name: Auckland
+      long_name: Auckland
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auckland
+      long_name: Auckland
+    - types:
+        - country
+        - political
+      short_name: NZ
+      long_name: New Zealand
+    - types:
+        - postal_code
+      short_name: "1061"
+      long_name: "1061"
+  international_phone_number: +64 9 636 6644
+  place_id: ChIJ0SE-JLNIDW0R27sh20iOz2Q
+  url: https://maps.google.com/?cid=7264181167537109979
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/lamovidanz
+  name: La Movida
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1724162447/ngmwo8zvxieexka2ac4y.jpg
+  bio: ""
+  id: KipRZQFh4e5u82zhOru1
+  instagram: ""
+  username: lamovidanz
+claimed: No
+link: ""
+description: >
+  Join us for our Latin Night at  Club Onehunga 2020 - formerly known as the
+  Onehunga RSA. Club Onehunga 2020 is situated very close to the motorways. 
+
+  There is plenty of FREE parking available.
+
+
+  This venue has a beautiful dance floor and full restaurant and Bar facilities available if you would like to have dinner.
+
+
+  ⚡Door entry $10 which includes a complimentary dance class with International dance Instructor Alyx Ty.
+
+
+  💃🕺8pm Open level Bachata class
+
+  followed by social dancing.
+
+
+  DJ Wendy will play a mix of Salsa, Bachata, Cumbia, Merengue , Kizomba and much more.
+
+
+  #LatinMusic #danceforfun #SupportLocal #baila #sabor #dancelife #latino #saborlatino #dance #bachata #salsa #latindanceparty #kizomba #auckland #NorthShore #NewZealand #youshouldbedancing #youshouldbehere
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727013639/jykie6vd1aqcrl3afblp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ--acWvtHDW0RF5miQ2HvAAU
+international: No
+hash: 1728111600000+ChIJ0SE-JLNIDW0R27sh20iOz2Q
+viewsCount: 1
+id: ZWmP3QQ3Knz71Y1fauGH

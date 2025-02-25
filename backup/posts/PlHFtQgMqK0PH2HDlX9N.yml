@@ -1,0 +1,173 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/world-stars-salsa-festival/
+sourceUrl: https://facebook.com/events/7467684943319655
+venue:
+  address_components:
+    - long_name: Albena Resort
+      short_name: Albena Resort
+      types:
+        - locality
+        - political
+    - long_name: Dobrich
+      short_name: Dobrich
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Bulgaria
+      short_name: BG
+      types:
+        - country
+        - political
+    - long_name: "9620"
+      short_name: "9620"
+      types:
+        - postal_code
+  formatted_address: Albena Resort, 9620 Albena Resort, Bulgaria
+  geometry:
+    location:
+      lat: 43.3685958
+      lng: 28.0823797
+    viewport:
+      northeast:
+        lat: 43.3699511302915
+        lng: 28.08372888029151
+      southwest:
+        lat: 43.3672531697085
+        lng: 28.0810309197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +359 57 962 840
+  name: Maritim Hotel Paradise Blue Albena
+  place_id: ChIJ7VXXw-z8pEARRHv2J6cPf3M
+  url: https://maps.google.com/?cid=8322387847008385860
+  website: https://www.maritim.de/de/hotels/bulgarien/hotel-albena/unser-hotel
+endDate: 1745823600000
+claimed: No
+link: http://ticket.varnasalsafestival.com/
+description: |-
+  Ladies and Gentlemen,
+  🔥🔥🔥It is time to announce our next year festival! 🔥🔥🔥
+
+  *Dates: 24-28 April 2025
+  *Place: Hotel Maritim Paradise Blue 5*- Albena Resort
+  ►ALL UNDER ONE ROOF!
+
+  🤩🤩🤩No need to say a lot! 
+  Just see what awaits you next year at WSSF'25!!! 🤩🤩🤩
+
+  ██▓▒░░🏆COMPETITION🏆▒░▒▓██ :
+  ►WORLD STARS CHAMPIONSHIP
+  Salsa & Bachata
+
+  ██▓▒░░🎼CONCERTS🎼▒░▒▓██ :
+  ►🔴BACHATA CONCERT: GRUPO EXTRA🔴
+  ►🟢SALSA CONCERT: CUBA LIBRE SON BAND🟢
+
+  ██▓▒░░💃BOOTCAMPS🕺▒░▒▓██ :
+  ► 5 hours Choreography Bootcamp with Antonio & Jasmina Berardi
+  ► 4 hours Choreography Bootcamp with Alex Toledo
+
+  ██▓▒░🟢⭐SALSA⭐🟢░▒▓██ :
+  ►Jhoana & Diago (Peru)
+  ►Michelle and Brandon (USA)
+  ►Bersy Cortez (Venezuela)
+  ►Antonio & Jasmina Berardi (Italy)
+  ►Nina & Zerjon (Sweden)
+  ►Fadi Fusion (Spain)
+  ►Wilmer y Maria (Cuba)
+  ►Anichi Perez (Germany)
+  ►Yoyo Flow (Cuba)
+  ►Alex Toledo (Spain)
+  ►Jose & Maria (Spain)
+  ►Enoch & Idaira (Spain)
+  ►Tamba (UK)
+  More coming soon...
+
+  ██▓▒░🟢🎧SALSA DJS 🎧 🟢░▒▓██ :
+  ►Dj Fabrizio Zoro (Italy)
+  ►Dj Rumbero (Peru)
+  ►Dj Dmitri (Jordan/Germany)
+  ►Dj Sabha (Dubai)
+  ►Dj Sergio (France)
+  ►Dj Romy (Romania)
+
+  ██▓▒░🔴⭐BACHATA⭐🔴░▒▓██ :
+  ►Antoni & Belen (Spain)
+  ►Alfredo & Andrea (Spain)
+  ►Andres & Yessika (Colombia&Spain)
+  ►Simone & Danila (Italy)
+  ►Lolahontas (Spain)
+  ►Farid Ferchach (France)
+  ►Dj York (Germany)
+  More coming soon...
+
+  ██▓▒░🔴🎧BACHATA DJS 🎧🔴░▒▓██ :
+  ►Dj Tronky (Italy)
+  ►Dj York (Germany)
+  ►Dj David Pedron (France)
+  ►Dj Boris (Bulgaria)
+
+  ██▓▒░🟣⭐KIZOMBA⭐🟣░▒▓██ :
+  ►Audi & Laura (USA & Spain)
+  ►Tresor (Netherlands)
+  ►Sanjay MJ (India)
+  ►Ducu & Jojo (Romania)
+  More coming soon…
+
+  ██▓▒░🟣🎧 KIZOMBA DJS 🎧🟣░▒▓██ :
+  ►Dj David Ruela (Netherlands)
+  ►Dj Ducu (Romania)
+  ►Dj Pzl (Bulgaria)
+
+  🤩🤩🤩No need to say a lot! 🤩🤩🤩
+  Come and Live Your Legend!
+  HQ Festival for HQ People! 
+  www.varnasalsafestival.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/agzhqp3skn0ipf4a4cqo.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJz1GkZu38pEAR8npdpdgebp0
+international: No
+visibility: Public
+org:
+  id: ruRjSroD9eLcZbqgaTVs
+  username: varnasalsafest
+  name: World Stars Salsa Festival - Albena / Bulgaria
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953745/jjbv0foekjd7d3yxddoi.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/varnasalsafest
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/7467684943319655/
+facebookId: "7467684943319655"
+eventType: Concert
+form: No
+watch:
+  usernames: []
+  count: 0
+name: World Stars Salsa Festival /24-28 April 2025/Official Event
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1745478000000+ChIJ7VXXw-z8pEARRHv2J6cPf3M
+startDate: 1745478000000
+id: PlHFtQgMqK0PH2HDlX9N

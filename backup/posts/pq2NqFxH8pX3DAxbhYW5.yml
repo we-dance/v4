@@ -1,0 +1,146 @@
+venue:
+  website: http://www.salsabor.de/
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsabor Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5672969802915
+      south: 48.1506543197085
+      north: 48.1533522802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+  url: https://maps.google.com/?cid=13068910098957006739
+endDate: 1698791400000
+claimed: No
+link: ""
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+promo: ""
+createdAt: 1698688868794
+artists:
+  - role: organiser
+    instagram: https://instagram.com/rafaelmunozsalsabor
+    username: rafaelmunozsalsabor
+artistsList:
+  - rafaelmunozsalsabor
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsabor Dance Academy Munich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsalsabor.de.png?generation=1644170896601956&alt=media
+  bio: ""
+  instagram: https://instagram.com/salsabor.de
+  id: VMPzE9gfxHm8lTYzn2yc
+  username: salsabor.de
+facebook: https://www.facebook.com/events/1073447746869966
+telegram: {}
+upVotes: 0
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+username: rafaelmunozsalsabor
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fcb6e78d4-e94f-4c39-b984-0f324d973160?alt=media&token=766aff7a-0553-45e5-ba7d-393a8eff0f5a
+name: Wir Sagen Danke Party
+description: >-
+  Hallo Freunde,
+
+
+  wie ihr bereits wisst, schließt Salsabor sein Studio am 31. Oktober 😔. Aber bevor wir gehen, möchten wir mit einer letzten, unvergesslichen Party auf Wiedersehen sagen! Am Dienstag, den 31. Oktober, laden wir euch herzlich ein. Es handelt sich nicht um eine Halloween-Party 🎃, es sind keine Kostüme erforderlich. Es ist einfach unsere Art, das Studio zu verabschieden.
+
+
+  Wir erwarten euch ab 20 Uhr zu einer fröhlichen Nacht mit Musik in zwei Bereichen: Salsa mit DJ David Muñoz 💃🕺 und Bachata 🎶. Es wird keine Einführungskurse geben oder Rueda de Casino. Unser Ziel ist es, gemeinsam zu feiern und Spaß zu haben. In unserer Bar haben wir spezielle Angebote: Cuba Libre für 8.50€ 🍹 und Helles Bier für 4,50€ 🍺.
+
+
+  Wir freuen uns, euch mitzuteilen, dass viele unserer ehemaligen Lehrer von Salsabor und Mitglieder unserer früheren Showgruppen anwesend sein werden. Dies wird eine unvergessliche Nacht! 🌟
+
+
+  Wir hoffen, dass ihr versteht, dass selbst mitgebrachte Getränke nicht gestattet sind, und es wird keine Gästeliste geben. Der Eintritt beträgt 15€.
+
+
+  Lasst uns diese letzte Party in unserem Studio in vollen Zügen genießen, und denkt daran, wie es so schön heißt:
+
+
+  "Lächle, weil es passiert ist, und nicht, weil es vorbei ist."
+
+
+  Und wie Luis Enrique sagt:
+
+
+  "Ich weiß nicht, was morgen sein wird (Yo no se mañana)" 😊💫
+id: pq2NqFxH8pX3DAxbhYW5
+price: 15 EUR
+startDate: 1698778800000
+updatedAt: 1698694359407
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fpq2NqFxH8pX3DAxbhYW5.png?generation=1698694372182990&alt=media
+viewsCount: 14

@@ -1,0 +1,144 @@
+createdAt: 1705310677103
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1705310677103
+username: Aina
+venue:
+  formatted_address: Roesebeckstraße 1, 30449 Hannover, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Roesebeckstraße 1
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.721723719708496
+        lat: 52.3608565197085
+      northeast:
+        lng: 9.724421680291501
+        lat: 52.3635544802915
+    location:
+      lng: 9.7230273
+      lat: 52.3622433
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Roesebeckstraße
+      long_name: Roesebeckstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Linden-Limmer
+      long_name: Linden-Limmer
+    - types:
+        - locality
+        - political
+      short_name: Hannover
+      long_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30449"
+      long_name: "30449"
+  place_id: ChIJDfgAbMF0sEcRBwyNSM0itTI
+  url: https://maps.google.com/?q=Roesebeckstra%C3%9Fe+1,+30449+Hannover,+Germany&ftid=0x47b074c16c00f80d:0x32b522cd488d0c07
+endDate: 1705708800000
+claimed: No
+link: ""
+description: >-
+  🦊 *FOXMANIA IM BOOTSHAUS HANNOVER - FOXMANIA AM FREITAG!* 🦊
+
+
+  📅 *Datum:* Freitag, 19. Januar 2024
+
+  🕗 *Uhrzeit:* 20:00 Uhr - 01:00 Uhr
+
+  📍 *Ort:* Bootshaus84, Roesebeckstrasse 1, Hannover
+
+
+  Taucht ein in die aufregende Welt des Discofox und tanzt die Nacht zum Rhythmus der besten Hits! Foxmania im Bootshaus Hannover verspricht eine unvergessliche Nacht voller Musik, Tanz und Überraschungen.
+
+
+  🎉 *Was erwartet euch?* 🎉
+
+  🎵 *Der perfekte Mix:* Genießt das Beste vom Discofox-Klassiker, aktuellen Charts und mitreißenden Schlager. Als euer Gast-DJ wird DJ Mustafa eine vielfältige Playlist zusammenstellen, die euch garantiert auf die Tanzfläche lockt.
+
+
+  💃 *Tanzen bis zum Abwinken:* Lasst euch von der Musik mitreißen und zeigt eure besten Tanzmoves. Der Discofox ist der ideale Tanz, um sich auszuleben und die Nacht zu genießen.
+
+
+  🤫 *Überraschungsgast-DJ:* Seid gespannt auf DJ Mustafa, einen besonderen Gast-DJ, der die Stimmung auf die Spitze treiben wird! Gemeinsam mit einem weiteren musikalischen Überraschungsgast werden sie eine unvergessliche Nacht gestalten.
+
+
+  📍 *Ort und Adresse:* Das Bootshaus84, in der Roesebeckstrasse 1 in Hannover, bietet die perfekte Kulisse für Foxmania am Freitag.
+
+
+  🎊 *Neu ab jetzt:* Foxmania wird regelmäßig freitags stattfinden und nach Ankündigung auch samstags im Bootshaus! Verpasst nicht die Gelegenheit, diese einzigartige Mischung aus Musik und Tanz zu erleben.
+
+
+  Kommt mit euren Freunden, eurem Partner oder alleine und erlebt Foxmania im Bootshaus Hannover. Freut euch auf eine mitreißende Nacht, bei der die Füße nicht stillstehen und das Lächeln nicht mehr aus dem Gesicht weicht.
+
+
+  🎶 *Lass uns gemeinsam das Jahr mit Musik und Tanz begrüßen! 🎶*
+
+  #FoxmaniaHannover #DiscofoxParty #BootshausHannover #FoxmaniaAmFreitag #DJMustafa
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bootshaus.hannover
+  name: Bootshaus 84 Hannover
+  photo: https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/304840904_540768291179298_653856273188627705_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=WWuhkRnQeF8AX-gTZkz&_nc_ht=scontent-ord5-1.xx&oh=00_AfAP5-EF-y5bgDvUo3fSDXSN0GHxI9VkY9ZjBFd5QpNYbg&oe=65A6AF45
+  bio: ""
+  id: 6qD5NUsP2rmvyl1bles2
+  instagram: ""
+  username: bootshaus.84.hannover
+facebook: https://www.facebook.com/events/2353024765087225/
+facebookId: "2353024765087225"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Foxmania - der Discofox Abend mit wechselnden Djs im Bootshaus84 Hannover
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1705690800000+ChIJDfgAbMF0sEcRBwyNSM0itTI
+startDate: 1705690800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F2gryCsKBiAiLPloy4siC.png?generation=1705310694419321&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851559/ax3ur6jqrizckkatg3sa.jpg
+viewsCount: 5
+id: 2gryCsKBiAiLPloy4siC

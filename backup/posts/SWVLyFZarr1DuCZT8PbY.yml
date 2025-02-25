@@ -1,0 +1,138 @@
+createdAt: 1731923088723
+updatedAt: 1731923088723
+createdBy: fBw7JhiBtHOD8dZWOxkeGWVHWum1
+updatedBy: fBw7JhiBtHOD8dZWOxkeGWVHWum1
+username: Franco
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+sourceUrl: https://www.facebook.com/events/913292937404390
+viewsCount: 1
+venue:
+  address_components:
+    - long_name: "75"
+      short_name: "75"
+      types:
+        - street_number
+    - long_name: Baaderstraße
+      short_name: Baaderstraße
+      types:
+        - route
+    - long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "80469"
+      short_name: "80469"
+      types:
+        - postal_code
+  formatted_address: Baaderstraße 75, 80469 München, Germany
+  geometry:
+    location:
+      lat: 48.1278538
+      lng: 11.5744023
+    viewport:
+      northeast:
+        lat: 48.12925438029151
+        lng: 11.5757255802915
+      southwest:
+        lat: 48.12655641970851
+        lng: 11.5730276197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 89 20206343
+  name: Sonja Armisén
+  place_id: ChIJYVbxAmffnUcRT9K0qi79u6U
+  url: https://maps.google.com/?cid=11942417213777302095
+  website: http://www.tangofusionclub.com/
+endDate: 1733610600000
+claimed: No
+link: ""
+description: >-
+  Tangofusion Workshop 19:30-20:30 Uhr, einfach vorbeikommen
+
+  und mitmachen ohne Voranmeldung, Singles wellcome !
+
+
+  Bei diesem Workshop werden wir mit Elementen aus dem Tango, Contango und Freestyle eine lockerere und freiere Art des Tangotanzens erlernen. Dabei sind die Rollen des Führens und Folgens nicht festgelegt und wir tanzen Figuren wie ganchos, barridas, voleos, Verzierungen ecc. frei von festgelegten Abläufen. Der Workshop eignet sich auch sehr gut zum aufwärmen und kennen lernen vor der Milonga.
+
+  Singles herzlich willkommen !
+
+
+  Tango Fusion Milonga 20:30 - 23:30 Uhr
+
+  DJ Sonja + DJ Franco
+
+  Party: 10 € Iwanson-Tanzschule, Adi-Meislingerstr. 12 (beim Feierwerk, in den Innenhof gehen, dort rechts am Zöttl vorbei, gerade aus zur großen Glastüre in den 1.Stock)
+
+  Workshop + Party 15 €
+
+
+  Kein Barbetrieb, drum kann jeder sein Lieblingsgetränk selbst mitbringen !
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  id: w9PYhYH55mqFDVCeExmk
+  username: sonja.armisen
+  name: Sonja Armisen
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710440955/ozc1on6tnaivtansakjz.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/sonja.armisen
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/913292937404390/
+facebookId: "913292937404390"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Sa. 7. Dez. TangoFusion Workshop + Milonga (die letzte in 2024)
+online: No
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1733596200000+ChIJYVbxAmffnUcRT9K0qi79u6U
+startDate: 1733596200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731923102/ch89nhkyv9xnlzle3q84.jpg
+instagram:
+  messageUrl: https://instagram.com/p/DCghgA1OE8G
+  publishedAt: 1731923157437
+  messageId: DCghgA1OE8G
+  state: published
+promotionError: ""
+promotion: completed
+id: SWVLyFZarr1DuCZT8PbY

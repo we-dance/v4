@@ -1,0 +1,188 @@
+endDate: 1714906800000
+sourceUrl: https://www.facebook.com/events/1467023400719170/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1684050467000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1702304973000
+facebookId: "1467023400719170"
+facebook: https://www.facebook.com/events/1467023400719170/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1467023400719170/
+eventType: Congress
+providerItemId: e1467023400719170@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: CALPE DANCE FESTIVAL 2024
+location: Hotel Bahia Calpe- Calpe
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714550400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Av. Valencia, 24, 03710 Calp, Alicante, Spain
+  website: https://bahiacalpehotel.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Bahia Calpe
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.04705071970849797
+        lat: 38.64072176970851
+      northeast:
+        lng: 0.04974868029150203
+        lat: 38.6434197302915
+    location:
+      lng: 0.04828499999999999
+      lat: 38.641998
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Av. Valencia
+      long_name: Avinguda Valencia
+    - types:
+        - locality
+        - political
+      short_name: Calp
+      long_name: Calp
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: A
+      long_name: Alicante
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "03710"
+      long_name: "03710"
+  international_phone_number: +34 965 83 97 02
+  place_id: ChIJgTlHyzr-nRIR7CyiMwh2ArY
+  url: https://maps.google.com/?cid=13115174842454387948
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Europe/100083255276338/
+  name: Sbk Europe
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954226/jk6fzups0hrxipgjyp4a.jpg
+  bio: ""
+  id: uiI4e3j7f7JJ2mvUr9wh
+  instagram: ""
+  username: SbkEurope
+claimed: No
+link: ""
+description: >-
+  🛒/ 📲💻: https://lasalsadelbaile.com/calpedancefestival2024?ref=SBK
+
+  🔐 PROMOCODE: SBK
+
+  🏦 sin gastos de gestión en venta directa, por privado
+
+  🏨 Hotel Bahía Calpe (Calpe)
+
+  📅 1 -5 Mayo 2023
+
+
+  💃🏻🕺🏻 Artistas:
+
+  ANITA SANTOS RUBIN
+
+  RONALD & ALBA
+
+  TAMARA & CÁNDIDO
+
+  JESUS & MARÍA
+
+  JOAN & MARIA
+
+  DAVID & INES
+
+  JUAN & NEREA
+
+  ALEJANDRO & VANESA
+
+  DOMI MONTALVO
+
+  MANUEL & CRISTINA
+
+  DAVID & LORENA
+
+  OSCAR GARCIA
+
+  JOSHUA & IRIS
+
+  MIGUEL ANGEL & ANABEL
+
+  NACHO & MIRIAM
+
+  VERO B.DANCE
+
+  FOX & MI.J.
+
+  KEVIN & ALISON
+
+  LADIES ESTILOS UNIDOS
+
+  JUANMA & TANIA
+
+  BIANCA & ADÁN
+
+  ...
+
+  🎧 DJ:
+
+  Dj Salva
+
+  Dj Miguelón
+
+  Di Frank
+
+
+  #bachataistakingover #bachata #bachateros #bachatadancing #bachatachallenge #bachatafusion #bachatadance #bachatadancers #bachataspain. #bachatacongress  #bachatasensual #bachataysalsa #bachataurbana #sbkeurope #princeroyce #bachatadominicana #bachatabrussels
+
+  #bachatabe gium #danceclass #quefairebruxelles
+
+  #bachatatradicional #traditionalbachata #dance
+
+  #bachataclass #joinus
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131891/vkneqjnh9f6zazdik1zg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJDTFvEWmSo4cRPGlwsjivQwY
+international: No
+hash: 1714550400000+ChIJgTlHyzr-nRIR7CyiMwh2ArY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbR9ic8xuHvTefu1YtfVg.png?generation=1714131909519648&alt=media
+id: bR9ic8xuHvTefu1YtfVg

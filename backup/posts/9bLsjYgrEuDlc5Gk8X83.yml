@@ -1,0 +1,159 @@
+endDate: 1747591200000
+sourceUrl: https://www.facebook.com/events/1122612415545649/
+createdAt: 1710176510504
+approved: true
+provider: ical
+providerId: te5o6z1Subn2jDFbMi9r
+providerCreatedAt: 1709301001000
+updatedAt: 1710176510504
+importedAt: 1710176510504
+providerUpdatedAt: 1709700798000
+facebookId: "1122612415545649"
+facebook: https://www.facebook.com/events/1122612415545649/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1122612415545649/
+eventType: Party
+providerItemId: e1122612415545649@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: "Kizz & Peace "
+location: 45 Rue de Kembs, 68440 Schlierbach, France
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1747411200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: 45 Rue de Kembs, 68440 Schlierbach, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 45 Rue de Kembs
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.412807469708497
+        lat: 47.68571566970851
+      northeast:
+        lng: 7.415505430291502
+        lat: 47.6884136302915
+    location:
+      lng: 7.4140928
+      lat: 47.6872792
+  address_components:
+    - types:
+        - street_number
+      short_name: "45"
+      long_name: "45"
+    - types:
+        - route
+      short_name: Rue de Kembs
+      long_name: Rue de Kembs
+    - types:
+        - locality
+        - political
+      short_name: Schlierbach
+      long_name: Schlierbach
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haut-Rhin
+      long_name: Haut-Rhin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "68440"
+      long_name: "68440"
+  place_id: ChIJadXvytaZkUcRdBXheRuHpDk
+  url: https://maps.google.com/?q=45+Rue+de+Kembs,+68440+Schlierbach,+France&ftid=0x479199d6caefd569:0x39a4871b79e11574
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1710176515956
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Peaceandkizz
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710176516/nplwnlmkeeeyoossdmaf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1710176515956
+  owned: false
+  name: Kizz & Peace
+  place: ChIJj7QLXw69mUcR_upFHU_-C9I
+  updatedAt: 1710176515956
+  username: Peaceandkizz
+claimed: No
+link: ""
+description: >-
+  Français 🇫🇷
+
+
+  Bonjour à tous,
+
+
+  Du 16 au 18 mai 2025, ne manquez pas Kizz & Peace, un événement exceptionnel dédié à la danse, à la musique et à la paix. Venez vivre une expérience inoubliable où la connexion, l'harmonie et la joie seront à l'honneur.
+
+
+  Rejoignez-nous  pour un week-end magique où la danse et la musique vous transporteront dans un univers de paix et de bonheur. Ne manquez pas cette occasion unique de vous connecter à vous-même et aux autres.
+
+
+  L'équipe Kizz & Peace ☮️
+
+  vous attend nombreux !
+
+
+  Deutsch 🇩🇪
+
+
+  Hallo zusammen,
+
+
+  verpasst nicht vom 16. bis 18. Mai 2025 Kizz & Peace die außergewöhnliche Veranstaltung im Zeichen von Tanz, Musik und Frieden. Habt ein unvergessliches Erlebnis, bei dem Verbindung, Harmonie und Freude im Mittelpunkt stehen.
+
+
+  Begleitet uns zu einem magischen Wochenende, an dem Tanz und Musik Euch in eine Welt voller Frieden und Glück entführen. Verpasst nicht diese einmalige Gelegenheit, mit sich selbst und anderen in Kontakt zu treten.
+
+
+  Das Kizz & Peace-Team ☮️wartet auf Euch!
+
+
+  Englisch 🇬🇧🇺🇸
+
+
+  Hello everyone 
+
+
+  From 16 to 18 May 2025, do not miss KIZZ & PEACE an exceptional event dedicated to dance , music and peace . Come and experience an unforgettable moment where the connections , harmony and dance will be honored .
+
+
+  Join us for this spring weekend where the peace music will transport you into a new universe of happiness . This is an unique opportunity to connect with yourself and your dance partners .
+
+
+  Kizz & Peace ☮️team is waiting for you
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710176518/bop3k4ztvjmcgn14ufcl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJj7QLXw69mUcR_upFHU_-C9I
+international: No
+hash: 1747411200000+ChIJadXvytaZkUcRdBXheRuHpDk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9bLsjYgrEuDlc5Gk8X83.png?generation=1710176546612485&alt=media
+id: 9bLsjYgrEuDlc5Gk8X83

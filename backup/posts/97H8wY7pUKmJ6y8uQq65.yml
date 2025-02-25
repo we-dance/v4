@@ -1,0 +1,205 @@
+endDate: 1726963200000
+sourceUrl: https://www.facebook.com/events/3751522048418389/
+createdAt: 1725890437938
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1725742151000
+importedAt: 1725890437938
+providerUpdatedAt: 1725758961000
+facebookId: "3751522048418389"
+facebook: https://www.facebook.com/events/3751522048418389/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3751522048418389/
+eventType: Party
+providerItemId: e3751522048418389@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: OKTOBER FIESTA 🥨 Party auf 2 Areas - MUFFATWERK
+location: Muffatwerk
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726952400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Zellstraße 4, 81667 München, Germany
+  website: http://www.muffatwerk.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Muffathalle
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.58780736970849
+        lat: 48.1314236697085
+      northeast:
+        lng: 11.5905053302915
+        lat: 48.1341216302915
+    location:
+      lng: 11.5893659
+      lat: 48.1328889
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Zellstraße
+      long_name: Zellstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81667"
+      long_name: "81667"
+  international_phone_number: +49 89 45875000
+  place_id: ChIJGZydHH3fnUcR4OmcAeTMGVE
+  url: https://maps.google.com/?cid=5843927271141599712
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/latinscene.munich
+  name: Latin Scene Munich
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706125900/a86kaoomeqpfdx2ay9s5.jpg
+  bio: ""
+  id: lPHQIelDxUgPCXGf0syU
+  instagram: ""
+  username: latin.scene.munich
+claimed: No
+link: ""
+description: >
+  Vamos zur OKTOBER FIESTA im MUFFATWERK! 🥨🍻 Mit oder ohne Trachten. 🩵🤍🩵
+
+
+  O‘zapft is!🍻 🥨  🎠 
+
+  Wir bringen euch die Wiesn mit einem besonderen Touch, bei uns gilt nämlich: Best of Latin Music all night long! 💃🏽🕺🏽 Statt ein Prosit singen wir hier „Gata Only“, „Bailando Bachata“ und „El Merengue“. Holt eure Freunde und seid dabei, wenn es wieder heißt: "Hay Lupita"! 🎶
+
+
+  Zwei Areas warten auf euch:
+
+
+  1. AMPERE: Reggaeton, Latin Urban mit DJ Yenny & Friends 🎧
+
+
+  2. MUFFATCAFÉ: Tanze zu den besten Rhythmen von Salsa, Salsa Cubana, Timba und Bachata, präsentiert von Sebastian und DJ Javier. 🎶
+
+
+  Ob Tanzfreak oder Fan von guter Laune, hier bist du genau richtig! Freu dich auf gute Musik und Top-Stimmung🎉✨
+
+
+  OKTOBER FIESTA
+
+  📅 Samstag, 21.09.24
+
+  ⏰ 23:00 - 05:00 Uhr
+
+  📍 Muffatwerk: AMPERE & MUFFATCAFÉ – Zellstr. 4
+
+
+  🎟 Tickets: Early Bird: 10€ 🐦 VVK 12€ 
+
+  (+VVK Gebühren) Ticketlink: https://www.eventbrite.de/e/oktober-fiesta-muffatwerk-tickets-1011483332877
+
+  Abendkasse: 15€ 💵 Studenten: 12€ 🎓 Wir bitten um Kartenzahlung! 💳
+
+
+  ℹ️ Vorverkauf-Tickets sind günstiger als Tickets an der Abendkasse, beinhalten jedoch keinen schnelleren Einlass.
+
+
+   🩵🤍🩵 🥨 🎡🍻  🩵🤍🩵 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890457/jmd6yshlioseqi98kmf8.jpg
+duration: 60
+form: No
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1726952400000+ChIJGZydHH3fnUcR4OmcAeTMGVE
+star:
+  count: 1
+  usernames:
+    - alexrazbakov
+  history:
+    - username: alexrazbakov
+      date: 1726603974250
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/vacunaaa
+    name: Salsa Cubana Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+    bio: >
+      The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great
+      dancers you know from our parties. Join our Whatsapp group.
+    id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+    instagram: https://instagram.com/salsa.cubana.munich
+    username: salsa.cubana.munich
+artistsList:
+  - salsa.cubana.munich
+updatedAt: 1726832334759
+instagram:
+  messageUrl: https://instagram.com/p/DAI5smNpp9z
+  publishedAt: 1726835570669
+  messageId: DAI5smNpp9z
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 7
+id: 97H8wY7pUKmJ6y8uQq65

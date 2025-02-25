@@ -1,0 +1,33 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627238583821
+locales:
+  de: true
+createdBy: dU4N34PYOJP3aDfcKaH1DJ5VoyR2
+name: Carmen
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Carmen
+pwaUsed: false
+daysUsed: 4
+gender: Female
+visibility: Members
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdU4N34PYOJP3aDfcKaH1DJ5VoyR2%2Fb8e2176c-28dd-4485-b51f-2461a7849928?alt=media&token=032a35f3-e315-4525-b269-ef2888d11826
+permission: No
+contacts: ""
+updatedAt: 1644052294750
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+lastLoginAt: 1644058556903
+viewsCount: 1
+id: dU4N34PYOJP3aDfcKaH1DJ5VoyR2

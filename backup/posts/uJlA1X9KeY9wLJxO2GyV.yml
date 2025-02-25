@@ -1,0 +1,67 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/salsarave-barcelona/
+facebook: https://www.facebook.com/events/469317279295056/
+sourceUrl: https://www.facebook.com/events/469317279295056/
+venue: {}
+endDate: 1757602800000
+claimed: No
+link: ""
+description: >-
+  🌟 Ready to salsa your way into an unforgettable weekend? 🌟
+
+
+  After a shift to a later date in 2024, we're thrilled to announce that #SalsaRave is returning to its classic weekend in 2025! 
+
+
+  🕺🎶💃 Mark your calendars for September 11-14, 2025, and join us for the ultimate salsa experience in Santa Susanna, Barcelona!
+
+  ☀️🌊🏨
+
+
+  #Back2OurWeekend #SalsaRave 
+
+  #LetsdoIt #CoBeatPartyLive
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/vxt0ix20ebfnjgkmeubh.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  createdAt: 1732293945079
+  importedAt: 1732293945079
+  updatedAt: 1732293945079
+  source: facebook
+  name: SalsaRave by Cobeatparty
+  facebook: https://www.facebook.com/salsarave
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/swfnybwl73w4wfm9jh45.jpg
+  username: salsarave
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+facebookId: "469317279295056"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: SALSARAVE 2025
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1757592000000+undefined
+startDate: 1757592000000
+id: uJlA1X9KeY9wLJxO2GyV

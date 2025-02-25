@@ -1,0 +1,111 @@
+venue:
+  formatted_address: Landwehrstraße 24, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "24"
+      short_name: "24"
+    - types:
+        - route
+      long_name: Landwehrstraße
+      short_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80336"
+      short_name: "80336"
+  url: https://maps.google.com/?q=Landwehrstra%C3%9Fe+24,+80336+M%C3%BCnchen,+Germany&ftid=0x479e75f7fbe17679:0xf33f70e139725230
+  name: Landwehrstraße 24
+  geometry:
+    viewport:
+      south: 48.1350423197085
+      north: 48.1377402802915
+      east: 11.5632557802915
+      west: 11.5605578197085
+    location:
+      lng: 11.5618961
+      lat: 48.1364447
+  place_id: ChIJeXbh-_d1nkcRMFJyOeFwP_M
+endDate:
+  _seconds: 1637449200
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+description: >
+  Registration https://www.dancewithgeorge.com/ or using DancewithGeorge App,
+  FREE, 2G+, if you want to attend this party, please join this
+  group:https://chat.whatsapp.com/F7oXfP2RBw1FcFRNQjIzof
+type: event
+promo: No
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F29846a03-15cb-48a4-ab3b-3f8d97ab392f?alt=media&token=a6eba88e-07be-44dc-b7e1-4f9f58f7391c
+duration: "240"
+createdAt: 1635874766968
+watchersCount: 0
+price: FREE
+commentsLast: ~
+promoter: Lakkana
+id: 9rKuI9I7gWunVNJzopGu
+promotedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 36
+updatedAt: 1635874766968
+website: https://www.dancewithgeorge.com/
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+commentsCount: 0
+name: Dance with George free social
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-20T19:00:00.000Z
+username: Lakkana
+viewsCount: 41

@@ -1,0 +1,195 @@
+createdAt: 1704822897451
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/340466595214123/
+source: facebook
+updatedAt: 1704822897451
+username: wedancebot
+venue:
+  formatted_address: Frankfurter Str. 121/Eingang im Hof Rechts, 63303 Dreieich, Germany
+  website: http://www.edancefever.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: EDanceFever "Die exklusive Tanzschule"
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.6947307697085
+        lat: 50.02770046970851
+      northeast:
+        lng: 8.697428730291504
+        lat: 50.03039843029151
+    location:
+      lng: 8.696460900000002
+      lat: 50.0290535
+  address_components:
+    - types:
+        - subpremise
+      short_name: Eingang im Hof Rechts
+      long_name: Eingang im Hof Rechts
+    - types:
+        - street_number
+      short_name: "121"
+      long_name: "121"
+    - types:
+        - route
+      short_name: Frankfurter Str.
+      long_name: Frankfurter Straße
+    - types:
+        - locality
+        - political
+      short_name: Dreieich
+      long_name: Dreieich
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Offenbach
+      long_name: Offenbach
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: DA
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HE
+      long_name: Hessen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "63303"
+      long_name: "63303"
+  international_phone_number: +49 174 1011201
+  place_id: ChIJyUiw6ScNvUcRTw3uUJoyr3Y
+  url: https://maps.google.com/?cid=8552109855763991887
+visibility: Public
+endDate: 1728259200000
+org:
+  owner: ""
+  importedAt: 1704822902766
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/EDanceFeverTanzschuleDreieich
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/311726489_2925381937767123_4905402045104677213_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=111&ccb=1-7&_nc_sid=596444&_nc_ohc=tF4-ayJt6okAX-0NcuW&_nc_ht=scontent-atl3-2.xx&oh=00_AfClBsrcD0A-eWsBve0ATgJho-pB9p7_NxzOdf9o-pj6mA&oe=65A1F268
+  source: facebook
+  type: Organiser
+  createdAt: 1704822902766
+  owned: false
+  name: Tanzschule EDanceFever in Dreieich
+  place: ChIJH2BRPr9yvUcRT4c5LshXjv8
+  updatedAt: 1704822902766
+  username: EDanceFeverTanzschuleDreieich
+claimed: No
+facebookId: "340466595214123"
+link: ""
+description: >-
+  Dear Dance Friends!
+
+
+  40h „SOCIAL DANCING“ Salsa-EVENT!! From 3th October - 6th October 2024
+
+  Be part of our second FRANKFURT SALSA MARATHON!!
+
+
+  We are proud to present you our first edition of FRANKFURT SALSA MARATHON at EDanceFever and cordially invite you to this spectacular 40-hour Salsa EVENT.
+
+  Relaxed but rich Sets with Salsa Dura, Guaguanco, Son Montuno, Cha-Cha-Cha, Descargas, Guaracha and Pachanga will be played by a diverse, talented and famous group of DJs in alternation.  
+
+  Our new oak parquet floor, the new professional cocktail bar, as well as the new sanitary facilities and the entire harmonious furnishings ensure an absolute feel-good atmosphere in our exclusive dance school.
+
+
+  >>>Your Ninjas<<<
+
+
+  •    DJane Cy Cy (confirmed)
+
+  •    DJ Kamal SalsaDura (confirmed)
+
+  •    DJ Medicus (confirmed)
+
+  •    DJ Yasser (confirmed)
+
+  •    DJane Tuli (confirmed)
+
+  •    DJ Francesco (Confirmed)
+
+  •    DJ...
+
+
+
+  >>>Prices<<<
+
+  •    First 15 Passes only for 139,- Euro
+
+
+  Bank details
+
+
+  Postbank Frankfurt
+
+  Eren Dogan, EDanceFever
+
+  IBAN: DE73500100600985821604
+
+  BIC: PBNKDEFF
+
+  Purpose: Name-/ Last Name + FSM2024-EDF 3-6.10.2024
+
+
+  After receipt of the pass fee, your place is 100% secured!
+
+
+  Thank you very much!
+
+
+  We are looking forward to see you for a weekend full of dance, fun and good vibrations    
+
+
+  Best Regards
+
+  Team EDanceFever, Eren Doğan
+
+
+  More Information: Coming 🔜 
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: FRANKFURT Salsa Marathon 3rd - 6th October 2024 by EDanceFever
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Pachanga:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJH2BRPr9yvUcRT4c5LshXjv8
+international: No
+hash: 1727971200000+ChIJyUiw6ScNvUcRTw3uUJoyr3Y
+startDate: 1727971200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4iqlyVW2iEuLFLT4GFxX.png?generation=1704822917419098&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851604/cqblpuzicbexhylsnmc7.jpg
+bookmarks: 1
+viewsCount: 25
+id: 4iqlyVW2iEuLFLT4GFxX

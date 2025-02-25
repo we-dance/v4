@@ -1,0 +1,171 @@
+endDate: 1723161599000
+sourceUrl: https://www.facebook.com/events/455958853930774/
+createdAt: 1722693627691
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1722668400000
+updatedAt: 1722693627691
+importedAt: 1722693627691
+providerUpdatedAt: 1722668400000
+facebookId: "455958853930774"
+facebook: https://www.facebook.com/events/455958853930774/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/455958853930774/
+eventType: Party
+providerItemId: 47667-1723075200-1723161599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Nádor Irodaközpont, Kálvária út 1-3., Győr, 9024, Magyarország
+startDate: 1723075200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Győr, Kálvária u. 1, 9024 Hungary
+  website: http://nadoriroda.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Nádor Irodaközpont
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.6312288697085
+        lat: 47.67893686970851
+      northeast:
+        lng: 17.6339268302915
+        lat: 47.68163483029151
+    location:
+      lng: 17.6327667
+      lat: 47.68025969999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Kálvária u.
+      long_name: Kálvária utca
+    - types:
+        - locality
+        - political
+      short_name: Győr
+      long_name: Győr
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "9024"
+      long_name: "9024"
+  international_phone_number: +36 30 375 0832
+  place_id: ChIJAbzFZ_C_a0cR1F_kNafEAYA
+  url: https://maps.google.com/?cid=9223869734274228180
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Kubai.Salsa.Klub
+  name: Kubai Salsa Klub
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765535/ptn4vu4pgitd6kgedsej.jpg
+  bio: ""
+  id: LRIeZxQ1y9hy0QEOsmNm
+  instagram: ""
+  username: Kubai.Salsa.Klub
+claimed: No
+link: http://www.dimenziotse.hu/category/events
+description: >-
+  Sziasztok Salsa & Bachata Táncosok!
+
+
+  2024 augusztus 8-án csütörtökön Salsa & Bachata Party...bATYUS!
+
+  Érkezés: 19:45-től,
+
+  Start: 20:15 óra után,
+
+  Zárás: 23:30
+
+
+  Helyszín:
+
+  Nádor Irodaközpont, Kálvária u.1-3. (Zöldfa Étterem és a Galaxy Club melletti több emeletes irodaház földszinti konferenciaterem) 
+
+
+  Ezen az estén NEM lesz oktatás, tanítás, gyertek táncolni és gyakorolni!
+
+
+  Dj: JAVIER pörgeti a jobbnál jobb salsa és bachata slágereket. 
+
+
+  Részvételi díj: ADOMÁNY,a helyszínen készpénzben, kártyás fizetésre nincs lehetőség,
+
+  2.500 Ft/fő
+
+  Diák/Nyugdíjas: 2.000 Ft/fő
+
+  Bérletek ÉRVÉNYESEK!
+
+
+  Előtte: 18:15 Argentin Tango foglalkozás Gácsfalvi Ákos vezetésével, kezdőknek is! Tango+Salsa&Bachata Party 3.000 Ft/fő
+
+
+  NEM KELL BEJELENTKEZNI!...
+
+  NINCS REGISZTRÁCIÓ!...
+
+  csak EL KELL JÖNNI A MEGADOTT IDŐPONTBAN A HELYSZÍNRE!...
+
+
+  A foglalkozás batyus, ha jöttök lesztek, ha hoztok, esztek!
+
+  ...így kérünk hozd, amit szívesen megennél, meginnál és amit esetleg meg is osztanál másokkal is! 
+
+  A poharakat és a szalvétát se hagyd otthon!
+
+  A végén kérjük pakoljatok el mindent amitek maradt, ne hagyjatok semmit az asztalon, köszönjük!
+
+
+  Vidéken is beszéljetek össze, üljetek autóba és irány Győr!
+
+
+  Egyesület és Klub független táncolási lehetőség!
+
+
+  Dimenzio TSE, Kubai Salsa Klub, Győr
+
+
+  official website:
+
+  www.dimenziotse.hu/category/events
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722693634/zkkirhsaw6djhot6zbko.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Salsa & Bachata Party Győr // Dj: JAVIER"
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJNaB-QIe_a0cR4BEeDCnEAAQ
+international: No
+hash: 1723140900000+ChIJAbzFZ_C_a0cR1F_kNafEAYA
+id: G8Vju1iF1ImOI1fgmT1U

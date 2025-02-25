@@ -1,0 +1,167 @@
+endDate: 1729379700000
+sourceUrl: https://www.facebook.com/events/465491836516011/
+createdAt: 1728413958513
+approved: true
+provider: ical
+providerId: jTN0EWu6B1fkGQvb7Ovx
+providerCreatedAt: 1728069447000
+updatedAt: 1728413958513
+importedAt: 1728413958513
+providerUpdatedAt: 1728069447000
+facebookId: "465491836516011"
+facebook: https://www.facebook.com/events/465491836516011/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/465491836516011/
+eventType: Party
+providerItemId: e465491836516011@facebook.com
+createdBy: 65gXCoXpZyNImhiysN6NDjcnrBM2
+name: Bailamos & Tanzschule Hartung  Latin Night
+location: Tanzschule Hartung, Peterstraße 6, 97070 Würzburg
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729362600000
+facebookUrlsCount: 1
+username: Tatjana
+venue:
+  formatted_address: Peterstraße 6A, 97070 Würzburg, Germany
+  website: https://tanzschule-hartung.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule Hartung
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.930031569708495
+        lat: 49.7885409697085
+      northeast:
+        lng: 9.9327295302915
+        lat: 49.7912389302915
+    location:
+      lng: 9.931429899999998
+      lat: 49.78992299999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 6A
+      long_name: 6A
+    - types:
+        - route
+      short_name: Peterstraße
+      long_name: Peterstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt
+      long_name: Altstadt
+    - types:
+        - locality
+        - political
+      short_name: WÜ
+      long_name: Würzburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Würzburg
+      long_name: Kreisfreie Stadt Würzburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Unterfranken
+      long_name: Unterfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "97070"
+      long_name: "97070"
+  international_phone_number: +49 931 54527
+  place_id: ChIJ__xZWDCQokcRBT1HnI3tmWg
+  url: https://maps.google.com/?cid=7537316643849321733
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Ralf.Tatjana
+  name: Bailamos Würzburg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728413973/nyctnk3q6wz8f4bz2p6e.jpg
+  bio: ""
+  id: IYxKOcKtHD1wve80WoPs
+  instagram: ""
+  username: Ralf.Tatjana
+claimed: No
+link: ""
+description: >-
+  Bailamos & Tanzschule Hartung Latin Night
+
+
+  20:30 - 21:30 Uhr KOSTENLOSER Salsa Mittelstufekurs mit Ralf & Tatjana 
+
+
+  21:30 - 1:15 Uhr Salsa & Bachata Party mit DJ Antonio 🎧🥰 und DJ Norbert 🎧🥰 
+
+
+  Ralf & Tatjana, Bailamos Würzburg, unterrichten eine Figur mit neuen Moves fürs Social Dance. 🥰
+
+
+  DJ-Antonio aus Portugal 🇵🇹 legt seit Jahren für uns auf und begeistert uns und alle TänzerInnen mit seiner Musik. 
+
+  DJ Norbert 🇩🇪 ist seit vielen Jahren in der Salsa Szene als DJ und auch als Instructor bekannt und sehr beliebt. Wir sind froh auch ihn im Team zu haben. 
+
+  Beide sind unser Dreamteam im Floor Salsa Linie und Bachata am DJ Deck 🎧🎧 und auch auf dem Dancefloor. 💃🕺🏻
+
+
+  Eine Salsa und Bachata Party in der Tanzschule Hartung mit tollem Tanzboden, Klimaanlage und Bewirtung mit günstigen Getränken. 
+
+
+  Eintritt NUR 7€/ Person 
+
+  Ermäßigt: NUR 4€/ Person 
+
+
+  Adresse:
+
+  Tanzschule Hartung
+
+  Peterstraße 6
+
+  97070 Würzburg 
+
+
+  Wir freuen uns auf euch,
+
+  Ralf & Tatjana, Bailamos Würzburg 
+
+  und die Tanzschule Hartung
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728413974/gkrdsd4hkwz8b6vb6ggt.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2U3aEiCQokcRoAli8Ci3HQQ
+international: No
+hash: 1729362600000+ChIJ__xZWDCQokcRBT1HnI3tmWg
+viewsCount: 3
+id: 2mvjBUCdw0VXBfBqhD8C

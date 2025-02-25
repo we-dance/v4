@@ -1,0 +1,120 @@
+sourceUrl: https://www.facebook.com/events/381659101228657
+createdAt: 1714217450220
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+updatedAt: 1714217450220
+username: DjLole
+venue:
+  formatted_address: Gen. Svobody 83, Nové Pavlovice, 460 01 Liberec, Czechia
+  website: http://www.universium.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: MCU Coliseum, o. P. S.
+  geometry:
+    viewport:
+      southwest:
+        lng: 15.04836056970849
+        lat: 50.7795708697085
+      northeast:
+        lng: 15.0510585302915
+        lat: 50.7822688302915
+    location:
+      lng: 15.0493957
+      lat: 50.7808308
+  address_components:
+    - types:
+        - street_number
+      short_name: "83"
+      long_name: "83"
+    - types:
+        - route
+      short_name: Gen. Svobody
+      long_name: Generála Svobody
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Pavlovice
+      long_name: Nové Pavlovice
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Liberec
+      long_name: Liberec
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Liberec
+      long_name: Liberec
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Liberecký kraj
+      long_name: Liberecký kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 460 01
+      long_name: 460 01
+  international_phone_number: +420 485 124 336
+  place_id: ChIJc3LFUbE2CUcR1GauXf-DGLI
+  url: https://maps.google.com/?cid=12833152271003838164
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  Chtěli bychom vás všechny srdečně pozvat na naši rozlučkovou akci. Bude to
+  poslední party pořádaná značkou Salsa Liberec. Pojďme si spolu zatančit a
+  oslavit všechny ty krásné okamžiky, které jsme spolu zažili.
+
+
+  Tato akce bude nejen naší rozlučkou, ale také oslavou naší společné vášně pro tanec a vzájemného přátelství. Přijďte si užít poslední taneční večer s námi, vzpomenout si na všechny dobré časy a rozloučit se ve velkém stylu.
+
+
+  S láskou,
+
+  Lucie a Lukáš 
+
+  a celý tým Salsa Liberec 
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJ5RdJVaU2CUcROJmJ5nPcU9I
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/SalsaLiberec
+  name: Salsa Liberec
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709617898/vrtkpdanwr0rg0iztn63.jpg
+  bio: ""
+  id: YJzIDO58N9YBBPYbVwvb
+  instagram: ""
+  username: SalsaLiberec
+facebook: https://www.facebook.com/events/381659101228657/
+facebookId: "381659101228657"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Farewell / Salsa Liberec se loučí
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1714240800000+ChIJc3LFUbE2CUcR1GauXf-DGLI
+startDate: 1714240800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714217462/the3sm9u2htkuieoig4l.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fs4q6aHfpI2WOnoM29P4C.png?generation=1714219013369729&alt=media
+viewsCount: 2
+id: s4q6aHfpI2WOnoM29P4C

@@ -1,0 +1,339 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327081159
+updatedAt: 1732327081159
+importedAt: 1732327081159
+providerId: goandance
+providerItemId: "6839"
+name: SLOVENIA BACHATA FESTIVAL 2025
+description: >-
+  ¡Bienvenidos a nuestra primera edición del FESTIVAL DE BACHATA DE ESLOVENIA!
+
+
+  ¡Coge tus zapatos y únete a nosotros en la pista de baile!
+
+
+  Siéntete inspirado y prepárate para bailar durante el fin de semana lleno de hermosos ritmos de bachata. 🎶
+
+
+  ● Artistas 👨‍🎨🎨
+
+
+  Pasa tiempo de calidad y mejora con los mejores artistas de diferentes estilos de bachata.
+
+
+  ✨️Pablo & Raquel
+
+
+  ✨️Miguel & Sunsire
+
+
+  ✨️Roby & Aury
+
+
+  ● DJ's 🎧
+
+
+  Disfruta de la mejor música con nuestro fantástico cartel de DJ's.
+
+
+  ✨️DJ Clau
+
+
+  ✨️DJ Lima
+
+
+  ✨️DJ Rocco Loco
+
+
+  ✨️DJ Sam G
+
+
+  ● Lugar de celebración 🏢
+
+
+  Todo en un mismo lugar. El festival tendrá lugar en el maravilloso Four Points by Sheraton Hotel Ljubljana, Eslovenia,
+
+
+  donde también podrás disfrutar del centro de spa, gimnasio, piscina y deliciosa comida.
+
+
+  ● Competición de baile social 🕺💃🏾
+
+
+  Demuestra tus movimientos en el concurso Jack & Jill y gana fabulosos premios.
+
+
+  ● Turismo 🌍
+
+
+  Descubre una de las joyas más bellas de las capitales europeas en la parte soleada de los Alpes.
+
+
+  Pasea por el centro histórico de Liubliana y disfruta de la increíble gastronomía que ofrece la ciudad.
+
+
+  ¡Marca tus calendarios y forma parte de la emoción! 🤩
+
+
+  ✨️Love a dance✨️
+sourceUrl: https://www.goandance.com/es/e/6839?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6839?promoter=WEDANCE123
+type: event
+startDate: 1743195600000
+endDate: 1743390000000
+tickets:
+  - name: FULL PASS LEADER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social.
+    priceValidUntil:
+      _seconds: 1751407200
+      _nanoseconds: 0
+    discount: 5
+    price: 90
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social.
+    priceValidUntil:
+      _seconds: 1725141600
+      _nanoseconds: 0
+    discount: 5
+    price: 100
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social.
+    priceValidUntil:
+      _seconds: 1733007600
+      _nanoseconds: 0
+    discount: 5
+    price: 110
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social.
+    priceValidUntil:
+      _seconds: 1740783600
+      _nanoseconds: 0
+    discount: 5
+    price: 120
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social.
+    priceValidUntil:
+      _seconds: 1743116400
+      _nanoseconds: 0
+    discount: 5
+    price: 130
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social.
+    priceValidUntil:
+      _seconds: 1743447600
+      _nanoseconds: 0
+    discount: 5
+    price: 140
+    comission: 7.87
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1751407200
+      _nanoseconds: 0
+    discount: 5
+    price: 90
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1725141600
+      _nanoseconds: 0
+    discount: 5
+    price: 100
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1733007600
+      _nanoseconds: 0
+    discount: 5
+    price: 110
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1740783600
+      _nanoseconds: 0
+    discount: 5
+    price: 120
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1743116400
+      _nanoseconds: 0
+    discount: 5
+    price: 130
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER
+    description: El pase completo incluye la entrada a todos los talleres y a todas
+      las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1743447600
+      _nanoseconds: 0
+    discount: 5
+    price: 140
+    comission: 7.87
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER (OFERTA BLACK FRIDAY)
+    description: Oferta limitada de Black Friday que incluye la entrada a todos los
+      talleres y a todas las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1733007540
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS LEADER (OFERTA BLACK FRIDAY)
+    description: Oferta limitada de Black Friday que incluye la entrada a todos los
+      talleres y a todas las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1733007600
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER (OFERTA BLACK FRIDAY)
+    description: Oferta limitada de Black Friday que incluye la entrada a todos los
+      talleres y a todas las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1733007540
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS FOLLOWER (OFERTA BLACK FRIDAY)
+    description: Oferta limitada de Black Friday que incluye la entrada a todos los
+      talleres y a todas las fiestas de baile social. No incluye alojamiento.
+    priceValidUntil:
+      _seconds: 1733007600
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6839-slovenia-bachata-festival-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327082/vaqztgtmejbbgc1stikc.jpg
+venue:
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: Pot za Brdom
+      short_name: Pot za Brdom
+      types:
+        - route
+    - long_name: Ljubljana
+      short_name: Ljubljana
+      types:
+        - postal_town
+    - long_name: Ljubljana
+      short_name: Ljubljana
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Slovenia
+      short_name: SI
+      types:
+        - country
+        - political
+    - long_name: "1000"
+      short_name: "1000"
+      types:
+        - postal_code
+  formatted_address: Pot za Brdom 4, 1000 Ljubljana, Slovenia
+  geometry:
+    location:
+      lat: 46.0520301
+      lng: 14.4529018
+    viewport:
+      northeast:
+        lat: 46.05343123029149
+        lng: 14.4543252302915
+      southwest:
+        lat: 46.05073326970849
+        lng: 14.45162726970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +386 1 470 27 00
+  name: Four Points by Sheraton Ljubljana Mons
+  place_id: ChIJg5kHlKTSekcRkE3Cpu9Is0A
+  url: https://maps.google.com/?cid=4662150233390730640
+  website: https://www.marriott.com/en-us/hotels/ljufp-four-points-ljubljana-mons/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+place: ""
+price: 90 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1743195600000+ChIJg5kHlKTSekcRkE3Cpu9Is0A
+org: ""
+id: aJX1g2MR2HIgRGlCgfU4

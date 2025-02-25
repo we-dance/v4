@@ -1,0 +1,131 @@
+venue:
+  formatted_address: Burggraben 3, 6020 Innsbruck, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "3"
+      short_name: "3"
+    - types:
+        - route
+      long_name: Burggraben
+      short_name: Burggraben
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Innenstadt
+      short_name: Innenstadt
+    - types:
+        - locality
+        - political
+      long_name: Innsbruck
+      short_name: Innsbruck
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Innsbruck
+      short_name: Innsbruck
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Tirol
+      short_name: Tirol
+    - types:
+        - country
+        - political
+      long_name: Austria
+      short_name: AT
+    - types:
+        - postal_code
+      long_name: "6020"
+      short_name: "6020"
+  url: https://maps.google.com/?q=Burggraben+3,+6020+Innsbruck,+Austria&ftid=0x479d6bfb9c2112c3:0x576eefde6b52b050
+  name: Burggraben 3
+  geometry:
+    viewport:
+      south: 47.26585606970851
+      north: 47.2685540302915
+      east: 11.3953956802915
+      west: 11.3926977197085
+    location:
+      lng: 11.3941354
+      lat: 47.267304
+  place_id: ChIJwxIhnPtrnUcRULBSa97vblc
+endDate: 2021-10-31T19:00:00.000Z
+link: https://www.salsalibre.at/20jahre/
+description: >-
+  Das 20jährige Jubiläum von Salsa Libre – sei dabei!
+
+
+  Die ganz große Party zum Jubiläum findet Ende Oktober statt.
+
+
+  von Freitag, 29. bis Sonntag 31. Oktober 2021 wird durchgetanzt!
+
+
+  Alle Infos und Tickets hier: https://www.salsalibre.at/20jahre/
+
+
+  🎺 Freitag, 29.10.2021: Live-Konzert „David Lenis y su Pandilla“, Bierstindl. Party mit DJorge, DJ Steve Manera
+
+
+  🎺 Samstag, 30.10.: Live Konzert mit der Salsa Kultband „La Maxima 79“, Music Hall. Party mit DJorge und DJ Steve Manera
+
+
+  🎃 Sonntag, 31.10.: Halloweenparty in geiler Geheim-Location in Innsbruck, mit 2 Dancefloors und unseren Resident DJs
+
+
+  💃🕺🏽 Samstag und Sonntag Nachmittag: Workshops (Bachata, L.A., Salsa cubana, Rueda)
+
+
+  💃🕺🏽 Samstag und Sonntag Nachmittag: Sensual Lounge im Club Salsa Libre
+
+
+  🔭 Und rundherum noch perfektes Innsbrucker Touri-Rahmenprogramm (in Arbeit)!
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5hkUljYCTSPJwsDqNqgGYRe1Tok2%2Fb8e2792b-f42c-4815-be07-77c1b3e6a857?alt=media&token=4ccbc075-e4e0-4e17-a233-f5daa82bd386
+createdAt: 1631880737225
+watchersCount: 0
+price: TICKETS
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FcttxXOuaeIzM4JCOuUy6.png?generation=1635440117132769&alt=media
+commentsLast: ~
+id: cttxXOuaeIzM4JCOuUy6
+place: ""
+views: 11
+updatedAt: 1631880737225
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+viewsCount: 11
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Salsa Libre 20th
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-29T17:00:00.000Z
+username: Promoter

@@ -1,0 +1,114 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Zenettistraße
+      short_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80337"
+      short_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  name: Salsa Y Corazon - dance school
+  geometry:
+    viewport:
+      south: 48.12187606970849
+      north: 48.12457403029149
+      east: 11.5593379802915
+      west: 11.5566400197085
+    location:
+      lng: 11.557894
+      lat: 48.12314479999999
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  international_phone_number: +49 172 9659579
+endDate:
+  _seconds: 1633800600
+  _nanoseconds: 0
+link: www.salsa-y-corazon.de
+description: Bachata Beginner Workshop 9./10. Oktober 16.30-19.00 h
+type: event
+promo: Yes
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FLFoKqVBwSpYYkfNNAAst2m3KONw2%2Feaf74e9f-c78a-4296-bcf5-44d1f6b09ee7?alt=media&token=a1bde032-10f2-4755-b497-9fc1e460041e
+createdAt: 1632861852438
+watchersCount: 0
+price: 74EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FD9ZNVJCejCModWAkRCdU.png?generation=1633024660126140&alt=media
+commentsLast: ~
+id: D9ZNVJCejCModWAkRCdU
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 11
+updatedAt: 1632861852438
+updatedBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+visibility: Public
+eventType: Workshop
+organiser: Morena
+form: Yes
+createdBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+commentsCount: 0
+name: "Bachata Beginner Workshop "
+online: No
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-09T14:30:00.000Z
+username: Morena
+viewsCount: 44

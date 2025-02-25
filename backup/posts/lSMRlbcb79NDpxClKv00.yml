@@ -1,0 +1,122 @@
+createdAt: 1704430583103
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/212085711969172/
+updatedAt: 1704430583103
+username: alexrazbakov
+venue:
+  formatted_address: Pfuelstraße 5, 10997 Berlin, Germany
+  website: https://www.bebop-berlin.com/unterricht/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Bebop
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4395479697085
+        lat: 52.5013033697085
+      northeast:
+        lng: 13.4422459302915
+        lat: 52.5040013302915
+    location:
+      lng: 13.4408193
+      lat: 52.502687
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Pfuelstraße
+      long_name: Pfuelstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10997"
+      long_name: "10997"
+  international_phone_number: +49 176 31490257
+  place_id: ChIJSUa_AilQqEcRE4TfW8wkT4Y
+  url: https://maps.google.com/?cid=9677994584375788563
+visibility: Public
+endDate: 1704502800000
+claimed: No
+link: ""
+description: >
+  Start 19Uhr mit Rueda 
+
+  Salsa Social Dance ab 22Uhr
+
+  Musik: DJ Pat
+
+
+  Programm-Ablauf:
+
+  Salsa-RUEDA-Anleitung von 19-22Uhr in ansteigenden Niveaustufen:
+
+  -Einsteiger-Mittelstufe-Fortgeschritten je ca. eine Stunde
+
+  Wir tanzen im Großen Parkettsaal ab 22Uhr
+
+  LOCATION-Details:
+
+  - EINGANG (entgegen Googles Angabe direkt von der Pfuelstr. aus) durch die kleine Tür links neben der Toreinfahrt direkt am Spreeufer ( = Aufgang VI) - selten auch durchs Tor selbst
+
+  - Es dürfen selbstverständlich KEINE EIGENEN GETRÄNKE mitgebracht werden, die Getränke an der Bar sind erschwinglich!
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Salsoli:: Salsa Bachata Party "
+online: No
+styles: {}
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+startDate: 1704477600000
+cover: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/416079315_869517084969379_4078420676765810888_n.png?stp=dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_SXE_ZkRpawAX9EXbBy&_nc_ht=scontent-iad3-2.xx&oh=00_AfAHGERpDfLyHgaF8TVudItwe2fUyRykK4MG5bIHqjhxbQ&oe=659BC64F
+org:
+  owner: ""
+  import: requested
+  visibility: Public
+  owned: false
+  facebook: https://www.facebook.com/SalsoliSalsa
+  name: "Salsoli :: Salsa in Berlin"
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/305564992_570055521582205_3924439960375043562_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=596444&_nc_ohc=dLOkCJBXJ6cAX_ETg_d&_nc_ht=scontent-iad3-2.xx&oh=00_AfD5K1ivxLamPcyEzVvRUhTasPkb6eQ7Y7aDgSsHwYSDkA&oe=659BC426
+  place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+  type: Organiser
+  username: SalsoliSalsa
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlSMRlbcb79NDpxClKv00.png?generation=1704430596963799&alt=media
+facebookId: "212085711969172"
+hash: 1704477600000+ChIJAVkDPzdOqEcRcDteW0YgIQQ
+viewsCount: 5
+id: lSMRlbcb79NDpxClKv00

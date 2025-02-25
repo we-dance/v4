@@ -1,0 +1,114 @@
+endDate: 1726876799000
+sourceUrl: https://www.facebook.com/events/392928197164324
+createdAt: 1726581629185
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1726563506000
+updatedAt: 1726581629185
+importedAt: 1726581629185
+providerUpdatedAt: 1726563506000
+facebookId: "392928197164324"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/392928197164324
+eventType: Party
+providerItemId: 48221-1726790400-1726876799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa gyakorló est - Keszthely
+location: Bexi Club, Keszthely, 8360, Hungary
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726790400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Keszthely, Szendreytelepi út, 8360 Hungary
+  website: https://www.facebook.com/BexiClub/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bexi Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.2392031197085
+        lat: 46.7491532197085
+      northeast:
+        lng: 17.2419010802915
+        lat: 46.7518511802915
+    location:
+      lng: 17.2404791
+      lat: 46.7505373
+  address_components:
+    - types:
+        - route
+      short_name: Szendreytelepi út
+      long_name: Szendreytelepi út
+    - types:
+        - locality
+        - political
+      short_name: Keszthely
+      long_name: Keszthely
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8360"
+      long_name: "8360"
+  place_id: ChIJdzOp47jiaEcRSAVo35Yfze4
+  url: https://maps.google.com/?cid=17207444484106224968
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1726581645074
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsadib
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1726581645/uu3eu7o8bszkroipugdh.png
+  source: facebook
+  type: Organiser
+  createdAt: 1726581645074
+  owned: false
+  name: Salsa Días Brillantes
+  place: ChIJ6_6CULjiaEcRgBgeDCnEAAQ
+  updatedAt: 1726581645074
+  username: salsadib
+claimed: No
+facebook: https://www.facebook.com/events/392928197164324/
+link: ""
+description: >+
+  Szeretettel várunk a szeptemberi salsa gyakorló estre, ahol garantáltan jó
+  hangulatban gyakorolhatunk együtt! 🙂
+
+
+  Az esti gyakorlási lehetőség 21:00-tól 01.00-ig tart, tele vidám animációval és lendületes ruedával. Gyere és csatlakozz hozzánk!
+
+
+  A hölgyválasz lehetősége is adott lesz, így mindenki biztosan jól érezheti majd magát. 🙂
+
+
+  A szervezési hozzájárulás 3.000 Ft/fő.
+
+  Elővételben 2.500 Ft (2024. szeptember 18. szerda 20:30-ig az órákon)
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726581647/fmpw1j5pwiif2vcyfmq2.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6_6CULjiaEcRgBgeDCnEAAQ
+international: No
+hash: 1726858800000+ChIJdzOp47jiaEcRSAVo35Yfze4
+id: 4faSkIg6agmLMIa0WITL

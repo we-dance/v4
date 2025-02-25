@@ -1,0 +1,103 @@
+venue:
+  formatted_address: Karolinská 8, 186 00 Praha 8-Karlín, Czechia
+  website: https://riverrink.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: River Rink Karlín
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4475821802915
+      south: 50.0935840697085
+      north: 50.0962820302915
+      west: 14.4448842197085
+    location:
+      lng: 14.4463764
+      lat: 50.0950757
+  address_components:
+    - types:
+        - premise
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  place_id: ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+  url: https://maps.google.com/?cid=13502229040501932412
+  username: riverrink.cz
+endDate: 1719518400000
+claimed: No
+program: []
+type: event
+duration: 240
+createdAt: 1719005223339
+artists: []
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: " Latin Summer parties | Salsa & Bachata Open Air Thursdays"
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719504000000
+hash: 1719504000000+ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+username: DjLole
+viewsCount: 1
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkZ72ZvCYoYDcFrVBUxlO.png?generation=1719005233026880&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F2b42d91c-628f-4aaf-a09c-0730c6095fe6?alt=media&token=ebc40f51-599c-4639-9c17-20903333163d
+price: 100 CZK
+link: https://www.facebook.com/events/2697969937031944/2697969943698610
+id: kZ72ZvCYoYDcFrVBUxlO
+updatedAt: 1719005299867

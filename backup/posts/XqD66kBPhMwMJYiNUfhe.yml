@@ -1,0 +1,100 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Zenettistraße
+      short_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80337"
+      short_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  name: Salsa Y Corazon - dance school
+  geometry:
+    viewport:
+      south: 48.12187606970849
+      north: 48.12457403029149
+      east: 11.5593379802915
+      west: 11.5566400197085
+    location:
+      lng: 11.557894
+      lat: 48.12314479999999
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  international_phone_number: +49 172 9659579
+endDate:
+  _seconds: 1642284000
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: https://salsafreaks.splashthat.com/
+type: event
+promo: ""
+duration: "240"
+cover: ""
+createdAt: 1642258340099
+price: 10 EUR
+promoter: alejito
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1642258340099
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa Bachata Mix by DJ Hec
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-01-15T19:00
+username: alejito
+viewsCount: 59
+id: XqD66kBPhMwMJYiNUfhe

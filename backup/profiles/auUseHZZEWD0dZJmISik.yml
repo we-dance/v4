@@ -1,0 +1,57 @@
+createdAt: 1715015950387
+website: https://maps.google.com/?q=St%C5%99eleck%C3%BD+ostrov,+370+01+%C4%8Cesk%C3%A9+Bud%C4%9Bjovice-%C4%8Cesk%C3%A9+Bud%C4%9Bjovice+1,+Czechia&ftid=0x47734fc34a958e81:0x48e0b915bb67e967
+rooms: ""
+address:
+  formatted_address: Střelecký ostrov, 370 01 České Budějovice-České Budějovice 1, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Střelecký ostrov
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4661452197085
+        lat: 48.96662731970851
+      northeast:
+        lng: 14.4688431802915
+        lat: 48.96932528029151
+    location:
+      lng: 14.4674942
+      lat: 48.9679763
+  address_components:
+    - types:
+        - route
+      short_name: Střelecký ostrov
+      long_name: Střelecký ostrov
+    - types:
+        - postal_town
+      short_name: České Budějovice 1
+      long_name: České Budějovice 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: České Budějovice
+      long_name: České Budějovice
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihočeský kraj
+      long_name: Jihočeský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 370 01
+      long_name: 370 01
+  url: https://maps.google.com/?q=St%C5%99eleck%C3%BD+ostrov,+370+01+%C4%8Cesk%C3%A9+Bud%C4%9Bjovice-%C4%8Cesk%C3%A9+Bud%C4%9Bjovice+1,+Czechia&ftid=0x47734fc34a958e81:0x48e0b915bb67e967
+  place_id: ChIJgY6VSsNPc0cRZ-lnuxW54Eg
+gender: Other
+phone: ""
+name: Střelecký ostrov
+updateAt: 1715015950387
+type: Venue
+map: ""
+username: steleckostrov
+viewsCount: 1
+id: auUseHZZEWD0dZJmISik

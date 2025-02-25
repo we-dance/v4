@@ -1,0 +1,126 @@
+venue:
+  website: http://www.odessa.ua/?lang=en
+  formatted_address: Odesa, Odessa Oblast, Ukraine, 65000
+  name: Odesa
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 30.81189008774716
+      south: 46.31952199787973
+      north: 46.60042197204501
+      west: 30.61168492007861
+    location:
+      lng: 30.7233095
+      lat: 46.482526
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Odesa
+      long_name: Odesa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Odes'ka city council
+      long_name: Odes'ka city council
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Odessa Oblast
+      long_name: Odessa Oblast
+    - types:
+        - country
+        - political
+      short_name: UA
+      long_name: Ukraine
+    - types:
+        - postal_code
+      short_name: "65000"
+      long_name: "65000"
+  place_id: ChIJQ0yGC4oxxkARbBfyjOKPnxI
+  url: https://maps.google.com/?q=Odesa,+Odessa+Oblast,+Ukraine,+65000&ftid=0x40c6318a0b864c43:0x129f8fe28cf2176c
+claimed: No
+link: https://t.me/MarinaImasBachata
+description: >-
+  Девочки, напоминаю вам, что мы продолжаем тренировки в студии Ymas Latin Dance
+  по адресу Б.Арнаутская 38 
+
+
+  Расписание занятий 👇👇
+
+   ✔️ Пятница :
+  18.00-19.30 Группа с нуля (ещё можно присоединиться)
+
+   ✔️ Суббота:
+  11:00 -12.30  Базовая группа 
+
+  12:30 -14.00 Продолжающая группа
+
+
+  Адрес занятий
+
+  ул. Б. Арнаутской, 38
+
+
+  Занятие длится 1,5 часа/ Стоимость 250 грн
+
+  Часть средств идёт на помощь Украине🇺🇦
+
+
+  📌А также, если вы приобретаете онлайн уроки в записи, 80% средств я передам от вас Вере Брежневой на сбор для строительства Города Добра. https://www.instagram.com/p/Ce1cXT7oUmO/?igshid=MDJmNzVkMjY=
+
+
+  Все вопросы и запись - 0679640627 Катя 
+
+
+  Всех желающих ждём поддерживать эмоциональный баланс и физическую форму💙
+
+  Берегите себя и своих близких 🙏💕
+type: event
+duration: "90"
+promo: Yes
+createdAt: 1655384470113
+artists:
+  - instagram: my_dance_on
+    username: my_dance_on
+  - instagram: marinaimas_bachatadance
+    username: marinaimas_bachatadance
+price: "8.5 USD "
+place: ChIJQ0yGC4oxxkARbBfyjOKPnxI
+international: No
+updatedAt: 1655384470113
+updatedBy: dP1wCCBEXiYlskkMHbVhuJx2lrP2
+visibility: Public
+org:
+  role: organiser
+  name: ImasLatinDance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdP1wCCBEXiYlskkMHbVhuJx2lrP2%2F1b82b528-9cde-4dd5-987a-7b5945ee12c7?alt=media&token=bd09d21b-97cd-4db3-b86e-45b1c7d579c5
+  username: ImasLatinDance
+eventType: Course
+form: No
+createdBy: dP1wCCBEXiYlskkMHbVhuJx2lrP2
+watch:
+  count: 1
+  list:
+    ImasLatinDance: true
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: ImasLatinDance
+id: DszL4jUnFuiOANRS70x7
+endDate:
+  _seconds: 1655487000
+  _nanoseconds: 0
+startDate: 2022-06-17T18:00
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdP1wCCBEXiYlskkMHbVhuJx2lrP2%2F86254cd2-fd33-4ff6-9897-2edf5c3155fd?alt=media&token=8e7674b4-d5e9-4f69-a8db-b844558eaafa
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDszL4jUnFuiOANRS70x7.png?generation=1655384841522158&alt=media
+name: "Бачата Lady Style по пятницам и субботам все уровни с нуля "
+viewsCount: 5

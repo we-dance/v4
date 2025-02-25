@@ -1,0 +1,192 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/salsa-on-the-edge/
+name: Salsa On The Edge
+sourceUrl: https://www.facebook.com/events/1201140884271224
+venue:
+  address_components:
+    - long_name: "1"
+      short_name: "1"
+      types:
+        - subpremise
+    - long_name: "5"
+      short_name: "5"
+      types:
+        - street_number
+    - long_name: Park Road
+      short_name: Park Rd
+      types:
+        - route
+    - long_name: Shanklin
+      short_name: Shanklin
+      types:
+        - postal_town
+    - long_name: Isle of Wight
+      short_name: Isle of Wight
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: England
+      short_name: England
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United Kingdom
+      short_name: GB
+      types:
+        - country
+        - political
+    - long_name: PO37 6BB
+      short_name: PO37 6BB
+      types:
+        - postal_code
+  formatted_address: 1, 5 Park Rd, Shanklin PO37 6BB, UK
+  geometry:
+    location:
+      lat: 50.63034649999999
+      lng: -1.1739303
+    viewport:
+      northeast:
+        lat: 50.6316506802915
+        lng: -1.172683769708498
+      southwest:
+        lat: 50.6289527197085
+        lng: -1.175381730291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +44 1983 861111
+  name: The Ocean View Hotel
+  place_id: ChIJlQhHnMqLdEgRPXEiefNU_qU
+  url: https://maps.google.com/?cid=11961091065028702525
+  website: https://www.oceanviewhoteliow.co.uk/
+endDate: 1742817600000
+claimed: No
+link: ""
+description: "A weekend of dancing for lovers of all things latin.  We will be
+  running this weekend in our very own, chilled but professional way with a
+  friendly, fun vibe that everyone can enjoy whether an experienced dancer or
+  not.\ 
+
+  TEACHERS - Confirmed
+
+  Rasa Pauzaite
+
+  Gary Thomas and Emma Joanne Santino
+
+  Michael Pottinger
+
+  Robert Sherwood and Ildiko Dorka
+
+  more TBC..........
+
+
+  The teachers will be covering a wide spectrum of latin dances at various
+  levels so that the event is totally inclusive for anyone of any level who
+  wants to dance.\ 
+
+
+  FRIDAY  21st - check in (from 3pm) - Welcome party 7.30pm
+
+  SATURDAY 22nd - Classes start at 11am until 4.30pm - Themed Party MARDI GRAS
+  (carnival) 7.30pm
+
+  SUNDAY 23rd - Classes from 11am until 4.30 (pool party 4ish) - Bon Voyage
+  party 7.30pm
+
+  Monday 24th - Check out 11am latest.
+
+  \\ 
+
+  (Breakfast is served 8am til 10am each morning. Dinner 5.30pm til 7.30pm
+  Each evening.)
+
+
+  FULL PASS (all classes and parties)
+
+
+  \t\t\t\tEarly bird = \t\t\t£195 (Sep, Oct, Nov)
+
+  \t\t\t\tAdvanced  =\t\t\t£225 (Dec, jan)
+
+  \t\t\tLast min.com\t   =\t\t\t£250 (Feb, onwards)
+
+
+  Party Pass = 3 parties £120 (1 party £45 on the door) (Talk to local salsa
+  schools re group concessions)
+
+  Class Passes = 2 days £150 (single day £80)\ 
+
+  1 day and night pass = £115
+
+
+  https://www.paypal.com/ncp/payment/XKL9ECEVLXB4J\ 
+
+  (If you'd rather not use paypal please DM me to set up a direct transfer)
+
+
+  ROOMS BOOKED DIRECT WITH HOTEL.\ 
+
+  Room costs including breakfast and dinner -\ 
+
+  \                       Garden view = £60pp/pn
+
+  \                        Sea view      = £80pp/pn
+
+
+  There are NO SINGLE SUPPLEMENTS. These are the prices per person.  However
+  we ask if you're HAPPY TO SHARE  please do as this leaves more rooms for more
+  people to enjoy the fun!!
+
+
+  BOOK YOUR FERRY VIA THE HOTEL  FOR A DISCOUNTED FARE.
+
+
+  A PAYPAL link will be added at the weekend for pass payments. Please book
+  early.  (this is the first advertisment and there's been a lot of interest!!)
+
+  COME AND DANCE ON THE EDGE with Ukslasafeet for the weekend!! YOU KNOW
+  YOU'LL LOVE IT!!!
+
+  \ "
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  createdAt: 1732293950081
+  importedAt: 1732293950081
+  updatedAt: 1732293950081
+  source: facebook
+  name: Uksalsafeet
+  facebook: https://www.facebook.com/people/Uksalsafeet/100063782059232/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293950/mjvtskfpyysac8mcb1wv.jpg
+  username: Uksalsafeet
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+facebook: https://www.facebook.com/events/1201140884271224/
+facebookId: "1201140884271224"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1742547600000+ChIJlQhHnMqLdEgRPXEiefNU_qU
+startDate: 1742547600000
+id: EX93VVffbc6hCnnv0E9e

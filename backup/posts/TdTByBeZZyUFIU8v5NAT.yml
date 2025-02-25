@@ -1,0 +1,113 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  name: Pinakothek der Moderne
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  international_phone_number: +49 89 23805360
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+claimed: No
+type: event
+promo: ""
+duration: "240"
+createdAt: 1653585700940
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1653585700940
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/vacunaaa
+  name: Salsa Cubana Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  bio: The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties
+  instagram: https://instagram.com/salsa.cubana.munich
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  username: salsa.cubana.munich
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Timba Party
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+username: alexrazbakov
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F324e7229-14e5-4368-a693-7a6d5df896da?alt=media&token=30c00edf-7455-4679-b699-19338b90d7f7
+id: TdTByBeZZyUFIU8v5NAT
+description: Best of Timba, Songo, Son, Timbaton
+link: https://chat.whatsapp.com/KzO0loRmWQ828I6JzL9RhV
+artists: []
+viewsCount: 13
+price: FREE
+artistsList: []
+endDate:
+  _seconds: 1656104400
+  _nanoseconds: 0
+startDate: 2022-06-24T19:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTdTByBeZZyUFIU8v5NAT.png?generation=1656089668410483&alt=media

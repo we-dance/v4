@@ -1,0 +1,45 @@
+endDate:
+  _seconds: 1604689200
+  _nanoseconds: 0
+city: Munich
+link: ""
+description: |-
+  Due to new corona restrictions no  salsa classes in November.
+
+  If you would like to have a private class DM to https://t.me/razbakov
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F2452bf7b-0e6f-4dfe-9b90-24d5c9f88da8?alt=media&token=9f544c2b-aff1-4a31-aa50-c04842099914
+createdAt: 1601326008669
+watchersCount: 0
+commentsLast: ~
+id: 7FJViGVKVfvEZoducJu8
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617065895888
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Maillingerstraße 6
+visibility: Public
+eventType: Course
+organiser: MontunoClub
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: "Cancelled: Salsa from Zero"
+styles:
+  Salsa:
+    level: Interested
+    selected: true
+  Casino:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2020-11-06T18:00:00.000Z
+username: alejito
+viewsCount: 3

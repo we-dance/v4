@@ -1,0 +1,122 @@
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2Fc4bdf249-a713-40e3-9cfc-d88a39e3c678?alt=media&token=5585ffd1-99ba-4e36-9de9-aa729daae4a0
+createdAt: 1700520015317
+artists: []
+price: 15 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: One free soft before 10 PM
+international: No
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/djomega.christina
+  name: Dj_Omega
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+  bio: Organiser - DJ - dancer
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  instagram: https://instagram.com/djomega_official
+  username: Dj_Omega
+facebook: https://fb.me/e/1AIcX37Fe
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 1
+  list:
+    Dj_Omega: true
+name: TOCA TOCA - The Saturday Kizomba Night
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1700944200000
+username: Dj_Omega
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FUdgUKJ3QlLUUk4ANHGDE.png?generation=1700520034409016&alt=media
+endDate: .nan
+description: >-
+  TOCA TOCA proudly presents The Saturday Kizomba Party!
+
+  In your favourite bar of Munich - Bird Bar 🦜
+
+  Centrally location only 2 minutes from MUC Central Station
+
+  With DJ Omega on the mix 🎧 for the best of Kizomba, UrbanKiz, Ghetto Zouk, Douceur, Kompa and much more 🎶💃🕺
+
+
+  📍Bird bar 🦜
+
+  ⏰ 9.30 pm - 2 am
+
+  💵 15 € - one free soft (0.25ml, coke, sprite, fanta, or water) when you enter before 10PM
+id: UdgUKJ3QlLUUk4ANHGDE
+updatedAt: 1700945815614
+viewsCount: 29

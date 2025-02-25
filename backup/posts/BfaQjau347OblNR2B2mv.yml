@@ -1,0 +1,141 @@
+venue:
+  formatted_address: Rosenheimer Str. 139, 81671 München, Germany
+  website: http://www.circulo.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: CIRCULO Tanzschule München
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6034070802915
+      south: 48.1229271697085
+      north: 48.1256251302915
+      west: 11.6007091197085
+    location:
+      lng: 11.6024306
+      lat: 48.1242407
+  address_components:
+    - types:
+        - street_number
+      short_name: "139"
+      long_name: "139"
+    - types:
+        - route
+      short_name: Rosenheimer Str.
+      long_name: Rosenheimer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  international_phone_number: +49 89 494888
+  url: https://maps.google.com/?cid=10790597757153464934
+  place_id: ChIJ30VdnYPfnUcRZlJCNX3nv5U
+claimed: No
+link: https://bachata-me-mucho.de/de/tickets/
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG7wKeUm3BMcAffkTChpUMuxrNFP2%2F65152721-535f-4cc9-8d87-f7bef5d24fc6?alt=media&token=fd5c9a08-cb1b-4531-8409-65635c95b117
+createdAt: 1676215072052
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+visibility: Public
+facebook: https://www.facebook.com/bachata.me.mucho
+form: No
+createdBy: G7wKeUm3BMcAffkTChpUMuxrNFP2
+watch:
+  count: 1
+  list:
+    CIRCULO: true
+name: Bachata me mucho - Dominican Bachata Festival
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: CIRCULO
+id: BfaQjau347OblNR2B2mv
+eventType: Festival
+star:
+  count: 0
+  usernames: []
+  list: {}
+price: 70-150 EUR
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: CIRCULO
+    photo: ""
+    bio: ""
+    id: G7wKeUm3BMcAffkTChpUMuxrNFP2
+    instagram: ""
+    username: CIRCULO
+artistsList:
+  - CIRCULO
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBfaQjau347OblNR2B2mv.png?generation=1697222739294542&alt=media
+telegram:
+  requestedAt: 1697222746738
+  messageUrl: https://t.me/WeDanceMunich/1171
+  publishedAt: 1697222748022
+  messageId: 1171
+  state: published
+instagram:
+  requestedAt: 1697222754014
+  messageUrl: https://instagram.com/p/CyWXwScpDVk
+  publishedAt: 1697222765758
+  messageId: CyWXwScpDVk
+  state: published
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1697997600000
+startDate: 1697796000000
+updatedAt: 1697378784836
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/circulo
+  name: CIRCULO Tanzschulen
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fcirculo_tanzschule.png?generation=1655306300387997&alt=media
+  bio: |-
+    Tanzschule für SALSA, BACHATA, KIZOMBA, GESELLSCHAFTSTANZ und WCS
+    📷 markiert uns @circulo_tanzschule & #tanzschulecirculo 
+    💃🏻 Anmeldung über Homepage
+  id: 0y8mMBB5cH0FLluFNN92
+  instagram: https://www.instagram.com/circulo_tanzschule/
+  username: circulo_tanzschule
+viewsCount: 63

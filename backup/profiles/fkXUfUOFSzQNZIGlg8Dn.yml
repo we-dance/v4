@@ -1,0 +1,54 @@
+owner: ""
+createdAt: 1675254467484
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1675254467484
+gender: Other
+partner: ""
+reviews: []
+team: []
+id: fkXUfUOFSzQNZIGlg8Dn
+type: Organiser
+username: CubDom
+name: Cuban Meets Dominican
+permission: ""
+bio: |-
+  Tired of romantica and sensual?
+
+  Salsa Cubana back to Munich! Meet Bachata Dominicana!
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+instagram: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F1ebc24c4-5910-4bab-a72c-9c8b7f40b184?alt=media&token=b973a54e-b70b-420f-961f-ddc6e8480fd1
+whatsapp: https://wa.me/4915782039401
+telegram: https://t.me/AlexRazbakov
+watch:
+  count: 5
+  usernames:
+    - _s_
+    - SabrinaNietsch
+    - alexrazbakov
+    - Bailarina
+    - Lyolya_urban.kiz_
+  list:
+    _s_: true
+    SabrinaNietsch: true
+    alexrazbakov: true
+    Bailarina: true
+    Lyolya_urban:
+      kiz_: true
+import: failed
+importError: POST /api/v1/accounts/login/ - 400 Bad Request; Please wait a few
+  minutes before you try again.
+viewsCount: 328

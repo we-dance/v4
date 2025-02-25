@@ -1,0 +1,26 @@
+visibility: Members
+timezone: GMT+0200
+type: Dancer
+createdAt: 1634295782865
+locales:
+  de: true
+createdBy: liuHZRu3u8UcMnnkBDWzAtZYbbD2
+name: Mart
+place: ChIJ4RfLRErQnkcR07yO_02f4vw
+username: Mart
+lastLoginAt: 1634295783056
+daysUsed: 1
+pwaUsed: false
+gender: Male
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1634295857215
+id: liuHZRu3u8UcMnnkBDWzAtZYbbD2

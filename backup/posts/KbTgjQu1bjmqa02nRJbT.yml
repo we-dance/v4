@@ -1,0 +1,127 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Anglerstraße
+      short_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  url: https://maps.google.com/?q=Anglerstra%C3%9Fe+6,+80339+M%C3%BCnchen,+Germany&ftid=0x479dd8a8ae673a6f:0x814b753d2a7c7abc
+  name: Anglerstraße 6
+  geometry:
+    viewport:
+      south: 48.1329221197085
+      north: 48.1356200802915
+      east: 11.5365722802915
+      west: 11.5338743197085
+    location:
+      lng: 11.5351422
+      lat: 48.13432659999999
+  place_id: ChIJbzpnrqjYnUcRvHp8Kj11S4E
+endDate:
+  _seconds: 1642262400
+  _nanoseconds: 0
+organisedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+claimed: Yes
+link: https://docs.google.com/forms/d/1_KtJaPRbgG5MRb3sWi99uvLcYHtihhWHWZ5ct6sw1Gk/viewform?chromeless=1&edit_requested=true
+description: >-
+  14 - 15 Uhr Salsa LA Intermediate/Advanced Workshop
+
+  15 - 17 Uhr Übungsstunden
+
+
+  In diesem Workshop wird eine Intermediate/Advanced Figur mit Fokus an Technik und Flow-Bewegungen gezeigt und gelehrt.
+
+
+  Diese Veranstaltung eignet sich für diejenigen, die lernen und auch gleich üben wollen 💥 Eine alleinige Anmeldung für die Übungsstunden ist auch möglich!
+
+
+  Wir freuen uns auf euch 💃🕺
+
+
+  Anmeldungen unter:
+
+  https://docs.google.com/forms/d/1_KtJaPRbgG5MRb3sWi99uvLcYHtihhWHWZ5ct6sw1Gk/edit?chromeless=1
+
+
+  Hinweis:
+
+  Dies ist ein 2G+ Veranstaltung. Sie sollten geimpft / genesen sein + einen negativen Test benötigen, um hineinzukommen.
+type: event
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fdcdfdb9c-0b5b-4029-9981-f416a57ea752?alt=media&token=8842592b-102c-4f03-9a62-92e7b496a226
+duration: "180"
+createdAt: 1641747331324
+price: 7-10EUR
+promoter: AnnaMil
+promotedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1641747331324
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+eventType: Workshop
+confirmation: |-
+  Dear Guest,
+
+  after filling the Google Form, you are successfully registered.
+
+  See you on Saturday 💃
+organiser: AnnaMil
+form: Yes
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Salsa Intermediate/Advanced Workshop & Übungsstunden
+online: No
+styles:
+  SalsaLA:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2022-01-15T14:00
+username: AnnaMil
+viewsCount: 38
+id: KbTgjQu1bjmqa02nRJbT

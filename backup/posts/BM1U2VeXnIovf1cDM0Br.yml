@@ -1,0 +1,117 @@
+venue:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "91"
+      short_name: "91"
+    - types:
+        - route
+      long_name: Biberger Straße
+      short_name: Biberger Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Unterbiberg
+      short_name: Unterbiberg
+    - types:
+        - locality
+        - political
+      long_name: Unterhaching
+      short_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "82008"
+      short_name: "82008"
+  url: https://maps.google.com/?q=Biberger+Str.+91,+82008+Unterhaching,+Germany&ftid=0x479dde23dcb5511f:0xe1304f0516a01c67
+  name: Biberger Str. 91
+  geometry:
+    viewport:
+      south: 48.0718889697085
+      north: 48.07458693029149
+      east: 11.6214697302915
+      west: 11.61877176970849
+    location:
+      lng: 11.6201032
+      lat: 48.0733225
+  place_id: ChIJH1G13CPenUcRZxygFgVPMOE
+endDate:
+  _seconds: 1640556000
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+description: |
+  Achtung: 2Gplus! (evtl. Schnelltest selber mitbringen und vor Ort durchführen)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FMeIdCU0HjEUjBY1qdU1ExxBmGth2%2F787600dd-15fa-4837-80d1-d5726860474a?alt=media&token=5812738a-a908-40da-8058-8a136b39eb6d
+promo: No
+duration: "240"
+createdAt: 1640357425311
+watchersCount: 0
+price: 10 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBM1U2VeXnIovf1cDM0Br.png?generation=1640527453702505&alt=media
+commentsLast: ~
+promoter: Deniz
+id: BM1U2VeXnIovf1cDM0Br
+promotedBy: MeIdCU0HjEUjBY1qdU1ExxBmGth2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 6
+updatedAt: 1640357425311
+updatedBy: MeIdCU0HjEUjBY1qdU1ExxBmGth2
+visibility: Public
+eventType: Party
+organiser: ""
+form: No
+createdBy: MeIdCU0HjEUjBY1qdU1ExxBmGth2
+commentsCount: 0
+name: Übungsabend Salsa+Bachata+Kizomba im Tanzhaus Emotion Unterhaching
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-26T18:00:00.000Z
+username: Deniz
+viewsCount: 37

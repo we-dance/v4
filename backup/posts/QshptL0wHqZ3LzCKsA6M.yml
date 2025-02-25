@@ -1,0 +1,151 @@
+venue:
+  website: https://www.instagram.com/arkadien1988/
+  formatted_address: Landwehrstraße 58, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Arkadi
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5577719802915
+      south: 48.1350979697085
+      north: 48.1377959302915
+      west: 11.5550740197085
+    location:
+      lng: 11.556411
+      lat: 48.136531
+  address_components:
+    - types:
+        - street_number
+      short_name: "58"
+      long_name: "58"
+    - types:
+        - route
+      short_name: Landwehrstraße
+      long_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  place_id: ChIJc4C5H1bfnUcR1W5n3K9ecr0
+  international_phone_number: +49 89 5328150
+  url: https://maps.google.com/?cid=13651077529923448533
+endDate: 2023-01-25T23:45
+claimed: No
+description: |-
+  Salsa, Timba, Bachata
+  Latin Party Dj Elito, ab dem 25.01.20223 und jeden Mittwoch 
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F26b87914-56e5-429e-a7ab-fe941dfd9e44?alt=media&token=e9d67062-d4d6-4f5f-86de-ead7acc45de0
+createdAt: 1674591507260
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - elitosalsero
+international: No
+updatedAt: 1674591507260
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+facebook: https://facebook.com/events/s/salsa-timba-bachata-cuban-part/1607651749711134/
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-25T19:00
+username: alexrazbakov
+id: QshptL0wHqZ3LzCKsA6M
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: https://www.facebook.com/arkadi.muenchen
+  name: Arkadi Cafe Restaurant Bar
+  bio: |-
+    Coffe Brunch Restaurant Bar /
+    Arkadi is waiting for you /
+    Die-Do 10:00-00:00 / 
+    Fr-Sa 10:00-02:00
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F613792de-a247-42e4-b01a-85c7d4f2aaa7?alt=media&token=b5b77589-7cb2-4570-869b-7a04f3a140fd
+  instagram: https://instagram.com/arkadien1988
+  id: BJa7phqNFCrkzvPc23Hr
+  username: arkadien1988
+name: Salsa, Timba, Bachata, Cuban Party
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQshptL0wHqZ3LzCKsA6M.png?generation=1674591599768197&alt=media
+telegram:
+  requestedAt: 1674591605713
+  messageUrl: https://t.me/WeDanceMunich/822
+  publishedAt: 1674591607314
+  messageId: 822
+  state: published
+instagram:
+  requestedAt: 1674591609645
+  messageUrl: https://instagram.com/p/Cnz6Ra_pelX
+  publishedAt: 1674591621928
+  messageId: Cnz6Ra_pelX
+  state: published
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Elito
+    bio: 🇨🇺 Cuban | 🕺🏾🪘🪘100% Salsero, Rumbero & Timbero | 🕺🏾Dancer | 💻
+      Software Engineer | 👨🏾‍💻Programmer | 🏠 Munich, Bavaria. Germany 🇩🇪
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOE77TsdydbYBBiLDoLy81chyyOf1%2Ff019a3c2-32ab-4128-bf62-cda3eed772ab?alt=media&token=0f8536ba-4054-4623-a93a-8c0d1bc5969f
+    instagram: ""
+    id: OE77TsdydbYBBiLDoLy81chyyOf1
+    username: elitosalsero
+star:
+  count: 1
+  list:
+    alexrazbakov: true
+viewsCount: 111
