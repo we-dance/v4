@@ -1,0 +1,144 @@
+importedAt: 1707433907638
+providerUpdatedAt:
+  _seconds: 1706948862
+  _nanoseconds: 0
+endDate:
+  _seconds: 1707840000
+  _nanoseconds: 0
+facebookId: "909065120520772"
+facebook: https://www.facebook.com/events/909065120520772/
+createdAt: 1707433907638
+providerItemId: e909065120520772@facebook.com
+approved: false
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: anBgOWXJuGIEKeqfp7My
+name: Carnaval an marienplatz
+location: Marienplatz, München
+providerCreatedAt:
+  _seconds: 1706442228
+  _nanoseconds: 0
+startDate:
+  _seconds: 1707829200
+  _nanoseconds: 0
+username: alexrazbakov
+venue:
+  formatted_address: Marienplatz, 80331 München-Altstadt-Lehel, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Marienplatz
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5744644197085
+        lat: 48.1356849197085
+      northeast:
+        lng: 11.5771623802915
+        lat: 48.13838288029149
+    location:
+      lng: 11.5758134
+      lat: 48.1370339
+  address_components:
+    - types:
+        - route
+      short_name: Marienplatz
+      long_name: Marienplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJHble2Ip1nkcRe1Yle_yFdOI
+  url: https://maps.google.com/?q=Marienplatz,+80331+M%C3%BCnchen-Altstadt-Lehel,+Germany&ftid=0x479e758ad85eb91d:0xe27485fc7b25567b
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707433920468
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/barbosa.sergio.319
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707433920/ddheljnrjcljb7wfhhmh.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707433920468
+  owned: false
+  name: Barbosa Sergio
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  updatedAt: 1707433920468
+  username: barbosa.sergio
+claimed: No
+link: ""
+description: >-
+  m 13. Februar 2024 findet in München ein spektakulärer Samba-Umzug statt. Der
+  Umzug, genannt "Bloco Todentro", wird im Herzen der Stadt, genauer gesagt am
+  Marienplatz, ab 14:00 Uhr starten.  Der Bloco Todentro ist einer der
+  bekanntesten und beliebtesten Samba-Umzüge in ganz Deutschland. Jahr für Jahr
+  zieht er zahlreiche Besucher aus Nah und Fern an. Mit seinen mitreißenden
+  Rhythmen, farbenfrohen Kostümen und einer energiegeladenen Atmosphäre bringt
+  der Umzug eine einzigartige brasilianische Feststimmung in die bayerische
+  Hauptstadt. Der Marienplatz, einer der bekanntesten Plätze Münchens, bietet
+  eine großartige Kulisse für den Samba-Umzug. Hier kommen Menschen jeden Alters
+  zusammen, um die rhythmische Musik zu genießen, zu tanzen und in den
+  brasilianischen Flair einzutauchen. Die Straßen werden mit einem Meer aus
+  Farben und Klängen erfüllt sein, während der Umzug durch die Stadt zieht und
+  die Menschen mit seiner mitreißenden Energie mitreißt.  Der Bloco Todentro ist
+  ein Ereignis, das man auf keinen Fall verp
+
+
+  Um espetacular desfile de samba acontecerá em Munique no dia 13 de fevereiro de 2024. O desfile, denominado “Bloco Todentro”, terá início no coração da cidade, mais precisamente na Marienplatz, a partir das 14h00. O Bloco Todentro é um dos desfiles de samba mais conhecidos e populares de toda a Alemanha. Ano após ano atrai numerosos visitantes de perto e de longe. Com ritmos vibrantes, fantasias coloridas e clima energético, o desfile traz um clima festivo brasileiro único para a capital da Baviera. A Marienplatz, uma das praças mais famosas de Munique, oferece um excelente cenário para o desfile de samba. Pessoas de todas as idades vêm aqui para curtir a música rítmica, dançar e mergulhar no toque brasileiro. As ruas ficarão repletas de um mar de cores e sons à medida que o desfile avança pela cidade, arrebatando as pessoas com sua energia contagiante. O Bloco Todentro é um evento que definitivamente não deve ser perdido
+program: []
+source: facebook
+eventType: Party
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707433922/zgye6jxxlwiiuy4r9aua.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpoxjvinsxZk52GBwiWgF.png?generation=1707433940208818&alt=media
+viewsCount: 2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList: []
+id: poxjvinsxZk52GBwiWgF
+hash: 063843426000.000000000+ChIJHble2Ip1nkcRe1Yle_yFdOI
+updatedAt: 1707565790855

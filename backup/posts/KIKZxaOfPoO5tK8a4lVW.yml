@@ -1,0 +1,123 @@
+endDate: 1726271999000
+sourceUrl: https://www.facebook.com/events/854906022978392/
+createdAt: 1725976835418
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725898058000
+updatedAt: 1725976835418
+importedAt: 1725976835418
+providerUpdatedAt: 1725898058000
+facebookId: "854906022978392"
+facebook: https://www.facebook.com/events/854906022978392/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/854906022978392/
+eventType: Party
+providerItemId: 48102-1726185600-1726271999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Like Kávézó Bonyhád, Széchenyi tér 8., Bonyhád, 7150, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726185600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Nyíregyháza, Kossuth tér 1, 4400 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Like Cafe
+  geometry:
+    viewport:
+      southwest:
+        lng: 21.7147757197085
+        lat: 47.9547525697085
+      northeast:
+        lng: 21.7174736802915
+        lat: 47.9574505302915
+    location:
+      lng: 21.716212
+      lat: 47.95564699999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Kossuth tér
+      long_name: Kossuth tér
+    - types:
+        - locality
+        - political
+      short_name: Nyíregyháza
+      long_name: Nyíregyháza
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "4400"
+      long_name: "4400"
+  international_phone_number: +36 70 329 8609
+  place_id: ChIJrV6Idb6fOEcR-DIGp2_WQO8
+  url: https://maps.google.com/?cid=17240015148606173944
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+link: ""
+description: |-
+  💦🌴💦🌴Szabadtéri szösszenet Bonyhád városában
+  👌 A lapos cipő a kényelem és a tánctér miatt is erősen javasolt!
+  - Nyári éjszakák melegét átbekkelve😍😎
+  🤩☀️ ..
+  ===💥Salsa - 💥Bachata - Kizomba===
+  OpenAir party💋💋
+
+  ⏰ Időpont: 2024. szeptember 13. (péntek) 18:00-21:00
+  ⚡️🌧💦 eső esetén elmarad.🌧💦
+  18:00-21:00 party /1000Ft/
+
+  📍Helyszín: Bonyhád, Like Kávézó Széchényi tér 8.
+
+  📬info@dolce-dance.com
+  📬www.dolce-dance.com
+  ☎️+36305153951
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725976847/nmrtuywbmmwllgzha84q.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Hot Summer Open Air Salsa-Sensual Party -Bonyhád
+online: No
+place: ChIJ31dXt-efOEcRoBEeDCnEAAQ
+international: No
+hash: 1726239600000+ChIJrV6Idb6fOEcR-DIGp2_WQO8
+id: KIKZxaOfPoO5tK8a4lVW

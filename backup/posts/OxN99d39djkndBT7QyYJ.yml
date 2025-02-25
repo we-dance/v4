@@ -1,0 +1,126 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/escapate-y-baila-murcia/
+name: ESCAPATE Y BAILA MURCIA 2025
+sourceUrl: https://facebook.com/events/3641465362787950
+venue:
+  address_components:
+    - long_name: "5"
+      short_name: "5"
+      types:
+        - street_number
+    - long_name: Avenida Primero de Mayo
+      short_name: Av. Primero de Mayo
+      types:
+        - route
+    - long_name: Murcia
+      short_name: Murcia
+      types:
+        - locality
+        - political
+    - long_name: Murcia
+      short_name: MU
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Región de Murcia
+      short_name: MC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "30006"
+      short_name: "30006"
+      types:
+        - postal_code
+  formatted_address: Av. Primero de Mayo, 5, 30006 Murcia, Spain
+  geometry:
+    location:
+      lat: 37.9900388
+      lng: -1.1167194
+    viewport:
+      northeast:
+        lat: 37.9911967302915
+        lng: -1.115465719708498
+      southwest:
+        lat: 37.9884987697085
+        lng: -1.118163680291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 968 06 02 00
+  name: Hotel Nelva
+  place_id: ChIJl9HWqxSCYw0Ru95bGz-RbFE
+  url: https://maps.google.com/?cid=5867224114784886459
+  website: https://www.hotelmurcianelva.com/?utm_source=google&utm_medium=organic&utm_campaign=my_business
+endDate: 1737298800000
+claimed: No
+link: https://lasalsadelbaile.com/eybmurcia2025?ref=oscareines
+description: >-
+  COMPRA TU PASE AQUI:
+  https://lasalsadelbaile.com/comprar/escapateybailamurcia2024?ref=oscareines
+
+
+  BIENVENIDOS AL ESCAPATE Y BAILA MURCIA 2025
+
+
+  ARTISTAS
+
+
+  - TROPICAL GEM
+
+  - YAIZA MELERO
+
+  - ALFONSO Y MONICA
+
+  - RAUL Y REYES
+
+  - JOAN Y MARIA
+
+  - DAVID E INES
+
+  - OSCAR E INES
+
+
+  Y MUCHISIMOS MAS
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/o2la86ze6xfnjv74kiof.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJf4yS1fiBYw0RmqvEOJsSJ9Y
+international: No
+visibility: Public
+org:
+  id: w3yTWphgRKD5tJX7FrbZ
+  username: Oscareinesbachata
+  name: Óscar e inés Bachata Sensual
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/uuxzdwmdklo2tcst63ya.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/Oscareinesbachata
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/3641465362787950/
+facebookId: "3641465362787950"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1737115200000+ChIJl9HWqxSCYw0Ru95bGz-RbFE
+startDate: 1737115200000
+id: OxN99d39djkndBT7QyYJ

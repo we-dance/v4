@@ -1,0 +1,116 @@
+endDate: 1762819200000
+sourceUrl: https://facebook.com/events/s/silesian-zouk-festival-maratho/536473848732249/
+createdAt: 1725890437438
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1725880305000
+updatedAt: 1725890437438
+importedAt: 1725890437438
+providerUpdatedAt: 1725880415000
+facebookId: "536473848732249"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/silesian-zouk-festival-maratho/536473848732249/
+  - https://facebook.com/events/s/silesian-zouk-festival-maratho/536473848732249/
+eventType: Festival
+providerItemId: 0i4epqj6s05h5lj82o93rej60j@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Katowice, Lengyelország
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1762473600000
+facebookUrlsCount: 2
+username: alexrazbakov
+venue:
+  formatted_address: Katowicka 10, 41-500 Chorzów, Poland
+  website: https://stadionslaski.pl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png
+  name: Śląski Stadium
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.9702489
+        lat: 50.28068635
+      northeast:
+        lng: 18.9767141
+        lat: 50.29325414999999
+    location:
+      lng: 18.9726717
+      lat: 50.28815909999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Katowicka
+      long_name: Katowicka
+    - types:
+        - locality
+        - political
+      short_name: Chorzów
+      long_name: Chorzów
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Powiat Chorzów
+      long_name: Powiat Chorzów
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Województwo śląskie
+      long_name: Województwo śląskie
+    - types:
+        - country
+        - political
+      short_name: PL
+      long_name: Poland
+    - types:
+        - postal_code
+      short_name: 41-500
+      long_name: 41-500
+  international_phone_number: +48 500 006 415
+  place_id: ChIJO4hg3_XNFkcRk4pWriPKBws
+  url: https://maps.google.com/?cid=794826113851755155
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1725890463446
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SilesianZoukFestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1725890463/kmkre5omc9kjpykj6pgz.png
+  source: facebook
+  type: Organiser
+  createdAt: 1725890463446
+  owned: false
+  name: Silesian Zouk Festival
+  place: ChIJCfis24XNFkcRe9zCWDoioKk
+  updatedAt: 1725890463446
+  username: SilesianZoukFestival
+claimed: No
+facebook: https://www.facebook.com/events/536473848732249/
+link: ""
+description: Save the date! <3
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890465/qruxhywlql6qenfzrtmj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Silesian Zouk Festival & Marathon 2025 - Katowice Poland | November
+online: No
+place: ChIJCfis24XNFkcRe9zCWDoioKk
+international: No
+hash: 1762542000000+ChIJO4hg3_XNFkcRk4pWriPKBws
+id: easMIWEo4M21zOLihn6J

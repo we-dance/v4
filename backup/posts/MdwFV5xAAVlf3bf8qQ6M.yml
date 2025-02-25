@@ -1,0 +1,165 @@
+endDate: 1738429200000
+sourceUrl: https://www.facebook.com/events/1201984617444217/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709552330000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1724246388000
+facebookId: "1201984617444217"
+facebook: https://www.facebook.com/events/1201984617444217/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1201984617444217/
+eventType: Party
+providerItemId: e1201984617444217@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "KAIZEN / Kizomba / Bachata 01 Février "
+location: Limoges
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1738418400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Limoges, France
+  website: http://www.ville-limoges.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Limoges
+  geometry:
+    viewport:
+      southwest:
+        lng: 1.146236960474783
+        lat: 45.78866748831476
+      northeast:
+        lng: 1.317535991641742
+        lat: 45.92837601175923
+    location:
+      lng: 1.261105
+      lat: 45.83361900000001
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Limoges
+      long_name: Limoges
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haute-Vienne
+      long_name: Haute-Vienne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+  place_id: ChIJYQRo5q80-UcREU02WTFKvhA
+  url: https://maps.google.com/?q=Limoges,+France&ftid=0x47f934afe6680461:0x10be4a3159364d11
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417917018
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Vibrations-Corporelles-Culturelles/100064868672637/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417917/mpu3rpdviwhfkucrvaec.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417917018
+  owned: false
+  name: Vibrations Corporelles & Culturelles
+  place: ChIJYQRo5q80-UcREU02WTFKvhA
+  updatedAt: 1728417917018
+  username: vibrations.corporell
+claimed: No
+link: ""
+description: |-
+  .                   💥 KAIZEN Kizomba-Bachata 💥
+
+  Des ateliers complets pour tous niveaux Kizomba et Bachata
+
+  ✨ Intervenants :
+
+  Lady Styling : Fanny 
+  Jazzycubango: Kizomba-Urbankiz
+  Ben Cyrille: Kizomba-Urbankiz/ Bachata
+
+  DJs: 
+  DJ Jazzy
+  DJ Ska
+
+  5 cours et Pratica
+
+  AU PROGRAMME:
+  - 15h00 Inscription
+  - 15h15 Lady Styling
+  - 16h45 Pause
+  - 17h00 Bachata évolutif
+  - 17h45 Kizomba évolutif
+  - 18h30 Pause auberge espagnole.
+
+  Jazzycubango 👇
+  - 19h30 Kizomba-Urbankiz évolutif
+  - 20h15 Kizomba-inter évolutif
+  - 21h00 Pratica
+
+  TARIFS :
+  *Web Full Pass : 
+
+  Femme Prévente : 26€
+  Homme Prévente : 23€
+  Femme 30€
+  Homme 26€
+
+
+  * Cours Web
+
+  lady styling : 10€
+  1 cours : 8€
+  2 cours : 15€
+
+  Pratica : 3€
+
+  *Sur Place FullPass :
+  Femme 35€
+  Homme 30€
+
+  * Cours sur place
+  Lady styling 13€
+  1 cours 10€
+  2 cours 17€
+  Pratica 4€
+
+  Limoges
+
+  informations : 06 81 79 20 57
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417919/gluuvoez62gbrnur2tmg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJYQRo5q80-UcREU02WTFKvhA
+international: No
+hash: 1738418400000+ChIJYQRo5q80-UcREU02WTFKvhA
+id: MdwFV5xAAVlf3bf8qQ6M

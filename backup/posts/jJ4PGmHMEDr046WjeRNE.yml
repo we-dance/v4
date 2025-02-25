@@ -1,0 +1,185 @@
+createdAt: 1705156503466
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+username: Aina
+venue:
+  formatted_address: Berner Heerweg 482, 22159 Hamburg, Germany
+  website: http://zouk-hh.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: zouk-hh
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.1417629197085
+        lat: 53.6304516697085
+      northeast:
+        lng: 10.1444608802915
+        lat: 53.6331496302915
+    location:
+      lng: 10.1431027
+      lat: 53.6318035
+  address_components:
+    - types:
+        - street_number
+      short_name: "482"
+      long_name: "482"
+    - types:
+        - route
+      short_name: Berner Heerweg
+      long_name: Berner Heerweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Wandsbek
+      long_name: Wandsbek
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "22159"
+      long_name: "22159"
+  place_id: ChIJe9CS4F2KsUcRHJs7qfxEsKM
+  url: https://maps.google.com/?cid=11795003276045032220
+endDate: 1706482500000
+claimed: No
+link: ""
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1480057162751775/
+facebookId: "1480057162751775"
+eventType: Congress
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Bootcamp with Xandy Liberato - 2024 "
+online: No
+hash: 1706292000000+ChIJe9CS4F2KsUcRHJs7qfxEsKM
+startDate: 1706292000000
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/zoukemotionhamburg
+  name: Kassio & Nadia
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzouk.emotion.hamburg.png?generation=1706117902098210&alt=media
+  bio: |-
+    Brazilian Zouk -  Hamburg -  Germany 
+    Nadia and Kassio 🇧🇷🇩🇪
+    +4915752381073
+  id: MpjrhBueZ9mWjsNoyqZO
+  instagram: https://instagram.com/zouk.emotionhamburg
+  username: zouk.emotion.hamburg
+artistsList: []
+id: jJ4PGmHMEDr046WjeRNE
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F23f0ec5a-ef16-4b6d-a509-ff1803b62e4f?alt=media&token=ec2ca27c-897f-4090-a494-e8f328eb8ee9
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjJ4PGmHMEDr046WjeRNE.png?generation=1707053574534824&alt=media
+description: >+
+  ❤️3 years in a row of camp with Xandy Liberato ❤️ 
+
+
+  Dear participants,
+
+
+  WE ARE SO HAPPY TO FINALLY LIBERATO-DANCE WITH YOU !!!!!
+
+
+  We hope that you are all well and probably you are as excited as we are about the upcoming Bootcamp with Xandy Liberato! So we would like to inform you about the schedule as well as remind you about the event rules:
+
+
+  Class schedule:
+
+
+  Friday, 26.01.24
+
+
+  7 - 8 pm: arrival & registration
+
+
+  8 – 10 pm: class 1
+
+
+  10 pm – 1 am: Welcome Party
+
+
+  -------------------------------------------
+
+
+  Saturday, 27.01.24
+
+
+  2 – 5 pm: class 2
+
+
+  --- 45 min break ---
+
+
+  5:45 - 7:45 pm: class 3
+
+
+  --- evening break ---
+
+
+  11 pm – 4 am: Main Party
+
+
+  --------------------------------------------
+
+
+  Sunday, 28.01.24
+
+
+  2 – 5 – pm: Class 4
+
+
+  --- 45 min break ---
+
+
+  5:45 – 7:45 pm: class 5
+
+
+  8 pm – 1 am: Survivors- Party
+
+updatedAt: 1707053666478
+instagram:
+  messageUrl: https://instagram.com/p/C27WvrlLep1
+  publishedAt: 1707053687090
+  messageId: C27WvrlLep1
+  state: published
+promotionError: ""
+promotion: completed
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 10

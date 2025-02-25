@@ -1,0 +1,94 @@
+venue:
+  formatted_address: Körtestraße 10 2. Hof, Aufgang 0 (Metallwendeltreppe), 2. OG,
+    10967 Berlin, Germany
+  website: http://www.backstageberlin.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Backstage - das Tanzstudio der Trainerhelden
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4117387302915
+      south: 52.4898999697085
+      north: 52.4925979302915
+      west: 13.4090407697085
+    location:
+      lng: 13.4105435
+      lat: 52.491457
+  address_components:
+    - types:
+        - subpremise
+      short_name: Aufgang 0 (Metallwendeltreppe), 2. OG
+      long_name: Aufgang 0 (Metallwendeltreppe), 2. OG
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10967"
+      long_name: "10967"
+  international_phone_number: +49 173 9126821
+  place_id: ChIJm-cC9UdPqEcR3MJZ6HXaKZ0
+  url: https://maps.google.com/?cid=11324822937944048348
+endDate: 2023-06-24T14:30
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F9e389ffc-7bb1-4563-a3ce-df5c8cf224d5?alt=media&token=b20e6da2-fd0f-43f4-9b2d-b9d37802bc00
+createdAt: 1686833020809
+artists:
+  - instagram: https://instagram.com/__anitya_
+    username: __anitya_
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - __anitya_
+international: No
+updatedAt: 1686833020809
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+org:
+  instagram: https://instagram.com/__anitya_
+  username: __anitya_
+eventType: Workshop
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    undefined: true
+name: Reggaeton Session
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-24T13:00
+username: aslihan
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7becUwIcO9T0Dav9K4u9.png?generation=1686833046637990&alt=media
+viewsCount: 27
+id: 7becUwIcO9T0Dav9K4u9

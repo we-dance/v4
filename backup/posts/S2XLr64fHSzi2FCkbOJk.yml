@@ -1,0 +1,406 @@
+endDate: 1727060400000
+sourceUrl: https://www.facebook.com/events/2657343144442586/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1703437914000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1713878467000
+facebookId: "2657343144442586"
+facebook: https://www.facebook.com/events/2657343144442586/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2657343144442586/
+eventType: Festival
+providerItemId: e2657343144442586@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: LEVANTE KIZOMBA FESTIVAL 2024
+location: Porto Giardino - CDSHotels
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726837200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Contrada Lamandia, 16A, 70043 Monopoli BA, Italy
+  website: https://cdshotels.it/porto-giardino/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Porto Giardino | CDSHotels
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.3418481197085
+        lat: 40.9080942697085
+      northeast:
+        lng: 17.3445460802915
+        lat: 40.9107922302915
+    location:
+      lng: 17.3429183
+      lat: 40.9091682
+  address_components:
+    - types:
+        - street_number
+      short_name: 16A
+      long_name: 16A
+    - types:
+        - route
+      short_name: Contrada Lamandia
+      long_name: Contrada Lamandia
+    - types:
+        - locality
+        - political
+      short_name: Capitolo
+      long_name: Capitolo
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Monopoli
+      long_name: Monopoli
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: BA
+      long_name: Città Metropolitana di Bari
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Puglia
+      long_name: Puglia
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "70043"
+      long_name: "70043"
+  international_phone_number: +39 0832 351321
+  place_id: ChIJQ5NSFn81RhMRn6pKnP5OHs0
+  url: https://maps.google.com/?cid=14780337882527345311
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444448623
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Levante-Kizomba-Experience/61552244330079/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444448/wbhx7ekasdel1e3vdfls.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444448623
+  owned: false
+  name: Levante Kizomba Experience
+  place: ChIJHzbqTBnGxokReQFH06YUKi0
+  updatedAt: 1715444448623
+  username: levante.kizomba.expe
+claimed: No
+link: https://my.weezevent.com/levante-kizomba-experience-2024
+description: >-
+  There is a new wind blowing in Puglia 💨
+
+  It is the wind of Levante, which unifies the East of Europe with Italy 
+
+
+  Come and try the Levante Kizomba Experience 
+
+  Since Friday afternoon 20th September 2024 to Sunday evening 22th September 🦋
+
+  3️⃣ days full of study 📖, dance 🪩, fun 🙌🏻, swimming pool 🏊🏻, sun ☀️ and much more!
+
+
+  Our guests will be international DJs such as:
+
+
+  🎧D&L Beats (Dani&Lisa) 🇳🇱🇳🇱
+
+  🎧 Dj Neiken 🇵🇹 
+
+  🎧 Lupo DJ 🇮🇹
+
+  🎧 Geppo DJ 🇮🇹
+
+  🎧 Mr VK 🇮🇹
+
+  🎧 Neko DJ 🇮🇹
+   🎧DJ FabioKiz 🇮🇹
+  🎧 DJ Kriola 🇮🇹
+   🎧DJ Mep Da Hipster 🇮🇹
+  🎧 DJ Rax 🇮🇹
+   And More…
+
+  And also international artists such as:
+
+
+  🕺 Stephane 🇫🇷
+
+  🕺💃 Lilian & Ivana 🇫🇷
+
+  🕺💃🏼 Kalypso & Adé 🇨🇭
+
+  🕺💃 Andrea & Sonia 🇮🇹
+
+  🕺 Mirko Spano 🇮🇹
+
+  🕺💃 Davide & Cilene 🇮🇹🇨🇻
+
+  🕺💃🏼Sartoris & Noemi 🇮🇹
+
+  🕺💃 Giuseppe & Vincenza 🇮🇹
+
+  💃🏼 Ida 🇦🇱
+
+  🕺💃🏼 Paparusso & Eleonora🇮🇹
+
+  🕺💃🏼 Frati & Diana🇮🇹
+
+  🕺💃🏼Vatha & Elena🇮🇹
+
+  🕺🏽💃 Nicholas & Ilaria 🇮🇹
+
+  🕺💃 Cristoforo & Paola 🇮🇹
+
+  🕺 Mr. Caarl 🇮🇹
+
+  🕺Domenico Cubao 🇮🇹
+
+  🕺🏽💃 Paolo & Angelica 🇮🇹
+
+  🕺💃🏼 Vito & Federica🇮🇹
+
+  🕺💃Alessandro & Tiziana 🇮🇹
+   And More…
+
+  And if that's still not enough for you, the following will be waiting for you on the track:
+
+
+  🕺Funomen Team 🇫🇷
+
+  🕺Exodus Team 🇵🇱
+
+  🕺Alpha Pack 🐺🇮🇹
+
+  💃🏼 KSV 🇮🇹
+
+  🕺🕺France Dancers 🇫🇷
+
+  🕺🕺 German Dancers 🇩🇪
+
+  🕺💃 And More…
+
+
+  Passes:
+
+  🎁 Woman/Men Pass: 75€ (until 30 th of April)
+
+  More Passes soon…
+
+
+  🤑PAYMENT :
+
+  💳 https://my.weezevent.com/levante-kizomba-experience-2024
+
+
+  🏦IBAN:
+
+  IT85A3608105138297163197189
+
+  BIC/SWIFT: BPPIITRRXXX
+
+
+  🏤Poste Italiane postepay:
+
+  IT85A3608105138297163197189
+
+  Headed to Paolo Tarì
+
+
+  💰PayPal:🇭🇺
+
+  levantekizombafestival@gmail.com
+
+
+  📍 All of this in a beautiful location in Monopoli.
+
+
+  ✈️ Nearest Airports :
+
+  🥇 Bari
+
+  🥈 Brindisi
+
+
+  💬 Further informations via WhatsApp: +393893155446
+
+
+  🦋 Levante’s Team:
+
+  🕺💃 Giuseppe & Vincenza 🇮🇹
+
+  🕺💃 Cristoforo & Paola 🇮🇹
+
+  🕺 Mr. Carl 🇮🇹
+
+  🕺 Domenico Cubao 🇮🇹
+
+  🕺💃Paolo & Angelica 🇮🇹
+
+  🕺 Petrax 🇮🇹
+
+  🕺 DJ FabioKiz 🇮🇹
+
+  🕺 DJ Rax 🇮🇹
+
+
+  ————————-ITALIANO————————
+
+
+  🇮🇹 C’è un nuovo vento che soffia in Puglia 💨
+
+  È il vento del Levante, che unisce l’Est con l’Italia 
+
+
+  Dal pomeriggio di Venerdì 20 Settembre 2024 alla sera di Domenica 22 Settembre 2024, vieni a provare il Levante Kizomba Experience 🦋
+
+  3️⃣ giorni studio 📖, ballo 🪩, divertimento 🙌, piscina 🏊, sole ☀️ e tanto altro!
+
+
+  Ospiti da noi ci saranno DJ internazionali come:
+
+  🎧D&L Beats (Dani&Lisa) 🇳🇱🇳🇱
+
+  🎧 Dj Neiken 🇵🇹 
+
+  🎧 Lupo DJ 🇮🇹
+
+  🎧 Geppo DJ 🇮🇹
+
+  🎧 Mr VK 🇮🇹
+
+  🎧 Neko DJ 🇮🇹
+   🎧DJ FabioKiz 🇮🇹
+  🎧 DJ Kriola 🇮🇹
+   🎧DJ Mep Da Hipster 🇮🇹
+  🎧 DJ Rax 🇮🇹
+   And More…
+
+  E anche artisti internazionali come:
+
+  🕺 Stephane 🇫🇷
+
+  🕺💃 Lilian & Ivana 🇫🇷
+
+  🕺💃🏼 Kalypso & Adé 🇨🇭
+
+  🕺💃 Andrea & Sonia 🇮🇹
+
+  🕺 Mirko Spano 🇮🇹
+
+  🕺💃 Davide & Cilene 🇮🇹🇨🇻
+
+  🕺💃🏼Sartoris & Noemi 🇮🇹
+
+  🕺💃 Giuseppe & Vincenza 🇮🇹
+
+  💃🏼 Ida 🇦🇱
+
+  🕺💃🏼 Paparusso & Eleonora🇮🇹
+
+  🕺💃🏼 Frati & Diana🇮🇹
+
+  🕺🏽💃 Nicholas & Ilaria 🇮🇹
+
+  🕺💃🏼Vatha & Elena🇮🇹
+
+  🕺💃 Cristoforo & Paola 🇮🇹
+
+  🕺 Mr. Caarl 🇮🇹
+
+  🕺Domenico Cubao 🇮🇹
+
+  🕺🏽💃 Paolo & Angelica 🇮🇹
+
+  🕺💃🏼 Vito & Federica 🇮🇹
+
+  🕺💃Alessandro & Tiziana🇮🇹
+   And More…
+
+  E se ancora non dovesse bastarvi, in pista vi aspetteranno:
+
+  🕺Funomen Team 🇫🇷
+
+  🕺Exodus Team 🇵🇱
+
+  🕺Alpha Pack 🐺🇮🇹
+
+  💃🏼 KSV 🇮🇹
+
+  🕺🕺France Dancers 🇫🇷
+
+  🕺🕺 German Dancers 🇩🇪
+
+  🕺💃 And More…
+
+
+  Pass:
+
+  🎁 Pass donna/uomo marzo: 75€ (valida fino al 30 Aprile)
+
+
+  🤑 COME PAGARE :
+
+  💳 https://my.weezevent.com/levante-kizomba-experience-2024
+
+
+  🏦 IBAN:
+
+  IT85A3608105138297163197189
+
+  BIC/SWIFT: BPPIITRRXXX
+
+
+  🏤Poste Italiane postepay:
+
+  IT85A3608105138297163197189
+
+  Intestato a Paolo Tarì
+
+
+  💰PayPal:
+
+  levantekizombafestival@gmail.com
+
+
+  📍Tutto questo in una bellissima location a Monopoli 
+
+  ✈️ Aeroporto più vicino :
+
+  🥇 Bari 
+
+  🥈 Brindisi
+
+
+  💬 Per info WhatsApp al +393893155446
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444450/fzxwnd2ieqfxebqicdcz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJHzbqTBnGxokReQFH06YUKi0
+international: No
+hash: 1726837200000+ChIJQ5NSFn81RhMRn6pKnP5OHs0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FS2XLr64fHSzi2FCkbOJk.png?generation=1715444475812368&alt=media
+viewsCount: 5
+id: S2XLr64fHSzi2FCkbOJk

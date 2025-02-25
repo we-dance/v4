@@ -1,0 +1,45 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626789762651
+locales:
+  de: true
+  en: true
+createdBy: U96FovAnuqbWOt8NaYkm269Z3Bn1
+name: Arne_Rostock_Salsa_Bachata_Kizomba
+place: ChIJNzjcO6xQrEcRw55Zj-bj9tI
+username: Arne_Rostock_Salsa_Bachata_Kizomba
+pwaUsed: false
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FArne_Rostock_Salsa_Bachata_Kizomba.png?generation=1626953350697957&alt=media
+gender: Male
+jobs: "I can help dancer from other citys to find good places to dance in Rostock "
+learning: social dancing Salsa und Kizomba
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+story: I organisate the Sensual WE in Rostock (13.-15.08.2021)
+updatedAt: 1626953949181
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FU96FovAnuqbWOt8NaYkm269Z3Bn1%2F04a25729-924c-43e0-8e53-4753fedef70d?alt=media&token=2b954897-0e55-4dbc-bcbc-faa5d64de5cc
+lastLoginAt: 1642445051608
+daysUsed: 4
+watch:
+  count: 1
+  list:
+    paulowind: true
+  usernames:
+    - paulowind
+viewsCount: 18
+id: U96FovAnuqbWOt8NaYkm269Z3Bn1

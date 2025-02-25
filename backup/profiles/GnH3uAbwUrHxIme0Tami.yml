@@ -1,0 +1,73 @@
+createdAt: 1711753297030
+website: http://www.cafevitkov.cz/
+rooms: ""
+address:
+  website: http://www.cafevitkov.cz/
+  formatted_address: 1900, U Památníku 1900, 130 00 Praha 3-Žižkov, Czechia
+  name: Café Vítkov
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4489617697085
+        lat: 50.0871193697085
+      northeast:
+        lng: 14.4516597302915
+        lat: 50.0898173302915
+    location:
+      lng: 14.4502893
+      lat: 50.0885149
+  address_components:
+    - types:
+        - subpremise
+      short_name: "1900"
+      long_name: "1900"
+    - types:
+        - street_number
+      short_name: "1900"
+      long_name: "1900"
+    - types:
+        - route
+      short_name: U Památníku
+      long_name: U Památníku
+    - types:
+        - neighborhood
+        - political
+      short_name: Žižkov
+      long_name: Žižkov
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 3
+      long_name: Praha 3
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 130 00
+      long_name: 130 00
+  url: https://maps.google.com/?cid=11345874071179352807
+  international_phone_number: +420 603 554 520
+  place_id: ChIJZ5ERZaKUC0cR59r1zlqkdJ0
+gender: Other
+phone: +420 603 554 520
+name: Café Vítkov
+updateAt: 1711753297030
+type: Venue
+map: ""
+username: www.cafevitkov.cz
+id: GnH3uAbwUrHxIme0Tami

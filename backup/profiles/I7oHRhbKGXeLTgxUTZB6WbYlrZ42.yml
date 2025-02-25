@@ -1,0 +1,41 @@
+timezone: GMT+0100
+community: Augsburg
+type: Dancer
+createdAt: 1615027428145
+createdBy: I7oHRhbKGXeLTgxUTZB6WbYlrZ42
+username: RobertSif
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  ro: true
+teacher: No
+gender: Male
+visibility: Members
+partner: ""
+name: Robert
+location:
+  country: Germany
+  latitude: 48.3705449
+  locality: Augsburg
+  usedGps: false
+  place_id: ChIJKSshOsWinkcRoOeL161IHgQ
+  longitude: 10.89779
+styles:
+  UrbanKizz:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Intermediate
+    selected: true
+  Casino:
+    level: Advanced
+    selected: true
+lastLoginAt: 1615414708569
+daysUsed: 2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+height: "168"
+hometown: ChIJKSshOsWinkcRoOeL161IHgQ
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+updatedAt: 1617064567392
+id: I7oHRhbKGXeLTgxUTZB6WbYlrZ42

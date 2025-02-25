@@ -1,0 +1,153 @@
+venue:
+  formatted_address: Schützenstraße 8, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Schützenstraße 8
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5638573802915
+      south: 48.1385638197085
+      north: 48.1412617802915
+      west: 11.5611594197085
+    location:
+      lng: 11.5629468
+      lat: 48.1399349
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Schützenstraße
+      long_name: Schützenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  place_id: ChIJ33phX_d1nkcRDTCgeTNs28g
+  url: https://maps.google.com/?q=Sch%C3%BCtzenstra%C3%9Fe+8,+80335+M%C3%BCnchen,+Germany&ftid=0x479e75f75f617adf:0xc8db6c3379a0300d
+claimed: No
+link: https://www.instagram.com/pumpumwhine_events/
+description: >-
+  
+  🔥 07th of June🔥
+
+  Get ready to burn it down, over and over again, Munich!
+
+
+  The finest of Afrobeats & the golden Classics of Dancehall and a touch of Reggae Music with your favourite party creators:
+
+
+  🍑🍑🍑 PumPumWhine Events 🍑🍑🍑
+
+
+  As always we present you a mad Lineup. This time with DJ TurnUp (Regensburg) and DJ Ozzi-O (Augsburg) 🔥🔥🔥
+
+
+  So get ready for a BIG mashup on the dancefloor!
+
+  We love to see you dance, so let's meet at our Location @happymunich , directly at Hauptbahnhof
+
+  Schützenstr. 8, Munich
+
+
+  ⚜️ Female awareness concept
+
+  ⚜️ Beer, cocktails and bottles
+
+  ⚜️Start: 22:00 Uhr, 07.06.2023
+
+  ▶️ Hennessy Special: 1 Bottle + 4 Fillers for 95,- € all night long
+
+
+  Share this flyer, invite your friends and show up with your favourite party crew.
+
+
+  We do party with ❤ and soul.
+
+
+  PumpumWhine Gyals 
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FwIrbqGisl9cCAOga5ocy5nKy5jc2%2Fee7b7f8f-7555-40f8-ba95-63ed933635c9?alt=media&token=0db35a0b-a683-482b-984b-d2ea14e0ac3d
+createdAt: 1684998771176
+artists: []
+price: 12 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+visibility: Public
+facebook: https://www.facebook.com/events/632151881769522/?ref=newsfeed
+eventType: Party
+form: No
+createdBy: wIrbqGisl9cCAOga5ocy5nKy5jc2
+watch:
+  count: 1
+  list:
+    PumPumWhineEvents: true
+name: Pre-Holiday Party with PumPumWhine Events
+online: ""
+styles: {}
+username: PumPumWhineEvents
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F8TZeCq6g43lhFNfrATBC.png?generation=1686128736938807&alt=media
+telegram:
+  requestedAt: 1686128750333
+  messageUrl: https://t.me/WeDanceMunich/1112
+  publishedAt: 1686128756453
+  messageId: 1112
+  state: published
+instagram:
+  requestedAt: 1686128757743
+  messageUrl: https://instagram.com/p/CtLvpHRuej6
+  publishedAt: 1686128773594
+  messageId: CtLvpHRuej6
+  state: published
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1686092400000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Pumpumwhine-Events-M%C3%BCnchen/100087213098623/
+  name: PumPumWhine Events
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxcbPkruEtrP2cSs5vOz0aF66WTF3%2Fa095df69-7997-4c75-a614-f20082137347?alt=media&token=fe2c991d-1cf7-45b1-afac-dc522cc63996
+  bio: ""
+  id: xcbPkruEtrP2cSs5vOz0aF66WTF3
+  instagram: https://www.instagram.com/pumpumwhine_events
+  username: PumPumWhine
+id: 8TZeCq6g43lhFNfrATBC
+startDate: 1686168000000
+updatedAt: 1704464503262
+viewsCount: 58

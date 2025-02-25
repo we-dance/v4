@@ -1,0 +1,192 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/dj-got-us-fallin-in-love-official-bachata-all-in-one-edition/
+sourceUrl: https://facebook.com/events/1145295470134683
+venue:
+  address_components:
+    - long_name: Graf-Zeppelin-Platz
+      short_name: Graf-Zeppelin-Platz
+      types:
+        - route
+    - long_name: Böblingen
+      short_name: Böblingen
+      types:
+        - locality
+        - political
+    - long_name: Böblingen
+      short_name: BB
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Stuttgart
+      short_name: Süd
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Baden-Württemberg
+      short_name: BW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "71034"
+      short_name: "71034"
+      types:
+        - postal_code
+  formatted_address: Graf-Zeppelin-Platz, 71034 Böblingen, Germany
+  geometry:
+    location:
+      lat: 48.69111349999999
+      lng: 9.0042722
+    viewport:
+      northeast:
+        lat: 48.6925044802915
+        lng: 9.005451130291503
+      southwest:
+        lat: 48.6898065197085
+        lng: 9.002753169708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 711 55340330
+  name: Legendenhalle
+  place_id: ChIJmQpw-CremUcRPGPQKlpjr0U
+  url: https://maps.google.com/?cid=5021341348457898812
+  website: http://www.grm-locations.com/legendenhalle
+endDate: 1748232000000
+claimed: No
+link: https://www.goandance.com/en/events/7044-dj-got-us-fallin-in-love-2024-official-bachata-all-in-one-edition
+description: >-
+  🐯 𝐓𝐎𝐏 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬
+
+  ➖
+
+  🐅 All in one LOCATION with 100% BACHATA
+
+  🐅 The biggest BACHATA SOCIAL in GERMANY
+
+  🐅 The biggest BACHATA OPEN AIR in GERMANY
+
+  🐅 The cheapest BAR PRICES in the WORLD
+
+  🐅 FREE parking from 00:00 till 08:00 at the location for everyone
+
+  ➖
+
+  🏢 All workshops, parties & socials will take place in the LEGENDENHALLE : Graf-Zeppelin-Platz, 71034 Böblingen
+
+  ➖
+
+  ★ >1000 Parking spaces : 0.40€ for 1 Hr ( between 08:00-00:00)
+
+  ★ >1000 Parking spaces : FREE ( between 00:00-08:00)
+
+  ★ Important links :
+
+  👉 www.v8hotel.de
+
+  👉 www.motorworld.de/region-stuttgart
+
+  👉 https://data.system360gmbh.de/vrs_tour/motorworld_stuttgart/
+
+  ➖
+
+  🐯 Travel
+
+  ➖
+
+  ★ Location (S Bahn train station / Haltestelle) - Böblingen
+
+  ★ Böblingen train station to the Location - 5 min walking distance
+
+  ★ Stuttgart main train station (HBF) to Böblingen - 23 min train ride
+
+  ★ Stuttgart Airport to Böblingen - 23 min train ride
+
+  ★ Car : Location is situated at the exit of Highway/Autobahn ( A 81 )
+
+  ★ Important links :
+
+  👉 www.bahnhof.de/boeblingen
+
+  👉 www.vvs.de
+
+  ➖
+
+  🐯 Food & Drinks
+
+  ➖
+
+  ★ Our official Lunch & Dinner partner will offer you the best cuisine
+
+  ★ We are the cheapest BAR in the WORLD, where we beleive in giving and giving it for a very reasonable price !!
+
+  ➖
+
+  🐯 Artists during socials & parties
+
+  ➖
+
+  ★ We make sure that the artists are treated very well.
+
+  ★ A good treatment at the festival gives the artists a positive boost to stay longer during socials & parties.
+
+  ➖
+
+  🐯 Ratio during workshops & parties (Guest Dancers)
+
+  ➖
+
+  ★ Our goal is to achieve a 50-50 ratio among Leaders & Followers.
+
+  ★ We as a team have proven more than 1 time that a satisfying balance can be achieved. Thanks to the success of the previous editions of DJ Got us fallin in love, BachaKizz Sensation, Dansecercy & Make Some Noise.
+
+  ➖
+
+  👉 For more info :
+
+  ★ Email : dansecercy@gmail.com
+
+  ★ Telegram/Whatspp : +4917623892138
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293940/bscg9r58djbowuqcz5lz.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJK9PTPoPgmUcRi3YOODzeD1c
+international: No
+visibility: Public
+org:
+  id: h8lxrwihYGIi1pmbXGiL
+  username: DJGUFIL
+  name: DJ Got us fallin in love
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710330556/tix5pdilhi5aecml7vu7.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/DJGUFIL
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1145295470134683/
+facebookId: "1145295470134683"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: 🐯 DJ Got us fallin in love 2025 Official / Bachata All in one edition
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1748016000000+ChIJmQpw-CremUcRPGPQKlpjr0U
+startDate: 1748016000000
+id: ygr7KLReJTqp75evfdvo

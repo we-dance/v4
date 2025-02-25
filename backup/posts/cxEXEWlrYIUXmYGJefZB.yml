@@ -1,0 +1,169 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  website: http://www.tanzschuleamstachus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=7618752569010268631
+  name: Tanzschule am Stachus
+  geometry:
+    viewport:
+      south: 48.13684386970849
+      north: 48.13954183029149
+      east: 11.5668774802915
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  international_phone_number: +49 1590 1227277
+endDate: 2021-11-07T20:00:00.000Z
+organisedBy: ""
+claimed: No
+description: >-
+  Tango Workshop and Spezialle Milonga.
+
+  *NUR diesesmal auch am ersten Samstag im Monat.
+
+   Warum eine besondere Milonga? Denn wir feiern den Geburtstag von unseren guten Tango-Freundin Natalia🌺
+  Wir freuen uns sehr darauf, in dieser großen kollektiven Umarmung namens Poema zu feiern und zu tanzen❤️.
+
+
+  POEMA MILONGA UND POEMA WORKSHOP
+
+  am Samstag 6. Nov.
+
+
+  mit zwei DJs,!! Cristian Taffarello & Flavia Cristaldo. 
+
+
+  Traditionelle Milonga in einer prächtigen, renovierten und zentralen Location, direkt im Herzen von München. 
+
+  Große Fenster, die geöffnet bleiben mit herrlichem Blick auf die Stadt. 
+
+  180-Mt2. Großen Raum mit Bar und hochwertiger sound um den Tango zu genießen.
+
+  Verschiedene DJs werden euch in jeder Milonga erfreuen.-
+
+
+  Samstag 6. November 
+
+
+  *19.45 Uhr-21.00 Uhr.  Workshop mit Flavia & Cristian. 
+
+
+  Workshop preis: 20€ .
+
+  Workshop+Milonga: 30€.
+
+  Schüller nur mit Karte + 13€ Milonga.
+
+  Nur Milonga: 13€
+
+
+  *MILONGA AB 21:00 Uhr.
+
+
+  GOOD VIBES, GOOD TANGO
+
+  Diesmal mit Geburstag Kuchen 🎂 viel liebe und viel Blumen 💐🎉🥂.
+
+
+  Beste musik, gute Atmosphäre, gute laune, sympathie und buenos abrazos, warten auf euch 💕🎶
+
+  Adresse: Tanzschule am Stachus, 
+
+  4 OG.Sonnenstraße 7. 80331 München.
+    
+  Wir freuen uns wirklich auf euch. 
+
+  +49 1511 7586486
+
+  flaviacristango@gmail.com
+
+  www.flaviacristaldo.com
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F87a14bc6-6701-4dc4-bf2a-b770606646a2?alt=media&token=77ebcc3b-f437-4020-8ba1-bfb4324f65d4
+createdAt: 1635683518095
+watchersCount: 0
+price: 13-30 EUR
+commentsLast: ~
+promoter: Vitali
+id: cxEXEWlrYIUXmYGJefZB
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+international: No
+views: 8
+updatedAt: 1635683518095
+website: www.flaviacristaldo.com
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/poema-milonga-spezielle/859238698076135/
+eventType: Workshop
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: POEMA Tango workshop
+online: No
+styles:
+  Tango:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-06T18:45:00.000Z
+username: Vitali
+viewsCount: 12

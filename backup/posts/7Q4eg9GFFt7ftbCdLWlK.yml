@@ -1,0 +1,77 @@
+venue:
+  formatted_address: Barcelona, Spain
+  name: Barcelona
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 2.22804492421789
+      south: 41.31703848925413
+      north: 41.4682974272428
+      west: 2.052333262952554
+    location:
+      lng: 2.168568
+      lat: 41.3873974
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Barcelona
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalonia
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+  place_id: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+  url: https://maps.google.com/?q=Barcelona,+Spain&ftid=0x12a49816718e30e5:0x44b0fb3d4f47660a
+claimed: No
+link: https://cobeatparty.com/registration/
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Flziaaya1k2cBYt9zDwKjlKuy4Aw2%2Fc4c2d351-c946-4695-9b33-c62faf6dd4f9?alt=media&token=e43a4f9a-01e2-4f81-b27b-03865b21c563
+duration: 60
+promo: Yes
+createdAt: 1659469348093
+artists: []
+price: 149 EUR
+artistsList: []
+international: Yes
+updatedAt: 1659469348093
+updatedBy: lziaaya1k2cBYt9zDwKjlKuy4Aw2
+visibility: Public
+org:
+  instagram: https://instagram.com/cobeatparty
+  username: cobeatparty
+facebook: https://fb.me/e/1faJEikup
+eventType: Festival
+form: No
+createdBy: lziaaya1k2cBYt9zDwKjlKuy4Aw2
+watch:
+  count: 1
+  list:
+    Cholita: true
+name: Cobeat Salsa Marathon - Barcelona Edition-
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-16T00:00
+username: Cholita
+endDate: 2022-09-16T01:00
+id: 7Q4eg9GFFt7ftbCdLWlK
+place: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+telegram: {}
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7Q4eg9GFFt7ftbCdLWlK.png?generation=1665264149474874&alt=media
+viewsCount: 13

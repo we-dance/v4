@@ -1,0 +1,225 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/alocubano-festival-athens/
+sourceUrl: https://facebook.com/events/6971563579614805/
+venue:
+  address_components:
+    - long_name: Agios Panteleimon
+      short_name: Ag. Panteleimon
+      types:
+        - locality
+        - political
+    - long_name: Anatoliki Attiki
+      short_name: Anatoliki Attiki
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Greece
+      short_name: GR
+      types:
+        - country
+        - political
+    - long_name: 190 07
+      short_name: 190 07
+      types:
+        - postal_code
+  formatted_address: Marathon Beach, Marathonas 190 07, Greece
+  geometry:
+    location:
+      lat: 38.1043472
+      lng: 23.9794043
+    viewport:
+      northeast:
+        lat: 38.1057487802915
+        lng: 23.9806468802915
+      southwest:
+        lat: 38.1030508197085
+        lng: 23.9779489197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +30 2294 113000
+  name: Golden Coast Hotel & Bungalows
+  place_id: ChIJw8kkONp5oRQReehRyGRt-zw
+  url: https://maps.google.com/?cid=4394226141055019129
+  website: http://www.goldencoast.gr/
+endDate: 1745790300000
+claimed: No
+link: https://alocubano.se/
+description: >-
+  🤩 Premium CUBAN Festival with LATIN Craze 🎉 Our energy is electric, and the
+  vibes are UNMATCHED! 🔥 Edition ATHENS
+
+
+  ⭐ The SUPREME experience you can’t miss! Filled with hours of dancing, international guests and juicy music! 🥳️
+
+
+  If you've got a heart that beats to the rhythm of Cuban and Latin music, then you don't want to miss this! Let's just say there is enough energy here to power the entire city of Athens!⚡
+
+
+
+  ••• Established by JULIO ESPINAL from Santiago de Cuba • Tremenda Familia • Cultura & Sabrosura •••
+
+
+
+  🎫 TICKETS ➔ www.alocubano.se
+
+  📍 VENUE ➔ Greece Athens Golden Coast Hotel & Bungalows
+
+  📣 Join us for the whole weekend or just a single party!
+
+
+  --------------------------------------------
+
+
+  PROGRAM
+
+  ☀️ Thursday till Monday 🔥 PARTY MADNESS 🥳
+
+  ☀️ CUBAN & LATIN Explosion
+
+  ☀️ 1 Incredible Venue: all under one roof!
+
+  ☀️ 4 STARS Resort Hotel & Full Board (Breakfast, Lunch, Dinner)
+
+  ☀️ Pool & Beach
+
+  ☀️ 500+ Participants from 30+ Countries
+
+  ☀️ 25+ Workshops
+
+  ☀️ 25+ World’s Top Instructors & DJs
+
+  ☀️ Stage Dance Shows
+
+
+  --------------------------------------------
+
+
+  LINE UP 2024 (2025 coming soon)
+
+  ★ Eneris Mulgado ➔ Cuba • Italy
+
+  ★ Seo Fernandez ➔ Cuba • Italy
+
+  ★ Yenifer Lavin ➔ Cuba • Spain
+
+  ★ Yoannis Tamayo ➔ Cuba • Spain
+
+  ★ Mercedes Sayut ➔ Cuba • Spain
+
+  ★ Pedrito & Giusy ➔ Cuba • Italy
+
+  ★ Danger Rodriguez ➔ Cuba • Spain
+
+  ★ Marielkis Hernandez ➔ Cuba • Spain
+
+  ★ Andy & Yuliet ➔ Cuba • Norway
+
+  ★ Barbara Jimenez ➔ Cuba • Italy
+
+  ★ Anitaa Jimenez ➔ Cuba • Spain
+
+  ★ Addy Mendoza ➔ Cuba • Italy
+
+  ★ Fredy Clan ➔ Cuba • Germany
+
+  ★ Mattia Di Minno ➔ Italy
+
+  ★ Javier Trujillo ➔ Cuba • Sweden
+
+  ★ George & Elena ➔ Greece
+
+  ★ Ntinos & Chrysa ➔ Greece
+
+
+  --------------------------------------------
+
+
+  🎧 DJ Javier La Rosa ➔ Cuba • UK
+
+  🎧 DJ Flecha ➔ Cuba • UK
+
+  🎧 DJ Mauri ➔ Cuba • Chile
+
+  🎧 DJ Kasanoba ➔ Netherlands
+
+  🎧 DJ El General ➔ Greece
+
+
+  --------------------------------------------
+
+
+  🎥 Sakis Sarakinis ➔ Greece
+
+  📸 Stavros Mouratidis ➔ Greece
+
+
+  --------------------------------------------
+
+
+  🎹 Rey Ceballo ➔ Cuba • Poland
+
+  🪘 Eddy Aguero ➔ Cuba • Poland
+
+  🥁 Adriano Brizuela ➔ Cuba • Poland
+
+
+  --------------------------------------------
+
+
+  and MORE is COMING!
+
+
+  --------------------------------------------
+
+
+  ❗ Online sales end on April 22nd, 2025 at 23:55. After this date, tickets will not be available for purchase online.
+
+  ❗Tickets can be purchased at our Front Desk during the event, provided they are not sold out earlier. Cash payments only. We accept EUR.
+
+  ❗ Prices at the door will be higher than those listed on our website and will be announced one week prior to the festival.
+
+
+
+  Qué Tocao!
+
+  La Familia AloCubano
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/ak9wuw3cjihqnpqpx0so.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJN3932ndzVxMR1TW_cj8_nNA
+international: No
+visibility: Public
+org:
+  id: EWJdqWxUe5sFFoD0fFn6
+  username: alocubanosalsafestival
+  name: AloCubano Salsa Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954158/x4oubpej5wt0r2o9lpl2.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/alocubanosalsafestival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/6971563579614805/
+facebookId: "6971563579614805"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: AloCubano® Salsa Festival 2025 • Feel the Cuban Heat!
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1745523000000+ChIJw8kkONp5oRQReehRyGRt-zw
+startDate: 1745523000000
+id: e81fE30H4ZiCMmQMwjfl

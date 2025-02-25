@@ -1,0 +1,54 @@
+timezone: GMT+0100
+community: Berlin
+type: Dancer
+createdAt: 1614893021544
+createdBy: BhKZCRoQScbmkAXzFsJtPtlhzKh2
+name: Rudi
+username: Rudi
+locales:
+  de: true
+  ru: true
+  en: true
+teacher: No
+gender: Male
+partner: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FBhKZCRoQScbmkAXzFsJtPtlhzKh2%2F1b5c62e2-ef26-4bed-9a83-2054379cadfa?alt=media&token=496d2cb8-08c9-4ab8-b3e5-d7d6685fb019
+location:
+  country: Germany
+  locality: Berlin
+  label: Berlin
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+height: "173"
+birthday: 1992-08-24
+bio: Passionate dancer & fast learner 😊
+socialCoverPublish: No
+jobs: Web Designer & Photographer
+socialCoverAt: 1614894336530
+pwaUsed: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FRudi.png?generation=1616063575580312&alt=media
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+cities: {}
+updatedAt: 1630421687420
+visibility: Members
+permission: No
+contacts: ""
+story: ""
+lastLoginAt: 1633428795129
+daysUsed: 11
+styles:
+  Salsa:
+    level: Beginner
+    selected: true
+  BrazilianZouk:
+    level: Intermediate
+    selected: true
+  Bachata:
+    level: Beginner
+    selected: true
+viewsCount: 7
+id: BhKZCRoQScbmkAXzFsJtPtlhzKh2

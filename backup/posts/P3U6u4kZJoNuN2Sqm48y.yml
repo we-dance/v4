@@ -1,0 +1,203 @@
+program: []
+createdAt: 1731970431782
+createdBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+updatedBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+username: ananth
+votes: 0
+specialOffer: "Combo :  *1 workshop 13€   **2 workshops 25€  ***All 3 workshops
+  35€  *** 2 EUR discount if you bring partner"
+link: https://www.Kizztalk.de
+commentsCount: 0
+instagram: {}
+artists:
+  - bio: ""
+    id: 0k10cphh1cf30ypMD3PU
+    instagram: ""
+    name: Ananth Sakravarthy
+    facebook: https://www.facebook.com/pfbid0NodRmrpWQ2D18Ecya9vEtunw3PE4rFkye1mrYaMxZjrGQJqNHVdMqxvVf48VrZEVl
+    username: ananth.sakravarthy
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431975/gumvlvhbl7czxpmywuwm.jpg
+    youtube: ""
+    tiktok: ""
+  - tiktok: ""
+    username: kizztalkdanceacademy
+    bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+      zu kommunizieren, sich au
+    youtube: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+    facebook: https://www.facebook.com/kizztalk
+    name: Kizztalk Dance Academy
+    id: 5DxynglUsETxslO7UZaBnTrOi5I3
+    instagram: https://www.instagram.com/kizztalk_/
+  - youtube: ""
+    id: VxJqqSlXtZNwCSg2WGUAnVZE0813
+    facebook: ""
+    tiktok: ""
+    username: Yelyzaveta
+    name: Yelyzaveta
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FVxJqqSlXtZNwCSg2WGUAnVZE0813%2Fbe22cf4f-f54d-49da-819e-997f974df1e0?alt=media&token=5df3a78a-a4b9-4886-b43f-bc854ed52aa6
+    instagram: https://instagram.com/liza.solopenko
+artistsList:
+  - ananth.sakravarthy
+  - kizztalkdanceacademy
+  - Yelyzaveta
+upVotes: 0
+name: Bachata Workshops - Improver , Intermediate && Advanced level
+socialCover: ""
+online: No
+visibility: Public
+confirmation: Let’s do 🕺🏻💃
+star:
+  count: 0
+  list: {}
+type: event
+form: No
+claimed: No
+venue:
+  html_attributions: []
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  international_phone_number: +49 1515 7942042
+  website: https://www.kizztalk.de/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13483610605514083579
+  username: kizztalkdanceacademy
+  geometry:
+    viewport:
+      west: 11.5361075697085
+      north: 48.1259695302915
+      south: 48.1232715697085
+      east: 11.5388055302915
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - short_name: "3"
+      long_name: "3"
+      types:
+        - street_number
+    - long_name: Martin-Behaim-Straße
+      short_name: Martin-Behaim-Straße
+      types:
+        - route
+    - long_name: Sendling-Westpark
+      short_name: Sendling-Westpark
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - short_name: München
+      long_name: München
+      types:
+        - locality
+        - political
+    - short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - long_name: Bayern
+      types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  url: https://maps.google.com/?cid=1174991087505886864
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+  name: Kizztalk Dance Academy
+telegram: {}
+endDate: 1732465800000
+org:
+  role: organiser
+  username: ananth
+startDate: 1732449600000
+duration: 270
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    highlighted: false
+    selected: true
+    level: Beginner
+  SensualBachata:
+    level: Advanced
+    selected: true
+    highlighted: false
+  BachataModerna:
+    level: Intermediate
+    selected: true
+    highlighted: false
+international: No
+eventType: Workshop
+bookmarks: 1
+checkin:
+  count: 0
+  list: {}
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+downVotes: 0
+watch:
+  count: 0
+  list: {}
+price: 13 EUR
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7SRXL9snb0Tj6WR1inqrtwGDJwt2%2F2355feea-9c29-4b15-a2be-dc8b4a081a90?alt=media&token=4490109a-e8d9-407a-a7a8-dbd6c11cbc65
+description: >-
+  🔥 Join us for an electrifying Bachata Bootcamp, designed specifically for
+  improver ,intermediate && Advanced level dancers looking to elevate their
+  moves with mesmerizing Combinations🔥
+
+
+  🕺 Workshop 1 : Improver Level 💃 
+
+  Bootcamp Theme 🕺 => Social Combinations Moves
+
+  When => Nov 24 , 13:00 Bis 14:20 (1.20 hours) 
+
+  Price => 13 EUR
+
+
+  🕺 Workshop 2 : Intermediate Level 💃 
+
+  Bootcamp Theme 🕺 => Social Combinations with body-waves and Isolation
+
+  When => Nov 24 , 14:30 Bis 15:50 (1.20 hours) 
+
+  Price => 13 EUR
+
+
+  🕺 Workshop 3 : Advanced Level 💃 
+
+  Bootcamp Theme 🕺 => Social Combinations with special figures
+
+  When => Nov 24 , 16:00 Bis 17:20 (1.20 hours) 
+
+  Price => 13 EUR
+
+
+  Partner => No need a partner to attend this workshops (2 EUR discount if you bring your partner)
+
+
+  We usually switch partner during class . But registration at +4915222808578 is needed to have balanced number of couples
+
+
+  Venue => Kizztalk Tanzstudio , Martin-Behaim-Straße 3, 81373 München
+id: P3U6u4kZJoNuN2Sqm48y
+hash: 1732449600000+ChIJu6gvmqrZnUcRkM4JMStoThA
+updatedAt: 1731970482185
+promotionError: POST /rupload_igphoto/1732046166815_0_4111974333 - 400 Bad
+  Request; challenge_required
+promotion: failed
+viewsCount: 2

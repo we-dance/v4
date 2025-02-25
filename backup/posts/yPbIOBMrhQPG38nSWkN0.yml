@@ -1,0 +1,301 @@
+program: []
+createdAt: 1729959996781
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+paypal: https://paypal.me/razbakov
+description: >-
+  Dive deeper into the rhythmic heart of Cuba with our Salsa Cubana Intermediate
+  Workshop! Building on foundational knowledge, this intensive session will
+  elevate your dancing by introducing intricate patterns, advanced turns, and
+  styling techniques that encapsulate the essence of authentic Cuban salsa.
+
+
+  ### Pre-requisites:
+
+
+  - Proficiency in rhythm: Participants should have a solid grasp of the salsa beat and timing.
+
+  - Mastery of basic steps: Attendees need to be comfortable with the core salsa steps such as "Enchufla", "Dile Que No", and "Guapea".
+
+  - Familiarity with basic turns: Both single and double turns, including leading and following techniques.
+checkin:
+  count: 0
+  list: {}
+form: No
+playlist: https://open.spotify.com/playlist/39cUmntXWDEHFjqGmwGU8k?si=db34ec93a54d4b01&pt=445e9b025a84b5ed2b99f1a52f9164f9
+gallery: https://photos.app.goo.gl/Tk9eXGkXHENnebJU6
+international: No
+venue:
+  html_attributions: []
+  international_phone_number: +49 89 26022811
+  website: http://buena-vista-bar.de/
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  username: buena_vista_bar_munich
+  geometry:
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+    viewport:
+      north: 48.1350035302915
+      west: 11.5733231197085
+      south: 48.1323055697085
+      east: 11.5760210802915
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - long_name: Am Einlaß
+      short_name: Am Einlaß
+      types:
+        - route
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - short_name: München
+      long_name: München
+      types:
+        - locality
+        - political
+    - short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - short_name: Oberbayern
+      long_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - short_name: BY
+      long_name: Bayern
+      types:
+        - administrative_area_level_1
+        - political
+    - short_name: DE
+      types:
+        - country
+        - political
+      long_name: Germany
+    - short_name: "80469"
+      long_name: "80469"
+      types:
+        - postal_code
+  url: https://maps.google.com/?cid=10819607444887102927
+  name: Buena Vista Bar
+name: Salsa Intermediate
+artistsList:
+  - celestemedina
+  - alexrazbakov
+type: event
+commentsLast:
+  updatedAt: 1676727633768
+  createdAt: 1676727633768
+  username: alexrazbakov
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  body: Yay! Sunday! Can't wait!
+  postId: LXApW1gu5g65mkAHYMCW
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+venueProfile:
+  tiktok: ""
+  id: JEkADfAnw9nk7VIcgE5P
+  username: buena_vista_bar_munich
+  bio: Latino Restaurant München
+  facebook: ""
+  youtube: ""
+  name: Buena Vista Bar
+  instagram: https://www.instagram.com/buenavistabar_oficial/
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+instagram: {}
+upVotes: 0
+review: https://g.page/r/Ca_iCf0z9dH3EBM/review
+artists:
+  - facebook: ""
+    id: ugduS2KIFpfN0LpHggYowXoHYsA2
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FugduS2KIFpfN0LpHggYowXoHYsA2%2F6a0e8b86-2ca6-4a9d-8161-a8fbe2e7d21b?alt=media&token=e415d3c4-a37b-468b-87ad-9281c4f726f1
+    tiktok: ""
+    username: celestemedina
+    instagram: https://www.instagram.com/celestemedina?igsh=MWJhOGJkNXo0dHA1aQ%3D%3D&utm_source=qr
+    name: Celeste
+    bio: ""
+    youtube: ""
+  - facebook: https://facebook.com/alexrazbakov
+    username: alexrazbakov
+    name: Alex Razbakov
+    tiktok: ""
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    instagram: https://instagram.com/alexrazbakov
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    youtube: ""
+    bio: |+
+      Salsa Cubana Teacher @MontunoClub 
+      DJ @salsa.cubana.munich
+
+org:
+  username: MontunoClub
+  youtube: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  name: MontunoClub
+  bio: Learn Salsa Cubana with us!
+  facebook: https://facebook.com/MontunoClub
+  instagram: https://instagram.com/MontunoClub
+  tiktok: ""
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+online: No
+promotion: ""
+price: pay as you wish
+confirmation: You are on the guest list, see you at the event!
+duration: 60
+facebookId: ""
+socialCover: ""
+downVotes: 0
+votes: 0
+promotionError: ""
+promo: ""
+visibility: Public
+styles:
+  Salsa:
+    highlighted: false
+    selected: true
+    level: Interested
+  Casino:
+    level: Interested
+    selected: true
+    highlighted: false
+claimed: No
+eventType: Workshop
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fbc1bc625-7918-4541-b79b-a701f356563c?alt=media&token=ad9aa07d-4361-419a-806a-aedef00185ba
+telegram: {}
+bookmarks: 16
+endDate: 1730059200000
+id: yPbIOBMrhQPG38nSWkN0
+hash: 1730055600000+ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+startDate: 1730055600000
+updatedAt: 1730038924180
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+commentsCount: 2
+commentDoc:
+  createdAt: 1730038948684
+  updatedAt: 1730038948684
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  username: alexrazbakov
+  postId: yPbIOBMrhQPG38nSWkN0
+  commentId: ""
+  body: "Intermediate class at 8pm as always "
+  id: aX1DQc3CXWkzl9WJPzuH
+star:
+  list: {}
+  count: 13
+  usernames:
+    - HannaStree
+    - rrrenata
+    - Hernanijj
+    - Bgunro2
+    - Johannaertl
+    - Hanni
+    - Klaus
+    - Tatevik
+    - Kaeriyama
+    - asaddodhy
+    - prosales
+    - simonvh
+    - Piyi
+  history:
+    - username: HannaStree
+      date: 1729964411923
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: rRh2Dh6kaOR3a4Fm8WVB0VYSqrm2
+      action: joined
+    - username: rrrenata
+      date: 1729966717212
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: BIBMf06FaphUQueDzyhMNabF4LU2
+      action: joined
+    - username: Hernanijj
+      date: 1729985505363
+      invitedBy: ""
+      uid: gM8ZKpdayfQSMHbfb5vituygwyy1
+      action: joined
+    - username: Bgunro2
+      date: 1730004725827
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: iPWFYWlCwCQgbCIfgDm1gUnj6y73
+      action: joined
+    - username: Johannaertl
+      date: 1730018008822
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: YgqeR1cC7zS5VCcSOTHZTvlMOzF3
+      action: joined
+    - username: Hanni
+      date: 1730018595098
+      invitedBy: ""
+      uid: 4Rl2wKCL0ZgdCJHOGO9CbPN3YVc2
+      action: joined
+    - username: Hanni
+      date: 1730018600373
+      invitedBy: ""
+      uid: 4Rl2wKCL0ZgdCJHOGO9CbPN3YVc2
+      action: left
+    - username: Hanni
+      date: 1730018601789
+      invitedBy: ""
+      uid: 4Rl2wKCL0ZgdCJHOGO9CbPN3YVc2
+      action: joined
+    - username: KharlaR
+      date: 1730020655205
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: pg0HTvbHpBhruYEOAfYEz0QkIJv1
+      action: joined
+    - username: KharlaR
+      date: 1730020679104
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: pg0HTvbHpBhruYEOAfYEz0QkIJv1
+      action: left
+    - username: Klaus
+      date: 1730028624641
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: RjtEUP2SpFVw4vseviMXVBMKP5k1
+      action: joined
+    - username: Tatevik
+      date: 1730029985647
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: bM54fX5rpyLdQrxGlA7TJZm4kta2
+      action: joined
+    - username: Kaeriyama
+      date: 1730030647870
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: 63Cqw3OHqMPOpTp0qXNEObXMF6K2
+      action: joined
+    - username: asaddodhy
+      date: 1730038992903
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: 3J13DoXMudMQylL8k0ZAtr191a72
+      action: joined
+    - username: prosales
+      date: 1730041691357
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: SRWkJavUmugKipGsaQQvXZ55ePb2
+      action: joined
+    - username: simonvh
+      date: 1730043104268
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: DzDeIxnpbZeNjanP0bCmDbWVtmR2
+      action: joined
+    - username: Piyi
+      date: 1730051231350
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: PnXhSEycFZQFkaCoF9IDLRqpomW2
+      action: joined
+viewsCount: 29

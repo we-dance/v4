@@ -1,0 +1,3298 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327058622
+updatedAt: 1732327058622
+importedAt: 1732327058622
+providerId: goandance
+providerItemId: "6796"
+name: Bachata Day 2025 (10ª Edición)
+description: >-
+  El BACHATA DAY está listo para que lo vuelvas a vivir.
+
+
+  Este es el primer y mejor congreso italiano de bachata con más de 40 horas de talleres con un cartel de cinco estrellas.
+
+
+  Disfrutarás de 3 noches de fiestas con 3 salas para bailar con música diferente.
+sourceUrl: https://www.goandance.com/es/e/6796?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6796?promoter=WEDANCE123
+type: event
+startDate: 1740747600000
+endDate: 1740978000000
+tickets:
+  - name: Black Friday - VIP PASS
+    description: Black Friday Sales
+    priceValidUntil:
+      _seconds: 1732921140
+      _nanoseconds: 0
+    discount: 0
+    price: 150
+    comission: 7.87
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Black Friday - VIP PASS
+    description: Black Friday Sales
+    priceValidUntil:
+      _seconds: 1732921200
+      _nanoseconds: 0
+    discount: 0
+    price: 165
+    comission: 7.87
+    originalPrice: 165
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Black Friday - FULL PASS
+    description: Black Friday Sales!!
+    priceValidUntil:
+      _seconds: 1732921140
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 7.87
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Black Friday - FULL PASS
+    description: Black Friday Sales!!
+    priceValidUntil:
+      _seconds: 1732921200
+      _nanoseconds: 0
+    discount: 0
+    price: 145
+    comission: 7.87
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1748660400
+      _nanoseconds: 0
+    discount: 10
+    price: 125
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 130
+    comission: 7.87
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 10
+    price: 140
+    comission: 7.87
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 145
+    comission: 7.87
+    originalPrice: 155
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 155
+    comission: 7.87
+    originalPrice: 165
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 160
+    comission: 7.87
+    originalPrice: 170
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 165
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass VIP
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 170
+    comission: 7.87
+    originalPrice: 180
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 105
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 110
+    comission: 7.87
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 10
+    price: 120
+    comission: 7.87
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 125
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 135
+    comission: 7.87
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 140
+    comission: 7.87
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 145
+    comission: 7.87
+    originalPrice: 155
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 150
+    comission: 7.87
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Upgrade to Vip Full Pass
+    description: Con este pase actualizas a VIP full pass si compras un paquete
+      Hotel+pass, o simplemente quieres transformar tu full pass en VIP Full
+      Pass.
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 0
+    price: 20
+    comission: 7.87
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Upgrade to Vip Full Pass
+    description: Con este pase actualizas a VIP full pass si compras un paquete
+      Hotel+pass, o simplemente quieres transformar tu full pass en VIP Full
+      Pass.
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 0
+    price: 20
+    comission: 7.87
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass - Flash Sale
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 0
+    price: 75
+    comission: 7.87
+    originalPrice: 75
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass - Flash Sale
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 0
+    price: 85
+    comission: 7.87
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Full Pass - Flash Sale
+    description: Este pase incluye todos los talleres, espectáculos y fiestas de los
+      tres días.
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 7.87
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Vip Full Pass - Flash Sale
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 7.87
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Vip Full Pass - Flash Sale
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Vip Full Pass - Flash Sale
+    description: Con este pase están incluidos todos los talleres, espectáculos y
+      fiestas de los tres días y tendrás un espacio reservado en la sala
+      principal para seguir más de cerca los...  talleres y espectáculos.
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 7.87
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Bootcamp - Bachata Popiwa Lady Style
+    description: Este pase incluye 6 horas de lecciones con Bianca y Kate Rodriguez,
+      3 el viernes y 3 el sábado y espectáculo el sábado 1 de marzo por la
+      noche.
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 25
+    comission: 7.87
+    originalPrice: 25
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: LEADER Registration - Bachata Royal Rumble Jack & Jill Social Competition
+    description: >-
+      Inscripcion gratuita como LEADER al "Bachata Royal Rumble Jack & Jill
+      Social Competition" (solo si ya tienes full pass o Sunday Pass).
+
+      Se disputara'...  el domingo 2 de Marzo por la tarde. Plazas Limitadas
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 0
+    comission: 7.87
+    originalPrice: 0
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: FOLLOWER Registration - Bachata Royal Rumble Jack & Jill Social Competition
+    description: >-
+      Inscripcion gratuita como FOLLOWER al "Bachata Royal Rumble Jack & Jill
+      Social Competition" (solo si ya tienes Full Pass o Sunday Pass).
+
+      Se disputara'...  el domingo 2 de Marzo por la tarde. Plazas limitadas!
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 0
+    comission: 7.87
+    originalPrice: 0
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 245
+    comission: 7.87
+    originalPrice: 255
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 270
+    comission: 7.87
+    originalPrice: 280
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 275
+    comission: 7.87
+    originalPrice: 285
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 285
+    comission: 7.87
+    originalPrice: 295
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 290
+    comission: 7.87
+    originalPrice: 300
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 300
+    comission: 7.87
+    originalPrice: 310
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 305
+    comission: 7.87
+    originalPrice: 315
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 310
+    comission: 7.87
+    originalPrice: 320
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 315
+    comission: 7.87
+    originalPrice: 325
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 185
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 215
+    comission: 7.87
+    originalPrice: 225
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 220
+    comission: 7.87
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 230
+    comission: 7.87
+    originalPrice: 240
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 235
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 245
+    comission: 7.87
+    originalPrice: 255
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 250
+    comission: 7.87
+    originalPrice: 260
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739628000
+      _nanoseconds: 0
+    discount: 10
+    price: 255
+    comission: 7.87
+    originalPrice: 265
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 260
+    comission: 7.87
+    originalPrice: 270
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 125
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 160
+    comission: 7.87
+    originalPrice: 170
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 165
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 175
+    comission: 7.87
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 180
+    comission: 7.87
+    originalPrice: 190
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 190
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 195
+    comission: 7.87
+    originalPrice: 205
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739628000
+      _nanoseconds: 0
+    discount: 10
+    price: 200
+    comission: 7.87
+    originalPrice: 210
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower double room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación doble en B&B y full pass
+      para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 205
+    comission: 7.87
+    originalPrice: 215
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 205
+    comission: 7.87
+    originalPrice: 215
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 235
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 240
+    comission: 7.87
+    originalPrice: 250
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 1
+    price: 259
+    comission: 7.87
+    originalPrice: 260
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 255
+    comission: 7.87
+    originalPrice: 265
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 265
+    comission: 7.87
+    originalPrice: 275
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 270
+    comission: 7.87
+    originalPrice: 280
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739628000
+      _nanoseconds: 0
+    discount: 10
+    price: 275
+    comission: 7.87
+    originalPrice: 285
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 3 noches en habitación triple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 280
+    comission: 7.87
+    originalPrice: 290
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 159
+    comission: 7.87
+    originalPrice: 169
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 190
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 195
+    comission: 7.87
+    originalPrice: 205
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 205
+    comission: 7.87
+    originalPrice: 215
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 210
+    comission: 7.87
+    originalPrice: 220
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 220
+    comission: 7.87
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 225
+    comission: 7.87
+    originalPrice: 235
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1739628000
+      _nanoseconds: 0
+    discount: 10
+    price: 230
+    comission: 7.87
+    originalPrice: 240
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 2 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 235
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 112
+    comission: 7.87
+    originalPrice: 122
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 145
+    comission: 7.87
+    originalPrice: 155
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 150
+    comission: 7.87
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 160
+    comission: 7.87
+    originalPrice: 170
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 165
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 175
+    comission: 7.87
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 180
+    comission: 7.87
+    originalPrice: 190
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1739628000
+      _nanoseconds: 0
+    discount: 10
+    price: 185
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower triple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación triple en B&B y full
+      pass para Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 190
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 185
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 217
+    comission: 7.87
+    originalPrice: 227
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 222
+    comission: 7.87
+    originalPrice: 232
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 232
+    comission: 7.87
+    originalPrice: 242
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 237
+    comission: 7.87
+    originalPrice: 247
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 247
+    comission: 7.87
+    originalPrice: 257
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 252
+    comission: 7.87
+    originalPrice: 262
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739628000
+      _nanoseconds: 0
+    discount: 10
+    price: 257
+    comission: 7.87
+    originalPrice: 267
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 3 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 262
+    comission: 7.87
+    originalPrice: 272
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 145
+    comission: 7.87
+    originalPrice: 155
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 177
+    comission: 7.87
+    originalPrice: 187
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 182
+    comission: 7.87
+    originalPrice: 192
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 192
+    comission: 7.87
+    originalPrice: 202
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 197
+    comission: 7.87
+    originalPrice: 207
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 207
+    comission: 7.87
+    originalPrice: 217
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 212
+    comission: 7.87
+    originalPrice: 222
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 217
+    comission: 7.87
+    originalPrice: 227
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower quadruple room (price
+      per person)"
+    description: Este ticket incluye 2 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740751200
+      _nanoseconds: 0
+    discount: 10
+    price: 222
+    comission: 7.87
+    originalPrice: 232
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 105
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 145
+    comission: 7.87
+    originalPrice: 155
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 150
+    comission: 7.87
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 160
+    comission: 7.87
+    originalPrice: 170
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 165
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 175
+    comission: 7.87
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 180
+    comission: 7.87
+    originalPrice: 190
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 185
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower quadruple room (price per
+      person)"
+    description: Este ticket incluye 1 noches en habitación cuádruple en B&B y full
+      pass para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 190
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 365
+    comission: 7.87
+    originalPrice: 375
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 400
+    comission: 7.87
+    originalPrice: 410
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 405
+    comission: 7.87
+    originalPrice: 415
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 415
+    comission: 7.87
+    originalPrice: 425
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 420
+    comission: 7.87
+    originalPrice: 430
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 430
+    comission: 7.87
+    originalPrice: 440
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 435
+    comission: 7.87
+    originalPrice: 445
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 440
+    comission: 7.87
+    originalPrice: 450
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 3 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 445
+    comission: 7.87
+    originalPrice: 455
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 265
+    comission: 7.87
+    originalPrice: 275
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 300
+    comission: 7.87
+    originalPrice: 310
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 305
+    comission: 7.87
+    originalPrice: 315
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 315
+    comission: 7.87
+    originalPrice: 325
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 320
+    comission: 7.87
+    originalPrice: 330
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 330
+    comission: 7.87
+    originalPrice: 340
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 335
+    comission: 7.87
+    originalPrice: 345
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 340
+    comission: 7.87
+    originalPrice: 350
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Montresor Hotel Tower single room"
+    description: Esta entrada incluye 2 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 345
+    comission: 7.87
+    originalPrice: 355
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1743890340
+      _nanoseconds: 0
+    discount: 10
+    price: 165
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 10
+    price: 200
+    comission: 7.87
+    originalPrice: 210
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 10
+    price: 205
+    comission: 7.87
+    originalPrice: 215
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1729029540
+      _nanoseconds: 0
+    discount: 10
+    price: 215
+    comission: 7.87
+    originalPrice: 225
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 10
+    price: 220
+    comission: 7.87
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 10
+    price: 230
+    comission: 7.87
+    originalPrice: 240
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 10
+    price: 235
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 10
+    price: 240
+    comission: 7.87
+    originalPrice: 250
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Montresor Hotel Tower single room"
+    description: Esta entrada incluye 1 noches en habitación individual en B&B y
+      pase completo para el Bachata Day
+    priceValidUntil:
+      _seconds: 1740744000
+      _nanoseconds: 0
+    discount: 10
+    price: 245
+    comission: 7.87
+    originalPrice: 255
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Montresor Hotel Tower SINGLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1741064400
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Montresor Hotel Tower DOUBLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1741064400
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 7.87
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Montresor Hotel Tower TRIPLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1741064400
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 7.87
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Montresor Hotel Tower QUADRUPLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1741064400
+      _nanoseconds: 0
+    discount: 0
+    price: 160
+    comission: 7.87
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 280
+    comission: 7.87
+    originalPrice: 280
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 285
+    comission: 7.87
+    originalPrice: 285
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 295
+    comission: 7.87
+    originalPrice: 295
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 300
+    comission: 7.87
+    originalPrice: 300
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 310
+    comission: 7.87
+    originalPrice: 310
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 315
+    comission: 7.87
+    originalPrice: 315
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 320
+    comission: 7.87
+    originalPrice: 320
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740783540
+      _nanoseconds: 0
+    discount: 0
+    price: 325
+    comission: 7.87
+    originalPrice: 325
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 245
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 250
+    comission: 7.87
+    originalPrice: 250
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 260
+    comission: 7.87
+    originalPrice: 260
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 265
+    comission: 7.87
+    originalPrice: 265
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 275
+    comission: 7.87
+    originalPrice: 275
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 280
+    comission: 7.87
+    originalPrice: 280
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 285
+    comission: 7.87
+    originalPrice: 285
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740783540
+      _nanoseconds: 0
+    discount: 0
+    price: 290
+    comission: 7.87
+    originalPrice: 290
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 227
+    comission: 7.87
+    originalPrice: 227
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 232
+    comission: 7.87
+    originalPrice: 232
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 242
+    comission: 7.87
+    originalPrice: 242
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 247
+    comission: 7.87
+    originalPrice: 247
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 257
+    comission: 7.87
+    originalPrice: 257
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 262
+    comission: 7.87
+    originalPrice: 262
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 267
+    comission: 7.87
+    originalPrice: 267
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Kristal quadruple room (price per
+      person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740783540
+      _nanoseconds: 0
+    discount: 0
+    price: 270
+    comission: 7.87
+    originalPrice: 270
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 400
+    comission: 7.87
+    originalPrice: 400
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 405
+    comission: 7.87
+    originalPrice: 405
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 415
+    comission: 7.87
+    originalPrice: 415
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 420
+    comission: 7.87
+    originalPrice: 420
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 430
+    comission: 7.87
+    originalPrice: 430
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 435
+    comission: 7.87
+    originalPrice: 435
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 440
+    comission: 7.87
+    originalPrice: 440
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 445
+    comission: 7.87
+    originalPrice: 445
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 300
+    comission: 7.87
+    originalPrice: 300
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 305
+    comission: 7.87
+    originalPrice: 305
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 315
+    comission: 7.87
+    originalPrice: 315
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 320
+    comission: 7.87
+    originalPrice: 320
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 330
+    comission: 7.87
+    originalPrice: 330
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 335
+    comission: 7.87
+    originalPrice: 335
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 340
+    comission: 7.87
+    originalPrice: 340
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 345
+    comission: 7.87
+    originalPrice: 345
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 200
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 205
+    comission: 7.87
+    originalPrice: 205
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 215
+    comission: 7.87
+    originalPrice: 215
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 220
+    comission: 7.87
+    originalPrice: 220
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 230
+    comission: 7.87
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 235
+    comission: 7.87
+    originalPrice: 235
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 240
+    comission: 7.87
+    originalPrice: 240
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma single room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 245
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 270
+    comission: 7.87
+    originalPrice: 270
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 275
+    comission: 7.87
+    originalPrice: 275
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 285
+    comission: 7.87
+    originalPrice: 285
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 290
+    comission: 7.87
+    originalPrice: 290
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 300
+    comission: 7.87
+    originalPrice: 300
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 305
+    comission: 7.87
+    originalPrice: 305
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 310
+    comission: 7.87
+    originalPrice: 310
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 315
+    comission: 7.87
+    originalPrice: 315
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 215
+    comission: 7.87
+    originalPrice: 215
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 220
+    comission: 7.87
+    originalPrice: 220
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 230
+    comission: 7.87
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 235
+    comission: 7.87
+    originalPrice: 235
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 245
+    comission: 7.87
+    originalPrice: 245
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 250
+    comission: 7.87
+    originalPrice: 250
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 255
+    comission: 7.87
+    originalPrice: 255
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 260
+    comission: 7.87
+    originalPrice: 260
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 160
+    comission: 7.87
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 165
+    comission: 7.87
+    originalPrice: 165
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 175
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 180
+    comission: 7.87
+    originalPrice: 180
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 190
+    comission: 7.87
+    originalPrice: 190
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 195
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 200
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma double room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 205
+    comission: 7.87
+    originalPrice: 205
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 235
+    comission: 7.87
+    originalPrice: 235
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 240
+    comission: 7.87
+    originalPrice: 240
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 250
+    comission: 7.87
+    originalPrice: 250
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 255
+    comission: 7.87
+    originalPrice: 255
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 265
+    comission: 7.87
+    originalPrice: 265
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 270
+    comission: 7.87
+    originalPrice: 270
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 275
+    comission: 7.87
+    originalPrice: 275
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 3 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 280
+    comission: 7.87
+    originalPrice: 280
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 190
+    comission: 7.87
+    originalPrice: 190
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 195
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 205
+    comission: 7.87
+    originalPrice: 205
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 210
+    comission: 7.87
+    originalPrice: 210
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 220
+    comission: 7.87
+    originalPrice: 220
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 225
+    comission: 7.87
+    originalPrice: 225
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 230
+    comission: 7.87
+    originalPrice: 230
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 2 nights Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 235
+    comission: 7.87
+    originalPrice: 235
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1748728740
+      _nanoseconds: 0
+    discount: 0
+    price: 145
+    comission: 7.87
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1722463140
+      _nanoseconds: 0
+    discount: 0
+    price: 150
+    comission: 7.87
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 160
+    comission: 7.87
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 165
+    comission: 7.87
+    originalPrice: 165
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 175
+    comission: 7.87
+    originalPrice: 175
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 180
+    comission: 7.87
+    originalPrice: 180
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 185
+    comission: 7.87
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: "Pack: Full Pass + 1 night Hotel Roma triple room (price per person)"
+    description: ""
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 195
+    comission: 7.87
+    originalPrice: 195
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Kristal Hotel SINGLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Kristal Hotel DOUBLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 7.87
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Kristal Hotel TRIPLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 7.87
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Roma Hotel SINGLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Roma Hotel DOUBLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 105
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: 1 Night Roma Hotel TRIPLE ROOM
+    description: ""
+    priceValidUntil:
+      _seconds: 1740974400
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 65
+    comission: 7.87
+    originalPrice: 65
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 70
+    comission: 7.87
+    originalPrice: 70
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 75
+    comission: 7.87
+    originalPrice: 75
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 85
+    comission: 7.87
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1740783540
+      _nanoseconds: 0
+    discount: 0
+    price: 105
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sábado Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del sábado
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sábado Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del sábado
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sábado Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del sábado
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 105
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sábado Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del sábado
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sábado Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del sábado
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sábado Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del sábado
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 135
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1729461540
+      _nanoseconds: 0
+    discount: 0
+    price: 85
+    comission: 7.87
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1731711540
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 7.87
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1734303540
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1736981940
+      _nanoseconds: 0
+    discount: 0
+    price: 105
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1739660340
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Pass
+    description: Este pase incluye todos los talleres, espectáculos y la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Party Pass
+    description: Este pase incluye la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1740697140
+      _nanoseconds: 0
+    discount: 0
+    price: 20
+    comission: 7.87
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Viernes Party Pass
+    description: Este pase incluye la fiesta del viernes.
+    priceValidUntil:
+      _seconds: 1740794400
+      _nanoseconds: 0
+    discount: 0
+    price: 25
+    comission: 7.87
+    originalPrice: 25
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sabado Party Pass
+    description: Este pase incluye la fiesta del sábado.
+    priceValidUntil:
+      _seconds: 1740783540
+      _nanoseconds: 0
+    discount: 0
+    price: 25
+    comission: 7.87
+    originalPrice: 25
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Sabado Party Pass
+    description: Este pase incluye la fiesta del sábado.
+    priceValidUntil:
+      _seconds: 1740880800
+      _nanoseconds: 0
+    discount: 0
+    price: 30
+    comission: 7.87
+    originalPrice: 30
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Party Pass
+    description: Este pase incluye la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1740869940
+      _nanoseconds: 0
+    discount: 0
+    price: 15
+    comission: 7.87
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+  - name: Domingo Party Pass
+    description: Este pase incluye la fiesta del domingo.
+    priceValidUntil:
+      _seconds: 1740956340
+      _nanoseconds: 0
+    discount: 0
+    price: 20
+    comission: 7.87
+    originalPrice: 20
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6796-bachata-day-2025-10a-edicion?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327060/m7cbv1k0ndotszw6qked.jpg
+venue:
+  address_components:
+    - long_name: "30"
+      short_name: "30"
+      types:
+        - street_number
+    - long_name: Via A. Mantegna
+      short_name: Via A. Mantegna
+      types:
+        - route
+    - long_name: Bussolengo
+      short_name: Bussolengo
+      types:
+        - locality
+        - political
+    - long_name: Bussolengo
+      short_name: Bussolengo
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Provincia di Verona
+      short_name: VR
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Veneto
+      short_name: Veneto
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Italy
+      short_name: IT
+      types:
+        - country
+        - political
+    - long_name: "37012"
+      short_name: "37012"
+      types:
+        - postal_code
+  formatted_address: Via A. Mantegna, 30, 37012 Bussolengo VR, Italy
+  geometry:
+    location:
+      lat: 45.4690743
+      lng: 10.8525858
+    viewport:
+      northeast:
+        lat: 45.4701959802915
+        lng: 10.8538356302915
+      southwest:
+        lat: 45.4674980197085
+        lng: 10.8511376697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +39 045 676 1000
+  name: Montresor Hotel Tower
+  place_id: ChIJ4zd2ev-dgUcR_v4J59gbn6c
+  url: https://maps.google.com/?cid=12078403344034037502
+  website: https://www.montresorhotels.com/hotel-tower/it/home
+place: ChIJWcXrQS_kgUcRGLxAWmUutug
+price: 150 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1740747600000+ChIJ4zd2ev-dgUcR_v4J59gbn6c
+org: ""
+id: HEjH0Kw167eyukiDgHC4

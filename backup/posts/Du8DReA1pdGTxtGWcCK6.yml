@@ -1,0 +1,136 @@
+venue:
+  formatted_address: Oberanger 38, 80331 München, Germany
+  website: https://www.oberangertheater.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Oberangertheater Eventlocation - Oberanger Event GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5708766802915
+      south: 48.1326897197085
+      north: 48.1353876802915
+      west: 11.5681787197085
+    location:
+      lng: 11.5694534
+      lat: 48.13418189999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "38"
+      long_name: "38"
+    - types:
+        - route
+      short_name: Oberanger
+      long_name: Oberanger
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 28856988
+  place_id: ChIJbyk7bV_fnUcRy5keZFFAWRw
+  url: https://maps.google.com/?cid=2042734624305486283
+endDate: 2023-05-07T04:00
+claimed: No
+link: https://omtickets.de/event/116924/
+description: >-
+  Die Kultparty von Munich de Noche “La Noche Colombiana" ist zurück in einer
+  neuer Location. Am Sa, 06.05.23 sehen wir uns im Zentrum der Stadt im
+  wunderschönen Oberangertheater mit DJs, Folklore, Empanadas, Aguardiente und
+  natürlich jeder Menge RUMBA.
+
+
+  Unsere DJs - DJ Andres / DJ Javi und DJ Deli haben die komplette Musikvielfalt Kolumbiens von Salsa, Reggaeton, Cumbia bis Champeta und Vallenato im Gepäck hat. Zum späteren Abend präsentieren wir euch farbenfrohe Folklore Shows. Zudem gibt es das Nationalgetränk Aguardiente zum Special Preis und natürlich leckere, hausgemachte Empanadas.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6184f43f-8198-45bd-a7e4-9fcfa68261e7?alt=media&token=fb1b4763-fbc8-4749-9e0f-a8cf97ecad0d
+createdAt: 1683389100974
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1683389100974
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Munich de Noche
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0bdcf8ca-92a9-433a-92b7-08ca4ede2397?alt=media&token=411f2168-0dfa-462c-835e-897ff7ab5fc5
+  bio: Willkommen auf Munich de Noche. Dem Portal für Latin Events in München.
+  id: 4apTkM2lgJ24HQw6h4VN
+  instagram: https://instagram.com/munichdenoche
+  username: munichdenoche
+facebook: https://www.facebook.com/events/2491677057665011
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: La Noche Colombiana
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-06T23:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDu8DReA1pdGTxtGWcCK6.png?generation=1683389123219570&alt=media
+telegram:
+  requestedAt: 1683389129598
+  messageUrl: https://t.me/WeDanceMunich/1083
+  publishedAt: 1683389134297
+  messageId: 1083
+  state: published
+instagram:
+  requestedAt: 1683389135566
+  messageUrl: https://instagram.com/p/Cr6GO0dLBT5
+  publishedAt: 1683389154371
+  messageId: Cr6GO0dLBT5
+  state: published
+viewsCount: 18
+id: Du8DReA1pdGTxtGWcCK6

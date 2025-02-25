@@ -1,0 +1,177 @@
+createdAt: 1704822870448
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1875611902835914/
+source: facebook
+updatedAt: 1704822870448
+username: wedancebot
+venue:
+  formatted_address: 17 Ghar il - Lembi, Tas-Sliema SLM 1562, Malta
+  website: https://www.facebook.com/profile.php?id=100092673662376
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Barrio Latino Malta
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.5050940697085
+        lat: 35.9108237197085
+      northeast:
+        lng: 14.5077920302915
+        lat: 35.9135216802915
+    location:
+      lng: 14.5064063
+      lat: 35.9122194
+  address_components:
+    - types:
+        - street_number
+      short_name: "17"
+      long_name: "17"
+    - types:
+        - route
+      short_name: Ghar il - Lembi
+      long_name: Ghar il - Lembi
+    - types:
+        - locality
+        - political
+      short_name: Tas-Sliema
+      long_name: Tas-Sliema
+    - types:
+        - country
+        - political
+      short_name: MT
+      long_name: Malta
+    - types:
+        - postal_code
+      short_name: SLM 1562
+      long_name: SLM 1562
+  place_id: ChIJI6AoELxFDhMRcCfu2ds6XdY
+  url: https://maps.google.com/?cid=15446567012879181680
+visibility: Public
+endDate: 1707102000000
+org:
+  owner: ""
+  importedAt: 1704822877427
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Barrio-Latino-Malta/100092673662376/
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/345457078_3346618108925364_345967537050735987_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=104&ccb=1-7&_nc_sid=596444&_nc_ohc=BJjB3MvG-ikAX9yvVhH&_nc_ht=scontent-iad3-1.xx&oh=00_AfCAxf0jg9A6yzmVG2eMrqbATv_KoMPSlvFDI-KQAqaRJw&oe=65A2DAF4
+  source: facebook
+  type: Organiser
+  createdAt: 1704822877427
+  owned: false
+  name: Barrio Latino Malta
+  place: ChIJZbjcgDlFDhMRSVkUH3JNNac
+  updatedAt: 1704822877427
+  username: BarrioLatino-Malta
+claimed: No
+facebookId: "1875611902835914"
+link: https://www.goandance.com/en/events/6403-malta-bachata-escape-2024-dominican-fusion-edition
+description: >-
+  Absolutely! The dream is coming true! Bachata Dominicana is coming to Malta
+  with our special guest, Samy El Magico, for the first time. We're also excited
+  to welcome Meline Teulier, the Bachata queen, to Malta for the first time.
+  🇲🇹
+
+
+  And guess who's back? Tonio Kan Fusion Bachata will be returning to Malta, and you already know how awesome they are!
+
+
+  This edition is going to be full of surprises. We're bringing Bachata Dominicana and Fusion to Malta for the first time, thanks to our collaboration with Malta Sensual Weekend & Connexion Studio.
+
+
+  When? 2,3,4 of February 2024
+
+  Where? Barrio Latino Malta (17 Ghar il - Lembi, Tas-Sliema SLM 1562, Malta)
+
+
+  Artists line-up: 
+
+  Samy El Mágico 🇫🇷🇹🇳
+
+  Méline Teulier 🇫🇷
+
+  Tonio Idriss Kan 🇫🇷 🇲🇦
+
+  Amanda 🇫🇷🇨🇱
+
+  Brandy Colores 🇩🇴
+
+  Kevin El Pequeño  🇫🇷
+
+  Emilio 🇮🇹 & Serap 🇹🇷
+
+  Paciok 🇮🇹
+
+  Quevin 🇫🇷🇻🇳
+
+
+  Programme:
+
+
+  More than 13h of Workshops (Footwork, Partnerwork, Man Style & Lady Style + special Musicality & evolution of the Bachata class given by Samy El Magico)
+
+
+  Hotels:
+
+
+  AX The Victoria Hotel (SLIEMA) (B&B) - 4 Stars - 5min by walk from Barrio Latino Malta (Suggested hotel for your best comfort)
+
+
+  https://victoriahotel.com/
+
+
+  Europa Hotel (Sliema) - 4min by Walk from Barrio Latino Malta
+
+
+  https://europahotelmalta.com/
+
+
+  Roma Hotel (SLIEMA) (Just above Barrio Latino) - 30 second to Barrio Latino Malta
+
+
+  https://romahotel.eurorentals.info/
+
+
+  Chalet Hotel (Sliema) - 2min by walk from Barrio Latino Malta
+
+
+  https://www.booking.com/hotel/mt/sliema-chalet.fr.html
+
+
+  Save the dates because we’re going to create an unforgettable story together. “You need this in your life” 🇩🇴
+
+
+  Event organized by @barriolatinomalta and collaboration with @connexiondanceschool & @maltasensualweekendofficial
+program: []
+eventType: Workshop
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Malta Bachata Escape - Dominican & Fusion Edition 24
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJZbjcgDlFDhMRSVkUH3JNNac
+international: No
+hash: 1706904000000+ChIJI6AoELxFDhMRcCfu2ds6XdY
+startDate: 1706904000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJ9yqPJXtyEmASvEosYpV.png?generation=1704822907077014&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851879/tj7gkz7ciavrdlwo3mz5.jpg
+viewsCount: 13
+id: J9yqPJXtyEmASvEosYpV

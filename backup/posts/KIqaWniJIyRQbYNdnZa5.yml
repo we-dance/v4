@@ -1,0 +1,165 @@
+endDate: 1729296000000
+sourceUrl: https://www.facebook.com/events/351213164401280/?event_time_id=351213201067943
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1705837302000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728404407000
+facebookId: "351213201067943"
+facebook: https://www.facebook.com/events/351213164401280/?event_time_id=351213201067943
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/351213164401280/?event_time_id=351213201067943
+eventType: Party
+providerItemId: e351213201067943@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa Caliente Party night 18 Oct with dedicated Kizomba room
+location: Tracie's Latin Club, St Barnabas Church Hall, Lodge Road, Southampton, SO14 6RF
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729279800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: St Barnabas Church Hall, Lodge Rd, Southampton SO14 6QS, UK
+  website: http://www.tracieslatinclub.co.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tracie's Latin Club
+  geometry:
+    viewport:
+      southwest:
+        lng: -1.402924930291502
+        lat: 50.9177905697085
+      northeast:
+        lng: -1.400226969708498
+        lat: 50.9204885302915
+    location:
+      lng: -1.40166
+      lat: 50.9193009
+  address_components:
+    - types:
+        - premise
+      short_name: St Barnabas Church Hall
+      long_name: St Barnabas Church Hall
+    - types:
+        - route
+      short_name: Lodge Rd
+      long_name: Lodge Road
+    - types:
+        - postal_town
+      short_name: Southampton
+      long_name: Southampton
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Southampton
+      long_name: Southampton
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: SO14 6QS
+      long_name: SO14 6QS
+  international_phone_number: +44 7889 288368
+  place_id: ChIJzWW53Kh2dEgRmBfknMs1TY0
+  url: https://maps.google.com/?cid=10181853481181386648
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/tracie.gooch.92
+  name: Tracie Gooch
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417971/meiuesj4zpyamuslvpjr.jpg
+  bio: ""
+  id: P21N1wyoX7SbUdQCMtQF
+  instagram: ""
+  username: tracie.gooch.92
+claimed: No
+link: ""
+description: >-
+  Held at the wonderful TLC Studio, St Barnabas Church Hall, Lodge Road,
+  Southampton SO14 6RF
+
+
+  Join us  at TLC for an awesome Salsa Social with the BEST party vibe PLUS Claire teaching & DJing in the dedicated Kizomba room!
+     
+  We love to dance all styles and party hard at these fantastic freestyle nights and where the lessons are included.
+
+  If you are not doing the classes then please join us after 9.30pm for a kicking night where you can meet up with all the dance ‘family’ from near and far.
+
+
+  If you are new to the area and already dance salsa, then we would suggest doing the lessons so that you get to know our friendly dancers while changing partners in your respective class.
+
+
+  8.15pm Doors open
+
+  8.30pm Salsa Level 4/5 – Advanced class (with Tracie & Gareth)
+
+  8.30pm Salsa Level 3 – Improvers class (with Debbie)
+
+  8.30pm Salsa Level 1 – Beginners (with Stephen)
+
+  8.30pm Kizomba Intermediate class with Claire New
+
+  9.30pm Social with DJ Gwyneth who will keep you dancing all night, playing a wonderful mix of Salsa, Bachata & Cha Cha
+
+  9.30pm DJ Claire New playing all genres of Kizomba
+
+  1am Close & chocolates!
+
+
+  £10 (£5 NUS/IoW) entrance – including free tea & coffee – payments can be cash or by card
+
+
+  TLC has a really friendly vibe, THE best dance floor and superb sound system.
+
+  Parking on site is reserved for single ladies & opposite in Kwik Fit or Simply Bathrooms for everyone else.
+
+  As there are no white lines in either car park, please park neatly next to each other and not randomly in a large area, so we can maximise all the spaces.
+
+  There is also a kitchen for you to make your own teas and coffees all night (included in the price)
+
+  Otherwise please bring your own refreshments which can include alcohol - Please drink responsibly.
+
+
+  Please DO NOT ATTEND if you have a sore throat, cold, cough or flu symptoms 
+
+  There will be plenty of hand sanitisers 
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1729279800000+ChIJzWW53Kh2dEgRmBfknMs1TY0
+id: KIqaWniJIyRQbYNdnZa5

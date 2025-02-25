@@ -1,0 +1,146 @@
+venue:
+  website: http://www.salsa-mas.de/
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsamás Munich - The dance school in Munich
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5717378302915
+      south: 48.1497999697085
+      north: 48.1524979302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  address_components:
+    - types:
+        - street_number
+      short_name: "36"
+      long_name: "36"
+    - types:
+        - route
+      short_name: Arcisstraße
+      long_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80799"
+      long_name: "80799"
+  international_phone_number: +49 172 8216569
+  url: https://maps.google.com/?cid=14828533240557582994
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+claimed: No
+link: https://docs.google.com/forms/d/e/1FAIpQLSe5OVWAzl2c_v_6EcB5a6FYgrKcq2zLiulTgPmZ6E6sjRL3iw/viewform?usp=sf_link
+type: event
+promo: Yes
+duration: "240"
+createdAt: 1653647253253
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Sebastian Birk
+    bio: I am a Bachata and Brazilian Zouk teacher in Munich. Follow me on Instagram
+      @bailadictos!
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7xBtAdIbIAYlfNzXdBlxItRCDfD2%2Fc545b589-7cfb-4c1d-82fa-0366ae130d28?alt=media&token=e0d6e080-c3af-4666-aef9-7f52f9876f6d
+    instagram: https://instagram.com/bailadictos
+    id: 7xBtAdIbIAYlfNzXdBlxItRCDfD2
+    username: sebastianbirk
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/Bailadictos
+    name: Paulita
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2F3b3b6c20-2d33-45fe-b70f-9a91de23f26a?alt=media&token=a00cb850-c9e8-45b9-95cf-ccd282dbc55a
+    bio: Life is just better when you turn up the music and dance!
+    instagram: https://instagram.com/bailadictos
+    id: JSJpodNRDHakSXpOj2KkJMVDKFI2
+    username: Paulita
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1653647253253
+updatedBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+visibility: Public
+org:
+  role: organiser
+  name: Paulita
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2F3b3b6c20-2d33-45fe-b70f-9a91de23f26a?alt=media&token=a00cb850-c9e8-45b9-95cf-ccd282dbc55a
+  username: Paulita
+confirmation: "Please register here (single class tickets are also available):
+  https://docs.google.com/forms/d/e/1FAIpQLSe5OVWAzl2c_v_6EcB5a6FYgrKcq2zLiulTg\
+  PmZ6E6sjRL3iw/viewform?usp=sf_link"
+eventType: Course
+form: No
+watch:
+  count: 1
+  list:
+    Paulita: true
+createdBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+name: Brazilian Zouk Monthly Course by Bailadictos - June 2022
+online: No
+styles:
+  BrazilianZouk:
+    level: Beginner
+    highlighted: false
+    selected: true
+startDate: 2022-06-29T18:00
+username: Paulita
+price: 10 EUR / hour
+id: a6yxR3WDTNN1eXqB0oS9
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2Fb03b6306-bb78-4c22-b6a7-c0f97d45b37f?alt=media&token=6f0efe57-4fe0-4914-b0e0-ed3a23677321
+endDate:
+  _seconds: 1656522000
+  _nanoseconds: 0
+description: >
+  Join us for our structured monthly Brazilian Zouk course in June at Salsamás
+  Maxvorstadt with classes each Wednesday. Taught by experienced dance teachers
+  Paula Villa Fulton (USA/Spain) & Sebastian Birk (Germany). Please register via
+  this form, indicate your payment option, and complete the payment within 2
+  days to confirm your registration. You will then receive a confirmation via
+  email.
+
+
+  - Schedule & Prices:
+
+
+  Wednesday 01.06., 08.06., 15.06., 22.06. 29.06.
+
+
+  Monthly Bundle (incl. all 5 Wednesdays): Brazilian Zouk Beginner 18:00 - 19:00 (45€; 5h) Brazilian Zouk Improver 19:00 - 20:30 (65€; 7.5h) Brazilian Zouk Intermediate 20:30 - 22:00 (65€; 7.5h)
+
+
+  Single Class: Brazilian Zouk Beginner 18:00 - 19:00 (10€; 1h) Brazilian Zouk Improver 19:00 - 20:30 (15€; 1.5h) Brazilian Zouk Intermediate 20:30 - 22:00 (15€; 1.5h)
+artistsList:
+  - sebastianbirk
+  - Paulita
+viewsCount: 7

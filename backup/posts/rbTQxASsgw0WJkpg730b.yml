@@ -1,0 +1,116 @@
+isNew: true
+facebookId: "505780429114951"
+facebookUrlsList:
+  - https://www.facebook.com/events/505780429114951/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729778433889
+updatedAt: 1729778433889
+importedAt: 1729778433889
+providerId: qiHxHgMUqIaEu4hENzOW
+providerItemId: e505780429114951@facebook.com
+name: ❤️‍🔥BACHATA LOCA KIEL 09.11.24❤️‍🔥
+providerCreatedAt: 1729247224000
+providerUpdatedAt: 1729247224000
+startDate: 1731181500000
+endDate: 1731192300000
+facebook: https://www.facebook.com/events/505780429114951/
+sourceUrl: https://www.facebook.com/events/505780429114951/
+location: Studio Filmtheater am Dreiecksplatz
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "10"
+      short_name: "10"
+      types:
+        - street_number
+    - long_name: Wilhelminenstraße
+      short_name: Wilhelminenstraße
+      types:
+        - route
+    - long_name: Mitte
+      short_name: Mitte
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Kiel
+      short_name: KI
+      types:
+        - locality
+        - political
+    - long_name: Kiel
+      short_name: Kiel
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Schleswig-Holstein
+      short_name: SH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "24103"
+      short_name: "24103"
+      types:
+        - postal_code
+  formatted_address: Wilhelminenstraße 10, 24103 Kiel, Germany
+  geometry:
+    location:
+      lat: 54.328379
+      lng: 10.1335504
+    viewport:
+      northeast:
+        lat: 54.3296782802915
+        lng: 10.1349332302915
+      southwest:
+        lat: 54.3269803197085
+        lng: 10.1322352697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png
+  international_phone_number: +49 431 9828101
+  name: Studio Filmtheater am Dreiecksplatz
+  place_id: ChIJ09rjWGhWskcRlxrlylI5hNc
+  url: https://maps.google.com/?cid=15529600442834426519
+  website: http://www.studio-filmtheater.de/
+visibility: Public
+org:
+  id: 7IIU3WJwCn5hpyGNtjo5
+  username: bachata.sensual.fusion.kiel.-.ml
+  name: Bachata Sensual Fusion Kiel - M&L
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953965/hehtilbwtnauzhvrwpg6.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/MazenUndLeaBachata
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: "More info coming soon! "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729778480/phxqzw4pr3ae4nfaa1kl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+international: No
+hash: 1731181500000+ChIJ09rjWGhWskcRlxrlylI5hNc
+id: rbTQxASsgw0WJkpg730b

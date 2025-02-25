@@ -1,0 +1,140 @@
+endDate: 1733347800000
+sourceUrl: https://www.facebook.com/events/1146336853136576/?event_time_id=1146336863136575
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1724481773000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725877848000
+facebookId: "1146336863136575"
+facebook: https://www.facebook.com/events/1146336853136576/?event_time_id=1146336863136575
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1146336853136576/?event_time_id=1146336863136575
+eventType: Party
+providerItemId: e1146336863136575@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Cours de Bachata et Kizomba chez Africa Korazon Vincennes- Essai offert
+location: 9 Rue Raymond du Temple, 94300 Vincennes, France
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1733340600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 9 Rue Raymond du Temple, 94300 Vincennes, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 9 Rue Raymond du Temple
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.436760969708498
+        lat: 48.8442683197085
+      northeast:
+        lng: 2.439458930291501
+        lat: 48.8469662802915
+    location:
+      lng: 2.438024
+      lat: 48.84562570000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Rue Raymond du Temple
+      long_name: Rue Raymond du Temple
+    - types:
+        - locality
+        - political
+      short_name: Vincennes
+      long_name: Vincennes
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Val-de-Marne
+      long_name: Val-de-Marne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "94300"
+      long_name: "94300"
+  place_id: ChIJeyptaqNy5kcRRvBiCtWfKnQ
+  url: https://maps.google.com/?q=9+Rue+Raymond+du+Temple,+94300+Vincennes,+France&ftid=0x47e672a36a6d2a7b:0x742a9fd50a62f046
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid02U4nfibJcy5Fqb31kFtyyn7VqcvW7uwaG1aTxdXK6wjDvZ156c1eRxRNbdfGYjdQrl
+  name: Cisco Delavega
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417941/llcruuoamp0w5cqx10qw.jpg
+  bio: ""
+  id: UR0a6sG0s7ZYwdTpsC7f
+  instagram: ""
+  username: cisco.delavega
+claimed: No
+link: ""
+description: >-
+  Les mercredis nous vous proposons des cours de bachata et de kizomba Urban kiz
+  évolutifs avec Francisco chez Africa Korazon:
+
+
+  - 20h à 21h Bachata débutant évolutif
+
+  - 21h à 22h Kizomba évolutif
+
+
+  Les cours sont réservés au membres d'Africa Korazon et personnes faisant un essai gratuit.
+
+
+  Tarif de l'adhésion : première inscription et, renouvellement à voir sur le site https://www.africa-korazon.com/
+
+
+  informations : 06 62 09 51 76
+
+
+  Adresses:
+
+
+  Maison des Leop'Artistes
+
+  9 rue Raymond du Temple , 94300 Vincennes , métro chateau de Vincennes ligne 1 et 9 ou RER A Vincennes 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417946/jnuyuumevlichckzui0a.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJh2QBtzLibYgReOtF1Y1dBfM
+international: No
+hash: 1733340600000+ChIJeyptaqNy5kcRRvBiCtWfKnQ
+id: tU3TEEWykqdFYp5LmgGo

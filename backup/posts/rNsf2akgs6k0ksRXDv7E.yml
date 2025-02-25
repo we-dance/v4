@@ -1,0 +1,161 @@
+venue:
+  website: https://www.tanzraum-berlin.de/
+  formatted_address: Oudenarder Str. 16-20, 13347 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 16-20
+      short_name: 16-20
+    - types:
+        - route
+      long_name: Oudenarder Straße
+      short_name: Oudenarder Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mitte
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "13347"
+      short_name: "13347"
+  url: https://maps.google.com/?cid=12871345234978269182
+  name: Tanzraum Wedding
+  geometry:
+    viewport:
+      south: 52.55170091970849
+      north: 52.55439888029149
+      east: 13.3615986802915
+      west: 13.3589007197085
+    location:
+      lng: 13.360076
+      lat: 52.5530629
+  international_phone_number: +49 173 6020040
+  place_id: ChIJ2Wd0Uw5TqEcR_udLwEs0oLI
+endDate: 2021-12-19T18:00:00.000Z
+claimed: Yes
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+link: https://cspberlin.com/encuentros/
+description: >-
+  ENCUENTROS
+
+  CUBAN WORKSHOP WEEKEND
+
+  Workshop Days 18. & 19. Dezember 2021
+
+  ORT: Tanzraum Wedding
+
+  powered by CUBAN SALSA POWER BERLIN
+
+
+  14 Workshops u.a. in afrokubanischen Yoruba-Tänzen, Rumba, Abakua, Bailes Populares, Cantos (Gesang) ...
+
+  More Infos Coming Soon 🙂
+
+  _________________________________________
+
+
+  ▷ PREISE:
+
+  FULL PASS (Samstag & Sonntag)
+
+  75,00€ (EARLY BIRD bis 15.11) / 85,00€ (ab 16.11)
+
+  Studentenrabatt - 10% (*nur mit gültigem Studentenausweis)
+
+
+  ▷ Voranmeldung erforderlich über unsere Website!
+
+  ▷ Begrenzte Teilnehmer-Zahl auf 40 Personen!
+
+
+  ▷ ES GELTEN 2-G REGELN !
+
+  (Geimpft oder Genesen”). Als Nachweis muss entweder ein gültiges Impfzertifikat oder Genesenenzertifikat vorgelegt werden
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpH0880yoosdst2YzH0t6hvWMmi63%2Fb3cdb5fe-4fb1-4dee-adbc-f3afad1a4338?alt=media&token=b16fe7be-5e84-4af2-b95a-8dc3022b61df
+promo: Yes
+duration: custom
+createdAt: 1635766734997
+watchersCount: 0
+price: from 67.50EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FrNsf2akgs6k0ksRXDv7E.png?generation=1638359966410798&alt=media
+commentsLast: ~
+promoter: Juli
+id: rNsf2akgs6k0ksRXDv7E
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+views: 5
+updatedAt: 1635766734997
+website: https://cspberlin.com/encuentros/
+updatedBy: pH0880yoosdst2YzH0t6hvWMmi63
+visibility: Public
+facebook: https://www.facebook.com/events/421078282883373
+eventType: Festival
+organiser: Juli
+form: No
+createdBy: pH0880yoosdst2YzH0t6hvWMmi63
+commentsCount: 0
+name: ENCUENTROS CUBAN WORKSHOP WEEKEND Workshop Days 18. & 19. Dezember 2021
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaYambu:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaColumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-12-18T12:00:00.000Z
+username: Juli
+viewsCount: 15

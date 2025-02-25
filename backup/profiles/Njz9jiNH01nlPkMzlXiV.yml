@@ -1,0 +1,24 @@
+createdAt: 1694373459103
+updatedBy: D6ce6E0Z2qgYD65oGJXxsFvxue33
+cityPlaceId: ChIJL68lBEHFYpYRMQkPQDzVdYQ
+createdBy: D6ce6E0Z2qgYD65oGJXxsFvxue33
+name: Santiago, Chile
+location:
+  country: Chile
+  latitude: -33.4488897
+  locality: Santiago
+  region: Santiago Metropolitan Region
+  place_id: ChIJL68lBEHFYpYRMQkPQDzVdYQ
+  longitude: -70.6692655
+place: ChIJL68lBEHFYpYRMQkPQDzVdYQ
+type: City
+updatedAt: 1694373459103
+username: chile-santiago
+watch:
+  count: 1
+  usernames:
+    - Hernan
+  list:
+    Hernan: true
+viewsCount: 224
+id: Njz9jiNH01nlPkMzlXiV

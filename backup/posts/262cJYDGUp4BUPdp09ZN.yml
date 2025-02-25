@@ -1,0 +1,126 @@
+venue:
+  formatted_address: Rašínovo nábř. 128/00, Nové Město, 128 00 Praha-Praha 2, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Náplavka
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4150341302915
+      south: 50.07367946970849
+      north: 50.07637743029149
+      west: 14.4123361697085
+    location:
+      lng: 14.4135777
+      lat: 50.0750264
+  address_components:
+    - types:
+        - street_number
+      short_name: "00"
+      long_name: "00"
+    - types:
+        - premise
+      short_name: "128"
+      long_name: "128"
+    - types:
+        - route
+      short_name: Rašínovo nábř.
+      long_name: Rašínovo nábřeží
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 2
+      long_name: Praha 2
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 128 00
+      long_name: 128 00
+  place_id: ChIJDV1r4mWVC0cRIzas-D7MRQw
+  url: https://maps.google.com/?cid=884337472680244771
+  username: nplavka
+endDate: 1724526000000
+claimed: No
+link: https://www.facebook.com/events/414229051486011
+program: []
+type: event
+duration: 2100
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F143fcf50-17d6-4ecf-9bdc-fc615d2b8d84?alt=media&token=fa15ab0c-bfca-46aa-9627-ee9cda0ceb5e
+createdAt: 1723415914924
+artists: []
+price: 0 CZK
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Mercádo - Latinská Amerika na naplávce
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724400000000
+hash: 1724400000000+ChIJDV1r4mWVC0cRIzas-D7MRQw
+username: DjLole
+viewsCount: 1
+org:
+  role: dj
+  username: DjLole
+description: >-
+  MERKÁDO promění ve dnech 23. - 24. srpna Náplavku v Latinskou Ameriku. Letošní
+  11. ročník se po deseti letech přesouvá z Jiřího z Poděbrad k Vltavě a nabídne
+  opět latino trhy a bohatý kulturní program i pro děti.
+
+
+  MERKÁDO je hlavně o tanci, hudbě a latinskoamerických trzích s exotickým jídlem a výrobky ze zemí Latinské Ameriky.
+
+  Festival představí na padesát stánků s typickými produkty – od chilli, maté, exotického ovoce po originální textilie, bižuterii, a výrobky od “artesanos” ze zemí Jižní a Střední Ameriky. Můžete se těšit na tradiční jídla připravovaná Latinoameričany žijícími v České republice doplněné o vybrané latino restaurace a bary.
+
+  Kulturní program upřesníme v nacházejících týdnech. Můžete se už nyní těšit na mexické kytary, brazilské bubny nebo kubánskou salsatéku. Pro děti je připravena každý den Piňata se sladkostmi a dětské dílničky.
+
+  V areálu festivalu budou k dispozici tradiční houpací sítě “hamaky”. 🌺
+
+
+  Vstup na festival je zdarma.
+
+  Festival Merkádo pořádá spolek Merkado, z. s. ve spolupráci s @Prazskenaplavky
+
+
+  Akci oficiálně podporují velvyslanectví Peru, Mexika, Argentiny, Brazílie a Chile.
+
+
+  Děkujeme! 💛
+id: 262cJYDGUp4BUPdp09ZN
+updatedAt: 1723415979434

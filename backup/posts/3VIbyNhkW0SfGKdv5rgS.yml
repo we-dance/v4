@@ -1,0 +1,240 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/sarajevo-salsa-congress/
+name: 17th anniversary Sarajevo Salsa Congress
+sourceUrl: https://facebook.com/events/1208117846992680
+venue:
+  address_components:
+    - long_name: Sarajevo
+      short_name: Sarajevo
+      types:
+        - locality
+        - political
+    - long_name: Kanton Sarajevo
+      short_name: Kanton Sarajevo
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Federacija Bosne i Hercegovine
+      short_name: Federacija Bosne i Hercegovine
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Bosnia and Herzegovina
+      short_name: BA
+      types:
+        - country
+        - political
+    - long_name: "71000"
+      short_name: "71000"
+      types:
+        - postal_code
+  formatted_address: Butmirska cesta 18, Ilidža, Sarajevo 71000, Bosnia and Herzegovina
+  geometry:
+    location:
+      lat: 43.8269694
+      lng: 18.3135424
+    viewport:
+      northeast:
+        lat: 43.8283909302915
+        lng: 18.3147656802915
+      southwest:
+        lat: 43.8256929697085
+        lng: 18.3120677197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +387 33 947-947
+  name: Hotel Hills Sarajevo Congress & Termal spa Resort
+  place_id: ChIJ4a0pkhbKWEcR1Eeh9HuvTH4
+  url: https://maps.google.com/?cid=9100841893928978388
+  website: http://www.hotelhills.ba/
+endDate: 1737941400000
+claimed: No
+link: ""
+description: >-
+  Dear friends,
+
+  We are thrilled to announce 17th anniversary Sarajevo Salsa Congress!!!
+
+  SSC #haos will take place in fantastic Hotel Hills, Thermal & Spa Resort - swimming pool complex of thermal riviera & Hotel "Hollywood". So, get ready for four days of great workshops, parties, pool parties and after-parties for one price.
+
+  17th Sarajevo Salsa Congress 2025 - happening from 23th to 26th of January 2025, will have THE PASS!!!
+
+  That's right, 4 days of great workshops, parties and after-parties for one price.
+
+  To participate in workshops, parties and after-parties all you have to do is buy THE PASS and you are free to go to all parties and all WORKSHOPS.
+
+
+  Here are some names of already confirmed artists:
+
+
+  Bersy Cortez (Spain/Venezuela)
+
+  Fadi Fusion (Spain)
+
+  Seo Fernandez & Eneris Mulgado (Cuba)
+
+  Luis Vasquez (USA)
+
+  Felicien & Isabelle (France)
+
+  Edu & Vir (Spain)
+
+  Sani Groove (Czech Republic)
+
+  Zoran & Andjela (Serbia)
+
+  Dejan & Sanja (Serbia)
+
+  Radovan & Emilija (Serbia)
+
+  Ivan & Ivana (Montenegro)
+
+  Armin & Lidija (B&H)
+
+  Petar & Paola (Serbia)
+
+  Jerko & Maja (Croatia)
+
+
+
+  DJ team:
+
+
+  DJ Tuli (UK)
+
+  DJ Qas (UK)
+
+  DJ MissMaya (Germany)
+
+  DJ Bradley (Slovenia)
+
+  DJ Sani Groove (Czech Republic)
+
+  DJ Don Marko (Serbia)
+
+  DJ Genie (Austria/Croatia)
+
+  DJ Igor (Croatia)
+
+  DJ Zoka (B&H)
+
+  DJ Q (B&H)
+
+
+  Applications for passes will be open on the website www.sarajevosalsa.com from September 5th
+
+  All additional informations: sarajevosalsa@gmail.com or via inbox.
+
+
+
+  THE PASS price (for those who are staying in Hotel Hills or Hollywood) :
+
+  Super Early bird - 70 EUR (until 1. October)
+
+  Early bird - 80 EUR (from 1. October until 1. November)
+
+  90 EUR (from 1. November)
+
+  100 EUR at the door
+
+  - All workshops, parties and after-parties included
+
+
+  THE PASS (included for those who are not staying in Hotel Hills or Hollywood)
+
+  Super Early bird - 75 EUR (until 1. October)
+
+  Early bird - 85 EUR (from 1. October until 1. November)
+
+  95 EUR (from 1. November)
+
+  105 EUR at the door
+
+  - All workshops, parties and after-parties included
+
+  - Pool parties included
+
+
+
+
+  Our venues are Hotel Hollywood **** and Hotel Hills *****, Thermal & Spa Resort - swimming pool complex of thermal riviera Hotel offer for participants of 17th Sarajevo Salsa Congress
+
+
+  ACCOMMODATION IN HOTEL HOLLYWOOD ****:
+
+  - Single bedroom with the special price for participants of the Sarajevo Salsa Congress :
+
+  53,00 EUR per night / breakfast included
+
+  - Double bedroom with the special price for the participants of the Sarajevo Salsa Congress : 35,00 EUR per night, per person / breakfast included
+
+  Triple bedroom with the special price for the participants of the Sarajevo Salsa Congress : 32,00 EUR per night, per person / breakfast included
+
+  - Tourist tax and insurance included
+
+  - The price includes entrance to the pools (Thermal riviera), fitness and the SPA
+
+
+  ACCOMMODATION IN HOTEL HILLS *****:
+
+  - Single bedroom with the special price for the participants of the Sarajevo Salsa Congress: 75,00 EUR per night / breakfast included
+
+  - Double bedroom with the special price for the participants of the Sarajevo Salsa Congress : 48,00 EUR per night, per person / breakfast included
+
+  Triple bedroom with the special price for the participants of the Sarajevo Salsa Congress : 45,00 EUR per night, per person / breakfast included
+
+  - The price includes entrance to the pools (Thermal riviera), fitness and the SPA
+
+  - Tourist tax and insurance included
+
+  All additional information, reservation
+
+  and accommodation booking via:
+
+  info@hotelhills.ba and
+
+  info@hotel-hollywood.ba
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293934/w1yisi7rlzwjtxqjiz8h.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ0Ztx7bHLWEcRPrOH3qbNLlY
+international: No
+visibility: Public
+org:
+  createdAt: 1732293932525
+  importedAt: 1732293932525
+  updatedAt: 1732293932525
+  source: facebook
+  name: Sarajevo Salsa Congress 2025
+  facebook: https://www.facebook.com/sarajevosalsa.congress
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293932/lru9r3xqclwxqqt2j1qf.jpg
+  username: sarajevo.salsa.congr
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ0Ztx7bHLWEcRPrOH3qbNLlY
+facebook: https://www.facebook.com/events/1208117846992680/
+facebookId: "1208117846992680"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1737640800000+ChIJ4a0pkhbKWEcR1Eeh9HuvTH4
+startDate: 1737640800000
+id: 3VIbyNhkW0SfGKdv5rgS

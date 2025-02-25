@@ -1,0 +1,62 @@
+venue:
+  formatted_address: 10 Lower Kabete Rd, Nairobi, Kenya
+  website: https://instagram.com/barrelsandstools_ke?igshid=YmMyMTA2M2Y=
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Barrels and Stools Lounge
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 36.8037466302915
+      south: -1.261030530291502
+      north: -1.258332569708498
+      west: 36.8010486697085
+    location:
+      lng: 36.8025443
+      lat: -1.259599
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Lower Kabete Rd
+      long_name: Lower Kabete Road
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Spring Valley
+      long_name: Spring Valley
+    - types:
+        - locality
+        - political
+      short_name: Nairobi
+      long_name: Nairobi
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nairobi County
+      long_name: Nairobi County
+    - types:
+        - country
+        - political
+      short_name: KE
+      long_name: Kenya
+  international_phone_number: +254 785 750012
+  place_id: ChIJx6a0lEgXLxgRj73iO8fkBf0
+  url: https://maps.google.com/?cid=18232230210833661327
+  username: instagram.com
+createdAt: 1712525582573
+receiver:
+  username: instagram.com
+question: HakXEhWY1qsE9WmD19vV
+createdBy: 4W8V6pKxZphuvTqahvE14wqCFfm2
+link: ""
+description: Fridays, Salsa night at Barrels and Stools lounge in Westlands, Nairobi.
+place: ChIJp0lN2HIRLxgRTJKXslQCz_c
+type: review
+dances:
+  - ""
+username: Salsabenjamin
+id: TG3Z4O2MSvWXnmdJ4oMh

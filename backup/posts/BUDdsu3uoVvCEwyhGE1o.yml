@@ -1,0 +1,147 @@
+venue:
+  website: http://www.danceandfight.de/
+  formatted_address: Frankenthaler Str. 20A, 81539 München, Germany
+  name: dance and fight club
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5998360302915
+      south: 48.1073908197085
+      north: 48.1100887802915
+      west: 11.5971380697085
+    location:
+      lng: 11.598432
+      lat: 48.1086507
+  address_components:
+    - types:
+        - street_number
+      short_name: 20A
+      long_name: 20A
+    - types:
+        - route
+      short_name: Frankenthaler Str.
+      long_name: Frankenthaler Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ramersdorf-Perlach
+      long_name: Ramersdorf-Perlach
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81539"
+      long_name: "81539"
+  url: https://maps.google.com/?cid=5623205681418736011
+  international_phone_number: +49 89 7460397
+  place_id: ChIJOSg_x4XfnUcRixHsM8ajCU4
+endDate: 2023-02-26T02:00
+claimed: No
+link: "https://www.eventbrite.de/e/543851523547. "
+description: >
+  Forró und Samba Party diesmal mit einer wunderbaren Sänger, die uns mit
+  wunderbaren Samba- und Forró-Liedern die Nacht versüßen wird.
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FleNtAGXy9kdjgwoK5PossuB2puG3%2Fe401ac8c-632b-4537-a101-983059e34727?alt=media&token=1320bb9b-f587-426b-ac26-e0f76e9a53ab
+duration: 60
+createdAt: 1676364770227
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Vando Oliveira
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F00899c0d-257d-4353-acc9-667b3fa0bc18?alt=media&token=354f7004-e9ca-49f7-a22d-9b1e879acd27
+    bio: |-
+      Conta oficial
+      Sou brazuca/RJ - Moro na Alemanha 🇩🇪
+      Embaixador do Samba na Alemanha
+      Cantor:
+      Samba, MPB, Pagode e por aí 🎶🎤
+      💍❤️
+      🇧🇷🌍
+      Um dia de cada vez
+    instagram: https://instagram.com/vandooliveiraoficial
+    id: CTDDKogIv5UZnf1Hz3CU
+    username: vandooliveiraoficial
+price: "10"
+artistsList:
+  - vandooliveiraoficial
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1676364770227
+updatedBy: leNtAGXy9kdjgwoK5PossuB2puG3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: tanzesambamitmir
+  bio: ""
+  photo: ""
+  instagram: https://instagram.com/tanzesambamitmir
+  id: LSqAVNqdVcBAYJQO6trt
+  username: tanzesambamitmir
+eventType: Party
+form: No
+createdBy: leNtAGXy9kdjgwoK5PossuB2puG3
+watch:
+  count: 1
+  list:
+    TanzeSamba: true
+name: "Forró und Samba Party mit live Musik von Vando Oliveira "
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-25T21:30
+username: TanzeSamba
+star:
+  count: 0
+  list: {}
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBUDdsu3uoVvCEwyhGE1o.png?generation=1677340338559644&alt=media
+telegram:
+  requestedAt: 1677340415941
+  messageUrl: https://t.me/WeDanceMunich/959
+  publishedAt: 1677340418919
+  messageId: 959
+  state: published
+instagram:
+  requestedAt: 1677340419865
+  messageUrl: https://instagram.com/p/CpF1NoEOLPS
+  publishedAt: 1677340433175
+  messageId: CpF1NoEOLPS
+  state: published
+viewsCount: 50
+id: BUDdsu3uoVvCEwyhGE1o

@@ -1,0 +1,106 @@
+sourceUrl: https://www.facebook.com/events/986426559380908/1003363044353926/
+createdAt: 1722605832030
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1722605832030
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Budapest, Erzsébet tér 11-13, 1051 Hungary
+  website: http://froccsterasz.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Fröccsterasz
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0523180697085
+        lat: 47.4965621697085
+      northeast:
+        lng: 19.0550160302915
+        lat: 47.4992601302915
+    location:
+      lng: 19.0535922
+      lat: 47.4980561
+  address_components:
+    - types:
+        - street_number
+      short_name: 11-13
+      long_name: 11-13
+    - types:
+        - route
+      short_name: Erzsébet tér
+      long_name: Erzsébet tér
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1051"
+      long_name: "1051"
+  international_phone_number: +36 30 419 5040
+  place_id: ChIJrypkGEDcQUcRje6kwQ6OuHY
+  url: https://maps.google.com/?cid=8554743686219755149
+endDate: 1722635940000
+claimed: No
+link: ""
+description: |-
+  FRÖCCSTERASZ Salsa-Bachata night
+  DJ Tombao
+  free-ingyenes-gratuito, péntek-friday-viernes
+  Start: 21:00
+  Egész nyáron - all summer long - todo el verano
+  Gyertek 😉 Welcome
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0y3vxvCAZxU8zneqqAZiFgRhFVCbtmg3mKkUz8fA5kois1au8KtJzZQxNwn4oY3SCl
+  name: Tímea Nagy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722520843/ul33wjzxix3w9aveiwwk.jpg
+  bio: ""
+  id: XMS9KNeJ6Ho9n9hhmsO4
+  instagram: ""
+  username: timea.nagy
+facebook: https://www.facebook.com/events/986426559380908/?event_time_id=1003363044353926
+facebookId: "1003363044353926"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: FRÖCCSTERASZ × Salsa-Bachata Péntek-Friday × DJ Tombao × ingyenes-free-gratuito
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1722625200000+ChIJrypkGEDcQUcRje6kwQ6OuHY
+startDate: 1722625200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722605844/hhr2wimysfy0sog0orzv.jpg
+id: zcxRDASFjVjDakAJBDL5

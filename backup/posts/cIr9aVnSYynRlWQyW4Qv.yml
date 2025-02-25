@@ -1,0 +1,138 @@
+endDate: 1720915200000
+sourceUrl: https://www.facebook.com/events/787317923592196
+createdAt: 1720274429866
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720253041000
+updatedAt: 1720274429866
+importedAt: 1720274429866
+providerUpdatedAt: 1720253041000
+facebookId: "787317923592196"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/787317923592196
+eventType: Party
+providerItemId: 10009113-1720828800-1720915199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa & Bachata Party IV. - Pápa
+location: Pápai Sportcsarnok, Várkert utca 4., Pápa, 8500, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720828800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Győr, 9021 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: "9021"
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.62229606426687
+        lat: 47.67881102985601
+      northeast:
+        lng: 17.64161406172019
+        lat: 47.69125402254124
+    location:
+      lng: 17.631421
+      lat: 47.6839445
+  address_components:
+    - types:
+        - postal_code
+      short_name: "9021"
+      long_name: "9021"
+    - types:
+        - locality
+        - political
+      short_name: Győr
+      long_name: Győr
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+  place_id: ChIJVVzNS-S_a0cRcoTo6SjEABM
+  url: https://maps.google.com/?q=9021&ftid=0x476bbfe44bcd5c55:0x1300c428e9e88472
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/KaribiTancEgyesulet.Gyor
+  name: Győri Karibi Tánc Egyesület
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044607/l7u7bybnvtqe0l6bxmel.jpg
+  bio: ""
+  id: 364DU36VJ7oILfo8Myce
+  instagram: ""
+  username: gyri.karibi.tanc.egy
+claimed: No
+facebook: https://www.facebook.com/events/787317923592196/
+link: ""
+description: >-
+  2024.07.13. Pápa Városi sportcsarnok Várkert utca 2.
+
+  VIP terem
+
+  Program:
+
+  20:00 - 21:30-ig Kubai Cha Cha WS Mihályi Péterrel (Salsa Cubanismo tánciskola)
+
+  21:30 - tól indul a buli
+
+  Zárás 01:00
+
+  Belépők :
+
+  Kubai Cha Cha Ws : 2000 ft
+
+  Party Fb. regisztráció nélkül : 3000 ft
+
+  Party Fb regisztrácioval ( OTT LESZEK ) : 2500 ft
+
+  Ws + Party Fb regisztrációval : 4000 ft
+
+  🔴 Büfé nem lesz ezért hozhattok/hozzatok kedvetekre bármi ételt 🥯🥩🍫-italt🍷☕️🍾
+
+  Amivel készülünk Nektek:
+
+  -Profi hang és látványos fénytechnika
+
+  -Sok-sok animációval -ruedákkal és hogy garantáltán senki ne ücsörögjön az est folyamán hölgyválaszt is hirdetünk
+
+  DJ. Paár Vilmos
+
+  A rendezvényre érkező a jegy megvételével automatikusan hozzájárulását adja, hogy a rendezvényen róla hang és képanyag készülhet, amit a rendező jogosult a későbbiekben marketing vagy egyéb anyaghoz kép és / vagy hang megjelenítéssel felhasználni.
+
+  A bulin való részvétellel a résztvevők vállalják, hogy a belépéskor kapott karszalagot a távozás pillanatáig magán tartják.
+
+  Kijelentik, hogy elfogadják és betartják a helyszín házirendjét.
+
+  Az eseményre ételt és italt lehet hozni!
+
+  A tánctérre italt bevinni Tilos!
+
+  Az őrizetlenül hagyott értéktárgyakért a rendező nem vállal felelősséget.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720274451/o2zpxdfha4krf0lkr8en.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNaB-QIe_a0cR4BEeDCnEAAQ
+international: No
+hash: 1720893600000+ChIJVVzNS-S_a0cRcoTo6SjEABM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FcIr9aVnSYynRlWQyW4Qv.png?generation=1720274473607536&alt=media
+id: cIr9aVnSYynRlWQyW4Qv

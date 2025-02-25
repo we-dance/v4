@@ -1,0 +1,155 @@
+createdAt: 1704466830266
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1704466830266
+username: Aina
+venue:
+  formatted_address: Donau-City-Straße 3, 1220 Wien, Austria
+  website: https://www.district-living.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: District Living
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.4135315197085
+        lat: 48.2302205197085
+      northeast:
+        lng: 16.4162294802915
+        lat: 48.2329184802915
+    location:
+      lng: 16.4148805
+      lat: 48.2315695
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Donau-City-Straße
+      long_name: Donau-City-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Donaustadt
+      long_name: Donaustadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1220"
+      long_name: "1220"
+  international_phone_number: +43 1 2520325800
+  place_id: ChIJuWCvtRMHbUcRO8TBHa4vyb8
+  url: https://maps.google.com/?cid=13819629356433130555
+visibility: Public
+endDate: 1705800600000
+claimed: No
+facebook: https://www.facebook.com/events/877951437212833/
+link: https://eventix.shop/ncf978r8
+description: >-
+  The Motion Beats team is more than happy to bring you a very special promo
+  party for 2 amazing festivals, Grazy and Diamond Festivals! 
+
+
+  Besides the SPECIAL workshop collab with BORBOLETA & LÚCIO and DJ AZMAEL & DJ MADARA burning the dance floor, you get the chance to win a COUPLE PASS for each of the festivals.
+
+
+  Join us for a night full of good vibes and amazing atmosphere.
+
+
+  SCHEDULE
+
+
+  19:00 - 20:00 LADY STYLING - Borboleta 
+
+
+  20:10 - 21:10 KIZOMBA FUSION - Lúcio & Borboleta
+
+
+  21:15 - 02:30 PARTY - Dj Madara & Dj Azmael
+
+
+  EARLY- BIRD PRICES (until january 15th)
+
+
+  1 WS - 27€
+
+  2 WS - 50€
+
+  Party -15€
+
+
+  *Party included with the workshops
+
+
+  MORE INFO ABOUT THE FESTIVALS:
+
+
+  Grazy Kizz - www.grazykizz.at
+
+
+  Diamond - https://facebook.com/events/s/diamond-kizomba-festival-07-11/6147119925344090/
+
+
+
+  We reserve all the rights to apply any change on the subjects above.
+
+  By coming to the classes, you agree to use any digital material made during the classes, such as photos and videos for future promotions.
+
+
+  Powered by
+
+  MOTION BEATS - Kizomba, Urban Kiz, Bachata and more
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: PROMO PARTY - Grazy Kizz & Diamond Festivals
+online: No
+styles: {}
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+startDate: 1705773600000
+cover: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/414625173_878365494290941_7703385890846669627_n.jpg?stp=dst-jpg_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=VxLvsrA2r3MAX-TUQEN&_nc_ht=scontent-iad3-2.xx&oh=00_AfALieEVvOeI9xu_ZvPf_w-Yw6WVXz7QMxxpXTQJE33HQA&oe=659C809D
+org:
+  owner: ""
+  import: requested
+  visibility: Public
+  owned: false
+  facebook: https://www.facebook.com/motionbeats.vienna
+  name: Motion Beats - Kizomba, Urban Kiz and More
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/295886070_814919059886679_4369960075667100857_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=111&ccb=1-7&_nc_sid=596444&_nc_ohc=dfAn5tGZEZkAX-85-0c&_nc_ht=scontent-iad3-2.xx&oh=00_AfAc9dj0aiTWk2T8YLD9Z4uP02j68csXFnBERWfLCjmNRg&oe=659C185C
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  type: Organiser
+  username: motionbeats.vienna
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FY1nuT7ZA8R15cvcy40OK.png?generation=1704466853252012&alt=media
+facebookId: "877951437212833"
+hash: 1705773600000+ChIJn8o2UZ4HbUcRRluiUYrlwv0
+viewsCount: 15
+id: Y1nuT7ZA8R15cvcy40OK

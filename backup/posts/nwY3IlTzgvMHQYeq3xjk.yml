@@ -1,0 +1,138 @@
+venue:
+  website: http://salsamas-pasing.de/
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  international_phone_number: +49 89 74039681
+  url: https://maps.google.com/?cid=8948474523406618165
+endDate: 2022-11-25T01:00
+claimed: No
+link: https://salsamas-pasing.de/de/event/details/90
+description: |-
+  18:30-19:30 Bachata Beginner Workshop
+  18:30-19:30 Bachata All Levels Workshop 
+  19:30-22:00 Bachata Social (freier Eintritt)
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F27bc9b55-6d02-4d1c-b5d3-e8af654cf63f?alt=media&token=64b802f5-b8f8-48b4-bf88-04a8205fb05a
+promo: ""
+duration: 60
+createdAt: 1669039526046
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Pablo De Queiroz
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fea862ce6-c4ca-48be-b269-59c415a30dc7?alt=media&token=4d4f1c09-2dd4-4e7f-aff4-98c21cf81ed1
+    id: Gg9bygHaz0NBcUy0NLyz
+    instagram: https://instagram.com/pablo_de_queiroz_salsamas
+    username: pablo_de_queiroz_salsamas
+price: 0 EUR
+artistsList:
+  - pablo_de_queiroz_salsamas
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1669039526046
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/SalsamasMunich
+  name: Salsamas_Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+  id: h1Q2XunkwqSUqIxinKiNaghTlal1
+  instagram: https://instagram.com/salsamasmunich
+  username: Salsamas_Munich
+eventType: Party
+form: No
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: "Bachata Social & Workshops "
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-11-25T18:30
+username: Salsamas_Munich
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FnwY3IlTzgvMHQYeq3xjk.png?generation=1669039607911737&alt=media
+telegram:
+  requestedAt: 1669039615725
+  messageUrl: https://t.me/WeDanceMunich/708
+  publishedAt: 1669039618183
+  messageId: 708
+  state: published
+instagram:
+  requestedAt: 1669039622290
+  messageUrl: https://instagram.com/p/ClOcspHrJLG
+  publishedAt: 1669039634927
+  messageId: ClOcspHrJLG
+  state: published
+viewsCount: 21
+id: nwY3IlTzgvMHQYeq3xjk

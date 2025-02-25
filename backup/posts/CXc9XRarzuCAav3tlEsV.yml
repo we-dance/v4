@@ -1,0 +1,115 @@
+venue:
+  website: http://www.augsburg.de/freizeit/baden/freibaeder/freibad-lechhausen/
+  formatted_address: Lechhauser Str. 34, 86153 Augsburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "34"
+      short_name: "34"
+    - types:
+        - route
+      long_name: Lechhauser Straße
+      short_name: Lechhauser Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Augsburg-Innenstadt
+      short_name: Augsburg-Innenstadt
+    - types:
+        - locality
+        - political
+      long_name: Augsburg
+      short_name: A
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Augsburg
+      short_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Schwaben
+      short_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "86153"
+      short_name: "86153"
+  url: https://maps.google.com/?cid=15957418599197187326
+  name: Freibad Lechhausen
+  geometry:
+    viewport:
+      south: 48.37361951970851
+      north: 48.3763174802915
+      east: 10.9144432802915
+      west: 10.9117453197085
+    location:
+      lng: 10.9134755
+      lat: 48.3748972
+  international_phone_number: +49 821 3249792
+  place_id: ChIJn4bRhOOXnkcR_hxcgasjdN0
+endDate: 2021-08-14T18:00:00.000Z
+description: |-
+  Salsa Pool Party
+
+  Freibad Lechhausen
+
+  Augsburg
+
+  Eintritt frei
+
+  13:00 - 20:00
+type: event
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fcbb6fe06-906d-4bc6-948d-0d6d9e667859?alt=media&token=7832f963-8101-48a4-8b15-d003972c1642
+duration: custom
+createdAt: 1628935592433
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FCXc9XRarzuCAav3tlEsV.png?generation=1628935642491072&alt=media
+commentsLast: ~
+id: CXc9XRarzuCAav3tlEsV
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+updatedAt: 1628935592433
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Party
+organiser: alexrazbakov
+form: No
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Salsa Pool Party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: true
+    selected: true
+  Casino:
+    level: Intermediate
+    highlighted: true
+    selected: true
+region:
+  name: Augsburg
+  location:
+    country: Germany
+    latitude: 48.3705449
+    locality: Augsburg
+    usedGps: false
+    place_id: ChIJKSshOsWinkcRoOeL161IHgQ
+    longitude: 10.89779
+startDate: 2021-08-14T11:00:00.000Z
+username: Promoter
+viewsCount: 40

@@ -1,0 +1,71 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1618291286537
+createdBy: sPxtjigdsqQywPep7edV64lRtvC3
+pwaUsed: false
+styles:
+  UrbanTarraxa:
+    level: Beginner
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+gender: Female
+permission: Yes
+id: sPxtjigdsqQywPep7edV64lRtvC3
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+birthday: 1980-07-19
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+weight: "57"
+locales:
+  de: true
+  el: true
+  en: true
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+partner: Yes
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+story: sporty, extroverted
+teacher: No
+name: 1crazy
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FsPxtjigdsqQywPep7edV64lRtvC3%2Ff39aa61d-eed2-45d3-913c-bc7e841f7ef6?alt=media&token=24b5db3d-ce65-45fc-a96b-ccc9c7f5790c
+height: "1,65 "
+username: Lisa_80
+partnerBio: kind, same level or better, mind. 1,75 m
+learning: Couple dance and rueda (salsa only Cuban style)
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FLisa_80.png?generation=1621357810789323&alt=media
+updatedBy: sYJgIUnzzGVKdNsMRdHd90TgHd62
+savedBy:
+  9ogHlTbB1uRkrWc3HVyEimqJMb23: true
+  "null": true
+  sYJgIUnzzGVKdNsMRdHd90TgHd62: true
+updatedAt: 1623767929546
+lastLoginAt: 1624376621442
+daysUsed: 2
+instagram: https://instagram.com/Lisa_grega
+viewsCount: 2

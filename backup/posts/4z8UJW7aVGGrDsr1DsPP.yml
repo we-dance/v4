@@ -1,0 +1,173 @@
+importedAt: 1708510556055
+providerUpdatedAt: 1708351689000
+endDate: 1717340400000
+facebookId: "394644946485645"
+facebook: https://www.facebook.com/events/394644946485645/
+facebookUrlsList:
+  - https://www.facebook.com/events/394644946485645/
+eventType: Festival
+createdAt: 1708510556055
+providerItemId: e394644946485645@facebook.com
+approved: true
+provider: ical
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+providerId: FDwgzaLrddKSK3dKkP1k
+name: "Douceur & Tarraxo "
+location: Martin-Behaim Straße 3, 81373 München, Germany
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1708351689000
+startDate: 1717070400000
+facebookUrlsCount: 1
+updatedAt: 1708510556055
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Martin-Behaim-Straße 3
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5361074197085
+        lat: 48.1232715697085
+      northeast:
+        lng: 11.5388053802915
+        lat: 48.1259695302915
+    location:
+      lng: 11.5373383
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  place_id: ChIJu8gT57PYnUcRvMTO4zzh3yw
+  url: https://maps.google.com/?q=Martin-Behaim-Stra%C3%9Fe+3,+81373+M%C3%BCnchen,+Germany&ftid=0x479dd8b3e713c8bb:0x2cdfe13ce3cec4bc
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizztalk
+  name: Kizztalk Dance Academy
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+  bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+    zu kommunizieren, sich au
+  id: 5DxynglUsETxslO7UZaBnTrOi5I3
+  instagram: https://www.instagram.com/kizztalk_/
+  username: kizztalkdanceacademy
+claimed: No
+link: http://www.kizztalk.de/
+description: >+
+  Let's meet for some intensive Douceur & Tarraxo Workshops.
+
+  Wir haben einen tollen Workshop und Party-Plan für euer Pfingstwochenende in München:
+
+
+  29.05.: 
+
+  18:00 -22:00 Kizztalk Kurse wie immer
+
+  21:00-.... Kizztalk an der Pina (ja, es geht wieder los!!)
+
+
+  30.05.:
+
+  14:00-16:00 Douceur 1 Workshop mit Claudia & Benny
+
+  16:00-18:00 KizzTarraxo Workshop mit Fajul
+
+
+  22:00-06:00 Pre-Party Phenomenal Kiz 
+
+  Follower Tickets: https://www.kizztalk.de/booking-form?referral=weekly_timetable_widget
+
+  Leader Tickets: https://www.kizztalk.de/booking-form?referral=weekly_timetable_widget
+
+
+  31.05. & 01.06.:
+
+
+  Sensual Kiz Festival 
+
+
+  and/or
+
+
+  Private Classes with Benny, Claudia or Fajul
+
+
+  02.06.:
+
+  14:00-16:00 Douceur 2 Workshop mit Claudia & Benny
+
+  16:00-18:00 KizzTarraxo Workshop mit Fajul
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708510561/faebq7b9p2r88fioecll.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1717070400000+ChIJu8gT57PYnUcRvMTO4zzh3yw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4z8UJW7aVGGrDsr1DsPP.png?generation=1708510585587945&alt=media
+viewsCount: 18
+id: 4z8UJW7aVGGrDsr1DsPP

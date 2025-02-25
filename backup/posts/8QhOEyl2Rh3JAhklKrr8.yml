@@ -1,0 +1,226 @@
+venue:
+  formatted_address: Korunní 732/16, Korunní 732, Vinohrady, 120 00 Praha-Praha 2, Czechia
+  website: http://mandragorapraha.cz/
+  name: "Mandragora: stylish oasis of comfort"
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4394088697085
+        lat: 50.0739196197085
+      northeast:
+        lng: 14.4421068302915
+        lat: 50.0766175802915
+    location:
+      lng: 14.4408162
+      lat: 50.0752161
+  address_components:
+    - types:
+        - street_number
+      short_name: "732"
+      long_name: "732"
+    - types:
+        - route
+      short_name: Korunní
+      long_name: Korunní
+    - types:
+        - neighborhood
+        - political
+      short_name: Vinohrady
+      long_name: Vinohrady
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 2
+      long_name: Praha 2
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 120 00
+      long_name: 120 00
+  place_id: ChIJd0dGo4WUC0cRVX6seJVfLag
+  url: https://maps.google.com/?cid=12118447267903209045
+  international_phone_number: +420 721 985 167
+endDate: 1709942400000
+claimed: No
+program: []
+source: facebook
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1709615448436
+checkin:
+  count: 0
+  list: {}
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+artistsList:
+  - DjLole
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+star:
+  count: 0
+  list: {}
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Salsa and Bachata party at Mandragora ✨
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1709920800000
+username: DjLole
+viewsCount: 1
+price: 100 CZK / 200 CZK / 300 CZK
+facebook: https://www.facebook.com/events/749566590467860
+facebookId: "749566590467860"
+link: https://www.facebook.com/events/749566590467860
+id: 8QhOEyl2Rh3JAhklKrr8
+hash: 1709920800000+ChIJd0dGo4WUC0cRVX6seJVfLag
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: https://facebook.com/DjLolePrague
+  name: Dj Lole
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  instagram: https://instagram.com/dj.lole
+  username: DjLole
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ffb22af11-c07f-48fb-ad89-847ed5e7960f?alt=media&token=979eca59-5e14-4837-ba34-fd5b8c1ac078
+promotionError: Instagram is not available yet for Prague
+promotion: failed
+description: |-
+  🇨🇿 
+  🔸Protože se druhé vydání 2.3 opět vydařilo, tak to zopakujme!🔸
+
+  ✨ Program ✨
+
+  🕖 19:00-20:00: Open class bachaty (lady styling) s Vilmou Gelovou💃
+  👉 FB: https://www.facebook.com/profile.php?id=100011760375470
+  👉 IG : https://www.instagram.com/vila_gelova/
+
+  🕗 20:00-21:00: Open class salsy linea (on2) s Monicou Mariou 💃🕺
+  👡👞 Footwork pro lídry a následovníky (všechny úrovně) 👞👡
+  👉 FB: https://www.facebook.com/monica.salsa.prague
+  👉 IG: https://www.instagram.com/monica.salsa.prague/
+
+  🕘 21:00-1:00: Salsa a Bachata párty (70% /30%) s Dj Lole 🎧
+  🔊 Hudba i pro tanečníky salsy linea a timby! 🔊
+
+  📍 Vstupné (💵jen hotovost💵):
+  - Bachata open class: 100 Kč
+  - Salsa open class: 100 Kč
+  - Párty: 100 Kč
+
+  📌 Místo konání:
+  Mandragora
+  Korunní 732/16 - 120 00 Praha 2
+  👉 Rezervace:
+  📞 420 721 985 167
+  📧 gatakam@seznam.cz
+
+  ------------------------------------------------
+
+  🇬🇧
+  🔸As the second edition on 2.3 was a success again, so let's continue!🔸
+
+  ✨ Program ✨
+
+  🕖 19:00-20:00: Bachata open class (lady styling) with Vilma Gelová 💃
+  👉 FB: https://www.facebook.com/profile.php?id=100011760375470
+  👉 IG : https://www.instagram.com/vila_gelova/
+
+  🕗 20:00-21:00: Salsa linea open class (on2) with Monica Maria 💃🕺
+  👡👞 Footwork for leaders and followers (all levels) 👞👡
+  👉 FB: https://www.facebook.com/monica.salsa.prague
+  👉 IG: https://www.instagram.com/monica.salsa.prague/
+
+  🕘 21:00-1:00: Salsa and Bachata party (70% /30%) s Dj Lole 🎧
+  🔊 Music for salsa linea and timba dancers as well! 🔊
+
+  📍 Entrance fee (💵cash only💵):
+  - Bachata open class: 100 Kč
+  - Salsa open class: 100 Kč
+  - Party: 100 Kč
+
+  📌 Venue:
+  Mandragora
+  Korunní 732/16 - 120 00 Prague 2
+  👉 Reservations:
+  📞 420 721 985 167
+  📧 gatakam@seznam.cz
+
+  ------------------------------------------------
+  🇪🇸
+  🔸Como la segunda edición en 2.3 volvió a ser un éxito, ¡hagámoslo de nuevo!🔸
+
+  ✨ Programa ✨
+
+  🕖 19:00-20:00: Clase abierta de bachata (lady styling) con Vilma Gelová 💃
+  👉 FB: https://www.facebook.com/profile.php?id=100011760375470
+  👉 IG: https://www.instagram.com/vila_gelova
+
+  🕗 20:00-21:00: Clase abierta de salsa linea (on2) con Monica Maria 💃🕺
+  👡👞 Pasitos para líderes y seguidores (todos los niveles) 👞👡
+  👉 FB: https://www.facebook.com/monica.salsa.prague
+  👉 IG: https://www.instagram.com/monica.salsa.prague/
+
+  🕘 21:00-1:00: Fiesta de salsa y bachata (66% /33%) con Dj Lole 🎧
+  🔊 ¡Música para bailarines de salsa linea y timba también! 🔊
+
+  📍 Tarifa de entrada (💵sólo efectivo💵):
+  - Clase abierta de salsa: 100 Kč
+  - Clase abierta de salsa: 100 Kč
+  - Fiesta: 100 Kč
+
+  📌 Lugar:
+  Mandrágora
+  Korunní 732/16 - 120 00 Praga 2
+  👉 Reservas:
+  📞 420 721 985 167
+  📧 gatakam@seznam.cz
+updatedAt: 1709802462604
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F8QhOEyl2Rh3JAhklKrr8.png?generation=1709802504402164&alt=media

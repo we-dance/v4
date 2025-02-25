@@ -1,0 +1,150 @@
+endDate: 1738569600000
+sourceUrl: https://www.facebook.com/events/683897183819279/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1707844794000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726589048000
+facebookId: "683897183819279"
+facebook: https://www.facebook.com/events/683897183819279/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/683897183819279/
+eventType: Party
+providerItemId: e683897183819279@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: RVA Zouk Weekender Hybrid 2025
+location: The Dance Space
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1738285200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: "2800 Village Pkwy #710, Highland Village, TX 75077, USA"
+  website: https://thedancespacetx.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The Dance Space
+  geometry:
+    viewport:
+      southwest:
+        lng: -97.0799983302915
+        lat: 33.0765879197085
+      northeast:
+        lng: -97.0773003697085
+        lat: 33.07928588029149
+    location:
+      lng: -97.0785748
+      lat: 33.0778837
+  address_components:
+    - types:
+        - subpremise
+      short_name: "#710"
+      long_name: "#710"
+    - types:
+        - street_number
+      short_name: "2800"
+      long_name: "2800"
+    - types:
+        - route
+      short_name: Village Pkwy
+      long_name: Village Parkway
+    - types:
+        - locality
+        - political
+      short_name: Highland Village
+      long_name: Highland Village
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Denton County
+      long_name: Denton County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: TX
+      long_name: Texas
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "75077"
+      long_name: "75077"
+  international_phone_number: +1 972-966-8555
+  place_id: ChIJuS8877gyTIYRiEjSAlumNuo
+  url: https://maps.google.com/?cid=16876859563437082760
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/rvazoukmovement
+  name: RVA Zouk Movement
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953747/mzc8tok3gsasyoe0f2oi.jpg
+  bio: ""
+  id: wnVarUjRRYCwjczDOVHm
+  instagram: ""
+  username: rvazoukmovement
+claimed: No
+link: https://rvazoukmovement.com/weekender-hybrid-2025
+description: >
+  Save the date, RVA Zouk Movement Weekender Hybrid returns in 2025!
+
+
+
+  The Weekender Hybrid event format continues to be a unique experience for everyone and we're happy to bring it back to serve the community.
+
+
+
+  With…
+
+
+  Thursday Pre-Party for setting the tone
+
+  Monitored Sales for homey vibes and a well-balanced ratio
+
+  Day & Evening Parties for more lit dances
+
+  Progressive Workshops for more effective learning
+
+  Hotel within walking distance from the venue
+
+
+
+  … you are in for one hell of a weekend!
+
+
+
+  FOR ALL INFO, TICKETS AND HOTEL BOOKINGS:
+
+  https://rvazoukmovement.com/weekender-hybrid-2025
+
+
+
+  BEWARE OF SCAMMERS!
+
+  In past events, we have caught Facebook posts on our event page from random people that did not buy passes to our event, claiming to sell. Please do not send money or buy passes from people you don't know or have not been verified as confirmed passholders by RVA Zouk Movement LLC.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417920/tarrr6bbd1jabilzkpd3.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJP-Qd0XYyTIYRosFMF-Vbc9s
+international: No
+hash: 1738285200000+ChIJuS8877gyTIYRiEjSAlumNuo
+id: KXsGQctDaHDu09LtbAtP

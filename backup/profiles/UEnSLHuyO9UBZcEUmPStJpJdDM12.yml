@@ -1,0 +1,20 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1629301346387
+locales:
+  de: true
+  en: true
+createdBy: UEnSLHuyO9UBZcEUmPStJpJdDM12
+pwaUsed: true
+name: "Sonja Klein "
+username: soklein
+gender: Female
+cities:
+  ChIJpXZKRVAOl0cRgEwJjTz9HwQ: true
+step: place
+place: ChIJpXZKRVAOl0cRgEwJjTz9HwQ
+updatedAt: 1629301400383
+daysUsed: 2
+lastLoginAt: 1629394922558
+id: UEnSLHuyO9UBZcEUmPStJpJdDM12

@@ -1,0 +1,73 @@
+community: Berlin
+type: Dancer
+createdAt: 1612957731749
+createdBy: unYurLQBpmfT5GdbiNDAjmBhl6H3
+name: Jen
+username: Jen
+partnerBio: Should be around 27-38
+gender: Female
+languages: "German, English, learning Brazilian Portuguese "
+visibility: Members
+weight: "50"
+learning: Salsa
+teacher: ""
+partner: ""
+styles:
+  Samba:
+    level: Intermediate
+    selected: true
+  VienneseWaltz:
+    level: Intermediate
+    selected: true
+  Ballroom:
+    level: Intermediate
+    selected: true
+  ChaChaCha:
+    level: Intermediate
+    selected: true
+  TangoBallroom:
+    level: Beginner
+    selected: true
+  Merengue:
+    level: Beginner
+    selected: true
+  Bachata:
+    level: Beginner
+    selected: true
+  Rhumba:
+    level: Intermediate
+    selected: true
+  Quickstep:
+    level: Intermediate
+    selected: true
+  Salsa:
+    level: Beginner
+    selected: true
+  Latin:
+    level: Intermediate
+    selected: true
+  Zumba:
+    level: Advanced
+    selected: true
+  Foxtrot:
+    level: Intermediate
+    selected: true
+  Waltz:
+    level: Intermediate
+    selected: true
+height: "162"
+story: ""
+photoFull: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FunYurLQBpmfT5GdbiNDAjmBhl6H3%2Fec7787c5-fc67-4db9-bfbd-47a72fcccbb3?alt=media&token=70bfd7b7-bbd7-42f3-aa58-4871f0fe1525
+photo: ""
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+locales:
+  de: true
+  pt: true
+  en: true
+lastLoginAt: 1613158736342
+language: de
+daysUsed: 2
+hometown: ""
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1617064590173
+id: unYurLQBpmfT5GdbiNDAjmBhl6H3

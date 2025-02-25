@@ -1,0 +1,126 @@
+isNew: true
+facebookId: "1003245268480068"
+facebookUrlsList:
+  - https://www.facebook.com/events/1003245258480069/1003245268480068/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729173641535
+updatedAt: 1729173641535
+importedAt: 1729173641535
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48533-1729706400-1729713600@latinfo.hu
+providerCreatedAt: 1729146747000
+providerUpdatedAt: 1729146747000
+startDate: 1729706400000
+endDate: 1729713600000
+sourceUrl: https://www.facebook.com/events/1003245258480069/1003245268480068/
+location: Gozsdu Salsa Matiné, Király u. 13., Budapest, 1075, Magyarország
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "13"
+      short_name: "13"
+      types:
+        - street_number
+    - long_name: Király utca
+      short_name: Király u.
+      types:
+        - route
+    - long_name: VII. kerület
+      short_name: VII. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1075"
+      short_name: "1075"
+      types:
+        - postal_code
+  formatted_address: Budapest, Király u. 13, 1075 Hungary
+  geometry:
+    location:
+      lat: 47.4987223
+      lng: 19.0589463
+    viewport:
+      northeast:
+        lat: 47.5003374802915
+        lng: 19.0600071302915
+      southwest:
+        lat: 47.4976395197085
+        lng: 19.05730916970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Király u. 13
+  place_id: ChIJN8Cs-2ncQUcReoy4FN1lBYk
+  url: https://maps.google.com/?q=Budapest,+Kir%C3%A1ly+u.+13,+1075+Hungary&ftid=0x4741dc69fbacc037:0x890565dd14b88c7a
+visibility: Public
+org:
+  id: 2J4eCB3Pi2Sy6dm6h4y9
+  username: Gozsdu.Salsa.Matine
+  name: Gozsdu Salsa Matiné
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557714/c65wedmc3bmu1bsmy7il.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/Gozsdu.Salsa.Matine
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1003245258480069/?event_time_id=1003245268480068
+link: ""
+description: >-
+  Munka utáni felüdülés és lelazulás zenével, tánccal, ruedával, meglepetésekkel
+  a belváros közepén, a szabad ég alatt.
+
+  Az esemény nyitott, ingyenes, a talpalávalót DJ Greg biztosítja. Balettszőnyeget terítünk le és szól a zene hattól nyolcig, hogy munka után be tudj ugrani táncolni egyet!
+
+  Vár a Gozsdu Udvar számtalan szórakozóhelye és terasza, vidám salsa zenével. Munka után ne rögtön hazafelé vedd az irányt, hanem gyere táncolj egyet, gyakorolhatod a tánciskolában tanultakat.
+
+  Klasszikus és modern salsa, son, néhány timba, kolumbiai, kubai, miami és olasz salsa slágerek szólalnak meg, bachatával fűszerezve, időnként egy-egy különlegességgel, cha-cha-chával, merenguével.
+
+  Az esemény szabadtéri, INGYENES és eső esetén elmarad - már csak ezért is érdemes nézni a kiírást.
+
+  ***********************
+
+  This is a weekly outdoor salsa event at one of the most frequented places in Budapest, Gozsdu Udvar every Wednesday. The event is visited by many salsa&bachata dancers in all styles, so if you dance salsa please feel free to join this afternoon event! Open from 6 PM to 8 PM. It's an outdoor event so it's canceled when it rains. The event is free of charge and lasts until only 8 PM, so be there on time!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729173658/fghdbx5bfbttc9zso7ru.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Gozsdu Salsa Matiné - minden szerdán 6-tól 8-ig - RÁADÁS!
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1729699200000+ChIJN8Cs-2ncQUcReoy4FN1lBYk
+id: w4kCKVLCAoVEexS2qeGa

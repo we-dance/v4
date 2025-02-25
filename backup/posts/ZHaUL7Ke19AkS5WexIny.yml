@@ -1,0 +1,99 @@
+venue:
+  formatted_address: Residenzpl. 1, 97070 Würzburg, Germany
+  website: https://b-neumann.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: B.Neumann Residenzgaststätten
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 9.938474680291502
+      south: 49.7908592197085
+      north: 49.7935571802915
+      west: 9.935776719708498
+    location:
+      lng: 9.937078099999999
+      lat: 49.7921116
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Residenzpl.
+      long_name: Residenzplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt
+      long_name: Altstadt
+    - types:
+        - locality
+        - political
+      short_name: WÜ
+      long_name: Würzburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Würzburg
+      long_name: Kreisfreie Stadt Würzburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Unterfranken
+      long_name: Unterfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "97070"
+      long_name: "97070"
+  international_phone_number: +49 931 46771944
+  place_id: ChIJa6B1-y2QokcRmD9L2_kXWLs
+  url: https://maps.google.com/?cid=13499566244936499096
+endDate: 2024-01-28T23:30
+claimed: No
+link: https://www.latin-festival-wuerzburg.de/tickets-und-preisstufen
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F848969d9-43a9-4afe-8cf3-11877d2f9349?alt=media&token=541974af-e166-46df-b78c-48da93093161
+createdAt: 1689633271034
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ2U3aEiCQokcRoAli8Ci3HQQ
+international: Yes
+updatedAt: 1689633271034
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/latinfestivalwuerzburg
+  username: latinfestivalwuerzburg
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Latin Festival Wuerzburg
+online: No
+styles:
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2024-01-26T00:00
+username: IvanaSoldat
+viewsCount: 63
+id: ZHaUL7Ke19AkS5WexIny

@@ -1,0 +1,362 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/afro-latin-village-winter-edition/
+sourceUrl: https://facebook.com/events/302403932942504/
+venue:
+  address_components:
+    - long_name: "33"
+      short_name: "33"
+      types:
+        - street_number
+    - long_name: Obala
+      short_name: Obala
+      types:
+        - route
+    - long_name: Portorož
+      short_name: Portorož
+      types:
+        - postal_town
+    - long_name: Piran
+      short_name: Piran
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Slovenia
+      short_name: SI
+      types:
+        - country
+        - political
+    - long_name: "6320"
+      short_name: "6320"
+      types:
+        - postal_code
+  formatted_address: Obala 33, 6320 Portorož, Slovenia
+  geometry:
+    location:
+      lat: 45.5145122
+      lng: 13.5900832
+    viewport:
+      northeast:
+        lat: 45.5157180302915
+        lng: 13.5914828802915
+      southwest:
+        lat: 45.5130200697085
+        lng: 13.5887849197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +386 5 692 90 01
+  name: Grand Hotel Portorož - LifeClass Hotels & Spa
+  place_id: ChIJQ3FIxStle0cR4dpT8fNTGEo
+  url: https://maps.google.com/?cid=5339109665438685921
+  website: http://www.lifeclass.net/en/hotels/grand-hotel-portoroz
+endDate: ""
+claimed: No
+link: https://bit.ly/afrowinterlanding
+description: >
+  WINTER AFRO LATIN VILLAGE 2024
+
+  International Salsa, Bachata and Kizomba Festival
+
+  �- - - - �- - - - �- - - - �- - - - �- -
+
+  MORE INFO & PRICE (TAKE NOW DISCOUNT)
+
+  ITA - https://bit.ly/afrowinterlanding
+
+  ENG - https://bit.ly/landingwinterengl
+
+  SLO - https://bit.ly/newslovwinter
+
+  �- - - - �- - - - �- - - - �- - - - �- -
+
+  Feel Your Dance Winter Experience!
+
+  - - - - �- - - - �- - - - �- - - - �- - - - 
+
+  6 – 8 December 2024
+
+  Portorose | Slovenija.
+
+  SPECIAL EDITION
+
+  Exclusive Wellness Location
+
+  close to Trieste and Ljubljana.
+
+
+  - - - - - WHAT TO EXPECT? - - - -
+
+  -Unique EXCLUSIVE LOCATION
+
+  -Explosive ANIMATION
+
+  -Weekend full of WORKSHOPS 
+
+  -Amazing parties with a DRESS CODE
+
+  -ANIMATION & SHOW
+
+  -Top artists
+
+  -SOCIAL DANCE
+
+  -Kizomba - Bachata - Salsa & 70/80 Revival Social Room
+
+
+  - - - - - GENERAL PROGRAMM - - - -
+
+  - Friday 6 December
+
+  12:00 - 14:00 Registration Event
+
+  14:00 - 19:00 Workshops
+
+  22:00 - Show, Cabaret & Animation
+
+  23:00 - Party & Music
+
+
+  - - - - LINE UP SALSA - - - -
+
+  Felipe Polanco - Parigi - Puertorico
+
+  Roli Maden - Cuba
+
+  Dj York & Lisa - Frankfurt - Germany
+
+  Carlito Franco - Milano - Venezuela
+
+  Jonatha&Busra - Italy - Türkiye
+
+  Jonatha Somoza - Milano - Puertorico
+
+  Eloy Leyva - Milano - Cuba
+
+  Albertico Calderon - Milano - Cuba
+
+  Imagen Latina – Milano - Venezuela
+
+  Lianette Granados - Roma - Cuba
+
+  Enmanuel Figuera* - Lecco - Venezuela
+
+  Jorge Pombayra & Luciana - Milano - Mexico&Argentina
+
+  Alessandro&Rossella - Bergamo - Italy
+
+  Alessia Lucarelli - Pesaro - Italy
+
+  Anna&Bobo - Ferrara - Italy
+
+  Anna&Silvio – Milano - Italy
+
+  Asd Peligro Dance - Ferrara - Italy
+
+  Ezio Romagnoli - Verona - Italy
+
+  La Clave Soy Yo - Verbania - Italy
+
+  Michelangelo Rossini - Venice - Italy
+
+  Salsadelsol - Padova - Italy
+
+  BailaconMigo* - Parma - Italy
+
+  Rankankan - Alessandria - Italy
+
+  Alex Salerno - Torino - Italy
+
+  Damas y Caballeros - Parma&Firenze - Italy
+
+  and more coming soon
+
+
+  - - - - LINE UP BACHATA - - - -
+
+  Dj York & Lisa - Frankfurt - Germany
+
+  Salvatore & Silvia - Trieste - Italy
+
+  Imagen Latina - Milano - Venezuela
+
+  Gio&Silvia - Verbania - Italy
+
+  Enmanuel Figuera - Venezuela
+
+  Jorge Pombayira&Luciana - Mexico&Argentina
+
+  Luka&Ombretta - Colombia Italy
+
+  Alice e Francesco - Mantova - Italy
+
+
+  - - - - LINE-UP KIZOMBA - - - -
+
+  Bobby&Lara - Ghana&Italy
+
+  Gil Afroman - Milano - Mozambico
+
+  Flavia&Roberto - Gorizia - Italy
+
+  Anna&Silvio - Milano - Italy
+
+  Hugo Boss - Croatia
+
+  Fabris Radin - Croatia
+
+
+  - - - - LINE-UP 4WOMAN- - - -
+
+  Lianette Grandos - Cuba
+
+  Busra Araci - Türkiye
+
+  Victoria Celada - Venezuela
+
+  Doroty Prince - Italy
+
+  Alessia Lucarelli - Italy
+
+  Federica Giuliano - Italy
+
+  Sabrina Babini - Italy
+
+  Giulia Minacciolo - Italy
+
+  Ilenia Caccin - Italy
+
+
+  - - - - LINE-UP MUSIC SELECTOR - - - -
+
+  DJ York - Germany
+
+  Dj Hugo Boss - Croatia
+
+  Dj Fabris - Croatia
+
+  Dj Alex Scacco - Italy
+
+  Dj Merra Kasino Latino - Italy
+
+  Dj Ernesto - Italy
+
+  Dj Angelo El Niño - Italy
+
+
+  - - - - WHERE - - - -
+
+  * Mind Hotel Slovenia - Portorose - Slovenia.
+
+  * Hotel&Wellness LifeClass
+
+  * Adress: Obala 33 Portorose
+
+  * 20 km from Trieste.
+
+  * 80 km from Lubiana.
+
+  * 350 km from Bologna.
+
+  * 450 km from Milano.
+
+
+  - - - - VADEMECUM - - - -
+
+  * Event Registration 06.12 from 12:00
+
+  * Check In Hotel 15:00
+
+  * Check Out Hotel 11:00 
+
+  * Dress Code (To Be Confirmed)*
+
+  - Friday ?
+
+  - Saturday ?
+
+
+  MORE INFO & PRICE
+
+  ITA - https://bit.ly/afrowinterlanding
+
+  ENG - https://bit.ly/landingwinterengl
+
+  SLO - https://bit.ly/newslovwinter
+
+
+  INFORMATION 
+
+  mail: staff@afrolatinvillage.com
+
+  Phone: +39 347 40.35.454
+
+  Phone: +386.41.234.600 FB:
+
+  Roberto Milano FB Page:
+
+  Afro Latin Village Page FB Group:
+
+  Afro Latin Village Group IG: @afrolatinvillage
+
+  @robertomilano
+
+  ©katjafuna
+
+  @funakatja
+
+  - - - -
+
+  ✰★✰TAG✰★✰�#afrolatinvillage #salsa #bachata #kizomba #cuba #angola #portorico #festival #dance #afro #lifeclass #portorose #dance #salsafestival
+
+  - - - -
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293936/i7dravrugngrdhqn2otn.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  createdAt: 1732293932662
+  importedAt: 1732293932662
+  updatedAt: 1732293932662
+  source: facebook
+  name: Afro Latin Village Page
+  facebook: https://www.facebook.com/afrolatinvillage
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293933/ltbucg0wxrtscatfksqu.jpg
+  username: afrolatinvillage
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+facebook: https://www.facebook.com/events/302403932942504/
+facebookId: "302403932942504"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: WINTER AFRO LATIN VILLAGE 2024 DANCE VACATION
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1733482800000+ChIJQ3FIxStle0cR4dpT8fNTGEo
+startDate: 1733482800000
+id: PxL2fIGUNteTq1e6QHk9

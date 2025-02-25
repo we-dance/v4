@@ -1,0 +1,166 @@
+sourceUrl: https://facebook.com/events/s/underground-salsa-party-mit-dj/860273955950845/
+createdAt: 1721738375034
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+username: Salsamas_Munich
+endDate: 1722121200000
+claimed: No
+link: ""
+description: |
+  Underground Salsa Party
+  Musik: Salsa, Bachata und mehr…
+   
+  Programm:
+  - 18:00 - 19:00  Body Movements mit Lucia
+  - 19:00 - 20:00  Pachanga Workshop mit Lucia
+  - 20:00 - 21:00  Salsa Intermediate Workshop mit Pablo & Silvina
+  - 20:00 - 21:00  Salsa Beginner Workshop mit Antonio
+  - 21:00 - 01:00  Salsa Party mit DJ Tilo
+   
+  Preise:
+  - 15,00 €  pro Person für den Party-Eintritt*
+  - 20,00 €  pro Person für den Salsa Partnerwork*
+  - 30,00 €  pro Person für Body Movements*
+  - 30,00 €  pro Person für Pachanga*
+  - 40,00 €  pro Person für 1 Workshop mit Lucia + Party*
+  - 55,00 €  pro Person für 2 Workshops mit Lucia + Party*
+  - 60,00 €  pro Person für 3 Workshops + Party*
+
+  * Salsamás-Vertragsmitglieder erhalten 5 € Ermäßigung.
+  * Flatrate-Vertragsmitglieder zahlen nur die Hälfte der Gebühr.
+
+  Wichtig!
+  - Es ist keine Voranmeldung für die Workshops und die Party erforderlich.
+   
+
+  Weitere Infos unter:
+  Mobil:0172 82 165 69
+
+  Event-Location:
+  Salsamás-Pasing
+  Am Schützeneck 3,
+  81241 München
+program: []
+source: facebook
+type: event
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/PabloDeQueiroz
+  name: Pablo De Queiroz
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711026785/tdx3crgjzuk68ztf1qw0.jpg
+  bio: ""
+  id: vCm1Zeaaq8DnqxV1vpMR
+  instagram: ""
+  username: PabloDeQueiroz
+facebook: https://www.facebook.com/events/860273955950845/
+facebookId: "860273955950845"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: UNDERGROUND SALSA PARTY MIT DJ TILO, PRÉ-PARTY WORKSHOPS & SHOW
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1722085200000+ChIJmUR24_I4J5URAaoic3d9ua4
+startDate: 1722085200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1721738388/ti7c8h2msxixcekmgjyt.jpg
+duration: 600
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637113802915
+      south: 48.1464651197085
+      north: 48.1491630802915
+      west: 11.4610134197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  international_phone_number: +49 89 74039681
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  url: https://maps.google.com/?cid=8948474523406618165
+  username: salsamas-pasing.de
+artistsList: []
+id: 2uXjr33DfgmbcIGyjLbq
+updatedAt: 1721738442060
+star:
+  count: 1
+  usernames:
+    - Salsamas_Munich
+  history:
+    - username: Salsamas_Munich
+      date: 1721738445296
+      invitedBy: ""
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+instagram:
+  messageUrl: https://instagram.com/p/C9w_xjAu3aQ
+  publishedAt: 1721738484326
+  messageId: C9w_xjAu3aQ
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 4

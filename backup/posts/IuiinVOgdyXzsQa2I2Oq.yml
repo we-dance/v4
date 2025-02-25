@@ -1,0 +1,70 @@
+endDate: 2023-02-08T23:59
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvZMoKQ25WOR3XJFaf04duoYnKuz2%2F8a1da746-3b56-4164-8281-8657f9efbd0b?alt=media&token=17aebf7f-c7c8-48db-a25d-8f95061e5d4d
+createdAt: 1675798271898
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: willylauriane.bachata
+    bio: ""
+    photo: ""
+    id: TVWjRHHXqcNYcsg3WN9d
+    instagram: https://instagram.com/willylauriane.bachata
+    username: willylauriane.bachata
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - willylauriane.bachata
+international: No
+updatedAt: 1675798271898
+updatedBy: vZMoKQ25WOR3XJFaf04duoYnKuz2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: DJ Bullet Munich
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvZMoKQ25WOR3XJFaf04duoYnKuz2%2F7254a9ec-e8b5-4cdf-b49f-8bdf45b6feba?alt=media&token=242b3cd1-31e0-442c-a6ee-048b5080263f
+  instagram: https://www.instagram.com/dj_bullet_munich/
+  id: vZMoKQ25WOR3XJFaf04duoYnKuz2
+  username: dj_bullet_munich
+eventType: Party
+form: No
+createdBy: vZMoKQ25WOR3XJFaf04duoYnKuz2
+watch:
+  count: 1
+  list:
+    dj_bullet_munich: true
+name: Bachata Wednesday by Bubu
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-08T21:00
+username: dj_bullet_munich
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FIuiinVOgdyXzsQa2I2Oq.png?generation=1675847660425703&alt=media
+telegram:
+  requestedAt: 1675847676017
+  messageUrl: https://t.me/WeDanceMunich/865
+  publishedAt: 1675847678307
+  messageId: 865
+  state: published
+instagram:
+  requestedAt: 1675847679440
+  state: published
+  messageUrl: https://instagram.com/p/CoZWEBUOTAc
+  publishedAt: 1675847705601
+  messageId: CoZWEBUOTAc
+star:
+  count: 1
+  list:
+    Avatar: true
+viewsCount: 33
+id: IuiinVOgdyXzsQa2I2Oq

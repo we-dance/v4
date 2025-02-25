@@ -1,0 +1,153 @@
+sourceUrl: https://www.facebook.com/events/365607182956573
+createdAt: 1710440951839
+updatedBy: fBw7JhiBtHOD8dZWOxkeGWVHWum1
+createdBy: fBw7JhiBtHOD8dZWOxkeGWVHWum1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1710440951839
+username: Franco
+venue:
+  formatted_address: Baaderstraße 75, 80469 München, Germany
+  website: http://www.tangofusionclub.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Sonja Armisén
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5730276197085
+        lat: 48.12655641970851
+      northeast:
+        lng: 11.5757255802915
+        lat: 48.12925438029151
+    location:
+      lng: 11.5744023
+      lat: 48.1278538
+  address_components:
+    - types:
+        - street_number
+      short_name: "75"
+      long_name: "75"
+    - types:
+        - route
+      short_name: Baaderstraße
+      long_name: Baaderstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  international_phone_number: +49 89 20206343
+  place_id: ChIJYVbxAmffnUcRT9K0qi79u6U
+  url: https://maps.google.com/?cid=11942417213777302095
+endDate: ""
+claimed: No
+link: ""
+description: >
+  
+
+  Samstag 16.3. 24  Tangofusion Party und Workshop
+
+
+  Bei den Workshops werden wir mit Elementen aus dem Tango, Contango und Freestyle eine lockerere und freiere Art des Tangotanzens erlernen. Dabei sind die Rollen des Führens und Folgens nicht festgelegt und wir tanzen Figuren wie ganchos, barridas, voleos, Verzierungen ecc. frei von festgelegten Abläufen. Die Workshops eignen sich auch sehr gut zum aufwärmen und kennen lernen vor der Milonga.
+
+
+  Singles herzlich willkommen !
+
+
+  Workshop 1 18:30-19:15 Uhr
+
+  TangoFusion Einführung für alle die noch nie Tangofusion gemacht haben, oder die
+
+  es wieder auffrischen wollen 10 €
+
+
+  Workshop 2 19:15-20 Uhr
+
+  TangoFusion mit Schwerpunkt Colgada + Volcada 10 €
+
+
+  Beide Workshops zusammen 15 €
+
+
+  Tango Fusion Milonga 20:00 - 23:00 Uhr
+
+  DJ Sonja + DJ Franco
+
+  Party: 10 € Glockenbachateliers, Baumstr. 8b, Hinterhof, 1. Stock
+
+
+  Kein Barbetrieb, drum kann jeder sein Lieblingsgetränk selbst mitbringen !
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/365607182956573/
+facebookId: "365607182956573"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Sa. 16. März Tangofusionparty + 2 Workshops
+online: No
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1710610200000+ChIJYVbxAmffnUcRT9K0qi79u6U
+startDate: 1710610200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710440958/fomz2cnsza6s0lmrbmba.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/sonja.armisen
+  name: Sonja Armisen
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710440955/ozc1on6tnaivtansakjz.jpg
+  bio: ""
+  id: w9PYhYH55mqFDVCeExmk
+  instagram: ""
+  username: sonja.armisen
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7EqRjKZzdipMawXD23gY.png?generation=1710440980636995&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C4gTyQpOc31
+  publishedAt: 1710441132268
+  messageId: C4gTyQpOc31
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 5
+id: 7EqRjKZzdipMawXD23gY

@@ -1,0 +1,149 @@
+venue:
+  formatted_address: Ul. Vijenac Braće Lorenzetto 17, 52210, Rovinj, Croatia
+  website: http://steelvenue.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "17"
+      short_name: "17"
+    - types:
+        - route
+      long_name: Ulica Vijenac Braće Lorenzetto
+      short_name: Ul. Vijenac Braće Lorenzetto
+    - types:
+        - locality
+        - political
+      long_name: Rovinj
+      short_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Općina Rovinj
+      short_name: Općina Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Istarska županija
+      short_name: Istarska županija
+    - types:
+        - country
+        - political
+      long_name: Croatia
+      short_name: HR
+    - types:
+        - postal_code
+      long_name: "52210"
+      short_name: "52210"
+  url: https://maps.google.com/?cid=647354496231779742
+  name: Steel Bar & Club
+  geometry:
+    viewport:
+      south: 45.0837216697085
+      north: 45.08641963029149
+      east: 13.6415590802915
+      west: 13.6388611197085
+    location:
+      lng: 13.6402746
+      lat: 45.0850541
+  international_phone_number: +385 91 111 1500
+  place_id: ChIJDThP0I2_fEcRnq2lB3zd-wg
+endDate:
+  _seconds: 1630672200
+  _nanoseconds: 0
+link: https://www.crosalsafestival.com/workshops/intensives_bootcamps/fonts_body_movement_intensive
+description: >-
+  Increase your self-awareness, self confidence and you will discover dance
+  horizons you haven't even known existed. It is aimed at intermediate/advanced
+  dancers - BOTH MEN & WOMEN. 
+
+
+  Get inspired and get a new understanding of how to connect your body & soul with the music. Your teacher - a legendary Cuban dancer MAYKEL FONTS!
+
+
+  Body Movement Intensive by Maykel Fonts will increase your self-awareness, self confidence and you will discover dance horizons you haven't even known existed. It is aimed at intermediate/advanced dancers - BOTH MEN & WOMEN. 
+
+
+  Fonts Body Movement Intensive (3h) is aimed at all intermediate/advanced dancers who'd like to learn how to express music better through body movement. In these 3 hours Maykel will go through fundamentals of Afro-Cuban movement towards more complex movements in the end fusing it with salsa and mambo and challenging you to discover the ranges of your own body. 
+
+
+  ### Who's Maykel Fonts?
+
+
+  [Maykel Fonts](https://www.crosalsafestival.com/artists/instructors/maykel_fonts), if there are still people who haven't heard of him, is currently one of the most wanted Cuban dancer, teacher and performer on the international salsa scene. His knowledge and expertise in dance and movement in general is immense and his performances impeccable. 
+
+
+
+  ### When and Where?
+
+
+  - FRIDAY 13-14.30h (STEEL CLUB)
+
+  - SATURDAY 13-14.30h (STEEL CLUB)
+
+
+  ### Price and level
+
+
+  - The price is 60 EUR (450 Kn) for this 3h intensive. 
+
+  - For INTERMEDIATE/ADVANCED level.
+
+  - Limited to 50 participants only (men and women).
+
+
+  ### IMPORTANT
+
+
+  - **BODY MOVEMENT INTENSIVE** is not included in any of your passes
+
+  - this ticket **doesn't include** any other workshops or parties
+
+  - intensive is intended for both women and men
+
+  - the ticket is non-refundable but CAN be transferred to other person (name change)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F7c1d5752-f72a-49e9-8f0d-2b2f920695af?alt=media&token=7ab14d65-838b-404e-8ea3-2c134285b6e5
+duration: "90"
+createdAt: 1628238697669
+watchersCount: 0
+price: 60EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAjypZkG7127TFymVzOrH.png?generation=1628239210708865&alt=media
+commentsLast: ~
+place: ""
+id: AjypZkG7127TFymVzOrH
+updatedAt: 1628238697669
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Steel Club, Rovinj
+visibility: Public
+eventType: Workshop
+form: Yes
+createdBy: szPaBdUVRxOPEQBKblAhyE7iInl2
+commentsCount: 0
+name: BODY MOVEMENT INTENSIVE by Maykel Fonts
+online: No
+styles:
+  Mambo:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Casino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Afro:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-03T11:00:00.000Z
+username: SeaSunSalsa
+viewsCount: 3

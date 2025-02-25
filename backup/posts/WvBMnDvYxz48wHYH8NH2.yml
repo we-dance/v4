@@ -1,0 +1,269 @@
+endDate: 1717617600000
+claimed: No
+program: []
+source: facebook
+instagram: {}
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707854083/ilwalinot396atrl0nqy.jpg
+createdAt: 1717570040592
+approved: true
+checkin:
+  count: 0
+  list: {}
+price: FREE
+providerCreatedAt: 1699610679000
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+providerUpdatedAt: 1707849379000
+facebookId: "284637091214018"
+upVotes: 0
+eventType: Party
+name: Salsa Cubana - Timba Party
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717606800000
+link: ""
+description: >-
+  The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+  you know from our parties with cool drinks to fair prices in an amazing
+  atmosphere.
+
+
+  Eintritt: free
+downVotes: 0
+duration: 180
+artists: []
+provider: ical
+providerId: anBgOWXJuGIEKeqfp7My
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+importedAt: 1707854075419
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/vacunaaa
+  name: Salsa Cubana Munich
+  bio: >
+    The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties. Join our Whatsapp group.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  instagram: https://instagram.com/salsa.cubana.munich
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  username: salsa.cubana.munich
+facebook: https://www.facebook.com/events/284637091214018/?event_time_id=284637121214015
+telegram: {}
+facebookUrlsList:
+  - https://www.facebook.com/events/284637091214018/?event_time_id=284637151214012
+providerItemId: e284637151214012@facebook.com
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+location: KULT Tanzschule
+username: alexrazbakov
+promotion: ""
+facebookUrlsCount: 1
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: Area 1
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  username: pinakothekdermoderne
+id: WvBMnDvYxz48wHYH8NH2
+hash: 1717606800000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+bookmarks: 1
+recurrence:
+  untilDate:
+    _seconds: 1730329200
+    _nanoseconds: 0
+  freq: weekly
+  days: {}
+  dates:
+    - _seconds: 1717606800
+      _nanoseconds: 0
+    - _seconds: 1718211600
+      _nanoseconds: 0
+    - _seconds: 1718816400
+      _nanoseconds: 0
+    - _seconds: 1719421200
+      _nanoseconds: 0
+    - _seconds: 1720026000
+      _nanoseconds: 0
+    - _seconds: 1720630800
+      _nanoseconds: 0
+    - _seconds: 1721235600
+      _nanoseconds: 0
+    - _seconds: 1721840400
+      _nanoseconds: 0
+    - _seconds: 1722445200
+      _nanoseconds: 0
+    - _seconds: 1723050000
+      _nanoseconds: 0
+    - _seconds: 1723654800
+      _nanoseconds: 0
+    - _seconds: 1724259600
+      _nanoseconds: 0
+    - _seconds: 1724864400
+      _nanoseconds: 0
+    - _seconds: 1725469200
+      _nanoseconds: 0
+    - _seconds: 1726074000
+      _nanoseconds: 0
+    - _seconds: 1726678800
+      _nanoseconds: 0
+    - _seconds: 1727283600
+      _nanoseconds: 0
+    - _seconds: 1727888400
+      _nanoseconds: 0
+    - _seconds: 1728493200
+      _nanoseconds: 0
+    - _seconds: 1729098000
+      _nanoseconds: 0
+    - _seconds: 1729702800
+      _nanoseconds: 0
+    - _seconds: 1730307600
+      _nanoseconds: 0
+socialCover: ""
+type: series
+children:
+  - endDate: 1717617600000
+    id: YPtkqnvHCcDUQZSl9twx
+    startDate: 1717606800000
+  - endDate: 1718222400000
+    id: m5cC9s0uPb2PwSZ2Ak9i
+    startDate: 1718211600000
+  - endDate: 1718827200000
+    id: GWnOkJLItqCV4IxTkMiQ
+    startDate: 1718816400000
+  - endDate: 1719432000000
+    id: csGtr2OchvTVQLxahlAN
+    startDate: 1719421200000
+  - endDate: 1720036800000
+    id: 0xNbXzHc8DjbpOym9BhF
+    startDate: 1720026000000
+  - endDate: 1720641600000
+    id: l5OgCA0x2aeHPxAZX6iN
+    startDate: 1720630800000
+  - endDate: 1721246400000
+    id: svvOicuAz2yxIXfNBgPQ
+    startDate: 1721235600000
+  - endDate: 1721851200000
+    id: K8uhHHYOCoMzXrZUXefx
+    startDate: 1721840400000
+  - endDate: 1722456000000
+    id: SOmRSeEb3rdkwNuFwU8d
+    startDate: 1722445200000
+  - endDate: 1723060800000
+    id: 99wMnEaOAcvFqbh0cN3n
+    startDate: 1723050000000
+  - endDate: 1723665600000
+    id: YqBTzjoEzUYrA8LPWi8X
+    startDate: 1723654800000
+  - endDate: 1724270400000
+    id: UnNr1hdfcmm4SuV3LFoA
+    startDate: 1724259600000
+  - endDate: 1724875200000
+    id: SpqIGfVLjWfZN62uMAmU
+    startDate: 1724864400000
+  - endDate: 1725480000000
+    id: sNLs1lrRXGHeAICV9fGV
+    startDate: 1725469200000
+  - endDate: 1726084800000
+    id: M6h2Bs31cQpKnXRVSTWO
+    startDate: 1726074000000
+  - endDate: 1726689600000
+    id: oMIbN18vA3XazfRFFL67
+    startDate: 1726678800000
+  - endDate: 1727294400000
+    id: svSsNGNyGpEnv8oaW1HD
+    startDate: 1727283600000
+  - endDate: 1727899200000
+    id: U3mASaoVChOr8aU5D7hs
+    startDate: 1727888400000
+  - endDate: 1728504000000
+    id: bZxJzkMYp730e0qUJYlS
+    startDate: 1728493200000
+  - endDate: 1729108800000
+    id: jAos7qDHdhkaTbAR8kck
+    startDate: 1729098000000
+  - endDate: 1729713600000
+    id: Yqk0qYUU42qmwrmZ4SQg
+    startDate: 1729702800000
+  - endDate: 1730318400000
+    id: AzB5NkfWR3h2FuIhlGVU
+    startDate: 1730307600000
+updatedAt: 1717574555854
+viewsCount: 3

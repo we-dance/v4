@@ -1,0 +1,123 @@
+venue:
+  formatted_address: "161 Harvard Ave #13b, Allston, MA 02134, USA"
+  website: http://www.salsaycontrol.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa y Control
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -71.1303363697085
+      south: 42.34987981970851
+      north: 42.3525777802915
+      west: -71.13303433029151
+    location:
+      lng: -71.1317819
+      lat: 42.3513542
+  address_components:
+    - types:
+        - subpremise
+      short_name: 13b
+      long_name: 13b
+    - types:
+        - street_number
+      short_name: "161"
+      long_name: "161"
+    - types:
+        - route
+      short_name: Harvard Ave
+      long_name: Harvard Avenue
+    - types:
+        - neighborhood
+        - political
+      short_name: Allston
+      long_name: Allston
+    - types:
+        - locality
+        - political
+      short_name: Boston
+      long_name: Boston
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Suffolk County
+      long_name: Suffolk County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MA
+      long_name: Massachusetts
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "02134"
+      long_name: "02134"
+  international_phone_number: +1 617-755-6920
+  place_id: ChIJ63Y26sV544kR08fO3flOOFY
+  url: https://maps.google.com/?cid=6212802521032738771
+  username: www.salsaycontrol.com
+endDate: 1720036200000
+claimed: No
+link: https://surveyheart.com/form/667be16a9836f1767283c6f6
+description: |-
+  Already nailed the bachata basics? ;-)
+
+  Refine your following / leading, style and attitude with us.
+
+  Bachata Intermediate 2 starts July 2nd.
+
+  Book your spot now!
+
+  -- USC / Wellpass Members are welcome.
+program: []
+type: event
+seriesId: oZuiljabK7QL99qx4XY0
+duration: 1520
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F621bf6b3-071f-44e2-92c9-6ce9e98bd5e9?alt=media&token=cc0a3c32-29d1-403c-b2f8-4b4ed8dd58e1
+createdAt: 1719558058475
+artists: []
+price: from EUR 85
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: NeTg7iXfrc1uMCpxgs0k
+international: No
+updatedAt: 1719558058475
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  username: AnnaMil
+eventType: Course
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Bachata Intermediate 2
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719945000000
+hash: 1719945000000+ChIJ63Y26sV544kR08fO3flOOFY
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNeTg7iXfrc1uMCpxgs0k.png?generation=1719558071092002&alt=media
+viewsCount: 1
+promotionError: No instagram found near "ChIJ2V-Mo_l1nkcRfZixfUq4DAE"
+promotion: failed

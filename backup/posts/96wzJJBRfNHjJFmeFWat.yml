@@ -1,0 +1,143 @@
+endDate: 1732228200000
+sourceUrl: https://www.facebook.com/events/373922792005067/?event_time_id=373922798671733
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1720223310000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727207177000
+facebookId: "373922798671733"
+facebook: https://www.facebook.com/events/373922792005067/?event_time_id=373922798671733
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/373922792005067/?event_time_id=373922798671733
+eventType: Workshop
+providerItemId: e373922798671733@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Madras Sensual Night | Graz "
+location: Reininghausstraße 29, 8020 Graz, Österreich
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1732219200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Reininghausstraße 29, 8020 Graz, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Reininghausstraße 29
+  geometry:
+    viewport:
+      southwest:
+        lng: 15.4037662697085
+        lat: 47.06272441970849
+      northeast:
+        lng: 15.4064642302915
+        lat: 47.06542238029149
+    location:
+      lng: 15.4052946
+      lat: 47.063828
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Reininghausstraße
+      long_name: Reininghausstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Eggenberg
+      long_name: Eggenberg
+    - types:
+        - locality
+        - political
+      short_name: Graz
+      long_name: Graz
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Graz
+      long_name: Graz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Steiermark
+      long_name: Steiermark
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "8020"
+      long_name: "8020"
+  place_id: ChIJ8RXnpxE1bkcRTFPM2H_yIwE
+  url: https://maps.google.com/?q=Reininghausstra%C3%9Fe+29,+8020+Graz,+Austria&ftid=0x476e3511a7e715f1:0x123f27fd8cc534c
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417960862
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsamadras
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417961/euzgsh4u4avp3kmafrkv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417960862
+  owned: false
+  name: SALSA Madras
+  place: ChIJu2UwF4c1bkcRm93f0tGKjv4
+  updatedAt: 1728417960862
+  username: salsamadras
+claimed: No
+link: http://www.salsamadras.at/events
+description: >-
+  Salsa Madras hosts the weekly MADRAS SENSUAL NIGHTS in GRAZ for all Bachata &
+  Kizomba Dancers
+
+
+  9 PM- 12 AM: Socials
+
+  Music: Best of Bachata & Kizomba genres.
+
+  Venue: Reininghausstraße 29, Graz 8020
+
+  Entry: €8 (Includes Drinks*)
+
+  *one alcoholic drink or 2 non-alcoholic drinks 
+
+
+  The entry for students attending the workshops before the socials is only €4 (includes drinks). More info at www.salsamadras.at/classes 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417961/rlugbtkzghcaotnslpn7.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJu2UwF4c1bkcRm93f0tGKjv4
+international: No
+hash: 1732219200000+ChIJ8RXnpxE1bkcRTFPM2H_yIwE
+id: 96wzJJBRfNHjJFmeFWat

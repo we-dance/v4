@@ -1,0 +1,174 @@
+venue:
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  website: http://buena-vista-bar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bar Buena Vista
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  international_phone_number: +49 89 26022811
+  url: https://maps.google.com/?cid=10819607444887102927
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+endDate: 1707696000000
+claimed: No
+description: Join the event to see who of your friends are coming
+program: []
+instagram: {}
+type: event
+downVotes: 0
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fedc981e1-fb9d-4f6a-be61-3c534237e8f8?alt=media&token=0c9c896d-20d9-4171-b509-28f9b4055a57
+duration: "180"
+createdAt: 1707492086038
+checkin:
+  count: 0
+  list: {}
+artists:
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/MontunoClub
+    name: MontunoClub 🔥 Dance School Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+    bio: >-
+      Traditional Spirit 🔥 Hot 🧊 Authentic
+
+
+      🇨🇺Salsa Cubana
+
+
+      🇪🇸 ES 🇩🇪 DE 🇺🇸 EN 🇺🇦 UA 🇷🇺 RU
+
+
+      Meet new friends 📍Learn to dance 📍 Be Happy
+
+
+      ## Learn at home
+
+
+      - [Practice at home](https://bit.ly/montunoclub)
+
+      - Join our [Telegram channel](https://t.me/MontunoClub) to get notified about next course.
+
+
+      ## Support us
+
+
+      - [Donate](https://donate.stripe.com/3cs8A7b5Gg8Ycwg7ss)
+    instagram: https://instagram.com/MontunoClub
+    id: ICpCp7IBpMe30vAHqYfw4FmQp382
+    username: MontunoClub
+price: FREE
+id: JkP5Izztejb4mTGmN1pA
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - MontunoClub
+international: No
+updatedAt: 1707492086038
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Buena Vista Bar
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd4121c12-1eaa-444d-a3a8-2a4e98ca4088?alt=media&token=6d58e0f6-2111-40ee-bae2-985144b42f87
+  bio: Latino Restaurant München
+  id: JEkADfAnw9nk7VIcgE5P
+  instagram: https://www.instagram.com/buena_vista_bar_munich/
+  username: buena_vista_bar_munich
+facebookId: ""
+telegram: {}
+upVotes: 0
+eventType: Party
+promotionError: ""
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Cuban Salsa Sunday
+online: No
+votes: 0
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1707678000000
+hash: 1704654000000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJkP5Izztejb4mTGmN1pA.png?generation=1707492096864876&alt=media
+star:
+  list: {}
+  count: 3
+  usernames:
+    - Ryan
+    - alexrazbakov
+    - Arsene
+viewsCount: 19

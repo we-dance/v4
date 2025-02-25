@@ -1,0 +1,214 @@
+endDate: 1728939600000
+sourceUrl: https://www.facebook.com/events/1052656116374932/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1723980976000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725439335000
+facebookId: "1052656116374932"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1052656116374932/
+eventType: Party
+providerItemId: e1052656116374932@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Les lundis zouk brésilien avec Alex de Carvalho et sa team DBAC
+location: S.A.R.L. Alemana Danse
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728928800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 35 Rue Jean Moulin, 94300 Vincennes, France
+  website: http://www.alemana-danse.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: S.A.R.L. Alemana Danse
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.428852969708498
+        lat: 48.84463196970851
+      northeast:
+        lng: 2.431550930291502
+        lat: 48.84732993029151
+    location:
+      lng: 2.430178
+      lat: 48.84590900000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "35"
+      long_name: "35"
+    - types:
+        - route
+      short_name: Rue Jean Moulin
+      long_name: Rue Jean Moulin
+    - types:
+        - locality
+        - political
+      short_name: Vincennes
+      long_name: Vincennes
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Val-de-Marne
+      long_name: Val-de-Marne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "94300"
+      long_name: "94300"
+  international_phone_number: +33 1 43 28 17 82
+  place_id: ChIJU7fCsJly5kcRzG9MQUp6_e8
+  url: https://maps.google.com/?cid=17293112603514269644
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dansesbresiliennesalexdecarvalho
+  name: DBAC Paris
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418010/gblokwizqnieeiz0ir9h.png
+  bio: ""
+  id: WAZrJbDkUgUbeXRt5BPZ
+  instagram: ""
+  username: dbac.paris
+claimed: No
+facebook: https://www.facebook.com/events/1052656116374932/?event_time_id=1052656176374926
+link: ""
+description: >+
+  
+  🎉Rentrée du Zouk Brésilien avec DBAC Paris !!! 🎉
+
+  🎈Rejoignez-nous tous les lundis au studio Alemana à Vincennes pour les cours d'Alex de Carvalho et sa team DBAC !
+   💯Lundi 9 septembre : PORTES OUVERTES GRATUITE !!! 
+  👀Début des cours lundi 16 septembre
+
+
+  🔷 PROGRAMME DES LUNDIS 🔷
+
+  🔹 20h-21h 
+
+  - Salle D : Solo technique & styling avec Virginie et Laure
+
+  🔹 21h-22h  
+
+  - Salle D : Niveau 1-2 avec Virginie et Laure
+
+  - Salle E : Niveau 3-4 avec Alex & Sabrina
+
+  🔹 22h-23h
+
+  - Salle E : Niveau 2-3 avec Alex & Sabrina
+
+
+  🔷 NIVEAUX 🔷
+
+  Merci de respecter vos niveaux, pour la progression de tous
+
+  Niveau 1 = débutant
+
+  Niveau 2 = débutant évolutif
+
+  Niveau 3 = intermédiaire
+
+  Niveau 4 = avancé
+
+  Solo technique & styling = tous niveaux (principalement pour les followers avec quelques cours pour les leaders)
+
+
+  🔷 LIEU 🔷
+
+  Studio Alemana,
+
+  35 rue Jean Moulin
+
+  94300 Vincennes
+
+  Métro: Ligne 1 - Bérault
+
+  RER A: gare de Vincennes
+
+
+  🔷 TARIFS 🔷
+
+  🔹Cours à l’unité (1h) = 18 euros 
+
+  🔹1 cours par semaine:
+
+  ->Pendant 1 mois = 66 euros (soit 16,50 euros le cours)
+
+  ->Pendant 3 mois = 156 euros (soit 13 euros le cours)
+
+  ->Toute l’année de septembre à juin = mois x 48 euros (soit 12 euros le cours)
+
+  🔹2 cours par semaine:
+
+  ->Pendant 1 mois = 108 euros (soit 13,50 euros le cours)
+
+  ->Pendant 3 mois = 288 euros (soit 12 euros le cours )
+
+  ->Toute l’année de septembre à juin = mois x 84 euros (soit 10,50 euros le cours)
+
+  🔹3 cours par semaine:
+
+  ->Pendant 1 mois = 150 euros (soit 12,50 euros le cours)
+
+  ->Pendant 3 mois = 396 euros (soit 11 euros le cours)
+
+  ->Toute l’année de septembre à juin = mois x 108 euros (soit 9 euros le cours)
+
+
+  🔷 INSCRIPTIONS 🔷
+
+  Remplissez le formulaire pour choisir vos cours et forfaits :
+
+  https://docs.google.com/forms/d/1miCy7sWMSaZDBDtNU90RyaIhTcMwyE2j6ZE3qmv3-L4/viewform?fbclid=IwY2xjawEutqlleHRuA2FlbQIxMAABHRC2LKbEdtyLcv98Rrm7p8hil86RC8AjN7ve_GnIEsh0Qen_j2oG7WdtxA_aem_w_M0YEg9OL0GXTmkzA6Dkg&edit_requested=true
+
+
+  🔷 L’ÉCOLE DBAC 🔷 
+
+  DBAC Paris (Danses brésiliennes Alex de Carvalho) a été créé en janvier 2014 par Alex de Carvalho, professeur de danses de salon brésiliennes avec plus de 20 ans d'expérience. DBAC est la sœur parisienne de l'école réputée qu'il a créée à Rio au Brésil en 2003, le CDAC (Centro de dança Alex de Carvalho).
+
+  Dans les deux villes, une équipe d’assistants et de professeurs sont présents dans les cours répondre aux besoins des élèves et les encadrer.
+
+
+  🔷 CONTACTS ET RÉSEAUX SOCIAUX 🔷
+
+  🔹Facebook : page DBAC Paris : https://www.facebook.com/dansesbresiliennesalexdecarvalho
+
+  🔹Site internet : http://www.alexdecarvalho.com.br/fr
+
+  🔹Instagram : @dbacparis
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418016/riusbhqrhqop7yngy6jr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJh2QBtzLibYgReOtF1Y1dBfM
+international: No
+hash: 1728928800000+ChIJU7fCsJly5kcRzG9MQUp6_e8
+id: PR7D9QZ3gYbpmjJHrho2

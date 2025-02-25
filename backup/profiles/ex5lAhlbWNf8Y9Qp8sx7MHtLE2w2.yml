@@ -1,0 +1,36 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627197109496
+createdBy: ex5lAhlbWNf8Y9Qp8sx7MHtLE2w2
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+pwaUsed: false
+name: Volker
+username: Volker_Karlsruhe
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fex5lAhlbWNf8Y9Qp8sx7MHtLE2w2%2F73d814e0-bd08-4ecb-8020-2f10110f2955?alt=media&token=9cc73b39-9222-4525-8fe0-5c762f1bc569
+step: photo
+cities:
+  ChIJoyHjSflQuUcR72gdnsxt4wg: true
+updatedAt: 1627197457187
+birthday: 1973-02-02
+hometown: ChIJoyHjSflQuUcR72gdnsxt4wg
+locales:
+  de: true
+  en: true
+meetingPlace:
+  private: true
+  public: true
+visibility: Members
+permission: No
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: No
+height: "185"
+lastLoginAt: 1627314019125
+daysUsed: 2
+partner: Yes
+weight: ""
+viewsCount: 1
+id: ex5lAhlbWNf8Y9Qp8sx7MHtLE2w2

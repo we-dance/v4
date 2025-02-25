@@ -1,0 +1,209 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/nairobi-kizomba-sensacao/
+sourceUrl: https://facebook.com/events/463607429395271
+venue:
+  address_components:
+    - long_name: Nairobi
+      short_name: Nairobi
+      types:
+        - locality
+        - political
+    - long_name: Nairobi County
+      short_name: Nairobi County
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Kenya
+      short_name: KE
+      types:
+        - country
+        - political
+  formatted_address: Nairobi, Kenya
+  geometry:
+    location:
+      lat: -1.2920659
+      lng: 36.8219462
+    viewport:
+      northeast:
+        lat: -1.164743987404677
+        lng: 37.04937464111994
+      southwest:
+        lat: -1.441673850747034
+        lng: 36.64541913416444
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Nairobi
+  place_id: ChIJp0lN2HIRLxgRTJKXslQCz_c
+  url: https://maps.google.com/?q=Nairobi,+Kenya&ftid=0x182f1172d84d49a7:0xf7cf0254b297924c
+endDate: 1742157900000
+claimed: No
+link: ""
+description: >-
+  𝐓𝐇𝐄 𝐍𝐀𝐈𝐑𝐎𝐁𝐈 𝐊𝐈𝐙𝐎𝐌𝐁𝐀 𝐒𝐄𝐍𝐒𝐀ÇÃ𝐎
+
+  𝐌𝐀𝐑𝐂𝐇 𝟏𝟒 - 𝟏𝟔 | 𝟐𝟎𝟐𝟓
+
+  .
+
+  𝐄𝐕𝐄𝐍𝐓 𝐈𝐍𝐅𝐎:
+
+  .
+
+  **** 𝐀𝐁𝐎𝐔𝐓 𝐍𝐊𝐒𝟐𝟎𝟐𝟓 **** 
+
+
+  We're pleased to present the 5th edition of the Nairobi Kizomba Sensação!!! 
+
+  .
+
+  Set in the safari capital of the Africa, Nairobi is a city that never seems to sleep, the entire city has boundless energy, and its people are friendly and hospitable.
+
+  .
+
+  The Nairobi Kizomba Sensação is a 3-day music and dance event that will provide a unique opportunity for participants to immerse themselves in Kizomba, Semba, Tarraxinha, Konpa, Afrodance music and dance genres. The attendees will get a chance to participate in dance workshops, enjoy performances, themed social dance parties and safaris.
+
+  .
+
+  **** 𝐕𝐄𝐍𝐔𝐄 ****
+
+  📌 𝐏𝐑𝐈𝐃𝐄𝐈𝐍𝐍 𝐀𝐙𝐔𝐑𝐄 𝐇𝐎𝐓𝐄𝐋 - 𝐍𝐀𝐈𝐑𝐎𝐁𝐈
+
+  .
+
+  .
+
+  **** 𝐀𝐑𝐓𝐈𝐒𝐓 𝐋𝐈𝐍𝐄𝐔𝐏 *****
+
+  Carlos & Anna
+
+  Rico & Manon
+
+  Bev Flowers
+
+  .
+
+  .
+
+  **** 𝐃𝐉 𝐋𝐈𝐍𝐄𝐔𝐏 *****
+
+  TBA
+
+  .
+
+  .
+
+  ******** 𝐏𝐑𝐎𝐆𝐑𝐀𝐌 *********
+
+  .
+
+  🗓️ 𝐓𝐇𝐔𝐑𝐒𝐃𝐀𝐘, 𝐌𝐀𝐑𝐂𝐇 𝟏𝟑
+
+  ▶️ 𝐏𝐑𝐄𝐏𝐀𝐑𝐓𝐘 
+
+  📌 𝐀𝐑𝐓𝐂𝐀𝐅𝐅𝐄, 𝐁𝐑𝐈𝐓𝐀𝐌 𝐓𝐎𝐖𝐄𝐑 𝐔𝐏𝐏𝐄𝐑𝐇𝐈𝐋𝐋
+
+  ▪️ 18:30 - 17:30 Workshop
+
+  ▪️ 17:30 - 01:00 Party 
+
+  .
+
+  🗓️ 𝐅𝐑𝐈𝐃𝐀𝐘, 𝐌𝐀𝐑𝐂𝐇 𝟏𝟒
+
+  ▶️ 𝐎𝐏𝐄𝐍𝐈𝐍𝐆 𝐆𝐀𝐋𝐀 𝐏𝐀𝐑𝐓𝐘
+
+  📌 𝐏𝐑𝐈𝐃𝐄𝐈𝐍𝐍 𝐀𝐙𝐔𝐑𝐄 𝐇𝐎𝐓𝐄𝐋
+
+  ▪️ 20:00 – 21:00 Workshop
+
+  ▪️ 21:00 – 22:00 Party
+
+  .
+
+  🗓️ 𝐒𝐀𝐓𝐔𝐑𝐃𝐀𝐘, 𝐌𝐀𝐑𝐂𝐇 𝟏𝟓
+
+  ▶️ 𝐖𝐎𝐑𝐊𝐒𝐇𝐎𝐏𝐒, 𝐒𝐇𝐎𝐖 𝐍𝐈𝐆𝐇𝐓 & 𝐏𝐀𝐑𝐓𝐘 
+
+  📌 𝐏𝐑𝐈𝐃𝐄𝐈𝐍𝐍 𝐀𝐙𝐔𝐑𝐄 𝐇𝐎𝐓𝐄𝐋
+
+  ▪️ 10:00 – 17:00 Workshops
+
+  ▪️ 20:00 – 04:00 Party
+
+  .
+
+  🗓️ 𝐒𝐔𝐍𝐃𝐀𝐘, 𝐌𝐀𝐑𝐂𝐇 𝟏𝟔
+
+  ▶️ 𝐖𝐎𝐑𝐊𝐒𝐇𝐎𝐏𝐒, 𝐂𝐋𝐎𝐒𝐈𝐍𝐆 𝐏𝐀𝐑𝐓𝐘 
+
+  📌 𝐏𝐑𝐈𝐃𝐄𝐈𝐍𝐍 𝐀𝐙𝐔𝐑𝐄 𝐇𝐎𝐓𝐄𝐋
+
+  ▪️ 10:00 – 17:00 Workshops
+
+  ▪️ 20:00 – 04:00 Party
+
+  .
+
+  🗓️ 𝐌𝐎𝐍𝐃𝐀𝐘, 𝐌𝐀𝐑𝐂𝐇 𝟏𝟕 - 𝐖𝐄𝐃𝐍𝐄𝐒𝐃𝐀𝐘, 𝐌𝐀𝐑𝐂𝐇 𝟏𝟗 
+
+  ▶️ 𝐒𝐀𝐅𝐀𝐑𝐈 
+
+  📌 𝐏𝐑𝐈𝐃𝐄𝐈𝐍𝐍 𝐌𝐀𝐑𝐀
+
+  .
+
+  𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍:
+
+  ✆ +254712909047
+
+  ⓔ info@kizombasensacao.com
+
+  ⓦ www.kizombasensacao.com
+
+  .
+
+  #NKS2025 #nairobikizombasensacao #kizomba #semba #tarraxinha #konpa #afro #comelivethemagic #magicalkenya #morethanafestival
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/kmonivk5vr2nsutbqa8d.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJp0lN2HIRLxgRTJKXslQCz_c
+international: No
+visibility: Public
+org:
+  id: 1r89UEA1SvtlAa1pXsG2
+  username: NairobiKizombaSensacao
+  name: Nairobi Kizomba Sensação
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953959/phkoayerjgqji2yf9kam.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/NairobiKizombaSensacao
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/463607429395271/
+facebookId: "463607429395271"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: " ✺ Nairobi Kizomba Sensação ✺ March 14 - 16 | 2025 "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1741968000000+ChIJp0lN2HIRLxgRTJKXslQCz_c
+startDate: 1741968000000
+id: An99gjgXHqWcDD5PfgLi

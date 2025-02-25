@@ -1,0 +1,427 @@
+endDate: 1766692800000
+sourceUrl: https://www.facebook.com/events/791238986310612/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1716390178000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726074835000
+facebookId: "791238986310612"
+facebook: https://www.facebook.com/events/791238986310612/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/368464129557081
+  - https://www.facebook.com/events/368464129557081
+  - https://www.facebook.com/events/791238986310612/
+eventType: Concert
+providerItemId: e791238986310612@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Latin Fusion Congress - Weekend 2 - 20-22 September, Bucharest
+location: Palace of the Parliament
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1766592000000
+facebookUrlsCount: 3
+username: Aina
+venue:
+  formatted_address: Strada Izvor 2-4, București, Romania
+  website: https://cic.cdep.ro/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png
+  name: Palace of Parliament
+  geometry:
+    viewport:
+      southwest:
+        lng: 26.0861049697085
+        lat: 44.42674965
+      northeast:
+        lng: 26.0888029302915
+        lat: 44.42976505
+    location:
+      lng: 26.08735059999999
+      lat: 44.4275035
+  address_components:
+    - types:
+        - street_number
+      short_name: 2-4
+      long_name: 2-4
+    - types:
+        - route
+      short_name: Strada Izvor
+      long_name: Strada Izvor
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bucureşti Sectorul 5
+      long_name: Bucureşti Sectorul 5
+    - types:
+        - locality
+        - political
+      short_name: București
+      long_name: București
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Municipiul București
+      long_name: Municipiul București
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: București
+      long_name: București
+    - types:
+        - country
+        - political
+      short_name: RO
+      long_name: Romania
+  international_phone_number: +40 733 558 102
+  place_id: ChIJwSjue0L_sUAR3K2rAviJECs
+  url: https://maps.google.com/?cid=3103131841547972060
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417896231
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/LatinFusionCongress
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417896/ao9pzmobn0jf4nxcinm8.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417896231
+  owned: false
+  name: Latin Fusion Congress
+  place: ChIJT608vzr5sUARKKacfOMyBqw
+  updatedAt: 1728417896231
+  username: LatinFusionCongress
+claimed: No
+link: https://primevents.ro/latinfusioncongress/
+description: >-
+  (EN)
+
+
+  🔥 𝗚𝗲𝘁 𝗿𝗲𝗮𝗱𝘆 𝘁𝗼 𝘀𝗲𝘁 𝘁𝗵𝗲 𝗱𝗮𝗻𝗰𝗲 𝗳𝗹𝗼𝗼𝗿 𝗼𝗻 𝗳𝗶𝗿𝗲 𝗮𝘁 𝗟𝗮𝘁𝗶𝗻 𝗙𝘂𝘀𝗶𝗼𝗻 𝗖𝗼𝗻𝗴𝗿𝗲𝘀𝘀 - 𝗪𝗲𝗲𝗸𝗲𝗻𝗱 𝟮! 🔥
+
+
+  Latin Fusion Congress is Bucharest's premier Latin dance festival, a vibrant celebration of Latin music, dance, and culture. Organized by Aiu Dance and PrimEvents, we aim to create an unforgettable experience for both seasoned dancers and newcomers alike, fostering a passionate community of Latin dance enthusiasts.
+
+
+  –
+
+
+  📅 𝗪𝗵𝗲𝗻:
+
+  20-22 September 2024
+
+
+  –
+
+
+  📍 𝗪𝗵𝗲𝗿𝗲:
+
+  The most prestigious venue in Bucharest, providing a stunning backdrop for your Latin dance adventure: Palace of the Parliament.
+
+
+  –
+
+
+  𝗪𝗵𝗮𝘁 𝘁𝗼 𝗲𝘅𝗽𝗲𝗰𝘁:
+
+
+  🔥 3 days of dance & music
+
+  🔥 World-class performances by of over 35 international artists
+
+  🔥 Workshops for all levels that will help you refine your technique in Salsa, Bachata, and Kizomba
+
+  🔥 Latino social evenings and shows, held by internationally renowned renowned artists, DJs, and live bands
+
+  🔥 Delicious food and drinks
+
+  🔥 Socializing and networking with fellow dancers to make lasting memories
+
+
+  —
+
+
+  𝗧𝗵𝗲 𝗺𝗼𝘀𝘁 𝗮𝗺𝗮𝘇𝗶𝗻𝗴 𝗹𝗶𝗻𝗲𝘂𝗽:
+
+
+  ⭐ Adrian & Anita
+
+  ⭐ Abdel & Lety
+
+  ⭐ Nelson & Morgane
+
+  ⭐ Albir Rojas
+
+  ⭐ Jp & Stephy
+
+  ⭐ Juan & Sara
+
+  ⭐ Or & Reute
+
+  ⭐ Alessio & Natalia
+
+  ⭐ Mario & Chiara
+
+  ⭐ Franco Rocha
+
+  ⭐ Stefanny Moreno
+
+  ⭐ Asia Voronova
+
+  ⭐ Mame Diata
+
+  ⭐ Andres & Yessica
+
+  ⭐ Jorge & Aroa
+
+
+  🎧 DJ Albir Rojas
+
+  🎧 DJ Ramon
+
+  🎧 DJ Manuel Citro
+
+  🎧 DJ F.A.Z.E
+
+  🎧 DJ Remcy
+
+  🎧 DJ Dia
+
+  🎧 DJ Andu
+
+  🎧 DJ Romy
+
+  🎧 MR DJ
+
+
+  🎵 Concert Grupo Extra
+
+
+  —
+
+
+  𝗧𝗶𝗰𝗸𝗲𝘁𝘀:
+
+
+  🎟️ Full Pass - Weekend 2
+
+  105€ - until 30.06
+
+  120€ - until 01.08
+
+  140€ - until 19.09
+
+  160€ - until 22.09
+
+
+  🎟️ Party Pass - Weekend 2
+
+  98€ - until 30.06
+
+  105€ - until 01.08
+
+  120€ - until 19.09
+
+  140€ - until 22.09
+
+
+  🎟️ One Day Party Pass
+
+  70€ - until 30.06
+
+  75€ - until 01.08
+
+  80€ - until 19.09
+
+  85€ - until 22.09
+
+
+  Check out 𝗪𝗲𝗲𝗸𝗲𝗻𝗱 𝟭 of Latin Fusion Congress 13-15 September 2024: https://www.facebook.com/events/368464129557081
+
+
+  —
+
+
+  Don't miss this chance to dance, learn, and connect with fellow Latin dance enthusiasts!
+
+
+  🎟️ 𝗚𝗲𝘁 𝘆𝗼𝘂𝗿 𝘁𝗶𝗰𝗸𝗲𝘁𝘀 𝘁𝗼𝗱𝗮𝘆!
+
+  🌐 Official website: www.primevents.ro/latinfusioncongress-en
+
+
+  📸 𝗙𝗼𝗹𝗹𝗼𝘄 𝘂𝘀 𝗼𝗻 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺: @LatinFusionCongress
+
+
+  For questions, please get in touch with us:
+
+  ► Whatsapp / Phone: +40 786 773 344 or +40 784 443 344
+
+
+  —
+
+
+  (RO)
+
+
+  🔥 𝗣𝗿𝗲𝗴𝗮̆𝘁𝗲𝘀̦𝘁𝗲-𝘁𝗲 𝗽𝗲𝗻𝘁𝗿𝘂 𝗼 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝘁̦𝗮̆ 𝗱𝗲 𝗻𝗲𝘂𝗶𝘁𝗮𝘁 𝗹𝗮 𝗟𝗮𝘁𝗶𝗻 𝗙𝘂𝘀𝗶𝗼𝗻 𝗖𝗼𝗻𝗴𝗿𝗲𝘀𝘀 - 𝗪𝗲𝗲𝗸𝗲𝗻𝗱 𝟮! 🔥
+
+
+  Latin Fusion Congress este printre cele mai mari festivaluri de dans latino din București, care te invită să celebrezi muzica, dansul și cultura latino. Organizat de Aiu Dance și PrimEvents, festivalul oferă o experiență de neuitat atât pentru dansatorii experimentați, cât și pentru noii veniți, încurajând o comunitate pasionată de entuziaști ai dansului latino.
+
+
+  -
+
+
+  📅 𝗖𝗮̂𝗻𝗱?
+
+  20-22 septembrie 2024
+
+
+  -
+
+
+  📍 𝗨𝗻𝗱𝗲?
+
+  Palatul Parlamentului, București
+
+
+  -
+
+
+  𝗟𝗮 𝗰𝗲 𝘀𝗮̆ 𝘁𝗲 𝗮𝘀̦𝘁𝗲𝗽𝘁̦𝗶:
+
+
+  ❤️‍🔥 Peste 36 de ore de ateliere de dans Salsa, Bachata și Kizomba
+
+  ❤️‍🔥 Două săli de dans care vibrează cu energia muzicii latino autentice
+
+  ❤️‍🔥 Spectacole de neuitat susținute de dansatori de talie mondială
+
+  ❤️‍🔥 Workshop-uri pentru toate nivelurile pentru a vă perfecționa abilitățile și a învăța mișcări noi
+
+  ❤️‍🔥 Serate sociale și spectacole latino, susținute de artiști de renume internațional, DJ și trupe live
+
+
+  –
+
+
+  𝗖𝗲𝗹 𝗺𝗮𝗶 𝗮𝘀̦𝘁𝗲𝗽𝘁𝗮𝘁̦𝗶 𝗮𝗿𝘁𝗶𝘀̦𝘁𝗶:
+
+
+  ⭐ Adrian & Anita
+
+  ⭐ Abdel & Lety
+
+  ⭐ Nelson & Morgane
+
+  ⭐ Albir Rojas
+
+  ⭐ Jp & Stephy
+
+  ⭐ Juan & Sara
+
+  ⭐ Or & Reute
+
+  ⭐ Alessio & Natalia
+
+  ⭐ Mario & Chiara
+
+  ⭐ Franco Rocha
+
+  ⭐ Stefanny Moreno
+
+  ⭐ Asia Voronova
+
+  ⭐ Mame Diata
+
+  ⭐ Andres & Yessica
+
+  ⭐ Jorge & Aroa
+
+
+  🎧 DJ Albir Rojas
+
+  🎧 DJ Ramon
+
+  🎧 DJ Manuel Citro
+
+  🎧 DJ F.A.Z.E
+
+  🎧 DJ Remcy
+
+  🎧 DJ Dia
+
+  🎧 DJ Andu
+
+  🎧 DJ Romy
+
+  🎧 MR DJ
+
+
+  🎵 Concert Grupo Extra
+
+
+  —
+
+
+  Rezervă-ți locul acum și alătură-te nouă pentru trei zile de distracție și dans la cel mai înalt nivel!
+
+
+  🎟️ 𝗜𝗮-𝘁̦𝗶 𝗯𝗶𝗹𝗲𝘁𝗲 𝗮𝘀𝘁𝗮̆𝘇𝗶!
+
+  https://primevents.ro/latinfusioncongress/
+
+
+  –
+
+
+  Descoperă 𝗪𝗲𝗲𝗸𝗲𝗻𝗱-𝘂𝗹 𝟭 Latin Fusion Congress - 13-15 septembrie 2024: https://www.facebook.com/events/368464129557081
+
+
+  –
+
+
+  📸 𝗥𝗮̆𝗺𝗮̂𝗶 𝗹𝗮 𝗰𝘂𝗿𝗲𝗻𝘁 𝗰𝘂 𝗻𝗼𝘂𝘁𝗮̆𝘁̦𝗶𝗹𝗲 𝗽𝗲 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺: @LatinFusionCongress
+
+
+  –
+
+
+  Pentru întrebări, contactează-ne:
+
+  ► Whatsapp / Telefon: +40 786 773 344 sau +40 784 443 344
+
+
+  Școlile de dans ne pot contacta pentru colaborări la numerele de telefon de mai sus.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417897/g09xhvirlxaov96e3g4n.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJT608vzr5sUARKKacfOMyBqw
+international: No
+hash: 1766592000000+ChIJwSjue0L_sUAR3K2rAviJECs
+id: bUhW9hCzGBDStJCy0H3l

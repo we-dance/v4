@@ -1,0 +1,149 @@
+venue:
+  formatted_address: Frankenthaler Str. 20A, 81539 München, Germany
+  website: http://www.danceandfight.de/
+  name: dance and fight club
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5997992302915
+      south: 48.1073940697085
+      north: 48.1100920302915
+      west: 11.5971012697085
+    location:
+      lng: 11.598432
+      lat: 48.1086507
+  address_components:
+    - types:
+        - street_number
+      short_name: 20A
+      long_name: 20A
+    - types:
+        - route
+      short_name: Frankenthaler Str.
+      long_name: Frankenthaler Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ramersdorf-Perlach
+      long_name: Ramersdorf-Perlach
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81539"
+      long_name: "81539"
+  url: https://maps.google.com/?cid=5623205681418736011
+  international_phone_number: +49 89 7460397
+  place_id: ChIJOSg_x4XfnUcRixHsM8ajCU4
+updatedBy: GfThleiYnoZ6wmgwsXXU9tm9PMf1
+visibility: Public
+org:
+  role: organiser
+  name: muniquedancaforro
+  photo: ""
+  username: muniquedancaforro
+endDate:
+  _seconds: 1656806400
+  _nanoseconds: 0
+claimed: No
+eventType: Concert
+type: event
+duration: "300"
+createdAt: 1656153388735
+form: No
+watch:
+  count: 1
+  list:
+    muniquedancaforro: true
+createdBy: GfThleiYnoZ6wmgwsXXU9tm9PMf1
+artists:
+  - instagram: trioalvorada
+    username: trioalvorada
+price: 25 EUR
+artistsList:
+  - trioalvorada
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+startDate: 2022-07-02T21:00
+updatedAt: 1656153388735
+username: muniquedancaforro
+star:
+  count: 0
+  list: {}
+promo: Yes
+facebook: https://facebook.com/events/s/trio-alvorada-em-munique/520854339728585/
+link: https://muniquedancaforro.de/anmeldung/en/konzert-220702
+name: Trio Alvorada - Forró live
+description: >-
+  Since 2004, the trio Alvorada has been delighting audiences wherever they go.
+  In September 2015, the band went on their 1st international tour and the
+  success was so great that the trio has already returned to the old continent
+  for five more tours. 
+
+
+
+
+  WHEN:
+
+
+  Saturday, 02 July 2022
+
+
+  doors open 9 pm
+
+
+  Concert starts approx. 10 p.m.
+
+
+  End 2 am
+
+   
+
+  WHERE:
+
+
+  Dance and Fight Club
+
+
+  Frankenthaler Str. 20A
+
+
+  Giesinger train station S3 / S7 / U2
+
+   
+
+  PRICE
+
+
+  Ticket 25 EUR / 20 EUR reduced
+online: No
+id: kc0qEceBZXhZHOLlMPFf
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGfThleiYnoZ6wmgwsXXU9tm9PMf1%2Fecf1d3d8-b86e-4f48-ba50-9050b4f9e4f3?alt=media&token=73adb51d-e795-468a-b6cb-d6db6dcd8994
+styles: {}
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fkc0qEceBZXhZHOLlMPFf.png?generation=1656164902438666&alt=media
+viewsCount: 39

@@ -1,0 +1,138 @@
+importedAt: 1707432018173
+providerUpdatedAt:
+  _seconds: 1705412044
+  _nanoseconds: 0
+facebookId: "1057592915496176"
+facebook: https://www.facebook.com/events/1057592915496176/
+eventType: Party
+createdAt: 1707432018173
+providerItemId: e1057592915496176@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: b9qKJAhZFcl0pAO3urIE
+name: Salsaparty in der Lille Brauerei
+location: Lillebräu
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1707432018173
+username: alexrazbakov
+venue:
+  formatted_address: Eichkamp 9c, 24116 Kiel, Germany
+  website: https://lillebraeu.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Lille Brauerei & Schankraum
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.1091896697085
+        lat: 54.3310556197085
+      northeast:
+        lng: 10.1118876302915
+        lat: 54.3337535802915
+    location:
+      lng: 10.1108807
+      lat: 54.3325407
+  address_components:
+    - types:
+        - street_number
+      short_name: 9c
+      long_name: 9c
+    - types:
+        - route
+      short_name: Eichkamp
+      long_name: Eichkamp
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schreventeich/Hasseldieksdamm
+      long_name: Schreventeich/Hasseldieksdamm
+    - types:
+        - locality
+        - political
+      short_name: KI
+      long_name: Kiel
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kiel
+      long_name: Kiel
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SH
+      long_name: Schleswig-Holstein
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "24116"
+      long_name: "24116"
+  international_phone_number: +49 431 90889784
+  place_id: ChIJmdBwXAxWskcRbVx2P_d43bk
+  url: https://maps.google.com/?cid=13392993870186699885
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707432026404
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsaammeer
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707432026/huy6376ur3cqqqfaw5lr.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707432026404
+  owned: false
+  name: Salsa am Meer
+  place: ChIJrZfujw1WskcRIANYxmOJJAQ
+  updatedAt: 1707432026404
+  username: salsa.am.meer
+claimed: No
+link: ""
+description: >
+  Aktuellste Salsa und Evergreens aus der Karibik, Timba, Salsaton, Bachata und
+  Reggaeton gibt es in dieser tollen Location am 13.04.2024. Von 20.00 - 21.00
+  Uhr gibt es einen Workshop Open Level für Salsa und Bachata, damit alle
+  mittanzen können. Und um 21.00 Uhr startet dann die Party. Es gibt leckeres
+  selbstgebrautes Kieler Bier und selbstverständlich auch andere Getränke.
+  Eintritt 8,- Euro.  
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707432027/gxhszf7falvexrdw5osz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+international: No
+hash: 1713031200000+ChIJmdBwXAxWskcRbVx2P_d43bk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FUMWDwvsoMhEyznXRYNtM.png?generation=1707432038390366&alt=media
+endDate: 1713049200000
+providerCreatedAt: 1705412044000
+startDate: 1713031200000
+viewsCount: 14
+id: UMWDwvsoMhEyznXRYNtM

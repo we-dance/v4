@@ -1,0 +1,116 @@
+endDate: 1746395700000
+sourceUrl: https://www.facebook.com/events/1127761925212826/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714844680000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1714844680000
+facebookId: "1127761925212826"
+facebook: https://www.facebook.com/events/1127761925212826/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1127761925212826/
+eventType: Party
+providerItemId: e1127761925212826@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 𝔽𝔼𝔼𝕃𝕀ℕ𝔾 𝕂𝕀ℤ𝕆𝕄𝔹𝔸 𝔽𝔼𝕊𝕋𝕀𝕍𝔸𝕃 𝟚𝟘𝟚𝟝
+location: Evenia Olympic Resort
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1746021600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Edificio Park, Carrer Senyora de Rossell, 35, 17310 Lloret de
+    Mar, Girona, Spain
+  website: https://es.eveniahotels.com/playa/lloret-de-mar/evenia-olympic-park?utm_source=Google+My+Business&utm_medium=Ficha&utm_campaign=Evenia+Olympic+Park
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Evenia Olympic Park
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.835963319708498
+        lat: 41.70316656970851
+      northeast:
+        lng: 2.838661280291502
+        lat: 41.70586453029151
+    location:
+      lng: 2.8373372
+      lat: 41.70444860000001
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Edificio Park
+      long_name: Edificio Park
+    - types:
+        - street_number
+      short_name: "35"
+      long_name: "35"
+    - types:
+        - route
+      short_name: Carrer Senyora de Rossell
+      long_name: Carrer Senyora de Rossell
+    - types:
+        - locality
+        - political
+      short_name: Lloret de Mar
+      long_name: Lloret de Mar
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: GI
+      long_name: Girona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "17310"
+      long_name: "17310"
+  international_phone_number: +34 972 36 58 20
+  place_id: ChIJcd4lLT4XuxIR1wZu-021tvo
+  url: https://maps.google.com/?cid=18065826301778724567
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bsk.dancer.7
+  name: Bsk Dancer
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224698/rp3yqamxj4ryjrb8ezui.jpg
+  bio: ""
+  id: Jnvdhp14DH246WzbQHvf
+  instagram: ""
+  username: bsk.dancer.7
+claimed: No
+link: ""
+description: https://lasalsadelbaile.com/Feeling2025?ref=BSKDANCER
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417903/amuobcap35lwr9qfil5h.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJWXoHhwcXuxIReIzmpj3vc5I
+international: No
+hash: 1746021600000+ChIJcd4lLT4XuxIR1wZu-021tvo
+id: u5HgrLv2abrTjWHM6aeO

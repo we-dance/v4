@@ -1,0 +1,240 @@
+venue:
+  website: http://www.tanzschule-tanzraum.de/
+  formatted_address: Salierring 33, 50677 Köln, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "33"
+      short_name: "33"
+    - types:
+        - route
+      long_name: Salierring
+      short_name: Salierring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Innenstadt
+      short_name: Innenstadt
+    - types:
+        - locality
+        - political
+      long_name: Köln
+      short_name: Köln
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Köln
+      short_name: Kreisfreie Stadt Köln
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Köln
+      short_name: K
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Nordrhein-Westfalen
+      short_name: NRW
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "50677"
+      short_name: "50677"
+  url: https://maps.google.com/?cid=8536046700639217950
+  name: Tanzschule tanzraum Köln Zentrum
+  geometry:
+    viewport:
+      south: 50.9259685197085
+      north: 50.9286664802915
+      east: 6.945530880291503
+      west: 6.942832919708498
+    location:
+      lng: 6.944104800000001
+      lat: 50.927315
+  international_phone_number: +49 221 233233
+  place_id: ChIJjVZ9yVUkv0cRHum-kT8hdnY
+endDate: 2021-09-04T23:30:00.000Z
+link: https://www.eventbrite.de/e/fiesta-dominicana-workshops-exclusive-practice-night-junior-gaetana-tickets-163868638509?aff=erelexpmlt&fbclid=IwAR1fbFcmdZ0aErjHKm8eesbq2vk0NMpo6fKw77s8CJL21oXfBZfUsxGZdPc
+description: >-
+  English - (Deutsch Unten)
+
+
+  Welcome to the September edition of Fiesta Dominicana !
+
+
+  Highlights
+
+  - 70% Bachata music | 30% Merengue & Salsa 
+
+  - Air Conditioned Rooms 
+
+  - We can change partners 
+
+  - Workshops with International teachers – Junior & Gaetana (from Netherlands / DR / Italy)
+
+  - Music by DJ Prachi, an official DJ of World Salsa Radio 
+
+
+  Corona 
+
+  Health is a priority. Hence we can allow entry only for - 
+
+  - Fully vaccinated people (please carry proof) 
+
+  - Fully recovered people (please carry proof) 
+
+  - Tested with NEGATIVE result (please carry proof) 
+
+
+  Program 
+
+  19.00 - Doors open 
+
+  19.30 to 21.30 - Bachata workshops with Junior & Gaetana
+
+  21.30 to 1.30 Practice night with DJ Prachi 
+
+
+  Prices - 
+
+  Online Pre-Sale (Limited Tickets) 
+
+  Workshops including Practice Night - €25 
+
+  Practice night without workshops - €10 
+
+  At the door sales (subject to availability) 
+
+  Workshops including Practice Night - €35 
+
+  Practice night without workshops - €15 
+
+
+  https://www.eventbrite.de/e/fiesta-dominicana-workshops-exclusive-practice-night-junior-gaetana-tickets-163868638509?aff=erelexpmlt
+
+
+  Venue - 
+
+  Tanzschule Tanzraum, 
+
+  Salierring 33 
+
+  50677 Cologne 
+
+  We are waiting for you! ❤ 
+
+
+  Deutsch - 
+
+  Willkommen zur September-Ausgabe der Fiesta Dominicana
+
+
+  Highlights 
+
+  - 70% Bachata-Musik | 30% Merengue & Salsa 
+
+  - Klimatisierte Räume 
+
+  - Partnerwechsel möglich 
+
+  - Workshops mit Internationalen Tanzlehrern – Junior und Gaetana (Niederlande / DR / Italien)
+
+  - Musik von DJ Prachi, einem offiziellen DJ von World Salsa Radio 
+
+
+  Corona 
+
+  Gesundheit hat Priorität. Daher können wir die Teilnahme ermöglichen für - 
+
+  - Vollständig geimpfte Personen (bitte Nachweis mitführen) 
+
+  - vollständig genesene Personen (bitte Nachweis mitführen) 
+
+  - Getestete Personen mit einem NEGATIVEN Ergebnis (bitte Nachweis mitführen) 
+
+
+  Programm 
+
+  19.00 - Einlass 
+
+  19.30 bis 21.30 Uhr - Bachata Workshops mit Junior und Gaetana 
+
+  21.30 bis 1.30 Uhr - Übungsabend mit DJ Prachi 
+
+
+  Preise - 
+
+  Online-Vorverkauf (Limitierte Tickets) 
+
+  Workshops inklusive Practice Night - 25 € 
+
+  Practice Night ohne Workshops - 10 € 
+
+  An der Abendkasse (nach Verfügbarkeit) 
+
+  Workshops inklusive Practice Night - 35 € 
+
+  Practice Night ohne Workshops - 15 €
+
+
+  https://www.eventbrite.de/e/fiesta-dominicana-workshops-exclusive-practice-night-junior-gaetana-tickets-163868638509?aff=erelexpmlt
+
+
+  Ort - 
+
+  Tanzschule Tanzraum, 
+
+  Salierring 33 
+
+  50677 Köln 
+
+  Wir warten und freuen uns auf dich ❤
+type: event
+promo: Yes
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh31z2ww5PDeFB9IeguK1cb3fSqx1%2F93682f2a-6fcd-48bb-9b54-d4685c081c09?alt=media&token=1b57eba8-39bc-44ee-b7c6-788ed5e6d24d
+createdAt: 1629980094671
+watchersCount: 0
+price: "According to requirement "
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQbQ33x1s3M8HZAT7qTd4.png?generation=1629980220731921&alt=media
+commentsLast: ~
+id: QbQ33x1s3M8HZAT7qTd4
+place: ""
+views: 8
+updatedAt: 1629980094671
+updatedBy: h31z2ww5PDeFB9IeguK1cb3fSqx1
+visibility: Public
+eventType: Workshop
+organiser: Bhavinandsoonruta
+form: Yes
+createdBy: h31z2ww5PDeFB9IeguK1cb3fSqx1
+commentsCount: 0
+name: Fiesta Dominicana
+online: No
+styles:
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-04T17:00:00.000Z
+username: Bhavinandsoonruta
+viewsCount: 11

@@ -1,0 +1,164 @@
+endDate: 1724974200000
+sourceUrl: https://www.facebook.com/events/513676331205927/513676334539260
+createdAt: 1724767228004
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1724744258000
+updatedAt: 1724767228004
+importedAt: 1724767228004
+providerUpdatedAt: 1724744258000
+facebookId: "513676334539260"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/513676331205927/513676334539260
+eventType: Party
+providerItemId: 47890-1724961600-1724974200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Fire Étterem, Margitsziget, Budapest, 1138, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724961600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Margitsziget 1007 Hrsz-23800/8, 1007 Hungary
+  website: https://firelounge.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Fire Étterem
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.04207981970849
+        lat: 47.5145611197085
+      northeast:
+        lng: 19.0447777802915
+        lat: 47.5172590802915
+    location:
+      lng: 19.0434288
+      lat: 47.5159101
+  address_components:
+    - types:
+        - subpremise
+      short_name: 23800/8
+      long_name: 23800/8
+    - types:
+        - street_number
+      short_name: 1007 Hrsz
+      long_name: 1007 Hrsz
+    - types:
+        - route
+      short_name: Margitsziget
+      long_name: Margitsziget
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1007"
+      long_name: "1007"
+  international_phone_number: +36 70 668 9748
+  place_id: ChIJkbsfLKDdQUcRkm7jdZc6kMA
+  url: https://maps.google.com/?cid=13875654874120810130
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  id: nD23oRVHFCEDLp84nONP
+  instagram: ""
+  username: mimusica.djtombao
+claimed: No
+facebook: https://www.facebook.com/events/513676331205927/?event_time_id=513676334539260
+link: ""
+description: >-
+  2X Csütörtök-Thursday in FIRE Restaurant × Margitsziget
+
+  Duna-parti party: Salsa, bachata y mas con DJ Tombao
+
+
+  Két alkalommal táncolunk a Fire étterem teraszán, közvetlenül a Duna felett. Duna-parti partyra készüljetek és a sportcipőt se hagyjátok otthon :) Tali a Margitszigeten!
+
+
+  Augusztus 29-én és szeptember 5-én megmutatjuk a Fire-nek, milyen amikor a salsások és a bachatások "kirúgják a ház oldalát" - persze, azért a Duna habjai ne legyenek túl csábítóak... Inkább nyúlj egy jéghideg frissítőért a bárból!
+
+
+  Start: 20:00, Vége: 23:30
+
+  Belépő: 2000 Ft
+
+
+  Szeretettel várunk!
+
+
+  ui: Kérünk, ne hozz magaddal enni- és innivalót a vendéglátóhelyre! Főként pedig ne fogyaszd el!
+
+  ui2: Sportcipős a táncparkett, erre kérlek gondolj előre!
+
+  ui3: Amennyiben megváltod a belépőjegyet, azzal beleegyezel, hogy a helyszínen, a rendezvény ideje alatt fénykép és videó felvétel készülhet rólad, amelyet a szervezők felhasználhatnak és publikálni fognak.
+
+
+
+  ENGLISH:
+
+
+  We dance twice on the terrace of the Fire Restaurant, directly above the Danube. Get ready for a party on the Danube side and don't leave your sneakers at home :) See you at Margaret Island!
+
+
+  On 29 August and 5 September, we'll show Fire Restaurant what it's like when salsa and bachata dancers "jump around set the roof on fire" - of course, the waves of the river shouldn't be too tempting... Grab an ice-cold refreshment from the bar instead!
+
+
+  Start: 20:00, End: 23:30
+
+  Entrance fee: 2000 Ft
+
+
+  Welcome with great love!
+
+
+  ps: Please do not bring any food or drink to the restaurant! In particular, do not eat or drink it!
+
+  ps2: The dancefloor is for sports shoes, please bring your sneakers!
+
+  ps3: If you buy the ticket and enter the venue, you automatically agree that you may be photographed and videoed on site during the event, which may be used and published by the organisers.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724767241/eceur9knboolois85tgu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: FIRE étterem Salsa-Bachata × Duna-parti party × 08.29-09.05 csüt-thursday
+  × DJ Tombao × Margitsziget
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1724954400000+ChIJkbsfLKDdQUcRkm7jdZc6kMA
+id: qlKb9pJ2tkrZbZ1VnMwW

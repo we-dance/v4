@@ -1,0 +1,161 @@
+endDate: 1742785200000
+sourceUrl: https://www.facebook.com/events/1044133873351737/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709315075000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727452380000
+facebookId: "1044133873351737"
+facebook: https://www.facebook.com/events/1044133873351737/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1044133873351737/
+eventType: Festival
+providerItemId: e1044133873351737@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Amsterdam Salsa Weekend 2025
+location: Amsterdam, Netherlands
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1742562000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Amsterdam, Netherlands
+  website: http://www.amsterdam.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Amsterdam
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.728758907897226
+        lat: 52.27817400646919
+      northeast:
+        lng: 5.079161944314914
+        lat: 52.43115725350791
+    location:
+      lng: 4.9041389
+      lat: 52.3675734
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Government of Amsterdam
+      long_name: Government of Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: North Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+  place_id: ChIJVXealLU_xkcRja_At0z9AGY
+  url: https://maps.google.com/?q=Amsterdam,+Netherlands&ftid=0x47c63fb5949a7755:0x6600fd4cb7c0af8d
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417907937
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/amsterdamsalsaweekend
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417908/k6esy01g3hsivmav6soh.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417907937
+  owned: false
+  name: Amsterdam Salsa Weekend
+  place: ChIJVXealLU_xkcRja_At0z9AGY
+  updatedAt: 1728417907937
+  username: amsterdam.salsa.week
+claimed: No
+link: https://shop.eventix.io/4514ece2-dfcd-11ee-a9cb-7e126431635e/tickets
+description: >-
+  ⚠️Warning: This event is made for hardcore social dancers only!!!
+
+
+  Ready for dancing your heart out for 36 hours long in the center of Amsterdam?
+
+
+  Some say “Marathon”, others say “Festival”. We say: “200 like minded people coming together for sharing their passion: SALSA”
+
+
+  💥3Days - 200Dancers - 6 TopNotch International DJs💥
+
+
+  🏰 Historic venue in Amsterdam Center (in front of AMS Centraal -central train station)
+
+
+  ➕Must have drinks & tasty bites on the house🙌
+
+
+  Expect an elegant atmosphere with a solid level of dancing! 
+
+
+  ⭐️⭐️⭐️DJ Line Up⭐️⭐️⭐️
+
+
+  DJ DMITRI 🇯🇴🇩🇪
+
+  DJ MARTINA 🇮🇹🇬🇧
+
+  DJ PATRICK El Clasico🇨🇭
+
+  DJ VITO 🇪🇸🇳🇱
+
+  DJ SERGI 🇵🇹🇫🇷
+
+  DJ ALEX GEE 🇨🇴
+
+
+  🎥 STARMAMBO Steve behind the camera recording unforgettable dances!
+
+
+  🎟️  TICKETS  🎟️
+
+
+  LIMITED number of tickets are available please get your ticket in advance to avoid sold out🙏🏽
+
+  🚨Prices go up: January 2025
+
+
+  Link in bio or visit our website: 
+
+  www. amsterdamsalsaweekend .com
+
+
+
+
+  Any questions? We are here!
+
+
+  Follow us for more updates…
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417909/otnqnhps7asfudkav1ce.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJVXealLU_xkcRja_At0z9AGY
+international: No
+hash: 1742562000000+ChIJVXealLU_xkcRja_At0z9AGY
+id: EZ2Iyok8RxoLcUjRUDOH

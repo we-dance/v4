@@ -1,0 +1,112 @@
+venue:
+  formatted_address: Literaturna St, 12, Odesa, Odes'ka oblast, Ukraine, 65000
+  name: Park Yunist
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 30.7636889802915
+      south: 46.4194345697085
+      north: 46.4221325302915
+      west: 30.7609910197085
+    location:
+      lng: 30.7623029
+      lat: 46.4208163
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Literaturna St
+      long_name: Literaturna Street
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Prymorsk Raion
+      long_name: Prymorsk Raion
+    - types:
+        - locality
+        - political
+      short_name: Odesa
+      long_name: Odesa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Odes'ka city council
+      long_name: Odes'ka city council
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Odes'ka oblast
+      long_name: Odes'ka oblast
+    - types:
+        - country
+        - political
+      short_name: UA
+      long_name: Ukraine
+    - types:
+        - postal_code
+      short_name: "65000"
+      long_name: "65000"
+  url: https://maps.google.com/?cid=13143768217637468555
+  place_id: ChIJf6CC53s0xkARi7lZJo4LaLY
+endDate:
+  _seconds: 1656784800
+  _nanoseconds: 0
+claimed: No
+description: |-
+  Літня практика у Парку Юність! Одеса
+
+  Bachata Kizomba
+  По суботах і неділях 
+  Старт о 17:00
+  Вхід вільний
+  Майданчик 8Ф
+  8 Ст.Фонтану
+
+  Instagram 
+  @kizomba_odessa
+  Telegram
+  @wedanceodesa
+type: event
+duration: "240"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F2QyKbtEd2kXGacTHBc5pUzl40q73%2Fedfcf4e8-7ef7-43f0-aa74-b6a689e6fc76?alt=media&token=484b61ee-9104-473a-b134-629d4d085018
+promo: Yes
+createdAt: 1656340050303
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJQ0yGC4oxxkARbBfyjOKPnxI
+international: Yes
+updatedAt: 1656340050303
+updatedBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+visibility: Public
+org:
+  instagram: kizomba_odessa
+  username: kizomba_odessa
+eventType: Course
+form: No
+createdBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+watch:
+  count: 1
+  list:
+    undefined: true
+name: Kiz for Peace
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-02T17:00
+username: milamazurmusic
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNUs3a5ZwRWtt4IqFfWds.png?generation=1656340069312412&alt=media
+viewsCount: 56
+id: NUs3a5ZwRWtt4IqFfWds

@@ -1,0 +1,115 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "40"
+      short_name: "40"
+    - types:
+        - route
+      long_name: Barer Straße
+      short_name: Barer Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80333"
+      short_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      south: 48.1457500697085
+      north: 48.1484480302915
+      east: 11.5730605802915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+description: ""
+type: event
+duration: custom
+cover: ""
+createdAt: 1629632964764
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 65dHYyvAXRfpHMD7bmwf
+updatedAt: 1629632964764
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa and Bachata Party
+online: No
+styles:
+  Timba:
+    level: Interested
+    selected: true
+  BachataModerna:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+username: Vitali
+viewsCount: 25

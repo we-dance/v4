@@ -1,0 +1,26 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631831038457
+locales:
+  de: true
+createdBy: YOf9h69XFyWsykyoy1UjVRjXSJA2
+pwaUsed: false
+name: Jorge
+username: jjorge
+gender: Male
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+step: photo
+updatedAt: 1631831065764
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: ""
+photo: ""
+lastLoginAt: 1639396013510
+daysUsed: 36
+id: YOf9h69XFyWsykyoy1UjVRjXSJA2

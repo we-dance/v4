@@ -1,0 +1,84 @@
+endDate: 2023-02-27T19:00
+claimed: No
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7hrSfRTIylew2UbvgK9peYM6l492%2Ffa5e0fec-efbb-4cf9-936c-f286b64f1a71?alt=media&token=1c2b76eb-4d78-41e7-99a8-20dbb7a38336
+duration: 60
+createdAt: 1675636113052
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Ale De la Paz
+    bio: Salsa LadyStyle 💃🏾
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7hrSfRTIylew2UbvgK9peYM6l492%2F4004811b-f48c-4b62-aaa5-c6c975889e7f?alt=media&token=7c5221be-8577-4dad-8b33-3e827b585c0f
+    id: 7hrSfRTIylew2UbvgK9peYM6l492
+    instagram: https://instagram.com/@aledelapazz
+    username: Aledelapa
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - Aledelapa
+international: No
+updatedAt: 1675636113052
+updatedBy: 7hrSfRTIylew2UbvgK9peYM6l492
+visibility: Public
+eventType: Course
+form: No
+createdBy: 7hrSfRTIylew2UbvgK9peYM6l492
+name: Salsa LadyStyle
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-06T19:00
+username: Aledelapa
+id: pTQQW1qbhrNAoGFu0CKH
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Ale De la Paz
+  bio: Salsa LadyStyle 💃🏾
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7hrSfRTIylew2UbvgK9peYM6l492%2F4004811b-f48c-4b62-aaa5-c6c975889e7f?alt=media&token=7c5221be-8577-4dad-8b33-3e827b585c0f
+  instagram: https://instagram.com/@aledelapazz
+  id: 7hrSfRTIylew2UbvgK9peYM6l492
+  username: Aledelapaz
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpTQQW1qbhrNAoGFu0CKH.png?generation=1675697471087133&alt=media
+telegram:
+  requestedAt: 1675697477953
+  messageUrl: https://t.me/WeDanceMunich/849
+  publishedAt: 1675697485426
+  messageId: 849
+  state: published
+instagram:
+  requestedAt: 1675697486330
+  state: published
+  messageUrl: https://instagram.com/p/CoU3kcCrYU3
+  publishedAt: 1675697499994
+  messageId: CoU3kcCrYU3
+price: 47 EUR
+watch:
+  count: 3
+  list:
+    Aledelapa: true
+    Aledelapaz: true
+    Aina: true
+star:
+  count: 0
+  list: {}
+viewsCount: 23

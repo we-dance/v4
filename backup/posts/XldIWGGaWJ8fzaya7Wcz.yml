@@ -1,0 +1,132 @@
+endDate: 1727542800000
+sourceUrl: https://www.facebook.com/events/999801321634009/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1718558314000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1718558742000
+facebookId: "999801321634009"
+facebook: https://www.facebook.com/events/999801321634009/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/999801321634009/
+eventType: Party
+providerItemId: e999801321634009@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Sabor Dominicano - Bootcamp
+location: 12 Guglgasse,Wien,1110,AT
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1727514000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Guglgasse 12, 1110 Wien, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Guglgasse 12
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.4197744197085
+        lat: 48.1836087697085
+      northeast:
+        lng: 16.4224723802915
+        lat: 48.1863067302915
+    location:
+      lng: 16.4210259
+      lat: 48.1848711
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Guglgasse
+      long_name: Guglgasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Simmering
+      long_name: Simmering
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1110"
+      long_name: "1110"
+  place_id: ChIJP-YAIlUHbUcRQ8EjMmKImbE
+  url: https://maps.google.com/?q=Guglgasse+12,+1110+Wien,+Austria&ftid=0x476d07552200e63f:0xb19988623223c143
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachataconsazon
+  name: Bachata con sazon
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444474/geqveduvdlvn2ggzglfo.jpg
+  bio: ""
+  id: xkH9EyfotXLaoYbDvlC4
+  instagram: ""
+  username: bachataconsazon
+claimed: No
+link: https://www.eventbrite.at/e/sabor-dominicano-bootcamp-tickets-926925337637?aff=efbevent
+description: >-
+  Join us for the second edition of this 100% Dominican Bachata experience -
+  traditional bachata, ya tu sabe!
+
+
+  Sabor Dominicano is back!
+
+  Join us for the second edition of this 100% Dominican Bachata experience. This year we have new and familiar faces:
+
+  Junior Almanzar 🇩🇴
+
+  John and Nushi 🇧🇪
+
+  Vilmar, El Guarachero 🇪🇸
+
+  Karolina Osztoics 🇭🇺
+
+  Be ready for a lot of authentic dancing, dominican food and drinks, show and many surprises!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719270/dwv356w7gjh2sfuman68.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1727514000000+ChIJP-YAIlUHbUcRQ8EjMmKImbE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXldIWGGaWJ8fzaya7Wcz.png?generation=1718719294197912&alt=media
+id: XldIWGGaWJ8fzaya7Wcz

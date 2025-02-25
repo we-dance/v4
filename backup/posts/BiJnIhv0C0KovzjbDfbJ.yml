@@ -1,0 +1,161 @@
+endDate: 1728172799000
+sourceUrl: https://www.facebook.com/events/1465778057406090
+createdAt: 1727791244242
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1727683065000
+updatedAt: 1727791244242
+importedAt: 1727791244242
+providerUpdatedAt: 1727683065000
+facebookId: "1465778057406090"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1465778057406090
+eventType: Party
+providerItemId: 48323-1728086400-1728172799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Fire Étterem, Margitsziget, Budapest, 1138, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728086400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Margitsziget 1007 Hrsz-23800/8, 1007 Hungary
+  website: https://firelounge.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Fire Étterem
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.04207981970849
+        lat: 47.5145611197085
+      northeast:
+        lng: 19.0447777802915
+        lat: 47.5172590802915
+    location:
+      lng: 19.0434288
+      lat: 47.5159101
+  address_components:
+    - types:
+        - subpremise
+      short_name: 23800/8
+      long_name: 23800/8
+    - types:
+        - street_number
+      short_name: 1007 Hrsz
+      long_name: 1007 Hrsz
+    - types:
+        - route
+      short_name: Margitsziget
+      long_name: Margitsziget
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1007"
+      long_name: "1007"
+  international_phone_number: +36 70 668 9748
+  place_id: ChIJkbsfLKDdQUcRkm7jdZc6kMA
+  url: https://maps.google.com/?cid=13875654874120810130
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1727791260026
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/@DjAthosHU/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727791260/iht1wybvswlynw9hwhiz.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1727791260026
+  owned: false
+  name: Attila Kecskés
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1727791260026
+  username: "@DjAthosHU/"
+claimed: No
+facebook: https://www.facebook.com/events/1465778057406090/
+link: ""
+description: >-
+  SALSA DE MAGIA LAST SUMMER PARTY – OPEN AIR/Rossz idő esetén zárt teremben/
+  		
+  A táncos közönség által kedvelt Margitszigeten az egyik legromantikusabb helyszínen a FIRE ÉTTEREMBEN 10.05.-án SZOMBATON –LAST SUMMER  SALSA DE MAGIA PARTY  a legjobb latin zenékkel minden salsa rajongónak.  
+
+  Tánciskolától és tudásszinttől függetlenül szeretettel várunk.!!!
+
+
+  Budapest legjobban táncolható latin zenéi mindig az aktuális közönségre szabva.
+
+  Amire számíthatsz:
+      • 170 nm OPEN AIR TÁNCTÉR / B Opció zárt terem/
+      • Igényesen válogatott zenék
+      • vezetett ruedák
+      • minden órában hölgyválasz 
+  Nagy többségben 70 % salsa zenék szólnak majd: 
+
+  - tradicionális kubai salsák
+
+  -  átütő timbák
+
+  - ritmusos guaguanco-k
+
+  - dallamos son-ok
+
+  - vérpezsdítő salsatone-ok
+            Színesítik a programot: - 30 %
+                            - érzéki bachata-k
+  - könnyed cha-cha-cha-k
+
+  - vidám merengue-k
+  		     - szexys kizombák
+
+  Egy biztos, keveset fogsz ülni és sokat fogsz táncolni, mert a jó buli lelke a jó zene. Az eseményen kép és hangfelvétel készülhet amihez hozzájárulsz a belépő megvásárlásával.
+
+  Program:   19 :50 -        Kapunyitás
+                       20 00   -  23.59  Buli
+
+  Belépő:    2000 Ft/fő    A belépőt csak készpénzzel tudod fizetni!
+
+  Helyszín: FIRE ÉTTEREM – MARGITSZIGET ( 4, 6 Villamos megálló 100 m)
+
+  Média támogatónk: Latinfo.hu
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727791261/jzlfgutchpl48asari47.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: SALSA DE MAGIA LAST SUMMER PARTY
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1728150600000+ChIJkbsfLKDdQUcRkm7jdZc6kMA
+id: BiJnIhv0C0KovzjbDfbJ

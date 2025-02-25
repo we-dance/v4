@@ -1,0 +1,107 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bachatazoukroyals/
+sourceUrl: https://facebook.com/events/s/bachatazoukroyals-congress/1270717704118617/
+venue:
+  address_components:
+    - long_name: Freiburg im Breisgau
+      short_name: Freiburg im Breisgau
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt Freiburg im Breisgau
+      short_name: Kreisfreie Stadt Freiburg im Breisgau
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Freiburg
+      short_name: Freiburg
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Baden-Württemberg
+      short_name: BW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "79"
+      short_name: "79"
+      types:
+        - postal_code_prefix
+        - postal_code
+  formatted_address: 79 Freiburg im Breisgau, Germany
+  geometry:
+    location:
+      lat: 47.9990077
+      lng: 7.842104299999999
+    viewport:
+      northeast:
+        lat: 48.07104478669411
+        lng: 7.93083228812262
+      southwest:
+        lat: 47.90357750361994
+        lng: 7.662007828904639
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Freiburg im Breisgau
+  place_id: ChIJZdYLViYbkUcRsFffpbdrHwQ
+  url: https://maps.google.com/?q=79+Freiburg+im+Breisgau,+Germany&ftid=0x47911b26560bd665:0x41f6bb7a5df57b0
+  website: http://www.freiburg.de/
+endDate: 1761523200000
+claimed: No
+link: ""
+description: >-
+  ⚜️✨2nd Edition of the 1st German Bachata & Brazilian Zouk Congress ✨⚜️
+
+  Be part of this unique experience and safe the dates of the 24th till 27th of October 2025!
+
+
+  More informations and early bird tickets will be released soon….
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/uj3ktjyric0vkk8jswut.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJZdYLViYbkUcRsFffpbdrHwQ
+international: No
+visibility: Public
+org:
+  id: cgx1A6V6qxKILeenAATx
+  username: bachatazoukroyals
+  name: Bachatazoukroyals
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214844/affmmxjzhvotk4a5lvih.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/bachatazoukroyals
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1270717704118617/
+facebookId: "1270717704118617"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+name: BachataZoukRoyals Congress
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1761321600000+ChIJZdYLViYbkUcRsFffpbdrHwQ
+startDate: 1761321600000
+id: fnMGwr0d3cFo9u6pKlul

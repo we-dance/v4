@@ -1,0 +1,163 @@
+endDate: 1728777600000
+sourceUrl: https://www.facebook.com/events/1213157606681778/
+createdAt: 1728396087987
+approved: true
+provider: ical
+providerId: te5o6z1Subn2jDFbMi9r
+providerCreatedAt: 1728341780000
+updatedAt: 1728396087987
+importedAt: 1728396087987
+providerUpdatedAt: 1728341780000
+facebookId: "1213157606681778"
+facebook: https://www.facebook.com/events/1213157606681778/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1213157606681778/
+eventType: Festival
+providerItemId: e1213157606681778@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: LIONS NIGHT
+location: meet & DANCE - Die Tanzschule
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728754200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: meet & DANCE - Die Tanzschule GmbH
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4463653197085
+        lat: 48.2429800697085
+      northeast:
+        lng: 11.4490632802915
+        lat: 48.2456780302915
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  international_phone_number: +49 8131 317151
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  url: https://maps.google.com/?cid=5524201826745450349
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/ernest.kasse
+  name: "DJ Maestro "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+  bio: ""
+  id: XyetYZADJTTwLfv6SvqeX0tqcT63
+  instagram: https://www.instagram.com/ernest_lionsnight/
+  username: Ernest
+claimed: No
+link: ""
+description: |
+  Dear Dance Community!!!
+
+  Are you ready for our 3rd “Lion´s Night” on October 12th 2024 in Dachau?
+
+  19:30  Doors open
+  20:00-21:00 Bachata Sensual WS with Tobi & Sylvia (Floor 1)
+  20:00-21:00 UrbanKiz WS with Kiki & Eva (Floor 2)
+  21:15-22:15 UrbanKiz WS with Fajul (Floor 2)
+  21:00-02:00 Bachata/Salsa Party (Floor 1) 
+  22:15-02:00 UrbanKiz Party (Floor 2) 
+
+  Hot UrbanKiz and Kizomba Beats by DJ Roberto
+  Best Bachata & Salsa Beats with DJane Elena (Munich) and DJ Maestro (Dachau).
+
+  SPECIAL AFTER FESTIVAL PRICES:
+
+  1 Workshop:   10€ (18€ with Party)
+  2 Workshops: 15€ (20€ with Party)
+  Party only: 10€
+  Ticket payment at the door or via PayPal:
+  ernest67@web.de  (info: +49 176 24514947)
+
+  LOCATION: 
+  Meet & Dance “Tanzschule Dachau”
+  Münchner Straße 87b, 
+  85221 Dachau, Germany
+  Parking Garage & Parking Lots for FREE in front of the door!
+
+   	See you on the dance floor! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728396101/ieescba0ufdqyzyfxcu6.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ3djGFgB7nkcRsLmL161IHgQ
+international: No
+hash: 1728754200000+ChIJj92YQ7R7nkcRbf-5_kroqUw
+viewsCount: 1
+id: TVRFk1fgrLwMkPKa14u6

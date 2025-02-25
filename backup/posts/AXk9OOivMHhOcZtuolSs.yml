@@ -1,0 +1,129 @@
+endDate: 1717963200000
+claimed: No
+link: ""
+program: []
+type: event
+duration: 180
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9ancNb8fpeTBN0maPJaeo4PtZSk1%2F3d5a5450-a260-47ac-9e48-3e90b4a0d6e0?alt=media&token=a02fc21c-268d-4b6d-b370-b8e135d17034
+createdAt: 1717699418472
+artists: []
+price: Вход свободный
+artistsList: []
+place: ChIJ02oeW9PP20YR2XC13VO4YQs
+specialOffer: ""
+international: No
+visibility: Public
+eventType: Party
+recurrence:
+  untilDate:
+    _seconds: 1730322000
+    _nanoseconds: 0
+  freq: never
+  days: {}
+  dates: []
+form: No
+createdBy: 9ancNb8fpeTBN0maPJaeo4PtZSk1
+watch:
+  count: 1
+  list:
+    basileq: true
+name: Сальса-опенейр перед террасой тики-бара "НаПляже"
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717952400000
+username: basileq
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAXk9OOivMHhOcZtuolSs.png?generation=1717699446251172&alt=media
+venue:
+  formatted_address: vul. Zybickaja 6, Minsk, Minskaja voblasć, Belarus
+  website: http://tikibar.by/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: На Пляже Tiki Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 27.5592786302915
+      south: 53.9047750197085
+      north: 53.9074729802915
+      west: 27.5565806697085
+    location:
+      lng: 27.5579471
+      lat: 53.9062232
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: vul. Zybickaja
+      long_name: vulica Zybickaja
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Centraĺny rajon
+      long_name: Centraĺny rajon
+    - types:
+        - locality
+        - political
+      short_name: Minsk
+      long_name: Minsk
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Minski rajon
+      long_name: Minski rajon
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Minskaja voblasć
+      long_name: Minskaja voblasć
+    - types:
+        - country
+        - political
+      short_name: BY
+      long_name: Belarus
+  international_phone_number: +375 29 333-22-89
+  place_id: ChIJ_X_i1JTP20YRXZOzKCKRhok
+  url: https://maps.google.com/?cid=9909767605973128029
+  username: tikibar.by
+id: AXk9OOivMHhOcZtuolSs
+confirmation: "👉🏻 Пожалуйста, ознакомьтесь с правилами для постоянных
+  посетителей опенейров: https://vk.cc/awYyhr"
+hash: 1717952400000+ChIJ_X_i1JTP20YRXZOzKCKRhok
+promotionError: No instagram found near "ChIJ02oeW9PP20YR2XC13VO4YQs"
+promotion: failed
+description: >-
+  🙌🏻 Ждём всех танцоров сальсы в это воскресенье на опенейре! Там вы сможете
+  отдохнуть, потанцевать и просто замечательно провести время в компании друзей!
+
+
+  🔸 Схема проезда: https://vk.com/@dance2-zib6
+
+
+  ИНФО 📲 +375296657336 
+
+
+  🔸 Подробно: https://vk.com/zybitskayaparty
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  instagram: https://instagram.com/zybitskayaparty
+  username: zybitskayaparty
+updatedAt: 1717701441203
+viewsCount: 3

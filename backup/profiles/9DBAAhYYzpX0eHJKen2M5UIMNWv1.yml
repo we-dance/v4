@@ -1,0 +1,67 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1636882625901
+createdBy: 9DBAAhYYzpX0eHJKen2M5UIMNWv1
+name: deby
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: deby
+pwaUsed: false
+cities:
+  ChIJWZzLElmlh0cRB1ZuuC6Cl-Q: true
+updatedAt: 1636883162691
+locales:
+  en: true
+  it: true
+  fr: true
+  es: true
+permission: No
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+contacts: ""
+gender: Female
+bio: Former ballet dancer followed in love with Latin Dancing flow and vibes.
+  💃🏻 Eager to learn, practice and have fun
+styles:
+  Ballet:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Beginner
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  LindyHop:
+    level: Beginner
+    highlighted: false
+    selected: true
+lastLoginAt: 1643544108686
+daysUsed: 2
+id: 9DBAAhYYzpX0eHJKen2M5UIMNWv1

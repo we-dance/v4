@@ -1,0 +1,135 @@
+venue:
+  formatted_address: Schwanthalerstraße 80, 80336 München, Germany
+  website: http://www.einewelthaus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: EineWeltHaus
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5542164302915
+      south: 48.13625801970851
+      north: 48.13895598029151
+      west: 11.5515184697085
+    location:
+      lng: 11.55287
+      lat: 48.13769
+  address_components:
+    - types:
+        - street_number
+      short_name: "80"
+      long_name: "80"
+    - types:
+        - route
+      short_name: Schwanthalerstraße
+      long_name: Schwanthalerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  international_phone_number: +49 89 8563750
+  place_id: ChIJgUQYcP91nkcR84cUBgl1kwQ
+  url: https://maps.google.com/?cid=329735879345342451
+  username: www.einewelthaus.de
+endDate: 1714591800000
+claimed: No
+link: https://www.univently.de/event-details-registration/salsa-bachata-intermediate-lessons-monthly-registration
+description: >
+  Elevate your dance skills with our Student Salsa & Bachata Nights every
+  Wednesday in April, featuring intermediate to advanced levels and special
+  workshops. Secure your spot, embrace the rhythm, and let every step take you
+  higher!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FcBovh2JReNbfqOXZw8EFIBnQMKj1%2F3898a846-391f-498e-a6a5-32a2e7c55f30?alt=media&token=4be0b577-cffc-4489-a102-2b268ef9107c
+createdAt: 1712235039167
+artists: []
+price: 36 EUR
+place: ""
+international: No
+updatedBy: cBovh2JReNbfqOXZw8EFIBnQMKj1
+visibility: Public
+org:
+  instagram: https://instagram.com/univently
+  username: univently
+eventType: Course
+form: No
+createdBy: cBovh2JReNbfqOXZw8EFIBnQMKj1
+watch:
+  count: 1
+  list:
+    undefined: true
+name: 💃 Student Salsa & Bachata Improvers Course
+online: No
+styles:
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712766600000
+hash: 1712766600000+ChIJgUQYcP91nkcR84cUBgl1kwQ
+username: katyagikalo
+artistsList: []
+updatedAt: 1712235060314
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fs45qRGO8NH9teGnDkoLH.png?generation=1712235061877171&alt=media
+star:
+  count: 1
+  usernames:
+    - katyagikalo
+  history:
+    - username: katyagikalo
+      date: 1712235090096
+      invitedBy: ""
+      uid: cBovh2JReNbfqOXZw8EFIBnQMKj1
+      action: joined
+promotionError: ""
+instagram:
+  state: published
+  messageUrl: https://instagram.com/p/C5VxpzXr2fs
+  publishedAt: 1712235175898
+  messageId: C5VxpzXr2fs
+promotion: completed
+id: s45qRGO8NH9teGnDkoLH

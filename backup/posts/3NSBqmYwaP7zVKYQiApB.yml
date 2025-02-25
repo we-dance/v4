@@ -1,0 +1,147 @@
+venue:
+  formatted_address: Bundesallee 31A, 10717 Berlin, Germany
+  website: http://www.ajilimonberlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Aji Limon Berlin
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3320415802915
+      south: 52.48897181970851
+      north: 52.4916697802915
+      west: 13.3293436197085
+    location:
+      lng: 13.3305537
+      lat: 52.49031830000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 31A
+      long_name: 31A
+    - types:
+        - route
+      short_name: Bundesallee
+      long_name: Bundesallee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Charlottenburg-Wilmersdorf
+      long_name: Bezirk Charlottenburg-Wilmersdorf
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10717"
+      long_name: "10717"
+  url: https://maps.google.com/?cid=2178751216364659635
+  international_phone_number: +49 176 21214118
+  place_id: ChIJFUKj39VRqEcRs6NdEbB6PB4
+endDate: 2023-02-12T03:00
+claimed: No
+link: https://forms.gle/XWJNt4bZ3AREbAz28
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FsXlqPDGz2HdSX02QOyZxkte4iF22%2F1879bb16-2b56-4369-9f21-b096b227dfd5?alt=media&token=bd60bf0a-a23e-4d7d-a896-4227396bc33a
+duration: 60
+createdAt: 1675125211312
+artists: []
+price: 5 EUR
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1675125211312
+updatedBy: sXlqPDGz2HdSX02QOyZxkte4iF22
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: barriolatinoberlin
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FsXlqPDGz2HdSX02QOyZxkte4iF22%2F6e754684-8832-4e7e-b593-f5b780012986?alt=media&token=3346b4bd-46b2-4d07-8e6b-f5894a0dd21f
+  bio: >
+    Barrio Latino is a new Latin event in Berlin. We stand to give you the best
+    experience when you come to our events.
+  id: sXlqPDGz2HdSX02QOyZxkte4iF22
+  instagram: https://www.instagram.com/barrio_latino_berlin/
+  username: barriolatinoberlin
+eventType: Party
+form: No
+createdBy: sXlqPDGz2HdSX02QOyZxkte4iF22
+watch:
+  count: 1
+  list:
+    barriolatinoberlin: true
+name: Latin Valentin's Day - Rooftop Vibes
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-11T20:00
+username: barriolatinoberlin
+star:
+  count: 0
+  list: {}
+description: |-
+  Doors Open at 20:00
+  Location - Aji Limon, Bundesallee 31A, 10717 Berlin
+  Price -  Ladies - 5€ | Gents - 10€ when your name is on the Guestlist
+  Included in the price - Bachata class open level by Anna and Alfonso
+
+  Specials:
+
+  - Exclusive Rooftop location in Charlottenburg
+  - Free 1-hour Bachata Class
+  - Peruvian food and drinks
+  - DJ Eddythegun
+
+  Music - Reggaeton, Bachata, Salsa, Merengue, Pop Latino, Cumbia
+
+
+  Schedule:
+
+  - 20:00 - Doors open
+  - 21:00 - Bachata Class by Anna&Alfonso
+  - 22:00 - 3:00 - Enjoy the party with your favorite Latin music 
+id: 3NSBqmYwaP7zVKYQiApB
+viewsCount: 52

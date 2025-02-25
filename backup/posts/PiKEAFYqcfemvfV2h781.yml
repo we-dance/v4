@@ -1,0 +1,170 @@
+endDate: 1722790800000
+sourceUrl: https://www.facebook.com/events/1089570832152991/
+createdAt: 1715522446587
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714232446000
+updatedAt: 1715522446587
+importedAt: 1715522446587
+providerUpdatedAt: 1714508452000
+facebookId: "1089570832152991"
+facebook: https://www.facebook.com/events/1089570832152991/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1089570832152991/
+eventType: Party
+providerItemId: e1089570832152991@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Kizomba Lehrerzertifizierung – Niveau 1/2
+location: Sportpark Isernhagen
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722668400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Dieselstraße 3A, 30916 Isernhagen, Germany
+  website: http://www.sportpark-isernhagen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Sportpark Isernhagen
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.781999519708497
+        lat: 52.44854421970851
+      northeast:
+        lng: 9.784697480291502
+        lat: 52.45124218029151
+    location:
+      lng: 9.7828662
+      lat: 52.45000460000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 3A
+      long_name: 3A
+    - types:
+        - route
+      short_name: Dieselstraße
+      long_name: Dieselstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Isernhagen NB
+      long_name: Isernhagen NB
+    - types:
+        - locality
+        - political
+      short_name: Isernhagen
+      long_name: Isernhagen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30916"
+      long_name: "30916"
+  international_phone_number: +49 511 973850
+  place_id: ChIJSXeST0oNsEcRNz-WOXX2dYc
+  url: https://maps.google.com/?cid=9760978750733172535
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizombaglobalpost
+  name: KIZ GP - Kizomba Mediathek
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220079/wuuebad8dnh9kphli9o9.png
+  bio: ""
+  id: ZLAkmWOwEIenla0o9lIO
+  instagram: ""
+  username: kizombaglobalpost
+claimed: No
+link: https://kizomba-global-post.de/event/kizomba-lehrerze%E2%80%A6erung-niveau-1-2/
+description: >-
+  Entdecken Sie unser neues 🎓Kizomba-Zertifizierungsseminar Level 1/2! 
+
+
+  Ob leidenschaftlicher Tänzer oder angehender Lehrer, unser intensives Wochenende bietet Ihnen die Schlüssel zur Verbesserung Ihrer Technik, Ihres Stils und Ihrer Unterrichtsfähigkeiten. Sichern Sie sich Ihren Platz und erhalten Sie am Ende ein Zertifikat! 
+
+
+  Weitere Details auf: https://kizomba-global-post.de/seminar_info/
+
+
+  All in One Event: https://kizomba-global-post.de/event/kizomba-lehrerze…erung-niveau-1-2/
+
+
+  Das erwartet dich:
+
+  ✨Intensives Training: 
+
+  Tauche mit 8 Stunden intensivem Lernen pro Tag tief in die Feinheiten von Kizomba ein.
+
+  ✨ Umfassendes Lehrplan: 
+
+  Meistere die Grundlagen von Haltung, Technik und Kommunikation zwischen den Partnern.
+
+  ✨ Pädagogische Expertise:
+
+  Lerne, wie du deine Leidenschaft für Kizomba effektiv vermittelst und ansprechende Kurse strukturierst.
+
+  ✨ Networking-Möglichkeiten:
+
+  Erweitere deine Tanzgemeinschaft und erhöhe die Reichweite deiner Events.
+
+
+  📆Zeitplan:
+
+  Samstag/Sonntag
+  	•	9:00 Uhr - 11:00 Uhr<
+  	•	11:30 Uhr - 13:30 Uhr
+  	•	Mittagspause
+  	•	14:30 Uhr - 16:30 Uhr
+  	•	17:00 Uhr - 19:00 Uhr
+
+  Samstag: Social Dance ab 22:00 - 04:00
+
+
+  Dieser Ablaufplan deckt die grundlegenden Schritte und Konzepte von Kizomba ab, bietet praktische Anleitungen zur Unterrichtsgestaltung und fördert den Aufbau von Partnerschaften und Netzwerken in der Tanzgemeinschaft.
+
+
+  📍Veranstaltungsort: https://www.sportpark-isernhagen.de
+
+  Sportpark Isernhagen GmbH
+
+  Dieselstraße 3a
+
+  30916 Isernhagen NB
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715522477/ybdvv07cludwywixz2ye.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJDYTrXYYNsEcREF2slG2sJQQ
+international: No
+hash: 1722668400000+ChIJSXeST0oNsEcRNz-WOXX2dYc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPiKEAFYqcfemvfV2h781.png?generation=1715522505721099&alt=media
+id: PiKEAFYqcfemvfV2h781

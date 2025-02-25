@@ -1,0 +1,28 @@
+createdAt: 1667470005464
+updatedBy: ~
+createdBy: ~
+name: Nuremberg, Germany
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+type: City
+updatedAt: 1667470005464
+username: Nuremberg
+cityPlaceId: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+location:
+  country: Germany
+  latitude: 49.4521018
+  locality: Nuremberg
+  region: Bavaria
+  place_id: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+  longitude: 11.0766654
+viewsCount: 243
+watch:
+  count: 1
+  usernames:
+    - VkirilV
+  history:
+    - username: VkirilV
+      date: 1732201390129
+      invitedBy: ""
+      uid: 4sojs9VE3lXHEkDER47rpyfFqD62
+      action: joined
+id: 9jL06JfBblKTFEIvYgEQ

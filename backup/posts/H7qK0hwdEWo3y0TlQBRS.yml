@@ -1,0 +1,159 @@
+endDate: 1734987600000
+sourceUrl: https://www.facebook.com/events/347144824822424/?event_time_id=347144881489085
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1718019726000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1719211012000
+facebookId: "347144881489085"
+facebook: https://www.facebook.com/events/347144824822424/?event_time_id=347144881489085
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/347144824822424/?event_time_id=347144881489085
+eventType: Party
+providerItemId: e347144881489085@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Blue Bachata Mondays
+location: Casa de Baile
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1734980640000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Pärnu mnt. 19, 10141 Tallinn, Estonia
+  website: http://www.tantsukeskus.ee/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Casa de Baile
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.7444616197085
+        lat: 59.4304530697085
+      northeast:
+        lng: 24.7471595802915
+        lat: 59.43315103029151
+    location:
+      lng: 24.7459407
+      lat: 59.4317915
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Pärnu mnt.
+      long_name: Pärnu maantee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Kesklinna linnaosa
+      long_name: Kesklinna linnaosa
+    - types:
+        - locality
+        - political
+      short_name: Tallinn
+      long_name: Tallinn
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Harju maakond
+      long_name: Harju maakond
+    - types:
+        - country
+        - political
+      short_name: EE
+      long_name: Estonia
+    - types:
+        - postal_code
+      short_name: "10141"
+      long_name: "10141"
+  international_phone_number: +372 5197 0501
+  place_id: ChIJJVxJ8J6UkkYRKAQlc5dmJWo
+  url: https://maps.google.com/?cid=7648632342816556072
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417934168
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/CasaDeBaile
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417934/s5qhqbvgofafmapht9dx.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417934168
+  owned: false
+  name: Casa de Baile
+  place: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+  updatedAt: 1728417934168
+  username: CasaDeBaile
+claimed: No
+link: ""
+description: >-
+  /please scroll down for English/
+
+  Jah, igal esmaspäeval toimub Casa de Bailes Blue Bachata Mondays pidu!
+
+
+  DJ Siim mängib sellel peol põhiliselt Bachatat (nii umbes 80%), aga oodata on ka veidi Salsa Romanticat ja Kizombat.
+
+
+  Sissepääs tasuta.
+
+
+  Pidu algab kell 21:04 ja kestab umbes 23-ni, aga teinekord läheb ka hooga pikemalt!
+
+
+  NB! Lase end ise uksest sisse koodiga 7123 ja tule peole!
+
+  Tantsimiseni igal esmaspäeval ❤
+
+
+  *** *** ***
+
+  Yes, this is our legendary Blue Bachata Monday party! The name already suggests that this is mainly a Bachata party (80%), but our DJ Siim will find some Salsa Romantica and Kizomba tunes to spice up the vibe every once in a while 😉
+
+
+  Free entrance.
+
+
+  The party starts at 9pm and goes until 11-ish (or longer, if you're brave)!
+
+
+  Please use the code 7123 to open the street entrance door and join the party!
+
+
+  See you on the dance floor every Monday ❤ 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417935/oldgyqpsz4knwpxkgvsq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+international: No
+hash: 1734980640000+ChIJJVxJ8J6UkkYRKAQlc5dmJWo
+viewsCount: 1
+id: H7qK0hwdEWo3y0TlQBRS

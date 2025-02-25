@@ -1,0 +1,87 @@
+venue:
+  formatted_address: Poshtova square, Kyiv, Ukraine, 02000
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - town_square
+      long_name: Poshtova square
+      short_name: Poshtova square
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Podil's'kyi district
+      short_name: Podil's'kyi district
+    - types:
+        - locality
+        - political
+      long_name: Kyiv
+      short_name: Kyiv
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Kyiv City
+      short_name: Kyiv City
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "02000"
+      short_name: "02000"
+  url: https://maps.google.com/?q=Poshtova+square&ftid=0x40d4ce46653605a5:0x2b0478d58a2bb612
+  name: Poshtova square
+  geometry:
+    viewport:
+      south: 50.45779518834944
+      north: 50.46049314893244
+      east: 30.52701329896364
+      west: 30.52431533838064
+    location:
+      lng: 30.5257583
+      lat: 50.4589893
+  place_id: ChIJpQU2ZUbO1EARErYritV4BCs
+endDate:
+  _seconds: 1632416400
+  _nanoseconds: 0
+type: event
+promo: ""
+cover: ""
+duration: 60
+createdAt: 1632331621762
+watchersCount: 0
+price: FREE
+commentsLast: ~
+id: EeknAebUwGAKgadYaZhM
+place: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+updatedAt: 1632331621762
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+confirmation: |-
+  Dear {{ data.guest.name }},
+
+  We wait you at our party {{ data.event.name }}
+
+  Dragons Company
+eventType: Party
+organiser: ""
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: Dragons Can Fly
+online: No
+region:
+  name: Kyiv
+  location:
+    country: Ukraine
+    latitude: 50.4501
+    locality: Kyiv
+    usedGps: false
+    place_id: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+    longitude: 30.5234
+startDate: 2021-09-23T16:00:00.000Z
+username: alejito
+viewsCount: 3

@@ -1,0 +1,124 @@
+endDate: 1742169600000
+sourceUrl: https://fb.me/e/5eTksza5b
+createdAt: 1719928832205
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1719868579000
+updatedAt: 1719928832205
+importedAt: 1719928832205
+providerUpdatedAt: 1719868579000
+facebookId: 5eTksza5b
+isNew: true
+facebookUrlsList:
+  - https://fb.me/e/5eTksza5b
+eventType: Workshop
+providerItemId: 79ageidv7dn2v6tavh58hehm7g@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Darmstadt, Germany
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1741996800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Große Bachgasse 2, 64283 Darmstadt, Germany
+  website: http://www.buergerhaeuser-darmstadt.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Justus-Liebig-Haus
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.656089669708496
+        lat: 49.87044381970851
+      northeast:
+        lng: 8.658787630291501
+        lat: 49.8731417802915
+    location:
+      lng: 8.657627699999999
+      lat: 49.8718276
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Große Bachgasse
+      long_name: Große Bachgasse
+    - types:
+        - locality
+        - political
+      short_name: Darmstadt
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Darmstadt
+      long_name: Kreisfreie Stadt Darmstadt
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: DA
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HE
+      long_name: Hessen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "64283"
+      long_name: "64283"
+  international_phone_number: +49 6151 7806710
+  place_id: ChIJQ7pVympxvUcRORQkMBjor40
+  url: https://maps.google.com/?cid=10209634070856733753
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719928847922
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/zoukrmn
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719928848/sathwycyoqbo1qnyiihl.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719928847922
+  owned: false
+  name: Zouk Rhein-Main-Neckar e.V.
+  place: ChIJ2c1zEWRwvUcR8MWwKVBDIgQ
+  updatedAt: 1719928847922
+  username: zoukrmn
+claimed: No
+facebook: https://www.facebook.com/events/1461371904738915/
+link: ""
+description: |-
+  SAVE THE DATE for an amazing event with VANESSA & IAGO <3
+
+  Stay tuned for more information
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719928849/x0ubutt3vznnmaqsizgu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: ❗️SAVE THE DATE❗️ZOUK Workshop Weekend with VANESSA&IAGO in Darmstadt
+online: No
+place: ChIJ2c1zEWRwvUcR8MWwKVBDIgQ
+international: No
+hash: 1742041800000+ChIJQ7pVympxvUcRORQkMBjor40
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNwP6zWBxqFK9zlQnBvZ8.png?generation=1719928875740103&alt=media
+id: NwP6zWBxqFK9zlQnBvZ8

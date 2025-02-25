@@ -1,0 +1,114 @@
+venue:
+  website: http://www.tanzstudio-rebecca.com/
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Anglerstraße
+      short_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  room: white
+  url: https://maps.google.com/?cid=14332716633642345223
+  name: Studio Rebecca | Tanzstudio Rebecca
+  geometry:
+    viewport:
+      south: 48.1328691697085
+      north: 48.1355671302915
+      east: 11.5365322802915
+      west: 11.53383431970849
+    location:
+      lng: 11.5350651
+      lat: 48.1342039
+  map: ""
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+endDate:
+  _seconds: 1645367400
+  _nanoseconds: 0
+claimed: No
+link: https://www.eventbrite.it/e/brazilian-zouk-basic-workshop-tickets-262959859017
+description: https://www.eventbrite.it/e/brazilian-zouk-basic-workshop-tickets-262959859017
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Fe0a97624-6382-4ebf-a257-87816029be9a?alt=media&token=b0b86f63-ebe5-4e25-86ef-f1a8eeea9e1a
+promo: No
+duration: "90"
+createdAt: 1644250230659
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1644250230659
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org:
+  youtube: ""
+  facebook: Bailadictos
+  bio: Life is just better when you turn up the music and dance!
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2F3b3b6c20-2d33-45fe-b70f-9a91de23f26a?alt=media&token=a00cb850-c9e8-45b9-95cf-ccd282dbc55a
+  instagram: bailadictos
+  tiktok: ""
+  name: Paulita
+  id: JSJpodNRDHakSXpOj2KkJMVDKFI2
+  username: Paulita
+eventType: Workshop
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Brazilian Zouk Basic (level 2)
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-20T14:00
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+star:
+  count: 1
+  list:
+    Paulita: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FY6D7ETvKCrC1pWFpK9GO.png?generation=1644496463091139&alt=media
+viewsCount: 11
+id: Y6D7ETvKCrC1pWFpK9GO

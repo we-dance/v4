@@ -1,0 +1,71 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621111364587
+createdBy: I3hYM17vvlSEYYsrbSS4uQb3KtM2
+name: Andre
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+username: Andre
+pwaUsed: false
+birthday: 1982-07-15
+locales:
+  de: true
+  en: true
+meetingPlace:
+  private: true
+  public: true
+teacher: No
+gender: Male
+partner: Yes
+weight: "73"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Wednesday: true
+  Tuesday: true
+objectives:
+  outdoors: true
+  indoors: true
+contacts: No
+height: "183"
+hometown: ChIJKSshOsWinkcRoOeL161IHgQ
+updatedBy: I3hYM17vvlSEYYsrbSS4uQb3KtM2
+id: I3hYM17vvlSEYYsrbSS4uQb3KtM2
+story: dance-for-fun@gmx.de
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FI3hYM17vvlSEYYsrbSS4uQb3KtM2%2F6dad52dc-81e2-4df1-a66f-f8e692490877?alt=media&token=b25e70df-902f-428f-a6fb-70889b988dba
+cities:
+  ChIJKSshOsWinkcRoOeL161IHgQ: true
+  ChIJ_Qs1mGlkmUcRkH3fpbdrHwQ: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+bannerNews: yes
+viewsCount: 1
+offers: []
+bio: Leben ohne Tanzen geht nicht.
+styles:
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Advanced
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+team: []
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1719854653625
+daysUsed: 10
+lastLoginAt: 1720953058804

@@ -1,0 +1,41 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630415887548
+locales:
+  de: true
+  en: true
+createdBy: p8SZlFb7OZVzVCcSOKOyJSwHIjt1
+name: And
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+pwaUsed: false
+username: Maja
+gender: Female
+step: photo
+updatedAt: 1632161758905
+visibility: Members
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fp8SZlFb7OZVzVCcSOKOyJSwHIjt1%2F62d4155c-9dea-46c8-b37b-56e3061b5325?alt=media&token=3b83f711-106a-46e2-8c07-41b91fcac51b
+objectives:
+  outdoors: true
+  indoors: true
+contacts: ""
+bio: dancing is better than any medicine 😊
+styles:
+  Capoeira:
+    level: Beginner
+    highlighted: false
+    selected: true
+  ForroLove:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Intermediate
+    highlighted: false
+    selected: true
+daysUsed: 4
+lastLoginAt: 1632254005075
+id: p8SZlFb7OZVzVCcSOKOyJSwHIjt1

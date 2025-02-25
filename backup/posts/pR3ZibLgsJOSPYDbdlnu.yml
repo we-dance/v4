@@ -1,0 +1,158 @@
+createdAt: 1708026772876
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/1323100491722246/
+updatedAt: 1708026772876
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Johannesgasse 3, 1010 Wien, Austria
+  website: https://www.danzon.club/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Danzon
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3701456697085
+        lat: 48.2039230697085
+      northeast:
+        lng: 16.3728436302915
+        lat: 48.2066210302915
+    location:
+      lng: 16.3715212
+      lat: 48.20531219999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Johannesgasse
+      long_name: Johannesgasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Innere Stadt
+      long_name: Innere Stadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1010"
+      long_name: "1010"
+  international_phone_number: +43 676 5505840
+  place_id: ChIJV5Ifnp4HbUcRal0jg96lFsk
+  url: https://maps.google.com/?cid=14489951226212605290
+endDate: 1708146000000
+claimed: No
+link: ""
+description: >-
+  ✯✯✯✯✯ FIESTA LOCA ✯✯✯✯✯
+
+
+  A lot of dances, some drinks, having fun, getting to know new people. In few words having good times & enjoying life.....
+
+  FIESTA LOCA will bring together the best music, best dancers, performers, animators, Showgirls etc..
+
+  ✯ Hot Cuban Animators 
+
+  ✯ Latin Dancers 
+
+  ✯ Tombola
+
+  ✯ Crazy Surprises 
+
+  ✯ Welcome Drink (bis 24:00 Uhr)
+
+  ✯ Special guests 
+
+
+  ► MUSIC - the best beats & special selection! We keep it LATIN and we spice it up ... 
+
+  MUSIC TIMELINE: 
+
+  20:00 - 23:00 - Salsa & Co
+
+  23:00 - 06:00 - Reggaeton & Co, Latin Mix & Hits
+
+  ► Birthday Specials - Info: 0676 5505840
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ► Start: 20:00 
+
+  ★ Danzon Club
+
+  ★ Johannesgasse 3, 1010 Wien
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ★ VIP - Tischreservierungen
+
+  Tel: 06765505840
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebookId: "1323100491722246"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Fiesta Loca "
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708110000000+ChIJV5Ifnp4HbUcRal0jg96lFsk
+startDate: 1708110000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708026778/hpnqssj9m74b59iioo6w.jpg
+org:
+  owner: ""
+  importedAt: 1708026777625
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/danzonvienna
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708026777/rdgaym69j9lovc82ouvy.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708026777625
+  owned: false
+  name: Danzón
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1708026777625
+  username: danzon
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpR3ZibLgsJOSPYDbdlnu.png?generation=1708026789908261&alt=media
+id: pR3ZibLgsJOSPYDbdlnu

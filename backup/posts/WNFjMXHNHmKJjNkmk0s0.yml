@@ -1,0 +1,132 @@
+venue:
+  formatted_address: Rheinstraße 12/4, 69126 Heidelberg, Germany
+  website: https://chapel-heidelberg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: CHAPEL Raum für Stadtkultur
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.6878680302915
+      south: 49.3881912697085
+      north: 49.3908892302915
+      west: 8.685170069708496
+    location:
+      lng: 8.686531399999998
+      lat: 49.38942979999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 12/4
+      long_name: 12/4
+    - types:
+        - route
+      short_name: Rheinstraße
+      long_name: Rheinstraße
+    - types:
+        - locality
+        - political
+      short_name: Heidelberg
+      long_name: Heidelberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Heidelberg
+      long_name: Heidelberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "69126"
+      long_name: "69126"
+  place_id: ChIJtTsZd5vBl0cRxyLfhyhoybc
+  url: https://maps.google.com/?cid=13243230702547182279
+  username: chapel-heidelberg.de
+endDate: 1713056400000
+claimed: No
+link: https://forms.gle/HMBs3JUkPgNSX8jr9
+description: |-
+  Regestrierung 13 Uhr
+  Start Festival 14 Uhr
+  Beginn Fiesta 20 Uhr
+
+  Workshops mit
+  Nick y Daniela (MA)
+  Martin y Esra (KA)
+  Eugen y Anna (HD/M)
+  Abdula y Brini (Ffm)
+  Bayram y Polina (MA/KA)
+  Rasched y Chica (HD)
+  Nadia (MZ)
+  Marcia
+  Arellio de Cuba 
+program: []
+type: event
+duration: 60
+createdAt: 1712555677646
+artists: []
+price: 29 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  username: AnnaMil
+eventType: Festival
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1713006000000
+hash: 1713006000000+ChIJtTsZd5vBl0cRxyLfhyhoybc
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWNFjMXHNHmKJjNkmk0s0.png?generation=1712555691664666&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F799d9d25-8aa9-440e-884d-0abb81678c6b?alt=media&token=f51e3725-8b2f-422c-98de-03ed63a7ef51
+id: WNFjMXHNHmKJjNkmk0s0
+name: "Festival en Catedral Heidelberg *Code: MOADC*"
+specialOffer: MOADC
+updatedAt: 1712555780598
+instagram:
+  messageUrl: https://instagram.com/p/C5fVNAdg9jL
+  publishedAt: 1712555805910
+  messageId: C5fVNAdg9jL
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 4

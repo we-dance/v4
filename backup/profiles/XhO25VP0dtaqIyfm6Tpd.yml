@@ -1,0 +1,35 @@
+owner: ""
+createdAt: 1720363505216
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+username: SaBaKi_Stuttgart
+import: failed
+importError: GET /api/v1/users/SaBaKi_Stuttgart/usernameinfo/ - 404 Not Found;
+  User not found
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+type: Organiser
+offers: []
+gender: Other
+name: SaBaKi Stuttgart
+bio: Join on Telegram
+telegram: https://t.me/SaBaKi_Stuttgart/
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+instagram: ""
+team: []
+id: XhO25VP0dtaqIyfm6Tpd
+updatedAt: 1720363618400
+viewsCount: 4

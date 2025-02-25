@@ -1,0 +1,40 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628612150202
+locales:
+  de: true
+createdBy: bZUqE3YW0wew2DXNManNc3W8OPv1
+name: Burkhardt
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: Burkhardt
+pwaUsed: false
+birthday: 1962-08-06
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbZUqE3YW0wew2DXNManNc3W8OPv1%2Fe1fe2bb7-8d70-43e2-bb7b-d11bf23344e9?alt=media&token=7e7d81e7-8049-4508-b348-ac25d951fde4
+weight: "69"
+permission: No
+meetingPlace:
+  private: true
+  public: true
+partner: Yes
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: Yes
+height: "178"
+updatedAt: 1628612432252
+lastLoginAt: 1629371571955
+daysUsed: 2
+facebook: "https://facebook.com/MartinaBurkhardt "
+id: bZUqE3YW0wew2DXNManNc3W8OPv1

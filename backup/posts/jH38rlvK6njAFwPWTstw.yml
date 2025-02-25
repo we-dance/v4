@@ -1,0 +1,154 @@
+venue:
+  website: http://www.utopia-munich.com/
+  formatted_address: Heßstraße 132, 80797 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "132"
+      short_name: "132"
+    - types:
+        - route
+      long_name: Heßstraße
+      short_name: Heßstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Neuhausen-Nymphenburg
+      short_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80797"
+      short_name: "80797"
+  url: https://maps.google.com/?cid=12210878980167898106
+  name: UTOPIA - A HAPPENING PLACE (ehem. Reithalle)
+  geometry:
+    viewport:
+      south: 48.1569168197085
+      north: 48.1596147802915
+      east: 11.5560237802915
+      west: 11.5533258197085
+    location:
+      lng: 11.5542613
+      lat: 48.1580793
+  international_phone_number: +49 89 12162370
+  place_id: ChIJb20fGnV2nkcR-hMxiLzBdak
+endDate: 2021-11-21T04:00:00.000Z
+description: >-
+  Indoor REGGAETON Party with food & drinks 🍻 🍹 🥟 🥗 🌯
+
+  Mit Freunden essen, trinken, abhängen und zu unseren liebsten Latin DJs der Stadt abfeiern, all Night long!
+
+
+  Reggaeton | Salsa | Bachata | Merengue and more Latinmusic by LatinScene Munich
+
+
+  Macht euch bereit für ein musikalisches und kulinarisches Happening in einer der legendärsten Locations mitten in Schwabing, dem neu eröffnetem "Utopía"
+
+  Es erwartet euch ein Indoor Streetfood Nightmarket in einem denkmalgeschütztem Warehouse gepaart mit einer REGGAETON - LATIN PARTY bis in die Morgenstunden. 💃🏽🕺🏼
+
+
+  HIGHLIGHTS:
+
+  🌯 Zahlreiche abgefahrene Streetfood Stände
+
+  🎧 Erstklassiges LATIN DJ Lineup
+
+  🎧 Festival Bühne & Dancefloor
+
+  💃 Abgefahrene Lichtinstallation
+
+  🔥 Streetfood Festival Decoration
+
+  🌚 Nightmarket & Festival Feelings
+
+
+  LOCATION
+
+  UTOPIA - A happening Place
+
+  Heßstraße 132
+
+  80797 München
+
+
+  Vamos!
+
+  🙌🏽
+type: event
+duration: custom
+cover: ""
+createdAt: 1633361599798
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjH38rlvK6njAFwPWTstw.png?generation=1637312147975823&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: jH38rlvK6njAFwPWTstw
+views: 21
+updatedAt: 1633361599798
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: "Reggaeton & Street food "
+online: No
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-20T21:00:00.000Z
+username: Vitali
+viewsCount: 54

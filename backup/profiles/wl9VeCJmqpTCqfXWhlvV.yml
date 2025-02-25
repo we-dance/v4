@@ -1,0 +1,75 @@
+createdAt: 1718443440723
+website: https://www.festivalsummer.events/kontakt
+rooms: ""
+address:
+  formatted_address: Martin-Albert-Straße 1, 90491 Nürnberg, Germany
+  website: https://www.festivalsummer.events/kontakt
+  name: Festival SUmmer
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.1251742197085
+        lat: 49.4642606197085
+      northeast:
+        lng: 11.1278721802915
+        lat: 49.4669585802915
+    location:
+      lng: 11.1266136
+      lat: 49.4655204
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Martin-Albert-Straße
+      long_name: Martin-Albert-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ost
+      long_name: Ost
+    - types:
+        - locality
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90491"
+      long_name: "90491"
+  international_phone_number: +49 911 366336
+  url: https://maps.google.com/?cid=3431053363517322084
+  place_id: ChIJ__9P8R5Yn0cRZPPbCduMnS8
+gender: Other
+phone: +49 911 366336
+name: Festival SUmmer
+updateAt: 1718443440723
+type: Venue
+map: ""
+username: www.festivalsummer.events
+viewsCount: 1
+id: wl9VeCJmqpTCqfXWhlvV

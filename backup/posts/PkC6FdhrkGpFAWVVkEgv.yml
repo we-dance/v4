@@ -1,0 +1,184 @@
+isNew: true
+facebookId: "941103997863885"
+facebookUrlsList:
+  - https://www.facebook.com/events/941103997863885/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730473247997
+updatedAt: 1730473247997
+importedAt: 1730473247997
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48576-1730505600-1730591999@latinfo.hu
+providerCreatedAt: 1729502235000
+providerUpdatedAt: 1729502235000
+startDate: 1730505600000
+endDate: 1730591999000
+facebook: https://www.facebook.com/events/941103997863885/
+sourceUrl: https://www.facebook.com/events/941103997863885/
+location: Euphoria Dance Studio, Hunyadi utca 22., Debrecen, 4026, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "22"
+      short_name: "22"
+      types:
+        - street_number
+    - long_name: Hunyadi János utca
+      short_name: Hunyadi János u.
+      types:
+        - route
+    - long_name: Debrecen
+      short_name: Debrecen
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "4026"
+      short_name: "4026"
+      types:
+        - postal_code
+  formatted_address: Debrecen, Párizsi Udvar II, Hunyadi János u. 22, 4026 Hungary
+  geometry:
+    location:
+      lat: 47.5346596
+      lng: 21.6265724
+    viewport:
+      northeast:
+        lat: 47.5359564802915
+        lng: 21.6279855302915
+      southwest:
+        lat: 47.5332585197085
+        lng: 21.6252875697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +36 30 470 5308
+  name: Euphoria Dance Studio - Táncvilág Stúdió
+  place_id: ChIJHzA7NQYOR0cR4A7tmG6UA08
+  url: https://maps.google.com/?cid=5693557556659424992
+  website: http://tanc-vilag.hu/
+visibility: Public
+org:
+  id: TUpuu5RoFSlZbP8O07Y8
+  username: "@euphoria.dance.hun/"
+  name: Euphoria Dance Studio - Táncvilág Stúdió
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727791260/gmdr5tc2dspnye2rm2zx.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/@euphoria.dance.hun/
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >
+  ⬇️⬇️IN ENGLISH BELOW⬇️⬇️
+
+
+  🎃 Készülj! 🎃
+
+  RETTENTŐEN JÓ LESZ! 
+
+  Egy éjsötét és izgalmas partira invitálunk Téged!
+
+  Boszorkányok, csontvázak, és az éjszaka egyéb rémisztő lényei gyűlnek össze, hogy a legfelkapottabb salsa, bachata, kizomba és zouk slágerekre tivornyázva rémisztgessék a jóravaló embereket!
+
+
+  Dress code: Ugye kitaláljátok??!! 😃
+
+
+  A belépő ezen felül tartalmazza:
+
+  ✔️ 20:00 - 21:00-ig ingyenes és félelmetes táncoktatás.
+
+  ✔️ 21:00 - 01:00-ig remek zenék, partidekor, jó társaság, tánc és tánc
+
+  ✔️ Félelmetes fotófal
+
+  ✔️ Külön salsa-bachata, és kizomba termek 2 DJ-vel
+
+  ✔️ Alkoholos és alkoholmentes koktélok korlátlan fogyasztása
+
+  ✔️ Étel ital szabadon behozható
+
+
+  Belépő: 3000 Ft
+
+
+  Helyszín: Euphoria Dance Studio Debrecen, Hunyadi u. 22. (Párizsi Udvar II.)
+
+  Időpont: 2024. november 2. szombat 20:00 
+
+
+  🧟🧟🧟🧟🧟
+
+
+  🎃 Get ready! 🎃 IT'S GOING TO BE TERRIFIC! 
+
+  We invite you to a dark and thrilling party! Two rooms will transform into a spooky cave, with throbbing beats of kizomba, zouk, salsa, and bachata hits. 
+
+
+  Dress code: Can you guess??!! 😃 
+
+
+  Witches, skeletons, and other terrifying creatures of the night will gather to revel in the scariest salsa, bachata, kizomba, and zouk tunes, haunting the good-hearted folks! 
+
+
+  In addition, the entrance includes: 
+
+  Free and thrilling dance lessons from 8:00 PM to 9:00 PM. 
+
+  Great music, party decor, good company, dancing and dancing… from 9:00 PM to 1:00 AM 
+
+  Unlimited consumption of alcoholic and non-alcoholic cocktails 
+
+  Food and drinks are freely allowed to be brought in 
+
+
+  Entry ticket: 3000 HUF 
+
+
+  Location: Euphoria Dance Studio Debrecen, Hunyadi u. 22. (Párizsi Udvar II.)
+   
+  Date: 2th of November, 2024, Saturday, 8:00 PM
+
+
+  🧟🧟🧟🧟🧟
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730473271/rjybtt37hmdka2eeyiaq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: HALLOWEEN Salsa-Sensual Party - Debrecen
+online: No
+place: ChIJgyte_ioMR0cRcBEeDCnEAAQ
+international: No
+hash: 1730574000000+ChIJHzA7NQYOR0cR4A7tmG6UA08
+id: PkC6FdhrkGpFAWVVkEgv

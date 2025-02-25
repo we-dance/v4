@@ -1,0 +1,66 @@
+visibility: Public
+timezone: GMT+0300
+type: Dancer
+createdAt: 1631446356205
+createdBy: e98ujuYnGPai4A88lRlINv67iuU2
+name: OsmelCuesa
+place: ChIJ8UNwBh-9oRQR3Y1mdkU1Nic
+pwaUsed: false
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fe98ujuYnGPai4A88lRlINv67iuU2%2Fdd784fd7-2829-4f52-9878-6b736d9fa3af?alt=media&token=18b297b4-515c-403c-82a5-3e88e9ae6ad5
+contacts: ""
+updatedAt: 1631446653675
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FOsmelCuesa.png?generation=1631446913175515&alt=media
+locales:
+  el: true
+  en: true
+  es: true
+styles:
+  StreetDance:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+  ChaChaCha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Zumba:
+    level: Interested
+    highlighted: false
+    selected: true
+lastLoginAt: 1631485667861
+daysUsed: 2
+username: OsmelCuesta
+id: e98ujuYnGPai4A88lRlINv67iuU2

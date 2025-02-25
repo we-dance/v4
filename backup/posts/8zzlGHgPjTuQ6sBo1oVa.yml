@@ -1,0 +1,215 @@
+endDate: 1729904400000
+sourceUrl: https://www.facebook.com/events/829376042514513/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1725394891000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725704345000
+facebookId: "829376042514513"
+facebook: https://www.facebook.com/events/829376042514513/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/829376042514513/
+eventType: Party
+providerItemId: e829376042514513@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Cuban Night
+location: Salsa by Norika
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729882800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Tomášikova 34, 821 01 Bratislava-Ružinov, Slovakia
+  website: http://www.norika.sk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Dance Club Salsa by Norika
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.1519382197085
+        lat: 48.1635440197085
+      northeast:
+        lng: 17.1546361802915
+        lat: 48.1662419802915
+    location:
+      lng: 17.1532861
+      lat: 48.1648599
+  address_components:
+    - types:
+        - street_number
+      short_name: "34"
+      long_name: "34"
+    - types:
+        - route
+      short_name: Tomášikova
+      long_name: Tomášikova
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ružinov
+      long_name: Ružinov
+    - types:
+        - locality
+        - political
+      short_name: Bratislava
+      long_name: Bratislava
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Bratislava II
+      long_name: Bratislava II
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Bratislavský kraj
+      long_name: Bratislavský kraj
+    - types:
+        - country
+        - political
+      short_name: SK
+      long_name: Slovakia
+    - types:
+        - postal_code
+      short_name: 821 01
+      long_name: 821 01
+  international_phone_number: +421 905 502 383
+  place_id: ChIJ8xIczbuObEcRAcdC6AV1ZYs
+  url: https://maps.google.com/?cid=10044563212151736065
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Salsa-by-Norika/100039796815521/
+  name: Salsa by Norika
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954063/z8fjepdlbrct3aqzw6cg.jpg
+  bio: ""
+  id: kj1v0DMYwZN54lOZCHrT
+  instagram: ""
+  username: Salsaby-Norika
+claimed: No
+link: ""
+description: >-
+  Špeciálna párty pre milovníkov kubánskej salsy. Príď si užiť atmosféru horúcej
+  Kuby s energickou hudbou mixovanou charizmatickým tanečníkom a dídžejom...
+
+
+  Sála 1 a 2
+
+  🎧 DJ Jorge (SK) bude hrať prevažne kubánsku salsu, trochu bachaty na oddych.
+
+  _______________________
+
+
+  VSTUPNÉ: 10 €
+
+  vrátane stráženej šatne a pitného režimu počas celej párty.
+
+
+  👉REZERVÁCIA STOLOV + STRATY A NÁLEZY
+
+  *minimálne od 4 osôb na jeden stôl
+
+  *držíme Vám ho IBA do 21:15 hod.
+
+  *nedokážeme ponúknuť každej osobe stoličku (stôl pre partičku = 1 stôl + 4 stoličky)
+
+  Píš sms na číslo: +421948130166 / Marko
+
+
+  ADRESA: Tomašikova 34 (Student House zo zadu od parkoviska), Bratislava
+
+  https://shorturl.at/GYw8C 
+
+
+  PARKOVANIE:
+
+  Parkovisko v areáli Student House, kde sa nachádza Dance Club SbN, je od 3. septembra 2024 spoplatnené:
+
+  • 10 min. zdarma
+
+  • 1 hodina / 2€
+
+
+  Tešíme sa na vás, priatelia
+
+  Team Salsa by Norika
+
+
+  ***************************
+
+
+  Here is a hot Cuban party with energetic music mixed by a charismatic dancer and DJ...
+
+
+  Dancefloor 1+2
+
+  🎧DJ Jorge (SK) will play mostly Cuban salsa, less Bachata.
+
+
+  _______________________________
+
+
+  ENTRANCE: 10€
+
+  Including guarded dressing room and drinking regime throughout the party.
+
+
+  👉TABLE RESERVATION
+
+  *minimum of 4 people per table
+
+  *we hold it ONLY until 9:15 p.m
+
+  *we cannot offer a chair to every person (1 reservation = 1 table + 4 chairs)
+
+  *Write an SMS to the number: +421948130166 / Marko
+
+
+  VENUE: Tomašikova 34 (Student House from behind), Bratislava
+
+  https://shorturl.at/GYw8C 
+
+
+  PARKING:
+
+  The parking lot in the Student House area, where the Dance Club SbN is located, will be chargeable starting September 3, 2024:
+
+  • 10 minutes free
+
+  • 1 hour / 2€
+
+
+  We are looking forward to you, frends 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417987/bbg32qotdyqmc5yqnvt2.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJl2HKCjaJbEcRaEOI_YKbH2M
+international: No
+hash: 1729882800000+ChIJ8xIczbuObEcRAcdC6AV1ZYs
+id: 8zzlGHgPjTuQ6sBo1oVa

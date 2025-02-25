@@ -1,0 +1,137 @@
+endDate: 1733518800000
+sourceUrl: https://www.facebook.com/events/872967584676665/?event_time_id=872967644676659
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1721813676000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728036247000
+facebookId: "872967644676659"
+facebook: https://www.facebook.com/events/872967584676665/?event_time_id=872967644676659
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/872967584676665/?event_time_id=872967644676659
+eventType: Party
+providerItemId: e872967644676659@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Cours de Kizomba à Gattières avec Soso
+location: Rue Torrin et Grassi, 06510 Gattières, France
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1733513400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Rue Torrin et Grassi, 06510 Gattières, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rue Torrin et Grassi
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.175737519708498
+        lat: 43.7588827197085
+      northeast:
+        lng: 7.178435480291503
+        lat: 43.7615806802915
+    location:
+      lng: 7.177086500000001
+      lat: 43.7602317
+  address_components:
+    - types:
+        - route
+      short_name: Rue Torrin et Grassi
+      long_name: Rue Torrin et Grassi
+    - types:
+        - locality
+        - political
+      short_name: Gattières
+      long_name: Gattières
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Alpes-Maritimes
+      long_name: Alpes-Maritimes
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Provence-Alpes-Côte d'Azur
+      long_name: Provence-Alpes-Côte d'Azur
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "06510"
+      long_name: "06510"
+  place_id: ChIJMWrgRyrMzRIRklzulMiWsZY
+  url: https://maps.google.com/?q=Rue+Torrin+et+Grassi,+06510+Gatti%C3%A8res,+France&ftid=0x12cdcc2a47e06a31:0x96b196c894ee5c92
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0UNGB11Kd6jAGw9Nq83JDMzUDdVo51bBKwuUd8DrvuCMRioJqPbEsfrwncPqRNuGDl
+  name: Soso Monaco
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417908/lk1ksxu8nqgyh23i5uwc.jpg
+  bio: ""
+  id: 9VTDITZ6XWe7ffNsogqf
+  instagram: ""
+  username: soso.monaco
+claimed: No
+link: ""
+description: >-
+  Vous aimez les danses en couple? 
+
+  Je vous invite à venir découvrir cette magnifique danse venue d'Angola : la KIZOMBA. Elle fait partie des danses dites SBK (salsa, bachata, kizomba).
+
+  On l'appelle aussi le tango africain. 
+
+  Rendez vous tous les vendredis soirs de septembre à mi juin (sauf vacances scolaires), salle de l'atelier(salle du fond), rue torrin et grassi à Gattieres (06)(juste à coté de l'école maternelle), pour un cours de kizomba d'une heure 30 avec Soso : 
+
+  - 20h30 à 22h00 cours débutant évolutif
+
+  (Il n'est pas nécessaire de s'inscrire en couple)
+
+  renseignements Denis ADGC : 06 13 24 31 44
+
+  Abonnement annuel de septembre à mi juin pour un cours hebdomadaire de kizomba ou bien possibilité d'adhérer aussi aux autres cours de l'association Nous contacter pour les tarifs (dégressifs selon le nombre de danses...). 
+
+  COURS D ESSAI OFFERT
+
+  Possiblité spectacle en fin d'année 
+
+  ASSOCIATION ADGC (Association Danse Gattières Carros) 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417944/pfwagbuogfe4wbip0kad.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJlwDb6CnMzRIRzCRk-oWzBFQ
+international: No
+hash: 1733513400000+ChIJMWrgRyrMzRIRklzulMiWsZY
+id: 7FMG8kW74VtsM1OujCvD

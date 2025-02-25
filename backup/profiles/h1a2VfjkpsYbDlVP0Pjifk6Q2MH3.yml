@@ -1,0 +1,55 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627295081256
+createdBy: h1a2VfjkpsYbDlVP0Pjifk6Q2MH3
+name: Txell
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Txell
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  it: true
+  es: true
+  ca: true
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1a2VfjkpsYbDlVP0Pjifk6Q2MH3%2Ff830da7b-2cac-4580-9a88-a406be92293d?alt=media&token=03ee06ad-3400-4c1f-aab0-eca64efbbb21
+permission: No
+styles:
+  Tango:
+    level: Interested
+    highlighted: false
+    selected: true
+  Contemporary:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Latin:
+    level: Advanced
+    highlighted: false
+    selected: true
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1627295525302
+learning: Salsa, tango, kixomba, forro, bachata
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FTxell.png?generation=1627309674215725&alt=media
+lastLoginAt: 1657059960839
+daysUsed: 17
+viewsCount: 2
+id: h1a2VfjkpsYbDlVP0Pjifk6Q2MH3

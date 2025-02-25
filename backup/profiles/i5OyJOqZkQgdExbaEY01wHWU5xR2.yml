@@ -1,0 +1,35 @@
+timezone: GMT-1000
+type: Dancer
+createdAt: 1627871907430
+locales:
+  de: true
+  en: true
+createdBy: i5OyJOqZkQgdExbaEY01wHWU5xR2
+name: Lela
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Lela
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1627872013920
+gender: Female
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fi5OyJOqZkQgdExbaEY01wHWU5xR2%2F38d80406-f48d-47ed-bed5-9da0631d7a81?alt=media&token=d61a22eb-9ed0-42fe-b89d-859d2bde341c
+visibility: Members
+permission: No
+pwaUsed: true
+lastLoginAt: 1630999589511
+daysUsed: 8
+viewsCount: 2
+id: i5OyJOqZkQgdExbaEY01wHWU5xR2

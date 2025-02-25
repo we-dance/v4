@@ -1,0 +1,69 @@
+name: Casa Cultural Bremen e.V.
+username: www.casa-cultural.de
+website: http://www.casa-cultural.de/
+phone: +49 421 68552733
+rooms: ""
+map: ""
+gender: Other
+address:
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  place_id: ChIJyZ_4GBQosUcRchXSnbLZYdU
+  address_components:
+    - long_name: 55-61
+      types:
+        - street_number
+      short_name: 55-61
+    - types:
+        - route
+      long_name: Bürgermeister-Smidt-Straße
+      short_name: Bürgermeister-Smidt-Straße
+    - long_name: Mitte
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - short_name: Bremen
+      types:
+        - administrative_area_level_3
+        - political
+      long_name: Bremen
+    - long_name: Bremen
+      types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "28195"
+      short_name: "28195"
+      types:
+        - postal_code
+  formatted_address: Bürgermeister-Smidt-Straße 55-61, 28195 Bremen, Germany
+  geometry:
+    location:
+      lat: 53.0816768
+      lng: 8.8055986
+    viewport:
+      southwest:
+        lat: 53.0802046197085
+        lng: 8.804381269708498
+      northeast:
+        lng: 8.807079230291503
+        lat: 53.0829025802915
+  name: Casa Cultural Bremen e.V.
+  international_phone_number: +49 421 68552733
+  website: http://www.casa-cultural.de/
+  url: https://maps.google.com/?cid=15375809963994781042
+type: Venue
+createdAt: 1730917833180
+updateAt: 1730917833180
+id: 4QCCFVksJE1cuMt8GhVm

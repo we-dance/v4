@@ -1,0 +1,115 @@
+date: 2024-05-25
+venue:
+  website: http://www.gasteig.de/
+  formatted_address: Hans-Preißinger-Straße 8, 81379 München, Germany
+  name: Gasteig HP8
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5524503697085
+        lat: 48.11065891970849
+      northeast:
+        lng: 11.5551483302915
+        lat: 48.11335688029149
+    location:
+      lng: 11.5538646
+      lat: 48.1117752
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Preißinger-Straße
+      long_name: Hans-Preißinger-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+      long_name: Sendling
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  url: https://maps.google.com/?cid=6671922254974334826
+  place_id: ChIJQ1mR2dDfnUcRarfECPFtl1w
+  international_phone_number: +49 89 480980
+  username: gasteig_muenchen
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artist: DJHEC
+endDate: 1716674340000
+org:
+  username: DJHEC
+eventType: Party
+type: event
+room: Halle E
+parentId: nShY8oR5V2dPZCV1IqdA
+createdAt: 1715679352350
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+styles:
+  Salsa:
+    level: Beginner
+    selected: true
+style: Salsa
+time: 2115
+startDate: 1716664500000
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxksC7jvUxOqdTTco98vT.png?generation=1715679366807755&alt=media
+price: FREE
+id: xksC7jvUxOqdTTco98vT
+specialOffer: See which friends are coming—join the Guest List!
+hash: 1716664500000+ChIJQ1mR2dDfnUcRarfECPFtl1w
+artists:
+  - facebook: https://facebook.com/david.lenis.and.his.orchestra
+    username: david.lenis.and.his.orchestra
+artistsList:
+  - david.lenis.and.his.orchestra
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F662d1c9a-876e-4bd1-8d03-ad01b7a0db2e?alt=media&token=79e1704e-f68c-431e-865e-74075e14970f
+duration: 164
+name: "Tanz den Gasteig: Salsa-Party"
+updatedAt: 1716546784041
+star:
+  count: 2
+  usernames:
+    - alexrazbakov
+    - JStefandeutsch
+  history:
+    - username: alexrazbakov
+      date: 1715679368084
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: JStefandeutsch
+      date: 1716657737956
+      invitedBy: ""
+      uid: j90WVMVyZOXd7JoP7iBHE9yhzz13
+      action: joined
+viewsCount: 9

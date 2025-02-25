@@ -1,0 +1,172 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Zenettistraße
+      short_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80337"
+      short_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  name: Salsa Y Corazon - dance school
+  geometry:
+    viewport:
+      south: 48.12187606970849
+      north: 48.12457403029149
+      east: 11.5593379802915
+      west: 11.5566400197085
+    location:
+      lng: 11.557894
+      lat: 48.12314479999999
+  international_phone_number: +49 172 9659579
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+endDate:
+  _seconds: 1644706800
+  _nanoseconds: 0
+claimed: No
+link: https://salsafreaks.splashthat.com/
+description: >-
+  Hola liebe
+
+  🌴SALSAFREAKS🌴
+
+  Samstag 12.02.2022
+
+  Salsa & Bachata 2G+ ÜBUNGSABEND 
+
+  ab 19:00 bis 24:00 Uhr
+
+  👉🏾*TEILNEHMERZAHL IST BEGRENZT *👈🏾
+
+  Salsa Y Corazón, TanzStudio
+
+  Zenettistr.7 - Isarvorstadt
+
+  Parkmöglichkeit hinten im Gelände
+
+  Eintritt: 10.-€
+
+
+  Geboosterte, oder 2x Geimpft + Genesungszertifikat ist KEIN Test nötig!
+
+
+  👉🏾ES WERDEN KEINE ANTIGEN TEST MEHR BEI UNS ZUR VERFÜGUNG GESTELLT!!👈🏾
+
+  Eigene Antigen Test können unter Aufsicht vor Ort durchgeführt werden
+
+  NUR ONLINE REGISTRIERUNG, vor Ort wird nicht registriert ‼️‼️
+
+
+  TESTSTATION AN DER TUMBLINGERSTR.29 / ECKE ZENETTISTR. MIT VORANMELDUNG
+
+  BIS 19:45 UHR GEÖFFNET!!
+
+  FFP2 Maske von Eingang bis zur Kasse wird getragen
+
+  Bitte das Impf- oder Genesen Zertifikat mit PCR oder Antigen Test an der Tür, mit Ausweis, vorzeigen.
+
+  PCR (< 48 Std.) oder Antigen Test (< 24 Std.) 
+          🌴 🌴 🌴 🌴 🌴
+  WORKSHOP:
+
+  RUEDA DE CASINO MITTELSTUFE mit *Héctor aus Chile 
+
+  Möglichst Paarweise anmelden
+
+  18 - 19 Uhr Workshop: *10€
+
+         🌴 🌴 🌴 🌴 🌴
+  🔥19 - 24:00Uhr
+
+  *Salsa/Bachata HOTMIX mit DJHEC *🔥
+
+  Veranstalter: SALSAFREAKS 
+          🌴 🌴 🌴 🌴 🌴
+  👇🏽Registrierung des Übungsabends und WORKSHOP hier👇🏽
+
+
+  https://salsafreaks.splashthat.com
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Fad75b8be-1953-4387-b0b8-075649fa4d97?alt=media&token=51b5eb8f-7738-4154-b1cf-e6455c6a8563
+promo: No
+duration: "300"
+createdAt: 1644247755513
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1644247755513
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+eventType: Other
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: Salsa & Bachata Übungsabend
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-12T19:00
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  facebook: hector.tramonmunoz
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fyj4bkZGCKRVNew48YXtuZAirlU82%2Fb7d54c12-5e44-4ab3-b1f9-4f41a324ab0e?alt=media&token=ddac42d3-f9bd-4407-a950-6ae40a5559cc
+  bio: "Über 40 Jahre mache ich DJ.  Schon in der Schule hatte ich
+    Tanzveranstaltungen gemacht. Musik ist mein Leben "
+  instagram: ""
+  tiktok: ""
+  name: DJHEC
+  id: yj4bkZGCKRVNew48YXtuZAirlU82
+  username: DJHEC
+id: mR7Pab9OIftTMbrh37YI
+viewsCount: 7

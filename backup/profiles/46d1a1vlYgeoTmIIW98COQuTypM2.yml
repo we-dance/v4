@@ -1,0 +1,41 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1636704671093
+createdBy: 46d1a1vlYgeoTmIIW98COQuTypM2
+name: Sriharsha
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Sriharsha
+pwaUsed: false
+birthday: 1992-11-12
+locales:
+  de: true
+  en: true
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  public: true
+gender: Male
+partner: Yes
+weight: "62"
+days:
+  Saturday: true
+  Sunday: true
+permission: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: Yes
+height: "175"
+cities: {}
+updatedAt: 1646551877896
+daysUsed: 10
+lastLoginAt: 1650016851600
+instagram: https://instagram.com/sriharsha1192
+id: 46d1a1vlYgeoTmIIW98COQuTypM2

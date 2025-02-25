@@ -1,0 +1,179 @@
+venue:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  website: http://www.tanzhausemotion.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule München Tanzhaus emotion ADTV
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6214237802915
+      south: 48.0719041197085
+      north: 48.0746020802915
+      west: 11.6187258197085
+    location:
+      lng: 11.6200113
+      lat: 48.0733528
+  address_components:
+    - types:
+        - street_number
+      short_name: "91"
+      long_name: "91"
+    - types:
+        - route
+      short_name: Biberger Str.
+      long_name: Biberger Straße
+    - types:
+        - locality
+        - political
+      short_name: Unterhaching
+      long_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82008"
+      long_name: "82008"
+  international_phone_number: +49 89 74329895
+  place_id: ChIJHS2vnMnYnUcR2WkYy0VHHn0
+  url: https://maps.google.com/?cid=9015721869128002009
+endDate: 1699754400000
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F48402add-9c7e-40d1-b9c1-ce5d88333db0?alt=media&token=7e795303-0267-4595-b667-8e338d6d42b8
+createdAt: 1699547863318
+price: 12 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: ""
+  name: Tanzhaus_emotion
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftanzhaus_emotion.png?generation=1657619634678247&alt=media
+  bio: >-
+    Tanzen ist träumen mit den Füßen.
+
+    Wir bieten Kindertanz, Hip Hop, Schülerkurse,Gesellschaftstanz,Social Dance, Salsa,West Coast Swing, Discofox
+  id: f54OjaeCkTHWxNSlvv7K
+  instagram: https://instagram.com/tanzhaus_emotion
+  username: tanzhaus_emotion
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Noche Latina de emoción - November
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1699729200000
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPuDeMlWDCdNzUvbNVhqE.png?generation=1699547882093663&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Salser@s y Companer@s
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkGDD595byJY19rMbUCDsmFtvPDq2%2F95123d7e-4b42-4f8b-a98c-99704e0177a2?alt=media&token=7a76e647-f409-4c29-b198-7f4a75f4f87c
+    bio: We are Dancing Family
+    id: kGDD595byJY19rMbUCDsmFtvPDq2
+    instagram: https://instagram.com/salserosoutdoor
+    username: Salseros_y_Companeros
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Sandrdida
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FrCBDTQtDQnaEl1Bm3LF9WE0HVvp2%2Fb49763a6-17c8-40f0-ba9c-c6307c834d10?alt=media&token=2b94b23b-dfc8-43b0-9a7c-638ef6dea160
+    bio: ""
+    id: rCBDTQtDQnaEl1Bm3LF9WE0HVvp2
+    instagram: https://instagram.com/sandra_dida.33
+    username: Sandrdida33
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ MixMillion
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F71dcc01b-c6ad-48d8-a0b7-31e5959b7c6e?alt=media&token=4da4068e-a0e8-4d51-833c-bf932bc7c809
+    bio: |
+      Kizomba, HipHop, Funk, Mashups 🎧🎚️ Producer Munich
+    id: 0VsGo4WRHgY76IE3H90CDDAUdRx2
+    instagram: https://instagram.com/djmixmillion
+    username: djmixmillion
+link: https://docs.google.com/forms/d/e/1FAIpQLSd_nm5QQHGhS3Ul-1lPnDEDywMpbw49OzY-mvnnRYvDFfWMeA/viewform
+artistsList:
+  - Salseros_y_Companeros
+  - Sandrdida33
+  - djmixmillion
+id: PuDeMlWDCdNzUvbNVhqE
+confirmation: Anmeldung für die Kurse
+description: |
+  **Im November gibt es zwei Bachata Workshops mit PATRICK (CH) und ISABEL 🤩**
+
+  🌟 **Workshops:** 20:00 - 22.00 Uhr  
+  20 - 21 Uhr Bachata Fusion (Intermediate)  
+  21 - 22 Uhr Bachata Sensual (Intermediate)
+
+  🌟 **Party ab 22:15 Uhr**  
+  🎶 **AREA 1:**  
+  UrbanKiz, Kizomba, Tarraxo, Zouk, Doceur, Semba  
+  **DJ MixMillion**  
+  **DJ Galaxy**  
+  🎶 **AREA 2:**  
+  Salsa Cubana und Linie, Bachata Dominicana und Sensual  
+  **DJane Elena**  
+  **DJane Dida**
+
+  🌟 **Preise**  
+  WORKSHOPS:  
+  1 WS: 15€  
+  2 WS: 25€  
+  PARTY: 12€
+updatedAt: 1699548083079
+telegram:
+  messageUrl: https://t.me/WeDanceMunich/1233
+  publishedAt: 1699548117376
+  messageId: 1233
+  state: published
+instagram:
+  messageUrl: https://instagram.com/p/CzbrAO2JVO6
+  publishedAt: 1699548117376
+  messageId: CzbrAO2JVO6
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 20

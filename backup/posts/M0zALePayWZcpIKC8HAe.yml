@@ -1,0 +1,145 @@
+venue:
+  website: https://fwm-ev.de/
+  formatted_address: Lüderitzstraße 1, 81929 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: FWM - Freier Wassersportverein München e. V. / Geschäftsstelle /
+    Freizeitsportanlage
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6443549802915
+      south: 48.13916871970849
+      north: 48.14186668029149
+      west: 11.6416570197085
+    location:
+      lng: 11.6429163
+      lat: 48.1405503
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Lüderitzstraße
+      long_name: Lüderitzstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bogenhausen
+      long_name: Bogenhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81929"
+      long_name: "81929"
+  international_phone_number: +49 89 9302254
+  url: https://maps.google.com/?cid=2038529773567225642
+  place_id: ChIJXR2reU91nkcRKi-ISQdQShw
+endDate: 2022-09-27T21:00
+claimed: No
+link: https://my.forms.app/annamilite/anmeldeformular
+description: |-
+  Free Trial Class
+  Limited Spots
+
+  Come try with us and let us have fun together 
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F151f3aca-cb82-4ee7-bca9-ce45901b7187?alt=media&token=58f10660-733a-435e-80a7-c772fbfbbf4f
+promo: Yes
+createdAt: 1663305045400
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    instagram: https://instagram.com/milite_anna
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    username: AnnaMil
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Babsi
+    bio: |-
+      Bachata Sensual Instructor - Certified by @korkeyjudith_oficial
+      @lunazul.dance
+      @salsa.bachata.regensburg
+      📍 Regensburg, Munich, Germany
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbabsi.bachata.png?generation=1655307171323443&alt=media
+    id: TlDa57DcY05cwPD7IfwM
+    instagram: https://instagram.com/babsi.bachata
+    username: babsi.bachata
+price: FREE
+artistsList:
+  - AnnaMil
+  - babsi.bachata
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1663305045400
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+telegram: {}
+upVotes: 0
+eventType: Course
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+commentsCount: 0
+online: No
+votes: 0
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-27T20:00
+username: AnnaMil
+name: Bachata Intermediate  * Free Trial Class
+id: M0zALePayWZcpIKC8HAe
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FM0zALePayWZcpIKC8HAe.png?generation=1663305257942754&alt=media
+star:
+  count: 1
+  list:
+    KataTata: true
+viewsCount: 34

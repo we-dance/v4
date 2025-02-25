@@ -1,0 +1,168 @@
+endDate: 1714924800000
+sourceUrl: https://www.facebook.com/events/349009251027253/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713846065000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1713846065000
+facebookId: "349009251027253"
+facebook: https://www.facebook.com/events/349009251027253/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/349009251027253/
+eventType: Party
+providerItemId: e349009251027253@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BACHATA BOOTCAMP - MEN ONLY
+location: Adalbert-Stifter-Straße 101a, 70437 Stuttgart, Germany
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714910400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Adalbert-Stifter-Straße 101A, 70437 Stuttgart, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Adalbert-Stifter-Straße 101A
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.201519319708497
+        lat: 48.8348073197085
+      northeast:
+        lng: 9.204217280291502
+        lat: 48.8375052802915
+    location:
+      lng: 9.202918900000002
+      lat: 48.83611190000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 101A
+      long_name: 101A
+    - types:
+        - route
+      short_name: Adalbert-Stifter-Straße
+      long_name: Adalbert-Stifter-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mühlhausen
+      long_name: Mühlhausen
+    - types:
+        - locality
+        - political
+      short_name: Stuttgart
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Stuttgart
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Süd
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "70437"
+      long_name: "70437"
+  place_id: ChIJM3mQlP_PmUcRQwD3n_4uYIU
+  url: https://maps.google.com/?q=Adalbert-Stifter-Stra%C3%9Fe+101A,+70437+Stuttgart,+Germany&ftid=0x4799cfff94907933:0x85602efe9ff70043
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131885045
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/danzstudiostuttgart
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131885/k4rlmpvzlf6zjcjzcwia.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131885045
+  owned: false
+  name: danz.studio
+  place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+  updatedAt: 1714131885045
+  username: danzstudiostuttgart
+claimed: No
+link: https://forms.gle/8H5D1w1e1WX9SsT39
+description: >-
+  MEN ONLY das Bachata Bootcamp am 05.05.2024 14:00 - 18:00 Uhr - NUR FÜR
+  MÄNNER 
+
+
+  In unserem intensiven Programm konzentrieren wir uns auf die folgenden Themen:
+
+      •    Bodycontrol/Movement
+      •    Footwork
+      •    Musicality
+      •    Clean & Soft Leading
+
+  Bitte beachte, dass die 4.Stunde (um 17 Uhr) des Bootcamps Social Dance beinhaltet.Hier gibt es direktes und persönliches Feedback für jeden Teilnehmer während dem Tanzen. Für die letzte Stunde bitten wir dich, eine Tanzpartnerin ( Wir empfehlen hier jemanden mit einem intermediate Level einzuladen) Falls du keine Tanzpartnerin findest bitte geb uns bescheid, dass wir uns darum kümmern können.
+
+
+  Trainer/ Lehrerin: Claudia Daniela ( Deutsche Bachata Meisterin 2023)
+
+
+  LOCATION
+
+
+  danz.studio 
+
+  Adalbert-Stifter-Straße 101a
+
+  70437 Stuttgart
+
+
+  ( Kostenlose Parkmöglichkeiten direkt vor dem Studio)
+
+
+  INVEST
+
+
+  99€  EARLY BIRD (bis einschließlich 30.04.2024)
+
+  129€ ( Bei Buchung nach dem 01.05.2024)
+
+
+
+  KONTAKT
+
+
+  Falls du weitere Fragen haben solltest melde dich gerne telefonisch (auch Whatsapp) unter 0176/ 43235626 oder per Mail an danzstudiostuttgart@gmail.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131886/tvimmrha0zgtw0fmz6p7.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+international: No
+hash: 1714910400000+ChIJM3mQlP_PmUcRQwD3n_4uYIU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlfZ7JHvezPZAs6W568zg.png?generation=1714131926916367&alt=media
+id: lfZ7JHvezPZAs6W568zg

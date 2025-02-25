@@ -1,0 +1,118 @@
+venue:
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  website: http://www.salsaclub-munich.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13373901970849
+      north: 48.13643698029149
+      east: 11.5813456802915
+      west: 11.5786477197085
+    location:
+      lng: 11.5800076
+      lat: 48.1351427
+  international_phone_number: +49 172 8533891
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+link: https://bit.ly/3AQ07UX
+description: |-
+  💥New ! Bachata Courses at Salsa Club Munich
+  with me and Paolo Mastriani
+  💃🕺
+
+  🔸 Level 1
+  Start Fr.15.10. | 4 x 75 min.
+  Time: 18.00-19.15
+
+  Prices:
+  Members: 60 €
+  Regular: 80 €
+  Student: 75 €
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F1c5a8a5d-f55d-4f50-b0c7-998fbbd4e49d?alt=media&token=22f9f088-59f8-434e-97fc-4e8d624a945d
+duration: custom
+createdAt: 1632841801359
+watchersCount: 0
+price: 60 - 80 EUR
+commentsLast: ~
+id: tw62jxAOKeiYTqhbulBw
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 9
+updatedAt: 1632841801359
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+viewsCount: 9
+eventType: Course
+organiser: AnnaMil
+form: Yes
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+commentsCount: 0
+name: Bachata Courses
+online: No
+styles:
+  SensualBachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-15T16:00:00.000Z
+username: AnnaMil

@@ -1,0 +1,139 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/just-dance-tampa-bay/
+name: Just Dance Tampa Bay
+sourceUrl: https://facebook.com/events/1198265621385868
+venue:
+  address_components:
+    - long_name: "2225"
+      short_name: "2225"
+      types:
+        - street_number
+    - long_name: North Lois Avenue
+      short_name: N Lois Ave
+      types:
+        - route
+    - long_name: Carver City-Lincoln Gardens
+      short_name: Carver City-Lincoln Gardens
+      types:
+        - neighborhood
+        - political
+    - long_name: Tampa
+      short_name: Tampa
+      types:
+        - locality
+        - political
+    - long_name: Hillsborough County
+      short_name: Hillsborough County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Florida
+      short_name: FL
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "33607"
+      short_name: "33607"
+      types:
+        - postal_code
+    - long_name: "2355"
+      short_name: "2355"
+      types:
+        - postal_code_suffix
+  formatted_address: 2225 N Lois Ave, Tampa, FL 33607, USA
+  geometry:
+    location:
+      lat: 27.9624726
+      lng: -82.5127302
+    viewport:
+      northeast:
+        lat: 27.9637785302915
+        lng: -82.5112564197085
+      southwest:
+        lat: 27.9610805697085
+        lng: -82.51395438029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 813-877-6688
+  name: Hilton Tampa Airport Westshore
+  place_id: ChIJn_l8oa7DwogRo_S6hHy1fks
+  url: https://maps.google.com/?cid=5439984946317554851
+  website: https://www.hilton.com/en/hotels/tpaahhf-hilton-tampa-airport-westshore/?SEO_id=GMB-AMER-HH-TPAAHHF&y_source=1_MTIyMDgzOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D
+endDate: 1754204400000
+claimed: No
+link: ""
+description: >-
+  Welcome to the Annual Just Dance Tampa Bay! 
+
+  Come enjoy over 30 dance workshops and dance performance challenges from top of the line instructors, nightly showcases, Nightly Socials, DJ’s & more
+
+  Take advantage of the Early Bird rate until January 1st 2025 then 
+
+  Prices will increase accordingly: On the 1st of each month leading up to the event. Tickets are non-refundable. They may be transferable. Prices at the door will differ from online. All online sale end July 31st, 2025
+
+
+  *Pre Party* is Thursday 07/31 from 
+
+  9pm to 1 am at 
+
+  Dancin’ Motion School of the Arts
+
+  3932 W. Hillsborough Ave 
+
+  Tampa FL 33614
+
+
+  08/01 & 08/02
+
+  Workshops, Shows and Social Dancing
+
+  will be held at the Hotel
+
+  LOCATION
+
+  Hilton Tampa Airport Westshore 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/yqv3lesqnijogis2cegf.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJn3lPuavDwogR2sJqaTpeagI
+international: No
+visibility: Public
+org:
+  createdAt: 1732293944159
+  importedAt: 1732293944159
+  updatedAt: 1732293944159
+  source: facebook
+  name: Just Dance Tampa Bay
+  facebook: https://www.facebook.com/people/Just-Dance-Tampa-Bay/100089293850535/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/o2bloumvqplbararkaoe.jpg
+  username: JustDance-Tampa-Bay
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJn3lPuavDwogR2sJqaTpeagI
+facebook: https://www.facebook.com/events/1198265621385868/
+facebookId: "1198265621385868"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles: {}
+hash: 1754010000000+ChIJn_l8oa7DwogRo_S6hHy1fks
+startDate: 1754010000000
+id: wnF32bToWeDUdpon298N

@@ -1,0 +1,131 @@
+endDate: 1725660000000
+sourceUrl: https://www.facebook.com/events/1284447415860504/
+createdAt: 1725544833235
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725477870000
+updatedAt: 1725544833235
+importedAt: 1725544833235
+providerUpdatedAt: 1725477870000
+facebookId: "1284447415860504"
+facebook: https://www.facebook.com/events/1284447415860504/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1284447415860504/
+eventType: Party
+providerItemId: 48001-1725647400-1725660000@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Újhelyi Strand, Szigliget utca 2., Siófok, 8600, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725647400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Siófok, Szigliget u. 2, 8600 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Újhelyi Strand
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.0354443197085
+        lat: 46.9044126697085
+      northeast:
+        lng: 18.0381422802915
+        lat: 46.9071106302915
+    location:
+      lng: 18.03665269999999
+      lat: 46.9059488
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Szigliget u.
+      long_name: Szigliget utca
+    - types:
+        - locality
+        - political
+      short_name: Siófok
+      long_name: Siófok
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8600"
+      long_name: "8600"
+  place_id: ChIJ3WVajmG_aUcROcrh0iO-5ro
+  url: https://maps.google.com/?cid=13467660796769192505
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/HotelResidenceSiofok
+  name: Residence Hotel Balaton
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1721484056/n935guaj0qqrc84qx1us.jpg
+  bio: ""
+  id: UUYeH04yKG4h4kMcitbC
+  instagram: ""
+  username: HotelResidenceSiofok
+claimed: No
+link: ""
+description: >
+  Köszönjük, hogy nyáron 3 alkalommal is velünk tartottatok és táncoltátok át a
+  gyönyörű naplementéket.❤️
+
+  Szeptember 6-án egy utolsó bulira invitálunk Titeket a Residence Hotel Beach strandjára.
+
+
+  Ami várható:
+
+
+  • zene 70%-ban salsa és 30%-ban bachata
+
+  • kezdő animáció
+
+  • többszöri rueda
+
+  • óránként hölgyválasz
+
+  • garantáltan jó hangulat 💃
+
+
+  Az esemény ingyenesen látogatható!
+
+  Az este folyamán üzemelni fog bárunk, így kérünk, hogy ételt, italt ne hozzatok be.
+
+  Helyszín: Residence Hotel Beach (Siófok, Újhelyi strand, bejárat a Deák Ferenc sétány felől)
+
+  Időpont: 2024. Szeptember 6. Péntek, 18:30-22:00 óráig
+
+  *Rossz időjárási viszonyok esetén a rendezvény elmarad.*
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725544848/wawdjfgdw1y69dhwi7rx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Nyárzáró és búcsú Salsa Party | Siófok, Residence Beach | Szeptember 6. Péntek
+online: No
+place: ChIJT1Kf0cHAaUcR2Gg3XN_QZrA
+international: No
+hash: 1725640200000+ChIJ3WVajmG_aUcROcrh0iO-5ro
+id: vgPs17J006i6jQGw9u1y

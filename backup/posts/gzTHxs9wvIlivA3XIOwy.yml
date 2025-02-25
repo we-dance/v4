@@ -1,0 +1,74 @@
+venue:
+  website: http://www.kievcity.gov.ua/
+  formatted_address: Kyiv, Ukraine, 02000
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Kyiv
+      short_name: Kyiv
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Kyiv City
+      short_name: Kyiv City
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "02000"
+      short_name: "02000"
+  url: https://maps.google.com/?q=Kyiv,+Ukraine,+02000&ftid=0x40d4cf4ee15a4505:0x764931d2170146fe
+  name: Kyiv
+  geometry:
+    viewport:
+      south: 50.21327301525928
+      north: 50.59079800991073
+      east: 30.82594104187906
+      west: 30.23944009690609
+    location:
+      lng: 30.5234
+      lat: 50.4501
+  place_id: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+endDate:
+  _seconds: 1633035600
+  _nanoseconds: 0
+link: https://facebook.com/events/s/french-kiz-party-fkp/563914784656967/
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfKVDbA7jfnPeMkMr52i20zs0us83%2Fee53215d-0f9f-42f3-854e-c215376a4247?alt=media&token=53638068-c532-47e2-ba0a-4b1e09e58c8e
+duration: "240"
+createdAt: 1632840418607
+watchersCount: 0
+price: "100UAH (PRÉ-VENTE) 150UAH at the door "
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgzTHxs9wvIlivA3XIOwy.png?generation=1632904853099780&alt=media
+commentsLast: ~
+place: ""
+id: gzTHxs9wvIlivA3XIOwy
+updatedAt: 1632840418607
+updatedBy: fKVDbA7jfnPeMkMr52i20zs0us83
+visibility: Public
+eventType: Party
+organiser: JD
+form: Yes
+createdBy: fKVDbA7jfnPeMkMr52i20zs0us83
+commentsCount: 0
+name: French kiz party
+online: Yes
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-30T17:00:00.000Z
+username: JD
+viewsCount: 1

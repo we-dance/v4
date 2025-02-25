@@ -1,0 +1,114 @@
+artists: []
+program: []
+artistsList: []
+createdAt: 1729854870310
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+type: event
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+visibility: Public
+form: No
+online: No
+international: No
+claimed: No
+eventType: Concert
+duration: 240
+price: ""
+styles:
+  SalsaCalena:
+    selected: true
+    highlighted: false
+    level: Interested
+  Salsa:
+    selected: true
+    highlighted: false
+    level: Interested
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F21a709cf-8ccd-40c7-aebb-4311a85f345b?alt=media&token=3cc075f8-136e-4f94-adf2-0b862255193b
+org:
+  username: the_colombian_coffee_bar
+  instagram: https://instagram.com/the_colombian_coffee_bar
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+hotDeal: ""
+hasLottery: ""
+coverSize: horizontal
+name: CALI FLOW LATINO LIVE KONZERT / RAS TAS TAS F. COLOMBIANA
+venue:
+  html_attributions: []
+  address_components:
+    - long_name: "47"
+      short_name: "47"
+      types:
+        - street_number
+    - long_name: Neuhauser Straße
+      short_name: Neuhauser Str.
+      types:
+        - route
+    - long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "80331"
+      short_name: "80331"
+      types:
+        - postal_code
+  formatted_address: Neuhauser Str. 47, 80331 München, Germany
+  geometry:
+    location:
+      lat: 48.1386827
+      lng: 11.5667554
+    viewport:
+      south: 48.1372389697085
+      west: 11.5654322197085
+      north: 48.1399369302915
+      east: 11.5681301802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  international_phone_number: +49 176 70388835
+  name: La Rumba Latin Club
+  place_id: ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+  url: https://maps.google.com/?cid=9349263436906478143
+  username: larumba_latinclub
+startDate: 1729886400000
+endDate: 1729900800000
+hash: 1729886400000+ChIJbyzEsQrfnUcRP7pbtI9Bv4E
+description: >-
+  Prepárate para la mejor Fiesta Colombiana!**
+
+  Live los exponentes de la salsa Choke
+
+
+  Este día vamos a celebrar con todo el sabor, ritmo y alegría que solo Colombia sabe ofrecer. Tendremos música en vivo, mucha salsa, vallenato y cumbia
+link: https://eventboxde.com/e/CALI-FLOW-LATINO-LIVE-CONCERT-Fiesta-Colombiana-479
+id: SWE0c2dybtifVL7RdxwD
+updatedAt: 1729854912386
+viewsCount: 2

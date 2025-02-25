@@ -1,0 +1,171 @@
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+claimed: No
+eventType: Party
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Fbcbcf04e-c631-4747-8aee-cc5f34035783?alt=media&token=5a1b984b-4337-4079-8a84-9d0a782e24b4
+createdAt: 1656338695513
+form: No
+artists: []
+watch:
+  count: 1
+  list:
+    DjLole: true
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+price: 0 EUR
+online: No
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1656338695513
+username: DjLole
+duration: custom
+promo: Yes
+venue:
+  formatted_address: Nám. Václava Havla, Nové Město, 110 00 Praha-Praha 1, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Náměstí Václava Havla
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4153232802915
+      south: 50.0794796197085
+      north: 50.0821775802915
+      west: 14.4126253197085
+    location:
+      lng: 14.4139743
+      lat: 50.0808286
+  address_components:
+    - types:
+        - route
+      short_name: Nám. Václava Havla
+      long_name: Náměstí Václava Havla
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 110 00
+      long_name: 110 00
+  place_id: EkFOw6FtLiBWw6FjbGF2YSBIYXZsYSwgTm92w6kgTcSbc3RvLCAxMTAgMDAgUHJhaGEtUHJhaGEgMSwgQ3plY2hpYSIuKiwKFAoSCUHZHBbwlAtHEX7PaQTscZSXEhQKEgnvqBH2vZQLRxEYxHx8H9zVLQ
+  url: https://maps.google.com/?q=N%C3%A1m.+V%C3%A1clava+Havla,+Nov%C3%A9+M%C4%9Bsto,+110+00+Praha-Praha+1,+Czechia&ftid=0x470b94f0161cd941:0x979471ec0469cf7e
+endDate: 2022-07-01T22:00
+org:
+  role: dj
+  name: Dj Lole
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  username: DjLole
+facebook: https://www.facebook.com/events/796072195110423
+link: https://www.facebook.com/events/796072195110423
+name: Salsa a bachata na nám. Václava Havla u Národního divadla
+description: >-
+  [EN Below]
+
+
+  Přijďte si zatančit salsu a bachatu na nám. Václava Havla u Národního divadla. Těšit se můžete na skvělou hudbu pod taktovkou našich předních DJs:
+
+
+  DJ Lole (PRG/FR)
+
+  DJ Karlos (!)
+
+  DJ Ille (BRN)
+
+  DJ Mari (❤/CZ)
+
+
+  ★★★★PROGAM★★★★
+
+
+  16:00 Start Mari
+
+  17:00 Ille
+
+  18:00 Mari/Ille
+
+  19:00 Karlos
+
+  20:00 Ille
+
+  21:00 Lole
+
+  22:00 Konec
+
+
+  Pořadatel: Český národní salsa kongres ve spolupráci s Novou scénou Národního divadla.
+
+
+  ---------------------------------------------
+
+
+  [EN]
+
+
+  Enjoy the once-in-a-year open air party
+
+  with your favorite Latin music and dances by amazing DJs.
+
+
+  DJ Lole (PRG/FR)
+
+  DJ Karlos (!)
+
+  DJ Ille (BRN)
+
+  DJ Mari (❤/CZ)
+
+
+  ★★★★PROGAM★★★★
+
+
+  16:00 Start Mari
+
+  17:00 Ille
+
+  18:00 Mari/Ille
+
+  19:00 Karlos
+
+  20:00 Ille
+
+  21:00 Lole
+
+  22:00 End
+
+
+  The event is organized by Czech National Salsa Congress in cooperation with the New Scene of the Czech National Theatre.
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: Zq0q43hOTmFRZoAW5BuF
+startDate: 2022-07-01T15:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZq0q43hOTmFRZoAW5BuF.png?generation=1656338980086062&alt=media

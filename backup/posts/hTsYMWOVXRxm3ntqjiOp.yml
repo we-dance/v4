@@ -1,0 +1,105 @@
+venue:
+  website: http://www.festivalopatija.hr/
+  formatted_address: Ul. Nikole Tesle 5, 51410, Opatija, Croatia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "5"
+      short_name: "5"
+    - types:
+        - route
+      long_name: Ulica Nikole Tesle
+      short_name: Ul. Nikole Tesle
+    - types:
+        - locality
+        - political
+      long_name: Opatija
+      short_name: Opatija
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Općina Opatija
+      short_name: Općina Opatija
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Primorsko-goranska županija
+      short_name: Primorsko-goranska županija
+    - types:
+        - country
+        - political
+      long_name: Croatia
+      short_name: HR
+    - types:
+        - postal_code
+      long_name: "51410"
+      short_name: "51410"
+  url: https://maps.google.com/?cid=3243381916228490462
+  name: center GERVAIS
+  geometry:
+    viewport:
+      south: 45.3337125697085
+      north: 45.3364105302915
+      east: 14.3075908802915
+      west: 14.3048929197085
+    location:
+      lng: 14.3059734
+      lat: 45.33489060000001
+  place_id: ChIJBZd0Y3eoZEcR3pS5K6vOAi0
+  international_phone_number: +385 51 271 377
+endDate: 2021-08-23T01:00:00.000Z
+link: https://www.salsa-adria.hr/shop/next_events/opatija_summer_sensual_days_2021
+description: >-
+  Summertime and the living is easy. Yes please - that is what we need right
+  now. Terrace parties, royal beach party, unique party in a 13th century castle
+  are only a part of what is waiting on you in Croatia. 
+
+
+  20th - 22nd August, 2021
+
+
+  Join us and seize the moment - you only live once!
+
+
+  - [Program](https://www.summersensual.com/opatija/program)
+
+  - [COVID Info](https://www.summersensual.com/opatija/covid_19)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3b8bc0bc-aa28-44a8-837b-26ff2b4b6cd3?alt=media&token=0f56b74a-eece-412f-9b2a-1b4e0738b866
+duration: custom
+createdAt: 1627054406531
+watchersCount: 0
+price: 121EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FhTsYMWOVXRxm3ntqjiOp.png?generation=1627054426148840&alt=media
+commentsLast: ~
+id: hTsYMWOVXRxm3ntqjiOp
+place: ""
+views: 5
+updatedAt: 1627054406532
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Opatija, Croatia
+visibility: Public
+eventType: Festival
+form: Yes
+createdBy: O9x6HmmJ40bCkoB7iFuX7YPRhJk2
+commentsCount: 0
+name: OPATIJA SUMMER SENSUAL DAYS 2021
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-20T08:30:00.000Z
+username: SummerSensual
+viewsCount: 10

@@ -1,0 +1,75 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1622201642974
+createdBy: WDPpYDPRbVNpu6Zf0jcRFkr7MmI2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: AnnaMaria
+pwaUsed: false
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+birthday: 1992-05-16
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedBy: WDPpYDPRbVNpu6Zf0jcRFkr7MmI2
+jobs: Bachata, Salsa, Kizomba, Zouk
+weight: "55"
+locales: {}
+teacher: No
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+id: WDPpYDPRbVNpu6Zf0jcRFkr7MmI2
+height: "1.60"
+updatedAt: 1622201956622
+gender: Female
+permission: Yes
+learning: "Importance of connection for dancing "
+bio: "Interested to practice zouk & kizomba more often "
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FWDPpYDPRbVNpu6Zf0jcRFkr7MmI2%2Faf45dd1c-8722-4c36-b656-b3b27e13a56b?alt=media&token=edd3ccbd-d4b3-4514-ac14-b69834c04d1b
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FAnnaMaria.png?generation=1622203236826843&alt=media
+name: AnnaMaria
+story: "Passionate & fast learner "
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+lastLoginAt: 1622415738851
+daysUsed: 2
+viewsCount: 1
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: true
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: true
+    selected: true
+  BrazilianZouk:
+    level: Beginner
+    highlighted: true
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: true
+    selected: true

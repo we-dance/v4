@@ -1,0 +1,39 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628419195789
+createdBy: RO8sjkDqaqMAUycCaLJtCEwig7B3
+name: gg
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: gg
+pwaUsed: false
+locales:
+  de: true
+permission: No
+objectives:
+  outdoors: true
+  indoors: true
+contacts: Yes
+updatedAt: 1628419295207
+birthday: 1966-10-05
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+visibility: Members
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+height: "183"
+learning: Salsa Bachata
+gender: Male
+weight: ""
+daysUsed: 5
+lastLoginAt: 1634555583999
+id: RO8sjkDqaqMAUycCaLJtCEwig7B3

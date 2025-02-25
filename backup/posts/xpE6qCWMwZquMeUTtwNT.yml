@@ -1,0 +1,115 @@
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+claimed: No
+organisedBy: ""
+description: |-
+  Tanzen direkt am Stachus!
+  Um 20:00 Uhr Discofox-Workshop und
+  um 21:00 Uhr Standard/Latein Tanz-Übungs-Party.
+
+  Eintritt:
+  Übungsabend: 13€ p. P.
+  Workshop: 20€ p. P.
+  Workshop + Übungsabend: 30€ p. P 
+eventType: Party
+type: event
+cover: ""
+promo: ""
+organiser: ""
+createdAt: 1641497559917
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+price: 13 -30 EUR
+name: Standard und Latein Tanzabend am Stachus
+online: No
+promoter: Vitali
+styles:
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+username: Vitali
+updatedAt: 1641497559917
+duration: "300"
+venue:
+  website: http://www.tanzschuleamstachus.de/
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=7618752569010268631
+  name: Tanzschule am Stachus
+  geometry:
+    viewport:
+      south: 48.13684386970849
+      north: 48.13954183029149
+      east: 11.5668774802915
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  international_phone_number: +49 1590 1227277
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+website: https://www.tanzschuleamstachus.de/
+endDate:
+  _seconds: 1642204800
+  _nanoseconds: 0
+facebook: https://www.tanzschuleamstachus.de/
+link: https://www.tanzschuleamstachus.de/
+id: xpE6qCWMwZquMeUTtwNT
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+startDate: 2022-01-14T20:00
+viewsCount: 59

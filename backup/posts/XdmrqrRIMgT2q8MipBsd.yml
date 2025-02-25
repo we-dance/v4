@@ -1,0 +1,286 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/like-frankfurt/
+sourceUrl: https://facebook.com/events/8116080921740905
+venue:
+  address_components:
+    - long_name: 11-13
+      short_name: 11-13
+      types:
+        - street_number
+    - long_name: Christian-Pleß-Straße
+      short_name: Christian-Pleß-Straße
+      types:
+        - route
+    - long_name: Offenbach am Main
+      short_name: Offenbach am Main
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt Offenbach am Main
+      short_name: Kreisfreie Stadt Offenbach am Main
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Darmstadt
+      short_name: DA
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Hessen
+      short_name: HE
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "63069"
+      short_name: "63069"
+      types:
+        - postal_code
+  formatted_address: Christian-Pleß-Straße 11-13, 63069 Offenbach am Main, Germany
+  geometry:
+    location:
+      lat: 50.09786589999999
+      lng: 8.7646876
+    viewport:
+      northeast:
+        lat: 50.09915728029149
+        lng: 8.766055480291502
+      southwest:
+        lat: 50.0964593197085
+        lng: 8.763357519708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 69 883848
+  name: Dance School Weiss
+  place_id: ChIJ-5hWrAcOvUcRFRiB-hNJ7VM
+  url: https://maps.google.com/?cid=6047570224784414741
+  website: https://www.tanzschule-weiss.de/
+endDate: 1743969600000
+claimed: No
+link: https://frankfurt.likekizomba.com/index.php/tickets
+description: >-
+  We are very excited to announce 7th edition of LIKE FRANKFURT Kizomba
+  festival.
+
+
+  SAVE THE DATE: 4-6th April 2025 
+
+
+  Early bird full passes are now available to book online for 85€:
+
+  https://frankfurt.likekizomba.com/
+
+
+  LINE-UP 
+
+  TEACHERS
+
+  Lucy & Teca
+
+  Benite & Railey
+
+  Giedre & Joao
+
+  Ramona & Jakub
+
+  Michael
+
+  Kinkizomba @ Giorgina
+
+
+  DJS
+
+  DJ Sabura
+
+  DJ Rock
+
+  DJ Supaman 
+
+  DJ Frank
+
+  DJ Migu
+
+  DJ Pyras
+
+  To be announced soon
+
+
+  PROGRAM
+
+  FRIDAY
+
+  19:00-21:00 Social and registration
+
+  21:00-22:00 Workshops
+
+  22:00-04:00 Party (2 rooms)
+
+  SATURDAY
+
+  12:00-15:00 Workshops
+
+  15:00-18:00 Social
+
+  18:00-22:00 Dinner break
+
+  22:00-23:00 Workshops
+
+  23:00-05:00 Party (2 rooms)
+
+  SUNDAY
+
+  11:30-14:30 Workshops
+
+  14:30-22:00 Social/Party
+
+
+  PRICES
+
+  FULL PASS (includes all classes, socials, parties)
+
+  85€ - early bird (limited to 50 passes)
+
+  95€ - until 1st of June
+
+  105€ - until 1st of September
+
+  115€ - until 1st of November
+
+  125€ - until 1st of January
+
+  135€ - until 1st of April
+
+  145€ - on the door 
+
+
+  PARTY PASS (includes all night parties & socials)
+
+  50€ - online
+
+  55€ - on the door
+
+
+  PARTY PASS + (includes all socials, night parties and a class before the party on Friday, Saturday evenings and on Sunday at 13:30)
+
+  75€ - online
+
+  80€ - on the door
+
+
+  DAY PASS (includes all classes, party and social on a specific day)
+
+  FRIDAY PASS
+
+  25€ - online
+
+  30€ - on the door
+
+  SATURDAY PASS
+
+  70€ - online
+
+  75€ - on the door
+
+  SUNDAY PASS
+
+  50€ - online
+
+  55€ - on the door
+
+
+  CONTACT US: reservations@likefrankfurt.de
+
+
+  SPECIAL ACCOMMODATION DEAL
+
+  Official festival hotel - ACHAT OFFENBACH PLAZA
+
+  Prices:
+
+  82€/night with breakfast - single
+
+  92€/night with breakfast - double 
+
+
+  RESERVATION via email: Reservierung21@achat-hotels.com
+
+  Use code LIKEFRANKFURT to get discounted rate
+
+  Payment deadline - 30 days before the arrival date
+
+
+  ACCOMMODATION BY DISTANCE
+
+  450m
+
+  Green Residence Boutique Offenbach
+
+  550m
+
+  Hotel Garni Djaran
+
+  600m
+
+  City Hotel Kaiserhof
+
+  Main Apartment Frankfurt
+
+  950m
+
+  ACHAT Hotel Offenbach Plaza
+
+  1km
+
+  Hotel Offenbacher Hof
+
+
+  We look forward to welcome you! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/fbxxfcgmmkuadw2cjgfh.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ_UdLNRsSvUcREMawKVBDIgQ
+international: No
+visibility: Public
+org:
+  createdAt: 1732293946801
+  importedAt: 1732293946801
+  updatedAt: 1732293946801
+  source: facebook
+  name: Like Frankfurt - Kizomba Festival
+  facebook: https://www.facebook.com/likefrankfurt
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/wnwfxhzgdlxa6bhhl8lg.jpg
+  username: likefrankfurt
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ_UdLNRsSvUcREMawKVBDIgQ
+facebook: https://www.facebook.com/events/8116080921740905/
+facebookId: "8116080921740905"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: LIKE FRANKFURT 2025 - 7th edition
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1743786000000+ChIJ-5hWrAcOvUcRFRiB-hNJ7VM
+startDate: 1743786000000
+id: XdmrqrRIMgT2q8MipBsd

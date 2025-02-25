@@ -1,0 +1,177 @@
+createdAt: 1709329225071
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+username: DjLole
+viewsCount: 1
+venue:
+  formatted_address: U Plovárny 1, 118 00 Praha 1, Czechia
+  website: http://www.obcanskaplovarna.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Občanská Plovárna
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4134784197085
+        lat: 50.0917621197085
+      northeast:
+        lng: 14.4161763802915
+        lat: 50.0944600802915
+    location:
+      lng: 14.41491
+      lat: 50.0931574
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: U Plovárny
+      long_name: U Plovárny
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 118 00
+      long_name: 118 00
+  international_phone_number: +420 737 282 464
+  place_id: ChIJK5q-hN2UC0cR_mt1ObZYBQ8
+  url: https://maps.google.com/?cid=1082368825123761150
+endDate: 1710554400000
+claimed: No
+description: >-
+  Did you want more United Bachata Party weekends? 🌎 Here comes the new format
+  of United!
+
+
+  SAVE THE DATE 🔥 Friday March 15 🔥 because we bring you something you won't want to miss!
+
+
+  At the incredible venue Občanská Plovarna by the river, with spectacular night views.
+
+
+  What to expect? 🤩
+
+
+  ✅ UNITED atmosphere
+
+  ✅ 3 Floors of dancing 
+
+  ✅ 100% bachata music in the main room +Middle room with river view ❤️🎵
+
+  ✅ Salsa and bachata mix in the First room (next to the entrance )🎶
+
+  ✅ Bachata workshop 7.30 pm till 8.30 pm
+
+  ✅ Awesome dancers United in one spot 💃🕺
+
+  ✅ Fresh drinks and cocktails 🍹 
+
+  ✅ Many special guests, ambassadors and amazing advance dancers 
+
+  And one amazing surprise for you 😍
+
+
+  An incredible and exclusive workshop by an international artist Riccardo (all the way from Poland 🇵🇱) and Mónica that you won't want to miss!
+
+  Riccardo has taught and performed in more than 24 countries, and has won first place in the European Latin Festival and achieved great results in other competitions.
+
+
+  We will also have Riccardo as DJ Ricky R ready to play the bachata hits you love the most in the bachata room 🥳
+
+  Dj Ricky R is regularly playing in many international events in Europe and this time he will be in Prague soon
+
+
+  And of course, the great and only Dj Lole in the salsa and bachata mix room 🎵💥
+
+
+  Price 💶
+
+
+  Workshop + party + Cloakroom👉 300 CZK 
+
+  Only party + Cloakroom 👉 200 CZK
+
+  *Cloak room is included in both options 
+
+
+  What are you waiting for?? Stay tuned for all the news. Click on Going and don't miss a thing! 🔥
+program: []
+source: facebook
+type: event
+duration: 60
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/United-Bachata-Party/100093621405530/
+  name: United Bachata Party
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706572963/l8fdeusu593owyehmb7y.jpg
+  bio: ""
+  id: YOvjUBIgAhtxvzXTKCwn
+  instagram: ""
+  username: united.bachata.party
+facebook: https://www.facebook.com/events/336015602141295/
+facebookId: "336015602141295"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: United Bachata Party - Just Dance Party 🥳
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1710527400000+ChIJK5q-hN2UC0cR_mt1ObZYBQ8
+startDate: 1710527400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709329232/ivcwhycty0yoznm6d5t3.jpg
+price: 200 / 300 CZK
+link: https://www.facebook.com/events/336015602141295
+id: svfQtaRUyxKfftZE2KYG
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsvfQtaRUyxKfftZE2KYG.png?generation=1710500386999291&alt=media
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://www.facebook.com/SalsaInPrague
+    name: Dj Lole
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706212324/jagkm8hjqhtzgelsniyq.jpg
+    bio: ""
+    id: jyRiItwVJKoB5FbdrXOH
+    instagram: ""
+    username: dj.lole
+  - role: dj
+    facebook: https://facebook.com/djrickyr
+    username: djrickyr
+artistsList:
+  - dj.lole
+  - djrickyr
+updatedAt: 1710503788119

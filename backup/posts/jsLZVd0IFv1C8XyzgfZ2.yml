@@ -1,0 +1,120 @@
+venue:
+  formatted_address: Humboldtstraße 29, 81543 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Humboldtstraße 29
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5764123302915
+      south: 48.11832116970849
+      north: 48.12101913029149
+      west: 11.5737143697085
+    location:
+      lng: 11.5751056
+      lat: 48.1197118
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Humboldtstraße
+      long_name: Humboldtstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81543"
+      long_name: "81543"
+  place_id: ChIJ96L-qG7fnUcRzNynLYfuvac
+  url: https://maps.google.com/?q=Humboldtstra%C3%9Fe+29,+81543+M%C3%BCnchen,+Germany&ftid=0x479ddf6ea8fea2f7:0xa7bdee872da7dccc
+endDate: 2023-05-23T22:00
+claimed: No
+link: https://pretix.eu/lucasjoannaforro/muc2023/
+description: This course will be focused on both forró roots and forró pe de
+  serra. We will learn together advanced moves and its variations by creating
+  sequenses of movements. A good level in forro is nesessary for participating
+  in this class.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGxQRPsy6U0dAQlfp5CwUST6Q9WN2%2F8c5312c8-67ec-4028-ba5e-90940919b053?alt=media&token=b6914be8-d027-4f3d-b41c-db672b53fdf8
+createdAt: 1684162295480
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/lucasjoannaforrozinho/
+    name: "Lucas & Joanna - Forró "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGxQRPsy6U0dAQlfp5CwUST6Q9WN2%2F9b30b267-2533-4166-950d-2d6bfc8f8ab1?alt=media&token=24533d97-fb9b-4083-8542-7febb2395b71
+    bio: Forró teachers based in Munich 👩🏼‍❤️‍💋‍👨🏾
+    id: GxQRPsy6U0dAQlfp5CwUST6Q9WN2
+    instagram: https://www.instagram.com/lucas.joanna.forro/
+    username: lucasjoannaforro
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - lucasjoannaforro
+international: Yes
+updatedAt: 1684162295480
+updatedBy: GxQRPsy6U0dAQlfp5CwUST6Q9WN2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/lucasjoannaforrozinho/
+  name: "Lucas & Joanna - Forró "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGxQRPsy6U0dAQlfp5CwUST6Q9WN2%2F9b30b267-2533-4166-950d-2d6bfc8f8ab1?alt=media&token=24533d97-fb9b-4083-8542-7febb2395b71
+  bio: Forró teachers based in Munich 👩🏼‍❤️‍💋‍👨🏾
+  id: GxQRPsy6U0dAQlfp5CwUST6Q9WN2
+  instagram: https://www.instagram.com/lucas.joanna.forro/
+  username: lucasjoannaforro
+eventType: Course
+confirmation: |
+  lucasjoannaforro@gmail.com
+form: No
+createdBy: GxQRPsy6U0dAQlfp5CwUST6Q9WN2
+watch:
+  count: 1
+  list:
+    lucasjoannaforro: true
+name: Forró Intermediate Plus Class
+online: ""
+styles:
+  ForroLove:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2023-05-23T21:00
+username: lucasjoannaforro
+viewsCount: 46
+id: jsLZVd0IFv1C8XyzgfZ2

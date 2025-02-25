@@ -1,0 +1,242 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/costa-del-salsa/
+sourceUrl: https://facebook.com/events/364754339903528
+venue:
+  address_components:
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Calle Rio Guadazaon
+      short_name: Calle Rio Guadazaon
+      types:
+        - route
+    - long_name: Torremolinos
+      short_name: Torremolinos
+      types:
+        - locality
+        - political
+    - long_name: Málaga
+      short_name: MA
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Andalucía
+      short_name: AN
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "29620"
+      short_name: "29620"
+      types:
+        - postal_code
+  formatted_address: Calle Rio Guadazaon, 2, 29620 Torremolinos, Málaga, Spain
+  geometry:
+    location:
+      lat: 36.6258794
+      lng: -4.493188299999999
+    viewport:
+      northeast:
+        lat: 36.62714178029149
+        lng: -4.491906269708497
+      southwest:
+        lat: 36.62444381970849
+        lng: -4.494604230291501
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 952 38 68 44
+  name: Sol Torremolinos - Don Pedro
+  place_id: ChIJu2Vlye77cg0R5jDhEYvFZ9E
+  url: https://maps.google.com/?cid=15089246277619232998
+  website: https://www.melia.com/en/hotels/spain/torremolinos/sol-don-pedro?utm_medium=organic&utm_source=directories&utm_campaign=google&utm_content=2921
+endDate: 1746662400000
+claimed: No
+link: https://www.gerryflynnevents.net/costadelsalsa
+description: >-
+  
+  We're returning for another year of sun, sea and salsa in beautiful Torremolinos - come and join us from 1-8 May 2025!
+
+
+  💸 PRICES FROM 1ST OCTOBER 2024 💸
+
+
+  City View Room: £820 / €945
+
+  Pool View Room:  £850 / €945
+
+
+  Single supplement: £225/ €259 (£32/€37 per night)
+
+
+
+  ✨ WHAT TO EXPECT ✨
+
+
+  Dust off your dance shoes and get ready to jet off to Torremolinos, in the heart of the Costa Del Sol, for an SBK holiday like no other!
+
+
+  Fill your days with a packed programme of over 50 classes, featuring  cross body salsa, cuban salsa, rueda de casino, kizomba, semba, bachata, cha cha, reggaeton, bachatango, Latin hustle, threesomes and more! Or if your feet need a rest, you can always relax by the pool, take a stroll by the seafront or enjoy the nearby beaches! 
+
+
+  NEW for this year, we have access to an outdoor space by the pool, perfect for some daytime social dancing, games, line-ups and practice before the evening parties!
+
+
+  And when the sun sets, the magic begins. Join us for our social dances every evening, featuring shows, line-ups and a chance to dance with our teachers. We'll also have a White Night, Fancy Dress Party and a visit to the local salsa club!
+
+
+  If you love SBK,  this holiday is not to be missed. We can't wait to welcome you to the Costa Del Sol. 
+
+
+  =============
+
+
+  ✨ WHAT'S INCLUDED ✨
+
+
+  💃 Meet & greet at Malaga Airport and transfer to the 4* Hotel Don Pedro, Torremolinos.
+
+  💃 7 nights dinner, bed and breakfast
+
+  💃 Full beginners programme
+
+  💃 Shows and animations every evening
+
+  💃 Poolside Dancing & Games
+
+  💃 White Party Night
+
+  💃 Fancy Dress Night
+
+  💃 Visits to local salsa club (optional)
+
+  💃 Optional Daily Excursions
+
+  💃 Full time services of our event management team
+
+
+  =============
+
+
+
+  ✨ Teachers & DJs ✨
+
+
+  💃 Rohan Brown
+
+  💃 Mauricio Reyes
+
+  💃 Rasa Pauzaite
+
+  💃 Sagi Iluz
+
+  💃 Paco & Lucie
+
+  💃 Fernando Traquino
+
+  💃 Frank Tshiteya
+
+  💃 Adele Marsh 
+
+  💃 Piret Annus
+
+  💃 Tony & Carolina 
+
+  💃 Joanne & Graham 
+
+
+  =============
+
+
+  ✨ WHAT OUR CUSTOMERS SAY ✨
+
+
+  "It was amazing, keep doing what you are doing"
+
+
+  "Hotel fantastic, resort fantastic, airport transfers excellent for lone lady traveller"
+
+
+  "It's a fantastic holiday, and this year was one of the best Costa Del Salsa yet"
+
+
+  "It was our first salsa holiday and I cannot think of a way of making it better!"
+
+
+  =============
+
+
+  Please note:
+
+
+  The entertainment featured is correct at the time of printing. In the unlikely event that an artist is unable to appear for whatever reason, then Gerry Flynn Events cannot be held responsible.
+
+
+  Flights are not included in this programme. All you then need to do is tell us the flight you have booked, and we will be at the airport to meet you and transfer you to the hotel.
+
+
+  On the other hand, if you would like us to book your flight for you, we will be delighted to help! Just call the office on 00 44 (0) 1254 44 50 50
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293940/zvzl7vd46psqgdktozjk.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJq9tli437cg0RSLm_ruiL1Cw
+international: No
+visibility: Public
+org:
+  id: k8wVFOiu1mlhqGOA0U3z
+  username: costadelsalsa
+  name: Costa Del Salsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953806/v5ytnjk4bidvzedjyre1.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/costadelsalsa
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/364754339903528/
+facebookId: "364754339903528"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Costa Del Salsa 2025 - 1-8 May 2025 "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1746115200000+ChIJu2Vlye77cg0R5jDhEYvFZ9E
+startDate: 1746115200000
+id: ZcH02zlIR8mFaCbx9VWq

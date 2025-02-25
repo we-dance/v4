@@ -1,0 +1,137 @@
+endDate: 1719799200000
+sourceUrl: https://www.facebook.com/events/1255491368759516/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712899098000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714300146000
+facebookId: "1255491368759516"
+facebook: https://www.facebook.com/events/1255491368759516/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1255491368759516/
+eventType: Party
+providerItemId: e1255491368759516@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Marc Anthony in Hamburg "
+location: Hamburgo, Alemania
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719788400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Hamburg
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.732151000000002
+        lat: 53.399999
+      northeast:
+        lng: 10.123492
+        lat: 53.717145
+    location:
+      lng: 9.987170299999999
+      lat: 53.5488282
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  url: https://maps.google.com/?q=Hamburg,+Germany&ftid=0x47b161837e1813b9:0x4263df27bd63aa0
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444471873
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/coco.molina76
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444472/cqezszmjvw6unzqjrtdh.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444471873
+  owned: false
+  name: Coco Molina Music
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1715444471873
+  username: coco.molina76
+claimed: No
+link: https://icebreakerevents.ticket.io/egrk8e2r/?fbclid=IwZXh0bgNhZW0CMTEAAR1pbXlIwwcnORwSKw-IK8yiIkH7cvEsrPRj40kGWGg-2n7qWroyPxEJnec_aem_ASTx6LsdJ_uSfjHTuwIt2L-bLsXCjb6qC584KVzEeeGcVWQUj0p8uJoMV1rMkaKJcm8lEu2mKuLTaKzovq_o7m2w
+description: >-
+  Marc Anthony Live in Hamburg! 
+
+
+  Erlebe den "King of Salsa" live in Hamburg in der Barcleys Arena !
+
+  Marc Anthony, bekannt für seine einzigartige Stimme und sein unvergleichliches Talent, kommt nach Hamburg und verspricht ein unvergessliches Konzert.
+
+  Seine Konzerte und mitreißende Show sind ein unvergesslichen Erlebnis.
+
+  Weltweit hat Marc Anthony mehr als 12 Millionen Alben verkauft und ist einer der bekanntesten und größten Salsasänger der Welt.
+
+
+  Von seinen ikonischen Hits wie “Vivir Mi Vida” , "Valió la Pena" bis hin zu emotionalen Balladen wird dieses Konzert deine Seele berühren 
+
+  denn Marc Anthony ist mehr als nur ein Sänger - er ist ein Symbol der lateinamerikanischen Kultur und ein Meister seines Handwerks. 
+
+  Seine Musik spricht zu Menschen auf der ganzen Welt und verbindet sie durch die universelle Sprache der Musik.
+
+  Diese Konzert ist ein Muss für alle Fans der lateinamerikanischer Musik und Popmusik 
+
+
+
+  Datum: 30.Juni 2024
+
+  Uhrzeit: 18:00
+
+  Ort: Barclays Arena Hamburg , Sylvesterallee 10 
+
+  Tickets online ab nächste Woche zu kaufen 
+
+
+  #MarcAnthony #Hamburg  #Kingofsalsa #Barclysarena 
+
+  🔥💃🎶
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444473/z2j9jtbtphg41auasgwi.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1719788400000+ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtVR6fWPdxCd0MKSLb5Tz.png?generation=1715444493747702&alt=media
+viewsCount: 6
+id: tVR6fWPdxCd0MKSLb5Tz

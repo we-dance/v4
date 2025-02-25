@@ -1,0 +1,123 @@
+isNew: true
+facebookId: "565345635963897"
+facebookUrlsList:
+  - https://www.facebook.com/events/565345635963897/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729173633154
+updatedAt: 1729173633154
+importedAt: 1729173633154
+providerId: FDwgzaLrddKSK3dKkP1k
+providerItemId: e565345635963897@facebook.com
+name: Afro Dance Workshop (Open Level)
+providerCreatedAt: 1729148125000
+providerUpdatedAt: 1729148125000
+startDate: 1729351800000
+endDate: 1729355400000
+facebook: https://www.facebook.com/events/565345635963897/
+sourceUrl: https://www.facebook.com/events/565345635963897/
+location: Martin-Behaim Straße 3, 81373 München, Germany
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Workshop
+approved: true
+username: kizztalkdanceacademy
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+venue:
+  address_components:
+    - long_name: "3"
+      short_name: "3"
+      types:
+        - street_number
+    - long_name: Martin-Behaim-Straße
+      short_name: Martin-Behaim-Straße
+      types:
+        - route
+    - long_name: Sendling-Westpark
+      short_name: Sendling-Westpark
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "81373"
+      short_name: "81373"
+      types:
+        - postal_code
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  geometry:
+    location:
+      lat: 48.124631
+      lng: 11.5373539
+    viewport:
+      northeast:
+        lat: 48.1259693302915
+        lng: 11.5388131802915
+      southwest:
+        lat: 48.1232713697085
+        lng: 11.5361152197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Martin-Behaim-Straße 3
+  place_id: ChIJu8gT57PYnUcRvMTO4zzh3yw
+  url: https://maps.google.com/?q=Martin-Behaim-Stra%C3%9Fe+3,+81373+M%C3%BCnchen,+Germany&ftid=0x479dd8b3e713c8bb:0x2cdfe13ce3cec4bc
+visibility: Public
+org:
+  id: 5DxynglUsETxslO7UZaBnTrOi5I3
+  username: kizztalkdanceacademy
+  name: Kizztalk Dance Academy
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+  bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+    zu kommunizieren, sich au
+  instagram: https://www.instagram.com/kizztalk_/
+  facebook: https://www.facebook.com/kizztalk
+  tiktok: https://www.tiktok.com/@fajul.kizztalk
+  youtube: https://www.youtube.com/channel/UCu7v9SrjKERG7GN_SdwtfOQ
+claimed: No
+link: http://www.kizztalk.de/
+description: Wir tanzen eine Stunde gemeinsam Afro Dance, geeignet für alle die
+  mal Reinschnuppern wollen, aber auch für alle die einfach Lust haben eine
+  Stunde gemeinsam zu tanzen und ihr Können verfeiern wollen. Wir freuen uns auf
+  euch!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729173642/zssmnduj4xldy9q1lfcv.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1729351800000+ChIJu8gT57PYnUcRvMTO4zzh3yw
+id: Px06pCbhhgYqT1KJsGqF

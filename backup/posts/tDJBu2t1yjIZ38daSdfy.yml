@@ -1,0 +1,136 @@
+endDate: 1710633600000
+sourceUrl: https://www.facebook.com/events/393307770010891
+createdAt: 1710176532300
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710155051000
+updatedAt: 1710176532300
+importedAt: 1710176532300
+providerUpdatedAt: 1710155051000
+facebookId: "393307770010891"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/393307770010891
+eventType: Party
+providerItemId: 10008568-1710547200-1710633599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: DanceFloor Szeged, Felső Tisza-part 10., Szeged, 6721, Magyarország
+startDate: 1710547200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Szeged, Felső Tisza-Part 10, 6721 Hungary
+  website: http://dancefloorszeged.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dancefloor Szeged Tánciskola
+  geometry:
+    viewport:
+      southwest:
+        lng: 20.1579187697085
+        lat: 46.2549902197085
+      northeast:
+        lng: 20.1606167302915
+        lat: 46.2576881802915
+    location:
+      lng: 20.1592515
+      lat: 46.25637800000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Felső Tisza-Part
+      long_name: Felső Tisza-Part
+    - types:
+        - locality
+        - political
+      short_name: Szeged
+      long_name: Szeged
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "6721"
+      long_name: "6721"
+  international_phone_number: +36 20 254 2029
+  place_id: ChIJlU-F_3SIREcR3vxd1Aayl-0
+  url: https://maps.google.com/?cid=17120348250874707166
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1710176544631
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Dancefloorszeged
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710176545/hckgoxgn1qk0uhysmbww.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1710176544631
+  owned: false
+  name: DanceFloor Szeged
+  place: ChIJS-XMK-KHREcRkBEeDCnEAAQ
+  updatedAt: 1710176544631
+  username: Dancefloorszeged
+claimed: No
+facebook: https://www.facebook.com/events/393307770010891/
+link: ""
+description: >-
+  ★ Március 16-án Urban Salsa és Sensual 2 termes bulira várunk DanceFloorba!
+
+
+  ★ A Salsa teremben Tibi, a Sensual teremben Somi állítja össze a zenéket!
+
+  ★ Az előtérben a Number One Pub bárpultjának remek koktél- és italkínálatából fogyaszthattok! 
+
+
+  ★ Részvételi díj: 2 000 Ft/fő!
+
+
+  ★ Éld át Te is a tánc örömét! 
+
+
+  Figyelem! 
+
+  A rendezvényre ételt, italt behozni tilos! Kérjük, hogy a bárpult szolgáltatásait vegyetek igénybe! 
+
+
+  Extra!
+
+  #1 Március 16-án a Cuba?Sí! Tánciskola workshopjain vehettek részt!
+
+  #2 Ezen a napon SzlaVi Dance Art szervezésében Bachata Lady Style workshopon is részt vehettek:
+
+  https://www.facebook.com/events/1133684607660236/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710176546/iovj73ufea0mi7ilzhwk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Urban Salsa és Sensual Party a DanceFloorban
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJS-XMK-KHREcRkBEeDCnEAAQ
+international: No
+hash: 1710619200000+ChIJlU-F_3SIREcR3vxd1Aayl-0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtDJBu2t1yjIZ38daSdfy.png?generation=1710176562856805&alt=media
+id: tDJBu2t1yjIZ38daSdfy

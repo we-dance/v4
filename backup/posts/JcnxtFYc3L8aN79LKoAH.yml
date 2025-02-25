@@ -1,0 +1,111 @@
+venue:
+  website: http://salsamas-pasing.de/
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "3"
+      short_name: "3"
+    - types:
+        - route
+      long_name: Am Schützeneck
+      short_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Pasing-Obermenzing
+      short_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81241"
+      short_name: "81241"
+  url: https://maps.google.com/?cid=8948474523406618165
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  geometry:
+    viewport:
+      south: 48.1464650697085
+      north: 48.1491630302915
+      east: 11.4637166802915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  international_phone_number: +49 89 17929039
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+endDate:
+  _seconds: 1645916400
+  _nanoseconds: 0
+claimed: No
+link: https://salsamas-pasing.de/de/course/details/388
+description: https://salsamas-pasing.de/de/course/details/388
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F88176a40-b5ce-41a0-8ff9-051f686f421a?alt=media&token=e03084b5-f940-4532-ac6b-ee38a3e2e75d
+duration: "180"
+promo: No
+createdAt: 1645746949658
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1645746949658
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org:
+  youtube: ""
+  facebook: ""
+  bio: ""
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsalsamasmunich.png?generation=1644169115888529&alt=media
+  instagram: salsamasmunich
+  tiktok: ""
+  name: Salsamás Munich
+  id: 4zHtG37DLPtSiFK0DQJZ
+  username: salsamasmunich
+eventType: Party
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: SALSAMÁS SOCIAL
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-26T21:00
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+viewsCount: 11
+id: JcnxtFYc3L8aN79LKoAH

@@ -1,0 +1,37 @@
+visibility: Public
+timezone: GMT+0100
+type: Dancer
+community: Karlsruhe
+createdAt: 1615660528163
+locales:
+  de: true
+createdBy: h58LYKy0AgSAU3YO2w0O3zmR5Bn2
+name: Dani
+daysUsed: 1
+pwaUsed: false
+teacher: No
+gender: Female
+partner: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh58LYKy0AgSAU3YO2w0O3zmR5Bn2%2F0ca32338-36ce-4c79-871f-db3a79b875b5?alt=media&token=1672f1b5-24d6-4fcb-a845-a0483f3f11ff
+location:
+  country: Germany
+  latitude: 49.0068901
+  locality: Karlsruhe
+  usedGps: false
+  place_id: ChIJCXjgokgGl0cRf-63THNV_LY
+  longitude: 8.4036527
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+story: "Fröhliche, ehrliche Leute treffen, tanzen. "
+username: Elisa
+lastLoginAt: 1615661040603
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FElisa.png?generation=1616854738149201&alt=media
+hometown: ChIJCXjgokgGl0cRf-63THNV_LY
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+updatedAt: 1617064582231
+viewsCount: 2
+id: h58LYKy0AgSAU3YO2w0O3zmR5Bn2

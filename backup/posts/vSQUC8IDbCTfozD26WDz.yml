@@ -1,0 +1,115 @@
+endDate: 1725217200000
+sourceUrl: https://www.facebook.com/events/1203037377692939
+createdAt: 1725199228439
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1724751086000
+updatedAt: 1725199228439
+importedAt: 1725199228439
+providerUpdatedAt: 1724751086000
+facebookId: "1203037377692939"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1203037377692939
+eventType: Party
+providerItemId: 47952-1725210000-1725217200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Városháza tér, Dunaújváros, Városháza tér, Dunaújváros, 2400, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725210000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Dunaújváros, 2400 Hungary
+  website: http://www.dunaujvaros.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Dunaújváros
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.86045602159263
+        lat: 46.8897880562785
+      northeast:
+        lng: 18.96572502070232
+        lat: 47.00196602910138
+    location:
+      lng: 18.9355227
+      lat: 46.9619059
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Dunaújváros
+      long_name: Dunaújváros
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2400"
+      long_name: "2400"
+  place_id: ChIJ9_3lBRoXQkcRwBIeDCnEAAQ
+  url: https://maps.google.com/?q=Duna%C3%BAjv%C3%A1ros,+2400+Hungary&ftid=0x4742171a05e5fdf7:0x400c4290c1e12c0
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+facebook: https://www.facebook.com/events/1203037377692939/
+link: ""
+description: |-
+  💦🌴💦🌴Szabadtéri szösszenet Dunaújváros városában
+  👌 A lapos cipő a kényelem és a tánctér miatt is erősen javasolt!
+  - Nyári éjszakák melegét átbekkelve😍😎
+  🤩☀️ ..
+  ===💥Salsa - 💥Bachata - Kizomba===
+  OpenAir party💋💋
+
+  ⏰ Időpont: 2024. szeptember 1. vasárnap
+  ⚡️🌧💦 eső esetén elmarad.🌧💦
+  17:00-19:00 party
+
+  📍Helyszín: Dunaújváros, Városháza tér
+
+  📬info@dolce-dance.com
+  📬www.dolce-dance.com
+  ☎️+36305153951
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725199240/isaisbql6mxcd5hdkeat.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Hot Summer Open Air Salsa-Sensual Party -Dunaújváros
+online: No
+place: ChIJ9_3lBRoXQkcRwBIeDCnEAAQ
+international: No
+hash: 1725202800000+ChIJ9_3lBRoXQkcRwBIeDCnEAAQ
+id: vSQUC8IDbCTfozD26WDz

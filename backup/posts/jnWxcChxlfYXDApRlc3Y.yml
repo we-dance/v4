@@ -1,0 +1,105 @@
+venue:
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  website: http://www.salsa-mas.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  international_phone_number: +49 172 8216569
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+endDate: 2022-03-03T19:30
+claimed: No
+link: https://www.salsamas.de/de/course/details/375
+description: Dieser Kurs baut auf den Beginner I auf. Die erlernten Elemente
+  werden zu kleinen Figuren (Pick a Boo/Copa, Linke Drehung) kombiniert und in
+  verschiedenen Formen miteinander variiert. Dazu werden weitere Aufbauelemente
+  gezeigt - Ihre Basiskenntnisse werden erweitert und vertieft. Der Beginner II
+  dauert auch drei Monate lang. In dieser Zeit werden die Meilensteine für den
+  Beginner III gelegt.
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fecfe3f2a-e592-472b-81ca-0836ee5273b2?alt=media&token=7eb814b6-514d-450d-bf79-a71e2322bb61
+createdAt: 1646042382523
+artists: []
+price: "Einzelanmeldung: 79 € p. Person (4x 75 Min.) / Studenten: 69 € "
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646042382523
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+name: Salsa Beginner II
+online: Yes
+styles:
+  SalsaLA:
+    level: Beginner
+    highlighted: false
+    selected: true
+startDate: 2022-03-03T18:15
+username: Salsamas_Munich
+viewsCount: 3
+id: jnWxcChxlfYXDApRlc3Y

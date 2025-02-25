@@ -1,0 +1,35 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1647557343956
+locales:
+  en: true
+createdBy: RimXZ0wFPqaWmSqBiJw2SIwUfqw2
+name: Owen
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+daysUsed: 1
+pwaUsed: false
+gender: Male
+partner: ""
+bio: In search of connection…flow!!
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRimXZ0wFPqaWmSqBiJw2SIwUfqw2%2Fb4189d7e-0702-4e2e-aa5c-9bad3c59cb74?alt=media&token=56d2545d-b147-406a-94d1-fccff0d7ade4
+learning: Salsa Cubana, Son Cubano
+permission: ""
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1647557832504
+lastLoginAt: 1647557889222
+username: OwKe
+id: RimXZ0wFPqaWmSqBiJw2SIwUfqw2

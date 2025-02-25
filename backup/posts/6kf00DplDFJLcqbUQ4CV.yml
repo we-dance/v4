@@ -1,0 +1,103 @@
+venue:
+  formatted_address: Heßstraße 48b, 80798 München, Germany
+  website: https://salsea.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsea Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5672813802915
+      south: 48.1507940697085
+      north: 48.1534920302915
+      west: 11.5645834197085
+    location:
+      lng: 11.5661696
+      lat: 48.15226719999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 48b
+      long_name: 48b
+    - types:
+        - route
+      short_name: Heßstraße
+      long_name: Heßstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  international_phone_number: +49 176 61830740
+  place_id: ChIJpTxPR1XZnUcRER0LZABcUuE
+  url: https://maps.google.com/?cid=16236140763372264721
+  username: SALSEA
+endDate: 1729962000000
+claimed: No
+description: Prepare for an Afternoon with these amazing salsa caleña class
+  artists direct from Colombia! 3 hours of high intensity dance and unlimited
+  fun.
+program: []
+type: event
+duration: 300
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJkMWLbe51FNMc9zxxygLirl7Pg32%2F8e56aa50-af8a-4608-a3f9-ff330b57cee5?alt=media&token=c8f27c1e-c91a-4b16-bd64-66bd795ab6d4
+createdAt: 1723357703936
+artists: []
+price: 75€
+limit: "60"
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1723357703936
+updatedBy: JkMWLbe51FNMc9zxxygLirl7Pg32
+visibility: Public
+org:
+  username: Salsacalimuc
+eventType: Workshop
+confirmation: Thanks for joining and your support! See you on the dance floor !
+form: No
+createdBy: JkMWLbe51FNMc9zxxygLirl7Pg32
+watch:
+  count: 1
+  list:
+    Salsacalimuc: true
+name: Salsa Caleña Masterclass (Tatan Hernandez & Yinessa Ortega)
+online: No
+styles:
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729944000000
+username: Salsacalimuc
+viewsCount: 3
+id: 6kf00DplDFJLcqbUQ4CV

@@ -1,0 +1,33 @@
+visibility: Members
+timezone: GMT+0200
+type: Dancer
+createdAt: 1633198442305
+createdBy: BYCBafXcIjhvKWJ6CHHKBDB6fg62
+name: Tiziana
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Tiziana
+pwaUsed: false
+cities: {}
+updatedAt: 1635723972308
+gender: Female
+contacts: ""
+locales:
+  de: true
+  en: true
+  it: true
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  SalsaNewYork:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Advanced
+    highlighted: false
+    selected: true
+daysUsed: 21
+lastLoginAt: 1645285149043
+viewsCount: 2
+id: BYCBafXcIjhvKWJ6CHHKBDB6fg62

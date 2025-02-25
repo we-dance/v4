@@ -1,0 +1,146 @@
+endDate: 1729897200000
+sourceUrl: https://www.facebook.com/events/226157976624829/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1691661344000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1715937682000
+facebookId: "226157976624829"
+facebook: https://www.facebook.com/events/226157976624829/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/226157976624829/
+eventType: Festival
+providerItemId: e226157976624829@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Adam Bachata Night - Grand Opening 15 October
+location: Toekomstmuziek
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729872000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Danzigerbocht 29, 1013 AM Amsterdam, Netherlands
+  website: http://toekomstmuziek.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Toekomstmuziek
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.874227719708498
+        lat: 52.3952348197085
+      northeast:
+        lng: 4.876925680291503
+        lat: 52.3979327802915
+    location:
+      lng: 4.875716400000001
+      lat: 52.39670419999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Danzigerbocht
+      long_name: Danzigerbocht
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westpoort
+      long_name: Westpoort
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 1013 AM
+      long_name: 1013 AM
+  international_phone_number: +31 6 43010281
+  place_id: ChIJ_7lD2tYJxkcRk6dFqe5htI8
+  url: https://maps.google.com/?cid=10355009120901638035
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718719264672
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/AdamBachataFestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718719264/lq2upfm7nbageoykdymb.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718719264672
+  owned: false
+  name: Adam Bachata Festival
+  place: ChIJVXealLU_xkcRja_At0z9AGY
+  updatedAt: 1718719264672
+  username: AdamBachataFestival
+claimed: No
+link: https://www.latinworld.nl/buyticket.php?id=92630&ref
+description: >-
+  **BACHATEROS, WE ARE SORRY TO INFORM THAT WE HAVE TO POSTPONE THIS EVENT**
+
+  We are finalising the new date and will let you know asap!
+
+
+  Ready for something new?
+
+
+  We plan to organize some cool Bachata nights within the year in a brand new venue (very modern and underground) with the same Adam vibes, hosting national and international artists and DJs.
+
+
+  Do not miss the Grand Opening on the 15th of October with:
+
+  ❌6:00pm – 7:00 pm Bachata Workshop with Latin Dance Evolution (Belgium)
+
+  ❌7:00pm – 1:00am Bachata Social party with DJ Oficial Bachatero (Germany)
+
+  ❌More surprises to come..
+
+
+  Early bird price: 5 euro
+
+
+  Web site: https://www.adambachatafestival.com/night
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719265/t4zmqphjggoo0whraan6.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJVXealLU_xkcRja_At0z9AGY
+international: No
+hash: 1729872000000+ChIJ_7lD2tYJxkcRk6dFqe5htI8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FikesRmDXuoS2MMIH3gmn.png?generation=1718719288396873&alt=media
+id: ikesRmDXuoS2MMIH3gmn

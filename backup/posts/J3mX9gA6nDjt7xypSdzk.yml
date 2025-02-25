@@ -1,0 +1,186 @@
+endDate: 1722807900000
+sourceUrl: https://www.facebook.com/events/771250737737671/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1708336238000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1708773469000
+facebookId: "771250737737671"
+facebook: https://www.facebook.com/events/771250737737671/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/771250737737671/
+eventType: Festival
+providerItemId: e771250737737671@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Lento Dance Festival - Bachata/Salsa Outdoors Festival
+location: Vcbc - Vienna City Beach Club
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722610800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Am Kaisermühlendamm 106, 1220 Wien, Austria
+  website: http://www.vcbc.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Vienna City Beach Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.4279191697085
+        lat: 48.2164010197085
+      northeast:
+        lng: 16.4306171302915
+        lat: 48.2190989802915
+    location:
+      lng: 16.429069
+      lat: 48.2176161
+  address_components:
+    - types:
+        - street_number
+      short_name: "106"
+      long_name: "106"
+    - types:
+        - route
+      short_name: Am Kaisermühlendamm
+      long_name: Am Kaisermühlendamm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Donaustadt
+      long_name: Donaustadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1220"
+      long_name: "1220"
+  international_phone_number: +43 1 9974023
+  place_id: ChIJP-qvsCgHbUcR9dcgg0Mkrkk
+  url: https://maps.google.com/?cid=5309220883097769973
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/lento.club
+  name: Lento Club Wien
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220943/hxewvvwhqwnew3arpzej.jpg
+  bio: ""
+  id: Xd7YaeXQULPE1lSuEoRL
+  instagram: ""
+  username: lento.club
+claimed: No
+link: https://www.eventbrite.at/e/lento-dance-festival-bachatasalsa-outdoors-festival-tickets-842661763017
+description: >-
+  🌟 Get ready to spice up your summer at the first edition of Lento Dance
+  Outdoors Festival! 🌴✨
+
+
+  Whether you're a dance floor pro or just starting, this fest is for YOU.
+
+
+  🕺💃 What's in store:
+
+  ⏩ 30+ Bachata & Salsa Workshops for all levels
+
+  ⏩ Live shows with international dancers
+
+  ⏩ Open-air Dance floors at the Danube
+
+  ⏩ x3 Open-air Social Dance Parties
+
+
+  📅 Dates: August 2nd - August 4th
+
+
+  🌅 Where: Vienna City Beach Club (VCBC)
+
+
+  📙 Lineup:
+
+  ⏩ Magda & Valeria (Bachata Moderna 2.0)
+
+  ⏩ DJ York & Lisa (Bachata Sensual)
+
+  ⏩ Jules (Bachata Sensual)
+
+  ⏩ Karina Osorio (Bachata Dominicana & Salsa LA)
+
+  ⏩ Laurenz & Olga (Bachata Sensual)
+
+  ⏩ Kate Gutnichenko (Salsa LA)
+
+  ⏩ Chris Lee (Salsa Cubana)
+
+  ⏩ Sana & Dragana (Bachata Sensual)
+
+  ⏩ Cheeky & Nathalie (Bachata Dominicana & Salsa LA)
+
+  ⏩ Peter & Pamela (Bachata Sensual)
+
+  ⏩ Johannes Zare  & Mel Louise (Bachata Sensual)
+
+  🎧 DJ York
+
+  🎧 DJ Andy
+
+  🎧 DJ Infinity
+
+
+
+  🎟️ Tickets:
+
+  ❗FIRST-STAGE of Early bird tickets are available now for limited time:
+
+  https://www.eventbrite.at/e/lento-dance-festival-bachatasalsa-outdoors-festival-tickets-842661763017
+
+
+  Let's make this summer unforgettable on the dance floor!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224681/mhtd4tsdsh1tdfyevlts.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1722610800000+ChIJP-qvsCgHbUcR9dcgg0Mkrkk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJ3mX9gA6nDjt7xypSdzk.png?generation=1711224705968370&alt=media
+viewsCount: 3
+id: J3mX9gA6nDjt7xypSdzk

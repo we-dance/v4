@@ -1,0 +1,96 @@
+venue:
+  formatted_address: Carrer de Marià Cubí, 4, 08006 Barcelona, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Carrer de Marià Cubí, 4
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 2.152755030291502
+      south: 41.3980294197085
+      north: 41.4007273802915
+      west: 2.150057069708498
+    location:
+      lng: 2.1513554
+      lat: 41.39942569999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Carrer de Marià Cubí
+      long_name: Carrer de Marià Cubí
+    - types:
+        - locality
+        - political
+      short_name: Barcelona
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "08006"
+      long_name: "08006"
+  place_id: ChIJMdW16JiipBIRAsBIcWdmv-c
+  url: https://maps.google.com/?q=Carrer+de+Mari%C3%A0+Cub%C3%AD,+4,+08006+Barcelona,+Spain&ftid=0x12a4a298e8b5d531:0xe7bf66677148c002
+endDate: 2023-04-09T23:00
+claimed: No
+link: ""
+description: This Sunday release your Latin energy with our dance workshop.
+  Learn to dance with Fito and Robert while you meet new people and enjoy the
+  Caribbean atmosphere at Sabor Cubano and their authentic mojitos.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTtvD4tUaMCRQkRyKgdDHpyAWt533%2F967f49ea-fdc6-4372-8828-ebf3ac11407c?alt=media&token=aca19231-070b-4a69-a748-4ea4f6aed19e
+createdAt: 1680527990220
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+international: No
+updatedAt: 1680527990220
+updatedBy: TtvD4tUaMCRQkRyKgdDHpyAWt533
+visibility: Public
+org:
+  instagram: https://instagram.com/elsaborcubano
+  username: elsaborcubano
+eventType: Workshop
+confirmation: |-
+  The workshop will start with 1 hour of Bachata, and 1 hour of Salsa.
+  Admission is free with a minimum of one drink.
+form: No
+createdBy: TtvD4tUaMCRQkRyKgdDHpyAWt533
+watch:
+  count: 1
+  list:
+    Oana: true
+name: Salsa and Bachata workshop
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-09T20:00
+username: Oana
+viewsCount: 51
+id: ms5x8YYc1NZFFi6eTs2K

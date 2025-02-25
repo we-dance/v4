@@ -1,0 +1,164 @@
+endDate: 1719527400000
+sourceUrl: https://www.facebook.com/events/772041128061937
+createdAt: 1719324030602
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1719244961000
+updatedAt: 1719324030602
+importedAt: 1719324030602
+providerUpdatedAt: 1719244961000
+facebookId: "772041128061937"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/772041128061937
+eventType: Party
+providerItemId: 10009066-1719514800-1719527400@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Easy Living -Fagylalt és Találkapont, Nagy Duna sétány 3., Esztergom, 2500
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719514800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Esztergom, Nagy Duna stny. 3, 2500 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: Easy Living Fagylalt és találkapont
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.7303427197085
+        lat: 47.7889184197085
+      northeast:
+        lng: 18.7330406802915
+        lat: 47.7916163802915
+    location:
+      lng: 18.7317463
+      lat: 47.79024810000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Nagy Duna stny.
+      long_name: Nagy Duna sétány
+    - types:
+        - locality
+        - political
+      short_name: Esztergom
+      long_name: Esztergom
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2500"
+      long_name: "2500"
+  international_phone_number: +36 30 866 8462
+  place_id: ChIJNT9XUUthakcRG4pSVc2iOcI
+  url: https://maps.google.com/?cid=13995396319813995035
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719324043918
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Salsa.Bachata.Esztergom
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719324044/llbthg1fn47eop835chj.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719324043918
+  owned: false
+  name: Salsa-Bachata Táncoktatás Esztergom
+  place: ChIJI3kxsSdiakcRkzd5BQwYKr4
+  updatedAt: 1719324043918
+  username: salsa-bachata.tancok
+claimed: No
+facebook: https://www.facebook.com/events/772041128061937/
+link: ""
+description: >-
+  Idén nyáron is folytatjuk a nagy sikerű Naplemente Salsa-Bachata Esteket 🌅
+  most már HARMADIK éve!!! 🤗2022>2023>2024😉
+
+  A helyszín mint mindig most is az 
+
+  Easy Living -Fagylalt és Találkapont !
+
+
+  A party és az oktatás INGYENES! Ha még nem táncoltál, gyere és próbáld ki, 19 órától tánctanítás! Tanuld meg az alapokat! 💃🕺
+
+
+  Mindenkinek ajánljuk, aki szereti a latin ritmusokat, a naplementét és a fagyit!  
+
+
+  Időpont: június 27. CSÜTÖRTÖK 19:00-tól 22:30-ig 
+
+
+  Helyszín: Nagy Duna sétány, Esztergom 
+
+  Easy Living -Fagylalt és Találkapont 
+
+
+  Közvetlenül a Duna-parton a régi komp kikötőnél. 
+
+
+  Mi várható? 
+
+  - csodás környezet
+
+  - hűsítő italok, fagyi
+
+  - naplemente 
+
+  - salsa és bachata zenék
+
+  - kezdőknek tánctanítás, egyszerű lépésekkel 
+
+  - haladóknak rueda és persze party
+
+
+  Sportcipő vagy vászoncipő ajánlott! 👟
+
+  Rossz idő esetén az esemény sajnos elmarad!
+
+
+  A részvétel ingyenes!
+
+  Parkolás a híd alatti nagy parkolóban!
+
+
+  Gyertek és táncoljunk együtt! 💃🕺
+
+  Infó: Szilágyi Diána 
+
+  szilagyidia10@gmail.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324046/l0rb18tcfjsvlphah1ng.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Naplemente Salsa-Bachata Est 06.27. HARMADIK ÉVAD!
+online: No
+place: ChIJI3kxsSdiakcRkzd5BQwYKr4
+international: No
+hash: 1719507600000+ChIJNT9XUUthakcRG4pSVc2iOcI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWWkYN5SMYuI7I5UnckMV.png?generation=1719324066572784&alt=media
+id: WWkYN5SMYuI7I5UnckMV

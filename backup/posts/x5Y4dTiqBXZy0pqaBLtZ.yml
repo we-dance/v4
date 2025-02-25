@@ -1,0 +1,194 @@
+endDate: 1711152000000
+sourceUrl: https://www.facebook.com/events/1559193448197380/
+createdAt: 1710684370486
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710231492000
+updatedAt: 1710684370486
+importedAt: 1710684370486
+providerUpdatedAt: 1710231492000
+facebookId: "1559193448197380"
+facebook: https://www.facebook.com/events/1559193448197380/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1559193448197380/
+eventType: Party
+providerItemId: 10008572-1711065600-1711151999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Széchenyi Kertvendéglő, Állatkerti Krt. 9 - 11., Budapest, 1146, Magyarország
+startDate: 1711065600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Állatkerti krt. 11, 1146 Hungary
+  website: http://www.szechenyietterem.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Széchenyi Garden Restaurant
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0821968197085
+        lat: 47.5176586197085
+      northeast:
+        lng: 19.0848947802915
+        lat: 47.5203565802915
+    location:
+      lng: 19.0834628
+      lat: 47.518943
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Állatkerti krt.
+      long_name: Állatkerti körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 30 906 1294
+  place_id: ChIJ2bya1YXbQUcRYqJkNkaxYmk
+  url: https://maps.google.com/?cid=7593826836818469474
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/aholdritmusa
+  name: Ritmo de la Luna
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765533/klnyypjqtykckqnxnwal.png
+  bio: ""
+  id: eBBGQql8ZjbSfSFG2Pzj
+  instagram: ""
+  username: aholdritmusa
+claimed: No
+link: ""
+description: >-
+  2024 Március 22-én, pénteken, Tavaszi Luna Salsa Party, 
+
+  a SZÉCHENYI KERTVENDÉGLŐBEN!
+
+  Tavaszi, vidám hangulatú bulinkra várunk sok szeretettel!
+
+  💥
+
+
+  Program:
+
+
+  ✔20:00 - Kapunyitás
+
+  ✔20:10-21:00-ig -  Kizomba Workshop - Mariann & Zsolt
+
+  ✔21:00  - 01:00 - PARTY TIME!
+
+
+  -Zsozsesz zenei válogatásaból érkeznek majd a remek zenék: Salsa minden mennyiségben, Bachata, Cha-cha-cha, Kizomba, Merenge zenékkel fűszerezve.
+
+  -Vezetett ruedákkal és hölgyválasszal is várunk az este folyamán többször is.
+
+
+  ✔01:00 - Kapuzárás (pánik nélkül :-)
+
+
+  ***************************************************
+
+
+  🩳👕
+
+  DRESS CODE
+
+  Tavaszi, vidám
+
+
+  ******************************************************
+
+
+  🧝‍♀️🦸‍♂️🙋‍♀️🙋‍♂️💃🕺
+
+
+  Csatlakozz Luna Salsa Party FB csoportunkhoz, ahol mindig friss információkat találsz a bulijainkról és itt tudod megnézni a bulin készült fotóinkat is.
+
+
+  https://www.facebook.com/groups/929827887633933 
+
+
+  ************************************************************
+
+  Várunk sok-sok szeretettel minden Lunás és nem Lunás táncost, kezdőktől a mesterekig! 😊
+
+
+  *********************************************************
+
+  Helyszín
+
+  Széchenyi Kertvendéglő
+
+  14. kerület, Állatkerti krt. 11.
+
+
+  Belépő
+
+  3 000 Ft/fő 
+
+
+  (A belépő tartalmazza a workshopon és a bulin való részvételt is. A belépő árát csak készpénzben tudod fizetni.)
+
+
+  A helyszín kérése, hogy inni-, és ennivalót nem lehet behozni. Finom italok, koktélok várnak a bárpultnál! :-) Köszönjük szépen megértéseteket!
+
+
+
+  VÁRUNK SOK SZERETETTEL! :-)
+
+  www.ritmodelaluna.hu
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684385/ccj144sz5t6erhfl90hk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Tavaszi Luna Salsa Party, március 22-én, pénteken, a Szecskában!
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1711134000000+ChIJ2bya1YXbQUcRYqJkNkaxYmk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fx5Y4dTiqBXZy0pqaBLtZ.png?generation=1710684401805434&alt=media
+viewsCount: 2
+id: x5Y4dTiqBXZy0pqaBLtZ

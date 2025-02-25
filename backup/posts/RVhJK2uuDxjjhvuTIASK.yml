@@ -1,0 +1,140 @@
+isNew: true
+facebookId: "1016224436945645"
+facebookUrlsList:
+  - https://www.facebook.com/events/1016224436945645/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731682822786
+updatedAt: 1731682822786
+importedAt: 1731682822786
+providerId: jQURPhrl5SNtE3w25jxb
+providerItemId: e1016224436945645@facebook.com
+name: Fiesta Fin de Año
+providerCreatedAt: 1729508519000
+providerUpdatedAt: 1729508760000
+startDate: 1735416000000
+endDate: 1735437600000
+facebook: https://www.facebook.com/events/1016224436945645/
+sourceUrl: https://www.facebook.com/events/1016224436945645/
+location: Die Pumpe
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: Aina
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+venue:
+  address_components:
+    - long_name: "22"
+      short_name: "22"
+      types:
+        - street_number
+    - long_name: Haßstraße
+      short_name: Haßstraße
+      types:
+        - route
+    - long_name: Mitte
+      short_name: Mitte
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Kiel
+      short_name: KI
+      types:
+        - locality
+        - political
+    - long_name: Kiel
+      short_name: Kiel
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Schleswig-Holstein
+      short_name: SH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "24103"
+      short_name: "24103"
+      types:
+        - postal_code
+  formatted_address: Haßstraße 22, 24103 Kiel, Germany
+  geometry:
+    location:
+      lat: 54.3245005
+      lng: 10.1383055
+    viewport:
+      northeast:
+        lat: 54.3258093302915
+        lng: 10.1395291802915
+      southwest:
+        lat: 54.3231113697085
+        lng: 10.1368312197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 431 2007640
+  name: The pump e.V.
+  place_id: ChIJ71YsFF1WskcRG5OMNSq-Kmk
+  url: https://maps.google.com/?cid=7578078411500589851
+  website: http://www.diepumpe.de/
+visibility: Public
+org:
+  id: ptThDAqXPie6QweLka5G
+  username: salsa.am.meer
+  name: Salsa am Meer
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707432026/huy6376ur3cqqqfaw5lr.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/salsaammeer
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >+
+  Zum Ende des Jahres wollen wir noch einmal so richtig Feiern und Spaß haben!
+  Mit den Hits des Jahres 2024 und Evergreens aus Salsa, Timba, Bachata,
+  Salsaton und Reggaeton! Es gibt Schnupperkurse, Rueda de Casino ..... lassen
+  wir es noch einmal richtig krachen! 
+
+
+  Leute, ich freue mich mega auf euch! 
+
+
+  Weitere Infos folgen ...... 
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731682840/fkgecdq7lowj7vtczgoc.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+international: No
+hash: 1735416000000+ChIJ71YsFF1WskcRG5OMNSq-Kmk
+id: RVhJK2uuDxjjhvuTIASK

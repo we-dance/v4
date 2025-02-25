@@ -1,0 +1,132 @@
+venue:
+  formatted_address: Dukelská 1093/1093, 293 01 Mladá Boleslav-Mladá Boleslav III, Czechia
+  website: http://plzenskysenk.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Restaurace Plzeňský šenk DK
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.9136319302915
+      south: 50.41215106970851
+      north: 50.41484903029151
+      west: 14.9109339697085
+    location:
+      lng: 14.9124347
+      lat: 50.4131423
+  address_components:
+    - types:
+        - street_number
+      short_name: 1093/1093
+      long_name: 1093/1093
+    - types:
+        - route
+      short_name: Dukelská
+      long_name: Dukelská
+    - types:
+        - neighborhood
+        - political
+      short_name: Mladá Boleslav III
+      long_name: Mladá Boleslav III
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mladá Boleslav
+      long_name: Mladá Boleslav
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Středočeský kraj
+      long_name: Středočeský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 293 01
+      long_name: 293 01
+  international_phone_number: +420 775 702 221
+  place_id: ChIJz25PabtVCUcReMMmxmty7Sw
+  url: https://maps.google.com/?cid=3237369514360750968
+endDate: 1706310000000
+claimed: No
+link: https://www.facebook.com/events/1028013158302034
+description: >-
+  Hola hola, nový rok si přináší nové pokusy 🙂. Kdo nic nezkusí, sice nic
+  nezkazí, ale také nic nezíská, třebas jen zkušenost (ať jakoukoliv) 🙂
+
+  Lednovou párty přesouváme z výměníku do kavárny FELICIE v Domě Kultury (Mladá Boleslav). 
+
+
+  Tentokrát si nemusíte nic sebou brát, jídlo, pití na místě 🙂 Parket menší, ale když to bude mít úspěch, pořídíme lino a parket rozšíříme 🙂 Těšíme se na vaše názory, přijďte to odzkoušet a dejte nám vědět.
+
+  Celý večer nám hudbu bude pouštět báječný DJ Lole.
+
+
+  Vstup 100 Kč.
+
+
+  Těšíme se na vás, vaše Familia.
+
+
+  p.s. Před párty je celý den bachata workshop (dopoledne Ladies styling s Jolly a odpoledne párová bachata s Emilsonem).
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F8aeeae8a-2af2-4cc9-97db-aff162a51622?alt=media&token=229f447f-eb60-469a-af07-5d45f4b97cbc
+createdAt: 1703883109357
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+price: 100 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - DjLole
+international: No
+updatedAt: 1703883109357
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/salsafamiliamladaboleslav
+  name: salsafamiliamladaboleslav
+  photo: ""
+  bio: ""
+  id: y3i0JUgG1mWwhSaalzmU
+  instagram: ""
+  username: salsafamiliamladaboleslav
+facebook: https://www.facebook.com/events/1028013158302034
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Lednová tančírna v nových prostorech!!!
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1706378400000
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWoZF4GPdOtd0it8rj2aD.png?generation=1703883119602241&alt=media
+facebookId: "1028013158302034"
+hash: 1706378400000+ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+viewsCount: 15
+id: WoZF4GPdOtd0it8rj2aD

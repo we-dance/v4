@@ -1,0 +1,119 @@
+venue:
+  formatted_address: Na výstavišti 115/1, 293 01 Mladá Boleslav-Mladá Boleslav 1, Czechia
+  website: https://www.facebook.com/Alt%C3%A1n-caf%C3%A9-gril-bar-327284021049538/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: Altánek Coctail Café bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.9093358802915
+      south: 50.4142725197085
+      north: 50.4169704802915
+      west: 14.9066379197085
+    location:
+      lng: 14.9079869
+      lat: 50.4156215
+  address_components:
+    - types:
+        - street_number
+      short_name: 115/1
+      long_name: 115/1
+    - types:
+        - route
+      short_name: Na výstavišti
+      long_name: Na výstavišti
+    - types:
+        - postal_town
+      short_name: Mladá Boleslav 1
+      long_name: Mladá Boleslav 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Okres Mladá Boleslav
+      long_name: Okres Mladá Boleslav
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Středočeský kraj
+      long_name: Středočeský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 293 01
+      long_name: 293 01
+  international_phone_number: +420 605 261 735
+  place_id: ChIJ59PteLlVCUcRGNmA6fcm3Po
+  url: https://maps.google.com/?cid=18076365850574641432
+  username: altnek.coctail.cafe.bar
+endDate: 1726171200000
+claimed: No
+link: https://www.facebook.com/events/445132268479541
+description: >-
+  Hola Salseros y Bachateros! Výstaviště v Mladé Boleslavi se znovu zaplní
+  tanečníky, přáteli, skvělou hudbou, lektory, animacemi a vystoupením, a to ve
+  čtvrtek 12. 9. od 19h.
+
+
+  Těšit se můžete na našeho nového lektora Dayrona, báječnou a božskou Mariu, hvězdného a přesto neskutečně skromného DJ Loleho, možná i Rafaela, to se uvidí 🙂
+
+
+  Chcete-li poznat našeho nového lektora Dayrona blíže a zažít s ním zábavnou Ruedu (určitě bude hlásit zajímavé figury, které neznáme), přijďte na lekci od 18h (páry se hlásit nemusí, jednotlivci prosím ano, zkusíme vás napárovat). Úroveň mírně pokročilí. Cena 250 Kč/osobu nebo 400 Kč/pár (sleva). Viz separátní událost. 
+
+
+  https://www.facebook.com/events/1635871563865757
+
+
+  Těšíme se na všechny naše boleslavské tanečníky a diváky a samozřejmě srdečně zveme naše přátelé z Liberce, Jablonce, Hradce, Pardubic, Nymburka, Ústí, Prahy a dalších spřízněných měst. Vždy si vážíme vaší návštěvy.
+
+
+  Vaše Salsa Familia Mladá Boleslav
+
+
+  p.s. Za dobrovolný příspěvek (vstupné) budeme moc vděčni.
+program: []
+type: event
+duration: 180
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Fef2b691f-c17d-4cf4-b23e-0aa927bebdef?alt=media&token=5c717d23-9d50-4a6b-866a-5b0d04977771
+createdAt: 1723417622215
+artists: []
+price: 250 Kc
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1723417622215
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  role: dj
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Velká letní tančírna vol.2
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726160400000
+hash: 1726160400000+ChIJ59PteLlVCUcRGNmA6fcm3Po
+username: DjLole
+viewsCount: 1
+id: p5prIPms25BBcJHL9VYV

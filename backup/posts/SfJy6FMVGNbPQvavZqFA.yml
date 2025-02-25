@@ -1,0 +1,82 @@
+venue:
+  formatted_address: Bristol, UK
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Bristol
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -2.450902404174833
+      south: 51.39254527703832
+      north: 51.54443262264671
+      west: -2.730532637989797
+    location:
+      lng: -2.58791
+      lat: 51.454513
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Bristol
+      long_name: Bristol
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Bristol City
+      long_name: Bristol City
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+  place_id: ChIJYdizgWaDcUgRH9eaSy6y5I4
+  url: https://maps.google.com/?q=Bristol,+UK&ftid=0x4871836681b3d861:0x8ee4b22e4b9ad71f
+endDate: 1710025200000
+claimed: No
+link: https://www.kaleidoscopefusion.com/news/kaleidoscope-xxl-2024-fusion-weekender
+description: >-
+  Kaleidoscope XXL is all about the music and the parties
+
+
+  If you’ve been to one of our monthly nights then imagine that, cranked up 6 notches.
+
+
+  We're hard at work securing the best venues, hunting down the most fusionable live acts and making plans for maximum magic.
+
+
+  We'll also have daytime skill shares showcasing our best local talent, so if you're newer to fusion you have some tricks to bring to the dancefloor each night.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb379bb53-25d0-407c-9500-70129a537c9d?alt=media&token=270c8bb6-b069-4e94-9e38-7ca997632309
+createdAt: 1709739485335
+artists: []
+place: ChIJYdizgWaDcUgRH9eaSy6y5I4
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org: {}
+eventType: Festival
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Kaleidoscope XXL
+online: No
+styles: {}
+startDate: 1709852400000
+hash: 1709852400000+ChIJYdizgWaDcUgRH9eaSy6y5I4
+username: alexrazbakov
+viewsCount: 1
+price: ""
+id: SfJy6FMVGNbPQvavZqFA
+updatedAt: 1709739500503
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSfJy6FMVGNbPQvavZqFA.png?generation=1709739506585097&alt=media
+provider: www.dance-events.info
+providerId: "2598"

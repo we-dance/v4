@@ -1,0 +1,187 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1619706905983
+createdBy: lFe9JFjMOTMmKG4q7NMaq64ljAh2
+name: dancekathidance
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: dancekathidance
+pwaUsed: false
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+locales:
+  de: true
+  en: true
+  es: true
+updatedBy: lFe9JFjMOTMmKG4q7NMaq64ljAh2
+id: lFe9JFjMOTMmKG4q7NMaq64ljAh2
+updatedAt: 1619706957708
+permission: Yes
+teacher: No
+meetingPlace:
+  public: true
+partner: Yes
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  talk: true
+email: kathi@dancekathidance.de
+contacts: Yes
+height: "172"
+story: "Hi, I'm a dancer and the dance podcast host of \"dance kathi dance\"
+  (german podcast). I love to explore different dance styles & techniques, share
+  my experience and don't take myself to serious. I strongly believe that any
+  body can dance - regardless of age, gender, experience etc. "
+styles:
+  Charleston:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Beginner
+    highlighted: false
+    selected: true
+  TangoOrientalUruguayan:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoSalon:
+    level: Interested
+    highlighted: false
+    selected: true
+  Pachanga:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Modern:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Flamenco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Vogue:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  ElectricBoogaloo:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Advanced
+    highlighted: false
+    selected: true
+  LindyHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  PoleDancing:
+    level: Interested
+    highlighted: false
+    selected: true
+  Swing:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoNuevo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Popping:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Afro:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Twerking:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Locking:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SalsaNewYork:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Pasodoble:
+    level: Interested
+    highlighted: false
+    selected: true
+  ChaChaCha:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Ballet:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  BellyDance:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Contemporary:
+    level: Beginner
+    highlighted: false
+    selected: true
+  WestCoastSwing:
+    level: Interested
+    highlighted: false
+    selected: true
+  House:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SalsaCalena:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Jive:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Jazz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  HighHeels:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+  EastCoastSwing:
+    level: Interested
+    highlighted: false
+    selected: true
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FlFe9JFjMOTMmKG4q7NMaq64ljAh2%2Fb6005c23-970c-4030-af02-beae95b91988?alt=media&token=a6fe9a7d-c268-44c8-b0d6-6c05e74f7086
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdancekathidance.png?generation=1619976773151439&alt=media
+lastLoginAt: 1620288726783
+daysUsed: 2
+instagram: https://www.instagram.com/dancekathidance/

@@ -1,0 +1,97 @@
+venue:
+  website: https://www.sabine-leitner.de/anfahrt-kontakt/
+  formatted_address: Geisenhausenerstraße 18, 81379 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "18"
+      short_name: "18"
+    - types:
+        - route
+      long_name: Geisenhausenerstraße
+      short_name: Geisenhausenerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?cid=18229899151121066076
+  name: Semblanza Tanzstudios
+  geometry:
+    viewport:
+      south: 48.0954545197085
+      north: 48.0981524802915
+      east: 11.5212825802915
+      west: 11.5185846197085
+    location:
+      lng: 11.519892
+      lat: 48.0968023
+  international_phone_number: +49 173 8673952
+  place_id: ChIJQW6NWB12nkcRXCjEGbGc_fw
+endDate:
+  _seconds: 1642442400
+  _nanoseconds: 0
+claimed: Yes
+link: https://www.deepahegde.com/
+type: event
+duration: 60
+promo: Yes
+createdAt: 1642160892771
+price: 0 EUR
+promoter: deepahegde
+updatedAt: 1642160892771
+website: https://www.deepahegde.com
+updatedBy: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+visibility: Public
+eventType: Course
+organiser: Deepa Hegde
+form: No
+createdBy: 82TOc7OEOQXHND5jqQgGQ0tXi2z2
+online: No
+styles:
+  IndianClassicalDance:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-01-17T18:00
+username: deepahegde
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F82TOc7OEOQXHND5jqQgGQ0tXi2z2%2F75125e26-e44d-43f2-bedc-8af73b96c461?alt=media&token=5683c0d0-5e52-4531-ba9c-f62bfd7d905d
+name: Indian classical Bharatanatyam dance trial class
+id: RgtJWzKDFj8YauLeG7KS
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+viewsCount: 69

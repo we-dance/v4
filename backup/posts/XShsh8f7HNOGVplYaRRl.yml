@@ -1,0 +1,158 @@
+endDate: 1719759600000
+sourceUrl: https://www.facebook.com/events/980770396728534/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714756707000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714978280000
+facebookId: "980770396728534"
+facebook: https://www.facebook.com/events/980770396728534/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/980770396728534/
+eventType: Workshop
+providerItemId: e980770396728534@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 3. EDITION BACHATA SENSUAL INTENSIVE CLASS SPEYER
+location: Baila con Diana
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719748800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Tanzraum, Hasenpfühlerweide 2, 67346 Speyer, Germany
+  website: https://tanzmitdiana.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: ¡Baila! con Diana
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.441105869708498
+        lat: 49.33072231970851
+      northeast:
+        lng: 8.443803830291502
+        lat: 49.33342028029151
+    location:
+      lng: 8.442340300000001
+      lat: 49.3320088
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Tanzraum
+      long_name: Tanzraum
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Hasenpfühlerweide
+      long_name: Hasenpfühlerweide
+    - types:
+        - locality
+        - political
+      short_name: SP
+      long_name: Speyer
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Speyer
+      long_name: Kreisfreie Stadt Speyer
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: RP
+      long_name: Rheinland-Pfalz
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "67346"
+      long_name: "67346"
+  international_phone_number: +49 163 3791703
+  place_id: ChIJ-2xxnp-3l0cRXSYnfGZGBuw
+  url: https://maps.google.com/?cid=17007358448794805853
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444467130
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Carsten_dancer/100067751734629/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444467/xrxxyx72iphcjsvitxmo.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444467130
+  owned: false
+  name: Carsten_dancer
+  place: ChIJIW-mXZy2l0cR0BvbENXUIgQ
+  updatedAt: 1715444467130
+  username: Carsten_dancer
+claimed: No
+link: ""
+description: >
+  ⚠️3. EDITION BACHATA SENSUAL INTENSIVE CLASS IN SPEYER!!!⚠️
+
+
+  💰PREIS PRO PERSON
+
+  55 EURO
+
+
+  🗓DATUM UND UHRZEIT
+
+  30.06.2024
+
+  14:00-17:00 Uhr
+
+
+  🎈ADRESSE
+
+  Stage Center/Baila con Diana
+
+  Hasenpfühlerweide 2
+
+  67346 Speyer
+
+
+  📧JETZT ANMELDEN!!!
+
+  Email: fuegotanzschule@gmail.com
+
+
+  ✅️FÜR WEITERE INFOS UND FRAGEN SCHREIBT MIR EINFACH!!!
+
+  Email: fuegotanzschule@gmail.com
+
+  Instagran/facebook: carsten_dancer
+
+
+  #bachatasensual #intensive #class #speyer #bachata #sensual #workshop #danceclass #socialdance #baile #bailesocial #dance #latindance #bachataistakingover #joy #passion #teaching #bachatainspeyer #ladystyle #menstyle #musiclity #technique #danceworkshop #bachatagernany #welovedancing #bachatafamily #bachataconflow #bachatadance #dancelessons #coupledance
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444468/bmi4e1tew2oqxyrqw91r.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJIW-mXZy2l0cR0BvbENXUIgQ
+international: No
+hash: 1719748800000+ChIJ-2xxnp-3l0cRXSYnfGZGBuw
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXShsh8f7HNOGVplYaRRl.png?generation=1715444483401833&alt=media
+id: XShsh8f7HNOGVplYaRRl

@@ -1,0 +1,45 @@
+endDate:
+  _seconds: 1604001600
+  _nanoseconds: 0
+city: Munich
+link: ""
+description: |-
+  learning basics of Dancehall, dancing easy moves
+
+  ### About teacher
+
+  <w-profile username="oxy" />
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FzPEdeDTnNBZwTdhFyRrvCBTMUd52%2F89fe7eee-909f-46bf-82bf-ac0d32c50fb4?alt=media&token=9042c290-51e3-46a8-b17b-a8c3532c2a75
+duration: "60"
+createdAt: 1601375990386
+watchersCount: 0
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: VGM7pV5noelkAX2DC1GA
+updatedAt: 1617065899912
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Anglerstr. 6
+visibility: Public
+eventType: Course
+organiser: Oxy dancer
+form: Yes
+createdBy: zPEdeDTnNBZwTdhFyRrvCBTMUd52
+commentsCount: 0
+name: Dancehall Class
+styles:
+  Dancehall:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2020-10-29T19:00:00.000Z
+username: oxy
+viewsCount: 7

@@ -1,0 +1,24 @@
+owner: ""
+visibility: Public
+type: FanPage
+createdAt: 1647351975924
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+owned: false
+username: lamacumba.cz
+facebook: https://facebook.com/lamacumba.cz
+watch:
+  count: 1
+  usernames:
+    - DjLole
+  list:
+    DjLole: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+partner: ""
+reviews: []
+instagram: https://www.instagram.com/la_macumba
+team: []
+id: gx2OfEmVwGgFaXiy8YNV
+updatedAt: 1704836170663
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"
+viewsCount: 6

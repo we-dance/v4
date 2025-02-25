@@ -1,0 +1,49 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631786059946
+createdBy: d3R8lTQuemX2ntCqpe7HEMBzBuI2
+place: ChIJ5S-raZElv0cR8HcqSvxgJwQ
+username: Bailelu
+daysUsed: 1
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  es: true
+gender: Female
+name: Esther
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fd3R8lTQuemX2ntCqpe7HEMBzBuI2%2F94d8b917-025a-4a9d-bb38-cabdd321cc1a?alt=media&token=6b71c5f8-3472-4e60-8585-3e952cabaa1a
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+styles:
+  SalsaCalena:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Beginner
+    highlighted: false
+    selected: true
+contacts: Yes
+updatedAt: 1631787935780
+partner: ""
+bio: Dancing connects one and all ♥️
+lastLoginAt: 1631788641537
+facebook: https://facebook.com/esther.lucic
+instagram: https://instagram.com/bailelu
+id: d3R8lTQuemX2ntCqpe7HEMBzBuI2

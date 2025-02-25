@@ -1,0 +1,37 @@
+owner: ""
+createdAt: 1717760837799
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+username: kizomba.community.porto
+import: failed
+importError: GET /api/v1/users/kizomba.community.porto/usernameinfo/ - 429 Too
+  Many Requests; Please wait a few minutes before you try again.
+place: ChIJwVPhxKtlJA0RvBSxQFbZSKY
+type: Organiser
+whatsapp: https://chat.whatsapp.com/DSwNu9u6bZ8FktIXcAzQsS
+gender: Other
+name: Kizomba Community Porto
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3cfbd387-8ca5-49a1-832a-2a97fd813c5a?alt=media&token=1287963b-086c-4e44-9523-fe5e7c92ecec
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+instagram: ""
+team: []
+id: 7b709hziA0879j2mVXOt
+bio: Join our WhatsApp group
+updatedAt: 1717760903631
+watch:
+  count: 1
+  usernames:
+    - Paal
+  history:
+    - username: Paal
+      date: 1717761205085
+      invitedBy: ""
+      uid: 11ARMZlUt1QZ0Rjn0JI3iw5mopf1
+      action: joined
+viewsCount: 14

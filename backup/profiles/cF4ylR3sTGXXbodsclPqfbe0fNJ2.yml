@@ -1,0 +1,32 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631615570508
+locales:
+  en: true
+createdBy: cF4ylR3sTGXXbodsclPqfbe0fNJ2
+name: Marte
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+pwaUsed: false
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FcF4ylR3sTGXXbodsclPqfbe0fNJ2%2F087ad0bb-8e1e-43bc-88d5-f28b00426c1b?alt=media&token=a47d0c5b-54af-4dec-b264-7512db9635f3
+permission: No
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1631615773079
+username: "Martina "
+lastLoginAt: 1675007686752
+daysUsed: 2
+id: cF4ylR3sTGXXbodsclPqfbe0fNJ2

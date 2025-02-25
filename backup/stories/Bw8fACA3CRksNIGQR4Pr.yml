@@ -1,0 +1,66 @@
+venue:
+  formatted_address: Strada Bucium 32, Iași 700265, Romania
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Pasito Latino
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 27.6052755302915
+      south: 47.1413357197085
+      north: 47.1440336802915
+      west: 27.60257756970849
+    location:
+      lng: 27.603864
+      lat: 47.1426555
+  address_components:
+    - types:
+        - street_number
+      short_name: "32"
+      long_name: "32"
+    - types:
+        - route
+      short_name: Strada Bucium
+      long_name: Strada Bucium
+    - types:
+        - locality
+        - political
+      short_name: Iași
+      long_name: Iași
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Municipiu Iaşi
+      long_name: Municipiu Iaşi
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IS
+      long_name: Județul Iași
+    - types:
+        - country
+        - political
+      short_name: RO
+      long_name: Romania
+    - types:
+        - postal_code
+      short_name: "700265"
+      long_name: "700265"
+  international_phone_number: +40 743 620 064
+  place_id: ChIJt8mSvcD7ykARp0XWMpTLYDc
+  url: https://maps.google.com/?cid=3990413107218761127
+  username: pasitolatino
+receiver:
+  username: pasitolatino
+question: ""
+link: ""
+description: The only place to dance
+stars: 4
+type: review
+dances:
+  - Casino
+createdAt: 1717609175175
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+style: Casino
+place: ChIJu9059nz7ykARPPUmVNqAy3w
+username: alexrazbakov
+id: Bw8fACA3CRksNIGQR4Pr

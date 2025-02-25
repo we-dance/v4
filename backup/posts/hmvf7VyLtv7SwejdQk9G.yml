@@ -1,0 +1,164 @@
+endDate: 1739746740000
+sourceUrl: https://www.facebook.com/events/436749392550313/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1718353981000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1718353981000
+facebookId: "436749392550313"
+facebook: https://www.facebook.com/events/436749392550313/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/436749392550313/
+eventType: Congress
+providerItemId: e436749392550313@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SAN VALENTIN CONGRESS - promo code BACHALOVE
+location: Gran Hotel Bali Benidorm
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1739545200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: C. del Actor Luis Prendes, 4, 03502 Benidorm, Alicante, Spain
+  website: http://www.granhotelbali.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Gran Hotel Bali
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.165389080291502
+        lat: 38.5302934697085
+      northeast:
+        lng: -0.162691119708498
+        lat: 38.5329914302915
+    location:
+      lng: -0.1637002
+      lat: 38.5314827
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: C. del Actor Luis Prendes
+      long_name: Calle del Actor Luis Prendes
+    - types:
+        - locality
+        - political
+      short_name: Benidorm
+      long_name: Benidorm
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: A
+      long_name: Alicante
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "03502"
+      long_name: "03502"
+  international_phone_number: +34 966 81 52 00
+  place_id: ChIJK-YpTgmSlxIRlfd_lTBucDA
+  url: https://maps.google.com/?cid=3490410866157811605
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: |+
+  💕𝕊𝔸ℕ 𝗩𝗔𝗟𝗘𝗡𝗧𝗜𝗡
+  🇨 🇴 🇳 🇬 🇷 🇪 🇸 🇸 𝟮𝟬𝟮𝟱💕
+  ❤𝗘𝗟 𝗖𝗢𝗡𝗚𝗥𝗘𝗦𝗢 𝗗𝗘𝗟 𝗔𝗠𝗢𝗥❤
+  ꓓⲉⳑ 14 ⲇⳑ 16 𝖽ⲉ ⳨ⲉⲃⲅⲉⲅⲟ 2025
+  ꓖⲅⲇⲛ Ⲏⲟⲧⲉⳑ Ⲃⲇⳑⲓ, Ⲃⲉⲛⲓ𝖽ⲟⲅⲙ 
+  ꓓⲓⲅⲉⲥⲧⲟ ⲇ ⲧⳙ́ ⲥⲟⲅⲇⲍⲟ́ⲛ❤
+
+  BACHATA:
+  Ronald y Alba 
+  Alfredo y Andrea 
+  Korke y Judith 
+  Marco y Sara 
+  Magda y Valeria 
+  Janis y Zoé
+  Carlos Espinosa y Sara 
+  Ladies Estilos Unidos
+  Alber y Lau 
+  Carlos y Paz
+  Sabor Dinámico Boys
+  Alan y Cristina 
+  Phothomas
+  Y Muchos Más...
+
+  SALSA:
+  Bersy Cortes
+  Fadi Fusión 
+  Luis y Alba 
+  Erick y Mónica 
+  Yamulee 
+  Juan Pachanga Matos 
+  Angelo Rito 
+  Noelia y Irene 
+  Carmen Lorente y Leandro Erni
+  Y Muchos Más...
+
+
+  DJS OFICIALES:
+  DJ Khalid
+  DJ Pier
+  DJ Cumbanchero
+  DJ Franky
+  DJ William
+  DJ Charly Brown
+  DJ Romeo
+
+  TICKETS:
+  https://lasalsadelbaile.com/SANVALENTINCONGRESS?ref=BACHALOVE
+
+  With promo code BACHALOVE you receive discount!
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417915/btrsm1wxj7bf356wbq1f.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJw3UlptwEYg0RtW7yDwypnyE
+international: No
+hash: 1739545200000+ChIJK-YpTgmSlxIRlfd_lTBucDA
+id: hmvf7VyLtv7SwejdQk9G

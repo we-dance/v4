@@ -1,0 +1,100 @@
+venue:
+  formatted_address: Hagenauer Str. 11, 10435 Berlin, Germany
+  website: http://www.saloneo-berlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: SaloNeo - Raum für Tanz und Bewegung
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4175339302915
+      south: 52.5384348197085
+      north: 52.5411327802915
+      west: 13.4148359697085
+    location:
+      lng: 13.4160512
+      lat: 52.5397706
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Hagenauer Str.
+      long_name: Hagenauer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Pankow
+      long_name: Bezirk Pankow
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10435"
+      long_name: "10435"
+  international_phone_number: +49 179 2257171
+  place_id: ChIJY9ATqi5RqEcRjf4OFusmxJU
+  url: https://maps.google.com/?cid=10791793398215802509
+endDate: 2023-06-30T21:15
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1686833663764
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1686833663764
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    aslihan: true
+name: "Son Rueda "
+online: No
+styles: {}
+startDate: 2023-06-30T19:45
+username: aslihan
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F78c769d5-21eb-4949-a28d-0e6e5c79fb2f?alt=media&token=07f87503-ab81-4176-b835-09d9494e04eb
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: rueda_de_casino_berlin
+    photo: ""
+    bio: ""
+    id: 6dgiQPvFf5K0SvbFjZdH
+    instagram: https://instagram.com/rueda_de_casino_berlin
+    username: rueda_de_casino_berlin
+org:
+  instagram: https://instagram.com/rueda_de_casino_berlin
+  username: rueda_de_casino_berlin
+artistsList:
+  - rueda_de_casino_berlin
+id: TU1Q4QsGQCMnUxFwo0IZ
+eventType: Workshop
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTU1Q4QsGQCMnUxFwo0IZ.png?generation=1686833913902128&alt=media
+viewsCount: 36

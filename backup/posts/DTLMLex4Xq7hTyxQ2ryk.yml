@@ -1,0 +1,207 @@
+venue:
+  website: http://www.tanz.de/
+  formatted_address: Schützenstraße 8, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "8"
+      short_name: "8"
+    - types:
+        - route
+      long_name: Schützenstraße
+      short_name: Schützenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80335"
+      short_name: "80335"
+  url: https://maps.google.com/?cid=1884018115383375736
+  name: TWS
+  geometry:
+    viewport:
+      south: 48.1385834197085
+      north: 48.1412813802915
+      east: 11.5638741802915
+      west: 11.5611762197085
+    location:
+      lng: 11.5629468
+      lat: 48.1399349
+  place_id: ChIJFX4JX_d1nkcReLfTdX5gJRo
+  international_phone_number: +49 89 5459550
+endDate: 2021-10-24T01:03:00.000Z
+claimed: No
+organisedBy: ""
+description: >-
+  Rumber@s
+
+
+  After a great first party at Stachus we have sth. really special for you:
+
+
+  Amado Arte Perez Machado will bring you the Dance Gods Bootcamp to Munich (https://fb.me/e/1TiOVyaCS), and together with him, we will bring you the Dance Gods Party.
+
+  The best of Salsa, Timba, Timbaton, and Reggaeton and great dancers including the performers from the Bootcamp with cool drinks to fair prices in an amazing atmosphere.
+
+
+  Animation and spectacle by Yusniel Socarras, Harley de Castillo, Lexis Hernandez, Maikel Santana and the one and only Amado "Arte" Perez Machado.
+
+
+  Date: 23 October 2021
+
+  Time: 21:30 - 03:00
+
+  Place: TWS - Schützenstraße 8
+
+  Cover: 12 Euro normal
+
+  8 Euros students
+
+  3G-Rules apply. You will have to show a certificate of vaccination, recovery, or negative testing.
+
+
+  A vacunar!!!
+
+
+  ------------------
+
+  Rumber@s
+
+
+  Nach einer atemberaubenden ersten Party am Stachus haben wir etwas besonderes für Euch:
+
+  Amado Arte Perez Machado bringt Euch das Dance Gods Bootcamp nach München (https://fb.me/e/1TiOVyaCS) und zusammen mit ihm bringen wir Euch die Dance Gods Party.
+
+  Das Beste von Salsa, Timba, Timbaton und Reggaeton und großartige Tänzer einschließlich der Performer des Bootcamps bei coolen Drinks zu fairen Preisen in einer atemberaubenden Atmosphäre.
+
+
+  Animation und Spektakel mit Yusniel Socarras, Harley de Castillo, Lexis Hernandez, Maikel Santana und dem einzigartigen Amado "Arte" Perez Machado.
+
+
+  Tag: 23. Oktober 2021
+
+  Uhrzeit: 21:30 - 03:00
+
+  Ort: TWS - Schützenstraße 8
+
+  Eintritt: 12 Euro normal
+
+  8 Euro Studenten
+
+  Die Veranstaltung unterliegt 3G Regeln. Ihr werdet einen Impfnachweis, Genesenenzertifikat oder Negativtest vorweisen müssen.
+
+
+  A vacunar!!!
+
+
+  ----------
+
+  Rumber@s
+
+
+  Después de una gran primera fiesta en el Stachus, os presentamos algo especial:
+
+  Amado Arte Perez Machado os trae el Dance Gods Bootcamp a Múnich (https://fb.me/e/1TiOVyaCS) y juntos con el os traemos la Dance Gods Party. 
+
+  Lo mejor de Salsa, Timba, Timbaton y Reggaeton y los gran bailarines, incluso los artistas del Bootcamp con tragos refrescantes a precios razonables en un ambiente increíble.
+
+  Animación y farándula con Yusniel Socarras, Harley de Castillo, Lexis Herndandez, Maikel Santana y el único Amado "Arte" Perez Machado.
+
+
+  Día: 23 Octubre 2021
+
+  Hora: 21:30 - 03:00
+
+  Entrada: 12 Euro normal
+
+  8 Euro estudiantes
+
+  Se aplican las normas 3G. Habrá que mostrar un certificado de vacunación, recuperación o test negativo.
+
+
+  A vacunar!
+
+
+  Whatsapp-Group:
+
+  https://chat.whatsapp.com/FuCIpj1prtu1pIHQqSI4O9 Weniger anzeigen
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F275ae2b7-9263-4aba-b776-d3419503487a?alt=media&token=b6289250-7c19-4530-994a-4f6d6c73e8cd
+duration: custom
+createdAt: 1634181686012
+watchersCount: 0
+price: 8-12 EUR
+commentsLast: ~
+promoter: Vitali
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: DTLMLex4Xq7hTyxQ2ryk
+international: No
+views: 27
+updatedAt: 1634181686012
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/salsa-cubana-dance-gods-party/389013009550944/
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa Cubana Dance Gods Party
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-23T19:03:00.000Z
+username: Vitali
+viewsCount: 33

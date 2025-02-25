@@ -1,0 +1,131 @@
+venue:
+  website: http://mercurekyiv.ua/
+  formatted_address: Vadyma Hetmana St, 6, Kyiv, Ukraine, 03057
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Vadyma Hetmana Street
+      short_name: Vadyma Hetmana St
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Solom'yans'kyi district
+      short_name: Solom'yans'kyi district
+    - types:
+        - locality
+        - political
+      long_name: Kyiv
+      short_name: Kyiv
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Kyiv City
+      short_name: Kyiv City
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "03057"
+      short_name: "03057"
+  url: https://maps.google.com/?cid=18148376018552457438
+  name: Mercure Kyiv Congress
+  geometry:
+    viewport:
+      south: 50.4486439197085
+      north: 50.45134188029149
+      east: 30.44489033029151
+      west: 30.44219236970851
+    location:
+      lng: 30.4431065
+      lat: 50.45000830000001
+  international_phone_number: +380 44 205 3520
+  place_id: ChIJMWRJ0CTM1EAR3ogJrNX72_s
+endDate: 2021-09-27T01:00:00.000Z
+link: http://kyivsensualfestival.com/
+description: >-
+  Hello, dear friends. It is a great privilege for us to invite YOU to the
+  updated Sense Fest 2021, which you will definitely do not forget.
+
+
+  In past years, a lot of Ukrainians and many guests from Europe have been meeting at the end of September in Kyiv! It is a place of power, a place where people love to dance, a place where everything is created with love, where all details make sense.
+
+
+
+  Open your calendar and mark this dates: SEPTEMBER 23-24-25-26, 2021. You will remember this festival for a long time, because you get:
+
+
+
+  ★1 location - Kyiv Mercure Congress Center
+
+
+  ★2 hotels: Mercure and IQ hotels
+
+
+  ★4 days of dancing
+
+
+  ★Bachata & Kizomba championships
+
+
+  ★about 2000 participants
+
+
+  ★3000 sq.m. dance space
+
+
+  ★1,000,000 unforgettable memories
+
+
+
+  Sense Fest 2021 will be the best place for you to dance.
+
+
+  Feel SENSE and create yourself🧡
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6e4536d8-35d7-4a95-a091-dcdd795476a3?alt=media&token=aac4c3f2-7790-46ac-a166-73145156a139
+duration: custom
+createdAt: 1631011008259
+watchersCount: 0
+price: 46EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxDJpYAO8AUwCfsy3dUmt.png?generation=1631011115445240&alt=media
+commentsLast: ~
+id: xDJpYAO8AUwCfsy3dUmt
+place: ""
+views: 14
+updatedAt: 1631011008259
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+viewsCount: 14
+eventType: Festival
+organiser: alexrazbakov
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Kyiv Sense Fest
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-23T18:00:00.000Z
+username: Promoter

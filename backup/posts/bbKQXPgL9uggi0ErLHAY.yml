@@ -1,0 +1,42 @@
+endDate: 2021-07-21T21:00:00.000Z
+description: Bachata
+type: event
+duration: custom
+createdAt: 1626692946899
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: bbKQXPgL9uggi0ErLHAY
+views: 1
+updatedAt: 1626692946899
+address: Seebühne, Olympiapark
+updatedBy: 5CqWN8mkSTNKB5UKoqvfXkY8zei2
+visibility: Public
+viewsCount: 1
+eventType: Party
+form: No
+createdBy: 5CqWN8mkSTNKB5UKoqvfXkY8zei2
+commentsCount: 0
+name: Bachata
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-21T18:00:00.000Z
+username: Anonymous

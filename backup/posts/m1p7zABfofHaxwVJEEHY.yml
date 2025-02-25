@@ -1,0 +1,159 @@
+updatedBy: kbGCi5CXaEel77TK31zHtklkh6F3
+visibility: Public
+claimed: No
+program: []
+eventType: Party
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkbGCi5CXaEel77TK31zHtklkh6F3%2Fb52bf71d-d90d-43cf-a6df-0d9c0b3c18bc?alt=media&token=b745918e-2238-48a3-8c4d-311546d6eee6
+createdAt: 1684493576533
+form: No
+createdBy: kbGCi5CXaEel77TK31zHtklkh6F3
+watch:
+  count: 1
+  list:
+    PhoenixCrew: true
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1684493576533
+username: PhoenixCrew
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  website: http://www.birdbar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+endDate: 2023-05-27T05:00
+org:
+  instagram: https://instagram.com/phoenix_crew_muc
+  username: phoenix_crew_muc
+facebook: https://facebook.com/events/s/dancehall-reggaeton-soca-party/1601029880388004/
+link: ""
+description: >-
+  ANWESENHEITSPFLICHT!!! 
+
+
+  Am 26.05 sind wir back mit dem besten Sound und Vibe der Stadt. 
+
+
+  DANCEHALL, REGGAETON & SOCA
+
+
+  Ladies and gentlemen get your dancing shoes ready, it’s about that time again! 💃🏾💃🏼🕺🏼
+
+
+  Y’all ready ? 
+
+
+  Let’s go 🚀🚀
+
+
+  DJ’S:
+
+
+  ✔️THYWILL - MÜNCHEN
+
+
+  ✔️SUDANESE SOUND  - HANNOVER 
+   
+
+   
+  Dress code: CLASSY, BAD, BOUJEE! 
+
+   
+  EINLASS: 23:00 UHR
+   
+  EINLASSKRITIERIEN: Volljährig, Good Vibez!!!
+artists:
+  - instagram: https://instagram.com/thywill_francis
+    username: thywill_francis
+price: 10 EUR
+name: Phoenix Crew - Dancehall - Reggeaton - Soca Party
+styles:
+  Dancehall:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Advanced
+    highlighted: false
+    selected: true
+artistsList:
+  - thywill_francis
+id: m1p7zABfofHaxwVJEEHY
+startDate: 2023-05-26T23:00
+telegram:
+  requestedAt: 1684494024106
+  messageUrl: https://t.me/WeDanceMunich/1090
+  publishedAt: 1684494152196
+  messageId: 1090
+  state: published
+instagram:
+  requestedAt: 1684494050773
+  state: published
+  messageUrl: https://instagram.com/p/CsbB4m2tvyA
+  publishedAt: 1684494170125
+  messageId: CsbB4m2tvyA
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fm1p7zABfofHaxwVJEEHY.png?generation=1684494229847951&alt=media
+star:
+  count: 0
+  usernames: []
+  list: {}
+viewsCount: 75

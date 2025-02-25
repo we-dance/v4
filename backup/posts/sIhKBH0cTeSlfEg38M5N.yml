@@ -1,0 +1,183 @@
+importedAt: 1708510542555
+providerUpdatedAt: 1708165377000
+endDate: 1710021600000
+facebookId: "399517456064819"
+facebook: https://www.facebook.com/events/399517456064819/
+facebookUrlsList:
+  - https://www.facebook.com/events/399517456064819/
+eventType: Workshop
+createdAt: 1708510542555
+providerItemId: e399517456064819@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: NEXUS:core special - Connection & Douceur
+location: SoundCube
+styles:
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1708165029000
+startDate: 1710007200000
+facebookUrlsCount: 1
+updatedAt: 1708510542555
+username: Aina
+venue:
+  formatted_address: Guglgasse 12 Gasometer C, 1110 Wien, Austria
+  website: https://soundcube.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: SoundCube
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.4191553197085
+        lat: 48.18311171970851
+      northeast:
+        lng: 16.42185328029151
+        lat: 48.18580968029151
+    location:
+      lng: 16.42059680000001
+      lat: 48.1846743
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Simmering
+      long_name: Simmering
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1110"
+      long_name: "1110"
+  international_phone_number: +43 660 6297080
+  place_id: ChIJaVhWFLkHbUcRSVoLU34Gwzs
+  url: https://maps.google.com/?cid=4306292808325225033
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Nexus-Dance/100095028619864/
+  name: Nexus Dance
+  photo: https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/370700882_133138209863799_5397720998011334833_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=596444&_nc_ohc=0O_jBQpnLP4AX8cTgtj&_nc_ht=scontent-fra5-2.xx&oh=00_AfADqooyl04NWLvgUXCEMc2ojTxV8rFGO92k080RlbrQPQ&oe=659EF94E
+  bio: ""
+  id: yx6ytfgog3ORt6ZwLRMn
+  instagram: ""
+  username: NexusDance
+claimed: No
+link: ""
+description: >-
+  Douceur is a sub-style of Urban Kiz and gets a lot of its foundations from
+  Tarraxinha. The literal translation is sweetness or softness, which also
+  refers to the type of music that Douceur is mostly danced to. Douceur is often
+  experienced to as meditation for two. The focus lies on connection, on
+  becoming one with your partner, on reaching a state where we forget what is
+  around us and are being able to express music and emotions together. There is
+  the misconception when seeing Douceur for the first time that nothing is
+  happening, and only by experiencing it you will find what it is all about.
+
+
+  Douceur at with Juli and Felix means working on the connection with ourselves and with our partner, on musicality body awareness and micro movements.
+
+
+
+  REGISTRATION: https://tally.so/r/nGdLlO
+
+
+
+  SCHEDULE - Saturday 9th of March
+
+
+  19:00 - 21:00
+
+  Workshop all about connection and douceur with Juli and Felix.
+
+
+  21:00 - 23:00
+
+  Social with a mix of all music styles found on the Urban Kiz dance floor - with a soft end to practice what you have learned.
+
+
+
+  PRICES
+
+
+  Workshop (includes social):
+
+  - 40€ (30€ if you are student under the age of 27)
+
+  - ⁠50% reduction for NEXUS:phase2 card owners.
+
+  - 3 stamps If you have a NEXUS:core card.
+
+
+  Social:
+
+  - 5€ per Person
+
+  - ⁠free for NEXUS:TECH card owners.
+
+  - ⁠free for NEXUS:phase2 card owners
+
+
+  LOCATION
+
+  SoundCube (Studio D) at Guglgasse 12 Gasometer C, 1110 Vienna
+
+
+  Important:
+
+  • Bring your own drink, we won’t have a bar
+
+  • The studio has locker rooms
+
+  • Bring dance shoes, street shoes are not allowed on the dance floor
+
+  • ⁠remember our monthly giveaway: if you support the growth of our community by sharing and tagging us, we support your growth in dancing by giving away one private per month
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708510555/gwklguhnie8czwfeggwn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1710007200000+ChIJaVhWFLkHbUcRSVoLU34Gwzs
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsIhKBH0cTeSlfEg38M5N.png?generation=1708510572395050&alt=media
+viewsCount: 6
+id: sIhKBH0cTeSlfEg38M5N

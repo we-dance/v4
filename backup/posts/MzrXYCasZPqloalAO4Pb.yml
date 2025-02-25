@@ -1,0 +1,50 @@
+isNew: true
+facebookId: "454907373675065"
+facebookUrlsList:
+  - https://www.facebook.com/events/454907373675065/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729346430549
+updatedAt: 1729346430549
+importedAt: 1729346430549
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48538-1729900800-1729987199@latinfo.hu
+name: Karibi Szülinapi Salsa Party - 15th Anniversary
+description: >-
+  Ünnepeljük együtt fennállásunk 15. évfordulóját egy hatalmas salsa bulival,
+  ahol Ti – a Klub lelke – lesztek az ünnepeltek! 
+
+  2024. október 26-án 20:00-tól a Savoya Parkban felcsendülnek a legjobb Happy Birthday slágerek salsa és bachata verziói, de természetesen velünk lesznek Dj Adalberto vérpezsdítő latin szettjei is, hogy ismét igazán jókat táncolhassunk.
+
+
+
+
+  Részletes információk:
+
+
+  https://www.facebook.com/events/454907373675065/
+providerCreatedAt: 1729147211000
+providerUpdatedAt: 1729147211000
+startDate: 1729900800000
+endDate: 1729987199000
+facebook: https://www.facebook.com/events/454907373675065/
+sourceUrl: https://www.facebook.com/events/454907373675065/
+location: Savoya Park, Hunyadi János út 19., Budapest, 1117, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+errorCode: no_event
+error: No event data found, please verify that your URL is correct and the event
+  is accessible without authentication
+type: import_error
+id: MzrXYCasZPqloalAO4Pb

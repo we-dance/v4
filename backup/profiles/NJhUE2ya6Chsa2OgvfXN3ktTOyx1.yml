@@ -1,0 +1,41 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1632909908557
+locales:
+  de: true
+  ru: true
+  en: true
+createdBy: NJhUE2ya6Chsa2OgvfXN3ktTOyx1
+name: nade_zhda1984
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: nade_zhda1984
+pwaUsed: false
+cities:
+  ChIJ_5CmnYbVCUQRiinONNU4e1g: true
+updatedAt: 1632910129113
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FNJhUE2ya6Chsa2OgvfXN3ktTOyx1%2Fc37c00fc-5487-48bf-b1fa-03122df062e8?alt=media&token=b99afb9d-b461-4989-9100-ba9a74b0b7b0
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+hometown: ChIJ_5CmnYbVCUQRiinONNU4e1g
+birthday: 1984-12-19
+partner: Yes
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+height: "160"
+contacts: Yes
+lastLoginAt: 1638450846989
+daysUsed: 32
+instagram: https://instagram.com/nade_zhda1984
+viewsCount: 1
+id: NJhUE2ya6Chsa2OgvfXN3ktTOyx1

@@ -1,0 +1,179 @@
+importedAt: 1709061202258
+providerUpdatedAt: 1703169337000
+endDate: 1726966800000
+facebookId: "1009580986956139"
+facebook: https://www.facebook.com/events/1009580986956139/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1009580986956139/
+eventType: Festival
+createdAt: 1709061202258
+providerItemId: e1009580986956139@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: qiHxHgMUqIaEu4hENzOW
+name: Amsterdam Int. Bachata Festival 2024
+location: De Koning Party & Events
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1695732613000
+startDate: 1726862400000
+facebookUrlsCount: 1
+updatedAt: 1709061202258
+username: alexrazbakov
+venue:
+  formatted_address: Isolatorweg 29, 1014 AS Amsterdam, Netherlands
+  website: http://www.dekoning-events.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: De Koning Party & Events
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.849083469708495
+        lat: 52.3917288197085
+      northeast:
+        lng: 4.8517814302915
+        lat: 52.3944267802915
+    location:
+      lng: 4.850277799999999
+      lat: 52.3930556
+  address_components:
+    - types:
+        - street_number
+      short_name: "29"
+      long_name: "29"
+    - types:
+        - route
+      short_name: Isolatorweg
+      long_name: Isolatorweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westpoort
+      long_name: Westpoort
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 1014 AS
+      long_name: 1014 AS
+  international_phone_number: +31 20 665 5358
+  place_id: ChIJFS5TsYvixUcRzFHMnwcHyk8
+  url: https://maps.google.com/?cid=5749415603618992588
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/AmsterdamInternationalSalsaFestival
+  name: Amsterdam International Salsa Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954048/wtbr8jsgt67jcuz7aac4.jpg
+  bio: ""
+  id: tkiOzvxfmtXbTizTDFrg
+  instagram: ""
+  username: AmsterdamInternationalSalsaFestival
+claimed: No
+link: https://shop.yourticketprovider.nl/?productid=4a1650a8-8340-293f-814c-dd14d585dfdc
+description: >-
+  CertainlWe had an incredible time at AIBF 2023 and are already gearing up for
+  next year's edition! Secure your pass now at the best available price! 🎉🎟️
+
+
+  Tickets are available here: 
+
+  https://shop.yourticketprovider.nl?productid=4a1650a8-8340-293f-814c-dd14d585dfdc
+
+
+  Our lineup is absolutely fantastic: 🌟
+
+
+  - 🇪🇸 Maycheal & Mayra
+
+  - 🇮🇱 Daniel & Tom
+
+  - 🇬🇧 🇪🇸 Kate & Kevin
+
+  - 🇵🇱 Konrad & Malwi
+
+  - 🇪🇸 Jesus & Maria
+
+  - 🇫🇷 Tonio & Amanda
+
+  - 🇹🇷 Sefa Sahin
+
+  - 🇪🇸 David & Ines
+
+  - 🇻🇪 Marley & Leo
+
+  - 🇩🇪 Chami & Julie
+
+  - 🇪🇸 Pep & Marina
+
+  - 🇳🇱 Sakis & Marta
+
+  - 🇳🇱 Oscar & Raquel
+
+  - 🇳🇱 Yasmin & Liana
+
+  - 🇳🇱 Tedy & Chun Pu
+
+  - 🇳🇱 Rabio & Froukje
+
+  - 🇳🇱 Fabian & Melona
+
+  - 🇳🇱 Bob & Barbara
+
+
+  And let's not forget our amazing DJs: 🎧
+
+
+  - 🇪🇸 DJ Husky
+
+  - 🇩🇪 DJ Chami
+
+  - 🇪🇸 DJ Ramon
+
+  - 🇳🇱 DJ Abdeloo
+
+
+  Stay tuned for more additions to this impressive lineup! 🚀
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709061210/jiwm5l08irlfn51l0lmd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJVXealLU_xkcRja_At0z9AGY
+international: No
+hash: 1726862400000+ChIJFS5TsYvixUcRzFHMnwcHyk8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fa4tRCOyCMcHFF4mqWfWp.png?generation=1709061238683499&alt=media
+viewsCount: 8
+id: a4tRCOyCMcHFF4mqWfWp

@@ -1,0 +1,134 @@
+venue:
+  formatted_address: 1, Biskupská 283, 602 00 Brno-střed, Czechia
+  website: https://www.facebook.com/twofacesbrno/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: TWO FACES music club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.6077419302915
+      south: 49.1909359197085
+      north: 49.1936338802915
+      west: 16.6050439697085
+    location:
+      lng: 16.6059503
+      lat: 49.1921237
+  address_components:
+    - types:
+        - street_number
+      short_name: "283"
+      long_name: "283"
+    - types:
+        - route
+      short_name: Biskupská
+      long_name: Biskupská
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Brno-střed
+      long_name: Brno-střed
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Brno-město
+      long_name: Brno-město
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihomoravský kraj
+      long_name: Jihomoravský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 602 00
+      long_name: 602 00
+  international_phone_number: +420 605 187 607
+  place_id: ChIJ352ZRFGUEkcROY8TUBvcixU
+  url: https://maps.google.com/?cid=1552576506424954681
+endDate: 1710284400000
+claimed: No
+link: https://www.facebook.com/events/430937629329755
+description: |-
+  Po delší době Salsový a Bachatový večer v Two Faces.
+
+  Přijede k Nám opět Dj Lole z Prahy
+  Hrát se bude Salsa Linea , Bachata , Merengue.
+
+  Vstupné 60 Kč
+  Těšíme se na vás
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F579dfb18-4761-4056-854e-35357aedb055?alt=media&token=ad425b8f-e189-4627-a76f-f2f1f10c9b61
+createdAt: 1710156749507
+price: 60 CZK
+place: ChIJEVE_wDqUEkcRsLEUZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+facebook: https://www.facebook.com/events/430937629329755
+facebookId: "430937629329755"
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+venueProfile: {}
+name: Salsa Linea vs Bachata Night Dj Lole
+online: No
+startDate: 1710270000000
+hash: 1710270000000+ChIJ352ZRFGUEkcROY8TUBvcixU
+username: DjLole
+viewsCount: 1
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FqcAlu8oqaeu8fAQEzYZW.png?generation=1710156764462395&alt=media
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/patrik.lunak
+  name: patrik.lunak
+  photo: ""
+  bio: ""
+  id: MzBhZv6P6K9vdiues09z
+  instagram: ""
+  username: patrik.lunak
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+id: qcAlu8oqaeu8fAQEzYZW
+promotionError: Community for place "ChIJEVE_wDqUEkcRsLEUZg-vAAQ" not found
+promotion: failed
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://www.facebook.com/SalsaInPrague
+    name: Dj Lole
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706212324/jagkm8hjqhtzgelsniyq.jpg
+    bio: ""
+    id: jyRiItwVJKoB5FbdrXOH
+    instagram: ""
+    username: dj.lole
+artistsList:
+  - dj.lole
+updatedAt: 1710236027382

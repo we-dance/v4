@@ -1,0 +1,33 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631748421431
+locales:
+  en: true
+  hr: true
+createdBy: 9P0AaIc1FNOxmaMmT1I1IJvW2OI3
+name: Cicko
+place: ChIJ0Ztx7bHLWEcRPrOH3qbNLlY
+username: Cicko
+daysUsed: 1
+pwaUsed: false
+gender: Female
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: Yes
+cities:
+  ChIJ0Ztx7bHLWEcRPrOH3qbNLlY: true
+updatedAt: 1631748690354
+lastLoginAt: 1631791713647
+id: 9P0AaIc1FNOxmaMmT1I1IJvW2OI3

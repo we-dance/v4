@@ -1,0 +1,33 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1636912495392
+locales:
+  de: true
+  en: true
+createdBy: fK4Oo10xyjc0VYOMFU6QZluIYHB2
+name: Sina123
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Sina123
+lastLoginAt: 1636912495618
+daysUsed: 1
+pwaUsed: false
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1636912645648
+id: fK4Oo10xyjc0VYOMFU6QZluIYHB2

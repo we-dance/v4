@@ -1,0 +1,173 @@
+createdAt: 1729852369750
+updatedAt: 1729852369750
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+sourceUrl: https://www.facebook.com/events/1185614596194379/
+viewsCount: 1
+venue:
+  address_components:
+    - long_name: "474"
+      short_name: "474"
+      types:
+        - street_number
+    - long_name: Ipswich Road
+      short_name: Ipswich Rd
+      types:
+        - route
+    - long_name: Annerley
+      short_name: Annerley
+      types:
+        - locality
+        - political
+    - long_name: Brisbane City
+      short_name: Brisbane
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Queensland
+      short_name: QLD
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Australia
+      short_name: AU
+      types:
+        - country
+        - political
+    - long_name: "4103"
+      short_name: "4103"
+      types:
+        - postal_code
+  formatted_address: First floor, 474 Ipswich Rd, Annerley QLD 4103, Australia
+  geometry:
+    location:
+      lat: -27.510172
+      lng: 153.032937
+    viewport:
+      northeast:
+        lat: -27.5087641697085
+        lng: 153.0341734802915
+      southwest:
+        lat: -27.51146213029151
+        lng: 153.0314755197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance Culture
+  place_id: ChIJY1M1PYpakWsRmupsI1uSVq4
+  url: https://maps.google.com/?cid=12562389130730597018
+  website: http://danceculture.com.au/
+endDate: 1730460600000
+claimed: No
+link: ""
+description: >
+  Salsa lovers, you are invited to join us for Salsa social dancing (with a dash
+  of Cha Cha Cha) at Mambo Lounge. Brought to you by another epic collaboration
+  between Latin Steps & Dance Culture.
+
+
+  Mambo Lounge is a great place to practise what you've been learning in class. And to just relax and enjoy yourself while making some new friends.
+
+
+
+  ** Is this for me? **
+
+
+  Everyone is welcome. You do not need to be a student of Dance Culture nor Latin Steps. Nor do you need to consider yourself an experienced dancer. We get more experienced by attending these sorts of events. You do not need to bring a dance partner.
+
+
+
+  ** Dance styles **
+
+
+  We will be playing highly danceable Salsa music ideal for Salsa on-1 and Salsa on-2 dancing, with a dash of Cha Cha Cha.
+
+
+
+  ** What is it like dancing at Dance Culture's studio? **
+
+
+  Check out this video clip! https://www.youtube.com/watch?v=gwQin_4D7Kc
+
+
+
+  ** Do I need to bring a dance partner? **
+
+
+  You do NOT need to bring a dance partner. You can come solo, with some friends or within your favourite human. When you arrive just go ask someone if they'd like to have a dance! :)
+
+
+
+  ** Entry / How to get your pass **
+
+
+  Tickets are only available at the door upon arrival. Entry is $15 per person. Cash and EFTPOS both accepted. Cash preferred if you have it on you.
+
+
+
+  ** Finding Us **
+
+
+  If you haven't visited us before you can find Dance Culture at 474 Ipswich Road, Annerley. We are right on the intersection of Annerley Rd and Ipswich Rd, across from 99 Bikes. 
+
+
+  The door to the studio can be easy to miss: it can be found between Yesterday's Thrift Shop and Lifeline's Vintage Revival.
+
+
+
+  ** What to wear/bring **
+
+
+  As long as you look presentable you're all good to go. 
+
+
+  Breath mints can be found at the reception desk. Deodorant can be found in the toilets. Always good to smell nice.
+
+
+  Some people like to bring a change of shirt in case they get sweaty.
+
+
+  If you like to drink something other than water, bring that too.
+
+
+
+  ** Questions? **
+
+
+  Any questions? Ask Avanka at reception@danceculture.com.au
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJVeTdwYtakWsRkH7e81qjAgU
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1185614596194379/
+facebookId: "1185614596194379"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Mambo Lounge // 100% Salsa Party // 10th Edition
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1730449800000+ChIJY1M1PYpakWsRmupsI1uSVq4
+startDate: 1730449800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729852385/giroanhjv99sx7eehbwk.jpg
+org:
+  id: yfxulCXFy7XkrbmaQFrc
+  username: dance.culture
+  name: Dance Culture
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1729852378/tmsjhxvs5yowq40vaiqg.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dancecultureaustralia
+  tiktok: ""
+  youtube: ""
+id: WvHLDjAODxY6IKptPyEp

@@ -1,0 +1,155 @@
+endDate: 1725843600000
+sourceUrl: https://www.facebook.com/events/1040440587407063/
+createdAt: 1715444430802
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1702374240000
+updatedAt: 1715444430802
+importedAt: 1715444430802
+providerUpdatedAt: 1708375623000
+facebookId: "1040440587407063"
+facebook: https://www.facebook.com/events/1040440587407063/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1040440587407063/
+eventType: Festival
+providerItemId: e1040440587407063@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Zouk Festival Hannover
+location: Move & Style Dance Academy
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725620400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Vahrenwalder Str. 195 A, 30165 Hannover, Germany
+  website: http://www.moveandstyle.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Move & Style Dance Academy
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.7325698197085
+        lat: 52.4032064697085
+      northeast:
+        lng: 9.735267780291505
+        lat: 52.4059044302915
+    location:
+      lng: 9.7338669
+      lat: 52.4046426
+  address_components:
+    - types:
+        - street_number
+      short_name: 195 A
+      long_name: 195 A
+    - types:
+        - route
+      short_name: Vahrenwalder Str.
+      long_name: Vahrenwalder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Vahrenwald-List
+      long_name: Vahrenwald-List
+    - types:
+        - locality
+        - political
+      short_name: Hannover
+      long_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30165"
+      long_name: "30165"
+  international_phone_number: +49 176 23618272
+  place_id: ChIJeexJ8UgLsEcRyBMwZG1E4Ho
+  url: https://maps.google.com/?cid=8854152104033391560
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444442062
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ZoukHannover
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444442/g0tmdsg4mwlbtiygxexj.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444442062
+  owned: false
+  name: Zouk Hannover
+  place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+  updatedAt: 1715444442062
+  username: ZoukHannover
+claimed: No
+link: https://www.danceplace.com/ticket/buy/12648
+description: |+
+  🔥🔥Zouk Festival Hannover🔥🔥
+
+  06.09.2024 to 09.09.204
+
+  🔥🔥Save the date🔥🔥
+
+
+  🔥 3 Days of Workshops 
+  🔥 3 Days of Parties
+  🔥 with extra special Masterclass Training 
+  🔥 with BZDC OFFICIAL JACK AND JILL
+  Experience an unforgettable event with us!
+  🔝 Lots of excellent workshops
+  🔝 Lots of great artists
+  🔝 Amazing music
+  🔝 Fun themed parties
+  🔝 Affordable hotels near the venue
+  🔝 Various meal options delivered directly to the venue
+  We have a lot in store for you to make this event incredible!
+
+
+
+  Line up coming very soon!!!
+
+
+
+
+  Ticks are now Available ;-)
+
+  https://www.danceplace.com/ticket/buy/12648
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444444/tpwivcvet0xpiuq1hmil.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+international: No
+hash: 1725620400000+ChIJeexJ8UgLsEcRyBMwZG1E4Ho
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDOHRNqwydAQmHCoSKUCE.png?generation=1715444466024558&alt=media
+viewsCount: 1
+id: DOHRNqwydAQmHCoSKUCE

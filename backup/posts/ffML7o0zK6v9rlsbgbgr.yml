@@ -1,0 +1,244 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/dinastia-world-dance-congress/
+name: Dinastia World Dance Congress 2025
+sourceUrl: https://www.facebook.com/events/1608645396561051
+venue:
+  address_components:
+    - long_name: "20"
+      short_name: "20"
+      types:
+        - street_number
+    - long_name: Konstitucijos prospektas
+      short_name: Konstitucijos pr.
+      types:
+        - route
+    - long_name: Vilnius
+      short_name: Vilnius
+      types:
+        - locality
+        - political
+    - long_name: Vilniaus apskritis
+      short_name: Vilniaus apskr.
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Lithuania
+      short_name: LT
+      types:
+        - country
+        - political
+    - long_name: "09308"
+      short_name: "09308"
+      types:
+        - postal_code
+  formatted_address: Konstitucijos pr. 20, 09308 Vilnius, Lithuania
+  geometry:
+    location:
+      lat: 54.694863
+      lng: 25.2751962
+    viewport:
+      northeast:
+        lat: 54.6961855802915
+        lng: 25.2766059302915
+      southwest:
+        lat: 54.6934876197085
+        lng: 25.2739079697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +370 5 272 6272
+  name: Radisson Blu Hotel Lietuva, Vilnius
+  place_id: ChIJTc8nrQaU3UYRIR-_n3e5cUg
+  url: https://maps.google.com/?cid=5220157366531464993
+  website: https://www.radissonhotels.com/en-us/hotels/radisson-blu-vilnius-lietuva?cid=a:se+b:gmb+c:emea+i:local+e:rdb+d:nob+h:LTVNOLIE
+endDate: 1742176800000
+claimed: No
+link: https://www.goandance.com/en/events/6844-dinastia-world-dance-congress-2025
+description: >-
+  👑 Dinastia World Dance Congress 2025 👑
+
+
+  It is with great pleasure to finally officially announce the “Dinastia World Dance Congress 2025” in the heart of Vilnius, Lithuania. 
+
+  Get ready for 3 days of Amazing Workshops and Parties with International Artists and much more !!!
+
+
+  Artists, DJs & Media 
+
+
+  ⭐️  BACHATA ARTISTS  ⭐️
+
+
+  Melvin 🇫🇷 & Gatica 🇳🇴🇪🇸
+
+
+  Gero 🇪🇸 & Migle 🇱🇹🇪🇸
+
+
+  Maycheal 🇦🇪 & Mayra 🇮🇹🇦🇷
+
+
+  Leo 🇺🇸🇱🇹 & Valerija 🇱🇹
+
+
+  Aitor 🇪🇸 & Andzelika 🇱🇹🇪🇸
+
+
+  Maurizio Bollo 🇮🇹 & Serena 🇮🇹
+
+
+  York 🇩🇪 & Lisa🇩🇪
+
+
+  Marco 🇮🇹 & Eleonora 🇮🇹
+
+
+  Rasmus 🇸🇪 & Sara 🇸🇪
+
+
+  Rezi 🇬🇧 & Sia 🇺🇦
+
+
+  More to be announced!
+
+
+
+  DJ’s:
+
+
+  🎧DJ York 🇩🇪
+
+
+  🎧DJ Lima 🇵🇪🇪🇸🇱🇹
+
+
+  🎧DJ Pablo G 🇪🇸🇨🇭
+
+
+  More to be announced!
+
+
+
+
+  ⭐️ ZOUK ARTISTS ⭐️
+
+
+  William 🇧🇷 & Irene 🇪🇸
+
+
+  Lukas 🇧🇷 & Thayna 🇧🇷
+
+
+  Donatas 🇱🇹 & Laura 🇱🇹
+
+
+  More to be announced!
+
+
+
+
+  ⭐️ MEDIA ⭐️
+
+
+  🎥 AZU Records
+
+
+  🎥 KING Productions
+
+
+
+  🎟️ TICKETS & PURCHASE INFO 🎟️
+
+
+
+  🎟️PASSES 
+
+
+
+  Early Bird Full Pass - 105 Euros
+
+
+
+  *ONLY 30 PASSES AVAILABLE AT THIS RATE !!!
+
+
+  https://www.goandance.com/en/events/6844-dinastia-world-dance-congress-2025
+
+
+  Final Full Pass Price - 140 Euros
+
+
+  *PASSES ARE NOT REFUNDABLE. However we are able to transfer your pass to the next years edition in 2026 free of charge!
+
+
+
+  🏨 HOTEL & VENUE 🪩 // 🤩 ALL IN ONE VENUE 🤩
+
+
+
+  RADISSON BLU Hotel
+
+
+  ⭐️5 STARS Luxury Hotel
+
+  ⭐️3 Huge Beautiful Dance Halls
+
+  ⭐️2 Luxury Full Bars
+
+  ⭐️Elegant Rooftop
+
+  ⭐️Next to a Shopping Centre
+
+  ⭐️Few Minutes Away from the City Center
+
+
+
+  YOU MUST BOOK YOUR HOTEL ROOMS THROUGH THE LINK BELOW !!!
+
+
+  Accommodation will be available to book very soon !
+
+
+  Make sure to adjust the dates in which you are staying!!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293951/kvns7yq5mro8zi9rbitt.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ9QhkXPuT3UYRQNzpcIzRAAQ
+international: No
+visibility: Public
+org:
+  id: QmUOUZsT9MjPXppIIBlt
+  username: DinastiaDanceCompany
+  name: Dinastia Šokių Akademija
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953542/msvsz0mu8bqxwhoaft0z.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/DinastiaDanceCompany
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1608645396561051/
+facebookId: "1608645396561051"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1741879800000+ChIJTc8nrQaU3UYRIR-_n3e5cUg
+startDate: 1741879800000
+id: ffML7o0zK6v9rlsbgbgr

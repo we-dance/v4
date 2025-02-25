@@ -1,0 +1,141 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/tusalsa-dance-sbk-congress/
+sourceUrl: https://facebook.com/events/302789296237925
+venue:
+  address_components:
+    - long_name: Ctra Nacional 232 km. 83,400
+      short_name: Ctra Nacional 232 km. 83,400
+      types:
+        - route
+    - long_name: Castejón
+      short_name: Castejón
+      types:
+        - locality
+        - political
+    - long_name: Navarra
+      short_name: NA
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Navarra
+      short_name: NC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "31590"
+      short_name: "31590"
+      types:
+        - postal_code
+  formatted_address: Ctra Nacional 232 km. 83,400, 31590 Castejón, Navarra, Spain
+  geometry:
+    location:
+      lat: 42.1347976
+      lng: -1.6984333
+    viewport:
+      northeast:
+        lat: 42.1362225802915
+        lng: -1.697023969708498
+      southwest:
+        lat: 42.1335246197085
+        lng: -1.699721930291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  international_phone_number: +34 948 84 20 12
+  name: Cafetería Luze el Villa
+  place_id: ChIJNceYA8dcWg0RRusJOjD2vYU
+  url: https://maps.google.com/?cid=9637129464635321158
+  website: https://www.luzehoteles.com/luze-el-villa/restauracion/
+endDate: 1764518400000
+claimed: No
+link: ""
+description: >-
+  ¡Prepárate para el evento del año! Nos complace anunciar el regreso del
+  congreso de baile, TuSalsa  que se llevará a cabo los días 28, 29 y 30 de
+  noviembre en el Hotel Luze El Villa.
+
+
+  Este emocionante congreso es una celebración de la pasión y el talento del baile latino, y contará con talleres impartidos por artistas reconocidos en el mundo de la salsa, la bachata y la kizomba. Durante tres días, tendrás la oportunidad de aprender, mejorar tus habilidades y disfrutar de espectáculos increíbles, rodeado de una comunidad vibrante y apasionada por el baile.
+
+
+  ¿Qué puedes esperar en TuSalsa 2025?
+
+
+  - Talleres Intensivos: Perfecciona tus movimientos y aprende nuevas técnicas de la mano de grandes maestros de la salsa, la bachata y la kizomba.
+
+  - Shows Espectaculares: Disfruta de presentaciones en vivo que te dejarán sin aliento, realizadas por algunos de los mejores bailarines del mundo.
+
+  - Fiestas Sociales: Baila hasta el amanecer con nuestras fiestas sociales donde podrás practicar lo aprendido y divertirte con amigos nuevos y conocidos.
+
+  - Networking: Conoce y conecta con otros entusiastas del baile, intercambia experiencias y forma parte de esta increíble comunidad global.
+
+
+  No pierdas esta oportunidad única de sumergirte en el mundo del baile latino!
+
+
+  Fecha: 28, 29 y 30 de noviembre de 2025  
+
+  Lugar: Hotel Luze El Villa
+
+
+  ¡Inscríbete ahora y asegura tu lugar en TuSalsa 2025! Ven a vivir la pasión del baile latino en un evento que promete ser inolvidable.
+
+
+  ¡Nos vemos en la pista de baile!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/yasm07k2fibrfpt0fewn.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ2awahK1cWg0RwO_OCGWMAQQ
+international: No
+visibility: Public
+org:
+  createdAt: 1732293939406
+  importedAt: 1732293939406
+  updatedAt: 1732293939406
+  source: facebook
+  name: TuSalsa
+  facebook: https://www.facebook.com/people/TuSalsa/100068966499524/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293940/dqoqxdgp3nx2dipkitut.jpg
+  username: TuSalsa
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ2awahK1cWg0RwO_OCGWMAQQ
+facebook: https://www.facebook.com/events/302789296237925/
+facebookId: "302789296237925"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: TuSalsa 2025
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1764349200000+ChIJNceYA8dcWg0RRusJOjD2vYU
+startDate: 1764349200000
+id: 6Q2wvm1JB2MQEyJE6YGF

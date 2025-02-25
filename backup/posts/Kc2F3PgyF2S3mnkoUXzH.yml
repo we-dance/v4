@@ -1,0 +1,120 @@
+venue:
+  website: https://flowmotionstudio.de/
+  formatted_address: Glasower Str. 60/Haus 1, 3.OG, 12051 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Flow Motion Studio Neukölln
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4415773802915
+      south: 52.4633103197085
+      north: 52.4660082802915
+      west: 13.4388794197085
+    location:
+      lng: 13.4402621
+      lat: 52.46453820000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: Haus 1, 3.OG
+      long_name: Haus 1, 3.OG
+    - types:
+        - street_number
+      short_name: "60"
+      long_name: "60"
+    - types:
+        - route
+      short_name: Glasower Str.
+      long_name: Glasower Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Neukölln
+      long_name: Bezirk Neukölln
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "12051"
+      long_name: "12051"
+  international_phone_number: +49 163 1985606
+  place_id: ChIJbWwWYn9PqEcRudlxuXLQYnE
+  url: https://maps.google.com/?cid=8170321865159596473
+endDate: 2023-05-21T21:00
+claimed: No
+link: https://www.flowmotionstudio.de/class-schedule-pricing/
+description: >-
+  This weekly jam is aimed at bridging the gap between the dance and acrobatics
+  worlds, bringing together dancers and acrobats. We believe that both can learn
+  a lot from each other toward a more interdisciplinary understanding of
+  pathways, fluidity, physics, and momentum.
+
+
+  10€ per person (USC members can check in with USC and pay just 5€ at the jam).
+
+
+  If you're not sure where to begin, try our dance acro classes on Saturdays with Fabian!
+
+
+  Lele is a performer, movement and dance teacher who finished his studies at Die Etage in 2020. His passion for movement began at an early age, with capoeira, parkour, floor acroabtics, and finally contemporary dance. During the last eight years, he has shared his wide experience with amateurs, professionals, children and adults, always trying his best to catch one’s individual needs and keeping a motivating and fun spirit.
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F0271b620-5222-414c-9446-7933a555065a?alt=media&token=b1140ccb-c874-4e50-b445-efbbb55393db
+duration: 60
+createdAt: 1682429048090
+artists:
+  - instagram: https://instagram.com/lelesmovementarts
+    username: lelesmovementarts
+price: 10 EUR
+socialCover: ""
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: Kc2F3PgyF2S3mnkoUXzH
+artistsList:
+  - lelesmovementarts
+international: No
+updatedAt: 1682429048090
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  instagram: https://instagram.com/flowmotionberlin
+  username: flowmotionberlin
+telegram: {}
+upVotes: 0
+eventType: Course
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Floor Acrobatics & Dance Jam
+online: No
+votes: 0
+styles: {}
+startDate: 2023-05-21T18:00
+username: aslihan
+viewsCount: 2

@@ -1,0 +1,171 @@
+endDate: 1717275600000
+sourceUrl: https://www.facebook.com/events/713366954195458/?event_time_id=713366964195457
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1706116658000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1706207135000
+facebookId: "713366964195457"
+facebook: https://www.facebook.com/events/713366954195458/?event_time_id=713366964195457
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/713366954195458/?event_time_id=713366964195457
+eventType: Party
+providerItemId: e713366964195457@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Salsa & Bachata  Tanz- & Erlebnisreise Mallorca - 2024
+location: Hotel Clumba
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717264800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Carrer Nereidas, 2, 07590 Capdepera, Illes Balears, Spain
+  website: http://www.serranohotels.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Clumba
+  geometry:
+    viewport:
+      southwest:
+        lng: 3.455686919708498
+        lat: 39.7050434197085
+      northeast:
+        lng: 3.458384880291501
+        lat: 39.70774138029149
+    location:
+      lng: 3.4571697
+      lat: 39.7063886
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Carrer Nereidas
+      long_name: Carrer Nereidas
+    - types:
+        - locality
+        - political
+      short_name: Capdepera
+      long_name: Capdepera
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: PM
+      long_name: Illes Balears
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IB
+      long_name: Illes Balears
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "07590"
+      long_name: "07590"
+  international_phone_number: +34 971 56 31 50
+  place_id: ChIJKUy3Vl4WlhIRIUcr5YfSbKI
+  url: https://maps.google.com/?cid=11703961012736313121
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224685269
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/DanceDates
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224685/uu4exuia8n4ben0zyn9f.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224685269
+  owned: false
+  name: Dance Dates
+  place: ChIJ9ewzcBYWlhIR-4ggjeUvZ2I
+  updatedAt: 1711224685269
+  username: DanceDates
+claimed: No
+link: https://www.dance-dates.de/tanzreise-salsa-bachata-mallorca-2024/
+description: |-
+  Salsa & Bachata  Tanz- & Erlebnisreise Mallorca - 2024
+
+  Samstag, 01. Juni - Freitag, 07. Juni 2024
+
+  ----------------------------------------
+
+  Trainer:
+  Salsa: Melissa Ortiz Gomez
+  Bachata: Anna Horn & Anna Podolska
+
+  Willkommen im Urlaub 
+
+  Erwartet das Beste !
+
+  ----------------------------------------
+
+  - 3 Sterne Strand Hotel Clumba mit HP
+
+  - Hotel & Flughafen Transfers*
+
+  - täglich geniale Workshops*
+
+  - 2 Tänze in einer Tanzreise*
+
+  - Bachata & Salsa*
+
+  - täglich coole Übungsstunden* 
+
+  - täglich lockere Tanzpartys* 
+
+  - Tolle Kennenlern- Party
+
+  - Große Pool-Abschlussparty
+
+  - Persönliche Betreuung und Organisation durch die Reiseleitung
+
+  - wunderschöne Erlebnisausflüge*
+
+  ----------------------------------------
+
+  Programm, Ausflüge, AGB, Preise, Buchung usw. auf unserer Homepage:
+
+  https://www.dance-dates.de/tanzreise-salsa-bachata-mallorca-2024/
+
+  * siehe AGB
+  ----------------------------------------
+
+  Dance Dates Tanz-und Erlebnisreisen 
+
+  Seid 16 Jahren das Original
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224687/fk0r0tzlxtvdyhgzguqm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ9ewzcBYWlhIR-4ggjeUvZ2I
+international: No
+hash: 1717264800000+ChIJKUy3Vl4WlhIRIUcr5YfSbKI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWxxsAtKLdRnJzAsz6q6M.png?generation=1711224733401935&alt=media
+viewsCount: 37
+id: WxxsAtKLdRnJzAsz6q6M

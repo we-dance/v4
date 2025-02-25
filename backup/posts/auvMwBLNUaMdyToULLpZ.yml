@@ -1,0 +1,141 @@
+endDate: 1723406400000
+sourceUrl: https://www.facebook.com/events/1033802911532881
+createdAt: 1722520829455
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1722518868000
+updatedAt: 1722520829455
+importedAt: 1722520829455
+providerUpdatedAt: 1722518868000
+facebookId: "1033802911532881"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1033802911532881
+eventType: Party
+providerItemId: 47622-1723381200-1723406400@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: D-Beach Domonyvölgy, Fenyő út, Domonyvölgy, 2182, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723381200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Domony, Akác u. 145, 2182 Hungary
+  website: http://www.astrand.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: D-Beach
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.4047455197085
+        lat: 47.63085506970851
+      northeast:
+        lng: 19.4074434802915
+        lat: 47.63355303029151
+    location:
+      lng: 19.4056708
+      lat: 47.6327737
+  address_components:
+    - types:
+        - street_number
+      short_name: "145"
+      long_name: "145"
+    - types:
+        - route
+      short_name: Akác u.
+      long_name: Akác utca
+    - types:
+        - locality
+        - political
+      short_name: Domony
+      long_name: Domony
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2182"
+      long_name: "2182"
+  place_id: ChIJzWrsSszLQUcRB9mWawTIyI4
+  url: https://maps.google.com/?cid=10288693270038370567
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/fourstepsbachata
+  name: FOUR STEPS - Bachata Dance Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715695255/i3gzijeyjxxjy3d1ygzs.jpg
+  bio: ""
+  id: AawTCDK5nbsYPeA3HDYy
+  instagram: ""
+  username: fourstepsbachata
+claimed: No
+facebook: https://www.facebook.com/events/1033802911532881/
+link: ""
+description: >+
+  Sziasztok Táncosok! 🌞
+
+
+  Szombati buli után nincs is annál jobb levezetés vasárnapra, mint együtt lazulni táncos barátokkal egy hangulatos beach-en🏖️, ahol koktélt 🍹iszogatunk miközben a háttérben a legjobb Bachata számok szólnak 🎶🪘, amikre táncolhatunk 💃🕺a homokos parton vagy a bárban a hajópadlón. 
+
+
+  A szuper táncok után pedig jöhet a felfrissülés, csobbanás a vízbe.🌊
+
+
+  Augusztus 11-én ha velünk tartasz, egy ilyen fantasztikus élményben lesz részed 🤩! Gyere el és szólj barátaidnak is, hogy együtt éljétek át ezt a napot.
+
+
+  A helyszínről töltöttünk fel fotókat a „beszélgetésbe”, nézd meg, szerintünk garantált, hogy a vibe meghozza a kedvedet.
+
+
+
+  Az esemény Budapesttől 50 km-re, a gyönyörű  Gödöllői  dombságokkal körbe ölelt “D-Beachen” lesz. 
+
+
+  ✅Cím: Domonyvölgy, D-Beach strand
+
+  ✅Időtartam: 13:00 – 20:00
+
+  ✅Strand belépő: 2500 Ft
+
+  ✅Zene: 100% Bachata
+
+  ✅Ingyenes parkoló (strand saját parkolója)
+
+  ✅Büfé
+
+  ✅Öltöző, zuhanyzó
+
+
+  A büfé árai mérsékeltek, ital és étel kínálat gazdag! 
+
+
+  Vizi animáció tuti lesz 😉 Játékokat hozzatok , mi is rakunk be, ami van! 🏸🃏🪁🎲
+
+
+  Ott tali 🏖️🌞🤩
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722520851/qaopipbmyk1fmqkq3oqg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Bachata Summer Beach Party - 11. AUG / Sunday
+online: No
+place: ChIJ-cRHM2TKQUcRoQ-556QQK9c
+international: No
+hash: 1723374000000+ChIJzWrsSszLQUcRB9mWawTIyI4
+id: auvMwBLNUaMdyToULLpZ

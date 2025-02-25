@@ -1,0 +1,110 @@
+endDate: 1711238400000
+sourceUrl: https://www.facebook.com/events/419117720482034
+createdAt: 1710684370486
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710410073000
+updatedAt: 1710684370486
+importedAt: 1710684370486
+providerUpdatedAt: 1710410073000
+facebookId: "419117720482034"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/419117720482034
+eventType: Party
+providerItemId: 10008584-1711152000-1711238399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Otthon Kávéző, Kossuth tér 4., Kecskemét, 6000, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711152000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Kecskemét, Hungary
+  website: http://www.kecskemet.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kecskemét
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.50661088431674
+        lat: 46.76986298166188
+      northeast:
+        lng: 19.8515029427954
+        lat: 47.00125405204989
+    location:
+      lng: 19.6896861
+      lat: 46.8963711
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Kecskemét
+      long_name: Kecskemét
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+  place_id: ChIJPxz2CGHaQ0cRgBEeDCnEAAQ
+  url: https://maps.google.com/?q=Kecskem%C3%A9t,+Hungary&ftid=0x4743da6108f61c3f:0x400c4290c1e1180
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+facebook: https://www.facebook.com/events/419117720482034/
+link: ""
+description: |-
+  🌹🥀🪷🌺🌸🌼
+  „Mi az?” – kérdezte Vén Rigó.
+  „Tavasz” – felelt a Nap.
+  „Megjött?” – kérdezte Vén Rigó.
+  „Meg ám!” – felelt a Nap.
+  🌷🌹🥀🪷🌺🌸🌼
+
+  🔥🔥Dress Code: Tavasz színei🔥🔥
+
+  📌Időpont: 2024. március 23. szombat 20:00
+  📌Helyszín: Otthon Kávézó Kossuth tér
+
+  Party belépő:
+  elővételben: 2000Ft
+  helyszínen: 2500Ft
+
+  Az este során SALSA ruedák, animáció ééééés mindenféle táncos jó! 🙂
+
+  📫
+  info@dolce-dance.com
+  www.dolce-dance.com
+  +36305153951
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684390/ajmjyeozxyanl2bg68yg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Tavaszváró🌷-Salsa & Sensual  Party- Kecskemét
+online: No
+place: ChIJPxz2CGHaQ0cRgBEeDCnEAAQ
+international: No
+hash: 1711220400000+ChIJPxz2CGHaQ0cRgBEeDCnEAAQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FI85PkygQQQc0k09wDhWY.png?generation=1710684407546930&alt=media
+id: I85PkygQQQc0k09wDhWY

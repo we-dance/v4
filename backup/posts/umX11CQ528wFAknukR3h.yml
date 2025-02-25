@@ -1,0 +1,167 @@
+endDate: 1719756000000
+sourceUrl: https://www.facebook.com/events/3608834566001669/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714836022000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1714836022000
+facebookId: "3608834566001669"
+facebook: https://www.facebook.com/events/3608834566001669/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3608834566001669/
+eventType: Party
+providerItemId: e3608834566001669@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 6stündiger Kizomba-Crashkurs für Einsteiger mit DiaoDance
+location: Kizomba-tanzen.hamburg      DiaoDance
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719669600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Stresemannstraße 374, 22761 Hamburg, Germany
+  website: http://www.kizomba-tanzen.hamburg/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: DiaoDance - Kizomba tanzen in Hamburg
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.920379119708498
+        lat: 53.5622017197085
+      northeast:
+        lng: 9.923077080291502
+        lat: 53.5648996802915
+    location:
+      lng: 9.9217916
+      lat: 53.5635017
+  address_components:
+    - types:
+        - street_number
+      short_name: "374"
+      long_name: "374"
+    - types:
+        - route
+      short_name: Stresemannstraße
+      long_name: Stresemannstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altona
+      long_name: Altona
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "22761"
+      long_name: "22761"
+  place_id: ChIJ2wTGReqFsUcRJATJUxKgFts
+  url: https://maps.google.com/?cid=15786981544369390628
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546488868
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Diaodance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546489/x1bsmlumyetxrnrcufoi.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546488868
+  owned: false
+  name: DiaoDance
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1718546488868
+  username: Diaodance
+claimed: No
+link: https://www.kizomba-tanzen.hamburg/crashkurs/
+description: >-
+  📌 6stündiger Kizomba-Crashkurs für Anfänger 📌
+
+
+  Ihr habt keine Zeit für laufende Kurse?
+
+  Ihr möchtet Kizomba lernen und einen Überblick gewinnen was dieser Tanz Euch alles zu bieten hat?
+
+
+  Dann bucht unseren über die Stadtgrenzen hinaus sehr beliebten 6stündigen Crashkurs für Einsteiger!
+
+
+  Er ist geeignet für Tänzer ohne oder mit geringen Vorkenntnissen, sowie für Kizomba-Tänzer die Ihr Basis-Wissen gerne nochmal auffrischen möchten! Außerdem ist der Crashkurs geeignet für die Tänzer, die Ihre Rolle im Tanz tauschen möchten.
+
+
+  Ihr lernt die Grundlagen, die man braucht um sich sicher auf den ersten Kizomba-Partys zu bewegen. Außerdem erfahrt ihr Wissenswertes über den Tanz, die Musik und vieles mehr!
+
+
+  Nach dem Crashkurs ist gleich ein Einstieg in unsere laufenden Kurse möglich.
+
+
+  HINWEIS:
+
+  bevorzugt Paaranmeldungen!
+
+  Solo-Anmeldungen nur begrenzt möglich.
+
+
+  Nächster Termin:
+
+  📆📆📆📆📆📆📆📆
+
+  Samstag: 29.06.2024 (16:00 - 19:00 Uhr)
+
+  +
+
+  Sonntag: 30.06.2024 (13:00 - 16:00 Uhr )
+
+  👇👇👇👇👇👇👇👇👇👇 👇👇
+
+  🖊🖊 Anmeldung und Informationen: https://www.kizomba-tanzen.hamburg/crashkurs
+
+
+  Anmeldeschluss: 25.06.2024
+
+  #diaodance #kizombatanzenhamburg #kizombahamburg #kizombafusion #urbankiz #kizomba
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546490/cmxtklvrtvaxctyz5kug.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1719669600000+ChIJ2wTGReqFsUcRJATJUxKgFts
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FumX11CQ528wFAknukR3h.png?generation=1718546504640813&alt=media
+viewsCount: 1
+id: umX11CQ528wFAknukR3h

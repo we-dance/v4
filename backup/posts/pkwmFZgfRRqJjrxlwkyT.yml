@@ -1,0 +1,64 @@
+city: Munich
+endDate:
+  _seconds: 1603483200
+  _nanoseconds: 0
+description: >-
+  If you know basics, turns and rhythm join our workshops to learn figures!
+
+
+  Every training we will just learn new figure and focus on things you want to improve.
+
+
+  It is a mixed Beginner/Intermediate group, who already know basics.
+
+
+  ### About teacher
+
+
+  <w-profile username="Guantanamero" />
+
+
+  ### Price
+
+
+  - subscription: 30 EUR (4 hours)
+
+  - per session: 10 EUR (1 hour)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8bb6537b-9fb9-4d17-a02e-1b6dac50163b?alt=media&token=d921a30c-6613-4ba7-950b-8f3a124311c4
+createdAt: 1602587787785
+watchersCount: 0
+commentsLast: ~
+id: pkwmFZgfRRqJjrxlwkyT
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617065903558
+address: Maillingerstraße 6
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Course
+organiser: MontunoClub
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+commentsCount: 0
+name: Salsa Cubana Figures (with special guest)
+styles:
+  Salsa:
+    level: Interested
+    selected: true
+  Casino:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate:
+  _seconds: 1603479600
+  _nanoseconds: 0
+username: alejito
+viewsCount: 1

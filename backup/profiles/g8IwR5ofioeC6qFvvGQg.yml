@@ -1,0 +1,40 @@
+owner: ""
+importedAt: 1704822882298
+visibility: Public
+facebook: https://www.facebook.com/meneateviena
+source: facebook
+type: Organiser
+createdAt: 1704822882298
+owned: false
+name: Menéate Viena
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+partner: ""
+reviews: []
+instagram: https://www.instagram.com/meneateviena
+team: []
+id: g8IwR5ofioeC6qFvvGQg
+website: https://www.meneate-viena.at/
+username: meneateviena
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"
+gender: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F39830bdd-95dd-48e8-9495-15000390c615?alt=media&token=65affea4-baea-4c3f-a373-6ed40b1ff099
+updatedAt: 1708800432146
+viewsCount: 27
+watch:
+  count: 2
+  usernames:
+    - Viacheslav
+    - alexrazbakov
+  history:
+    - username: Viacheslav
+      date: 1710966468528
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: alexrazbakov
+      date: 1729353783827
+      invitedBy: gnsUe8b53bd3EM4nmri3yo3ZCNJ2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined

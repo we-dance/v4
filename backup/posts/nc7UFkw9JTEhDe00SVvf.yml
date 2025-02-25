@@ -1,0 +1,90 @@
+venue:
+  formatted_address: Av. del Puerto, 327-329, 30740 San Pedro del Pinatar, Murcia, Spain
+  website: https://www.thalasia.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Thalasia Costa de Murcia
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -0.7770378197084978
+      south: 37.8362125197085
+      north: 37.8389104802915
+      west: -0.7797357802915019
+    location:
+      lng: -0.7783643999999998
+      lat: 37.8374243
+  address_components:
+    - types:
+        - street_number
+      short_name: 327-329
+      long_name: 327-329
+    - types:
+        - route
+      short_name: Av. del Puerto
+      long_name: Avenida del Puerto
+    - types:
+        - locality
+        - political
+      short_name: San Pedro del Pinatar
+      long_name: San Pedro del Pinatar
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: MU
+      long_name: Murcia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MC
+      long_name: Región de Murcia
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "30740"
+      long_name: "30740"
+  international_phone_number: +34 968 18 20 07
+  place_id: ChIJZUfYN7sPYw0RW77YuJHNj50
+  url: https://maps.google.com/?cid=11353519211379474011
+endDate: 2023-08-13T01:00
+claimed: No
+link: https://lasalsadelbaile.com/comprar/bachataummer2023
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F5d0a4dc7-9ca8-41e1-8719-a7defcafcf80?alt=media&token=832f2207-24b9-493f-b5db-d4d0cbc020d2
+createdAt: 1690883932226
+artists: []
+price: 135 EUR
+artistsList: []
+place: ChIJf4yS1fiBYw0RmqvEOJsSJ9Y
+international: Yes
+updatedAt: 1690883932226
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  facebook: https://facebook.com/bachatasummer
+  username: bachatasummer
+eventType: Festival
+confirmation: Use promocode "SBK" for a special discount!
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: BACHATA SUMMER 2023
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-08-11T00:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fnc7UFkw9JTEhDe00SVvf.png?generation=1690884058117558&alt=media
+viewsCount: 64
+id: nc7UFkw9JTEhDe00SVvf

@@ -1,0 +1,165 @@
+endDate: 1722697200000
+sourceUrl: https://www.facebook.com/events/457217223617253/
+createdAt: 1720530108245
+approved: true
+provider: ical
+providerId: xFVXUqhWEHWJCHD2fqnZ
+providerCreatedAt: 1720284488000
+updatedAt: 1720530108245
+importedAt: 1720530108245
+providerUpdatedAt: 1720284488000
+facebookId: "457217223617253"
+facebook: https://www.facebook.com/events/457217223617253/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/457217223617253/
+eventType: Workshop
+providerItemId: e457217223617253@facebook.com
+createdBy: rHlaIWm1AdeoZjot7KrxYtooB8t1
+name: SON LATINO SOMMERFEST ☀️ 03.AUG.2024 ☀️
+location: Son Latino Tanzschule
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722686400000
+facebookUrlsCount: 1
+username: briankballero
+venue:
+  formatted_address: Gablonzer Str. 9, 76185 Karlsruhe, Germany
+  website: http://www.sonlatino.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Son Latino Dance Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.351549969708499
+        lat: 49.0223058697085
+      northeast:
+        lng: 8.354247930291503
+        lat: 49.0250038302915
+    location:
+      lng: 8.3528404
+      lat: 49.0236753
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Gablonzer Str.
+      long_name: Gablonzer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mühlburg
+      long_name: Mühlburg
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76185"
+      long_name: "76185"
+  international_phone_number: +49 721 6638886
+  place_id: ChIJ12tDlScHl0cR755ZDQtc4ns
+  url: https://maps.google.com/?cid=8926798613940117231
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/sonlatino.events
+  name: Son Latino Events
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953975/ppzxfn8yw01f8w52mjwy.jpg
+  bio: ""
+  id: kDu60vkxvCtZ8thhEO7M
+  instagram: ""
+  username: sonlatino.events
+claimed: No
+link: ""
+description: >-
+  Am Samstag, den 03. August verwandelt sich der Hof von Son Latino für einen
+  Tag in eine gemütliche Sommer-Lounge.
+
+
+  Unseren Besuchern erwartet ab 14 Uhr neben Palmen und Liegestühlen auch ein großer Swimmingpool mit Sandstrand, eine Cocktailbar sowie ein Sommer-Barbecue und leckere Cocktails.
+
+
+  Den Nachmittag über gibt’s jede Menge Spaß mit Workshops, DJs und Animationen zum Mitmachen. Von Salsa, über Bachata bis Kizomba, wir bringen euch zum tanzen.
+
+
+  Gratis-Workshops:
+
+  14:00 - Rueda de Casino by Yilibeth & Bryan
+
+  15:15 - Urban Kiz By Miguel
+
+  16:30 - ChaChaCha by Dennis
+
+  17:45 - Pachanga by Natalie
+
+  19:00 - Salsa Ladys/Men Styling by Alyona/Bryan
+
+  20:15 - Bachata by Johny & Elly
+
+
+  Für die richtige Stimmung auf der Open Air Tanzfläche sorgen DJ Brian, DJ MKM & DJ JoJo mit gemischter Latino Musik. Ein Extra Kizomba Dance Floor gibt es auch über den ganzen Tag.
+
+
+  Ab 23 Uhr wird dann Indoor (klimatisiert) weitergefeiert.
+
+
+  Der Eintritt kostet 10 Euro (Ticket gilt für den ganzen Tag)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720530119/mxjkq3ssylnrqq4bhcdx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+hash: 1722686400000+ChIJ12tDlScHl0cR755ZDQtc4ns
+id: oUEDiSKbor7KaUGkAo0F

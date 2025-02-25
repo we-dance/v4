@@ -1,0 +1,152 @@
+venue:
+  formatted_address: Kurfürstenstraße 3a, 10785 Berlin, Germany
+  website: https://www.trybedancestudio.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 3a
+      short_name: 3a
+    - types:
+        - route
+      long_name: Kurfürstenstraße
+      short_name: Kurfürstenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mitte
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10785"
+      short_name: "10785"
+  url: https://maps.google.com/?cid=1968106549161841524
+  name: Trybe Dance Studio
+  geometry:
+    viewport:
+      south: 52.49778586970849
+      north: 52.50048383029149
+      east: 13.3699097302915
+      west: 13.3672117697085
+    location:
+      lng: 13.3686256
+      lat: 52.4993133
+  international_phone_number: +49 171 5652454
+  place_id: ChIJ8_citTVRqEcRdFPpnnoeUBs
+endDate:
+  _seconds: 1632063600
+  _nanoseconds: 0
+link: http://cspberlin.com/timba
+description: >-
+  Zum ersten Mal seit 1,5 Jahren wieder gemeinsam am Start 🙂 In diesem Workshop
+  wird es richtig „a lo cubano“ denn Timo und Julia haben für euch ein tolles
+  Programm rund um Timba im Partnerwork vorbereitet.
+
+
+  Als Musikstil gehört Timba zur kubanischen Salsa, der sich ab den 1990er-Jahren in Kuba etabliert hat und auch als Tanz eine Unterkategorie der Salsa Cubana darstellt. Aufgrund der vielen musikalischen Einflüsse kombiniert man auch im Paartanz Elemente aus der kubanischen Rumba, Son, Mambo, Chachachá und Reggaeton.
+
+
+  In unserem „Timba Partnerwork“ Workshop gehen wir im ersten Teil ausführlich auf Übungen zur Körperisolation, Footwork und Elementen anderer Tänze ein, die wir zunächst einzeln (solo) trainieren. Im zweiten Teil bauen wir diese Elemente im Partnerwork (Figuren) ein. Eine wichtige Eigenschaft im Timba ist die Energie und der Spaßfaktor im Tanz.
+
+
+  🕺💃 Level
+
+  Ihr solltet bereits Salsa Mittelstufe Level haben. Ihr benötigt kein Kenntnisse in anderen kubanischen Tänzen wie Rumba, Mambo,… Solo Erfahrung ist nicht erforderlich (aber macht es leichter 😉 )
+
+
+  👯‍♀️ Brauche ich einen Partner?
+
+  Nein, wir achten auf ein in etwa ausgeglichenes Verhältnis zwischen Leadern und Followern. Partnerwechsel sind vorgesehen aber natürlich für alle optional.
+   
+  🏠Studio
+
+  Trybe Dance Studio Berlin,Kurfürstenstraße 3a, 10785 Berlin
+
+  Google Maps: https://g.page/trybedancestudio
+
+
+  WICHTIGER HINWEIS:
+
+  Im Studio sind Straßenschuhe nicht gestattet. Bitte bringt Wechselschuhe mit 🙂
+
+
+  💰Preise
+
+  30 € bis zum 09.09
+
+  35 € ab 10.09
+
+  Rabatt mit Mehrwertkarte
+
+
+  🎟 Info / Anmeldung:
+
+  https://cspberlin.com/timba/
+type: event
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpH0880yoosdst2YzH0t6hvWMmi63%2F0844117b-c00f-41b9-b816-a40577ddbbe6?alt=media&token=3e845aaf-bf13-44af-a6a1-1ce0f530e997
+promo: Yes
+createdAt: 1631712677795
+watchersCount: 0
+price: 30EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1zWVGT3aaQzPvojXctwl.png?generation=1631713225418520&alt=media
+commentsLast: ~
+id: 1zWVGT3aaQzPvojXctwl
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1631712677795
+updatedBy: pH0880yoosdst2YzH0t6hvWMmi63
+visibility: Public
+eventType: Workshop
+organiser: Juli
+form: Yes
+createdBy: pH0880yoosdst2YzH0t6hvWMmi63
+commentsCount: 0
+name: Timba Partnerwork Workshop mit Timo & Julia
+online: No
+styles:
+  Timba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Casino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-09-19T12:00:00.000Z
+username: Juli
+viewsCount: 15

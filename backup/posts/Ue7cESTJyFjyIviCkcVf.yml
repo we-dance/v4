@@ -1,0 +1,182 @@
+venue:
+  website: http://www.deutsches-theater.de/
+  formatted_address: Schwanthalerstraße 13, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "13"
+      short_name: "13"
+    - types:
+        - route
+      long_name: Schwanthalerstraße
+      short_name: Schwanthalerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80336"
+      short_name: "80336"
+  url: https://maps.google.com/?cid=11515036469077243836
+  name: Deutsches Theater
+  geometry:
+    viewport:
+      south: 48.13597806970851
+      north: 48.1386760302915
+      east: 11.5638444802915
+      west: 11.5611465197085
+    location:
+      lng: 11.5624965
+      lat: 48.1372505
+  place_id: ChIJN8er8vd1nkcRvHcEy6igzZ8
+  international_phone_number: +49 89 55234444
+endDate: 2021-10-23T15:45:00.000Z
+organisedBy: ""
+claimed: No
+link: https://docs.google.com/forms/d/e/1FAIpQLSdIOWPPtFx-CsaENwcH_Rn6CBozHui2EV7pXdez1ubhD3f4WA/viewform
+description: >-
+  💥Pummmm 
+
+
+  Hola hola mi gente!
+
+
+  Ich weiß, dass viele von uns darauf gewartet und es sich gewünscht haben, nun ist das Warten vorbei: Das "Dance Gods" Bootcamp ist da! 4 Workshops, 5 Lehrer, ein luxuriöses Team und das Wichtigste: der enorme Wunsch und die Illusion, endlich mit euch durch dieses magische Universum voller Gefühle, Absichten, Empfindungen, Gesten und einer einzigartigen Sprache namens Tanz zu teilen.
+
+  Wir freuen uns sehr auf euch✌🏾
+
+
+  Anmeldung/Inscripción ⬇️
+
+  https://forms.gle/yJmgC7sSLj2u6W159 
+
+
+  Kontakt: dance.gods.bootcamp@gmail.com 
+
+
+  👌🏾Sehr wichtige Informationen: Die Workshops haben Namen, die mit "Los Orishas" zu tun haben, aber das ist nur thematisch und als Inspiration für die Entwicklung der Klassen. Die Workshops sind sehr vielfältig: Salsa & Timba Reggaeton Pop-Fusion Lady Style Afrokubanisch NeoAfro Bootcamp-Herausforderung Choreografie & mehr 
+
+
+  Beschreibung der Workshops/ Descripción de los Talleres ⬇️⬇️⬇️ 
+
+
+  ●11:00 - 12:00Uhr - Miel Pa'l Tambor (Iyá Añá) 
+
+
+  ### Lehrer: Socarrás 
+
+
+  Aus unserer traditionellen afrokubanischen Kultur, speziell aus dem Santería-Kult, werden wir Grundschritte und einige repräsentative Variationen des Tanzes zu den Orichas Changó und Ochún erarbeiten. 
+
+
+  De nuestra cultura tradicional afrocubana, específicamente del culto a la Santería, se trabajarán pasos básicos y algunas variaciones representativos de la danza a  los Orichas Changó y Ochún. 
+
+
+  ●12:10 - 13:10Uhr - Sal-Timba-Pop, Fusion 
+
+  (Oggunda Masá)
+
+
+  ### Lehrer: Harley
+
+
+  Verschmelzung von Schritten und Bewegungen aus verschiedenen Gesellschaftstänzen und urbanen Tänzen, die in den 90er Jahren mit Musikrichtungen oder Trends wie ,,La Salsa", ,,La Timba", ,,Hip Hop", ,,Dancehall ", ,,Reggaetón " und ,,Pop" populär wurden. 
+
+
+  Fusión de pasos y movimientos ejecutados en diferentes bailes de salón y urbanos, que se hicieron populares en la década de los 90 con géneros musicales o tendencias tales como "La Salsa", "La Timba", "Hip Hop" , "Dancehall" "Reggaetón" y el "Pop" 
+
+
+  ●13:30 - 14:30Uhr - Lady Style (Abbebe Ochún)
+
+
+  ### Lehrerin: Lexis 
+
+
+  Ein Workshop, bei dem auch verschiedene Schritte zugunsten der Arbeit an weiblichem Stil, Technik, Sinnlichkeit und Explosivität zusammengeführt werden. 
+
+
+  Un taller donde también se fusionarán diversos pasos a favor de trabajar el estilo, la técnica, sensualidad y explosividad femeninos. 
+
+
+  ●14:40 - 16:00Uhr - Choreo Challenge (Wemilere)
+
+
+  ### Lehrer: Amado und Maikel Santana 
+
+
+  In diesem Workshop werden wir die verschiedenen Stile, die wir in den vorangegangenen Workshops erarbeitet haben, zu einer kleinen choreografischen Phrase kombinieren, die als Erinnerung an das "Dance Gods Bootcamp" 2021 archiviert wird. 
+
+
+  En este taller se combinarán los diferentes estilos ya trabajados en los talleres anteriores para así crear una pequeña frase coreográfica que quedará archivada como memoria del "Dance Gods Bootcamp" 2021.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F2d49dd6a-f315-49c9-8068-eec36ddab8db?alt=media&token=549f0c65-3a31-405a-9c98-27c67b76f4f2
+duration: custom
+createdAt: 1633449595752
+watchersCount: 0
+price: 30-95 EUR
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: Ue7cESTJyFjyIviCkcVf
+views: 50
+updatedAt: 1633449595752
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Workshop
+organiser: ""
+form: Yes
+createdBy: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+commentsCount: 0
+name: "Dance Gods Bootcamp  "
+online: No
+styles:
+  Timba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-23T08:45:00.000Z
+username: salsa.cubana.munich
+viewsCount: 75

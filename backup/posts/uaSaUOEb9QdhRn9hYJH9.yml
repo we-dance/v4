@@ -1,0 +1,111 @@
+createdAt: 1704822877365
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/212461761429858/
+source: facebook
+updatedAt: 1704822877365
+username: wedancebot
+venue:
+  formatted_address: Hotel Diagonal Plaza, Av. de la Diag., 30, 50197 Zaragoza, Spain
+  website: https://www.hotelzaragozadiagonalplaza.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Diagonal Plaza
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.9945969302915021
+        lat: 41.6415490197085
+      northeast:
+        lng: -0.991898969708498
+        lat: 41.6442469802915
+    location:
+      lng: -0.9929925
+      lat: 41.6427707
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Hotel Diagonal Plaza
+      long_name: Hotel Diagonal Plaza
+    - types:
+        - street_number
+      short_name: "30"
+      long_name: "30"
+    - types:
+        - route
+      short_name: Av. de la Diag.
+      long_name: Avenida de la Diagonal
+    - types:
+        - locality
+        - political
+      short_name: Zaragoza
+      long_name: Zaragoza
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Z
+      long_name: Zaragoza
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: AR
+      long_name: Aragón
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "50197"
+      long_name: "50197"
+  international_phone_number: +34 876 11 10 00
+  place_id: ChIJHbkvG3FpWQ0RMd-mbNKiMi8
+  url: https://maps.google.com/?cid=3400959693267853105
+visibility: Public
+endDate: 1710680400000
+org:
+  owner: ""
+  importedAt: 1704822882863
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/FeverBachataSpain
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/310113888_538251638306900_8202585005260731669_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=596444&_nc_ohc=LAcn9-XcqQEAX9CPYv9&_nc_ht=scontent-atl3-1.xx&oh=00_AfA0ZCriZmnyw2km7egLZmT1KvLR7oRmS4qbVnRyNWlu7Q&oe=65A2D94E
+  source: facebook
+  type: Organiser
+  createdAt: 1704822882863
+  owned: false
+  name: Fever Bachata
+  place: ChIJkY5hXt0UWQ0RqImEFfET30k
+  updatedAt: 1704822882863
+  username: FeverBachataSpain
+claimed: No
+facebookId: "212461761429858"
+link: https://lasalsadelbaile.com/comprar/FBZC2024
+description: Bienvenidos a la tercera edición totalmente renovada del Fever
+  Bachata Zaragoza Congress 2024.. muy pronto toda la info
+program: []
+eventType: Congress
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Fever Bachata Zaragoza Congress 2024 (Universal Edition)
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJkY5hXt0UWQ0RqImEFfET30k
+international: No
+hash: 1710518400000+ChIJHbkvG3FpWQ0RMd-mbNKiMi8
+startDate: 1710518400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuaSaUOEb9QdhRn9hYJH9.png?generation=1704822906472785&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853621/tpmnmg6pimiuoflkzfga.jpg
+viewsCount: 44
+id: uaSaUOEb9QdhRn9hYJH9

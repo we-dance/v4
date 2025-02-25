@@ -1,0 +1,110 @@
+venue:
+  formatted_address: Carl-Reuther-Straße 1, 68305 Mannheim, Germany
+  website: http://animo.dance/
+  name: Animo Tanzschule
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.487973880291502
+      south: 49.5274263197085
+      north: 49.5301242802915
+      west: 8.485275919708497
+    location:
+      lng: 8.4864639
+      lat: 49.5286108
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Carl-Reuther-Straße
+      long_name: Carl-Reuther-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Waldhof
+      long_name: Waldhof
+    - types:
+        - locality
+        - political
+      short_name: MA
+      long_name: Mannheim
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Mannheim
+      long_name: Kreisfreie Stadt Mannheim
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "68305"
+      long_name: "68305"
+  place_id: ChIJX5irQOHNl0cRTtPl6kPvvys
+  url: https://maps.google.com/?cid=3152501339165414222
+endDate: 2023-01-22T17:00
+claimed: No
+link: https://animo.dance/events/978a26dc-b248-47a5-95a0-77d8b072cbbe
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FstjJd9OFQCSrWJjFZgqrp6AAsJJ2%2Ffea56191-6fde-4f89-9c79-06e5a219ac6c?alt=media&token=388e9e72-425b-4cf0-bbe9-05f3046391a8
+promo: Yes
+createdAt: 1671610016289
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJRT-OUSTMl0cRh-YGpHr-5LE
+international: No
+updatedAt: 1671610016289
+updatedBy: stjJd9OFQCSrWJjFZgqrp6AAsJJ2
+visibility: Public
+org:
+  facebook: https://facebook.com/animotanzschule
+  username: animotanzschule
+facebook: https://fb.me/e/3bxqn47G2
+eventType: Other
+form: No
+watch:
+  count: 1
+  list:
+    Bluex23: true
+createdBy: stjJd9OFQCSrWJjFZgqrp6AAsJJ2
+name: Open Day - Latino Dance in Mannheim
+online: ""
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-22T11:00
+username: Bluex23
+id: OgFuVmqAozuRkSyHiH8m
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOgFuVmqAozuRkSyHiH8m.png?generation=1671659879072911&alt=media
+telegram: {}
+viewsCount: 24

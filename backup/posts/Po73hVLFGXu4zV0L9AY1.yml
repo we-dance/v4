@@ -1,0 +1,112 @@
+venue:
+  formatted_address: Lise-Meitner-Straße 39-41, 10589 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Lise-Meitner-Straße 39-41
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3065990302915
+      south: 52.5312679697085
+      north: 52.5339659302915
+      west: 13.3039010697085
+    location:
+      lng: 13.3046414
+      lat: 52.5323173
+  address_components:
+    - types:
+        - street_number
+      short_name: 39-41
+      long_name: 39-41
+    - types:
+        - route
+      short_name: Lise-Meitner-Straße
+      long_name: Lise-Meitner-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Charlottenburg-Wilmersdorf
+      long_name: Bezirk Charlottenburg-Wilmersdorf
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10589"
+      long_name: "10589"
+  place_id: ChIJ2d0PCDhRqEcR3ix4bkB3eTU
+  url: https://maps.google.com/?q=Lise-Meitner-Stra%C3%9Fe+39-41,+10589+Berlin,+Germany&ftid=0x47a85138080fddd9:0x357977406e782cde
+endDate: 2023-04-25T19:00
+claimed: No
+description: Beginner Level - no partner needed - Footwork & Sensual Combination
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2F8d746056-dddb-48b7-b7f0-1829233e104a?alt=media&token=a0e51fea-011f-4d5a-ad65-fd5cf611380e
+createdAt: 1681824888819
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/florian.kanehl
+    name: Florian Kanehl
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTMr0jPNzmHNYEnVPUmmA34OeEqj1%2Ff0595cf4-a571-46b9-ac40-ddd7ace5e705?alt=media&token=30e3ec79-8b10-4916-a842-5a79ff7f0d9f
+    bio: Hi my name is Florian i am from Hamburg and i ve been living in Berlin for
+      4,5 years. I love the city and its cultural and historical offers
+    id: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+    instagram: https://instagram.com/flowdanceberlin
+    username: Flowdance
+price: 0 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - Flowdance
+international: No
+updatedAt: 1681824888819
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/florian.kanehl
+  name: Florian Kanehl
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTMr0jPNzmHNYEnVPUmmA34OeEqj1%2Ff0595cf4-a571-46b9-ac40-ddd7ace5e705?alt=media&token=30e3ec79-8b10-4916-a842-5a79ff7f0d9f
+  bio: Hi my name is Florian i am from Hamburg and i ve been living in Berlin for
+    4,5 years. I love the city and its cultural and historical offers
+  id: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+  instagram: https://instagram.com/flowdanceberlin
+  username: Flowdance
+eventType: Workshop
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    aslihan: true
+name: Bachata Class
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-25T18:00
+username: aslihan
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPo73hVLFGXu4zV0L9AY1.png?generation=1681824953528282&alt=media
+viewsCount: 53
+id: Po73hVLFGXu4zV0L9AY1

@@ -1,0 +1,194 @@
+venue:
+  formatted_address: Calle 21 y O, Vedado, Plaza La Habana, La Habana 10400, Cuba
+  website: https://www.hotelnacionaldecuba.com/
+  name: Hotel Nacional de Cuba
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -82.38021926970849
+      south: 23.1422804197085
+      north: 23.1449783802915
+      west: -82.38291723029151
+    location:
+      lng: -82.3814653
+      lat: 23.1433813
+  address_components:
+    - types:
+        - country
+        - political
+      short_name: CU
+      long_name: Cuba
+    - types:
+        - locality
+        - political
+      short_name: La Habana
+      long_name: La Habana
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Plaza de la Revolución
+      long_name: Plaza de la Revolución
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: La Habana
+      long_name: La Habana
+    - types:
+        - postal_code
+      short_name: "10400"
+      long_name: "10400"
+  place_id: ChIJ_dKuClh3zYgRJUd04ZBawGo
+  international_phone_number: +53 7 8363564
+  url: https://maps.google.com/?cid=7692247741853091621
+endDate: 2023-04-16T01:00
+claimed: No
+link: https://www.dancefestivalincuba.com/tickets/
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fdfc90ad1-85bb-4236-898d-b451b8aafc1e?alt=media&token=7add72ae-64ef-420d-b5b0-f056a1c869b4
+duration: 60
+createdAt: 1674733040129
+price: 415-495 EUR
+updatedAt: 1674733040129
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Festival
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: International Cuban Dance Festival in Havana
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-10T09:00
+username: alexrazbakov
+id: lYG3niIvAbtt5WbATLyb
+international: Yes
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlYG3niIvAbtt5WbATLyb.png?generation=1674733358146734&alt=media
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: ""
+  name: Ritmo Cuba
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fdb4bb2cf-ff67-4ba2-b099-e02fa1748cd9?alt=media&token=349f654a-440b-4e10-8b37-de75cc6b0bbc
+  bio: >
+    Once a year students, dance enthusiasts, instructors and performers descend
+    of Havana for one week of lessons, cultural exchanges and dance parties.
+  instagram: https://instagram.com/ritmocuba
+  id: es3h76l09WMprkANSpBn
+  username: ritmocuba
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Maykel Fonts
+    bio: |-
+      Ballerino di @ballandoconlestelle ✨
+      Coreografo di Street Dance 2
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media
+    id: N4Vq33POKaw2dKDIGefc
+    instagram: https://instagram.com/maykel_fonts
+    username: maykel_fonts
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: yunaisy_farray
+    bio: ""
+    photo: ""
+    instagram: https://instagram.com/yunaisy_farray
+    id: YeFFarYr0bzKCSY6dIRa
+    username: yunaisy_farray
+  - role: instructor
+    instagram: https://instagram.com/jluisbailasi
+    username: jluisbailasi
+  - role: instructor
+    instagram: https://instagram.com/indiramora_cueto_
+    username: indiramora_cueto_
+  - role: instructor
+    instagram: https://instagram.com/jennygalata
+    username: jennygalata
+  - role: instructor
+    instagram: https://instagram.com/barbaro.ramos.37
+    username: barbaro.ramos.37
+  - role: instructor
+    instagram: https://instagram.com/jorgelunaroque
+    username: jorgelunaroque
+  - role: instructor
+    instagram: https://instagram.com/kareliadancer
+    username: kareliadancer
+  - role: instructor
+    instagram: https://instagram.com/losdatway_
+    username: losdatway_
+  - role: instructor
+    instagram: https://instagram.com/silvioleroyperezazcuy
+    username: silvioleroyperezazcuy
+  - role: instructor
+    instagram: https://instagram.com/its.yanaflow
+    username: its.yanaflow
+  - role: instructor
+    instagram: https://instagram.com/mileydivaldes
+    username: mileydivaldes
+  - role: instructor
+    instagram: https://instagram.com/claudiolevis
+    username: claudiolevis
+  - role: instructor
+    instagram: https://instagram.com/adrianargudinvaldes
+    username: adrianargudinvaldes
+artistsList:
+  - maykel_fonts
+  - yunaisy_farray
+  - jluisbailasi
+  - indiramora_cueto_
+  - jennygalata
+  - barbaro.ramos.37
+  - jorgelunaroque
+  - kareliadancer
+  - losdatway_
+  - silvioleroyperezazcuy
+  - its.yanaflow
+  - mileydivaldes
+  - claudiolevis
+  - adrianargudinvaldes
+description: >-
+  Let's travel to Cuba together! Find event on WeDance and Join Guest List!
+
+
+  7 days of adventures and parties!
+
+
+  Ritmo Cuba is a unique international reunion where dancers, students, teachers and choreographers from around world come to share a love of latin dance in Havana Cuba – the birthplace of salsa rythmn. It boasts more than 60 of the best salsa teachers from across Cuba and the world – including the principal dance instructors from each of the major salsa schools in Havana.
+
+
+  Over 7 days, it offers more than 100 Hours of classes, with 3 separate salons operating at any given time so that students can select their preferred style and level. Take classes in Cuban Salsa, Rueda de Casino, Reggaton, Cha Cha Cha, Bachata, Hip Hop, Kizomba, Rumba or Folklorico, and then join us at night as we take the party to the hotest salsa clubs in Cuba. This year it will be held at National Hotel, one of 5 star hotels located in the central area of Vedado, overlooking the spectacular Malecon.
+
+
+  If you are thinking for spending some time in Havana before or after these dates, please contact our principal sponsors: Barclay Languages Center for Cuban themed Spanish lessons  or La Casona del Son for private salsa classes with some of Cuba’s best (and most fun) salsa instructors.
+telegram:
+  requestedAt: 1675373322586
+  messageUrl: https://t.me/WeDanceMunich/836
+  publishedAt: 1675373327520
+  messageId: 836
+  state: published
+instagram:
+  requestedAt: 1675373335084
+  messageUrl: https://instagram.com/p/CoLNTetJbBN
+  publishedAt: 1675373352771
+  messageId: CoLNTetJbBN
+  state: published
+place: ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+star:
+  count: 2
+  list:
+    alexrazbakov: true
+    Piot: true
+viewsCount: 161

@@ -1,0 +1,180 @@
+createdAt: 1704555160357
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1704555160357
+username: alexrazbakov
+venue:
+  formatted_address: Salierring 33, 50677 Köln, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Salierring 33
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.942860569708497
+        lat: 50.92591611970849
+      northeast:
+        lng: 6.945558530291501
+        lat: 50.92861408029149
+    location:
+      lng: 6.9441114
+      lat: 50.92720169999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "33"
+      long_name: "33"
+    - types:
+        - route
+      short_name: Salierring
+      long_name: Salierring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Innenstadt
+      long_name: Innenstadt
+    - types:
+        - locality
+        - political
+      short_name: Köln
+      long_name: Köln
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Köln
+      long_name: Kreisfreie Stadt Köln
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Köln
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "50677"
+      long_name: "50677"
+  place_id: ChIJW97Ty1Ukv0cRYnfVKEBPxq0
+  url: https://maps.google.com/?q=Salierring+33,+50677+K%C3%B6ln,+Germany&ftid=0x47bf2455cbd3de5b:0xadc64f4028d57762
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  Am 7. Januar findet wieder unser Tag der offenen Tür statt.
+
+  Ihr seid herzlich eingeladen, all unsere Kurse an diesem Tag ohne Kosten bei uns zu besuchen.
+
+  Außerdem bieten wir seit September Montag bis Mittwoch auch Kurse am Dom an.
+
+
+  Unser Ablaufplan am Tag der offenen Tür am Salierring 33:
+
+
+  Raum oben:
+
+  13:00 Lindy Hop
+
+  14:00 Tango
+
+  15:00 West Coast Swing
+
+  16:00 Brazilian Zouk
+
+  17:00 Kizomba
+
+  18:00 Bachata Sensual 1
+
+  19:00 Salsa 1
+
+
+  Raum unten:
+
+  18:00 Salsa 2
+
+  19:00 Bachata Sensual 2
+
+
+  Wenn ihr zu unserem Tag der offenen Tür kommt, könnt ihr die Anmeldung zu einem rabattierten Preis für die ersten zwei Monate abschließen.
+
+
+
+  Falls ihr noch Fragen haben solltet, könnt ihr uns gerne schreiben!
+
+  wir freuen uns auf euch! ❤️
+
+  Euer tanzraum-Team
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJ5S-raZElv0cR8HcqSvxgJwQ
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/tanzraum.koeln
+  name: Tanzraum
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/218608749_4889037004445974_2335739459062941604_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=596444&_nc_ohc=T18nu9Xnv0MAX_sokkm&_nc_ht=scontent-iad3-1.xx&oh=00_AfCkUFJMfvTDc3vNf00iH_R1SyuDRhSiyh0JGPXUG_PJ6A&oe=659D793F
+  bio: ""
+  id: Mk1QI0e9SWNisIQvX8bY
+  instagram: ""
+  username: tanzraum.koeln
+facebook: https://www.facebook.com/events/318092194447878/
+facebookId: "318092194447878"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Tag der offenen Tür
+online: No
+hash: 1704625200000+ChIJ5S-raZElv0cR8HcqSvxgJwQ
+startDate: 1704625200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FUODn0fvi9GgiijIgdd1c.png?generation=1704555169273311&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058063/jh5gid0tp1m70lm4v5yd.jpg
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tango:
+    level: Interested
+    highlighted: false
+    selected: true
+  LindyHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Swing:
+    level: Interested
+    highlighted: false
+    selected: true
+  WestCoastSwing:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 7
+id: UODn0fvi9GgiijIgdd1c

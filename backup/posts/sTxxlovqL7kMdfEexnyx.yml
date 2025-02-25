@@ -1,0 +1,145 @@
+endDate: 2023-07-22T19:00
+claimed: No
+link: https://chat.whatsapp.com/GGFmLonFPuB6De7cX1uI7Z
+program: []
+type: event
+duration: 60
+createdAt: 1689762468173
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Auro
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F4d2cc5a4-f870-49e2-b48b-cdd49d466099?alt=media&token=41392db2-1a3d-44f7-a54e-041c890700a9
+    bio: ""
+    id: QKOcbWwR47UEC121QoTO0Kmlvxr1
+    instagram: https://instagram.com/auro_amistad
+    username: Auro
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - Auro
+international: No
+updatedAt: 1689762468173
+updatedBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: ruedaclubmunich
+  photo: ""
+  bio: ""
+  id: 6SRxk8C5V4LPEzblRPrB
+  instagram: https://instagram.com/ruedaclubmunich
+  username: ruedaclubmunich
+eventType: Party
+confirmation: |-
+  Flashmob Details:
+  🕐 Date & Time: Be at Königsplatz right before 5.00 p.m.
+  Updates in our WhatsApp group: 
+  https://chat.whatsapp.com/GGFmLonFPuB6De7cX1uI7Z
+  Dress Code: White T-shirt/top and dark trousers/skirt.
+  https://ruedaclub.com/about/t-shirt/
+form: No
+createdBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+watch:
+  count: 1
+  list:
+    Auro: true
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-22T17:00
+username: Auro
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsTxxlovqL7kMdfEexnyx.png?generation=1689767102476442&alt=media
+telegram:
+  requestedAt: 1689767106917
+  messageUrl: https://t.me/WeDanceMunich/1133
+  publishedAt: 1689767108449
+  messageId: 1133
+  state: published
+instagram:
+  requestedAt: 1689767111450
+  messageUrl: https://instagram.com/p/Cu4LP_TuZD6
+  publishedAt: 1689767127376
+  messageId: Cu4LP_TuZD6
+  state: published
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F9243ee16-fb61-4720-a5c1-5ed1a294c78d?alt=media&token=6445036d-ba5e-4f1e-8fc4-55f0e7a8b178
+venue:
+  formatted_address: Karlsplatz 1, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Karlsplatz (Stachus)
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5672967802915
+      south: 48.1379244197085
+      north: 48.1406223802915
+      west: 11.5645988197085
+    location:
+      lng: 11.5662006
+      lat: 48.1391929
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Karlsplatz
+      long_name: Karlsplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 51619664
+  place_id: ChIJ_e-04fZ1nkcRHUJmvBBfE1M
+  url: https://maps.google.com/?cid=5986232855190454813
+name: Flashmob Salsa and Rueda at Stachaus/Karlsplatz
+description: |+
+  Flashmob Details:
+  🕐 Date & Time: Be at Stachaus/Karlsplatz right before 5.00 p.m.
+   
+  https://chat.whatsapp.com/GGFmLonFPuB6De7cX1uI7Z
+
+id: sTxxlovqL7kMdfEexnyx
+viewsCount: 50

@@ -1,0 +1,49 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627204405673
+locales:
+  de: true
+  en: true
+createdBy: HmEWrmJwp3Qfm0RoxL7aGUOPwUA3
+name: Claudi_Muc
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Claudi_Muc
+pwaUsed: false
+birthday: 1991-08-20
+meetingPlace:
+  public: true
+gender: Female
+partner: Yes
+permission: No
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+height: "178"
+updatedAt: 1627204537236
+daysUsed: 35
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHmEWrmJwp3Qfm0RoxL7aGUOPwUA3%2F6332deca-7422-40db-8b3a-9b6b525e56a8?alt=media&token=229884fe-be55-4239-8917-557e477483e7
+days:
+  Saturday: true
+  Friday: true
+  Sunday: true
+contacts: ""
+bio: Ich tanze Salsa seit 2-3 Jahren hobbymäßig und suche einen Partner für
+  Rueda de Casino samstags im Circulo.
+styles:
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+lastLoginAt: 1633892960380
+id: HmEWrmJwp3Qfm0RoxL7aGUOPwUA3

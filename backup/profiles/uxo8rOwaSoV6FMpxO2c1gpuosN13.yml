@@ -1,0 +1,45 @@
+timezone: GMT+0100
+createdAt: 1636145407334
+createdBy: uxo8rOwaSoV6FMpxO2c1gpuosN13
+name: elisa_pura_dance
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: elisa_pura_dance
+pwaUsed: true
+cities:
+  ChIJCxVihNKQPxMRcSMmPSQdpJE: true
+updatedAt: 1636145774142
+locales:
+  de: true
+  it: true
+  es: true
+gender: Female
+visibility: Public
+partner: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fuxo8rOwaSoV6FMpxO2c1gpuosN13%2Fae490233-fff8-4118-9396-91b52ab191be?alt=media&token=4932d339-40f6-49da-b6a7-813986609a44
+permission: Yes
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+type: Artist
+contacts: Yes
+bio: Show dancer. Event promoter
+lastLoginAt: 1636188016930
+daysUsed: 2
+instagram: https://instagram.com/elisa_pura_dance
+viewsCount: 99
+id: uxo8rOwaSoV6FMpxO2c1gpuosN13

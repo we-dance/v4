@@ -1,0 +1,109 @@
+venue:
+  website: http://www.salsa-mas.de/
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+  international_phone_number: +49 172 8216569
+endDate:
+  _seconds: 1646168400
+  _nanoseconds: 0
+claimed: No
+link: https://www.salsamas.de/de/course/details/377
+description: Nachdem man die Mittelstufe II drei Monate lang besucht, kann man
+  in der Regel frei mit den erlernten Figuren und Schrittkombinationen
+  improvisieren. In diesem Kurs wird gezielt auf Führungsfeinheiten für die
+  Herren eingegangen. Die Damen werden ebenso durch längere und
+  abwechslungsreichere Figuren gefordert – die Impulse werden dezenter und
+  erfordern oft schnelle Reaktion von den Damen. Die Musik wird schneller – eine
+  stabile Basis von Grundelementen und Grunddrehungen wird für die Teilnahme
+  vorausgesetzt.
+type: event
+duration: "90"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F84d844a1-3590-4828-981d-0b274fde5b12?alt=media&token=5c0a1d00-8d58-4db4-ac33-4fb88d366033
+createdAt: 1646044092746
+artists: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646044092746
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+name: Salsa Mittelstufe II
+online: Yes
+styles:
+  SalsaLA:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2022-03-01T20:30
+username: Salsamas_Munich
+price: "Einzelanmeldung: 89 € p. Person (4x 75 Min.) / Studenten: 79 € p.Person"
+id: iIFd3wyWpIffGiBv2Pw3
+viewsCount: 2

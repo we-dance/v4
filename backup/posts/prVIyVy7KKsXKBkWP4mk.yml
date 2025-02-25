@@ -1,0 +1,108 @@
+venue:
+  formatted_address: Zentnerstraße, München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Zentnerstraße
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5654829802915
+      south: 48.1562142197085
+      north: 48.15891218029149
+      west: 11.5627850197085
+    location:
+      lng: 11.564134
+      lat: 48.1575632
+  address_components:
+    - types:
+        - route
+      short_name: Zentnerstraße
+      long_name: Zentnerstraße
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  url: https://maps.google.com/?q=Zentnerstra%C3%9Fe,+M%C3%BCnchen,+Germany&ftid=0x479e75dddea22529:0x4832aac6b587b0df
+  place_id: EiFaZW50bmVyc3RyYcOfZSwgTcO8bmNoZW4sIEdlcm1hbnkiLiosChQKEgkpJaLe3XWeRxHfsIe1xqoySBIUChIJ2V-Mo_l1nkcRfZixfUq4DAE
+endDate: 1698084000000
+claimed: No
+description: We are going to work on our Arm Style, Follower Techniques as well
+  as an our Attitude and Musicality
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F6ae96986-7f90-4f23-b660-d4d98bcd55b2?alt=media&token=3c0821e4-eac0-4125-ba24-07be6c00ab76
+duration: 60
+createdAt: 1697438092519
+artists: []
+price: 10 EUR
+socialCover: ""
+artistsList: []
+id: prVIyVy7KKsXKBkWP4mk
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1697438092519
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+upVotes: 0
+telegram: {}
+eventType: Course
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+commentsCount: 0
+name: "Bachata LadyStyling "
+online: No
+votes: 0
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1698688800000
+username: AnnaMil
+viewsCount: 34

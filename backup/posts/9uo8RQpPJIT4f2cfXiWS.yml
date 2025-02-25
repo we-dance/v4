@@ -1,0 +1,207 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/arrebatate-cuban-salsa-festival-budapest/
+sourceUrl: https://facebook.com/events/1243597533482274
+venue:
+  address_components:
+    - long_name: 12-14
+      short_name: 12-14
+      types:
+        - street_number
+    - long_name: Könyves Kálmán körút
+      short_name: Könyves Kálmán krt.
+      types:
+        - route
+    - long_name: IX. kerület
+      short_name: IX. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1097"
+      short_name: "1097"
+      types:
+        - postal_code
+  formatted_address: Budapest, Könyves Kálmán krt. 12-14, 1097 Hungary
+  geometry:
+    location:
+      lat: 47.4700175
+      lng: 19.0840331
+    viewport:
+      northeast:
+        lat: 47.47127383029149
+        lng: 19.0854392802915
+      southwest:
+        lat: 47.4685758697085
+        lng: 19.0827413197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +36 70 674 2921
+  name: Lurdy Conference and Event Center
+  place_id: ChIJHehghR7dQUcRpJ91wp-r1Hw
+  url: https://maps.google.com/?cid=8995003058416361380
+  website: http://www.lurdykonferencia.hu/
+endDate: 1740437100000
+claimed: No
+link: http://www.arrebatatefestival.com/
+description: >
+  
+  Welcome to Arrebátate 7!
+
+
+  Arrebátate 7 is back, bringing together our Cuban Salsa family from all over Europe (and beyond? 🙂).
+
+
+  -------ARTISTS--------
+
+  Yoyo Flow (aka Yoandy Villaurrutia)
+
+  Yoyo Danger (First Time)
+
+  Yusimi Moya
+
+  Albert Molina (First Time)
+
+  Julio Molina
+
+  Diana Rodriguez
+
+  Ania Seruga
+
+  Mahmud Morsy
+
+  Andreas & Melina
+
+  & more coming soon!
+
+  PARTY TIME
+
+  Join us for an unforgettable party with the best DJs in Europe:
+
+
+  DJ Rafi
+
+  DJ Csedi
+
+  DATE & LOCATION
+
+  Arrebátate Cuban Festival
+
+  Date: 20-24 February 2024
+
+  Location: Budapest, Hungary
+
+
+  Lurdy Conference and Event Center
+
+  Budapest, Könyves Kálmán krt. 12-14, 1097 Hungary
+
+
+  https://maps.app.goo.gl/8DF2BSnLVZxKTvKq7
+
+
+  --------WORKSHOPS--------
+
+  IMPORTANT: There will be 3 days of workshops:
+
+
+  Friday Afternoon: Master Afro Bootcamp and Lady Style Show Bootcamp (VIP PASS only)
+
+  Saturday & Sunday: Workshops for all participants
+
+
+  --------PROGRAM--------
+
+  Thursday: Pre Party
+
+  Friday: Bootcamps and Welcome Gala Party
+
+  Saturday: Workshops and Theme Party
+
+  Sunday: Workshops and Best Party
+
+  Monday Afterparty
+
+
+  --------ACCOMMODATION INFO--------
+
+  Leonardo Hotel Budapest
+
+  Address: Tompa utca 30-34., Budapest 1094
+
+
+  Booking via:
+
+  Email: reservations.budapest@leonardo-hotels.com
+
+  Mention Arrebatate Festival to receive the following rates:
+
+
+  EUR 72,00 per comfort room per night, double room for single usage (breakfast included)
+
+  EUR 82,00 per comfort room per night, double usage (breakfast included)
+
+  The hotel is centrally located, with bars and restaurants nearby, and it is only a 20-minute walk from the workshop and party venue.
+
+
+  --------TICKETS--------
+
+  For more information, visit: www.arrebatatefestival.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293938/gb8e6sy0gj5zgj1lnhnx.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+visibility: Public
+org:
+  createdAt: 1732293936366
+  importedAt: 1732293936366
+  updatedAt: 1732293936366
+  source: facebook
+  name: Arrebátate
+  facebook: https://www.facebook.com/@Arrebatate/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293937/e4dz3zsmo43k7epnyybt.png
+  username: "@Arrebatate/"
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+facebook: https://www.facebook.com/events/1243597533482274/
+facebookId: "1243597533482274"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: ARREBÁTATE 7 Cuban Salsa Festival Budapest - Official
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740069000000+ChIJHehghR7dQUcRpJ91wp-r1Hw
+startDate: 1740069000000
+id: 9uo8RQpPJIT4f2cfXiWS

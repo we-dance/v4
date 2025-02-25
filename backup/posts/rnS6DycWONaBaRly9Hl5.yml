@@ -1,0 +1,68 @@
+endDate: 2022-11-22T22:00
+claimed: No
+link: https://chat.whatsapp.com/ITfaaPTc47c9zm4WH1iTqs
+program: []
+type: event
+duration: 60
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F5c6ce260-cc60-4020-9036-48676fd06dae?alt=media&token=0930d46c-4687-479c-a705-5d13a2cbfdd2
+createdAt: 1669038637105
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Auro
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F4d2cc5a4-f870-49e2-b48b-cdd49d466099?alt=media&token=41392db2-1a3d-44f7-a54e-041c890700a9
+    instagram: https://instagram.com/auro_amistad
+    id: QKOcbWwR47UEC121QoTO0Kmlvxr1
+    username: Auro
+artistsList:
+  - Auro
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1669038637105
+updatedBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Auro
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F4d2cc5a4-f870-49e2-b48b-cdd49d466099?alt=media&token=41392db2-1a3d-44f7-a54e-041c890700a9
+  bio: ""
+  instagram: https://instagram.com/auro_amistad
+  id: QKOcbWwR47UEC121QoTO0Kmlvxr1
+  username: Auro
+form: No
+createdBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+watch:
+  count: 1
+  list:
+    Auro: true
+name: "Rueda/Salsa Casino Advanced "
+online: No
+styles:
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-11-22T20:00
+username: Auro
+id: rnS6DycWONaBaRly9Hl5
+eventType: Workshop
+price: 15 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FrnS6DycWONaBaRly9Hl5.png?generation=1669038702512168&alt=media
+telegram:
+  requestedAt: 1669038714015
+  messageUrl: https://t.me/WeDanceMunich/707
+  publishedAt: 1669038714340
+  messageId: 707
+  state: published
+instagram:
+  requestedAt: 1669038717938
+  messageUrl: https://instagram.com/p/ClOa-LWOsFF
+  publishedAt: 1669038729891
+  messageId: ClOa-LWOsFF
+  state: published
+viewsCount: 6

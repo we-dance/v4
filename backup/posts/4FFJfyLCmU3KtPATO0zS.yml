@@ -1,0 +1,106 @@
+sourceUrl: https://facebook.com/events/s/manchester-sbk-uk-congress-2nd/1640141056832294/
+createdAt: 1726256153617
+updatedBy: f7bqQT4228bfaOmESzfPScyJUSA3
+createdBy: f7bqQT4228bfaOmESzfPScyJUSA3
+updatedAt: 1726256153617
+username: PaulRolo
+viewsCount: 1
+venue:
+  formatted_address: Salford, Manchester M50 3UB, UK
+  website: https://www.mediacityuk.co.uk/quayside/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: The Quays
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.294996750000001
+        lat: 53.4697655197085
+      northeast:
+        lng: -2.29103695
+        lat: 53.47246348029149
+    location:
+      lng: -2.2939551
+      lat: 53.4709435
+  address_components:
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - locality
+        - political
+      short_name: Salford
+      long_name: Salford
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M50 3UB
+      long_name: M50 3UB
+  place_id: ChIJPcPNJz6ue0gRo-h8CWurwVo
+  url: https://maps.google.com/?cid=6539696610127702179
+endDate: 1756695600000
+claimed: No
+link: ""
+description: |+
+  YES YES YES YES
+
+  we are coming back next year 
+
+  more info coming soon
+
+
+  grab your early bird passes  now 
+
+  https://buytickets.at/manchestersbkukcongress/1381654
+
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1640141056832294/
+facebookId: "1640141056832294"
+eventType: Congress
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "MANCHESTER SBK UK CONGRESS 2ND EDITION "
+online: No
+styles: {}
+hash: 1756490400000+ChIJPcPNJz6ue0gRo-h8CWurwVo
+startDate: 1756490400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726256157/q5rgmvcvx0z4blsfm2xi.jpg
+org:
+  owner: ""
+  importedAt: 1726256156226
+  import: success
+  visibility: Public
+  facebook: https://facebook.com/amine.baha1
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1726256156/woljkbxcdbkcwp9vtybi.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1726256156226
+  owned: false
+  name: Amine UrbanKiz
+  updatedAt: 1726256156226
+  username: amine.urbankiz
+id: 4FFJfyLCmU3KtPATO0zS

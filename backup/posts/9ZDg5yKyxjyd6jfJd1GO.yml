@@ -1,0 +1,224 @@
+endDate: 1710460800000
+sourceUrl: https://www.facebook.com/events/340395531939909
+createdAt: 1709765512999
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1709550376000
+updatedAt: 1709765512999
+importedAt: 1709765512999
+providerUpdatedAt: 1709550376000
+facebookId: "340395531939909"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/340395531939909
+providerItemId: 10008530-1710374400-1710460799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Metro Club Theatre, Dohány utca 22, Erzsébetváros, 1074, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710374400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Dohány u. 22-24, 1074 Hungary
+  website: https://www.facebook.com/metroclubtheatre/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Metro Club Theatre
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0616883697085
+        lat: 47.4941992697085
+      northeast:
+        lng: 19.06438633029151
+        lat: 47.4968972302915
+    location:
+      lng: 19.0630211
+      lat: 47.4955722
+  address_components:
+    - types:
+        - street_number
+      short_name: 22-24
+      long_name: 22-24
+    - types:
+        - route
+      short_name: Dohány u.
+      long_name: Dohány utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VII. kerület
+      long_name: VII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1074"
+      long_name: "1074"
+  international_phone_number: +36 70 677 1103
+  place_id: ChIJiTzCN3ndQUcRr6jzyDQ5Y-s
+  url: https://maps.google.com/?cid=16961463520479914159
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709765529926
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/DjAlgoMas
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765530/s9l0jmlln0kk2hkvxitd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709765529926
+  owned: false
+  name: ¿AlgoMás?
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1709765529926
+  username: DjAlgoMas
+claimed: No
+facebook: https://www.facebook.com/events/340395531939909/
+link: ""
+description: >-
+  2024.MÁR.14. (Csüt), 20h
+
+
+  A soron következő 'Ministry of Salsa & Bachata' klub-est felejthetetlennek ígérkező tánc-zenei programkínálatával várunk!
+
+  Vegyülj Budapest Salsa/Bachata-táncos társadalmával!
+
+
+  PROGRAM:
+
+  -20:00 Kapunyitás
+
+  -20:30 Warm-up, ingyenes mini-workhop
+
+  -21:30 Salsa & Bachata party
+
+  -22:00 Team Gusto Cubano & Yulaysi Miranda (CUB), élő koncert
+
+  -23:30 Salsa & Bachata afterparty
+
+
+  BELÉPŐ:
+
+  4000 HUF (helyszínen, készpénzben)
+
+
+  ZENE-felelősök:
+
+  - timba, salsa (nagyterem): AlgoMás!
+
+  - bachata (előtér): Dj Mike (Four Steps Bachata, Budapest)
+
+
+  HELYSZÍN: 
+
+  Metro Club Theatre: 1074 Budapest, Dohány u. 22.
+
+
+  TUDNIVALÓK:
+
+  Dresscode: elegáns
+
+  Karszalag csak egyszeri belépésre jogosít!
+
+  Kérjük használni a helyszínen rendelkezésre álló ruhatárat!
+
+
+
+  ----------------------------------- O ---------------------------------
+
+
+
+  2024.MAR.14. (THU), 20h
+
+
+  Dance with the Salsa/Bachata-dance-society of Budapest! 'Ministry of Salsa & Bachata' social dance night provided for you in two separate floors (salsa and bachata) all over the night. Join and be welcomed! 
+
+
+  PROGRAM:
+
+  -20:00 Doors open
+
+  -20:30 Warm-up, free mini-workhop
+
+  -21:30 Salsa & Bachata party
+
+  -22:00 Team Gusto Cubano & Yulaysi Miranda (CUB), live concert
+
+  -23:30 Salsa & Bachata afterparty
+
+
+  TICKETS
+
+  4000 HUF (by the door, cash)
+
+
+  MUSIC selected by:
+
+  - timba, salsa (big hall): AlgoMás!
+
+  - bachata (lobby): Dj Mike (Four Steps Bachata, Budapest)
+
+
+  VENUE: 
+
+  Metro Club Theatre: 1074 Budapest, Dohány u. 22.
+
+
+  OTHER INFO:
+
+  Dresscode: elegant
+
+  Wristband is limited only for one entry!
+
+  Please use the available Cloakroom!
+
+
+  Partners:
+
+  www.Latinfo.hu
+
+  www.GustoCubano.hu
+program: []
+source: facebook
+eventType: Concert
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709765531/b9b6wbkxrmqnfm5axxlb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa & Bachata party - TEAM GUSTO CUBANO & YULAYSI MIRANDA (CUB) - 10
+  éves születésnapi nagykoncert
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1710442800000+ChIJiTzCN3ndQUcRr6jzyDQ5Y-s
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9ZDg5yKyxjyd6jfJd1GO.png?generation=1709765550808238&alt=media
+viewsCount: 1
+id: 9ZDg5yKyxjyd6jfJd1GO

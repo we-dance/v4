@@ -1,0 +1,162 @@
+venue:
+  website: https://www.cohibar-city.com/
+  formatted_address: Herzog-Rudolf-Straße 2, 80539 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Cohibar City
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5848062302915
+      south: 48.1375481697085
+      north: 48.1402461302915
+      west: 11.5821082697085
+    location:
+      lng: 11.5835223
+      lat: 48.1388565
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Herzog-Rudolf-Straße
+      long_name: Herzog-Rudolf-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80539"
+      long_name: "80539"
+  place_id: ChIJu2RSs451nkcR1mxf8gRxAS0
+  url: https://maps.google.com/?cid=3242997472743615702
+  international_phone_number: +49 89 22880289
+endDate: 2022-06-03T05:00
+claimed: No
+description: >-
+  LA RUMBA GRAND OPENING
+
+
+  JUEVES LATINO Eintritt Frei
+
+
+  Danach Jeden Donnerstag
+
+
+  THE BEST PLACE TO BE OF THE NIGHT!
+
+
+  Willkommen zur angesagtesten Reggaeton, Bachata, Salsa, Merengue, Trap, Dembow, Brasil Sounds, Latin Night der Stadt!
+
+
+  La Rumba steht für exotische Beats, bildhübsche Ladys und bekannte Gesichter Unsere djs und gesamte Team garantiert euch heftige gute Laune. Lasst uns gemeinsam die Luft zum Brennen bringen und eine Nacht erleben, die uns noch lange in Erinnerung bleibt!
+
+
+  ## Specials
+
+  - Einlass 20 Uhr
+
+  - Dj Joel La Rumba & Friends
+
+  - Live Band (Los De la Rumba)
+
+  - Confetticanone
+
+  - Latin Music ALL NIGHT LONG
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8c122db9-d722-4fbd-b231-91b14837e397?alt=media&token=cded87e4-3555-4f05-b3ad-832a87bc0267
+duration: custom
+promo: ""
+createdAt: 1653919938058
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1653919938058
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: cohibarcity
+  username: cohibarcity
+facebook: https://www.facebook.com/events/554420233053114/
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Opening Jueves Latino
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-06-02T20:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtoPXxRHBCuANG9dwxxEk.png?generation=1653920055284140&alt=media
+id: toPXxRHBCuANG9dwxxEk
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: ""
+    name: Joel La Rumba
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4d49c4a5-f16d-46a2-bf69-f44090637caa?alt=media&token=f3e99d09-785b-4c00-9e40-4fd22b5ea1aa
+    bio: ""
+    instagram: https://instagram.com/joellarumba
+    id: TNtm8V87IUqFNzYHHPfG
+    username: joellarumba
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: ""
+    name: La Rumba - Latin Bar Club
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Ff2b1e03c-6556-438b-94bc-cd1ce49db4e1?alt=media&token=477a4aec-9edf-47bc-88db-517e050df223
+    bio: Reggaeton, Salsa, Bachata, Merengue, Trap, Brasil, Latin Hits
+    instagram: https://www.instagram.com/larumba_latinclub/
+    id: HtbbY9g5ObXrRFQ1wAU2
+    username: larumba_latinclub
+watch:
+  count: 2
+  list:
+    alexrazbakov: true
+    Sara: true
+viewsCount: 59

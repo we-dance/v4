@@ -1,0 +1,65 @@
+endDate:
+  _seconds: 1639936800
+  _nanoseconds: 0
+claimed: Yes
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+description: |-
+  We invite everyone to join our first public WeDance meeting!
+
+  ## Agenda
+
+  - updates of the past month
+  - celebrate milestones and the people who made them possible
+  - give everyone a chance to ask questions
+
+  ## How to participate?
+
+  1. Register for event
+  2. You will receive link to Zoom meeting per email 10 mins before start.
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45e8b768-6afe-4338-8ecc-52ccd7d36384?alt=media&token=c00bccf6-b6d5-44b0-bda6-9078bd059f43
+promo: Yes
+createdAt: 1639398190631
+watchersCount: 0
+price: 0 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FxlGRutaHzmMcDiV1nLhP.png?generation=1639398314616468&alt=media
+commentsLast: ~
+promoter: alejito
+id: xlGRutaHzmMcDiV1nLhP
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ""
+international: Yes
+views: 46
+updatedAt: 1639398190631
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+confirmation: Thank you for joining! You will receive link to Zoom meeting per
+  email 10 mins before start.
+eventType: Other
+organiser: WeDanceTeam
+form: No
+createdBy: 80FkNdbiYsRzJV8M43EaEw3BAc73
+commentsCount: 0
+name: WeDance December Update
+online: Yes
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-12-19T17:00:00.000Z
+username: WeDanceTeam
+viewsCount: 50

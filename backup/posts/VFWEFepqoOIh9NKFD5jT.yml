@@ -1,0 +1,122 @@
+sourceUrl: https://www.facebook.com/events/531854519353880/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_invites_events_unit%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D
+createdAt: 1728075248370
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1728075248370
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Brückenwirtweg 3, 5400 Hallein, Austria
+  website: https://www.brueckenwirt.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Gasthof BRÜCKENWIRT Familie Plauner & Rieger
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.0598012197085
+        lat: 47.7219044197085
+      northeast:
+        lng: 13.0624991802915
+        lat: 47.7246023802915
+    location:
+      lng: 13.0610962
+      lat: 47.7233433
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Brückenwirtweg
+      long_name: Brückenwirtweg
+    - types:
+        - locality
+        - political
+      short_name: Hallein
+      long_name: Hallein
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hallein
+      long_name: Hallein
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Salzburg
+      long_name: Salzburg
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "5400"
+      long_name: "5400"
+  international_phone_number: +43 6245 761940
+  place_id: ChIJqYno8fmTdkcRNCGSZrZ4HJk
+  url: https://maps.google.com/?cid=11032825911951106356
+endDate: 1728166500000
+claimed: No
+link: ""
+description: >+
+  Hola Familia de Baile,
+
+
+  endlich mal wieder eine Fiesta in einer unserer beliebtesten Location, im Saal des Brückenwirt in Bruckmühl.
+
+
+  DJ JC Lahera de Cuba sorgt für geile Musica.
+
+
+  Auf geht’s 💃🏻🕺🏼
+
+
+  Saludos Baila y Fiesta de SalsaBina und Team
+
+
+
+
+
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJCTqCofuUdkcRgH5Pi-5OdJo
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsarosenheim
+  name: Baila y Fiesta de SalsaBina - Salsa Rosenheim
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953560/mnkubmdpw4mazo1i8q0l.jpg
+  bio: ""
+  id: V18OKknAZ4xLwc8EgdEr
+  instagram: ""
+  username: salsarosenheim
+facebook: https://www.facebook.com/events/531854519353880/
+facebookId: "531854519353880"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Bailando Salsa Bachata y mas
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1728147600000+ChIJqYno8fmTdkcRNCGSZrZ4HJk
+startDate: 1728147600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728075251/clhbpwqraldytyvnue7m.jpg
+id: VFWEFepqoOIh9NKFD5jT

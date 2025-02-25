@@ -1,0 +1,151 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  international_phone_number: +49 89 23805360
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+endDate: 2022-07-22T23:59
+claimed: No
+description: Best of Timba, Songo, Son and Timbaton
+type: event
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faf4d9a29-d6c8-4690-83a3-e8a4e0b080b0?alt=media&token=2436b7d8-f09c-49e9-ad43-ff3a46a70729
+createdAt: 1656444077126
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: ""
+    name: Seb
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4EgK5yRffNfpbCjRsDkMUSkBRDi1%2F6126235e-5252-4d88-8679-ee0ebf884b61?alt=media&token=6c9dae10-3886-4c56-be7b-c0e9493ed491
+    bio: ""
+    instagram: https://instagram.com/Salsa.cubana.munich
+    id: 4EgK5yRffNfpbCjRsDkMUSkBRDi1
+    username: Seb
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    bio: Love to dance Casino, Urban Kiz and Bachata Dominicana. Looking for partner
+      to practice online lessons with Alberto Valdes.
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    instagram: https://instagram.com/alexrazbakov
+    username: alexrazbakov
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: ""
+    name: Hamza Saad
+    bio: ""
+    photo: https://lh6.googleusercontent.com/-Syf6VnnYImo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnR5EtnVyPeKsirm4gsIh3-rVe9Cw/photo.jpg
+    instagram: ""
+    id: m97lerJui6S51TeHfHivQCeCw1x1
+    username: jesus
+price: 0 EUR
+artistsList:
+  - Seb
+  - alexrazbakov
+  - jesus
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 9NQitBQmKC9DO4jmqVPZ
+international: No
+updatedAt: 1656444077126
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/vacunaaa
+  name: Salsa Cubana Munich
+  bio: The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  instagram: https://instagram.com/salsa.cubana.munich
+  username: salsa.cubana.munich
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Timba Party
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-22T20:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9NQitBQmKC9DO4jmqVPZ.png?generation=1658401777544011&alt=media
+viewsCount: 42

@@ -1,0 +1,594 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/abcd-festival/
+sourceUrl: https://facebook.com/events/3752925854988989
+venue:
+  address_components:
+    - long_name: "24"
+      short_name: "24"
+      types:
+        - street_number
+    - long_name: Haverstock Hill
+      short_name: Haverstock Hill
+      types:
+        - route
+    - long_name: Chalk Farm
+      short_name: Chalk Farm
+      types:
+        - neighborhood
+        - political
+    - long_name: London
+      short_name: London
+      types:
+        - postal_town
+    - long_name: Greater London
+      short_name: Greater London
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: England
+      short_name: England
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United Kingdom
+      short_name: GB
+      types:
+        - country
+        - political
+    - long_name: NW3 2BQ
+      short_name: NW3 2BQ
+      types:
+        - postal_code
+  formatted_address: 24 Haverstock Hill, Chalk Farm, London NW3 2BQ, UK
+  geometry:
+    location:
+      lat: 51.5451542
+      lng: -0.1539639
+    viewport:
+      northeast:
+        lat: 51.5462769302915
+        lng: -0.153081719708498
+      southwest:
+        lat: 51.54357896970851
+        lng: -0.155779680291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +44 20 7267 0975
+  name: Haverstock School
+  place_id: ChIJC6X5le8adkgRWriPESg5n-8
+  url: https://maps.google.com/?cid=17266582340617877594
+  website: http://www.haverstock.camden.sch.uk/
+endDate: 1738533600000
+claimed: No
+link: http://Www.abcdsalsa.com/
+description: >-
+  ABCD
+
+  Your biggest UK festival is now returning with even more improvements than 2024, Some More changes & even better suit & set up. As we I always listened to your feedback we tried to take everything on board so that we & you will have our best ABCD ever created.
+
+
+  OUR NEXT ABCD PLAN
+
+  ************************
+
+  1st of all we would like to thank you for your amazing feedback & we're very happy you enjoyed our very best 2024 ABCD, we succeeded in making it happen with your support & we're aiming to continue listening to your feedback & making it even a better event so that you & London are proud to call it your Home biggest festival.
+
+
+  WELCOME TO OUR ABCD
+
+  ***************************
+
+  Salsa | Cuban | Bachata | Kizomba
+
+  Featuring some of the best teachers & DJs in the UK & THE WORLD, this Edition will hold big surprises for you!
+
+
+  ARTISTS CONFIRMED SO FAR
+
+  *******************************
+
+  SALSA on1, on2, Cuban, Afro & more
+
+  **************************************
+
+  ★ Terry & Cecile (France)
+
+  ★ Jacopo & Linda (Italy)
+
+  ★ Veronica & Charly (Spain)
+
+  ★ Alain Zambrana ( Ger / Cuba ) 
+
+  ★ Alicia Avakian - Lebanon
+
+  ★ Spyridoula (Greece)
+
+  ★ Jimmy S.A (Dubai/Qatar)
+
+  ★ Moe Flex
+
+  ★ Mauricio Reyes
+
+  ★ Fadi K & Cristina Varga
+
+  ★ Steph Ka
+
+  ★ Dani K & Sarah Louise
+
+  ★ Tamba Hissirou
+
+  ★ Kat & Eddie
+
+  ★ Ang Sin
+
+  ★ Misael Espinosa Cordero
+
+  ★ John & Marie
+
+  ★ Rasa Pauzaite
+
+  ★ Sasha Phillips
+
+  ★ Sam Mr Sleek
+
+  ★ Pierre & Zoe Henry
+
+  ★ Gormack Dione
+
+  ★ Abu Pachanga
+
+  ★ Magda S
+
+  ★ Tomasz Tomacito
+
+  ★ RDM (By Fadi K)
+
+  ★ Ramiro Zapata
+
+
+  Many More TBC
+
+
+  BACHATA
+
+  **********
+
+  ★ Antoni Y Belen (Spain)
+
+  ★ Anita Y Verea (Spain)
+
+  ★ Raquel Abanades (Spain)
+
+  ★ Gabesz & Reka (Hungary)
+
+  ★ Dance Maniacs (Denmark) 
+
+  ★ Sol & Laura
+
+  ★ Julian Mr M 
+
+  ★ Gabi Happy Feet
+
+  ★ Peynao Bachatero 
+
+  ★ Raul Y Carol 
+
+  ★ Rasa Pauzaite
+
+  ★ Misael Cordero
+
+  ★ Pierre Henry
+
+  ★ Melitta Siomos
+
+  ★ Daniel Chong
+
+  ★ Camy Marina 
+
+  ★ Iman Anwar
+
+  ★ Marwa & Jack
+
+  ★ Miro 
+
+
+  Many More TBC
+
+
+  KIZOMBA / SEMBA / URBAN KIZ
+
+  ********************************
+
+  ★ Richard Vooght
+
+  ★ DJ Youss (France)
+
+  ★ Jeydikson Lima
+
+  ★ El Ceprino & Emily
+
+  ★ Super Dixon
+
+  ★ Alvin & Raluca 
+
+  ★ George & Hannah
+
+  ★ Red Rowan
+
+  ★ Viola Palmai 
+
+  ★ Steph Ka
+
+  ★ DJ Omar (AfterParty)
+
+  ★ DJ Amine UrbanKiz
+
+
+  Many More TBC
+
+
+  REGGAETON / HIPHOP / URBAN / AFROBEAT / AFROHOUSE OTHER STYLES
+
+  *****************************************************************************
+
+  ★ Moe Flex ( reggaeton, HipHop, Lyrical)
+
+  ★ Jessica Guastella ( Reggaeton )
+
+  ★ Jeydikson Lima ( Afro Beat )
+
+  ★ El Ceprino ( Afro )
+
+  ★ George Christophorou ( Break Dance)
+
+  ★ Dani k - Afro Contemporary
+
+
+  Many more TBC
+
+
+  DJs
+
+  ******
+
+  ★ DJ Tuli - UK
+
+  ★ DJ Julian The Duke
+
+  ★ DJ Fadi K - UK
+
+  ★ DJ Cruz - UK
+
+  ★ DJ Abu Pachanga - UK
+
+  ★ DJ Richard Fallon - UK
+
+  ★ DJ Javier La Rosa - Cuba / UK
+
+  ★ DJ Mauricio Reyes - UK
+
+  ★ DJ Chemist - UK
+
+  ★ DJ Pierre Henry - UK
+
+  ★ DJ Julian Mr M
+
+  ★ DJ Ramiro Zapata - UK
+
+  ★ DJ Daniel Chong - UK
+
+  ★ DJ Farsh Piro - UK
+
+  ★ DJ Youss (France)
+
+  ★ DJ Omar (DJ AfterParty) - UK
+
+  ★ DJ Amine UrbanKiz
+
+  ★ 
+
+
+  More DJs TBC
+
+  PERFORMANCES!!
+
+  *******************
+
+  ★ Terry & Cecile
+
+  ★ Jacopo & Linda
+
+  ★ Vero & Charly 
+
+  ★ Otradanz
+
+  ★ John & Marie
+
+  ★ Kat & Eddie
+
+
+  ★ Many More TBC
+
+
+  PERFORMANCE TEAMS
+
+  *************************
+
+  ★ Student Performance - Saturday afternoon 6:00 PM
+
+  ★ All your friends are performing. come support them ...
+
+
+  FKDANCE TEAM
+
+  (Contact in any questions)
+
+  **************************
+
+  ★ FADI K - Director
+
+  ★ CRISTINA VARGA - Lil Boss
+
+  ★ STEPH KA - Event Manager
+
+  ★ MARIA DAVID - Event Manager
+
+  ★ ANDI FLORES - Event Manager
+
+  ★ RASA PAUZAITE - Event Manager
+
+
+  PHOTOGRAPHER & VIDEOGRAPHER
+
+  *************************************
+
+  ★
+
+  TIME SCHEDULE
+
+  **************
+
+  THURSDAYS 1st
+
+  ******************
+
+  Pre- Party at Bar Salsa Soho.
+
+  your ABCD Full pass include full entry FREE to our pre-party but does NOT include our Pre-Party classes,
+
+  However they're discounted for you for £10 only for 2 Hours of classes.
+
+
+  FRIDAY 2nd
+
+  *************
+
+  4:00 PM registration
+
+  7:00 PM Doors Open & More registration
+
+  9:00PM Classes in Salsa / Bachata / Kizomba
+
+  10:00PM Party in 4 Rooms until 2am (officially)
+
+  11:00 PM Short break for shows.
+
+
+  SATURDAY 3rd
+
+  *****************
+
+  * 10:00 AM Registration
+
+  * 11:00 AM Doors Open / Registration
+
+  * 11:00 - 6:00 PM Workshops in 6 Areas
+
+  * 5:00 - 8:00 PM Afternoon Social (1/2 rooms) + PM Showcase
+
+  * 9:00 PM Evening Classes (included in eve pass)
+
+  * 10:00 PM Party in 4 rooms until officially 3am
+
+  AFTER-PARTY OPTION WILL BE ADDED SOON.
+
+
+  SUNDAY 4th.
+
+  **************
+
+  11:00 - 5:00PM Workshops in 6 Areas
+
+  Master Classes / Private Classes / ABCD Workshops
+
+  5:00PM - 10:00 PM SUNDAY SOCIAL.
+
+  09:30 PM .... Officially ABCD Festival Ends
+
+  AFTER PARTY TO BE ANNOUNCED
+
+
+  Monday -
+
+  You sleep, we sleep i sleep.
+
+
+  PASSES & PRICES
+
+  *******************
+
+  FULL PASS
+
+  ************
+
+  £85 Until 3rd April
+
+  £90 Until 3rd May
+
+  £95 Until 3rd June
+
+  £100 Until 3rd July
+
+  £105 Until 3rd Aug
+
+  £110 Until 3rd Sept
+
+  £120 Until 3rd Oct
+
+  £125 Until 3rd Nov
+
+  £135 Until 3rd Dec
+
+  £140 Until 3rd Jan
+
+  £160 Until event day
+
+  £190 At The Door ( Subject to availability ) 
+
+
+  GROUP DISCOUNTS
+
+  ***********************
+
+  Contact : 07907945534
+
+  info@abcdfestival.com
+
+  www.abcdsalsa.com
+
+
+  DAY PASS (SAT or SUN
+
+  ************************
+
+  Coming Soon.
+
+
+  DOOR PRICES
+
+  **************
+
+  Coming soon.
+
+  PARTY PASSES
+
+  ****************
+
+  Coming Soon.
+
+
+  VENUE
+
+  ********
+
+  HAVERSTOCK SCHOOL CAMDEN
+
+  24 HAVERSTOCK HILL
+
+  CHALK FARM
+
+  NW3 2BQ
+
+
+  OFFICIAL HOTEL / STAY / HOTELS
+
+  ****************************
+
+  * Premiere Inn London Hampstead
+
+  Prices change all the time but that what we were offered. Parking at the hotel is extra please ask for your discount when you check in.
+
+
+  DIRECTIONS
+
+  *************
+
+  BIG GREEN BUILDING ON THE MAIN ROAD OF HAVERSTOCK HILL. SLIGHTLY TO THE RIGHT OPPOSITE CHALK FARM STATION
+
+  TUBE
+
+  *******
+
+  Chalk Farm Station - 30 secs walk
+
+  Camden Town - 7 mins walk
+
+  Belsize Park - 5 mins walk
+
+
+  PARKING @ VENUE
+
+  ********************
+
+  2 X FREE CAR PARKS
+
+  1 IS LOCATED AT THE FRONT OF THE BUILDING - ALTERNATIVELY DRIVE ROUND THE BACK AND ENTER THE BIG CAR PARK. from Crogsland Road.
+
+
+  PLEASE NOTE:*Parking at the school is only available while you're at the event. please make sure you don't leave your cars in the car park overnight we they would be clamped by Camden Council.
+
+
+  * Free parking in Camden is also available literally about 5 mins walk from the school so please look for that when u're not at the event
+
+  * Parking at the premiere inn is charged too but you probably get a discount if you're staying there.
+
+
+  Call us for more info & Help on 07907945534.
+
+  See you all in February
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293943/uch9ea0wteph7w1tmkeg.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJAZoOT-QadkgRKYfGKfZbfXc
+international: No
+visibility: Public
+org:
+  id: LEW7G3yJiaa609QxEECd
+  username: abcdlondonuk
+  name: ABCD Festival London
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954162/pqs00tfn7lhrlhwhupy9.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/abcdlondonuk
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/3752925854988989/
+facebookId: "3752925854988989"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: ABCD Festival 2025 ★ The UK's Biggest 3 Days SBK Festival ★ Official Event ★
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1738260000000+ChIJC6X5le8adkgRWriPESg5n-8
+startDate: 1738260000000
+id: JJynv8GGaeTuijEnwa0Q

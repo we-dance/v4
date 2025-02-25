@@ -1,0 +1,168 @@
+endDate: 1712361600000
+sourceUrl: https://facebook.com/events/s/latin-dance-party-sbz-manchest/936538354632144/
+createdAt: 1712044593717
+approved: true
+provider: ical
+providerId: nvBqSF1sxQ25mvCB32f6
+providerCreatedAt: 1711887403000
+updatedAt: 1712044593717
+importedAt: 1712044593717
+providerUpdatedAt: 1711891746000
+facebookId: "936538354632144"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/latin-dance-party-sbz-manchest/936538354632144/
+  - https://facebook.com/events/s/latin-dance-party-sbz-manchest/936538354632144/
+eventType: Party
+providerItemId: 7ss8sv9jdo3t69o2n8b5ct0kmm@google.com
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+location: Studio Bee Photography Studio, 14-16 Faraday St, Manchester M1 1BE, UK
+startDate: 1712338200000
+facebookUrlsCount: 2
+username: halfcubedance
+venue:
+  formatted_address: 14-16 Faraday St, Manchester M1 1BE, UK
+  website: http://www.studiobeemcr.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Studio Bee Photography Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.234231330291502
+        lat: 53.4812664697085
+      northeast:
+        lng: -2.231533369708498
+        lat: 53.4839644302915
+    location:
+      lng: -2.232929
+      lat: 53.4826379
+  address_components:
+    - types:
+        - street_number
+      short_name: 14-16
+      long_name: 14-16
+    - types:
+        - route
+      short_name: Faraday St
+      long_name: Faraday Street
+    - types:
+        - postal_town
+      short_name: Manchester
+      long_name: Manchester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M1 1BE
+      long_name: M1 1BE
+  international_phone_number: +44 7855 939129
+  place_id: ChIJowFQsL6xe0gRSIv-feW3nps
+  url: https://maps.google.com/?cid=11213602318488341320
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Fiera-Dance/61555495028621/
+  name: Fiera Dance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708470847/pv8bmfvt7zg8vba0becs.jpg
+  bio: ""
+  id: 96dUQrdFagHCvmLGuIpF
+  instagram: ""
+  username: fiera.dance
+claimed: No
+facebook: https://www.facebook.com/events/936538354632144/
+link: https://www.fieradance.com/event-details-registration/sbz-latin-dance-party-manchester
+description: >-
+  ✨Join us for our new Salsa, Bachata & Zouk social!✨
+
+
+  Beginners, Improvers and Intermediate Bachata classes with Chandni and Mircea, followed by an SBZ Social!
+
+
+  🗓️ Date: Friday 5 April 2024
+
+
+  🕣 Timings: 
+
+
+  - Beginners Bachata Class - 6:30pm to 7pm (FREE)
+
+  - Improvers Bachata Class - Role Rotation - 7:15pm to 8:15pm
+
+  - Intermediate Bachata Class - 8:30pm to 9:30pm 
+
+  - SBZ social - 9:30pm to 1:00am
+
+
+  📍 Location: Studio Bee, 14-16 Faraday Street, M1 1BE
+
+
+  💸 Entry Fee:
+
+  - 2 classes & social: £14
+
+  - 2 classes only: £12
+
+  - 1 class & social: £10 in advance, £12 OTD
+
+  - 1 class only: £8
+
+  - Social only: £6 in advance, £8 OTD
+
+
+  Get ready for a night filled with rhythm and joy as we bring you the best Salsa, Bachata & Zouk tunes, keeping you dancing until midnight! 🕺💃
+
+
+  Don't miss the chance to end the week with fantastic music, vibrant energy, and a community of dance enthusiasts. See you on the dance floor! 🎉🎶
+
+
+  Please note that this venue does not have a bar, please bring your own drinks. Bottles of water will be available to buy.
+
+
+  📷 Photos and Videos
+
+  By participating in our classes and events, you consent to being photographed and recorded on video. You acknowledge that these photos and videos may be utilised for promotional purposes in upcoming public events, unless you provide us with a written notice of objection at least twenty-four hours (24 hours) before attending.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712044598/bwu9bl9dxqf4phhxuekn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Latin Dance Party (SBZ), Manchester
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ""
+international: No
+hash: 1712338200000+ChIJowFQsL6xe0gRSIv-feW3nps
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZlId2VKcYRgtrkoGAwIj.png?generation=1712044611795482&alt=media
+id: ZlId2VKcYRgtrkoGAwIj

@@ -1,0 +1,134 @@
+endDate: 1757502720000
+sourceUrl: https://www.facebook.com/events/338184502343694/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1703006149000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725955960000
+facebookId: "338184502343694"
+facebook: https://www.facebook.com/events/338184502343694/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/338184502343694/
+eventType: Congress
+providerItemId: e338184502343694@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: FEVER MALLORCA CONGRESS BACHATA (MAGIC EDITION)
+location: Mallorca, Islas Baleares, Spain
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1757491920000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Majorca, Balearic Islands, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Majorca
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.344706244080034
+        lat: 39.26446316950059
+      northeast:
+        lng: 3.478596765393518
+        lat: 39.96253265746261
+    location:
+      lng: 3.0175712
+      lat: 39.6952629
+  address_components:
+    - types:
+        - natural_feature
+        - establishment
+      short_name: Majorca
+      long_name: Majorca
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: PM
+      long_name: Balearic Islands
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IB
+      long_name: Balearic Islands
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+  place_id: ChIJKcEGZna4lxIRwOzSAv-b67c
+  url: https://maps.google.com/?q=Majorca&ftid=0x1297b8766606c129:0xb7eb9bff02d2ecc0
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Europe/100083255276338/
+  name: Sbk Europe
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954226/jk6fzups0hrxipgjyp4a.jpg
+  bio: ""
+  id: uiI4e3j7f7JJ2mvUr9wh
+  instagram: ""
+  username: SbkEurope
+claimed: No
+link: https://lasalsadelbaile.com/FBMC2024?ref=SBK
+description: "🏦Ahorro en venta directa por privado escribir @sbkeurope
+
+  🔐PROMOCODE 5€: :SBK
+
+  🛒 https://lasalsadelbaile.com/FBMC2024?ref=SBK
+
+
+  🚨🚨 🇪🇸SUBIDA DE PRECIO/ 🇬🇧RISING PRICE/ 🇫🇷LE PRIX AUGMENTE / 🇨🇳价格上涨
+  06/09/2024‼️‼️
+
+  Últimos 50 FULLPASS
+
+
+  FEVER MALLORCA CONGRESS BACHATA (MAGIC EDITION)
+
+
+  🏨 CARRER ISAAC ALBÉNIZ, 3, 07160 CALVIÀ, ILLES BALEARS
+
+  📆 20/12/2023 al 22/12/2023
+
+
+  \ #bachata #bachateros #bachatadancing #bachatachallenge #bachatafusion
+  #bachatadance #bachatadancers #bachataspain #bachatacongress  #bachatasensual
+  #bachataysalsa #bachataurbana #sbkeurope #princeroyce #bachatadominicana
+  #bachatabrussels
+
+  #bachatabe gium #danceclass #quefairebruxelles
+
+  #bachatatradicional #traditionalbachata #dance
+
+  #bachataclass #joinus #bachataflowdance #bachataroutine
+  #bachatachoreography\ 
+
+
+  \ "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417899/tvdqid1vouge1mapjnzi.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1757491920000+ChIJKcEGZna4lxIRwOzSAv-b67c
+id: 6zfI9p9e3c2tGINHjjlj

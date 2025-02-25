@@ -1,0 +1,171 @@
+venue:
+  formatted_address: Unnamed Rd, 93073 Neutraubling, Germany
+  website: http://cantina-bar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Neutraubling
+      short_name: Neutraubling
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Regensburg
+      short_name: R
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberpfalz
+      short_name: Oberpfalz
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "93073"
+      short_name: "93073"
+  url: https://maps.google.com/?cid=17937483790681625023
+  name: Cantina Bar
+  geometry:
+    viewport:
+      south: 48.9746510197085
+      north: 48.9773489802915
+      east: 12.2190261802915
+      west: 12.2163282197085
+    location:
+      lng: 12.2177152
+      lat: 48.9760023
+  international_phone_number: +49 171 2760555
+  place_id: ChIJD75IbjbDn0cRv9Hng3i-7vg
+endDate:
+  _seconds: 1629489600
+  _nanoseconds: 0
+link: https://www.facebook.com/ElPapachoDJ
+description: >-
+  𝐃𝐢𝐞 𝐂𝐚𝐧𝐭𝐢𝐧𝐚 @𝐋𝐢𝐯𝐞 𝐒𝐞𝐚𝐬𝐨𝐧 𝐚𝐦 𝐆𝐮𝐠𝐠𝐢
+
+
+  Nach einer wunderbaren Woche wird "El Papacho DJ" wieder die besten Latino-Rhythmen am Guggi auflegen.
+
+
+  Für deinen Durst ist Rainer von Cantina - die Bar am Guggi schon mit den besten Getränken zum Anstoßen. Um den Hunger zu stillen gibt's auch Snack und kleine Speisen für die ganze Familie und Freunde zum Schmecken!!!
+
+
+  Gegen die Hitze hast du den ganzen Guggenberger See zum Schwimmen und Surfen.
+
+  Komm einfach mit deinen Badesachen vorbei und genieß mit uns einen echten und fantastischen Latino-Sunset-Beach und mehr...
+
+
+  𝐄𝐢𝐧𝐭𝐫𝐢𝐭𝐭 𝐟𝐫𝐞𝐢, 𝐕𝐞𝐫𝐩𝐚𝐬𝐬 𝐞𝐬 𝐧𝐢𝐜𝐡𝐭❗❗❗ 𝐀𝐥𝐥𝐞 𝐬𝐢𝐧𝐝 𝐡𝐞𝐫𝐳𝐥𝐢𝐜𝐡 𝐞𝐢𝐧𝐠𝐞𝐥𝐚𝐝𝐞𝐧❗❗❗
+
+
+  Wann? Freitag, 20.08.2021 ab 17:00 bis 22:00 Uhr.
+
+
+  Wo? Cantina - die Bar am Guggi
+
+  Westufer 93073 Neutraubling, Regensburg
+
+
+  𝐆𝐞𝐟ä𝐥𝐥𝐭 𝐦𝐢𝐫, 𝐀𝐛𝐨𝐧𝐧𝐢𝐞𝐫𝐞𝐧 𝐮𝐧𝐝 𝐓𝐞𝐢𝐥𝐞𝐧❗❗❗
+
+
+  Bei schlechtem Wetter (z.B. Starkregen, Unwetter, Gewitter, usw) wird das Event nicht stattfinden.
+type: event
+duration: "300"
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxVFXq4lPYzPhITIbk4BMDIoxR5J3%2Faf407fe9-440a-421d-9c30-74b1aeb780d9?alt=media&token=ab7671d0-4f4d-49cc-8299-f51eae958455
+createdAt: 1629274437297
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ""
+id: AIEhuZCpug3ictTduNwk
+views: 1
+updatedAt: 1629274437297
+updatedBy: xVFXq4lPYzPhITIbk4BMDIoxR5J3
+visibility: Public
+eventType: Party
+organiser: ElPapachoDJ
+form: Yes
+createdBy: xVFXq4lPYzPhITIbk4BMDIoxR5J3
+commentsCount: 0
+name: 𝐋𝐚𝐭𝐢𝐧𝐞𝐚𝐧𝐝𝐨 𝐑𝐞𝐠𝐞𝐧𝐬𝐛𝐮𝐫𝐠 𝐦𝐢𝐭 "𝐄𝐥 𝐏𝐚𝐩𝐚𝐜𝐡𝐨 𝐃𝐉"
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  ChaChaCha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bolero:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  FunkCarioca:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Dembow:
+    level: Interested
+    highlighted: false
+    selected: true
+  Perreo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Lambada:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-20T15:00:00.000Z
+username: ElPapachoDJ
+viewsCount: 15

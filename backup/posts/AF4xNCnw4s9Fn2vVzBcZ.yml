@@ -1,0 +1,103 @@
+venue:
+  formatted_address: Rupert-Mayer-Straße 44, 81379 München, Germany
+  website: http://delvecchio-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "44"
+      short_name: "44"
+    - types:
+        - route
+      long_name: Rupert-Mayer-Straße
+      short_name: Rupert-Mayer-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?cid=5211395128055146242
+  name: Del Vecchio Dance im Fechtzentrum
+  geometry:
+    viewport:
+      south: 48.0958963697085
+      north: 48.0985943302915
+      east: 11.5371798802915
+      west: 11.5344819197085
+    location:
+      lng: 11.5358577
+      lat: 48.0971327
+  international_phone_number: +49 176 20730063
+  place_id: ChIJaYQhotXenUcRAqft_0GYUkg
+endDate:
+  _seconds: 1643922000
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+link: https://www.delvecchio-dance.de/kontakt-bookings/
+description: |-
+  Preise:
+
+  Probestunde    6€
+  Einzelstunde  14€
+  10er Karte   120€
+type: event
+promo: ""
+duration: 60
+cover: ""
+createdAt: 1643563190378
+price: 14 EUR
+promoter: Vitali
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1643563190378
+website: https://www.delvecchio-dance.de
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Course
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+name: Reggaeton Basic & Fusion
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-03T21:00
+username: Vitali
+viewsCount: 47
+id: AF4xNCnw4s9Fn2vVzBcZ

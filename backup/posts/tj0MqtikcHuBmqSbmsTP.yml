@@ -1,0 +1,146 @@
+endDate: 1741575600000
+sourceUrl: https://www.facebook.com/events/268424609541067/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709938594000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1711398567000
+facebookId: "268424609541067"
+facebook: https://www.facebook.com/events/268424609541067/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/268424609541067/
+eventType: Festival
+providerItemId: e268424609541067@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: KIZOMBA TALLINN FESTIVAL 2025
+location: Tallinn, Estonia
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1741273200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Tallinn, Estonia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Tallinn
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.55019390387247
+        lat: 59.35180076593268
+      northeast:
+        lng: 24.92628377517535
+        lat: 59.59157695103486
+    location:
+      lng: 24.7535746
+      lat: 59.43696079999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Tallinn
+      long_name: Tallinn
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Harju County
+      long_name: Harju County
+    - types:
+        - country
+        - political
+      short_name: EE
+      long_name: Estonia
+  place_id: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+  url: https://maps.google.com/?q=Tallinn,+Estonia&ftid=0x46929499df5616bf:0x400b36d18fc6270
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1713214825416
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/KizombaTallinnFestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214825/wipjrlsvtfrf9ih8pamd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1713214825416
+  owned: false
+  name: KIZOMBA TALLINN FESTIVAL
+  place: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+  updatedAt: 1713214825416
+  username: kizomba.tallinn.fest
+claimed: No
+link: https://my.weezevent.com/kizomba-tallinn-festival-2k25-1
+description: |
+  KIZOMBA TALLINN FESTIVAL 2025
+
+  Tickets Available: 
+  https://my.weezevent.com/kizomba-tallinn-festival-2k25-1
+
+  Hotel Links:  coming soon….
+
+
+  PRICES:
+  TICKETS AVAILABLE NOW
+  🎫Earlybirds - 65EUR (sold out)
+  🎫Fullpass - 85EUR (till 10.05.24)
+
+
+  PROGRAM: coming soon….
+  WORKSHOPS, SOCIALS, PARTIES
+  3 ROOMS
+
+  CONFIRMED LINE UP:
+
+  KIZOMBA
+  Dj Sabura
+  Dj Le Grand Ti Wosh
+  Carlos Camba & Anna
+  …
+
+  URBAN ROOM:
+  Dj Hugo Smile
+  Dj Poema Beatz
+  JP & Stephy
+  …
+  BACHATA:
+  coming soon…
+
+
+  TAXI TEAMS: coming soon…..
+  GUESTS: coming soon….
+  PHOTO/ VIDEO TEAM: coming soon….
+
+
+  👉STAY TUNED
+  WE ARE WORKING ON YOUR COMFORT
+
+  Orange is the New Kiz
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214827/r0gtlw51nbj3qitj5r8m.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJvxZW35mUkkYRcGL8GG2zAAQ
+international: No
+hash: 1741273200000+ChIJvxZW35mUkkYRcGL8GG2zAAQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Ftj0MqtikcHuBmqSbmsTP.png?generation=1713214874421298&alt=media
+viewsCount: 4
+id: tj0MqtikcHuBmqSbmsTP

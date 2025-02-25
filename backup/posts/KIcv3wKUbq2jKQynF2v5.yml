@@ -1,0 +1,133 @@
+venue:
+  website: https://www.cumbancha.de/
+  formatted_address: Möckernstraße 68, 10965 Berlin, Germany
+  name: Cumbancha "LaFamilia" -Salsa Tanzschule - Berlin
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3788282302915
+      south: 52.48947941970851
+      north: 52.49217738029151
+      west: 13.3761302697085
+    location:
+      lng: 13.3774641
+      lat: 52.4907097
+  address_components:
+    - types:
+        - street_number
+      short_name: "68"
+      long_name: "68"
+    - types:
+        - route
+      short_name: Möckernstraße
+      long_name: Möckernstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10965"
+      long_name: "10965"
+  url: https://maps.google.com/?cid=14367320317274941685
+  international_phone_number: +49 173 6554433
+  place_id: ChIJX3OibiVQqEcR9ehsDbX5Ysc
+endDate: 2023-02-24T22:00
+claimed: No
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FwbAl2yJv9uOCUayxBJQWZWcXxG52%2Fabb8eb54-16b7-4042-971d-32f05efe33a1?alt=media&token=8205857b-580a-4d43-b610-3b130fb70f56
+duration: 60
+createdAt: 1676742716802
+artists: []
+price: ""
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1676742716802
+updatedBy: wbAl2yJv9uOCUayxBJQWZWcXxG52
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Laura
+  bio: ""
+  photo: ""
+  id: wbAl2yJv9uOCUayxBJQWZWcXxG52
+  instagram: ""
+  username: LauraJW
+eventType: Workshop
+form: No
+createdBy: wbAl2yJv9uOCUayxBJQWZWcXxG52
+watch:
+  count: 1
+  list:
+    LauraJW: true
+name: Bachata Sensual Charity Workshop
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-24T20:30
+username: LauraJW
+id: KIcv3wKUbq2jKQynF2v5
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKIcv3wKUbq2jKQynF2v5.png?generation=1676743804930338&alt=media
+telegram:
+  requestedAt: 1676743771030
+  messageUrl: https://t.me/WeDanceBerlin/111
+  publishedAt: 1676743807769
+  messageId: 111
+  state: published
+star:
+  count: 0
+  list: {}
+description: >-
+  Dear Berlin dance community,
+   
+  You’ve all heard about the devastating earthquakes in Syria and Turkey 💔
+
+  💪🏼Here’s how you can help: 
+
+
+  💃🏽🕺🏻Join our Bachata Sensual Charity Workshop with Zakaria and Luna from Syria 🇸🇾 
+
+
+  🕣 Next Friday, 24.02.2023, 20:30 - 22:00 
+
+
+  📍Cumbancha, Möckernstr 68, Aufgang D, 10965 Berlin
+
+
+  💰Donate as much as you can - all donations will go directly to the people affected by the earthquakes
+
+  #beginnerswelcome
+
+
+  📢 Spread the word and come by to show solidarity
+viewsCount: 46

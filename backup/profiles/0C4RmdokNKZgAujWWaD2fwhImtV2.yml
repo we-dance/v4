@@ -1,0 +1,69 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1625347050445
+createdBy: 0C4RmdokNKZgAujWWaD2fwhImtV2
+name: OpenMinded
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: OpenMinded
+pwaUsed: false
+bio: Recently moved and in the mood to dance again! Want a dance partner and/or
+  someone to go to parties with.
+updatedAt: 1625347212135
+birthday: 1988-02-25
+partnerBio: Why do you like dancing?
+gender: Male
+jobs: Salsa for beginners
+weight: "102"
+learning: Partnerwork, musicality, a bit of men styling
+permission: No
+locales:
+  de: true
+  en: true
+  hr: true
+  bs: true
+  sr: true
+teacher: No
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: No
+height: "185"
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F0C4RmdokNKZgAujWWaD2fwhImtV2%2Fb3596ca0-ef23-4476-a6dc-46021dc054de?alt=media&token=f3fc367b-60fa-478c-9efb-2a5cef8fc17c
+daysUsed: 8
+lastLoginAt: 1629007243681
+styles:
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Tango:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+id: 0C4RmdokNKZgAujWWaD2fwhImtV2

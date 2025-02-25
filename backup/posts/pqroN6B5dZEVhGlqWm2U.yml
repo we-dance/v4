@@ -1,0 +1,157 @@
+createdAt: 1704822893355
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/233307386425666/
+source: facebook
+updatedAt: 1704822893355
+username: wedancebot
+venue:
+  formatted_address: Madeira Rd, Plymouth PL1 2NY, UK
+  website: http://www.thecorinthianplymouth.co.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The Corinthian Plymouth - Parties, Weddings and Sunday Lunch
+  geometry:
+    viewport:
+      southwest:
+        lng: -4.137747430291503
+        lat: 50.3618125197085
+      northeast:
+        lng: -4.135049469708498
+        lat: 50.3645104802915
+    location:
+      lng: -4.1363725
+      lat: 50.36307900000001
+  address_components:
+    - types:
+        - route
+      short_name: Madeira Rd
+      long_name: Madeira Road
+    - types:
+        - postal_town
+      short_name: Plymouth
+      long_name: Plymouth
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Plymouth
+      long_name: Plymouth
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: PL1 2NY
+      long_name: PL1 2NY
+  international_phone_number: +44 1752 664327
+  place_id: ChIJUxJsTVOTbEgR5UY48EFR5-U
+  url: https://maps.google.com/?cid=16566299097950602981
+visibility: Public
+endDate: 1721624400000
+org:
+  owner: ""
+  importedAt: 1704822895907
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/TropicalSummerFestival
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/273677104_1218245271912448_7028389871557224711_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=596444&_nc_ohc=GvvzEcErcTYAX-CuoTT&_nc_ht=scontent-iad3-1.xx&oh=00_AfCnVAbkF977vyklTRI6eKXsKsDaudS2ykWgyNJaQEe5xw&oe=65A1CB85
+  source: facebook
+  type: Organiser
+  createdAt: 1704822895907
+  owned: false
+  name: Tropical Summer Festival
+  updatedAt: 1704822895907
+  username: TropicalSummerFestival
+claimed: No
+facebookId: "233307386425666"
+link: https://www.universe.com/splishsplashfestival
+description: >-
+  Here it is familia! 
+
+  Something unique for our Latin Dance community 
+
+  SPLISH SPLASH Music and Dance Festival! 
+
+
+  Date 19-22 July 2024 
+
+
+  Ticket link here 
+
+  https://www.universe.com/splishsplashfestival
+
+
+  Official Pre Party Thursday 18th July! 
+
+
+  � Dance workshops 
+
+  � Day and night socials 
+
+  � Live music from some incredible bands 
+
+  � Amazing DJs 
+
+  � National and International Dance artists 
+
+  A truly SBK dance and music festival! 
+
+  Parties until early hours of the morning every day! 
+
+  � All under one roof
+
+
+  VIP pass at £99 for first 100 passes 
+
+
+  £120 second released maximum an extra 100 passes. 
+
+
+  £150 on the door subject to availability! 
+
+
+  only a Total of 250 FULL VIP passes available. 
+
+
+  Lots of daytime passes will be available. 
+
+
+  (Due to capacity for the evening event and music license until 10:00pm outdoors, after 10:00pm we are limiting the capacity to only 250 people in the evening) 
+
+  So if you want to keep dancing after 10:00pm every day make sure you get your VIP pass. 
+
+  Parties will finish anytime between 4:00am/6:00am every day! 
+
+
+  Much love Misael, The Corinthian and the Tropical Festival Team! �
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Splish Splash Music and Dance Festival! "
+online: No
+styles:
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ""
+international: No
+hash: 1721379600000+ChIJUxJsTVOTbEgR5UY48EFR5-U
+startDate: 1721379600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpqroN6B5dZEVhGlqWm2U.png?generation=1704822921054290&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853550/bq5c0tkqale6uueidrde.jpg
+viewsCount: 2
+id: pqroN6B5dZEVhGlqWm2U

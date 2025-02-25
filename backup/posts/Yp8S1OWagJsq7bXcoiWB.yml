@@ -1,0 +1,141 @@
+endDate: 1724543999000
+sourceUrl: https://www.facebook.com/events/246660885118497
+createdAt: 1724248825547
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1724230847000
+updatedAt: 1724248825547
+importedAt: 1724248825547
+providerUpdatedAt: 1724230847000
+facebookId: "246660885118497"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/246660885118497
+eventType: Party
+providerItemId: 47880-1724457600-1724543999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Aba Novák Kulturális Központ, Hild J. tér 1., Szolnok, 5000, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724457600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Szolnok, Hild János tér 1, 5000 Hungary
+  website: http://www.agoraszolnok.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Aba-Novák Agora Cultural Center
+  geometry:
+    viewport:
+      southwest:
+        lng: 20.1917933197085
+        lat: 47.1748946197085
+      northeast:
+        lng: 20.1944912802915
+        lat: 47.1775925802915
+    location:
+      lng: 20.193227
+      lat: 47.176455
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Hild János tér
+      long_name: Hild János tér
+    - types:
+        - locality
+        - political
+      short_name: Szolnok
+      long_name: Szolnok
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "5000"
+      long_name: "5000"
+  international_phone_number: +36 56 514 569
+  place_id: ChIJbzKEYhVBQUcRiwEl3OINov8
+  url: https://maps.google.com/?cid=18420300693905932683
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1724248839671
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/latinfeverdanceproject
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1724248839/b520izndm0iel2m4v0dc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1724248839671
+  owned: false
+  name: Latin Fever Dance Project Tánciskola Szolnok
+  place: ChIJxb42OxJBQUcR0BEeDCnEAAQ
+  updatedAt: 1724248839671
+  username: latin.fever.dance.pr
+claimed: No
+facebook: https://www.facebook.com/events/246660885118497/
+link: ""
+description: >-
+  
+  📅 Dátum: 2024.08.24, 
+
+  Helyszín: Szolnok, Hild tér, AGÓRA 📍
+
+
+  Csatlakozz hozzánk a város legforróbb nyáresti bulijára, a SZOLNOK ESTI LÁZ 3. eseményére! 🔥🔥
+
+
+  🎶 Élőzenei koncert TEAM GUSTO CUBANO-val 🎶
+
+  ⏰ 20:00-tól - 2 órás fergeteges Salsa koncert ⌛️
+
+  De várj, még korábban is tombolni fogunk! 🔥 Előtte, 18:00-tól 🎶 Salsa, Bachata és Kizomba ritmusokkal pörgetjük a közönséget! 😍
+
+  💃 Rendezvényszervező: Latin Fever Dance Project 💃
+
+  Nem csak a koncert lesz a csúcspont, hanem egész este folyamán lesznek animációk, táncoktatás és táncbemutatók! 🤩
+
+  🍹 Az AGÓRA Bisztró és csapata pedig gondoskodik a frissítőkről! 🍸 Koktélok, limonádék és minden, ami a forró esténkben felfrissít! 😋
+
+  💥 És az este még nem ér véget! 💥 A koncert után 24:00-ig tovább folytatjuk a mulatást Salsa, Bachata és Kizomba zenékkel! 🎶
+
+  🔥🌴 Gyere, és élvezd a karibi hangulatot egy fergeteges nyárestén Szolnok legexkluzívabb rendezvényén! 🌴🔥
+
+  Ne hagyd ki! 🎉 Csatlakozz hozzánk és táncolj velünk a SZOLNOK ESTI LÁZ 3-n! 💃🎉
+
+  #SzolnokEstiLáz3 #Salsa #Bachata #Kizomba #TeamGustoCubano #LatinFeverDanceProject #AGÓRABisztró #NyárestiBuli #FergetegesBulizás 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724248841/m1akaoa5ou5wyng3nnrt.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 🎉🕺🌴 SZOLNOK ESTI LÁZ 3. 🌴🕺🎉
+online: No
+place: ChIJxb42OxJBQUcR0BEeDCnEAAQ
+international: No
+hash: 1724515200000+ChIJbzKEYhVBQUcRiwEl3OINov8
+id: Yp8S1OWagJsq7bXcoiWB

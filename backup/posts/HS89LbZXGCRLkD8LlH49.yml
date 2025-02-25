@@ -1,0 +1,145 @@
+createdAt: 1708102387603
+updatedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+createdBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+facebook: https://www.facebook.com/events/755146523211135/
+updatedAt: 1708102387603
+username: MontunoClub
+venue:
+  formatted_address: Kosovska 26a, Novi Sad, Serbia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kosovska 26a
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.8503321697085
+        lat: 45.26146126970851
+      northeast:
+        lng: 19.8530301302915
+        lat: 45.2641592302915
+    location:
+      lng: 19.8515935
+      lat: 45.2628081
+  address_components:
+    - types:
+        - street_number
+      short_name: 26a
+      long_name: 26a
+    - types:
+        - route
+      short_name: Kosovska
+      long_name: Kosovska
+    - types:
+        - locality
+        - political
+      short_name: NS
+      long_name: Novi Sad
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Južnobački okrug
+      long_name: Južnobački okrug
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vojvodina
+      long_name: Vojvodina
+    - types:
+        - country
+        - political
+      short_name: RS
+      long_name: Serbia
+  place_id: ChIJ25ULG2EQW0cRL8RpXxBvnAk
+  url: https://maps.google.com/?q=Kosovska+26a,+Novi+Sad,+Serbia&ftid=0x475b10611b0b95db:0x99c6f105f69c42f
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  UPIS NA HIP HOP | +15 | Faith Connect Dance Studio
+
+
+  🔹Nas studio prepoznajete po socijalnim plesovima, a od sada sa zadovoljstvom predstavljamo i novi kurs Hip Hop-a. 🤭
+
+
+
+  🔹Ukoliko imaš 15 ili više godina, pridruži nam se na redovnim treninzima, i nije vazno da li si iskusan plesač ili početnik-svi su dobrodošli. 🤗
+
+
+  🕺Potpuno besplatno svrati na prvi čas!
+
+  🗓️5. MARTA, od 19h.
+
+
+  ⏰Redovni termini održavaće se:
+
+  Utorak | 19h
+
+  Cetvrtak | 19h
+
+
+  📍Na adresi Kosovska 26A.
+
+
+  💸Cijena kursa 2900 RSD.
+
+  Popust na više kurseva u našoj školi.
+
+
+  ‼️Prijave su obavezne:
+
+  https://forms.gle/8LAg8F9aNWEab4yp6
+
+
+  🔹Vaš instruktor biće višegodišnji instruktor i sjajan plesač Miki.
+
+
+  🔹A evo šta Miki kaže o sebi:
+
+
+  Bavim se plesom od svoje 16 godine. Ples me je oblikovao u osobu koja sam danas, i svoju zahvalnost pokazujem prenošenjem znanja na druge.
+
+  Sloboda izražavanja kroz ples je nešto što mi je pomoglo da spoznam sebe. Smatram da svako ima svoju priču koja treba da se čuje, a ples je definitivno jedan od načina kako da je i preneseš.
+
+  Više od 10 godina iskustva na plesnoj sceni mi je omogućilo da pokažem svima šta ples meni predstavlja i šta je ono što mogu da uzmu kako bi sebe nadogradili i bili još bolji.
+
+  Baza mog plesnog školovanja je uvek bio Novi Sad. Uzimao sam znanje sa svih strana i trudio sam se posle da to primenim na svoje ljude.
+
+  Seminari kojima sam prisustvovao su mi omogućili da uđem u novu dimenziju plesa što mi je pomoglo da podignem svoj nivo.
+
+  Želja mi je da stvaram zajednicu koja će biti puna podrške, koja će se širiti, i koja će uticati pozitivno na sve koji žele da se bave plesom.
+
+
+  🔹Ne propusti priliku za ovu Hip Hop avanturu i prijavi se.
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJVTTpPWEQW0cRKP4kN2h9bws
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachatafaith
+  name: Faith Connect Dance Studio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708102355/aeatb1rvl1ll7no1gctl.jpg
+  bio: ""
+  id: iR4RBRRZgMfbo86hXd4Z
+  instagram: ""
+  username: faith.connect.dance.studio
+facebookId: "755146523211135"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: UPIS NA HIP HOP | Faith Connect Dance Studio
+online: No
+styles: {}
+hash: 1709661600000+ChIJ25ULG2EQW0cRL8RpXxBvnAk
+startDate: 1709661600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708102389/wdvskip6r7n45yodq1yj.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHS89LbZXGCRLkD8LlH49.png?generation=1708102400815744&alt=media
+viewsCount: 26
+id: HS89LbZXGCRLkD8LlH49

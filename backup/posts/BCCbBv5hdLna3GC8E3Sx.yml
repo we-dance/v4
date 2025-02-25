@@ -1,0 +1,110 @@
+sourceUrl: https://www.facebook.com/events/1792334931264097
+createdAt: 1714074033651
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+updatedAt: 1714074033651
+username: DjLole
+viewsCount: 1
+venue:
+  formatted_address: Na výstavišti 115/1, 293 01 Mladá Boleslav-Mladá Boleslav 1, Czechia
+  website: https://www.facebook.com/Alt%C3%A1n-caf%C3%A9-gril-bar-327284021049538/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: Altánek Coctail Café bar
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.9066379197085
+        lat: 50.4142725197085
+      northeast:
+        lng: 14.9093358802915
+        lat: 50.4169704802915
+    location:
+      lng: 14.9079869
+      lat: 50.4156215
+  address_components:
+    - types:
+        - street_number
+      short_name: 115/1
+      long_name: 115/1
+    - types:
+        - route
+      short_name: Na výstavišti
+      long_name: Na výstavišti
+    - types:
+        - postal_town
+      short_name: Mladá Boleslav 1
+      long_name: Mladá Boleslav 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mladá Boleslav
+      long_name: Mladá Boleslav
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Středočeský kraj
+      long_name: Středočeský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 293 01
+      long_name: 293 01
+  international_phone_number: +420 605 261 735
+  place_id: ChIJ59PteLlVCUcRGNmA6fcm3Po
+  url: https://maps.google.com/?cid=18076365850574641432
+endDate: 1718913600000
+claimed: No
+link: ""
+description: >+
+  A je to tady!!!!!! Termín na první velkou letní tančírnu stanoven :-) Pište si
+  jej do diářů. KAPELA DOHODNUTA!!! Open Air tančírna 20.6. bude ve velkém
+  rodinném stylu!!! 💃❤🥳😉🪇🕺🎺🎹❤ Spojí se dvě "rodiny": Salsa Familia Mladá
+  Boleslav a La Familia Salsa Band 😊 Samozřejmě nebudou chybět naši milovaní
+  lektoři Maria Isabel a Rafael del Busto a DJ LOLE. Těšit se můžete na koncert,
+  vystoupení, tančírnu a animace. Pozvěte přátele, vezměte děti, na Výstavišti v
+  MB bude zase velmi živo a veselo!!! 😊 🕺❤🪇🎹🎺  Věříme a doufáme, že
+  přijedou i naši přátelé ze Salsa Liberec, Salsa HK, Prahy, Ústí, Pardubic a
+  dalších měst❤. Těšíme se na vás. Vaše Salsa Familia <3
+   
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsafamiliamladaboleslav
+  name: Salsa Familia Mladá Boleslav
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713717464/ihvqdkwmogtawvmdzncl.jpg
+  bio: ""
+  id: wAAjKDWmO4slUvlUOoe8
+  instagram: ""
+  username: salsa.familia.mlada.
+facebook: https://www.facebook.com/events/1792334931264097/
+facebookId: "1792334931264097"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Velká letní tančírna vol. 1
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1718899200000+ChIJ59PteLlVCUcRGNmA6fcm3Po
+startDate: 1718899200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714074037/kntyyrves9cexbus3i8v.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBCCbBv5hdLna3GC8E3Sx.png?generation=1714074062056808&alt=media
+id: BCCbBv5hdLna3GC8E3Sx

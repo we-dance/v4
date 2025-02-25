@@ -1,0 +1,59 @@
+createdAt: 1719477184534
+website: https://maps.google.com/?q=Schwanenwik,+Hamburg-Nord,+Germany&ftid=0x47b18eda5bc7a09b:0xa6c6f02bbe604d3a
+rooms: ""
+address:
+  formatted_address: Schwanenwik, Hamburg-Nord, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Schwanenwik
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.0182337802915
+      south: 53.5637832197085
+      north: 53.5664811802915
+      west: 10.0155358197085
+    location:
+      lng: 10.0168848
+      lat: 53.5651322
+  address_components:
+    - types:
+        - route
+      short_name: Schwanenwik
+      long_name: Schwanenwik
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Nord
+      long_name: Hamburg-Nord
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: EiJTY2h3YW5lbndpaywgSGFtYnVyZy1Ob3JkLCBHZXJtYW55Ii4qLAoUChIJm6DHW9qOsUcROk1gvivwxqYSFAoSCXvoqdH_iLFHEWQIwW717Tpn
+  url: https://maps.google.com/?q=Schwanenwik,+Hamburg-Nord,+Germany&ftid=0x47b18eda5bc7a09b:0xa6c6f02bbe604d3a
+gender: Other
+phone: ""
+name: Schwanenwik
+updateAt: 1719477184534
+type: Venue
+map: ""
+username: schwanenwik
+viewsCount: 1
+id: 9UaiFrEPRoI16XgFYifb

@@ -1,0 +1,126 @@
+endDate: 1716048000000
+sourceUrl: https://www.facebook.com/events/s/bachata-piknik-margitsziget%E5%91%A8%E5%85%AD%E9%87%8E/1500628900874730/
+createdAt: 1715781630608
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1715753502000
+updatedAt: 1715781630608
+importedAt: 1715781630608
+providerUpdatedAt: 1715753502000
+facebookId: "1500628900874730"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/s/bachata-piknik-margitsziget%E5%91%A8%E5%85%AD%E9%87%8E/1500628900874730/
+eventType: Party
+providerItemId: 10008850-1716040800-1716048000@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Margitsziget, Margitsziget, Budapest, 1138, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716040800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Margaret Island, 1138 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Margaret Island
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.04198959443369
+        lat: 47.51504776514101
+      northeast:
+        lng: 19.05496203749694
+        lat: 47.53873611774772
+    location:
+      lng: 19.0463939
+      lat: 47.5266408
+  address_components:
+    - types:
+        - natural_feature
+        - establishment
+      short_name: Margaret Island
+      long_name: Margaret Island
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: District XIII.
+      long_name: District XIII.
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1138"
+      long_name: "1138"
+  place_id: ChIJ16rPd_zbQUcR_VCmOq57n2g
+  url: https://maps.google.com/?q=Margaret+Island&ftid=0x4741dbfc77cfaad7:0x689f7bae3aa650fd
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715781651027
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0dweYfBhVgdeE75XxqHHg3KrJTHaewtTGyPGfubohgeJD5B1eQSUYT4jXnaZ8bu2l
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715781651/bpsgzt2mrvw4s4clcjlf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715781651027
+  owned: false
+  name: Bea Prokaj
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1715781651027
+  username: bea.prokaj
+claimed: No
+facebook: https://www.facebook.com/events/1500628900874730/
+link: ""
+description: >-
+  1.⛱️Sunbath/tanning sexy 🎵music,💃dance(bachata or as you like) and make
+  friends . Feel free to bring all kinda snacks,homemade food and drinks ,share
+  your food or drinks if you prefer and have fun with friends and family in the
+  best season and place.音乐，阳光，跳舞和交友。请自带美食零食饮料,也可以和朋友们分享你的美食🥤
+
+
+  2.🅿️parkló: underbridge , both sides roads  free park.
+   免费停车玛格丽特桥下路边两侧
+
+  3. 📍➡️Meeting point:(150m to Hámas Büfé)
+
+  https://maps.app.goo.gl/r3Ht3n3QxLDNBQFp8
+
+  地点：14:00玛格丽特岛，地图点击链接
+
+
+  4.Please take all rubbish when you leave离开时请带走所有垃圾
+
+  5.Temperature 23°C. Please take precautions(water, sunblock)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715781652/hvdphpyx61wj8yahureu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 💃Bachata 🍴Piknik 👙Sunshine/Tanning@Margitsziget🧑‍🤝‍🧑周六公园野餐
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1716033600000+ChIJ16rPd_zbQUcR_VCmOq57n2g
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPqo6DDAcMQgjJuj8BoWc.png?generation=1715781691721847&alt=media
+id: Pqo6DDAcMQgjJuj8BoWc

@@ -1,0 +1,110 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Zenettistraße
+      short_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80337"
+      short_name: "80337"
+  url: https://maps.google.com/?cid=8616399599048238742
+  name: Salsa Y Corazon - dance school
+  geometry:
+    viewport:
+      south: 48.1218753697085
+      north: 48.1245733302915
+      east: 11.5593368302915
+      west: 11.5566388697085
+    location:
+      lng: 11.5578917
+      lat: 48.1231434
+  international_phone_number: +49 172 9659579
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+endDate:
+  _seconds: 1631383200
+  _nanoseconds: 0
+link: https://www.salsa-y-corazon.de/kurse-workshops/kursanmeldung/
+description: |-
+  Bachata Beginner workshop 
+  11./12. September 15:00-17:30
+type: event
+promo: Yes
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3f189c49-f233-407b-8c37-4c71dbaf6bbd?alt=media&token=6f45eb60-5a8d-435e-b3e2-34a207c4cc81
+createdAt: 1631216036007
+watchersCount: 0
+price: 75EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FugnEKFaN1IAeoLHZPpOo.png?generation=1631275585483711&alt=media
+commentsLast: ~
+place: ""
+id: ugnEKFaN1IAeoLHZPpOo
+updatedAt: 1631216036007
+updatedBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+visibility: Public
+eventType: Workshop
+organiser: Morena
+form: Yes
+createdBy: LFoKqVBwSpYYkfNNAAst2m3KONw2
+commentsCount: 0
+name: "Bachata Beginner Workshop "
+online: Yes
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-11T13:00:00.000Z
+username: Morena
+viewsCount: 2

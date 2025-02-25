@@ -1,0 +1,165 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/danse-evasion/
+sourceUrl: https://www.facebook.com/events/1001705781960838
+venue:
+  address_components:
+    - long_name: Les Cigales
+      short_name: Les Cigales
+      types:
+        - neighborhood
+        - political
+    - long_name: Murviel-lès-Béziers
+      short_name: Murviel-lès-Béziers
+      types:
+        - locality
+        - political
+    - long_name: Hérault
+      short_name: Hérault
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Occitanie
+      short_name: Occitanie
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: France
+      short_name: FR
+      types:
+        - country
+        - political
+    - long_name: "34490"
+      short_name: "34490"
+      types:
+        - postal_code
+  formatted_address: Les Cigales, 34490 Murviel-lès-Béziers, France
+  geometry:
+    location:
+      lat: 43.438574
+      lng: 3.137804
+    viewport:
+      northeast:
+        lat: 43.44667540678567
+        lng: 3.153811423771418
+      southwest:
+        lat: 43.43047150835391
+        lng: 3.121796576228582
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Les Cigales
+  place_id: ChIJe7srftUKsRIRaICJTjv2Px8
+  url: https://maps.google.com/?q=Les+Cigales,+34490+Murviel-l%C3%A8s-B%C3%A9ziers,+France&ftid=0x12b10ad57e2bbb7b:0x1f3ff63b4e898068
+endDate: 1749477600000
+claimed: No
+link: https://www.billetweb.fr/week-end-danse-evasion-16eme-edition1
+description: >-
+  🌴🌴 On se donne rendez-vous pour un weekend de folie du 06 juin au 09 juin
+  2025 pour la 17ème édition de Danse Évasion 🌴🌴
+
+
+  On vous attend nombreux pour cette nouvelle édition du festival, présent depuis 18 ans (car un an covid) dans le sud de la France ! Chaque année vous êtes de plus en plus nombreux à nous rejoindre... nous vous remercions du fond du cœur pour votre fidélité : c'est toujours un plaisir de retrouver certaines têtes chaque année. 😉
+
+
+  On se retrouve donc pour 4 jours et 3 nuits de festivité autour de la danse ! Il est également possible de prendre le pass 3 jours et 2 nuits pour les gros travailleurs ! 💪🏼💪🏼
+
+
+  🌞 AU PROGRAMME 🌞
+
+  • 10 h de cours de danses tous niveaux (Salsa Portoricaine, Salsa Cubaine, Lady Styling, Bachata, Kizomba, Rock..)
+
+  • 3 soirées à thèmes mémorables
+
+  • Animations et jeux
+
+  • Pooplarties
+
+  • Rencontres, fous rires, bronzage, piscine, apéros et bien plus encore !
+
+
+  ----------------------------------------------------------------
+
+  📍LE CAMPING LES CIGALES 4 ****  au cœur de la Provence, à proximité du village du Muy, entre le Massif des Maures et le Massif de l’Ester, à seulement 1h30 de Marseille 📍
+
+
+  Un lieu magique pour vous évader le temps d'un week-end et rencontrer d'autres passionnés de la danse comme vous ! Un domaine 4 étoiles, sous forme de mini-vacances paradisiaques : espaces aquatiques, piscines, toboggans, terrain multisports, half court, équitation, parcours aventure et seulement à 20 km de la mer ! 🏊‍♀ ☀️☀️
+
+
+  C'est l'occasion rêvée pour décompresser, vous lâcher, vous éclater et vivre des mini-vacances inoubliables AVEC L’ÉQUIPE DE MARSEILLE DANSE ACADEMY 😃
+
+  ----------------------------------------------------------------
+
+
+  ⚠ A RETENIR ⚠:
+
+  Les bungalows ont une capacité de 6 à 7 personnes (8 avec enfant). Lors de votre inscription, n'oubliez pas de nous envoyer un mail à communication@marseille-danse-academy.fr pour nous donner le nom de votre équipe et lister les personnes souhaitant être dans le même bungalow (nom, prénom, email, téléphone et date de naissance de chaque occupant du bungalow). 
+
+
+  ⚠Pour une question d'organisation, il est important de noter que les personnes qui s'inscrivent pour 4 jours seront mis dans le même bungalow et que ceux qui s'inscrivent pour 3 jours seront mis dans les mêmes bungalows⚠
+
+
+  ⚠ Pour des raisons de gestion et d’organisation, toute inscription est définitive. Si toutefois vous avez un empêchement, vous pouvez vous-même, par vos propres moyens céder votre place en la revendant à un(e) intéressé(e). Merci de votre compréhension ! ⚠
+
+
+  ❗Attention : toutes modifications de nom de billet ou de bungalow fera l'objet de frais supplémentaires (voir "modification billet" sur la billetterie).❗
+
+
+
+  ﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
+
+  On a hâte de vous retrouver sur le dancefloor... Un week-end de pur plaisir vous attend 🌴🌴🌴☀️☀️☀️
+
+
+  Toute l'équipe de MDA 😘
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293952/yidz5l8g9mqlv0f9o0fr.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJT8YIFfQLsRIR50j3JID7Bfg
+international: No
+visibility: Public
+org:
+  createdAt: 1732293948772
+  importedAt: 1732293948772
+  updatedAt: 1732293948772
+  source: facebook
+  name: Marseille Danse Academy - MDA
+  facebook: https://www.facebook.com/marseilledanseacademyMDA
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/kxemhqyeusb2rkq7moek.png
+  username: marseille.danse.acad
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJT8YIFfQLsRIR50j3JID7Bfg
+facebook: https://www.facebook.com/events/1001705781960838/
+facebookId: "1001705781960838"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Danse Évasion 17ème édition : du 06 au 09 juin 2025"
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1749218400000+ChIJe7srftUKsRIRaICJTjv2Px8
+startDate: 1749218400000
+id: E03aZeElKgGx47ZKRDiq

@@ -1,0 +1,193 @@
+endDate: 1716681600000
+sourceUrl: https://www.facebook.com/events/821905123100984/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712592540000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1714039499000
+facebookId: "821905123100984"
+facebook: https://www.facebook.com/events/821905123100984/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/821905123100984/
+eventType: Party
+providerItemId: e821905123100984@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Amor BACHATA x Sabor SALSA - cours + soirée
+location: 13 rue des entrepreneurs, Zone République 1, 86000 Poitiers, France
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716642000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 13 rue des entrepreneurs - pôle république 1, 86000 Poitiers, France
+  website: http://www.tempo-danse.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tempo Danse
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.3429867697084979
+        lat: 46.61439731970849
+      northeast:
+        lng: 0.345684730291502
+        lat: 46.61709528029149
+    location:
+      lng: 0.3442531
+      lat: 46.61577799999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Poitiers
+      long_name: Poitiers
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Vienne
+      long_name: Vienne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "86000"
+      long_name: "86000"
+  international_phone_number: +33 6 88 69 84 75
+  place_id: ChIJlVZmdLm9_UcREpMXaDSRqDc
+  url: https://maps.google.com/?cid=4010615122444129042
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444481050
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/TempoDansePoitiers
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444481/bvunkufkkupilkfr8wf9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444481050
+  owned: false
+  name: Tempo Danse
+  updatedAt: 1715444481050
+  username: TempoDansePoitiers
+claimed: No
+link: ""
+description: >-2
+   ⭐️ ÉDITION SPÉCIALE ⭐️
+
+  Amor BACHATA & Sabor SALSA se réunissent !
+
+  Pour cette édition nous aurons le plaisir d'avoir Daniel & Johanna ainsi qu'Inès pour la Bachata & Espérance pour la Salsa.
+
+
+  Au programme :
+
+  15h-16h : SALSA CUBAINE - niv.débutant/intermédiaire - Espérance // LADY STYLE BACHATA - tous niveaux (connaissance des bases de la bachata) - Inès
+
+
+  16h-17h : COCKTAIL CARAÏBE - tous niveaux (solo latino - salsa, bachata, cha cha cha) - Espérance // BACHATA FUSION - niv.inter. - Johanna & Daniel
+
+
+  17h-18h : SALSA CUBAINE - niv. inter. - Espérance // BACHATA FUSION - niv. déb/inter. - Johanna & Daniel
+
+
+  21h-22h : RUEDA DE CASINO - salsa cubaine en groupe (connaissance des bases de la salsa cubaine ) -  Espérance // BACHATA FUSION - tous niveaux (connaissance des bases de la bachata) -  Johanna & Daniel
+
+
+  22h-2h : SOIRÉE SALSA / BACHATA et quelques moments "DOUCEUR KIZOMBA" 
+
+
+  ▪️Tarifs:
+
+  - 1 cours: 10€
+
+  - 2 cours (après-midi): 18€
+
+  - 3 cours (après-midi): 25€ - entrée soirée offerte
+
+  - Entrée soirée seule: 6€
+
+  - PASS SOIRÉE (cours 21h + soirée) : 10€
+
+  -FULL PASS (4 cours+soirée): 33€
+
+
+  ▪️Moyens de paiements :
+
+  💶 espèces ✅
+
+  🏷 chèque ✅
+
+  💳 PAS DE CB ❌
+
+
+  📍Tempo Danse
+
+  13 rue des entrepreneurs
+
+  Pôle République 1
+
+  86000 POITIERS
+
+
+  ▪️Commodités/Autres :
+
+  - parking gratuit
+
+  - vestiaire gratuit
+
+  - bar (à tous petits prix) sur place
+
+  - restaurants et fast food à - de 5' en voiture
+
+  - salles climatisées, 100% parquet
+
+
+  🗓️ Prochaine date Sabor Salsa : 22/06.
+
+
+  ℹ️ Infos: tempo-danse.fr / 06 88 69 84 75
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444483/hguhak4cbgg5233twjsm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJq7OeQ3K-_UcRk5DgxRkj3pc
+international: No
+hash: 1716642000000+ChIJlVZmdLm9_UcREpMXaDSRqDc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fx3LAk9Gy3Af3yuboujy7.png?generation=1715444494516865&alt=media
+id: x3LAk9Gy3Af3yuboujy7

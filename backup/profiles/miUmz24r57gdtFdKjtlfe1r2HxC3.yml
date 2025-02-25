@@ -1,0 +1,47 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1624778171390
+createdBy: miUmz24r57gdtFdKjtlfe1r2HxC3
+name: Rene
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Rene
+pwaUsed: false
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1624778326998
+locales:
+  de: true
+  en: true
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+teacher: No
+partner: Yes
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: No
+height: "190"
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmiUmz24r57gdtFdKjtlfe1r2HxC3%2F5d30d044-d209-4290-ab71-4c267ee64fd5?alt=media&token=7f26fee1-065d-44c3-95da-7f66b2a47225
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+jobs: Yoga,Meditation
+permission: No
+lastLoginAt: 1700511686448
+daysUsed: 8
+id: miUmz24r57gdtFdKjtlfe1r2HxC3

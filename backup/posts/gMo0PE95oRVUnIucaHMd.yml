@@ -1,0 +1,166 @@
+endDate: 1719619200000
+sourceUrl: https://www.facebook.com/events/1358849778839793/
+createdAt: 1719324030602
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1719253740000
+updatedAt: 1719324030602
+importedAt: 1719324030602
+providerUpdatedAt: 1719253740000
+facebookId: "1358849778839793"
+facebook: https://www.facebook.com/events/1358849778839793/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1358849778839793/
+eventType: Party
+providerItemId: 10009073-1719532800-1719619199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Hello Summer! Salsa & Bachata Party - Győrújbarát
+location: Timaffy László Művelődési Ház és Könyvtár, Liszt Ferenc utca 9.,
+  Győrújbarát, 9081, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719532800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Győrújbarát, Liszt Ferenc utca 9., 9081 Hungary
+  website: http://www.gyorujbarat.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png
+  name: Timaffy László Művelődési Ház és Könyvtár
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.6344259197085
+        lat: 47.61178531970849
+      northeast:
+        lng: 17.6371238802915
+        lat: 47.61448328029149
+    location:
+      lng: 17.6359359
+      lat: 47.6130477
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Győrújbarát
+      long_name: Győrújbarát
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "9081"
+      long_name: "9081"
+  international_phone_number: +36 20 321 2889
+  place_id: ChIJ48hAsgrBa0cRmjP5YCEGE_o
+  url: https://maps.google.com/?cid=18019753274470118298
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719324045716
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/cubanvibesgyor
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719324046/fd17uel44sguweb7611b.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719324045716
+  owned: false
+  name: Cuban Vibes
+  place: ChIJk8Xy62vBa0cRoEseDCnEAAQ
+  updatedAt: 1719324045716
+  username: cubanvibesgyor
+claimed: No
+link: ""
+description: >-
+  Hello Summer! Salsa & Bachata Party - 2024.06.28
+
+
+  RÉSZLETES PROGRAM:
+
+  18:30 - 19:50 Bachata Workshop
+
+  20:00 - 21:00 Salsa Rueda Workshop
+
+  21:00 - 01:30 Party a legbulisabb populáris és autentikus Salsa, Timba, Son és Bachata zenékkel. Élő zenei aláfestés a hangulat fokozásáért: KongaAti
+
+
+  Célunk, hogy a Győr környéki tánciskolák is rendszeresen képviseljék magukat rendezvényünkön, ezért ez alkalommal a Salsa Cubana Auténtica tanárai, Attila és Lívi vezetésével valósul meg a bulit megelőző WS.
+
+
+  A WS-re jegyet vásárlók ajándékba kapják a Júliusi bulit megelőző WS részvételi lehetőségét.
+
+
+  - Hatalmas, 180m2 méretű tánctér
+
+  - Színvonalas Party dekoráció
+
+  - Profi hangtechnika
+
+  - Ingyenes ruhatár
+
+  - Büfé
+
+  - Közvetlenül az épület előtt és mögött 120 férőhelyes ingyenes parkoló
+
+  - Bankautomata az épület bejáratánál
+
+  - Nagy teljesítményű ventilátorok az optimális hőérzet biztosításáért
+
+  Kérjük támogasd munkásságunkat, válaszd az "ott leszek" opciót és hívd meg táncos ismerőseid az eseményre! A meghívókat kiküldő személyek közt, 06.27-én délben kisorsolunk két db VIP Party és WS belépőt.
+
+
+  Bachata Workshop: 2000Ft
+
+  Salsa Rueda Workshop: 2000Ft
+
+  A Bachata és Salsa Rueda Worksop egyben kedvezményesen: 3000Ft
+
+  Party belépő: 3000Ft
+
+
+  A rendezvényre érkező a jegy megvételével automatikusan hozzájárulását adja, hogy a rendezvényen róla hang és képanyag készülhet, amit a rendező jogosult a későbbiekben marketing vagy egyéb anyaghoz kép és / vagy hang megjelenítéssel felhasználni.
+
+  A bulin való részvétellel a résztvevők vállalják, hogy a belépéskor kapott karszalagot a távozás pillanatáig magán tartják.
+
+  Kijelentik, hogy elfogadják és betartják a helyszín házirendjét.
+
+  Az eseményre ételt és italt behozni Tilos!
+
+  A tánctérre italt bevinni Tilos!
+
+  A ingyenes ruhatár használta kötelező, az őrizetlenül hagyott értéktárgyakért a rendező nem vállal felelősséget.
+
+  A szervező a beléptetés jogát fenntartja.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324047/drx1vcsaotodzsa4vi5u.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJk8Xy62vBa0cRoEseDCnEAAQ
+international: No
+hash: 1719601200000+ChIJ48hAsgrBa0cRmjP5YCEGE_o
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgMo0PE95oRVUnIucaHMd.png?generation=1719324068436946&alt=media
+id: gMo0PE95oRVUnIucaHMd

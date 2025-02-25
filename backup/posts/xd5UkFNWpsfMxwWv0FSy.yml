@@ -1,0 +1,48 @@
+endDate:
+  _seconds: 1627151400
+  _nanoseconds: 0
+link: https://salsaclub-munich.de/kursanmeldung.php?kursid=2278
+description: |-
+  Bachata Partner Workshop ab Level 2
+  + anschließend Salsa & Bachata Party!
+
+  --> Plätze sind begrenzt <-- 
+type: event
+duration: "90"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F26b2c00a-35bc-42f6-b066-99af78dcfe10?alt=media&token=142d36b6-746f-47b9-901a-37a8f8a0bd65
+createdAt: 1625556940938
+watchersCount: 0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fxd5UkFNWpsfMxwWv0FSy.png?generation=1627036463393501&alt=media
+commentsLast: ~
+id: xd5UkFNWpsfMxwWv0FSy
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1625556940938
+address: Salsa Club Munich, Westenrieder Str 41
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+eventType: Party
+form: Yes
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+commentsCount: 0
+name: Bachata Partnerwork Workshop + Salsa / Bachata Party
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: true
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-24T17:00:00.000Z
+username: AnnaMil
+viewsCount: 1

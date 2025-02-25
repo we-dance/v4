@@ -1,0 +1,97 @@
+venue:
+  formatted_address: Meşrutiyet, Selanik Cd No:66, 06420 Çankaya/Ankara, Türkiye
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: Happy Cafe Pub Kızılay
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 32.85896418029149
+      south: 39.91606736970849
+      north: 39.91876533029149
+      west: 32.85626621970849
+    location:
+      lng: 32.8575573
+      lat: 39.9174045
+  address_components:
+    - types:
+        - street_number
+      short_name: No:66
+      long_name: No:66
+    - types:
+        - route
+      short_name: Selanik Cd
+      long_name: Selanik Caddesi
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: Meşrutiyet
+      long_name: Meşrutiyet
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Çankaya
+      long_name: Çankaya
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Ankara
+      long_name: Ankara
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+    - types:
+        - postal_code
+      short_name: "06420"
+      long_name: "06420"
+  international_phone_number: +90 530 304 07 14
+  place_id: ChIJXfiPkvpP0xQRTP--UioxxgE
+  url: https://maps.google.com/?cid=127843697273274188
+endDate: 2023-06-06T01:00
+claimed: No
+description: Ankara'da Sosyal Dans Gecesi
+program:
+  - endDate: 2023-06-06T20:00
+    name: Çalıştay
+    description: Tarraxo/Tarraxinha
+    eventType: Workshop
+    startDate: 2023-06-06T19:00
+type: event
+duration: 60
+createdAt: 1685875928205
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJsS1zINVH0xQRjSuEwLBX3As
+international: No
+updatedAt: 1685875928205
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/nova_dance_night
+  username: nova_dance_night
+eventType: Party
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    Bilal: true
+name: NOVA Dans Gecesi
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-06T19:00
+username: Bilal
+viewsCount: 2
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2Fec666fcd-c129-4ed3-b253-7f0468c9ddf5?alt=media&token=800679dc-f033-4431-b19d-970ba87f060a
+id: OCuMnF6SEuQ1layxx9Hp
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOCuMnF6SEuQ1layxx9Hp.png?generation=1685878720502271&alt=media

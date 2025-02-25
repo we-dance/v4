@@ -1,0 +1,186 @@
+venue:
+  formatted_address: Sokolovská 713/111c, 186 00 Praha 8-Invalidovna, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Sokolovská 713/111c
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4625771802915
+      south: 50.09524391970851
+      north: 50.09794188029151
+      west: 14.4598792197085
+    location:
+      lng: 14.4611739
+      lat: 50.09665510000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 111c
+      long_name: 111c
+    - types:
+        - premise
+      short_name: "713"
+      long_name: "713"
+    - types:
+        - route
+      short_name: Sokolovská
+      long_name: Sokolovská
+    - types:
+        - neighborhood
+        - political
+      short_name: Invalidovna
+      long_name: Invalidovna
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  url: https://maps.google.com/?q=Sokolovsk%C3%A1+713/111c,+186+00+Praha+8-Invalidovna,+Czechia&ftid=0x470b94a7d4492fb3:0x8114320574ddc9f7
+  place_id: ChIJsy9J1KeUC0cR98nddAUyFIE
+  username: sokolovsk713111c
+endDate: 1727035200000
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 240
+createdAt: 1726761330765
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: 100 CZK
+socialCover: ""
+artistsList: []
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  role: organiser
+  username: DjLole
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: 100% Salsa party at Bowlers
+online: No
+votes: 0
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1727020800000
+username: DjLole
+promotion: ""
+viewsCount: 1
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F43fe2f71-c7af-4a9f-84ae-c97abf3572dd?alt=media&token=961f0366-fde0-497e-ac62-7059b9af2a4b
+link: https://www.facebook.com/events/841233371466389/849369987319394
+description: >-
+  Lole & Ksenia vám s radostí představují toto nové úžasné místo pro naše další
+  salsa party (třetí edice)! 📍
+
+
+  100% salsa party!
+
+
+  🕕 18:00-19:00: Otevřená lekce (salsa linea) s Marianem (isalsa)
+
+  https://www.facebook.com/mambomario
+
+  🕖 19:00-22:00: 100% salsa party
+
+  🔊 Dj Mari + Dj Lole
+
+
+  📌Vstupné:
+
+  Lekce: 150 Kč
+
+  Párty: 150 Kč
+
+  Lekce+párty: 250 Kč
+
+
+  Těšíme se na vás! 💃🕺
+
+
+  📍Praha, Bowlers Karlín:
+
+  Sokolovská 713, 186 00 Praha 8-Invalidovna
+
+
+  -----------------------------------------------
+
+
+  Lole & Ksenia are happy to present you this new amazing place for our next salsa parties (3rd edition)! 📍
+
+
+  100% salsa party!
+
+
+  🕕 18:00-19:00: Open class (salsa linea) with Marian (isalsa)
+
+  https://www.facebook.com/mambomario
+
+  🕖 19:00-22:00: 100% salsa party
+
+  🔊 Dj Mari + Dj Lole
+
+
+  📌Entrence fee:
+
+  Lesson: 150 Kč
+
+  Party: 150 Kč
+
+  Lesson+party: 250 Kč
+
+
+  We are looking forward to see you there! 💃🕺
+
+
+  📍Prague, Bowlers Karlín:
+
+  Sokolovská 713, 186 00 Praha 8-Invalidovna
+id: 1s10kiSr4XKwmi6XLKX5
+hash: 1727020800000+ChIJsy9J1KeUC0cR98nddAUyFIE
+updatedAt: 1726761406634

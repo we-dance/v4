@@ -1,0 +1,126 @@
+venue:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  website: http://www.tanzhausemotion.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "91"
+      short_name: "91"
+    - types:
+        - route
+      long_name: Biberger Straße
+      short_name: Biberger Str.
+    - types:
+        - locality
+        - political
+      long_name: Unterhaching
+      short_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "82008"
+      short_name: "82008"
+  url: https://maps.google.com/?cid=9015721869128002009
+  name: Tanzschule München Tanzhaus emotion ADTV
+  geometry:
+    viewport:
+      south: 48.0718735697085
+      north: 48.0745715302915
+      east: 11.6214237802915
+      west: 11.6187258197085
+    location:
+      lng: 11.6200113
+      lat: 48.0733528
+  international_phone_number: +49 89 74329895
+  place_id: ChIJHS2vnMnYnUcR2WkYy0VHHn0
+endDate:
+  _seconds: 1639260000
+  _nanoseconds: 0
+claimed: Yes
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+description: >-
+  Übungsabend Salsa mit Djane Elena, Bachta mit Dj Curly und Kizomba mit Djane
+  Angelkizz. 
+
+
+  - 2G+ Regel, bitte getestet kommen 
+
+  - Begrenzte Teilnehmerzahl ohne Voranmeldung
+
+  - Vor Ort Anmeldung an der Kasse/Computer
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F44bc991b-8caf-4176-a61a-1cabc5531b18?alt=media&token=66ac496a-b3b4-46bf-9428-109603f241fe
+duration: "240"
+createdAt: 1638881875234
+watchersCount: 0
+price: 10€
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1GywSOOhgvov19Vy6uwl.png?generation=1638891589782447&alt=media
+commentsLast: ~
+promoter: Sandrdida
+id: 1GywSOOhgvov19Vy6uwl
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 20
+updatedAt: 1638881875234
+updatedBy: rCBDTQtDQnaEl1Bm3LF9WE0HVvp2
+visibility: Public
+facebook: https://www.facebook.com/events/757273845246245
+eventType: Party
+organiser: Sandrdida
+form: No
+createdBy: rCBDTQtDQnaEl1Bm3LF9WE0HVvp2
+commentsCount: 0
+name: Noche de Emoción Latina in Unterhaching
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-12-11T18:00:00.000Z
+username: Sandrdida
+viewsCount: 72

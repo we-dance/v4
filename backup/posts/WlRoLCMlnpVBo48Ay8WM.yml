@@ -1,0 +1,117 @@
+endDate: 1726869600000
+sourceUrl: https://www.facebook.com/events/387455240885202/
+createdAt: 1726581629185
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1726562205000
+updatedAt: 1726581629185
+importedAt: 1726581629185
+providerUpdatedAt: 1726562205000
+facebookId: "387455240885202"
+facebook: https://www.facebook.com/events/387455240885202/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/387455240885202/
+eventType: Party
+providerItemId: 48214-1726855200-1726869600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Laffert Kúria, Fő út 172., Dunaharaszti, 2330, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726855200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Dunaharaszti, Fő út 172, 2330 Hungary
+  website: https://www.dunaharasztikultura.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Laffert Kúria
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0805865697085
+        lat: 47.35072686970851
+      northeast:
+        lng: 19.0832845302915
+        lat: 47.3534248302915
+    location:
+      lng: 19.0819943
+      lat: 47.35205250000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "172"
+      long_name: "172"
+    - types:
+        - route
+      short_name: Fő út
+      long_name: Fő út
+    - types:
+        - locality
+        - political
+      short_name: Dunaharaszti
+      long_name: Dunaharaszti
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2330"
+      long_name: "2330"
+  place_id: ChIJzSf_UM3oQUcRYkeTvXmEyoI
+  url: https://maps.google.com/?cid=9424490828632639330
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1726581642445
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/laffertkuria
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1726581642/zjcv36eskspzvjhxx45b.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1726581642445
+  owned: false
+  name: Laffert Kúria
+  place: ChIJk8mEC9LuQUcR4CgeDCnEAAQ
+  updatedAt: 1726581642445
+  username: laffertkuria
+claimed: No
+link: ""
+description: >-
+  Szeptember 20-án 18 órától fergeteges salsa est lesz a Laffert Kúria Teraszán!
+
+  Kezdőket és haladókat egyaránt szeretettel várunk – ne hagyd ki, légy részese a tánc varázsának! Ne ijedj meg, ha sose táncoltál még, kicsit tanítunk is a kezdés előtt benneteket!
+
+  Ha elnyerte a tetszésed a salsa világa, várunk október 2-án, új kezdő kubai salsa csoportunkba Dunaharasztin!
+
+  Az órák minden szerda este 20:00 - 21:00-ig lesznek megtartva. Az első óra október 2.-án lesz, méghozzá ingyenesen.  
+
+  Miért válassz minket?  Nálunk nem csak táncolsz, hanem egy nyitott vidám csapatba érkezel. Az óráink nem futószalagon mennek, felmérjük a csoport tudását, korát és ahhoz igazítjuk, hogy a legjobb tudást adjuk át nektek. Képzett tanárok, akik szívesen elmennek veletek buliba is, haladó táncosok is jönnek és segítik az új kezdőket.
+
+  Hol találsz meg? Dunaharaszti József Attila Művelődési Házban. Egyedül, párban vagy csapatban bárhogy is jössz jól fogod magad érezni. Várunk szeretettel!
+
+  Takács Attila
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726581644/g8gxaamumsjcazjghr68.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa a teraszon
+online: No
+place: ChIJk8mEC9LuQUcR4CgeDCnEAAQ
+international: No
+hash: 1726848000000+ChIJzSf_UM3oQUcRYkeTvXmEyoI
+id: WlRoLCMlnpVBo48Ay8WM

@@ -1,0 +1,98 @@
+venue:
+  formatted_address: Kortestede 2-C, 2543 VK Den Haag, Netherlands
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Yuwa Sports
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.263936580291502
+      south: 52.03933876970851
+      north: 52.0420367302915
+      west: 4.261238619708497
+    location:
+      lng: 4.2626686
+      lat: 52.0406306
+  address_components:
+    - types:
+        - street_number
+      short_name: 2-C
+      long_name: 2-C
+    - types:
+        - route
+      short_name: Kortestede
+      long_name: Kortestede
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Escamp
+      long_name: Escamp
+    - types:
+        - locality
+        - political
+      short_name: Den Haag
+      long_name: Den Haag
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Den Haag
+      long_name: Den Haag
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: ZH
+      long_name: Zuid-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 2543 VK
+      long_name: 2543 VK
+  international_phone_number: +31 70 367 1750
+  place_id: ChIJqe1uA2ixxUcRI6Y1swvPG68
+  url: https://maps.google.com/?cid=12617906430166804003
+  username: yuwasports
+endDate: 1738085400000
+claimed: No
+program: []
+type: event
+seriesId: joQxRtVSDntb5jtu0YMW
+duration: 108060
+cover: ""
+createdAt: 1728472268282
+artists: []
+price: 7,50
+limit: "30"
+place: ChIJcb2YQi-3xUcREGwejVreAAQ
+specialOffer: "Get 10% off by signing up for 3 months "
+id: a56wyYreMaDtjQO6hM9Y
+international: No
+updatedAt: 1728472268282
+updatedBy: NAMHXz66snZtH48dqcCppjdWaZs1
+visibility: Public
+org:
+  username: berdiaz
+eventType: Other
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: NAMHXz66snZtH48dqcCppjdWaZs1
+watch:
+  count: 1
+  list:
+    berdiaz: true
+name: berdiaz
+online: No
+styles:
+  Zumba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731601800000
+hash: 1731601800000+ChIJqe1uA2ixxUcRI6Y1swvPG68
+username: berdiaz

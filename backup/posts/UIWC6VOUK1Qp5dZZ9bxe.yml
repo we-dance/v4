@@ -1,0 +1,131 @@
+venue:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  website: http://www.maillingerstudios.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Maillinger Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5473257802915
+      south: 48.1478957697085
+      north: 48.1505937302915
+      west: 11.5446278197085
+    location:
+      lng: 11.5458639
+      lat: 48.1492179
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  url: https://maps.google.com/?cid=13863343811033550901
+  international_phone_number: +49 89 36108944
+  place_id: ChIJc2-q5aJ3nkcRNdDDt759ZMA
+endDate: 2023-03-12T15:00
+claimed: No
+link: https://corduladecker.jimdofree.com
+description: |-
+  Zweitägiger Steptanzworkshop für Beginner und intermediate Level. 
+  Let´s swing and groove
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmzgzQ3FvvhNUFPI3wcVkLc8kCOJ3%2F76c36a3e-b70f-487e-9f87-06def65d3d0d?alt=media&token=1d7da74c-700a-4788-bfe5-530de6c0abb2
+duration: 60
+createdAt: 1677671502286
+price: 129,00 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - corduladecker
+international: No
+updatedAt: 1677671502286
+updatedBy: mzgzQ3FvvhNUFPI3wcVkLc8kCOJ3
+visibility: Public
+facebook: https://www.facebook.com/events/902348327858180
+eventType: Workshop
+form: No
+watch:
+  count: 1
+  list:
+    corduladecker: true
+createdBy: mzgzQ3FvvhNUFPI3wcVkLc8kCOJ3
+name: Tap in München
+online: No
+styles: {}
+startDate: 2023-03-11T10:30
+username: corduladecker
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: https://www.facebook.com/profile.php?id=100015870286401
+    name: Cordula
+    bio: Rhythm Tap dancer, Tanzpädagogin für Steptanz und Jazztanz aus Hamburg
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmzgzQ3FvvhNUFPI3wcVkLc8kCOJ3%2Fa8ef53d6-c5a0-4d00-b49b-10febc59dbb5?alt=media&token=c9370dd1-0fbd-4b30-836f-3f9044dfe66e
+    id: mzgzQ3FvvhNUFPI3wcVkLc8kCOJ3
+    instagram: https://www.instagram.com/bycordl/
+    username: corduladecker
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100015870286401
+  name: Cordula
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmzgzQ3FvvhNUFPI3wcVkLc8kCOJ3%2Fa8ef53d6-c5a0-4d00-b49b-10febc59dbb5?alt=media&token=c9370dd1-0fbd-4b30-836f-3f9044dfe66e
+  bio: Rhythm Tap dancer, Tanzpädagogin für Steptanz und Jazztanz aus Hamburg
+  instagram: https://www.instagram.com/bycordl/
+  id: mzgzQ3FvvhNUFPI3wcVkLc8kCOJ3
+  username: corduladecker
+id: UIWC6VOUK1Qp5dZZ9bxe
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FUIWC6VOUK1Qp5dZZ9bxe.png?generation=1678202618956549&alt=media
+telegram:
+  requestedAt: 1678202622816
+  messageUrl: https://t.me/WeDanceMunich/1007
+  publishedAt: 1678202626956
+  messageId: 1007
+  state: published
+instagram:
+  requestedAt: 1678202627876
+  messageUrl: https://instagram.com/p/CpfhwAUOfoo
+  publishedAt: 1678202645329
+  messageId: CpfhwAUOfoo
+  state: published
+viewsCount: 22

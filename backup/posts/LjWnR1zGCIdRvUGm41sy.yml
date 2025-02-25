@@ -1,0 +1,156 @@
+endDate: 1726358399000
+sourceUrl: https://www.facebook.com/events/502351595672581
+createdAt: 1725890443938
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725873303000
+updatedAt: 1725890443938
+importedAt: 1725890443938
+providerUpdatedAt: 1725873303000
+facebookId: "502351595672581"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/502351595672581
+eventType: Party
+providerItemId: 48036-1726272000-1726358399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Fire Étterem, Margitsziget, Budapest, 1138, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726272000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Margitsziget 1007 Hrsz-23800/8, 1007 Hungary
+  website: https://firelounge.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Fire Étterem
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.04207981970849
+        lat: 47.5145611197085
+      northeast:
+        lng: 19.0447777802915
+        lat: 47.5172590802915
+    location:
+      lng: 19.0434288
+      lat: 47.5159101
+  address_components:
+    - types:
+        - subpremise
+      short_name: 23800/8
+      long_name: 23800/8
+    - types:
+        - street_number
+      short_name: 1007 Hrsz
+      long_name: 1007 Hrsz
+    - types:
+        - route
+      short_name: Margitsziget
+      long_name: Margitsziget
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1007"
+      long_name: "1007"
+  international_phone_number: +36 70 668 9748
+  place_id: ChIJkbsfLKDdQUcRkm7jdZc6kMA
+  url: https://maps.google.com/?cid=13875654874120810130
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/DjAthosHU
+  name: Attila Kecskés
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765529/vmayamsdraokwa24bpg4.jpg
+  bio: ""
+  id: OmCzhUhFV74sWgP0ALWM
+  instagram: ""
+  username: DjAthosHU
+claimed: No
+facebook: https://www.facebook.com/events/502351595672581/
+link: ""
+description: >
+  SALSA DE MAGIA PARTY – OPEN AIR(Rossz idő esetén elmarad)
+  		
+  A táncos közönség által kedvelt Margitszigeten az egyik legromantikusabb helyszínen a FIRE ÉTTEREMBEN 09.14.-án SZOMBATON –  SALSA DE MAGIA PARTY  a legjobb latin zenékkel minden salsa rajongónak.  
+
+  Tánciskolától és tudásszinttől függetlenül szeretettel várunk.!!!
+
+
+  Budapest legjobban táncolható latin zenéi mindig az aktuális közönségre szabva.
+
+  Amire számíthatsz:
+      • 170 nm OPEN AIR TÁNCTÉR
+      • Igényesen válogatott zenék
+      • vezetett ruedák
+      • minden órában hölgyválasz 
+  Nagy többségben 65 % salsa zenék szólnak majd: 
+
+  - tradicionális kubai salsák
+
+  -  átütő timbák
+
+  - ritmusos guaguanco-k
+
+  - dallamos son-ok
+
+  - vérpezsdítő salsatone-ok
+            Színesítik a programot: - 35 %
+                            - érzéki bachata-k
+  - könnyed cha-cha-cha-k
+
+  - vidám merengue-k
+  		     - szexys kizombák
+
+  Egy biztos, keveset fogsz ülni és sokat fogsz táncolni, mert a jó buli lelke a jó zene. Az eseményen kép és hangfelvétel készülhet amihez hozzájárulsz a belépő megvásárlásával.
+
+  Program:   19 :50 -        Kapunyitás
+                       20 00   -  23.59  Buli
+
+  Belépő:    2000 Ft/fő    A belépőt csak készpénzzel tudod fizetni!
+
+  Helyszín: FIRE ÉTTEREM – MARGITSZIGET ( 4, 6 Villamos megálló 100 m)
+
+  Média támogatónk: Latinfo.hu
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890457/mp6gd2ht4camyzolsp86.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: SALSA DE MAGIA PARTY "OPEN AIR"
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1726336200000+ChIJkbsfLKDdQUcRkm7jdZc6kMA
+id: LjWnR1zGCIdRvUGm41sy

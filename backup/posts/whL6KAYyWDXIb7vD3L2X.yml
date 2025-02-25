@@ -1,0 +1,202 @@
+endDate: 1731205800000
+sourceUrl: https://www.facebook.com/events/358475383453046/?event_time_id=358475386786379
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1703465339000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1703891129000
+facebookId: "358475386786379"
+facebook: https://www.facebook.com/events/358475383453046/?event_time_id=358475386786379
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/358475383453046/?event_time_id=358475386786379
+eventType: Party
+providerItemId: e358475386786379@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Drena! London's Biggest Kizomba, Salsa & Bachata Party - 2 Rooms
+location: St John's Angell Town Church Of England Primary School
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731184200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 85 Angell Rd, London SW9 7HH, UK
+  website: http://www.st-johns.lambeth.sch.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: St John's Angell Town Primary School
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.109573330291502
+        lat: 51.4667071197085
+      northeast:
+        lng: -0.106875369708498
+        lat: 51.4694050802915
+    location:
+      lng: -0.1083824
+      lat: 51.4678487
+  address_components:
+    - types:
+        - street_number
+      short_name: "85"
+      long_name: "85"
+    - types:
+        - route
+      short_name: Angell Rd
+      long_name: Angell Road
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: SW9 7HH
+      long_name: SW9 7HH
+  international_phone_number: +44 20 7274 4847
+  place_id: ChIJE9gsXZI0cEERmMYTRo7ddp8
+  url: https://maps.google.com/?cid=11490615102413194904
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/RVdanceco
+  name: Rhythm & Vibes Dance Co - Kizomba, Salsa & Bachata Classes in London
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621885/jqvbpeem7eyrennipzmt.jpg
+  bio: ""
+  id: JDMb57PRXbnJvE2fSl7Z
+  instagram: ""
+  username: RVdanceco
+claimed: No
+link: https://rvdance.co.uk/product/drena-kizomba-nights-entry-ticket/
+description: >-
+  ★★★ DRENA! SBK PARTY ★★★
+
+  London's Biggest Kizomba Salsa & Bachata Party - 2 Rooms
+
+  - 300 dancers every month!
+
+
+  8:30PM - Doors Open
+
+  9PM - Lessons (Incl in ticket price)
+
+  - Kizomba & Salsa/Bachata Lessons:
+
+  - 3 Levels: Beg, Imp & Int/Adv
+
+  10PM-2:30AM - Party
+
+  1:30AM - STRICTLY LAST ENTRY
+
+
+  | PRICING |
+
+  - £11 Entry incl Classes - Advance booking from Website:
+
+  https://rvdance.co.uk/events-and.../kizomba-party-in-london/
+
+  - Adv booking closes 5pm day before
+
+
+  - £14 Cash on the door (CARD ONLY)
+
+  - Mandatory Coat check £1 per item
+
+
+  | VENUE |
+
+  85 Angell Road, Brixton, London, SW9 7HH
+
+  (8min walk Brixton Tube)
+
+  - Full bar & AC
+
+
+  Established for over 8 years now, Drena Party is THE must attend dance event of the month in London. TOP UK and international Dj's every month. This event is all about ENERGY, ADRENALINE, GOOD VIBES, GOOD MUSIC and GREAT PEOPLE!
+
+
+  Join us and come feel it for yourself - You will not be disappointed!
+
+
+  | FUTURE DATES |
+
+  - Sat Jan 13
+
+  - Sat Jan 27
+
+  - Sat March 2
+
+  - Sat April 6
+
+  - Sat may 4
+
+  - Sat June 1
+
+  - Sat Jul 6
+
+  - Sat Aug 3
+
+  - Sat sept 7
+
+  - Sat oct 5
+
+  - Sat Nov 9
+
+  - Sat Dec 7
+
+
+  More info? Contact Us:
+
+  Mobile/WhatsApp: 07528722813
+
+  Email: contact@rvdance.co.uk
+
+  website: www.rvdance.co.uk
+
+  Insta: www.instagram.com/rvdance_co/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417970/mqz4cumgvhybltuuadn6.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1731184200000+ChIJE9gsXZI0cEERmMYTRo7ddp8
+id: whL6KAYyWDXIb7vD3L2X

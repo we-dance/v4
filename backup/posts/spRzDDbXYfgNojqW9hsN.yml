@@ -1,0 +1,131 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13373901970849
+      north: 48.13643698029149
+      east: 11.5813456802915
+      west: 11.5786477197085
+    location:
+      lng: 11.5800076
+      lat: 48.1351427
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  international_phone_number: +49 172 8533891
+endDate:
+  _seconds: 1636673400
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: https://salsaclub-munich.de/course.php?kid=119
+description: |-
+  Salsa & Bachata Party für Schüler, Mitglieder und Gäste!
+
+  - Cocktails & Longdrings
+  - NYC Salsa, Mambo, Bachata sounds by Hakan
+
+  Veranstaltung vom Siempre Salsa e.V.
+  Es gelten die aktuellen 2G Regeln.
+type: event
+cover: ""
+duration: "240"
+createdAt: 1633789902994
+watchersCount: 0
+price: 5-10 EUR
+commentsLast: ~
+promoter: Vitali
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: spRzDDbXYfgNojqW9hsN
+international: No
+views: 18
+updatedAt: 1633789902994
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: Dq3lGZSO48OOehTqoqIX3stBM292
+commentsCount: 0
+name: Mambo Social
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-11T19:30:00.000Z
+username: SalsaClubMunich
+viewsCount: 97

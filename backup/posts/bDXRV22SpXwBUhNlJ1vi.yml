@@ -1,0 +1,172 @@
+venue:
+  formatted_address: Ctra, M-506, Km. 9, 28921 Alcorcón, Madrid, Spain
+  website: https://www.laprincesa.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: Km. 9
+      short_name: Km. 9
+    - types:
+        - route
+      long_name: M-506
+      short_name: M-506
+    - types:
+        - locality
+        - political
+      long_name: Alcorcón
+      short_name: Alcorcón
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Madrid
+      short_name: M
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Comunidad de Madrid
+      short_name: MD
+    - types:
+        - country
+        - political
+      long_name: Spain
+      short_name: ES
+    - types:
+        - postal_code
+      long_name: "28921"
+      short_name: "28921"
+  url: https://maps.google.com/?cid=15096350364600345630
+  name: Sercotel La Princesa
+  geometry:
+    viewport:
+      south: 40.3231730197085
+      north: 40.3258709802915
+      east: -3.844826019708498
+      west: -3.847523980291502
+    location:
+      lng: -3.846175
+      lat: 40.32452199999999
+  place_id: ChIJ99PWzCGMQQ0RHqTXNqwCgdE
+  international_phone_number: +34 916 48 06 65
+endDate: 2021-10-24T21:55:00.000Z
+link: https://www.salsero.es/events/7524
+description: >-
+  Presentamos la primera edición de un enorme Congreso de baile latino, centrado
+  en Salsa y Bachata, dentro de sus diferentes estilos, con algunos de los
+  mejores maestros y bailarines a nivel mundial!!!
+
+
+  Contaremos con Máster Class orientadas a la formación y perfeccionamiento de bailarines, profesores y aquellas personas que quieran seguir avanzando en su conocimiento y entendimiento del mundo del baile latino.
+
+
+  ### ARTISTAS CONFIRMADOS:
+   
+  #### SALSA:
+
+
+  - PABLITO Y SU MEZCLA LATINA
+
+  - MARCO FERRIGNO Y ANSIMA PRODUCTION
+
+  - LUIS Y ALBA
+
+  - FERNANDO ALONSO Y SU LATÍN COMBO
+
+  - AYELEN GAUNA Y STRAVAGIRLS
+
+  - ESPERANZA Y RODRIGO
+
+  - SERGIO Y GEMA
+
+  - SERGIO OSORIO Y NOE
+
+  - RONIER Y SU SALSA Y GUAGANCO
+
+  - MIGUEL Y NEL
+
+  - EIVYND Y DANIEL
+
+  - SANDRA Y JULIO
+
+  - JOSY BOLIVAR Y JULIO CHANG
+
+  - IVÁN Y SHEILA
+
+  - SERGIO Y GEMA
+
+  - TALIA Y POCHO
+
+  - ESPERANZA Y RODRIGO
+
+  - CÉSAR ESPINOSA Y MAR CAMPOS
+   
+  #### BACHATA:
+   
+  - DANIEL Y DESIREE
+
+  - LUIS Y ANDREA
+
+  - WILLY Y NOURA
+
+  - ALFREDO Y ANDREA
+
+  - GREGORY Y JESSICA
+
+  - ARLU Y FANNY
+
+  - ALBERTO CORTES
+
+  - ALBERTO Y MARTA
+
+  - MARTA Y ROI
+
+  - YEIFREN Y ELENA
+
+  - MARLEY Y LEO
+
+  - JOAN PICH Y MERY
+
+  - MIGUEL Y SUNSIRE
+   
+  MUCHAS MÁS ARTISTAS POR CONFIRMAR!!!
+
+
+  Source: https://www.salsero.es/events/7524
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4a4b60c7-35e2-4126-b48c-6560685ac910?alt=media&token=31b744ab-6585-48b6-ae63-8f8aa7c26ec8
+duration: custom
+createdAt: 1626863857782
+watchersCount: 0
+price: FROM 60EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbDXRV22SpXwBUhNlJ1vi.png?generation=1626867935636808&alt=media
+commentsLast: ~
+place: ""
+id: bDXRV22SpXwBUhNlJ1vi
+views: 19
+updatedAt: 1626863857782
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+address: Alcorcón, Madrid, España
+visibility: Public
+eventType: Festival
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: " Madrid Autumn Latin Festival"
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-22T17:00:00.000Z
+username: Promoter
+viewsCount: 21

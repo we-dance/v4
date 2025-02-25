@@ -1,0 +1,83 @@
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1677079650719
+artists: []
+artistsList: []
+international: No
+updatedAt: 1677079650719
+updatedBy: mgyB2HiDBQVKFeylFexlHnMJRCE2
+visibility: Public
+org: {}
+eventType: Workshop
+confirmation: ""
+form: No
+createdBy: mgyB2HiDBQVKFeylFexlHnMJRCE2
+watch:
+  count: 1
+  list:
+    Mihde: true
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Mihde
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmgyB2HiDBQVKFeylFexlHnMJRCE2%2F86c963e8-331c-48f1-b6e5-efd773954b5d?alt=media&token=54847eaf-9b17-4596-b564-e9059a6cec51
+venue:
+  formatted_address: Aachen, Germany
+  website: http://www.aachen.de/
+  name: Aachen
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 6.218150140958089
+      south: 50.66184879431461
+      north: 50.85723323921345
+      west: 5.974899166423778
+    location:
+      lng: 6.083886800000001
+      lat: 50.7753455
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: AC
+      long_name: Aachen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: AC
+      long_name: Aachen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Cologne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: North Rhine-Westphalia
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  url: https://maps.google.com/?q=Aachen,+Germany&ftid=0x47c0997cb08a191d:0x63a30eae0b0e444f
+  place_id: ChIJHRmKsHyZwEcRT0QOC64Oo2M
+endDate: 2023-02-25T00:30
+price: 7 EUR
+link: https://app.guestoo.de/public/event/c48e0008-dd3a-4f9a-ba6a-7563951902ef
+name: Friday swing - West Coast Swing practice
+description: |-
+  West Coast Swing Party in the dance forum!  
+   
+  Our DJane Esklaration provides music. 
+id: Nbp7CfOa3Pw8d09i62F5
+place: ChIJHRmKsHyZwEcRT0QOC64Oo2M
+startDate: 2023-02-24T20:30
+viewsCount: 8

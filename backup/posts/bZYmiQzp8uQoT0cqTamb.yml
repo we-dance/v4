@@ -1,0 +1,163 @@
+venue:
+  formatted_address: Hansastraße 44, 80686 München, Germany
+  website: https://www.0049events.de/portfolio/villa-flora/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "44"
+      short_name: "44"
+    - types:
+        - route
+      long_name: Hansastraße
+      short_name: Hansastraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Sendling-Westpark
+      short_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80686"
+      short_name: "80686"
+  url: https://maps.google.com/?cid=13241829396234539958
+  name: Event Location Villa Flora
+  geometry:
+    viewport:
+      south: 48.1302031197085
+      north: 48.1329010802915
+      east: 11.53099988029151
+      west: 11.5283019197085
+    location:
+      lng: 11.5296509
+      lat: 48.1315521
+  international_phone_number: +49 89 165244
+  place_id: ChIJ0xwfAqXYnUcRtpPieq1txLc
+endDate: 2021-10-03T15:00:00.000Z
+description: >-
+  ¡Bienvenidos a Latinoamérica! Das Lateinamerikanische Wochenende kommt zurück
+  nach München. Zusammen mit Munich de Noche verwandeln wir vom Fr, 01.10. – So,
+  03.10.21 die Villa Flora in die Hauptstadt Lateinamerikas. Freut euch auf das
+  Kulturfests mit DJs, Folklore Shows, Live Musik & individuellen Ständen aus
+  Foodstrucks und Artesania.
+
+
+  ❌ VVK TICKETS: https://bit.ly/2UZPwr3
+
+
+  Die denkmalgeschützte Villa Flora im Münchener Stadtbezirk Sendling-Westpark ist mit ihrem wunderschönen Innen- und Außenbereich ein perfekter Ort um neue Kulturen kennen zu lernen, ins Gespräch zu kommen und bei schöner Atmosphäre Essen und leckere Drinks zu genießen.
+
+  Einzelheiten zu den Ausstellern, Food Trucks und dem Rahmenprogramm folgen in den kommenden Wochen. Wir freuen uns auf euch!
+
+
+  TICKETS / KARTENVORVERKAUF
+
+  https://bit.ly/2UZPwr3
+
+  👉🏻 Kinder bis 12 Jahren zahlen keinen Eintritt!
+
+  👉🏻 Der Einlass erfolgt nur mit einem Nachweis, dass ihr geimpft, getestet (Antigen Schnelltest reicht aus) oder genesen seid.
+
+  👉🏻 Laut aktueller Corona Verordnung darf auf dieser Veranstaltung ohne Maske getanzt werden 💃 Eine Maske muss lediglich im Innenbereich zum Benutzen der Toiletten getragen werden.
+
+
+  Die Besucherzahl ist stark limitiert. Es stehen folgende Zeit Slots zur Verfügung, zu welchen ihr Karten reservieren könnt
+
+
+  Sa, 02.10.21:
+
+  12:00 – 16:45 Uhr
+
+  17:15 – 22:00 Uhr
+
+  So, 03.10.21:
+
+  12:00 – 16:45 Uhr
+
+  16:15 – 20:00 Uhr
+
+
+  www.lateinamerikanischeswochenende.de
+type: event
+duration: custom
+cover: ""
+createdAt: 1633175378063
+watchersCount: 0
+price: 5-10 EUR
+commentsLast: ~
+id: bZYmiQzp8uQoT0cqTamb
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 6
+updatedAt: 1633175378063
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Lateinamerikanisches Wochenende in der Villa Flora
+online: No
+styles:
+  SalsaCalena:
+    level: Interested
+    selected: true
+  RumbaColumbia:
+    level: Interested
+    selected: true
+  Merengue:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-03T10:00:00.000Z
+username: Vitali
+viewsCount: 17

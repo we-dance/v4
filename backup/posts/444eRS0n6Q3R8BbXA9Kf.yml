@@ -1,0 +1,105 @@
+venue:
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  website: http://www.salsa-mas.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  international_phone_number: +49 172 8216569
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+endDate: 2022-03-07T19:15
+claimed: No
+link: https://salsamas-pasing.de/de/course/details/357
+description: Der Schwerpunkt in diesem Kurs liegt in der Drehtechnik und in dem
+  Kontaktaufbau zwischen den Tanzpartnern. Die Grundelemente werden ausgebaut
+  (Inside Turn, Outside Turn). Drei Monate lang ist die empfohlene Besuchszeit –
+  es werden immer neue Figuren und Kombinationen gezeigt. Mit dem Abschluss des
+  Beginner III seid Ihr gut auf die Herausforderung vorbereitet, die auf Euch in
+  der Mittelstufe I wartet.
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F4baaf5b7-bb7e-47b9-984f-4e29036bed4e?alt=media&token=5912b780-e61f-4cbc-9ec4-21b63917e438
+createdAt: 1646049451996
+artists: []
+price: "Einzelanmeldung: 79 € p. Person (4x 75 Min.) / Studenten: 69 € p. Person"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646049451996
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+name: Salsa Beginner III
+online: Yes
+startDate: 2022-02-28T18:00
+username: Salsamas_Munich
+styles:
+  SalsaLA:
+    level: Beginner
+    highlighted: false
+    selected: true
+id: 444eRS0n6Q3R8BbXA9Kf
+viewsCount: 25

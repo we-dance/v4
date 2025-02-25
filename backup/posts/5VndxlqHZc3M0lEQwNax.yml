@@ -1,0 +1,149 @@
+isNew: true
+facebookId: "837435271869059"
+facebookUrlsList:
+  - https://www.facebook.com/events/837435271869059/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730473247997
+updatedAt: 1730473247997
+importedAt: 1730473247997
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48605-1730651400-1730658600@latinfo.hu
+providerCreatedAt: 1729753452000
+providerUpdatedAt: 1729753452000
+startDate: 1730651400000
+endDate: 1730658600000
+facebook: https://www.facebook.com/events/837435271869059/
+sourceUrl: https://www.facebook.com/events/837435271869059/
+location: VOKE Kodály Zoltán Művelődési Ház, Csengery út 67., Nagykanizsa, 8800,
+  Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "67"
+      short_name: "67"
+      types:
+        - street_number
+    - long_name: Csengery út
+      short_name: Csengery út
+      types:
+        - route
+    - long_name: Nagykanizsa
+      short_name: Nagykanizsa
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "8800"
+      short_name: "8800"
+      types:
+        - postal_code
+  formatted_address: Nagykanizsa, Csengery út 67, 8800 Hungary
+  geometry:
+    location:
+      lat: 46.44615
+      lng: 16.990808
+    viewport:
+      northeast:
+        lat: 46.4475242802915
+        lng: 16.9920292802915
+      southwest:
+        lat: 46.4448263197085
+        lng: 16.9893313197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +36 30 945 5915
+  name: VOKE Kodály Zoltán Művelődési Ház
+  place_id: ChIJ-S_Tp6GTaEcRE0W6jIONy60
+  url: https://maps.google.com/?cid=12523258784975045907
+  website: http://kodalymk.hu/
+visibility: Public
+org:
+  id: pCGuXxxnBYlGMoDiLl8X
+  username: salsa.corazon.es.kiz
+  name: Salsa Corazón és Kizomba Fan Klub
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720533653/kljygc7lnmbfvjargq8z.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/people/Salsa-Coraz%C3%B3n-%C3%A9s-Kizomba-Fan-Klub/100063530830542/
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  KIZOMBA VASÁRNAP DÉLUTÁN !  
+
+  Bevezetés a KIZOMBA világába!
+
+   Elhozzuk nektek Angolát Nagykanizsára ,egy délután erejéig .  
+
+   2024.November 03. délután nálunk oktat egyenesen A KIZOMBA szűlöhazájából Angolából érkező                                        VLADIMIR IZOMBA  & HAMVAS NIKOLETT  (BP.)          
+
+   Szeretettel várunk mindenkit tánciskolától függetlenül.  
+
+  Ajánljuk mindenkinek teljesen kezdőtől a haladó szintig!  
+                                                     
+   Kihagyhatatlan délutánnak nézünk elébe!   
+
+  Helyszín:Nagykanizsa VOKE Kodály Z. Műv. Ház Csengery utca 67.                                                       Időpont : 2024 11.03.  
+                             
+  12:30 érkezés,regisztráció                  
+
+  13:00 1.Workshop     Kizomba teljesen az alapoktól                                                        
+   14:40 2.Workshop      Óra végére eljutunk a Sembáig                                                        
+   16:20-18:30 Gyakorló buli 100% KIZOMBA  minden résztvevő már tudni fog annyit,hogy gyakoroljon,bulizzon ;)
+
+  Előzetes regisztráció szükséges !
+
+
+  https://docs.google.com/forms/d/15xW27rLNupunRh8CAoic3UQ5vBnaHtjrYn8TnRj2URE/edit
+                                            
+   Az esemény díja 
+
+  Október 26.-től 12.000 Ft/ Fő (30 euro )
+
+  Helyszínen 14.000 Ft/ Fő  ( 35 euro )                                    
+
+  Fizetés kedd esténkét az óráinkon, 
+
+  vidékről érkező vendégeink  e-mail-ben kapnak értesítést a fizetés módjáról.                                                                               
+
+
+  A délután batyus enni-inni való hozható,lesz közös asztal is.                                                  
+
+
+  Szükséges még magadon ,kiváncsiságodon,mosolyodon,és táncos lábaidon kívűl váltócipőre,kis törölközőre,csere polóra,illetve felsőre .                         
+
+
+  A rendezvényen kép és videófelvételek készülnek,a felvételeken való megjelenésedhez jelenléteddel automatikusan hozzájárulsz. 
+
+
+  Szeretettel sok sok zenével és tánccal várunk !        
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730473274/qmmcqhf2qqiiddqpqh0h.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: KIZOMBA SUNDAY Workshop & Party | Nagykanizsa
+online: No
+place: ChIJ6VsHHAaTaEcRsBIeDCnEAAQ
+international: No
+hash: 1730633400000+ChIJ-S_Tp6GTaEcRE0W6jIONy60
+id: 5VndxlqHZc3M0lEQwNax

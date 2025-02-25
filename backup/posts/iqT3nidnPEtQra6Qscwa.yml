@@ -1,0 +1,138 @@
+claimed: No
+link: https://docs.google.com/forms/d/1HEnhRAW4Lmq4K5NJSn1gjd9hKDH4xXr-CMEupxAsoyU/edit?chromeless=1&fbclid=IwAR0_BoNsiCg9rU5-a1KquPuy_u1FRG-OxwfF8-oJ3SDE9DlnWW8zHoIdqgg
+type: event
+duration: 60
+createdAt: 1657548456850
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1657548456850
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+facebook: https://www.facebook.com/events/802694277557956/?ref=newsfeed
+form: No
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Bachata Intermediate Workshop
+online: No
+username: AnnaMil
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F8345edf5-e18b-4707-8f34-bdf425a387fc?alt=media&token=c8e9e938-2ea3-4061-a572-f75c882179ac
+promo: Yes
+venue:
+  formatted_address: Anglerstraße 8, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  name: Tanzstudio Rebecca
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365934802915
+      south: 48.13275651970849
+      north: 48.13545448029149
+      west: 11.5338955197085
+    location:
+      lng: 11.5351479
+      lat: 48.13409019999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  place_id: ChIJtabxvibZnUcRX-oFt5hYhVs
+  international_phone_number: +49 176 24414498
+  url: https://maps.google.com/?cid=6594774642282850911
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Rubén Chagas
+    bio: |-
+      Fantasy Illustrator, Concept Artist; sometimes, dancer.
+      Spanish based in Munich 🇪🇦🇩🇪
+      #artist #illustrator #eroticart #digitalartist #dancer
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fruben.chagas.diaz.png?generation=1655307014763499&alt=media
+    id: M1KYDMTwNWtZM1FJazDK
+    instagram: https://instagram.com/ruben.chagas.diaz
+    username: ruben.chagas.diaz
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    instagram: https://instagram.com/milite_anna
+    username: AnnaMil
+price: 15 EUR
+description: >-
+  Bachata Intermediate Workshop
+
+
+  We are going to explain Fundamental Techniques and how to use them to create your own figure  - let us inspire you 💃
+artistsList:
+  - ruben.chagas.diaz
+  - AnnaMil
+id: iqT3nidnPEtQra6Qscwa
+eventType: Workshop
+startDate: 2022-07-24T14:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FiqT3nidnPEtQra6Qscwa.png?generation=1657548617469145&alt=media
+endDate:
+  _seconds: 1658667600
+  _nanoseconds: 0
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 13

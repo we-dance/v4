@@ -1,0 +1,35 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626270846218
+locales:
+  de: true
+createdBy: ymbTPOgFykgdO7qpqd8OGctrodM2
+name: Naim
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Naim
+pwaUsed: false
+gender: Male
+partner: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FymbTPOgFykgdO7qpqd8OGctrodM2%2F792c3550-8bbb-4c7e-81cf-622c9064ac21?alt=media&token=55422b7c-1e85-45fd-8d5c-b651a7093e2e
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+height: "180"
+updatedAt: 1626271297868
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+story: Dancing ist the Language of the soul
+bio: Dancing is the language of the soul
+daysUsed: 9
+lastLoginAt: 1631983074380
+id: ymbTPOgFykgdO7qpqd8OGctrodM2

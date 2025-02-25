@@ -1,0 +1,134 @@
+createdAt: 1704822891334
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1612894962571680/
+source: facebook
+username: wedancebot
+visibility: Public
+endDate: 1720414800000
+org:
+  owner: ""
+  importedAt: 1704822894442
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BenidormSalsaCongress
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/315028213_489976896496316_93355697110810980_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=596444&_nc_ohc=c5tvjWc1U9EAX_ivVC7&_nc_ht=scontent-iad3-1.xx&oh=00_AfDJyvC_Xp2sOnnDSGb9dEoyZd_q5cpJuJOH2xoErotkag&oe=65A1F0F5
+  source: facebook
+  type: Organiser
+  createdAt: 1704822894442
+  owned: false
+  name: Benidorm Summer Festival
+  place: ChIJw3UlptwEYg0RtW7yDwypnyE
+  updatedAt: 1704822894442
+  username: BenidormSalsaCongress
+claimed: No
+facebookId: "1612894962571680"
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Benidorm Summer Festival 2024
+online: No
+styles: {}
+place: ChIJw3UlptwEYg0RtW7yDwypnyE
+international: No
+hash: 1719990000000+ChIJgbqlT6MbYg0RW7d1XG8nzsk
+startDate: 1719990000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKM2HU1kK9CgcNtlLyRLA.png?generation=1704822909298977&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853099/yuhimv5lxtsm4rx8wl9h.jpg
+star:
+  count: 0
+  usernames: []
+  history:
+    - username: alexrazbakov
+      date: 1711878392317
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1711878421685
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+venue:
+  formatted_address: Gran Bali Hotel, 03502 Benidorm, Alicante, Spain
+  website: http://www.benidormsummerfestival.com/
+  name: Benidorm Summer Festival - Sede Gran Hotel Bali
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.125019230291502
+        lat: 38.5398108197085
+      northeast:
+        lng: -0.122321269708498
+        lat: 38.5425087802915
+    location:
+      lng: -0.1236834
+      lat: 38.5411594
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Gran Bali Hotel
+      long_name: Gran Bali Hotel
+    - types:
+        - locality
+        - political
+      short_name: Benidorm
+      long_name: Benidorm
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: A
+      long_name: Alicante
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "03502"
+      long_name: "03502"
+  international_phone_number: +34 640 02 67 29
+  place_id: ChIJgbqlT6MbYg0RW7d1XG8nzsk
+  url: https://maps.google.com/?cid=14541603606071981915
+  username: www.benidormsummerfestival.com
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+link: https://www.benidormsummerfestival.com/
+description: >-
+  🏖 Benidorm Summer Festival
+
+  🏨 Gran Hotel Bali****
+
+  🗓 3 al 7 de julio 2024
+
+
+  Muy pronto toda la información, estamos trabajo, gracias por la paciencia.
+
+
+  All the information will be coming soon, we are working, thank you for your patience.
+
+
+  Benidorm a ti te llama!
+
+
+  Instagram: @benidormsummerfestival
+
+  Te: +34 640 026 729
+id: KM2HU1kK9CgcNtlLyRLA
+updatedAt: 1711878751338
+bookmarks: 1
+viewsCount: 280

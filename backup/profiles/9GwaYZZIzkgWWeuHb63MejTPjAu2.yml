@@ -1,0 +1,72 @@
+createdAt: 1598343660175
+createdBy: 9GwaYZZIzkgWWeuHb63MejTPjAu2
+skills: "Salsa cubana,advanced "
+languages: "German,Russian, Italiano "
+name: "Ekaterina "
+location:
+  country: Deutschland
+  latitude: 48.1351253
+  locality: München
+  usedGps: false
+  place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  longitude: 11.5819805
+username: Katja
+newsletter:
+  festival: true
+  party: true
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Tuesday: true
+intro: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+city: Munich
+community: Munich
+type: Dancer
+visibility: Members
+language: de
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+hometown: ChIJybDUc_xKtUYRTM9XV8zWRD0
+locales:
+  de: true
+  ru: true
+  it: true
+partner: No
+objectives:
+  outdoors: true
+  indoors: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9GwaYZZIzkgWWeuHb63MejTPjAu2%2F0fe24185-53c1-43e8-a854-12fc9d8a5034?alt=media&token=48ec1762-7dd7-4a26-ab45-f7a625e19f8b
+gender: Female
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: true
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: true
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: true
+    selected: true
+cities:
+  ChIJybDUc_xKtUYRTM9XV8zWRD0: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+step: photo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FKatja.png?generation=1628199922235344&alt=media
+contacts: ""
+pwaUsed: true
+bannerNps: no
+bannerV3Beta: no
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+viewsCount: 89
+lastLoginAt: 1720013975189
+daysUsed: 125
+bookmarks:
+  - bFeIVzvos5FYyyAUPGX4
+updatedAt: 1720014050766
+id: 9GwaYZZIzkgWWeuHb63MejTPjAu2

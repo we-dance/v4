@@ -1,0 +1,168 @@
+endDate: 1715990400000
+sourceUrl: https://www.facebook.com/events/1429494307685441/
+createdAt: 1715444433114
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1714982112000
+updatedAt: 1715444433114
+importedAt: 1715444433114
+providerUpdatedAt: 1714982112000
+facebookId: "1429494307685441"
+facebook: https://www.facebook.com/events/1429494307685441/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1429494307685441/
+eventType: Party
+providerItemId: 10008810-1715904000-1715990399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa & Bachata Party - Győrújbarát
+location: Timaffy László Művelődési Ház és Könyvtár, Liszt Ferenc utca 9.,
+  Győrújbarát, 9081, Magyarország
+startDate: 1715904000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Győrújbarát, Liszt Ferenc utca 9., 9081 Hungary
+  website: http://www.gyorujbarat.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png
+  name: Timaffy László Művelődési Ház és Könyvtár
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.6344259197085
+        lat: 47.61178531970849
+      northeast:
+        lng: 17.6371238802915
+        lat: 47.61448328029149
+    location:
+      lng: 17.6359359
+      lat: 47.6130477
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Győrújbarát
+      long_name: Győrújbarát
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "9081"
+      long_name: "9081"
+  international_phone_number: +36 20 321 2889
+  place_id: ChIJ48hAsgrBa0cRmjP5YCEGE_o
+  url: https://maps.google.com/?cid=18019753274470118298
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444459405
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Cuban-Vibes/61558310409461/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444459/kkzs6ijfqrxs1ao57u0p.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444459405
+  owned: false
+  name: Cuban Vibes
+  place: ChIJk8Xy62vBa0cRoEseDCnEAAQ
+  updatedAt: 1715444459405
+  username: CubanVibes
+claimed: No
+link: ""
+description: >-
+  
+  RÉSZLETES PROGRAM:
+
+
+  -18:00 - 19:20 Kezdő Salsa tanítás Futó Károly vezetésével
+
+
+  -19:30 - 21:00 Timba Workshop Szeri Timivel
+
+  SZERI TIMI WORKSHOPJÁN A RÉSZTVEVŐK SZÁMA MAXIMUM 60 FŐ! JEGYVÁSÁRLÁS A SZERVEZŐNÉL, HELYSZÍNI JEGYEK CSAK ABBAN AZ ESETBEN LESZNEK ELÉRHETŐK, HA ELŐZETESEN NEM TÖLTJÜK FEL A LÉTSZÁMOT.  A WS-RE JEGYET VÁSÁRLÓK AJÁNDÉKBA KAPJÁK A SORON KÖVETKEZŐ BULI ELŐTTI WS RÉSZVÉTELI LEHETŐSÉGÉT.
+
+
+  -21:00 - 02:00 Party Janelys Fernandez Diaz kubai származású énekesnővel, élő zenei aláfestés a hangulat fokozásáért: KongaAti
+
+
+  - Hatalmas, 180m2 méretű tánctér
+
+  - Színvonalas Party dekoráció
+
+  - Profi hangtechnika
+
+  - Ingyenes ruhatár
+
+  - Büfé
+
+  - Közvetlenül az épület előtt és mögött 120 férőhelyes ingyenes parkoló
+
+  - Bankautomata az épület bejáratánál
+
+  - Nagy teljesítményű ventilátorok az optimális hőérzet biztosításáért
+
+
+  Kérjük támogasd munkásságunkat, válaszd az "ott leszek" opciót és hívd meg táncos ismerőseid az eseményre! A meghívókat kiküldő személyek közt, 05.16-án délben kisorsolunk két db VIP Party és WS belépőt.
+
+
+  Kezdő Salsa: 3000Ft
+
+  Timba Workshop: 3000FT
+
+  Kezdő Salsa + Party: 4500Ft
+
+  Timba Workshop + Party: 6000Ft
+
+  Party belépő: 3000Ft
+
+
+
+  A rendezvényre érkező a jegy megvételével automatikusan hozzájárulását adja, hogy a rendezvényen róla hang és képanyag készülhet, amit a rendező jogosult a későbbiekben marketing vagy egyéb anyaghoz kép és / vagy hang megjelenítéssel felhasználni.
+
+  A bulin való részvétellel a résztvevők vállalják, hogy a belépéskor kapott karszalagot a távozás pillanatáig magán tartják.
+
+  Kijelentik, hogy elfogadják és betartják a helyszín házirendjét.
+
+  Az eseményre ételt és italt behozni Tilos!
+
+  A tánctérre italt bevinni Tilos!
+
+  A ingyenes ruhatár használta kötelező, az őrizetlenül hagyott értéktárgyakért a rendező nem vállal felelősséget.
+
+  Kevesebb jelenjen meg
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444461/idt0uhjuevjtxjvtasr6.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJk8Xy62vBa0cRoEseDCnEAAQ
+international: No
+hash: 1715972400000+ChIJ48hAsgrBa0cRmjP5YCEGE_o
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fx1RCFAtwdlSgDEWywTGH.png?generation=1715444478871480&alt=media
+viewsCount: 2
+id: x1RCFAtwdlSgDEWywTGH

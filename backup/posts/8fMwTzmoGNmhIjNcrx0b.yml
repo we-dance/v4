@@ -1,0 +1,136 @@
+endDate: 1716080400000
+sourceUrl: https://www.facebook.com/events/2069734310044123/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1696358005000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1712381860000
+facebookId: "2069734310044123"
+facebook: https://www.facebook.com/events/2069734310044123/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2069734310044123/
+eventType: Party
+providerItemId: e2069734310044123@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Maastricht Salsa Gala Sat. 18 May 2024
+location: Venue 68
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716055200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Olympiaweg 68, A02, 6225 XX Maastricht, Netherlands
+  website: http://www.venue68.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Venue 68
+  geometry:
+    viewport:
+      southwest:
+        lng: 5.718343019708498
+        lat: 50.8555539697085
+      northeast:
+        lng: 5.721040980291503
+        lat: 50.8582519302915
+    location:
+      lng: 5.719632400000001
+      lat: 50.85697560000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: A02
+      long_name: A02
+    - types:
+        - street_number
+      short_name: "68"
+      long_name: "68"
+    - types:
+        - route
+      short_name: Olympiaweg
+      long_name: Olympiaweg
+    - types:
+        - locality
+        - political
+      short_name: Maastricht
+      long_name: Maastricht
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Maastricht
+      long_name: Maastricht
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: LI
+      long_name: Limburg
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 6225 XX
+      long_name: 6225 XX
+  place_id: ChIJIQdHI_LpwEcRGBdrmOojuTE
+  url: https://maps.google.com/?cid=3582934469036414744
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Salsila2013
+  name: Salsila DANCE Company
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224713/ok1crgyonrv33gontgf7.jpg
+  bio: ""
+  id: 8uC9lMVU5TAAry3qprjO
+  instagram: ""
+  username: Salsila2013
+claimed: No
+link: ""
+description: |-
+  💢💢 2 Workshops 💢💢
+
+  ➡️20h Workshop of Bachata with Khalid and Lindsay
+
+  ➡️21h Workshop of Kizomba with James thomas and Jenny
+
+  ➡️22h-3h Party SBK with
+                    ✳️ DJ Tonton 
+                    ✳️ DJ Kalypso
+
+
+  Entrance: 10 € for workshop(s) and/or party
+  ⚠️⚠️⚠️NEVER PRE-SALE TICKET⚠️⚠️⚠️
+  Parking free 🚗
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131876/cn5ofd1bjp0d7btzccot.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJnwZBWOzpwEcRbqi-zHuV61M
+international: No
+hash: 1716055200000+ChIJIQdHI_LpwEcRGBdrmOojuTE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F8fMwTzmoGNmhIjNcrx0b.png?generation=1714131896827425&alt=media
+id: 8fMwTzmoGNmhIjNcrx0b

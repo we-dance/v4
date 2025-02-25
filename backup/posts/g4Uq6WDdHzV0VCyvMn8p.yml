@@ -1,0 +1,155 @@
+venue:
+  website: http://www.tollwood.de/
+  formatted_address: Spiridon-Louis-Ring 100, 80809 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Tollwood Sommerfestival
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5494145302915
+      south: 48.1656278197085
+      north: 48.1683257802915
+      west: 11.5467165697085
+    location:
+      lng: 11.5483169
+      lat: 48.1670372
+  address_components:
+    - types:
+        - street_number
+      short_name: "100"
+      long_name: "100"
+    - types:
+        - route
+      short_name: Spiridon-Louis-Ring
+      long_name: Spiridon-Louis-Ring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neuhausen-Nymphenburg
+      long_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80809"
+      long_name: "80809"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Faceef191-de26-4884-a9bd-5d4ec9398b1c?alt=media&token=ef0df94a-9bfe-416b-a11f-660a9070f79b
+  place_id: ChIJScoz_9R3nkcR6_MWFSdI6bQ
+  url: https://maps.google.com/?cid=13036029929095361515
+  international_phone_number: +49 89 3838500
+  room: Half Moon Bar (6)
+endDate: 2022-07-07T22:00
+claimed: No
+link: https://www.tollwood.de/en/veranstaltungen/2022/fusion-dance-monday/202207041900/
+description: >-
+  Salsa, Reggaeton, Bachata, Afro & HipHop – the week starts with the motto
+  “move & feel awesome!” with Laura del Vecchio and DJ Mel.
+
+
+  Come by and dance along – here you can have a little taster course free of charge.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F46d6f60a-6bf3-4729-a26f-2c9044dad5a6?alt=media&token=2fd813fd-c23c-417e-a404-208b05293cd0
+duration: 60
+createdAt: 1656447608638
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Laura Del Vecchio
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F940a7ab4-a7df-445c-a0f3-70e7a65a6c4a?alt=media&token=23669c3d-2ddf-4b92-b2c8-87112b072fbf
+    bio: |-
+      Del Vecchio Dance - Dance Studio
+      Dance/Fitness/Lifestyle/Mindsetinspiration
+    id: 6cksnCDd4uBaP3LZOhkG
+    instagram: https://instagram.com/laura.delvecchio87
+    username: laura.delvecchio87
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ MEL
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fe67adf54-8e67-4d05-9eea-c151fc279610?alt=media&token=cc8e3397-9870-4bfe-b469-83704c8d6e3e
+    bio: DJ, Eventmanager 🇵🇪💃🏻🕺🏼
+    id: oSg1TkXwg1Vw4XlEbDEPEQw3ONz1
+    instagram: https://www.instagram.com/dj_mel_m/
+    username: melmori
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - laura.delvecchio87
+  - melmori
+international: No
+updatedAt: 1656447608638
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Tollwood Festival
+  bio: >-
+    📆 Tollwood Sommerfestival: 16.06. - 17.07.2022
+
+
+    🎪Kunst, Kultur, Kulinarik, sowie starkes Engagement für Mensch, Tier und Umwelt.
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6b55206e-9de5-4a73-8779-23f3ee19efe2?alt=media&token=a861706c-e4d3-4799-9dbd-bc9929390218
+  id: GrtagWpvmxSFpFr8pf8C
+  instagram: https://instagram.com/tollwoodfestival
+  username: tollwoodfestival
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Fusion Dance Monday
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-04T19:00
+username: alexrazbakov
+viewsCount: 17
+id: g4Uq6WDdHzV0VCyvMn8p

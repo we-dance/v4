@@ -1,0 +1,68 @@
+createdAt: 1719487974180
+website: https://www.ulmerstuben.de/
+rooms: ""
+address:
+  formatted_address: Adolph-Kolping-Platz 11, 89073 Ulm, Germany
+  website: https://www.ulmerstuben.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Ulmer Stuben
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.984013469708497
+        lat: 48.3942010697085
+      northeast:
+        lng: 9.986711430291502
+        lat: 48.39689903029149
+    location:
+      lng: 9.9854671
+      lat: 48.395542
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Adolph-Kolping-Platz
+      long_name: Adolph-Kolping-Platz
+    - types:
+        - locality
+        - political
+      short_name: Ulm
+      long_name: Ulm
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Ulm
+      long_name: Kreisfreie Stadt Ulm
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: TÜ
+      long_name: Tübingen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "89073"
+      long_name: "89073"
+  url: https://maps.google.com/?cid=14932863090821373450
+  international_phone_number: +49 162 6558877
+  place_id: ChIJZ6kVrpxmmUcRCh7zB90vPM8
+gender: Other
+phone: +49 162 6558877
+name: Hotel Ulmer Stuben
+updateAt: 1719487974180
+type: Venue
+map: ""
+username: www.ulmerstuben.de
+id: RnJuMyNRDh94EAeZ59ch

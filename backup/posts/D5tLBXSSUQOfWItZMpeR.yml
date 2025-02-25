@@ -1,0 +1,239 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/live-2-mambo-2-weekends-edition/
+sourceUrl: https://facebook.com/events/380105148062829
+venue:
+  address_components:
+    - long_name: "9"
+      short_name: "9"
+      types:
+        - street_number
+    - long_name: Erzsébet körút
+      short_name: Erzsébet krt.
+      types:
+        - route
+    - long_name: VII. kerület
+      short_name: VII. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1073"
+      short_name: "1073"
+      types:
+        - postal_code
+  formatted_address: Budapest, Erzsébet krt. 9, 1073 Hungary
+  geometry:
+    location:
+      lat: 47.498532
+      lng: 19.070432
+    viewport:
+      northeast:
+        lat: 47.49987583029149
+        lng: 19.0717092802915
+      southwest:
+        lat: 47.49717786970849
+        lng: 19.0690113197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +36 1 886 6111
+  name: Anantara New York Palace Budapest Hotel
+  place_id: ChIJYUYX_WbcQUcRnvSLTnINJoU
+  url: https://maps.google.com/?cid=9594370840754648222
+  website: https://www.anantara.com/en/new-york-palace-budapest?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb
+endDate: 1739170800000
+claimed: No
+link: ""
+description: >-
+  ✨✨Budapest, is your dreamy Mambo Vacation✨✨
+
+
+  🟥 Frame Link Here https://wannadance.com/frame-me/live2mambo-2025-budapest/
+
+
+  **Scroll Down for Lineup!** 
+
+
+  As you all know, this year we reached the maximum capacity of Live 2 Mambo, and we had to apologize to many for not being able to attend. 
+   
+  The reason we started to do these events is to promote Mambo, the dance we love. Giving it the exclusive feeling was never the intention. On the other hand maintaining the quality is very important to all of us. 
+
+
+  So after a lot of brainstorming we have decided to extend L2M 2025 over 2 weekends! The 1st and 2nd weekends of February 2025. 
+
+
+  Here are the highlights: 
+   - That means, the event will be held 30th January to 10th February 2025, including the first and second weekend of February 
+  - We will limit the capacity of each weekend even more than last event.  
+
+  - The idea is to have more people, so we want different people to attend in each weekend, however, you still can get passes for both weekends, it's just that we expect 70% different people at least to attend the second weekend. 
+
+  - How to choose which weekend? The first weekend will have more social dancing hours, fewer workshops (still yet by world renown artists), and no shows. The second weekend will be more packed with workshops and shows and the same amount of dancing hours like the last event. 
+
+  - Of course, we will have a program for the weekdays in between. We are already finalizing with some amazing artists who can stay after the first weekend and provide workshops / bootcamp Monday till Thursday with the possibility to plan bootcamp performances in the 2nd weekend. 
+
+  - Some artists and DJs will stay for both weekends, and some will change making it more dynamic while working with more amazing talents 
+
+  - This way, we have more people to join Live 2 Mambo, without compromising quality by looking for a bigger venue. Because let's be honest, there is no venue as pretty as the one we have now, and it is where we started and it's where we always want to be. 
+
+  - We will open passes sales earlier than usual to allow interested people to plan the 10 days mambo vacation in Budapest ❤️
+
+  - Last but not least.. to maintain balance and dancers quality, at some threshold point, we will do like we did for Live 2 Mambo by removing the passes sales from public catalog, and giving advanced dancers the priority to get passes. While we support and encourage more people to start learning our beloved dance. We feel that our mission here is maintain high quality dancing for the people who inspire their own local communities. 
+
+
+  ✨✨✨✨✨LINEUP✨✨✨✨✨
+
+  *****First Weekend (Society)*****
+
+  Artists: 
+
+  Iroko Dance Academy
+
+  Bersy Cortez
+
+  Michelle Morales and Brandon Ayala
+
+  Talal & Edyta
+
+  ----------------------------
+
+  DJs:
+
+  Dmitri
+
+  Martina
+
+  Sabha
+
+  OJ
+
+  Anael
+
+  Shems
+
+  Asmadi
+
+  ----------------------------
+
+  *****Weekdays Monday to Thursday (Carnaval)*****
+
+  Artists: 
+
+  Iroko Dance Academy
+
+  Edyta
+
+  ----------------------------
+
+  DJs:
+
+  Dmitri
+
+  Sabha
+
+  Evita
+
+  Anas
+
+  ----------------------------
+
+  *****Second Weekend (Ultimacy)*****
+
+  Artists: 
+
+  Adolfo and Tania
+
+  Terry and Cecile
+
+  Mouaze Konate
+
+  Panagiotis & Myrto
+
+  Talal & Edyta
+
+  Katrin Lerner
+
+  Samuel & Lisa
+
+  Alicia Velasco
+
+  Fabrizio & Giulia
+
+  Marco Faravelli
+
+  Natasha Chuma
+
+  Jai & Lillu
+
+  ----------------------------
+
+  DJs:
+
+  Dmitri
+
+  Sabha
+
+  Martina
+
+  Alexio
+
+  Vincent 
+
+  Tony Crossbody
+
+  Evita
+
+  ✨✨✨✨✨END OF LINEUP✨✨✨✨✨
+
+
+  We still have a lot of time to plan! We will keep you posted with lots of updates 😊
+
+
+  With Love 💖
+
+  The Dance House
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293934/ngoxkv7pdaic7aracmex.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+visibility: Public
+org:
+  id: aKbPrfT10aTVV3Y5IRPi
+  username: thedancehouse.events
+  name: Thedancehouse
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953637/kgiyiijucedgccisugh5.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/thedancehouse.events
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/380105148062829/
+facebookId: "380105148062829"
+eventType: Workshop
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Live 2 Mambo 2025 - 2 Weekends Edition
+online: No
+styles: {}
+hash: 1738263600000+ChIJYUYX_WbcQUcRnvSLTnINJoU
+startDate: 1738263600000
+id: D5tLBXSSUQOfWItZMpeR

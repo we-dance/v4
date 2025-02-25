@@ -1,0 +1,148 @@
+endDate: 1723852800000
+sourceUrl: https://www.facebook.com/events/1237028036893975
+createdAt: 1722780029112
+approved: true
+provider: ical
+providerId: nvBqSF1sxQ25mvCB32f6
+providerCreatedAt: 1722710758000
+updatedAt: 1722780029112
+importedAt: 1722780029112
+providerUpdatedAt: 1722710758000
+facebookId: "1237028036893975"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1237028036893975
+eventType: Party
+providerItemId: cor3cphmc4o62b9hcgrjeb9k69gmabb170ojib9oc9i3apj370p6cp3474@google.com
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+location: Wilmslow Royal British Legion Club Ltd, 10 Grove Ave, Wilmslow SK9 5EG, UK
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723834800000
+facebookUrlsCount: 1
+username: halfcubedance
+venue:
+  formatted_address: 10 Grove Ave, Wilmslow SK9 5EG, UK
+  website: http://www.britishlegion.org.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Wilmslow Royal British Legion Club Ltd
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.233690880291502
+        lat: 53.3260620197085
+      northeast:
+        lng: -2.230992919708498
+        lat: 53.3287599802915
+    location:
+      lng: -2.2324359
+      lat: 53.3274528
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Grove Ave
+      long_name: Grove Avenue
+    - types:
+        - postal_town
+      short_name: Wilmslow
+      long_name: Wilmslow
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Cheshire East
+      long_name: Cheshire East
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: SK9 5EG
+      long_name: SK9 5EG
+  international_phone_number: +44 1625 523715
+  place_id: ChIJb_ZlPnZNekgRDGL5LDsGoDA
+  url: https://maps.google.com/?cid=3503807361321624076
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsaldi.wilmslow
+  name: Jane Salsaldi
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715522442/hue7ivmwxxk3rk4efcoj.jpg
+  bio: ""
+  id: BtaDyI8tq8q1te0C9qFu
+  instagram: ""
+  username: salsaldi.wilmslow
+claimed: No
+facebook: https://www.facebook.com/events/1237028036893975/
+link: ""
+description: >+
+  Summer Special - FRIDAY 16th August 2024 - with Rohan Brown
+
+
+  Back by special request the inimitable Rohan will be teaching a class for you and dancing the night through.
+
+
+  Doors open at 8pm
+
+  Class starts at 8.30pm
+
+  Social starts 9.30pm to 1am with resident DJ Jane Salsaldi
+
+
+  The friendliest and most inclusive dance night in the North.  We have an amazing floor, cheap bar, free safe street parking and some of the best music and dancers around.
+
+
+  See you on the dancefloor.
+
+
+  The Legion is just ten minutes drive from Junction 6 of the M56 and easily accessible from all over the North West.  It is also only ten minutes walk from Wilmslow Train Station.
+
+
+
+  WIlmslow British Legion
+
+  (Wilmslow Grove Sports & Social Club)
+
+  Grove Way,
+
+  WILMSLOW SK9 53EG
+
+  (just behind the shops)
+
+
+  Please note if you are parking on site you must give bar staff your registration number to avoid getting a ticket.
+
+
+  Salsladi has been running for 14 years and is one of the longest running, most popular dance nights in the North West.
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722780036/vv5y5hqcfkgxvzv1mfoa.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsaldi Wilmslow - Rohan Brown - FRIDAY 16th August 2024
+online: No
+place: ""
+international: No
+hash: 1723834800000+ChIJb_ZlPnZNekgRDGL5LDsGoDA
+id: cmOEwDcboQp4Nk5vCjwp

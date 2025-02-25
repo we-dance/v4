@@ -1,0 +1,157 @@
+endDate: 1720828800000
+sourceUrl: https://www.facebook.com/events/1191607218522614
+createdAt: 1720533632337
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720471640000
+updatedAt: 1720533632337
+importedAt: 1720533632337
+providerUpdatedAt: 1720471640000
+facebookId: "1191607218522614"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1191607218522614
+eventType: Party
+providerItemId: 10009125-1720742400-1720828799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Széchenyi Kertvendéglő, Állatkerti Krt. 9 - 11., Budapest, 1146, Magyarország
+startDate: 1720742400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Állatkerti krt. 11, 1146 Hungary
+  website: http://www.szechenyietterem.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Széchenyi Garden Restaurant
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0821968197085
+        lat: 47.5176586197085
+      northeast:
+        lng: 19.0848947802915
+        lat: 47.5203565802915
+    location:
+      lng: 19.0834628
+      lat: 47.518943
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Állatkerti krt.
+      long_name: Állatkerti körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 30 906 1294
+  place_id: ChIJ2bya1YXbQUcRYqJkNkaxYmk
+  url: https://maps.google.com/?cid=7593826836818469474
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/DjAthosHU
+  name: Attila Kecskés
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765529/vmayamsdraokwa24bpg4.jpg
+  bio: ""
+  id: OmCzhUhFV74sWgP0ALWM
+  instagram: ""
+  username: DjAthosHU
+claimed: No
+facebook: https://www.facebook.com/events/1191607218522614/
+link: ""
+description: >-2
+   SALSA DE MAGIA VÁROSLIGETI PARTY
+
+  		
+  A főváros zöld szívében a Városligetben SALSA DE MAGIA VÁROSLIGETI PARTY 2024.07.12.-én PÉNTEKEN a legjobb latin zenékkel minden salsa rajongónak.  
+
+  Tánciskolától és tudásszinttől függetlenül szeretettel várunk.!!!
+
+
+  Budapest legjobban táncolható latin zenéi mindig az aktuális közönségre szabva.
+
+  Amire számíthatsz:
+      • igényesen válogatott minőségi zenék
+      • minden órában hölgyválasz 
+      • vezetett ruedák
+      • egy teremben a legkedveltebb stílusok
+  Nagy többségben salsa zenék szólnak majd: 
+
+  - tradicionális kubai salsák
+
+  -  átütő timbák
+
+  - ritmusos guaguanco-k
+
+  - dallamos son-ok
+
+  - vérpezsdítő salsatone-ok
+            Színesítik a programot:
+                            - érzéki bachata-k
+  - könnyed cha-cha-cha-k
+
+  - vidám merengue-k
+  		     - szexys kizombák
+
+  Dress Code: Opcionális ...
+
+
+  Egy biztos, keveset fogsz ülni és sokat fogsz táncolni, mert a jó buli lelke a jó zene. Az eseményen kép és hangfelvétel készülhet amihez hozzájárulsz a belépő megvásárlásával.
+
+  Program: 
+   		20 :50 -         Kapunyitás
+                        21 00   -  01.00  Buli
+
+  Belépő:    3000 Ft/fő    A belépőt csak készpénzzel tudod fizetni!
+
+  Helyszín: Széchenyi Kertvendéglő
+  	       1146 Budapest, Állatkert krt. 9-11.
+  Média támogatónk: Latinfo.hu
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720533649/scf9uekbtjygyufsk5ia.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: SALSA DE MAGIA VÁROSLIGETI PARTY
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1720810200000+ChIJ2bya1YXbQUcRYqJkNkaxYmk
+id: zr5ryxJr9mmoqo1ApX2c

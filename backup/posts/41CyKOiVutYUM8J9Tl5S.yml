@@ -1,0 +1,173 @@
+endDate: 1728691199000
+sourceUrl: https://www.facebook.com/events/1701519600391312
+createdAt: 1728568844582
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1728541406000
+updatedAt: 1728568844582
+importedAt: 1728568844582
+providerUpdatedAt: 1728541406000
+facebookId: "1701519600391312"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1701519600391312
+eventType: Party
+providerItemId: 48446-1728604800-1728691199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Broadway Dance Center Táncstúdió, Kerepesi út 26., Budapest, 1146, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728604800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Kerepesi út 26-I. emelet, 1146 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Broadway Dance Center Táncstúdió Budapest
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.1076625697085
+        lat: 47.49906566970851
+      northeast:
+        lng: 19.1103605302915
+        lat: 47.50176363029151
+    location:
+      lng: 19.1089688
+      lat: 47.50054060000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: I. emelet
+      long_name: I. emelet
+    - types:
+        - street_number
+      short_name: "26"
+      long_name: "26"
+    - types:
+        - route
+      short_name: Kerepesi út
+      long_name: Kerepesi út
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 20 571 9050
+  place_id: ChIJG0XgPpjcQUcRpVRbrJDeZvw
+  url: https://maps.google.com/?cid=18187468858130650277
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728568851697
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/InternationalNightsUa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728568852/ardgwt16xfacj1h2wmqt.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728568851697
+  owned: false
+  name: International Nights
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1728568851697
+  username: international.nights
+claimed: No
+facebook: https://www.facebook.com/events/1701519600391312/
+link: ""
+description: >-
+  English version below ⬇️ 
+
+
+  🔥 Üdv a Fuego Partyn! 🔥
+
+
+  Készülj fel egy éjszakára, szuper hangulattal, profi táncosokkal és fergeteges zenékkel! 🎶✨ Íme, amire számíthatsz:
+
+
+  💃 Top táncosok és oktatók, akik a legjobb tánc élményt szolgáltatják
+
+  🎉 Preparty workshop: musicality és izoláció, amit Anass 🇲🇦 és Daniela 🇦🇷 tart – benne van a belépő árában!
+
+  🎧 Csak a legjobb zenék egész este
+
+  🌀 Tényleg működő légkondi – ígérjük, jó idő lesz! 😉
+
+  🍹 Italok megfizethető áron széles kínálatban a helyszínen 
+
+  🎊 Szórakoztató animációk és folyamatos jó hangulat!
+
+
+  Belépő a helyszínen: 3000 HUF
+
+  500 HUF kedvezményt kaphatsz, ha megosztod az eseményt az Instagram sztoridban, legkésőbb a buli napján 17:00 előtt! Csak mutasd meg a sztorit a bejáratnál, hogy megkapd a kedvezményt. (A flyer megtalálható a beszélgetés fülön vagy itt: https://drive.google.com/file/d/1WDmxiMwI2MUx0lFD9ye27efB-A42JkxV/view?usp=drive_link  📲)
+
+
+  ——————————————
+
+
+  🔥 Welcome to the Fuego Party! 🔥
+
+
+  Get ready for a night full of amazing vibes, top dancers, and incredible music! 🎶✨ Here’s what you can expect:
+
+
+  💃 Top dancers and teachers bringing their A-game
+
+  🎉 Pre-party workshop on body/instrument isolations led by Anass 🇲🇦 and Daniela 🇦🇷—included with your entry!
+
+  🎧 Only the best music to keep you dancing all night long
+
+  🌀 Proper air conditioning—we promise you won’t be sweating too much! 😉
+
+  🍹 Affordable drinks to keep you refreshed
+
+  🎊 Fun animations and non-stop great energy!
+
+
+  At the door: 3000 HUF (workshop and party included )
+
+
+  Get a 500 HUF discount by sharing this event on your Instagram stories before 17:00 on the day of the party! Just show the story at the door to get your discount. (Flyer can be found in the link below📲)
+
+
+  https://drive.google.com/file/d/1WDmxiMwI2MUx0lFD9ye27efB-A42JkxV/view?usp=drive_link
+
+
+  Don’t miss out on the ultimate dance night! See you on the dance floor 💥🔥
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728568853/vv4cqmpsacdmmyt1arkj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Fuego! Bachata Party / Budapest
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1728673200000+ChIJG0XgPpjcQUcRpVRbrJDeZvw
+id: 41CyKOiVutYUM8J9Tl5S

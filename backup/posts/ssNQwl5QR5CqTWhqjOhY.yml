@@ -1,0 +1,198 @@
+createdAt: 1704976052678
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1704976052678
+username: Aina
+venue:
+  formatted_address: Lange G. 45, 1080 Wien, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Lange G. 45
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3503388197085
+        lat: 48.2093939197085
+      northeast:
+        lng: 16.35303678029151
+        lat: 48.2120918802915
+    location:
+      lng: 16.3516115
+      lat: 48.2107319
+  address_components:
+    - types:
+        - street_number
+      short_name: "45"
+      long_name: "45"
+    - types:
+        - route
+      short_name: Lange G.
+      long_name: Lange Gasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Josefstadt
+      long_name: Josefstadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1080"
+      long_name: "1080"
+  place_id: ChIJ7bP4KZUHbUcR0POIEZ1jUqA
+  url: https://maps.google.com/?q=Lange+G.+45,+1080+Wien,+Austria&ftid=0x476d079529f8b3ed:0xa052639d1188f3d0
+endDate: 1705006800000
+claimed: No
+link: ""
+description: >-
+  Hello everybody,
+
+
+  we are happy to invite you to our ★ WEEKLY BRAZILIAN ZOUK IMPROVER (3&4) WORKSHOPS ★ starting on January 4th, 2024.
+
+
+  Our IMPROVER WORKSHOPS are workshops where we expect you to be familiar with the basic step, lateral, simple left turn, bodywaves (front/side), boomerang, Elastic & Cambre from previous Improver workshops. During these workshops you will be taught further fundamentals and sequences of Brazilian Zouk.
+
+
+  ! NEW > PRACTICA included:
+
+  Before each workshop there will be a 30min Practica. During the Practica you'll have time to practice all the things you've learnt during the workshop - and of course we'll be there to help you 🙂
+
+
+  ► Feel free to register without a partner: zcwteam@gmail.com
+
+  ► Please bring clean shoes (or socks) as street shoes are not allowed in the dance studio.
+
+
+  Dates of the course:
+
+
+  Thursday Jan. 04th, 20:30 - 22:00
+
+  Thursday Jan. 11th, 20:30 - 22:00
+
+  Thursday Jan. 18th, 20:30 - 22:00
+
+  Thursday Jan. 25th, 20:30 - 22:00
+
+  Thursday Feb. 01st, 20:30 - 22:00
+
+  ----- Break Semesterferien -----
+
+  Thursday Feb. 15th, 20:30 - 22:00
+
+  Thursday Feb. 22nd, 20:30 - 22:00
+
+  Thursday Feb. 29th, 20:30 - 22:00
+
+
+  Location: Lange Gasse 45, 1080 Vienna (Vida Dance)
+
+
+  Prices: (Practica included!)
+
+
+  regular price for 8 x 1.5h = €109
+
+  reduced price for students (<28): €90
+
+
+  regular price for 4 x 1.5h (Jan or Feb) = €65
+
+  reduced price for students (<28): €55
+
+
+  regular price for 1 x 1.5h (one workshop) = €17
+
+  reduced price for students (<28): €15
+
+
+  Registration: zcwteam@gmail.com
+
+
+  Come & enjoy this beautiful dance with us!
+
+
+  We are already looking forward to dancing with you,
+
+
+  Georg & Theresa
+
+  Zouk Club Wien
+
+  zcwteam@gmail.com
+
+  ----------------------------------------------------------------
+
+  What is Brazilian Zouk?
+
+  BRAZILIAN ZOUK is a social partner dance born in Brazil, nowadays danced to Pop, R&B, Hip-Hop & other music containing the Zouk beats. Leading & Following in Zouk is executed not only by hands but also by connection between the bodies, what makes this dance so smooth, sensual & beautiful. Brazilian Zouk has become popular within a few years and continues to conquer more & more dancers from all over the world.
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1854228798363265/?event_time_id=1854228808363264
+facebookId: "1854228808363264"
+eventType: Workshop
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Brazilian Zouk - Weekly Improver 3&4 Course
+online: No
+hash: 1705001400000+ChIJ7bP4KZUHbUcR0POIEZ1jUqA
+startDate: 1705001400000
+org:
+  owner: ""
+  importedAt: 1704976055299
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/zoukclubwien
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/299191974_492926492839016_4071659144350826021_n.png?stp=cp0_dst-png_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=596444&_nc_ohc=nN7JCP9BqSgAX_94XIx&_nc_ht=scontent-atl3-1.xx&oh=00_AfC3k7aswM-2iXW6oWIJ_uvvf09fAHjzdGYm5wgA6gkiKA&oe=65A58BBC
+  source: facebook
+  type: Organiser
+  createdAt: 1704976055299
+  owned: false
+  name: Zouk Club Wien
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1704976055299
+  username: zoukclubwien
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FssNQwl5QR5CqTWhqjOhY.png?generation=1704976065633748&alt=media
+viewsCount: 3
+instagram:
+  messageUrl: https://instagram.com/p/C197IsUuNvv
+  publishedAt: 1704992388256
+  messageId: C197IsUuNvv
+  state: published
+promotionError: ""
+promotion: completed
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058152/c6iccjgtz9xxdpl0rd69.jpg
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+id: ssNQwl5QR5CqTWhqjOhY

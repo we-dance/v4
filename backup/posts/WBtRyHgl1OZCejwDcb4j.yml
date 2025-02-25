@@ -1,0 +1,346 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  username: pinakothekdermoderne
+endDate: 1724954400000
+claimed: No
+program: []
+instagram: {}
+type: event
+commentDoc:
+  createdAt: 1719505438141
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: rK9tfmLNZ5GuPQqHhJCO
+  id: lciW2Zu1uNVAVUq1h3Cz
+  body: >+
+    I regret to inform you that the “All-Dance Thursday” event scheduled for
+    27.06.2024 has been canceled. We apologize for any inconvenience this may
+    cause and appreciate your understanding. Please subscribe to @MOADC to
+    receive an invitation for our next event next Thursday. Thank you for your
+    support.
+
+  username: alexrazbakov
+  updatedAt: 1719505438141
+downVotes: 0
+bookmarks: 17
+duration: 60
+createdAt: 1724885062979
+children:
+  - endDate: 1719511200000
+    id: 0oEiu385jRJY0qclUZyv
+    startDate: 1719507600000
+  - endDate: 1720116000000
+    id: Op9uCLRZGK819OaVRgyu
+    startDate: 1720112400000
+  - endDate: 1720720800000
+    id: cjMnAVakQ1BG9MSCgoKR
+    startDate: 1720717200000
+  - endDate: 1721325600000
+    id: SZpXK1ZykALAOi0IRs4Y
+    startDate: 1721322000000
+  - endDate: 1721930400000
+    id: K7qpY7U9pLaxAeohUHjN
+    startDate: 1721926800000
+  - endDate: 1722535200000
+    id: 6FUJb80wpNbYGEPsANCE
+    startDate: 1722531600000
+  - endDate: 1723140000000
+    id: oLRuxQXUbijUETgN6BSn
+    startDate: 1723136400000
+  - endDate: 1723744800000
+    id: ogqrPMJEhVSldccUSKGt
+    startDate: 1723741200000
+  - endDate: 1724349600000
+    id: n4yGEaVTm72IuwqmcZkQ
+    startDate: 1724346000000
+  - endDate: 1724954400000
+    id: 96zFbMpTj8v2AGiTqIDm
+    startDate: 1724950800000
+  - endDate: 1725559200000
+    id: 780sYNhZcKil2F6kubsz
+    startDate: 1725555600000
+  - endDate: 1726164000000
+    id: MK7ZQ0AdV2wpcjQUGrYQ
+    startDate: 1726160400000
+  - endDate: 1726768800000
+    id: 8UVaHHRYj2TImPweuLFe
+    startDate: 1726765200000
+price: Free
+limit: ""
+socialCover: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MUCOADC
+  name: MOADC
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6WFYqYtGgYUn7u0dozfnNuEnti92%2F52a8cbb0-1a28-4b85-9567-64fc92ad5881?alt=media&token=8f4d84a4-9692-43d9-8fa8-b886f72cd9a0
+  bio: We organize own events, Festivals, Bootcamps & Flashmobs and many other
+    Indoor or outdoor related activities
+  instagram: https://instagram.com/munich_openair_dance_community
+  id: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+  username: MOADC
+telegram: {}
+upVotes: 0
+eventType: Workshop
+promotionError: ""
+recurrence:
+  untilDate:
+    _seconds: 1727301600
+    _nanoseconds: 0
+  freq: never
+  days: {}
+  dates: []
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: "All-Dance Thursday: Bachata Basics by Salsamás "
+online: ""
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1724950800000
+username: Migo.bachatero
+promotion: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F894e3220-90e3-4acc-b129-2c7a72b281dc?alt=media&token=f364189b-66a0-482e-9799-c94b1ddfd605
+id: WBtRyHgl1OZCejwDcb4j
+hash: 1724950800000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+artists:
+  - youtube: https://youtube.com/channel/UCOuTxeqqcIaA9AvTj8rCnXg
+    tiktok: ""
+    facebook: https://facebook.com/SalsamasMunich
+    name: Salsamas_Munich
+    bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+    id: h1Q2XunkwqSUqIxinKiNaghTlal1
+    instagram: https://instagram.com/salsamasmunich
+    username: Salsamas_Munich
+artistsList:
+  - Salsamas_Munich
+description: "Introduction to Bachata by: Leonie & Sarah (Salsamás)"
+updatedAt: 1724885633876
+checkin:
+  list: {}
+  count: 8
+  usernames:
+    - jUnIAmY
+    - Hermann-2
+    - Sina
+    - Patriko
+    - Emma123
+    - Monika
+    - Richard_U
+    - maxtorrt
+  history:
+    - username: jUnIAmY
+      date: 1724948596763
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Hermann-2
+      date: 1724948597957
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Sina
+      date: 1724948599300
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Patriko
+      date: 1724948601198
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Emma123
+      date: 1724948601712
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Monika
+      date: 1724948603519
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Richard_U
+      date: 1724948605019
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: maxtorrt
+      date: 1724948606888
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+star:
+  list: {}
+  count: 9
+  usernames:
+    - jUnIAmY
+    - Hermann-2
+    - Sina
+    - Patriko
+    - Emma123
+    - Monika
+    - Richard_U
+    - maxtorrt
+    - alele
+  history:
+    - username: jUnIAmY
+      date: 1724923167798
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ObdIhB0AWtamMGDrnwvZArGs5gM2
+      action: joined
+    - username: Hermann-2
+      date: 1724924277645
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 1NmD9QivGGWeFOGziiPgQmDfCoI3
+      action: joined
+    - username: Sina
+      date: 1724924544466
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UcCfgsKkcffSHp2WLjU6sNILDHY2
+      action: joined
+    - username: Sina
+      date: 1724924553761
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UcCfgsKkcffSHp2WLjU6sNILDHY2
+      action: left
+    - username: Sina
+      date: 1724924555446
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UcCfgsKkcffSHp2WLjU6sNILDHY2
+      action: joined
+    - username: Patriko
+      date: 1724926880213
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: eKnc5lBSqLOMjAgCnzqTfNLozPn2
+      action: joined
+    - username: Emma123
+      date: 1724928627598
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UZeCuanKgvMkSH5Za2KZPE6R94j1
+      action: joined
+    - username: Emma123
+      date: 1724928652486
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UZeCuanKgvMkSH5Za2KZPE6R94j1
+      action: left
+    - username: Emma123
+      date: 1724928653693
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UZeCuanKgvMkSH5Za2KZPE6R94j1
+      action: joined
+    - username: Monika
+      date: 1724933156398
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: BWxMoXHBQqaSsUcFap2K5mN3Exi2
+      action: joined
+    - username: Alielmas
+      date: 1724935045687
+      invitedBy: ""
+      uid: R1XDnn0EiTRFqdARPiX7Uqmvez43
+      action: joined
+    - username: Alielmas
+      date: 1724935082980
+      invitedBy: ""
+      uid: R1XDnn0EiTRFqdARPiX7Uqmvez43
+      action: left
+    - username: Richard_U
+      date: 1724936747912
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: X9xY2NCtsEab81gxF0xxOQtJXnL2
+      action: joined
+    - username: Richard_U
+      date: 1724936757647
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: X9xY2NCtsEab81gxF0xxOQtJXnL2
+      action: left
+    - username: Richard_U
+      date: 1724936759359
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: X9xY2NCtsEab81gxF0xxOQtJXnL2
+      action: joined
+    - username: maxtorrt
+      date: 1724940727061
+      invitedBy: ""
+      uid: raAWsc8xSJXhox3NUi8mbw9iS6M2
+      action: joined
+    - username: alele
+      date: 1724949828425
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ErUv0lvr69X2Y1e5knEmqQGWP4z1
+      action: joined
+viewsCount: 36

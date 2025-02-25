@@ -1,0 +1,105 @@
+sourceUrl: https://www.eventbrite.at/e/lento-dance-festival-bachatasalsa-outdoors-festival-tickets-842661763017
+createdAt: 1719096295007
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1719096295007
+username: Aina
+viewsCount: 1
+venue:
+  formatted_address: Am Kaisermühlendamm 106, 1220 Wien, Austria
+  website: http://www.vcbc.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Vienna City Beach Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.4279191697085
+        lat: 48.2164010197085
+      northeast:
+        lng: 16.4306171302915
+        lat: 48.2190989802915
+    location:
+      lng: 16.429069
+      lat: 48.2176161
+  address_components:
+    - types:
+        - street_number
+      short_name: "106"
+      long_name: "106"
+    - types:
+        - route
+      short_name: Am Kaisermühlendamm
+      long_name: Am Kaisermühlendamm
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Donaustadt
+      long_name: Donaustadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1220"
+      long_name: "1220"
+  international_phone_number: +43 1 9974023
+  place_id: ChIJP-qvsCgHbUcR9dcgg0Mkrkk
+  url: https://maps.google.com/?cid=5309220883097769973
+endDate: 1722807000000
+claimed: No
+link: https://www.eventbrite.at/e/lento-dance-festival-bachatasalsa-outdoors-festival-tickets-842661763017
+description: Get ready to spice up your summer at the first edition of Lento
+  Dance Outdoors Festival! ✨
+program: []
+source: schema
+type: event
+duration: 60
+artists: []
+price: 133.37 EUR
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+org: ""
+facebook: ""
+eventType: Festival
+facebookUrlsList: []
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Lento Dance Festival - Bachata/Salsa Outdoors Festival
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+schemaEventsCount: 1
+hash: 1722610800000+ChIJP-qvsCgHbUcR9dcgg0Mkrkk
+startDate: 1722610800000
+facebookUrlsCount: 0
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719096307/th1r3pxojuwpzimzpcsq.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZRKfDryV90jgm0k2ra6a.png?generation=1719096329700102&alt=media
+id: ZRKfDryV90jgm0k2ra6a

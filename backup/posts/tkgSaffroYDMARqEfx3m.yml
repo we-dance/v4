@@ -1,0 +1,172 @@
+endDate: 1719780300000
+sourceUrl: https://www.facebook.com/events/1284130122245554/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1700039426000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710188046000
+facebookId: "1284130122245554"
+facebook: https://www.facebook.com/events/1284130122245554/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1284130122245554/
+eventType: Party
+providerItemId: e1284130122245554@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Tanzreise in meine Vergangenheit -  das Land des Feuers 🔥💥 der Sonne ☀️
+  in Baku
+location: Baku Boulevard
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719211500000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 92 Neftçilər Prospekti, Bakı, Azerbaijan
+  website: http://bulvar.gov.az/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Dənizkənarı Milli Park
+  geometry:
+    viewport:
+      southwest:
+        lng: 49.84833861970849
+        lat: 40.3695757697085
+      northeast:
+        lng: 49.85103658029149
+        lat: 40.3722737302915
+    location:
+      lng: 49.84997019999999
+      lat: 40.3703993
+  address_components:
+    - types:
+        - street_number
+      short_name: "92"
+      long_name: "92"
+    - types:
+        - route
+      short_name: Neftçilər Prospekti
+      long_name: Neftçilər Prospekti
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Səbail
+      long_name: Səbail
+    - types:
+        - locality
+        - political
+      short_name: Bakı
+      long_name: Bakı
+    - types:
+        - country
+        - political
+      short_name: AZ
+      long_name: Azerbaijan
+  international_phone_number: +994 12 404 95 96
+  place_id: ChIJIR35sUx8MEARyzotKNVc7PE
+  url: https://maps.google.com/?cid=17432410328216189643
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224682454
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02AmMzTBc7prnZki9VuT7CXrqwjKb7cc1qQzeTZnrwh84bbWZKYNQJ1WT8ZCXwd416l
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224682/mcgyoq2ztwze9zl4h2it.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224682454
+  owned: false
+  name: Delja Nagieva
+  place: ChIJRb-gEq6GMEAR165NiOYsqWg
+  updatedAt: 1711224682454
+  username: delja.nagieva
+claimed: No
+link: ""
+description: >-
+  Baku ist wie Dubai am Kaspischen Meer!
+
+  Kommt und tanzt mit mir, in das Land meine Vorfahren nach Baku/Aserbaidschan ❤️‍🔥 in das Land des Feuers 🔥💥 der Sonne ☀️ und der guten Laune. Wir tanzen Kizomba, Bachata & Salsa, 7 Tage in eine wunderschönen 
+
+  Location und an den wunderschönen Stränden beim besten Wetter.
+   
+  💃 In Kooperation mit eine Tanzschule vor Ort und Begleitet von top Artisten und top Dj's aus der ganzen Welt. 
+
+  💃 4 Workshops pro Tag (je. 2 Stunden)  in Kizomba, Salsa und Bachata  und natürlich Partys, historische Ausflüge erwarten uns in diesen 7 Tagen. 
+
+
+  Weitere Infos zu den Workshops, Dj's  und Artisten:
+
+  Daniel Schauenburg - Urban Kiz & Bachata aus Freiburg 
+
+  Mady Keita - kizomba/ Semba & Salsa aus Köln 
+
+  Vanessa Paris - ginga (kizomba) aus Paris 
+
+  Rufat - Kozomba urbankiz  (Baku)
+
+
+  DJ SAUL aus München 
+
+  DJ Rufat aus Baku
+
+
+  . Entscheidet Euch schon jetzt und seid dabei 😍💃🥳
+
+
+
+  💰 Die Kosten betragen bis zum 1. Januar 1.500,-€ (zzgl. Flug) und beinhalten: 
+
+  - ein Doppelzimmer in einem wunderschönen 4* Hotel
+
+  - 28 Stunden WS
+
+  - 7 Partys
+
+  - Strandausflüge / historische Ausflüge 
+
+  - Verpflegung
+
+  ☝
+
+
+  ☝ Anmeldungen und verbindliche Buchung, sowie weitere Infos unter 0170/492 39 31
+
+
+  https://chat.whatsapp.com/HYdFQrk6RJV9f5II7dA7h2
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/jmuqncohpyvrovmshr6j.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJRb-gEq6GMEAR165NiOYsqWg
+international: No
+hash: 1719211500000+ChIJIR35sUx8MEARyzotKNVc7PE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtkgSaffroYDMARqEfx3m.png?generation=1711224713774985&alt=media
+viewsCount: 1
+id: tkgSaffroYDMARqEfx3m

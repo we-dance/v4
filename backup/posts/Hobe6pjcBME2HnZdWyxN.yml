@@ -1,0 +1,220 @@
+isNew: true
+facebookId: "1339283590838397"
+facebookUrlsList:
+  - https://www.facebook.com/events/1339283590838397/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1732114834449
+updatedAt: 1732114834449
+importedAt: 1732114834449
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48849-1732147200-1732233599@latinfo.hu
+providerCreatedAt: 1732091039000
+providerUpdatedAt: 1732091039000
+startDate: 1732147200000
+endDate: 1732233599000
+facebook: https://www.facebook.com/events/1339283590838397/
+sourceUrl: https://www.facebook.com/events/1339283590838397/
+location: Broadway Dance Center Táncstúdió, Kerepesi út 26., Budapest, 1146, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: I. emelet
+      short_name: I. emelet
+      types:
+        - subpremise
+    - long_name: "26"
+      short_name: "26"
+      types:
+        - street_number
+    - long_name: Kerepesi út
+      short_name: Kerepesi út
+      types:
+        - route
+    - long_name: XIV. kerület
+      short_name: XIV. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1146"
+      short_name: "1146"
+      types:
+        - postal_code
+  formatted_address: Budapest, Kerepesi út 26-I. emelet, 1146 Hungary
+  geometry:
+    location:
+      lat: 47.50054060000001
+      lng: 19.1089688
+    viewport:
+      northeast:
+        lat: 47.50176363029151
+        lng: 19.1103605302915
+      southwest:
+        lat: 47.49906566970851
+        lng: 19.1076625697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +36 20 571 9050
+  name: Broadway Dance Center Táncstúdió Budapest
+  place_id: ChIJG0XgPpjcQUcRpVRbrJDeZvw
+  url: https://maps.google.com/?cid=18187468858130650277
+visibility: Public
+org:
+  id: dOcrWayjOE95VPhQgwrG
+  username: senthursdays
+  name: Sensual Thursdays 100 % Bachata
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765528/udv61kupwl6mncjbaf1o.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/senthursdays
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  ----> for english scroll down!
+
+
+  Bachaterak és Bachaterok!!!
+
+
+  Minden héten csütörtökön Sensual Thursdays, Budapest egyik legjobb és legismertebb bachata estje! 
+
+
+  Megújult rendszerrel várunk mindenkit!
+
+
+  *** 100% Bachata Est ***
+
+  21:00-0:00 
+
+
+  ****************************************************
+
+
+  ★ Hol is van ez a hely? ★
+
+
+  Az Broadway Dance Center a Kerepesi út és a Hungária körút sarkán található, a Puskás Ferenc Stadion metróállomásnál
+
+
+  ★ Cím ★
+
+  1148 Budapest, Kerepesi út 26.
+
+
+  ★ Zene felelős, Dj ★
+
+  🎧 Brumi
+
+
+  ★ Árak ★ 
+
+  100 % Bachata est: 2000 HUF
+
+
+  Médiapartner
+
+  Latinfo.hu 
+
+  www.latinfo.hu
+
+
+  A Party és a jó hangulat adott, már csak Te hiányzol!
+
+
+  -----------------------------------------------------------------
+
+
+  Bachaters and Bachaters!!!
+
+
+  Every Thursday Sensual Thursdays, one of the best and most famous bachata nights in Budapest! 
+
+
+  We are waiting for everyone with a new system!
+
+
+
+  ****************************************************
+
+
+  Opening time: at 20.50
+
+
+  *** 100% Bachata Evening ***
+
+  21:00-0:00 
+
+
+  ****************************************************
+
+
+  ★ Where is this place? ★
+
+
+  Broadway Dance Center is located at the corner of Kerepesi út and Hungária körút, at the Puskás Ferenc Stadion metro station
+
+
+  ★ Address ★
+
+
+  1148 Budapest, Kerepesi út 26.
+
+
+  ★ Music in charge, Dj ★
+
+  🎧 Brumi
+
+
+  ★ Prices ★ 
+
+  100% Bachata evening: 2000HUF
+
+  You can pay only cash!
+
+
+  Media partner
+
+  Latinfo.hu 
+
+  www.Latinfo.hu
+
+
+
+  The party and the good mood are given, only you are missing!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732114846/vsf8ng4ugp2f9rv4h7xr.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Sensual Thursdays  // Bachata Has Taken Over // 100 % Bachata  Night
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1732219200000+ChIJG0XgPpjcQUcRpVRbrJDeZvw
+id: Hobe6pjcBME2HnZdWyxN

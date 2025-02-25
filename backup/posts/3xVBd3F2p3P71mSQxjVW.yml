@@ -1,0 +1,125 @@
+endDate: 1714945500000
+sourceUrl: https://www.facebook.com/events/742223151167123/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1705033059000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1710855272000
+facebookId: "742223151167123"
+facebook: https://www.facebook.com/events/742223151167123/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/742223151167123/
+eventType: Party
+providerItemId: e742223151167123@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: LOCO BACHATA WEEKEND | BUDAPEST
+location: Angyalföldi József Attila Művelődési Központ
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714759200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Budapest, József Attila tér 4, 1131 Hungary
+  website: http://www.kult13.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Angyalföldi József Attila Művelődési Központ
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0823425197085
+        lat: 47.54499291970851
+      northeast:
+        lng: 19.08504048029151
+        lat: 47.5476908802915
+    location:
+      lng: 19.0838075
+      lat: 47.54631759999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: József Attila tér
+      long_name: József Attila tér
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1131"
+      long_name: "1131"
+  international_phone_number: +36 1 320 3842
+  place_id: ChIJSbiDMcjbQUcRQ_Tphhd9AbY
+  url: https://maps.google.com/?cid=13114901129880794179
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131892870
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/locobachatabudapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131893/dt9aglatuty1q8c0gobq.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131892870
+  owned: false
+  name: Loco Bachata Budapest
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1714131892870
+  username: locobachatabudapest
+claimed: No
+link: ""
+description: >
+  ENG HUN 
+
+
+  Babies and Gents,
+
+
+  We've came to the most difficult decision to cancel our loved Loco Weekend event. The venue has changed its operation rules where they have to finish all events at midnight on Saturdays and at 10 pm on Sundays. These changes are definitely out of line with the program and atmosphere we’ve dreamt for you, therefore the event couldn’t stay there. Recently we’ve worked on finding a new venue that is suitable for all requirements of the Loco Weekend concept but there is no available venue in our planned date and later dates are just conflicting with too many events. Reorganizing for next year is an option but currently we follow the most responsible way to refund all bought tickets. This will happen in the upcoming two weeks.
+
+  Thank you all who wanted to spend this amazing week with us and thanks for all your support so far!
+
+
+  Azt a nagyon nehéz döntést kellett meghoznunk, hogy lemondjuk a Loco Weekend eseményünket. A helyszín működési szabályzatában utólag érvényesített változtatások következtében minden programot szombaton éjfélig és vasárnap 22:00-ig be kell fejezni, ami a helyszínen megrendezésre kerül. Sajnos ezek a változtatások összeegyeztethetetlenek azzal a programmal és hangulattal, amit megálmodtunk számotokra, így ezen a helyszínen biztosan nem tarthatjuk meg az eseményt. Az utóbbi időben dolgoztunk azon is, hogy új helyszínre költözzünk, de nem találtunk a tervezett időpontra olyan alternatívát, ami megfelelne a Loco Weekend koncepciónak. Későbbi időpontokban pedig túl sok ütközés van más eseményekkel. A jövő évi újraszervezés is felmerült, de egyelőre azt látjuk felelősségteljes döntésnek, ha visszatérítjük a vásárolt jegyek árát (a nyereményjegyek nem tartoznak ebbe a körbe) a következő két hétben. Köszönjük mindannyiótoknak, akik velünk szerettétek volna tölteni ezt a hétvégét és támogattatok minket!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131894/u53ahpeoffpmwbbucq4n.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1714759200000+ChIJSbiDMcjbQUcRQ_Tphhd9AbY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F3xVBd3F2p3P71mSQxjVW.png?generation=1714131911264073&alt=media
+viewsCount: 1
+id: 3xVBd3F2p3P71mSQxjVW

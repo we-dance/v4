@@ -1,0 +1,165 @@
+venue:
+  formatted_address: Maxvorstadt, 80799 Munich, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: Munich
+      short_name: Munich
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Upper Bavaria
+      short_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bavaria
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  room: Appartment near Ubahn
+  url: https://maps.google.com/?cid=2141602145283666078
+  name: Universität
+  geometry:
+    viewport:
+      south: 48.14822055
+      north: 48.15219035
+      east: 11.5824822802915
+      west: 11.5797843197085
+    location:
+      lng: 11.5806856
+      lat: 48.14922909999999
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F5b53c2c6-9601-4266-bdf3-71bf450640e9?alt=media&token=00a53807-5b27-4b8a-9c1e-4f624e4ee9d6
+  place_id: ChIJNWuRsJR1nkcRnvDY781_uB0
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+claimed: Yes
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fdb4f9c6c-0a66-4d46-af84-1f60188f368b?alt=media&token=d7b63b05-c0a3-4b3b-85d3-1a222c51bf7a
+promo: Yes
+duration: 60
+createdAt: 1639505283025
+watchersCount: 0
+price: free, optional donation
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfEp5aW3aSo23IYIfAB9k.png?generation=1639505728153339&alt=media
+commentsLast: ~
+promoter: alejito
+id: fEp5aW3aSo23IYIfAB9k
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+views: 20
+updatedAt: 1639505283025
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Course
+organiser: MontunoClub
+form: No
+createdBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+commentsCount: 0
+name: Salsa Cubana from Zero 1/4
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+username: MontunoClub
+star:
+  count: 2
+  list:
+    Vitali: true
+    alejito: true
+endDate:
+  _seconds: 1642345200
+  _nanoseconds: 0
+startDate: 2022-01-16T15:00
+description: >
+  Learn Casino (Salsa Cubana) basics in 1 month.
+
+
+  - **Duration:** course includes 4 lessons, 1h weekly
+
+
+  ### Course Program
+
+
+  - **Lesson 1. Introduction to rhythm and basic steps**
+
+  - Lesson 2. Partner work and turns
+
+  - Lesson 3. Cross-body lead
+
+  - Lesson 4. First choreography
+
+
+  See you soon!
+
+
+  ### Requirements
+
+
+  This is a private 2G+ event. For all the guests with a 3rd shot no rapid test is needed. 
+
+
+  Limited places available due to the corona hygiene concept & ongoing regulations.
+confirmation: Thank you for your interest, please send a WhatsApp message
+  "MontunoClub Sunday" to Alex +4915782039401 for further instructions.
+watch:
+  count: 3
+  list:
+    Vitali: true
+    alejito: true
+    Saen_diy: true
+artists:
+  - youtube: ""
+    role: instructor
+    facebook: alexrazbakov
+    bio: Founder of WeDance
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    instagram: alexrazbakov
+    tiktok: ""
+    name: Alex Razbakov
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    username: alejito
+org:
+  youtube: ""
+  role: organiser
+  facebook: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  instagram: MontunoClub
+  tiktok: ""
+  name: MontunoClub
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  username: MontunoClub
+viewsCount: 167

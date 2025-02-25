@@ -1,0 +1,123 @@
+endDate: 1723944600000
+sourceUrl: https://www.facebook.com/events/338920715680204/
+createdAt: 1718719241405
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717478304000
+updatedAt: 1718719241405
+importedAt: 1718719241405
+providerUpdatedAt: 1718057462000
+facebookId: "338920715680204"
+facebook: https://www.facebook.com/events/338920715680204/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/338920715680204/
+eventType: Party
+providerItemId: e338920715680204@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Pure Kizzz Summer Bootcamp 2024 "
+location: Suhrmann Tanzschule
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723903200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Märkische Str. 24, 44141 Dortmund, Germany
+  website: http://suhrmann.cmsv1.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule Suhrmann GmbH
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.4696483697085
+        lat: 51.50636016970851
+      northeast:
+        lng: 7.472346330291503
+        lat: 51.50905813029151
+    location:
+      lng: 7.4710318
+      lat: 51.5078227
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Märkische Str.
+      long_name: Märkische Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Innenstadt-Ost
+      long_name: Innenstadt-Ost
+    - types:
+        - locality
+        - political
+      short_name: DO
+      long_name: Dortmund
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Dortmund
+      long_name: Dortmund
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Arnsberg
+      long_name: Arnsberg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "44141"
+      long_name: "44141"
+  international_phone_number: +49 231 529060
+  place_id: ChIJGTlsNFkXuUcRPt3kuZY103Y
+  url: https://maps.google.com/?cid=8562246238041595198
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/PureKizzz
+  name: Pure Kizzz Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444464/dtfvesyuwub6budzdfyu.jpg
+  bio: ""
+  id: Lghlq1XiJ0Qm8EEZGECf
+  instagram: ""
+  username: PureKizzz
+claimed: No
+link: http://www.pure-kizzz.de/
+description: "Coming soon… "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718719287/wno7qpa3amqkusrnvorb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJEXrwv2AXuUcRUIdUMYHyJwQ
+international: No
+hash: 1723903200000+ChIJGTlsNFkXuUcRPt3kuZY103Y
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Ft55NNorvqp8hzMvAdsVE.png?generation=1718719311997707&alt=media
+viewsCount: 1
+id: t55NNorvqp8hzMvAdsVE

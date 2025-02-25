@@ -1,0 +1,219 @@
+venue:
+  formatted_address: Helene-Mayer-Ring 14, 80809 München, Germany
+  name: Barrio Latino Bar Restaurant
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5543612802915
+      south: 48.1811362197085
+      north: 48.1838341802915
+      west: 11.5516633197085
+    location:
+      lng: 11.5528374
+      lat: 48.1825185
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Helene-Mayer-Ring
+      long_name: Helene-Mayer-Ring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Milbertshofen-Am Hart
+      long_name: Milbertshofen-Am Hart
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80809"
+      long_name: "80809"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3894bd6b-f262-4cd6-9cfd-baf6931ce574?alt=media&token=8d79e3f8-bdd8-4cb5-af0c-3af2b73562b9
+  place_id: ChIJWSV4Z7Z3nkcRSc3s82aoI04
+  international_phone_number: +49 177 2739305
+  room: Main Room
+  url: https://maps.google.com/?cid=5630529119275765065
+endDate: 2023-02-15T23:59
+claimed: No
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1676191287414
+playlist: https://open.spotify.com/playlist/682sn8dYjvcjyd13nTWCjX?si=3f3393237e64489f&pt=45c4b0cda3ed21fbac0decc68afc369b
+review: https://g.page/r/CUuhUfD8pIovEBM/review
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://photos.app.goo.gl/zKHwpZaHgwxkoawaA
+updatedAt: 1676191287414
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+upVotes: 0
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Cuban Meets Dominican
+online: No
+votes: 0
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-15T19:00
+username: alexrazbakov
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F5485adee-ab03-4c64-95f4-8229d8c222c1?alt=media&token=a5f90fb8-4f80-44e6-a78a-154acdf57d1e
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: https://facebook.com/MontunoClub
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  instagram: https://instagram.com/MontunoClub
+  username: MontunoClub
+price: 5-10 EUR
+program:
+  - endDate: 2023-02-01T20:00
+    artists:
+      - youtube: ""
+        role: instructor
+        tiktok: ""
+        facebook: ""
+        name: Silvia
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FNVtSLOLOIGSvCRWwfrfzx5ARV7f1%2Fabc0f540-c623-444a-97e8-dba4abf376e2?alt=media&token=f892ad8e-c3c7-4bb7-b180-cf4b34281555
+        bio: ""
+        id: NVtSLOLOIGSvCRWwfrfzx5ARV7f1
+        instagram: https://www.instagram.com/spndanceandevents/
+        username: Silviadominicanbeat
+    name: Bachata Dominicana Workshop
+    eventType: Workshop
+    startDate: 2023-02-01T19:00
+  - endDate: 2023-02-01T23:59
+    artists:
+      - youtube: ""
+        role: organiser
+        tiktok: ""
+        facebook: https://facebook.com/alexrazbakov
+        name: Alex Razbakov
+        bio: Founder of WeDance. Salsa Cubana Instructor @MontunoClub. Salsa, Bachata,
+          Kizomba Dancer. IT Consultant. Software Developer.
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+        id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+        instagram: https://instagram.com/alexrazbakov
+        username: alexrazbakov
+    name: 3 salsa • 2 bachata • repeat
+    eventType: Party
+    startDate: 2023-02-01T20:00
+id: 4dEwoCgTvdSVZ0DGCuTO
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    bio: Founder of WeDance. Salsa Cubana Instructor @MontunoClub. Salsa, Bachata,
+      Kizomba Dancer. IT Consultant. Software Developer.
+    instagram: https://instagram.com/alexrazbakov
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    username: alexrazbakov
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Silvia
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd50708cb-21ae-4aa8-a640-e55ab0ba2a1e?alt=media&token=e456ca2a-6fc2-46b4-ac0f-da182ce95603
+    bio: ""
+    id: NVtSLOLOIGSvCRWwfrfzx5ARV7f1
+    instagram: https://www.instagram.com/spndanceandevents/
+    username: Silviadominicanbeat
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://www.facebook.com/profile.php?id=100063636367651
+    name: Barrio Latino Bar Restaurante
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6f8b15b4-b0c7-4edf-a176-e13bf9995d8b?alt=media&token=e2759501-f093-4a77-9eb6-58beb3c553f8
+    bio: |-
+      Un lugar diferente.
+
+      Ambiente acojedor y familiar.
+      Buena comida latina, Live Musik, Dj's
+      Fomentando
+    instagram: https://instagram.com/barriolatinobarmunich
+    id: lQIaoFUGqxY9KloxjiBA
+    username: barriolatino
+artistsList:
+  - alexrazbakov
+  - Silviadominicanbeat
+  - barriolatino
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4dEwoCgTvdSVZ0DGCuTO.png?generation=1676191558200041&alt=media
+telegram:
+  requestedAt: 1676191581656
+  messageUrl: https://t.me/WeDanceMunich/880
+  publishedAt: 1676191583613
+  messageId: 880
+  state: published
+instagram:
+  requestedAt: 1676191585749
+  messageUrl: https://instagram.com/p/Cojl_Riu1z5
+  publishedAt: 1676191601691
+  messageId: Cojl_Riu1z5
+  state: published
+description: |-
+  Tired of romantica and sensual?
+
+  Salsa Cubana back to Munich! Meet Bachata Dominicana!
+
+  Price: 10EUR. Join Guest List and get 50% discount.
+
+  **Come early and enjoy a complimentary welcome-shot before 8pm.**
+
+  Let's show Munich what true dancing is all about!
+
+  *Subscribe to organizer to get informed about next events.*
+star:
+  count: 0
+  list: {}
+viewsCount: 164

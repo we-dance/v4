@@ -1,0 +1,118 @@
+venue:
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Geretsrieder Straße
+      short_name: Geretsrieder Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?q=Geretsrieder+Str.+6,+81379+M%C3%BCnchen,+Germany&ftid=0x479dd8d532131c0d:0xf463e52cbecb2077
+  name: Geretsrieder Str. 6
+  geometry:
+    viewport:
+      south: 48.0993283197085
+      north: 48.1020262802915
+      east: 11.5346033302915
+      west: 11.5319053697085
+    location:
+      lng: 11.533212
+      lat: 48.10057159999999
+  place_id: ChIJDRwTMtXYnUcRdyDLvizlY_Q
+claimed: Yes
+link: https://docs.google.com/forms/d/1-EtXJM96peme6QfNrYdItekVpta1e9C6n1q4lhoI-PQ/edit?chromeless=1
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F8db318f9-9a26-4143-bfe6-7b6f320196a3?alt=media&token=82999435-bbf4-4fea-aa49-9d6eedb23944
+duration: "120"
+promo: Yes
+createdAt: 1641412022600
+price: EUR 12.50 per hour
+promoter: AnnaMil
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1641412022600
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+eventType: Course
+confirmation: |-
+  Dear Guest,
+
+  after entering your data in the Google Form, you are confirmed.
+
+  If you have any questions, let me know.
+
+  Bests
+  Anna 🦋
+organiser: AnnaMil
+form: Yes
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+online: No
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+username: AnnaMil
+id: JjrpAtCbJ8fq0buqCTwT
+name: Bachata B1 & B2
+description: |-
+  Bachata Classes
+
+  We are going through the Basics Steps Solo and Couple
+
+  Starting from the Techniques + building Figures together
+
+  7.30 - 8.30 pm Bachata B1
+  8.30 - 9.30 pm Bachata B2
+
+  Every Wednesday💃🕺
+endDate:
+  _seconds: 1642019400
+  _nanoseconds: 0
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+startDate: 2022-01-12T19:30
+viewsCount: 40

@@ -1,0 +1,50 @@
+timezone: GMT+0100
+type: Dancer
+createdAt: 1636062431757
+locales:
+  en: true
+createdBy: aN8He0znMWcRfJBeEFPRRwJcDjy2
+name: Fiona4
+place: ChIJ28X6cAQxUBMRIDdlEK-SAAQ
+username: Fiona4
+cities:
+  ChIJ28X6cAQxUBMRIDdlEK-SAAQ: true
+updatedAt: 1636062534273
+hometown: ChIJ28X6cAQxUBMRIDdlEK-SAAQ
+visibility: Public
+learning: |-
+  Kizomba
+  Bachata
+  Salsa
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+gender: Female
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FaN8He0znMWcRfJBeEFPRRwJcDjy2%2F68aeff5b-a134-482a-a228-d7866f6d3412?alt=media&token=edcc05dc-7ee6-4213-97b3-31087dd0a480
+partner: Yes
+contacts: Yes
+email: fionaballa@ymail.com
+meetingPlace: {}
+permission: Yes
+pwaUsed: true
+daysUsed: 6
+lastLoginAt: 1636984179743
+instagram: https://instagram.com/ballafiona
+id: aN8He0znMWcRfJBeEFPRRwJcDjy2

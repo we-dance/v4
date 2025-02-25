@@ -1,0 +1,45 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1643957041962
+createdBy: vvkmPUoowZSeVpQotl3PjpkLt2S2
+name: lucy_k
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: lucy_k
+pwaUsed: false
+cities:
+  ChIJsdQIqd2adkcRPfcqQaGD4cE: true
+updatedAt: 1645336963472
+hometown: ChIJsdQIqd2adkcRPfcqQaGD4cE
+gender: Female
+locales:
+  de: true
+  en: true
+  es: true
+partner: No
+objectives:
+  outdoors: true
+  indoors: true
+contacts: Yes
+permission: No
+bio: "Addicted to Cuban Salsa and Kizomba "
+styles:
+  UrbanKizz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+lastLoginAt: 1653291102820
+daysUsed: 4
+id: vvkmPUoowZSeVpQotl3PjpkLt2S2

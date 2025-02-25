@@ -1,0 +1,160 @@
+sourceUrl: https://www.facebook.com/events/1443410629613036
+createdAt: 1717530764830
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1717530764830
+username: Dj_Omega
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5612295197085
+        lat: 48.1391029197085
+      northeast:
+        lng: 11.5639274802915
+        lat: 48.1418008802915
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  🎉 Join us for an unforgettable UrbanKiz experience with Bass on June 6th in
+  Munich! 🇩🇪✨
+
+
+  💃🕺 8PM: Tango Slides in UrbanKiz - 15€ (online) / 20€ at the door - free party when attending the workshop
+
+
+  🎶 9PM: Party with DJ Omega - 5€ at the door, free when booking the workshop!
+
+
+  🎟️ Ticket link: https://buytickets.at/8times2getherevents/1275972
+
+
+  🔥 Known for his playful, creative, and energetic style, Bass is adaptable to each partner, ensuring a fantastic time for everyone! 🌟💃
+
+
+  🕺 Growing up dancing and competing in Hip Hop in South France, Bass has over a decade of experience teaching salsa, bachata, and kizomba across Europe and North America 🌍🇫🇷🇨🇦🇺🇸
+
+
+  🌟 He was a key player in the booming Kizomba scene in Montreal and is now making UrbanKiz shine in Washington, DC! 🌆🇨🇦➡️🇺🇸
+
+
+  📸 Check out his Instagram for tons of cool and entertaining demos! 📱✨
+
+
+  Don't miss out on this amazing opportunity to learn from one of the best! See you there! 🙌🎶
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/894550654
+  name: Dj-Omega Christina
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707821334/fccidwl95vdkhk6zhwfe.jpg
+  bio: ""
+  id: BxjwfotDphpUCsmjLT7Y
+  instagram: ""
+  username: dj-omega.christina
+facebook: https://www.facebook.com/events/1443410629613036/
+facebookId: "1443410629613036"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Thursday Sunset Workshop & Party - with Bass - @BIRD BAR
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1717653600000+ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+startDate: 1717653600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717530770/d7qqcbp6f3zkfoxbpssk.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FrlmVWl9QLbdeZaqNV5ih.png?generation=1717530782853478&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C7zmRJWvDxV
+  publishedAt: 1717530806634
+  messageId: C7zmRJWvDxV
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 6
+id: rlmVWl9QLbdeZaqNV5ih

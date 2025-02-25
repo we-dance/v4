@@ -1,0 +1,130 @@
+venue:
+  website: https://www.my-mia.de/i/timetable-booking
+  formatted_address: Zentnerstraße 39, 80798 München, Germany
+  name: Martas Tanzschule & Performance Studio
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5660362802915
+      south: 48.1577256697085
+      north: 48.1604236302915
+      west: 11.5633383197085
+    location:
+      lng: 11.564601
+      lat: 48.1590917
+  address_components:
+    - types:
+        - street_number
+      short_name: "39"
+      long_name: "39"
+    - types:
+        - route
+      short_name: Zentnerstraße
+      long_name: Zentnerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-West
+      long_name: Schwabing-West
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  place_id: ChIJ6ynDNS51nkcRlG2uB-ZVB4w
+  international_phone_number: +49 1520 9058692
+  url: https://maps.google.com/?cid=10090127936606596500
+claimed: No
+link: https://www.my-mia.de/i/timetable-booking
+description: Fusion of jazz dance techniques with the glamour and poise of
+  dancing in heels. Open to all levels of experience.
+program: []
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F2SiXeZreWTU11yK7B35E2ZL4c1v1%2F4af53323-9085-4164-8848-9cec203511ad?alt=media&token=be3fc785-fccb-4a90-9d3c-22f051a56f89
+duration: 60
+createdAt: 1697459963206
+artists: []
+price: 10 - 55 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://www.my-mia.de/p/jazzy-heels
+updatedBy: 2SiXeZreWTU11yK7B35E2ZL4c1v1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/dancetechniquesmunich
+  name: Marta Pihelgas
+  bio: "Talk about myself? Naahhh...just hope we meet on the dance-floor or in the
+    classroom and connect...that would be worth so much more "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F2SiXeZreWTU11yK7B35E2ZL4c1v1%2F63e4de93-26c5-4827-80c3-eac8e68aff38?alt=media&token=aba1aeb4-9c28-4062-90d3-fd69f6ca04a4
+  instagram: https://instagram.com/martapihelgas
+  id: 2SiXeZreWTU11yK7B35E2ZL4c1v1
+  username: marta
+telegram: {}
+upVotes: 0
+confirmation: See you in the class! Take your favorite shoes and flexible tight
+  clothing. Want to see all your lines ;). I have a water
+eventType: Course
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: 2SiXeZreWTU11yK7B35E2ZL4c1v1
+commentsCount: 0
+name: Tuesdays Jazzy Heels in Marta´s Dance Studio
+online: No
+styles:
+  Jazz:
+    level: Interested
+    highlighted: false
+    selected: true
+  HighHeels:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+username: marta
+id: a38hB5hEHuB9cwIv5uwO
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fa38hB5hEHuB9cwIv5uwO.png?generation=1697460951626256&alt=media
+instagram:
+  requestedAt: 1697461120449
+  messageUrl: https://instagram.com/p/CydeaHxuWnT
+  publishedAt: 1697461135170
+  messageId: CydeaHxuWnT
+  state: published
+endDate: 1698170400000
+startDate: 1698166800000
+updatedAt: 1698150674824
+viewsCount: 17

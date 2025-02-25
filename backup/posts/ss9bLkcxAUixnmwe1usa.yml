@@ -1,0 +1,271 @@
+venue:
+  formatted_address: Hloubětín, 198 00 Prague 14, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Hloubětín
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.55393242377142
+      south: 50.09877186296202
+      north: 50.11308466777507
+      west: 14.52191757622858
+    location:
+      lng: 14.537925
+      lat: 50.1059288
+  address_components:
+    - types:
+        - neighborhood
+        - political
+      short_name: Hloubětín
+      long_name: Hloubětín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Prague 14
+      long_name: Prague 14
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Prague
+      long_name: Prague
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 198 00
+      long_name: 198 00
+  url: https://maps.google.com/?q=Hloub%C4%9Bt%C3%ADn,+198+00+Prague+14,+Czechia&ftid=0x470bed25a9b81cc5:0xa5ba68b1b9c6b0f1
+  place_id: ChIJxRy4qSXtC0cR8bDGubFouqU
+claimed: No
+link: https://www.facebook.com/events/423030459819687
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F480f81aa-9d45-4545-9e53-cdc413a0ed4d?alt=media&token=73ef96dc-b1c1-4502-a0d2-6ab24dce3be5
+promo: Yes
+createdAt: 1663341573494
+artists:
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: https://facebook.com/kseniachkalova
+    name: kseniachkalova
+    bio: ""
+    photo: ""
+    id: heR2u9e0B2mFSlf36f8G
+    instagram: ""
+    username: kseniachkalova
+  - role: instructor
+    facebook: https://facebook.com/bachatafusion
+    username: bachatafusion
+  - role: instructor
+    facebook: https://facebook.com/tanyarambouskova
+    username: tanyarambouskova
+price: 0 CZK
+artistsList:
+  - DjLole
+  - kseniachkalova
+  - bachatafusion
+  - tanyarambouskova
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1663341573494
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/DjLolePrague
+  name: Dj Lole
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  bio: ""
+  id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  instagram: https://instagram.com/dj.lole
+  username: DjLole
+facebook: https://www.facebook.com/events/423030459819687
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    DjLole: true
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+name: Salsa and bachata GRAND OPENING party in Hloubětín
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-18T16:00
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fss9bLkcxAUixnmwe1usa.png?generation=1663341594196239&alt=media
+endDate: 2022-09-18T17:00
+id: ss9bLkcxAUixnmwe1usa
+description: >-
+  Na otevření této nové oblasti (viz odkaz o tomto projektu níže) vás
+  Dejsiprostor ve spolupráci  sDj Lole zvou na oslavu salsou a bachatou hudbou a
+  tancem.
+
+
+  !!! Vstup zdarma !!!
+
+
+  Program:
+
+
+  ⭐ 16:00-17:00: Lekce kubánské salsy pro začátečníky (Lole a Ksenia)
+
+  ⭐ 17:00-18:00: Lekce bachaty pro začátečníky (Tanya / Bachata Fusion)
+
+  ⭐ 18:00: Social dancing...
+
+  A s přestávkami:
+
+  - 19:00: Reggaeton ladies show (Bachata Fusion)
+
+  - 20:00: Bachata show s Tanyou a její partnerem + animace bachaty
+
+  - 21:00: Animace salsy s Kseniou a Lole
+
+  ⭐ 22:00: Konec večírku
+
+
+
+  ☛ Umělci:
+
+
+  - Tanya Rambousková (s Bachata Fusion):
+
+  https://www.facebook.com/tanya.rambouskova
+
+  https://www.facebook.com/bachatafusioncz
+
+
+  - Ksenia Chkalova:
+
+  https://www.facebook.com/kseniamotion
+
+
+  - Dj Lole:
+
+  https://www.facebook.com/SalsaInPrague
+
+
+  Těšíme se na Vás!
+
+  - Děti jsou taky vítány -
+
+
+
+
+  ☛ Umístění
+
+  Na rohu ulic Saarinenova a Granitova u chodniku smerem na cyklostezku Hloubetin
+
+  https://revitalizacebetonarny.cz/
+
+
+  ----------------------------------------
+
+  [ENG]
+
+  For the inauguration of this new area (see the link about this project below), Dejsiprostor in collaboration with Dj Lole are inviting you to celebrate this day with salsa and bachata music and dance.
+
+
+  !!! Free entrance !!!
+
+
+  Program:
+
+
+
+  ⭐ 16:00-17:00: Cuban salsa lesson for beginners (Lole and Ksenia)
+
+  ⭐ 17:00-18:00: Bachata lesson for beginners (Tanya / Bachata Fusion)
+
+  ⭐ 18:00-22:00: Social dancing...
+
+  And with breaks:
+
+  - 19:00: Reggaeton ladies show (Bachata Fusion)
+
+  - 20:00: Bachata show with Tanya and her partner + bachata animation
+
+  - 21:00: Salsa animation with Ksenia and Lole
+
+  ⭐ 22:00: End of the party
+
+
+
+  ☛ Artists:
+
+
+  - Tanya Rambousková (s Bachata Fusion):
+
+  https://www.facebook.com/tanya.rambouskova
+
+  https://www.facebook.com/bachatafusioncz
+
+
+  - Ksenia Chkalova:
+
+  https://www.facebook.com/kseniamotion
+
+
+  - Dj Lole:
+
+  https://www.facebook.com/SalsaInPrague
+
+
+  Looking forward to see you!
+
+  - Kids are welcome -
+
+
+
+  ☛ Location:
+
+  At the corner between Saarinenova and Granitova street (direction: Cyklostezka Hloubětín
+
+  https://revitalizacebetonarny.cz/
+commentsCount: 2
+commentsLast:
+  createdAt: 1663356055702
+  updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  commentId: ""
+  postId: ss9bLkcxAUixnmwe1usa
+  body: |
+    Ahoj!
+    Nerušíme ani v případě deště 🙂
+    Pro případ bude obrovský stan, takže můžeme tam tančit! 💃🕺
+    .
+    Hi! 
+    We won´t cancel even in case of rain 🙂
+    There will be a huge tent in case, so we can dance anway! 💃🕺
+  username: DjLole
+  updatedAt: 1663356055702
+viewsCount: 14

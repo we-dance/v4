@@ -1,0 +1,108 @@
+sourceUrl: https://www.goandance.com/en/events/6789-rovinj-boat-fest-2024
+createdAt: 1712054173857
+updatedBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+username: Djobi_bachata
+claimed: No
+link: https://www.goandance.com/en/events/6789-rovinj-boat-fest-2024?
+program: []
+source: schema
+type: event
+duration: 60
+price: 80 EUR
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: No
+visibility: Public
+facebook: ""
+eventType: Festival
+facebookUrlsList: []
+form: No
+watch:
+  count: 0
+  usernames: []
+name: ROVINJ BOAT FEST 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+schemaEventsCount: 1
+facebookUrlsCount: 0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6Lk3ckhcACZKERdk4HnF.png?generation=1712054204970923&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F363e43ff-9c5e-4a03-9629-4cbfbe74984b?alt=media&token=235d6ee4-623c-40cf-881c-0ed5f7c2eedf
+venue:
+  formatted_address: Rovinj, Croatia
+  website: http://www.rovinj.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.73434351743165
+      south: 45.01590065493957
+      north: 45.13155585620012
+      west: 13.6065125747384
+    location:
+      lng: 13.6387067
+      lat: 45.0811661
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istria County
+      long_name: Istria County
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+  username: www.rovinj.hr
+endDate: 1717968600000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Bachata-Obi-Lara/pfbid0QEijFSwsTyiafXHPZcjR3k3mQe7UK7x7FC5nZuEPiC8LCbKUJ8AiBhWmPFSU3RLcl/
+  name: Dj Obi
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  bio: Best Bachata DJ In Town 😎🎛️
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  instagram: https://instagram.com/djobi_bachata
+  username: Djobi_bachata
+description: Welcome to the Rovinj Boat Fest, where the vibrant rhythms of
+  bachata meet the serene beauty of the Adriatic Sea. Embark on an unforgettable
+  journey aboard the largest party yacht in Rovinj, and experience bachata like
+  never before. Join us for a weekend filled with premium workshops,
+  breathtaking performances, and non-stop dancing under the stars.
+id: 6Lk3ckhcACZKERdk4HnF
+hash: 1717761600000+ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+startDate: 1717761600000
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/people/Bachata-Obi-Lara/pfbid0QEijFSwsTyiafXHPZcjR3k3mQe7UK7x7FC5nZuEPiC8LCbKUJ8AiBhWmPFSU3RLcl/
+    name: Dj Obi
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+    bio: Best Bachata DJ In Town 😎🎛️
+    id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+    instagram: https://instagram.com/djobi_bachata
+    username: Djobi_bachata
+  - instagram: https://instagram.com/orhanitooo
+    username: orhanitooo
+artistsList:
+  - Djobi_bachata
+  - orhanitooo
+updatedAt: 1712054329139
+viewsCount: 5

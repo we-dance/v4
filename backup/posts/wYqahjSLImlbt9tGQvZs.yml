@@ -1,0 +1,206 @@
+endDate: 1723413600000
+sourceUrl: https://facebook.com/events/s/meraki-7-year-anniversary-ft-c/7665587710128758/
+createdAt: 1715444417248
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1715177219000
+updatedAt: 1715444417248
+importedAt: 1715444417248
+providerUpdatedAt: 1715177219000
+facebookId: "7665587710128758"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/meraki-7-year-anniversary-ft-c/7665587710128758/
+eventType: Party
+providerItemId: ccpmcd366pj68b9mclgm8b9k6hi3gbb274o66bb461h32dhmcgqj2ob174@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Meraki 7 Year Anniversary ft. Cadence Dance Academy
+location: Meraki Dance Company
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723248000000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 3184 Shadeland Ave, Indianapolis, IN 46226, USA
+  website: https://merakidanceindy.org/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Meraki Dance Company
+  geometry:
+    viewport:
+      southwest:
+        lng: -86.04850879999998
+        lat: 39.8132137197085
+      northeast:
+        lng: -86.04545840000004
+        lat: 39.8159116802915
+    location:
+      lng: -86.04774619999999
+      lat: 39.8147768
+  address_components:
+    - types:
+        - street_number
+      short_name: "3184"
+      long_name: "3184"
+    - types:
+        - route
+      short_name: Shadeland Ave
+      long_name: Shadeland Avenue
+    - types:
+        - neighborhood
+        - political
+      short_name: Warren
+      long_name: Warren
+    - types:
+        - locality
+        - political
+      short_name: Indianapolis
+      long_name: Indianapolis
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Warren Township
+      long_name: Warren Township
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Marion County
+      long_name: Marion County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IN
+      long_name: Indiana
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "46226"
+      long_name: "46226"
+  international_phone_number: +1 463-209-3132
+  place_id: ChIJszROdoxOa4gRVF_IGE9VBP8
+  url: https://maps.google.com/?cid=18375906177785028436
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/chelseyowenmeraki
+  name: Meraki Dance Company
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711819752/bcm7zyaudvf3skckxp5t.jpg
+  bio: ""
+  id: 3FKJbpx8JmGPxb7oiTCp
+  instagram: ""
+  username: chelseyowenmeraki
+claimed: No
+facebook: https://www.facebook.com/events/7665587710128758/
+link: http://merakidancecompany.ticketleap.com/meraki/
+description: >-
+  Join us to celebrate SEVEN years of Meraki Dance Company as we host the
+  amazingly talented Cadence Dance Academy of Toronto, Canada for the weekend!
+  We loved them so much last year we had to do it again!
+
+
+  ---------------
+
+
+  SCHEDULE:
+
+
+  Friday, August 9th:
+
+  Dance Social at TBD {8pm-2am}
+
+
+  -----
+
+  Saturday, August 10th:
+
+
+  Workshops with Cadence Dance Academy {12pm-3:30pm}
+
+  Highland Community Center
+
+
+  12:00pm-1:00pm – Bachata Footwork
+
+  1:15pm-2:15pm –  Bachata Partnerwork
+
+  2:30pm-3:30pm – Dancehall
+   
+  -----
+
+  Dance Social at Portal fifteenTWELVE {8pm-2:30am}
+
+
+  -----
+
+  Sunday, August 11th
+
+  Private Pool Party at Private Location. {12:00pm-6:00pm}
+
+  Address to be shared weekend of. Full Pass & Party Pass Holders only.
+
+
+  ---------------
+
+  Pricing:
+
+
+  Full Event Pass: (Saturday Workshops + Friday & Saturday Socials, Sunday Pool Party, Thursday Pre-Party)
+
+
+  Early Bird (before June 16th) - $100
+
+  General (before August 9th) - $115
+
+  At Door - $130
+
+
+  Party Pass (Thursday Pre-Party, Friday + Saturday Socials, Sunday Pool Party): $50
+
+
+  Workshop Only Pass (3 Hours of Saturday Workshops): $75
+
+
+  --------------
+
+  Location:
+
+
+  Friday Social:
+
+  TBD
+
+
+  Saturday Workshops:
+
+  Highland Community Center: 1228 E. Breckinridge St; Louisville, KY 40204
+
+
+  Saturday Social:
+
+  Portal FIFTEENtwelve: 1535 Lytle St Suite 102, Louisville, KY 40203
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444432/ymopsjpfztyyenpnvnke.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6-TDyTNPa4gRU_Q82oFw5n0
+international: No
+hash: 1723248000000+ChIJszROdoxOa4gRVF_IGE9VBP8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwYqahjSLImlbt9tGQvZs.png?generation=1715444452668838&alt=media
+id: wYqahjSLImlbt9tGQvZs

@@ -1,0 +1,280 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/scandinavian-latin-festival/
+sourceUrl: https://facebook.com/events/1971737969945410
+venue:
+  address_components:
+    - long_name: 12N
+      short_name: 12N
+      types:
+        - street_number
+    - long_name: Norrtullsgatan
+      short_name: Norrtullsgatan
+      types:
+        - route
+    - long_name: Stockholm
+      short_name: Stockholm
+      types:
+        - postal_town
+    - long_name: Stockholms län
+      short_name: Stockholms län
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Sweden
+      short_name: SE
+      types:
+        - country
+        - political
+    - long_name: 113 27
+      short_name: 113 27
+      types:
+        - postal_code
+  formatted_address: Norrtullsgatan 12N, 113 27 Stockholm, Sweden
+  geometry:
+    location:
+      lat: 59.3449688
+      lng: 18.0491616
+    viewport:
+      northeast:
+        lat: 59.3463012802915
+        lng: 18.0504238802915
+      southwest:
+        lat: 59.34360331970849
+        lng: 18.0477259197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +46 8 555 352 02
+  name: Brygghuset
+  place_id: ChIJKfSZ2XGdX0YRwQFV811SYWo
+  url: https://maps.google.com/?cid=7665498604229165505
+  website: http://www.brygghuset.se/
+endDate: 1747609200000
+claimed: No
+link: https://www.scandinavianlatinfestival.com/tickets/
+description: >-
+  Welcome to the 2nd Edition of Scandinavian Latin Festival 
+
+  Stockholm - Sweden! Now with Salsa & Bachata
+
+  📆 16,17 & 18 of May 2025 ☆
+
+
+  --------------------------------------------------
+
+  📍LINK for tickets: FULL PASS is out!
+
+  https://www.scandinavianlatinfestival.com/tickets/
+
+
+  🔷 BLIND PASS - SOLD OUT
+
+  🔷 EARLY BIRD PASS - SOLD OUT
+
+
+  📍Get your pass before next price rice
+
+  --------------------------------------------------
+
+
+  What can you expect?
+
+  ✭ Top International & National Instructors ✭
+   ➡️ +25h Workshops
+  🔺 3 Amazing days together
+
+  🔺 3 Big parties 
+
+  🔺 International & National DJs
+
+  🔺 Fotographers & Videographers
+
+  🔺 Shows
+
+  🔺 Best team
+
+  🔺 Beautiful venue in the center of Stockholm
+
+
+  ☆☆☆ - INSTRUCTORS - ☆☆☆
+   Will be revealed SOON! Its an amazing line up!
+
+  ♦️ Konstantine & Arcadia 
+
+  ♦️ Alberto & Lisondra
+
+  ♦️ Diana 
+
+  ♦️ 
+
+  ♦️ 
+
+  ♦️ 
+
+  ♦️ 
+
+  ♦️ 
+
+  ♦️ 
+
+  ♦️ 
+
+  ♦️ 
+
+
+  ☆☆☆ - DJs - ☆☆☆
+
+  🎧 Will be revealed SOON! Its an amazing line up!
+
+  🎧  
+
+  🎧  
+
+  🎧  
+
+
+
+  ☆☆☆ - MEDIA - ☆☆☆
+
+  🎥 Azuras - Videographer 🇪🇪
+
+  🎥 Fernando - Videographer 🇬🇧 
+
+  📸 David West - photographer 🇸🇪
+
+  📸🎥 Lorito Art - photographer/Videographer 🇸🇪
+
+  🎥 Romero production - Videographer 
+
+
+
+  ☆☆☆ - Festival Instagram - ☆☆☆
+
+  https://www.instagram.com/scandinavianlatinfestival/
+
+
+  ☆☆☆ - Festival Facebook - ☆☆☆
+
+  https://www.facebook.com/scandinavianlatinfestival
+
+
+  ==================================
+
+
+  🎟️ ----- TICKETS & PURCHASE INFO ----- 🎟️
+
+
+
+  🌟 Blind Pass: SOLD OUT
+
+  🌟 Early Bird Pass: SOLD OUT
+
+
+  📍 TICKET POLICY:
+
+  Tickets are personal and they are non-refundable. You can change name for a small fee until 10 days before the festival
+
+
+  ==================================
+
+
+  💃🏻🕺🏽 ----- PARTY DRESS CODES ----- 💃🏻🕺🏽
+
+
+  🔺 Friday - Pyjamas Party
+
+  🔺 Saturday - Glamour Party
+
+  🔺 Sunday - Red Party
+
+
+  ==================================
+
+   🏛️----- AN AMAZING VENUE -----🏛️
+
+  🌟 Official Venue 🌟
+
+  🔸️ Brygghuset - Central Stockholm!
+
+  🔷 Norrtullsgatan 12N, 113 27 Stockholm
+
+  All Workshops + Parties + Shows
+
+   🏢----- HOTEL -----🏢
+  🌟 Hotels nearby 🌟
+
+  More info and promo code soon!
+
+
+  ==================================
+
+
+  ✈️ INFO FOR OUR ATTENDANTS FROM ABROAD AND SWEDEN 🛩️
+
+
+  📍 Main airport: Arlanda Airport
+
+  📍 Other airport: Bromma Airport & Skavsta Airport
+
+
+  🚌🚄 Transport to city: 
+
+  📍Flygbussar - you can buy the ticket trough an app or at the airport! (if you buy both way you get a discount)
+
+  📍Arlanda Express - you can buy the ticket at the airport!
+
+  📍Taxi + Bolt + Uber
+
+
+  Welcome to experience a new festival! 
+
+  / Scandinavian Latin Festival - Bachata Edition! 
+
+  Stockholm - Sweden
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/orv6bpeiajewwqfesfqi.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  createdAt: 1732293945584
+  importedAt: 1732293945584
+  updatedAt: 1732293945584
+  source: facebook
+  name: Scandinavian Latin Festival
+  facebook: https://www.facebook.com/scandinavianlatinfestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/kishk7cztorojj3cckug.jpg
+  username: scandinavian.latin.f
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+facebook: https://www.facebook.com/events/1971737969945410/
+facebookId: "1971737969945410"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Scandinavian Latin Festival - 16,17,18 May 2025
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1747400400000+ChIJKfSZ2XGdX0YRwQFV811SYWo
+startDate: 1747400400000
+id: zBTc6InOl3beocdednlr

@@ -1,0 +1,152 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/salsa-addicted-festival/
+name: Salsa Addicted Festival
+sourceUrl: https://facebook.com/events/977826957380706
+venue:
+  address_components:
+    - long_name: 7/A
+      short_name: 7/A
+      types:
+        - street_number
+    - long_name: Aleea F. C. Ripensia
+      short_name: Aleea F. C. Ripensia
+      types:
+        - route
+    - long_name: Timișoara
+      short_name: Timișoara
+      types:
+        - locality
+        - political
+    - long_name: Municipiu Timişoara
+      short_name: Municipiu Timişoara
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Județul Timiș
+      short_name: TM
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Romania
+      short_name: RO
+      types:
+        - country
+        - political
+    - long_name: "300575"
+      short_name: "300575"
+      types:
+        - postal_code
+  formatted_address: Aleea F. C. Ripensia 7/A, Timișoara 300575, Romania
+  geometry:
+    location:
+      lat: 45.7456841
+      lng: 21.2417493
+    viewport:
+      northeast:
+        lat: 45.74703463029149
+        lng: 21.2428916302915
+      southwest:
+        lat: 45.7443366697085
+        lng: 21.2401936697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +40 256 309 409
+  name: Hotel Boavista
+  place_id: ChIJQe30-4BnRUcRsJvgGTfrUPE
+  url: https://maps.google.com/?cid=17388656783167364016
+  website: https://hotelboavista.ro/
+endDate: 1742185800000
+claimed: No
+link: https://salsaaddictedfestival.com/#tickets
+description: >-
+  13 – 17 March 2025
+
+  Salsa Addicted Festival
+
+
+  Your Artists:
+
+  Terry & Cécile (FR)
+
+  Jose Díaz and Nerea Pérez - Euphoria DC (NL)
+
+  Samuel Kramer & Lisa Vogler (AT) - new entry
+
+  Julio Rojas & Wualexa (IT) - new entry
+
+
+
+  Your DJ's
+
+  Willy (NL) - new entry
+
+  Asmadi (NL) - new entry
+
+  Willy VipR (FR)
+
+  Morena (SLO)
+
+  Martina (UK)
+
+
+
+  Photo by George Bufan Photography
+
+  Videos by Star Dance Video
+
+
+
+  Event location (ws, Social by Day, Social by Night, shows): Hotel Boavista, Rooftop Venue
+
+
+  General Program:
+
+  13.03 (thursday) - pre-party at THE BASE Studio
+
+  14.03 (friday) - Social by Day, Social by Night
+
+  15.03 (saturday) - workshops, Social by Day, Shows, Social by Night
+
+  16.03 (sunday) - workshops, Social by Day, Social by Night
+
+
+  Passes and all the info on https://salsaaddictedfestival.com/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/gnykjcvfq2gv4i5hymsq.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJp7UPy31nRUcRSWeTc2Svf1M
+international: No
+visibility: Public
+org:
+  id: CoKAoCdn9jnxWlHZuyPk
+  username: SalsaAddictedFestival
+  name: Salsa Addicted Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954104/xlviahk1rl6omltkwvej.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/SalsaAddictedFestival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/977826957380706/
+facebookId: "977826957380706"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1741897800000+ChIJQe30-4BnRUcRsJvgGTfrUPE
+startDate: 1741897800000
+id: 4kJRT5Z8X2gbd1BX09Fb

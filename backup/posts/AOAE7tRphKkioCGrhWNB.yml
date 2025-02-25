@@ -1,0 +1,104 @@
+venue:
+  website: https://www.dancewithgeorge.com/
+  formatted_address: Landwehrstraße 24, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "24"
+      short_name: "24"
+    - types:
+        - route
+      long_name: Landwehrstraße
+      short_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ludwigsvorstadt-Isarvorstadt
+      short_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80336"
+      short_name: "80336"
+  url: https://maps.google.com/?cid=7158368571314548597
+  name: Dance With George Tanzschule München
+  geometry:
+    viewport:
+      south: 48.13505101970851
+      north: 48.13774898029151
+      east: 11.5632495302915
+      west: 11.5605515697085
+    location:
+      lng: 11.5618859
+      lat: 48.1364618
+  international_phone_number: +49 172 4513580
+  place_id: ChIJpyPj-_d1nkcRdS-G-EmiV2M
+endDate:
+  _seconds: 1629561600
+  _nanoseconds: 0
+link: https://www.dancewithgeorge.com/belly-dance-workshop/
+type: event
+duration: "120"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Ft245ZXWZa4VyDs71V1TpTcNwhkB2%2F5b14638a-0dde-4ea2-b8cc-467868bdb1d0?alt=media&token=06c18342-5158-4ac0-9c27-d47db6d5e781
+createdAt: 1629120627914
+watchersCount: 0
+price: 30€
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAOAE7tRphKkioCGrhWNB.png?generation=1629126695196225&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: AOAE7tRphKkioCGrhWNB
+views: 3
+updatedAt: 1629120627914
+updatedBy: t245ZXWZa4VyDs71V1TpTcNwhkB2
+visibility: Public
+eventType: Workshop
+organiser: Nada
+form: Yes
+createdBy: t245ZXWZa4VyDs71V1TpTcNwhkB2
+commentsCount: 0
+name: BellyDance Workshop
+online: No
+styles:
+  BellyDance:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-21T14:00:00.000Z
+username: Nada
+viewsCount: 36

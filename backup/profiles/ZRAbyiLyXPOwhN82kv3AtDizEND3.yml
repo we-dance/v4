@@ -1,0 +1,41 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626471579538
+createdBy: ZRAbyiLyXPOwhN82kv3AtDizEND3
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+pwaUsed: false
+cities:
+  ChIJOY2Z112hl0cRx5XYixJDp8Q: true
+updatedAt: 1626471583398
+birthday: 1962-01-19
+locales:
+  de: true
+  en: true
+gender: Female
+partner: Yes
+name: Susanne
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FZRAbyiLyXPOwhN82kv3AtDizEND3%2Fab484fee-e0ff-4e3c-917f-f6a1c206cf5b?alt=media&token=16257704-c16b-4ae0-9528-3c3148b06214
+weight: "55"
+permission: Yes
+objectives:
+  outdoors: true
+  indoors: true
+height: "167"
+username: Susunshine
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+lastLoginAt: 1636733449098
+daysUsed: 4
+id: ZRAbyiLyXPOwhN82kv3AtDizEND3

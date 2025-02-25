@@ -1,0 +1,191 @@
+createdAt: 1704822902913
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/382034687724749/
+source: facebook
+updatedAt: 1704822902913
+username: wedancebot
+venue:
+  formatted_address: 10 Circuit de La Foire Internationale, 1347 Kirchberg Luxembourg
+  website: http://www.thebox.lu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: LuxExpo The Box
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.171761919708499
+        lat: 49.63477896970851
+      northeast:
+        lng: 6.174459880291503
+        lat: 49.63747693029151
+    location:
+      lng: 6.1730517
+      lat: 49.63609140000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Circuit de La Foire Internationale
+      long_name: Circuit de La Foire Internationale
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Kirchberg
+      long_name: Kirchberg
+    - types:
+        - locality
+        - political
+      short_name: Luxembourg
+      long_name: Luxembourg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Luxembourg
+      long_name: Luxembourg
+    - types:
+        - country
+        - political
+      short_name: LU
+      long_name: Luxembourg
+    - types:
+        - postal_code
+      short_name: "1347"
+      long_name: "1347"
+  international_phone_number: +352 43 991
+  place_id: ChIJR2MoFsJPlUcRmac4gCr-zJc
+  url: https://maps.google.com/?cid=10938397053469370265
+visibility: Public
+endDate: 1734325200000
+org:
+  owner: ""
+  importedAt: 1704822904775
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/LuxembourgUnifiedDance
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/411212531_928192418671153_8044826421289396346_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=596444&_nc_ohc=uEwy3Sqsg-8AX9I6Frs&_nc_ht=scontent-atl3-1.xx&oh=00_AfCkTsBUaVfiSz3c4DNqHpywFzUyHIlt8bjjTZZ5sr3uMw&oe=65A1F99D
+  source: facebook
+  type: Organiser
+  createdAt: 1704822904775
+  owned: false
+  name: Luxembourg Unified Dance Festival
+  place: ChIJRyEhyrlFlUcR75LTAvZg22Q
+  updatedAt: 1704822904775
+  username: LuxembourgUnifiedDance
+claimed: No
+facebookId: "382034687724749"
+link: http://www.unifiedfestival.lu/
+description: |-
+  █▓░░★·.·´ ENGLISH ★·.·´ ░▒▓█
+  ☛☛☛☛ 12,13,14,15 December 2024
+
+  ‼️‼️‼️ 2 TYPES OF TICKET: EXCHANGEABLE & NOT EXCHANGEABLE ‼️‼️‼️
+
+  💥 ONE OF THE BIGGEST EUROPEAN FESTIVAL
+  💥 83 RENOWNED ARTISTS & DEEJAYS
+  💥 NEW ARTISTS AND DEEJAYS IN THE LINEUP
+  💥 5 DANCEFLOORS WITH 5 DIFFERENT TYPES OF MUSIC
+  💥 4 STARS OFFICIAL HOTEL
+  💥 NEW SHOWS
+
+  •••••••• CONFIRMED ARTISTS ••••••••
+  BACHATA:
+  🔥
+  🔥
+  🔥
+  🔥
+
+  KIZOMBA:
+  🔥
+  🔥
+  🔥
+  🔥
+
+  SALSA:
+  🔥
+  🔥
+  🔥
+  🔥
+
+
+  ✅ Tickets: http://unifiedfestival.lu/
+  ✅ Official Hotel: (coming soon)
+  —————————————————————
+  ✅ website: www.unifiedfestival.lu
+  ✅ contact: info@unifiedfestival.lu
+  ✅ Dancers Group: https://www.facebook.com/groups/922632941182402
+
+  ███▓▒░░.★·.·´ FRANÇAIS ★·.·´ .░░▒▓███
+  ☛☛☛☛ 12,13,14,15 Décembre 2024
+
+  ‼️‼️‼️ 2 TYPES DE TICKETS: ECHANGEABLE ET NON ECHANGEABLES ‼️‼️‼️
+
+  💥 UN DES PLUS GRANDS FESTIVAL EUROPEENS
+  💥 83 ARTISTES & DEEJAYS RENOMMES
+  💥 NOUVEAUX ARTISTES ET DEEJAYS DANS LE LINEUP
+  💥 5 DANCEFLOORS ET 5 DIFFERENTES TYPES DE MUSIQUE
+  💥 HÔTEL OFFICIEL 4 ETOILES
+  💥 NOUVEAUX SHOWS
+
+  •••••••• ARTISTES CONFIRMES ••••••••
+  BACHATA:
+  🔥
+  🔥
+  🔥
+  🔥
+
+  KIZOMBA:
+  🔥
+  🔥
+  🔥
+  🔥
+
+  SALSA:
+  🔥
+  🔥
+  🔥
+  🔥
+
+  ✅ Tickets: http://unifiedfestival.lu/
+  ✅ Hôtel Officiel: (à venir)
+  —————————————————————
+  ✅ website: www.unifiedfestival.lu
+  ✅ contact: info@unifiedfestival.lu
+  ✅ Groupe des festivaliers: https://www.facebook.com/groups/922632941182402
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: LUXEMBOURG UNIFIED DANCE FESTIVAL - OFFICIAL EVENT
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJRyEhyrlFlUcR75LTAvZg22Q
+international: No
+hash: 1734037200000+ChIJR2MoFsJPlUcRmac4gCr-zJc
+startDate: 1734037200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fkhg9wddMuMzjxGUZX5Qm.png?generation=1704822917041288&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853476/fcwjawdblkfq5on98xqi.jpg
+viewsCount: 19
+bookmarks: 1
+id: khg9wddMuMzjxGUZX5Qm

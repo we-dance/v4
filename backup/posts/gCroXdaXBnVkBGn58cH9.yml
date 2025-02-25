@@ -1,0 +1,184 @@
+importedAt: 1707431983045
+providerUpdatedAt:
+  _seconds: 1695985856
+  _nanoseconds: 0
+facebookId: "24122040560720499"
+facebook: https://www.facebook.com/events/24122040560720499/
+eventType: Festival
+createdAt: 1707431983045
+providerItemId: e24122040560720499@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: te5o6z1Subn2jDFbMi9r
+name: Kizinvasion Frankfurt 7th Edition
+location: Tanzschule Weiss
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1707431983045
+username: alexrazbakov
+venue:
+  formatted_address: Christian-Pleß-Straße 11-13, 63069 Offenbach am Main, Germany
+  website: https://www.tanzschule-weiss.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance School Weiss
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.763357519708498
+        lat: 50.0964593197085
+      northeast:
+        lng: 8.766055480291502
+        lat: 50.09915728029149
+    location:
+      lng: 8.7646876
+      lat: 50.09786589999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 11-13
+      long_name: 11-13
+    - types:
+        - route
+      short_name: Christian-Pleß-Straße
+      long_name: Christian-Pleß-Straße
+    - types:
+        - locality
+        - political
+      short_name: Offenbach am Main
+      long_name: Offenbach am Main
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Offenbach am Main
+      long_name: Kreisfreie Stadt Offenbach am Main
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: DA
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HE
+      long_name: Hessen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "63069"
+      long_name: "63069"
+  international_phone_number: +49 69 883848
+  place_id: ChIJ-5hWrAcOvUcRFRiB-hNJ7VM
+  url: https://maps.google.com/?cid=6047570224784414741
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707431989099
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/KizSalsaFrankfurt
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431989/pflihef94kjbvydy4fvu.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707431989099
+  owned: false
+  name: KizombaInvasion Frankfurt
+  place: ChIJ_UdLNRsSvUcREMawKVBDIgQ
+  updatedAt: 1707431989099
+  username: kizombainvasion.frankfurt
+claimed: No
+link: https://www.eventbrite.de/e/kizinvasion-frankfurt-offenbach-7-edition-tickets-728739919717?aff=oddtdtcreator
+description: |-
+  ★★★★STAY TUNED...★★★★
+  3 Dancefloors/ 3Tanzflächen (Urbankiz + Kizomba/Semba +Douceur-Room)
+  ++++++Location+++++++
+
+  Festival: Friday, Saturday, Sunday (Tanzschule Weiss (Offenbach))
+
+  Christian-Pleß-Strasse 
+  -5 min walk from Train station Offenbach, Offenbach am Main
+  -16 min from Frankfurt HBF
+
+  ++++++Djs+++++++
+  Dj Nicelife
+  Dj Ecozinho (Angola/Germany)
+  Dj Narc6 (Germany)
+  ...
+  and more
+
+
+
+  ++++++Teachers+++++++
+  Dasmara dos Santos(Angola)
+  Franky Kizzfly & Kerstin (Frankfurt)
+  ...
+  and More
+
+  +++📷Photos/Fotos/Pics📷+++++++
+   🔥Stay tune 🔥  
+  ++++++Hotel+++++++
+  -Hotel Offenbacher Hof 
+  - City Hotel Kaiserhof
+   
+  Hotel Holiday Inn Express-Offenbach, IHG Hotel 1,5 km from Danceschool Weiss.
+
+  ++++++Parking near  venue+++++++
+  -Parkhaus Waldstrasse
+  Waldstraße 44, 63065 Offenbach am Main : 500 m
+  -Hospitalstraße 9 Parking
+  Hospitalstraße 9, 63065 Offenbach am Main :  800 m
+
+  +++Festivalplan / Festival schedule+++
+
+  ✨✨✨KizInvasion Frankfurt 7th Edition✨✨✨
+  Festivalplan / Festival schedule
+  +++Location+++
+  Tanzschule Weiss
+  Christian-Pleß-Straße 11-13
+  63069 Offenbach am Main
+  +++Freitag / Friday+++
+  19:00 Check-in(pick-up your pass)
+  20:00-21:00 workshop 
+  21:00-22:00 workshop 
+  22:00-05:00 Friday Night Party
+  +++Samstag / Saturday+++
+  12:45 Check-in
+  13:00 – 18:00 Workshops
+  14:00 – 21:00 Social
+  21:15 – 05:00 Saturday Night Party
+
+  +++Sonntag / Sunday+++
+  11:45 Check-in
+  12:00 – 18:30 Workshops
+  14:00 – 20:30 Social
+  20:30 – 22:00 Pause/Break
+  22:00 – 04:00 Sunday Night Party
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707431990/aqbb0pzb4exaqeeimdyl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_UdLNRsSvUcREMawKVBDIgQ
+international: No
+hash: 1727460000000+ChIJ-5hWrAcOvUcRFRiB-hNJ7VM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgCroXdaXBnVkBGn58cH9.png?generation=1707432000854102&alt=media
+endDate: 1727658000000
+providerCreatedAt: 1695983981000
+startDate: 1727460000000
+bookmarks: 1
+viewsCount: 18
+id: gCroXdaXBnVkBGn58cH9

@@ -1,0 +1,160 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13373901970849
+      north: 48.13643698029149
+      east: 11.5813456802915
+      west: 11.5786477197085
+    location:
+      lng: 11.5800076
+      lat: 48.1351427
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  international_phone_number: +49 172 8533891
+endDate: 2021-11-14T20:00:00.000Z
+claimed: No
+organisedBy: ""
+link: https://forms.gle/JUEnoTTVGEgsiHL36
+description: >-
+  Dansecrecy München
+
+  🌟 𝐃𝐀𝐓𝐔𝐌 : 14.11.2021 / SONNTAG
+
+  • • • 
+
+  🌟 𝐋𝐎𝐂𝐀𝐓𝐈𝐎𝐍 :  Salsa Club Munich, Westenriederstraße 41, 80331 München
+
+  • • • 
+
+  🌟 𝐀𝐑𝐓𝐈𝐒𝐓𝐄𝐍 : MELVIN & GATICA + IMRAN & NAIDA + DJ IMRAN
+
+  • • • 
+
+  🌟 𝐏𝐑𝐎𝐆𝐑𝐀𝐌 : 
+
+  • 17:30 - 18:30 - Workshop (W) - Imran und Naida / Style : BachaaKizzz / Open level
+
+  • 19:00 - 21:00 - Bootcamp (B) Melvin und Gatica / Style : Bachata Influence / Intermediate-Advance level
+
+  •  21:00 - 00:00 - Party (P) mit DJ Imran
+
+  • • • 
+
+  🌟 𝐁𝐄𝐒𝐓Ä𝐓𝐈𝐆𝐔𝐍𝐆 : Ihr kriegt eine E-mail bestätigung
+
+  • • • 
+
+  🌟 𝗦𝗖𝗛𝗡𝗘𝗟𝗟𝗧𝗘𝗦𝗧 : Geimpfte, Genesene, Getestete ( Kein PCR pflicht ) 
+
+  • • • 
+
+  🌟 𝗘𝗜𝗡𝗧𝗥𝗜𝗧𝗧 : 
+
+  • W + B + P = 40 Euro
+
+  • W + B = 25 Euro
+
+  • P = 20 Euro
+
+  • Bitte vor Ort bezahlen
+
+  • • • 
+
+  𝐀𝐥𝐥𝐠𝐞𝐦𝐞𝐢𝐧e 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 R𝐞𝐠𝐞𝐥𝐧 𝐰𝐞𝐫𝐝𝐞𝐧 𝐢𝐦𝐦𝐞𝐫 𝐛𝐞𝐟𝐨𝐥𝐠𝐭 & 𝐫𝐞𝐬𝐩𝐞𝐤𝐭𝐢𝐞𝐫𝐭
+
+  • • • 
+
+  • Fragen : Orga München [MOADC] - Migo (+49 175 57112969 ) oder Anna (+49 176 83366552)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F7ff71169-4af5-4af4-8938-0a71f9d6c3b2?alt=media&token=e63d4640-3ecc-4112-885d-db1d96dafb56
+duration: custom
+createdAt: 1634764974963
+watchersCount: 0
+price: 25 EUR
+commentsLast: ~
+promoter: Vitali
+id: AXib82bhrplQmRjF4zVP
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+international: No
+views: 38
+updatedAt: 1634764974963
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Bachskizz Workshop und Bachata Bootcamp
+online: No
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-14T16:30:00.000Z
+username: Vitali
+viewsCount: 64

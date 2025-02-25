@@ -1,0 +1,141 @@
+endDate: 1714341600000
+sourceUrl: https://facebook.com/events/s/baila-by-meraki/781970143405044/
+createdAt: 1711819744825
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1711818755000
+updatedAt: 1711819744825
+importedAt: 1711819744825
+providerUpdatedAt: 1711818755000
+facebookId: "781970143405044"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/baila-by-meraki/781970143405044/
+eventType: Party
+providerItemId: c4s3ap9jccsj0b9j74q3ib9kclj68b9p60q68b9g60qjiohmcgomccr66s@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Baila! by Meraki
+location: 3rd Turn Oldham Gardens
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714330800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 6300 Old Lagrange Rd, Crestwood, KY 40014, USA
+  website: http://www.3rdturnbrewing.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: 3rd Turn Oldham Gardens
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.4645144302915
+        lat: 38.3312249197085
+      northeast:
+        lng: -85.4618164697085
+        lat: 38.3339228802915
+    location:
+      lng: -85.46311419999999
+      lat: 38.33257649999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6300"
+      long_name: "6300"
+    - types:
+        - route
+      short_name: Old Lagrange Rd
+      long_name: Old Lagrange Road
+    - types:
+        - locality
+        - political
+      short_name: Crestwood
+      long_name: Crestwood
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oldham County
+      long_name: Oldham County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40014"
+      long_name: "40014"
+    - types:
+        - postal_code_suffix
+      short_name: "9461"
+      long_name: "9461"
+  international_phone_number: +1 502-482-3373
+  place_id: ChIJDRDXFz-aaYgRfu5NkJhr1H8
+  url: https://maps.google.com/?cid=9211105440879734398
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/chelseyowenmeraki
+  name: Meraki Dance Company
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711819752/bcm7zyaudvf3skckxp5t.jpg
+  bio: ""
+  id: 3FKJbpx8JmGPxb7oiTCp
+  instagram: ""
+  username: chelseyowenmeraki
+claimed: No
+facebook: https://www.facebook.com/events/781970143405044/
+link: ""
+description: >-
+  Introducing Baila! by Meraki: a brand, new event focused on afternoon fun,
+  dance and community! We are thrilled to dance at 3rd Turn Oldham Gardens in
+  their heated greenhouse event space. 
+
+
+  2:45pm - Doors Open
+
+  3pm-3:30pm - Intro Salsa Class with Chelsey Owen
+
+  3:30pm-6:00pm - Open Dancing with De La Colinas
+
+
+  $10 cover (cash/Venmo)
+
+  ALL AGES (Youth 16 & under free)
+
+
+  Location:
+
+  3rd Turn Oldham Gardens
+
+  6300 Old Lagrange Rd; Crestwood, KY 40014
+
+  *Walk through taproom to outdoor garden to find the covered greenhouse*
+
+  *concrete floor. We do not recommend suede sole dance shoes*
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711819761/xzg8jxhdetzgs2h7zlwp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJCYDfhw3ox4cRZB4EeN3JxB4
+international: No
+hash: 1714330800000+ChIJDRDXFz-aaYgRfu5NkJhr1H8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FeFf0bAMWv8pW9G6uL5on.png?generation=1711819778340860&alt=media
+id: eFf0bAMWv8pW9G6uL5on

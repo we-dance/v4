@@ -1,0 +1,77 @@
+venue:
+  formatted_address: C. José Tomás Borrego, 15, 11140 Conil de la Frontera, Cádiz, Spain
+  website: https://www.instagram.com/Laboveditadelmedio_conil
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The Middle Bovedita
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -6.088041169708498
+      south: 36.2744812697085
+      north: 36.27717923029149
+      west: -6.090739130291503
+    location:
+      lng: -6.089392999999999
+      lat: 36.275831
+  address_components:
+    - types:
+        - street_number
+      short_name: "15"
+      long_name: "15"
+    - types:
+        - route
+      short_name: C. José Tomás Borrego
+      long_name: Calle José Tomás Borrego
+    - types:
+        - locality
+        - political
+      short_name: Conil de la Frontera
+      long_name: Conil de la Frontera
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: CA
+      long_name: Cádiz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: AN
+      long_name: Andalucía
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "11140"
+      long_name: "11140"
+  international_phone_number: +34 626 26 01 52
+  place_id: ChIJUauiBiI4DA0RHnblXVgYrL4
+  url: https://maps.google.com/?cid=13739383331012048414
+receiver: ""
+question: ""
+description: Nice small local with regular parties on Friday and Sunday. Friday
+  it starts at 22:30-23:00 and it offers a free bachata sensual workshop. Sunday
+  it starts at 19:30-20:00
+stars: 4
+type: review
+dances:
+  - "0"
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+createdAt: 1708253470144
+createdBy: 9M23r51K7BhWQ3jApcrmchnddrn2
+style: Casino
+place: ChIJ0QzGah84DA0RLtChBXkrNPU
+username: salseroloco
+upvotes:
+  count: 1
+  usernames:
+    - alexrazbakov
+link: https://www.facebook.com/groups/tropicalcadiz/
+updatedAt: 1708852548942
+id: YDLhlYLNGNHlSh1hTk0D

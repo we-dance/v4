@@ -1,0 +1,172 @@
+createdAt: 1704822879436
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1422616941872550/
+source: facebook
+updatedAt: 1704822879436
+username: wedancebot
+venue:
+  formatted_address: C. Galileo Galilei, 18-1, 28806 Alcalá de Henares, Madrid, Spain
+  website: https://islagarenaresort.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Isla Garena Resort
+  geometry:
+    viewport:
+      southwest:
+        lng: -3.402375180291502
+        lat: 40.4846334697085
+      northeast:
+        lng: -3.399677219708499
+        lat: 40.4873314302915
+    location:
+      lng: -3.4011242
+      lat: 40.48600150000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 18-1
+      long_name: 18-1
+    - types:
+        - route
+      short_name: C. Galileo Galilei
+      long_name: Calle Galileo Galilei
+    - types:
+        - locality
+        - political
+      short_name: Alcalá de Henares
+      long_name: Alcalá de Henares
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: M
+      long_name: Madrid
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MD
+      long_name: Comunidad de Madrid
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "28806"
+      long_name: "28806"
+  international_phone_number: +34 636 85 90 97
+  place_id: ChIJEWGkBO1JQg0RupylwzWIA68
+  url: https://maps.google.com/?cid=12611073146064575674
+visibility: Public
+endDate: ""
+org:
+  owner: ""
+  importedAt: 1704822889234
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Sbk-Europe/100083255276338/
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311624481_135416339243541_1555343751277661313_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=11e7ab&_nc_ohc=cGFgOkzTnTEAX84ZP7o&_nc_ht=scontent-iad3-1.xx&oh=00_AfDHeczoCZwUgAMAroS6kLSi5TKQq_G_USdOu4rY8mw1xA&oe=65A28D6B
+  source: facebook
+  type: Organiser
+  createdAt: 1704822889234
+  owned: false
+  name: Sbk Europe
+  place: ChIJC-ZpxthLQg0RIxeyVBTrVQU
+  updatedAt: 1704822889234
+  username: SbkEurope
+claimed: No
+facebookId: "1422616941872550"
+link: https://lasalsadelbaile.com/congreso/ROSAS-INTERNATIONAL-CONGRESS-1612.html?ref=SBK
+description: >-
+  🔐 PROMOCODE 5€: SBK
+
+  🛒 / 📲💻: https://lasalsadelbaile.com/congreso/ROSAS-INTERNATIONAL-CONGRESS-1612.html?ref=SBK
+
+  🏦 SIN GASTOS DE GESTIÓN EN VENTA DIRECTA. Contactar por privado
+
+
+  📍Madrid  
+
+  📆 4-7 de Abril de 2024 
+
+  🏨 Hotel Isla de la Garena (Alcala de Henares), C/ Galileo Galilei, 18
+
+
+  💃🏻🕺🏻 Artistas confirmados:
+
+  RONALD Y ALBA
+
+
+  SERGIO Y MARICHU
+
+  PANAGIOTIS Y MYRTO
+
+  GIGI S
+
+  DARIO Y SARA
+
+  ANTONI Y BELEN
+
+  LUIS Y ALBA
+
+  CANDIDO Y TAMARA
+
+  ARLU Y FANNY
+
+  BASI Y DEISY
+
+  MARLEY Y LEO
+
+  EDU Y VIRGINIA
+
+  MARTA Y ROY
+
+  JAVIER PADILLA
+
+  ALESSIO Y NATALIA
+
+  LADIES ESTILOS UNIDOS POR ALBA SÁNCHEZ 
+
+
+  Y... MAS ARTISTAS POR CONFIRMAR!
+
+
+  🎟️ Full pass da acceso a todos los talleres, shows y sociales
+
+
+  #bachataistakingover #bachata #bachateros #bachatadancing #bachatachallenge #bachatafusion #bachatadance #bachatadancers #bachataspain. #bachatacongress  #bachatasensual #bachataysalsa #bachataurbana #sbkeurope #princeroyce #bachatadominicana #bachatabrussels
+
+  #bachatabe gium #danceclass #quefairebruxelles
+
+  #bachatatradicional #traditionalbachata #dance
+
+  #bachataclass #joinus #danielydesiree #simoneydanilabachata
+program: []
+eventType: Congress
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: ROSAS INTERNATIONAL CONGRESS 2024 (EDICIÓN CASA DEL DRAGÓN)
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJC-ZpxthLQg0RIxeyVBTrVQU
+international: No
+hash: 1712224800000+ChIJEWGkBO1JQg0RupylwzWIA68
+startDate: 1712224800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fu9S1L3YJWm811oXtH2i7.png?generation=1704822913808280&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853613/cpuicph1smycoxlfayxx.jpg
+viewsCount: 41
+id: u9S1L3YJWm811oXtH2i7

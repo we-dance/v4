@@ -1,0 +1,108 @@
+endDate: 1728522000000
+sourceUrl: https://www.facebook.com/events/186003404575067/?event_time_id=186003434575064
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1699993232000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1724793900000
+facebookId: "186003434575064"
+facebook: https://www.facebook.com/events/186003404575067/?event_time_id=186003434575064
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/186003404575067/?event_time_id=186003434575064
+eventType: Party
+providerItemId: e186003434575064@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Mi Salsa Dura in the Park!
+location: Garibaldi Statue
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728511200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Unnamed Road, Chicago, IL 60614, USA
+  website: https://www.chicagoparkdistrict.com/parks-facilities/guiseppe-garibaldi-monument
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Giuseppe Garibaldi Monument
+  geometry:
+    viewport:
+      southwest:
+        lng: -87.63211898029152
+        lat: 41.91509876970849
+      northeast:
+        lng: -87.6294210197085
+        lat: 41.91779673029149
+    location:
+      lng: -87.63123960000001
+      lat: 41.91619189999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Chicago
+      long_name: Chicago
+    - types:
+        - neighborhood
+        - political
+      short_name: Lincoln Park
+      long_name: Lincoln Park
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Cook County
+      long_name: Cook County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IL
+      long_name: Illinois
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "60614"
+      long_name: "60614"
+  place_id: ChIJ_crp01LTD4gReECzAqyVOXg
+  url: https://maps.google.com/?cid=8663119924236075128
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/misalsadurabaile
+  name: Mi Salsa Dura Baile in the Park
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417991/ybaluuwhm1iwxwctrpul.jpg
+  bio: ""
+  id: AeivrZEuq92rH7YIg28b
+  instagram: ""
+  username: misalsadurabaile
+claimed: No
+link: https://www.eventbrite.com/e/881653879487?aff=oddtdtcreator
+description: "Join us for an electrifying Mi Salsa Dura Baile in the park! Shake
+  your hips to the rhythm of Latin music. Don't miss this vibrant event on
+  Wednesday's. Be there! "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418014/hzpiwxnjnifybzgz0ind.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJHxiiuRvTD4gRkjkPmU415xk
+international: No
+hash: 1728511200000+ChIJ_crp01LTD4gReECzAqyVOXg
+id: P2KOoHVmliDNuJKkGSYl

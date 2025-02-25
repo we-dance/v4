@@ -1,0 +1,126 @@
+venue:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  website: http://www.maillingerstudios.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Maillinger Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5473257802915
+      south: 48.1478957697085
+      north: 48.1505937302915
+      west: 11.5446278197085
+    location:
+      lng: 11.5458639
+      lat: 48.1492179
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa926f8da-fcc0-4484-8f02-f2b5169ffd0c?alt=media&token=3bc31b37-bc8d-4b56-8620-4c5b15d6a7ca
+  room: Saal 2
+  url: https://maps.google.com/?cid=13863343811033550901
+  place_id: ChIJc2-q5aJ3nkcRNdDDt759ZMA
+  international_phone_number: +49 89 36108944
+endDate: 2023-01-24T20:30
+claimed: No
+link: https://www.annamilite.com/service-page/bachata-lady-styling?referral=service_list_widget&location=52c786e1-7d62-4b8f-a0c4-412d95a3bac1
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F479f086f-15ee-4ff2-b53d-731041621301?alt=media&token=1730f9cf-9b06-4d24-b493-fe75cd66ec2e
+createdAt: 1674120638126
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+paypal: ""
+updatedAt: 1674120638126
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  instagram: https://instagram.com/milite_anna
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  username: AnnaMil
+eventType: Course
+form: No
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+name: Bachata LadyStyling Classes
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-24T19:30
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNhDriIcS82PheBCPgeAu.png?generation=1674120993901143&alt=media
+telegram:
+  requestedAt: 1674121000980
+  messageUrl: https://t.me/WeDanceMunich/803
+  publishedAt: 1674121004311
+  messageId: 803
+  state: published
+instagram:
+  requestedAt: 1674121007372
+  messageUrl: https://instagram.com/p/Cnl4rJ_ug1V
+  publishedAt: 1674121021769
+  messageId: Cnl4rJ_ug1V
+  state: published
+viewsCount: 38
+id: NhDriIcS82PheBCPgeAu

@@ -1,0 +1,86 @@
+venue:
+  formatted_address: Meşrutiyet, Selanik Cd No:66, 06420 Çankaya/Ankara, Türkiye
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Selanik Cd No:66
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 32.8589105302915
+      south: 39.9161022697085
+      north: 39.9188002302915
+      west: 32.8562125697085
+    location:
+      lng: 32.8574649
+      lat: 39.9174315
+  address_components:
+    - types:
+        - street_number
+      short_name: "66"
+      long_name: "66"
+    - types:
+        - route
+      short_name: Selanik Cd
+      long_name: Selanik Caddesi
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: Meşrutiyet
+      long_name: Meşrutiyet
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Çankaya
+      long_name: Çankaya
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Ankara
+      long_name: Ankara
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+    - types:
+        - postal_code
+      short_name: "06420"
+      long_name: "06420"
+  place_id: Ej5NZcWfcnV0aXlldCwgU2VsYW5payBDZCBObzo2NiwgMDY0MjAgw4dhbmtheWEvQW5rYXJhLCBUw7xya2l5ZSIwEi4KFAoSCbX-KpWrT9MUET6qiKkqKlAcEEIqFAoSCZXDLQirT9MUEZiOyJ2xWwVW
+  url: https://maps.google.com/?q=Me%C5%9Frutiyet,+Selanik+Cd+No:66,+06420+%C3%87ankaya/Ankara,+T%C3%BCrkiye&ftid=0x14d34fab952afeb5:0x7e5bf2ab33c1b243
+endDate: 2023-05-09T00:00
+claimed: No
+description: Bachata and Kizomba Dance Gecesi
+program: []
+type: event
+duration: 60
+createdAt: 1683656244348
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJsS1zINVH0xQRjSuEwLBX3As
+updatedAt: 1683656244348
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/kizz_yz
+  username: kizz_yz
+eventType: Party
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    Bilal: true
+name: Nova Dance Night
+styles: {}
+startDate: 2023-05-09T20:00
+username: Bilal
+viewsCount: 2
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2F2c9b4eb5-a32b-4a2d-84b2-2b596bc2fb90?alt=media&token=588abfc5-71d3-4ab1-86c9-bc5b2234f21a
+online: No
+id: RnT9P9QnwTLRFXInhyEr
+international: No
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FRnT9P9QnwTLRFXInhyEr.png?generation=1683661528267589&alt=media
+instagram:
+  requestedAt: 1683661551267
+  state: requested

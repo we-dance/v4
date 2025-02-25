@@ -1,0 +1,140 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  name: Anglerstraße 6
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365722802915
+      south: 48.1329221197085
+      north: 48.1356200802915
+      west: 11.5338743197085
+    location:
+      lng: 11.5351422
+      lat: 48.13432659999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  url: https://maps.google.com/?q=Anglerstra%C3%9Fe+6,+80339+M%C3%BCnchen,+Germany&ftid=0x479dd8a8ae673a6f:0x814b753d2a7c7abc
+  room: Tanzstudio Rebecca, "Studio Weiss"
+  place_id: ChIJbzpnrqjYnUcRvHp8Kj11S4E
+endDate: 2022-09-21T20:00
+claimed: No
+description: >-
+  Salsa Cubana Workshop (Advance)
+
+  🌴💃🕺😊🌴💃🕺
+
+
+  Am 21.Sept. 2022
+
+  ⏰ 19:00-20:00Uhr
+
+  🌎 Tanzschule Rebecca
+
+  Anglerstrasse 6/ 
+
+  München
+
+  💰15€
+
+
+  ⚠️Dieser Workshop ist für alle Salseras y Salseos geeignet, die schon mit den Salsa Cubana Steps, Elementen und Figuren(Intermediate) vertraut sind und sich weiterentwickeln möchten.
+
+
+  👉 Anmeldung direkt bei Peyman😉😎
+
+  ☎️ 0176-41715065
+type: event
+promo: ""
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FlQ0ufxwmuwhRtL13sVsCScbrscu2%2Fe0007987-c544-4c2b-98a7-06c91db04060?alt=media&token=589e0c27-9673-4fa9-bf02-5987f0413ed1
+createdAt: 1663004845424
+artists: []
+price: 15 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1663004845424
+updatedBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/peyman.saba/
+  name: Peyman
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4ce2621c-a5b9-4e0b-9c0d-06eb8d64779b?alt=media&token=4a2b45aa-4ecf-4182-b206-eb8db09f1072
+  bio: ""
+  instagram: ""
+  id: MSxq3sqswZe9VfpHqFsI7OGngSD3
+  username: Peyman
+eventType: Workshop
+form: No
+createdBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+watch:
+  count: 1
+  list:
+    Franzi: true
+name: Salsa Cubana Workshop (Advance)
+online: ""
+styles:
+  RuedaDeCasino:
+    level: Advanced
+    highlighted: false
+    selected: true
+startDate: 2022-09-21T19:00
+username: Franzi
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNJlliKtbgNCqtWJS5kod.png?generation=1663583525799704&alt=media
+telegram:
+  requestedAt: 1663583531068
+  messageUrl: https://t.me/WeDanceMunich/602
+  publishedAt: 1663583536145
+  messageId: 602
+  state: published
+star:
+  count: 0
+  list: {}
+viewsCount: 75
+id: NJlliKtbgNCqtWJS5kod

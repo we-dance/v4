@@ -1,0 +1,143 @@
+endDate: 1711398600000
+sourceUrl: https://www.facebook.com/events/866323875068506/?event_time_id=866323901735170
+createdAt: 1711220914623
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1701029394000
+updatedAt: 1711220914623
+importedAt: 1711220914623
+providerUpdatedAt: 1705480477000
+facebookId: "866323901735170"
+facebook: https://www.facebook.com/events/866323875068506/?event_time_id=866323901735170
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/866323875068506/?event_time_id=866323901735170
+eventType: Workshop
+providerItemId: e866323901735170@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SALSA ON 1 - Intermediate Level Workshops
+location: Little Havana
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711389600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Little Havana, Miami, FL, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Little Havana
+  geometry:
+    viewport:
+      southwest:
+        lng: -80.25627664012629
+        lat: 25.75718694986733
+      northeast:
+        lng: -80.19947012048037
+        lat: 25.7942158386807
+    location:
+      lng: -80.2377078
+      lat: 25.7776438
+  address_components:
+    - types:
+        - neighborhood
+        - political
+      short_name: Little Havana
+      long_name: Little Havana
+    - types:
+        - locality
+        - political
+      short_name: Miami
+      long_name: Miami
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Miami-Dade County
+      long_name: Miami-Dade County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: FL
+      long_name: Florida
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+  place_id: ChIJ558VBRe32YgRidtyRyNfJTU
+  url: https://maps.google.com/?q=Little+Havana,+Miami,+FL,+USA&ftid=0x88d9b71705159fe7:0x35255f234772db89
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/lento.club
+  name: Lento Club Wien
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220943/hxewvvwhqwnew3arpzej.jpg
+  bio: ""
+  id: Xd7YaeXQULPE1lSuEoRL
+  instagram: ""
+  username: lento.club
+claimed: No
+link: ""
+description: >-
+  Step up your salsa game with our Intermediate Salsa On 1 Workshops! 🔥
+
+  Designed for dancers who already have a solid grasp of the fundamentals, this workshop will fine-tune your skills and introduce more complex patterns and styling.
+
+  You'll explore advanced footwork, intricate turn patterns, and dynamic partner work, all while maintaining the characteristic timing of Salsa On 1.
+
+  Karina will provide valuable insights to help you refine your technique and musicality, ensuring you shine brightly on the dance floor🔥
+
+  Gonna be 🔥, See you there!
+
+  _
+
+  Event Agenda:
+
+  19:00-20:15 Intermediate level I
+
+  20:15-21:30 Intermediate level II
+
+  ___
+
+  Prices:
+
+  10€/ Workshop
+
+  (8€/ Workshop with Student-ID)
+
+  ___
+
+  - Drop-by / No registration required or long term commitment approach!
+
+  - No partner required, we rotate dance partners!
+
+  ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+  Photo & Video Disclaimer: Lento Club reserves the right to use any photograph/video taken at any event without the expressed written permission of those included within the photograph/video.
+
+  Attendees who do not wish to have their image recorded for distribution should make their wishes known to the photographer, and/or the event organizers, and/or contact info@lentoclub.com.
+
+  Thank you for your understanding and cooperation!
+
+  ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711220956/h4uljxdbf3gh13jvnmgk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ558VBRe32YgRidtyRyNfJTU
+international: No
+hash: 1711389600000+ChIJ558VBRe32YgRidtyRyNfJTU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtORG5lKMHzFQq3wlqfXX.png?generation=1711220971517284&alt=media
+id: tORG5lKMHzFQq3wlqfXX

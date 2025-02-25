@@ -1,0 +1,169 @@
+venue:
+  formatted_address: Heßstr. 48b-UG, 80798 München, Germany
+  website: http://www.salsabor.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80798"
+      short_name: "80798"
+  url: https://maps.google.com/?cid=13068910098957006739
+  name: Salsabor Dance Academy
+  geometry:
+    viewport:
+      south: 48.1506543197085
+      north: 48.1533522802915
+      east: 11.5672969802915
+      west: 11.5645990197085
+    location:
+      lng: 11.5659788
+      lat: 48.1520512
+  place_id: ChIJneG5QOZ1nkcRk_fYMX4YXrU
+  international_phone_number: +49 89 52059610
+endDate: 2021-11-21T01:00:00.000Z
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+claimed: Yes
+description: >
+  SALSABOR 33rd ANNIVERSARY
+
+
+  Samstag, 20. November 2021
+
+
+  PROGRAMM
+
+
+  ► WORKSHOPS SALSA / BACHATA 
+
+  11:00 - 16:45 Uhr
+
+  Die Workshops sind für Tänzer/innen ab Intermediate Level gedacht.
+
+  Für Workshops mit Partnerwork-Bezeichnung müsst ihr selbst eine/n Tanzpartner/in mitbringen.
+
+  Bei Solo-Workshops benötigt ihr keine/n Tanzpartner/in.
+
+
+  PARTY
+
+
+  ► SALSA / MAMBO AREA
+
+  21:00 - 02:00 Uhr mit DJ Juan Carlos
+
+
+  ► BACHATA AREA
+
+  21:00 - 02:00 Uhr mit DJ Duc
+
+
+  PREISE
+
+
+  ► FULL PASS (WORKSHOPS + PARTY)
+
+  Standard: 65,- €
+
+  Studenten: 55,- €
+
+
+  ► PARTY
+
+  Standard: 12,- €
+
+  Studenten:10,- €
+
+
+  ANMELDUNG
+
+
+  Anmeldungen für die Workshops bitte über unser Anmeldeformular www.salsabor.de/kursanmeldung/ . Die Teilnahme wird dann bar vor Ort bezahlt. 
+
+  Für die Party alleine ist keine Anmeldung notwendig.
+
+
+  Für die gesamte Veranstaltung gilt die 2G+ Regel.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6J1CzSRNBZbmuKb2J5E0YZRLC0k2%2Fe36090ef-e8be-4132-821f-ac5b6cf22a78?alt=media&token=ee1d0846-5094-4d3f-9b11-31cd19bbf8f1
+duration: custom
+createdAt: 1636425887886
+watchersCount: 0
+price: 10-12 EUR
+commentsLast: ~
+promoter: Carlos
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: ykXB5j2aHhZcfZ2MrCWS
+international: No
+views: 19
+updatedAt: 1636425887886
+updatedBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+visibility: Public
+eventType: Festival
+organiser: ""
+form: No
+createdBy: 6J1CzSRNBZbmuKb2J5E0YZRLC0k2
+commentsCount: 0
+name: Salsabor 33rd Anniversary 2G+
+online: No
+styles:
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-11-20T10:00:00.000Z
+username: Carlos
+viewsCount: 21

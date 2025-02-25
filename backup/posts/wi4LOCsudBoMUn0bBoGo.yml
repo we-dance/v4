@@ -1,0 +1,136 @@
+endDate: 1723327200000
+sourceUrl: https://www.facebook.com/events/464327853189458
+createdAt: 1722866438670
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1722862880000
+updatedAt: 1722866438670
+importedAt: 1722866438670
+providerUpdatedAt: 1722862880000
+facebookId: "464327853189458"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/464327853189458
+eventType: Party
+providerItemId: 47678-1723316400-1723327200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: BudaPart Stég, BudaPart, Budapest, 1117, Magyarország
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723316400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Buda-part tér, 1117 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Buda-part tér
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.05762181970849
+        lat: 47.4667328197085
+      northeast:
+        lng: 19.0603197802915
+        lat: 47.4694307802915
+    location:
+      lng: 19.0589708
+      lat: 47.4680818
+  address_components:
+    - types:
+        - route
+      short_name: Buda-part tér
+      long_name: Buda-part tér
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XI. kerület
+      long_name: XI. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1117"
+      long_name: "1117"
+  place_id: ChIJi1z_GKjdQUcRpocz-XBBML4
+  url: https://maps.google.com/?q=Budapest,+Buda-part+t%C3%A9r,+1117+Hungary&ftid=0x4741dda818ff5c8b:0xbe304170f93387a6
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1722866452136
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/kizzpinkdance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722866452/lkubgvr0neijz1ptgj5m.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1722866452136
+  owned: false
+  name: KizzPink
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1722866452136
+  username: kizzpinkdance
+claimed: No
+facebook: https://www.facebook.com/events/464327853189458/
+link: ""
+description: >-
+  Scroll down for English!
+
+  """"""""""""""""""""
+
+  A nap már lebukott, de a fények még mindig ragyognak. A két tánctér közül az egyiken a bachata dallamok szólnak, a másikon pedig az urbankiz ritmusok. Az emberek boldogan táncolnak, mosolyognak, és a jó hangulat terjeng a levegőben.
+
+
+  A környezet is lenyűgöző: a kivilágított épületek hátteret adnak a bulinak. Az emberek színes ruhákban vannak, és mintha mindenki rózsaszín szemüveget viselne – hiszen ez a buli a pozitív energiáról, a barátságról és a boldogságról szól.
+
+
+  Talán egy új barátra lelsz a táncparketten, vagy csak egyszerűen élvezed a zenét és a pillanatot. A lényeg, hogy itt mindenki jól érzi magát, és a tánc, a zene és a jó társaság összeköti az embereket.
+
+
+  Szóval gyere, és lásd a világot rózsaszínben! 🌸💃
+
+  """""""""""""""""""""""""""""""""""""""""""""""""""
+
+  The sun has already set, but the lights are still shining. On one of the dance floors, the bachata tunes are playing, while on the other, the urban beats are pulsing. People are dancing happily, smiling, and the good mood is in the air.
+
+
+  The environment is also stunning: the illuminated buildings provide a backdrop for the party. People are dressed in colorful clothes, and it’s as if everyone is wearing rose-colored glasses – because this party is all about positive energy, friendship, and happiness.
+
+
+  Maybe you’ll find a new friend on the dance floor, or maybe you’ll simply enjoy the music and the moment. The important thing is that everyone feels good here, and dance, music, and good company bring people together.
+
+
+  So come and see the world in pink! 🌸💃
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722866454/nqywc2de51srcvxcijhl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: PinkParty - Free open-air | Bachata & UrbanKiz
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1723309200000+ChIJi1z_GKjdQUcRpocz-XBBML4
+id: wi4LOCsudBoMUn0bBoGo

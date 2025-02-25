@@ -1,0 +1,122 @@
+venue:
+  formatted_address: Heimeranpl., 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Heimeranplatz
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5355983802915
+      south: 48.1320781197085
+      north: 48.1347760802915
+      west: 11.5329004197085
+    location:
+      lng: 11.5342494
+      lat: 48.1334271
+  address_components:
+    - types:
+        - route
+      short_name: Heimeranpl.
+      long_name: Heimeranplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  place_id: EiRIZWltZXJhbnBsLiwgODAzMzkgTcO8bmNoZW4sIEdlcm1hbnkiLiosChQKEgl9lvhVr9idRxG2KMKM17IN3RIUChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  url: https://maps.google.com/?q=Heimeranpl.,+80339+M%C3%BCnchen,+Germany&ftid=0x479dd8af55f8967d:0xdd0db2d78cc228b6
+endDate: 2023-06-24T19:00
+claimed: No
+description: >-
+  Pura ladies present: Bootcamp Vol.4, Munich edition, with Bachata and Twerk!
+
+
+  Improve your dance skills at this open level event with experienced instructors & performers Salma from Mexico and Lucia from France/Germany.
+
+
+  Learn fun choregraphies while getting a lot of tips for better technique. Enjoy and explore your sensuality & power as a woman in a friendly and supportive environment.
+
+
+  Our first event of bachata & twerk sold out! Book your spot quickly and let's dance! 😘👯🪩🍑💪
+program: []
+type: event
+duration: 60
+createdAt: 1684672638626
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://www.instagram.com/p/Csanw6QrpVa/?igshid=MTc4MmM1YmI2Ng==
+updatedAt: 1684672638626
+updatedBy: Uhd1Nmd39yeR11XR3NXJIqlPoyr1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Lucia
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FUhd1Nmd39yeR11XR3NXJIqlPoyr1%2F365f8e39-4e48-44df-a804-42417245a3f0?alt=media&token=1166f838-3c54-4062-ac68-0b07eafa8b6f
+  bio: |-
+    Bachata teacher, performer, competitor. Looking for video collaborations.
+
+    I started dancing in 2008 in Parisian latin clubs ❤️
+  id: Uhd1Nmd39yeR11XR3NXJIqlPoyr1
+  instagram: https://instagram.com/Lucia.zeliha
+  username: Lucia
+eventType: Workshop
+confirmation: "To register or get more information, contact Lucia : 00491638284924"
+form: No
+createdBy: Uhd1Nmd39yeR11XR3NXJIqlPoyr1
+watch:
+  count: 1
+  list:
+    Lucia: true
+name: Bachata & Twerk Ladies Bootcamp
+online: No
+styles:
+  Twerking:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-24T16:00
+username: Lucia
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FUhd1Nmd39yeR11XR3NXJIqlPoyr1%2Fb3460e5a-f661-44d9-9af6-bbfa45b3aeaf?alt=media&token=419e45ee-024b-4f7c-a2b3-55cd5686b0cc
+price: 35 EUR
+id: 6uZjAGzVlEfnCLr6BCT1
+instagram:
+  requestedAt: 1684672808722
+  state: requested
+viewsCount: 65

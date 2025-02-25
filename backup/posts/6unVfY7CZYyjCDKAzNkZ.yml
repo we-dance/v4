@@ -1,0 +1,170 @@
+endDate: 1715817600000
+sourceUrl: https://www.facebook.com/events/684962943071410/
+createdAt: 1715444430802
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1693575375000
+updatedAt: 1715444430802
+importedAt: 1715444430802
+providerUpdatedAt: 1714587519000
+facebookId: "684962943071410"
+facebook: https://www.facebook.com/events/684962943071410/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/684962943071410/
+eventType: Party
+providerItemId: e684962943071410@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Les Mercredis By LSkiz ( nouvelle salle)
+location: Jump Parc Beauchamp
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715798700000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 295 Chau. Jules César, 95250 Beauchamp, France
+  website: https://www.urbanjumpbeauchamp.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Jump Parc Beauchamp
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.175053469708498
+        lat: 49.0146786697085
+      northeast:
+        lng: 2.177751430291501
+        lat: 49.0173766302915
+    location:
+      lng: 2.1763889
+      lat: 49.0158333
+  address_components:
+    - types:
+        - street_number
+      short_name: "295"
+      long_name: "295"
+    - types:
+        - route
+      short_name: Chau. Jules César
+      long_name: Chaussée Jules César
+    - types:
+        - locality
+        - political
+      short_name: Beauchamp
+      long_name: Beauchamp
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Val-d'Oise
+      long_name: Val-d'Oise
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "95250"
+      long_name: "95250"
+  international_phone_number: +33 1 39 78 59 44
+  place_id: ChIJGSWEUZ9g5kcRKHsri71MPBk
+  url: https://maps.google.com/?cid=1818412726518250280
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444456057
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/teamlskiz
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444456/z6unmjwvuqr33xeakgzi.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444456057
+  owned: false
+  name: Ludo & Team LSkiz
+  place: ChIJd-vaupECv4cRVeIcBe0lbq0
+  updatedAt: 1715444456057
+  username: teamlskiz
+claimed: No
+link: ""
+description: >+
+  🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+
+                               LS 💯 ❤️💙
+                               05.01.2024
+                           mercredi 1er mai
+
+  🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+
+
+  Because you guys deserve the Best ! 
+
+  What do you think about a crazy party like in the usa? 
+
+
+  Let's go and Come with your best niggas's outfits ! 
+
+  From LA to Paris, let me introduce you this happy and beautiful place/ definitly the place to be this wednesday for sure!! 
+
+          🔻🔹🔻🔹🔻🔹🔻🔹🔻🔹🔻🔹🔻🔹🔻
+
+  ❤️💙Workshop and DJ's 💯 LSKIZ, what els3❤️💙
+
+
+
+  Someone said that an american party isnt a real one if there is no food ...
+
+  So some HOT DOG 🌭 for the first sixty (60) seems to be a very very GOOOOOOD Idea, isnt it? 
+
+
+
+  DO NOT NOT COME TO THIS 🤭
+
+
+  Be Cool Be LSkiz 🎀
+
+
+  Be Cool 🤍💜
+
+
+  Et sinon, au programme dans notre nouvelle salle 
+
+  📍 295 chaussée Jules César BEAUCHAMP
+
+
+  20h45: initiation By team LSkiz 
+
+  21h00:cours débutant kizomba By Charles 
+
+  21h45: cours inter kizomba Ludo & Constance 
+
+
+  Entrée: 10 euros cours , soft et grignotage à volonté 
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444457/xtz4nj4t1nzhdvjojkns.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJd-vaupECv4cRVeIcBe0lbq0
+international: No
+hash: 1715798700000+ChIJGSWEUZ9g5kcRKHsri71MPBk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6unVfY7CZYyjCDKAzNkZ.png?generation=1715444470488414&alt=media
+viewsCount: 1
+id: 6unVfY7CZYyjCDKAzNkZ

@@ -1,0 +1,676 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327083292
+updatedAt: 1732327083292
+importedAt: 1732327083292
+providerId: goandance
+providerItemId: "6864"
+name: Cluj Kizomba Festival 2025 (7ª edición)
+description: Sin descripción
+sourceUrl: https://www.goandance.com/es/e/6864?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6864?promoter=WEDANCE123
+type: event
+startDate: 1743105600000
+endDate: 1743400800000
+tickets:
+  - name: FULL PASS - LAUNCHING OFFER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743627600
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 4.76
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1746075600
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 4.76
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1751346000
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 4.76
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1725166800
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 4.76
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1730440800
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 4.76
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1735711200
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 4.76
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1738389600
+      _nanoseconds: 0
+    discount: 0
+    price: 145
+    comission: 4.76
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743026400
+      _nanoseconds: 0
+    discount: 0
+    price: 150
+    comission: 4.76
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - LEADER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743285600
+      _nanoseconds: 0
+    discount: 0
+    price: 160
+    comission: 4.76
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1746075600
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 4.76
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1751392800
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 4.76
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1725213600
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 4.76
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1730487600
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 4.76
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1735758000
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 4.76
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1738447200
+      _nanoseconds: 0
+    discount: 0
+    price: 145
+    comission: 4.76
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743026400
+      _nanoseconds: 0
+    discount: 0
+    price: 150
+    comission: 4.76
+    originalPrice: 150
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: FULL PASS - FOLLOWER
+    description: Allows access to all workshops, 4 parties & social room during the
+      day. Does not include accommodation. Changes of ownership allowed until
+      25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743285600
+      _nanoseconds: 0
+    discount: 0
+    price: 160
+    comission: 4.76
+    originalPrice: 160
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - LEADER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1725220800
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 4.76
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - LEADER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1730487600
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 4.76
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - LEADER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1735758000
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 4.76
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - LEADER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1738436400
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 4.76
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - LEADER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743015600
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 4.76
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - LEADER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743274800
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 4.76
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - FOLLOWER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1725220800
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 4.76
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - FOLLOWER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1730487600
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 4.76
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - FOLLOWER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1735758000
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 4.76
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - FOLLOWER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1738436400
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 4.76
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - FOLLOWER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1740596400
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 4.76
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: SOCIAL PASS - FOLLOWER
+    description: Allows access to 4 parties & social room during the day
+      (Fri/Sat/Sun). Does not include accommodation. Changes of ownership
+      allowed until 25/03/2025 at 23:59 from the...  private go&dance area.
+    priceValidUntil:
+      _seconds: 1743274800
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 4.76
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - LEADER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1725213600
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 4.76
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - LEADER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1730487600
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 4.76
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - LEADER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1735758000
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 4.76
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - LEADER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1738436400
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 4.76
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - LEADER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1743015600
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 4.76
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - LEADER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1743274800
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 4.76
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - FOLLOWER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1725166800
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 4.76
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - FOLLOWER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1730487600
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 4.76
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - FOLLOWER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1735758000
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 4.76
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - FOLLOWER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1738436400
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 4.76
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - FOLLOWER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1743015600
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 4.76
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: PARTY PASS - FOLLOWER
+    description: Allows access to all 4 night parties. Does not include
+      accommodation. Changes of ownership allowed until 25/03/2025 at 23:59 from
+      the private go&dance area.
+    priceValidUntil:
+      _seconds: 1743274800
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 4.76
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: 4 nights accommodation in SINGLE Room in MAIN HOTEL
+    description: >-
+      *4 nights accommodation in the Gran Hotel Napoca  - breakfast included
+      -  (Thursday to Monday) 
+
+      *if you wish to reserve less/more nights or different nights, please...  contact us on whatsapp at +40747171850 (Cotiso)
+    priceValidUntil:
+      _seconds: 1743055200
+      _nanoseconds: 0
+    discount: 0
+    price: 360
+    comission: 4.76
+    originalPrice: 360
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: 4 nights accommodation in DOUBLE ROOM in MAIN HOTEL
+    description: >-
+      *4 nights accommodation in the Grand Hotel Napoca  - breakfast included
+      -  (Thursday to Monday) for 2 people 
+
+      *if you wish to reserve less/more nights or different...  nights, please contact us on whatsapp at +40747171850 (Cotiso)
+    priceValidUntil:
+      _seconds: 1743397200
+      _nanoseconds: 0
+    discount: 0
+    price: 400
+    comission: 4.76
+    originalPrice: 400
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: 3 nights accommodation in SINGLE Room in MAIN HOTEL
+    description: >-
+      *3 nights accommodation in the Grand Hotel Napoca  - breakfast included
+      -  (Thursday to Monday)  
+
+      *if you wish to reserve less/more nights or different nights,...  please contact us on whatsapp at +40747171850 (Cotiso)
+    priceValidUntil:
+      _seconds: 1743397200
+      _nanoseconds: 0
+    discount: 0
+    price: 270
+    comission: 4.76
+    originalPrice: 270
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+  - name: 3 nights accommodation in DOUBLE ROOM in MAIN HOTEL
+    description: >-
+      *3 nights accommodation in the Grand Hotel Napoca  - breakfast included
+      -  (Thursday to Monday) for 2 people 
+
+      *if you wish to reserve less/more nights or different...  nights, please contact us on whatsapp at +40747171850 (Cotiso)
+    priceValidUntil:
+      _seconds: 1743397200
+      _nanoseconds: 0
+    discount: 0
+    price: 300
+    comission: 4.76
+    originalPrice: 300
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6864-cluj-kizomba-festival-2025-7a-edicion?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327085/taek62lc9w0osxgo8gkx.jpg
+venue:
+  address_components:
+    - long_name: "1"
+      short_name: "1"
+      types:
+        - street_number
+    - long_name: Strada Octavian Goga
+      short_name: Strada Octavian Goga
+      types:
+        - route
+    - long_name: Cluj-Napoca
+      short_name: Cluj-Napoca
+      types:
+        - locality
+        - political
+    - long_name: Municipiu Cluj-napoca
+      short_name: Municipiu Cluj-napoca
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Județul Cluj
+      short_name: CJ
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Romania
+      short_name: RO
+      types:
+        - country
+        - political
+    - long_name: "400698"
+      short_name: "400698"
+      types:
+        - postal_code
+  formatted_address: Strada Octavian Goga 1, Cluj-Napoca 400698, Romania
+  geometry:
+    location:
+      lat: 46.771695
+      lng: 23.576145
+    viewport:
+      northeast:
+        lat: 46.7731061802915
+        lng: 23.57765208029151
+      southwest:
+        lat: 46.7704082197085
+        lng: 23.5749541197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +40 264 580 715
+  name: Grand Hotel Napoca
+  place_id: ChIJwUyEAJAOSUcRTDIr0FjbJ74
+  url: https://maps.google.com/?cid=13702161565794120268
+  website: http://www.hotelnapoca.ro/
+place: ChIJiwtskR8MSUcRixQfMxxgvAs
+price: 90 EUR
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1743105600000+ChIJwUyEAJAOSUcRTDIr0FjbJ74
+org: ""
+id: Uh2Qq6IR1bu36hQpPBDE

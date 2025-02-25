@@ -1,0 +1,125 @@
+venue:
+  website: https://www.germars.de/
+  formatted_address: Riedstraße 59, 86830 Schwabmünchen, Germany
+  name: Germar's Best Burger
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.7486511802915
+      south: 48.1803063697085
+      north: 48.1830043302915
+      west: 10.7459532197085
+    location:
+      lng: 10.7472655
+      lat: 48.1815078
+  address_components:
+    - types:
+        - street_number
+      short_name: "59"
+      long_name: "59"
+    - types:
+        - route
+      short_name: Riedstraße
+      long_name: Riedstraße
+    - types:
+        - locality
+        - political
+      short_name: Schwabmünchen
+      long_name: Schwabmünchen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86830"
+      long_name: "86830"
+  url: https://maps.google.com/?cid=17264256708478432229
+  international_phone_number: +49 8232 1846980
+  place_id: ChIJY8lLEWQenEcR5fMCpAH2lu8
+endDate: 2023-06-17T23:30
+claimed: No
+description: Karibische Nächte - Salsa Bachata Kizomba Open Air in
+  Schwabmünchen.Food / Drinks / DJ Livemusik / Ladies Show / Cocktails, Rum,
+  Zigarren.
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F7f4d5f64-58e3-4af0-8600-4f59499c938d?alt=media&token=4fc4ac07-79b9-46cd-90da-1aa0ccd31321
+createdAt: 1682976374397
+artists:
+  - facebook: https://facebook.com/djvladi
+    username: djvladi
+price: 12,00 EUR
+place: ChIJ6yb7ut8dnEcRoOuL161IHgQ
+artistsList:
+  - djvladi
+id: 2t1Ecy432uRt1k83cQyw
+international: No
+updatedAt: 1682976374397
+updatedBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Baila Bavaria Social Dance "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F0f98ef5a-ab79-49c9-9f11-7dc791b2be2e?alt=media&token=6e2165e8-ba32-43ea-81d9-a7011b0aeaec
+  bio: Herzlich willkommen - Bienvenidos a Baila Bavaria Social Dance mit Vladimir
+    Toledo Sánchez aus Havana.
+  instagram: ""
+  id: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+  username: VladimirToledo
+facebook: https://www.facebook.com/bailabavaria
+upVotes: 0
+telegram: {}
+confirmation: Bailabavaria@gmail.com
+eventType: Festival
+form: No
+createdBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: "Open Air Salsa Bachata Kizomba in Schwabenmünchen "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-06-17T18:00
+username: VladimirToledo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F2t1Ecy432uRt1k83cQyw.png?generation=1685479876607228&alt=media
+viewsCount: 21

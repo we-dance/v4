@@ -1,0 +1,109 @@
+venue:
+  formatted_address: Munich, Germany
+  website: http://www.muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Munich
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.72287551432547
+      south: 48.06160176222775
+      north: 48.24821969652085
+      west: 11.36079598983695
+    location:
+      lng: 11.5819806
+      lat: 48.1351253
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Munich
+      long_name: Munich
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Upper Bavaria
+      long_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bavaria
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  url: https://maps.google.com/?q=Munich,+Germany&ftid=0x479e75f9a38c5fd9:0x10cb84a7db1987d
+  username: www.muenchen.de
+endDate: 1722049200000
+claimed: No
+link: https://www.eventbrite.com/e/alboroto-summer-season-tickets-918380479737?aff=oddtdtcreator&fbclid=PAZXh0bgNhZW0CMTEAAaZBKImwZxAFvYgdo6K7jJ_JrcUPvqway9_QWlYkWK0PRKO87Z1iQVBG_lY_aem_8VeW6-YfIjnDBzEtUO0Liw
+description: "party with two areas, one of Urban Reggaeton and another of salsa,
+  merengue and bachata "
+program: []
+instagram: {}
+type: series
+downVotes: 0
+duration: 360
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTrUgADEod1SAVXx8gKZXf47qoS33%2F46d0c61f-3e5a-430f-b97f-c77c33b95714?alt=media&token=872bba02-a016-4ad5-b340-f800e7fe6a5e
+createdAt: 1720478914229
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: "10  a  15 euros "
+socialCover: ""
+artistsList: []
+place: ChIJmdNrVEDWnUcRxt1RhZNFxrE
+international: No
+updatedBy: TrUgADEod1SAVXx8gKZXf47qoS33
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  role: organiser
+  username: NOELUNA
+upVotes: 0
+telegram: {}
+eventType: Party
+recurrence:
+  untilDate:
+    _seconds: 1722031200
+    _nanoseconds: 0
+  freq: weekly
+  days: {}
+  dates:
+    - _seconds: 1722027600
+      _nanoseconds: 0
+form: No
+createdBy: TrUgADEod1SAVXx8gKZXf47qoS33
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: ALBOROTO
+online: Yes
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1722027600000
+username: NOELUNA
+promotion: ""
+children:
+  - endDate: 1722049200000
+    id: 5Ue5pcW7VBmzuYTSCG7f
+    startDate: 1722027600000
+updatedAt: 1720478914581
+viewsCount: 1
+id: LII6UZkaTm9PkDtPNdLC

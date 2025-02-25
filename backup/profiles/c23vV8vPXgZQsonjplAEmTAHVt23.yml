@@ -1,0 +1,26 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626441368377
+locales:
+  de: true
+createdBy: c23vV8vPXgZQsonjplAEmTAHVt23
+name: Vika
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+pwaUsed: false
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+username: Victoria
+lastLoginAt: 1637823728082
+daysUsed: 5
+gender: Female
+step: place
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+  ChIJ8w6hCH8ecpQR71xgDf_H14M: true
+updatedAt: 1638037968856
+id: c23vV8vPXgZQsonjplAEmTAHVt23

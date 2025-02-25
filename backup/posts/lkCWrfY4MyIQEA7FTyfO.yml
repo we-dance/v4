@@ -1,0 +1,137 @@
+endDate: 2022-10-25T00:00
+claimed: No
+link: https://www.gasteig.de/veranstaltungen/salsa-nacht-im-hp8-34b40/
+type: event
+promo: ""
+duration: 60
+createdAt: 1666431300568
+artists: []
+price: 0 EUR
+artistsList: []
+international: No
+updatedAt: 1666431300568
+updatedBy: TW8BNhiNxyYkILUIcrxtRe5eUY13
+visibility: Public
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    undefined: true
+createdBy: TW8BNhiNxyYkILUIcrxtRe5eUY13
+name: "Tanz den Gasteig: Salsa-Nacht im HP8"
+online: No
+startDate: 2022-10-24T19:00
+username: Kylo
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+id: lkCWrfY4MyIQEA7FTyfO
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F82f9f16b-33db-47b4-af01-a196e0cfdea6?alt=media&token=bc530638-c1c2-416f-a8ad-1ab1944d7062
+venue:
+  formatted_address: Hans-Preißinger-Straße 8, 81379 München, Germany
+  website: http://www.gasteig.de/
+  name: Gasteig HP8
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5551483302915
+      south: 48.11065891970849
+      north: 48.11335688029149
+      west: 11.5524503697085
+    location:
+      lng: 11.5538646
+      lat: 48.1117752
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Preißinger-Straße
+      long_name: Hans-Preißinger-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+      long_name: Sendling
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  map: ""
+  url: https://maps.google.com/?cid=6671922254974334826
+  room: Halle E
+  place_id: ChIJQ1mR2dDfnUcRarfECPFtl1w
+  international_phone_number: +49 89 480980
+org:
+  instagram: https://instagram.com/gasteig_muenchen
+  username: gasteig_muenchen
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlkCWrfY4MyIQEA7FTyfO.png?generation=1666450821600459&alt=media
+telegram:
+  requestedAt: 1666450821848
+  messageUrl: https://t.me/WeDanceMunich/656
+  publishedAt: 1666450826925
+  messageId: 656
+  state: published
+instagram:
+  requestedAt: 1666450828884
+  messageUrl: https://instagram.com/p/CkBS-GOL2Oh
+  publishedAt: 1666450843482
+  messageId: CkBS-GOL2Oh
+  state: published
+description: "Die beeindruckende Halle E im Gasteig HP8 ist als Tanz-Location
+  bestens geeignet: Die „Tanz den Gasteig” Salsa-Nächte im HP8 sind echte
+  Renner. Der Eintritt ist wie immer frei."
+program:
+  - endDate: 2022-10-24T20:00
+    name: Schnupperkurs mit Profis
+    description: Tanzprofis geben allen interessierten Paaren und Singles einen
+      ersten Einblick in die stilistisch sehr vielfältige Salsa-Welt.
+    eventType: Workshop
+    startDate: 2022-10-24T19:00
+  - endDate: 2022-10-25T00:00
+    name: Große Tanzparty für alle in der Halle E
+    description: Direkt im Anschluss gibt es ab 20:00 Uhr eine Salsa-Party. Bis
+      Mitternacht können dann Tanzfreudige aller Levels die besondere Atmosphäre
+      einer der außergewöhnlichsten Tanzflächen der Stadt testen. Oder das
+      Geschehen einfach von den höher gelegenen Galerien der denkmalgeschützten
+      Halle E aus beobachten.
+    eventType: Party
+    startDate: 2022-10-24T20:00
+star:
+  count: 1
+  list:
+    alexrazbakov: true
+viewsCount: 80

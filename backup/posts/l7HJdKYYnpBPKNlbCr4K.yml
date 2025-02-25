@@ -1,0 +1,148 @@
+importedAt: 1707564526661
+providerUpdatedAt: 1707249729000
+endDate: 1708286400000
+facebookId: "241941998959872"
+facebook: https://www.facebook.com/events/241941998959872/
+createdAt: 1707564526661
+providerItemId: e241941998959872@facebook.com
+approved: false
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: anBgOWXJuGIEKeqfp7My
+name: Salón Cubano im Giesinger Bahnhof
+location: Kulturzentrum Giesinger Bahnhof
+styles: {}
+providerCreatedAt: 1707249729000
+startDate: 1708272000000
+updatedAt: 1707564526661
+username: alexrazbakov
+venue:
+  formatted_address: Giesinger Bahnhofpl. 1, 81539 München, Germany
+  website: http://www.giesinger-bahnhof.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kulturzentrum Giesinger Bahnhof
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5946228697085
+        lat: 48.1090808697085
+      northeast:
+        lng: 11.5973208302915
+        lat: 48.11177883029149
+    location:
+      lng: 11.5961278
+      lat: 48.1103119
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Giesinger Bahnhofpl.
+      long_name: Giesinger Bahnhofplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Obergiesing-Fasangarten
+      long_name: Obergiesing-Fasangarten
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81539"
+      long_name: "81539"
+  international_phone_number: +49 89 69387930
+  place_id: ChIJlVB-hKHfnUcRUXzVw3l3jpQ
+  url: https://maps.google.com/?cid=10704624729166543953
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707564537882
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Sal%C3%B3n-Cubano/pfbid036on5xnS3ws1HFvch53kCagDV65ErSXeXfFSSaVm2i6LQeDow4qzQLtpEb75atvTFl/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707564538/dklvboeskcghxadirgr0.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707564537882
+  owned: false
+  name: Salón Cubano
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  updatedAt: 1707564537882
+  username: salon.cubano
+claimed: No
+link: ""
+description: >
+  Liebe Rumberas und Rumberos, 
+
+
+  am Sonntag, den 18. Februar findet der Salón Cubano ab 17 Uhr  im Kulturzentrum Giesinger Bahnhof statt.
+
+
+  Die DJ´s an dem Abend sind Klaus und Werner.
+
+
+  Die aktuellen Informationen und Termine findet Ihr auf unserer Homepage.
+
+  www.Salon-Cubano.org.
+
+
+  Wir grüßen euch herzlichst und freuen uns schon auf ein Wiedersehen mit euch
+
+  Manuela, Bernd, Peter, Jörgen, Klaus, Manfred, Max, Jürgen und Werner
+
+
+  --------------------------------------------
+
+  Salón Cubano e.V. 
+
+  Benefiz-Tanzveranstaltung, Sonntags von Oktober bis März im Giesinger Bahnhof.
+
+
+  Infos: www.Salon-Cubano.org 
+
+  eMail: Info@Salon-Cubano.org 
+program: []
+source: facebook
+eventType: Party
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707564538/vnnd8rajpkzpuku7uwkn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1708272000000+ChIJlVB-hKHfnUcRUXzVw3l3jpQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fl7HJdKYYnpBPKNlbCr4K.png?generation=1707564554198246&alt=media
+viewsCount: 5
+id: l7HJdKYYnpBPKNlbCr4K

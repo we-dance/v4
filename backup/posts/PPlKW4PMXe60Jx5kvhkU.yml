@@ -1,0 +1,187 @@
+importedAt: 1709722561162
+providerUpdatedAt: 1709195873000
+endDate: 1717624500000
+facebookId: "390710706775633"
+facebook: https://www.facebook.com/events/390710706775633/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/390710706775633/
+eventType: Course
+createdAt: 1709722561162
+providerItemId: e390710706775633@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: Intensive Zouk Camp Croatia
+location: Tisno croatia
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1705478150000
+startDate: 1717084800000
+facebookUrlsCount: 1
+updatedAt: 1709722561162
+username: Aina
+venue:
+  formatted_address: Tisno, Croatia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Tisno
+  geometry:
+    viewport:
+      southwest:
+        lng: 15.61446025123085
+        lat: 43.76471605467006
+      northeast:
+        lng: 15.73045634831976
+        lat: 43.82360770402727
+    location:
+      lng: 15.6421092
+      lat: 43.7974664
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Tisno
+      long_name: Tisno
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Općina Tisno
+      long_name: Općina Tisno
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Šibensko-kninska županija
+      long_name: Šibensko-kninska županija
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ7XY131nQNBMR-VeLFoAY9mI
+  url: https://maps.google.com/?q=Tisno,+Croatia&ftid=0x1334d059df3576ed:0x62f61880168b57f9
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709722565498
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/lucia.kubasova
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709722565/ukib70mzhpkbcpun8idk.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709722565498
+  owned: false
+  name: Lucia Kubasova
+  place: ChIJ7XY131nQNBMR-VeLFoAY9mI
+  updatedAt: 1709722565498
+  username: lucia.kubasova
+claimed: No
+link: ""
+description: "INTENSIVE ZOUK DANCE CAMP IN CROATIA WITH WILLIAM AND IRENE
+
+  \\ 
+
+  Date: 30.5. - 5.6.2024
+
+  \\ 
+
+  \\ 
+
+  We are inviting you to very high quality learning, dancing and diving deeper
+  into all aspects of Brazilian Zouk.
+
+  \\ 
+
+  There will be two dance levels; each level consists of 22 hrs of
+  classes  (if you decide for both levels, then even more 😉) with William
+  Teixeira and Irene – both amazing dancer and instructors.(+ 5 lessons with
+  Lucia Kubasova)
+
+  Each level max 12-13 couples🌸
+
+  \\ 
+
+  We have prepared a unique teaching structure for each dance level to truly
+  achieve an icrease in every participant’s dance level within 6 days.🌸
+
+  \\ 
+
+  The venue is located in the charming town of TISNO, Croatia, in a hotel only
+  10 meters away from the sea. We will be learning and dancing on two open-air,
+  but roof-covered dance-floors.💫
+
+  \\ 
+
+  An all day long all you can eat buffet is included in the price of your
+  accommodation in order to fully focus on the dance.
+
+  \\ 
+
+  On top of all that, participants of the camp can enjoy the first night of
+  zouk marathon, which starts on the last day of zouk camp, free of charge!❣️
+
+
+  ✨Price:
+
+  Dance camp: 300€ / person
+
+  \                            270€/ group of 8
+
+  \                            250€/ if you are leader of zouk community
+
+
+  Accomodation + all inclusive food:
+
+  \r
+
+  •\tHigh quality accommodation at the venue or at the neighbouring buildings
+  from 40 until 90 euros per person including all inclusive food all day long
+  until midnight. Aircons everywhere of course\r
+
+  •\tAll inclusive food all day long included in price of accommodation (Late
+  breakfast, brunch, snacks, dinner, midnight snacks)
+
+
+
+  💫For registration and more info:\ 
+
+
+  luciakubasovadancer@gmail.com
+
+
+
+  ( if i dont responde to your email, it means i didnt recieve it, please
+  notice, sometimes on gmail might be happening):
+
+
+
+
+
+
+  All program , more info about camp and possible transportation, hotel,
+  payment details and more info by email. Join us, will be lovely uplifting
+  experience♥️❤️♥️❤️
+
+  Very much looking forward💕"
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709722566/g95eyiowk5hp6oxckufx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ7XY131nQNBMR-VeLFoAY9mI
+international: No
+hash: 1717084800000+ChIJ7XY131nQNBMR-VeLFoAY9mI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPPlKW4PMXe60Jx5kvhkU.png?generation=1709722582584226&alt=media
+viewsCount: 2
+id: PPlKW4PMXe60Jx5kvhkU

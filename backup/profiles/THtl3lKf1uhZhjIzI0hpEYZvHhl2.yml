@@ -1,0 +1,43 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1636289213046
+createdBy: THtl3lKf1uhZhjIzI0hpEYZvHhl2
+name: jr_bachata
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+username: jr_bachata
+lastLoginAt: 1636289213172
+daysUsed: 1
+pwaUsed: false
+locales:
+  de: true
+  en: true
+  es: true
+partner: No
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTHtl3lKf1uhZhjIzI0hpEYZvHhl2%2F47a0cf2f-b606-4961-b18d-7b09ece0da92?alt=media&token=74ea61b3-57ec-4534-931e-5780c00027c9
+objectives:
+  teach: true
+  project: true
+contacts: Yes
+email: jr.bachata@gmail.com
+updatedAt: 1636308948254
+instagram: https://instagram.com/jr_bachata
+viewsCount: 1
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: THtl3lKf1uhZhjIzI0hpEYZvHhl2

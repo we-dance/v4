@@ -1,0 +1,886 @@
+endDate: 1721620800000
+sourceUrl: https://www.facebook.com/events/267950309187328/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1690125731000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1718364034000
+facebookId: "267950309187328"
+facebook: https://www.facebook.com/events/267950309187328/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/267950309187328/
+eventType: Festival
+providerItemId: e267950309187328@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Geneva French Kizz Festival 2024
+location: Mövenpick Hotel & Casino Geneva
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1721401200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Rte de Pré-Bois 20, 1215 Genève, Switzerland
+  website: https://movenpick.accor.com/en/europe/switzerland/geneva/hotel-geneva.html?merchantid=seo-maps-CH-B4G7&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&utm_content=Geneva
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Mövenpick Genève
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.099706919708497
+        lat: 46.2227909197085
+      northeast:
+        lng: 6.102404880291502
+        lat: 46.2254888802915
+    location:
+      lng: 6.1008131
+      lat: 46.2243697
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Rte de Pré-Bois
+      long_name: Route de Pré-Bois
+    - types:
+        - locality
+        - political
+      short_name: Genève
+      long_name: Genève
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Genève
+      long_name: Genève
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: GE
+      long_name: Genève
+    - types:
+        - country
+        - political
+      short_name: CH
+      long_name: Switzerland
+    - types:
+        - postal_code
+      short_name: "1215"
+      long_name: "1215"
+  international_phone_number: +41 22 717 11 11
+  place_id: ChIJRb-__ZxkjEcR3Wh6kzSEJ0g
+  url: https://maps.google.com/?cid=5199269656169965789
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546477378
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/genevafrenchkizzfestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546477/i6uhiuzwzfsrhjxrfk0j.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546477378
+  owned: false
+  name: Geneva French Kizz Festival
+  place: ChIJ6-LQkwZljEcRObwLezWVtqA
+  updatedAt: 1718546477378
+  username: geneva.french.kizz.f
+claimed: No
+link: https://www.billetweb.fr/geneva-french-kiss-festival-20231
+description: >-
+  ░W░E░L░C░O░M░E░  ░T░O ░S░W░I░T░Z░E░R░L░A░N░D
+     
+   ▓▓▒𝐆𝐄𝐍𝐄𝐕𝐀 𝐅𝐑𝐄𝐍𝐂𝐇 𝐊𝐈𝐒𝐒 𝐅𝐄𝐒𝐓𝐈𝐕𝐀𝐋 - 𝐄𝐃𝐈𝐓𝐈𝐎𝐍 𝟑▒▓▓
+  𝕐𝕆𝕌ℝ 𝔸𝕃𝕃-𝕀ℕ-𝕆ℕ𝔼 𝟝 𝕊𝕋𝔸ℝ 𝕂𝕀ℤ💗𝕄𝔹𝔸 𝔽𝔼𝕊𝕋𝕀𝕍𝔸𝕃
+
+   💎 Meet Dancers from all around the world 💎
+
+  𝐃𝐞𝐚𝐫 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥-𝐠𝐨𝐞𝐫𝐬,
+
+  𝐅𝐨𝐫 𝐭𝐡𝐢𝐬 𝟑𝐫𝐝 𝐄𝐝𝐢𝐭𝐢𝐨𝐧, 𝐅𝐫𝐞𝐧𝐜𝐡 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐄𝐯𝐞𝐧𝐭𝐬 (Abdoulaye Thiam) 𝐚𝐫𝐞 𝐣𝐨𝐢𝐧𝐢𝐧𝐠 𝐟𝐨𝐫𝐜𝐞𝐬 𝐰𝐢𝐭𝐡 𝐈𝐫𝐨𝐧 𝐌𝐚𝐦𝐬 𝐄𝐯𝐞𝐧𝐬 (Iron Mams) 𝐚𝐧𝐝 𝐋𝐚𝐭𝐢𝐧 𝐄𝐯𝐞𝐧𝐭 (DJ Chad) 𝐭𝐨 𝐨𝐟𝐟𝐞𝐫 𝐲𝐨𝐮 𝐚𝐧 𝐞𝐯𝐞𝐧 𝐦𝐨𝐫𝐞 𝐟𝐞𝐬𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐞𝐯𝐞𝐧 𝐦𝐨𝐫𝐞 𝐞𝐧𝐫𝐢𝐜𝐡𝐢𝐧𝐠 𝐞𝐯𝐞𝐧𝐭.
+
+  𝐓𝐡𝐞 𝐥𝐨𝐜𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐚𝐥𝐰𝐚𝐲𝐬 𝐭𝐡𝐞 𝐬𝐚𝐦𝐞: 𝐌𝐨𝐯𝐞𝐧𝐩𝐢𝐜𝐤 𝐆𝐞𝐧𝐞𝐯𝐚 𝐀𝐢𝐫𝐩𝐨𝐫𝐭 𝐇𝐨𝐭𝐞𝐥, 𝐀 𝐟𝐮𝐥𝐥𝐲 𝐩𝐫𝐢𝐯𝐚𝐭𝐢𝐳𝐞𝐝 𝐞𝐯𝐞𝐧𝐭 𝐜𝐞𝐧𝐭𝐞𝐫 𝐚𝐧𝐝 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 𝟑𝟎𝟎 𝐫𝐨𝐨𝐦𝐬 𝐧𝐞𝐠𝐨𝐭𝐢𝐚𝐭𝐞𝐝 𝐭𝐨 𝐨𝐟𝐟𝐞𝐫 𝐲𝐨𝐮 𝐮𝐧𝐛𝐞𝐚𝐭𝐚𝐛𝐥𝐞 𝐩𝐫𝐢𝐜𝐞𝐬 𝐰𝐢𝐭𝐡 𝐫𝐞𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧𝐬 𝐭𝐡𝐚𝐭 𝐜𝐚𝐧 𝐛𝐞 𝐜𝐚𝐧𝐜𝐞𝐥𝐞𝐝 𝐮𝐧𝐭𝐢𝐥 𝐃𝐞𝐜𝐞𝐦𝐛𝐞𝐫 𝟏𝟗 𝐚𝐭 𝟏𝟐 𝐩.𝐦.
+
+  𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐢𝐬 𝐢𝐧 𝐩𝐥𝐚𝐜𝐞 𝐟𝐨𝐫 𝐚 𝐮𝐧𝐢𝐪𝐮𝐞 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐚𝐧 𝐮𝐧𝐟𝐨𝐫𝐠𝐞𝐭𝐭𝐚𝐛𝐥𝐞 𝐰𝐞𝐞𝐤𝐞𝐧𝐝.
+
+  𝐘𝐨𝐮 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐬 𝐨𝐟 𝐭𝐡𝐞 𝐚𝐭𝐦𝐨𝐬𝐩𝐡𝐞𝐫𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐆𝐞𝐧𝐞𝐯𝐚 𝐅𝐫𝐞𝐧𝐜𝐡 𝐊𝐢𝐳𝐳 𝐅𝐞𝐬𝐭𝐢𝐯𝐚𝐥.
+
+
+  𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞 𝐲𝐨𝐮𝐫 𝐩𝐫𝐞𝐬𝐞𝐧𝐜𝐞 𝐛𝐲 𝐜𝐫𝐞𝐚𝐭𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐩𝐫𝐨𝐟𝐢𝐥𝐞 𝐝𝐞𝐜𝐨𝐫 𝐧𝐨𝐰 𝐚𝐧𝐝 𝐢𝐧𝐯𝐢𝐭𝐞 𝐲𝐨𝐮𝐫 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐚 𝐦𝐞𝐦𝐨𝐫𝐚𝐛𝐥𝐞 𝐰𝐞𝐞𝐤𝐞𝐧𝐝
+
+  https://www.twibbonize.com/gfkfestival2024
+
+
+
+  ▓▒░          𝐋𝐈𝐍𝐄 𝐔𝐏         ░▒▓
+
+
+  ✪ 𝐓𝐡𝐞 𝐦𝐨𝐬𝐭 𝐚𝐦𝐚𝐳𝐢𝐧𝐠 𝐥𝐢𝐧𝐞 𝐮𝐩 𝐨𝐟 𝐃𝐉𝐬 !
+
+
+  🎧 🔥 DJ Madiss 🔥 FR
+
+  🎧 🔥 DJ Chad 🔥 FR
+
+  🎧 🔥 DJ Nicelife 🔥 NL
+
+  🎧 🔥 DJ Paraïso 🔥 FR
+
+  🎧 🔥 DJ Mams 🔥 CH
+
+  🎧 🔥 DJ Vasco 🔥 FR
+
+  🎧 🔥 DJ Nao🔥 BE/SE
+
+  🎧 🔥 DJ Lowelo 🔥 FR
+
+  🎧 🔥 DJ Lau🔥 CH
+
+  🎧 🔥 DJ Jahnaï🔥 CH
+
+  🎧 🔥 DJ Mous🔥 CH
+
+  🎧 🔥 DJ Saï Saï 🔥 FR
+
+
+
+  ✪ 𝐆𝐫𝐞𝐚𝐭 𝐓𝐞𝐚𝐜𝐡𝐞𝐫𝐬 𝐟𝐨𝐫 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐰𝐨𝐫𝐤𝐬𝐡𝐨𝐩𝐬
+
+
+  ❤️ Asia Voronova💃FR [Women Body Mooving]
+
+  ❤️ Issa 🕺CH Afrobeats & Ndombolo]
+
+  ❤️ Diane💃FR [Lady Styling]
+
+  ❤️Vasco 🕺FR [Semba & Kizomba]
+
+  ❤️ Justinho🕺FR [Urban Kiz]
+
+  ❤️ Adilson & Telma🕺💃FR [Semba]
+
+  ❤️ Kalypso & Adé 🕺CH [Urban Kiz]
+
+  ❤️ Iron Mams & Moorea🕺💃CH [Kizomba Fusion]
+
+  ❤️ Selim & Angélique 🕺💃FR [Tarraxo]
+
+  ❤️ José & Coralie -JC Connexion🕺💃CH [Kiz Fusion]
+
+  ❤️ Abdoulaye & Valérie 🕺💃FR/CH [Kizomba Intégrative]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+  ✪ 𝐘𝐎𝐔𝐑 𝐏𝐇𝐎𝐓𝐎𝐆𝐑𝐀𝐏𝐇𝐄𝐑𝐒 
+
+
+  📸 Cheryl Style Kizomba
+
+  📸 Franck
+
+  📸 Photobooth Movies by French Connection Events
+
+
+  ✅ 𝐎𝐟 𝐜𝐨𝐮𝐫𝐬𝐞, 𝐲𝐨𝐮 𝐭𝐨𝐨, 𝐘𝐎𝐔 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐓𝐇𝐄𝐑𝐄
+
+  🔥 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐧𝐨𝐭 𝐦𝐢𝐬𝐬 𝐭𝐡𝐚𝐭 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐀𝐓𝐇𝐌𝐎𝐒𝐏𝐇𝐄𝐑𝐄  🔥
+
+
+  🆃🅸🅲🅺🅴🆃🆃🅸🅽🅶      ➡️➡️➡️
+
+
+  https://www.billetweb.fr/geneva-french-kiss-festival-20231
+
+
+  ▓▒░░    𝐏𝐑𝐎𝐆𝐑𝐀𝐌    ░░▒▓
+
+
+  🎉 A 5-star 100% Kizomba festival in Geneva with accessible prices 🎉
+
+
+  ✅ All-in-One in 5 Star Hôtel Movenpick
+
+  ✅ 3 social parties
+
+  ✅ 3 days of workshops+bootcamps
+
+  ✅2 evening parties with 🎀𝟑 𝐑𝐨𝐨𝐦𝐬, 𝟑 𝓐𝐭𝐦𝐨𝐬𝐩𝐡𝐞𝐫𝐞𝐬🎀 
+
+  ✅2 After Parties
+
+
+  🌞 𝟑 𝐃𝐀𝐘𝐒 😇
+
+
+  ✪ 3 Social Parties
+
+  ✪ Workshops Planning : available soon in the Discussion section
+
+
+  🌚 𝟑 𝐍𝐈𝐆𝐇𝐓𝐒 😈
+
+
+  ✪ 𝟑 𝐓𝐡𝐞𝐦𝐞 𝐏𝐚𝐫𝐭𝐢𝐞𝐬
+
+
+  For the 2024 Edition, we invite you to come and travel with us through the ages.
+
+
+  💎 𝐅𝐫𝐢𝐝𝐚𝐲 𝟏𝟗𝐭𝐡 -  𝐓𝐡𝐞𝐦𝐞 : 𝐑𝐎𝐘𝐀𝐋 𝐊𝐈𝐒𝐒
+       Dress Code : Kingdom Dressing : 
+       Come as Queens, kings, knights, servants, peasants etc.
+
+       
+  💎 𝐒𝐚𝐭𝐮𝐫𝐝𝐚𝐲 𝟐𝟎𝐭𝐡 - 𝐓𝐡𝐞𝐦𝐞 𝐆𝐀𝐓𝐒𝐁𝐘
+       Dress Code :  Years 20/30
+       Come to a gala evening of the 20s/30s
+
+  💎 𝐒𝐮𝐧𝐝𝐚𝐲 𝟐𝟏𝐬𝐭 - 𝐃𝐈𝐒𝐂𝐎
+       Dress Code : Years 70/80
+       Come to a Disco evening of the 70s/80s
+
+  ✪ 𝟑 𝐑𝐨𝐨𝐦𝐬 - 𝟑 𝐀𝐭𝐦𝐨𝐬𝐩𝐡𝐞𝐫𝐞𝐬 𝟏𝟎𝟎% 𝐊𝐢𝐳 
+
+
+  ▶️ INTEGRATIVE KIZ Room :
+        French Style Kizomba : Urban Kiz, Tarraxo, Ghetto zouk
+        Kizomba all styles
+
+  ▶️ KIZOMBAZIK ROOM : 10.30 pm-2.30 am
+        KWBB "Kizomba Was Better Before"
+        Traditional Kizomba, Semba, Cabo Love
+
+  ▶️ SENSUAL ROOM : 2.30 am- 6.30 am
+        Douceur, Slow Kiz, Slow KCMA, Konpa
+
+  🎉 𝐊𝐈𝐙𝐎𝐌𝐁𝐀 = 𝐂𝐄𝐋𝐄𝐁𝐑𝐀𝐓𝐈𝐎𝐍
+
+
+  This is the essence of the dance that passionate us! The other aspects: technical, cultural, and artistic, are grafted around this jovial spirit and this festive atmosphere that brings us meeting together. 
+
+  So people, just come as you are and CELEBRATE !
+
+
+
+  █▓▒░    𝐄𝐕𝐄𝐍𝐓 𝐕𝐄𝐍𝐔𝐄    ░▒▓█
+
+
+
+  ✪ █▓▒░ 𝐀𝐥𝐥-𝐢𝐧-𝐨𝐧𝐞 𝟓-𝐒𝐭𝐚𝐫 𝐇𝐨𝐭𝐞𝐥 : 𝐌𝐎𝐕𝐄̈𝐍𝐏𝐈𝐂𝐊 𝐆𝐄𝐍𝐄𝐕𝐀
+
+
+  𝐕𝐢𝐬𝐢𝐭 𝐭𝐡𝐞 𝐇𝐨𝐭𝐞𝐥 𝐡𝐞𝐫𝐞 :
+
+  https://movenpick.visualizer360.com/en/hotel-geneva?t=55679&p=58765&h=365.22&v=0&f=84
+
+
+  𝐌ö𝐯𝐞𝐧𝐩𝐢𝐜𝐤 𝐢𝐬 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐡𝐨𝐭𝐞𝐥𝐬 𝐢𝐧 𝐆𝐞𝐧𝐞𝐯𝐚 𝐢𝐧 𝐭𝐞𝐫𝐦𝐬 𝐨𝐟 𝐚𝐜𝐜𝐨𝐦𝐨𝐝𝐚𝐭𝐢𝐨𝐧 𝐜𝐚𝐩𝐚𝐜𝐢𝐭𝐲. 𝐈𝐭 𝐡𝐚𝐬 𝐬𝐩𝐚𝐜𝐢𝐨𝐮𝐬 𝐬𝐩𝐚𝐜𝐞𝐬 𝐰𝐢𝐭𝐡 𝐬𝐦𝐚𝐫𝐭 𝐚𝐢𝐫 𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥 𝐚𝐜𝐭𝐢𝐯𝐢𝐭𝐢𝐞𝐬. 
+
+  𝐖𝐢𝐭𝐡 𝐢𝐭𝐬 𝟑𝟑𝟎 𝐫𝐨𝐨𝐦𝐬, 𝐢𝐭 𝐨𝐟𝐟𝐞𝐫𝐬 𝐡𝐢𝐠𝐡 𝐬𝐭𝐚𝐧𝐝𝐚𝐫𝐝 𝐚𝐜𝐜𝐨𝐦𝐨𝐝𝐚𝐭𝐢𝐨𝐧, 𝐚𝐬 𝐰𝐞𝐥𝐥 𝐚𝐬 𝐚𝐜𝐜𝐞𝐬𝐬 𝐭𝐨 𝐚 𝐟𝐢𝐭𝐧𝐞𝐬𝐬 𝐫𝐨𝐨𝐦 𝐚𝐧𝐝 𝐦𝐚𝐧𝐲 𝐨𝐭𝐡𝐞𝐫 𝟓-𝐬𝐭𝐚𝐫 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬.
+
+  Location : 𝐑𝐭𝐞 𝐝𝐞 𝐏𝐫é-𝐁𝐨𝐢𝐬 𝟐𝟎, 𝟏𝟐𝟏𝟓 𝐆𝐞𝐧è𝐯𝐞
+
+
+  ✅ Free airport-hotel and airport-hotel shuttle service.
+
+  ✅ Free Wi-Fi access for hotel guests
+
+  ✅ Free public transports for all around Geneva during your stay.
+
+
+  ✪ █▓▒░ 𝐍𝐞𝐠𝐨𝐭𝐢𝐚𝐭𝐞𝐝 𝐫𝐚𝐭𝐞𝐬: 𝐁𝐄𝐒𝐓 𝐕𝐀𝐋𝐔𝐄 𝐅𝐎𝐑 𝐏𝐑𝐈𝐂𝐄
+
+
+  ✅ €125/Night/Single room + Buffet Breakfast x1
+
+  ✅ CHF140/Night/Double room + Buffet Breakfast x2
+
+  ✅ CHF 190/Night/Triple room + Buffet Breakfast x3
+
+  ✅ Preferential rates available from January 15th 2024 until July 14th. Limited to the 100 first rooms. Minium for booking : 2 nights ! 
+
+
+  ✅ How to book your room?
+       ➢ Go to website HERE :
+       https://all.accor.com/hotel/B4G7/index.en.shtml
+       ➢ Choose your dates
+       ➢ Type preferential code MOV1 in Special Rates
+       ➢ The special rate is available until 12th of July
+
+  𝐀𝐬 𝐚 𝐫𝐞𝐦𝐢𝐧𝐝𝐞𝐫 :
+
+  ✅ 𝐖𝐡𝐞𝐧 𝐲𝐨𝐮 𝐛𝐨𝐨𝐤, 𝐲𝐨𝐮𝐫 𝐜𝐫𝐞𝐝𝐢𝐭 𝐜𝐚𝐫𝐝 𝐢𝐦𝐩𝐫𝐢𝐧𝐭 𝐢𝐬 𝐫𝐞𝐜𝐨𝐫𝐝𝐞𝐝, 𝐛𝐮𝐭 𝐧𝐨 𝐜𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐢𝐬 𝐦𝐚𝐝𝐞. 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐜𝐚𝐧𝐜𝐞𝐥 𝐮𝐧𝐭𝐢𝐥 𝐭𝐡𝐞 𝐝𝐚𝐲 𝐨𝐟 𝐚𝐫𝐫𝐢𝐯𝐚𝐥 𝐚𝐭 𝟏𝟐 𝐩.𝐦. 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐦𝐚𝐝𝐞 𝐝𝐮𝐫𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐬𝐭𝐚𝐲 𝐝𝐮𝐫𝐢𝐧𝐠 𝐭𝐡𝐞 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥.
+
+  ✅ 𝐓𝐨𝐮𝐫𝐢𝐬𝐭 𝐭𝐚𝐱𝐞𝐬 (𝐂𝐇𝐅 𝟑.𝟗𝟓 𝐭𝐡𝐫𝐨𝐮𝐠𝐡𝐨𝐮𝐭 𝐆𝐞𝐧𝐞𝐯𝐚) 𝐠𝐢𝐯𝐞 𝐲𝐨𝐮 𝐚𝐜𝐜𝐞𝐬𝐬 𝐭𝐨 𝐚𝐥𝐥 𝐆𝐞𝐧𝐞𝐯𝐚 𝐩𝐮𝐛𝐥𝐢𝐜 𝐭𝐫𝐚𝐧𝐬𝐩𝐨𝐫𝐭 𝐭𝐡𝐫𝐨𝐮𝐠𝐡𝐨𝐮𝐭 𝐲𝐨𝐮𝐫 𝐬𝐭𝐚𝐲.
+
+  ✅ 𝐘𝐨𝐮 𝐜𝐚𝐧 also 𝐫𝐞𝐬𝐞𝐫𝐯𝐞 𝐛𝐲 𝐜𝐚𝐥𝐥𝐢𝐧𝐠 +𝟒𝟏.𝟐𝟐.𝟕𝟏𝟕.𝟏𝟕.𝟎𝟗 𝐨𝐫 𝐛𝐲 𝐬𝐞𝐧𝐝𝐢𝐧𝐠 𝐚𝐧 𝐞𝐦𝐚𝐢𝐥 𝐭𝐨: 𝐠𝐞𝐧𝐞𝐯𝐚.𝐛𝐚𝐧𝐪𝐮𝐞𝐭@𝐦𝐨𝐯𝐞𝐧𝐩𝐢𝐜𝐤.𝐜𝐨𝐦
+
+
+  ✪ █▓▒░ 𝐍𝐄𝐀𝐑𝐁𝐘 𝐇𝐎𝐓𝐄𝐋𝐒
+
+
+  𝟏. 𝐈𝐧 𝐒𝐰𝐢𝐭𝐳𝐞𝐫𝐥𝐚𝐧𝐝 (𝐢𝐧𝐝𝐢𝐜𝐚𝐭𝐢𝐯𝐞 𝐩𝐫𝐢𝐜𝐞𝐬, 𝐬𝐮𝐛𝐣𝐞𝐜𝐭 𝐭𝐨 𝐜𝐡𝐚𝐧𝐠𝐞, 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞𝐝 𝐚𝐭 𝐭𝐡𝐞 𝐛𝐞𝐠𝐢𝐧𝐧𝐢𝐧𝐠 𝐨𝐟 𝐉𝐚𝐧𝐮𝐚𝐫𝐲 𝟐𝟎𝟐𝟒):
+
+
+  - B&B HOTEL Geneva Airport
+
+  73 Avenue de l'Etang , 1219 Vernier, Switzerland
+
+  https://www.hotel-bb.com/en/hotel/geneva-airport
+
+  ✅ Around 100 CHF/night
+
+  7 min walk / 4 min drive to festival venue
+
+
+  - Holiday Inn Express Geneva Airport
+
+  Route De Pre-Bois 16 GENEVA SWITZERLAND
+
+  https://www.ihg.com/holidayinnexpress/hotels/fr/fr/geneva/gvarp/hoteldetail
+
+  ✅ Around 170 CHF/night
+
+  5 min walk / 2 min drive to the festival venue
+   
+  - Nash Pratik Hotel
+
+  13 Chemin de la Violette CH-1216 Cointrin, Switzerland
+
+  https://www.nashpratikhotel.com/en
+
+  ✅ Around 105 CHF/night
+
+  12 min walk / 3 min drive to festival venue
+   
+  - Ibis budget Geneve Airport
+
+  Avenue Louis-Casai 26 1216 GENEVA SWITZERLAND
+
+  https://all.accor.com/hotel/5653/index.fr.shtml
+
+  ✅ Around 84 euros/night
+
+  18 min walk / 3 min drive to festival venue
+
+
+  𝟐. 𝐈𝐧 𝐅𝐫𝐚𝐧𝐜𝐞 (𝐢𝐧𝐝𝐢𝐜𝐚𝐭𝐢𝐯𝐞 𝐩𝐫𝐢𝐜𝐞𝐬, 𝐬𝐮𝐛𝐣𝐞𝐜𝐭 𝐭𝐨 𝐜𝐡𝐚𝐧𝐠𝐞, 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞𝐝 𝐚𝐭 𝐭𝐡𝐞 𝐛𝐞𝐠𝐢𝐧𝐧𝐢𝐧𝐠 𝐨𝐟 𝐉𝐚𝐧𝐮𝐚𝐫𝐲 𝟐𝟎𝟐𝟒):
+
+
+  - PREMIERE CLASSE GENEVA - Airport - Prévessin
+
+  350 Route Du Nant - Park Of The Rings Of Magny 01280 Prevessin Moens FRANCE
+
+  https://www.premiereclasse.com/fr-fr/
+
+  ✅ between 50 and 58 euros/night approximately
+
+  7 min drive from the festival venue
+
+
+  - HOTEL F1 GENEVA FERNEY AIRPORT (RENOVATED)
+
+  Route de Meyrin, GPS: Chemin des Trois Noyers 01210 FERNEY VOLTAIRE France
+
+  https://all.accor.com/hotel/2257/index.fr.shtml
+
+  ✅ around 34 euros/night. 41 euros/night with private bathroom
+
+  7 min drive from the festival venue
+   
+  - Novotel Geneva Airport France
+
+
+  Chemin des Trois Noyers 01210 FERNEY VOLTAIRE FRANCE
+
+  https://all.accor.com/hotel/0422/index.fr.shtml
+
+  ✅ between 95 and 100 euros/night
+
+  7 min drive from the festival venue
+
+
+
+  █▓▒░  𝐓𝐈𝐂𝐊𝐄𝐓𝐒 𝐀𝐍𝐃 𝐏𝐑𝐈𝐂𝐄𝐒 ░▒▓█
+
+
+  ✪ █▓▒░ 𝐀𝐜𝐜𝐞𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐨𝐟 𝐭𝐢𝐜𝐤𝐞𝐭𝐬
+
+
+  All tickets, including those for evenings and Social are already available on our online ticket office. Ticket sales will close 48 hours before the event.
+
+
+  On-site sales will be open exclusively to Male+Female couples subject to availability.
+
+
+  ✪ █▓▒░ 𝐑𝐞𝐢𝐦𝐛𝐮𝐫𝐬𝐞𝐦𝐞𝐧𝐭 𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐬
+
+
+  - Tickets can be canceled and refunded free of charge until July 5, 2024 at 11:59 p.m. Same condition for name changes.
+
+  - From July 6 to July 17 at 10:59 p.m., cancellation and name change fees will be 20% of the ticket price.
+
+  After this date, cancellations and refunds will no longer be possible.
+
+  Name changes will remain open until July 18 at 11:59 p.m. with a fee charged at 30% of the ticket price.
+
+
+  ✅ Full Pass 💎
+
+
+  Access to all Parties and Workshops.
+
+
+  ✅ Party Pass
+
+
+  Access to 3 Night Parties, 3 Social Parties, and 2 After Parties (Friday & Saturday).
+
+
+  ✅ Day Pass 
+
+
+  Access to all activities for one entire day. There are : Fri-Day Pass , Satur-Day Pass and Sun-Day Pass.
+
+
+
+  ✪ █▓▒░ 𝐎𝐧𝐥𝐢𝐧𝐞 𝐭𝐢𝐜𝐤𝐞𝐭𝐭𝐢𝐧𝐠
+
+
+  https://www.billetweb.fr/geneva-french-kiss-festival-20231
+
+   ▓▒░░  𝐏𝐀𝐑𝐓𝐍𝐄𝐑𝐒𝐇𝐈𝐏 ░░▒▓
+
+  We are looking for partnerships, preferably long-lasting, with various promoters and dance schools. We offer attractive terms.
+
+  If you want to know more, please contact us:
+
+  🤝 admin@frenchkiss-festival.com
+
+  Likewise, if you wish to set up a stand for your products or services, do not hesitate to email us at the same address.
+
+  _________________________________
+
+
+  ░B░I░E░N░V░E░N░U░E  ░E░N ░S░U░I░S░S░E░
+
+
+  ▓▓▒  𝐆𝐄𝐍𝐄𝐕𝐀 𝐅𝐑𝐄𝐍𝐂𝐇 𝐊𝐈𝐒𝐒 𝐅𝐄𝐒𝐓𝐈𝐕𝐀𝐋 - 𝐄𝐃𝐈𝐓𝐈𝐎𝐍 𝟑  ▒▓▓
+
+  𝕍𝕆𝕋ℝ𝔼  𝔽𝔼𝕊𝕋𝕀𝕍𝔸𝕃 DE 𝕂𝕀ℤ💗𝕄𝔹𝔸 𝟝 𝔼𝕋𝕆𝕀𝕃𝔼𝕊 𝔸𝕃𝕃-𝕀ℕ-𝕆ℕ𝔼
+
+
+  💎 Rencontrez des danseurs du monde entier 💎
+
+
+  𝐂𝐡𝐞𝐫𝐬 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥𝐢𝐞𝐫𝐬,
+
+  𝐏𝐨𝐮𝐫 𝐜𝐞𝐭𝐭𝐞 𝟑è𝐦𝐞 𝐄𝐝𝐢𝐭𝐢𝐨𝐧, 𝐅𝐫𝐞𝐧𝐜𝐡 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐄𝐯𝐞𝐧𝐭𝐬 (Abdoulaye Thiam) 𝐬'𝐚𝐬𝐬𝐨𝐜𝐢𝐞 𝐚𝐯𝐞𝐜 𝐈𝐫𝐨𝐧 𝐌𝐚𝐦𝐬 𝐄𝐯𝐞𝐧𝐬 (Iron Mams) 𝐞𝐭 𝐋𝐚𝐭𝐢𝐧 𝐄𝐯𝐞𝐧𝐭 (DJ Chad) 𝐩𝐨𝐮𝐫 𝐯𝐨𝐮𝐬 𝐩𝐫𝐨𝐩𝐨𝐬𝐞𝐫 𝐮𝐧 é𝐯é𝐧𝐞𝐦𝐞𝐧𝐭 𝐞𝐧𝐜𝐨𝐫𝐞 𝐩𝐥𝐮𝐬 𝐟𝐞𝐬𝐭𝐢𝐟 𝐞𝐭 𝐞𝐧𝐜𝐨𝐫𝐞 𝐩𝐥𝐮𝐬 𝐞𝐧𝐫𝐢𝐜𝐡𝐢𝐬𝐬𝐚𝐧𝐭. 
+
+  𝐋𝐞 𝐥𝐢𝐞𝐮 𝐞𝐬𝐭 𝐭𝐨𝐮𝐣𝐨𝐮𝐫𝐬 𝐥𝐞 𝐦ê𝐦𝐞 : 𝐇ô𝐭𝐞𝐥 𝐌𝐨𝐯𝐞𝐧𝐩𝐢𝐜𝐤 𝐆𝐞𝐧𝐞𝐯𝐚 𝐀𝐢𝐫𝐩𝐨𝐫𝐭, 𝐔𝐧 𝐜𝐞𝐧𝐭𝐫𝐞 é𝐯é𝐧𝐞𝐦𝐞𝐧𝐭𝐢𝐞𝐥 𝐞𝐧𝐭𝐢è𝐫𝐞𝐦𝐞𝐧𝐭 𝐩𝐫𝐢𝐯𝐚𝐭𝐢𝐬é 𝐞𝐭 𝐩𝐥𝐮𝐬 𝐝𝐞 𝟑𝟎𝟎 𝐜𝐡𝐚𝐦𝐛𝐫𝐞𝐬 𝐧é𝐠𝐨𝐜𝐢é𝐞𝐬 𝐚𝐟𝐢𝐧 𝐝𝐞 𝐯𝐨𝐮𝐬 𝐨𝐟𝐟𝐫𝐢𝐫 𝐝𝐞𝐬 𝐩𝐫𝐢𝐱 𝐢𝐦𝐛𝐚𝐭𝐭𝐚𝐛𝐥𝐞𝐬 𝐚𝐯𝐞𝐜 𝐝𝐞𝐬 𝐫é𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐧𝐮𝐥𝐚𝐛𝐥𝐞𝐬 𝐣𝐮𝐬𝐪𝐮'𝐚𝐮 𝟏𝟗 𝐝é𝐜𝐞𝐦𝐛𝐫𝐞 à 𝟏𝟐𝐡.
+
+  𝐓𝐨𝐮𝐭 𝐞𝐬𝐭 𝐞𝐬𝐭 𝐦𝐢𝐬 𝐞𝐧 𝐩𝐥𝐚𝐜𝐞 𝐩𝐨𝐮𝐫 𝐮𝐧𝐞 𝐞𝐱𝐩é𝐫𝐢𝐞𝐧𝐜𝐞 𝐮𝐧𝐢𝐪𝐮𝐞 𝐞𝐭 𝐮𝐧 𝐰𝐞𝐞𝐤𝐞𝐧𝐝 𝐢𝐧𝐨𝐮𝐛𝐥𝐢𝐚𝐛𝐥𝐞.
+
+  𝐕𝐨𝐮𝐬 ê𝐭𝐞𝐬 𝐥𝐞𝐬 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐞𝐬 𝐝𝐞 𝐥'𝐚𝐦𝐛𝐢𝐚𝐧𝐜𝐞 𝐝𝐮 𝐆𝐞𝐧𝐞𝐯𝐚 𝐅𝐫𝐞𝐧𝐜𝐡 𝐊𝐢𝐳𝐳 𝐅𝐞𝐬𝐭𝐢𝐯𝐚𝐥.
+
+
+  𝐀𝐧𝐧𝐨𝐧𝐜𝐞𝐳 𝐯𝐨𝐭𝐫𝐞 𝐩𝐫é𝐬𝐞𝐧𝐜𝐞 𝐞𝐧 𝐜𝐫é𝐚𝐧𝐭 𝐝è𝐬 𝐦𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐭 𝐯𝐨𝐭𝐫𝐞 𝐝é𝐜𝐨𝐫 𝐝𝐞 𝐩𝐫𝐨𝐟𝐢𝐥 𝐞𝐭 𝐢𝐧𝐯𝐢𝐭𝐞𝐳 𝐯𝐨𝐬 𝐚𝐦𝐢𝐬 à 𝐯𝐨𝐮𝐬 𝐫𝐞𝐣𝐨𝐢𝐧𝐝𝐫𝐞 𝐩𝐨𝐮𝐫 𝐮𝐧 𝐰𝐞𝐞𝐤𝐞𝐧𝐝 𝐦é𝐦𝐨𝐫𝐚𝐛𝐥𝐞 :
+
+  https://www.twibbonize.com/gfkfestival2024
+
+
+  ▓▒░          𝐋𝐈𝐍𝐄 𝐔𝐏         ░▒▓
+
+
+  ✪ 𝐔𝐧𝐞 𝐋𝐢𝐧𝐞 𝐔𝐩 𝐃𝐉𝐬 é𝐜𝐥𝐞𝐜𝐭𝐢𝐪𝐮𝐞
+
+
+  🎧 🔥 DJ Madiss 🔥 FR
+
+  🎧 🔥 DJ Chad 🔥 FR
+
+  🎧 🔥 DJ Nicelife 🔥 NL
+
+  🎧 🔥 DJ Paraïso 🔥 FR
+
+  🎧 🔥 DJ Mams 🔥 CH
+
+  🎧 🔥 DJ Vasco 🔥 FR
+
+  🎧 🔥 DJ Nao🔥 FR
+
+  🎧 🔥 DJ Lowelo 🔥 FR
+
+  🎧 🔥 DJ Lau🔥 CH
+
+  🎧 🔥 DJ Jahnaï🔥 CH
+
+  🎧 🔥 DJ Mous🔥 CH
+
+  🎧 🔥 DJ Saï Saï 🔥 FR
+
+
+  ✪ 𝐃𝐞𝐬 𝐩𝐫𝐨𝐟𝐬 𝐝'𝐮𝐧𝐢𝐯𝐞𝐫𝐬 𝐝𝐢𝐟𝐟é𝐫𝐞𝐧𝐭𝐬 𝐩𝐨𝐮𝐫 𝐝𝐞𝐬 𝐜𝐨𝐮𝐫𝐬 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐬
+
+
+  ❤️ Asia Voronova💃FR [Women Body Mooving]
+
+  ❤️ Issa 🕺CH Afrobeats & Ndombolo]
+
+  ❤️ Diane💃FR [Lady Styling]
+
+  ❤️Vasco 🕺FR [Semba & Kizomba]
+
+  ❤️ Justinho🕺FR [Urban Kiz]
+
+  ❤️ Adilson & Telma🕺💃FR [Semba]
+
+  ❤️ Kalypso & Adé 🕺CH [Urban Kiz]
+
+  ❤️ Iron Mams & Moorea🕺💃FR/CH [Kizomba Fusion]
+
+  ❤️ Selim & Angélique 🕺💃FR [Tarraxo]
+
+  ❤️ José & Coralie -JC Connexion🕺💃CH [Kiz Fusion]
+
+  ❤️ Abdoulaye & Valérie 🕺💃FR/CH [Kizomba Intégrative]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+  ✪ 𝐕𝐎𝐒 𝐏𝐇𝐎𝐓𝐎𝐆𝐑𝐀𝐏𝐇𝐄𝐒 
+
+
+  📸 Cheryl Style Kizomba
+
+  📸 Franck
+
+  📸 Photobooth Movies par French Connection Events
+
+
+  ✅ 𝐁𝐢𝐞𝐧 𝐬û𝐫, 𝐯𝐨𝐮𝐬 𝐚𝐮𝐬𝐬𝐢 , 𝐯𝐨𝐮𝐬 𝐬𝐞𝐫𝐞𝐳 𝐬𝐮𝐫 𝐥𝐚 𝐩𝐢𝐬𝐭𝐞 𝐝𝐞 𝐝𝐚𝐧𝐬𝐞
+
+  🔥𝐅𝐞𝐬𝐭𝐢𝐯𝐚𝐥𝐢𝐞𝐫𝐬, 𝐯𝐨𝐮𝐬 ê𝐭𝐞𝐬 𝐥𝐞𝐬 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐞𝐬 𝐝𝐞 𝐜𝐞𝐭𝐭𝐞 𝐚𝐦𝐛𝐢𝐚𝐧𝐜𝐞! 
+
+   🅱🅸🅻🅻🅴🆃🆃🅴🆁🅸🅴      ➡️➡️➡️
+
+  https://www.billetweb.fr/geneva-french-kiss-festival-20231
+
+
+
+  ▓▒ ░ 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄 ░ ░▒▓
+
+
+  🎉 Un festival 5 étoiles 100% Kizomba à Genève avec des prix accessibles 🎉
+
+
+  ✅ Tout-en-un même lieu : Hôtel 5 étoiles Movenpick
+
+  ✅ 3 après-midis dansant Social Room
+
+  ✅ 3 jours de cours, workshops, bootcamps
+
+  ✅3 soirées avec 🎀𝟑 𝐒𝐚𝐥𝐥𝐞𝐬 - 𝟑 𝐀𝐦𝐛𝐢𝐚𝐧𝐜𝐞𝐬 🎀
+
+  ✅2 After Parties
+
+
+  🌞 𝟑 𝐉𝐎𝐔𝐑𝐒 😇
+
+
+  ✪ 3 après-midis dansant Social Room
+
+  ✪ Cours et stages : planning bientôt disponible dans la section Discussion
+
+
+  🌚 𝟑 𝐍𝐔𝐈𝐓𝐒 😈
+
+
+  ✪ 𝟑 𝐒𝐨𝐢𝐫é𝐞𝐬 à 𝐭𝐡è𝐦𝐞𝐬
+
+
+  Pour l'édition 2024, nous vous invitons à venir voyager avec nous à travers les époques.
+
+
+  💎 𝐕𝐞𝐧𝐝𝐫𝐞𝐝𝐢 𝟏𝟗/𝟎𝟕 - 𝐓𝐡è𝐦𝐞 : 𝐑𝐎𝐘𝐀𝐋 𝐊𝐈𝐒𝐒
+        Code vestimentaire : Royaume
+        Venez en tant que reines, rois, chevaliers, serviteurs, paysans,..
+
+       
+  💎 𝐒𝐚𝐦𝐞𝐝𝐢  𝟐𝟎/𝟎𝟕 - 𝐓𝐡è𝐦𝐞 : 𝐆𝐀𝐓𝐒𝐁𝐘
+        Dress Code : Années 20/30
+        Venez à une soirée de gala des années 20/30
+
+  💎 𝐃𝐢𝐦𝐚𝐧𝐜𝐡𝐞 𝟐𝟏/𝟎𝟕 - 𝐃𝐈𝐒𝐂𝐎
+        Dress Code : Années 70/80
+        Venez à une soirée Disco des années 70/80
+
+  ✪ 𝟑 𝐒𝐚𝐥𝐥𝐞𝐬 - 𝟑 𝐀𝐦𝐛𝐢𝐚𝐧𝐜𝐞𝐬 𝟏𝟎𝟎% 𝐊𝐢𝐳
+
+
+  ▶️ Salle KIZ INTEGRATIVE :
+        Kizomba French Style : Urban Kiz, Tarraxo, Ghetto zouk
+        Kizomba all style
+
+  ▶️ SALLE KIZOMBAZIK : Trad & KCMA : 22h30-02h30
+        "La kizomba c'était mieux avant"
+         Kizomba traditionnelle, Semba, Cabo Love
+
+  ▶️ SENSUAL ROOM : 02h30-06h30
+        Douceur, Slow Kiz, Slow KCMA, Konpa
+
+  ▶️ B- ROOM : 22h30-06h00
+        Bachata 100%
+
+  🎉 KIZOMBA = FÊTE
+
+
+  C'est l'essence même de la danse qui nous passionne ! Les autres aspects : techniques, culturels et artistiques, se greffent autour de cet esprit jovial et de cette ambiance festive qui nous rassemble.
+
+  Alors les gens, venez comme vous êtes et CÉLÉBREZ !
+
+
+  █▓▒░ 𝐋𝐈𝐄𝐔 𝐃𝐄 𝐋'𝐄𝐕𝐄𝐍𝐄𝐌𝐄𝐍𝐓 ░▒▓█
+
+
+  ✪ █▓▒░ 𝐀𝐥𝐥-𝐢𝐧-𝐨𝐧𝐞 𝐇𝐨𝐭𝐞𝐥 𝟓 é𝐭𝐨𝐢𝐥𝐞𝐬 : 𝐌𝐎𝐕𝐄̈𝐍𝐏𝐈𝐂𝐊 𝐆𝐄𝐍𝐄𝐕𝐀
+
+
+  𝐕𝐢𝐬𝐢𝐭𝐞𝐳 𝐥'𝐡ô𝐭𝐞𝐥 𝐬𝐮𝐫 𝐜𝐞 𝐥𝐢𝐞𝐧 :
+
+  https://movenpick.visualizer360.com/en/hotel-geneva?t=55679&p=58765&h=365.22&v=0&f=84
+
+
+  𝐋'𝐡ô𝐭𝐞𝐥 𝐌ö𝐯𝐞𝐧𝐩𝐢𝐜𝐤 𝐞𝐬𝐭 𝐥'𝐮𝐧 𝐝𝐞𝐬 𝐩𝐥𝐮𝐬 𝐠𝐫𝐚𝐧𝐝𝐬 𝐡ô𝐭𝐞𝐥𝐬 𝐝𝐞 𝐆𝐞𝐧è𝐯𝐞 𝐞𝐧 𝐭𝐞𝐫𝐦𝐞𝐬 𝐝𝐞 𝐜𝐚𝐩𝐚𝐜𝐢𝐭é 𝐝'𝐚𝐜𝐜𝐮𝐞𝐢𝐥. 𝐈𝐥 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝'𝐞𝐬𝐩𝐚𝐜𝐞𝐬 𝐬𝐩𝐚𝐜𝐢𝐞𝐮𝐱 𝐝𝐨𝐭é𝐬 𝐝'𝐮𝐧𝐞 𝐜𝐥𝐢𝐦𝐚𝐭𝐢𝐬𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭𝐞 𝐩𝐨𝐮𝐫 𝐥𝐞𝐬 𝐚𝐜𝐭𝐢𝐯𝐢𝐭é𝐬 𝐝𝐮 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥.
+
+  𝐀𝐯𝐞𝐜 𝐬𝐞𝐬 𝟑𝟑𝟎 𝐜𝐡𝐚𝐦𝐛𝐫𝐞𝐬, 𝐢𝐥 𝐨𝐟𝐟𝐫𝐞 𝐮𝐧 𝐡é𝐛𝐞𝐫𝐠𝐞𝐦𝐞𝐧𝐭 𝐝𝐞 𝐡𝐚𝐮𝐭 𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠, 𝐚𝐢𝐧𝐬𝐢 𝐪𝐮'𝐮𝐧 𝐚𝐜𝐜è𝐬 à 𝐮𝐧𝐞 𝐬𝐚𝐥𝐥𝐞 𝐝𝐞 𝐟𝐢𝐭𝐧𝐞𝐬𝐬 𝐞𝐭 𝐝𝐞 𝐧𝐨𝐦𝐛𝐫𝐞𝐮𝐱 𝐚𝐮𝐭𝐫𝐞𝐬 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝟓 é𝐭𝐨𝐢𝐥𝐞𝐬.
+
+  𝐑𝐭𝐞 𝐝𝐞 𝐏𝐫é-𝐁𝐨𝐢𝐬 𝟐𝟎, 𝟏𝟐𝟏𝟓 𝐆𝐞𝐧è𝐯𝐞
+
+
+  ✅ Service de navette aéroport-hôtel et gare-hôtel gratuits.
+
+  ✅ Accès Wi-Fi gratuit pour les clients de l'hôtel
+
+  ✅ Transports publics gratuits pour tout Genève pendant votre séjour.
+
+
+  ✪ █▓▒░ 𝐓𝐚𝐫𝐢𝐟𝐬 𝐧é𝐠𝐨𝐜𝐢é𝐬 : 𝐌𝐄𝐈𝐋𝐋𝐄𝐔𝐑𝐒 𝐏𝐑𝐈𝐗 𝐏𝐎𝐒𝐒𝐈𝐁𝐋𝐄𝐒
+
+
+  ✅ 125 CHF/Nuit/Chambre single + Buffet Petit-déjeuner 
+
+  ✅ 140 CHF/Nuit/Chambre double + Buffet Petit-déjeuner x2
+
+  ✅ 190CHF/Nuit/Chambre triple + Buffet petit-déjeuner x3
+
+  ✅ Tarifs préférentiels disponibles du 18 janvier 2024 au 12 juillet. Limité aux 150 premières chambres. Minimum de réservation : 2 nuits !
+
+
+  ✅ 𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐫é𝐬𝐞𝐫𝐯𝐞𝐫 𝐯𝐨𝐭𝐫𝐞 𝐜𝐡𝐚𝐦𝐛𝐫𝐞 ?
+
+       ➢ Cliquer sur le lien suivant :
+            https://all.accor.com/hotel/B4G7/index.en.shtml
+       ➢ Choississez vos dates
+       ➢ Taper le code préférentiel : MOV1 dans "Special Rates"
+       ➢ Les tarifs spéciaux sont valables jusqu'au 12 juillet 2024
+
+  𝐕𝐨𝐮𝐬 𝐩𝐨𝐮𝐯𝐞𝐳 𝐫é𝐬𝐞𝐫𝐯𝐞𝐫 𝐞𝐧 𝐚𝐩𝐩𝐞𝐥𝐚𝐧𝐭 𝐚𝐮 +𝟒𝟏.𝟐𝟐.𝟕𝟏𝟕.𝟏𝟕.𝟎𝟗 𝐨𝐮 𝐞𝐧 𝐞𝐧𝐯𝐨𝐲𝐚𝐧𝐭 𝐮𝐧 𝐦𝐚𝐢𝐥 à : 𝐠𝐞𝐧𝐞𝐯𝐚.𝐛𝐚𝐧𝐪𝐮𝐞𝐭@𝐦𝐨𝐯𝐞𝐧𝐩𝐢𝐜𝐤.𝐜𝐨𝐦
+
+  𝐏𝐨𝐮𝐫 𝐫𝐚𝐩𝐩𝐞𝐥 : 
+
+  ✅ 𝐋𝐨𝐫𝐬𝐪𝐮𝐞 𝐯𝐨𝐮𝐬 𝐫é𝐬𝐞𝐫𝐯𝐞𝐳, 𝐯𝐨𝐭𝐫𝐞 𝐞𝐦𝐩𝐫𝐞𝐢𝐧𝐭𝐞 𝐂𝐁 𝐞𝐬𝐭 𝐞𝐧𝐫𝐞𝐠𝐢𝐬𝐭𝐫é, 𝐦𝐚𝐢𝐬 𝐚𝐮𝐜𝐮𝐧 𝐩𝐫é𝐥è𝐯𝐞𝐦𝐞𝐧𝐭 𝐧'𝐞𝐬𝐭 𝐞𝐟𝐟𝐞𝐜𝐭𝐮é. 𝐕𝐨𝐮𝐬 𝐩𝐨𝐮𝐯𝐞𝐳 𝐚𝐧𝐧𝐮𝐥𝐞𝐫 𝐣𝐮𝐬𝐪𝐮'𝐚𝐮 𝐣𝐨𝐮𝐫 𝐝'𝐚𝐫𝐫𝐢𝐯é𝐞 à 𝟏𝟐𝐡. 𝐋𝐞 𝐩𝐚𝐢𝐞𝐦𝐞𝐧𝐭 𝐬𝐞𝐫𝐚 𝐞𝐟𝐟𝐞𝐜𝐭𝐮é 𝐥𝐨𝐫𝐬 𝐝𝐞 𝐯𝐨𝐭𝐫𝐞 𝐬é𝐣𝐨𝐮𝐫 𝐩𝐞𝐧𝐝𝐚𝐧𝐭 𝐥𝐞 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥. 
+
+  ✅ 𝐋𝐞𝐬 𝐭𝐚𝐱𝐞𝐬 𝐝𝐞 𝐬é𝐣𝐨𝐮𝐫𝐬 (𝐂𝐇𝐅 𝟑,𝟗𝟓 𝐝𝐚𝐧𝐬 𝐭𝐨𝐮𝐭 𝐆𝐞𝐧è𝐯𝐞) 𝐯𝐨𝐮𝐬 𝐝𝐨𝐧𝐧𝐞 𝐚𝐜𝐜è𝐬 à 𝐥'𝐞𝐧𝐬𝐞𝐦𝐛𝐥𝐞 𝐝𝐞𝐬 𝐭𝐫𝐚𝐧𝐬𝐩𝐨𝐫𝐭𝐬 𝐩𝐮𝐛𝐥𝐢𝐜𝐬 𝐠𝐞𝐧𝐞𝐯𝐨𝐢𝐬 𝐝𝐮𝐫𝐚𝐧𝐭 𝐭𝐨𝐮𝐭 𝐯𝐨𝐭𝐫𝐞 𝐬é𝐣𝐨𝐮𝐫.
+
+
+  ✪ █▓▒░ 𝐇Ô𝐓𝐄𝐋𝐒 À 𝐏𝐑𝐎𝐗𝐈𝐌𝐈𝐓É
+
+
+  𝟏. 𝐄𝐧 𝐒𝐮𝐢𝐬𝐬𝐞 (𝐭𝐚𝐫𝐢𝐟𝐬 𝐢𝐧𝐝𝐢𝐜𝐚𝐭𝐢𝐟𝐬, 𝐬𝐮𝐬𝐜𝐞𝐩𝐭𝐢𝐛𝐥𝐞𝐬 𝐝𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬, 𝐜𝐨𝐧𝐬𝐮𝐥𝐭é𝐬 𝐝é𝐛𝐮𝐭 𝐣𝐚𝐧𝐯𝐢𝐞𝐫 𝟐𝟎𝟐𝟒)
+
+
+  - B&B HOTEL Genève Aéroport
+
+  73 Avenue de l'Etang , 1219 Vernier, Suisse
+
+  https://www.hotel-bb.com/fr/hotel/geneva-airport
+
+  ✅ Environ 100 CHF/nuit
+
+  7 min à pied / 4 min en voiture du lieu du festival
+
+
+  - Holiday Inn Express Genève Aéroport
+
+  Route De Pré-Bois 16 GENÈVE SUISSE
+
+  https://www.ihg.com/holidayinnexpress/hotels/fr/fr/geneva/gvarp/hoteldetail
+
+  ✅ Environ 170 CHF/nuit
+
+  5 min à pied / 2 min en voiture du lieu du festival
+   
+  - Hôtel Nash Pratik
+
+  13 Chemin de la Violette CH-1216 Cointrin, Suisse
+
+  https://www.nashpratikhotel.com/fr
+
+  ✅ Environ 105 CHF/nuit
+
+  12 min à pied / 3 min en voiture du lieu du festival
+   
+  - Ibis budget Genève Aéroport
+
+  Avenue Louis-Casai 26 1216 GENEVE SUISSE
+
+  https://all.accor.com/hotel/5653/index.fr.shtml
+
+  ✅ Environ 84 euros/nuit
+
+  18 min à pied / 3 min en voiture du lieu du festival
+
+
+  𝟐. 𝐄𝐧 𝐅𝐫𝐚𝐧𝐜𝐞 (𝐭𝐚𝐫𝐢𝐟𝐬 𝐢𝐧𝐝𝐢𝐜𝐚𝐭𝐢𝐟𝐬, 𝐬𝐮𝐬𝐜𝐞𝐩𝐭𝐢𝐛𝐥𝐞𝐬 𝐝𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬, 𝐜𝐨𝐧𝐬𝐮𝐥𝐭é𝐬 𝐝é𝐛𝐮𝐭 𝐣𝐚𝐧𝐯𝐢𝐞𝐫 𝟐𝟎𝟐𝟒)
+
+
+  - PREMIERE CLASSE GENEVE - Aéroport - Prévessin
+
+  350 Route Du Nant - Parc Des Anneaux De Magny 01280 Prevessin Moens FRANCE
+
+  https://www.premiereclasse.com/fr-fr/
+
+  ✅ entre 50 et 58 euros/nuit environ
+
+  A 7 min en voiture du lieu du festival
+
+
+  - HOTEL F1 GENÈVE FERNEY AÉROPORT (RÉNOVÉ)
+
+  Route de Meyrin, GPS : Chemin des Trois Noyers 01210 FERNEY VOLTAIRE France
+
+  https://all.accor.com/hotel/2257/index.fr.shtml
+
+  ✅ environ 34 euros/nuit. 41 euros/nuit avec salle de bain privée
+
+  A 7 min en voiture du lieu du festival
+   
+  - Novotel Genève Aéroport France
+
+
+  Chemin des Trois Noyers 01210 FERNEY VOLTAIRE FRANCE
+
+  https://all.accor.com/hotel/0422/index.fr.shtml
+
+  ✅ entre 95 et 100 euros/nuit
+
+  A 7 min en voiture du lieu du festival
+
+
+  █▓▒░  𝐁𝐈𝐋𝐋𝐄𝐓𝐒 𝐄𝐓 𝐏𝐑𝐈𝐗 ░▒▓█
+
+
+  ✪ █▓▒░ 𝐀𝐜𝐜𝐞𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭é 𝐝𝐞𝐬 𝐛𝐢𝐥𝐥𝐞𝐭𝐬
+
+
+  Tous les billets, y compris ceux des soirées et Social sont déjà disponibles sur notre billetterie en ligne. La vente des billets fermera 48 heures avant l'événement.
+
+
+  La vente sur place sera ouverte exclusivement aux couples Homme+Femme sous réserve de disponibilité.
+
+
+  ✪ █▓▒░ 𝐂𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐬 𝐝𝐞 𝐫𝐞𝐦𝐛𝐨𝐮𝐫𝐬𝐞𝐦𝐞𝐧𝐭
+
+
+  - Les billets sont annulables et remboursables sans frais jusqu'au 5 juillet 2024 à 23h59. Même condition pour les changements de noms.
+
+  - Du 6 juillet au 17 juillet à 22h59, les frais d'annulation et de changement de nom seront de 20% du prix du billet.
+
+  Après cette date, les annulations et les remboursements ne seront plus possibles.
+
+  Les changements de nom resteront ouverts jusqu'au 18 juillet à 23h59, avec des frais facturés à 30% du prix du billet.
+
+
+  ✅ Full Pass (Pass Complet) 💎
+
+
+  Accès à tous les cours, stages, soirées et après-midis dansants.
+
+
+  ✅ Pass 3 Soirées (Party Pass)
+
+
+  Accès à 3 soirées nocturnes, 3 après-midi dansantes (Sociales) et 2 after-parties (vendredi et samedi).
+
+
+  ✅ Pass journée (Day Pass)
+
+
+  Accès à toutes les activités pendant une journée entière. Il existe : le Pass Vendredi (Fri-Day Pass), le Pass Samedi (Satur-Day Pass) et le Pass Dimanche 'Sun-Day Pass).
+
+
+  ✪ █▓▒ ░ 𝐁𝐢𝐥𝐥𝐞𝐭𝐭𝐞𝐫𝐢𝐞 𝐞𝐧 𝐥𝐢𝐠𝐧𝐞
+
+
+  https://www.billetweb.fr/geneva-french-kiss-festival-20231
+
+
+   ▓▒░░  𝐏𝐀𝐑𝐓𝐄𝐍𝐀𝐑𝐈𝐀𝐓𝐒 ░░▒▓​
+
+  Nous recherchons des partenariats, de préférence durables, avec différents promoteurs et écoles de danse. Nous proposons des conditions attractives.
+
+  Si vous souhaitez en savoir plus, contactez-nous :
+
+  🤝 admin@frenchkiss-festival.com
+
+  De même, si vous souhaitez6 monter un stand pour vos produits ou services, n'hésitez pas à nous envoyer un email à la même adresse.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546478/id3dt86oievbpupy6dew.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ6-LQkwZljEcRObwLezWVtqA
+international: No
+hash: 1721401200000+ChIJRb-__ZxkjEcR3Wh6kzSEJ0g
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7bICGAw7j6Aa040Ctj2G.png?generation=1718546498268918&alt=media
+bookmarks: 1
+viewsCount: 2
+id: 7bICGAw7j6Aa040Ctj2G

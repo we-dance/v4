@@ -1,0 +1,102 @@
+venue:
+  website: http://steelvenue.com/
+  formatted_address: Ul. Vijenac Braće Lorenzetto 17, 52210, Rovinj, Croatia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "17"
+      short_name: "17"
+    - types:
+        - route
+      long_name: Ulica Vijenac Braće Lorenzetto
+      short_name: Ul. Vijenac Braće Lorenzetto
+    - types:
+        - locality
+        - political
+      long_name: Rovinj
+      short_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Općina Rovinj
+      short_name: Općina Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Istarska županija
+      short_name: Istarska županija
+    - types:
+        - country
+        - political
+      long_name: Croatia
+      short_name: HR
+    - types:
+        - postal_code
+      long_name: "52210"
+      short_name: "52210"
+  url: https://maps.google.com/?cid=647354496231779742
+  name: Steel Bar & Club
+  geometry:
+    viewport:
+      south: 45.0837216697085
+      north: 45.08641963029149
+      east: 13.6415590802915
+      west: 13.6388611197085
+    location:
+      lng: 13.6402746
+      lat: 45.0850541
+  place_id: ChIJDThP0I2_fEcRnq2lB3zd-wg
+  international_phone_number: +385 91 111 1500
+endDate: 2021-08-30T17:30:00.000Z
+link: https://www.salsa-adria.hr/shop/next_events/rovinj_summer_sensual_days_2021
+description: >-
+  Boat parties are waiting for you again! Close your eyes and remember - sea,
+  sun, your dance partner and her majesty - the music. Seize the moment - you
+  only live once!
+
+
+  25th - 29th of August, 2021
+
+
+  - [Program](https://www.summersensual.com/rovinj/program)
+
+  - [COVID Info](https://www.summersensual.com/rovinj/covid_19)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd321e515-6a56-4ef3-88aa-ec5a7388cab0?alt=media&token=84450155-fc3c-4d08-b477-dcbdaddca0ee
+duration: custom
+createdAt: 1627054406531
+watchersCount: 0
+price: 30EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FhTsYMWOVXRxm3ntqjiOp.png?generation=1627054426148840&alt=media
+commentsLast: ~
+id: bYkPpswzNevnr7HB28gv
+place: ""
+views: 1
+updatedAt: 1627054406532
+address: Opatija, Croatia
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Festival
+form: Yes
+createdBy: O9x6HmmJ40bCkoB7iFuX7YPRhJk2
+commentsCount: 0
+name: ROVINJ SUMMER SENSUAL DAYS 2021
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-08-24T10:00:00.000Z
+username: SummerSensual
+viewsCount: 3

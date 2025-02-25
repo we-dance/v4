@@ -1,0 +1,122 @@
+venue:
+  formatted_address: Náměstí Republiky, Nové Město, 110 00 Praha-Praha 1, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Náměstí Republiky
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4298663802915
+      south: 50.0867894197085
+      north: 50.08948738029149
+      west: 14.4271684197085
+    location:
+      lng: 14.4285174
+      lat: 50.0881384
+  address_components:
+    - types:
+        - route
+      short_name: Náměstí Republiky
+      long_name: Náměstí Republiky
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 110 00
+      long_name: 110 00
+  place_id: EkFOw6FtxJtzdMOtIFJlcHVibGlreSwgTm92w6kgTcSbc3RvLCAxMTAgMDAgUHJhaGEtUHJhaGEgMSwgQ3plY2hpYSIuKiwKFAoSCYnICt3qlAtHEWU9IcatvR5_EhQKEgnvqBH2vZQLRxEYxHx8H9zVLQ
+  url: https://maps.google.com/?q=N%C3%A1m%C4%9Bst%C3%AD+Republiky,+Nov%C3%A9+M%C4%9Bsto,+110+00+Praha-Praha+1,+Czechia&ftid=0x470b94eadd0ac889:0x7f1ebdadc6213d65
+endDate: 2023-07-07T21:30
+claimed: No
+link: https://www.facebook.com/events/655573576103360/655573576103360
+description: |-
+  Salsa and bachata party in Náměstí Republiky
+
+  🕕 From 18:00 to 21:30
+
+  With Dj Lole (FR/CZ) 🎧
+
+  🎈 Free entrance 🎈
+
+  📌 Official Sabor Latino Praha event:
+  https://www.facebook.com/events/240744188558321
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F9a68dcc5-d210-4bad-9ea7-88c74397b570?alt=media&token=0115d035-37a2-4625-bcec-c611875f8f16
+createdAt: 1688598409338
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+price: 0 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - DjLole
+international: No
+updatedAt: 1688598409338
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  facebook: https://facebook.com/saborlatinopraha
+  username: saborlatinopraha
+facebook: https://www.facebook.com/events/655573576103360/655573576103360
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Salsa Bachata party at Sabor Latino with Dj Lole
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-07T06:00
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbCFoSsF1Zxa8s3Zj1zBp.png?generation=1688598459607916&alt=media
+telegram:
+  requestedAt: 1688598418433
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/319
+  publishedAt: 1688598462917
+  messageId: 319
+  state: published
+viewsCount: 32
+id: bCFoSsF1Zxa8s3Zj1zBp

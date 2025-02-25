@@ -1,0 +1,161 @@
+endDate: 1716422400000
+sourceUrl: https://www.facebook.com/events/1217734385873933/
+createdAt: 1715695244194
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1715686296000
+updatedAt: 1715695244194
+importedAt: 1715695244194
+providerUpdatedAt: 1715686296000
+facebookId: "1217734385873933"
+facebook: https://www.facebook.com/events/1217734385873933/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1217734385873933/
+eventType: Party
+providerItemId: 10008846-1716336000-1716422399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Víg1, Vígszínház utca 1., Budapest, 1137, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716336000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Vígszínház u. 1, 1137 Hungary
+  website: https://vig1.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: VÍG1 Kulturális és Mozgásstúdió ( Vígegy )
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0510715697085
+        lat: 47.5113521697085
+      northeast:
+        lng: 19.0537695302915
+        lat: 47.5140501302915
+    location:
+      lng: 19.05243
+      lat: 47.5127135
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Vígszínház u.
+      long_name: Vígszínház utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIII. kerület
+      long_name: XIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1137"
+      long_name: "1137"
+  international_phone_number: +36 20 222 0010
+  place_id: ChIJ7Y7NumrdQUcRgRwFYzreyN8
+  url: https://maps.google.com/?cid=16125382808150809729
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/fourstepsbachata
+  name: FOUR STEPS - Bachata Dance Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715695255/i3gzijeyjxxjy3d1ygzs.jpg
+  bio: ""
+  id: AawTCDK5nbsYPeA3HDYy
+  instagram: ""
+  username: fourstepsbachata
+claimed: No
+link: ""
+description: >
+  Sziasztok Táncosok!🙂
+
+  Egy új Bachata bulisorozat veszi kezdetét, ahol nem csak a táncé a főszerep. Szerettünk volna egy olyan eseményt, ahol a táncon és bulizáson kivűl lehetőség van a baráti kapcsolódásra is.🧑‍🤝‍🧑 
+
+
+
+  Találtunk egy hangulatos helyszint ehhez, ahol a beszélgetés, chill és a tánc megfér egymás mellett👌 . Mind ez a belváros szívében a Vígszínház utca 1 száma alatt található VIG1-ben.🤩
+
+
+
+  Gyere és találkozz táncos barátaiddal egy jó beszélgetésre, vagy akár társasjátékra és mivel ez egy party esemény, igy természetesen táncolni is lesz lehetőség.💃🕺
+
+
+
+  Ehhez a szerda egy tökéletes nap, a hét közepe, sok minden történt már, amit megosztanál barátaiddal🧑‍🤝‍🧑 és mindjárt itt a hétvége🤩. Ugorj be munka után, szervezd ide a baráti találkozódat, itt minden adott egy kényelmes beszélgetéshez és tánchoz egyaránt. 
+
+
+
+  ✔︎Helyszín: VIG 1 (1137 Budapest, Vígszínház utca 1.)
+
+  ✔︎A belépő ára: 1500 Ft + Welcome Drink 
+
+  ✔︎Első időpont: 2024.05.22. 
+
+  ✔︎Utána: Minden szerdán!
+
+  ✔︎Nyitás: 19:00
+
+  ✔︎Zárás: 24:00
+
+  ✔︎Zene felelős: DJ Mike
+
+
+
+  Egyéb infó:
+
+  ✔︎Öltöző: van 
+
+  ✔︎Ruhatár: nincs
+
+  ✔︎Parketta: van
+
+  ✔︎Légtechnika a termekben: van
+
+  ✔︎Ventilátorok a terembe: Van
+
+  ✔︎Büfé: van (üdítőt, alkoholt, rákcsát lehet venni)
+
+  ✔︎Italt, ételt külön is be lehet hozni! 
+
+
+
+  Várunk Titeket sok szeretettel! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715695260/fqzjt4bebab6uc2bzogi.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Bachata Social Night Party (Connect With Friends)
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1716397200000+ChIJ7Y7NumrdQUcRgRwFYzreyN8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9apDJomohJ1XZG9wpf15.png?generation=1715695285831159&alt=media
+viewsCount: 1
+id: 9apDJomohJ1XZG9wpf15

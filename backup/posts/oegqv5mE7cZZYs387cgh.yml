@@ -1,0 +1,110 @@
+venue:
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  website: http://www.salsa-mas.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+  international_phone_number: +49 172 8216569
+endDate:
+  _seconds: 1646163000
+  _nanoseconds: 0
+claimed: No
+link: https://www.salsamas.de/de/course/details/345
+description: Der Schwerpunkt in dieser Stufe liegt auf Verbesserung der
+  Drehtechnik für Frauen und Männer (Doppeldrehungen), Verfeinerung der Führung
+  der Männer und Ausbau der Grundfiguren sowie Styling-Tipps für die Damen. Die
+  Figuren werden im Vergleich zu dem Salsa Beginner 3 Kurs deutlich länger und
+  komplexer! Sechs Monate lang ist die empfohlene Besuchszeit – es werden immer
+  neue Figuren und Kombinationen gezeigt. Der Inhalt ist für den erfolgreichen
+  Aufbau des individuellen zukünftigen Salsa- Repertoires wichtig.  In diesem
+  Kurs wird eine gewisse Sicherheit in den Basics und Verständnis der
+  Salsa-Musik vorausgesetzt.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F1b5e9def-df80-426d-a4d3-6e35d7a85af3?alt=media&token=1d58db36-3e2d-4451-8b5a-0a9109b678fd
+duration: "90"
+createdAt: 1646043919180
+artists: []
+price: "Einzelanmeldung: 89 € p. Person (4x 75 Min.) / Studenten: 79 €"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646043919180
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: Salsa Mittelstufe I
+online: Yes
+startDate: 2022-03-01T19:00
+username: Salsamas_Munich
+styles:
+  SalsaLA:
+    level: Intermediate
+    highlighted: false
+    selected: true
+id: oegqv5mE7cZZYs387cgh
+viewsCount: 2

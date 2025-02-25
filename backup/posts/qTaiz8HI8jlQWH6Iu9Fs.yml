@@ -1,0 +1,135 @@
+endDate: 1717200000000
+sourceUrl: https://www.facebook.com/events/800938771632718
+createdAt: 1716300060787
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1716283755000
+updatedAt: 1716300060787
+importedAt: 1716300060787
+providerUpdatedAt: 1716283755000
+facebookId: "800938771632718"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/800938771632718
+eventType: Party
+providerItemId: 10008907-1717113600-1717199999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Cafe Dream’s, Fürdő utca 24., Balatonfüred, 8230, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717113600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Balatonfüred, Fürdő u. 24, 8230 Hungary
+  website: https://www.facebook.com/dreams.balatonfured/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Dream's Cafe
+  geometry:
+    viewport:
+      southwest:
+        lng: 17.87243871970849
+        lat: 46.94996086970849
+      northeast:
+        lng: 17.8751366802915
+        lat: 46.95265883029149
+    location:
+      lng: 17.8738798
+      lat: 46.9513759
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Fürdő u.
+      long_name: Fürdő utca
+    - types:
+        - locality
+        - political
+      short_name: Balatonfüred
+      long_name: Balatonfüred
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "8230"
+      long_name: "8230"
+  international_phone_number: +36 30 605 8913
+  place_id: ChIJ51WK3h69aUcRMuy6Q5DiWNU
+  url: https://maps.google.com/?cid=15373286437268679730
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsasabrosavp
+  name: Salsa Sabrosa Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765536/upxtkp0zhqvuaxx3prai.jpg
+  bio: ""
+  id: rxzDWLoGjB8CkZMWGWrI
+  instagram: ""
+  username: salsasabrosavp
+claimed: No
+facebook: https://www.facebook.com/events/800938771632718/
+link: ""
+description: >-
+  Újra gyakorló est Balatonfüreden! 
+
+  Időpont: május 31. péntek 
+
+
+  A helyszín továbbra is a Dream’s Cafe a Fürdő utcában.
+
+
+  Zenei paletta: főleg kubai salsa, egy kis bachata és kizomba fűszerezéssel 🙂
+
+
+  Kezdés: 20 óra
+
+
+  Belépő: 1.500 Ft (most utoljára, a következő partytól egy kis áremelés várható)
+
+
+  Italt, ahogy korábban is, kérünk, hogy ne hozzatok majd be.
+
+  Köszönjük!
+
+
+  A bulifelelős továbbra is Balázs lesz ❤
+
+
+  Várunk szeretettel! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716300115/x9cvlgrlzd5ssirlubma.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Gyakorló est Balatonfüreden!
+online: No
+place: ChIJ_-rTPhK9aUcRoBseDCnEAAQ
+international: No
+hash: 1717178400000+ChIJ51WK3h69aUcRMuy6Q5DiWNU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FqTaiz8HI8jlQWH6Iu9Fs.png?generation=1716300137694506&alt=media
+id: qTaiz8HI8jlQWH6Iu9Fs

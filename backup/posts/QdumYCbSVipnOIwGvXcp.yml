@@ -1,0 +1,169 @@
+endDate: 1714521600000
+sourceUrl: https://www.facebook.com/events/1466479294222614/
+createdAt: 1710176516202
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1709725264000
+updatedAt: 1710176516202
+importedAt: 1710176516202
+providerUpdatedAt: 1709725264000
+facebookId: "1466479294222614"
+facebook: https://www.facebook.com/events/1466479294222614/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1466479294222614/
+eventType: Party
+providerItemId: e1466479294222614@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: TOMI´S  BIRTHDAY PARTY ULM| TANZ IN DEN MAI SPECIAL | 2 DJ´s- DJ David
+  Munoz & DJ Tomquez
+location: Cafe Fortuna, Ulm
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714503600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Unterer Kuhberg 12, 89077 Ulm, Germany
+  website: https://www.waldorfschule-am-illerblick.de/fortuna/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: Café Fortuna
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.969359869708496
+        lat: 48.38403836970851
+      northeast:
+        lng: 9.9720578302915
+        lat: 48.38673633029151
+    location:
+      lng: 9.970368299999997
+      lat: 48.3852281
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Unterer Kuhberg
+      long_name: Unterer Kuhberg
+    - types:
+        - locality
+        - political
+      short_name: Ulm
+      long_name: Ulm
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Ulm
+      long_name: Kreisfreie Stadt Ulm
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: TÜ
+      long_name: Tübingen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "89077"
+      long_name: "89077"
+  place_id: ChIJdzi43B5kmUcR55f3PIi7CqI
+  url: https://maps.google.com/?cid=11676351177724237799
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1710176522205
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02Xv7WXzJtmejBCVggrsBEHreg8JqR6VCCN25kFwWssARtgfgQETjvunBCo2iNzQUYl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710176522/qboo4cpbgma8rmk7xbvp.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1710176522205
+  owned: false
+  name: Tomislav Salsa-Energy Kostic
+  place: ChIJQ3ItlgdGLoYRZjwJ-xxiLws
+  updatedAt: 1710176522205
+  username: tomislav.salsa-energ
+claimed: No
+link: ""
+description: >-
+  TOMI´S  BIRTHDAY PARTY ULM| TANZ IN DEN MAI SPECIAL | 2 DJ´s- DJ David Munoz &
+  DJ Tomquez
+
+  Dienstag, 30. April, 21.00 – 02.00 Uhr
+
+
+  Schwingt das Tanzbein zum Maitanz in der Nacht zum 1. Mai aufs Parkett.
+
+
+  – 2 DJ´s rocken die Bude mit feinster und bester Musik – Salsa / Bachata / Kizomba
+
+
+  *****************************************
+
+  SALSA  / BACHATA / KIZOMBA
+
+  ** Beste Musik in super Stimmung erleben **
+
+
+  DJ David Munoz ( Mexico )
+
+
+  DJ Tomquez
+
+
+  Wunderschöne stillvolle Salsa-Location mit tollem Holz-Tanzboden,
+
+  schöner Beleuchtung und viel Platz zum Tanzen.
+
+  Parkplätze kostenlos.
+
+
+  Eintritt: 10 EUR
+
+
+  ORT: Fortuna | Unterer Kuhberg 12 | 89077 Ulm
+
+
+  www.salsa-energy.de
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710176524/s6kbenuliaxaaxcmgbqj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJQ3ItlgdGLoYRZjwJ-xxiLws
+international: No
+hash: 1714503600000+ChIJdzi43B5kmUcR55f3PIi7CqI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQdumYCbSVipnOIwGvXcp.png?generation=1710176544588226&alt=media
+viewsCount: 1
+id: QdumYCbSVipnOIwGvXcp

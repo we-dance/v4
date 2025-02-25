@@ -1,0 +1,264 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bdf-brazilian-dance-festival-holland/
+name: BDF BRAZILIAN DANCE FESTIVAL HOLLAND 2025
+sourceUrl: https://facebook.com/events/329993160055823
+venue:
+  address_components:
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Flutgraben
+      short_name: Flutgraben
+      types:
+        - route
+    - long_name: Rhöndorf
+      short_name: Rhöndorf
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Bad Honnef
+      short_name: Bad Honnef
+      types:
+        - locality
+        - political
+    - long_name: Rhein-Sieg-Kreis
+      short_name: Rhein-Sieg-Kreis
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Köln
+      short_name: K
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Nordrhein-Westfalen
+      short_name: NRW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "53604"
+      short_name: "53604"
+      types:
+        - postal_code
+  formatted_address: Flutgraben 2, 53604 Bad Honnef, Germany
+  geometry:
+    location:
+      lat: 50.6546899
+      lng: 7.2178418
+    viewport:
+      northeast:
+        lat: 50.6560731802915
+        lng: 7.219189930291503
+      southwest:
+        lat: 50.6533752197085
+        lng: 7.216491969708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 2224 93770
+  name: Bundesverband Deutscher Fertigbau e. V. (BDF)
+  place_id: ChIJl9NuZ3LlvkcREVZeTEW61GU
+  url: https://maps.google.com/?cid=7337694499690141201
+  website: https://www.fertigbau.de/
+endDate: 1741560300000
+claimed: No
+link: https://braziliandancefestival.com/collections/bdf-2025-passes-and-tickets
+description: >-
+  GILSON DAMASCO & TEAM ARE PROUD TO PRESENT:
+
+  +------------------------------+
+
+  BRAZILIAN DANCE FESTIVAL HOLLAND 2025
+
+  MARCH 6-7-8-9
+
+  +------------------------------+
+
+  ❤️BRAZILIAN ZOUK AND LAMBADA UNITED ❤️
+
+  ❤️WHERE ARTISTS & DANCERS MEET, GET INSPIRED & ENJOY ❤️
+
+  +------------------------------+
+
+  🔥4 PARTY NIGHTS
+
+  🔥3 DAYS OF WORKSHOPS ON LEVEL
+
+  🔥PERFECT COMBINATION OF EXPERIENCED ARTISTS & NEW TALENTS
+
+  🔥GREAT DJ LINE UP
+
+  🔥LUNCH & DINNER MEALS AT THE VENUE
+
+  🔥GROUP DISCOUNTS
+
+  +------------------------------+
+
+  NEW !!!
+
+  🔥BZDC BRAZILIAN ZOUK JACK & JILL 
+
+  🔥LWDC LAMBADA  JACK & JILL
+
+  +------------------------------+
+
+  🔥BDF 2025 ARTISTS:
+
+  MICHAEL (SPAIN)
+
+  ALINE (SPAIN)
+
+  LUCAS (PORTUGAL)
+
+  THAYNA (PORTUGAL)
+
+  WILLIAM (SPAIN)
+
+  IRENE (SPAIN)
+
+  MARCK (BRAZIL)
+
+  MELYSSA (BRAZIL)
+
+  IAGO (BRAZIL)
+
+  VANESSA (BRAZIL)
+
+  RACHEL (USA)
+
+  LAURA (USA)
+
+  OLAYA (SPAIN)
+
+  PAPAGAIO (SPAIN)
+
+  ARIEL (ARGENTINA)
+
+  LETICIA (BRAZIL)
+
+  GILSON (NETHERLANDS)
+
+  JULISSA (USA)
+
+  LUCIANO (SPAIN)
+
+  VERONICA (SPAIN)
+
+  KASSIO (GERMANY)
+
+  ANIA (POLAND)
+
+  FELIPE (NETHERLANDS)
+
+  BRUNA (NETHERLANDS)
+
+  ALEX DE CARVALHO (FRANCE)
+
+  NATASHA (SPAIN)
+
+  LEO (SPAIN)
+
+  CAROLINA (SPAIN)
+
+  +------------------------------+
+
+  🔥BDF 2025 VIDEO GRAPHERS:
+
+  ANDREAS (ROMANIA)
+
+  MONICA (ROMANIA)
+
+  JORDI (SPAIN)
+
+  +------------------------------+
+
+  🔥BDF 2025 DJ'S:
+
+  DJ KEL (USA)
+
+  DJ WILLIAM (ESP)
+
+  DJ JORDI (ESP)
+
+  DJ NIPS (NOR)
+
+  DJ XEARO (NLD)
+
+  DJ WINX (NLD)
+
+  DJ BEIJA-FLOR (FRA)
+
+  DJ PAPAGAIO (ESP)
+
+  DJ ZOUKERRO (NLD)
+
+  DJ MONTINI (BRA)
+
+  MC PIOTR BURBA (POL)
+
+  +------------------------------+
+
+  🔥TICKETS:
+
+  https://braziliandancefestival.com/collections/bdf-2025-passes-and-tickets
+
+  +------------------------------+
+
+  🔥 WEBSITE:
+
+  https://braziliandancefestival.com
+
+  +------------------------------+
+
+  🔥QUESTIONS / CONTACT:
+
+  https://braziliandancefestival.com/pages/contact-us
+
+  +------------------------------+
+
+  #BDF #2025 #HOLLAND #GILSONDAMASCO #BRAZILIAN #ZOUK #LAMBADA #UNITED #NEXTLEVEL #BDF2025HOLLAND #ZOUKLAMBADA #AMSTERDAM #MASTERCLASSES #THEBIGMEETING #FAMILY
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/fj18kyzh2krwnwxsffkf.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJr3RPxmblvkcR-7X_HYlLCFg
+international: No
+visibility: Public
+org:
+  id: 97qANjRY4WgiOo0dSwTj
+  username: BrazilianDanceFestivalAmsterdam
+  name: BDF
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953869/czq3pjycqb9xjm4snfik.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/BrazilianDanceFestivalAmsterdam
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/329993160055823/
+facebookId: "329993160055823"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1741215600000+ChIJl9NuZ3LlvkcREVZeTEW61GU
+startDate: 1741215600000
+id: oj8baQZ5FeSVzgnMFICY

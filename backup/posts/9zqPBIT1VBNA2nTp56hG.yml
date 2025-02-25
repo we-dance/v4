@@ -1,0 +1,128 @@
+venue:
+  website: http://www.tanzstudio-rebecca.com/
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  name: Studio Rebecca | Tanzstudio Rebecca
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365322802915
+      south: 48.1328691697085
+      north: 48.1355671302915
+      west: 11.53383431970849
+    location:
+      lng: 11.5350651
+      lat: 48.1342039
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  international_phone_number: +49 176 24414498
+  url: https://maps.google.com/?cid=14332716633642345223
+  room: white
+claimed: No
+link: https://doo.net/event/115262/order
+description: >-
+  The workshop will be given by Andrius and Sigrid.
+
+  We start from scratch and will learn all the fundamental basics like Basic Step, Lateral, Lunge and Simple Turn. Perfect to learn the foundations for the regular Monday class or repeat them.
+
+
+  The bootcamp will take place from 14:30 - 17:30 including 15 min break at Studio White/Studio Rebecca, Anglerstr. 6. The price is 25 Eur per person. 
+
+
+  Free social on the 4th from 21:30 - 23:30 included.
+
+
+
+  Only limited spots available😜 Don't wait to long to secure your spot.
+type: event
+cover: ""
+duration: 60
+createdAt: 1664722530126
+price: 25 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1664722530126
+updatedBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+visibility: Public
+eventType: Workshop
+form: No
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+watch:
+  count: 1
+  list:
+    Thomas: true
+name: "Zouk Basics Bootcamp - 3 hours "
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-10-03T14:30
+username: Thomas
+endDate: 2022-10-03T15:30
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ZoukMunich
+    bio: "You're entering the mesmerizing world of Brazilian Zouk in Munich! #zouk
+      #sensualdance"
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzoukmunich.png?generation=1662972737058077&alt=media
+    id: 7ACoBgOYQeMM32vaBREZ
+    instagram: https://instagram.com/zoukmunich
+    username: zoukmunich
+  - instagram: https://instagram.com/sigrid_e_secret
+    username: sigrid_e_secret
+org:
+  instagram: https://instagram.com/sigrid_e_secret
+  username: sigrid_e_secret
+artistsList:
+  - zoukmunich
+  - sigrid_e_secret
+id: 9zqPBIT1VBNA2nTp56hG
+viewsCount: 67

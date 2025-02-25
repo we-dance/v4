@@ -1,0 +1,97 @@
+venue:
+  formatted_address: Am Sportpl. 6, 07929 Saalburg-Ebersdorf, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/parking-71.png
+  name: Parkplatz am Sportplatz
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.7324251302915
+      south: 50.50286746970851
+      north: 50.5055654302915
+      west: 11.7297271697085
+    location:
+      lng: 11.7311001
+      lat: 50.50412110000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Am Sportpl.
+      long_name: Am Sportplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Saalburg
+      long_name: Saalburg
+    - types:
+        - locality
+        - political
+      short_name: Saalburg-Ebersdorf
+      long_name: Saalburg-Ebersdorf
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Saale-Orla-Kreis
+      long_name: Saale-Orla-Kreis
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: TH
+      long_name: Thüringen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "07929"
+      long_name: "07929"
+  place_id: ChIJ-ZhlrAlHoUcR57ZOViycidc
+  url: https://maps.google.com/?cid=15531116504204359399
+endDate: 2023-06-11T18:00
+claimed: No
+link: https://www.eventbrite.com/e/11-salsafestival-thueringen-in-saalburg-tickets-583126877187?aff=ebdssbdestsearch
+description: Das Salsafestival am Thüringer Meer - Dein Tanzurlaub in
+  beeindruckender Landschaft mit Salsa-Sunset-Schiff, Liveband, Workshops &
+  Partys!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Ffd93ed6d-c840-4276-b624-6bb1c95a2607?alt=media&token=5c719be4-f555-427e-972c-bede4487aceb
+createdAt: 1683377984563
+artists:
+  - instagram: https://instagram.com/patrickyjohanna.official
+    username: patrickyjohanna.official
+price: 127,97 - 149,00 EUR
+place: ChIJR-dasSBBoUcRgE01dMGOIAQ
+artistsList:
+  - patrickyjohanna.official
+international: Yes
+updatedAt: 1683377984563
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org: {}
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Salsafestival Thueringen in Saalburg
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-09T17:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDrZbLvincbqiQwkJg3GO.png?generation=1684960901995122&alt=media
+viewsCount: 38
+id: DrZbLvincbqiQwkJg3GO

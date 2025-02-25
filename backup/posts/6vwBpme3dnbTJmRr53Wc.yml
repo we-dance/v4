@@ -1,0 +1,182 @@
+venue:
+  formatted_address: Karolinská 8, 186 00 Praha 8-Karlín, Czechia
+  website: https://riverrink.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: River Rink Karlín
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4448842197085
+        lat: 50.0935840697085
+      northeast:
+        lng: 14.4475821802915
+        lat: 50.0962820302915
+    location:
+      lng: 14.4463764
+      lat: 50.0950757
+  address_components:
+    - types:
+        - premise
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  place_id: ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+  url: https://maps.google.com/?cid=13502229040501932412
+  username: riverrink.cz
+endDate: 1718902800000
+claimed: No
+link: https://www.facebook.com/events/2697969937031944
+description: >-
+  **🇬🇧**🇬🇧**🇬🇧**🇬🇧**🇬🇧**🇬🇧**
+
+  When two DJs and two dance schools get together, amazing stuff happens! And so we - Salsaholics, DanceDifferent, Ksenia Chkalova, DJ Lole and DJ Lusithano - are incredibly excited to invite you to our joined HUGE LATIN PARTY for all you dance lovers out there! Let’s enjoy TOGETHER!
+
+
+  🕺💃 Program:
+
+  1️⃣ 18.00-18.45 Cuban Salsa Workshop
+
+  DanceDifferent and Salsaholics teachers prepared classes together!!! (Schedule will always be posted in the discussion)
+
+  ✅ Level of the workshop:
+
+  - at least improvers (you need to know basic step casino or quapea, dile que no, enchufala, vasilala
+
+  - for beginners and absolute beginners we will have a special teacher to give you the salsa basics so you can also enjoy the party dance floor 😉
+
+  2️⃣ 18.45-22.00 Latino Party - Bachata and Cuban salsa
+
+
+  🏷  PRICE
+
+  100czk for the whole night (workshop and party included)
+
+
+  📍 LOCATION
+
+  River Rink Karlín - https://maps.app.goo.gl/7H7bVFhtaRsRwRPy6 
+
+
+  🇨🇿🇬🇧 LANGUAGE
+
+  Workshop will be led 50/50 in English and Czech language.
+
+
+  **🇨🇿**🇨🇿**🇨🇿**🇨🇿**🇨🇿**🇨🇿**
+
+  Když se sejdou staří kamarádi, a navíc to jsou salsa/bachata DJové a taneční školy, dějí se prostě skvělé věci! A tak je nám - Salsaholics, DanceDifferent, Ksenia Chkalova, DJ Lole a DJ Lusithano - neuvěřitelným potěšením, že Vás můžeme pozvat na naší společnou OBROVSKOU párty pod širým nebem, kterou jsme připravili pro Vás všechny, taneční nadšence a milovníky salsy a bachaty! 😊
+
+
+  🕺💃 Program:
+   1️⃣ 18.00-18.45 Workshop kubánské salsy
+  DanceDifferent a Salsaholics lektoři si workshopy připravili společně!!! (Rozvrh bude vždy zveřejněn v diskusi události)
+
+  ✅ Úroveň workshopu:
+
+  - alespoň mírně pokročilí (musíte znát základní krok casino nebo quapea, dile que no, enchufala, vasilala)
+
+  - pro začátečníky a úplné začátečníky bude připraven jeden lektor navíc, se kterým se naučíte základy salsy, abyste si následující párty víc užili. 😉
+
+  2️⃣ 18.45-22.00 Latino party - bachata a kubánská salsa
+
+
+  🏷 CENA
+
+  100 Kč za celý večer (zahrnuje workshop a party)
+
+
+  📍 MÍSTO
+
+  River Rink Karlín - https://maps.app.goo.gl/7H7bVFhtaRsRwRPy6 
+
+
+  🇨🇿🇬🇧 JAZYK
+
+  Workshop bude veden 50:50 v anglickém a českém jazyce.
+program: []
+source: facebook
+type: event
+seriesId: xvJUXOQ0cVy7proIkubG
+sourceUrl: https://www.facebook.com/events/2697969937031944/2697969940365277
+duration: 60
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717191877/w33plep3enok4fnb17lj.jpg
+createdAt: 1717191874749
+artists: []
+price: 100 CZK
+place: ChIJnfDnNqOUC0cR8fsgXBCvACY
+id: 6vwBpme3dnbTJmRr53Wc
+international: No
+updatedAt: 1717191874749
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org: {}
+facebookId: "2697969937031944"
+facebook: https://www.facebook.com/events/2697969937031944/?event_time_id=2697969940365277
+viewsCount: 1
+eventType: Party
+recurrence:
+  untilDate:
+    _seconds: 1719439200
+    _nanoseconds: 0
+  freq: weekly
+  days: {}
+  dates:
+    - _seconds: 1717689600
+      _nanoseconds: 0
+    - _seconds: 1718294400
+      _nanoseconds: 0
+    - _seconds: 1718899200
+      _nanoseconds: 0
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  usernames: []
+name: Latin Summer Parties | Salsa & Bachata Openair Thursdays
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1718899200000+ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+startDate: 1718899200000
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6vwBpme3dnbTJmRr53Wc.png?generation=1717191918975211&alt=media

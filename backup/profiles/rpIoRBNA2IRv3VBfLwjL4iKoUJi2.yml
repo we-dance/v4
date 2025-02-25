@@ -1,0 +1,87 @@
+visibility: Public
+community: Munich
+type: Dancer
+createdAt: 1612529245346
+createdBy: rpIoRBNA2IRv3VBfLwjL4iKoUJi2
+name: Igor
+username: Igor
+birthday: 1983-05-31
+newsletter: {}
+gender: Male
+weight: "85"
+learning: All of them
+photoFull: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FrpIoRBNA2IRv3VBfLwjL4iKoUJi2%2Fdc2c17e3-28e4-42cc-b008-8e019a34925b?alt=media&token=8c9bb153-4b68-41bc-bffc-0e99385a0965
+teacher: Yes
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+location:
+  country: Serbia
+  latitude: 43.5763232
+  locality: Kruševac
+  usedGps: false
+  place_id: ChIJf0BKY_GHVkcRnIlDK6Quve4
+  longitude: 21.3335812
+styles:
+  UrbanKizz:
+    level: Interested
+    selected: true
+  BachataModerna:
+    level: Interested
+    selected: true
+  SensualBachata:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  DominicanBachata:
+    level: Interested
+    selected: true
+  Kizomba:
+    level: Interested
+    selected: true
+story: |-
+  I had an own dance club for zumba and hip hip for 10 years,
+  and I'm training bachata and kizomba for 4 years.
+partnerBio: My partner must know the basics of kizomba and bachata.
+languages: A bit of English and Serbisch
+jobs: "I am very funny person :) "
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FrpIoRBNA2IRv3VBfLwjL4iKoUJi2%2Fcfde17f4-9b38-48e5-abf5-e7371437a314?alt=media&token=6c50b32f-c180-4fa8-9d37-c0f58e29c4d8
+socialCoverPublish: Yes
+socialCoverBy: rpIoRBNA2IRv3VBfLwjL4iKoUJi2
+height: "178"
+socialCoverAt: 1613517561688
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FIgor.png?generation=1613517560787163&alt=media
+language: en
+pwaUsed: true
+hometown: ChIJf0BKY_GHVkcRnIlDK6Quve4
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: rpIoRBNA2IRv3VBfLwjL4iKoUJi2
+locales:
+  en: true
+  bs: true
+  sr: true
+bio: I am a dancer over almost 10 years.I am in Regensburg and I would like to
+  find a partner with whom I would practice kizomba and bachata.
+permission: ""
+objectives:
+  learn: true
+  outdoors: true
+cities:
+  ChIJf0BKY_GHVkcRnIlDK6Quve4: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1645073489353
+lastLoginAt: 1645384660181
+daysUsed: 23
+facebook: https://www.facebook.com/igor.vasic.921
+instagram: https://www.instagram.com/Sensual_cubana_ns/
+contacts: Yes
+viewsCount: 1

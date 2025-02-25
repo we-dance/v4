@@ -1,0 +1,211 @@
+endDate: 1728858600000
+sourceUrl: https://www.facebook.com/events/974747490905069/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712655867000
+importedAt: 1715444431512
+providerUpdatedAt: 1712655867000
+facebookId: "974747490905069"
+facebook: https://www.facebook.com/events/974747490905069/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/974747490905069/
+providerItemId: e974747490905069@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Berlin Salsa Festival II "Fiesta Elegante" with Maykel Blanco concert -
+  promo code GOS173
+location: Atelier Gardens
+startDate: 1728583200000
+facebookUrlsCount: 1
+username: Aina
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+description: >-
+  Berlin Salsa Festival II & Maykel Blanco y su Salsa Mayor - 20th Anniversary
+  Live Concert Premiere
+
+
+  We are truly humbled and thrilled to invite you to the Berlin Salsa Festival II. This time, we are blessed with the opportunity to host a live concert by one of the most influential salsa bands from Cuba: Maykel Blanco y su Salsa Mayor, celebrating their 20th anniversary with us.
+
+
+  Date: October 10th to 14th in Berlin
+
+
+  Following the heartfelt success of our last event, we are pouring even more love and dedication into bringing you a festival that exceeds all expectations. Join us in our new location for an experience filled with the beautiful moments with rhythms of Cuban Salsa and Afro, featuring a lineup of artists who are not just performers but true ambassadors of Cuban Salsa:
+
+
+  Osmani Segura
+
+
+  Seo Fernandez
+
+
+  Yusimi Moya
+
+
+  Yeni Molinet
+
+
+  Addy Mendoza
+
+
+  Jose Carlos Legien
+
+
+  Oliwia
+
+
+  Yosniel Brunet
+
+
+  Yohan & Elaine
+
+
+  Helen & Yago
+
+
+  Ido Flaishon
+
+
+  Sasha Phillips
+
+
+  Edson & Juan
+
+
+  We will announce more infos about our artists and Djs on the website soon!
+
+
+  TICKETS:
+
+  https://www.goandance.com/en/e/6847?promoter=GOS173
+
+
+
+  139,5€ - Early Bird Full Pass incl. Maykel Blanco's Concert, All parties and workshops (no Bootcamps) 
+
+
+  256€ - Early Bird Couples full pass incl. Maykel Blanco's Concert, All parties and workshops (no Bootcamps)	
+
+
+  With promo code GOS173 you have 14€ discount for Full Pass and 20€ discount for Couple Pass
+
+
+
+  Maykel Blanco y su Salsa Mayor's electrifying energy and passion have enchanted salsa enthusiasts around the globe. Their music, a celebration of life and dance, promises a concert that will remain in our hearts forever. If you have never been to a concert from Maykel Blanco the you need to see this one, the experience is mesmerizing.
+
+
+  Secure your spot now for this extraordinary journey of music, dance, and passion. Let's come together to make memories that will last a lifetime!
+
+
+  With all our hearts,
+
+
+  www.berlinsalsafestival.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444453/ry6qqrgbcqaqm2jlkbpo.jpg
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1728583200000+ChIJl4SnD4JPqEcRfbusWbZICQg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FsKDd9sFsKX4U8ezk1BMD.png?generation=1715444470864726&alt=media
+duration: 4590
+venue:
+  website: https://atelier-gardens.berlin/
+  formatted_address: Oberlandstraße 26-35, 12099 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Atelier Gardens
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4094046697085
+        lat: 52.4628964197085
+      northeast:
+        lng: 13.4121026302915
+        lat: 52.46559438029149
+    location:
+      lng: 13.4107368
+      lat: 52.4643089
+  address_components:
+    - types:
+        - street_number
+      short_name: 26-35
+      long_name: 26-35
+    - types:
+        - route
+      short_name: Oberlandstraße
+      long_name: Oberlandstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Tempelhof-Schöneberg
+      long_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "12099"
+      long_name: "12099"
+  place_id: ChIJl4SnD4JPqEcRfbusWbZICQg
+  url: https://maps.google.com/?cid=579073975119559549
+  international_phone_number: +49 30 75782100
+  username: atelier-gardens.berlin
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroCuban:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList: []
+id: sKDd9sFsKX4U8ezk1BMD
+eventType: Festival
+price: 140 EUR
+link: https://www.goandance.com/en/e/6847?promoter=GOS173
+updatedAt: 1718742901253
+viewsCount: 4

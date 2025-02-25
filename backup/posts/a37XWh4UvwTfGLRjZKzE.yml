@@ -1,0 +1,126 @@
+endDate: 1731909600000
+sourceUrl: https://www.facebook.com/events/633096901952355/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1674213196000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1715763782000
+facebookId: "633096901952355"
+facebook: https://www.facebook.com/events/633096901952355/
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/paris-kizomba-congress-2024/690714566491415/
+  - https://www.facebook.com/events/633096901952355/
+eventType: Congress
+providerItemId: e633096901952355@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: PARIS KIZOMBA CONGRESS - promocode ANDREA
+location: HILTON PARIS CHARLES DE GAULLE AIRPORT
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731607200000
+facebookUrlsCount: 2
+username: Aina
+venue:
+  formatted_address: 8 Rue de Rome, 93290 Tremblay-en-France, France
+  website: https://www.hilton.com/en/hotels/cdghitw-hilton-paris-charles-de-gaulle-airport/?SEO_id=GMB-EMEA-TW-CDGHITW
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hilton Paris Charles de Gaulle Airport
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.556071769708498
+        lat: 49.00888336970851
+      northeast:
+        lng: 2.558769730291502
+        lat: 49.01158133029151
+    location:
+      lng: 2.5573789
+      lat: 49.0102629
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Rue de Rome
+      long_name: Rue de Rome
+    - types:
+        - locality
+        - political
+      short_name: Tremblay-en-France
+      long_name: Tremblay-en-France
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Seine-Saint-Denis
+      long_name: Seine-Saint-Denis
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "93290"
+      long_name: "93290"
+  international_phone_number: +33 1 49 19 77 77
+  place_id: ChIJ_49q_P4V5kcRVF5hEvaV6LY
+  url: https://maps.google.com/?cid=13179949193602621012
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417967200
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0TyKzcSpx9Fum9i3BCsweHfHz6e24pjmsLwuCM1R1inytYuhG1NWTM61HjthWrU3Ul
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417967/ohhrroh5qwdjbkad84d7.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417967200
+  owned: false
+  name: Andrea Andreaj
+  place: ChIJz0HtktIV5kcRYDqLaMOCCwQ
+  updatedAt: 1728417967200
+  username: andrea.andreaj
+claimed: No
+link: ""
+description: |-
+  🖤💛Promocode ANDREA 💛🖤
+
+  PARIS KIZOMBA CONGRESS
+  14. - 18. November 2024 
+
+  ✅ Tickets
+  https://my.weezevent.com/paris-kizomba-congress-2024
+
+  ✅ Event
+  https://facebook.com/events/s/paris-kizomba-congress-2024/690714566491415/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417969/fpnfnp36xljgq5sknycb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJz0HtktIV5kcRYDqLaMOCCwQ
+international: No
+hash: 1731607200000+ChIJ_49q_P4V5kcRVF5hEvaV6LY
+id: a37XWh4UvwTfGLRjZKzE

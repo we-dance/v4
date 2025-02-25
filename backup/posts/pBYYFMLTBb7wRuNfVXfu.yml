@@ -1,0 +1,132 @@
+endDate: 1720303140000
+sourceUrl: https://www.facebook.com/events/451621920790404/
+createdAt: 1718373634033
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717517407000
+updatedAt: 1718373634033
+importedAt: 1718373634033
+providerUpdatedAt: 1717517554000
+facebookId: "451621920790404"
+facebook: https://www.facebook.com/events/451621920790404/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/451621920790404/
+eventType: Party
+providerItemId: e451621920790404@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Soirée Kizomba/ Bachata
+location: My Beers Laval
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720287000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 64 Rue de Berlin, 53000 Laval, France
+  website: http://www.mybeers.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: My Beers Laval
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.7386158302915021
+        lat: 48.0589658697085
+      northeast:
+        lng: -0.735917869708498
+        lat: 48.0616638302915
+    location:
+      lng: -0.7368553999999999
+      lat: 48.0600946
+  address_components:
+    - types:
+        - street_number
+      short_name: "64"
+      long_name: "64"
+    - types:
+        - route
+      short_name: Rue de Berlin
+      long_name: Rue de Berlin
+    - types:
+        - locality
+        - political
+      short_name: Laval
+      long_name: Laval
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mayenne
+      long_name: Mayenne
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Pays de la Loire
+      long_name: Pays de la Loire
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "53000"
+      long_name: "53000"
+  international_phone_number: +33 2 43 65 57 92
+  place_id: ChIJnWmQ_Tr_CEgR7wdwmP6zKSs
+  url: https://maps.google.com/?cid=3110214923736582127
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Danse-%C3%A0-linfini/61552540910171/
+  name: Danse à l'infini
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718373661/jf5ms4phxsb7jppyyqxo.jpg
+  bio: ""
+  id: CmIX7I91P5TZIDhZZDkM
+  instagram: ""
+  username: Danse%C3%A0-linfini
+claimed: No
+link: ""
+description: >-
+  Au programme de cette soirée endiablée 🔥🔥
+
+  📍 rdv au My Beers de Laval dès 19h30 pour une petite mise en jambes
+
+  📍 20h un cours d'urban kiz avec Cathy 
+
+  📍 21h Minuit  Soirée 50% kizomba/ 50% bachata animée par DJ My'Co 
+
+  📍 des animations en cours de soirée 
+
+  📍 bien sûr la possibilité de se restaurer sur place grâce aux planches et autres Burgers savoureux proposés par le My Beers
+
+  📍 des sourires, de la joie de vivre 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718373663/xb30jljo6vpxkqxd8gai.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJa9rftAchyUwRGcQz42-ytC4
+international: No
+hash: 1720287000000+ChIJnWmQ_Tr_CEgR7wdwmP6zKSs
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpBYYFMLTBb7wRuNfVXfu.png?generation=1718373686367710&alt=media
+id: pBYYFMLTBb7wRuNfVXfu

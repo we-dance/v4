@@ -1,0 +1,130 @@
+updatedBy: dB5LUdAQInhAp0C4Jno5rDdUxG13
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdB5LUdAQInhAp0C4Jno5rDdUxG13%2F40801321-1949-45cf-a7ea-1a75d4bb5ad4?alt=media&token=55cf8519-c613-4152-b7b9-b175f2112df2
+  name: Denissa.V.
+  username: Denissa.V.
+claimed: No
+description: |-
+  𝐒𝐚𝐥𝐬𝐚 & 𝐌𝐚𝐦𝐛𝐨 𝐋𝐚𝐝𝐲 𝐒𝐭𝐲𝐥𝐢𝐧𝐠 𝐦𝐢𝐭 𝐃𝐞𝐧𝐢𝐬𝐬𝐚
+  Workshop :
+
+  -𝗦𝗮𝗺𝘀𝘁𝗮𝗴 𝟭𝟵.𝟬𝟯 𝟭𝟭:𝟬𝟬-𝟭𝟰:𝟬𝟬 𝗨𝗵𝗿
+   Salsa Ladies  Styling  für 𝘽𝙚𝙜/𝙄𝙣𝙩
+   (3 Stunden)
+
+  -𝗦𝗼𝗻𝗻𝘁𝗮𝗴 𝟮𝟬.𝟬𝟯 𝟭𝟭:𝟬𝟬-𝟭𝟰:𝟬𝟬 𝗨𝗵𝗿
+    Salsa 𝐎𝐍𝟐 ( Mambo )  Ladies Styling 
+    für 𝙄𝙣𝙩/𝘼𝙙𝙫  
+    (3 Stunden)
+
+  Anmeldungen  an
+  info.bedancestudio@gmail.com 
+
+  Ort: Tanzstudio Rebecca
+          Machtelfingerstrasse 10 
+          81379 München 
+
+  𝐌𝐞𝐡𝐫 𝐢𝐧𝐟𝐨 :
+  https://fb.me/e/14HEgq8Xn
+eventType: Workshop
+type: event
+createdAt: 1646610996317
+form: No
+artists: []
+createdBy: dB5LUdAQInhAp0C4Jno5rDdUxG13
+price: 0 EUR
+name: "Salsa & Mambo Lady Styling "
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+username: Denissa.V.
+updatedAt: 1646610996317
+promo: Yes
+venue:
+  website: http://www.tanzstudio-rebecca.com/
+  formatted_address: Machtlfinger Str. 10, 81379 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "10"
+      short_name: "10"
+    - types:
+        - route
+      long_name: Machtlfinger Straße
+      short_name: Machtlfinger Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81379"
+      short_name: "81379"
+  url: https://maps.google.com/?cid=6594774642282850911
+  name: Tanzstudio Rebecca
+  geometry:
+    viewport:
+      south: 48.0955072197085
+      north: 48.09820518029149
+      east: 11.5149687302915
+      west: 11.5122707697085
+    location:
+      lng: 11.5135799
+      lat: 48.0969446
+  place_id: ChIJtabxvibZnUcRX-oFt5hYhVs
+  international_phone_number: +49 176 24414498
+facebook: https://fb.me/e/14HEgq8Xn
+id: KQknlTHWPbIkzhCSDqBO
+startDate: 2022-03-19T11:00
+duration: "180"
+endDate:
+  _seconds: 1647694800
+  _nanoseconds: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdB5LUdAQInhAp0C4Jno5rDdUxG13%2F9651f8e9-e390-43ae-a880-af4841195e55?alt=media&token=3a6cc288-348a-479a-a608-b1cf7941604e
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKQknlTHWPbIkzhCSDqBO.png?generation=1646656835501859&alt=media
+watch:
+  count: 2
+  list:
+    Denissa.V.: true
+    Denissa: true
+viewsCount: 23

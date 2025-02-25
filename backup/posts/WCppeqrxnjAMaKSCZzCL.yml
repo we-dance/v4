@@ -1,0 +1,611 @@
+endDate: 1715533200000
+claimed: No
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F08e477ff-ee17-4c1e-94a3-dd4795be5260?alt=media&token=b51d463e-5a65-4264-aa14-c2470f10fd71
+createdAt: 1713636975051
+review: https://g.page/r/Ca_iCf0z9dH3EBM/review
+price: pay as you wish
+international: No
+gallery: https://photos.app.goo.gl/Tk9eXGkXHENnebJU6
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+facebookId: ""
+upVotes: 0
+eventType: Course
+promotionError: ""
+venueProfile:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Buena Vista Bar
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+  bio: Latino Restaurant München
+  instagram: https://www.instagram.com/buenavistabar_oficial/
+  id: JEkADfAnw9nk7VIcgE5P
+  username: buena_vista_bar_munich
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715529600000
+venue:
+  website: http://buena-vista-bar.de/
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bar Buena Vista
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  international_phone_number: +49 89 26022811
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  url: https://maps.google.com/?cid=10819607444887102927
+  username: buena_vista_bar_munich
+downVotes: 0
+duration: 60
+promo: ""
+playlist: https://open.spotify.com/playlist/39cUmntXWDEHFjqGmwGU8k?si=db34ec93a54d4b01&pt=445e9b025a84b5ed2b99f1a52f9164f9
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    bio: WeDance Ambassador in Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    instagram: https://instagram.com/alexrazbakov
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    username: alexrazbakov
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Mnewman
+    photo: ""
+    bio: ""
+    id: E7TyzO3I8qaQuYz95u25BVU3vl52
+    instagram: ""
+    username: Mnewman
+commentsLast:
+  createdAt: 1676727633768
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: LXApW1gu5g65mkAHYMCW
+  body: Yay! Sunday! Can't wait!
+  username: alexrazbakov
+  updatedAt: 1676727633768
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - alexrazbakov
+  - Mnewman
+paypal: https://paypal.me/razbakov
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MontunoClub
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  instagram: https://instagram.com/MontunoClub
+  username: MontunoClub
+telegram: {}
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+username: alexrazbakov
+name: Salsa From Zero 1/8
+id: WCppeqrxnjAMaKSCZzCL
+hash: 1715529600000+ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWCppeqrxnjAMaKSCZzCL.png?generation=1714673465489298&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C6ecaBprRJw
+  publishedAt: 1714673511036
+  messageId: C6ecaBprRJw
+  state: published
+promotion: completed
+description: >-
+  This course is designed for beginners to learn the fundamentals of Salsa
+  Cubana, also known as Casino. Students will explore the unique rhythmic
+  patterns, dance steps, and cultural significance of Cuban Salsa. No prior
+  dance experience is required.
+
+
+  ### Course Objectives
+
+
+  By the end of this course, students will be able to:
+
+
+  - Understand the basic steps and timing of Salsa Cubana.
+
+  - Execute basic turns and partner work.
+
+  - Demonstrate the ability to dance a simple Salsa song with a partner.
+
+
+  ### Course Schedule
+
+
+  - Week 1: Salsa, Dile Que No, Enchufla
+
+  - Week 2: Guapea, Dile Que No, Enchufla in Rueda
+
+  - Week 3: Vacilala, Sombrero
+
+  - Week 4: Exhibela, Aguajeo
+
+  - Week 5: Setenta, Caminala
+
+  - Week 6: Setenta Complicado, Setenta y Uno
+
+  - Week 7: Montaña, Dedo
+
+  - Week 8: Sombrero Doble, Kentucky
+
+
+  ### Required Materials
+
+  Comfortable clothing and appropriate dance shoes.
+
+
+  ### Course Policies
+
+  - **Attendance**: Regular attendance is crucial in this practice-based course.
+
+  - **Participation**: Active participation in class is required for mastering the techniques.
+
+  - **Academic Integrity**: All students are expected to engage honestly in their learning activities.
+
+
+  Join Guest List!
+confirmation: |-
+  You are on the guest list, see you at the event!
+
+  Join our [WhatsApp group](https://chat.whatsapp.com/JpnlQPyNaEbGxMb2u1A2EG)
+updatedAt: 1715429832556
+bookmarks: 12
+checkin:
+  list: {}
+  count: 9
+  usernames:
+    - eleni
+    - Evans
+    - Pablo77
+    - Natyk72
+    - Charliecaiza
+    - Fush
+    - master_kookai
+    - Ruzanna
+    - Tatevik
+  history:
+    - username: eleni
+      date: 1715529831720
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Evans
+      date: 1715529841228
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Pablo77
+      date: 1715529851815
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Natyk72
+      date: 1715529872986
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Charliecaiza
+      date: 1715529874001
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Fush
+      date: 1715532008261
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: master_kookai
+      date: 1715532016536
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Ruzanna
+      date: 1715599819367
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Tatevik
+      date: 1715599824936
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+star:
+  list: {}
+  count: 28
+  usernames:
+    - Evans
+    - Lisa13
+    - Ibsafa
+    - Leander
+    - raphaelbraham
+    - Melania
+    - Ruzanna
+    - zeenatfarheen
+    - Dey04
+    - Bea.husk
+    - master_kookai
+    - Mailysdebetelu
+    - eleni
+    - prosales
+    - Tatevik
+    - Clydeo89
+    - SK11
+    - Gardfintland
+    - goutam
+    - Dhiresh
+    - Natyk72
+    - Charliecaiza
+    - hash_ir
+    - najwan
+    - Pablo77
+    - NikolajB
+    - Fush
+    - Fa
+  history:
+    - username: KARINA
+      date: 1713640183122
+      invitedBy: ""
+      uid: DRbjYFbWxSQqQfZiyN9w8yLDYN82
+      action: joined
+    - username: KARINA
+      date: 1713640202359
+      invitedBy: ""
+      uid: DRbjYFbWxSQqQfZiyN9w8yLDYN82
+      action: left
+    - username: KARINA
+      date: 1713640207307
+      invitedBy: ""
+      uid: DRbjYFbWxSQqQfZiyN9w8yLDYN82
+      action: joined
+    - username: Evans
+      date: 1714368241554
+      invitedBy: ""
+      uid: BDBypuhymSSGtjJzfgpr0866SJR2
+      action: joined
+    - username: Lisa13
+      date: 1714368416357
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: cn6kuJ5uN9Xp6LNHKZMDXtkfRc33
+      action: joined
+    - username: Ibsafa
+      date: 1714487424661
+      invitedBy: ""
+      uid: uApVq0r8uYZnfbK2qkiuZOtSqYk1
+      action: joined
+    - username: Leander
+      date: 1714494684236
+      invitedBy: ""
+      uid: 2zoJoyJBxRVi9JqiqeL7i1bNAua2
+      action: joined
+    - username: raphaelbraham
+      date: 1714507544432
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: JmUd0cgxfPa3ZsrOcfQyuXWgPtG3
+      action: joined
+    - username: alexrazbakov
+      date: 1714557663965
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Ruzanna
+      date: 1714719465878
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: n4FAM0LxHYQAFsLkPURmjyMuZSu2
+      action: joined
+    - username: Ruzanna
+      date: 1714748702112
+      invitedBy: ""
+      uid: n4FAM0LxHYQAFsLkPURmjyMuZSu2
+      action: left
+    - username: Melania
+      date: 1714759784998
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: SJCZoTllgsT2bseDgjhbgkGJxC72
+      action: joined
+    - username: Melania
+      date: 1714759786833
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: SJCZoTllgsT2bseDgjhbgkGJxC72
+      action: left
+    - username: Melania
+      date: 1714759787731
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: SJCZoTllgsT2bseDgjhbgkGJxC72
+      action: joined
+    - username: hash_ir
+      date: 1714863965442
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: zPU5TwgtYAUa2BnEiBy7PShWCzZ2
+      action: joined
+    - username: hash_ir
+      date: 1714863966623
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: zPU5TwgtYAUa2BnEiBy7PShWCzZ2
+      action: left
+    - username: hash_ir
+      date: 1714863967483
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: zPU5TwgtYAUa2BnEiBy7PShWCzZ2
+      action: joined
+    - username: Ruzanna
+      date: 1714902345469
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: n4FAM0LxHYQAFsLkPURmjyMuZSu2
+      action: joined
+    - username: zeenatfarheen
+      date: 1714948985181
+      invitedBy: ""
+      uid: N4PI69PCQOaNXth7gBYDhf0l1tD3
+      action: joined
+    - username: Dey04
+      date: 1715086813636
+      invitedBy: ""
+      uid: JRnNTmVtwPbyRmCkpSqt7h3XkCC3
+      action: joined
+    - username: Bea.husk
+      date: 1715086981846
+      invitedBy: ""
+      uid: OxOVuoAhDAbXY0jzm5ZjMF8hUxF3
+      action: joined
+    - username: master_kookai
+      date: 1715252588342
+      invitedBy: ""
+      uid: Hr24MbDerLR9LxYdY8XKUrGI1em1
+      action: joined
+    - username: Mailysdebetelu
+      date: 1715255066381
+      invitedBy: ""
+      uid: 6pBYYVcGFfUlvZJhIggozdQWDF02
+      action: joined
+    - username: eleni
+      date: 1715272776232
+      invitedBy: ""
+      uid: ns3AFNHyDENcoibBHithU0lGRgy2
+      action: joined
+    - username: alexrazbakov
+      date: 1715351373904
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: prosales
+      date: 1715364101926
+      invitedBy: ""
+      uid: SRWkJavUmugKipGsaQQvXZ55ePb2
+      action: joined
+    - username: Tatevik
+      date: 1715370920387
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: bM54fX5rpyLdQrxGlA7TJZm4kta2
+      action: joined
+    - username: testpro2
+      date: 1715374146411
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: 3ipRP43TsffYWcrbTlPqIuFY9F73
+      action: joined
+    - username: testpro2
+      date: 1715374234327
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: 3ipRP43TsffYWcrbTlPqIuFY9F73
+      action: left
+    - username: alexrazbakov
+      date: 1715374354347
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715374443311
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: Clydeo89
+      date: 1715376198677
+      invitedBy: ""
+      uid: PxR4mXWO2Na5Jlb8QBIamQduZs62
+      action: joined
+    - username: SK11
+      date: 1715377663465
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: wq8GgnVAC9WrssF0jcESwk81Lig1
+      action: joined
+    - username: Gardfintland
+      date: 1715384305568
+      invitedBy: ""
+      uid: 4m7lqbDEzHTpyJkEar93wN3wXID3
+      action: joined
+    - username: Gardfintland
+      date: 1715384308819
+      invitedBy: ""
+      uid: 4m7lqbDEzHTpyJkEar93wN3wXID3
+      action: left
+    - username: Gardfintland
+      date: 1715384309859
+      invitedBy: ""
+      uid: 4m7lqbDEzHTpyJkEar93wN3wXID3
+      action: joined
+    - username: Kateryna
+      date: 1715404684173
+      invitedBy: ""
+      uid: rhoNOoDFD3e2awz943MUWDiTLww2
+      action: joined
+    - username: goutam
+      date: 1715409017690
+      invitedBy: ""
+      uid: vhHhNHwaFYVkf311kkBz9zInuV53
+      action: joined
+    - username: Dhiresh
+      date: 1715415220164
+      invitedBy: ""
+      uid: pVVc69JwOYhkH1Dp8UgkIDaS20x1
+      action: joined
+    - username: alexrazbakov
+      date: 1715429451134
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715429453281
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1715429768222
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1715429862399
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: Natyk72
+      date: 1715453260674
+      invitedBy: ""
+      uid: gUNMcbVSASYP7ym63OOiERbzvH82
+      action: joined
+    - username: Charliecaiza
+      date: 1715453760330
+      invitedBy: ""
+      uid: bJEu9H0NIpcNTrqgYskJ9GU5Z632
+      action: joined
+    - username: hash_ir
+      date: 1715461417217
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: zPU5TwgtYAUa2BnEiBy7PShWCzZ2
+      action: left
+    - username: hash_ir
+      date: 1715461418195
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: zPU5TwgtYAUa2BnEiBy7PShWCzZ2
+      action: joined
+    - username: najwan
+      date: 1715479559209
+      invitedBy: ""
+      uid: VhtuVjRWR9enNn81zwB7Oyorh6r2
+      action: joined
+    - username: Kateryna
+      date: 1715503161619
+      invitedBy: ""
+      uid: rhoNOoDFD3e2awz943MUWDiTLww2
+      action: left
+    - username: Pablo77
+      date: 1715514725281
+      invitedBy: ""
+      uid: CMFqehYc3FNHEdJ68ZRJKQ8QKWN2
+      action: joined
+    - username: NikolajB
+      date: 1715519598744
+      invitedBy: ""
+      uid: Srood1HKerRUA3xXgNLXyuReEMl1
+      action: joined
+    - username: Fush
+      date: 1715520190322
+      invitedBy: ""
+      uid: x10oo4vTpvb76CwCUMVXyAbyk8H3
+      action: joined
+    - username: Fa
+      date: 1715524200826
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: Ni787O2QNihrJ753jufjj6zU3PB2
+      action: joined
+    - username: Sabri
+      date: 1715525216897
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: UWisXUfGfxekfZF2ZAmFjv6dNmH3
+      action: joined
+    - username: Sabri
+      date: 1715528314438
+      invitedBy: ""
+      uid: UWisXUfGfxekfZF2ZAmFjv6dNmH3
+      action: left
+    - username: naskoszmuc
+      date: 1715764639895
+      invitedBy: ""
+      uid: kZFWjADxTRV083A5hRqxB6JfMbC2
+      action: joined
+    - username: naskoszmuc
+      date: 1715764652735
+      invitedBy: ""
+      uid: kZFWjADxTRV083A5hRqxB6JfMbC2
+      action: left
+    - username: KARINA
+      date: 1716636322205
+      invitedBy: ""
+      uid: DRbjYFbWxSQqQfZiyN9w8yLDYN82
+      action: left
+viewsCount: 125

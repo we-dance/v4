@@ -1,0 +1,196 @@
+endDate: 1730516400000
+sourceUrl: https://www.facebook.com/events/1665202344257058/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1713043948000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727201983000
+facebookId: "1665202344257058"
+facebook: https://www.facebook.com/events/1665202344257058/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1665202344257058/
+eventType: Workshop
+providerItemId: e1665202344257058@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Timba Con Funk
+location: Le Cube VO
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730449800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Complexe de la Junca, Chem. de Cadaujac, 33140 Villenave-d'Ornon, France
+  website: https://www.villenavedornon.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Le Cube
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.545312980291502
+        lat: 44.7630142197085
+      northeast:
+        lng: -0.5426150197084979
+        lat: 44.7657121802915
+    location:
+      lng: -0.5439868000000001
+      lat: 44.76433840000001
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Complexe de la Junca
+      long_name: Complexe de la Junca
+    - types:
+        - route
+      short_name: Chem. de Cadaujac
+      long_name: Chemin de Cadaujac
+    - types:
+        - locality
+        - political
+      short_name: Villenave-d'Ornon
+      long_name: Villenave-d'Ornon
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gironde
+      long_name: Gironde
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "33140"
+      long_name: "33140"
+  international_phone_number: +33 5 57 99 09 05
+  place_id: ChIJJ68z-DchVQ0RIVzyLVGeLoo
+  url: https://maps.google.com/?cid=9957069897663142945
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417979015
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/PickNickasso
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417979/pozr3xgnvtvx0slyq35c.png
+  source: facebook
+  type: Organiser
+  createdAt: 1728417979015
+  owned: false
+  name: Pick & Nick
+  place: ChIJhXRO1zIhVQ0RYM8WSBdlBgQ
+  updatedAt: 1728417979015
+  username: PickNickasso
+claimed: No
+link: ""
+description: >
+  Pick & Nick sont très heureux de vous annoncer pour la 1ère fois à Bordeaux
+  l’événement
+
+
+  🚨 Timba Con Funk 🚨
+
+
+  le 1er Novembre au Cube de Villenave d’Ornon 
+
+
+  🚨 11 h de workshops  🚨
+
+   🔥Timba Fusion 🔥Timba con funk 🔥Casino  🔥Salsa con Rumba 🔥Suelta 🔥 Lady Style🔥 Rumba 🔥 Elegua (Afro Cubain) 🔥Son Cubano 🔥Timba con Afro 🔥 Reparto Cubano 🔥
+
+  🚨Des professeurs de
+
+  renommée Internationale
+
+
+  💃🏻Yané Rodriguez (Bordeaux)
+
+  💃🏻Dayeline Argota Alvarez (Bordeaux)
+
+  💃🏻Marine (Bordeaux)
+
+  💃🏻Chahera (Toulouse)
+
+  🕺🏻Jonar Gonzalez (Montpellier)
+
+  🕺🏻Marcos Ruiz (Bordeaux)
+
+
+  Minimum 1 an de pratique de salsa cubaine pour accéder aux stages.
+   
+  🪩🚨Qui pour animer 🔥votre soirée Timba con Funk ⁉️
+
+
+  🎧Les incontournables 🎧
+
+  🪇🪘Los Pollos Timberos 
+
+  🐔Jack ElCalvo & 
+
+  🐔Tom Nka 
+
+  accompagnés de 
+
+  💿Amine 
+
+
+  🚨🪩Dress code : Funky/80’s🪩
+
+
+  🚨Plein de souvenirs 📸 avec votre photographe Nathanaël Mergui.  📸📸📸📸📸📸📸📸📸📸📸📸
+
+
+  🚨Tu prendras des vitamines et des forces avec le Food Truck 💯% Maison  présent toute la journée 
+
+
+  🍽️🥣La Popote à Lily🍛🍽️
+
+
+  🚨Sublime ton essentiel : 🔆Hélène sera présente pendant les stages et la soirée pour ton bien être et 🔆ses massages Amma assis 🔆
+
+
+  🎟️Billetterie en ligne avec des offres exceptionnelles pour les plus rapides 😍
+
+
+  https://www.helloasso.com/associations/pick-nick/evenements/timba-con-funk
+
+
+  🚨Hôtels partenaires Ibis Budget Bordeaux Sud et Ibis Styles Bordeaux Sud  
+
+
+  Navette 🚐 sur réservations 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417980/akckkdvmc7hzvgm0podv.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJhXRO1zIhVQ0RYM8WSBdlBgQ
+international: No
+hash: 1730449800000+ChIJJ68z-DchVQ0RIVzyLVGeLoo
+viewsCount: 4
+id: jieTKo7lKhBpEkABAP5I

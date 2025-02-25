@@ -1,0 +1,142 @@
+endDate: 1720828800000
+sourceUrl: https://www.facebook.com/events/437185829299637/
+createdAt: 1720533632337
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720523021000
+updatedAt: 1720533632337
+importedAt: 1720533632337
+providerUpdatedAt: 1720523021000
+facebookId: "437185829299637"
+facebook: https://www.facebook.com/events/437185829299637/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/437185829299637/
+eventType: Party
+providerItemId: 10009140-1720742400-1720828799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: REMIX DANCE CLUB, Teréz körút 55-57., Budapest, 1062
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720742400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Hungary
+  website: http://budapest.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Budapest
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.92610106630945
+        lat: 47.34941504569791
+      northeast:
+        lng: 19.33450493254384
+        lat: 47.61301194615275
+    location:
+      lng: 19.040235
+      lat: 47.497912
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+  place_id: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  url: https://maps.google.com/?q=Budapest,+Hungary&ftid=0x4741c334d1d4cfc9:0x400c4290c1e1160
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Party-Paradiso/100094765094306/
+  name: Party Paradiso
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765529/dhpkjsw2v8oi2vqjz2kd.jpg
+  bio: ""
+  id: YyGOaekLuUR4wfTdjGXH
+  instagram: ""
+  username: PartyParadiso
+claimed: No
+link: ""
+description: >-
+  Ha Te is lubickolsz a nyári életérzésben ezt a partyt imádni fogod! 😍🌞 Egy
+  nagytermes Salsa és Bachata Partyval várunk Titeket ismét kedvenc zenéitekkel
+  és már viszünk is nyaralni, elrepítünk Titeket Hawaiira! 😮😆🌴☀⛱ Öveket
+  becsatolni, ha akarod a színes, virágmintás szetteket előkapni és indulás! A
+  pultnál trópusi koktélok várnak, és nem maradnak el a vezetett ruedák,
+  hölgyválaszok, taxisaink is készülnek, a legtáncolhatóbb változatos zenék
+  mennek! 😍😍😍
+
+
+  👍👍👍AZ ESTE MENETE:
+
+  20.45 Kapunyitás
+
+  21.15-21.30 Rueda Felhangoló Workshop
+
+  Ad hoc ruedák kb. óránként és Hölgyválaszok
+
+  02.00 Kapuzárás (némi pánikkal, mert utazunk haza 🤦‍♀️🤦‍♂️😃
+
+
+  👗👕 🌼DRESS CODE: (OPCIONÁLIS!)
+
+  Virágmintás, színes, nyárias otfited erre az estére felkaphatod és bármilyen Hawaii kiegészítőben tündökölhetsz!
+
+
+  🎶🎶🎶ZENEI LINE-UP by DJ VICTOR:
+
+  SALSA (70%): popular cuban, igény szerint fűszerezve autentikusabb dalokkal
+
+  BACHATA (30%): aktuális bachata slágerek, urbana, sensual, fusion
+
+
+  🥂🥂🥂BÜFÉ van, külön erre az estére kevert KOKTÉLOKKAL:
+
+  Hawaii Blue
+
+  Hawaii Red
+
+  Paradiso Orange
+
+
+  🛒🛒🛒BELÉPŐ: 3000 Ft, fizetni jelenleg készpénzzel tudtok!
+
+
+  📸📸📸MÉDIA: Az eseményen kép és videó felvétel készülhet, ami a közösségi oldalakra kerül feltöltésre (Facebook, youtube). Az eseményen való részvétellel a fentieket az ott jelenlevő személyek elfogadják. Így szuper képekkel idézheted fel az est legnagyszerűbb pillanatait!
+
+
+  👫👫👫Megosztásra és ismerőseid meghívásra ezúton buzdítunk, legyetek részesei egy egészen emelkedett és egyben közvetlen hangulatú Party-sorozatnak, Táncos Barátaid bevonásától pedig éppen a Te bulid lesz még pezsgőbb!
+
+
+  🧡🧡🧡Szeretettel várunk Mindenkit!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720533655/jvarxmj5gwsnapiizepy.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Hawaii SALSA & BACHATA Party @ Party Paradiso Event
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1720809900000+ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+id: 6176g641De0XUZtENFy3

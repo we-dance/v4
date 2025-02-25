@@ -1,0 +1,62 @@
+claimed: No
+type: event
+duration: 60
+promo: No
+createdAt: 1662664846150
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+updatedAt: 1662664846150
+updatedBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+visibility: Public
+eventType: Workshop
+form: No
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-12-09T20:00
+username: Thomas
+id: KCBWAnl1pw03ByHnZhvr
+artists:
+  - instagram: https://instagram.com/zoukmunich
+    username: zoukmunich
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/itsjustme.de
+  name: Thomas
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG008dEeTZJcXLBzzL2krS0Ynumu2%2Fe018e495-359d-462c-bbef-590da40f99bc?alt=media&token=75fd0f14-1beb-4375-af14-da9550364f55
+  bio: In love with Brazilian Zouk <3
+  instagram: ""
+  id: G008dEeTZJcXLBzzL2krS0Ynumu2
+  username: Thomas
+artistsList:
+  - zoukmunich
+endDate: 2022-12-11T21:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKCBWAnl1pw03ByHnZhvr.png?generation=1665416024377503&alt=media
+telegram:
+  requestedAt: 1662665755905
+  messageUrl: https://t.me/WeDanceMunich/633
+  publishedAt: 1665557233047
+  messageId: 633
+  state: published
+watch:
+  count: 1
+  list:
+    Thomas: true
+link: ""
+program: []
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FG008dEeTZJcXLBzzL2krS0Ynumu2%2Fb6b029ee-9715-4391-a1d4-674358ac3804?alt=media&token=22ebad41-0bf6-478a-8e7f-b35cdd46263b
+price: 115€ Early Bird
+facebook: https://www.facebook.com/events/676330143838950?ref=newsfeed
+name: ZoukCeption 1/5 - StepUp - Workshop Weekender in Munich
+description: The first of a series of 5 workshops with Eric from Zurich and his
+  Team, who will teach us the concepts of the ZoukCeption methodology!
+star:
+  count: 1
+  list:
+    Rigatony: true
+viewsCount: 130

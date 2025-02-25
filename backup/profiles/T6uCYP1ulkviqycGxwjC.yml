@@ -1,0 +1,63 @@
+createdAt: 1712092539410
+website: https://maps.google.com/?cid=15862090569044532151
+rooms: ""
+address:
+  formatted_address: Carrer de l'Estret, 16, 46230 Alginet, Valencia, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: DISCOTECA TROPICANA
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -0.465631369708498
+      south: 39.26925911970851
+      north: 39.2719570802915
+      west: -0.4683293302915021
+    location:
+      lng: -0.4669395
+      lat: 39.2706795
+  address_components:
+    - types:
+        - street_number
+      short_name: "16"
+      long_name: "16"
+    - types:
+        - route
+      short_name: Carrer de l'Estret
+      long_name: Carrer de l'Estret
+    - types:
+        - locality
+        - political
+      short_name: Alginet
+      long_name: Alginet
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: V
+      long_name: Valencia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "46230"
+      long_name: "46230"
+  international_phone_number: +34 657 82 62 87
+  place_id: ChIJ-QYJbJWtYQ0Rtxv54lR3Idw
+  url: https://maps.google.com/?cid=15862090569044532151
+gender: Other
+phone: +34 657 82 62 87
+name: DISCOTECA TROPICANA
+updateAt: 1712092539410
+map: ""
+username: discotecatropicana
+place: ChIJb7Dv8ExPYA0ROR1_HwFRo7Q
+type: Organiser
+viewsCount: 1
+id: T6uCYP1ulkviqycGxwjC

@@ -1,0 +1,178 @@
+endDate: 1729814399000
+sourceUrl: https://www.facebook.com/events/8259428780842912/
+createdAt: 1729000852037
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1728979936000
+updatedAt: 1729000852037
+importedAt: 1729000852037
+providerUpdatedAt: 1728979936000
+facebookId: "8259428780842912"
+facebook: https://www.facebook.com/events/8259428780842912/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/8259428780842912/
+providerItemId: 48506-1729728000-1729814399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: BKC2024 Official Thursday Pre-Party
+location: Verdi Budapest Aquincum, Árpád fejedelem útja 94., Budapest, 1036, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729728000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Árpád fejedelem útja 94, 1036 Hungary
+  website: https://verdihotels.com/budapest/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: The Aquincum Hotel Budapest
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0451130697085
+        lat: 47.53653861970851
+      northeast:
+        lng: 19.0478110302915
+        lat: 47.5392365802915
+    location:
+      lng: 19.04633789999999
+      lat: 47.5377123
+  address_components:
+    - types:
+        - street_number
+      short_name: "94"
+      long_name: "94"
+    - types:
+        - route
+      short_name: Árpád fejedelem útja
+      long_name: Árpád fejedelem útja
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: III. kerület
+      long_name: III. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1036"
+      long_name: "1036"
+  international_phone_number: +36 1 436 4100
+  place_id: ChIJ_el5Dl_ZQUcRp6FzW4WtFU4
+  url: https://maps.google.com/?cid=5626594097745863079
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/BudapestKizombaConnection
+  name: Budapest Kizomba Connection - BKC
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953535/or6mpemojvsot4ncongk.jpg
+  bio: ""
+  id: peupVqcrEhAMhlLiYEbX
+  instagram: ""
+  username: BudapestKizombaConnection
+claimed: No
+link: http://www.bebkc.com/
+description: >-
+  Start your BKC weekend with us at the official PRE-PARTY, in the main
+  hotel!  (magyar infoért görgess)
+
+
+  We kick off this crazy weekend with a killer pre-party just like the past years! 
+
+
+  22h Workshop: 
+
+  Kizomba Connection - Vladimir Izomba (Angola) & Nikolett Hamvas (Hungary)
+
+  then party till 4:30
+
+
+  Music by:
+
+  DJ Vadinho (Angola)
+
+  DJ Nicolet (Hungary)
+
+
+  KIZOMBA | SEMBA | ZOUK | GHETTO ZOUK | TARRAXINHA | AFRO & more in true Angolan style
+
+
+  Venue:
+
+  Hotel Verdi Budapest Aquincum (main hotel of the festival)
+
+  Budapest, Árpád fejedelem útja 94, 1036
+
+
+  Entrance fee: 8000HUF/20€ only available online, no sales at the door! This party is included in VIP passes. If your pass does not include this party but you want to participate, please go ahead and book your ticket online!
+
+
+  ______________________________________
+
+  A Budapest Kizomba Connection fesztivál idén 12. alkalommal kerül megrendezésre, a Verdi Budapest Aquincum Hotelben. A fesztivál hivatalos pre-partyját, csütörtök este, már a hotelben tartjuk! Tarts velünk a fesztivál nyitóestjén, ahol már a BKC színes külföldi vendégseregének és oktatóinak egy része is részt vesz! Bulizz velünk igazi nemzetközi fesztivál hangulatban, Budapest szívében!
+
+
+  22h Workshop: 
+
+  Kizomba Connection - Vladimir Izomba (Angola) & Hamvas Nikolett (Magyarország)
+
+  utána buli hajnali 4:30-ig
+
+
+  Zenefelelős:
+
+  DJ Vadinho (Angola)
+
+  DJ Nicolet (Magyarország)
+
+
+  KIZOMBA | SEMBA | ZOUK | GHETTO ZOUK | TARRAXINHA | AFRO & sok más igazi Angolai stílusban
+
+
+  Helyszín:
+
+  Hotel Verdi Budapest Aquincum (fesztivál hotel)
+
+  Budapest, Árpád fejedelem útja 94, 1036
+
+
+  Belépő: 8000HUF/20€ csak online elérhető, a helyszínen nem árulunk jegyeket! A VIP passok tartalmazzák ezt a bulit. Ha olyan passod van amiben nincs benne ez a buli, kérünk vásárold meg online a belépődet.
+program: []
+source: facebook
+eventType: Festival
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729000869/qtwyzr9xsnh2ioymlejt.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1729800000000+ChIJ_el5Dl_ZQUcRp6FzW4WtFU4
+id: hsv6tdhmmyvthAYMZjf3

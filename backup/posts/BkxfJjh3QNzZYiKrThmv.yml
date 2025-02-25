@@ -1,0 +1,158 @@
+createdAt: 1704822869395
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/2805265476271415/
+source: facebook
+updatedAt: 1704822869395
+username: wedancebot
+venue:
+  formatted_address: Residenzpl. 1, 97070 Würzburg, Germany
+  website: https://b-neumann.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: B.Neumann Residenzgaststätten
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.935776719708498
+        lat: 49.7908592197085
+      northeast:
+        lng: 9.938474680291502
+        lat: 49.7935571802915
+    location:
+      lng: 9.937078099999999
+      lat: 49.7921116
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Residenzpl.
+      long_name: Residenzplatz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt
+      long_name: Altstadt
+    - types:
+        - locality
+        - political
+      short_name: WÜ
+      long_name: Würzburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Würzburg
+      long_name: Kreisfreie Stadt Würzburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Unterfranken
+      long_name: Unterfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "97070"
+      long_name: "97070"
+  international_phone_number: +49 931 46771944
+  place_id: ChIJa6B1-y2QokcRmD9L2_kXWLs
+  url: https://maps.google.com/?cid=13499566244936499096
+visibility: Public
+endDate: ""
+org:
+  owner: ""
+  importedAt: 1704822876888
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/tatjanafranzwa/100088089981381/
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/369682690_251890391090625_5898081247516957340_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=109&ccb=1-7&_nc_sid=596444&_nc_ohc=MVUC9NzH52QAX8Qj0xh&_nc_ht=scontent-atl3-1.xx&oh=00_AfBNpwCPQPLkXbaavIcx3asi1fNronGKUrPTs1dNsYPomA&oe=65A22C48
+  source: facebook
+  type: Organiser
+  createdAt: 1704822876888
+  owned: false
+  name: tatjanafranzwa
+  place: ChIJ2U3aEiCQokcRoAli8Ci3HQQ
+  updatedAt: 1704822876888
+  username: tatjanafranzwa
+claimed: No
+facebookId: "2805265476271415"
+link: https://www.eventbrite.de/e/latin-festival-wuerzburg-tickets-519601420837?aff=ebdssbdestsearch
+description: >-
+  Bailamos Würzburg lädt ein zum Latin Festival in Würzburg in der B. Neumann
+  Gaststätte in der Residenz.
+
+  Ein historischer Veranstaltungsort mit fantastischen Tänzern, perfektes Line-up, mit den besten nationalen / internationalen Trainern/innen und professionellen DJs macht dieses Event nicht nur zum größten der Region, sondern auch zu einem unvergesslichen Erlebnis. 
+
+
+  Du möchtest das Festival unterstützen?
+
+  Als Sponsor oder Werbeträger? Wir freuen uns über ihre Nachricht. 
+
+
+  Je eher du buchst, desto günstiger die Tickets.
+
+  https://www.latin-festival-wuerzburg.de
+
+  Der Ticketverkauf läuft (limitierte Ticketanzahl)
+
+
+  Bailamos Würzburg
+
+  ------
+
+
+  Bailamos Würzburg invites you to the Latin Festival in Würzburg at the B. Neumann Restaurant in the Residence.
+
+  A historic venue with fantastic dancers, perfect line-up, with the best national / international instructors and professional DJs makes this event not only the biggest in the region, but also an unforgettable experience. 
+
+  The earlier you book, the cheaper the tickets. You want to support the festival?
+
+  As a sponsor or advertising partner? We are looking forward to your request via contact form.
+
+
+  https://www.latin-festival-wuerzburg.de
+
+  Tickets are on sale (limited number of tickets)
+
+
+  Bailamos Würzburg
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Latin Festival Würzburg 2024
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2U3aEiCQokcRoAli8Ci3HQQ
+international: No
+hash: 1706295600000+ChIJa6B1-y2QokcRmD9L2_kXWLs
+startDate: 1706295600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBkxfJjh3QNzZYiKrThmv.png?generation=1704822892677343&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851744/hgurmst975gmcpcs4up5.jpg
+viewsCount: 7
+id: BkxfJjh3QNzZYiKrThmv

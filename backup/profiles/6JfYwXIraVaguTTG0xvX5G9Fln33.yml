@@ -1,0 +1,79 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1619703120228
+createdBy: 6JfYwXIraVaguTTG0xvX5G9Fln33
+name: SusanneR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: SusanneR
+pwaUsed: false
+styles:
+  Tarraxinha:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Zumba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Advanced
+    highlighted: false
+    selected: true
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+partnerBio: Are you a passionate dancer?
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+locales:
+  de: true
+  en: true
+  es: true
+updatedBy: 6JfYwXIraVaguTTG0xvX5G9Fln33
+teacher: No
+partner: Yes
+weight: "66"
+id: 6JfYwXIraVaguTTG0xvX5G9Fln33
+height: "178"
+updatedAt: 1619703483202
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+gender: Female
+lastLoginAt: 1652522230708
+daysUsed: 11
+viewsCount: 2

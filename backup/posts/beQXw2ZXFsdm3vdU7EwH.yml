@@ -1,0 +1,41 @@
+endDate: 2021-07-20T21:00:00.000Z
+description: "Location: Schneckenplatz"
+type: event
+duration: custom
+createdAt: 1626692946899
+watchersCount: 0
+price: FREE
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: beQXw2ZXFsdm3vdU7EwH
+updatedAt: 1626692946899
+updatedBy: 5CqWN8mkSTNKB5UKoqvfXkY8zei2
+address: Schwanthalerhöhe
+visibility: Public
+eventType: Party
+form: No
+createdBy: 5CqWN8mkSTNKB5UKoqvfXkY8zei2
+commentsCount: 0
+name: Bachata
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-20T17:30:00.000Z
+username: Anonymous
+viewsCount: 1

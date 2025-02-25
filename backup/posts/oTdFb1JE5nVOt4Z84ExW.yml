@@ -1,0 +1,147 @@
+artists: []
+program: []
+artistsList: []
+createdAt: 1730922811946
+createdBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+updatedBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+username: Tanze-Samba-Muenchen
+type: series
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+visibility: Public
+form: No
+online: No
+international: No
+claimed: No
+eventType: Course
+duration: 60
+price: please check Link to get tickets
+styles:
+  Samba:
+    selected: true
+    highlighted: false
+    level: Beginner
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5CA8tqiQDseLR3IcZSIigS9rVDH2%2F3c1837cd-b630-48b1-aa9c-b8d2c3d48075?alt=media&token=e0ce753b-2524-48bb-9303-bd4fc5c8382f
+org:
+  username: Tanze-Samba-Muenchen
+watch:
+  count: 0
+  list: {}
+venue:
+  html_attributions: []
+  address_components:
+    - long_name: 20A
+      short_name: 20A
+      types:
+        - street_number
+    - long_name: Frankenthaler Straße
+      short_name: Frankenthaler Str.
+      types:
+        - route
+    - long_name: Ramersdorf-Perlach
+      short_name: Ramersdorf-Perlach
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "81539"
+      short_name: "81539"
+      types:
+        - postal_code
+  formatted_address: Frankenthaler Str. 20A, 81539 München, Germany
+  geometry:
+    location:
+      lat: 48.1086507
+      lng: 11.598432
+    viewport:
+      south: 48.1073908197085
+      west: 11.5971380697085
+      north: 48.1100887802915
+      east: 11.5998360302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 89 7460397
+  name: dance and fight club
+  place_id: ChIJOSg_x4XfnUcRixHsM8ajCU4
+  url: https://maps.google.com/?cid=5623205681418736011
+  website: http://www.danceandfight.de/
+  username: www.danceandfight.de
+startDate: 1732043100000
+endDate: 1732046700000
+hash: 1732043100000+ChIJOSg_x4XfnUcRixHsM8ajCU4
+recurrence:
+  freq: weekly
+  days: {}
+  untilDate:
+    _seconds: 1733871600
+    _nanoseconds: 0
+  dates:
+    - _seconds: 1732043100
+      _nanoseconds: 0
+    - _seconds: 1732647900
+      _nanoseconds: 0
+    - _seconds: 1733252700
+      _nanoseconds: 0
+    - _seconds: 1733857500
+      _nanoseconds: 0
+link: https://tanze-samba-muenchen.de/
+coverSize: square
+video: https://www.youtube.com/watch?v=n49jMN87idM
+description: Wir setzen den grauen Wintertagen mit einem Samba de Gafieira
+  Minikurs für Anfänger mit Tanzerfahrung etwas entgegen und freuen uns auf
+  Isaac und Noêmia mit ihrer ansteckenden Leidenschaft. Samba de Gafiera ist
+  eine fröhlicher brasilianischer Paartanz zu wunderschöner Samba-Musik.
+socialCover: ""
+commentsCount: 0
+downVotes: 0
+upVotes: 0
+votes: 0
+star:
+  count: 0
+  list: {}
+checkin:
+  count: 0
+  list: {}
+telegram: {}
+instagram: {}
+promotion: ""
+children:
+  - id: eEyBdTr9QMVdGvnW3cKx
+    startDate: 1732043100000
+    endDate: 1732046700000
+  - id: hFntwQCzEfYTpjBBiqAZ
+    startDate: 1732647900000
+    endDate: 1732651500000
+  - id: uGRWCuoU02USyIoivicY
+    startDate: 1733252700000
+    endDate: 1733256300000
+  - id: FLUiupahIxQjDn6c59IL
+    startDate: 1733857500000
+    endDate: 1733861100000
+viewsCount: 0
+id: oTdFb1JE5nVOt4Z84ExW
+name: Samba De Gafieira Anfänger-Kurs mit Isaac und Noêmia
+updatedAt: 1730923738942

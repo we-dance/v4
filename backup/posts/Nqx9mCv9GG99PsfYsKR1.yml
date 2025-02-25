@@ -1,0 +1,140 @@
+venue:
+  website: http://www.deutsches-theater.de/
+  formatted_address: Schwanthalerstraße 13, 80336 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Deutsches Theater
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5638444802915
+      south: 48.13597806970851
+      north: 48.1386760302915
+      west: 11.5611465197085
+    location:
+      lng: 11.5624965
+      lat: 48.1372505
+  address_components:
+    - types:
+        - street_number
+      short_name: "13"
+      long_name: "13"
+    - types:
+        - route
+      short_name: Schwanthalerstraße
+      long_name: Schwanthalerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  place_id: ChIJN8er8vd1nkcRvHcEy6igzZ8
+  international_phone_number: +49 89 55234444
+  url: https://maps.google.com/?cid=11515036469077243836
+endDate:
+  _seconds: 1657222200
+  _nanoseconds: 0
+claimed: No
+link: https://tickets.deutsches-theater.de/?actioncode=&campaign=&shopagent=LP-19560#event-19560
+type: event
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb25e7db8-e1af-4352-83ba-dd2125510dba?alt=media&token=772434b6-17a5-451b-bf15-9a259ca8d85b
+duration: "180"
+createdAt: 1655994966195
+artists: []
+price: ab 22,00 €
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1655994966195
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: liztalfonsodancecuba
+  username: liztalfonsodancecuba
+eventType: Show
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: ¡CUBA VIBRA!
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Ballet:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Flamenco:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-07T18:30
+username: alexrazbakov
+description: >+
+  ### ERSTMALS IN DEUTSCHLAND
+
+  ¡Cuba Vibra! lautet der Titel einer mitreißenden Tanz-Show, die 2022 erstmals auf unserer Bühne zu erleben ist. Konzipiert, inszeniert und choreografiert wurde diese von Lizt Alfonso, die mit ihrer Dance Company sowohl in Kuba als auch in den USA zu den Mega-Stars der Szene zählt und die für ihre Arbeit mit zahlreichen Preisen ausgezeichnet wurde.
+
+
+  ### AUFREGENDE REISE DURCH KUBA
+
+  ¡Cuba Vibra! ist eine suggestive und aufregende Reise durch diese Kultur, die der Insel von den 50er Jahren des letzten Jahrhunderts bis zur Gegenwart Berühmtheit verliehen hat. Die vier Solisten und 13 Ensemblemitglieder werden auf der Bühne zu Protagonisten von Geschichten, die im Rhythmus von Chachacha, Mambo, Conga und Bolero erzählt werden und welche die Herzen der Zuschauer vibrieren lassen. Für den authentischen und vollen Sound sorgt dabei eine achtköpfige Live-Band.
+
+
+  ### SEIT 30 JAHREN WELTWEIT UNTERWEGS
+
+  Die Lizt Alfonso Dance Company zählt seit 30 Jahren zu den renommiertesten Tanzkompanien Lateinamerikas und präsentiert die perfekte Mischung und einen Querschnitt durch die gesamte kubanische Tanz-Kultur und Musikgeschichte. In ihren Shows verschmelzen Elemente aus Ballett, Flamenco, klassischem und zeitgenössischem Tanz mit kubanischen und afrokubanischen Rhythmen.
+
+
+  - Vorstellungsbeginn: Mittwoch - Samstag: 19:30 Uhr
+
+  - Sonntag: 18:00 Uhr
+
+  - Einlass: eine Stunde vor Vorstellungsbeginn
+
+  - Preview: Mittwoch, 06.07.22
+
+  - Sprache: Songs in englischer und spanischer Sprache
+
+id: Nqx9mCv9GG99PsfYsKR1
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FNqx9mCv9GG99PsfYsKR1.png?generation=1655995341406329&alt=media
+viewsCount: 25

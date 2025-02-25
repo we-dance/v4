@@ -1,0 +1,49 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621700175438
+createdBy: HAsNHkTu2VO6aCl96AbOYBXNHlm1
+name: Karl
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Karl
+pwaUsed: false
+birthday: 1992-07-27
+locales:
+  en: true
+  es: true
+  nb: true
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+teacher: No
+gender: Male
+partner: Yes
+weight: "69"
+objectives:
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Advanced
+    highlighted: false
+    selected: true
+contacts: No
+height: "170"
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHAsNHkTu2VO6aCl96AbOYBXNHlm1%2F2bd4bc0c-bca8-454e-9d6d-dc3919ba9905?alt=media&token=eb79ee8b-f270-4003-b35d-774855929dd6
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FKarl.png?generation=1621816122870208&alt=media
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+updatedAt: 1621985157459
+daysUsed: 5
+lastLoginAt: 1622203234689
+id: HAsNHkTu2VO6aCl96AbOYBXNHlm1

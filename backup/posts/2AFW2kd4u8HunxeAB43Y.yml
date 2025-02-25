@@ -1,0 +1,96 @@
+venue:
+  formatted_address: Kaynarca, Erol Kaya Cd No:204, 34890 Pendik/İstanbul, Türkiye
+  website: http://www.thegreenparkpendik.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: The Green Park Pendik Hotel & Convention Center
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 29.2530693302915
+      south: 40.87143491970851
+      north: 40.8741328802915
+      west: 29.2503713697085
+    location:
+      lng: 29.251282
+      lat: 40.872657
+  address_components:
+    - types:
+        - street_number
+      short_name: No:204
+      long_name: No:204
+    - types:
+        - route
+      short_name: Erol Kaya Cd
+      long_name: Erol Kaya Caddesi
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: Kaynarca
+      long_name: Kaynarca
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Pendik
+      long_name: Pendik
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: İstanbul
+      long_name: İstanbul
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+    - types:
+        - postal_code
+      short_name: "34890"
+      long_name: "34890"
+  place_id: ChIJ4z7UJaPcyhQRQcAI_0zZkQQ
+  url: https://maps.google.com/?cid=329283172494262337
+endDate: 2023-10-23T23:30
+claimed: No
+description: 72 Ülkeden 3.000 Dansçılar ile 5 gün Eğlence
+program: []
+type: event
+duration: 60
+createdAt: 1685875098540
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJawhoAASnyhQR0LABvJj-zOE
+international: Yes
+updatedAt: 1685875098540
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/dansmaratonistanbul
+  username: dansmaratonistanbul
+eventType: Festival
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    Bilal: true
+name: İstanbul Sosyal Dans Maraton
+online: ""
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-10-18T12:00
+username: Bilal
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2F239c6055-4d42-4a57-9989-f4cba6ec45d0?alt=media&token=810c3234-0c4e-4657-91d5-01a0ac178bbe
+id: 2AFW2kd4u8HunxeAB43Y
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F2AFW2kd4u8HunxeAB43Y.png?generation=1685878373716444&alt=media
+viewsCount: 56

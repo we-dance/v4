@@ -1,0 +1,389 @@
+endDate: 1730696400000
+sourceUrl: https://www.facebook.com/events/296991763260226/
+createdAt: 1718460037934
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1699199749000
+updatedAt: 1718460037934
+importedAt: 1718460037934
+providerUpdatedAt: 1715878097000
+facebookId: "296991763260226"
+facebook: https://www.facebook.com/events/296991763260226/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/296991763260226/
+eventType: Festival
+providerItemId: e296991763260226@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Kizomba Queen Festival III
+location: ""
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730401200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Inselstraße 9, 10179 Berlin, Germany
+  website: http://www.kizombaberlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizomba Berlin
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4106295697085
+        lat: 52.5109626697085
+      northeast:
+        lng: 13.4133275302915
+        lat: 52.5136606302915
+    location:
+      lng: 13.4118726
+      lat: 52.51225909999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Inselstraße
+      long_name: Inselstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10179"
+      long_name: "10179"
+  international_phone_number: +49 170 9767899
+  place_id: ChIJb5KTgmtPqEcRunrhl4q16lY
+  url: https://maps.google.com/?cid=6263017838670346938
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718460061497
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/KizombaQueenweekend
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718460061/olcdogxndo3egnxlosyf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718460061497
+  owned: false
+  name: Kizomba Queen Weekend
+  updatedAt: 1718460061497
+  username: KizombaQueenweekend
+claimed: No
+link: https://my.weezevent.com/kizomba-queen-festival-1
+description: "
+
+  \\ 
+
+  KIZOMBA QUEEN FESTIVAL
+
+  \ Welcome to Kizomba Queen Festival
+
+  31 October to 04 November 2024 in the gorgeous Torremolinos, Malaga
+
+  \\ 
+
+  After your amazing heartfelt feedback, we feel super encouraged to continue
+  your (and our) favorite festival in 2024! This year, we will give you that
+  same Kizomba Queen familiarity, with some amazing surprises to once again
+  exceed your expectations.
+
+  \\ 
+
+  This year, the best dancers from around the world will be joining us for
+  long dance sessions with creativity, awesome technique and lots and lots of
+  fun. Workshops by the best teachers, will help you along on your dance
+  journey!
+
+  \\ 
+
+  A location right by the sea, with spacious rooms, swimming pools and a gym,
+  will make you never want to leave this place again. The outdoor socials with
+  the sun on your face and a dip in the sea at sunset will complete the Kizomba
+  Queen experience.
+
+  \\ 
+
+  Come and live your festival dreams with us. We will make sure to bring you
+  connections, smiles and memories that last a lifetime!
+
+  \\ 
+
+  Let us be YOUR Kizomba Queen Festival once again, and buy your earlybirds
+  for 2024 NOW\ 
+
+
+  https://my.weezevent.com/kizomba-queen-festival-1\ 
+
+
+  https://twb.nz/queens
+
+
+  \\ 
+
+  - - - - DEEJAYS- - - -
+
+  ⭐️DJ SHARK  Godfather 🇪🇸
+
+  ⭐️DJ PUTO X🇫🇷
+
+  ⭐️DJ LIMA 🇳🇱
+
+  ⭐️DJ MALICK 🇫🇷
+
+  ⭐️DJ STOMPY 🇫🇷
+
+  ⭐️DJ MAMS 🇨🇭
+
+  ⭐️DJ FAZE 🇪🇸
+
+  ⭐️DJ HEGZA🇵🇹
+
+  ⭐️DJ  NEIKEN 🇵🇹
+
+  ⭐️DJ LAU 🇪🇸
+
+  ⭐️DJ ASILE 🇳🇱
+
+
+  \\ 
+
+  \\ 
+
+  - - - - TEACHERS - - - -
+
+  ⭐️ CINDY   TAVARES Godmother 🇪🇸
+
+  ⭐️SANDRA GUTIERREZ🇪🇸
+
+  ⭐️ASIA VORONOVA 🇫🇷
+
+  ⭐️MARTA  FORCADELL🇪🇸
+
+  ⭐️DANIELA  ELENA🇪🇸
+
+  ⭐️INES  MIRANDA🇵🇹
+
+  ⭐️MELANIA ANDREI 🇷🇴
+
+  \ ⭐️NORA BRE🇩🇪
+
+  ⭐️SIMONE SENGHAAS 🇩🇪
+
+  ⭐️SANDRA MOLINA 🇪🇸
+
+  ⭐️AUDY & LAURA 🇪🇸
+
+  ⭐️MAMS &MOOREA 🇨🇭🇫🇷
+
+  ⭐️VIRGILE & JUNE 🇳🇱
+
+  ⭐️LUIS & KAREN 🇪🇸
+
+  ⭐️RADU &JUDITH 🇷🇴
+
+  ⭐️BOUBIII 🇨🇭
+
+  ⭐️MOUSSA DIOP 🇫🇷
+
+  ⭐️JUSTINHO 🇫🇷
+
+  ⭐️A2 🇫🇷
+
+  ⭐️WALDAMAR 🇱🇹
+
+  ⭐️BACHIR 🇫🇷
+
+  ⭐️DADIE 🇫🇷
+
+
+
+  🔔SPECIAL GUEST\ 
+
+  \     More than 150 guest with level\ 
+
+
+
+  🔔Guest\ 
+
+
+  ⭐️ALL FOR  I🇫🇷
+
+  ⭐️PSBK 🇫🇷
+
+  ⭐️more to confirm\ 
+
+
+
+  \         ⭐️⭐️⭐️ VIDEAST⭐️⭐️⭐️
+
+  \               \ 
+
+  \                      BENKOS & CYNTHIA
+
+
+  \          \ 
+
+  \           ⭐️⭐️⭐️EVENT  MEDIA ⭐️⭐️⭐️
+
+
+  \                   Kizoteca media\ 
+
+
+  \           ⭐️⭐️Italian haire stylist ⭐️⭐️
+
+  \            \ 
+
+  \                 Alessia perini\ 
+
+  \\ 
+
+  \            Booking :+ 393921466548
+
+
+  \        \ 
+
+
+  \         \ 
+
+  \\ 
+
+  - - - - - TAXI TEAMS - - - - -
+
+  • Kings & Queens to be confirmed…..
+
+  \\ 
+
+  \\ 
+
+  \\ 
+
+  \\ 
+
+  \\ 
+
+  \\ 
+
+  PROGRAM
+
+  \ KIZOMBA
+
+  \ SEMBA
+
+  \ URBANKIZ
+
+  \ TARRAXO
+
+  \ AFRO
+
+  \ YOGA
+
+  \ LARGE DANCE FLOOR
+
+  \ 4 NIGHTS PARTIES (11PM TO 6AM)
+
+  \ 3 SOCIALS (3PM TO 8PM)
+
+  \ AFTER PARTIES
+
+  \ POOL PARTY
+
+  \ OVER 72 HOUR OF AMAZING WORKSHOPS
+
+  \ OUTSTANDING DEEJAYS
+
+  \ DANCERS FROM ALL AROUND THE WORLD
+
+  \ FREE WIFI
+
+  \ BREAKFAST INCLUDED
+
+  \ RESTAURANT
+
+  \ FREE GYM
+
+  \\ 
+
+  \\ 
+
+  ……. MAIN HOTEL…….
+
+  www.barcelo.com/es-es/occidental-torremolinos-playa
+
+  With almost 300 rooms available, stay in the main hotel with
+
+  all the artists, guest dancers and taxi dancers.
+
+  Occidental Torremolinos Playa
+
+  Beautiful luxury 4-star hotel located 5 minutes from the airport.
+
+  Use the promo code QUEEN24 to get a discount for the room
+
+  You can take an Uber to the hotel for less than 6 euros.
+
+  All rooms have buffet breakfast included.
+
+  Be sure to book your room before they're sold out!
+
+  \\ 
+
+  Adress : C .la Toja , 25 ,29620 Torremolinos MALAGA
+
+  \ "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718460064/g3yjx3lg1q98gsg6lwyp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1730401200000+ChIJb5KTgmtPqEcRunrhl4q16lY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMymv61PJOhFs46X9eSvk.png?generation=1718460080826019&alt=media
+viewsCount: 3
+id: Mymv61PJOhFs46X9eSvk

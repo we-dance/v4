@@ -1,0 +1,187 @@
+isNew: true
+facebookId: "1239683440804997"
+facebookUrlsList:
+  - https://facebook.com/events/s/cielo-by-meraki-workshops-soci/1239683440804997/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729605646319
+updatedAt: 1729605646319
+importedAt: 1729605646319
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerItemId: c4pm4d1m6gsm4b9m6csmab9k68oj4b9oc9i30b9oc5h34pj669i62pb36k@google.com
+name: Cielo by Meraki - Workshops + Social
+providerCreatedAt: 1729594867000
+providerUpdatedAt: 1729594867000
+startDate: 1731776400000
+endDate: 1731823200000
+sourceUrl: https://facebook.com/events/s/cielo-by-meraki-workshops-soci/1239683440804997/
+location: 115 S Ewing Ave, Louisville, KY, United States, Kentucky 40206
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: yatusabes.blog
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+venue:
+  address_components:
+    - long_name: "115"
+      short_name: "115"
+      types:
+        - street_number
+    - long_name: South Ewing Avenue
+      short_name: S Ewing Ave
+      types:
+        - route
+    - long_name: Crescent Hill
+      short_name: Crescent Hill
+      types:
+        - neighborhood
+        - political
+    - long_name: Louisville
+      short_name: Louisville
+      types:
+        - locality
+        - political
+    - long_name: Jefferson County
+      short_name: Jefferson County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Kentucky
+      short_name: KY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "40206"
+      short_name: "40206"
+      types:
+        - postal_code
+    - long_name: "2524"
+      short_name: "2524"
+      types:
+        - postal_code_suffix
+  formatted_address: 115 S Ewing Ave, Louisville, KY 40206, USA
+  geometry:
+    location:
+      lat: 38.25304209999999
+      lng: -85.6994239
+    viewport:
+      northeast:
+        lat: 38.2544528802915
+        lng: -85.6980315697085
+      southwest:
+        lat: 38.2517549197085
+        lng: -85.70072953029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 115 S Ewing Ave
+  place_id: ChIJG46TGkRzaYgRhbJ208cSuFU
+  url: https://maps.google.com/?q=115+S+Ewing+Ave,+Louisville,+KY+40206,+USA&ftid=0x886973441a938e1b:0x55b812c7d376b285
+visibility: Public
+org:
+  id: abUZtKeP883FXYkmO4Ue
+  username: merakidanceky
+  name: Meraki Dance Company
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717855233/epoy57mgeihbzt0xtjbe.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/merakidanceky
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1239683440804997/
+link: http://merakidancecompany.ticketleap.com/cielo-by-meraki/
+description: >-
+  Meraki Dance Company is thrilled to host Cielo - a one day event of workshops
+  and dancing! We are welcoming in some amazing artists to share their knowledge
+  during the day and we know the night social dancing party will be epic!
+
+  ---------------
+
+
+  SCHEDULE:
+
+
+  Saturday, November 16th
+
+
+  Workshops {12pm-3:00pm}
+
+  Lang House
+
+
+  12:00pm-12:50pm – Sensual Bachata Partnerwork (Beg/Int)  with Vanessa Benham of Indianapolis, IN
+
+  1:00pm-1:50pm – Bachata Hipology (Shines) (Int) with Jenna Monticciolo of Cleveland, OH
+
+  2:00pm-2:50pm – Salsa On2 Partnerwork (Beg/Int) with Watson Saintsulne of Philadelphia, PA
+
+
+  *Knowledge of basic timing and elements of Bachata / Salsa On2 required*
+
+  -----
+
+  Dance Social
+
+  8:00pm-1:00am
+
+  The Last Refuge: 600 E. Market St; Louisville, KY 40202
+
+  *upstairs sanctuay*
+
+
+  ---------------
+
+  Pricing:
+
+  Full Pass (30 available)
+
+
+  Early Bird $75 (through October 26th)
+
+  General Admission $95 (through November 16th)
+
+
+  Saturday Social Only: $20 at door (cash/Venmo)
+
+
+  --------------
+
+  Location:
+
+
+  Saturday Workshops:
+
+  Lang House: 115 S. Ewing Ave; Louisville, KY 40206
+
+
+  Saturday Social:
+
+  The Last Refuge: 600 E. Market St; Louisville, KY 40202
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729605655/gzqjkeqlpgqzsmro15ad.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJp3W8HaF0aYgRGjA120QZ23s
+international: No
+hash: 1731776400000+ChIJG46TGkRzaYgRhbJ208cSuFU
+id: SBonGpUhskkpB6huSPu0

@@ -1,0 +1,160 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Zenettistraße 7
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5592865302915
+      south: 48.12187676970851
+      north: 48.1245747302915
+      west: 11.5565885697085
+    location:
+      lng: 11.5577842
+      lat: 48.1231498
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Zenettistraße
+      long_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80337"
+      long_name: "80337"
+  place_id: ChIJEfAfvUXfnUcRTUGxsx1Hrd0
+  url: https://maps.google.com/?q=Zenettistra%C3%9Fe+7,+80337+M%C3%BCnchen,+Germany&ftid=0x479ddf45bd1ff011:0xddad471db3b1414d
+endDate: 1708870500000
+claimed: No
+description: >-
+  💫𝑩𝒂𝒄𝒉𝒂𝒕𝒂 𝑾𝒐𝒓𝒌𝒔𝒉𝒐𝒑✨️ 𝒘𝒊𝒕𝒉 𝑬𝒎𝒆𝒓𝒔𝒐𝒏 & 𝑨𝒏𝒏𝒂
+
+
+  𝑭𝒐𝒓 𝒂𝒍𝒓𝒆𝒂𝒅𝒚 𝒄𝒐𝒏𝒇𝒊𝒅𝒆𝒏𝒕 𝑩𝒂𝒄𝒉𝒂𝒕𝒂 𝒅𝒂𝒏𝒄𝒆𝒓𝒔 𝒘𝒉𝒐 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒂𝒄𝒒𝒖𝒊𝒓𝒆 𝒆𝒗𝒆𝒏 𝒎𝒐𝒓𝒆 𝒇𝒊𝒈𝒖𝒓𝒆 𝒊𝒏𝒔𝒑𝒊𝒓𝒂𝒕𝒊𝒐𝒏 𝒊𝒏 𝑩𝒂𝒄𝒉𝒂𝒕𝒂!
+
+
+  ❗️𝑹𝒆𝒈𝒊𝒔𝒕𝒓𝒂𝒕𝒊𝒐𝒏 𝒏𝒆𝒆𝒅𝒆𝒅
+
+  🔀 info@salsa-y-corazon.de
+
+
+  𝟐𝟒. - 𝟐𝟓.𝟎𝟐.𝟐𝟒 // 𝟏 𝒕𝒐 𝟑.𝟏𝟓 𝒑𝒎
+
+  𝟐 𝑫𝒂𝒚𝒔 / 𝟐.𝟐𝟓 𝒉 = 𝟖𝟓 €
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F78d0d4e1-6a5f-494b-b7db-a2dcfff1f4d1?alt=media&token=09be71fb-3431-4b6e-9569-7d2bb755dd56
+createdAt: 1708325059098
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    instagram: https://instagram.com/milite_anna
+    username: AnnaMil
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/emiyalara
+    name: Emerson Oliveira
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Femerson_aka_emi.png?generation=1655306777213556&alt=media
+    bio: |-
+      ✨ cuban salsa & Bachata ✨
+      💌 𝓑𝑜𝑜𝓀𝒾𝓃𝑔: 𝑒𝓂𝒾𝓎𝒶𝓁𝒶𝓇𝒶@𝓌𝑒𝒷.𝒹𝑒 💌
+      🗣: 🇧🇷🇵🇹🇪🇸🇬🇧🇩🇪
+    id: AU7O5bvoWv4b0A5mo2fp
+    instagram: https://instagram.com/emerson_aka_emi
+    username: emerson_aka_emi
+price: 85 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: ""
+artistsList:
+  - AnnaMil
+  - emerson_aka_emi
+international: No
+updatedAt: 1708325059098
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsa y Corazon
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftanzschule_salsa_y_corazon.png?generation=1655307183885546&alt=media
+  bio: |-
+    Salsa - Bachata - Kizomba - Standard/Latein 
+    Die Tanzschule in München  - Singles herzlich willkommen!
+  id: VNshyxohYMiHvS7XxiIw
+  instagram: https://instagram.com/tanzschule_salsa_y_corazon
+  username: tanzschule_salsa_y_corazon
+eventType: Workshop
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: "Bachata Special Workshop "
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1708776000000
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSph7Tj7TppzSyamWs7k5.png?generation=1708325077758023&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C3hQEHJO_Fy
+  publishedAt: 1708325252581
+  messageId: C3hQEHJO_Fy
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 7
+id: Sph7Tj7TppzSyamWs7k5

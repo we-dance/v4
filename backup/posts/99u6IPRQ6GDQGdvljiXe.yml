@@ -1,0 +1,76 @@
+venue:
+  formatted_address: Regensburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Regensburg
+      short_name: Regensburg
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Regensburg
+      short_name: R
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Upper Palatinate
+      short_name: Upper Palatinate
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bavaria
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+  url: https://maps.google.com/?q=Regensburg,+Germany&ftid=0x479fc19872222ef7:0x41d25a40937cb10
+  name: Regensburg
+  geometry:
+    viewport:
+      south: 48.96674574088944
+      north: 49.07641578501666
+      east: 12.19160773422882
+      west: 12.02907450271206
+    location:
+      lng: 12.1016236
+      lat: 49.0134297
+  place_id: ChIJ9y4icpjBn0cREMs3CaQlHQQ
+endDate: 2021-11-07T19:00:00.000Z
+link: http://www.salsacamp.de/index.html
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+createdAt: 1631881062615
+watchersCount: 0
+price: TICKETS
+commentsLast: ~
+place: ""
+id: 99u6IPRQ6GDQGdvljiXe
+views: 11
+updatedAt: 1631881062615
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+viewsCount: 11
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Uni Salsa Camp
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-11-05T18:00:00.000Z
+username: Promoter

@@ -1,0 +1,159 @@
+endDate: 1717027200000
+sourceUrl: https://www.facebook.com/events/1462407081057854
+createdAt: 1716300060787
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1716290316000
+updatedAt: 1716300060787
+importedAt: 1716300060787
+providerUpdatedAt: 1716290316000
+facebookId: "1462407081057854"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1462407081057854
+eventType: Party
+providerItemId: 10008915-1716940800-1717027199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Teréz körút 13, Budapest 1067, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716940800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Teréz krt. 13, 1067 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Teréz krt. 13
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0628354197085
+        lat: 47.5035585697085
+      northeast:
+        lng: 19.0655333802915
+        lat: 47.50625653029149
+    location:
+      lng: 19.0643026
+      lat: 47.50497319999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "13"
+      long_name: "13"
+    - types:
+        - route
+      short_name: Teréz krt.
+      long_name: Teréz körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VI. kerület
+      long_name: VI. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1067"
+      long_name: "1067"
+  place_id: ChIJM9N0Zm7cQUcRAXhqWs3xIBs
+  url: https://maps.google.com/?q=Budapest,+Ter%C3%A9z+krt.+13,+1067+Hungary&ftid=0x4741dc6e6674d333:0x1b20f1cd5a6a7801
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/goldance.hu
+  name: Goldance Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765535/j6g2t94ez9dcwwhyxpe5.jpg
+  bio: ""
+  id: HlitwjMCiA1XcYm118zE
+  instagram: ""
+  username: goldance.hu
+claimed: No
+facebook: https://www.facebook.com/events/1462407081057854/
+link: ""
+description: >-
+  Május 29-én szerdán érkezik szezonunk utolsó Bachata gyakoroló estje a
+  Goldance Tánciskolában az Oktogonon. 😎
+
+
+  Jöjjenek a romantikus dallamok a hét közepén, hogy utána újult erővel tudj visszatérni a mindennapi forgatagba. 😍
+
+  A legjobb gyakorlási lehetőség, bármikor igénybevehető tanári segítséggel. 💃
+
+
+
+  ⏰ IDŐPONT
+
+  2024. május 29 - szerda
+
+  21:45 – 0:45-ig
+
+
+
+  ✨ BELÉPŐ
+
+  Érvényes Goldance bérlettel: 1.300 Ft
+
+  Bérlet nélkül: 1.600 Ft
+
+
+  🛑 Létszámkorlát miatt érkezz időben.
+
+
+
+  🎶 Cím
+
+  VI. kerület, Teréz krt. 13.
+
+
+
+  Miért érdemes velünk tartanod?
+
+  💃 Több mint 3 óra tánc,
+
+  💃 Szuper zenék, csapatépítő Ruedák,
+
+  💃 Bármikor igénybe vehető tanári segítség,
+
+  💃 Központi elhelyezkedés, pont az Oktogon sarkán,
+
+  💃 Goldance-es tanárok, csoporttársak, ismerősök.
+
+  💃 Testet, s lelket üdítő, finom magyar ásványvíz.
+
+
+
+  web: www.goldance.hu
+
+  Médiapartnerünk a www.latinfo.hu
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716300117/qboemkxq68shhlttfh7s.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Bachata gyakorlóest az Oktogonon (24.05.29.) | Goldance Tánciskola
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1717011900000+ChIJM9N0Zm7cQUcRAXhqWs3xIBs
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlJOFhCrlqcaRDtoossX2.png?generation=1716300141733820&alt=media
+id: lJOFhCrlqcaRDtoossX2

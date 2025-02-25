@@ -1,0 +1,154 @@
+artists: []
+program: []
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+username: AnnaMil
+type: event
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+visibility: Public
+form: No
+online: No
+international: No
+claimed: No
+eventType: Course
+duration: 60
+price: 12,50
+styles:
+  SensualBachata:
+    selected: true
+    highlighted: false
+    level: Interested
+  BachataModerna:
+    selected: true
+    highlighted: false
+    level: Interested
+  Bachata:
+    selected: true
+    highlighted: false
+    level: Interested
+  DominicanBachata:
+    selected: true
+    highlighted: false
+    level: Interested
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F8d079ef3-013b-45cc-997a-8760f19e1db2?alt=media&token=2865da3e-c834-4a29-9ef9-e177f57b274c
+org:
+  username: AnnaMil
+coverSize: ""
+name: Bachata LadyStyling Class
+venue:
+  html_attributions: []
+  address_components:
+    - long_name: "8"
+      short_name: "8"
+      types:
+        - street_number
+    - long_name: Flößergasse
+      short_name: Flößergasse
+      types:
+        - route
+    - long_name: Sendling
+      short_name: Sendling
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "81369"
+      short_name: "81369"
+      types:
+        - postal_code
+  formatted_address: Flößergasse 8, 81369 München, Germany
+  geometry:
+    location:
+      lat: 48.104722
+      lng: 11.537758
+    viewport:
+      south: 48.1032923697085
+      west: 11.5365062197085
+      north: 48.1059903302915
+      east: 11.5392041802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 89 45213955
+  name: Silver-Stage
+  place_id: ChIJizZm7SzfnUcReEq64_fj2VQ
+  url: https://maps.google.com/?cid=6114168622949223032
+  website: http://www.silver-stage.de/
+  username: www.silver-stage.de
+recurrence:
+  freq: never
+  days: {}
+  untilDate: ""
+link: https://forms.gle/DreFxWY23mN8Q1og9
+description: >-
+  Ladies, it’s time to own the dance floor with confidence and elegance! 
+
+  Join our Bachata Ladystyling class and discover:
+
+
+  ✨ Graceful movements
+
+  ✨ Fierce body control
+
+  ✨ Sassy footwork
+
+  ✨ Confidence to shine—on / off the dance floor!
+
+
+  🌟 Let's sparkle together. Whether you're a beginner or looking to refine your style, this is YOUR time!
+
+
+  📌 Urban Sports Club, Wellpass, and Wellhub members welcome.
+
+
+  Tag your besties and let’s slay this journey together! 💃🔥
+seriesId: UXOSy5NsAPNpry4DKXki
+viewsCount: 1
+star:
+  list: {}
+  count: 0
+endDate: 1734026400000
+telegram: {}
+upVotes: 0
+instagram: {}
+downVotes: 0
+createdAt: 1732218115624
+checkin:
+  count: 0
+  list: {}
+children: []
+watch:
+  list: {}
+  count: 0
+commentsCount: 0
+socialCover: ""
+votes: 0
+artistsList: []
+id: UgAsr2gQ8U7hNUBCGHGN
+hash: 1734022800000+ChIJizZm7SzfnUcReEq64_fj2VQ
+startDate: 1734022800000
+updatedAt: 1732218457921
+promotion: ""

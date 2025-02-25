@@ -1,0 +1,39 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628529635525
+locales:
+  de: true
+createdBy: LpIRA3OeJMNEvfcd0Zzi286iVWS2
+name: uuofficial
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: uuofficial
+pwaUsed: false
+gender: Male
+bio: Urban Dance Artist
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FLpIRA3OeJMNEvfcd0Zzi286iVWS2%2F39a198a9-f304-4374-8f10-5e62b8e4ba3a?alt=media&token=c680c094-ae58-4ea3-b1ad-5a16c7d4a548
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  StreetDance:
+    level: Interested
+    highlighted: false
+    selected: true
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: Yes
+updatedAt: 1628529724081
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+partner: ""
+id: LpIRA3OeJMNEvfcd0Zzi286iVWS2
+lastLoginAt: 1628853176538
+daysUsed: 3
+instagram: https://instagram.com/uuofficial
+viewsCount: 4

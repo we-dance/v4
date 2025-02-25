@@ -1,0 +1,108 @@
+venue:
+  website: http://www.salsa-mas.de/
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  international_phone_number: +49 172 8216569
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+endDate: 2022-03-03T20:45
+claimed: No
+link: https://www.salsamas.de/de/course/details/339
+description: Im Rahmen dieses Kurses werden den Rhythmus, die Grundschritte und
+  die Basiselemente (Rechte Drehung, Open Break) von dem Tanz Salsa erklärt. Wir
+  empfehlen die Teilnahme für alle, die noch keinen Tanzkurs besucht haben. Drei
+  Monate lang werden in dem Kurs immer verschiedene Elemente gezeigt. Nach
+  Ablauf dieser Periode ist eine gute Basis für Eure Weiterentwicklung
+  aufgebaut. Einzelanmeldung möglich, bei Bedarf kann einen Tanzpartner oder
+  Tanzpartnerin zur Verfügung gestellt werden.
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F4d30888b-5714-4791-9842-693bb1b898e1?alt=media&token=551bb414-c101-45dd-b9ce-2ab5e5b081be
+duration: custom
+createdAt: 1646041841422
+artists: []
+price: "Einzelanmeldung: 79 € p. Person (4x 75 Min.) / Studenten: 69 €"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646041841422
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+name: Salsa Beginner I
+online: Yes
+styles:
+  SalsaLA:
+    level: Beginner
+    highlighted: false
+    selected: true
+startDate: 2022-03-03T19:30
+username: Salsamas_Munich
+watch:
+  count: 0
+  list: {}
+star:
+  count: 0
+  list: {}
+viewsCount: 2
+id: fdJLvZ9BoZifOjRdZT41

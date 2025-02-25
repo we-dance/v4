@@ -1,0 +1,121 @@
+updatedBy: 7vmMzeHYeXVtWo4KdVnqsU4lWN72
+visibility: Public
+claimed: No
+program: []
+eventType: Party
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7vmMzeHYeXVtWo4KdVnqsU4lWN72%2Fa74b4243-1b9a-4510-b5eb-6c81f823015a?alt=media&token=be6d3490-6b1b-4463-876b-3e025cfdfe0b
+createdAt: 1683866023030
+form: No
+artists: []
+createdBy: 7vmMzeHYeXVtWo4KdVnqsU4lWN72
+watch:
+  count: 1
+  list:
+    CopaCaribe: true
+name: 5 Jahre Copa Caribe mit 2 Konzerten (Salsa & Bachata)
+online: No
+artistsList: []
+international: No
+updatedAt: 1683866023030
+username: CopaCaribe
+endDate: 2023-05-14T03:00
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: CopaCaribe
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7vmMzeHYeXVtWo4KdVnqsU4lWN72%2Ffcb0afbd-ce82-4680-a222-46ffa8e1eeec?alt=media&token=b8a427f0-e08f-4a55-b7bb-ae2f9c46a6b8
+  bio: ""
+  id: 7vmMzeHYeXVtWo4KdVnqsU4lWN72
+  instagram: ""
+  username: CopaCaribe
+price: 15 EUR
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: oN7JW6brKtyD2hrjvzYa
+startDate: 2023-05-13T21:00
+description: >-
+  Dieses Wochenende ist es endlich sowei! Am Samstag, den 13.05.23 steigt unsere
+  große Jubiläumsfeier. Freut euch auf eine aufwändig dekorierte Location
+  sowie  Roman y sus Timberos (Salsa) & Tony Corazon (Bachata), die live bei uns
+  performen werden. In den Pausen sorgt unser allseits beliebter DJ Alpaca für
+  die passenden Salsa & Bachata Hits. 
+
+
+  Lasst euch einen Abend der Extraklasse nicht entgegen! Um Abendkleidung wird gebeten.
+
+
+  Facts:
+
+  Wo: Stadtbücherei, Ernst-Reuter-Platz, Augsburg
+
+  Wann: Sa, 13.05 von 21:00-03:00 Uhr (bei gutem Wetter ab 17 Uhr)
+
+  Eintritt: 15€
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+venue:
+  formatted_address: Ernst-Reuter-Platz, 86150 Augsburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Ernst-Reuter-Platz
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.8956872802915
+      south: 48.36769491970851
+      north: 48.3703928802915
+      west: 10.8929893197085
+    location:
+      lng: 10.8943383
+      lat: 48.3690439
+  address_components:
+    - types:
+        - route
+      short_name: Ernst-Reuter-Platz
+      long_name: Ernst-Reuter-Platz
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Augsburg-Innenstadt
+      long_name: Augsburg-Innenstadt
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86150"
+      long_name: "86150"
+  place_id: EitFcm5zdC1SZXV0ZXItUGxhdHosIDg2MTUwIEF1Z3NidXJnLCBHZXJtYW55Ii4qLAoUChIJi1VBkVG9nkcRdMzf5_55AM8SFAoSCSkrITrFop5HEaDni9etSB4E
+  url: https://maps.google.com/?q=Ernst-Reuter-Platz,+86150+Augsburg,+Germany&ftid=0x479ebd519141558b:0xcf0079fee7dfcc74
+viewsCount: 41

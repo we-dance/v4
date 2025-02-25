@@ -1,0 +1,72 @@
+name: OX Club Prague
+username: www.oxclubprague.com
+website: https://www.oxclubprague.com/
+phone: +420 606 824 005
+rooms: ""
+map: ""
+gender: Other
+address:
+  html_attributions: []
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: "75"
+      short_name: "75"
+      types:
+        - premise
+    - long_name: Francouzská
+      short_name: Francouzská
+      types:
+        - route
+    - long_name: Vinohrady
+      short_name: Vinohrady
+      types:
+        - neighborhood
+        - political
+    - long_name: Praha 2
+      short_name: Praha 2
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Hlavní město Praha
+      short_name: Hlavní město Praha
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Czechia
+      short_name: CZ
+      types:
+        - country
+        - political
+    - long_name: 120 00
+      short_name: 120 00
+      types:
+        - postal_code
+  formatted_address: Francouzská 75/4, 120 00 Praha 2-Vinohrady, Czechia
+  geometry:
+    location:
+      lat: 50.07448289999999
+      lng: 14.4377882
+    viewport:
+      south: 50.07319481970849
+      west: 14.4365014197085
+      north: 50.07589278029149
+      east: 14.43919938029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  international_phone_number: +420 606 824 005
+  name: OX Club Prague
+  place_id: ChIJ16701LWVC0cR-Fl5rtkFzxA
+  url: https://maps.google.com/?cid=1211193257279183352
+  website: https://www.oxclubprague.com/
+type: Venue
+createdAt: 1729782447019
+updateAt: 1729782447019
+id: CjTActL6L4bDuKYHBjRh

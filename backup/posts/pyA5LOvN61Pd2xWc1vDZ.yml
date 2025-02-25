@@ -1,0 +1,157 @@
+venue:
+  website: https://www.the-cave-munich.de/
+  formatted_address: Nikolaistraße 9a, 80802 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 9a
+      short_name: 9a
+    - types:
+        - route
+      long_name: Nikolaistraße
+      short_name: Nikolaistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwabing-Freimann
+      short_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80802"
+      short_name: "80802"
+  url: https://maps.google.com/?cid=17004707111847379493
+  name: The Cave
+  geometry:
+    viewport:
+      south: 48.1576363697085
+      north: 48.1603343302915
+      east: 11.5878519802915
+      west: 11.5851540197085
+    location:
+      lng: 11.5865372
+      lat: 48.1590374
+  place_id: ChIJqx29PBh1nkcRJcI4_wXb_Os
+  international_phone_number: +49 89 38898956
+endDate: 2021-10-10T03:00:00.000Z
+description: >-
+  ## **BLACK MARA**
+
+
+  PRÄSENTIERT
+
+
+  ## ORIENT REGGAETON
+
+  mit **DJ HUMAN**
+
+
+  the GODFATHER of Persian Dj‘s.
+
+
+  Dj Human / Köln / Dubai 
+
+
+  Instagram: dj_human
+
+
+  Für das musikalische Erlebnis wird an den Turntables niemand geringeres als DJ Human stehen, der regelmäßig unter anderem in Dubai, London, Kopenhagen, Oslo, Hamburg, Berlin auflegt.
+
+
+  Musik: Dance, House, R&B, Oriental House und **Orient Reggaeton**
+
+
+  Es ist uns eine große Ehre Sie in unserer bescheidenen Welt empfangen zu dürfen.
+
+
+  Einlass um 20:00 Uhr.
+
+  (Essen von 20:00 – 23:00 Uhr)
+
+
+  >DJ MELA von 20:30 – 22:00.
+
+
+  >DJ HUMAN ab 22:00 – Open-End.
+
+
+  Ticketpreis 15,- Euro
+
+
+  Wir freuen uns auf euch. 
+
+
+  Black Mara
+
+
+  (Einlass nach geltenden 3G plus Regeln d.h. Ungeimpfte nur mit gültigem PCR Test)
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FuZ1VEvLP7bP7ryCIyMFyuUDWm7n1%2Fd7a12823-3a54-4132-8158-ed02ffa3d24f?alt=media&token=8dca6b28-008c-46a2-aba9-e0adecbe699d
+duration: custom
+promo: Yes
+createdAt: 1633459299168
+watchersCount: 0
+price: 15 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpyA5LOvN61Pd2xWc1vDZ.png?generation=1633511835230494&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: pyA5LOvN61Pd2xWc1vDZ
+views: 9
+updatedAt: 1633459299168
+updatedBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+visibility: Public
+eventType: Party
+organiser: MiMe72
+form: No
+createdBy: uZ1VEvLP7bP7ryCIyMFyuUDWm7n1
+commentsCount: 0
+name: ORIENT REGGAETON
+online: No
+styles:
+  Commercial:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-09T18:00:00.000Z
+username: MiMe72
+viewsCount: 14

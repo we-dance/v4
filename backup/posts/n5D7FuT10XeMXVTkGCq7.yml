@@ -1,0 +1,182 @@
+venue:
+  website: http://www.furtner-freising.de/
+  formatted_address: Ob. Hauptstraße 42, 85354 Freising, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Furtnerbräu
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.7417946302915
+      south: 48.3977838697085
+      north: 48.4004818302915
+      west: 11.7390966697085
+    location:
+      lng: 11.7403948
+      lat: 48.3991692
+  address_components:
+    - types:
+        - street_number
+      short_name: "42"
+      long_name: "42"
+    - types:
+        - route
+      short_name: Ob. Hauptstraße
+      long_name: Obere Hauptstraße
+    - types:
+        - locality
+        - political
+      short_name: Freising
+      long_name: Freising
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: FS
+      long_name: Freising
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85354"
+      long_name: "85354"
+  url: https://maps.google.com/?cid=12401155630141359212
+  international_phone_number: +49 176 56835411
+  place_id: ChIJz1tkiyBrnkcRbETpalfBGaw
+endDate: 2023-10-21T01:30
+claimed: No
+link: https://facebook.com/events/s/salsa-bachata-latin-abend/687310836610671/
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDzxaQ89yYASZwZ4rxqZ9iCOD1yC3%2F57500b7b-72d3-4219-9f70-eb37685a85f2?alt=media&token=dbf3372b-9e84-4aba-b729-8e670ac5db80
+duration: 60
+createdAt: 1697232219578
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/MunichMaxUrbanKizSalsa
+    name: MunichMax
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDzxaQ89yYASZwZ4rxqZ9iCOD1yC3%2F2cdfac4b-f5d1-4de4-ad75-5b1fe66154ad?alt=media&token=b02fed5c-72f5-492a-8254-f2a7f3f542a6
+    bio: Music is the Key and Dance is the way!
+    instagram: https://instagram.com/munichmax
+    id: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+    username: MunichMax
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: djbeatmax
+    bio: ""
+    photo: ""
+    instagram: https://instagram.com/djbeatmax
+    id: KFnlOepvcUiWyT7aH6XM
+    username: djbeatmax
+price: 5 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - MunichMax
+  - djbeatmax
+international: No
+updatedAt: 1697232219578
+updatedBy: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MunichMaxUrbanKizSalsa
+  name: MunichMax
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDzxaQ89yYASZwZ4rxqZ9iCOD1yC3%2F2cdfac4b-f5d1-4de4-ad75-5b1fe66154ad?alt=media&token=b02fed5c-72f5-492a-8254-f2a7f3f542a6
+  bio: Music is the Key and Dance is the way!
+  id: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+  instagram: https://instagram.com/munichmax
+  username: MunichMax
+facebook: https://facebook.com/events/s/salsa-bachata-latin-abend/687310836610671/
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    MunichMax: true
+createdBy: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+name: Salsa, Bachata Party @Furtner, Freising
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-10-20T19:00
+username: MunichMax
+star:
+  count: 1
+  usernames:
+    - MunichMax
+  list:
+    MunichMax: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fn5D7FuT10XeMXVTkGCq7.png?generation=1697232256571807&alt=media
+id: n5D7FuT10XeMXVTkGCq7
+program:
+  - artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/MunichMaxUrbanKizSalsa
+        name: MunichMax
+        bio: Music is the Key and Dance is the way!
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDzxaQ89yYASZwZ4rxqZ9iCOD1yC3%2F2cdfac4b-f5d1-4de4-ad75-5b1fe66154ad?alt=media&token=b02fed5c-72f5-492a-8254-f2a7f3f542a6
+        instagram: https://instagram.com/munichmax
+        id: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+        username: MunichMax
+    endDate: 2023-10-20T20:00
+    name: Bachata
+    description: Bachata Workshop for Beginners with Basic add. 10€
+    eventType: Workshop
+    startDate: 2023-10-20T19:00
+  - endDate: 2023-10-20T20:30
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: https://facebook.com/MunichMaxUrbanKizSalsa
+        name: MunichMax
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDzxaQ89yYASZwZ4rxqZ9iCOD1yC3%2F2cdfac4b-f5d1-4de4-ad75-5b1fe66154ad?alt=media&token=b02fed5c-72f5-492a-8254-f2a7f3f542a6
+        bio: Music is the Key and Dance is the way!
+        instagram: https://instagram.com/munichmax
+        id: DzxaQ89yYASZwZ4rxqZ9iCOD1yC3
+        username: MunichMax
+    name: Schnupperkurs
+    eventType: Course
+    startDate: 2023-10-20T20:00
+  - endDate: 2023-10-21T01:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: djbeatmax
+        photo: ""
+        bio: ""
+        id: KFnlOepvcUiWyT7aH6XM
+        instagram: https://instagram.com/djbeatmax
+        username: djbeatmax
+    eventType: Party
+    startDate: 2023-10-20T20:30
+telegram:
+  requestedAt: 1697233446147
+  messageUrl: https://t.me/WeDanceMunich/1173
+  publishedAt: 1697233448974
+  messageId: 1173
+  state: published
+instagram:
+  requestedAt: 1697233454684
+  messageUrl: https://instagram.com/p/CyWsKxvpas-
+  publishedAt: 1697233468684
+  messageId: CyWsKxvpas-
+  state: published
+viewsCount: 25

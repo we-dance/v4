@@ -1,0 +1,168 @@
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+claimed: No
+description: |-
+  [ENG bellow]
+
+  Speciální Úterní party v Two Faces
+  Pozvaný Dj Lole z Prahy poprvé v Brně
+
+  Hrát se bude Bachata , Salsa , Merengue , Kizomba
+
+  Můžete se těšit :
+
+  Skvělá Hudba 🎧🎚
+  tentokrát bude i více Salsy
+  Dobře zásobení Bar 🍷
+  Známe prostory Two Faces 🪩
+
+  Vstupné 50 Kč
+
+  Těšíme se na vás 💃❤️
+
+  ---------------------------------------
+
+  Special Tuesday Party at Two Faces
+  Invited DJ Lole from Prague for the first time in Brno
+
+  Bachata, Salsa, Merengue, Kizomba will be played
+
+  You can look forward to :
+
+  Great Music 🎧🎚
+  this time there will be even more Salsa
+  Well stocked Bar 🍷
+  We know the premises of Two Faces 🪩
+
+  Entrance fee 50 CZK
+
+  We look forward to seeing you 💃❤️
+program: []
+eventType: Party
+type: event
+duration: 60
+createdAt: 1680959335053
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Latino Sensual Night Dj Lole vs Dj Patricio
+online: No
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1680959335053
+username: DjLole
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F3205c08b-f762-4974-aa67-f14e2e05108b?alt=media&token=edb32587-32ef-4756-b175-2cd5ea6ac0de
+venue:
+  formatted_address: 1, Biskupská 283, 602 00 Brno-střed, Czechia
+  website: https://www.facebook.com/twofacesbrno/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: TWO FACES music club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.6074563302915
+      south: 49.1906740197085
+      north: 49.1933719802915
+      west: 16.6047583697085
+    location:
+      lng: 16.6059503
+      lat: 49.1921237
+  address_components:
+    - types:
+        - street_number
+      short_name: "283"
+      long_name: "283"
+    - types:
+        - route
+      short_name: Biskupská
+      long_name: Biskupská
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Brno-střed
+      long_name: Brno-střed
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Brno-město
+      long_name: Brno-město
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihomoravský kraj
+      long_name: Jihomoravský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 602 00
+      long_name: 602 00
+  international_phone_number: +420 775 960 930
+  place_id: ChIJ352ZRFGUEkcROY8TUBvcixU
+  url: https://maps.google.com/?cid=1552576506424954681
+endDate: 2023-04-11T23:55
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/patrik.lunak
+    name: patrik.lunak
+    photo: ""
+    bio: ""
+    id: MzBhZv6P6K9vdiues09z
+    instagram: ""
+    username: patrik.lunak
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+org:
+  role: organiser
+  facebook: https://facebook.com/patrik.lunak
+  username: patrik.lunak
+price: 50 CZK
+facebook: https://www.facebook.com/events/734367181807032
+link: https://www.facebook.com/events/734367181807032
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList:
+  - patrik.lunak
+  - DjLole
+id: QhATa82g1K6VBfyNHjxw
+startDate: 2023-04-11T20:00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQhATa82g1K6VBfyNHjxw.png?generation=1680959555221356&alt=media
+telegram:
+  requestedAt: 1680959608878
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/283
+  publishedAt: 1680959612572
+  messageId: 283
+  state: published
+viewsCount: 49

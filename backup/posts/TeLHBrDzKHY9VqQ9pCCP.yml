@@ -1,0 +1,140 @@
+endDate: 1740942000000
+sourceUrl: https://www.facebook.com/events/378515164957598/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709805361000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725787412000
+facebookId: "378515164957598"
+facebook: https://www.facebook.com/events/378515164957598/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/378515164957598/
+eventType: Congress
+providerItemId: e378515164957598@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: WORLD LATÍN CONGRESS 25
+location: Hotel Beatriz Toledo Auditorium & SPA
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1740650400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: C. de los Concilios, s/n, 45005 Toledo, Spain
+  website: https://www.beatrizhoteles.com/es/hotel-beatriz-toledo-auditorium-spa-en-toledo/?partner=5119
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Beatriz Toledo Auditorium & Spa
+  geometry:
+    viewport:
+      southwest:
+        lng: -4.043082630291503
+        lat: 39.8764336697085
+      northeast:
+        lng: -4.040384669708499
+        lat: 39.8791316302915
+    location:
+      lng: -4.0418347
+      lat: 39.87772659999999
+  address_components:
+    - types:
+        - street_number
+      short_name: s/n
+      long_name: s/n
+    - types:
+        - route
+      short_name: C. de los Concilios
+      long_name: Calle de los Concilios
+    - types:
+        - locality
+        - political
+      short_name: Toledo
+      long_name: Toledo
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: TO
+      long_name: Toledo
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CM
+      long_name: Castilla-La Mancha
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "45005"
+      long_name: "45005"
+  international_phone_number: +34 925 26 91 00
+  place_id: ChIJxYEnq-UKag0Rbpq9YejYknY
+  url: https://maps.google.com/?cid=8544129935659080302
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Sbk-Europe/100083255276338/
+  name: Sbk Europe
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954226/jk6fzups0hrxipgjyp4a.jpg
+  bio: ""
+  id: uiI4e3j7f7JJ2mvUr9wh
+  instagram: ""
+  username: SbkEurope
+claimed: No
+link: https://lasalsadelbaile.com/worldlatincongress?ref=SBK
+description: >-
+  🛒  https://lasalsadelbaile.com/worldlatincongress?ref=SBK
+
+  🔐PROMOCODE 5€: SBK
+
+
+  🚨🚨 🇪🇸SUBIDA DE PRECIO/ 🇬🇧RISING PRICE/ 🇫🇷LE PRIX AUGMENTE / 🇨🇳价格上涨 +10€‼️‼️➡️ 05/10/24
+
+
+  Sin gastos web, escribir por privado @sbkeurope 💬💬💬
+
+
+  🇬🇧We have already activated WLC tickets for 2025!!
+
+
+  🛒
+
+  https://lasalsadelbaile.com/worldlatincongress?ref=SBK
+
+
+  🇫🇷
+
+
+  https://lasalsadelbaile.com/worldlatincongress?ref=SBK
+
+
+  # bachataistakingover #bachata #bachateros #bachatadancing #bachatachallenge #bachatafusion #bachatadance #bachatadancers #bachataspain. #bachatacongress  #bachatasensual #bachataysalsa #bachataurbana #sbkeurope #princeroyce #bachatadominicana #bachatabrusselsevents 
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJeU4e_C2HO4gRRcM6RZ_IPHw
+international: No
+hash: 1740650400000+ChIJxYEnq-UKag0Rbpq9YejYknY
+id: TeLHBrDzKHY9VqQ9pCCP

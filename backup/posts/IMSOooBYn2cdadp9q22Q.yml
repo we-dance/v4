@@ -1,0 +1,134 @@
+endDate: 1728781200000
+sourceUrl: https://www.facebook.com/events/1153153835785734/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1727070170000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727070170000
+facebookId: "1153153835785734"
+facebook: https://www.facebook.com/events/1153153835785734/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1153153835785734/
+eventType: Party
+providerItemId: e1153153835785734@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Candela - Salsa- und Latinoparty in der Pumpe
+location: Die Pumpe
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728759600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Haßstraße 22, 24103 Kiel, Germany
+  website: http://www.diepumpe.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The pump e.V.
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.1368312197085
+        lat: 54.3231113697085
+      northeast:
+        lng: 10.1395291802915
+        lat: 54.3258093302915
+    location:
+      lng: 10.1383055
+      lat: 54.3245005
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Haßstraße
+      long_name: Haßstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: KI
+      long_name: Kiel
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kiel
+      long_name: Kiel
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SH
+      long_name: Schleswig-Holstein
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "24103"
+      long_name: "24103"
+  international_phone_number: +49 431 2007640
+  place_id: ChIJ71YsFF1WskcRG5OMNSq-Kmk
+  url: https://maps.google.com/?cid=7578078411500589851
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsaammeer
+  name: Salsa am Meer
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707432026/huy6376ur3cqqqfaw5lr.jpg
+  bio: ""
+  id: ptThDAqXPie6QweLka5G
+  instagram: ""
+  username: salsa.am.meer
+claimed: No
+link: ""
+description: >
+  Aktuellste Salsa, Timba, Bachata und Reggaeton - Schnupperkurse für kubanische
+  Salsa und Bachata von 21.00 - 22.00 Uhr - danach startet die Party. Erlebe
+  karibische Lebensfreude pur! 
+
+
+  Eintritt 8,- Euro 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418007/yr6swvvp1jpuubh7o3xs.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+international: No
+hash: 1728759600000+ChIJ71YsFF1WskcRG5OMNSq-Kmk
+id: IMSOooBYn2cdadp9q22Q

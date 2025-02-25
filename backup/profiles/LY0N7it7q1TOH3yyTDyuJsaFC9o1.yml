@@ -1,0 +1,28 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdBy: LY0N7it7q1TOH3yyTDyuJsaFC9o1
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+pwaUsed: false
+createdAt: 1631261639324
+name: "Dimitar "
+username: dimitxx
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FLY0N7it7q1TOH3yyTDyuJsaFC9o1%2F6c5b2f49-bce5-4976-8751-21db380953b9?alt=media&token=a44e0af1-2a08-4454-93f1-631500b3bb4e
+step: photo
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+  ChIJ9Xsxy4KGqkARYF6_aRKgAAQ: true
+updatedAt: 1631262090321
+locales:
+  de: true
+  bg: true
+  en: true
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: ""
+daysUsed: 2
+lastLoginAt: 1631963202120
+id: LY0N7it7q1TOH3yyTDyuJsaFC9o1

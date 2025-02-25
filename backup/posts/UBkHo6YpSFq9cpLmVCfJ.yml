@@ -1,0 +1,139 @@
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+endDate:
+  _seconds: 1646680800
+  _nanoseconds: 0
+claimed: No
+link: https://salsamas.de/de/register/index
+description: >-
+  Anfänger Tanzkurs am Montag im Salsamás
+
+  07.03.2022
+
+  14.03.2022
+
+  21.03.2022
+
+  28.03.2022
+
+
+  Kursgebühr: 
+
+  Einzelanmeldung: 89 € p. Person (4x 90 Min.) / Studenten: 79 €
+
+  Paaranmeldung:   79 € p. Person (4x 75 Min.) / Studenten: 69 € p. Person
+
+  10er-Karte: 219 € / Studenten: 199 € p. Person
+
+
+  Anmeldung auch per E-Mail oder telefonisch möglich unter:
+
+  Tel.: 0172/ 82 165 69
+
+  E-Mail: info@salsa-mas.de
+
+
+
+  2G+ in den Studios Salsamás
+
+
+  Aktuell gilt in den Studios Salsamás die 2G+ Regel. Das bedeutet: ihr seid entweder vollständig geimpft oder vollständig genesen und habt einen tagesaktuellen Schnelltest aus der Apotheke oder dem Testzentrum
+eventType: Course
+type: event
+duration: "90"
+cover: ""
+createdAt: 1644146972997
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+price: 79-89 EUR für 4x90 Min
+name: " Bachata Sensual 1"
+styles:
+  SensualBachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+startDate: 2022-03-07T18:50
+updatedAt: 1644146972997
+username: Vitali
+artists:
+  - youtube: ""
+    role: instructor
+    facebook: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fea862ce6-c4ca-48be-b269-59c415a30dc7?alt=media&token=4d4f1c09-2dd4-4e7f-aff4-98c21cf81ed1
+    bio: ""
+    instagram: pablo_de_queiroz_salsamas
+    tiktok: ""
+    name: Pablo De Queiroz
+    id: Gg9bygHaz0NBcUy0NLyz
+    username: pablo_de_queiroz_salsamas
+org:
+  role: organiser
+  instagram: salsamasmunich
+  username: salsamasmunich
+id: UBkHo6YpSFq9cpLmVCfJ
+venue:
+  website: http://www.salsa-mas.de/
+  formatted_address: Arcisstraße 36, 80799 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "36"
+      short_name: "36"
+    - types:
+        - route
+      long_name: Arcisstraße
+      short_name: Arcisstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80799"
+      short_name: "80799"
+  url: https://maps.google.com/?cid=14828533240557582994
+  name: Salsamás Munich - The dance school in Munich
+  geometry:
+    viewport:
+      south: 48.1497999697085
+      north: 48.1524979302915
+      east: 11.5717378302915
+      west: 11.5690398697085
+    location:
+      lng: 11.570488
+      lat: 48.1511996
+  international_phone_number: +49 172 8216569
+  place_id: ChIJuSNd2Oh1nkcRkrqB12qIyc0
+online: No
+viewsCount: 10

@@ -1,0 +1,144 @@
+endDate: 1716681600000
+sourceUrl: https://www.facebook.com/events/429480799533060/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1709026412000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710142978000
+facebookId: "429480799533060"
+facebook: https://www.facebook.com/events/429480799533060/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/429480799533060/
+eventType: Party
+providerItemId: e429480799533060@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Workshops mit Tony Pirata & Daniel Schauenburg
+location: Freiraum Studios
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716634800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Nadorster Str. 60, 26123 Oldenburg, Germany
+  website: http://www.freiraumstudios.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Freiraum Studios
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.216000319708497
+        lat: 53.1499243197085
+      northeast:
+        lng: 8.218698280291502
+        lat: 53.1526222802915
+    location:
+      lng: 8.2174745
+      lat: 53.1512411
+  address_components:
+    - types:
+        - street_number
+      short_name: "60"
+      long_name: "60"
+    - types:
+        - route
+      short_name: Nadorster Str.
+      long_name: Nadorster Straße
+    - types:
+        - locality
+        - political
+      short_name: Oldenburg
+      long_name: Oldenburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Oldenburg
+      long_name: Kreisfreie Stadt Oldenburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "26123"
+      long_name: "26123"
+  international_phone_number: +49 1512 8825559
+  place_id: ChIJS6V4O_7etkcR2Od0uh14TNc
+  url: https://maps.google.com/?cid=15513906885462124504
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid02AmMzTBc7prnZki9VuT7CXrqwjKb7cc1qQzeTZnrwh84bbWZKYNQJ1WT8ZCXwd416l
+  name: Delja Nagieva
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224682/mcgyoq2ztwze9zl4h2it.jpg
+  bio: ""
+  id: 2QRnwiaBey0TD32UPXTY
+  instagram: ""
+  username: delja.nagieva
+claimed: No
+link: ""
+description: >
+  Fullpass Tickets hier 
+
+  https://www.eventbrite.com/e/workshop-mit-tony-pirata-daniel-schauenburg-tickets-851349648717?aff=oddtdtcreator
+
+
+  Couple Pass 100 €
+
+
+  Die perfekte Gelegenheit Tony Pirata & Daniel Schauenburg live zu erleben und von den beiden Top Lehrern zu lernen. 
+
+  In eine tollen Atmosphäre finden 4x2 Stündige Workshops statt
+
+  😍 13 - 15 Uhr -  Uhr Workshop mit Daniel Schauenburg - Urbankiz (open Leven)
+
+  😍 15-17 Uhr - Kizomba mit Tony Pirata (open Level)
+
+  😍 18-20 Uhr Workshop mit Daniel Schauenburg - Urbankiz (Fortgeschrittene)
+
+  😍 20-22 Uhr -  Kizomba mit Tony Pirata (Fortgeschrittene) 
+
+
+  Im Anschluss findet die Party auf 2 floors statt mit:
+
+  🎧DJ Eddy Santos aus UK - Kizomba 
+
+  🎧DJ Saul aus München - Urbankiz 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224691/ubfbhpqhujlubvop0gen.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJs2m2tVPetkcRZUiFrRvLHO0
+international: No
+hash: 1716634800000+ChIJS6V4O_7etkcR2Od0uh14TNc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FN6kyK7NpaSkUZ3ZO6IF9.png?generation=1711224715677154&alt=media
+promotionError: No instagram found near "ChIJs2m2tVPetkcRZUiFrRvLHO0"
+promotion: failed
+viewsCount: 3
+id: N6kyK7NpaSkUZ3ZO6IF9

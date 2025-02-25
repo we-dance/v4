@@ -1,0 +1,148 @@
+endDate: 1724968800000
+sourceUrl: https://www.facebook.com/events/1014841063614780
+createdAt: 1724767228004
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1724747575000
+updatedAt: 1724767228004
+importedAt: 1724767228004
+providerUpdatedAt: 1724747601000
+facebookId: "1014841063614780"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1014841063614780
+eventType: Party
+providerItemId: 47907-1724958000-1724968800@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Vigadó tér, Vigadó tér, Budapest, 1051, Magyarország
+startDate: 1724958000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Vigadó tér 2, 1051 Hungary
+  website: https://vigado.hu/megkozelithetoseg
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Vigadó tér
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0478079697085
+        lat: 47.49415816970851
+      northeast:
+        lng: 19.0505059302915
+        lat: 47.4968561302915
+    location:
+      lng: 19.0488667
+      lat: 47.49564170000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Vigadó tér
+      long_name: Vigadó tér
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1051"
+      long_name: "1051"
+  place_id: ChIJZ9B4YD_cQUcROGrLCSK0xOE
+  url: https://maps.google.com/?cid=16268325812255287864
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Fusion-Party/61558762318768/
+  name: Fusion Party
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557719/yjfnm6gnknnggricihjd.jpg
+  bio: ""
+  id: 7SUPv6gaLX9Zemycnh3q
+  instagram: ""
+  username: FusionParty
+claimed: No
+facebook: https://www.facebook.com/events/1014841063614780/
+link: ""
+description: >-
+  A FUSION Party-sorozat beltéren 4 teremben, 4 műfajban, élőzenével és a
+  legnépszerűbb közreműködőkkel, DJ-kkel, oktatókkal ősszel újraindul:
+
+  👉👉👉 FUSION OPENING PARTY: 09.20. BROADWAY
+
+
+  😍😍😍 Addig is mindegyik műfajban várunk Titeket szabadtéren INGYENES  partykon: Cuban Salsa I Bachata I Urban Kiz I Crossbody
+
+
+  Első ízben tehát Cuban Salsa termünket visszük az utcára. Ahogyan ősszel több ízben, most is élőzenére táncolhattok tehát, és további populáris és autentikus salsa zenékre a teljes táncélményért. 
+
+
+  🤩🤩🤩 FUSION Promo Party - CUBAN SALSA @ Yulaysi Miranda - OPEN-AIR: Duna korzó/Vígadó tér
+
+
+  19.00-20.00 és 21.00-22.00 DJ Victor: popular cuban vegyítve autentikus számokkal
+
+  20.00-21.00 Yulaysi Miranda fellépése
+
+
+  HELYSZÍN: a Duna korzó és a Vígadó tér találkozásánál a Budapest Marriott Hotel mellett
+
+
+  📸📸📸 MÉDIA: Az eseményen kép és videó felvétel készülhet, ami a közösségi oldalakra kerül feltöltésre (Facebook, youtube). Az eseményen való részvétellel a fentieket az ott jelenlevő személyek elfogadják. Így szuper képekkel idézheted fel az est legnagyszerűbb pillanatait!
+
+
+  👫👫👫 Megosztásra és ismerőseid meghívásra ezúton buzdítunk, legyetek részesei egy egészen emelkedett és egyben közvetlen hangulatú Party-sorozatnak, Táncos Barátaid bevonásától pedig éppen a Te bulid lesz még pezsgőbb!
+
+
+  🧡🧡🧡 Szeretettel várunk Mindenkit!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724767241/ovo8mxzyorax19yzz8oh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "FUSION Promo Party - CUBAN SALSA @ Yulaysi Miranda - OPEN-AIR: Duna
+  korzó/Vígadó tér"
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1724950800000+ChIJZ9B4YD_cQUcROGrLCSK0xOE
+id: oxebcP8CtTZUJto0X87d

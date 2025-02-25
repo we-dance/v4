@@ -1,0 +1,139 @@
+venue:
+  formatted_address: Gottfried-Schäffer-Straße 12, 94032 Passau, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Gottfried-Schäffer-Straße 12
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4644619302915
+      south: 48.57177951970851
+      north: 48.57447748029151
+      west: 13.4617639697085
+    location:
+      lng: 13.46304
+      lat: 48.57318000000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Gottfried-Schäffer-Straße
+      long_name: Gottfried-Schäffer-Straße
+    - types:
+        - locality
+        - political
+      short_name: PA
+      long_name: Passau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Passau
+      long_name: Kreisfreie Stadt Passau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Niederbayern
+      long_name: Niederbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "94032"
+      long_name: "94032"
+  url: https://maps.google.com/?q=Gottfried-Sch%C3%A4ffer-Stra%C3%9Fe+12,+94032+Passau,+Germany&ftid=0x477458a98bd24783:0x9dae47cc23ee2bef
+  place_id: ChIJg0fSi6lYdEcR7yvuI8xHrp0
+endDate: 2023-03-03T02:00
+claimed: No
+link: https://www.instagram.com/elpapachodj/
+description: falls du einen entspannenden Latino Abend genießen willst, komm
+  einfach vorbei und relax dich…
+program: []
+type: event
+duration: 60
+createdAt: 1677190210653
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJZaCgQ3lYdEcRMK83CaQlHQQ
+international: No
+gallery: https://www.instagram.com/elpapachodj/
+updatedAt: 1677190210653
+updatedBy: ~
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/ElPapachoDJ
+  name: El Papacho DJ
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxVFXq4lPYzPhITIbk4BMDIoxR5J3%2F953fd625-ae4e-4fa5-84fd-8f070a8dc2f3?alt=media&token=3aefa61b-0e0a-4828-bdd2-f4b17453b7f4
+  bio: |
+    Latineando Deutschland mit El Papacho DJ
+  id: xVFXq4lPYzPhITIbk4BMDIoxR5J3
+  instagram: https://instagram.com/elpapachodj
+  username: ElPapachoDJ
+facebook: https://www.facebook.com/ElPapachoDJ/
+eventType: Party
+form: No
+createdBy: ~
+name: 𝗟𝗮𝘁𝗶𝗻 𝗟𝗼𝘂𝗻𝗴𝗲 𝐦𝗶𝘁 𝗘𝗹 𝗣𝗮𝗽𝗮𝗰𝗵𝗼 𝗗𝗝❗❗❗
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Champeta:
+    level: Interested
+    highlighted: false
+    selected: true
+  FunkCarioca:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  ChaChaCha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-03-02T21:00
+username: ElPapachoDJ
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxVFXq4lPYzPhITIbk4BMDIoxR5J3%2F6dd7dd44-c7f6-412a-9d99-5ee09491f0ec?alt=media&token=dc48628c-2716-4df4-afd0-561418e8c10a
+id: TZHFLj3gKsW1uFnPkY9m
+watch:
+  count: 1
+  list:
+    ElPapachoDJ: true
+viewsCount: 71

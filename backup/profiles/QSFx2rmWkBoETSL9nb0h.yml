@@ -1,0 +1,62 @@
+owner: ""
+createdAt: 1712044976578
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+instagram: https://instagram.com/supersalseros
+username: supersalseros
+importError: ""
+website: http://linktr.ee/supersalseros
+importedAt: 1712044986530
+import: success
+photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fsupersalseros.png?generation=1712044986137761&alt=media
+source: instagram
+place: ChIJb7Dv8ExPYA0ROR1_HwFRo7Q
+type: Organiser
+watch:
+  count: 1
+  usernames:
+    - Viacheslav
+  history:
+    - username: Viacheslav
+      date: 1712078775565
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: Aina
+      date: 1713105729916
+      invitedBy: ""
+      uid: v0dfuvXmPJW4TN4wPS2KEo849WT2
+      action: joined
+    - username: Aina
+      date: 1713105731486
+      invitedBy: ""
+      uid: v0dfuvXmPJW4TN4wPS2KEo849WT2
+      action: left
+current: ChIJb7Dv8ExPYA0ROR1_HwFRo7Q
+hometown: ChIJb7Dv8ExPYA0ROR1_HwFRo7Q
+gender: Other
+id: QSFx2rmWkBoETSL9nb0h
+team: []
+name: Super Salseros
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+bio: Every Sunday. See Website.
+updatedAt: 1713544632982
+viewsCount: 11

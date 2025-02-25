@@ -1,0 +1,169 @@
+createdAt: 1704822900832
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/394937736193363/
+source: facebook
+updatedAt: 1704822900832
+username: wedancebot
+venue:
+  formatted_address: Strada Căpitan Alexandru Șerbănescu 87, București 013948, Romania
+  website: https://phoeniciahotels.ro/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Phoenicia Grand Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: 26.0861376197085
+        lat: 44.4900718697085
+      northeast:
+        lng: 26.0888355802915
+        lat: 44.4927698302915
+    location:
+      lng: 26.0874494
+      lat: 44.4912198
+  address_components:
+    - types:
+        - street_number
+      short_name: "87"
+      long_name: "87"
+    - types:
+        - route
+      short_name: Strada Căpitan Alexandru Șerbănescu
+      long_name: Strada Căpitan Alexandru Șerbănescu
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bucureşti Sectorul 1
+      long_name: Bucureşti Sectorul 1
+    - types:
+        - locality
+        - political
+      short_name: București
+      long_name: București
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Municipiul București
+      long_name: Municipiul București
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: București
+      long_name: București
+    - types:
+        - country
+        - political
+      short_name: RO
+      long_name: Romania
+    - types:
+        - postal_code
+      short_name: "013948"
+      long_name: "013948"
+  international_phone_number: +40 21 300 0888
+  place_id: ChIJ5XJlS18CskARiLRIc7O0cM8
+  url: https://maps.google.com/?cid=14947645846068966536
+visibility: Public
+endDate: 1731301200000
+org:
+  owner: ""
+  importedAt: 1704822903647
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/LIKEKIZOMBA
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/310272149_5283397051771277_9076701840459517409_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=111&ccb=1-7&_nc_sid=596444&_nc_ohc=YuvMSlMJu5IAX99ZXct&_nc_ht=scontent-iad3-2.xx&oh=00_AfA-4dtBO9GezjPD9yW_baZ-jDejFeCvbioxuWoJ_s9Fbg&oe=65A3639E
+  source: facebook
+  type: Organiser
+  createdAt: 1704822903647
+  owned: false
+  name: Like Kizomba - An Authentic Kizomba Festival
+  place: ChIJT608vzr5sUARKKacfOMyBqw
+  updatedAt: 1704822903647
+  username: LIKEKIZOMBA
+claimed: No
+facebookId: "394937736193363"
+link: ""
+description: >+
+  LIKE Romania is here to stay! After an amazing 2nd edition we're now getting
+  ready for the 3rd Edition of LIKE Romania. Join us
+
+
+  DATE: 8.11.2024 - 11.11.2024
+
+
+  VENUE: 
+
+  Phoenicia Grand Hotel ★★★★
+
+
+
+
+  Teachers Line up:
+
+  More info coming soon
+
+
+  Djs Line up:
+
+  More info coming soon
+
+
+  PRICES:
+
+  Single Full Pass*
+
+  Until:
+
+  Early Bird for 75€
+
+  Limited to 30 Passes
+
+
+  Couple Pass* (M/F):
+
+  Until:
+
+  Early Bird for 140€ (includes 2 passes)
+
+  Limited to 15
+
+
+  Special Packages (Room Plus Pass)
+
+  Info Coming Soon
+
+
+  To book these packages write us on likeromaniafestival@gmail.com
+
+  Full name & gender required for the registration.
+
+
+
+  *Full Pass Includes All Workshops, Afternoon social dance and night parties from 8th - 11th Nov 2024.
+
+
+  We will have a Pre-Party on Nov 7th and After Party on Nov 11th
+
+  More info coming on these.
+
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: LIKE Romania 2024
+online: No
+styles: {}
+place: ChIJT608vzr5sUARKKacfOMyBqw
+international: No
+hash: 1731088800000+ChIJ5XJlS18CskARiLRIc7O0cM8
+startDate: 1731088800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FAmQhOIP6zVnzDeTpYWts.png?generation=1704822911884828&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851726/q4tubtk4fx1yckvsu8gd.jpg
+viewsCount: 19
+id: AmQhOIP6zVnzDeTpYWts

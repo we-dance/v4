@@ -1,0 +1,120 @@
+endDate: 1722720600000
+sourceUrl: https://www.facebook.com/events/1545459996400694
+createdAt: 1722520829455
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1722519342000
+updatedAt: 1722520829455
+importedAt: 1722520829455
+providerUpdatedAt: 1722519342000
+facebookId: "1545459996400694"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1545459996400694
+eventType: Party
+providerItemId: 47629-1722711600-1722720600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Velence Korzó, Tópart utca 47, Velence, 2481, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722711600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Velence, Tópart u. 47, 2481 Hungary
+  website: http://velencekorzo.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  name: Velence Promenade Beach
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.6591747197085
+        lat: 47.23226911970852
+      northeast:
+        lng: 18.66187268029151
+        lat: 47.23496708029152
+    location:
+      lng: 18.6605237
+      lat: 47.23361810000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "47"
+      long_name: "47"
+    - types:
+        - route
+      short_name: Tópart u.
+      long_name: Tópart utca
+    - types:
+        - locality
+        - political
+      short_name: Velence
+      long_name: Velence
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "2481"
+      long_name: "2481"
+  international_phone_number: +36 30 974 2566
+  place_id: ChIJx54nSRwBakcR6pyNYPdJ5Eg
+  url: https://maps.google.com/?cid=5252404392246484202
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsaclubazucar
+  name: Salsa Club Azucar
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719842452/vy01t2byulzm2jdeh0hc.jpg
+  bio: ""
+  id: PRiXV8DcWvB35tq4vYaJ
+  instagram: ""
+  username: salsaclubazucar
+claimed: No
+facebook: https://www.facebook.com/events/1545459996400694/
+link: ""
+description: >-
+  ☀️☀️☀️ Szabadtéri BEACH SALSA & Bachata party a Velence Korzón a Salsa Club
+  Azucar és a Carmen Dance tánciskolával!⛱
+
+  💛2024. 08. 03 szombaton szeretettel várjuk a salsa, bachata táncok kedvelőit 19:00-21:30-ig tartandó szabadtéri bulira a Velence Korzó főterére a Velencei tó partjára!
+
+  A szabad tánc mellett vezetett ruedák is lesznek!🕺💃
+
+  📀Zene: Azucar (salsa és bachata mega slágerek)
+
+  🕺Rueda (Animáció): Papp Zoli & Évi
+
+  A buli ingyenes, de elfogadunk anyagi hozzájárulást, támogatást amiből az útiköltséget, hangtechnikát fedezni tudjuk, amit a helyszínen a Carmen Dance molinó elé kihelyezett sombrero kalapba tehettek.
+
+  Köszönjük a szervezők nevében! 🙏
+
+  ☀️ Érdemes a szép időt kihasználni mivel nem biztos, hogy a következő tervezett időpontban is jó idő lesz és a nyár nem hosszú ☝️
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722520851/szatnlpkjlobmirbg7yu.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 💃🏖️BEACH SALSA & Bachata party a Velence Korzón 🌴🕺
+online: No
+place: ChIJ9QGqll0AakcR0EseDCnEAAQ
+international: No
+hash: 1722704400000+ChIJx54nSRwBakcR6pyNYPdJ5Eg
+id: lHoJW5kRgpMYZEFAfPoe

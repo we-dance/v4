@@ -1,0 +1,148 @@
+endDate: 1719723600000
+sourceUrl: https://facebook.com/events/s/viva-by-meraki-june-tropical-b/3133421750127328/
+createdAt: 1717855222740
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1717822763000
+importedAt: 1717855222740
+providerUpdatedAt: 1717822763000
+facebookId: "3133421750127328"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/viva-by-meraki-june-tropical-b/3133421750127328/
+eventType: Party
+providerItemId: c8rjce1hc8om6b9j6oojeb9k64sjgb9o71h3ebb2clgj4o9nckp3achh60@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Viva! by Meraki - June Tropical Bash
+location: Dance Louisville
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719705600000
+facebookUrlsCount: 1
+username: yatusabes.blog
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1717855233274
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/merakidanceky
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717855233/epoy57mgeihbzt0xtjbe.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1717855233274
+  owned: false
+  name: Meraki Dance Company
+  place: ChIJEdVbsxoLaYgRMv1xICi009Q
+  updatedAt: 1717855233274
+  username: merakidanceky
+claimed: No
+facebook: https://www.facebook.com/events/3133421750127328/
+link: ""
+description: |-
+  Viva! by Meraki is back!!!
+
+  🌴🌺🍹Theme: Tropical Bash🌴🌺🍹
+  *wear all things TROPICAL*
+
+  🎶 Special Guest DJ Latin Spy from Indianapolis, Indiana 🎶
+
+  🌺Special Guest Performance by Mambo Magic Indianapolis🌺
+
+  Schedule:
+  🌴8:00pm Doors Open
+
+  🌴8:15pm-9:00pm Beginner Salsa On2 Class with Mambo Magic Indianapolis
+
+  🌴9:00pm-1:00am Open Dancing with DJ Latin Spy
+
+  🌴10:15pm Performance by Mambo Magic Indianapolis
+
+  -----
+
+  $15 cover (cash/venmo)
+
+  📍Location:
+  Dance Louisville: 8023 Catherine Ln; Louisville, KY 40222
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717855234/c8ov0eqr3naxbtobdiov.jpg
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJEdVbsxoLaYgRMv1xICi009Q
+international: No
+hash: 1719705600000+ChIJkeBSFWF1aYgROmRc2qMdsew
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfzPqwZlCMSOZtuIEApT5.png?generation=1717855251990480&alt=media
+viewsCount: 1
+duration: 300
+venue:
+  formatted_address: 8023 Catherine Ln, Louisville, KY 40222, USA
+  website: https://dancelouisville.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance Louisville
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.6075133302915
+        lat: 38.2582577697085
+      northeast:
+        lng: -85.60481536970849
+        lat: 38.26095573029149
+    location:
+      lng: -85.60620329999999
+      lat: 38.2595543
+  address_components:
+    - types:
+        - street_number
+      short_name: "8023"
+      long_name: "8023"
+    - types:
+        - route
+      short_name: Catherine Ln
+      long_name: Catherine Lane
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40222"
+      long_name: "40222"
+    - types:
+        - postal_code_suffix
+      short_name: "4793"
+      long_name: "4793"
+  place_id: ChIJkeBSFWF1aYgROmRc2qMdsew
+  url: https://maps.google.com/?cid=17055445853409141818
+  international_phone_number: +1 502-377-4859
+  username: dancelouisville.com
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artistsList: []
+id: fzPqwZlCMSOZtuIEApT5
+updatedAt: 1717873616575

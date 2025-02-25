@@ -1,0 +1,115 @@
+venue:
+  website: http://www.dnatango.com/
+  formatted_address: Steinerstraße 5, 81369 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "5"
+      short_name: "5"
+    - types:
+        - route
+      long_name: Steinerstraße
+      short_name: Steinerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Sendling
+      short_name: Sendling
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81369"
+      short_name: "81369"
+  url: https://maps.google.com/?cid=48742306091582839
+  name: DNA Tango/Divina Milonga
+  geometry:
+    viewport:
+      south: 48.1022628697085
+      north: 48.1049608302915
+      east: 11.5406130802915
+      west: 11.5379151197085
+    location:
+      lng: 11.5393
+      lat: 48.10343999999999
+  international_phone_number: +49 176 34929700
+  place_id: ChIJl10xsDnfnUcRd0UfgN4qrQA
+endDate:
+  _seconds: 1634248800
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: https://docs.google.com/forms/d/1gd6qOp8UjadzszbCHKdYbofb4iuskGxgsePDmMGlfOA/viewform?edit_requested=true
+description: private Veranstaltung, bitte online anmelden
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F915388a4-7abd-405f-8010-faa61a50a582?alt=media&token=ac7cbb9a-8470-4077-a046-849bd4d01c7f
+duration: "240"
+createdAt: 1634022775139
+watchersCount: 0
+price: Unknown
+commentsLast: ~
+promoter: Vitali
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+id: e9rkwPCsy3brkw406qEp
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 5
+updatedAt: 1634022775139
+website: http://dnatango.com/?lang=de
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://www.facebook.com/groups/tangomuenchen/permalink/10158379060296186/
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Workshop und Milonga
+online: No
+styles:
+  TangoArgentino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  ContactTango:
+    level: Intermediate
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-14T18:00:00.000Z
+username: Vitali
+viewsCount: 7

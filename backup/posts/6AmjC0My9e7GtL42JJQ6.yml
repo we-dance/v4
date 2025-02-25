@@ -1,0 +1,132 @@
+endDate: 1723381200000
+sourceUrl: https://www.facebook.com/events/1143818693345038/
+createdAt: 1722607221522
+approved: true
+provider: ical
+providerId: FDwgzaLrddKSK3dKkP1k
+providerCreatedAt: 1721727597000
+updatedAt: 1722607221522
+importedAt: 1722607221522
+providerUpdatedAt: 1722585230000
+facebookId: "1143818693345038"
+facebook: https://www.facebook.com/events/1143818693345038/
+isNew: false
+facebookUrlsList:
+  - https://www.facebook.com/share/kU52TsuZ2gn8pmfy/?mibextid=9l3rBW
+  - https://www.facebook.com/events/1143818693345038/
+eventType: Party
+providerItemId: e1143818693345038@facebook.com
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+name: Flohmarkt & Allerlei
+location: Paul-Gerhardt-Allee 8
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723363200000
+facebookUrlsCount: 2
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Paul-Gerhardt-Allee 8, 46240 Bottrop, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Paul-Gerhardt-Allee 8
+  geometry:
+    viewport:
+      southwest:
+        lng: 6.969768669708498
+        lat: 51.5376173697085
+      northeast:
+        lng: 6.972466630291502
+        lat: 51.5403153302915
+    location:
+      lng: 6.9711744
+      lat: 51.5389251
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Paul-Gerhardt-Allee
+      long_name: Paul-Gerhardt-Allee
+    - types:
+        - locality
+        - political
+      short_name: BOT
+      long_name: Bottrop
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Bottrop
+      long_name: Kreisfreie Stadt Bottrop
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: MS
+      long_name: Münster
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "46240"
+      long_name: "46240"
+  place_id: ChIJX-TrzBfpuEcR5olqQWzJl8k
+  url: https://maps.google.com/?q=Paul-Gerhardt-Allee+8,+46240+Bottrop,+Germany&ftid=0x47b8e917ccebe45f:0xc997c96c416a89e6
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/sonnenhaus.obermenzing
+  name: Am Sonnenhaus Obermenzing
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722520846/a5obommwftnvqaytdfpo.jpg
+  bio: ""
+  id: h6v34YBVXLE5mxdTXsY4
+  instagram: ""
+  username: am.sonnenhaus.oberme
+claimed: No
+link: http://www.sonnenhaus-muc.de/
+description: >-
+  NEWS: Ausweitung der Veranstaltung! 
+
+  10-15 Uhr: Flohmarkt & Allerlei
+
+  15-20 Uhr: Free Kizz Social
+
+
+  Entdeckt verborgene Schätze und einzigartige Fundstücke auf unserem Flohmarkt am Sonnenhaus München West - Eintritt frei! 
+
+  Für den kulinarischen Genuss sorgen Foodtrucks und selbstgebackene Kuchen.  Außerdem gibt es Live Acts, Musik uvm. 
+
+  Aussteller können sich auf www.sonnenhaus-muc.de einen Platz sichern.
+
+
+  Der Flohmarkt & Allerlei geht nahtlos in das Free Kizz Social über: https://www.facebook.com/share/kU52TsuZ2gn8pmfy/?mibextid=9l3rBW 
+
+
+  Wir freuen uns auf euch! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722607236/nhsg5e1myu5vcwcgvwvn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJL14ukdbruEcR4NBr1UCD7p0
+international: No
+hash: 1723363200000+ChIJX-TrzBfpuEcR5olqQWzJl8k
+id: 6AmjC0My9e7GtL42JJQ6

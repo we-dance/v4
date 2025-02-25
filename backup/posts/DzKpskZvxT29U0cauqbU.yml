@@ -1,0 +1,161 @@
+endDate: 1739597400000
+sourceUrl: https://www.facebook.com/events/1176508876883814/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1719916137000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1722249081000
+facebookId: "1176508876883814"
+facebook: https://www.facebook.com/events/1176508876883814/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1176508876883814/
+eventType: Concert
+providerItemId: e1176508876883814@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Voyage à Cuba du 1er au 15 février 2025
+location: Cuba, La Habana
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1738392300000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Havana, Cuba
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Havana
+  geometry:
+    viewport:
+      southwest:
+        lng: -82.5748730331694
+        lat: 22.92005742354909
+      northeast:
+        lng: -82.09113113363848
+        lat: 23.18131586162902
+    location:
+      lng: -82.3665956
+      lat: 23.1135925
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Havana
+      long_name: Havana
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Havana
+      long_name: Havana
+    - types:
+        - country
+        - political
+      short_name: CU
+      long_name: Cuba
+  place_id: ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+  url: https://maps.google.com/?q=Havana,+Cuba&ftid=0x88cd774cbdf600e1:0x4e294d7e1a770d60
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417916995
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02yx4Wmu4dHLy1HpbJV1VS57RkGmErYToY4DkSTAHF6gPJmjp46ugYQHuL918Tsbrql
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417917/e94jx4yq1s9rwjxd6wdi.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417916995
+  owned: false
+  name: Lydie Briet
+  place: ChIJyXeerdBiToYRrPo0KtPjXdw
+  updatedAt: 1728417916995
+  username: lydie.briet
+claimed: No
+link: ""
+description: >
+  Un voyage inoubliable 
+
+  sur le thème de la musique 
+
+  et de la danse à Cuba !!!
+
+  🇨🇺☀️🪇🎶🏝️🇨🇺
+
+
+  Le voyage aura lieu du 1er au 15 février 2025
+
+  La meilleure saison pour aller à Cuba !
+
+  ☀️☀️☀️☀️
+
+
+
+  🔥	Apprendre la Salsa à Cuba ou se perfectionner, le rêve ultime pour beaucoup.
+
+  🔥	Connaitre enfin cette ile, perle des Caraïbes, tellement magnifique qu’on y succombe tous.
+
+  🔥Tellement de joie, de bonheur et de moments inoubliables feront de ce séjour le plus remarquable de tous !
+
+
+   🌟Nous allons vous faire découvrir les incontournables de Cuba avec un programme très riche 🌟:
+
+  🇨🇺	Des cours de danse, des professeurs incroyables, des artistes cubains, des musiciens en Live, des concerts … Une imprégnation dans le milieu musical et de la danse à Cuba.
+
+  🇨🇺Des excursions, des randonnées à cheval, des sorties plages, des cascades, des visites guidées des villes comme La Havane, Trinidad, Sancti Spiritus, Santa Clara, Viñales... Pour découvrir toute la beauté de Cuba et sa nature resplendissante.
+
+  🇨🇺	Le plus important va être aussi l’humain, nous dormons uniquement chez l’habitant, des amis cubains qui seront vous recevoir avec grand cœur et beaucoup de gentillesse.
+
+  🇨🇺	Nous serons accompagnés tout au long de notre séjour de professeurs, danseurs ou musiciens. 
+
+  🇨🇺	Le voyage sera limité en terme de personnes pour profiter au maximum de nos échanges avec les cubains.
+
+
+  ✈️✈️✈️✈️
+
+  Départ ORLY 1er Février 2025, Arrivée La Havane 1er février 2025.
+
+  Retour La Havane 14 février 2025, arrivée Orly 15 février 2025
+
+  🛬🛬🛬🛬
+
+
+  Voyage et formalités (1180 €) : Vol, taxe, visa, assurance
+
+  Séjour cuba (1600 €), 14 jours/13 nuits :  hébergement chez l’habitant en chambre double ou triple, 25/28 repas compris (3 libres), petits déjeuners, trajet bus, chauffeur, excursions, guides, cours de danse, professeur de danse, musiciens en cours, entrée diverses soirées, visites.
+
+
+  Tarif total* : 2780 €
+
+  *Supplément chambre seule : 260 €, total 3040 €
+
+
+  ▪️Réservation de 600 € par virement pour bloquer sa place ( jusqu'au 31 août).
+
+  Fin des inscriptions le 15 octobre 2024.
+
+
+  Pour recevoir les informations détaillées et les modalités de réservation. Contactez Lydie au :  0685614688 evasion060@gmail.com 
+
+
+  BAILA SALSA
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417919/dgrjbpimgzcfwfeaebgo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJyXeerdBiToYRrPo0KtPjXdw
+international: No
+hash: 1738392300000+ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+id: DzKpskZvxT29U0cauqbU

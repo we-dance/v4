@@ -1,0 +1,112 @@
+venue:
+  formatted_address: Zentnerstraße 39, 80798 München, Germany
+  website: https://www.my-mia.de/i/timetable-booking
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Martas Tanzschule & Performance Studio
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5660390802915
+      south: 48.1577354697085
+      north: 48.16043343029149
+      west: 11.5633411197085
+    location:
+      lng: 11.564601
+      lat: 48.1590917
+  address_components:
+    - types:
+        - street_number
+      short_name: "39"
+      long_name: "39"
+    - types:
+        - route
+      short_name: Zentnerstraße
+      long_name: Zentnerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-West
+      long_name: Schwabing-West
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80798"
+      long_name: "80798"
+  international_phone_number: +49 1520 9058692
+  place_id: ChIJ6ynDNS51nkcRlG2uB-ZVB4w
+  url: https://maps.google.com/?cid=10090127936606596500
+  username: www.my-mia.de
+endDate: 1720457700000
+claimed: No
+link: https://www.annamilite.com/booking-calendar/salsa-partnerwork-klasse?referral=service_list_widget
+description: >-
+  Are you ready to take your salsa dancing to the next level? Our Salsa
+  Intermediate to Advanced classes are designed for passionate dancers like you
+  who want to refine their skills and master new techniques.
+
+
+  Join us! EUR 10 per Class 
+program: []
+type: event
+seriesId: p23jydfOdb7tnBzf5KrZ
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fcd7f2233-18c7-4309-a60e-1008242c3fd2?alt=media&token=2d31d199-99bf-4283-aba1-26f06db474d8
+createdAt: 1718794785358
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: Yrzsu1j4VXJk2kRuBTYt
+international: No
+updatedAt: 1718794785358
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  username: AnnaMil
+eventType: Course
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Salsa LA Intermediate to Advanced
+online: No
+styles:
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720454100000
+hash: 1720454100000+ChIJ6ynDNS51nkcRlG2uB-ZVB4w
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYrzsu1j4VXJk2kRuBTYt.png?generation=1718794810726216&alt=media
+viewsCount: 1

@@ -1,0 +1,143 @@
+endDate: 1726347600000
+sourceUrl: https://www.facebook.com/events/494835693324058
+createdAt: 1726149629365
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1726084058000
+updatedAt: 1726149629365
+importedAt: 1726149629365
+providerUpdatedAt: 1726084058000
+facebookId: "494835693324058"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/494835693324058
+providerItemId: 48125-1726338600-1726347600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: NG Studio, Osvát utca 9., Budapest, 1073, Magyarország
+startDate: 1726338600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Osvát u. 9, 1073 Hungary
+  website: http://www.ngsalsa.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Next Generation Salsa
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0700221697085
+        lat: 47.4973591697085
+      northeast:
+        lng: 19.0727201302915
+        lat: 47.5000571302915
+    location:
+      lng: 19.0714225
+      lat: 47.4987382
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Osvát u.
+      long_name: Osvát utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VII. kerület
+      long_name: VII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1073"
+      long_name: "1073"
+  international_phone_number: +36 20 935 2680
+  place_id: ChIJQ_E5n97dQUcRaLTgbvMQbEQ
+  url: https://maps.google.com/?cid=4930334329787167848
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/zoukbudapest
+  name: Brazilian ZOUK Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902717/w6wazzvtwt9cg5znrvtq.jpg
+  bio: ""
+  id: dZGYYcmKTiEK5EDxr3zS
+  instagram: ""
+  username: zoukbudapest
+claimed: No
+facebook: https://www.facebook.com/events/494835693324058/
+link: ""
+description: >-
+  ----- ENG BELOW -----
+
+  🤩 Szeptember 14-én a Teaser Workshop után várunk Titeket a Social bulin 🤩 Gyertek, zouk-oljunk újra egy jót ,de persze örömmel látunk akkor is, ha csak bandáznál kicsit velünk 🙃
+
+
+  📆: Szept.14 : 18:30-21:00
+
+  📍: NG Salsa , Budapest, Osvát u. 9, 1073
+
+  🏷️ : Workshop résztvevőknek és segítőknek : 1000 ft
+
+  🏷️Sima belépő: 2000ft
+
+
+
+  Várunk Mindenkit szeretettel! 🧡
+
+  BZB Csapat
+   -----
+   🤩 On the 14th of September we are waiting for You at our Zouk Social💃🕺Come, let's zouk again, but of course we'd be happy to see you even if You just want to hang out with us a little 🙃
+
+  📆: 14th of Sept: 18:30-21:00
+
+  📍: NG Salsa , Budapest, Osvát u. 9, 1073
+
+  🏷️ : Workshop participants and helpers : 1000 ft
+
+  🏷️Normal ticket: 2000ft
+
+
+  We welcome everyone with love! 🧡
+
+  BZB Team
+program: []
+source: facebook
+eventType: Workshop
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726149641/bn4uxlhvzlxy1kjozlty.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Colors of Zouk - Zouk Social "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1726331400000+ChIJQ_E5n97dQUcRaLTgbvMQbEQ
+id: WpPq5MBT1nYfqYsSsHJk

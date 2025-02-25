@@ -1,0 +1,190 @@
+venue:
+  website: http://buena-vista-bar.de/
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bar Buena Vista
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  international_phone_number: +49 89 26022811
+  url: https://maps.google.com/?cid=10819607444887102927
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+endDate: 1705860000000
+claimed: No
+description: Feel hot Havana vibes in Munich! Invite your friends! Try Salsa!
+  Get some moves! Meet new friends! Join Guest List!
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F08e477ff-ee17-4c1e-94a3-dd4795be5260?alt=media&token=b51d463e-5a65-4264-aa14-c2470f10fd71
+createdAt: 1705835050326
+playlist: https://open.spotify.com/playlist/39cUmntXWDEHFjqGmwGU8k?si=db34ec93a54d4b01&pt=445e9b025a84b5ed2b99f1a52f9164f9
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    bio: WeDance Ambassador in Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    instagram: https://instagram.com/alexrazbakov
+    username: alexrazbakov
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Buena Vista Bar
+    bio: Latino Restaurant München
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+    id: JEkADfAnw9nk7VIcgE5P
+    instagram: https://www.instagram.com/buena_vista_bar_munich/
+    username: buena_vista_bar_munich
+price: pay as you wish
+review: https://g.page/r/Ca_iCf0z9dH3EBM/review
+commentsLast:
+  createdAt: 1676727633768
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: LXApW1gu5g65mkAHYMCW
+  body: Yay! Sunday! Can't wait!
+  username: alexrazbakov
+  updatedAt: 1676727633768
+artistsList:
+  - alexrazbakov
+  - buena_vista_bar_munich
+id: 1vctTwgaeUL2IfVdxOL1
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+paypal: https://paypal.me/razbakov
+gallery: https://photos.app.goo.gl/Tk9eXGkXHENnebJU6
+updatedAt: 1705835050326
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MontunoClub
+  name: MontunoClub
+  bio: Learn Salsa Cubana with us!
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  instagram: https://instagram.com/MontunoClub
+  username: MontunoClub
+facebookId: ""
+upVotes: 0
+telegram: {}
+confirmation: |-
+  You are on the guest list, see you at the event!
+
+  Join our [WhatsApp group](https://chat.whatsapp.com/JLN6jAVqWVy6Y0bwtTY20J)
+eventType: Course
+promotionError: ""
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Salsa Cubana Beginners
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+hash: 1704646800000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+startDate: 1705856400000
+username: alexrazbakov
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1vctTwgaeUL2IfVdxOL1.png?generation=1705835064525485&alt=media
+star:
+  count: 12
+  usernames:
+    - Mnkk
+    - Arsene
+    - Bgunro2
+    - OlliG27
+    - _Kristina
+    - Di
+    - aliyilmaz.yldrmgmail.com
+    - Charkiv
+    - Ruzanna
+    - Taisa
+    - ES
+    - HelenaPrediger
+  list:
+    Mnkk: true
+    Arsene: true
+    Bgunro2: true
+    OlliG27: true
+    _Kristina: true
+    Di: true
+    aliyilmaz:
+      yldrmgmail:
+        com: true
+    Charkiv: true
+    Ruzanna: true
+    Taisa: true
+    ES: true
+    HelenaPrediger: true
+viewsCount: 31

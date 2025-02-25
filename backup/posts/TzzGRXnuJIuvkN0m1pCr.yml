@@ -1,0 +1,218 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/mambo-masters/
+sourceUrl: https://facebook.com/events/949019736814745
+venue:
+  address_components:
+    - long_name: "111"
+      short_name: "111"
+      types:
+        - street_number
+    - long_name: Voie Marie Fischer
+      short_name: Voie Marie Fischer
+      types:
+        - route
+    - long_name: Antibes
+      short_name: Antibes
+      types:
+        - locality
+        - political
+    - long_name: Alpes-Maritimes
+      short_name: Alpes-Maritimes
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Provence-Alpes-Côte d'Azur
+      short_name: Provence-Alpes-Côte d'Azur
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: France
+      short_name: FR
+      types:
+        - country
+        - political
+    - long_name: "06600"
+      short_name: "06600"
+      types:
+        - postal_code
+  formatted_address: 111 Voie Marie Fischer, 06600 Antibes, France
+  geometry:
+    location:
+      lat: 43.5992072
+      lng: 7.0848895
+    viewport:
+      northeast:
+        lat: 43.60069423029149
+        lng: 7.086238380291502
+      southwest:
+        lat: 43.5979962697085
+        lng: 7.083540419708497
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +33 6 16 58 81 78
+  name: Sbk06 Latin Dance School Antibes
+  place_id: ChIJh3VnobkrzBIRF13MvdI5BMY
+  url: https://maps.google.com/?cid=14268593096706776343
+  website: http://www.sbk06.com/
+endDate: ""
+claimed: No
+link: ""
+description: >+
+  SBK06 présente 🎉 MAMBO MASTERS 🎉
+
+
+  Rejoignez-nous pour la 5ème édition du 18 au 20 mars 2025 ! 
+
+
+  Vous aurez l'occasion d'apprendre auprès de artistes de renommée qui partageront avec vous leurs secrets pour devenir un meilleur danseur. Que vous soyez débutant ou avancé, nos workshops sont conçus pour s'adapter à tous les niveaux et vous garantir une progression rapide et efficace.
+
+
+  Ne manquez pas cette chance exceptionnelle de vivre une expérience immersive dans le monde vibrant du Mambo. 
+
+
+  Réservez dès maintenant pour bénéficier des tarifs réduits et sécuriser votre place à cet événement incontournable. 
+
+
+  Faites partie de cette aventure !!
+
+
+  📅 Dates : 18-20 avril 2025 🥳
+
+
+  Au programme :
+
+
+  ☑️ Ambiance : Salsa / Mambo
+
+  ☑️ Workshops : Cours avec des artistes locaux, nationaux et internationaux dans 2 salles, plusieurs niveaux
+
+  ☑️ Shows 
+
+  ☑️ Soirées et afters : 3 soirées inoubliables et des afters pour prolonger le plaisir
+
+  ☑️ Espaces : 2 salles pour encore plus de danse
+
+  ☑️ Artistes : Une line-up impressionnante avec des talents internationaux, nationaux et locaux. 
+
+
+  Voici quelques noms :
+
+  ☆ Adolfo Indacochea & Natalia Raigosa
+
+  ☆ Sol & Mauro
+
+  ☆ Esteban
+
+  ☆ Richard & Sonia
+
+  ☆ Mab
+
+
+  ☆ DJ Anael
+
+
+    Et bien d'autres à venir !
+
+  💰 Tarifs :
+
+
+  FULL PASS : 
+
+
+  Actuellement : 60€ (accès à tous les cours, soirées et afters)
+
+
+  À partir du 31 août : 70€
+
+  À partir du 30 septembre : 75€
+
+  À partir du 31 octobre : 80€
+
+  À partir du 30 novembre : 85€
+
+  À partir du 31 décembre : 90€
+
+  À partir du 31 janvier : 100€
+
+  À partir du 1er mars : 110€
+
+  Sur place : 120€
+
+
+
+  🌐 Réservation en ligne : https://my.weezevent.com/mambi-masters-2025
+
+
+  📍 Lieu du Festival 
+
+  Hôtel LV Lagrange Apart’hôtel,
+
+  Les Jardins de l’Olympie, 
+
+  Voie Marie Fischer, 
+
+  06600 Antibes
+
+
+  🚁 Accès :
+
+  - Aéroport : Nice Côte d'Azur (NCE)
+
+  - Gare la plus proche : Antibes
+
+
+  🛌 Hôtel partenaire :
+
+  Lagrange Apart’hôtel, 
+
+  Les Jardins de l’Olympie, 
+
+  06600 Antibes
+
+
+  📞 Contact / Infos :
+
+  Steve Bakoula : 0616588178
+
+  Email : steve.cannessalsafestival@gmail.com
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/bdivxeipmjj2vlix1ssa.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJqZFankXVzRIRsJ-X_aUZCAQ
+international: No
+visibility: Public
+org:
+  id: aoReerXNXGgBCl4LHmoA
+  username: SBKO6
+  name: SBK06 Latin Dance School
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953564/vqhkxgoh647f5apm1gyy.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/SBKO6
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/949019736814745/
+facebookId: "949019736814745"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Mambo Masters - 5ème edition
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1744995600000+ChIJh3VnobkrzBIRF13MvdI5BMY
+startDate: 1744995600000
+id: TzzGRXnuJIuvkN0m1pCr

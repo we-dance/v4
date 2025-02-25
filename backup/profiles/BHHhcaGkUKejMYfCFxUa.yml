@@ -1,0 +1,72 @@
+createdAt: 1718390655297
+website: https://maps.google.com/?q=Guerickestra%C3%9Fe+37,+80805+M%C3%BCnchen,+Germany&ftid=0x479e744b0a0454f7:0x23abe8fb1a1d2044
+rooms: ""
+address:
+  formatted_address: Guerickestraße 37, 80805 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Guerickestraße 37
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5965863302915
+      south: 48.1741464697085
+      north: 48.1768444302915
+      west: 11.5938883697085
+    location:
+      lng: 11.5951936
+      lat: 48.1754549
+  address_components:
+    - types:
+        - street_number
+      short_name: "37"
+      long_name: "37"
+    - types:
+        - route
+      short_name: Guerickestraße
+      long_name: Guerickestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-Freimann
+      long_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80805"
+      long_name: "80805"
+  place_id: ChIJ91QECkt0nkcRRCAdGvvoqyM
+  url: https://maps.google.com/?q=Guerickestra%C3%9Fe+37,+80805+M%C3%BCnchen,+Germany&ftid=0x479e744b0a0454f7:0x23abe8fb1a1d2044
+gender: Other
+phone: ""
+name: Guerickestraße 37
+updateAt: 1718390655297
+type: Venue
+map: ""
+username: guerickestrae37
+viewsCount: 1
+id: BHHhcaGkUKejMYfCFxUa

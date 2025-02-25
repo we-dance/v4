@@ -1,0 +1,108 @@
+importedAt: 1707497641229
+providerUpdatedAt: 1682699495000
+endDate: 1713722400000
+facebookId: "523209366686781"
+facebook: https://www.facebook.com/events/161588240188369/
+createdAt: 1707497641229
+providerItemId: e161588240188369@facebook.com
+approved: false
+provider: ical
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+providerId: FDwgzaLrddKSK3dKkP1k
+name: "Rebola TARRAXO - Code: MARTHA "
+location: Hotel Bahia Calpe- Calpe
+styles: {}
+providerCreatedAt: 1682698614000
+startDate: 1713459600000
+updatedAt: 1707497641229
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Av. Valencia, 24, 03710 Calp, Alicante, Spain
+  website: https://bahiacalpehotel.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Bahia Calpe
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.04705071970849797
+        lat: 38.64072176970851
+      northeast:
+        lng: 0.04974868029150203
+        lat: 38.6434197302915
+    location:
+      lng: 0.04828499999999999
+      lat: 38.641998
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Av. Valencia
+      long_name: Avinguda Valencia
+    - types:
+        - locality
+        - political
+      short_name: Calp
+      long_name: Calp
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: A
+      long_name: Alicante
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: VC
+      long_name: Comunidad Valenciana
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "03710"
+      long_name: "03710"
+  international_phone_number: +34 965 83 97 02
+  place_id: ChIJgTlHyzr-nRIR7CyiMwh2ArY
+  url: https://maps.google.com/?cid=13115174842454387948
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707497660029
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02RP8sN69ouYF4yUNc73tJWo7ZUAtEH4pcrn9WkS2HJ4B1UnuwFtPwMV13hKdTNt8Ul
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707497660/vjgiflauqynphaopusdw.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707497660029
+  owned: false
+  name: Martha La OO
+  place: ChIJuaWi6C_-nRIRc0dVDVMq04s
+  updatedAt: 1707497660029
+  username: martha.la.oo
+claimed: No
+link: ""
+description: https://m.facebook.com/events/s/rebola-tarraxourbankiz-festiva/523209366686781/?wtsid=rdr_01iFAuNJTP8WjCq8H
+program: []
+source: facebook
+eventType: Party
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707497663/gzyymwebni9taarllsfq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuaWi6C_-nRIRc0dVDVMq04s
+international: No
+hash: 1713459600000+ChIJgTlHyzr-nRIR7CyiMwh2ArY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYlPwFuhXAUozsTPEoHzs.png?generation=1707497685063608&alt=media
+viewsCount: 2
+id: YlPwFuhXAUozsTPEoHzs

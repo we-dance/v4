@@ -1,0 +1,111 @@
+venue:
+  formatted_address: Lorenzstraße 19, 76135 Karlsruhe, Germany
+  website: http://www.zkm.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: ZKM | Center for Art and Media
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.384908030291502
+      south: 48.99983451970851
+      north: 49.0025324802915
+      west: 8.382210069708497
+    location:
+      lng: 8.384008299999998
+      lat: 49.00118569999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Lorenzstraße
+      long_name: Lorenzstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Südweststadt
+      long_name: Südweststadt
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76135"
+      long_name: "76135"
+  international_phone_number: +49 721 81001200
+  place_id: ChIJgUX_e18Gl0cR9Ay6NYHP7pg
+  url: https://maps.google.com/?cid=11019973492081298676
+endDate: 2023-08-01T23:00
+claimed: No
+link: https://chat.whatsapp.com/BoE2TMP9ndQ4dRJJ3hvMGn
+description: Free dancing in the open at the “Holzinsel” between ZKM and the
+  cinema, in front of the “Dog Bite” restaurant. Start at 20:15h, usually until
+  around 23-24h. No dancing partner required.
+program: []
+type: event
+duration: 60
+cover: ""
+createdAt: 1690475751616
+playlist: https://open.spotify.com/playlist/2MY79sGN9TJkG1unK97uqN?si=pdjuy_QDTZCedV2cVSMdnw
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+updatedAt: 1690475751616
+updatedBy: 13FMWktyHjNnoFbAOlDlaL6vHvA2
+visibility: Public
+org:
+  instagram: https://instagram.com/socialdance.vip
+  username: socialdance.vip
+eventType: Party
+form: No
+createdBy: 13FMWktyHjNnoFbAOlDlaL6vHvA2
+watch:
+  count: 1
+  list:
+    heartbeat: true
+name: "Salsa/Bachata/Kizomba Open Air at ZKM "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-08-01T20:00
+username: heartbeat
+viewsCount: 131
+id: yv5ipFbjYUI7b5dGkYS7

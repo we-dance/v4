@@ -1,0 +1,105 @@
+isNew: true
+facebookId: "544548958331393"
+facebookUrlsList:
+  - https://www.facebook.com/events/544548958331393
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729173641535
+updatedAt: 1729173641535
+importedAt: 1729173641535
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48544-1729814400-1729900799@latinfo.hu
+providerCreatedAt: 1729148629000
+providerUpdatedAt: 1729148629000
+startDate: 1729814400000
+endDate: 1729900799000
+sourceUrl: https://www.facebook.com/events/544548958331393
+location: Ifiház Jászberény, Bercsényi út 1/a, Jászberény, 5100, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: Jászberény
+      short_name: Jászberény
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+  formatted_address: Jászberény, Hungary
+  geometry:
+    location:
+      lat: 47.5001845
+      lng: 19.9062866
+    viewport:
+      northeast:
+        lat: 47.58322802583744
+        lng: 20.02609892888666
+      southwest:
+        lat: 47.37766906737468
+        lng: 19.78965302508658
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Jászberény
+  place_id: ChIJhYk1fE0GQUcRwBMeDCnEAAQ
+  url: https://maps.google.com/?q=J%C3%A1szber%C3%A9ny,+Hungary&ftid=0x4741064d7c358985:0x400c4290c1e13c0
+  website: http://www.jaszbereny.hu/
+visibility: Public
+org:
+  id: BM4HtpPAFK8ujCbJIrCn
+  username: dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/544548958331393/
+link: ""
+description: |-
+  😈👹👺🤡👻💀☠️👽👾🤖
+  Halloween Salsa&Sensual Party
+  🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃
+
+  ⏰Időpont: 2024. október 25. péntek 20:00
+  🔴Órák helyszíne: Ifjúsági ház
+
+  📌20:00-00:00 Party
+  ----------------------------------------
+  helyszínen: 2000Ft
+
+  Fizetés személyesen az órákon vagy utalással.
+  Utalás: Raiffeiesn Bank 12067204-00202462-00100005
+
+  📧📬📞
+  Elérhetőség:
+  +36305153951
+  www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729173658/jwr8b3ebbkhztbvcnvca.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Halloweeni Salsa&Sensual Party - Jászberény
+online: No
+place: ChIJhYk1fE0GQUcRwBMeDCnEAAQ
+international: No
+hash: 1729879200000+ChIJhYk1fE0GQUcRwBMeDCnEAAQ
+id: Y3NmoGPpbl7Yd443z7A7

@@ -1,0 +1,173 @@
+endDate: 1719006900000
+sourceUrl: https://www.facebook.com/events/2130072400679498/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1712741707000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1712848552000
+facebookId: "2130072400679498"
+facebook: https://www.facebook.com/events/2130072400679498/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2130072400679498/
+eventType: Party
+providerItemId: e2130072400679498@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: FETE DE LA MUSIQUE
+location: "1 rue des Artisans 67550 Vendenheim "
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718985600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 1 Rue des Artisans, 67550 Vendenheim, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 1 Rue des Artisans
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.719676519708497
+        lat: 48.66081476970849
+      northeast:
+        lng: 7.722374480291502
+        lat: 48.66351273029149
+    location:
+      lng: 7.720862800000001
+      lat: 48.6622595
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Rue des Artisans
+      long_name: Rue des Artisans
+    - types:
+        - locality
+        - political
+      short_name: Vendenheim
+      long_name: Vendenheim
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Bas-Rhin
+      long_name: Bas-Rhin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "67550"
+      long_name: "67550"
+  place_id: ChIJ20NujYe4lkcRRu8ZP7CYNmI
+  url: https://maps.google.com/?q=1+Rue+des+Artisans,+67550+Vendenheim,+France&ftid=0x4796b8878d6e43db:0x623698b03f19ef46
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444473806
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02Djwb8mtEaqi5uuZSJCm84Hc7JejE6PFNzX8ETLTUaYcGS3sem8c78Xvdt5Q4J4bgl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444474/cssuapyredqyr9krf1fe.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444473806
+  owned: false
+  name: Aysel Bal
+  place: ChIJf-LJw4y4lkcRj6VJePsd_2Q
+  updatedAt: 1715444473806
+  username: aysel.bal
+claimed: No
+link: ""
+description: >+
+  I Land Dance S’Cool vous propose une animation spéciale :
+
+
+  « Fête de la Musique » en partenariat avec l’Enseigne Sophie Lebreuilly.
+
+
+  Horaires de 18:00 à Minuit
+
+  Lieu : 1 rue des artisans 
+
+  67550 Vendenheim.
+
+
+  Possibilité de se garer facilement,
+
+  Et surtout solution de repli (à l’abri) en cas de mauvais temps.
+
+  Restauration : Vous pourrez profiter de délicieuses pizzas / Tartes flambées Bières, vins, Softs etc.)
+
+
+  19:00  initiation de Salsa Cubaine 
+
+  20:00 initiation de Bachata
+
+  21:00 initiation de Kizomba 
+
+  Ttes les initiations sont offertes ce jour là.
+
+
+  I Land Dance S’Cool et Dj Didier vont mettre une sacrée ambiance sur Vendenheim notez vous cette date et retrouvez- nous car ça va être juste une « tuerie » !!! 🔥🔥🔥
+
+
+  Infos par Sms uniquement : 0659859121 
+
+
+  Ambiance Salsa, Bachata, Kizomba, Latino Mix…
+
+
+  Nous allons vous proposer des initiations de danses: 
+
+
+  Salsa
+
+  Bachata
+
+  Kizomba et bien d’autres surprises !!!
+
+
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444475/tsk6bcwd9c3lunm4rp2x.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJf-LJw4y4lkcRj6VJePsd_2Q
+international: No
+hash: 1718985600000+ChIJ20NujYe4lkcRRu8ZP7CYNmI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZGzzNbwaZCOjtA0CELgH.png?generation=1715444488114557&alt=media
+viewsCount: 1
+id: ZGzzNbwaZCOjtA0CELgH

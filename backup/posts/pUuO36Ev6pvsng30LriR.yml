@@ -1,0 +1,150 @@
+venue:
+  website: http://www.trainerhelden.com/
+  formatted_address: Körtestraße 10, 10967 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "10"
+      short_name: "10"
+    - types:
+        - route
+      long_name: Körtestraße
+      short_name: Körtestraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Friedrichshain-Kreuzberg
+      short_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10967"
+      short_name: "10967"
+  url: https://maps.google.com/?cid=11324822937944048348
+  name: Backstage - das Tanzstudio der Trainerhelden
+  geometry:
+    viewport:
+      south: 52.4898574197085
+      north: 52.4925553802915
+      east: 13.4124957802915
+      west: 13.4097978197085
+    location:
+      lng: 13.4110371
+      lat: 52.4912941
+  international_phone_number: +49 173 9126821
+  place_id: ChIJm-cC9UdPqEcR3MJZ6HXaKZ0
+endDate:
+  _seconds: 1631377800
+  _nanoseconds: 0
+link: https://goteamup.com/p/3517022-trainerhelden-backstage/e/39017770-newcomer-class-double
+description: >-
+  REGISTER NOW: https://tinyurl.com/em-bachata
+
+
+  🚨 NEWS 🚨 We are super excited to invite you to our first workshop together in Berlin in cooperation with Trainerhelden Backstage! 😍
+
+
+  💃🏼 ALL ABOUT IT 💃🏼 You will get a little taste of everything that makes Bachata exciting: basics, musicality, partner work, and social dance skills that you can easily apply on the dance floor. Either you are a complete beginner or an advanced dancer who wants to get back to their roots, you will find something new. This is your ultimate Intensive Bachata crash course! 🔥
+
+
+  The space is limited to 10 Leaders and 10 Followers (20 participants in total). You do not need to bring a partner, we will switch partners.
+
+
+  REGISTER NOW: https://tinyurl.com/em-bachata
+
+
+  😷 SAFE & SOUND 😷 Please keep in mind the COVID-19 3G rule: we will need proof of full vaccination, attestation of recovery, or a negative test result that has been obtained earliest 24 hours before the workshop is over. (valid from September 10th, 18:30
+
+
+  🎁 PRESENTS 🎁 All the participants will get a free Adicto: The Bachata Experience Tshirt, the official outfit of the Berlin Bachata Festival. 🎉
+
+  Use the registration link below or DM us to save your space! We are very excited to see you all 🥰
+
+
+  REGISTER NOW: https://tinyurl.com/em-bachata
+
+  ---
+
+
+  Martyna, with 7 years of background in Bachata and Salsa, has been teaching internationally in the UK, Lithuania, and finally in Berlin.
+
+
+  Erol is a well-known face of the Berlin Bachata community and the organizer of the annual Adicto: Berlin Bachata Festival. He is a certified Bachata Sensual instructor by Korke & Judith and he also trains in other styles such as Hip Hop, Contemporary, and Jazz, which he fuses together to create his own style.
+
+
+  Together, they want to share their love and passion for this dance with everyone else.
+
+
+  REGISTER NOW: https://tinyurl.com/em-bachata 
+type: event
+duration: "90"
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F3ucRV7NCdPMWMf2mHXAutsuorhm2%2Fd3bfeb11-1443-4f07-9d19-e5e7ec130e6b?alt=media&token=15786790-f785-4dc7-a7c0-bc54a2267322
+createdAt: 1630961189388
+watchersCount: 0
+price: 8EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FpUuO36Ev6pvsng30LriR.png?generation=1631008545707913&alt=media
+commentsLast: ~
+id: pUuO36Ev6pvsng30LriR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1630961189388
+updatedBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+visibility: Public
+eventType: Workshop
+organiser: eNm
+form: Yes
+createdBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+commentsCount: 0
+name: Bachata Foundations with Erol & Martyna
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-09-11T15:00:00.000Z
+username: eNm
+viewsCount: 26

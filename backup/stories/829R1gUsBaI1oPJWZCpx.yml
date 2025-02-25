@@ -1,0 +1,53 @@
+venue:
+  formatted_address: Northern Bypass Rd, Nairobi, Kenya
+  website: http://edenblissgardens.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Eden Bliss Gardens - Thome
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 36.8770710302915
+      south: -1.211534530291502
+      north: -1.208836569708498
+      west: 36.8743730697085
+    location:
+      lng: 36.8756695
+      lat: -1.2100891
+  address_components:
+    - types:
+        - route
+      short_name: Northern Bypass Rd
+      long_name: Northern Bypass Road
+    - types:
+        - locality
+        - political
+      short_name: Nairobi
+      long_name: Nairobi
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nairobi County
+      long_name: Nairobi County
+    - types:
+        - country
+        - political
+      short_name: KE
+      long_name: Kenya
+  international_phone_number: +254 722 903407
+  place_id: ChIJHZX2ogU-LxgRqqYYkMQjNOc
+  url: https://maps.google.com/?cid=16659980248688404138
+  username: edenblissgardens.com
+createdAt: 1712525988003
+receiver:
+  username: edenblissgardens.com
+question: HakXEhWY1qsE9WmD19vV
+createdBy: 4W8V6pKxZphuvTqahvE14wqCFfm2
+link: ""
+description: On Fridays as well, we have Afro Zala salsa night at Eden Bliss
+  gardens on the Northern Bypass in Thome Nairobi.
+place: ChIJp0lN2HIRLxgRTJKXslQCz_c
+type: review
+dances:
+  - ""
+username: Salsabenjamin
+id: 829R1gUsBaI1oPJWZCpx

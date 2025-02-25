@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Frankenthaler Str. 20A, 81539 München, Germany
+  website: http://www.danceandfight.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 20A
+      short_name: 20A
+    - types:
+        - route
+      long_name: Frankenthaler Straße
+      short_name: Frankenthaler Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Ramersdorf-Perlach
+      short_name: Ramersdorf-Perlach
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81539"
+      short_name: "81539"
+  url: https://maps.google.com/?cid=5623205681418736011
+  name: dance and fight club
+  geometry:
+    viewport:
+      south: 48.1073940697085
+      north: 48.1100920302915
+      east: 11.5997992302915
+      west: 11.5971012697085
+    location:
+      lng: 11.598432
+      lat: 48.1086507
+  international_phone_number: +49 89 7460397
+  place_id: ChIJOSg_x4XfnUcRixHsM8ajCU4
+endDate:
+  _seconds: 1634247000
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+link: https://muniquedancaforro.de/anmeldung/en/konzert-211014
+description: >-
+  Munique Danca e. V. ist voller Vorfreude auf - und Sehnsucht nach -
+  Live-Musik! Nach langer Zeit starten wir mit einem Konzert und freuen uns auf
+  ein Wiedersehen auf der Tanzfläche!
+
+
+  Essência do forró carioca e bahiana - Die Essenz von Rio’s Forró und von Bahia. Die Brüder Rodrigos von der Band Conterraneos und Caina Araujo treten zusammen auf und verbinden die Forró-Stile Brasiliens zu etwas Besonderem.
+
+
+
+
+  Preise: 18 EUR (Ermäßigt 14 EUR)
+
+
+
+
+  Einlass: 19:30 Uhr
+
+
+  Konzert: ca. 21 Uhr 
+
+
+
+
+  Ort:
+
+
+  Dance & Fight Sportsclub
+
+
+  Frankenthaler Str. 20A 
+
+
+  81539 München
+type: event
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F6d461f03-625f-4a41-a4b4-844ed3ec076f?alt=media&token=4a79064f-8e3e-4999-a5b0-6dc290d637bc
+duration: "240"
+createdAt: 1633678912000
+watchersCount: 0
+price: 14-18 EUR
+commentsLast: ~
+promoter: Vitali
+id: OxvuZG7Xm3gFQfYXr41I
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+international: No
+views: 13
+updatedAt: 1633678912000
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/forro-konzert-mit-conterraneos/1040582006697756/
+eventType: Concert
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Forró Konzert mit Conterrâneos & Caína
+online: No
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-14T17:30:00.000Z
+username: Vitali
+viewsCount: 15

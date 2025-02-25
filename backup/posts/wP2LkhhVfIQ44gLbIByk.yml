@@ -1,0 +1,96 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/alegria-do-norte-stockholm-forro-festival-edition/
+sourceUrl: https://facebook.com/events/1206971233839538/
+venue:
+  address_components:
+    - long_name: Stockholm
+      short_name: Stockholm
+      types:
+        - locality
+        - political
+    - long_name: Stockholm County
+      short_name: Stockholm County
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Sweden
+      short_name: SE
+      types:
+        - country
+        - political
+  formatted_address: Stockholm, Sweden
+  geometry:
+    location:
+      lat: 59.3360685
+      lng: 18.0842774
+    viewport:
+      northeast:
+        lat: 59.4025889
+        lng: 18.19611087239287
+      southwest:
+        lat: 59.23189854493324
+        lng: 17.8987837
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Stockholm
+  place_id: ChIJywtkGTF2X0YRZnedZ9MnDag
+  url: https://maps.google.com/?q=Stockholm,+Sweden&ftid=0x465f763119640bcb:0xa80d27d3679d7766
+endDate: 1751752800000
+claimed: No
+link: https://chat.whatsapp.com/EMORoMYuJNp7VenVHIQsVK
+description: >-
+  Kom och dansa med oss! 💃🕺
+
+  Vem dançar com a gente! 🇧🇷
+
+  Come dance with us! 🪗🥁
+
+
+  🔗💬👉 Join our WhatsApp group: https://chat.whatsapp.com/EMORoMYuJNp7VenVHIQsVK
+
+
+  Get ready for an unforgettable festival in Stockholm, celebrating Brazilian forró music, dance, and culture at the peak of the Swedish summer with endless daylight! Start planning now and stay tuned for more details – this is an event you won’t want to miss! 🥁🪗🥳
+
+
+  / #AlegriaDoNorte team
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/dtshxx2zlsuas05xtrfy.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJywtkGTF2X0YRZnedZ9MnDag
+international: No
+visibility: Public
+org:
+  createdAt: 1732293941537
+  importedAt: 1732293941537
+  updatedAt: 1732293941537
+  source: facebook
+  name: Forró Stockholm
+  facebook: https://www.facebook.com/forro.stockholm
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/uzirlmizdqoivsj9s76h.jpg
+  username: forro.stockholm
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJywtkGTF2X0YRZnedZ9MnDag
+facebook: https://www.facebook.com/events/1206971233839538/
+facebookId: "1206971233839538"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Alegria do Norte Stockholm 2025
+online: No
+styles: {}
+hash: 1751630400000+ChIJywtkGTF2X0YRZnedZ9MnDag
+startDate: 1751630400000
+id: wP2LkhhVfIQ44gLbIByk

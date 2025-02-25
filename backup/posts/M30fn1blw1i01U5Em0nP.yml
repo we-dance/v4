@@ -1,0 +1,206 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  name: Pinakothek der Moderne
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  room: Area 1
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  url: https://maps.google.com/?cid=14384342178029021798
+endDate: 2023-07-21T23:00
+claimed: No
+description: Free Mini Workshop with Salsa Candela! Best of Timba, Songo, Son and Timbaton
+program:
+  - endDate: 2023-06-16T20:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: "SalsaCandela "
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+        bio: |+
+          Salsa Candela is Gianni (Italy) and Yulia(Russia)! 
+
+          Salsa Cubana, Rumba, Rueda de Casino, Sosa Style and Mambo.
+          (Partnerwork, Footwork, Musicality, Lady & Men Style)
+
+
+        instagram: https://instagram.com/SalsacandelaMUC
+        id: EGc3bwBVyKbLykwQMelFbftcIk32
+        username: SalsaCandela
+    name: Free Mini Workshop
+    eventType: Workshop
+    startDate: 2023-06-16T19:30
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0e4961ac-b255-4de2-97f8-bfab2655b600?alt=media&token=9a92a967-b09f-46d3-8dea-00983a756354
+duration: "300"
+createdAt: 1689933979544
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: ""
+    name: Seb
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F4EgK5yRffNfpbCjRsDkMUSkBRDi1%2F6126235e-5252-4d88-8679-ee0ebf884b61?alt=media&token=6c9dae10-3886-4c56-be7b-c0e9493ed491
+    bio: ""
+    id: 4EgK5yRffNfpbCjRsDkMUSkBRDi1
+    instagram: https://instagram.com/Salsa.cubana.munich
+    username: Seb
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    bio: Love to dance Casino, Urban Kiz and Bachata Dominicana. Looking for partner
+      to practice online lessons with Alberto Valdes.
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    instagram: https://instagram.com/alexrazbakov
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    username: alexrazbakov
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: ""
+    name: Hamza Saad
+    bio: ""
+    photo: https://lh6.googleusercontent.com/-Syf6VnnYImo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnR5EtnVyPeKsirm4gsIh3-rVe9Cw/photo.jpg
+    instagram: ""
+    id: m97lerJui6S51TeHfHivQCeCw1x1
+    username: jesus
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "SalsaCandela "
+    bio: |+
+      Salsa Candela is Gianni (Italy) and Yulia(Russia)! 
+
+      Salsa Cubana, Rumba, Rueda de Casino, Sosa Style and Mambo.
+      (Partnerwork, Footwork, Musicality, Lady & Men Style)
+
+
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+    id: EGc3bwBVyKbLykwQMelFbftcIk32
+    instagram: https://instagram.com/SalsacandelaMUC
+    username: SalsaCandela
+price: 0 EUR
+artistsList:
+  - Seb
+  - alexrazbakov
+  - jesus
+  - SalsaCandela
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: M30fn1blw1i01U5Em0nP
+international: No
+updatedAt: 1689933979544
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/vacunaaa
+  name: Salsa Cubana Munich
+  bio: The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  instagram: https://instagram.com/salsa.cubana.munich
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  username: salsa.cubana.munich
+upVotes: 0
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Timba Party
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-07-21T19:30
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FM30fn1blw1i01U5Em0nP.png?generation=1689934010353136&alt=media
+telegram:
+  requestedAt: 1689934021666
+  messageUrl: https://t.me/WeDanceMunich/1134
+  publishedAt: 1689934024172
+  messageId: 1134
+  state: published
+instagram:
+  requestedAt: 1689934145847
+  messageUrl: https://instagram.com/p/Cu9J1-nuF5Y
+  publishedAt: 1689934162236
+  messageId: Cu9J1-nuF5Y
+  state: published
+viewsCount: 40

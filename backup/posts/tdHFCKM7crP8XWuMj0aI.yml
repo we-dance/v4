@@ -1,0 +1,143 @@
+sourceUrl: https://www.facebook.com/events/1080529319675497/
+createdAt: 1711547686556
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1711547686556
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Charlottenburgsvägen 1, 169 52 Solna, Sweden
+  website: http://sinclairs.se/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Sinclairs Stockholm
+  geometry:
+    viewport:
+      southwest:
+        lng: 18.0037652697085
+        lat: 59.36140156970849
+      northeast:
+        lng: 18.00646323029151
+        lat: 59.3640995302915
+    location:
+      lng: 18.0053822
+      lat: 59.3626878
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Charlottenburgsvägen
+      long_name: Charlottenburgsvägen
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Råsunda
+      long_name: Råsunda
+    - types:
+        - postal_town
+      short_name: Solna
+      long_name: Solna
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Stockholms län
+      long_name: Stockholms län
+    - types:
+        - country
+        - political
+      short_name: SE
+      long_name: Sweden
+    - types:
+        - postal_code
+      short_name: 169 52
+      long_name: 169 52
+  international_phone_number: +46 10 164 06 90
+  place_id: ChIJQwU_D7-dX0YR4dT6wIjZnfY
+  url: https://maps.google.com/?cid=17770598886050288865
+endDate: 1713553200000
+claimed: No
+link: https://dansasalsa.nu/sipsalsa/
+description: >-
+  SIP & SALSA MED FAITH & ALEJANDRO!
+
+  Varmt välkommen på vår dansanta after work - Sip & Salsa!
+
+  Kom på en rolig och inspirerande dansklass och stanna sen kvar och dansa salsa och bachata tillsammans med oss!
+
+
+  EDITION 19:E APRIL
+
+
+  Kl 18.00-19.00: Dansklass i Salsa Cubana shines & partnerwork med Faith & Alejandro. Klassen har en öppen nivå som passar alla som kan grunderna i salsa. Några moment är lite lättare och andra kan vara lite svårare, men det klarar du! Efter klassen serveras förfriskningar!
+
+
+  Kl 19.00-21.00: Salsa & Bachata med DJ Q och socialdans med Faith & Alejandro!
+
+
+  PRISER:
+
+  Du som har ett klippkort eller är anmäld på en helperiod-kurs deltar kostnadsfritt. Kostnaden tas bort när vi hanterar din bokning). Är du inte elev enligt ovan så kostar det:
+
+  Enbart dansklass 230kr
+
+  Dansklass + socialdans 230kr
+
+  Enbart socialdans 100kr
+
+
+  BOKA HÄR: https://dansasalsa.nu/sipsalsa/
+
+
+  I anmälningsformuläret kan du välja att boka endast socialdans eller dansklass+socialdans samt betalningsalternativ - bankgiro, kort, swish.
+
+
+  VARMT VÄLKOMMEN!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/sinclairssaborlatinodanceacademy
+  name: Sinclairs Sabor Latino Dance Academy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711547674/zvr3wcrkdzjv4ryjn5z4.png
+  bio: ""
+  id: V0sCfz1aUyqqUBRXeV69
+  instagram: ""
+  username: sinclairs.sabor.lati
+facebook: https://www.facebook.com/events/1080529319675497/
+facebookId: "1080529319675497"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Sip & Salsa med Faith & Alejandro!
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1713542400000+ChIJQwU_D7-dX0YR4dT6wIjZnfY
+startDate: 1713542400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711547692/io3dmau0fsesilpeyxso.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtdHFCKM7crP8XWuMj0aI.png?generation=1711547717009894&alt=media
+id: tdHFCKM7crP8XWuMj0aI

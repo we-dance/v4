@@ -1,0 +1,100 @@
+endDate: 1711137600000
+claimed: No
+description: Move your hips and dance the night away with us at Flamenco's Latin
+  Hip Hop Night every Friday! 😎
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9RI5ZqprjUacsPPQsF6RYmjeuWE2%2Ff74d1b09-1a21-43a3-b4f2-cd200293c457?alt=media&token=5c88d2c3-753b-49bd-80bd-c8a9153f2830
+createdAt: 1710834555556
+artists: []
+price: 0 EUR
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: flamencobangkok
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9RI5ZqprjUacsPPQsF6RYmjeuWE2%2Fe5973662-d257-4135-a6f3-6ee428f86830?alt=media&token=50d213a8-ed97-4109-a514-f064b75aa8dc
+  bio: THE BEST ENTERTAINMENT SPOT IN THE HEART OF BANGKOK’S BUSTLING SUKHUMVIT AREA
+  id: 9RI5ZqprjUacsPPQsF6RYmjeuWE2
+  instagram: ""
+  username: flamencoBKK
+eventType: Party
+form: No
+createdBy: 9RI5ZqprjUacsPPQsF6RYmjeuWE2
+watch:
+  count: 1
+  list:
+    flamencoBKK: true
+name: Latin Hip Hop Nights
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1711108800000
+username: flamencoBKK
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F7mGvSFRptHkAilDhGbEh.png?generation=1710834579850192&alt=media
+venue:
+  formatted_address: 9th Floor, Building A, Em Quartier, แขวงคลองตันเหนือ เขตวัฒนา
+    กรุงเทพมหานคร 10110, Thailand
+  website: https://m.facebook.com/FlamencoBKK/
+  name: Flamenco - Bangkok
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 100.5705748302915
+      south: 13.7299099697085
+      north: 13.7326079302915
+      west: 100.5678768697085
+    location:
+      lng: 100.569039
+      lat: 13.7312091
+  address_components:
+    - types:
+        - route
+      short_name: Em Quartier
+      long_name: Em Quartier
+    - types:
+        - sublocality_level_2
+        - sublocality
+        - political
+      short_name: แขวงคลองตันเหนือ
+      long_name: แขวงคลองตันเหนือ
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: เขตวัฒนา
+      long_name: เขตวัฒนา
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: กรุงเทพมหานคร
+      long_name: กรุงเทพมหานคร
+    - types:
+        - country
+        - political
+      short_name: TH
+      long_name: Thailand
+    - types:
+        - postal_code
+      short_name: "10110"
+      long_name: "10110"
+  place_id: ChIJvWkfkJGf4jARnOZsA2IE5s8
+  international_phone_number: +66 2 003 6006
+  url: https://maps.google.com/?cid=14980666029505308316
+  username: flamencoBKK
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: 7mGvSFRptHkAilDhGbEh
+hash: 1711108800000+ChIJvWkfkJGf4jARnOZsA2IE5s8
+updatedAt: 1710836894931

@@ -1,0 +1,73 @@
+venue:
+  formatted_address: Barcelona, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Barcelona
+      short_name: Barcelona
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Barcelona
+      short_name: B
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Catalonia
+      short_name: CT
+    - types:
+        - country
+        - political
+      long_name: Spain
+      short_name: ES
+  url: https://maps.google.com/?q=Barcelona,+Spain&ftid=0x12a49816718e30e5:0x44b0fb3d4f47660a
+  name: Barcelona
+  geometry:
+    viewport:
+      south: 41.31703848925413
+      north: 41.4682974272428
+      east: 2.22804492421789
+      west: 2.052333262952554
+    location:
+      lng: 2.168568
+      lat: 41.3873974
+  place_id: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+endDate: 2021-10-13T18:00:00.000Z
+link: https://crucerosalsero.weebly.com/
+description: <w-youtube url="https://www.youtube.com/watch?v=RJ05Fc4oKrw"></w-youtube>
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+createdAt: 1631882149131
+watchersCount: 0
+price: TICKETS
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FbsWkTRzJDPis9YxvMdpM.png?generation=1633725096119436&alt=media
+commentsLast: ~
+id: bsWkTRzJDPis9YxvMdpM
+place: ""
+views: 5
+updatedAt: 1631882149131
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: CRUCERO SALSERO 2021
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-10T17:00:00.000Z
+username: Promoter
+viewsCount: 11

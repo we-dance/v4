@@ -1,0 +1,119 @@
+sourceUrl: https://www.facebook.com/events/3815959348624014/3815960201957262/
+createdAt: 1721934050967
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1721934050967
+username: alexrazbakov
+venue:
+  formatted_address: Leof. Nearchou 10, Iraklio 713 06, Greece
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Leof. Nearchou 10
+  geometry:
+    viewport:
+      southwest:
+        lng: 25.1389543197085
+        lat: 35.3396651197085
+      northeast:
+        lng: 25.1416522802915
+        lat: 35.3423630802915
+    location:
+      lng: 25.1402776
+      lat: 35.3409445
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Leof. Nearchou
+      long_name: Leoforos Nearchou
+    - types:
+        - locality
+        - political
+      short_name: Iraklio
+      long_name: Iraklio
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Iraklio
+      long_name: Iraklio
+    - types:
+        - country
+        - political
+      short_name: GR
+      long_name: Greece
+    - types:
+        - postal_code
+      short_name: 713 06
+      long_name: 713 06
+  place_id: ChIJC1TdPi1amhQRqiOrZ3cGpU0
+  url: https://maps.google.com/?q=Leof.+Nearchou+10,+Iraklio+713+06,+Greece&ftid=0x149a5a2d3edd540b:0x4da5067767ab23aa
+endDate: 1722189600000
+claimed: No
+link: ""
+description: >-
+  Τα #LatinParty που τόσο αγαπήσατε ΚΑΘΕ Κυριακή στο Avli Project. 
+
+  Ελάτε να χορέψουμε σε ρυθμούς #Salsa & #Bachata.
+
+
+  𝗔𝘃𝗹𝗶 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 | 𝗔𝗟𝗟 𝗗𝗔𝗬 𝗖𝗮𝗳𝗲 𝗖𝗼𝗰𝗸𝘁𝗮𝗶𝗹 𝗕𝗮𝗿 𝗥𝗲𝘀𝘁𝗮𝘂𝗿𝗮𝗻𝘁 𝗛𝗲𝗿𝗮𝗸𝗹𝗶𝗼𝗻​
+
+  ___________​
+
+  📞+30 281 024 0946​
+
+  📍Leof. Nearchou 10, Heraklion Crete​
+
+
+  FREE PARKING​
+
+  #AvliProject #Heraklion #CocktailBar #avlibarrestaurant #portside #cocktail #VisitHeraklin #RestaurantHeraklion #music #BarHeraklion #CocktailHeraklion
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJP-Fo0GtYmhQR8La54iy9AAQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/3815959348624014/?event_time_id=3815960201957262
+facebookId: "3815960201957262"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Latin Party - Avli Project "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1722168000000+ChIJC1TdPi1amhQRqiOrZ3cGpU0
+startDate: 1722168000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1721934058/dbreozd1u3l6vpjmclsu.jpg
+org:
+  owner: ""
+  importedAt: 1721934055738
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/AvliProject
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1721934056/rmqvirkd4bcsfckdu80n.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1721934055738
+  owned: false
+  name: AVLI Project
+  place: ChIJP-Fo0GtYmhQR8La54iy9AAQ
+  updatedAt: 1721934055738
+  username: AvliProject
+viewsCount: 6
+id: DlpWktaOHgHArJjeVeqR

@@ -1,0 +1,103 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Sonnenstraße 7
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5669362302915
+      south: 48.1368983697085
+      north: 48.1395963302915
+      west: 11.5642382697085
+    location:
+      lng: 11.5657473
+      lat: 48.1382348
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJyTqPVfZ1nkcR9RydKUsWf9Y
+  url: https://maps.google.com/?q=Sonnenstra%C3%9Fe+7,+80331+M%C3%BCnchen,+Germany&ftid=0x479e75f6558f3ac9:0xd67f164b299d1cf5
+endDate: 2023-10-04T23:59
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvZMoKQ25WOR3XJFaf04duoYnKuz2%2F144c0a02-81df-4e5d-9646-324329b3c7ca?alt=media&token=3051c6bb-1dea-4e8e-ac4e-0ef66d910f00
+createdAt: 1696326677594
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1696326677594
+updatedBy: vZMoKQ25WOR3XJFaf04duoYnKuz2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: DJ Bullet Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvZMoKQ25WOR3XJFaf04duoYnKuz2%2F7254a9ec-e8b5-4cdf-b49f-8bdf45b6feba?alt=media&token=242b3cd1-31e0-442c-a6ee-048b5080263f
+  bio: ""
+  id: vZMoKQ25WOR3XJFaf04duoYnKuz2
+  instagram: https://www.instagram.com/dj_bullet_munich/
+  username: dj_bullet_munich
+eventType: Party
+form: No
+createdBy: vZMoKQ25WOR3XJFaf04duoYnKuz2
+watch:
+  count: 1
+  list:
+    dj_bullet_munich: true
+name: Bachata Wednesday by BUBU
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-10-04T21:00
+username: dj_bullet_munich
+viewsCount: 6
+id: EMc3lG3BTEPvkaBfjomS

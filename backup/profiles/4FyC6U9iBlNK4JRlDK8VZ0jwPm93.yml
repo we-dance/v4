@@ -1,0 +1,40 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1636200361109
+locales:
+  de: true
+  en: true
+createdBy: 4FyC6U9iBlNK4JRlDK8VZ0jwPm93
+pwaUsed: false
+contacts: ""
+username: E
+birthday: 1972-04-27
+hometown: ChIJWwEkOrXfmUcRUCgJjTz9HwQ
+gender: Female
+partner: Yes
+name: E
+permission: No
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+place: ChIJWwEkOrXfmUcRUCgJjTz9HwQ
+cities: {}
+updatedAt: 1636201537371
+daysUsed: 5
+lastLoginAt: 1640510423182
+id: 4FyC6U9iBlNK4JRlDK8VZ0jwPm93

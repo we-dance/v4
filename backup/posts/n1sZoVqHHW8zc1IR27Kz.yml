@@ -1,0 +1,128 @@
+endDate: 1731916800000
+sourceUrl: https://www.facebook.com/events/680614900953968/
+createdAt: 1718460037934
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1706967744000
+updatedAt: 1718460037934
+importedAt: 1718460037934
+providerUpdatedAt: 1715202775000
+facebookId: "680614900953968"
+facebook: https://www.facebook.com/events/680614900953968/
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/paris-kizomba-congress-2024/690714566491415/
+  - https://www.facebook.com/events/680614900953968/
+eventType: Congress
+providerItemId: e680614900953968@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "PKC 2024 - Paris Kizomba Congrèss code : MAGICO - 10 €"
+location: HILTON PARIS CHARLES DE GAULLE AIRPORT
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731618000000
+facebookUrlsCount: 2
+username: Aina
+venue:
+  formatted_address: 8 Rue de Rome, 93290 Tremblay-en-France, France
+  website: https://www.hilton.com/en/hotels/cdghitw-hilton-paris-charles-de-gaulle-airport/?SEO_id=GMB-EMEA-TW-CDGHITW
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hilton Paris Charles de Gaulle Airport
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.556071769708498
+        lat: 49.00888336970851
+      northeast:
+        lng: 2.558769730291502
+        lat: 49.01158133029151
+    location:
+      lng: 2.5573789
+      lat: 49.0102629
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Rue de Rome
+      long_name: Rue de Rome
+    - types:
+        - locality
+        - political
+      short_name: Tremblay-en-France
+      long_name: Tremblay-en-France
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Seine-Saint-Denis
+      long_name: Seine-Saint-Denis
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "93290"
+      long_name: "93290"
+  international_phone_number: +33 1 49 19 77 77
+  place_id: ChIJ_49q_P4V5kcRVF5hEvaV6LY
+  url: https://maps.google.com/?cid=13179949193602621012
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Pat-Kizmagico/pfbid02vqyHudx8xZhT7dcCyPUerLAgr7cNRe6Qhtj97hFHGF5KNYMphhbHRa8S1NKVhC7Kl/
+  name: Pat Kizmagico
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224699/bfskcbhwhh78rfnbiosd.jpg
+  bio: ""
+  id: N0ooWJIbuUkp0DxSwo8I
+  instagram: ""
+  username: PatKizmagico
+claimed: No
+link: ""
+description: >-
+  Code promo : MAGICO
+                  -10€
+
+
+  105€ au de 115€ le full pass
+
+
+  𝗧𝗵𝗲𝗿𝗲 𝗶𝘀 𝘀𝘁𝗶𝗹𝗹 𝙔𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙘𝙤𝙢𝙚 𝙩𝙤 𝙋𝙆𝘾 𝙨𝙤 𝙙𝙤𝙣’𝙩 𝙬𝙖𝙞𝙩 𝙖𝙣𝙮 𝙡𝙤𝙣𝙜𝙚𝙧!
+
+
+  Vous souhaitez venir à PKC alors n'attendez plus !
+
+
+  🎫 Tickets 🎫 https://my.weezevent.com/paris-kizomba-congress-2024
+
+  Event official PKC 2024 : https://facebook.com/events/s/paris-kizomba-congress-2024/690714566491415/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718460056/n47lk36weqlejdafwpf8.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJz0HtktIV5kcRYDqLaMOCCwQ
+international: No
+hash: 1731618000000+ChIJ_49q_P4V5kcRVF5hEvaV6LY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fn1sZoVqHHW8zc1IR27Kz.png?generation=1718460083083652&alt=media
+id: n1sZoVqHHW8zc1IR27Kz

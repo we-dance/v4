@@ -1,0 +1,88 @@
+venue:
+  formatted_address: Marmaris, Muğla, Türkiye
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Marmaris
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 28.28456807457172
+      south: 36.8282289674348
+      north: 36.86794106022416
+      west: 28.23832294990365
+    location:
+      lng: 28.270878
+      lat: 36.854936
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Marmaris
+      long_name: Marmaris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Marmaris
+      long_name: Marmaris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Muğla
+      long_name: Muğla
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+  place_id: ChIJIxWW8b-9vxQRvrLu0Q5zjt8
+  url: https://maps.google.com/?q=Marmaris,+Mu%C4%9Fla,+T%C3%BCrkiye&ftid=0x14bfbdbff1961523:0xdf8e730ed1eeb2be
+endDate: 2023-04-16T07:00
+claimed: No
+description: "Wonderful Beach and Sea along with Salsa, Bachata and Kizomba
+  Dance shows and social dance. "
+program: []
+type: event
+duration: 60
+createdAt: 1681336192713
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJsS1zINVH0xQRjSuEwLBX3As
+international: No
+updatedAt: 1681336192713
+updatedBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+visibility: Public
+org:
+  instagram: https://instagram.com/bilakizz
+  username: bilakizz
+eventType: Festival
+confirmation: |-
+  Dear Dancer,
+
+  Welcome to your guest list.
+form: No
+createdBy: J1GUmLhOHBYDDS9aB5CfhDZERRd2
+watch:
+  count: 1
+  list:
+    BilaKizz: true
+name: Zaya Dance Fest
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: BilaKizz
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJ1GUmLhOHBYDDS9aB5CfhDZERRd2%2Fb3320dab-eb0b-4293-8f11-077c4059f663?alt=media&token=8abbb28e-91bb-4727-8ae9-3068169b28b7
+id: MyMqOQNyiwy0x0t5nXWn
+startDate: 2023-04-13T23:30
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMyMqOQNyiwy0x0t5nXWn.png?generation=1681406285277275&alt=media
+viewsCount: 30

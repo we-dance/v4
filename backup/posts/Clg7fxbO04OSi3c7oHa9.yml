@@ -1,0 +1,129 @@
+venue:
+  formatted_address: Zenettistraße 7, 80337 München, Germany
+  website: https://www.salsa-y-corazon.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Y Corazon - dance school
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5593370802915
+      south: 48.1218745197085
+      north: 48.1245724802915
+      west: 11.5566391197085
+    location:
+      lng: 11.5578922
+      lat: 48.1231417
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Zenettistraße
+      long_name: Zenettistraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80337"
+      long_name: "80337"
+  international_phone_number: +49 172 9659579
+  place_id: ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+  url: https://maps.google.com/?cid=8616399599048238742
+  username: SalsaYCorazon
+endDate: 1719071100000
+claimed: No
+description: >-
+  Focused intensely on technique, this course covers turn patterns with focus on
+  body movement. 
+
+  Expect to learn isolation, body roll/body wave & syncopation. 
+
+
+  As well as new moves, we will work on leading and following technique & most importantly on musicality).
+program: []
+type: event
+duration: 135
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fbc1fdcff-b967-43e2-88d3-1d7532cef695?alt=media&token=c44fd850-6a8c-4812-b088-d9b1e0e0fd88
+createdAt: 1718617117265
+price: 85 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  username: AnnaMil
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Bachata Mittelstufe 1 Partnerwork (2 Days)
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719063000000
+hash: 1719063000000+ChIJ7SAJ9Rd3nkcRlqYWoMiZk3c
+username: AnnaMil
+viewsCount: 1
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FClg7fxbO04OSi3c7oHa9.png?generation=1718617130098815&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/people/Anna-Milite/pfbid0PNNhDFesL2MSZmD2niboREKvGQRzYv1dUgUkqiLbs5yd2aq2U47ozobSvYPmbt3Vl/
+    name: Anna
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    instagram: https://instagram.com/milite_anna
+    username: AnnaMil
+artistsList:
+  - AnnaMil
+instagram:
+  messageUrl: https://instagram.com/p/C8T-XSMOo0b
+  publishedAt: 1718617181347
+  messageId: C8T-XSMOo0b
+  state: published
+promotionError: ""
+promotion: completed
+id: Clg7fxbO04OSi3c7oHa9
+eventType: Workshop
+updatedAt: 1718617572781

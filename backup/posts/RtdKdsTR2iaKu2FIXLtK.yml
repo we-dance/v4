@@ -1,0 +1,138 @@
+endDate: 1719712800000
+sourceUrl: https://www.facebook.com/events/827663185844749/
+createdAt: 1718287249591
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714916204000
+updatedAt: 1718287249591
+importedAt: 1718287249591
+providerUpdatedAt: 1714916204000
+facebookId: "827663185844749"
+facebook: https://www.facebook.com/events/827663185844749/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/827663185844749/
+eventType: Party
+providerItemId: e827663185844749@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 904 Salsa Fest
+location: James Weldon Johnson Park
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719694800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 135 W Monroe St, Jacksonville, FL 32202, USA
+  website: https://jamesweldonjohnsonpark.org/events/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: James Weldon Johnson Park
+  geometry:
+    viewport:
+      southwest:
+        lng: -81.66059438029151
+        lat: 30.3276078197085
+      northeast:
+        lng: -81.65789641970849
+        lat: 30.3303057802915
+    location:
+      lng: -81.659251
+      lat: 30.328937
+  address_components:
+    - types:
+        - street_number
+      short_name: "135"
+      long_name: "135"
+    - types:
+        - route
+      short_name: W Monroe St
+      long_name: West Monroe Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Downtown
+      long_name: Downtown
+    - types:
+        - locality
+        - political
+      short_name: Jacksonville
+      long_name: Jacksonville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Duval County
+      long_name: Duval County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: FL
+      long_name: Florida
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "32202"
+      long_name: "32202"
+  international_phone_number: +1 904-515-5098
+  place_id: ChIJNbuz7Be35YgRovksWT5bCKI
+  url: https://maps.google.com/?cid=11675682357300230562
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718287277356
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/YAYAPRODUCTIONSLLC
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718287277/ch80ki6kbg7rg4t9dy6p.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718287277356
+  owned: false
+  name: Yaya Production
+  place: ChIJ2YhKsRm35YgR_GqVxz5NAQw
+  updatedAt: 1718287277356
+  username: YAYAPRODUCTIONSLLC
+claimed: No
+link: ""
+description: >-
+  904 Salsa Fest! 
+
+  Jacksonville! Start stretching now! Get ready to dance Salsa all evening long at @jamesweldonjohnsonpark free and family friendly! With local salsa bands and a reunion Jax’s favorite salsa band, Ritmo Y Sabor with Yaya Love! 
+
+
+  Saturday June 29th
+
+  5pm-10pm
+
+  @jamesweldonjohnsonpark 
+
+
+  For sponsorship and vending info yaya@yayaproductions.org 
+
+
+  Prouduced by Yaya. Productions and @jamesweldonjohnsonpark 
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2YhKsRm35YgR_GqVxz5NAQw
+international: No
+hash: 1719694800000+ChIJNbuz7Be35YgRovksWT5bCKI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FRtdKdsTR2iaKu2FIXLtK.png?generation=1718287286481589&alt=media
+viewsCount: 2
+id: RtdKdsTR2iaKu2FIXLtK

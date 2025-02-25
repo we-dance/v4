@@ -1,0 +1,40 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628148789031
+locales:
+  en: true
+  fr: true
+  es: true
+createdBy: SRWkJavUmugKipGsaQQvXZ55ePb2
+pwaUsed: false
+username: prosales
+gender: Male
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FSRWkJavUmugKipGsaQQvXZ55ePb2%2Fd9937960-db98-4008-87a9-f3dd54a28a9d?alt=media&token=d74b5220-e8ac-4ccf-b441-39a28e789ac1
+step: photo
+contacts: ""
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: SRWkJavUmugKipGsaQQvXZ55ePb2
+offers: []
+name: Prosales
+team: []
+watch:
+  count: 1
+  usernames:
+    - celestemedina
+  history:
+    - username: celestemedina
+      date: 1731243670892
+      invitedBy: ugduS2KIFpfN0LpHggYowXoHYsA2
+      uid: ugduS2KIFpfN0LpHggYowXoHYsA2
+      action: joined
+viewsCount: 42
+bookmarks:
+  - M0xTg9nEz8vL7qeFhUeH
+  - TrRbFlExlSkiNgtW1cr0
+updatedAt: 1731837402642
+lastLoginAt: 1731958537120
+daysUsed: 59

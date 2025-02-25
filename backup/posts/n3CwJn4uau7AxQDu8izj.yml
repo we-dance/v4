@@ -1,0 +1,124 @@
+venue:
+  website: http://www.aziza-tanzt.de/
+  formatted_address: Milastraße 4, 10437 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: aziza-tanzt Tanzschule
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4121533802915
+      south: 52.54412871970849
+      north: 52.54682668029149
+      west: 13.4094554197085
+    location:
+      lng: 13.4108144
+      lat: 52.54555519999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Milastraße
+      long_name: Milastraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Pankow
+      long_name: Bezirk Pankow
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10437"
+      long_name: "10437"
+  international_phone_number: +49 30 4654567
+  url: https://maps.google.com/?cid=9133900350177705234
+  place_id: ChIJGdrq1gNSqEcREn0omvkhwn4
+endDate: 2023-02-25T19:30
+claimed: No
+link: https://la-kossa.de/produkt/workshops/
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2Fce0c8a60-6cf1-4841-a49a-a662d135146a?alt=media&token=6b16ba97-f668-415d-9552-270e1465edc2
+createdAt: 1671448275672
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/lakossa.fitness
+    name: Ari - La Kossa®
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F27efcc73-45f6-48aa-b1de-2dfc68e69964?alt=media&token=120a06cd-fcef-4baa-8f45-b121ad2beda2
+    bio: Empowerment through dancing
+    instagram: https://instagram.com/la.kossa
+    id: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+    username: lakossa
+price: 19 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - lakossa
+international: No
+updatedAt: 1671448275672
+updatedBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/lakossa.fitness
+  name: Ari - La Kossa®
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqTPAP7OhWMYjtoPXtpUJavNz5Fr2%2F27efcc73-45f6-48aa-b1de-2dfc68e69964?alt=media&token=120a06cd-fcef-4baa-8f45-b121ad2beda2
+  bio: Empowerment through dancing
+  instagram: https://instagram.com/la.kossa
+  id: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+  username: lakossa
+eventType: Workshop
+form: No
+watch:
+  count: 1
+  list:
+    lakossa: true
+createdBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+name: Afro Dance / Ndombolo Dance Workshop
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-25T17:30
+username: lakossa
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fn3CwJn4uau7AxQDu8izj.png?generation=1677340326346061&alt=media
+telegram:
+  requestedAt: 1677340378042
+  messageUrl: https://t.me/WeDanceMunich/954
+  publishedAt: 1677340379234
+  messageId: 954
+  state: published
+instagram:
+  requestedAt: 1677340380107
+  messageUrl: https://instagram.com/p/CpF1IqEO0r0
+  publishedAt: 1677340392130
+  messageId: CpF1IqEO0r0
+  state: published
+viewsCount: 32
+id: n3CwJn4uau7AxQDu8izj

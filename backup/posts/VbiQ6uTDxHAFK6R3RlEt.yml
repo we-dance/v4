@@ -1,0 +1,141 @@
+endDate: 1716649200000
+sourceUrl: https://www.facebook.com/events/454289070584533/
+createdAt: 1715444417344
+approved: true
+provider: ical
+providerId: FDwgzaLrddKSK3dKkP1k
+providerCreatedAt: 1715114825000
+updatedAt: 1715444417344
+importedAt: 1715444417344
+providerUpdatedAt: 1715114875000
+facebookId: "454289070584533"
+facebook: https://www.facebook.com/events/454289070584533/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/454289070584533/
+eventType: Course
+providerItemId: e454289070584533@facebook.com
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+name: Intensive Bachata Beginner Bootcamp
+location: Kizztalk Dance Academy
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716634800000
+facebookUrlsCount: 1
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  website: https://www.kizztalk.de/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13483610605514083579
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizztalk Dance Academy
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5361075697085
+        lat: 48.1232715697085
+      northeast:
+        lng: 11.5388055302915
+        lat: 48.1259695302915
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  international_phone_number: +49 1515 7942042
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+  url: https://maps.google.com/?cid=1174991087505886864
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0NodRmrpWQ2D18Ecya9vEtunw3PE4rFkye1mrYaMxZjrGQJqNHVdMqxvVf48VrZEVl
+  name: Ananth Sakravarthy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431975/gumvlvhbl7czxpmywuwm.jpg
+  bio: ""
+  id: 0k10cphh1cf30ypMD3PU
+  instagram: ""
+  username: ananth.sakravarthy
+claimed: No
+link: ""
+description: >-
+  Dear All 😍😍�* Would you like to be part of international dance community ?
+  Want to make more friends & socials and dance ?
+
+  �=> Then this bootcamp for you ❤️�=> Bachata is one of the most popular social dances, which people dances all around the world.
+
+  �=> This Bachata Bootcamp is a fast track for complete beginners.
+
+  �=> You will be learning all the basics that you need to know to go for bachata socials�
+
+  => Is this course for you?�* If you have some or no experienced�* OR if you already know bachata and would like to review your basics or just want to have fun
+
+  �>>> Then this bootcamp is definitely for YOU�
+
+  Bootcamp Details�*Dates*�May 25, 2024�*Time*�1 pm - 5 pm (4 hours in total + 30 mins practice)�*Price*�37 Euro per person
+
+  �*Partner*�You can join alone or you can join with your own partner but registration via pm is necessary to have balanced couples�
+
+  *Location*�Kizztalk Tanzstudio , Martin-Behaim-Straße 3, 81373 München
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444434/nzqhrduiwgttxo9b4yzg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1716634800000+ChIJu6gvmqrZnUcRkM4JMStoThA
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVbiQ6uTDxHAFK6R3RlEt.png?generation=1715444458615293&alt=media
+viewsCount: 3
+id: VbiQ6uTDxHAFK6R3RlEt

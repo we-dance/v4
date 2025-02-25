@@ -1,0 +1,501 @@
+createdAt: 1704822898209
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/244838304911288/
+source: facebook
+updatedAt: 1704822898209
+username: wedancebot
+venue:
+  formatted_address: Via Parigi, 8, 61121 Pesaro PU, Italy
+  website: https://www.hotelbaiaflaminia.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Baia Flaminia
+  geometry:
+    viewport:
+      southwest:
+        lng: 12.8972244697085
+        lat: 43.9200866697085
+      northeast:
+        lng: 12.8999224302915
+        lat: 43.9227846302915
+    location:
+      lng: 12.8984972
+      lat: 43.9213076
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Via Parigi
+      long_name: Via Parigi
+    - types:
+        - locality
+        - political
+      short_name: Pesaro
+      long_name: Pesaro
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Pesaro
+      long_name: Pesaro
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: PU
+      long_name: Provincia di Pesaro e Urbino
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Marche
+      long_name: Marche
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "61121"
+      long_name: "61121"
+  international_phone_number: +39 0721 172 2600
+  place_id: ChIJ4y24ozIZLRMRiSQeXt8fQWI
+  url: https://maps.google.com/?cid=7079975133420332169
+visibility: Public
+endDate: 1729460700000
+org:
+  owner: ""
+  importedAt: 1704822901220
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/kimafestival
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/301770907_518328410294816_4179058960924204638_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=109&ccb=1-7&_nc_sid=596444&_nc_ohc=MLZxBLCGQZwAX_a8H6f&_nc_ht=scontent-iad3-2.xx&oh=00_AfCaiD0xgh71aCv27qz2w2Zyp3qAHC5QB7O1QDQG3-BDOg&oe=65A297A4
+  source: facebook
+  type: Organiser
+  createdAt: 1704822901220
+  owned: false
+  name: KiMa International Marche Festival
+  place: ChIJMbKU_qweLRMR1DO5vATs7j8
+  updatedAt: 1704822901220
+  username: kimafestival
+claimed: No
+facebookId: "244838304911288"
+link: ""
+description: >-
+  ⭐⭐KIMA 2024 9th Edition⭐⭐
+
+
+  Date: 17-18-19-20 October 2024
+
+
+  Location: HOTEL BAIA FLAMINIA, Pesaro (PU) - Via Parigi, 8, 61121
+
+
+
+  ⬇️⬇️⬇️ITALIANO⬇️⬇️⬇️
+
+  🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹
+
+
+  Pass KIMA 2024 disponibili sul sito https://www.kimafestival.com/ a partire da Novembre 2023
+
+
+
+  Camere: Camere prenotabili a partire da Novembre 2023
+
+
+
+  🇬🇧🇬🇧🇬🇧 for English scroll down ⬇️
+
+  🇪🇸🇪🇸🇪🇸 para español, desplácese hacia abajo ⬇️
+
+
+
+  💥💥💥 LINE UP 💥💥💥
+
+
+
+  🕺 SALSA ARTISTS 💃
+
+
+  Fernando Sosa y Tropical Gem
+
+  Johnny Vasquez y su Impero Atzeca
+
+  Antonio y Jasmina Berardi
+
+  Panagiotis y Myrto
+
+  Roly Maden
+
+  Marco Ferrigno y Ansima
+
+  Salsa People
+
+  Mauro Tomatis y Marzena
+
+  Maroli Brothers
+
+  Elvis y Sabrina
+
+  Michele y Chiara
+
+  Manuel y Stefano
+
+  Luigi y Tiziana
+
+  Emiliano y Mara
+
+  Gabriele y Francesca
+
+  Piero y Monica
+
+  Bruno y Alessandra
+
+  Kico N' Ritmo
+
+  Angelo y Ilenia
+
+  Angelo y Ilenia
+
+  Giuseppe Y Stefania
+
+  R & B Academy
+
+  Javi y Alice
+
+  Giacomo y Sarah
+
+  Valentina y Fabrizio
+
+  Luca y Marcella
+
+  Fabio y Monia
+
+  Diego y Loredana
+
+  Rico y Dany  Muevete
+
+  Mary Hola
+
+  Michele Bailaconmigo
+
+  Cesare Bolzano
+
+  Andrea y Giulia
+
+  Gardenio y Giovanna
+
+  Kasino Latino
+
+  Francesco y Valeria
+
+  Alessandro y Simona
+
+  Simone y Chiara
+
+
+  & more...
+
+
+
+  🕺 BACHATA ARTISTS 💃
+
+
+  Abdel y Lety
+
+  Kike y Nahir
+
+  Carlos Espinosa
+
+  Riccardo y Silvia
+
+  Andrea y Silvia
+
+  Simone y Danila
+
+  Demetrio y Silvia
+
+  Lorenzo y Federica
+
+  Alessia Lucarelli
+
+  Thomas y Virginia
+
+  Salvatore y Silvia
+
+  Marco y Emily
+
+  Francesco y Chiara
+
+  Gabriele y Silvia
+
+  Lorenzo y Roberta
+
+  Damiano y Elisa
+
+  Simone y Mara
+
+  Guillermo y Leilen
+
+  Daniel y Giada
+
+  Federica y Stefano
+
+  Luca y Marta
+
+  Filippo y Alessandra Elegancia
+
+  Moreno y Annalisa
+
+  Robin y Cristina
+
+  Archileo y Alessia
+
+  Matteo y Maria
+
+  Mattia y Tonia
+
+
+  & more...
+
+
+
+  🕺 KIZOMBA ARTISTS 💃
+
+
+  Albir Rojas
+
+  Isabelle & Felicien
+
+  Fred Nelson & Morgane
+
+  Jesus & Anni
+
+  Dwe' & Gaby
+
+  Davide & Laura
+
+  Benoit & Sneja
+
+  David Pacavira
+
+  Carlo & Veronica
+
+  Andrea & Sonia KK
+
+  Dinara & Noemi
+
+  Cristoforo & Paola
+
+  Stefano & Eleonora
+
+  Luca & Elena
+
+  Oscar Amore
+
+  Stefano & Maura
+
+  Giuseppe Andrea
+
+  Natalia Boudina
+
+  Kizomba Addicted Squad
+
+  Daniela & Andrea Club Tortuga
+
+  Massimiliano & Benedetta
+
+  Stefano & Beatrice
+
+  Dino Style & Monia
+
+  Gugu
+
+  Angelo & Anna
+
+  Maurizio & Carmelina
+
+  Alessandro & Tiziana
+
+  John & Stefy
+
+  Marco & Cinzia
+
+  Graziella & Ivan
+
+  Alessandro & Silvia
+
+  Gianni & Sabrina
+
+  Daniele & Loredana
+
+  Paolo & Angelica
+
+  Stefano & Elena
+
+  Simone & Jennifer
+
+  Giovanna D'Agosta
+
+  Raffaella Sillistrini
+
+  Carlo & Alessandra
+
+  Luca & Francesca
+
+  Lidy
+
+  Daniel & Federica
+
+  Samantha & Alessandro
+
+  Luca Mazzarini
+
+  Christian & Alessia NG Dance
+
+  Massimo & Antonella
+
+  Eddie & Deborah
+
+  Lorella Romoli
+
+  Claudia Fernandes
+
+  Franco & Daniela
+
+  Nicola & Valentina
+
+  Daniele & Eleonora
+
+  Mauro & Melissa
+
+  Vatha & Elena
+
+  Valter & Elena
+
+
+  & more...
+
+
+
+  🎧 Official DJs 🎧
+
+
+  Info Coming Soon
+
+
+
+  🕺 TAXI DANCERS 🕺
+
+
+  Info Coming Soon
+
+
+
+  🔥🔥Organizzatori🔥🔥
+
+  STEFANO MORESCHI
+
+  (https://www.facebook.com/stefano.ele.1)
+
+  ELEONORA FRASCHINI
+
+  (https://www.facebook.com/eleonora.fraschinikizomba.9)
+
+
+  🔥🔥Direttore Artistico🔥🔥
+
+  LUCA ARRIGONI
+
+  (https://www.facebook.com/luca.arrigoni.kizomba)
+
+
+
+  💶💰PREZZI FULL PASS💰🪙
+
+
+  Info Coming Soon
+
+
+
+
+  ⬇️⬇️⬇️⬇️⬇️⬇️ENGLISH⬇️⬇️⬇️⬇️⬇️⬇️
+
+  🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧
+
+
+
+  ⭐⭐KIMA 2024 9th Edition⭐⭐
+
+
+  Date: 17-18-19-20 October 2024
+
+  Location: HOTEL BAIA FLAMINIA, Pesaro (PU) - Via Parigi, 8, 61121
+
+
+  Info Coming Soon
+
+
+
+  ⬇️⬇️⬇️⬇️⬇️⬇️SPANISH⬇️⬇️⬇️⬇️⬇️⬇️
+
+  🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸🇪🇸
+
+
+
+  ⭐⭐KIMA 2024 9ma Edición⭐⭐
+
+
+  Date: 17-18-19-20 Octubre 2024
+
+  Ubicación: HOTEL BAIA FLAMINIA, Pesaro (PU) - Via Parigi, 8, 61121
+
+
+  Información próximamente
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: KiMa - International Marche Festival 2024 9th edition
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJMbKU_qweLRMR1DO5vATs7j8
+international: No
+hash: 1729166400000+ChIJ4y24ozIZLRMRiSQeXt8fQWI
+startDate: 1729166400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FlqguKAYnW12a8spXPhlW.png?generation=1704822919995090&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853485/dwxpkorwlznghvsfmiho.jpg
+viewsCount: 49
+id: lqguKAYnW12a8spXPhlW

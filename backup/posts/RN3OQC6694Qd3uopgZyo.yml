@@ -1,0 +1,191 @@
+endDate: 1729969200000
+sourceUrl: https://www.facebook.com/events/883618580364402/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1724751258000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727473714000
+facebookId: "883618580364402"
+facebook: https://www.facebook.com/events/883618580364402/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/883618580364402/
+eventType: Workshop
+providerItemId: e883618580364402@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BACHATA HALLOWEEN 2024 (26.10.2024)
+location: Bachata Studio Helsinki
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729958400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Ukkohauentie 11-13 C, 02170 Espoo, Finland
+  website: https://www.bachatafinland.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Bachata Studio Helsinki
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.7740270197085
+        lat: 60.16169791970849
+      northeast:
+        lng: 24.7767249802915
+        lat: 60.16439588029151
+    location:
+      lng: 24.7753591
+      lat: 60.16296129999999
+  address_components:
+    - types:
+        - subpremise
+      short_name: 11-13 C
+      long_name: 11-13 C
+    - types:
+        - route
+      short_name: Ukkohauentie
+      long_name: Ukkohauentie
+    - types:
+        - locality
+        - political
+      short_name: Espoo
+      long_name: Espoo
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Espoo
+      long_name: Espoo
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "02170"
+      long_name: "02170"
+  international_phone_number: +358 40 8099709
+  place_id: ChIJrZRi4eUJkkYRx7o484Vy8wY
+  url: https://maps.google.com/?cid=500869903205055175
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417986139
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachatastudiohelsinki
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417986/brplif3myvevpwri8ukp.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417986139
+  owned: false
+  name: Bachata Studio Helsinki
+  place: ChIJ4Us9pPryjUYRn1MzXbSQuPA
+  updatedAt: 1728417986139
+  username: bachata.studio.helsi
+claimed: No
+link: ""
+description: >-
+  🎃 BACHATA HALLOWEEN 🎃 
+
+
+  Welcome to Bachata Halloween 2024! 
+
+  Bachata Workshops & Social Dance! 
+
+
+  SCHEDULE 
+
+
+  19.00-20.00 hrs. Bachata Sensual (Open level)
+
+  20.00-21.00 hrs. Bachata Fusion (Open level) 
+
+
+  >>SOCIAL DANCE<<
+       21.00-00.30 hrs. 
+
+  ** NO PARTNER NEEDED **
+
+
+  Dress code: Halloween (optional) 
+
+
+  NO REGISTRATION NEEDED
+
+
+  PRICES:
+
+  2 workshops + social: 25€
+
+  1 workshop + social: 15€
+
+  Only Social: 10€ 
+
+
+  PAYMENT AT STUDIO (card/cash) 
+
+
+  INFO:
+
+
+  - Studio Open Doors 15 min. Before classes
+
+  - Indoor shoes or dancing shoes Only 
+
+  - Dancing heels please use silicone protector 
+
+  - Payment before classes starts at the reception 
+
+  - Please leave big bags at the dressing rooms 
+
+  - No Food & No drinks at the dancing rooms (We have Special area for Snacks and drinks)
+
+  - First time at studio Please visit this link: www.bachatafinland.com/studio
+
+  - free parking in front of studio 2 hours with Clock timer (Please be aware for the time to prevent some fine) 
+
+  - free parking spots near studio (if you need help please ask in Reception)
+
+  - You can bring own drinks & snacks 
+
+  - more info please contact us!
+
+
+  #BachataHalloween
+
+  #BachataStudio 
+
+  #Bachateame 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417987/krodxqg7dbeovi4nosmw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ4Us9pPryjUYRn1MzXbSQuPA
+international: No
+hash: 1729958400000+ChIJrZRi4eUJkkYRx7o484Vy8wY
+id: RN3OQC6694Qd3uopgZyo

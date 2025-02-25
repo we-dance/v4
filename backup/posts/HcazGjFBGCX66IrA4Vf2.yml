@@ -1,0 +1,173 @@
+endDate: 1714525200000
+sourceUrl: https://www.facebook.com/events/1006817327614869/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709550600000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1710183585000
+facebookId: "1006817327614869"
+facebook: https://www.facebook.com/events/1006817327614869/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1006817327614869/
+eventType: Festival
+providerItemId: e1006817327614869@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 💃 Tanz in den Mai - Latino Special 💃
+location: Gustavstraße 34, 90762 Fürth, Germany
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714498200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Gustavstraße 34, 90762 Fürth, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Gustavstraße 34
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.9876623697085
+        lat: 49.4778238697085
+      northeast:
+        lng: 10.9903603302915
+        lat: 49.48052183029149
+    location:
+      lng: 10.9889891
+      lat: 49.47922699999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "34"
+      long_name: "34"
+    - types:
+        - route
+      short_name: Gustavstraße
+      long_name: Gustavstraße
+    - types:
+        - locality
+        - political
+      short_name: FÜ
+      long_name: Fürth
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Fürth
+      long_name: Kreisfreie Stadt Fürth
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90762"
+      long_name: "90762"
+  place_id: ChIJ8TwdYJRVn0cRwiYCs6hofXo
+  url: https://maps.google.com/?q=Gustavstra%C3%9Fe+34,+90762+F%C3%BCrth,+Germany&ftid=0x479f5594601d3cf1:0x7a7d68a8b30226c2
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1713214849433
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/GruenerBaumFuerth
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214849/bxc75w74zf1y36vysfvx.png
+  source: facebook
+  type: Organiser
+  createdAt: 1713214849433
+  owned: false
+  name: Grüner Baum Fürth
+  place: ChIJMQVnDHpVn0cR4Me1vjLaHgQ
+  updatedAt: 1713214849433
+  username: GruenerBaumFuerth
+claimed: No
+link: https://www.gruenerbaumfuerth.de/ticketshop
+description: >-
+  Hola Salsero, Bachateros, Kizomberos & Partypeople,
+
+
+  Der Frühling steht vor der Tür und wir möchten ihn karibisch feierlich mit euch begrüßen. 
+
+  Die Party vorm Feiertag mit guter Laune Garantie und besonderen karibischen Flair !!! 
+
+
+
+  19:30 Einlass
+
+  19:45-20:45 Salsa Mittelstufe Workshop
+
+  20:45-1:30 Party auf 3 Areas
+
+
+  Eintritt 10€
+
+
+
+  Als besonderes Highlight kommt diesmal Ralf & Tatjana von Bailamos Würzburg für einen Salsa Mittelstufe Workshop. 
+
+
+  Area 1 Ballsaal: Dj NMB & Dj Norbert 
+
+  Area 2 Kaminzimmer: Dj Walty
+
+  Area 3 Bar/Schwem Djane Petra  Hip Hop, Regaton und Partymucke
+
+  Biergarten: BBQ & Outdoor Area
+
+
+
+  Dj NMB (Nürnberg) bekannt von ¡Vamos a Bailar!, Dance for -Charity- the Bachata Night, Salsatheken und Festivals in der Region.
+
+  Dj Norbert (Fürth) bekannt aus diversen Salsatheken im Großraum und Festivals im Großraum.
+
+  Dj Walty (Würzburg) bekannt diversen Veranstaltung aus der Region und in Großraum Bayern. 
+
+
+
+  Kommt und lasst uns den altehrwürdigen Grünen Baum zum beben bringen. 
+
+
+  Wir freuen uns auf euch !!!
+
+
+
+  Nos vemos....
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214850/hgnyl8goixhcqxuyyf1d.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJMQVnDHpVn0cR4Me1vjLaHgQ
+international: No
+hash: 1714498200000+ChIJ8TwdYJRVn0cRwiYCs6hofXo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FHcazGjFBGCX66IrA4Vf2.png?generation=1713214884790623&alt=media
+viewsCount: 4
+id: HcazGjFBGCX66IrA4Vf2

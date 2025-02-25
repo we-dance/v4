@@ -1,0 +1,162 @@
+venue:
+  formatted_address: Kehrwieder 5, 20457 Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kehrwieder 5
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 9.987589530291503
+      south: 53.5423433697085
+      north: 53.5450413302915
+      west: 9.984891569708498
+    location:
+      lng: 9.9862635
+      lat: 53.5435724
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Kehrwieder
+      long_name: Kehrwieder
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20457"
+      long_name: "20457"
+  place_id: ChIJFwjJFASPsUcRkY0RQ9sE9r8
+  url: https://maps.google.com/?q=Kehrwieder+5,+20457+Hamburg,+Germany&ftid=0x47b18f0414c90817:0xbff604db43118d91
+endDate: 2023-10-08T23:30
+claimed: No
+link: https://www.eventbrite.de/e/3rd-bachata-festival-hamburg-tickets-551430953827
+description: >-
+  3rd Bachata Festival Hamburg
+
+
+  Besuche dein Lieblingsfestival in Hamburg, direkt am Hafen. Eine familiäre Atmosphäre, tolle Tänzer und herausragende Künstler. Erweitere deine Kenntnisse und teile deine Leidenschaft mit einer wundervollen Community. Um ein qualitativ hochwertiges Event zu ermöglichen, sind die Tickets limitiert.
+
+
+  3rd Bachata Festival Hamburg
+
+
+  Join your favourite Bachata festival in town, right at the harbour of Hamburg. A familiar atmosphere, great dancers and amazing artists. Improve your skills and share your passion with an incredible community. In order to offer a high quality event, the tickets are limited.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F75a3b0fc-0791-4cb6-8334-36a954966638?alt=media&token=c65b035b-37a6-4439-a70b-014c052799ff
+createdAt: 1682537551323
+artists:
+  - instagram: https://instagram.com/dancemaniacskd
+    username: dancemaniacskd
+  - instagram: https://instagram.com/maria.bachata
+    username: maria.bachata
+  - instagram: https://instagram.com/hadriencollenot
+    username: hadriencollenot
+  - instagram: https://instagram.com/annahorn22
+    username: annahorn22
+  - instagram: https://instagram.com/simply___anna
+    username: simply___anna
+  - instagram: https://instagram.com/ryanmilesmusic
+    username: ryanmilesmusic
+  - instagram: https://instagram.com/dj.chami.bachata
+    username: dj.chami.bachata
+  - instagram: https://instagram.com/denisandmariana
+    username: denisandmariana
+  - instagram: https://instagram.com/christinaschirjaev
+    username: christinaschirjaev
+  - instagram: https://instagram.com/charlott.sophella
+    username: charlott.sophella
+  - instagram: https://instagram.com/issamandcharlott
+    username: issamandcharlott
+  - instagram: https://instagram.com/karolina_hartung
+    username: karolina_hartung
+  - instagram: https://instagram.com/kcdancestudiobasel
+    username: kcdancestudiobasel
+  - instagram: https://instagram.com/kikochristina
+    username: kikochristina
+  - instagram: https://instagram.com/berraylauraoficial
+    username: berraylauraoficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: ⚜️T͢R͢U͢J͢I͢ & G͢L͢O͢R͢I͢A͢⚜️
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftrujiygloriaoficial.png?generation=1644356740512465&alt=media
+    bio: ""
+    id: OTcXBj9Nv6uGuJvGIVqL
+    instagram: https://instagram.com/trujiygloriaoficial
+    username: trujiygloriaoficial
+price: 119 - 170 EUR
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+artistsList:
+  - dancemaniacskd
+  - maria.bachata
+  - hadriencollenot
+  - annahorn22
+  - simply___anna
+  - ryanmilesmusic
+  - dj.chami.bachata
+  - denisandmariana
+  - christinaschirjaev
+  - charlott.sophella
+  - issamandcharlott
+  - karolina_hartung
+  - kcdancestudiobasel
+  - kikochristina
+  - berraylauraoficial
+  - trujiygloriaoficial
+international: Yes
+updatedAt: 1682537551323
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/bachatafestivalhamburg
+  username: bachatafestivalhamburg
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: BACHATA FESTIVAL HAMBURG
+online: No
+startDate: 2023-10-06T00:00
+username: IvanaSoldat
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: IcC1muKndtWfv3Khkjyf
+star:
+  count: 0
+  usernames: []
+  list: {}
+viewsCount: 129

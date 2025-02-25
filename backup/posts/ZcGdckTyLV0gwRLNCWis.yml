@@ -1,0 +1,127 @@
+venue:
+  website: https://www.cumbancha.de/
+  formatted_address: Möckernstraße 68, 10965 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Cumbancha "LaFamilia" -Salsa Tanzschule - Berlin
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3788282302915
+      south: 52.48947941970851
+      north: 52.49217738029151
+      west: 13.3761302697085
+    location:
+      lng: 13.3774641
+      lat: 52.4907097
+  address_components:
+    - types:
+        - street_number
+      short_name: "68"
+      long_name: "68"
+    - types:
+        - route
+      short_name: Möckernstraße
+      long_name: Möckernstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10965"
+      long_name: "10965"
+  place_id: ChIJX3OibiVQqEcR9ehsDbX5Ysc
+  international_phone_number: +49 173 6554433
+  url: https://maps.google.com/?cid=14367320317274941685
+claimed: No
+description: |-
+  Wir veranstalten eine Party. 
+
+  Party Workshop ab 20 Uhr
+  - Workshop: ON1 (Intermediate) 
+  - Party ab 21 Uhr mit DJ Wilber 
+  - Salsa und Bachata Floor
+
+  7€ Einritt oder CheckIn mit USC.
+
+  Eintritt kostet 7€ oder Checkin mit Urban Sports +2€
+
+  DJ Wilber wird für den guten Sound sorgen. 
+
+  Gespielt werden Salsa und Bachata in zwei Räumen
+
+  Getränke sind an der Bar zu erwerben. 
+  Bitte bringt keine eigenen Getränke mit. 
+  Unsere Preise sind moderat.
+
+  Denkt bitte daran:
+
+  Unbedingt Wechselschuhe mitbringen!!!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvdLnSZ0s6KhNKfiAyobA7ICGrvr2%2F2af76f0a-8c5f-48f2-9b12-0788e8b58131?alt=media&token=83876c56-975d-4d35-a2ed-17336df56961
+createdAt: 1676325954479
+artists: []
+artistsList: []
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1676325954479
+updatedBy: vdLnSZ0s6KhNKfiAyobA7ICGrvr2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Cumbancha
+  bio: ""
+  photo: ""
+  id: vdLnSZ0s6KhNKfiAyobA7ICGrvr2
+  instagram: ""
+  username: Cumbancha
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    Cumbancha: true
+createdBy: vdLnSZ0s6KhNKfiAyobA7ICGrvr2
+name: Cumbancha Salsa und Bachata Party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-18T20:00
+username: Cumbancha
+endDate: 2023-02-20T01:00
+id: ZcGdckTyLV0gwRLNCWis
+price: "7 EURO "
+viewsCount: 53

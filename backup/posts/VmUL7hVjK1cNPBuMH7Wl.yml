@@ -1,0 +1,153 @@
+endDate: 1716735600000
+sourceUrl: https://www.facebook.com/events/6976005725855664/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1711559108000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1711608192000
+facebookId: "6976005725855664"
+facebook: https://www.facebook.com/events/6976005725855664/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/6976005725855664/
+eventType: Festival
+providerItemId: e6976005725855664@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "ALMA BACHATA FESTIVAL "
+location: Hotel Don Angel Santa Susana
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716555600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Carrer del Pla de la Torre, 14, 08398 Santa Susanna, Barcelona, Spain
+  website: http://www.hoteldonangel.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Don Angel
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.719156819708498
+        lat: 41.6326594697085
+      northeast:
+        lng: 2.721854780291502
+        lat: 41.6353574302915
+    location:
+      lng: 2.7207176
+      lat: 41.6338417
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Carrer del Pla de la Torre
+      long_name: Carrer del Pla de la Torre
+    - types:
+        - locality
+        - political
+      short_name: Santa Susanna
+      long_name: Santa Susanna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "08398"
+      long_name: "08398"
+  international_phone_number: +34 937 67 83 64
+  place_id: ChIJacRaLJQ-uxIRwdAVjd2vU5E
+  url: https://maps.google.com/?cid=10471906924656185537
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131880004
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0F95Um7Q2qvPqcMmAMTZVcTAETAdoB9mxnegWNxa6xtiXWsXZj2c3PTn6WftzR1Rzl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131880/fxndiyutaqnj9gohlrzi.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131880004
+  owned: false
+  name: Sophia Ph
+  place: ChIJd2Z_K64-uxIRia11c6I7jQE
+  updatedAt: 1714131880004
+  username: sophia.ph
+claimed: No
+link: ""
+description: >-
+  💎 ALMA BACHATA FESTIVAL 💎
+
+  .
+
+  🗓️ 24 - 26 de Mayo 2024
+
+  Solo faltan 2 meses para que puedas disfrutar de este evento!
+
+  .
+
+  👀 Nuestros increíbles DJs han preparado algo increíble, estarás allí para escucharlos mezclar en vivo?
+
+  .
+
+  🎓Nuestros talentosos profesores han preparado clases increíbles! Están listos para disfrutar contigo del pool party y bailes sociales, tú también estás listo?
+
+  .
+
+  🎁 Se vienen más sorpresas, mantente conectado...
+
+  .
+
+  🗣️ No olvides reservar tu full pass y habitación !
+
+  .
+
+  🎟️ Go&Dance:
+
+  https://www.goandance.com/en/events/6851-alma-bachata-festival-2024?discount=ALMA
+
+  .
+
+  📍Santa Susana, Barcelona, España
+
+  .
+
+  #alma #almabachata #almabachatafestival #barcelona #spain
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131881/qmegasslvat4li5ftn3k.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJd2Z_K64-uxIRia11c6I7jQE
+international: No
+hash: 1716555600000+ChIJacRaLJQ-uxIRwdAVjd2vU5E
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVmUL7hVjK1cNPBuMH7Wl.png?generation=1714131904584205&alt=media
+id: VmUL7hVjK1cNPBuMH7Wl

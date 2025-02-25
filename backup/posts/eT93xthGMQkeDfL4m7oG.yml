@@ -1,0 +1,112 @@
+endDate: 1729468800000
+sourceUrl: https://www.facebook.com/events/325209663927657
+createdAt: 1725890437438
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1725879216000
+updatedAt: 1725890437438
+importedAt: 1725890437438
+providerUpdatedAt: 1725879216000
+facebookId: "325209663927657"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/325209663927657
+  - https://www.facebook.com/events/325209663927657
+eventType: Party
+providerItemId: 2alp14kgehdlpas0m7a4gm7dh7@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Århus, Dánia
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729209600000
+facebookUrlsCount: 2
+username: alexrazbakov
+venue:
+  formatted_address: Skovvangsvej 127, 8200 Aarhus N, Denmark
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Fritidscenter Skovvang
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.2069305197085
+        lat: 56.1749371197085
+      northeast:
+        lng: 10.2096284802915
+        lat: 56.17763508029149
+    location:
+      lng: 10.2083816
+      lat: 56.1763008
+  address_components:
+    - types:
+        - street_number
+      short_name: "127"
+      long_name: "127"
+    - types:
+        - route
+      short_name: Skovvangsvej
+      long_name: Skovvangsvej
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Aarhus N
+      long_name: Aarhus N
+    - types:
+        - locality
+        - political
+      short_name: Aarhus
+      long_name: Aarhus
+    - types:
+        - country
+        - political
+      short_name: DK
+      long_name: Denmark
+    - types:
+        - postal_code
+      short_name: "8200"
+      long_name: "8200"
+  international_phone_number: +45 41 85 65 33
+  place_id: ChIJgRQBtrc_TEYRRt555PwvVT0
+  url: https://maps.google.com/?cid=4419491372545465926
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/AarhusZoukforening
+  name: Aarhus Zoukforening
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953827/n90bqzpnpnsyjxfciqli.jpg
+  bio: ""
+  id: PYEKLp1czyNu5ksujuEX
+  instagram: ""
+  username: aarhus.zoukforening
+claimed: No
+facebook: https://www.facebook.com/events/325209663927657/
+link: ""
+description: |-
+  We are very happy to have Fernando and Olga back in Aarhus again this fall :-)
+  Reserve the dates. More info will follow soon.
+
+  Preliminary program:
+  Friday and Saturday: Zouk
+  Sunday: Zouk / zouk-atoms
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890459/zks684y7uc9dc5kkp4mq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Zoukweekend with Fernando and Olga
+online: No
+place: ChIJi3iXU7FMTEYRr6IukdnXTYw
+international: No
+hash: 1729265400000+ChIJgRQBtrc_TEYRRt555PwvVT0
+id: eT93xthGMQkeDfL4m7oG

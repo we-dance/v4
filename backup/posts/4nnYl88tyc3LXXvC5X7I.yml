@@ -1,0 +1,169 @@
+venue:
+  website: http://www.birdbar.de/
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  name: Bird Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  url: https://maps.google.com/?cid=1792963782189389845
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+claimed: No
+program: []
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1673698688237
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Ellsys Willy Douceur
+    bio: Beatmaker & DJ
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0c7adb5d-952a-4d8e-9783-888b9dde9494?alt=media&token=0b1cf646-a3cc-4d9f-a60d-ae047c99b4c8
+    id: 5gzli868zpuP62wyDqzx
+    instagram: https://instagram.com/ellsys_official
+    username: ellsys_official
+artistsList:
+  - ellsys_official
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1673698688237
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/djomega.christina
+  name: Toca Toca
+  bio: The only weekly Tuesday & Thursday Kizomba parties in Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+  instagram: https://instagram.com/djomega_official
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  username: TocaToca
+facebook: https://fb.me/e/2dbsc4wml
+upVotes: 0
+eventType: Party
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+commentsCount: 0
+name: Toca Toca - Weekly Tuesday Kizomba Events
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+username: TocaToca
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F58a58ff9-49c6-41d6-b057-251e2f3c35e5?alt=media&token=fff47104-91d5-4998-8b6b-66e45ff59c60
+id: 4nnYl88tyc3LXXvC5X7I
+endDate: 2023-01-18T01:00
+link: https://eventfrog.de//de/p/diverses/toca-toca-weekly-tuesday-kizomba-events-7020047278921400984.html?mtm_campaign=MarketingMail&mtm_kwd=eventdetails&mtm_source=automail&mtm_medium=automail&mtm_cid=4
+startDate: 2023-01-17T21:30
+description: >-
+  Toca Toca - Weekly Tuesday Kizomba Events
+
+
+  With Ellsys on the deck for the best of Kizomba, Urban Kiz, Tarraxa, Ghetto Zouk, Kompa, Douceur, and much more 🎶🎧 to make you dance all night 💃🕺
+
+
+  Special this Tuesday 17.01.2023: get your pass for 8€*!
+
+  1) Get on the guest list: click "Join Guest List"
+
+  2) Buy your ticket online: click "Get ticket"
+
+  3) Come and dance all night!
+
+
+  (*offer valid only for the first 10 tickets, the remainingn tickets are at 10€).
+
+
+  📍Bird bar 🦜
+
+  ⏰ 9.30 pm - 1 am
+
+  💵 10€
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4nnYl88tyc3LXXvC5X7I.png?generation=1673895329936459&alt=media
+telegram:
+  requestedAt: 1673895334165
+  messageUrl: https://t.me/WeDanceMunich/797
+  publishedAt: 1673895339055
+  messageId: 797
+  state: published
+instagram:
+  requestedAt: 1673895339946
+  messageUrl: https://instagram.com/p/CnfKQPhJu_5
+  publishedAt: 1673895358811
+  messageId: CnfKQPhJu_5
+  state: published
+price: 8-10 EUR
+star:
+  count: 8
+  list:
+    AnnaMittie: true
+    TocaToca: true
+    alexrazbakov: true
+    KathrinRie: true
+    Djobi_bachata: true
+    Liz: true
+    Nik: true
+    munich: true
+viewsCount: 129

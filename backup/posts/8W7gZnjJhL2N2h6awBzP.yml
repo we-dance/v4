@@ -1,0 +1,160 @@
+venue:
+  formatted_address: Haager Str. 10A, 81671 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 10A
+      short_name: 10A
+    - types:
+        - route
+      long_name: Haager Straße
+      short_name: Haager Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Berg am Laim
+      short_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81671"
+      short_name: "81671"
+  url: https://maps.google.com/?q=Haager+Str.+10A,+81671+M%C3%BCnchen,+Germany&ftid=0x479ddf8675b6f9ef:0x5bc20b56d9ab355a
+  name: Haager Str. 10A
+  geometry:
+    viewport:
+      south: 48.1250709197085
+      north: 48.1277688802915
+      east: 11.6096432302915
+      west: 11.6069452697085
+    location:
+      lng: 11.6082717
+      lat: 48.12640520000001
+  place_id: ChIJ7_m2dYbfnUcRWjWr2VYLwls
+endDate:
+  _seconds: 1634505300
+  _nanoseconds: 0
+description: >-
+  SENSUAL SUNDAY - Übungsabend" 
+
+
+  BACHATA , KIZOMBA & SALSA ROMANTICA zum hören, tanzen und genießen!
+
+  Aktuell herrscht 3-G Regel.
+
+  Bitt unbedingt vorher registrieren!
+
+  ═════════════
+
+  ZEIT
+
+  ═════════════
+
+  Sonntags von 20:15-23:30 Uhr
+
+  mit den besten HITS aus BACHATA, KIZOMBA & SALSA ROMANTICA
+
+  60% Bachata
+
+  20% Kizomba
+
+  20% Salsa 
+
+  ═════════════
+
+  PREIS
+
+  ═════════════
+
+  10 € regulär
+
+  ═════════════
+
+  ORT
+
+  ═════════════
+
+  ONSTAGE LOFT 4.0
+
+  Haagerstr.10a
+
+  81671 München
+
+  Das Studio ist direkt am Ostbahnhof in der Haagerstr.10a. Wir sind allerbestens mit dem MVV erreichbar. 
+
+  ═════════════
+
+  Wir freuen uns auf Euch! 
+type: event
+duration: "180"
+cover: ""
+createdAt: 1633485199731
+watchersCount: 0
+price: 10 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F8W7gZnjJhL2N2h6awBzP.png?generation=1633806853318311&alt=media
+commentsLast: ~
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: 8W7gZnjJhL2N2h6awBzP
+views: 8
+updatedAt: 1633485199731
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Bachata Übungsabend
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-17T18:15:00.000Z
+username: Vitali
+viewsCount: 12

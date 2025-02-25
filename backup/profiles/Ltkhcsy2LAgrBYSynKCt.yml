@@ -1,0 +1,73 @@
+createdAt: 1712317808539
+website: https://maps.google.com/?q=Geretsrieder+Str.+6,+81379+M%C3%BCnchen,+Germany&ftid=0x479dd8d532131c0d:0xf463e52cbecb2077
+rooms: ""
+address:
+  formatted_address: Geretsrieder Str. 6, 81379 München, Germany
+  name: Geretsrieder Str. 6
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5319053697085
+        lat: 48.0993283197085
+      northeast:
+        lng: 11.5346033302915
+        lat: 48.1020262802915
+    location:
+      lng: 11.533212
+      lat: 48.10057159999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Geretsrieder Str.
+      long_name: Geretsrieder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+      long_name: Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  url: https://maps.google.com/?q=Geretsrieder+Str.+6,+81379+M%C3%BCnchen,+Germany&ftid=0x479dd8d532131c0d:0xf463e52cbecb2077
+  place_id: ChIJDRwTMtXYnUcRdyDLvizlY_Q
+gender: Other
+phone: ""
+name: Geretsrieder Str. 6
+updateAt: 1712317808540
+type: Venue
+map: ""
+username: geretsriederstr6
+viewsCount: 1
+id: Ltkhcsy2LAgrBYSynKCt

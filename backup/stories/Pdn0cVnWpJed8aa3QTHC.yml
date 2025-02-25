@@ -1,0 +1,53 @@
+venue:
+  formatted_address: 4HJR+F4C, Havana, Cuba
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: "1830"
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -82.40832846970848
+      south: 23.1297880697085
+      north: 23.1324860302915
+      west: -82.41102643029149
+    location:
+      lng: -82.4097269
+      lat: 23.1311935
+  address_components:
+    - types:
+        - plus_code
+      short_name: 4HJR+F4C
+      long_name: 4HJR+F4C
+    - types:
+        - locality
+        - political
+      short_name: Havana
+      long_name: Havana
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Plaza de la Revolucion
+      long_name: Plaza de la Revolucion
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Havana
+      long_name: Havana
+    - types:
+        - country
+        - political
+      short_name: CU
+      long_name: Cuba
+  international_phone_number: +53 7 553090
+  place_id: ChIJYeIx1RR3zYgRijyr-lNrQIM
+  url: https://maps.google.com/?cid=9457677225910025354
+createdAt: 1708084214528
+question: ""
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+link: ""
+description: Good certain nights, possibly Thursday, Saturday and Sunday
+style: Casino
+place: ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+stars: 4
+type: review
+username: alexrazbakov
+id: Pdn0cVnWpJed8aa3QTHC

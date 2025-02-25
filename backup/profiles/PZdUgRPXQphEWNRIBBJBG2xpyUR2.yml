@@ -1,0 +1,50 @@
+timezone: GMT+0000
+type: Dancer
+createdAt: 1640094367086
+locales:
+  de: true
+  pt: true
+  en: true
+  es: true
+createdBy: PZdUgRPXQphEWNRIBBJBG2xpyUR2
+place: Munich
+partner: No
+contacts: Yes
+username: ocsav
+gender: Male
+permission: ""
+pwaUsed: true
+name: ""
+bannerNps: no
+bannerV3Beta: no
+updatedAt: 1655234837656
+objectives:
+  auto: true
+  outdoors: true
+  learn: true
+  teach: true
+  indoors: true
+  project: true
+  talk: true
+  home: true
+styles:
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+visibility: Public
+daysUsed: 20
+lastLoginAt: 1674830304142
+id: PZdUgRPXQphEWNRIBBJBG2xpyUR2

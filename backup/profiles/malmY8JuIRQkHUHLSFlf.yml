@@ -1,0 +1,78 @@
+createdAt: 1721053592299
+website: http://www.gsc-muenchen.de/
+rooms: ""
+address:
+  formatted_address: Sonnenstraße 12A/2. Stock, 80331 München, Germany
+  website: http://www.gsc-muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Gelb-Schwarz-Casino München e.V.
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5628623197085
+        lat: 48.1355740197085
+      northeast:
+        lng: 11.5655602802915
+        lat: 48.1382719802915
+    location:
+      lng: 11.5638141
+      lat: 48.1369705
+  address_components:
+    - types:
+        - subpremise
+      short_name: 2. Stock
+      long_name: 2. Stock
+    - types:
+        - street_number
+      short_name: 12A
+      long_name: 12A
+    - types:
+        - route
+      short_name: Sonnenstraße
+      long_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  url: https://maps.google.com/?cid=16797410654019902438
+  international_phone_number: +49 89 54829930
+  place_id: ChIJLTDIyfd1nkcR5ts3S_5jHOk
+gender: Other
+phone: +49 89 54829930
+name: Gelb-Schwarz-Casino München e.V.
+updateAt: 1721053592299
+type: Venue
+map: ""
+username: www.gsc-muenchen.de
+id: malmY8JuIRQkHUHLSFlf

@@ -1,0 +1,88 @@
+venue:
+  formatted_address: Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+  url: https://maps.google.com/?q=Berlin,+Germany&ftid=0x47a84e373f035901:0x42120465b5e3b70
+  room: Oudernader Str. 16-20, 13347 Berlin
+  name: Berlin
+  geometry:
+    viewport:
+      south: 52.33823404386677
+      north: 52.67545420869131
+      east: 13.76111748460941
+      west: 13.08834600183454
+    location:
+      lng: 13.404954
+      lat: 52.52000659999999
+  map: ""
+  place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+endDate:
+  _seconds: 1636311600
+  _nanoseconds: 0
+organisedBy: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+claimed: Yes
+description: ""
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTMr0jPNzmHNYEnVPUmmA34OeEqj1%2Fd7b191bb-e275-4254-87e3-0be071a12669?alt=media&token=668bc47b-e034-4ff5-ba10-7c8e7f8faf9b
+promo: Yes
+createdAt: 1635686962106
+watchersCount: 0
+price: Free
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fg5cWXJVDQdQNujnjMpru.png?generation=1635865574507870&alt=media
+commentsLast: ~
+promoter: BachataFlow
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: g5cWXJVDQdQNujnjMpru
+promotedBy: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+international: No
+views: 6
+updatedAt: 1635686962106
+updatedBy: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+visibility: Public
+facebook: https://www.facebook.com/groups/urbansportsclubberlin/permalink/894667094498779/
+eventType: Course
+organiser: BachataFlow
+form: No
+createdBy: TMr0jPNzmHNYEnVPUmmA34OeEqj1
+commentsCount: 0
+name: "Bachata Beginner Class "
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-11-07T18:00:00.000Z
+username: BachataFlow
+viewsCount: 7

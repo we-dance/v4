@@ -1,0 +1,127 @@
+endDate: 1715550900000
+sourceUrl: https://www.facebook.com/events/624977402876134/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1684792402000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1684792402000
+facebookId: "624977402876134"
+facebook: https://www.facebook.com/events/624977402876134/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/624977402876134/
+eventType: Party
+providerItemId: e624977402876134@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 𝔹𝔸ℂℍ𝔸𝕋𝔸 𝕊ℙ𝔸𝕀ℕ 𝟚𝟘𝟚𝟜
+location: Barceló Punta Umbría Beach Resort
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715119200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Av. del Decano, s/n, 21100 Punta Umbría, Huelva, Spain
+  website: https://www.barcelo.com/es-es/barcelo-punta-umbria-beach-resort/?utm_source=google&utm_medium=organic&utm_campaign=my_business&utm_content=7390
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Barceló Punta Umbría Beach Resort
+  geometry:
+    viewport:
+      southwest:
+        lng: -6.981847580291502
+        lat: 37.1866620197085
+      northeast:
+        lng: -6.979149619708497
+        lat: 37.1893599802915
+    location:
+      lng: -6.9806691
+      lat: 37.187722
+  address_components:
+    - types:
+        - street_number
+      short_name: s/n
+      long_name: s/n
+    - types:
+        - route
+      short_name: Av. del Decano
+      long_name: Avenida del Decano
+    - types:
+        - locality
+        - political
+      short_name: Punta Umbría
+      long_name: Punta Umbría
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: H
+      long_name: Huelva
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: AN
+      long_name: Andalucía
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "21100"
+      long_name: "21100"
+  international_phone_number: +34 959 49 59 00
+  place_id: ChIJyzmOnNTQEQ0RBEZXA38ZPZ0
+  url: https://maps.google.com/?cid=11330240270841628164
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/BSKDancer0
+  name: BSKDancer
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/pocetzjrb87ztuk7phrh.jpg
+  bio: ""
+  id: MogQAq5ZGbus6Y4tVwxD
+  instagram: ""
+  username: BSKDancer0
+claimed: No
+link: https://lasalsadelbaile.com/bachataspain2024?ref=BSKDANCER
+description: |
+  𝔹𝔸ℂℍ𝔸𝕋𝔸 𝕊ℙ𝔸𝕀ℕ 𝟚𝟘𝟚𝟜
+
+  𝗣𝗥𝗢𝗠𝗢𝗖𝗢𝗗𝗘 𝟰€: 𝗕𝗦𝗞𝗗𝗔𝗡𝗖𝗘𝗥
+
+   📆 8 al 12 Mayo 2024
+  📍Hotel Barceló Punta Umbría Beach Resort
+
+  𝗟𝗜𝗡𝗞 𝗱𝗶𝗿𝗲𝗰𝘁𝗼: ⬇️
+  https://lasalsadelbaile.com/bachataspain2024?ref=BSKDANCER
+
+  ***** ARTISTAS *****
+  Próximamente 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131884/iblkr3qvdvh1ly63b4qj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJzdnONynREQ0R2VETLy6v6VY
+international: No
+hash: 1715119200000+ChIJyzmOnNTQEQ0RBEZXA38ZPZ0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSlxXY6DEZgAB3Be9ryy8.png?generation=1714131907196029&alt=media
+id: SlxXY6DEZgAB3Be9ryy8

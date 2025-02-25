@@ -1,0 +1,124 @@
+venue:
+  website: http://www.kulturhausarena.de/
+  formatted_address: Ulmer Str. 241, 70327 Stuttgart, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "241"
+      short_name: "241"
+    - types:
+        - route
+      long_name: Ulmer Straße
+      short_name: Ulmer Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Wangen
+      short_name: Wangen
+    - types:
+        - locality
+        - political
+      long_name: Stuttgart
+      short_name: Stuttgart
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Stuttgart
+      short_name: Stuttgart
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Stuttgart
+      short_name: Süd
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Baden-Württemberg
+      short_name: BW
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "70327"
+      short_name: "70327"
+  url: https://maps.google.com/?cid=7394727483230329445
+  name: Kulturhaus Arena
+  geometry:
+    viewport:
+      south: 48.77619581970851
+      north: 48.7788937802915
+      east: 9.236889280291503
+      west: 9.234191319708499
+    location:
+      lng: 9.2355403
+      lat: 48.7775448
+  place_id: ChIJlwIAt1jEmUcRZRrDkHdZn2Y
+  international_phone_number: +49 711 7071773
+endDate: 2022-02-07T19:00:00.000Z
+claimed: No
+organisedBy: ""
+link: https://forms.gle/e1QuRvVFwdREEkwV8
+description: >-
+  Dear kizomba leaders,
+
+
+  Want to get a 50% discount for [Bachaakizzz Sensation](https://www.facebook.com/events/s/bksensation-2022-official-even/703113306888114)?
+
+
+  Contact me - https://fb.com/gina.ronsisvalle
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F6a1ef2cf-ab8f-495c-a5ed-af419905f0b5?alt=media&token=6b05433b-4412-42da-a3d8-c95e3e2e0ea8
+duration: custom
+createdAt: 1637837590893
+watchersCount: 0
+price: 65-140EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Ft8vO4l03d6unmJmLp6lz.png?generation=1637856084751757&alt=media
+commentsLast: ~
+promoter: GINA
+id: t8vO4l03d6unmJmLp6lz
+place: ""
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: Yes
+views: 20
+updatedAt: 1637837590893
+updatedBy: y7teNCa5ahh3CcfBmKrp2aYjeXw1
+visibility: Public
+facebook: https://facebook.com/events/s/bksensation-2022-official-even/703113306888114
+eventType: Festival
+confirmation: ""
+organiser: ""
+form: Yes
+createdBy: y7teNCa5ahh3CcfBmKrp2aYjeXw1
+commentsCount: 0
+name: 50% discount for Bachaakizzz Sensation
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2022-02-03T18:00:00.000Z
+username: GINA
+viewsCount: 36

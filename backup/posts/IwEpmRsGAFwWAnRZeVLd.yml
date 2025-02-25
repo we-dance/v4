@@ -1,0 +1,110 @@
+endDate: 1725562800000
+sourceUrl: https://www.facebook.com/events/1069708928125715/
+createdAt: 1725026422915
+approved: true
+provider: ical
+providerId: Hdy36PpWW12iDUEDgycb
+providerCreatedAt: 1724950867000
+updatedAt: 1725026422915
+importedAt: 1725026422915
+providerUpdatedAt: 1724950867000
+facebookId: "1069708928125715"
+facebook: https://www.facebook.com/events/1069708928125715/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1069708928125715/
+eventType: Festival
+providerItemId: e1069708928125715@facebook.com
+createdBy: p1w8MCXJxvXIJx8cd8WJYy8JFRX2
+name: URBANKIZ SOCIAL
+location: Helsinki Biennaali -paviljonki
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725550200000
+facebookUrlsCount: 1
+username: s.dance.school.helsinki
+venue:
+  formatted_address: Vallisaari, 00860 Helsinki, Finland
+  website: https://helsinkibiennaali.fi/en/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Helsinki Biennial
+  geometry:
+    viewport:
+      southwest:
+        lng: 25.00491061970849
+        lat: 60.13873151970849
+      northeast:
+        lng: 25.0076085802915
+        lat: 60.14142948029151
+    location:
+      lng: 25.0064489
+      lat: 60.14009429999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00860"
+      long_name: "00860"
+  place_id: ChIJkV2RyS4NkkYR7LU6r9-1rYo
+  url: https://maps.google.com/?cid=9992843120527193580
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/S.Dance.School.Helsinki
+  name: S-Dance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8e2d4466-7f66-4c2e-8c7d-702079d1c820?alt=media&token=b45d2319-cea7-4f8a-b521-862df96f7c93
+  bio: S-Dance is a social dance school focused on Kizomba/Semba and Urbankiz &
+    Tarraxo dances in Helsinki. Join our community!
+  id: p1w8MCXJxvXIJx8cd8WJYy8JFRX2
+  instagram: https://www.instagram.com/S.Dance.School.Helsinki
+  username: s.dance.school.helsinki
+claimed: No
+link: ""
+description: "Welcome to dance Urbankiz or simply to chill. I'll be playing
+  playlists from various festivals, so expect the music to be mostly soft and at
+  a comfortable pace. Come along and bring your friends, everyone is welcome! "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725026435/pvsrtiaidefxzsd0yie5.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+international: No
+hash: 1725550200000+ChIJkV2RyS4NkkYR7LU6r9-1rYo
+viewsCount: 1
+id: IwEpmRsGAFwWAnRZeVLd

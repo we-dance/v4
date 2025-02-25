@@ -1,0 +1,28 @@
+createdAt: 1691629035018
+cityPlaceId: ChIJj7jA0mL6YUcRhAf0Exw-MhI
+updatedBy: ~
+createdBy: ~
+name: Zadar, Croatia
+location:
+  country: Croatia
+  latitude: 44.119371
+  locality: Zadar
+  region: Zadar County
+  place_id: ChIJj7jA0mL6YUcRhAf0Exw-MhI
+  longitude: 15.2313648
+place: ChIJj7jA0mL6YUcRhAf0Exw-MhI
+type: City
+username: croatia-zadar
+updatedAt: 1691629035018
+watch:
+  count: 1
+  usernames:
+    - Kizo
+  history:
+    - username: Kizo
+      date: 1720013266812
+      invitedBy: ""
+      uid: CZ01jjokFATe7pr2YU6PUT6mkqD2
+      action: joined
+viewsCount: 364
+id: OActAgFadFZwwPyc5axy

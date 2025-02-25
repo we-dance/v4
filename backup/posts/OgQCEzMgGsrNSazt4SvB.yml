@@ -1,0 +1,178 @@
+venue:
+  formatted_address: Berliner Str. 312, 63067 Offenbach am Main, Germany
+  website: https://strikefit.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: STRIKEFIT
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.7410644302915
+      south: 50.1037662697085
+      north: 50.1064642302915
+      west: 8.738366469708495
+    location:
+      lng: 8.739730699999999
+      lat: 50.1050027
+  address_components:
+    - types:
+        - street_number
+      short_name: "312"
+      long_name: "312"
+    - types:
+        - route
+      short_name: Berliner Str.
+      long_name: Berliner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Frankfurt-Süd
+      long_name: Frankfurt-Süd
+    - types:
+        - locality
+        - political
+      short_name: Offenbach am Main
+      long_name: Offenbach am Main
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Offenbach am Main
+      long_name: Kreisfreie Stadt Offenbach am Main
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: DA
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HE
+      long_name: Hessen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "63067"
+      long_name: "63067"
+  international_phone_number: +49 69 80089994
+  place_id: ChIJZV978bQPvUcRUY07Re9gSN8
+  url: https://maps.google.com/?cid=16089216249556077905
+  username: strikefit.de
+endDate: 1747863900000
+claimed: No
+program: []
+type: event
+seriesId: aJVsrNjEZ8oflMKPO2m9
+duration: 285
+artists: []
+place: ChIJxZZwR28JvUcRAMawKVBDIgQ
+international: No
+updatedBy: d5HIOLSVIDQjkMakdZXvBONailF3
+visibility: Public
+coverSize: ""
+eventType: Party
+recurrence:
+  untilDate: ""
+  freq: never
+  days: {}
+form: No
+createdBy: d5HIOLSVIDQjkMakdZXvBONailF3
+name: "Bachata meet up "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1747846800000
+hash: 1747846800000+ChIJZV978bQPvUcRUY07Re9gSN8
+username: Abdula.dance
+link: https://www.instagram.com/bachata.meetup?igsh=MXBnNjkycDg3eWpkcw==
+description: >-
+  let's meet and dance
+
+
+  🕺💃 Bachata-meetup 💃🕺
+
+
+  Tauche ein in die Welt der Leidenschaft und des Rhythmus bei unseren zwei aufregenden Bachata-Workshops:
+
+
+  Openlevel Bachata-Workshop: 18:00-19:00 Uhr 
+
+  Nach den Workshops geht die Party weiter mit Social Dance opened! 🎉🌙
+
+
+  📍 Location: Obermainanlage 24, 60314 Frankfurt am Main
+
+
+  Verpasse nicht die Gelegenheit, deine Tanzkünste zu verbessern und eine Nacht voller Spaß und Musik zu erleben!! 💫🎶
+
+  Verpasse das Angebot 2 für 1 nicht(bringe deine Begleitung mit und bezahle nur für eine Person das Angebot glit nur für social)
+
+  Eintritt 10€
+
+
+  Studenten:5€
+
+
+  🕺💃 Bachata Meetup special guests 💃🕺
+
+
+  Immerse yourself in the world of passion and rhythm with one of our two exciting Bachata workshops:
+
+
+  Bachata Workshop (Open Level): 6:00-07:00PM
+
+  After the workshops, the party continues with the openend dance! 🎉🌙
+
+
+  Location: STRIKEFIT : Obermainanlage 24, 60314 Frankfurt am Main
+
+
+  Don't miss the opportunity to improve your dancing skills and experience a night full of fun and music! 💫🎶
+
+
+  With or without a dance partner, everyone is welcome
+
+  Don't miss our special offer 2 for 1 (bring a friend and pay for one this offeris only for the social)
+
+
+
+  Entrance fee:10€
+
+  Students 5€.
+instagram: {}
+video: https://www.instagram.com/bachata.meetup?igsh=MXBnNjkycDg3eWpkcw==
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fd5HIOLSVIDQjkMakdZXvBONailF3%2F0a6571fd-edc8-440f-95bf-911228cba018?alt=media&token=ee817699-e0f8-4e1b-87c7-9572b6a0d55c
+createdAt: 1728828424301
+checkin:
+  count: 0
+  list: {}
+children: []
+price: 10€
+limit: "150"
+socialCover: ""
+artistsList: []
+id: OgQCEzMgGsrNSazt4SvB
+specialOffer: Students 5€
+updatedAt: 1728828668884
+star:
+  count: 0
+  list: {}
+org:
+  role: organiser
+  username: Abdula.dance
+viewsCount: 1
+telegram: {}
+upVotes: 0
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+votes: 0
+promotion: ""

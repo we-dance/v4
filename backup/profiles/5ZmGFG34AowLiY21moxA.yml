@@ -1,0 +1,71 @@
+createdAt: 1719557643966
+website: http://www.salsaycontrol.com/
+rooms: ""
+address:
+  formatted_address: "161 Harvard Ave #13b, Allston, MA 02134, USA"
+  website: http://www.salsaycontrol.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa y Control
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -71.1303363697085
+      south: 42.34987981970851
+      north: 42.3525777802915
+      west: -71.13303433029151
+    location:
+      lng: -71.1317819
+      lat: 42.3513542
+  address_components:
+    - types:
+        - subpremise
+      short_name: 13b
+      long_name: 13b
+    - types:
+        - street_number
+      short_name: "161"
+      long_name: "161"
+    - types:
+        - route
+      short_name: Harvard Ave
+      long_name: Harvard Avenue
+    - types:
+        - neighborhood
+        - political
+      short_name: Allston
+      long_name: Allston
+    - types:
+        - locality
+        - political
+      short_name: Boston
+      long_name: Boston
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Suffolk County
+      long_name: Suffolk County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MA
+      long_name: Massachusetts
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "02134"
+      long_name: "02134"
+  international_phone_number: +1 617-755-6920
+  place_id: ChIJ63Y26sV544kR08fO3flOOFY
+  url: https://maps.google.com/?cid=6212802521032738771
+gender: Other
+phone: +1 617-755-6920
+name: Salsa y Control
+updateAt: 1719557643966
+type: Venue
+map: ""
+username: www.salsaycontrol.com
+id: 5ZmGFG34AowLiY21moxA

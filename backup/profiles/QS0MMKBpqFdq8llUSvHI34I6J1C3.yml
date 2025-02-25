@@ -1,0 +1,108 @@
+createdAt: 1713356772977
+invitedBy: ""
+visibility: Members
+createdBy: QS0MMKBpqFdq8llUSvHI34I6J1C3
+timezone: GMT+0200
+name: Akinlarry
+id: QS0MMKBpqFdq8llUSvHI34I6J1C3
+username: Akinlarry
+lastLoginAt: 1713356773254
+daysUsed: 1
+pwaUsed: false
+hometown: ChIJwYCC5iqLOxARy9nDZ6OHntw
+address:
+  formatted_address: Józefa Dietla 33, 31-062 Kraków, Poland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Józefa Dietla 33
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 19.9423616302915
+      south: 50.04951476970849
+      north: 50.05221273029149
+      west: 19.9396636697085
+    location:
+      lng: 19.9411068
+      lat: 50.0509202
+  address_components:
+    - types:
+        - street_number
+      short_name: "33"
+      long_name: "33"
+    - types:
+        - route
+      short_name: Józefa Dietla
+      long_name: Józefa Dietla
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Stare Miasto
+      long_name: Stare Miasto
+    - types:
+        - locality
+        - political
+      short_name: Kraków
+      long_name: Kraków
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Powiat Kraków
+      long_name: Powiat Kraków
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Województwo małopolskie
+      long_name: Województwo małopolskie
+    - types:
+        - country
+        - political
+      short_name: PL
+      long_name: Poland
+    - types:
+        - postal_code
+      short_name: 31-062
+      long_name: 31-062
+  place_id: ChIJd_XX2mtbFkcRfSYjQ1iImXw
+  url: https://maps.google.com/?q=J%C3%B3zefa+Dietla+33,+31-062+Krak%C3%B3w,+Poland&ftid=0x47165b6bdad7f577:0x7c9988584323267d
+gender: Male
+jobs: Marketing, Social media.
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQS0MMKBpqFdq8llUSvHI34I6J1C3%2F8ea29c20-6c01-4a93-ba98-365a4aa50e6b?alt=media&token=d847e8d5-ff08-4024-a23e-035e97184182
+team: []
+type: Organiser
+current: ChIJ0RhONcBEFkcRv4pHdrW2a7Q
+locales:
+  en: true
+  fr: true
+  pl: true
+styles:
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kuduru:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Advanced
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+place: ChIJ0RhONcBEFkcRv4pHdrW2a7Q
+whatsapp: https://wa.me/48780625631
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+instagram: https://instagram.com/Wakanda_82
+updatedAt: 1713646932183
+viewsCount: 5

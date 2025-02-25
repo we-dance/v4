@@ -1,0 +1,118 @@
+createdAt: 1707003701688
+updatedBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+createdBy: qTPAP7OhWMYjtoPXtpUJavNz5Fr2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1707003701688
+username: lakossa
+venue:
+  formatted_address: Willy-Brandt-Allee, 81829 München-Trudering-Riem, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Willy-Brandt-Allee
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.6967715197085
+        lat: 48.13175161970851
+      northeast:
+        lng: 11.6994694802915
+        lat: 48.13444958029151
+    location:
+      lng: 11.6981205
+      lat: 48.1331006
+  address_components:
+    - types:
+        - route
+      short_name: Willy-Brandt-Allee
+      long_name: Willy-Brandt-Allee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Trudering-Riem
+      long_name: Trudering-Riem
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81829"
+      long_name: "81829"
+  place_id: ChIJt7njtYgKnkcRBuzhEd_lUF8
+  url: https://maps.google.com/?q=Willy-Brandt-Allee,+81829+M%C3%BCnchen-Trudering-Riem,+Germany&ftid=0x479e0a88b5e3b9b7:0x5f50e5df11e1ec06
+endDate: 1709393400000
+claimed: No
+link: https://www.eventbrite.de/e/afro-traditional-meets-afro-urban-with-arsene-etaba-tickets-810527137487?aff=efbevent
+description: |-
+  Komm und erlebe eine energiegeladene AfroTrad Class mit Arsène aus Kamerun
+  Alle Levels sind willkommen!
+
+  Komm und erlebe eine energiegeladene  AfroTrad mit Arsene Etaba aus Kamerun
+  Alle Levels sind willkommen!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/770596638421990/
+facebookId: "770596638421990"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Afro Traditional meets Afro Urban with Arsène Etaba
+online: No
+styles: {}
+hash: 1709384400000+ChIJt7njtYgKnkcRBuzhEd_lUF8
+startDate: 1709384400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707003713/rrzaueboraftntsmbdmk.jpg
+org:
+  owner: ""
+  importedAt: 1707003710146
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/lakossa.fitness
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707003710/tk7pkrzohdljzdwmgyhi.png
+  source: facebook
+  type: Organiser
+  createdAt: 1707003710146
+  owned: false
+  name: La Kossa
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  updatedAt: 1707003710146
+  username: la.kossa
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FYfcR6aJvVrnT31EAyREJ.png?generation=1707003728033666&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C253ewAJMNx
+  publishedAt: 1707003740452
+  messageId: C253ewAJMNx
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 18
+id: YfcR6aJvVrnT31EAyREJ

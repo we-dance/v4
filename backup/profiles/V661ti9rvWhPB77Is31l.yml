@@ -1,0 +1,36 @@
+owner: ""
+importedAt: 1707497648885
+import: success
+visibility: Public
+facebook: https://www.facebook.com/KizzN.de
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707497649/hoqpqsxr0qwylzusweqn.jpg
+source: facebook
+type: Organiser
+createdAt: 1707497648885
+owned: false
+name: KizzN
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+updatedAt: 1707497648885
+username: kizzn
+viewsCount: 7
+watch:
+  count: 1
+  usernames:
+    - igor
+  history:
+    - username: igor
+      date: 1732200547699
+      invitedBy: ""
+      uid: HHIn4MizijTf1lsXWDmkfWqrFIz1
+      action: joined
+    - username: igor
+      date: 1732200565053
+      invitedBy: ""
+      uid: HHIn4MizijTf1lsXWDmkfWqrFIz1
+      action: left
+    - username: igor
+      date: 1732200578568
+      invitedBy: ""
+      uid: HHIn4MizijTf1lsXWDmkfWqrFIz1
+      action: joined
+id: V661ti9rvWhPB77Is31l

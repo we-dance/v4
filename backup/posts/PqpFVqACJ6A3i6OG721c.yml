@@ -1,0 +1,187 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/live-to-kiz-festival-lucky-sevens-edition/
+sourceUrl: https://facebook.com/events/3862008047411177
+venue:
+  address_components:
+    - long_name: 150-152
+      short_name: 150-152
+      types:
+        - street_number
+    - long_name: Elizabeth Street
+      short_name: Elizabeth St
+      types:
+        - route
+    - long_name: Sydney
+      short_name: Sydney
+      types:
+        - locality
+        - political
+    - long_name: Council of the City of Sydney
+      short_name: Sydney
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: New South Wales
+      short_name: NSW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Australia
+      short_name: AU
+      types:
+        - country
+        - political
+    - long_name: "2000"
+      short_name: "2000"
+      types:
+        - postal_code
+  formatted_address: 150-152 Elizabeth St, Sydney NSW 2000, Australia
+  geometry:
+    location:
+      lat: -33.8778733
+      lng: 151.2097404
+    viewport:
+      northeast:
+        lat: -33.8765035197085
+        lng: 151.2108685302915
+      southwest:
+        lat: -33.8792014802915
+        lng: 151.2081705697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 150-152 Elizabeth St
+  place_id: ChIJlxOLXT2uEmsRfDzG17y7rug
+  url: https://maps.google.com/?q=150-152+Elizabeth+St,+Sydney+NSW+2000,+Australia&ftid=0x6b12ae3d5d8b1397:0xe8aebbbcd7c63c7c
+endDate: 1740330000000
+claimed: No
+link: http://www.kizombakollective.com/shop
+description: >+
+  
+  Join us for the BEST URBAN KIZ Festival in Australia!
+
+
+  Book your full pass, then book your privates!
+
+
+  We're going to party well after 3am each night! Don't miss out on the most epic parties you're going to experience in any kiz festival in Australia!
+
+
+  Live to Kiz Festival Lucky Sevens Edition - 21st - 23rd FEB 2025
+
+
+  ￼INSTRUCTORS￼
+
+
+  ￼JP & Stephy - FRANCE
+
+
+  ￼JESUS Y ANNI - SPAIN
+
+  ￼Dwé & Gaby– NETHERLANDS
+
+
+
+  ￼DJs￼
+
+
+  ￼DJ Sassy
+
+  ￼DJ DB Chris
+
+  ￼DJ Tang Tang
+
+  ￼DJ David Vasquez
+
+  ￼DJ Hapi Papi
+
+  ￼DJ Dwé - NETHERLANDS
+
+
+  Location: The Australian Hall – 150 Elizabeth St, Sydney CBD. The Australian Hall is a very large, beautiful hall in the heart of the city, with very danceable wooden floors.
+
+
+  Tickets may be transferred to another name for a $20 fee. Tickets may not be transferred to another festival, event or ticket type. Tickets are non-refundable.
+
+
+  FULL PASS (FRI, SAT, SUN) ALL WORKSHOPS & PARTIES DURING THE FESTIVAL!!! 21st Feb – 23rd Feb 2025!
+
+
+  Remember, if you want to do a private with our international artists, you must have a full pass. To reserve your place, please message us on Facebook as soon as you purchase your full pass.
+
+
+
+  FULL PASS PRICES:
+
+
+  FIRST RELEASE: $250
+
+
+  SECOND RELEASE: $300
+
+
+  1st June: $310
+
+
+  1st July: $320
+
+
+  1st August: $330
+
+
+  1st September: $340
+
+
+  1st October: $350
+
+
+  1st November: $360
+
+
+  1st December: $370
+
+
+  1st January: $375
+
+
+  1st Feb: $380
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293941/iesxom6qe1m0weged4z1.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJP3Sa8ziYEmsRUKgyFmh9AQM
+international: No
+visibility: Public
+org:
+  id: 2ovyrIfwlXtjCpc0lSYZ
+  username: LivetoKiz
+  name: Kizomba Kollective Live to Kiz Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953586/bcdsshsbsogdmdz5srft.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/LivetoKiz
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/3862008047411177/
+facebookId: "3862008047411177"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Live to Kiz Festival Lucky Sevens Edition: 21st - 23rd FEB 2025"
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740096000000+ChIJlxOLXT2uEmsRfDzG17y7rug
+startDate: 1740096000000
+id: PqpFVqACJ6A3i6OG721c

@@ -1,0 +1,54 @@
+createdAt: 1718743640546
+website: https://maps.google.com/?q=32190+Vic-Fezensac,+France&ftid=0x12a98ad26b886555:0x5d48fec4c027d409
+rooms: ""
+address:
+  formatted_address: 32190 Vic-Fezensac, France
+  name: Vic-Fezensac
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.2048762333757583
+        lat: 43.71874836973837
+      northeast:
+        lng: 0.3756323580098754
+        lat: 43.81364875687902
+    location:
+      lng: 0.3015939
+      lat: 43.759272
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Vic-Fezensac
+      long_name: Vic-Fezensac
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gers
+      long_name: Gers
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Occitanie
+      long_name: Occitanie
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "32190"
+      long_name: "32190"
+  place_id: ChIJVWWIa9KKqRIRCdQnwMT-SF0
+  url: https://maps.google.com/?q=32190+Vic-Fezensac,+France&ftid=0x12a98ad26b886555:0x5d48fec4c027d409
+gender: Other
+phone: ""
+name: Vic-Fezensac
+updateAt: 1718743640546
+type: Venue
+map: ""
+username: vicfezensac
+viewsCount: 2
+id: F4SlhX0BEI4F6VJdqwu5

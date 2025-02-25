@@ -1,0 +1,70 @@
+visibility: Public
+timezone: GMT+0200
+createdAt: 1622102069375
+createdBy: 8tF71HquAtSs72fmUzYTgEzc5F73
+place: ChIJs7s9zbKHUhQRYMPTi_kHuC0
+pwaUsed: false
+updatedBy: 8tF71HquAtSs72fmUzYTgEzc5F73
+permission: Yes
+styles:
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  BellyDance:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: 8tF71HquAtSs72fmUzYTgEzc5F73
+type: Artist
+birthday: 1989-10-12
+youtube: https://youtube.com/channel/UCr320I55NIa_Iabfmjn3y3Q
+locales:
+  en: true
+teacher: Yes
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+partner: Yes
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8tF71HquAtSs72fmUzYTgEzc5F73%2F511bc706-4eca-46a5-bfb7-2b13dd04143f?alt=media&token=004ddbac-d2fb-43a7-8a3a-7cdc1ca1fc9e
+instagram: https://www.instagram.com/reel/CN_ZI-thP-N/?utm_medium=copy_link
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FAhmed.HIPCHATA.png?generation=1622365166286537&alt=media
+cities:
+  ChIJs7s9zbKHUhQRYMPTi_kHuC0: true
+updatedAt: 1622389007712
+hometown: ChIJs7s9zbKHUhQRYMPTi_kHuC0
+name: "Ahmed HIPCHATA 💥 "
+username: Ahmed.HIPCHATA.Bachata.Consul
+lastLoginAt: 1644815627791
+daysUsed: 13
+viewsCount: 86

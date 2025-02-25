@@ -1,0 +1,165 @@
+createdAt: 1704426745613
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: alexrazbakov
+venue:
+  formatted_address: Haager Str. 10, 81671 München, Germany
+  website: http://www.tango-maldito.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: TANGO maldito | Tango Argentino München
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.6067318697085
+        lat: 48.1252030697085
+      northeast:
+        lng: 11.6094298302915
+        lat: 48.1279010302915
+    location:
+      lng: 11.6080436
+      lat: 48.1264762
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Haager Str.
+      long_name: Haager Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  international_phone_number: +49 89 4807149
+  place_id: ChIJXU2DHHHfnUcRzgvwMI4Noro
+  url: https://maps.google.com/?cid=13448326341639277518
+visibility: Public
+endDate: 1704574800000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/TANGOmaldito/
+  name: tangomaldito
+  photo: ""
+  bio: ""
+  id: BPyxqJzNpn54vf8zBpQO
+  instagram: https://instagram.com/tangomaldito
+  username: tangomaldito
+claimed: No
+facebook: https://www.facebook.com/events/2734051166735863/
+link: https://www.tango-maldito.de/otra-luna
+description: >-
+  Die andere Milonga im La Lunita 🌙
+
+
+  Einmal im Monat
+
+  Day and Night Tango
+
+
+  MULTIPERSPECTIVA
+
+  SIEMPRE DIFFERENTE
+
+
+  Diesmal
+
+  BALKAN EDITION
+
+
+  Eine getanzte Balkanreise mit viel Feuer und noch mehr Überraschungen 
+
+
+  Wir starten Nachmittags! 
+
+  Und tanzen in die Tango Nacht hinein mit:
+
+
+  DJs Baki Vertiola und Kastriot - back to their Kosovan roots!!!
+
+  und Sebastian Kramer LIVE an der Gitarre! (A la Gorra)
+
+
+  dazu
+
+  Geheime Schätze aus den Klamottenschränken der besten Tangueras der Stadt 🌸 
+
+
+  Feines in salzig und süß aus der Balkanküche 
+
+
+  Und exklusiv: Verlosung 1 Free-Pass Couple für den 
+
+  Kosova Tango Marathoncito in Gjakova vom 30. Mai-2. Juni 2024 www.kosovatango.com
+
+
+  Infos: www.tango-maldito.de
+
+  www.tangomuenchen.de.de/?tid=25481
+eventType: Party
+program: []
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: OTRA LUNA - Milonga Multiperspectiva im La Lunita – Balkan Edition
+online: No
+international: No
+startDate: 1704553200000
+cover: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/414045599_865236338935131_6906874233234416498_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Oejgt298oQ4AX-DDmMD&_nc_ht=scontent-iad3-1.xx&oh=00_AfAqJnYU1XffBcXhDR69htlBWSElZSeUmSD3TQ8-mhfUag&oe=659CA703
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FfKdNurMqlzeyQwypehzQ.png?generation=1704426757599489&alt=media
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList: []
+id: fKdNurMqlzeyQwypehzQ
+updatedAt: 1704426766305
+instagram:
+  messageUrl: https://instagram.com/p/C1tKowbNa9p
+  publishedAt: 1704430092402
+  messageId: C1tKowbNa9p
+  state: published
+promotionError: ""
+promotion: completed
+facebookId: "2734051166735863"
+hash: 1704553200000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+viewsCount: 4

@@ -1,0 +1,130 @@
+endDate: 1748761200000
+sourceUrl: https://www.facebook.com/events/272927309238564/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1717133220000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1717133538000
+facebookId: "272927309238564"
+facebook: https://www.facebook.com/events/272927309238564/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/272927309238564/
+eventType: Congress
+providerItemId: e272927309238564@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Cologne Salsa Congress discount🔥DANCINGTOM🔥
+location: Cologne , Germany
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1748584800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Lichtensteinstraße 2A, 81375 München, Germany
+  website: https://dance-animate.com/contact-us/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Dance and Animate
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4962396697085
+        lat: 48.1113112197085
+      northeast:
+        lng: 11.4989376302915
+        lat: 48.1140091802915
+    location:
+      lng: 11.497703
+      lat: 48.1126582
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Lichtensteinstraße
+      long_name: Lichtensteinstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hadern
+      long_name: Hadern
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81375"
+      long_name: "81375"
+  international_phone_number: +49 163 4542612
+  place_id: ChIJf8WQC_DYnUcREeVM6mi2ESs
+  url: https://maps.google.com/?cid=3103462179958744337
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417904193
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/DancingTom/100089174073973/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417904/qzwzkp3prdmrlqxlqvs9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417904193
+  owned: false
+  name: DancingTom
+  updatedAt: 1728417904193
+  username: DancingTom
+claimed: No
+link: https://colognesalsacongress.com/en/tickets-en/
+description: |-
+  Get your early bird tickets now 🎉
+
+  DISCOUNT CODE 🔥 DANCINGTOM 🔥 
+
+  https://colognesalsacongress.com/en/tickets-en/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417906/muurr4cj0ybvhc28c0az.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1748584800000+ChIJf8WQC_DYnUcREeVM6mi2ESs
+id: 6faWSU9PGkARFoEV5Ol9

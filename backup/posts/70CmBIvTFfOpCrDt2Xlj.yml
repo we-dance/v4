@@ -1,0 +1,326 @@
+endDate: 1737478800000
+sourceUrl: https://www.facebook.com/events/2849306878558933/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1722080492000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728037083000
+facebookId: "2849306878558933"
+facebook: https://www.facebook.com/events/2849306878558933/
+isNew: true
+facebookUrlsList:
+  - https://web.facebook.com/share/pJADyiGA4ebz5hn3/
+  - https://www.facebook.com/events/2849306878558933/
+eventType: Congress
+providerItemId: e2849306878558933@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Thailand Latin Extravaganza 2025 (𝑩𝒂𝒏𝒈𝒌𝒐𝒌, 𝑱𝒂𝒏𝒖𝒂𝒓𝒚 16 - 21)
+  -𝟭𝒔𝒕 𝑬𝒅𝒊𝒕𝒊𝗼𝗻 "
+location: Rembrandt Hotel Bangkok
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1736996400000
+facebookUrlsCount: 2
+username: Aina
+venue:
+  formatted_address: 19 Soi Sukhumvit 18, Khwaeng Khlong Toei, Khet Khlong Toei,
+    Krung Thep Maha Nakhon 10110, Thailand
+  website: https://www.rembrandthotelbangkok.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Rembrandt Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: 100.5614094197085
+        lat: 13.7311526697085
+      northeast:
+        lng: 100.5641073802915
+        lat: 13.7338506302915
+    location:
+      lng: 100.5627979
+      lat: 13.7325001
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Soi Sukhumvit 18
+      long_name: Soi Sukhumvit 18
+    - types:
+        - sublocality_level_2
+        - sublocality
+        - political
+      short_name: Khwaeng Khlong Toei
+      long_name: Khwaeng Khlong Toei
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Khet Khlong Toei
+      long_name: Khet Khlong Toei
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Krung Thep Maha Nakhon
+      long_name: Krung Thep Maha Nakhon
+    - types:
+        - country
+        - political
+      short_name: TH
+      long_name: Thailand
+    - types:
+        - postal_code
+      short_name: "10110"
+      long_name: "10110"
+  international_phone_number: +66 2 261 7100
+  place_id: ChIJu-gRTh2f4jARH8E0K5g_vZU
+  url: https://maps.google.com/?cid=10789850205042032927
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417925614
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Thailand-Latin-Extravaganza/61563393302268/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417925/iumz8atkfnryccbo3tqr.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417925614
+  owned: false
+  name: Thailand Latin Extravaganza
+  updatedAt: 1728417925614
+  username: thailand.latin.extra
+claimed: No
+link: https://www.tickettailor.com/events/thailandlatinextravaganza/1341121
+description: >-
+  🌟 𝗧𝗛𝗔𝗜𝗟𝗔𝗡𝗗 𝗟𝗔𝗧𝗜𝗡 𝗘𝗫𝗧𝗥𝗔𝗩𝗔𝗚𝗔𝗡𝗭𝗔 (𝑩𝒂𝒏𝒈𝒌𝒐𝒌,
+  𝑱𝒂𝒏𝒖𝒂𝒓𝒚 16 - 21, 2025) - 1𝒔𝒕 𝑬𝒅𝒊𝒕𝒊𝒐𝒏 🌟
+
+
+  💎 Join us for our inaugural SBK edition of an unforgettable festival in the vibrant city of 𝑩𝒂𝒏𝒈𝒌𝒐𝒌
+
+
+  ✨ 𝗖𝗼𝗻𝗴𝗿𝗲𝘀𝘀 𝗛𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀 ✨
+
+
+  🔥 𝑨𝒓𝒕𝒊𝒔𝒕 𝑳𝒊𝒏𝒆𝒖𝒑
+
+
+  - 𝕂𝕚𝕫𝕠𝕞𝕓𝕒:
+
+  𝗝𝗢𝗝𝗢 - 𝗙𝗿𝗮𝗻𝗰𝗲
+
+  𝗝𝗣 & 𝗦𝗧𝗘𝗣𝗛𝗬 - 𝗙𝗿𝗮𝗻𝗰𝗲
+
+  𝗦𝗔𝗢 𝗠𝗔𝗜 - 𝗩𝗶𝗲𝘁 𝗡𝗮𝗺
+
+  𝗕𝗜𝗕𝗦 - 𝗝𝗮𝗽𝗮𝗻
+
+  𝗟𝗔𝗨𝗥𝗔 - 𝗛𝗼𝗻𝗴 𝗞𝗼𝗻𝗴
+
+  𝗥𝗜𝗧𝗔 - 𝗦𝗼𝘂𝘁𝗵 𝗞𝗼𝗿𝗲𝗮
+
+
+
+  - 𝔹𝕒𝕔𝕙𝕒𝕥𝕒:
+
+
+  𝗠𝗔𝗥𝗖𝗘𝗟𝗢 & 𝗡𝗔𝗦𝗧𝗜 - 𝗟𝗶𝘁𝗵𝘂𝗮𝗻𝗶𝗮 - The World Bachata Champions
+
+  𝗢𝗙𝗜𝗥 & 𝗢𝗙𝗥𝗜 - 𝗜𝘀𝗿𝗮𝗲𝗹 - Bachata Champions
+
+  𝗔𝗟𝗔𝗡 & 𝗖𝗛𝗥𝗜𝗦𝗧𝗜𝗔𝗡 - 𝗦𝗽𝗮𝗶𝗻
+
+  𝗡𝗔𝗠 𝗗𝗢𝗔𝗡 & 𝗡𝗚𝗢𝗖 𝗕𝗜𝗖𝗛 - 𝗩𝗶𝗲𝘁 𝗡𝗮𝗺
+
+  𝗡𝗢𝗕𝗟𝗘 & 𝗥𝗢𝗦𝗘 - 𝗞𝗼𝗿𝗲𝗮
+
+  𝗦𝗢𝗢 & 𝗡𝗔𝗥𝗔 - 𝗞𝗼𝗿𝗲𝗮
+
+  𝗧𝗔𝗡𝗩𝗜 - 𝗔𝘂𝘀𝘁𝗿𝗮𝗹𝗶𝗮
+
+  𝗔𝗟𝗘𝗫 & 𝗦𝗔𝗢𝗥𝗜 - 𝗥𝗼𝗺𝗮𝗻𝗶𝗮/𝗝𝗮𝗽𝗮𝗻
+
+  𝗧𝗜𝗚𝗘𝗥 - 𝗖𝗵𝗶𝗻𝗮
+
+  𝗩𝗜𝗖𝗧𝗢𝗥 & 𝗠𝗢𝗡𝗜𝗞𝗔 - 𝗝𝗮𝗽𝗮𝗻
+
+  𝗝𝗘𝗢𝗡𝗚 𝗬𝗢𝗡𝗚𝗦𝗨 & 𝗦𝗨𝗡𝗚 𝗝𝗨𝗬𝗢𝗨𝗡𝗚 - 𝗞𝗼𝗿𝗲𝗮
+
+  𝗡𝗔𝗥𝗜 𝗦𝗢𝗡 - 𝗞𝗼𝗿𝗲𝗮
+
+  𝗣𝗔𝗥𝗜𝗦 𝗪𝗢𝗡𝗚 - 𝗛𝗼𝗻𝗴 𝗞𝗼𝗻𝗴
+
+  𝗟𝗜𝗦𝗔 - 𝗧𝗵𝗮𝗶𝗹𝗮𝗻𝗱
+
+  𝗞𝗛𝗔𝗟𝗜𝗟 - 𝗠𝗮𝗹𝗮𝘆𝘀𝗶𝗮 
+
+
+  - 𝕊𝕒𝕝𝕤𝕒
+
+  𝗝𝗢𝗦𝗘 & 𝗠𝗔𝗥𝗜𝗔 - 𝗦𝗽𝗮𝗶𝗻 - The World Salsa Champions
+
+  𝗖𝗛𝗔𝗥𝗟𝗜𝗘 & 𝗦𝗖𝗔𝗥𝗟𝗘𝗧𝗧 - 𝗡𝗲𝘄 𝗬𝗼𝗿𝗸
+
+  𝗟𝗜𝗢𝗡 𝗟𝗜𝗢𝗡 - 𝗞𝗼𝗿𝗲𝗮
+
+  𝗟𝗔𝗥𝗥𝗬 𝗦𝗛𝗔𝗢 - 𝗧𝗮𝗶𝘄𝗮𝗻
+
+  𝗦𝗜𝗠𝗢𝗡 𝗔𝗡𝗗 𝗕𝗘𝗟𝗟𝗔 - 𝗖𝗵𝗶𝗻𝗮
+
+  𝗥𝗘𝗬𝗡𝗢 - 𝗜𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮
+
+  ﻿﻿𝗙𝗥𝗔𝗡𝗞𝗟𝗢𝗡𝗚 - 𝗩𝗶𝗲𝘁 𝗡𝗮𝗺
+
+  𝗥𝗨𝗕𝗔𝗡 - 𝗦𝗿𝗶𝗹𝗮𝗻𝗸𝗮
+
+  ﻿﻿𝗦𝗛𝗘𝗥𝗠𝗔𝗡 𝗠𝗢𝗦𝗤𝗨𝗜𝗧𝗢 - 𝗛𝗼𝗻𝗴 𝗞𝗼𝗻𝗴
+
+  𝗦𝗩𝗘𝗧𝗟𝗜𝗡𝗔 - 𝗥𝘂𝘀𝘀𝗶𝗮 / 𝗖𝗮𝗺𝗯𝗼𝗱𝗶𝗮
+
+  𝗔𝗡𝗗𝗥𝗘𝗪 𝗪𝗔𝗡𝗚 - 𝗖𝗵𝗶𝗻𝗮
+
+  𝗠𝗔𝗡𝗗𝗬 𝗪𝗔𝗡𝗚 - 𝗧𝗮𝗶𝘄𝗮𝗻
+
+
+  🎤 𝔼𝕞𝕔𝕖𝕖
+
+  𝗙𝗔𝗥𝗜𝗗 𝗙𝗘𝗥𝗖𝗛𝗔𝗖𝗛 - 𝗙𝗿𝗮𝗻𝗰𝗲
+
+
+  𝑴𝒐𝒓𝒆 𝒂𝒓𝒕𝒊𝒔𝒕𝒔 𝒖𝒑𝒅𝒂𝒕𝒆𝒅
+
+
+  🎶 𝑻𝒐𝒑 𝑰𝒏𝒕𝒆𝒓𝒏𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝑫𝑱
+
+
+  - 𝗔𝗟𝗘𝗝𝗔𝗡𝗗𝗥𝗢 - 𝗔𝗿𝗴𝗲𝗻𝘁𝗶𝗻𝗮
+
+  - 𝗦𝗡𝗔𝗞𝗘𝗭 - 𝗦𝗽𝗮𝗶𝗻
+
+  - 𝗝𝗨𝗟𝗜𝗔𝗡 - 𝗨𝗞
+
+  ﻿﻿- 𝗔𝗝𝗔𝗗 - 𝗝𝗮𝗽𝗮𝗻
+
+  - 𝗛𝗔𝗥𝗥𝗬 𝗔𝗡𝗚 - 𝗠𝗮𝗹𝗮𝘆𝘀𝗶𝗮
+
+  - 𝗕𝗟𝗗 - 𝗦𝗼𝘂𝘁𝗵 𝗞𝗼𝗿𝗲𝗮
+
+
+  More artists will be updated
+
+
+  🌍 50+ 𝑰𝒏𝒕𝒆𝒓𝒏𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝒂𝒏𝒅 𝑵𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝑨𝒓𝒕𝒊𝒔𝒕𝒔
+
+
+  🏨 3 𝑫𝒚𝒏𝒂𝒎𝒊𝒄 𝑫𝒂𝒏𝒄𝒆 𝑹𝒐𝒐𝒎𝒔 𝑶𝒑𝒆𝒏 𝑼𝒏𝒕𝒊𝒍 3.30𝒂.𝒎 𝑬𝒗𝒆𝒓𝒚 𝑵𝒊𝒈𝒉𝒕
+
+
+  📚 𝑴𝒐𝒓𝒆 𝒕𝒉𝒂𝒏 60 𝒐𝒇 𝑬𝒙𝒄𝒊𝒕𝒊𝒏𝒈 𝑾𝒐𝒓𝒌𝒔𝒉𝒐𝒑𝒔
+
+
+  🏆 𝑨𝒔𝒊𝒂 𝑱𝒂𝒄𝒌 & 𝑱𝒊𝒍𝒍 𝑪𝒐𝒎𝒑𝒆𝒕𝒊𝒕𝒊𝒐𝒏
+
+
+  🏆 𝑻𝒆𝒂𝒎 𝒃𝒂𝒕𝒕𝒍𝒆𝒔
+
+
+  🕺👯‍♀️💃 𝑰𝒏𝒄𝒓𝒆𝒅𝒊𝒃𝒍𝒆 𝑺𝒉𝒐𝒘𝒔 𝒂𝒏𝒅 𝑷𝒆𝒓𝒇𝒐𝒓𝒎𝒂𝒏𝒄𝒆𝒔
+
+
+  🎤 🎺🎷 𝑰𝒏𝒕𝒆𝒓𝒏𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝑴𝑪𝒔
+
+
+  🕺 𝑬𝒏𝒈𝒂𝒈𝒊𝒏𝒈 𝑨𝒏𝒊𝒎𝒂𝒕𝒊𝒐𝒏𝒔
+
+
+  🚢 𝑪𝒓𝒖𝒊𝒔𝒆 𝑷𝒂𝒓𝒕𝒚
+
+
+  🌊 𝑷𝒐𝒐𝒍 𝑷𝒂𝒓𝒕𝒚
+
+
+  🌙 6 𝑪𝒐𝒏𝒔𝒆𝒄𝒖𝒕𝒊𝒗𝒆 𝑵𝒊𝒈𝒉𝒕𝒔 𝒐𝒇 𝑵𝒐𝒏-𝑺𝒕𝒐𝒑 𝑫𝒂𝒏𝒄𝒊𝒏𝒈
+
+
+  - Pre-party: Thursday
+
+
+  - 3 main nights: Friday - Sunday
+
+
+  - 2 closing parties:
+
+
+  Monday night
+
+
+  Tuesday night (FREE ENTRANCE for full pass holder)
+
+
+  🏨 Rembrandt Hotel Bangkok, Sukhumvit soi 18
+
+
+  🔗 𝑭𝑩 𝑬𝒗𝒆𝒏𝒕 𝑳𝒊𝒏𝒌:
+
+
+  https://web.facebook.com/share/pJADyiGA4ebz5hn3/
+
+
+  💲𝗚𝗘𝗧 𝗬𝗢𝗨𝗥 𝗣𝗔𝗦𝗦 𝗡𝗢𝗪
+
+
+  🎟️ - 𝗙𝘂𝗹𝗹 𝗣𝗮𝘀𝘀 𝟱,𝟵𝟵𝟵 𝐓𝐇𝐁
+
+
+  - 𝗣𝗮𝗿𝘁𝘆 𝗣𝗮𝘀𝘀 𝟰,𝟰𝟵𝟵 𝐓𝐇𝐁
+
+
+  ☎️ For more information, WhatsApp us at +66 902848313 (𝑫𝒂𝒊𝒔𝒚) 𝒐𝒓 +91 9845433370 (𝑱𝒐𝒉𝒏 𝑨𝒏𝒕𝒉𝒐𝒏𝒚)
+
+
+  - 𝑾𝒆𝒃𝒔𝒊𝒕𝒆: https://www.tle2025.com/
+
+
+  - 𝑭𝑩 𝑷𝒂𝒈𝒆:
+
+  https://web.facebook.com/profile.php?id=61563393302268&mibextid=ZbWKwL&_rdc=1&_rdr
+
+
+  - 𝑰𝑮: https://www.instagram.com/thailand.latin.extravaganza/
+
+
+  #bangkokfestival #thailandextravaganza #tle2025 #bachata #thailandfestival #thailandcongress #kizomba #salsa
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417927/z28fuzvwq0uqkhxkeige.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1736996400000+ChIJu-gRTh2f4jARH8E0K5g_vZU
+viewsCount: 1
+id: 70CmBIvTFfOpCrDt2Xlj

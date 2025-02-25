@@ -1,0 +1,116 @@
+endDate: 1718485200000
+sourceUrl: https://www.facebook.com/events/954584479287214/
+createdAt: 1717596029248
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1717582887000
+updatedAt: 1717596029248
+importedAt: 1717596029248
+providerUpdatedAt: 1717582887000
+facebookId: "954584479287214"
+facebook: https://www.facebook.com/events/954584479287214/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/954584479287214/
+eventType: Party
+providerItemId: 10008991-1718474400-1718485200@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Alagút Tető, Alagút utca, Budapest, 1016, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718474400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Alagút, 1012 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Budai Castle Tunnel
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0381333697085
+        lat: 47.49678721970849
+      northeast:
+        lng: 19.0408313302915
+        lat: 47.49948518029149
+    location:
+      lng: 19.0394872
+      lat: 47.49812499999999
+  address_components:
+    - types:
+        - route
+      short_name: Alagút
+      long_name: Alagút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: I. kerület
+      long_name: I. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1012"
+      long_name: "1012"
+  place_id: ChIJy-FlwDzcQUcRNKfIJUqXtoQ
+  url: https://maps.google.com/?cid=9562997203485108020
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/en.nevnelkul
+  name: Én Név Nélkül
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711800534/dbyvlbax1spbe32u9tpa.jpg
+  bio: ""
+  id: gPOIlbipuewCTXYFKuZM
+  instagram: ""
+  username: en.nevnelkul
+claimed: No
+link: ""
+description: >+
+  Kedves Táncoslábúak! :) 
+
+
+  Mindenkit várunk június 15-én, szombaton, 18-21 óra között táncpiknikre az Alagút fölötti teraszra - vegyes társastáncos zenékkel: standard, latin, rocky, salsa, bachata és minden :) 
+
+
+  Megosztani szabad :)
+
+
+  A rendezvényen mindenki saját felelősségére vesz részt.
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1717596049/sw0fuqkl9yido04menku.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Táncpiknik az Alagút teraszon
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1718467200000+ChIJy-FlwDzcQUcRNKfIJUqXtoQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgMxTzoKiGlCfvqjRNtmg.png?generation=1717596079936989&alt=media
+id: gMxTzoKiGlCfvqjRNtmg

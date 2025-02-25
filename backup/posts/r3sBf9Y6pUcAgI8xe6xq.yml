@@ -1,0 +1,183 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/west-palm-sbk-fest/
+sourceUrl: https://facebook.com/events/24965005119764993
+venue:
+  address_components:
+    - long_name: "150"
+      short_name: "150"
+      types:
+        - street_number
+    - long_name: Australian Avenue
+      short_name: Australian Ave
+      types:
+        - route
+    - long_name: West Palm Beach
+      short_name: West Palm Beach
+      types:
+        - locality
+        - political
+    - long_name: Palm Beach County
+      short_name: Palm Beach County
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Florida
+      short_name: FL
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United States
+      short_name: US
+      types:
+        - country
+        - political
+    - long_name: "33406"
+      short_name: "33406"
+      types:
+        - postal_code
+    - long_name: "1473"
+      short_name: "1473"
+      types:
+        - postal_code_suffix
+  formatted_address: 150 Australian Ave, West Palm Beach, FL 33406, USA
+  geometry:
+    location:
+      lat: 26.678176
+      lng: -80.0725989
+    viewport:
+      northeast:
+        lat: 26.67934088029151
+        lng: -80.0712175197085
+      southwest:
+        lat: 26.6766429197085
+        lng: -80.0739154802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +1 561-684-9400
+  name: Hilton Palm Beach PBI
+  place_id: ChIJSQIRg7bX2IgRWt51oMk2y8M
+  url: https://maps.google.com/?cid=14108430497276616282
+  website: https://www.hilton.com/en/hotels/pbiahhf-hilton-palm-beach-pbi/?SEO_id=GMB-AMER-HH-PBIAHHF&y_source=1_MTIyMDc5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D
+endDate: 1748239200000
+claimed: No
+link: https://buytickets.at/westpalmsbkfest/1044461
+description: >-
+  Discover West Palm SBK Fest.
+
+
+  - MAY 23  - 2025
+
+
+  Get ready for the BIGGEST & Most Fun Dance Weekend with 3 Days of Non-Stop Partying! Over 25 Master Dance Workshops on Salsa, Bachata, Kizomba, Cha-Cha-Cha & Mambo + Spectacular World Dance Champions & Pro-Am Dance Performances - Kids Dance Competitions, 
+
+  Pool Parties - Nights Dance Social -Saturday Dinner Banquet - FREE PARKING - Cash Bar Plus More... 
+
+  The Hottest Salsa Bachata Kizomba Dance Festival in Palm Beach County. Get ready today... !!!!
+
+
+  Dance Workshops 10:00am to 5:00pm
+
+
+  Dance Showcases 8:00pm
+
+
+  Dance Social 10:00pm to 4:00am 
+
+
+  Please note - Time and Scheule are subject to change. I.D must be present at Registration Desk, Tickets Purchased before Event Start Date are Transferable.
+
+
+  TicketsTaylor.Com
+
+  ⬇️⬇️
+
+
+  https://buytickets.at/westpalmsbkfest/1044461
+
+
+  More info @ Westpalmsbkfest.com 
+
+
+  LOCATION -
+
+  Hilton Palm Beach
+
+  150 Australian Ave West Palm Beach 33406
+
+
+  Hotel Discounted Link 
+
+  ⬇️⬇️
+
+
+  https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=PBIAHHF&groupCode=SBK24&arrivaldate=2024-10-17&departuredate=2024-10-21&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT
+
+
+  West Palm SBK Fest 
+
+  Hosted by ...
+
+
+  LtDS WEST PALM BEACH / TITO ECHEVARRIA/ JIMMY RUMBA/ CINDY GUZMAN / MANNY MORALES / PALM BEACH DANCE BASH.
+
+
+  Sponsorship by ...
+
+
+  BORN TO SALSA , DANCE SOUTH FLORIDA, ORLANDO SALSA CONGRESS, PLANETA FASHION,GIRAFAS SPORT BAR.
+
+
+  Buy tickets
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/jdsd4xr0gflmwbsjtcry.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJwa2VtczV2IgR3mvhH7XH7xU
+international: No
+visibility: Public
+org:
+  createdAt: 1732293944716
+  importedAt: 1732293944716
+  updatedAt: 1732293944716
+  source: facebook
+  name: Palm Beach Dance Bash
+  facebook: https://www.facebook.com/Palmbeachdance
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/rxekbddnxvaup0rmttzr.jpg
+  username: Palmbeachdance
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJwa2VtczV2IgR3mvhH7XH7xU
+facebook: https://www.facebook.com/events/24965005119764993/
+facebookId: "24965005119764993"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+name: West Palm SBK Fest 2025
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1748008800000+ChIJSQIRg7bX2IgRWt51oMk2y8M
+startDate: 1748008800000
+id: r3sBf9Y6pUcAgI8xe6xq

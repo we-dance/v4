@@ -1,0 +1,224 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/kaluanda-festival/
+sourceUrl: https://facebook.com/events/202045406066406
+venue:
+  address_components:
+    - long_name: "332"
+      short_name: "332"
+      types:
+        - subpremise
+    - long_name: Km. 73,4
+      short_name: Km. 73,4
+      types:
+        - street_number
+    - long_name: Carrer Alacant
+      short_name: Carrer Alacant
+      types:
+        - route
+    - long_name: Guardamar del Segura
+      short_name: Guardamar del Segura
+      types:
+        - locality
+        - political
+    - long_name: Alicante
+      short_name: A
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Comunidad Valenciana
+      short_name: VC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "03140"
+      short_name: "03140"
+      types:
+        - postal_code
+  formatted_address: Carrer Alacant, Km. 73,4, 332, 03140 Guardamar del Segura, Alicante, Spain
+  geometry:
+    location:
+      lat: 38.108818
+      lng: -0.6559569999999999
+    viewport:
+      northeast:
+        lat: 38.1101693802915
+        lng: -0.6546160197084979
+      southwest:
+        lat: 38.1074714197085
+        lng: -0.657313980291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png
+  international_phone_number: +34 965 48 49 45
+  name: Alannia Guardamar
+  place_id: ChIJgV6k6YWtYw0Rd_B73Z5KV6E
+  url: https://maps.google.com/?cid=11625843009261400183
+  website: https://alanniaresorts.com/es/resorts/alannia-guardamar
+endDate: 1732471200000
+claimed: No
+link: https://www.goandance.com/en/events/6528-kaluanda
+description: >-
+  KALUANDA 2º Edition   
+
+  Share - Dance - Enjoy
+
+
+  Aprende, disfruta, baila y comparte de una manera diferente junto a un team de artistas de excepción e invitados especiales de ensueño con 9 horas de formación y 5 sociales (2 nocturnos) en un RESORT que nos permitirá convivir y compartir mucho más que Kizomba&semba.
+
+
+  ~ ARTISTAS ~
+
+  LANA ZAMORA 🇵🇹🇦🇴
+
+  TONY VISER 🇪🇸🇦🇴
+
+  CARLA ANDRADE 🇪🇸🇨🇻
+
+  JEANETTE TAVARES 🇪🇸🇨🇻
+
+  YASMIN 🇪🇸
+
+  EDUARDO MENEZES 🇪🇸🇧🇷
+
+  JADE TCHEY 🇪🇸
+
+  CARLOS SANTOS 🇨🇭🇵🇹
+
+  SANDRA CERVERA 🇪🇸
+
+  XENOS 🇵🇹🇦🇴
+   
+
+
+  ~ DJ~ 
+
+  DJ LINDUKA 🇪🇸🇨🇻
+
+  DJ XENOS 🇵🇹🇦🇴
+
+  DJ KAZUKUTA 
+
+
+  ~ SPECIAL GUEST ~
+
+  Fernando Monteiro 🇨🇭🇵🇹
+
+  Joelson Kizomba 🇦🇴
+
+  Daniela Gmür 🇨🇭
+
+  Alvaro Garcia Muginga 🇦🇴
+
+  Bonga 🇵🇹🇨🇲
+
+  Aline 🇵🇹🇫🇷
+
+  Melania Andrei 🇷🇴
+
+  Rafael 🇪🇸🇩🇪
+
+  Nina 🇪🇸🇷🇴
+
+  Celia Santos 🇵🇹
+
+  Mauro de One 🇵🇹🇦🇴
+
+  Dj Bikini 🇮🇹
+
+  Dj Cubanito 
+
+  & more ...
+
+   
+
+  PRECIO Full Pass 93€/persona precio  o  143€ pareja ( lider y follower)
+
+
+  ⚠️ la acreditación de full pass en pareja se realizará con ambas partes presentes ⚠️
+
+
+  Usa los promocodes de nuestro staff y ahorrate 10€
+
+
+  Información 
+
+  🇪🇸 +34651164833
+
+  🇨🇭 +41 76 343 51 70 / +41 76 802 09 92 
+
+  🇫🇷 +33 6 62 44 16 76
+
+  🇷🇴+ 40 755 800 613
+
+
+  PRECIOS 
+
+  ✨️Couple Pass 143€ ( lider y follower)
+
+  ✨️Pass individual 93€
+
+  ✨️Promoción líderes 150€ ( 3 full pass)
+
+
+
+  ⬇️ TICKET ⬇️ No reembolsable https://www.goandance.com/en/events/6528-kaluanda
+
+  PERMITIDO CAMBIO DE NOMBRE HASTA EL 18 DE NOVIEMBRE 2024
+   
+
+  ✅️ Reserva tu alojamiento 
+
+  con cancelación gratuita ⬇️⬇️⬇️
+
+  ( promocode KALUANDA)
+   
+  Alannia Guardamar 965484945
+
+  https://alanniaresorts.com/es/engine?hotel=100899-0&start=2024-11-22&end=2024-11-24&occupancy=2&promo=KALUANDA+&ordering=rating&fbclid=IwAR2-d5gGQawwnHE8LwPalc9AzG_4hzuWhgI10kb79f59jp8o5qE-pbl-d3w
+
+
+  Elige la opción que más te interese a precios increíbles
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293930/wfp8kztadl6quxv442rl.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJBVK5nkasYw0RwocFp_-liPA
+international: No
+visibility: Public
+org:
+  id: byhyoDvUEywtIaaRHUAH
+  username: KaluandaSpain
+  name: Kaluanda
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417957/coufbigr6b13psksxgvn.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/KaluandaSpain
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/202045406066406/
+facebookId: "202045406066406"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: KALUANDA 2º EDITION
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1732287600000+ChIJgV6k6YWtYw0Rd_B73Z5KV6E
+startDate: 1732287600000
+id: j6ogF3BTVEQYGPYcdJWu

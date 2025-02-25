@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  international_phone_number: +49 89 74039681
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+  url: https://maps.google.com/?cid=8948474523406618165
+endDate: 2023-04-23T22:00
+claimed: No
+description: Vor dem Kizomba Social werden Kizomba Bootcamp mit Simon & Madison
+  & Urban-Kiz all Levels Workshop mit Erland & Partnerin
+program:
+  - endDate: 2023-04-23T19:00
+    name: Kizomba Intermediate Bootcamp mit Simon & Madison
+    eventType: Workshop
+    startDate: 2023-04-23T16:30
+  - endDate: 2023-04-23T22:00
+    name: "Kizomba Social mit DJ Paps & DJ Nicemixx "
+    eventType: Party
+    startDate: 2023-04-23T19:00
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fd12b6690-3e69-46f9-8c5b-955dc32ef7b0?alt=media&token=5b87b6ee-b5d0-4e26-a179-c41dee3cd3f0
+createdAt: 1681643139796
+artists: []
+price: 10 €
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1681643139796
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/SalsamasMunich
+  name: Salsamas_Munich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+  id: h1Q2XunkwqSUqIxinKiNaghTlal1
+  instagram: https://instagram.com/salsamasmunich
+  username: Salsamas_Munich
+eventType: Party
+form: No
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: Munich Kizomba Meeting - Bootcamp, Workshop & Social am Sonntag
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxinha:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-23T16:30
+username: Salsamas_Munich
+facebook: https://facebook.com/events/s/munich-kizomba-meeting/2087699001570804/
+id: XCzkPPJa903JPSHbu74J
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXCzkPPJa903JPSHbu74J.png?generation=1681643963627648&alt=media
+telegram:
+  requestedAt: 1682151217164
+  state: published
+  messageUrl: https://t.me/WeDanceMunich/1070
+  publishedAt: 1682151223097
+  messageId: 1070
+instagram:
+  requestedAt: 1682151219697
+  state: published
+  messageUrl: https://instagram.com/p/CrVNGjmuw66
+  publishedAt: 1682151242123
+  messageId: CrVNGjmuw66
+star:
+  count: 0
+  list: {}
+viewsCount: 43

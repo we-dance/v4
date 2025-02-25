@@ -1,0 +1,194 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/adam-bachata-festival/
+name: Adam Bachata Festival 2025
+sourceUrl: https://facebook.com/events/2733441950173741
+venue:
+  address_components:
+    - long_name: "28"
+      short_name: "28"
+      types:
+        - street_number
+    - long_name: Isolatorweg
+      short_name: Isolatorweg
+      types:
+        - route
+    - long_name: Westpoort
+      short_name: Westpoort
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Amsterdam
+      short_name: Amsterdam
+      types:
+        - locality
+        - political
+    - long_name: Amsterdam
+      short_name: Amsterdam
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Noord-Holland
+      short_name: NH
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Netherlands
+      short_name: NL
+      types:
+        - country
+        - political
+    - long_name: 1014 AS
+      short_name: 1014 AS
+      types:
+        - postal_code
+  formatted_address: Isolatorweg 28, 1014 AS Amsterdam, Netherlands
+  geometry:
+    location:
+      lat: 52.3927722
+      lng: 4.851088199999999
+    viewport:
+      northeast:
+        lat: 52.39416578029149
+        lng: 4.852195130291502
+      southwest:
+        lat: 52.3914678197085
+        lng: 4.849497169708497
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png
+  international_phone_number: +31 6 11140476
+  name: Adam Bachata Festival
+  place_id: ChIJp_4uCWDjxUcRJcNTsbdEAr4
+  url: https://maps.google.com/?cid=13691581372904489765
+  website: http://www.adambachatafestival.com/
+endDate: 1762138800000
+claimed: No
+link: https://www.salsero.es/eventshop/9113
+description: >-
+  ❌❌❌ ADAM BACHATA FESTIVAL 2025❌❌❌
+
+
+  7th edition of Adam Bachata Festival in Amsterdam. Learn and have fun in a familiar setting to enjoy a weekend full of Bachata in this unique city!
+
+
+  ⭐Amazing LINE-UP and workshops
+
+  ⭐International DJs
+
+  ⭐Surprising SHOWS
+
+  ⭐Official clothing sponsor & stand by Cupidanza
+
+  ⭐Jack & Jill competition with dancers from all around the world
+
+  ⭐Social parties (Thursday, Friday, Saturday and Sunday matinée)
+
+
+  LINE UP:
+
+  ❌ Marco & Sara
+
+  ❌ Luis & Andrea
+
+  ❌ Ronald & Alba
+
+  ❌ Dario & Sara
+
+  ❌ Janis & Zoe
+
+  ❌ Ahmedy & Caro 
+
+  ❌ Gianmarco & Jessica
+
+  ❌ Erik & Katinka
+
+  ❌ Owen & Eva
+
+  ❌ Tim & Sandra
+
+  ❌ David & Jessy
+
+  ❌ Erwin & Valentina
+
+  ❌ Jase & Feline
+
+  and many more...
+
+
+  INTERNATIONAL DJs
+
+  ⭐ DJ Alejandro
+
+  ⭐ DJ Cesc
+
+  ⭐ DJ Josh
+
+  ⭐ DJ Shay TLV
+
+  ⭐ DJ Samy
+
+  & many more...
+
+
+
+  ❌❌❌ HOTEL
+
+  Ibis City West hotel
+
+
+  ❌❌❌ WEBSITE
+
+  https://www.adambachatafestival.com/adam
+
+
+  Last edition after-movie: https://youtu.be/rM7je4BVxZI
+
+
+  ❌❌❌ PROGRAM
+
+  Thursday from 8pm workshop with Dario & Sara and pre-party
+
+  Friday workshops from 5pm + party until 4am
+
+  Saturday full-day of workshops + party until 4am
+
+  Sunday workshops until 5pm + Jack & Jill + Matinee party until 4am
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293951/znncikyzgqgdreo0rczr.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJVXealLU_xkcRja_At0z9AGY
+international: No
+visibility: Public
+org:
+  id: r8BbMB5AoxATeiHeyxnI
+  username: AdamBachataFestival
+  name: Adam Bachata Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718719264/lq2upfm7nbageoykdymb.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/AdamBachataFestival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/2733441950173741/
+facebookId: "2733441950173741"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1761926400000+ChIJp_4uCWDjxUcRJcNTsbdEAr4
+startDate: 1761926400000
+id: V75vdFzIAZMCXfU1Ea5G

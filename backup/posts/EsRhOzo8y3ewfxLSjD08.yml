@@ -1,0 +1,173 @@
+endDate: 1727049600000
+sourceUrl: https://fb.me/e/wUTwFEEQB
+createdAt: 1716213639966
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1716147571000
+updatedAt: 1716213639966
+importedAt: 1716213639966
+providerUpdatedAt: 1716147571000
+facebookId: wUTwFEEQB
+isNew: true
+facebookUrlsList:
+  - https://fb.me/e/wUTwFEEQB
+  - https://fb.me/e/wUTwFEEQB
+eventType: Party
+providerItemId: 5k2k1r4lr2vegkkbcdpt0ln7k5@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Bonn, 53 Bonn, Németország
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726876800000
+facebookUrlsCount: 2
+username: alexrazbakov
+venue:
+  formatted_address: Stettiner Str. 21, 53119 Bonn, Germany
+  website: https://www.fwsbonn.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Waldorf School Bonn e. V.
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.054661369708498
+        lat: 50.7454160697085
+      northeast:
+        lng: 7.057359330291503
+        lat: 50.7481140302915
+    location:
+      lng: 7.05584
+      lat: 50.74657999999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "21"
+      long_name: "21"
+    - types:
+        - route
+      short_name: Stettiner Str.
+      long_name: Stettiner Straße
+    - types:
+        - locality
+        - political
+      short_name: BN
+      long_name: Bonn
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bonn
+      long_name: Bonn
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Köln
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "53119"
+      long_name: "53119"
+  international_phone_number: +49 228 668070
+  place_id: ChIJ9UXSJdjhvkcRhqJocOPCgDI
+  url: https://maps.google.com/?cid=3639122781014631046
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1716213666441
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0cARSGBqs7qqhsWtUkuz4FHNKqSoFRFfjUmaJP2PRBjzizheytgoCM9TgMhjC6eX1l
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1716213667/yaro1xoxdxmdvrhokvbt.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1716213666441
+  owned: false
+  name: Martin Koo
+  place: ChIJSdrLfJ_hvkcRF5ZcaMb424Y
+  updatedAt: 1716213666441
+  username: martin.koo
+claimed: No
+facebook: https://www.facebook.com/events/383240584414790/
+link: ""
+description: >
+  Feel the flow - SoulZouk weekender
+
+
+  We love Zouk and its potential to feel like flowing together, free and connected at the same time. SoulZouk offers many techniques that help with creating this beautiful experience. 
+
+  We invite you to discover this with us!
+
+
+  ——
+
+
+  The amazing SoulZouk teacher Pat Géa from Brasil will join us again in Europe this year. This is your chance you have an intensive learning experience in 7 hours of workshops and two socials!
+
+
+  Level: Intermediate+ (You should bring some month of Zouk experience.)
+
+
+  Schedule:
+
+
+  Friday, 20.9. (local party in Cologne, included in the pass)
+
+  8:00 - 10:00 pm: Pre-Party-Workshops with Pat & Martin
+
+  10:00 pm - end: Party
+
+
+  —— Start of the main event ——
+
+  Saturday, 21.9. (Bonn)
+
+  2:00 - 3:30 pm: Workshop with Pat & Martin
+
+  4:00 - 5:30 pm: Workshop with Pat & Martin
+
+  Break
+
+  8:30 - 9:30 pm: Pre-Party workshop with Pat & Martin
+
+  9:30 pm - end: Party
+
+
+  Sunday, 22.9. (Bonn)
+
+  1:00 - 2:00 pm: Workshop with Simone
+
+  2:15 - 3:15 pm: Workshop with Pat & Martin
+
+  3:30 - 4:30 pm: Workshop with Pat & Martin
+
+  4:30 - 11:00 pm: Social dancing, ordering dinner together
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716213668/ymqf4sdiu67ai9aa9svo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Feel the Flow - SoulZouk Weekender with Pat & Martin
+online: No
+place: ChIJSdrLfJ_hvkcRF5ZcaMb424Y
+international: No
+hash: 1726855200000+ChIJ9UXSJdjhvkcRhqJocOPCgDI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEsRhOzo8y3ewfxLSjD08.png?generation=1716213699028124&alt=media
+id: EsRhOzo8y3ewfxLSjD08

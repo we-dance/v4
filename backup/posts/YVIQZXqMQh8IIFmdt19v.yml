@@ -1,0 +1,132 @@
+endDate: 1723852799000
+sourceUrl: https://www.facebook.com/events/2270794063127450/
+createdAt: 1723125629722
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1723097947000
+updatedAt: 1723125629722
+importedAt: 1723125629722
+providerUpdatedAt: 1723097947000
+facebookId: "2270794063127450"
+facebook: https://www.facebook.com/events/2270794063127450/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2270794063127450/
+providerItemId: 47702-1723766400-1723852799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Solo Restaurant, Lackner K. utca 33/A (Mediterrano), Sopron, 9400, Hungary
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723766400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Sopron, Lackner Kristóf u. 33, 9400 Hungary
+  website: https://solorestaurant.hu/galeria/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Solo restaurant
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.5795980697085
+        lat: 47.69343021970849
+      northeast:
+        lng: 16.5822960302915
+        lat: 47.69612818029149
+    location:
+      lng: 16.5809964
+      lat: 47.6948421
+  address_components:
+    - types:
+        - street_number
+      short_name: "33"
+      long_name: "33"
+    - types:
+        - route
+      short_name: Lackner Kristóf u.
+      long_name: Lackner Kristóf utca
+    - types:
+        - locality
+        - political
+      short_name: Sopron
+      long_name: Sopron
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "9400"
+      long_name: "9400"
+  international_phone_number: +36 99 900 901
+  place_id: ChIJ3yxfxGY7bEcRomO2SS8F3-c
+  url: https://maps.google.com/?cid=16708078843226121122
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1723125641477
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/SalsaConRon-Sopron/100057589234403/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1723125641/hvlxdbfzdnrrxetjuaso.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1723125641477
+  owned: false
+  name: SalsaConRon Sopron
+  place: ChIJDRZIUGA7bEcRoBIeDCnEAAQ
+  updatedAt: 1723125641477
+  username: SalsaConRonSopron
+claimed: No
+link: ""
+description: |-
+  Salsa Night Sopron - SalsaConRon
+  "La Noche Cubana"
+  Dresscode: ¡elegante cubano!
+
+  2024. augusztus 16-án PÉNTEKen
+  19 órától Vacsora: Kubai menü és koktélok
+  21 órától Szabadtéri Koncert: Team Gusto Cubano
+  utána Salsa Party
+  Helyszín: Solo Restaurant (Mediterrano) • Sopron,
+  Lackner Kristóf u. 33/A, 9400 Sopron
+  Belépő: HUF
+  -------------------------------------
+  Termin: 16. august 2024 Freitag
+  ab 19 Uhr Abendessen: Kubanisches Menü und Cocktails
+  ab 21 Uhr Open-Air Konzert mit Team Gusto Cubano
+  danach Salsa Party
+  Ort: Solo Restaurant (Mediterrano) • Sopron,
+  Lackner Kristóf u. 33/A, Sopron, Ungarn
+  Eintritt:  HUF
+  --------------------------------------
+  Party in Sopron 16. august Friday 2024
+  at 19 clock Dinner: Cuban meal and cocktails
+  at 21 clock Open-Air Concert with Team Gusto Cubano
+  then Salsa Party
+  Location: Solo Restaurant (Mediterrano) • Sopron,
+  Lackner Kristóf u. 33/A, Sopron, Hungary
+  Entry:  HUF
+program: []
+source: facebook
+eventType: Concert
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723125642/w2k2p7hrr7njfkvsqvbi.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa Night Sopron - SalsaConRon - Team Gusto Cubano Koncert
+online: No
+place: ChIJDRZIUGA7bEcRoBIeDCnEAAQ
+international: No
+hash: 1723827600000+ChIJ3yxfxGY7bEcRomO2SS8F3-c
+id: YVIQZXqMQh8IIFmdt19v

@@ -1,0 +1,163 @@
+endDate: 1718574900000
+sourceUrl: https://www.facebook.com/events/688082413334143/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1689615011000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1689615011000
+facebookId: "688082413334143"
+facebook: https://www.facebook.com/events/688082413334143/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/688082413334143/
+eventType: Festival
+providerItemId: e688082413334143@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: MADRID URBAN BACHATA FESTIVAL
+location: Occidental Aranjuez
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718373600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Pl. de la Unesco, 2, 28300 Madrid, Spain
+  website: https://www.barcelo.com/es-es/occidental-aranjuez/?utm_source=google&utm_medium=organic&utm_campaign=my_business&utm_content=7352
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Occidental Aranjuez
+  geometry:
+    viewport:
+      southwest:
+        lng: -3.606334980291502
+        lat: 40.0557955197085
+      northeast:
+        lng: -3.603637019708497
+        lat: 40.0584934802915
+    location:
+      lng: -3.60491
+      lat: 40.057331
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Pl. de la Unesco
+      long_name: Plaza de la Unesco
+    - types:
+        - locality
+        - political
+      short_name: Madrid
+      long_name: Madrid
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: M
+      long_name: Madrid
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MD
+      long_name: Comunidad de Madrid
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "28300"
+      long_name: "28300"
+  international_phone_number: +34 918 09 93 99
+  place_id: ChIJC5_luw0FQg0R-rkluihJ4r8
+  url: https://maps.google.com/?cid=13826694245251398138
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224684439
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BSKDancer0
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/pocetzjrb87ztuk7phrh.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224684439
+  owned: false
+  name: BSKDancer
+  place: ChIJgTwKgJcpQg0RaSKMYcHeNsQ
+  updatedAt: 1711224684439
+  username: BSKDancer0
+claimed: No
+link: https://lasalsadelbaile.com/urbanbachatafestival?ref=BSKDANCER
+description: |
+  𝕄𝔸𝔻ℝ𝕀𝔻 𝕌ℝ𝔹𝔸ℕ 𝔹𝔸ℂℍ𝔸𝕋𝔸 𝔽𝔼𝕊𝕋𝕀𝕍𝔸𝕃 𝟚𝟘𝟚𝟜
+
+  𝗣𝗥𝗢𝗠𝗢𝗖𝗢𝗗𝗘: 𝗕𝗦𝗞𝗗𝗔𝗡𝗖𝗘𝗥
+
+  📍Hotel Occidental Aranjuez ~ Aranjuez (Madrid)
+  📆 14 - 16 Junio 2024
+
+  𝗟𝗶𝗻𝗸 𝗱𝗶𝗿𝗲𝗰𝘁𝗼: ⬇️
+  https://lasalsadelbaile.com/urbanbachatafestival?ref=BSKDANCER
+
+  ***** ARTISTAS *****
+  - MELVIN & GATICA 
+  - GERO & MIGLE 
+  - DARIO & SARA 
+  - ANTONI & BELÉN 
+  - MIGUEL & SUNSIRÉ 
+  - DAVID & INÉS 
+  - CARLOS & PAZ 
+  - TAMARA & CÁNDIDO 
+  - MARLEY & LEO 
+  - ARLU & ISA 
+  - SERGIO & GEMA 
+  - JOAN & MARIA 
+  - CAMILO & LAURA 
+  - JIUVEL & ALBA 
+  - EDU & FÁTIMA  
+  - ALBER & LAU 
+  - EDU & VIRGINIA
+  - JOSE & LAYLA 
+  - ABEL & NAVARA 
+  - LUISMI & ÁNGELES 
+  - IVÁN & ELENA 
+  - TABLAO & TUMBAO 
+  - IVÁN & SHEILA 
+  - CHEO SBK 
+  - JESÚS & MARÍA
+
+  ***** DJ’s *****
+  - DJ YAGO 
+  - DJ SALVA 
+  - DJ KEVIN 
+   - DJ PULPO
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224685/rznhvvwjowi62pd7dxor.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJgTwKgJcpQg0RaSKMYcHeNsQ
+international: No
+hash: 1718373600000+ChIJC5_luw0FQg0R-rkluihJ4r8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSsLa3YipDoXYhB1wSM4l.png?generation=1711224711587805&alt=media
+viewsCount: 4
+id: SsLa3YipDoXYhB1wSM4l

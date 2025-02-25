@@ -1,0 +1,105 @@
+createdAt: 1708102250988
+updatedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+createdBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+facebook: https://www.facebook.com/events/466373475954570/
+updatedAt: 1708102250988
+username: MontunoClub
+venue:
+  formatted_address: Trg Marije Trandafil 14, Novi Sad, Serbia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Trg Marije Trandafil 14
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.8424991197085
+        lat: 45.25844901970849
+      northeast:
+        lng: 19.8451970802915
+        lat: 45.26114698029149
+    location:
+      lng: 19.8438834
+      lat: 45.2598186
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Trg Marije Trandafil
+      long_name: Trg Marije Trandafil
+    - types:
+        - locality
+        - political
+      short_name: NS
+      long_name: Novi Sad
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Južnobački okrug
+      long_name: Južnobački okrug
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vojvodina
+      long_name: Vojvodina
+    - types:
+        - country
+        - political
+      short_name: RS
+      long_name: Serbia
+  place_id: ChIJlRcTdF0QW0cRIhSJhFCL7-o
+  url: https://maps.google.com/?q=Trg+Marije+Trandafil+14,+Novi+Sad,+Serbia&ftid=0x475b105d74131795:0xeaef8b5084891422
+endDate: 1708734600000
+claimed: No
+link: ""
+description: >-
+  Približava nam se još jedno plesno veče, još jedna žurka latino i klasičnih
+  plesova! ✨
+
+
+  Rezervišite datum za veče ispunjeno plesom i odlučnom energijom! 🔥
+
+
+  START: 23.2. u 21h
+
+  ULAZ: 400 din.
+
+
+  Čekamo vas,
+
+  Vaš Allegro
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJVTTpPWEQW0cRKP4kN2h9bws
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/allegro.skola
+  name: Allegro Plesna Skola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708102245/djrhi5n77wf4szzsfryz.jpg
+  bio: ""
+  id: YDS57I04JY6qRwuzbKHG
+  instagram: ""
+  username: allegro.plesna.skola
+facebookId: "466373475954570"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: ☆ GRANDE ALLEGRO PLESNO VEČE ☆
+online: No
+styles: {}
+hash: 1708718400000+ChIJlRcTdF0QW0cRIhSJhFCL7-o
+startDate: 1708718400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708102258/agemiucc5dend8msiypr.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FFsNhoOAWdUgConCceCY4.png?generation=1708102278817697&alt=media
+viewsCount: 4
+id: FsNhoOAWdUgConCceCY4

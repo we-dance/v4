@@ -1,0 +1,151 @@
+endDate: 1729222200000
+sourceUrl: https://www.facebook.com/events/791642132672171/?event_time_id=791642202672164
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1715533496000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726510518000
+facebookId: "791642202672164"
+facebook: https://www.facebook.com/events/791642132672171/?event_time_id=791642202672164
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/791642132672171/?event_time_id=791642202672164
+eventType: Party
+providerItemId: e791642202672164@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Les Jeudis Latino SBK & Généraliste au BALAJO - Pause estivale du 31/07 au
+  19/08
+location: 9 rue de Lappe, 75011 Paris, France
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729186200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 9 Rue de Lappe, 75011 Paris, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 9 Rue de Lappe
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.370821319708498
+        lat: 48.8526611197085
+      northeast:
+        lng: 2.373519280291501
+        lat: 48.8553590802915
+    location:
+      lng: 2.3721691
+      lat: 48.854009
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Rue de Lappe
+      long_name: Rue de Lappe
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Département de Paris
+      long_name: Département de Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "75011"
+      long_name: "75011"
+  place_id: ChIJyyqlywBy5kcR8MD9BKULOIE
+  url: https://maps.google.com/?q=9+Rue+de+Lappe,+75011+Paris,+France&ftid=0x47e67200cba52acb:0x81380ba504fdc0f0
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Balajo75
+  name: Le balajo
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417933/gbxhgq6swlvom3yadkm6.jpg
+  bio: ""
+  id: cYPJpqUpV9ya0uTRF68o
+  instagram: ""
+  username: Balajo75
+claimed: No
+link: ""
+description: >-
+  Le BALAJO vous présente le retour des :🌴☆☆ JEUDIS LATINO SBK ☆☆🌴 au Balajo
+  ☆☆ , une soirée Conviviale et Festive incontournable à Paris !!! Le Balajo, un
+  lieu magique et mythique depuis 1936. The Place To Be ! AHINAMA !
+
+
+  🌴 Cours de Salsa Cubaine avec HERMINIO & CAROLE :
+
+  19h30 débutant - 20h30 intermédiaire 💃🕺,
+
+  🌴🌴 🎧 dès 21h30 Mix Salsa/Bachata/Kizomba jusqu'à 00h30 avec DJ KARL CONKLASS / DJ JAK / DJ PIEWO
+
+  puis Mix Clubbing Urban jusqu'à l'aube avec DJ résident !          
+
+
+  TARIFS : Cours + Soirée + Soft : 10€, 12€ avec Alcool,
+
+  VESTIAIRE : 2€ /personne (SANS limite d'articles) 
+
+  GRATUIT pour les filles de 21h à 22h et pour tous dès 00h30
+
+
+  Pour danser dans la Bonne Humeur, la Convivialité, la Bienveillance, les Ondes Positives, les Rires et Sourires, c'est au Balajo qu'il faut être tous les jeudis !
+
+
+  Le BALAJO – 9 rue de Lappe 75011 Paris – M° Bastille
+
+  Infos au 06.30.63.54.36 – www.lebalajo.fr
+
+
+  #salsa #bachata #paris #sortiraparis #parisbynight #parislanuit #danseslatines #cesoirjesors #danseraparis #explore #latinos #reggaeton #ilovesalsa #cubanos #bachateros #explorer #danceparty #bailar #dancelife #coursdesalsaparis #latinfeel #fun #salseros #workshops #dancers #feelgood
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418001/kjqclbsmjeutqlpb3wwf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+international: No
+hash: 1729186200000+ChIJyyqlywBy5kcR8MD9BKULOIE
+id: mrTs9ohQsmTF8AJlSQqt

@@ -1,0 +1,180 @@
+endDate: 1728586800000
+sourceUrl: https://www.facebook.com/events/403654202290523/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1723387655000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725887167000
+facebookId: "403654202290523"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/403654202290523/
+eventType: Workshop
+providerItemId: e403654202290523@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: " Salsa Menstyling Series (2 Levels) "
+location: Sportcomplex Kessel-Lo
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728579600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Stadionlaan 4, 3010 Leuven, Belgium
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Sportcomplex Kessel-Lo
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.733592869708497
+        lat: 50.8811711197085
+      northeast:
+        lng: 4.736290830291502
+        lat: 50.8838690802915
+    location:
+      lng: 4.7348373
+      lat: 50.8825168
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Stadionlaan
+      long_name: Stadionlaan
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Kessel-Lo
+      long_name: Kessel-Lo
+    - types:
+        - locality
+        - political
+      short_name: Leuven
+      long_name: Leuven
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: VB
+      long_name: Vlaams-Brabant
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vlaams Gewest
+      long_name: Vlaams Gewest
+    - types:
+        - country
+        - political
+      short_name: BE
+      long_name: Belgium
+    - types:
+        - postal_code
+      short_name: "3010"
+      long_name: "3010"
+  place_id: ChIJ9YK5gCRnwUcRMepzu-9KNhA
+  url: https://maps.google.com/?cid=1168203546851797553
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418016371
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Francesco-YJulie/pfbid0XVmcf5L9taDwYVcicNssqrJspQYv5bRMUnZ8Yoo8zAzBvHXuXY5wL7HyT7eP6xwel/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418016/rt0cnv9iikinh5vzlolc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418016371
+  owned: false
+  name: Francesco YJulie
+  place: ChIJhd-7XtBgwUcRkFZNL6uZAAQ
+  updatedAt: 1728418016371
+  username: FrancescoYJulie
+claimed: No
+facebook: https://www.facebook.com/events/403654202290523/?event_time_id=403654222290521
+link: ""
+description: >-
+  Dear dancers, keep your Thursday evenings  free in October…  🎉😎 More info
+  below 🕺
+
+
+  Join  the **Salsa Menstyling Miniseries**—5 dynamic classes with Francesco to improve your dance skills!
+
+
+  Are you not sure if this is the class for you? No worries the first evening *03/10 is a FREE TRIAL 🎊* 
+
+
+  🔥 **What to Expect:**
+
+  - **Basic Techniques**: Master the fundamentals.
+
+  - **Body Movement**: Unlock fluidity and elegancy.
+
+  - **Isolations**: Gain control over every part of your body.
+
+  - **Footwork**: Add flair to your steps.
+
+
+  🕖 **When & Where:**
+
+  - **Dates**: Every Thursday in October, starting on 03/10 (for the next 5 weeks)
+
+  - **Time**: 19:00-21:00
+     - **19:00-20:00**: Beginners Class
+     - **20:00-21:00**: Intermediate Class
+  - **Location**: Sportcomplex Kessel-Lo
+
+
+  🎟️ **Price**: 
+
+  Full series (5 classes) - Beginners —> €45
+
+  Full series (5 classes) - Intermediate —> €55 
+
+  Both series (only for intermediate dancers - 5 classes) —> €75
+
+
+  Can’t make it to every class? No problem! 😁 You can also enroll for 1 single class 
+
+  1 Single Class - Beginners —> €13
+
+  1 Single Class - Intermediate —> €17
+
+
+  Whether you're just starting out or looking to refine your moves, we've got you covered. 
+
+  This series will help you shine on the dance floor. Spots are limited, so don't miss out!💥
+
+
+  You can register online:
+
+  https://docs.google.com/forms/d/e/1FAIpQLSdqCUQ-LJuVeQJq2hDQP2fzZBm4nZHXf31pNRfLEAG2vZ4vQA/viewform?usp=pp_url
+
+
+  Or you can register at the door before the free trial the 03/10
+
+
+  #SalsaMenstyling #DanceWorkshop #KesselLo #SalsaFootwork #BodyMovement #DanceWithStyle #SalsaClasses
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418017/fw6vgogq547xdayhsysz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJhd-7XtBgwUcRkFZNL6uZAAQ
+international: No
+hash: 1728579600000+ChIJ9YK5gCRnwUcRMepzu-9KNhA
+id: Q0WApfkIHthMxtqAg9vQ

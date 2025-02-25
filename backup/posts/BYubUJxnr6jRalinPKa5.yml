@@ -1,0 +1,88 @@
+venue:
+  formatted_address: Střelecký ostrov, 110 00 Praha 1, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png
+  name: Archer's Island
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.41105765
+      south: 50.07991721970851
+      north: 50.0826151802915
+      west: 14.40706065
+    location:
+      lng: 14.4100584
+      lat: 50.0812638
+  address_components:
+    - types:
+        - route
+      short_name: Střelecký ostrov
+      long_name: Střelecký ostrov
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 1
+      long_name: Praha 1
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 110 00
+      long_name: 110 00
+  place_id: ChIJqevnYYqVC0cRCZ-5ScyiO00
+  url: https://maps.google.com/?cid=5565220762840309513
+  username: archersisland
+claimed: No
+link: https://www.facebook.com/events/1506187456996441
+program: []
+type: event
+duration: 60
+createdAt: 1713955692748
+artists: []
+price: 0 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  username: DjLole
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: " Čarodějnice v ritmu salsy"
+online: No
+startDate: 1714471200000
+hash: 1714471200000+ChIJqevnYYqVC0cRCZ-5ScyiO00
+username: DjLole
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: BYubUJxnr6jRalinPKa5
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F4bd237c6-4e59-4edc-a9a3-85ac1652f04e?alt=media&token=309eb377-ff75-4465-ba0e-64add8901849
+endDate: 1714507200000
+updatedAt: 1714390805136
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ffr%2Fevents%2FBYubUJxnr6jRalinPKa5.png?generation=1714395120129766&alt=media
+viewsCount: 2

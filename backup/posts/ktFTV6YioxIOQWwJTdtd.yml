@@ -1,0 +1,172 @@
+importedAt: 1709722561162
+providerUpdatedAt: 1708814390000
+endDate: 1709996400000
+facebookId: "1327015758694092"
+facebook: https://www.facebook.com/events/1327015758694092/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1327015758694092/
+eventType: Workshop
+createdAt: 1709722561162
+providerItemId: e1327015758694092@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: Zouk Workshops mit Alexej & Florence - Freiburg
+location: Salsa con Pasión Tanzschule
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1708814390000
+startDate: 1709982000000
+facebookUrlsCount: 1
+updatedAt: 1709722561162
+username: Aina
+venue:
+  formatted_address: Sedanstraße 22, 79098 Freiburg im Breisgau, Germany
+  website: http://www.salsa-con-pasion.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule Salsa con Pasión | Salsa, Bachata, Kizomba, Zouk
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.841103969708496
+        lat: 47.9936114697085
+      northeast:
+        lng: 7.843801930291501
+        lat: 47.9963094302915
+    location:
+      lng: 7.842440799999998
+      lat: 47.9949093
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Sedanstraße
+      long_name: Sedanstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Freiburg im Breisgau
+      long_name: Freiburg im Breisgau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Freiburg im Breisgau
+      long_name: Kreisfreie Stadt Freiburg im Breisgau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Freiburg
+      long_name: Freiburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "79098"
+      long_name: "79098"
+  international_phone_number: +49 1520 2939723
+  place_id: ChIJbTiOUZkckUcRoSKlvYCAULk
+  url: https://maps.google.com/?cid=13353314185579405985
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709722568948
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsa.con.pasion
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709722569/hyazopvxadopgewcs00a.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709722568948
+  owned: false
+  name: Salsa con Pasión Tanzschule
+  place: ChIJZdYLViYbkUcRsFffpbdrHwQ
+  updatedAt: 1709722568948
+  username: salsa.con.pasion
+claimed: No
+link: https://www.salsa-con-pasion.de/anmeldung/zouk-workshops/
+description: >-
+  💃🕺 Tauche ein in die Welt des brasilianischen Zouk mit Alexej und Florence!
+  Lerne verführerische Tanzkombinationen, die spielend leicht auf der Tanzfläche
+  umgesetzt werden können. Bei uns steht der Spaß am Tanzen im Vordergrund,
+  nicht die Komplexität der Figuren. Wir legen Wert auf Körpergefühl,
+  Sinnlichkeit und Musikalität.🤩
+
+
+  Unser Crashkurs für AnfängerInnen ohne Vorkenntnisse vermittelt die Basics des Zouk. Egal, ob du schon tanzerfahren bist oder nicht – komm vorbei und erlebe die Leidenschaft unserer TrainerInnen. 💃🕺
+
+
+
+  Zouk Workshops - Samstag, 09. März 2024 
+
+  ✅ 12:00- 13:30 Uhr Zouk Crashkurs A1
+
+  ✅ 13:45- 14:45 Uhr  Zouk Partnerwork A2
+
+  ✅ 14:45- 15:45 Uhr Zouk Partnerwork M
+
+  _____________________________
+   
+  𝗜𝗻𝗳𝗼𝘀 & 𝗔𝗻𝗺𝗲𝗹𝗱𝘂𝗻𝗴:
+
+  https://www.salsa-con-pasion.de/anmeldung/zouk-workshops/
+
+  _____________________________
+
+
+  Tanzschule
+
+  Salsa con Pasión
+
+  Sedanstr. 22, 79098 Freiburg im Breisgau
+
+  Google Maps: https://maps.app.goo.gl/x2RrM5MAK6K52sAW9
+   
+  Web: www.salsa-con-pasion.de
+
+  Mail: info@salsa-con-pasion.de
+
+  Tel: 0152 - 029 397 27
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709722570/d0vqrqeknueavr1ojbds.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJZdYLViYbkUcRsFffpbdrHwQ
+international: No
+hash: 1709982000000+ChIJbTiOUZkckUcRoSKlvYCAULk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FktFTV6YioxIOQWwJTdtd.png?generation=1709722586251216&alt=media
+viewsCount: 1
+id: ktFTV6YioxIOQWwJTdtd

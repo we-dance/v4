@@ -1,0 +1,49 @@
+endDate:
+  _seconds: 1622655000
+  _nanoseconds: 0
+link: https://forms.gle/eGdbPfGTnqNjtpM36
+description: Der ultimative Kurs, Einstieg jetzt noch möglich - Salsa, Bachata,
+  Kizomba + Tanzen
+type: event
+duration: "30"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FirHvL2PonWQ3etC1SR65VCvEBE43%2F8ac94b75-7d72-4bca-b126-556cd97b87d1?alt=media&token=af3bb87b-aa0c-4a44-91ff-2cbe8543030b
+createdAt: 1622137621690
+watchersCount: 0
+price: Yes
+commentsLast: ~
+place: ChIJ8Q8AgEcadkcRg8sr-Krd2yo
+id: keAggdUV2J4QeFG1aeKj
+updatedAt: 1622137621690
+address: Rosenheim
+updatedBy: irHvL2PonWQ3etC1SR65VCvEBE43
+visibility: Members
+eventType: Course
+form: Yes
+createdBy: irHvL2PonWQ3etC1SR65VCvEBE43
+commentsCount: 0
+name: Hello again
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Rosenheim
+  location:
+    country: Germany
+    latitude: 47.8571272
+    locality: Rosenheim
+    usedGps: false
+    place_id: ChIJ8Q8AgEcadkcRg8sr-Krd2yo
+    longitude: 12.1181047
+startDate: 2021-06-02T17:00:00.000Z
+username: Happy
+viewsCount: 1

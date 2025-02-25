@@ -1,0 +1,154 @@
+endDate: 1729292400000
+sourceUrl: https://www.facebook.com/events/1004430598073082/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1716645848000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1728205680000
+facebookId: "1004430598073082"
+facebook: https://www.facebook.com/events/1004430598073082/
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/bailando-cours-de-bachata-avec/1004430598073082/
+  - https://www.facebook.com/events/1004430598073082/
+eventType: Party
+providerItemId: e1004430598073082@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 🇩🇴Bailando Cours de Bachata avec David + SoiréeSBK🎀La Cantina Chantilly🎀
+location: La Cantina Chantilly
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728673200000
+facebookUrlsCount: 2
+username: Aina
+venue:
+  formatted_address: 21 Av. du Général de Gaulle, 60500 Chantilly, France
+  website: http://lacantinachantilly.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Restaurant La Cantina Chantilly
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.459159619708498
+        lat: 49.19887746970849
+      northeast:
+        lng: 2.461857580291502
+        lat: 49.20157543029149
+    location:
+      lng: 2.4604216
+      lat: 49.2002539
+  address_components:
+    - types:
+        - street_number
+      short_name: "21"
+      long_name: "21"
+    - types:
+        - route
+      short_name: Av. du Général de Gaulle
+      long_name: Avenue du Général de Gaulle
+    - types:
+        - locality
+        - political
+      short_name: Chantilly
+      long_name: Chantilly
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oise
+      long_name: Oise
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hauts-de-France
+      long_name: Hauts-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "60500"
+      long_name: "60500"
+  international_phone_number: +33 3 44 58 25 98
+  place_id: ChIJ1WqZCEFI5kcR9pPtrg7WBVk
+  url: https://maps.google.com/?cid=6414768602811831286
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418009523
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/gabriel.vertpre
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418009/k2nuar0wzt29zr2plpp9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418009523
+  owned: false
+  name: Gab V-p
+  place: ChIJsVrnU1GNUocRQ5CzmkWIoVc
+  updatedAt: 1728418009523
+  username: gabriel.vertpre
+claimed: No
+link: ""
+description: |-
+  🇩🇴Bailando🇩🇴
+
+  🎀La Cantina Chantilly🎀
+
+  🟡Vendredi 11 Octobre🟡
+
+  🕤21h 22h🕙
+
+  🇩🇴Cours de Bachata avec David 🇩🇴
+
+  🔊22h 1h 
+  Soirée SBK
+  🇵🇷 🇩🇴🇨🇺🇦🇴🇲🇶
+
+  🎧SALSA BACHATA KIZOMBA KOMPAS 
+  Dj Gab
+
+  PAF: entrée+ cours+ softs à volonté : 10 euros 
+  Paiement Espèces 💶 
+
+  📸Alexandre pour les photos 
+
+  https://facebook.com/events/s/bailando-cours-de-bachata-avec/1004430598073082/
+
+  Écoles et associations de danses latines :
+  8 euros 
+  SUR JUSTIFICATIF ( carte adhérent ou facture papier ou mail)  💶 
+
+  🎀La Cantina Chantilly🎀
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418010/krawcnqrrclrwabwuyvp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJsVrnU1GNUocRQ5CzmkWIoVc
+international: No
+hash: 1728673200000+ChIJ1WqZCEFI5kcR9pPtrg7WBVk
+viewsCount: 1
+id: MW8oRidvRWb780y8DNMa

@@ -1,0 +1,578 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+  username: pinakothekdermoderne
+endDate: 1722535200000
+claimed: No
+program: []
+instagram: {}
+type: event
+commentDoc:
+  createdAt: 1719505438141
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: rK9tfmLNZ5GuPQqHhJCO
+  id: lciW2Zu1uNVAVUq1h3Cz
+  body: >+
+    I regret to inform you that the “All-Dance Thursday” event scheduled for
+    27.06.2024 has been canceled. We apologize for any inconvenience this may
+    cause and appreciate your understanding. Please subscribe to @MOADC to
+    receive an invitation for our next event next Thursday. Thank you for your
+    support.
+
+  updatedAt: 1719505438141
+  username: alexrazbakov
+downVotes: 0
+duration: 60
+bookmarks: 17
+createdAt: 1722428707881
+children:
+  - endDate: 1719511200000
+    id: 0oEiu385jRJY0qclUZyv
+    startDate: 1719507600000
+  - endDate: 1720116000000
+    id: Op9uCLRZGK819OaVRgyu
+    startDate: 1720112400000
+  - endDate: 1720720800000
+    id: cjMnAVakQ1BG9MSCgoKR
+    startDate: 1720717200000
+  - endDate: 1721325600000
+    id: SZpXK1ZykALAOi0IRs4Y
+    startDate: 1721322000000
+  - endDate: 1721930400000
+    id: K7qpY7U9pLaxAeohUHjN
+    startDate: 1721926800000
+  - endDate: 1722535200000
+    id: 6FUJb80wpNbYGEPsANCE
+    startDate: 1722531600000
+  - endDate: 1723140000000
+    id: oLRuxQXUbijUETgN6BSn
+    startDate: 1723136400000
+  - endDate: 1723744800000
+    id: ogqrPMJEhVSldccUSKGt
+    startDate: 1723741200000
+  - endDate: 1724349600000
+    id: n4yGEaVTm72IuwqmcZkQ
+    startDate: 1724346000000
+  - endDate: 1724954400000
+    id: 96zFbMpTj8v2AGiTqIDm
+    startDate: 1724950800000
+  - endDate: 1725559200000
+    id: 780sYNhZcKil2F6kubsz
+    startDate: 1725555600000
+  - endDate: 1726164000000
+    id: MK7ZQ0AdV2wpcjQUGrYQ
+    startDate: 1726160400000
+  - endDate: 1726768800000
+    id: 8UVaHHRYj2TImPweuLFe
+    startDate: 1726765200000
+price: Free
+socialCover: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MUCOADC
+  name: MOADC
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6WFYqYtGgYUn7u0dozfnNuEnti92%2F52a8cbb0-1a28-4b85-9567-64fc92ad5881?alt=media&token=8f4d84a4-9692-43d9-8fa8-b886f72cd9a0
+  bio: We organize own events, Festivals, Bootcamps & Flashmobs and many other
+    Indoor or outdoor related activities
+  instagram: https://instagram.com/munich_openair_dance_community
+  id: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+  username: MOADC
+upVotes: 0
+telegram: {}
+eventType: Workshop
+promotionError: ""
+recurrence:
+  untilDate:
+    _seconds: 1727301600
+    _nanoseconds: 0
+  freq: never
+  days: {}
+  dates: []
+form: No
+createdBy: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: ""
+votes: 0
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+startDate: 1722531600000
+username: Migo.bachatero
+promotion: ""
+id: NyMtTSvWGBhwGtZytegq
+hash: 1722531600000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+name: "All-Dance Thursday: Bachata Basics by Salsamás "
+limit: ""
+description: "Introduction to Bachata by: Miro & Stephie (Salsamás) "
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Stephanie
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fstephie_loves_dancing.png?generation=1722193882415144&alt=media
+    bio: |-
+      📍 Munich, 28, Physio
+      💖 Dancing - Salsa, Bachata, Kizomba and Zouk
+      🌈
+    id: De8cVWP7fiqazNWsljzy
+    instagram: https://instagram.com/stephie_loves_dancing
+    username: stephie_loves_dancing
+  - youtube: https://youtube.com/channel/UCOuTxeqqcIaA9AvTj8rCnXg
+    tiktok: ""
+    facebook: https://facebook.com/SalsamasMunich
+    name: Salsamas_Munich
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+    bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+    id: h1Q2XunkwqSUqIxinKiNaghTlal1
+    instagram: https://instagram.com/salsamasmunich
+    username: Salsamas_Munich
+artistsList:
+  - stephie_loves_dancing
+  - Salsamas_Munich
+star:
+  list: {}
+  count: 17
+  usernames:
+    - Gero
+    - Linasalcedor
+    - Prestrepo
+    - JoseLira02
+    - smarcii
+    - JohannBlake
+    - K-H
+    - Greta-koertgen
+    - Anton
+    - Katharina_Will
+    - Hermann-2
+    - Miwako
+    - FelixH
+    - maxnol
+    - nitin
+    - patrizia.hartigweb.de
+    - Kia_P
+  history:
+    - username: Gero
+      date: 1722441844713
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: jv8Zln7Lw1ZYRrmXWxb2ATGFVAi1
+      action: joined
+    - username: Gero
+      date: 1722441874571
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: jv8Zln7Lw1ZYRrmXWxb2ATGFVAi1
+      action: left
+    - username: Gero
+      date: 1722442093276
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: jv8Zln7Lw1ZYRrmXWxb2ATGFVAi1
+      action: joined
+    - username: Linasalcedor
+      date: 1722450449820
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: e8Rq4FuKVBXOfjq8lSRPhDCnNpd2
+      action: joined
+    - username: ariannai
+      date: 1722451411050
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: fuzIM7h991RF6q6PKzGRf4xXFhL2
+      action: joined
+    - username: ariannai
+      date: 1722451413232
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: fuzIM7h991RF6q6PKzGRf4xXFhL2
+      action: left
+    - username: ariannai
+      date: 1722451415383
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: fuzIM7h991RF6q6PKzGRf4xXFhL2
+      action: joined
+    - username: Prestrepo
+      date: 1722454090299
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: CGAqFplaPaVea5OljcGknupiHzv1
+      action: joined
+    - username: JoseLira02
+      date: 1722459614702
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: djIRYXjKsNhIz4H7ARQPQyjrK7y1
+      action: joined
+    - username: JoseLira02
+      date: 1722459617683
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: djIRYXjKsNhIz4H7ARQPQyjrK7y1
+      action: left
+    - username: JoseLira02
+      date: 1722459618430
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: djIRYXjKsNhIz4H7ARQPQyjrK7y1
+      action: joined
+    - username: smarcii
+      date: 1722459633859
+      invitedBy: ""
+      uid: cIWOtlh5T5TlqkF6i1aiaidB1af1
+      action: joined
+    - username: JohannBlake
+      date: 1722459964117
+      invitedBy: ""
+      uid: ZRmelMuLwraIQZYd3tuAq8eIMI22
+      action: joined
+    - username: K-H
+      date: 1722463711803
+      invitedBy: ""
+      uid: FzYwTN79GLUGydafUwmcPL84S5g2
+      action: joined
+    - username: Greta-koertgen
+      date: 1722497573218
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 1o7AW5hziTfGHin18TaKUdJqydn2
+      action: joined
+    - username: Marietta
+      date: 1722503648332
+      invitedBy: ""
+      uid: TuOK7IvxckYUWJ7goznqdj9iNNs2
+      action: joined
+    - username: Marietta
+      date: 1722503654133
+      invitedBy: ""
+      uid: TuOK7IvxckYUWJ7goznqdj9iNNs2
+      action: left
+    - username: ariannai
+      date: 1722510920465
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: fuzIM7h991RF6q6PKzGRf4xXFhL2
+      action: left
+    - username: Anton
+      date: 1722514283634
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 0gWOP8LHTrPLntvY1HoxK1cjOqz2
+      action: joined
+    - username: Katharina_Will
+      date: 1722514507955
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UzNuCQvaZ5dm2kYUQMyQA4po6xU2
+      action: joined
+    - username: FelixH
+      date: 1722515402068
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: kSHNWQkulqhLiBEmnk1TNAp6Iav2
+      action: joined
+    - username: Hermann-2
+      date: 1722516875859
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 1NmD9QivGGWeFOGziiPgQmDfCoI3
+      action: joined
+    - username: Miwako
+      date: 1722526264165
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rLOeW1vrFANaORewpGJTFdP2pDF2
+      action: joined
+    - username: FelixH
+      date: 1722527163331
+      invitedBy: kSHNWQkulqhLiBEmnk1TNAp6Iav2
+      uid: kSHNWQkulqhLiBEmnk1TNAp6Iav2
+      action: left
+    - username: FelixH
+      date: 1722527165935
+      invitedBy: kSHNWQkulqhLiBEmnk1TNAp6Iav2
+      uid: kSHNWQkulqhLiBEmnk1TNAp6Iav2
+      action: joined
+    - username: maxnol
+      date: 1722531500843
+      invitedBy: ""
+      uid: WcDhOz6ol2aubJq38bzpsW7Drqd2
+      action: joined
+    - username: maxnol
+      date: 1722531502065
+      invitedBy: ""
+      uid: WcDhOz6ol2aubJq38bzpsW7Drqd2
+      action: left
+    - username: maxnol
+      date: 1722531517476
+      invitedBy: ""
+      uid: WcDhOz6ol2aubJq38bzpsW7Drqd2
+      action: joined
+    - username: maxnol
+      date: 1722531518453
+      invitedBy: ""
+      uid: WcDhOz6ol2aubJq38bzpsW7Drqd2
+      action: left
+    - username: patrizia.hartigweb.de
+      date: 1722531556005
+      invitedBy: ""
+      uid: C56etwLdx0SdYw9E9IHw0Rhj8z33
+      action: joined
+    - username: maxnol
+      date: 1722531666126
+      invitedBy: ""
+      uid: WcDhOz6ol2aubJq38bzpsW7Drqd2
+      action: joined
+    - username: patrizia.hartigweb.de
+      date: 1722531676891
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: C56etwLdx0SdYw9E9IHw0Rhj8z33
+      action: left
+    - username: nitin
+      date: 1722531679751
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 4zhY2A3j29S9iynI0IJ5tOIaAbK2
+      action: joined
+    - username: patrizia.hartigweb.de
+      date: 1722531682076
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: C56etwLdx0SdYw9E9IHw0Rhj8z33
+      action: joined
+    - username: Sarah94
+      date: 1722531711920
+      invitedBy: ""
+      uid: nniZHhFEt6X8wEp04dnQqbKgxhx1
+      action: joined
+    - username: Migo.bachatero
+      date: 1722531740635
+      invitedBy: ""
+      uid: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      action: joined
+    - username: Migo.bachatero
+      date: 1722531746019
+      invitedBy: ""
+      uid: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      action: left
+    - username: Monalisa
+      date: 1722531961335
+      invitedBy: ""
+      uid: BWxMoXHBQqaSsUcFap2K5mN3Exi2
+      action: joined
+    - username: Kia_P
+      date: 1722531960576
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=whatsapp
+        - yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      uid: RpsWTyGXVeUPnB7YcnI8BGPAca23
+      action: joined
+    - username: Kia_P
+      date: 1722531963111
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=whatsapp
+        - yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      uid: RpsWTyGXVeUPnB7YcnI8BGPAca23
+      action: left
+    - username: Kia_P
+      date: 1722531963685
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=whatsapp
+        - yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      uid: RpsWTyGXVeUPnB7YcnI8BGPAca23
+      action: joined
+    - username: Monalisa
+      date: 1722531991962
+      invitedBy: ""
+      uid: BWxMoXHBQqaSsUcFap2K5mN3Exi2
+      action: left
+    - username: Sarah94
+      date: 1722532091209
+      invitedBy: ""
+      uid: nniZHhFEt6X8wEp04dnQqbKgxhx1
+      action: left
+    - username: Mirili
+      date: 1722532122509
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 9XxFWjPRw2dGHdQ8MhMq8Dk1VQy1
+      action: joined
+    - username: Mirili
+      date: 1722532151839
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 9XxFWjPRw2dGHdQ8MhMq8Dk1VQy1
+      action: left
+checkin:
+  list: {}
+  count: 13
+  usernames:
+    - Gero
+    - Hermann-2
+    - Greta-koertgen
+    - JohannBlake
+    - Anton
+    - Katharina_Will
+    - Miwako
+    - nitin
+    - FelixH
+    - maxnol
+    - patrizia.hartigweb.de
+    - Kia_P
+    - K-H
+  history:
+    - username: JoseLira02
+      date: 1722531145036
+      invitedBy: ""
+      uid: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      action: joined
+    - username: JoseLira02
+      date: 1722531146808
+      invitedBy: ""
+      uid: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      action: left
+    - username: Gero
+      date: 1722531220224
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Hermann-2
+      date: 1722531234567
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Greta-koertgen
+      date: 1722531348964
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: JohannBlake
+      date: 1722531356078
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Anton
+      date: 1722531533690
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Katharina_Will
+      date: 1722531537174
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Miwako
+      date: 1722531572121
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: nitin
+      date: 1722531726234
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: nitin
+      date: 1722531729125
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: nitin
+      date: 1722531731567
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: FelixH
+      date: 1722532218414
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: FelixH
+      date: 1722532220488
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: left
+    - username: FelixH
+      date: 1722532224577
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: left
+    - username: FelixH
+      date: 1722532226670
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: maxnol
+      date: 1722532228826
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: patrizia.hartigweb.de
+      date: 1722532232792
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: Kia_P
+      date: 1722532235019
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+    - username: K-H
+      date: 1722532244312
+      invitedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+      uid: h1Q2XunkwqSUqIxinKiNaghTlal1
+      action: joined
+viewsCount: 58
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb81dd772-12c9-4e83-b8a0-354499044fb8?alt=media&token=e9d8969f-3e1b-41b8-ba60-aa68eb5957d2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1724885138503

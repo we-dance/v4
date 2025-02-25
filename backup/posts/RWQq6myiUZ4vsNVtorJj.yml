@@ -1,0 +1,101 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/we-love-semba-weekender-edition-martinique/
+sourceUrl: https://facebook.com/events/888950819765999
+venue:
+  address_components:
+    - long_name: Le Lamentin
+      short_name: Le Lamentin
+      types:
+        - locality
+        - political
+    - long_name: Fort-de-France
+      short_name: Fort-de-France
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Martinique
+      short_name: MQ
+      types:
+        - country
+        - political
+    - long_name: "97285"
+      short_name: "97285"
+      types:
+        - postal_code
+  formatted_address: BP279, Le Lamentin 97285, Martinique
+  geometry:
+    location:
+      lat: 14.5953326
+      lng: -61.000174
+    viewport:
+      northeast:
+        lat: 14.5968982802915
+        lng: -60.99875946970849
+      southwest:
+        lat: 14.5942003197085
+        lng: -61.0014574302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/airport-71.png
+  international_phone_number: +596 596 42 19 95
+  name: Martinique Aimé Césaire International Airport
+  place_id: ChIJFSnPdvmgaowRAZ45Kc4_54s
+  url: https://maps.google.com/?cid=10081096445579599361
+  website: https://www.martinique.aeroport.fr/
+endDate: 1747015200000
+claimed: No
+link: ""
+description: >-
+  Orige Semba invite 𝘞𝘌 𝘓𝘖𝘝𝘌 𝘚𝘌𝘔𝘉𝘈 en Martinique !!!
+
+
+  ‼️ Du 7 au 11 Mai 2025 ‼️
+
+
+  7ème édition du plus grand rendez-vous SEMBA d'Europe.
+
+
+  Réserve la date, achète ton PASS dès que la billetterie ouvre en septembre et prépare ton COEUR ❤️
+
+
+  ➡️ FILHO DO ZUA 🥰✨✅
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/gyixbueywhmqjfyh1rzo.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJF2RehqqhaowR8tS8Zqr4MjQ
+international: No
+visibility: Public
+org:
+  createdAt: 1732293945345
+  importedAt: 1732293945345
+  updatedAt: 1732293945345
+  source: facebook
+  name: We Love Semba
+  facebook: https://www.facebook.com/welovesemba
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/csnf6dscvyygo8fylddj.jpg
+  username: welovesemba
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJF2RehqqhaowR8tS8Zqr4MjQ
+facebook: https://www.facebook.com/events/888950819765999/
+facebookId: "888950819765999"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: WE LOVE SEMBA | Weekender | Edition Martinique | Du 7 Au 11 Mai 2025
+online: No
+styles: {}
+hash: 1746633600000+ChIJFSnPdvmgaowRAZ45Kc4_54s
+startDate: 1746633600000
+id: RWQq6myiUZ4vsNVtorJj

@@ -1,0 +1,141 @@
+endDate: 1712458800000
+sourceUrl: https://www.facebook.com/events/1079441896648611/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1709469711000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710074738000
+facebookId: "1079441896648611"
+facebook: https://www.facebook.com/events/1079441896648611/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1079441896648611/
+eventType: Party
+providerItemId: e1079441896648611@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bremen - Latin Sugar Grand Opening
+location: NFF Club
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712437200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Katharinenstraße 12-14, 28195 Bremen, Germany
+  website: https://nffclub.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: NFF Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.807623019708497
+        lat: 53.0761778197085
+      northeast:
+        lng: 8.810320980291502
+        lat: 53.0788757802915
+    location:
+      lng: 8.8089482
+      lat: 53.0773874
+  address_components:
+    - types:
+        - street_number
+      short_name: 12-14
+      long_name: 12-14
+    - types:
+        - route
+      short_name: Katharinenstraße
+      long_name: Katharinenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28195"
+      long_name: "28195"
+  international_phone_number: +49 421 43605707
+  place_id: ChIJCWpf8BAosUcR5me7rkqoz6w
+  url: https://maps.google.com/?cid=12452356533415274470
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/LatinSugarFestival
+  name: Latin Sugar Events
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953646/s0cio2nhlj0ytzqbjddn.jpg
+  bio: ""
+  id: 9L64YTvT1X6E5LZOQiel
+  instagram: ""
+  username: latin.sugar.events
+claimed: No
+link: https://www.eventbrite.de/e/bremen-latin-sugar-grand-opening-tickets-855218350107?aff=oddtdtcreator
+description: >-
+  Bremens süßeste Original Latino Party öffnet am 06. April ab 23:00 Uhr wieder
+  ihre Türen. Nach einer langen Pause bringen wir Euch wieder Latin Feeling Pur
+  im eine neuen  Club.!!
+
+
+  MAIN LATIN URBAN FLOOR MIT 100% Latin Music , Reggaeton, Dembow, Brazil Beats, Funk, Mambo, Bachata und viel mehr.!!
+
+
+  -----SPECIALS------
+
+  🔥Animation mit David do Amaral aus Brazil
+
+  🔥Free Candy
+
+  🔥El Pasame la Botella
+
+  🔥B -Shake Contest!
+
+  🔥Latin Music All Night long
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224711/xdgsnm9ve66b280mcvqj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+hash: 1712437200000+ChIJCWpf8BAosUcR5me7rkqoz6w
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTQPQjiCsEA493nHuJHjM.png?generation=1711224729213232&alt=media
+viewsCount: 29
+id: TQPQjiCsEA493nHuJHjM

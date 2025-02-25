@@ -1,0 +1,53 @@
+community: Berlin
+type: Dancer
+createdAt: 1612961309809
+createdBy: Dj2fvRcdixR41CR7mKXIeO7YZXK2
+name: "Zain "
+birthday: 1984-11-09
+newsletter:
+  class: true
+  party: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDj2fvRcdixR41CR7mKXIeO7YZXK2%2F49830d42-63ae-46a4-b42d-0f7bce689934?alt=media&token=e59d838e-b3d2-4232-973e-2dfecea120d3
+weight: "80"
+teacher: No
+partner: Yes
+days:
+  Saturday: true
+  Thursday: true
+  Wednesday: true
+location:
+  country: Germany
+  locality: Berlin
+  label: Berlin
+height: "175"
+username: Zain
+gender: Male
+languages: English, German, Arabic
+visibility: Members
+bio: Make peace  just dance
+partnerBio: "uncomplicated "
+styles:
+  Merengue:
+    level: Advanced
+    selected: true
+  Bachata:
+    level: Intermediate
+    selected: true
+  Reggaeton:
+    level: Interested
+    selected: true
+  Bachatango:
+    level: Interested
+    selected: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+locales:
+  de: true
+  en: true
+  ar: true
+lastLoginAt: 1612993984497
+language: de
+daysUsed: 1
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1617064564662
+id: Dj2fvRcdixR41CR7mKXIeO7YZXK2

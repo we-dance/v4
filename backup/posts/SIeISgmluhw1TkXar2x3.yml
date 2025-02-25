@@ -1,0 +1,141 @@
+endDate: 1721016000000
+sourceUrl: https://www.facebook.com/events/1489450791621599/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1707053525000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1710116842000
+facebookId: "1489450791621599"
+facebook: https://www.facebook.com/events/1489450791621599/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1489450791621599/
+eventType: Workshop
+providerItemId: e1489450791621599@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Columbus Salsa Bachata Weekend "
+location: Dance Edge
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720742400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: "4101 E Park Blvd Suite #101, Plano, TX 75074, USA"
+  website: http://www.edgedance.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Edge Dance & Performing Arts Center
+  geometry:
+    viewport:
+      southwest:
+        lng: -96.6509575302915
+        lat: 33.03124571970849
+      northeast:
+        lng: -96.64825956970849
+        lat: 33.03394368029149
+    location:
+      lng: -96.6494818
+      lat: 33.032678
+  address_components:
+    - types:
+        - subpremise
+      short_name: "Suite #101"
+      long_name: "Suite #101"
+    - types:
+        - street_number
+      short_name: "4101"
+      long_name: "4101"
+    - types:
+        - route
+      short_name: E Park Blvd
+      long_name: East Park Boulevard
+    - types:
+        - neighborhood
+        - political
+      short_name: Los Rios
+      long_name: Los Rios
+    - types:
+        - locality
+        - political
+      short_name: Plano
+      long_name: Plano
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Collin County
+      long_name: Collin County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: TX
+      long_name: Texas
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "75074"
+      long_name: "75074"
+  international_phone_number: +1 972-736-7826
+  place_id: ChIJs6DLDMwbTIYRtuHh5MpI6og
+  url: https://maps.google.com/?cid=9865777969969095094
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444466405
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SalsamanteDanceAcademy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444466/aaafr28sdsr6b5exvypg.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444466405
+  owned: false
+  name: Salsamante Dance Academy
+  place: ChIJJfz3fcUbTIYRtINw8BdXerw
+  updatedAt: 1715444466405
+  username: salsamante.dance.aca
+claimed: No
+link: ""
+description: >-
+  🌟 🌟 Save the Date July 11th-14th 🌟 🌟 
+
+
+  Ohio's Biggest Latin Dance Event will be held on July 11th-14th. This will be Bigger & Better than last year's. More options with two lessons each hour for ALL LEVELS to enjoy on the workshops. 
+
+  ********************************
+
+  First Early Bird is Still Active at $100. Hurry Before it Goes Up!!!!
+
+
+  https://www.eventbrite.com/e/columbus-salsa-bachata-weekend-2024-tickets-857240137327
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444467/eiqtdfgfas4atr9zzhkh.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJJfz3fcUbTIYRtINw8BdXerw
+international: No
+hash: 1720742400000+ChIJs6DLDMwbTIYRtuHh5MpI6og
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSIeISgmluhw1TkXar2x3.png?generation=1715444484428986&alt=media
+viewsCount: 4
+id: SIeISgmluhw1TkXar2x3

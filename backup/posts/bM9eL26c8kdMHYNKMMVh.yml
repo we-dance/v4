@@ -1,0 +1,142 @@
+isNew: true
+facebookId: "1098506511671499"
+facebookUrlsList:
+  - https://www.facebook.com/events/1098506511671499
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729519252903
+updatedAt: 1729519252903
+importedAt: 1729519252903
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48570-1729900800-1729987199@latinfo.hu
+providerCreatedAt: 1729501918000
+providerUpdatedAt: 1729501918000
+startDate: 1729900800000
+endDate: 1729987199000
+sourceUrl: https://www.facebook.com/events/1098506511671499
+location: Benczúr utca 45, Budapest 1068, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "45"
+      short_name: "45"
+      types:
+        - street_number
+    - long_name: Benczúr utca
+      short_name: Benczúr u.
+      types:
+        - route
+    - long_name: VI. kerület
+      short_name: VI. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1068"
+      short_name: "1068"
+      types:
+        - postal_code
+  formatted_address: Budapest, Benczúr u. 45, 1068 Hungary
+  geometry:
+    location:
+      lat: 47.5122052
+      lng: 19.0782144
+    viewport:
+      northeast:
+        lat: 47.51363858029149
+        lng: 19.0794821302915
+      southwest:
+        lat: 47.5109406197085
+        lng: 19.0767841697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  international_phone_number: +36 20 444 1901
+  name: Retro Étterem
+  place_id: ChIJRb2yUnjcQUcRPNhzXlx9be8
+  url: https://maps.google.com/?cid=17252583583201351740
+visibility: Public
+org:
+  createdAt: 1729519269564
+  importedAt: 1729519269564
+  updatedAt: 1729519269564
+  source: facebook
+  name: Carmen Dance
+  facebook: https://www.facebook.com/Salsa.oktatas
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1729519269/m5aaktnvhxosmov1esuc.png
+  username: Salsa.oktatas
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+claimed: No
+facebook: https://www.facebook.com/events/1098506511671499/
+link: ""
+description: >-
+  🎃🎃🎃 Halloween Pre SALSA & Bachata Party a Salsa Club Azucar és a Carmen
+  Dance tánciskolával! 👻
+
+  🎃2024.10.26-án szombaton szeretettel várjuk a salsa, bachata és cha-cha-cha táncok kedvelőit 21:00-01:30-ig tartandó bulira!
+
+  Program:
+
+  🎃21:00: ChaChaCha suelta (sortánc mindenkinek, fiúknak és lányoknak tánctudás szinttôl függetlenül)
+
+  🎃 A buliban lesznek vezetett ruedák minden szinten!
+
+  🎃 Zene: Azucar
+
+  🎃Rueda (Animáció): Papp Zoli & Évi
+
+  👻HelyszÍn: VDSZ 4. emelet (Díszterem, parkettás)
+
+  👻Cím: 1068 Bp. Benczúr u. 45.
+
+  👻Belépő: 3600 Ft/fő vagy (Carmen tánc bérlettel 4 bérlet kocka)
+
+  👻Dress code: alap a Narancs - Fekete 🎃 vagy Halloween kiegészítő ,( de örülünk ha beöltözöl az alvilàg legrèmisztôbb alakjànak! Vàrjuk a boszorkànyokat, csontvàzakat, lidèrceket …!)
+
+  🍔 A buli batyus lesz, kérjük hozz magaddal inni és ropogtatni valót, amit kiteszünk a megterített asztalra és közösen elfogyasztunk.
+
+  Poharakat mi biztosítunk!
+
+  Várunk Mindenkit szeretettel 💃 💛
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729519270/prgq9luxlyp6y1anvesn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: 🎃 Halloween Pre Party 🎃 Cha Cha Cha workshop 💃😀
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1729969200000+ChIJRb2yUnjcQUcRPNhzXlx9be8
+id: bM9eL26c8kdMHYNKMMVh

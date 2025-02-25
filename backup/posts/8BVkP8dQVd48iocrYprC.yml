@@ -1,0 +1,114 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/international-cuban-dance-festival-ritmo-cuba/
+facebook: https://www.facebook.com/events/1332391014832426/
+sourceUrl: https://www.facebook.com/events/1332391014832426/
+venue:
+  address_components:
+    - long_name: Cuba
+      short_name: CU
+      types:
+        - country
+        - political
+    - long_name: La Habana
+      short_name: La Habana
+      types:
+        - locality
+        - political
+    - long_name: Centro Habana
+      short_name: Centro Habana
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: La Habana
+      short_name: La Habana
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: "10400"
+      short_name: "10400"
+      types:
+        - postal_code
+  formatted_address: Calle 21 y O, Vedado, Plaza La Habana, La Habana 10400, Cuba
+  geometry:
+    location:
+      lat: 23.1434624
+      lng: -82.3807994
+    viewport:
+      northeast:
+        lat: 23.14523478029151
+        lng: -82.3795072697085
+      southwest:
+        lat: 23.1425368197085
+        lng: -82.3822052302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +53 7 8363564
+  name: Hotel Nacional de Cuba
+  place_id: ChIJ_dKuClh3zYgRJUd04ZBawGo
+  url: https://maps.google.com/?cid=7692247741853091621
+  website: https://www.hotelnacionaldecuba.com/
+endDate: 1745798400000
+claimed: No
+link: http://dancefestivalincuba.com/tickets
+description: >-
+  Ritmo Cuba is a unique international reunion where dancers, students, teachers
+  and choreographers from around world come to share a love of latin dance in
+  Havana Cuba – the birthplace of salsa rythmn. It boasts more than 60 of the
+  best salsa teachers from across Cuba and the world – including the principal
+  dance instructors from each of the major salsa schools in Havana.
+
+
+  Over 7 days, it offers more than 100 Hours of classes, with 3 separate salons operating at any given time so that students can select their preferred style and level. Take classes in Cuban Salsa, Rueda de Casino, Reggaton, Cha Cha Cha, Bachata, Hip Hop, Kizomba, Rumba or Folklorico, and then join us at night as we take the party to the hotest salsa clubs in Cuba. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/ru2orio0rdayiolr5hoa.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ4QD2vUx3zYgRYA13Gn5NKU4
+international: No
+visibility: Public
+org:
+  id: es3h76l09WMprkANSpBn
+  username: ritmocuba
+  name: Ritmo Cuba
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fdb4bb2cf-ff67-4ba2-b099-e02fa1748cd9?alt=media&token=349f654a-440b-4e10-8b37-de75cc6b0bbc
+  bio: >
+    Once a year students, dance enthusiasts, instructors and performers descend
+    of Havana for one week of lessons, cultural exchanges and dance parties.
+  instagram: https://instagram.com/ritmocubaup
+  facebook: ""
+  tiktok: ""
+  youtube: ""
+facebookId: "1332391014832426"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: 7th International Cuban Dance Festival "Ritmo Cuba 2025"
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1745240400000+ChIJ_dKuClh3zYgRJUd04ZBawGo
+startDate: 1745240400000
+id: 8BVkP8dQVd48iocrYprC

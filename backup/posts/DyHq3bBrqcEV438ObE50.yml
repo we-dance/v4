@@ -1,0 +1,138 @@
+createdAt: 1704822879666
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+source: facebook
+updatedAt: 1704822879666
+username: wedancebot
+venue:
+  formatted_address: C. Real, 45, 28691 Villanueva de la Cañada, Madrid, Spain
+  website: http://www.hoteldonangeli.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel don angel
+  geometry:
+    viewport:
+      southwest:
+        lng: -4.005770330291503
+        lat: 40.4455659697085
+      northeast:
+        lng: -4.003072369708498
+        lat: 40.4482639302915
+    location:
+      lng: -4.0044669
+      lat: 40.44694239999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "45"
+      long_name: "45"
+    - types:
+        - route
+      short_name: C. Real
+      long_name: Calle Real
+    - types:
+        - locality
+        - political
+      short_name: Villanueva de la Cañada
+      long_name: Villanueva de la Cañada
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: M
+      long_name: Madrid
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: MD
+      long_name: Comunidad de Madrid
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "28691"
+      long_name: "28691"
+  international_phone_number: +34 918 11 73 10
+  place_id: ChIJv7u_49abQQ0Ro6DoeQgNens
+  url: https://maps.google.com/?cid=8897438343880024227
+endDate: 1712382300000
+claimed: No
+link: https://www.goandance.com/es/eventos/6242-bembe-fest-2024-10a-edicion
+description: >-
+  Ya estamos listos para un nuevo BEMBÉ y este año estamos de cumple. 🎉 🎉
+
+  Si, si, en Abril disfrutaremos de la edición número 10 y nos apetece muchísimo celebrarlo contigo.
+
+
+  Tendremos talleres, sociales de salsa y bachata, «La Gincana» disfraces y mucha fiesta 🎶🎵🕺🏼💃🏻
+
+
+  Estamos preparando muchas sorpresas y seguro que lo vas a pasar en grande Sabes que en el BEMBÉ nunca te decepcionamos y que cada año nos preparamos para que, cuando llegue el lunes después del evento y estés destrozado y muerto de sueño, nos odies y nos ames por partes iguales 🤩 🥰
+
+
+  Así que… ¿Estás preparado para disfrutar del BEMBÉ FEST?
+
+  Seguro que si, pero por si no estás muy convencido, te dejamos por aquí unas cuántas fotos, donde puedes ver lo fantástico y divertido que fue el BEMBÉ de este año. 🤩 🤸🏻‍♂️ 🕺🏼
+
+
+  ¿Te apuntas con nosotros en abril?
+
+
+  Queremos empezar ofreciéndote una promoción especial de lanzamiento para que puedas reservar tu plaza con 30€ de DTO 🎉🎉🎉
+
+
+  Puedes ver todos las fechas y los precios en la web de GO & DANCE. Puedes hacer ahí tu reserva o si lo prefieres te lo contamos todos en MANISERO DANCE SCHOOL - C/ Rocafort 72 - 08205 Sabadell.
+
+
+  Si quieres conocer las condiciones de cancelación del evento las puedes ver aquí de esta publicación pero si tienes cualquier consulta no dudes en contactar con nosotros aquí mismo el WHATASAPP de Manisero.
+
+
+  También puedes escribirnos por mail a info@school. manisero.es o si lo prefieres, nos puedes hacer una visita en el Instagram de la escuela @ o en las sesiones de Manisero @😊
+program: []
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJX81KHHSZQQ0Rf2ZX3jSOmj4
+international: No
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1704822885587
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/maniseroschool
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/346072236_1420324732135671_4018666404189513465_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=-bU1xmvuLYcAX_eu2Zp&_nc_ht=scontent-iad3-1.xx&oh=00_AfAiLPgmUC_XNep8VNurAGWdpo-yR3_1LO7qxBq2VOFMXg&oe=65A35DCF
+  source: facebook
+  type: Organiser
+  createdAt: 1704822885587
+  owned: false
+  name: Manisero Dance School
+  place: ChIJX81KHHSZQQ0Rf2ZX3jSOmj4
+  updatedAt: 1704822885587
+  username: maniseroschool
+facebook: https://www.facebook.com/events/1457839971684856/?event_time_id=1457839975018189
+facebookId: "1457839975018189"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: BEMBÉ FEST 10ª Edición
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1712311200000+ChIJv7u_49abQQ0Ro6DoeQgNens
+startDate: 1712311200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDyHq3bBrqcEV438ObE50.png?generation=1704822905435455&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851806/lqck5kdx5dghtxpor2yt.jpg
+viewsCount: 19
+id: DyHq3bBrqcEV438ObE50

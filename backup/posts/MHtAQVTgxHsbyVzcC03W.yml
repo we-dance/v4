@@ -1,0 +1,191 @@
+endDate: 1733092200000
+sourceUrl: https://www.facebook.com/events/1360134487984007/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714507477000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726413253000
+facebookId: "1360134487984007"
+facebook: https://www.facebook.com/events/1360134487984007/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1360134487984007/
+eventType: Party
+providerItemId: e1360134487984007@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: KIZ RELAX Celebraçao
+location: ""
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1732888800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 69 bis Av. Denis Papin, 34170 Castelnau-le-Lez, France
+  website: https://www.ezenspa.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: E'Zen Spa, spa - sauna - hamman, massages & soins et vente produits
+  geometry:
+    viewport:
+      southwest:
+        lng: 3.917882719708497
+        lat: 43.6403348197085
+      northeast:
+        lng: 3.920580680291502
+        lat: 43.6430327802915
+    location:
+      lng: 3.9191634
+      lat: 43.64166729999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 69 bis
+      long_name: 69 bis
+    - types:
+        - route
+      short_name: Av. Denis Papin
+      long_name: Avenue Denis Papin
+    - types:
+        - locality
+        - political
+      short_name: Castelnau-le-Lez
+      long_name: Castelnau-le-Lez
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hérault
+      long_name: Hérault
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Occitanie
+      long_name: Occitanie
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "34170"
+      long_name: "34170"
+  international_phone_number: +33 6 02 07 07 76
+  place_id: ChIJoZTrP92lthIRMzqJSSjSJZA
+  url: https://maps.google.com/?cid=10386939186074171955
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417951747
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/kizRelaxMontpellier
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417952/yhjxbexargtjstf09thc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417951747
+  owned: false
+  name: KIZ RELAX Montpellier
+  updatedAt: 1728417951747
+  username: kizRelaxMontpellier
+claimed: No
+link: http://my.weezevent.com/kiz-relax-celebracao
+description: >-
+  ******KIZ RELAX Celebraçao****
+
+  29 NOV > 01 DÉC 2024
+
+
+  ****** LINE UP
+
+
+  ✨ TEACHERS :
+
+          🔘  AUDI & LAURA
+          🔘  PRINCE BACHIIR
+          🔘  MANU & OLIVIA
+          🔘  GIBSON & AMÉLIA
+
+  ✨  DJS :
+          🔘  🎧 DJ SHARK
+          🔘  🎧 DJ SNAKES
+          🔘  🎧 DJ K-BRAL
+          🔘  🎧 DJ MG
+          🔘  🎧 DJ MOYAZ
+
+  ****** SALLE
+
+
+  El salon de Tango
+
+  66 Rue Léon Morane ZA Fréjorgues-Ouest Montpellier, Aéroport, 34130 Mauguio
+
+
+  ****** PROGRAMME
+
+  Programme détaillé à venir 
+
+
+  ✨✨ VENDREDI 29 nov 
+
+  ✨✨ SAMEDI 30 nov 
+
+  ✨✨ DIMANCHE 01 déc 
+
+
+  ****** DRESS CODE 💃🏻🕺
+
+
+  Vend. > LET’S SHINNING ✨⭐️🌟💎
+
+  (Brillant, or, gold, argent, paillette)
+
+
+  Sam > ÉLÉGANT 
+
+
+  Dim > RELAX
+
+
+  ****** TARIFS
+
+  FULL PASS
+          🔘 50€  // EARLY BIRDS (sold out)
+          🔘 80€  //  PRÉVENTES
+          🔘 90€  //  SUR PLACE
+
+  ******* BILLETTERIE 
+
+  http://my.weezevent.com/kiz-relax-celebracao
+
+
+  ******* HOTELS 
+
+
+  Hôtel principal  
+
+
+  Greet Montpellier Aéroport parc expo
+
+  https://all.accor.com/hotel/B9N4/index.fr.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417954/vh3x0jgvzmfupkqlsrl8.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJHQWWl_ClthIRgMtqFiGIBwQ
+international: No
+hash: 1732888800000+ChIJoZTrP92lthIRMzqJSSjSJZA
+id: MHtAQVTgxHsbyVzcC03W

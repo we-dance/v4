@@ -1,0 +1,131 @@
+endDate: 1716735600000
+sourceUrl: https://www.facebook.com/events/1356917764963741/
+createdAt: 1711800520945
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1707059703000
+updatedAt: 1711800520945
+importedAt: 1711800520945
+providerUpdatedAt: 1710344598000
+facebookId: "1356917764963741"
+facebook: https://www.facebook.com/events/1356917764963741/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1356917764963741/
+eventType: Workshop
+providerItemId: e1356917764963741@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Brazilian Zouk Weekender - Munich May 25-26th 2024
+location: Pelkovenstraße 143, 80992 München, Deutschland
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716573600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Pelkovenstraße 143, 80992 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Pelkovenstraße 143
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5295845697085
+        lat: 48.1812773697085
+      northeast:
+        lng: 11.5322825302915
+        lat: 48.1839753302915
+    location:
+      lng: 11.5309143
+      lat: 48.1825152
+  address_components:
+    - types:
+        - street_number
+      short_name: "143"
+      long_name: "143"
+    - types:
+        - route
+      short_name: Pelkovenstraße
+      long_name: Pelkovenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Moosach
+      long_name: Moosach
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80992"
+      long_name: "80992"
+  place_id: ChIJtVdKAfd2nkcRvA_p88BSlSU
+  url: https://maps.google.com/?q=Pelkovenstra%C3%9Fe+143,+80992+M%C3%BCnchen,+Germany&ftid=0x479e76f7014a57b5:0x259552c0f3e90fbc
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711800531262
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Bailadictos
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711800531/r1ak5s2f5mjlcvbmj71v.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711800531262
+  owned: false
+  name: Bailadictos
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  updatedAt: 1711800531262
+  username: Bailadictos
+claimed: No
+link: ""
+description: >-
+  Save the date for an amazing second round with Iago and Ninna right here in
+  Munich! 
+
+
+  A weekend full of workshops, dancing and parties. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711800532/xp0ti3ur1rgn0n4bwuck.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1716573600000+ChIJtVdKAfd2nkcRvA_p88BSlSU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fiqy2NUbSBk40Z0gTsQFI.png?generation=1711800563082192&alt=media
+viewsCount: 4
+id: iqy2NUbSBk40Z0gTsQFI

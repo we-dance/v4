@@ -1,0 +1,162 @@
+endDate: 1713036600000
+sourceUrl: https://www.facebook.com/events/3366718566961541/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1710827783000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1710835187000
+facebookId: "3366718566961541"
+facebook: https://www.facebook.com/events/3366718566961541/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3366718566961541/
+eventType: Festival
+providerItemId: e3366718566961541@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: PRAGKIZER FESTIVAL PROMO PARTY IN LINZ, AUSTRIA
+location: Tanzschule Citydance - Meissner Linz
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1713025800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Paul-Hahn-Straße 1/3, 4020 Linz, Austria
+  website: https://www.citydance-meissner.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule Citydance - Meissner Linz
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.3087180697085
+        lat: 48.30594796970851
+      northeast:
+        lng: 14.3114160302915
+        lat: 48.3086459302915
+    location:
+      lng: 14.3102409
+      lat: 48.30738820000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Paul-Hahn-Straße
+      long_name: Paul-Hahn-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Lustenau
+      long_name: Lustenau
+    - types:
+        - locality
+        - political
+      short_name: Linz
+      long_name: Linz
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Linz
+      long_name: Linz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Oberösterreich
+      long_name: Oberösterreich
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "4020"
+      long_name: "4020"
+  international_phone_number: +43 732 710303
+  place_id: ChIJ9xQxoAiZc0cRN22kIoFapCQ
+  url: https://maps.google.com/?cid=2640334792224435511
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pragueurbankiztarraxo
+  name: PragKizers-Prague UrbanKiz Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707497658/kba4kqq2hr9mqraiscmc.jpg
+  bio: ""
+  id: IocYIEtsIGP6EzjsMfcv
+  instagram: ""
+  username: pragkizers-prague.urbankiz.festival
+claimed: No
+link: ""
+description: >-
+  PRAGKIZER FESTIVAL:PRAGUE URBANKIZ FESTIVAL 2024 on Tour With Promo party in
+  Linz, Austria.
+
+
+  Stand a chance to win a Full Pass when you buy the Bootcamp and Party Pass.
+
+
+  Host: Anja
+
+  Teacher:Sani Groove
+
+  DJ: DJ BRUNO
+
+
+  Date: Saturday 13th April, 2024.
+
+  Time: 18.30 Hours (9.30pm -1am Party)
+
+
+  Venue: Dance school Citydance-Meissner Linz
+
+  Paul Hahn Strasse 1-3, 4020 Linz
+
+
+  Bootcamp and Party: 35euro 
+
+  Only Party: 10euro 
+
+
+  To Get Tickets:
+
+  Paypal: sanislide@gmail.com
+
+  (You will receive a confirmation email which you must show at the entrance)
+
+
+  There will be a Give Away for those with Bootcamp and Party Pass to win FULL PASS to the festival in July.
+
+
+  We look forward to a great event with you.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224709/ti8dh2pegyty967ecnxj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJTYWZ-pWVc0cRxHV5VywpU3w
+international: No
+hash: 1713025800000+ChIJ9xQxoAiZc0cRN22kIoFapCQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fqn6WQrFWjI4IQpA21Jjj.png?generation=1711224742039259&alt=media
+viewsCount: 1
+id: qn6WQrFWjI4IQpA21Jjj

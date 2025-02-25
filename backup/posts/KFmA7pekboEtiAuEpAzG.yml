@@ -1,0 +1,132 @@
+venue:
+  website: http://buena-vista-bar.de/
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 2A
+      short_name: 2A
+    - types:
+        - route
+      long_name: Am Einlaß
+      short_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80469"
+      short_name: "80469"
+  url: https://maps.google.com/?cid=10819607444887102927
+  name: Bar Buena Vista
+  geometry:
+    viewport:
+      south: 48.1323055697085
+      north: 48.1350035302915
+      east: 11.5760210802915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  international_phone_number: +49 89 26022811
+endDate:
+  _seconds: 1635202800
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: http://language-exchange-party.de/
+description: >-
+  You want to meet new people, move and dance with people of different
+  cultures? 
+
+
+  Connect with us!
+   
+  Munich // Monday 25. October at 8. pm
+
+  Buena Vista Bar - Am Einlaß 2A
+
+
+  Free entrance before 9 PM
+
+
+  Latin & Hits-Mix by DJ Beto & DJ Pacho
+
+
+  Free Beginner Salsa Dance Lesson. // 8. pm
+type: event
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2Fdac5ac02-6ec2-4150-8f15-b8d8eb83ec50?alt=media&token=47eecb21-245f-45a4-91a8-1ff3eb399121
+createdAt: 1633984572429
+watchersCount: 0
+price: FREE
+commentsLast: ~
+promoter: Vitali
+id: KFmA7pekboEtiAuEpAzG
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 16
+updatedAt: 1633984572429
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/int-language-exchange-party/429788591820715/
+eventType: Party
+organiser: ""
+form: Yes
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Language Exchange Party
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-25T18:00:00.000Z
+username: Vitali
+viewsCount: 17

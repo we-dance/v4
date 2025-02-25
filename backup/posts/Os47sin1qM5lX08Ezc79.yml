@@ -1,0 +1,158 @@
+venue:
+  formatted_address: Reitknechtstraße 6, 80639 München, Germany
+  website: https://www.backstage.info/
+  name: Backstage Kulturzentrum
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5235371302915
+      south: 48.1437751697085
+      north: 48.1464731302915
+      west: 11.5208391697085
+    location:
+      lng: 11.521601
+      lat: 48.14504849999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Reitknechtstraße
+      long_name: Reitknechtstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neuhausen-Nymphenburg
+      long_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80639"
+      long_name: "80639"
+  url: https://maps.google.com/?cid=16852117116677877124
+  international_phone_number: +49 89 1266100
+  place_id: ChIJ0Ssq9yN2nkcRhG3dNDu_3uk
+endDate: 2023-01-21T04:00
+claimed: No
+description: >-
+  GOOD TO GO
+
+
+  let’s start a new year with an explosive Event touch down @backstage Munich with one of the Best Soundsystem in Germany and live Act.
+
+
+  @sillywalksdisco
+
+
+  live act @kokonelle
+
+
+  On warmup @jabbar_blazin_fire
+
+
+  Date: 20.01.2023
+
+
+  Time: 24:00
+
+
+  Location @backstagemunich
+
+
+  You don’t want to miss out !!!
+
+
+  #afro #backstagemünchen #münchen #dancehallmusic #reagge #365muenchen
+
+  #afrobeatdeluxe #afrikatage #sillywalks
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fec6fe8af-096e-4766-b0ec-97dfe50db477?alt=media&token=946ac8e6-1026-4935-8df3-5b964b12a94b
+createdAt: 1673790289436
+artists:
+  - instagram: https://instagram.com/backstagemunich
+    username: backstagemunich
+  - instagram: https://instagram.com/sillywalksdisco
+    username: sillywalksdisco
+  - instagram: https://instagram.com/kokonelle
+    username: kokonelle
+  - instagram: https://instagram.com/jabbar_blazin_fire
+    username: jabbar_blazin_fire
+price: TBD
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - backstagemunich
+  - sillywalksdisco
+  - kokonelle
+  - jabbar_blazin_fire
+international: No
+updatedAt: 1673790289436
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: https://instagram.com/afro_beat_deluxe
+  username: afro_beat_deluxe
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: GOOD TO GO 23
+online: No
+styles:
+  Dancehall:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-21T00:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOs47sin1qM5lX08Ezc79.png?generation=1673791182191156&alt=media
+telegram:
+  requestedAt: 1673791187419
+  messageUrl: https://t.me/WeDanceMunich/790
+  publishedAt: 1673791193828
+  messageId: 790
+  state: published
+instagram:
+  requestedAt: 1673791204403
+  messageUrl: https://instagram.com/p/CncDnzYuaSS
+  publishedAt: 1673791218271
+  messageId: CncDnzYuaSS
+  state: published
+viewsCount: 37
+id: Os47sin1qM5lX08Ezc79

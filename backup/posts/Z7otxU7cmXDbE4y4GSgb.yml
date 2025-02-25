@@ -1,0 +1,154 @@
+createdAt: 1705399393549
+updatedBy: x52TNWvlAAUDpaBjtUj7tDBHssn2
+createdBy: x52TNWvlAAUDpaBjtUj7tDBHssn2
+place: ChIJrZfujw1WskcRIANYxmOJJAQ
+username: lea_bachata
+venue:
+  formatted_address: Wilhelminenstraße 10, 24103 Kiel, Germany
+  website: http://www.studio-filmtheater.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png
+  name: Studio Filmtheater am Dreiecksplatz
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.1322538197085
+        lat: 54.3270082197085
+      northeast:
+        lng: 10.1349517802915
+        lat: 54.3297061802915
+    location:
+      lng: 10.1335504
+      lat: 54.328379
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Wilhelminenstraße
+      long_name: Wilhelminenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: KI
+      long_name: Kiel
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kiel
+      long_name: Kiel
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SH
+      long_name: Schleswig-Holstein
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "24103"
+      long_name: "24103"
+  international_phone_number: +49 431 9828101
+  place_id: ChIJ09rjWGhWskcRlxrlylI5hNc
+  url: https://maps.google.com/?cid=15529600442834426519
+claimed: No
+link: ""
+description: >-
+  ✨Bachata Sensual/Fusion Kiel✨
+                    präsentiert
+          ❤️‍🔥BACHATA LOCA❤️‍🔥
+           〰️〰️03.02.24〰️〰️
+
+  *Bachata Loca* Kiel geht in die zweite Runde!🎉
+
+
+  🗓️Wann? Samstag, 03.02.24
+
+  📍Wo? Studio Kino Kiel (Wilhelminenstraße 10)
+
+
+  ▶️ 20:45 Uhr Pre-Party Workshop (Open Level)
+
+  🌟SVETLANA & ALEX (HH)🌟
+
+
+  ▶️ 21:30 Uhr Party
+
+  60 % Bachata 40 % Salsa
+
+  💥DJ LOOTS (HH)💥
+
+
+  ▶️ 23:30 Uhr 
+
+  🔥SHOW: SVETLANA & ALEX
+
+  ⚡️ANIMATION: MAZEN & LEA
+
+
+  🎫 Eintritt: 12€ inkl. Workshop 
+
+  (Für den Workshop stehen nur begrenzte Plätze zur Verfügung - rechtzeitiges Kommen lohnt sich!)
+
+
+  Wir freuen uns auf euch!✨
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1577095816377758/
+facebookId: "1577095816377758"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: ❤️‍🔥BACHATA LOCA KIEL❤️‍🔥
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1706989500000+ChIJ09rjWGhWskcRlxrlylI5hNc
+startDate: 1706989500000
+org:
+  owner: ""
+  importedAt: 1705399399313
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/MazenUndLeaBachata
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/382608072_300750429372165_1359850308580111515_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=CJOw6mR_YTgAX_J1jZ_&_nc_ht=scontent-iad3-1.xx&oh=00_AfDax7Idmq95YolIQqKWB0Q-cE7W2PhIEuXh_4-cnF6afw&oe=65AA7C5B
+  source: facebook
+  type: Organiser
+  createdAt: 1705399399313
+  owned: false
+  name: Bachata Sensual Fusion Kiel - M&L
+  place: ChIJrZfujw1WskcRIANYxmOJJAQ
+  updatedAt: 1705399399313
+  username: bachata.sensual.fusion.kiel.-.ml
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZ7otxU7cmXDbE4y4GSgb.png?generation=1705399412616295&alt=media
+endDate: .nan
+price: 12€
+artistsList: []
+id: Z7otxU7cmXDbE4y4GSgb
+updatedAt: 1705399456245
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058084/biyn5vd2k9evlxsiavts.jpg
+viewsCount: 29

@@ -1,0 +1,141 @@
+venue:
+  formatted_address: 140 00 Prague-Prague 4, Czechia
+  name: Vyšehrad
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4321888302915
+      south: 50.0618124697085
+      north: 50.0645104302915
+      west: 14.4294908697085
+    location:
+      lng: 14.43052
+      lat: 50.06314
+  address_components:
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Prague 4
+      long_name: Prague 4
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Prague
+      long_name: Prague
+    - types:
+        - postal_code
+      short_name: 140 00
+      long_name: 140 00
+  url: https://maps.google.com/?cid=10648147792586175409
+  place_id: ChIJQTqOvWSUC0cRsXP1RADSxZM
+endDate: 2024-06-22T22:00
+claimed: No
+description: >
+  Ahoj salser@s a bachater@s! S radostí vám oznamujeme že sobotní party s Dj
+  Lole, Tomášem Janakem a Studiem Ruelto na Vyšehradě opět zahajujeme jako loni
+  od 13.5.23
+
+
+
+
+  Vstup: 100 Kc
+
+
+  Těším se až se tam zase uvidíme!
+
+
+  .
+
+
+  Hi salser@s and bachater@s! We are happy to announce you that we will start again our Saturday parties with Dj Lole, Tomáš Janak and Studio Ruelto in Vyšehrad as last year from 13.5.23
+
+
+
+
+  Entrence fee: 100 CZK
+
+
+  Looking forward to see there you again!
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ffe1d8f0e-973b-4086-beca-0b7dc810b822?alt=media&token=046aa16b-4aac-4213-9f3b-a20e1f41e9f9
+createdAt: 1690372833092
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+price: 100 CZK
+artistsList:
+  - DjLole
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1690372833092
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/ruelto.cz
+  name: ruelto.cz
+  bio: ""
+  photo: ""
+  id: ntgMhNTtUEqBntD5xXxj
+  instagram: ""
+  username: ruelto.cz
+upVotes: 0
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Regular salsa a bachata - Open air party - metro Vyšehrad
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-07-29T18:00
+username: DjLole
+facebook: https://www.facebook.com/events/162162310147660/162580840105807
+link: https://www.facebook.com/events/162162310147660/162580840105807
+id: KARq0ihHe6FK6AfpC1aS
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKARq0ihHe6FK6AfpC1aS.png?generation=1690629347001404&alt=media
+telegram:
+  requestedAt: 1690629401869
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/336
+  publishedAt: 1690629406437
+  messageId: 336
+  state: published
+viewsCount: 5

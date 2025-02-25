@@ -1,0 +1,88 @@
+createdAt: 1710696177272
+website: http://www.lamacumba.cz/
+rooms: ""
+address:
+  formatted_address: 7, Štefánikova 230, 150 00 Praha 5-Anděl, Czechia
+  website: http://www.lamacumba.cz/
+  name: La Macumba Music Latino bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4045822802915
+      south: 50.0709519197085
+      north: 50.0736498802915
+      west: 14.4018843197085
+    location:
+      lng: 14.403744
+      lat: 50.0726811
+  address_components:
+    - types:
+        - subpremise
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - street_number
+      short_name: "230"
+      long_name: "230"
+    - types:
+        - route
+      short_name: Štefánikova
+      long_name: Štefánikova
+    - types:
+        - neighborhood
+        - political
+      short_name: Anděl
+      long_name: Anděl
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 5
+      long_name: Praha 5
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 150 00
+      long_name: 150 00
+  international_phone_number: +420 776 795 166
+  url: https://maps.google.com/?cid=17098281649449014834
+  place_id: ChIJ5doTgviUC0cRMhb90JFMSe0
+gender: Other
+phone: +420 776 795 166
+name: La Macumba Music Latino bar
+updateAt: 1710696177272
+type: Venue
+map: ""
+username: www.lamacumba.cz
+watch:
+  count: 1
+  usernames:
+    - DjLole
+  history:
+    - username: DjLole
+      date: 1714052136986
+      invitedBy: ""
+      uid: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+      action: joined
+    - username: DjLole
+      date: 1718025171718
+      invitedBy: ""
+      uid: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+      action: joined
+viewsCount: 3
+id: Y79Zohk5QMIvggNeh9Qe

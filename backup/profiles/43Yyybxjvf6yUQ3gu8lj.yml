@@ -1,0 +1,40 @@
+createdAt: 1669734342416
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Ljubljana, Slovenia
+place: ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+type: City
+username: Ljubljana
+updatedAt: 1669734342416
+website: https://t.me/joinchat/hB1Fb-eG8xQ2MjQy
+partner: ""
+id: 43Yyybxjvf6yUQ3gu8lj
+cityPlaceId: ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+location:
+  country: Slovenia
+  latitude: 46.0569465
+  locality: Ljubljana
+  region: Ljubljana
+  place_id: ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+  longitude: 14.5057515
+watch:
+  count: 1
+  usernames:
+    - Vromen
+  history:
+    - username: Vromen
+      date: 1718783448802
+      invitedBy: ""
+      uid: OGZsbLJ96lNGGZ9hf1pn3ccZlf32
+      action: joined
+    - username: Vromen
+      date: 1718783479236
+      invitedBy: ""
+      uid: OGZsbLJ96lNGGZ9hf1pn3ccZlf32
+      action: left
+    - username: Vromen
+      date: 1718783509162
+      invitedBy: ""
+      uid: OGZsbLJ96lNGGZ9hf1pn3ccZlf32
+      action: joined
+viewsCount: 289

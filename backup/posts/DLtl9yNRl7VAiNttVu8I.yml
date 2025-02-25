@@ -1,0 +1,146 @@
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  website: http://www.birdbar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+  international_phone_number: +49 89 55969710
+endDate: 1704844800000
+claimed: No
+link: ""
+program: []
+instagram: {}
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1703712005627
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+star:
+  count: 0
+  list: {}
+visibility: Public
+facebook: https://fb.me/e/2dbsc4wml
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1704832200000
+username: TocaToca
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F83a3f24c-ef06-45de-9bf5-c31390feb33c?alt=media&token=7233bcd4-d74e-43ec-a085-e0bb9cedf007
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Remcy
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdjremcyofficial.png?generation=1662976947469425&alt=media
+    bio: |-
+      🎧 DJ | Producer | Beatmaker 🎶
+      📧 Booking: djremcy@djremcy.com
+      #djremcy #kizomba
+    id: KudD69t1x3oj1pk6yvtf
+    instagram: https://instagram.com/djremcyofficial
+    username: djremcyofficial
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/djomega.christina
+  name: Dj_Omega
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+  bio: Organiser - DJ - dancer
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  instagram: https://instagram.com/djomega_official
+  username: Dj_Omega
+name: 8times 2gether Weekly Party Munich |  with DJ Remcy
+description: >+
+  ꧁ 𝟠𝕥𝕚𝕞𝕖𝕤 𝟚𝕘𝕖𝕥𝕙𝕖𝕣 𝕎𝕖𝕖𝕜𝕝𝕪 ℙ𝕒𝕣𝕥𝕪 𝕚𝕟 𝕄𝕦𝕟𝕚𝕔𝕙! ꧂
+
+
+  ✨ This week with the one and only DJ Remcy!
+
+
+  📍Bird bar 🦜
+
+  ⏰ 9.30 pm - 1 am
+
+  💵 10 € - one free soft (0.25ml, coke, sprite, fanta, or water) when you enter before 10PM
+
+artistsList:
+  - djremcyofficial
+id: DLtl9yNRl7VAiNttVu8I
+specialOffer: One free soft (0.25ml) with entry before 10PM
+updatedAt: 1703712212873
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FDLtl9yNRl7VAiNttVu8I.png?generation=1703712224147236&alt=media
+facebookId: "694971082156913"
+hash: 1704832200000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+viewsCount: 60

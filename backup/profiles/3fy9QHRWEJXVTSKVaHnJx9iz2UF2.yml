@@ -1,0 +1,56 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631824552420
+locales:
+  de: true
+  ru: true
+  en: true
+createdBy: 3fy9QHRWEJXVTSKVaHnJx9iz2UF2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+hometown: ChIJ7WVKx4w3lkYR_46Eqz9nx20
+permission: Yes
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+contacts: ""
+username: Olala
+name: Olga
+gender: Female
+cities:
+  ChIJ7WVKx4w3lkYR_46Eqz9nx20: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+visibility: Members
+jobs: Marketing
+learning: Lady Styling
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F3fy9QHRWEJXVTSKVaHnJx9iz2UF2%2F5de9e1e1-dab0-48e9-ae3f-872382f8d158?alt=media&token=1a40189c-bf5d-4db9-b27e-736f878760f4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FOlala.png?generation=1636886650316125&alt=media
+pwaUsed: true
+updatedBy: 3fy9QHRWEJXVTSKVaHnJx9iz2UF2
+savedBy: {}
+step: photo
+bannerNps: no
+bannerV3Beta: no
+updatedAt: 1658917454334
+daysUsed: 39
+lastLoginAt: 1666268448348
+viewsCount: 2
+styles:
+  UrbanKizz:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+id: 3fy9QHRWEJXVTSKVaHnJx9iz2UF2

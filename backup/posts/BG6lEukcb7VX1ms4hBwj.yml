@@ -1,0 +1,174 @@
+endDate: 1711324800000
+sourceUrl: https://www.facebook.com/events/775766854473200/
+createdAt: 1710684370486
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1710408704000
+updatedAt: 1710684370486
+importedAt: 1710684370486
+providerUpdatedAt: 1710408704000
+facebookId: "775766854473200"
+facebook: https://www.facebook.com/events/775766854473200/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/775766854473200/
+providerItemId: 10008581-1711238400-1711324799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Tango Mistico, Bajcsy-Zsilinszky út 66., Budapest, 1054, Magyarország
+startDate: 1711238400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Bajcsy-Zsilinszky út 66, 1054 Hungary
+  website: http://www.tango-mistico.net/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tango Mistico Lucas & Judit
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.05356836970849
+        lat: 47.50587441970849
+      northeast:
+        lng: 19.0562663302915
+        lat: 47.50857238029149
+    location:
+      lng: 19.0549111
+      lat: 47.50733539999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "66"
+      long_name: "66"
+    - types:
+        - route
+      short_name: Bajcsy-Zsilinszky út
+      long_name: Bajcsy-Zsilinszky út
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1054"
+      long_name: "1054"
+  international_phone_number: +36 30 725 1445
+  place_id: ChIJrY9xt3LcQUcRJcFIsfrEMIM
+  url: https://maps.google.com/?cid=9453272198845874469
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/zoukbudapest
+  name: Brazilian ZOUK Budapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902717/w6wazzvtwt9cg5znrvtq.jpg
+  bio: ""
+  id: dZGYYcmKTiEK5EDxr3zS
+  instagram: ""
+  username: zoukbudapest
+claimed: No
+link: ""
+description: >+
+  🌟 Zouk Sunday Socials minden második vasárnap🌟
+   
+  A Március 10-ei sikerre való tekintettel folytatjuk a minden második vasárnapi social eseményünket , ezen a héten extra ingyenes betekintő Zouk órával🤩
+   
+  Az esemény elsősorban gyakorlóest, ahol bátran próbálgathatjátok az órán tanultakat. Tőlünk is kérdezhettek, ha valami régóta nyomja a szíveteket (Első sorban persze Zouk-kal kapcsolatban, de másban is igyekszünk segíteni 😄) Várunk akkor is, ha társaságra vágysz, bandázni szeretnél, vagy csak kimozdulnál és inkább táncolnál az esti Netflixezés helyett!! 🙃
+
+  Igyekszünk majd gyakorlós zenékkel készülni!! 🎵  
+
+  Hívj meg nyugodtan barátokat is 👫
+   
+   📣 18-tól egy órás ingyenes Open órát is tartunk, ahova várunk mindenkit aki megismerkedne a Zouk-kal 📣 ( a megosztásokat megköszönjük 🫶🏻)
+   
+   
+   Dátum: Március 24-től minden második vasárnap
+  🕖 Időpont: 18:00 - 19:00 - Open Level Zouk óra (a workshop ingyenesen :) ) 
+
+  🕖 Időpont: 19:00-21:00 - Zouk Social ( igény esetén meghosszabbítható   22:00-ig ) 
+
+  📍Helyszín: Tango Mistico
+
+  🎟️Jegy: 2500 Ft 
+   
+  Amennyiben bármilyen kérdésed van fordulj hozzánk bátran!! 
+   
+  Várunk Titeket 🧡
+   
+  BZB Csapat
+
+
+
+  🌟 Zouk Sundays every second Sunday🌟
+   
+  Here we gooo!! After our last sucessfull event on the the 10th of March we are going to have our second Sunday Social event with extra free Beginner Zouk Classes 🤩
+
+
+  It will be more a practice event where you can practice what you have learned at your classes. You can ask questions from us as well (preferably about Zouk, but we are happy to help and assist you with other things as well 😄) Join us also in case you wants to have company, you would like to talk, or just dance or simply you would like to do something else then sitting at home and watching Netflix !! 🙃
+
+
+
+  📣  We will have a free one-hour Open level class!! If you are interested in Zouk we are waiting for you!! 📣 (We would appreciate if could share our event 🫶🏻)
+
+   Date:  every second Sunday from the 10th of March
+  🕖 Time: 18:00 - 19:00 - Free Beginner Zouk Class
+
+  🕖 Time: 19:00 - 21:00 - Zouk Social (it can be prolonged until 22:00)
+
+  📍Place: Tango Mistico
+
+  🎟️Ticket: 2500 HUF
+
+
+  If you have any questions feel free to contact us!! 
+
+
+  Looking forward to see you 🧡
+
+
+  BZB Team
+   
+
+
+
+
+program: []
+source: facebook
+eventType: Workshop
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684389/qeeknlpsdw2rsjxhnnta.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: BZB - Sunday Zouk Social + Free Zouk Beginner Workshop
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1711299600000+ChIJrY9xt3LcQUcRJcFIsfrEMIM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FBG6lEukcb7VX1ms4hBwj.png?generation=1710684412679729&alt=media
+id: BG6lEukcb7VX1ms4hBwj

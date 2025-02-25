@@ -1,0 +1,129 @@
+endDate: 1720821600000
+sourceUrl: https://www.facebook.com/events/972146324414309/972146341080974/
+createdAt: 1720533632337
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1720472136000
+updatedAt: 1720533632337
+importedAt: 1720533632337
+providerUpdatedAt: 1720472136000
+facebookId: "972146341080974"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/972146324414309/972146341080974/
+eventType: Party
+providerItemId: 10009129-1720809000-1720821600@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Magyar Nemzeti Múzeum, Múzeum krt. 14-16., Budapest, 1088, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720809000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Múzeum krt. 14-16, 1088 Hungary
+  website: https://mnm.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Hungarian National Museum
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0609327197085
+        lat: 47.4897775
+      northeast:
+        lng: 19.0636306802915
+        lat: 47.49290269999999
+    location:
+      lng: 19.0624765
+      lat: 47.4911983
+  address_components:
+    - types:
+        - street_number
+      short_name: 14-16
+      long_name: 14-16
+    - types:
+        - route
+      short_name: Múzeum krt.
+      long_name: Múzeum körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VIII. kerület
+      long_name: VIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1088"
+      long_name: "1088"
+  international_phone_number: +36 1 338 2122
+  place_id: ChIJU67wUVvcQUcReF8LOW-Dfck
+  url: https://maps.google.com/?cid=14518905287434002296
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/DJ.Greg.HU
+  name: DJ Greg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717596049/docsaskysoerhozobaab.jpg
+  bio: ""
+  id: fNqZ0qgmjuHn4TzPEZw1
+  instagram: ""
+  username: DJ.Greg.HU
+claimed: No
+facebook: https://www.facebook.com/events/972146324414309/?event_time_id=972146341080974
+link: ""
+description: >-
+  100% mambo buli a Magyar Nemzeti Múzeum teraszán!
+
+
+  Ez egy munka utáni, korai buli, érdemes már nyitás körül érkezz!
+
+  A helyszín nem csak történelmi, hanem meglepően hangulatos, a márvány felületen pedig kiválóan lehet táncolni. Beszélgetni és ücsörögni, a város zajlását nézni pedig a múzeum lépcsőiről lehet.
+
+  Zene: 100% mambo, cross-body, vonalas salsa, DJ Greg és vendégei tolmácsolásában. 
+
+
+  Üdítő, sör, mellékhelyiség a pár lépésre található Bródy Italintézetben. A buli helyszínt 10.00-ig teljesen el kell hagyjuk, kérjük, ügyelj a hely tisztaságára!
+
+  Belépő: 3000 Ft.
+
+
+  --EN--
+
+  This is a historic building that serves as salsa dancing venue, party every second Friday through the summer months. The party starts and ends early so you should arrive at the beginning! Music is cross-body salsa. Entry fee is 3000 HUF. Facilities are at the nearby Brody beerhouse.
+
+
+  -- ES --
+
+  Este es un edificio histórico que sirve como lugar para bailar salsa y celebrar fiestas cada segundo viernes durante los meses de verano. ¡La fiesta comienza y termina temprano así que debes llegar al principio! La música es salsa cruzada. La tarifa de inscripción es de 3000 HUF. Las instalaciones se encuentran en la cercana cervecería Brody.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720533661/wpljj2xat7iiufjiwtl9.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Nemzeti Salsa Terasz: Mambo Craze - kéthetente pénteken!"
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1720801800000+ChIJU67wUVvcQUcReF8LOW-Dfck
+id: 6jUCybXdykFGmVrE54VM

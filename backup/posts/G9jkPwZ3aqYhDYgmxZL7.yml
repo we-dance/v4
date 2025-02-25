@@ -1,0 +1,179 @@
+createdAt: 1704822894223
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/172867502474955/
+source: facebook
+updatedAt: 1704822894223
+username: wedancebot
+venue:
+  formatted_address: Cozumel, Quintana Roo, Mexico
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Cozumel
+  geometry:
+    viewport:
+      southwest:
+        lng: -87.0251543493195
+        lat: 20.27208651911332
+      northeast:
+        lng: -86.72335260233983
+        lat: 20.59208061397823
+    location:
+      lng: -86.9223432
+      lat: 20.4229839
+  address_components:
+    - types:
+        - natural_feature
+        - establishment
+      short_name: Cozumel
+      long_name: Cozumel
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Q.R.
+      long_name: Quintana Roo
+    - types:
+        - country
+        - political
+      short_name: MX
+      long_name: Mexico
+  place_id: ChIJJ5PRsO_4To8R_IsBXK68LjQ
+  url: https://maps.google.com/?q=Cozumel&ftid=0x8f4ef8efb0d19327:0x342ebcae5c018bfc
+visibility: Public
+endDate: 1722186000000
+org:
+  owner: ""
+  importedAt: 1704822896213
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/cozumelcasinosalsafest
+  photo: https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/304305477_552662633325686_7065579805356220098_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=596444&_nc_ohc=f5SlyuRtPjkAX_qcHx5&_nc_ht=scontent-lga3-1.xx&oh=00_AfDlA4Sqsb6E40FBsCJYuoDt-bnAlp7Fn1NxMisxhrpT2Q&oe=65A30B7E
+  source: facebook
+  type: Organiser
+  createdAt: 1704822896213
+  owned: false
+  name: Cozumel Casino & Salsa Fest
+  updatedAt: 1704822896213
+  username: cozumelcasinosalsafest
+claimed: No
+facebookId: "172867502474955"
+link: ""
+description: >-
+  4to aniversario del #CCSF en la isla! 🌊 
+
+
+  CALENTANDO MOTORES 🔥 #EstoEsCozumel
+
+  ✅ Instructores Internacionales y Nacionales
+
+  ✅ Talleres de Casino, Timba, Salsa y Bachata
+
+  ✅ Sociales con Casino & Salsa Room
+
+  ✅ Pool Party & After Party
+
+  ✅ Shows y mucho más!
+
+
+  🏆 NUEVA COMPETENCIA DE CASINO
+
+  Reglamento y Jueces #MuyPronto
+
+  〰️ Categorías:
+
+  • Casino Pareja Alumno
+
+  • Casino Pareja Amateur
+
+  • Casino Pareja Pro-Am
+
+  • Casino Pareja Open
+
+  • Casino Equipo Amateur
+
+  • Casino Equipo Open
+
+
+  🏝 TALENTO 2024 CONFIRMADO 
+
+  🔅 #ComingSoon
+
+  🔅 #ComingSoon 
+
+  🔅 #ComingSoon
+
+  🇵🇷 Dicky Colon (Juez / Puerto Rico)
+
+  🇨🇺 Ivan Valdespino (Juez / Cuba)
+
+  🇨🇺 Yusnier Castellanos (Juez / Cuba)
+
+  🇨🇺 Omar Yirat (Juez / Cuba) 
+
+  🇺🇸 Celso & Desireé (USA)
+
+  🇲🇽 Gary Caballero (Merida)
+
+  🇲🇽 Mike Roche (Villahermosa)
+
+  🇲🇽 Christian Bernal (Campeche)
+
+
+  🎥 Video: City of Dance (Monterrey)
+
+
+  🎟️ Pases Generales: 
+
+  Adquiere tu pase para accesar al evento 
+
+  〰️ Full Pass $1,850 mxn
+
+  〰️ Dancer Pass $1,750 mxn (Para todos aquellos que presentarán su show en el evento)
+
+  〰️ Residente Pass $1,650 mxn (Para todos los residentes de Quintana Roo con INE)
+
+
+  **Recuerda que se realiza en un Hotel All inclusive, los no huéspedes deberán pagar una pasadía que incluye comidas y bebidas ilimitadas. 
+
+
+  🎉 Comprar: https://bio.site/cozumelcasinosalsafest
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Cozumel Casino Salsa Fest 2024
+online: No
+styles:
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ""
+international: No
+hash: 1722024000000+ChIJJ5PRsO_4To8R_IsBXK68LjQ
+startDate: 1722024000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FG9jkPwZ3aqYhDYgmxZL7.png?generation=1704822917042531&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851840/qr4h9pfwva4npjpi3nmq.jpg
+viewsCount: 3
+id: G9jkPwZ3aqYhDYgmxZL7

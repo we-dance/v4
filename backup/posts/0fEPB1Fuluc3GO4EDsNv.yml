@@ -1,0 +1,169 @@
+endDate: 1723154340000
+claimed: No
+description: >-
+  Kuba’s Salsa Star
+
+
+  Melodisch, druckvoll, unwiderstehlich tanzbar. HAVANA D‘PRIMERA - die Gegenwart und Zukunft der Salsa Cubana!
+
+
+  HAVANA D’PRIMERA wurde von Alexander Abreu gegründet und ist zweifellos das bedeutendste Salsa Orchester Kubas der letzten Jahre. Als Komponist und Arrangeur der Extraklasse ist Alexander Abreu für viele der Tophits der letzten Jahre auf Kuba verantwortlich. Nicht nur seine unverwechselbare Stimme prägt den Sound der Band – er ist der herausragende Trompeter seiner Generation.
+
+  Als Musiker der Formation Paulito FG y su Elite wurde er über Nacht bekannt und gilt seit Jahren als die Referenz der Studiotrompeter in Kuba und bereichert reihenweise Aufnahmen von Los Van Van bis hin zu Isaac Delgado. Bei Havana D’Primera wagte er den Schritt zur Bühnenmitte direkt ins Scheinwerferlicht. Um seine charakteristische Stimme dreht sich Groove der Band seit dem ersten Song des Debütalbums ‚Haciendo Historia‘. Die Liste der Hits ist lang: von ‚Carita de Pasaporte‘, ‚La Bailarina‘ über ‚Al final de la vida’ bis hin zur Hmyne: ‚Me dicen Cuba‘. Jeder Musiker der Besetzung von Havana D’Primera gehört zu den Besten seines Fachs auf der Zuckerrohrinsel.
+
+  Alexander Abreu ist der Top Star der kubanischen Musik und präsentiert auf der Tournee sein letztes Album: Pueblo Griffo (Abdala/Pafata).
+
+
+  <w-youtube url="https://youtu.be/jBNgDYJjZP8"></w-youtube>
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F9f9b0e47-1b04-4dae-98e8-2992e3623ce8?alt=media&token=c9faaa6d-bd81-42b9-b9e8-b9ada69abb7a
+createdAt: 1709835941393
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: endirecto.de
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa9709f96-2d11-4368-bfa1-3d31319d12b3?alt=media&token=6cc7f27d-b94d-47bc-bf33-42de5dabd799
+  bio: Boosting Cuban music and Iberoamerican culture across the world.
+  id: touSoRagAJ9IK0rzKCe5
+  instagram: ""
+  username: endirecto.de
+eventType: Concert
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+venueProfile:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: muffatwerk
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fb302e23c-6965-4dc9-a7ee-302de710b94f?alt=media&token=c3bbd558-625b-4a4e-ae54-785da836f0f7
+  bio: The venue for international art and culture in Munich. Muffathalle, Ampere,
+    Café, Biergarten
+  id: 3sqtAP0AEIqARte2iqal
+  instagram: https://instagram.com/muffatwerk
+  username: muffatwerk
+name: Alexander Abreu y Havana D’Primera
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723140000000
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0fEPB1Fuluc3GO4EDsNv.png?generation=1709835962075215&alt=media
+artists:
+  - instagram: https://instagram.com/havanadprimeraofficial
+    username: havanadprimeraofficial
+artistsList:
+  - havanadprimeraofficial
+bookmarks: 1
+duration: 239
+venue:
+  formatted_address: Zellstraße 4, 81667 München, Germany
+  website: http://www.muffatwerk.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Muffathalle
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5905053302915
+      south: 48.1314236697085
+      north: 48.1341216302915
+      west: 11.58780736970849
+    location:
+      lng: 11.5893659
+      lat: 48.1328889
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Zellstraße
+      long_name: Zellstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81667"
+      long_name: "81667"
+  place_id: ChIJGZydHH3fnUcR4OmcAeTMGVE
+  international_phone_number: +49 89 45875000
+  url: https://maps.google.com/?cid=5843927271141599712
+  username: muffatwerk
+price: €47
+id: 0fEPB1Fuluc3GO4EDsNv
+specialOffer: €43 (click attend to get discount code)
+hash: 1723140000000+ChIJGZydHH3fnUcR4OmcAeTMGVE
+confirmation: |
+  Discount code: `salser@s`
+link: https://pretix.eu/endirecto/hdp24/4101757/
+star:
+  count: 1
+  usernames:
+    - alexrazbakov
+  history:
+    - username: alexrazbakov
+      date: 1717845579850
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+    - username: alexrazbakov
+      date: 1720013483722
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Jalal
+      date: 1720100802379
+      invitedBy: ""
+      uid: kW3zqIBEZegTKiTMNoLpwnW4zWl1
+      action: joined
+    - username: Jalal
+      date: 1720100849155
+      invitedBy: ""
+      uid: kW3zqIBEZegTKiTMNoLpwnW4zWl1
+      action: left
+viewsCount: 33
+hasLottery: No
+hotDeal: No
+updatedAt: 1722953663195

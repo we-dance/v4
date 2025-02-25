@@ -1,0 +1,40 @@
+visibility: Public
+timezone: GMT+0200
+createdAt: 1625139466132
+locales:
+  de: true
+createdBy: pxgVQKGYOHdjnqAHBzGx5KGSR7z1
+name: DJLobo
+place: ~
+username: DJLobo
+gender: Male
+bio: "Ich bin Tänzer und DJ   bin und war schon in vielen Städten und Ländern
+  unterwegs. "
+styles:
+  SalsaNewYork:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  SalsaCalena:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+pwaUsed: true
+bannerNps: no
+updatedAt: 1668329200847
+partner: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FpxgVQKGYOHdjnqAHBzGx5KGSR7z1%2F4c51342c-5d03-445d-bd76-3eb22ab14aec?alt=media&token=63f2224f-7a80-45fe-87f6-805c733ce431
+permission: ""
+type: Artist
+lastLoginAt: 1678253983716
+daysUsed: 8
+viewsCount: 51
+id: pxgVQKGYOHdjnqAHBzGx5KGSR7z1

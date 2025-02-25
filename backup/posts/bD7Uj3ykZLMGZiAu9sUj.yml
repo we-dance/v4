@@ -1,0 +1,104 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Anglerstraße
+      short_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  url: https://maps.google.com/?cid=14332716633642345223
+  room: white
+  name: Studio Rebecca | Tanzstudio Rebecca
+  geometry:
+    viewport:
+      south: 48.1328691697085
+      north: 48.1355671302915
+      east: 11.5365322802915
+      west: 11.53383431970849
+    location:
+      lng: 11.5350651
+      lat: 48.1342039
+  map: ""
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  international_phone_number: +49 176 24414498
+endDate:
+  _seconds: 1649527200
+  _nanoseconds: 0
+claimed: No
+link: https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.eventbrite.com%2Forganizations%2Fmissive%2Factivity%2Fredirect%2F%3Fp%3DABIdvVsNY0APXUEdAf6MxKt42PABzwYQz7fHGC11nB1tz5s3Dy4NFs0o7a0YjdgPuJEEanT4q1O1pUojPNQWHO4HyZ8albzYoLFisE83TE5TALFVE9wbuVRHuI469hAWPNnk6vu2KUE8yv7Tzr38npHakQgq2CLBu1SZFlfv5ZacIwrNqShpWQWXDK3aYYjl2G6T-gwe4hYZ4nv7_8Z_Th4oGbClW90H2xvOdSBxZ9uQyjkIdjuLuTDLhi5pd5hkp3mMMHtLXe0awZU0CfSBf0TdHFqXZkqHoidHyvSPsJIRloaoXFRw5LmOoh5duaG1JB9zAeuirppRv5uIrdCR0tyr1a9oZWItY7xAvSAW7lDaL73FwrdCxrGXTVU2agTnA5v_SZtJrThiGcN9jx9ZEmcZLv_-Z-mtmj0P3KKCXlPvm5XeAnK9WoRWIwu5zShoQgQmP9no8orLAO4JSVdzomLhvnl8A1RacwryABB6RuWc-EOdQnRarw7OhnBKDEPd0FbnIBCBMmEGwnPMOWZhNRxK294nniDtH8CXdalwAtZdjTjn9DifUck%26eid%3D305469195587%26c%3D4787559%26co%3D559884689%26t%3De%23tickets&data=04%7C01%7C%7Cdd39bb971de346d4b23008da125e0b0d%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637842492398697779%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=zbYCMOnsdTdtGNFG9UXYAHJDJWnhKhmRck3pQ9sMwmg%3D&reserved=0
+type: event
+cover: ""
+duration: "90"
+promo: Yes
+createdAt: 1648655921366
+artists: []
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: ""
+updatedAt: 1648655921366
+updatedBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2F3b3b6c20-2d33-45fe-b70f-9a91de23f26a?alt=media&token=a00cb850-c9e8-45b9-95cf-ccd282dbc55a
+  name: Paulita
+  username: Paulita
+eventType: Workshop
+form: Yes
+watch:
+  count: 1
+  list:
+    Paulita: true
+createdBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+name: Brazilian Zouk Level 2 Workshop
+online: ""
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-04-09T18:30
+username: Paulita
+viewsCount: 10
+id: bD7Uj3ykZLMGZiAu9sUj

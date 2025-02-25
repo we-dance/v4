@@ -1,0 +1,465 @@
+endDate: 1716778800000
+sourceUrl: https://www.facebook.com/events/806284521019478/
+createdAt: 1715522446587
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1685353748000
+updatedAt: 1715522446587
+importedAt: 1715522446587
+providerUpdatedAt: 1713862499000
+facebookId: "806284521019478"
+facebook: https://www.facebook.com/events/806284521019478/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/806284521019478/
+eventType: Congress
+providerItemId: e806284521019478@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: NEVERLAND INTERNATIONAL CONGRESS
+location: THE HUB Hotel -Milano-
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716559200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Via Privata Polonia, 10, 20157 Milano MI, Italy
+  website: https://www.thehubhotel.com/?utm_source=gbp&utm_medium=organic
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: The Hub Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.117899419708499
+        lat: 45.5126208697085
+      northeast:
+        lng: 9.120597380291503
+        lat: 45.5153188302915
+    location:
+      lng: 9.1194401
+      lat: 45.5139792
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Via Privata Polonia
+      long_name: Via Privata Polonia
+    - types:
+        - locality
+        - political
+      short_name: Milano
+      long_name: Milano
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Milano
+      long_name: Milano
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: MI
+      long_name: Città metropolitana di Milano
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lombardia
+      long_name: Lombardia
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "20157"
+      long_name: "20157"
+  international_phone_number: +39 02 7862 7000
+  place_id: ChIJAW26IDvAhkcRkptCTHkdFcU
+  url: https://maps.google.com/?cid=14201289406790409106
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715522496850
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/antonioraus
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715522497/nrgxmacuppwqblhnucjr.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715522496850
+  owned: false
+  name: Antonio Rausa
+  place: ChIJV3FODqJMRIYRrFVyPPFWNJM
+  updatedAt: 1715522496850
+  username: antonioraus
+claimed: No
+link: https://www.neverlandkiz.it/tickets/
+description: >-
+  🇬🇧 Welcome to this Magical Place. 16 International DJs and 36 International
+  Taxi Dancers will take care of all your needs during this weekend. ALL IN ONE.
+
+
+  2 Rooms almost all  day long:
+
+  🔥 Urban / Tarraxo
+
+  ❤️‍🔥 Douceur / Tarraxo Softness
+
+
+  Take a long breath, relax, and enjoy these 3 days of dancing 💃🏻🕺🏻.
+
+
+  DJS:
+
+  🎧 DJ Hugo Smile 🇫🇷
+
+  🎧 DJ Willy G 🇫🇷
+
+  🎧 Blvck Skyle 🇫🇷
+
+  🎧 David Ruela 🇳🇱
+
+  🎧 DJ F.A.Z.E 🇪🇸
+
+  🎧 T'Peak 🇫🇷
+
+  🎧 DJ Jack 🇪🇸
+
+  🎧 DJ Neiken 🇵🇹
+
+  🎧 DJ Papa Luc 🇵🇱
+
+  🎧 VersuS 🇮🇹
+
+  🎧 DJ Rax 🇮🇹
+
+  🎧 DJ Barracuda 🇮🇹
+
+  🎧 DJ Kriola 🇮🇹
+
+  🎧 DJ Ely 🇮🇹
+
+  🎧 Neko DJ 🇮🇹
+
+  🎧 DJ Fabio Kiz 🇮🇹
+
+
+  Taxi Dancers:
+
+  💃🏻 TEAM KSV 🇮🇹
+
+  🕺🏻 TEAM ALPHAPACK 🇮🇹
+
+  💃🏻🕺🏻 PSBK MATRIX 🇫🇷
+
+  🕺🏻 Mayuran 🇮🇹
+
+  🕺🏻 Flavio 🇮🇹
+
+  🕺🏻 Angelo 🇮🇹
+
+  🕺🏻 Paolo Meli 🇮🇹
+
+
+  Artists:
+
+  💃🏻🕺🏻 Jack & Sara 🇪🇸
+
+  🕺🏻Mr. Caarl 🇮🇹
+
+  🕺🏻 VersuS 🇮🇹
+
+
+  Special Guests:
+
+  🕺🏻Mo Tora 🇩🇪
+
+  🕺🏻 Manu 🇫🇷
+
+  🕺🏻Crown Perk 🇩🇪
+
+  🕺🏻Felix 🇦🇹
+
+  💃🏻Undine 🇱🇻
+
+  🕺🏻💃🏻 Kalypso&Adé🇨🇭
+
+  🕺🏻💃🏻Val&Jossy 🇳🇴
+
+  🕺🏻Fabrizio Campanella 🇮🇹
+
+  🕺🏻 Manusmile 🇫🇷
+
+  🕺🏻 Étienne Dilaw 🇫🇷
+
+  🕺🏻 Karthik aka ImprovDancer 🇮🇳
+
+  🕺🏻Giuseppe Sportillo 🇮🇹
+
+  🕺🏻Hatem Thomas 🇪🇬
+
+  And More To Come…
+
+
+  Staff:
+
+  📸 Amy Foto - Photographer
+
+  📸 HaMa Emotions - Photographer
+
+  🎬 Ghost FactoryProductions - Videomaker
+
+  🎨 Corina (Kizoteca) - Social Media Manager during the event
+
+  ✏️ Ivana - Graphic Designer
+
+
+  Tickets:
+
+  🎟️ https://my.weezevent.com/neverland-kizomba-festival
+
+
+  September - November: 🎟️ Full Pass 55€
+
+  December: 🎟️ Full Pass 60€
+
+  January: 🎟️ Full Pass 65€
+
+  February: 🎟️ Full Pass 70€
+
+  March: 🎟️ Full Pass 75€
+
+  April: 🎟️ Full Pass 80€
+
+  May: 🎟️ Full Pass 85€
+
+
+  💃🏻🕺🏻🎟️ Couple pass viable.
+
+
+  At the door:
+
+  🎟️ Full Pass 100€
+
+  🎟️ Friday Day Pass 40€
+
+  🎟️ Saturday Day Pass 50€
+
+  🎟️ Sunday Day Pass 30€
+
+  🎟️ Friday Night Pass 25€
+
+  🎟️ Saturday Night Pass 30€
+
+  🎟️ Sunday Night Pass 15€
+
+
+  🚩 The Hub Hotel, Milan.
+
+  2 nights with breakfast, pool and SPA at 145€ per person in total 🔥
+
+
+  🇮🇹 Benvenuto in questo magico mondo. 16 DJ Internazionali and 36 Taxi Dancer Internazionali ti daranno tutto ciò di cui tu abbia bisogno in questo weekend. ALL IN ONE.
+
+
+  2 Piste aperte quasi tutto il giorno:
+
+  🔥 Urban / Tarraxo
+
+  ❤️‍🔥 Douceur / Tarraxo Softness
+
+
+  Fai un bel respiro, rilassati, e goditi questi 3 giorni di puro ballo e divertimento 💃🏻🕺🏻.
+
+
+  DJS:
+
+  🎧 DJ Hugo Smile 🇫🇷
+
+  🎧 DJ Willy G 🇫🇷
+
+  🎧 Blvck Skyle 🇫🇷
+
+  🎧 David Ruela 🇳🇱
+
+  🎧 DJ F.A.Z.E 🇪🇸
+
+  🎧 T'Peak 🇫🇷
+
+  🎧 DJ Jack 🇪🇸
+
+  🎧 DJ Neiken 🇵🇹
+
+  🎧 DJ Papa Luc 🇵🇱
+
+  🎧 VersuS 🇮🇹
+
+  🎧 DJ Rax 🇮🇹
+
+  🎧 DJ Barracuda 🇮🇹
+
+  🎧 DJ Kriola 🇮🇹
+
+  🎧 DJ Ely 🇮🇹
+
+  🎧 Neko DJ 🇮🇹
+
+  🎧 DJ Fabio Kiz 🇮🇹
+
+
+  Taxi Dancers:
+
+  💃🏻 TEAM KSV 🇮🇹
+
+  🕺🏻 TEAM ALPHAPACK 🇮🇹
+
+  💃🏻🕺🏻 PSBK MATRIX 🇫🇷
+
+  🕺🏻 Mayuran 🇮🇹
+
+  🕺🏻 Flavio 🇮🇹
+
+  🕺🏻 Angelo 🇮🇹
+
+  🕺🏻 Paolo Meli 🇮🇹
+
+
+  Artisti:
+
+  💃🏻🕺🏻 Jack & Sara 🇪🇸 
+
+  🕺🏻Mr. Caarl 🇮🇹
+
+  🕺🏻 VersuS 🇮🇹
+
+
+  Special Guests:
+
+
+  💃🏻🕺🏻 Jack & Sara 🇪🇸
+
+  🕺🏻Mr. Caarl 🇮🇹
+
+  🕺🏻 VersuS 🇮🇹
+
+
+  Special Guests:
+
+  🕺🏻Mo Tora 🇩🇪
+
+  🕺🏻 Manu 🇫🇷
+
+  🕺🏻Crown Perk 🇩🇪
+
+  🕺🏻Felix 🇦🇹
+
+  💃🏻Undine 🇱🇻
+
+  🕺🏻💃🏻 Kalypso&Adé🇨🇭
+
+  🕺🏻💃🏻Val&Jossy 🇳🇴
+
+  🕺🏻Fabrizio Campanella 🇮🇹
+
+  🕺🏻 Manusmile 🇫🇷
+
+  🕺🏻 Étienne Dilaw 🇫🇷
+
+  🕺🏻 Karthik aka ImprovDancer 🇮🇳
+
+  🕺🏻Giuseppe Sportillo 🇮🇹
+
+  🕺🏻Hatem Thomas 🇪🇬
+
+  E Tanti Altri…
+
+
+  Staff:
+
+  📸 Amy Foto - Photographer
+
+  📸 HaMa Emotions - Photographer
+
+  🎬 Ghost FactoryProductions - Videomaker
+
+  🎨 Corina (Kizoteca) - Social Media Manager durante l’evento
+
+  ✏️ Ivana - Graphic Designer
+
+
+  Tickets:
+
+  🎟️ https://my.weezevent.com/neverland-kizomba-festival
+
+
+  Settembre - Novembre: 🎟️ Full Pass 55€
+
+  Dicembre: 🎟️ Full Pass 60€
+
+  Gennaio: 🎟️ Full Pass 65€
+
+  Febbraio: 🎟️ Full Pass 70€
+
+  Marzo: 🎟️ Full Pass 75€
+
+  Aprile: 🎟️ Full Pass 80€
+
+  Maggio: 🎟️ Full Pass 85€
+
+
+  💃🏻🕺🏻🎟️ Pass di coppia disponibili
+
+
+  Alla Porta:
+
+  🎟️ Full Pass 100€
+
+  🎟️ Friday Day Pass 40€
+
+  🎟️ Saturday Day Pass 50€
+
+  🎟️ Sunday Day Pass 30€
+
+  🎟️ Friday Night Pass 25€
+
+  🎟️ Saturday Night Pass 30€
+
+  🎟️ Sunday Night Pass 15€
+
+
+  🚩 The Hub Hotel, Milan.
+
+  2 notti in hotel con colazione, SPA e piscina a 145€ a persona in tutto.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715522498/xmibz7fs5xkouwxlf7yp.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJV3FODqJMRIYRrFVyPPFWNJM
+international: No
+hash: 1716559200000+ChIJAW26IDvAhkcRkptCTHkdFcU
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOHHpuMcbNi1sDYhPaEOw.png?generation=1715522527501007&alt=media
+viewsCount: 2
+id: OHHpuMcbNi1sDYhPaEOw

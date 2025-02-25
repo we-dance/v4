@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  name: Am Einlaß 2A
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  url: https://maps.google.com/?q=Am+Einla%C3%9F+2A,+80469+M%C3%BCnchen,+Germany&ftid=0x479ddf601372c9db:0x6066b899456e60c3
+  place_id: ChIJ28lyE2DfnUcRw2BuRZm4ZmA
+endDate: 2023-02-09T01:00
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1675679382911
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Egon
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fcb9676f7-8f1e-476c-8651-d08d85532c15?alt=media&token=f8e82c59-67ac-49ae-a94c-064ed4d2ce47
+    bio: De Cali, Colombia 🇨🇴 en Múnich, Alemania 🇩🇪 Salsa, Cumbia, Merengue,
+      Bachata, Reggaeton.
+    id: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+    instagram: https://instagram.com/djsilber95
+    username: djsilber95
+price: 0 EUR
+artistsList:
+  - djsilber95
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1675679382911
+updatedBy: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Buena Vista Bar
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+  bio: Latino Restaurant München
+  id: JEkADfAnw9nk7VIcgE5P
+  instagram: https://www.instagram.com/buena_vista_bar_munich/
+  username: buena_vista_bar_munich
+facebook: ""
+eventType: Party
+form: No
+createdBy: tMRtqYHY3xTEXvSTZtzJL31HHAo2
+watch:
+  count: 1
+  list:
+    djsilber95: true
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-08T22:00
+username: djsilber95
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F3f351fd1-cb4f-48b8-ae97-9803ed2b41a0?alt=media&token=c3d6ad90-3da9-49db-b4a3-8198db7e93ae
+name: Columbian Night
+id: whYh2OChLf7f9fYP6Tra
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwhYh2OChLf7f9fYP6Tra.png?generation=1675847705998100&alt=media
+telegram:
+  requestedAt: 1675847709522
+  messageUrl: https://t.me/WeDanceMunich/866
+  publishedAt: 1675847711226
+  messageId: 866
+  state: published
+instagram:
+  requestedAt: 1675847712385
+  messageUrl: https://instagram.com/p/CoZWGc9OsmM
+  publishedAt: 1675847727295
+  messageId: CoZWGc9OsmM
+  state: published
+viewsCount: 78

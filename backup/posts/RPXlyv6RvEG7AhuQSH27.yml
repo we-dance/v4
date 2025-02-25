@@ -1,0 +1,134 @@
+venue:
+  website: http://www.hardys-freizeit.de/
+  formatted_address: Ludwigstraße 5, 82256 Fürstenfeldbruck, Germany
+  name: Hardy's Fürstenfeldbruck Freizeit Sport & Event GmbH
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.2531077802915
+      south: 48.1764771697085
+      north: 48.1791751302915
+      west: 11.2504098197085
+    location:
+      lng: 11.2515733
+      lat: 48.17767569999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Ludwigstraße
+      long_name: Ludwigstraße
+    - types:
+        - locality
+        - political
+      short_name: Fürstenfeldbruck
+      long_name: Fürstenfeldbruck
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: FFB
+      long_name: Fürstenfeldbruck
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82256"
+      long_name: "82256"
+  place_id: ChIJoWK-yOJ_nkcR12A9Miyx56I
+  url: https://maps.google.com/?cid=11738545757144047831
+  international_phone_number: +49 8141 227160
+endDate: 1709330400000
+claimed: No
+link: https://www.picoloco-salsa.com/picoloco-veranstaltungen
+description: |-
+  ►►♫ ♫ Tanzabend PicoLoco♫ ♫
+  PicoLoco Tanzabend in Fürstenfeldbruck bei der man nicht fehlen darf.
+  Das beste aus Salsa und Bachata.
+  ══════════════════
+  ☼ FREITAGs alle 2 Wochen ab dem 27.Oktobe.2023 ☼
+  ══════════════════
+  ♫ Freut Euch auf eine inspirierende Salsa&Bachata Party der anderen Art ♫
+  Party in einem warmen und gemütlichem Ambiente
+  ══════
+  Best of Salsa Y Bachata. ♫
+  ════════════
+  ☼ EINTRITT ☼
+  7 Euro AB 20:30UHR
+  ═══════════
+  ☼ LOCATION ☼
+  ═══════════
+  HARDY's Fitness
+  Ludwigstraße 5
+  82256 Fürstenfeldbruck
+  ═════════════
+  Wir freuen uns auf euch!
+  ═════════════
+  Mehr Infos findet ihr auf unserer Webseite und unserem Veranstaltungskalender:
+  https://www.picoloco-salsa.com/kalender
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FCn8MENFGLnb81hIMgWAMAQxoCRf2%2F8fa43a1f-9d32-4639-822c-11a2e6712425?alt=media&token=9a308ccb-b85f-40a8-8fd9-481706955b26
+createdAt: 1707040722358
+artists: []
+price: 7 EUR
+artistsList: []
+id: RPXlyv6RvEG7AhuQSH27
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://www.picoloco-salsa.com/partygalerie
+updatedAt: 1707040722358
+updatedBy: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org: {}
+facebook: https://www.facebook.com/events/340092845430925/340092862097590/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D]%2C%22ref_notif_type%22%3Anull%7D
+facebookId: "340092862097590"
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Tanzabend PicoLoco
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+hash: 1708111800000+ChIJoWK-yOJ_nkcR12A9Miyx56I
+startDate: 1709321400000
+username: PicoLoco
+promotion: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FRPXlyv6RvEG7AhuQSH27.png?generation=1707040733260975&alt=media
+viewsCount: 31

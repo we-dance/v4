@@ -1,0 +1,150 @@
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  website: http://www.birdbar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55969710
+  url: https://maps.google.com/?cid=1792963782189389845
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+endDate: 1705449600000
+claimed: No
+link: ""
+program: []
+type: event
+downVotes: 0
+duration: 60
+promo: Yes
+createdAt: 1703712296760
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: One free soft (0.25ml) with entry before 10PM
+international: No
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/djomega.christina
+  name: Dj_Omega
+  bio: Organiser - DJ - dancer
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+  instagram: https://instagram.com/djomega_official
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  username: Dj_Omega
+facebook: https://fb.me/e/2dbsc4wml
+telegram: {}
+upVotes: 0
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1705437000000
+username: TocaToca
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F3293797b-1b44-4eed-8134-5ff915ded5cb?alt=media&token=960a6708-4c1e-4a11-b3aa-e9235732522e
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/charley.ksdm
+    name: Charley Raymdtc
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FuEvhJksSlbcPdjjEYM6cgKFggy33%2F6c22d8c9-7e45-4214-bca4-7e5e3d22e80c?alt=media&token=e911757e-8d8c-4f09-be37-4e9bfcaa924a
+    bio: I've been teaching Kizomba, Urbankiz and Semba for several Years now and
+      helped building the Urbankiz Scene in Munich.
+    id: uEvhJksSlbcPdjjEYM6cgKFggy33
+    instagram: https://www.instagram.com/charley.raymdtc/
+    username: raymdtc
+name: 8times 2gether Weekly Party Munich |  with DJ Charley Raymdtc
+description: >+
+  ꧁ 𝟠𝕥𝕚𝕞𝕖𝕤 𝟚𝕘𝕖𝕥𝕙𝕖𝕣 𝕎𝕖𝕖𝕜𝕝𝕪 ℙ𝕒𝕣𝕥𝕪 𝕚𝕟 𝕄𝕦𝕟𝕚𝕔𝕙! ꧂
+
+
+  ✨ This week with the one and only DJ Charley Raymdtc!
+
+
+  📍Bird bar 🦜
+
+  ⏰ 9.30 pm - 1 am
+
+  💵 10 € - one free soft (0.25ml, coke, sprite, fanta, or water) when you enter before 10PM
+
+artistsList:
+  - raymdtc
+id: i2y3r6CE0edxJ2sfrr0h
+updatedAt: 1703712363953
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fi2y3r6CE0edxJ2sfrr0h.png?generation=1703712375608401&alt=media
+facebookId: "694971082156913"
+hash: 1705437000000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+instagram:
+  messageUrl: https://instagram.com/p/C2AWrg8LGIi
+  publishedAt: 1705073943113
+  messageId: C2AWrg8LGIi
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 46

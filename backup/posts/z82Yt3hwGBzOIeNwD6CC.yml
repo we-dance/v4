@@ -1,0 +1,142 @@
+venue:
+  website: http://www.birdbar.de/
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  name: Bird Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  international_phone_number: +49 89 55969710
+  url: https://maps.google.com/?cid=1792963782189389845
+claimed: No
+link: ""
+program: []
+instagram: {}
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1679685945419
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100089569241943
+  name: TOCA TOCA
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FmuNi4V3DD6MLPC4FKzwd9htiizW2%2Fd16202cb-a7b2-45a9-bcf0-c9e2a90aaa89?alt=media&token=7ce44b67-bf61-42d6-8cd1-5f9b31a2e08d
+  bio: "Welcome to TOCA TOCA! The only weekly Kizomba event in Munich! Every
+    Tuesday, we take you on a journey into the magic world of Kizomba 💫 "
+  instagram: ""
+  id: muNi4V3DD6MLPC4FKzwd9htiizW2
+  username: TOCATOCA
+telegram: {}
+upVotes: 0
+eventType: Party
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+username: TocaToca
+endDate: 1698796800000
+id: z82Yt3hwGBzOIeNwD6CC
+startDate: 1698784200000
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/djomega.christina
+    name: Dj_Omega
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+    bio: Organiser - DJ - dancer
+    id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+    instagram: https://instagram.com/djomega_official
+    username: Dj_Omega
+artistsList:
+  - Dj_Omega
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F3455ebe6-60ec-499b-9b72-880f029c001c?alt=media&token=162b7083-d8e6-4556-bf43-4cbadb20ecb2
+facebook: https://fb.me/e/6ERzFxRYS
+name: TOCA TOCA | Kizomba Halloween Party
+description: >-
+  TOCA TOCA | Halloween Party!
+
+
+  Lets dance into the bank holiday, bring on your best costumes and dance to the best of Kizomba, UrbanKiz, Ghetto Zouk, Douceur, Kompa and much more 🎶💃🕺
+
+  📍Bird bar 🦜
+
+  ⏰ 9.30 pm - 1 am
+
+  💵 10 € - one free soft (0.25ml, coke, sprite, fanta, or water) when you enter before 10PM 
+updatedAt: 1697642402231
+star:
+  count: 1
+  usernames:
+    - Dj_Omega
+  list:
+    Dj_Omega: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fz82Yt3hwGBzOIeNwD6CC.png?generation=1698694226793293&alt=media
+viewsCount: 78

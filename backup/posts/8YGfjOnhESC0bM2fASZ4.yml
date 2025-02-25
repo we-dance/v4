@@ -1,0 +1,290 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327149318
+updatedAt: 1732327149318
+importedAt: 1732327149318
+providerId: goandance
+providerItemId: "7522"
+name: SON NA'MÁ FESTIVAL 4TA EDICIÓN
+description: EL EVENTO DE LOS SONEROS. SON NA'MÁ FESTIVAL. UN EVENTO DEDICADO
+  100 % AL SON CUBANO. CON LA PARTICIPANTES, MAESTROS Y ARTISTAS DE TODA EUROPA.
+sourceUrl: https://www.goandance.com/es/e/7522?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7522?promoter=WEDANCE123
+type: event
+startDate: 1761256800000
+endDate: 1761429600000
+tickets:
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1732662000
+      _nanoseconds: 0
+    discount: 0
+    price: 65
+    comission: 7.87
+    originalPrice: 65
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1734649200
+      _nanoseconds: 0
+    discount: 0
+    price: 85
+    comission: 7.87
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1738360800
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 7.87
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1740780000
+      _nanoseconds: 0
+    discount: 0
+    price: 95
+    comission: 7.87
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1743454800
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1746046800
+      _nanoseconds: 0
+    discount: 0
+    price: 105
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1748725200
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 7.87
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1751317200
+      _nanoseconds: 0
+    discount: 0
+    price: 115
+    comission: 7.87
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1722459600
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 7.87
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1725138000
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1727730000
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 7.87
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: FULL PASS  / ALOJAMIENTO NO INCLUIDO
+    description: ""
+    priceValidUntil:
+      _seconds: 1729717200
+      _nanoseconds: 0
+    discount: 0
+    price: 135
+    comission: 7.87
+    originalPrice: 135
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: WORKSHOP DE PERCUSIÓN
+    description: ""
+    priceValidUntil:
+      _seconds: 1729890000
+      _nanoseconds: 0
+    discount: 0
+    price: 35
+    comission: 7.87
+    originalPrice: 35
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: HABITACIÓN INDIVIDUAL HOTEL SEDE  CON ENTRADA VIERNES 24 SALIDA DOMINGO 26
+    description: >-
+      Habitación para 1 persona en el Hotel sede, con entrada el viernes 24
+      Salida el Domingo 26. 
+
+      Incluye :  VIERNES (Cena)
+
+      SÁBADO (Desayuno, comida y cena)
+
+      DOMINGO...   ( Desayuno y comida )
+    priceValidUntil:
+      _seconds: 1729890000
+      _nanoseconds: 0
+    discount: 0
+    price: 290
+    comission: 7.87
+    originalPrice: 290
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE HOTEL SEDE  ENTRADA EL VIERNES 24 SALIDA DOMINGO 26
+    description: >-
+      Habitación para 2 personas en el Hotel sede con entrada el Viernes 24 y
+      salida Domingo 26
+
+      Incluye : 
+
+      VIERNES : CENA
+
+      SÁBADO: DESAYUNO, COMIDA Y CENA
+
+      DOMINGO:...  DESAYUNO Y COMIDA
+    priceValidUntil:
+      _seconds: 1729890000
+      _nanoseconds: 0
+    discount: 0
+    price: 460
+    comission: 7.87
+    originalPrice: 460
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+  - name: HABITACIÓN TRIPLE HOTEL SEDE ENTRADA VIERNES 24 SALIDA DOMINGO 26
+    description: >-
+      HABITACIÓN PARA 3 PERSONAS EN EL HOTEL SEDE ENTRADA VIERNES 24 SALIDA
+      DOMINGO 26.
+
+      INCLUYE: 
+
+      VIERNES: CENA
+
+      SÁBADO: DESAYUNO, COMIDA Y CENA
+
+      DOMINGO:...  DESAYUNO Y COMIDA
+    priceValidUntil:
+      _seconds: 1729890000
+      _nanoseconds: 0
+    discount: 0
+    price: 660
+    comission: 7.87
+    originalPrice: 660
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7522-son-na-ma-festival-4ta-edicion?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327150/sspn5ycjtjxv08mc5zwd.jpg
+venue:
+  address_components:
+    - long_name: Hotel Diagonal Plaza
+      short_name: Hotel Diagonal Plaza
+      types:
+        - point_of_interest
+        - establishment
+    - long_name: "30"
+      short_name: "30"
+      types:
+        - street_number
+    - long_name: Avenida de la Diagonal
+      short_name: Av. de la Diag.
+      types:
+        - route
+    - long_name: Zaragoza
+      short_name: Zaragoza
+      types:
+        - locality
+        - political
+    - long_name: Zaragoza
+      short_name: Z
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Aragón
+      short_name: AR
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "50197"
+      short_name: "50197"
+      types:
+        - postal_code
+  formatted_address: Hotel Diagonal Plaza, Av. de la Diag., 30, 50197 Zaragoza, Spain
+  geometry:
+    location:
+      lat: 41.6427707
+      lng: -0.9929925
+    viewport:
+      northeast:
+        lat: 41.6442469802915
+        lng: -0.991898969708498
+      southwest:
+        lat: 41.6415490197085
+        lng: -0.9945969302915021
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 876 11 10 00
+  name: Hotel Diagonal Plaza
+  place_id: ChIJHbkvG3FpWQ0RMd-mbNKiMi8
+  url: https://maps.google.com/?cid=3400959693267853105
+  website: https://www.hotelzaragozadiagonalplaza.com/
+place: ChIJkY5hXt0UWQ0RqImEFfET30k
+price: 65 EUR
+styles: {}
+watch:
+  usernames: []
+  count: 0
+hash: 1761256800000+ChIJHbkvG3FpWQ0RMd-mbNKiMi8
+org: ""
+viewsCount: 1
+id: 8YGfjOnhESC0bM2fASZ4

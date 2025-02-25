@@ -1,0 +1,129 @@
+endDate: 1729288500000
+sourceUrl: https://www.facebook.com/events/341581035379679/?event_time_id=461746223363159
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1705312728000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1722408966000
+facebookId: "461746223363159"
+facebook: https://www.facebook.com/events/341581035379679/?event_time_id=461746223363159
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/341581035379679/?event_time_id=461746223363159
+eventType: Party
+providerItemId: e461746223363159@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Soirée Danse w/ Onda Latina
+location: Ninkasi (Mâcon)
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729270800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 5 Rue Pierre de Coubertin, 71000 Mâcon, France
+  website: https://www.ninkasi.fr/lieux/ninkasi-macon/?utm_source=google&utm_medium=local&utm_campaign=gmb&utm_content=25
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Ninkasi Mâcon
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.838573869708497
+        lat: 46.31702221970851
+      northeast:
+        lng: 4.841271830291502
+        lat: 46.3197201802915
+    location:
+      lng: 4.8397451
+      lat: 46.31804990000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Rue Pierre de Coubertin
+      long_name: Rue Pierre de Coubertin
+    - types:
+        - locality
+        - political
+      short_name: Mâcon
+      long_name: Mâcon
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Saône-et-Loire
+      long_name: Saône-et-Loire
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Bourgogne-Franche-Comté
+      long_name: Bourgogne-Franche-Comté
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "71000"
+      long_name: "71000"
+  international_phone_number: +33 3 58 19 04 65
+  place_id: ChIJzRBKrPNv80cRG8kVwFrlavc
+  url: https://maps.google.com/?cid=17828314252832000283
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417998648
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/ninkasi.macon
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417998/xyxprp6gbzxonocwbyvd.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417998648
+  owned: false
+  name: Ninkasi (Mâcon, France)
+  place: ChIJU94_UxBu80cRkOQOszTOCQQ
+  updatedAt: 1728417998648
+  username: ninkasi.macon
+claimed: No
+link: ""
+description: >-
+  Onda Latina vient faire danser le Ninkasi Mâcon !
+
+  Au programme : salsa, bachata, kizomba et rock ‘n’ roll avec Antoine de l'école de danse Onda Latina → 100% gratuit dès 19h.
+
+
+  https://www.ondalatina.fr/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418000/j9i1ohmigygcv2hmcxm1.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJU94_UxBu80cRkOQOszTOCQQ
+international: No
+hash: 1729270800000+ChIJzRBKrPNv80cRG8kVwFrlavc
+id: L1juR224C1Fy7CVUbIJx

@@ -1,0 +1,96 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327072036
+updatedAt: 1732327072036
+importedAt: 1732327072036
+providerId: goandance
+providerItemId: "6947"
+name: Agúzate Festival 2025
+description: Un festival de Salsa y Bachata
+sourceUrl: https://www.goandance.com/es/e/6947?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6947?promoter=WEDANCE123
+type: event
+startDate: 1742565600000
+endDate: 1742756400000
+tickets:
+  - name: TALLERES Y FIESTA / WORSHOP AND PARTY
+    description: ""
+    priceValidUntil:
+      _seconds: 1742680800
+      _nanoseconds: 0
+    discount: 0
+    price: 69
+    comission: 7.87
+    originalPrice: 69
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6947-aguzate-festival-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327073/ohdre5kxowylits5xi7i.jpg
+venue:
+  address_components:
+    - long_name: "3"
+      short_name: "3"
+      types:
+        - street_number
+    - long_name: Carrer del Pla de la Torre
+      short_name: Carrer del Pla de la Torre
+      types:
+        - route
+    - long_name: Santa Susanna
+      short_name: Santa Susanna
+      types:
+        - locality
+        - political
+    - long_name: Barcelona
+      short_name: B
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Catalunya
+      short_name: CT
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "08398"
+      short_name: "08398"
+      types:
+        - postal_code
+  formatted_address: Carrer del Pla de la Torre, 3, 08398 Santa Susanna, Barcelona, Spain
+  geometry:
+    location:
+      lat: 41.6312013
+      lng: 2.7159031
+    viewport:
+      northeast:
+        lat: 41.6327177302915
+        lng: 2.717158930291502
+      southwest:
+        lat: 41.6300197697085
+        lng: 2.714460969708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Santa Susana
+  place_id: ChIJRfTwCL8-uxIRkQ0sl3qkbjw
+  url: https://maps.google.com/?cid=4354598736143060369
+place: ChIJhzBX4FU5uxIRMBKkIeD6AAQ
+price: 69 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1742565600000+ChIJRfTwCL8-uxIRkQ0sl3qkbjw
+org: ""
+id: sf9qGZO4ows3u5jrJbfU

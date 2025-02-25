@@ -1,0 +1,118 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Studio Rebecca | Tanzstudio Rebecca
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365355302915
+      south: 48.1328692697085
+      north: 48.1355672302915
+      west: 11.5338375697085
+    location:
+      lng: 11.5350716
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  url: https://maps.google.com/?cid=14332716633642345223
+  username: www.tanzstudio-rebecca.com
+endDate: 1712433600000
+claimed: No
+link: https://linktr.ee/bailadictos
+description: >-
+  ⚡Intro to Zouk Bootcamp - MUNICH ⚡
+
+
+  Dive into the vibrant rhythms of Brazilian Zouk with our "Intro to Zouk Bootcamps"! Kickstart your journey this Saturday with our first session, and mark your calendar for the next wave on April 20th.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FJSJpodNRDHakSXpOj2KkJMVDKFI2%2F7f42375b-8fc2-432d-89d3-b5d28fb65fce?alt=media&token=3d1528f4-e045-4f9b-ad76-458afe430a98
+createdAt: 1712128469903
+price: 38 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+visibility: Public
+org: {}
+eventType: Workshop
+form: No
+createdBy: JSJpodNRDHakSXpOj2KkJMVDKFI2
+watch:
+  count: 1
+  list:
+    Paulita: true
+name: Intro To Zouk Bootcamp - Munich
+online: ""
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712422800000
+hash: 1712422800000+ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+username: Paulita
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJQ6jih9PUSmhimtK4bQz.png?generation=1712128495355434&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: bailadictos
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F09029a3f-6cd2-43f2-a140-f6d7e8c0a7fe?alt=media&token=116f2239-df54-4307-9467-6c2c1f93da33
+    bio: |-
+      ⚜️ Brazilian Zouk | Bachata | Kizomba | Salsa
+      💃 @paulitavf 🇪🇸🇺🇸
+      🕺 @sebastian_birk 🇩🇪
+    id: 7pxK28kiJbcNMdckh8lu
+    instagram: https://instagram.com/bailadictos
+    username: bailadictos
+artistsList:
+  - bailadictos
+updatedAt: 1712128512955
+viewsCount: 2
+id: JQ6jih9PUSmhimtK4bQz

@@ -1,0 +1,41 @@
+owner: ""
+importedAt: 1717793586614
+import: success
+visibility: Public
+facebook: https://www.facebook.com/SplnenePrani
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1717793586/ijculagkbtqzc55cq0a8.jpg
+source: facebook
+type: Organiser
+createdAt: 1717793586614
+owned: false
+name: Splněné dětské přání
+place: ChIJO5iNIeadDUcRQIwVZg-vAAQ
+updatedAt: 1717793586614
+username: SplnenePrani
+watch:
+  count: 2
+  usernames:
+    - DjLole
+    - kristynas
+  history:
+    - username: DjLole
+      date: 1718042854470
+      invitedBy: ""
+      uid: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+      action: joined
+    - username: kristynas
+      date: 1718437228943
+      invitedBy: ""
+      uid: eYPKIZVFprUyBeupCVUf4kfemsc2
+      action: joined
+    - username: kristynas
+      date: 1718437234176
+      invitedBy: ""
+      uid: eYPKIZVFprUyBeupCVUf4kfemsc2
+      action: left
+    - username: kristynas
+      date: 1718437235271
+      invitedBy: ""
+      uid: eYPKIZVFprUyBeupCVUf4kfemsc2
+      action: joined
+id: bQKCsado726s1ooUjjI8

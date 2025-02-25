@@ -1,0 +1,159 @@
+endDate: 1712174400000
+sourceUrl: https://www.facebook.com/events/855235019704562/
+createdAt: 1710684417128
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1710245494000
+importedAt: 1710684417128
+providerUpdatedAt: 1710245866000
+facebookId: "855235019704562"
+facebook: https://www.facebook.com/events/855235019704562/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/855235019704562/
+eventType: Party
+providerItemId: e855235019704562@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: "Tanz den Gasteig: Salsa-Nacht im HP8"
+location: Gasteig HP8
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712163600000
+facebookUrlsCount: 1
+username: alexrazbakov
+visibility: Public
+claimed: No
+link: ""
+description: >-
+  Kommt zum Salsa-Schnupperkurs und der anschließenden großen Tanzparty für
+  alle!
+
+
+  Die beeindruckende Halle E im Gasteig HP8 ist als Tanz-Location bestens geeignet: Die „Tanz den Gasteig”-Salsa-Nächte im HP8 sind echte Renner. Der Eintritt ist wie immer frei.
+
+
+  19:00–20:00 Uhr: Schnupperkurs mit Profis
+
+  Die Tanzprofis von Salsa OnStage geben allen interessierten Paaren und Einzelpersonen einen ersten Einblick in die stilistisch sehr vielfältige Salsa-Welt.
+
+
+  20:00 Uhr bis Mitternacht: Große Tanzparty für alle in der Halle E
+
+  Direkt im Anschluss gibt es ab 20:00 Uhr eine Salsa-Party mit Musik von DJ David Munoz. Bis Mitternacht können dann Tanzfreudige aller Levels die besondere Atmosphäre einer der außergewöhnlichsten Tanzflächen der Stadt testen. 
+
+
+  Hier gibt's alle Infos: https://www.gasteig.de/veranstaltungen/salsa-nacht-hp8-08ff7/
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710684423/fesymihodzetsitvovgf.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1712163600000+ChIJQ1mR2dDfnUcRarfECPFtl1w
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FobDPLtB9wyZjutznPlZK.png?generation=1710684435303653&alt=media
+venue:
+  website: http://www.gasteig.de/
+  formatted_address: Hans-Preißinger-Straße 8, 81379 München, Germany
+  name: Gasteig HP8
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5524503697085
+        lat: 48.11065891970849
+      northeast:
+        lng: 11.5551483302915
+        lat: 48.11335688029149
+    location:
+      lng: 11.5538646
+      lat: 48.1117752
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Preißinger-Straße
+      long_name: Hans-Preißinger-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+      long_name: Sendling
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  international_phone_number: +49 89 480980
+  place_id: ChIJQ1mR2dDfnUcRarfECPFtl1w
+  url: https://maps.google.com/?cid=6671922254974334826
+  username: GasteigMuenchen
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Salsa OnStage
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fi2WvdhYyzcPBrSLlqDBhrdWKiBz1%2F61d75444-97f5-46c5-99bc-9da737ce1a4e?alt=media&token=e7c7b0d5-f873-4aa5-8855-e3be8f450c07
+  bio: ""
+  id: i2WvdhYyzcPBrSLlqDBhrdWKiBz1
+  instagram: https://www.instagram.com/salsaonstage/
+  username: SalsaOnStage
+id: obDPLtB9wyZjutznPlZK
+updatedAt: 1710684514490
+star:
+  count: 2
+  usernames:
+    - Viacheslav
+    - pfasips
+  history:
+    - username: Viacheslav
+      date: 1712078875592
+      invitedBy: ""
+      uid: Db9Q7mjIjYPEj9xezKKrU1K9ZL92
+      action: joined
+    - username: pfasips
+      date: 1712140739485
+      invitedBy: ""
+      uid: lnM6kOT1a7MTzZoJlRAO0nc7EnQ2
+      action: joined
+viewsCount: 18

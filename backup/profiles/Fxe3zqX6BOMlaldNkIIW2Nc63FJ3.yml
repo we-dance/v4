@@ -1,0 +1,53 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627321995210
+locales:
+  de: true
+  en: true
+createdBy: Fxe3zqX6BOMlaldNkIIW2Nc63FJ3
+pwaUsed: false
+name: Sigrid
+gender: Female
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+step: photo
+updatedAt: 1627322039036
+birthday: 1967-08-11
+meetingPlace:
+  public: true
+visibility: Members
+partner: Yes
+weight: "58"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Tuesday: true
+learning: Lady Styling
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  SalsaCalena:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: No
+height: "161"
+username: Sigrid
+permission: No
+lastLoginAt: 1710905372961
+daysUsed: 10
+id: Fxe3zqX6BOMlaldNkIIW2Nc63FJ3

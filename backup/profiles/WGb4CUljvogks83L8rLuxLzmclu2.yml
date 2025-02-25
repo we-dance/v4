@@ -1,0 +1,36 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628450814478
+locales:
+  de: true
+  en: true
+createdBy: WGb4CUljvogks83L8rLuxLzmclu2
+daysUsed: 1
+pwaUsed: false
+name: Elisabeth Steinbeißer
+username: Elli
+gender: Female
+place: ChIJzdzMDgXBl0cR1zokRADq5u8
+step: photo
+lastLoginAt: 1628450969477
+cities:
+  ChIJzdzMDgXBl0cR1zokRADq5u8: true
+  ChIJZdYLViYbkUcRsFffpbdrHwQ: true
+updatedAt: 1628451277978
+hometown: ChIJZdYLViYbkUcRsFffpbdrHwQ
+objectives:
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: ""
+id: WGb4CUljvogks83L8rLuxLzmclu2

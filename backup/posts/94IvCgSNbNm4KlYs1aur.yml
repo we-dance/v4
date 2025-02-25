@@ -1,0 +1,89 @@
+venue:
+  formatted_address: Lange Laube 23, 30159 Hannover, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "23"
+      short_name: "23"
+    - types:
+        - route
+      long_name: Lange Laube
+      short_name: Lange Laube
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mitte
+      short_name: Mitte
+    - types:
+        - locality
+        - political
+      long_name: Hannover
+      short_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Region Hannover
+      short_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Niedersachsen
+      short_name: NDS
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "30159"
+      short_name: "30159"
+  url: https://maps.google.com/?q=Lange+Laube+23,+30159+Hannover,+Germany&ftid=0x47b074bcc57e4eb3:0xeb368b277723d88b
+  name: Lange Laube 23
+  geometry:
+    viewport:
+      south: 52.3753236197085
+      north: 52.3780215802915
+      east: 9.729223180291502
+      west: 9.726525219708497
+    location:
+      lng: 9.7278051
+      lat: 52.3765479
+  place_id: ChIJs05-xbx0sEcRi9gjdyeLNus
+endDate: 2021-09-27T18:00:00.000Z
+link: https://www.facebook.com/events/284785836771774
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+createdAt: 1631881659445
+watchersCount: 0
+price: TICKETS
+commentsLast: ~
+id: 94IvCgSNbNm4KlYs1aur
+place: ""
+views: 3
+updatedAt: 1631881659445
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+viewsCount: 3
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Zouk Festival Hannover
+online: No
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-09-24T17:00:00.000Z
+username: Promoter
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true

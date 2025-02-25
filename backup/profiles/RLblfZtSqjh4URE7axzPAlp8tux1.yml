@@ -1,0 +1,30 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1635709916652
+createdBy: RLblfZtSqjh4URE7axzPAlp8tux1
+pwaUsed: false
+name: Antonella
+username: Albano
+gender: Female
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+step: photo
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+  ChIJrdbSgKZWKhMRAyrH7xd51ZM: true
+updatedAt: 1635710179532
+hometown: ChIJrdbSgKZWKhMRAyrH7xd51ZM
+locales:
+  de: true
+  en: true
+  it: true
+  es: true
+permission: No
+objectives:
+  project: true
+  outdoors: true
+  indoors: true
+contacts: ""
+lastLoginAt: 1635731993481
+daysUsed: 2
+id: RLblfZtSqjh4URE7axzPAlp8tux1

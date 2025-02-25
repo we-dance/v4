@@ -1,0 +1,133 @@
+isNew: true
+facebookId: "1087147476241886"
+facebookUrlsList:
+  - https://www.facebook.com/events/1087147476241886/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730818833500
+updatedAt: 1730818833500
+importedAt: 1730818833500
+providerId: MTOPYQBDLa1C7ZHLcBax
+providerItemId: e1087147476241886@facebook.com
+name: El Vikingo de Salsa - Donnerstag
+providerCreatedAt: 1730814521000
+providerUpdatedAt: 1730814521000
+startDate: 1731009600000
+endDate: 1731020400000
+facebook: https://www.facebook.com/events/1087147476241886/
+sourceUrl: https://www.facebook.com/events/1087147476241886/
+location: Salsa Club Munich
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: SalsaClubMunich
+createdBy: Dq3lGZSO48OOehTqoqIX3stBM292
+venue:
+  address_components:
+    - long_name: "41"
+      short_name: "41"
+      types:
+        - street_number
+    - long_name: Westenriederstraße
+      short_name: Westenriederstraße
+      types:
+        - route
+    - long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "80331"
+      short_name: "80331"
+      types:
+        - postal_code
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  geometry:
+    location:
+      lat: 48.1351625
+      lng: 11.579996
+    viewport:
+      northeast:
+        lat: 48.13644808029149
+        lng: 11.5813296302915
+      southwest:
+        lat: 48.13375011970849
+        lng: 11.5786316697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 172 8533891
+  name: Salsa Club Munich by Hakan
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+  url: https://maps.google.com/?cid=17999243784988121499
+  website: http://www.salsaclub-munich.de/
+visibility: Public
+org:
+  id: 4JsWOsc3URa8TbL9AfbC
+  username: salsa.club.munich
+  name: Salsa Club Munich
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705960718/uhi9bvtzxrt91gp3q6yc.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/salsaclubmunich
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: https://salsaclub-munich.de/events.php
+description: |
+  ‼️WOW‼️Donnerstag :
+  *SALSABEATS Party SPECIAL* 
+  👉El VIKINGO SALSA *Social  & live Percussion by
+  👉*Der Posaunist „El Vikingo“ & Singer of Ray Callao* Duo Sabor
+  🎶 Dj HAKAN
+  🔥Price: Clubmember for FREE   
+  🎟Chat-Members : 8 € ( +2€Getränkebons)
+  🎟Regulär : 10 € (+2Getränkebons)
+  🔥 Tickets: at the Door - Rabatt Tickets 
+  get here (thursday afternoon)
+  https://chat.whatsapp.com/F1fMTRdGiI7AkJFxaC8mQY
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730818850/lhtthynul97s2iecwxxl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1731009600000+ChIJU60HW-F1nkcRm9nfvdsoyvk
+viewsCount: 4
+id: McQ7V9dGFGIhLKEpMtgh

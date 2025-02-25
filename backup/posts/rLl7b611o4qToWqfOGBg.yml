@@ -1,0 +1,157 @@
+sourceUrl: https://facebook.com/events/s/cuban-salsa-with-salsa4water-l/264608476415124/
+createdAt: 1720622124761
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622124761
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: 35 Craven Terrace, London W2 3EL, UK
+  website: http://www.lancaster-hall-hotel.co.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Lancaster Hall Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.180477580291502
+        lat: 51.51182911970849
+      northeast:
+        lng: -0.177779619708498
+        lat: 51.51452708029149
+    location:
+      lng: -0.1790558
+      lat: 51.51320009999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "35"
+      long_name: "35"
+    - types:
+        - route
+      short_name: Craven Terrace
+      long_name: Craven Terrace
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: W2 3EL
+      long_name: W2 3EL
+  international_phone_number: +44 20 7723 9276
+  place_id: ChIJVTKG-lIFdkgRBvHmY7IKJ1o
+  url: https://maps.google.com/?cid=6496172748801765638
+endDate: 1721075400000
+claimed: No
+link: ""
+description: >-
+  EVERY MONDAY 🥳
+
+  JOIN OUR REGULAR SALSA CLASSES!
+
+
+  When?
+
+  - Warm up 18:30 - 18:40
+
+  - Absolute Beginners & Beginners (2 classes) - 18:40 - 19:40
+
+  - Improvers & Intermediate (2 classes) - 19:50 - 20:50
+
+
+  Where?
+
+  - Lancaster Hall Hotel https://g.page/lancaster-hall-hotel?share
+
+
+  Prices:
+
+  - One Class - £10
+
+  - Two Classes - £15
+
+  - 10 Weeks Class Pass - £80
+
+
+  How to pay:
+
+  - ELECTRONIC PAYMENT ONLY - In class :)
+
+
+  No partner required!
+
+  No dress code!
+
+  Flexible - start any week!
+
+  Make new friends!
+
+  You will definitely have fun!
+
+  You will make a difference!
+
+
+  *ALL PROFIT GOES TO @wateraid FOR CLEAN WATER AND SANITATION SERVICES FOR THOSE THAT LACK ACCESS TO THIS*
+
+
+  **Note ALL people with previously purchased Dance4Water passes will be able to use their passes in this class, and will have their remaining passes re-activated to last 1 year from their first class back with us
+
+
+  Who is joining???
+
+
+  See you there 🕺
+
+  Dance4Water team ❤️
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/264608476415124/?event_time_id=264608579748447
+facebookId: "264608579748447"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Cuban Salsa with Salsa4Water London
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1721064600000+ChIJVTKG-lIFdkgRBvHmY7IKJ1o
+startDate: 1721064600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622125/u0q1nthdpdwekfoanedk.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Dance4WaterLondon
+  name: Dance4Water London
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720622124/g2n6vrfnoxmun1ehkgf6.jpg
+  bio: ""
+  id: e3CFlB74qI0jjgvTTwJ1
+  instagram: ""
+  username: Dance4WaterLondon
+id: rLl7b611o4qToWqfOGBg

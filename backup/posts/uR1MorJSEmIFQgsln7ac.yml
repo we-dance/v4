@@ -1,0 +1,104 @@
+sourceUrl: https://www.eventbrite.com/e/bachata-fridays-zouk-kizomba-salsa-too-tickets-898665943027?aff=ebdssbdestsearch
+createdAt: 1716398267774
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1716398267774
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: 19 O'Connell Street Upper, North City, Dublin 1, D01 E796, Ireland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 19 O'Connell Street Upper
+  geometry:
+    viewport:
+      southwest:
+        lng: -6.261963730291503
+        lat: 53.35005011970851
+      northeast:
+        lng: -6.259265769708498
+        lat: 53.35274808029151
+    location:
+      lng: -6.2604011
+      lat: 53.3514401
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: O'Connell Street Upper
+      long_name: O'Connell Street Upper
+    - types:
+        - neighborhood
+        - political
+      short_name: North City
+      long_name: North City
+    - types:
+        - postal_town
+      short_name: Dublin 1
+      long_name: Dublin 1
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: D
+      long_name: County Dublin
+    - types:
+        - country
+        - political
+      short_name: IE
+      long_name: Ireland
+    - types:
+        - postal_code
+      short_name: D01 E796
+      long_name: D01 E796
+  place_id: ChIJQeQwmoYOZ0gRT2Gk8txTQAA
+  url: https://maps.google.com/?q=19+O%27Connell+Street+Upper,+North+City,+Dublin+1,+D01+E796,+Ireland&ftid=0x48670e869a30e441:0x4053dcf2a4614f
+endDate: 1716591540000
+claimed: No
+link: https://www.eventbrite.com/e/bachata-fridays-zouk-kizomba-salsa-too-tickets-898665943027
+description: "Bachata, Zouk & Kizomba classes and party. Location: Madigans (
+  O’Connel street)"
+program: []
+source: schema
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJV2Qt618I3IARWK1eydyVgrU
+international: No
+visibility: Public
+org: ""
+facebook: ""
+eventType: Party
+facebookUrlsList: []
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Bachata Fridays (Zouk Kizomba Salsa too!)
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+schemaEventsCount: 1
+hash: 1716571800000+ChIJQeQwmoYOZ0gRT2Gk8txTQAA
+startDate: 1716571800000
+facebookUrlsCount: 0
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1716398271/trqedhcrieejyfnuabhn.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuR1MorJSEmIFQgsln7ac.png?generation=1716398297926395&alt=media
+id: uR1MorJSEmIFQgsln7ac

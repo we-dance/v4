@@ -1,0 +1,123 @@
+sourceUrl: https://www.facebook.com/share/DaEqV7djGsKvk3Ju/
+createdAt: 1727993634468
+updatedBy: 2SiXeZreWTU11yK7B35E2ZL4c1v1
+createdBy: 2SiXeZreWTU11yK7B35E2ZL4c1v1
+username: marta
+viewsCount: 1
+endDate: 1729940400000
+claimed: No
+link: ""
+description: >-
+  Nimm an unserem 3-tägigen Vitalitäts- und Transformations-Retreat teil, bei
+  dem du dich wieder mit der Natur verbinden und deinen Geist verjüngen kannst.
+  Tauche ein in Kreativität, Meditation und Yoga, die dir helfen, zur Ruhe zu
+  kommen und dein Gleichgewicht wiederherzustellen. Erlebe die heilende Kraft
+  der Natur und schöpfe neue Energie und Inspiration aus der heiteren Umgebung.
+  Dieses Retreat bietet eine perfekte Mischung aus Entspannung und
+  Revitalisierung, so dass du dich erholt und transformiert fühlst.
+
+
+  Anmeldung: https://form.jotform.com/242032786489062
+
+  Programm: https://www.my-mia.de/i/vitality-und-transformation-retreat
+program: []
+source: facebook
+type: event
+artists: []
+place: ChIJZSigyLZmdkcRqj8ZCx5_SmM
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0qRisyRJBFHTth1oUGnsu7XKoNxXvFuiB8NiyT8UpataaDDpog71XGe7jz7PKV67xl
+  name: Marta Pih
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719992887/utsj3lnzswu0dqjj4xc3.jpg
+  bio: ""
+  id: 7ovJuRa4o71xR4hLWY4J
+  instagram: ""
+  username: marta.pih
+facebook: https://www.facebook.com/events/385399964397201/
+facebookId: "385399964397201"
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Vitality & Transformation Retreat
+online: No
+styles: {}
+hash: 1729778400000+ChIJL2rO9BJhdkcRD7wk4KfL0Lw
+startDate: 1729778400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727993639/jiv2yv1xeu4fgswidlp9.jpg
+duration: 2700
+venue:
+  website: http://www.labenbachhof.de/
+  formatted_address: Froschsee 7, 83324 Ruhpolding, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Labenbachhof gGmbH Freizeit-, Schulungs- und Tagungszentrum
+  geometry:
+    viewport:
+      southwest:
+        lng: 12.6898859697085
+        lat: 47.75058961970849
+      northeast:
+        lng: 12.6925839302915
+        lat: 47.75328758029149
+    location:
+      lng: 12.6913408
+      lat: 47.7517763
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Froschsee
+      long_name: Froschsee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Froschsee
+      long_name: Froschsee
+    - types:
+        - locality
+        - political
+      short_name: Ruhpolding
+      long_name: Ruhpolding
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: TS
+      long_name: Traunstein
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "83324"
+      long_name: "83324"
+  place_id: ChIJL2rO9BJhdkcRD7wk4KfL0Lw
+  url: https://maps.google.com/?cid=13605598396166749199
+  international_phone_number: +49 8663 1667
+  username: www.labenbachhof.de
+price: 369 €
+limit: "15"
+artistsList: []
+id: P2rZAGASkURr91cUZGN5
+specialOffer: "- 40€"
+eventType: Other
+updatedAt: 1727993703708

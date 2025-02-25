@@ -1,0 +1,137 @@
+endDate: 1724457599000
+sourceUrl: https://www.facebook.com/events/445296158508527
+createdAt: 1723730422833
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1723568034000
+updatedAt: 1723730422833
+importedAt: 1723730422833
+providerUpdatedAt: 1723568034000
+facebookId: "445296158508527"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/445296158508527
+eventType: Party
+providerItemId: 47798-1724371200-1724457599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Városliget, Városliget, Budapest, 1146, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724371200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Zichy Géza u., 1146 Hungary
+  website: http://piknikkert.eu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  name: Piknik kert
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0882105197085
+        lat: 47.5097061197085
+      northeast:
+        lng: 19.0909084802915
+        lat: 47.5124040802915
+    location:
+      lng: 19.0895595
+      lat: 47.5110551
+  address_components:
+    - types:
+        - route
+      short_name: Zichy Géza u.
+      long_name: Zichy Géza utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 30 231 8166
+  place_id: ChIJH1bLSUvdQUcRYfERO2TqGyI
+  url: https://maps.google.com/?cid=2457815737869398369
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1723730428787
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachatafactorybudapest
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1723730429/a1dchjgdftavh3opkxll.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1723730428787
+  owned: false
+  name: Bachata Factory - Budapest
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1723730428787
+  username: bachata.factory.-.bu
+claimed: No
+facebook: https://www.facebook.com/events/445296158508527/
+link: ""
+description: >-
+  Na kinek van kedve egy közös táncos programhoz a szabadban?
+   
+  Csomagold össze a bachatás batyud, és a Városligetig meg se állj! A Factory ott lesz az idei nyár zenéivel, kedvenc BachatAmigos-aiddal és váratlan meglepetésekkel várunk!
+
+
+  👫Kinek szól a buli? MINDENKINEK!👫
+
+
+  📆Most írd be a naptárba: 2024. 08.23. (péntek) 18:00-22:00
+
+
+  📍Hogy mindenképp megtalálj minket: Városliget, Piknik-kert
+
+  https://maps.app.goo.gl/jtgUFeJCyK2e147C9
+
+
+  👛Pénztárcák otthon maradnak, mert a buli INGYENES
+
+
+  🎒Bachata batyu tartalma: szögletes vagy kerek, édes vagy sós, folyékony vagy szilárd, a lényeg az, hogy finom legyen 
+
+  Pokróc, ülőke, sámli a kényelmedért
+
+
+  🌧Eső esetén, ha a „Süss fel Nap” éneklése sem válna be, az esemény új időpontjáról időben szólunk.
+
+
+  Táncra fel!
+
+  Bálint&Sofie
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723730430/jiphfkecluzttwnv5ggb.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Évindító bachata piknik a Factoryban
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1724428800000+ChIJH1bLSUvdQUcRYfERO2TqGyI
+id: Cd6g14GQ1KP6R3oHO33H

@@ -1,0 +1,201 @@
+endDate: 1725753599000
+sourceUrl: https://www.facebook.com/events/3798358430412192/
+createdAt: 1725544833235
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1725479106000
+updatedAt: 1725544833235
+importedAt: 1725544833235
+providerUpdatedAt: 1725479106000
+facebookId: "3798358430412192"
+facebook: https://www.facebook.com/events/3798358430412192/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3798358430412192/
+eventType: Party
+providerItemId: 48019-1725667200-1725753599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Off Kultúrszövőgyár, Berni utca 1., Budapest, 1045, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725667200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Régi Gyapjúszövőgyár, Berni u. 1, 1045 Hungary
+  website: http://www.offkultur.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: OFF Kultur
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0930941697085
+        lat: 47.5491535197085
+      northeast:
+        lng: 19.0957921302915
+        lat: 47.5518514802915
+    location:
+      lng: 19.0945396
+      lat: 47.55030439999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Berni u.
+      long_name: Berni utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: IV. kerület
+      long_name: IV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1045"
+      long_name: "1045"
+  international_phone_number: +36 20 922 9056
+  place_id: ChIJd8uEgbTbQUcRep_yEtLQ3RA
+  url: https://maps.google.com/?cid=1215357075139501946
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsamojitotanciskola
+  name: Salsa Mojito Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044598/gqq7ryxwwn8sznrxhpth.jpg
+  bio: ""
+  id: 14X8OHeVKxIe52ExV2Ia
+  instagram: ""
+  username: salsa.mojito.tancisk
+claimed: No
+link: ""
+description: >-
+  🔥 Indul a táncos tanév, mi pedig visszatérünk az imádott Offba, hogy egy
+  csodás estét töltsünk együtt! 🏖️🥳🏝️
+
+
+  💥 350 m2 tánctér!
+
+  💥 Bárpult és hangulatos terasz!
+
+  💥 DJ Adalberto legjobb slágerei!
+
+  💥 Könnyű megközelíthetőség, menő loft helyszín!
+
+  💥 Őrzött ruhatár, mint mindig!
+
+  ___________________________________
+
+
+  ⭐️ PROGRAM
+
+
+  💃🕺 20.00-21.00 // Ingyenes Kezdő Cha-cha-cha Workshop
+
+  🔥 Heloszia Gáborral
+
+
+  💃🕺 21.00-02.00 // Salsa Party
+
+  🔥 salsa, bachata, ruedák, animációk, hölgyválaszok
+
+  🔥 21-22 óráig lassabb zenékkel
+
+  ___________________________________
+
+
+  ⭐️ IDŐPONT
+
+
+  szeptember 7. szombat
+
+  20.00-02.00
+
+
+  ⭐️ HELYSZÍN
+
+
+  OffKultur
+
+  1045 Bp, Berni u. 1.
+
+  Google Maps: OFF Kultur
+
+
+  Off Hall 1 rendezvényterem
+
+  🎥 Videó a megközelítésről:
+
+  https://www.facebook.com/salsamojitotanciskola/videos/332066946186000
+
+
+  ⭐️ A LEMEZJÁTSZÓKNÁL
+
+
+  DJ Adalberto
+
+  salsa, bachata, cha-cha-cha, merengue
+
+
+  ⭐️ RÉSZVÉTELI DÍJ
+
+
+  3000 HUF
+
+
+  Belépő a helyszínen, csak készpénzben váltható!
+
+  ___________________________________
+
+
+  ⭐️ TOVÁBBI INFORMÁCIÓK
+
+
+  www.salsamojito.hu
+
+  info@salsamojito.hu
+
+  www.facebook.com/salsamojitotanciskola
+
+  +3620 418 1091
+
+
+  Várunk szeretettel!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725544854/ghtvyv6gtnoj7ryugyjx.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Mojito Salsa Party // szeptember
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1725732000000+ChIJd8uEgbTbQUcRep_yEtLQ3RA
+id: tuoUipbasWhQqT5Bw44O

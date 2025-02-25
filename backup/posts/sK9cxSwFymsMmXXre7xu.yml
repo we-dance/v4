@@ -1,0 +1,246 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bucharest-kizomba-week-end/
+sourceUrl: https://www.facebook.com/events/1078601513334378
+venue:
+  address_components:
+    - long_name: "61"
+      short_name: "61"
+      types:
+        - street_number
+    - long_name: Calea Plevnei
+      short_name: Calea Plevnei
+      types:
+        - route
+    - long_name: Bucureşti Sectorul 1
+      short_name: Bucureşti Sectorul 1
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: București
+      short_name: București
+      types:
+        - locality
+        - political
+    - long_name: Municipiul București
+      short_name: Municipiul București
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: București
+      short_name: București
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Romania
+      short_name: RO
+      types:
+        - country
+        - political
+    - long_name: "010223"
+      short_name: "010223"
+      types:
+        - postal_code
+  formatted_address: Calea Plevnei 61, București 010223, Romania
+  geometry:
+    location:
+      lat: 44.4369603
+      lng: 26.0790371
+    viewport:
+      northeast:
+        lat: 44.4383146802915
+        lng: 26.0806372302915
+      southwest:
+        lat: 44.43561671970851
+        lng: 26.0779392697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  international_phone_number: +40 728 828 520
+  name: Old School Club
+  place_id: ChIJvRH8_l7_sUAR8qVKLIEVDCs
+  url: https://maps.google.com/?cid=3101877887889483250
+  website: https://oldschool.ro/
+endDate: 1740366000000
+claimed: No
+link: https://www.goandance.com/en/events/6926-bucharest-kizomba-weekend
+description: >
+  Dear Kizomba lovers,
+
+
+  We welcome you to Bucharest for a Kizomba week-end with Romanian people from all over the country & friends from all over the world !
+
+
+  The event will be hosted by Old School events center, where we’ll have 2 rooms – 400+ square meters each, one for Kizomba & Semba, the other for Ghetto-zouk, Tarraxinha and all other fusions 😊
+
+
+  24 workshops, 2 socials by day, 3 parties by night all for you to enjoy !
+
+
+  We’re in the middle of the process of building the line-up, and until now we have confirmed :
+
+
+  📌TEACHERS
+
+  Mario Jordao & Carla (Angola)
+
+  Adilson Maiza & Telma Andre (Angola)
+
+  Carlos Camba & Anna Maria (Angola/Finalnd)
+
+  Ana & Stephane (Bruxelles/Romania)
+
+  ---------------------------------
+
+  Andrei & Corina (Salsa Factory – Romania)
+
+  Marius & Florina (Good Mood – Romania)
+
+  Marian (Imperius D.A. – Romania)
+
+  Armand & Lavinia (Dansatorii Anonimi – Romania)
+
+  Stefan & Adelina (Magnitude Dance – Romania)
+
+  Marius & Diana (Ginga - Romania)
+
+  Hisham & Parmy & Erika (Latino4You – Romania)
+
+  Alexandru & Melania - (Wavehub - Romania)
+
+  Maria & Mircea (Dance Play - Romania)
+
+
+  📌DJ's
+
+  DJ Frank (Germany)
+
+  DJ Russelius Ernestius (Angola)
+
+  Dj Neiken (Italy)
+
+  ------------------------------------
+
+  DJ ReD (Romania)
+
+  DJ Mag (Romania)
+
+
+  📌FOTO
+
+  Ovi Mag 
+
+
+  📌Hotel
+
+  Our hotel - for the dancers coming to Bucharest from other cities/countries will be Ibis Styles Bucharest City Center (https://ibisstylesbucharestcenter.com/) .
+      We have discounted prices for rooms and food - in order to book your place please send your requests directly to the hotel - amalia.stanciu@accor.com with our event code - KIZOMBAWEEKEND .
+
+  📌PRICES
+
+  Full Pass :
+
+  Until 1st of October 2024 – 95 Eur
+
+  Until 1st of January 2025 – 110 Eur
+
+  Until 20th of February 2025 – 120 Eur
+
+  At the door – 130 Eur
+
+
+  Couple Pass :
+
+  Until 1st of October 2024 – 180 Eur
+
+  Until 1st of January 2025 – 200 Eur
+
+  Until 20th of February 2025 – 220 Eur
+
+  At the door – 250 Eur
+
+
+  Party Pass (includes 2 socials by day (Saturday/Sunday), 3 parties (Friday/Saturday/Sunday)  ):
+
+  Until 1st of October 2024 – 80 Eur
+
+  Until 1st of January 2025 – 95 Eur
+
+  Until 20th of February 2025 – 105 Eur
+
+  At the door – 115 Eur
+
+
+  For groups and dance schools, please contact us for special offers.
+
+
+  📌PAYMENTS
+
+  Tickets available at : 
+
+  https://www.goandance.com/en/events/6926-bucharest-kizomba-weekend-2025
+
+
+  Bank account:
+
+  Horeca SAAS Solutions SRL
+
+  IBAN: RO26OTPV110001502524RO01
+
+  OTP Bank 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293944/d2rgs8i6ordlhcdlasgq.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJT608vzr5sUARKKacfOMyBqw
+international: No
+visibility: Public
+org:
+  createdAt: 1732293942255
+  importedAt: 1732293942255
+  updatedAt: 1732293942255
+  source: facebook
+  name: "ReD - Ritmo e Dança "
+  facebook: https://www.facebook.com/redritmo
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/pw7nmejrzdmyb62rq1ui.jpg
+  username: redritmo
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJT608vzr5sUARKKacfOMyBqw
+facebook: https://www.facebook.com/events/1078601513334378/
+facebookId: "1078601513334378"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Bucharest Kizomba Weekend
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740160800000+ChIJvRH8_l7_sUAR8qVKLIEVDCs
+startDate: 1740160800000
+id: sK9cxSwFymsMmXXre7xu

@@ -1,0 +1,143 @@
+venue:
+  formatted_address: Iglinger Str. 1, 86916 Kaufering, Germany
+  website: http://www.cantina-charlotta.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Cantina Charlotta
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.8602879302915
+      south: 48.0827628197085
+      north: 48.0854607802915
+      west: 10.8575899697085
+    location:
+      lng: 10.858871
+      lat: 48.0840453
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Iglinger Str.
+      long_name: Iglinger Straße
+    - types:
+        - locality
+        - political
+      short_name: Kaufering
+      long_name: Kaufering
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Landsberg am Lech
+      long_name: Landsberg am Lech
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86916"
+      long_name: "86916"
+  international_phone_number: +49 8191 66200
+  place_id: ChIJZ6T47AcjnEcRCLqxBLprtQk
+  url: https://maps.google.com/?cid=699583763812825608
+endDate: 2023-05-07T01:00
+claimed: No
+description: "Bachata Touch / Salsa Cubana Footwork/ Salsa Figuren Block / Rueda
+  de Casino / Food / Drinks "
+type: event
+duration: 60
+createdAt: 1682802597942
+artists:
+  - instagram: https://instagram.com/djvladimirtoledosánchez
+    username: djvladimirtoledosánchez
+price: 05,00  EUR
+artistsList:
+  - djvladimirtoledosánchez
+international: No
+updatedAt: 1682802597942
+updatedBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+visibility: Public
+eventType: Party
+confirmation: Bailabavaria@gmail.com
+form: No
+createdBy: 7qUJCtqpJsdrcyxUJuKX7Vxev453
+watch:
+  count: 1
+  list:
+    Franciscomsrinotoledodelrey2021: true
+name: "Salsa Night in Der Cantina Charlotta in kaufering "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsaton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-06T19:00
+username: Franciscomsrinotoledodelrey2021
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7qUJCtqpJsdrcyxUJuKX7Vxev453%2F6291c74e-d9e5-4dce-b0e6-235405967a21?alt=media&token=21c79ecd-fd17-4176-9869-de0d504c743a
+org:
+  instagram: https://instagram.com/cantinacharlotta
+  username: cantinacharlotta
+id: CdEU8jPLCZrwWHK7CRNF
+place: ChIJEQJu3agjnEcR1jHxN7LNIac
+program:
+  - artists:
+      - instagram: https://instagram.com/djvladimirtoledosánchez
+        username: djvladimirtoledosánchez
+    endDate: 2023-05-06T23:55
+    name: "Salsa Tanz in den Mai mit DJ Vladi "
+    description: >-
+      "Lass uns gemeinsam das Tanzbein schwingen! Ich lade dich herzlich ein,
+      mit mir am Samstag den 06.05.23 in der Cantina Charlotta Lokalität in
+      Kaufering“  Countdown läuft ab Jetzt 
+
+
+      ★ 17:00 Uhr: Einlass und Beginn, Genießen Sie ein köstliches Abendessen mit Cocktails Drinks im Mexikanischen Ambiente.
+
+
+      ★ 19:00 Uhr - Latino Footwork alles Level mit Vladimir  Toledo Sánchez, Rueda de Casino Fortgeschrittene Kurse mit Vladi 20-21 Uhr 
+
+
+      ★ 21:00-01:00 Uhr - Party mit DJ Vladi und den besten Salsa, Bachata, Merengue und Kizomba-Songs
+
+
+      ★ Ort: Cantina Charlotta, Iglingerstr. 1, 86916 Kaufering. Wir freuen uns auf ein gemeinsames Tanzerlebnis mit euch am Samstag, den 01.04.23 in der Cantina Charlotta in Kaufering!
+
+
+      ★ Workshop 10€ pro Person, Party 5€ Anmeldung erforderlich: 0049 17376 28001 - Vladi! Bitte Partnerin / Partner suchen  für die Workshop 
+    eventType: Party
+    startDate: 2023-05-06T19:00
+star:
+  count: 0
+  list: {}
+viewsCount: 33

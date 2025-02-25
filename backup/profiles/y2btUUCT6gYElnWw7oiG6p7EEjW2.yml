@@ -1,0 +1,66 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1625829759223
+createdBy: y2btUUCT6gYElnWw7oiG6p7EEjW2
+daysUsed: 1
+pwaUsed: false
+gender: Female
+username: daniela
+cities:
+  ChIJt9Y6hM31qEcRm-yqC5j4ZcU: true
+updatedAt: 1625830250727
+styles:
+  Kuduru:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Discofox:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Zumba:
+    level: Advanced
+    highlighted: false
+    selected: true
+lastLoginAt: 1625831380257
+locales:
+  de: true
+name: daniela
+permission: No
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+place: ChIJt9Y6hM31qEcRm-yqC5j4ZcU
+contacts: Yes
+viewsCount: 4
+id: y2btUUCT6gYElnWw7oiG6p7EEjW2

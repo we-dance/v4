@@ -1,0 +1,109 @@
+venue:
+  formatted_address: Wilhelmstraße 115, 10963 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Wilhelmstraße 115
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3868453802915
+      south: 52.5029021197085
+      north: 52.50560008029149
+      west: 13.3841474197085
+    location:
+      lng: 13.3853254
+      lat: 52.5042197
+  address_components:
+    - types:
+        - street_number
+      short_name: "115"
+      long_name: "115"
+    - types:
+        - route
+      short_name: Wilhelmstraße
+      long_name: Wilhelmstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10963"
+      long_name: "10963"
+  place_id: ChIJDwZ689JRqEcR4CXDjDgMZEw
+  url: https://maps.google.com/?q=Wilhelmstra%C3%9Fe+115,+10963+Berlin,+Germany&ftid=0x47a851d2f37a060f:0x4c640c388cc325e0
+endDate: 2023-04-22T02:00
+claimed: No
+description: |-
+  Anima Ladies Show Premiere
+  DJ Hach
+  Feel free to bring your own drinks!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F1Iav9KbODwPrvCH78HNF8IkhsFP2%2Fadcc5d29-37ed-4228-bbe1-cf9ccf8836bc?alt=media&token=49c9af31-bd3b-4bd3-9f7c-e1c27a7f0594
+createdAt: 1681825660781
+price: 5 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1681825660781
+updatedBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+visibility: Public
+org:
+  instagram: https://instagram.com/animaladies
+  username: animaladies
+eventType: Party
+form: No
+createdBy: 1Iav9KbODwPrvCH78HNF8IkhsFP2
+watch:
+  count: 1
+  list:
+    aslihan: true
+name: Bachata Blue Party
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-21T20:00
+username: aslihan
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FEjmRhnLxnHP0cqQarTr1.png?generation=1681825686165185&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: animaladies
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/animaladies
+    id: nU5ej8VfQ4NOV9TrWNNw
+    username: animaladies
+  - instagram: https://instagram.com/ddjhach
+    username: ddjhach
+artistsList:
+  - animaladies
+  - ddjhach
+id: EjmRhnLxnHP0cqQarTr1
+viewsCount: 56

@@ -1,0 +1,131 @@
+venue:
+  formatted_address: Gablonzer Str. 9, 76185 Karlsruhe, Germany
+  website: http://www.sonlatino.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "9"
+      short_name: "9"
+    - types:
+        - route
+      long_name: Gablonzer Straße
+      short_name: Gablonzer Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Mühlburg
+      short_name: Mühlburg
+    - types:
+        - locality
+        - political
+      long_name: Karlsruhe
+      short_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Karlsruhe
+      short_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Karlsruhe
+      short_name: KA
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Baden-Württemberg
+      short_name: BW
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "76185"
+      short_name: "76185"
+  url: https://maps.google.com/?cid=8926798613940117231
+  name: Son Latino Dance Studio
+  geometry:
+    viewport:
+      south: 49.02229426970851
+      north: 49.02499223029151
+      east: 8.354233980291502
+      west: 8.351536019708497
+    location:
+      lng: 8.352825700000002
+      lat: 49.0236634
+  place_id: ChIJ12tDlScHl0cR755ZDQtc4ns
+  international_phone_number: +49 721 6638886
+endDate: 2021-10-24T01:00:00.000Z
+organisedBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+link: https://forms.gle/FiBp7jKreuahupaEA
+description: >-
+  Dominicana-Lovers (und die, die es werden wollen) aufgepasst - wir haben etwas
+  für euch:
+
+
+  Eine Party - 100 % Bachata Dominican all night long! 
+
+
+  Wann? Samstag, 23.10.2021
+
+
+  Wo? Son Latino, Karlsruhe
+
+
+  Lerne in 4h Bootcamp vom einzigartigen SAMY EL MAGICO - er wird dich in die Geheimnisse der Musicality einweihen und dir ein paar Moves zeigen. Los geht es um 17:00 Uhr - Open Level, d.h. für jeden ist was dabei, egal ob Anfänger oder Profi.
+
+
+  Ab 21:00 Uhr wird dann DJ YAS den Dancefloor mit 100% Dominicana zum glühen bringen. 
+
+
+  Wir bieten dir das gesamte Paket (4h Bootcamp und Party) für unglaubliche 35 Euro - so etwas wirst du nirgendwo finden. Die Party alleine kostet 15 Euro.
+
+
+  Klingt mega, aber was muss ich tun? 
+
+
+  Klicke auf die Schaltfläche „Register“ und melde dich über das Googleformular an.  
+
+
+  Lass dir diese Chance nicht entgehen und sei dabei!
+type: event
+duration: custom
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTv49tJF9gQbN5et4IAsF4Hlg8V63%2F300f0a0c-6727-4c89-b70d-6875321ac733?alt=media&token=b8001e07-801a-43a7-bd9b-e11f22488ed4
+createdAt: 1633358732633
+watchersCount: 0
+price: 15 - 35 EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXcbC0j7iH4MUhm7Uu25i.png?generation=1634995558798860&alt=media
+commentsLast: ~
+promotedBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+id: XcbC0j7iH4MUhm7Uu25i
+views: 76
+updatedAt: 1633358732633
+updatedBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+visibility: Public
+eventType: Party
+organiser: Flo.Oteca
+form: Yes
+createdBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+commentsCount: 0
+name: DANSECRECY BACHATA - DOMINICAN EDITION w/ SAMY EL MAGICO
+online: No
+styles: {}
+region:
+  name: Karlsruhe
+  location:
+    country: Germany
+    latitude: 49.0068901
+    locality: Karlsruhe
+    usedGps: false
+    place_id: ChIJCXjgokgGl0cRf-63THNV_LY
+    longitude: 8.4036527
+startDate: 2021-10-23T15:00:00.000Z
+username: Flo.Oteca
+viewsCount: 88

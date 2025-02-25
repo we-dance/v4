@@ -1,0 +1,118 @@
+claimed: No
+type: event
+duration: "300"
+promo: No
+createdAt: 1646595401984
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1646595401984
+updatedBy: dRipXa4eZJVowvrrUWYYeyZvGnI3
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdRipXa4eZJVowvrrUWYYeyZvGnI3%2Fc1b2fc28-8a3d-42c7-a2d1-d843e7cf81a6?alt=media&token=01aef1f1-36ab-43f1-bd13-2b19eed2a372
+  name: Bachata_Hari
+  username: Bachata_Hari
+facebook: https://facebook.com/events/s/berlin-bachata-sensual-weekend/1156915318446603/
+form: Yes
+createdBy: dRipXa4eZJVowvrrUWYYeyZvGnI3
+name: Berlin Bachata sensual weekend
+online: No
+username: Bachata_Hari
+watch:
+  count: 1
+  list:
+    Bachata_Hari: true
+venue:
+  formatted_address: Kolonnenstraße 29, 10829 Berlin, Germany
+  website: http://www.zapatissimo.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "29"
+      short_name: "29"
+    - types:
+        - route
+      long_name: Kolonnenstraße
+      short_name: Kolonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Tempelhof-Schöneberg
+      short_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10829"
+      short_name: "10829"
+  url: https://maps.google.com/?cid=9790870095956310328
+  name: Zapatissimo Danceschool
+  geometry:
+    viewport:
+      south: 52.4834834197085
+      north: 52.4861813802915
+      east: 13.3682545802915
+      west: 13.3655566197085
+    location:
+      lng: 13.3668409
+      lat: 52.484587
+  place_id: ChIJfZ8fNDxQqEcROHl4X3oo4Ic
+  international_phone_number: +49 1578 7117166
+endDate:
+  _seconds: 1649545200
+  _nanoseconds: 0
+artists: []
+price: 10 euro
+description: |
+  Pre-party class with Hari & Lilien 
+  Party with DJ Dennis, Elena, Issam and charlott from Hamburg
+
+  Join us now 
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: nFurHvi30rEa4EwaMEAH
+eventType: Party
+startDate: 2022-04-09T20:00
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FdRipXa4eZJVowvrrUWYYeyZvGnI3%2F326a8f3a-c6eb-44f6-822a-f652d92317dd?alt=media&token=522bbb14-e731-4c84-94e6-0e9412b17f85
+link: https://buytickets.at/bachata/663199
+confirmation: |-
+  Dear Guest, 
+
+  You are confirmed for the event after buying the ticket from the link
+
+  Regards,
+  Organizers 
+viewsCount: 76

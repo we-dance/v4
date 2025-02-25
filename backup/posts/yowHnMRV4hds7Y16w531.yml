@@ -1,0 +1,234 @@
+createdAt: 1704822892118
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1351391739134279/
+source: facebook
+updatedAt: 1704822892118
+username: wedancebot
+venue:
+  formatted_address: Dodekanisou 106, Peristeri 121 34, Greece
+  website: http://www.peristeri.gr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Εκθεσιακό Κέντρο Περιστερίου
+  geometry:
+    viewport:
+      southwest:
+        lng: 23.6877136197085
+        lat: 38.01639676970849
+      northeast:
+        lng: 23.6904115802915
+        lat: 38.01909473029149
+    location:
+      lng: 23.6890761
+      lat: 38.0177796
+  address_components:
+    - types:
+        - street_number
+      short_name: "106"
+      long_name: "106"
+    - types:
+        - route
+      short_name: Dodekanisou
+      long_name: Dodekanisou
+    - types:
+        - locality
+        - political
+      short_name: Peristeri
+      long_name: Peristeri
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Ditikos Tomeas Athinon
+      long_name: Ditikos Tomeas Athinon
+    - types:
+        - country
+        - political
+      short_name: GR
+      long_name: Greece
+    - types:
+        - postal_code
+      short_name: 121 34
+      long_name: 121 34
+  place_id: ChIJkSkHAgWjoRQR9Jck63fragc
+  url: https://maps.google.com/?cid=534498406075504628
+visibility: Public
+endDate: 1721008800000
+org:
+  owner: ""
+  importedAt: 1704822898863
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SabrosoLatinRadioEvents
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/367389226_673660991450993_6279184710630549794_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=596444&_nc_ohc=nV6zBNd_besAX9I1E24&_nc_ht=scontent-iad3-1.xx&oh=00_AfB_IIMKSjSjduK-L7uQ-e-7y4mUnYVqbZITK-UeSMn5bw&oe=65A2DB1C
+  source: facebook
+  type: Organiser
+  createdAt: 1704822898863
+  owned: false
+  name: Sabroso Dance Network / Sensual Summer Weekend
+  place: ChIJTazECEejoRQRYRYsuxSJ348
+  updatedAt: 1704822898863
+  username: SabrosoLatinRadioEvents
+claimed: No
+facebookId: "1351391739134279"
+link: https://www.latinario.com/sswshop
+description: >-
+  🎇 We are delighted to announce that our Sensual Summer Weekend – 5th Years
+  Anniversary is coming! 
+
+
+
+  For the FIRST time in Greece and one of the very few times in whole Europe, one of the best bachata artists worldwide Jr., all the way from United States, together with the best dancers, Luis y Andrea, Maychel y Mayra, Magda y Valeria, Estefania Sanchez, Arnaldes y Bri, Chiquito y Su Dominican Power, Barbara Jimenez, Azzedine, CCrew and many many more! 😱
+
+
+
+  3 Days full of dancing, parties, shows, workshops and of course LIVE Concert with Jr. !
+
+
+
+  👉 Booking & Info: www.latinario.com (more platforms below)
+
+  💗 Early bird Full Pass Prices starting at 70 EUR ONLY ! 😱
+
+
+
+  🌟Artists List (to be updated!)
+
+
+
+  Jr. (USA)
+
+  Luis y Andrea (Spain)
+
+  Magda y Valeria (Italy/Poland)
+
+  Maychel y Mayra (UAE/Spain)
+
+  Burak & Estefania (Turkey/Spain)
+
+  Chiquito y su Dominican Power (Dominican Republic/Italy)
+
+  Barbara Jimenez (Italy)
+
+  Azzedine (France)
+
+  CCrew (Italy)
+
+  Arnaldes y Bri (Israel)
+
+  Lorenzo y Irina (Romania)
+
+  Roberto y Magdalena (Germany)
+
+  Luigi y Steffi (Germany)
+
+  Alin y Alexandra (Romania)
+
+  Joanna y Chrysoula (Scotland)
+
+  Antonis y Hara (Greece)
+
+  Stavros y Kathrine (Greece)
+
+  Vesko y Sofia (Scotland)
+
+  Nicole Contstantinou & Rosas Amorosas de NC (Cyprus)
+
+  Rezy y Ekaterina (Georgia)
+
+  George y Evgenia (Greece)
+
+  Aris y Ioanna (Greece)
+
+  Konstantinos y Katerina (Greece)
+
+  Panagiotis Kaldiris (Greece)
+
+  Anna Polyzou (Greece)
+
+  Diamond Twins (Cyprus)
+
+  Ioanna Lampropoulou (Greece)
+
+  Markos y Athina (Greece)
+
+  Fotini Anagnosti (Greece)
+
+  Panagiotis Artemakis (Greece)
+
+  Hyperion y Vicky (Greece)
+
+  Stelios y Konstantina (Greece)
+
+
+
+  DJ D*Lux (Sweden)
+
+  DJ Dorin (Romania)
+
+  DJ El Vector (Bulgaria)
+
+  DJ Daniela (Russia)
+
+
+
+  And more than 40 International Artists and DJs!!!
+
+
+
+  🔥 Exhibitors, shops, food, drinks and everything else available on the spot!
+
+
+  💙 Contact us now for collaborations & exhibition, sponsor or promoter interest!
+
+
+  ✨ Group discounts available!
+
+
+
+  This is #NotAnotherBachataEvent !
+
+
+  👉 Booking 
+
+  www.latinario.com
+
+  www.more.com
+
+  www.goandance.com
+
+  www.yosoysalsero.com
+
+  www.eventbrite.com
+program: []
+eventType: Concert
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Sensual Summer Weekend & Jr. Live in Athens 12-14 July 2024 !
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJTazECEejoRQRYRYsuxSJ348
+international: No
+hash: 1720774800000+ChIJkSkHAgWjoRQR9Jck63fragc
+startDate: 1720774800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyowHnMRV4hds7Y16w531.png?generation=1704822916776050&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853690/drcmp4rt0sbj7uoigoyw.jpg
+viewsCount: 6
+id: yowHnMRV4hds7Y16w531

@@ -1,0 +1,141 @@
+createdAt: 1706611096819
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1706611096819
+username: Aina
+venue:
+  formatted_address: Kundmanngasse 30, 1030 Wien, Austria
+  website: https://www.ballsaal.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: thomas TANZSCHULE Kraml
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3908924197085
+        lat: 48.20094161970849
+      northeast:
+        lng: 16.3935903802915
+        lat: 48.20363958029149
+    location:
+      lng: 16.3922069
+      lat: 48.2023579
+  address_components:
+    - types:
+        - street_number
+      short_name: "30"
+      long_name: "30"
+    - types:
+        - route
+      short_name: Kundmanngasse
+      long_name: Kundmanngasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Landstraße
+      long_name: Landstraße
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1030"
+      long_name: "1030"
+  international_phone_number: +43 1 9290232
+  place_id: ChIJNx1xin4HbUcRjf8uOdRahnc
+  url: https://maps.google.com/?cid=8612671204931600269
+endDate: 1706401800000
+claimed: No
+link: ""
+description: >-
+  𝗩𝗜𝗘𝗡𝗡𝗔 𝗦𝗔𝗟𝗦𝗔 𝗦𝗣𝗟𝗔𝗦𝗛
+
+
+  the city's hottest monthly latin event, powered by 𝘉𝘢𝘭𝘭𝘴𝘢𝘢𝘭 𝘞𝘪𝘦𝘯.
+
+
+  Vienna Salsa Splash promises a night full of joy and fun, a night filled with salsa and bachata music played by Vienna's finest DJs, delicious cocktails, breathtaking performances and of course DANCE DANCE DANCE.
+
+
+  𝗕𝗲𝗴𝗶𝗻: 20:00
+
+
+  𝗘𝗻𝘁𝗿𝗮𝗻𝗰𝗲: advance sale 8€, at the door: 10€
+
+  https://ticketing.nimbuscloud.at/event/2009/768
+
+
+  𝗗𝗝 𝗟𝗶𝗻𝗲-𝗨𝗽: DJEnrique, DJ ThePatrick
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/362277403182352/
+facebookId: "362277403182352"
+eventType: Course
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Vienna Salsa Splash - January 2024
+online: No
+styles:
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1706382000000+ChIJNx1xin4HbUcRjf8uOdRahnc
+startDate: 1706382000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1706611100/bmjmfs9odsrju4fvz5e1.jpg
+org:
+  owner: ""
+  importedAt: 1706611099136
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid038Jp4XnMvGG2TnwpxToGZ5XxtvbrMyS8LsZerp3h6ByQE7isBe1Pt8NKF6Cnokahml
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706611099/ows2s2svolhyljv7cgq9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1706611099136
+  owned: false
+  name: Patrick Steindl
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1706611099136
+  username: patrick.steindl
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOmM6rDSL0ffH2zVD6t6W.png?generation=1706611111227389&alt=media
+viewsCount: 5
+id: OmM6rDSL0ffH2zVD6t6W

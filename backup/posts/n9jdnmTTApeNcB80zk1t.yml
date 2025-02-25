@@ -1,0 +1,165 @@
+endDate: 1714352400000
+sourceUrl: https://facebook.com/events/s/the-afro-timba-dance-experienc/1534750777266283/
+createdAt: 1714131858270
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1713800621000
+updatedAt: 1714131858270
+importedAt: 1714131858270
+providerUpdatedAt: 1713800621000
+facebookId: "1534750777266283"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/the-afro-timba-dance-experienc/1534750777266283/
+eventType: Party
+providerItemId: 6ksjieb16dgjgb9mcoqjeb9k64r62b9o70s34bb671gj8pb4c4pm8e9i6g@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: The Afro-Timba Dance Experience w/ Kati Hernández, Duane Wrenn & TIMBALIVE!
+location: various
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714226400000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: Sternberger Str. 10, 32699 Extertal, Germany
+  website: https://www.various-solutions.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Various Solutions
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.0984672197085
+        lat: 52.0665675697085
+      northeast:
+        lng: 9.101165180291504
+        lat: 52.0692655302915
+    location:
+      lng: 9.0997855
+      lat: 52.0680055
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Sternberger Str.
+      long_name: Sternberger Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bösingfeld
+      long_name: Bösingfeld
+    - types:
+        - locality
+        - political
+      short_name: Extertal
+      long_name: Extertal
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Lippe
+      long_name: Lippe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Detmold
+      long_name: Detmold
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "32699"
+      long_name: "32699"
+  international_phone_number: +49 176 59396248
+  place_id: ChIJv4Q1C6thukcRFegPpC0dZ2s
+  url: https://maps.google.com/?cid=7739186566522726421
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131868957
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Casa-Soul/100083103133848/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131869/qhjbwvmx5arkjjlwzhc2.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131868957
+  owned: false
+  name: Casa Soul
+  place: ChIJ-xMHDglhukcRd_SYiLz-Tyw
+  updatedAt: 1714131868957
+  username: CasaSoul
+claimed: No
+facebook: https://www.facebook.com/events/1534750777266283/
+link: ""
+description: >-
+  What a treat to be able to learn from this dynamic duo!! Two amazing
+  instructors in their own right, Kati Hernandez & Duane Wrenn, will be coming
+  to Asheville to share what they are calling The Afro-Timba Experience. You
+  don't want to miss it!!  We are so grateful for the support of Arts Asheville
+  who has given a grant to help provide this experience. We cannot wait to dance
+  with you!! 
+
+
+  Tickets available here:
+
+
+  https://casasoul.ticketspice.com/afro-timba-experience
+
+
+  Timbalive is coming to help us dance our booties off Saturday night, along with Timba Titan and DJ Cokie! Tickets for the Saturday show are available at salvagestation.com. Note: If you would like to avoid online ticket fees, you can go to the Salvage Station box office. The fee is $1 + NC taxes.
+
+
+  Saturday - Diana Wortham Performing Arts
+
+  11:15 - 12:30 Feminine & Masculine Styling 
+
+  2:00 - 3:15 Rumba (live drums)
+
+  3:30 - 4:45 Afro-Timba Footwork & Partnerwork
+
+
+  8:00 - 1:00 Saturday Noche Cubana social with Timbalive, Timba Titan & DJ Cokie
+
+
+
+  Sunday - Stephens Lee Recreational Center 
+
+  1:30 - 3:00 Orisha Therapy (live drums)
+
+  3:15 - 4:30 Rueda de Casino
+
+
+  Potential Sunday evening social
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131870/yqjodj4jgs4hkbcdzmq0.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ-xMHDglhukcRd_SYiLz-Tyw
+international: No
+hash: 1714226400000+ChIJv4Q1C6thukcRFegPpC0dZ2s
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fn9jdnmTTApeNcB80zk1t.png?generation=1714131899232863&alt=media
+id: n9jdnmTTApeNcB80zk1t

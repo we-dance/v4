@@ -1,0 +1,108 @@
+venue:
+  formatted_address: Pasing-Obermenzing, Munich, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Pasing-Obermenzing
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.49236894359165
+      south: 48.12794557585831
+      north: 48.17652804336639
+      west: 11.43261491213912
+    location:
+      lng: 11.4593481
+      lat: 48.1466314
+  address_components:
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: Munich
+      long_name: Munich
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Upper Bavaria
+      long_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bavaria
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: ChIJu7P9N_t3nkcRIKk5CaQlHQU
+  url: https://maps.google.com/?q=Pasing-Obermenzing,+Munich,+Germany&ftid=0x479e77fb37fdb3bb:0x51d25a40939a920
+endDate: 2023-01-10T01:00
+claimed: No
+program: []
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXvsfaoTDLsWQoEInXA1DDTrNQNM2%2F627e8315-8a7e-40be-a6b3-ba0dec1f0ee0?alt=media&token=d88854d2-35f0-4c95-a0cb-d22abaafe8ab
+duration: 60
+createdAt: 1671270534678
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1671270534678
+updatedBy: XvsfaoTDLsWQoEInXA1DDTrNQNM2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "SalsaCandela "
+  bio: |+
+    Salsa Candela is Gianni (Italy) and Yulia(Russia)! 
+
+    Salsa Cubana, Rumba, Rueda de Casino, Sosa Style and Mambo.
+    (Partnerwork, Footwork, Musicality, Lady & Men Style)
+
+
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+  instagram: https://instagram.com/SalsacandelaMUC
+  id: EGc3bwBVyKbLykwQMelFbftcIk32
+  username: SalsaCandela
+eventType: Course
+form: No
+createdBy: XvsfaoTDLsWQoEInXA1DDTrNQNM2
+watch:
+  count: 1
+  list:
+    yulia_ventum: true
+name: "SALSA CANDELA BOYS / Inner circle "
+online: No
+styles: {}
+startDate: 2023-01-10T00:00
+username: yulia_ventum
+description: |-
+  Boys, you wanna master your salsa moves before you lead her steps? 
+  Join SALSA CANDELA BOYS 💪🏽😎 with Gianni Candela 
+
+  INNER CIRCLE: Max 5ppl
+  Tuesdays
+  Pasing-Obermenzing 
+id: oc7PBMEmxCtW7o5O459L
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Foc7PBMEmxCtW7o5O459L.png?generation=1671284834758665&alt=media
+telegram:
+  requestedAt: 1671284843724
+  messageUrl: https://t.me/WeDanceMunich/745
+  publishedAt: 1671284847191
+  messageId: 745
+  state: published
+viewsCount: 44

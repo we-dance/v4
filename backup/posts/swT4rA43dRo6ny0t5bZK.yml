@@ -1,0 +1,134 @@
+endDate: 1712491200000
+sourceUrl: https://www.facebook.com/events/3228940330746140/
+createdAt: 1711220914623
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1710089368000
+updatedAt: 1711220914623
+importedAt: 1711220914623
+providerUpdatedAt: 1710431873000
+facebookId: "3228940330746140"
+facebook: https://www.facebook.com/events/3228940330746140/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3228940330746140/
+eventType: Party
+providerItemId: e3228940330746140@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: SalsaYuno - Salsa & Frühstück mit DJ Lorenzo
+location: Mi Barrio
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712480400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Münzwardeingasse 2, 1060 Wien, Austria
+  website: http://www.mibarrio.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Mi Barrio
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3507072197085
+        lat: 48.1931256197085
+      northeast:
+        lng: 16.3534051802915
+        lat: 48.19582358029149
+    location:
+      lng: 16.3521264
+      lat: 48.1945285
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Münzwardeingasse
+      long_name: Münzwardeingasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mariahilf
+      long_name: Mariahilf
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1060"
+      long_name: "1060"
+  international_phone_number: +43 1 5876125
+  place_id: ChIJAAAAAIwHbUcRDr3RQN0p5ps
+  url: https://maps.google.com/?cid=11233712350774279438
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsahouse.at
+  name: SalsaHouse
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220933/mrsxwlmcdltjbn9j9bso.png
+  bio: ""
+  id: cdNBIvr2GcJslV1jDH6U
+  instagram: ""
+  username: salsahouse.at
+claimed: No
+link: ""
+description: >-
+  SalsaYuno mit DJ Lorenzo │ 11:00 – 15:00
+
+
+  Es wartet ein herrliches Brunch-Buffet mit lateinamerikanischen Köstlichkeiten auf dich. 
+
+
+  Preis €26,90 (Spezialkondition für TänzerInnen: inkludiert sind Vorspeisen, Hauptspeisen, Nachspeisen, 1 Glas hausgemachte Limo und 1 Heißgetränk)
+
+
+  Ab 12:00 Salsa, Bachata y más mit DJ Lorenzo!
+
+
+  Reservierung mit Angabe der Uhrzeit unter welcome@salsahouse.at unbedingt erforderlich.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711220940/zt77tnmuov8fkjrgpcgk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1712480400000+ChIJAAAAAIwHbUcRDr3RQN0p5ps
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FswT4rA43dRo6ny0t5bZK.png?generation=1711220963956376&alt=media
+id: swT4rA43dRo6ny0t5bZK

@@ -1,0 +1,172 @@
+endDate: 1720918800000
+sourceUrl: https://www.facebook.com/events/474941181639561/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1716727006000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1717006417000
+facebookId: "474941181639561"
+facebook: https://www.facebook.com/events/474941181639561/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/474941181639561/
+eventType: Party
+providerItemId: e474941181639561@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: '"Jack and Sara" Tarraxo Level Up'
+location: Max7, Maxstraße 7, 53111 Bonn
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720872000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Maxstraße 7, 53111 Bonn, Germany
+  website: https://www.max7.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule Max7
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.091154819708497
+        lat: 50.7368440697085
+      northeast:
+        lng: 7.093852780291502
+        lat: 50.7395420302915
+    location:
+      lng: 7.092507100000001
+      lat: 50.7382418
+  address_components:
+    - types:
+        - street_number
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - route
+      short_name: Maxstraße
+      long_name: Maxstraße
+    - types:
+        - locality
+        - political
+      short_name: BN
+      long_name: Bonn
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bonn
+      long_name: Bonn
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: K
+      long_name: Köln
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NRW
+      long_name: Nordrhein-Westfalen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "53111"
+      long_name: "53111"
+  international_phone_number: +49 228 2666834
+  place_id: ChIJF9yQaqPhvkcRXZQVIWqcg68
+  url: https://maps.google.com/?cid=12647124158222013533
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546480767
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Kizz-Essence/100089891015596/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546481/kd3uyiosgnu0c6g1cwcb.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546480767
+  owned: false
+  name: Kizz Essence
+  place: ChIJSdrLfJ_hvkcRF5ZcaMb424Y
+  updatedAt: 1718546480767
+  username: KizzEssence
+claimed: No
+link: https://eventix.shop/b7gs4nmt
+description: >
+  Kizz Essence presents:
+
+  Tarraxo Level Up with Jack and Sara! 💥💥💥
+
+  One of the most renowned Tarraxo couples in the scene will be coming to NRW to help level up the scene. They will be taking us through intensive sessions with sound but enjoyable dance techniques to upgrade tarraxo skill.
+
+  ─────────────────
+
+  💥PROGRAM💥
+
+  14:00- 17:00 Bootcamp Jack & Sara
+
+  17:00-19:00 Social/ Practice
+
+  21:00-22:00 Pre-party Workshop by Viola & Zamim
+
+  22:00-03:00 Party by DJ Jack & DJ MJay
+
+  ─────────────────
+
+  REGISTRATION AND PAYMENT
+
+  Single full pass: 60€ (door price 70€)
+
+  Couple full pass: 110€ (door price 130€)
+
+  Bootcamp: 50€ (door price 60€)
+
+  Couple Bootcamp 90€ (door price 110)
+
+  Preparty workshop + party: 25€ (door price 35€) with Viola & Zamim
+
+  Party: 15€ (door price 20€)
+
+
+  Full pass includes - 3-hr bootcamp, social practice, pre party workshop and party
+
+  Bootcamp Pass includes - 3-hr bootcamp, social practice
+
+
+  ─────────────────
+
+  💥TICKETS💥
+
+  https://eventix.shop/b7gs4nmt
+
+  ─────────────────
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546481/gjhdwoqusr53qsundnxd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJSdrLfJ_hvkcRF5ZcaMb424Y
+international: No
+hash: 1720872000000+ChIJF9yQaqPhvkcRXZQVIWqcg68
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVchHm60fNEFWZycIghFT.png?generation=1718546500743555&alt=media
+id: VchHm60fNEFWZycIghFT

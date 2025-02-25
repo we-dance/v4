@@ -1,0 +1,146 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/faith-connect-serbian-sensual-festival/
+sourceUrl: https://facebook.com/events/339855018537748
+venue:
+  address_components:
+    - long_name: "11"
+      short_name: "11"
+      types:
+        - street_number
+    - long_name: Hajduk Veljkova
+      short_name: Hajduk Veljkova
+      types:
+        - route
+    - long_name: Novi Sad
+      short_name: NS
+      types:
+        - locality
+        - political
+    - long_name: Južnobački okrug
+      short_name: Južnobački okrug
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Vojvodina
+      short_name: Vojvodina
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Serbia
+      short_name: RS
+      types:
+        - country
+        - political
+    - long_name: "21137"
+      short_name: "21137"
+      types:
+        - postal_code
+  formatted_address: Hajduk Veljkova 11, Novi Sad 21137, Serbia
+  geometry:
+    location:
+      lat: 45.2578971
+      lng: 19.8233343
+    viewport:
+      northeast:
+        lat: 45.2593729302915
+        lng: 19.8249067302915
+      southwest:
+        lat: 45.25667496970851
+        lng: 19.8222087697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +381 21 4830000
+  name: Novosadski sajam
+  place_id: ChIJXVGDMkoQW0cR_I3NfgOCw_Q
+  url: https://maps.google.com/?cid=17637083517236907516
+endDate: 1734930000000
+claimed: No
+link: ""
+description: >-
+  ◾Serbian Sensual Festival - 
+
+  Faith Connect
+
+
+  🗓️ Date: December 19-23
+
+
+  📌 Location: Novi Sad Fair
+
+
+  💵 Buy your ticket:
+
+  https://www.dizizid.com/events-registration/index.html?officeId=246
+
+
+
+  ◾For the fourth consecutive year, we proudly present the Serbian Sensual Festival in Novi Sad, taking place from December 19th to 23rd, 2024. The festival will be held at the beautiful location of the Novi Sad Fair.
+
+
+  ◾Building upon the success of our previous festivals, renowned for their innovative workshop approach, this year, we are committed to delivering an unparalleled experience with workshops of the highest quality. Our primary objective remains the advancement of social dancers through diverse segments, focusing on connection, technique, musicality, and, above all, fostering a vibrant and supportive dance community. 
+
+
+  ◾Join us for an unforgettable celebration of dance and community at the Serbian Sensual Festival.
+
+
+  ◾More information coming soon!
+
+
+
+
+
+  ◾Our Facebook Page:
+
+  https://www.facebook.com/profile.php?id=100086716031987&mibextid=ZbWKwL
+
+
+  ◾Our Facebook Group:
+
+  https://www.facebook.com/groups/445546730378943/?ref=share
+
+
+  ◾Our Instagram Page:
+
+  https://instagram.com/faithconnect_dancefestival?igshid=Yzg5MTU1MDY=
+
+
+  ◾Our website:
+
+  https://faithconnect.dance
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293942/plahylvi1lo7ghf1ha1x.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJVTTpPWEQW0cRKP4kN2h9bws
+international: No
+visibility: Public
+org:
+  id: bZiy9q0eCdaKMp1cxcc0
+  username: FaithConnect-Serbian-Sensual-Festival
+  name: "Faith Connect Serbian Sensual Festival "
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953797/grg9ekmjvc90v7wvjogp.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/people/Faith-Connect-Serbian-Sensual-Festival/100086716031987/
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/339855018537748/
+facebookId: "339855018537748"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Faith Connect | Serbian Sensual Festival | 2024 OFFICIAL EVENT
+online: No
+styles: {}
+hash: 1734642000000+ChIJXVGDMkoQW0cR_I3NfgOCw_Q
+startDate: 1734642000000
+viewsCount: 1
+id: zRBGLXzcfkm7KfDI0NWJ

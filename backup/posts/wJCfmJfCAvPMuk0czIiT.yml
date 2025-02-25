@@ -1,0 +1,160 @@
+sourceUrl: https://facebook.com/events/s/latinmania-alexanders-chester-/1033563265150256/
+createdAt: 1726256104914
+updatedBy: f7bqQT4228bfaOmESzfPScyJUSA3
+createdBy: f7bqQT4228bfaOmESzfPScyJUSA3
+updatedAt: 1726256104914
+username: PaulRolo
+viewsCount: 1
+venue:
+  formatted_address: Rufus Court, Chester CH1 2JW, UK
+  website: http://www.alexanderslive.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Alexander's Live
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.893750580291502
+        lat: 53.1924270697085
+      northeast:
+        lng: -2.891052619708498
+        lat: 53.1951250302915
+    location:
+      lng: -2.8927118
+      lat: 53.19374839999999
+  address_components:
+    - types:
+        - route
+      short_name: Rufus Court
+      long_name: Rufus Court
+    - types:
+        - postal_town
+      short_name: Chester
+      long_name: Chester
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Cheshire West and Chester
+      long_name: Cheshire West and Chester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: CH1 2JW
+      long_name: CH1 2JW
+  international_phone_number: +44 1244 401402
+  place_id: ChIJI4VZeEjdekgR1ExycT8ry5M
+  url: https://maps.google.com/?cid=10649653295333919956
+endDate: 1726698600000
+claimed: No
+link: ""
+description: >-
+  💃🏽Learn Cuban Salsa - lessons every Wednesday with Rachael and Lee🕺🏽
+
+
+  Lessons are provided for all levels of ability, from complete beginners to experienced dancers. You don’t need a partner as you’ll change partners all the time in a friendly, fun, inclusive group.
+
+
+  No booking required!
+
+
+  ⭐️Our Schedule-
+
+  ⭐️7pm- Doors Open
+
+  ⭐️7.15pm- Beginners/+ Salsa Classes 
+
+  ⭐️8.30pm- Beg/Improver & Intermediate Bachata Classes with your hosts and guest teachers Jamie and Melanie
+
+
+  ⭐️9.30pm- SBK Social till Late- Dance into the night with a mix that includes Salsa, Bachata, Kizomba, Reggaeton, latin pop and more.
+
+
+  ⭐️Price-
+
+  £7pp one class / £12pp two classes
+
+
+  ⭐️FREE Social dancing 
+
+
+  💷CASH ONLY on entry
+
+
+  🍹Bar access free entry
+
+  Drinks Specials available at the bar. 
+
+
+  ⭐️Every 3rd Wednesday it’s Bachata in second hour of classes with your hosts and guest teacher Jamie. 
+
+  ⭐️Every 4th Wednesday it’s Rueda in second hour of classes. 
+
+  ⭐️Every 5th Wednesday it’s change of style week in the second hour only (tbc each time).
+
+
+  🟠LATINMania have been running Salsa classes in Chester for the last 16years previously our home being at Telfords Warehouse for 10 years. 
+
+
+  💃🏽🎶🕺 We are growing as a Salsa community week on week, why not come down and be part of it! 😍
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/LatinManiaSalsa
+  name: LATIN Mania
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1726255786/ntq58yc6yjfe7tueisqg.jpg
+  bio: ""
+  id: EjylgOu1N3ksPP8ZbMDL
+  instagram: ""
+  username: LatinManiaSalsa
+facebook: https://www.facebook.com/events/1033563265150256/
+facebookId: "1033563265150256"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: LATINMania! @Alexander’s Chester, Bachata week with guest teachers Jamie &
+  Melanie
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1726682400000+ChIJI4VZeEjdekgR1ExycT8ry5M
+startDate: 1726682400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726256108/ocyymn4nkzyht0m2jtbk.jpg
+id: wJCfmJfCAvPMuk0czIiT

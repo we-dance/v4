@@ -1,0 +1,80 @@
+owner: ""
+importedAt: 1704975765951
+visibility: Public
+facebook: https://www.facebook.com/mydancevienna
+source: facebook
+createdAt: 1704975765951
+owned: false
+name: MyDance Vienna
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+username: mydancevienna
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954066/cvqa9q22jbhkiofwhwuu.jpg
+website: https://mydance.at/
+address:
+  formatted_address: Gußhausstraße 20, 1040 Wien, Austria
+  website: http://www.mydance.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: MYDANCE VIENNA
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.3718315302915
+      south: 48.19558001970851
+      north: 48.1982779802915
+      west: 16.3691335697085
+    location:
+      lng: 16.3704467
+      lat: 48.196985
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Gußhausstraße
+      long_name: Gußhausstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Wieden
+      long_name: Wieden
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1040"
+      long_name: "1040"
+  international_phone_number: +43 664 9699999
+  place_id: ChIJeVfQaIIHbUcRcu8aoe5lvuM
+  url: https://maps.google.com/?cid=16410666167764184946
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+gender: Other
+venueType: DanceStudio
+team: []
+id: UUc7UI9gmVDzQTMxq0Th
+instagram: https://www.instagram.com/mydance.vienna/
+updatedAt: 1717663065151
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"
+type: Organiser
+viewsCount: 10

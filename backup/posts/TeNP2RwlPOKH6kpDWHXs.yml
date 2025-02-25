@@ -1,0 +1,123 @@
+createdAt: 1704994304336
+createdBy: tzeqeeTxOhaIrtNbZZrg9pw7QSH2
+username: Swiss_SalsaBachataEvents
+claimed: No
+link: ""
+description: |-
+  SALSA BACHATA SUNDAYS PARTY
+  jeden zweiten und vierten Sonntag im Monat ab 18:30Uhr
+  -
+  Wo: Corrientes Club Basel
+  Wann : Sonntag 14.01.2024
+  Party Eintritt: 10 CHF
+  -
+  • Top Guests DJs
+  • Top Dance Floor
+  • Best Salsa Bachata and more...
+  • Party All Sytles
+  -
+  Corrientes Basel
+  Dornacherstrasse 192
+  4053 Basel
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/swisssalsabachataevents
+  name: Swiss Salsa Bachata Events
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtzeqeeTxOhaIrtNbZZrg9pw7QSH2%2Faea086d8-6897-40ca-99c8-f85f324548d1?alt=media&token=0c1c7fea-65b8-4a6a-a88e-d9095affa29d
+  bio: |-
+    Dance ist to unite people, not to separate them : 
+    "LET´S DANCE ALL TOGETHER"
+  id: tzeqeeTxOhaIrtNbZZrg9pw7QSH2
+  instagram: https://www.instagram.com/swiss_salsabachata2023/
+  username: Swiss_SalsaBachataEvents
+facebook: https://www.facebook.com/events/1755834474917865/
+facebookId: "1755834474917865"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "SALSA BACHATA SUNDAYS PARTY | 50/50 "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1705253400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTeNP2RwlPOKH6kpDWHXs.png?generation=1704994321222436&alt=media
+venue:
+  formatted_address: Gundeldingerstrasse 287, 4053 Basel, Switzerland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Gundeldingerstrasse 287
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 7.594018830291501
+      south: 47.5390604197085
+      north: 47.5417583802915
+      west: 7.591320869708498
+    location:
+      lng: 7.592766999999999
+      lat: 47.5405453
+  address_components:
+    - types:
+        - street_number
+      short_name: "287"
+      long_name: "287"
+    - types:
+        - route
+      short_name: Gundeldingerstrasse
+      long_name: Gundeldingerstrasse
+    - types:
+        - locality
+        - political
+      short_name: Basel
+      long_name: Basel
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Basel-Stadt
+      long_name: Basel-Stadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BS
+      long_name: Basel-Stadt
+    - types:
+        - country
+        - political
+      short_name: CH
+      long_name: Switzerland
+    - types:
+        - postal_code
+      short_name: "4053"
+      long_name: "4053"
+  place_id: ChIJT6QO2UW4kUcR9snrD9z9fjk
+  url: https://maps.google.com/?q=Gundeldingerstrasse+287,+4053+Basel,+Switzerland&ftid=0x4791b845d90ea44f:0x397efddc0febc9f6
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: .nan
+artistsList: []
+id: TeNP2RwlPOKH6kpDWHXs
+place: ChIJTzBpJ8dJkEcRkIpt83DrHDY
+hash: 1705253400000+ChIJT6QO2UW4kUcR9snrD9z9fjk
+updatedAt: 1704998007258
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058056/q9ypfniktyribwqpri6r.jpg
+viewsCount: 17

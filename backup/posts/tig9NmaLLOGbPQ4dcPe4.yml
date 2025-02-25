@@ -1,0 +1,120 @@
+endDate: 1729288800000
+sourceUrl: https://www.facebook.com/events/978365810645221/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1727553413000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727558041000
+facebookId: "978365810645221"
+facebook: https://www.facebook.com/events/978365810645221/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/978365810645221/
+eventType: Party
+providerItemId: e978365810645221@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Initiation tango kiz + soirée SBK
+location: Gironde
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729278000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Gironde, France
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Gironde
+  geometry:
+    viewport:
+      southwest:
+        lng: -1.260978221218969
+        lat: 44.19388815142121
+      northeast:
+        lng: 0.3151234068688751
+        lat: 45.60488181241157
+    location:
+      lng: -0.4502368
+      lat: 44.84966499999999
+  address_components:
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gironde
+      long_name: Gironde
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+  place_id: ChIJ8wX2tk4uVQ0RkCcRSBdlBgM
+  url: https://maps.google.com/?q=Gironde,+France&ftid=0xd552e4eb6f605f3:0x306651748112790
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417997668
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/CouleursKizomba
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417997/rplqdbwkw8hehzpqukxr.png
+  source: facebook
+  type: Organiser
+  createdAt: 1728417997668
+  owned: false
+  name: Couleurs Kizomba
+  updatedAt: 1728417997668
+  username: CouleursKizomba
+claimed: No
+link: ""
+description: >-
+  ‼‼ ATTENTION‼‼
+
+
+  Vendredi 18 Octobre , ⏰START UP 21H ⏰...... Les soirées SBK reviennent au KP KARAOKE BOX ave une nouvelle Formule.
+
+
+  21h à 22h Initiation Tango kiz  avec Sam et
+
+  haddi 
+   après Soirée SBK avec DJ ANGIE.
+
+  -Vous participez à l'initiation + la soirée SBK + 1 verre de punch, on vous remettra un bracelet verre pour 10€
+
+
+  -Vous participez à la soirée SBK + 1 verre de punch, on vous remettra un bracelet rouge pour 5€.
+
+
+  On vous attend nombreux et nombreuses dans une ambiance conviviale pour danser et faire la fête. Les autres le savent déjà, il ne manque plus que toi !!!!!
+
+
+  #billard #karaoké #bordeauxevent #soireebordeaux #soireedj #fiesta #kizombalove #kizombabordeaux #kizomba
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1729278000000+ChIJ8wX2tk4uVQ0RkCcRSBdlBgM
+id: tig9NmaLLOGbPQ4dcPe4

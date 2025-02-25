@@ -1,0 +1,162 @@
+isNew: true
+facebookId: "449577017441135"
+facebookUrlsList:
+  - https://www.facebook.com/events/449577017441135/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731250837941
+updatedAt: 1731250837941
+importedAt: 1731250837941
+providerId: nvBqSF1sxQ25mvCB32f6
+providerItemId: ccq30cj5coo6abb36kr3gb9kcli36b9o64smab9g68s38ohg6opjipb26k@google.com
+providerCreatedAt: 1731238473000
+providerUpdatedAt: 1731238473000
+startDate: 1731787200000
+endDate: 1731805200000
+facebook: https://www.facebook.com/events/449577017441135/
+sourceUrl: https://www.facebook.com/events/449577017441135/
+location: Wilmslow Royal British Legion Club Ltd, 10 Grove Ave, Wilmslow SK9 5EG, UK
+eventType: Party
+approved: true
+username: halfcubedance
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+venue:
+  address_components:
+    - long_name: "10"
+      short_name: "10"
+      types:
+        - street_number
+    - long_name: Grove Avenue
+      short_name: Grove Ave
+      types:
+        - route
+    - long_name: Wilmslow
+      short_name: Wilmslow
+      types:
+        - postal_town
+    - long_name: Cheshire East
+      short_name: Cheshire East
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: England
+      short_name: England
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: United Kingdom
+      short_name: GB
+      types:
+        - country
+        - political
+    - long_name: SK9 5EG
+      short_name: SK9 5EG
+      types:
+        - postal_code
+  formatted_address: 10 Grove Ave, Wilmslow SK9 5EG, UK
+  geometry:
+    location:
+      lat: 53.3274528
+      lng: -2.2324359
+    viewport:
+      northeast:
+        lat: 53.3287599802915
+        lng: -2.230992919708498
+      southwest:
+        lat: 53.3260620197085
+        lng: -2.233690880291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +44 1625 523715
+  name: Wilmslow Royal British Legion Club Ltd
+  place_id: ChIJb_ZlPnZNekgRDGL5LDsGoDA
+  url: https://maps.google.com/?cid=3503807361321624076
+  website: http://www.britishlegion.org.uk/
+visibility: Public
+org:
+  id: BtaDyI8tq8q1te0C9qFu
+  username: salsaldi.wilmslow
+  name: Jane Salsaldi
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715522442/hue7ivmwxxk3rk4efcoj.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/salsaldi.wilmslow
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  Saturday 16th November
+
+
+  Doors Open 8.00pm
+
+  Guest Teacher: James Hearle (Shrewsbury Salsa)
+
+  Class will start at 8.30pm.
+
+  Social Dancing starts at 9.30pm with resident DJ Jane Salsaldi xxx
+
+
+  The best dance floor in the North, the cheapest bar and loads of free parking. Salsaldi attracts dancers of all styles from all over the North West.
+
+
+  We play Salsa of all styles for all dancers. Salsa Old and New for Cross Body and Cuban Dancers with a sprinkling of Bachata and Kizomba and Merengue on request.
+
+
+  We are an inclusive friendly night for dancers of all levels.  Salsaldi has been running quality salsa nights in Wilmslow since 2009. x
+
+
+  Door £10/£8 NUS CARD OR CASH
+
+  BAR TAKES CARD OR CASH
+
+  Doors Open 8.00pm
+
+  Class Starts 8.30pm
+
+  Social Dancing 9.30pm to 1am
+
+
+  Wilmslow Grove Sports & Social Club
+
+  Wilmslow British Legion
+
+  Grove Way
+
+  Wilmslow
+
+  SK9 5EG
+
+
+  The venue is 25 mins south of Manchester City Centre and ten minutes drive from Junction 6 of the M56 and ten minutes walk from Wilmslow Train Station.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731250854/dj4afjswxglmgcztfijj.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: SALSALDI WILMSLOW Saturday 16th November with Guest teacher James Hearle
+  (salsa)
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ""
+international: No
+hash: 1731787200000+ChIJb_ZlPnZNekgRDGL5LDsGoDA
+id: sNEG84QVuAMxXA8yJBHs

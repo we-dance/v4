@@ -1,0 +1,53 @@
+visibility: Public
+timezone: GMT+0100
+type: Dancer
+createdAt: 1616253027434
+createdBy: 9ueGYTQcWvdPEcR1Ir17Co49CoP2
+name: Jay
+username: Jay
+pwaUsed: false
+gender: Male
+id: 9ueGYTQcWvdPEcR1Ir17Co49CoP2
+birthday: 1991-04-21
+locales:
+  en: true
+  fr: true
+  es: true
+teacher: No
+partner: Yes
+weight: "65"
+location:
+  country: Germany
+  locality: Berlin
+  label: Berlin
+height: "175"
+story: Hi, I’m Jay from Paris and I’m looking for salsa and bachata partner.
+zipcode: "10551"
+bio: Hi, I’m Jay from Paris and I’m looking for a salsa and bachata partner.
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9ueGYTQcWvdPEcR1Ir17Co49CoP2%2F983d17c9-98df-4f4b-bbf4-78b24fe4a241?alt=media&token=9da9f113-ec24-4199-8f3d-a7309b98f4ba
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Casino:
+    level: Intermediate
+    highlighted: false
+    selected: true
+community: Berlin
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FJay.png?generation=1616412261475522&alt=media
+lastLoginAt: 1616613239845
+daysUsed: 2
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1617064562524
+viewsCount: 1

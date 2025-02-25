@@ -1,0 +1,139 @@
+endDate: 1724711400000
+sourceUrl: https://www.facebook.com/events/438390659167334/
+createdAt: 1723384824347
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1721211281000
+updatedAt: 1723384824347
+importedAt: 1723384824347
+providerUpdatedAt: 1722518182000
+facebookId: "438390659167334"
+facebook: https://www.facebook.com/events/438390659167334/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/438390659167334/
+eventType: Party
+providerItemId: e438390659167334@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Laura Del Vecchio Dance Party
+location: Corneliusbrücke, 81541 München, Deutschland
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724684400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Corneliusbrücke, 81541 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Corneliusbrücke
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.57865556970849
+        lat: 48.12739096970849
+      northeast:
+        lng: 11.5813535302915
+        lat: 48.13008893029149
+    location:
+      lng: 11.5799677
+      lat: 48.128721
+  address_components:
+    - types:
+        - route
+      short_name: Corneliusbrücke
+      long_name: Corneliusbrücke
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81541"
+      long_name: "81541"
+  place_id: ChIJ8y_ZcWTfnUcRI0cckKuzyxM
+  url: https://maps.google.com/?cid=1426431256431445795
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Kulturstrand der urbanauten
+  photo: ""
+  bio: ""
+  id: t06Ylc3lCQLKqNTt3ReT
+  instagram: ""
+  username: kulturstrand
+claimed: No
+link: https://www.paypal.me/kulturstrand
+description: >-
+  KARIBISCHES Feeling am Kulturstrand! 🌴
+
+  Best of Salsa, Bachata und Reggaeton mit Laura del Vecchio ( del Vecchio Dance Studio)
+
+  & DjHec♡♡♡♡
+
+  Für jeden wird etwas dabei sein.
+
+  Kommt vorbei und geniesst das tolle Urlaubsfeeling mit Sonne, Sand und gutem Sound.
+
+  Laura del Vecchio wird einen kleinen Salsa Crash Kurs geben und zwischendurch animieren.
+
+  Eintritt for Free ♡
+
+  See you 💃🕺🥳😍 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723384838/zlapqohxydefasrtrs3r.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1724684400000+ChIJ8y_ZcWTfnUcRI0cckKuzyxM
+viewsCount: 9
+id: oLJTwhPTHUMkBspAwmHW

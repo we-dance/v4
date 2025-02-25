@@ -1,0 +1,132 @@
+createdAt: 1706610586334
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1706610586334
+username: Aina
+viewsCount: 1
+venue:
+  formatted_address: Limmerstraße 2D, 30451 Hannover, Germany
+  website: https://pizza-punks-hannover.eatbu.com/?lang=de
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Pizza Punks
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.712075169708497
+        lat: 52.3701528197085
+      northeast:
+        lng: 9.714773130291501
+        lat: 52.3728507802915
+    location:
+      lng: 9.7133636
+      lat: 52.3715199
+  address_components:
+    - types:
+        - street_number
+      short_name: 2D
+      long_name: 2D
+    - types:
+        - route
+      short_name: Limmerstraße
+      long_name: Limmerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Linden-Limmer
+      long_name: Linden-Limmer
+    - types:
+        - locality
+        - political
+      short_name: Hannover
+      long_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30451"
+      long_name: "30451"
+  international_phone_number: +49 511 80604740
+  place_id: ChIJcRxNCe91sEcR__-Li54Sv7U
+  url: https://maps.google.com/?cid=13096206713572032511
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  Nach dem Bootcamp mit Daniel Schauenburg, wollen wir noch ein bisschen
+  zusammen feiern.
+
+
+  Hierzu lade ich alle Kizomba Tänzer*innen herzlich ein.
+
+
+  DJ Fenomeno wird für einen Mix aus traditioneller und Urban Kiz Musik sorgen. 
+
+
+  Jeder kommt auf seine Kosten!
+
+
+  Einlass: 22 Uhr
+
+
+  Eintritt: 10 €
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1081514642979562/
+facebookId: "1081514642979562"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Kizomba Party
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1706389200000+ChIJcRxNCe91sEcR__-Li54Sv7U
+startDate: 1706389200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1706610590/ehslctfpvt9yeznr3s6m.jpg
+org:
+  owner: ""
+  importedAt: 1706610589864
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02YPPijxT7XWY6t3R79f5p6emJhLEMPWvup41zLLRTg3SNRiaVKFBnCCXy8v3bwyoul
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706610590/i2ozpszv6qxzxcd19i79.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1706610589864
+  owned: false
+  name: Lena Lein
+  place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+  updatedAt: 1706610589864
+  username: lena.lein
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKADKGIXN01vU3R1Ezpmc.png?generation=1706610600616968&alt=media
+id: KADKGIXN01vU3R1Ezpmc

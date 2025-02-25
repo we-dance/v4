@@ -1,0 +1,213 @@
+endDate: 1714230000000
+sourceUrl: https://www.facebook.com/events/941652777548437/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1708090637000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1708090637000
+facebookId: "941652777548437"
+facebook: https://www.facebook.com/events/941652777548437/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/941652777548437/
+eventType: Party
+providerItemId: e941652777548437@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: URBAN KIZ BOOTCAMP OPEN LEVEL
+location: SAH - Salsa Akademie Heidelberg
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714219200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Im Bosseldorn 23/2, 69126 Heidelberg, Germany
+  website: http://www.salsa-akademie-heidelberg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Akademie Heidelberg
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.677615369708498
+        lat: 49.38545036970849
+      northeast:
+        lng: 8.680313330291503
+        lat: 49.38814833029149
+    location:
+      lng: 8.6788572
+      lat: 49.3867742
+  address_components:
+    - types:
+        - street_number
+      short_name: 23/2
+      long_name: 23/2
+    - types:
+        - route
+      short_name: Im Bosseldorn
+      long_name: Im Bosseldorn
+    - types:
+        - locality
+        - political
+      short_name: Heidelberg
+      long_name: Heidelberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Heidelberg
+      long_name: Heidelberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "69126"
+      long_name: "69126"
+  international_phone_number: +49 176 62138477
+  place_id: ChIJqzjIBMDAl0cR_A0UKOzOmys
+  url: https://maps.google.com/?cid=3142332678701059580
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224710800
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsa.akademie.heidelberg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224711/atpmuhbemdupsqvch5kc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224710800
+  owned: false
+  name: SAH - Salsa Akademie Heidelberg
+  place: ChIJzdzMDgXBl0cR1zokRADq5u8
+  updatedAt: 1711224710800
+  username: sah.-.salsa.akademie
+claimed: No
+link: ""
+description: "Die Salsa Akademie Heidelberg präsentiert ihr 1. Urban Kiz
+  Bootcamp | Open Level !\r
+
+  \r
+
+  Für alle, die Urban Kiz bereits tanzen oder es schon einmal ausprobiert
+  haben! Die Salsa Akademie Heidelberg freut sich, euch am 27.04.2024 das 1.
+  Urban Kiz Bootcamp mit zwei ihrer starken Tanzlehrer Frank & Darinka anbieten
+  zu können. .\r
+
+  \r
+
+  Das Bootcamp richtet sich an alle Urban Kiz Tänzer mit Vorkenntnissen.\r
+
+  \r
+
+  Es erwarten Euch insgesamt 3 intensive Stunden mit einem bunten Paket aus
+  Basics | Footwork | Musicality | Partnerwork und natürlich jede Menge Tipps &
+  Tricks, damit ihr alles gleich auf der Tanzfläche anwenden könnt! \r
+
+  \r
+
+  \r
+
+  Kurz & Knapp\r
+
+  \r
+
+  Wann:   27.04.2024\r
+
+  \r
+
+  Uhrzeit: 14 – 17 Uhr\r
+
+  \r
+
+  Was:      3 Stunden Urban Kiz intensiv \r
+
+  \r
+
+  Wo:        Salsa Akademie Heidelberg,\ 
+
+  \               Im Bosseldorn 23/2,\ 
+
+  \               69126 Heidelberg\r
+
+  \r
+
+  Tickets: 40€ Singles | 75€ Paare\r
+
+  \r
+
+  Anmeldung:
+  https://www.salsa-akademie-heidelberg.de/pages/preise-anmeldungen.php\r
+
+  \r
+
+  \ \r
+
+  \r
+
+  !! Eine Anmeldung ist auch ohne Tanzpartner/in möglich !!\r
+
+  \r
+
+  !! Achtung begrenzte Teilnehmerzahl !!\r
+
+  \r
+
+  !! Schnell anmelden und nicht verpassen !!\r
+
+  \r
+
+  Bei Fragen stehen wir euch gerne zur Verfügung.\r
+
+  \r
+
+  Wir freuen uns auf Euch !!\r
+
+  \r
+
+  Liebe Grüße\r
+
+  \r
+
+  Ogün & Das SAH-Team\r
+
+  \r\n"
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224712/gbnle0bpk3sxafcdkyck.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJzdzMDgXBl0cR1zokRADq5u8
+international: No
+hash: 1714219200000+ChIJqzjIBMDAl0cR_A0UKOzOmys
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FG6TBBo00TAF72JNqlouR.png?generation=1711224733506818&alt=media
+viewsCount: 8
+id: G6TBBo00TAF72JNqlouR

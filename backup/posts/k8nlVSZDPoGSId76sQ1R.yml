@@ -1,0 +1,154 @@
+venue:
+  website: http://www.kult-tanzschule.de/
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  name: The KULT TANZSCHULE in ADTV
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5718683302915
+      south: 48.1372054697085
+      north: 48.1399034302915
+      west: 11.5691703697085
+    location:
+      lng: 11.5703078
+      lat: 48.1382762
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  url: https://maps.google.com/?cid=2237208673933871066
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  international_phone_number: +49 89 44313886
+endDate: 2023-01-29T02:00
+claimed: No
+program: []
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1674553263956
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://photos.app.goo.gl/XLJ5SooexQddvN8r7
+updatedAt: 1674553263956
+updatedBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Dj Obi
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  bio: Best Bachata DJ In Town 😎🎛️
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  instagram: https://instagram.com/djobi_bachata
+  username: Djobi_bachata
+upVotes: 0
+eventType: Party
+form: No
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-01-28T20:00
+username: Djobi_bachata
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F09ae8474-8038-4f7a-a33d-3ee8b19cd003?alt=media&token=bc8fa592-297f-477a-9ca1-a6ca8b45aa88
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Dj Obi
+    bio: Best Bachata DJ In Town 😎🎛️
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+    id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+    instagram: https://instagram.com/djobi_bachata
+    username: Djobi_bachata
+  - instagram: https://instagram.com/veronica_medea
+    username: veronica_medea
+link: https://tickets.wedance.vip/events/bachatasensualnight/841250
+name: Bachata Sensual Nights Dj Obi
+description: >-
+  Introducing our latest workshop: Sensual Heels!
+
+
+  This workshop is designed for those who want to take their dancing to the next level and learn how to dance and style while wearing heels. Whether you're a beginner or an experienced dancer, this workshop is perfect for anyone looking to improve their technique and confidence on the dance floor.
+
+
+  Vero from onStage Lady Styling Coaching team will guide you through a variety of techniques and exercises that will help you master the art of dancing in heels. You will learn how to properly walk, turn and spin in heels, as well as how to incorporate style and expression into your movements.
+
+
+  In addition to the technical aspects of dancing in heels, we will also cover styling and choreography. You will learn how to create and execute beautiful and sensual choreography while wearing heels.
+
+
+  This workshop is open to all levels of dancers and is suitable for both ladies and gentlemen. You will have the opportunity to dance and practice with partners in a fun and supportive environment.
+artistsList:
+  - Djobi_bachata
+  - veronica_medea
+id: k8nlVSZDPoGSId76sQ1R
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fk8nlVSZDPoGSId76sQ1R.png?generation=1674559658824797&alt=media
+telegram:
+  requestedAt: 1674559662806
+  messageUrl: https://t.me/WeDanceMunich/818
+  publishedAt: 1674559668116
+  messageId: 818
+  state: published
+instagram:
+  requestedAt: 1674559669315
+  messageUrl: https://instagram.com/p/Cny9W7POVxR
+  publishedAt: 1674559687241
+  messageId: Cny9W7POVxR
+  state: published
+viewsCount: 84

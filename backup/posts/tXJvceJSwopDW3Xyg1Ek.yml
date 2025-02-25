@@ -1,0 +1,138 @@
+sourceUrl: https://www.facebook.com/share/N31BZNLsJqd5qLgu/?mibextid=9l3rBW
+createdAt: 1727305635480
+updatedBy: J3YIY3kQf4dYQuoHVBB1cE9yRP12
+createdBy: J3YIY3kQf4dYQuoHVBB1cE9yRP12
+place: ChIJKSshOsWinkcRoOeL161IHgQ
+updatedAt: 1727305635480
+username: Joao
+viewsCount: 1
+venue:
+  formatted_address: Gubener Str. 11, 86156 Augsburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Gubener Str. 11
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.8646312197085
+        lat: 48.38705651970849
+      northeast:
+        lng: 10.8673291802915
+        lat: 48.38975448029149
+    location:
+      lng: 10.8660971
+      lat: 48.38802989999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Gubener Str.
+      long_name: Gubener Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Augsburg-Oberhausen
+      long_name: Augsburg-Oberhausen
+    - types:
+        - locality
+        - political
+      short_name: A
+      long_name: Augsburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Augsburg
+      long_name: Kreisfreie Stadt Augsburg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Schwaben
+      long_name: Schwaben
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86156"
+      long_name: "86156"
+  place_id: ChIJccnh0xi9nkcRx7ryxO8m7Gs
+  url: https://maps.google.com/?q=Gubener+Str.+11,+86156+Augsburg,+Germany&ftid=0x479ebd18d3e1c971:0x6bec26efc4f2bac7
+endDate: 1727629200000
+claimed: No
+link: ""
+description: |-
+  Hallo Tänzerinnen und Tänzer,
+  wir möchten das Wochenende 
+  vom Sonntag den 29.09.2024 ab 15:00 bis um 19:00 
+  in schönen Atmosphäre ausklingen lassen
+  und laden Euch zu „ KIZOMBA MATINEE“ ein.
+
+  DJ Frank aus München wird für uns alle die beste
+  Kizomba Musik auflegen.
+
+  Verpflegung:
+  Getränke, Kaffee und Kuchen
+  an der Bar
+
+  Unkostenbeitrag: 10€
+  Rimo dance & art e.V. Mitglieder: 8€
+
+  Kostenlos Parkplätze
+
+  Location:
+  RIMO dance & art e.V
+  Gubenerstr. 11E, 86156 Augsburg
+
+  Registrierung bei :
+  Joao Dontana
+  Tel: 01608401984 Whatsapp/ Telegram/ Signal/ SMS
+  eMail: joao@dontana.de
+  FB Messenger : Joao Dontana
+
+  Änderungen Vorbehalten!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/500065096322358/?event_time_id=500065099655691
+facebookId: "500065099655691"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: KIZOMBA MATINEE bei Rimo dance & art
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1727614800000+ChIJccnh0xi9nkcRx7ryxO8m7Gs
+startDate: 1727614800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727305648/gsyhfsvn8tdyar4unome.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizomba.asangi
+  name: Kizomba Asangi
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727305646/mfqzmqodm9vnpwr80ykz.jpg
+  bio: ""
+  id: 2kGdQNHwLOM87KjAoisu
+  instagram: ""
+  username: kizomba.asangi
+id: tXJvceJSwopDW3Xyg1Ek

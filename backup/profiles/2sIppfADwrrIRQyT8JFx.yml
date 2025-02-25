@@ -1,0 +1,75 @@
+createdAt: 1711722211094
+website: https://dj-lollo.de/
+rooms: ""
+address:
+  website: https://dj-lollo.de/
+  formatted_address: Einsteinstraße 12, 90542 Eckental, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: DJ Hochzeit Event Party DJ Lollo
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.2198218197085
+        lat: 49.5924257197085
+      northeast:
+        lng: 11.2225197802915
+        lat: 49.59512368029149
+    location:
+      lng: 11.2212278
+      lat: 49.5937796
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Einsteinstraße
+      long_name: Einsteinstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Forth
+      long_name: Forth
+    - types:
+        - locality
+        - political
+      short_name: Eckental
+      long_name: Eckental
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Erlangen-Höchstadt
+      long_name: Erlangen-Höchstadt
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90542"
+      long_name: "90542"
+  place_id: ChIJ0xvBvyPloUcR12jO1Gk6bm4
+  international_phone_number: +49 160 7243976
+  url: https://maps.google.com/?cid=7957361817826519255
+gender: Other
+phone: +49 160 7243976
+name: DJ Hochzeit Event Party DJ Lollo
+updateAt: 1711722211094
+type: Venue
+map: ""
+username: dj-lollo.de
+viewsCount: 2
+id: 2sIppfADwrrIRQyT8JFx

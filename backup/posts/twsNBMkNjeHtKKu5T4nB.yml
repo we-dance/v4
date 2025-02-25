@@ -1,0 +1,128 @@
+createdAt: 1708774268142
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/1076820543563182/
+updatedAt: 1708774268142
+username: alexrazbakov
+venue:
+  formatted_address: Rua de Arroios, 1150-260 Lisboa, Portugal
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Clube Atletico Arroios
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.137723430291501
+        lat: 38.7295875197085
+      northeast:
+        lng: -9.135025469708497
+        lat: 38.7322854802915
+    location:
+      lng: -9.136455199999999
+      lat: 38.7309205
+  address_components:
+    - types:
+        - route
+      short_name: Rua de Arroios
+      long_name: Rua de Arroios
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Arroios
+      long_name: Arroios
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 1150-260
+      long_name: 1150-260
+  international_phone_number: +351 21 354 2650
+  place_id: ChIJtZqWi5kzGQ0RtB4DrSwIwl8
+  url: https://maps.google.com/?cid=6900086567059267252
+endDate: 1709332200000
+claimed: No
+link: ""
+description: >-
+  Os nossos convívios dançantes regressam ao Clube Atlético de Arroios, marca já
+  na tua agenda:
+
+
+  🗓1 de Março
+
+
+  20h00 Workshop de Bachata
+
+  21h00 Pratica dançante
+
+  22h30 Encerramento
+
+
+  Local: Clube Atlético de Arroios - Rua de Arroios nº 151A
+
+
+  WhatsApp: 96 899 77 32 
+
+  A entrada é gratuita, para participar basta enviares uma mensagem com o nome.
+
+
+  Vagas limitadas!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+facebookId: "1076820543563182"
+eventType: Workshop
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Convívio Dançante - Lisboa
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1709323200000+ChIJtZqWi5kzGQ0RtB4DrSwIwl8
+startDate: 1709323200000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708774272/jggahnt0zldwipqwcehb.jpg
+org:
+  owner: ""
+  importedAt: 1708774271442
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/escoladancaecompanhia
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774271/okcf8fej8qepvuynntpz.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708774271442
+  owned: false
+  name: Escola Dança e Companhia
+  place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+  updatedAt: 1708774271442
+  username: escola.danca.e.companhia
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtwsNBMkNjeHtKKu5T4nB.png?generation=1708774284841114&alt=media
+viewsCount: 30
+id: twsNBMkNjeHtKKu5T4nB

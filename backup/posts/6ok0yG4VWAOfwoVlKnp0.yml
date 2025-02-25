@@ -1,0 +1,175 @@
+endDate: 1710460800000
+sourceUrl: https://www.facebook.com/events/7256346967805772
+createdAt: 1709902701998
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1709890390000
+updatedAt: 1709902701998
+importedAt: 1709902701998
+providerUpdatedAt: 1709890390000
+facebookId: "7256346967805772"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/7256346967805772
+eventType: Party
+providerItemId: 10008549-1710374400-1710460799@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Honey Bar & Club, Simonffy utca 1/c, Debrecen, 4025, Magyarország
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710374400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Sas u 4, 1051 Hungary
+  website: https://reservours.com/honeybrunchbudapest/tablereservation?s=google
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Honey
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0508163197085
+        lat: 47.4982976197085
+      northeast:
+        lng: 19.0535142802915
+        lat: 47.5009955802915
+    location:
+      lng: 19.0520559
+      lat: 47.4996343
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Sas u
+      long_name: Sas utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1051"
+      long_name: "1051"
+  international_phone_number: +36 70 408 7493
+  place_id: ChIJVxCRslDdQUcR1Upep1_gXEE
+  url: https://maps.google.com/?cid=4709886011757185749
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709902715937
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/yosbanytorres74
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709902716/iuhcvmikwyuebvxstisg.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709902715937
+  owned: false
+  name: Debreceni Casinerok - Debrecen Casinot táncol
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1709902715937
+  username: yosbanytorres74
+claimed: No
+facebook: https://www.facebook.com/events/7256346967805772/
+link: ""
+description: >-
+  A tavasz első fiestáján, március 14-én újra találkozunk! 😊
+
+  Gyere, táncolj te is a város legjobb latin partyján!
+
+
+  Tánciskolától függetlenül jöhetsz, itt biztosan megtalálod a neked megfelelő zenét. Legyen az pörgősebb salsa, timba, vagy bújósabb bachata, biztosan a legfrissebb slágerekkel várunk. 
+
+
+  Kiváló zenei válogatás, jó hangulat, tánchoz alkalmas padlózat, csúcsminőségű fény -és hangtechnika vár rád, egyszóval minden adott egy remek táncos estéhez.
+
+
+  Belépő: 2000,- Ft 
+
+
+  Smooth timbák, modern sonok, classik casinók szólnak majd, melyeket megfűszerezünk csipet bachatával, leheletnyi reggaetonnal és merenguével.
+
+
+  Tehát a hangulat garantált!
+
+  A főszerepben mint minden pénteken, most is Kuba és Dominika!
+
+
+  💙🤍❤️💙🤍❤️💙🤍❤️💙🤍❤️
+
+  EZ HIGGYÉTEK EL, ÉLMÉNY LESZ!!!
+
+
+  Helyszín:
+
+  HONEY Debrecen
+
+  1024 DEBRECEN, Simonffy utca 1/c – HALKÖZ
+
+  (A régi SeVeN helyén…)
+
+  Asztalfoglalás: +36 70 313 1011
+
+
+  Ezt most ne bízd a fantáziádra, inkább gyere el és tapasztald meg, mire ez a felhajtás!
+
+  Korhatár 18+
+
+
+  A Management szigorúan fenntartja a beléptetés jogát.
+
+  www.honeydebrecen.hu
+
+
+  A HONEY Debrecen területén szervezett események, rendezvények alkalmával a helyszín népszerűsítése, az itt tartott rendezvények dokumentálása, nyilvánosságra hozatala céljából kép és hangfelvételeket rögzít, amelyet a klub közösségi oldalain, weboldalán, népszerűsítésére szolgáló anyagokban nyilvánosságra hoz.
+
+  Az adatkezelés jogalapja vendégünk hozzájárulása, amelyet az esemény, illetve rendezvény ideje alatt a HONEY területére történő belépéssel egyértelműen és kifejezetten megad részünkre.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709902717/ssfwxyovdynqsjuqn8me.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Fiesta Latina 🎶 Salsa és sensual party a HONEY-ban 🎶 03.14.
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1710442800000+ChIJVxCRslDdQUcR1Upep1_gXEE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6ok0yG4VWAOfwoVlKnp0.png?generation=1709902740467534&alt=media
+id: 6ok0yG4VWAOfwoVlKnp0

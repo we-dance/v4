@@ -1,0 +1,196 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327113686
+updatedAt: 1732327113686
+importedAt: 1732327113686
+providerId: goandance
+providerItemId: "6963"
+name: Guaguancó Festival 2025
+description: >-
+  Guaguancó Festival es el Festival Internacional más grande y reconocido de la
+  danza Cubana. Es una fuente de conocimiento única para todos aquellos que
+  realmente quieren acelerar su proceso de aprendizaje. Cuenta con maestros
+  únicos reconocidos en Cuba y a nivel mundial como Maykel Fonts, Héctor Oviedo,
+  Julio Manguero, Ismaray Chacón, Diana Rodríguez, Yeni Molinet, Yoannis Tamayo,
+  Jorge Camaguey o Mari y Jorgito.
+
+
+  Son en total 4 días de aprendizaje, música, competiciones, y la mejor fiesta para bailar con gente de 36 países diferentes.
+sourceUrl: https://www.goandance.com/es/e/6963?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6963?promoter=WEDANCE123
+type: event
+startDate: 1747321200000
+endDate: 1747627200000
+tickets:
+  - name: BLACK FRIDAY FULL PASS
+    description: OFERTA Black Friday!! solo hasta el viernes 29 de noviembre incluido!!
+    priceValidUntil:
+      _seconds: 1732921140
+      _nanoseconds: 0
+    discount: 0
+    price: 99
+    comission: 7.87
+    originalPrice: 99
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: BLACK FRIDAY FULL PASS
+    description: OFERTA Black Friday!! solo hasta el viernes 29 de noviembre incluido!!
+    priceValidUntil:
+      _seconds: 1732921200
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 7.87
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS Guaguancó Festival 2025
+    description: Guaguancó 2025 Full Pass que incluye todas las actividades y conciertos.
+    priceValidUntil:
+      _seconds: 1749547800
+      _nanoseconds: 0
+    discount: 0
+    price: 90
+    comission: 7.87
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS Guaguancó Festival 2025
+    description: Guaguancó 2025 Full Pass que incluye todas las actividades y conciertos.
+    priceValidUntil:
+      _seconds: 1728097200
+      _nanoseconds: 0
+    discount: 0
+    price: 100
+    comission: 7.87
+    originalPrice: 100
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS Guaguancó Festival 2025
+    description: Guaguancó 2025 Full Pass que incluye todas las actividades y conciertos.
+    priceValidUntil:
+      _seconds: 1733371200
+      _nanoseconds: 0
+    discount: 0
+    price: 110
+    comission: 7.87
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS Guaguancó Festival 2025
+    description: Guaguancó 2025 Full Pass que incluye todas las actividades y conciertos.
+    priceValidUntil:
+      _seconds: 1738728000
+      _nanoseconds: 0
+    discount: 0
+    price: 120
+    comission: 7.87
+    originalPrice: 120
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS Guaguancó Festival 2025
+    description: Guaguancó 2025 Full Pass que incluye todas las actividades y conciertos.
+    priceValidUntil:
+      _seconds: 1743861600
+      _nanoseconds: 0
+    discount: 0
+    price: 130
+    comission: 7.87
+    originalPrice: 130
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: FULL PASS Guaguancó Festival 2025
+    description: Guaguancó 2025 Full Pass que incluye todas las actividades y conciertos.
+    priceValidUntil:
+      _seconds: 1747317600
+      _nanoseconds: 0
+    discount: 0
+    price: 140
+    comission: 7.87
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+  - name: Guaguancó Festival 2025 FULLPASS VIP
+    description: "Además del Full Pass incluye: Asiento garantizado en las 3
+      primeras filas para ver los show + Entrada prioritaria a los conciertos +
+      Formación Privada de 2 horas el sábado...  por la mañana. ¡Plazas Muy
+      Limitadas!"
+    priceValidUntil:
+      _seconds: 1747623600
+      _nanoseconds: 0
+    discount: 0
+    price: 190
+    comission: 7.87
+    originalPrice: 190
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6963-guaguanco-festival-2025?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327114/haxv1jmdjxacm6w00kjg.jpg
+venue:
+  address_components:
+    - long_name: Edificio Park
+      short_name: Edificio Park
+      types:
+        - point_of_interest
+        - establishment
+    - long_name: "35"
+      short_name: "35"
+      types:
+        - street_number
+    - long_name: Carrer Senyora de Rossell
+      short_name: Carrer Senyora de Rossell
+      types:
+        - route
+    - long_name: Lloret de Mar
+      short_name: Lloret de Mar
+      types:
+        - locality
+        - political
+    - long_name: Girona
+      short_name: GI
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Catalunya
+      short_name: CT
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "17310"
+      short_name: "17310"
+      types:
+        - postal_code
+  formatted_address: Edificio Park, Carrer Senyora de Rossell, 35, 17310 Lloret de
+    Mar, Girona, Spain
+  geometry:
+    location:
+      lat: 41.70444860000001
+      lng: 2.8373372
+    viewport:
+      northeast:
+        lat: 41.70586453029151
+        lng: 2.838661280291502
+      southwest:
+        lat: 41.70316656970851
+        lng: 2.835963319708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 972 36 58 20
+  name: Evenia Olympic Park
+  place_id: ChIJcd4lLT4XuxIR1wZu-021tvo
+  url: https://maps.google.com/?cid=18065826301778724567
+  website: https://es.eveniahotels.com/playa/lloret-de-mar/evenia-olympic-park?utm_source=Google+My+Business&utm_medium=Ficha&utm_campaign=Evenia+Olympic+Park
+place: ChIJWXoHhwcXuxIReIzmpj3vc5I
+price: 99 EUR
+styles: {}
+watch:
+  usernames: []
+  count: 0
+hash: 1747321200000+ChIJcd4lLT4XuxIR1wZu-021tvo
+org: ""
+id: KSMcpbVUjIfzpCEwBqC6

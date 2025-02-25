@@ -1,0 +1,155 @@
+isNew: true
+facebookId: "537240012602220"
+facebookUrlsList:
+  - https://www.facebook.com/events/537240012602220/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731769223908
+updatedAt: 1731769223908
+importedAt: 1731769223908
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48818-1732924800-1733011199@latinfo.hu
+providerCreatedAt: 1731577286000
+providerUpdatedAt: 1731577286000
+startDate: 1732924800000
+endDate: 1733011199000
+facebook: https://www.facebook.com/events/537240012602220/
+sourceUrl: https://www.facebook.com/events/537240012602220/
+location: Iparosház Békéscsaba, Kossuth tér, Békéscsaba, 5600, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: Békéscsaba
+      short_name: Csaba
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+  formatted_address: Békéscsaba, Hungary
+  geometry:
+    location:
+      lat: 46.6735939
+      lng: 21.0877309
+    viewport:
+      northeast:
+        lat: 46.74762392807735
+        lng: 21.23575288343992
+      southwest:
+        lat: 46.61126002391521
+        lng: 20.93003497564759
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Békéscsaba
+  place_id: ChIJ-_Zx65QrREcRwBEeDCnEAAQ
+  url: https://maps.google.com/?q=B%C3%A9k%C3%A9scsaba,+Hungary&ftid=0x47442b94eb71f6fb:0x400c4290c1e11c0
+  website: http://www.bekescsaba.hu/
+visibility: Public
+org:
+  id: BM4HtpPAFK8ujCbJIrCn
+  username: dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  ===SALSA & SENSUAL PARTY===
+
+
+  🔥🔥Dress Code: Piros, Fekete, Fehér
+
+  🔥🔥
+
+
+  * Mikulás 🎅* Krampusz 😈* Hóember☃️
+
+  Nincs is jobb, mint egy Salsa és Sensual party ahol kedvenc zenéinkre táncolhatunk 🙂. és közösen várhatjuk az ünnepeket. 🥳🤩😎
+
+
+  ===Salsa - Bachata - Kizomba- Reggaeton - Son===
+
+
+  ⏰Időpont: 2024. november 30. 19:00
+
+  🔴Helyszín: Iparosok Háza Kossuth tér
+
+
+  📌Workshop
+
+  19:00-20:00 Bachata /minden szint/
+
+  20:00-21:00 Kubai Salsa /minden szint/
+
+  elővételben: 2000Ft/ws - november 29-ig
+
+  helyszínen: 2500Ft/ws
+
+
+
+  📌21:00- Party
+
+  ----------------------------------------
+
+  📌#Salsa #Bachata #Kizomba
+
+  elővételben: 2500Ft - november 29-ig
+
+  helyszínen: 3000Ft
+
+
+  Fizetés személyesen az órákon vagy utalással.
+
+  Utalás: Raiffeiesn Bank 12067204-00202462-00100005
+
+
+  📧📬📞
+
+  Elérhetőség:
+
+  +36305153951
+
+  www.dolce-dance.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731769241/l2zlcaqnz8mvrfqwwn2a.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: 🎅 Salsa&Sensual Party - Békéscsaba
+online: No
+place: ChIJ-_Zx65QrREcRwBEeDCnEAAQ
+international: No
+hash: 1732986000000+ChIJ-_Zx65QrREcRwBEeDCnEAAQ
+id: T0KNBCGLIEm9sNaWD1rS

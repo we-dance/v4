@@ -1,0 +1,94 @@
+venue:
+  formatted_address: Henerala Zhmachenka St, 3, Kyiv, Ukraine, 02000
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "3"
+      short_name: "3"
+    - types:
+        - route
+      long_name: Henerala Zhmachenka Street
+      short_name: Henerala Zhmachenka St
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Dniprovs'kyi District
+      short_name: Dniprovs'kyi District
+    - types:
+        - locality
+        - political
+      long_name: Kyiv
+      short_name: Kyiv
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Kyiv City
+      short_name: Kyiv City
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "02000"
+      short_name: "02000"
+  url: https://maps.google.com/?q=Henerala+Zhmachenka+St,+3,+Kyiv,+Ukraine,+02000&ftid=0x40d4cfe3214d9949:0xaf74823e25340dd0
+  name: Henerala Zhmachenka St, 3
+  geometry:
+    viewport:
+      south: 50.4588618697085
+      north: 50.46155983029149
+      east: 30.60900423029149
+      west: 30.6063062697085
+    location:
+      lng: 30.60743029999999
+      lat: 50.4601556
+  place_id: ChIJSZlNIePP1EAR0A00JT6CdK8
+endDate: 2021-12-13T18:00:00.000Z
+description: Daniel y Desirée First Time in Ukraine 2021 in December
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F3qEdAZfNjzQAgmKVsMEovUblPxW2%2F5c30b808-3162-467d-bdf0-7bdc3c8fcaa7?alt=media&token=13939ba6-65bf-447c-bad4-919b61d2074a
+createdAt: 1632928661466
+watchersCount: 0
+price: "95 € / 3050 UAH till 31 october "
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FnSwXrucOW2Cmj5w0SNFp.png?generation=1633017789467098&alt=media
+commentsLast: ~
+id: nSwXrucOW2Cmj5w0SNFp
+place: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+views: 10
+updatedAt: 1632928661466
+updatedBy: 3qEdAZfNjzQAgmKVsMEovUblPxW2
+visibility: Public
+eventType: Congress
+organiser: Paulldu7
+form: No
+createdBy: 3qEdAZfNjzQAgmKVsMEovUblPxW2
+commentsCount: 0
+name: BACHATECUA - INTERNATIONAL BACHATA CONGRESS
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Kyiv
+  location:
+    country: Ukraine
+    latitude: 50.4501
+    locality: Kyiv
+    usedGps: false
+    place_id: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+    longitude: 30.5234
+startDate: 2021-12-09T17:00:00.000Z
+username: Paulldu7
+viewsCount: 13

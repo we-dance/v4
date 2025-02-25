@@ -1,0 +1,128 @@
+createdAt: 1704822896901
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1562404787629354/
+source: facebook
+updatedAt: 1704822896901
+username: wedancebot
+venue:
+  formatted_address: "1252 De Bleury #2, Montréal, QC H3B 2W4, Canada"
+  website: http://www.kizombacanada.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: KIZOMBA CANADA | DANCE STUDIO
+  geometry:
+    viewport:
+      southwest:
+        lng: -73.56798603029151
+        lat: 45.5047340697085
+      northeast:
+        lng: -73.5652880697085
+        lat: 45.5074320302915
+    location:
+      lng: -73.5666865
+      lat: 45.5060333
+  address_components:
+    - types:
+        - subpremise
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - street_number
+      short_name: "1252"
+      long_name: "1252"
+    - types:
+        - route
+      short_name: De Bleury
+      long_name: De Bleury
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ville-Marie
+      long_name: Ville-Marie
+    - types:
+        - locality
+        - political
+      short_name: Montréal
+      long_name: Montréal
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Montréal
+      long_name: Montréal
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Montréal
+      long_name: Montréal
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: QC
+      long_name: Québec
+    - types:
+        - country
+        - political
+      short_name: CA
+      long_name: Canada
+    - types:
+        - postal_code
+      short_name: H3B 2W4
+      long_name: H3B 2W4
+  international_phone_number: +1 514-654-9408
+  place_id: ChIJq6rq100ayUwRRp_Gcdk29UQ
+  url: https://maps.google.com/?cid=4968938071417855814
+visibility: Public
+endDate: ""
+org:
+  owner: ""
+  importedAt: 1704822898871
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/montrealiskizomba
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/397616394_819931226802981_1722110701057237512_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=101&ccb=1-7&_nc_sid=596444&_nc_ohc=GD4-t3YDFLcAX-IgY_v&_nc_ht=scontent-iad3-1.xx&oh=00_AfA0ISRYDiX4SXs4gBBRuwJ4W6V8qxmwcrdBT5o0gqjWFw&oe=65A1BAF1
+  source: facebook
+  type: Organiser
+  createdAt: 1704822898871
+  owned: false
+  name: Montreal Is Kizomba
+  updatedAt: 1704822898871
+  username: montrealiskizomba
+claimed: No
+facebookId: "1562404787629354"
+link: http://montrealiskizomba.com/passes
+description: >-
+  If you were at MIK 2023 you already know what to expect… 😜
+
+
+
+  #kizomba #dance #dancer #montrealiskizomba #montreal #montrealkizomba #kizombamontreal #kizombaaddict #kizombalove #kiz #kizpassion #kizombasemlimite #bootcampksl #kizlove #tarraxinha #semba #kizombasensual #kizombatime #timetodance #dancecongress #dancefestival #kizombaworkshop #dancing #dancefloor #kizombamagic #kizombasocial #angola #african #angoladançar #luanda
+program: []
+eventType: Congress
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Montreal Is Kizomba 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJDbdkHFQayUwR7-8fITgxTmU
+international: No
+hash: 1726862400000+ChIJq6rq100ayUwRRp_Gcdk29UQ
+startDate: 1726862400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPbmxgqCnm70yDbMD7UJb.png?generation=1704822914695755&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853186/l2lzf6qurnydffun8qms.jpg
+viewsCount: 20
+id: PbmxgqCnm70yDbMD7UJb

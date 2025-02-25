@@ -1,0 +1,47 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628777509703
+locales:
+  de: true
+  en: true
+createdBy: TVtXGUghFTfJdtU5uXwpbp3wGc02
+name: Henning
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Henning
+pwaUsed: false
+visibility: Members
+gender: Male
+learning: Zouk, Zouk, and more Zouk. Actually Brazilian Zouk 😉
+bio: Bringing Zouk to Munich 😀
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: ""
+partner: No
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1628780574947
+lastLoginAt: 1636055666404
+daysUsed: 2
+viewsCount: 1
+styles:
+  ForroLove:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Samba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Lambada:
+    level: Beginner
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Advanced
+    highlighted: false
+    selected: true
+id: TVtXGUghFTfJdtU5uXwpbp3wGc02

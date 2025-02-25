@@ -1,0 +1,140 @@
+venue:
+  formatted_address: Böckhstraße 21, 10967 Berlin, Germany
+  website: http://www.caminada.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "21"
+      short_name: "21"
+    - types:
+        - route
+      long_name: Böckhstraße
+      short_name: Böckhstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Friedrichshain-Kreuzberg
+      short_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10967"
+      short_name: "10967"
+  url: https://maps.google.com/?cid=2639942359527432436
+  name: La Caminada Tanzstudio
+  geometry:
+    viewport:
+      south: 52.49203981970851
+      north: 52.49473778029151
+      east: 13.4210531802915
+      west: 13.4183552197085
+    location:
+      lng: 13.4197042
+      lat: 52.49338880000001
+  international_phone_number: +49 30 6949744
+  place_id: ChIJAwhy0ctPqEcR9KAjx5b1oiQ
+endDate:
+  _seconds: 1638122400
+  _nanoseconds: 0
+organisedBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+claimed: Yes
+link: ""
+description: >-
+  This is the last Bachata Styling workshop this year, that you don’t wanna
+  miss! ❤️
+
+
+  28th of November 5pm - 7pm
+
+
+  We will have an intensive bachata styling workshop focusing on arms, turns and footwork and after it, we will tea, cupcakes to start this festive season 🎄
+
+
+  This is a 2G event only!
+
+
+  Price: 15 eur
+
+
+  To book your spot, send me a private message! 💛
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F3ucRV7NCdPMWMf2mHXAutsuorhm2%2Fb5ff3c7c-dad2-4bb3-9d00-62555836353c?alt=media&token=9151ecd4-3d3b-41db-98b8-7566050d01ed
+duration: "120"
+promo: Yes
+createdAt: 1637754840934
+watchersCount: 0
+price: 15EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6BWkveRA0Iu45gq6BJAa.png?generation=1637790594082049&alt=media
+commentsLast: ~
+promoter: eNm
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: 6BWkveRA0Iu45gq6BJAa
+promotedBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+international: No
+views: 6
+updatedAt: 1637754840934
+updatedBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+visibility: Public
+facebook: https://www.facebook.com/events/430431341824125
+eventType: Workshop
+organiser: eNm
+form: No
+createdBy: 3ucRV7NCdPMWMf2mHXAutsuorhm2
+commentsCount: 0
+name: Bachata Styling Workshop with Martyna
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  HighHeels:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-11-28T16:00:00.000Z
+username: eNm
+viewsCount: 73

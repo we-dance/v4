@@ -1,0 +1,114 @@
+venue:
+  formatted_address: Atelierstraße 1, 81671 München, Germany
+  website: http://werksviertel.de/
+  name: Werksviertel München
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6069047302915
+      south: 48.1242190197085
+      north: 48.1269169802915
+      west: 11.6042067697085
+    location:
+      lng: 11.605507
+      lat: 48.1257061
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Atelierstraße
+      long_name: Atelierstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Berg am Laim
+      long_name: Berg am Laim
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81671"
+      long_name: "81671"
+  place_id: ChIJVVXF13l1nkcRLxnD-Z-tt0I
+  international_phone_number: +49 89 41320430
+  url: https://maps.google.com/?cid=4807502029843011887
+claimed: No
+link: http://www.criadacasa.com/samba-congress-europe-2024
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkcOECRfxanV4j6Vq3uKGKA75ibt1%2Fbc02f178-3e6b-4a44-a57f-dd3cb7db7865?alt=media&token=a4aff114-1941-45bf-b1de-fe68988ec16d
+createdAt: 1691359448764
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+visibility: Public
+eventType: Congress
+form: No
+createdBy: kcOECRfxanV4j6Vq3uKGKA75ibt1
+watch:
+  count: 1
+  list:
+    irineunogueiradance: true
+name: International Samba Congress Europe
+online: No
+username: irineunogueiradance
+price: Early Bird Full Pass EUR 240
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+id: bfKeYIXLYMZpkbFFrVm2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1719763200000
+startDate: 1719554400000
+org:
+  youtube: ""
+  role: organiser
+  tiktok: ""
+  facebook: ""
+  name: Irineu Nogueira
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F65090691-7cbe-4134-bf9c-6f025cbc3a06?alt=media&token=210aaee5-2050-4515-9687-452abadb7711
+  bio: Irineu Nogueira is the artistic director of Praias do Isar Samba School and
+    offers Samba no Pé & Afro-Brazilian dance classes in Munich.
+  id: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+  instagram: https://instagram.com/irineunogueira
+  username: Irineunogueira
+updatedAt: 1698259139916
+facebookId: ""
+hash: 1719554400000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+viewsCount: 136

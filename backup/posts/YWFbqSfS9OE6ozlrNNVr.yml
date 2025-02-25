@@ -1,0 +1,102 @@
+venue:
+  website: http://www.schwanthalerhoehe.eu/den-8-stadtbezirk-entdecken/kurioses/
+  formatted_address: Am Bavariapark 5, 80339 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "5"
+      short_name: "5"
+    - types:
+        - route
+      long_name: Am Bavariapark
+      short_name: Am Bavariapark
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwanthalerhöhe
+      short_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80339"
+      short_name: "80339"
+  room: Area 1
+  url: https://maps.google.com/?cid=14566146086527860271
+  name: Große Schnecke
+  geometry:
+    viewport:
+      south: 48.1306182697085
+      north: 48.1333162302915
+      east: 11.5447371302915
+      west: 11.5420391697085
+    location:
+      lng: 11.5432825
+      lat: 48.1321465
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F87cef9de-1f69-4284-bdf3-f8baed9734bb?alt=media&token=e4f183be-8216-4ab2-b8d6-a7fdd069eaeb
+  place_id: ChIJV8gyiKzYnUcRL37w4bBYJco
+endDate:
+  _seconds: 1628967600
+  _nanoseconds: 0
+type: event
+cover: ""
+duration: 60
+createdAt: 1628933816791
+watchersCount: 0
+price: FREE
+commentsLast: ~
+id: YWFbqSfS9OE6ozlrNNVr
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1628933816791
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+viewsCount: 0
+eventType: Party
+organiser: alexrazbakov
+form: No
+createdBy: 5CqWN8mkSTNKB5UKoqvfXkY8zei2
+commentsCount: 0
+name: Bachata
+online: No
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-14T18:00:00.000Z
+username: Anonymous

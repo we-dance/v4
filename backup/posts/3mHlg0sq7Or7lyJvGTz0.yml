@@ -1,0 +1,168 @@
+endDate: 1728734400000
+sourceUrl: https://www.facebook.com/events/496081386645647/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1726513993000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726513993000
+facebookId: "496081386645647"
+facebook: https://www.facebook.com/events/496081386645647/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/496081386645647/
+eventType: Workshop
+providerItemId: e496081386645647@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: 2hr Beginner Bachata Drilling Workshop / 12.10.
+location: Hankasuontie 3, Helsinki, Finland
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728727200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Hankasuontie 3, 00390 Helsinki, Finland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Hankasuontie 3
+  geometry:
+    viewport:
+      southwest:
+        lng: 24.8434459697085
+        lat: 60.24519091970848
+      northeast:
+        lng: 24.8461439302915
+        lat: 60.2478888802915
+    location:
+      lng: 24.8449986
+      lat: 60.2467711
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Hankasuontie
+      long_name: Hankasuontie
+    - types:
+        - locality
+        - political
+      short_name: HKI
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Helsinki
+      long_name: Helsinki
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Uusimaa
+      long_name: Uusimaa
+    - types:
+        - country
+        - political
+      short_name: FI
+      long_name: Finland
+    - types:
+        - postal_code
+      short_name: "00390"
+      long_name: "00390"
+  place_id: ChIJMaVMEFH2jUYRVe6_O6JKgsc
+  url: https://maps.google.com/?q=Hankasuontie+3,+00390+Helsinki,+Finland&ftid=0x468df651104ca531:0xc7824aa23bbfee55
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418009066
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/helsinkisalsaacademy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418009/gurstcbiwzwagigbv9wr.png
+  source: facebook
+  type: Organiser
+  createdAt: 1728418009066
+  owned: false
+  name: Helsinki Salsa Academy
+  place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+  updatedAt: 1728418009066
+  username: helsinkisalsaacademy
+claimed: No
+link: https://holvi.com/shop/hsaworkshops/product/4e0ded7abb1b6bf33abfafe1951efda7/
+description: >+
+  
+  🎯The purpose of this workshop is for you to master fundamental bachata concepts. 
+
+
+  REGISTER HERE 👇
+
+  https://holvi.com/shop/hsaworkshops/product/4e0ded7abb1b6bf33abfafe1951efda7/
+
+
+  ✅ The idea of the workshop is that we will focus on developing your technical understanding of some of the concepts, go over the leading and following technique in a very detailed way and then focus on drilling (repeating) the concept over and over with the attempt for you to master it. 
+
+
+  ✅ We highly recommend these workshops for all beginner level bachata students. They are excellent as a supplementary training for your training team sessions. In the HSA training teams we attempt to introduce many different concepts and while we go over leading and following technique and details, to master the concepts often require additional repetition and drilling. You don't have to be an HSA student to participate. 
+
+
+  ✅ We have received a very good feedback from these workshops. While you master the fundamental concepts in a more thorough way toward the end of the workshop you will get to learn to apply the concepts in a more improvisational setting which then truly tests your ability to lead and follow in a freeform setting. 
+
+
+  These workshops are meant to be taken as a 2hr workshop.
+
+
+  📆 Date: Saturday 
+
+
+  🕰Time: 13:00 - 15:00 
+
+
+  REGISTER HERE 👇
+
+  https://holvi.com/shop/hsaworkshops/product/4e0ded7abb1b6bf33abfafe1951efda7/
+
+
+  Cost: 
+
+  25€ / When pre-registered by Thursday  
+
+  20€ / Current HSA Training team members (use code: “hsastudent”) when pre-registered by Thursday 
+
+
+  Door: 
+
+  30€ / Normal student price
+
+  25€ / Current HSA training team member 
+
+
+  📍Location: Hankasuontie 3, HSA Studio
+
+  (Same building as Musti & Mirri, entrance on the other side from the glass windbox, 2nd floor)
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418010/c0o5vtnlifuazhzzxein.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJkQYhlscLkkYRY_fiO4S9Ts0
+international: No
+hash: 1728727200000+ChIJMaVMEFH2jUYRVe6_O6JKgsc
+id: 3mHlg0sq7Or7lyJvGTz0

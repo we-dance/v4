@@ -1,0 +1,53 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631642835813
+createdBy: FENznuBOkqOy57RXQ05ivPweHPO2
+name: Math
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Math
+pwaUsed: false
+cities:
+  ChIJDyTsJFfSDQ0RADugjP1jBAQ: true
+updatedAt: 1631642952109
+locales:
+  de: true
+  en: true
+  es: true
+objectives:
+  learn: true
+  teach: true
+  outdoors: true
+  indoors: true
+  talk: true
+contacts: ""
+hometown: ChIJDyTsJFfSDQ0RADugjP1jBAQ
+gender: Male
+partner: Yes
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FFENznuBOkqOy57RXQ05ivPweHPO2%2Fb39a0478-232e-41ab-8a84-cd037a65326d?alt=media&token=8c353cb4-6451-418f-95d9-5df7daa4e858
+weight: "63"
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+height: "167"
+lastLoginAt: 1641996069221
+daysUsed: 22
+id: FENznuBOkqOy57RXQ05ivPweHPO2

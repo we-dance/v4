@@ -1,0 +1,189 @@
+endDate: 1717902000000
+sourceUrl: https://www.facebook.com/events/585702940352453/
+createdAt: 1711224661147
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1687371112000
+updatedAt: 1711224661147
+importedAt: 1711224661147
+providerUpdatedAt: 1705662046000
+facebookId: "585702940352453"
+facebook: https://www.facebook.com/events/585702940352453/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/585702940352453/
+eventType: Party
+providerItemId: e585702940352453@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Tropical Fiesta Beach Open Air XXL auf 2 Areas & Afterparty
+location: White Pearl Beach Club
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717858800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Werderstraße 58, 28199 Bremen, Germany
+  website: http://www.white-pearl-beach.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Beach Club White Pearl
+  geometry:
+    viewport:
+      southwest:
+        lng: 8.809668669708499
+        lat: 53.0674269197085
+      northeast:
+        lng: 8.812366630291503
+        lat: 53.07012488029149
+    location:
+      lng: 8.8112163
+      lat: 53.06889719999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "58"
+      long_name: "58"
+    - types:
+        - route
+      short_name: Werderstraße
+      long_name: Werderstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neustadt
+      long_name: Neustadt
+    - types:
+        - locality
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Bremen
+      long_name: Bremen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HB
+      long_name: Bremen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "28199"
+      long_name: "28199"
+  international_phone_number: +49 172 4586873
+  place_id: ChIJdcKXSwMosUcRJl5TamuuBMI
+  url: https://maps.google.com/?cid=13980490919633444390
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711224684422
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/comidalatinabremen
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224684/pmcav22wi74zs75kjq98.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711224684422
+  owned: false
+  name: Comida Latina Events
+  place: ChIJNePuDBAosUcRUd83-VyI6MI
+  updatedAt: 1711224684422
+  username: comidalatinabremen
+claimed: No
+link: https://www.eventbrite.de/e/663785489267
+description: >-
+  Das Original Tropical Fiesta dieses mal Beach Ediiton XXL Open Air.
+
+
+  Am Samstag den 08. Juni kommt die beliebteste OPEN AIR Party wieder direkt an die Weser, in Bremens exklusivsten Beachclub - White Pearl.  Diesmal sogar mit 2 Areas und einer Afterparty im Studio und Beluga Bar. 
+
+
+  WHITE PEARL BEACH CLUB BREMEN
+
+
+  Es wird gigantisch!
+
+
+  Ab 17:00 Uhr feiern wir unter freiem Himmel zu feurigen Tropical Beats! Deejay Toni, Djane Kizz  & MC / DJ Samuel bringen euch das Beste aus:
+
+
+  Extra Tropical Area.
+
+  Salsa I Bachata mit Feras.
+
+
+  Party Area: 
+
+  Best of Jaya Beats wie Reggaeton, Dembow, Pop, Dance-Hall, 90er, Funk-Brazil, Hip-Hop, Afro-Beats und Viel Mehr.!!
+
+
+  -----------SPECIALS--------
+
+  🔥2 AREAS
+
+  🔥Tanz und Samba-Show 
+
+  🔥4 International Djs
+
+  🔥Leckere Tropical Drinks
+
+  🔥Special Snacks
+
+  🔥Schönster Sonnenuntergang in Bremen mit Blick auf die Weser.
+
+  🔥 After-Party ab 23:00 Uhr im Amelie Club.
+
+
+
+  Freut euch auf Latin- und Karibik- Feeling Pur!
+
+
+  ⬇️⬇️⬇️⬇️
+
+
+  Vorverkauf Preis 12€ - Abendkasse 15 € (falls noch Plätze frei sind)
+
+  Hausrecht:
+
+  Das Lokal behält sich das Hausrecht vor.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711224686/wut16spmawnt9pkkm3fz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNePuDBAosUcRUd83-VyI6MI
+international: No
+hash: 1717858800000+ChIJdcKXSwMosUcRJl5TamuuBMI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTxhNnew2kBiY19Lz4zy0.png?generation=1711224722227659&alt=media
+viewsCount: 1
+id: TxhNnew2kBiY19Lz4zy0

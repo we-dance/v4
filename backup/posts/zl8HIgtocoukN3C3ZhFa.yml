@@ -1,0 +1,55 @@
+endDate:
+  _seconds: 1627493400
+  _nanoseconds: 0
+description: >-
+  Son Moderno is a new dance, an evolution from traditional Son Cubano (the
+  father of salsa). Son Moderno integrates different dances in one new fresh
+  style without modifying the roots of traditional Son.
+
+  We are looking forward to sharing this elegant dance with you.
+type: event
+duration: "30"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fvew5WNYPxAXhWfD427hsBTZZUg73%2Face289e1-473c-44d5-88ff-7cb6f8c00323?alt=media&token=6b8db2c4-c751-408d-a99b-80cef7628ffb
+createdAt: 1626185298626
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fzl8HIgtocoukN3C3ZhFa.png?generation=1626188865623208&alt=media
+commentsLast: ~
+id: zl8HIgtocoukN3C3ZhFa
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 2
+updatedAt: 1626185298626
+updatedBy: vew5WNYPxAXhWfD427hsBTZZUg73
+address: Pinakothek der Moderne
+visibility: Public
+eventType: Workshop
+form: No
+createdBy: vew5WNYPxAXhWfD427hsBTZZUg73
+commentsCount: 0
+name: Son Moderno Munich - Free Taster
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-07-28T17:00:00.000Z
+username: annema_st
+viewsCount: 32

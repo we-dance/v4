@@ -1,0 +1,76 @@
+venue:
+  website: http://www.kievcity.gov.ua/
+  formatted_address: Kyiv, Ukraine, 02000
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Kyiv
+      short_name: Kyiv
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Kyiv City
+      short_name: Kyiv City
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "02000"
+      short_name: "02000"
+  url: https://maps.google.com/?q=Kyiv,+Ukraine,+02000&ftid=0x40d4cf4ee15a4505:0x764931d2170146fe
+  name: Kyiv
+  geometry:
+    viewport:
+      south: 50.21327301525928
+      north: 50.59079800991073
+      east: 30.82594104187906
+      west: 30.23944009690609
+    location:
+      lng: 30.5234
+      lat: 50.4501
+  place_id: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+endDate: 2022-03-07T19:00:00.000Z
+link: https://www.kyivdancefestival.com/
+description: https://www.kyivdancefestival.com/
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+duration: custom
+createdAt: 1631880591450
+watchersCount: 0
+price: TICKETS
+commentsLast: ~
+id: NfeCdArGVH1jhZCdGSzH
+place: ""
+views: 3
+updatedAt: 1631880591450
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: Kyiv Dance Festival
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2022-03-03T18:00:00.000Z
+username: Promoter
+viewsCount: 8
+star:
+  count: 1
+  list:
+    alejito: true

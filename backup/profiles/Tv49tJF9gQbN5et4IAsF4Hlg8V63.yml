@@ -1,0 +1,33 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628751636413
+locales:
+  de: true
+createdBy: Tv49tJF9gQbN5et4IAsF4Hlg8V63
+name: Flo.Oteca
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+username: Flo.Oteca
+pwaUsed: false
+gender: Male
+partner: No
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FTv49tJF9gQbN5et4IAsF4Hlg8V63%2Fe8ea3472-a9f9-4e25-a121-3372e3d615c2?alt=media&token=dd3b6c5d-ea5e-4104-907f-21926c95d9af
+styles:
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: ""
+permission: No
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+  ChIJ04-twTTbmUcR5M-RdxzB1Xk: true
+updatedAt: 1629805136100
+lastLoginAt: 1676911704290
+daysUsed: 9
+viewsCount: 44
+id: Tv49tJF9gQbN5et4IAsF4Hlg8V63

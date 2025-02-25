@@ -1,0 +1,144 @@
+venue:
+  formatted_address: Hans-Sachs-Straße 8, 76133 Karlsruhe, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Hans-Sachs-Straße 8
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.387404030291501
+      south: 49.0070471697085
+      north: 49.0097451302915
+      west: 8.384706069708496
+    location:
+      lng: 8.3858415
+      lat: 49.008206
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Sachs-Straße
+      long_name: Hans-Sachs-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Weststadt
+      long_name: Weststadt
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76133"
+      long_name: "76133"
+  place_id: ChIJgUumblgGl0cRo-bDAGWYTVM
+  url: https://maps.google.com/?q=Hans-Sachs-Stra%C3%9Fe+8,+76133+Karlsruhe,+Germany&ftid=0x479706586ea64b81:0x534d986500c3e6a3
+claimed: No
+link: https://www.tickettailor.com/events/social/958536
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2F0ad134b9-0410-41a6-81ce-e3d9f428edf2?alt=media&token=89b83d14-2d34-4d7e-a577-8ad55e34b6f8
+createdAt: 1689512111658
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+international: No
+updatedBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/itssocialdance
+  name: socialdance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2F663ed559-5b51-436e-b43e-a25d9d0de48a?alt=media&token=87ec95d0-2ff8-4a20-8f10-3608c28a3fea
+  bio: "Bachata and Salsa workshops and socialdances
+
+
+    \ "
+  id: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+  instagram: https://instagram.com/itssocialdance
+  username: socialdance
+eventType: Congress
+form: No
+createdBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+watch:
+  count: 1
+  list:
+    socialdance: true
+name: Maverick Bachata Day
+online: No
+styles:
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+username: socialdance
+id: ixFs7JApZpzAurEKvQ0H
+facebook: https://www.tickettailor.com/events/social/958536
+price: 70 EUR
+program: []
+artists:
+  - role: instructor
+    instagram: https://instagram.com/luismiymariangela
+    username: luismiymariangela
+artistsList:
+  - luismiymariangela
+description: >-
+  Join us for our first Maverick Bachata Day. We have International bachata
+  artists. LuismiyMariangela are flying from Seville, Emi&Alara driving from
+  Augsburg, Guillermo&Anastasia from Stuttgart and Ricky&Florence from Freiburg.
+
+
+  ## Event Schedule
+
+  -11 am partnerwork open level by LuismiyMariangela
+
+  - 12 pm partnerwork improver-Intermediate by LuismiyMariangela
+
+  - 1pm-3pm Pause for lunch. Social dance at the lobby
+
+  - 3 pm partnerwork open level by Ricky&Florence
+
+  - 4pm partnerwork intermediate-advanced by LuismiyMariangela
+
+  - 5pm sensual combination by Ricky&Florence
+
+  - 6pm-8pm pause for dinner. Social dance at the lobby.
+
+  - 8pm bachata fusion by Emerson y Alara
+
+  - 9pm bachata musicality by Guillermo y Anastasia
+
+  - 10.00 pm DJ Flo & DJ Papito
+endDate: 1706414400000
+startDate: 1706353200000
+updatedAt: 1704479036842
+star:
+  count: 0
+  usernames: []
+  list: {}
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FixFs7JApZpzAurEKvQ0H.png?generation=1704911568626807&alt=media
+viewsCount: 95

@@ -1,0 +1,199 @@
+isNew: true
+facebookId: "1189517755471959"
+facebookUrlsList:
+  - https://www.facebook.com/events/1189517755471959/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729432827183
+updatedAt: 1729432827183
+importedAt: 1729432827183
+providerId: te5o6z1Subn2jDFbMi9r
+providerItemId: e1189517755471959@facebook.com
+name: Noche Latina de emoción
+providerCreatedAt: 1729363872000
+providerUpdatedAt: 1729364205000
+startDate: 1731174300000
+endDate: 1731204000000
+facebook: https://www.facebook.com/events/1189517755471959/
+sourceUrl: https://www.facebook.com/events/1189517755471959/
+location: Unterhaching / München
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: Unterhaching
+      short_name: Unterhaching
+      types:
+        - locality
+        - political
+    - long_name: Munich
+      short_name: Munich
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Upper Bavaria
+      short_name: Upper Bavaria
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bavaria
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+  formatted_address: Unterhaching, Germany
+  geometry:
+    location:
+      lat: 48.0653989
+      lng: 11.6224237
+    viewport:
+      northeast:
+        lat: 48.08731003151552
+        lng: 11.65048279749413
+      southwest:
+        lat: 48.05234021994772
+        lng: 11.59300577006011
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Unterhaching
+  place_id: ChIJz8Vi0BvenUcRF2mAIcGUvCU
+  url: https://maps.google.com/?q=Unterhaching,+Germany&ftid=0x479dde1bd062c5cf:0x25bc94c121806917
+  website: http://www.unterhaching.de/
+visibility: Public
+org:
+  id: NXvPMitf8BOu1zXUPJx4
+  username: dj.mixmillion
+  name: DJ MixMillion
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1706974992/s6kqozqy204wuigb06qz.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/djmixmillion1
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >
+  Juhuuu🥳 𝐞𝐬 𝐢𝐬𝐭 𝐰𝐢𝐞𝐝𝐞𝐫 𝑵𝒐𝒄𝒉𝒆 𝑳𝒂𝒕𝒊𝒏𝒂 𝒅𝒆 𝒆𝒎𝒐𝒄𝒊𝒐𝒏
+  𝐢𝐦 𝐓𝐚𝐧𝐳𝐇𝐚𝐮𝐬 𝐞𝐦𝐨𝐭𝐢𝐨𝐧 🤗
+
+
+  𝐁𝐚𝐜𝐡𝐚𝐭𝐚 𝐖𝐨𝐫𝐤𝐬𝐡𝐨𝐩𝐬 𝐦𝐢𝐭 𝐌𝐢𝐠𝐨 𝐮𝐧𝐝 𝐎𝐥𝐞𝐬𝐲𝐚 💃 🕺
+
+  🌟 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀: 𝟭𝟗:𝟬𝟬 - 𝟮𝟏:𝟬𝟬 𝗨𝗵𝗿
+
+  19 - 20 Uhr Bachata Fusion (Open Level)
+
+  20 - 21 Uhr Bachata Fusion (Intermediate)
+
+
+
+  🌟 𝗣𝗮𝗿𝘁𝘆 𝗮𝗯 𝟮𝟭:𝟭𝟬 𝗨𝗵𝗿
+
+  🎶 𝗣𝗮𝗿𝘁𝘆𝗳𝗹𝗼𝗼𝗿 𝟭
+
+  UrbanKiz, Kizomba, Tarraxo, GhettoZouk, Douceur, Semba
+
+  𝐃𝐉 𝐃𝐢𝐧𝐨 (Stuttgart - zum ersten Mal im TanzHaus emotion)
+
+  𝗗𝗝 𝗠𝗶𝘅𝗠𝗶𝗹𝗹𝗶𝗼𝗻
+
+
+
+  🎶 𝗣𝗮𝗿𝘁𝘆𝗳𝗹𝗼𝗼𝗿 𝟮
+
+  Salsa Cubana und Linie, Bachata Dominicana und Sensual
+
+  𝗗𝗝 𝗠𝗶𝗴𝗼
+
+
+
+  🌟 𝗣𝗿𝗲𝗶𝘀𝗲
+
+  WORKSHOPS:
+
+  1 WS: 15€
+
+  2 WS: 25€
+
+  2WS + Party: 35€
+
+
+  NUR PARTY p.P.: 13€
+
+
+
+  𝗔𝗻𝗺𝗲𝗹𝗱𝗲𝗳𝗼𝗿𝗺𝘂𝗹𝗮𝗿 𝗳ü𝗿 𝗱𝗶𝗲 𝗞𝘂𝗿𝘀𝗲:
+
+  http://tinyurl.com/...kommt noch...:-)
+
+
+
+  𝗨𝗻𝘀𝗲𝗿𝗲 𝗻ä𝗰𝗵𝘀𝘁𝗲𝗻 𝗧𝗲𝗿𝗺𝗶𝗻𝗲:
+
+  Sa 28.12.24 X-mas edition
+
+  Sa 25.01.25 Noche Latina
+
+  Sa 08.02.25 Noche Latina
+
+  Sa 08.03.25 Noche Latina
+
+  more dates tba
+
+
+
+  Tanzhaus emotion
+
+  Bar & Eventmanagement
+
+  Biberger Straße 91
+
+  82008 Unterhaching
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729432841/vixak7wewv4hyixjnbzl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJz8Vi0BvenUcRF2mAIcGUvCU
+international: No
+hash: 1731174300000+ChIJz8Vi0BvenUcRF2mAIcGUvCU
+viewsCount: 2
+id: E9GGbmCqIenJIRg7nhqc

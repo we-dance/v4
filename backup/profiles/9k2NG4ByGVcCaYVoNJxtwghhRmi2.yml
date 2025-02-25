@@ -1,0 +1,56 @@
+visibility: Public
+timezone: GMT+0200
+createdAt: 1624899516282
+createdBy: 9k2NG4ByGVcCaYVoNJxtwghhRmi2
+name: Leslie_Nox
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Leslie_Nox
+pwaUsed: false
+gender: Male
+bio: >-
+  Leslie is a dynamic and diverse dance instructor, who teaches Salsa, Bachata
+  and Kizomba. Out of the three, Bachata and Kizomba are definitely his
+  preferred dances.
+
+  In his classes, Leslie doesn’t only want to teach his students “the right steps” but support them to also explore their creativity and capability of expressing themselves through the dance. He dislikes any kind of rigid sequences to be memorized and instead enjoys seeing his students develop their own unique groove.
+
+  His philosophy of teaching is to combine different styles and rhythms.
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9k2NG4ByGVcCaYVoNJxtwghhRmi2%2F8f151e8b-290d-4a4a-9110-d8c71fc6782f?alt=media&token=2494aea2-04f7-423e-ab04-959e167c9189
+permission: Yes
+type: Artist
+locales:
+  de: true
+  en: true
+teacher: Yes
+partner: No
+objectives: {}
+styles:
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+email: info@tumbao-danzas.de
+contacts: Yes
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FLeslie_Nox.png?generation=1624961900157763&alt=media
+website: https://www.tumbao-danzas.de
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: 9k2NG4ByGVcCaYVoNJxtwghhRmi2
+daysUsed: 6
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+updatedAt: 1645618665171
+lastLoginAt: 1645619591473
+instagram: https://instagram.com/l_a.wilson
+viewsCount: 1

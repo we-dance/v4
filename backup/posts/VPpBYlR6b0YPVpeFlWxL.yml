@@ -1,0 +1,205 @@
+endDate: 1720972800000
+sourceUrl: https://www.facebook.com/events/351570271151327/
+createdAt: 1718373634033
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1706168842000
+updatedAt: 1718373634033
+importedAt: 1718373634033
+providerUpdatedAt: 1718322324000
+facebookId: "351570271151327"
+facebook: https://www.facebook.com/events/351570271151327/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/351570271151327/
+eventType: Concert
+providerItemId: e351570271151327@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: BACHATA FLAVORS - Summer Edition Hamburg 2024 - promocode GOS173
+location: Hamburg
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1720809000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Klosterstraße 44, 10179 Berlin, Germany
+  website: https://beacons.ai/mahirbachata
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Bachata dance classes Berlin
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4105986697085
+        lat: 52.5163603197085
+      northeast:
+        lng: 13.4132966302915
+        lat: 52.5190582802915
+    location:
+      lng: 13.4117099
+      lat: 52.51780189999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "44"
+      long_name: "44"
+    - types:
+        - route
+      short_name: Klosterstraße
+      long_name: Klosterstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10179"
+      long_name: "10179"
+  place_id: ChIJ_zHLTf1PqEcRgVlOjdmr_uI
+  url: https://maps.google.com/?cid=16356699847523195265
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: >-
+  Bachata Flavors - Summer Edition Hamburg 2024
+
+
+  We are so happy to announce that CHRIS PARADISE is coming to HAMBURG CITY
+
+
+  It will be an unforgettable experience for Bachata dancers of all levels.
+
+
+  🎤 Live Concert with Chris Paradise
+
+
+  LINE-UP:
+
+  - Nora (CZ)
+
+  - Owen and Eva ( UK )
+
+  - Jesus and Jules (ES and AU)
+
+  - Lara and Bella (DE)
+
+  - Denis and Mariana ( DE)
+
+  - Anna Lena and Elvis (DE and LU)
+
+  - Greg (PT)
+
+
+  What to Expect:
+
+
+  - Over 15 Hours of Workshops featuring Top International and National Talent
+
+  - 3 social nights
+
+  - Professional Photographer 📸
+
+
+  Schedule:
+
+  Stay tuned for the Full Schedule...
+
+
+  Venue:
+
+  Location to be announced soon...
+
+
+  PRICES & CONDITIONS
+
+  Fullpass:
+
+  Follower: 99 €
+
+  Leader: 99 €
+
+  Couplepass: 165€
+
+
+  🔥🔥With promocode GOS173 you receive 10€ discount! 🔥🔥
+
+  Buy your pass with discount here:
+
+  https://www.goandance.com/en/e/6613?promoter=GOS173
+
+
+
+  Cancellation:
+
+  Tickets are non-refundable and purchases are final. But you can sell the tickets and change the name of the passes until 30.June.2024 for a small amount of 5 €.
+
+
+  *** In case of ticket name change please email nskanthbw@gmail.com with the first and last name + email address of current ticket holder and first and last name + email address of new ticket holder.
+
+
+  Contact Details:
+
+  nskanthbw@gmail.com
+
+  0151-71800213
+
+
+  or
+
+  keepintouch24@hotmail.de
+
+  0176 - 41233643
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718373664/yj4p713znbvl2fihspzq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+hash: 1720809000000+ChIJ_zHLTf1PqEcRgVlOjdmr_uI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVPpBYlR6b0YPVpeFlWxL.png?generation=1718373677536374&alt=media
+viewsCount: 3
+id: VPpBYlR6b0YPVpeFlWxL

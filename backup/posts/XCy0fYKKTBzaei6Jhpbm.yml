@@ -1,0 +1,147 @@
+venue:
+  formatted_address: Schwere-Reiter-Str. 2, 80797 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Schwere-Reiter-Str. 2
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5508060802915
+      south: 48.15832656970849
+      north: 48.16102453029149
+      west: 11.5481081197085
+    location:
+      lng: 11.5493422
+      lat: 48.15962
+  address_components:
+    - types:
+        - street_number
+      short_name: "2"
+      long_name: "2"
+    - types:
+        - route
+      short_name: Schwere-Reiter-Str.
+      long_name: Schwere-Reiter-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neuhausen-Nymphenburg
+      long_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80797"
+      long_name: "80797"
+  place_id: ChIJE2BnCHN2nkcRXVg6fwWU1aI
+  url: https://maps.google.com/?q=Schwere-Reiter-Str.+2,+80797+M%C3%BCnchen,+Germany&ftid=0x479e767308676013:0xa2d594057f3a585d
+endDate: 1699750800000
+claimed: No
+link: www.criadacasa.com/praiasdoisar
+description: >-
+  Praias do Isar 1st anniversary celebration! Percussion and Dance Workshops,
+  Parties, Performances and Special Guests! Join us!
+
+  Registration is now open! Choose your passes here:
+
+  https://www.criadacasa.com/praiasdoisar
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FzxvU2dkJKhdykUY8UXd3utrK9Wv2%2Fa0052683-561f-4150-81c8-b20cc96bc757?alt=media&token=4c59bd3e-eefb-41b1-869a-a03bb88f918f
+createdAt: 1698836800818
+playlist: https://open.spotify.com/playlist/4yu0Z39sVoEtm1QbPeMj4g?si=BqNJrOJAQQSsUPaP4cG2wQ
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Vando Oliveira
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F00899c0d-257d-4353-acc9-667b3fa0bc18?alt=media&token=354f7004-e9ca-49f7-a22d-9b1e879acd27
+    bio: |-
+      Conta oficial
+      Sou brazuca/RJ - Moro na Alemanha 🇩🇪
+      Embaixador do Samba na Alemanha
+      Cantor:
+      Samba, MPB, Pagode e por aí 🎶🎤
+      💍❤️
+      🇧🇷🌍
+      Um dia de cada vez
+    id: CTDDKogIv5UZnf1Hz3CU
+    instagram: https://instagram.com/vandooliveiraoficial
+    username: vandooliveiraoficial
+price: "15 EUR "
+review: www.praisdoisar.de
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - vandooliveiraoficial
+international: No
+gallery: www.praiasdoisar.de
+updatedAt: 1698836800818
+updatedBy: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Irineu Nogueira
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F65090691-7cbe-4134-bf9c-6f025cbc3a06?alt=media&token=210aaee5-2050-4515-9687-452abadb7711
+  bio: Irineu Nogueira is the artistic director of Praias do Isar Samba School and
+    offers Samba no Pé & Afro-Brazilian dance classes in Munich.
+  id: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+  instagram: https://instagram.com/irineunogueira
+  username: Irineunogueira
+facebook: https://facebook.com/events/s/praias-do-isar-anniversary-wee/258497676688376/
+eventType: Party
+form: No
+createdBy: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+watch:
+  count: 1
+  list:
+    Irineunogueira: true
+name: Praias do Isar Celebration Event
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1699729200000
+username: Irineunogueira
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FXCy0fYKKTBzaei6Jhpbm.png?generation=1698836819670935&alt=media
+telegram:
+  messageUrl: https://t.me/WeDanceMunich/1220
+  publishedAt: 1698836876659
+  messageId: 1220
+  state: published
+instagram:
+  messageUrl: https://instagram.com/p/CzGebA4uHp6
+  publishedAt: 1698836876659
+  messageId: CzGebA4uHp6
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 41
+id: XCy0fYKKTBzaei6Jhpbm

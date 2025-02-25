@@ -1,0 +1,122 @@
+venue:
+  formatted_address: Theresienstraße 6, 85049 Ingolstadt, Germany
+  name: Theresienstraße 6
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4243672302915
+      south: 48.76264146970849
+      north: 48.76533943029149
+      west: 11.4216692697085
+    location:
+      lng: 11.4236799
+      lat: 48.7639858
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Theresienstraße
+      long_name: Theresienstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt Südwest
+      long_name: Altstadt Südwest
+    - types:
+        - locality
+        - political
+      short_name: Ingolstadt
+      long_name: Ingolstadt
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Ingolstadt
+      long_name: Kreisfreie Stadt Ingolstadt
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85049"
+      long_name: "85049"
+  url: https://maps.google.com/?q=Theresienstra%C3%9Fe+6,+85049+Ingolstadt,+Germany&ftid=0x479efe511c3dc72d:0x3fa2e17e6c81beca
+  place_id: ChIJLcc9HFH-nkcRyr6BbH7hoj8
+endDate: 2023-05-25T21:30
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FVj0IGZeTlJgitzdkn77GWBGrMWf2%2F17db6ba3-d5ef-4220-b657-4f0b3244aa64?alt=media&token=590a22a0-9e9c-4491-834b-7d1ff8671627
+duration: 60
+createdAt: 1682937977738
+price: 11 EUR
+socialCover: ""
+place: ChIJuwo2iFH-nkcR6op0EyJ-Xew
+international: No
+updatedAt: 1682937977738
+updatedBy: Vj0IGZeTlJgitzdkn77GWBGrMWf2
+star:
+  count: 0
+  list: {}
+visibility: Public
+upVotes: 0
+telegram: {}
+eventType: Workshop
+form: No
+createdBy: Vj0IGZeTlJgitzdkn77GWBGrMWf2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Bachata Lady Styling
+online: No
+votes: 0
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-25T20:00
+username: Kllyric
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: lucia_nemec
+    photo: ""
+    bio: ""
+    id: FD3jVOu5F7wG1iA9XssR
+    instagram: https://instagram.com/lucia_nemec
+    username: lucia_nemec
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: lucia_nemec
+  photo: ""
+  bio: ""
+  id: FD3jVOu5F7wG1iA9XssR
+  instagram: https://instagram.com/lucia_nemec
+  username: lucia_nemec
+artistsList:
+  - lucia_nemec
+id: UXj3SGUfooP8k5kMcwR3
+viewsCount: 31

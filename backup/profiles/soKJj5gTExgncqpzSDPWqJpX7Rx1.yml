@@ -1,0 +1,64 @@
+community: Munich
+createdAt: 1600456311183
+createdBy: soKJj5gTExgncqpzSDPWqJpX7Rx1
+name: Tania
+username: Leta
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FsoKJj5gTExgncqpzSDPWqJpX7Rx1%2F396a3e3e-62ea-49e8-9014-7f1f44027cb4?alt=media&token=76507acb-8f51-4546-b5f4-ba1c4bfa76f7
+step: photo
+partner: ""
+newsletter:
+  festival: true
+  workshop: true
+  online: true
+  class: true
+  party: true
+teacher: No
+languages: English, Russian, Belarusian, German
+visibility: Public
+location:
+  country: Germany
+  latitude: 48.1351253
+  locality: Munich
+  usedGps: false
+  place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  longitude: 11.5819806
+type: Dancer
+height: "160"
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FLeta.png?generation=1614339970744244&alt=media
+locales:
+  de: true
+  be: true
+  ru: true
+  en: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+language: en
+pwaUsed: false
+styles:
+  Ballroom:
+    level: Intermediate
+    selected: true
+  Bachata:
+    level: Intermediate
+    selected: true
+  Salsa:
+    level: Intermediate
+    selected: true
+  Latin:
+    level: Intermediate
+    selected: true
+objectives:
+  learn: true
+  outdoors: true
+hometown: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+cities: {}
+permission: ""
+bannerNps: no
+bannerV3Beta: no
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1668210970704
+daysUsed: 45
+lastLoginAt: 1705583408973
+viewsCount: 9
+id: soKJj5gTExgncqpzSDPWqJpX7Rx1

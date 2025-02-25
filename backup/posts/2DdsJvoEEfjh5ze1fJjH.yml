@@ -1,0 +1,104 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/mambo-italiano/
+name: Mambo Italiano 2025
+sourceUrl: https://facebook.com/events/1136165267501975
+venue:
+  address_components:
+    - long_name: "7"
+      short_name: "7"
+      types:
+        - street_number
+    - long_name: Viale del Monte Oppio
+      short_name: Vle del Monte Oppio
+      types:
+        - route
+    - long_name: Roma
+      short_name: Roma
+      types:
+        - locality
+        - political
+    - long_name: Roma
+      short_name: Roma
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Città metropolitana di Roma Capitale
+      short_name: RM
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Lazio
+      short_name: Lazio
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Italy
+      short_name: IT
+      types:
+        - country
+        - political
+    - long_name: "00184"
+      short_name: "00184"
+      types:
+        - postal_code
+  formatted_address: Vle del Monte Oppio, 7, 00184 Roma RM, Italy
+  geometry:
+    location:
+      lat: 41.8939645
+      lng: 12.498166
+    viewport:
+      northeast:
+        lat: 41.8953298802915
+        lng: 12.4994964802915
+      southwest:
+        lat: 41.8926319197085
+        lng: 12.49679851970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +39 06 487 3177
+  name: Palazzo Brancaccio
+  place_id: ChIJEdi7dLthLxMREUyzTgnNHZE
+  url: https://maps.google.com/?cid=10456739349682932753
+  website: http://www.palazzobrancaccio.com/
+endDate: 1748900700000
+claimed: No
+link: https://thedancehouse.eu/
+description: "Next year we meet, in the prettiest venue, ten minutes walk from
+  the colosseum, to celebrate our beloved dance, our friendship, to tell the
+  world we are here, Mambo is forever alive, in a city that will make your heart
+  beat stronger than ever.. Mambo, the Italian way! "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/dmvzklfpwuzuinylut8b.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJO60UUhakbocRUl9WYXFIgrM
+international: No
+visibility: Public
+org:
+  id: aKbPrfT10aTVV3Y5IRPi
+  username: thedancehouse.events
+  name: Thedancehouse
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953637/kgiyiijucedgccisugh5.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/thedancehouse.events
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1136165267501975/
+facebookId: "1136165267501975"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles: {}
+hash: 1748538000000+ChIJEdi7dLthLxMREUyzTgnNHZE
+startDate: 1748538000000
+id: 2DdsJvoEEfjh5ze1fJjH

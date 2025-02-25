@@ -1,0 +1,106 @@
+venue:
+  formatted_address: 18-20 Av. Edmond Berges, 32190 Vic-Fezensac, France
+  name: Arenes Joseph Fourniol
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 0.298791930291502
+      south: 43.7562278197085
+      north: 43.7589257802915
+      west: 0.2960939697084979
+    location:
+      lng: 0.2973431
+      lat: 43.7576034
+  address_components:
+    - types:
+        - street_number
+      short_name: 18-20
+      long_name: 18-20
+    - types:
+        - route
+      short_name: Av. Edmond Berges
+      long_name: Avenue Edmond Berges
+    - types:
+        - locality
+        - political
+      short_name: Vic-Fezensac
+      long_name: Vic-Fezensac
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gers
+      long_name: Gers
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Occitanie
+      long_name: Occitanie
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "32190"
+      long_name: "32190"
+  url: https://maps.google.com/?cid=15725145059101061000
+  place_id: ChIJFdh5hiz1qRIRiC81qR3wOto
+  international_phone_number: +33 5 62 06 34 90
+endDate: 2022-07-31T00:00
+claimed: No
+link: https://tempo-latino.festik.net/tempo-latino-social-club-jeudi/1
+description: 1st European Latin and Afro-Cuban Music Festival
+type: event
+duration: custom
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F205d5dae-d6cd-426e-bc6c-4eada5857e08?alt=media&token=c84acdf5-824f-4898-8f31-6c31a4a68466
+createdAt: 1656187522877
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Alain Rueda & Katerina Mik
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Falain_katerina.png?generation=1655307195916415&alt=media
+    bio: |-
+      Cuban salsa teachers @_katerina_mik @alain_rueda
+      🇨🇺💃🕺/ 📍France 🇫🇷
+    instagram: https://instagram.com/alain_katerina
+    id: WFDzGLYtaIQW4EGHUS2a
+    username: alain_katerina
+price: 15,80 EUR
+artistsList:
+  - alain_katerina
+international: No
+updatedAt: 1656187522877
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: tempolatino
+  username: tempolatino
+facebook: https://www.facebook.com/events/3236857993252039
+eventType: Festival
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Tempo Latino
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-28T18:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FrASCD7gHsjqZJge98HHw.png?generation=1656187562539771&alt=media
+id: rASCD7gHsjqZJge98HHw
+place: ChIJVWWIa9KKqRIRCdQnwMT-SF0
+viewsCount: 3

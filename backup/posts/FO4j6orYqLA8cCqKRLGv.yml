@@ -1,0 +1,133 @@
+artists: []
+artistsList: []
+program: []
+createdAt: 1732218443594
+updatedAt: 1732218443594
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+username: AnnaMil
+hash: 1734026400000+ChIJizZm7SzfnUcReEq64_fj2VQ
+org:
+  username: AnnaMil
+international: No
+type: event
+form: No
+online: No
+price: 12,50 EUR
+startDate: 1734026400000
+description: >-
+  Bachata Beginner Partnerwork
+
+  📍Anna Milite - Dance & Dream Flößergasse 8💰
+
+
+  In this course we will get into the modern Bachata Sensual style and learn the first basic steps, movements, fundamental methods and dance elements of this beautiful dance style.
+
+
+  Registration without a partner is also possible!
+
+
+  EUR 12,50 per h // 1 Month 50 EUR
+
+
+  Urban Sport Club Member & Wellpass Member are welcome.
+duration: 60
+claimed: No
+endDate: 1734030000000
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F7ddc1ee1-66e4-4d2c-8092-57077a00dbe7?alt=media&token=68890b1c-561e-4a5a-98d8-323f806f48b1
+visibility: Public
+styles:
+  SensualBachata:
+    highlighted: false
+    level: Interested
+    selected: true
+  BachataModerna:
+    selected: true
+    highlighted: false
+    level: Interested
+  DominicanBachata:
+    selected: true
+    level: Interested
+    highlighted: false
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Bachata Beginner
+eventType: Course
+venue:
+  html_attributions: []
+  international_phone_number: +49 89 45213955
+  url: https://maps.google.com/?cid=6114168622949223032
+  place_id: ChIJizZm7SzfnUcReEq64_fj2VQ
+  website: http://www.silver-stage.de/
+  formatted_address: Flößergasse 8, 81369 München, Germany
+  address_components:
+    - long_name: "8"
+      types:
+        - street_number
+      short_name: "8"
+    - types:
+        - route
+      long_name: Flößergasse
+      short_name: Flößergasse
+    - long_name: Sendling
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - short_name: Oberbayern
+      long_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+    - long_name: Germany
+      types:
+        - country
+        - political
+      short_name: DE
+    - types:
+        - postal_code
+      short_name: "81369"
+      long_name: "81369"
+  name: Silver-Stage
+  username: www.silver-stage.de
+  geometry:
+    location:
+      lng: 11.537758
+      lat: 48.104722
+    viewport:
+      east: 11.5392041802915
+      south: 48.1032923697085
+      west: 11.5365062197085
+      north: 48.1059903302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+id: FO4j6orYqLA8cCqKRLGv
+recurrence:
+  freq: never
+  days: {}
+  untilDate: ""
+link: https://forms.gle/DreFxWY23mN8Q1og9
+seriesId: DQR4gRxDQxyHZNFTrB28
+viewsCount: 2

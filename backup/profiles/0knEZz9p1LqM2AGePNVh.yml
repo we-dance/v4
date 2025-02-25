@@ -1,0 +1,36 @@
+owner: ""
+importedAt: 1711224687408
+import: success
+visibility: Public
+facebook: https://www.facebook.com/kmadevents
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224687/wuahxbsuz8tphvg2fs9k.jpg
+source: facebook
+type: Organiser
+createdAt: 1711224687408
+owned: false
+name: K'Mad'Events
+place: ChIJc8r44c9unUcRDZsdKH0cIJ0
+updatedAt: 1711224687408
+username: kmadevents
+watch:
+  count: 1
+  usernames:
+    - Izzy
+  history:
+    - username: Izzy
+      date: 1719231504527
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719231514581
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+    - username: Izzy
+      date: 1719399964701
+      invitedBy: ""
+      uid: zqFDfmfPRlaZWqdRWFnc4VCrvUd2
+      action: joined
+viewsCount: 5
+id: 0knEZz9p1LqM2AGePNVh

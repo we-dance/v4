@@ -1,0 +1,279 @@
+createdAt: 1704822905722
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/3463287397317829/
+source: facebook
+username: wedancebot
+visibility: Public
+endDate: 1731916800000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/elsolfestival
+  name: El Sol Festival
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/287436230_5923341987692554_8385652921675004807_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=596444&_nc_ohc=RN8exlldc4AAX9hI5yc&_nc_ht=scontent-atl3-1.xx&oh=00_AfCcvI47g-OY5WjFwqSDWOIxTqY9KvaTxGaCfbxCw80yqA&oe=65A3385A
+  bio: ""
+  id: Rj7ucDWsytoKBHGwdZFU
+  instagram: ""
+  username: elsolfestival
+claimed: No
+facebookId: "3463287397317829"
+link: ""
+description: >-
+  elSol is happening for the 19th time!
+
+
+  Get the cheapest prices now from 95 to 115E until December 31st!
+
+  https://elsolfestival.pl/en/payment/
+
+
+  The location is MCK in Katowice again and we cannot wait to have you back here.
+
+
+  We're super excited to share this amazing line up with you:
+
+
+  SALSA
+
+  Juan Diago Camilo (Peru)
+
+  Jhoana Palhua (Peru)
+
+  Adolfo & Tania (NYC)
+
+  Karel & Bruno (NYC)
+
+  Benny & Ashley (USA)
+
+  Maykel Fonts (Italy)
+
+  Michelle and Brandon (USA)
+
+  Angelo Rito (Italy)
+
+  Antonio & Jasmina (Italy)
+
+  Willy Arrey (Italy)
+
+  Marco Ferrigno & Ansima
+
+  Bersy Cortez (Spain)
+
+  Gabriele di Marzo (Italy)
+
+
+  DJ Dmitri (Germany)
+
+  DJ Mauri (Greece)
+
+  DJ Sezar (Norway)
+
+  DJ Alexio (Italy)
+
+
+
+  BACHATA
+
+  Pablo & Raquel (Spain)
+
+  Kike y Nahir (Spain)
+
+  Luis & Andrea (Spain)
+
+  Marco & Sara (Spain)
+
+  Miguel & Sunsire (Spain)
+
+  Duda & Adriana (Poland)
+
+  Danile & Monika (Poland)
+
+  Konrad & Malwina (Poland)
+
+
+  DJ Husky (Spain)
+
+  DJ York (Germany)
+
+  DJ Dimen5cions (UK)
+
+  DJ Momo Latino (Czech Republic)
+
+
+
+  KIZOMBA
+
+  Tony Viser & Carla (Angola / Cape Verde)
+
+  Fabricio do Zangado (Angola / Portugal)
+
+  Nowaczki - Piotr & Marta (Poland)
+
+
+  DJ Bakongo (Angola / Portugal)
+
+  DJ do Zangado (Angola / Portugal)
+
+  DJ Chad (France)
+
+  DJ Papa Luc (Poland)
+
+
+
+  URBAN KIZ
+
+  JP & Stephy (France)
+
+  Karl & Nima (France)
+
+  Yami (France)
+
+  Sanjay (India)
+
+
+  DJ Chad (France)
+
+  DJ Shark (Spain)
+
+  DJ Narc6 (Germany)
+
+  DJ Bartef (Poland)
+
+  DJ Papa Luc (Poland)
+
+
+
+  CUBAN
+
+  in progres.....
+
+
+
+  We hope these beautiful artists will inspire you with their art, pedagogy, energy and passion.
+
+
+  There will be more.....
+
+
+  Get your passes in great prices here: https://elsolfestival.pl/en/
+
+
+
+  Let's celebrate life. Together.
+program: []
+eventType: Festival
+type: event
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+styles:
+  Bar:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ0cyhNiPOFkcRu_pZBTUqr7k
+international: No
+hash: 1731618000000+ChIJZyZrQzDOFkcRjmu6kOYy4Kw
+startDate: 1731618000000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FFvec2HGyK8m2usgNUJpZ.png?generation=1704822919223956&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851832/gu0dxy2tf0xrls0db6hh.jpg
+duration: 4980
+venue:
+  formatted_address: plac Sławika i Antalla 1, 40-163 Katowice, Poland
+  website: http://www.mckkatowice.pl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Katowice International Conference Centre
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0250159
+        lat: 50.2645641197085
+      northeast:
+        lng: 19.0298815
+        lat: 50.26726208029149
+    location:
+      lng: 19.0275632
+      lat: 50.266161
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: plac Sławika i Antalla
+      long_name: plac Sławika i Antalla
+    - types:
+        - locality
+        - political
+      short_name: Katowice
+      long_name: Katowice
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Katowice
+      long_name: Katowice
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Województwo Śląskie
+      long_name: Województwo Śląskie
+    - types:
+        - country
+        - political
+      short_name: PL
+      long_name: Poland
+    - types:
+        - postal_code
+      short_name: 40-163
+      long_name: 40-163
+  url: https://maps.google.com/?cid=12457012535158795150
+  international_phone_number: +48 32 438 40 30
+  place_id: ChIJZyZrQzDOFkcRjmu6kOYy4Kw
+  username: www.mckkatowice.pl
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artistsList: []
+id: Fvec2HGyK8m2usgNUJpZ
+name: elSol festival
+updatedAt: 1719836178470
+bookmarks: 0
+star:
+  count: 0
+  usernames: []
+  history:
+    - username: alexrazbakov
+      date: 1724434792308
+      invitedBy: ""
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: alexrazbakov
+      date: 1729959938057
+      invitedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: left
+viewsCount: 21

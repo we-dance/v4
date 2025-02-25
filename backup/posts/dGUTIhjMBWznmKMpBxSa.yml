@@ -1,0 +1,198 @@
+createdAt: 1704822892005
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/873659951144861/
+source: facebook
+updatedAt: 1704822892005
+username: wedancebot
+venue:
+  formatted_address: Isolatorweg 28, 1014 AS Amsterdam, Netherlands
+  website: http://www.candancestudios.nl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: CanDance Studios
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.849493719708498
+        lat: 52.3914739697085
+      northeast:
+        lng: 4.852191680291502
+        lat: 52.3941719302915
+    location:
+      lng: 4.851088199999999
+      lat: 52.3927722
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Isolatorweg
+      long_name: Isolatorweg
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Westpoort
+      long_name: Westpoort
+    - types:
+        - locality
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Amsterdam
+      long_name: Amsterdam
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NH
+      long_name: Noord-Holland
+    - types:
+        - country
+        - political
+      short_name: NL
+      long_name: Netherlands
+    - types:
+        - postal_code
+      short_name: 1014 AS
+      long_name: 1014 AS
+  place_id: ChIJ5TaEYKngxUcRbzzkrY8Upsg
+  url: https://maps.google.com/?cid=14458266261049850991
+visibility: Public
+endDate: 1721005200000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Adam Bachata Festival
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fadambachatafestival.png?generation=1697203823982793&alt=media
+  bio: |-
+    💜🌟 The most original Bachata festival in Amsterdam
+    💥 Workshops, shows, competitions, parties
+    📆 Nov 2-5, 2023
+    📆 July 12-14, 2024
+    📍 Amsterdam
+    🔥 Tickets ⬇️
+  id: 01VqTQT3XrfOtLHFnENY
+  instagram: https://instagram.com/adambachatafestival
+  username: adambachatafestival
+claimed: No
+facebookId: "873659951144861"
+link: https://www.adambachatafestival.com/tickets#experience
+description: >-
+  ❌❌❌ JOIN A UNIQUE BACHATA EXPERIENCE IN AMSTERDAM! ❌❌❌
+
+
+  Third edition of this unique bachata experience in Amsterdam,
+
+  Bachata with a twist! 3 days of thematic parties and workshops, a massive boat party and a hype energy that you can only experience in Adam.
+
+  Special experiences and surprises with 
+
+  international DJs: DJ Alejandro & DJ York
+
+  Social parties: Thursday (pre-party), Friday, Saturday and Sunday
+
+
+  🔔 LINE UP 🔔
+
+  ❌Gabi & Estefi (Spain)
+
+  ❌Carlos & Chloe (Australia)
+
+  ❌Dario & Sara (Spain)
+
+  ❌Janis & Zoé (Germany)
+
+  ❌Sergio & Marichu (Spain)
+
+  ❌Erik & Katinka (Denmark)
+
+  ❌Gianmarco & Jessica (Italy)
+
+  ❌Kevin & Nika (The Netherlands)
+
+  ❌Ahmedy & Caro (Belgium)
+
+  ❌David & Jessy (Germany)
+
+  ❌Erwin & Valentina Bailemos (The Netherlands)
+
+  ❌Lisa (Germany)
+
+  And many more to come!
+
+
+  🔔 DJS🔔
+
+  ❌ DJ Alejandro (Israel)
+
+  ❌ DJ York (Germany)
+
+  ❌ DJ Cesc (France)
+
+  ❌ DJ Josh (Germany)
+
+  ❌DJ Juan (Netherlands)
+
+  & many more...
+
+
+  🔔 MASTER PASS 🔔
+
+  ❌ 3 Bachata Parties
+
+  ❌ 20+ Bachata workshops
+
+  💎 4 MasterClasses with Carlos & Chloe, Dario & Sara Sergio & Marichu and Janis & Zoé 
+
+  🔴Gaby Galan concert
+
+  🔴 Experiences: boat party and more!
+   (Thursday pre-party is not included)
+
+  🔔 FULL PASS 🔔
+
+  ❌ 3 Bachata Parties
+
+  ❌ 20+ Bachata workshops
+   (Thursday pre-party is not included)
+
+  🔔 PARTY PASS 🔔
+
+  ❌ 3 Bachata Parties on Friday, Saturday, Sunday (Thursday pre-party is not included)
+
+
+  More info: www.adambachataxp.com  
+
+
+  Trailer video: https://youtu.be/eU3mnNkqyMM
+program: []
+eventType: Concert
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Adam Bachata Experience 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJVXealLU_xkcRja_At0z9AGY
+international: No
+hash: 1720796400000+ChIJ5TaEYKngxUcRbzzkrY8Upsg
+startDate: 1720796400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdGUTIhjMBWznmKMpBxSa.png?generation=1704822912426333&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853375/od6ajzudhqsatssq0yif.jpg
+viewsCount: 10
+id: dGUTIhjMBWznmKMpBxSa

@@ -1,0 +1,182 @@
+endDate: 1729994400000
+sourceUrl: https://www.facebook.com/events/1743557453114945/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1727139943000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727142680000
+facebookId: "1743557453114945"
+facebook: https://www.facebook.com/events/1743557453114945/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1743557453114945/
+eventType: Party
+providerItemId: e1743557453114945@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Dancing After Dark - Fright Night "
+location: Pinstripes
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729983600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 1064 Wisconsin Ave NW, Washington, DC 20007, USA
+  website: https://pinstripes.com/?utm_source=local&utm_medium=organic&utm_content=gmb
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Pinstripes
+  geometry:
+    viewport:
+      southwest:
+        lng: -77.06427073029151
+        lat: 38.9031003197085
+      northeast:
+        lng: -77.0615727697085
+        lat: 38.9057982802915
+    location:
+      lng: -77.063051
+      lat: 38.904522
+  address_components:
+    - types:
+        - street_number
+      short_name: "1064"
+      long_name: "1064"
+    - types:
+        - route
+      short_name: Wisconsin Ave NW
+      long_name: Wisconsin Avenue Northwest
+    - types:
+        - neighborhood
+        - political
+      short_name: Northwest Washington
+      long_name: Northwest Washington
+    - types:
+        - locality
+        - political
+      short_name: Washington
+      long_name: Washington
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: DC
+      long_name: District of Columbia
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "20007"
+      long_name: "20007"
+  international_phone_number: +1 202-625-6500
+  place_id: ChIJtXWOT0m2t4kRrM58X6cKJEI
+  url: https://maps.google.com/?cid=4765946019642658476
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417984865
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/@Waterfrontd/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417985/j04pdwpdijoyirhwpwlj.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417984865
+  owned: false
+  name: Dancing On The Waterfront
+  place: ChIJi7U4CaS3t4kR0m_KoPJ00Bw
+  updatedAt: 1728417984865
+  username: "@Waterfrontd/"
+claimed: No
+link: ""
+description: >
+  
+  Join us on Saturday for our special Fright Night event.  Costumes encouraged. 
+
+
+  We will be mixing a variety of Salsa, Bachata, Kizomba, and Brazilian Zouk.  
+
+
+  Location
+
+  Exact address-Pinstripes Restaurant 
+
+  1064 Wisconsin Ave NW, Washington, DC 20007
+
+
+  Dancing is upstairs ..  bring your dance shoes. Don't forget to support the bar, kitchen closes at 10:30 if you want a late dinner. 
+
+
+  Garage parking is right under Pinstripes. $24.00 to park or there is side street parking at your own risk. 
+
+
+  Donations
+
+  Suggestion donation of $10.00, would be greatly appreciated. Your donation will go towards the cost of instructors, DJ, photography, and operational costs. We also have q-codes to scan at every event. Venmo - @Larold-Neil   Cash App - $sharonvi
+
+
+  Birthday Dances
+
+  Please see anyone of our DOTW team, or you can text Bachata Larry at 301-557-0186 or Morris at 301-717-2390.
+
+
+  Dance Classes
+
+  Please contact @steviejdance or call (610)-333-6408
+
+
+  DJ Services
+
+  Contact @bachata_larrydmv or call (301)-557-0186
+
+
+  Photography Services
+
+  Please contact @sharonann.photography or (240) 339-5160
+
+
+  Any questions, concerns or suggestions please contact our Host – Morris Jackson at 301-717-2390 or @mjacks1992
+
+
+  Filming and Recording in Progress at Dancing After Dark. Your entry and presence on the event premises constitute your consent to be photographed, filmed, and/or otherwise recorded and to the release, publication, exhibition, or reproduction of any and all recorded media of your appearance, voice, and name for any purpose whatsoever in perpetuity in connection with Dancing on the Waterfront and its initiatives, including, by way of example only, use on websites, in social media, news and advertising.
+
+
+  Don’t forget to follow us on Instagram at dotw_georgetown
+
+
+  See you there. 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417985/hw8slzqvhlzc1wdr90wm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJi7U4CaS3t4kR0m_KoPJ00Bw
+international: No
+hash: 1729983600000+ChIJtXWOT0m2t4kRrM58X6cKJEI
+id: mOH1ju4TDP7qc0Fp8AiK

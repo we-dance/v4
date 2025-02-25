@@ -1,0 +1,126 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/bs-spain-world-congress/
+sourceUrl: https://facebook.com/events/395988256281969
+venue:
+  address_components:
+    - long_name: "4"
+      short_name: "4"
+      types:
+        - street_number
+    - long_name: Calle del Actor Luis Prendes
+      short_name: C. del Actor Luis Prendes
+      types:
+        - route
+    - long_name: Benidorm
+      short_name: Benidorm
+      types:
+        - locality
+        - political
+    - long_name: Alicante
+      short_name: A
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Comunidad Valenciana
+      short_name: VC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "03502"
+      short_name: "03502"
+      types:
+        - postal_code
+  formatted_address: C. del Actor Luis Prendes, 4, 03502 Benidorm, Alicante, Spain
+  geometry:
+    location:
+      lat: 38.5314827
+      lng: -0.1637002
+    viewport:
+      northeast:
+        lat: 38.5329914302915
+        lng: -0.162691119708498
+      southwest:
+        lat: 38.5302934697085
+        lng: -0.165389080291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 966 81 52 00
+  name: Gran Hotel Bali
+  place_id: ChIJK-YpTgmSlxIRlfd_lTBucDA
+  url: https://maps.google.com/?cid=3490410866157811605
+  website: http://www.granhotelbali.com/
+endDate: ""
+claimed: No
+link: https://lasalsadelbaile.com/bsspainwc2025
+description: |-
+  BS SPAIN WORLD CONGRESS🌎✨
+  Gamer Edition 🎮
+  Del 21 al 23 de febrero de 2025 🗓
+  En el Gran Hotel BALI (Benidorm) 🏢
+
+  Con grandísimos artistas 💃🏻
+  - Fernando Sosa
+  - Adolfo Indacochea y Tania Cannarsa
+  - Ataca y la Alemana 
+  - El Tiguere y Bianca
+  - Luis y Andrea
+  - Johnny Vázquez y su Imperio Azteca
+  - David e Inés
+  - Antoni y Belén 
+  - Yaiza Melero
+  - Alfonso y Mónica 
+  - Luis y Marina
+  - Franco Rocha
+
+  Y MUCHOS MÁS!!!!
+
+  Y todo esto por 65€*!!!! 💶 (Los primeros 50 FullPass)
+
+  👇🏼 Hazte con el tuyo aquí 👇🏼
+
+  https://lasalsadelbaile.com/bsspainwc2025 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293948/o0lyyvflxhm0kpo4ihov.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJw3UlptwEYg0RtW7yDwypnyE
+international: No
+visibility: Public
+org:
+  id: jfjXiHL0N8OhKirFNieH
+  username: bachataspain
+  name: Bachata Spain
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953459/fvxqz5vopl2z1boekt2g.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/bachataspain
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/395988256281969/
+facebookId: "395988256281969"
+eventType: Congress
+form: No
+watch:
+  usernames: []
+  count: 0
+name: BS SPAIN WORLD CONGRESS
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740146400000+ChIJK-YpTgmSlxIRlfd_lTBucDA
+startDate: 1740146400000
+id: FaKkhJ62Wpx3nf7okyjn

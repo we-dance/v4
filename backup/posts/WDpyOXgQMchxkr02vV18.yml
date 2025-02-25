@@ -1,0 +1,157 @@
+venue:
+  formatted_address: Zellstraße 4, 81667 München, Germany
+  website: http://www.muffatwerk.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "4"
+      short_name: "4"
+    - types:
+        - route
+      long_name: Zellstraße
+      short_name: Zellstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Au-Haidhausen
+      short_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81667"
+      short_name: "81667"
+  url: https://maps.google.com/?cid=5843927271141599712
+  name: Muffathalle
+  geometry:
+    viewport:
+      south: 48.1313994197085
+      north: 48.1340973802915
+      east: 11.5905477302915
+      west: 11.5878497697085
+    location:
+      lng: 11.5894505
+      lat: 48.1328405
+  place_id: ChIJGZydHH3fnUcR4OmcAeTMGVE
+  international_phone_number: +49 89 45875000
+endDate: 2022-03-06T05:00
+claimed: No
+link: https://bit.ly/3H1bpbm
+description: >-
+  Liebe Freunde, am Samstag, den 05. März bringen wir euch den Spirit of
+  Lateinamerika nach München. Genieße mit uns eine spektakuläre Nacht zu
+  feuriger Tanzstimmung und coolen Drinks. 🥂 💃🏽 🕺🏽
+
+  Mit dabei sind die beliebtesten Latino-DJs der Stadt:
+
+  DJ YENNY: Salsa / Bachata / Reggaeton / Merengue / Cumbia y más
+
+  DJ TORI SEGURA: Reggaeton / Latin Urban Beats
+
+  & mucho amor ❤️
+
+  Wir freuen uns auf ein unvergessliches Fest mit euch!
+
+  ✳️ FACTS:
+
+  Samstag, 05. März ab 22 Uhr
+
+  Muffatcafé – Zellstr. 4
+
+  Einlass: 2G+‼️ Limitierter Vorverkauf ➡️ https://bit.ly/3H1bpbm
+
+  An der Abendkasse gibt es auch noch Tickets 🎟
+
+  Vamos a bailar! 🪅 🎉 🥂
+
+  Für Bilder, Videos & zukünftige Einladungen
+
+  ♛ LATINSCENE MUNICH bei Instagram Adden
+
+  @latinscene.munich
+
+  LINK https://www.instagram.com/latinscene.munich/
+
+  ♛ LATIN SCENE MUNICH liken
+
+  LINK www.facebook.com/latinscene.munich/
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F62473f14-f0bb-4efd-b12b-32dc043fac3a?alt=media&token=72da0dda-a8e3-4052-9575-098850ef5ba8
+promo: No
+duration: custom
+createdAt: 1645468502106
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1645468502106
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+eventType: Party
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+name: La Fiesta Latina Reopening - Muffatcafé
+online: No
+styles:
+  Cumbia:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-03-05T22:00
+username: Lakkana
+id: WDpyOXgQMchxkr02vV18
+watch:
+  count: 0
+  list: {}
+artists:
+  - role: dj
+    instagram: dj.yenny/
+    username: dj.yenny/
+  - role: dj
+    instagram: tori.seg/
+    username: tori.seg/
+org:
+  facebook: latinscene.munich
+  username: latinscene.munich
+viewsCount: 22

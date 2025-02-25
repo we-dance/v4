@@ -1,0 +1,124 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/koh-samui-latin-fiesta/
+facebook: https://www.facebook.com/events/1040630794390413/
+sourceUrl: https://www.facebook.com/events/1040630794390413/
+venue:
+  address_components:
+    - long_name: หาดเฉวงน้อย
+      short_name: หาดเฉวงน้อย
+      types:
+        - point_of_interest
+        - establishment
+    - long_name: ต.บ่อผุด
+      short_name: ต.บ่อผุด
+      types:
+        - locality
+        - political
+    - long_name: Amphoe Ko Samui
+      short_name: Amphoe Ko Samui
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Chang Wat Surat Thani
+      short_name: จ.สุราษฎร์ธานี
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Thailand
+      short_name: TH
+      types:
+        - country
+        - political
+    - long_name: "84320"
+      short_name: "84320"
+      types:
+        - postal_code
+  formatted_address: 124-124/1-124/2 หาดเฉวงน้อย ต.บ่อผุด Amphoe Ko Samui, Chang
+    Wat Surat Thani 84320, Thailand
+  geometry:
+    location:
+      lat: 9.509237400000002
+      lng: 100.053029
+    viewport:
+      northeast:
+        lat: 9.510635730291504
+        lng: 100.0543746302915
+      southwest:
+        lat: 9.5079377697085
+        lng: 100.0516766697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +66 77 422 255
+  name: The Fair House Beach Resort & Hotel, Koh Samui
+  place_id: ChIJM0ZTsOS_HzERXn-j65ICrGA
+  url: https://maps.google.com/?cid=6965945553677156190
+  website: http://www.fairhousesamui.com/
+endDate: 1740945600000
+claimed: No
+link: https://samui.alfa-asia.net/
+description: >-
+  Welcome to the 7th Sensual Edition of Koh Samui Latin Fiesta, happening from
+  Feb 28 - March 2, 2025 in Koh Samui, Thailand 🇹🇭 | This 7th edition of KSLF
+  promises to be another sexy festival with a wonderful artist line-up from
+  Europe, Australia & Asia along the Gorgeous Beach of Chaweng Noi with
+  crystalline water in the gulf of Thailand.
+
+
+  ✨Festival highlights :
+
+  Day 1 : Official Pre-Party, Thursday 27-Feb | Venue : TBC
+
+  Day 2 : Bootcamps & Opening Party, Friday 28-Feb | Fairhouse Beach Resort
+
+  Day 3 : Workshops, Beach Party, Shows, and Themed Night Party, Saturday 1-March | Fairhouse Beach Resort
+
+  Day 4 : Workshops, Beach Party, Jack&Jill, Final Themed Night Party Sunday, 2-March | Fairhouse Beach Resort
+
+  Day 5 : After Party Monday 2-March | | Venue : TBC
+
+
+  🏖️ Festival Venue: Fair House Beach Resort & Hotel
+
+  https://maps.app.goo.gl/x5iuwHXEMi6HWErs8
+
+
+  For info, Venue and Tickets go to : https://samui.alfa-asia.net
+
+  Insta : @samui.latin.fiesta
+
+  FB : @samuilatinfestival
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293946/rckzcsycigdq0bs9hwbp.jpg
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  id: w3g6OUHOdpVTITOcapq4
+  username: samuilatinfestival
+  name: Samui Latin Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954295/whfyhgdplcb4gk4cptag.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/samuilatinfestival
+  tiktok: ""
+  youtube: ""
+facebookId: "1040630794390413"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: 🏝️ Koh Samui Latin Fiesta 2025 (7th Sensual Ed.)
+online: No
+styles: {}
+hash: 1740711600000+ChIJM0ZTsOS_HzERXn-j65ICrGA
+startDate: 1740711600000
+id: PfIfSK6L9vuVhyKeI27T

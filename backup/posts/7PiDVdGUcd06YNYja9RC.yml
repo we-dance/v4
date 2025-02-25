@@ -1,0 +1,187 @@
+venue:
+  formatted_address: Bordeaux, France
+  website: http://www.bordeaux.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Bordeaux
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -0.5333254042171431
+      south: 44.81074136006902
+      north: 44.91669416098772
+      west: -0.6386987495789168
+    location:
+      lng: -0.57918
+      lat: 44.837789
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Bordeaux
+      long_name: Bordeaux
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gironde
+      long_name: Gironde
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Nouvelle-Aquitaine
+      long_name: Nouvelle-Aquitaine
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+  place_id: ChIJgcpR9-gnVQ0RiXo5ewOGY3k
+  url: https://maps.google.com/?q=Bordeaux,+France&ftid=0xd5527e8f751ca81:0x796386037b397a89
+endDate: 2023-06-03T05:00
+claimed: No
+description: >-
+  ❊❊❊BORDEAUX BACHATA & SALSA CONGRESS 2023 ❊❊❊
+
+  + 30 heures de workshops :
+
+  Bachata (Tous Style) - Salsa - Kizomba
+
+  ✔ Pool Party
+
+  Tout l'événement se passe sur un seul et même lieu. ALL IN ONE VENUE!!
+
+  On danse en bas et dors en haut
+
+  Réservation / Billet :
+
+  https://my.weezevent.com/bordeaux-bachata-congress-2023
+
+  ★Hôtel Mercure Bordeaux Aéroport****★
+
+  - Hôtel de Luxe 4****
+
+  - Chambre de standing avec un magnifique design
+
+  - Piscine Extérieure chauffée
+
+  - 1000 m² de salle de réception
+
+  - Terrasse extérieur
+
+  ███▓▒░░-- HEBERGEMENT --░░▒▓███
+
+  Hôtel du Congrès : Mercure Hôtel Bordeaux Aéroport****
+
+  Nous avons négocier pour vous des tarifs défiants toute concurrence pour un hôtel 4****
+
+  ▼Vos professeurs internationaux et nationaux▼
+
+  ★★★BACHATA TEACHERS★★★
+
+  ✔ Giorgos & Eugenia (Grèce 🇬🇷)
+
+  ✔ Aitana & Juan (Barcelone - Spain 🇪🇸)
+
+  ✔ Koko & Jo (Paris - France 🇫🇷)
+
+  ✔ Alejandro & Monty (Madrid - Spain 🇪🇸)
+
+  ✔ Luis & Sophie (Paris - France 🇫🇷)
+
+  ✔ Ben & Sandra (Toulouse - France 🇫🇷)
+
+  ✔ Miguel & Anne (Nantes - France 🇫🇷)
+
+  ✔ Tuyen VO (Bordeaux - France 🇫🇷)
+
+  ✔ Gaelle (Bordeaux- France 🇫🇷)
+
+  ✔ Lolo El rumbero (Bordeaux - France 🇫🇷)
+
+  ✔ Daniel Ormeno (Angouleme 🇫🇷)
+
+  ✔ Camilo (Bordeaux- France 🇫🇷)
+
+  ✔ Adil & Elodie (Brive 🇫🇷)
+
+  ✔
+
+  ▼Vos Djs internationaux et nationaux▼
+
+  ★★★BACHATA DJS ★★★
+
+  ✔ DJ Tagada (Paris)
+
+  ✔ DJ Kev1 (Tououse)
+
+  ✔ DJ Olish (Bordeaux)
+
+  ✔ DJ MMS (Bordeaux)
+
+  ✔ DJ Ibra (Bordeaux)
+
+  ✔ DJ Thao (Orléans)
+
+  ✔ DJ PraZ (Bordeaux)
+
+  ███▓▒░░-- TARIFS --░░▒▓███
+
+  Un seul pass : unique pass all access
+
+  ███▓▒░░-- DRESS CODE --░░▒▓███
+
+  A venir
+
+  ▼▼ Team Taxi▼▼
+
+  ███▓▒░░-- NAVETTE AEROPORT --░░▒▓███
+
+  Depuis l'aéroport navettes gratuites (1 minutes)
+
+  A pied : 5 minutes de marche de l'aéroport
+
+  ★★Lieu du Congrés★★
+
+  Mercure Hotel Bordeaux Aéroport & Spa****
+
+  Contact :
+
+  Bordeauxcongress@gmail.com
+
+  Soyez prêt pour votre Bordeaux Bachata Congress
+program: []
+type: event
+duration: 60
+cover: ""
+createdAt: 1681288963293
+artists: []
+price: 0 EUR
+artistsList: []
+place: ChIJw3Bjhzc4qhIRHScGZUDcCDE
+international: Yes
+updatedAt: 1681288963293
+updatedBy: izNGE3Y3EFWaEcwvLr4te8S1I4G2
+visibility: Public
+org: {}
+facebook: https://fb.me/e/5ji4ERJeS
+eventType: Party
+form: No
+createdBy: izNGE3Y3EFWaEcwvLr4te8S1I4G2
+watch:
+  count: 1
+  list:
+    DJTagaDa: true
+name: Bordeaux Bachata & Salsa Congress 2023
+online: ""
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-01T20:00
+username: DJTagaDa
+viewsCount: 51
+id: 7PiDVdGUcd06YNYja9RC

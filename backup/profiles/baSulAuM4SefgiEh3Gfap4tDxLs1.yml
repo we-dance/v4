@@ -1,0 +1,56 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627296776986
+locales:
+  de: true
+createdBy: baSulAuM4SefgiEh3Gfap4tDxLs1
+name: Alfred
+place: ChIJ8Q8AgEcadkcRg8sr-Krd2yo
+username: Alfred
+pwaUsed: false
+gender: Male
+partner: No
+bio: CEO tanzlabor
+permission: No
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+contacts: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbaSulAuM4SefgiEh3Gfap4tDxLs1%2Fca6ae852-bb9c-40c5-b463-09fb99ffd8bd?alt=media&token=dffade5f-56bc-415b-93fa-18186e395c06
+cities:
+  ChIJ8Q8AgEcadkcRg8sr-Krd2yo: true
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+bannerNps: no
+bannerV3Beta: no
+bookmarks:
+  - jJdcrQHhWJZriK2brABD
+updatedAt: 1721848542795
+daysUsed: 26
+lastLoginAt: 1723014002949
+viewsCount: 174
+id: baSulAuM4SefgiEh3Gfap4tDxLs1

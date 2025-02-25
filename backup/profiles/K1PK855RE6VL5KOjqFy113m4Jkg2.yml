@@ -1,0 +1,56 @@
+createdAt: 1603144719814
+createdBy: K1PK855RE6VL5KOjqFy113m4Jkg2
+name: Mark
+username: dancewithme
+gender: Male
+community: Berlin
+step: photo
+partner: Yes
+newsletter:
+  festival: true
+  workshop: true
+  class: true
+  party: true
+teacher: No
+visibility: Public
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+locales:
+  de: true
+  en: true
+language: de
+hometown: ""
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+instagram: https://instagram.com/dereuromark
+viewsCount: 3
+styles:
+  Rhumba:
+    level: Advanced
+    selected: true
+  Salsa:
+    level: Advanced
+    selected: true
+  Tango:
+    level: Interested
+    selected: true
+  ChaChaCha:
+    level: Advanced
+    selected: true
+  Latin:
+    level: Advanced
+    selected: true
+  BrazilianZouk:
+    level: Advanced
+    selected: true
+  TangoArgentino:
+    level: Intermediate
+    selected: true
+  Bachata:
+    level: Advanced
+    selected: true
+lastLoginAt: 1732122316627
+daysUsed: 4
+pwaUsed: false
+current: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1732123002564
+id: K1PK855RE6VL5KOjqFy113m4Jkg2

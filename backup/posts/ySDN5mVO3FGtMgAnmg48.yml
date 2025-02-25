@@ -1,0 +1,137 @@
+venue:
+  formatted_address: Martin-Behaim-Straße 3, 81373 München, Germany
+  website: https://www.kizztalk.de/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13483610605514083579
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Kizztalk Dance Academy
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5388055302915
+      south: 48.1232715697085
+      north: 48.1259695302915
+      west: 11.5361075697085
+    location:
+      lng: 11.5373386
+      lat: 48.1246314
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Martin-Behaim-Straße
+      long_name: Martin-Behaim-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling-Westpark
+      long_name: Sendling-Westpark
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81373"
+      long_name: "81373"
+  international_phone_number: +49 1515 7942042
+  place_id: ChIJu6gvmqrZnUcRkM4JMStoThA
+  url: https://maps.google.com/?cid=1174991087505886864
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1703761578672
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/IsaBel
+    name: Isabel Annette
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRdq2w540QWPemNyXLwZxfJO0iqO2%2Ff7a4ae36-ec05-4898-8775-8c9ee2ff46cb?alt=media&token=04b500ea-aac7-420c-8016-8d493f2a77c8
+    bio: Dancing from the bottom of my heart.
+    id: Rdq2w540QWPemNyXLwZxfJO0iqO2
+    instagram: https://instagram.com/isabel_bachata.inspiration
+    username: _Isadance
+price: 15 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - _Isadance
+international: No
+updatedBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizztalk
+  name: Kizztalk Dance Academy
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+  bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+    zu kommunizieren, sich au
+  id: 5DxynglUsETxslO7UZaBnTrOi5I3
+  instagram: https://www.instagram.com/kizztalk_/
+  username: kizztalkdanceacademy
+eventType: Course
+form: No
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+watch:
+  count: 1
+  list:
+    kizztalkdanceacademy: true
+name: Bachata Ladystyling (improver)
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: kizztalkdanceacademy
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FySDN5mVO3FGtMgAnmg48.png?generation=1703761595877661&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Ff6f978dc-1efe-44f0-9513-d6e6e8e29f9a?alt=media&token=c0e85602-3512-4658-a351-534c0339ca76
+id: ySDN5mVO3FGtMgAnmg48
+instagram:
+  messageUrl: https://instagram.com/p/C1ZVbmcOwfU
+  publishedAt: 1703764663833
+  messageId: C1ZVbmcOwfU
+  state: published
+promotionError: ""
+promotion: completed
+endDate: 1704823200000
+startDate: 1704819600000
+link: www.kizztalk.de
+updatedAt: 1703765592212
+star:
+  count: 1
+  usernames:
+    - kizztalkdanceacademy
+  list:
+    kizztalkdanceacademy: true
+facebookId: ""
+hash: 1704819600000+ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+viewsCount: 22

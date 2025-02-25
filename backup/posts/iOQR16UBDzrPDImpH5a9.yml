@@ -1,0 +1,111 @@
+venue:
+  formatted_address: Konnos 81 Αγία Νάπα, Protaras 5297, Cyprus
+  website: http://www.grecianpark.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - country
+        - political
+      long_name: Cyprus
+      short_name: CY
+    - types:
+        - locality
+        - political
+      long_name: Protaras
+      short_name: Protaras
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Ammochostos
+      short_name: Ammochostos
+    - types:
+        - postal_code
+      long_name: "5297"
+      short_name: "5297"
+  url: https://maps.google.com/?cid=17109377161274092145
+  name: Grecian Park Hotel
+  geometry:
+    viewport:
+      south: 34.98451531970849
+      north: 34.98721328029149
+      east: 34.06939998029149
+      west: 34.06670201970849
+    location:
+      lng: 34.068051
+      lat: 34.9858643
+  international_phone_number: +357 23 844000
+  place_id: ChIJxbHzaYHD3xQRcWrs-eC3cO0
+endDate: 2021-10-25T11:00:00.000Z
+claimed: Yes
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+link: https://cyprusbachatafestival.com/register/
+description: >-
+  This is a brand-new event, taking place on the island of love, where
+  Aphrodite, Goddess of beauty & love was born.
+
+
+  Although newly-born, this is a unique festival with a strong, proven and successful recipe behind it. The ingredients comprising this magic recipe consist of a well-experienced team, an established relationship with an ideal venue, a warm weather, a diversified and unbeatable know-how on planning & executing a very well-balanced programme and last but not least a powerful organization with respect to the participants and a true value-for-money experience!
+
+
+  The festival is set-up in such a way to give you a care-free weekend, away from-it-all, and simply having the best of time, learning, advancing and practicing your dance skills. Through our network channels we expect many international participants who have never visited the island before. This will be a place to be exposed to many new dancers, create international friendships, and who knows… maybe fall in love…!!!
+
+
+  Make sure you register for our free newsletter to receive all news and updates and be the first one to know what’s coming up!
+
+
+  The Festival Full Pass is a no-brainer! Just by attending one of the parties and showcases and doing just a couple of workshops you will have already got your money back in value and more… Book & buy the early bird rate before it expires and the standard rate applies.
+
+
+  The hosting venue, Grecian Park, is a five-star hotel, located on the edge of a cliff with panoramic views of the crystal clear and inviting Mediterranean waters. The rooms, the food, the service, and the whole surroundings will spoil you all weekend long. A limited number of rooms has been secured with special festival rates, booked directly with the hotel on a first come first serve basis.
+
+
+  Check out all the details on this site and get yourselves booked at this historic event, happening for the first time on the beautiful island of Cyprus.
+
+
+  Welcome to a Hot Weekend on the Island of Love!
+
+
+  The CyprusBachataFestival Team
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FPIuxFHFujrgoxWGDI3ZXqPK0izM2%2Fb0ab2100-1bb6-4267-8c18-c43fa8a041da?alt=media&token=27984f03-760c-4eb8-a9cd-b48077afacd4
+duration: custom
+promo: Yes
+createdAt: 1633598198498
+watchersCount: 0
+price: 99EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FiOQR16UBDzrPDImpH5a9.png?generation=1634045259947044&alt=media
+commentsLast: ~
+id: iOQR16UBDzrPDImpH5a9
+place: ""
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: Yes
+views: 12
+updatedAt: 1633598198498
+website: https://cyprusbachatafestival.com/
+updatedBy: PIuxFHFujrgoxWGDI3ZXqPK0izM2
+visibility: Public
+facebook: CyprusBachataFestival/
+viewsCount: 12
+eventType: Festival
+organiser: CyprusBachataFestival
+form: Yes
+createdBy: PIuxFHFujrgoxWGDI3ZXqPK0izM2
+commentsCount: 0
+name: Cyprus Bachata Festival
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-10-22T13:00:00.000Z
+username: CyprusBachataFestival

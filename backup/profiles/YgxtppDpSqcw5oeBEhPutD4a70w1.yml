@@ -1,0 +1,50 @@
+community: Mannheim
+createdAt: 1602479745950
+createdBy: YgxtppDpSqcw5oeBEhPutD4a70w1
+name: Nadja
+username: TanzundLernakademie
+gender: Female
+step: photo
+partner: No
+teacher: Yes
+languages: deutsch, english, español
+styles:
+  SalsaNewYork:
+    level: Advanced
+    selected: true
+  Tango:
+    level: Advanced
+    selected: true
+  Ballroom:
+    level: Advanced
+    selected: true
+  Mambo:
+    level: Advanced
+    selected: true
+  Kizomba:
+    level: Intermediate
+    selected: true
+  Salsa:
+    level: Advanced
+    selected: true
+  Latin:
+    level: Advanced
+    selected: true
+  Zumba:
+    level: Advanced
+    selected: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+visibility: Members
+locales:
+  de: true
+  en: true
+  es: true
+lastLoginAt: 1602479745845
+language: de
+daysUsed: 1
+hometown: ""
+place: ChIJRT-OUSTMl0cRh-YGpHr-5LE
+updatedAt: 1617064576208
+viewsCount: 1
+id: YgxtppDpSqcw5oeBEhPutD4a70w1

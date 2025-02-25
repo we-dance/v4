@@ -1,0 +1,294 @@
+endDate: 1728842400000
+claimed: No
+program: []
+instagram: {}
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Ff0bab5ab-32d5-41f3-a265-8ab0065c7732?alt=media&token=6346b51e-03d1-4a0d-b80e-93da11d30262
+bookmarks: 35
+createdAt: 1728810783720
+review: https://g.page/r/Ca_iCf0z9dH3EBM/review
+price: pay as you wish
+socialCover: ""
+id: rFvj5DcQjPTyx0XJyBzF
+international: No
+gallery: https://photos.app.goo.gl/Tk9eXGkXHENnebJU6
+updatedAt: 1728810783720
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+facebookId: ""
+upVotes: 0
+confirmation: |-
+  You are on the guest list, see you at the event!
+
+  Join our [WhatsApp group](https://chat.whatsapp.com/JpnlQPyNaEbGxMb2u1A2EG)
+eventType: Workshop
+promotionError: ""
+venueProfile:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Buena Vista Bar
+  bio: Latino Restaurant München
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+  instagram: https://www.instagram.com/buenavistabar_oficial/
+  id: JEkADfAnw9nk7VIcgE5P
+  username: buena_vista_bar_munich
+name: Salsa From Zero
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1725814800000+ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+startDate: 1728838800000
+venue:
+  website: http://buena-vista-bar.de/
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  name: Buena Vista Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  international_phone_number: +49 89 26022811
+  url: https://maps.google.com/?cid=10819607444887102927
+  username: buena_vista_bar_munich
+description: >-
+  This workshop is designed for beginners to learn the fundamentals of Salsa
+  Cubana, also known as Casino. Students will explore the unique rhythmic
+  patterns, dance steps, and cultural significance of Cuban Salsa. No prior
+  dance experience is required.
+
+
+  ### Course Objectives
+
+
+  By the end of this course, students will be able to:
+
+
+  - Understand the basic steps and timing of Salsa Cubana.
+
+  - Execute basic turns and partner work: dile que no and enchufla.
+
+  - Demonstrate the ability to dance a simple Salsa song with a partner.
+
+
+  ### Required Materials
+
+  Comfortable clothing and appropriate dance shoes.
+
+
+  Join Guest List!
+commentDoc:
+  createdAt: 1722791296588
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  id: n8HDoZf4mmrk8PE2Mh5S
+  postId: 7dqbVd9f2YW9EfbUw97Q
+  body: Anyone else is coming? Shall we wait?
+  username: alexrazbakov
+  updatedAt: 1722791296588
+downVotes: 0
+duration: 60
+promo: ""
+playlist: https://open.spotify.com/playlist/39cUmntXWDEHFjqGmwGU8k?si=db34ec93a54d4b01&pt=445e9b025a84b5ed2b99f1a52f9164f9
+artists:
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: https://facebook.com/alexrazbakov
+    name: Alex Razbakov
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F85cc5d77-6212-4707-85e0-24bdf72b1c7c?alt=media&token=2872dc07-fa22-46b7-8f0e-41c935fc6345
+    bio: WeDance Ambassador in Munich
+    id: tvR012ArEpQhCJdPHh6G7sLuqoO2
+    instagram: https://instagram.com/alexrazbakov
+    username: alexrazbakov
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Celeste
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FugduS2KIFpfN0LpHggYowXoHYsA2%2F22fb0e67-31d1-4d35-b2d1-28a4671dc303?alt=media&token=14d12073-3a8d-4b03-b59f-99d505790656
+    instagram: https://www.instagram.com/celestemedina?igsh=MWJhOGJkNXo0dHA1aQ%3D%3D&utm_source=qr
+    id: ugduS2KIFpfN0LpHggYowXoHYsA2
+    username: celestemedina
+commentsLast:
+  createdAt: 1676727633768
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: LXApW1gu5g65mkAHYMCW
+  body: Yay! Sunday! Can't wait!
+  username: alexrazbakov
+  updatedAt: 1676727633768
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - alexrazbakov
+  - celestemedina
+paypal: https://paypal.me/razbakov
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MontunoClub
+  name: MontunoClub
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FICpCp7IBpMe30vAHqYfw4FmQp382%2Fee46e93d-d75f-4711-b7ad-817ce93820a8?alt=media&token=7ad8201c-01e5-4c9b-8c85-ff5f864dac6b
+  bio: Learn Salsa Cubana with us!
+  id: ICpCp7IBpMe30vAHqYfw4FmQp382
+  instagram: https://instagram.com/MontunoClub
+  username: MontunoClub
+telegram: {}
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+username: alexrazbakov
+promotion: ""
+star:
+  list: {}
+  count: 6
+  usernames:
+    - Tatevik
+    - HannaStree
+    - Ceren
+    - Leman
+    - Nanasenanana
+    - Seray
+  history:
+    - username: Tatevik
+      date: 1728810895423
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: bM54fX5rpyLdQrxGlA7TJZm4kta2
+      action: joined
+    - username: HannaStree
+      date: 1728811935322
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: rRh2Dh6kaOR3a4Fm8WVB0VYSqrm2
+      action: joined
+    - username: Ceren
+      date: 1728820500265
+      invitedBy: ""
+      uid: dhsrW8yCM4hd7jtmuM9JAJEitN52
+      action: joined
+    - username: Leman
+      date: 1728840858149
+      invitedBy:
+        - ICpCp7IBpMe30vAHqYfw4FmQp382?utm_source=qr
+        - tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: 2rYuXcaBgjcSiNWwqltpAMUaq2T2
+      action: joined
+    - username: Nanasenanana
+      date: 1728840883512
+      invitedBy:
+        - ICpCp7IBpMe30vAHqYfw4FmQp382?utm_source=qr
+        - tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: txzAalHoCNZTux8Cz9KPOk03nj62
+      action: joined
+    - username: Seray
+      date: 1728840883875
+      invitedBy:
+        - ICpCp7IBpMe30vAHqYfw4FmQp382?utm_source=qr
+        - tvR012ArEpQhCJdPHh6G7sLuqoO2
+      uid: rwYvTU2CRCb3gavcl5v4LcU7wJu1
+      action: joined
+viewsCount: 18
+checkin:
+  list: {}
+  count: 6
+  usernames:
+    - Tatevik
+    - HannaStree
+    - Ceren
+    - Leman
+    - Nanasenanana
+    - Seray
+  history:
+    - username: Tatevik
+      date: 1728853605283
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: HannaStree
+      date: 1728853606543
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Ceren
+      date: 1728853608170
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Leman
+      date: 1728853610856
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Nanasenanana
+      date: 1728853612467
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: Seray
+      date: 1728853614313
+      invitedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined

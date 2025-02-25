@@ -1,0 +1,120 @@
+endDate: 1710633600000
+sourceUrl: https://www.facebook.com/events/1173605623627300/
+createdAt: 1709902701998
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1709890808000
+updatedAt: 1709902701998
+importedAt: 1709902701998
+providerUpdatedAt: 1709890808000
+facebookId: "1173605623627300"
+facebook: https://www.facebook.com/events/1173605623627300/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1173605623627300/
+eventType: Party
+providerItemId: 10008551-1710547200-1710633599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Pavilon Kert, Állatkerti krt. 3., Budapest, 1146
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710547200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Állatkerti krt. 3, 1146 Hungary
+  website: http://www.pavilonkert.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Pavilon Kert
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0780657697085
+        lat: 47.5171468197085
+      northeast:
+        lng: 19.0807637302915
+        lat: 47.5198447802915
+    location:
+      lng: 19.0794162
+      lat: 47.51839649999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Állatkerti krt.
+      long_name: Állatkerti körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 30 242 0245
+  place_id: ChIJK7GYLqfbQUcR0vo9YkDppJM
+  url: https://maps.google.com/?cid=10638884682491362002
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  id: nD23oRVHFCEDLp84nONP
+  instagram: ""
+  username: mimusica.djtombao
+claimed: No
+link: ""
+description: |-
+  Szezonnyitó - Season opening × Kültéri-Outdoor Salsa-Bachata party 
+  × március 16, Szombat-Saturday :: 16:00-19:00
+  × március 30, Szombat-Saturday :: 16:00-19:00
+  × április 6, Szombat-Saturday :: 16:00-19:00
+  × DJ Tombao - our magician for the party × lesz a varázslónk a bulin
+  × Pavilon Kert, Városliget 
+  × ingyenes-free
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709902718/ixd7t9oaodgpof7xqojz.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Kültéri-Outdoor Salsa-Bachata szombat-saturday × DJ Tombao × Pavilon Kert
+  Városliget × ingyenes-free
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1710601200000+ChIJK7GYLqfbQUcR0vo9YkDppJM
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FzPU2uO50XRnCSv9EAmR3.png?generation=1709902742448833&alt=media
+viewsCount: 2
+id: zPU2uO50XRnCSv9EAmR3

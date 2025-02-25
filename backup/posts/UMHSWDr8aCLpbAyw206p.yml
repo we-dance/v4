@@ -1,0 +1,218 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/salsa-spring-festival-greece/
+name: 14th Salsa Spring Festival 2025, Greece
+sourceUrl: https://facebook.com/events/1032600748089456
+venue:
+  address_components:
+    - long_name: Pyrgos, Ilia
+      short_name: Pyrgos, Ilia
+      types:
+        - locality
+        - political
+    - long_name: Ilia
+      short_name: Ilia
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Greece
+      short_name: GR
+      types:
+        - country
+        - political
+    - long_name: 271 00
+      short_name: 271 00
+      types:
+        - postal_code
+  formatted_address: Skafidia, Pyrgos, Ilia 271 00, Greece
+  geometry:
+    location:
+      lat: 37.706945
+      lng: 21.322531
+    viewport:
+      northeast:
+        lat: 37.7083043802915
+        lng: 21.3238750302915
+      southwest:
+        lat: 37.7056064197085
+        lng: 21.32117706970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +30 2621 082000
+  name: Aldemar Olympian Village
+  place_id: ChIJkQG1mLy_YBMRYi6QxjSRq2g
+  url: https://maps.google.com/?cid=7542281656817692258
+  website: http://www.aldemarolympianvillage.gr/
+endDate: 1748224800000
+claimed: No
+link: https://book.salsaspring.gr/
+description: >-
+  Welcome to Greece!
+
+  Welcome to the 14th edition of one of the top dance events in Europe!
+
+
+  This years we presend you our brand new location, the amazing 5* resort Aldemar Olympian Village !
+
+
+  https://www.aldemarolympianvillage.gr/
+
+
+  And of course the best artists line from the top level around the world...
+
+
+  ✔ MC: Farid Ferchach
+
+
+  ------------------------------
+
+  Instructors & Performers
+
+  ------------------------------
+
+  ✔ Maykel Fonts
+
+  ✔ Karel Flores & Bruno Rodriguez
+
+  ✔ Antonio & Jasmina
+
+  ✔ Talal & Edita
+
+  ✔ Dimitris & Yolena
+
+  ✔ Panagiotis & Myrto
+
+  ✔ Antoni & Belen
+
+  ✔ Mozart & Lauren
+
+  ✔ Ersin & Hande
+
+  ✔ Mehmet & Selin
+
+  ✔ Burak & Estefania
+
+  ✔ Luis & Marina
+
+  ✔ Isaia & Sissi
+
+  ✔ Magda Sobolewska
+
+  ✔ Messy Anete
+
+  ✔ Jonas & Maria Alkyona
+
+  ✔ Joanna y Chrysoula
+
+  ✔ Vesko y Sofia
+
+  ✔ Johely Guilarte
+
+  ✔ Stella Koutsoulidou
+
+  ✔ Thodoris & Elektra
+
+  ✔ George & Elena
+
+  ✔ Emma & Rania
+
+  ✔ Konstantinos & Katerina
+
+  ✔ Stavros & Kathrine
+
+  ✔ Nikitas & Lydia
+
+  ✔ Panagiotis Artemakis
+
+  ✔ John & Kelly
+
+  ✔ George & Evgenia
+
+  ✔ Panagiotis & Margarita
+
+  ✔ Panos Kaldiris
+
+  ✔ Markos Bakolas
+
+  ✔ Konstantinos Lagoudakis
+
+  ✔ Nasia Kosmaoglou
+
+  ✔ Elena Charitou & Irinaios Kakoulis
+
+  ✔ Thanasia Sakkas
+
+  ✔ Vasilis Goulekas
+
+
+  and many more to be confirmed !
+
+
+  -----------------
+
+  Djs
+
+  -----------------
+
+  ✔ Mauri
+
+  ✔ Dmitri
+
+  ✔ Oj
+
+  ✔ Isaia
+
+  ✔ Liviu
+
+  ✔ Nicos
+
+  ✔ Neri
+
+  ✔ Eirini
+
+  ✔ Stathis
+
+  ✔ Tony Moreno
+
+  ✔ El Vector
+
+
+  and many more to be confirmed !
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/cdwgjso64p8le24kpub4.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ2_x3aLy_YBMR8eYsIFCIoQM
+international: No
+visibility: Public
+org:
+  id: zMOg5h9yFYfSGSntBkFI
+  username: salsa.spring.festival
+  name: Salsa Spring Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954003/qq24fcobsmdfkenk43lu.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/salsa.spring.festival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/1032600748089456/
+facebookId: "1032600748089456"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1747915200000+ChIJkQG1mLy_YBMRYi6QxjSRq2g
+startDate: 1747915200000
+id: UMHSWDr8aCLpbAyw206p

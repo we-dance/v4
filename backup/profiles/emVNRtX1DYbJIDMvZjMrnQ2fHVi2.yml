@@ -1,0 +1,36 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627927169634
+createdBy: emVNRtX1DYbJIDMvZjMrnQ2fHVi2
+pwaUsed: false
+name: Alex
+username: Alex16
+gender: Male
+cities:
+  ChIJCXjgokgGl0cRf-63THNV_LY: true
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+step: photo
+updatedAt: 1627927218677
+contacts: ""
+partner: Yes
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+height: "174"
+locales:
+  de: true
+  en: true
+lastLoginAt: 1635149869289
+daysUsed: 14
+id: emVNRtX1DYbJIDMvZjMrnQ2fHVi2

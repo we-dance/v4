@@ -1,0 +1,73 @@
+createdAt: 1717662550569
+website: https://hrewards.com/de/jaz-in-the-city-vienna
+rooms: ""
+address:
+  website: https://hrewards.com/de/jaz-in-the-city-vienna
+  formatted_address: Windmühlgasse 28, 1060 Wien, Austria
+  name: Jaz in the City Vienna
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3542353197085
+        lat: 48.1970777197085
+      northeast:
+        lng: 16.3569332802915
+        lat: 48.19977568029149
+    location:
+      lng: 16.3555085
+      lat: 48.19846829999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "28"
+      long_name: "28"
+    - types:
+        - route
+      short_name: Windmühlgasse
+      long_name: Windmühlgasse
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mariahilf
+      long_name: Mariahilf
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1060"
+      long_name: "1060"
+  international_phone_number: +43 1 25300610
+  place_id: ChIJL4h3dVQHbUcR767fQrwoZFQ
+  url: https://maps.google.com/?cid=6081030185897930479
+gender: Other
+phone: +43 1 25300610
+name: Jaz in the City Vienna
+updateAt: 1717662550569
+type: Venue
+map: ""
+viewsCount: 1
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+team: []
+id: HbLGBNtKcr47yocttYqj
+updatedAt: 1717662586072
+username: jaz-in-the-city-vienna

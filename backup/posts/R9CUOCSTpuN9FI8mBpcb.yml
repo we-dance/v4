@@ -1,0 +1,231 @@
+venue:
+  website: http://www.salsaclub-munich.de/
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa Club Munich by Hakan
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5813296302915
+      south: 48.13375011970849
+      north: 48.13644808029149
+      west: 11.5786316697085
+    location:
+      lng: 11.579996
+      lat: 48.1351625
+  address_components:
+    - types:
+        - street_number
+      short_name: "41"
+      long_name: "41"
+    - types:
+        - route
+      short_name: Westenriederstraße
+      long_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 172 8533891
+  url: https://maps.google.com/?cid=17999243784988121499
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+claimed: No
+description: >
+  🎉 Feiere mit uns! 35 Jahre Jubiläum - Ein unvergessliches Event 🎉
+
+
+  Ich lade Dich herzlich ein, mit uns im Dezember ein besonderes Jubiläum zu feiern: 35 Jahre voller Tanz, Leidenschaft und Freude!
+
+  🎈 3 Tage pure Unterhaltung 🎈
+
+  * Workshops mit erstklassigen Lehrern
+
+  * Tanzabende mit atemberaubenden Shows
+
+  * Spezialauftritte von amtierenden Weltmeistern
+
+
+  Internationales Mambo-Event und Jubiläums Gala 
+
+  * 15-17.Dezember 2023* 
+
+
+  FREITAG : Opening Party mit Workshop und Shows
+
+  21- 02 Uhr - Dress code: white
+
+  19-20 Mambo Shines and Partnerwork Mambojazz
+
+  20-21 Cha-cha Shines and Partnerwork Ozzy (with Anastasia)
+
+  Shows by
+
+  Denisa - BeDance ladies
+
+  Anastasia & Ladies
+
+  Anna Milite - Smooth Bachata Ladies Munich
+
+
+  21-02 Preparty with DJ Manu
+
+  Ort: Salsa Club Munich, Westenrieder Str 41 , 80331 München
+
+  ____________________________
+
+
+  SATURDAY - Salsa Club Munich - Hakan Jubiläums Gala
+
+  mit Mambo on2 Weltmeistern : Fabrizio & Giulia
+
+  21.00- 03.00 Uhr - Dress code : dress to impress
+
+  11:45 - 12:45 Uhr – Bodymovement by Lisa + Samuel
+
+  13:00 - 14:00 Uhr – Mambo footwork by Fabrizio Febi & Giulia
+
+  14:15 - 15:15 Uhr – Cha Cha Footwork by Marco Faravelli & Natasha
+
+  15:15 - 15:45 Uhr - PAUSE
+
+  15:45– 16:45 Uhr – Mambo by Fabrizio Febi & Giulia
+
+  17:00 - 18:00 Uhr – Mambo Partnerwork by Marco Fravelli & Natasha
+
+
+
+  Showtime by
+
+  Fabrizio Febi & Giulia ( Weltmeister) ·
+
+  Marco Fravelli & Natasha Chuma
+
+  Lisa and Samuel
+
+  Mambojazz ·
+
+  Anastasia Susi ·
+
+  Elito & Ale ·
+
+  Chili Chicas Samstag
+
+  Musik by DJ Ozzi, Dj Stefan
+
+
+  Ort : AGV München , Ledererstraße 5, 80331 München
+
+  __________________________
+
+
+  Sonntag - Workshops & AbschlussParty
+
+  16 - 20 Day Social with Music by Hakan
+
+  14-15 Pachanga by Marco Faravelli & Natasha
+
+  15-16 Mambo meats Afro by Lisa & Samuel
+
+  Ort: Salsa Club Munich, Westenrieder Str 41, 80331 München
+
+
+
+
+
+  Wähle Dein Programm: Du hast die Freiheit, selbst zu entscheiden, an welchen Tagen Du teilnehmen möchtest.
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDq3lGZSO48OOehTqoqIX3stBM292%2F28543404-0fc4-4fb1-965c-e47b073cc4eb?alt=media&token=8a061b4d-b5c6-472a-9c33-80c7266c027c
+duration: 60
+createdAt: 1691588450608
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: Yes
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/salsaclubmunich
+  name: SalsaClubMunich
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FDq3lGZSO48OOehTqoqIX3stBM292%2F58a7e683-6aff-4680-b11b-08a78df77b03?alt=media&token=10f62772-cded-4b05-96b5-772d72bd22eb
+  bio: Salsa Lernen mit Spaß in München
+  instagram: https://instagram.com/salsaclubmunich
+  id: Dq3lGZSO48OOehTqoqIX3stBM292
+  username: SalsaClubMunich
+eventType: Festival
+form: No
+watch:
+  count: 1
+  list:
+    SalsaClubMunich: true
+createdBy: Dq3lGZSO48OOehTqoqIX3stBM292
+name: International Mambo Weekend - 15.-17.Dezember München
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+username: SalsaClubMunich
+id: R9CUOCSTpuN9FI8mBpcb
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1702839600000
+startDate: 1702663200000
+link: https://www.eventbrite.com/e/680052424107/?discount=Partner-wedance
+confirmation: ""
+specialOffer: 50 Tickets mit 10% Rabatt bis 30.10
+price: 10-90 EUR
+updatedAt: 1699623316804
+star:
+  count: 2
+  usernames:
+    - IlonaNill
+    - Rolandvantoland
+  list:
+    IlonaNill: true
+    Rolandvantoland: true
+viewsCount: 75

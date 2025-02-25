@@ -1,0 +1,123 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/oaxaca-salsa-bachata-paramount-cup/
+name: Oaxaca Salsa & Bachata Paramount Cup 2025
+sourceUrl: https://facebook.com/events/3815854605344985
+venue:
+  address_components:
+    - long_name: "113"
+      short_name: "113"
+      types:
+        - street_number
+    - long_name: Huzares
+      short_name: Huzares
+      types:
+        - route
+    - long_name: Zona Lunes Feb 09
+      short_name: Zona Lunes Feb 09
+      types:
+        - neighborhood
+        - political
+    - long_name: Centro
+      short_name: Centro
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Oaxaca de Juárez
+      short_name: Oaxaca de Juárez
+      types:
+        - locality
+        - political
+    - long_name: Oaxaca
+      short_name: Oax.
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Mexico
+      short_name: MX
+      types:
+        - country
+        - political
+    - long_name: "68000"
+      short_name: "68000"
+      types:
+        - postal_code
+  formatted_address: Huzares 113, Zona Lunes Feb 09, Centro, 68000 Oaxaca de Juárez, Oax., Mexico
+  geometry:
+    location:
+      lat: 17.0624347
+      lng: -96.7324421
+    viewport:
+      northeast:
+        lat: 17.0638184302915
+        lng: -96.7310849697085
+      southwest:
+        lat: 17.0611204697085
+        lng: -96.73378293029151
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +52 951 214 2511
+  name: Club de salsa social SON MONTUNO
+  place_id: ChIJM4-4D58jx4URX1CS9oqaCdI
+  url: https://maps.google.com/?cid=15134797944388210783
+endDate: 1742190900000
+claimed: No
+link: http://www.oaxacalacapitalsalsera.com/
+description: >-
+  11va edición del Campeonato Internacional de Bailes Latinos OSBPC.
+
+
+  Vive una de las mejores experiencias en uno de los congresos considerados de los más importantes de México. Disfruta de los Campeonatos, talleres, certificación, sociales, Pool party y mucho más. Nos vemos del 12 al 16 de marzo del 2025.
+
+
+  Más información a los teléfonos:📱 
+
+
+  +529512353717 - Jorge Martínez.
+
+  +529511181624 - Mavis Escobar.
+
+  +529511461346 - Edgar Mijangos.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293940/u7zla6jxkhvqxnqxmyxm.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJEcQsxWoix4URNUTTyLaH0dY
+international: No
+visibility: Public
+org:
+  id: OKEcLEXXMA03CFZrCkl9
+  username: OAXACASALSAYBACHATAFESTIVAL
+  name: Oaxaca Salsa & Bachata Paramount Cup
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953450/vjvpf4edjppufr94yoxv.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/OAXACASALSAYBACHATAFESTIVAL
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/3815854605344985/
+facebookId: "3815854605344985"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1741784400000+ChIJM4-4D58jx4URX1CS9oqaCdI
+startDate: 1741784400000
+id: OJOl2VBRaLixanVuJZoT

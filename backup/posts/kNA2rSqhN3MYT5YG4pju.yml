@@ -1,0 +1,205 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327064568
+updatedAt: 1732327064568
+importedAt: 1732327064568
+providerId: goandance
+providerItemId: "7213"
+name: Sonando Pamplona International Festival 2025 (2ª Edición)
+description: >-
+  Presentamos la segunda edición del Festival Internacional Sonando Pamplona.
+  Tendremos talleres y shows de distintos artistas en los que disfrutar de
+  ritmos variados: salsa cubana, salsa on1, timba, son, reparto, bachata
+  sensual, bachata fusión, afro, etc. Además, también podrás practicar lo
+  aprendido bailando en los sociales.
+
+
+  Ven y disfruta con nosotros, ¡te esperamos!
+sourceUrl: https://www.goandance.com/es/e/7213?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7213?promoter=WEDANCE123
+type: event
+startDate: 1742572800000
+endDate: 1742698800000
+tickets:
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1726351140
+      _nanoseconds: 0
+    discount: 5
+    price: 60
+    comission: 3.93
+    originalPrice: 65
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1728943140
+      _nanoseconds: 0
+    discount: 5
+    price: 70
+    comission: 3.93
+    originalPrice: 75
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1731625140
+      _nanoseconds: 0
+    discount: 5
+    price: 80
+    comission: 3.93
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1734217140
+      _nanoseconds: 0
+    discount: 5
+    price: 90
+    comission: 3.93
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1736895540
+      _nanoseconds: 0
+    discount: 5
+    price: 100
+    comission: 3.93
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1739573940
+      _nanoseconds: 0
+    discount: 5
+    price: 110
+    comission: 3.93
+    originalPrice: 115
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Full Pass
+    description: Incluye talleres + shows + sociales del viernes y del sábado. No
+      incluye alojamiento. Cambios de nombre 10€.
+    priceValidUntil:
+      _seconds: 1742684340
+      _nanoseconds: 0
+    discount: 5
+    price: 120
+    comission: 3.93
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Fiesta viernes
+    description: Shows + social del viernes
+    priceValidUntil:
+      _seconds: 1742713200
+      _nanoseconds: 0
+    discount: 0
+    price: 15
+    comission: 0.39
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+  - name: Fiesta sábado
+    description: Shows + social del sábado
+    priceValidUntil:
+      _seconds: 1742713200
+      _nanoseconds: 0
+    discount: 0
+    price: 15
+    comission: 0.39
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7213-sonando-pamplona-international-festival-2025-2a-edicion?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327066/kct8ern90z2o9mmnfwgk.jpg
+venue:
+  address_components:
+    - long_name: "1"
+      short_name: "1"
+      types:
+        - street_number
+    - long_name: Calle de Arcadio María Larraona
+      short_name: C. de Arcadio María Larraona
+      types:
+        - route
+    - long_name: Pamplona
+      short_name: Pamplona
+      types:
+        - locality
+        - political
+    - long_name: Navarra
+      short_name: NA
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Navarra
+      short_name: NC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "31008"
+      short_name: "31008"
+      types:
+        - postal_code
+  formatted_address: C. de Arcadio María Larraona, 1, 31008 Pamplona, Navarra, Spain
+  geometry:
+    location:
+      lat: 42.811774
+      lng: -1.663592
+    viewport:
+      northeast:
+        lat: 42.81304333029149
+        lng: -1.662191769708498
+      southwest:
+        lat: 42.81034536970849
+        lng: -1.664889730291502
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 948 19 71 19
+  name: Hotel NH Pamplona Iruña Park
+  place_id: ChIJ0QASaWKSUA0R-fVa57bqVyQ
+  url: https://maps.google.com/?cid=2618819779625678329
+  website: https://www.nh-hotels.com/en/hotel/nh-pamplona-iruna-park?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb
+place: ChIJx2UZo4uSUA0RkC7LMjaQbk4
+price: 90 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1742572800000+ChIJ0QASaWKSUA0R-fVa57bqVyQ
+org: ""
+id: kNA2rSqhN3MYT5YG4pju

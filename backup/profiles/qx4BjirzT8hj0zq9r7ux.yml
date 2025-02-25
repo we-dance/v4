@@ -1,0 +1,35 @@
+owner: ""
+importedAt: 1728417908890
+import: success
+visibility: Public
+facebook: https://www.facebook.com/people/Betty-Reibel/pfbid02U8W1JFKrhDppq7bwk6RYAGgUFikWXHt1dusefEFpDEGvRmRD4d1przpaDDQUxG8dl/
+photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417909/jjinoqd371hzftpbnhhu.jpg
+source: facebook
+type: Organiser
+createdAt: 1728417908890
+owned: false
+name: Betty Reibel
+place: ChIJwbIYXknIlkcRHyTnGDFIGpc
+updatedAt: 1728417908890
+username: BettyReibel
+watch:
+  count: 1
+  usernames:
+    - igor
+  history:
+    - username: igor
+      date: 1732199915354
+      invitedBy: ""
+      uid: HHIn4MizijTf1lsXWDmkfWqrFIz1
+      action: joined
+    - username: igor
+      date: 1732199916570
+      invitedBy: ""
+      uid: HHIn4MizijTf1lsXWDmkfWqrFIz1
+      action: left
+    - username: igor
+      date: 1732199917097
+      invitedBy: ""
+      uid: HHIn4MizijTf1lsXWDmkfWqrFIz1
+      action: joined
+id: qx4BjirzT8hj0zq9r7ux

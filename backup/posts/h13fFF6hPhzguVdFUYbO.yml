@@ -1,0 +1,126 @@
+venue:
+  formatted_address: Spitzwegstraße 11, 81373 München, Germany
+  website: http://www.ladysportiv.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "11"
+      short_name: "11"
+    - types:
+        - route
+      long_name: Spitzwegstraße
+      short_name: Spitzwegstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Sendling
+      short_name: Sendling
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81373"
+      short_name: "81373"
+  url: https://maps.google.com/?cid=3962734094270687428
+  name: Lady Sportiv
+  geometry:
+    viewport:
+      south: 48.1217092697085
+      north: 48.1244072302915
+      east: 11.5423810302915
+      west: 11.5396830697085
+    location:
+      lng: 11.5409652
+      lat: 48.1230141
+  place_id: ChIJj9WUobTYnUcRxGhVzKl1_jY
+  international_phone_number: +49 89 74793020
+endDate:
+  _seconds: 1644071400
+  _nanoseconds: 0
+claimed: No
+organisedBy: ""
+link: https://facebook.com/events/s/salsa-cubana-footwork-und-open/675387803629227/
+description: >-
+  Salsa-Cubana Footwork und Openshine-Workshop (Basic & Intermediate)
+
+
+  12:30-13:30 Footwork basic(Amanda)
+
+  Gebühr: 10.-€ Pp
+
+  -13:30-14:30 Footwork Intermediate 
+
+  (Peyman)
+
+  Gebühr: 10.-€ Pp
+
+
+  Dieser 2 Stündige Workshop bietet dir die Gelegenheit in die Salsa Welt Footwork einzutauchen. 
+
+  Die erste Stunde ist geeignet für die Anfänger. In dieser Stunde lernst du einige Salsa- Grundschritte von der erfahrenden Tanzlehrerin AMADA aus Cuba.
+
+  Die zweite Stunde ist geeignet für die jenige, die schon Salsa Grundschritte kennen.und sich auf intermediateLevel weiter entwickeln möchten. In der Zweiten Stunde wirst du von Peyman einige Salsa-Cubana Footwork- kombinationen lernen und ausüben.
+
+  Anmeldung direkt beim Peyman: 0176-41715065
+
+  https://peymansaba.com/salsa oder Registrierung  in den Facebooklink unten👇👇👇👇😊😎
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FlQ0ufxwmuwhRtL13sVsCScbrscu2%2F982811a0-3768-4bc1-bcce-7950656ce800?alt=media&token=c9d3d897-6fcf-459d-bcb2-33202195981b
+promo: Yes
+duration: "180"
+createdAt: 1642539440341
+price: 3 Workshops je 1h, EUR 10 pro Stunde
+promoter: Franzi
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1642539440341
+updatedBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+visibility: Public
+facebook: https://facebook.com/events/s/salsa-cubana-footwork-und-open/675387803629227/
+eventType: Workshop
+organiser: ""
+form: Yes
+createdBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+name: Salsa Cubana Footwork & Openshine Workshop (Basic & Intermediate)
+online: No
+styles:
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Zumba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-05T12:30
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fh13fFF6hPhzguVdFUYbO.png?generation=1642539639368445&alt=media
+id: h13fFF6hPhzguVdFUYbO
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: Franzi
+viewsCount: 59

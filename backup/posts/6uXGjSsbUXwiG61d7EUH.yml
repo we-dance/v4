@@ -1,0 +1,120 @@
+importedAt: 1707431959263
+providerUpdatedAt:
+  _seconds: 1704282610
+  _nanoseconds: 0
+endDate:
+  _seconds: 1717970400
+  _nanoseconds: 0
+facebookId: "193447579978072"
+facebook: https://www.facebook.com/events/193447579978072/
+createdAt: 1707431959263
+providerItemId: e193447579978072@facebook.com
+approved: false
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: Gr7nQqT0E5LRLNXJXDiF
+name: Summer Sensual Days ROVINJ 2024 *official event* - CANCELLED
+location: Rovinj, Croatia
+styles: {}
+providerCreatedAt:
+  _seconds: 1686668749
+  _nanoseconds: 0
+startDate:
+  _seconds: 1717416000
+  _nanoseconds: 0
+updatedAt: 1707431959263
+username: alexrazbakov
+venue:
+  formatted_address: Rovinj, Croatia
+  website: http://www.rovinj.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.6065125747384
+        lat: 45.01590065493957
+      northeast:
+        lng: 13.73434351743165
+        lat: 45.13155585620012
+    location:
+      lng: 13.6387067
+      lat: 45.0811661
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istria County
+      long_name: Istria County
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707431971755
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/seasunsexy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431972/d2znghjt4m3otjbs5wpq.png
+  source: facebook
+  type: Organiser
+  createdAt: 1707431971755
+  owned: false
+  name: Summer Sensual Days
+  place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  updatedAt: 1707431971755
+  username: summer.sensual.days
+claimed: No
+link: ""
+description: >
+  Are you ready for the 13th year of the biggest sensual paradise? 🔥 Let's make
+  history together - again in 2024! Lovely people, mark your calendars because
+  Rovinj is calling you!
+
+
+  ****
+
+  🔗 TICKETS ARE AVAILABLE: https://www.summersensual.com/rovinj/tickets
+
+
+  ****
+
+  🔥 SUMMER SENSUAL DAYS, ROVINJ
+
+  🔥 Sensual summer dancing overload
+
+  🔥 NEXT EDITION: 03-10/06/2024
+program: []
+source: facebook
+eventType: Party
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707431974/qsogjbmkwfywjqa6zoop.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: No
+hash: 1717416000000+ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6uXGjSsbUXwiG61d7EUH.png?generation=1707431990271884&alt=media
+viewsCount: 1
+id: 6uXGjSsbUXwiG61d7EUH

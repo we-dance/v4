@@ -1,0 +1,42 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1627485464699
+locales:
+  de: true
+createdBy: qoC3jIHSHQWPXjRw0Q2GbvfVQQv2
+name: Siva
+username: Siva
+daysUsed: 1
+pwaUsed: false
+cities:
+  ChIJEXrwv2AXuUcRUIdUMYHyJwQ: true
+updatedAt: 1627485515184
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+partner: Yes
+days:
+  Monday: true
+  Thursday: true
+  Tuesday: true
+permission: Yes
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+place: ChIJEXrwv2AXuUcRUIdUMYHyJwQ
+contacts: Yes
+height: "160"
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+lastLoginAt: 1627486553799
+instagram: https://instagram.com/From_siva_with_love
+id: qoC3jIHSHQWPXjRw0Q2GbvfVQQv2

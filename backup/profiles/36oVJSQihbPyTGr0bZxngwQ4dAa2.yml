@@ -1,0 +1,27 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1623087954172
+locales:
+  en: true
+createdBy: 36oVJSQihbPyTGr0bZxngwQ4dAa2
+name: Sorinel123_567
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Sorinel123_567
+pwaUsed: false
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F36oVJSQihbPyTGr0bZxngwQ4dAa2%2Fa7e93540-07a9-450c-8199-2d4bdf2096a8?alt=media&token=2eb8c24b-1165-4c7c-8f28-d1a19e71d5e6
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1623089063256
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FSorinel123_567.png?generation=1623089591040557&alt=media
+lastLoginAt: 1656245720340
+daysUsed: 7
+id: 36oVJSQihbPyTGr0bZxngwQ4dAa2

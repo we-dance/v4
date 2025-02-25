@@ -1,0 +1,205 @@
+venue:
+  formatted_address: 7, Štefánikova 230, 150 00 Praha 5-Anděl, Czechia
+  website: http://www.lamacumba.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: La Macumba Music Latino bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4045822802915
+      south: 50.0709519197085
+      north: 50.0736498802915
+      west: 14.4018843197085
+    location:
+      lng: 14.403744
+      lat: 50.0726811
+  address_components:
+    - types:
+        - subpremise
+      short_name: "7"
+      long_name: "7"
+    - types:
+        - street_number
+      short_name: "230"
+      long_name: "230"
+    - types:
+        - route
+      short_name: Štefánikova
+      long_name: Štefánikova
+    - types:
+        - neighborhood
+        - political
+      short_name: Anděl
+      long_name: Anděl
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 5
+      long_name: Praha 5
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 150 00
+      long_name: 150 00
+  international_phone_number: +420 776 795 166
+  place_id: ChIJ5doTgviUC0cRMhb90JFMSe0
+  url: https://maps.google.com/?cid=17098281649449014834
+endDate: 2023-05-03T02:00
+claimed: No
+link: https://www.facebook.com/events/1438420676695319/1438420680028652
+description: >-
+  🇪🇦
+
+  🤩 Todos los días y todas las noches en La Macumbe tenemos una 💃fiesta latina🕺:
+
+  ❤Salsa ❤bachata ❤kizomba ❤merengue ❤reggaeton ❤pop latino
+
+  🤗 Disfrútalo con nosotros🤗
+
+  🍸🍹🍸 El bar abre a partir de las 18:00
+
+  💃🕺🍹🥃🎶🎧🎶🥃🍹🕺💃
+
+  🎶 Música latina rítmica y melódica
+
+  👯‍♂️💃🕺 Gran grupo de personas
+
+  🥃🍹 Ron cubano, cócteles variados y otras bebidas
+
+  🥳 Sumérgete en el mundo latino en el mágico Cuban club La Macumba
+
+  📌 Reservas:
+
+  📱 +420776795166
+
+  📧 rezervace@lamacumba.cz
+
+  www.lamacumba.cz
+
+  🇬🇧
+
+  🤩 Every day and every night in La Macumba we have a 💃latino party🕺:
+
+  ❤Salsa ❤bachata ❤kizomba ❤merengue ❤reggaeton ❤pop latino
+
+  🤗 Enjoy it with us🤗
+
+  🍸🍹🍸 The bar is open from 18:00
+
+  💃🕺🍹🥃🎶🎧🎶🥃🍹🕺💃
+
+  🎶 Rhythmic and melodic Latin music
+
+  👯‍♂️💃🕺 Great group of people
+
+  🥃🍹 Cuban rum, various cocktails and other drinks
+
+  🥳 Immerse yourself in the world of Latin at the magical Cuban club La Macumba
+
+  📌 Reservations:
+
+  📱 +420 776 795 166
+
+  📧 rezervace@lamacumba.cz
+
+  www.lamacumba.cz
+
+  🇨🇿
+
+  🤩 Každý den a každou noc v La Macumbě máme 💃latino party🕺:
+
+  ❤Salsa ❤bachata ❤kizomba ❤merengue ❤reggaeton ❤pop latino
+
+  🤗 Užívejte si to spolu s námi🤗
+
+  🍸🍹🍸 Bar otevřen od 18:00
+
+  💃🕺🍹🥃🎶🎧🎶🥃🍹🕺💃
+
+  🎶 Rytmická a melodická latino hudba
+
+  👯‍♂️💃🕺 Skvělá parta lidí
+
+  🥃🍹 Kubánský rum, různé koktejly a jiný nápoje
+
+  🥳 Ponořte se do světu latino v magickem 🇨🇺kubánském 🇨🇺 klubu La Macumba
+
+  📌 Rezervace:
+
+  📱 +420 776 795 166
+
+  📧 rezervace@lamacumba.cz
+
+  www.lamacumba.cz
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Fc435d0d1-c03d-48d0-8ebd-432ae64c397b?alt=media&token=a8e8bba1-760c-4a5b-b1d2-eca743084593
+createdAt: 1682775971793
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    bio: ""
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+price: 0 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - DjLole
+international: No
+updatedAt: 1682775971793
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  facebook: https://facebook.com/lamacumba.cz
+  username: lamacumba.cz
+facebook: https://www.facebook.com/events/1438420676695319/1438420680028652
+eventType: Party
+form: No
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+watch:
+  count: 1
+  list:
+    DjLole: true
+name: Fiesta latina en La Macumba con Lole 🎧✨
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-02T21:00
+username: DjLole
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjukM6lvo2vVZ31FAYcEu.png?generation=1682776039128502&alt=media
+telegram:
+  requestedAt: 1682775981304
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/287
+  publishedAt: 1682776041586
+  messageId: 287
+  state: published
+viewsCount: 2
+id: jukM6lvo2vVZ31FAYcEu

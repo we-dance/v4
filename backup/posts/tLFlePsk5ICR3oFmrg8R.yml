@@ -1,0 +1,159 @@
+endDate: 1716667200000
+sourceUrl: https://www.facebook.com/events/845648123997701/
+createdAt: 1715444431512
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1711104535000
+updatedAt: 1715444431512
+importedAt: 1715444431512
+providerUpdatedAt: 1715181971000
+facebookId: "845648123997701"
+facebook: https://www.facebook.com/events/845648123997701/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/845648123997701/
+eventType: Party
+providerItemId: e845648123997701@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "SBK Birthday Party Adel Dasalsa "
+location: Espace Squash 3000
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716656400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Av. François Mitterrand, 68200 Mulhouse, France
+  website: http://www.squash3000.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Espace Squash 3000
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.306089419708497
+        lat: 47.7406224197085
+      northeast:
+        lng: 7.308787380291502
+        lat: 47.7433203802915
+    location:
+      lng: 7.307432400000001
+      lat: 47.74197720000001
+  address_components:
+    - types:
+        - route
+      short_name: Av. François Mitterrand
+      long_name: Avenue François Mitterrand
+    - types:
+        - locality
+        - political
+      short_name: Mulhouse
+      long_name: Mulhouse
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Haut-Rhin
+      long_name: Haut-Rhin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "68200"
+      long_name: "68200"
+  international_phone_number: +33 3 89 59 26 63
+  place_id: ChIJexJ8vjubkUcRSV7VXe4U62M
+  url: https://maps.google.com/?cid=7199871443290906185
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715444480147
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/Salsa-porto-Mulhouse/100068816671868/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715444480/dfti1wgar1xjmusdskol.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715444480147
+  owned: false
+  name: Salsa porto Mulhouse
+  place: ChIJa5SIHWybkUcRYDM5mrlfCgQ
+  updatedAt: 1715444480147
+  username: Salsaporto-Mulhouse
+claimed: No
+link: ""
+description: >-
+  🔥 Samedi 25 mai 🔥
+
+  La grande soirée SBK Edition Speciale spéciale
+
+  🌟 Adel Dasalsa Birthday 🌟 
+                 *****************
+  Programme Stages SBK :
+
+  ↗️19h - 20h : Stage Salsa niveau évolutif animé par Adel &Valentina  
+
+  ↗️20h - 21h : Stage Bachata, niveau évolutif animé par Adel&Anaïs
+
+  ↗️21h - 22h : Stage Kizomba, niveau évolutif animé par Thomas & Mathilde
+                *****************
+  🔊22h Place à la soirée SBK avec le meilleur des sons Salsa, Bachata & Kizomba mixé par Adel.
+
+  Animations & surprises seront au rendez-vous pour vous faire passer une soirée inoubliable.
+
+  Entrées :
+
+  🎫5 € par workshop 
+
+  15 € la soirée seule 
+
+  25 € full pass 
+
+  Boissons, softs inclus en libre service 
+
+  Lieu : Espace Squash 3000
+
+  Avenue François Mitterrand
+
+  68200 Mulhouse 
+
+  (Entrée par le restaurant, suivre Salle plateau fitness)
+
+  Grand parking à disposition
+                ****************
+  ✅️Participe ✅️Partage ✅️Amuse-toi
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715444481/aefzqxlqzhj3hs8spv7n.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJa5SIHWybkUcRYDM5mrlfCgQ
+international: No
+hash: 1716656400000+ChIJexJ8vjubkUcRSV7VXe4U62M
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FtLFlePsk5ICR3oFmrg8R.png?generation=1715444494332243&alt=media
+id: tLFlePsk5ICR3oFmrg8R

@@ -1,0 +1,711 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732326976948
+updatedAt: 1732326976948
+importedAt: 1732326976948
+providerId: goandance
+providerItemId: "6545"
+name: QUESHIVA FESTIVAL 2024
+description: >-
+  💥💥 SEGUNDA EDICIÓN DE QUESHIVA FESTIVAL by QUE CHIMBA & SHIVA XPERIENCE 💥💥
+  Talleres, Masterclass, Shows, Social Dance, Fiestas Temáticas, Torneo de Pádel
+  y muchas sorpresas más!! 💥💥 22, 23 y 24 de NOVIEMBRE 2024💥💥
+
+
+  https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?discount=QUESHIVA
+
+
+  Artistas confirmados:
+
+
+  Melvin y Gatica
+
+
+  Abdel y Lety
+
+
+  Klau y Ros
+
+
+  Sergio y Ana
+
+
+  Darío y Sara
+
+
+  Berra y Nazaret
+
+
+  Frank y Natalí
+
+
+  Rober y Denise
+
+
+  Javi y Mariluz
+
+
+  Marc y Marilyn
+
+
+  Alexis y Zenaida
+
+
+  Érica Ponce
+
+
+  Javi López
+
+
+  Jesús y Noemi
+
+
+  Yexy y Viki
+
+
+  Carla y Sergio
+
+
+  Toni y Judit
+
+
+  Héctor y Alba
+
+
+  Carlos y Judit
+
+
+  Jose y Alicia
+
+
+  Jorge y Ángela
+
+
+  Lorena y Marc
+
+
+  María y Mario
+
+
+  Lucas y María
+
+
+  Damago y Lidia
+
+
+  Daniel y Camila
+
+
+  Fabio e Iris
+
+
+  Kevin y Fran
+
+
+  Jose y Anna
+
+
+  Daniel y Alma
+
+
+  Denis y Saray
+
+
+  🎧 Dj Husky
+
+
+  🎧 Dj Tévez
+
+
+  🎧 Dj Killo
+
+
+  🎧 Dj Smile
+
+
+  🎧 R•Dj
+
+
+  🎧 Dj Lex
+
+
+  🎬🎥📸 Vídeo & Foto by AMEDIA 📸🎥🎬
+
+
+  https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?discount=QUESHIVA
+
+
+  📍 Hotel Don Ángel
+sourceUrl: https://www.goandance.com/es/e/6545?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6545?promoter=WEDANCE123
+type: event
+startDate: 1732291200000
+endDate: 1732464000000
+tickets:
+  - name: FULL PASS
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del Que Shiva
+      Festival 2024.
+
+      No incluye alojamiento ni entrada a las masterclass.
+
+      Cambios de nombre disponibles...  hasta 12/11/2024 a las 17:00 (coste 10€).
+
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 109
+    comission: 7.87
+    originalPrice: 109
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: DAY PASS SÁBADO (SOLO 25)
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del SÁBADO en Que
+      Shiva Festival 2024.
+
+      No incluye alojamiento ni entrada a las masterclass.
+
+      Cambios de...  nombre disponibles hasta 12/11/2024 a las 17:00 (coste 10€).
+
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 69
+    comission: 7.87
+    originalPrice: 69
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: 6H MASTERCLASS FOLLOWER
+    description: |-
+      Incluye 6h de Masterclass FOLLOWER:
+      1h Melvin y Gatica
+      1h Abdel y Leti 
+      1h Klau y Ros 
+      1h Sergio y Ana 
+      1h Darío y Sara 
+      1h Berra y Nazaret...   
+      22, 23 y 24 de NOVIEMBRE 2024
+      📍 Hotel Don Ángel 
+      FULL PASS QUESHIVA FESTIVAL 2024 OBLIGATORIO
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 64
+    comission: 7.87
+    originalPrice: 64
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: 6H MASTERCLASS LEADER
+    description: |-
+      Incluye 6h de Masterclass LEADER:
+      1h Melvin y Gatica
+      1h Abdel y Leti 
+      1h Klau y Ros 
+      1h Sergio y Ana 
+      1h Darío y Sara 
+      1h Berra y Nazaret...   
+      22, 23 y 24 de NOVIEMBRE 2024
+      📍 Hotel Don Ángel 
+      FULL PASS QUESHIVA FESTIVAL 2024 OBLIGATORIO
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 64
+    comission: 7.87
+    originalPrice: 64
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: PARTY PASS
+    description: >-
+      Permite el acceso a la FLÚOR NIGHT de Viernes, a la SESY NIGHT de Sábado y
+      a los sociales durante el día (viernes, sábado y domingo) 
+
+      INCLUYE VIERNES:
+
+      -...  Social durante el día de 19h a 21h
+
+      - 23h Taller Klau y Ros
+
+      - Show de Sergio y Ana
+
+      - Social Dance hasta las 6h con Dj Husky, Dj Tévez, Dj Smile, Dj Killo, R·Dj y Dj Lex. 
+
+      INCLUYE SÁBADO:
+
+      - Social durante el día de 18h a 21h
+
+      - 23h Taller de Melvin y Gatica
+
+      - Shows de Abdel y Lety - Berra y Nazaret
+
+      - Social Dance hasta las 6h con Dj Husky, Dj Tévez, Dj Smile, Dj Killo, R·Dj y Dj Lex. 
+
+      INCLUYE DOMINGO:
+
+      - Social Cierre Hotel 15h-17h
+
+      - Social Cierre en Que Chimba a partir de las 19h 
+
+      No incluye alojamiento ni entrada a las masterclass
+
+      No incluye consumición
+
+      No se devolverá el importe en ningún caso
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 40
+    comission: 7.87
+    originalPrice: 40
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: NIGHT PASS VIERNES
+    description: >-
+      Permite el acceso a la FLÚOR NIGHT de Sábado (a partir de las 23h) 
+
+      INCLUYE:
+
+      - 23h Taller Klau y Ros
+
+      - Show de Sergio y Ana
+
+      - Social Dance hasta...  las 6h con Dj Husky, Dj Tévez, Dj Smile, Dj Killo, R·Dj y Dj Lex. 
+
+      No incluye alojamiento ni entrada a las masterclass
+
+      No incluye consumición
+
+      No se devolverá el importe en ningún caso
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 22
+    comission: 7.87
+    originalPrice: 22
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: NIGHT PASS SÁBADO
+    description: >-
+      Permite el acceso a la SESY NIGHT de Sábado (a partir de las 23h)
+
+      INCLUYE:
+
+      - 23h Taller Melvin y Gatica
+
+      - Shows de Abdel y Lety - Berra y Nazaret
+
+      -...  Social Dance hasta las 6h  con Dj Husky, Dj Tévez, Dj Smile, Dj Killo, R·Dj y Dj Lex
+
+      No incluye alojamiento ni entrada a las masterclass
+
+      No incluye consumición
+
+      No se devolverá el importe en ningún caso
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 27
+    comission: 7.87
+    originalPrice: 27
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE 2 NOCHES PC (SOLO ALOJAMIENTO)
+    description: >-
+      Habitación doble en hotel SEDE - precio por persona, noches viernes 22 y
+      sábado 23 Noviembre 2024 (Pensión completa: Viernes: cena Sábado:
+      desayuno, comida y cena. Domingo:...  desayuno y comida)
+
+      NO Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 10
+    price: 130
+    comission: 0.79
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE SUPERIOR 2 NOCHES PC (SOLO ALOJAMIENTO)
+    description: >-
+      Habitación doble en hotel SEDE 4 estrellas superior - precio por persona,
+      noches viernes 22 y sábado 23 Noviembre 2024 (Pensión completa: Viernes:
+      cena Sábado: desayuno, comida...  y cena. Domingo: desayuno y comida)
+
+      NO Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 200
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN TRIPLE SUPERIOR 2 NOCHES PC (SOLO ALOJAMIENTO)
+    description: >-
+      Habitación triple en hotel SEDE 4 estrellas superior - precio por persona,
+      noches viernes 22 y sábado 23 Noviembre 2024 (Pensión completa: Viernes:
+      cena Sábado: desayuno,...  comida y cena. Domingo: desayuno y comida)
+
+      NO Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 200
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE 1 NOCHE PC (SOLO ALOJAMIENTO)
+    description: >-
+      Habitación doble en hotel SEDE - precio por persona, noche sábado 23
+      Noviembre 2024 (Pensión completa: Sábado: cena. Domingo: desayuno y
+      comida)
+
+      NO Incluye FULL PASS...  />
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 99
+    comission: 7.87
+    originalPrice: 99
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN INDIVIDUAL 2 NOCHES PC (SOLO ALOJAMIENTO)
+    description: >-
+      Habitación individual en hotel SEDE - precio por persona, noches viernes
+      22 y sábado 23 Noviembre 2024 (Pensión completa: Viernes: cena Sábado:
+      desayuno, comida y cena. Domingo:...  desayuno y comida)
+
+      NO Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 200
+    comission: 7.87
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE 2 NOCHES PC + FULL PASS
+    description: >-
+      Habitación doble en hotel SEDE - precio por persona, noches viernes 22 y
+      sábado 23 Noviembre 2024 (Pensión completa: Viernes: cena Sábado:
+      desayuno, comida y cena. Domingo:...  desayuno y comida)
+
+      Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 10
+    price: 219
+    comission: 7.87
+    originalPrice: 229
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE SUPERIOR 2 NOCHES PC + FULL PASS
+    description: >-
+      Habitación doble en hotel SEDE 4 estrellas superior - precio por persona,
+      noches viernes 22 y sábado 23 Noviembre 2024 (Pensión completa: Viernes:
+      cena Sábado: desayuno, comida...  y cena. Domingo: desayuno y comida)
+
+      Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 289
+    comission: 7.87
+    originalPrice: 289
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN TRIPLE SUPERIOR 2 NOCHES PC + FULL PASS
+    description: >-
+      Habitación triple en hotel SEDE 4 estrellas superior - precio por persona,
+      noches viernes 22 y sábado 23 Noviembre 2024 (Pensión completa: Viernes:
+      cena Sábado: desayuno,...  comida y cena. Domingo: desayuno y comida)
+
+      Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 289
+    comission: 7.87
+    originalPrice: 289
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN DOBLE 1 NOCHE PC + FULL PASS
+    description: >-
+      Habitación doble en hotel SEDE - precio por persona, noche sábado 23
+      Noviembre 2024 (Pensión completa: Sábado: cena. Domingo: desayuno y
+      comida)
+
+      Incluye FULL PASS...  />
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 179
+    comission: 7.87
+    originalPrice: 179
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN TRIPLE 2 NOCHES PC (SOLO ALOJAMIENTO)
+    description: >-
+      Habitación tripleen hotel SEDE - precio por persona, noches viernes 22 y
+      sábado 23 Noviembre 2024 (Pensión completa: Viernes: cena Sábado:
+      desayuno, comida y cena. Domingo:...  desayuno y comida)
+
+      NO Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 10
+    price: 130
+    comission: 0.79
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: HABITACIÓN TRIPLE 2 NOCHES PC + FULL PASS
+    description: >-
+      Habitación triple en hotel SEDE - precio por persona, noches viernes 22 y
+      sábado 23 Noviembre 2024 (Pensión completa: Viernes: cena Sábado:
+      desayuno, comida y cena. Domingo:...  desayuno y comida)
+
+      Incluye FULL PASS
+
+      NO se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 10
+    price: 219
+    comission: 7.87
+    originalPrice: 229
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: 🎾🎾 PÁDEL BACHATA TOURNAMENT 🎾🎾
+    description: |-
+      ✅ Sábado: eliminatorias de 11h a 13h y 16h a 20h
+      ✅ Domingo: Semifinal y final de 12h a 13h 
+      💬 MÁS INFO  💬
+      https://chat.whatsapp.com/HmzKUO0DrXS3QKM2FW9DJF...  /> 
+      📍 Hotel Don Ángel  
+      FULL PASS QUESHIVA FESTIVAL 2024 OBLIGATORIO
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 5
+    price: 10
+    comission: 0.79
+    originalPrice: 15
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: FULL PASS + MASTERCLASS OFERTA TERRORÍFICA
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del Que Shiva
+      Festival 2024.
+
+      Incluye 6h de Masterclass
+
+      1h Melvin y Gatica
+
+      1h Abdel y Leti 
+
+      1h...  Klau y Ros 
+
+      1h Sergio y Ana 
+
+      1h Darío y Sara 
+
+      1h Berra y Nazaret  
+
+      No incluye alojamiento 
+
+      No se devolverá el importe pagado en ningún caso.
+
+      Cambios de nombre disponibles hasta 12/11/2024 a las 17:00 (coste 10€).
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 125
+    comission: 7.87
+    originalPrice: 125
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: FULL PASS OFERTA TERRORÍFICA
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del Que Shiva
+      Festival 2024.
+
+      No incluye alojamiento ni entrada a las masterclass.
+
+      Cambios de nombre disponibles...  hasta 12/11/2024 a las 17:00 (coste 10€).
+
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 0
+    price: 85
+    comission: 7.87
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: FULL PASS HASTA EL 15 DE NOVIEMBRE
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del Que Shiva
+      Festival 2024.
+
+      No incluye alojamiento ni entrada a las masterclass.
+
+      Cambios de nombre disponibles...  hasta 12/11/2024 a las 17:00 (coste 10€).
+
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 10
+    price: 89
+    comission: 7.87
+    originalPrice: 99
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: FULL PASS BLACK FRIDAY (SOLO 50)
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del Que Shiva
+      Festival 2024.
+
+      No incluye alojamiento ni entrada a las masterclass.
+
+      Cambios de nombre disponibles...  hasta 12/11/2024 a las 17:00 (coste 10€).
+
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1731884400
+      _nanoseconds: 0
+    discount: 0
+    price: 85
+    comission: 7.87
+    originalPrice: 85
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+  - name: FULL PASS PROMO LANZAMIENTO 100 PRIMEROS
+    description: >-
+      Permite el acceso a todos los talleres, shows y fiestas del Que Shiva
+      Festival 2024.
+
+      No incluye alojamiento ni entrada a las masterclass.
+
+      Cambios de nombre disponibles...  hasta 12/11/2024 a las 17:00 (coste 10€).
+
+      No se devolverá el importe pagado en ningún caso.
+    priceValidUntil:
+      _seconds: 1732460400
+      _nanoseconds: 0
+    discount: 10
+    price: 69
+    comission: 0.79
+    originalPrice: 79
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6545-queshiva-festival-2024?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732326978/bdsyjeft4qqxhmouepqm.jpg
+venue:
+  address_components:
+    - long_name: "14"
+      short_name: "14"
+      types:
+        - street_number
+    - long_name: Carrer del Pla de la Torre
+      short_name: Carrer del Pla de la Torre
+      types:
+        - route
+    - long_name: Santa Susanna
+      short_name: Santa Susanna
+      types:
+        - locality
+        - political
+    - long_name: Barcelona
+      short_name: B
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Catalunya
+      short_name: CT
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "08398"
+      short_name: "08398"
+      types:
+        - postal_code
+  formatted_address: Carrer del Pla de la Torre, 14, 08398 Santa Susanna, Barcelona, Spain
+  geometry:
+    location:
+      lat: 41.6338417
+      lng: 2.7207176
+    viewport:
+      northeast:
+        lat: 41.6353574302915
+        lng: 2.721854780291502
+      southwest:
+        lat: 41.6326594697085
+        lng: 2.719156819708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 937 67 83 64
+  name: Don Angel
+  place_id: ChIJacRaLJQ-uxIRwdAVjd2vU5E
+  url: https://maps.google.com/?cid=10471906924656185537
+  website: http://www.hoteldonangel.com/
+place: ChIJhzBX4FU5uxIRMBKkIeD6AAQ
+price: 109 EUR
+styles: {}
+watch:
+  usernames: []
+  count: 0
+hash: 1732291200000+ChIJacRaLJQ-uxIRwdAVjd2vU5E
+org: ""
+id: H5Dcs1HbMkKTCVpZbX1r

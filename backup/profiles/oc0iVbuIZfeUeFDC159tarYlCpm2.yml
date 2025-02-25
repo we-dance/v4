@@ -1,0 +1,66 @@
+community: Munich
+createdAt: 1601207208480
+createdBy: oc0iVbuIZfeUeFDC159tarYlCpm2
+name: Melanie
+username: MNG
+gender: Female
+step: styles
+styles:
+  Samba:
+    level: Interested
+    selected: true
+  Tango:
+    level: Interested
+    selected: true
+  VienneseWaltz:
+    level: Interested
+    selected: true
+  Ballroom:
+    level: Interested
+    selected: true
+  ChaChaCha:
+    level: Interested
+    selected: true
+  TangoBallroom:
+    level: Interested
+    selected: true
+  Merengue:
+    level: Interested
+    selected: true
+  Bachata:
+    level: Interested
+    selected: true
+  Rhumba:
+    level: Interested
+    selected: true
+  Quickstep:
+    level: Interested
+    selected: true
+  Kizomba:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+  Latin:
+    level: Interested
+    selected: true
+  Foxtrot:
+    level: Interested
+    selected: true
+  Waltz:
+    level: Interested
+    selected: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+type: Dancer
+visibility: Members
+locales:
+  de: true
+  en: true
+lastLoginAt: 1601207210064
+language: de
+daysUsed: 1
+hometown: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1617064586337
+id: oc0iVbuIZfeUeFDC159tarYlCpm2

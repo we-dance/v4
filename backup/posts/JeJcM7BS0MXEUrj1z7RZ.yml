@@ -1,0 +1,154 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  username: pinakothekdermoderne
+endDate: 1716647400000
+claimed: No
+description: >-
+  Urban Freestyle Solo Dance. Learn from an experienced master!
+
+  Have you always dreamed of urban freestyle hip hop dancing? Now is your chance!
+
+  I offer urban freestyle dance lessons specifically for beginners. Immerse yourself in the world of urban dance style and learn from a professional.
+
+
+  About me: 2-time German champion and vice-European champion in the freestyle dance category
+
+
+  In my course for beginners you will learn:
+
+
+  Basics of freestyle dance
+
+  Cool choreographies and moves
+
+  Sense of rhythm and expression
+
+  No matter whether you have experience or are dancing for the first time, this course is suitable for everyone!
+
+
+  Location: Pinakothek 
+
+  Time: Saturday May 25th at 3:00 p.m. and 5:00 p.m. and Sunday May 26th at 3:00 p.m. and 5:00 p.m
+
+  Course duration: 45-60min, 
+
+  Price: donation basis
+
+
+  I'll guide you step by step through the basics of urban freestyle. Discover your passion for urban style! After that you can quickly learn all dance styles.
+program: []
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FqnGMUJDcloNvniG843j01MnUVk63%2Ff4754ccf-9b5b-43fe-962b-8bff95ed338f?alt=media&token=5c1510b1-b346-4e09-bac6-efdb3f03a3b2
+duration: 60
+createdAt: 1716407695833
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: 1 €
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: JeJcM7BS0MXEUrj1z7RZ
+international: No
+updatedAt: 1716407695833
+updatedBy: qnGMUJDcloNvniG843j01MnUVk63
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  username: BerhaneBerhane
+upVotes: 0
+telegram: {}
+eventType: Course
+form: No
+createdBy: qnGMUJDcloNvniG843j01MnUVk63
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: BrendyB
+online: ""
+styles:
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1716728400000
+hash: 1716642000000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+username: BerhaneBerhane
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJeJcM7BS0MXEUrj1z7RZ.png?generation=1716407710233965&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C7SIXwPv6ji
+  publishedAt: 1716407836234
+  messageId: C7SIXwPv6ji
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 3

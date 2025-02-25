@@ -1,0 +1,145 @@
+venue:
+  website: http://www.import-export.cc/
+  formatted_address: Schwere-Reiter-Straße 2h, 80636 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: 2h
+      short_name: 2h
+    - types:
+        - route
+      long_name: Schwere-Reiter-Straße
+      short_name: Schwere-Reiter-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Neuhausen-Nymphenburg
+      short_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80636"
+      short_name: "80636"
+  url: https://maps.google.com/?cid=6566465083921486867
+  name: Import Export
+  geometry:
+    viewport:
+      south: 48.1580799697085
+      north: 48.16077793029149
+      east: 11.5513394302915
+      west: 11.5486414697085
+    location:
+      lng: 11.5500092
+      lat: 48.15942949999999
+  place_id: ChIJWR8KcXN2nkcRE1QlBTTFIFs
+endDate:
+  _seconds: 1635548400
+  _nanoseconds: 0
+organisedBy: ""
+claimed: No
+link: https://import-export.cc/event/discoteca-salsoul-presents-minga-3-el-watusi/
+description: >-
+  MINGA 3
+
+
+  MINGA 3 ist ein Musikprojekt mit internationalem Flair, das durch das Zusammentreffen der drei kolumbianischen Musikern Carlos Segura (aus Cali), Big Sergio (aus Bogotá) und Donald Manuel (von den San Andrés Inseln) entstand. Unter der künstlerischen Leitung von Produzent Donald Manuel, finden MINGA3 die perfekte Mischung aus treibenden ethnischen und elektronischen Rhythmen und melodisch geführten Linien, die den Hörer mitreissen in die magische afrokolumbianische Großstadt-Welt der charismatischen Sänger Carlos Segura und Big Sergio. Urbane Rhythmen wie die Salsa choke, die Champeta, die Kizomba und der HipHop sind Teil des Repertoires dieser kolumbianischen Band, die nun in München beheimatet ist
+
+
+  Special Guest: Dj Janeck
+
+
+  Ob die politische Nähe der Sowjetunion und Cuba jeden Sowjetbürger mit tropischen Klängen verseuchte, bleibt ungewiss. Möglich hat die Begeisterung der Mitglieder des Politbüros der Kommunistischen Partei für Yma Sumac und exotische tropische Rhythmen dieses Phänomen zu verantworten. Jedenfalls war diese Musik durch Staatssender "Majak" überpräsentiert und andere Radiostationen gab es ja kaum. So erklärt Janeck, der Wiesbadener DJ und Partyveranstalter aus der Ukraine seine Leidenschaft für die Karibik und die Anden. Es gibt kaum andere Dinge auf unserem Planeten, die bei ihm so stark das Gefühl der Geborgenheit und die extreme Tanzlust gleichzeitig erwecken als der Sound Leiteiamerikas. Das Ganze lebt er seit Jahren in vollen Zügen aus und teilt seine Begierde oft mit dem Publikum. Dabei gilt er als einer der Pioniere, die Cumbia aus Kolumbien und Peru auf das Deutsche Boden brachten und behutsam einpflanzten. Jetzt kommt die Zeit immer frische und immergrüne Musikfrüchte aus Fairtrade zu ernten!   
+
+
+  https://www.mixcloud.com/offbeatterrorist/ritmovida-salsa-session-with-dj-el-chino-feat-janeck/ 
+
+
+  https://soundcloud.com/offbeatterrorist/sets/cumbia-tropical
+
+
+  El Watusi
+
+
+  Von El Watusi können wir nicht viel sagen, denn sein gebrochenes Deutsch macht ihn schwer verständlich. Soweit wir wissen, hat er ein abgeschlossenes Studium der Ethnologie mit Schwerpunkt africolanische Musik, bei einer unrenommierten Universität dubioser Herkunft. Er ist einem amerikanischen Südstaat entflohen, wo er einer gewaltbereiten Sekte zugehörig war, bis ihm verboten wurde Jala-Jala, Shingaling und Boogaloo zu tanzen. Daraufhin kam er mit dem Loveboat nach München, wo seinen Therapeut ihm die „Auflegen-Therapie“ verschrieb in der Hoffnung eine psychosomatische Steifheit der Hüfte zu lockern. Die Therapie war ein Erfolg und hat nicht nur bei ihm sondern auch auf die Zuhörer gewirkt! Daraufhin hat er das Institut für livinylnale Bewegungen gegründet und das, als Latin-Party getarnte Feldforschungsprojekt, Discoteca Salsoul auf die Beine gestellt. Watusi fühlt sich vor den Tellern wie Zuhause und versucht die Freude seiner neu gewonnenen Freiheit an die Tanzenden weiterzugeben. Der aus Puerto Rico stammende DJ versetzt jeden Raum, in dem er auflegt, in die Karibik. Heißeste Musikspezialitäten Lateinamerikas wie Salsa, Cumbia, Reggae, Rock, Latin Hip-Hop, Reggeatton & Boogaloo werden gemischt, um die Tanztoleranz zu fördern, die Audiodiversität Lateinamerikas zu feiern und alle Tanzbeine in Swing zu bringen.
+
+
+  Eintritt € 7-15
+
+
+  Vorverkauf und mehr infos: https://import-export.cc/event/discoteca-salsoul-presents-minga-3-el-watusi/
+
+
+  Kostumpflicht: Gibt es nicht! Aber wir freuen uns auf alle die verkleidet erscheinen!
+type: event
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F8ea908c9-f1f9-4bd6-8019-89e3a8bdbaeb?alt=media&token=1350b6dc-71ff-4942-a3b8-abf3d9edc79e
+promo: ""
+createdAt: 1635186575862
+watchersCount: 0
+price: 7-15 EUR
+commentsLast: ~
+promoter: Vitali
+id: jiNZjrBt7DyiBFl6oixj
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+views: 11
+updatedAt: 1635186575862
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/tropi-halloween-fiesta-minga-3/6281224561948843/
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Tropi Halloween Fiesta und Konzert
+online: No
+styles:
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-29T18:00:00.000Z
+username: Vitali
+viewsCount: 14

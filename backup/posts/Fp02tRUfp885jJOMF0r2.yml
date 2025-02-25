@@ -1,0 +1,124 @@
+createdAt: 1708774224705
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1708774224705
+username: alexrazbakov
+venue:
+  formatted_address: R. Conde Sabugosa 11 D, 1700-348 Lisboa, Portugal
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: My House Alvalade
+  geometry:
+    viewport:
+      southwest:
+        lng: -9.141525530291501
+        lat: 38.7463048197085
+      northeast:
+        lng: -9.138827569708496
+        lat: 38.7490027802915
+    location:
+      lng: -9.1401644
+      lat: 38.74761619999999
+  address_components:
+    - types:
+        - subpremise
+      short_name: D
+      long_name: D
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: R. Conde Sabugosa
+      long_name: Rua Conde Sabugosa
+    - types:
+        - locality
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Alvalade
+      long_name: Alvalade
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lisboa
+      long_name: Lisboa
+    - types:
+        - country
+        - political
+      short_name: PT
+      long_name: Portugal
+    - types:
+        - postal_code
+      short_name: 1700-348
+      long_name: 1700-348
+  international_phone_number: +351 963 866 492
+  place_id: ChIJEfKrtjUzGQ0Rv_NkcP0n6ZE
+  url: https://maps.google.com/?cid=10513978774539006911
+endDate: 1711839600000
+claimed: No
+link: ""
+description: |-
+  *Chega cedo porque acaba às 23h*
+
+  A Dançar Casino (Salsa Cubana) com Timba, Songo, Son, Changüí e mais.
+
+  *Arrive early because it ends at 11pm*
+
+  📍 My house Alvalade 
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/931102918168711/?event_time_id=931102921502044
+facebookId: "931102921502044"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Noite de Salsa Cubana "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1711830600000+ChIJEfKrtjUzGQ0Rv_NkcP0n6ZE
+startDate: 1711830600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708774238/ditaahpxkedkmz2poyr1.jpg
+org:
+  owner: ""
+  importedAt: 1708774235647
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/jonas.desousa.71
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708774235/tg3gci9oeuqv1ir6i6db.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708774235647
+  owned: false
+  name: Jonas De Sousa
+  place: ChIJO_PkYRozGQ0R0DaQ5L3rAAQ
+  updatedAt: 1708774235647
+  username: jonas.de.sousa
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FFp02tRUfp885jJOMF0r2.png?generation=1708774252162228&alt=media
+viewsCount: 23
+id: Fp02tRUfp885jJOMF0r2

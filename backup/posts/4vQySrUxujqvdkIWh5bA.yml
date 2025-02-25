@@ -1,0 +1,103 @@
+venue:
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  website: http://salsamas-pasing.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "3"
+      short_name: "3"
+    - types:
+        - route
+      long_name: Am Schützeneck
+      short_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Pasing-Obermenzing
+      short_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "81241"
+      short_name: "81241"
+  url: https://maps.google.com/?cid=8948474523406618165
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  geometry:
+    viewport:
+      south: 48.1464650697085
+      north: 48.1491630302915
+      east: 11.4637166802915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  international_phone_number: +49 89 17929039
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+endDate: 2022-03-04T20:15
+claimed: No
+link: https://salsamas-pasing.de/de/course/details/377
+description: In diesem Kurs werden Mittelstufe Salsa Cubana Kombinationen
+  gezeigt & geübt. Die „Salsa Cubana“ Basics solltest du sicher beherrschen,
+  wenn du an diesem Kurs teilnehmen möchtest. Auf die Body-Isolations für die
+  Damen sowie auf feine Führungstechnik für die Herren wird eingegeben!
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F8c9fb390-acd4-4144-9ebd-181af21ffef8?alt=media&token=2fe2d99c-86e1-4a37-be93-6c0d426e6647
+duration: custom
+createdAt: 1646050786824
+artists: []
+price: "Einzelanmeldung: 79 € p. Person (4x 75 Min.) / Studenten: 69 € p. Person"
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1646050786824
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  name: Salsamas_Munich
+  username: Salsamas_Munich
+eventType: Course
+form: Yes
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+name: Salsa Cubana II
+online: Yes
+styles:
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2022-03-04T19:30
+username: Salsamas_Munich
+viewsCount: 30
+id: 4vQySrUxujqvdkIWh5bA

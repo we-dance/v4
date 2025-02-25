@@ -1,0 +1,137 @@
+endDate: 1727589600000
+sourceUrl: https://facebook.com/events/s/salsa-de-noche-and-wedding-cel/1601467130580312/
+createdAt: 1727532032947
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1727448343000
+updatedAt: 1727532032947
+importedAt: 1727532032947
+providerUpdatedAt: 1727448343000
+facebookId: "1601467130580312"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/salsa-de-noche-and-wedding-cel/1601467130580312/
+eventType: Party
+providerItemId: 71hj2e9p6cojibb169gjgb9kcgpj4b9o75gm8b9j6csmcp1p6pgj4chmck@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Salsa de Noche and Wedding Celebration!
+location: Noche Mexican BBQ
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1727571600000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 1838 Bardstown Rd Suite 100, Louisville, KY 40205, USA
+  website: https://www.nochemexicanbbq.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Noche Mexican BBQ
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.70108203029149
+        lat: 38.22605396970851
+      northeast:
+        lng: -85.69838406970848
+        lat: 38.22875193029151
+    location:
+      lng: -85.69993869999999
+      lat: 38.22745520000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: Suite 100
+      long_name: Suite 100
+    - types:
+        - street_number
+      short_name: "1838"
+      long_name: "1838"
+    - types:
+        - route
+      short_name: Bardstown Rd
+      long_name: Bardstown Road
+    - types:
+        - neighborhood
+        - political
+      short_name: Deer Park
+      long_name: Deer Park
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40205"
+      long_name: "40205"
+  international_phone_number: +1 502-467-8015
+  place_id: ChIJAwAQALoMaYgR44wqiN2WwYs
+  url: https://maps.google.com/?cid=10070496119993568483
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1727532045848
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid02HtPiBMPpFCr46TtKmZ3reBak1GvEMQ4F32zbFKTLNXaG8SWB6akxvABDzi8KuE8Gl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727532046/crxti2wrcunxn2slrvp1.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1727532045848
+  owned: false
+  name: Tammy Taylor
+  place: ChIJOeD-tscMaYgRECvCGs7YxPw
+  updatedAt: 1727532045848
+  username: tammy.taylor
+claimed: No
+facebook: https://www.facebook.com/events/1601467130580312/
+link: ""
+description: |-
+  Salsa Night @ Noche Mexican BBQ
+  Join DJ Dr. G and dance the night away as we celebrate the end of summer!
+  **Special wedding celebration**
+  Congratulations 🎊🍾🎉🎈 
+  *****Stephanie & Deivid!*****
+  Patio opens at 9:00 PM 
+  Food & drinks will be available for purchase 
+  Late night menu specials with social dancing in the main room starting @ 11 PM
+  DJ Dr. G will be on deck spinning SBK + whatever you want to hear!!
+  Everyone is welcome for FREE!!
+
+  No cover!!
+  21+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727532047/ylt0tzr1yconikidzqht.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJOeD-tscMaYgRECvCGs7YxPw
+international: No
+hash: 1727571600000+ChIJAwAQALoMaYgR44wqiN2WwYs
+id: gQeAHdz1WXHjWZZFFs3g

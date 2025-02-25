@@ -1,0 +1,42 @@
+endDate: 1718582400000
+description: |-
+  Részletes információk:
+
+
+
+
+
+  https://www.facebook.com/events/487881083665838
+sourceUrl: https://www.facebook.com/events/487881083665838
+createdAt: 1717941628747
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1717748939000
+updatedAt: 1717941628747
+importedAt: 1717941628747
+providerUpdatedAt: 1717748939000
+facebookId: "487881083665838"
+facebook: https://www.facebook.com/events/487881083665838
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/487881083665838
+eventType: Party
+providerItemId: 10009015-1718496000-1718582399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Salsa Party - Nights of Budapest Park
+location: Budapest Park, Soroksári út 60., Budapest, 1095, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718496000000
+facebookUrlsCount: 1
+username: alexrazbakov
+viewsCount: 1
+errorCode: no_event
+error: No event data found, please verify that your URL is correct and the event
+  is accessible without authentication
+type: import_error
+id: b6bcvxKjCBFYhLhriTAM

@@ -1,0 +1,152 @@
+endDate: 1728691199000
+sourceUrl: https://www.facebook.com/events/1431015167593766
+createdAt: 1727964035987
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1727683065000
+updatedAt: 1727964035987
+importedAt: 1727964035987
+providerUpdatedAt: 1727884644000
+facebookId: "1431015167593766"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1431015167593766
+eventType: Party
+providerItemId: 48323-1728604800-1728691199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Anonymus Bar&More, Kós Károly sétány 1., Budapest, 1146, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728604800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Koós, Budapest, Kós Károly stny. 1, 1146 Hungary
+  website: https://anonymusbar.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Anonymus Étterem
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.08074706970849
+        lat: 47.5150139697085
+      northeast:
+        lng: 19.0834450302915
+        lat: 47.5177119302915
+    location:
+      lng: 19.082533
+      lat: 47.51589599999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Kós Károly stny.
+      long_name: Kós Károly sétány
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Koós
+      long_name: Koós
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 30 269 7661
+  place_id: ChIJ7zDgD4fbQUcRyx1Fk2ZGXC0
+  url: https://maps.google.com/?cid=3268564835935526347
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/@DjAthosHU/
+  name: Attila Kecskés
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727791260/iht1wybvswlynw9hwhiz.jpg
+  bio: ""
+  id: TiYLI2A1IOebPBA98EQF
+  instagram: ""
+  username: "@DjAthosHU/"
+claimed: No
+facebook: https://www.facebook.com/events/1431015167593766/
+link: ""
+description: >-
+  SALSA DE MAGIA VAJDAHUNYAD VÁR PARTY
+  		
+  A főváros zöld szívében a Városligetben a Vajdahunyad Várban SALSA DE MAGIA VAJDAHUNYAD VÁR PARTY 2024.10.11.-én PÉNTEKEN a legjobb latin zenékkel minden salsa rajongónak.  
+
+  Tánciskolától és tudásszinttől függetlenül szeretettel várunk.!!!
+
+
+  Budapest legjobban táncolható latin zenéi mindig az aktuális közönségre szabva.
+
+  Amire számíthatsz:
+      • igényesen válogatott minőségi zenék
+      • minden órában hölgyválasz 
+      • vezetett ruedák
+      • egy teremben a legkedveltebb stílusok
+  Nagy többségben salsa zenék szólnak majd: 
+
+  - tradicionális kubai salsák
+
+  -  átütő timbák
+
+  - ritmusos guaguanco-k
+
+  - dallamos son-ok
+
+  - vérpezsdítő salsatone-ok
+            Színesítik a programot:
+                            - érzéki bachata-k
+  - könnyed cha-cha-cha-k
+
+  - vidám merengue-k
+  		     - szexys kizombák
+
+  Egy biztos, keveset fogsz ülni és sokat fogsz táncolni, mert a jó buli lelke a jó zene. Az eseményen kép és hangfelvétel készülhet amihez hozzájárulsz a belépő megvásárlásával.
+
+  Program: 
+   		20 :50 -         Kapunyitás
+                        21 00   -  01.00  Buli
+
+  Belépő:    3000 Ft/fő    A belépőt csak készpénzzel tudod fizetni!
+
+  Helyszín: ANONYMUS BÁR &MORE – VAJDAHUNYAD VÁR
+  	       1146 Budapest, Kós Károly sétány 1.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727964051/aeu6und9mezzug7ydhjk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: SALSA DE MAGIA VAJDAHUNYAD VÁR PARTY
+online: No
+place: ChIJOfkdduwOiYgRzJGgqOIDuVA
+international: No
+hash: 1728672600000+ChIJ7zDgD4fbQUcRyx1Fk2ZGXC0
+id: kV0O0HQWYuD9lvfuvF3T

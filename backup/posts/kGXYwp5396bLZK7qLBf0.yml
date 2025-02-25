@@ -1,0 +1,107 @@
+venue:
+  formatted_address: Obala Vladimira Nazora 1, 52210, Rovinj, Croatia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Adris Old Tobacco Factory
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.6402348802915
+      south: 45.0773971197085
+      north: 45.0800950802915
+      west: 13.6375369197085
+    location:
+      lng: 13.6389702
+      lat: 45.0787237
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Obala Vladimira Nazora
+      long_name: Obala Vladimira Nazora
+    - types:
+        - locality
+        - political
+      short_name: Rovinj
+      long_name: Rovinj
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Rovinj
+      long_name: Grad Rovinj
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Istarska županija
+      long_name: Istarska županija
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+    - types:
+        - postal_code
+      short_name: "52210"
+      long_name: "52210"
+  place_id: ChIJB1a0ygbBfEcRSEYpB3iy4OU
+  url: https://maps.google.com/?cid=16564435658054649416
+endDate: 2023-06-17T01:00
+claimed: No
+link: https://www.crosalsafestival.com/spotlights/parties/gala_party
+description: >-
+  CSSF Saturday is reserved for classy and flashy clothes... and show
+  performances which will take you to some other dimensions.
+
+
+  As tradition goes, this year's Saturday gala night will feature some of the best show performances from the world of salsa. We cannot wait to join you and enjoy these unique expressions of individuality through art in order to get inspired by the movements perfected through dedication, work and sacrifices.
+
+
+  Saturday, 17th of June @ Show Hall, Adris Old Tobacco Factory
+
+
+  P.S. Don't forget to put on your special clothes for this evening - the red carpet is waiting for you!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F34aaab0c-42bd-4b76-8774-6e6c9030534b?alt=media&token=3a56153f-ca3c-4b93-b82a-6da87b819ec5
+createdAt: 1682108049733
+artists: []
+price: 190 EUR
+artistsList: []
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: No
+updatedAt: 1682108049733
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/crosalsafestival
+  name: Sea, Sun & Salsa
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FszPaBdUVRxOPEQBKblAhyE7iInl2%2Fe666eb76-8bbc-49f5-8930-ef828cb45d2a?alt=media&token=000501e3-d50e-4e8e-ad5f-44e351bbeee6
+  bio: World's unique sea, sun & salsa festivals
+  id: szPaBdUVRxOPEQBKblAhyE7iInl2
+  instagram: https://instagram.com/seasunsalsa
+  username: SeaSunSalsa
+eventType: Party
+confirmation: Hurray! You are on the guest list. Wear your biggest smile and get
+  ready to have an amazing time at the event!
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Gala Party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-06-17T00:00
+username: IvanaSoldat
+viewsCount: 14
+id: kGXYwp5396bLZK7qLBf0

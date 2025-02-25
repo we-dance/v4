@@ -1,0 +1,157 @@
+endDate: 1731445200000
+sourceUrl: https://www.facebook.com/events/1868843506952195/
+createdAt: 1723212022619
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1721382754000
+updatedAt: 1723212022619
+importedAt: 1723212022619
+providerUpdatedAt: 1721382754000
+facebookId: "1868843506952195"
+facebook: https://www.facebook.com/events/1868843506952195/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1868843506952195/
+eventType: Party
+providerItemId: e1868843506952195@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: "Tanz den Gasteig: Salsa-Nacht im HP8"
+location: Gasteig HP8
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1731434400000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Hans-Preißinger-Straße 8, 81379 München, Germany
+  website: http://www.gasteig.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Gasteig HP8
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5524503697085
+        lat: 48.11065891970849
+      northeast:
+        lng: 11.5551483302915
+        lat: 48.11335688029149
+    location:
+      lng: 11.5538646
+      lat: 48.1117752
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Preißinger-Straße
+      long_name: Hans-Preißinger-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+      long_name: Sendling
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  international_phone_number: +49 89 480980
+  place_id: ChIJQ1mR2dDfnUcRarfECPFtl1w
+  url: https://maps.google.com/?cid=6671922254974334826
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/ruedaclubmunich
+  name: Rueda Club Munich
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fruedaclubmunich.png?generation=1705954757465007&alt=media
+  bio: ""
+  id: 6SRxk8C5V4LPEzblRPrB
+  instagram: https://instagram.com/ruedaclubmunich
+  username: ruedaclubmunich
+claimed: No
+link: https://chat.whatsapp.com/BiahWc1Uj3r5pbUOplspXQ
+description: >-
+  Salsa introductory class and big dance party for everyone.
+
+  Salsa-Schnupperkurs und große Tanzparty für all
+
+
+  The impressive Hall E at Gasteig HP8 is an ideal dance venue: The "Dance the Gasteig" salsa nights at HP8 are hugely popular. As always, admission is free.
+
+  7:00 PM–8:00 PM: Introductory class with Rueda Club teachers.
+
+
+  More info: https://chat.whatsapp.com/BiahWc1Uj3r5pbUOplspXQ 
+
+
+  Die beeindruckende Halle E im Gasteig HP8 ist ein idealer Tanzort: Die „Tanz den Gasteig“-Salsa-Nächte im HP8 sind sehr beliebt. Wie immer ist der Eintritt frei.
+
+  19:00–20:00 Uhr: Schnupperkurs mit Lehrern des Rueda Clubs.
+
+
+  info: https://chat.whatsapp.com/BiahWc1Uj3r5pbUOplspXQ 
+
+
+  Dance professionals provide all interested couples and individuals with a first glimpse into the stylistically diverse world of salsa.
+
+  8:00 PM to midnight: Big dance party for everyone in Hall E
+
+
+  Tanzprofis geben allen interessierten Paaren und Einzelpersonen einen ersten Einblick in die stilistisch vielfältige Welt der Salsa.
+
+  20:00 Uhr bis Mitternacht: Große Tanzparty für alle in der Halle E
+
+
+  Immediately following the class, there will be a salsa party with a DJ starting at 8:00 PM. Until midnight, dance enthusiasts of all levels can experience the unique atmosphere of one of the city's most extraordinary dance floors. Alternatively, you can watch the event from the elevated galleries of the historic Hall E.
+
+
+  Direkt im Anschluss an den Kurs gibt es ab 20:00 Uhr eine Salsa-Party mit DJ. Bis Mitternacht können Tanzbegeisterte aller Niveaus die einzigartige Atmosphäre einer der außergewöhnlichsten Tanzflächen der Stadt erleben. Alternativ kann man das Geschehen von den erhöhten Galerien der denkmalgeschützten Halle E aus beobachten.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1723212032/qqfocjkeozkhfz3dmgve.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1731434400000+ChIJQ1mR2dDfnUcRarfECPFtl1w
+viewsCount: 7
+id: yCs7p6kW9T4jG2jslqDP

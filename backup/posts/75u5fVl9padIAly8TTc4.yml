@@ -1,0 +1,131 @@
+venue:
+  formatted_address: Am Einlaß 2A, 80469 München, Germany
+  website: http://buena-vista-bar.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Buena Vista Bar
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5760210802915
+      south: 48.1323055697085
+      north: 48.1350035302915
+      west: 11.5733231197085
+    location:
+      lng: 11.5746203
+      lat: 48.1336406
+  address_components:
+    - types:
+        - street_number
+      short_name: 2A
+      long_name: 2A
+    - types:
+        - route
+      short_name: Am Einlaß
+      long_name: Am Einlaß
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80469"
+      long_name: "80469"
+  international_phone_number: +49 89 26022811
+  place_id: ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+  url: https://maps.google.com/?cid=10819607444887102927
+endDate: 1708041600000
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fedfaa765-98f4-4f9f-8b42-858ca1bf6aca?alt=media&token=e7801b47-0e57-412c-bce2-3e1f1f86bc63
+createdAt: 1707496612051
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: https://instagram.com/__el__wacho
+  username: __el__wacho
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+name: Latin Party
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1708030800000
+hash: 1708030800000+ChIJ6dF5E2DfnUcRz-WqeaX3JpY
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F75u5fVl9padIAly8TTc4.png?generation=1707496629548343&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Buena Vista Bar
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fbuena_vista_bar_munich.png?generation=1655306997509904&alt=media
+    bio: Latino Restaurant München
+    id: JEkADfAnw9nk7VIcgE5P
+    instagram: https://www.instagram.com/buenavistabar_oficial/
+    username: buena_vista_bar_munich
+artistsList:
+  - buena_vista_bar_munich
+id: 75u5fVl9padIAly8TTc4
+description: Nos vemos Todo Los Jueves
+updatedAt: 1707496671110
+instagram:
+  messageUrl: https://instagram.com/p/C3Ij2pMLa6o
+  publishedAt: 1707496767890
+  messageId: C3Ij2pMLa6o
+  state: published
+promotionError: ""
+promotion: completed
+bookmarks: -1
+viewsCount: 21

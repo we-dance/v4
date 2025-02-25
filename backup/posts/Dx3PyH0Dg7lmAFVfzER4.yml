@@ -1,0 +1,407 @@
+endDate: 1740330000000
+sourceUrl: https://www.facebook.com/events/779174124378443/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1719911673000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1727266442000
+facebookId: "779174124378443"
+facebook: https://www.facebook.com/events/779174124378443/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/779174124378443/
+eventType: Festival
+providerItemId: e779174124378443@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: LOVEMI KIZOMBA FESTIVAL - 1 EDITION - ALL IN ONE
+location: Fasthotelinate
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1740146400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Via Francesco Baracca, 19, 20090 Novegro-Tregarezzo MI, Italy
+  website: http://www.fasthotelinate.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Fasthotel Linate
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.279189919708497
+        lat: 45.4662643197085
+      northeast:
+        lng: 9.281887880291501
+        lat: 45.4689622802915
+    location:
+      lng: 9.280265300000002
+      lat: 45.46757609999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "19"
+      long_name: "19"
+    - types:
+        - route
+      short_name: Via Francesco Baracca
+      long_name: Via Francesco Baracca
+    - types:
+        - locality
+        - political
+      short_name: Novegro-Tregarezzo
+      long_name: Novegro-Tregarezzo
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Segrate
+      long_name: Segrate
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: MI
+      long_name: Città metropolitana di Milano
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Lombardia
+      long_name: Lombardia
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "20090"
+      long_name: "20090"
+  international_phone_number: +39 02 4951 9890
+  place_id: ChIJVVUVRKDIhkcRy9kGAMsYLTM
+  url: https://maps.google.com/?cid=3687630930044180939
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417911944
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/LoveMi-Kizomba-Festival/61561370024004/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417912/chpip7qdhbdlnqdymqhv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417911944
+  owned: false
+  name: LoveMi Kizomba Festival
+  place: ChIJdcdCHJjIhkcRLxcuTrX5a0s
+  updatedAt: 1728417911944
+  username: lovemi.kizomba.festi
+claimed: No
+link: https://my.weezevent.com/lovemi-kizomba-festival-2025
+description: |-
+  Italiano🇮🇹 --->scroll  for english🇬🇧
+
+  Siamo lieti di annunciare la prima edizione del LoveMi KIZOMBA Festival!!! 
+  Ti aspettiamo a Milano, tutto in un hotel, il 21-22-23 Febbraio 2025.
+  Vivi l'emozione con noi!❤️ 
+
+  - 🏩Tutto in un albergo 
+  - 🥳2 serate di festa e puro divertimento
+  - 📚2 sale esclusive per workshops. 
+  - 🎓2 Master Class (solo con MASTERPASS) 
+  - 🪩Social Dance room, dalle 17:00 alle 20:00. 
+
+  **** 🕺🏻💃🏻LINE UP ARTIST ***** 
+  Py&Sarah 🇫🇷
+  Tata Daalas 🇪🇸
+  Edo & Giuly 🇮🇹
+  Oscar & Claudia 🇮🇹
+  Cristoforo & Paola 🇮🇹
+  Jennifer & Simone 🇮🇹
+  Natalia & Andrea 🇮🇹
+  Giada Ligas 🇮🇹
+  Alessandra Sillano 🇮🇹
+  Valer & Elena 🇮🇹
+  Susanna Vernier 🇮🇹
+  Francesca & Luca 🇮🇹
+  Mary Valencia 🇮🇹
+  Stefano & Maura 🇮🇹
+  Giuseppe Andrea 🇮🇹
+  And more...
+
+  **** 🎧LINE UP DJ ***** 
+  DJ F.A.Z.E 🇪🇸
+  Dee C Beats 🇫🇷
+  DJ Ghost Face 🇮🇹
+  DJ Rax 🇮🇹
+  DJ Drew 🇮🇹
+  Neko DJ 🇮🇹
+  DJ Ely 🇮🇹
+  DJ Glight 🇮🇹
+  And more...
+
+  **** 🕺🏻LINE UP TAXI DANCER ***** 
+  🕺🏻Luigi Meandro 🇮🇹
+  🕺🏻José Capitani 🇮🇹
+  🕺🏻Zack 🇮🇹
+  🕺🏻Damiano 🇮🇹
+  🕺🏻Mario 🇮🇹
+  🕺🏻Dodo 🇮🇹
+  🕺🏻Maurizio 🇮🇹
+  🕺🏻Angelo 🇮🇹
+  And more...
+
+  **** 🕺🏻💃🏻LINE UP SPECIAL GUEST ***** 
+  🕺🏻Petrax 🇮🇹
+
+  **** 🎬LINE UP MEDIA ***** 
+  📸Ghost Factory Production
+  🎨Ivana Mangullo
+
+  ** 🗓️ PROGRAMMA **** 
+
+  VENERDÌ 
+  15h-20h 📚workshops
+  17h-20h 🪩Social Dance Room
+  21:30-22:30 📚Stage pre-serata
+  23:00-05:00 🪩Party Night
+
+  SABATO 11h-20h 📚Workshops 
+  17h-20h 🪩Social Dance Room
+  22:00-23:00 📚Stage pre-serata
+  23:00-07:00 🪩Party Night
+
+  DOMENICA 
+  11-16 📚Workshops
+
+  ** POSIZIONE ***** 
+  Tutti gli eventi (workshop, feste, spettacoli), si svolgeranno a: 
+  📍🏩FASTHOTEL LINATE 
+  Via Francesco Baracca, 19, 20090 Novegro-Tregarezzo, Milano 
+
+  📞Per tutte le info: Oscar +39 348 100 7338
+
+  PREZZO (a notte per persona con colazione inclusa) 
+  Doppia/Tripla: 70€ a persona 
+  Singola: 90€ 
+  PER PRENOTARE: 
+  🎟️ https://my.weezevent.com/lovemi-kizomba-festival-2025
+
+  **** PREZZI ****** 
+  🎟️FULLPASS: 
+  60€ Singolo
+  110€ Coppia 
+  (fino al 31 luglio) 
+
+  65€ Singolo
+  120€ Coppia 
+  (fino al 31 agosto) 
+
+  70€ Singolo
+  130€ Coppia 
+  (Fino al 30 settembre) 
+
+  75€ Singolo
+  140€ Coppia 
+  (fino al 31 ottobre) 
+
+  80€ Singolo
+  150€ Coppia 
+  (fino al 30 novembre) 
+
+  85€ Singolo
+  160€ Coppia 
+  (fino al 31 dicembre) 
+
+  90€ Singolo
+  170€ Coppia 
+  (fino al 31 gennaio) 
+
+  95€ Singolo
+  180€ Coppia 
+  (fino al 20 febbraio) 
+
+  100 alla porta 
+
+  🎟️MASTERPASS (Master Class access) 
+  ..... 
+  🎟️PASS SOLO SERATE: 
+  Venerdì: 25€ 
+  Sabato: 35€ 
+
+  🎟️PASS GIORNALIERO: 
+  Venerdì: 60€
+  Sabato: 80€ 
+  Domenica: 30€ 
+
+  Per prenotare il tuo biglietto, puoi acquistarlo on line a questo link: 
+  🎟️ https://my.weezevent.com/lovemi-kizomba-festival-2025
+
+  ** INFORMATIONS****
+
+
+  English 🇬🇧
+  We're pleased to announce the LoveMi KIZOMBA Festival 1st Edition!!!
+  We wait for you in Milan, All-In-One, in 2025, February  21-22-23th.
+  Feel the emotion with us!❤️
+
+  - 🏩All-In-One
+  - 🪩2 Party Nights
+  - 📚2 exclusive rooms for workshops. 
+  - 🎓2 Master Classes (only with MASTERPASS)
+  - 🪩 Social room during the evening, from 17h to 20h.
+
+  **** 🕺🏻💃🏻LINE UP ARTIST ***** 
+  Py&Sarah 🇫🇷
+  Tata Daalas 🇪🇸
+  Edo & Giuly 🇮🇹
+  Oscar & Claudia 🇮🇹
+  Cristoforo & Paola 🇮🇹
+  Jennifer & Simone 🇮🇹
+  Natalia & Andrea 🇮🇹
+  Giada Ligas 🇮🇹
+  Alessandra Sillano 🇮🇹
+  Valer & Elena 🇮🇹
+  Susanna Vernier 🇮🇹
+  Francesca & Luca 🇮🇹
+  Mary Valencia 🇮🇹
+  Stefano & Maura 🇮🇹
+  Giuseppe Andrea 🇮🇹
+  And more...
+
+  **** 🎧LINE UP DJ ***** 
+  DJ F.A.Z.E 🇪🇸
+  Dee C Beats 🇫🇷
+  DJ Ghost Face 🇮🇹
+  DJ Rax 🇮🇹
+  DJ Drew 🇮🇹
+  Neko DJ 🇮🇹
+  DJ Ely 🇮🇹
+  DJ Glight 🇮🇹
+  And more...
+
+  **** 🕺🏻LINE UP TAXI DANCER ***** 
+  🕺🏻Luigi Meandro 🇮🇹
+  🕺🏻José Capitani 🇮🇹
+  🕺🏻Zack 🇮🇹
+  🕺🏻Damiano 🇮🇹
+  🕺🏻Mario 🇮🇹
+  🕺🏻Dodo 🇮🇹
+  🕺🏻Maurizio 🇮🇹
+  🕺🏻Angelo 🇮🇹
+  And more...
+
+  **** 🕺🏻💃🏻LINE UP SPECIAL GUEST ***** 
+  🕺🏻Petrax 🇮🇹
+
+  **** 🎬LINE UP MEDIA ***** 
+  📸Ghost Factory Production
+  🎨Ivana Mangullo
+
+  ** 🗓️PROGRAM ****
+
+  FRIDAY 
+  15h-20h 📚Workshops
+  17h-20h 🪩Social Dance Room
+  21:30h-22:30h 📚Workshop
+  23:00h-05h 🪩Party
+
+  SATURDAY
+  11h-20h 📚Workshops
+  17h-20h 🪩Social Dance Room
+  22:00h-23:00h 📚Workshop
+  23:00-07h 🪩Party
+
+  SUNDAY
+  11-16h 📚Workshops
+
+
+  ** LOCATION *****
+
+  All the event (workshops, parties, shows), will be in:
+
+  📍🏩FASTHOTEL LINATE
+  Francesco Baracca street, 19, 20090
+  Novegro-Tregarezzo, Milano
+
+  📞For all the Info: Oscar +39 348 100 7338
+
+  🎟️PRICE (per night per person with breakfast)
+  Double/Triple: 70€ per person.
+  Single: 90€
+
+  FOR BOOKING:
+  🎟️ https://my.weezevent.com/lovemi-kizomba-festival-2025
+
+  **** PRICES ******
+
+  🎟️FULL PASS:
+
+  60€  Single
+  110€ Couple 
+  (till July, 31st)
+
+  65€ Single
+  120€ Couple
+  (till August, 31st)
+
+  70€ Single
+  130€ Couple
+  (Till September, 30th)
+
+  75€ Single
+  140€ Couple
+  (till October, 31st)
+
+  80€ Single
+  150€ Couple
+  (till November, 30th)
+
+  85€ Single
+  160€ Couple
+  (till December, 31st)
+
+  90€ Single
+  170€ Couple
+  (till January, 31st)
+
+  95€ Single
+  180€ Couple 
+  (till February, 20th)
+
+  100 at the door
+
+  🎟️MASTERPASS (MasterClass access)
+   .....
+
+
+  🎟️PRICES PARTY NIGHT:
+  Friday: 25€
+  Saturday: 35€
+
+  🎟️PRICES DAYPASS:
+  Friday: 60€
+  Saturday: 80€
+  Sunday: 30€
+
+  To book your ticket online at:
+  🎟️ https://my.weezevent.com/lovemi-kizomba-festival-2025
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417913/mynwc8grvrlxeiz6a4ns.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJdcdCHJjIhkcRLxcuTrX5a0s
+international: No
+hash: 1740146400000+ChIJVVUVRKDIhkcRy9kGAMsYLTM
+id: Dx3PyH0Dg7lmAFVfzER4

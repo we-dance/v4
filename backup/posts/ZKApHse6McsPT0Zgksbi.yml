@@ -1,0 +1,94 @@
+venue:
+  formatted_address: Konstitucijos pr. 20, 09308 Vilnius, Lithuania
+  website: https://www.radissonhotels.com/en-us/hotels/radisson-blu-vilnius-lietuva?cid=a:se+b:gmb+c:emea+i:local+e:rdb+d:nob+h:LTVNOLIE
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Radisson Blu Hotel Lietuva
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 25.2766059302915
+      south: 54.6934876197085
+      north: 54.6961855802915
+      west: 25.2739079697085
+    location:
+      lng: 25.2751962
+      lat: 54.694863
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Konstitucijos pr.
+      long_name: Konstitucijos prospektas
+    - types:
+        - locality
+        - political
+      short_name: Vilnius
+      long_name: Vilnius
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vilniaus apskr.
+      long_name: Vilniaus apskritis
+    - types:
+        - country
+        - political
+      short_name: LT
+      long_name: Lithuania
+    - types:
+        - postal_code
+      short_name: "09308"
+      long_name: "09308"
+  international_phone_number: +370 5 272 6272
+  place_id: ChIJTc8nrQaU3UYRIR-_n3e5cUg
+  url: https://maps.google.com/?cid=5220157366531464993
+endDate: 2023-04-17T05:00
+claimed: No
+link: https://www.eventbrite.com/e/elegancia-world-dance-congress-2023-bachata-kizomba-salsa-passes-tickets-597276057767?aff=ebdssbdestsearch
+description: >-
+  Elegancia World Dance Congress 2023 in the heart of Vilnius Lithuania. 
+
+  3 days of Parties, Workshops with Top International Artists and many more surprises to come!
+program: []
+type: event
+duration: 60
+createdAt: 1679601067219
+artists: []
+price: 114 EUR
+artistsList: []
+place: ChIJ9QhkXPuT3UYRQNzpcIzRAAQ
+international: No
+updatedAt: 1679601067219
+updatedBy: 9vtI6X3oS7NkVaDqOJiZ16gO5o82
+visibility: Public
+org: {}
+eventType: Party
+form: No
+createdBy: 9vtI6X3oS7NkVaDqOJiZ16gO5o82
+watch:
+  count: 1
+  list:
+    jokubasli: true
+name: Elegancia World Dance Congress 2023 (Bachata, Kizomba & Salsa Passes)
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-14T19:00
+username: jokubasli
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9vtI6X3oS7NkVaDqOJiZ16gO5o82%2Fb324d71d-4729-43dc-9f58-e172a0c696e2?alt=media&token=0d637794-f351-4d87-8ffa-95bb45d1824f
+id: ZKApHse6McsPT0Zgksbi
+facebook: https://www.facebook.com/events/531209042145887/
+viewsCount: 26

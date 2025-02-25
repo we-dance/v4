@@ -1,0 +1,110 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/croatian-summer-salsa-festival-rovinj/
+sourceUrl: https://facebook.com/events/1503825213546297
+venue:
+  address_components:
+    - long_name: Rovinj
+      short_name: Rovinj
+      types:
+        - locality
+        - political
+    - long_name: Grad Rovinj
+      short_name: Grad Rovinj
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Istria County
+      short_name: Istria County
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Croatia
+      short_name: HR
+      types:
+        - country
+        - political
+  formatted_address: Rovinj, Croatia
+  geometry:
+    location:
+      lat: 45.0811661
+      lng: 13.6387067
+    viewport:
+      northeast:
+        lat: 45.13155585620012
+        lng: 13.73434351743165
+      southwest:
+        lat: 45.01590065493957
+        lng: 13.6065125747384
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Rovinj
+  place_id: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+  url: https://maps.google.com/?q=Rovinj,+Croatia&ftid=0x477cbf634d5c86ff:0xffc69f61c598ae53
+  website: http://www.rovinj.hr/
+endDate: 1750024800000
+claimed: No
+link: ""
+description: >-
+  Step into the third decade of creating modern salsa and bachata history and
+  the 21st edition of the Croatian Summer Salsa Festival!  🔥  Be part of the
+  ranks of a global sensation that will leave a mark like no other! Mark your
+  calendars now, because Rovinj is the place to be in 2025! 🔥
+
+
+  🎟️  Blind bird tickets available soon! 
+
+
+  🏖 CROATIAN SUMMER SALSA FESTIVAL
+
+  🏖 World’s unique sea, sun & salsa festival!
+
+  🏖 NEXT EDITION: 09-16/06/2025
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293949/cl7izgil4fazcxuryqeo.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+international: No
+visibility: Public
+org:
+  createdAt: 1732293946641
+  importedAt: 1732293946641
+  updatedAt: 1732293946641
+  source: facebook
+  name: Croatian Summer Salsa Festival
+  facebook: https://www.facebook.com/crosalsafestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293947/zzayrd9hgm0vjwlrgkz6.jpg
+  username: crosalsafestival
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+facebook: https://www.facebook.com/events/1503825213546297/
+facebookId: "1503825213546297"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Croatian Summer Salsa Festival ROVINJ 2025 *official event*
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1749456000000+ChIJ_4ZcTWO_fEcRU66YxWGfxv8
+startDate: 1749456000000
+id: GI0xwCgMXQJXEs5HDZ8s

@@ -1,0 +1,86 @@
+timezone: GMT+0100
+createdAt: 1638196712784
+createdBy: xgxAOYblh9g57C0vaT1XXTOHWzB2
+name: SantanaDance
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: SantanaDance
+lastLoginAt: 1638196712912
+daysUsed: 1
+pwaUsed: false
+website: https://www.santana-dance.de/
+visibility: Public
+bio: |
+  SALSA CUBANA MÜNCHEN – REGGAETON – HIP HOP - AFRO – RUMBA
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FxgxAOYblh9g57C0vaT1XXTOHWzB2%2F92e9a64c-7116-4873-b676-bce1e7b5ed78?alt=media&token=2f6b340e-661c-444c-8c21-75555d8d2374
+locales:
+  de: true
+  es: true
+objectives:
+  learn: true
+contacts: Yes
+email: maikelsantana@yahoo.de
+story: >-
+  ### ERLEBEN SIE KUBA HAUTNAH!
+
+  Hier werden neben klassischen Gruppenkursen und Einzelunterricht auch immer wieder Workshops und "ausserschulische" Treffen arrangiert, um das lateinamerikanische Flair zu erleben und das Erlernte live zu testen.
+
+
+  ### Maikel Santana
+
+
+  Maikel ist der Gründer und Tanzlehrer von Santana-Dance.
+
+
+  Er tanzt und lehrt Salsa (kubana), Reggaeton, Afro, Rumba und Hip Hop.
+
+
+  Auch ist er als Einzeltänzer oder mit seiner Santana Dance Company bei zahlreichen internationalen Auftritten dabei.
+partner: ""
+styles:
+  HipHop:
+    level: Interested
+    highlighted: false
+    selected: true
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+id: xgxAOYblh9g57C0vaT1XXTOHWzB2
+facebook: https://facebook.com/SantanaDanceClub
+instagram: https://instagram.com/santana_dance
+gender: Other
+venueType: DanceStudio
+team: []
+type: Venue
+updatedAt: 1717584407267
+watch:
+  list:
+    Bertie5: true
+    alexrazbakov: true
+    Tantjanka: true
+  count: 1
+  usernames:
+    - Bertie5
+    - alexrazbakov
+    - Tantjanka
+    - dance-mia
+  history:
+    - username: dance-mia
+      date: 1720014925327
+      invitedBy: ""
+      uid: 6tRXADoEK0f29kjGW5MNGntXoYH2
+      action: joined
+viewsCount: 122

@@ -1,0 +1,168 @@
+venue:
+  website: http://www.kult-tanzschule.de/
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The KULT TANZSCHULE in ADTV
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5718683302915
+      south: 48.1372054697085
+      north: 48.1399034302915
+      west: 11.5691703697085
+    location:
+      lng: 11.5703078
+      lat: 48.1382762
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  url: https://maps.google.com/?cid=2237208673933871066
+  international_phone_number: +49 89 44313886
+endDate: 2022-12-18T02:00
+claimed: No
+link: https://www.tickettailor.com/all-tickets/bachatasensualnight/
+description: We have some big changes to announce in this Newsletter. We are
+  moving with our weekly Parties from Friday to Saturday. We also change our
+  venue. Since we grew as community and as a party, the Salsa Club became too
+  small for us. It was always very hot inside and the room could not handle so
+  many great Bachata Dancers. All the parties will be at KULT TANZSCHULE from
+  this week on. With the KULT TANZSCHULE have a 50% bigger area. The new
+  location is only 5 minutes Walking from S-Bahn Marienplatz and 7 Minutes from
+  S-Bahn Stachus.
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1670773904675
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1663757911856
+updatedBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Dj Obi
+  bio: Best Bachata DJ In Town 😎🎛️
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  instagram: https://instagram.com/djobi_bachata
+  username: Djobi_bachata
+upVotes: 0
+eventType: Party
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+commentsCount: 0
+name: Bachata Sensual Nights by DJ Obi in Kult Tanzschule
+online: No
+votes: 0
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-12-17T20:00
+username: Djobi_bachata
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F8375c5fe-38b1-4e3d-9f56-4e994a600278?alt=media&token=10c22b90-663b-4db0-9b7f-c0f123aeee2e
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: ""
+    name: Dj Obi
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+    bio: Best Bachata DJ In Town 😎🎛️
+    id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+    instagram: https://instagram.com/djobi_bachata
+    username: Djobi_bachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Laura Del Vecchio
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F940a7ab4-a7df-445c-a0f3-70e7a65a6c4a?alt=media&token=23669c3d-2ddf-4b92-b2c8-87112b072fbf
+    bio: |-
+      Del Vecchio Dance - Dance Studio
+      Dance/Fitness/Lifestyle/Mindsetinspiration
+    id: 6cksnCDd4uBaP3LZOhkG
+    instagram: https://instagram.com/laura.delvecchio87
+    username: laura.delvecchio87
+program:
+  - artists: []
+    endDate: 2022-11-19T21:00
+    name: Laura del Veccio- Bachata Fusion
+    description: "Laura del Vecchio is one of the most famous and amazing dance
+      artist from Munich. She is joury and coach at *LETS DANCE* and many other
+      TV formats. Laura is home in Hip Hop, Reggaeton, Salsa as well as Bachata.
+      In this workshop she will show you how you can mix different styles in
+      your Bachata moves and how you can learn from Hip Hop or Reggaeton moves
+      to improve your Bachata musicality and movement understanding. "
+    eventType: Workshop
+    startDate: 2022-11-19T20:00
+  - endDate: 2022-11-20T02:00
+    name: Bachata Sensual Nights By Dj Obi
+    eventType: Party
+    startDate: 2022-11-19T21:00
+artistsList:
+  - Djobi_bachata
+  - laura.delvecchio87
+id: dMzhZjljT9snrLhCyZUj
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdMzhZjljT9snrLhCyZUj.png?generation=1671203879570723&alt=media
+instagram: {}
+telegram:
+  requestedAt: 1671203888364
+  messageUrl: https://t.me/WeDanceMunich/743
+  publishedAt: 1671203890889
+  messageId: 743
+  state: published
+star:
+  count: 1
+  list:
+    alexrazbakov: true
+viewsCount: 72

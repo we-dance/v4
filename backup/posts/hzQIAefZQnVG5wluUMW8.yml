@@ -1,0 +1,138 @@
+createdAt: 1705326106500
+updatedBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+createdBy: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+facebook: https://www.facebook.com/events/1476564313071082/
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Djobi_bachata
+venue:
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  website: http://www.kult-tanzschule.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The KULT TANZSCHULE in ADTV
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5681649197085
+        lat: 48.1363358697085
+      northeast:
+        lng: 11.5708628802915
+        lat: 48.1390338302915
+    location:
+      lng: 11.5698826
+      lat: 48.13758809999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 15A
+      long_name: 15A
+    - types:
+        - route
+      short_name: Neuhauser Str.
+      long_name: Neuhauser Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  international_phone_number: +49 89 44313886
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  url: https://maps.google.com/?cid=2237208673933871066
+visibility: Public
+claimed: No
+facebookId: "1476564313071082"
+link: ""
+description: >-
+  🎉 Salsa Bachata Kizomba Party im Kult Tanzstudio 🎉
+
+
+  **Datum:** 09.01.  
+
+  **Uhrzeit:** 20:30 - 00:30  
+
+  **Ort:** Kult Tanzstudio
+
+
+  🕺💃 Lasst uns zusammen die Tanzfläche erobern bei der größten Salsa, Bachata und Kizomba Party der Stadt! 
+
+
+  🎵 **Musik von DJ Alex:** Genießt die heißesten Beats und lasst euch von DJ Alex's Rhythmen durch den Abend führen. 
+
+
+  Verpasst nicht die beste Salsa, Bachata und Kizomba Party Münchens! #SalsaBachataKizomba #DJAlex #Tanzparty 🎶🌟
+program: []
+source: facebook
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+name: "Tuesday Salsa Bachata Kizomba Party "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+international: No
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FhzQIAefZQnVG5wluUMW8.png?generation=1705326135162585&alt=media
+endDate: 1705462200000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Bachata-Obi-Lara/pfbid0QEijFSwsTyiafXHPZcjR3k3mQe7UK7x7FC5nZuEPiC8LCbKUJ8AiBhWmPFSU3RLcl/
+  name: Dj Obi
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGOiMAEyBEZXKlHSYBAhfAg3RfDB3%2F2b02213c-5a3b-4fa8-a5ed-f43b4b2c3deb?alt=media&token=e633e9a5-89ee-45ef-9ec6-7476e6560576
+  bio: Best Bachata DJ In Town 😎🎛️
+  id: GOiMAEyBEZXKlHSYBAhfAg3RfDB3
+  instagram: https://instagram.com/djobi_bachata
+  username: Djobi_bachata
+price: "10"
+artistsList: []
+id: hzQIAefZQnVG5wluUMW8
+specialOffer: "Students: 8 EUR"
+hash: 1705446000000+ChIJnwr0yvV1nkcR2kdAim8pDB8
+startDate: 1705446000000
+updatedAt: 1705326186419
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058116/szichyfw6ez3pjdcftfs.jpg
+viewsCount: 10

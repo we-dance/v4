@@ -1,0 +1,160 @@
+createdAt: 1704822876551
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1276451146384125/
+source: facebook
+updatedAt: 1704822876551
+username: wedancebot
+venue:
+  formatted_address: Enderstraße 59/Haus B1, 01277 Dresden, Germany
+  website: https://www.tsk-residenz.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: TSK Residenz
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.8027288697085
+        lat: 51.0281781197085
+      northeast:
+        lng: 13.8054268302915
+        lat: 51.0308760802915
+    location:
+      lng: 13.8042043
+      lat: 51.0293792
+  address_components:
+    - types:
+        - subpremise
+      short_name: Haus B1
+      long_name: Haus B1
+    - types:
+        - street_number
+      short_name: "59"
+      long_name: "59"
+    - types:
+        - route
+      short_name: Enderstraße
+      long_name: Enderstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Blasewitz
+      long_name: Blasewitz
+    - types:
+        - locality
+        - political
+      short_name: Dresden
+      long_name: Dresden
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Dresden
+      long_name: Dresden
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SN
+      long_name: Sachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "01277"
+      long_name: "01277"
+  international_phone_number: +49 351 89249570
+  place_id: ChIJn03lpijGCUcRs7zvBLXJYLc
+  url: https://maps.google.com/?cid=13213783086014119091
+visibility: Public
+endDate: 1710122400000
+org:
+  owner: ""
+  importedAt: 1704822880389
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/BachaDDaDresden
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/353405665_735855031672437_5557727063422503278_n.jpg?stp=c4.5.35.35a_cp0_dst-jpg_p43x43&_nc_cat=103&ccb=1-7&_nc_sid=596444&_nc_ohc=L8s5S9bF2tkAX-t12NL&_nc_ht=scontent-iad3-2.xx&oh=00_AfCrMVUaXnGwKw5MWueyBTCso1Nqaf2vDKuZtSCR51TzHQ&oe=65A2A273
+  source: facebook
+  type: Organiser
+  createdAt: 1704822880389
+  owned: false
+  name: Bacha.DD.a
+  place: ChIJqdYaECnPCUcRsP6IQsuxIQQ
+  updatedAt: 1704822880389
+  username: BachaDDaDresden
+claimed: No
+facebookId: "1276451146384125"
+link: http://www.amigosdebachadda.de/
+description: >-
+  ✨ Nach langer Planung können wir euch endlich das kommende Amigos vorstellen!
+  🥰
+
+  Das vermutlich größte Bachata-Event in Dresden 2024!
+
+
+  🧡 Umfangreiches Bachata Wochenende mit familiärer Atmosphäre
+
+  🧡 Nationale und internationale Künstler
+
+  🧡 3 Partys
+
+  🧡 2 Tage abwechslungsreiche Workshops
+
+  🧡 Tolle Tänzer aus Dresden & Umgebung
+
+  🧡 Extra Workshop-Raum für Fortgeschrittene Tänzer mit garantiertem Level
+
+
+  Artists // Line Up
+
+  ⭐ Mario & Lidia (Madrid)
+
+  ⭐ Alex & Sveti (Greece/Ukraine)
+
+  ⭐ Roberto & Magdalena (Ulm)
+
+  ⭐ Pablo & Anja (Chile/Hannover)
+
+  ⭐ Issam & Charlott (Hamburg)
+
+  ⭐ Elena & Dennis (Berlin)
+
+  ⭐ Vanessa (Hamburg)
+
+  ⭐ Roberto & Belén (Munich/Dresden)
+
+
+  🎟 Tickets
+
+  👉🏼 www.amigosdebachadda.de
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Amigos de BachaDDa - Festival // March 2024
+online: No
+styles:
+  Van:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJqdYaECnPCUcRsP6IQsuxIQQ
+international: No
+hash: 1709924400000+ChIJn03lpijGCUcRs7zvBLXJYLc
+startDate: 1709924400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0YPgfhCulfGXqtTCByKh.png?generation=1704822908460087&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851512/gg8r8kqmffhjxpjiuurx.jpg
+viewsCount: 28
+id: 0YPgfhCulfGXqtTCByKh

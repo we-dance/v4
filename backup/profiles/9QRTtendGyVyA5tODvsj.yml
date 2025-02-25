@@ -1,0 +1,29 @@
+createdAt: 1712486669158
+updatedBy: wBukrVDx96WsE0Ko69oXsHfmeCy1
+cityPlaceId: ChIJoxyOthU05xIRsW6BzwYVHiA
+createdBy: wBukrVDx96WsE0Ko69oXsHfmeCy1
+name: Cagliari, Italy
+location:
+  country: Italy
+  latitude: 39.2237323
+  locality: Cagliari
+  establishment: ""
+  region: Sardinia
+  place_id: ChIJoxyOthU05xIRsW6BzwYVHiA
+  longitude: 9.1217194
+place: ChIJoxyOthU05xIRsW6BzwYVHiA
+type: City
+updatedAt: 1712486669158
+username: italy-cagliari
+watch:
+  count: 1
+  usernames:
+    - Dienst
+  history:
+    - username: Dienst
+      date: 1718791269275
+      invitedBy: ""
+      uid: Ce2jr60omERNp3rreE91uyDRHS03
+      action: joined
+viewsCount: 12
+id: 9QRTtendGyVyA5tODvsj

@@ -1,0 +1,35 @@
+owner: ""
+createdAt: 1676391299530
+updatedBy: NVtSLOLOIGSvCRWwfrfzx5ARV7f1
+visibility: Public
+createdBy: NVtSLOLOIGSvCRWwfrfzx5ARV7f1
+owned: false
+updatedAt: 1676391299530
+username: norabachatera
+website: https://linktr.ee/nora_bachatera
+gender: Female
+bio: |-
+  Here to empower women with dancing
+  🇨🇿 Bachata Lady Styling
+  💃 Femininity & Attitude
+  🔻 Classes here
+permission: ""
+instagram: https://www.instagram.com/nora_bachatera/
+team: []
+type: Artist
+partner: ""
+reviews: []
+name: Nora Bachatera
+id: RnhbFRMuKPyYW26K9M2g
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+story: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fe15d2f4a-bc04-4420-8a6d-3c17b1c912c6?alt=media&token=f3382d9e-9db9-4359-ba0e-199e015da415
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+import: failed
+importError: POST /api/v1/accounts/login/ - 400 Bad Request; Please wait a few
+  minutes before you try again.
+viewsCount: 107

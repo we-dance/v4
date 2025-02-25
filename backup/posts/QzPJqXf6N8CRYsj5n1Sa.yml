@@ -1,0 +1,163 @@
+endDate: 1719172800000
+sourceUrl: https://www.facebook.com/events/3834445343497725/
+createdAt: 1718460024169
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1718008269000
+updatedAt: 1718460024169
+importedAt: 1718460024169
+providerUpdatedAt: 1718008269000
+facebookId: "3834445343497725"
+facebook: https://www.facebook.com/events/3834445343497725/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3834445343497725/
+eventType: Party
+providerItemId: 10009024-1719162000-1719172800@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Magyar Zene Háza, Olof Palme sétány 3., Budapest, 1146
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719162000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Olof Palme stny. 3, 1146 Hungary
+  website: https://zenehaza.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: House of Music Hungary
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0822446197085
+        lat: 47.5118316197085
+      northeast:
+        lng: 19.0849425802915
+        lat: 47.5145295802915
+    location:
+      lng: 19.0835936
+      lat: 47.5131806
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Olof Palme stny.
+      long_name: Olof Palme sétány
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 70 799 9449
+  place_id: ChIJS6NslUbdQUcRIDaPb1o2sAE
+  url: https://maps.google.com/?cid=121656951985616416
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718460037106
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/magyarzenehaza
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718460037/af1w5oa7yy8j73irnpc0.png
+  source: facebook
+  type: Organiser
+  createdAt: 1718460037106
+  owned: false
+  name: Magyar Zene Háza
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1718460037106
+  username: magyarzenehaza
+claimed: No
+link: ""
+description: >-
+  ◖ Salsa a Parkban ◗
+
+
+  A 2022 nyarától nagy sikerrel futó Salsa a Parkban táncos program idén is a Zene Háza Szabadtéri színpadán szórakoztatja a latin zene rajongóit. Az idei eseményeken a budapesti Son tres együttes zenél, amely egész Európát körbekoncertezte már.
+
+
+  A zenekar tagjai között megtalálhatók venezuelai, kubai és kolumbiai gyökerekkel rendelkező művészek, akik elhozzák a szenvedélyes és vibráló latin ritmusokat a közönség számára. A Son tres tagjai garantálják a fergeteges hangulatot minden buliban, miközben a bachata, salsa, cumbia, reggaeton és más latin stílusokat játsszák – ezúttal persze fókuszban a salsával!
+
+
+  =========================
+
+
+  Guillermo Macsotay énekes és zenekarvezető, Venezuelában született, magyar apától és venezuelai anyától. Zenész tanulmányait Venezuelában az ArsNova iskolában, valamint az Egyesült Államokban és Magyarországon végezte, különböző salsa és fúziós zenekarokkal ért el sikereket. Az egyik legjobb magyar fúziós zongorista, aki a budapesti Liszt Ferenc Zeneakadémián végzett, első lépéseit Pege Aladár zenekarában tette, amelyben több mint 15 évig játszott profi zongoristaként. Ma már nemcsak a latin zenére specializálódott, hanem két szólólemezzel is rendelkezik.
+
+
+  Angel Miguel León Cruz, hosszú múltra visszatekintő kubai ütős, eredetileg az osztrák székhelyű, világszerte ismert Havana Son Clubban kezdte pályafutását, amellyel a kubai kultúrát képviselve járta be a világot.
+
+
+  Aldober Acevedo, kolumbiai basszusgitáros, zeneszerző és zenész, hosszú karriert futott be olyan együttesekben, mint a Richie Ray és Bobby Cruz, valamint a Grupo Niche. Az 1990-es évek végén Ázsiába költözött, ahol Thaiföldön, Kínában és az ázsiai délkeleti régióban játszott, jelenleg Budapesten él.
+
+
+  A trió Koloncsák Zsolt zongoristával is kiegészül ezen a fellépésen.
+
+
+  =========================
+
+
+  🌏 Helyszín: Magyar Zene Háza, Szabadtéri színpad
+
+  📅 Időpont: 2024. június 23. 17:00
+
+  BŐVEBBEN A PROGRAMRÓL:
+
+  https://zenehaza.hu/esemeny/salsa-a-parkban-2
+
+
+  Teltházas koncerteknél azt javasoljuk, hogy nézzetek körül hivatalos másodlagos jegyértékesítő partnerünk, a TicketSwap felületén. Itt korábban megvásárolt, mégis eladó sorba került jegyeket találhattok korrekt áron, teljes biztonsággal. A Facebookon sajnos gyakran bukkannak fel hamis profilok, amelyek nem létező jegyeket kínálnak az események beszélgetésében. Ezek helyett minden esetben válasszátok a TicketSwapot, ahonnan a vásárolt jegyetek biztosan megérkezik!
+
+
+  https://www.ticketswap.hu/location/magyar-zene-haza/169122
+
+
+  Látogassátok meg a Magyar Zene Háza honlapját az aktuális koncertekért és információkért!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718460038/rdtkeld5iek2faa0yxew.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa a Parkban
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1719154800000+ChIJS6NslUbdQUcRIDaPb1o2sAE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQzPJqXf6N8CRYsj5n1Sa.png?generation=1718460058622188&alt=media
+id: QzPJqXf6N8CRYsj5n1Sa

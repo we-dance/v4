@@ -1,0 +1,307 @@
+endDate: 1719511200000
+claimed: No
+program: []
+type: event
+downVotes: 0
+duration: 60
+createdAt: 1719407734842
+checkin:
+  count: 0
+  list: {}
+children:
+  - endDate: 1719511200000
+    id: 0oEiu385jRJY0qclUZyv
+    startDate: 1719507600000
+  - endDate: 1720116000000
+    id: Op9uCLRZGK819OaVRgyu
+    startDate: 1720112400000
+  - endDate: 1720720800000
+    id: cjMnAVakQ1BG9MSCgoKR
+    startDate: 1720717200000
+  - endDate: 1721325600000
+    id: SZpXK1ZykALAOi0IRs4Y
+    startDate: 1721322000000
+  - endDate: 1721930400000
+    id: K7qpY7U9pLaxAeohUHjN
+    startDate: 1721926800000
+  - endDate: 1722535200000
+    id: 6FUJb80wpNbYGEPsANCE
+    startDate: 1722531600000
+  - endDate: 1723140000000
+    id: oLRuxQXUbijUETgN6BSn
+    startDate: 1723136400000
+  - endDate: 1723744800000
+    id: ogqrPMJEhVSldccUSKGt
+    startDate: 1723741200000
+  - endDate: 1724349600000
+    id: n4yGEaVTm72IuwqmcZkQ
+    startDate: 1724346000000
+  - endDate: 1724954400000
+    id: 96zFbMpTj8v2AGiTqIDm
+    startDate: 1724950800000
+  - endDate: 1725559200000
+    id: 780sYNhZcKil2F6kubsz
+    startDate: 1725555600000
+  - endDate: 1726164000000
+    id: MK7ZQ0AdV2wpcjQUGrYQ
+    startDate: 1726160400000
+  - endDate: 1726768800000
+    id: 8UVaHHRYj2TImPweuLFe
+    startDate: 1726765200000
+price: Free
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MUCOADC
+  name: MOADC
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6WFYqYtGgYUn7u0dozfnNuEnti92%2F52a8cbb0-1a28-4b85-9567-64fc92ad5881?alt=media&token=8f4d84a4-9692-43d9-8fa8-b886f72cd9a0
+  bio: We organize own events, Festivals, Bootcamps & Flashmobs and many other
+    Indoor or outdoor related activities
+  instagram: https://instagram.com/munich_openair_dance_community
+  id: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+  username: MOADC
+upVotes: 0
+telegram: {}
+eventType: Workshop
+recurrence:
+  untilDate:
+    _seconds: 1727301600
+    _nanoseconds: 0
+  freq: never
+  days: {}
+  dates: []
+form: No
+createdBy: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+online: ""
+votes: 0
+hash: 1719507600000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+startDate: 1719507600000
+username: Migo.bachatero
+description: Bachata Ladystyling by Lucia
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: rLIxl4eyaYNWFWH6WFeJ
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Lucia
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FUhd1Nmd39yeR11XR3NXJIqlPoyr1%2F365f8e39-4e48-44df-a804-42417245a3f0?alt=media&token=1166f838-3c54-4062-ac68-0b07eafa8b6f
+    bio: |-
+      Bachata teacher, performer, competitor. Looking for video collaborations.
+
+      I started dancing in 2008 in Parisian latin clubs ❤️
+    id: Uhd1Nmd39yeR11XR3NXJIqlPoyr1
+    instagram: https://instagram.com/Lucia.zeliha
+    username: Lucia
+artistsList:
+  - Lucia
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FyyVFEFUtO2VcIPZzFtrXw5qr8ww1%2Ffd0a9da0-39df-4009-ac39-94f99413e042?alt=media&token=077165c0-5bfd-4f7a-a0d1-e14948b1ff2f
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: Area 2
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+  username: pinakothekdermoderne
+promotionError: ""
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FrLIxl4eyaYNWFWH6WFeJ.png?generation=1719423155730797&alt=media
+instagram:
+  state: published
+  messageUrl: https://instagram.com/p/C8r_twAJS-E
+  publishedAt: 1719423197256
+  messageId: C8r_twAJS-E
+promotion: completed
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: "All-Dance Thursday: Bachata Ladystyling (Cancelled)"
+updatedAt: 1719489603206
+bookmarks: 4
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+commentsCount: 2
+commentDoc:
+  createdAt: 1719505448412
+  updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+  commentId: ""
+  postId: rLIxl4eyaYNWFWH6WFeJ
+  id: yybYHyiDfEXmkkfiGukP
+  body: I regret to inform you that the “All-Dance Thursday” event scheduled for
+    27.06.2024 has been canceled. We apologize for any inconvenience this may
+    cause and appreciate your understanding. Please subscribe to @MOADC to
+    receive an invitation for our next event next Thursday. Thank you for your
+    support.
+  updatedAt: 1719505448412
+  username: alexrazbakov
+star:
+  list: {}
+  count: 10
+  usernames:
+    - Migo.bachatero
+    - Linasalcedor
+    - Merf
+    - Cecihowe
+    - GameChallenger
+    - Arminda
+    - Lara22
+    - P46wz9HS3GVexnVYp0Aq
+    - Sina
+    - alexrazbakov
+  history:
+    - username: Migo.bachatero
+      date: 1719407878457
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+      action: joined
+    - username: Linasalcedor
+      date: 1719410657034
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: e8Rq4FuKVBXOfjq8lSRPhDCnNpd2
+      action: joined
+    - username: ClaudiaThea
+      date: 1719411769040
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: joined
+    - username: ClaudiaThea
+      date: 1719411797993
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: left
+    - username: Merf
+      date: 1719416005860
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 6lsPSemFdRfREvHEKWK6QMWkraD3
+      action: joined
+    - username: Cecihowe
+      date: 1719417375810
+      invitedBy: ""
+      uid: tvcLfg6YHqbL8BwJqPHwCyGvLOw2
+      action: joined
+    - username: ninaivana
+      date: 1719417406458
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: nXwHhxZY3GUhdIABLXuqQBFBp4p2
+      action: joined
+    - username: GameChallenger
+      date: 1719420912974
+      invitedBy: ZTkrsZL5RoNyATK9HFav
+      uid: fQZp85XZstVwC6zy4y9eVudXtdW2
+      action: joined
+    - username: Arminda
+      date: 1719421958505
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: cyENjVFcUzav7MbennUZs5CrbB63
+      action: joined
+    - username: Lara22
+      date: 1719422611752
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: WRXCvBlTGEY2wznP27yjQhHI0Xv1
+      action: joined
+    - username: Lara22
+      date: 1719422622757
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: WRXCvBlTGEY2wznP27yjQhHI0Xv1
+      action: left
+    - username: Lara22
+      date: 1719422636195
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: WRXCvBlTGEY2wznP27yjQhHI0Xv1
+      action: joined
+    - username: P46wz9HS3GVexnVYp0Aq
+      date: 1719423694111
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: pdmzxgIHJnh0Ak07eEu25SyAl9m2
+      action: joined
+    - username: Maary
+      date: 1719424898985
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: KC6cpW2zkdNUfxMxa48bCPgWFeE2
+      action: joined
+    - username: Sina
+      date: 1719487689922
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UcCfgsKkcffSHp2WLjU6sNILDHY2
+      action: joined
+    - username: Maary
+      date: 1719494822642
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: KC6cpW2zkdNUfxMxa48bCPgWFeE2
+      action: left
+    - username: alexrazbakov
+      date: 1719505442725
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: tvR012ArEpQhCJdPHh6G7sLuqoO2
+      action: joined
+    - username: ninaivana
+      date: 1719506440571
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: nXwHhxZY3GUhdIABLXuqQBFBp4p2
+      action: left
+viewsCount: 52

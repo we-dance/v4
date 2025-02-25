@@ -1,0 +1,148 @@
+endDate: 1722628800000
+sourceUrl: https://www.facebook.com/events/1404923793544391/
+createdAt: 1719151223226
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1718887984000
+updatedAt: 1719151223226
+importedAt: 1719151223226
+providerUpdatedAt: 1718887984000
+facebookId: "1404923793544391"
+facebook: https://www.facebook.com/events/1404923793544391/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1404923793544391/
+eventType: Festival
+providerItemId: e1404923793544391@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: BCUC + Sinem + La Cometa Sónico
+location: Schwere Reiter Strasse 2h, 80636 München, Germany
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722618000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Schwere-Reiter-Str. 2h, 80797 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Schwere-Reiter-Str. 2h
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5482516697085
+        lat: 48.1584513697085
+      northeast:
+        lng: 11.5509496302915
+        lat: 48.16114933029149
+    location:
+      lng: 11.5496688
+      lat: 48.15983629999999
+  address_components:
+    - types:
+        - street_number
+      short_name: 2h
+      long_name: 2h
+    - types:
+        - route
+      short_name: Schwere-Reiter-Str.
+      long_name: Schwere-Reiter-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Neuhausen-Nymphenburg
+      long_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80797"
+      long_name: "80797"
+  place_id: ChIJyTotdXN2nkcR3uMhWqIpkGg
+  url: https://maps.google.com/?q=Schwere-Reiter-Str.+2h,+80797+M%C3%BCnchen,+Germany&ftid=0x479e7673752d3ac9:0x689029a25a21e3de
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719151232277
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/impex.muc
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719151232/k6zwx5t2guxpiyj4ufsh.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719151232277
+  owned: false
+  name: Import Export
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  updatedAt: 1719151232277
+  username: impex.muc
+claimed: No
+link: https://rausgegangen.de/events/bcuc-sinem-la-cometa-sonico-0/
+description: >-
+  This is not a World Music Festival! This is PHRE
+
+
+  Mit dem PHRE-Pass könnt für 40 € könnt ihr auf 5 Konzerte von unserem PHRE Festival!
+
+
+  BCUC (Soweto)
+
+
+  Die siebenköpfige Band BCUC hat das Publikum sowohl auf lokaler als auch auf globaler Ebene mit ihrem einheimischen Funk und ihren energiegeladenen Auftritten in ihren Bann gezogen, die sie schnell zu einem der erfolgreichsten Musikexporte Südafrikas gemacht haben"Bantu Continua Uhuru Consciousness" (BCUC) sehen ihre Musik als eine hedonistische Trance, aber auch als eine Waffe der politischen und spirituellen Befreiung. Jazzklänge aus den Produktionen der 1970er und 80er Jahre, die durch Hip-Hop-Einflüsse und Punk-Rock-Energie ersetzt wurden, nehmen den Zuhörer mit auf eine faszinierende Reise.
+
+
+  Sinem (Munich)
+
+
+  Kein Entweder-oder! Sinem, die Band, verbindet türkischen Gesang mit New Wave Erinnerungen der 80er Jahre. Arabeske Rhythmen treffen auf minimalistische Synthesizerbässe, elektronische Klänge und rohe Gitarren. Musikalisch werden Grenzen aufgehoben und Räume für maximale Bewegungsfreiheit geschaffen – auf und vor der Bühne. Sinem, die Sängerin, interpretiert klassische türkische Popsongs neu und kreiert eigene Lieder. Sie stellt eine Verbindung her zu den Erfahrungen der Generation der „Gurbetçiler“, und macht sie im Hier und Jetzt erlebbar. Sinem, das sind Sinem #Gesang, Tagar (Friends Of Gas) #Gitarrre und Tom Wu (What Are People For?) #Schlagzeug#Loops#Produktion. „Ya-veya yok oldu!“
+
+
+  La Cometa Sónico (Munich)
+
+
+  Cosmica Bandidas Radioshow und DJ-Set El Cometa Sónico ist eine Wiedervereinigung von Klängen, die die musikalische Praxis der Band beeinflussen. Die Musikauswahl, die manchmal für das Radio und manchmal für Partys getroffen wurde, erforscht dunkle Cumbia und psychedelische Musik, die den Körper einbezieht. Von den Grenzen des peruanischen Fuzzy-Punk bis zum nostalgischen Reggaeton Perreo, Cumbia und Disco llega El Cometa Sónico!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719151233/xpke1n1ilgt3k5ldcyp5.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+hash: 1722618000000+ChIJyTotdXN2nkcR3uMhWqIpkGg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FwLXTo5JZpm52cOkpVnGD.png?generation=1719151251470271&alt=media
+viewsCount: 5
+id: wLXTo5JZpm52cOkpVnGD

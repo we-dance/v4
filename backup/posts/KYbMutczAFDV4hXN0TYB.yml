@@ -1,0 +1,156 @@
+createdAt: 1704822897987
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/886655979452246/
+source: facebook
+updatedAt: 1704822897987
+username: wedancebot
+venue:
+  formatted_address: Calgary, AB, Canada
+  website: http://www.calgary.ca/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Calgary
+  geometry:
+    viewport:
+      southwest:
+        lng: -114.3157738483164
+        lat: 50.84282194030632
+      northeast:
+        lng: -113.8598962139514
+        lat: 51.21242471400529
+    location:
+      lng: -114.0718831
+      lat: 51.04473309999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Calgary
+      long_name: Calgary
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: AB
+      long_name: Alberta
+    - types:
+        - country
+        - political
+      short_name: CA
+      long_name: Canada
+  place_id: ChIJ1T-EnwNwcVMROrZStrE7bSY
+  url: https://maps.google.com/?q=Calgary,+AB,+Canada&ftid=0x537170039f843fd5:0x266d3bb1b652b63a
+visibility: Public
+endDate: 1728903600000
+org:
+  owner: ""
+  importedAt: 1704822900839
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/afrokizzme
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/405467598_661247759522482_2867762211875133593_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=596444&_nc_ohc=V62OnAOwX4sAX-hPdlw&_nc_ht=scontent-atl3-1.xx&oh=00_AfBX3JjiT5mpRN0_h3Bb1JAHchvsjJ7eCwmKOkpEHNt7Yw&oe=65A19132
+  source: facebook
+  type: Organiser
+  createdAt: 1704822900839
+  owned: false
+  name: Afro-Kizz Me
+  place: ChIJ1T-EnwNwcVMROrZStrE7bSY
+  updatedAt: 1704822900839
+  username: afrokizzme
+claimed: No
+facebookId: "886655979452246"
+link: https://www.eventbrite.ca/e/afro-kizz-me-festival-2024-tickets-738673982767?aff=oddtdtcreator
+description: >-
+  Afro-Kizz Me Festival 2nd Edition happening on October 11-14 2024, Long
+  Weekend
+
+
+  We will feature ... 
+
+  European artists
+
+  North American Artists
+
+  Appreciation for our Canadian local artists
+
+
+  This edition, we will have 
+
+  Master Classes
+
+  A Possibility of Jack & Jill Competition !
+
+  Pre-Parties & After-Parties
+
+
+  Over 15hrs of dance party which includes Day socials including AFTER-PARTIES
+
+
+  9hrs of workshops which will include 1hr Q & A Session with the artists
+
+
+  📣 Limited EarlyBird Tickets are now out ! Make sure you secure yours 😊. 
+
+
+  **Tickets are NON-refundable and can be transferred**
+
+
+  Use AFROKIZZ as discount on EventBrite to save $20 or 13% on EarlyBird Pass. 
+
+
+  E-transfers are also acceptable and preferred
+
+
+  afrokizzme2@gmail.com
+
+
+  Use Password as kizomba
+
+
+  EARLYBIRD Pass until Jan 31st 2024 (All prices listed in Canadian (CAD) $) minus eventbrite fees
+
+  ——————————————————-
+
+
+  BELIEVER PASS - SOLD OUT
+
+
+  Lead FULL PASS $159.99 ~ with discount $129.99
+
+
+  FOLLOW FULL PASS $159.99 ~ with discount 
+
+  $129.99
+
+
+  COUPLE PASS (Lead + Follow) $259.98 already discounted with 20$ off
+
+
+  LEAD COUPLE PASS (Lead + Lead) 259.98 already discount with $20 off
+
+
+  VENUE: TBA
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Afro-Kizz Me Festival October 11-14, 2024
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJ1T-EnwNwcVMROrZStrE7bSY
+international: No
+hash: 1728673200000+ChIJ1T-EnwNwcVMROrZStrE7bSY
+startDate: 1728673200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKYbMutczAFDV4hXN0TYB.png?generation=1704822917093983&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853105/ptjzwigqgipfyygr6wj3.jpg
+viewsCount: 26
+id: KYbMutczAFDV4hXN0TYB

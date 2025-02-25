@@ -1,0 +1,227 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327056480
+updatedAt: 1732327056480
+importedAt: 1732327056480
+providerId: goandance
+providerItemId: "7259"
+name: Bachata Paraiso Festival 2025 (4ª Edición)
+description: Sin descripción
+sourceUrl: https://www.goandance.com/es/e/7259?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/7259?promoter=WEDANCE123
+type: event
+startDate: 1740762000000
+endDate: 1740963600000
+tickets:
+  - name: BLACK FRIDAY FULL PASS
+    description: >-
+      Included: 
+
+      1 full pass
+
+      Entrance to all workshops and parties from Friday 28.02 to Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1732489140
+      _nanoseconds: 0
+    discount: 10
+    price: 80
+    comission: 3.93
+    originalPrice: 90
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: November Full Pass - Follower or/and Leader
+    description: >-
+      Included: 
+
+      1 full pass
+
+      Entrance to all workshops and parties from Friday 28.02 to Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1728424740
+      _nanoseconds: 0
+    discount: 10
+    price: 85
+    comission: 3.93
+    originalPrice: 95
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: November Full Pass - Follower or/and Leader
+    description: >-
+      Included: 
+
+      1 full pass
+
+      Entrance to all workshops and parties from Friday 28.02 to Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1733439540
+      _nanoseconds: 0
+    discount: 10
+    price: 100
+    comission: 3.93
+    originalPrice: 110
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: November Full Pass - Follower or/and Leader
+    description: >-
+      Included: 
+
+      1 full pass
+
+      Entrance to all workshops and parties from Friday 28.02 to Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1740758400
+      _nanoseconds: 0
+    discount: 10
+    price: 130
+    comission: 3.93
+    originalPrice: 140
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: November couple/double Full Pass
+    description: >-
+      Included: 
+
+      2 females full passes 
+
+      or 2 males full passes 
+
+      or 1 female + 1 male full pass
+
+      (Entrance to all workshops and parties from Friday 28.02 to...  Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1728424740
+      _nanoseconds: 0
+    discount: 10
+    price: 175
+    comission: 3.93
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: November couple/double Full Pass
+    description: >-
+      Included: 
+
+      2 females full passes 
+
+      or 2 males full passes 
+
+      or 1 female + 1 male full pass
+
+      (Entrance to all workshops and parties from Friday 28.02 to...  Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1733439540
+      _nanoseconds: 0
+    discount: 10
+    price: 190
+    comission: 3.93
+    originalPrice: 200
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: November couple/double Full Pass
+    description: >-
+      Included: 
+
+      2 females full passes 
+
+      or 2 males full passes 
+
+      or 1 female + 1 male full pass
+
+      (Entrance to all workshops and parties from Friday 28.02 to...  Sunday 02.03.2025)
+    priceValidUntil:
+      _seconds: 1740960000
+      _nanoseconds: 0
+    discount: 10
+    price: 260
+    comission: 3.93
+    originalPrice: 270
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+  - name: Halloween special
+    description: |-
+      Included
+      All workshops , socials and parties from 
+      Friday to Sunday
+    priceValidUntil:
+      _seconds: 1730674740
+      _nanoseconds: 0
+    discount: 10
+    price: 135
+    comission: 3.93
+    originalPrice: 145
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/7259-bachata-paraiso-festival-2025-4a-edicion?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327057/rdzy2tldgqu3jnliplk4.jpg
+venue:
+  address_components:
+    - long_name: "3"
+      short_name: "3"
+      types:
+        - street_number
+    - long_name: Donau-City-Straße
+      short_name: Donau-City-Straße
+      types:
+        - route
+    - long_name: Donaustadt
+      short_name: Donaustadt
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Wien
+      short_name: Wien
+      types:
+        - locality
+        - political
+    - long_name: Wien
+      short_name: Wien
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Wien
+      short_name: Wien
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Austria
+      short_name: AT
+      types:
+        - country
+        - political
+    - long_name: "1220"
+      short_name: "1220"
+      types:
+        - postal_code
+  formatted_address: Donau-City-Straße 3, 1220 Wien, Austria
+  geometry:
+    location:
+      lat: 48.2315312
+      lng: 16.4148831
+    viewport:
+      northeast:
+        lat: 48.2323853802915
+        lng: 16.4156274802915
+      southwest:
+        lat: 48.2296874197085
+        lng: 16.4129295197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +43 1 2520325800
+  name: District Living
+  place_id: ChIJuWCvtRMHbUcRO8TBHa4vyb8
+  url: https://maps.google.com/?cid=13819629356433130555
+  website: https://www.district-living.at/
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+price: 80 EUR
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+watch:
+  usernames: []
+  count: 0
+hash: 1740762000000+ChIJuWCvtRMHbUcRO8TBHa4vyb8
+org: ""
+id: SvPJ9dcbtCE2woomZO6s

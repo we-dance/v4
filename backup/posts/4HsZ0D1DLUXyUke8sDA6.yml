@@ -1,0 +1,908 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  url: https://maps.google.com/?cid=14384342178029021798
+  room: Area 1
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      east: 11.5735717802915
+      south: 48.14558861970851
+      north: 48.1482865802915
+      west: 11.5708738197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F45ad2564-fa2b-4169-9f22-0527d8d95e0c?alt=media&token=cf147971-f33a-40b1-84d0-bee0a0cea51d
+  international_phone_number: +49 89 23805360
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  username: pinakothekdermoderne
+claimed: No
+description: |-
+  Introduction to Bachata RoleRotation by: 
+  LOCA Project
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FyyVFEFUtO2VcIPZzFtrXw5qr8ww1%2F22347291-f6e8-4592-9368-bf72737f68da?alt=media&token=036a9c94-c74f-4a2d-be4b-b9150853e176
+createdAt: 1724057321021
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Anna LOCA
+    bio: "On a mission to prove that anyone can dance! Dancing is like having a
+      conversation. Through bachata to more mobility and movement. "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FMmm5orHCanbzkAvbMe3cpmzR5lG2%2Fe3c2148a-617c-4d14-8c87-fdbd80dd038b?alt=media&token=02d57b02-c3c5-4aff-861a-cc1b3b6e97a0
+    instagram: https://www.instagram.com/annaloca.dance
+    id: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+    username: Annaloca
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: claudialoca_
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FAX8e9zJsltajv2b5ICYfJuhiAKB2%2F980a3056-c0c4-46e7-a4d3-03440c7c89ee?alt=media&token=446de838-b532-4664-adb1-7ff8a7a9bd67
+    bio: ""
+    instagram: ""
+    id: AX8e9zJsltajv2b5ICYfJuhiAKB2
+    username: claudialoca_
+children:
+  - endDate: 1719511200000
+    id: 0oEiu385jRJY0qclUZyv
+    startDate: 1719507600000
+  - endDate: 1720116000000
+    id: Op9uCLRZGK819OaVRgyu
+    startDate: 1720112400000
+  - endDate: 1720720800000
+    id: cjMnAVakQ1BG9MSCgoKR
+    startDate: 1720717200000
+  - endDate: 1721325600000
+    id: SZpXK1ZykALAOi0IRs4Y
+    startDate: 1721322000000
+  - endDate: 1721930400000
+    id: K7qpY7U9pLaxAeohUHjN
+    startDate: 1721926800000
+  - endDate: 1722535200000
+    id: 6FUJb80wpNbYGEPsANCE
+    startDate: 1722531600000
+  - endDate: 1723140000000
+    id: oLRuxQXUbijUETgN6BSn
+    startDate: 1723136400000
+  - endDate: 1723744800000
+    id: ogqrPMJEhVSldccUSKGt
+    startDate: 1723741200000
+  - endDate: 1724349600000
+    id: n4yGEaVTm72IuwqmcZkQ
+    startDate: 1724346000000
+  - endDate: 1724954400000
+    id: 96zFbMpTj8v2AGiTqIDm
+    startDate: 1724950800000
+  - endDate: 1725559200000
+    id: 780sYNhZcKil2F6kubsz
+    startDate: 1725555600000
+  - endDate: 1726164000000
+    id: MK7ZQ0AdV2wpcjQUGrYQ
+    startDate: 1726160400000
+  - endDate: 1726768800000
+    id: 8UVaHHRYj2TImPweuLFe
+    startDate: 1726765200000
+price: Free
+socialCover: ""
+limit: ""
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - Annaloca
+  - claudialoca_
+international: No
+updatedBy: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/MUCOADC
+  name: MOADC
+  bio: We organize own events, Festivals, Bootcamps & Flashmobs and many other
+    Indoor or outdoor related activities
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F6WFYqYtGgYUn7u0dozfnNuEnti92%2F52a8cbb0-1a28-4b85-9567-64fc92ad5881?alt=media&token=8f4d84a4-9692-43d9-8fa8-b886f72cd9a0
+  instagram: https://instagram.com/munich_openair_dance_community
+  id: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+  username: MOADC
+upVotes: 0
+telegram: {}
+eventType: Workshop
+promotionError: ""
+recurrence:
+  untilDate:
+    _seconds: 1727301600
+    _nanoseconds: 0
+  freq: never
+  days: {}
+  dates: []
+form: No
+createdBy: yyVFEFUtO2VcIPZzFtrXw5qr8ww1
+name: "All-Dance Thursday: Bachata Partnerwork & RoleRotation "
+online: ""
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+votes: 0
+username: Migo.bachatero
+promotion: ""
+endDate: 1724349600000
+id: 4HsZ0D1DLUXyUke8sDA6
+hash: 1724346000000+ChIJW8LuYO51nkcRZqoW2f9yn8c
+startDate: 1724346000000
+updatedAt: 1724256869426
+watch:
+  count: 1
+  list:
+    14LeftFeet: true
+commentsCount: 2
+commentDoc:
+  createdAt: 1724264401091
+  updatedBy: GlL7UG18HRNZuKABPiWxUf2HAK22
+  createdBy: GlL7UG18HRNZuKABPiWxUf2HAK22
+  commentId: ""
+  postId: 4HsZ0D1DLUXyUke8sDA6
+  id: jImvLMOsW1kiSRWrPVWM
+  body: Hi, would this workshop be appropriate for someone who has only gone
+    through the basics of Standard/Latin? Or is it meant for people who have
+    already some experience in Bachata?
+  updatedAt: 1724264401091
+  username: 14LeftFeet
+bookmarks: 22
+star:
+  list: {}
+  count: 33
+  usernames:
+    - Denis_6671
+    - Hermann-2
+    - rtimush
+    - amanda
+    - dsupare16
+    - oser
+    - Jane
+    - Monika
+    - 14LeftFeet
+    - konni
+    - ClaudiaThea
+    - anisha
+    - MartinOviedo
+    - thenielzzz
+    - Johannaertl
+    - Kia_P
+    - K-H
+    - Atahan
+    - Molivo
+    - gwren
+    - ChristianJose
+    - SarahK
+    - Fojoha
+    - Sina
+    - Jaz
+    - Jasmin-A.
+    - aussergewoehnlich
+    - sonja
+    - TobiWei
+    - alele
+    - Apple
+    - Rune
+    - Steffi-
+  history:
+    - username: Roland
+      date: 1724070628375
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: joined
+    - username: Roland
+      date: 1724070645032
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: left
+    - username: Roland
+      date: 1724070654604
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: joined
+    - username: Roland
+      date: 1724070657103
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: left
+    - username: Roland
+      date: 1724070670171
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: joined
+    - username: Roland
+      date: 1724070730141
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: left
+    - username: Denis_6671
+      date: 1724072795249
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: nzFBwElJTsbh7QJJzKIHztWwK0s1
+      action: joined
+    - username: Roland
+      date: 1724077758058
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: joined
+    - username: Roland
+      date: 1724132365366
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: left
+    - username: Roland
+      date: 1724132370022
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: joined
+    - username: Roland
+      date: 1724132371573
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: left
+    - username: Jane
+      date: 1724142180535
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: pdmzxgIHJnh0Ak07eEu25SyAl9m2
+      action: joined
+    - username: Hermann-2
+      date: 1724143529764
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 1NmD9QivGGWeFOGziiPgQmDfCoI3
+      action: joined
+    - username: rtimush
+      date: 1724144265897
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: jS0aZYHn69S38D5r7Fggliwk7AE3
+      action: joined
+    - username: amanda
+      date: 1724148768145
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: DY7JFLno1bTBBJblhcObAlB1HT22
+      action: joined
+    - username: amanda
+      date: 1724148785502
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: DY7JFLno1bTBBJblhcObAlB1HT22
+      action: left
+    - username: amanda
+      date: 1724148799909
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: DY7JFLno1bTBBJblhcObAlB1HT22
+      action: joined
+    - username: dsupare16
+      date: 1724154464819
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RSpro4zd86QBkW34lItg9q83G8F2
+      action: joined
+    - username: oser
+      date: 1724175292707
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: xUA0xxDejcQRyZWneKxEUKlQoPO2
+      action: joined
+    - username: Jane
+      date: 1724178400234
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: pdmzxgIHJnh0Ak07eEu25SyAl9m2
+      action: left
+    - username: Jane
+      date: 1724178425433
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: pdmzxgIHJnh0Ak07eEu25SyAl9m2
+      action: joined
+    - username: Roland
+      date: 1724234059031
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: joined
+    - username: Monika
+      date: 1724245567515
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: BWxMoXHBQqaSsUcFap2K5mN3Exi2
+      action: joined
+    - username: Rune
+      date: 1724264028522
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: Rune
+      date: 1724264034596
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: left
+    - username: 14LeftFeet
+      date: 1724264150253
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: GlL7UG18HRNZuKABPiWxUf2HAK22
+      action: joined
+    - username: konni
+      date: 1724264375864
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: G6nZkhXE0Fa7vLJqenKjs6lLAEX2
+      action: joined
+    - username: konni
+      date: 1724264380602
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: G6nZkhXE0Fa7vLJqenKjs6lLAEX2
+      action: left
+    - username: konni
+      date: 1724264381275
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: G6nZkhXE0Fa7vLJqenKjs6lLAEX2
+      action: joined
+    - username: ClaudiaThea
+      date: 1724267668045
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: joined
+    - username: ClaudiaThea
+      date: 1724267669208
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: left
+    - username: ClaudiaThea
+      date: 1724267690667
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: joined
+    - username: ClaudiaThea
+      date: 1724267733108
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: left
+    - username: ClaudiaThea
+      date: 1724267761044
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: joined
+    - username: ClaudiaThea
+      date: 1724267762159
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: left
+    - username: ClaudiaThea
+      date: 1724267890275
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: joined
+    - username: ClaudiaThea
+      date: 1724267891527
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: left
+    - username: ClaudiaThea
+      date: 1724267907787
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: rBDMvi4KhMNQZeI0H7B1cDVcl8T2
+      action: joined
+    - username: anisha
+      date: 1724268080478
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: KPKRj8MDmnQEknfdRpodf2IwntU2
+      action: joined
+    - username: anisha
+      date: 1724268084099
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: KPKRj8MDmnQEknfdRpodf2IwntU2
+      action: left
+    - username: anisha
+      date: 1724268085293
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: KPKRj8MDmnQEknfdRpodf2IwntU2
+      action: joined
+    - username: MartinOviedo
+      date: 1724269701763
+      invitedBy: ""
+      uid: AzOqdUKBo9MedszVjcR9faIOHLg1
+      action: joined
+    - username: thenielzzz
+      date: 1724271688051
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: Yn2cwuocpCQWzZme3jEiRmPAgS02
+      action: joined
+    - username: Roland
+      date: 1724304448129
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: OknxecNqNtdbNj3wwOxMILeZFGZ2
+      action: left
+    - username: Johannaertl
+      date: 1724305123844
+      invitedBy: ""
+      uid: YgqeR1cC7zS5VCcSOTHZTvlMOzF3
+      action: joined
+    - username: Kia_P
+      date: 1724307238003
+      invitedBy: YgqeR1cC7zS5VCcSOTHZTvlMOzF3
+      uid: RpsWTyGXVeUPnB7YcnI8BGPAca23
+      action: joined
+    - username: Kia_P
+      date: 1724307240188
+      invitedBy: YgqeR1cC7zS5VCcSOTHZTvlMOzF3
+      uid: RpsWTyGXVeUPnB7YcnI8BGPAca23
+      action: left
+    - username: Kia_P
+      date: 1724307240804
+      invitedBy: YgqeR1cC7zS5VCcSOTHZTvlMOzF3
+      uid: RpsWTyGXVeUPnB7YcnI8BGPAca23
+      action: joined
+    - username: K-H
+      date: 1724313157665
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: FzYwTN79GLUGydafUwmcPL84S5g2
+      action: joined
+    - username: Atahan
+      date: 1724317929210
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: xRC1JPiTcWc37CgwZxLKdh0zboF2
+      action: joined
+    - username: Atahan
+      date: 1724317931676
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: xRC1JPiTcWc37CgwZxLKdh0zboF2
+      action: left
+    - username: Atahan
+      date: 1724317932728
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: xRC1JPiTcWc37CgwZxLKdh0zboF2
+      action: joined
+    - username: Molivo
+      date: 1724323552229
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 8y37SO6eWtaNwFH4N7gp8O35u3v1
+      action: joined
+    - username: gwren
+      date: 1724324326748
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: QWcSwfON4hM1f7ujzhEqxS84Uvu2
+      action: joined
+    - username: gwren
+      date: 1724324330437
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: QWcSwfON4hM1f7ujzhEqxS84Uvu2
+      action: left
+    - username: gwren
+      date: 1724324331362
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: QWcSwfON4hM1f7ujzhEqxS84Uvu2
+      action: joined
+    - username: ChristianJose
+      date: 1724326789146
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: aed1PFuZa9R9RYYL8FIPPv3Wk5M2
+      action: joined
+    - username: ChristianJose
+      date: 1724326795081
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: aed1PFuZa9R9RYYL8FIPPv3Wk5M2
+      action: left
+    - username: ChristianJose
+      date: 1724326801790
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: aed1PFuZa9R9RYYL8FIPPv3Wk5M2
+      action: joined
+    - username: SarahK
+      date: 1724328840203
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5b397LxSFbUGvpT3ZRTZ3by2OjY2
+      action: joined
+    - username: Fojoha
+      date: 1724329073941
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ZZjdrkGFIfQL98JdqTOnlLJYq6z1
+      action: joined
+    - username: Fojoha
+      date: 1724329077110
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ZZjdrkGFIfQL98JdqTOnlLJYq6z1
+      action: left
+    - username: Fojoha
+      date: 1724329115786
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ZZjdrkGFIfQL98JdqTOnlLJYq6z1
+      action: joined
+    - username: Sina
+      date: 1724331846523
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: UcCfgsKkcffSHp2WLjU6sNILDHY2
+      action: joined
+    - username: sonja
+      date: 1724331874215
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: joined
+    - username: sonja
+      date: 1724331878579
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: left
+    - username: sonja
+      date: 1724331885869
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: joined
+    - username: sonja
+      date: 1724331977247
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: left
+    - username: Jaz
+      date: 1724335466442
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=link
+        - "null"
+      uid: tZIzgyOCqLh9P2XpjpBWlRvncp52
+      action: joined
+    - username: Jaz
+      date: 1724335474845
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=link
+        - "null"
+      uid: tZIzgyOCqLh9P2XpjpBWlRvncp52
+      action: left
+    - username: Jaz
+      date: 1724335475659
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=link
+        - "null"
+      uid: tZIzgyOCqLh9P2XpjpBWlRvncp52
+      action: joined
+    - username: Jasmin-A.
+      date: 1724345636165
+      invitedBy: ""
+      uid: NT9BfnScAASK4CKOwgxSAF1kCxJ3
+      action: joined
+    - username: Jasmin-A.
+      date: 1724345638649
+      invitedBy: ""
+      uid: NT9BfnScAASK4CKOwgxSAF1kCxJ3
+      action: left
+    - username: Jasmin-A.
+      date: 1724345639806
+      invitedBy: ""
+      uid: NT9BfnScAASK4CKOwgxSAF1kCxJ3
+      action: joined
+    - username: aussergewoehnlich
+      date: 1724345724091
+      invitedBy: ""
+      uid: v9ClvnDMSLNOtKY0bzEp2nWdzFS2
+      action: joined
+    - username: TobiWei
+      date: 1724345807931
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: joined
+    - username: sonja
+      date: 1724345809109
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: joined
+    - username: TobiWei
+      date: 1724345810289
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: left
+    - username: sonja
+      date: 1724345812523
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: left
+    - username: TobiWei
+      date: 1724345822223
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: joined
+    - username: sonja
+      date: 1724345827563
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: 5PYkS5hvxwZqKhzG4iD3VrDhz9F3
+      action: joined
+    - username: TobiWei
+      date: 1724345851265
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: left
+    - username: TobiWei
+      date: 1724345851886
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: joined
+    - username: TobiWei
+      date: 1724345853246
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: left
+    - username: TobiWei
+      date: 1724345856058
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: RK8kdf5qqJQxsqn1luUOcQ1ZHJP2
+      action: joined
+    - username: alele
+      date: 1724345884782
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ErUv0lvr69X2Y1e5knEmqQGWP4z1
+      action: joined
+    - username: alele
+      date: 1724345888211
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ErUv0lvr69X2Y1e5knEmqQGWP4z1
+      action: left
+    - username: alele
+      date: 1724345894697
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ErUv0lvr69X2Y1e5knEmqQGWP4z1
+      action: joined
+    - username: alele
+      date: 1724345901478
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ErUv0lvr69X2Y1e5knEmqQGWP4z1
+      action: left
+    - username: alele
+      date: 1724345903084
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: ErUv0lvr69X2Y1e5knEmqQGWP4z1
+      action: joined
+    - username: Rune
+      date: 1724346046194
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: Apple
+      date: 1724346051553
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=link
+        - "null"
+      uid: HWrDR2csjiYfJ47BzSHahgQ339v2
+      action: joined
+    - username: Rune
+      date: 1724346053991
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: left
+    - username: Apple
+      date: 1724346057401
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=link
+        - "null"
+      uid: HWrDR2csjiYfJ47BzSHahgQ339v2
+      action: left
+    - username: Rune
+      date: 1724346060479
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: Apple
+      date: 1724346060693
+      invitedBy:
+        - rPjdlQUA4ohb1DIsmYgvwXQ3YIh1?utm_source=link
+        - "null"
+      uid: HWrDR2csjiYfJ47BzSHahgQ339v2
+      action: joined
+    - username: Rune
+      date: 1724346064166
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: left
+    - username: Rune
+      date: 1724346064864
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: Rune
+      date: 1724346079258
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: left
+    - username: Rune
+      date: 1724346080060
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: dLP1ZlIu7WfsyvkentGSDcdQYUI3
+      action: joined
+    - username: Steffi-
+      date: 1724346092095
+      invitedBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+      uid: IPN2O2nf3UXbUfzGf0sAEf7xm7Q2
+      action: joined
+checkin:
+  list: {}
+  count: 24
+  usernames:
+    - konni
+    - Atahan
+    - gwren
+    - ClaudiaThea
+    - anisha
+    - amanda
+    - SarahK
+    - Fojoha
+    - Jasmin-A.
+    - Sina
+    - rtimush
+    - aussergewoehnlich
+    - dsupare16
+    - sonja
+    - Molivo
+    - MartinOviedo
+    - Jaz
+    - TobiWei
+    - alele
+    - Monika
+    - Hermann-2
+    - Apple
+    - Rune
+    - Steffi-
+  history:
+    - username: konni
+      date: 1724345379452
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Atahan
+      date: 1724345628194
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: gwren
+      date: 1724345642373
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: ClaudiaThea
+      date: 1724345649054
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: anisha
+      date: 1724345649916
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: amanda
+      date: 1724345653130
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: SarahK
+      date: 1724345659496
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: Fojoha
+      date: 1724345660041
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: Jasmin-A.
+      date: 1724345700941
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Sina
+      date: 1724345722886
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: rtimush
+      date: 1724345758248
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: aussergewoehnlich
+      date: 1724345765372
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: dsupare16
+      date: 1724345811730
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: sonja
+      date: 1724345838556
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Molivo
+      date: 1724345878482
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: MartinOviedo
+      date: 1724345894233
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Jaz
+      date: 1724345892654
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: TobiWei
+      date: 1724345906254
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: alele
+      date: 1724345911511
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Monika
+      date: 1724345954210
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Hermann-2
+      date: 1724345981497
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: Apple
+      date: 1724346082560
+      invitedBy: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      uid: Mmm5orHCanbzkAvbMe3cpmzR5lG2
+      action: joined
+    - username: Rune
+      date: 1724346089701
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+    - username: Steffi-
+      date: 1724346150293
+      invitedBy: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      uid: AX8e9zJsltajv2b5ICYfJuhiAKB2
+      action: joined
+viewsCount: 98

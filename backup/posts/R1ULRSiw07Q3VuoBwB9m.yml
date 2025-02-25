@@ -1,0 +1,106 @@
+venue:
+  website: http://www.birdbar.de/
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  name: Bird Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  url: https://maps.google.com/?cid=1792963782189389845
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  international_phone_number: +49 89 55969710
+endDate: 2022-12-14T01:00
+claimed: No
+program: []
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fa6b38340-2995-43b4-9c9e-9836f77e7b7b?alt=media&token=2a3956f3-674d-4293-8b8d-80986f58598f
+createdAt: 1670841343331
+artists: []
+price: 10 EUR
+socialCover: ""
+artistsList: []
+id: R1ULRSiw07Q3VuoBwB9m
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1670618894448
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  instagram: https://instagram.com/ellsys_official
+  username: ellsys_official
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Kiz München
+online: No
+votes: 0
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-12-13T21:00
+username: alexrazbakov
+viewsCount: 31

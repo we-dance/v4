@@ -1,0 +1,137 @@
+venue:
+  formatted_address: Carrer del Pla de la Torre, 14, 08398 Santa Susanna, Barcelona, Spain
+  website: http://www.hoteldonangel.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Don Angel
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 2.721854780291502
+      south: 41.6326594697085
+      north: 41.6353574302915
+      west: 2.719156819708498
+    location:
+      lng: 2.7207176
+      lat: 41.6338417
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - route
+      short_name: Carrer del Pla de la Torre
+      long_name: Carrer del Pla de la Torre
+    - types:
+        - locality
+        - political
+      short_name: Santa Susanna
+      long_name: Santa Susanna
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "08398"
+      long_name: "08398"
+  international_phone_number: +34 937 67 83 64
+  place_id: ChIJacRaLJQ-uxIRwdAVjd2vU5E
+  url: https://maps.google.com/?cid=10471906924656185537
+endDate: 2024-06-16T23:30
+claimed: No
+link: https://www.goandance.com/es/eventos/6182-crazy-dance-festival-2024
+description: >-
+  🔥 CRAZY DANCE FESTIVAL 2024🔥
+
+  2a Edicion
+
+
+  Ya tenemos los primeros
+
+  Artistas Confirmados
+
+  para el evento más loco del verano!!🎉☀️🏖🕶️
+
+
+  Más de 40 talleres durante todo el evento, Pool Party’s , Social día y noche , Shows, Fiestas y muchas Sorpresas más 🎉
+
+
+  Contaremos con los mejores temas a cargo de de los mejores Dj’S 🎶
+
+  🎧@dj.killo @djned.alvarez @djleodcuba @tom_nka 🎧
+
+
+  🔥 Sala 1: Bachata
+
+
+  🔥Sala 2: Salsa / Timba
+
+
+  Ya a la Venta en Goandance y a través de vuestros promotores!
+
+
+  Link en la Bio @crazydancefestival
+
+
+  ℹ️ Más Información y Reservas:
+
+  📲 610 24 78 45
+
+
+  🌞 👙💥💦🧋🙌🏼🤪💃🏻
+
+
+  ¡¡NO TE PIERDAS EL EVENTO MAS LOCO DEL VERANO!!
+
+
+  Primeros Artistas Confirmados para el 2024
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Ff452e787-806d-42a8-8e60-d0ae42c11c29?alt=media&token=c0a1b264-c7f6-468f-b068-4082f32a8932
+createdAt: 1689525265312
+artists: []
+price: 59 - 189 EUR
+artistsList: []
+place: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+international: Yes
+updatedAt: 1689525265312
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/crazydancefestival
+  username: crazydancefestival
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: CRAZY DANCE FESTIVAL
+online: No
+styles:
+  Timba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2024-06-14T00:00
+username: IvanaSoldat
+viewsCount: 59
+id: K943Q3wZEvxrIipoZdOp

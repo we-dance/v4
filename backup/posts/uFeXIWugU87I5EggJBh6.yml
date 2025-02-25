@@ -1,0 +1,126 @@
+createdAt: 1708035154461
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1708035154461
+username: alexrazbakov
+venue:
+  formatted_address: Türkenstraße 3, 1090 Wien, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Türkenstraße 3
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3592648697085
+        lat: 48.21546086970849
+      northeast:
+        lng: 16.3619628302915
+        lat: 48.21815883029149
+    location:
+      lng: 16.3605751
+      lat: 48.2168642
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Türkenstraße
+      long_name: Türkenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Alsergrund
+      long_name: Alsergrund
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1090"
+      long_name: "1090"
+  place_id: ChIJ2b0Dtb4HbUcR7xNSfLjTPIs
+  url: https://maps.google.com/?q=T%C3%BCrkenstra%C3%9Fe+3,+1090+Wien,+Austria&ftid=0x476d07beb503bdd9:0x8b3cd3b87c5213ef
+endDate: ""
+claimed: No
+link: ""
+description: |
+  Dear Salser@s & Bachater@s,
+
+  We start with our dancing activities on 
+  Saturday, 17th February 2024
+
+  - Salsa & Bachata Party 
+  21-00 h (free entrance, smooth ending)
+  - Workshop salsa (mixed level)
+  20-21h (fee: 10 €)
+
+  Location: Café Afro (T[rkenstrasse 3, A-1090)
+  Save the date!
+  See you!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1127759708227451/
+facebookId: "1127759708227451"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Season Opening Salsa & Bachata Party with Workshop @ Salsa Fun Club (Vienna) "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708200000000+ChIJ2b0Dtb4HbUcR7xNSfLjTPIs
+startDate: 1708200000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708035161/pa3p7ihhlcm8pjqr78ru.jpg
+org:
+  owner: ""
+  importedAt: 1708035159779
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0TctAXCS8o9e9wZpeHPEWoTkMJjgFnShnbQyaWKNeyzn6DYe4cMQdvQBzSYbmY8jLl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708035160/dsqoblrvn87t0ene1hjf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708035159779
+  owned: false
+  name: Miljan Milunović
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1708035159779
+  username: miljan.milunovic
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuFeXIWugU87I5EggJBh6.png?generation=1708035179871736&alt=media
+viewsCount: 3
+id: uFeXIWugU87I5EggJBh6

@@ -1,0 +1,161 @@
+endDate: 1719522000000
+sourceUrl: https://www.facebook.com/events/482045444486018/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1718035009000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1718035009000
+facebookId: "482045444486018"
+facebook: https://www.facebook.com/events/482045444486018/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/482045444486018/
+eventType: Party
+providerItemId: e482045444486018@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "TREMENDA LOCURA à l'abricotier offshore inauguration "
+location: L’Abri Côtier L'Offshore - Golfe Juan
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719511200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Port Camille Rayon, Av. des Frères Roustan, 06220 Golfe juan, France
+  website: https://restaurant-livemusique-06.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: L'Abri Côtier L'Offshore
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.078471419708499
+        lat: 43.5660634697085
+      northeast:
+        lng: 7.081169380291503
+        lat: 43.56876143029149
+    location:
+      lng: 7.0798575
+      lat: 43.5673821
+  address_components:
+    - types:
+        - premise
+      short_name: Port Camille Rayon
+      long_name: Port Camille Rayon
+    - types:
+        - route
+      short_name: Av. des Frères Roustan
+      long_name: Avenue des Frères Roustan
+    - types:
+        - locality
+        - political
+      short_name: Golfe juan
+      long_name: Golfe juan
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Alpes-Maritimes
+      long_name: Alpes-Maritimes
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Provence-Alpes-Côte d'Azur
+      long_name: Provence-Alpes-Côte d'Azur
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "06220"
+      long_name: "06220"
+  international_phone_number: +33 4 93 63 06 13
+  place_id: ChIJB0aSxTyAzhIR5N-bkRBH5-I
+  url: https://maps.google.com/?cid=16350115108679835620
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546486369
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/emy.ly.718
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546486/mzgnohptwam1hkplzpz2.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546486369
+  owned: false
+  name: Emy Giulia
+  place: ChIJd3FpMByAzhIRePLlXbMxXFI
+  updatedAt: 1718546486369
+  username: emy.ly.718
+claimed: No
+link: ""
+description: >-
+  🔥 Jeudi 27 Juin 🔥
+
+
+  ☀️Nouvelle Soirée, Nouvel endroit, spéciale inauguration des Jeudis Tremenda Locura à @labricotierloffshore, pour l'occasion nous avons le plaisir de recevoir el maestro @alainmoralesofficial_ 🥳🔥
+
+
+  🌊 Profitez d'un cadre magnifique en bord de mer dans un super restaurant avec une grande piste de danse 🥳
+
+
+  Au programme:
+
+  🇩🇴 20h: Bachata Footworks avec Emy Giulia
+
+  🇨🇺 21h: Salsa Fusion avec Alain Morales 
+
+  🎵 22h: Fiestaaa 50% Salsa 50% Bachata (salsa cubaine, Son, Timba, Bachata, Reggaeton,...) avec percussion live by @deb_candela
+
+
+  Tarifs:
+
+  1 cours 12 euros - 2 cours 20 euros
+
+  Entrée gratuite, 1 consommation obligatoire par personne
+
+
+  📍 L'abricotier offshore: Port Camille Rayon, avenue des frères Roustan 06220 Golfe-Juan
+
+
+  🚘 Parking du Port de Golfe
+
+
+  #soireegolfejuan#cotedazure
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546487/fqk65dhbucwuoi52u3sc.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJd3FpMByAzhIRePLlXbMxXFI
+international: No
+hash: 1719511200000+ChIJB0aSxTyAzhIR5N-bkRBH5-I
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F11olawLmQsk9E9j65P4g.png?generation=1718546507954580&alt=media
+viewsCount: 1
+id: 11olawLmQsk9E9j65P4g

@@ -1,0 +1,163 @@
+endDate: 1712448000000
+sourceUrl: https://www.facebook.com/events/938219574373965
+createdAt: 1712044585011
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1711451800000
+updatedAt: 1712044585011
+importedAt: 1712044585011
+providerUpdatedAt: 1711451800000
+facebookId: "938219574373965"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/938219574373965
+eventType: Party
+providerItemId: 10008619-1712361600-1712447999@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Art’s Harmony Studio, Rökk Szilárd u. 11., Budapest, 1085, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1712361600000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Rökk Szilárd u. 11, 1085 Hungary
+  website: http://www.artsharmony.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Art's Harmony Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0686150697085
+        lat: 47.4904154197085
+      northeast:
+        lng: 19.0713130302915
+        lat: 47.4931133802915
+    location:
+      lng: 19.0699058
+      lat: 47.4917573
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Rökk Szilárd u.
+      long_name: Rökk Szilárd utca
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: VIII. kerület
+      long_name: VIII. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1085"
+      long_name: "1085"
+  international_phone_number: +36 20 318 6389
+  place_id: ChIJn22MvF7cQUcRHx8q0wtcN08
+  url: https://maps.google.com/?cid=5708132258572541727
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/friendance.hu
+  name: Friendance Tánc- és Mozgásstúdió
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765531/rfcbdlv9a7gwjdlegwfz.jpg
+  bio: ""
+  id: tadjiKzPsiqZdvfZMU58
+  instagram: ""
+  username: friendance.hu
+claimed: No
+facebook: https://www.facebook.com/events/938219574373965/
+link: https://friendance.hu/events/friendance5evesekleszunk/
+description: >-
+  Kedves Barátaink, Diákjaink, Ismerőseink! <3
+
+
+
+  Hamarosan újra évfordulót ünneplünk, amit nagy örömmel osztunk meg Veletek.
+
+  Izgatottan készülünk a nagy napra, ugyanis idén a Friendance immáron 5 éves lett.
+
+  Köszönjük Nektek a kitartó figyelmet, szorgalmat, a jókedvű órákat. Az elmúlt öt év rendkívül mozgalmas és emlékezetes volt számunkra és tudjuk, hogy sok fantasztikus évet ünnepelhetünk még együtt Veletek és az új csatlakozókkal.
+
+  A mi kapunk mindig nyitva áll mindenkinek. Mindig szeretettel gondolunk vissza a vicces órákra, az órák utáni hosszas cipőcserékre, csacsogásokra, a hajnali koránkelős, egésznapos "füstbenülős" iszogatós lecsófesztiválra, a margitszigeti "fűbentáncolós" szabadprogikra, az együtt megélt fergeteges hétvégékre, nyári intenzíven izzadós tanfolyamokra és összességében imádjuk a már-már nagycsaládnak mondható közösségünket. <3
+
+
+  Sok-sok szeretettel várunk Benneteket április 6-án az Art's Harmony Stúdióban egy fergeteges szülinapi bulira, tombolával, értékes nyereményekkel, sok-sok tánccal és animációval, műsorral és természetesen egy hatalmas tortával!
+
+
+  KAPUNYITÁS: 21:00
+
+
+  Hajnali 2:00-ig DJ An'dres-val 2 termes buli friss és klasszikus Salsa, Kizomba, Urban Kiz és Bachata zenékkel csak Nektek, csak Értetek!
+
+
+  Belépők:
+
+  Elővételben: 2.500 Ft/fő (április 5-ig)
+
+  Helyszínen: 3.500 Ft/fő
+
+  Ruhatár ingyenes!
+
+
+  ELŐVÉTELHEZ kérünk, jelentkezz itt:
+
+
+  https://friendance.hu/events/friendance5evesekleszunk/
+
+
+  A helyszínen készpénzzel, bankkártyával vagy SZÉP kártyával is fizethetsz.
+
+
+  Sok szeretettel várunk Mindenkit!
+
+  Ünnepeljük együtt a ÖTÖDIKet! :-)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1712044599/kbw2osrlistc5shecodd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Friendance - 5 évesek leszünk!
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1712430000000+ChIJn22MvF7cQUcRHx8q0wtcN08
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6Hu7RZsb5JZzFIHw3MON.png?generation=1712044625354325&alt=media
+viewsCount: 1
+id: 6Hu7RZsb5JZzFIHw3MON

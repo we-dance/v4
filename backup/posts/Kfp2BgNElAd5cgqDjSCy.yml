@@ -1,0 +1,88 @@
+venue:
+  formatted_address: 5MRG+M2 Unterföhring, Germany
+  html_attributions: []
+  address_components:
+    - types:
+        - plus_code
+      long_name: 5MRG+M2
+      short_name: 5MRG+M2
+    - types:
+        - locality
+        - political
+      long_name: Unterföhring
+      short_name: Unterföhring
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Munich
+      short_name: Munich
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Upper Bavaria
+      short_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bavaria
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "85774"
+      short_name: "85774"
+  url: https://maps.google.com/?q=8FWH5MRG%2BM2
+  name: 5MRG+M2
+  geometry:
+    viewport:
+      south: 48.1903385197085
+      north: 48.1930364802915
+      east: 11.6764114802915
+      west: 11.6737135197085
+    location:
+      lng: 11.6750625
+      lat: 48.1916875
+  place_id: GhIJqMZLN4kYSEAREoPAyqFZJ0A
+endDate:
+  _seconds: 1628964000
+  _nanoseconds: 0
+description: |
+  Location: https://maps.app.goo.gl/VFCkNZx16A79Q7iQ6
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkGDD595byJY19rMbUCDsmFtvPDq2%2F73d79d8b-d40b-4f71-a9b2-c7e90713b741?alt=media&token=02cd0651-fb53-4910-8d55-803595939829
+duration: "300"
+createdAt: 1628929875617
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKfp2BgNElAd5cgqDjSCy.png?generation=1628931626640651&alt=media
+commentsLast: ~
+id: Kfp2BgNElAd5cgqDjSCy
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 1
+updatedAt: 1628929875617
+updatedBy: kGDD595byJY19rMbUCDsmFtvPDq2
+visibility: Public
+eventType: Party
+organiser: SalserosOutdoor
+form: No
+createdBy: kGDD595byJY19rMbUCDsmFtvPDq2
+commentsCount: 0
+name: Salsa at Feringasee
+online: No
+styles: {}
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-14T13:00:00.000Z
+username: Salseros_y_Companeros
+viewsCount: 61

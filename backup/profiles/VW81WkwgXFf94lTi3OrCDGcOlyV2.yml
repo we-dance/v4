@@ -1,0 +1,40 @@
+visibility: Members
+timezone: GMT+0200
+type: Dancer
+createdAt: 1635485729278
+locales:
+  de: true
+  en: true
+createdBy: VW81WkwgXFf94lTi3OrCDGcOlyV2
+name: dancing.caro
+place: ChIJ0VFNsJcomEcRcJAJjTz9HwQ
+username: dancing.caro
+lastLoginAt: 1635485729513
+daysUsed: 1
+pwaUsed: false
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FVW81WkwgXFf94lTi3OrCDGcOlyV2%2F36faa944-5c25-4802-98f9-16bf04ae6b08?alt=media&token=2a85fb62-ae11-4453-a015-a9f8c8d35faf
+styles:
+  SalsaNewYork:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Ballroom:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Advanced
+    highlighted: false
+    selected: true
+contacts: Yes
+updatedAt: 1635486340109
+id: VW81WkwgXFf94lTi3OrCDGcOlyV2

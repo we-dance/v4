@@ -1,0 +1,270 @@
+endDate: 1722135600000
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRj7xCRO9a5X0xPLn7nZfdnHjUgH3%2Fd639bdc8-9398-4868-8c27-fb190188a26c?alt=media&token=1fa547b9-73de-4313-b11b-e152216d63df
+createdAt: 1700598593046
+international: No
+visibility: Public
+eventType: Festival
+form: No
+createdBy: Rj7xCRO9a5X0xPLn7nZfdnHjUgH3
+watch:
+  count: 1
+  list:
+    Togola: true
+name: "White-kiz Festival "
+online: No
+startDate: 1722006000000
+username: Togola
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fde%2Fevents%2FhveANA6A5CBe0FMkHNzj.png?generation=1700598633521783&alt=media
+id: hveANA6A5CBe0FMkHNzj
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: meet & DANCE - Die Tanzschule GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4490632802915
+      south: 48.2429800697085
+      north: 48.2456780302915
+      west: 11.4463653197085
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  international_phone_number: +49 8131 317151
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  url: https://maps.google.com/?cid=5524201826745450349
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+description: |-
+  Instructors:
+
+  - JP&STEPHY (URBAN KIZ)
+  - IRON MAMS&MOOREA (URBAN KIZ&SEMBA)
+  - MADY KEITA&PALEMA (URBAN KIZ& KONPA)
+  - FAJUL&JULIA (TARRAXO&AFRO)
+  - SORIN&KATHLEEN (URBAN KIZ)
+  - MURMEL&ALEKSANDRA (KIZOMBA)
+  - CLAUDIA LADYSTYLING
+
+
+  DJs:
+
+  - DJ ICHIGO
+  - DJ REMCY 
+  - DJ GALAXY 
+  - DJ SAUL 
+  - DJ EL MOMO 
+  - DJ MOUS 
+  - DJ SORIN 
+  - DJ IRON MAMS 
+facebook: https://www.facebook.com/events/s/white-kiz-munch/331588276233027/
+facebookId: "331588276233027"
+link: https://my.weezevent.com/whitekiz-festival
+hash: 1722006000000+ChIJj92YQ7R7nkcRbf-5_kroqUw
+confirmation: "We are happy to have you with us. Did you already buy your
+  ticket? If not you can do it now: https://my.weezevent.com/whitekiz-festival"
+promotionError: ""
+price: 15-250 EUR
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxinha:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+instagram:
+  state: published
+  messageUrl: https://instagram.com/p/C4N6MBptcfe
+  publishedAt: 1709823732825
+  messageId: C4N6MBptcfe
+promotion: completed
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/WHITE-KIZ-Munich/61554348301441/
+  name: WHITE KIZ Munich
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431991/ppm2uybftnxnpluxthc1.jpg
+  bio: ""
+  id: H8mhIxytCcHrKWz314so
+  instagram: ""
+  username: white.kiz.munich
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: iron_mams
+    photo: ""
+    bio: ""
+    instagram: https://instagram.com/iron_mams
+    id: 2qCsJIfwl7TgWJvfzUyp
+    username: iron_mams
+  - instagram: https://instagram.com/moo.rea
+    username: moo.rea
+  - instagram: https://instagram.com/douce_dance_
+    username: douce_dance_
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    bio: Urban Kiz & Afro Instructor
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    instagram: https://instagram.com/kizztalk_
+    username: kizztalk
+  - instagram: https://instagram.com/murmel.aleksandra.kiz
+    username: murmel.aleksandra.kiz
+  - instagram: https://instagram.com/djichigodancer
+    username: djichigodancer
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Remcy
+    bio: |-
+      🎧 DJ | Producer | Beatmaker 🎶
+      📧 Booking: djremcy@djremcy.com
+      #djremcy #kizomba
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdjremcyofficial.png?generation=1662976947469425&alt=media
+    id: KudD69t1x3oj1pk6yvtf
+    instagram: https://instagram.com/djremcyofficial
+    username: djremcyofficial
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: deejay.galaxy
+    photo: ""
+    bio: ""
+    id: DtxFFUkNXs6K07qZbHN3
+    instagram: https://instagram.com/deejay.galaxy
+    username: deejay.galaxy
+  - instagram: https://instagram.com/yuliia_kizz
+    username: yuliia_kizz
+  - instagram: https://instagram.com/dj.sorin.kizz
+    username: dj.sorin.kizz
+  - instagram: https://instagram.com/douce_dance_
+    username: douce_dance_
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/Aidara.saul
+    name: DJ Saul
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F0565308f-e9f5-488b-8be3-4d564013b76d?alt=media&token=6f3f5516-eec8-4281-9af3-2297e742a40a
+    bio: Kizomba / Ghettozouk / Semba / Zouk / Funana / Afro Beat.
+    instagram: https://instagram.com/saulkizomba
+    id: cFQqnaepNXQZIodAj1Cl4z6KlT22
+    username: saulkizomba
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/saliamalian.togola
+    name: Salia Togola
+    bio: ""
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftogolasaliamalian.png?generation=1704870956145217&alt=media
+    id: pMk5yI9udDezseQyxbEX
+    instagram: https://instagram.com/togolasaliamalian
+    username: Salia
+  - instagram: https://instagram.com/jpstephy
+    username: jpstephy
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/El.momo.p
+    name: Dj El Momo
+    photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431991/kfwx47r0osmaiqdktwgz.jpg
+    bio: ""
+    id: Xj7z3PlbkjuNrzGsfdjn
+    instagram: ""
+    username: dj.el.momo
+artistsList:
+  - iron_mams
+  - moo.rea
+  - douce_dance_
+  - kizztalk
+  - murmel.aleksandra.kiz
+  - djichigodancer
+  - djremcyofficial
+  - deejay.galaxy
+  - yuliia_kizz
+  - dj.sorin.kizz
+  - douce_dance_
+  - saulkizomba
+  - Salia
+  - jpstephy
+  - dj.el.momo
+updatedAt: 1709890091352
+star:
+  count: 2
+  usernames:
+    - Yvonnadam
+    - Rohit
+  history:
+    - username: Yvonnadam
+      date: 1721490084464
+      invitedBy: ""
+      uid: Bs5cWzEt3BVTowSVFZIqbg4Rr152
+      action: joined
+    - username: Rohit
+      date: 1721756928121
+      invitedBy: ""
+      uid: eOFqotyXrJQ5GJ9RxaGd5XsLOMh1
+      action: joined
+viewsCount: 97

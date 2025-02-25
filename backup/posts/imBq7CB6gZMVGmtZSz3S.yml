@@ -1,0 +1,147 @@
+venue:
+  formatted_address: Kirchenstraße 88, 81675 München, Germany
+  website: http://www.teamwerk-architekten.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Teamwerk Architekten Jan Foerster
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6100068302915
+      south: 48.13134246970849
+      north: 48.13404043029149
+      west: 11.6073088697085
+    location:
+      lng: 11.6087
+      lat: 48.13261519999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "88"
+      long_name: "88"
+    - types:
+        - route
+      short_name: Kirchenstraße
+      long_name: Kirchenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Au-Haidhausen
+      long_name: Au-Haidhausen
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81675"
+      long_name: "81675"
+  international_phone_number: +49 89 54547927
+  place_id: ChIJHwxion11nkcRmN-MW7iuH5Q
+  url: https://maps.google.com/?cid=10673441748724539288
+  username: www.teamwerk-architekten.de
+endDate: 1720631700000
+claimed: No
+link: https://tanze-samba-muenchen.de/2024/mini-anfaenger-kurse-fuer-samba-oder-forro-im-juli/
+description: Ein Forró-Kurs für das Niveau Anfänger plus. Der Grundschritt
+  sollte also beherrscht werden. Wer ihn noch nicht drauf hat, kann gerne
+  Dienstags oder Donnerstag ab 20 Uhr in den Dianatempel zu Parties kommen, um
+  ihn sich zeigen zu lassen, oder bei Noêmia eine Privatstunde buchen.
+program: []
+instagram: {}
+type: series
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5CA8tqiQDseLR3IcZSIigS9rVDH2%2Fd590e485-4f4a-4613-97cc-b4fc0510f48c?alt=media&token=b7ea5ed0-c504-4690-9957-64f46ae4d9d1
+createdAt: 1719168044627
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: 50 EUR
+socialCover: ""
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: "Für Personen, die finanzielle Hilfen erhalten sowie für
+  Schüler/Studenten, gelten ermäßigte Preise: Je Kurs: 37 €"
+international: No
+updatedBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  username: Tanze-Samba-Muenchen
+upVotes: 0
+telegram: {}
+eventType: Course
+recurrence:
+  untilDate:
+    _seconds: 1722463200
+    _nanoseconds: 0
+  freq: weekly
+  days: {}
+  dates:
+    - _seconds: 1720628100
+      _nanoseconds: 0
+    - _seconds: 1721232900
+      _nanoseconds: 0
+    - _seconds: 1721837700
+      _nanoseconds: 0
+    - _seconds: 1722442500
+      _nanoseconds: 0
+form: No
+createdBy: 5CA8tqiQDseLR3IcZSIigS9rVDH2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Forró Anfänger plus Minikurs mit Noêmia
+online: No
+styles:
+  ForroLove:
+    level: Beginner
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1720628100000
+hash: 1720628100000+ChIJHwxion11nkcRmN-MW7iuH5Q
+username: Tanze-Samba-Muenchen
+promotion: ""
+children:
+  - endDate: 1720631700000
+    id: eM5r3cshUq6ia5wqpqYs
+    startDate: 1720628100000
+  - endDate: 1721236500000
+    id: JRsOE8LCnOolPutJcr9q
+    startDate: 1721232900000
+  - endDate: 1721841300000
+    id: CjKWCRNtb86QjHyXisIO
+    startDate: 1721837700000
+  - endDate: 1722446100000
+    id: hZRcBVOWZwzjahDWmjsm
+    startDate: 1722442500000
+updatedAt: 1719168045760
+viewsCount: 1
+id: imBq7CB6gZMVGmtZSz3S

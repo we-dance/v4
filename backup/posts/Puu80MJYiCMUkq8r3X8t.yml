@@ -1,0 +1,152 @@
+endDate: 1749337200000
+sourceUrl: https://www.facebook.com/events/7108340449247232/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1707093708000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1724827100000
+facebookId: "7108340449247232"
+facebook: https://www.facebook.com/events/7108340449247232/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/7108340449247232/
+eventType: Party
+providerItemId: e7108340449247232@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "★FIESTA: Salsa Open Air, 150 m2 Tanzboden!"
+location: Kreuzackerplatz Solothurn
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1749312000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Kreuzackerplatz, 4500 Solothurn, Switzerland
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Kreuzackerplatz
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.538453544542532
+        lat: 47.20427931210534
+      northeast:
+        lng: 7.541151505125537
+        lat: 47.20697727268833
+    location:
+      lng: 7.539847099999999
+      lat: 47.2056114
+  address_components:
+    - types:
+        - town_square
+      short_name: Kreuzackerplatz
+      long_name: Kreuzackerplatz
+    - types:
+        - locality
+        - political
+      short_name: Solothurn
+      long_name: Solothurn
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Solothurn
+      long_name: Solothurn
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SO
+      long_name: Solothurn
+    - types:
+        - country
+        - political
+      short_name: CH
+      long_name: Switzerland
+    - types:
+        - postal_code
+      short_name: "4500"
+      long_name: "4500"
+  place_id: ChIJGUHGA_zXkUcRFhqBtXZzH04
+  url: https://maps.google.com/?q=Kreuzackerplatz&ftid=0x4791d7fc03c64119:0x4e1f7376b5811a16
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728417907439
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/latinweltswitzerland
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417907/sksrnotyal52lqjzh3zz.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728417907439
+  owned: false
+  name: Latinwelt Salsa, Bachata Tanzschule & Events Veranstalter in der Schweiz
+  place: ChIJR3O5lfDXkUcRqRONVOYOqZY
+  updatedAt: 1728417907439
+  username: latinweltswitzerland
+claimed: No
+link: ""
+description: |-
+  ⚠️ Der Event findet nur bei schönem Wetter statt. 👈🏽
+
+  Latinwelt präsentieren:
+
+  ★FIESTA - OPEN AIR PARTY
+  Tanzfläche aussen mit Blick auf die Aare
+
+  Dj Segundo & Amigos
+  Salsa, Bachata, Merengue, Reggaeton, Cha cha, Kizomba, Son!
+
+  Zeit zum Geniessen! Zeit zum Feiern!
+
+  ★Zeit:
+  17.15 Uhr bis 18.00 Uhr Salsa  Workshop! 
+  18.00 Uhr bis 22.00 Uhr Party
+
+  ★Preis:
+  CHF 12.- Eintritt Party
+
+  ★Informationen:
+
+  - "Es wird bis 14:00 am … kommuniziert ob die Party statt findet."
+  - Tanzfläche mit Blick auf die Aare
+  - Der Event findet nur bei schönem Wetter statt.
+  - Ausweichdatum bei schlechtem Wetter: es wird informiert. 
+  - 3 Minuten zu Fuss vom Hauptbahnhof Solothurn 
+  - Verschiedene Parkmöglichkeiten (z.B. Parkhaus Baseltor, Parkhaus Berntor)
+
+  weitere Informationen unter www.latinwelt.net
+
+  Anmeldung nicht zwingend.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417909/fdapmz9l2lqc8dk35dvm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJR3O5lfDXkUcRqRONVOYOqZY
+international: No
+hash: 1749312000000+ChIJGUHGA_zXkUcRFhqBtXZzH04
+id: Puu80MJYiCMUkq8r3X8t

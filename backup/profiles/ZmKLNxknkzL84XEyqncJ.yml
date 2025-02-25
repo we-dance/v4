@@ -1,0 +1,74 @@
+createdAt: 1710602445167
+website: https://www.vavruska.info/
+rooms: ""
+address:
+  website: https://www.vavruska.info/
+  formatted_address: Karlovo nám. 317/5, 120 00 Praha 2-Nové Město, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance School Vavruška
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4173160697085
+        lat: 50.0729464197085
+      northeast:
+        lng: 14.4200140302915
+        lat: 50.0756443802915
+    location:
+      lng: 14.4186171
+      lat: 50.0742662
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - premise
+      short_name: "317"
+      long_name: "317"
+    - types:
+        - route
+      short_name: Karlovo nám.
+      long_name: Karlovo náměstí
+    - types:
+        - neighborhood
+        - political
+      short_name: Nové Město
+      long_name: Nové Město
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 2
+      long_name: Praha 2
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 120 00
+      long_name: 120 00
+  url: https://maps.google.com/?cid=17433359908162761586
+  place_id: ChIJYfOQRvSUC0cRcvOTd3i87_E
+  international_phone_number: +420 732 888 899
+gender: Other
+phone: +420 732 888 899
+name: Dance School Vavruška
+updateAt: 1710602445167
+type: Venue
+map: ""
+username: www.vavruska.info
+viewsCount: 1
+id: ZmKLNxknkzL84XEyqncJ

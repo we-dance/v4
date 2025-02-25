@@ -1,0 +1,179 @@
+venue:
+  formatted_address: Rainer-Werner-Fassbinder-Platz 1, 80636 München, Germany
+  website: https://www.freiheitshalle-munich.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Neuhausen-Nymphenburg
+      short_name: Neuhausen-Nymphenburg
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80636"
+      short_name: "80636"
+  url: https://maps.google.com/?cid=8204790411458894294
+  name: Freiheitshalle
+  geometry:
+    viewport:
+      south: 48.1423677697085
+      north: 48.1450657302915
+      east: 11.5380672302915
+      west: 11.5353692697085
+    location:
+      lng: 11.5367119
+      lat: 48.1438873
+  international_phone_number: +49 89 51242949
+  place_id: ChIJ3xcfQxt2nkcR1tmJi2hF3XE
+endDate: 2022-04-24T01:00
+claimed: No
+link: https://mind-on-fire.live/
+description: >-
+  MIND ON FIRE - LIVE - CUBA DAY 🇨🇺
+
+
+  💥Erstmals in München!💥
+
+
+  EL NIÑO Y LA VERDAD
+
+  SA 23. APRIL 2022
+
+
+  FREIHEITSHALLE
+
+
+  Wir sind stolz darauf mit „El Niño Y La Verdad“  einen Dauerbrenner aus Kuba nach München zu holen und mit dem „Freiheiz“ haben wir einen tollen Ort für das Konzert gefunden. „El Niño“ das ist Emilio Frias, ein Ausnahmekünstler mit einer markanten kraftvollen Stimme! 
+
+
+  🔥🔥🔥🔥🔥🔥🔥
+
+
+  WORKSHOPS         15:00 – 13:00
+
+  EINLASS            AB 20:00
+
+  KONZERT                 21:00 – 23:00
+
+  AFTERPARTY           23:00 - 01:00
+
+
+  ✨✨✨✨✨✨✨
+
+
+  Afterparty mit
+
+  DJ JOYCCE  🙋🏻‍♂️
+
+  DJANE MEL 🙋🏼‍♀️
+
+
+  WORKSHOPS 💃🏻🕺🏻
+
+  AUF SPENDENBASIS      👈🏻
+
+
+  Salsa Cubana
+
+  Salsa Suelta
+
+  Salsa Casino Stil
+
+  Reggaeton  
+
+
+  TICKETS- 🎊AB 3. MÄRZ 2022
+
+  (inkl. Afterparty)
+
+
+  Direktverkauf 37 €     👈🏻
+
+  Onlineverkauf 42 €    👈🏻
+
+
+  ORT  
+
+  FREIHEITSHALLE  🗽🏭
+
+
+  Rainer-Werner-Fassbinder-Platz 1
+
+  80636 München
+
+
+  Nos Vemos! Wir freuen uns auf Dich! 
+
+  🍀🍀🍀
+
+  mind-on-fire.live  👈🏻
+
+
+  https://youtu.be/Ehtm8PeXKEI
+type: event
+duration: custom
+promo: No
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2Ffea3a37c-1792-4099-b242-05e63e7138ec?alt=media&token=24c3fb78-d441-46c1-a4f8-954252e7f6f3
+createdAt: 1645742548122
+artists:
+  - facebook: elninoylaverdadoficial
+    username: elninoylaverdadoficial
+price: From 37 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1645742548122
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org: ""
+eventType: Concert
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-04-23T15:00
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+name: MIND ON FIRE - LIVE - CUBA DAY
+id: H5MSdGEZK4CqkdANLJ0j
+viewsCount: 53

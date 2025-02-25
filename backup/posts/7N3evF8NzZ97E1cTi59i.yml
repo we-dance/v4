@@ -1,0 +1,158 @@
+isNew: true
+facebookId: "8606093312768195"
+facebookUrlsList:
+  - https://www.facebook.com/events/8606093312768195
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730473247997
+updatedAt: 1730473247997
+importedAt: 1730473247997
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48629-1731024000-1731110399@latinfo.hu
+providerCreatedAt: 1730356038000
+providerUpdatedAt: 1730356038000
+startDate: 1731024000000
+endDate: 1731110399000
+sourceUrl: https://www.facebook.com/events/8606093312768195
+location: Broadway Dance Center Táncstúdió, Kerepesi út 26., Budapest, 1146, Magyarország
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: I. emelet
+      short_name: I. emelet
+      types:
+        - subpremise
+    - long_name: "26"
+      short_name: "26"
+      types:
+        - street_number
+    - long_name: Kerepesi út
+      short_name: Kerepesi út
+      types:
+        - route
+    - long_name: XIV. kerület
+      short_name: XIV. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1146"
+      short_name: "1146"
+      types:
+        - postal_code
+  formatted_address: Budapest, Kerepesi út 26-I. emelet, 1146 Hungary
+  geometry:
+    location:
+      lat: 47.50054060000001
+      lng: 19.1089688
+    viewport:
+      northeast:
+        lat: 47.50176363029151
+        lng: 19.1103605302915
+      southwest:
+        lat: 47.49906566970851
+        lng: 19.1076625697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +36 20 571 9050
+  name: Broadway Dance Center Táncstúdió Budapest
+  place_id: ChIJG0XgPpjcQUcRpVRbrJDeZvw
+  url: https://maps.google.com/?cid=18187468858130650277
+visibility: Public
+org:
+  id: wZwrTMvCmy4VLsz15L2C
+  username: kizombaclub
+  name: Kizomba Club Hungary
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727791265/iqtt7f9u69t60vbmdfhs.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/kizombaclub
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/8606093312768195/
+link: ""
+description: >-
+  Kedves Táncosok!
+
+
+  Hiányoztak a Practikák? Jó hírünk van: visszahozzuk nektek az általatok nagyon kedvelt hangulatot, változatosságot és kapcsolódásokat.  Várunk Benneteket szeretettel újra a megszokott helyen 
+
+
+  A rendezvényen oktatóink és a KCH TEAM most is jelen lesz
+
+
+  A büfé nyitva lesz, de hozhattok is magatokkal enni és/vagy inni, így egész este lesz nassolni való és frissítő. Poharakat biztosítunk számotokra.
+
+
+  Öltöző van, viszont a szekrények sajnos nem zárhatók.Bár csak magunk leszünk, de ha úgy nyugodtabbak vagytok, az értékeiteket vigyétek magatokkal a táncterembe, ahol a fogasokra vagy a székekre lepakolhattok.
+
+
+  Ne feledjétek, hogy VÁLTÓCIPŐ KÖTELEZŐ!
+
+
+  Ws: 21:00-22:00
+
+  Buli: 22:00-03:00
+
+
+  Hozzájárulási költség: 3.500 Ft
+
+
+  Helyszín: Broadway Dance Center, 1146 Budapest, Kerepesi út 26. I. emelet
+
+
+
+  Szeretettel várunk!
+
+  Kizomba Club Hungary csapata
+
+
+  ‐--------------------------------------------------------------------
+
+
+  Kizomba Practica  at the Broadway Dance Center (1146 Budapest, Kerepesi út 26. - 1st floor).
+
+  Come and enjoy a fun kizomba party in a friendly atmosphere! Bring your soft drink if you want, we provide the plastic cups. Don’t forget your dance shoes!
+
+
+  Workshop: 21:00-22:00
+
+  Party: 22:00-03:00
+
+
+  Entry: 3.500 HUF
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730473276/epvumrhsp246eouoltvd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Kizomba Practica- 2024.11.08. Broadway
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1731096000000+ChIJG0XgPpjcQUcRpVRbrJDeZvw
+id: 7N3evF8NzZ97E1cTi59i

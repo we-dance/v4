@@ -1,0 +1,124 @@
+claimed: No
+link: https://chat.whatsapp.com/Db6PSIDl010JG9sUsu5ylH
+program: []
+type: event
+duration: 60
+createdAt: 1689693575887
+price: 0 EUR
+place: ChIJxZZwR28JvUcRAMawKVBDIgQ
+international: Yes
+updatedBy: d5HIOLSVIDQjkMakdZXvBONailF3
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Abdula
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fd5HIOLSVIDQjkMakdZXvBONailF3%2Fad6bb3a5-ab15-436b-9dfe-524b4d79ff5f?alt=media&token=b5b1ed86-a629-4329-9372-1005bf81ff53
+  bio: ""
+  id: d5HIOLSVIDQjkMakdZXvBONailF3
+  instagram: https://instagram.com/abdula.dance?igshid=OTk0YzhjMDVlZA==
+  username: Abdula.dance
+eventType: Workshop
+form: No
+createdBy: d5HIOLSVIDQjkMakdZXvBONailF3
+watch:
+  count: 1
+  list:
+    Abdula.dance: true
+name: "Bachata meet up "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Abdula.dance
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9M6WrZoIGKfELF1HaV9L.png?generation=1689766933634238&alt=media
+telegram: {}
+instagram: {}
+id: 9M6WrZoIGKfELF1HaV9L
+artists:
+  - instagram: https://instagram.com/brinitanzt
+    username: brinitanzt
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Abdula
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fd5HIOLSVIDQjkMakdZXvBONailF3%2Fad6bb3a5-ab15-436b-9dfe-524b4d79ff5f?alt=media&token=b5b1ed86-a629-4329-9372-1005bf81ff53
+    bio: ""
+    id: d5HIOLSVIDQjkMakdZXvBONailF3
+    instagram: https://instagram.com/abdula.dance?igshid=OTk0YzhjMDVlZA==
+    username: Abdula.dance
+artistsList:
+  - brinitanzt
+  - Abdula.dance
+star:
+  count: 1
+  usernames:
+    - Abdula.dance
+  list:
+    Abdula:
+      dance: true
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fd5HIOLSVIDQjkMakdZXvBONailF3%2F975b775e-6423-4cd4-81b2-53c38f527b26?alt=media&token=b9cdc52e-6308-4348-bfcb-9e00e60d2685
+endDate: 1700692200000
+description: Every Wednesday bachata workshop at 19:00
+startDate: 1700676000000
+venue:
+  formatted_address: Höhenstraße, 60385 Frankfurt am Main, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Höhenstraße
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.701747380291502
+      south: 50.1226508197085
+      north: 50.1253487802915
+      west: 8.699049419708498
+    location:
+      lng: 8.7003984
+      lat: 50.1239998
+  address_components:
+    - types:
+        - route
+      short_name: Höhenstraße
+      long_name: Höhenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Innenstadt III
+      long_name: Innenstadt III
+    - types:
+        - locality
+        - political
+      short_name: Frankfurt am Main
+      long_name: Frankfurt am Main
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Frankfurt am Main
+      long_name: Kreisfreie Stadt Frankfurt am Main
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: DA
+      long_name: Darmstadt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HE
+      long_name: Hessen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "60385"
+      long_name: "60385"
+  place_id: Ei9Iw7ZoZW5zdHJhw59lLCA2MDM4NSBGcmFua2Z1cnQgYW0gTWFpbiwgR2VybWFueSIuKiwKFAoSCY2rNxeVDr1HEeximJhAtKTTEhQKEgnFlnBHbwm9RxEAxrApUEMiBA
+  url: https://maps.google.com/?q=H%C3%B6henstra%C3%9Fe,+60385+Frankfurt+am+Main,+Germany&ftid=0x47bd0e951737ab8d:0xd3a4b440989862ec
+updatedAt: 1700390773391
+viewsCount: 58

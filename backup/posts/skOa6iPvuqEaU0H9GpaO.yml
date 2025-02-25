@@ -1,0 +1,128 @@
+sourceUrl: https://facebook.com/events/s/salsabachata-classes-party/953266696598545/
+createdAt: 1720622042258
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622042258
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Peckham, London, UK
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Peckham
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.07823573361982941
+        lat: 51.46444194723226
+      northeast:
+        lng: -0.05208652729366294
+        lat: 51.47962610526631
+    location:
+      lng: -0.0673872
+      lat: 51.47032369999999
+  address_components:
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Peckham
+      long_name: Peckham
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+  place_id: ChIJTcNKP6cDdkgRKAPfDcz_IWU
+  url: https://maps.google.com/?q=Peckham,+London,+UK&ftid=0x487603a73f4ac34d:0x6521ffcc0ddf0328
+endDate: ""
+claimed: No
+link: https://www.skiddle.com/whats-on/London/Market-Place-Peckham/LATIN-FIESTA---SalsaBachata-Peckham/39250900/#about
+description: >-
+  Join us for an electrifying new dance experience that will have you moving and
+  grooving to the vibrant rhythms of Latin music! Introducing "Rumba Latina," a
+  dynamic dance class set to ignite the dance floor in Peckham. 
+
+
+  RUMBALATINA UK is a Latin dance company based in London.
+
+  Teachers, Leon and Jessica are known for their exciting dance classes and energetic party nights! With 20 years of combined experience, they will have you feeling like a professional dancer in no time! 
+
+  🕺What to Expect:Get ready to unleash your inner dancer as we dive into the infectious beats of salsa, merengue, bachata, and more! Led by Jessica La Inglesa, this class is suitable for all levels, from beginners looking to dip their toes into Latin dance to seasoned pros eager to refine their technique. Below is what to expect on the night, feel free to join in or simply just come to catch a vibe and party!
+
+
+  7:30-8:30 : Bachata class (All levels welcome)
+
+  8:30-9:30: Salsa Class (All levels welcome)
+
+  9:30-11pm : DJ/Animations/Salsa, Bachata, Merengue, Reparto
+
+  💃Why You Should Attend:
+
+
+  Discover the joy of Latin dance and improve your coordination, flexibility, and rhythm.
+
+  Connect with a diverse community of dance enthusiasts and make new friends in a welcoming environment.
+
+  Boost your confidence on the dance floor while learning new skills and mastering classic moves.
+
+  Experience the thrill of expressing yourself through the passionate and lively rhythms of Latin music.
+
+  🎟️ How to attend:Spaces are limited, so secure your spot today by getting yourself a £10 ticket. Feel free to join us to catch a vibe; however, you'll need to grab a ticket to participate in the dance classes.
+
+
+  🎊 Don't miss out on the opportunity to heat up your evenings with the sizzling energy of Latin dance! Whether you're looking to spice up your social life, stay active, or simply have a blast on the dance floor, "Rumba Latina" promises an unforgettable experience for dancers of all backgrounds. Join us and let's dance the night away in Peckham! 💃🎶
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Rumba-Latina-UK/61550354400693/
+  name: Rumba Latina UK
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621954/ux1j83ujc5mqygyoe6ee.jpg
+  bio: ""
+  id: aJLoylmlcBotX261ObUb
+  instagram: ""
+  username: RumbaLatina-UK
+facebook: https://www.facebook.com/events/953266696598545/
+facebookId: "953266696598545"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: SALSA/BACHATA CLASSES & PARTY
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1722105000000+ChIJTcNKP6cDdkgRKAPfDcz_IWU
+startDate: 1722105000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622042/pxatfu0jkfrmg9y3k62d.jpg
+id: skOa6iPvuqEaU0H9GpaO

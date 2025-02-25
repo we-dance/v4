@@ -1,0 +1,183 @@
+endDate: 1713661200000
+sourceUrl: https://www.facebook.com/events/1080624666289130/
+createdAt: 1713214816453
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1704627976000
+updatedAt: 1713214816453
+importedAt: 1713214816453
+providerUpdatedAt: 1712227788000
+facebookId: "1080624666289130"
+facebook: https://www.facebook.com/events/1080624666289130/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1080624666289130/
+eventType: Party
+providerItemId: e1080624666289130@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: KIZZ PARADISE 20.04
+location: Casa 32
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1713638700000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Zendelingenstraat 32, 2140 Antwerpen, Belgium
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Casa 32
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.443579219708497
+        lat: 51.2158207197085
+      northeast:
+        lng: 4.446277180291502
+        lat: 51.2185186802915
+    location:
+      lng: 4.4448918
+      lat: 51.2171544
+  address_components:
+    - types:
+        - street_number
+      short_name: "32"
+      long_name: "32"
+    - types:
+        - route
+      short_name: Zendelingenstraat
+      long_name: Zendelingenstraat
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Borgerhout
+      long_name: Borgerhout
+    - types:
+        - locality
+        - political
+      short_name: Antwerpen
+      long_name: Antwerpen
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: AN
+      long_name: Antwerpen
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vlaams Gewest
+      long_name: Vlaams Gewest
+    - types:
+        - country
+        - political
+      short_name: BE
+      long_name: Belgium
+    - types:
+        - postal_code
+      short_name: "2140"
+      long_name: "2140"
+  place_id: ChIJ1em59XT3w0cRT3iab9Emo64
+  url: https://maps.google.com/?cid=12583944464765712463
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1713214846035
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/KizzParadise
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1713214846/trtegfxdd4lsdfzz15jl.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1713214846035
+  owned: false
+  name: Kizz Paradise - Kizombaurbankiztarraxo
+  updatedAt: 1713214846035
+  username: KizzParadise
+claimed: No
+link: ""
+description: >-
+  Kizomba – Urbankiz – Ghettozouk – Semba - Tarraxo – Tarraxinha- AfroHouse -
+  Douceur🎶PARTY
+
+  Always good vibes, cosy place, socializing, chilling... come enjoy and support the project :-)🎉🤗🥂🍪
+
+
+  🟠20:45 – 22:00: Urbankiz Workshop by Mozes & Alina
+
+  🟠22:00 – 03:00: PARTY Time
+
+
+  🎼Dj line up:
+
+  🟠DJ Traybeatz from Amsterdam
+
+  🟠DJ Professor from Antwerp
+
+
+  💃🏽🕺🏽Guest dancers and teachers will be in the house
+
+
+  ENTRANCE (CASH, exact change please and payconiq):
+
+  Party: 12 euro
+
+  Party + Workshop: 15 euro
+
+
+  @ the bar: cash & payconiq, Own drinks is not allowed
+
+  🅿️Free parking
+
+  - Noordersingel 17 – 2140 Antwerpen - around the building, ->7 min walk
+
+  - Noordersingel 19 - 2140 Antwerpen ->7 min walk
+
+  - Gamma in Borgerhout (Noordersingel 32, 2140 Antwerpen) ->5 min walk.
+
+  Stay tuned for update
+
+
+  📍Address:
+
+  Casa 32
+
+  Zendelingenstraat 32
+
+  2140 Antwerpen
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1713214848/osjobo0td2fxglcp33pn.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1713638700000+ChIJ1em59XT3w0cRT3iab9Emo64
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F6vvLBvLGa2lEm3bPOVOc.png?generation=1713214890998840&alt=media
+id: 6vvLBvLGa2lEm3bPOVOc

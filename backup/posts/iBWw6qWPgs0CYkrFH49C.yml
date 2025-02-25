@@ -1,0 +1,103 @@
+sourceUrl: https://facebook.com/events/s/salsa-mondays-29-july-party-ni/500324775681687/
+createdAt: 1720622078192
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720622078192
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: 62 Rivington St, London EC2A 3AY, UK
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: The Lighthouse Bar and Club
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.08106413029150204
+        lat: 51.5248488197085
+      northeast:
+        lng: -0.07836616970849797
+        lat: 51.5275467802915
+    location:
+      lng: -0.07992629999999999
+      lat: 51.5261462
+  address_components:
+    - types:
+        - street_number
+      short_name: "62"
+      long_name: "62"
+    - types:
+        - route
+      short_name: Rivington St
+      long_name: Rivington Street
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: EC2A 3AY
+      long_name: EC2A 3AY
+  international_phone_number: +44 20 3325 9739
+  place_id: ChIJIwDQiLocdkgRpAhxDmZg1xs
+  url: https://maps.google.com/?cid=2006178150462064804
+endDate: ""
+claimed: No
+link: ""
+description: Get your Mambo groove on at the place to be on a Monday Night. All
+  the grooviest dancers are there.
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/500324775681687/
+facebookId: "500324775681687"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Salsa Mondays - 29 JULY  Party Nite
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1722281400000+ChIJIwDQiLocdkgRpAhxDmZg1xs
+startDate: 1722281400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720622080/lhi4avq6m6buurx6fsmc.jpg
+org:
+  owner: ""
+  importedAt: 1720622078621
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid04Dhd8gd4aWWXkHtnBiDqWSG8FcCxU6G7UrPHkp4DSQpZWgoPTT4CUcYaTwbjkVETl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720622078/tugkuvdido4ozqsksijf.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1720622078621
+  owned: false
+  name: Tony Crossbody
+  updatedAt: 1720622078621
+  username: tony.crossbody
+id: iBWw6qWPgs0CYkrFH49C

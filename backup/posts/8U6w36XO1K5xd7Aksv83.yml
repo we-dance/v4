@@ -1,0 +1,191 @@
+importedAt: 1707433907638
+providerUpdatedAt:
+  _seconds: 1703203937
+  _nanoseconds: 0
+facebookId: "217980957620927"
+facebook: https://www.facebook.com/events/217980957620927/
+eventType: Concert
+createdAt: 1707433907638
+providerItemId: e217980957620927@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: anBgOWXJuGIEKeqfp7My
+name: Munich goes to 8th World Stars Salsa Festival in Varna/Bulgaria
+location: World Stars Salsa Festival - Albena / Bulgaria
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1707433907638
+username: alexrazbakov
+venue:
+  formatted_address: 9620 Albena, Bulgaria
+  website: http://www.albena.bg/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Summer stage Albena
+  geometry:
+    viewport:
+      southwest:
+        lng: 28.0740555697085
+        lat: 43.3646700197085
+      northeast:
+        lng: 28.0767535302915
+        lat: 43.3673679802915
+    location:
+      lng: 28.0754033
+      lat: 43.36591689999999
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Albena
+      long_name: Albena
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Dobrich
+      long_name: Dobrich
+    - types:
+        - country
+        - political
+      short_name: BG
+      long_name: Bulgaria
+    - types:
+        - postal_code
+      short_name: "9620"
+      long_name: "9620"
+  international_phone_number: +359 88 585 3797
+  place_id: ChIJzyLJ-d39pEARJu_3nehGT8I
+  url: https://maps.google.com/?cid=14001487731414789926
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707433913672
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/florian.msalsa.de
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707433914/qs7mye6wvtqb6mij98tv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707433913672
+  owned: false
+  name: Florian Schreiner
+  place: ChIJ2d34z_ktO4gR96YGaw40SVg
+  updatedAt: 1707433913672
+  username: florian.schreiner
+claimed: No
+link: ""
+description: >-
+  Full-Pass for only 130 Euro for Varna World Stars Salsa Festival on 4 days
+  instead of typical 3 days!
+
+  Incl. Salsa Concert!
+
+  Promo-code: florian.
+
+  5 Euro discount on the Fullpass-Ticket. 
+
+
+  World Stars Salsa Festival in Varna - Bulgaria!
+
+  * Dates: 26  – 30 Apr. 2024
+
+  * Place: Directly at the sandy beach of the famous golden sands beach in Bulgaria
+
+  4 unforgettable days, live concert, glamorous show programmes, hot parties till dawn - All included in the Fullpass
+
+  ██▓▒░░🎼CONCERT🎼▒░▒▓██ :
+
+  ►Calle Vapor (Argentina) / First time in Europe!!!
+
+  ██▓▒░░⭐SALSA⭐▒░▒▓██ :
+
+  ► Ernesto & Denisse (USA)
+
+  ► Karel Flores (USA)
+
+  ► Bersy Cortez (Spain)
+
+  ► Terry & Cecile (France)
+
+  ► Antonio & Jasmina (Italy)
+
+  ► Fadi (Spain)
+
+  ► Yoyo Flow (Cuba)
+
+  ► Alex Toledo (Spain)
+
+  more coming soon...
+
+  ██▓▒░░⭐BACHATA⭐▒░▒▓██ :
+
+  ► Ataca (USA)
+
+  ► Gero & Migle (Spain)
+
+  ► Antoni & Belen (Spain)
+
+  ► Simone & Danila (Italy)
+
+  ► Judit & Toni (Spain)
+
+  ► Farid (France)
+
+  more coming soon...
+
+  ██▓▒░░⭐KIZOMBA⭐▒░▒▓██ :
+
+  ► Azzedine (France)
+
+  ► Dwe & Gaby (Netherlands)
+
+  ► Val’R (France)
+
+  ► Sandra Gutierrez (Spain)
+
+  more coming soon...
+
+  ██▓▒░░🎤 M.C.🎤▒░▒▓██ :
+
+  ►Farid Ferchach (France)
+
+
+  Full-Pass for only 130 Euro for Varna World Stars Salsa Festival
+
+  until 29.02.2024!
+
+  Full-Pass for only 140 Euro for Varna World Stars Salsa Festival
+
+  after 29.02.2024!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707433915/ecv4yqtw7ynaetjsieyv.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ2d34z_ktO4gR96YGaw40SVg
+international: No
+hash: 1714143600000+ChIJzyLJ-d39pEARJu_3nehGT8I
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F8U6w36XO1K5xd7Aksv83.png?generation=1707433929698099&alt=media
+endDate: 1714449600000
+providerCreatedAt: 1683927980000
+startDate: 1714143600000
+viewsCount: 12
+id: 8U6w36XO1K5xd7Aksv83

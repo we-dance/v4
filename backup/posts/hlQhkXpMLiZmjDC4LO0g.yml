@@ -1,0 +1,173 @@
+importedAt: 1708034714194
+providerUpdatedAt: 1706048270000
+endDate: 1708218000000
+facebookId: "1490145591832522"
+facebook: https://www.facebook.com/events/1490145585165856/?event_time_id=1490145591832522
+facebookUrlsList:
+  - https://www.facebook.com/events/1490145585165856/?event_time_id=1490145591832522
+eventType: Party
+createdAt: 1708034714194
+providerItemId: e1490145591832522@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: "Kizomba Prestige Party in Hamburg "
+location: Baladin - die freie Tanzschule in Hamburg
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1702844496000
+startDate: 1708203600000
+facebookUrlsCount: 1
+updatedAt: 1708034714194
+username: Aina
+venue:
+  formatted_address: Stresemannstraße 374, 22761 Hamburg, Germany
+  website: http://www.baladin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Baladin
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.9200372697085
+        lat: 53.5620581697085
+      northeast:
+        lng: 9.922735230291503
+        lat: 53.5647561302915
+    location:
+      lng: 9.921379000000002
+      lat: 53.563275
+  address_components:
+    - types:
+        - street_number
+      short_name: "374"
+      long_name: "374"
+    - types:
+        - route
+      short_name: Stresemannstraße
+      long_name: Stresemannstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altona
+      long_name: Altona
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "22761"
+      long_name: "22761"
+  international_phone_number: +49 40 898908
+  place_id: ChIJA1hjppSFsUcRm3U0rtM6ox0
+  url: https://maps.google.com/?cid=2135615329138931099
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/KizombaPrestigeParty
+  name: Kizomba Prestige Party & Kizomba Night Hamburg
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/405921820_843061997825113_1095627363198738370_n.jpg?stp=cp0_dst-jpg_s40x40&_nc_cat=110&ccb=1-7&_nc_sid=596444&_nc_ohc=FGuG4dvHapwAX9QOq6H&_nc_ht=scontent-atl3-1.xx&oh=00_AfB-C5uYpkbR_RXXMbNGcJrd9pPnQzPzem-Mdq1Om2NxdA&oe=65A4BB98
+  bio: ""
+  id: jksxonkd0cTySYvyMBZv
+  instagram: ""
+  username: KizombaPrestigeParty
+claimed: No
+link: https://www.kizomba-tanzen.hamburg/kizomba-partys
+description: >-
+  🍀🎉Kizomba Prestige Party in Hamburg🍀🎉
+
+
+  🔴 Datum: 17.02.2024
+
+  🔴 Partybeginn: 22 Uhr
+
+  🔴 Eintritt: 
+        > bis 23 Uhr: 7 EUR
+        > ab 23 Uhr: 10 EUR
+
+  🎼 Musik: Kizomba / Urban-Kiz / Semba / Afrobeats mit DJ " Big G."
+
+
+  🏰 Location: TANZSCHULE BALADIN
+
+  Stresemannstr. 374B, 22769 Hamburg
+
+
+  👗👔 Dresscode: elegant und schick 👗👔 
+
+
+  Es ist die Party mit der ganz besonderen Atmosphäre wie ihr sie nicht jede Woche habt! Der DJ sorgt mit viel feinem Gespür für gute Musik und für die richtige Musikmischung. Ausgewogen für jeden Geschmack ist etwas dabei: Kizomba, Urban-Kiz, Semba, und Afrobeats.
+
+
+  ☑️Einzigartig gemütlich
+
+  ☑️Großer Tanzsaal
+
+  ☑️Klasse Tanzparkett
+
+  ☑️Kerzenschein & Knabberkram
+
+  ☑️Viele Sitzgelegenheiten
+
+
+  👍 Die Geburtsstunde der Party war am 31.12.2018. Corona hat dann leider eine Pause eingeläutet. 👍Nun ist DIE angesagte Kizomba-Party wieder zurück. 
+
+  👍Und Sie wird bald wieder kaum noch wegzudenken sein aus Hamburg! 👍Sei dabei👍
+
+
+  Unsere Website: https://www.kizomba-tanzen.hamburg/kizomba-partys
+
+
+  #diaodance
+
+  #kizombahamburg
+
+  #kizombatanzenhamburg
+
+  #kizombaprestigeparty
+
+  #kizomba #urbankiz #semba #afrobeats
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708034731/st4e4kjnddk0nuy7u4br.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1708203600000+ChIJA1hjppSFsUcRm3U0rtM6ox0
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FhlQhkXpMLiZmjDC4LO0g.png?generation=1708034750625649&alt=media
+viewsCount: 4
+id: hlQhkXpMLiZmjDC4LO0g

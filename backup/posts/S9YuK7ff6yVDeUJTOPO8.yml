@@ -1,0 +1,148 @@
+createdAt: 1704822897225
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/733205692001816/
+source: facebook
+updatedAt: 1704822897225
+username: wedancebot
+venue:
+  formatted_address: Kehrwieder 5, 20457 Hamburg, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Kehrwieder 5
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.986681119708498
+        lat: 53.5425072197085
+      northeast:
+        lng: 9.989379080291501
+        lat: 53.5452051802915
+    location:
+      lng: 9.9880306
+      lat: 53.5438543
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Kehrwieder
+      long_name: Kehrwieder
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Hamburg-Mitte
+      long_name: Hamburg-Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Hamburg
+      long_name: Hamburg
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: HH
+      long_name: Hamburg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "20457"
+      long_name: "20457"
+  place_id: ChIJFwjJFASPsUcRkY0RQ9sE9r8
+  url: https://maps.google.com/?q=Kehrwieder+5,+20457+Hamburg,+Germany&ftid=0x47b18f0414c90817:0xbff604db43118d91
+visibility: Public
+endDate: 1727640000000
+org:
+  owner: ""
+  importedAt: 1704822899827
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/bachatafestivalhh
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/280873163_3238146273063882_8132463960039644513_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=105&ccb=1-7&_nc_sid=596444&_nc_ohc=j9MfH_QvFVkAX92BTtC&_nc_ht=scontent-atl3-2.xx&oh=00_AfAG8ivBjeWtsaWa10Ea9rZH10yznsBKe0IS1CggXoUwTg&oe=65A32698
+  source: facebook
+  type: Organiser
+  createdAt: 1704822899827
+  owned: false
+  name: Bachata Festival Hamburg
+  place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  updatedAt: 1704822899827
+  username: bachatafestivalhh
+claimed: No
+facebookId: "733205692001816"
+link: https://www.bachatafestivalhamburg.de/tickets
+description: >-
+  Exclusive - Outstanding - Unique
+
+
+  Visit your favorite festival in Hamburg, right by the harbor. Enjoy a familial atmosphere, fantastic dancers and outstanding artists. Expand your knowledge and share your passion with a wonderful community. To ensure a high-quality event, tickets are limited.
+
+
+  LineUp:
+
+  Junior & Carolina
+
+  Kiko & Christina
+
+  Bachata Passion
+
+  Issam & Charlott
+
+  Sergio & Carla
+
+  Roberto & Magdalena
+
+  Denis & Mariana
+
+
+  DJs:
+
+  DJ Chami
+
+  DJ Dani
+
+  Djane Kati 
+
+
+  Photographer:
+
+  ZUMBS, Jose Ramos 
+
+
+
+  and more to be confirmed...
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 4th Bachata Festival Hamburg 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+international: No
+hash: 1727463600000+ChIJFwjJFASPsUcRkY0RQ9sE9r8
+startDate: 1727463600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FS9YuK7ff6yVDeUJTOPO8.png?generation=1704822913689916&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853213/q1pfmym3y3q04o7zfw2j.jpg
+viewsCount: 36
+id: S9YuK7ff6yVDeUJTOPO8

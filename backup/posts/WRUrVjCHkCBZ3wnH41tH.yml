@@ -1,0 +1,152 @@
+importedAt: 1707854182819
+providerUpdatedAt: 1707680939000
+endDate: 1749488400000
+facebookId: "1152474816204883"
+facebook: https://www.facebook.com/events/1152474816204883/
+facebookUrlsList:
+  - https://www.facebook.com/events/1152474816204883/
+eventType: Party
+createdAt: 1707854182819
+providerItemId: e1152474816204883@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: te5o6z1Subn2jDFbMi9r
+name: KizombaInvasion Stuttgart
+location: Stuttgart
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Douceur:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1707479513000
+startDate: 1749232800000
+facebookUrlsCount: 1
+updatedAt: 1707854182819
+username: alexrazbakov
+venue:
+  formatted_address: 70 Stuttgart, Germany
+  website: http://www.stuttgart.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Stuttgart
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.03860531551151
+        lat: 48.69201873737177
+      northeast:
+        lng: 9.315825130826587
+        lat: 48.8663994401746
+    location:
+      lng: 9.1829321
+      lat: 48.7758459
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Stuttgart
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Stuttgart
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Süd
+      long_name: Stuttgart
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code_prefix
+        - postal_code
+      short_name: "70"
+      long_name: "70"
+  place_id: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+  url: https://maps.google.com/?q=70+Stuttgart,+Germany&ftid=0x4799db34c1ad8fd3:0x79d5c11c7791cfe4
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/KizombaInvastionStuttgart
+  name: KizombaInvasion Stuttgart
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707431989/axgwbdo10diny3fyonax.jpg
+  bio: ""
+  id: XcjIUjejudPLr21LoQRm
+  instagram: ""
+  username: kizombainvasion.stuttgart
+claimed: No
+link: https://www.eventbrite.de/e/kizombainvasion-8-edition-in-stuttgart-tickets-830333067557?aff=oddtdtcreator
+description: |-
+  ❤ KizombaInvasion 8. Edition in Stuttgart❤
+  ✨CHAMPAGNE – EDITION V ✨
+  June 06-07-08-09, 2025
+  ⚫ 3 free dance floors
+  ⚫ More than 25h workshops (UrbanKiz, Kizomba and Afro)
+  ⚫ 3 amazing parties and Social (Saturday, Sunday and Monday)
+  ═════ CONFIRMED DJs 2025 (Stay tuned) ═════
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ═════ CONFIRMED ARTISTS 2025 (Stay tuned) ═════
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ✔ 
+  ═════ OFFCIAL PHOTOGRAPHERS (Stay tuned)═════
+  ✔ 
+  ✔ 
+  ═════════ PROGRAM ═════════
+  ⚫ Friday: Passes pick up + workshops + GALA NIGHT FRIDAY
+  ⚫ Saturday: Workshops + social dance + GALA NIGHT SATURDAY
+  ⚫ Sunday: Workshops + social dance + CLOSING PARTY
+  ⚫ Monday: Social Dance from 12 p.m. to 7 p.m
+  Room 1 : 100% Urbankiz
+  Room 2 : 100% Kizomba / Semba / Afro-House
+  Room 3 : 100% Douceur
+  DRESSCODE :
+  ★★★★MORE DETAILS COMING SOON...★★★★
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707854187/oq6qs0t8cc1bton6btva.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+international: No
+hash: 1749232800000+ChIJ04-twTTbmUcR5M-RdxzB1Xk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWRUrVjCHkCBZ3wnH41tH.png?generation=1707854202244136&alt=media
+viewsCount: 15
+id: WRUrVjCHkCBZ3wnH41tH

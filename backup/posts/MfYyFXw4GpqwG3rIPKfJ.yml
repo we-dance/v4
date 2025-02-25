@@ -1,0 +1,119 @@
+venue:
+  formatted_address: Çiftlik, 202 Manolya Sk No:4/2, 48300 Fethiye/Muğla, Türkiye
+  website: http://www.libertyfabay.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Liberty Fabay
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 29.0800369302915
+      south: 36.68193266970849
+      north: 36.68463063029149
+      west: 29.0773389697085
+    location:
+      lng: 29.078556
+      lat: 36.6830825
+  address_components:
+    - types:
+        - street_number
+      short_name: No:4/2
+      long_name: No:4/2
+    - types:
+        - route
+      short_name: 202 Manolya Sk
+      long_name: 202 Manolya Sk
+    - types:
+        - administrative_area_level_4
+        - political
+      short_name: Çiftlik
+      long_name: Çiftlik
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Fethiye
+      long_name: Fethiye
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Muğla
+      long_name: Muğla
+    - types:
+        - country
+        - political
+      short_name: TR
+      long_name: Türkiye
+    - types:
+        - postal_code
+      short_name: "48300"
+      long_name: "48300"
+  international_phone_number: +90 252 623 99 38
+  place_id: ChIJaQyY76RAwBQRxfQlzq0gqjQ
+  url: https://maps.google.com/?cid=3794881566873089221
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/kizomba_festival
+  username: kizomba_festival
+claimed: No
+program: []
+eventType: Festival
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F1b0e34e6-f813-43e3-aafd-ac0fbb0f4dfa?alt=media&token=013ab2fd-e3a5-4860-847a-31c940d187ae
+createdAt: 1689632337728
+form: No
+artists: []
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+price: 495 - 1000 EUR
+name: Vip Bachakizz Dance Festival
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList: []
+international: Yes
+updatedAt: 1689632337728
+username: IvanaSoldat
+description: |-
+  Dance, Holiday, Adventure
+  Get out of your limits !
+  2023 October 18-26, Fethiye / Turkey
+  9 days 8 nights
+  Ultra all inclusive plus luxury hotel
+  Venue: Liberty Fabay
+  Kizomba, Bachata, Salsa
+  8 nights parties & 5 days workshops,
+  Vip The Battle Kizz
+  🔵 Shows
+  🟢 8 nights parties & 5 days workshops,
+  🟤 Vip @thebattlekizz by Said Dstreet
+  🟣 Bachata Concert by ESME
+  🔴 Crazy Boat Party
+  🟠 Vip Games
+  🟡 Jeep Safari
+  ⛵🛺 🌊
+  October 18 > Welcome Beach Party
+  October 19 > Crazy Boat Party (Extra Charge)
+  October 20, 21, 22, 23 & 25 workshops
+  October 24 > Jeep Safari, Zipline,
+  Waterfall, Ringo Rafting, Saklıkent (Hidden city) (Extra Charge)
+id: MfYyFXw4GpqwG3rIPKfJ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMfYyFXw4GpqwG3rIPKfJ.png?generation=1689632412579911&alt=media
+endDate: 2023-10-26T23:30
+place: ChIJO7G2DZtDwBQR13BPJAQHFYc
+startDate: 2023-10-18T00:00
+viewsCount: 54

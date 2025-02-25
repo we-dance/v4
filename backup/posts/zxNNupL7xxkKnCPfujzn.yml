@@ -1,0 +1,172 @@
+venue:
+  formatted_address: Paris, France
+  website: http://www.paris.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Paris
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 2.469850925555473
+      south: 48.81556220872687
+      north: 48.90214747577797
+      west: 2.224219054341255
+    location:
+      lng: 2.3522219
+      lat: 48.856614
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Paris
+      long_name: Paris
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+  place_id: ChIJD7fiBh9u5kcRYJSMaMOCCwQ
+  url: https://maps.google.com/?q=Paris,+France&ftid=0x47e66e1f06e2b70f:0x40b82c3688c9460
+endDate: 2023-04-30T02:00
+claimed: No
+description: >-
+  #bachamia ta soirée à l'ambiance chaleureuse et incomparable revient samedi à
+  Sensation Dance School
+
+  ___ 🕺 Bachamia 💃 ____
+
+  avec :
+
+  - des cours de qualité pour t'initier ou te perfectionner à la bachata
+
+  - les meilleurs DJ réunis
+
+  - une seule adresse à Paris intra-muros, facile d'accès et très bien desservie
+
+  - deux salles dotées de splendide parquet idéal pour danser
+
+  - un vestiaire sécurisé
+
+  - une clim rafraîchissante, de puissants et nombreux ventilos couplés à un purificateur d'air efficace
+
+  - des boissons douces et des grignotages à volonté
+
+  - une école de danse en constante amélioration pour ton grand plus grand plaisir et confort
+
+  - une très bonne ambiance
+
+  - de la bachata bachata bachata
+
+  Et TOI bien sûr 😉
+
+  ____ 📅 au Programme 📅 ____
+
+  samedi, avec :
+
+  🍹 Luis et Sophie
+
+  🍹 Wood et Lau
+
+  🍹 DJ Taga'da
+
+  __ De 20h00 à 02h00 BACHAMIA
+
+  ✅ 20h00 à 21h00
+
+  Cours Bachata débutant confirmé avec Luis et Sophie, salle du RDC
+
+  ✅ 20h00 à 21h00
+
+  Cours Bachata initiation avec Wood et Lau, salle du bas
+
+  ✅ 21h00 à 22h00
+
+  Cours Bachata inter avec Luis et Sophie, salle du RDC
+
+  ✅ 21h00 à 22h00
+
+  Cours Bachata débutant avec Wood et Lau, salle du bas
+
+  ✅ 22h00 à 2h00
+
+  DJ Taga'da, 2 salles, même ambiance bachata 😉
+
+  ____ 📷 photo 📷 ____
+
+  Habille-toi de ton plus beau sourire
+
+  ____ 🏚 Lieu 🏚 ____
+
+  Sensation Dance School
+
+  (anciennement Intensive Danse)
+
+  105 rue de Tolbiac
+
+  au milieu de l'esplanade
+
+  Paris 75013
+
+  ____ 💲Tarifs💲____
+
+  Soirée Bachamia: Grignotage + softs à volonté
+
+  entrée + vestiaire + cours + soirée : 14€
+
+  entrée + cours + soirée : 12€
+
+  Règlement sur place, espèce et CB acceptées
+
+  Les entrées sont limitées. La direction se réserve le droit d'admission.
+
+  ____ 🔎 Renseignements 🔍____
+
+  Mail : bachamia.contact@gmail.com
+
+  Facebook : https://www.facebook.com/bachataparis
+
+  Instagram : @bachamia_paris
+
+  Tel : 07 67 06 10 22 / Ingrid, Directrice Sensation Dance School
+program: []
+type: event
+duration: 60
+cover: ""
+createdAt: 1681288819070
+artists: []
+price: 12 EUR
+artistsList: []
+place: ChIJw3Bjhzc4qhIRHScGZUDcCDE
+international: ""
+updatedAt: 1681288819070
+updatedBy: izNGE3Y3EFWaEcwvLr4te8S1I4G2
+visibility: Public
+org: {}
+facebook: https://fb.me/e/2xUp1B31O
+eventType: Party
+form: No
+createdBy: izNGE3Y3EFWaEcwvLr4te8S1I4G2
+watch:
+  count: 1
+  list:
+    DJTagaDa: true
+name: Bachamia Résurrection - Luis et Sophie - Wood et Lau - DJ Taga'da
+online: ""
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-29T20:00
+username: DJTagaDa
+viewsCount: 2
+id: zxNNupL7xxkKnCPfujzn

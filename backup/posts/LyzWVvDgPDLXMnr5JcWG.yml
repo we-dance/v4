@@ -1,0 +1,191 @@
+venue:
+  website: https://www.backstage.info/
+  formatted_address: Reitknechtstraße 6, 80639 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "6"
+      short_name: "6"
+    - types:
+        - route
+      long_name: Reitknechtstraße
+      short_name: Reitknechtstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Neuhausen-Nymphenburg
+      short_name: Neuhausen-Nymphenburg
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80639"
+      short_name: "80639"
+  url: https://maps.google.com/?cid=16852117116677877124
+  name: Backstage Kulturzentrum / Corona Test Zentrum München West
+  geometry:
+    viewport:
+      south: 48.1438374697085
+      north: 48.1465354302915
+      east: 11.5241194302915
+      west: 11.5214214697085
+    location:
+      lng: 11.5227887
+      lat: 48.1451178
+  international_phone_number: +49 89 12661099
+  place_id: ChIJ0Ssq9yN2nkcRhG3dNDu_3uk
+endDate: 2021-10-30T03:00:00.000Z
+organisedBy: ""
+claimed: No
+link: https://bit.ly/3lXxWyG
+description: >-
+  Wir feiern am Freitag den 29.10.21 die schaurigste LATINO HALLOWEEN PARTY der
+  Stadt, in den verlassenen Katakomben des Backstage. 🕷 👻 👹 Sei dabei und
+  erlebe eine fürchterlich spaßige Nacht mit uns.  
+
+  Alle, die in gruseligen Halloween Outfits kommen, bekommen bis Mitternacht eine kleine Überraschung!
+
+
+  DETAILS:
+
+  Wann 📆: Freitag, 29.10.2021 ab 23 Uhr
+
+
+  Location📍: Backstage Halle - Reitknechtstraße 6 
+
+  2 Gehminuten von der S Bahn Haltestelle Hirschgarten entfernt
+
+
+  DJs 🎧: YENNY & TORI SEGURA
+
+
+  Music: REGGAETON 🦇 SALSA 🦇 MERENGUE🦇 BACHATA 🦇 POP LATINO & mehr LATINO HITS!
+
+
+  EINTRITT: 12 €
+
+
+  Vorverkauf / Preventa de entradas a traves de este enlace: https://bit.ly/3lXxWyG
+
+
+  Vamos!
+
+
+  🎃 🧟 🍷 🧟 🎃 🎃 🧟 🍷 🧟 🎃
+
+
+  Für Bilder, Videos & zukünftige Einladungen:
+
+  LatinScene Munich liken:
+
+  www.facebook.com/latinscene.munich/
+
+
+  Latin Scene Munich Gruppe beitreten:
+
+  https://www.facebook.com/groups/latinscene.munich/
+
+
+  Únete a nuestras redes sociales:
+   INSTAGRAM  
+  @latinscene_munich
+
+  @dj.yenny
+
+  @tori.seg
+
+  Dale Me Gusta: "Latin Scene Munich"
+
+  https://www.facebook.com/latinscene.munich/
+
+
+  🎃 🧟 🍷 🧟 🎃 🎃 🧟 🍷 🧟 🎃
+
+
+  🚫 Wir müssen uns an die geltenden 3G+ Regeln halten:
+
+  - Bitte zeigen Sie beim Check-in unaufgefordert Ihren Ausweis vor
+
+  - Bitte halten Sie einen 3G-Nachweis bereit - digitale Impfbescheinigung, digitale Genesungsbescheinigung oder Ihren gültigen PCR-Test
+
+  - Online Check-in - Bitte checken Sie für Ihren Besuch bei uns online ein
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2Fe3d10bcb-6ba1-4534-b9c8-a101551f2b88?alt=media&token=e1f252c2-1db9-4d64-a5ba-b2ea63db7ec2
+createdAt: 1635101866028
+watchersCount: 0
+price: 12 EUR
+commentsLast: ~
+promoter: Vitali
+promotedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: LyzWVvDgPDLXMnr5JcWG
+international: No
+views: 12
+updatedAt: 1635101866028
+website: ""
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+facebook: https://facebook.com/events/s/reggaeton-x-halloween-backstag/579694193181954/
+eventType: Party
+organiser: ""
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Raggeton and Salsa @ Backstage
+online: No
+styles:
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-29T21:00:00.000Z
+username: Vitali
+viewsCount: 25

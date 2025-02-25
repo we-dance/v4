@@ -1,0 +1,145 @@
+venue:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  website: http://www.maillingerstudios.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Maillinger Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5473257802915
+      south: 48.1478957697085
+      north: 48.1505937302915
+      west: 11.5446278197085
+    location:
+      lng: 11.5458639
+      lat: 48.1492179
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  place_id: ChIJc2-q5aJ3nkcRNdDDt759ZMA
+  international_phone_number: +49 89 36108944
+  url: https://maps.google.com/?cid=13863343811033550901
+endDate: 2023-01-10T21:30
+claimed: No
+link: https://www.annamilite.com/book-online
+program: []
+type: event
+downVotes: 0
+duration: 60
+promo: Yes
+createdAt: 1671703856671
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    instagram: https://instagram.com/milite_anna
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    username: AnnaMil
+price: 10 EUR
+artistsList:
+  - AnnaMil
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1671703633438
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+upVotes: 0
+eventType: Course
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+commentsCount: 0
+online: No
+votes: 0
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-01-10T20:30
+username: AnnaMil
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F32d162ff-8e5a-4552-b4a8-0cfc4f7cbaf0?alt=media&token=da1fc4ea-dddd-4d65-9f64-82eb7910042d
+name: Bachata PartnerWork Classes
+description: >-
+  Bachata Partnerwork Classes
+
+
+  Here we go through different Basics, Turns, Connections as well as Leading / Following ! Start January 10th
+id: 4c9KVAedOzjgc58Gyn5T
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F4c9KVAedOzjgc58Gyn5T.png?generation=1673181657656765&alt=media
+telegram:
+  requestedAt: 1673181663719
+  messageUrl: https://t.me/WeDanceMunich/775
+  publishedAt: 1673181665274
+  messageId: 775
+  state: published
+instagram:
+  requestedAt: 1673181675523
+  messageUrl: https://instagram.com/p/CnJ5Cw2uoIB
+  publishedAt: 1673181691019
+  messageId: CnJ5Cw2uoIB
+  state: published
+viewsCount: 64

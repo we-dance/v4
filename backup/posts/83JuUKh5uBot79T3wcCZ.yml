@@ -1,0 +1,31 @@
+facebookUrlsList: []
+isNew: true
+facebookId: ""
+facebookUrlsCount: 0
+provider: ical
+createdAt: 1729951225261
+updatedAt: 1729951225261
+importedAt: 1729951225261
+providerId: prtkn3bWcsTw1unDTbtt
+providerItemId: clh36e1j75ij4bb470sj6b9k70rj8bb16gqjcb9j64q6ae9l6hhjcdpn60@google.com
+name: Zouk Weekender with Diego&Thieli
+description: ""
+providerCreatedAt: 1729950618000
+providerUpdatedAt: 1729950664000
+startDate: 1732906800000
+endDate: 1733068800000
+facebook: ""
+sourceUrl: ""
+location: Moove Academy, Pelkovenstraße 143, 80992 München, Deutschland
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+type: event
+username: Thomas
+createdBy: G008dEeTZJcXLBzzL2krS0Ynumu2
+viewsCount: 1
+id: 83JuUKh5uBot79T3wcCZ

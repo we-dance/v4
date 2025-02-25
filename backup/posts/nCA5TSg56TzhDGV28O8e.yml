@@ -1,0 +1,202 @@
+venue:
+  formatted_address: Marsstraße 40, 80335 München, Germany
+  website: http://www.mi-ballet-school.de
+  name: Munich International Ballet School e.K. Ballettschule
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5566284302915
+      south: 48.1430374697085
+      north: 48.1457354302915
+      west: 11.5539304697085
+    location:
+      lng: 11.5553286
+      lat: 48.1444521
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Marsstraße
+      long_name: Marsstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55088955
+  url: https://maps.google.com/?cid=8599569622473075591
+  place_id: ChIJNzLd-Px1nkcRh2u_WALPV3c
+endDate: 1699477200000
+claimed: No
+link: https://forms.gle/TR8qWxH4gCFLdXoT8
+program:
+  - endDate: 2023-10-11T21:00
+    artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: Aly Salman
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fa1y9uTQtbrSnpZaBwQ6BixXgeSB2%2Ff0c66bcd-66d1-4f7d-9e50-bfc1ab2943c8?alt=media&token=25675c34-6292-4127-8e68-6a33162f4f01
+        bio: to Dance is to Live
+        id: a1y9uTQtbrSnpZaBwQ6BixXgeSB2
+        instagram: https://www.instagram.com/_salman.alii_
+        username: AlySalman
+    name: Bachata Sensual Beginner/ Improver Course
+    description: >-
+      The basic level is perfect for new dancers. You will learn how to lead and
+      follow in a fun and at the same time professional atmosphere.
+
+
+      It is a comprehensive course teaching you the basics of Bachata Sensual and be able to feel comfortable dancing socially. Each lesson will teach you a new pattern that you can now take out to the dance floor. This course is a MUST TAKE if you don’t want to be that guy/girl standing on the sidelines while all your friends and coworkers are up dancing having fun.
+
+
+      Time to get out there and own the dance floor!
+
+
+      Also, if you are unsure of any of the fundamental techniques, just want more practice or refresh your bachata skills, we recommend this course.
+    eventType: Course
+    startDate: 2023-10-11T20:00
+  - artists:
+      - youtube: ""
+        tiktok: ""
+        facebook: ""
+        name: Aly Salman
+        bio: to Dance is to Live
+        photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fa1y9uTQtbrSnpZaBwQ6BixXgeSB2%2Ff0c66bcd-66d1-4f7d-9e50-bfc1ab2943c8?alt=media&token=25675c34-6292-4127-8e68-6a33162f4f01
+        instagram: https://www.instagram.com/_salman.alii_
+        id: a1y9uTQtbrSnpZaBwQ6BixXgeSB2
+        username: AlySalman
+    endDate: 2023-10-11T22:00
+    name: Bachata Sensual Intermediate Course
+    description: >-
+      Our Bachata Sensual (intermediate) course is build on what you learned on
+      the Bachata Sensual Beginner Course and covers all essential techniques,
+      cool new moves, and following tips to get you dancing better and really
+      enjoying the experience on the dance floor.
+
+
+      During this course you will discover that dancing is more than a movement – it’s a passion and love for music and your body is an instrument to express it.
+    eventType: Course
+    startDate: 2023-10-11T21:00
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGgOplXgNX1PA5LRyB7QJbW13fHt2%2Fc328535f-478b-4eae-af6b-fed0c91e2478?alt=media&token=902b28ef-ac24-4fe1-aa8f-72ee7d522c9f
+duration: 60
+createdAt: 1698303139777
+review: ""
+price: 15 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: ""
+paypal: ali.s_lb@hotmail.com
+updatedBy: GgOplXgNX1PA5LRyB7QJbW13fHt2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/profile.php?id=100082222737215
+  name: Dalidance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGgOplXgNX1PA5LRyB7QJbW13fHt2%2Fd5951196-b675-4669-b6b3-030a81c7a8cb?alt=media&token=1b20e2eb-75d5-49dc-b98d-9f9c0af8fc3b
+  bio: let's learn Bachata together in Munich
+  instagram: https://instagram.com/aliydanai_dali
+  id: GgOplXgNX1PA5LRyB7QJbW13fHt2
+  username: DaliDance
+upVotes: 0
+eventType: Course
+form: No
+createdBy: GgOplXgNX1PA5LRyB7QJbW13fHt2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Bachata Sensual Wednesday with Dali Dance
+online: ""
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 1699470000000
+username: DaliDance
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FnCA5TSg56TzhDGV28O8e.png?generation=1698429486344361&alt=media
+telegram:
+  messageUrl: https://t.me/WeDanceMunich/1209
+  publishedAt: 1698429513158
+  messageId: 1209
+  state: published
+instagram:
+  messageUrl: https://instagram.com/p/Cy6VcDFJvxL
+  publishedAt: 1698429513158
+  messageId: Cy6VcDFJvxL
+  state: published
+promotion: completed
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Aly Salman
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fa1y9uTQtbrSnpZaBwQ6BixXgeSB2%2Ff0c66bcd-66d1-4f7d-9e50-bfc1ab2943c8?alt=media&token=25675c34-6292-4127-8e68-6a33162f4f01
+    bio: to Dance is to Live
+    instagram: https://www.instagram.com/_salman.alii_
+    id: a1y9uTQtbrSnpZaBwQ6BixXgeSB2
+    username: AlySalman
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: danai.romina
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FIHbxfqi6WYO2LmjwlRZTZOxBnau1%2F68c48b26-d42d-45db-abf4-94c825565fcd?alt=media&token=5e002048-d8ea-4c6a-b5e1-5850664bdd4c
+    bio: ""
+    id: IHbxfqi6WYO2LmjwlRZTZOxBnau1
+    instagram: ""
+    username: danai.romina
+artistsList:
+  - AlySalman
+  - danai.romina
+id: nCA5TSg56TzhDGV28O8e
+updatedAt: 1699364461628
+viewsCount: 42

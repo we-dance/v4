@@ -1,0 +1,29 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1624520109019
+createdBy: IFEBAJDOA1VM17XR66z8jpEv4IF2
+name: prafull23
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+pwaUsed: false
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+updatedAt: 1624520141693
+locales:
+  de: true
+  en: true
+teacher: No
+gender: Male
+partner: Yes
+jobs: bachata , salsa
+username: prafull
+lastLoginAt: 1629098947133
+daysUsed: 4
+id: IFEBAJDOA1VM17XR66z8jpEv4IF2

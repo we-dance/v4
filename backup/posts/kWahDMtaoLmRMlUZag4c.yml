@@ -1,0 +1,162 @@
+endDate: 1709942400000
+sourceUrl: https://www.facebook.com/events/135363506339078
+createdAt: 1709765512999
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1709110289000
+updatedAt: 1709765512999
+importedAt: 1709765512999
+providerUpdatedAt: 1709110289000
+facebookId: "135363506339078"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/135363506339078
+eventType: Party
+providerItemId: 10008509-1709856000-1709942399@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Széchenyi Kertvendéglő, Állatkerti Krt. 9 - 11., Budapest, 1146, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1709856000000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Állatkerti krt. 11, 1146 Hungary
+  website: http://www.szechenyietterem.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Széchenyi Garden Restaurant
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0821968197085
+        lat: 47.5176586197085
+      northeast:
+        lng: 19.0848947802915
+        lat: 47.5203565802915
+    location:
+      lng: 19.0834628
+      lat: 47.518943
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Állatkerti krt.
+      long_name: Állatkerti körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1146"
+      long_name: "1146"
+  international_phone_number: +36 30 906 1294
+  place_id: ChIJ2bya1YXbQUcRYqJkNkaxYmk
+  url: https://maps.google.com/?cid=7593826836818469474
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1709765529476
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/DjAthosHU
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765529/vmayamsdraokwa24bpg4.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1709765529476
+  owned: false
+  name: Attila Kecskés
+  place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+  updatedAt: 1709765529476
+  username: DjAthosHU
+claimed: No
+facebook: https://www.facebook.com/events/135363506339078/
+link: ""
+description: >-
+  						     
+    SALSA de MAGIA  Nőnapi Party 2024.03.08.
+
+  		
+  A főváros zöld szívében a Városligetben Salsa de Magia Nőnapi Party 2024.03.08. a legjobb latin zenékkel minden salsa rajongónak.  
+
+  Tánciskolától és tudásszinttől függetlenül szeretettel várunk.!!!
+
+
+  Budapest legjobban táncolható latin zenéi mindig az aktuális közönségre szabva.
+
+  Amire számíthatsz:
+      • igényesen válogatott minőségi zenék
+      • minden órában sok-sok hölgyválasz 
+      • vezetett ruedák
+      • egy teremben a legkedveltebb stílusok
+  Nagy többségben salsa zenék szólnak majd: 
+
+  - tradicionális kubai salsák
+
+  -  átütő timbák
+
+  - ritmusos guaguanco-k
+
+  - dallamos son-ok
+
+  - vérpezsdítő salsatone-ok
+            Színesítik a programot:
+                            - érzéki bachata-k
+  - könnyed cha-cha-cha-k
+
+  - vidám merengue-k
+  		     - szexys kizombák
+
+  Egy biztos, keveset fogsz ülni és sokat fogsz táncolni, mert a jó buli lelke a jó zene. Az eseményen kép és hangfelvétel készülhet amihez hozzájárulsz a belépő megvásárlásával.
+
+  Program: 
+   		20 :45 -         Kapunyitás
+         
+                      21.00 - 01.00  Buli
+
+  Belépő:    3000 Ft/fő    A belépőt csak készpénzzel tudod fizetni!
+
+  Helyszín: Széchenyi Kertvendéglő
+  	       1146 Budapest, Állatkert krt. 9-11.
+  Média támogatónk: Latinfo.hu
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1709765531/hcyimrtxphj4tm8c04ru.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Salsa de Magia Nőnapi Party 2024.03.08.
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1709927100000+ChIJ2bya1YXbQUcRYqJkNkaxYmk
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkWahDMtaoLmRMlUZag4c.png?generation=1709765551504248&alt=media
+id: kWahDMtaoLmRMlUZag4c

@@ -1,0 +1,134 @@
+venue:
+  formatted_address: Nollendorfstraße 11, 10777 Berlin, Germany
+  website: http://vivacetanz.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Vivace Tanzstudio
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3541005802915
+      south: 52.49672786970851
+      north: 52.49942583029151
+      west: 13.3514026197085
+    location:
+      lng: 13.3526961
+      lat: 52.4981911
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Nollendorfstraße
+      long_name: Nollendorfstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Tempelhof-Schöneberg
+      long_name: Bezirk Tempelhof-Schöneberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10777"
+      long_name: "10777"
+  place_id: ChIJUzNBV05QqEcRCVbkq8Jk6l4
+  url: https://maps.google.com/?cid=6839389771385820681
+  international_phone_number: +49 30 21750450
+endDate:
+  _seconds: 1659637800
+  _nanoseconds: 0
+claimed: No
+link: https://la-candela-salsa.de/salsa-beginner-course/
+description: >-
+  Come and learn the famous Cuban dance – Salsa!
+
+
+  La Candela is excited to invite you to take Salsa Classes with us. the Beginner level course, where you could be a salsa dancer within 8 weeks. The objective of the course is to bring you to a comfort level so you could dance to the beats of salsa with a partner or in one of the many Latin clubs in Berlin.
+
+
+  The course concentrates on Cuban Salsa, the original famous dance. We will learn the basic technique of the couple dance, which will provide you both the skills to start dancing and a solid foundation to continue and become a great Salsa dancer.
+
+
+  The course includes 8 lessons, each lesson 90 minutes. There is no need to come with your own partner, we try to start the course with a matching amount of men and women.
+
+
+  Our courses are led by professionally trained & certified Salsa teachers. We have the structure and methodology to allow each and every person to dance, even if you think you have two left legs 😉
+
+  Throughout the course, we are likely to go out together dancing (if it will be possible) to get to know the course participants and practice the dance in Berlin’s ballrooms.
+type: event
+duration: 60
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2Fe05f86d2-80f2-4391-b595-093331b884e2?alt=media&token=4250ffb1-92d3-49ab-ad47-055b38d5eef2
+createdAt: 1657103673919
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/la.candela.salsa.school/
+    name: Ido Flaishon
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+    bio: >-
+      Salsa & Cuban dances teacher.
+
+      La Candela School head in Berlin.
+
+      Creator of the Salsayo.com project - Cuban moves international encyclopedia.
+    instagram: https://www.instagram.com/la.candela.salsa/
+    id: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+    username: idofle
+price: 120-140 EUR
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+artistsList:
+  - idofle
+international: No
+updatedAt: 1657103673919
+updatedBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+visibility: Public
+org:
+  role: organiser
+  name: Ido Flaishon
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOUsK4NR6vOhXmS7sV7Opsgn1ZC03%2F8f0565e8-acd5-419b-8962-5e67e9dcb654?alt=media&token=37a2f5e4-0a0b-4cf4-9500-dd5d53da084c
+  username: idofle
+eventType: Course
+form: No
+watch:
+  count: 1
+  list:
+    idofle: true
+createdBy: OUsK4NR6vOhXmS7sV7Opsgn1ZC03
+name: Salsa Beginners Course
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-08-04T19:30
+username: idofle
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fi4CaWaxxmKVUXMmEbAFR.png?generation=1657104789566650&alt=media
+viewsCount: 11
+id: i4CaWaxxmKVUXMmEbAFR

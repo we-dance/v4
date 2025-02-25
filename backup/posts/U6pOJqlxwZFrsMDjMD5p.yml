@@ -1,0 +1,204 @@
+venue:
+  formatted_address: Münchner Str. 87b, 85221 Dachau, Germany
+  website: https://dachau.meet-and-dance.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: meet & DANCE - Die Tanzschule GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4490632802915
+      south: 48.2429800697085
+      north: 48.2456780302915
+      west: 11.4463653197085
+    location:
+      lng: 11.4478376
+      lat: 48.2442085
+  address_components:
+    - types:
+        - street_number
+      short_name: 87b
+      long_name: 87b
+    - types:
+        - route
+      short_name: Münchner Str.
+      long_name: Münchner Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Oberaugustenfeld
+      long_name: Oberaugustenfeld
+    - types:
+        - locality
+        - political
+      short_name: Dachau
+      long_name: Dachau
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: DAH
+      long_name: Dachau
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "85221"
+      long_name: "85221"
+  map: ""
+  international_phone_number: +49 8131 317151
+  place_id: ChIJj92YQ7R7nkcRbf-5_kroqUw
+  url: https://maps.google.com/?cid=5524201826745450349
+  room: "3"
+claimed: No
+link: https://www.bachata-kis-dachau.de/event-details-registration/first-anniversary-festival-1
+description: >
+  Dear Dance Community,
+
+  we proudly present our 1st ANNIVERSARY FESTIVAL from Nov 24th-26th in Dachau!
+
+  An unforgettable Dancing weekend packed with many Workshops with great Artists, Shows and the best Dancing vibes on 3 Dance floors with amazing DJs. We are happy to confirm that Leo Cato “King of Elegancia” and also owner of “Dinastia Dance Company” will be our Guest and will teach you amazing Bachata dancing techniques and skills.
+
+  For all Salsa Fans we will have David & Gemma from Spain as our guests and they will bring your Salsa skills to a new level. We also have the best Kizomba Artists from Munich for you as Fajul Aladji from Kizztalk Dance Academy and Inna Jadore an international Kizomba Instructor.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Fec5fa6cd-85ac-4910-824c-cb14d19d8c39?alt=media&token=2419f042-d71b-48f0-af09-f24fa4658f6f
+createdAt: 1694099476782
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: "Ernest "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+    bio: ""
+    id: XyetYZADJTTwLfv6SvqeX0tqcT63
+    instagram: https://instagram.com/Sokporvondupe
+    username: Ernest
+price: 5 - 189 EUR
+review: https://www.instagram.com/sokporvondupe/
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - Ernest
+international: Yes
+gallery: " https://www.bachata-kis-dachau.de/de/copy-of-team"
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Ernest "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FXyetYZADJTTwLfv6SvqeX0tqcT63%2Ffbedcec8-7b21-4b69-8658-16ed61d61834?alt=media&token=9025378b-bf9a-4fba-9a16-548a1e05366e
+  bio: ""
+  id: XyetYZADJTTwLfv6SvqeX0tqcT63
+  instagram: https://instagram.com/Sokporvondupe
+  username: Ernest
+facebook: https://fb.me/e/V3c0C09h
+eventType: Festival
+form: No
+createdBy: XyetYZADJTTwLfv6SvqeX0tqcT63
+watch:
+  count: 1
+  list:
+    Ernest: true
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Ernest
+id: U6pOJqlxwZFrsMDjMD5p
+confirmation: >+
+  *WEDANCE-FP11*
+
+  Promocode for your Fullpas 
+
+  5€ reduced (94€ instead of originally 99€)
+
+
+  *WEDANCE-CP11*
+
+  Promocode for your Couple-Pas
+
+  14€ reduced (175€ instead of 189€)
+
+
+  Bitte nicht mit den Promocodes vom Pre-Halloween Festival verwechseln.
+
+  VG, Ernest
+
+
+  ARTIST & LINE UP:
+
+  - Leo Cato “King of Elegancia” & Jurgita (Bachata, Lithuania);
+
+  - David & Gemma (Salsa+Bachata, Spain),
+
+  - Fajul-Aladji (Kizztalk Dance Academy Munich); International Urkban Kiz
+
+  Instructors
+
+  - Inna Jadore & Simon (Konpa, Munich), Kizomba Instructors…
+
+  …and many more
+
+  Homepage: https://www.bachata-kis-dachau.de
+
+
+  Videos + Photos (Artists & DJ Line up) here: https://www.bachata-kis-dachau.de/de/copy-of-team
+
+
+  You can find the Upcoming Events / Worshops Program here:
+
+  https://www.bachata-kis-dachau.de/events-1 
+
+
+  Instagram: https://www.instagram.com/sokporvondupe
+
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+endDate: 1700971200000
+startDate: 1700852400000
+specialOffer: Fullpas 5€ discount with Promocode
+name: Sensual Night by Dj Maestro
+updatedAt: 1700489107710
+online: No
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FU6pOJqlxwZFrsMDjMD5p.png?generation=1700491376343525&alt=media
+star:
+  count: 1
+  usernames:
+    - Lemale
+  list:
+    Lemale: true
+viewsCount: 69

@@ -1,0 +1,62 @@
+createdAt: 1727959986185
+website: https://www.typos.club/
+rooms: ""
+address:
+  formatted_address: Běhounská 22, 612 00 Brno-Brno-střed, Czechia
+  website: https://www.typos.club/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Typos music club
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 16.6109429302915
+      south: 49.1957763697085
+      north: 49.1984743302915
+      west: 16.6082449697085
+    location:
+      lng: 16.6090739
+      lat: 49.1973102
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Běhounská
+      long_name: Běhounská
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Brno-střed
+      long_name: Brno-střed
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Brno-město
+      long_name: Brno-město
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihomoravský kraj
+      long_name: Jihomoravský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 612 00
+      long_name: 612 00
+  place_id: ChIJC3nsttkzA6cRPQCIa6RoaYY
+  url: https://maps.google.com/?cid=9685387529024962621
+gender: Other
+phone: ""
+name: Typos music club
+updateAt: 1727959986185
+type: Venue
+map: ""
+username: www.typos.club
+id: PLETrUaafMhf9929izc5

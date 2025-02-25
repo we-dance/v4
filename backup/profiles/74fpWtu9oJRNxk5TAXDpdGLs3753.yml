@@ -1,0 +1,28 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1628954800721
+locales:
+  en: true
+createdBy: 74fpWtu9oJRNxk5TAXDpdGLs3753
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+daysUsed: 1
+pwaUsed: false
+name: Orest
+username: dancerest
+gender: Male
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F74fpWtu9oJRNxk5TAXDpdGLs3753%2F207d81f0-e21f-4153-984f-630f43fbc6f3?alt=media&token=c8c151d1-f18c-49a3-84af-4e2f22cc398f
+step: photo
+updatedAt: 1628954975877
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+lastLoginAt: 1628956765914
+id: 74fpWtu9oJRNxk5TAXDpdGLs3753

@@ -1,0 +1,161 @@
+endDate: 1719018000000
+sourceUrl: https://www.facebook.com/events/1189859959041939/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1716497679000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1716839610000
+facebookId: "1189859959041939"
+facebook: https://www.facebook.com/events/1189859959041939/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1189859959041939/
+eventType: Workshop
+providerItemId: e1189859959041939@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "Les Rendez-vous de l'été "
+location: 100% Danse
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1718996400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 27 Rue Pierre et Marie Curie, 69780 Saint-Pierre-de-Chandieu, France
+  website: http://www.100pour100danse.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: 100% Danse
+  geometry:
+    viewport:
+      southwest:
+        lng: 5.003142369708498
+        lat: 45.6584077197085
+      northeast:
+        lng: 5.005840330291502
+        lat: 45.6611056802915
+    location:
+      lng: 5.0041196
+      lat: 45.659949
+  address_components:
+    - types:
+        - street_number
+      short_name: "27"
+      long_name: "27"
+    - types:
+        - route
+      short_name: Rue Pierre et Marie Curie
+      long_name: Rue Pierre et Marie Curie
+    - types:
+        - locality
+        - political
+      short_name: Saint-Pierre-de-Chandieu
+      long_name: Saint-Pierre-de-Chandieu
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Rhône
+      long_name: Rhône
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "69780"
+      long_name: "69780"
+  international_phone_number: +33 4 78 21 01 00
+  place_id: ChIJWXZzgBXF9EcR7CP-DLDFg00
+  url: https://maps.google.com/?cid=5585525322792444908
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1718546492247
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0RUEUyhjP8fHReFCj4RXXD6zdweYtYnESruQrhiuihUFVz7gd7uZh2rxgvEz2xWXxl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1718546492/svccqdojqfn3edgov0dc.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1718546492247
+  owned: false
+  name: Claro De Luna
+  place: ChIJ17SfA0zF9EcR0Be75CqrCAQ
+  updatedAt: 1718546492247
+  username: claro.de.luna
+claimed: No
+link: ""
+description: >-
+  Le 21 juin prochain, l'école 100% Danse s'associe à Regis Fred, Stéphane et
+  Alexandra pour te présenter les Rendez-vous de l'été BSK. 
+
+  Une soirée en mode latino caliente pour se mettre dans le mood des vacances, du soleil et de la chaleur...! 🏝️🌡️
+
+  Avec une petite particularité, et pas des moindres, un espace extérieur dans une ambiance tropicale au rythme des meilleurs sons BSK mixés par un de tes DJ préférés ! Et ça tombe bien, c'est la fête de la musique, raison de plus pour venir en profiter ! 🎼🎶
+
+
+  Comment se déroule ta soirée ?
+
+  ☀️21h-22h : Workshop niveau inter évolutif
+
+  🔸🔸🔸Bachata : Ludivine & Mehdi
+
+  🔸🔸🔸Salsa cubana : Karina & David
+
+  🔸🔸🔸Kizomba : Audrey & Thierry 
+
+  ☀️22h-3h : soirée 
+
+  🔸🔸🔸3 salles climatisées pour 3 ambiances caliente Salsa, Kizomba ou Bachata ! 🔥🔥🔥
+
+
+  Tarifs :
+
+  🔅 12€ = workshop + soirée
+
+  🔅   8€ = soirée seule
+
+  ⚠️⛔Pas de CB⛔⚠️
+
+  Bar sur place
+
+  Grand parking gratuit
+
+
+  On a trop hâte ! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546493/vxmanlmyvpylgiymzkpw.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ17SfA0zF9EcR0Be75CqrCAQ
+international: No
+hash: 1718996400000+ChIJWXZzgBXF9EcR7CP-DLDFg00
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FVXDix3GxgwcNoydMB1oS.png?generation=1718546513048664&alt=media
+id: VXDix3GxgwcNoydMB1oS

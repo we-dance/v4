@@ -1,0 +1,135 @@
+venue:
+  formatted_address: Venice Island 1, Київ, Ukraine, 02002
+  website: http://www.bakkara-hotel.com.ua/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Київ
+      short_name: Київ
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Дніпровський район
+      short_name: Дніпровський район
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: місто Київ
+      short_name: місто Київ
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "02002"
+      short_name: "02002"
+  url: https://maps.google.com/?cid=17107375898236439446
+  name: BAKKARA Hotel on the river
+  geometry:
+    viewport:
+      south: 50.44364771970849
+      north: 50.44634568029149
+      east: 30.5687599302915
+      west: 30.5660619697085
+    location:
+      lng: 30.5670744
+      lat: 50.4448804
+  place_id: ChIJ0aKVOU_O1EARlkt2nb2bae0
+  international_phone_number: +380 44 369 3131
+claimed: No
+link: https://www.mambopassion.com/
+description: >-
+  "Текст українською нижче "
+
+  😍😎 Mambo Passion September 2-4, 2022 is a new event for Salsa lovers of all levels in the beautiful city of Kyiv, Ukraine. A weekend that will focus more on social dancing during the day and night with great Djs 🎧 but don't worry there will be some cool workshops with the international and Ukrainian teachers🕺💃
+
+  Visit www.mambopassion.com for the full lineup
+
+  The venue and hotel information will be available soon and registration will open on January 1st, 2022.
+
+  **ONLY 300 TICKETS WILL BE SOLD**
+
+  Festival & workshops schedule will be updated soon.
+
+  Our DJs
+
+  🎧DJ Rumbero-Germany
+
+  🎧DJ Minis-Lithuania
+
+  🎧DJ Duste-Sweden
+
+  🎧DJ Aram & DJ Christian-Sweden
+
+  🎧DJ Marco-Ukraine
+
+  🎧DJ Mark-Anthony-Ukraine
+
+  Our Teachers
+
+  🤩Lisa Mercedes-Netherlands
+
+  🤩Tambo-United Kingdom
+
+  🤩Ksenia Kozlovskaya-Ukraine
+
+  🤩Natalie & Yegor-Ukraine
+
+  🤩Anabell & Dmytro-Ukraine
+
+  🤩Liliya & Ivan-Ukraine
+
+  🤩Elena & Vitaliy
+
+  🤩Olesia & Mark-Anthony-Ukraine
+
+  🎼💃🕺If you want to start the partying 1 day early come join us for the Pre-Party on September 1st, 2022 so stay tuned for more information.
+
+  We welcome you all to Kyiv for the 1st edition of Mambo Passion September 2-4, 2022 so save the dates 📆
+
+  🌎Visit the website www.mambopassion.com
+
+  🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦 🇺🇦
+
+  Mambo Passion
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYIbvg9vcOXbRapL8CqODDE5rQcg2%2F017523f7-e09f-42d9-808f-859e8fd74d48?alt=media&token=28901cc5-d065-477f-9612-44cad3191caa
+promo: No
+createdAt: 1644357276567
+artists: []
+price: 60 EUR
+place: ChIJBUVa4U7P1EAR_kYBF9IxSXY
+international: Yes
+updatedAt: 1644357276567
+updatedBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+visibility: Members
+org:
+  instagram: mambopassion
+  username: mambopassion
+facebook: https://www.facebook.com/events/403115741343468/
+eventType: Festival
+form: Yes
+createdBy: YIbvg9vcOXbRapL8CqODDE5rQcg2
+online: No
+styles:
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+username: Lakkana
+watch:
+  count: 0
+  list: {}
+id: pjqHWnLKZhzGTGHyXavQ
+viewsCount: 20
+name: Cancelled/Postponed indefinitely - Mambo Passion Festival
+endDate: 2021-09-04T23:55
+artistsList: []
+startDate: 2021-09-02T14:00

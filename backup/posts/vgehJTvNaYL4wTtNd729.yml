@@ -1,0 +1,136 @@
+venue:
+  formatted_address: Landwehrstraße 24, 80336 München, Germany
+  name: Landwehrstraße 24
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5632557802915
+      south: 48.1350423197085
+      north: 48.1377402802915
+      west: 11.5605578197085
+    location:
+      lng: 11.5618961
+      lat: 48.1364447
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Landwehrstraße
+      long_name: Landwehrstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80336"
+      long_name: "80336"
+  place_id: ChIJeXbh-_d1nkcRMFJyOeFwP_M
+  url: https://maps.google.com/?q=Landwehrstra%C3%9Fe+24,+80336+M%C3%BCnchen,+Germany&ftid=0x479e75f7fbe17679:0xf33f70e139725230
+endDate: 1701631800000
+claimed: No
+link: https://dancewithgeorge.skedflex.de/
+description: |
+  More information about the event on our Instagram and Facebook. 
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FuEYEUCYc6aYx1n4YiirpJZIaG5z2%2F57e36e3a-a51c-4b5a-986b-235eabc0b98c?alt=media&token=f8ea5ab6-7c91-4660-9611-b8da6de91e90
+createdAt: 1698083490455
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: DanceWithGeorge
+  photo: ""
+  bio: ""
+  instagram: ""
+  id: uEYEUCYc6aYx1n4YiirpJZIaG5z2
+  username: DanceWithGeorge
+facebook: https://fb.me/e/4IpqJckEb
+eventType: Course
+form: No
+createdBy: uEYEUCYc6aYx1n4YiirpJZIaG5z2
+watch:
+  count: 1
+  list:
+    DanceWithGeorge: true
+name: Embrace your femininity
+online: No
+startDate: 1701597600000
+username: DanceWithGeorge
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FvgehJTvNaYL4wTtNd729.png?generation=1698083567734685&alt=media
+telegram:
+  requestedAt: 1698083528107
+  messageUrl: https://t.me/WeDanceMunich/1187
+  publishedAt: 1698083569999
+  messageId: 1187
+  state: published
+star:
+  count: 0
+  usernames: []
+  list: {}
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+price: 20-80€
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+id: vgehJTvNaYL4wTtNd729
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: nemeth_noni
+    photo: ""
+    bio: ""
+    id: rnG0TPPRtiWLNqgy306U
+    instagram: https://instagram.com/nemeth_noni
+    username: nemeth_noni
+artistsList:
+  - nemeth_noni
+updatedAt: 1701166450052
+instagram:
+  requestedAt: 1698083637048
+  state: published
+  messageUrl: https://instagram.com/p/C0L5ym3OuzE
+  publishedAt: 1701166480824
+  messageId: C0L5ym3OuzE
+promotionError: ""
+promotion: completed
+viewsCount: 37

@@ -1,0 +1,47 @@
+visibility: Members
+timezone: GMT+0100
+type: Dancer
+createdAt: 1647509505190
+createdBy: 5lFzE7Vhp7Wktoafshlzye0ipP92
+name: Ivy
+place: ChIJ04-twTTbmUcR5M-RdxzB1Xk
+username: Ivy
+pwaUsed: false
+cities:
+  ChIJ04-twTTbmUcR5M-RdxzB1Xk: true
+updatedAt: 1647509632886
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5lFzE7Vhp7Wktoafshlzye0ipP92%2F31bc5b9e-1277-42e0-9208-0d776fc1b947?alt=media&token=2c1517ea-616d-4b6e-a509-0708a22b1664
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+contacts: ""
+locales:
+  de: true
+  ru: true
+  en: true
+  it: true
+  fr: true
+  es: true
+  sr: true
+partner: ""
+bio: Dancing is pure happiness
+permission: ""
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+lastLoginAt: 1709068982941
+daysUsed: 3
+viewsCount: 2
+id: 5lFzE7Vhp7Wktoafshlzye0ipP92

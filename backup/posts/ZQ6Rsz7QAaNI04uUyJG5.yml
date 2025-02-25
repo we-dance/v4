@@ -1,0 +1,109 @@
+sourceUrl: https://facebook.com/events/s/festival-tempo-latino-2024/309626711916729/
+createdAt: 1718743496958
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+endDate: 1722216600000
+claimed: No
+link: https://www.tempo-latino.com/
+description: >-
+  1er Festival européen de musiques latines et afro-cubaines en Europe !
+
+
+  Tempo Latino Festival "El Único" conserve, entretient, revendique depuis 1994 sa démarche artistique au cœur et autour de l’Afro-Cubain et des Musiques Latines. Né de la volonté de diffuser cette musique vivante et populaire, Tempo Latino et ses 500 bénévoles vous invitent à découvrir les rythmes latins pendant 4 jours.
+
+  Dans sa région « Occitanie », le département du Gers s’ouvre à l’international en soutenant l’aventure culturelle de Tempo Latino, construite sur la fierté et la prise de risques pour produire tous ces artistes de la planète Latin.
+program: []
+source: facebook
+type: event
+artists: []
+price: ""
+place: ChIJVWWIa9KKqRIRCdQnwMT-SF0
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Festival Tempo Latino
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftempolatino.png?generation=1656187554020804&alt=media
+  bio: |-
+    👠 1er Festival européen de musiques latines et afro-cubaines  ! 👠
+    #TempoLatino
+  id: Hi7yjaA7NE1mF8vXWILV
+  instagram: https://instagram.com/tempolatino
+  username: tempolatino
+facebook: https://www.facebook.com/events/309626711916729/
+facebookId: "309626711916729"
+eventType: Festival
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Festival TEMPO LATINO 2024
+online: No
+hash: 1721908800000+ChIJVWWIa9KKqRIRCdQnwMT-SF0
+startDate: 1721908800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718743502/xiyv2ew10x8qlhpnkwpa.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZQ6Rsz7QAaNI04uUyJG5.png?generation=1718743514672598&alt=media
+duration: 5130
+venue:
+  formatted_address: 32190 Vic-Fezensac, France
+  name: Vic-Fezensac
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 0.2048762333757583
+        lat: 43.71874836973837
+      northeast:
+        lng: 0.3756323580098754
+        lat: 43.81364875687902
+    location:
+      lng: 0.3015939
+      lat: 43.759272
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Vic-Fezensac
+      long_name: Vic-Fezensac
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Gers
+      long_name: Gers
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Occitanie
+      long_name: Occitanie
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "32190"
+      long_name: "32190"
+  place_id: ChIJVWWIa9KKqRIRCdQnwMT-SF0
+  url: https://maps.google.com/?q=32190+Vic-Fezensac,+France&ftid=0x12a98ad26b886555:0x5d48fec4c027d409
+  username: vicfezensac
+artistsList: []
+id: ZQ6Rsz7QAaNI04uUyJG5
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroCuban:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1718743669906
+viewsCount: 4

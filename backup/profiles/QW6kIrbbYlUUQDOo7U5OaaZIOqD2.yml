@@ -1,0 +1,45 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1626284356069
+createdBy: QW6kIrbbYlUUQDOo7U5OaaZIOqD2
+name: Ali
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Ali
+visibility: Members
+permission: No
+objectives:
+  outdoors: true
+  indoors: true
+contacts: No
+locales:
+  de: true
+  en: true
+  es: true
+styles:
+  SalsaNewYork:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+pwaUsed: true
+gender: Male
+step: gender
+viewsCount: 76
+current: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1715667952017
+lastLoginAt: 1720958105747
+daysUsed: 162
+id: QW6kIrbbYlUUQDOo7U5OaaZIOqD2

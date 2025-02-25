@@ -1,0 +1,64 @@
+endDate:
+  _seconds: 1625339700
+  _nanoseconds: 0
+link: "https://www.sonlatino.de/tanzschule/trial.php?osCsid=e6c4a0489d76f3b3d1c\
+  92b7cb16f2ce8 "
+description: |-
+  Kostenlose Schnupperkurse!
+  ⠀
+  Schaut vorbei und schnuppert rein!
+  ⠀
+  Kizomba - Sa. 03.21 um 20:15 Uhr mit Miguel
+  ⠀
+  Salsa & Bachata - So. 04.07 um 19:00 Uhr mit Dendi und Elly.
+  ⠀
+  Lerne die Lehrer und Ihren Unterrichtstil kennen.
+  ⠀
+  Lasse dich einstufen und beraten.
+  ⠀⠀
+  Wir freuen uns auf euch!
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfPFOWINB1LNTCvLqLWxxgLuYhsX2%2F01615bdd-308c-44bf-b44b-401ef0787adf?alt=media&token=f4b7aa5a-df9d-4869-b512-0d5af98ba968
+duration: "60"
+createdAt: 1625239313446
+watchersCount: 0
+price: Kostenlos
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FvcS27eO2GfZD7pTHTOJo.png?generation=1625240804647019&alt=media
+commentsLast: ~
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+id: vcS27eO2GfZD7pTHTOJo
+views: 1
+updatedAt: 1625239313446
+address: SON LATINO Tanzschule Gablonzer Str. 9,  76185 Karlsruhe-Mühlburg
+updatedBy: fPFOWINB1LNTCvLqLWxxgLuYhsX2
+visibility: Public
+viewsCount: 1
+eventType: Other
+form: Yes
+createdBy: fPFOWINB1LNTCvLqLWxxgLuYhsX2
+commentsCount: 0
+name: "Schnupper Tanzkurse: Salsa, Bachata, Kizomba"
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+region:
+  name: Karlsruhe
+  location:
+    country: Germany
+    latitude: 49.0068901
+    locality: Karlsruhe
+    usedGps: false
+    place_id: ChIJCXjgokgGl0cRf-63THNV_LY
+    longitude: 8.4036527
+startDate: 2021-07-03T18:15:00.000Z
+username: alyonadance

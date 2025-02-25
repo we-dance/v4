@@ -1,0 +1,76 @@
+venue:
+  formatted_address: Pol Ind Pelagatos, Av. Bahía de Cádiz, 8, 11130 Chiclana de
+    la Frontera, Cádiz, Spain
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tocororo
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -6.130582319708497
+      south: 36.4049831197085
+      north: 36.4076810802915
+      west: -6.133280280291502
+    location:
+      lng: -6.1322913
+      lat: 36.4061897
+  address_components:
+    - types:
+        - premise
+      short_name: Pol Ind Pelagatos
+      long_name: Pol Ind Pelagatos
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Av. Bahía de Cádiz
+      long_name: Avenida Bahía de Cádiz
+    - types:
+        - locality
+        - political
+      short_name: Chiclana de la Frontera
+      long_name: Chiclana de la Frontera
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: CA
+      long_name: Cádiz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: AN
+      long_name: Andalucía
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "11130"
+      long_name: "11130"
+  place_id: ChIJ47sTO140DA0Rz3sou4NXch4
+  url: https://maps.google.com/?cid=2193912191775177679
+receiver: ""
+question: ""
+stars: 5
+type: review
+dances:
+  - "0"
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+createdAt: 1708852477332
+createdBy: 9M23r51K7BhWQ3jApcrmchnddrn2
+style: Casino
+place: ChIJRzKtVr00DA0R9pDIwCnYFvc
+username: salseroloco
+link: https://www.facebook.com/p/SALA-Tocororo-100057162292274/
+description: Beside the regular parties on the weekends, they organize a lot of
+  workshops, some with free entrance. Here resides the cuban teacher Lazaro who
+  taught the others teachers in the area.
+updatedAt: 1708852767745
+id: CuqzouHbTgvRTFJhxArs

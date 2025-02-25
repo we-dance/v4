@@ -1,0 +1,140 @@
+endDate:
+  _seconds: 1645279200
+  _nanoseconds: 0
+link: ""
+description: >-
+  Incredible News! Claudio Dercole & Angelica Fino for the first time in Munich!
+  💃🏻🕺🏻🔥
+
+
+  This amazing couple with their deep knowledge of the roots, elegance and techniques is reshaping the modern salsa scene.
+
+
+  Don’t miss this chance and learn from the best!
+
+
+  ## Program:
+
+  - 100 min - Solo Menstyle & Ladystyle (2 classes in parallel)
+
+  - 100 min - Partnerwork Salsa & Guaguancó
+
+  - Level: Intermediate & Advanced
+
+  - Price - 80€
+
+  - Discount registration as a couple - 75€ pro person
+type: event
+promo: No
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F05d951c7-cc3d-4734-a2fe-1de4d037982a?alt=media&token=9cf1c740-6239-485c-bd2a-1bcba1d9eca1
+duration: "240"
+createdAt: 1642088313884
+price: 75-80 EUR
+promoter: alejito
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+promotedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+international: No
+updatedAt: 1642088313884
+website: ""
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+facebook: https://www.facebook.com/events/456423889519752
+confirmation: Thank you for your interest please write a message via
+  Telegram/Whatsapp to Gianni - +491742062107
+eventType: Workshop
+form: No
+createdBy: EGc3bwBVyKbLykwQMelFbftcIk32
+name: Salsa, Afro y Guaguancó with Claudio Dercole & Angelica Fino
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-02-19T11:00
+venue:
+  formatted_address: Munich, Germany
+  website: http://www.muenchen.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Munich
+      short_name: Munich
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Upper Bavaria
+      short_name: Upper Bavaria
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bavaria
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+  url: https://maps.google.com/?q=Munich,+Germany&ftid=0x479e75f9a38c5fd9:0x10cb84a7db1987d
+  name: Munich
+  geometry:
+    viewport:
+      south: 48.06160176222775
+      north: 48.24821969652085
+      east: 11.72287551432547
+      west: 11.36079598983695
+    location:
+      lng: 11.5819806
+      lat: 48.1351253
+  place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: oTWTAlSKRhCZ4u84unDi
+username: SalsaCandela
+organiser: SalsaCandela
+claimed: Yes
+organisedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FoTWTAlSKRhCZ4u84unDi.png?generation=1642088901593669&alt=media
+org:
+  youtube: ""
+  facebook: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FEGc3bwBVyKbLykwQMelFbftcIk32%2F042d46d8-0519-40ee-8db8-706fcd34856a?alt=media&token=d9385b7d-5d77-4013-9b9a-c9ca5c98950b
+  bio: |+
+    Salsa Candela is Gianni (Italy) and Yulia(Russia)! 
+
+    Salsa Cubana, Rumba, Rueda de Casino, Sosa Style and Mambo.
+    (Partnerwork, Footwork, Musicality, Lady & Men Style)
+
+
+  instagram: SalsacandelaMUC
+  tiktok: ""
+  name: "SalsaCandela "
+  id: EGc3bwBVyKbLykwQMelFbftcIk32
+  username: SalsaCandela
+artists:
+  - youtube: ""
+    facebook: ""
+    bio: ""
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fclaudio_dercole.png?generation=1644249531333867&alt=media
+    instagram: claudio_dercole
+    tiktok: ""
+    name: Claudio D'Ercole
+    id: 23Inq5Iu3JceMCRGATzy
+    username: claudio_dercole
+  - instagram: angelicafinoladystyle
+    username: angelicafinoladystyle
+viewsCount: 92

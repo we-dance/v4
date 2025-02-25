@@ -1,0 +1,95 @@
+createdAt: 1704822872611
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/743712194196782/
+source: facebook
+updatedAt: 1704822872611
+username: wedancebot
+venue:
+  formatted_address: Boracay, Malay, Philippines
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Boracay
+  geometry:
+    viewport:
+      southwest:
+        lng: 121.9050438577917
+        lat: 11.93919954174533
+      northeast:
+        lng: 121.9494141756379
+        lat: 11.99936681669749
+    location:
+      lng: 121.924815
+      lat: 11.9673753
+  address_components:
+    - types:
+        - natural_feature
+        - establishment
+      short_name: Boracay
+      long_name: Boracay
+    - types:
+        - locality
+        - political
+      short_name: Malay
+      long_name: Malay
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Western Visayas
+      long_name: Western Visayas
+    - types:
+        - country
+        - political
+      short_name: PH
+      long_name: Philippines
+  place_id: ChIJ505LMi88pTMRNtptXh7oOKc
+  url: https://maps.google.com/?q=Boracay&ftid=0x33a53c2f324b4ee7:0xa738e81e5e6dda36
+visibility: Public
+endDate: 1708797600000
+org:
+  owner: ""
+  importedAt: 1704822879688
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/boracaylatindancefestival
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/320549308_524273019719795_5012872281759786554_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=596444&_nc_ohc=QMI-aSBqlXgAX8bUQOd&_nc_ht=scontent-iad3-1.xx&oh=00_AfDm9nOt2LDlJwFBLRQkWb1-7bIp0om7qI4mwrRqJVaWmw&oe=65A2E401
+  source: facebook
+  type: Organiser
+  createdAt: 1704822879688
+  owned: false
+  name: Boracay Latin Dance Festival
+  place: ChIJGU85EA5gwokRUNxzvsAVjLA
+  updatedAt: 1704822879688
+  username: boracaylatindancefestival
+claimed: No
+facebookId: "743712194196782"
+link: https://boracay-latin-dance-festival.company.site/
+description: |-
+  February 22-25
+  ****Boat Tour (Island Tour)
+  ****Sunset Parties
+  ****Welcome Party
+  ****All Workshops  
+  ****Master Classes 
+  ****BootCamps
+  ****Shows and Evening Parties 
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: BORACAY LATIN DANCE FESTIVAL, 2024
+online: No
+styles: {}
+place: ChIJGU85EA5gwokRUNxzvsAVjLA
+international: No
+hash: 1708570800000+ChIJ505LMi88pTMRNtptXh7oOKc
+startDate: 1708570800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FU6P0bYVoong0hOqHGjlc.png?generation=1704822894028190&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853257/y2zkv74jlrmbpv5eknpe.jpg
+viewsCount: 3
+id: U6P0bYVoong0hOqHGjlc

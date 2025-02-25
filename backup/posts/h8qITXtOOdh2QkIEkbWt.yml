@@ -1,0 +1,115 @@
+claimed: No
+description: Do you like Rueda de Casino and Cuban Salsa then it would be a very
+  interesting workshop for you 🥰 The level of the workshop will be
+  intermediate. You need to have a partner to join the workshop. Please directly
+  contact Auro for the details of the workshop. See you on Sunday
+type: event
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2Fd822456b-2395-4402-a9a3-a416fe0aae8d?alt=media&token=b740d69d-2f64-4469-8eb8-9b0c270f84b0
+duration: "120"
+createdAt: 1648456725168
+artists:
+  - youtube: ""
+    facebook: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F4d2cc5a4-f870-49e2-b48b-cdd49d466099?alt=media&token=41392db2-1a3d-44f7-a54e-041c890700a9
+    bio: ""
+    instagram: auro_amistad
+    tiktok: ""
+    name: Auo
+    id: QKOcbWwR47UEC121QoTO0Kmlvxr1
+    username: Auro
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1648456725168
+updatedBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F4d2cc5a4-f870-49e2-b48b-cdd49d466099?alt=media&token=41392db2-1a3d-44f7-a54e-041c890700a9
+  name: Auo
+  username: Auro
+eventType: Workshop
+form: No
+createdBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+name: Rueda con Auro
+online: No
+styles:
+  Salsa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+username: Auro
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fh8qITXtOOdh2QkIEkbWt.png?generation=1648468993106061&alt=media
+watch:
+  count: 1
+  list:
+    Auro: true
+venue:
+  formatted_address: Westenriederstraße 41, 80331 München, Germany
+  website: http://www.salsaclub-munich.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "41"
+      short_name: "41"
+    - types:
+        - route
+      long_name: Westenriederstraße
+      short_name: Westenriederstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=17999243784988121499
+  name: Salsa Club Munich by Hakan
+  geometry:
+    viewport:
+      south: 48.13375011970849
+      north: 48.13644808029149
+      east: 11.5813296302915
+      west: 11.5786316697085
+    location:
+      lng: 11.579996
+      lat: 48.1351625
+  international_phone_number: +49 172 8533891
+  place_id: ChIJU60HW-F1nkcRm9nfvdsoyvk
+endDate:
+  _seconds: 1649001600
+  _nanoseconds: 0
+id: h8qITXtOOdh2QkIEkbWt
+startDate: 2022-04-03T16:00
+viewsCount: 9

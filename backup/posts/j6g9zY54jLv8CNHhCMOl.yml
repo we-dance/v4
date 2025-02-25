@@ -1,0 +1,175 @@
+sourceUrl: https://facebook.com/events/s/tropical-wednesdays-london-mid/661729572698980/
+createdAt: 1720621882743
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedAt: 1720621882743
+username: alexrazbakov
+viewsCount: 1
+venue:
+  formatted_address: Victoria Embankment, Temple, London WC2R 2PH, UK
+  website: https://www.bar-salsa.com/temple?utm_source=gmb&utm_medium=organic&utm_campaign=homepage
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Salsa - Temple
+  geometry:
+    viewport:
+      southwest:
+        lng: -0.115600230291502
+        lat: 51.5095537697085
+      northeast:
+        lng: -0.112902269708498
+        lat: 51.5122517302915
+    location:
+      lng: -0.114235
+      lat: 51.511005
+  address_components:
+    - types:
+        - route
+      short_name: Victoria Embankment
+      long_name: Victoria Embankment
+    - types:
+        - neighborhood
+        - political
+      short_name: Temple
+      long_name: Temple
+    - types:
+        - postal_town
+      short_name: London
+      long_name: London
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater London
+      long_name: Greater London
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: WC2R 2PH
+      long_name: WC2R 2PH
+  international_phone_number: +44 20 7395 3690
+  place_id: ChIJXc0oNrQEdkgRKBgunDHdh58
+  url: https://maps.google.com/?cid=11495399779029882920
+endDate: 1720659600000
+claimed: No
+link: https://rvdance.co.uk/shop/
+description: >-
+  TROPICAL WEDNESDAYS - ¡Vamos a Bailar! 400 Dancers & YOU
+
+
+  *NO ID - NO ENTRY*
+
+  Free booth & prosecco for groups of 6+ 🍾🥂 Call: 07528722813 to reserve
+
+
+  LATINO ROOM: SALSA, BACHATA, REGGAETON ETC
+
+  AFRO ROOM: KIZOMBA, GHETTOZOUK ETC 
+
+
+  🎊 Free entry Before 9pm 🎊 ❗️£6 AFTER
+
+  9:30PM - 2AM
+
+
+  London’s Massive Midweek AfroLatin club night 🥳 w/ RHYTHM & VIBES DANCE Co.
+
+
+  AMAZING DANCE LESSONS 💥 
+
+  -	7:30PM-9:30PM SHARP!
+
+  -	tickets online: https://rvdance.co.uk/shop/
+
+  -	SALSA-BACHATA-KIZOMBA-SEMBA 
+
+  -	2hr classes ONLY £12
+
+
+  DISCOUNT OFFERS:
+
+  Option 1 - SAVE 40%
+
+  Newcomer discount offer! 
+
+  (new students only - one time use) 
+
+  - First 5 nights for £35
+
+
+  Option 2 - SAVE UP TO 25%
+
+  5 night pass £50 or 10 night pass £90
+
+
+  FULL DETAILS: 
+
+  https://rvdance.co.uk 
+
+
+  CALL: 07528722813
+
+  BAR SALSA TEMPLE, WC2R 2PH 
+
+
+  #salsalondon #bachatalondon #kizombalondon #reggaetonlondon #reggaetonpartylondon #salsapartylondon #bachatapartylondon #kizombapartylondon #kizombaschoollondon #salsaschoollondon #bachataschoolondon #sbkparty #bachataclasseslondon #salsaclasseslondon #kizombaclasseslondon #kizombaparty #bachataparty #salsaparty
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJt1j7bACBt4cRjPkr6g0_cVE
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/661729572698980/?event_time_id=661729716032299
+facebookId: "661729716032299"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Tropical Wednesdays: London Midweek Latin Party - Salsa, Bachata & More"
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1720634400000+ChIJXc0oNrQEdkgRKBgunDHdh58
+startDate: 1720634400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1720621889/c363ivf9rsa3si0rdu2q.jpg
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/RVdanceco
+  name: Rhythm & Vibes Dance Co - Kizomba, Salsa & Bachata Classes in London
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1720621885/jqvbpeem7eyrennipzmt.jpg
+  bio: ""
+  id: JDMb57PRXbnJvE2fSl7Z
+  instagram: ""
+  username: RVdanceco
+id: j6g9zY54jLv8CNHhCMOl

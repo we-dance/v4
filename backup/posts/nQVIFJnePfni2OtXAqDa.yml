@@ -1,0 +1,245 @@
+endDate: 1738512000000
+sourceUrl: https://www.facebook.com/events/3357366241227677/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1720691034000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1720691034000
+facebookId: "3357366241227677"
+facebook: https://www.facebook.com/events/3357366241227677/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/3357366241227677/
+eventType: Party
+providerItemId: e3357366241227677@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Encuentro Kizombero 2025 - promo code BACHALOVE
+location: Segovia Sierra
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1738346400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Tajo s/n Urbanización, C. Río Tajo, 40424 Los Ángeles de San
+    Rafael, Segovia, Spain
+  website: https://www.airclubreservas.es/es/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Segovia Sierra de Guadarrama
+  geometry:
+    viewport:
+      southwest:
+        lng: -4.210273330291503
+        lat: 40.7745393197085
+      northeast:
+        lng: -4.207575369708498
+        lat: 40.7772372802915
+    location:
+      lng: -4.2089017
+      lat: 40.7759297
+  address_components:
+    - types:
+        - point_of_interest
+        - establishment
+      short_name: Tajo s/n Urbanización
+      long_name: Tajo s/n Urbanización
+    - types:
+        - route
+      short_name: C. Río Tajo
+      long_name: Calle Río Tajo
+    - types:
+        - locality
+        - political
+      short_name: Los Ángeles de San Rafael
+      long_name: Los Ángeles de San Rafael
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: SG
+      long_name: Segovia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CL
+      long_name: Castilla y León
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "40424"
+      long_name: "40424"
+  international_phone_number: +34 921 19 58 00
+  place_id: ChIJg2gxIewQQQ0RyVO4NGPgXEo
+  url: https://maps.google.com/?cid=5358404373354927049
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachata.discounts
+  name: Bachata Discounts
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711224689/g451peurslnjxdlzbhpv.jpg
+  bio: ""
+  id: tzEK0tVywks6KvFF80Cl
+  instagram: ""
+  username: bachata.discounts
+claimed: No
+link: ""
+description: >-
+  In January the KIZOMBERO MEETING returns, an event that you cannot miss.
+
+
+  ** ARTISTS ****
+
+  Jesús & Anni
+
+  Luis & Karen
+
+  Luismi & Angeles
+
+  Keco y Moni
+
+  Lety y Dani
+
+  Javi & Belén
+
+  Albert & Estefi
+
+  Kevin
+
+  Marisa Pita & Jorge Ortiz
+
+  Jaime & Elena
+
+  Alsajo
+
+  Dj Neo
+
+  Dj Trípode
+
+  Dj Kot
+
+
+  ***** SCHEDULE ***
+
+  FRIDAY
+
+  6-9pm Workshops
+
+  7pm-9pm Social Kizomba
+
+  23-24h Night workshop
+
+  24-05h Kizomba Party
+
+
+  SATURDAY
+
+  11-14h Workshops
+
+  4-9pm Workshops
+
+  5-9pm Kizomba Social Room
+
+  24-06h Kizomba Party
+
+  SUNDAY
+
+  11-14h Workshops
+
+  1pm-5pm Closing social
+
+
+  ***** PRICES ****
+
+  https://lasalsadelbaile.com/encuentrokizombero?ref=BACHALOVE
+
+
+  €40 (50 Full pass)
+
+  €45 (50 Full Pass)
+
+  €50 (50 Full pass)
+
+  €60 (at the door)
+
+
+  PRICES AT THE DOOR OF THE KIZOMBERO MEETING IN MADRID:
+
+  Full Friday (workshops + social + night): €30
+
+  Friday night (with or without workshop): €10 (without drink)
+
+  Full Saturday (workshops + social + night): €40
+
+  Saturday night (with or without workshop): €15 (without drink)
+
+  Sunday (social + workshops): €15
+
+  Full pass at the door: €60
+
+
+
+  *** HEADQUARTERS HOTEL ****
+
+  The entire event (workshops and parties) will be held at the 4-star Segovia Sierra Hotel in Los Angeles de San Rafael (70 km from Madrid).
+
+  SINGLE ROOM (prices per person per day, VAT included)
+
+  Accommodation and breakfast: €69
+
+  Half board: €79
+
+  Full board: €85
+
+  DOUBLE ROOM (prices per person per day, VAT included):
+
+  Accommodation and breakfast: €45
+
+  Half board: €57
+
+  Full board: €65
+
+  TRIPLE ROOM (prices per person per day, VAT included):
+
+  Accommodation and breakfast: €39
+
+  Half board: €52
+
+  Full board: €59
+
+  - On Saturday, full board is mandatory.
+
+  - Minimum 2 nights, up to 1 month before the event (then, those remaining, 1 night).
+
+  To reserve, contact the hotel directly:
+
+  Phone: 921 195 800
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417918/svst32dfhebxr4auccxl.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJs9LB-pUQQQ0RSAsFwL-VbN4
+international: No
+hash: 1738346400000+ChIJg2gxIewQQQ0RyVO4NGPgXEo
+id: nQVIFJnePfni2OtXAqDa

@@ -1,0 +1,697 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/tangier-international-latin-festival-morocco/
+sourceUrl: https://facebook.com/events/1228278474848360
+venue:
+  address_components:
+    - long_name: "168"
+      short_name: "168"
+      types:
+        - street_number
+    - long_name: Boulevard Mohamed VI
+      short_name: Blvd. Mohamed VI
+      types:
+        - route
+    - long_name: Tanger
+      short_name: Tanger
+      types:
+        - locality
+        - political
+    - long_name: Tanger -Assilah
+      short_name: Tanger -Assilah
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Tanger-Tétouan-Al Hoceima
+      short_name: Tanger-Tétouan-Al Hoceima
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Morocco
+      short_name: MA
+      types:
+        - country
+        - political
+    - long_name: "90000"
+      short_name: "90000"
+      types:
+        - postal_code
+  formatted_address: 168 Blvd. Mohamed VI, Tanger 90000, Morocco
+  geometry:
+    location:
+      lat: 35.7768292
+      lng: -5.7978891
+    viewport:
+      northeast:
+        lat: 35.77820793029151
+        lng: -5.796485919708498
+      southwest:
+        lat: 35.77550996970851
+        lng: -5.799183880291503
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +212 5393-48383
+  name: Kenzi Solazur
+  place_id: ChIJtSAOoU1_DA0Rk7B0ylFA_u4
+  url: https://maps.google.com/?cid=17221272745144529043
+  website: http://www.kenzi-hotels.com/kenzi-solazur
+endDate: 1736773200000
+claimed: No
+link: http://www.tangierlatinfestival.com/
+description: >+
+  
+  * Versión española abajo  
+
+  * English version below   
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  Version Française :
+   
+  🗓️ Date : du 09 au 13 janvier 2025
+
+  📌 Lieu: Hôtel kenzi Solazur Tanger
+
+
+  Le Tangier International Latin Festival « Morocco » tant attendu par les passionnés des danses latines venues de plusieurs pays aura lieu du Jeudi 09 au Lundi 13 Janvier 2025. Cinq jours de folie vous attendent, une occasion de faire vibrer le Nord du Maroc, l’une des plus belles destinations touristiques du royaume au son des musiques latines. 
+
+  Nous voulons faire de cet événement une rencontre aussi culturelle qu’artistique incontournable sur le sol tangérois. 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    🤩🤩🤩   A quoi s’attendre   🤩🤩🤩  
+
+      
+  🔰 +1500 danseurs internationaux prévus 
+
+  🔰 + 100 artistes internationaux  
+
+  🔰 + 50 heures de cours tous niveaux
+
+  🔰 + 50 shows internationaux 
+
+  🔰 Compétition international (Salsa & Bachata)
+
+  🔰 4 Soirée Dansantes 
+
+  🔰 3 salles de danses ( Salsa , Bachata , Kizomba )
+
+  🔰 3 villes pour excursion touristiques 
+
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ██▓▒░🟢⭐Artistes ⭐🟢░▒▓██ :
+
+  ► Talal (Belgique) 
+
+  ► José pablo y Cyntia (Espagne)
+
+  ► Mervil & Sandrine (France) 
+
+  ► Javier & Sara (Espagne)
+
+  ► Davy & Emilia (Portugal) 
+
+  ► Latin Dance Evolution Team (Belgique)
+
+  ► Jesús & María (Espagne)
+
+  ► JJ Pachanga (Belgique)
+
+  ► Alberto & Marta (Espagne)
+
+  ► Maroa dance Team (Espagne)
+
+  ► David & yuri (Italie) 
+
+  ► Keco & Moni (Espagne)
+
+  ► Rumba baile team (République dominicaine) 
+
+  ► Julian & Jose (Espagne)
+
+  ► Abdel Zouk (Allemagne) 
+
+  ► Francis & Dulce (Espagne)
+
+  ► Dani & Daniela (Uruguay)  
+
+  ► Aldja (France) 
+
+  ► Gina Dance (Maroc) 
+
+  ► Andy & saray (Espagne)
+
+  ► Yes we dance company (Espagne)
+
+  ► Marcelo & Maribel (Uruguay / Puerto Rico)
+
+  ► Pedro y Maria (Espagne)
+
+  ► Salsablanca (Maroc) 
+
+  ► Pablo & Andrea (Hongrie) 
+
+  ► Rafa y Sheila (Espagne)
+
+  ► Mambo Family (Colombie / Espagne)
+
+  ► Mambo Queens (Espagne)
+
+  ► Hajar Pocahontas (Maroc) 
+
+  ► Edgar Galicia (Espagne)
+
+  ► Borja & Lidia (Espagne)
+
+  ► Vadim & Alexia (Russie) 
+
+  ► Merembe Team (Espagne)
+
+  ► Kal & Aurore (France) 
+
+  ► Sergio Cuellar (Espagne)
+
+  ► Wafa’s secret (Maroc) 
+
+  ► Manu & Elena (Espagne)
+
+  ► Ahmedy & Caro (Belgique)  
+
+  ► Edu y Silvana (Espagne)
+
+  ► Ruben & Blanca (Espagne)
+
+  ► Asier & Aleksandra (Espagne)
+
+  ► Adil & Elo (France) 
+
+  ► Toni & Alicia (Espagne)
+
+  ► Mario & Lidia (Espagne)
+
+  ► Juanen & Jezabel (Espagne)
+
+  ► Vaneska Lopez (Venezuela) 
+
+  ► B.Mambo (Espagne)
+
+  ► Murcia Mambocompany (Espagne)
+
+  ► Junior & Alicia (Espagne)
+
+  ► Malick & Carla (France) 
+
+  ► Oleg & Isa (Ukraine / Espagne) 
+
+  ► Diego & Lidia (Belgique)
+
+  ► Cristian Mata (Espagne)
+
+  ► AbirouDance (Maroc) 
+
+  ► José Vidal & Tania (Espagne)
+
+  ► Juanma & Tania (Espagne) 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ██▓▒░🟢 🎧 DJS 🎧 🟢░▒▓██ :
+
+  ► Dj Youss (France) 
+
+  ► Dj Kito (Maroc) 
+
+  ► Dj  KOT (Espagne) 
+
+  ► Dj  Bad (France)
+
+  ► Dj jal’s  (Maroc)
+
+  ► DJ FACE (Italie)
+
+  ► Dj Myster youss (Canada)
+
+  ► Dj NMk (France)
+
+  ► Dj Nenne (Maroc)
+
+  ► Dj Sandy (Pologne)
+
+  ► Dj El Maestro (Canada) 
+
+  ► Dj Temazo (Venezuela) 
+
+  ► Dj Mister T (Maroc) 
+
+  ► Dj Abdelo (Pays-Bas) 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+  🚨 Places limitées 
+
+  🚨 Premier arrivée premier servis 
+
+
+  ██▓▒░ ⭐🔴 Dress Code ⭐🔴  ░▒▓██ :
+
+
+  ► Black (Soirée du Vendredi) 
+
+  ► White (Soirée du Samedi) 
+
+
+  ██▓▒░░ PRIX / INFO / RESA ▒░▒▓██ :
+
+
+  👉👉  www.tangierlatinfestival.com 
+
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  Versión española   : 
+
+
+  🗓️  Fecha: 09 al 13 de Enero de 2025
+
+  📌 Ubicación: Hôtel kenzi Solazur Tanger
+
+   Tangier International Latin Festival “Morocco” tan esperada por los amantes de la danza latina de varios países tendrá lugar del Jueves 09 de Enero al Lunes 13 de Enero de 2025. Te esperan cinco días de locura, la oportunidad para hacer vibrar el Norte de Marruecos, uno de los destinos turísticos más bellos del reino, al son de la música latina. 
+  Queremos hacer de este evento un encuentro cultural y artístico ineludible en tierra Tangerina.  
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    🤩🤩🤩 Que os espera 🤩🤩🤩  
+          
+   🔰  +1500 bailarines internacionales previstos 
+   🔰 + 100 artistas internacionales
+   🔰 + 50 horas de clases para todos los niveles
+   🔰 + 50 shows internacionales
+   🔰  Concurso internacional ( Salsa & Bachata ) 
+   🔰  4 noches de Baile 
+   🔰  3 salas de baile ( Salsa , Bachata , Kizomba ) 
+   🔰  3 ciudades por turismo  
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ██▓▒░🟢⭐Artistas ⭐🟢░▒▓██ :
+
+  ► Talal (Bélgica) 
+
+  ► José pablo y Cyntia (España)
+
+  ► Mervil & Sandrine (Francia) 
+
+  ► Javier & Sara (España)
+
+  ► Davy & Emilia (Portugal) 
+
+  ► Latin Dance Evolution Team (Bélgica)
+
+  ► Jesús & María (España)
+
+  ► JJ Pachanga (Bélgica)
+
+  ► Alberto & Marta (España)
+
+  ► Maroa dance Team (España)
+
+  ► David & yuri (Italia) 
+
+  ► Keco & Moni (España)
+
+  ► Rumba baile team (República Dominicana) 
+
+  ► Julian & Jose (España)
+
+  ► Abdel Zouk (Alemania) 
+
+  ► Francis & Dulce (España)
+
+  ► Dani & Daniela (Uruguay) 
+
+  ► B.Mambo (España)
+
+  ► Murcia Mambocompany (España)
+
+  ► Gina Dance (Marruecos) 
+
+  ► Andy & saray (España)
+
+  ► Yes we dance company (España)
+
+  ► Marcelo & Maribel (Uruguay / Puerto Rico)
+
+  ► Pedro y Maria (España)
+
+  ► Salsablanca (Marruecos) 
+
+  ► Ruben y Blanca (España)
+
+  ► Aldja (Francia) 
+
+  ► Pablo & Andrea (Hungría) 
+
+  ► Rafa y Sheila (España)
+
+  ► Mambo Family (Colombia / España)
+
+  ► Mambo Queens (España)
+
+  ► Hajar Pocahontas (Marruecos) 
+
+  ► Edgar Galicia (España)
+
+  ► Borja & Lidia (España)
+
+  ► Vadim & Alexia (Rusia) 
+
+  ► Merembe Team (España)
+
+  ► Kal & Aurore (Francia) 
+
+  ► Sergio Cuellar (España)
+
+  ► Wafa’s secret (Marruecos) 
+
+  ► Manu & Elena (España)
+
+  ► Ahmedy & Caro (Bélgica)  
+
+  ► Edu y Silvana (España
+
+  ► Asier & Aleksandra (España)
+
+  ► Adil & Elo (Francia) 
+
+  ► Toni & Alicia (España)
+
+  ► Mario & Lidia (España)
+
+  ► Juanen & Jezabel (España)
+
+  ► Vaneska Lopez (Venezuela) 
+
+  ► Junior & Alicia (España)
+
+  ► Malick & Carla (Francia) 
+
+  ► Oleg & Isa (Ukrania / España) 
+
+  ► Diego & Lidia (Bélgica)
+
+  ► Cristian Mata (España)
+
+  ► AbirouDance (Marruecos) 
+
+  ► José Vidal & Tania (España)
+
+  ► Juanma & Tania (España) 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ██▓▒░🟢 🎧 DJS 🎧 🟢░▒▓██ :
+
+  ► Dj Youss (Francia) 
+
+  ► Dj Kito (Marruecos) 
+
+  ► Dj  KOT (España) 
+
+  ► Dj  Bad (Francia)
+
+  ► Dj jal’s (Marruecos)
+
+  ► DJ FACE (Italia)  
+
+  ► Dj Myster Youss (Canada)
+
+  ► Dj NMk (Francia)
+
+  ► Dj Nenne (Marruecos)
+
+  ► Dj Sandy (Polonia)
+
+  ► Dj El Maestro (Canada) 
+
+  ► Dj Temazo (Venezuela) 
+
+  ► Dj Mister T (Marruecos) 
+
+  ► Dj Abdelo (Países Bajos) 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+   🚨 Plazas limitadas
+   🚨 El primero en llegar es el primero en ser atendido
+
+  ██▓▒░ ⭐🔴 Dress Code ⭐🔴  ░▒▓██ :
+
+
+  ► Black  (Fiesta del viernes noche)
+
+  ► White (Fiesta del Sábado noche) 
+
+
+  ██▓▒░░ PRECIOS / INFO / RESERVAS ▒░▒▓██ :
+
+   👉👉	www.tangierlatinfestival.com 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  English Version    : 
+
+   🗓️  Date: January 09th to 13th, 2025
+   📌  Location: Kenzi Solazur Hotel
+
+  The Tangier International Latin Festival “Morocco” long awaited by Latin dance enthusiasts from several countries will take place from Thursday 09th to Monday 13th January 2025. Five days of madness await you, an opportunity to make the North of Morocco vibrate, one of the most beautiful tourist destinations in the kingdom, to the sound of Latin music.
+
+  We want to make this event an unmissable cultural and artistic encounter on Tangiers soil.  
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+   🤩🤩🤩  What to expect  🤩🤩🤩
+            
+   🔰 +1500 international dancers planned 
+   🔰 + 100 international artists
+   🔰 + 50 hours of lessons for all levels
+   🔰 + 50 international shows
+   🔰  International Competition international ( Salsa & Bachata )
+   🔰  4 Dance Evenings
+   🔰  3 Dance Rooms ( Salsa , Bachat , Kizomba )
+   🔰  3 cities for tourism 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ██▓▒░🟢⭐Artists ⭐🟢░▒▓██ :
+
+  ► Talal (Belgium) 
+
+  ► José pablo y Cyntia (Spain)
+
+  ► Mervil & Sandrine (France) 
+
+  ► Javier & Sara (Spain)
+
+  ► Davy & Emilia (Portugal) 
+
+  ► Latin Dance Evolution Team (Belgium)
+
+  ► Jesús & María (Spain)
+
+  ► JJ Pachanga (Belgium)
+
+  ► Alberto & Marta (Spain)
+
+  ► Aldja (France) 
+
+  ► Maroa dance Team (Spain)
+
+  ► David & yuri (Italie) 
+
+  ► Keco & Moni (Spain)
+
+  ► Rumba baile team (Dominican Republic) 
+
+  ► Julian & Jose (Spain)
+
+  ► Abdel Zouk (Germany) 
+
+  ► Francis & Dulce (Spain)
+
+  ► Dani & Daniela (Uruguay)  
+
+  ► Gina Dance (Morocco) 
+
+  ► Andy & saray (Spain)
+
+  ► Yes we dance company (Spain)
+
+  ► Marcelo & Maribel (Uruguay / Puerto Rico)
+
+  ► Pedro y Maria (Spain)
+
+  ► Salsablanca (Morocco) 
+
+  ► Pablo & Andrea (Hungary) 
+
+  ► Rafa y Sheila (Spain)
+
+  ► Mambo Family (Colombia / Spain)
+
+  ► Mambo Queens (Spain)
+
+  ► Hajar Pocahontas (Morocco) 
+
+  ► Edgar Galicia (Spain)
+
+  ► Borja & Lidia (Spain)
+
+  ► Vadim & Alexia (Russia) 
+
+  ► Merembe Team (Spain)
+
+  ► Kal & Aurore (France) 
+
+  ► Sergio Cuellar (Spain)
+
+  ► Wafa’s secret (Morocco) 
+
+  ► Manu & Elena (Spain)
+
+  ► Ahmedy & Caro (Belgium)  
+
+  ► Edu y Silvana (Spain)
+
+  ► Asier & Aleksandra (Spain)
+
+  ► Adil & Elo (France) 
+
+  ► Toni & Alicia (Spain)
+
+  ► Mario & Lidia (Spain)
+
+  ► Juanen & Jezabel (Spain)
+
+  ► Vaneska Lopez (Venezuela) 
+
+  ► Junior & Alicia (Spain)
+
+  ► Malick & Carla (France) 
+
+  ► Oleg & Isa (Ukraine / Spain) 
+
+  ► Diego & Lidia (Belgium)
+
+  ► Cristian Mata (Spain)
+
+  ► AbirouDance (Morocco) 
+
+  ► José Vidal & Tania (Spain)
+
+  ► Juanma & Tania (Spain) 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+  ██▓▒░🟢 🎧 DJS 🎧 🟢░▒▓██ :
+
+  ► Dj Youss (France) 
+
+  ► Dj Kito (Morocco) 
+
+  ► Dj  KOT (Spain) 
+
+  ► Dj  Bad (France)
+
+  ► Dj jal’s (Morocco)
+
+  ► DJ FACE (Italie  
+
+  ► Dj Myster youss (Canada)
+
+  ► Dj NMk (France)
+
+  ► Dj Nenne (Morocco)
+
+  ► Dj Sandy (Poland)
+
+  ► Dj El Maestro (Canada) 
+
+  ► Dj Temazo (Venezuela) 
+
+  ► Dj Mister T (Morocco) 
+
+  ► Dj Abdelo (Netherlands) 
+
+  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+   
+    🚨	Limited places 
+    🚨	First come first served
+
+  ██▓▒░ ⭐🔴 Dress Code ⭐🔴  ░▒▓██ :
+
+
+  ► Black  (Friday Night Party) 
+
+  ► White (Saturday Night Party) 
+
+
+  ██▓▒░░ PRICES / INFO / RESERVATIONS ▒░▒▓██ :
+
+    👉👉	www.tangierlatinfestival.com 
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293934/bnriirfjvr9i8qqaye4l.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJdzaR71naTYYRe7ZZg7PMGEc
+international: No
+visibility: Public
+org:
+  createdAt: 1732293931885
+  importedAt: 1732293931885
+  updatedAt: 1732293931885
+  source: facebook
+  name: Tangier International Latin Festival -Morocco-
+  facebook: https://www.facebook.com/TangierInternationalLatinfestival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293932/yj0pyf8lcmasydbatdfq.jpg
+  username: tangier.internationa
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJdzaR71naTYYRe7ZZg7PMGEc
+facebook: https://www.facebook.com/events/1228278474848360/
+facebookId: "1228278474848360"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Tangier International Latin Festival - Morocco - "
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1736427600000+ChIJtSAOoU1_DA0Rk7B0ylFA_u4
+startDate: 1736427600000
+id: 2jwV88lB8qq8w9IkvrJI

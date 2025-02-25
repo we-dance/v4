@@ -1,0 +1,223 @@
+venue:
+  formatted_address: Bundesallee 31A, 10717 Berlin, Germany
+  website: http://www.ajilimonberlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Aji Limon Berlin
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.3320415802915
+      south: 52.48897181970851
+      north: 52.4916697802915
+      west: 13.3293436197085
+    location:
+      lng: 13.3305537
+      lat: 52.49031830000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 31A
+      long_name: 31A
+    - types:
+        - route
+      short_name: Bundesallee
+      long_name: Bundesallee
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Charlottenburg-Wilmersdorf
+      long_name: Bezirk Charlottenburg-Wilmersdorf
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10717"
+      long_name: "10717"
+  international_phone_number: +49 176 21214118
+  url: https://maps.google.com/?cid=2178751216364659635
+  place_id: ChIJFUKj39VRqEcRs6NdEbB6PB4
+endDate:
+  _seconds: 1655764200
+  _nanoseconds: 0
+claimed: No
+link: ""
+description: >-
+  Seid ihr bereit für mehr Bachata und Salsa diesen Sommer über den Dächern
+  Berlins? Kommt und tanzt mit uns in den Sonnenuntergang.
+
+
+  Programm:
+
+  19:30 - 20:30
+
+  Workshop (Bachata Dominicana) mit Anna & Nora
+
+  Open Level (anfängerfreundlich)
+
+  Anschließend Bachata Practise
+
+  ☀️ bei gutem Wetter draußen auf dem Rooftop,
+
+  🌧 bei schlechtem Wetter drinnen
+
+
+  Ab 21 Uhr legt DJCabani für euch das Beste aus Bachata und Salsa auf
+
+
+  💶 Preis:
+
+  Eintritt 5 Euro inklusive Workshop
+
+  ab 21 Uhr 3 Euro Eintritt
+
+
+  📍 Location:
+
+  Aji Limon Berlin
+
+  (im TWO Hotel, 7. Etage Rooftop)
+
+  Bundesallee 31A
+
+  10717 Berlin
+
+  Das Restaurant bietet eine Speisekarte mit leckeren Gerichten
+
+  und Cocktails an diesem Abend für uns an.
+
+  https://www.ajilimonberlin.de/
+
+
+  Weitere Termine für dieses Event:
+
+  20.06.22
+
+  04.07.22
+
+  15.08.22
+
+  05.09.22
+
+
+
+
+  Are you ready for some more Bachata and Salsa this summer on a beautiful rooftop overlooking our beloved capital? Come and dance with us into the sunset!!
+
+
+  Program:
+
+  7:30 - 8:30pm
+
+  Workshop (Bachata Dominicana) with Anna & Nora
+
+  Open Level (beginner friendly)
+
+  Afterwards Bachata Practise
+
+  ☀️ =on the rooftop,
+
+  🌧 =inside the bar
+
+
+  Starting at 9pm DJCabani presents us with the best Bachata and Salsa music
+
+
+  💶 Entrance:
+
+  5€ (includes workshop!!)
+
+  After 9pm 3€ (just social)
+
+
+  📍 Location:
+
+  Aji Limon Berlin
+
+  (im TWO Hotel, 7. Etage Rooftop)
+
+  Bundesallee 31A
+
+  10717 Berlin
+
+  The restaurant offers a delicious menu and cocktails, check it out:
+
+  https://www.ajilimonberlin.de/
+
+
+  Further dates for this event:
+
+  20.06.22
+
+  04.07.22
+
+  15.08.22
+
+  05.09.22
+type: event
+duration: "300"
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2F43854e27-7c31-4177-9191-a21af091e5f0?alt=media&token=f6e2e0e9-a578-4920-a12c-fa949d550297
+createdAt: 1654870497960
+artists: []
+price: 5 EUR inklusive Workshop, nach 21 Uhr 3 Euro Eintritt
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+updatedAt: 1654870497960
+updatedBy: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+visibility: Public
+org:
+  role: organiser
+  name: Nora_Berlin
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2F008f282c-68d0-458e-8d0c-77092c66afe7?alt=media&token=202ac02c-d421-478c-8435-8690fa19e644
+  username: Nora_Berlin
+facebook: https://fb.me/e/2HNs3ngEU
+eventType: Party
+form: No
+createdBy: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+watch:
+  count: 1
+  list:
+    Nora_Berlin: true
+name: SunSet Social - Bachata & Salsa Social with Bachata Workshop
+online: No
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-06-20T19:30
+username: Nora_Berlin
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FswI8xvQK4omZanVupEBN.png?generation=1654871531426903&alt=media
+viewsCount: 82
+id: swI8xvQK4omZanVupEBN

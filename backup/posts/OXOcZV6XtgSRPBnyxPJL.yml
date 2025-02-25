@@ -1,0 +1,136 @@
+venue:
+  formatted_address: Revaler Str. 7, 10245 Berlin, Germany
+  website: https://www.fire-tiger-berlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Revaler Straße
+      short_name: Revaler Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Bezirk Friedrichshain-Kreuzberg
+      short_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      long_name: Berlin
+      short_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt Berlin
+      short_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Berlin
+      short_name: BE
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "10245"
+      short_name: "10245"
+  url: https://maps.google.com/?cid=13285853219991618602
+  name: Fire Tiger - Cocktail Bar - Asiatisch & Sushi
+  geometry:
+    viewport:
+      south: 52.5071546697085
+      north: 52.5098526302915
+      east: 13.4532386802915
+      west: 13.4505407197085
+    location:
+      lng: 13.451968
+      lat: 52.5085937
+  international_phone_number: +49 30 29360930
+  place_id: ChIJrxrOultOqEcRKoSUsxzVYLg
+endDate:
+  _seconds: 1634954400
+  _nanoseconds: 0
+organisedBy: sXlqPDGz2HdSX02QOyZxkte4iF22
+claimed: Yes
+description: |-
+  - Reggaeton, Kizomba, Merengue, Salsa and Bachata! 4 hours of good music. 
+
+  - From 00:00 to 04:00
+
+   - Enjoy the Finest Asian Cuisine for 10% OFF 
+
+  - Fresh Cocktails made by professional bartenders
+
+  - 
+type: event
+duration: "240"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FsXlqPDGz2HdSX02QOyZxkte4iF22%2Fa37a1536-3f92-4970-a36d-a5eb120dfc08?alt=media&token=65b1c517-1794-44db-93eb-c921b7319e6e
+promo: Yes
+createdAt: 1634726585541
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FOXOcZV6XtgSRPBnyxPJL.png?generation=1634974495216716&alt=media
+commentsLast: ~
+promoter: barriolatinoberlin
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+id: OXOcZV6XtgSRPBnyxPJL
+promotedBy: sXlqPDGz2HdSX02QOyZxkte4iF22
+international: No
+views: 4
+updatedAt: 1634726585541
+website: https://barriolatinoberlin.mystrikingly.com/
+updatedBy: sXlqPDGz2HdSX02QOyZxkte4iF22
+visibility: Public
+facebook: https://www.facebook.com/barriolatinoberlin/
+eventType: Party
+organiser: ""
+form: No
+createdBy: sXlqPDGz2HdSX02QOyZxkte4iF22
+commentsCount: 0
+name: Latin Vibes Party - FREE Entry
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Merengue:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Berlin
+  location:
+    country: Germany
+    latitude: 52.52000659999999
+    locality: Berlin
+    usedGps: false
+    place_id: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+    longitude: 13.404954
+startDate: 2021-10-22T22:00:00.000Z
+username: barriolatinoberlin
+viewsCount: 35

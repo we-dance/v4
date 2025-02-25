@@ -1,0 +1,122 @@
+endDate: 1725760800000
+sourceUrl: https://www.facebook.com/events/152925084315973/
+createdAt: 1714557795910
+approved: true
+provider: ical
+providerId: te5o6z1Subn2jDFbMi9r
+providerCreatedAt: 1678379510000
+updatedAt: 1714557795910
+importedAt: 1714557795910
+providerUpdatedAt: 1712168127000
+facebookId: "152925084315973"
+facebook: https://www.facebook.com/events/152925084315973/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/152925084315973/
+eventType: Party
+providerItemId: e152925084315973@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: KiZz Night with KizInvasion Germany Special Edition 7.9.2024
+location: Corrientes
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1725733800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Corrientes, Corrientes Province, Argentina
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Corrientes
+  geometry:
+    viewport:
+      southwest:
+        lng: -58.86344030612454
+        lat: -27.53409957230107
+      northeast:
+        lng: -58.72133304136804
+        lat: -27.4384037339486
+    location:
+      lng: -58.8306349
+      lat: -27.4692131
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Corrientes
+      long_name: Corrientes
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Capital Department
+      long_name: Capital Department
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Corrientes Province
+      long_name: Corrientes Province
+    - types:
+        - country
+        - political
+      short_name: AR
+      long_name: Argentina
+  place_id: ChIJa9O-1XlrRZQRRga08x6fmfo
+  url: https://maps.google.com/?q=Corrientes,+Corrientes+Province,+Argentina&ftid=0x94456b79d5bed36b:0xfa999f1ef3b40646
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714557800619
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/people/KiZz-U-Underground-Kizomba/100064694661923/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714557801/ugs2xz9dllylzwlyg26p.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714557800619
+  owned: false
+  name: KiZz U - Underground Kizomba
+  place: ChIJa9O-1XlrRZQRRga08x6fmfo
+  updatedAt: 1714557800619
+  username: kizz.u.-.underground
+claimed: No
+link: ""
+description: >-
+  INFOS TO COME SOON...
+
+
+
+  Schedule:
+
+  20:30 - 22:40 Workshop (intermediate)
+
+  22:45 - 04:00 Party 
+
+
+
+  For more information you can PN or mail us for further support
+
+  kizzunderground@gmail.com
+
+
+  Legal Disclaimer:
+
+  With coming to our events you authorize the photographer, videographer, the legal sucessor as well as KiZz U - Underground Kizomba to reproduce and exploit your images withhin the framework of photos for the use of promotion / communication for events of KiZz U - Underground Kizomba
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714557802/omux9y8i3gc2twg0sojk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJa9O-1XlrRZQRRga08x6fmfo
+international: No
+hash: 1725733800000+ChIJa9O-1XlrRZQRRga08x6fmfo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FR6EWgfvyDLwCGsG8cz5q.png?generation=1714557815647727&alt=media
+id: R6EWgfvyDLwCGsG8cz5q

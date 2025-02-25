@@ -1,0 +1,163 @@
+createdAt: 1706619350266
+updatedBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+createdBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1706619350266
+username: Franzi
+venue:
+  formatted_address: Lindwurmstraße 114, 80337 München, Germany
+  website: https://www.sports-and-health.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: SPORTS & HEALTH Fitness-Club
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5432411197085
+        lat: 48.12108581970849
+      northeast:
+        lng: 11.5459390802915
+        lat: 48.12378378029149
+    location:
+      lng: 11.5445443
+      lat: 48.1225067
+  address_components:
+    - types:
+        - street_number
+      short_name: "114"
+      long_name: "114"
+    - types:
+        - route
+      short_name: Lindwurmstraße
+      long_name: Lindwurmstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+      long_name: Sendling
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80337"
+      long_name: "80337"
+  international_phone_number: +49 89 74747190
+  place_id: ChIJ995eYkvfnUcRhcHCua6HLRA
+  url: https://maps.google.com/?cid=1165737063069434245
+endDate: 1710682200000
+claimed: No
+link: ""
+description: >-
+  🇨🇺💃🇨🇺🕺🇨🇺💃🇨🇺🕺🇨🇺
+   
+   INTENSIV WORKSHOP  
+  🔥 SALSA& Salsa🔥
+
+
+  📆  So.17.März.2024
+
+  🕙  11:30-14:30
+
+  🌍 Sports & Health   Fitness Cub  (Lindwurmstrasse 114
+
+  München)
+
+   🌟 Program 
+   11:30 Bachata-
+  Partnerwok/ Mittelstufe 
+
+  (Anna)🔥
+   12:30 Salsa Cubana/Beginner (Amada)🔥
+   13:30 Salsa-Rueda /Anfänger& intetmediate (Peyman)🔥
+
+  🌟 Workshopticket 
+
+  1×Workshop €20
+
+  2×Worlshop €25,-
+
+  3×Workshop €30.-
+
+
+  🌟   🌟  🌟   🌟  🌟  🌟
+
+
+  Für die Anmeldung und auch mehr Infos könnt ihr gerne den unten stehenden Link benutzen.
+
+
+  https://www.sports-and-health.de/salsa-workshop
+
+
+  Falls noch etwas unklar sein sollte, meldet euch einfach bei mir. ich freue mich auf einen intensiven Workshopttag mit euch.🔥💃🕺
+
+
+  Liebe Grüsse
+
+  Peyman.
+
+  Tel:0176-41715065
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/peyman.saba/
+  name: Peyman
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F4ce2621c-a5b9-4e0b-9c0d-06eb8d64779b?alt=media&token=4a2b45aa-4ecf-4182-b206-eb8db09f1072
+  bio: ""
+  id: MSxq3sqswZe9VfpHqFsI7OGngSD3
+  instagram: ""
+  username: Peyman
+facebook: https://www.facebook.com/events/6967283876700717/
+facebookId: "6967283876700717"
+eventType: Workshop
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "SALSA& BACHATA Intensive Workshop "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1710671400000+ChIJ995eYkvfnUcRhcHCua6HLRA
+startDate: 1710671400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1706619356/wolkb1fdmc5rj0afdndq.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FITyPG1LtO7qNd9nu662x.png?generation=1706619380939323&alt=media
+viewsCount: 48
+id: ITyPG1LtO7qNd9nu662x

@@ -1,0 +1,32 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630848453832
+locales:
+  en: true
+  ar: true
+createdBy: kLJckqigk3PD5ULodpHhWKW7Hr22
+name: TheRealYoussef
+place: ChIJdd4hrwug2EcRmSrV3Vo6llI
+username: TheRealYoussef
+lastLoginAt: 1630848454184
+daysUsed: 1
+pwaUsed: false
+gender: Male
+styles:
+  SalsaNewYork:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SalsaLA:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: ""
+updatedAt: 1630848559788
+viewsCount: 23
+id: kLJckqigk3PD5ULodpHhWKW7Hr22

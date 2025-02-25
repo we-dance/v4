@@ -1,0 +1,124 @@
+endDate: 1722570300000
+sourceUrl: https://facebook.com/events/s/salsa-on-the-patio-every-thurs/1615495369015207/
+createdAt: 1722348038602
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1722282378000
+updatedAt: 1722348038602
+importedAt: 1722348038602
+providerUpdatedAt: 1722282378000
+facebookId: "1615495369015207"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/salsa-on-the-patio-every-thurs/1615495369015207/
+eventType: Party
+providerItemId: 70rmaohl71j3abb56hij2b9kcoo34bb2c9i62b9j6hgjicr3c8q30ob364@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: "Salsa on the Patio (Every Thursday) "
+location: 1838 Bardstown Rd, Suite 100, Louisville, KY, United States, Kentucky 40205
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1722556800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 1838 Bardstown Rd Suite 100, Louisville, KY 40205, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 1838 Bardstown Rd Suite 100
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.7012230802915
+        lat: 38.22619881970851
+      northeast:
+        lng: -85.69852511970849
+        lat: 38.22889678029151
+    location:
+      lng: -85.69993869999999
+      lat: 38.22745520000001
+  address_components:
+    - types:
+        - subpremise
+      short_name: Suite 100
+      long_name: Suite 100
+    - types:
+        - street_number
+      short_name: "1838"
+      long_name: "1838"
+    - types:
+        - route
+      short_name: Bardstown Rd
+      long_name: Bardstown Road
+    - types:
+        - neighborhood
+        - political
+      short_name: Deer Park
+      long_name: Deer Park
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40205"
+      long_name: "40205"
+  place_id: ChIJAwAQALoMaYgRkgFH6emh73k
+  url: https://maps.google.com/?q=1838+Bardstown+Rd+Suite+100,+Louisville,+KY+40205,+USA&ftid=0x88690cba00100003:0x79efa1e9e9470192
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1722348051383
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/NocheMexicanBBQ
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722348051/jwscdzf483wwxrlgskhk.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1722348051383
+  owned: false
+  name: Noche Mexican BBQ
+  place: ChIJOeD-tscMaYgRECvCGs7YxPw
+  updatedAt: 1722348051383
+  username: NocheMexicanBBQ
+claimed: No
+facebook: https://www.facebook.com/events/1615495349015209/?event_time_id=1615495369015207
+link: ""
+description: "Join us every Thursday evening for Salsa Lessons on the Patio.
+  Salsa dancing until 11 pm and Kitchen and Bar opening until midnight. Tacos
+  Nachos Wings and $10 Cuba Libre all night long. "
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722348052/skma7d2p61tmqsbpudxg.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJOeD-tscMaYgRECvCGs7YxPw
+international: No
+hash: 1722556800000+ChIJAwAQALoMaYgRkgFH6emh73k
+id: rMVQjFiwZ1kqxiRvH3GF

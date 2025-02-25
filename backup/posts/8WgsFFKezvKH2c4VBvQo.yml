@@ -1,0 +1,136 @@
+createdAt: 1729854474678
+updatedAt: 1729854474678
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+sourceUrl: https://www.facebook.com/events/1668030490430257/1668030593763580/
+venue:
+  address_components:
+    - long_name: 15A
+      short_name: 15A
+      types:
+        - street_number
+    - long_name: Neuhauser Straße
+      short_name: Neuhauser Str.
+      types:
+        - route
+    - long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: München
+      short_name: München
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Oberbayern
+      short_name: Oberbayern
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Bayern
+      short_name: BY
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "80331"
+      short_name: "80331"
+      types:
+        - postal_code
+  formatted_address: Neuhauser Str. 15A, 80331 München, Germany
+  geometry:
+    location:
+      lat: 48.13758809999999
+      lng: 11.5698826
+    viewport:
+      northeast:
+        lat: 48.1390149802915
+        lng: 11.5708628802915
+      southwest:
+        lat: 48.1363170197085
+        lng: 11.5681649197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 89 44313886
+  name: The KULT TANZSCHULE in ADTV
+  place_id: ChIJnwr0yvV1nkcR2kdAim8pDB8
+  url: https://maps.google.com/?cid=2237208673933871066
+  website: http://www.kult-tanzschule.de/
+endDate: 1729891800000
+claimed: No
+link: ""
+description: >-
+  🥳 Join The best salsa party in munich💃 
+   
+
+  Join us every Friday for an electrifying Salsa Party at Kult Tanzstudio, where the rhythm never stops! Come and dance with the best Salsa dancers in Munich and enjoy our amazing DJ line-up.
+
+
+  From the moment the doors open, immerse yourself in the vibrant world of Salsa. Let the Latin beats guide your every step and twirl on our exclusive Salsa-only dance floor. 
+
+
+  Event Details:
+
+
+  Location: Kult Tanzstudio
+
+  Time: Party starts at 20:30 until 01:30
+
+  Entry: €10 (+2,50 Drink Voucher)
+   
+
+  NEW IN 2024: Happy Hour Alert! From 21:00 to 22:30, enjoy all long drinks for just 5 €. Perfect to get you in the groove!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/1668030490430257/?event_time_id=1668030593763580
+facebookId: "1668030593763580"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: Friday SALSA PARTY at Kult
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1729881000000+ChIJnwr0yvV1nkcR2kdAim8pDB8
+startDate: 1729881000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729854484/qmk4iv2vutrqfslndxpa.jpg
+org:
+  createdAt: 1729854479557
+  importedAt: 1729854479557
+  updatedAt: 1729854479557
+  source: facebook
+  name: Obaid Rahimi
+  facebook: https://www.facebook.com/pfbid02evW777YEaWpp8R46jhrnS9ZrTaLYMjHzgYuMcCSTXY8Aduew5Zw8hpc7AwHJqHJMl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1729854480/j9zn7yxprdklhblgzlpp.jpg
+  username: obaid.rahimi
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+viewsCount: 6
+id: 8WgsFFKezvKH2c4VBvQo

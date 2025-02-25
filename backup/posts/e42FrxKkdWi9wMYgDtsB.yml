@@ -1,0 +1,148 @@
+venue:
+  formatted_address: Aschauer Str. 24, 81549 München, Germany
+  name: Aschauer Str. 24
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6014614302915
+      south: 48.1042951697085
+      north: 48.10699313029149
+      west: 11.5987634697085
+    location:
+      lng: 11.5997009
+      lat: 48.1055546
+  address_components:
+    - types:
+        - street_number
+      short_name: "24"
+      long_name: "24"
+    - types:
+        - route
+      short_name: Aschauer Str.
+      long_name: Aschauer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ramersdorf-Perlach
+      long_name: Ramersdorf-Perlach
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81549"
+      long_name: "81549"
+  map: ""
+  url: https://maps.google.com/?q=Aschauer+Str.+24,+81549+M%C3%BCnchen,+Germany&ftid=0x479ddfa4ea1140d5:0xd8dc373ce558d19d
+  place_id: ChIJ1UAR6qTfnUcRndFY5Tw33Ng
+  room: Tanzschule Swing Onstage
+claimed: No
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FlQ0ufxwmuwhRtL13sVsCScbrscu2%2F0c1da8b3-935a-48ab-9815-3db04209431c?alt=media&token=133a3102-74ce-4653-91c9-f069a7284d36
+duration: 60
+createdAt: 1661835197974
+artists: []
+price: 15 EUR / Stunde
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1661835197974
+updatedBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/peyman.saba/
+  name: Peyman
+  photo: ""
+  bio: ""
+  instagram: ""
+  id: MSxq3sqswZe9VfpHqFsI7OGngSD3
+  username: Peyman
+facebook: https://www.facebook.com/events/588459469489772/?ref=newsfeed
+eventType: Workshop
+form: No
+createdBy: lQ0ufxwmuwhRtL13sVsCScbrscu2
+name: Workshopreihe Reggaeton, Salsacubana & Zumba
+online: No
+styles:
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Zumba:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-10-08T12:30
+username: Franzi
+telegram:
+  requestedAt: 1661851533470
+  messageUrl: https://t.me/WeDanceMunich/570
+  publishedAt: 1661851536998
+  messageId: 570
+  state: published
+endDate: 2022-10-08T13:30
+description: >-
+  Am Samstag, den 08. Oktober, werden diese Drei Trainer ein Stück
+  südamerikanische Freude nach München bringen und dich richtig zum schwitzen
+  bringen. Hast du Zeit ? Hast Du Lust ? dann Komm und tanz mit uns. Wir freuen
+  uns auf dich . 
+
+
+  - 12:30-13:30  Reggeaton mit Carlos (Preis: 15€)
+
+  - 13.30-14:30  Salsa Cubana Basic mit Peyman 
+   (Preis: 15€)
+  - 14:30-15:30  Salsa Rueda - Intermediate mit Peyman (Preis: 15€)
+
+  - 15:30-16:30  Spezial Zumba  mit Amada  aus Kuba (Preis: 15€)
+
+
+  Anmeldung direkt bei Peyman : 0176-41715065
+id: e42FrxKkdWi9wMYgDtsB
+watch:
+  count: 2
+  list:
+    Franzi: true
+    Sly: true
+instagram:
+  requestedAt: 1665099227946
+  messageUrl: https://instagram.com/p/CjZA_qrJIU_
+  publishedAt: 1665099241292
+  messageId: CjZA_qrJIU_
+  state: published
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fe42FrxKkdWi9wMYgDtsB.png?generation=1665276216346898&alt=media
+viewsCount: 46

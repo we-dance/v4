@@ -1,0 +1,212 @@
+createdAt: 1704822873573
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1207494053222392/
+source: facebook
+updatedAt: 1704822873573
+username: wedancebot
+venue:
+  formatted_address: U Sluncové 71/14, 186 76 Praha 8-Invalidovna, Czechia
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: U Sluncové 71/14
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.4693119197085
+        lat: 50.0974621697085
+      northeast:
+        lng: 14.4720098802915
+        lat: 50.1001601302915
+    location:
+      lng: 14.4708241
+      lat: 50.0988206
+  address_components:
+    - types:
+        - street_number
+      short_name: "14"
+      long_name: "14"
+    - types:
+        - premise
+      short_name: "71"
+      long_name: "71"
+    - types:
+        - route
+      short_name: U Sluncové
+      long_name: U Sluncové
+    - types:
+        - neighborhood
+        - political
+      short_name: Invalidovna
+      long_name: Invalidovna
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 76
+      long_name: 186 76
+  place_id: ChIJMfP55laTC0cRH8WSLKdRijE
+  url: https://maps.google.com/?q=U+Sluncov%C3%A9+71/14,+186+76+Praha+8-Invalidovna,+Czechia&ftid=0x470b9356e6f9f331:0x318a51a72c92c51f
+visibility: Public
+endDate: 1708923600000
+org:
+  owner: ""
+  importedAt: 1704822883260
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/praguebachatafestival
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/291679281_450647100402455_6619638830204191600_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=104&ccb=1-7&_nc_sid=596444&_nc_ohc=BZHYTUUwFCIAX_tXWpA&_nc_ht=scontent-atl3-2.xx&oh=00_AfAE-7tjUbu0TECymuLIKQ3ogY8TuNAKnsFBHxUBXdqb_Q&oe=65A26840
+  source: facebook
+  type: Organiser
+  createdAt: 1704822883260
+  owned: false
+  name: Prague Bachata festival
+  place: ChIJQ14tu6eUC0cRIdg-Eo0jtGc
+  updatedAt: 1704822883260
+  username: praguebachatafestival
+claimed: No
+facebookId: "1207494053222392"
+link: https://my.weezevent.com/prague-bachata-urban-kiz-festival-6th-sexy-heels-edition?_gl=1%2Aspav7f%2A_gcl_au%2AMTk4MTA1OTcyNS4xNjg4MjkyNDU3%2A_ga%2AMTcxODUwNjc2NC4xNjg4MjkyNDU4%2A_ga_39H9VBFX7G%2AMTY4ODM2NjI0Mi4yLjEuMTY4ODM2Njc2Ni41LjAuMA..
+description: >-
+  PRAGUE BACHATA & URBANKIZ CONGRESS 2024 - 6th edition... ☆★☆ NEW PLACE ☆★☆ 2.
+  BIG ROOMS
+
+
+  ★ ALL IN ONE PLACE! ★ 
+
+  World bachata social dance competition
+
+
+  The place to be in February,  in the most romantic heart of Europe! 
+
+
+  ​
+
+  We are UNIQUE!
+
+  ☆ LIMITED spots, so you can MEET & DANCE with artists
+
+  ☆ ENOUGH SPACE for practise and dancing for everyone
+
+  ☆ PERFECT RATIO 50:50 leaders & followers on workshops
+
+  ☆ World bachata social dance competition
+
+  ☆ Air con
+
+  ☆ All in 1 hotel
+
+
+  ★ ARTISTS  BACHATA ★
+
+  Kenzo & Yuli (SPAIN)
+
+  Jorge & Monica (SPAIN)
+
+  Klaudia  (POLAND)
+
+  Grzegorz & Karolina (POLAND)
+
+  Luigi & Steffi (Germany)
+
+  Yatin & Nicol ( Czech republic)
+
+
+  ★  Guest dancers ★ 
+
+  Majka&Lucas Magic touch
+
+
+  DJ MomoLatino (Italy)
+
+  DJ Andy  (Viena - Austria)
+
+  DJ Balito ( Budapest )
+
+
+
+  ★ ARTISTS URBANKIZ ★
+
+  Yami SO (Paris)
+
+  Rudson  Santos (CVE)
+
+  Dadie (Paris)
+
+  Daniel Schauenburg  (Germany)
+
+  Elina (CZ)
+
+
+
+  DJ Seth
+
+  DJ Lamin
+
+  DJ Tarrixa
+
+  DJ 4
+
+
+
+  ★  Guest dancers ★
+
+  To be announced
+
+
+
+  Gente Baila z.s.
+
+  + 420 733 610 041
+program: []
+eventType: Congress
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Prague Bachata & Urbankiz Congress 2024 - official event 6th edition -
+  NEW PLACE "
+online: No
+styles:
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJQ14tu6eUC0cRIdg-Eo0jtGc
+international: No
+hash: 1708714800000+ChIJMfP55laTC0cRH8WSLKdRijE
+startDate: 1708714800000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FyMbz0JpCFU68OcnfPWXv.png?generation=1704822911090736&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853684/ykq9kvrx6qnlbnya2yjk.jpg
+viewsCount: 14
+id: yMbz0JpCFU68OcnfPWXv

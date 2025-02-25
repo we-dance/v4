@@ -1,0 +1,83 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631962157384
+createdBy: iLZ6V3V5ZjhO64WpZE20Efl5aVl1
+name: Lisou
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: Lisou
+pwaUsed: false
+locales:
+  de: true
+  pt: true
+  en: true
+  it: true
+  fr: true
+  es: true
+contacts: ""
+gender: Female
+visibility: Members
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FiLZ6V3V5ZjhO64WpZE20Efl5aVl1%2F3a585ab4-550b-4d40-9f30-ee74b322038b?alt=media&token=fdef034b-18e3-422d-b928-86c4c1dbad0b
+permission: No
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+current: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+  ChIJM_8Z6UAP9EcRQA3oy688CQQ: true
+styles:
+  ForroLove:
+    level: Interested
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Casino:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Timba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+  RuedaDeCasino:
+    level: Advanced
+    highlighted: false
+    selected: true
+partner: Yes
+jobs: Languages
+bannerNps: yes
+updatedAt: 1673689501998
+lastLoginAt: 1680556480166
+daysUsed: 5
+viewsCount: 37
+id: iLZ6V3V5ZjhO64WpZE20Efl5aVl1

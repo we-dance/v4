@@ -1,0 +1,139 @@
+endDate: 1723422600000
+sourceUrl: https://facebook.com/events/s/sweet-heat/1134681577599136/
+createdAt: 1722434423572
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1722405213000
+updatedAt: 1722434423572
+importedAt: 1722434423572
+providerUpdatedAt: 1722405213000
+facebookId: "1134681577599136"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/sweet-heat/1134681577599136/
+eventType: Party
+providerItemId: 70qj8d9mckq62b9k68qm8b9kc8o64bb1cpim8bb274o6cpj3cosj8ob2c8@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Sweet Heat
+location: Riddim N Spice (Nashville, TN)
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1723411800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 2116 Meharry Blvd, Nashville, TN 37208, USA
+  website: https://www.riddimnspice.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Riddim n Spice
+  geometry:
+    viewport:
+      southwest:
+        lng: -86.8119937802915
+        lat: 36.1664593197085
+      northeast:
+        lng: -86.80929581970848
+        lat: 36.1691572802915
+    location:
+      lng: -86.8106581
+      lat: 36.16788909999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "2116"
+      long_name: "2116"
+    - types:
+        - route
+      short_name: Meharry Blvd
+      long_name: Meharry Boulevard
+    - types:
+        - neighborhood
+        - political
+      short_name: Fisk/Meharry
+      long_name: Fisk/Meharry
+    - types:
+        - locality
+        - political
+      short_name: Nashville
+      long_name: Nashville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Davidson County
+      long_name: Davidson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: TN
+      long_name: Tennessee
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "37208"
+      long_name: "37208"
+  international_phone_number: +1 615-953-7121
+  place_id: ChIJGxMRZj1nZIgRaIHFM43aUqk
+  url: https://maps.google.com/?cid=12201054640493920616
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1722434442449
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/NashvilleSalsaDancing
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722434443/rbuuxp6leih3tletboms.png
+  source: facebook
+  type: Organiser
+  createdAt: 1722434442449
+  owned: false
+  name: Nashville Salsa Dancing
+  place: ChIJK9_U1sJmZIgR-IjYmIPJij4
+  updatedAt: 1722434442449
+  username: nashville.salsa.danc
+claimed: No
+facebook: https://www.facebook.com/events/1134681577599136/
+link: ""
+description: >-
+  Let's dance!
+
+
+  No lesson, just dancing. Make sure to grab some food and/or drinks to support the venue.
+
+
+  Enjoy a mix of Salsa and Bachata, eat, drink and be merry!
+
+
+  $10
+
+
+  Need a class? 
+
+  Check out NashvilleSalsaDancing.com/salsafoundations to sign up for our next Foundations series!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1722434444/wuj2xuiesow2uycs6aog.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJK9_U1sJmZIgR-IjYmIPJij4
+international: No
+hash: 1723411800000+ChIJGxMRZj1nZIgRaIHFM43aUqk
+id: 20sNmwsTXxa0AO8r186O

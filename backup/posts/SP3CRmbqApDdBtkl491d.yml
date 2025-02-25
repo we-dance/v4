@@ -1,0 +1,136 @@
+isNew: true
+facebookId: "1085785556887087"
+facebookUrlsList:
+  - https://www.facebook.com/events/1085785556887087
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1730818832381
+updatedAt: 1730818832381
+importedAt: 1730818832381
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48711-1731715200-1731801599@latinfo.hu
+providerCreatedAt: 1730796513000
+providerUpdatedAt: 1730796513000
+startDate: 1731715200000
+endDate: 1731801599000
+sourceUrl: https://www.facebook.com/events/1085785556887087
+location: Cafe Radnóti, Egyetem utca 2., Szeged, 6722, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Reggaeton:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "2"
+      short_name: "2"
+      types:
+        - street_number
+    - long_name: Egyetem utca
+      short_name: Egyetem u.
+      types:
+        - route
+    - long_name: Szeged
+      short_name: Szeged
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "6722"
+      short_name: "6722"
+      types:
+        - postal_code
+  formatted_address: Szeged, Egyetem u. 2, 6722 Hungary
+  geometry:
+    location:
+      lat: 46.24751510000001
+      lng: 20.1408427
+    viewport:
+      northeast:
+        lat: 46.24893638029151
+        lng: 20.1421097802915
+      southwest:
+        lat: 46.24623841970851
+        lng: 20.1394118197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  international_phone_number: +36 30 080 0070
+  name: Cafe Radnóti
+  place_id: ChIJ91zlE4yJREcRQNnEoxuE6N8
+  url: https://maps.google.com/?cid=16134290919301372224
+visibility: Public
+org:
+  id: FOQQSKaxawoK3U3FP0hw
+  username: szegedance
+  name: Szegedance Tánciskola
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1710684387/ynmv2tkddwrv4g6chwkp.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/szegedance
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/1085785556887087/
+link: ""
+description: >-
+  Folytassuk a buliszériát a kedvenc helyszínünkön! 
+
+
+  Salsa és Bachata buli a Cafe Radnótiban!
+
+
+  Kubai hangulat, jobbnál jobb zenék és a kedvenc animációitok, egészen hajnal 1-ig! 
+
+
+  Ismét a legjobb latin ritmusokkal, sokszínű salsa és bachata zenékkel várunk!
+
+  Nem az számít, hogy hol és mennyit tanultál, gyere és élvezd a tánc világát, amit mindannyian szeretünk!
+
+
+  A program:
+
+  20:00 - 01:00 Buli megállás nélkül, ruedákkal, animációkkal (salsa, reggaeton)
+
+  Zenék mindenkinek, kezdőtől haladó szintig, salsa és bachata, klasszikusok és aktuális slágerek, buli zenéktől a romantikáig, megszakítás nélkül.
+
+
+  Belépő:
+
+  2500 Ft
+
+
+  Főbejárat a Göncz Árpád sétány felől! 
+
+  A helyszín: https://www.facebook.com/100074199340048/videos/887036132005964
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1730818847/xphaqdkfv79gizsaoas9.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Salsa és Bachata buli a Cafe Radnótiban
+online: No
+place: ChIJS-XMK-KHREcRkBEeDCnEAAQ
+international: No
+hash: 1731783600000+ChIJ91zlE4yJREcRQNnEoxuE6N8
+id: SP3CRmbqApDdBtkl491d

@@ -1,0 +1,153 @@
+sourceUrl: https://www.facebook.com/share/LL17URrbbmutrhPN/?mibextid=9l3rBW
+createdAt: 1715667599791
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1715667599791
+username: Dj_Omega
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5612295197085
+        lat: 48.1391029197085
+      northeast:
+        lng: 11.5639274802915
+        lat: 48.1418008802915
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+endDate: ""
+claimed: No
+link: ""
+description: >
+  ꧁ 𝟠𝕥𝕚𝕞𝕖𝕤 𝟚𝕘𝕖𝕥𝕙𝕖𝕣 𝕎𝕖𝕖𝕜𝕝𝕪 ℙ𝕒𝕣𝕥𝕪 𝕚𝕟 𝕄𝕦𝕟𝕚𝕔𝕙! ꧂
+
+
+  ✨ Special UrbanKiz Workshop with Myriam & Dani - party with DJ Ichigo ✨
+
+
+  Dear dance community in and around Munich, we would like to bring you the "8times 2gether" feeling of joy and sharing, and spend an evening full of learning, dancing, and having fun!
+
+
+  ꧁ PROGRAM ꧂
+
+
+  20h00 - 20h15 Registration
+
+  20h15 - 21h15 UrbanKiz Workshop with Myriam & Dani (open level)
+
+  21h30 - 01h00 Party with DJ Ichigo
+
+
+  ꧁ PRICES AND PAYMENT ꧂
+
+
+  Workshop & Party: 15€
+
+  Party only: 10€
+
+  💵 one free soft (0.25ml, coke, sprite, fanta, or water) when you enter before 10PM
+
+
+  ➡️ Payment at the door in cash or via PayPal possible.
+
+  🚨 Limited spots for the workshop!
+
+  📍Bird bar 🦜
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/894550654
+  name: Dj-Omega Christina
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707821334/fccidwl95vdkhk6zhwfe.jpg
+  bio: ""
+  id: BxjwfotDphpUCsmjLT7Y
+  instagram: ""
+  username: dj-omega.christina
+facebook: https://www.facebook.com/events/346744077988893/
+facebookId: "346744077988893"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: 8times 2gether Weekly Party Munich | UrbanKiz Workshop with Myriam & Dani
+  - Party with DJ Ichigo
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1715709600000+ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+startDate: 1715709600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715667617/zysopqyrwcandsnpxlhu.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgKQLysF5kZBpXkkA0mAy.png?generation=1715667636623906&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C68EmucgPVx
+  publishedAt: 1715667664492
+  messageId: C68EmucgPVx
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 4
+id: gKQLysF5kZBpXkkA0mAy

@@ -1,0 +1,182 @@
+endDate: 1714870800000
+sourceUrl: https://www.facebook.com/events/2447479212120937/
+createdAt: 1714131838614
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1708719838000
+updatedAt: 1714131838614
+importedAt: 1714131838614
+providerUpdatedAt: 1714119899000
+facebookId: "2447479212120937"
+facebook: https://www.facebook.com/events/2447479212120937/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/2447479212120937/
+eventType: Party
+providerItemId: e2447479212120937@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: '𝐁𝐀𝐂𝐇𝐀𝐓𝐀 𝐍𝐈𝐆𝐇𝐓 "MAY 4th" '
+location: WCCM - Wallonia Conference Center Mons
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1714838400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Av. Mélina Mercouri 9, 7000 Mons, Belgium
+  website: http://www.wccm.eu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: WCCM - Wallonia Conference Center Mons
+  geometry:
+    viewport:
+      southwest:
+        lng: 3.940443719708497
+        lat: 50.4555456197085
+      northeast:
+        lng: 3.943141680291502
+        lat: 50.45824358029149
+    location:
+      lng: 3.9415243
+      lat: 50.45699219999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Av. Mélina Mercouri
+      long_name: Avenue Mélina Mercouri
+    - types:
+        - locality
+        - political
+      short_name: Mons
+      long_name: Mons
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: HT
+      long_name: Hainaut
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Région Wallonne
+      long_name: Région Wallonne
+    - types:
+        - country
+        - political
+      short_name: BE
+      long_name: Belgium
+    - types:
+        - postal_code
+      short_name: "7000"
+      long_name: "7000"
+  international_phone_number: +32 65 39 02 07
+  place_id: ChIJ72htIlNRwkcRra8mjHHEtoQ
+  url: https://maps.google.com/?cid=9563046850729521069
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1714131890988
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Asis.Belgium
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1714131891/pui0y59tqigym64ylfko.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1714131890988
+  owned: false
+  name: AsiSalsa
+  updatedAt: 1714131890988
+  username: Asis.Belgium
+claimed: No
+link: ""
+description: >+
+  𝐵𝐴𝐶𝐻𝐴𝑇𝐴 𝑁𝐼𝐺𝐻𝑇 🎉
+
+  🇪🇸 𝐸𝑙 𝑚𝑎𝑦𝑜𝑟 𝑒𝑛𝑐𝑢𝑒𝑛𝑡𝑟𝑜 𝑑𝑒 𝐵𝑎𝑐ℎ𝑎𝑡𝑎 𝑑𝑒 𝐵𝑒́𝑙𝑔𝑖𝑐𝑎
+
+  🇫🇷 𝐿𝑒 𝑝𝑙𝑢𝑠 𝑔𝑟𝑜𝑠 𝑒́𝑣𝑒́𝑛𝑒𝑚𝑒𝑛𝑡 𝐵𝑎𝑐ℎ𝑎𝑡𝑎 𝑑𝑢 𝑅𝑜𝑦𝑎𝑢𝑚𝑒
+
+  🇬🇧 𝑇ℎ𝑒 𝑏𝑖𝑔𝑔𝑒𝑠𝑡 𝐵𝑎𝑐ℎ𝑎𝑡𝑎 𝑒𝑣𝑒𝑛𝑡 𝑖𝑛 𝐵𝑒𝑙𝑔𝑖𝑢𝑚
+
+  🇧🇪 𝐻𝑒𝑡 𝑔𝑟𝑜𝑜𝑡𝑠𝑡𝑒 𝐵𝑎𝑐ℎ𝑎𝑡𝑎 𝑒𝑣𝑒𝑛𝑡 𝑖𝑛 𝐵𝑒𝑙𝑔𝑖𝑒̈
+
+
+  💃PROGRAMME:
+
+  19:00 BACHATA FUSION WORKSHOP > AHMEDY & CARO (LDE)
+
+  20:00 BACHATA FUSION WORKSHOP> ARUN & SNEHA 
+
+  21:00 PARTY: DJ's > LK, KAMILO &  EL CANTANTE 
+
+
+  23:30 SHOWS 
+
+  ARUN & SNEHA (NEW SHOW) 
+
+  AHMEDY & CARO (NEW SHOW) 
+
+  GIUSEPPE (NEW SOLO SHOW)
+
+  SURESH & CHLOE (GUESTS)
+
+
+  🔥𝗢𝘂𝗿 𝗗𝗝𝘀:
+
+  DJ LK
+
+  DJ KAMILO 
+
+  DJ EL CANTANTE 
+
+  DJ ASIS
+
+
+  👠👡: Shoes by 
+
+
+  🎟️ Tarifs :
+
+  📍 Lieu :  WCCM  9 AV Mélina Mercouri 7000 Mons 
+
+
+  ⭐️ 𝗟𝘂𝘅𝘂𝗿𝘆 𝗩𝗲𝗻𝘂𝗲
+
+  ⭐️ 𝗦𝗵𝗼𝘄𝘀
+
+  ⭐️ 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀
+
+  ⭐️ 𝗕𝗲𝘀𝘁 𝗗𝗷'𝗦
+
+  ⭐️ 𝗕𝗶𝗴 𝗱𝗮𝗻𝗰𝗲 𝗳𝗹𝗼𝗼𝗿
+
+  ⭐️ 𝗧𝗔𝗫𝗜-𝗗𝗔𝗡𝗖𝗘𝗥𝗦
+
+  ⭐️ 𝗙𝗿𝗲𝗲 𝗣𝗮𝗿𝗸𝗶𝗻𝗴
+
+
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714131892/i3m4d5g5i3zoxcaz9qq2.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ""
+international: No
+hash: 1714838400000+ChIJ72htIlNRwkcRra8mjHHEtoQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FArSxdnn1gPlzBraHDdor.png?generation=1714131913251652&alt=media
+id: ArSxdnn1gPlzBraHDdor

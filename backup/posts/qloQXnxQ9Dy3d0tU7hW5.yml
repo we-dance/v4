@@ -1,0 +1,146 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  name: Pinakothek der Moderne
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  url: https://maps.google.com/?cid=14384342178029021798
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+  room: Area 1
+endDate: 2022-08-24T20:00
+claimed: No
+description: Elito Rojas and Ale de la Paz
+type: event
+downVotes: 0
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F82e04ab2-7bad-4fa8-9dc6-9be29dc124f3?alt=media&token=188d274b-9e67-4a49-a8fa-45390bfcd615
+duration: 60
+createdAt: 1659978387880
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1659978387880
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+star:
+  count: 1
+  list:
+    francisca: true
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/vacunaaa
+  name: Salsa Cubana Munich
+  bio: The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers
+    you know from our parties
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+  instagram: https://instagram.com/salsa.cubana.munich
+  id: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+  username: salsa.cubana.munich
+upVotes: 0
+eventType: Workshop
+form: No
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2022-08-24T19:30
+username: alexrazbakov
+name: Afro Basics - Elegguá
+id: qloQXnxQ9Dy3d0tU7hW5
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FqloQXnxQ9Dy3d0tU7hW5.png?generation=1661259510475102&alt=media
+telegram:
+  requestedAt: 1661259521552
+  messageUrl: https://t.me/WeDanceMunich/565
+  publishedAt: 1661259526032
+  messageId: 565
+  state: published
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Ale De la Paz
+    bio: Bailar para siempre 💕💃🏾
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7hrSfRTIylew2UbvgK9peYM6l492%2Fb39990b6-d2bd-4609-9eb0-180dae2755e2?alt=media&token=c67c1de4-10fa-4f5f-939b-c5a49165e744
+    id: 7hrSfRTIylew2UbvgK9peYM6l492
+    instagram: https://instagram.com/@aledelapazz
+    username: Aledelapaz
+  - youtube: ""
+    role: instructor
+    tiktok: ""
+    facebook: ""
+    name: Elito
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FOE77TsdydbYBBiLDoLy81chyyOf1%2Ff019a3c2-32ab-4128-bf62-cda3eed772ab?alt=media&token=0f8536ba-4054-4623-a93a-8c0d1bc5969f
+    bio: 🇨🇺 Cuban | 🕺🏾🪘🪘100% Salsero, Rumbero & Timbero | 🕺🏾Dancer | 💻
+      Software Engineer | 👨🏾‍💻Programmer | 🏠 Munich, Bavaria. Germany 🇩🇪
+    instagram: ""
+    id: OE77TsdydbYBBiLDoLy81chyyOf1
+    username: elitosalsero
+program: []
+artistsList:
+  - Aledelapaz
+  - elitosalsero
+viewsCount: 37

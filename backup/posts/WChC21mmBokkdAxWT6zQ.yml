@@ -1,0 +1,155 @@
+createdAt: 1704822889665
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1054437579014199/
+source: facebook
+updatedAt: 1704822889665
+username: wedancebot
+venue:
+  formatted_address: Paul Gilsonlaan 450, 1620 Drogenbos, Belgium
+  website: http://thebackyardbrussels.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: The Backyard Brussels
+  geometry:
+    viewport:
+      southwest:
+        lng: 4.306892319708499
+        lat: 50.7948257197085
+      northeast:
+        lng: 4.309590280291504
+        lat: 50.7975236802915
+    location:
+      lng: 4.307994900000001
+      lat: 50.79640549999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "450"
+      long_name: "450"
+    - types:
+        - route
+      short_name: Paul Gilsonlaan
+      long_name: Paul Gilsonlaan
+    - types:
+        - locality
+        - political
+      short_name: Drogenbos
+      long_name: Drogenbos
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: VB
+      long_name: Vlaams-Brabant
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vlaams Gewest
+      long_name: Vlaams Gewest
+    - types:
+        - country
+        - political
+      short_name: BE
+      long_name: Belgium
+    - types:
+        - postal_code
+      short_name: "1620"
+      long_name: "1620"
+  international_phone_number: +32 474 92 36 92
+  place_id: ChIJQRyVeqvFw0cRWzAxrhH5vWA
+  url: https://maps.google.com/?cid=6971001652571615323
+visibility: Public
+endDate: 1717977600000
+org:
+  owner: ""
+  importedAt: 1704822892130
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/brusselssalsamarathon
+  photo: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/352241218_580835947258525_3914897887547240163_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=596444&_nc_ohc=vIDTHc_gUa4AX_R_WrX&_nc_oc=AQmSBwc6M0vePQ5TcGUxO8R9JwdSYkeuXlZLC1bBFgO3zLO6YE5JODu0RNb55cHJGmM&_nc_ht=scontent-iad3-2.xx&oh=00_AfDaZ4AlREk8DybltLaObNaEWJM6oYcIX2DHePi3Gkxs_w&oe=65A23564
+  source: facebook
+  type: Organiser
+  createdAt: 1704822892130
+  owned: false
+  name: Brussels Salsa Marathon
+  place: ChIJWZUh3CPDw0cRN3MSpZExTlk
+  updatedAt: 1704822892130
+  username: brusselssalsamarathon
+claimed: No
+facebookId: "1054437579014199"
+link: https://www.goandance.com/en/events/6572-brussels-salsa-marathon
+description: >-
+  Brussels Salsa Marathon brings together salsa lovers from around the world for
+  a weekend of non-stop music. Whether you're a seasoned pro or just starting
+  out, you won't want to miss this incredible experience.
+
+
+  Our lineup of world-class Dj's will have you moving and grooving all weekend long, and our cosy venue provides the perfect backdrop for an unforgettable weekend.
+
+
+  + Dj Dmitri (DE)
+
+  + Dj Emilio (BE)
+
+  + Dj Marc El Magico (LU)
+
+
+  Our Chef:
+
+  - "Mama Kenza" who masters traditional recipes passed down from grandmothers for centuries.
+
+
+  Vegetarian?? Welcome.
+
+
+  + Dinners from 7pm to 10pm. (FR/SA/SU).
+
+  + Brunches from 12pm to 3pm. (SA/SU).
+
+
+  Authenticity, friendliness & pleasure are our values.
+
+
+  Limited to 100 participants to guarantee you a maximum of good service.
+
+
+  Here are our prices: (5 meals included)
+
+  *********************
+
+  Early Birds: 149€. (10 available)
+
+  Full Pass : 169€. (until May 7th)
+
+  Full Pass: 189€. (after May 7th)
+
+
+  PS: We only sell Full Passes!!
+program: []
+eventType: Party
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Brussels Salsa Marathon -Edition 05-
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJWZUh3CPDw0cRN3MSpZExTlk
+international: No
+hash: 1717779600000+ChIJQRyVeqvFw0cRWzAxrhH5vWA
+startDate: 1717779600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FWChC21mmBokkdAxWT6zQ.png?generation=1704822915925329&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853312/ndiarqkvbognsejufxmg.jpg
+viewsCount: 26
+id: WChC21mmBokkdAxWT6zQ

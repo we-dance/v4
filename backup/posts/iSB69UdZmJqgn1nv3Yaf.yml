@@ -1,0 +1,131 @@
+endDate: 1726963199000
+sourceUrl: https://www.facebook.com/events/1596467204598559/
+createdAt: 1726581629185
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1726555995000
+updatedAt: 1726581629185
+importedAt: 1726581629185
+providerUpdatedAt: 1726555995000
+facebookId: "1596467204598559"
+facebook: https://www.facebook.com/events/1596467204598559/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1596467204598559/
+eventType: Party
+providerItemId: 48177-1726876800-1726963199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Morrison’s 2 Klub, Szent István Körút 11., Budapest, 1055, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1726876800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Szent István krt. 11, 1055 Hungary
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Szent István krt. 11
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.0490361197085
+        lat: 47.5107807697085
+      northeast:
+        lng: 19.0517340802915
+        lat: 47.5134787302915
+    location:
+      lng: 19.05032
+      lat: 47.512051
+  address_components:
+    - types:
+        - street_number
+      short_name: "11"
+      long_name: "11"
+    - types:
+        - route
+      short_name: Szent István krt.
+      long_name: Szent István körút
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: V. kerület
+      long_name: V. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1055"
+      long_name: "1055"
+  place_id: ChIJD37A9w7cQUcR91odkv0WpXQ
+  url: https://maps.google.com/?q=Budapest,+Szent+Istv%C3%A1n+krt.+11,+1055+Hungary&ftid=0x4741dc0ef7c07e0f:0x74a516fd921d5af7
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mimusica.djtombao
+  name: Mi musica - salsa, bachata parties - DJ Tombao
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765525/vh41vys5klv8yhnts13s.jpg
+  bio: ""
+  id: nD23oRVHFCEDLp84nONP
+  instagram: ""
+  username: mimusica.djtombao
+claimed: No
+link: ""
+description: >-
+  Morrison's 2 Salsa-Bachata party × Szombat-Saturday × start: 20:00-01:00 ×
+  ruhatárral-cloakroom inc.
+
+
+  Budapest belvárosában, extra környezetben, egész éjszakás salsa-bachata est. DJ Akosz pörgeti a lemezeket. Gyere tánccipôben vagy laposban, mindkettôben jól érzed majd magad. Profin hûtött termet kaptunk a legendás szórakozóhelyen, ráadásul külön sorban engednek be az ajtónál és csak nekünk tartanak fent egy saját ruhatárat. A spéci táncterem mellett miénk a bár és minden egyéb azon a szinten. Ilyen extraságot mi kapunk elsôként hétvégére! Élvezzük hàt együtt a különleges estet a belvárosi forgatagban!
+
+
+  ENG: 
+
+
+  In downtown Budapest, in an extra setting, all nighter salsa-bachata party. DJ Akosz spins the records. Come in your dancing shoes or flats, you'll feel good in both. We've got a pro chilled room at this legendary nightclub, plus they let you in with a separate line at the door and keep a private cloakroom just for us. In addition to the special dance floor, we have the bar and everything else on that floor for only ourselves. This is the first extravagance we get for a weekend event in this venue! Let's enjoy a special evening together in the hustle and bustle of Budapest downtown!
+
+
+  további részletek hamarosan! 💃 more info soon!
+
+
+  apróbetûs 👇 additional info:
+
+
+  Ruhatár használata kötelezô, a belépôjegy ára tartalmazza! Ételt-italt behozni nem szabad, a bejáratnál szigorúan veszik.
+
+  The entrance ticket includes the cloakroom, therefore it's mandantory. Food or drinks better be left at home, the checkup at the entrance is pretty straight forward.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726581644/eqx17i6yajvl9alva82d.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: "Morrison's 2 Salsa-Bachata party × Szombat-Saturday × start: 20:00-01:00
+  × ruhatárral-cloakroom inc."
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1726941600000+ChIJD37A9w7cQUcR91odkv0WpXQ
+id: iSB69UdZmJqgn1nv3Yaf

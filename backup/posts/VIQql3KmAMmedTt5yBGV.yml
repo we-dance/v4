@@ -1,0 +1,161 @@
+endDate: 1724889599000
+sourceUrl: https://www.facebook.com/events/7768113433270304/7911222628959383/
+createdAt: 1724335224999
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1724213968000
+updatedAt: 1724335224999
+importedAt: 1724335224999
+providerUpdatedAt: 1724213968000
+facebookId: "7911222628959383"
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/7768113433270304/7911222628959383/
+eventType: Party
+providerItemId: 47855-1724803200-1724889599@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Stifler Garden, Stefánia út 3., Budapest, 1143, Magyarország
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1724803200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Budapest, Stefánia út 1, 1143 Hungary
+  website: https://stiflergarden.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Stifler Garden
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.1056458697085
+        lat: 47.5013877197085
+      northeast:
+        lng: 19.1083438302915
+        lat: 47.5040856802915
+    location:
+      lng: 19.1069119
+      lat: 47.502806
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Stefánia út
+      long_name: Stefánia út
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: XIV. kerület
+      long_name: XIV. kerület
+    - types:
+        - locality
+        - political
+      short_name: Budapest
+      long_name: Budapest
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - postal_code
+      short_name: "1143"
+      long_name: "1143"
+  international_phone_number: +36 20 200 1000
+  place_id: ChIJVTIRcZncQUcRdPtCoNFHgxg
+  url: https://maps.google.com/?cid=1766334444521847668
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/pfbid0y3vxvCAZxU8zneqqAZiFgRhFVCbtmg3mKkUz8fA5kois1au8KtJzZQxNwn4oY3SCl
+  name: Tímea Nagy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1722520843/ul33wjzxix3w9aveiwwk.jpg
+  bio: ""
+  id: XMS9KNeJ6Ho9n9hhmsO4
+  instagram: ""
+  username: timea.nagy
+claimed: No
+facebook: https://www.facebook.com/events/7768113433270304/?event_time_id=7911222628959383
+link: ""
+description: >-
+  (ENG below) Fedett, de oldalt nyitott, ventilátoros teraszon 50-50%
+  Salsa-Bachata Terasz Party: a legkedvesebb slágerek legjava
+
+  Ez alkalommal DJ Akosz zenél nekünk :) 
+
+
+  ingyenes terasz buli táncparkettel, ventilátorokkal a Puskás Ferenc Stadion metró- és buszmegálló mellett
+
+  × táncparkettel
+
+  × jó levegővel
+
+  × kiváló koktélokkal és jeges hűsítőkkel
+
+
+  Szerda esténként 20:00 órától
+
+
+  asztalfoglalás: +3620-200-1000
+
+  Start: 20:00 - vége: éjfél
+
+  Szeretettel várunk!
+
+
+
+  ENG:
+
+  Covered terrace but open on the side :: 50-50% Salsa-Bachata Terrace Party: the best of the best hits
+
+  This time DJ Akosz is going to spin the records :)
+
+
+  Free terrace party with proper dance floor and fans - efficient ventillation - next to Puskás Ferenc Stadium metro and bus stop
+
+  × with dance floor
+
+  × good airflow
+
+  × excellent cocktails and icy refreshments
+
+
+  Wednesday evenings from 20:00
+
+
+  Reservations: +3620-200-1000
+
+  Start: 20:00 - end: midnight
+
+  We look forward to seeing you!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1724335234/wk1o4jdkbyownhaiez2u.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: 50-50% Salsa-Bachata Terrace Party × Stifler Garden × DJ Akosz ×
+  ingyenes-free-gratuito × 8pm-12am
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1724868000000+ChIJVTIRcZncQUcRdPtCoNFHgxg
+id: VIQql3KmAMmedTt5yBGV

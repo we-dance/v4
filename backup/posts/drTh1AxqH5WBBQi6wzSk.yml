@@ -1,0 +1,191 @@
+createdAt: 1704822891660
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/995210828564041/
+source: facebook
+updatedAt: 1704822891660
+username: wedancebot
+venue:
+  formatted_address: Julius-Wegeler-Straße 4, 56068 Koblenz, Germany
+  website: http://www.koblenz-kongress.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Rhein-Mosel-Halle
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.598222569708497
+        lat: 50.3516665197085
+      northeast:
+        lng: 7.600920530291502
+        lat: 50.3543644802915
+    location:
+      lng: 7.599942999999999
+      lat: 50.3531092
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Julius-Wegeler-Straße
+      long_name: Julius-Wegeler-Straße
+    - types:
+        - locality
+        - political
+      short_name: KO
+      long_name: Koblenz
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Koblenz
+      long_name: Kreisfreie Stadt Koblenz
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: RP
+      long_name: Rheinland-Pfalz
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "56068"
+      long_name: "56068"
+  international_phone_number: +49 261 914810
+  place_id: ChIJgwfWWaF8vkcR8BJIcM8VPWw
+  url: https://maps.google.com/?cid=7799414110361752304
+visibility: Public
+endDate: 1721008800000
+org:
+  owner: ""
+  importedAt: 1704822897310
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/FestivalExkizSensations2013
+  photo: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/399498023_810657887525662_3291541144990062628_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=100&ccb=1-7&_nc_sid=596444&_nc_ohc=E28XriLQFe4AX_yzR-K&_nc_ht=scontent-atl3-1.xx&oh=00_AfA4xfasQ-DctL1Ic337Qpi-ro0CgGWjkl6KQfUVGiA8BQ&oe=65A2FC39
+  source: facebook
+  type: Organiser
+  createdAt: 1704822897310
+  owned: false
+  name: Exkiz Sensations Festival
+  updatedAt: 1704822897310
+  username: FestivalExkizSensations2013
+claimed: No
+facebookId: "995210828564041"
+link: https://my.weezevent.com/kizomba-castle-exkiz-festival-2024-10th-editionanniversary
+description: >-
+  Sensation Kizomba présente un événement devenu incontournable…
+
+  🌟 Kizomba Castle Exkiz Festival 🌟
+
+  🌟🌟 10ème édition / Anniversary 🌟🌟
+
+
+  Billetterie :
+
+  https://my.weezevent.com/kizomba-castle-exkiz-festival-2024-10th-editionanniversary
+
+
+  Au programme :
+
+  👙 Une Pool party de folie, prévois ton plus beau maillot
+
+  🕺🏿 Des cours de danse pour tous niveaux avec les meilleurs professeurs
+
+  🥳 Des sociales juste dingue
+
+  🏰 Un cadre magnifique au château de Montbraye
+
+  🎉 Des soirées jusqu’au petit matin
+
+  🎶 Les meilleurs Dj de la scène Kizomba
+
+  🥘 Possibilité de se restaurer sur place (Petit-déjeuner, déjeuner et dîner)
+
+  D'autres surprises arrivent...
+
+  MAIS SURTOUT UNE AMBIANCE DE FOLIE JOUR & NUIT 🔥
+
+
+  🌟 Vos artistes KIZOMBA 🌟
+
+  🎵 Vos DJ
+
+  Coming Soon
+
+
+  Professeurs :
+
+  Coming Soon
+
+
+  🌟 Vos artistes BACHATA/SALSA 🌟
+
+  Coming Soon
+
+
+  🎟 PRENDS VITE TON PASS 🎟
+
+  ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+
+  ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
+
+
+  ⚠️ HOMME SHORT DE BAIN OBLIGATOIRE ⚠️
+
+
+  ℹ️ Informations
+
+  kizombacastlefestival@gmail.com
+
+
+  Adresse : Château de Montbraye
+
+  Route de Brette Les Pins
+
+  72250 Parigné L’évêque
+
+
+  🚩 Accès :
+
+  Par voiture : Autoroute A28 - Sortie Parigné l’évêque. Prendre direction Parigné l’évêque
+
+  Par train : Gare TGV Le Mans
+
+  Par avion : Aérodrome du Mans - Aéroports Nantes / Paris
+program: []
+eventType: Festival
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Kizomba Castle - Exkiz Festival - 10TH EDITION
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJnX0jdld7vkcRYLPaENXUIgQ
+international: No
+hash: 1720699200000+ChIJgwfWWaF8vkcR8BJIcM8VPWw
+startDate: 1720699200000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FdrTh1AxqH5WBBQi6wzSk.png?generation=1704822913867436&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853386/xxwno1jtdejolfqwvrf8.jpg
+viewsCount: 18
+id: drTh1AxqH5WBBQi6wzSk

@@ -1,0 +1,206 @@
+endDate: 1719091800000
+sourceUrl: https://www.facebook.com/events/957516972314880/
+createdAt: 1718546443344
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714570420000
+updatedAt: 1718546443344
+importedAt: 1718546443344
+providerUpdatedAt: 1718039819000
+facebookId: "957516972314880"
+facebook: https://www.facebook.com/events/957516972314880/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/957516972314880/
+eventType: Workshop
+providerItemId: e957516972314880@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "SBK-Hannover: Salsa, Bachata & Kizomba auf 3 dancefloors!"
+location: Move & Style Dance Academy
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719081000000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Vahrenwalder Str. 195 A, 30165 Hannover, Germany
+  website: http://www.moveandstyle.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Move & Style Dance Academy
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.7325698197085
+        lat: 52.4032064697085
+      northeast:
+        lng: 9.735267780291505
+        lat: 52.4059044302915
+    location:
+      lng: 9.7338669
+      lat: 52.4046426
+  address_components:
+    - types:
+        - street_number
+      short_name: 195 A
+      long_name: 195 A
+    - types:
+        - route
+      short_name: Vahrenwalder Str.
+      long_name: Vahrenwalder Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Vahrenwald-List
+      long_name: Vahrenwald-List
+    - types:
+        - locality
+        - political
+      short_name: Hannover
+      long_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30165"
+      long_name: "30165"
+  international_phone_number: +49 176 23618272
+  place_id: ChIJeexJ8UgLsEcRyBMwZG1E4Ho
+  url: https://maps.google.com/?cid=8854152104033391560
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/ayoub.laalou.96
+  name: Ayoub Laalou
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220074/htv3gqkgep2fvzf8k95b.jpg
+  bio: ""
+  id: 5iYtLLEgeYTM653u9dhj
+  instagram: ""
+  username: ayoub.laalou.96
+claimed: No
+link: ""
+description: >-
+  Seid dabei, wenn die SBK Hannover am 22. Juni 2024 die Tanzfläche zum Beben
+  bringt!
+
+  ** Salsa, Bachata und Kizomba auf 3 Dancefloors!**
+
+
+  Hallo liebe Tänzerinnen und Tänzer,
+
+
+  am 22. Juni 2024 ist es wieder soweit: Die SBK Hannover lädt euch zu einem unvergesslichen Tanzabend in die Tanzschule Move and Style Dance Academy ein!
+
+
+  Freut euch auf:
+
+
+  3 klimatisierte Dancefloors mit Salsa, Bachata und Kizomba
+
+
+
+  Top-DJs: DJ Ramon(Bachata), DJ Kamal(Salsa) und DJ KizzEss(Kizomba) sorgen für die richtige Stimmung
+
+
+
+  Workshops:
+
+
+  21:00 Uhr: Bachata Mittelstufe mit Moe&Bella**
+
+
+  21:00 Uhr: Salsa Mittelstufe mit Anastasia Susi**
+
+
+  21:00 Uhr: Kizomba Mittelstufe mit Dawid Kizomba Essenz**
+
+
+
+  Showtime:
+
+  23:30 Uhr: Son Divas by Anastasia Susi
+
+  23:40 Uhr: Bersystyle Hannover
+
+
+  **Bitte hier Anmelden:
+
+  https://t1p.de/xf3gz
+
+
+  Open-End: Tanzt die ganze Nacht hindurch!
+
+
+  Eintritt:
+
+  Ab 20:30 Uhr: 25 Euro inkl. Workshop mit Anmeldung/AK 30 euro
+
+  Ab 21:30 Uhr: 15 Euro mit Anmeldung/ AK 20 Euro 
+
+  Anmeldung Unter: 
+
+
+  https://t1p.de/oyea2
+
+  Egal ob Anfänger oder Fortgeschrittener, bei der SBK Hannover ist für jeden etwas dabei! Kommt vorbei und lasst euch von der mitreißenden  und der Leidenschaft der Tänzerinnen und Tänzer anstecken.
+
+
+  Sichert euch jetzt eure Tickets und seid dabei, wenn die SBK Hannover die Tanzwelt Hannovers erobert!
+
+
+
+  Euer SBK Hannover Team
+
+
+  PS: Teilen Sie diese Veranstaltung mit Ihren Freunden und tanzt gemeinsam in den Sommer!
+
+
+  ** Die Teilnahme an die Workshops ist auf 20 Personen pro Workshop begrenzt. Bitte hier anmelden: https://t1p.de/xf3gz 
+
+  oder 
+
+  https://t1p.de/oyea2
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1718546485/p1bceupt56xgtie6rvgk.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+international: No
+hash: 1719081000000+ChIJeexJ8UgLsEcRyBMwZG1E4Ho
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fwxs2BZsqKjd4NEuDMbF5.png?generation=1718546506194599&alt=media
+viewsCount: 4
+id: wxs2BZsqKjd4NEuDMbF5

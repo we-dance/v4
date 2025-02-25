@@ -1,0 +1,169 @@
+venue:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  website: http://www.tanzhausemotion.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzschule München Tanzhaus emotion ADTV
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.6214237802915
+      south: 48.0719041197085
+      north: 48.0746020802915
+      west: 11.6187258197085
+    location:
+      lng: 11.6200113
+      lat: 48.0733528
+  address_components:
+    - types:
+        - street_number
+      short_name: "91"
+      long_name: "91"
+    - types:
+        - route
+      short_name: Biberger Str.
+      long_name: Biberger Straße
+    - types:
+        - locality
+        - political
+      short_name: Unterhaching
+      long_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82008"
+      long_name: "82008"
+  international_phone_number: +49 89 74329895
+  place_id: ChIJHS2vnMnYnUcR2WkYy0VHHn0
+  url: https://maps.google.com/?cid=9015721869128002009
+endDate: 2023-07-09T04:00
+claimed: No
+description: >
+  𝗭𝘄𝗲𝗶 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀 𝗺𝗶𝘁 𝗙𝗮𝗷𝘂𝗹 𝗞𝗶𝘇𝘇𝗧𝗮𝗹𝗸 𝘂𝗻𝗱
+  𝗬𝘂𝗹𝗶𝗶𝗮
+
+
+
+  🌟ＷＯＲＫＳＨＯＰＳ 💃🕺
+
+  20:00 - 21:00 Kizomba / UrbanKiz (Improver)
+
+  21:00 - 22:00 Kizomba / UrbanKiz (Open Level)
+
+
+
+  🌟 𝗣𝗔𝗥𝗧𝗬 𝗮𝗯 𝟮𝟮 𝗯𝗶𝘀 𝟬𝟰 𝗨𝗵𝗿 🥳🥳
+
+  🎶 𝗔𝗟𝗟 𝗔𝗥𝗘𝗔𝗦 (𝑖𝑛 𝑏𝑒𝑖𝑑𝑒𝑛 𝑅𝑎̈𝑢𝑚𝑒𝑛 𝑙𝑎̈𝑢𝑓𝑡 𝑑𝑖𝑒 𝑠𝑒𝑙𝑏𝑒 𝑀𝑢𝑠𝑖𝑘)
+
+
+  Kizomba, UrbanKiz, Tarraxa, Zouk, Doceur, Semba
+
+  >>> 𝘿𝙅 𝙈𝙞𝙭𝙈𝙞𝙡𝙡𝙞𝙤𝙣 & 𝘿𝙅 𝙍𝙚𝙢𝙘𝙮
+
+
+
+  🌟ＰＲＥＩＳＥ：
+
+  1 Kurs 15€
+
+  2 Kurse 25€
+
+  Party 15€
+
+
+  𝗔𝗻𝗺𝗲𝗹𝗱𝘂𝗻𝗴 𝗳𝘂̈𝗿 𝗱𝗶𝗲 𝗞𝘂𝗿𝘀𝗲:
+
+  https://www.kizztalk.de/book-online (Unter dem 08. Juli)
+
+  oder an der Abendkasse.
+
+
+
+  Unsere nächsten Termine:
+
+  Sa 12.08.23
+
+  Sa 09.09.23
+
+  Sa 14.10.23
+
+  Sa 11.11.23
+
+  Sa 09.12.23
+
+  Sa 13.01.24
+
+  Sa 10.02.24
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F0VsGo4WRHgY76IE3H90CDDAUdRx2%2Fb7ab5c48-386b-43e6-8907-dd7f8e8a44c4?alt=media&token=4f9aa4a7-a7c4-4deb-bb5b-c954ddbe9348
+createdAt: 1688016519450
+artists: []
+price: 15 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1688016519450
+updatedBy: 0VsGo4WRHgY76IE3H90CDDAUdRx2
+visibility: Public
+org: {}
+facebook: https://facebook.com/events/s/noche-de-pura-kizomba-juli/1725145714603743/
+eventType: Party
+form: No
+createdBy: 0VsGo4WRHgY76IE3H90CDDAUdRx2
+watch:
+  count: 1
+  list:
+    undefined: true
+name: Noche de Pura Kizomba - Juli
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Semba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-08T20:00
+username: djmixmillion
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FieT9e2dKdHNnhptXvv7M.png?generation=1688017765884617&alt=media
+telegram:
+  requestedAt: 1688016540575
+  messageUrl: https://t.me/WeDanceMunich/1128
+  publishedAt: 1688017770491
+  messageId: 1128
+  state: published
+instagram:
+  requestedAt: 1688016534878
+  state: published
+  messageUrl: https://instagram.com/p/CuECp65OER8
+  publishedAt: 1688017790275
+  messageId: CuECp65OER8
+viewsCount: 53
+id: ieT9e2dKdHNnhptXvv7M

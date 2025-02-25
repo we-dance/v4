@@ -1,0 +1,137 @@
+venue:
+  formatted_address: Karl-Weinmair-Straße 6, 80807 München, Germany
+  website: http://sturmplaza.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Sturm Plaza GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5881590302915
+      south: 48.1785822697085
+      north: 48.1812802302915
+      west: 11.5854610697085
+    location:
+      lng: 11.5867923
+      lat: 48.1798899
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Karl-Weinmair-Straße
+      long_name: Karl-Weinmair-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-Freimann
+      long_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80807"
+      long_name: "80807"
+  place_id: ChIJ6Vk6ujZ0nkcRJj3pxLd1JQg
+  url: https://maps.google.com/?cid=587004758584802598
+endDate: 1702490400000
+claimed: No
+description: Learn Samba dance with Brazilian Irineu Nogueira in Munich.
+  Beginner class on Mondays,intermediate on Wednesdays, always at 7 PM. Join
+  now!
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FzxvU2dkJKhdykUY8UXd3utrK9Wv2%2F18a5ea51-6e79-4e9f-93c4-090c18966d63?alt=media&token=6b886fb6-557b-4024-af6d-f6f0c9bd0836
+createdAt: 1698227721038
+playlist: https://spotify.link/mMwRyGGjbEb
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Irineunogueira
+    photo: ""
+    bio: ""
+    id: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+    instagram: ""
+    username: Irineunogueira
+price: Drop in €20
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - Irineunogueira
+international: No
+paypal: contact@irineunogueira.com
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: Irineunogueira
+  photo: ""
+  bio: ""
+  id: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+  instagram: ""
+  username: Irineunogueira
+eventType: Course
+confirmation: you are on my guest list for the first class. send me email to
+  confirm contact@irineunogueira.com
+form: No
+createdBy: zxvU2dkJKhdykUY8UXd3utrK9Wv2
+watch:
+  count: 1
+  list:
+    Irineunogueira: true
+name: SAMBA NO PÉ
+online: No
+styles:
+  Samba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1698253200000
+username: Irineunogueira
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+review: https://www.irineunogueira.com
+link: https://www.bookwhen.com/irineunogueiradance
+id: MiZVKYtMZngxv2Q2MlDr
+gallery: https://www.irineunogueira.com
+updatedAt: 1698232486867
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FMiZVKYtMZngxv2Q2MlDr.png?generation=1698232605295069&alt=media
+telegram:
+  requestedAt: 1698232611820
+  messageUrl: https://t.me/WeDanceMunich/1196
+  publishedAt: 1698232611800
+  messageId: 1196
+  state: published
+instagram:
+  requestedAt: 1698232616923
+  messageUrl: https://instagram.com/p/Cy0d68JusGY
+  publishedAt: 1698232632994
+  messageId: Cy0d68JusGY
+  state: published
+viewsCount: 40

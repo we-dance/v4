@@ -1,0 +1,165 @@
+isNew: true
+facebookId: "2510269755837962"
+facebookUrlsList:
+  - https://www.facebook.com/events/2510269755837962/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1731510037923
+updatedAt: 1731510037923
+importedAt: 1731510037923
+providerId: xFVXUqhWEHWJCHD2fqnZ
+providerItemId: e2510269755837962@facebook.com
+name: Salsa ho ho h'Oos  ❃  So.15.DEZ.2024 ❃ Die Salsa Party in Baden-Baden
+providerCreatedAt: 1731430943000
+providerUpdatedAt: 1731431243000
+startDate: 1734274800000
+endDate: 1734292800000
+facebook: https://www.facebook.com/events/2510269755837962/
+sourceUrl: https://www.facebook.com/events/2510269755837962/
+location: Son Latino Tanzschule Baden-Baden
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: briankballero
+createdBy: rHlaIWm1AdeoZjot7KrxYtooB8t1
+venue:
+  address_components:
+    - long_name: "9"
+      short_name: "9"
+      types:
+        - street_number
+    - long_name: Güterbahnhofstraße
+      short_name: Güterbahnhofstraße
+      types:
+        - route
+    - long_name: Oos
+      short_name: Oos
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Baden-Baden
+      short_name: Baden-Baden
+      types:
+        - locality
+        - political
+    - long_name: Kreisfreie Stadt Baden-Baden
+      short_name: Kreisfreie Stadt Baden-Baden
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Karlsruhe
+      short_name: KA
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Baden-Württemberg
+      short_name: BW
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "76532"
+      short_name: "76532"
+      types:
+        - postal_code
+  formatted_address: (bei) Bahnhof, Güterbahnhofstraße 9, 76532 Baden-Baden, Germany
+  geometry:
+    location:
+      lat: 48.7861766
+      lng: 8.187567099999997
+    viewport:
+      northeast:
+        lat: 48.7877562802915
+        lng: 8.1891742302915
+      southwest:
+        lat: 48.7850583197085
+        lng: 8.186476269708495
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +49 721 6638886
+  name: Tanzschule Son Latino
+  place_id: ChIJxVb55csfl0cRtKkEX4RMWS8
+  url: https://maps.google.com/?cid=3411842324123396532
+visibility: Public
+org:
+  id: kDu60vkxvCtZ8thhEO7M
+  username: sonlatino.events
+  name: Son Latino Events
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953975/ppzxfn8yw01f8w52mjwy.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/sonlatino.events
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  Am Sonntag, den 15. Dezember, laden wir euch herzlich zu einer stimmungsvollen
+  Weihnachts-Salsa-Party ein. Lasst uns gemeinsam das Jahr ausklingen und freut
+  euch auf den Besuch des WEIHNACHTSMANNES!
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  Unsere Weihnachtsgeschenke für euch:
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  1. Geschenk: Glühwein Zur Begrüßung erwartet euch ein Glas Glühwein, köstliches Weihnachtsgebäck und die Teilnahme an unserer Weihnachtstombola.
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  2. Geschenk: Bachata-Workshop Lerne Bachata mit uns! Bringt Freunde mit, kommt vorbei und macht mit. Für Anfänger und Fortgeschrittene geeignet.
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  3. Geschenk: Tombola und Animation Genießt den Abend mit viel Spaß und guter Musik, gewinnt einen unserer tollen Preise und lasst euch von unserem Programm überraschen.
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  Tages-Tipp: Vor der Party: Bachata-Workshop mit dem Weihnachtsmann (16:00 Uhr) Um 16 Uhr startet ein spezieller Bachata-Workshop mit dem Weihnachtsmann – lasst euch überraschen und stimmt euch auf den Abend ein!
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  Location Son Latino Baden-Baden
+
+  Güterbahnhofstr. 9
+
+  76532 Baden-Baden
+
+  In der Nähe des Bahnhofs, mit vielen Parkplätzen vor Ort
+
+  ❃❃❃❃❃❃❃❃❃❃❃
+
+  Datum: 15.12.2024
+
+  Einlass: 16:00 Uhr
+
+  Eintritt: €10,00 (Abendkasse) / €8,00 (für SL-Mitglieder)
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1731510052/zztzjnobf6d5arm5cmlm.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+online: No
+place: ChIJRTH3kUMfl0cRwcXzMxkpD2M
+international: No
+hash: 1734274800000+ChIJxVb55csfl0cRtKkEX4RMWS8
+id: z7keAwdl1YpNMqTPaOkd

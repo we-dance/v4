@@ -1,0 +1,192 @@
+venue:
+  website: http://tanzgeist-karlsruhe.de/
+  formatted_address: Hans-Sachs-Straße 8, 76133 Karlsruhe, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Tanzgeist-Karlsruhe
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 8.387455730291501
+      south: 49.0069415197085
+      north: 49.0096394802915
+      west: 8.384757769708497
+    location:
+      lng: 8.3859449
+      lat: 49.0079947
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Sachs-Straße
+      long_name: Hans-Sachs-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Weststadt
+      long_name: Weststadt
+    - types:
+        - locality
+        - political
+      short_name: Karlsruhe
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Karlsruhe
+      long_name: Kreisfreie Stadt Karlsruhe
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: KA
+      long_name: Karlsruhe
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BW
+      long_name: Baden-Württemberg
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "76133"
+      long_name: "76133"
+  place_id: ChIJc-Tfa1gGl0cRO1C6yGx8hCQ
+  international_phone_number: +49 721 96318105
+  url: https://maps.google.com/?cid=2631364888957177915
+endDate: 2023-01-29T02:00
+claimed: No
+program: []
+type: event
+duration: 60
+promo: Yes
+createdAt: 1671871646144
+price: 8 EUR
+place: ChIJCXjgokgGl0cRf-63THNV_LY
+updatedAt: 1671871646144
+updatedBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/itsstreetparty
+  name: socialdance
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2F663ed559-5b51-436e-b43e-a25d9d0de48a?alt=media&token=87ec95d0-2ff8-4a20-8f10-3608c28a3fea
+  bio: "Helping people meet by organizing social events
+
+
+    \ "
+  instagram: https://instagram.com/itsstreetparty
+  id: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+  username: socialdance
+eventType: Other
+form: No
+createdBy: bMDkcdLCNgXW3kVq0OfW0HxltQo1
+name: SOCIAL
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+username: socialdance
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FGZ7yY22gBgslbAl8EJiz.png?generation=1671871663912874&alt=media
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FbMDkcdLCNgXW3kVq0OfW0HxltQo1%2F93a2c1cc-c83b-435a-96da-4bc0f2954893?alt=media&token=f15f6f74-1185-4151-96e9-7585eaa57634
+online: No
+id: GZ7yY22gBgslbAl8EJiz
+international: No
+description: |+
+  ## Event Schedule
+    
+  - 7.45pm Admission
+  - 8.00pm Salsa workshop by Attila and Johanna 
+  - 9.00pm Bachata workshop by Martin and Esra 
+  - 10.00pm Salsa Floor DJ Juan from Heidelberg
+  - 10.00pm Bachata Floor DJ Flo from karlsruhe.
+  - 11.45pm 15 Minute Gig by Yasemin
+
+  ## Entry fee
+  - 8 euro social
+  - 6 euro per workshop additionally
+
+  ## Student fee with valid ID
+  - 5 euro social
+  - 5 euro per workshop additionally
+
+  ## Address
+
+  Hans-Sachs-Str. 8, Karlsruhe,Germany
+
+startDate: 2023-01-28T19:45
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: J O H A N N A
+    bio: |-
+      ॐ
+      🐾 Mia 
+      💃🏽 Salsa • Bachata • Kizomba
+      🎓 B. Sc. International Management
+      📍 Stuttgart, Germany
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fjohanna.bailarina.png?generation=1667834003469619&alt=media
+    id: n1ezGMzTQfWVrwBF9L7C
+    instagram: https://instagram.com/johanna.bailarina
+    username: johanna.bailarina
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: 🇩🇪Martin y Esra🇹🇷
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmartinyesrabachata.png?generation=1655307201086227&alt=media
+    bio: |-
+      Bachata Teacher 🕺💃
+      classes @ Havanna Karlsruhe 
+      Just pm for a booking.
+      Based in Offenburg 🇩🇪
+      Engineer & Teacher
+      #bachata #bachatasensual#salsa#kizomba
+    id: WVgFIWScUIEXJG894yhz
+    instagram: https://instagram.com/martinyesrabachata
+    username: martinyesrabachata
+  - instagram: https://instagram.com/attilaoficial
+    username: attilaoficial
+  - instagram: https://instagram.com/y.a.s.music
+    username: y.a.s.music
+artistsList:
+  - johanna.bailarina
+  - martinyesrabachata
+  - attilaoficial
+  - y.a.s.music
+watch:
+  count: 2
+  list:
+    socialdance: true
+    Zydrone: true
+commentsCount: 2
+commentsLast:
+  createdAt: 1674389226319
+  updatedBy: FXUDlpG4ORTSKHFXD9Vn1axsCGp2
+  createdBy: FXUDlpG4ORTSKHFXD9Vn1axsCGp2
+  commentId: ""
+  postId: GZ7yY22gBgslbAl8EJiz
+  body: Hallo, ich möchte fragen, ob ich am Samstag unbedingt für Workshops
+    Tanzpartner brauche? Danke.
+  updatedAt: 1674389226319
+  username: Zydrone
+star:
+  count: 4
+  list:
+    Edu: true
+    Zydrone: true
+    Steve22: true
+    Dance: true
+viewsCount: 533

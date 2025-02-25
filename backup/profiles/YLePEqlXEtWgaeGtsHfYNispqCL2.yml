@@ -1,0 +1,49 @@
+visibility: Public
+timezone: GMT+0900
+type: Dancer
+createdAt: 1619315936177
+createdBy: YLePEqlXEtWgaeGtsHfYNispqCL2
+name: Yasin
+place: ChIJybDUc_xKtUYRTM9XV8zWRD0
+username: Yasin
+pwaUsed: false
+cities:
+  ChIJybDUc_xKtUYRTM9XV8zWRD0: true
+hometown: ChIJybDUc_xKtUYRTM9XV8zWRD0
+updatedBy: YLePEqlXEtWgaeGtsHfYNispqCL2
+jobs: Salsa&Bachata intermediate
+weight: "72"
+locales:
+  ru: true
+  en: true
+  tr: true
+teacher: Yes
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+partner: Yes
+id: YLePEqlXEtWgaeGtsHfYNispqCL2
+contacts: Yes
+height: "172"
+gender: Male
+birthday: 1992-01-25
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+updatedAt: 1619316088482
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYLePEqlXEtWgaeGtsHfYNispqCL2%2F8e70a81c-339f-45ff-a351-a837b38d7150?alt=media&token=472f95f9-36bb-46d2-a385-cc04ee25d906
+permission: Yes
+learning: |-
+  Salsa
+  Bachata
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FYasin.png?generation=1621608158236542&alt=media
+daysUsed: 3
+lastLoginAt: 1622592609598
+instagram: https://instagram.com/yasinkardaslar
+viewsCount: 9

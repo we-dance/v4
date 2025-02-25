@@ -1,0 +1,139 @@
+sourceUrl: https://fb.me/e/cbBshLPYg
+createdAt: 1710172094844
+createdBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+username: halfcubedance
+viewsCount: 3
+id: 69HvqjG9Ma2Csly0UchY
+venue:
+  formatted_address: 114 Chapel St, Salford M3 5DW, UK
+  website: http://www.manchesterdanceclasses.co.uk/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: KNT Danceworks
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.253823930291502
+        lat: 53.4828689697085
+      northeast:
+        lng: -2.251125969708498
+        lat: 53.4855669302915
+    location:
+      lng: -2.252627099999999
+      lat: 53.4841788
+  address_components:
+    - types:
+        - street_number
+      short_name: "114"
+      long_name: "114"
+    - types:
+        - route
+      short_name: Chapel St
+      long_name: Chapel Street
+    - types:
+        - postal_town
+      short_name: Salford
+      long_name: Salford
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Greater Manchester
+      long_name: Greater Manchester
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: M3 5DW
+      long_name: M3 5DW
+  international_phone_number: +44 7783 103037
+  place_id: ChIJhS9RZuuxe0gRtAmhG69a9dQ
+  url: https://maps.google.com/?cid=15345271013464148404
+claimed: No
+link: https://mcrzouk.square.site/bz-mar24
+description: >-
+  Discover the enchanting fusion of Bachata and Zouk - Bachazouk! 🌟
+
+
+  Intermediate bachata level required.
+
+
+  🎉 Join us on Saturday, 16th March, for an unforgettable dance workshop at KNT Danceworks, Salford, M3 5DW! 💃
+
+
+  🕑 Workshop runs from 2 pm  -4pm + 1 hour practica/social.
+
+
+  💰 Only £15 until Tuesday 12th, £20 after. Limited spaces available
+
+  🎟️ 30% student discount available! Use "NUS" at checkout
+
+
+  This will be a Bachata workshop incorporating zouk techniques to execute typical sensual bachata moves which have their origins in Brazilian Zouk.
+
+
+  🤔 Why learn Bachazouk?
+
+  Experience the sensual synergy of Bachata and the graceful flow of Zouk. Explore the fusion that's revolutionizing both dance styles!
+
+
+  🕺 What is Bachazouk?
+
+  Bachazouk blends the romantic rhythms of Bachata with the fluid movements of Brazilian Zouk, creating a captivating dance form that's as unique as it is mesmerizing.
+
+
+  Don't miss out! Reserve your spot now for a dance journey like no other! 💫
+
+
+  Tickets: https://mcrzouk.square.site/bz-mar24
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1710173914/s2iyy4illnv5qkhjtsus.jpg
+duration: 60
+artists: []
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mcrzouk
+  name: Espirito Latino
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708449459/xuugdqt8nqecsuij821y.jpg
+  bio: ""
+  id: TQZRruaMiJ4oJ3lr13R5
+  instagram: ""
+  username: espirito.latino
+facebook: https://www.facebook.com/events/289609573938035/
+facebookId: "289609573938035"
+eventType: Workshop
+form: No
+watch:
+  count: 0
+  usernames: []
+name: BachaZouk 3-hour Workshop
+online: No
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1710597600000+ChIJhS9RZuuxe0gRtAmhG69a9dQ
+startDate: 1710597600000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F69HvqjG9Ma2Csly0UchY.png?generation=1710173929061977&alt=media
+updatedBy: 59oFxtlbtAXrbjFZH7PABuwk01N2
+endDate: 1710608400000
+price: 20 GBP
+place: ChIJ2_UmUkxNekgRqmv-BDgUvtk
+specialOffer: DISCOUNT using code "WeDance"
+updatedAt: 1710261287150

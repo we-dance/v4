@@ -1,0 +1,120 @@
+createdAt: 1731487791700
+updatedAt: 1731487791700
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+username: alexrazbakov
+sourceUrl: https://fb.me/e/8kZefG1a9
+viewsCount: 1
+venue:
+  address_components:
+    - long_name: 16-18
+      short_name: 16-18
+      types:
+        - street_number
+    - long_name: Kurze-Geismar-Straße
+      short_name: Kurze-Geismar-Straße
+      types:
+        - route
+    - long_name: Innenstadt
+      short_name: Innenstadt
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Göttingen
+      short_name: Göttingen
+      types:
+        - locality
+        - political
+    - long_name: Göttingen
+      short_name: GÖ
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Niedersachsen
+      short_name: NDS
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Germany
+      short_name: DE
+      types:
+        - country
+        - political
+    - long_name: "37073"
+      short_name: "37073"
+      types:
+        - postal_code
+  formatted_address: Kurze-Geismar-Straße 16-18, 37073 Göttingen, Germany
+  geometry:
+    location:
+      lat: 51.5306089
+      lng: 9.938600100000002
+    viewport:
+      northeast:
+        lat: 51.5319453802915
+        lng: 9.939838030291506
+      southwest:
+        lat: 51.5292474197085
+        lng: 9.937140069708501
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +49 551 3076199
+  name: Göttinger Dance Company e.V.
+  place_id: ChIJV3ugbpbUpEcR3jhUrul7n68
+  url: https://maps.google.com/?cid=12654969721516734686
+endDate: 1731857400000
+claimed: No
+link: ""
+description: >-
+  ⚜️Für alle Salsa-begeisterten Tänzer⚜️...
+
+  Wir fahren mit unserem Unterrichtsprogramm fort, bei dem Ihr lernen könnt, wie man eine authentische "Salsa Cubana" (El Baile de Casino*) tanzt ⏳️...
+
+  💥Samstag 16. November MITTELSTUFE 2
+
+  💥Sonntag  17. November FORTGESCHRITTENE 1
+
+  Mit @amado.art.official ✨️
+
+  ...nochmal lernen ist immer Richtig, Richtig lernen ist immer möglich, wenn du es wiederholst💫
+
+  Wir sehen uns Salseras & Salseros 🫶🏼
+program: []
+source: facebook
+type: event
+cover: ""
+duration: 60
+artists: []
+price: ""
+place: ChIJx8qYb7jUpEcRMD6slG2sJQQ
+international: No
+visibility: Public
+org:
+  id: 81FVVCCsU3oyvfQwLrYS
+  username: amado.art.official
+  name: Jorge Amado Perez Machado
+  photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Famado.art.official.png?generation=1655385406881655&alt=media
+  bio: Licenciado en Arte Danzario•Primer Nivel Dancístico
+    profesional•Especialista Folclórico,Investigador,Profesor,Coreógrafo•Premio
+    Nacional Ramiro Guerra
+  instagram: https://instagram.com/amado.art.official
+  facebook: https://www.facebook.com/jorgeamado.perezmachado
+  tiktok: ""
+  youtube: https://youtube.com/@amadoart8953
+facebook: https://www.facebook.com/events/1493861025349512/
+facebookId: "1493861025349512"
+eventType: Party
+form: No
+watch:
+  usernames: []
+  count: 0
+name: ⚜️Salsa Cubana⚜️ Mittelstufe 2 & Fortgeschrittene 1
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1731758400000+ChIJV3ugbpbUpEcR3jhUrul7n68
+startDate: 1731758400000
+id: j5Je0vILIMOdEnqCrTdA

@@ -1,0 +1,81 @@
+venue:
+  formatted_address: Warsaw, Poland
+  website: http://www.um.warszawa.pl/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Warsaw
+      short_name: Warsaw
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Warszawa
+      short_name: Warszawa
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Masovian Voivodeship
+      short_name: Masovian Voivodeship
+    - types:
+        - country
+        - political
+      long_name: Poland
+      short_name: PL
+    - types:
+        - postal_code_prefix
+        - postal_code
+      long_name: "03"
+      short_name: "03"
+  url: https://maps.google.com/?q=Warsaw,+Poland&ftid=0x471ecc669a869f01:0x72f0be2a88ead3fc
+  name: Warsaw
+  geometry:
+    viewport:
+      south: 52.09787667315334
+      north: 52.36799915970627
+      east: 21.27109843217943
+      west: 20.85128983757352
+    location:
+      lng: 21.0122287
+      lat: 52.2296756
+  place_id: ChIJAZ-GmmbMHkcR_NPqiCq-8HI
+endDate: 2021-11-14T19:00:00.000Z
+link: https://salsafestival.pl/en/
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F8208e06d-4a99-42a5-8163-8fda92ab7028?alt=media&token=563a1a2a-9eb9-4183-8aa8-4720ad966f75
+duration: custom
+createdAt: 1631881117348
+watchersCount: 0
+price: TICKETS
+commentsLast: ~
+id: 2DMYFPftBlpg2KFOZRas
+place: ""
+views: 7
+updatedAt: 1631881117348
+updatedBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+visibility: Public
+eventType: Festival
+organiser: Promoter
+form: Yes
+createdBy: 5hkUljYCTSPJwsDqNqgGYRe1Tok2
+commentsCount: 0
+name: El Sol
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  placeId: ""
+  loaded: true
+  name: Anywhere
+startDate: 2021-11-11T18:00:00.000Z
+username: Promoter
+viewsCount: 8

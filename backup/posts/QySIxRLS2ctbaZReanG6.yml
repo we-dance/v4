@@ -1,0 +1,93 @@
+venue:
+  formatted_address: 443 Tapleys Hill Rd, Fulham Gardens SA 5024, Australia
+  website: http://thegrandballroom.com.au/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: The Grand Ballroom
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 138.5153295302915
+      south: -34.9132198302915
+      north: -34.9105218697085
+      west: 138.5126315697085
+    location:
+      lng: 138.5140431
+      lat: -34.911803
+  address_components:
+    - types:
+        - street_number
+      short_name: "443"
+      long_name: "443"
+    - types:
+        - route
+      short_name: Tapleys Hill Rd
+      long_name: Tapleys Hill Road
+    - types:
+        - locality
+        - political
+      short_name: Fulham Gardens
+      long_name: Fulham Gardens
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Charles Sturt
+      long_name: City of Charles Sturt
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: SA
+      long_name: South Australia
+    - types:
+        - country
+        - political
+      short_name: AU
+      long_name: Australia
+    - types:
+        - postal_code
+      short_name: "5024"
+      long_name: "5024"
+  international_phone_number: +61 8 8235 0688
+  place_id: ChIJS63_1FPEsGoRACwW8pHYDVU
+  url: https://maps.google.com/?cid=6128792789264509952
+endDate: 2023-09-24T23:30
+claimed: No
+link: https://www.onezoukcongress.com/shop
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F444ca247-06c9-468b-8b67-bbb8616c7f84?alt=media&token=bfc24075-0122-4cb1-8a87-a1b20c78d6d0
+createdAt: 1688826848844
+artists: []
+price: 285 - 350 EUR
+artistsList: []
+place: ChIJ80w36xIPuWoREOKOYlQ2AwQ
+international: Yes
+updatedAt: 1688826848844
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/onezoukcongress
+  username: onezoukcongress
+eventType: Congress
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: One Zouk Congress
+online: No
+startDate: 2023-09-21T00:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQySIxRLS2ctbaZReanG6.png?generation=1690238138299871&alt=media
+star:
+  count: 0
+  usernames: []
+  list: {}
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 57
+id: QySIxRLS2ctbaZReanG6

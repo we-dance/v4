@@ -1,0 +1,176 @@
+endDate: 1719349200000
+sourceUrl: https://www.facebook.com/events/787166253487945/
+createdAt: 1719324027938
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1719175597000
+updatedAt: 1719324027938
+importedAt: 1719324027938
+providerUpdatedAt: 1719211144000
+facebookId: "787166253487945"
+facebook: https://www.facebook.com/events/787166253487945/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/787166253487945/
+eventType: Party
+providerItemId: e787166253487945@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Latin Rhythms - (Salsa, Bachata, Kizomba Party)
+location: Sausalitos Hannover Osterstraße
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1719338400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Osterstraße 38, 30159 Hannover, Germany
+  website: https://www.sausalitos.de/standorte?location=21
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: SAUSALITOS
+  geometry:
+    viewport:
+      southwest:
+        lng: 9.737720619708497
+        lat: 52.36971721970849
+      northeast:
+        lng: 9.740418580291502
+        lat: 52.37241518029149
+    location:
+      lng: 9.739228599999999
+      lat: 52.3710238
+  address_components:
+    - types:
+        - street_number
+      short_name: "38"
+      long_name: "38"
+    - types:
+        - route
+      short_name: Osterstraße
+      long_name: Osterstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Hannover
+      long_name: Hannover
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Region Hannover
+      long_name: Region Hannover
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: NDS
+      long_name: Niedersachsen
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "30159"
+      long_name: "30159"
+  international_phone_number: +49 511 3530919
+  place_id: ChIJY73zKrF0sEcRO7H_vYXWnzE
+  url: https://maps.google.com/?cid=3575812499062108475
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1719324045186
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/Tanzcommunityhannover
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1719324045/g1xvbovuz9t2lqcol5ph.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1719324045186
+  owned: false
+  name: Dance Community Hannover
+  place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+  updatedAt: 1719324045186
+  username: dance.community.hann
+claimed: No
+link: ""
+description: >+
+  Wir laden euch herzlich zu unserer Salsa-Bachata-Party💃🕺 im
+  @sausalitos_hannoverosterstr ein.
+
+
+  Vorher gibt es einen 🇨🇺Cuban Salsa Workshop, der dir die perfekten Moves beibringt.🪘🪇🎺
+
+
+  Sei dabei und erlebe eine unvergessliche Nacht auf der Tanzfläche mit DJ @stevenkutschke.bachata .
+
+
+  Lass uns gemeinsam den Tag richtig genießen! 🤩
+
+
+  Datum: 25.06 Dienstag
+
+
+  Beginn der Party: 20:00h
+
+
+  ‼️Eintritt ist Frei ‼️
+
+
+  🪘🪇🍹🍸🇨🇺🎺
+
+
+  Angebot:
+
+  Die ganze Nacht gibt es Happy Hours auf leckere Cocktails 🍹
+
+
+  Beginn der Workshop mit @nataliaga16 @danieldeluis
+
+
+  18:30-20h
+
+
+  Teilnahmegebühr P.p:5€
+
+  ———————————————————————
+
+
+  Support: @panapp_de 📱
+
+
+  Wir freuen uns auf euch ❤️‍🔥🥳
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719324047/rkakfkvfwhkwswc5go7z.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJhU9JTVELsEcRIEeslG2sJQQ
+international: No
+hash: 1719338400000+ChIJY73zKrF0sEcRO7H_vYXWnzE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FPdaxwePTMmYV1yWBNIC1.png?generation=1719324072503920&alt=media
+id: PdaxwePTMmYV1yWBNIC1

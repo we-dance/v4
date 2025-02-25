@@ -1,0 +1,216 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/sensualonica-dance-festival-edition/
+name: Sensualonica Dance Festival (5th Edition)
+sourceUrl: https://facebook.com/events/455665797067994
+venue:
+  address_components:
+    - long_name: "33"
+      short_name: "33"
+      types:
+        - street_number
+    - long_name: 26is Oktovriou
+      short_name: 26is Oktovriou
+      types:
+        - route
+    - long_name: Thessaloniki
+      short_name: Thessaloniki
+      types:
+        - locality
+        - political
+    - long_name: Thessaloniki
+      short_name: Thessaloniki
+      types:
+        - administrative_area_level_3
+        - political
+    - long_name: Greece
+      short_name: GR
+      types:
+        - country
+        - political
+    - long_name: 546 27
+      short_name: 546 27
+      types:
+        - postal_code
+  formatted_address: 26is Oktovriou 33, Thessaloniki 546 27, Greece
+  geometry:
+    location:
+      lat: 40.6436706
+      lng: 22.9092523
+    viewport:
+      northeast:
+        lat: 40.6450266302915
+        lng: 22.9107896802915
+      southwest:
+        lat: 40.6423286697085
+        lng: 22.9080917197085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +30 231 053 3533
+  name: Block 33
+  place_id: ChIJfdzmsoE5qBQRUv26oM9wJcs
+  url: https://maps.google.com/?cid=14638230200894815570
+  website: https://facebook.com/block33.gr/
+endDate: 1740358800000
+claimed: No
+link: https://www.sensualonica.com/
+description: >
+  𝗦𝗲𝗻𝘀𝘂𝗮𝗹𝗼𝗻𝗶𝗰𝗮 𝗗𝗮𝗻𝗰𝗲 𝗙𝗲𝘀𝘁𝗶𝘃𝗮𝗹 | 𝗙𝗲𝗯𝗿𝘂𝗮𝗿𝘆 𝟐𝟏
+  -𝟐𝟑, 𝟮𝟬𝟮𝟓 | 𝗧𝗵𝗲𝘀𝘀𝗮𝗹𝗼𝗻𝗶𝗸𝗶 (𝗦𝗞𝗚), 𝗚𝗿𝗲𝗲𝗰𝗲
+
+
+  For the fifth time, the Salsa Y SueñO Dance Prod. team is organizing the electrifying Sensualonica Dance Festival (featuring Bachata, Kizomba, and Salsa Romantica) in Thessaloniki, Greece, from February 21-23, 2025. This event promises to enchant both locals and tourists with its vibrant costumes, fantastic music, and nonstop dancing. Immerse yourself in the passion, excitement, and Latin flair! The festival is a perfect testament to the immense joy and fun that arise when positive energy and exceptional dancing come together. So, lace up your dancing shoes and prepare to join the celebration!
+
+  Additionally, for the second consecutive year, we are excited to announce that the Sensualonica Dance Festival is a proud Qualifier for the World Latin Dance Cup, which will be held in Medellin, Colombia, in August 2025.
+
+
+  𝗖𝗼𝗻𝗳𝗶𝗿𝗺𝗲𝗱 𝗔𝗿𝘁𝗶𝘀𝘁𝘀
+
+
+  Edwin Rivera & Erika Saucillo Rivera (USA)
+
+  Anichi Perez (ECUADOR)
+
+  Marcelo & Nasti (ARGENTINA/LITHUANIA)
+
+  Joao & Giedre (PORTUGAL/LITHUANIA) 
+
+  Alessandro Cappa (ITALY)
+
+  Jonas & Maria (SWEDEN)
+
+  Mambo Vikings (SWEDEN)
+
+  Kiki Kakoullis (GREECE)
+
+  Antonis & Hara (GREECE)
+
+  John & Kelly (GREECE)
+
+  Sofia Spiropoulou (GREECE)
+
+  Stavros & Kathrine (GREECE)
+
+  Vasilis Gkouletsas (GREECE)
+
+  Angel Vizcarra (MEXICO/GREECE)
+
+  Stathis Bogdanos (GREECE)
+
+  Vasilis & Marina - DanceislandCY (CYPRUS)
+
+  Konstantinos & Katerina (GREECE)
+
+  Nikos & Iliana (GREECE)
+
+  Stelios & Konstantina (GREECE)
+
+  Stella Anastasaki (GREECE)
+
+  Dimitris & Christina (GREECE/SWEDEN)
+
+  George Plom (GREECE)
+
+  Filippos & Nefeli (GREECE)
+
+  Rafael Morel (DOMINICAN REPUBLIC)
+
+  Maria Bebi (GREECE)
+
+  Ioanna Joowaa (GREECE)
+
+  Iliana Theodoridou (GREECE)
+
+  Marco & Eleanna (GREECE)
+
+  Ntinos & Chrysa (GREECE)
+
+  Christos & Panagiota (GREECE)
+
+  Konstantina & Panagiota (GREECE)
+
+
+  𝗗𝗷𝘀
+
+
+  Dj Edwin Rivera (USA)
+
+  Dj Rock (PORTUGAL)
+
+  Dj Folivi (LUXEMBURG)
+
+  Dj Estelio "El Social" (GREECE)
+
+  Dj AnasTAZZio (GREECE)
+
+  Dj Salvador "El Pecador" (GREECE)
+
+  Dj Mas (GREECE)
+
+  Dj Val (GREECE)
+
+  DjD (CYPRUS)
+
+
+  Full info is available on our website!
+
+  https://www.sensualonica.com/
+
+
+  Get your Full pass at the price of 99 euros till 31/10/2024!
+
+  Then the prices go:
+
+  - 119 euros till 30/11/2024
+
+  - 129 euros till 31/12/2024
+
+  - 139 euros till 20/02/2025
+
+  Book your pass --> www.sensualonica.com
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293945/qzvzx614s2uuyqoqhryd.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ7eAoFPQ4qBQRqXTVuBXnugk
+international: No
+visibility: Public
+org:
+  id: IRCJJsIwutOJ3n12GlHU
+  username: bachatakizombafestival
+  name: Sensualonica Dance Festival
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953482/mmnvd4dzffxzvvett0aa.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/bachatakizombafestival
+  tiktok: ""
+  youtube: ""
+facebook: https://www.facebook.com/events/455665797067994/
+facebookId: "455665797067994"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1740157200000+ChIJfdzmsoE5qBQRUv26oM9wJcs
+startDate: 1740157200000
+id: GTDFrBHMruBYJykfQzp7

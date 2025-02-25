@@ -1,0 +1,33 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1623747489929
+createdBy: D1WtOf7ndhMXdQyWPdQb5bJO2S93
+name: Dascha
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Dascha
+pwaUsed: false
+locales:
+  de: true
+  ru: true
+  en: true
+  uk: true
+gender: Female
+partner: Yes
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+height: "162"
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FD1WtOf7ndhMXdQyWPdQb5bJO2S93%2Ff51a43f3-444c-4027-9b9a-a7f1c2cde010?alt=media&token=27a2d34b-754b-4e77-941a-b8a0a731661c
+objectives:
+  learn: true
+  outdoors: true
+cities:
+  ChIJ2V-Mo_l1nkcRfZixfUq4DAE: true
+updatedAt: 1623749387319
+daysUsed: 3
+lastLoginAt: 1634730032338
+viewsCount: 2
+id: D1WtOf7ndhMXdQyWPdQb5bJO2S93

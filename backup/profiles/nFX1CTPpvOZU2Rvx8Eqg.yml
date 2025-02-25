@@ -1,0 +1,69 @@
+createdAt: 1714394745052
+website: https://riverrink.cz/
+rooms: ""
+address:
+  formatted_address: Karolinská 8, 186 00 Praha 8-Karlín, Czechia
+  website: https://riverrink.cz/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: River Rink Karlín
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4475821802915
+      south: 50.0935840697085
+      north: 50.0962820302915
+      west: 14.4448842197085
+    location:
+      lng: 14.4463764
+      lat: 50.0950757
+  address_components:
+    - types:
+        - premise
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  international_phone_number: +420 792 755 456
+  place_id: ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+  url: https://maps.google.com/?cid=13502229040501932412
+gender: Other
+phone: +420 792 755 456
+name: River Rink Karlín
+updateAt: 1714394745052
+type: Venue
+map: ""
+username: riverrink.cz
+viewsCount: 1
+id: nFX1CTPpvOZU2Rvx8Eqg

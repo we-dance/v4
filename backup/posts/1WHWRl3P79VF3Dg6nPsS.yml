@@ -1,0 +1,159 @@
+venue:
+  website: http://www.gasteig.de/
+  formatted_address: Hans-Preißinger-Straße 8, 81379 München, Germany
+  name: Gasteig HP8
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5549894302915
+      south: 48.1105071197085
+      north: 48.1132050802915
+      west: 11.5522914697085
+    location:
+      lng: 11.5538646
+      lat: 48.1117752
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Hans-Preißinger-Straße
+      long_name: Hans-Preißinger-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sendling
+      long_name: Sendling
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81379"
+      long_name: "81379"
+  place_id: ChIJQ1mR2dDfnUcRarfECPFtl1w
+  url: https://maps.google.com/?cid=6671922254974334826
+  international_phone_number: +49 89 480980
+claimed: No
+link: https://www.gasteig.de/veranstaltungen/tanz-den-gasteig-salsa-nacht-im-hp8.html,v72452
+description: >+
+  19:00 – 20:00 Uhr: Schnupperkurs mit Profis der Tanzschule Salsa y Corazon
+
+
+  Die Tanzprofis Marion Morena und Ruben Diaz geben allen interessierten Paaren und Singles einen ersten Einblick in die stilistisch sehr vielfältige Salsa-Welt.
+
+
+
+  20:00 Uhr bis Mitternacht: Große Tanzparty für alle in der Halle E
+
+
+  Direkt im Anschluss gibt es ab 20:00 Uhr eine Salsa-Party. Bis Mitternacht können dann Tanzfreudige aller Levels die besondere Atmosphäre einer der außergewöhnlichsten Tanzflächen der Stadt testen. Oder das Geschehen einfach von den höher gelegenen Galerien der denkmalgeschützten Halle E aus beobachten.
+
+
+  Garant für tanzbare Musik: DJ HEC
+
+
+  Für passende Musik zur Salsa-Nacht sorgt DJ HEC. Der gebürtige Südamerikaner bringt mit über 30 Jahren Musikerfahrung ein breites Repertoire mit und legt neben treibenden Salsa-Beats immer wieder entspanntere Bachata-Klänge auf, die auch für weniger Geübte einfach zu tanzen sind und natürlich auch Verschnaufpausen erlauben.
+
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FANSbpfvpBaX77CMzuTrWSp8escy1%2F269684c3-b47f-4469-84ed-19d11f0e66a6?alt=media&token=b00b4d9f-6c59-4f27-a17d-bd96c1e6a9ce
+createdAt: 1658041953031
+price: 0 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1658041953031
+updatedBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+visibility: Public
+eventType: Party
+form: No
+createdBy: ANSbpfvpBaX77CMzuTrWSp8escy1
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-09-15T19:00
+username: AnnaNym
+id: 1WHWRl3P79VF3Dg6nPsS
+name: "Tanz den Gasteig: Salsa-Nacht im HP8"
+endDate:
+  _seconds: 1663264800
+  _nanoseconds: 0
+org:
+  instagram: https://instagram.com/gasteig_muenchen
+  username: gasteig_muenchen
+watch:
+  count: 1
+  list:
+    AnnaNym: true
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/hector.tramonmunoz
+    name: DJHEC
+    bio: "Über 40 Jahre mache ich DJ.  Schon in der Schule hatte ich
+      Tanzveranstaltungen gemacht. Musik ist mein Leben "
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fyj4bkZGCKRVNew48YXtuZAirlU82%2Fb7d54c12-5e44-4ab3-b1f9-4f41a324ab0e?alt=media&token=ddac42d3-f9bd-4407-a950-6ae40a5559cc
+    id: yj4bkZGCKRVNew48YXtuZAirlU82
+    instagram: ""
+    username: DJHEC
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Salsa y Corazon
+    bio: |-
+      Salsa - Bachata - Kizomba - Standard/Latein 
+      Die Tanzschule in München  - Singles herzlich willkommen!
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Ftanzschule_salsa_y_corazon.png?generation=1655307183885546&alt=media
+    id: VNshyxohYMiHvS7XxiIw
+    instagram: https://instagram.com/tanzschule_salsa_y_corazon
+    username: tanzschule_salsa_y_corazon
+artistsList:
+  - DJHEC
+  - tanzschule_salsa_y_corazon
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F1WHWRl3P79VF3Dg6nPsS.png?generation=1658737280157366&alt=media
+telegram:
+  requestedAt: 1662975794623
+  messageUrl: https://t.me/WeDanceMunich/596
+  publishedAt: 1662975799310
+  messageId: 596
+  state: published
+star:
+  count: 3
+  list:
+    KataTata: true
+    Iris: true
+    Arturo: true
+viewsCount: 100

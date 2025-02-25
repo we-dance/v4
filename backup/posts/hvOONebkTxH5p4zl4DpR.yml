@@ -1,0 +1,196 @@
+venue:
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  website: https://www.pinakothek-der-moderne.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "40"
+      short_name: "40"
+    - types:
+        - route
+      long_name: Barer Straße
+      short_name: Barer Str.
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Maxvorstadt
+      short_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80333"
+      short_name: "80333"
+  room: Area 1
+  url: https://maps.google.com/?cid=14384342178029021798
+  name: Pinakothek der Moderne
+  geometry:
+    viewport:
+      south: 48.1457500697085
+      north: 48.1484480302915
+      east: 11.5730605802915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  international_phone_number: +49 89 23805360
+endDate:
+  _seconds: 1629136800
+  _nanoseconds: 0
+link: https://forms.gle/NV5najp3s8EnALUw9
+description: >-
+  Dear Dancers of our lovely Community, 
+
+
+  The registration for this coming MOADC All-Dance Monday's Workshops is *now open!!* 
+
+
+  This Monday we have the Following Workshops: 
+
+
+  1. Bachata Creativa:       Toan & Anna
+
+  2. Bachata Ladystyling:  Marta
+
+  3. Boogie Woogie:           Daniel & Jenny
+
+  4. Tango Argentinien:    Levent 
+
+
+  *All Workshops are Beginners Friendly*
+
+  *From 19:00 till 20:00 O'clock*
+
+  *At the Pinakothek der Moderne* 
+
+
+  *!! Please Note !!* 
+
+
+  MOADC All-Dance Monday Event *does NOT* include any Parties after the workshops.
+
+  And is 100% Free Event. 
+
+
+  We *do NOT* receive any money or any Donation from any *Money-Pool* done by any Community member. 
+
+
+  Please register yourself *only one time* and if you have any problems please let me know :) 
+
+
+  *Registration Formular:* 
+
+
+  https://forms.gle/NV5najp3s8EnALUw9 
+
+
+  *Registration closes Saturday at 23 Uhr unless it is over booked before this, so please be fast* 😊 
+
+
+  *Please notice the following Rules during the Workshops:* 
+
+
+  1. We start exactly at 19Uhr and end at 20Uhr, so please come on Time between 18:30 and 18:45 
+
+
+  2. If you come alone, you will be assigned a partner before the beginning of the workshop. 
+
+
+  3. If you are planning to come with a partner, please tell your partner to register him/her self as well online. 
+
+
+  4. There is only places for 9 leaders and 9 followers in each workshop. 
+
+
+  5. There will not be any partner change during the workshop. 
+
+
+  6. Please keep 1.5m distance between yourself and the couple dancing next to you at the workshop. 
+
+
+  7. Your registration doesn't guarantee that you will get a place in the workshop.. the 1st 18 people to come for each workshop to the location between 18:30 and 19:00 will get the place and of course they have to be pre-registered online. 
+
+
+  8. If the workshop you registered for got full, you can switch to another workshop as long as they still have space. 
+
+
+  9. There is no switching workshops after the workshop start. 
+
+
+  10. All workshops are for free 😉✌🏻 
+
+
+  See you on Monday 16.August 💃🕺
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fba4feb3a-7f43-48cf-adee-7b6e9e81fdd3?alt=media&token=2ba55f94-a974-43c0-9fe3-f4ce707ce935
+duration: "60"
+createdAt: 1628934863119
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FhvOONebkTxH5p4zl4DpR.png?generation=1628935268109513&alt=media
+commentsLast: ~
+id: hvOONebkTxH5p4zl4DpR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1628934863119
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+eventType: Workshop
+organiser: alexrazbakov
+form: Yes
+createdBy: rPjdlQUA4ohb1DIsmYgvwXQ3YIh1
+commentsCount: 0
+name: All-Dance Monday
+online: No
+styles:
+  BoogieWoogie:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tango:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-16T17:00:00.000Z
+username: MOADC
+viewsCount: 82

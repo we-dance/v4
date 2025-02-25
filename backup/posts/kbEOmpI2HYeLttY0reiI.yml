@@ -1,0 +1,124 @@
+venue:
+  formatted_address: Innenhof UG, Kurfürstenstraße 8, 80799 München, Germany
+  website: https://fitnessanddance.center/
+  name: Fitness and Dance Munich
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5777645802915
+      south: 48.1529793197085
+      north: 48.15567728029149
+      west: 11.5750666197085
+    location:
+      lng: 11.5764797
+      lat: 48.154286
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Kurfürstenstraße
+      long_name: Kurfürstenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80799"
+      long_name: "80799"
+  url: https://maps.google.com/?cid=4968408430539880362
+  place_id: ChIJfUVB3L11nkcRqrdi0SRV80Q
+  international_phone_number: +49 172 7328816
+endDate: 2022-12-28T21:00
+claimed: No
+program: []
+type: event
+duration: 60
+promo: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9OvYXOX8rwaqSYtAWUYPLHeq5et2%2F6a235852-9809-4064-85f6-5a25f64877fe?alt=media&token=6608050f-03de-4840-8cc4-cc8c7d89db2a
+createdAt: 1671131130589
+artists: []
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1671131130589
+updatedBy: 9OvYXOX8rwaqSYtAWUYPLHeq5et2
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: "Viktoria "
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F9OvYXOX8rwaqSYtAWUYPLHeq5et2%2F282b4d65-7176-4775-8632-45d797ef48f0?alt=media&token=bb081bf7-0557-49f0-b49a-44e08f5577ad
+  bio: ""
+  id: 9OvYXOX8rwaqSYtAWUYPLHeq5et2
+  instagram: ""
+  username: Viktoria_Seibt
+form: No
+watch:
+  count: 1
+  list:
+    Viktoria_Seibt: true
+createdBy: 9OvYXOX8rwaqSYtAWUYPLHeq5et2
+name: "Yoga Dance Flow "
+online: No
+styles: {}
+startDate: 2022-12-28T20:00
+username: Viktoria_Seibt
+id: kbEOmpI2HYeLttY0reiI
+eventType: Course
+price: 13 EUR
+description: >-
+  In diesem Kurs geht es darum Yoga und Tanz zu verbinden und in einen Fluss aus
+  Bewegungen zu kommen. Wir beginnen mit einem sanften aufwärmen, dehnen und
+  mobilisieren der Gelenke. Zusammen erarbeiten wir uns einen YogaDanceFlow, der
+  ein paar Grundhaltungen aus dem Yoga enthält. Diese werden durch Tänzerische
+  Elemente miteinander verbunden. Mit den Yogahaltungen kannst du gezielt deine
+  Körpermitte stärken und die Muskulatur im ganzen Körper aktivieren. Der
+  tänzerische Teil wird deine Kreativität fördern und Bewegungen dürfen intuitiv
+  entstehen.
+
+
+  Dieser Kurs ist auch für Anfänger geeignet.
+
+
+  Wer tanzt ist mit sich und der Welt im Reinen und das Leben zeigt sich beschwingt! 
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FkbEOmpI2HYeLttY0reiI.png?generation=1671210817989607&alt=media
+telegram:
+  requestedAt: 1671210824248
+  messageUrl: https://t.me/WeDanceMunich/744
+  publishedAt: 1671210829364
+  messageId: 744
+  state: published
+viewsCount: 28

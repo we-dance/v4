@@ -1,0 +1,72 @@
+createdAt: 1711374352568
+website: https://maps.google.com/?q=Maillingerstra%C3%9Fe+6,+80636+M%C3%BCnchen,+Germany&ftid=0x479e760f391635f1:0x7893e6b381a29647
+rooms: ""
+address:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Maillingerstraße 6
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5472725802915
+      south: 48.1478431197085
+      north: 48.1505410802915
+      west: 11.5445746197085
+    location:
+      lng: 11.5458494
+      lat: 48.1492406
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  place_id: ChIJ8TUWOQ92nkcRR5aigbPmk3g
+  url: https://maps.google.com/?q=Maillingerstra%C3%9Fe+6,+80636+M%C3%BCnchen,+Germany&ftid=0x479e760f391635f1:0x7893e6b381a29647
+gender: Other
+phone: ""
+name: Maillingerstraße 6
+updateAt: 1711374352568
+type: Venue
+map: ""
+username: maillingerstrae6
+viewsCount: 2
+id: Glsii3TKYC2uU0nynuXe

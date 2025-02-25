@@ -1,0 +1,183 @@
+endDate: 1730669400000
+sourceUrl: https://www.facebook.com/events/433937272386761/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1709811527000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1725016949000
+facebookId: "433937272386761"
+facebook: https://www.facebook.com/events/433937272386761/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/433937272386761/
+eventType: Concert
+providerItemId: e433937272386761@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Concierto Maykel Blanco y su Salsa Mayor à Barcelona
+location: Razzmatazz 2
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1730653200000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Carrer de Pamplona, 88, Sant Martí, 08018 Barcelona, Spain
+  website: https://www.salarazzmatazz.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Razzmatazz 2
+  geometry:
+    viewport:
+      southwest:
+        lng: 2.189748719708498
+        lat: 41.39577206970851
+      northeast:
+        lng: 2.192446680291502
+        lat: 41.3984700302915
+    location:
+      lng: 2.1912593
+      lat: 41.3972434
+  address_components:
+    - types:
+        - street_number
+      short_name: "88"
+      long_name: "88"
+    - types:
+        - route
+      short_name: Carrer de Pamplona
+      long_name: Carrer de Pamplona
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Sant Martí
+      long_name: Sant Martí
+    - types:
+        - locality
+        - political
+      short_name: Barcelona
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: B
+      long_name: Barcelona
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CT
+      long_name: Catalunya
+    - types:
+        - country
+        - political
+      short_name: ES
+      long_name: Spain
+    - types:
+        - postal_code
+      short_name: "08018"
+      long_name: "08018"
+  international_phone_number: +34 933 20 82 00
+  place_id: ChIJDRNqNvejpBIRsr0uaeTzVFM
+  url: https://maps.google.com/?cid=6004692365534477746
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/rafaeletvirginie
+  name: Rafael & Virginie San Martin
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953540/jqvbawris7l1cj3mzv9n.jpg
+  bio: ""
+  id: sxM3CZDdIEWGSLWeoZYf
+  instagram: ""
+  username: rafaeletvirginie
+claimed: No
+link: ""
+description: >+
+  
+  Es un evento  execeptional !Tropicuba presenta el Concierto de Maykel Blanco y Su Salsa Mayor ,que se dara lugar el Domingo 3 nov del  2024 en Barcelona 
+
+  Presentando su nuevo dispo por sus 20 años de carrera músical 
+
+
+  * PROGRAMA * 
+
+
+  18h : . Apertura dj 
+
+
+
+  20h : Concert de Maykel Blanco y Su Salsa Mayor 
+
+
+  22 :30 fin 
+
+
+  * TARIFS * 
+
+  . 20 € las 100 primeras plazas 
+
+  . 25€ las 100 plazas siguientes
+
+  . 30€ las 100 plazas siguientes
+
+  . 35€ las 100 plazas siguientes 
+
+  En el lugar 45
+
+
+
+  20h : Concert de Maykel Blanco y Su Salsa Mayor 
+
+
+  22 :30 fin 
+
+
+
+  * INFOS / CONTACT *
+
+  tropicuba@hotmail.fr
+
+  06.61.63.52.24
+
+
+
+  * CONDITIONS DE RESERVATION *
+
+  La réservation est ferme et définitive. Les billets ne sont ni repris ni échangés y compris en cas de force majeure. Ils sont remboursables uniquement en cas d'annulation ou report de l'évènement
+
+
+   
+  k
+
+  https://www.goandance.com/es/eventos/7063-concierto-maykel-blanco-y-su-salsa-mayor
+
+
+  * INFOS / CONTACT *
+
+  tropicuba@hotmail.fr
+
+  06.61.63.52.24
+
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728417977/nlh8if4xjnb9nh3prdpq.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ5TCOcRaYpBIRCmZHTz37sEQ
+international: No
+hash: 1730653200000+ChIJDRNqNvejpBIRsr0uaeTzVFM
+id: LY5AdH4Vrbke9MSIppUT

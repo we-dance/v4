@@ -1,0 +1,138 @@
+endDate: 1729396740000
+sourceUrl: https://facebook.com/events/s/salsa-showdown-of-the-bluegras/960328065383236/
+createdAt: 1727618429795
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1727575277000
+updatedAt: 1727618429795
+importedAt: 1727618429795
+providerUpdatedAt: 1727575277000
+facebookId: "960328065383236"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/salsa-showdown-of-the-bluegras/960328065383236/
+eventType: Party
+providerItemId: 74p36p34cpj6cb9k6dgmcb9k6cpj2b9pcph3cbb46sq6ae1icksm4p1pcc@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Salsa Showdown of the Bluegrass Competition and Formal Social
+location: Clarion Hotel Conference Center - North (Lexington, KY)
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1729378800000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 1950 Newtown Pike, Lexington, KY 40511, USA
+  website: https://www.choicehotels.com/kentucky/lexington/clarion-hotels/ky231?mc=llgoxxpx
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Clarion Hotel Conference Center - North
+  geometry:
+    viewport:
+      southwest:
+        lng: -84.4867125802915
+        lat: 38.0958905197085
+      northeast:
+        lng: -84.48401461970849
+        lat: 38.0985884802915
+    location:
+      lng: -84.48521000000001
+      lat: 38.097212
+  address_components:
+    - types:
+        - street_number
+      short_name: "1950"
+      long_name: "1950"
+    - types:
+        - route
+      short_name: Newtown Pike
+      long_name: Newtown Pike
+    - types:
+        - locality
+        - political
+      short_name: Lexington
+      long_name: Lexington
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Fayette County
+      long_name: Fayette County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40511"
+      long_name: "40511"
+  international_phone_number: +1 859-233-0512
+  place_id: ChIJNRZaBCxEQogRmwA84J74Cfo
+  url: https://maps.google.com/?cid=18017205145522929819
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1727618443398
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/SassyWellnesswithLibby
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1727618443/mn4daotusde8ameejmf9.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1727618443398
+  owned: false
+  name: Sassy Wellness with Libby Dance & Performance
+  place: ChIJJeuczClEQogR3U-MkEGD8IQ
+  updatedAt: 1727618443398
+  username: sassy.wellness.with.
+claimed: No
+facebook: https://www.facebook.com/events/960328065383236/
+link: https://www.eventbrite.com/e/salsa-showdown-of-the-bluegrass-tickets-897522462847?aff=oddtdtcreator
+description: >-
+  The Salsa Showdown of the Bluegrass is Lexington's first Salsa competition
+  that will be followed by a formal social dance.
+
+
+  Join us Saturday, October 19th, 2024 7:00PM-12:00AM to watch ten couples compete for the coveted first place trophy and cash prize of $700! Second place winners will receive a $500 cash prize and third place winners will receive a $300 cash prize. Located at the Paddock Ballroom in the Clarion Hotel, the evening will start off with a cocktail hour while patrons arrive, enjoy a drink from the cash bar, and anticipate the upcoming Salsa Showdown.
+
+
+  VIP Tables placed in prime veiwing locations will be available for purchase that will include entry and seating for four, access to the taco bar and complimentary tea/coffee, eight drink tickets to the bar and four swag bags worth over $75 in merchandise, gift cards, and coupons from local business. At 8:00PM, the competition will start featuring ten couples from local dance studios and the local dance community as they contend to win!Judges of the competition will include a local celebrity guest judge and two local dance experts.At 9:30PM, the formal Salsa Social will start where attendees will enjoy social dancing as a live DJ plays a killer Latin social playlist.
+
+
+  Be sure to stick around! At 10:30PM, the winners of the competition will be announced and trophies will be awarded along with cash prizes.Decor will include Bluegrass themed photo ops and a special selfies wall!
+
+
+  All ticket holders will have the opportunity to WIN door prizes!
+
+
+  A HUGE thank you to our Silver Sponsor, Commonwealth Electrolysis Clinic, your number one source for hair removal treatment in Lexington! 
+
+
+  A HUGE thank you to our Studio Sponsor, Bluegrass Ballroom, Lexington's favorite place to dance!
+
+
+  A HUGE thank you to our Bronze Sponsor, High Bridge Spring Water, your number one source for spring water! 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1727618445/wgfdwnynaio2k3vwfwoy.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJJeuczClEQogR3U-MkEGD8IQ
+international: No
+hash: 1729378800000+ChIJNRZaBCxEQogRmwA84J74Cfo
+id: QZ7nsjUcTFDipx49EpcD

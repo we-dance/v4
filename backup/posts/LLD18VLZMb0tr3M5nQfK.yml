@@ -1,0 +1,122 @@
+venue:
+  formatted_address: Via Taigete, 20, 30020 Bibione VE, Italy
+  website: http://www.hotelbibionepalace.it/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Hotel Bibione Palace
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.0571142802915
+      south: 45.6322819697085
+      north: 45.6349799302915
+      west: 13.0544163197085
+    location:
+      lng: 13.0556509
+      lat: 45.6336266
+  address_components:
+    - types:
+        - street_number
+      short_name: "20"
+      long_name: "20"
+    - types:
+        - route
+      short_name: Via Taigete
+      long_name: Via Taigete
+    - types:
+        - locality
+        - political
+      short_name: Bibione
+      long_name: Bibione
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: San Michele al Tagliamento
+      long_name: San Michele al Tagliamento
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: VE
+      long_name: Città Metropolitana di Venezia
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Veneto
+      long_name: Veneto
+    - types:
+        - country
+        - political
+      short_name: IT
+      long_name: Italy
+    - types:
+        - postal_code
+      short_name: "30020"
+      long_name: "30020"
+  international_phone_number: +39 0431 447220
+  place_id: ChIJJ1nTFcCSe0cRynINFbJhZLY
+  url: https://maps.google.com/?cid=13142737030059225802
+endDate: 2023-05-14T19:00
+claimed: No
+link: https://www.salsaonthebeach.at/event-details/salsa-on-the-beach-12-14-5-2023-1
+description: >-
+  We are working positively and with a lot of passion on "SOTB ́23" and are
+  already looking forward to welcoming many friends and dance enthusiasts to
+  Bibione again in May. Dancing is joie de vivre and many fans of Salsa,
+  Bachata, Kizomba and more enjoy it with us in "Bella Italia".
+
+   
+
+  Since 2006, "Salsa on the Beach" has stood for a high-quality and familiar event. The combination of holiday feeling, workshops and parties in the **** Bibione Palace Spa Hotel - probably one of the most beautiful hotels in the Upper Adriatic and awarded with the Holidaycheck Award - is absolutely unique in its kind. "This weekend is simply not to be missed"! Year after year, our enthusiastic participants experience a varied weekend with many dance workshops, parties and an exuberant atmosphere.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F19ff22b7-1830-4672-b2b2-b2295bc28eff?alt=media&token=a2584d27-0d06-475f-8b46-764c93c7401c
+createdAt: 1683373093189
+artists:
+  - instagram: https://instagram.com/victor&alba
+    username: victor&alba
+  - instagram: https://instagram.com/oscaryneusoficial
+    username: oscaryneusoficial
+  - instagram: https://instagram.com/salsacrew_academy
+    username: salsacrew_academy
+  - facebook: https://facebook.com/edwinlassotorres
+    username: edwinlassotorres
+price: 210 - 500 EUR
+place: ChIJWw0uX8qSe0cRfAzxUThTXx0
+artistsList:
+  - victor&alba
+  - oscaryneusoficial
+  - salsacrew_academy
+  - edwinlassotorres
+international: No
+updatedAt: 1683373093189
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/salsa_on_the_beach
+  username: salsa_on_the_beach
+eventType: Party
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Salsa on the Beach
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-12T14:00
+username: IvanaSoldat
+viewsCount: 55
+id: LLD18VLZMb0tr3M5nQfK

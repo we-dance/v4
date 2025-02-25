@@ -1,0 +1,24 @@
+createdAt: 1674753592147
+cityPlaceId: ChIJu2UwF4c1bkcRm93f0tGKjv4
+updatedBy: ~
+createdBy: ~
+name: Graz, Austria
+location:
+  country: Austria
+  latitude: 47.070714
+  locality: Graz
+  region: Styria
+  place_id: ChIJu2UwF4c1bkcRm93f0tGKjv4
+  longitude: 15.439504
+place: ChIJu2UwF4c1bkcRm93f0tGKjv4
+type: City
+username: austria-graz
+updatedAt: 1674753592147
+watch:
+  count: 1
+  list:
+    Balage: true
+  usernames:
+    - Balage
+viewsCount: 275
+id: LbDAzLgwdAecZvHN1L8w

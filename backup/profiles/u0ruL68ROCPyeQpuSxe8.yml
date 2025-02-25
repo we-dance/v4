@@ -1,0 +1,42 @@
+createdAt: 1675780106208
+updatedBy: ~
+cityPlaceId: ChIJ8cM8zdaoAWARPR27azYdlsA
+createdBy: ~
+name: Kyoto, Japan
+location:
+  country: Japan
+  latitude: 35.011564
+  locality: Kyoto
+  region: Kyoto
+  place_id: ChIJ8cM8zdaoAWARPR27azYdlsA
+  longitude: 135.7681489
+place: ChIJ8cM8zdaoAWARPR27azYdlsA
+type: City
+updatedAt: 1675780106208
+username: japan-kyoto
+watch:
+  count: 0
+  usernames: []
+  history:
+    - username: MariaZhou
+      date: 1718909286520
+      invitedBy: ""
+      uid: rVG4JyYoFUO0AysDrPYFk2skOE02
+      action: joined
+    - username: MariaZhou
+      date: 1718909294350
+      invitedBy: ""
+      uid: rVG4JyYoFUO0AysDrPYFk2skOE02
+      action: left
+    - username: MariaZhou
+      date: 1718909303303
+      invitedBy: ""
+      uid: rVG4JyYoFUO0AysDrPYFk2skOE02
+      action: joined
+    - username: MariaZhou
+      date: 1718909324558
+      invitedBy: ""
+      uid: rVG4JyYoFUO0AysDrPYFk2skOE02
+      action: left
+viewsCount: 224
+id: u0ruL68ROCPyeQpuSxe8

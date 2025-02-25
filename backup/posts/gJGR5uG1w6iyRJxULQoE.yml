@@ -1,0 +1,112 @@
+venue:
+  formatted_address: Maillingerstraße, München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Maillingerstraße
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5467220802915
+      south: 48.1472517197085
+      north: 48.1499496802915
+      west: 11.5440241197085
+    location:
+      lng: 11.5453731
+      lat: 48.1486007
+  address_components:
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: EiRNYWlsbGluZ2Vyc3RyYcOfZSwgTcO8bmNoZW4sIEdlcm1hbnkiLiosChQKEgm9yvRdD3aeRxEOks1d7xW4sRIUChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  url: https://maps.google.com/?q=Maillingerstra%C3%9Fe,+M%C3%BCnchen,+Germany&ftid=0x479e760f5df4cabd:0xb1b815ef5dcd920e
+endDate: 1704227400000
+claimed: No
+link: https://www.annamilite.com/book-online
+description: >-
+  The Bachata Beginner2 course expands on the content of the Bachata Beginner1
+  course. For this reason, previous knowledge is required.
+
+
+  The focus is on the flowing movement and the connection with the partner.
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2Fcb1fb428-127b-470b-9bc9-8189bcb03844?alt=media&token=a5f94481-750a-46dc-a84a-6ecd1c9bca7b
+createdAt: 1703756438461
+artists: []
+price: 12,50 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1703756438461
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+eventType: Course
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: Bachata Beginner II Partnerwork
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1704223800000
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FgJGR5uG1w6iyRJxULQoE.png?generation=1703756448936231&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/C1fYYkMpntx
+  publishedAt: 1703967537713
+  messageId: C1fYYkMpntx
+  state: published
+promotionError: ""
+promotion: completed
+viewsCount: 31
+id: gJGR5uG1w6iyRJxULQoE

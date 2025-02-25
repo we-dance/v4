@@ -1,0 +1,48 @@
+endDate:
+  _seconds: 1624122000
+  _nanoseconds: 0
+description: >-
+  Celebrating the birthdays of two gems this month we bring to you music from
+  Tito Rojas and Juan Luis Guerra. 
+
+
+  Come join us at worldsalsaradio.com
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FwW4OHZqHHUQk3DAfF9HJ3KkfBEm2%2Fa318f4b7-9a2f-4ad9-8868-7ad8bf39e49a?alt=media&token=81d7afed-4bb1-4a42-80e7-55a69d18fb3d
+duration: "120"
+createdAt: 1623925717173
+watchersCount: 0
+price: Free
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FTcdlNe0yD3IRwVrSxDpt.png?generation=1623925760281885&alt=media
+commentsLast: ~
+id: OaiZYp0wCcpS39wCmzhB
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1623925717173
+updatedBy: wW4OHZqHHUQk3DAfF9HJ3KkfBEm2
+address: worldsalsaradio.com
+visibility: Public
+eventType: Show
+createdBy: wW4OHZqHHUQk3DAfF9HJ3KkfBEm2
+commentsCount: 0
+name: Salsa / Bachata radio show
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-06-19T15:00:00.000Z
+username: DjPrachi
+viewsCount: 32

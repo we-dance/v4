@@ -1,0 +1,161 @@
+endDate: 1717351200000
+sourceUrl: https://www.facebook.com/events/1455466305406414/
+createdAt: 1715522446587
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1710934434000
+updatedAt: 1715522446587
+importedAt: 1715522446587
+providerUpdatedAt: 1715366221000
+facebookId: "1455466305406414"
+facebook: https://www.facebook.com/events/1455466305406414/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1455466305406414/
+eventType: Party
+providerItemId: e1455466305406414@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: "TANGOLYRIC'KIZ: Stage intensif de kiz fusion par Fred et Chiara Vs
+  Tangokiz Olivet"
+location: Gymnase du Larry
+styles:
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1717329600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 54 Rue des Chênes, 45160 Olivet, France
+  website: http://www.olivet.fr/fr/annuaire-des-equipements/557
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Gymnase du Larry
+  geometry:
+    viewport:
+      southwest:
+        lng: 1.904255119708498
+        lat: 47.85816621970849
+      northeast:
+        lng: 1.906953080291502
+        lat: 47.86086418029149
+    location:
+      lng: 1.9054737
+      lat: 47.8595424
+  address_components:
+    - types:
+        - street_number
+      short_name: "54"
+      long_name: "54"
+    - types:
+        - route
+      short_name: Rue des Chênes
+      long_name: Rue des Chênes
+    - types:
+        - locality
+        - political
+      short_name: Olivet
+      long_name: Olivet
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Loiret
+      long_name: Loiret
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Centre-Val de Loire
+      long_name: Centre-Val de Loire
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "45160"
+      long_name: "45160"
+  place_id: ChIJT-d_XOfl5EcRB6y99y4MxOc
+  url: https://maps.google.com/?cid=16700486714061073415
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/Tangokiz
+  name: TangoKiz Olivet
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705954101/dsl7p7iimc5evogxd3aj.jpg
+  bio: ""
+  id: dPjBzAxN5KRyrsJjKGDQ
+  instagram: ""
+  username: Tangokiz
+claimed: No
+link: https://my.weezevent.com/tangolyrickiz-stage-intensif-de-kiz-fusion-par-fred-et-chiara-vs-tangokiz-oliv
+description: >-
+  Deux styles différents mais une seule vision de la danse. 
+
+
+  Fred et Chiara et Tangokiz Olivet vous proposent un stage intensif exceptionnel pour vous présenter un nouvel univers à la frontière entre leurs styles: Tangolyric'kiz.
+
+
+  SI tu veux apprendre plein de nouvelles choses inédites, dans une ambiance conviviale, ce stage t'es destiné.
+
+
+
+  AU PROGRAMME 
+
+
+  14h-14h45
+
+
+  Travail solo en groupe leader et follow séparé :  chest leading et decorations ( fioritures et expression corporelle )
+
+
+  14h45 - 15h30 
+
+
+  Introduction aux principes de base du tango: gestion de poids du corps, pas coté ,réflexion autour des barridas et Boleos.
+
+
+  15h30- 16h15:
+
+
+  Introduction à la fusion Lyric’kiz
+
+
+  16h15-17h
+
+
+  Enchaînement de fusion tangolyric’kiz
+
+
+  17h- 18h
+
+
+  Pratique assistée:
+
+
+  3 ateliers simultanés avec possibilité de passer d’un groupe à l’autre 
+
+
+  18h-20h:
+
+
+  Pratique libre avec DJ Lady West
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715522503/dtqwzx7p8q8qqdky9sju.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJNYUNQ-0quYcR9_Ni7CPso2o
+international: No
+hash: 1717329600000+ChIJT-d_XOfl5EcRB6y99y4MxOc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fi0R6YwcySyHe0MKd3TbV.png?generation=1715522529484238&alt=media
+id: i0R6YwcySyHe0MKd3TbV

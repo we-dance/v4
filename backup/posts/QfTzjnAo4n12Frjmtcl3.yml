@@ -1,0 +1,182 @@
+importedAt: 1708510542555
+providerUpdatedAt: 1707648346000
+endDate: 1708629000000
+facebookId: "932078725177817"
+facebook: https://www.facebook.com/events/932078701844486/?event_time_id=932078725177817
+facebookUrlsList:
+  - https://www.facebook.com/events/932078701844486/?event_time_id=932078725177817
+eventType: Workshop
+createdAt: 1708510542555
+providerItemId: e932078725177817@facebook.com
+approved: true
+provider: ical
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+providerId: acGgNnH6q1yLbtlyLXq0
+name: "Kizomba Vienna: Kizomba & Konpa Classes"
+location: Ayres De Tango
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  TangoArgentino:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1707647487000
+startDate: 1708625400000
+facebookUrlsCount: 1
+updatedAt: 1708510542555
+username: Aina
+venue:
+  formatted_address: Argentinierstraße 17, 1040 Wien, Austria
+  website: http://www.ayresdetango.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Ayres de Tango
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3713916697085
+        lat: 48.1946560697085
+      northeast:
+        lng: 16.3740896302915
+        lat: 48.1973540302915
+    location:
+      lng: 16.3727706
+      lat: 48.1959384
+  address_components:
+    - types:
+        - street_number
+      short_name: "17"
+      long_name: "17"
+    - types:
+        - route
+      short_name: Argentinierstraße
+      long_name: Argentinierstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Wieden
+      long_name: Wieden
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1040"
+      long_name: "1040"
+  international_phone_number: +43 676 5215788
+  place_id: ChIJ2VX7vngHbUcRuThLwsmnsnQ
+  url: https://maps.google.com/?cid=8408967939244112057
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1708510562742
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/KizombaViennaat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708510563/ehytajrmmwns1lk1kcos.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1708510562742
+  owned: false
+  name: Kizomba Vienna
+  place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+  updatedAt: 1708510562742
+  username: kizomba.vienna
+claimed: No
+link: https://www.kizomba-vienna.at/kurse/w%C3%B6chentliche-kurse/
+description: >-
+  Workshopübersicht
+
+  Montag, ab 12.2.2024 | Kizomba
+
+
+  18.00 - 19.00 | Kizomba Date
+
+
+  für alle, die noch nie Kizomba getanzt haben
+
+   
+
+  19.05 - 20.05 | Kizomba Lover
+
+
+  für alle, die bereits Kizomba getanzt haben und ihre Techniken und Bewegungen aufpolieren möchten.
+
+  Donnerstag, ab 15.2.2024 | Konpa
+
+
+  19.10 - 20.10 | Konpa Date
+
+
+  für alle, die noch nie Konpa getanzt haben
+
+   
+  Kosten
+
+
+  4x 1 Stunde
+
+  Einzelanmeldung
+
+
+  1 Kurs: EUR 59,00
+
+
+  2 Kurse: EUR 99,00
+
+
+  Paaranmeldung:
+
+
+  1 Kurs: EUR 99,00
+
+
+  2 Kurse: EUR 169,00
+
+  Sozialrabatt (Studenten, Arbeitssuchende): - EUR 12,00
+
+  Location
+
+
+  Ayres de Tango
+
+
+  Argentinierstraße 17, 1040 Wien 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708510565/ftijy1kvobwl6kfxhub7.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1708625400000+ChIJ2VX7vngHbUcRuThLwsmnsnQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FQfTzjnAo4n12Frjmtcl3.png?generation=1708510581303901&alt=media
+viewsCount: 1
+id: QfTzjnAo4n12Frjmtcl3

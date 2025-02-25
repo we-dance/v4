@@ -1,0 +1,328 @@
+venue:
+  formatted_address: Odesa, Odessa Oblast, Ukraine, 65000
+  website: http://www.odessa.ua/?lang=en
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - locality
+        - political
+      long_name: Odesa
+      short_name: Odesa
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Odes'ka city council
+      short_name: Odes'ka city council
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Odessa Oblast
+      short_name: Odessa Oblast
+    - types:
+        - country
+        - political
+      long_name: Ukraine
+      short_name: UA
+    - types:
+        - postal_code
+      long_name: "65000"
+      short_name: "65000"
+  url: https://maps.google.com/?q=Odesa,+Odessa+Oblast,+Ukraine,+65000&ftid=0x40c6318a0b864c43:0x129f8fe28cf2176c
+  name: Odesa
+  geometry:
+    viewport:
+      south: 46.31952199787973
+      north: 46.60042197204501
+      east: 30.81189008774716
+      west: 30.61168492007861
+    location:
+      lng: 30.7233095
+      lat: 46.482526
+  place_id: ChIJQ0yGC4oxxkARbBfyjOKPnxI
+endDate: 2022-08-15T12:00
+claimed: No
+organisedBy: ""
+link: https://www.odessalatinfest.com
+description: >-
+  The first edition of the Odessa Latin Fest was absolutely fabulous and we
+  proudly announce the second edition, scheduled from Monday, August 8, 2022
+  until Sunday, August 14, 2022.
+
+
+  Get your tickets & Hotel room here: http://www.odessalatinfest.com
+
+
+  What to expect? 
+
+  - More amazing instructors and performers from all over the world
+
+  - More pool parties
+
+  - Another Boat Party
+
+  - More shade during the workshops
+
+
+  And much, much more, to be announced shortly
+
+
+  We are planning lot's of improvements, compared to the first edition. 
+
+
+  Confirmed Salsa Artists so far
+
+  - Adrian & Anita
+
+  - Bersy Cortez
+
+  - Fadi Fusion
+
+  - Chiara Tofani
+
+  - Victor Ortega
+
+  - Damian Cejas
+
+  - Martina Placeres
+
+  - Lieb J
+
+  - Leon Rose
+
+  - Talal & Edyta
+
+  - Fadi K
+
+  - Diego & Ozlem
+
+  - Orlando & Cecilia
+
+  - Patrick Mussendijk & Mambo Syndicate
+
+  - Lisa Mercedes Martinez
+
+  - Dmytro & Anabell
+
+  - Alexei & Tetiana Caceres 
+
+  - Dj Rumbero
+
+  - Dj Ryad
+
+  - Dj Daaf
+
+  - Dj Kasanoba
+
+
+  Confirmed Bachata Artists so far
+
+  - Leticia & Gabriel
+
+  - Melvin & Gatica
+
+  - Leo & Jomante
+
+  - Lau & July
+
+  - Niko & Lara
+
+  - Thomas & Schniksi
+
+  - Sefa Sahin
+
+  - Anna Maliarenko
+
+  - Thomas y Schniksi
+
+  - Fadi & Anna
+
+  - Marina Imas 
+
+  - Chicho & Liza
+
+  - Maks & Anna
+
+  - Yulia Fedorova & Aleks Nechayev
+
+  - Aleksandr Levchuk & Anna Galenda 
+
+  - Constantine & Diana Valigura
+
+  - Marcello Khalil 
+
+  - Dj Papi Shango
+
+  - Dj Maikiu
+
+  - DJ Ramon
+
+
+  Photagraphy & Video
+
+  - Social Dance TV
+
+  - Gwepa
+
+  - Flower Bachata
+
+
+
+  Much more to come...
+
+
+  PROGRAM IN A NUTSHELL
+
+
+  Monday, August 8 until Wednesday, August 10 at Otrada Black Sea Hotel.
+
+  12:00 - 18:00 | Pool Parties
+
+  22:00 - 05:00 | Evening Parties
+
+
+  Thursday, August 11 until Sunday, August 14 at Buddha Beach
+
+  12:00 -18:00 | Workshops & Pool Parties
+
+  18:00 - 22:00 | Social Room
+
+  22:00 - 06:00| Showcase and After Parties
+
+
+  Sales will start shortly. Make sure to book your tickets early as spaces will be limited. Flights to Odessa are cheap if you book early. Wait too long and you'll pay at least double.
+
+
+  HOTEL
+
+  Our main hotel will be the Otrada Black Sea, a 3-minute walk from Buddha Beach. The parties from Monday, August 8 until Wednesday, August 10 will be at the pool area of this hotel.
+
+  There is a limited number of rooms., so make sure to book your's as soon as possible. All rooms prices include breakfast and tourist tax.
+
+
+
+  PARTNERS
+
+  Supporting dance schools/website/organization 
+
+
+  • Bachataflix.com 
+
+  • Salsa con Roman (http://salsa-con-ramon.com)
+
+  • Santana Latin Dance (https://www.santana-latindance.de/)
+
+  • Impulsedance (Sweden)
+
+  • Extremos (Amsterdam)
+
+  • Latinos Company Dance Project (LCD Project) (Kyiv)
+
+  • CaceresTeamUA (Kyiv)
+
+  • Evolution Dance Centre (EDC) (Odessa)
+
+  • Marcello Dance School (Odessa)
+
+  • Ymas Latin Dance studio (Odessa)
+
+  • 4 STEPS dance project (Odessa)
+
+  • Alex Kazin Salsa Studio (Odessa)
+
+  • Amore Dance Odessa (Odessa)
+
+  • Kharkov Zouk Dance Studio (Kharkov)
+
+  • Dance Galaxy (Kharkov)
+
+  • Nueva Vida Studio (Kharkov)
+
+  • Latin Motion (Kharkov)
+
+  • Bachata Dance School Lviv (Lviv)
+
+  • Mariposa en el Viento (Dnipr)
+
+  • Avocado Dance  (Dnipr)
+
+  • Sdcternopil (Ternopil)
+
+  • Amado Dance Studio (Zaporizhzhia)
+
+  • Dikoro studio Poltava (Poltava)
+
+  • Alma Dance Studio (Nikolaev)
+
+  • Salsa Club Rivne (Rivne)
+
+
+  Join our telegram group to find roommates & friends who are joining
+
+  https://t.me/OLF2021
+type: event
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F2QyKbtEd2kXGacTHBc5pUzl40q73%2F21701d32-520a-4891-aa9f-774dc6c38716?alt=media&token=4fd2986d-115f-4da6-b877-32b08a4db1a5
+promo: ""
+createdAt: 1642277486748
+price: 100 EUR
+promoter: ""
+promotedBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+place: ChIJQ0yGC4oxxkARbBfyjOKPnxI
+international: No
+updatedAt: 1642277486748
+website: http://www.odessalatinfest.com
+updatedBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+visibility: Public
+facebook: http://facebook.com/odessalatinfest
+eventType: Festival
+organiser: ""
+form: No
+createdBy: 2QyKbtEd2kXGacTHBc5pUzl40q73
+online: No
+styles:
+  SalsaNewYork:
+    level: Interested
+    highlighted: false
+    selected: true
+  Mambo:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Latin:
+    level: Interested
+    highlighted: false
+    selected: true
+  Afro:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-08-07T18:00
+username: odessalatinfest2022
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fzjbm1qHtzjErXy8kBo7C.png?generation=1642277577694088&alt=media
+id: zjbm1qHtzjErXy8kBo7C
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: ""
+  name: odessalatinfest
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Febd56ccc-ba7e-4118-91a5-0479c7f92b93?alt=media&token=35dfb5c3-2653-490d-bee2-6dfa10946a77
+  bio: The Odessa Latin Fest is a Latin Dance event by the shores of the Black Sea
+    in Ukraine
+  id: jJeDv12xvkrXjGsTV92l
+  instagram: odessalatinfest
+  username: odessalatinfest
+name: ODESSA LATIN FEST / 2023
+viewsCount: 15

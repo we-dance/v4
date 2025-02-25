@@ -1,0 +1,146 @@
+venue:
+  formatted_address: Anglerstraße 6, 80339 München, Germany
+  website: http://www.tanzstudio-rebecca.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Studio Rebecca | Tanzstudio Rebecca
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5365355302915
+      south: 48.1328692697085
+      north: 48.1355672302915
+      west: 11.5338375697085
+    location:
+      lng: 11.5350716
+      lat: 48.1342041
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Anglerstraße
+      long_name: Anglerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwanthalerhöhe
+      long_name: Schwanthalerhöhe
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80339"
+      long_name: "80339"
+  map: ""
+  international_phone_number: +49 176 24414498
+  place_id: ChIJz0JxsqjYnUcRB6OVHtcJ6MY
+  url: https://maps.google.com/?cid=14332716633642345223
+  room: orange
+endDate: 2023-07-01T17:30
+claimed: No
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F7SRXL9snb0Tj6WR1inqrtwGDJwt2%2Fd947d85a-f692-4bf8-85a4-4547efea811b?alt=media&token=eb64ddab-42c6-4e66-9195-973e76d8b6fc
+createdAt: 1687607598783
+artists: []
+price: 22 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1687607598783
+updatedBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+visibility: Public
+org: {}
+eventType: Workshop
+confirmation: You got it !! See you there 🥳
+form: No
+createdBy: 7SRXL9snb0Tj6WR1inqrtwGDJwt2
+watch:
+  count: 1
+  list:
+    ananth: true
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-01T15:30
+username: ananth
+description: >-
+  🔥 Dear All , Join us for an another Bachata Bootcamp, designed specifically
+  for improver / intermediate level dancers looking to elevate their moves with
+  Headrolls and Caricia combinations
+
+
+  🔥 Bootcamp Theme : Headrolls and Caricia combinations 
+
+
+  🤜 When : 01-Jul-2023 (Saturday)
+
+
+  🤜 Time : 15.30 - 17.30pm
+
+
+  🤜 Price : 22 EUR for 2 hours
+
+
+  🤜 Partner : Can join alone/with partner . We usually switch partner during workshop
+
+
+  🤜 Where : Tanzstudio Rebecca , Anglerstraße 6, 80339 München
+
+  🤜 Orange Room
+
+
+  Registration via +4915222808578 is mandatory to keep balanced leaders & followers 
+
+
+  Looking forward to see you there 💃 
+id: u9COPaHPwpnmFuoJj7yq
+name: Bachata Bootcamp - Improver/Intermediate Level
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fu9COPaHPwpnmFuoJj7yq.png?generation=1687878301306949&alt=media
+telegram:
+  requestedAt: 1687878313232
+  messageUrl: https://t.me/WeDanceMunich/1126
+  publishedAt: 1687878319429
+  messageId: 1126
+  state: published
+instagram:
+  requestedAt: 1687878320655
+  messageUrl: https://instagram.com/p/Ct_4q3frhct
+  publishedAt: 1687878336103
+  messageId: Ct_4q3frhct
+  state: published
+viewsCount: 34

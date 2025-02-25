@@ -1,0 +1,117 @@
+endDate: 1728864000000
+sourceUrl: https://www.facebook.com/share/69HQXmRQeQPzftvG/
+createdAt: 1725890437438
+approved: true
+provider: ical
+providerId: JgMRMnUCRFlcOXnmk1zK
+providerCreatedAt: 1725879056000
+updatedAt: 1725890437438
+importedAt: 1725890437438
+providerUpdatedAt: 1725879056000
+facebookId: 69HQXmRQeQPzftvG
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/share/69HQXmRQeQPzftvG/
+  - https://www.facebook.com/share/69HQXmRQeQPzftvG/
+eventType: Party
+providerItemId: 58bjpp61e69r5h180ifgj4om0o@google.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+location: Odense, Dánia
+styles:
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728604800000
+facebookUrlsCount: 2
+username: alexrazbakov
+venue:
+  formatted_address: Munkebjergvej 140d, 5230 Odense, Denmark
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Munkebjergvej 140d
+  geometry:
+    viewport:
+      southwest:
+        lng: 10.4086099697085
+        lat: 55.3774900197085
+      northeast:
+        lng: 10.4113079302915
+        lat: 55.3801879802915
+    location:
+      lng: 10.4100005
+      lat: 55.3786451
+  address_components:
+    - types:
+        - street_number
+      short_name: 140d
+      long_name: 140d
+    - types:
+        - route
+      short_name: Munkebjergvej
+      long_name: Munkebjergvej
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Odense M
+      long_name: Odense M
+    - types:
+        - locality
+        - political
+      short_name: Odense
+      long_name: Odense
+    - types:
+        - country
+        - political
+      short_name: DK
+      long_name: Denmark
+    - types:
+        - postal_code
+      short_name: "5230"
+      long_name: "5230"
+  place_id: ChIJJxytCWsgTUYRawqtIxJm6ng
+  url: https://maps.google.com/?q=Munkebjergvej+140d,+5230+Odense,+Denmark&ftid=0x464d206b09ad1c27:0x78ea661223ad0a6b
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1725890455272
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/odensesalsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1725890455/vyieflidurhcdz88webg.png
+  source: facebook
+  type: Organiser
+  createdAt: 1725890455272
+  owned: false
+  name: Odense Salsa
+  place: ChIJwSSXQjXZTEYR7PUvO9U0Hjs
+  updatedAt: 1725890455272
+  username: odensesalsa
+claimed: No
+facebook: https://www.facebook.com/events/1581025445796892/
+link: ""
+description: >-
+  **SAVE THE DATE**
+
+
+  The wonderful Bruna & Felipe are returning to Odense this autumn to share their wisdom and good vibes!
+
+
+  More info about program and sign-up etc. is coming later.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725890456/jh7awfsv0ag4faq6rr5x.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Bruna & Felipe - Odense Zouk weekend *SAVE THE DATE*
+online: No
+place: ChIJwSSXQjXZTEYR7PUvO9U0Hjs
+international: No
+hash: 1728662400000+ChIJJxytCWsgTUYRawqtIxJm6ng
+id: 5WUx2INQ8Flbudy7qgmK

@@ -1,0 +1,143 @@
+sourceUrl: https://fb.me/e/4Jbwg0hfb
+createdAt: 1725479524237
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+updatedAt: 1725479524237
+username: DJ_Omega
+venue:
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Bird Bar
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.5612295197085
+        lat: 48.1391029197085
+      northeast:
+        lng: 11.5639274802915
+        lat: 48.1418008802915
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+  url: https://maps.google.com/?cid=1792963782189389845
+endDate: ""
+claimed: No
+link: ""
+description: >-
+  8times 2gether - Weekly Party Munich is back!
+
+
+  Join us this week for another unforgettable night of dance, music, and fun! Starting at 8 PM, immerse yourself in an Urbankiz class with the talented George and Iva. Whether you're a seasoned dancer or just curious, this class is perfect for everyone. From 9 PM till midnight, DJ Neo will keep the vibes going strong, making sure the dance floor stays hot all night!
+
+
+  📍 Location: Just 2 minutes from Munich Central Station—easily accessible and perfect for a night out!
+
+
+  🗓️ Date & Time: Every week, 8 PM - Midnight  
+
+  💃 Urbankiz Class: 8 PM - 9 PM  
+
+  🎧 DJ Omega: 9 PM - Midnight 
+
+  💵 Class: book here ➡️ https://www.dancewithgeorge.com/?gad_source=1&gbraid=0AAAAA9-iIi1U9QJcFRVTYCLkVczbHL2qA&gclid=CjwKCAjw59q2BhBOEiwAKc0ijbRvS66XgmDdJRXlKQLTXx4flarf7UQNV9q2Y4IgFYB51zicoG4WPxoCwHwQAvD_BwE
+
+  💵 Party: 10€ (8€ when you take the DWG class)
+
+
+
+  Don’t miss out—see you there!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/8times-2gether-Weekly-Party-Munich/61564829987994/
+  name: 8times 2gether - Weekly Party Munich
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1725478952/wbw1iqmaos8lx6dkjscv.jpg
+  bio: ""
+  id: XI5g61hE2IKNM7mib8hL
+  instagram: ""
+  username: 8times.2gether.-.wee
+facebook: https://www.facebook.com/events/832568375686724/
+facebookId: "832568375686724"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: 8times 2gether - Workshop & Weekly Party with DJ Neo
+online: No
+styles:
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1728410400000+ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+startDate: 1728410400000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1725479529/s7rcdnnsnojzzfrgrvyx.jpg
+star:
+  count: 1
+  usernames:
+    - DJ_Omega
+  history:
+    - username: DJ_Omega
+      date: 1725479531731
+      invitedBy: ""
+      uid: fTDV8ngzhlOou5b59p5KgSOPeNL2
+      action: joined
+bookmarks: 1
+viewsCount: 5
+id: wB481dg77BAtIJiggIhC

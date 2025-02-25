@@ -1,0 +1,225 @@
+createdAt: 1704822881548
+provider: latindancecalendar.com
+createdBy: k7cEjCraPdbQnhc8YsTN
+facebook: https://www.facebook.com/events/1678617352640005/
+source: facebook
+updatedAt: 1704822881548
+username: wedancebot
+venue:
+  formatted_address: 5120 S Lowell Blvd, Littleton, CO 80123, USA
+  website: http://coloradodancesport.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Colorado Dancesport Ballroom
+  geometry:
+    viewport:
+      southwest:
+        lng: -105.0358516302915
+        lat: 39.62201591970851
+      northeast:
+        lng: -105.0331536697085
+        lat: 39.62471388029151
+    location:
+      lng: -105.0344226
+      lat: 39.6233967
+  address_components:
+    - types:
+        - street_number
+      short_name: "5120"
+      long_name: "5120"
+    - types:
+        - route
+      short_name: S Lowell Blvd
+      long_name: South Lowell Boulevard
+    - types:
+        - locality
+        - political
+      short_name: Littleton
+      long_name: Littleton
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Arapahoe County
+      long_name: Arapahoe County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CO
+      long_name: Colorado
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "80123"
+      long_name: "80123"
+  international_phone_number: +1 720-283-2623
+  place_id: ChIJZ2-o4CWAbIcRfo0u3TxZIpE
+  url: https://maps.google.com/?cid=10458019402651438462
+visibility: Public
+endDate: ""
+org:
+  owner: ""
+  importedAt: 1704822884819
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/denverzoukmarathon
+  photo: https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/400505810_359343483265953_6695436726691609015_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=XbGPY06Ub_0AX-ZWpd-&_nc_oc=AQnsSnp-5e0Xx2aeKlbL7Rllb1VkyA7CDZ9E-iQtGrBFgJkh6XHXc_IQBwBfC0-BeDM&_nc_ht=scontent-lga3-1.xx&oh=00_AfCzaZgGJsopPwOOgEsADC6Pi0UCTHJF1SLAAaG_-c5FkA&oe=65A268FE
+  source: facebook
+  type: Organiser
+  createdAt: 1704822884819
+  owned: false
+  name: Denver Zouk Marathon
+  place: ChIJKzvi-z98a4cRwDzWrumXBQc
+  updatedAt: 1704822884819
+  username: denverzoukmarathon
+claimed: No
+facebookId: "1678617352640005"
+link: https://www.danceplace.com/ticket/buy/12215
+description: >-
+  Dance throughout the day and into the early morning! 30+ hours of social
+  dancing with the coziest crew of international DJs, amazing dancers, and the
+  best humans you haven’t even met yet! Dance, snack, nap, and get back to the
+  dance floor.
+
+
+
+  Snag your pass and spread the word! https://www.danceplace.com/ticket/buy/12215
+
+
+
+  The Denver Zouk Marathon will include:
+
+
+  🌙 30+ hours of social dancing
+
+  🌙 No workshops. No performances. No contests.
+
+  🌙 Day parties and night parties 
+
+  🌙 Diverse lineup of DJs 
+
+  🌙 Space to rest, relax, and rejuvenate
+
+  🌙 All happening in majestic Colorado
+
+
+  ____________________________________________________
+
+
+
+  ✨️ WEEKEND SCHEDULE ✨️
+
+
+  Friday, April 18 - Sunday, April 21
+
+
+  More details to come!
+
+
+  ____________________________________________________
+
+
+
+  ✨️ MEET YOUR DJs ✨️
+
+  🎧 DJ Anvi
+
+  🎧 DJ Evelyn
+
+  🎧 DJ Fuki
+
+  🎧 DJ Kakah
+
+  🎧 DJ Lilylicious
+
+  🎧 DJ MBrace
+
+  🎧 DJ Montini
+
+  🎧 DJ Nhat
+
+  🎧 DJ WAY
+
+
+  ____________________________________________________
+
+
+
+  ✨️ THE DEETS ✨️
+
+
+  Location
+
+  Colorado Dancesport Ballroom
+
+  5120 S Lowell Blvd, Littleton, CO 80123
+
+
+
+
+  COVID Policy
+
+  We will follow state mandates at the time of the event, and determine if/what safety protocols are best suited, depending on what our world looks like in April. Regardless, we will support you to do what is needed to feel safe & open within our container. Stay tuned.
+
+
+
+  Ticket Transfers
+
+  We understand that plans and circumstances change so you may transfer your ticket if needed
+
+  Ticket transfer deadline is April 1, 2024
+
+  Only lead-to-lead or follow-to-follow transfers permitted
+
+  Tickets are non-refundable
+
+  Tickets are non-transferable to future years
+
+
+
+  Contact
+
+  Rachel Leigh Farley
+
+  DenverZouk@gmail.com
+
+
+  Like our page
+
+  https://www.facebook.com/denverzoukmarathon
+
+
+  Follow us on Instagram
+
+  @denverzoukmarathon
+program: []
+eventType: Workshop
+type: event
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Denver Zouk Marathon 2024
+online: No
+place: ChIJKzvi-z98a4cRwDzWrumXBQc
+international: No
+hash: 1713578400000+ChIJZ2-o4CWAbIcRfo0u3TxZIpE
+startDate: 1713578400000
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSqnjTOtl56Y8AYeVVjgh.png?generation=1704822910444932&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705853226/mjo1aqummedyknuut2xi.jpg
+styles:
+  Ballroom:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+viewsCount: 18
+id: SqnjTOtl56Y8AYeVVjgh

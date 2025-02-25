@@ -1,0 +1,133 @@
+venue:
+  website: http://www.hardys-freizeit.de/
+  formatted_address: Ludwigstraße 5, 82256 Fürstenfeldbruck, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Hardy's Fürstenfeldbruck Freizeit Sport & Event GmbH
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.2531077802915
+      south: 48.1764771697085
+      north: 48.1791751302915
+      west: 11.2504098197085
+    location:
+      lng: 11.2515733
+      lat: 48.17767569999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "5"
+      long_name: "5"
+    - types:
+        - route
+      short_name: Ludwigstraße
+      long_name: Ludwigstraße
+    - types:
+        - locality
+        - political
+      short_name: Fürstenfeldbruck
+      long_name: Fürstenfeldbruck
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: FFB
+      long_name: Fürstenfeldbruck
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "82256"
+      long_name: "82256"
+  international_phone_number: +49 8141 227160
+  url: https://maps.google.com/?cid=11738545757144047831
+  place_id: ChIJoWK-yOJ_nkcR12A9Miyx56I
+endDate: 1698440400000
+claimed: No
+link: https://www.picoloco-salsa.com/picoloco-veranstaltungen
+description: >-
+  Wir veranstalten im Hardys Fitness in Fürstenfeldbruck jeden 2. Freitag einen
+  Tanzabend.
+
+   
+
+  Erster Termin ist am 27.10.2023 um 20:30 Uhr bis 22:45 Uhr
+
+
+  Eintritt: 7€
+
+
+
+
+  Wo:
+
+
+  Hadys Fitness 
+
+
+  Ludwigstraße 5
+
+
+  82256 Fürstenfeldbruck
+
+
+
+
+  Getränke und Essen:
+
+
+  im Dalys könnt ihr euren Durst und Hunger stillen.
+
+   
+
+  Wir freuen uns auf euch.
+program: []
+type: event
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FCn8MENFGLnb81hIMgWAMAQxoCRf2%2Fb55cc2e8-b2d5-4e3a-92ba-2a793dfe6ed1?alt=media&token=c1018fca-e555-459a-bc95-77c654a237dc
+duration: 60
+createdAt: 1697307868305
+artists: []
+price: 7 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+gallery: https://www.picoloco-salsa.com/picoloco-galerie
+updatedAt: 1697307868305
+updatedBy: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+visibility: Public
+org: {}
+confirmation: ""
+eventType: Party
+form: No
+watch:
+  count: 1
+  list:
+    PicoLoco: true
+createdBy: Cn8MENFGLnb81hIMgWAMAQxoCRf2
+name: Tanz Abend im Hardys
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1698431400000
+username: PicoLoco
+viewsCount: 10
+id: JhzqhxDNfUKhmVcLGm5Y

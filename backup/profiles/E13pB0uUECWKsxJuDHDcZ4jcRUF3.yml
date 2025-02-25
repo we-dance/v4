@@ -1,0 +1,58 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1631652451825
+createdBy: E13pB0uUECWKsxJuDHDcZ4jcRUF3
+name: Smartie
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: Smartie
+pwaUsed: false
+birthday: 1993-01-22
+gender: Female
+visibility: Members
+jobs: Programming but I’m not sure it’s useful
+bio: Italian girl, (almost) new to Munich, I'm looking for a partner to attend
+  one or more Latin American courses.
+weight: "64"
+learning: Salsa and (sensual) bachata.
+permission: No
+locales:
+  de: true
+  en: true
+  it: true
+meetingPlace:
+  public: true
+partner: Yes
+days:
+  Monday: true
+  Thursday: true
+  Friday: true
+  Wednesday: true
+  Tuesday: true
+contacts: Yes
+height: "168"
+updatedAt: 1631653233057
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Beginner
+    highlighted: false
+    selected: true
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FE13pB0uUECWKsxJuDHDcZ4jcRUF3%2F4cb6ce04-dd5f-45db-96cf-355732fbe2d0?alt=media&token=f83c7e6a-183f-4c0d-8355-8857b07e4bd3
+daysUsed: 5
+lastLoginAt: 1632157084305
+instagram: https://instagram.com/Smartistina
+viewsCount: 2
+id: E13pB0uUECWKsxJuDHDcZ4jcRUF3

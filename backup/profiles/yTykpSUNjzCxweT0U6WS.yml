@@ -1,0 +1,100 @@
+createdAt: 1715507244973
+website: https://theatron.net/
+rooms: ""
+address:
+  formatted_address: Spiridon-Louis-Ring 21, 80809 München, Germany
+  website: https://theatron.net/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Theatron
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.55374735
+      south: 48.17161369999999
+      north: 48.17740770000002
+      west: 11.54232795
+    location:
+      lng: 11.5506184
+      lat: 48.1730622
+  address_components:
+    - types:
+        - street_number
+      short_name: "21"
+      long_name: "21"
+    - types:
+        - route
+      short_name: Spiridon-Louis-Ring
+      long_name: Spiridon-Louis-Ring
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Milbertshofen-Am Hart
+      long_name: Milbertshofen-Am Hart
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80809"
+      long_name: "80809"
+  place_id: ChIJ1z7X1np2nkcRj28LfxNuNgM
+  url: https://maps.google.com/?cid=231493460871049103
+gender: Other
+phone: ""
+updateAt: 1715507244973
+type: Venue
+map: ""
+username: theatron.net
+watch:
+  count: 1
+  usernames:
+    - Dj_Omega
+  history:
+    - username: Dj_Omega
+      date: 1716299069304
+      invitedBy: ""
+      uid: fTDV8ngzhlOou5b59p5KgSOPeNL2
+      action: joined
+    - username: Dj_Omega
+      date: 1716299071238
+      invitedBy: ""
+      uid: fTDV8ngzhlOou5b59p5KgSOPeNL2
+      action: left
+    - username: Dj_Omega
+      date: 1716299071973
+      invitedBy: ""
+      uid: fTDV8ngzhlOou5b59p5KgSOPeNL2
+      action: joined
+viewsCount: 5
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venueType: OpenAir
+name: Seebühne im Olympiapark
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F385dc0b7-7062-4cd5-bbbc-b40d2f3379d2?alt=media&token=9539af32-3e2d-44aa-8c49-6b2668aff16f
+team: []
+id: yTykpSUNjzCxweT0U6WS
+amenities:
+  - ScenicViews
+updatedAt: 1717677003477

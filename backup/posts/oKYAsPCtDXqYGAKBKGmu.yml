@@ -1,0 +1,125 @@
+createdAt: 1708102371773
+updatedBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+createdBy: ICpCp7IBpMe30vAHqYfw4FmQp382
+facebook: https://www.facebook.com/events/801308311834988/
+updatedAt: 1708102371773
+username: MontunoClub
+venue:
+  formatted_address: Kosovska 26a, Novi Sad 21101, Serbia
+  website: http://faithconnectdancestudio.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Faith Connect Dance Studio
+  geometry:
+    viewport:
+      southwest:
+        lng: 19.8503321697085
+        lat: 45.26146126970851
+      northeast:
+        lng: 19.8530301302915
+        lat: 45.2641592302915
+    location:
+      lng: 19.8515935
+      lat: 45.2628081
+  address_components:
+    - types:
+        - street_number
+      short_name: 26a
+      long_name: 26a
+    - types:
+        - route
+      short_name: Kosovska
+      long_name: Kosovska
+    - types:
+        - locality
+        - political
+      short_name: NS
+      long_name: Novi Sad
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Južnobački okrug
+      long_name: Južnobački okrug
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Vojvodina
+      long_name: Vojvodina
+    - types:
+        - country
+        - political
+      short_name: RS
+      long_name: Serbia
+    - types:
+        - postal_code
+      short_name: "21101"
+      long_name: "21101"
+  international_phone_number: +381 64 5575776
+  place_id: ChIJ46NqoBwRW0cRtzdsv7ejrwU
+  url: https://maps.google.com/?cid=409726100699887543
+endDate: 1708819200000
+claimed: No
+link: ""
+description: >-
+  Dragi ljudi,
+
+
+  Kao što smo obećali, nastavljamo sa našim redovnim plesnim žurkama! Ovoga puta, spremite se za još jedno predivno veče!
+
+
+  Zabeležite datum - 24. februar! <3
+
+  Uskoro ćemo vam poslati više informacija i sve detalje! <3
+
+
+  Vaš FAITH!
+
+
+  ENG: 
+
+
+  Dear all,
+
+
+  As promised, we are continuing our series of vibrant dance parties! Get ready for another thrilling evening!
+
+
+  Save the date - February 24th! <3
+
+  More information and all the details are coming soon! <3
+
+
+  Your FAITH!
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJVTTpPWEQW0cRKP4kN2h9bws
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/bachatafaith
+  name: Faith Connect Dance Studio
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1708102355/aeatb1rvl1ll7no1gctl.jpg
+  bio: ""
+  id: iR4RBRRZgMfbo86hXd4Z
+  instagram: ""
+  username: faith.connect.dance.studio
+facebookId: "801308311834988"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: Faith Connect Sensual Nights | Vol.2
+online: No
+styles: {}
+hash: 1708804800000+ChIJ46NqoBwRW0cRtzdsv7ejrwU
+startDate: 1708804800000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1708102374/yx7mbgf4soblzrbyr3bn.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FoKYAsPCtDXqYGAKBKGmu.png?generation=1708102388317266&alt=media
+viewsCount: 2
+id: oKYAsPCtDXqYGAKBKGmu

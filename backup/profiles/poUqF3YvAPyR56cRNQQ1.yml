@@ -1,0 +1,28 @@
+createdAt: 1668704235779
+updatedBy: LBwF10Hc3qXIw2eiAnuEsjo1P5y1
+createdBy: LBwF10Hc3qXIw2eiAnuEsjo1P5y1
+name: Hamburg, Germany
+place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+type: City
+updatedAt: 1668704235779
+username: Hamburg
+cityPlaceId: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+location:
+  country: Germany
+  latitude: 53.5488282
+  locality: Hamburg
+  region: Hamburg
+  place_id: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
+  longitude: 9.987170299999999
+watch:
+  count: 3
+  usernames:
+    - paulowind
+    - Aina
+    - Kristin
+  list:
+    paulowind: true
+    Aina: true
+    Kristin: true
+viewsCount: 352
+id: poUqF3YvAPyR56cRNQQ1

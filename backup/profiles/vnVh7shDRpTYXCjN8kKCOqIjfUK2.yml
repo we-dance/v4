@@ -1,0 +1,85 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1621706267292
+createdBy: vnVh7shDRpTYXCjN8kKCOqIjfUK2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: JelRi
+lastLoginAt: 1621706267554
+daysUsed: 1
+pwaUsed: true
+bio: >-
+  Hallo,  i am Jelena and i love to dance, to train .
+
+  I am looking for a partner,  who wants to improve my dancing and enjoy creating Special dance Flow together.
+styles:
+  UrbanTarraxa:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Beginner
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+cities:
+  ChIJAVkDPzdOqEcRcDteW0YgIQQ: true
+birthday: 1978-10-19
+partnerBio: Do you love dogs?
+hometown: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+gender: Female
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvnVh7shDRpTYXCjN8kKCOqIjfUK2%2Fed960dd8-150a-45f0-a71d-c1ecab7cf8f1?alt=media&token=eb4891c5-fb9f-4df8-8513-d6a145487a03
+weight: "68"
+learning: Kizomba,  Urbankiz, Tarraxa, semba, Bachata
+permission: No
+locales:
+  de: true
+  ru: true
+  en: true
+teacher: No
+meetingPlace:
+  myPlace: true
+  yourPlace: true
+  private: true
+  public: true
+partner: Yes
+name: Jelena Rimashevskaya
+days:
+  Monday: true
+  Saturday: true
+  Thursday: true
+  Friday: true
+  Sunday: true
+  Wednesday: true
+  Tuesday: true
+objectives:
+  learn: true
+  project: true
+  outdoors: true
+  indoors: true
+email: condoritaelena@yahoo.de
+contacts: Yes
+height: "170"
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FJelRi.png?generation=1621816341924144&alt=media
+updatedBy: ydKaHhCUvPfjvTDCP6wYN57ewEN2
+savedBy:
+  KgCRVaeytVWwBlD3abHTVYv9kDH3: true
+  ydKaHhCUvPfjvTDCP6wYN57ewEN2: true
+updatedAt: 1628462982208
+facebook: https://www.facebook.com/jelena.rimashevskaya
+id: vnVh7shDRpTYXCjN8kKCOqIjfUK2

@@ -1,0 +1,164 @@
+createdAt: 1706099641189
+updatedBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Peter-Anders-Straße 11-13, 81245 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Peter-Anders-Straße 11-13
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.4772735197085
+        lat: 48.1517680697085
+      northeast:
+        lng: 11.4799714802915
+        lat: 48.15446603029149
+    location:
+      lng: 11.4786288
+      lat: 48.1531931
+  address_components:
+    - types:
+        - street_number
+      short_name: 11-13
+      long_name: 11-13
+    - types:
+        - route
+      short_name: Peter-Anders-Straße
+      long_name: Peter-Anders-Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81245"
+      long_name: "81245"
+  place_id: ChIJ_z2GF913nkcRLcGLQ9gaBmk
+  url: https://maps.google.com/?q=Peter-Anders-Stra%C3%9Fe+11-13,+81245+M%C3%BCnchen,+Germany&ftid=0x479e77dd17863dff:0x69061ad8438bc12d
+endDate: 1708747200000
+claimed: No
+link: https://l.facebook.com/l.php?u=https%3A%2F%2Fmy.weezevent.com%2Fdonau-kiz-festival-meets-kizztalk%3Ffbclid%3DIwAR0k0ys4CirxSFbjO1FB29faSvNtqIAUkKGdOsezGNBiIO_dz2SiJGwSHCs&h=AT1q0sPRtBh3X1dnOJV1vbFFTMcGQ8_Czlpw70ZygQ9Sz2xLLITE0K776I1tj4Qx1QVIrnFIl2nz57xz4PqwC879ZnrrdH57vu76cjIBHOz-HWfCzMJ68oylDkeUZIa9N-I
+description: >-
+  DonauKizz meets Kizztalk
+
+
+  die offizielle Pre-Party vom DonauKiz Festival in München. 7 Stunden UrbanKiz, Kizomba & Tarraxo Musik von DJ Sorin, DJ Remcy und DJ Fajul B.
+
+
+  Wir haben eine special Action für das DonauKiz Festival für euch vorbereitet, nur für die Gäste von "DonauKizz meets Kizztalk"
+
+
+  Limitierte Tickets: 30 Leader, 30 Follower
+
+  keine Gästeliste, keine Abendkasse
+program: []
+source: facebook
+type: event
+duration: 60
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/kizztalk
+  name: Kizztalk Dance Academy
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F5DxynglUsETxslO7UZaBnTrOi5I3%2Fba1ebc19-fe5e-45cc-896a-10a0c19d0878?alt=media&token=a559e435-b725-40a9-9773-30232f3f275f
+  bio: Bei uns dreht sich alles ums Tanzen. Für uns bedeutet Tanzen, miteinander
+    zu kommunizieren, sich au
+  id: 5DxynglUsETxslO7UZaBnTrOi5I3
+  instagram: https://www.instagram.com/kizztalk_/
+  username: kizztalkdanceacademy
+facebook: https://www.facebook.com/events/1864330540684467/
+facebookId: "1864330540684467"
+form: No
+watch:
+  count: 0
+  usernames: []
+name: DonauKizz meets Kizztalk
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Tarraxo:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1708722000000+ChIJ_z2GF913nkcRLcGLQ9gaBmk
+startDate: 1708722000000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1706099652/ukm6znwjjkzcse1wwk5f.jpg
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F9x9p6ZypAK6TwK5qTaAS.png?generation=1706099683369363&alt=media
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    bio: Urban Kiz & Afro Instructor
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    instagram: https://instagram.com/kizztalk_
+    username: kizztalk
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: DJ Remcy
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdjremcyofficial.png?generation=1662976947469425&alt=media
+    bio: |-
+      🎧 DJ | Producer | Beatmaker 🎶
+      📧 Booking: djremcy@djremcy.com
+      #djremcy #kizomba
+    id: KudD69t1x3oj1pk6yvtf
+    instagram: https://instagram.com/djremcyofficial
+    username: djremcyofficial
+  - instagram: https://instagram.com/djsorin
+    username: djsorin
+artistsList:
+  - kizztalk
+  - djremcyofficial
+  - djsorin
+id: 9x9p6ZypAK6TwK5qTaAS
+eventType: Party
+instagram:
+  messageUrl: https://instagram.com/p/C2e8wGUL1aG
+  publishedAt: 1706100534860
+  messageId: C2e8wGUL1aG
+  state: published
+promotionError: ""
+promotion: completed
+price: 15 € / 26€ couple pass
+updatedAt: 1706101063721
+star:
+  count: 1
+  usernames:
+    - Sarabst
+viewsCount: 48

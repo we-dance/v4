@@ -1,0 +1,138 @@
+sourceUrl: https://facebook.com/events/s/salsa-sunday-salsa-liverpool-s/3400134190254127/
+createdAt: 1726255555461
+updatedBy: f7bqQT4228bfaOmESzfPScyJUSA3
+createdBy: f7bqQT4228bfaOmESzfPScyJUSA3
+updatedAt: 1726255555461
+username: PaulRolo
+viewsCount: 1
+venue:
+  formatted_address: 22 Hope St, Liverpool L1 9BY, UK
+  website: https://www.liverpoolartsbar.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Liverpool Arts Bar
+  geometry:
+    viewport:
+      southwest:
+        lng: -2.971213580291503
+        lat: 53.4013403697085
+      northeast:
+        lng: -2.968515619708499
+        lat: 53.4040383302915
+    location:
+      lng: -2.969923000000001
+      lat: 53.4027166
+  address_components:
+    - types:
+        - street_number
+      short_name: "22"
+      long_name: "22"
+    - types:
+        - route
+      short_name: Hope St
+      long_name: Hope Street
+    - types:
+        - postal_town
+      short_name: Liverpool
+      long_name: Liverpool
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Merseyside
+      long_name: Merseyside
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: England
+      long_name: England
+    - types:
+        - country
+        - political
+      short_name: GB
+      long_name: United Kingdom
+    - types:
+        - postal_code
+      short_name: L1 9BY
+      long_name: L1 9BY
+  place_id: ChIJUZ3bC4ghe0gRPQbT5PX83NQ
+  url: https://maps.google.com/?cid=15338412563953288765
+endDate: 1702247400000
+claimed: No
+link: ""
+description: |+
+  WINTER BREAK 
+  LAST CLASS OF 2023 = Sunday 10th December
+  RETURN DATE in 2024 = Sunday 14th January
+
+  ⭐️ SUNDAY SOCIAL ⭐️
+  Classes: Salsa Partner work + Rueda followed by FREE SBK 321 Social 
+
+  VENUE
+  ✨ARTS BAR DANCE STUDIOS ✨ ENTRANCE THROUGH THE BAR, 22 HOPE STREET, L1 9BY
+
+  TIMES
+  7pm-9pm classes - Beginners welcome at 7
+  9pm-10pm SUNDAY SOCIAL Dancing *FREE* 
+
+  PRICE
+  Pay only for the classes!
+  £8 pp per class (£6 NUS) or two hours £12.50 (£10 NUS). 
+  Monthly Bachata class is 1.50 with the other classes & FREE for students :)
+
+  DANCING
+  *SUNDAY SOCIAL = FREE after 9pm*
+
+
+  *ALL WELCOME* - No need to book in advance - No partner necessary
+
+
+  WEBSITE
+  www.salsaliverpool.com
+
+  SOCIAL MEDIA
+  Facebook/Instagram/Tiktok/Youtube/Twitter: @salsaliverpool
+
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ""
+international: No
+visibility: Public
+facebook: https://www.facebook.com/events/3400134173587462/?event_time_id=3400134190254127
+facebookId: "3400134190254127"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "SALSA SUNDAY - Salsa Liverpool SBK "
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1702236600000+ChIJUZ3bC4ghe0gRPQbT5PX83NQ
+startDate: 1702236600000
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726255560/kiac5ii9jsgbynxhvomu.jpg
+org:
+  owner: ""
+  importedAt: 1726255558406
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/salsaliverpool
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1726255558/mbnhntvyhmvrkau69kiv.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1726255558406
+  owned: false
+  name: SALSA LIVERPOOL
+  updatedAt: 1726255558406
+  username: salsaliverpool
+id: k4oDlbWYQqTyu1DgvdNf

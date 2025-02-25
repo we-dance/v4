@@ -1,0 +1,107 @@
+venue:
+  formatted_address: Zentnerstraße, München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Zentnerstraße
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5654829802915
+      south: 48.1562142197085
+      north: 48.15891218029149
+      west: 11.5627850197085
+    location:
+      lng: 11.564134
+      lat: 48.1575632
+  address_components:
+    - types:
+        - route
+      short_name: Zentnerstraße
+      long_name: Zentnerstraße
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+  place_id: EiFaZW50bmVyc3RyYcOfZSwgTcO8bmNoZW4sIEdlcm1hbnkiLiosChQKEgkpJaLe3XWeRxHfsIe1xqoySBIUChIJ2V-Mo_l1nkcRfZixfUq4DAE
+  url: https://maps.google.com/?q=Zentnerstra%C3%9Fe,+M%C3%BCnchen,+Germany&ftid=0x479e75dddea22529:0x4832aac6b587b0df
+endDate: 2023-07-10T19:00
+claimed: No
+description: All about the Bachata Basics and first leadings techniques applied to figures
+program: []
+instagram: {}
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F0f7e7b86-d2b0-4ebf-927a-96610075c9b9?alt=media&token=55ee1bec-9803-453a-9292-8b5365af7597
+duration: 60
+createdAt: 1688369495748
+artists: []
+price: 10 EUR
+socialCover: ""
+artistsList: []
+id: 1xrckVUX0AIORc5VXkdY
+place: ""
+international: No
+updatedAt: 1688369495748
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  instagram: https://instagram.com/milite_anna
+  username: AnnaMil
+viewsCount: 0
+telegram: {}
+upVotes: 0
+eventType: Course
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: "Bachata Basic "
+online: No
+votes: 0
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-07-17T18:00
+username: AnnaMil

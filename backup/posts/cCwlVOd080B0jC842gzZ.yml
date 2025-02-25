@@ -1,0 +1,98 @@
+sourceUrl: https://www.eventbrite.com/e/rooted-workshop-series-tickets-915237067707?aff=oddtdtcreator&_gl=1%2A17uyq81%2A_up%2AMQ..%2A_ga%2AMTU3NTA4ODE0My4xNzE5NDM1MzQz%2A_ga_TQVES5V6SH%2AMTcxOTQzNTM0My4xLjEuMTcxOTQzNTM0OC4wLjAuMA..
+createdAt: 1719435451957
+updatedBy: fqGUzLNU4LT8SjZScmLtE6VOnyd2
+createdBy: fqGUzLNU4LT8SjZScmLtE6VOnyd2
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+updatedAt: 1719435451957
+username: apricotproductions
+viewsCount: 1
+venue:
+  formatted_address: Simplonstraße 23, 10245 Berlin, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: SaliGari Bar
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4577809197085
+        lat: 52.50702796970851
+      northeast:
+        lng: 13.4604788802915
+        lat: 52.5097259302915
+    location:
+      lng: 13.4592078
+      lat: 52.50842830000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "23"
+      long_name: "23"
+    - types:
+        - route
+      short_name: Simplonstraße
+      long_name: Simplonstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10245"
+      long_name: "10245"
+  international_phone_number: +49 30 55604670
+  place_id: ChIJM24D0_JPqEcRGJl4jAOa6WM
+  url: https://maps.google.com/?cid=7199454819360741656
+endDate: 1721408400000
+claimed: No
+link: https://www.eventbrite.de/e/rooted-workshop-series-tickets-915237067707
+description: 1-day workshop on how to produce yourself, your show and your life
+  for Artists Abroad in Germany.
+program: []
+source: schema
+type: event
+duration: 60
+artists: []
+price: 96.27 EUR
+international: No
+visibility: Public
+org: ""
+facebook: ""
+eventType: Workshop
+facebookUrlsList: []
+form: No
+watch:
+  count: 0
+  usernames: []
+name: "Rooted: Workshop Series"
+online: No
+styles: {}
+schemaEventsCount: 1
+hash: 1721390400000+ChIJM24D0_JPqEcRGJl4jAOa6WM
+startDate: 1721390400000
+facebookUrlsCount: 0
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1719435460/asgk7l5w11nazva01ros.jpg
+promotionError: Request failed with status code 401
+promotion: failed
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FcCwlVOd080B0jC842gzZ.png?generation=1719435471385663&alt=media
+id: cCwlVOd080B0jC842gzZ

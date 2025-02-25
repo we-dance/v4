@@ -1,0 +1,138 @@
+venue:
+  website: http://www.birdbar.de/
+  formatted_address: Prielmayerstraße 6, 80335 München, Germany
+  name: Bird Bar
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5639274802915
+      south: 48.1391029197085
+      north: 48.1418008802915
+      west: 11.5612295197085
+    location:
+      lng: 11.5628224
+      lat: 48.1403875
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Prielmayerstraße
+      long_name: Prielmayerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ludwigsvorstadt-Isarvorstadt
+      long_name: Ludwigsvorstadt-Isarvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80335"
+      long_name: "80335"
+  url: https://maps.google.com/?cid=1792963782189389845
+  international_phone_number: +49 89 55969710
+  place_id: ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+endDate: 1710892800000
+claimed: No
+link: ""
+program: []
+instagram: {}
+type: event
+downVotes: 0
+duration: 60
+promo: Yes
+createdAt: 1709155654514
+checkin:
+  count: 0
+  list: {}
+artists: []
+price: 10 EUR
+artistsList: []
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+specialOffer: One free soft (0.25ml) with entry before 10PM
+international: No
+updatedBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/djomega.christina
+  name: Dj_Omega
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F80b2df92-cb38-46ae-8c93-f94e7bfcc926?alt=media&token=87b9a272-9011-4a64-b8c1-39aef76f10a9
+  bio: Organiser - DJ - dancer
+  id: fTDV8ngzhlOou5b59p5KgSOPeNL2
+  instagram: https://instagram.com/djomega_official
+  username: Dj_Omega
+facebookId: 2dbsc4wml
+facebook: ""
+telegram: {}
+upVotes: 0
+eventType: Party
+promotionError: ""
+form: No
+createdBy: fTDV8ngzhlOou5b59p5KgSOPeNL2
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+online: No
+votes: 0
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1710880200000
+username: TocaToca
+promotion: ""
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FfTDV8ngzhlOou5b59p5KgSOPeNL2%2F13a31555-071e-4193-833d-2c8927e7091b?alt=media&token=b88480eb-4453-4725-b618-98500154f8c1
+name: 8times 2gether Weekly Party Munich |  with DJ Omega
+description: >+
+  ꧁ 𝟠𝕥𝕚𝕞𝕖𝕤 𝟚𝕘𝕖𝕥𝕙𝕖𝕣 𝕎𝕖𝕖𝕜𝕝𝕪 ℙ𝕒𝕣𝕥𝕪 𝕚𝕟 𝕄𝕦𝕟𝕚𝕔𝕙! ꧂
+
+
+  ✨ This week with DJ Omega
+
+
+  📍Bird bar 🦜
+
+  ⏰ 9.30 pm - 1 am
+
+  💵 10 € - one free soft (0.25ml, coke, sprite, fanta, or water) when you enter before 10PM
+
+id: 0XKY4YKGiPFgTaxkFL82
+hash: 1710880200000+ChIJ_UO6_Pl1nkcRFRiKdA_j4Rg
+updatedAt: 1709155679533
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F0XKY4YKGiPFgTaxkFL82.png?generation=1709155690687196&alt=media
+viewsCount: 26

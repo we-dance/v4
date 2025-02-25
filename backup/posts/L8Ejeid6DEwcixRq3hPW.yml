@@ -1,0 +1,96 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/saigon-latin-festival/
+sourceUrl: https://facebook.com/events/693281836289267
+venue:
+  address_components:
+    - long_name: Ho Chi Minh City
+      short_name: Ho Chi Minh City
+      types:
+        - locality
+        - political
+    - long_name: Ho Chi Minh City
+      short_name: Ho Chi Minh City
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Vietnam
+      short_name: VN
+      types:
+        - country
+        - political
+  formatted_address: Ho Chi Minh City, Vietnam
+  geometry:
+    location:
+      lat: 10.8230989
+      lng: 106.6296638
+    viewport:
+      northeast:
+        lat: 11.1602136037603
+        lng: 107.0265769179448
+      southwest:
+        lat: 10.34937042531151
+        lng: 106.3638783822327
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Ho Chi Minh City
+  place_id: ChIJ0T2NLikpdTERKxE8d61aX_E
+  url: https://maps.google.com/?q=Ho+Chi+Minh+City,+Vietnam&ftid=0x317529292e8d3dd1:0xf15f5aad773c112b
+endDate: 1733824800000
+claimed: No
+link: ""
+description: |-
+  International Latin Festival in HoChiMinh City ( Saigon ) Vietnam 🇻🇳 
+  Salsa-Bachata-Kizomba
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293939/jb7wmnd1ps8rhdpttipr.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJ0T2NLikpdTERKxE8d61aX_E
+international: No
+visibility: Public
+org:
+  createdAt: 1732293937171
+  importedAt: 1732293937171
+  updatedAt: 1732293937171
+  source: facebook
+  name: Saigon Latin Festival - SGLF
+  facebook: https://www.facebook.com/people/Saigon-Latin-Festival-SGLF/61554034468601/
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293937/ykz0gltj43ewqm8zqc0g.jpg
+  username: saigon.latin.festiva
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJ0T2NLikpdTERKxE8d61aX_E
+facebook: https://www.facebook.com/events/693281836289267/
+facebookId: "693281836289267"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: SGLF - Sai Gon Latin Festival DEC 6-7-8 2024
+online: No
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1733385600000+ChIJ0T2NLikpdTERKxE8d61aX_E
+startDate: 1733385600000
+id: L8Ejeid6DEwcixRq3hPW

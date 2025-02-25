@@ -1,0 +1,129 @@
+endDate: 1713114000000
+sourceUrl: https://www.facebook.com/events/217177051483324/
+createdAt: 1711220914623
+approved: true
+provider: ical
+providerId: jQURPhrl5SNtE3w25jxb
+providerCreatedAt: 1707241600000
+updatedAt: 1711220914623
+importedAt: 1711220914623
+providerUpdatedAt: 1710715364000
+facebookId: "217177051483324"
+facebook: https://www.facebook.com/events/217177051483324/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/217177051483324/
+eventType: Workshop
+providerItemId: e217177051483324@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Workshop Salsa On2 mit Anna & Samir
+location: SalsaHouse
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1713106800000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Märzstraße 105, 1150 Wien, Austria
+  website: http://www.salsahouse.at/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Salsa House
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3142766697085
+        lat: 48.1949971197085
+      northeast:
+        lng: 16.3169746302915
+        lat: 48.1976950802915
+    location:
+      lng: 16.3156194
+      lat: 48.1962904
+  address_components:
+    - types:
+        - street_number
+      short_name: "105"
+      long_name: "105"
+    - types:
+        - route
+      short_name: Märzstraße
+      long_name: Märzstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Rudolfsheim-Fünfhaus
+      long_name: Rudolfsheim-Fünfhaus
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1150"
+      long_name: "1150"
+  international_phone_number: +43 664 3017462
+  place_id: ChIJdeaWohWpbUcR9_jWqvEjnPI
+  url: https://maps.google.com/?cid=17481887374405728503
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salsahouse.at
+  name: SalsaHouse
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711220933/mrsxwlmcdltjbn9j9bso.png
+  bio: ""
+  id: cdNBIvr2GcJslV1jDH6U
+  instagram: ""
+  username: salsahouse.at
+claimed: No
+link: ""
+description: >
+  Sonntag, 14.04.2024 | 17:00 – 19:00 | € 30,-
+
+
+  Wer wollte schon immer einmal On2 tanzen, konnte sich aber noch nie zu einem Kurs durchringen? Wir haben die perfekte Lösung für dich! On2 für geübte Salsa Tänzer:innen im SalsaHouse.
+
+
+  Schnuppere hinein in die Herausforderung On2.
+
+
+  Interesse? 
+
+  Rasch anmelden unter welcome@salsahouse.at!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711220937/cndqtuc5pqf1tl2fdyw9.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+hash: 1713106800000+ChIJdeaWohWpbUcR9_jWqvEjnPI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FoSe60btngSoCkOUePVHt.png?generation=1711220971567874&alt=media
+id: oSe60btngSoCkOUePVHt

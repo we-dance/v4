@@ -1,0 +1,63 @@
+endDate: 2024-03-11T23:30
+claimed: No
+program: []
+type: event
+duration: 60
+createdAt: 1682351082551
+place: ChIJAZ-GmmbMHkcR_NPqiCq-8HI
+international: Yes
+updatedAt: 1682351082551
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+eventType: Festival
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: El Sol Festival SPRING EDITION
+online: No
+startDate: 2024-03-08T00:00
+username: IvanaSoldat
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2Fc75616dd-e641-478e-872b-e213dd7fb1c6?alt=media&token=934d6e86-369a-44b5-b1f2-fd4314581e6d
+venue: ""
+artists:
+  - instagram: https://instagram.com/charlie_g6
+    username: charlie_g6
+  - instagram: https://instagram.com/brianna__rios
+    username: brianna__rios
+  - instagram: https://instagram.com/_eddiehenrique
+    username: _eddiehenrique
+  - instagram: https://instagram.com/geroymigleoficial
+    username: geroymigleoficial
+  - instagram: https://instagram.com/ofirandofri_official
+    username: ofirandofri_official
+org:
+  instagram: https://instagram.com/elsolfestivals
+  username: elsolfestivals
+price: 65 - 109 EUR
+facebook: https://www.facebook.com/warsawsalsafestival/?ref=page_internal
+link: https://elsolfestival.pl/en/el-sol-spring-edition/
+description: Exclusive multi style Festival all in one.
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+artistsList:
+  - charlie_g6
+  - brianna__rios
+  - _eddiehenrique
+  - geroymigleoficial
+  - ofirandofri_official
+id: w5g6SeliKN1QeKrbUmHH
+viewsCount: 67

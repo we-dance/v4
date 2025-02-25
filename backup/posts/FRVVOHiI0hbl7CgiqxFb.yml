@@ -1,0 +1,155 @@
+venue:
+  formatted_address: Inselstraße 9, 10179 Berlin, Germany
+  name: Inselstraße 9
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 13.4133275302915
+      south: 52.5109626697085
+      north: 52.5136606302915
+      west: 13.4106295697085
+    location:
+      lng: 13.4118726
+      lat: 52.51225909999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "9"
+      long_name: "9"
+    - types:
+        - route
+      short_name: Inselstraße
+      long_name: Inselstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Mitte
+      long_name: Mitte
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10179"
+      long_name: "10179"
+  place_id: ChIJ5aR3yyVOqEcR0A0CFZQ8IFw
+  url: https://maps.google.com/?q=Inselstra%C3%9Fe+9,+10179+Berlin,+Germany&ftid=0x47a84e25cb77a4e5:0x5c203c9415020dd0
+endDate:
+  _seconds: 1652626800
+  _nanoseconds: 0
+claimed: No
+link: bachatadominicana.berlin@gmail.com
+description: >+
+  Bachata Dominicana Intensiv Workshop
+
+  Sonntag ab 14 Uhr
+
+
+  "Es sind die kleinen Details, die uns zu guten Tänzer/innen machen."
+
+
+  Daher konzentrieren wir uns in diesem dreistündigen Intensivworkshop auf die Techniken im Bodymovement, welcher uns im Partnerwork zu einem besseren Leader macht und unseren Tanz den gewissen Flow verleiht. Fokus liegt hier vor allem auch auf verschiedenen Hips- Techniken, sowohl für Frauen als auch für Männer. Des Weiteren erarbeiten wir Techniken für ein sicheres und sauberes Footwork, welches ihr beim Socialtanz gut in euer Partnerwork einbauen könnt. Mit zwei Kombinationen lernt ihr die Techniken anzuwenden und wie ihr das eine (body movement) gut mit dem anderen (footwork) verbinden könnt. 
+
+
+  Details zum Workshop:
+
+  Dieser Workshop richtet sich an Männer und Frauen: Level Mittelstufe (intermediate).
+
+  Ihr benötigt keinen Partner für den Workshop!
+
+
+  Preis:
+
+  30 Euro / Person
+
+
+  Location:
+
+  GLOW dance & more
+
+  Inselstraße 9, 10179 Berlin
+
+
+  Infos und Anmeldung:
+
+  bachatadominicana.berlin@gmail.com
+
+type: event
+promo: Yes
+duration: "180"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2Fa3bef350-b328-4e54-b206-5472b2b0a9b9?alt=media&token=b250737c-9cf6-4978-8e85-fdb8d50c67d9
+createdAt: 1651589376363
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: nora.langstrumpf.9
+    name: Nora_Berlin
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2F008f282c-68d0-458e-8d0c-77092c66afe7?alt=media&token=202ac02c-d421-478c-8435-8690fa19e644
+    bio: |-
+      In love with the music and dance of the traditional way of Bachata
+
+      Teaching Dominican Bachata in Berlin- Germany
+    instagram: ""
+    id: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+    username: Nora_Berlin
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Anna
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FvMM0BUaEMYRVySU6ALrMaBJaWYD2%2F35051fe1-0bd7-466e-a561-f3cb1e86943f?alt=media&token=cfbe2c47-924a-412c-88aa-26a6896589c1
+    bio: ""
+    id: vMM0BUaEMYRVySU6ALrMaBJaWYD2
+    instagram: ""
+    username: _Anna_
+price: 30 EUR / Person
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: ""
+updatedAt: 1651589376363
+updatedBy: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+visibility: Public
+org:
+  role: organiser
+  name: Nora_Berlin
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FKWqY4P1fsaOxPLVjG4mf9V7lqJG3%2F008f282c-68d0-458e-8d0c-77092c66afe7?alt=media&token=202ac02c-d421-478c-8435-8690fa19e644
+  username: Nora_Berlin
+eventType: Workshop
+form: Yes
+createdBy: KWqY4P1fsaOxPLVjG4mf9V7lqJG3
+watch:
+  count: 1
+  list:
+    Nora_Berlin: true
+name: Bachata Dominicana Intensivworkshop - body movement & footwork
+online: ""
+styles:
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+startDate: 2022-05-15T14:00
+username: Nora_Berlin
+viewsCount: 39
+id: FRVVOHiI0hbl7CgiqxFb

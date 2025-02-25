@@ -1,0 +1,59 @@
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630599025190
+locales:
+  en: true
+createdBy: eUcGIoykVnON6FzKXEQqWGXQSET2
+name: Zoukia
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+username: Zoukia
+pwaUsed: false
+birthday: 1986-09-19
+partnerBio: Connection and ambition to grow
+gender: Female
+visibility: Members
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FeUcGIoykVnON6FzKXEQqWGXQSET2%2F58658479-035c-4cf1-a298-b666e476d3dd?alt=media&token=32eaa047-3234-4ab6-8eab-d51069a07e6e
+weight: ""
+permission: Yes
+meetingPlace:
+  myPlace: true
+  private: true
+  yourPlace: true
+  public: true
+partner: Yes
+objectives:
+  learn: true
+  teach: true
+  project: true
+  outdoors: true
+  indoors: true
+  talk: true
+styles:
+  Ballroom:
+    level: Advanced
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Advanced
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Intermediate
+    highlighted: false
+    selected: true
+contacts: Yes
+height: "160"
+cities:
+  ChIJ0xy2ta5Xn0cRtyGMqYWvXd0: true
+updatedAt: 1630599390637
+lastLoginAt: 1630636975648
+daysUsed: 2
+id: eUcGIoykVnON6FzKXEQqWGXQSET2

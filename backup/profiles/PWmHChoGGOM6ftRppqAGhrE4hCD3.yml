@@ -1,0 +1,44 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1617295595083
+locales:
+  en: true
+createdBy: PWmHChoGGOM6ftRppqAGhrE4hCD3
+name: LingsDanceShoes
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+username: LingsDanceShoes
+lastLoginAt: 1617295595274
+daysUsed: 1
+pwaUsed: false
+updatedBy: PWmHChoGGOM6ftRppqAGhrE4hCD3
+gender: Female
+bio: "Dance lover and shoe maker. Mainly dance Bachata.Brazilian Zouk and dance
+  shoes are my new Passion. "
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FPWmHChoGGOM6ftRppqAGhrE4hCD3%2F4a6589de-84e8-45d6-80d6-2a2ad970e646?alt=media&token=bb891aa1-74c8-43ec-b36e-b6442f040f34
+permission: Yes
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  BrazilianZouk:
+    level: Interested
+    highlighted: false
+    selected: true
+id: PWmHChoGGOM6ftRppqAGhrE4hCD3
+updatedAt: 1617295965302
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2FLingsDanceShoes.png?generation=1617299721930172&alt=media
+viewsCount: 1

@@ -1,0 +1,214 @@
+importedAt: 1707497641229
+providerUpdatedAt: 1694601411000
+endDate: 1725264000000
+facebookId: "2347097105484575"
+facebook: https://www.facebook.com/events/2347097105484575/
+eventType: Festival
+createdAt: 1707497641229
+providerItemId: e2347097105484575@facebook.com
+approved: true
+provider: ical
+createdBy: 5DxynglUsETxslO7UZaBnTrOi5I3
+providerId: FDwgzaLrddKSK3dKkP1k
+name: EDEN Urban Kiz Festival 2024
+location: Hotel Pinija - Petrčane, Zadar
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+providerCreatedAt: 1694601411000
+startDate: 1724947200000
+updatedAt: 1707497641229
+username: kizztalkdanceacademy
+venue:
+  formatted_address: Petrčane V 1 a, 23231, Petrčane, Croatia
+  website: http://www.hotel-pinija.hr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  name: Pinija Hotel
+  geometry:
+    viewport:
+      southwest:
+        lng: 15.1578530197085
+        lat: 44.1786855197085
+      northeast:
+        lng: 15.1605509802915
+        lat: 44.1813834802915
+    location:
+      lng: 15.1592067
+      lat: 44.18004010000001
+  address_components:
+    - types:
+        - street_number
+      short_name: 1 a
+      long_name: 1 a
+    - types:
+        - route
+      short_name: Petrčane V
+      long_name: Petrčane V
+    - types:
+        - locality
+        - political
+      short_name: Petrčane
+      long_name: Petrčane
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Grad Zadar
+      long_name: Grad Zadar
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Zadarska županija
+      long_name: Zadarska županija
+    - types:
+        - country
+        - political
+      short_name: HR
+      long_name: Croatia
+    - types:
+        - postal_code
+      short_name: "23231"
+      long_name: "23231"
+  international_phone_number: +385 23 202 500
+  place_id: ChIJOx4u10j2YUcRlPyeS8z2Xrc
+  url: https://maps.google.com/?cid=13213269714054085780
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1707497655798
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/tiktikevents
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707497656/hlvt7ih9vlse4jvhzldm.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1707497655798
+  owned: false
+  name: TikTik Events
+  place: ChIJy02AGED2YUcRjgZGjAdKxAY
+  updatedAt: 1707497655798
+  username: tiktik.events
+claimed: No
+link: https://my.weezevent.com/eden-2
+description: >-
+  🏝️ EDEN Urban Kiz Festival 2024 - OFFICIAL 🏝️
+
+  Urbankiz, Kizomba, Douceur, Tarraxo, Afro, ...
+    
+  Second Edition, 29th August - 2nd September 2024 
+
+  🇭🇷 Croatia, Zadar 🇭🇷   
+
+  Dance 💃🏽🕺🏾 Summer sun 🌞🌅 Seaside 🌊🏝️ All-in-One 🏨 4-⭐-Hotel 
+
+
+  ▬▬WHAT TO EXPECT▬▬
+
+  Dance in the breathtaking scenery of the Adriatic, from sunet to sunrise. Relax on the beach, in the clearblue sea and take the last sunrays of summer 2024.
+
+  Enjoy the luxurious services of the exquisite 4* hotel that will cater to all your needs.
+
+  A hand picked selection of artists will take you on an exotic journey to paradise.
+
+
+  🔥 International Artist
+
+  🔥 In- and Outdoor dancing
+
+  🔥 Quality dance floor
+
+  🔥 Workshops, Socials and Parties every day
+
+  🔥 All-in-one 
+
+  🔥 Half board 4 stars hotel
+
+  🔥 Pool and private beach access
+
+  🔥 Countless leisure activities
+
+  and many more ...
+
+
+
+  ▬▬LINEUP▬▬
+
+  tba
+
+
+
+  ▬▬VENUE▬▬
+
+  All-in-One 🏨 4-⭐-Hotel
+
+  Hotel Pinija ****
+
+  Petrčane V. ulica 1 a, 23231, Petrčane , Zadar
+
+  Croatia
+
+  https://hotel-pinija.hr
+
+
+  What the hotel offers:
+
+  - Spacious rooms with balcony
+
+  - Breakfast and DINNER buffet included
+
+  - Bars, Cafés & Restaurants
+
+  - Private beach
+
+  - Indoor & outdoor Pool 
+
+  - Spa & Fitness area
+
+  - Sunset Photo Spot
+
+  - Watersports Center
+
+  - Volleyball, Tennis, Tabletennis, Minigolf, Boccia, Trampolin, ...
+
+  - Free parking spots
+
+  - Mini Market
+
+  - Laundry
+
+  - Shuttle Service
+
+  - … and many more! Check https://hotel-pinija.hr/
+
+
+  ▬▬PRICES, HOTEL ACCOMODATION & PACKAGES▬▬
+
+  tba
+
+
+
+  TICKETS available at:
+
+  https://my.weezevent.com/eden-2
+
+
+  Email: info@tiktikevents.be
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707497657/l4iebwxvk0d3fwqafbco.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJy02AGED2YUcRjgZGjAdKxAY
+international: No
+hash: 1724947200000+ChIJOx4u10j2YUcRlPyeS8z2Xrc
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FF5ZQQQ9Bq7rUyqtDpmv3.png?generation=1707497675767063&alt=media
+viewsCount: 23
+id: F5ZQQQ9Bq7rUyqtDpmv3

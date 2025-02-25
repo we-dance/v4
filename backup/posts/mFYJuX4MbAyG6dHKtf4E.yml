@@ -1,0 +1,117 @@
+venue:
+  formatted_address: 10 Rue d'Arsonval, 69680 Chassieu, France
+  website: http://www.shine-academie.com/
+  name: Shine Académie
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 4.972084230291503
+      south: 45.7279779197085
+      north: 45.7306758802915
+      west: 4.969386269708498
+    location:
+      lng: 4.9707326
+      lat: 45.7294273
+  address_components:
+    - types:
+        - street_number
+      short_name: "10"
+      long_name: "10"
+    - types:
+        - route
+      short_name: Rue d'Arsonval
+      long_name: Rue d'Arsonval
+    - types:
+        - locality
+        - political
+      short_name: Chassieu
+      long_name: Chassieu
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Rhône
+      long_name: Rhône
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Auvergne-Rhône-Alpes
+      long_name: Auvergne-Rhône-Alpes
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "69680"
+      long_name: "69680"
+  international_phone_number: +33 6 59 63 69 49
+  url: https://maps.google.com/?cid=428675130925950823
+  place_id: ChIJb4Vv7brG9EcRZ6fipsL18gU
+endDate: 2022-07-10T20:00
+claimed: No
+link: https://www.helloasso.com/associations/shine-academie/evenements/lyon-summer-salsa-1
+description: >-
+  100% CUBAN FESTIVAL
+
+
+  Salsa and the whole Cuban universe finally put back on the front of the stage in Lyon!
+
+
+  Lyon finally returns to the salsero landscape with this festival, it's going to be fire!
+type: event
+promo: ""
+duration: custom
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd93010be-e289-4021-83f8-a563fba486d0?alt=media&token=d915a1a2-3ca0-46a6-939b-e755d3e7a831
+createdAt: 1656186734539
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Alain Rueda & Katerina Mik
+    bio: |-
+      Cuban salsa teachers @_katerina_mik @alain_rueda
+      🇨🇺💃🕺/ 📍France 🇫🇷
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Falain_katerina.png?generation=1655307195916415&alt=media
+    instagram: https://instagram.com/alain_katerina
+    id: WFDzGLYtaIQW4EGHUS2a
+    username: alain_katerina
+price: 70-95 EUR
+place: ChIJl4foalHq9EcR8CG75CqrCAQ
+artistsList:
+  - alain_katerina
+international: No
+updatedAt: 1656186734539
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+org:
+  instagram: shine_academie
+  username: shine_academie
+facebook: https://www.facebook.com/events/734724754634280
+eventType: Festival
+form: No
+watch:
+  count: 1
+  list:
+    alexrazbakov: true
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Lyon Summer Salsa
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    highlighted: false
+    selected: true
+  Son:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-07-08T20:00
+username: alexrazbakov
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FmFYJuX4MbAyG6dHKtf4E.png?generation=1656186789245113&alt=media
+id: mFYJuX4MbAyG6dHKtf4E

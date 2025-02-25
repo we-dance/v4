@@ -1,0 +1,140 @@
+endDate: 1715493600000
+sourceUrl: https://facebook.com/events/s/salsa-night-at-hotel-louisvill/1392040321448678/
+createdAt: 1714557716361
+approved: true
+provider: ical
+providerId: OMuAtVUfiXHFHUrk4EIN
+providerCreatedAt: 1714337255000
+updatedAt: 1714557716361
+importedAt: 1714557716361
+providerUpdatedAt: 1714337255000
+facebookId: "1392040321448678"
+isNew: true
+facebookUrlsList:
+  - https://facebook.com/events/s/salsa-night-at-hotel-louisvill/1392040321448678/
+eventType: Party
+providerItemId: c9h68or36tij6bb3ccrj0b9kccpjcb9p68smabb46or32opkc4pjcp1pcc@google.com
+createdBy: SdUproFXNpdOdyk8z2pww1ndXMw1
+name: Salsa Night at Hotel Louisville
+location: 120 W Broadway, Louisville, KY 40202-2110, United States
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Casino:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1715475600000
+facebookUrlsCount: 1
+username: yatusabes.blog
+venue:
+  formatted_address: 120 W Broadway, Louisville, KY 40202, USA
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: 120 W Broadway
+  geometry:
+    viewport:
+      southwest:
+        lng: -85.75565718029151
+        lat: 38.2442243697085
+      northeast:
+        lng: -85.7529592197085
+        lat: 38.2469223302915
+    location:
+      lng: -85.75424749999999
+      lat: 38.245351
+  address_components:
+    - types:
+        - street_number
+      short_name: "120"
+      long_name: "120"
+    - types:
+        - route
+      short_name: W Broadway
+      long_name: West Broadway
+    - types:
+        - neighborhood
+        - political
+      short_name: Old Louisville
+      long_name: Old Louisville
+    - types:
+        - locality
+        - political
+      short_name: Louisville
+      long_name: Louisville
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Jefferson County
+      long_name: Jefferson County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: KY
+      long_name: Kentucky
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "40202"
+      long_name: "40202"
+    - types:
+        - postal_code_suffix
+      short_name: "2110"
+      long_name: "2110"
+  place_id: ChIJQ3fpKbJyaYgRJjBaRBklSzo
+  url: https://maps.google.com/?q=120+W+Broadway,+Louisville,+KY+40202,+USA&ftid=0x886972b229e97743:0x3a4b2519445a3026
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/LouisvilleSalsa
+  name: Louisville Salsa Underground
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1712044570/id4qtxyiq4etpyf10li1.png
+  bio: ""
+  id: 43Vnvk5QwbG7WgWnkYFE
+  instagram: ""
+  username: LouisvilleSalsa
+claimed: No
+facebook: https://www.facebook.com/events/1392040321448678/
+link: ""
+description: >-
+  Andre & Kate of Cincimovement (Erlanger, KY) will be leading an All-Levels
+  salsa dance lesson. No partner or experience necessary!
+
+
+  Switching partners is OPTIONAL for the dance lesson. 
+
+
+  DJ Robertón will be spinning all of the hottest Timba, Salsa & Bachata beats!
+
+
+  $10 cash/Venmo/Cash App at the door
+
+
+  Hotel Louisville offers a full bar and free gated parking.
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1714557720/kzt3le3wihqekhsfvt4d.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJwcsQqVENaYgRirMZHJrbHyQ
+international: No
+hash: 1715475600000+ChIJQ3fpKbJyaYgRJjBaRBklSzo
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FLQW9sSgNghguK6y2aud0.png?generation=1714557755666577&alt=media
+id: LQW9sSgNghguK6y2aud0

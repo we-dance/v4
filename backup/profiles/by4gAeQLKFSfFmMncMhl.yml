@@ -1,0 +1,68 @@
+createdAt: 1716839793087
+website: http://www.cantina-charlotta.de/
+rooms: ""
+address:
+  formatted_address: Iglinger Str. 1, 86916 Kaufering, Germany
+  website: http://www.cantina-charlotta.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png
+  name: Cantina Charlotta
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 10.8602722802915
+      south: 48.0827628197085
+      north: 48.0854607802915
+      west: 10.8575743197085
+    location:
+      lng: 10.858871
+      lat: 48.0840453
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Iglinger Str.
+      long_name: Iglinger Straße
+    - types:
+        - locality
+        - political
+      short_name: Kaufering
+      long_name: Kaufering
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Landsberg am Lech
+      long_name: Landsberg am Lech
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "86916"
+      long_name: "86916"
+  international_phone_number: +49 8191 66200
+  place_id: ChIJZ6T47AcjnEcRCLqxBLprtQk
+  url: https://maps.google.com/?cid=699583763812825608
+gender: Other
+phone: +49 8191 66200
+name: Cantina Charlotta
+updateAt: 1716839793087
+type: Venue
+map: ""
+username: www.cantina-charlotta.de
+viewsCount: 2
+id: by4gAeQLKFSfFmMncMhl

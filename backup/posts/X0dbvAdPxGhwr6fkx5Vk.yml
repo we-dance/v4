@@ -1,0 +1,129 @@
+endDate: 1726963199000
+sourceUrl: https://www.facebook.com/events/1711941552880933/
+createdAt: 1726581629185
+approved: true
+provider: ical
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerCreatedAt: 1726561818000
+updatedAt: 1726581629185
+importedAt: 1726581629185
+providerUpdatedAt: 1726561818000
+facebookId: "1711941552880933"
+facebook: https://www.facebook.com/events/1711941552880933/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1711941552880933/
+eventType: Party
+providerItemId: 48208-1726876800-1726963199@latinfo.hu
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Dance Day&Night - Szeged
+location: IH Rendezvényközpont, Felső Tisza-part 2., Szeged, 6721, Magyarország
+startDate: 1726876800000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Szeged, 6721 Szeged, Felső Tisza-part 2, 6721 Hungary
+  website: http://www.ihrendezvenykozpont.hu/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: IH Event Center
+  geometry:
+    viewport:
+      southwest:
+        lng: 20.1566745197085
+        lat: 46.25477216970851
+      northeast:
+        lng: 20.1593724802915
+        lat: 46.25747013029151
+    location:
+      lng: 20.1579953
+      lat: 46.2561885
+  address_components:
+    - types:
+        - country
+        - political
+      short_name: HU
+      long_name: Hungary
+    - types:
+        - locality
+        - political
+      short_name: Szeged
+      long_name: Szeged
+    - types:
+        - postal_code
+      short_name: "6721"
+      long_name: "6721"
+  international_phone_number: +36 62 423 638
+  place_id: ChIJGxC6PhOIREcRFf2iglLAhYs
+  url: https://maps.google.com/?cid=10053653203786071317
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dolce.dance.salsa.tanciskola
+  name: Dolce Dance Franchise Tánciskola Hálózat
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1705953743/yudfqi1h2s4eumnimvef.png
+  bio: ""
+  id: BM4HtpPAFK8ujCbJIrCn
+  instagram: ""
+  username: dolce.dance.salsa.tanciskola
+claimed: No
+link: ""
+description: |-
+  DANCE DAY - Szeged
+
+  ⏰Időpont: 2024. szeptember 21. szombat 16:00
+  🔴Órák helyszíne: IH Rendezvényközpont
+
+  A rendezvény 1 napos napközben órák, este buli.
+
+  💥Workshop
+  Salsa-Kizomba-Bachata
+
+  📌16:00-19:00 Órák párhuzamosan több teremben
+  📌20:00-21:00 Óra
+  📌21:00-tól 4 termes Party
+
+  Ár: 4db óra + buli
+  💥8.000Ft - szept. 15-ig
+  💥9.500Ft - szept. 20-ig
+  💥11.000Ft - helyszínen
+  ----------------------------------------
+
+  📌Party Salsa & Sensual zenék
+  belépő elővételben: 2000Ft - szept. 20-ig
+  helyszínen: 2500Ft
+
+  Fizetés személyesen az órákon vagy utalással.
+  Utalás: Raiffeisen Bank 12067204-00202462-00100005
+
+  📧📬📞Elérhetőség:
+  +36305153951
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1726581646/sznj6wgqn9gzsztthv1i.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+place: ChIJS-XMK-KHREcRkBEeDCnEAAQ
+international: No
+hash: 1726927200000+ChIJGxC6PhOIREcRFf2iglLAhYs
+id: X0dbvAdPxGhwr6fkx5Vk

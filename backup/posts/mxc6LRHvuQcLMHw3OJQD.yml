@@ -1,0 +1,203 @@
+venue:
+  formatted_address: Sonnenstraße 7, 80331 München, Germany
+  website: http://www.tanzschuleamstachus.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "7"
+      short_name: "7"
+    - types:
+        - route
+      long_name: Sonnenstraße
+      short_name: Sonnenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Altstadt-Lehel
+      short_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80331"
+      short_name: "80331"
+  url: https://maps.google.com/?cid=7618752569010268631
+  name: Tanzschule am Stachus
+  geometry:
+    viewport:
+      south: 48.13684386970849
+      north: 48.13954183029149
+      east: 11.5668774802915
+      west: 11.5641795197085
+    location:
+      lng: 11.56564
+      lat: 48.13818409999999
+  place_id: ChIJCxXM5ZV1nkcR16lzexg_u2k
+  international_phone_number: +49 1590 1227277
+endDate:
+  _seconds: 1633824000
+  _nanoseconds: 0
+description: >-
+  Rumber@s
+
+
+  Following a short break, we are back to bring our Timba parties with a dance practice from Pinakothek to one of the most beautiful dance rooms in Munich at Tanzschule am Stachus.
+
+  The best of Salsa Cubana, Timba, Songo, Timbaton, Son and the great dancers you are used to from Pinakothek with cool drinks to fair prices in an amazing atmosphere.
+
+
+  Date: 9 October 2021
+
+
+  Time: 21:00 - 02:00
+
+
+  Place: Tanzschule am Stachus
+
+
+  Cover: 10 Euro normal
+
+
+  7 Euros students
+
+
+  3G-Rules apply. You will have to show a certificate of vaccination, recovery, or negative testing.
+
+
+  A vacunar!!!
+
+
+  ---
+
+
+  Rumber@s
+
+
+  Nach einer kurzen Pause sind wir zurück und bringen unsere Timba Parties mit einer Übungsparty von der Pinakothek in eine der schönsten Tanzräume in München in die Tanzschule am Stachus.
+
+
+  Das beste von Salsa Cubana, Timba, Songo, Timbaton, Son, und die großartigen Tänzer, die Ihr von der Pinakothek kennt bei coolen Drinks zu fairen Preisen in einer atemberaubenden Atmosphäre.
+
+
+  Tag: 9. Oktober 2021
+
+
+  Uhrzeit: 21:00 - 02:00
+
+
+  Ort: Tanzschule am Stachus
+
+
+  Eintritt: 10 Euro normal
+
+
+  7 Euro Studenten
+
+
+  Die Veranstaltung unterliegt 3G Regeln. Ihr werdet einen Impfnachweis, Genesenenzertifikat oder Negativtest vorweisen müssen.
+
+
+  A vacunar!!!
+
+
+  ---
+
+
+  Rumber@s
+
+
+  Después de un respiro volvemos y os traemos nuestras Fiestas Timberas de la Pinakothek en una práctica a una de las salas de baile más preciosas de Múnich a Tanzschule am Stachus. Lo mejor de Salsa Cubana, Timba, Songo, Timbaton y Son y los excelentes bailarines que conoceís de la Pinakothek con tragos refrescantes en un ambiente increíble.
+
+
+  Día: 9 Octubre
+
+
+  Hora: 21:00 - 02:00
+
+
+  Entrada: 10 Euro normal
+
+
+  7 Euro estudiantes
+
+
+  Se aplican las normas 3G. Habrá que mostrar un certificado de vacunación, recuperación o test negativo.
+
+
+  A vacunar!
+type: event
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FN2N8hjGOw0dU0k0u1mpp0DlGJv93%2F72517ed2-524b-4c87-bd87-ed061883397c?alt=media&token=5a2e1e40-abf6-458f-a0e3-5b8f7d87912d
+promo: Yes
+createdAt: 1633340243353
+watchersCount: 0
+price: 10EUR
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2Fmxc6LRHvuQcLMHw3OJQD.png?generation=1633340393387708&alt=media
+commentsLast: ~
+id: mxc6LRHvuQcLMHw3OJQD
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 35
+updatedAt: 1633340243353
+updatedBy: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+visibility: Public
+eventType: Party
+organiser: salsa.cubana.munich
+form: No
+createdBy: N2N8hjGOw0dU0k0u1mpp0DlGJv93
+commentsCount: 0
+name: Salsa Cubana - Timba Party
+online: No
+styles:
+  RumbaGuaguanco:
+    level: Interested
+    selected: true
+  Timba:
+    level: Interested
+    selected: true
+  Salsa:
+    level: Interested
+    selected: true
+  Casino:
+    level: Interested
+    selected: true
+  Afro:
+    level: Interested
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-10-09T19:00:00.000Z
+username: salsa.cubana.munich
+viewsCount: 54

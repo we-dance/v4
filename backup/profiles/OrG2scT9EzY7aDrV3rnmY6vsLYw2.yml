@@ -1,0 +1,32 @@
+visibility: Public
+timezone: GMT+0200
+type: Dancer
+createdAt: 1630683121294
+createdBy: OrG2scT9EzY7aDrV3rnmY6vsLYw2
+name: Robetol
+place: ChIJLb6qFyWhZEcRcLbLPThvPDc
+username: Robetol
+lastLoginAt: 1630683121684
+daysUsed: 1
+pwaUsed: false
+cities:
+  ChIJLb6qFyWhZEcRcLbLPThvPDc: true
+updatedAt: 1630683249027
+birthday: 1986-09-25
+locales:
+  en: true
+  hr: true
+  it: true
+  fr: true
+  es: true
+meetingPlace:
+  public: true
+partner: Yes
+weight: "65"
+objectives:
+  learn: true
+  outdoors: true
+  indoors: true
+contacts: Yes
+height: "168"
+id: OrG2scT9EzY7aDrV3rnmY6vsLYw2

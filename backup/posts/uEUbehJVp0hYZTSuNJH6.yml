@@ -1,0 +1,202 @@
+venue:
+  website: https://riverrink.cz/
+  formatted_address: Karolinská 8, Karlín, 186 00 Praha-Praha 8, Czechia
+  name: River Rink Karlín
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4475890802915
+      south: 50.0935949697085
+      north: 50.0962929302915
+      west: 14.4448911197085
+    location:
+      lng: 14.4463902
+      lat: 50.09509749999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "8"
+      long_name: "8"
+    - types:
+        - route
+      short_name: Karolinská
+      long_name: Karolinská
+    - types:
+        - neighborhood
+        - political
+      short_name: Karlín
+      long_name: Karlín
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 8
+      long_name: Praha 8
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 186 00
+      long_name: 186 00
+  place_id: ChIJaVUN4pGVC0cRfMEUQ8aNYbs
+  url: https://maps.google.com/?cid=13502229040501932412
+  international_phone_number: +420 792 755 456
+endDate: 2023-03-09T22:00
+claimed: No
+program: []
+instagram: {}
+type: event
+downVotes: 0
+promo: Yes
+duration: 60
+createdAt: 1676998398792
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    instagram: https://instagram.com/dj.lole
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    username: DjLole
+  - role: instructor
+    facebook: https://facebook.com/kseniamotion
+    username: kseniamotion
+artistsList:
+  - DjLole
+  - kseniamotion
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+international: No
+updatedAt: 1676998398792
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+star:
+  count: 0
+  list: {}
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/DjLolePrague
+  name: Dj Lole
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  instagram: https://instagram.com/dj.lole
+  id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  username: DjLole
+upVotes: 0
+eventType: Party
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+commentsCount: 0
+name: Salsa and bachata at River Rink Karlín
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2023-03-09T18:00
+username: DjLole
+facebook: https://www.facebook.com/events/562877529095825/593061929410718
+link: https://www.facebook.com/events/562877529095825/593061929410718
+id: uEUbehJVp0hYZTSuNJH6
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F75f4d50c-9d82-4198-8803-890824ba6a6e?alt=media&token=373bee3b-a4c3-4adb-b86f-ab6182d8a263
+price: 0 CZK/ 100CZK
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuEUbehJVp0hYZTSuNJH6.png?generation=1678294947176767&alt=media
+telegram:
+  requestedAt: 1678294712943
+  messageUrl: https://t.me/+R25gBvPkdjvqG5Q2/266
+  publishedAt: 1678294948863
+  messageId: 266
+  state: published
+description: >-
+  Stejně jako loni jsme zpět na zimní edici salsa a bachata party v après-skate
+  baru ve spolupráci s River Rink Karlín a tentokrát se skvělou tanečnicí a
+  lektorkou Ksenií Khalovu ve stejném formátu jako v létě (ale ne pod širým
+  nebem samozřejmě! 😁) a vedle toho čeká na Vás do konce vynikající mexický
+  food truck!
+
+
+  ❄️ Zde je náš program na zimní sezónu (od čtvrtka 12.1.2023):
+
+
+  🕕 18:00-19:00: Hudba a tanec...
+
+  🕖 19:00-20:00: Otevřená lekce kubánsky salsy pro úplné začátečníky se Kseniou Chkalovu (pokud budou mít zájem alespoň 4 osoby) 💃🕺
+
+  ➡️ https://www.facebook.com/kseniamotion/videos/10158252830438369
+
+
+  🕗 20:00-22:00: Social dancing a animace s Lolem ♪ ♫
+
+
+  📌Lekce: 100 Kč-
+
+
+  Těším se, až se tam uvidíme!
+
+  ☛ River Rink Karlín: Karolinská 8, Praha 8
+
+
+  A hned vedle si můžete užít i kluziště 30 x 15 metrů s kvalitním ledem a půjčovnu bruslí pro děti i dospělé, a to i přes den! ❄️⛸⛸
+
+
+  Veškeré info zde ➡️ https://www.riverrink.cz/
+
+
+  🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+
+
+  As last year we are back for the winter edition of salsa and bachata parties in the après-skate bar, in collaboration with River Rink Karlín, and this time with the great dancer and teacher Ksenia Khalova, in the same format as in the summer (but not in open air of course! 😁) and with a delicious mexican food truck waiting for you beside!
+
+
+  ❄️ So, here is our program for the winter season (starting on Thursday 12.1.2023):
+
+
+  🕕 18:00-19:00: Music and dance...
+
+  🕖 19:00-20:00: Cuban salsa open class for absolute beginners with Ksenia Chkalova (If at least 4 people are interested) 💃🕺
+
+  ➡️ https://www.facebook.com/kseniamotion/videos/10158252830438369
+
+
+  🕗 20:00-22:00: Social dancing and animations with Lole ♪ ♫
+
+
+  📌Class: 100 CZK-
+
+
+  Looking forward to see you there!
+
+  ☛ River Rink Karlín: Karolinská 8, Prague 8
+
+
+  Just beside, you can also enjoy the 30 x 15 meter ice rink with quality ice, and skate rental for children and adults, even during the day! ❄️⛸
+
+
+  All info here ➡️ https://www.riverrink.cz/
+viewsCount: 15

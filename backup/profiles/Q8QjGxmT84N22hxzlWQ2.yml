@@ -1,0 +1,57 @@
+createdAt: 1724507036349
+website: http://www.highfivebar.cz/
+rooms: ""
+address:
+  website: http://www.highfivebar.cz/
+  formatted_address: Bašty 415/6, Brno-město, 602 00 Brno-Brno-střed, Czechia
+  name: HighFive - Karaoke & Party
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.6087680697085
+        lat: 49.1894869197085
+      northeast:
+        lng: 16.6114660302915
+        lat: 49.1921848802915
+    location:
+      lng: 16.6100936
+      lat: 49.1908706
+  address_components:
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Brno-střed
+      long_name: Brno-střed
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Brno-město
+      long_name: Brno-město
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Jihomoravský kraj
+      long_name: Jihomoravský kraj
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 602 00
+      long_name: 602 00
+  url: https://maps.google.com/?cid=15532403136012897472
+  international_phone_number: +420 774 434 337
+  place_id: ChIJJXzbJ1SUEkcRwEw2plsujtc
+gender: Other
+phone: +420 774 434 337
+name: HighFive - Karaoke & Party
+updateAt: 1724507036349
+type: Venue
+map: ""
+username: www.highfivebar.cz
+viewsCount: 1
+id: Q8QjGxmT84N22hxzlWQ2

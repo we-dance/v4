@@ -1,0 +1,111 @@
+venue:
+  website: http://www.hirschau-muenchen.de/
+  formatted_address: Gyßlingstraße 15, 80805 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "15"
+      short_name: "15"
+    - types:
+        - route
+      long_name: Gyßlingstraße
+      short_name: Gyßlingstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      long_name: Schwabing-Freimann
+      short_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: Kreisfreie Stadt München
+      short_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "80805"
+      short_name: "80805"
+  url: https://maps.google.com/?cid=11767152178800947308
+  name: Hirschau im Englischen Garten
+  geometry:
+    viewport:
+      south: 48.1606590197085
+      north: 48.1633569802915
+      east: 11.6040916802915
+      west: 11.6013937197085
+    location:
+      lng: 11.6027427
+      lat: 48.16200799999999
+  international_phone_number: +49 89 36090490
+  place_id: ChIJAcojwaV1nkcRbPBkw49STaM
+endDate:
+  _seconds: 1629486000
+  _nanoseconds: 0
+description: |-
+  Salsa Veranstaltung im Biergarten Hirschgau im englischen Garten.
+  Live Musik mit PELMONTE Sixtett
+type: event
+promo: ""
+duration: "300"
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FHPjWaGMC5pWlfgnRhrQwNxio3lv2%2F94d26f27-5317-4d50-b91a-66935e9c94a7?alt=media&token=a4ed991c-c6a3-4d01-8b60-dedbb84b3b9b
+createdAt: 1629044719859
+watchersCount: 0
+price: FREE
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F36Vz8r4LU7K6tmbYDDkw.png?generation=1629360393334176&alt=media
+commentsLast: ~
+id: 36Vz8r4LU7K6tmbYDDkw
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+views: 6
+updatedAt: 1629044719859
+updatedBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+visibility: Public
+eventType: Party
+organiser: LatinoDancer
+form: No
+createdBy: HPjWaGMC5pWlfgnRhrQwNxio3lv2
+commentsCount: 0
+name: Salsa Night im englischen Garten
+online: No
+styles:
+  Bachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+region:
+  name: Munich
+  location:
+    country: Germany
+    latitude: 48.1351253
+    locality: Munich
+    usedGps: false
+    place_id: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+    longitude: 11.5819805
+startDate: 2021-08-20T14:00:00.000Z
+username: Vitali
+viewsCount: 13

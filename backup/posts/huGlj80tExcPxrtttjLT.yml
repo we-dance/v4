@@ -1,0 +1,145 @@
+createdAt: 1705141302011
+updatedBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+updatedAt: 1705141302011
+username: Aina
+venue:
+  formatted_address: Salzgries 4, 1010 Wien, Austria
+  website: https://www.instagram.com/invites/contact/?i=3uvipiwerxy0&utm_content=pkqkjy
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  name: Fashiontv Club Vienna
+  geometry:
+    viewport:
+      southwest:
+        lng: 16.3716870697085
+        lat: 48.2115891697085
+      northeast:
+        lng: 16.3743850302915
+        lat: 48.2142871302915
+    location:
+      lng: 16.3731293
+      lat: 48.21297329999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "4"
+      long_name: "4"
+    - types:
+        - route
+      short_name: Salzgries
+      long_name: Salzgries
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Innere Stadt
+      long_name: Innere Stadt
+    - types:
+        - locality
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Wien
+      long_name: Wien
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "1010"
+      long_name: "1010"
+  international_phone_number: +43 665 65663285
+  place_id: ChIJ-c05XdoHbUcRQ3v13vJMYHg
+  url: https://maps.google.com/?cid=8674017488322001731
+endDate: 1705273200000
+claimed: No
+link: ""
+description: >-
+  Come dance with us in a great atmosphere in the city center! 
+
+
+  SALSA & SENSUAL SUNDAY ✨ in Fashion TV with the best salsa & bachata music by Dj Infinity, Dj Sergio & Dj Papicitos plus pre-party workshop and animations by MyDance Vienna.
+
+
+  In January 2x - 14th and 28th January
+
+
+  Cover fee to be paid cash at the door:
+
+  10€ - includes 5€ Drink-Voucher & Pre-party Workshop
+
+
+  SPECIAL OFFER 🍹
+
+  HAPPY HOUR from 20:00 until 22:00
+
+  Only 5€ for Long drinks, Gin Tonic, Whiskey Cola and Vodka Redbull
+
+
+  PRE-PARTY WORKSHOP from 20:00 until 20:30
+
+  PARTY from 20:30 until 00:00
+
+
+  Looking forward to dance with You!
+
+  More Info and Photos : https://linktr.ee/mydance.events
+program: []
+source: facebook
+type: event
+duration: 60
+artists: []
+price: ""
+place: ChIJn8o2UZ4HbUcRRluiUYrlwv0
+international: No
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/mydancevienna
+  name: MyDance Vienna
+  photo: https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/271758861_7387671101250456_7468666064286991966_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=596444&_nc_ohc=ELol5w0eIjYAX9eDLGt&_nc_ht=scontent-atl3-2.xx&oh=00_AfB3AxzXMLMqXgI8Im-i7hmEI0_yzYodg3Cv81EZnAu5XQ&oe=65A497A2
+  bio: ""
+  id: UUc7UI9gmVDzQTMxq0Th
+  instagram: ""
+  username: mydancevienna
+facebook: https://www.facebook.com/events/907684200711912/?event_time_id=907689127378086
+facebookId: "907689127378086"
+eventType: Party
+form: No
+watch:
+  count: 0
+  usernames: []
+name: SALSA & SENSUAL SUNDAY
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1705258800000+ChIJ-c05XdoHbUcRQ3v13vJMYHg
+startDate: 1705258800000
+star:
+  count: 1
+  usernames:
+    - Aina
+  list:
+    Aina: true
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FhuGlj80tExcPxrtttjLT.png?generation=1705141321945055&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707058111/t6lkchnilnszyt8ajjiy.jpg
+viewsCount: 2
+id: huGlj80tExcPxrtttjLT

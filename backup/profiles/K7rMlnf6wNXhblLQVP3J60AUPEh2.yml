@@ -1,0 +1,49 @@
+visibility: Members
+timezone: GMT+0200
+type: Dancer
+createdAt: 1634192537557
+locales:
+  de: true
+  en: true
+createdBy: K7rMlnf6wNXhblLQVP3J60AUPEh2
+name: Bachatera2311
+username: Bachatera2311
+lastLoginAt: 1634192537769
+daysUsed: 1
+pwaUsed: false
+cities:
+  ChIJ8xmb4RE9ukcRzsfHbHK1P0w: true
+updatedAt: 1634192783080
+place: ChIJ8xmb4RE9ukcRzsfHbHK1P0w
+contacts: ""
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FK7rMlnf6wNXhblLQVP3J60AUPEh2%2F42a59910-8c71-4c23-9663-3892997bf250?alt=media&token=0c6672c7-9040-4232-b04f-5f8ecb2ac6b8
+styles:
+  UrbanKizz:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Advanced
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  DominicanBachata:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Intermediate
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Advanced
+    highlighted: false
+    selected: true
+  Cubaton:
+    level: Advanced
+    highlighted: false
+    selected: true
+id: K7rMlnf6wNXhblLQVP3J60AUPEh2

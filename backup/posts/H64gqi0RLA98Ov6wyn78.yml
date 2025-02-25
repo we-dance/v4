@@ -1,0 +1,141 @@
+venue:
+  formatted_address: Altheimer Eck 12, 80331 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Altheimer Eck 12
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5715557302915
+      south: 48.1362275197085
+      north: 48.1389254802915
+      west: 11.5688577697085
+    location:
+      lng: 11.5703411
+      lat: 48.1378265
+  address_components:
+    - types:
+        - street_number
+      short_name: "12"
+      long_name: "12"
+    - types:
+        - route
+      short_name: Altheimer Eck
+      long_name: Altheimer Eck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Altstadt-Lehel
+      long_name: Altstadt-Lehel
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80331"
+      long_name: "80331"
+  url: https://maps.google.com/?q=Altheimer+Eck+12,+80331+M%C3%BCnchen,+Germany&ftid=0x479e75f44ac16d53:0xfd3ad7eeb2f1debc
+  place_id: ChIJU23BSvR1nkcRvN7xsu7XOv0
+endDate: 2023-02-16T22:00
+claimed: No
+link: https://my.forms.app/form/63b1db1a0b036f184ba6363f
+description: >-
+  Weekly Bachata Styling Classes 
+
+  Bachata Dominicana musicality, technique in steps and movement and short choreographies
+
+  open for all genders
+program: []
+type: event
+downVotes: 0
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYALhrJ1ZpVOG0DjvapCWU5M9LhT2%2Fcc5cc087-005e-401f-977b-299d3fa101c0?alt=media&token=5a570c41-42c7-4d72-8206-6b4bf2f9df33
+createdAt: 1675544712918
+artists:
+  - instagram: https://instagram.com/alara_dancer
+    username: alara_dancer
+price: EUR
+artistsList:
+  - alara_dancer
+id: H64gqi0RLA98Ov6wyn78
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1675544712918
+updatedBy: YALhrJ1ZpVOG0DjvapCWU5M9LhT2
+star:
+  count: 0
+  list: {}
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://m.facebook.com/100086914165821/
+  name: BachatAddicted
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FYALhrJ1ZpVOG0DjvapCWU5M9LhT2%2F6d73d5f5-8f89-42ee-b7a8-0345a1c4b68c?alt=media&token=46b8e8e6-e17c-46a4-b0cc-286ed64efe10
+  bio: "BachatAddicted is for all dancers who love bachata. We teach you how to
+    dance and you share it with others in your social dance "
+  instagram: ""
+  id: YALhrJ1ZpVOG0DjvapCWU5M9LhT2
+  username: BachatAddicted
+upVotes: 0
+eventType: Course
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: YALhrJ1ZpVOG0DjvapCWU5M9LhT2
+commentsCount: 0
+name: Thursday Bachata Feminine & Bachata Dominicana for all genders
+online: No
+votes: 0
+styles:
+  DominicanBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-02-16T20:00
+username: BachatAddicted
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FH64gqi0RLA98Ov6wyn78.png?generation=1676569780667008&alt=media
+telegram:
+  requestedAt: 1676569854649
+  messageUrl: https://t.me/WeDanceMunich/906
+  publishedAt: 1676569856964
+  messageId: 906
+  state: published
+instagram:
+  requestedAt: 1676569857786
+  messageUrl: https://instagram.com/p/Cou3e2hJzxR
+  publishedAt: 1676569870364
+  messageId: Cou3e2hJzxR
+  state: published
+viewsCount: 56

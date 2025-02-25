@@ -1,0 +1,136 @@
+venue:
+  website: http://salsamas-pasing.de/
+  formatted_address: Am Schützeneck 3, 81241 München, Germany
+  name: Salsamás Pasing - Tanzkurse für Singles und Paare
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.4637166802915
+      south: 48.1464650697085
+      north: 48.1491630302915
+      west: 11.4610187197085
+    location:
+      lng: 11.4623658
+      lat: 48.14774430000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "3"
+      long_name: "3"
+    - types:
+        - route
+      short_name: Am Schützeneck
+      long_name: Am Schützeneck
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Pasing-Obermenzing
+      long_name: Pasing-Obermenzing
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "81241"
+      long_name: "81241"
+  url: https://maps.google.com/?cid=8948474523406618165
+  international_phone_number: +49 89 74039681
+  place_id: ChIJ0QgbwuJ3nkcRNc5IASteL3w
+endDate: 2022-12-23T20:00
+claimed: No
+link: https://salsamas-pasing.de/de/course/details/400
+description: >+
+  Der Tanz Bachata ist ein sinnlicher Tanz, der ursprünglich aus der
+  Dominikanischen Republik kommt und zur Zeit auch in München sehr populär ist.
+  In diesem Kurs werden die Basic-Schritte und grundlegenden Tanz-Elemente von
+  dem Bachata Tanz vermittelt. Dieser Kurs kann mehrere Monate wiederholt werden
+  (es ist keinen "Muss"), da immer wieder neue Tanz-Elemente für den Paartanz
+  gezeigt werden. Die Bachata-Schritte und Tanz-Elemente werden dabei immer
+  wieder gezeigt und wiederholt. 
+
+type: event
+duration: 60
+promo: Yes
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2F82dc8138-61e1-4047-bb86-83b16f6e59e3?alt=media&token=aa45e7da-3df5-450a-8aa1-03286588d33a
+createdAt: 1658939286682
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Pablo De Queiroz
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fea862ce6-c4ca-48be-b269-59c415a30dc7?alt=media&token=4d4f1c09-2dd4-4e7f-aff4-98c21cf81ed1
+    bio: ""
+    instagram: https://instagram.com/pablo_de_queiroz_salsamas
+    id: Gg9bygHaz0NBcUy0NLyz
+    username: pablo_de_queiroz_salsamas
+price: "Einzelanmeldung: 79 € p. Person (4x 75 Min.) / Studenten: 69 € p. Person"
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FaVdudQ17KbRQDY69M0Fw.png?generation=1658939674256044&alt=media
+id: h0Cyh6flI3GzQYSDl5PX
+artistsList:
+  - pablo_de_queiroz_salsamas
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1658939286682
+updatedBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/SalsamasMunich
+  name: Salsamas_Munich
+  bio: TANZEN LERNEN... ÜBEN... ERLEBEN!
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2Fh1Q2XunkwqSUqIxinKiNaghTlal1%2Fb2c006f1-c24d-4620-ad79-31e4d3a23777?alt=media&token=93a36460-ed5b-4ca5-a122-662607dddc60
+  instagram: https://instagram.com/salsamasmunich
+  id: h1Q2XunkwqSUqIxinKiNaghTlal1
+  username: Salsamas_Munich
+confirmation: |-
+  Hello,
+
+  Thank you for making a reservation.
+
+  We look forward to your visit!
+
+  See you very soon
+
+  Salsamas
+eventType: Course
+form: No
+watch:
+  count: 1
+  list:
+    Salsamas_Munich: true
+createdBy: h1Q2XunkwqSUqIxinKiNaghTlal1
+name: BACHATA BEGINNER
+online: No
+styles:
+  Bachata:
+    level: Beginner
+    highlighted: false
+    selected: true
+startDate: 2022-12-02T18:30
+username: Salsamas_Munich
+viewsCount: 11

@@ -1,0 +1,109 @@
+venue:
+  formatted_address: 428 S Hewitt St, Los Angeles, CA 90013, USA
+  website: http://www.residentdtla.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Resident
+  html_attributions: []
+  geometry:
+    viewport:
+      east: -118.2337301697085
+      south: 34.0413319697085
+      north: 34.0440299302915
+      west: -118.2364281302915
+    location:
+      lng: -118.2349224
+      lat: 34.0426647
+  address_components:
+    - types:
+        - street_number
+      short_name: "428"
+      long_name: "428"
+    - types:
+        - route
+      short_name: S Hewitt St
+      long_name: South Hewitt Street
+    - types:
+        - neighborhood
+        - political
+      short_name: Downtown Los Angeles
+      long_name: Downtown Los Angeles
+    - types:
+        - locality
+        - political
+      short_name: Los Angeles
+      long_name: Los Angeles
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Los Angeles County
+      long_name: Los Angeles County
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: CA
+      long_name: California
+    - types:
+        - country
+        - political
+      short_name: US
+      long_name: United States
+    - types:
+        - postal_code
+      short_name: "90013"
+      long_name: "90013"
+    - types:
+        - postal_code_suffix
+      short_name: "2216"
+      long_name: "2216"
+  international_phone_number: +1 213-628-7503
+  place_id: ChIJu8J0dzzGwoARE1e1z8C8BYc
+  url: https://maps.google.com/?cid=9729390106308335379
+endDate: 2023-04-15T01:30
+claimed: No
+link: https://www.eventbrite.com/e/afro-lala-tickets-596298664357?aff=ebdssbdestsearch
+description: >-
+  A night of Afro House, Gqom, Amapiano & Afrobeats by The AMP Collective and
+  Apiwe Bubu. From the Motherland to LALA Land. 
+
+  This event is 21+
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FjGxGDj33DCflqToaqwt2QBthFIE2%2F556246fb-9e79-49a4-a099-8f1f7f8f5f96?alt=media&token=26dfa41a-ea0a-4dba-9d71-7d3bbbce6fec
+createdAt: 1680916645831
+artists: []
+price: Free
+artistsList: []
+place: ChIJE9on3F3HwoAR9AhGJW_fL-I
+international: No
+updatedAt: 1680916645831
+updatedBy: jGxGDj33DCflqToaqwt2QBthFIE2
+visibility: Public
+org: {}
+eventType: Party
+confirmation: You’re on the guest list!
+form: No
+createdBy: jGxGDj33DCflqToaqwt2QBthFIE2
+name: Afro LALA
+online: No
+styles:
+  Afrobeats:
+    level: Interested
+    highlighted: false
+    selected: true
+  AfroHouse:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-04-14T21:00
+username: keva
+id: yLb8R5s0T0ElIx4MDxRe
+facebook: https://www.instagram.com/reel/CqlhlHMjyqI/?igshid=YmMyMTA2M2Y=
+program: []
+watch:
+  count: 0
+  list: {}
+star:
+  count: 1
+  list:
+    keva: true
+viewsCount: 44

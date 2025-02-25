@@ -1,0 +1,56 @@
+owner: ""
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+visibility: Public
+createdAt: 1644579890586
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+owned: false
+username: thehostclub
+gender: ""
+bio: Abre sus puertas con el proposito de albergar y ser anfitriona de los
+  eventos mas importantes de la Capital.
+photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fac97affb-b6ed-408f-8413-4851e11e1c1f?alt=media&token=9924762a-20dc-4645-afe0-b759187b4c5b
+permission: ""
+type: Venue
+locales:
+  es: true
+partner: ""
+name: The Host
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+id: dJUPHBxDVtKOlwWptlbX
+place: ChIJgTwKgJcpQg0RaSKMYcHeNsQ
+contacts: Yes
+story: >-
+  Equipada con la última tecnología de luz y sonido y con una capacidad de 550
+  personas, selecciona rigurosamente una atractiva programación de sesiones y
+  conciertos para ofrecerte una actividad continua y versatil con un repertorio
+  musical de amplia gama.
+
+  A su vez ofrecemos la capacidad de albergar cualquier tipo de evento habilitando tanto infraestructuras como el equipo humano necesario.
+
+  Esperamos tu visita...
+facebook: https://facebook.com/thehostclub
+website: https://www.thehostclub.es/
+reviews: []
+team: []
+current: ChIJgTwKgJcpQg0RaSKMYcHeNsQ
+instagram: https://www.instagram.com/thehostclub.38
+updatedAt: 1707751989261
+import: failed
+importError: "Error: options.uri must be a path when using options.baseUrl"
+watch:
+  count: 1
+  usernames:
+    - AnnaNym
+viewsCount: 60

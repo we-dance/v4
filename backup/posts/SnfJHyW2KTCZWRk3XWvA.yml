@@ -1,0 +1,158 @@
+importedAt: 1707469701391
+providerUpdatedAt:
+  _seconds: 1704921061
+  _nanoseconds: 0
+facebookId: "340409395519374"
+facebook: https://www.facebook.com/events/340409395519374/?event_time_id=340409482186032
+eventType: Party
+createdAt: 1707469701391
+providerItemId: e340409482186032@facebook.com
+approved: true
+provider: ical
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+providerId: 262LQz8uIYSRwrDAtGZ1
+name: Bachata Übungsabend
+location: Dance Cube
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+updatedAt: 1707469701391
+username: alexrazbakov
+venue:
+  formatted_address: Freiligrathstraße 8A, 90482 Nürnberg, Germany
+  website: https://dance-cube-nuernberg.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Dance Cube Tanzschule Nürnberg
+  geometry:
+    viewport:
+      southwest:
+        lng: 11.1325845697085
+        lat: 49.4581473697085
+      northeast:
+        lng: 11.1352825302915
+        lat: 49.4608453302915
+    location:
+      lng: 11.1339499
+      lat: 49.4594615
+  address_components:
+    - types:
+        - street_number
+      short_name: 8A
+      long_name: 8A
+    - types:
+        - route
+      short_name: Freiligrathstraße
+      long_name: Freiligrathstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Ost
+      long_name: Ost
+    - types:
+        - locality
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Nürnberg
+      long_name: Nürnberg
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Mittelfranken
+      long_name: Mittelfranken
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "90482"
+      long_name: "90482"
+  international_phone_number: +49 911 541464
+  place_id: ChIJrdWa0iJYn0cR3Y6T5mJr5x4
+  url: https://maps.google.com/?cid=2226866613277396701
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/dancecube.nuernberg
+  name: Dance Cube
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1707313191/czsdkwwwqdfw9p0szgb9.jpg
+  bio: ""
+  id: HB9eozStzZScmxsNB6iy
+  instagram: ""
+  username: dance.cube
+claimed: No
+link: https://backoffice.bsport.io/m/Dance%20Cube/463/calendar/?isPreview=true&activity__in=17021
+description: >-
+  ✅ Wann: am 1. und 3. Freitag eines jeden Monats 
+
+
+  ✅ Musik: 80% Bachata / 20% Salsa & Kizomba
+
+
+  ✅ Eintritt:  7€ für Externe / für Bachata Schüler kostenlos
+
+
+  📍 Dance Cube Nürnberg
+
+  Freiligrathstr. 8a
+
+  90482 Nürnberg
+
+
+  ✅ Link zur Buchung:
+
+  https://backoffice.bsport.io/m/Dance%20Cube/463/calendar/?isPreview=true&activity__in=17021
+
+
+  Anmeldung & Informationen:
+
+  🌎 www.dance-cube.com
+
+  📧 info@dance-cube.com
+
+  ☎️ 0911 541464
+
+  💜Euer Dance Cube Team💜
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1707469708/bafhn3xb1w3uob9rciuo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0xy2ta5Xn0cRtyGMqYWvXd0
+international: No
+hash: 1708113600000+ChIJrdWa0iJYn0cR3Y6T5mJr5x4
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FSnfJHyW2KTCZWRk3XWvA.png?generation=1707469725742227&alt=media
+endDate: 1708124400000
+providerCreatedAt: 1704503516000
+startDate: 1708113600000
+viewsCount: 4
+id: SnfJHyW2KTCZWRk3XWvA

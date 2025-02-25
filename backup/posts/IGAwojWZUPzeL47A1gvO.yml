@@ -1,0 +1,143 @@
+venue:
+  formatted_address: Leopoldstraße 25, 80802 München, Germany
+  website: https://www.facebook.com/mintclubmunchen
+  name: Mint Club München
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5859013802915
+      south: 48.15652061970849
+      north: 48.15921858029149
+      west: 11.5832034197085
+    location:
+      lng: 11.5843937
+      lat: 48.15794589999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "25"
+      long_name: "25"
+    - types:
+        - route
+      short_name: Leopoldstraße
+      long_name: Leopoldstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Schwabing-Freimann
+      long_name: Schwabing-Freimann
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80802"
+      long_name: "80802"
+  url: https://maps.google.com/?cid=16121379373870805009
+  place_id: ChIJn6ZGXb91nkcREfDgNCClut8
+  international_phone_number: +49 176 99935207
+endDate: 1700521200000
+claimed: No
+link: https://salsea.de/events/#tickets
+description: Montage müssen nicht langweilig sein! Mach mit uns den Montag zur
+  aufregendsten Nacht der Woche. Ein aufregender Abend voller Tanz und Musik
+  Musik by DJ MEL.
+program: []
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FoSg1TkXwg1Vw4XlEbDEPEQw3ONz1%2F8b290e08-cd99-4026-acfa-bd3204909287?alt=media&token=3dbc0943-de45-42c2-8e1f-2f4130818d67
+duration: 60
+createdAt: 1700472632403
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/salseadance
+    name: dj_mel_salsea
+    bio: DJ & Tanzlehrer bein SALSEA - Dance Academy 🇵🇪💃🏻🕺🏼
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FoSg1TkXwg1Vw4XlEbDEPEQw3ONz1%2Fd69e26c9-487d-42e5-82d4-2ef9f91ab2d2?alt=media&token=cf17ae4b-eca3-4662-a6fc-0a60c0c72e13
+    id: oSg1TkXwg1Vw4XlEbDEPEQw3ONz1
+    instagram: https://www.instagram.com/dj_mel_salsea/
+    username: melmori
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+id: IGAwojWZUPzeL47A1gvO
+artistsList:
+  - melmori
+international: No
+updatedAt: 1700472632403
+updatedBy: oSg1TkXwg1Vw4XlEbDEPEQw3ONz1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/salseadance
+  name: SALSEA
+  bio: ""
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F29A7vec0c6cKnrSTvqAEouzhNKD3%2Fd8a1c8fe-e41a-48bb-8007-cff964a785ba?alt=media&token=1de13269-1fa1-4e04-b69d-60c9c83cbb7f
+  instagram: https://www.instagram.com/salsea_dance
+  id: 29A7vec0c6cKnrSTvqAEouzhNKD3
+  username: SALSEA
+facebook: https://fb.me/e/3JyxieJHi
+telegram: {}
+upVotes: 0
+confirmation: ""
+eventType: Party
+form: No
+createdBy: oSg1TkXwg1Vw4XlEbDEPEQw3ONz1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: SALSEA Monday Party
+online: No
+votes: 0
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1700506800000
+username: melmori
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FIGAwojWZUPzeL47A1gvO.png?generation=1700472657618635&alt=media
+instagram:
+  messageUrl: https://instagram.com/p/Cz3qSJ0Oyax
+  publishedAt: 1700487262660
+  messageId: Cz3qSJ0Oyax
+  state: published
+promotionError: ""
+promotion: completed
+star:
+  count: 1
+  usernames:
+    - alexrazbakov
+  list:
+    alexrazbakov: true
+viewsCount: 30

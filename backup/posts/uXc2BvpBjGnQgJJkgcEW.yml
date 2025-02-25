@@ -1,0 +1,157 @@
+venue:
+  formatted_address: Pollheimerstraße 1, 4600 Wels, Austria
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Stadthalle Wels
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.0222101302915
+      south: 48.1532667197085
+      north: 48.1559646802915
+      west: 14.0195121697085
+    location:
+      lng: 14.0207613
+      lat: 48.15431539999999
+  address_components:
+    - types:
+        - street_number
+      short_name: "1"
+      long_name: "1"
+    - types:
+        - route
+      short_name: Pollheimerstraße
+      long_name: Pollheimerstraße
+    - types:
+        - locality
+        - political
+      short_name: Wels
+      long_name: Wels
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Wels
+      long_name: Wels
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Oberösterreich
+      long_name: Oberösterreich
+    - types:
+        - country
+        - political
+      short_name: AT
+      long_name: Austria
+    - types:
+        - postal_code
+      short_name: "4600"
+      long_name: "4600"
+  place_id: ChIJF6ekcR7zc0cRaPvPrf7quSU
+  url: https://maps.google.com/?cid=2718462229653486440
+endDate: 2023-05-28T23:30
+claimed: No
+link: https://www.salsacongress-blackandwhite.at/shop/
+description: |-
+  Welcome to the beautiful historical, cultural and trade fair city of Wels !!!
+
+  Wels is the second largest city in Upper Austria.
+
+  We invite you to the third Black&White Congress.
+
+  Also in 2023 a great program is waiting for you:
+
+  Professionally led workshops
+  the best international dance teachers and DJs
+  Entertainment with hot rhythms and great evening shows
+  stylish location in the city center
+  Social dancing
+  evening parties
+
+  In a fantastic atmosphere of the Stadthalle Wels we offer you:
+
+  dancing shoes
+  dancewear
+  drinks and food
+  very good hotels nearby
+  three dance floors
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FRDlacRZC9Adzck7H5fWryh1nVGs2%2F44c18812-eba6-4be1-afda-1b9e7389fac3?alt=media&token=017d408f-8f9b-407a-9976-3e881c6ad918
+createdAt: 1682587098517
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Fajul KizzTalk
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fd992ece0-51fd-4b69-9e2f-69b70a8384b0?alt=media&token=1b0b353e-7491-4afc-8418-224c1a8037ea
+    bio: Urban Kiz & Afro Instructor
+    id: yCVXNW3rN1RPktmCXpXldFi57pr2
+    instagram: https://instagram.com/kizztalk_
+    username: kizztalk
+  - instagram: https://instagram.com/arunpauer
+    username: arunpauer
+  - instagram: https://instagram.com/sergioybeigebachata
+    username: sergioybeigebachata
+  - instagram: https://instagram.com/marvin_gintare_bachata
+    username: marvin_gintare_bachata
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Tanzschule Conny & Dado
+    photo: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fconnydado.png?generation=1655309387858572&alt=media
+    bio: >-
+      🎯Our mission: Making peoples lives richer! Our tool: Social Dance!
+
+      Our Social Dancing Academy with hundreds of helpful articles, podcasts and videos:
+    id: oVy2v0gdhptCtBUJtqZB
+    instagram: https://instagram.com/connydado
+    username: connydado
+  - instagram: https://instagram.com/euphoria_dancecompany
+    username: euphoria_dancecompany
+price: 110 - 215 EUR
+place: ChIJmX0myqHyc0cRGH7sOE_IgOk
+artistsList:
+  - kizztalk
+  - arunpauer
+  - sergioybeigebachata
+  - marvin_gintare_bachata
+  - connydado
+  - euphoria_dancecompany
+international: Yes
+updatedAt: 1682587098517
+updatedBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+visibility: Public
+org:
+  instagram: https://instagram.com/salsacongressblackandwhite
+  username: salsacongressblackandwhite
+eventType: Congress
+form: No
+createdBy: RDlacRZC9Adzck7H5fWryh1nVGs2
+watch:
+  count: 1
+  list:
+    IvanaSoldat: true
+name: Black&White Congress
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  UrbanKizz:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2023-05-25T00:00
+username: IvanaSoldat
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FuXc2BvpBjGnQgJJkgcEW.png?generation=1685044298449823&alt=media
+viewsCount: 3
+id: uXc2BvpBjGnQgJJkgcEW

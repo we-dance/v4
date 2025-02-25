@@ -1,0 +1,106 @@
+endDate: 1737352800000
+sourceUrl: https://www.facebook.com/events/1058448795395877/
+createdAt: 1711800520945
+approved: true
+provider: ical
+providerId: h3mLnG49LCZb8gZIZhEa
+providerCreatedAt: 1705270445000
+updatedAt: 1711800520945
+importedAt: 1711800520945
+providerUpdatedAt: 1705395434000
+facebookId: "1058448795395877"
+facebook: https://www.facebook.com/events/1058448795395877/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/1058448795395877/
+eventType: Festival
+providerItemId: e1058448795395877@facebook.com
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+name: Magic Slovenian Salsa Festival 2025
+location: Ljubljana, Slovenia
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1737061200000
+facebookUrlsCount: 1
+username: alexrazbakov
+venue:
+  formatted_address: Ljubljana, Slovenia
+  website: http://www.ljubljana.si/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png
+  name: Ljubljana
+  geometry:
+    viewport:
+      southwest:
+        lng: 14.41950194763623
+        lat: 45.99003300137537
+      northeast:
+        lng: 14.64469627164061
+        lat: 46.14220169380542
+    location:
+      lng: 14.5057515
+      lat: 46.0569465
+  address_components:
+    - types:
+        - locality
+        - political
+      short_name: Ljubljana
+      long_name: Ljubljana
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Ljubljana
+      long_name: Ljubljana
+    - types:
+        - country
+        - political
+      short_name: SI
+      long_name: Slovenia
+  place_id: ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+  url: https://maps.google.com/?q=Ljubljana,+Slovenia&ftid=0x476531f5969886d1:0x400f81c823fec20
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1711800527639
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/pfbid0244o9vJEZc8UeNh6y72XQbVpe2nE668mQw6mkuZiaqw5wVokXF7EQETgQoabDJwvSl
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1711800527/o1trmwxinwbdznjiz1we.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1711800527639
+  owned: false
+  name: Anael SalsaMc
+  place: ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+  updatedAt: 1711800527639
+  username: anael.salsamc
+claimed: No
+link: ""
+description: |+
+  Magic Slovenian Salsa Festival 2025
+  Save the dates : 16-19 january 2025
+
+  Official Website : https://mssf.si
+  Official Event : coming soon
+
+
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1711800528/npxqnmuotalrcrrebrjo.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+international: No
+hash: 1737061200000+ChIJ0YaYlvUxZUcRIOw_ghz4AAQ
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKGsx4lyP0rOSfdyb0ZdE.png?generation=1711800556128081&alt=media
+viewsCount: 2
+id: KGsx4lyP0rOSfdyb0ZdE

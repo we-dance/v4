@@ -1,0 +1,126 @@
+artists: []
+program: []
+provider: goandance
+createdAt: 1732327067498
+updatedAt: 1732327067498
+importedAt: 1732327067498
+providerId: goandance
+providerItemId: "6812"
+name: JARANA CONGRESO FLAMENCO
+description: ÚNETE AL PRIMER CONGRESO DE FLAMENCO, SEVILLANAS Y RUMBAS. UN FIN
+  DE SEMANA LLENO DE TALLERES EN NIVEL ABIERTO, SOCIALES CON MUCHO ARTE,
+  REBUJITO, ACTUACIONES, ESPECTÁCULO DE TABLAO y MÚSICOS EN DIRECTO. DISFRUTA DE
+  UNA EXPERIENCIA DE LUJO EN LA PRECIOSA COSTA BLANCA.
+sourceUrl: https://www.goandance.com/es/e/6812?promoter=WEDANCE123
+link: https://www.goandance.com/es/e/6812?promoter=WEDANCE123
+type: event
+startDate: 1742576400000
+endDate: 1742734800000
+tickets:
+  - name: FULL PASS
+    description: Incluye talleres y sociales. NO INCLUYE alojamiento ni consumiciones.
+    priceValidUntil:
+      _seconds: 1742472000
+      _nanoseconds: 0
+    discount: 0
+    price: 60
+    comission: 7.87
+    originalPrice: 60
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6812-jarana-congreso-flamenco?&promoter=WEDANCE123
+  - name: 1 NOCHE  HABITACIÓN DOBLE
+    description: ""
+    priceValidUntil:
+      _seconds: 1742472000
+      _nanoseconds: 0
+    discount: 0
+    price: 105
+    comission: 7.87
+    originalPrice: 105
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6812-jarana-congreso-flamenco?&promoter=WEDANCE123
+  - name: 2 NOCHES HABITACIÓN DOBLE
+    description: ""
+    priceValidUntil:
+      _seconds: 1742472000
+      _nanoseconds: 0
+    discount: 0
+    price: 185
+    comission: 7.87
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6812-jarana-congreso-flamenco?&promoter=WEDANCE123
+  - name: 2 NOCHES HABITACIÓN TRIPLE
+    description: ""
+    priceValidUntil:
+      _seconds: 1742472000
+      _nanoseconds: 0
+    discount: 0
+    price: 185
+    comission: 7.87
+    originalPrice: 185
+    priceCurrency: EUR
+    url: https://www.goandance.com/es/eventos/6812-jarana-congreso-flamenco?&promoter=WEDANCE123
+eventType: Festival
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732327068/k6bipb82ogh4nj66ydcp.jpg
+venue:
+  address_components:
+    - long_name: "48"
+      short_name: "48"
+      types:
+        - street_number
+    - long_name: Avenida Juan Carlos I
+      short_name: Av. Juan Carlos I
+      types:
+        - route
+    - long_name: Calpe
+      short_name: Calpe
+      types:
+        - locality
+        - political
+    - long_name: Alicante
+      short_name: A
+      types:
+        - administrative_area_level_2
+        - political
+    - long_name: Comunidad Valenciana
+      short_name: VC
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Spain
+      short_name: ES
+      types:
+        - country
+        - political
+    - long_name: "03710"
+      short_name: "03710"
+      types:
+        - postal_code
+  formatted_address: Av. Juan Carlos I, 48, 03710 Calpe, Alicante, Spain
+  geometry:
+    location:
+      lat: 38.6504143
+      lng: 0.07322859999999998
+    viewport:
+      northeast:
+        lat: 38.65166818029149
+        lng: 0.07445523029150201
+      southwest:
+        lat: 38.6489702197085
+        lng: 0.07175726970849795
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+  international_phone_number: +34 965 83 26 18
+  name: AR Diamante Beach
+  place_id: ChIJ7z5t-AD-nRIRv4VukmIsZ48
+  url: https://maps.google.com/?cid=10333276671900026303
+  website: https://www.ar-hotels.com/hotel-ar-diamante-beach/?utm_source=gmb&utm_medium=organic&utm_campaign=GoogleMyBusiness
+place: ChIJuaWi6C_-nRIRc0dVDVMq04s
+price: 60 EUR
+styles: {}
+watch:
+  usernames: []
+  count: 0
+hash: 1742576400000+ChIJ7z5t-AD-nRIRv4VukmIsZ48
+org: ""
+id: BwNiFqFeqIQavpSRqpwG

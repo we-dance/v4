@@ -1,0 +1,127 @@
+isNew: true
+facebookId: "1015766436906057"
+facebookUrlsList:
+  - https://www.facebook.com/events/1015766436906057/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729519252903
+updatedAt: 1729519252903
+importedAt: 1729519252903
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48568-1729555200-1729641599@latinfo.hu
+providerCreatedAt: 1729501431000
+providerUpdatedAt: 1729501431000
+startDate: 1729555200000
+endDate: 1729641599000
+facebook: https://www.facebook.com/events/1015766436906057/
+sourceUrl: https://www.facebook.com/events/1015766436906057/
+location: e-cafe, Dózsa György utca, Kaposvár, 7400, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: "9"
+      short_name: "9"
+      types:
+        - street_number
+    - long_name: Budai Nagy Antal utca
+      short_name: Budai Nagy Antal u.
+      types:
+        - route
+    - long_name: Kaposvár
+      short_name: Kaposvár
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "7400"
+      short_name: "7400"
+      types:
+        - postal_code
+  formatted_address: Kaposvár, Budai Nagy Antal u. 9, 7400 Hungary
+  geometry:
+    location:
+      lat: 46.3535894
+      lng: 17.7947814
+    viewport:
+      northeast:
+        lat: 46.3549429302915
+        lng: 17.7961920802915
+      southwest:
+        lat: 46.3522449697085
+        lng: 17.79349411970849
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png
+  international_phone_number: +36 30 133 7622
+  name: e-Cafe
+  place_id: ChIJJ3HBwk4VaEcR0WE80fSsUQQ
+  url: https://maps.google.com/?cid=311220016747667921
+  website: https://www.facebook.com/e-cafe-693114824222115/
+visibility: Public
+org:
+  id: z9YRapnan8WBMJKTvBrT
+  username: info.drsalsa
+  name: Dr. Salsa
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1709765531/neh6wvnwhq1cl0zqfcwh.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/info.drsalsa
+  tiktok: ""
+  youtube: ""
+claimed: No
+link: ""
+description: >-
+  Keddance EXTRA! | 20.15-től Kedd este/másnap szünnap/ | Salsa-Bachata-Kizomba
+  Zenékkel | Ingyenes
+
+
+  Extra Keddance party!
+
+
+  Ingyenes a rendezvény!
+
+  Tánciskolától függetlenül szívesen látunk mindenkit!
+
+
+  Időpont: OKT. 22 Kedd
+
+  Kezdés 20.15-
+
+
+  Másnap szünnap, bulizzunk egy jól!
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729519266/rwuq7h5nl4e4xzl3mk2z.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Keddance EXTRA! | 20.15-től Kedd este/másnap szünnap/ |
+  Salsa-Bachata-Kizomba Zenékkel | Ingyenes
+online: No
+place: ChIJZamrxOQ9aEcRIBIeDCnEAAQ
+international: No
+hash: 1729620900000+ChIJJ3HBwk4VaEcR0WE80fSsUQQ
+id: PVRlbR9xMRBJnUaIjjbz

@@ -1,0 +1,189 @@
+createdAt: 1704430742116
+updatedBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+facebook: https://www.facebook.com/events/1077201710309006/
+username: alexrazbakov
+venue:
+  formatted_address: Prinzenstraße 85 F, 10969 Berlin, Germany
+  website: http://tak-berlin.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: tak Theater Aufbau Kreuzberg
+  geometry:
+    viewport:
+      southwest:
+        lng: 13.4086158697085
+        lat: 52.5014986197085
+      northeast:
+        lng: 13.4113138302915
+        lat: 52.5041965802915
+    location:
+      lng: 13.4098626
+      lat: 52.5028539
+  address_components:
+    - types:
+        - street_number
+      short_name: 85 F
+      long_name: 85 F
+    - types:
+        - route
+      short_name: Prinzenstraße
+      long_name: Prinzenstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Bezirk Friedrichshain-Kreuzberg
+      long_name: Bezirk Friedrichshain-Kreuzberg
+    - types:
+        - locality
+        - political
+      short_name: Berlin
+      long_name: Berlin
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt Berlin
+      long_name: Kreisfreie Stadt Berlin
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BE
+      long_name: Berlin
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "10969"
+      long_name: "10969"
+  international_phone_number: +49 30 50567000
+  place_id: ChIJW-29yC1OqEcRM2YMbtB23lQ
+  url: https://maps.google.com/?cid=6115455981587293747
+visibility: Public
+endDate: 1707696000000
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/people/Fiesta-Elegante/100090149059629/
+  name: Fiesta Elegante
+  photo: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/408289614_301167289564904_5703501432371829723_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=596444&_nc_ohc=odLlaSGKfn0AX_rkBff&_nc_ht=scontent-iad3-1.xx&oh=00_AfCQmOYChCTepOKu5VnYLffISlut8WQhCFa6kEdOcb7qPQ&oe=659CD352
+  bio: ""
+  id: h2C9Y1LsNUEUINa2no8l
+  instagram: ""
+  username: FiestaElegante
+claimed: No
+link: http://buytickets.at/fiestaelegante
+program: []
+type: event
+duration: 60
+form: No
+watch:
+  count: 0
+  usernames: []
+price: ""
+name: Berlin Salsa Festival "Fiesta Elegante" The Afro Cuban Festival in Berlin
+online: No
+styles: {}
+place: ChIJAVkDPzdOqEcRcDteW0YgIQQ
+international: No
+startDate: 1707505200000
+facebookId: "1077201710309006"
+id: JrlDm0yNKdycSWPItts0
+hash: 1707505200000+ChIJW-29yC1OqEcRM2YMbtB23lQ
+source: facebook
+description: >
+  Get ready, book your flights and hotels, pack your dancing shoes! You have
+  been waiting so long for this and now we are doing it!
+
+
+  We're taking the magic of last winter's legendary Afro Cuban party, Fiesta Elegante, to the next level with the Berlin Salsa Festival "Fiesta Elegante." 💃🏻🕺🏽
+
+
+  3 days of worskshops and Parties
+
+
+  Buy ticket: buytickets.at/fiestaelegante
+
+
+  Mark your calendars for February 9th and 11th, because this is the salsa event you've been waiting for!
+
+
+  Why You Can't Miss This:
+
+  ⭐Two amazing days filled with Afro Cuban workshops that will teach you everything from partner work to lady styling, Afro, fusion, Timba, new style, footwork, and even Cuban Mambo Fusion. 
+
+  ⭐The one and only Yoandy Villaurrutia (Yoyo Flow) and the incredible Laura del Vecchio will be leading the way.  Joining them is the award-winning Eloy Rojas, a master of Latin and Afro-Cuban rhythms from Venezuela. Additionally, the superb duo Roger & Edy from Italy and Poland will be joining our already stellar line-up 
+
+
+  And guess what? We're announcing more amazing artists soon! 🤩
+
+
+  Get your dance shoes ready for a great party on Saturday and more suprises that will be revealed.
+
+
+
+  Whether you've been dancing for years or are new to salsa, this festival is all about improving your dance skills and having a great time.
+
+
+  P.S: Interested in a free festival pass? We're on the hunt for volunteers who can lend a few hours and in return, join in on the festival fun for free! 
+
+
+  Stay tuned for more exciting news and artists. We can't wait to see you on the dance floor!🙌😎
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/yoandy.villaurrutia
+    name: Yoyo Flow
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Ff59a2964-1355-4b79-850a-470e445f4bf8?alt=media&token=c48a01d7-30c7-49a5-b1d0-ce05042ae504
+    bio: |-
+      Professional dancer & choreographer Founder of NewStyle
+      Italy |Spain
+    id: QiGveilrAtrTFt7hjjA7
+    instagram: https://instagram.com/yoyoflowofficial
+    username: yoyoflowofficial
+  - youtube: ""
+    tiktok: ""
+    facebook: https://www.facebook.com/people/Del-Vecchio-Dance/100037978854946/
+    name: Laura Del Vecchio
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F940a7ab4-a7df-445c-a0f3-70e7a65a6c4a?alt=media&token=23669c3d-2ddf-4b92-b2c8-87112b072fbf
+    bio: |-
+      Del Vecchio Dance - Dance Studio
+      Dance/Fitness/Lifestyle/Mindsetinspiration
+    id: BFrJJLVsHPfGH0W5gHJFqPIKnkA2
+    instagram: https://instagram.com/laura.delvecchio87
+    username: laura.delvecchio87
+  - instagram: https://instagram.com/eloyjrojas
+    username: eloyjrojas
+  - instagram: https://instagram.com/edy_dancer
+    username: edy_dancer
+  - instagram: https://instagram.com/roger_palombella_dancer
+    username: roger_palombella_dancer
+  - instagram: https://instagram.com/gonzalovarona
+    username: gonzalovarona
+  - instagram: https://instagram.com/yulatumulata
+    username: yulatumulata
+  - instagram: https://instagram.com/yeniferlavingonzal
+    username: yeniferlavingonzal
+artistsList:
+  - yoyoflowofficial
+  - laura.delvecchio87
+  - eloyjrojas
+  - edy_dancer
+  - roger_palombella_dancer
+  - gonzalovarona
+  - yulatumulata
+  - yeniferlavingonzal
+instagram:
+  messageUrl: https://instagram.com/p/C17kKRLv5Pr
+  publishedAt: 1704913237247
+  messageId: C17kKRLv5Pr
+  state: published
+promotionError: ""
+promotion: completed
+eventType: Festival
+updatedAt: 1704913276489
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FJrlDm0yNKdycSWPItts0.png?generation=1704916205272784&alt=media
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1705851892/n58m9t3ugjuoges5vcft.jpg
+viewsCount: 42

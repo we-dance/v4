@@ -1,0 +1,251 @@
+provider: latindancecalendar
+createdAt: 1732293913596
+updatedAt: 1732293913596
+importedAt: 1732293913596
+providerId: latindancecalendar
+providerItemId: https://latindancecalendar.com/festivals/luxembourg-international-kizomba-festival-the-phoenix-edition/
+sourceUrl: https://facebook.com/events/705618588215240
+venue:
+  address_components:
+    - long_name: "10"
+      short_name: "10"
+      types:
+        - street_number
+    - long_name: Circuit de La Foire Internationale
+      short_name: Circuit de La Foire Internationale
+      types:
+        - route
+    - long_name: Kirchberg
+      short_name: Kirchberg
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Luxembourg
+      short_name: Luxembourg
+      types:
+        - locality
+        - political
+    - long_name: Luxembourg
+      short_name: Luxembourg
+      types:
+        - administrative_area_level_1
+        - political
+    - long_name: Luxembourg
+      short_name: LU
+      types:
+        - country
+        - political
+    - long_name: "1347"
+      short_name: "1347"
+      types:
+        - postal_code
+  formatted_address: 10 Circuit de La Foire Internationale, 1347 Kirchberg Luxembourg
+  geometry:
+    location:
+      lat: 49.636
+      lng: 6.17295
+    viewport:
+      northeast:
+        lat: 49.63742373029149
+        lng: 6.174420030291502
+      southwest:
+        lat: 49.6347257697085
+        lng: 6.171722069708498
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  international_phone_number: +352 43 991
+  name: LuxExpo The Box
+  place_id: ChIJR2MoFsJPlUcRmac4gCr-zJc
+  url: https://maps.google.com/?cid=10938397053469370265
+  website: http://www.thebox.lu/
+endDate: 1745816400000
+claimed: No
+link: https://www.kzl.lu/#tickets
+description: >-
+  Kizomba Luxembourg invites you to its Phoenix Edition !  
+
+  11th Edition 🔥🔥
+
+
+  Save the date: 
+
+  📅 April 24-28, 2025
+
+
+  💃🏽VENUE💃🏽
+
+  LuxExpo The Box
+
+  10 Circuit de La Foire Internationale
+
+  1347 Luxembourg
+
+
+
+  ✨PASSES - NOW ON SALE✨
+
+  🎟 https://www.kzl.lu/#tickets
+
+
+
+  🏨HOTELS🏨
+
+  ANNOUNCEMENT COMING SOON
+
+
+  ◈◈◈ ARTISTS LINE UP ◈◈◈
+
+
+  ✨TEACHERS✨
+
+  🐦‍🔥 Albir Rojas
+
+  🐦‍🔥 Jonathan Mahoto & Jenny
+
+  🐦‍🔥 Gwany & Liliana
+
+  🐦‍🔥 Fred Nelson & Morgane
+
+  🐦‍🔥 Saber & Majdouline
+
+  🐦‍🔥 Chamalo & Jalyssa
+
+  🐦‍🔥 Dwé & Gaby 
+
+  🐦‍🔥 Fabricio Do Zangado
+
+  🐦‍🔥 Bonifacio Aurio
+
+  🐦‍🔥 Adilson & Telma
+
+  🐦‍🔥 Tony Viser & Carla
+
+  🐦‍🔥 Iron Mames & Moorea
+
+  🐦‍🔥 Avinash & Reza - Mode Zéro
+
+
+  and more ....
+
+
+  ✨DEEJAYS✨
+
+  🐦‍🔥 Dj Pingusso
+
+  🐦‍🔥 Dj Stefanio Lima
+
+  🐦‍🔥 Dj Nice Life
+
+  🐦‍🔥 Dj Paraiso
+
+  🐦‍🔥 Dj Lucas
+
+  🐦‍🔥 Dj Snakes
+
+  🐦‍🔥 Dj Nao
+
+  🐦‍🔥 Dj Valet
+
+  🐦‍🔥 Dj Proteck
+
+  🐦‍🔥 Dj Frank
+
+  🐦‍🔥 Dj Guelas
+
+  🐦‍🔥 Dj Neiken
+
+  🐦‍🔥 Dj Sink
+
+  🐦‍🔥 Dj Charley Raymdtc
+
+
+
+  and more ....
+
+
+  📸📸 PHOTOGRAPHERS 📸📸
+
+  ANNOUNCEMENT COMING SOON
+
+
+  🎥🎥 VIDEO CAMERAMAN 🎥🎥
+
+  ANNOUNCEMENT COMING SOON
+
+
+  📱📱 SOCIAL MEDIA 📱📱
+
+  ANNOUNCEMENT COMING SOON
+
+
+  ☆★ KZL COMMUNITY (share a room, carpooling / ..) ★☆
+
+  https://www.facebook.com/groups/1529876563906010
+
+
+  ◈◈◈ PARTIES INFORMATIONS ◈◈◈
+
+  CLOAKROOM COMPULSORY : MANDATORY
+
+  >> 2€ / Each
+
+
+  ◈◈◈ Publicity - Advertisement ◈◈◈
+
+  No More Roll Up Will be allowed in Kizomba Luxembourg
+
+  For Innovation all will be on Numerical support
+
+  Want to Advertise for your event Contact us @ : management@kzl.lu --> until April 1RD, 2025
+
+
+
+  #KZL11
+
+  Phoenix Edition
+
+
+  Will you survive the rebirth Edition? 
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1732293943/zhvgktcmgjkohdxxi8ye.jpg
+duration: 60
+artists: []
+price: ""
+place: ChIJRyEhyrlFlUcR75LTAvZg22Q
+international: No
+visibility: Public
+org:
+  createdAt: 1732293941399
+  importedAt: 1732293941399
+  updatedAt: 1732293941399
+  source: facebook
+  name: Kizomba Luxembourg
+  facebook: https://www.facebook.com/kzl.kizombaluxembourg
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1732293941/bs8tp68nhf8ywt2atxug.jpg
+  username: kizomba.luxembourg
+  type: Organiser
+  owned: false
+  owner: ""
+  import: success
+  visibility: Public
+  place: ChIJRyEhyrlFlUcR75LTAvZg22Q
+facebook: https://www.facebook.com/events/705618588215240/
+facebookId: "705618588215240"
+eventType: Festival
+form: No
+watch:
+  usernames: []
+  count: 0
+name: "Official - Luxembourg International Kizomba Festival - KZL - The Phoenix
+  Edition "
+online: No
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+hash: 1745524800000+ChIJR2MoFsJPlUcRmac4gCr-zJc
+startDate: 1745524800000
+id: kMw0odjg85V9yYUJqfpX

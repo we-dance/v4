@@ -1,0 +1,178 @@
+endDate: 1716681600000
+sourceUrl: https://www.facebook.com/events/8036738276338588/
+createdAt: 1715522446587
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1714408093000
+updatedAt: 1715522446587
+importedAt: 1715522446587
+providerUpdatedAt: 1714425763000
+facebookId: "8036738276338588"
+facebook: https://www.facebook.com/events/8036738276338588/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/8036738276338588/
+eventType: Party
+providerItemId: e8036738276338588@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: Bachakiz Caritative
+location: Versus Sport & Loisirs Buhl-Lorraine
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1716656400000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: Z.A. Ariane, 57400 Buhl-Lorraine, France
+  website: http://www.versusbuhl.fr/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Versus Sport & Loisirs Buhl-Lorraine
+  geometry:
+    viewport:
+      southwest:
+        lng: 7.080998219708499
+        lat: 48.7310091697085
+      northeast:
+        lng: 7.083696180291502
+        lat: 48.7337071302915
+    location:
+      lng: 7.082555599999999
+      lat: 48.73234429999999
+  address_components:
+    - types:
+        - route
+      short_name: Z.A. Ariane
+      long_name: Zone d'activité Ariane
+    - types:
+        - locality
+        - political
+      short_name: Buhl-Lorraine
+      long_name: Buhl-Lorraine
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Moselle
+      long_name: Moselle
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Grand Est
+      long_name: Grand Est
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "57400"
+      long_name: "57400"
+  international_phone_number: +33 6 72 64 78 30
+  place_id: ChIJLYgFxW0RlEcROBxqi0O31UY
+  url: https://maps.google.com/?cid=5104187253424004152
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1715522499240
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/nanette.magliano
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1715522499/wlymlru1nmsgwvxehdnz.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1715522499240
+  owned: false
+  name: Nanette Magliano
+  place: ChIJl5ZW-T0RlEcRlE5UIB2DxEs
+  updatedAt: 1715522499240
+  username: nanette.magliano
+claimed: No
+link: ""
+description: >
+  Apprendre une nouvelle danse et/ou se perfectionner, s'amuser, passer une
+  super soirée dans une ambiance chaleureuse et familiale tout en soutenant un
+  projet caritatif, oui c'est possible ! Il suffit de revêtir sa plus énergie et
+  venir nous rejoindre le 25 mai prochain pour une nouvelle édition de "Danser
+  pour la vie"!
+
+  💃🕺🎶🎵🔥🔥💥
+
+
+  L'intégralité des bénéfices servira à financer un puits au Burkina Faso 💖
+
+
+
+  ♦️Programme :
+
+
+  ➡️ 19-20 h : Cours de kizomba niveau intermédiaire
+
+  Ce cours s'adresse uniquement à ceux qui connaissent déjà les pas de bases de cette danse et la pratiquent à minima en soirée.
+
+
+  ➡️ 20h-21h : Cours de kizomba niveau débutant
+
+  Ouvert à tous, ce cours s'adresse plus spécifiquement à ceux qui souhaitent découvrir, s'initier à la kizomba ou revoir les pas de base pour les maitriser. C'est aussi l'occasion pour les danseuses plus confirmées de s'initier au guidage. 
+
+
+  ➡️ 21h-02h00 : Soirée bachata - kizomba mais, comme à l'accoutumée, quelques danses en ligne vous seront proposées. 🤗😊💃🕺🔥🔥
+
+
+  ♦️Tarifs :
+
+
+  🔹️1 ou 2 cours : 10€ 
+
+  🔹️Soirée seule : 10€
+
+  🔹️Cours + soirée : 15€
+
+
+  🚨🚨Les + de la soirée :
+
+
+  🔸️buvette et petite restauration sur place 🍹🍽
+
+  🔸️parking gratuit 🅿️
+
+  🔸️à mi chemin entre Strasbourg et Nancy
+
+  🔸️tombola 🎁
+
+  🔸️photos, vidéos  📸 📽
+
+
+  ⚠️ Pas de CB excepté pour la buvette et la restauration
+
+
+  Réservez cette date et vamos a bailar !! 
+
+  🤗💃🕺⚡🎶🎵🎊🔥🔥
+
+
+  ✴✴✴✴✴✴✴✴✴✴✴✴✴✴✴✴✴✴
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1715522500/biuwdry1lor6spcwubmt.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJl5ZW-T0RlEcRlE5UIB2DxEs
+international: No
+hash: 1716656400000+ChIJLYgFxW0RlEcROBxqi0O31UY
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FZuB4ux8AFA7DSPfhf3KW.png?generation=1715522523357630&alt=media
+id: ZuB4ux8AFA7DSPfhf3KW

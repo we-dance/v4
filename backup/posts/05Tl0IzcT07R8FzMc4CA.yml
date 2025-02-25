@@ -1,0 +1,128 @@
+venue:
+  website: http://www.maillingerstudios.de/
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  name: Maillinger Studios
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5473257802915
+      south: 48.1478957697085
+      north: 48.1505937302915
+      west: 11.5446278197085
+    location:
+      lng: 11.5458639
+      lat: 48.1492179
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  place_id: ChIJc2-q5aJ3nkcRNdDDt759ZMA
+  international_phone_number: +49 89 36108944
+  url: https://maps.google.com/?cid=13863343811033550901
+endDate: 2022-12-19T21:30
+claimed: No
+link: https://www.annamilite.com/booking-form?referral=booking_calendar_widget&location=52c786e1-7d62-4b8f-a0c4-412d95a3bac1
+program: []
+type: event
+duration: 60
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F7f9ab723-5fbc-4052-b013-62877fcd24d0?alt=media&token=68be7117-b2d9-45c8-891b-7224d1903b29
+promo: Yes
+createdAt: 1671356464213
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: https://facebook.com/annamilite88
+    name: Anna
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+    bio: 🎼 Music - Lover & Passionate - Dancer 💃
+    id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+    instagram: https://instagram.com/milite_anna
+    username: AnnaMil
+price: 10 EUR
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+artistsList:
+  - AnnaMil
+international: No
+updatedAt: 1671356464213
+updatedBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/annamilite88
+  name: Anna
+  bio: 🎼 Music - Lover & Passionate - Dancer 💃
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2F8yp79cUd0jZtnVn34NxhBuMpxrx1%2F73281681-98ab-4760-a079-f86a5419664e?alt=media&token=44127e9d-11d7-42fd-bcdb-ed39fc4c0652
+  instagram: https://instagram.com/milite_anna
+  id: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+  username: AnnaMil
+eventType: Course
+form: No
+createdBy: 8yp79cUd0jZtnVn34NxhBuMpxrx1
+watch:
+  count: 1
+  list:
+    AnnaMil: true
+name: "Bachata LadyStyling Choreo "
+online: No
+styles:
+  BachataModerna:
+    level: Interested
+    highlighted: false
+    selected: true
+  SensualBachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 2022-12-19T20:30
+username: AnnaMil
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2F05Tl0IzcT07R8FzMc4CA.png?generation=1671365481028461&alt=media
+telegram:
+  requestedAt: 1671365501027
+  messageUrl: https://t.me/WeDanceMunich/749
+  publishedAt: 1671365505128
+  messageId: 749
+  state: published
+viewsCount: 85
+id: 05Tl0IzcT07R8FzMc4CA

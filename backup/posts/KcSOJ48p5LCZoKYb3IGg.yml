@@ -1,0 +1,157 @@
+updatedBy: kGDD595byJY19rMbUCDsmFtvPDq2
+visibility: Public
+org:
+  role: organiser
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkGDD595byJY19rMbUCDsmFtvPDq2%2F95123d7e-4b42-4f8b-a98c-99704e0177a2?alt=media&token=7a76e647-f409-4c29-b198-7f4a75f4f87c
+  name: Salser@s y Companer@s
+  username: Salseros_y_Companeros
+claimed: No
+eventType: Festival
+type: event
+createdAt: 1648922894807
+form: No
+watch:
+  count: 1
+  list:
+    Salseros_y_Companeros: true
+createdBy: kGDD595byJY19rMbUCDsmFtvPDq2
+name: "Munich meets Barcelona "
+online: No
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+username: Salseros_y_Companeros
+updatedAt: 1648922894807
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FkGDD595byJY19rMbUCDsmFtvPDq2%2F9fb8ccb5-a4d2-48bb-a8ea-82fda1b17e36?alt=media&token=a1b087a6-7c61-4180-a4cc-89649eef271f
+id: KcSOJ48p5LCZoKYb3IGg
+duration: custom
+venue:
+  formatted_address: Biberger Str. 91, 82008 Unterhaching, Germany
+  website: http://www.tanzhausemotion.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  html_attributions: []
+  address_components:
+    - types:
+        - street_number
+      long_name: "91"
+      short_name: "91"
+    - types:
+        - route
+      long_name: Biberger Straße
+      short_name: Biberger Str.
+    - types:
+        - locality
+        - political
+      long_name: Unterhaching
+      short_name: Unterhaching
+    - types:
+        - administrative_area_level_3
+        - political
+      long_name: München
+      short_name: München
+    - types:
+        - administrative_area_level_2
+        - political
+      long_name: Oberbayern
+      short_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      long_name: Bayern
+      short_name: BY
+    - types:
+        - country
+        - political
+      long_name: Germany
+      short_name: DE
+    - types:
+        - postal_code
+      long_name: "82008"
+      short_name: "82008"
+  url: https://maps.google.com/?cid=9015721869128002009
+  name: Tanzschule München Tanzhaus emotion ADTV
+  geometry:
+    viewport:
+      south: 48.0719041197085
+      north: 48.0746020802915
+      east: 11.6214237802915
+      west: 11.6187258197085
+    location:
+      lng: 11.6200113
+      lat: 48.0733528
+  international_phone_number: +49 89 74329895
+  place_id: ChIJHS2vnMnYnUcR2WkYy0VHHn0
+artists:
+  - youtube: ""
+    facebook: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F14ebcf94-38d6-4960-a91e-dbcb13fa3482?alt=media&token=47a8f4e6-3ac1-48f5-b642-4066cffcfef3
+    bio: ""
+    instagram: davidygemmaoficial
+    tiktok: ""
+    name: David y Gemma
+    id: fiYGrmercl38NkwnAVRW
+    username: davidygemmaoficial
+startDate: 2022-05-14T14:00
+confirmation: |-
+  Danke für Interesse!
+
+  Schreibt uns eine Buchungsmail an: salseros.companeros@gmail.com
+
+  Oder Kauf direkt im Tanzhaus Emotion.
+
+  Der Full Pass inclusive Partyeintritt kostet jetzt noch € 85,-
+
+  Nur Party inklusive Workshop Rueda de Casino € 10,-
+
+  Wir freuen uns auf ein unvergessliches Wochenende mit Euch.
+endDate: 2022-05-15T15:30
+price: 85 EUR
+styles: {}
+description: |-
+  Salsa & Bachata aus Barcelona in München!
+
+  Programm:
+
+
+  ## Sa. 14.05.2022
+
+  ### WORKSHOPS
+   
+  - 14:00 - 15:15 Salsa Fusion
+  - 15:30 - 16:45 Bachata Fusion
+   
+  ### PARTY
+  - 20:00 - 21:00 Workshop Rueda de Casino
+  - 21:00 - 01:00 Social Dance
+   
+  - **Area 1:** Salsa all Styles, Bachata 
+  Rueda de Casino, Rueda de Bachata & Animation
+  Music by DJ Curly & Elena 
+   
+  - **Area 2:** Kizomba, Semba, Urban Kizomba, Tarraxa, Zouk
+  Music by DJ MixMillion & DJ Fajul
+   
+   
+  ## So. 15.05.2022
+
+  ### WORKSHOPS
+
+  - 13:00 - 14:00 Latin Fusion
+  - 14:15 - 15:30 Partner Work & Musicality
+   
+  **Verpasst diese einmalige Chance nicht!!!!!**
+
+  Schreibt uns eine Buchungsmail an: salseros.companeros@gmail.com
+
+  Oder Kauf direkt im Tanzhaus Emotion.
+
+  - Der Full Pass inclusive Partyeintritt kostet jetzt noch € 85,-
+
+  - Nur Party inklusive Workshop Rueda de Casino € 10,-
+
+  Wir freuen uns auf ein unvergessliches Wochenende mit Euch. 
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FKcSOJ48p5LCZoKYb3IGg.png?generation=1649161071859578&alt=media
+star:
+  count: 1
+  list:
+    Lugusa: true
+viewsCount: 77

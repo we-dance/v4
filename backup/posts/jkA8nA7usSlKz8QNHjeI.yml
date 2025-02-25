@@ -1,0 +1,176 @@
+venue:
+  website: https://www.praguecc.cz/
+  formatted_address: 5. května 1640/65, 140 21 Praha 4-Nusle, Czechia
+  name: Prague Congress Centre
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 14.4307662302915
+      south: 50.0608935197085
+      north: 50.06359148029149
+      west: 14.4280682697085
+    location:
+      lng: 14.4290206
+      lat: 50.0625764
+  address_components:
+    - types:
+        - street_number
+      short_name: 1640/65
+      long_name: 1640/65
+    - types:
+        - route
+      short_name: 5. května
+      long_name: 5. května
+    - types:
+        - neighborhood
+        - political
+      short_name: Nusle
+      long_name: Nusle
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Praha 4
+      long_name: Praha 4
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: Hlavní město Praha
+      long_name: Hlavní město Praha
+    - types:
+        - country
+        - political
+      short_name: CZ
+      long_name: Czechia
+    - types:
+        - postal_code
+      short_name: 140 21
+      long_name: 140 21
+  url: https://maps.google.com/?cid=5559277398893748727
+  international_phone_number: +420 261 171 111
+  place_id: ChIJeeuGwWSUC0cR92HrCFeFJk0
+endDate: 2022-09-10T22:00
+claimed: No
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2F4b4e19ee-ec36-4a57-a70c-4a0ee62c1b52?alt=media&token=34c32674-4ca9-4181-9547-738cfd8beaf4
+duration: 60
+promo: Yes
+createdAt: 1659551837966
+artists:
+  - youtube: ""
+    role: dj
+    tiktok: ""
+    facebook: https://facebook.com/DjLolePrague
+    name: Dj Lole
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+    id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+    instagram: https://instagram.com/dj.lole
+    username: DjLole
+  - youtube: ""
+    role: organiser
+    tiktok: ""
+    facebook: https://facebook.com/ruelto.cz
+    name: ruelto.cz
+    photo: ""
+    bio: ""
+    instagram: ""
+    id: ntgMhNTtUEqBntD5xXxj
+    username: ruelto.cz
+price: 0 CZK
+place: ChIJi3lwCZyTC0cRkEAWZg-vAAQ
+artistsList:
+  - DjLole
+  - ruelto.cz
+international: No
+updatedAt: 1659551837966
+updatedBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://facebook.com/DjLolePrague
+  name: Dj Lole
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FGEYBE2nFRAPu2y7Ie7dKF2bZPKk1%2Ff8e176a8-6658-47a9-89ea-63bb73d424b0?alt=media&token=b70317f2-d4d7-49f4-913b-70d24392d56e
+  bio: ""
+  instagram: https://instagram.com/dj.lole
+  id: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+  username: DjLole
+upVotes: 0
+telegram: {}
+eventType: Party
+form: No
+watch:
+  count: 0
+  list: {}
+createdBy: GEYBE2nFRAPu2y7Ie7dKF2bZPKk1
+commentsCount: 0
+name: Salsa a bachata party
+online: No
+styles:
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2022-09-10T18:00
+username: DjLole
+facebook: https://www.facebook.com/events/962131047754689/962131087754685/
+link: https://www.facebook.com/events/962131047754689/962131087754685/
+description: >-
+  Salsa / bachata party
+
+  Studio Ruelto in collaboration with DJ Lole has prepared regular outdoor dance parties in Vyšehrad (in August) and in Grotta from September..
+
+
+
+
+  Every Saturday from 18:00 - 22:00 come and enjoy a great atmosphere to the rhythm of salsa and bachata.
+
+
+  Voluntary entrance fee to cover the cost of transporting the equipment and to reward the DJ.
+
+
+
+
+  https://www.facebook.com/events/962131047754689/962131087754685/
+
+
+
+
+  ------------------------------------------------
+
+
+
+  [CZ]
+
+
+
+
+  Studio Ruelto ve spolupráci s DJ Lole vám připravilo pravidelné venkovní tančírny u metro stanici Vyšehradé (ve srpnu) a pak od září v Grottě.
+
+
+
+
+  Každou sobotu od 18:00 - 22:00 si přijďte užít super atmosféru v rytmu salsy a bachaty.
+
+
+  Dobrovolné vstupné na pokrytí nákladů na dopravu techniky a na odměnu pro DJ.
+
+
+
+  https://www.facebook.com/events/962131047754689/962131087754685/
+id: jkA8nA7usSlKz8QNHjeI
+socialCover: https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fevents%2FjkA8nA7usSlKz8QNHjeI.png?generation=1662673060446635&alt=media
+viewsCount: 1

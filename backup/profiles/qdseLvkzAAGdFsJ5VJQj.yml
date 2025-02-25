@@ -1,0 +1,24 @@
+createdAt: 1677104653900
+cityPlaceId: ChIJsdQIqd2adkcRPfcqQaGD4cE
+updatedBy: fWlxh66YbRYzJPsXuMMVPBzyqFH2
+createdBy: fWlxh66YbRYzJPsXuMMVPBzyqFH2
+name: Salzburg, Austria
+location:
+  country: Austria
+  latitude: 47.80949
+  locality: Salzburg
+  region: Salzburg
+  place_id: ChIJsdQIqd2adkcRPfcqQaGD4cE
+  longitude: 13.05501
+place: ChIJsdQIqd2adkcRPfcqQaGD4cE
+type: City
+username: austria-salzburg
+updatedAt: 1677104653900
+watch:
+  count: 1
+  list:
+    Balage: true
+  usernames:
+    - Balage
+viewsCount: 211
+id: qdseLvkzAAGdFsJ5VJQj

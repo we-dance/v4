@@ -1,0 +1,124 @@
+venue:
+  website: https://www.pinakothek-der-moderne.de/
+  formatted_address: Barer Str. 40, 80333 München, Germany
+  name: Pinakothek der Moderne
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5730605802915
+      south: 48.1457500697085
+      north: 48.1484480302915
+      west: 11.5703626197085
+    location:
+      lng: 11.5723021
+      lat: 48.1471559
+  address_components:
+    - types:
+        - street_number
+      short_name: "40"
+      long_name: "40"
+    - types:
+        - route
+      short_name: Barer Str.
+      long_name: Barer Straße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80333"
+      long_name: "80333"
+  map: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F54d1467f-62f9-4002-a37d-7e6e37ed0420?alt=media&token=676da4ef-b6c3-4a92-8de0-42370c700d71
+  place_id: ChIJW8LuYO51nkcRZqoW2f9yn8c
+  url: https://maps.google.com/?cid=14384342178029021798
+  international_phone_number: +49 89 23805360
+  room: Area 4
+claimed: No
+type: event
+downVotes: 0
+cover: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F597fe322-cccf-44a7-869e-bfd7ffab0518?alt=media&token=9c15a50f-f5c1-44c5-85da-86776efefc5a
+duration: 60
+promo: Yes
+createdAt: 1659616528210
+artists:
+  - youtube: ""
+    tiktok: ""
+    facebook: ""
+    name: Auro
+    bio: ""
+    photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FQKOcbWwR47UEC121QoTO0Kmlvxr1%2F4d2cc5a4-f870-49e2-b48b-cdd49d466099?alt=media&token=41392db2-1a3d-44f7-a54e-041c890700a9
+    id: QKOcbWwR47UEC121QoTO0Kmlvxr1
+    instagram: https://instagram.com/auro_amistad
+    username: Auro
+price: "10"
+socialCover: ""
+artistsList:
+  - Auro
+place: ChIJ2V-Mo_l1nkcRfZixfUq4DAE
+international: No
+updatedAt: 1659616528210
+updatedBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+visibility: Public
+org:
+  youtube: ""
+  tiktok: ""
+  facebook: https://www.facebook.com/munichrueda
+  name: Rueda con Auro
+  bio: Dance Group. Salsa Cubana. Rueda De Casino
+  photo: https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2F5366d267-233b-468d-9466-e16d022f753e?alt=media&token=866eeaf5-f4f7-4133-bce2-1b06e92b39d0
+  instagram: https://instagram.com/munich_rueda
+  id: sgSzF07WcbB5zWlsXz4o
+  username: munich_rueda
+viewsCount: 0
+telegram: {}
+upVotes: 0
+eventType: Workshop
+form: No
+createdBy: QKOcbWwR47UEC121QoTO0Kmlvxr1
+watch:
+  count: 0
+  list: {}
+commentsCount: 0
+name: Improver Rueda de Casino Workshop
+online: No
+styles:
+  RuedaDeCasino:
+    level: Interested
+    highlighted: false
+    selected: true
+votes: 0
+startDate: 2022-09-04T16:00
+username: Auro
+endDate: 2022-09-04T17:00
+facebook: "https://fb.me/e/3uYu2nG3s "
+link: https://chat.whatsapp.com/ITfaaPTc47c9zm4WH1iTqs
+id: lw7I2orF55X1XABtJ3nE

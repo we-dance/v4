@@ -1,0 +1,152 @@
+endDate: 1728775800000
+sourceUrl: https://www.facebook.com/events/419773300680124/
+createdAt: 1728417884274
+approved: true
+provider: ical
+providerId: HPgtw1m6tsAAqe9CqWoi
+providerCreatedAt: 1726171774000
+updatedAt: 1728417884274
+importedAt: 1728417884274
+providerUpdatedAt: 1726242721000
+facebookId: "419773300680124"
+facebook: https://www.facebook.com/events/419773300680124/
+isNew: true
+facebookUrlsList:
+  - https://www.facebook.com/events/419773300680124/
+eventType: Party
+providerItemId: e419773300680124@facebook.com
+createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
+name: VIENS COMME TU KIZ
+location: INFINI DANSE
+styles:
+  Kizomba:
+    level: Interested
+    highlighted: false
+    selected: true
+  Salsa:
+    level: Interested
+    highlighted: false
+    selected: true
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+startDate: 1728759600000
+facebookUrlsCount: 1
+username: Aina
+venue:
+  formatted_address: 6 Av. Jean d'Alembert, 78190 Trappes, France
+  website: http://www.infinidanse.com/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Infinite Danse
+  geometry:
+    viewport:
+      southwest:
+        lng: 1.980339369708499
+        lat: 48.7914742197085
+      northeast:
+        lng: 1.983037330291502
+        lat: 48.7941721802915
+    location:
+      lng: 1.9818646
+      lat: 48.79273980000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Av. Jean d'Alembert
+      long_name: Avenue Jean d'Alembert
+    - types:
+        - locality
+        - political
+      short_name: Trappes
+      long_name: Trappes
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Yvelines
+      long_name: Yvelines
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: IDF
+      long_name: Île-de-France
+    - types:
+        - country
+        - political
+      short_name: FR
+      long_name: France
+    - types:
+        - postal_code
+      short_name: "78190"
+      long_name: "78190"
+  international_phone_number: +33 6 64 95 48 55
+  place_id: ChIJFRtFU22E5kcRy1GXt9vas2c
+  url: https://maps.google.com/?cid=7472556843950625227
+visibility: Public
+org:
+  owner: ""
+  importedAt: 1728418007584
+  import: success
+  visibility: Public
+  facebook: https://www.facebook.com/michmich.gehy
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728418007/g1oon5pyvddubudmbdb5.jpg
+  source: facebook
+  type: Organiser
+  createdAt: 1728418007584
+  owned: false
+  name: Michel Gehy
+  place: ChIJlS0oYfuD5kcRkDaMaMOCCwQ
+  updatedAt: 1728418007584
+  username: michmich.gehy
+claimed: No
+link: ""
+description: |-
+  💢💢VIENS COMME TU KIZ💢💢
+                        
+         💥Samedi 12 octobre💥 
+
+  🌟21h: ouverture des portes. 
+
+  🌟21h15: 
+  💢Cours évolutif : Michel et Chistelle 
+
+  🌟22h15 1h30:
+  💢Salle 1: soirée kizomba
+  💢Salle 2: soirée Salsa-Bachata 
+
+       💢💢Soft et friandises.💢💢 
+  N'oubliez pas votre verre. (possibilité d'en acheter 1 pour 1€) 
+
+          🔥🔥Tout ça pour!!!!!🔥🔥 
+
+     💢💢10 euros adhérents.💢💢
+     💢💢12 euros extérieurs. 💢💢 
+
+  Ca se passe chez Maria pour les intimes : 
+
+  🌟Ecole de danse Infini Danse🌟
+            6 avenue d'Alembert 
+            78190 Trappes. 
+
+  💢Reservation sur maria@infini-danse.fr
+  💢Le jour de l'événement :  0664954855
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1728418008/n8kwlognisorpcupkiqd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  count: 0
+  usernames: []
+price: ""
+online: No
+place: ChIJlS0oYfuD5kcRkDaMaMOCCwQ
+international: No
+hash: 1728759600000+ChIJFRtFU22E5kcRy1GXt9vas2c
+id: xzhpDZmSddsP7800n9SD

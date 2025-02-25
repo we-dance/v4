@@ -1,0 +1,73 @@
+createdAt: 1712044698364
+website: http://www.vintagedancestudio.de/
+rooms: ""
+address:
+  formatted_address: Maillingerstraße 6, 80636 München, Germany
+  website: http://www.vintagedancestudio.de/
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  name: Vintage Dance Studio
+  html_attributions: []
+  geometry:
+    viewport:
+      east: 11.5472863302915
+      south: 48.1478471697085
+      north: 48.1505451302915
+      west: 11.5445883697085
+    location:
+      lng: 11.5458601
+      lat: 48.14923390000001
+  address_components:
+    - types:
+        - street_number
+      short_name: "6"
+      long_name: "6"
+    - types:
+        - route
+      short_name: Maillingerstraße
+      long_name: Maillingerstraße
+    - types:
+        - sublocality_level_1
+        - sublocality
+        - political
+      short_name: Maxvorstadt
+      long_name: Maxvorstadt
+    - types:
+        - locality
+        - political
+      short_name: München
+      long_name: München
+    - types:
+        - administrative_area_level_3
+        - political
+      short_name: Kreisfreie Stadt München
+      long_name: Kreisfreie Stadt München
+    - types:
+        - administrative_area_level_2
+        - political
+      short_name: Oberbayern
+      long_name: Oberbayern
+    - types:
+        - administrative_area_level_1
+        - political
+      short_name: BY
+      long_name: Bayern
+    - types:
+        - country
+        - political
+      short_name: DE
+      long_name: Germany
+    - types:
+        - postal_code
+      short_name: "80636"
+      long_name: "80636"
+  international_phone_number: +49 89 36108944
+  place_id: ChIJhfQ9PA92nkcRE3xkBkjooFg
+  url: https://maps.google.com/?cid=6386359667653901331
+gender: Other
+phone: +49 89 36108944
+name: Vintage Dance Studio
+updateAt: 1712044698364
+type: Venue
+map: ""
+username: www.vintagedancestudio.de
+id: WICl6Y1XeUN2G1Dyockq

@@ -1,0 +1,166 @@
+isNew: true
+facebookId: "924606562880494"
+facebookUrlsList:
+  - https://www.facebook.com/events/922959726378511/924606562880494/
+facebookUrlsCount: 1
+provider: ical
+createdAt: 1729173641535
+updatedAt: 1729173641535
+importedAt: 1729173641535
+providerId: bRcsoyuUx4BJ2eeuAv7L
+providerItemId: 48554-1729814400-1729900799@latinfo.hu
+providerCreatedAt: 1729151663000
+providerUpdatedAt: 1729151869000
+startDate: 1729814400000
+endDate: 1729900799000
+sourceUrl: https://www.facebook.com/events/922959726378511/924606562880494/
+location: Broadway Dance Center Táncstúdió, Kerepesi út 26., Budapest, 1146, Magyarország
+styles:
+  Bachata:
+    level: Interested
+    highlighted: false
+    selected: true
+eventType: Party
+approved: true
+username: alexrazbakov
+createdBy: tvR012ArEpQhCJdPHh6G7sLuqoO2
+venue:
+  address_components:
+    - long_name: I. emelet
+      short_name: I. emelet
+      types:
+        - subpremise
+    - long_name: "26"
+      short_name: "26"
+      types:
+        - street_number
+    - long_name: Kerepesi út
+      short_name: Kerepesi út
+      types:
+        - route
+    - long_name: XIV. kerület
+      short_name: XIV. kerület
+      types:
+        - sublocality_level_1
+        - sublocality
+        - political
+    - long_name: Budapest
+      short_name: Budapest
+      types:
+        - locality
+        - political
+    - long_name: Hungary
+      short_name: HU
+      types:
+        - country
+        - political
+    - long_name: "1146"
+      short_name: "1146"
+      types:
+        - postal_code
+  formatted_address: Budapest, Kerepesi út 26-I. emelet, 1146 Hungary
+  geometry:
+    location:
+      lat: 47.50054060000001
+      lng: 19.1089688
+    viewport:
+      northeast:
+        lat: 47.50176363029151
+        lng: 19.1103605302915
+      southwest:
+        lat: 47.49906566970851
+        lng: 19.1076625697085
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png
+  international_phone_number: +36 20 571 9050
+  name: Broadway Dance Center Táncstúdió Budapest
+  place_id: ChIJG0XgPpjcQUcRpVRbrJDeZvw
+  url: https://maps.google.com/?cid=18187468858130650277
+visibility: Public
+org:
+  id: o1n5c17gYccwm4j52PYD
+  username: international.nights
+  name: International Nights
+  photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728568852/ardgwt16xfacj1h2wmqt.jpg
+  bio: ""
+  instagram: ""
+  facebook: https://www.facebook.com/InternationalNightsUa
+  tiktok: ""
+  youtube: ""
+claimed: No
+facebook: https://www.facebook.com/events/922959726378511/?event_time_id=924606562880494
+link: ""
+description: >-
+  English version below ⬇️ 
+
+
+  🔥 Üdv a Fuego Partyn! 🔥
+
+
+  Készülj fel egy éjszakára, szuper hangulattal, profi táncosokkal és fergeteges zenékkel! 🎶✨ Íme, amire számíthatsz:
+
+
+  💃 Top táncosok és oktatók, akik a legjobb tánc élményt szolgáltatják
+
+  🎧 Csak a legjobb zenék egész este
+
+  🌀 Tényleg működő légkondi – ígérjük, jó idő lesz! 😉
+
+  🍹 Italok megfizethető áron széles kínálatban a helyszínen 
+
+  🎊 Szórakoztató animációk és folyamatos jó hangulat!
+
+
+  Belépő a helyszínen: 3000 HUF
+
+  2500 HUF If you Post this event in your Feed or make an instagram story with the picture in the link below ⬇️
+
+
+  https://drive.google.com/file/d/1_e4HrEnlwL7mmza_JyD-pcOYQWqp3Ko0/view?usp=sharing
+
+
+  ——————————————
+
+
+  🔥 Welcome to the Fuego Party! 🔥
+
+
+  Get ready for a night full of amazing vibes, top dancers, and incredible music! 🎶✨ Here’s what you can expect:
+
+
+  💃 Top dancers and teachers bringing their A-game
+
+  🎧 Only the best music to keep you dancing all night long
+
+  🌀 Proper air conditioning—we promise you won’t be sweating too much! 😉
+
+  🍹 Affordable drinks to keep you refreshed
+
+  🎊 Fun animations and non-stop great energy!
+
+
+  At the door: 3000 HUF 
+
+  2500 HUF If you Post this event in your Feed or make an instagram story with the picture in the link below ⬇️
+
+
+  https://drive.google.com/file/d/1_e4HrEnlwL7mmza_JyD-pcOYQWqp3Ko0/view?usp=sharing
+
+
+  Don’t miss out on the ultimate dance night! See you on the dance floor 💥🔥
+program: []
+source: facebook
+type: event
+cover: https://res.cloudinary.com/djumxevsm/image/upload/v1729173657/lhwdqzbq53woqpyz01yd.jpg
+duration: 60
+form: No
+artists: []
+watch:
+  usernames: []
+  count: 0
+price: ""
+name: Fuego! Bachata Party / Budapest
+online: No
+place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
+international: No
+hash: 1729882800000+ChIJG0XgPpjcQUcRpVRbrJDeZvw
+id: qcMsuS6qYQKZ5RKNUWIJ
