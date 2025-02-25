@@ -37,11 +37,9 @@ git clone git@github.com:wedance/v4.git
 cd v4
 ```
 
-2. Setup
+2. Build
 
 ```bash
-nvm use
-pnpm install
 make build
 ```
 
@@ -55,7 +53,7 @@ pnpm dev
 
 - Error 500: Invalid `prisma.$queryRaw()` invocation: Raw query failed. Code: `42883`. Message: `ERROR: function ll_to_earth(numeric, numeric) does not exist HINT: No function matches the given name and argument types. You might need to add explicit type casts.`
    - install db extensions, repeat setup
-- `bun cli import` - Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+- `pnpm cli import` - Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
    - uncomment `tsconfig.json`
 
 ## 📁 AI-First Development
