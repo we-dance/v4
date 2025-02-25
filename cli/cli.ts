@@ -1,6 +1,6 @@
 import { Command } from "commander";
 import {
-  importAccounts,
+  // importAccounts,
   importEvents,
   importProfiles,
   importCities,
@@ -98,7 +98,8 @@ program
     }
 
     if (all || accounts) {
-      await importAccounts(multibar);
+      // todo: later
+      // await importAccounts(multibar);
     }
 
     if (all || cities) {
