@@ -33,15 +33,16 @@ WeDance is a participatory network that empowers dance communities by providing 
 1. Clone the repository
 
 ```bash
-git clone git@github.com:razbakov/wedance.git
-cd wedance
+git clone git@github.com:wedance/v4.git
+cd v4
 ```
 
-2. Install dependencies
+2. Setup
 
 ```bash
 nvm use
 pnpm install
+make build
 ```
 
 3. Run development server
@@ -50,11 +51,12 @@ pnpm install
 pnpm dev
 ```
 
-4. Build for production
+## Troubleshooting
 
-```bash
-pnpm build
-```
+- Error 500: Invalid `prisma.$queryRaw()` invocation: Raw query failed. Code: `42883`. Message: `ERROR: function ll_to_earth(numeric, numeric) does not exist HINT: No function matches the given name and argument types. You might need to add explicit type casts.`
+   - install db extensions, repeat setup
+- `bun cli import` - Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+   - uncomment `tsconfig.json`
 
 ## 📁 AI-First Development
 
