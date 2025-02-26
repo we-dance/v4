@@ -11,14 +11,11 @@ WeDance is a participatory network that empowers dance communities by providing 
 
 ## 🌟 Tech Stack
 
-- **Frontend Framework**: Nuxt 3
+- **Frontend**: Nuxt 3
+- **Backend**: Nodejs + Prisma + tRPC
 - **UI Components**: Vue Shadcn
 - **Styling**: TailwindCSS
 - **Form Handling**: VeeValidate + Zod
-- **State Management**: Pinia
-- **Content Management**: Nuxt Content
-- **Icons**: Nuxt Icon
-- **Fonts**: Google Fonts (Noto Sans)
 
 ## 📦 Prerequisites
 
@@ -33,28 +30,37 @@ WeDance is a participatory network that empowers dance communities by providing 
 1. Clone the repository
 
 ```bash
-git clone git@github.com:razbakov/wedance.git
-cd wedance
+git clone git@github.com:wedance/v4.git
+cd v4
 ```
 
-2. Install dependencies
+2. Configure
+
+Copy env file and provide configuration:
+
+```
+cp .env.example .env
+cp cli/.env.example cli/.env
+```
+
+3. Build
 
 ```bash
-nvm use
-pnpm install
+make build
 ```
 
-3. Run development server
+4. Run development server
 
 ```bash
 pnpm dev
 ```
 
-4. Build for production
+## Troubleshooting
 
-```bash
-pnpm build
-```
+- Error 500: Invalid `prisma.$queryRaw()` invocation: Raw query failed. Code: `42883`. Message: `ERROR: function ll_to_earth(numeric, numeric) does not exist HINT: No function matches the given name and argument types. You might need to add explicit type casts.`
+   - install db extensions, repeat setup
+- `pnpm cli import` - Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+   - uncomment `tsconfig.json`
 
 ## 📁 AI-First Development
 
