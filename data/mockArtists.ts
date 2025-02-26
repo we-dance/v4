@@ -542,6 +542,36 @@ const mockArtistsData: Artist[] = [
       youtube: 'yarimaRodriguez',
     },
   },
+  {
+    id: 18,
+    name: 'DJ Javier Garcia',
+    roles: ['dj', 'instructor'],
+    specialties: ['casino', 'salsa cubana', 'bachata', 'merengue'],
+    level: 'advanced',
+    location: 'Germany',
+    image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj_javier.garcia.78.png?generation=1668533863480811&alt=media',
+    followers: '0',
+    rating: 5.0,
+    reviewCount: 1,
+    languages: ['Spanish', 'German', 'English'],
+    experience: {
+      years: 10,
+      teachingLevels: ['beginner', 'intermediate', 'advanced'],
+      achievements: [
+        'Resident DJ at Buena Vista Bar Munich',
+        'Cuban Salsa Specialist'
+      ],
+    },
+    availability: {
+      privateClasses: true,
+      workshops: true,
+      touring: false,
+      currentLocation: 'Munich, Germany',
+    },
+    socialMedia: {
+      instagram: '@dj_javier.garcia.78'
+    },
+  },
 ]
 export const mockArtists = mockArtistsData
 
