@@ -2,9 +2,12 @@
 import type { AnyEvent } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
 
-defineProps<{
+const props = defineProps<{
   event: AnyEvent
+  showBookmark?: boolean
 }>()
+
+const emit = defineEmits(['share', 'bookmark', 'book'])
 
 const getPrice = (event: AnyEvent) => {
   if (!event.prices?.length) return ''
@@ -55,8 +58,20 @@ const getPrice = (event: AnyEvent) => {
               >
             </div>
             <div class="flex items-center gap-2 text-sm text-muted-foreground">
-              <Icon name="ph:ticket" class="w-4 h-4 flex-shrink-0" />
-              <span class="truncate">{{ getPrice(event) }}</span>
+              <div class="flex items-center gap-2">
+                <Icon name="ph:ticket" class="w-4 h-4 flex-shrink-0" />
+                <span class="truncate">{{ getPrice(event) }}</span>
+              </div>
+              <button
+                v-if="showBookmark"
+                class="flex items-center"
+                @click.stop.prevent="emit('bookmark')"
+              >
+                <Icon
+                  name="ph:bookmark-simple"
+                  class="w-5 h-5 text-muted-foreground"
+                />
+              </button>
             </div>
           </div>
         </div>

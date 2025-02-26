@@ -309,8 +309,9 @@ const handleBook = (event: AnyEvent) => {
       v-for="event in sortedEvents"
       :key="event.id"
       :event="event"
+      :showBookmark="true"
       @share="handleShare"
-      @bookmark="handleBookmark"
+      @bookmark="handleBookmark(event)"
       @book="handleBook"
     />
 
