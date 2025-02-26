@@ -242,7 +242,7 @@ const eventArtists = computed(() => {
 
                 <!-- Action Buttons -->
                 <div class="flex justify-center md:justify-start gap-4 mb-8">
-                  <Button variant="secondary" size="lg" @click="handleBook">
+                  <Button variant="primary" size="lg" @click="handleBook">
                     Book Now
                   </Button>
                 </div>
