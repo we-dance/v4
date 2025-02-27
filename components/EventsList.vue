@@ -196,8 +196,13 @@ const handleShare = (event: AnyEvent) => {
   console.log('Share event:', event.name)
 }
 
-const handleBookmark = (event: AnyEvent) => {
-  console.log('Bookmark event:', event.name)
+const bookmarkedEvents = ref<Record<number, boolean>>({})
+
+// Handle bookmark toggle
+const handleBookmark = (eventId: number) => {
+  bookmarkedEvents.value[eventId] = !bookmarkedEvents.value[eventId]
+
+  console.log('Bookmark the event ')
 }
 
 const handleBook = (event: AnyEvent) => {
@@ -309,9 +314,10 @@ const handleBook = (event: AnyEvent) => {
       v-for="event in sortedEvents"
       :key="event.id"
       :event="event"
+      :isBookmarked="bookmarkedEvents[event.id] || false"
       :showBookmark="true"
       @share="handleShare"
-      @bookmark="handleBookmark(event)"
+      @bookmark="handleBookmark"
       @book="handleBook"
     />
 

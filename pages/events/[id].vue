@@ -108,6 +108,7 @@ const availability = computed(() => {
 // Going state
 const isGoing = ref(false)
 const isBookmarked = ref(false)
+const isRelatedBookmarked = ref<Record<number, boolean>>({})
 
 // Actionsfe
 const handleShare = () => {
@@ -115,10 +116,13 @@ const handleShare = () => {
   console.log('Share event:', event.value.name)
 }
 
-const handleBookmark = () => {
-  if (!event.value) return
-  console.log('Bookmark event:', event.value.name)
+const handleBookmark = (event: AnyEvent) => {
   isBookmarked.value = !isBookmarked.value
+  console.log('Bookmark event:', event.name)
+}
+
+const handleRelatedBookmark = (eventId: number) => {
+  isRelatedBookmarked.value[eventId] = !isRelatedBookmarked.value[eventId]
 }
 
 const handleGoing = () => {
@@ -435,9 +439,10 @@ const eventArtists = computed(() => {
               <EventCard
                 :showBookmark="true"
                 v-for="relatedEvent in relatedEvents"
+                :isBookmarked="isRelatedBookmarked[relatedEvent.id]"
                 :key="relatedEvent.id"
                 :event="relatedEvent"
-                @bookmark="handleBookmark"
+                @bookmark="handleRelatedBookmark"
               />
             </div>
           </div>

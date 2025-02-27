@@ -5,15 +5,19 @@ import { formatDate } from '~/utils/format'
 const props = defineProps<{
   event: AnyEvent
   showBookmark?: boolean
+  isBookmarked: boolean
 }>()
 
-const isBookmarked = ref(false)
-
 const emit = defineEmits(['share', 'bookmark', 'book'])
+const isEventBookmarked = computed({
+  get: () => props.isBookmarked,
+  set: (newValue) => {
+    emit('bookmark', newValue)
+  },
+})
 
 const toggleBookmark = () => {
-  isBookmarked.value = !isBookmarked.value
-  emit('bookmark', props.event)
+  emit('bookmark', props.event.id)
 }
 
 const getPrice = (event: AnyEvent) => {
@@ -76,7 +80,7 @@ const getPrice = (event: AnyEvent) => {
               >
                 <Icon
                   :name="
-                    isBookmarked
+                    isEventBookmarked
                       ? 'ph:bookmark-simple-fill'
                       : 'ph:bookmark-simple'
                   "
