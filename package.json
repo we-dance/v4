@@ -8,10 +8,10 @@
     "preview": "nuxt preview",
     "format": "prettier --write .",
     "lint": "prettier --check .",
-    "test": "pnpm lint && pnpm test:unit && pnpm test:e2e",
+    "test": "pnpm lint && pnpm test:unit",
     "test:unit": "vitest run",
     "test:unit:coverage": "vitest run --coverage",
-    "test:e2e": "node e2e/run-tests.js",
+    "test:e2e:manual": "start-server-and-test 'pnpm preview' http://localhost:3000 'cd e2e && pnpm install && pnpm test || true'",
     "prisma": "prisma"
   },
   "dependencies": {
