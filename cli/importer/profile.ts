@@ -363,6 +363,20 @@ export async function addProfile(profile: any) {
     blablacar: profile.blablacar || "",
     viewsCount: profile.viewsCount || 0,
     followersCount: profile.watch?.count || 0,
+    visibility: profile.visibility || "Public",
+    timezone: profile.timezone,
+    locales: profile.locales ? profile.locales : null,
+    gender: profile.gender,
+    step: profile.step,
+    invitedBy: profile.invitedBy 
+      ? (Array.isArray(profile.invitedBy) 
+         ? profile.invitedBy[0]
+         : profile.invitedBy)
+      : null,
+    daysUsed: profile.daysUsed,
+    pwaUsed: profile.pwaUsed,
+    oldCities: profile.cities ? profile.cities : null,
+    birthday: profile.birthday ? new Date(profile.birthday) : null,
   };
 
   if (profile.location) {
