@@ -433,7 +433,7 @@ const eventArtists = computed(() => {
             <h2 class="text-2xl font-bold mb-4">Related Events</h2>
             <div class="grid sm:grid-cols-2 gap-4">
               <EventCard
-                :show-bookmark="true"
+                :showBookmark="true"
                 v-for="relatedEvent in relatedEvents"
                 :key="relatedEvent.id"
                 :event="relatedEvent"

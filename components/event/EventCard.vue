@@ -7,7 +7,14 @@ const props = defineProps<{
   showBookmark?: boolean
 }>()
 
+const isBookmarked = ref(false)
+
 const emit = defineEmits(['share', 'bookmark', 'book'])
+
+const toggleBookmark = () => {
+  isBookmarked.value = !isBookmarked.value
+  emit('bookmark', props.event)
+}
 
 const getPrice = (event: AnyEvent) => {
   if (!event.prices?.length) return ''
@@ -65,10 +72,14 @@ const getPrice = (event: AnyEvent) => {
               <button
                 v-if="showBookmark"
                 class="flex items-center"
-                @click.stop.prevent="emit('bookmark')"
+                @click.stop.prevent="toggleBookmark"
               >
                 <Icon
-                  name="ph:bookmark-simple"
+                  :name="
+                    isBookmarked
+                      ? 'ph:bookmark-simple-fill'
+                      : 'ph:bookmark-simple'
+                  "
                   class="w-5 h-5 text-muted-foreground"
                 />
               </button>
