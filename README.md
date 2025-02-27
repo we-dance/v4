@@ -24,36 +24,66 @@ WeDance is a participatory network that empowers dance communities by providing 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [NVM](https://github.com/nvm-sh/nvm) - to install specific Node.js version
 - [PNPM](https://pnpm.io/) - package manager
+- [Docker](https://www.docker.com/products/docker-desktop/) - for running database and services
+- **Windows Users**: [Windows Subsystem for Linux (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/install) is required
 
 ## 🛠️ Setup
 
-1. Clone the repository
+1. **Clone the repository**
 
 ```bash
 git clone git@github.com:wedance/v4.git
 cd v4
 ```
 
-2. Configure
+2. **Configure**
 
 Copy env file and provide configuration:
 
-```
+```bash
 cp .env.example .env
 cp cli/.env.example cli/.env
 ```
 
-3. Build
+3. **Install dependencies**
+
+```bash
+pnpm install
+```
+
+4. **Build the environment**
 
 ```bash
 make build
 ```
 
-4. Run development server
+5. **Import data (optional)**
+
+```bash
+make import
+```
+
+6. **Run development server**
 
 ```bash
 pnpm dev
 ```
+
+7. **Access the application**
+
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+
+### Windows-Specific Setup
+
+If you're on Windows, follow these additional steps:
+
+1. Install WSL2 following the [official Microsoft guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+2. Install Ubuntu from the Microsoft Store
+3. Open Ubuntu terminal and navigate to your project:
+   ```bash
+   cd /mnt/c/Users/YourUsername/path/to/v4
+   ```
+4. Continue with the setup steps above within the WSL environment
 
 ## Troubleshooting
 
