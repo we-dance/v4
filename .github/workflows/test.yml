@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-     - name: Cache Playwright browsers
+      - name: Cache Playwright browsers
         uses: actions/cache@v3
         id: playwright-cache
         with:
