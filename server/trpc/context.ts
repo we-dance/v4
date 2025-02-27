@@ -7,7 +7,7 @@ const prisma = new PrismaClient()
 export async function createContext(event: H3Event) {
   return {
     prisma,
-    event
+    event,
   }
 }
 

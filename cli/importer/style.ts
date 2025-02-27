@@ -1,30 +1,30 @@
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from '@prisma/client'
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient()
 
 export async function clearVotes() {
-  await prisma.vote.deleteMany();
+  await prisma.vote.deleteMany()
 }
 
 export async function addDanceStyle(danceStyle: any) {
   const data = {
     ...danceStyle,
     hashtag: danceStyle.id,
-    partner: danceStyle.parent === "yes",
-    group: danceStyle.group === "yes",
-    familyOnly: danceStyle.family === "yes",
-    active: danceStyle.active === "yes",
-    root: danceStyle.root === "yes",
-  };
+    partner: danceStyle.parent === 'yes',
+    group: danceStyle.group === 'yes',
+    familyOnly: danceStyle.family === 'yes',
+    active: danceStyle.active === 'yes',
+    root: danceStyle.root === 'yes',
+  }
 
-  delete data.videos;
-  delete data.id;
+  delete data.videos
+  delete data.id
 
   const createdDanceStyle = await prisma.danceStyle.upsert({
     where: { hashtag: data.hashtag },
     update: data,
     create: data,
-  });
+  })
 
   if (danceStyle.video) {
     const video = {
@@ -32,13 +32,13 @@ export async function addDanceStyle(danceStyle: any) {
       styleId: createdDanceStyle.id,
       createdAt: new Date(),
       updatedAt: new Date(),
-    };
+    }
 
     await prisma.video.upsert({
       where: { url: video.url },
       update: video,
       create: video,
-    });
+    })
   }
 
   if (danceStyle.videos) {
@@ -48,18 +48,18 @@ export async function addDanceStyle(danceStyle: any) {
         styleId: createdDanceStyle.id,
         createdAt: new Date(),
         updatedAt: new Date(),
-      };
+      }
 
       await prisma.video.upsert({
         where: { url: video.url },
         update: video,
         create: video,
-      });
+      })
     }
   }
 
   return {
-    state: "created",
+    state: 'created',
     id: createdDanceStyle.id,
-  };
+  }
 }
