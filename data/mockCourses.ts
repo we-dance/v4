@@ -387,7 +387,7 @@ const mockCoursesData: Course[] = [
     '@type': 'Course',
     '@id': 'salsa-lady-styling',
     identifier: 'salsa-lady-styling-2024',
-    name: 'Salsa Lady Styling',
+    name: 'Salsa Ladies Styling',
     subscriptionControl: {
       showTrial: false,
       showMonthlyAnnualToggle: false,
