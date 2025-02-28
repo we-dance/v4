@@ -741,14 +741,7 @@ const mockCoursesData: Course[] = [
     ],
 
     learningResources: [
-      {
-        '@type': 'LearningResource',
-        id: 1,
-        name: 'Lady Styling Practice Guide',
-        learningResourceType: 'pdf',
-        contentSize: '3.0 MB',
-        icon: 'ph:file-pdf',
-      },
+      
       {
         '@type': 'LearningResource',
         id: 2,
@@ -757,14 +750,7 @@ const mockCoursesData: Course[] = [
         contentSize: '15 songs',
         icon: 'ph:music-notes',
       },
-      {
-        '@type': 'LearningResource',
-        id: 3,
-        name: 'Arm and Leg Drills',
-        learningResourceType: 'video',
-        contentSize: '20 min',
-        icon: 'ph:video',
-      },
+     
     ],
 
     subscriptionPlans: {

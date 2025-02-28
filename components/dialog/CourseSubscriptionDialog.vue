@@ -148,21 +148,23 @@ const handleSelect = async (plan: { type: string; interval?: string }) => {
         </div>
         <div class="text-left flex-1">
           <div class="font-medium">Regular Plan</div>
-          <div class="text-sm text-muted-foreground">Perfect for beginners</div>
+          <!-- <div class="text-sm text-muted-foreground">For dedicated Learners</div> -->
           <ul class="mt-2 space-y-1">
+         
             <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
-                name="ph:check"
-                class="w-3.5 h-3.5 text-accent flex-shrink-0"
+              name="ph:check"
+              class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              Full course access
+              Lifetime access to videos
             </li>
             <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
                 class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              Practice materials
+              Practice materials 
+              
             </li>
           </ul>
         </div>
@@ -173,7 +175,7 @@ const handleSelect = async (plan: { type: string; interval?: string }) => {
           {{ prices.regular.currency }}
         </div>
         <div class="text-sm text-muted-foreground">
-          per {{ isAnnual ? 'year' : 'month' }}
+          one {{ isAnnual ? 'year' : 'time' }}
         </div>
       </div>
     </Button>
@@ -197,31 +199,48 @@ const handleSelect = async (plan: { type: string; interval?: string }) => {
           <Icon name="ph:crown" class="w-4 h-4 text-primary" />
         </div>
         <div class="text-left flex-1">
-          <div class="font-medium">Premium Plan</div>
-          <div class="text-sm text-muted-foreground">
-            For dedicated learners
+          <div class="font-medium">Premium Plan
+          
+
+          </div>
+          <div class="text-sm  text-muted-foreground">
+            only available 15 April-15 May
           </div>
           <ul class="mt-2 space-y-1">
-            <li class="flex items-center gap-2 text-sm text-muted-foreground">
+            <li class="flex items-center flex-wrap gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
                 class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              Everything in Regular
+              Lifetime access to Videos
             </li>
             <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
                 class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              Priority support
+              Practice materials
             </li>
             <li class="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon
                 name="ph:check"
                 class="w-3.5 h-3.5 text-accent flex-shrink-0"
               />
-              Live Q&A sessions
+              4x90min Live Zoom Sessions for Q&A
+            </li>
+            <li class="flex items-center gap-2 text-sm text-muted-foreground">
+              <Icon
+                name="ph:check"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
+              />
+              Feedback & Corrections
+            </li>
+            <li class="flex items-center gap-2 text-sm text-muted-foreground">
+              <Icon
+                name="ph:check"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
+              />
+            Access to Community Channel
             </li>
           </ul>
         </div>
@@ -232,7 +251,7 @@ const handleSelect = async (plan: { type: string; interval?: string }) => {
           {{ prices.premium.currency }}
         </div>
         <div class="text-sm text-muted-foreground">
-          per {{ isAnnual ? 'year' : 'month' }}
+          one {{ isAnnual ? 'year' : 'time' }}
         </div>
       </div>
     </Button>
