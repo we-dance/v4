@@ -549,7 +549,8 @@ const mockArtistsData: Artist[] = [
     specialties: ['casino', 'salsa cubana', 'bachata', 'merengue'],
     level: 'advanced',
     location: 'Germany',
-    image: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj_javier.garcia.78.png?generation=1668533863480811&alt=media',
+    image:
+      'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fdj_javier.garcia.78.png?generation=1668533863480811&alt=media',
     followers: '0',
     rating: 5.0,
     reviewCount: 1,
@@ -559,7 +560,7 @@ const mockArtistsData: Artist[] = [
       teachingLevels: ['beginner', 'intermediate', 'advanced'],
       achievements: [
         'Resident DJ at Buena Vista Bar Munich',
-        'Cuban Salsa Specialist'
+        'Cuban Salsa Specialist',
       ],
     },
     availability: {
@@ -569,7 +570,7 @@ const mockArtistsData: Artist[] = [
       currentLocation: 'Munich, Germany',
     },
     socialMedia: {
-      instagram: '@dj_javier.garcia.78'
+      instagram: '@dj_javier.garcia.78',
     },
   },
 ]

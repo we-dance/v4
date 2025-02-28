@@ -2,7 +2,7 @@ import * as path from 'path'
 import * as fs from 'fs'
 import * as YAML from 'yaml'
 
-export function readFile (pathToFile: string) {
+export function readFile(pathToFile: string) {
   if (!fs.existsSync(pathToFile)) {
     return {}
   }
@@ -11,7 +11,7 @@ export function readFile (pathToFile: string) {
   return YAML.parse(fileContents)
 }
 
-export function readFiles (pathToFiles: string) {
+export function readFiles(pathToFiles: string) {
   if (!fs.existsSync(pathToFiles)) {
     console.log(`Path ${pathToFiles} not exists`)
     return []
@@ -31,7 +31,7 @@ export function readFiles (pathToFiles: string) {
   return properties
 }
 
-export function getFiles (pathToFiles: string) {
+export function getFiles(pathToFiles: string) {
   const result: string[] = []
 
   fs.readdirSync(pathToFiles).forEach((file) => {

@@ -17,7 +17,8 @@
     "paths": {
       "@/*": ["./*"],
       "~/*": ["./*"]
-    }
+    },
+    "allowSyntheticDefaultImports": true
   },
   "compileOnSave": true,
   "exclude": ["dist"],

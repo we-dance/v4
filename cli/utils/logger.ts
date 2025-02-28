@@ -1,13 +1,13 @@
-import * as winston from "winston";
-import * as path from "path";
-import * as fs from "fs";
+import * as winston from 'winston'
+import * as path from 'path'
+import * as fs from 'fs'
 
-const logDir = path.join(__dirname, "..", "..", "logs");
+const logDir = path.join(__dirname, '..', '..', 'logs')
 if (!fs.existsSync(logDir)) {
-  fs.mkdirSync(logDir);
+  fs.mkdirSync(logDir)
 }
 
-const importDate = new Date().toISOString();
+const importDate = new Date().toISOString()
 
 const logger = winston.createLogger({
   transports: [
@@ -17,8 +17,8 @@ const logger = winston.createLogger({
         winston.format.timestamp(),
         winston.format.json()
       ),
-      level: "error",
-      options: { flags: "w" },
+      level: 'error',
+      options: { flags: 'w' },
     }),
     new winston.transports.File({
       filename: path.join(logDir, `import.log`),
@@ -27,14 +27,14 @@ const logger = winston.createLogger({
         winston.format.json(),
         winston.format.prettyPrint()
       ),
-      level: "error",
-      options: { flags: "w" },
+      level: 'error',
+      options: { flags: 'w' },
     }),
   ],
-});
+})
 
-export { logger };
+export { logger }
 
 export function getLogger(label: string) {
-  return logger.child({ label });
+  return logger.child({ label })
 }
