@@ -8,7 +8,7 @@ providerCreatedAt: 1724752122000
 updatedAt: 1728417884274
 importedAt: 1728417884274
 providerUpdatedAt: 1724755041000
-facebookId: "1011639530408016"
+facebookId: '1011639530408016'
 facebook: https://www.facebook.com/events/1011639500408019/?event_time_id=1011639530408016
 isNew: true
 facebookUrlsList:
@@ -49,8 +49,8 @@ venue:
   address_components:
     - types:
         - street_number
-      short_name: "9"
-      long_name: "9"
+      short_name: '9'
+      long_name: '9'
     - types:
         - route
       short_name: Pl. de l'Université
@@ -77,24 +77,24 @@ venue:
       long_name: France
     - types:
         - postal_code
-      short_name: "67000"
-      long_name: "67000"
+      short_name: '67000'
+      long_name: '67000'
   international_phone_number: +33 3 88 36 32 10
   place_id: ChIJ6QBy9LbJlkcRVAgOtDDw56M
   url: https://maps.google.com/?cid=11810672639772330068
 visibility: Public
 org:
-  youtube: ""
-  tiktok: ""
+  youtube: ''
+  tiktok: ''
   facebook: https://www.facebook.com/people/Betty-Reibel/pfbid02U8W1JFKrhDppq7bwk6RYAGgUFikWXHt1dusefEFpDEGvRmRD4d1przpaDDQUxG8dl/
   name: Betty Reibel
   photo: https://res.cloudinary.com/djumxevsm/image/upload/v1728417909/jjinoqd371hzftpbnhhu.jpg
-  bio: ""
+  bio: ''
   id: qx4BjirzT8hj0zq9r7ux
-  instagram: ""
+  instagram: ''
   username: BettyReibel
 claimed: No
-link: ""
+link: ''
 description: >-
   Des cours de salsa cubaine au féminin  à Strasbourg, à un tarif imbattable !
 
@@ -166,7 +166,7 @@ artists: []
 watch:
   count: 0
   usernames: []
-price: ""
+price: ''
 online: No
 place: ChIJwbIYXknIlkcRHyTnGDFIGpc
 international: No

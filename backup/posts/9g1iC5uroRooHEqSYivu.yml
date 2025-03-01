@@ -8,7 +8,7 @@ providerCreatedAt: 1709770573000
 updatedAt: 1711220045047
 importedAt: 1711220045047
 providerUpdatedAt: 1709801345000
-facebookId: "2623867611103148"
+facebookId: '2623867611103148'
 facebook: https://www.facebook.com/events/2623867611103148/
 isNew: true
 facebookUrlsList:
@@ -16,7 +16,7 @@ facebookUrlsList:
 eventType: Party
 providerItemId: e2623867611103148@facebook.com
 createdBy: v0dfuvXmPJW4TN4wPS2KEo849WT2
-name: "⭐️La VIP ⭐️Only Edition ⭐️Finest of Salsa & Bachata "
+name: '⭐️La VIP ⭐️Only Edition ⭐️Finest of Salsa & Bachata '
 location: NOMAD Restaurant Hamburg
 styles:
   Salsa:
@@ -49,8 +49,8 @@ venue:
   address_components:
     - types:
         - street_number
-      short_name: "1"
-      long_name: "1"
+      short_name: '1'
+      long_name: '1'
     - types:
         - route
       short_name: Alsterufer
@@ -83,14 +83,14 @@ venue:
       long_name: Germany
     - types:
         - postal_code
-      short_name: "20354"
-      long_name: "20354"
+      short_name: '20354'
+      long_name: '20354'
   international_phone_number: +49 40 84609002
   place_id: ChIJmxz9erqPsUcRAwyYwXolu8E
   url: https://maps.google.com/?cid=13959792679129189379
 visibility: Public
 org:
-  owner: ""
+  owner: ''
   importedAt: 1711220071355
   import: success
   visibility: Public
@@ -105,8 +105,8 @@ org:
   updatedAt: 1711220071355
   username: cesar.sanchez.98871
 claimed: No
-link: ""
-description: |+2
+link: ''
+description: |2+
                    ⭐️La VIP⭐️Only Edition⭐️
               ⚜️FINEST of Salsa & Bachata ⚜️
 
@@ -150,7 +150,7 @@ artists: []
 watch:
   count: 0
   usernames: []
-price: ""
+price: ''
 online: No
 place: ChIJuRMYfoNhsUcRoDrWe_I9JgQ
 international: No

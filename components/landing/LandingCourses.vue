@@ -100,7 +100,7 @@
                 </div>
                 <div class="font-medium">
                   {{ course.pricing.regular.monthly.amount }}
-                  {{ course.pricing.regular.monthly.currency }}/mo
+                  {{ course.pricing.regular.monthly.currency }}
                 </div>
               </div>
             </CardContent>

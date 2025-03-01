@@ -741,7 +741,6 @@ const mockCoursesData: Course[] = [
     ],
 
     learningResources: [
-      
       {
         '@type': 'LearningResource',
         id: 2,
@@ -750,7 +749,6 @@ const mockCoursesData: Course[] = [
         contentSize: '15 songs',
         icon: 'ph:music-notes',
       },
-     
     ],
 
     subscriptionPlans: {
