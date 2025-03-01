@@ -2,23 +2,9 @@
 import type { AnyEvent } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
 
-const props = defineProps<{
+defineProps<{
   event: AnyEvent
-  showBookmark?: boolean
-  isBookmarked: boolean
 }>()
-
-const emit = defineEmits(['share', 'bookmark', 'book'])
-const isEventBookmarked = computed({
-  get: () => props.isBookmarked,
-  set: (newValue) => {
-    emit('bookmark', newValue)
-  },
-})
-
-const toggleBookmark = () => {
-  emit('bookmark', props.event.id)
-}
 
 const getPrice = (event: AnyEvent) => {
   if (!event.prices?.length) return ''
@@ -69,24 +55,8 @@ const getPrice = (event: AnyEvent) => {
               >
             </div>
             <div class="flex items-center gap-2 text-sm text-muted-foreground">
-              <div class="flex items-center gap-2">
-                <Icon name="ph:ticket" class="w-4 h-4 flex-shrink-0" />
-                <span class="truncate">{{ getPrice(event) }}</span>
-              </div>
-              <button
-                v-if="showBookmark"
-                class="flex items-center"
-                @click.stop.prevent="toggleBookmark"
-              >
-                <Icon
-                  :name="
-                    isEventBookmarked
-                      ? 'ph:bookmark-simple-fill'
-                      : 'ph:bookmark-simple'
-                  "
-                  class="w-5 h-5 text-muted-foreground"
-                />
-              </button>
+              <Icon name="ph:ticket" class="w-4 h-4 flex-shrink-0" />
+              <span class="truncate">{{ getPrice(event) }}</span>
             </div>
           </div>
         </div>

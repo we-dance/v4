@@ -107,22 +107,16 @@ const availability = computed(() => {
 
 // Going state
 const isGoing = ref(false)
-const isBookmarked = ref(false)
-const isRelatedBookmarked = ref<Record<number, boolean>>({})
 
-// Actionsfe
+// Actions
 const handleShare = () => {
   if (!event.value) return
   console.log('Share event:', event.value.name)
 }
 
-const handleBookmark = (event: AnyEvent) => {
-  isBookmarked.value = !isBookmarked.value
-  console.log('Bookmark event:', event.name)
-}
-
-const handleRelatedBookmark = (eventId: number) => {
-  isRelatedBookmarked.value[eventId] = !isRelatedBookmarked.value[eventId]
+const handleBookmark = () => {
+  if (!event.value) return
+  console.log('Bookmark event:', event.value.name)
 }
 
 const handleGoing = () => {
@@ -437,12 +431,9 @@ const eventArtists = computed(() => {
             <h2 class="text-2xl font-bold mb-4">Related Events</h2>
             <div class="grid sm:grid-cols-2 gap-4">
               <EventCard
-                :showBookmark="true"
                 v-for="relatedEvent in relatedEvents"
-                :isBookmarked="isRelatedBookmarked[relatedEvent.id]"
                 :key="relatedEvent.id"
                 :event="relatedEvent"
-                @bookmark="handleRelatedBookmark"
               />
             </div>
           </div>
@@ -453,31 +444,10 @@ const eventArtists = computed(() => {
           <!-- Guests section -->
           <div class="bg-background rounded-xl border p-6">
             <h3 class="text-lg font-bold mb-4">Guests</h3>
-            <div class="flex items-center gap-2">
-              <Button
-                class="w-full mb-6"
-                variant="outline"
-                @click="handleGoing"
-              >
-                <Icon name="ph:users" class="w-5 h-5 mr-2" />
-                {{ isGoing ? 'Leave Guest List' : 'Join Guest List' }}
-              </Button>
-              <Button
-                class="w-full mb-6"
-                variant="outline"
-                @click="handleBookmark"
-              >
-                <Icon
-                  :name="
-                    isBookmarked
-                      ? 'ph:bookmark-simple-fill'
-                      : 'ph:bookmark-simple'
-                  "
-                  class="w-5 h-5 text-muted-foreground"
-                />
-                {{ isBookmarked ? 'Saved' : 'Save' }}
-              </Button>
-            </div>
+            <Button class="w-full mb-6" variant="outline" @click="handleGoing">
+              <Icon name="ph:users" class="w-5 h-5 mr-2" />
+              {{ isGoing ? 'Leave Guest List' : 'Join Guest List' }}
+            </Button>
             <div class="space-y-3">
               <div v-for="i in 5" :key="i" class="flex items-center gap-3">
                 <div
