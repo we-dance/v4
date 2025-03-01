@@ -8,7 +8,7 @@ providerCreatedAt: 1718015460000
 updatedAt: 1718373625946
 importedAt: 1718373625946
 providerUpdatedAt: 1718015460000
-facebookId: "659271776381741"
+facebookId: '659271776381741'
 facebook: https://www.facebook.com/events/659271776381741/
 isNew: true
 facebookUrlsList:
@@ -55,8 +55,8 @@ venue:
   address_components:
     - types:
         - street_number
-      short_name: "9"
-      long_name: "9"
+      short_name: '9'
+      long_name: '9'
     - types:
         - route
       short_name: Utász u.
@@ -79,14 +79,14 @@ venue:
       long_name: Hungary
     - types:
         - postal_code
-      short_name: "1143"
-      long_name: "1143"
+      short_name: '1143'
+      long_name: '1143'
   international_phone_number: +36 1 222 4114
   place_id: ChIJEzrsV5jcQUcReLvjIIPtSro
   url: https://maps.google.com/?cid=13423802786779478904
 visibility: Public
 org:
-  owner: ""
+  owner: ''
   importedAt: 1718373640336
   import: success
   visibility: Public
@@ -101,7 +101,7 @@ org:
   updatedAt: 1718373640336
   username: 2in1partybudapest
 claimed: No
-link: ""
+link: ''
 description: >
   FOR ENGLISH PLS SCROLL DOWN 
 
@@ -208,7 +208,7 @@ description: >
 
   ▪11:30 -12:00 Dance Pilates  /Zuzi (SK)/
 
-  ▪12:00 - 13:00 Salsa Lady Styling WS /Missy/
+  ▪12:00 - 13:00 Salsa Ladies Styling WS /Missy/
 
   ▪12:00 - 13:00 Salsa Man Styling WS
 
@@ -794,9 +794,9 @@ artists: []
 watch:
   count: 0
   usernames: []
-price: ""
-name: "2in1 Party Budapest & Social Bliss Half Weekender - Pragkizer Promo  |
-  Bachata Salsa Urbankiz "
+price: ''
+name: '2in1 Party Budapest & Social Bliss Half Weekender - Pragkizer Promo  |
+  Bachata Salsa Urbankiz '
 online: No
 place: ChIJyc_U0TTDQUcRYBEeDCnEAAQ
 international: No
