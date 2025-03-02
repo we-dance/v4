@@ -38,7 +38,7 @@ When('I click on {string} course', async function (courseName) {
 
 Then('I should be redirected to the course details page', async function () {
   await this.page.waitForSelector('h1')
-  const courseTitle = await this.page.getByText('Salsa Lady Styling')
+  const courseTitle = await this.page.getByText('Salsa Ladies Styling')
   await expect(courseTitle).toBeVisible()
 })
 
