@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { EventContent } from '~/schemas/post'
 import type { AnyEvent } from '~/schemas/event'
+import PostEventUpdate from './postEventUpdate.vue'
 
 const props = defineProps<{
   content: EventContent
@@ -38,7 +39,7 @@ const eventData = computed<AnyEvent>(() => ({
 
 <template>
   <div class="flex-1 flex flex-col">
-    <postEventUpdate/>
+    <PostEventUpdate />
     <div class="px-4">
       <p class="text-muted-foreground">{{ content.description }}</p>
     </div>
