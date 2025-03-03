@@ -60,7 +60,6 @@ export function useUpdateStats() {
   })
 }
 
-
 export function useEventById(id: string) {
   return useQuery(
     ['events.byId', id],

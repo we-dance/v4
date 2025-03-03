@@ -15,28 +15,26 @@ const status = ref('upcoming')
 const type = ref('')
 const limit = ref(10)
 
-
-
 async function fetchEvents() {
   loading.value = true
   error.value = null
-  
+
   try {
     const params = { limit: limit.value }
     if (status.value) params.status = status.value
     if (type.value) params.type = type.value
-    
+
     console.log('Fetching events with params:', params)
-    
+
     const id = useRoute().params.id
     const response = await trpc.events.byId.query(id)
     console.log('API result:', response)
-    
+
     // Ensure result has expected structure
-    result.value = response && typeof response === 'object' 
-      ? response 
-      : { name: null, type: null, items: [] } // Fallback structure
-    
+    result.value =
+      response && typeof response === 'object'
+        ? response
+        : { name: null, type: null, items: [] } // Fallback structure
   } catch (e) {
     console.error('API error:', e)
     error.value = e?.message || 'Unknown error'
@@ -46,8 +44,6 @@ async function fetchEvents() {
   }
 }
 
-
-
 // Auto-fetch on mount
 onMounted(() => {
   fetchEvents()
@@ -55,32 +51,38 @@ onMounted(() => {
 </script>
 
 <template>
-
-<!-- for loading only -->
-<div v-if="loading && !result" class="text-center py-20">
-    <div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent align-[-0.125em]"></div>
+  <!-- for loading only -->
+  <div v-if="loading && !result" class="text-center py-20">
+    <div
+      class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent align-[-0.125em]"
+    ></div>
     <p class="mt-4 text-gray-600">Loading events...</p>
   </div>
 
-      <!-- Results section -->
-      <div v-else-if="result && result.items?.length" class="space-y-6">
-    <div class="flex items-center justify-between bg-white p-4 rounded-lg shadow">
+  <!-- Results section -->
+  <div v-else-if="result && result.items?.length" class="space-y-6">
+    <div
+      class="flex items-center justify-between bg-white p-4 rounded-lg shadow"
+    >
       <div>
-        <span class="font-medium text-gray-800">{{ result.items?.length || 0 }} events found</span>
-        <span v-if="result.nextCursor" class="ml-2 text-sm text-gray-500">(more available)</span>
+        <span class="font-medium text-gray-800"
+          >{{ result.items?.length || 0 }} events found</span
+        >
+        <span v-if="result.nextCursor" class="ml-2 text-sm text-gray-500"
+          >(more available)</span
+        >
       </div>
     </div>
   </div>
 
-  <div v-if="result && result.name ">
+  <div v-if="result && result.name">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
       <div
-      
         class="relative flex items-center overflow-hidden min-h-[50vh] py-12"
       >
         <GradientBackground />
-       
+
         <!-- Content -->
         <div class="relative w-full">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -141,9 +143,7 @@ onMounted(() => {
 
                 <!-- Action Buttons -->
                 <div class="flex justify-center md:justify-start gap-4 mb-8">
-                  <Button variant="primary" size="lg" >
-                    Book Now
-                  </Button>
+                  <Button variant="primary" size="lg"> Book Now </Button>
                 </div>
 
                 <!-- Event Stats -->
@@ -182,7 +182,7 @@ onMounted(() => {
                 class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
               >
                 <img
-                   v-if="result.cover"
+                  v-if="result.cover"
                   :src="result.cover || '/images/event-placeholder.jpg'"
                   :alt="result.cover"
                   class="w-full h-full object-cover"

@@ -165,12 +165,16 @@ const filteredEvents = computed(() => {
 
   // Type filter
   if (selectedType.value !== 'all') {
-    filtered = filtered.filter((event: AnyEvent) => event.type === selectedType.value)
+    filtered = filtered.filter(
+      (event: AnyEvent) => event.type === selectedType.value
+    )
   }
 
   // Status filter
   if (selectedStatus.value !== 'all') {
-    filtered = filtered.filter((event: AnyEvent) => event.status === selectedStatus.value)
+    filtered = filtered.filter(
+      (event: AnyEvent) => event.status === selectedStatus.value
+    )
   }
 
   // Location filter
@@ -211,15 +215,18 @@ const sortedEvents = computed(() => {
   switch (sortBy.value) {
     case 'date':
       return events.sort(
-        (a: AnyEvent, b: AnyEvent) => +new Date(a.date.start) - +new Date(b.date.start)
+        (a: AnyEvent, b: AnyEvent) =>
+          +new Date(a.date.start) - +new Date(b.date.start)
       )
     case 'price-low':
       return events.sort(
-        (a: AnyEvent, b: AnyEvent) => convertToEUR(getMinPrice(a)) - convertToEUR(getMinPrice(b))
+        (a: AnyEvent, b: AnyEvent) =>
+          convertToEUR(getMinPrice(a)) - convertToEUR(getMinPrice(b))
       )
     case 'price-high':
       return events.sort(
-        (a: AnyEvent, b: AnyEvent) => convertToEUR(getMinPrice(b)) - convertToEUR(getMinPrice(a))
+        (a: AnyEvent, b: AnyEvent) =>
+          convertToEUR(getMinPrice(b)) - convertToEUR(getMinPrice(a))
       )
     default:
       return events
@@ -372,7 +379,10 @@ const handleBook = (event: AnyEvent) => {
     {{ error }}
   </div>
   <div v-else>
-    <div v-if="result.items.length" class="p-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div
+      v-if="result.items.length"
+      class="p-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+    >
       <EventCard
         v-for="event in result.items"
         :key="event.id"
@@ -396,13 +406,10 @@ const handleBook = (event: AnyEvent) => {
     </div>
   </div>
 
- 
-
   <div v-if="result?.nextCursor && !loadingMore" class="text-center py-4">
     <Button @click="loadMore">Load More</Button>
   </div>
   <div v-if="loadingMore" class="text-center py-4">
     <p>Loading more events...</p>
   </div>
-
 </template>
