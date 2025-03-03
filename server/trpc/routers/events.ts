@@ -26,6 +26,12 @@ export const eventsRouter = router({
           skip: input.cursor ? 1 : 0,
           cursor: input.cursor ? { id: input.cursor } : undefined,
           orderBy: { startDate: 'asc' },
+          include: {
+            venue: true,
+            styles: true,
+            organizer: true,
+            creator: true,
+          },
         })
 
         // Determine the next cursor for pagination
@@ -53,6 +59,17 @@ export const eventsRouter = router({
     try {
       const event = await ctx.prisma.event.findUnique({
         where: { id: input },
+        include: {
+          venue: true,
+          styles: true,
+          organizer: true,
+          creator: true,
+          guests: {
+            include: {
+              profile: true,
+            },
+          },
+        },
       })
 
       if (!event) {
