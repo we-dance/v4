@@ -1,187 +1,86 @@
-<script setup lang="ts">
-import { mockEvents } from '@/data/mockEvents'
-import { mockArtists } from '@/data/mockArtists'
-import type { AnyEvent, Price } from '~/schemas/event'
+<script setup>
+import { ref, onMounted } from 'vue'
+import { trpc } from '~/composables/trpc'
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import { formatDate } from '~/utils/format'
-import UserPoints from '~/components/common/UserPoints.vue'
 import Post from '~/components/post/Post.vue'
-import { eventToFeedPost } from '~/schemas/event'
+import { format, parseISO } from 'date-fns'
 
-const route = useRoute()
-const event = computed(
-  () =>
-    mockEvents.find((e) => String(e.id) === String(route.params.id)) as
-      | AnyEvent
-      | undefined
-)
+const result = ref(null)
+const loading = ref(false)
+const loadingMore = ref(false)
+const error = ref(null)
 
-// Computed properties for UI
-const formattedDate = computed(() => {
-  if (!event.value) return ''
-  const start = formatDate(event.value.date.start)
-  const end = formatDate(event.value.date.end)
-  return start === end ? start : `${start} - ${end}`
-})
+// Query parameters
+const status = ref('upcoming')
+const type = ref('')
+const limit = ref(10)
 
-const getPrice = (event: AnyEvent) => {
-  if (!event.prices || event.prices.length === 0) {
-    return 'Unknown price'
+
+
+async function fetchEvents() {
+  loading.value = true
+  error.value = null
+  
+  try {
+    const params = { limit: limit.value }
+    if (status.value) params.status = status.value
+    if (type.value) params.type = type.value
+    
+    console.log('Fetching events with params:', params)
+    
+    const id = useRoute().params.id
+    const response = await trpc.events.byId.query(id)
+    console.log('API result:', response)
+    
+    // Ensure result has expected structure
+    result.value = response && typeof response === 'object' 
+      ? response 
+      : { name: null, type: null, items: [] } // Fallback structure
+    
+  } catch (e) {
+    console.error('API error:', e)
+    error.value = e?.message || 'Unknown error'
+    result.value = { name: null, type: null, items: [] } // Fallback on error
+  } finally {
+    loading.value = false
   }
-
-  if (event.prices?.length === 1) {
-    if (event.prices[0].amount === 0) {
-      return 'Free'
-    }
-
-    return `${event.prices[0].amount} ${event.prices[0].currency}`
-  }
-
-  const lowestPrice = event.prices.reduce(
-    (min, p) => (p.amount < min.amount ? p : min),
-    event.prices[0]
-  )
-  return `From ${lowestPrice.amount} ${lowestPrice.currency}`
 }
 
-// Related events
-const relatedEvents = computed(() => {
-  if (!event.value) return []
 
-  return mockEvents
-    .filter(
-      (e) =>
-        e.id !== event.value?.id &&
-        (e.type === event.value?.type ||
-          e.tags.some((t) => event.value?.tags.includes(t)))
-    )
-    .map((e): AnyEvent => {
-      // Base event properties are already correct
-      const base = {
-        ...e,
-        schedule: e.schedule || [],
-      }
 
-      // Return type-specific event
-      switch (base.type) {
-        case 'workshop':
-          return {
-            ...base,
-            type: 'workshop',
-            level: base.level || 'all',
-            prices: base.prices || [],
-          }
-        case 'concert':
-          return {
-            ...base,
-            type: 'concert',
-            venue: base.venue || { capacity: 0, seating: false },
-          }
-        case 'festival':
-          return {
-            ...base,
-            type: 'festival',
-            prices: base.prices || [],
-          }
-        case 'party':
-          return {
-            ...base,
-            type: 'party',
-          }
-        default:
-          throw new Error(`Unknown event type: ${(base as any).type}`)
-      }
-    })
-    .slice(0, 2)
-})
-
-// Event availability status
-const availability = computed(() => {
-  if (!event.value) return null
-  const capacity = 100 // This should come from the event data
-  const interested = event.value.stats?.interested || 0
-  if (interested >= capacity) return 'sold-out'
-  if (interested >= capacity * 0.8) return 'few-left'
-  return 'available'
-})
-
-// Going state
-const isGoing = ref(false)
-
-// Actions
-const handleShare = () => {
-  if (!event.value) return
-  console.log('Share event:', event.value.name)
-}
-
-const handleBookmark = () => {
-  if (!event.value) return
-  console.log('Bookmark event:', event.value.name)
-}
-
-const handleGoing = () => {
-  if (!event.value) return
-  isGoing.value = !isGoing.value
-  console.log(
-    isGoing.value ? 'Going to event' : 'Not going to event',
-    event.value.name
-  )
-}
-
-const dialog = useDialog()
-
-const handleBook = () => {
-  if (!event.value) return
-
-  const prices = event.value.prices
-
-  if (!prices || prices.length === 0) {
-    navigateTo(`/checkout/${event.value.id}`)
-    return
-  }
-
-  if (prices.length === 1) {
-    navigateTo(`/checkout/${event.value.id}?priceId=${prices[0].id}`)
-    return
-  }
-
-  dialog.open({
-    component: 'PricingOptionsDialog',
-    props: {
-      prices: prices,
-      onSelect: (selectedPrice: Price) => {
-        // Navigate to checkout with selected price
-        navigateTo(`/checkout/${event.value?.id}?priceId=${selectedPrice.id}`)
-      },
-    },
-  })
-}
-
-interface Artist {
-  id: number
-  name: string
-  roles: string[]
-  image: string
-}
-
-// Get artists for the event
-const eventArtists = computed(() => {
-  if (!event.value?.artists) return []
-  return event.value.artists
-    .map((id) => mockArtists.find((artist) => String(artist.id) === String(id)))
-    .filter((artist) => artist !== undefined)
+// Auto-fetch on mount
+onMounted(() => {
+  fetchEvents()
 })
 </script>
 
 <template>
-  <div v-if="event">
+
+<!-- for loading only -->
+<div v-if="loading && !result" class="text-center py-20">
+    <div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent align-[-0.125em]"></div>
+    <p class="mt-4 text-gray-600">Loading events...</p>
+  </div>
+
+      <!-- Results section -->
+      <div v-else-if="result && result.items?.length" class="space-y-6">
+    <div class="flex items-center justify-between bg-white p-4 rounded-lg shadow">
+      <div>
+        <span class="font-medium text-gray-800">{{ result.items?.length || 0 }} events found</span>
+        <span v-if="result.nextCursor" class="ml-2 text-sm text-gray-500">(more available)</span>
+      </div>
+    </div>
+  </div>
+
+  <div v-if="result && result.name ">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
       <div
+      
         class="relative flex items-center overflow-hidden min-h-[50vh] py-12"
       >
         <GradientBackground />
-
+       
         <!-- Content -->
         <div class="relative w-full">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -192,36 +91,36 @@ const eventArtists = computed(() => {
                   class="flex items-center justify-center md:justify-start gap-2 text-muted-foreground mb-2 md:mb-4"
                 >
                   <Icon name="ph:calendar" class="w-4 h-4 md:w-5 md:h-5" />
-                  <span class="text-sm md:text-base">{{ formattedDate }}</span>
+                  <!-- <span class="text-sm md:text-base">{{ formattedDate(result.startDate) }}</span> -->
                 </div>
                 <h1
                   class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-2 md:mb-4"
                 >
-                  {{ event.name }}
+                  {{ result.name }}
                 </h1>
                 <div
                   class="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-4 text-muted-foreground mb-4 md:mb-6"
                 >
                   <div class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base"
+                    <!-- <span class="text-sm md:text-base"
                       >{{ event.location.name }},
-                      {{ event.location.city }}</span
+                      {{ event.location.city }}</span -->
                     >
                   </div>
                   <div class="flex items-center gap-2">
                     <Icon name="ph:ticket" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{
-                      getPrice(event)
-                    }}</span>
+                    <!-- <span class="text-sm md:text-base">{{
+                      getPrice(result.price)
+                    }}</span> -->
                   </div>
-                  <div
-                    v-if="event.type === 'workshop'"
+                  <!-- <div
+                    v-if="result.type === 'workshop'"
                     class="flex items-center gap-2"
                   >
                     <Icon name="ph:chart-line" class="w-4 h-4 md:w-5 md:h-5" />
                     <span class="text-sm md:text-base">{{ event.level }}</span>
-                  </div>
+                  </div> -->
                 </div>
 
                 <!-- Status & Social Proof -->
@@ -242,7 +141,7 @@ const eventArtists = computed(() => {
 
                 <!-- Action Buttons -->
                 <div class="flex justify-center md:justify-start gap-4 mb-8">
-                  <Button variant="primary" size="lg" @click="handleBook">
+                  <Button variant="primary" size="lg" >
                     Book Now
                   </Button>
                 </div>
@@ -253,26 +152,26 @@ const eventArtists = computed(() => {
                 >
                   <div>
                     <div class="text-xl font-bold text-foreground">
-                      {{ event.stats?.interested || 0 }}
+                      <!-- {{ event.stats?.interested || 0 }} -->
                     </div>
                     <div class="text-sm">guests</div>
                   </div>
                   <div>
-                    <div class="text-xl font-bold text-foreground">
+                    <!-- <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.saves || 0 }}
-                    </div>
+                    </div> -->
                     <div class="text-sm">saves</div>
                   </div>
                   <div>
-                    <div class="text-xl font-bold text-foreground">
+                    <!-- <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.views || 20 }}
-                    </div>
+                    </div> -->
                     <div class="text-sm">views</div>
                   </div>
                   <div>
-                    <div class="text-xl font-bold text-foreground">
+                    <!-- <div class="text-xl font-bold text-foreground">
                       {{ event.stats?.shares || 1 }}
-                    </div>
+                    </div> -->
                     <div class="text-sm">shares</div>
                   </div>
                 </div>
@@ -283,8 +182,9 @@ const eventArtists = computed(() => {
                 class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
               >
                 <img
-                  :src="event.image || '/images/event-placeholder.jpg'"
-                  :alt="event.name"
+                   v-if="result.cover"
+                  :src="result.cover || '/images/event-placeholder.jpg'"
+                  :alt="result.cover"
                   class="w-full h-full object-cover"
                 />
               </div>
@@ -302,14 +202,16 @@ const eventArtists = computed(() => {
         <!-- Left Column: Details -->
         <div class="space-y-8 max-w-xl">
           <!-- Description -->
-          <Post v-if="event" :post="eventToFeedPost(event)" />
+
+          <!-- for post remembeer it i have to do later -->
+          <!-- <Post v-if="result" :post="eventToFeedPost(result)" /> -->
 
           <!-- Schedule -->
-          <div v-if="event.schedule?.length">
+          <div v-if="result.startDate?.length">
             <h2 class="text-2xl font-bold mb-4">Schedule</h2>
             <div class="space-y-4">
               <div
-                v-for="(item, index) in event.schedule"
+                v-for="(item, index) in result.startDate"
                 :key="index"
                 class="bg-background rounded-lg border p-4"
               >
@@ -320,13 +222,13 @@ const eventArtists = computed(() => {
                     <Icon name="ph:clock" class="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <div class="font-medium">{{ item.time }}</div>
-                    <div class="text-muted-foreground">{{ item.activity }}</div>
+                    <div class="font-medium">{{ result.startDate }}</div>
+                    <div class="text-muted-foreground">{{ result.title }}</div>
                     <p
-                      v-if="item.description"
+                      v-if="result.description"
                       class="text-sm text-muted-foreground mt-1"
                     >
-                      {{ item.description }}
+                      {{ result.description }}
                     </p>
                   </div>
                 </div>
@@ -335,7 +237,7 @@ const eventArtists = computed(() => {
           </div>
 
           <!-- Artists -->
-          <div v-if="event.artists?.length && eventArtists.length > 0">
+          <!-- <div v-if="event.artists?.length && eventArtists.length > 0">
             <h2 class="text-2xl font-bold mb-4">Featured Artists</h2>
             <div class="grid sm:grid-cols-2 gap-4">
               <div
@@ -360,10 +262,10 @@ const eventArtists = computed(() => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Prerequisites & Policies -->
-          <div v-if="event.type === 'workshop'" class="space-y-8">
+          <div v-if="result.type === 'workshop'" class="space-y-8">
             <div>
               <h2 class="text-2xl font-bold mb-4">Prerequisites</h2>
               <div class="bg-background rounded-lg border p-4">
@@ -376,7 +278,7 @@ const eventArtists = computed(() => {
                   <div>
                     <div class="font-medium">Required Level</div>
                     <p class="text-muted-foreground">
-                      This workshop is suitable for {{ event.level }} level
+                      This workshop is suitable for {{ result.name }} level
                       dancers. Previous experience with
                       {{ event.tags.join(' or ') }} is recommended.
                     </p>
@@ -427,7 +329,7 @@ const eventArtists = computed(() => {
           </div>
 
           <!-- Related Events -->
-          <div v-if="relatedEvents.length > 0">
+          <!-- <div v-if="relatedEvents.length > 0">
             <h2 class="text-2xl font-bold mb-4">Related Events</h2>
             <div class="grid sm:grid-cols-2 gap-4">
               <EventCard
@@ -436,7 +338,7 @@ const eventArtists = computed(() => {
                 :event="relatedEvent"
               />
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- Right Column: Sidebar -->
@@ -465,10 +367,10 @@ const eventArtists = computed(() => {
                 </div>
               </div>
               <div
-                v-if="(event.stats?.interested || 0) > 5"
+                v-if="(result.stats?.interested || 0) > 5"
                 class="text-sm text-muted-foreground mt-2"
               >
-                and {{ (event.stats?.interested || 0) - 5 }} more guests
+                and {{ (result.stats?.interested || 0) - 5 }} more guests
               </div>
             </div>
           </div>
@@ -483,11 +385,11 @@ const eventArtists = computed(() => {
                   class="w-5 h-5 text-primary flex-shrink-0 mt-1"
                 />
                 <div>
-                  <div class="font-medium">{{ event.location.name }}</div>
+                  <div class="font-medium">{{ result.name }}</div>
                   <div class="text-muted-foreground">
-                    {{ event.location.address }}
+                    <!-- {{ event.location.address }} -->
                     <div>
-                      {{ event.location.city }}, {{ event.location.country }}
+                      <!-- {{ event.location.city }}, {{ event.location.country }} -->
                     </div>
                   </div>
                 </div>
@@ -499,24 +401,24 @@ const eventArtists = computed(() => {
 
           <!-- Price Details -->
           <div
-            v-if="event.type === 'workshop' && event.prices?.length"
+            v-if="result.type === 'workshop' && result.prices?.length"
             class="bg-background rounded-xl border p-6"
           >
             <h3 class="text-lg font-bold mb-4">Pricing Options</h3>
             <div class="space-y-4">
               <div
-                v-for="price in event.prices"
-                :key="price.name"
+                v-if="result.prices.length === 1"
+                :key="result.name"
                 class="flex items-start justify-between gap-4 pb-4 border-b last:border-0 last:pb-0"
               >
                 <div>
-                  <div class="font-medium">{{ price.name }}</div>
+                  <div class="font-medium">{{ result.name }}</div>
                   <div class="text-sm text-muted-foreground">
-                    {{ price.description }}
+                    {{ result.description }}
                   </div>
                 </div>
                 <div class="font-bold whitespace-nowrap">
-                  {{ price.amount }} {{ price.currency }}
+                  {{ result.price }} {{ result.price }}
                 </div>
               </div>
             </div>
