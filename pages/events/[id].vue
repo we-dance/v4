@@ -1,180 +1,160 @@
-<script setup lang="ts">
-import { mockEvents } from '@/data/mockEvents'
-import { mockArtists } from '@/data/mockArtists'
-import type { AnyEvent, Price } from '~/schemas/event'
+<script setup>
+import { ref, computed } from 'vue'
+import { trpc } from '~/composables/trpc'
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import { formatDate } from '~/utils/format'
-import UserPoints from '~/components/common/UserPoints.vue'
 import Post from '~/components/post/Post.vue'
-import { eventToFeedPost } from '~/schemas/event'
+import { format, parseISO } from 'date-fns'
 
 const route = useRoute()
-const event = computed(
-  () =>
-    mockEvents.find((e) => String(e.id) === String(route.params.id)) as
-      | AnyEvent
-      | undefined
-)
+const event = ref(null)
+const loading = ref(true)
+const error = ref(null)
+const isGoing = ref(false)
 
-// Computed properties for UI
-const formattedDate = computed(() => {
-  if (!event.value) return ''
-  const start = formatDate(event.value.date.start)
-  const end = formatDate(event.value.date.end)
-  return start === end ? start : `${start} - ${end}`
-})
+// Format date function
+const formatDate = (dateString) => {
+  try {
+    if (!dateString) return 'Date not available'
 
-const getPrice = (event: AnyEvent) => {
-  if (!event.prices || event.prices.length === 0) {
-    return 'Unknown price'
-  }
-
-  if (event.prices?.length === 1) {
-    if (event.prices[0].amount === 0) {
-      return 'Free'
+    // Handle both string and Date object
+    if (typeof dateString === 'string') {
+      return format(parseISO(dateString), 'MMMM d, yyyy')
+    } else if (dateString instanceof Date) {
+      return format(dateString, 'MMMM d, yyyy')
     }
 
-    return `${event.prices[0].amount} ${event.prices[0].currency}`
+    return 'Invalid date'
+  } catch (e) {
+    console.error('Date formatting error:', e)
+    return 'Invalid date'
   }
-
-  const lowestPrice = event.prices.reduce(
-    (min, p) => (p.amount < min.amount ? p : min),
-    event.prices[0]
-  )
-  return `From ${lowestPrice.amount} ${lowestPrice.currency}`
 }
 
-// Related events
-const relatedEvents = computed(() => {
-  if (!event.value) return []
+// Format time function
+const formatTime = (dateString) => {
+  try {
+    if (!dateString) return ''
 
-  return mockEvents
-    .filter(
-      (e) =>
-        e.id !== event.value?.id &&
-        (e.type === event.value?.type ||
-          e.tags.some((t) => event.value?.tags.includes(t)))
-    )
-    .map((e): AnyEvent => {
-      // Base event properties are already correct
-      const base = {
-        ...e,
-        schedule: e.schedule || [],
-      }
+    // Handle both string and Date object
+    if (typeof dateString === 'string') {
+      return format(parseISO(dateString), 'h:mm a')
+    } else if (dateString instanceof Date) {
+      return format(dateString, 'h:mm a')
+    }
 
-      // Return type-specific event
-      switch (base.type) {
-        case 'workshop':
-          return {
-            ...base,
-            type: 'workshop',
-            level: base.level || 'all',
-            prices: base.prices || [],
-          }
-        case 'concert':
-          return {
-            ...base,
-            type: 'concert',
-            venue: base.venue || { capacity: 0, seating: false },
-          }
-        case 'festival':
-          return {
-            ...base,
-            type: 'festival',
-            prices: base.prices || [],
-          }
-        case 'party':
-          return {
-            ...base,
-            type: 'party',
-          }
-        default:
-          throw new Error(`Unknown event type: ${(base as any).type}`)
-      }
-    })
-    .slice(0, 2)
+    return ''
+  } catch (e) {
+    return ''
+  }
+}
+
+// Display date range
+const dateRangeDisplay = computed(() => {
+  if (!event.value) return ''
+
+  const startFormatted = formatDate(event.value.startDate)
+  const endFormatted = formatDate(event.value.endDate)
+
+  // Add time if available
+  const startTime = formatTime(event.value.startDate)
+  const endTime = formatTime(event.value.endDate)
+
+  const startDisplay = startTime
+    ? `${startFormatted} at ${startTime}`
+    : startFormatted
+  const endDisplay = endTime ? `${endFormatted} at ${endTime}` : endFormatted
+
+  return startFormatted === endFormatted
+    ? startDisplay
+    : `${startDisplay} - ${endDisplay}`
 })
 
-// Event availability status
+// Get venue display
+const venueDisplay = computed(() => {
+  if (!event.value?.venue) return 'Location not specified'
+  return event.value.venue.name
+})
+
+// Get availability status
 const availability = computed(() => {
   if (!event.value) return null
-  const capacity = 100 // This should come from the event data
-  const interested = event.value.stats?.interested || 0
-  if (interested >= capacity) return 'sold-out'
-  if (interested >= capacity * 0.8) return 'few-left'
+  const capacity = event.value.capacity || 100 // Default capacity if not specified
+  const guestsCount = event.value.guests?.length || 0
+
+  if (guestsCount >= capacity) return 'sold-out'
+  if (guestsCount >= capacity * 0.8) return 'few-left'
   return 'available'
 })
 
-// Going state
-const isGoing = ref(false)
-
-// Actions
-const handleShare = () => {
-  if (!event.value) return
-  console.log('Share event:', event.value.name)
-}
-
-const handleBookmark = () => {
-  if (!event.value) return
-  console.log('Bookmark event:', event.value.name)
-}
-
+// Action handlers
 const handleGoing = () => {
-  if (!event.value) return
   isGoing.value = !isGoing.value
-  console.log(
-    isGoing.value ? 'Going to event' : 'Not going to event',
-    event.value.name
-  )
+  // Add your logic to update the guest list
 }
-
-const dialog = useDialog()
 
 const handleBook = () => {
-  if (!event.value) return
-
-  const prices = event.value.prices
-
-  if (!prices || prices.length === 0) {
-    navigateTo(`/checkout/${event.value.id}`)
-    return
-  }
-
-  if (prices.length === 1) {
-    navigateTo(`/checkout/${event.value.id}?priceId=${prices[0].id}`)
-    return
-  }
-
-  dialog.open({
-    component: 'PricingOptionsDialog',
-    props: {
-      prices: prices,
-      onSelect: (selectedPrice: Price) => {
-        // Navigate to checkout with selected price
-        navigateTo(`/checkout/${event.value?.id}?priceId=${selectedPrice.id}`)
-      },
-    },
-  })
+  // Add your booking logic here
+  // For now, just log the action
+  console.log('Booking event:', event.value?.name)
 }
 
-interface Artist {
-  id: number
-  name: string
-  roles: string[]
-  image: string
+const fetchEvent = async () => {
+  loading.value = true
+  error.value = null
+
+  try {
+    const id = route.params.id
+    const response = await trpc.events.byId.query(id)
+    console.log('Event details:', response)
+    event.value = response
+  } catch (e) {
+    console.error('API error:', e)
+    error.value = e?.message || 'Failed to load event'
+  } finally {
+    loading.value = false
+  }
 }
 
-// Get artists for the event
-const eventArtists = computed(() => {
-  if (!event.value?.artists) return []
-  return event.value.artists
-    .map((id) => mockArtists.find((artist) => String(artist.id) === String(id)))
-    .filter((artist) => artist !== undefined)
+// Markdown renderer for description
+const renderedDescription = computed(() => {
+  if (!event.value?.description) return ''
+
+  // Very basic markdown rendering for demonstration
+  // In a real app, you'd use a proper markdown library
+  return event.value.description
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>')
+})
+
+// Fetch event data on component mount
+onMounted(() => {
+  fetchEvent()
 })
 </script>
 
 <template>
-  <div v-if="event">
+  <!-- Loading State -->
+  <div v-if="loading" class="min-h-screen flex items-center justify-center">
+    <div class="text-center">
+      <div
+        class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent align-[-0.125em]"
+      ></div>
+      <p class="mt-4 text-gray-600">Loading event details...</p>
+    </div>
+  </div>
+
+  <!-- Error State -->
+  <div v-else-if="error" class="min-h-screen flex items-center justify-center">
+    <div class="text-center">
+      <div class="text-red-500 text-5xl mb-4">⚠️</div>
+      <h2 class="text-2xl font-bold text-gray-900 mb-2">Error Loading Event</h2>
+      <p class="text-gray-500 mb-6">{{ error }}</p>
+      <Button @click="fetchEvent">Try Again</Button>
+    </div>
+  </div>
+
+  <!-- Event Content -->
+  <div v-else-if="event" class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
       <div
@@ -192,35 +172,33 @@ const eventArtists = computed(() => {
                   class="flex items-center justify-center md:justify-start gap-2 text-muted-foreground mb-2 md:mb-4"
                 >
                   <Icon name="ph:calendar" class="w-4 h-4 md:w-5 md:h-5" />
-                  <span class="text-sm md:text-base">{{ formattedDate }}</span>
+                  <span class="text-sm md:text-base">{{
+                    dateRangeDisplay
+                  }}</span>
                 </div>
+
                 <h1
                   class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-2 md:mb-4"
                 >
                   {{ event.name }}
                 </h1>
+
                 <div
                   class="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-4 text-muted-foreground mb-4 md:mb-6"
                 >
-                  <div class="flex items-center gap-2">
+                  <div v-if="event.venue" class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base"
-                      >{{ event.location.name }},
-                      {{ event.location.city }}</span
-                    >
+                    <span class="text-sm md:text-base">{{ venueDisplay }}</span>
                   </div>
-                  <div class="flex items-center gap-2">
+
+                  <div v-if="event.price" class="flex items-center gap-2">
                     <Icon name="ph:ticket" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{
-                      getPrice(event)
-                    }}</span>
+                    <span class="text-sm md:text-base">{{ event.price }}</span>
                   </div>
-                  <div
-                    v-if="event.type === 'workshop'"
-                    class="flex items-center gap-2"
-                  >
-                    <Icon name="ph:chart-line" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{ event.level }}</span>
+
+                  <div v-if="event.type" class="flex items-center gap-2">
+                    <Icon name="ph:music-notes" class="w-4 h-4 md:w-5 md:h-5" />
+                    <span class="text-sm md:text-base">{{ event.type }}</span>
                   </div>
                 </div>
 
@@ -249,31 +227,14 @@ const eventArtists = computed(() => {
 
                 <!-- Event Stats -->
                 <div
+                  v-if="event.guests"
                   class="flex justify-center md:justify-start gap-8 text-muted-foreground"
                 >
                   <div>
                     <div class="text-xl font-bold text-foreground">
-                      {{ event.stats?.interested || 0 }}
+                      {{ event.guests.length }}
                     </div>
                     <div class="text-sm">guests</div>
-                  </div>
-                  <div>
-                    <div class="text-xl font-bold text-foreground">
-                      {{ event.stats?.saves || 0 }}
-                    </div>
-                    <div class="text-sm">saves</div>
-                  </div>
-                  <div>
-                    <div class="text-xl font-bold text-foreground">
-                      {{ event.stats?.views || 20 }}
-                    </div>
-                    <div class="text-sm">views</div>
-                  </div>
-                  <div>
-                    <div class="text-xl font-bold text-foreground">
-                      {{ event.stats?.shares || 1 }}
-                    </div>
-                    <div class="text-sm">shares</div>
                   </div>
                 </div>
               </div>
@@ -283,10 +244,17 @@ const eventArtists = computed(() => {
                 class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
               >
                 <img
-                  :src="event.image || '/images/event-placeholder.jpg'"
+                  v-if="event.cover"
+                  :src="event.cover"
                   :alt="event.name"
                   class="w-full h-full object-cover"
                 />
+                <div
+                  v-else
+                  class="w-full h-full bg-gray-200 flex items-center justify-center"
+                >
+                  <span class="text-gray-400">No image available</span>
+                </div>
               </div>
             </div>
           </div>
@@ -297,230 +265,192 @@ const eventArtists = computed(() => {
     <!-- Main Content -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div
-        class="flex flex-col md:flex-row justify-center gap-8 max-w-7xl mx-auto"
+        class="flex flex-col lg:flex-row justify-center gap-8 max-w-7xl mx-auto"
       >
         <!-- Left Column: Details -->
-        <div class="space-y-8 max-w-xl">
+        <div class="space-y-8 lg:w-2/3">
           <!-- Description -->
-          <Post v-if="event" :post="eventToFeedPost(event)" />
+          <div class="bg-white rounded-xl shadow-sm p-6">
+            <h2 class="text-2xl font-bold mb-4">About this event</h2>
+            <div class="prose max-w-none" v-html="renderedDescription"></div>
+          </div>
 
           <!-- Schedule -->
-          <div v-if="event.schedule?.length">
+          <div v-if="event.startDate" class="bg-white rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">Schedule</h2>
             <div class="space-y-4">
-              <div
-                v-for="(item, index) in event.schedule"
-                :key="index"
-                class="bg-background rounded-lg border p-4"
-              >
-                <div class="flex items-start gap-4">
-                  <div
-                    class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
-                  >
-                    <Icon name="ph:clock" class="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <div class="font-medium">{{ item.time }}</div>
-                    <div class="text-muted-foreground">{{ item.activity }}</div>
-                    <p
-                      v-if="item.description"
-                      class="text-sm text-muted-foreground mt-1"
-                    >
-                      {{ item.description }}
-                    </p>
-                  </div>
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0"
+                >
+                  <Icon name="ph:clock" class="w-5 h-5 text-blue-600" />
+                </div>
+                <div>
+                  <div class="font-medium">{{ dateRangeDisplay }}</div>
+                  <div class="text-muted-foreground">{{ event.name }}</div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Artists -->
-          <div v-if="event.artists?.length && eventArtists.length > 0">
-            <h2 class="text-2xl font-bold mb-4">Featured Artists</h2>
-            <div class="grid sm:grid-cols-2 gap-4">
-              <div
-                v-for="artist in eventArtists"
-                :key="artist?.id"
-                class="bg-background rounded-lg border p-4 flex items-center gap-4"
+          <!-- Dance Styles -->
+          <div
+            v-if="event.styles?.length"
+            class="bg-white rounded-xl shadow-sm p-6"
+          >
+            <h2 class="text-2xl font-bold mb-4">Dance Styles</h2>
+            <div class="flex flex-wrap gap-2">
+              <Badge
+                v-for="style in event.styles"
+                :key="style.id"
+                variant="secondary"
+                class="px-3 py-1 text-sm"
               >
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden flex-shrink-0"
-                >
+                {{ style.name }}
+              </Badge>
+            </div>
+          </div>
+
+          <!-- Organizers -->
+          <div
+            v-if="event.organizer || event.creator"
+            class="bg-white rounded-xl shadow-sm p-6"
+          >
+            <h2 class="text-2xl font-bold mb-4">Organizers</h2>
+            <div class="space-y-4">
+              <div v-if="event.organizer" class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
                   <img
-                    :src="artist?.image"
-                    :alt="artist?.name"
+                    v-if="event.organizer.avatarUrl"
+                    :src="event.organizer.avatarUrl"
+                    :alt="event.organizer.name"
                     class="w-full h-full object-cover"
                   />
                 </div>
                 <div>
-                  <div class="font-medium">{{ artist?.name }}</div>
-                  <div class="text-sm text-muted-foreground">
-                    {{ artist?.roles?.join(', ') }}
-                  </div>
+                  <div class="font-bold">{{ event.organizer.name }}</div>
+                  <div class="text-sm text-gray-500">Organizer</div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <!-- Prerequisites & Policies -->
-          <div v-if="event.type === 'workshop'" class="space-y-8">
-            <div>
-              <h2 class="text-2xl font-bold mb-4">Prerequisites</h2>
-              <div class="bg-background rounded-lg border p-4">
-                <div class="flex items-start gap-4">
-                  <div
-                    class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
-                  >
-                    <Icon name="ph:info" class="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <div class="font-medium">Required Level</div>
-                    <p class="text-muted-foreground">
-                      This workshop is suitable for {{ event.level }} level
-                      dancers. Previous experience with
-                      {{ event.tags.join(' or ') }} is recommended.
-                    </p>
-                  </div>
+              <div
+                v-if="event.creator && event.creator.id !== event.organizer?.id"
+                class="flex items-center gap-4"
+              >
+                <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
+                  <img
+                    v-if="event.creator.avatarUrl"
+                    :src="event.creator.avatarUrl"
+                    :alt="event.creator.name"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <div class="font-bold">{{ event.creator.name }}</div>
+                  <div class="text-sm text-gray-500">Creator</div>
                 </div>
               </div>
-            </div>
-
-            <div>
-              <h2 class="text-2xl font-bold mb-4">Policies</h2>
-              <div class="space-y-4">
-                <div class="bg-background rounded-lg border p-4">
-                  <div class="flex items-start gap-4">
-                    <div
-                      class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
-                    >
-                      <Icon name="ph:scroll" class="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <div class="font-medium">Cancellation Policy</div>
-                      <p class="text-muted-foreground">
-                        Full refund up to 7 days before the event. 50% refund up
-                        to 48 hours before the event. No refunds within 48 hours
-                        of the event.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="bg-background rounded-lg border p-4">
-                  <div class="flex items-start gap-4">
-                    <div
-                      class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"
-                    >
-                      <Icon name="ph:users" class="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <div class="font-medium">Partner Requirements</div>
-                      <p class="text-muted-foreground">
-                        No partner required. We will rotate partners during the
-                        workshop to ensure everyone gets to practice with
-                        different dancers.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Related Events -->
-          <div v-if="relatedEvents.length > 0">
-            <h2 class="text-2xl font-bold mb-4">Related Events</h2>
-            <div class="grid sm:grid-cols-2 gap-4">
-              <EventCard
-                v-for="relatedEvent in relatedEvents"
-                :key="relatedEvent.id"
-                :event="relatedEvent"
-              />
             </div>
           </div>
         </div>
 
         <!-- Right Column: Sidebar -->
-        <div class="space-y-6">
+        <div class="space-y-6 lg:w-1/3">
           <!-- Guests section -->
-          <div class="bg-background rounded-xl border p-6">
+          <div class="bg-white rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Guests</h3>
             <Button class="w-full mb-6" variant="outline" @click="handleGoing">
               <Icon name="ph:users" class="w-5 h-5 mr-2" />
               {{ isGoing ? 'Leave Guest List' : 'Join Guest List' }}
             </Button>
-            <div class="space-y-3">
-              <div v-for="i in 5" :key="i" class="flex items-center gap-3">
+
+            <div v-if="event.guests?.length" class="space-y-3">
+              <div
+                v-for="guest in event.guests.slice(0, 5)"
+                :key="guest.id"
+                class="flex items-center gap-3"
+              >
                 <div
-                  class="w-10 h-10 rounded-full border-2 border-border overflow-hidden"
+                  class="w-10 h-10 rounded-full border-2 border-gray-200 overflow-hidden"
                 >
                   <img
-                    :src="`https://api.dicebear.com/7.x/avataaars/svg?seed=guest${i}`"
-                    :alt="'Guest ' + i"
+                    :src="
+                      guest.profile?.avatarUrl ||
+                      `https://api.dicebear.com/7.x/avataaars/svg?seed=${guest.id}`
+                    "
+                    :alt="guest.profile?.name || 'Guest'"
                     class="w-full h-full object-cover"
                   />
                 </div>
                 <div>
-                  <div class="font-medium">Guest {{ i }}</div>
-                  <div class="text-sm text-muted-foreground">Going</div>
+                  <div class="font-medium">
+                    {{ guest.profile?.name || 'Guest' }}
+                  </div>
+                  <div class="text-sm text-gray-500">Going</div>
                 </div>
               </div>
+
               <div
-                v-if="(event.stats?.interested || 0) > 5"
-                class="text-sm text-muted-foreground mt-2"
+                v-if="event.guests.length > 5"
+                class="text-sm text-gray-500 mt-2"
               >
-                and {{ (event.stats?.interested || 0) - 5 }} more guests
+                and {{ event.guests.length - 5 }} more guests
               </div>
+            </div>
+
+            <div v-else class="text-center text-gray-500 py-4">
+              <p>Be the first to join!</p>
             </div>
           </div>
 
           <!-- Location -->
-          <div class="bg-background rounded-xl border p-6">
+          <div v-if="event.venue" class="bg-white rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Location</h3>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
                 <Icon
                   name="ph:map-pin"
-                  class="w-5 h-5 text-primary flex-shrink-0 mt-1"
+                  class="w-5 h-5 text-blue-600 flex-shrink-0 mt-1"
                 />
                 <div>
-                  <div class="font-medium">{{ event.location.name }}</div>
-                  <div class="text-muted-foreground">
-                    {{ event.location.address }}
-                    <div>
-                      {{ event.location.city }}, {{ event.location.country }}
+                  <div class="font-medium">{{ event.venue.name }}</div>
+                  <div class="text-gray-500">
+                    {{ event.venue.address }}
+                    <div v-if="event.venue.city">
+                      {{ event.venue.city }}, {{ event.venue.country }}
                     </div>
                   </div>
                 </div>
               </div>
+
               <!-- Map placeholder -->
-              <div class="aspect-[4/3] bg-accent rounded-lg"></div>
+              <div class="aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden">
+                <img
+                  v-if="event.venue.mapUrl"
+                  :src="event.venue.mapUrl"
+                  alt="Map"
+                  class="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
 
           <!-- Price Details -->
-          <div
-            v-if="event.type === 'workshop' && event.prices?.length"
-            class="bg-background rounded-xl border p-6"
-          >
-            <h3 class="text-lg font-bold mb-4">Pricing Options</h3>
-            <div class="space-y-4">
-              <div
-                v-for="price in event.prices"
-                :key="price.name"
-                class="flex items-start justify-between gap-4 pb-4 border-b last:border-0 last:pb-0"
-              >
-                <div>
-                  <div class="font-medium">{{ price.name }}</div>
-                  <div class="text-sm text-muted-foreground">
-                    {{ price.description }}
-                  </div>
-                </div>
-                <div class="font-bold whitespace-nowrap">
-                  {{ price.amount }} {{ price.currency }}
+          <div v-if="event.price" class="bg-white rounded-xl shadow-sm p-6">
+            <h3 class="text-lg font-bold mb-4">Pricing</h3>
+            <div
+              class="flex items-center justify-between mb-6 p-3 bg-gray-50 rounded-lg"
+            >
+              <div>
+                <div class="font-medium">Standard Ticket</div>
+                <div v-if="event.type" class="text-sm text-gray-500">
+                  {{ event.type }}
                 </div>
               </div>
+              <div class="font-bold text-lg">{{ event.price }}</div>
             </div>
-            <Button class="w-full mt-6" variant="primary" @click="handleBook">
+
+            <Button class="w-full" variant="primary" @click="handleBook">
               <Icon name="ph:ticket" class="w-5 h-5 mr-2" />
               Book Now
             </Button>
@@ -533,12 +463,9 @@ const eventArtists = computed(() => {
   <!-- Empty State -->
   <div v-else class="min-h-screen flex items-center justify-center">
     <div class="text-center">
-      <Icon
-        name="ph:calendar-x"
-        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
-      />
-      <h2 class="text-2xl font-bold text-foreground mb-2">Event Not Found</h2>
-      <p class="text-muted-foreground mb-6">
+      <Icon name="ph:calendar-x" class="w-16 h-16 text-gray-400 mx-auto mb-4" />
+      <h2 class="text-2xl font-bold text-gray-900 mb-2">Event Not Found</h2>
+      <p class="text-gray-500 mb-6">
         The event you're looking for doesn't exist or has been removed.
       </p>
       <Button as-child>
@@ -547,3 +474,20 @@ const eventArtists = computed(() => {
     </div>
   </div>
 </template>
+
+<style>
+.prose {
+  max-width: 65ch;
+  line-height: 1.6;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.prose p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+</style>
