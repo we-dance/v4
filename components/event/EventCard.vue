@@ -1,97 +1,10 @@
 <script setup lang="ts">
-import type { AnyEvent } from '~/schemas/event'
 import { format, parseISO } from 'date-fns'
 import { computed } from 'vue'
 
 defineProps<{
   event: AnyEvent
 }>()
-
-// Format date properly
-const formattedDate = computed(() => {
-  try {
-    if (!props.event.startDate) return 'Date not specified'
-    return format(parseISO(props.event.startDate.toString()), 'MMM d, yyyy')
-  } catch (e) {
-    console.error('Date parsing error:', e)
-    return 'Date unavailable'
-  }
-})
-
-// Get event time in readable format
-const eventTime = computed(() => {
-  try {
-    if (!props.event.startDate) return ''
-    return format(parseISO(props.event.startDate.toString()), 'h:mm a')
-  } catch (e) {
-    return ''
-  }
-})
-
-// Determine event status
-const eventStatus = computed(() => {
-  try {
-    const now = new Date()
-    const startDate = props.event.startDate
-      ? new Date(props.event.startDate)
-      : null
-    const endDate = props.event.endDate ? new Date(props.event.endDate) : null
-
-    if (!startDate) return null
-
-    if (startDate > now) {
-      return { label: 'Upcoming', color: 'bg-blue-500' }
-    } else if (endDate && now > endDate) {
-      return { label: 'Ended', color: 'bg-gray-500' }
-    } else {
-      return { label: 'Happening Now', color: 'bg-green-500' }
-    }
-  } catch (e) {
-    return null
-  }
-})
-
-// Get price display
-const priceDisplay = computed(() => {
-  if (props.event.price === '0' || props.event.price === 0) return 'Free'
-
-  if (props.event.price) {
-    return `${props.event.price} ${props.event.currency || '€'}`
-  }
-
-  if (props.event.prices?.length) {
-    const lowestPrice = props.event.prices.reduce(
-      (min, p) => (p.amount < min.amount ? p : min),
-      props.event.prices[0]
-    )
-
-    if (lowestPrice.amount === 0) return 'Free'
-
-    // If there is more than one price, show "From"
-    const prefix = props.event.prices.length > 1 ? 'From ' : ''
-    return `${prefix}${lowestPrice.amount} ${lowestPrice.currency || '€'}`
-  }
-
-  return 'Paid'
-})
-
-// Extract location information
-const locationText = computed(() => {
-  if (typeof props.event.location === 'string') {
-    return props.event.location
-  }
-
-  if (props.event.location?.name) {
-    return props.event.location.name
-  }
-
-  return 'Location not specified'
-})
-
-// Handle image error
-const onImageError = (e) => {
-  e.target.src = '/images/event-placeholder.jpg'
-}
 </script>
 
 <template>
@@ -191,7 +104,7 @@ const onImageError = (e) => {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            <span class="truncate">{{ locationText }}</span>
+            <span class="truncate">{{ event.venue.name }}</span>
           </div>
 
           <!-- Price -->
@@ -216,7 +129,7 @@ const onImageError = (e) => {
               }"
               class="truncate font-medium"
             >
-              {{ priceDisplay }}
+              {{ event.price }}
             </span>
           </div>
         </div>
