@@ -19,9 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: corepack enable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v2
         with:
-          node_version: 20
+          node_version: 22
           cache: pnpm
 
       - name: Install dependencies
