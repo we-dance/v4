@@ -295,11 +295,11 @@ const handleFollow = () => {
             <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold text-foreground mb-4">Contact</h3>
               <Button class="w-full" variant="outline" @click="handleContact">
-               <NuxtLink to="/chat">
-                <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
-                Send Message
-              </NuxtLink>
-            </Button>
+                <NuxtLink to="/chat">
+                  <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
+                  Send Message
+                </NuxtLink>
+              </Button>
             </div>
           </div>
         </div>

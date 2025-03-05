@@ -2,6 +2,6 @@
 import ChatPage from './ChatPage.vue'
 </script>
 
-<template >
-    <ChatPage/>
+<template>
+  <ChatPage />
 </template>
