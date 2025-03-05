@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import { ref, computed } from 'vue'
+
 const emit = defineEmits<{
   (e: 'update:type', value: string): void
   (e: 'update:location', value: string | null): void
   (e: 'update:style', value: string | null): void
+  (e: 'open-chat'): void
 }>()
 
 const props = defineProps({
@@ -53,7 +56,12 @@ const clearLocationFilter = () => {
 
 const selectedType = computed({
   get: () => props.type,
-  set: (value) => emit('update:type', value),
+  set: (value) => {
+    emit('update:type', value)
+    if (value === 'note') {
+      emit('open-chat')
+    }
+  },
 })
 
 const selectedLocation = computed({
