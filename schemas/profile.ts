@@ -14,6 +14,7 @@ export const profileSchema = z.object({
   styles: z.array(z.string()).default([]),
   level: z.enum(['beginner', 'intermediate', 'advanced', 'master']).optional(),
   verified: z.boolean().default(false),
+  image: z.string().url().optional(),
   socialLinks: z
     .array(
       z.object({
@@ -139,6 +140,8 @@ export const artistProfileSchema = profileSchema.extend({
     .optional(),
   image: z.string().url().optional(),
   specialties: z.array(z.string()).default([]),
+  rating: z.number().min(0).max(5).optional(),
+  reviewCount: z.number().default(0),
 })
 
 export const organizerProfileSchema = profileSchema.extend({

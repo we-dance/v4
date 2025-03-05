@@ -105,11 +105,25 @@ model City {
 }
 
 model Profile {
-  id               String    @id @default(nanoid())
+  id               String    @id @default(cuid())
   username         String    @unique
+  type             String
+  name             String
+  roles            String[]  @default([])
+  location         String?
+  languages        String[]  @default([])
+  level            String?
+  specialties      String[]  @default([])
+  equipment        String[]  @default([])
+  instruments      String[]  @default([])
+  availability     Json?
+  experience       Json?
+  image            String?
+  followersCount   Int       @default(0)
+  rating           Float?    // For decimal ratings (e.g. 4.5)
+  reviewCount      Int       @default(0)
   firebaseUsername String    @default("")
   pronounce        String    @default("they")
-  name             String
   bio              String    @default("")
   story            String    @default("")
   firebaseId       String    @default("")
@@ -119,7 +133,6 @@ model Profile {
   lng              Float?
   lat              Float?
   placeId          String?
-  type             String
   photo            String?
   website          String?
   instagram        String?
@@ -138,11 +151,10 @@ model Profile {
   airbnb           String?
   blablacar        String?
   createdById      String?
-  lastLoginAt      DateTime?
+  lastLoginAt      DateTime? @updatedAt
   isDeleted        Boolean   @default(false)
   deletedAt        DateTime?
   deletedReason    String?
-  followersCount   Int       @default(0)
   followingCount   Int       @default(0)
   viewsCount       Int       @default(0)
   visibility       String    @default("Public")
@@ -156,26 +168,26 @@ model Profile {
   daysUsed         Int?      // Number of days used
   pwaUsed          Boolean?  // PWA usage
   oldCities        Json?     // Old cities structure
+  posts            Post[]
+  eventsCreated    Event[]   @relation("event_created_by")
+  eventsOrganized  Event[]   @relation("event_organized_by")
+  eventsHosted     Event[]   @relation("event_hosted_by")
+  createdBy        User?     @relation("profile_created_by", fields: [createdById], references: [id])
+  styles           Experience[]  @relation("profile_experience")
+  followers        ProfileFollower[] @relation("followers")
+  following        ProfileFollower[] @relation("following")
+  cities           CitySubscriber[]  @relation("cities")
+  eventsParticipated Guest[]         @relation("guest_profile")
+  videosAdded      Video[]         @relation("video_created_by")
+  votes            Vote[]          @relation("vote_created_by")
 
-  userId             String?           @unique
-  user               User?             @relation("owned_by", fields: [userId], references: [id])
-  cityId             String?
-  city               City?             @relation("profile_city", fields: [cityId], references: [id])
-  posts              Post[]
-  eventsCreated      Event[]           @relation("event_created_by")
-  eventsOrganized    Event[]           @relation("event_organized_by")
-  eventsHosted       Event[]           @relation("event_hosted_by")
-  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
-  styles             Experience[]      @relation("profile_experience")
-  followers          ProfileFollower[] @relation("followers")
-  following          ProfileFollower[] @relation("following")
-  cities             CitySubscriber[]  @relation("cities")
-  eventsParticipated Guest[]           @relation("guest_profile")
-  videosAdded        Video[]           @relation("video_created_by")
-  votes              Vote[]            @relation("vote_created_by")
+  userId           String?         @unique
+  user             User?           @relation("owned_by", fields: [userId], references: [id])
+  cityId           String?
+  city             City?           @relation("profile_city", fields: [cityId], references: [id])
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
 
   @@map("Profile")
 }

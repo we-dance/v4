@@ -318,7 +318,12 @@ export async function getUniqueUsername(name: string, count = 1) {
 
 export async function addProfile(profile: any) {
   const existingProfile = await prisma.profile.findFirst({
-    where: { id: profile.id },
+    where: {
+      OR: [
+        { username: profile.username || '' },
+        { id: profile.id }
+      ]
+    }
   })
   const exists = !!existingProfile
 
@@ -332,6 +337,13 @@ export async function addProfile(profile: any) {
 
   const pronounce = genderMap[profile.gender || 'Other']
 
+  // Convert string languages to array
+  const languagesArray = profile.languages 
+    ? (typeof profile.languages === 'string' 
+      ? profile.languages.split(' ') 
+      : profile.languages)
+    : []
+
   const data: any = {
     id: profile.id,
     username,
@@ -344,8 +356,8 @@ export async function addProfile(profile: any) {
     createdAt: getDateOrNow(profile.createdAt),
     updatedAt: getDateOrNow(profile.updatedAt),
     lastLoginAt: getDateOrNull(profile.lastLoginAt),
-    type: profile.type || 'FanPage',
-    photo: profile.photo || '',
+    type: profile.type === 'artist' ? 'Artist' : profile.type || 'FanPage',
+    image: profile.photo || profile.image || '',
     website: profile.website || '',
     instagram: profile.instagram || '',
     facebook: profile.facebook || '',
@@ -377,6 +389,13 @@ export async function addProfile(profile: any) {
     pwaUsed: profile.pwaUsed,
     oldCities: profile.cities ? profile.cities : null,
     birthday: profile.birthday ? new Date(profile.birthday) : null,
+    roles: profile.roles || [],
+    languages: languagesArray,
+    equipment: profile.equipment || [],
+    instruments: profile.instruments || [],
+    specialties: profile.specialties || [],
+    rating: profile.rating || null,
+    reviewCount: profile.reviewCount || 0,
   }
 
   if (profile.location) {

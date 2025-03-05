@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   css: ['~/assets/css/main.css'],
   build: {
     transpile: ['vee-validate'],
@@ -83,6 +84,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiHost: process.env.API_HOST || 'localhost:3000',
-    },
+    }
   },
 })

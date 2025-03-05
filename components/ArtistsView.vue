@@ -1,9 +1,7 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import ArtistCard from '@/components/ArtistCard.vue'
-import { mockArtists } from '@/data/mockArtists'
-
-const artists = mockArtists
+import { trpc } from '~/composables/trpc'
 
 // Primary filter states
 const searchQuery = ref('')
@@ -22,7 +20,62 @@ const selectedEquipment = ref('all')
 const selectedInstruments = ref('all')
 const selectedServices = ref([])
 
-// Filter options
+// TRPC fetch state
+const isLoading = ref(false)
+const cursor = ref(null)
+const limit = ref(10)
+const artists = ref([])
+const hasMoreItems = ref(true)
+
+// Get artists from TRPC
+const getArtists = async () => {
+  if (isLoading.value) return
+  
+  isLoading.value = true
+  try {
+    // Prepare filters for TRPC query
+    const filters = {
+      ...(selectedRole.value !== 'all' && { role: selectedRole.value }),
+      ...(selectedLanguage.value !== 'all' && { language: selectedLanguage.value }),
+      ...(selectedSpecialty.value !== 'all' && { specialty: selectedSpecialty.value }),
+      ...(showAvailable.value && { available: true }),
+    }
+    
+    const response = await trpc.profiles.getArtists.query({
+      cursor: cursor.value,
+      limit: limit.value,
+      filters
+    })
+    
+    if (cursor.value === null) {
+      artists.value = response.items
+    } else {
+      artists.value = [...artists.value, ...response.items]
+    }
+    
+    cursor.value = response.nextCursor
+    hasMoreItems.value = !!response.nextCursor
+  } catch (error) {
+    console.error('Failed to fetch artists:', error)
+  } finally {
+    isLoading.value = false
+  }
+}
+
+// Load initial data
+getArtists()
+
+// Watch for filter changes to reload data
+watch(
+  [selectedRole, selectedLanguage, selectedSpecialty, showAvailable],
+  () => {
+    cursor.value = null // Reset pagination
+    artists.value = [] // Clear existing data
+    getArtists() // Fetch with new filters
+  }
+)
+
+// Role options remain the same
 const roleOptions = [
   { value: 'all', label: 'All' },
   { value: 'instructor', label: 'Instructors' },
@@ -33,6 +86,7 @@ const roleOptions = [
   { value: 'videographer', label: 'Videographers' },
 ]
 
+// Other options (will be dynamically populated from actual data)
 const levelOptions = [
   { value: 'all', label: 'All Experience' },
   { value: 'master', label: 'Master' },
@@ -46,7 +100,30 @@ const teachingLevelOptions = [
   { value: 'advanced', label: 'Advanced Classes' },
 ]
 
-// Dynamic filter options based on role
+// Computed options based on fetched data
+const locationOptions = computed(() => {
+  const locations = new Set(
+    artists.value.map(
+      (artist) => artist.availability?.currentLocation || artist.location || ''
+    ).filter(Boolean)
+  )
+  return [
+    { value: 'all', label: 'All Locations' },
+    ...Array.from(locations).map((loc) => ({ value: loc, label: loc })),
+  ]
+})
+
+const languageOptions = computed(() => {
+  const languages = new Set(
+    artists.value.flatMap((artist) => artist.languages || []).filter(Boolean)
+  )
+  return [
+    { value: 'all', label: 'All Languages' },
+    ...Array.from(languages).map((lang) => ({ value: lang, label: lang })),
+  ]
+})
+
+// Dynamic filter options based on selected role
 const serviceOptions = computed(() => {
   switch (selectedRole.value) {
     case 'instructor':
@@ -65,13 +142,14 @@ const serviceOptions = computed(() => {
 })
 
 const specialtiesOptions = computed(() => {
-  const roleSpecificSpecialties = artists
+  const roleSpecificSpecialties = artists.value
     .filter(
       (artist) =>
         selectedRole.value === 'all' ||
-        artist.roles.includes(selectedRole.value)
+        artist.roles?.includes(selectedRole.value)
     )
     .flatMap((artist) => artist.specialties || [])
+    .filter(Boolean)
 
   const specialties = new Set(roleSpecificSpecialties)
   return [
@@ -82,12 +160,13 @@ const specialtiesOptions = computed(() => {
 
 const equipmentOptions = computed(() => {
   const equipment = new Set(
-    artists
+    artists.value
       .filter(
         (artist) =>
-          artist.roles.includes('dj') || artist.roles.includes('videographer')
+          artist.roles?.includes('dj') || artist.roles?.includes('videographer')
       )
       .flatMap((artist) => artist.equipment || [])
+      .filter(Boolean)
   )
   return [
     { value: 'all', label: 'All Equipment' },
@@ -97,9 +176,10 @@ const equipmentOptions = computed(() => {
 
 const instrumentOptions = computed(() => {
   const instruments = new Set(
-    artists
-      .filter((artist) => artist.roles.includes('musician'))
+    artists.value
+      .filter((artist) => artist.roles?.includes('musician'))
       .flatMap((artist) => artist.instruments || [])
+      .filter(Boolean)
   )
   return [
     { value: 'all', label: 'All Instruments' },
@@ -107,7 +187,7 @@ const instrumentOptions = computed(() => {
   ]
 })
 
-// Show filters based on role
+// Show filters based on role - remains the same
 const showTeachingLevels = computed(() => selectedRole.value === 'instructor')
 const showEquipment = computed(() =>
   ['dj', 'videographer'].includes(selectedRole.value)
@@ -117,45 +197,19 @@ const showServices = computed(() =>
   ['instructor', 'videographer'].includes(selectedRole.value)
 )
 
-// Get unique locations from artists
-const locationOptions = computed(() => {
-  const locations = new Set(
-    artists.map(
-      (artist) => artist.availability?.currentLocation || artist.location
-    )
-  )
-  return [
-    { value: 'all', label: 'All Locations' },
-    ...Array.from(locations).map((loc) => ({ value: loc, label: loc })),
-  ]
-})
-
-// Get unique languages from artists
-const languageOptions = computed(() => {
-  const languages = new Set(artists.flatMap((artist) => artist.languages || []))
-  return [
-    { value: 'all', label: 'All Languages' },
-    ...Array.from(languages).map((lang) => ({ value: lang, label: lang })),
-  ]
-})
-
+// Client-side filtering for remaining filters not handled by server
 const filteredResults = computed(() => {
-  let filtered = artists
+  let filtered = artists.value
 
+  // Client side search filtering
   if (searchQuery.value) {
     filtered = filtered.filter(
       (artist) =>
-        artist.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-        artist.roles.some((role) =>
+        artist.name?.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+        artist.roles?.some((role) =>
           role.includes(searchQuery.value.toLowerCase())
         ) ||
-        artist.location.toLowerCase().includes(searchQuery.value.toLowerCase())
-    )
-  }
-
-  if (selectedRole.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.roles.includes(selectedRole.value)
+        (artist.location?.toLowerCase().includes(searchQuery.value.toLowerCase()))
     )
   }
 
@@ -173,34 +227,10 @@ const filteredResults = computed(() => {
     )
   }
 
-  // Language filter
-  if (selectedLanguage.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.languages?.includes(selectedLanguage.value)
-    )
-  }
-
-  // Availability filter
-  if (showAvailable.value) {
-    filtered = filtered.filter(
-      (artist) =>
-        (artist.availability?.privateClasses ||
-          artist.availability?.workshops) &&
-        (!artist.availability?.touring || artist.availability?.currentLocation)
-    )
-  }
-
   // Teaching Level filter
   if (selectedTeachingLevel.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.experience?.teachingLevels?.includes(selectedTeachingLevel.value)
-    )
-  }
-
-  // Specialty filter
-  if (selectedSpecialty.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.specialties?.includes(selectedSpecialty.value)
     )
   }
 
@@ -211,14 +241,14 @@ const filteredResults = computed(() => {
     )
   }
 
-  // Equipment filter (for DJs and Videographers)
+  // Equipment filter
   if (selectedEquipment.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.equipment?.includes(selectedEquipment.value)
     )
   }
 
-  // Instruments filter (for Musicians)
+  // Instruments filter
   if (selectedInstruments.value !== 'all') {
     filtered = filtered.filter((artist) =>
       artist.instruments?.includes(selectedInstruments.value)
@@ -256,6 +286,11 @@ function clearFilters() {
   selectedEquipment.value = 'all'
   selectedInstruments.value = 'all'
   sortBy.value = 'relevance'
+  
+  // Reset and reload data
+  cursor.value = null
+  artists.value = []
+  getArtists()
 }
 
 function toggleService(service) {
@@ -266,16 +301,23 @@ function toggleService(service) {
   }
 }
 
-const showSearch = ref(false)
+// Function to load more items
+function loadMore() {
+  if (hasMoreItems.value && !isLoading.value) {
+    getArtists()
+  }
+}
 
+const showSearch = ref(false)
 const sortBy = ref('relevance')
 
+// Sorting logic remains client-side for now
 const sortedArtists = computed(() => {
   let results = filteredResults.value
 
   switch (sortBy.value) {
     case 'rating':
-      return [...results].sort((a, b) => b.rating - a.rating)
+      return [...results].sort((a, b) => (b.rating || 0) - (a.rating || 0))
     case 'near':
       // Fake distances from Munich in km
       const distances = {
@@ -296,8 +338,8 @@ const sortedArtists = computed(() => {
       }
 
       return [...results].sort((a, b) => {
-        const locA = a.availability?.currentLocation || a.location
-        const locB = b.availability?.currentLocation || b.location
+        const locA = a.availability?.currentLocation || a.location || ''
+        const locB = b.availability?.currentLocation || b.location || ''
         // If location isn't in our distances map, put it at the end
         const distA = distances[locA]
         const distB = distances[locB]
@@ -523,9 +565,32 @@ const sortedArtists = computed(() => {
       :artist="artist"
     />
 
+    <!-- Load More Button -->
+    <div v-if="hasMoreItems" class="col-span-full text-center py-4">
+      <Button 
+        @click="loadMore" 
+        :disabled="isLoading"
+        variant="outline"
+      >
+        <Icon v-if="isLoading" name="ph:spinner-gap" class="mr-2 h-4 w-4 animate-spin" />
+        {{ isLoading ? 'Loading...' : 'Load More' }}
+      </Button>
+    </div>
+
+    <!-- Loading Skeleton -->
+    <div v-if="isLoading && artists.length === 0" class="col-span-full">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div 
+          v-for="i in 6" 
+          :key="i" 
+          class="h-[280px] rounded-lg bg-gray-200 animate-pulse"
+        ></div>
+      </div>
+    </div>
+
     <!-- Empty State -->
     <div
-      v-if="sortedArtists.length === 0"
+      v-if="sortedArtists.length === 0 && !isLoading"
       class="col-span-full text-center py-12"
     >
       <Icon

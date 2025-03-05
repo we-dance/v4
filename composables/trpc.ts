@@ -74,5 +74,26 @@ export function useEventById(id: string) {
   )
 }
 
+export function useArtistsList(params: {
+  limit: number,
+  filters?: any
+}) {
+  return useInfiniteQuery(
+    ['profiles.getArtists', params],
+    async ({ pageParam = null }) => {
+      return client.profiles.getArtists.query({ 
+        ...params, 
+        cursor: pageParam 
+      })
+    },
+    {
+      getNextPageParam: (lastPage) => lastPage.nextCursor,
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      cacheTime: 1000 * 60 * 60 * 2, // 2 hours
+    }
+  )
+}
+
 // Export the client for direct usage if needed
 export { client as trpc }
