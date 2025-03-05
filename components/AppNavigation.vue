@@ -51,7 +51,7 @@ watch(
           </div>
         </div>
         <!-- Desktop Navigation -->
-        <div class="hidden sm:ml-6 mr-20 sm:flex sm:items-center gap-2">
+        <div  class="hidden sm:ml-6 mr-20 sm:flex sm:items-center gap-2">
           <Button
             as-child
             variant="ghost"
@@ -67,8 +67,8 @@ watch(
           <Button variant="ghost" @click="handleSearch">
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
-          <template v-if="auth.isAuthenticated">
-            <DropdownMenu>
+          <template v-if="auth.isAuthenticated ">
+            <DropdownMenu  >
               <DropdownMenuTrigger as-child>
                 <Button variant="ghost" size="icon">
                   <Icon name="lucide:user" class="h-4 w-4" />
@@ -79,6 +79,12 @@ watch(
                   <NuxtLink to="/profile">
                     <Icon name="lucide:user" class="mr-2 h-4 w-4" />
                     Profile
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/chat">
+                    <Icon  name="lucide:message-circle" class="mr-2 h-4 w-4" />
+                    Chat
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>

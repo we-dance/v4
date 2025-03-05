@@ -40,7 +40,7 @@
         v-for="(msg, index) in messages"
         :key="index"
         :class="[
-          'p-2.5 rounded-lg max-w-[80%]  shadow-sm transition-all animate-fade-in',
+          'p-2 rounded-lg max-w-[80%] h-16 shadow-sm transition-all animate-fade-in',
           msg.isUser
             ? 'ml-auto bg-black text-white rounded-br-none'
             : 'bg-gray-100 rounded-bl-none',
@@ -156,7 +156,7 @@ const props = defineProps({
     type: Array,
     default: () => [
       {
-        text: 'Hello! How can I help you with your dance journey today?',
+        text: 'Hello',
         isUser: false,
         timestamp: new Date(),
       },
