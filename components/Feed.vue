@@ -1,8 +1,20 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import UserPoints from '~/components/common/UserPoints.vue'
 
+const showChat = ref(false)
 const selectedType = ref('all')
+
+// When type is changed to 'note', we need to handle chat opening
+watch(selectedType, (newType) => {
+  if (newType === 'note') {
+    showChat.value = true
+  }
+})
+
+const handleOpenChat = () => {
+  showChat.value = true
+}
 
 const energyRewards = [
   { action: 'Create Article', energy: '+10', icon: 'ph:article' },
@@ -17,15 +29,15 @@ const energyRewards = [
   <div class="flex gap-8 mt-6">
     <!-- Left Sidebar -->
     <div class="hidden md:block w-60 flex-shrink-0">
-      <PostFilters v-model:type="selectedType" />
+      <PostFilters @open-chat="handleOpenChat" v-model:type="selectedType" />
     </div>
 
     <!-- Main Content -->
     <div class="flex-1 max-w-xl">
-      <Create class="mb-6" />
+      <Create v-model:show-chat="showChat" class="mb-6" />
       <!-- Mobile Filters -->
       <div class="md:hidden mb-6">
-        <PostFilters v-model:type="selectedType" />
+        <PostFilters @open-chat="handleOpenChat" v-model:type="selectedType" />
       </div>
       <PostList :type="selectedType" />
     </div>

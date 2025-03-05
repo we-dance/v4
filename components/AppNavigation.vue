@@ -82,6 +82,12 @@ watch(
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>
+                  <NuxtLink to="/chat">
+                    <Icon name="lucide:message-circle" class="mr-2 h-4 w-4" />
+                    Chat
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
                   <NuxtLink to="/settings">
                     <Icon name="lucide:settings" class="mr-2 h-4 w-4" />
                     Settings
