@@ -1,5 +1,5 @@
-import { mockArtists } from '~/data/mockArtists'
-import { type Course } from '~/schemas/course'
+import { mockArtists } from './mockArtists'
+import { type Course } from '../schemas/course'
 
 const instructor = mockArtists.find((artist) => artist.id === 1)!
 if (!instructor) {

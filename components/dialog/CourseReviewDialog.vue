@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { Button } from '~/components/ui/button'
 import { Textarea } from '~/components/ui/textarea'
+import { Input } from '~/components/ui/input'
 import {
   Dialog,
   DialogContent,
@@ -12,34 +13,54 @@ import {
 } from '~/components/ui/dialog'
 
 const props = defineProps<{
-  course: any
-  onSubmit: (review: { rating: number; reviewBody: string }) => void
+  courseName: string;
+  onSubmit: (review: { 
+    rating: number; 
+    comment: string;
+    reviewerName: string;
+  }) => void;
 }>()
 
 const rating = ref(5)
-const reviewBody = ref('')
+const comment = ref('')
+const reviewerName = ref('')
 
 const handleSubmit = () => {
   props.onSubmit({
     rating: rating.value,
-    reviewBody: reviewBody.value,
+    comment: comment.value,
+    reviewerName: reviewerName.value || 'Anonymous User',
   })
+  
+  // Закрываем диалог
+  const dialog = useDialog()
+  dialog.close()
 }
 </script>
 
 <template>
   <DialogContent>
     <DialogHeader>
-      <DialogTitle>Leave a Review</DialogTitle>
+      <DialogTitle>Оставить отзыв</DialogTitle>
       <DialogDescription>
-        Share your learning experience for "{{ course.name }}"
+        Поделитесь своими впечатлениями о курсе "{{ courseName }}"
       </DialogDescription>
     </DialogHeader>
 
     <div class="space-y-4">
-      <!-- Rating Stars -->
+      <!-- Имя пользователя -->
       <div class="space-y-2">
-        <label class="text-sm font-medium">Rating</label>
+        <label for="reviewer-name" class="text-sm font-medium">Ваше имя</label>
+        <Input
+          id="reviewer-name"
+          v-model="reviewerName"
+          placeholder="Введите ваше имя"
+        />
+      </div>
+      
+      <!-- Рейтинг -->
+      <div class="space-y-2">
+        <label class="text-sm font-medium">Рейтинг</label>
         <div class="flex items-center gap-1">
           <button
             v-for="i in 5"
@@ -57,13 +78,13 @@ const handleSubmit = () => {
         </div>
       </div>
 
-      <!-- Review Text -->
+      <!-- Текст отзыва -->
       <div class="space-y-2">
-        <label for="review" class="text-sm font-medium">Your Review</label>
+        <label for="review" class="text-sm font-medium">Ваш отзыв</label>
         <Textarea
           id="review"
-          v-model="reviewBody"
-          placeholder="Share your experience..."
+          v-model="comment"
+          placeholder="Поделитесь своими впечатлениями..."
           rows="4"
         />
       </div>
@@ -73,11 +94,11 @@ const handleSubmit = () => {
       <Button
         type="button"
         variant="outline"
-        @click="$emit('update:open', false)"
+        @click="useDialog().close()"
       >
-        Cancel
+        Отмена
       </Button>
-      <Button type="button" @click="handleSubmit">Submit</Button>
+      <Button type="button" @click="handleSubmit">Отправить</Button>
     </DialogFooter>
   </DialogContent>
 </template>

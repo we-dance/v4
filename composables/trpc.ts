@@ -74,5 +74,60 @@ export function useEventById(id: string) {
   )
 }
 
+// Courses API
+export function useCoursesList(params: {
+  limit?: number
+  level?: string
+  style?: string
+  priceRange?: string
+  rating?: string
+  searchQuery?: string
+}) {
+  return useInfiniteQuery(
+    ['courses.getAll', params],
+    async ({ pageParam = undefined }) => {
+      return client.courses.getAll.query({ 
+        ...params, 
+        cursor: pageParam, 
+        limit: params.limit || 10 
+      })
+    },
+    {
+      getNextPageParam: (lastPage) => lastPage.nextCursor,
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      cacheTime: 1000 * 60 * 60 * 2, // 2 hours
+    }
+  )
+}
+
+export function useCourseById(id: string) {
+  return useQuery(
+    ['courses.byId', id],
+    async () => {
+      return client.courses.byId.query(id)
+    },
+    {
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      cacheTime: 1000 * 60 * 60 * 2, // 2 hours
+    }
+  )
+}
+
+export function useCourseBySlug(slug: string) {
+  return useQuery(
+    ['courses.bySlug', slug],
+    async () => {
+      return client.courses.bySlug.query(slug)
+    },
+    {
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      cacheTime: 1000 * 60 * 60 * 2, // 2 hours
+    }
+  )
+}
+
 // Export the client for direct usage if needed
 export { client as trpc }

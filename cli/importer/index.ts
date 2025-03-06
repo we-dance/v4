@@ -14,6 +14,7 @@ import {
 } from './profile'
 import { addAccount } from './account'
 import { addDanceStyle, clearVotes } from './style'
+import { importCourses } from './course'
 import * as cliProgress from 'cli-progress'
 import { getLogger } from '../utils/logger'
 
@@ -331,4 +332,42 @@ export async function importEvents(multibar: cliProgress.MultiBar) {
   }
 
   bar.stop()
+}
+
+export async function importCoursesFromMock(multibar: cliProgress.MultiBar) {
+  let collection = 'courses'
+  const logger = getLogger(collection)
+  logger.info('Importing courses from mockCourses.ts')
+
+  try {
+    const bar = multibar.create(1, 0, {
+      collection,
+      created: 0,
+      ignored: 0,
+      failed: 0,
+      updated: 0,
+    })
+    
+    await importCourses()
+    
+    bar.update(1, {
+      created: 1,
+      ignored: 0,
+      failed: 0,
+      updated: 0,
+    })
+    
+    bar.stop()
+    
+    logger.info('Finished importing courses')
+    return {
+      created: 1,
+      ignored: 0,
+      failed: 0,
+      updated: 0,
+    }
+  } catch (error: any) {
+    logger.error(`Error importing courses: ${error.message}`)
+    throw error
+  }
 }
