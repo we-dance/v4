@@ -7,24 +7,24 @@ definePageMeta({
 <template>
   <div class="container py-6 space-y-6">
     <div class="flex justify-between items-center">
-      <h1 class="text-3xl font-bold">Events</h1>
+      <h1 class="text-3xl font-bold">Courses</h1>
       <Button asChild>
-        <NuxtLink to="/admin/events/create"> Create Event </NuxtLink>
+        <NuxtLink to="/admin/courses/create">Create Course</NuxtLink>
       </Button>
     </div>
 
     <div class="flex items-center gap-2">
-      <Input placeholder="Search events..." class="max-w-sm" />
+      <Input placeholder="Search courses..." class="max-w-sm" />
       <Select>
         <SelectTrigger class="w-[180px]">
-          <SelectValue placeholder="All Types" />
+          <SelectValue placeholder="All Categories" />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="all">All Types</SelectItem>
-          <SelectItem value="class">Class</SelectItem>
-          <SelectItem value="party">Party</SelectItem>
-          <SelectItem value="festival">Festival</SelectItem>
-          <SelectItem value="workshop">Workshop</SelectItem>
+          <SelectItem value="all">All Categories</SelectItem>
+          <SelectItem value="dance">Dance</SelectItem>
+          <SelectItem value="music">Music</SelectItem>
+          <SelectItem value="art">Art</SelectItem>
+          <SelectItem value="other">Other</SelectItem>
         </SelectContent>
       </Select>
     </div>
@@ -33,11 +33,11 @@ definePageMeta({
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead>Name</TableHead>
-            <TableHead>Type</TableHead>
-            <TableHead>Date</TableHead>
+            <TableHead>Title</TableHead>
+            <TableHead>Instructor</TableHead>
+            <TableHead>Price</TableHead>
+            <TableHead>Category</TableHead>
             <TableHead>Status</TableHead>
-            <TableHead>Bookings</TableHead>
             <TableHead class="text-right">Actions</TableHead>
           </TableRow>
         </TableHeader>
@@ -47,7 +47,7 @@ definePageMeta({
               colspan="6"
               class="text-center py-6 text-muted-foreground"
             >
-              No events found
+              No courses found
             </TableCell>
           </TableRow>
         </TableBody>
