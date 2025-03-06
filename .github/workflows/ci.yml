@@ -18,16 +18,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - run: npm i -g corepack@latest && corepack enable
       - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-
-      - name: Install pnpm 
-        run: npm install -g pnpm
-
-      - name: Verify pnpm installation
-        run: pnpm --version
 
       - name: Install dependencies
         run: pnpm install
