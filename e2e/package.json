@@ -8,6 +8,7 @@
   "dependencies": {
     "@cucumber/cucumber": "^9.5.1",
     "@playwright/test": "^1.40.1",
-    "playwright": "^1.40.1"
+    "playwright": "^1.40.1",
+    "wedance-e2e": "file:"
   }
 }

@@ -3,6 +3,8 @@ import { mockEvents } from '@/data/mockEvents'
 import { mockCourses } from '@/data/mockCourses'
 import type { AnyEvent, Price } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
+import { useCourseProgress } from '~/composables/useCourseProgress'
+const { updateLessonUnlockStatus } = useCourseProgress()
 
 interface CoursePrice {
   amount: number
@@ -300,6 +302,7 @@ const handleEmailCheck = async () => {
   checkoutState.value = exists ? 'login' : 'register'
 }
 
+// after subscription, redirect to success page, meanwhile change lesson status to locked: true
 const handleSubmit = async () => {
   if (!item.value) return
 
@@ -316,7 +319,14 @@ const handleSubmit = async () => {
       // Here you would integrate with your payment provider
       // For now, we'll simulate a successful booking
       await new Promise((resolve) => setTimeout(resolve, 1000))
-
+      // change lesson status to locked: true
+      // item.value.id === course.identifier
+      const result = await updateLessonUnlockStatus(item.value.id, false)
+      if (result) {
+        console.log('Lesson status updated to locked: false')
+      } else {
+        console.log('Failed to update lesson status')
+      }
       // Redirect to success page
       navigateTo(`/checkout/${item.value.id}/success`)
     }
