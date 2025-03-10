@@ -12,7 +12,7 @@ WeDance is a participatory network that empowers dance communities by providing 
 ## 🌟 Tech Stack
 
 - **Frontend**: Nuxt 3
-- **Backend**: Nodejs + Prisma + tRPC
+- **Backend**: Node.js + Prisma + tRPC
 - **UI Components**: Vue Shadcn
 - **Styling**: TailwindCSS
 - **Form Handling**: VeeValidate + Zod
