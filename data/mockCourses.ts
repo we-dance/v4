@@ -387,7 +387,7 @@ const mockCoursesData: Course[] = [
     '@type': 'Course',
     '@id': 'salsa-lady-styling',
     identifier: 'salsa-lady-styling-2024',
-    name: 'Salsa Lady Styling',
+    name: 'Salsa Ladies Styling',
     subscriptionControl: {
       showTrial: false,
       showMonthlyAnnualToggle: false,
@@ -743,27 +743,11 @@ const mockCoursesData: Course[] = [
     learningResources: [
       {
         '@type': 'LearningResource',
-        id: 1,
-        name: 'Lady Styling Practice Guide',
-        learningResourceType: 'pdf',
-        contentSize: '3.0 MB',
-        icon: 'ph:file-pdf',
-      },
-      {
-        '@type': 'LearningResource',
         id: 2,
         name: 'Son Cubano Playlist',
         learningResourceType: 'playlist',
         contentSize: '15 songs',
         icon: 'ph:music-notes',
-      },
-      {
-        '@type': 'LearningResource',
-        id: 3,
-        name: 'Arm and Leg Drills',
-        learningResourceType: 'video',
-        contentSize: '20 min',
-        icon: 'ph:video',
       },
     ],
 

@@ -8,7 +8,7 @@ providerCreatedAt: 1723844252000
 updatedAt: 1728417884274
 importedAt: 1728417884274
 providerUpdatedAt: 1728375233000
-facebookId: "876160157196417"
+facebookId: '876160157196417'
 facebook: https://www.facebook.com/events/876160157196417/
 isNew: true
 facebookUrlsList:
@@ -52,8 +52,8 @@ venue:
   address_components:
     - types:
         - street_number
-      short_name: "2"
-      long_name: "2"
+      short_name: '2'
+      long_name: '2'
     - types:
         - route
       short_name: Peltolantie
@@ -85,13 +85,13 @@ venue:
       long_name: Finland
     - types:
         - postal_code
-      short_name: "01300"
-      long_name: "01300"
+      short_name: '01300'
+      long_name: '01300'
   place_id: ChIJs0nnRb8HkkYRY7IwxyU-e5I
   url: https://maps.google.com/?q=Peltolantie+2,+01300+Vantaa,+Finland&ftid=0x469207bf45e749b3:0x927b3e25c730b263
 visibility: Public
 org:
-  owner: ""
+  owner: ''
   importedAt: 1728417986113
   import: success
   visibility: Public
@@ -106,7 +106,7 @@ org:
   updatedAt: 1728417986113
   username: tanssikoulu.bailamas
 claimed: No
-link: ""
+link: ''
 description: >
   Amanda Barreiro pitää Styling for Ladies Bachata and Salsa -tiiviskurssin
   lauantaina 26.10.2024, rav. Shamrock (yläkerta), Peltolantie 2, Tikkurila.
@@ -137,7 +137,7 @@ description: >
 
   from 12:30 to 14:00 Bachata Lady Style
 
-  from 14:00 to 15:30 Salsa Lady Style
+  from 14:00 to 15:30 Salsa Ladies Style
 
 
   Feminine bachata and salsa! The goal is that everyone will be able to discover something new and wonderful in their own mobility and dance!
@@ -157,14 +157,14 @@ description: >
 program: []
 source: facebook
 type: event
-cover: ""
+cover: ''
 duration: 60
 form: No
 artists: []
 watch:
   count: 0
   usernames: []
-price: ""
+price: ''
 online: No
 place: ChIJtUU4OrgHkkYRT4ChMnbNt-I
 international: No

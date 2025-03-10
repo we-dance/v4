@@ -55,9 +55,9 @@
           <Label>Price Range</Label>
           <Select v-model="filters.priceRange">
             <option value="">Any Price</option>
-            <option value="0-10">Under €10/mo</option>
-            <option value="10-20">€10-20/mo</option>
-            <option value="20+">Over €20/mo</option>
+            <option value="0-10">Under €10</option>
+            <option value="10-20">€10-20</option>
+            <option value="20+">Over €20</option>
           </Select>
         </div>
         <div class="space-y-2">
@@ -178,7 +178,7 @@ const activeFiltersCount = computed(() => {
 const getMonthlyPrice = (course: Course) => {
   const monthlyOffer = course.offers?.find((offer) => offer.duration === 'P1M')
   if (monthlyOffer) {
-    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}/mo`
+    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
   }
   return 'Contact for pricing'
 }

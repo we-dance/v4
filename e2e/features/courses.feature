@@ -9,7 +9,7 @@
 
     Scenario: User journey Yarima class
       When I visit the courses page
-      And I click on "Salsa Lady Styling" course
+      And I click on "Salsa Ladies Styling" course
       Then I should be redirected to the course details page
       When I click on "View Pricing Plans" button
       Then I should see a dialog with title "Choose Your Plan"

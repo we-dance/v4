@@ -261,7 +261,7 @@ const selectedPrice = computed(() => {
 const displayInterval = computed(() => {
   if (!selectedPrice.value || !('interval' in selectedPrice.value)) return null
   if (selectedPrice.value.interval === 'trial') return null
-  return selectedPrice.value.interval === 'annual' ? 'year' : 'month'
+  return selectedPrice.value.interval === 'annual' ? 'year' : ''
 })
 
 // Get final price for checkout
@@ -398,7 +398,7 @@ const isEventItem = (
                 <div class="font-medium">
                   {{
                     checkoutPrice.type === 'subscription'
-                      ? 'Subscription Plan'
+                      ? 'One-Time Payment'
                       : checkoutPrice.type === 'trial'
                         ? 'Free Trial'
                         : checkoutPrice.name
@@ -409,7 +409,7 @@ const isEventItem = (
                     {{
                       displayInterval === 'year'
                         ? 'Billed annually'
-                        : 'Billed monthly'
+                        : 'Lifetime Access'
                     }}
                   </template>
                   <template v-else>
@@ -427,7 +427,7 @@ const isEventItem = (
                     v-if="checkoutPrice.type === 'subscription'"
                     class="text-sm font-normal text-muted-foreground"
                   >
-                    /{{ displayInterval }}
+                    {{ displayInterval }}
                   </span>
                 </template>
               </div>

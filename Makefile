@@ -1,4 +1,3 @@
-# Load the .env file
 ifneq (,$(wildcard .env))
     include .env
     export
@@ -7,8 +6,6 @@ endif
 build:
 	@echo "Starting database"
 	docker compose up -d
-	@echo "Switching node version"
-	. ${NVM_DIR}/nvm.sh && nvm use
 	@echo "Installing dependencies"
 	pnpm install
 	@echo "Resetting the database"

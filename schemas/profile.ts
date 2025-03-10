@@ -96,6 +96,17 @@ export const profileSchema = z.object({
         showPhone: false,
       },
     }),
+  visibility: z.string().default('Public'),
+  timezone: z.string().optional(),
+  locales: z.any().optional(),
+  gender: z.string().optional(),
+  birthday: z.date().optional(),
+  objectives: z.any().optional(),
+  step: z.string().optional(),
+  invitedBy: z.string().optional(),
+  daysUsed: z.number().optional(),
+  pwaUsed: z.boolean().optional(),
+  oldCities: z.any().optional(),
 })
 
 export type Profile = z.infer<typeof profileSchema>

@@ -145,6 +145,17 @@ model Profile {
   followersCount   Int       @default(0)
   followingCount   Int       @default(0)
   viewsCount       Int       @default(0)
+  visibility       String    @default("Public")
+  timezone         String?
+  locales          Json?     // JSON for storing languages
+  gender           String?   // Keep original value
+  birthday         DateTime?
+  objectives       Json?     // User's objectives
+  step             String?   // Step of registration
+  invitedBy        String?   // ID of the user who invited the current user
+  daysUsed         Int?      // Number of days used
+  pwaUsed          Boolean?  // PWA usage
+  oldCities        Json?     // Old cities structure
 
   userId             String?           @unique
   user               User?             @relation("owned_by", fields: [userId], references: [id])

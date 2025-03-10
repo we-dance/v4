@@ -60,5 +60,19 @@ export function useUpdateStats() {
   })
 }
 
+export function useEventById(id: string) {
+  return useQuery(
+    ['events.byId', id],
+    async () => {
+      return client.events.byId.query(id)
+    },
+    {
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      cacheTime: 1000 * 60 * 60 * 2, // 2 hours
+    }
+  )
+}
+
 // Export the client for direct usage if needed
 export { client as trpc }
