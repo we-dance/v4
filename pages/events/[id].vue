@@ -301,6 +301,7 @@ const eventArtists = computed(() => {
       >
         <!-- Left Column: Details -->
         <div class="space-y-8 max-w-xl">
+          <postEventUpdate />
           <!-- Description -->
           <Post v-if="event" :post="eventToFeedPost(event)" />
 

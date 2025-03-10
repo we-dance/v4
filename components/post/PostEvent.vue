@@ -39,7 +39,6 @@ const eventData = computed<AnyEvent>(() => ({
 
 <template>
   <div class="flex-1 flex flex-col">
-    <PostEventUpdate />
     <div class="px-4">
       <p class="text-muted-foreground">{{ content.description }}</p>
     </div>
