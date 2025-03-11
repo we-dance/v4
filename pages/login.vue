@@ -15,6 +15,10 @@ const formSchema = z.object({
 
 const form = useForm({
   validationSchema: toTypedSchema(formSchema),
+  initialValues: {
+    email: '',
+    password: '',
+  },
 })
 
 const onSubmit = form.handleSubmit(
@@ -58,7 +62,7 @@ const onSubmit = form.handleSubmit(
                   :disabled="auth.isLoading"
                 />
               </FormControl>
-              <FormMessage />
+              <FormMessage>{{ form.errors.value.email }}</FormMessage>
             </FormItem>
           </FormField>
 
@@ -73,7 +77,7 @@ const onSubmit = form.handleSubmit(
                   :disabled="auth.isLoading"
                 />
               </FormControl>
-              <FormMessage />
+              <FormMessage>{{ form.errors.value.password }}</FormMessage>
             </FormItem>
           </FormField>
 
