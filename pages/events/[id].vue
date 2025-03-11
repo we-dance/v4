@@ -268,11 +268,8 @@ onMounted(() => {
         class="flex flex-col lg:flex-row justify-center gap-8 max-w-7xl mx-auto"
       >
         <!-- Left Column: Details -->
-        feature-branch
-        <div class="space-y-8 max-w-xl">
-          <postEventUpdate />
         <div class="space-y-8 lg:w-2/3">
-main
+          <postEventUpdate />
           <!-- Description -->
           <div class="bg-white rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">About this event</h2>
