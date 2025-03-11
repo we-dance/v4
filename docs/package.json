@@ -1,0 +1,32 @@
+{
+  "name": "docus-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxt-themes/docus": "^1.15.1",
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/plausible": "^1.0.3",
+    "@types/node": "^20.11.24",
+    "@vue/language-core": "1.8.27",
+    "eslint": "^8.57.0",
+    "nuxt": "^3.10.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fuse.js": "^7",
+    "style-dictionary": "^3.9.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@vue/language-core": "1.8.27"
+    }
+  }
+}
