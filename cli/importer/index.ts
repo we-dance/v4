@@ -347,18 +347,18 @@ export async function importCoursesFromMock(multibar: cliProgress.MultiBar) {
       failed: 0,
       updated: 0,
     })
-    
+
     await importCourses()
-    
+
     bar.update(1, {
       created: 1,
       ignored: 0,
       failed: 0,
       updated: 0,
     })
-    
+
     bar.stop()
-    
+
     logger.info('Finished importing courses')
     return {
       created: 1,

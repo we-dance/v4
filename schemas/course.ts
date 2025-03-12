@@ -155,7 +155,7 @@ export const courseLessonSchema = z.object({
   order: z.number().optional(),
   locked: z.boolean().optional(),
   completed: z.boolean().optional(),
-  identifier: z.number().optional()
+  identifier: z.number().optional(),
 })
 
 export const courseModuleSchema = z.object({
@@ -164,7 +164,7 @@ export const courseModuleSchema = z.object({
   description: z.string().optional(),
   order: z.number().optional(),
   identifier: z.number().optional(), // для обратной совместимости
-  lessons: z.array(courseLessonSchema).optional()
+  lessons: z.array(courseLessonSchema).optional(),
 })
 
 // Расширяем основную схему курса

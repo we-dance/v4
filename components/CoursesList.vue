@@ -54,7 +54,10 @@
         </div>
         <div class="space-y-2">
           <Label>Price Range</Label>
-          <Select v-model="filters.priceRange" @update:model-value="refreshResults">
+          <Select
+            v-model="filters.priceRange"
+            @update:model-value="refreshResults"
+          >
             <option value="">Any Price</option>
             <option value="0-10">Under €10</option>
             <option value="10-20">€10-20</option>
@@ -79,28 +82,31 @@
 
     <!-- Course Grid -->
     <div v-if="isLoading" class="flex justify-center items-center py-12">
-      <div class="animate-spin w-8 h-8 border-4 border-primary border-t-transparent rounded-full"></div>
+      <div
+        class="animate-spin w-8 h-8 border-4 border-primary border-t-transparent rounded-full"
+      ></div>
     </div>
-    
-    <div v-else-if="courses && courses.length" class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card
-        v-for="course in courses"
-        :key="course.id"
-        class="group"
-      >
-        <NuxtLink 
+
+    <div
+      v-else-if="courses && courses.length"
+      class="grid grid-cols-1 md:grid-cols-3 gap-8"
+    >
+      <Card v-for="course in courses" :key="course.id" class="group">
+        <NuxtLink
           :to="`/courses/${course.slug}`"
-          @click="() => {
-            console.log('Clicking course:', course);
-            console.log('Course details:', {
-              id: course.id,
-              slug: course.slug,
-              name: course.name,
-              instructor: course.instructor,
-              metadata: course.metadata
-            });
-            console.log('Navigation target:', `/courses/${course.slug}`);
-          }"
+          @click="
+            () => {
+              console.log('Clicking course:', course)
+              console.log('Course details:', {
+                id: course.id,
+                slug: course.slug,
+                name: course.name,
+                instructor: course.instructor,
+                metadata: course.metadata,
+              })
+              console.log('Navigation target:', `/courses/${course.slug}`)
+            }
+          "
           class="block"
         >
           <CardHeader class="space-y-4">
@@ -121,7 +127,10 @@
             </div>
           </CardHeader>
           <CardContent class="space-y-4">
-            <div class="flex items-center gap-3" v-if="course.instructor && course.instructor.name">
+            <div
+              class="flex items-center gap-3"
+              v-if="course.instructor && course.instructor.name"
+            >
               <img
                 :src="course.instructor.image || '/images/default-avatar.png'"
                 :alt="course.instructor.name"
@@ -148,7 +157,12 @@
                 <Icon name="ph:star-fill" class="w-4 h-4 text-yellow-400" />
                 <span>{{ getAverageRating(course) }}</span>
                 <span class="text-muted-foreground">
-                  ({{ course.aggregateRating?.reviewCount || course.review?.length || course.reviews?.length || 0 }})
+                  ({{
+                    course.aggregateRating?.reviewCount ||
+                    course.review?.length ||
+                    course.reviews?.length ||
+                    0
+                  }})
                 </span>
               </div>
               <div class="font-medium">
@@ -162,9 +176,15 @@
 
     <!-- Load More Button -->
     <div v-if="hasNextPage" class="flex justify-center mt-8">
-      <Button variant="outline" @click="fetchNextPage" :disabled="isFetchingNextPage">
+      <Button
+        variant="outline"
+        @click="fetchNextPage"
+        :disabled="isFetchingNextPage"
+      >
         <span v-if="isFetchingNextPage" class="mr-2">
-          <span class="inline-block w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin"></span>
+          <span
+            class="inline-block w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin"
+          ></span>
         </span>
         {{ isFetchingNextPage ? 'Loading more...' : 'Load more' }}
       </Button>
@@ -235,20 +255,20 @@ const activeFiltersCount = computed(() => {
 })
 
 // tRPC query for courses
-const { 
+const {
   data: coursesData,
   isLoading,
   fetchNextPage,
   hasNextPage,
   isFetchingNextPage,
-  refetch
+  refetch,
 } = useCoursesList({
   limit: 12,
   level: filters.value.level,
   style: filters.value.style,
   priceRange: filters.value.priceRange,
   rating: filters.value.rating,
-  searchQuery: searchQuery.value
+  searchQuery: searchQuery.value,
 })
 
 // Extract flat list of courses from all pages
@@ -257,19 +277,22 @@ const courses = computed(() => {
     console.log('No courses data available')
     return []
   }
-  
+
   console.log('Raw courses data:', coursesData.value)
   console.log('Pages:', coursesData.value.pages)
   console.log('Page params:', coursesData.value.pageParams)
-  
-  const flattenedCourses = coursesData.value.pages.flatMap(page => {
+
+  const flattenedCourses = coursesData.value.pages.flatMap((page) => {
     console.log('Processing page:', page)
     console.log('Page items:', page.items)
     return page.items
   })
-  
+
   console.log('Flattened courses:', flattenedCourses)
-  console.log('Course slugs:', flattenedCourses.map(c => c.slug))
+  console.log(
+    'Course slugs:',
+    flattenedCourses.map((c) => c.slug)
+  )
   return flattenedCourses
 })
 
@@ -279,9 +302,9 @@ const getCourseImage = (course: any) => {
   console.log('Course data:', {
     image: course.image,
     metadata: course.metadata,
-    instructor: course.instructor
+    instructor: course.instructor,
   })
-  
+
   // Используем поле image, добавленное в трансформации на сервере
   const image = course.image || '/images/default-course.jpg'
   console.log('Selected image:', image)
@@ -294,106 +317,123 @@ const getAverageRating = (course: any) => {
   console.log('Rating data:', {
     aggregateRating: course.aggregateRating,
     reviews: course.review,
-    fallbackReviews: course.reviews
+    fallbackReviews: course.reviews,
   })
-  
+
   // Проверяем сначала aggregateRating, если есть - используем его
   if (course.aggregateRating?.ratingValue) {
     console.log('Using aggregateRating:', course.aggregateRating.ratingValue)
-    return course.aggregateRating.ratingValue.toFixed(1);
+    return course.aggregateRating.ratingValue.toFixed(1)
   }
-  
+
   // Если есть review - рассчитываем среднее
   if (course.review && course.review.length > 0) {
     const sum = course.review.reduce(
-      (acc: number, review: any) => acc + (review.reviewRating?.ratingValue || 0), 
+      (acc: number, review: any) =>
+        acc + (review.reviewRating?.ratingValue || 0),
       0
-    );
+    )
     const average = (sum / course.review.length).toFixed(1)
     console.log('Calculated average from review:', average)
-    return average;
+    return average
   }
-  
+
   // Проверяем reviews для совместимости с разными форматами данных
   if (course.reviews && course.reviews.length > 0) {
     const sum = course.reviews.reduce(
-      (acc: number, review: any) => acc + (review.rating || review.reviewRating?.ratingValue || 0), 
+      (acc: number, review: any) =>
+        acc + (review.rating || review.reviewRating?.ratingValue || 0),
       0
-    );
+    )
     const average = (sum / course.reviews.length).toFixed(1)
     console.log('Calculated average from reviews:', average)
-    return average;
+    return average
   }
-  
+
   console.log('No rating data found, returning N/A')
-  return 'N/A';
+  return 'N/A'
 }
 
 const getMonthlyPrice = (course: any) => {
   console.log('Getting price for course:', course.name)
   console.log('Price data:', {
     offers: course.offers,
-    offerings: course.offerings
+    offerings: course.offerings,
   })
-  
+
   // Проверяем наличие offers (как в mockCourses.ts)
   if (course.offers && course.offers.length > 0) {
     // Находим месячное предложение или первое
-    const monthlyOffer = course.offers.find((offer: any) => 
-      offer.duration === 'P1M' || (offer.name && offer.name.toLowerCase().includes('month'))
-    ) || course.offers[0];
-    
+    const monthlyOffer =
+      course.offers.find(
+        (offer: any) =>
+          offer.duration === 'P1M' ||
+          (offer.name && offer.name.toLowerCase().includes('month'))
+      ) || course.offers[0]
+
     const price = `${monthlyOffer.price} ${monthlyOffer.priceCurrency || 'EUR'}`
     console.log('Selected price from offers:', price)
-    return price;
+    return price
   }
-  
+
   // Проверяем offerings для совместимости с разными форматами данных
   if (course.offerings && course.offerings.length > 0) {
     // Находим месячное предложение или первое
-    const monthlyOffer = course.offerings.find((offer: any) => 
-      offer.duration === 'P1M' || (offer.name && offer.name.toLowerCase().includes('month'))
-    ) || course.offerings[0];
-    
+    const monthlyOffer =
+      course.offerings.find(
+        (offer: any) =>
+          offer.duration === 'P1M' ||
+          (offer.name && offer.name.toLowerCase().includes('month'))
+      ) || course.offerings[0]
+
     const price = `${monthlyOffer.price} ${monthlyOffer.currency || monthlyOffer.priceCurrency || 'EUR'}`
     console.log('Selected price from offerings:', price)
-    return price;
+    return price
   }
-  
+
   console.log('No price data found, returning default message')
-  return 'Contact for pricing';
+  return 'Contact for pricing'
 }
 
 const getInstructorTitle = (instructor: any) => {
   console.log('Getting title for instructor:', instructor?.name)
   console.log('Instructor data:', instructor)
-  
+
   // Проверка на null/undefined
   if (!instructor) {
     console.log('No instructor data, returning default')
-    return 'Instructor';
+    return 'Instructor'
   }
-  
+
   // Приоритет 1: Первое достижение из массива achievements
-  if (instructor.experience?.achievements && instructor.experience.achievements.length > 0) {
-    console.log('Using first achievement:', instructor.experience.achievements[0])
-    return instructor.experience.achievements[0];
+  if (
+    instructor.experience?.achievements &&
+    instructor.experience.achievements.length > 0
+  ) {
+    console.log(
+      'Using first achievement:',
+      instructor.experience.achievements[0]
+    )
+    return instructor.experience.achievements[0]
   }
-  
+
   // Приоритет 2: jobTitle
   if (instructor.jobTitle) {
     console.log('Using jobTitle:', instructor.jobTitle)
-    return instructor.jobTitle;
+    return instructor.jobTitle
   }
-  
+
   // Приоритет 3: teachingLevel
   if (instructor.teachingLevel) {
-    const title = instructor.teachingLevel === 'master' ? 'Master Instructor' : instructor.teachingLevel
+    const title =
+      instructor.teachingLevel === 'master'
+        ? 'Master Instructor'
+        : instructor.teachingLevel
     console.log('Using teachingLevel:', title)
-    return title;
+    return title
   }
-  
+
   console.log('No specific title found, using default')
-  return 'Instructor';
+  return 'Instructor'
 }
 </script>

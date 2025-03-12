@@ -5,44 +5,46 @@
 // Definition of the instructor object for use in course data
 const instructor = {
   id: 1,
-  name: "Maykel Fonts",
-  image: "https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media",
+  name: 'Maykel Fonts',
+  image:
+    'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media',
   experience: {
-    achievements: ["World Salsa Champion 2018"]
+    achievements: ['World Salsa Champion 2018'],
   },
-  specialties: ["casino", "rueda", "son", "afro-cuban"],
-  languages: ["Spanish", "English", "Italian"],
-  level: "master",
-  location: "Cuba",
+  specialties: ['casino', 'rueda', 'son', 'afro-cuban'],
+  languages: ['Spanish', 'English', 'Italian'],
+  level: 'master',
+  location: 'Cuba',
   rating: 4.9,
   reviewCount: 128,
   availability: {
     pricing: {
       privateClass: {
         amount: 80,
-        currency: "EUR"
-      }
-    }
-  }
-};
+        currency: 'EUR',
+      },
+    },
+  },
+}
 
 // Export the mocks array for database import
 export const mockCourses = [
   {
-    "@type": "Course",
-    "@id": "https://zensual.art/courses/101",
-    "identifier": "101",
-    "name": "Salsa Fundamentals",
-    "description": "Master the basics of Cuban salsa with this comprehensive beginner's course. Perfect for complete beginners or those looking to solidify their foundation.",
-    "provider": {
-      "@type": "Organization",
-      "name": "Zensual Academy",
-      "description": "Online platform for dance learning",
-      "url": "https://zensual.art",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://zensual.art/logo.png"
-      }
+    '@type': 'Course',
+    '@id': 'https://zensual.art/courses/101',
+    identifier: '101',
+    name: 'Salsa Fundamentals',
+    description:
+      "Master the basics of Cuban salsa with this comprehensive beginner's course. Perfect for complete beginners or those looking to solidify their foundation.",
+    provider: {
+      '@type': 'Organization',
+      name: 'Zensual Academy',
+      description: 'Online platform for dance learning',
+      url: 'https://zensual.art',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://zensual.art/logo.png',
+      },
     },
     subscriptionControl: {
       showTrial: true,
@@ -835,4 +837,4 @@ export const mockCourses = [
       nextLiveQ_A: '2024-02-15T18:00:00Z',
     },
   },
-];
+]

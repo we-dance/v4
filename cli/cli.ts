@@ -125,7 +125,7 @@ program
     if (all || posts) {
       await importPosts(multibar)
     }
-    
+
     if (all || courses) {
       await importCoursesFromMock(multibar)
     }

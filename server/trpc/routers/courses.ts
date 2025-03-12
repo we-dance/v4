@@ -7,10 +7,11 @@ const extractCourseImage = (course: any): string | null => {
   try {
     // Приоритет 1: Проверяем в metadata.image
     if (course.metadata) {
-      const metadata = typeof course.metadata === 'string' 
-        ? JSON.parse(course.metadata) 
-        : course.metadata
-        
+      const metadata =
+        typeof course.metadata === 'string'
+          ? JSON.parse(course.metadata)
+          : course.metadata
+
       // Обрабатываем разные форматы хранения изображения
       if (metadata.image) {
         if (typeof metadata.image === 'string') {
@@ -20,18 +21,19 @@ const extractCourseImage = (course: any): string | null => {
         }
       }
     }
-    
+
     // Приоритет 2: Проверяем поле instructor.image
     if (course.instructor?.image) {
       return course.instructor.image
     }
-    
+
     // Приоритет 3: Проверяем в instructorData
     if (course.instructorData) {
-      const instructorData = typeof course.instructorData === 'string'
-        ? JSON.parse(course.instructorData)
-        : course.instructorData
-        
+      const instructorData =
+        typeof course.instructorData === 'string'
+          ? JSON.parse(course.instructorData)
+          : course.instructorData
+
       if (instructorData.image) {
         return instructorData.image
       }
@@ -39,7 +41,7 @@ const extractCourseImage = (course: any): string | null => {
   } catch (e) {
     console.error('Error extracting course image:', e)
   }
-  
+
   // Если ничего не нашли, возвращаем null
   return null
 }
@@ -47,57 +49,60 @@ const extractCourseImage = (course: any): string | null => {
 // Helper to transform course data for response
 const transformCourseData = (course: any) => {
   const image = extractCourseImage(course)
-  
+
   // Обработка данных инструктора - если нет instructor, но есть instructorData,
   // используем данные из instructorData
-  let instructor = course.instructor;
-  
+  let instructor = course.instructor
+
   if (!instructor && course.instructorData) {
-    const instructorData = typeof course.instructorData === 'string'
-      ? JSON.parse(course.instructorData)
-      : course.instructorData;
-    
-    instructor = instructorData;
+    const instructorData =
+      typeof course.instructorData === 'string'
+        ? JSON.parse(course.instructorData)
+        : course.instructorData
+
+    instructor = instructorData
   }
-  
+
   // Если у инструктора нет поля experience, но оно есть в metadata, добавляем его
   if (instructor && !instructor.experience && course.metadata) {
-    const metadata = typeof course.metadata === 'string'
-      ? JSON.parse(course.metadata)
-      : course.metadata;
-      
+    const metadata =
+      typeof course.metadata === 'string'
+        ? JSON.parse(course.metadata)
+        : course.metadata
+
     if (metadata.instructorData?.experience) {
-      instructor.experience = metadata.instructorData.experience;
+      instructor.experience = metadata.instructorData.experience
     }
   }
-  
+
   // Извлекаем данные из metadata при необходимости
-  let review = course.review || [];
-  let offers = course.offers || [];
-  let aggregateRating = course.aggregateRating;
-  
+  let review = course.review || []
+  let offers = course.offers || []
+  let aggregateRating = course.aggregateRating
+
   // Если есть metadata и она структурирована, извлекаем дополнительные данные оттуда
   if (course.metadata) {
-    const metadata = typeof course.metadata === 'string'
-      ? JSON.parse(course.metadata)
-      : course.metadata;
-      
+    const metadata =
+      typeof course.metadata === 'string'
+        ? JSON.parse(course.metadata)
+        : course.metadata
+
     // Добавляем отзывы из metadata, если они есть
     if (metadata.review && !course.review) {
-      review = metadata.review;
+      review = metadata.review
     }
-    
+
     // Добавляем предложения из metadata, если они есть
     if (metadata.offers && !course.offers) {
-      offers = metadata.offers;
+      offers = metadata.offers
     }
-    
+
     // Добавляем рейтинг из metadata, если он есть
     if (metadata.aggregateRating && !course.aggregateRating) {
-      aggregateRating = metadata.aggregateRating;
+      aggregateRating = metadata.aggregateRating
     }
   }
-  
+
   const courseWithImage = {
     ...course,
     image: image || null,
@@ -106,7 +111,7 @@ const transformCourseData = (course: any) => {
     offers: offers,
     aggregateRating: aggregateRating,
   }
-  
+
   return courseWithImage
 }
 
@@ -128,20 +133,22 @@ export const coursesRouter = router({
       try {
         // Build the where clause based on filters
         const where: any = {}
-        
+
         // Apply level filter if provided
         if (input.level) {
           where.educationalLevel = input.level
         }
-        
+
         // Apply search query if provided
         if (input.searchQuery) {
           where.OR = [
             { name: { contains: input.searchQuery, mode: 'insensitive' } },
-            { description: { contains: input.searchQuery, mode: 'insensitive' } },
+            {
+              description: { contains: input.searchQuery, mode: 'insensitive' },
+            },
           ]
         }
-        
+
         // Fetch courses from the database
         const courses = await ctx.prisma.course.findMany({
           take: input.limit,
@@ -222,7 +229,7 @@ export const coursesRouter = router({
       })
     }
   }),
-  
+
   // Get course by slug
   bySlug: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
     try {
@@ -262,4 +269,4 @@ export const coursesRouter = router({
       })
     }
   }),
-}) 
+})

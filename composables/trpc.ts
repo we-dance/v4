@@ -86,10 +86,10 @@ export function useCoursesList(params: {
   return useInfiniteQuery(
     ['courses.getAll', params],
     async ({ pageParam = undefined }) => {
-      return client.courses.getAll.query({ 
-        ...params, 
-        cursor: pageParam, 
-        limit: params.limit || 10 
+      return client.courses.getAll.query({
+        ...params,
+        cursor: pageParam,
+        limit: params.limit || 10,
       })
     },
     {

@@ -13,12 +13,12 @@ import {
 } from '~/components/ui/dialog'
 
 const props = defineProps<{
-  courseName: string;
-  onSubmit: (review: { 
-    rating: number; 
-    comment: string;
-    reviewerName: string;
-  }) => void;
+  courseName: string
+  onSubmit: (review: {
+    rating: number
+    comment: string
+    reviewerName: string
+  }) => void
 }>()
 
 const rating = ref(5)
@@ -31,7 +31,7 @@ const handleSubmit = () => {
     comment: comment.value,
     reviewerName: reviewerName.value || 'Anonymous User',
   })
-  
+
   // Закрываем диалог
   const dialog = useDialog()
   dialog.close()
@@ -57,7 +57,7 @@ const handleSubmit = () => {
           placeholder="Введите ваше имя"
         />
       </div>
-      
+
       <!-- Рейтинг -->
       <div class="space-y-2">
         <label class="text-sm font-medium">Рейтинг</label>
@@ -91,11 +91,7 @@ const handleSubmit = () => {
     </div>
 
     <DialogFooter>
-      <Button
-        type="button"
-        variant="outline"
-        @click="useDialog().close()"
-      >
+      <Button type="button" variant="outline" @click="useDialog().close()">
         Отмена
       </Button>
       <Button type="button" @click="handleSubmit">Отправить</Button>

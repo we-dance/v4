@@ -37,7 +37,9 @@ const dialog = useDialog()
 
 // Определяем должность инструктора, приоритет: jobTitle -> teachingLevel -> "Instructor"
 const instructorTitle = computed(() => {
-  return props.instructor.jobTitle || props.instructor.teachingLevel || 'Instructor'
+  return (
+    props.instructor.jobTitle || props.instructor.teachingLevel || 'Instructor'
+  )
 })
 </script>
 
@@ -60,7 +62,10 @@ const instructorTitle = computed(() => {
         <div>
           <h3 class="text-xl font-semibold">{{ instructor.name }}</h3>
           <p class="text-muted-foreground">{{ instructorTitle }}</p>
-          <div v-if="instructor.location" class="flex items-center gap-1 text-sm text-muted-foreground mt-1">
+          <div
+            v-if="instructor.location"
+            class="flex items-center gap-1 text-sm text-muted-foreground mt-1"
+          >
             <Icon name="ph:map-pin" class="w-4 h-4" />
             {{ instructor.location }}
           </div>
@@ -79,10 +84,18 @@ const instructorTitle = computed(() => {
       <div v-if="instructor.experience" class="space-y-2">
         <h4 class="font-medium">Опыт</h4>
         <p>{{ instructor.experience.years }} лет преподавания</p>
-        <div v-if="instructor.experience.achievements && instructor.experience.achievements.length > 0">
+        <div
+          v-if="
+            instructor.experience.achievements &&
+            instructor.experience.achievements.length > 0
+          "
+        >
           <p class="text-sm font-medium my-2">Достижения:</p>
           <ul class="space-y-1 ml-5 list-disc text-sm">
-            <li v-for="achievement in instructor.experience.achievements" :key="achievement">
+            <li
+              v-for="achievement in instructor.experience.achievements"
+              :key="achievement"
+            >
               {{ achievement }}
             </li>
           </ul>
@@ -90,12 +103,15 @@ const instructorTitle = computed(() => {
       </div>
 
       <!-- Specialties -->
-      <div v-if="instructor.knowsAbout && instructor.knowsAbout.length > 0" class="space-y-2">
+      <div
+        v-if="instructor.knowsAbout && instructor.knowsAbout.length > 0"
+        class="space-y-2"
+      >
         <h4 class="font-medium">Специализация</h4>
         <div class="flex flex-wrap gap-2">
-          <Badge 
-            v-for="specialty in instructor.knowsAbout" 
-            :key="specialty" 
+          <Badge
+            v-for="specialty in instructor.knowsAbout"
+            :key="specialty"
             variant="secondary"
           >
             {{ specialty }}
@@ -104,12 +120,15 @@ const instructorTitle = computed(() => {
       </div>
 
       <!-- Languages -->
-      <div v-if="instructor.knowsLanguage && instructor.knowsLanguage.length > 0" class="space-y-2">
+      <div
+        v-if="instructor.knowsLanguage && instructor.knowsLanguage.length > 0"
+        class="space-y-2"
+      >
         <h4 class="font-medium">Языки</h4>
         <div class="flex flex-wrap gap-2">
-          <Badge 
-            v-for="language in instructor.knowsLanguage" 
-            :key="language" 
+          <Badge
+            v-for="language in instructor.knowsLanguage"
+            :key="language"
             variant="outline"
           >
             {{ language }}
@@ -121,17 +140,17 @@ const instructorTitle = computed(() => {
       <div v-if="instructor.socialMedia" class="space-y-2">
         <h4 class="font-medium">Социальные сети</h4>
         <div class="flex gap-3">
-          <a 
-            v-if="instructor.socialMedia.instagram" 
-            :href="`https://instagram.com/${instructor.socialMedia.instagram}`" 
+          <a
+            v-if="instructor.socialMedia.instagram"
+            :href="`https://instagram.com/${instructor.socialMedia.instagram}`"
             target="_blank"
             class="text-muted-foreground hover:text-primary"
           >
             <Icon name="ph:instagram-logo" class="w-5 h-5" />
           </a>
-          <a 
-            v-if="instructor.socialMedia.youtube" 
-            :href="`https://youtube.com/${instructor.socialMedia.youtube}`" 
+          <a
+            v-if="instructor.socialMedia.youtube"
+            :href="`https://youtube.com/${instructor.socialMedia.youtube}`"
             target="_blank"
             class="text-muted-foreground hover:text-primary"
           >
@@ -145,4 +164,4 @@ const instructorTitle = computed(() => {
       <Button @click="dialog.close">Закрыть</Button>
     </DialogFooter>
   </DialogContent>
-</template> 
+</template>
