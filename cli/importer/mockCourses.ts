@@ -1,34 +1,55 @@
-import { mockArtists } from './mockArtists'
-import { type Course } from '../schemas/course'
+/**
+ * Simplified version of mockCourses.ts for CLI usage
+ */
 
-const instructor = mockArtists.find((artist) => artist.id === 1)!
-if (!instructor) {
-  throw new Error('Instructor not found')
+// Definition of the instructor object for use in course data
+const instructor = {
+  id: 1,
+  name: 'Maykel Fonts',
+  image:
+    'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media',
+  experience: {
+    achievements: ['World Salsa Champion 2018'],
+  },
+  specialties: ['casino', 'rueda', 'son', 'afro-cuban'],
+  languages: ['Spanish', 'English', 'Italian'],
+  level: 'master',
+  location: 'Cuba',
+  rating: 4.9,
+  reviewCount: 128,
+  availability: {
+    pricing: {
+      privateClass: {
+        amount: 80,
+        currency: 'EUR',
+      },
+    },
+  },
 }
 
-const mockCoursesData: Course[] = [
+// Export the mocks array for database import
+export const mockCourses = [
   {
-    // Core Schema.org fields
     '@type': 'Course',
-    '@id': 'course-1',
-    identifier: '1',
-    name: 'Cuban Casino Fundamentals',
+    '@id': 'https://zensual.art/courses/101',
+    identifier: '101',
+    name: 'Salsa Fundamentals',
+    description:
+      "Master the basics of Cuban salsa with this comprehensive beginner's course. Perfect for complete beginners or those looking to solidify their foundation.",
+    provider: {
+      '@type': 'Organization',
+      name: 'Zensual Academy',
+      description: 'Online platform for dance learning',
+      url: 'https://zensual.art',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://zensual.art/logo.png',
+      },
+    },
     subscriptionControl: {
       showTrial: true,
       showMonthlyAnnualToggle: true,
       plans: ['regular', 'premium'],
-    },
-    description:
-      'Master the authentic Cuban Casino style with world champion Maykel Fonts. From basic steps to advanced turn patterns, this comprehensive course will give you a solid foundation in Cuban dance.',
-    provider: {
-      '@type': 'Organization',
-      name: 'WeDance Academy',
-      description: 'Premier Online Dance Education Platform',
-      url: 'https://wedance.vip/academy',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://wedance.vip/logo.png',
-      },
     },
     instructor: {
       '@type': 'Person',
@@ -817,5 +838,3 @@ const mockCoursesData: Course[] = [
     },
   },
 ]
-
-export const mockCourses = mockCoursesData

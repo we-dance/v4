@@ -67,6 +67,11 @@ model User {
   profilesCreated Profile[] @relation("profile_created_by")
   accounts        Account[]
   sessions        Session[]
+  
+  // Course relationships
+  courseReviews      CourseReview[]      @relation("user_reviews")
+  courseSubscriptions CourseSubscription[] @relation("user_subscriptions")
+  courseProgress     CourseProgress[]    @relation("user_progress")
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -165,6 +170,8 @@ model Profile {
   eventsCreated      Event[]           @relation("event_created_by")
   eventsOrganized    Event[]           @relation("event_organized_by")
   eventsHosted       Event[]           @relation("event_hosted_by")
+  // Course instructor relationship
+  coursesAsinstructor Course[]         @relation("course_instructor")
   createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
   styles             Experience[]      @relation("profile_experience")
   followers          ProfileFollower[] @relation("followers")
@@ -364,4 +371,162 @@ model Vote {
   updatedAt   DateTime @updatedAt
   createdBy   Profile  @relation("vote_created_by", fields: [createdById], references: [id])
   createdById String
+}
+
+// Course models
+model Course {
+  id                 String         @id
+  slug               String         @unique
+  name               String
+  description        String         @db.Text
+  educationalLevel   String         @default("Beginner")
+  timeRequired       String?
+  numberOfLessons    Int            @default(0)
+  published          Boolean        @default(true)
+  
+  // Instructor relationship with temporary solution
+  originalInstructorId String?
+  instructorId      String?
+  instructor        Profile?        @relation("course_instructor", fields: [instructorId], references: [id])
+  instructorData    Json?
+  
+  // Metadata
+  metadata          Json?
+  
+  // Relationships
+  modules           CourseModule[]  @relation("course_modules")
+  offerings         CourseOffering[] @relation("course_offerings")
+  reviews           CourseReview[]  @relation("course_reviews")
+  resources         CourseResource[] @relation("course_resources")
+  
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+}
+
+model CourseModule {
+  id               String         @id
+  identifier       Int
+  name             String
+  description      String         @default("")
+  order            Int            @default(0)
+  
+  // Relationships
+  courseId         String
+  course           Course          @relation("course_modules", fields: [courseId], references: [id], onDelete: Cascade)
+  lessons          CourseLesson[]  @relation("module_lessons")
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  
+  @@unique([courseId, identifier])
+}
+
+model CourseLesson {
+  id               String         @id
+  identifier       Int
+  name             String
+  timeRequired     String
+  videoId          String
+  videoProvider    String         @default("youtube")
+  videoDuration    String
+  order            Int            @default(0)
+  locked           Boolean        @default(false)
+  
+  // Relationships
+  moduleId         String
+  module           CourseModule    @relation("module_lessons", fields: [moduleId], references: [id], onDelete: Cascade)
+  progress         CourseProgress[] @relation("lesson_progress")
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  
+  @@unique([moduleId, identifier])
+}
+
+model CourseOffering {
+  id               String         @id
+  name             String         // e.g., "regular", "premium"
+  price            Float
+  currency         String         @default("EUR")
+  duration         String         // ISO 8601 duration format
+  validFrom        DateTime?
+  validThrough     DateTime?
+  
+  // Relationships
+  courseId         String
+  course           Course          @relation("course_offerings", fields: [courseId], references: [id], onDelete: Cascade)
+  subscriptions    CourseSubscription[] @relation("offering_subscriptions")
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+}
+
+model CourseReview {
+  id               String         @id
+  rating           Int
+  content          String         @db.Text
+  authorName       String         // Temporary until full profile integration
+  publishedAt      String
+  
+  // Relationships
+  courseId         String
+  course           Course          @relation("course_reviews", fields: [courseId], references: [id], onDelete: Cascade)
+  userId           String?
+  user             User?           @relation("user_reviews", fields: [userId], references: [id])
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+}
+
+model CourseResource {
+  id               String         @id
+  name             String
+  type             String         // pdf, video, etc.
+  contentSize      String
+  icon             String
+  url              String
+  
+  // Relationships
+  courseId         String
+  course           Course          @relation("course_resources", fields: [courseId], references: [id], onDelete: Cascade)
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+}
+
+model CourseSubscription {
+  id               String         @id @default(cuid())
+  status           String         @default("active") // active, cancelled, expired
+  startDate        DateTime       @default(now())
+  endDate          DateTime?
+  cancelledAt      DateTime?
+  
+  // Relationships
+  userId           String
+  user             User            @relation("user_subscriptions", fields: [userId], references: [id])
+  offeringId       String
+  offering         CourseOffering  @relation("offering_subscriptions", fields: [offeringId], references: [id])
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  
+  @@unique([userId, offeringId])
+}
+
+model CourseProgress {
+  id               String         @id @default(cuid())
+  completed        Boolean        @default(false)
+  watchedSeconds   Int            @default(0)
+  lastPosition     Int            @default(0)
+  
+  // Relationships
+  userId           String
+  user             User            @relation("user_progress", fields: [userId], references: [id])
+  lessonId         String
+  lesson           CourseLesson    @relation("lesson_progress", fields: [lessonId], references: [id])
+  
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  
+  @@unique([userId, lessonId])
 }
