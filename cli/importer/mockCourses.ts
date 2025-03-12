@@ -1,8 +1,8 @@
 /**
- * Упрощенная версия mockCourses.ts для использования в CLI
+ * Simplified version of mockCourses.ts for CLI usage
  */
 
-// Определение объекта instructor для использования в данных курсов
+// Definition of the instructor object for use in course data
 const instructor = {
   id: 1,
   name: "Maykel Fonts",
@@ -26,7 +26,7 @@ const instructor = {
   }
 };
 
-// Экспорт массива mocks для импорта в базу данных
+// Export the mocks array for database import
 export const mockCourses = [
   {
     "@type": "Course",

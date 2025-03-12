@@ -21,29 +21,9 @@ async function fetchCourseData() {
     isLoading.value = true
     error.value = null
     
-    console.log('Fetching course with slug:', id)
-    
     const directResult = await $client.courses.bySlug.query(id)
-    console.log('Direct API call result:', directResult)
     
     if (directResult) {
-      console.log('Full API response:', directResult);
-      console.log('Metadata field:', directResult.metadata);
-      
-      if (directResult.metadata) {
-        console.log('Metadata stats:', directResult.metadata.stats);
-        console.log('Metadata community:', directResult.metadata.community);
-      }
-      
-      // Проверяем наличие модулей
-      console.log('Modules:', directResult.modules);
-      if (directResult.modules && directResult.modules.length > 0) {
-        // Проверяем структуру первого модуля и его уроков
-        const firstModule = directResult.modules[0];
-        console.log('First module:', firstModule);
-        console.log('Lessons in first module:', firstModule.lessons);
-      }
-      
       course.value = {
         ...directResult,
         stats: directResult.stats || directResult.metadata?.stats || { enrolled: 0, completed: 0 },
@@ -89,7 +69,7 @@ const dialog = useDialog()
 const currentLesson = computed(() => {
   if (activeLesson.value) return activeLesson.value;
   if (!course.value || !course.value.modules || !course.value.modules[0]?.lessons) return null;
-  // Инициализация activeLesson при первой загрузке
+  // Initialize activeLesson on first load
   if (course.value.modules[0].lessons[0] && !activeLesson.value) {
     activeLesson.value = course.value.modules[0].lessons[0];
   }
@@ -116,9 +96,8 @@ const progress = computed(() => {
 
 const selectLesson = (lesson: any) => {
   if (!course.value) return;
-  // Просто обновляем activeLesson
+  // Just update activeLesson
   activeLesson.value = lesson;
-  console.log('Lesson selected:', lesson.name);
 }
 
 const getMonthlyPrice = () => {
