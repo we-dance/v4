@@ -74,6 +74,7 @@ const getPrivateClassDuration = () => {
   return '60'
 }
 
+// After subscription, in module.hasPart, lesson.locked should update as 'true'
 const handleSubscribe = () => {
   dialog.open({
     component: 'CourseSubscriptionDialog',
@@ -81,6 +82,9 @@ const handleSubscribe = () => {
       course: course.value,
       onSelect: async (plan: { type: string; interval?: string }) => {
         try {
+          // route.params.id: string, course name displays in url
+          // plan.type: string, type=course ('default')
+          // plan.interval: string, plan=['regular', 'premium']
           await navigateTo(
             `/checkout/${route.params.id}?type=course&plan=${plan.type}${plan.interval ? `&interval=${plan.interval}` : ''}`
           )
@@ -505,7 +509,15 @@ const handleAddReview = () => {
           </div>
 
           <!-- Subscription -->
-          <div class="bg-background rounded-xl shadow-sm overflow-hidden">
+          <!-- display different content according to current tier of subscription (need subscription Store)-->
+          <!-- if the last module's first lesson is unlocked, won't display pricing plans -->
+          <div
+            class="bg-background rounded-xl shadow-sm overflow-hidden"
+            :class="{
+              hidden:
+                !course.hasPart[course.hasPart.length - 1].hasPart[0].locked,
+            }"
+          >
             <div class="p-4">
               <div class="space-y-4">
                 <div>
