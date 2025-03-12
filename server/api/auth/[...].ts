@@ -1,54 +1,54 @@
-import CredentialsProvider from "next-auth/providers/credentials";
-import GoogleProvider from "next-auth/providers/google";
-import { PrismaAdapter } from "@auth/prisma-adapter";
-import { PrismaClient } from "@prisma/client";
-import { FirebaseScrypt } from "firebase-scrypt";
-import { NuxtAuthHandler } from "#auth";
-import * as z from "zod";
+import CredentialsProvider from 'next-auth/providers/credentials'
+import GoogleProvider from 'next-auth/providers/google'
+import { PrismaAdapter } from '@auth/prisma-adapter'
+import { PrismaClient } from '@prisma/client'
+import { FirebaseScrypt } from 'firebase-scrypt'
+import { NuxtAuthHandler } from '#auth'
+import * as z from 'zod'
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient()
 
 const firebaseParameters = {
   memCost: 14,
   rounds: 8,
   saltSeparator: String(process.env.FIREBASE_SALT_SEPARATOR),
   signerKey: String(process.env.FIREBASE_SIGNER_KEY),
-};
+}
 
 export default NuxtAuthHandler({
   secret: process.env.AUTH_SECRET,
   session: {
-    strategy: "jwt",
+    strategy: 'jwt',
     maxAge: 3000,
   },
   adapter: PrismaAdapter(prisma),
   pages: {
-    signIn: "/signin",
+    signIn: '/signin',
   },
   callbacks: {
     session: async ({ session }) => {
-      const email = session.user.email;
+      const email = session.user.email
 
       const user = await prisma.user.findUnique({
         where: {
           email,
         },
-      });
+      })
 
       const profile = await prisma.profile.findFirst({
         where: {
           userId: user.id,
         },
-      });
+      })
 
-      session.user.id = user.id;
+      session.user.id = user.id
       return Promise.resolve({
         userId: user.id,
         username: profile?.username,
         profileId: profile?.id,
         cityId: profile?.cityId,
         photo: profile?.photo,
-      });
+      })
     },
   },
   providers: [
@@ -58,83 +58,77 @@ export default NuxtAuthHandler({
       allowDangerousEmailAccountLinking: true,
     }),
     CredentialsProvider.default({
-      name: "Credentials",
+      name: 'Credentials',
       credentials: {
-        email: { label: "Email", type: "text" },
-        password: { label: "Password", type: "password" },
+        email: { label: 'Email', type: 'text' },
+        password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials: any) {
         if (!credentials.email || !credentials.password) {
-          return null;
+          return null
         }
 
         const user = await prisma.user.findUnique({
           where: {
             email: credentials.email,
           },
-        });
+        })
 
         if (!user) {
-          return null;
+          return null
         }
 
-        const scrypt = new FirebaseScrypt(firebaseParameters);
+        const scrypt = new FirebaseScrypt(firebaseParameters)
 
         const isValid = await scrypt.verify(
           credentials.password,
           user.salt,
           user.hash
-        );
+        )
 
         if (!isValid) {
-          return null;
+          return null
         }
 
-        return user;
+        return user
       },
     }),
     CredentialsProvider.default({
-      id: "register",
-      name: "register",
+      id: 'register',
+      name: 'register',
       credentials: {
-        username: { label: "Username", type: "text" },
-        pronounce: { label: "Pronounce", type: "text" },
-        cityId: { label: "City", type: "text" },
-        cityLabel: { label: "City Label", type: "text" },
-        email: { label: "Email", type: "text" },
-        password: { label: "Password", type: "password" },
-        emailConsent: { label: "Email Consent", type: "checkbox" },
+        username: { label: 'Username', type: 'text' },
+        email: { label: 'Email', type: 'text' },
+        password: { label: 'Password', type: 'password' },
+        emailConsent: { label: 'Email Consent', type: 'checkbox' },
       },
       async authorize(input: any) {
         const schema = z.object({
           username: z.string().min(2).max(50),
           email: z.string().email(),
           password: z.string().min(8),
-          pronounce: z.enum(["he", "she", "they"]),
-          cityId: z.string().min(2).max(50),
-          cityLabel: z.string().min(2).max(50),
           emailConsent: z.coerce.boolean(),
-        });
+        })
 
-        const result = schema.safeParse(input);
+        const result = schema.safeParse(input)
 
         if (!result.success) {
           const errorMessages = result.error.errors
-            .map((err) => `${err.path.join(".")}: ${err.message}`)
-            .join(", ");
-          throw new Error(`Validation error: ${errorMessages}`);
+            .map((err) => `${err.path.join('.')}: ${err.message}`)
+            .join(', ')
+          throw new Error(`Validation error: ${errorMessages}`)
         }
 
-        const credentials = result.data;
+        const credentials = result.data
 
-        const scrypt = new FirebaseScrypt(firebaseParameters);
+        const scrypt = new FirebaseScrypt(firebaseParameters)
         const salt = Buffer.from(String(Math.random()).slice(7)).toString(
-          "base64"
-        );
+          'base64'
+        )
 
-        const hash = await scrypt.hash(credentials.password, salt);
+        const hash = await scrypt.hash(credentials.password, salt)
 
-        let user;
+        let user
         try {
           user = await prisma.user.create({
             data: {
@@ -143,31 +137,13 @@ export default NuxtAuthHandler({
               hash,
               salt,
             },
-          });
+          })
         } catch (error: any) {
-          if (error.code === "P2002") {
-            throw new Error("Email already in use");
+          if (error.code === 'P2002') {
+            throw new Error('Email already in use')
           }
 
-          throw error;
-        }
-
-        let city = prisma.profile.findFirst({
-          where: {
-            placeId: credentials.cityId,
-          },
-        });
-
-        if (!city) {
-          city = await prisma.profile.create({
-            data: {
-              placeId: credentials.cityId,
-              name: credentials.cityLabel,
-              type: "City",
-              username: credentials.cityLabel,
-              pronounce: "they",
-            },
-          });
+          throw error
         }
 
         try {
@@ -175,11 +151,7 @@ export default NuxtAuthHandler({
             data: {
               username: credentials.username,
               name: credentials.username,
-              type: "Dancer",
-              pronounce: credentials.pronounce,
-              lat: city.lat,
-              lng: city.lng,
-              cityId: city.placeId,
+              type: 'Dancer',
               claimed: true,
               user: {
                 connect: {
@@ -187,13 +159,13 @@ export default NuxtAuthHandler({
                 },
               },
             },
-          });
+          })
         } catch (error: any) {
-          throw error;
+          throw error
         }
 
-        return user;
+        return user
       },
     }),
   ],
-});
+})

@@ -51,9 +51,6 @@ const onSubmit = form.handleSubmit(
   async (values) => {
     const error = await login('register', {
       username: values.username,
-      cityId: values.city.placeId,
-      cityLabel: values.city.label,
-      pronounce: values.pronounce,
       email: values.email,
       password: values.password,
       emailConsent: values.emailConsent,
@@ -69,50 +66,11 @@ const onSubmit = form.handleSubmit(
 </script>
 <template>
   <form @submit="onSubmit">
-    <FormField v-slot="{ componentField }" name="pronounce">
-      <FormItem>
-        <FormLabel>Pronounce</FormLabel>
-        <FormControl>
-          <RadioGroup class="flex gap-4 justify-center" v-bind="componentField">
-            <FormItem class="flex items-center space-y-0 gap-x-3">
-              <FormControl>
-                <RadioGroupItem value="he" />
-              </FormControl>
-              <FormLabel class="font-normal"> he </FormLabel>
-            </FormItem>
-            <FormItem class="flex items-center space-y-0 gap-x-3">
-              <FormControl>
-                <RadioGroupItem value="she" />
-              </FormControl>
-              <FormLabel class="font-normal"> she </FormLabel>
-            </FormItem>
-            <FormItem class="flex items-center space-y-0 gap-x-3">
-              <FormControl>
-                <RadioGroupItem value="they" />
-              </FormControl>
-              <FormLabel class="font-normal"> they </FormLabel>
-            </FormItem>
-          </RadioGroup>
-        </FormControl>
-        <FormDescription />
-        <FormMessage />
-      </FormItem>
-    </FormField>
     <FormField v-slot="{ componentField }" name="username">
       <FormItem>
         <FormLabel>Username</FormLabel>
         <FormControl>
           <Input v-bind="componentField" trim="[^a-z0-9._\-]+" lowercase />
-        </FormControl>
-        <FormDescription />
-        <FormMessage />
-      </FormItem>
-    </FormField>
-    <FormField v-slot="{ componentField }" name="city">
-      <FormItem>
-        <FormLabel>City</FormLabel>
-        <FormControl>
-          <CityInput v-bind="componentField" />
         </FormControl>
         <FormDescription />
         <FormMessage />
