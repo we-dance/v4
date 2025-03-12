@@ -269,6 +269,7 @@ onMounted(() => {
       >
         <!-- Left Column: Details -->
         <div class="space-y-8 lg:w-2/3">
+          <postEventUpdate />
           <!-- Description -->
           <div class="bg-white rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">About this event</h2>

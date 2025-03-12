@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { EventContent } from '~/schemas/post'
 import type { AnyEvent } from '~/schemas/event'
+import PostEventUpdate from './postEventUpdate.vue'
 
 const props = defineProps<{
   content: EventContent
