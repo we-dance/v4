@@ -16,11 +16,11 @@ const mockCoursesData = mockCourses
  */
 async function transformCourseData(course: any) {
   // Extract ID from @id by taking the last part after the last slash
-  const idFromUrl = course['@id'] ? course['@id'].split('/').pop() : '';
-  
+  const idFromUrl = course['@id'] ? course['@id'].split('/').pop() : ''
+
   // Generate UUID for the course
-  const uuid = crypto.randomUUID();
-  
+  const uuid = crypto.randomUUID()
+
   // Extract core course data
   const courseData = {
     id: uuid, // Use UUID instead of full URL
@@ -32,16 +32,20 @@ async function transformCourseData(course: any) {
     // Store original instructor data for future reference
     originalInstructorId: course.instructor?.identifier || null,
     // Обогащаем данные инструктора
-    instructorData: course.instructor ? {
-      ...course.instructor,
-      // Сохраняем опыт и достижения в полном объеме
-      experience: course.instructor.experience || null,
-      // Если у инструктора нет jobTitle, но есть achievements, используем первое достижение
-      jobTitle: course.instructor.jobTitle || 
-                (course.instructor.experience?.achievements && 
-                 course.instructor.experience.achievements.length > 0 ? 
-                 course.instructor.experience.achievements[0] : 'Dance Instructor')
-    } : null,
+    instructorData: course.instructor
+      ? {
+          ...course.instructor,
+          // Сохраняем опыт и достижения в полном объеме
+          experience: course.instructor.experience || null,
+          // Если у инструктора нет jobTitle, но есть achievements, используем первое достижение
+          jobTitle:
+            course.instructor.jobTitle ||
+            (course.instructor.experience?.achievements &&
+            course.instructor.experience.achievements.length > 0
+              ? course.instructor.experience.achievements[0]
+              : 'Dance Instructor'),
+        }
+      : null,
     // Store original course data as JSON (including metadata)
     metadata: {
       originalId: course['@id'] || '',
@@ -49,7 +53,9 @@ async function transformCourseData(course: any) {
       dateCreated: course.dateCreated || new Date().toISOString(),
       dateModified: course.dateModified || new Date().toISOString(),
       // Extract image URL from correct location
-      image: course.image?.url || (course.instructor?.image ? course.instructor.image : ''),
+      image:
+        course.image?.url ||
+        (course.instructor?.image ? course.instructor.image : ''),
       video: course.video || null,
       stats: course.stats || { enrolled: 0, completed: 0 },
       community: course.community || null,
@@ -165,10 +171,10 @@ export async function importCourses() {
     // Process each course
     for (const course of mockCoursesData) {
       logger.info(`Processing course: ${course.name}`)
-      
+
       // Transform course data
       const courseData = await transformCourseData(course)
-      
+
       try {
         // Check if course already exists
         const existingCourse = await (prisma as any).course.findUnique({
@@ -189,11 +195,16 @@ export async function importCourses() {
 
         // Process modules and lessons if present
         if (course.hasPart && Array.isArray(course.hasPart)) {
-          const modules = await transformModuleData(savedCourse.id, course.hasPart)
-          
+          const modules = await transformModuleData(
+            savedCourse.id,
+            course.hasPart
+          )
+
           for (const moduleData of modules) {
             // Check if module exists
-            const existingModule = await (prisma as any).courseModule.findUnique({
+            const existingModule = await (
+              prisma as any
+            ).courseModule.findUnique({
               where: { id: moduleData.id },
             })
 
@@ -213,16 +224,18 @@ export async function importCourses() {
             const moduleSource = course.hasPart.find(
               (m: any) => m.identifier === moduleData.identifier
             )
-            
+
             if (moduleSource?.hasPart && Array.isArray(moduleSource.hasPart)) {
               const lessons = await transformLessonData(
                 savedModule.id,
                 moduleSource.hasPart
               )
-              
+
               for (const lessonData of lessons) {
                 // Check if lesson exists
-                const existingLesson = await (prisma as any).courseLesson.findUnique({
+                const existingLesson = await (
+                  prisma as any
+                ).courseLesson.findUnique({
                   where: { id: lessonData.id },
                 })
 
@@ -236,19 +249,26 @@ export async function importCourses() {
                       data: lessonData,
                     })
 
-                logger.info(`Lesson saved: ${savedLesson.name} (${savedLesson.id})`)
+                logger.info(
+                  `Lesson saved: ${savedLesson.name} (${savedLesson.id})`
+                )
               }
             }
           }
         }
-        
+
         // Process offerings if present
         if (course.offers && Array.isArray(course.offers)) {
-          const offerings = await transformOfferingsData(savedCourse.id, course.offers)
-          
+          const offerings = await transformOfferingsData(
+            savedCourse.id,
+            course.offers
+          )
+
           for (const offeringData of offerings) {
             // Check if offering exists
-            const existingOffering = await (prisma as any).courseOffering.findUnique({
+            const existingOffering = await (
+              prisma as any
+            ).courseOffering.findUnique({
               where: { id: offeringData.id },
             })
 
@@ -262,17 +282,24 @@ export async function importCourses() {
                   data: offeringData,
                 })
 
-            logger.info(`Offering saved: ${savedOffering.name} (${savedOffering.id})`)
+            logger.info(
+              `Offering saved: ${savedOffering.name} (${savedOffering.id})`
+            )
           }
         }
-        
+
         // Process reviews if present
         if (course.review && Array.isArray(course.review)) {
-          const reviews = await transformReviewsData(savedCourse.id, course.review)
-          
+          const reviews = await transformReviewsData(
+            savedCourse.id,
+            course.review
+          )
+
           for (const reviewData of reviews) {
             // Check if review exists
-            const existingReview = await (prisma as any).courseReview.findUnique({
+            const existingReview = await (
+              prisma as any
+            ).courseReview.findUnique({
               where: { id: reviewData.id },
             })
 
@@ -286,17 +313,27 @@ export async function importCourses() {
                   data: reviewData,
                 })
 
-            logger.info(`Review saved: ${reviewData.authorName} (${savedReview.id})`)
+            logger.info(
+              `Review saved: ${reviewData.authorName} (${savedReview.id})`
+            )
           }
         }
-        
-        // Process resources if present 
-        if (course.learningResources && Array.isArray(course.learningResources)) {
-          const resources = await transformResourcesData(savedCourse.id, course.learningResources)
-          
+
+        // Process resources if present
+        if (
+          course.learningResources &&
+          Array.isArray(course.learningResources)
+        ) {
+          const resources = await transformResourcesData(
+            savedCourse.id,
+            course.learningResources
+          )
+
           for (const resourceData of resources) {
             // Check if resource exists
-            const existingResource = await (prisma as any).courseResource.findUnique({
+            const existingResource = await (
+              prisma as any
+            ).courseResource.findUnique({
               where: { id: resourceData.id },
             })
 
@@ -310,18 +347,18 @@ export async function importCourses() {
                   data: resourceData,
                 })
 
-            logger.info(`Resource saved: ${savedResource.name} (${savedResource.id})`)
+            logger.info(
+              `Resource saved: ${savedResource.name} (${savedResource.id})`
+            )
           }
         }
-        
       } catch (error: any) {
         logger.error(`Error processing course ${course.name}: ${error.message}`)
       }
     }
-    
+
     logger.info('Course import completed successfully')
     return { success: true, message: 'All courses imported successfully' }
-    
   } catch (error: any) {
     logger.error(`Course import failed: ${error.message}`)
     return { success: false, message: `Import failed: ${error.message}` }
@@ -343,4 +380,4 @@ if (require.main === module) {
     })
 }
 
-export default { importCourses } 
+export default { importCourses }
