@@ -23,7 +23,14 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/google-fonts',
     '@nuxt/content',
+    '@sidebase/nuxt-auth',
   ],
+  auth: {
+    provider: {
+      type: 'authjs',
+    },
+    // origin: "http://localhost:3000",
+  },
   components: [
     {
       path: '~/components',
