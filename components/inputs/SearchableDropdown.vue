@@ -1,37 +1,37 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { cn } from "@/utils";
+import { computed } from 'vue'
+import { cn } from '@/utils'
 
 interface Item {
-  [key: string]: any;
+  [key: string]: any
 }
 
 const props = defineProps<{
-  items: Item[];
-  modelValue: any;
-  searchQuery: string;
-  placeholder: string;
-  itemKey: string;
-  itemLabel: string;
-}>();
+  items: Item[]
+  modelValue: any
+  searchQuery: string
+  placeholder: string
+  itemKey: string
+  itemLabel: string
+}>()
 
 const emit = defineEmits<{
-  (e: "update:modelValue", value: any): void;
-  (e: "update:searchQuery", value: string): void;
-  (e: "select", item: Item): void;
-}>();
+  (e: 'update:modelValue', value: any): void
+  (e: 'update:searchQuery', value: string): void
+  (e: 'select', item: Item): void
+}>()
 
 const filteredItems = computed(() => {
-  const query = props.searchQuery.toLowerCase();
+  const query = props.searchQuery.toLowerCase()
   return props.items
     .filter((item) => item[props.itemLabel].toLowerCase().includes(query))
-    .slice(0, 10);
-});
+    .slice(0, 10)
+})
 
 const onSelect = (item: Item) => {
-  emit("update:modelValue", item[props.itemKey]);
-  emit("select", item);
-};
+  emit('update:modelValue', item[props.itemKey])
+  emit('select', item)
+}
 </script>
 
 <template>

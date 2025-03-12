@@ -1,29 +1,29 @@
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
 defineOptions({
   inheritAttrs: false,
-});
+})
 
 const props = defineProps({
   modelValue: {
     type: Object,
     default: null,
   },
-});
+})
 
-const emits = defineEmits(["update:modelValue"]);
+const emits = defineEmits(['update:modelValue'])
 
 const results = ref([
   {
-    placeId: "1",
-    label: "New York",
+    placeId: '1',
+    label: 'New York',
   },
   {
-    placeId: "2",
-    label: "Los Angeles",
+    placeId: '2',
+    label: 'Los Angeles',
   },
-]);
+])
 </script>
 
 <template>

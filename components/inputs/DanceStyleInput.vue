@@ -1,28 +1,28 @@
 <script setup lang="ts">
-const { $client } = useNuxtApp();
+const { $client } = useNuxtApp()
 
-const { data: allDanceStyles } = await $client.styles.list.useQuery();
+const { data: allDanceStyles } = await $client.styles.list.useQuery()
 
 const props = defineProps<{
-  modelValue: string;
-}>();
+  modelValue: string
+}>()
 
 const emit = defineEmits<{
-  (e: "update:modelValue", value: string): void;
-}>();
+  (e: 'update:modelValue', value: string): void
+}>()
 
-const open = ref(false);
-const searchQuery = ref("");
+const open = ref(false)
+const searchQuery = ref('')
 
 const value = computed({
   get: () => props.modelValue,
-  set: (newValue) => emit("update:modelValue", newValue),
-});
+  set: (newValue) => emit('update:modelValue', newValue),
+})
 
 const onSelect = (newValue: any) => {
-  value.value = newValue.hashtag;
-  open.value = false;
-};
+  value.value = newValue.hashtag
+  open.value = false
+}
 </script>
 
 <template>
