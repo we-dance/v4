@@ -11,13 +11,13 @@ const noMultiplePeriods = (value: string) => !value.includes('..')
 const notEndingInPeriod = (value: string) => !value.endsWith('.')
 
 const usernameValidator = async (username: string) => {
-  const { data } = await $client.profiles.get.useQuery({ username })
+  const result = await $client.profiles.get.query({ username })
 
-  if (data.value?.id) {
-    return false
+  if (!result) {
+    return true
   }
 
-  return true
+  return false
 }
 
 const schema = z.object({
