@@ -1,8 +1,9 @@
 <script setup>
 const route = useRoute()
-const auth = useAuthStore()
 const dialog = useDialog()
 const isMobileMenuOpen = ref(false)
+
+const { auth, isLoggedIn, signOut, data } = useAppAuth()
 
 const navigationItems = [
   { to: '/feed', label: 'Feed', icon: 'lucide:home' },
@@ -24,7 +25,7 @@ const handleSearch = () => {
 }
 
 const handleSignOut = async () => {
-  await auth.logout()
+  await signOut()
   // Optionally redirect to home or login page
   navigateTo('/')
 }
@@ -67,7 +68,7 @@ watch(
           <Button variant="ghost" @click="handleSearch">
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
-          <template v-if="auth.isAuthenticated">
+          <template v-if="isLoggedIn">
             <DropdownMenu>
               <DropdownMenuTrigger as-child>
                 <Button variant="ghost" size="icon">
@@ -154,7 +155,7 @@ watch(
             <Icon :name="item.icon" class="h-5 w-5" />
             {{ item.label }}
           </NuxtLink>
-          <template v-if="auth.isAuthenticated">
+          <template v-if="isLoggedIn">
             <Button
               variant="ghost"
               @click="handleSignOut"
