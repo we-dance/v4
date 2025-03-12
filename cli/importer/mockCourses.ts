@@ -2,6 +2,30 @@
  * Упрощенная версия mockCourses.ts для использования в CLI
  */
 
+// Определение объекта instructor для использования в данных курсов
+const instructor = {
+  id: 1,
+  name: "Maykel Fonts",
+  image: "https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media",
+  experience: {
+    achievements: ["World Salsa Champion 2018"]
+  },
+  specialties: ["casino", "rueda", "son", "afro-cuban"],
+  languages: ["Spanish", "English", "Italian"],
+  level: "master",
+  location: "Cuba",
+  rating: 4.9,
+  reviewCount: 128,
+  availability: {
+    pricing: {
+      privateClass: {
+        amount: 80,
+        currency: "EUR"
+      }
+    }
+  }
+};
+
 // Экспорт массива mocks для импорта в базу данных
 export const mockCourses = [
   {
@@ -20,484 +44,678 @@ export const mockCourses = [
         "url": "https://zensual.art/logo.png"
       }
     },
-    "instructor": {
-      "@type": "Person",
-      "identifier": "1", 
-      "name": "Maykel Fonts",
-      "artistId": "1",
-      "image": "https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media",
-      "jobTitle": "Professional Cuban Dancer",
-      "teachingLevel": "master",
-      "location": "Cuba",
-      "knowsLanguage": ["Spanish", "English", "Italian"],
-      "knowsAbout": ["casino", "rueda", "son", "afro-cuban"],
-      "experience": {
-        "years": 25,
-        "achievements": [
-          "World Salsa Champion 2018",
-          "Best Casino Instructor 2019"
-        ]
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.9,
-        "ratingCount": 128,
-        "reviewCount": 128
-      },
-      "availableService": {
-        "@type": "Service",
-        "offers": [
-          {
-            "@type": "PriceSpecification",
-            "price": 80,
-            "priceCurrency": "EUR",
-            "duration": "PT60M"
-          }
-        ]
-      },
-      "socialMedia": {
-        "instagram": "@maykelfontssalsa",
-        "youtube": "@maykelfontscuba"
-      }
+    subscriptionControl: {
+      showTrial: true,
+      showMonthlyAnnualToggle: true,
+      plans: ['regular', 'premium'],
     },
-    "educationalLevel": "Beginner",
-    "teaches": [
+    instructor: {
+      '@type': 'Person',
+      identifier: String(instructor.id),
+      name: instructor.name,
+      image: instructor.image,
+      jobTitle: instructor.experience.achievements?.[0],
+      knowsAbout: instructor.specialties,
+      knowsLanguage: instructor.languages,
+      teachingLevel: instructor.level,
+      location: instructor.location,
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: instructor.rating || 0,
+        reviewCount: instructor.reviewCount || 0,
+      },
+      availableService: instructor.availability
+        ? {
+            '@type': 'Service',
+            offers: [
+              {
+                '@type': 'PriceSpecification',
+                price:
+                  instructor.availability.pricing?.privateClass?.amount || 0,
+                priceCurrency:
+                  instructor.availability.pricing?.privateClass?.currency ||
+                  'EUR',
+                duration: 'PT60M',
+              },
+            ],
+          }
+        : undefined,
+    },
+
+    // Educational details
+    educationalLevel: 'Beginner',
+    teaches: [
       {
-        "@type": "DefinedTerm",
-        "termCode": "cuban-salsa", 
-        "name": "Cuban Salsa",
-        "description": "Traditional Cuban dance style with its roots in Son",
-        "inDefinedTermSet": "DanceStyles"
-      }
+        '@type': 'DefinedTerm',
+        termCode: 'fundamentals',
+        name: 'Basic Steps',
+        description: 'Foundation of Cuban Casino dance style',
+      },
+      {
+        '@type': 'DefinedTerm',
+        termCode: 'turns',
+        name: 'Turn Patterns',
+        description: 'Essential Casino turn patterns and combinations',
+      },
     ],
-    "timeRequired": "PT10H",
-    "numberOfLessons": 20,
-    "hasPart": [
+    timeRequired: 'P2M', // 2 months
+    numberOfLessons: 8,
+
+    // Course structure
+    hasPart: [
       {
-        "@type": "Chapter",
-        "identifier": 1,
-        "name": "Getting Started",
-        "learningResourceType": "Module",
-        "hasPart": [
+        '@type': 'Chapter',
+        identifier: 1,
+        name: 'Introduction to Casino',
+        learningResourceType: 'Module',
+        hasPart: [
           {
-            "@type": "LearningResource",
-            "identifier": 1,
-            "name": "Introduction to Salsa",
-            "timeRequired": "PT15M",
-            "completed": true,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "qnQPfKCY-EQ",
-              "provider": "youtube",
-              "duration": "PT15M"
+            '@type': 'LearningResource',
+            identifier: 1,
+            name: 'Understanding Cuban Dance Culture',
+            timeRequired: 'PT15M',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'abc123',
+              duration: 'PT15M',
+              provider: 'youtube',
             },
-            "locked": false
+            completed: true,
+            locked: false,
           },
           {
-            "@type": "LearningResource",
-            "identifier": 2,
-            "name": "Basic Rhythm and Timing",
-            "timeRequired": "PT20M",
-            "completed": true,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "vRQAG1POQ-g",
-              "provider": "youtube",
-              "duration": "PT20M"
+            '@type': 'LearningResource',
+            identifier: 2,
+            name: 'Basic Steps & Rhythm',
+            timeRequired: 'PT20M',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'def456',
+              duration: 'PT20M',
+              provider: 'youtube',
             },
-            "locked": false
-          }
-        ]
-      },
-      {
-        "@type": "Chapter",
-        "identifier": 2,
-        "name": "Basic Steps",
-        "learningResourceType": "Module",
-        "hasPart": [
-          {
-            "@type": "LearningResource",
-            "identifier": 3,
-            "name": "Basic Step: Forward and Back",
-            "timeRequired": "PT30M",
-            "completed": true,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "1234abcd",
-              "provider": "youtube",
-              "duration": "PT30M"
-            },
-            "locked": false
+            completed: false,
+            locked: false,
           },
           {
-            "@type": "LearningResource",
-            "identifier": 4,
-            "name": "Side Steps and Weight Shifts",
-            "timeRequired": "PT25M",
-            "completed": false,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "5678efgh",
-              "provider": "youtube",
-              "duration": "PT25M"
+            '@type': 'LearningResource',
+            identifier: 3,
+            name: 'Basic Partner Connection',
+            timeRequired: 'PT18M',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'ghi789',
+              duration: 'PT18M',
+              provider: 'youtube',
             },
-            "locked": true
-          }
-        ]
-      }
+            completed: false,
+            locked: false,
+          },
+        ],
+      },
+      {
+        '@type': 'Chapter',
+        identifier: 2,
+        name: 'Essential Turn Patterns',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 4,
+            name: 'Dile Que No',
+            timeRequired: 'PT25M',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'jkl012',
+              duration: 'PT25M',
+              provider: 'youtube',
+            },
+            completed: false,
+            locked: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 5,
+            name: 'Vacilala',
+            timeRequired: 'PT22M',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'mno345',
+              duration: 'PT22M',
+              provider: 'youtube',
+            },
+            completed: false,
+            locked: false,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 6,
+            name: 'Setenta',
+            timeRequired: 'PT28M',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'pqr678',
+              duration: 'PT28M',
+              provider: 'youtube',
+            },
+            completed: false,
+            locked: false,
+          },
+        ],
+      },
     ],
-    "learningResources": [
+
+    // Course instances
+    courseInstance: [
       {
-        "@type": "LearningResource",
-        "id": "resource-1",
-        "name": "Salsa Music Guide.pdf",
-        "learningResourceType": "pdf",
-        "contentSize": "2.5 MB",
-        "icon": "ph:file-pdf",
-        "url": "https://zensual.art/resources/salsa-music-guide.pdf"
+        '@type': 'CourseInstance',
+        courseMode: 'online',
+        startDate: '2024-04-01T00:00:00Z',
+        endDate: '2024-05-31T23:59:59Z',
+        location: {
+          '@type': 'Place',
+          name: 'WeDance Online Platform',
+        },
+        offers: [
+          {
+            '@type': 'PriceSpecification',
+            price: 15,
+            priceCurrency: 'EUR',
+            duration: 'P1M',
+            validFrom: '2024-04-01T00:00:00Z',
+            validThrough: '2024-04-30T23:59:59Z',
+          },
+        ],
       },
-      {
-        "@type": "LearningResource",
-        "id": "resource-2",
-        "name": "Footwork Practice.mp4",
-        "learningResourceType": "video",
-        "contentSize": "18 MB",
-        "icon": "ph:video",
-        "url": "https://zensual.art/resources/footwork-practice.mp4"
-      }
     ],
-    "image": {
-      "@type": "ImageObject",
-      "url": "https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fmaykel_fonts.png?generation=1655231303310013&alt=media"
-    },
-    "video": {
-      "@type": "VideoObject",
-      "url": "https://zensual.art/videos/salsa-preview",
-      "duration": "PT2M10S",
-      "thumbnailUrl": "https://zensual.art/images/courses/salsa-thumb.jpg"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "ratingCount": 45,
-      "reviewCount": 45
-    },
-    "review": [
+
+    // Materials and content
+    learningResources: [
       {
-        "@type": "Review",
-        "identifier": 1,
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5,
-          "worstRating": 1
-        },
-        "author": {
-          "@type": "Person",
-          "name": "John Smith"
-        },
-        "reviewBody": "This course transformed my dancing! Maykel is an excellent instructor who breaks everything down clearly.",
-        "datePublished": "2023-11-05"
+        '@type': 'LearningResource',
+        id: 1,
+        name: 'Basic Steps Practice Guide',
+        learningResourceType: 'pdf',
+        contentSize: '2.4 MB',
+        icon: 'ph:file-pdf',
       },
       {
-        "@type": "Review",
-        "identifier": 2,
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 4,
-          "bestRating": 5,
-          "worstRating": 1
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Lisa Johnson"
-        },
-        "reviewBody": "Great course for beginners. I wish there were more practice combinations, but overall very helpful.",
-        "datePublished": "2023-10-22"
-      }
+        '@type': 'LearningResource',
+        id: 2,
+        name: 'Timba Music Playlist',
+        learningResourceType: 'playlist',
+        contentSize: '20 songs',
+        icon: 'ph:music-notes',
+      },
+      {
+        '@type': 'LearningResource',
+        id: 3,
+        name: 'Practice Drills',
+        learningResourceType: 'video',
+        contentSize: '15 min',
+        icon: 'ph:video',
+      },
     ],
-    "inLanguage": ["English", "Spanish"],
-    "dateCreated": "2023-01-01T00:00:00Z",
-    "dateModified": "2023-12-15T00:00:00Z",
-    "offers": [
+
+    // Pricing and offers
+    offers: [
       {
-        "@type": "Offer",
-        "identifier": "monthly",
-        "name": "Monthly Access",
-        "price": 15,
-        "priceCurrency": "EUR",
-        "availability": "InStock",
-        "duration": "P1M",
-        "validFrom": "2023-01-01T00:00:00Z"
+        '@type': 'PriceSpecification',
+        price: 15,
+        priceCurrency: 'EUR',
+        duration: 'P1M',
+        name: 'regular',
       },
       {
-        "@type": "Offer",
-        "identifier": "yearly",
-        "name": "Annual Access",
-        "price": 120,
-        "priceCurrency": "EUR",
-        "availability": "InStock",
-        "duration": "P1Y",
-        "validFrom": "2023-01-01T00:00:00Z"
-      }
+        '@type': 'PriceSpecification',
+        price: 150,
+        priceCurrency: 'EUR',
+        duration: 'P1Y',
+        name: 'regular',
+      },
+      {
+        '@type': 'PriceSpecification',
+        price: 30,
+        priceCurrency: 'EUR',
+        duration: 'P1M',
+        name: 'premium',
+      },
+      {
+        '@type': 'PriceSpecification',
+        price: 300,
+        priceCurrency: 'EUR',
+        duration: 'P1Y',
+        name: 'premium',
+      },
     ],
-    "subscriptionControl": {
-      "showTrial": true,
-      "showMonthlyAnnualToggle": true,
-      "plans": ["regular", "premium"]
-    },
-    "subscriptionPlans": {
-      "regular": {
-        "name": "Regular",
-        "features": ["Full course access", "Community forum", "Practice music"]
+    subscriptionPlans: {
+      regular: {
+        features: [
+          'Full course access',
+          'Downloadable materials',
+          'Community forum access',
+          'Monthly group Q&A',
+        ],
       },
-      "premium": {
-        "name": "Premium",
-        "features": [
-          "Everything in Regular",
-          "Private instructor feedback",
-          "Live monthly Q&A sessions",
-          "Additional practice videos"
-        ]
+      premium: {
+        features: [
+          'Everything in Regular',
+          'Weekly live Q&A sessions',
+          'Priority support',
+          '1-on-1 feedback',
+          'Private community access',
+        ],
       },
-      "trial": {
-        "name": "Free Trial",
-        "features": ["First chapter access", "Limited forum access"],
-        "duration": "P14D"
-      }
+      trial: {
+        duration: 7,
+        features: [
+          'First module access',
+          'Community forum preview',
+          'No credit card required',
+        ],
+      },
     },
-    "stats": {
-      "enrolled": 587,
-      "completed": 342
+
+    // Ratings and reviews
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: 4.8,
+      reviewCount: 45,
+      ratingCount: 50,
     },
-    "community": {
-      "discussions": 128,
-      "activeStudents": 234,
-      "nextLiveQ_A": "2024-01-15T18:00:00Z"
-    }
+    review: [
+      {
+        '@type': 'Review',
+        identifier: 1,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        author: {
+          '@type': 'Person',
+          name: 'John D.',
+        },
+        reviewBody:
+          "Excellent course! Maykel's teaching style is clear and engaging.",
+        datePublished: '2024-03-15',
+      },
+      {
+        '@type': 'Review',
+        identifier: 2,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        author: {
+          '@type': 'Person',
+          name: 'Maria S.',
+        },
+        reviewBody:
+          "The best online Cuban salsa course I've taken. Great progression and explanations.",
+        datePublished: '2024-03-10',
+      },
+      {
+        '@type': 'Review',
+        identifier: 3,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: 4,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        author: {
+          '@type': 'Person',
+          name: 'David R.',
+        },
+        reviewBody:
+          'Very comprehensive. The practice materials are super helpful.',
+        datePublished: '2024-03-05',
+      },
+    ],
+
+    // Metadata
+    inLanguage: ['en', 'es'],
+    dateCreated: '2024-01-01T00:00:00Z',
+    dateModified: '2024-03-20T00:00:00Z',
+    image: {
+      '@type': 'ImageObject',
+      url: instructor.image,
+    },
+    video: {
+      '@type': 'VideoObject',
+      url: 'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/courses%2Fcuban-casino-preview.mp4',
+      duration: 'PT5M',
+      thumbnailUrl: instructor.image,
+    },
+
+    stats: {
+      enrolled: 234,
+      completed: 156,
+    },
+    community: {
+      discussions: 15,
+      activeStudents: 89,
+      nextLiveQ_A: '2024-03-25T18:00:00Z',
+    },
   },
   {
-    "@type": "Course",
-    "@id": "https://zensual.art/courses/102",
-    "identifier": "102",
-    "name": "Cuban Lady Styling",
-    "description": "Develop your unique feminine style and elegance in Cuban dance. This course focuses on body movement, arm styling, and authentic expressions for female dancers.",
-    "provider": {
-      "@type": "Organization",
-      "name": "Zensual Academy",
-      "description": "Online dance education platform",
-      "url": "https://zensual.art",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://zensual.art/logo.png"
-      }
+    '@type': 'Course',
+    '@id': 'salsa-lady-styling',
+    identifier: 'salsa-lady-styling-2024',
+    name: 'Salsa Ladies Styling',
+    subscriptionControl: {
+      showTrial: false,
+      showMonthlyAnnualToggle: false,
+      plans: ['regular', 'premium'],
     },
-    "instructor": {
-      "@type": "Person",
-      "identifier": "2",
-      "name": "Yarima Rodríguez",
-      "artistId": "17",
-      "image": "https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media",
-      "jobTitle": "Professional Cuban Dancer",
-      "teachingLevel": "Advanced",
-      "location": "Cuba",
-      "knowsLanguage": ["Spanish", "English"],
-      "knowsAbout": ["Salsa Cubana", "Lady Styling", "Son Cubano"],
-      "experience": {
-        "years": 15,
-        "achievements": [
-          "Professional Cuban Dancer",
-          "International Dance Instructor"
-        ]
+    description:
+      'Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets for mastering Lady Styling in Son Cubano, helping you enhance your dance technique and unleash your inner grace.',
+    provider: {
+      '@type': 'Organization',
+      name: 'Zensual Art',
+      description: 'Online dance education platform',
+      url: 'https://zensual.art',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://zensual.art/logo.png',
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 5.0,
-        "ratingCount": 1,
-        "reviewCount": 1
+    },
+
+    instructor: {
+      '@type': 'Person',
+      identifier: 'yarima-rodriguez',
+      artirstid: 17,
+      name: 'Yarima Rodríguez',
+      image:
+        'https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media',
+      jobTitle: 'Professional Cuban Dancer',
+      knowsAbout: ['Salsa Cubana', 'Son Cubano', 'Lady Styling'],
+      knowsLanguage: ['Spanish', 'English'],
+      teachingLevel: 'Advanced',
+      location: 'Cuba',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: 4.9,
+        reviewCount: 150,
       },
-      "availableService": {
-        "@type": "Service",
-        "offers": [
+      experience: {
+        years: 15,
+        achievements: [
+          'Professional Cuban Dancer',
+          'International Dance Instructor',
+        ],
+      },
+      availableService: {
+        '@type': 'Service',
+        offers: [
           {
-            "@type": "PriceSpecification",
-            "price": 80,
-            "priceCurrency": "EUR",
-            "duration": "PT60M"
-          }
-        ]
+            '@type': 'PriceSpecification',
+            price: 80,
+            priceCurrency: 'EUR',
+            duration: 'PT60M',
+          },
+        ],
       },
-      "socialMedia": {
-        "instagram": "/zensual.art/",
-        "youtube": "yarimaofficial"
-      }
+      socialMedia: {
+        instagram: '/zensual.art/',
+      },
     },
-    "educationalLevel": "Intermediate",
-    "teaches": [
+
+    educationalLevel: 'Intermediate',
+    teaches: [
       {
-        "@type": "DefinedTerm",
-        "termCode": "lady-styling",
-        "name": "Lady Styling",
-        "description": "Feminine expressions and movements in Cuban dance",
-        "inDefinedTermSet": "DanceStyles"
+        '@type': 'DefinedTerm',
+        termCode: 'lady-styling',
+        name: 'Core Techniques of Lady Styling',
+        description:
+          'Master the fundamental movements and stylistic nuances specific to Son Cubano',
       },
       {
-        "@type": "DefinedTerm",
-        "termCode": "cuban-salsa",
-        "name": "Cuban Salsa",
-        "description": "Traditional Cuban dance style",
-        "inDefinedTermSet": "DanceStyles"
-      }
+        '@type': 'DefinedTerm',
+        termCode: 'dance-mechanics',
+        name: 'Enhanced Dance Mechanics',
+        description:
+          'Improve your body alignment, elegance in hand movements, and precision in footwork',
+      },
+      {
+        '@type': 'DefinedTerm',
+        termCode: 'performance',
+        name: 'Performance and Expression',
+        description:
+          'Elevate your dance expression, learning to convey stories and emotions seamlessly through your movements',
+      },
     ],
-    "timeRequired": "PT12H",
-    "numberOfLessons": 24,
-    "hasPart": [
+
+    timeRequired: '2 hours 10 minutes',
+    numberOfLessons: 12,
+
+    hasPart: [
       {
-        "@type": "Chapter",
-        "identifier": 1,
-        "name": "Foundations of Feminine Movement",
-        "learningResourceType": "Module",
-        "hasPart": [
+        '@type': 'Chapter',
+        identifier: 1,
+        name: 'Introduction',
+        learningResourceType: 'Module',
+        hasPart: [
           {
-            "@type": "LearningResource",
-            "identifier": 1,
-            "name": "Introduction to Lady Styling",
-            "timeRequired": "PT20M",
-            "completed": false,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "abcd1234",
-              "provider": "youtube",
-              "duration": "PT20M"
+            '@type': 'LearningResource',
+            identifier: 1,
+            name: 'Intro',
+            timeRequired: '2:10 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
+              playbackId: 'sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI',
+              duration: '2:10 min',
+              provider: 'mux',
             },
-            "locked": false
+            completed: false,
+            locked: false,
           },
           {
-            "@type": "LearningResource",
-            "identifier": 2,
-            "name": "Body Posture and Balance",
-            "timeRequired": "PT25M",
-            "completed": false,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "efgh5678",
-              "provider": "youtube",
-              "duration": "PT25M"
+            '@type': 'LearningResource',
+            identifier: 2,
+            name: 'Real-Time Phrase',
+            timeRequired: '0:56 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
+              playbackId: 'sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww',
+              duration: '0:56 min',
+              provider: 'mux',
             },
-            "locked": false
-          }
-        ]
+            completed: false,
+            locked: false,
+          },
+        ],
       },
       {
-        "@type": "Chapter",
-        "identifier": 2,
-        "name": "Arm Styling Techniques",
-        "learningResourceType": "Module",
-        "hasPart": [
+        '@type': 'Chapter',
+        identifier: 2,
+        name: 'Warm-up',
+        learningResourceType: 'Module',
+        hasPart: [
           {
-            "@type": "LearningResource",
-            "identifier": 3,
-            "name": "Basic Arm Patterns",
-            "timeRequired": "PT30M",
-            "completed": false,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "ijkl9012",
-              "provider": "youtube",
-              "duration": "PT30M"
+            '@type': 'LearningResource',
+            identifier: 3,
+            name: 'Warm-up (part 1)',
+            timeRequired: '7:04 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
+              playbackId: 'qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A',
+              duration: '7:04 min',
+              provider: 'mux',
             },
-            "locked": true
+            completed: false,
+            locked: false,
           },
           {
-            "@type": "LearningResource",
-            "identifier": 4,
-            "name": "Advanced Arm Flow",
-            "timeRequired": "PT25M",
-            "completed": false,
-            "video": {
-              "@type": "VideoObject",
-              "identifier": "mnop3456",
-              "provider": "youtube",
-              "duration": "PT25M"
+            '@type': 'LearningResource',
+            identifier: 4,
+            name: 'Warm-up (part 2)',
+            timeRequired: '4:37 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
+              playbackId: 'KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4',
+              duration: '4:37 min',
+              provider: 'mux',
             },
-            "locked": true
-          }
-        ]
-      }
-    ],
-    "learningResources": [
-      {
-        "@type": "LearningResource",
-        "id": "resource-3",
-        "name": "Lady Styling Reference Guide.pdf",
-        "learningResourceType": "pdf",
-        "contentSize": "3.2 MB",
-        "icon": "ph:file-pdf",
-        "url": "https://zensual.art/resources/lady-styling-guide.pdf"
+            completed: false,
+            locked: true,
+          },
+        ],
       },
       {
-        "@type": "LearningResource",
-        "id": "resource-4",
-        "name": "Practice Routines.mp4",
-        "learningResourceType": "video",
-        "contentSize": "22 MB",
-        "icon": "ph:video",
-        "url": "https://zensual.art/resources/practice-routines.mp4"
-      }
-    ],
-    "image": {
-      "@type": "ImageObject",
-      "url": "https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0"
-    },
-    "video": {
-      "@type": "VideoObject",
-      "url": "https://zensual.art/videos/lady-styling-preview",
-      "duration": "PT2M30S",
-      "thumbnailUrl": "https://zensual.art/images/courses/lady-styling-thumb.jpg"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": 5.0,
-      "ratingCount": 1,
-      "reviewCount": 1
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "identifier": 1,
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5,
-          "worstRating": 1
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Sofia Martinez"
-        },
-        "reviewBody": "Yarima's class completely transformed my styling. Her techniques are clear and easy to incorporate into my dancing.",
-        "datePublished": "2023-09-15"
+        '@type': 'Chapter',
+        identifier: 3,
+        name: 'Phrase',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 5,
+            name: 'Phrase (segment 1)',
+            timeRequired: '8:24 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
+              playbackId: 'bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw',
+              duration: '8:24 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 6,
+            name: 'Phrase (segment 2)',
+            timeRequired: '7:43 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
+              playbackId: 'fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00',
+              duration: '7:43 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 7,
+            name: 'Phrase (segment 3)',
+            timeRequired: '7:34 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
+              playbackId: 'iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA',
+              duration: '7:34 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 8,
+            name: 'Phrase (segment 4)',
+            timeRequired: '9:23 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
+              playbackId: 'CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ',
+              duration: '9:23 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 9,
+            name: 'Continued Phrase (without music)',
+            timeRequired: '1:35 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
+              playbackId: '8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg',
+              duration: '1:35 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+        ],
       },
       {
-        "@type": "Review",
-        "identifier": 2,
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 4,
-          "bestRating": 5,
-          "worstRating": 1
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Emily Wang"
-        },
-        "reviewBody": "Beautiful course with lots of details on feminine movement. Some parts might be challenging for true beginners.",
-        "datePublished": "2023-08-22"
-      }
+        '@type': 'Chapter',
+        identifier: 4,
+        name: 'Details',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 10,
+            name: 'Details of the arms',
+            timeRequired: '4:23 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
+              playbackId: 'cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg',
+              duration: '4:23 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+          {
+            '@type': 'LearningResource',
+            identifier: 11,
+            name: 'Details of the legs',
+            timeRequired: '1:31 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
+              playbackId: 'bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM',
+              duration: '1:31 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+        ],
+      },
+      {
+        '@type': 'Chapter',
+        identifier: 5,
+        name: 'Stretching',
+        learningResourceType: 'Module',
+        hasPart: [
+          {
+            '@type': 'LearningResource',
+            identifier: 12,
+            name: 'Stretching',
+            timeRequired: '16:02 min',
+            video: {
+              '@type': 'VideoObject',
+              identifier: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
+              playbackId: 'NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q',
+              duration: '16:02 min',
+              provider: 'mux',
+            },
+            completed: false,
+            locked: true,
+          },
+        ],
+      },
     ],
-    "inLanguage": ["English", "Spanish"],
-    "dateCreated": "2023-02-01T00:00:00Z",
-    "dateModified": "2023-12-10T00:00:00Z",
+
     offers: [
       {
         '@type': 'PriceSpecification',
@@ -528,39 +746,93 @@ export const mockCourses = [
         name: 'premium',
       },
     ],
-    "subscriptionControl": {
-      "showTrial": false,
-      "showMonthlyAnnualToggle": true,
-      "plans": ["regular", "premium"]
-    },
-    "subscriptionPlans": {
-      "regular": {
-        "name": "Regular",
-        "features": ["Full course access", "Community forum", "Practice music"]
+    courseInstance: [
+      {
+        '@type': 'CourseInstance',
+        courseMode: 'online',
+        startDate: '2024-01-01',
+        location: {
+          '@type': 'Place',
+          name: 'Online Platform',
+          address: 'https://zensual.art',
+        },
       },
-      "premium": {
-        "name": "Premium", 
-        "features": [
-          "Everything in Regular",
-          "Private instructor feedback",
-          "Live monthly Q&A sessions",
-          "Additional styling exercises"
-        ]
+    ],
+
+    learningResources: [
+      {
+        '@type': 'LearningResource',
+        id: 2,
+        name: 'Son Cubano Playlist',
+        learningResourceType: 'playlist',
+        contentSize: '15 songs',
+        icon: 'ph:music-notes',
       },
-      "trial": {
-        "name": "Free Trial",
-        "features": ["First chapter access", "Limited forum access"],
-        "duration": "P14D"
-      }
+    ],
+
+    subscriptionPlans: {
+      regular: {
+        features: ['Full course access', 'Practice materials'],
+      },
+      premium: {
+        features: [
+          'Everything in Regular',
+          'Priority support',
+          'Live Q&A sessions',
+        ],
+      },
     },
-    "stats": {
-      "enrolled": 432,
-      "completed": 215
+
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: 0,
+      reviewCount: 0,
+      ratingCount: 0,
     },
-    "community": {
-      "discussions": 95,
-      "activeStudents": 180,
-      "nextLiveQ_A": "2024-02-01T18:00:00Z"
-    }
-  }
+
+    review: [
+      {
+        '@type': 'Review',
+        identifier: 1,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        author: {
+          '@type': 'Person',
+          name: 'Maria G.',
+        },
+        reviewBody:
+          'Excellent course! Yarima explains everything in detail and makes it easy to follow along.',
+        datePublished: '2024-01-15',
+      },
+    ],
+
+    inLanguage: ['en', 'es'],
+    dateCreated: '2024-01-01',
+    dateModified: '2024-01-01',
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0',
+    },
+    video: {
+      '@type': 'VideoObject',
+      url: 'https://zensual.art/videos/lady-styling-preview',
+      duration: 'PT2M10S',
+      thumbnailUrl: 'https://zensual.art/images/courses/lady-styling-thumb.jpg',
+    },
+
+    stats: {
+      enrolled: 0,
+      completed: 0,
+    },
+
+    community: {
+      discussions: 25,
+      activeStudents: 75,
+      nextLiveQ_A: '2024-02-15T18:00:00Z',
+    },
+  },
 ];

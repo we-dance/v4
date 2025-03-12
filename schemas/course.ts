@@ -145,7 +145,29 @@ const providerSchema = z.object({
     .optional(),
 })
 
-// Main course schema
+export const courseLessonSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  videoId: z.string(),
+  timeRequired: z.string().optional(),
+  videoDuration: z.string().optional(),
+  videoProvider: z.string(),
+  order: z.number().optional(),
+  locked: z.boolean().optional(),
+  completed: z.boolean().optional(),
+  identifier: z.number().optional()
+})
+
+export const courseModuleSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string().optional(),
+  order: z.number().optional(),
+  identifier: z.number().optional(), // для обратной совместимости
+  lessons: z.array(courseLessonSchema).optional()
+})
+
+// Расширяем основную схему курса
 export const courseSchema = z.object({
   // Core Schema.org fields
   '@type': z.literal('Course'),
@@ -172,7 +194,8 @@ export const courseSchema = z.object({
   numberOfLessons: z.number(),
 
   // Course structure
-  hasPart: z.array(moduleSchema), // previously 'modules'
+  hasPart: z.array(moduleSchema).optional(),
+  modules: z.array(courseModuleSchema).optional(),
   courseInstance: z.array(courseInstanceSchema).optional(),
 
   // Materials and content
@@ -238,3 +261,5 @@ export const courseSchema = z.object({
 })
 
 export type Course = z.infer<typeof courseSchema>
+export type CourseModule = z.infer<typeof courseModuleSchema>
+export type CourseLesson = z.infer<typeof courseLessonSchema>

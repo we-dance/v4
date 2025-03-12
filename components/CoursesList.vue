@@ -88,7 +88,21 @@
         :key="course.id"
         class="group"
       >
-        <NuxtLink :to="`/courses/${course.slug}`">
+        <NuxtLink 
+          :to="`/courses/${course.slug}`"
+          @click="() => {
+            console.log('Clicking course:', course);
+            console.log('Course details:', {
+              id: course.id,
+              slug: course.slug,
+              name: course.name,
+              instructor: course.instructor,
+              metadata: course.metadata
+            });
+            console.log('Navigation target:', `/courses/${course.slug}`);
+          }"
+          class="block"
+        >
           <CardHeader class="space-y-4">
             <div class="aspect-video bg-muted rounded-lg overflow-hidden">
               <img
@@ -239,20 +253,53 @@ const {
 
 // Extract flat list of courses from all pages
 const courses = computed(() => {
-  if (!coursesData.value) return []
-  return coursesData.value.pages.flatMap(page => page.items)
+  if (!coursesData.value) {
+    console.log('No courses data available')
+    return []
+  }
+  
+  console.log('Raw courses data:', coursesData.value)
+  console.log('Pages:', coursesData.value.pages)
+  console.log('Page params:', coursesData.value.pageParams)
+  
+  const flattenedCourses = coursesData.value.pages.flatMap(page => {
+    console.log('Processing page:', page)
+    console.log('Page items:', page.items)
+    return page.items
+  })
+  
+  console.log('Flattened courses:', flattenedCourses)
+  console.log('Course slugs:', flattenedCourses.map(c => c.slug))
+  return flattenedCourses
 })
 
 // Helper to safely access course image
 const getCourseImage = (course: any) => {
+  console.log('Getting image for course:', course.name)
+  console.log('Course data:', {
+    image: course.image,
+    metadata: course.metadata,
+    instructor: course.instructor
+  })
+  
   // Используем поле image, добавленное в трансформации на сервере
-  return course.image || '/images/default-course.jpg'
+  const image = course.image || '/images/default-course.jpg'
+  console.log('Selected image:', image)
+  return image
 }
 
 // Helper methods
 const getAverageRating = (course: any) => {
+  console.log('Calculating rating for course:', course.name)
+  console.log('Rating data:', {
+    aggregateRating: course.aggregateRating,
+    reviews: course.review,
+    fallbackReviews: course.reviews
+  })
+  
   // Проверяем сначала aggregateRating, если есть - используем его
   if (course.aggregateRating?.ratingValue) {
+    console.log('Using aggregateRating:', course.aggregateRating.ratingValue)
     return course.aggregateRating.ratingValue.toFixed(1);
   }
   
@@ -262,7 +309,9 @@ const getAverageRating = (course: any) => {
       (acc: number, review: any) => acc + (review.reviewRating?.ratingValue || 0), 
       0
     );
-    return (sum / course.review.length).toFixed(1);
+    const average = (sum / course.review.length).toFixed(1)
+    console.log('Calculated average from review:', average)
+    return average;
   }
   
   // Проверяем reviews для совместимости с разными форматами данных
@@ -271,13 +320,22 @@ const getAverageRating = (course: any) => {
       (acc: number, review: any) => acc + (review.rating || review.reviewRating?.ratingValue || 0), 
       0
     );
-    return (sum / course.reviews.length).toFixed(1);
+    const average = (sum / course.reviews.length).toFixed(1)
+    console.log('Calculated average from reviews:', average)
+    return average;
   }
   
+  console.log('No rating data found, returning N/A')
   return 'N/A';
 }
 
 const getMonthlyPrice = (course: any) => {
+  console.log('Getting price for course:', course.name)
+  console.log('Price data:', {
+    offers: course.offers,
+    offerings: course.offerings
+  })
+  
   // Проверяем наличие offers (как в mockCourses.ts)
   if (course.offers && course.offers.length > 0) {
     // Находим месячное предложение или первое
@@ -285,7 +343,9 @@ const getMonthlyPrice = (course: any) => {
       offer.duration === 'P1M' || (offer.name && offer.name.toLowerCase().includes('month'))
     ) || course.offers[0];
     
-    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency || 'EUR'}`;
+    const price = `${monthlyOffer.price} ${monthlyOffer.priceCurrency || 'EUR'}`
+    console.log('Selected price from offers:', price)
+    return price;
   }
   
   // Проверяем offerings для совместимости с разными форматами данных
@@ -295,32 +355,45 @@ const getMonthlyPrice = (course: any) => {
       offer.duration === 'P1M' || (offer.name && offer.name.toLowerCase().includes('month'))
     ) || course.offerings[0];
     
-    return `${monthlyOffer.price} ${monthlyOffer.currency || monthlyOffer.priceCurrency || 'EUR'}`;
+    const price = `${monthlyOffer.price} ${monthlyOffer.currency || monthlyOffer.priceCurrency || 'EUR'}`
+    console.log('Selected price from offerings:', price)
+    return price;
   }
   
+  console.log('No price data found, returning default message')
   return 'Contact for pricing';
 }
 
 const getInstructorTitle = (instructor: any) => {
+  console.log('Getting title for instructor:', instructor?.name)
+  console.log('Instructor data:', instructor)
+  
   // Проверка на null/undefined
-  if (!instructor) return 'Instructor';
+  if (!instructor) {
+    console.log('No instructor data, returning default')
+    return 'Instructor';
+  }
   
   // Приоритет 1: Первое достижение из массива achievements
   if (instructor.experience?.achievements && instructor.experience.achievements.length > 0) {
+    console.log('Using first achievement:', instructor.experience.achievements[0])
     return instructor.experience.achievements[0];
   }
   
   // Приоритет 2: jobTitle
   if (instructor.jobTitle) {
+    console.log('Using jobTitle:', instructor.jobTitle)
     return instructor.jobTitle;
   }
   
   // Приоритет 3: teachingLevel
   if (instructor.teachingLevel) {
-    return instructor.teachingLevel === 'master' ? 'Master Instructor' : instructor.teachingLevel;
+    const title = instructor.teachingLevel === 'master' ? 'Master Instructor' : instructor.teachingLevel
+    console.log('Using teachingLevel:', title)
+    return title;
   }
   
-  // Запасной вариант
+  console.log('No specific title found, using default')
   return 'Instructor';
 }
 </script>

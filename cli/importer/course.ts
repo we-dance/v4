@@ -6,6 +6,7 @@
 import { PrismaClient } from '@prisma/client'
 import { mockCourses } from './mockCourses'
 import { logger } from '../utils/logger'
+import crypto from 'crypto'
 
 const prisma = new PrismaClient()
 const mockCoursesData = mockCourses
@@ -14,9 +15,15 @@ const mockCoursesData = mockCourses
  * Transform course data from mockCourses.ts to Prisma format
  */
 async function transformCourseData(course: any) {
+  // Extract ID from @id by taking the last part after the last slash
+  const idFromUrl = course['@id'] ? course['@id'].split('/').pop() : '';
+  
+  // Generate UUID for the course
+  const uuid = crypto.randomUUID();
+  
   // Extract core course data
   const courseData = {
-    id: course['@id'] || '', // Use @id as primary identifier
+    id: uuid, // Use UUID instead of full URL
     name: course.name || '',
     description: course.description || '',
     educationalLevel: course.educationalLevel || 'Beginner',
@@ -37,6 +44,7 @@ async function transformCourseData(course: any) {
     } : null,
     // Store original course data as JSON (including metadata)
     metadata: {
+      originalId: course['@id'] || '',
       inLanguage: course.inLanguage || [],
       dateCreated: course.dateCreated || new Date().toISOString(),
       dateModified: course.dateModified || new Date().toISOString(),
@@ -54,8 +62,8 @@ async function transformCourseData(course: any) {
     },
     // Default published status
     published: true,
-    // Create slug from id
-    slug: course['@id'] ? course['@id'].split('/').pop() : '',
+    // Create slug from id (the last part of @id)
+    slug: idFromUrl,
   }
 
   return courseData
@@ -67,8 +75,8 @@ async function transformCourseData(course: any) {
 async function transformModuleData(courseId: string, modules: any[]) {
   return modules.map((module, index) => ({
     courseId,
-    id: `${courseId}-module-${module.identifier || index + 1}`,
-    identifier: module.identifier || index + 1,
+    id: crypto.randomUUID(),
+    identifier: module.identifier || `module-${index + 1}`,
     name: module.name || `Module ${index + 1}`,
     description: '',
     order: index + 1,
@@ -82,8 +90,8 @@ async function transformModuleData(courseId: string, modules: any[]) {
 async function transformLessonData(moduleId: string, lessons: any[]) {
   return lessons.map((lesson, index) => ({
     moduleId,
-    id: `${moduleId}-lesson-${lesson.identifier || index + 1}`,
-    identifier: lesson.identifier || index + 1,
+    id: crypto.randomUUID(),
+    identifier: lesson.identifier || `lesson-${index + 1}`,
     name: lesson.name || `Lesson ${index + 1}`,
     timeRequired: lesson.timeRequired || '',
     videoId: lesson.video?.identifier || '',
@@ -100,7 +108,7 @@ async function transformLessonData(moduleId: string, lessons: any[]) {
 async function transformOfferingsData(courseId: string, offers: any[]) {
   return offers.map((offer, index) => ({
     courseId,
-    id: `${courseId}-offer-${index + 1}`,
+    id: crypto.randomUUID(),
     price: offer.price || 0,
     currency: offer.priceCurrency || 'EUR',
     duration: offer.duration || 'P1M',
@@ -116,7 +124,7 @@ async function transformOfferingsData(courseId: string, offers: any[]) {
 async function transformReviewsData(courseId: string, reviews: any[]) {
   return reviews.map((review, index) => ({
     courseId,
-    id: `${courseId}-review-${review.identifier || index + 1}`,
+    id: crypto.randomUUID(), // Генерируем UUID для отзыва
     rating: review.reviewRating?.ratingValue || 5,
     content: review.reviewBody || '',
     authorName: review.author?.name || 'Anonymous',
@@ -130,7 +138,7 @@ async function transformReviewsData(courseId: string, reviews: any[]) {
 async function transformResourcesData(courseId: string, resources: any[]) {
   return resources.map((resource, index) => ({
     courseId,
-    id: `${courseId}-resource-${resource.id || index + 1}`,
+    id: crypto.randomUUID(), // Генерируем UUID для ресурса
     name: resource.name || `Resource ${index + 1}`,
     type: resource.learningResourceType || 'other',
     contentSize: resource.contentSize || '',

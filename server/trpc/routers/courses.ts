@@ -243,6 +243,7 @@ export const coursesRouter = router({
           },
         },
       })
+      debugger
 
       if (!course) {
         throw new TRPCError({
