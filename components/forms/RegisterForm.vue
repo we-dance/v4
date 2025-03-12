@@ -31,11 +31,6 @@ const schema = z.object({
     )
     .refine(notEndingInPeriod, 'Username cannot end in a period.')
     .refine(usernameValidator, 'Username is already taken.'),
-  city: z.object({
-    placeId: z.string(),
-    label: z.string(),
-  }),
-  pronounce: z.enum(['he', 'she', 'they']),
   email: z.string().email(),
   password: z.string().min(8),
   emailConsent: z.boolean().refine((value) => value, {
