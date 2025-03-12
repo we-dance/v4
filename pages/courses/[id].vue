@@ -31,6 +31,11 @@ async function fetchCourseData() {
           discussions: 0,
           activeStudents: 0,
           nextLiveQ_A: new Date().toISOString()
+        },
+        subscriptionControl: directResult.subscriptionControl || {
+          showTrial: false,
+          showMonthlyAnnualToggle: true,
+          plans: ['regular', 'premium']
         }
       } as Course
       
@@ -140,6 +145,30 @@ const getPrivateClassDuration = () => {
 const handleSubscribe = () => {
   if (!course.value) return
   
+  // Add defensive check to ensure required data is present
+  if (!course.value.subscriptionControl) {
+    console.error('Missing subscriptionControl in course data');
+    course.value.subscriptionControl = {
+      showTrial: false,
+      showMonthlyAnnualToggle: true,
+      plans: ['regular', 'premium']
+    };
+  }
+  
+  if (!course.value.offers || course.value.offers.length === 0) {
+    console.error('Missing offers in course data');
+    // Add some default offers if they're missing
+    course.value.offers = [
+      { 
+        '@type': 'PriceSpecification', 
+        price: 15, 
+        priceCurrency: 'EUR', 
+        duration: 'P1M',
+        name: 'regular'
+      }
+    ];
+  }
+  
   dialog.open({
     component: 'CourseSubscriptionDialog',
     props: {
@@ -151,7 +180,7 @@ const handleSubscribe = () => {
           )
         } catch (error) {
           console.error('Navigation error:', error)
-        dialog.close()
+          dialog.close()
         }
       },
     },

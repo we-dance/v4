@@ -90,7 +90,7 @@ const handleSelect = async (plan: { type: string; interval?: string }) => {
       v-if="course.subscriptionControl?.showMonthlyAnnualToggle"
       class="flex justify-center gap-4 items-center mb-6"
     >
-      <span :class="{ 'text-primary font-medium': !isAnnual }">Ежемесячно</span>
+      <span :class="{ 'text-primary font-medium': !isAnnual }">Monthly</span>
       <Switch
         :checked="isAnnual"
         @update:checked="isAnnual = $event"
