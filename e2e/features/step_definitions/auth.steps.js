@@ -44,7 +44,9 @@ When('I fill in {string} with a short password', async function (field) {
 })
 
 When('I check the email consent checkbox', async function () {
-  await this.page.check('input[name="emailConsent"]')
+  await this.page.click(
+    'button[role="checkbox"][aria-label*="I agree to receive emails"]'
+  )
 })
 
 When('I click the {string} button', async function (buttonText) {
@@ -52,17 +54,25 @@ When('I click the {string} button', async function (buttonText) {
   await this.page.waitForLoadState('networkidle')
 })
 
+// Add a step to handle clicking the Sign Out menu item
+When('I click the "Sign Out" button', async function () {
+  await this.page.click('div[role="menuitem"]:has-text("Sign Out")')
+  await this.page.waitForLoadState('networkidle')
+})
+
 Then('I should be redirected to the home page', async function () {
   await expect(this.page).toHaveURL(`${baseUrl}/`)
-  await this.cleanup()
+  // Don't call cleanup here as it might be followed by other steps
 })
 
 Then('I should be logged in', async function () {
   // Check for elements that indicate a logged-in state
-  await expect(this.page.locator('button:has-text("Sign Out")')).toBeVisible({
+  await expect(
+    this.page.locator('button[aria-haspopup="menu"] .i-lucide\\:user')
+  ).toBeVisible({
     timeout: 5000,
   })
-  await this.cleanup()
+  // Don't call cleanup here as it might be followed by other steps
 })
 
 Then(
@@ -156,13 +166,15 @@ Given('I am logged in', async function () {
   await this.page.waitForLoadState('networkidle')
 
   // Verify logged in
-  await expect(this.page.locator('button:has-text("Sign Out")')).toBeVisible({
+  await expect(
+    this.page.locator('button[aria-haspopup="menu"] .i-lucide\\:user')
+  ).toBeVisible({
     timeout: 5000,
   })
 })
 
 When('I click on the user menu', async function () {
-  await this.page.click('button:has([name="lucide:user"])')
+  await this.page.click('button[aria-haspopup="menu"]')
 })
 
 Then('I should be logged out', async function () {
@@ -199,5 +211,10 @@ Then('I should be redirected to the login page', async function () {
 Then('I should see the protected page content', async function () {
   await expect(this.page).toHaveURL(`${baseUrl}/settings`)
   await expect(this.page.locator('h1:has-text("Settings")')).toBeVisible()
+  await this.cleanup()
+})
+
+// Add a cleanup step that can be used at the end of scenarios
+Then('I clean up the test environment', async function () {
   await this.cleanup()
 })
