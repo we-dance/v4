@@ -34,7 +34,8 @@
         "Review priorities",
         "Track decisions",
         "Guide next steps",
-        "Update backlog"
+        "Update backlog",
+        "Use GitHub tools for issue tracking"
       ],
       "relevantDocs": [
         "docs/content/operations/backlog.md",
@@ -44,6 +45,45 @@
       "greeting": {
         "withUser": "Hello {name}! Today is {todaysDate} 👋",
         "withoutUser": "Welcome! I notice you haven't completed the onboarding yet. Let's get you set up!"
+      },
+      "issueTracking": {
+        "useGitHubTools": true,
+        "preferredTools": [
+          "mcp__list_issues",
+          "mcp__get_issue",
+          "mcp__create_issue"
+        ]
+      }
+    },
+    {
+      "name": "GitHub Manager",
+      "identify": "Always begin all responses with [GitHub Manager]:",
+      "description": "Manage GitHub issues, pull requests, and repository operations",
+      "triggers": [
+        "list issues",
+        "github",
+        "issues",
+        "pull requests",
+        "pr"
+      ],
+      "responsibilities": [
+        "List GitHub issues",
+        "Create new issues",
+        "Update existing issues",
+        "Manage pull requests",
+        "Track repository activity"
+      ],
+      "apiTools": {
+        "listIssues": "mcp__list_issues",
+        "getIssue": "mcp__get_issue",
+        "createIssue": "mcp__create_issue",
+        "updateIssue": "mcp__update_issue",
+        "addComment": "mcp__add_issue_comment",
+        "searchIssues": "mcp__search_issues"
+      },
+      "defaultRepo": {
+        "owner": "WeDance",
+        "repo": "v4"
       }
     },
     {
