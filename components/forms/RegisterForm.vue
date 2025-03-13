@@ -96,9 +96,6 @@ const onSubmit = form.handleSubmit(
       </FormItem>
     </FormField>
     <TermsInfo />
-    <pre>
-      {{ form.values }}
-    </pre>
     <div class="flex justify-end">
       <Button type="submit"> Register </Button>
     </div>
