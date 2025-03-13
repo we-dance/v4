@@ -1,10 +1,10 @@
 import * as z from 'zod'
-const { $client } = useNuxtApp()
 
 export const noMultiplePeriods = (value: string) => !value.includes('..')
 export const notEndingInPeriod = (value: string) => !value.endsWith('.')
 
 export const usernameValidator = async (username: string) => {
+  const { $client } = useNuxtApp()
   const result = await $client.profiles.get.query({ username })
 
   if (!result) {
