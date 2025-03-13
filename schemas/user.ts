@@ -29,7 +29,7 @@ export const userSchema = z.object({
   phone: z.string().min(1, 'Phone is required.'),
   email: z.string().email(),
   password: z.string().min(8, 'Password must be at least 8 characters.'),
-  emailConsent: z.boolean().refine((value) => value, {
+  emailConsent: z.boolean({ coerce: true }).refine((value) => value, {
     message: 'We need your consent to send you emails.',
   }),
 })
