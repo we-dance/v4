@@ -1,51 +1,18 @@
 <script setup lang="ts">
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
-import * as z from 'zod'
 import { toast } from 'vue-sonner'
+import { userSchema } from '~/schemas/user'
 
-const { $client } = useNuxtApp()
 const { login } = useAppAuth()
 
-const noMultiplePeriods = (value: string) => !value.includes('..')
-const notEndingInPeriod = (value: string) => !value.endsWith('.')
-
-const usernameValidator = async (username: string) => {
-  const result = await $client.profiles.get.query({ username })
-
-  if (!result) {
-    return true
-  }
-
-  return false
-}
-
-const schema = z.object({
-  username: z
-    .string()
-    .min(2, 'Username must be at least 2 characters.')
-    .max(30)
-    .refine(
-      noMultiplePeriods,
-      'Username cannot have multiple periods in a row.'
-    )
-    .refine(notEndingInPeriod, 'Username cannot end in a period.')
-    .refine(usernameValidator, 'Username is already taken.'),
-  email: z.string().email(),
-  password: z.string().min(8),
-  emailConsent: z.boolean().refine((value) => value, {
-    message: 'We need your consent to send you emails.',
-  }),
-})
-
 const form = useForm({
-  validationSchema: toTypedSchema(schema),
+  validationSchema: toTypedSchema(userSchema),
 })
 
 const onSubmit = form.handleSubmit(
   async (values) => {
     const error = await login('register', {
-      username: values.username,
       email: values.email,
       password: values.password,
       emailConsent: values.emailConsent,
@@ -61,11 +28,33 @@ const onSubmit = form.handleSubmit(
 </script>
 <template>
   <form @submit="onSubmit">
-    <FormField v-slot="{ componentField }" name="username">
+    <div class="grid grid-cols-2 gap-x-4">
+      <FormField v-slot="{ componentField }" name="firstName">
+        <FormItem>
+          <FormLabel>First Name</FormLabel>
+          <FormControl>
+            <Input v-bind="componentField" />
+          </FormControl>
+          <FormDescription />
+          <FormMessage />
+        </FormItem>
+      </FormField>
+      <FormField v-slot="{ componentField }" name="lastName">
+        <FormItem>
+          <FormLabel>Last Name</FormLabel>
+          <FormControl>
+            <Input v-bind="componentField" />
+          </FormControl>
+          <FormDescription />
+          <FormMessage />
+        </FormItem>
+      </FormField>
+    </div>
+    <FormField v-slot="{ componentField }" name="phone">
       <FormItem>
-        <FormLabel>Username</FormLabel>
+        <FormLabel>Phone</FormLabel>
         <FormControl>
-          <Input v-bind="componentField" trim="[^a-z0-9._\-]+" lowercase />
+          <Input v-bind="componentField" />
         </FormControl>
         <FormDescription />
         <FormMessage />
