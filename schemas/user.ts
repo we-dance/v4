@@ -1,6 +1,6 @@
 import * as z from 'zod'
 
-export const generateUniqueUsername = () => `dancer_${Date.now()}`
+export const generateUniqueUsername = () => `u${Date.now()}`
 export const noMultiplePeriods = (value: string) => !value.includes('..')
 export const notEndingInPeriod = (value: string) => !value.endsWith('.')
 
