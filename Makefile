@@ -16,8 +16,11 @@ endif
 # Check if command exists
 command_exists = $(shell which $(1) > /dev/null 2>&1 && echo 1 || echo 0)
 
-# Get Node.js version
-node_version = $(shell node -v 2>/dev/null | sed 's/v//')
+# Get command versions
+node_version = $(shell node -v 2>/dev/null)
+pnpm_version = $(shell pnpm -v 2>/dev/null)
+docker_version = $(shell docker --version 2>/dev/null | cut -d ' ' -f3 | tr -d ',')
+git_version = $(shell git --version 2>/dev/null | cut -d ' ' -f3)
 
 # Colors for output
 YELLOW=\033[0;33m
@@ -42,28 +45,28 @@ check-prereqs:
 		echo "$(RED)Node.js is not installed$(NC)"; \
 		$(MAKE) install-prereqs; \
 	else \
-		echo "$(GREEN)✓ Node.js is installed$(NC)"; \
+		echo "$(GREEN)✓ Node.js is installed$(NC) ($(node_version))"; \
 	fi
 	
 	@if [ $(call command_exists,pnpm) -eq 0 ]; then \
 		echo "$(RED)PNPM is not installed$(NC)"; \
 		$(MAKE) install-prereqs; \
 	else \
-		echo "$(GREEN)✓ PNPM is installed$(NC)"; \
+		echo "$(GREEN)✓ PNPM is installed$(NC) ($(pnpm_version))"; \
 	fi
 	
 	@if [ $(call command_exists,docker) -eq 0 ]; then \
 		echo "$(RED)Docker is not installed$(NC)"; \
 		$(MAKE) install-prereqs; \
 	else \
-		echo "$(GREEN)✓ Docker is installed$(NC)"; \
+		echo "$(GREEN)✓ Docker is installed$(NC) ($(docker_version))"; \
 	fi
 	
 	@if [ $(call command_exists,git) -eq 0 ]; then \
 		echo "$(RED)Git is not installed$(NC)"; \
 		$(MAKE) install-prereqs; \
 	else \
-		echo "$(GREEN)✓ Git is installed$(NC)"; \
+		echo "$(GREEN)✓ Git is installed$(NC) ($(git_version))"; \
 	fi
 
 install-prereqs:
@@ -82,8 +85,8 @@ install-prereqs:
 				exit 1; \
 			fi; \
 		fi; \
-		nvm install 18; \
-		nvm use 18; \
+		nvm install; \
+		nvm use; \
 	fi
 	
 	@if [ $(call command_exists,pnpm) -eq 0 ]; then \
