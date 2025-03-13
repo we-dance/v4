@@ -26,3 +26,4 @@ logs
 # User-specific Cursor config
 .cursor-user
 .cursor-user.*
+.vercel
