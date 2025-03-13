@@ -156,6 +156,28 @@ watch(
             {{ item.label }}
           </NuxtLink>
           <template v-if="isLoggedIn">
+            <NuxtLink
+              :to="`/${data?.username}`"
+              class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
+            >
+              <Icon name="lucide:user" class="h-5 w-5" />
+              {{ data?.username }}
+            </NuxtLink>
+            <NuxtLink
+              to="/settings"
+              class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
+            >
+              <Icon name="lucide:settings" class="h-5 w-5" />
+              Settings
+            </NuxtLink>
+            <NuxtLink
+              to="/admin/"
+              class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
+            >
+              <Icon name="lucide:shield" class="h-5 w-5" />
+              Admin Area
+            </NuxtLink>
+            <div class="my-2 border-t border-border"></div>
             <Button
               variant="ghost"
               @click="handleSignOut"
