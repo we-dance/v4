@@ -12,11 +12,7 @@ const form = useForm({
 
 const onSubmit = form.handleSubmit(
   async (values) => {
-    const error = await login('register', {
-      email: values.email,
-      password: values.password,
-      emailConsent: values.emailConsent,
-    })
+    const error = await login('register', values)
     if (error) {
       toast.error(error)
     }
@@ -33,7 +29,7 @@ const onSubmit = form.handleSubmit(
         <FormItem>
           <FormLabel>First Name</FormLabel>
           <FormControl>
-            <Input v-bind="componentField" />
+            <Input v-bind="componentField" autocomplete="given-name" />
           </FormControl>
           <FormDescription />
           <FormMessage />
@@ -43,7 +39,7 @@ const onSubmit = form.handleSubmit(
         <FormItem>
           <FormLabel>Last Name</FormLabel>
           <FormControl>
-            <Input v-bind="componentField" />
+            <Input v-bind="componentField" autocomplete="family-name" />
           </FormControl>
           <FormDescription />
           <FormMessage />
@@ -54,7 +50,7 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Phone</FormLabel>
         <FormControl>
-          <Input v-bind="componentField" />
+          <Input v-bind="componentField" autocomplete="tel" />
         </FormControl>
         <FormDescription />
         <FormMessage />
@@ -64,7 +60,7 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Email</FormLabel>
         <FormControl>
-          <Input v-bind="componentField" />
+          <Input v-bind="componentField" autocomplete="email" />
         </FormControl>
         <FormDescription />
         <FormMessage />
@@ -74,7 +70,11 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Password</FormLabel>
         <FormControl>
-          <Input v-bind="componentField" type="password" />
+          <Input
+            v-bind="componentField"
+            type="password"
+            autocomplete="new-password"
+          />
         </FormControl>
         <FormDescription />
         <FormMessage />

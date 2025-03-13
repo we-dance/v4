@@ -4,7 +4,7 @@ import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import * as z from 'zod'
+import { userSchema, generateUniqueUsername } from '~/schemas/user'
 
 const prisma = new PrismaClient()
 
@@ -95,22 +95,17 @@ export default NuxtAuthHandler({
     }),
     CredentialsProvider.default({
       id: 'register',
-      name: 'register',
+      name: 'Register',
       credentials: {
-        username: { label: 'Username', type: 'text' },
+        firstName: { label: 'First Name', type: 'text' },
+        lastName: { label: 'Last Name', type: 'text' },
+        phone: { label: 'Phone', type: 'text' },
         email: { label: 'Email', type: 'text' },
         password: { label: 'Password', type: 'password' },
         emailConsent: { label: 'Email Consent', type: 'checkbox' },
       },
       async authorize(input: any) {
-        const schema = z.object({
-          username: z.string().min(2).max(50),
-          email: z.string().email(),
-          password: z.string().min(8),
-          emailConsent: z.coerce.boolean(),
-        })
-
-        const result = schema.safeParse(input)
+        const result = userSchema.safeParse(input)
 
         if (!result.success) {
           const errorMessages = result.error.errors
@@ -119,21 +114,26 @@ export default NuxtAuthHandler({
           throw new Error(`Validation error: ${errorMessages}`)
         }
 
-        const credentials = result.data
+        const data = result.data
+        const username = generateUniqueUsername()
 
         const scrypt = new FirebaseScrypt(firebaseParameters)
         const salt = Buffer.from(String(Math.random()).slice(7)).toString(
           'base64'
         )
 
-        const hash = await scrypt.hash(credentials.password, salt)
+        const hash = await scrypt.hash(data.password, salt)
 
         let user
         try {
           user = await prisma.user.create({
             data: {
-              name: credentials.username,
-              email: credentials.email,
+              firstName: data.firstName,
+              lastName: data.lastName,
+              phone: data.phone,
+              email: data.email,
+              emailConsent: data.emailConsent,
+              emailConsentAt: new Date(),
               hash,
               salt,
             },
@@ -149,8 +149,8 @@ export default NuxtAuthHandler({
         try {
           await prisma.profile.create({
             data: {
-              username: credentials.username,
-              name: credentials.username,
+              username: username,
+              name: username,
               type: 'Dancer',
               claimed: true,
               user: {

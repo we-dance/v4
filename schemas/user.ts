@@ -1,5 +1,6 @@
 import * as z from 'zod'
 
+export const generateUniqueUsername = () => `dancer_${Date.now()}`
 export const noMultiplePeriods = (value: string) => !value.includes('..')
 export const notEndingInPeriod = (value: string) => !value.endsWith('.')
 
@@ -27,7 +28,7 @@ export const userSchema = z.object({
   lastName: z.string().min(1, 'Last name is required.'),
   phone: z.string().min(1, 'Phone is required.'),
   email: z.string().email(),
-  password: z.string().min(8),
+  password: z.string().min(8, 'Password must be at least 8 characters.'),
   emailConsent: z.boolean().refine((value) => value, {
     message: 'We need your consent to send you emails.',
   }),
