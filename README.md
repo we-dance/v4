@@ -19,7 +19,7 @@ WeDance is a participatory network that empowers dance communities by providing 
 
 ## 📦 Prerequisites
 
-- Mac: [Trae IDE](https://www.trae.ai/), Windows: [Cursor IDE](https://www.cursor.com/)
+- [Cursor IDE](https://www.cursor.com/)
 - [Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [NVM](https://github.com/nvm-sh/nvm) - to install specific Node.js version
