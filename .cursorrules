@@ -81,7 +81,6 @@
         "Maintain team documentation"
       ],
       "relevantDocs": [
-        "content/issues/",
         "docs/content/architecture/",
         "docs/content/operations/backlog.md",
         "docs/content/business/team/"
@@ -95,23 +94,6 @@
         "Update team documentation"
       ],
       "teamDocs": {
-        "overview": "docs/content/business/team/index.md",
-        "cvFormat": {
-          "location": "docs/content/business/team/[username].yaml",
-          "structure": [
-            "name",
-            "title",
-            "summary",
-            "quick_info",
-            "technical_expertise",
-            "certifications",
-            "professional_experience",
-            "major_projects",
-            "education",
-            "volunteering",
-            "speaking_community"
-          ]
-        },
         "userConfig": {
           "location": ".cursor-user",
           "format": {
