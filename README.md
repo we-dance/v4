@@ -25,7 +25,7 @@ WeDance is a participatory network that empowers dance communities by providing 
 - [NVM](https://github.com/nvm-sh/nvm) - to install specific Node.js version
 - [PNPM](https://pnpm.io/) - package manager
 - [Docker](https://www.docker.com/products/docker-desktop/) - for running database and services
-- **Windows Users**: [Windows Subsystem for Linux (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/install) is required
+- **Windows Users**: Use Gitbash terminal in Cursor
 
 ## 🛠️ Setup
 
@@ -72,18 +72,6 @@ pnpm dev
 7. **Access the application**
 
 Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
-
-### Windows-Specific Setup
-
-If you're on Windows, follow these additional steps:
-
-1. Install WSL2 following the [official Microsoft guide](https://learn.microsoft.com/en-us/windows/wsl/install)
-2. Install Ubuntu from the Microsoft Store
-3. Open Ubuntu terminal and navigate to your project:
-   ```bash
-   cd /mnt/c/Users/YourUsername/path/to/v4
-   ```
-4. Continue with the setup steps above within the WSL environment
 
 ## Troubleshooting
 
