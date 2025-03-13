@@ -15,6 +15,7 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+const emits = defineEmits(['like', 'share', 'comment'])
 
 const { components, getComponentName } = usePostComponent()
 const route = useRoute()
