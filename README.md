@@ -21,10 +21,6 @@ WeDance is a participatory network that empowers dance communities by providing 
 
 - [Cursor IDE](https://www.cursor.com/)
 - [Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [NVM](https://github.com/nvm-sh/nvm) - to install specific Node.js version
-- [PNPM](https://pnpm.io/) - package manager
-- [Docker](https://www.docker.com/products/docker-desktop/) - for running database and services
 - **Windows Users**: Use Gitbash terminal in Cursor
 
 ## 🛠️ Setup
@@ -36,49 +32,57 @@ git clone git@github.com:wedance/v4.git
 cd v4
 ```
 
-2. **Configure**
-
-Copy env file and provide configuration:
-
-```bash
-cp .env.example .env
-cp cli/.env.example cli/.env
-```
-
-3. **Install dependencies**
-
-```bash
-pnpm install
-```
-
-4. **Build the environment**
+2. **Build the project**
 
 ```bash
 make build
 ```
 
-5. **Import data (optional)**
+This command will:
+
+- Check for required prerequisites and install them if missing (Node.js, PNPM, etc.)
+- Set up environment files
+- Start the database
+- Install dependencies
+- Set up the database with required extensions
+- Generate Prisma client
+
+3. **Start the development server**
+
+```bash
+make start
+```
+
+4. **Import data (optional)**
 
 ```bash
 make import
 ```
 
-6. **Run development server**
-
-```bash
-pnpm dev
-```
-
-7. **Access the application**
+5. **Access the application**
 
 Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Troubleshooting
 
-- Error 500: Invalid `prisma.$queryRaw()` invocation: Raw query failed. Code: `42883`. Message: `ERROR: function ll_to_earth(numeric, numeric) does not exist HINT: No function matches the given name and argument types. You might need to add explicit type casts.`
-  - install db extensions, repeat setup
-- `pnpm cli import` - Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
-  - uncomment `tsconfig.json`
+- **Error 500: Invalid `prisma.$queryRaw()` invocation**: Raw query failed. Code: `42883`. Message: `ERROR: function ll_to_earth(numeric, numeric) does not exist HINT: No function matches the given name and argument types. You might need to add explicit type casts.`
+
+  - This should be automatically fixed by the `make build` command which installs the required database extensions
+  - If you still encounter this error, run: `make setup-db` to reinstall the database extensions
+
+- **Warning when running `pnpm cli import`**: Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+
+  - Uncomment `tsconfig.json` in the cli directory
+
+- **Prerequisites installation fails**: If automatic installation of prerequisites fails:
+
+  - Install the missing prerequisites manually following the links in the Prerequisites section
+  - Then run `make build` again
+
+- **Docker issues**: If you encounter issues with Docker:
+  - Make sure Docker Desktop is running
+  - Try restarting Docker Desktop
+  - Run `docker compose down` and then `make build` again
 
 ## 📁 AI-First Development
 
