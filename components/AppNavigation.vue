@@ -1,8 +1,9 @@
 <script setup>
 const route = useRoute()
-const auth = useAuthStore()
 const dialog = useDialog()
 const isMobileMenuOpen = ref(false)
+
+const { auth, isLoggedIn, signOut, data } = useAppAuth()
 
 const navigationItems = [
   { to: '/feed', label: 'Feed', icon: 'lucide:home' },
@@ -24,7 +25,7 @@ const handleSearch = () => {
 }
 
 const handleSignOut = async () => {
-  await auth.logout()
+  await signOut()
   // Optionally redirect to home or login page
   navigateTo('/')
 }
@@ -67,7 +68,7 @@ watch(
           <Button variant="ghost" @click="handleSearch">
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>
-          <template v-if="auth.isAuthenticated">
+          <template v-if="isLoggedIn">
             <DropdownMenu>
               <DropdownMenuTrigger as-child>
                 <Button variant="ghost" size="icon">
@@ -76,9 +77,9 @@ watch(
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem as-child>
-                  <NuxtLink to="/profile">
+                  <NuxtLink :to="`/${data?.username}`">
                     <Icon name="lucide:user" class="mr-2 h-4 w-4" />
-                    Profile
+                    {{ data?.username }}
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>
@@ -154,7 +155,29 @@ watch(
             <Icon :name="item.icon" class="h-5 w-5" />
             {{ item.label }}
           </NuxtLink>
-          <template v-if="auth.isAuthenticated">
+          <template v-if="isLoggedIn">
+            <NuxtLink
+              :to="`/${data?.username}`"
+              class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
+            >
+              <Icon name="lucide:user" class="h-5 w-5" />
+              {{ data?.username }}
+            </NuxtLink>
+            <NuxtLink
+              to="/settings"
+              class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
+            >
+              <Icon name="lucide:settings" class="h-5 w-5" />
+              Settings
+            </NuxtLink>
+            <NuxtLink
+              to="/admin/"
+              class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
+            >
+              <Icon name="lucide:shield" class="h-5 w-5" />
+              Admin Area
+            </NuxtLink>
+            <div class="my-2 border-t border-border"></div>
             <Button
               variant="ghost"
               @click="handleSignOut"

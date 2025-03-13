@@ -52,16 +52,21 @@ model VerificationToken {
 }
 
 model User {
-  id            String    @id @default(nanoid())
-  email         String    @unique
-  name          String
-  salt          String    @default("")
-  hash          String    @default("")
-  firebaseId    String    @default("")
-  emailVerified Boolean   @default(false)
-  isDeleted     Boolean   @default(false)
-  deletedAt     DateTime?
-  deletedReason String?
+  id             String    @id @default(nanoid())
+  email          String    @unique
+  name           String?   @default("")
+  firstName      String?   @default("")
+  lastName       String?   @default("")
+  phone          String?   @default("")
+  emailConsent   Boolean   @default(false)
+  emailConsentAt DateTime?
+  salt           String    @default("")
+  hash           String    @default("")
+  firebaseId     String    @default("")
+  emailVerified  Boolean   @default(false)
+  isDeleted      Boolean   @default(false)
+  deletedAt      DateTime?
+  deletedReason  String?
 
   profile         Profile?  @relation("owned_by")
   profilesCreated Profile[] @relation("profile_created_by")
@@ -147,15 +152,15 @@ model Profile {
   viewsCount       Int       @default(0)
   visibility       String    @default("Public")
   timezone         String?
-  locales          Json?     // JSON for storing languages
-  gender           String?   // Keep original value
+  locales          Json? // JSON for storing languages
+  gender           String? // Keep original value
   birthday         DateTime?
-  objectives       Json?     // User's objectives
-  step             String?   // Step of registration
-  invitedBy        String?   // ID of the user who invited the current user
-  daysUsed         Int?      // Number of days used
-  pwaUsed          Boolean?  // PWA usage
-  oldCities        Json?     // Old cities structure
+  objectives       Json? // User's objectives
+  step             String? // Step of registration
+  invitedBy        String? // ID of the user who invited the current user
+  daysUsed         Int? // Number of days used
+  pwaUsed          Boolean? // PWA usage
+  oldCities        Json? // Old cities structure
 
   userId             String?           @unique
   user               User?             @relation("owned_by", fields: [userId], references: [id])

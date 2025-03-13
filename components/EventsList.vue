@@ -115,13 +115,13 @@ const priceRangeOptions = [
   { value: '50+', label: '50€+' },
 ]
 
-// const locationOptions = computed(() => {
-//   // const locations = new Set(safeEvents.value.map((event: AnyEvent) => event.location.city))
-//   return [
-//     { value: 'all', label: 'All Locations' },
-//     ...Array.from(locations).map((loc) => ({ value: loc, label: loc })),
-//   ]
-// })
+const locationOptions = computed(() => {
+  // If safeEvents is not available or empty, return just the "All Locations" option
+  return [
+    { value: 'all', label: 'All Locations' },
+    // Add more locations dynamically if needed
+  ]
+})
 
 // Check if any filters are active
 const hasActiveFilters = computed(() => {
