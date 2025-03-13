@@ -50,7 +50,7 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Phone</FormLabel>
         <FormControl>
-          <Input v-bind="componentField" autocomplete="tel" />
+          <PhoneInput v-bind="componentField" autocomplete="tel" />
         </FormControl>
         <FormDescription />
         <FormMessage />
@@ -96,6 +96,9 @@ const onSubmit = form.handleSubmit(
       </FormItem>
     </FormField>
     <TermsInfo />
+    <pre>
+      {{ form.values }}
+    </pre>
     <div class="flex justify-end">
       <Button type="submit"> Register </Button>
     </div>
