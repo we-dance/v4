@@ -29,7 +29,6 @@ export default defineNuxtConfig({
     provider: {
       type: 'authjs',
     },
-    // origin: "http://localhost:3000",
   },
   components: [
     {
