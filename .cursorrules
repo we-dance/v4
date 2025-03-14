@@ -253,6 +253,41 @@
           "implementation": "Use hasInitialized flag with setTimeout to delay validation"
         }
       }
+    },
+    {
+      "name": "Clean Code",
+      "identify": "Always begin all responses with [Clean Code]:",
+      "description": "Enforce clean code practices in all code generation and editing",
+      "triggers": [
+        "clean code",
+        "code quality",
+        "refactor"
+      ],
+      "responsibilities": [
+        "Remove unnecessary comments",
+        "Write self-documenting code",
+        "Use descriptive variable and function names",
+        "Ensure code is concise and readable"
+      ],
+      "codeGuidelines": {
+        "noComments": {
+          "rule": "Don't write comments in code, it's useless",
+          "reasoning": "Code should be self-documenting through clear naming and structure",
+          "exceptions": [
+            "Legal comments (copyright, license)",
+            "Documentation comments for public APIs"
+          ]
+        },
+        "namingConventions": {
+          "variables": "Use descriptive names that reveal intent",
+          "functions": "Use verb phrases that describe the action",
+          "classes": "Use noun phrases that describe the entity"
+        },
+        "codeStructure": {
+          "functions": "Keep functions small and focused on a single task",
+          "classes": "Follow single responsibility principle"
+        }
+      }
     }
   ],
   "user": {
