@@ -2,6 +2,7 @@
 import PhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
+import { ref, watch, onMounted } from 'vue'
 
 const props = defineProps<{
   value?: string
@@ -17,7 +18,7 @@ const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
 const res = ref()
 const isInternalUpdate = ref(false)
-const hasInitialized = ref(false)
+const hasInitialized = ref<boolean>(false)
 
 // Handle value changes from the phone input
 watch(
@@ -50,16 +51,30 @@ watch(
 )
 
 const handleBlur = (event: FocusEvent) => {
+  hasInitialized.value = true
   emit('blur', event)
 }
 
-// Initialize with a default value to prevent validation errors
+const handleInput = (e: Event) => {
+  return e
+}
+
+// Initialize with a delay to prevent validation on initial load
 onMounted(() => {
-  // Set a timeout to allow the component to fully initialize
   setTimeout(() => {
     hasInitialized.value = true
   }, 100)
 })
+
+const handleCountrySelect = (
+  iso2: string,
+  updateInputValue: (value: string) => void
+) => {
+  updateInputValue(iso2)
+  open.value = false
+  focused.value = true
+  hasInitialized.value = true
+}
 </script>
 
 <template>
@@ -87,11 +102,7 @@ onMounted(() => {
                   :value="option.name"
                   class="gap-2"
                   @select="
-                    () => {
-                      updateInputValue(option.iso2)
-                      open = false
-                      focused = true
-                    }
+                    () => handleCountrySelect(option.iso2, updateInputValue)
                   "
                 >
                   <FlagComponent :country="option?.iso2" />
@@ -113,7 +124,12 @@ onMounted(() => {
         class="rounded-e-lg rounded-s-none"
         type="text"
         :model-value="inputValue"
-        @input="updateInputValue"
+        @input="
+          (e: Event) => {
+            hasInitialized.value = true
+            updateInputValue(e)
+          }
+        "
         @blur="handleBlur"
         :placeholder="placeholder"
       />
