@@ -43,6 +43,7 @@
     "reka-ui": "^2.0.2",
     "shadcn-nuxt": "0.11.3",
     "shadcn-vue": "^0.11.3",
+    "sonner": "^2.0.1",
     "superjson": "^2.2.2",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
