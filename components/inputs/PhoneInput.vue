@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import PhoneInput from 'base-vue-phone-input'
+import BasePhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
 import { ref, watch, onMounted } from 'vue'
@@ -17,7 +17,8 @@ const open = ref(false)
 const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
 const res = ref()
-const isInternalUpdate = ref(false)
+// Use explicit typing for the refs
+const isInternalUpdate = ref<boolean>(false)
 const hasInitialized = ref<boolean>(false)
 
 // Handle value changes from the phone input
@@ -55,8 +56,12 @@ const handleBlur = (event: FocusEvent) => {
   emit('blur', event)
 }
 
-const handleInput = (e: Event) => {
-  return e
+const handleInput = (e: Event, updateInputValue: (value: string) => void) => {
+  if (!isInternalUpdate.value) {
+    hasInitialized.value = true
+    const target = e.target as HTMLInputElement
+    updateInputValue(target.value)
+  }
 }
 
 // Initialize with a delay to prevent validation on initial load
@@ -78,7 +83,7 @@ const handleCountrySelect = (
 </script>
 
 <template>
-  <PhoneInput fetchCountry class="flex" @update="res = $event">
+  <BasePhoneInput fetchCountry class="flex" @update="res = $event">
     <template #selector="{ inputValue, updateInputValue, countries }">
       <Popover v-model:open="open">
         <PopoverTrigger>
@@ -124,15 +129,10 @@ const handleCountrySelect = (
         class="rounded-e-lg rounded-s-none"
         type="text"
         :model-value="inputValue"
-        @input="
-          (e: Event) => {
-            hasInitialized.value = true
-            updateInputValue(e)
-          }
-        "
+        @input="(e: Event) => handleInput(e, updateInputValue)"
         @blur="handleBlur"
         :placeholder="placeholder"
       />
     </template>
-  </PhoneInput>
+  </BasePhoneInput>
 </template>

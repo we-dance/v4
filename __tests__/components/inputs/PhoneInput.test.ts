@@ -1,71 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-import { mount, flushPromises } from '@vue/test-utils'
+import { mount, flushPromises, config } from '@vue/test-utils'
 import { ref } from 'vue'
 import PhoneInput from '~/components/inputs/PhoneInput.vue'
-
-vi.mock('~/components/ui/popover', () => ({
-  Popover: {
-    template: '<div class="popover"><slot /></div>',
-  },
-  PopoverTrigger: {
-    template: '<div class="popover-trigger"><slot /></div>',
-  },
-  PopoverContent: {
-    template: '<div class="popover-content"><slot /></div>',
-  },
-}))
-
-vi.mock('~/components/ui/command', () => ({
-  Command: {
-    template: '<div class="command"><slot /></div>',
-  },
-  CommandInput: {
-    template: '<input class="command-input" />',
-  },
-  CommandEmpty: {
-    template: '<div class="command-empty"><slot /></div>',
-  },
-  CommandList: {
-    template: '<div class="command-list"><slot /></div>',
-  },
-  CommandGroup: {
-    template: '<div class="command-group"><slot /></div>',
-  },
-  CommandItem: {
-    template: '<div class="command-item"><slot /></div>',
-    props: ['value'],
-  },
-}))
-
-vi.mock('~/components/ui/button', () => ({
-  default: {
-    name: 'Button',
-    template: '<button class="button"><slot /></button>',
-    props: ['variant'],
-  },
-}))
-
-vi.mock('~/components/ui/input', () => ({
-  default: {
-    name: 'Input',
-    template: '<input class="input-mock" />',
-    props: ['modelValue', 'placeholder', 'type'],
-  },
-}))
-
-vi.mock('~/components/FlagComponent.vue', () => ({
-  default: {
-    name: 'FlagComponent',
-    template: '<div class="flag">{{ country }}</div>',
-    props: ['country'],
-  },
-}))
-
-vi.mock('lucide-vue-next', () => ({
-  ChevronsUpDown: {
-    template: '<div class="chevrons-up-down"></div>',
-  },
-}))
 
 vi.mock('@vueuse/core', () => ({
   useFocus: () => ({
@@ -74,6 +10,25 @@ vi.mock('@vueuse/core', () => ({
 }))
 
 const getComponentVM = (wrapper: any) => wrapper.vm as any
+
+config.global.stubs = {
+  FlagComponent: true,
+  Button: true,
+  PopoverTrigger: true,
+  PopoverContent: true,
+  Popover: true,
+  Command: true,
+  CommandInput: true,
+  CommandEmpty: true,
+  CommandList: true,
+  CommandGroup: true,
+  CommandItem: true,
+  Input: {
+    template: '<input class="input-mock" />',
+    props: ['modelValue', 'placeholder', 'type'],
+  },
+  ChevronsUpDown: true,
+}
 
 describe('PhoneInput', () => {
   beforeEach(() => {
