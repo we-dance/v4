@@ -10,13 +10,7 @@ const { focused } = useFocus(phoneInput)
 </script>
 
 <template>
-  <BasePhoneInput
-    noUseBrowserLocale
-    fetchCountry
-    class="flex"
-    country-locale="en-EN"
-    :ignored-countries="['AC']"
-  >
+  <BasePhoneInput fetchCountry class="flex" country-locale="en-EN">
     <template #selector="{ inputValue, updateInputValue, countries }">
       <Popover v-model:open="open">
         <PopoverTrigger>
