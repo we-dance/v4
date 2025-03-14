@@ -2,88 +2,21 @@
 import BasePhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
-import { ref, watch, onMounted } from 'vue'
-
-const props = defineProps<{
-  value?: string
-}>()
-
-const emit = defineEmits<{
-  change: [value: string]
-  blur: [event: FocusEvent]
-}>()
+import { ref } from 'vue'
 
 const open = ref(false)
 const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
-const res = ref()
-// Use explicit typing for the refs
-const isInternalUpdate = ref<boolean>(false)
-const hasInitialized = ref<boolean>(false)
-
-// Handle value changes from the phone input
-watch(
-  () => res.value,
-  (newValue) => {
-    if (newValue?.e164 && !isInternalUpdate.value && hasInitialized.value) {
-      isInternalUpdate.value = true
-      emit('change', newValue.e164)
-      isInternalUpdate.value = false
-    }
-  }
-)
-
-// Handle external value changes (from v-model or vee-validate)
-watch(
-  () => props.value,
-  (newValue) => {
-    if (
-      newValue &&
-      newValue.trim() !== '' &&
-      !res.value?.e164 &&
-      !isInternalUpdate.value
-    ) {
-      isInternalUpdate.value = true
-      res.value = { e164: newValue }
-      isInternalUpdate.value = false
-    }
-  },
-  { immediate: false } // Don't run on mount
-)
-
-const handleBlur = (event: FocusEvent) => {
-  hasInitialized.value = true
-  emit('blur', event)
-}
-
-const handleInput = (e: Event, updateInputValue: (value: string) => void) => {
-  if (!isInternalUpdate.value) {
-    hasInitialized.value = true
-    const target = e.target as HTMLInputElement
-    updateInputValue(target.value)
-  }
-}
-
-// Initialize with a delay to prevent validation on initial load
-onMounted(() => {
-  setTimeout(() => {
-    hasInitialized.value = true
-  }, 100)
-})
-
-const handleCountrySelect = (
-  iso2: string,
-  updateInputValue: (value: string) => void
-) => {
-  updateInputValue(iso2)
-  open.value = false
-  focused.value = true
-  hasInitialized.value = true
-}
 </script>
 
 <template>
-  <BasePhoneInput fetchCountry class="flex" @update="res = $event">
+  <BasePhoneInput
+    noUseBrowserLocale
+    fetchCountry
+    class="flex"
+    country-locale="en-EN"
+    :ignored-countries="['AC']"
+  >
     <template #selector="{ inputValue, updateInputValue, countries }">
       <Popover v-model:open="open">
         <PopoverTrigger>
@@ -107,7 +40,11 @@ const handleCountrySelect = (
                   :value="option.name"
                   class="gap-2"
                   @select="
-                    () => handleCountrySelect(option.iso2, updateInputValue)
+                    () => {
+                      updateInputValue(option.iso2)
+                      open = false
+                      focused = true
+                    }
                   "
                 >
                   <FlagComponent :country="option?.iso2" />
@@ -129,8 +66,7 @@ const handleCountrySelect = (
         class="rounded-e-lg rounded-s-none"
         type="text"
         :model-value="inputValue"
-        @input="(e: Event) => handleInput(e, updateInputValue)"
-        @blur="handleBlur"
+        @input="updateInputValue"
         :placeholder="placeholder"
       />
     </template>
