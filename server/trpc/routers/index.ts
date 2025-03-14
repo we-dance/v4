@@ -1,12 +1,12 @@
 import { router } from '../trpc'
 import { postsRouter } from './posts'
 import { eventsRouter } from './events'
-// Import other routers here...
+import { profilesRouter } from './profiles'
 
 export const appRouter = router({
   posts: postsRouter,
   events: eventsRouter,
-  // Add other routers here...
+  profiles: profilesRouter,
 })
-// export type definition of API
+
 export type AppRouter = typeof appRouter
