@@ -16,13 +16,17 @@ const open = ref(false)
 const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
 const res = ref()
+const isInternalUpdate = ref(false)
+const hasInitialized = ref(false)
 
 // Handle value changes from the phone input
 watch(
   () => res.value,
   (newValue) => {
-    if (newValue?.e164) {
+    if (newValue?.e164 && !isInternalUpdate.value && hasInitialized.value) {
+      isInternalUpdate.value = true
       emit('change', newValue.e164)
+      isInternalUpdate.value = false
     }
   }
 )
@@ -31,18 +35,31 @@ watch(
 watch(
   () => props.value,
   (newValue) => {
-    if (newValue && !res.value?.e164) {
-      // If there's an external value but no internal value, we might need to initialize
-      // Note: This is a simple approach - a more complete solution would parse and set the phone number
+    if (
+      newValue &&
+      newValue.trim() !== '' &&
+      !res.value?.e164 &&
+      !isInternalUpdate.value
+    ) {
+      isInternalUpdate.value = true
       res.value = { e164: newValue }
+      isInternalUpdate.value = false
     }
   },
-  { immediate: true }
+  { immediate: false } // Don't run on mount
 )
 
 const handleBlur = (event: FocusEvent) => {
   emit('blur', event)
 }
+
+// Initialize with a default value to prevent validation errors
+onMounted(() => {
+  // Set a timeout to allow the component to fully initialize
+  setTimeout(() => {
+    hasInitialized.value = true
+  }, 100)
+})
 </script>
 
 <template>
