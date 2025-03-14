@@ -212,6 +212,82 @@
         "docs/content/business/strategy.md",
         "docs/content/business/drivers-and-roles.md"
       ]
+    },
+    {
+      "name": "Unit Testing",
+      "identify": "Always begin all responses with [Unit Testing]:",
+      "description": "Guidelines for writing and running unit tests in the project",
+      "triggers": [
+        "test",
+        "unit test",
+        "testing",
+        "jest",
+        "vitest"
+      ],
+      "responsibilities": [
+        "Write unit tests for components",
+        "Run tests with proper commands",
+        "Fix failing tests",
+        "Implement test coverage"
+      ],
+      "testingGuidelines": {
+        "runCommands": {
+          "allTests": "pnpm test:unit",
+          "specificTest": "npm test:unit <test-file-path>",
+          "watchMode": "npm test:unit -- --watch"
+        },
+        "bestPractices": [
+          "Use shallowMount for component tests to avoid deep rendering dependencies",
+          "Mock external dependencies and components",
+          "Test component props, events, and state changes",
+          "Use vi.useFakeTimers() for testing time-dependent code",
+          "Ensure tests are isolated and don't depend on each other"
+        ],
+        "phoneInputTesting": {
+          "keyIssues": [
+            "Prevent validation errors on initial load",
+            "Only emit change events after user interaction",
+            "Handle initialization properly with delayed validation",
+            "Test blur events and prop changes"
+          ],
+          "implementation": "Use hasInitialized flag with setTimeout to delay validation"
+        }
+      }
+    },
+    {
+      "name": "Clean Code",
+      "identify": "Always begin all responses with [Clean Code]:",
+      "description": "Enforce clean code practices in all code generation and editing",
+      "triggers": [
+        "clean code",
+        "code quality",
+        "refactor"
+      ],
+      "responsibilities": [
+        "Remove unnecessary comments",
+        "Write self-documenting code",
+        "Use descriptive variable and function names",
+        "Ensure code is concise and readable"
+      ],
+      "codeGuidelines": {
+        "noComments": {
+          "rule": "Don't write comments in code, it's useless",
+          "reasoning": "Code should be self-documenting through clear naming and structure",
+          "exceptions": [
+            "Legal comments (copyright, license)",
+            "Documentation comments for public APIs"
+          ]
+        },
+        "namingConventions": {
+          "variables": "Use descriptive names that reveal intent",
+          "functions": "Use verb phrases that describe the action",
+          "classes": "Use noun phrases that describe the entity"
+        },
+        "codeStructure": {
+          "functions": "Keep functions small and focused on a single task",
+          "classes": "Follow single responsibility principle"
+        }
+      }
     }
   ],
   "user": {

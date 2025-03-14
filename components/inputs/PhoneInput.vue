@@ -2,6 +2,7 @@
 import PhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
+import { ref, watch, onMounted } from 'vue'
 
 const props = defineProps<{
   value?: string
@@ -16,13 +17,17 @@ const open = ref(false)
 const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
 const res = ref()
+const isInternalUpdate = ref(false)
+const hasInitialized = ref<boolean>(false)
 
 // Handle value changes from the phone input
 watch(
   () => res.value,
   (newValue) => {
-    if (newValue?.e164) {
+    if (newValue?.e164 && !isInternalUpdate.value && hasInitialized.value) {
+      isInternalUpdate.value = true
       emit('change', newValue.e164)
+      isInternalUpdate.value = false
     }
   }
 )
@@ -31,17 +36,44 @@ watch(
 watch(
   () => props.value,
   (newValue) => {
-    if (newValue && !res.value?.e164) {
-      // If there's an external value but no internal value, we might need to initialize
-      // Note: This is a simple approach - a more complete solution would parse and set the phone number
+    if (
+      newValue &&
+      newValue.trim() !== '' &&
+      !res.value?.e164 &&
+      !isInternalUpdate.value
+    ) {
+      isInternalUpdate.value = true
       res.value = { e164: newValue }
+      isInternalUpdate.value = false
     }
   },
-  { immediate: true }
+  { immediate: false } // Don't run on mount
 )
 
 const handleBlur = (event: FocusEvent) => {
+  hasInitialized.value = true
   emit('blur', event)
+}
+
+const handleInput = (e: Event) => {
+  return e
+}
+
+// Initialize with a delay to prevent validation on initial load
+onMounted(() => {
+  setTimeout(() => {
+    hasInitialized.value = true
+  }, 100)
+})
+
+const handleCountrySelect = (
+  iso2: string,
+  updateInputValue: (value: string) => void
+) => {
+  updateInputValue(iso2)
+  open.value = false
+  focused.value = true
+  hasInitialized.value = true
 }
 </script>
 
@@ -70,11 +102,7 @@ const handleBlur = (event: FocusEvent) => {
                   :value="option.name"
                   class="gap-2"
                   @select="
-                    () => {
-                      updateInputValue(option.iso2)
-                      open = false
-                      focused = true
-                    }
+                    () => handleCountrySelect(option.iso2, updateInputValue)
                   "
                 >
                   <FlagComponent :country="option?.iso2" />
@@ -96,7 +124,12 @@ const handleBlur = (event: FocusEvent) => {
         class="rounded-e-lg rounded-s-none"
         type="text"
         :model-value="inputValue"
-        @input="updateInputValue"
+        @input="
+          (e: Event) => {
+            hasInitialized.value = true
+            updateInputValue(e)
+          }
+        "
         @blur="handleBlur"
         :placeholder="placeholder"
       />
