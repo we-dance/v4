@@ -36,6 +36,18 @@ build: check-prereqs setup-env setup-db
 
 start:
 	@echo "$(GREEN)Starting development server...$(NC)"
+	@if [ $(call command_exists,nvm) -eq 1 ]; then \
+		echo "$(YELLOW)Running nvm use...$(NC)"; \
+		export NVM_DIR="$$HOME/.nvm"; \
+		[ -s "$$NVM_DIR/nvm.sh" ] && \. "$$NVM_DIR/nvm.sh"; \
+		nvm use; \
+		echo "$(GREEN)✓ Node version set$(NC)"; \
+	else \
+		echo "$(YELLOW)NVM not found, skipping nvm use$(NC)"; \
+	fi
+	@echo "$(YELLOW)Installing dependencies...$(NC)"
+	pnpm i
+	@echo "$(GREEN)✓ Dependencies installed$(NC)"
 	pnpm dev
 
 check-prereqs:
