@@ -1,90 +1,79 @@
 <script lang="ts" setup>
-import PhoneInput from 'base-vue-phone-input'
+import BasePhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
-import { ref, watch, onMounted } from 'vue'
+import { ref, onMounted, defineProps, defineEmits } from 'vue'
 
-const props = defineProps<{
-  value?: string
-}>()
+const props = defineProps({
+  modelValue: {
+    type: String,
+    default: '',
+  },
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+})
 
-const emit = defineEmits<{
-  change: [value: string]
-  blur: [event: FocusEvent]
-}>()
+const emit = defineEmits(['update:modelValue'])
 
 const open = ref(false)
 const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
-const res = ref()
-const isInternalUpdate = ref(false)
-const hasInitialized = ref<boolean>(false)
 
-// Handle value changes from the phone input
-watch(
-  () => res.value,
-  (newValue) => {
-    if (newValue?.e164 && !isInternalUpdate.value && hasInitialized.value) {
-      isInternalUpdate.value = true
-      emit('change', newValue.e164)
-      isInternalUpdate.value = false
-    }
-  }
-)
+// Internal value to manage the phone input
+const internalValue = ref(props.modelValue)
 
-// Handle external value changes (from v-model or vee-validate)
-watch(
-  () => props.value,
-  (newValue) => {
-    if (
-      newValue &&
-      newValue.trim() !== '' &&
-      !res.value?.e164 &&
-      !isInternalUpdate.value
-    ) {
-      isInternalUpdate.value = true
-      res.value = { e164: newValue }
-      isInternalUpdate.value = false
-    }
-  },
-  { immediate: false } // Don't run on mount
-)
+// Track if user has interacted with the component
+const userInteracted = ref(false)
 
-const handleBlur = (event: FocusEvent) => {
-  hasInitialized.value = true
-  emit('blur', event)
-}
+// Track if the component has been initialized
+const initialized = ref(false)
 
-const handleInput = (e: Event) => {
-  return e
-}
-
-// Initialize with a delay to prevent validation on initial load
 onMounted(() => {
+  // Delay initialization to allow auto-country selection without triggering validation
   setTimeout(() => {
-    hasInitialized.value = true
-  }, 100)
+    initialized.value = true
+  }, 300)
 })
 
-const handleCountrySelect = (
-  iso2: string,
-  updateInputValue: (value: string) => void
-) => {
-  updateInputValue(iso2)
-  open.value = false
-  focused.value = true
-  hasInitialized.value = true
+// Only emit changes after user interaction and initialization
+const handleValueChange = (value: string) => {
+  internalValue.value = value
+
+  if (initialized.value && userInteracted.value) {
+    emit('update:modelValue', value)
+  }
+}
+
+// Mark component as interacted with
+const markAsInteracted = () => {
+  userInteracted.value = true
+
+  // If we already have a value, emit it now that user has interacted
+  if (internalValue.value && initialized.value) {
+    emit('update:modelValue', internalValue.value)
+  }
 }
 </script>
 
 <template>
-  <PhoneInput fetchCountry class="flex" @update="res = $event">
+  <BasePhoneInput
+    fetchCountry
+    class="flex"
+    country-locale="en-EN"
+    :model-value="internalValue"
+    @update:model-value="handleValueChange"
+    :disabled="disabled"
+  >
     <template #selector="{ inputValue, updateInputValue, countries }">
       <Popover v-model:open="open">
         <PopoverTrigger>
           <Button
             variant="outline"
             class="flex gap-1 rounded-e-none rounded-s-lg px-3"
+            @click="markAsInteracted"
+            :disabled="disabled"
           >
             <FlagComponent :country="inputValue" />
             <ChevronsUpDown class="-mr-2 h-4 w-4 opacity-50" />
@@ -102,7 +91,12 @@ const handleCountrySelect = (
                   :value="option.name"
                   class="gap-2"
                   @select="
-                    () => handleCountrySelect(option.iso2, updateInputValue)
+                    () => {
+                      updateInputValue(option.iso2)
+                      open = false
+                      focused = true
+                      markAsInteracted()
+                    }
                   "
                 >
                   <FlagComponent :country="option?.iso2" />
@@ -126,13 +120,13 @@ const handleCountrySelect = (
         :model-value="inputValue"
         @input="
           (e: Event) => {
-            hasInitialized.value = true
+            markAsInteracted()
             updateInputValue(e)
           }
         "
-        @blur="handleBlur"
         :placeholder="placeholder"
+        :disabled="disabled"
       />
     </template>
-  </PhoneInput>
+  </BasePhoneInput>
 </template>
