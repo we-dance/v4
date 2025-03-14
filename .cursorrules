@@ -82,7 +82,7 @@
         "searchIssues": "mcp__search_issues"
       },
       "defaultRepo": {
-        "owner": "WeDance",
+        "owner": "we-dance",
         "repo": "v4"
       }
     },

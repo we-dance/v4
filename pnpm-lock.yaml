@@ -92,6 +92,9 @@ importers:
       shadcn-vue:
         specifier: ^0.11.3
         version: 0.11.3(@vitest/ui@3.0.8(vitest@3.0.4))(eslint@9.22.0(jiti@2.4.2))(magicast@0.3.5)(vitest@3.0.4(@types/debug@4.1.12)(@types/node@22.13.10)(@vitest/ui@3.0.8)(jiti@2.4.2)(jsdom@26.0.0)(stylus@0.64.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
+      sonner:
+        specifier: ^2.0.1
+        version: 2.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       superjson:
         specifier: ^2.2.2
         version: 2.2.2
@@ -5238,6 +5241,12 @@ packages:
     resolution: {integrity: sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==}
     engines: {node: '>=10.0.0'}
 
+  sonner@2.0.1:
+    resolution: {integrity: sha512-FRBphaehZ5tLdLcQ8g2WOIRE+Y7BCfWi5Zyd8bCvBjiW8TxxAyoWZIxS661Yz6TGPqFQ4VLzOF89WEYhfynSFQ==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+      react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -7955,9 +7964,9 @@ snapshots:
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-sfc': 3.5.13
       '@vuedx/template-ast-types': 0.7.1
-      fast-glob: 3.3.2
+      fast-glob: 3.3.3
       prettier: 3.4.2
-      typescript: 5.7.2
+      typescript: 5.8.2
     transitivePeerDependencies:
       - supports-color
 
@@ -8327,10 +8336,6 @@ snapshots:
       negotiator: 0.6.3
 
   acorn-import-attributes@1.9.5(acorn@8.14.0):
-    dependencies:
-      acorn: 8.14.0
-
-  acorn-jsx@5.3.2(acorn@8.14.0):
     dependencies:
       acorn: 8.14.0
 
@@ -9300,8 +9305,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.14.0
-      acorn-jsx: 5.3.2(acorn@8.14.0)
+      acorn: 8.14.1
+      acorn-jsx: 5.3.2(acorn@8.14.1)
       eslint-visitor-keys: 3.4.3
 
   esprima@4.0.1: {}
@@ -9547,9 +9552,9 @@ snapshots:
   giget@1.2.3:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.0
       defu: 6.1.4
-      node-fetch-native: 1.6.4
+      node-fetch-native: 1.6.6
       nypm: 0.3.12
       ohash: 1.1.4
       pathe: 1.1.2
@@ -11148,7 +11153,7 @@ snapshots:
   nypm@0.3.12:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.0
       execa: 8.0.1
       pathe: 1.1.2
       pkg-types: 1.3.0
@@ -11465,9 +11470,9 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.5.3
 
-  postcss-less@6.0.0(postcss@8.4.49):
+  postcss-less@6.0.0(postcss@8.5.3):
     dependencies:
-      postcss: 8.4.49
+      postcss: 8.5.3
 
   postcss-load-config@4.0.2(postcss@8.5.3):
     dependencies:
@@ -11592,11 +11597,11 @@ snapshots:
   postcss-sass@0.5.0:
     dependencies:
       gonzales-pe: 4.3.0
-      postcss: 8.4.49
+      postcss: 8.5.3
 
-  postcss-scss@4.0.9(postcss@8.4.49):
+  postcss-scss@4.0.9(postcss@8.5.3):
     dependencies:
-      postcss: 8.4.49
+      postcss: 8.5.3
 
   postcss-selector-parser@6.0.10:
     dependencies:
@@ -11618,7 +11623,7 @@ snapshots:
       debug: 4.4.0(supports-color@9.4.0)
       fast-diff: 1.3.0
       lodash.sortedlastindex: 4.1.0
-      postcss: 8.4.49
+      postcss: 8.5.3
       stylus: 0.57.0
     transitivePeerDependencies:
       - supports-color
@@ -12096,8 +12101,7 @@ snapshots:
 
   semver@7.6.3: {}
 
-  semver@7.7.1:
-    optional: true
+  semver@7.7.1: {}
 
   send@0.19.0:
     dependencies:
@@ -12155,7 +12159,7 @@ snapshots:
       '@vue/compiler-sfc': 3.5.13
       c12: 2.0.1(magicast@0.3.5)
       commander: 12.1.0
-      consola: 3.3.3
+      consola: 3.4.0
       diff: 7.0.0
       fs-extra: 11.2.0
       https-proxy-agent: 7.0.6(supports-color@9.4.0)
@@ -12168,7 +12172,7 @@ snapshots:
       pkg-types: 1.3.0
       prompts: 2.4.2
       radix-vue: 1.9.12(vue@3.5.13(typescript@5.8.2))
-      semver: 7.6.3
+      semver: 7.7.1
       tsconfig-paths: 4.2.0
       vitest: 3.0.4(@types/debug@4.1.12)(@types/node@22.13.10)(@vitest/ui@3.0.8)(jiti@2.4.2)(jsdom@26.0.0)(stylus@0.64.0)(terser@5.39.0)(yaml@2.7.0)
       vue-metamorph: 3.2.0(eslint@9.22.0(jiti@2.4.2))
@@ -12314,6 +12318,11 @@ snapshots:
       debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
+
+  sonner@2.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
 
   source-map-js@1.2.1: {}
 
@@ -13177,7 +13186,7 @@ snapshots:
       espree: 9.6.1
       esquery: 1.6.0
       lodash: 4.17.21
-      semver: 7.6.3
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13195,10 +13204,10 @@ snapshots:
       magic-string: 0.30.17
       micromatch: 4.0.8
       node-html-parser: 6.1.13
-      postcss: 8.4.49
-      postcss-less: 6.0.0(postcss@8.4.49)
+      postcss: 8.5.3
+      postcss-less: 6.0.0(postcss@8.5.3)
       postcss-sass: 0.5.0
-      postcss-scss: 4.0.9(postcss@8.4.49)
+      postcss-scss: 4.0.9(postcss@8.5.3)
       postcss-styl: 0.12.3
       recast: 0.23.9
       table: 6.9.0
