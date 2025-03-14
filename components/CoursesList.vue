@@ -305,7 +305,7 @@ const getCourseImage = (course: any) => {
     instructor: course.instructor,
   })
 
-  // Используем поле image, добавленное в трансформации на сервере
+  // Use the image field added in the server transformation
   const image = course.image || '/images/default-course.jpg'
   console.log('Selected image:', image)
   return image
@@ -320,13 +320,13 @@ const getAverageRating = (course: any) => {
     fallbackReviews: course.reviews,
   })
 
-  // Проверяем сначала aggregateRating, если есть - используем его
+  // Check aggregateRating first, if available - use it
   if (course.aggregateRating?.ratingValue) {
     console.log('Using aggregateRating:', course.aggregateRating.ratingValue)
     return course.aggregateRating.ratingValue.toFixed(1)
   }
 
-  // Если есть review - рассчитываем среднее
+  // If there is review - calculate average
   if (course.review && course.review.length > 0) {
     const sum = course.review.reduce(
       (acc: number, review: any) =>
@@ -338,7 +338,6 @@ const getAverageRating = (course: any) => {
     return average
   }
 
-  // Проверяем reviews для совместимости с разными форматами данных
   if (course.reviews && course.reviews.length > 0) {
     const sum = course.reviews.reduce(
       (acc: number, review: any) =>
@@ -361,9 +360,9 @@ const getMonthlyPrice = (course: any) => {
     offerings: course.offerings,
   })
 
-  // Проверяем наличие offers (как в mockCourses.ts)
+  // Check for offers (as in mockCourses.ts)
   if (course.offers && course.offers.length > 0) {
-    // Находим месячное предложение или первое
+    // Find monthly offer or first
     const monthlyOffer =
       course.offers.find(
         (offer: any) =>
@@ -376,9 +375,9 @@ const getMonthlyPrice = (course: any) => {
     return price
   }
 
-  // Проверяем offerings для совместимости с разными форматами данных
+  // Check offerings for compatibility with different data formats
   if (course.offerings && course.offerings.length > 0) {
-    // Находим месячное предложение или первое
+    // Find monthly offer or first
     const monthlyOffer =
       course.offerings.find(
         (offer: any) =>
@@ -399,13 +398,13 @@ const getInstructorTitle = (instructor: any) => {
   console.log('Getting title for instructor:', instructor?.name)
   console.log('Instructor data:', instructor)
 
-  // Проверка на null/undefined
+  // Check for null/undefined
   if (!instructor) {
     console.log('No instructor data, returning default')
     return 'Instructor'
   }
 
-  // Приоритет 1: Первое достижение из массива achievements
+  // Priority 1: First achievement from array of achievements
   if (
     instructor.experience?.achievements &&
     instructor.experience.achievements.length > 0
@@ -417,13 +416,13 @@ const getInstructorTitle = (instructor: any) => {
     return instructor.experience.achievements[0]
   }
 
-  // Приоритет 2: jobTitle
+  // Priority 2: jobTitle
   if (instructor.jobTitle) {
     console.log('Using jobTitle:', instructor.jobTitle)
     return instructor.jobTitle
   }
 
-  // Приоритет 3: teachingLevel
+  // Priority 3: teachingLevel
   if (instructor.teachingLevel) {
     const title =
       instructor.teachingLevel === 'master'

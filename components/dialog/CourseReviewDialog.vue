@@ -31,8 +31,6 @@ const handleSubmit = () => {
     comment: comment.value,
     reviewerName: reviewerName.value || 'Anonymous User',
   })
-
-  // Закрываем диалог
   const dialog = useDialog()
   dialog.close()
 }
@@ -41,26 +39,24 @@ const handleSubmit = () => {
 <template>
   <DialogContent>
     <DialogHeader>
-      <DialogTitle>Оставить отзыв</DialogTitle>
+      <DialogTitle>Leave a review</DialogTitle>
       <DialogDescription>
-        Поделитесь своими впечатлениями о курсе "{{ courseName }}"
+        Share your thoughts about the course "{{ courseName }}"
       </DialogDescription>
     </DialogHeader>
 
     <div class="space-y-4">
-      <!-- Имя пользователя -->
       <div class="space-y-2">
-        <label for="reviewer-name" class="text-sm font-medium">Ваше имя</label>
+        <label for="reviewer-name" class="text-sm font-medium">Your name</label>
         <Input
           id="reviewer-name"
           v-model="reviewerName"
-          placeholder="Введите ваше имя"
+          placeholder="Enter your name"
         />
       </div>
 
-      <!-- Рейтинг -->
       <div class="space-y-2">
-        <label class="text-sm font-medium">Рейтинг</label>
+        <label class="text-sm font-medium">Rating</label>
         <div class="flex items-center gap-1">
           <button
             v-for="i in 5"
@@ -78,13 +74,12 @@ const handleSubmit = () => {
         </div>
       </div>
 
-      <!-- Текст отзыва -->
       <div class="space-y-2">
-        <label for="review" class="text-sm font-medium">Ваш отзыв</label>
+        <label for="review" class="text-sm font-medium">Your review</label>
         <Textarea
           id="review"
           v-model="comment"
-          placeholder="Поделитесь своими впечатлениями..."
+          placeholder="Share your thoughts..."
           rows="4"
         />
       </div>
@@ -92,9 +87,9 @@ const handleSubmit = () => {
 
     <DialogFooter>
       <Button type="button" variant="outline" @click="useDialog().close()">
-        Отмена
+        Cancel
       </Button>
-      <Button type="button" @click="handleSubmit">Отправить</Button>
+      <Button type="button" @click="handleSubmit">Submit</Button>
     </DialogFooter>
   </DialogContent>
 </template>

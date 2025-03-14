@@ -31,13 +31,11 @@ async function transformCourseData(course: any) {
     numberOfLessons: course.numberOfLessons || 0,
     // Store original instructor data for future reference
     originalInstructorId: course.instructor?.identifier || null,
-    // Обогащаем данные инструктора
+    // Enhance instructor data
     instructorData: course.instructor
       ? {
           ...course.instructor,
-          // Сохраняем опыт и достижения в полном объеме
           experience: course.instructor.experience || null,
-          // Если у инструктора нет jobTitle, но есть achievements, используем первое достижение
           jobTitle:
             course.instructor.jobTitle ||
             (course.instructor.experience?.achievements &&
@@ -61,7 +59,7 @@ async function transformCourseData(course: any) {
       community: course.community || null,
       provider: course.provider || null,
       subscriptionControl: course.subscriptionControl || null,
-      // Сохраняем важные данные для отображения на фронтенде
+      // Save important data for display on frontend
       aggregateRating: course.aggregateRating || null,
       review: course.review || [],
       offers: course.offers || [],
@@ -130,7 +128,7 @@ async function transformOfferingsData(courseId: string, offers: any[]) {
 async function transformReviewsData(courseId: string, reviews: any[]) {
   return reviews.map((review, index) => ({
     courseId,
-    id: crypto.randomUUID(), // Генерируем UUID для отзыва
+    id: crypto.randomUUID(),
     rating: review.reviewRating?.ratingValue || 5,
     content: review.reviewBody || '',
     authorName: review.author?.name || 'Anonymous',
@@ -144,7 +142,7 @@ async function transformReviewsData(courseId: string, reviews: any[]) {
 async function transformResourcesData(courseId: string, resources: any[]) {
   return resources.map((resource, index) => ({
     courseId,
-    id: crypto.randomUUID(), // Генерируем UUID для ресурса
+    id: crypto.randomUUID(),
     name: resource.name || `Resource ${index + 1}`,
     type: resource.learningResourceType || 'other',
     contentSize: resource.contentSize || '',
