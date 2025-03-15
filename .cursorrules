@@ -321,7 +321,11 @@
         "ui expert",
         "interface",
         "components",
-        "layout"
+        "layout",
+        "form",
+        "forms",
+        "validation",
+        "input"
       ],
       "responsibilities": [
         "Guide designers on UI implementation",
@@ -331,7 +335,11 @@
         "Ensure accessibility compliance",
         "Optimize user experience",
         "Document all components in design system",
-        "Define scenarios in Gherkin language"
+        "Define scenarios in Gherkin language",
+        "Implement form validation patterns",
+        "Ensure consistent form architecture",
+        "Guide on form accessibility best practices",
+        "Recommend appropriate form components"
       ],
       "fileStructure": {
         "order": [
@@ -359,7 +367,65 @@
           "thirdPartyImports": "Always explicitly import third-party libraries",
           "typeImports": "Always explicitly import types and interfaces",
           "aliasUsage": "Use the ~ alias for project root imports when needed",
-          "importOrdering": "Group imports by type: Vue core, Nuxt, project, third-party"
+          "importOrdering": "Group imports by type: Vue core, Nuxt, project, third-party",
+          "notifications": "use toast from 'vue-sonner' for notifications",
+          "auth": "const { auth, isLoggedIn, signOut, data } = useAppAuth()"
+        }
+      },
+      "formArchitecture": {
+        "validation": {
+          "library": "Use vee-validate with zod for form validation",
+          "schema": "Define validation schemas in separate files under schemas/ directory",
+          "setup": "Use useForm from vee-validate with toTypedSchema from @vee-validate/zod",
+          "implementation": "const form = useForm({ validationSchema: toTypedSchema(mySchema) })"
+        },
+        "components": {
+          "structure": "Use shadcn-vue form components (FormField, FormItem, FormLabel, FormControl, FormDescription, FormMessage)",
+          "binding": "Use v-slot=\"{ componentField }\" with FormField and bind to input with v-bind=\"componentField\"",
+          "checkboxes": "Use v-slot=\"{ value, handleChange }\" with FormField and bind with :checked and @update:checked"
+        },
+        "submission": {
+          "handler": "Use form.handleSubmit with success and error callbacks",
+          "implementation": "const onSubmit = form.handleSubmit(successCallback, errorCallback)",
+          "errorHandling": "Use toast.error for displaying form errors",
+          "successHandling": "Provide clear success feedback using toast.success"
+        },
+        "antiPatterns": {
+          "manualValidation": "Avoid manual validation with refs and custom logic",
+          "inlineValidation": "Avoid inline validation rules, use schemas instead",
+          "directSubmission": "Avoid direct form submission without validation",
+          "inconsistentComponents": "Avoid mixing different form component patterns"
+        },
+        "accessibility": {
+          "labels": "Always use FormLabel with proper for/id associations",
+          "errorMessages": "Use FormMessage for displaying validation errors",
+          "descriptions": "Use FormDescription for additional field information",
+          "requiredFields": "Indicate required fields with visual indicators",
+          "autocomplete": "Use appropriate autocomplete attributes on inputs",
+          "focusManagement": "Manage focus appropriately, especially after form submission"
+        },
+        "patterns": {
+          "login": "Use email/password fields with appropriate validation",
+          "register": "Include all required user information with appropriate validation",
+          "profile": "Allow users to update their information with current values pre-filled",
+          "search": "Use appropriate input types with instant or delayed validation",
+          "multiStep": "Break complex forms into logical steps with progress indication",
+          "arrayFields": "Use consistent patterns for adding/removing items in array fields"
+        },
+        "stateManagement": {
+          "loading": "Show loading indicators during form submission",
+          "success": "Display success messages after successful submission",
+          "error": "Show error messages at form and field levels",
+          "disabled": "Disable form controls during submission",
+          "dirtyChecking": "Track form changes to prevent unnecessary submissions"
+        },
+        "bestPractices": {
+          "initialization": "Initialize form with default values when available",
+          "reset": "Provide clear way to reset form to initial state",
+          "validation": "Validate on blur and submit, not on every keystroke",
+          "fieldGrouping": "Group related fields together logically",
+          "responsiveLayout": "Ensure form layout works on all screen sizes",
+          "consistentStyling": "Maintain consistent styling across all forms"
         }
       },
       "designSystem": {
