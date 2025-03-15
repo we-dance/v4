@@ -14,6 +14,11 @@ const form = useForm({
 
 const { $client } = useNuxtApp()
 
+onMounted(() => {
+  console.log('mounted')
+  console.log('profile', data.value?.profile)
+})
+
 const updateProfileMutation = useMutation(
   async (values: Profile) => {
     console.log('updating profile 1', values)

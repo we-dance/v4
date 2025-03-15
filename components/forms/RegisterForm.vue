@@ -18,7 +18,6 @@ const onSubmit = form.handleSubmit(
     }
   },
   (e) => {
-    console.log('errors', e)
     toast.error('Please fix the errors in the form.')
   }
 )
