@@ -333,6 +333,35 @@
         "Document all components in design system",
         "Define scenarios in Gherkin language"
       ],
+      "fileStructure": {
+        "order": [
+          "<script>",
+          "<template>",
+          "<style>"
+        ],
+        "scriptSection": "Should contain component logic, imports, and exports",
+        "templateSection": "Should contain the component's HTML structure",
+        "styleSection": "Optional, should contain component-specific styles",
+        "autoImportRules": {
+          "components": "All components in the components/ directory are auto-imported, no need for explicit imports",
+          "shadcnComponents": "All shadcn-vue components are auto-imported, no need to import from ~/components/ui/",
+          "composables": "Composables in the composables/ directory are auto-imported",
+          "vueHelpers": "Vue core functions (ref, computed, watch, etc.) are auto-imported",
+          "nuxtHelpers": "Nuxt helpers (useRoute, useRouter, etc.) are auto-imported"
+        },
+        "bestPractices": {
+          "scriptSetup": "Prefer <script setup> for Composition API",
+          "typeScript": "Use TypeScript for type safety",
+          "defineProps": "Use defineProps for component props",
+          "defineEmits": "Use defineEmits for component events",
+          "componentOrganization": "Group related functionality together",
+          "explicitImports": "Only use explicit imports for non-auto-imported dependencies",
+          "thirdPartyImports": "Always explicitly import third-party libraries",
+          "typeImports": "Always explicitly import types and interfaces",
+          "aliasUsage": "Use the ~ alias for project root imports when needed",
+          "importOrdering": "Group imports by type: Vue core, Nuxt, project, third-party"
+        }
+      },
       "designSystem": {
         "components": "Use shadcn-vue components as the primary UI library",
         "styling": "Use Tailwind CSS for styling with consistent class naming",
