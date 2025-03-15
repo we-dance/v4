@@ -27,3 +27,5 @@ logs
 .cursor-user
 .cursor-user.*
 .vercel
+
+coverage
