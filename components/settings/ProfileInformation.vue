@@ -3,12 +3,9 @@ import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
 import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
-import { profileSchema, type Profile } from '~/schemas/profile'
+import { profileSchema } from '~/schemas/profile'
 
 const { data } = useAppAuth()
-
-// Add debugging logs
-console.log('Component initialized')
 
 const form = useForm({
   validationSchema: toTypedSchema(profileSchema),
@@ -18,12 +15,14 @@ const form = useForm({
 const { $client } = useNuxtApp()
 
 const updateProfileMutation = useMutation(
-  async (values: Profile) => {
+  async (values: any) => {
     const profileId = data.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')
     }
+
+    console.log('updating profile', values)
 
     return await $client.profiles.update.mutate({
       id: profileId,
@@ -55,10 +54,21 @@ const canSubmit = computed(() => {
   return isDirty && !isLoading
 })
 
-function onSubmit(e: Event) {
+async function onSubmit(e: Event) {
   e.preventDefault()
-  updateProfileMutation.mutate(form.values as Profile)
+  console.log('onSubmit', { ...form.values })
+  await $client.profiles.update.mutate({
+    id: data.value?.profile?.id || '',
+    data: {
+      bio: 'test',
+    },
+  })
+  // updateProfileMutation.mutate(form.values)
 }
+
+const onProfileSubmit = form.handleSubmit(async (values) => {
+  updateProfileMutation.mutate(values)
+})
 </script>
 
 <template>

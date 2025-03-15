@@ -149,6 +149,7 @@ export const profilesRouter = router({
   update: publicProcedure
     .input(z.object({ id: z.string(), data: z.object({}) }))
     .mutation(async ({ input }) => {
+      console.log('trpc.profiles.update', input)
       const { id, data } = input
       return await prisma.profile.update({ where: { id }, data })
     }),
