@@ -6,6 +6,9 @@ import { useForm } from 'vee-validate'
 
 const props = defineProps<{
   initialEmail: string
+  initialFirstName?: string
+  initialLastName?: string
+  initialPhone?: string
 }>()
 
 // Define validation schema
@@ -14,6 +17,9 @@ const accountSchema = z.object({
     .string()
     .email('Please enter a valid email address')
     .min(1, 'Email is required'),
+  firstName: z.string().min(1, 'First name is required'),
+  lastName: z.string().min(1, 'Last name is required'),
+  phone: z.string().min(1, 'Phone number is required'),
 })
 
 // Setup form with validation
@@ -21,11 +27,20 @@ const form = useForm({
   validationSchema: toTypedSchema(accountSchema),
   initialValues: {
     email: props.initialEmail || '',
+    firstName: props.initialFirstName || '',
+    lastName: props.initialLastName || '',
+    phone: props.initialPhone || '',
   },
 })
 
 // UI state
 const isUpdatingAccount = ref(false)
+
+// Computed property to check if form can be submitted
+const canSubmit = computed(() => {
+  // @ts-ignore - meta.dirty exists but TypeScript doesn't recognize it
+  return form.meta.value.dirty && !isUpdatingAccount.value
+})
 
 // Form submission handler
 const onSubmit = form.handleSubmit(async (values) => {
@@ -37,6 +52,9 @@ const onSubmit = form.handleSubmit(async (values) => {
       method: 'PUT',
       body: {
         email: values.email,
+        firstName: values.firstName,
+        lastName: values.lastName,
+        phone: values.phone,
       },
     }).catch(() => {
       // This is just for development, remove in production
@@ -61,13 +79,51 @@ const onSubmit = form.handleSubmit(async (values) => {
 <template>
   <div class="bg-card rounded-lg shadow p-6 mb-6">
     <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
-      <Icon name="heroicons:envelope" class="w-5 h-5" />
+      <Icon name="heroicons:user-circle" class="w-5 h-5" />
       Account Information
     </h2>
 
     <form @submit.prevent="onSubmit" class="space-y-4">
+      <!-- First Name -->
+      <FormField v-slot="{ componentField, errorMessage }" name="firstName">
+        <FormItem>
+          <FormLabel class="flex items-center gap-1">
+            First Name
+            <span class="text-destructive">*</span>
+          </FormLabel>
+          <FormControl>
+            <Input
+              v-bind="componentField"
+              type="text"
+              placeholder="Your first name"
+              class="max-w-md"
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <!-- Last Name -->
+      <FormField v-slot="{ componentField, errorMessage }" name="lastName">
+        <FormItem>
+          <FormLabel class="flex items-center gap-1">
+            Last Name
+            <span class="text-destructive">*</span>
+          </FormLabel>
+          <FormControl>
+            <Input
+              v-bind="componentField"
+              type="text"
+              placeholder="Your last name"
+              class="max-w-md"
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
       <!-- Email -->
-      <FormField v-slot="{ componentField, errorMessage, value }" name="email">
+      <FormField v-slot="{ componentField, errorMessage }" name="email">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
             Email
@@ -83,9 +139,6 @@ const onSubmit = form.handleSubmit(async (values) => {
                 aria-describedby="email-description"
               />
             </FormControl>
-            <div v-if="isUpdatingAccount" class="animate-spin">
-              <Icon name="heroicons:arrow-path" class="w-5 h-5" />
-            </div>
           </div>
           <FormDescription id="email-description">
             This email is used for account notifications and recovery
@@ -94,14 +147,38 @@ const onSubmit = form.handleSubmit(async (values) => {
         </FormItem>
       </FormField>
 
+      <!-- Phone -->
+      <FormField v-slot="{ componentField, errorMessage }" name="phone">
+        <FormItem>
+          <FormLabel class="flex items-center gap-1">
+            Phone
+            <span class="text-destructive">*</span>
+          </FormLabel>
+          <FormControl>
+            <Input
+              v-bind="componentField"
+              type="tel"
+              placeholder="Your phone number"
+              class="max-w-md"
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
       <!-- Save Account Changes -->
       <div class="flex justify-end pt-4">
         <Button
           type="submit"
-          :disabled="!form.meta.valid || isUpdatingAccount"
+          :disabled="!canSubmit"
           class="flex items-center gap-2"
         >
-          <Icon name="heroicons:check" class="w-4 h-4" />
+          <Icon
+            v-if="isUpdatingAccount"
+            name="heroicons:arrow-path"
+            class="w-4 h-4 animate-spin"
+          />
+          <Icon v-else name="heroicons:check" class="w-4 h-4" />
           Save Changes
         </Button>
       </div>
