@@ -11,23 +11,31 @@ export function usePasswordStrength() {
       return
     }
 
+    // Calculate score based on both length and character variety
     let score = 0
+    const length = password.length
 
-    // Length check
-    if (password.length >= 8) score += 1
-    if (password.length >= 12) score += 1
+    // Length scoring
+    if (length >= 8) score += 1
+    if (length >= 12) score += 1
+    if (length >= 16) score += 2
 
-    // Character type checks
-    if (/[A-Z]/.test(password)) score += 1
-    if (/[a-z]/.test(password)) score += 1
-    if (/[0-9]/.test(password)) score += 1
-    if (/[^A-Za-z0-9]/.test(password)) score += 1
+    // Character variety scoring
+    const hasLowercase = /[a-z]/.test(password)
+    const hasUppercase = /[A-Z]/.test(password)
+    const hasNumbers = /[0-9]/.test(password)
+    const hasSymbols = /[^A-Za-z0-9]/.test(password)
+
+    if (hasLowercase) score += 1
+    if (hasUppercase) score += 1
+    if (hasNumbers) score += 1
+    if (hasSymbols) score += 2
 
     // Set strength level
     if (score <= 2) {
       strength.value = 'weak'
       strengthPercent.value = 33
-    } else if (score <= 4) {
+    } else if (score <= 5) {
       strength.value = 'medium'
       strengthPercent.value = 66
     } else {

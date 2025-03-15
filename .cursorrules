@@ -32,6 +32,7 @@
         "Project documentation is in README.md file",
         "Design system and components MUST be documented, see example in pages/design/components/button.vue and navigation MUST be updated in pages/design/index.vue",
         "First <script setup> tag and then <template> tag",
+        "Pages MUST NOT contain any html, only vue components with props to pass the data, see example in pages/index.vue",
         "No need for comments in the code",
         "Write composable and reusable code",
         "Use pnpm to install dependencies",

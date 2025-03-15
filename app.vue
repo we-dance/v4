@@ -7,7 +7,9 @@ const baseUrl = runtimeConfig.public.baseUrl
 
 <template>
   <NuxtLayout>
-    <Toaster richColors />
+    <ClientOnly>
+      <Toaster />
+    </ClientOnly>
     <NuxtPage />
   </NuxtLayout>
 </template>

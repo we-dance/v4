@@ -17,7 +17,8 @@ const onSubmit = form.handleSubmit(
       toast.error(error)
     }
   },
-  () => {
+  (e) => {
+    console.log('errors', e)
     toast.error('Please fix the errors in the form.')
   }
 )
@@ -77,6 +78,7 @@ const onSubmit = form.handleSubmit(
           />
         </FormControl>
         <FormDescription />
+        <PasswordStrengthIndicator :password="form.values.password || ''" />
         <FormMessage />
       </FormItem>
     </FormField>

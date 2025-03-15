@@ -30,17 +30,31 @@ export const userSchema = z.object({
   email: z.string().email(),
 })
 
-export const sessionSchema = userSchema.extend({
+export const loggedInUserSchema = userSchema.extend({
   userId: z.string(),
 })
 
 export type User = z.infer<typeof userSchema>
-export type Session = z.infer<typeof sessionSchema>
+export type LoggedInUser = z.infer<typeof loggedInUserSchema>
+
+const passwordRule = z
+  .string()
+  .min(8, 'Password must be at least 8 characters.')
 
 export const registerSchema = userSchema.extend({
-  password: z.string().min(8, 'Password must be at least 8 characters.'),
+  password: passwordRule,
   emailConsent: z.boolean({ coerce: true }).refine((value) => value, {
     message: 'We need your consent to send you emails.',
   }),
-  username: usernameSchema,
 })
+
+export const passwordSchema = z
+  .object({
+    currentPassword: passwordRule,
+    newPassword: passwordRule,
+    confirmPassword: passwordRule,
+  })
+  .refine((data) => data.newPassword === data.confirmPassword, {
+    message: 'Passwords do not match',
+    path: ['confirmPassword'],
+  })

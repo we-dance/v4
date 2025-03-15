@@ -3,23 +3,20 @@ import { toast } from 'vue-sonner'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
 import { useMutation } from 'vue-query'
-import { userSchema, type Session, type User } from '~/schemas/user'
+import { userSchema, type User } from '~/schemas/user'
 
-const props = defineProps<{
-  data: Session
-}>()
+const { data } = useAppAuth()
 
-// Setup form with validation
 const form = useForm({
   validationSchema: toTypedSchema(userSchema),
-  initialValues: props.data,
+  initialValues: data.value?.user,
 })
 
 const { $client } = useNuxtApp()
 
 const updateAccountMutation = useMutation(
   async (values: User) => {
-    const userId = props.data.userId
+    const userId = data.value?.user.id
 
     if (!userId) {
       throw new Error('User not authenticated')
@@ -148,7 +145,7 @@ const onSubmit = form.handleSubmit(async (values) => {
       </FormField>
 
       <!-- Save Account Changes -->
-      <div class="flex justify-end pt-4">
+      <div class="flex justify-start pt-4">
         <Button
           type="submit"
           :disabled="!canSubmit"

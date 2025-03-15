@@ -1,21 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { toast } from 'vue-sonner'
-import { Button } from '~/components/ui/button'
-import { Input } from '~/components/ui/input'
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from '~/components/ui/dialog'
-import { useAuthStore } from '~/stores/auth'
 
-const authStore = useAuthStore()
+const { $client } = useNuxtApp()
+const { data, signOut } = useAppAuth()
 
-// UI state
 const isDeleteDialogOpen = ref(false)
 const deleteConfirmation = ref('')
 const isDeletingAccount = ref(false)
@@ -30,20 +19,15 @@ async function deleteAccount() {
   isDeletingAccount.value = true
 
   try {
-    // TODO: Replace with actual API call
-    await $fetch('/api/user/delete', {
-      method: 'DELETE',
-    }).catch(() => {
-      // This is just for development, remove in production
-      return new Promise((resolve) => setTimeout(resolve, 1000))
+    await $client.users.delete.mutate({
+      id: data.value?.user.id,
     })
 
     toast.success('Account deleted', {
       description: 'Your account has been deleted successfully.',
     })
 
-    // Logout and redirect to home page
-    authStore.logout()
+    signOut()
     navigateTo('/')
   } catch (error: any) {
     const errorMessage = error?.data?.message || 'Failed to delete account.'
@@ -59,38 +43,19 @@ async function deleteAccount() {
 </script>
 
 <template>
-  <!-- Delete Account Section -->
   <div class="bg-card rounded-lg border border-destructive/20 shadow p-6">
-    <h2
-      class="text-xl font-semibold mb-4 text-destructive flex items-center gap-2"
-    >
-      <Icon name="heroicons:exclamation-triangle" class="w-5 h-5" />
+    <h2 class="text-xl font-semibold mb-4 text-destructive flex items-center">
       Danger Zone
     </h2>
 
-    <div class="rounded-md bg-destructive/5 p-4 mb-4">
-      <div class="flex">
-        <div class="flex-shrink-0">
-          <Icon
-            name="heroicons:exclamation-circle"
-            class="h-5 w-5 text-destructive"
-            aria-hidden="true"
-          />
-        </div>
-        <div class="ml-3">
-          <h3 class="text-sm font-medium text-destructive">
-            Account Deletion Warning
-          </h3>
-          <div class="mt-2 text-sm text-destructive/80">
-            <p>
-              Deleting your account will permanently remove all your data,
-              including profile information, connections, and activity history.
-              This action cannot be undone.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Alert variant="destructive" class="mb-4">
+      <AlertTitle>Account Deletion Warning</AlertTitle>
+      <AlertDescription>
+        Deleting your account will permanently remove all your data, including
+        profile information, connections, and activity history. This action
+        cannot be undone.
+      </AlertDescription>
+    </Alert>
 
     <Button
       type="button"
@@ -103,7 +68,6 @@ async function deleteAccount() {
     </Button>
   </div>
 
-  <!-- Delete Account Confirmation Dialog -->
   <Dialog :open="isDeleteDialogOpen" @update:open="isDeleteDialogOpen = $event">
     <DialogContent>
       <DialogHeader>

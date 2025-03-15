@@ -35,6 +35,13 @@ export default NuxtAuthHandler({
         },
       })
 
+      if (!user) {
+        return Promise.resolve({
+          user: null,
+          profile: null,
+        })
+      }
+
       const profile = await prisma.profile.findFirst({
         where: {
           userId: user.id,
@@ -43,15 +50,20 @@ export default NuxtAuthHandler({
 
       session.user.id = user.id
       return Promise.resolve({
-        userId: user.id,
-        username: profile?.username,
-        profileId: profile?.id,
-        cityId: profile?.cityId,
-        photo: profile?.photo,
-        firstName: user.firstName,
-        lastName: user.lastName,
-        phone: user.phone,
-        email: user.email,
+        user: {
+          id: user.id,
+          email: user.email,
+          firstName: user.firstName,
+          lastName: user.lastName,
+          phone: user.phone,
+        },
+        profile: {
+          id: profile?.id,
+          username: profile?.username,
+          name: profile?.name || profile?.username,
+          cityId: profile?.cityId,
+          photo: profile?.photo,
+        },
       })
     },
   },

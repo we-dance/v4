@@ -2,12 +2,10 @@
 definePageMeta({
   layout: 'settings',
 })
-
-const { data } = useAppAuth()
 </script>
 
 <template>
-  <AccountInformation :data="data" />
+  <AccountInformation />
   <PasswordSettings />
   <DangerZone />
 </template>

@@ -50,9 +50,11 @@ Feature: Account Settings Management
 
   Scenario: Password strength indicator
     When I navigate to the "Account" settings tab
-    And I enter a weak password "password"
+    And I enter a weak password "pass"
     Then I should see a "weak" strength indicator
-    When I enter a medium strength password "Password1"
+    When I enter a medium strength password "password12345"
     Then I should see a "medium" strength indicator
-    When I enter a strong password "StrongP@ssw0rd!"
+    When I enter a strong password "this is a very memorable and long passphrase"
+    Then I should see a "strong" strength indicator
+    When I enter a strong password with special characters "P@s$w0rd!"
     Then I should see a "strong" strength indicator 

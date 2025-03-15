@@ -77,9 +77,9 @@ watch(
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem as-child>
-                  <NuxtLink :to="`/${data?.username}`">
+                  <NuxtLink :to="`/${data?.profile?.username}`">
                     <Icon name="lucide:user" class="mr-2 h-4 w-4" />
-                    {{ data?.username }}
+                    {{ data?.profile?.username }}
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>
@@ -157,11 +157,11 @@ watch(
           </NuxtLink>
           <template v-if="isLoggedIn">
             <NuxtLink
-              :to="`/${data?.username}`"
+              :to="`/${data?.profile?.username}`"
               class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
             >
               <Icon name="lucide:user" class="h-5 w-5" />
-              {{ data?.username }}
+              {{ data?.profile?.username }}
             </NuxtLink>
             <NuxtLink
               to="/settings"
