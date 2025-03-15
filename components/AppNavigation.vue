@@ -3,7 +3,7 @@ const route = useRoute()
 const dialog = useDialog()
 const isMobileMenuOpen = ref(false)
 
-const { auth, isLoggedIn, signOut, data } = useAppAuth()
+const { isLoggedIn, signOut, data } = useAppAuth()
 
 const navigationItems = [
   { to: '/feed', label: 'Feed', icon: 'lucide:home' },

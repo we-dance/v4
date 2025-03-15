@@ -7,7 +7,7 @@ const { data } = useAppAuth()
 </script>
 
 <template>
-  <AccountInformation :initial-email="data?.user?.email || ''" />
+  <AccountInformation :data="data" />
   <PasswordSettings />
   <DangerZone />
 </template>

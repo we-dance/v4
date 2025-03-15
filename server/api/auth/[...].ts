@@ -48,6 +48,10 @@ export default NuxtAuthHandler({
         profileId: profile?.id,
         cityId: profile?.cityId,
         photo: profile?.photo,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        phone: user.phone,
+        email: user.email,
       })
     },
   },

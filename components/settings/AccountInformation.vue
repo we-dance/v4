@@ -4,11 +4,15 @@ import { z } from 'zod'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
 
+type Data = {
+  email: string
+  firstName: string
+  lastName: string
+  phone: string
+}
+
 const props = defineProps<{
-  initialEmail: string
-  initialFirstName?: string
-  initialLastName?: string
-  initialPhone?: string
+  data: Data
 }>()
 
 // Define validation schema
@@ -26,10 +30,10 @@ const accountSchema = z.object({
 const form = useForm({
   validationSchema: toTypedSchema(accountSchema),
   initialValues: {
-    email: props.initialEmail || '',
-    firstName: props.initialFirstName || '',
-    lastName: props.initialLastName || '',
-    phone: props.initialPhone || '',
+    email: props.data.email || '',
+    firstName: props.data.firstName || '',
+    lastName: props.data.lastName || '',
+    phone: props.data.phone || '',
   },
 })
 
@@ -85,7 +89,7 @@ const onSubmit = form.handleSubmit(async (values) => {
 
     <form @submit.prevent="onSubmit" class="space-y-4">
       <!-- First Name -->
-      <FormField v-slot="{ componentField, errorMessage }" name="firstName">
+      <FormField v-slot="{ componentField }" name="firstName">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
             First Name
@@ -104,7 +108,7 @@ const onSubmit = form.handleSubmit(async (values) => {
       </FormField>
 
       <!-- Last Name -->
-      <FormField v-slot="{ componentField, errorMessage }" name="lastName">
+      <FormField v-slot="{ componentField }" name="lastName">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
             Last Name
@@ -123,7 +127,7 @@ const onSubmit = form.handleSubmit(async (values) => {
       </FormField>
 
       <!-- Email -->
-      <FormField v-slot="{ componentField, errorMessage }" name="email">
+      <FormField v-slot="{ componentField }" name="email">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
             Email
@@ -148,7 +152,7 @@ const onSubmit = form.handleSubmit(async (values) => {
       </FormField>
 
       <!-- Phone -->
-      <FormField v-slot="{ componentField, errorMessage }" name="phone">
+      <FormField v-slot="{ componentField }" name="phone">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
             Phone
