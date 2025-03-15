@@ -2,12 +2,12 @@
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
-import { userSchema } from '~/schemas/user'
+import { registerSchema } from '~/schemas/user'
 
 const { login } = useAppAuth()
 
 const form = useForm({
-  validationSchema: toTypedSchema(userSchema),
+  validationSchema: toTypedSchema(registerSchema),
 })
 
 const onSubmit = form.handleSubmit(

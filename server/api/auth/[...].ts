@@ -4,7 +4,7 @@ import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import { userSchema, generateUniqueUsername } from '~/schemas/user'
+import { registerSchema, generateUniqueUsername } from '~/schemas/user'
 
 const prisma = new PrismaClient()
 
@@ -109,7 +109,7 @@ export default NuxtAuthHandler({
         emailConsent: { label: 'Email Consent', type: 'checkbox' },
       },
       async authorize(input: any) {
-        const result = userSchema.safeParse(input)
+        const result = registerSchema.safeParse(input)
 
         if (!result.success) {
           const errorMessages = result.error.errors

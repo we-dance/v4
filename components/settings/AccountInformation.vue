@@ -1,82 +1,59 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
-import { z } from 'zod'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
-
-type Data = {
-  email: string
-  firstName: string
-  lastName: string
-  phone: string
-}
+import { useMutation } from 'vue-query'
+import { userSchema, type Session, type User } from '~/schemas/user'
 
 const props = defineProps<{
-  data: Data
+  data: Session
 }>()
-
-// Define validation schema
-const accountSchema = z.object({
-  email: z
-    .string()
-    .email('Please enter a valid email address')
-    .min(1, 'Email is required'),
-  firstName: z.string().min(1, 'First name is required'),
-  lastName: z.string().min(1, 'Last name is required'),
-  phone: z.string().min(1, 'Phone number is required'),
-})
 
 // Setup form with validation
 const form = useForm({
-  validationSchema: toTypedSchema(accountSchema),
-  initialValues: {
-    email: props.data.email || '',
-    firstName: props.data.firstName || '',
-    lastName: props.data.lastName || '',
-    phone: props.data.phone || '',
-  },
+  validationSchema: toTypedSchema(userSchema),
+  initialValues: props.data,
 })
 
-// UI state
-const isUpdatingAccount = ref(false)
+const { $client } = useNuxtApp()
 
-// Computed property to check if form can be submitted
+const updateAccountMutation = useMutation(
+  async (values: User) => {
+    const userId = props.data.userId
+
+    if (!userId) {
+      throw new Error('User not authenticated')
+    }
+
+    return await $client.users.update.mutate({
+      id: userId,
+      data: values,
+    })
+  },
+  {
+    onSuccess: () => {
+      toast.success('Account updated', {
+        description: 'Your account information has been updated successfully.',
+      })
+    },
+    onError: (error: any) => {
+      const errorMessage =
+        error?.message || 'Failed to update account information.'
+      toast.error('Error', {
+        description: errorMessage,
+      })
+    },
+  }
+)
+
+const isUpdatingAccount = computed(() => updateAccountMutation.isLoading.value)
+
 const canSubmit = computed(() => {
-  // @ts-ignore - meta.dirty exists but TypeScript doesn't recognize it
   return form.meta.value.dirty && !isUpdatingAccount.value
 })
 
-// Form submission handler
 const onSubmit = form.handleSubmit(async (values) => {
-  isUpdatingAccount.value = true
-
-  try {
-    // TODO: Replace with actual API call
-    await $fetch('/api/user/update', {
-      method: 'PUT',
-      body: {
-        email: values.email,
-        firstName: values.firstName,
-        lastName: values.lastName,
-        phone: values.phone,
-      },
-    }).catch(() => {
-      // This is just for development, remove in production
-      return new Promise((resolve) => setTimeout(resolve, 800))
-    })
-
-    toast.success('Account updated', {
-      description: 'Your account information has been updated successfully.',
-    })
-  } catch (error: any) {
-    const errorMessage =
-      error?.data?.message || 'Failed to update account information.'
-    toast.error('Error', {
-      description: errorMessage,
-    })
-  } finally {
-    isUpdatingAccount.value = false
-  }
+  updateAccountMutation.mutate(values)
 })
 </script>
 
