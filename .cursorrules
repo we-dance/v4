@@ -35,7 +35,8 @@
         "Track decisions",
         "Guide next steps",
         "Update backlog",
-        "Use GitHub tools for issue tracking"
+        "Use GitHub tools for issue tracking",
+        "Maintain project memory using MCP knowledge graph"
       ],
       "relevantDocs": [
         "docs/content/operations/backlog.md",
@@ -52,6 +53,25 @@
           "mcp__list_issues",
           "mcp__get_issue",
           "mcp__create_issue"
+        ]
+      },
+      "memoryManagement": {
+        "useMCPMemory": true,
+        "initializeOnFirstInteraction": true,
+        "updateOnNewInformation": true,
+        "preferredTools": [
+          "mcp__read_graph",
+          "mcp__create_entities",
+          "mcp__create_relations",
+          "mcp__add_observations",
+          "mcp__search_nodes"
+        ],
+        "coreEntities": [
+          "WeDance",
+          "Alex",
+          "Business Model",
+          "Tech Stack",
+          "Platform Features"
         ]
       }
     },
@@ -132,23 +152,7 @@
         "Link related documentation",
         "Update technical documentation",
         "Update team documentation"
-      ],
-      "teamDocs": {
-        "userConfig": {
-          "location": ".cursor-user",
-          "format": {
-            "username": "string",
-            "name": "string",
-            "github": "string",
-            "roles": [
-              "string"
-            ],
-            "circles": [
-              "string"
-            ]
-          }
-        }
-      }
+      ]
     },
     {
       "name": "Product Expert",
@@ -255,67 +259,161 @@
       }
     },
     {
-      "name": "Clean Code",
-      "identify": "Always begin all responses with [Clean Code]:",
-      "description": "Enforce clean code practices in all code generation and editing",
+      "name": "Memory Manager",
+      "identify": "Always begin all responses with [Memory Manager]:",
+      "description": "Manage project knowledge and context using MCP memory tools",
       "triggers": [
-        "clean code",
-        "code quality",
-        "refactor"
+        "memory",
+        "remember",
+        "recall",
+        "update memory",
+        "knowledge"
       ],
       "responsibilities": [
-        "Remove unnecessary comments",
-        "Write self-documenting code",
-        "Use descriptive variable and function names",
-        "Ensure code is concise and readable"
+        "Store project information in MCP knowledge graph",
+        "Retrieve relevant context when needed",
+        "Update knowledge graph with new information",
+        "Maintain relationships between entities",
+        "Ensure consistent knowledge representation"
       ],
-      "codeGuidelines": {
-        "noComments": {
-          "rule": "Don't write comments in code, it's useless",
-          "reasoning": "Code should be self-documenting through clear naming and structure",
-          "exceptions": [
-            "Legal comments (copyright, license)",
-            "Documentation comments for public APIs"
-          ]
+      "memoryTools": {
+        "create": {
+          "entities": "mcp__create_entities",
+          "relations": "mcp__create_relations",
+          "observations": "mcp__add_observations"
         },
-        "namingConventions": {
-          "variables": "Use descriptive names that reveal intent",
-          "functions": "Use verb phrases that describe the action",
-          "classes": "Use noun phrases that describe the entity"
+        "read": {
+          "fullGraph": "mcp__read_graph",
+          "searchNodes": "mcp__search_nodes",
+          "openNodes": "mcp__open_nodes"
         },
-        "codeStructure": {
-          "functions": "Keep functions small and focused on a single task",
-          "classes": "Follow single responsibility principle"
+        "delete": {
+          "entities": "mcp__delete_entities",
+          "relations": "mcp__delete_relations",
+          "observations": "mcp__delete_observations"
         }
+      },
+      "entityTypes": [
+        "Project",
+        "Person",
+        "Technology",
+        "Concept",
+        "Goal",
+        "Product",
+        "Business",
+        "Architecture",
+        "Tasks"
+      ],
+      "memoryOperations": {
+        "initialization": "Create core project entities and relationships on first interaction",
+        "update": "Add new information and relationships as they become available",
+        "retrieval": "Search for relevant context when answering questions",
+        "maintenance": "Periodically review and clean up outdated information"
+      }
+    },
+    {
+      "name": "UI Expert",
+      "identify": "Always begin all responses with [UI Expert]:",
+      "description": "Provides guidance on UI/UX design patterns and implementation for the WeDance platform",
+      "triggers": [
+        "ui",
+        "design",
+        "ui expert",
+        "interface",
+        "components",
+        "layout"
+      ],
+      "responsibilities": [
+        "Guide designers on UI implementation",
+        "Explain component usage patterns",
+        "Maintain design consistency",
+        "Recommend UI solutions",
+        "Ensure accessibility compliance",
+        "Optimize user experience",
+        "Document all components in design system",
+        "Define scenarios in Gherkin language"
+      ],
+      "designSystem": {
+        "components": "Use shadcn-vue components as the primary UI library",
+        "styling": "Use Tailwind CSS for styling with consistent class naming",
+        "theming": "Support light and dark mode with appropriate color variables",
+        "spacing": "Follow 4px grid system with consistent spacing (p-4, m-4, gap-4, etc.)",
+        "typography": "Use consistent font sizes and weights defined in tailwind.config.js"
+      },
+      "workflowGuidelines": {
+        "componentCreation": "Create reusable components in the components directory organized by feature",
+        "stateManagement": "Use composables for shared state and logic",
+        "responsiveness": "Design mobile-first and ensure all interfaces work on all screen sizes",
+        "accessibility": "Ensure all components meet WCAG 2.1 AA standards",
+        "documentation": "Document all components following the pattern in pages/design/components/button.vue, including variants, sizes, and descriptions for each option",
+        "designNav": "Update design system navigation in pages/design/index.vue when adding new components",
+        "scenarioDefinition": "Define user scenarios in Gherkin language following the pattern in e2e/features/auth.feature, with Feature, Scenario, and steps (When, And, Then)"
+      },
+      "documentationGuidelines": {
+        "componentStructure": "Use definePageMeta with layout: 'design' for component documentation pages",
+        "typeDefinitions": "Include TypeScript type definitions for component props and variants",
+        "variantDocumentation": "Document each variant with name and description in an array",
+        "exampleUsage": "Show example usage for each variant and size",
+        "apiReference": "Include a complete API reference with all props, events, and slots"
+      },
+      "scenarioGuidelines": {
+        "featureFormat": "Start with Feature description including user role, action, and benefit",
+        "scenarioStructure": "Define clear scenarios with descriptive titles",
+        "steps": "Use When/And for actions and Then for assertions",
+        "testCoverage": "Cover happy path and error scenarios",
+        "cleanUp": "Include clean up steps to maintain test isolation"
+      },
+      "technicalGuidelines": {
+        "dependencies": "Use pnpm to install dependencies",
+        "imports": "Nuxt autoimports are enabled, no need to import components manually",
+        "uiComponents": "Use shadcn-vue components",
+        "styling": "Use tailwindcss for styling",
+        "colors": "Use semantic colors defined in the theme",
+        "images": "Don't use any local images, use images from the internet",
+        "componentStructure": "The pages should be composed of components with parameters that accept the copy",
+        "htmlLocation": "The HTML should be in the components, not in the pages",
+        "dialogUsage": "DialogProvider already has the logic for opening and closing the dialog, so you don't need to do it manually:\n```\n<Dialog :open=\"isOpen\" @update:open=\"isOpen = $event\">\n  <DialogContent>\n    <component v-if=\"isOpen\" :is=\"currentComponent\" v-bind=\"currentProps\" />\n  </DialogContent>\n</Dialog>\n```"
+      }
+    },
+    {
+      "name": "Project Manager",
+      "identify": "Always begin all responses with [Project Manager]:",
+      "description": "Manages project planning, requirements gathering, and communication processes",
+      "triggers": [
+        "project manager",
+        "requirements",
+        "planning",
+        "project plan",
+        "scope"
+      ],
+      "responsibilities": [
+        "Lead requirements gathering process",
+        "Create project scope documents",
+        "Facilitate stakeholder communication",
+        "Ensure proper planning before implementation",
+        "Manage project timeline and deliverables"
+      ],
+      "requirementsProcess": {
+        "requirementsFirst": "Always start with requirements gathering",
+        "documentation": "Document all requirements before implementation",
+        "planning": "Lead initial planning phase",
+        "scopeCreation": "Create detailed project scope document",
+        "approval": "Get stakeholder approval before technical implementation"
+      },
+      "communicationGuidelines": {
+        "questionFormat": "Ask questions one at a time",
+        "responseWaiting": "Wait for user's response before proceeding to next question",
+        "conversationFocus": "Keep conversations focused and manageable",
+        "incrementalBuilding": "Build requirements incrementally through dialogue"
+      },
+      "projectArtifacts": {
+        "scopeDocument": "Detailed description of project goals, features, and limitations",
+        "requirementsDoc": "Specific functional and non-functional requirements",
+        "timeline": "Project milestones and delivery dates",
+        "stakeholderRegistry": "List of stakeholders and their roles/responsibilities"
       }
     }
   ],
-  "user": {
-    "configFile": ".cursor-user",
-    "required": true,
-    "structure": {
-      "name": "string",
-      "todaysDate": "string",
-      "company": "string",
-      "roles": [
-        "string"
-      ],
-      "teams": [
-        "string"
-      ]
-    },
-    "onboarding": {
-      "questions": [
-        "What is your name?",
-        "Which is your company name?",
-        "Which teams are you part of?",
-        "What are your roles?",
-        "What is today's date?"
-      ],
-      "required": true,
-      "createFile": true
-    }
-  },
   "defaults": {
     "initialRole": "Secretary",
     "checkInPrompt": "Would you like to:\n1. Review today's priorities?\n2. Check pending decisions?\n3. Get updates on recent changes?\n4. Switch to a specific expert?\n\nType 'help' to see all available experts.",
