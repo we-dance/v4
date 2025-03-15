@@ -7,6 +7,9 @@ import { profileSchema, type Profile } from '~/schemas/profile'
 
 const { data } = useAppAuth()
 
+// Add debugging logs
+console.log('Component initialized')
+
 const form = useForm({
   validationSchema: toTypedSchema(profileSchema),
   initialValues: data.value?.profile,
@@ -14,22 +17,14 @@ const form = useForm({
 
 const { $client } = useNuxtApp()
 
-onMounted(() => {
-  console.log('mounted')
-  console.log('profile', data.value?.profile)
-})
-
 const updateProfileMutation = useMutation(
   async (values: Profile) => {
-    console.log('updating profile 1', values)
-
     const profileId = data.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')
     }
 
-    console.log('updating profile 2', profileId, values)
     return await $client.profiles.update.mutate({
       id: profileId,
       data: values,
@@ -54,13 +49,16 @@ const updateProfileMutation = useMutation(
 const isUpdatingProfile = computed(() => updateProfileMutation.isLoading.value)
 
 const canSubmit = computed(() => {
-  return form.meta.value.dirty && !isUpdatingProfile.value
+  const isDirty = form.meta.value.dirty
+  const isLoading = isUpdatingProfile.value
+
+  return isDirty && !isLoading
 })
 
-const onSubmit = form.handleSubmit(async (values) => {
-  console.log('onSubmit', values)
-  updateProfileMutation.mutate(values)
-})
+function onSubmit(e: Event) {
+  e.preventDefault()
+  updateProfileMutation.mutate(form.values as Profile)
+}
 </script>
 
 <template>
@@ -144,7 +142,7 @@ const onSubmit = form.handleSubmit(async (values) => {
         </FormItem>
       </FormField>
 
-      <div class="flex justify-start pt-4">
+      <div class="flex justify-start pt-4 gap-2">
         <Button
           type="submit"
           :disabled="!canSubmit"
