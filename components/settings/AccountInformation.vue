@@ -62,45 +62,44 @@ const onSubmit = form.handleSubmit(async (values) => {
     </h2>
 
     <form @submit.prevent="onSubmit" class="space-y-4">
-      <!-- First Name -->
-      <FormField v-slot="{ componentField }" name="firstName">
-        <FormItem>
-          <FormLabel class="flex items-center gap-1">
-            First Name
-            <span class="text-destructive">*</span>
-          </FormLabel>
-          <FormControl>
-            <Input
-              v-bind="componentField"
-              type="text"
-              placeholder="Your first name"
-              class="max-w-md"
-            />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+      <div class="grid grid-cols-2 gap-4">
+        <FormField v-slot="{ componentField }" name="firstName">
+          <FormItem>
+            <FormLabel class="flex items-center gap-1">
+              First Name
+              <span class="text-destructive">*</span>
+            </FormLabel>
+            <FormControl>
+              <Input
+                v-bind="componentField"
+                type="text"
+                placeholder="Your first name"
+                class="max-w-md"
+              />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        </FormField>
 
-      <!-- Last Name -->
-      <FormField v-slot="{ componentField }" name="lastName">
-        <FormItem>
-          <FormLabel class="flex items-center gap-1">
-            Last Name
-            <span class="text-destructive">*</span>
-          </FormLabel>
-          <FormControl>
-            <Input
-              v-bind="componentField"
-              type="text"
-              placeholder="Your last name"
-              class="max-w-md"
-            />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+        <FormField v-slot="{ componentField }" name="lastName">
+          <FormItem>
+            <FormLabel class="flex items-center gap-1">
+              Last Name
+              <span class="text-destructive">*</span>
+            </FormLabel>
+            <FormControl>
+              <Input
+                v-bind="componentField"
+                type="text"
+                placeholder="Your last name"
+                class="max-w-md"
+              />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        </FormField>
+      </div>
 
-      <!-- Email -->
       <FormField v-slot="{ componentField }" name="email">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
@@ -125,7 +124,6 @@ const onSubmit = form.handleSubmit(async (values) => {
         </FormItem>
       </FormField>
 
-      <!-- Phone -->
       <FormField v-slot="{ componentField }" name="phone">
         <FormItem>
           <FormLabel class="flex items-center gap-1">
@@ -144,7 +142,6 @@ const onSubmit = form.handleSubmit(async (values) => {
         </FormItem>
       </FormField>
 
-      <!-- Save Account Changes -->
       <div class="flex justify-start pt-4">
         <Button
           type="submit"
