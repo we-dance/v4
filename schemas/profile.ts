@@ -4,15 +4,23 @@ export const generateUniqueUsername = () => `u${Date.now()}`
 export const noMultiplePeriods = (value: string) => !value.includes('..')
 export const notEndingInPeriod = (value: string) => !value.endsWith('.')
 
-export const usernameValidator = async (username: string) => {
-  const { $client } = useNuxtApp()
-  const result = await $client.profiles.get.query({ username })
+const usernameValidationCache = new Map<string, boolean>()
 
-  if (!result) {
-    return true
+export const usernameValidator = async (username: string) => {
+  if (!username || username.length < 2) return true
+
+  if (usernameValidationCache.has(username)) {
+    return usernameValidationCache.get(username)
   }
 
-  return false
+  const { $client } = useNuxtApp()
+  const isAvailable = await $client.profiles.isUsernameAvailable.query({
+    username,
+  })
+
+  usernameValidationCache.set(username, isAvailable)
+
+  return isAvailable
 }
 
 export const usernameSchema = z
@@ -25,9 +33,9 @@ export const usernameSchema = z
 
 // Base profile schema
 export const profileSchema = z.object({
-  id: z.string(),
+  id: z.string().optional(),
   name: z.string(),
-  photo: z.string().url().optional(),
+  photo: z.string().url().nullable().default(null),
   username: usernameSchema,
   email: z.string().email(),
   points: z.number().default(0),

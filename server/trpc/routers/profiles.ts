@@ -1,6 +1,7 @@
 import { z } from 'zod'
 import { publicProcedure, router } from '../trpc'
 import { prisma } from '~/server/prisma'
+import { getServerSession } from '#auth'
 
 export const profilesRouter = router({
   search: publicProcedure
@@ -36,6 +37,27 @@ export const profilesRouter = router({
         },
         take: 5,
       })
+    }),
+  isUsernameAvailable: publicProcedure
+    .input(z.object({ username: z.string() }))
+    .query(async ({ input, ctx }) => {
+      const { username } = input
+
+      const session = await getServerSession(ctx.event)
+
+      const profile = await prisma.profile.findFirst({
+        where: {
+          username: {
+            equals: username,
+            mode: 'insensitive',
+          },
+          id: {
+            not: session?.profile?.id,
+          },
+        },
+      })
+
+      return !profile
     }),
   get: publicProcedure
     .input(z.object({ username: z.string() }))
