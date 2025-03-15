@@ -1,22 +1,34 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
+import { z } from 'zod'
+import { toTypedSchema } from '@vee-validate/zod'
+import { useForm } from 'vee-validate'
 
 const props = defineProps<{
   initialEmail: string
 }>()
 
-// Form state
-const accountForm = ref({
-  email: props.initialEmail || '',
+// Define validation schema
+const accountSchema = z.object({
+  email: z
+    .string()
+    .email('Please enter a valid email address')
+    .min(1, 'Email is required'),
+})
+
+// Setup form with validation
+const form = useForm({
+  validationSchema: toTypedSchema(accountSchema),
+  initialValues: {
+    email: props.initialEmail || '',
+  },
 })
 
 // UI state
 const isUpdatingAccount = ref(false)
 
-// Methods
-async function updateAccount() {
-  if (!accountForm.value.email) return
-
+// Form submission handler
+const onSubmit = form.handleSubmit(async (values) => {
   isUpdatingAccount.value = true
 
   try {
@@ -24,7 +36,7 @@ async function updateAccount() {
     await $fetch('/api/user/update', {
       method: 'PUT',
       body: {
-        email: accountForm.value.email,
+        email: values.email,
       },
     }).catch(() => {
       // This is just for development, remove in production
@@ -43,7 +55,7 @@ async function updateAccount() {
   } finally {
     isUpdatingAccount.value = false
   }
-}
+})
 </script>
 
 <template>
@@ -53,37 +65,40 @@ async function updateAccount() {
       Account Information
     </h2>
 
-    <form @submit.prevent="updateAccount" class="space-y-4">
+    <form @submit.prevent="onSubmit" class="space-y-4">
       <!-- Email -->
-      <div>
-        <Label for="email" class="flex items-center gap-1">
-          Email
-          <span class="text-destructive">*</span>
-        </Label>
-        <div class="flex items-center gap-2">
-          <Input
-            id="email"
-            v-model="accountForm.email"
-            type="email"
-            placeholder="Your email address"
-            class="max-w-md"
-            required
-            aria-describedby="email-description"
-          />
-          <div v-if="isUpdatingAccount" class="animate-spin">
-            <Icon name="heroicons:arrow-path" class="w-5 h-5" />
+      <FormField v-slot="{ componentField, errorMessage, value }" name="email">
+        <FormItem>
+          <FormLabel class="flex items-center gap-1">
+            Email
+            <span class="text-destructive">*</span>
+          </FormLabel>
+          <div class="flex items-center gap-2">
+            <FormControl>
+              <Input
+                v-bind="componentField"
+                type="email"
+                placeholder="Your email address"
+                class="max-w-md"
+                aria-describedby="email-description"
+              />
+            </FormControl>
+            <div v-if="isUpdatingAccount" class="animate-spin">
+              <Icon name="heroicons:arrow-path" class="w-5 h-5" />
+            </div>
           </div>
-        </div>
-        <p id="email-description" class="text-sm text-muted-foreground mt-1">
-          This email is used for account notifications and recovery
-        </p>
-      </div>
+          <FormDescription id="email-description">
+            This email is used for account notifications and recovery
+          </FormDescription>
+          <FormMessage />
+        </FormItem>
+      </FormField>
 
       <!-- Save Account Changes -->
       <div class="flex justify-end pt-4">
         <Button
           type="submit"
-          :disabled="!accountForm.email || isUpdatingAccount"
+          :disabled="!form.meta.valid || isUpdatingAccount"
           class="flex items-center gap-2"
         >
           <Icon name="heroicons:check" class="w-4 h-4" />
