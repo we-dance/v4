@@ -1,12 +1,39 @@
 import { z } from 'zod'
 
+export const generateUniqueUsername = () => `u${Date.now()}`
+export const noMultiplePeriods = (value: string) => !value.includes('..')
+export const notEndingInPeriod = (value: string) => !value.endsWith('.')
+
+export const usernameValidator = async (username: string) => {
+  const { $client } = useNuxtApp()
+  const result = await $client.profiles.get.query({ username })
+
+  if (!result) {
+    return true
+  }
+
+  return false
+}
+
+export const usernameSchema = z
+  .string()
+  .min(2, 'Username must be at least 2 characters.')
+  .max(30)
+  .refine(noMultiplePeriods, 'Username cannot have multiple periods in a row.')
+  .refine(notEndingInPeriod, 'Username cannot end in a period.')
+  .refine(usernameValidator, 'Username is already taken.')
+
 // Base profile schema
 export const profileSchema = z.object({
   id: z.string(),
   name: z.string(),
+  photo: z.string().url().optional(),
+  username: usernameSchema,
   email: z.string().email(),
   points: z.number().default(0),
-  type: z.enum(['dancer', 'artist', 'organizer', 'venue', 'community']),
+  type: z
+    .enum(['dancer', 'artist', 'organizer', 'venue', 'community'])
+    .default('dancer'),
   roles: z.array(z.string()).default([]),
   location: z.string().optional(),
   bio: z.string().optional(),

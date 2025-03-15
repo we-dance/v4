@@ -4,7 +4,8 @@ import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import { registerSchema, generateUniqueUsername } from '~/schemas/user'
+import { registerSchema } from '~/schemas/user'
+import { generateUniqueUsername } from '~/schemas/profile'
 
 const prisma = new PrismaClient()
 
@@ -57,13 +58,7 @@ export default NuxtAuthHandler({
           lastName: user.lastName,
           phone: user.phone,
         },
-        profile: {
-          id: profile?.id,
-          username: profile?.username,
-          name: profile?.name || profile?.username,
-          cityId: profile?.cityId,
-          photo: profile?.photo,
-        },
+        profile,
       })
     },
   },
@@ -167,7 +162,7 @@ export default NuxtAuthHandler({
             data: {
               username: username,
               name: username,
-              type: 'Dancer',
+              type: 'dancer',
               claimed: true,
               user: {
                 connect: {

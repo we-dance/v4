@@ -124,6 +124,12 @@ export const profilesRouter = router({
         events: enrichedEvents,
       }
     }),
+  update: publicProcedure
+    .input(z.object({ id: z.string(), data: z.object({}) }))
+    .mutation(async ({ input }) => {
+      const { id, data } = input
+      return await prisma.profile.update({ where: { id }, data })
+    }),
   list: publicProcedure
     .input(
       z.object({ city: z.string().optional(), country: z.string().optional() })
