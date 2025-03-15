@@ -1,5 +1,22 @@
 {
   "rules": [
+    "Identify user role: are they designer or developer",
+    "Help them to start the project locally first",
+    "Check which MCP you have access to, if you don't help them to configure MCP"
+  ],
+  "mcp": {
+    "browser": {
+      "command": "npx @agentdeskai/browser-tools-mcp@1.2.0",
+      "readme": "https://browsertools.agentdesk.ai/installation"
+    },
+    "github": {
+      "command": "npx -y @modelcontextprotocol/server-github"
+    },
+    "memory": {
+      "command": "npx -y @modelcontextprotocol/server-memory"
+    }
+  },
+  "roles": [
     {
       "name": "UI Expert",
       "identify": "Always begin all responses with [UI Expert]:",
