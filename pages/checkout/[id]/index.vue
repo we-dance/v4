@@ -6,8 +6,13 @@ import type { AnyEvent, Price } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { useRegistration } from '~/composables/useRegistration'
+import StripePaymentDialog from '~/components/dialog/StripePaymentDialog.vue'
 const { mockUsers } = useRegistration()
 const { updateLessonUnlockStatus } = useCourseProgress()
+
+const config = useRuntimeConfig()
+const stripePricingTableId = config.public.stripePricingTableId
+const stripePublishableKey = config.public.stripePublishableKey
 
 interface CoursePrice {
   amount: number
@@ -81,6 +86,9 @@ interface CheckoutItem {
 
 const route = useRoute()
 const type = route.query.type || 'event'
+
+const stripeDialog = ref(false)
+const stripeUrl = ref<string>('')
 
 // Get item details based on type
 const item = computed<CheckoutItem | null>(() => {
@@ -328,12 +336,13 @@ const handleSubmit = async () => {
       })
       // Need to receive an object {usl: accountLink.url} from backend as stripe link
       // After POST req, get link from response
-      const mockStripeLink = `https://stripe.com/account/account-links/${uid}`
-
-
+      const mockStripeLink = `https://js.stripe.com/v3/pricing-table.js`
+      stripeUrl.value = mockStripeLink
+      stripeDialog.value = true
+      console.log('Stripe dialog opened')
       // Here you would integrate with your payment provider
       // For now, we'll simulate a successful booking
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      await new Promise((resolve) => setTimeout(resolve, 10000))
       // change lesson status to locked: true
       // item.value.id === course.identifier
       const result = await updateLessonUnlockStatus(item.value.id, false)
@@ -348,6 +357,13 @@ const handleSubmit = async () => {
   } catch (e) {
     console.error('Checkout failed:', e)
   }
+}
+
+// Handle stripe dialog close
+const handleStripeDialogClose = () => {
+  console.log('Stripe dialog closed')
+  stripeDialog.value = false
+  stripeUrl.value = ''
 }
 
 // Add at the top of the script
@@ -597,4 +613,11 @@ const isEventItem = (
       </Button>
     </div>
   </div>
+  <!-- Stripe popup -->
+  <StripePaymentDialog
+    :is-open="stripeDialog"
+    :pricing-table-id="stripePricingTableId"
+    :publishable-key="stripePublishableKey"
+    @close="handleStripeDialogClose"
+  />
 </template>
