@@ -19,6 +19,7 @@ const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
 
+// check url change and update course status
 watchEffect(async () => {
   if (
     typeOfInstance.value !== 'course' ||
@@ -74,6 +75,7 @@ watchEffect(async () => {
 
 =======
     console.log('check status:', courseId)
+    // once redirect to this page, update course status to locked: false
     const result = await updateLessonUnlockStatus(courseId, false)
 >>>>>>> 8f4e352f (Finish procedure with static payment page):pages/checkout/[id]/success.vue
     if (result) {
