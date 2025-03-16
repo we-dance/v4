@@ -17,6 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: TODO to Issue
+        uses: alstr/todo-to-issue-action@v5.1.10
+
       - uses: actions/checkout@v4
       - run: npm i -g corepack@latest && corepack enable
       - uses: actions/setup-node@v4
