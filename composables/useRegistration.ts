@@ -41,10 +41,7 @@ export const useRegistration = () => {
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 500))
       // modify mockUsers to object (include uid)
-      return mockUsers.some(
-        (user: { email: string }) =>
-          user.email.toLowerCase() === email.toLowerCase()
-      )
+      return mockUsers.some((user: { email: string }) => user.email.toLowerCase() === email.toLowerCase())
     } catch (e) {
       error.value = 'Could not verify email. Please try again.'
       return false
@@ -58,10 +55,7 @@ export const useRegistration = () => {
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
       // Store user data (replace with actual API call)
-      mockUsers.push({
-        email: data.email.toLowerCase(),
-        uid: `${mockUsers.length + 1}`,
-      })
+      mockUsers.push({ email: data.email.toLowerCase(), uid: `${mockUsers.length + 1}` })
 
       return true
     } catch (e) {
@@ -99,6 +93,6 @@ export const useRegistration = () => {
     checkEmail,
     createAccount,
     login,
-    mockUsers,
+    mockUsers
   }
 }
