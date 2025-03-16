@@ -11,6 +11,7 @@ interface EmptyStateContent {
 
 type Variant =
   | 'profile-not-found'
+  | 'no-posts'
   | 'no-results'
   | 'no-reviews'
   | 'no-media'
@@ -27,6 +28,11 @@ const variants: Record<Variant, EmptyStateContent> = {
       label: 'Browse Artists',
       to: '/artists',
     },
+  },
+  'no-posts': {
+    icon: 'ph:note',
+    title: 'No Posts Yet',
+    description: 'Get started by creating a new post.',
   },
   'no-results': {
     icon: 'ph:magnifying-glass',
