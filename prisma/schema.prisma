@@ -162,6 +162,7 @@ model Profile {
   daysUsed         Int? // Number of days used
   pwaUsed          Boolean? // PWA usage
   oldCities        Json? // Old cities structure
+  privacySettings  Json? // Privacy settings
 
   userId             String?           @unique
   user               User?             @relation("owned_by", fields: [userId], references: [id])

@@ -2,9 +2,9 @@ import { z } from 'zod'
 import { publicProcedure, router } from '../trpc'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
-import { profileSchema } from '~/schemas/profile'
+import { privacySettingsSchema } from '~/schemas/profile'
 
-// Define a simple update schema that matches Prisma's expectations
+// todo: move to profile schema
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
   name: z.string().optional(),
@@ -166,6 +166,18 @@ export const profilesRouter = router({
     .mutation(async ({ input }) => {
       const { id, data } = input
       return await prisma.profile.update({ where: { id }, data })
+    }),
+  updatePrivacySettings: publicProcedure
+    .input(z.object({ id: z.string(), data: privacySettingsSchema }))
+    .mutation(async ({ input }) => {
+      const { id, data } = input
+      console.log('trpc.profiles.updatePrivacySettings', data)
+      return await prisma.profile.update({
+        where: { id },
+        data: {
+          privacySettings: data,
+        },
+      })
     }),
   list: publicProcedure
     .input(

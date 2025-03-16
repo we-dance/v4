@@ -4,10 +4,7 @@ import { prisma } from '~/server/prisma'
 import { userSchema } from '~/schemas/user'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { getServerSession } from '#auth'
-import {
-  notificationSettingsSchema,
-  privacySettingsSchema,
-} from '~/schemas/user'
+import { notificationSettingsSchema } from '~/schemas/user'
 // Firebase parameters for password hashing
 const firebaseParameters = {
   memCost: 14,
@@ -45,7 +42,7 @@ export const usersRouter = router({
     .mutation(async ({ input }) => {
       const { id, data } = input
 
-      console.log('update notification settings', data)
+      console.log('trpc.users.updateNotificationSettings', data)
 
       return await prisma.user.update({
         where: {
@@ -53,26 +50,6 @@ export const usersRouter = router({
         },
         data: {
           notificationSettings: data,
-        },
-      })
-    }),
-
-  updatePrivacySettings: publicProcedure
-    .input(
-      z.object({
-        id: z.string(),
-        data: privacySettingsSchema,
-      })
-    )
-    .mutation(async ({ input }) => {
-      const { id, data } = input
-
-      return await prisma.user.update({
-        where: {
-          id,
-        },
-        data: {
-          privacySettings: data,
         },
       })
     }),

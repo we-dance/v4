@@ -227,6 +227,26 @@ export const communityProfileSchema = profileSchema.extend({
     .optional(),
 })
 
+export const privacySettingsSchema = z.object({
+  profileVisibility: z.enum(['public', 'members', 'connections']),
+  allowMessages: z.boolean().optional().default(false),
+  showEmail: z.boolean().optional().default(false),
+  showPhone: z.boolean().optional().default(false),
+  showOnlineStatus: z.boolean().optional().default(false),
+  showEventAttendance: z.boolean().optional().default(false),
+})
+
+export type PrivacySettings = z.infer<typeof privacySettingsSchema>
+
+export const defaultPrivacySettings: PrivacySettings = {
+  profileVisibility: 'public',
+  allowMessages: true,
+  showEmail: false,
+  showPhone: false,
+  showOnlineStatus: true,
+  showEventAttendance: true,
+}
+
 export type DancerProfile = z.infer<typeof dancerProfileSchema>
 export type ArtistProfile = z.infer<typeof artistProfileSchema>
 export type OrganizerProfile = z.infer<typeof organizerProfileSchema>

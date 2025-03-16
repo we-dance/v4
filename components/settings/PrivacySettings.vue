@@ -1,72 +1,61 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
-import { privacySettingsSchema, type PrivacySettings } from '~/schemas/user'
+import { privacySettingsSchema, type PrivacySettings } from '~/schemas/profile'
+import { useMutation } from 'vue-query'
 
 const { data } = useAppAuth()
 
-// Default privacy settings
-const defaultPrivacySettings: PrivacySettings = {
-  profileVisibility: 'public',
-  contactPreferences: {
-    allowMessages: true,
-    showEmail: false,
-    showPhone: false,
-  },
-  activityVisibility: {
-    showOnlineStatus: true,
-    showEventAttendance: true,
-  },
-  dataUsage: {
-    allowAnalytics: true,
-    allowPersonalization: true,
-  },
-}
-
-// Get user's privacy settings or use defaults
-const userPrivacySettings = computed(() => {
-  // Since privacySettings is not yet in the database schema, we'll use defaults
-  // When the database schema is updated, this can be replaced with actual data
-  return defaultPrivacySettings
-})
-
 const form = useForm({
   validationSchema: toTypedSchema(privacySettingsSchema),
-  initialValues: userPrivacySettings.value,
+  initialValues: privacySettingsSchema.safeParse(
+    data.value?.profile?.privacySettings
+  ).data,
 })
 
-const privacySettings = computed(() => form.values as PrivacySettings)
+const { $client } = useNuxtApp()
 
-const isUpdating = ref(false)
+const updatePrivacySettingsMutation = useMutation(
+  async (values: PrivacySettings) => {
+    const profileId = data.value?.profile?.id
 
-const savePrivacySettings = async () => {
-  isUpdating.value = true
+    if (!profileId) {
+      throw new Error('User not authenticated')
+    }
 
-  try {
-    // TODO: When API is ready, uncomment this code
-    // const { $client } = useNuxtApp()
-    // await $client.users.updatePrivacySettings.mutate({
-    //   id: data.value?.user?.id,
-    //   data: privacySettings.value,
-    // })
-
-    // For now, just show success message
-    await new Promise((resolve) => setTimeout(resolve, 500))
-
-    toast.success('Privacy settings updated', {
-      description: 'Your privacy preferences have been saved successfully.',
+    return await $client.profiles.updatePrivacySettings.mutate({
+      id: profileId,
+      data: values,
     })
-  } catch (error: any) {
-    const errorMessage = error?.message || 'Failed to update privacy settings.'
-    toast.error('Error', {
-      description: errorMessage,
-    })
-  } finally {
-    isUpdating.value = false
+  },
+  {
+    onSuccess: () => {
+      toast.success('Privacy settings updated', {
+        description: 'Your privacy preferences have been saved successfully.',
+      })
+    },
+    onError: (error: any) => {
+      const errorMessage =
+        error?.message || 'Failed to update privacy settings.'
+      toast.error('Error', {
+        description: errorMessage,
+      })
+    },
   }
-}
+)
+
+const isUpdating = computed(() => updatePrivacySettingsMutation.isLoading.value)
+
+const canSubmit = computed(() => {
+  return form.meta.value.dirty && !isUpdating.value
+})
+
+const onSubmit = form.handleSubmit(async (values) => {
+  console.log('onSubmit', values)
+  updatePrivacySettingsMutation.mutate(values)
+})
 </script>
 
 <template>
@@ -76,7 +65,7 @@ const savePrivacySettings = async () => {
       Privacy Settings
     </h2>
 
-    <form @submit.prevent="savePrivacySettings" class="space-y-5">
+    <form @submit.prevent="onSubmit" class="space-y-5">
       <!-- Profile Visibility -->
       <div>
         <h3 class="text-lg font-medium">Profile Visibility</h3>
@@ -145,10 +134,7 @@ const savePrivacySettings = async () => {
         </p>
 
         <div class="space-y-2 border rounded-md p-3">
-          <FormField
-            v-slot="{ value, handleChange }"
-            name="contactPreferences.allowMessages"
-          >
+          <FormField v-slot="{ value, handleChange }" name="allowMessages">
             <FormItem class="flex flex-row items-start space-y-0 gap-x-3 py-1">
               <FormControl>
                 <Switch :checked="value" @update:checked="handleChange" />
@@ -162,10 +148,7 @@ const savePrivacySettings = async () => {
             </FormItem>
           </FormField>
 
-          <FormField
-            v-slot="{ value, handleChange }"
-            name="contactPreferences.showEmail"
-          >
+          <FormField v-slot="{ value, handleChange }" name="showEmail">
             <FormItem class="flex flex-row items-start space-y-0 gap-x-3 py-1">
               <FormControl>
                 <Switch :checked="value" @update:checked="handleChange" />
@@ -179,10 +162,7 @@ const savePrivacySettings = async () => {
             </FormItem>
           </FormField>
 
-          <FormField
-            v-slot="{ value, handleChange }"
-            name="contactPreferences.showPhone"
-          >
+          <FormField v-slot="{ value, handleChange }" name="showPhone">
             <FormItem class="flex flex-row items-start space-y-0 gap-x-3 py-1">
               <FormControl>
                 <Switch :checked="value" @update:checked="handleChange" />
@@ -207,10 +187,7 @@ const savePrivacySettings = async () => {
         </p>
 
         <div class="space-y-2 border rounded-md p-3">
-          <FormField
-            v-slot="{ value, handleChange }"
-            name="activityVisibility.showOnlineStatus"
-          >
+          <FormField v-slot="{ value, handleChange }" name="showOnlineStatus">
             <FormItem class="flex flex-row items-start space-y-0 gap-x-3 py-1">
               <FormControl>
                 <Switch :checked="value" @update:checked="handleChange" />
@@ -226,7 +203,7 @@ const savePrivacySettings = async () => {
 
           <FormField
             v-slot="{ value, handleChange }"
-            name="activityVisibility.showEventAttendance"
+            name="showEventAttendance"
           >
             <FormItem class="flex flex-row items-start space-y-0 gap-x-3 py-1">
               <FormControl>
@@ -245,7 +222,7 @@ const savePrivacySettings = async () => {
 
       <!-- Save Button -->
       <div class="flex justify-end mt-4">
-        <Button type="submit" :disabled="isUpdating">
+        <Button type="submit" :disabled="!canSubmit">
           <Icon
             v-if="isUpdating"
             name="heroicons:arrow-path"
