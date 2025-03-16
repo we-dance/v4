@@ -48,6 +48,24 @@ export const notificationSettingsSchema = z.object({
   frequency: z.enum(['immediately', 'daily', 'weekly', 'never']),
 })
 
+export const privacySettingsSchema = z.object({
+  profileVisibility: z.enum(['public', 'members', 'connections']),
+  contactPreferences: z.object({
+    allowMessages: z.boolean(),
+    showEmail: z.boolean(),
+    showPhone: z.boolean(),
+  }),
+  activityVisibility: z.object({
+    showOnlineStatus: z.boolean(),
+    showEventAttendance: z.boolean(),
+  }),
+  dataUsage: z.object({
+    allowAnalytics: z.boolean(),
+    allowPersonalization: z.boolean(),
+  }),
+})
+
 export type User = z.infer<typeof userSchema>
 export type LoggedInUser = z.infer<typeof loggedInUserSchema>
 export type NotificationSettings = z.infer<typeof notificationSettingsSchema>
+export type PrivacySettings = z.infer<typeof privacySettingsSchema>
