@@ -88,6 +88,10 @@ const stripeDialog = ref(false)
 const stripeUrl = ref<string>('')
 const uid = ref<string>('')
 const orgId = ref<string>('')
+// different stripe display options
+const isInternalPayment = ref(true)
+const currentPricingTableId = ref<string>('')
+const currentPublishableKey = ref<string>('')
 
 
 // Get item details based on type
@@ -337,6 +341,7 @@ const handleSubmit = async () => {
         })
       })
       // Need to receive an object {usl: accountLink.url} from backend as stripe link
+      if (!isInternalPayment.value) {
       // After POST req(with backend), get link from response
       const stripeData = await handleStripeCheckout(uid.value, orgId.value)
       // For now, we'll simulate a successful booking
@@ -350,14 +355,13 @@ const handleSubmit = async () => {
       } else {
         console.error('Stripe payment URL not found')
       }
+      } else if(isInternalPayment.value){
+        stripeDialog.value = true
+        currentPricingTableId.value = pricingTableId.value
+        currentPublishableKey.value = publishableKey.value
+      }
+      // in success.vue:
       // change lesson status to locked: true
-      // item.value.id === course.identifier
-      // const result = await updateLessonUnlockStatus(item.value.id, false)
-      // if (result) {
-      //   console.log('Lesson status updated to locked: false')
-      // } else {
-      //   console.log('Failed to update lesson status')
-      // }
       // Redirect to success page
       // navigateTo(`/checkout/${item.value.id}/success`)
     }
@@ -367,11 +371,11 @@ const handleSubmit = async () => {
 }
 
 // Handle stripe dialog close
-// const handleStripeDialogClose = () => {
-//   console.log('Stripe dialog closed')
-//   stripeDialog.value = false
-//   stripeUrl.value = ''
-// }
+const handleStripeDialogClose = () => {
+  console.log('Stripe dialog closed')
+  stripeDialog.value = false
+  stripeUrl.value = ''
+}
 
 // Add at the top of the script
 const isEventItem = (
@@ -621,10 +625,11 @@ const isEventItem = (
     </div>
   </div>
   <!-- Stripe popup, internal payment -->
-  <!-- <StripePaymentDialog
+  <StripePaymentDialog
+    v-if="isInternalPayment"
     :is-open="stripeDialog"
-    :pricing-table-id="pricingTableId"
-    :publishable-key="publishableKey"
+    :pricing-table-id="currentPricingTableId"
+    :publishable-key="currentPublishableKey"
     @close="handleStripeDialogClose"
-  /> -->
+  />
 </template>
