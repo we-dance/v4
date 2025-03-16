@@ -23,11 +23,13 @@ const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
 
+// check url change and update course status
 watchEffect(async () => {
   const courseId = course.value?.identifier
   if (!courseId) return
   try {
     console.log('check status:', courseId)
+    // once redirect to this page, update course status to locked: false
     const result = await updateLessonUnlockStatus(courseId, false)
     if (result) {
       console.log('successfully updated')
