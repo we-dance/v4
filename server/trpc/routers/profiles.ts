@@ -164,7 +164,6 @@ export const profilesRouter = router({
       })
     )
     .mutation(async ({ input }) => {
-      console.log('trpc.profiles.update', input)
       const { id, data } = input
       return await prisma.profile.update({ where: { id }, data })
     }),
