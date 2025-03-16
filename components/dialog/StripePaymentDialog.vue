@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 
+// with given pricing table id and publishable key, render the stripe pricing table
+
 interface Props {
     isOpen: boolean
     pricingTableId: string
