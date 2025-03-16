@@ -11,9 +11,6 @@ export const loggedInUserSchema = userSchema.extend({
   userId: z.string(),
 })
 
-export type User = z.infer<typeof userSchema>
-export type LoggedInUser = z.infer<typeof loggedInUserSchema>
-
 const passwordRule = z
   .string()
   .min(8, 'Password must be at least 8 characters.')
@@ -35,3 +32,24 @@ export const passwordSchema = z
     message: 'Passwords do not match',
     path: ['confirmPassword'],
   })
+
+export const notificationSettingsSchema = z.object({
+  email: z.object({
+    events: z.boolean().default(true),
+    messages: z.boolean().default(true),
+    community: z.boolean().default(true),
+    marketing: z.boolean().default(false),
+  }),
+  push: z.object({
+    events: z.boolean().default(true),
+    messages: z.boolean().default(true),
+    mentions: z.boolean().default(true),
+  }),
+  frequency: z
+    .enum(['immediately', 'daily', 'weekly', 'never'])
+    .default('daily'),
+})
+
+export type User = z.infer<typeof userSchema>
+export type LoggedInUser = z.infer<typeof loggedInUserSchema>
+export type NotificationSettings = z.infer<typeof notificationSettingsSchema>

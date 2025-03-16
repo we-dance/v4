@@ -1,5 +1,4 @@
 import CredentialsProvider from 'next-auth/providers/credentials'
-import GoogleProvider from 'next-auth/providers/google'
 import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
@@ -51,23 +50,13 @@ export default NuxtAuthHandler({
 
       session.user.id = user.id
       return Promise.resolve({
-        user: {
-          id: user.id,
-          email: user.email,
-          firstName: user.firstName,
-          lastName: user.lastName,
-          phone: user.phone,
-        },
+        user,
         profile,
+        expires: session.expires,
       })
     },
   },
   providers: [
-    GoogleProvider.default({
-      clientId: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      allowDangerousEmailAccountLinking: true,
-    }),
     CredentialsProvider.default({
       name: 'Credentials',
       credentials: {

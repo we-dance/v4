@@ -52,21 +52,22 @@ model VerificationToken {
 }
 
 model User {
-  id             String    @id @default(nanoid())
-  email          String    @unique
-  name           String?   @default("")
-  firstName      String?   @default("")
-  lastName       String?   @default("")
-  phone          String?   @default("")
-  emailConsent   Boolean   @default(false)
-  emailConsentAt DateTime?
-  salt           String    @default("")
-  hash           String    @default("")
-  firebaseId     String    @default("")
-  emailVerified  Boolean   @default(false)
-  isDeleted      Boolean   @default(false)
-  deletedAt      DateTime?
-  deletedReason  String?
+  id                   String    @id @default(nanoid())
+  email                String    @unique
+  name                 String?   @default("")
+  firstName            String?   @default("")
+  lastName             String?   @default("")
+  phone                String?   @default("")
+  emailConsent         Boolean   @default(false)
+  emailConsentAt       DateTime?
+  salt                 String    @default("")
+  hash                 String    @default("")
+  firebaseId           String    @default("")
+  emailVerified        Boolean   @default(false)
+  isDeleted            Boolean   @default(false)
+  deletedAt            DateTime?
+  deletedReason        String?
+  notificationSettings Json?
 
   profile         Profile?  @relation("owned_by")
   profilesCreated Profile[] @relation("profile_created_by")

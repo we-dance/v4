@@ -4,7 +4,7 @@ import { prisma } from '~/server/prisma'
 import { userSchema } from '~/schemas/user'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { getServerSession } from '#auth'
-
+import { notificationSettingsSchema } from '~/schemas/user'
 // Firebase parameters for password hashing
 const firebaseParameters = {
   memCost: 14,
@@ -29,6 +29,26 @@ export const usersRouter = router({
           id,
         },
         data,
+      })
+    }),
+
+  updateNotificationSettings: publicProcedure
+    .input(
+      z.object({
+        id: z.string(),
+        data: notificationSettingsSchema,
+      })
+    )
+    .mutation(async ({ input }) => {
+      const { id, data } = input
+
+      return await prisma.user.update({
+        where: {
+          id,
+        },
+        data: {
+          notificationSettings: data,
+        },
       })
     }),
 
