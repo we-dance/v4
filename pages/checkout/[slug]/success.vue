@@ -18,8 +18,6 @@ const course = await $client.courses.view.query({ slug })
 const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
-
-<<<<<<< HEAD:pages/checkout/[slug]/success.vue
 // check url change and update course status
 watchEffect(async () => {
   if (
@@ -30,7 +28,6 @@ watchEffect(async () => {
     return
 
   try {
-<<<<<<< HEAD:pages/checkout/[slug]/success.vue
     const sessionId = localStorage.getItem('stripe_session_id')
     if (!sessionId) {
       console.error('Stripe sessionId not found in localStorage')
@@ -74,11 +71,6 @@ watchEffect(async () => {
 
     const result = await updateLessonUnlockStatus(course.id, false)
 
-=======
-    console.log('check status:', courseId)
-    // once redirect to this page, update course status to locked: false
-    const result = await updateLessonUnlockStatus(courseId, false)
->>>>>>> 8f4e352f (Finish procedure with static payment page):pages/checkout/[id]/success.vue
     if (result) {
       console.log('Lessons unlocked successfully')
     } else {
@@ -93,28 +85,7 @@ watchEffect(async () => {
     localStorage.removeItem('stripe_session_id')
   }
 })
-=======
-watchEffect(async () => {
-  const courseId = course.value?.identifier
-  if (!courseId) return
-  try {
-    console.log('check status:', courseId)
-    const result = await updateLessonUnlockStatus(courseId, false)
-    if (result) {
-      console.log('successfully updated')
-    } else {
-      console.log('update failed')
-      updateError.value = true
-    }
-  } catch (error) {
-    console.error('update error:', error)
-    updateError.value = true
-  } finally {
-    isUpdating.value = false
-  }
-})
 
->>>>>>> aec9d5cc (Finish procedure with static payment page):pages/checkout/[id]/success.vue
 </script>
 
 <template>
@@ -195,14 +166,14 @@ watchEffect(async () => {
                 <Icon name="ph:calendar" class="w-4 h-4" />
                 <span>{{
                   formatDate(course?.courseInstance?.[0]?.startDate || '')
-                }}</span>
+                  }}</span>
               </div>
               <div class="flex items-center gap-2">
                 <Icon name="ph:map-pin" class="w-4 h-4" />
                 <span>{{
                   course?.courseInstance?.[0]?.location?.name ||
                   'WeDance Online Platform'
-                  }}, {{ 'Online' }}</span>
+                }}, {{ 'Online' }}</span>
               </div>
             </div>
           </div>
