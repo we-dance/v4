@@ -67,7 +67,7 @@ model User {
   isDeleted            Boolean   @default(false)
   deletedAt            DateTime?
   deletedReason        String?
-  notificationSettings Json?
+  notificationSettings Json      @default("{}")
 
   profile         Profile?  @relation("owned_by")
   profilesCreated Profile[] @relation("profile_created_by")

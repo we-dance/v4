@@ -35,19 +35,17 @@ export const passwordSchema = z
 
 export const notificationSettingsSchema = z.object({
   email: z.object({
-    events: z.boolean().default(true),
-    messages: z.boolean().default(true),
-    community: z.boolean().default(true),
-    marketing: z.boolean().default(false),
+    events: z.boolean(),
+    messages: z.boolean(),
+    community: z.boolean(),
+    marketing: z.boolean(),
   }),
   push: z.object({
-    events: z.boolean().default(true),
-    messages: z.boolean().default(true),
-    mentions: z.boolean().default(true),
+    events: z.boolean(),
+    messages: z.boolean(),
+    mentions: z.boolean(),
   }),
-  frequency: z
-    .enum(['immediately', 'daily', 'weekly', 'never'])
-    .default('daily'),
+  frequency: z.enum(['immediately', 'daily', 'weekly', 'never']),
 })
 
 export type User = z.infer<typeof userSchema>

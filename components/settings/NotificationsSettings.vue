@@ -12,14 +12,15 @@ const { data } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(notificationSettingsSchema),
-  initialValues: data.value?.user?.notificationSettings,
+  initialValues: notificationSettingsSchema.safeParse(
+    data.value?.user?.notificationSettings
+  ).data,
 })
 
 const notificationSettings = computed(() => form.values as NotificationSettings)
 
 const { $client } = useNuxtApp()
 
-// Mutation for updating notification settings
 const updateNotificationsMutation = useMutation(
   async (values: NotificationSettings) => {
     if (!data.value) {
@@ -188,14 +189,10 @@ const saveNotificationSettings = () => {
           Choose how often you want to receive notifications
         </p>
 
-        <FormField v-slot="{ value, handleChange }" name="frequency">
+        <FormField v-slot="{ componentField }" name="frequency">
           <FormItem class="space-y-3">
             <FormControl>
-              <RadioGroup
-                :value="value"
-                @update:value="handleChange"
-                class="space-y-2"
-              >
+              <RadioGroup v-bind="componentField" class="space-y-2">
                 <FormItem class="flex items-center space-x-3 space-y-0">
                   <FormControl>
                     <RadioGroupItem value="immediately" />

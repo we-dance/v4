@@ -42,6 +42,8 @@ export const usersRouter = router({
     .mutation(async ({ input }) => {
       const { id, data } = input
 
+      console.log('update notification settings', data)
+
       return await prisma.user.update({
         where: {
           id,
