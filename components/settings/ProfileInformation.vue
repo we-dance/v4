@@ -61,7 +61,7 @@ function onSubmit(e: Event) {
 <template>
   <div class="bg-card rounded-lg shadow p-6 mb-6">
     <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
-      <Icon name="heroicons:user" class="w-5 h-5" />
+      <Icon name="heroicons:identification" class="w-5 h-5" />
       Profile Information
     </h2>
 

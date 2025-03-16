@@ -70,9 +70,9 @@ const savePrivacySettings = async () => {
 </script>
 
 <template>
-  <div class="bg-card rounded-lg shadow p-5 mb-4">
+  <div class="bg-card rounded-lg shadow p-6 mb-6">
     <h2 class="text-xl font-semibold mb-3 flex items-center gap-2">
-      <Icon name="heroicons:shield-check" class="w-5 h-5" />
+      <Icon name="heroicons:lock-closed" class="w-5 h-5" />
       Privacy Settings
     </h2>
 
