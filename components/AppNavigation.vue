@@ -77,7 +77,7 @@ watch(
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem as-child>
-                  <NuxtLink :to="`/${data?.profile?.username}`">
+                  <NuxtLink :to="`/@${data?.profile?.username}`">
                     <Icon name="lucide:user" class="mr-2 h-4 w-4" />
                     {{ data?.profile?.username }}
                   </NuxtLink>
