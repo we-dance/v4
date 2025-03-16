@@ -26,10 +26,6 @@ const mockUsers = [
     email: 'demo@example.com',
     uid: '4',
   },
-  // 'test@example.com',
-  // 'john@example.com',
-  // 'jane@example.com',
-  // 'demo@example.com',
 ]
 
 export const useRegistration = () => {
@@ -40,7 +36,6 @@ export const useRegistration = () => {
     try {
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 500))
-      // modify mockUsers to object (include uid)
       return mockUsers.some(
         (user: { email: string }) =>
           user.email.toLowerCase() === email.toLowerCase()
@@ -75,7 +70,6 @@ export const useRegistration = () => {
   const login = async (email: string, password: string) => {
     try {
       isLoading.value = true
-      // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
       const exists = await checkEmail(email)
