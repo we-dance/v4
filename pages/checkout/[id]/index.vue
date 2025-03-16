@@ -4,15 +4,12 @@ import { mockCourses } from '@/data/mockCourses'
 import { mockOrganizers } from '@/data/mockOrganizers'
 import type { AnyEvent, Price } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
-import { useCourseProgress } from '~/composables/useCourseProgress'
 import { useRegistration } from '~/composables/useRegistration'
-import StripePaymentDialog from '~/components/dialog/StripePaymentDialog.vue'
+// import StripePaymentDialog from '~/components/dialog/StripePaymentDialog.vue'
+import { useStripeCheckout } from '~/composables/useStripePayment'
 const { mockUsers } = useRegistration()
-const { updateLessonUnlockStatus } = useCourseProgress()
+const { handleStripeCheckout, publishableKey, pricingTableId } = useStripeCheckout()
 
-const config = useRuntimeConfig()
-const stripePricingTableId = config.public.stripePricingTableId
-const stripePublishableKey = config.public.stripePublishableKey
 
 interface CoursePrice {
   amount: number
@@ -89,6 +86,9 @@ const type = route.query.type || 'event'
 
 const stripeDialog = ref(false)
 const stripeUrl = ref<string>('')
+const uid = ref<string>('')
+const orgId = ref<string>('')
+
 
 // Get item details based on type
 const item = computed<CheckoutItem | null>(() => {
@@ -325,34 +325,41 @@ const handleSubmit = async () => {
       success = await createAccount(formData)
     }
     if (success) {
-      // handle request.auth?.uid and request.data.orgId
-      const uid = mockUsers.find(user => user.email.toLowerCase() === formData.email.toLowerCase())?.uid || String(mockUsers.length + 1)
-      const providerName = mockCourses.find(course => course.identifier === route.params.id)?.provider.name
-      const orgId = mockOrganizers.find(org => org.name.toLowerCase() === providerName?.toLowerCase())?.id || String(mockOrganizers.length + 1)
-      // check if orgId is a valid organizer id
-      console.log({
-        uid: uid,
-        orgId: orgId
+      onMounted(() => {
+        // handle request.auth?.uid and request.data.orgId
+        uid.value = mockUsers.find(user => user.email.toLowerCase() === formData.email.toLowerCase())?.uid || String(mockUsers.length + 1)
+        const providerName = mockCourses.find(course => course.identifier === route.params.id)?.provider.name
+        orgId.value = mockOrganizers.find(org => org.name.toLowerCase() === providerName?.toLowerCase())?.id || String(mockOrganizers.length + 1)
+        // check if orgId is a valid organizer id
+        console.log({
+          uid: uid,
+          orgId: orgId
+        })
       })
       // Need to receive an object {usl: accountLink.url} from backend as stripe link
-      // After POST req, get link from response
-      const mockStripeLink = `https://js.stripe.com/v3/pricing-table.js`
-      stripeUrl.value = mockStripeLink
-      stripeDialog.value = true
-      console.log('Stripe dialog opened')
-      // Here you would integrate with your payment provider
+      // After POST req(with backend), get link from response
+      const stripeData = await handleStripeCheckout(uid.value, orgId.value)
       // For now, we'll simulate a successful booking
-      await new Promise((resolve) => setTimeout(resolve, 10000))
+      // await new Promise((resolve) => setTimeout(resolve, 10000))
+      if (stripeData && stripeData.url) {
+        stripeUrl.value = stripeData.url
+        stripeDialog.value = true
+        // to stripe checkout page (test page)
+        console.log('Redirecting to stripe checkout')
+        window.location.href = stripeData.url
+      } else {
+        console.error('Stripe payment URL not found')
+      }
       // change lesson status to locked: true
       // item.value.id === course.identifier
-      const result = await updateLessonUnlockStatus(item.value.id, false)
-      if (result) {
-        console.log('Lesson status updated to locked: false')
-      } else {
-        console.log('Failed to update lesson status')
-      }
+      // const result = await updateLessonUnlockStatus(item.value.id, false)
+      // if (result) {
+      //   console.log('Lesson status updated to locked: false')
+      // } else {
+      //   console.log('Failed to update lesson status')
+      // }
       // Redirect to success page
-      navigateTo(`/checkout/${item.value.id}/success`)
+      // navigateTo(`/checkout/${item.value.id}/success`)
     }
   } catch (e) {
     console.error('Checkout failed:', e)
@@ -360,11 +367,11 @@ const handleSubmit = async () => {
 }
 
 // Handle stripe dialog close
-const handleStripeDialogClose = () => {
-  console.log('Stripe dialog closed')
-  stripeDialog.value = false
-  stripeUrl.value = ''
-}
+// const handleStripeDialogClose = () => {
+//   console.log('Stripe dialog closed')
+//   stripeDialog.value = false
+//   stripeUrl.value = ''
+// }
 
 // Add at the top of the script
 const isEventItem = (
@@ -613,11 +620,11 @@ const isEventItem = (
       </Button>
     </div>
   </div>
-  <!-- Stripe popup -->
-  <StripePaymentDialog
+  <!-- Stripe popup, internal payment -->
+  <!-- <StripePaymentDialog
     :is-open="stripeDialog"
-    :pricing-table-id="stripePricingTableId"
-    :publishable-key="stripePublishableKey"
+    :pricing-table-id="pricingTableId"
+    :publishable-key="publishableKey"
     @close="handleStripeDialogClose"
-  />
+  /> -->
 </template>

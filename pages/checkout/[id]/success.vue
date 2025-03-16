@@ -3,6 +3,12 @@ import { mockEvents } from '@/data/mockEvents'
 import { mockCourses } from '@/data/mockCourses'
 import type { AnyEvent } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
+import { useCourseProgress } from '~/composables/useCourseProgress'
+import { watchEffect, ref } from 'vue';
+const { updateLessonUnlockStatus } = useCourseProgress()
+
+const isUpdating = ref(true)
+const updateError = ref(false)
 
 const route = useRoute()
 const event = computed(() =>
@@ -16,6 +22,27 @@ const course = computed(() =>
 const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
+
+watchEffect(async () => {
+  const courseId = course.value?.identifier
+  if (!courseId) return
+  try {
+    console.log('check status:', courseId)
+    const result = await updateLessonUnlockStatus(courseId, false)
+    if (result) {
+      console.log('successfully updated')
+    } else {
+      console.log('update failed')
+      updateError.value = true
+    }
+  } catch (error) {
+    console.error('update error:', error)
+    updateError.value = true
+  } finally {
+    isUpdating.value = false
+  }
+})
+
 </script>
 
 <template>
