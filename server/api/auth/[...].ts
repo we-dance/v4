@@ -129,8 +129,10 @@ export default NuxtAuthHandler({
         }
 
         const data = result.data
-        const username = getSlug(data.firstName + '-' + nanoid(5))
         const name = data.firstName + ' ' + data.lastName[0] + '.'
+        const username = getSlug(
+          data.firstName + '.' + data.lastName[0] + '.' + nanoid(5)
+        )
 
         const scrypt = new FirebaseScrypt(firebaseParameters)
         const salt = Buffer.from(String(Math.random()).slice(7)).toString(
