@@ -147,14 +147,7 @@ const handleFollow = () => {
             <div
               class="relative aspect-square rounded-xl overflow-hidden shadow-xl max-w-lg mx-auto"
             >
-              <img
-                :src="
-                  artist.portfolio?.[0]?.url ||
-                  'https://api.dicebear.com/7.x/avataaars/svg?seed=' + artist.id
-                "
-                :alt="artist.name"
-                class="w-full h-full object-cover"
-              />
+              <Avatar :profile="artist" class="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -267,7 +260,7 @@ const handleFollow = () => {
 
             <!-- Social Links -->
             <div
-              v-if="artist.socialLinks.length > 0"
+              v-if="artist?.socialLinks?.length > 0"
               class="bg-background rounded-lg border p-6"
             >
               <h3 class="text-lg font-bold text-foreground mb-4">

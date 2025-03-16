@@ -10,7 +10,7 @@ interface EmptyStateContent {
 }
 
 type Variant =
-  | 'artist-not-found'
+  | 'profile-not-found'
   | 'no-results'
   | 'no-reviews'
   | 'no-media'
@@ -18,11 +18,11 @@ type Variant =
   | 'group-not-found'
 
 const variants: Record<Variant, EmptyStateContent> = {
-  'artist-not-found': {
+  'profile-not-found': {
     icon: 'ph:user-circle-x',
-    title: 'Artist Not Found',
+    title: 'Profile Not Found',
     description:
-      "The artist you're looking for doesn't exist or has been removed.",
+      "The profile you're looking for doesn't exist, has been removed, or is private.",
     action: {
       label: 'Browse Artists',
       to: '/artists',

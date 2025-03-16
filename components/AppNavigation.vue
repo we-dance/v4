@@ -72,7 +72,7 @@ watch(
             <DropdownMenu>
               <DropdownMenuTrigger as-child>
                 <Button variant="ghost" size="icon">
-                  <Icon name="lucide:user" class="h-4 w-4" />
+                  <Avatar :profile="data?.profile" class="h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
