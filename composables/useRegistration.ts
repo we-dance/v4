@@ -10,10 +10,26 @@ interface RegistrationData {
 
 // Mock users for testing
 const mockUsers = [
-  'test@example.com',
-  'john@example.com',
-  'jane@example.com',
-  'demo@example.com',
+  {
+    email: 'test@example.com',
+    uid: '1',
+  },
+  {
+    email: 'john@example.com',
+    uid: '2',
+  },
+  {
+    email: 'jane@example.com',
+    uid: '3',
+  },
+  {
+    email: 'demo@example.com',
+    uid: '4',
+  },
+  // 'test@example.com',
+  // 'john@example.com',
+  // 'jane@example.com',
+  // 'demo@example.com',
 ]
 
 export const useRegistration = () => {
@@ -24,7 +40,8 @@ export const useRegistration = () => {
     try {
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 500))
-      return mockUsers.includes(email.toLowerCase())
+      // modify mockUsers to object (include uid)
+      return mockUsers.some((user: { email: string }) => user.email.toLowerCase() === email.toLowerCase())
     } catch (e) {
       error.value = 'Could not verify email. Please try again.'
       return false
@@ -38,7 +55,7 @@ export const useRegistration = () => {
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
       // Store user data (replace with actual API call)
-      mockUsers.push(data.email.toLowerCase())
+      mockUsers.push({ email: data.email.toLowerCase(), uid: `${mockUsers.length + 1}` })
 
       return true
     } catch (e) {
@@ -76,5 +93,6 @@ export const useRegistration = () => {
     checkEmail,
     createAccount,
     login,
+    mockUsers
   }
 }

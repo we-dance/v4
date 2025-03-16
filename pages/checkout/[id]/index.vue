@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { mockEvents } from '@/data/mockEvents'
 import { mockCourses } from '@/data/mockCourses'
+import { mockOrganizers } from '@/data/mockOrganizers'
 import type { AnyEvent, Price } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
+import { useRegistration } from '~/composables/useRegistration'
+const { mockUsers } = useRegistration()
 const { updateLessonUnlockStatus } = useCourseProgress()
 
 interface CoursePrice {
@@ -305,7 +308,6 @@ const handleEmailCheck = async () => {
 // after subscription, redirect to success page, meanwhile change lesson status to locked: true
 const handleSubmit = async () => {
   if (!item.value) return
-
   try {
     let success = false
 
@@ -314,8 +316,21 @@ const handleSubmit = async () => {
     } else {
       success = await createAccount(formData)
     }
-
     if (success) {
+      // handle request.auth?.uid and request.data.orgId
+      const uid = mockUsers.find(user => user.email.toLowerCase() === formData.email.toLowerCase())?.uid || String(mockUsers.length + 1)
+      const providerName = mockCourses.find(course => course.identifier === route.params.id)?.provider.name
+      const orgId = mockOrganizers.find(org => org.name.toLowerCase() === providerName?.toLowerCase())?.id || String(mockOrganizers.length + 1)
+      // check if orgId is a valid organizer id
+      console.log({
+        uid: uid,
+        orgId: orgId
+      })
+      // Need to receive an object {usl: accountLink.url} from backend as stripe link
+      // After POST req, get link from response
+      const mockStripeLink = `https://stripe.com/account/account-links/${uid}`
+
+
       // Here you would integrate with your payment provider
       // For now, we'll simulate a successful booking
       await new Promise((resolve) => setTimeout(resolve, 1000))
