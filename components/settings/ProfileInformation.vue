@@ -22,8 +22,6 @@ const updateProfileMutation = useMutation(
       throw new Error('User not authenticated')
     }
 
-    console.log('updating profile', values)
-
     return await $client.profiles.update.mutate({
       id: profileId,
       data: values,
@@ -54,21 +52,10 @@ const canSubmit = computed(() => {
   return isDirty && !isLoading
 })
 
-async function onSubmit(e: Event) {
+function onSubmit(e: Event) {
   e.preventDefault()
-  console.log('onSubmit', { ...form.values })
-  await $client.profiles.update.mutate({
-    id: data.value?.profile?.id || '',
-    data: {
-      bio: 'test',
-    },
-  })
-  // updateProfileMutation.mutate(form.values)
+  updateProfileMutation.mutate(form.values)
 }
-
-const onProfileSubmit = form.handleSubmit(async (values) => {
-  updateProfileMutation.mutate(values)
-})
 </script>
 
 <template>
@@ -78,7 +65,7 @@ const onProfileSubmit = form.handleSubmit(async (values) => {
       Profile Information
     </h2>
 
-    <form @submit.prevent="onSubmit" class="space-y-6">
+    <form @submit="onSubmit" class="space-y-6">
       <FormField v-slot="{ componentField }" name="photo">
         <FormItem>
           <FormLabel>Photo</FormLabel>

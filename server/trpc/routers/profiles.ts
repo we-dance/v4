@@ -2,6 +2,16 @@ import { z } from 'zod'
 import { publicProcedure, router } from '../trpc'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
+import { profileSchema } from '~/schemas/profile'
+
+// Define a simple update schema that matches Prisma's expectations
+const profileUpdateSchema = z.object({
+  bio: z.string().optional(),
+  name: z.string().optional(),
+  username: z.string().optional(),
+  photo: z.string().optional().nullable(),
+  // Add other fields as needed
+})
 
 export const profilesRouter = router({
   search: publicProcedure
@@ -147,7 +157,12 @@ export const profilesRouter = router({
       }
     }),
   update: publicProcedure
-    .input(z.object({ id: z.string(), data: z.object({}) }))
+    .input(
+      z.object({
+        id: z.string(),
+        data: profileUpdateSchema,
+      })
+    )
     .mutation(async ({ input }) => {
       console.log('trpc.profiles.update', input)
       const { id, data } = input
