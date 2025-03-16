@@ -18,17 +18,21 @@ const firebaseParameters = {
   signerKey: String(process.env.FIREBASE_SIGNER_KEY),
 }
 
+// @todo upgrade to https://auth.sidebase.io/ 0.10.0
 export default NuxtAuthHandler({
   secret: process.env.AUTH_SECRET,
   session: {
     strategy: 'jwt',
     maxAge: 3000,
   },
+  // @ts-expect-error will figure out later
   adapter: PrismaAdapter(prisma),
   pages: {
-    signIn: '/signin',
+    signIn: '/login',
+    signOut: '/logout',
   },
   callbacks: {
+    // @ts-expect-error will figure out later
     session: async ({ session }) => {
       const email = session.user.email
 
@@ -60,6 +64,7 @@ export default NuxtAuthHandler({
     },
   },
   providers: [
+    // @ts-expect-error You need to use .default here for it to work during SSR. May be fixed via Vite at some point
     CredentialsProvider.default({
       name: 'Credentials',
       credentials: {
@@ -96,6 +101,7 @@ export default NuxtAuthHandler({
         return user
       },
     }),
+    // @ts-expect-error You need to use .default here for it to work during SSR. May be fixed via Vite at some point
     CredentialsProvider.default({
       id: 'register',
       name: 'Register',
