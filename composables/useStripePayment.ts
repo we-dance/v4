@@ -1,9 +1,8 @@
 import { ref } from 'vue'
 
-// for iframe payment (internal payment activated)
-const TEST_PRICING_TABLE_ID = 'prctbl_1R3LL3RojAg5mGqyGtxLA3NP'
-const TEST_PUBLISHABLE_KEY =
-  'pk_test_51R1DkqRojAg5mGqyRskrl6TRdByz4BzlBCrVxqzQlnzBpoap6dzYy2j75UrJioo37yoIAn9RJNAjOk4EbC92kr3E00loSlCweT'
+// for iframe payment
+const TEST_PRICING_TABLE_ID = 'prctbl_1QxRDVIGsr0sxheBPN2CufA9'
+const TEST_PUBLISHABLE_KEY = 'pk_live_51Qv4EPIGsr0sxheBeNMKXcbfEqY4yql9VVxb7Ms3xue5itVdHBL9b9k2SiyMsYa6ZNeFy6C4YlKirrKRiMmblonk00uWDONLmA'
 
 // for external payment
 const TEST_STRIPE_URL = 'https://buy.stripe.com/test_7sIaGYcSndFRbuMbII'
@@ -32,6 +31,7 @@ export const useStripeCheckout = () => {
     pricingTableId,
     publishableKey,
     stripeUrl,
-    handleStripeCheckout,
+    handleStripeCheckout
   }
 }
+
