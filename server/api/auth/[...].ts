@@ -3,11 +3,16 @@ import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import { defaultNotificationsSettings, registerSchema } from '~/schemas/user'
+import {
+  defaultNotificationsSettings,
+  getSlug,
+  registerSchema,
+} from '~/schemas/user'
 import {
   defaultPrivacySettings,
   generateUniqueUsername,
 } from '~/schemas/profile'
+import { nanoid } from 'nanoid'
 
 const prisma = new PrismaClient()
 
@@ -124,7 +129,8 @@ export default NuxtAuthHandler({
         }
 
         const data = result.data
-        const username = generateUniqueUsername()
+        const username = getSlug(data.firstName + '-' + nanoid(5))
+        const name = data.firstName + ' ' + data.lastName[0] + '.'
 
         const scrypt = new FirebaseScrypt(firebaseParameters)
         const salt = Buffer.from(String(Math.random()).slice(7)).toString(
@@ -159,8 +165,8 @@ export default NuxtAuthHandler({
         try {
           await prisma.profile.create({
             data: {
-              username: username,
-              name: username,
+              username,
+              name,
               type: 'dancer',
               claimed: true,
               user: {
