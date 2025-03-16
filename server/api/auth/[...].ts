@@ -3,8 +3,11 @@ import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import { registerSchema } from '~/schemas/user'
-import { generateUniqueUsername } from '~/schemas/profile'
+import { defaultNotificationsSettings, registerSchema } from '~/schemas/user'
+import {
+  defaultPrivacySettings,
+  generateUniqueUsername,
+} from '~/schemas/profile'
 
 const prisma = new PrismaClient()
 
@@ -136,6 +139,7 @@ export default NuxtAuthHandler({
               emailConsentAt: new Date(),
               hash,
               salt,
+              notificationSettings: defaultNotificationsSettings,
             },
           })
         } catch (error: any) {
@@ -158,6 +162,7 @@ export default NuxtAuthHandler({
                   id: user.id,
                 },
               },
+              privacySettings: defaultPrivacySettings,
             },
           })
         } catch (error: any) {

@@ -48,6 +48,21 @@ export const notificationSettingsSchema = z.object({
   frequency: z.enum(['immediately', 'daily', 'weekly', 'never']),
 })
 
+export const defaultNotificationsSettings = {
+  email: {
+    events: true,
+    messages: true,
+    community: true,
+    marketing: true,
+  },
+  push: {
+    events: true,
+    messages: true,
+    mentions: true,
+  },
+  frequency: 'immediately',
+}
+
 export type User = z.infer<typeof userSchema>
 export type LoggedInUser = z.infer<typeof loggedInUserSchema>
 export type NotificationSettings = z.infer<typeof notificationSettingsSchema>
