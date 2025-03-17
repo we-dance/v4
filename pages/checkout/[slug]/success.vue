@@ -4,7 +4,7 @@ import { mockCourses } from '@/data/mockCourses'
 import type { AnyEvent } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
-import { watchEffect, ref } from 'vue';
+import { watchEffect, ref } from 'vue'
 const { updateLessonUnlockStatus } = useCourseProgress()
 
 const isUpdating = ref(true)
@@ -44,7 +44,6 @@ watchEffect(async () => {
     isUpdating.value = false
   }
 })
-
 </script>
 
 <template>
