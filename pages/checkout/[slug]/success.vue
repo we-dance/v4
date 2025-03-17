@@ -85,7 +85,6 @@ watchEffect(async () => {
     localStorage.removeItem('stripe_session_id')
   }
 })
-
 </script>
 
 <template>
