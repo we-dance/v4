@@ -89,7 +89,7 @@ const stripeUrl = ref<string>('')
 const uid = ref<string>('')
 const orgId = ref<string>('')
 // different stripe display options
-const isInternalPayment = ref(true)
+const isInternalPayment = ref(false)
 const currentPricingTableId = ref<string>('')
 const currentPublishableKey = ref<string>('')
 
