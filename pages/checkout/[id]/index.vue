@@ -8,8 +8,8 @@ import { useRegistration } from '~/composables/useRegistration'
 // import StripePaymentDialog from '~/components/dialog/StripePaymentDialog.vue'
 import { useStripeCheckout } from '~/composables/useStripePayment'
 const { mockUsers } = useRegistration()
-const { handleStripeCheckout, publishableKey, pricingTableId } = useStripeCheckout()
-
+const { handleStripeCheckout, publishableKey, pricingTableId } =
+  useStripeCheckout()
 
 interface CoursePrice {
   amount: number
@@ -92,7 +92,6 @@ const orgId = ref<string>('')
 const isInternalPayment = ref(true)
 const currentPricingTableId = ref<string>('')
 const currentPublishableKey = ref<string>('')
-
 
 // Get item details based on type
 const item = computed<CheckoutItem | null>(() => {
@@ -331,31 +330,39 @@ const handleSubmit = async () => {
     if (success) {
       onMounted(() => {
         // handle request.auth?.uid and request.data.orgId
-        uid.value = mockUsers.find(user => user.email.toLowerCase() === formData.email.toLowerCase())?.uid || String(mockUsers.length + 1)
-        const providerName = mockCourses.find(course => course.identifier === route.params.id)?.provider.name
-        orgId.value = mockOrganizers.find(org => org.name.toLowerCase() === providerName?.toLowerCase())?.id || String(mockOrganizers.length + 1)
+        uid.value =
+          mockUsers.find(
+            (user) => user.email.toLowerCase() === formData.email.toLowerCase()
+          )?.uid || String(mockUsers.length + 1)
+        const providerName = mockCourses.find(
+          (course) => course.identifier === route.params.id
+        )?.provider.name
+        orgId.value =
+          mockOrganizers.find(
+            (org) => org.name.toLowerCase() === providerName?.toLowerCase()
+          )?.id || String(mockOrganizers.length + 1)
         // check if orgId is a valid organizer id
         console.log({
           uid: uid,
-          orgId: orgId
+          orgId: orgId,
         })
       })
       // Need to receive an object {usl: accountLink.url} from backend as stripe link
       if (!isInternalPayment.value) {
-      // After POST req(with backend), get link from response
-      const stripeData = await handleStripeCheckout(uid.value, orgId.value)
-      // For now, we'll simulate a successful booking
-      // await new Promise((resolve) => setTimeout(resolve, 10000))
-      if (stripeData && stripeData.url) {
-        stripeUrl.value = stripeData.url
-        stripeDialog.value = true
-        // to stripe checkout page (test page)
-        console.log('Redirecting to stripe checkout')
-        window.location.href = stripeData.url
-      } else {
-        console.error('Stripe payment URL not found')
-      }
-      } else if(isInternalPayment.value){
+        // After POST req(with backend), get link from response
+        const stripeData = await handleStripeCheckout(uid.value, orgId.value)
+        // For now, we'll simulate a successful booking
+        // await new Promise((resolve) => setTimeout(resolve, 10000))
+        if (stripeData && stripeData.url) {
+          stripeUrl.value = stripeData.url
+          stripeDialog.value = true
+          // to stripe checkout page (test page)
+          console.log('Redirecting to stripe checkout')
+          window.location.href = stripeData.url
+        } else {
+          console.error('Stripe payment URL not found')
+        }
+      } else if (isInternalPayment.value) {
         stripeDialog.value = true
         currentPricingTableId.value = pricingTableId.value
         currentPublishableKey.value = publishableKey.value
