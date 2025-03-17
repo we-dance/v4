@@ -4,6 +4,7 @@ import { ref } from 'vue'
 const TEST_PRICING_TABLE_ID = 'prctbl_1QxRDVIGsr0sxheBPN2CufA9'
 const TEST_PUBLISHABLE_KEY = 'pk_live_51Qv4EPIGsr0sxheBeNMKXcbfEqY4yql9VVxb7Ms3xue5itVdHBL9b9k2SiyMsYa6ZNeFy6C4YlKirrKRiMmblonk00uWDONLmA'
 
+
 // for external payment
 const TEST_STRIPE_URL = 'https://buy.stripe.com/test_7sIaGYcSndFRbuMbII'
 
@@ -34,4 +35,3 @@ export const useStripeCheckout = () => {
     handleStripeCheckout
   }
 }
-
