@@ -1,0 +1,659 @@
+---
+common:
+  yes: 'Evet'
+  no: 'Hayır'
+  female: Kadın
+  male: Erkek
+  other: Diğer
+Monday: Pazartesi
+Tuesday: Salı
+Wednesday: Çarşamba
+Thursday: Perşembe
+Friday: Cuma
+Saturday: Cumartesi
+Sunday: Pazar
+Edit: Düzenle
+Delete: Sil
+Copy: Kopyala
+Share: Paylaş
+views: 'görüntüleme yok | 1 görüntüleme | {count} görüntüleme'
+Subscribe: Abone ol
+Unsubscribe: Abonelikten çık
+Follow: Takip et
+Unfollow: Takibi bırak
+Contact: İletişim
+post:
+  report: Rapor
+  delete: Sil
+  edit: Düzenle
+  dashboard: Kontrol Paneli
+form:
+  clear: Temizle
+  delete: Sil
+  cancel: İptal
+  copy: Kopyala
+  save: Kaydet
+photo:
+  placeholder: Fotoğrafı değiştir
+  selectLabel: Fotoğraf yükle
+visibility:
+  label: Görünürlük
+  description: "- Herkese açık: Google'da aranabilir ve sosyal medyada kullanılabilir. - Üyeler: sadece giriş yapmış kullanıcılar tarafından görülebilir. - Listelenmemiş: yalnızca tam bağlantı ile açmak mümkündür, ancak hiçbir yerde listelenmez."
+  public: Genel
+  members: Üyeler
+  unlisted: Listelenmemiş
+hero:
+  title: Dans etmeyi sever misin?
+  subtitle: İlginç dans etkinlikleri ve dans partnerleri bulma konusunda birbirimize yardımcı oluyoruz.
+  submotto: Salsa, Bachata, Kizomba, Urban Kiz, Raggaeton, Casino, Tango ve daha 130 dans stili
+  alt: Bachata dansı yapan insanlar
+  action: Topluluğa katıl
+  search: Dansçıları ara
+icons:
+  dancers: dansçılar
+  cities: şehirler
+  events: etkinlikler
+features:
+  calendar:
+    title: Etkinlik Takvimi
+    description: Dans atölyeleri, kurslar, sosyal etkinlikler ve partiler bulun. Etkinlik takvimini hep birlikte bir topluluk olarak dolduruyoruz. Herkes paylaşabilir.
+    action: Etkinlikleri keşfet
+  dancePartners:
+    title: Dans partnerleri
+    description: Dans tarzınıza uygun bir dans partneri bulun ve onlar da sizi bulsun.
+    action: Dans partneri bul
+  cityChats:
+    title: Şehir Sohbetleri
+    description: Herhangi bir şehirde dans sohbeti bulun. Şehrinizdeki sohbete katılın ve arkadaşlarınızı şehirdeki yeni dansçılara yardım etmeye davet edin. Küresel düşünün, yerel hareket edin.
+  danceTravel:
+    title: Dans Seyahati
+    description: Uluslararası dans festivalleri ve kongreleri bulun. Bir yolculuğu, bir daireyi paylaşın ve yeni bir şehri birlikte deneyimlemek için bir arkadaş bulun.
+    action: Festivalleri keşfet
+  volunteer:
+    title: Gönüllü
+    description: Herkesin "yardım edebilirim" zihniyetiyle girdiği bir topluluk oluşturuyoruz, böylece yardıma ihtiyacınız olduğunda buna güvenebilirsiniz. Biz dünya çapında büyük bir aileyiz. Birbirimize yardım ediyoruz.
+    action: Katıl
+  interviews:
+    title: Röportaj
+    description: En sevdiğiniz dans sanatçıları hakkında daha fazlasını keşfedin ve onların ipuçlarını ve püf noktalarını yakalayın.
+    action: Podcast dinle
+international:
+  title: Uluslararası Topluluk
+  description: Sosyal medyamızda düzenli olarak röportajlar, etkinlik duyuruları yayınlıyor ve yeni üyelerimizi tanıtıyoruz.
+auth:
+  signin: Oturum aç
+  signup: Kayıt ol
+  signout: Çıkış Yap
+events:
+  typelist:
+    party: Parti
+    workshop: Atölye
+    course: Kurs
+    festival: Festival
+    congress: Kongre
+    concert: Konser
+    show: Göster
+    other: Diğer
+  add: Etkinlik ekle
+  title: Dans Takvimi
+  list:
+    empty: Hiçbir etkinlik bulunamadı. Bir tane eklemek ister misiniz?
+  view:
+    list: Fotoğraflara Bakın
+    covers: Listeyi gör
+  filter:
+    type: Tip
+    style: Her Dans
+    level: Her Seviye
+eventView:
+  announce: Duyuru
+  dropdown:
+    dashboard: Panel
+    edit: Düzenle
+    share: Paylaş
+    copy: Kopyala
+  online: Online Etkinlik
+  reservation:
+    guest: Etkinlik için kayıt olun
+    cancel: Rezervasyonu iptal et
+  reservationPopup:
+    title: Kayıt ol
+    reserve:
+      submitLabel: Kayıt ol
+      label: Oturum aç
+    finish:
+      title: Neredeyse oldu
+      btn: Kayıt işlemini tamamlayın
+      description: Yakında görüşmek üzere! Geldiğinizde organizatör tarafından check-in yapmayı unutmayın!
+      reminder: WeDance profilinin oluşturulmasını tamamlamak için e-postanızı kontrol edin.
+      calendar: Takvime ekle
+  organiser: Tarafından organize edildi
+  venueMap: Mekan Haritası
+  source: Etkinlik Kaynağı
+postFields:
+  username:
+    label: Kullanıcı Adı
+  type:
+    label: Tip
+  title:
+    placeholder: Başlık
+  description:
+    placeholder: Metin (markdown)
+    tips: "Kendinizi tanıtın: Siz kimsiniz? Ne teklif ediyorsunuz? Ne istiyorsunuz?\n\nEtkili sunum için ipuçları:\n- Karmaşık olmayan: Akılda kalıcı olmalı ve dilden dökülmeli\n- Kısa ve öz: Söylemesi veya okuması bir dakikadan fazla sürmemeli\n- Eşsiz: Becerilerinizi, hedeflerinizi ve arzularınızı yansıtır\n- Hikaye: Kim olduğunuzu, ne sunduğunuzu ve nerede olmak istediğinizi kapsar\n- İlgi çekici: Asansör konuşmanız esasen ikna edici bir satış konuşmasıdır; vurgu ne sunduğunuz üzerinde olmalıdır"
+    description: Görüntüler ve videolar dahil olmak üzere [widgets] (https://wedance.vip/markdown) kullanın
+  url:
+    placeholder: Link
+  styles:
+    label: Dans Stilleri
+filter:
+  radius: Yarıçap
+  reset: Filtreleri sıfırla
+community:
+  title: Dans Topluluğu
+  description: Dans partneri veya yeni dans etkinlikleri mi arıyorsunuz? Yerel dansçıların profillerini filtreleyin ve onlarla iletişime geçin.
+calendar:
+  title: Dans Etkinlik Takvimi
+  empty: Etkinlik bulunamadı
+  upcoming: Yaklaşan
+  past: Geçmiş
+  share:
+    text: Metin
+    embed: Yerleştir
+profile:
+  claim: Profilimi talep edin
+  follow:
+    title: Bizi takip edin
+    description: Sosyal medyamızda düzenli olarak etkinlik duyuruları yayınlıyor ve yeni üyelerimizi tanıtıyoruz.
+  invite:
+    header: '{count} davetiye kaldı'
+    description: "{name} sizi daha hızlı ağ kurmak, ödüller kazanmak, dans flashmob'larını ve VIP etkinlikleri keşfetmek için ücretsiz VIP üyelik almaya davet ediyor"
+    action: Daveti Kabul Et
+  bookme: Rezervasyon yap
+  contactme: Bana ulaşın
+  username:
+    label: Kullanıcı Adı
+    before: Yalnızca harf, rakam, alt çizgi ve nokta kullanın.
+  community: Dans ediyorum
+  type: Tip
+  name:
+    label: İsim
+    before: Anonim kalmak istiyorsanız ilk adınızı kullanın.
+    placeholder: (Gerekli)
+  bio:
+    label: Teaser
+    before: Fotoğrafınızın üstünde kısa tanıtım
+  birthday:
+    label: Doğum günü
+    description: Sadece yaşınızı göstereceğiz
+  gender:
+    label: Cinsiyet
+    placeholder: Cinsiyet
+  style: Dans stillerin
+  joined: Katıldı
+  languages: Diller
+  story:
+    label: Açıklama
+    before: Dans hikayenizi anlatın. Resimler ve videolar dahil olmak üzere [widgets] (https://wedance.vip/markdown) da kullanabilirsiniz
+    tips: ' Kendinizi tanıtın: Siz kimsiniz? Ne teklif ediyorsunuz? Ne istiyorsunuz? Etkili bir sunum için ipuçları: - Karmaşık olmayan: Akılda kalıcı olmalı ve dilden dökülmeli - Kısa ve öz: Söylemesi veya okuması bir dakikadan fazla sürmemelidir - Benzersiz: Becerilerinizi, hedeflerinizi ve arzularınızı yansıtır - Hikaye: Kim olduğunuzu, ne sunduğunuzu ve nerede olmak istediğinizi kapsar - Çekici: Asansör konuşmanız esasen ikna edici bir satış konuşmasıdır; vurgu sunduğunuz şey üzerinde olmalıdır'
+    placeholder: Metin (markdown)
+  locales: Senin dillerin
+  skills: Baska beceriler
+  days: Günler
+  learning:
+    label: Hangi dans konularıyla ilgileniyorsun?
+    description: "Örneğin: Salsa'da Müzikalite, Erkek Stilistliği vb."
+  teacher: Ders veriyormusun?
+  partner: Bir dans arkadası mı arıyorsun?
+  height: Boyun (cm)
+  weight:
+    label: Kilonuz (kg)
+    description: İlgisiz olduğunu düşünüyorsanız bu alanı boş bırakın.
+  partnerBio:
+    label: Soru
+    description: 'Partnerinizde önemli olan nedir? Bunu bir soru olarak ortaya koyun, örneğin: Köpekleri sever misin?'
+  objectives: Hedefler
+  objective:
+    placeholder: Hedef
+  meetingPlace: Nerede buluşalım?
+  photo: Fotoğraf
+  add: Profil ekle
+  title: Topluluk
+  styles:
+    label: Dans
+    tips: Posterinizde vurgulanacak en fazla 4 favori dansı işaretleyin
+  place:
+    label: Yaşayan
+    before: Daimi ikametgahınız nedir?
+    placeholder: Şehir
+  hometown:
+    label: Yapıldığı yer
+    before: Nerede doğdun ve büyüdün?
+  current:
+    label: Dans ediliyor
+    before: Şu anda hangi şehirde dans ediyorsun?
+  dance:
+    placeholder: Stil
+  permission:
+    label: Ücretsiz promosyon ister misin?
+    description: ''
+  jobs:
+    label: Şu konularda yardımcı olabilirim
+    description: 'Toplumumuza nasıl yardımcı olabilirsiniz? Hangi konuda iyisiniz? Örneğin: tasarım, programlama, pazarlama, sosyal medya vb.'
+  contacts: Sosyal medya kullanıyor musun?
+  email:
+    label: E-posta adresi
+    placeholder: iş talepleri için
+  website:
+    label: İnternet sitesi
+    placeholder: iş talepleri için
+  meetingPlaces:
+    myPlace: Benim yerim
+    yourPlace: Senin yerin
+    private: Özel bir yerde
+    public: Halka açık bir yerde
+  typeList:
+    dancer: Dansçı
+    artist: Sanatçı
+    organiser: Organizatör
+    venue: Salon
+    city: Şehir
+  objectivesList:
+    talk: Dans hakkında konuşun
+    home: Evi paylaşın
+    auto: Otomatik paylaş
+    learn: Birlikte öğrenin
+    outdoors: Açık havada dans edin
+    indoors: Kapalı alanda dans
+    teach: Birlikte öğretin
+    project: Dans projesi
+  profileSorts:
+    username: Kullanıcı Adı
+    registered: Kayıtlı
+    lastSeen: Son görülme
+  chat:
+    label: Konuşma
+  partnerSearch:
+    title: Bir dans partneri arıyorum
+radiusOptions:
+  ten: yaklaşık 10 km
+  twenty: yaklaşık 20km
+  fifty: yaklaşık 50km
+  hundred: yaklaşık 100 km
+  fiveHundred: yaklaşık 500km
+  thousand: yaklaşık 1000km
+  anywhere: Herhangi bir yer
+myprofile:
+  addEvent: Etkinlik ekle
+  addPost: Bir yazı yazın
+  edit: Profil Düzenle
+  share: Paylaş
+  intro:
+    photo: senin fotoğrafın
+    gender: cinsiyetin
+    styles: ne dansı yapıyorsun
+    bio: teaser (kısa tanıtım)
+    place: sizin şehriniz
+    objectives: hedefleriniz
+    title: WeDance'e hoş geldiniz!
+    description1: Bu sizin profiliniz. Aşağıdaki kare bir posterdir - görsel tanıtımınız.
+    description2: Posteriniz diğer dansçıların yanı sıra {0}'da da gösterilmektedir.
+    community: Topluluk
+    description3: '{0} tıklayın ve ekleyin:'
+  ambassador:
+    description1: WeDance, yerel dans topluluklarında Ambassador tarafından temsil edilmektedir. Gönüllüler, yerel dansçıları bir araya getirmek için farklı girişimlerde Ambassador'a yardımcı olurlar. WeDance gönüllüler tarafından oluşturulur ve desteklenir. Katılın, gönüllü olun!
+    description2: '{community} büyükelçi'
+    description3: 'Şehrinizde bir dans ağı oluşturmamıza yardımcı olun, yerel sosyal medya hesaplarımızı takip edin ve etkileşimde bulunun:'
+  profile:
+    height: '{height}cm'
+    weight: '{weight}kg'
+TPostList:
+  loadMore: Daha Yükle
+TPost:
+  dropdown: rapor veya paylaşım
+  showLess: Daha az göster
+  showMore: Daha fazla göster
+TCardActions:
+  Reason: Sebep
+  options:
+    spam: spam
+    other: diğer
+chat:
+  title: Konuşma
+  empty: Konuşmaları başlatın ve burada görünsünler.
+  lastMessage:
+    byYou: senin tarafından
+  receiver:
+    deleted: SİLİNDİ
+conversation:
+  userName: '{username} ile sohbet et'
+  empty: Sohbete güzel bir şeyle başlayın.
+  lastSeen: son kez sohbet açtı
+  unread: henüz bu sohbeti açmadı
+  newMessage:
+    placeholder: Mesaj yaz
+    submit: Gönder
+  welcome: Sohbete hoş bir şeyle başlayın.
+  with: '{username} ile sohbet et'
+  dateDiff: '{diff} önce'
+cities:
+  choose: Bir şehir seçin
+settings:
+  title: Ayarlar
+  account:
+    title: Hesap
+    description: Bu bilgiler, bildirimler ve satın alımlar için kullanılacaktır. Yalnızca onayınla hizmet sağlayıcılarla veya satıcılarla paylaşılacaktır.
+    changepassword: Şifre değiştir
+    delete: Hesabı sil
+    popup:
+      delete:
+        title: Hesap silme işlemini onayla
+        deleteReason: Neden gidiyorsun?
+        usernameConfirmation: Kullanıcı adını girin
+  passwordError: Hata
+  profile:
+    title: Profil
+    description: Diğer dansçıların hakkında ne bilmesini istiyorsun? Burası dans tutkunu paylaşabileceğin bir yer. Kendini tanıt, utanma!
+  contacts:
+    title: Kişiler
+    description: Bu bilgiler halka açık olacaktır. Kişilerinizi yalnızca üyelerin sizinle iletişime geçmesini istiyorsan paylaş. Dikkat çekmek ve sosyal medyanı paylaşmak için iyi bir imkan olabilir.
+city:
+  anywhere: Herhangi bir yer
+  change: Şehri değiştir
+role:
+  label: Rol
+account:
+  email: E-posta adresi
+  password: Parola
+  name: Ad Soyad
+  phone: Telefon
+  zone: Saat dilimi
+  newsletter:
+    label: Haftalık olarak ne tür güncellemeler almak istersin?
+    options:
+      party: 'Sosyal/parti etkinlikleri'
+      class: Dans dersleri
+      workshop: Atölye çalışmaları ve bootcamp'ler
+      online: Online dans dersleri
+      festival: Uluslararası festivaller
+  comment: Yorum
+  withPartner:
+    label: Ortağınız var mı?
+  partnerName: Partnerin adı
+  partnerEmail: Ortağın e-postası
+agreement: Oturum açarak, {terms} ve {privacy} 'nı kabul etmiş olursunuz.
+terms: Kullanım Şartları
+privacy: Gizlilik Politikası
+register:
+  login: Oturum aç
+  submit: Kayıt ol
+signin:
+  register: Hesap oluştur
+  nopassword: Parolamı unuttum
+  submit: Oturum aç
+nopassword:
+  signin: Bir şifrem var
+  google: Google ile giriş yap
+  facebook: Facebook ile oturum açın
+  email: E-posta ile giriş yapın
+  submit: Sihirli bağlantı gönder
+contacts:
+  email: E-posta adresi
+  website: İnternet sitesi
+share:
+  title: Paylaş
+  copy: Bağlantıyı kopyala
+footer:
+  about: Hakkımızda
+  getInvolved: Katıl
+  support: Destek
+  privacy: Gizlilik
+  terms: Koşullar
+  coc: Davranış kodu
+  faq: SSS
+  copyright: Tüm hakları saklıdır.
+feed:
+  add: Gönderi ekle
+  title: Yorum
+  newMessage:
+    input: Dans hakkında bir şey sorun veya paylaşın...
+    intent: bir mesaj gönderin
+    submit: Gönder
+  category: Kategori seçin
+  post: Gönderi
+  event: Etkinlik
+  needPartner: Partner arıyorum
+  needEvents: Etkinlik aranıyor
+  needInstructor: Eğitmen aranıyor
+  trip: Yolculuk teklifi
+  artist: Sanatçı
+  venue: Mekan
+  app: Uygulama
+  guide: Kılavuz / Nasıl Yapılır
+  inspiration: İlham
+  question: Soru
+  poll: Anket
+comments:
+  empty: Henüz herhangi bir yorum yok.
+  label: Yorumlar
+sort:
+  popular: Popüler
+  newest: En yeni
+  hot: Popüler
+  watching: İzlemek
+  starred: Yıldızlı
+  archived: Arşivlenmiş
+  yours: Sizin
+event:
+  artists: Sanatçılar
+  organiser: Organizatör
+  category:
+    meetup: Dans
+    lesson: Öğren
+    online: Çevrimiçi
+    travel: Seyahat
+  role:
+    dj: DJ
+    instructor: Eğitmen
+    taxi: Taksi Dansçısı
+    photographer: Fotoğrafçı
+    musician: Müzisyen
+    organiser: Organizatör
+  name:
+    placeholder: Etkinlik İsmi
+    label: İsim
+  description:
+    label: Duyuru
+    placeholder: Benzersiz Değer Önerisi
+    description: 'Görüntüler ve videolar dahil olmak üzere [widgets] (https://wedance.vip/markdown) kullanın'
+    tips: "Kendinizi tanıtın: Siz kimsiniz? Ne teklif ediyorsunuz? Ne istiyorsunuz?\n\nEtkili sunum için ipuçları:\n- Karmaşık olmayan: Akılda kalıcı olmalı ve dilden dökülmeli\n- Kısa ve öz: Söylemesi veya okuması bir dakikadan fazla sürmemeli\n- Eşsiz: Becerilerinizi, hedeflerinizi ve arzularınızı yansıtır\n- Hikaye: Kim olduğunuzu, ne sunduğunuzu ve nerede olmak istediğinizi kapsar\n- İlgi çekici: Asansör konuşmanız esasen ikna edici bir satış konuşmasıdır; vurgu ne sunduğunuz üzerinde olmalıdır"
+  startDate: Ne zaman?
+  endDate: Bitiş Tarihi
+  venue: Nerede?
+  cover: Kapak
+  type: Etkinlik Türü
+  duration:
+    label: Ne kadar sürecek?
+    thirtyMinutes: 30 dakika
+    oneHour: 60 dakika
+    ninetyMinutes: 1.5 saat
+    twoHours: 2 saat
+    threeHours: 3 saat
+    fourHours: 4 saat
+    fiveHours: 5 saat
+    custom: Özel
+  price:
+    label: Fiyat
+    description: Lütfen para birimini belirtin, örn. EUR, USD
+  styles: Dans stillerin
+  org:
+    label: Organizatör
+  online:
+    label: Online mı?
+    description: Zoom, Google Meet, Instagram Live vb. aracılığıyla yayın mı yapıyorsunuz.?
+  international:
+    label: Uluslararası
+    description: Festival veya kongre gibi 500'den fazla konuğu olan büyük bir etkinlik mi?
+  place:
+    label: Topluluk
+    description: Etkinliğinizin tüm şehirlerde gösterilmesini istiyorsanız boş bırakın
+  form:
+    label: Harici kayıt mı?
+    before: Etkinliğinize kaydolmak için harici bir platform kullanıyor musunuz?
+  link:
+    label: Link
+    description: Bilet platformunda doğrudan rezervasyon bağlantısı [ti.to](https://ti.to/home), Eventbrite, Google Form, vb.
+  facebook:
+    label: Facebook
+    description: Facebook etkinliği
+  promo:
+    label: Sosyal medyada duyurmak mı?
+    description: ''
+  confirmation:
+    label: Misafirler için onay e-postası
+    placeholder: 'Örnek: Sayın misafirimiz, etkinliğimize katılımınız onaylanmıştır.'
+TInputProfile:
+  changeRole: Rolü Değiştir
+  actions: Eylemler
+  remove: Kaldır
+  import: İçe aktar
+  placeholder: WeDance, Instagram veya Facebook'ta arama yapın
+popup:
+  auth:
+    title: Sadece üyeler
+    body: '{action} için oturum açın'
+    signin: Oturum aç
+TButton:
+  title: "{action}'a giriş yapın"
+TDropdown:
+  title: rapor veya paylaşım
+TReaction:
+  watch: İzle
+  star: Yıldız
+EventDashboard:
+  noAccess: Bu alana yalnızca etkinlik sahibi erişebilir.
+  unlink: Bağlantıyı Kaldır
+  couple: Çift
+  cancel: İptal
+  checkIn: Giriş Yap
+  rsvp: LCV (Lütfen cevap veriniz)
+  subscribed: Abone olundu
+  paid: Ödendi
+  notPaid: Ödeme yapmadı
+home:
+  title: WeDance - Gez. Tanış. Dans Et.
+  hero:
+    header: Gez. Tanış. **Dans Et.**
+    subheader: Senin yakınındaki bachata, salsa, kizomba ve daha fazla dans etkinliklerini bul. Sosyaller, dersler ve festivallerle dans dünyanı genişlet.
+    action: Şehrini Bul
+    bottom: 'Ayrıca [etkinlik düzenleyebilir](/organize) ya da [tanıtım yaparak kazanç sağlayabilirsin](/promoter)'
+  features:
+    explore:
+      title: Sosyaller, Dersler, Festivaller
+      description: Karmaşık sohbetlere veda et!
+      action: Etkinlikleri Keşfet
+    travel:
+      title: Öneriler
+      description: Herhangi bir şehirdeki en iyi sosyaller hakkında içeriden ipuçları al.
+      action: Yerlilere Sor
+    partner:
+      title: Dans Partnerleri
+      description: Dans stilin için partnerler bul ve onların da seni bulmasını sağla.
+      action: Partner Bul
+  numbers:
+    title: WeDance Rakamlarla
+    countries: ülkeler
+    profiles: profiller
+    events: etkinlikler
+  founder: "**Sorun**
+
+
+    Ben dans tutkunuyum, sayısız WhatsApp grubu aracılığıyla yerel sahneye sürekli bağlıyım. Yeni dansçılar bana yaklaşan partiler hakkında sıkça soruyor ve her şeyi takip etmek zorlaşıyor.
+
+
+    **Çözüm**
+
+
+    Bu yüzden WeDance'i yarattım! Şehrindeki dans etkinlikleri için tek durak. Artık sohbetlerle uğraşmak ya da bilgi için çırpınmak yok.
+
+
+    **Dansçılar İçin Faydalar**
+
+    - **Yeni bir şehirde misin?** En sıcak partileri anında bul.
+
+    - **Dans planlarınızı merak eden arkadaşlarınız mı var?** Sadece onlara WeDance profilini gönder ve seninle katılmak istedikleri en sevdikleri etkinlikleri seçsinler.
+
+
+    Harika değil mi? WeDance'i bugün keşfet!"
+explore:
+  nav:
+    festivals: Festivaller
+    online: Çevrimiçi
+    experts: Uzmanlara Sor
+    parties: Partiler
+    classes: Dersler
+    groups: Gruplar
+    tips: Yerlilere Sor
+  dance:
+    title: Dans Stilleri Listesi | WeDance
+    description: Dünyanın dört bir yanından tarih, kültür ve dans stillerini keşfet. Küratörlüğü yapılmış dans stilleri listesine göz at.
+    keywords: dans stilleri, dans türleri, dans tarihi, dans kültürü
+    header: Dans Stilleri
+    subheader: Dünyanın dört bir yanından tarih, kültür ve dans stillerini keşfet. Küratörlüğü yapılmış dans stilleri listesine göz at.
+  global:
+    title: '{style} Dans Festivalleri Dünya Çapında | Dans Takvimi | WeDance'
+    description: '{style} Dans Takvimi Seyahat Edenler İçin. Tatillerini ve hafta sonlarını dünya çapında Salsa, Bachata, Kizomba, Zouk ve 130 diğer dansla planla.'
+    keywords: '{style} dans festivalleri, {style} dans kongreleri, {style} dans tatilleri, {style} dans hafta sonları, {style} dans gezileri, {style} dans seyahatleri'
+    header: '{style} Festivaller Dünya Çapında'
+    subheader: '{style} Dans Takvimi Seyahat Edenler İçin. Tatillerini ve hafta sonlarını dünya çapında Salsa, Bachata, Kizomba, Zouk ve 130 diğer dansla planla.'
+  parties:
+    title: '{city} {style} Dans Partileri | Dans Takvimi | WeDance'
+    description: "{city}'deki çeşitli {style} dans etkinliklerini keşfet. {referenceStyle} gecelerinden bachata atölyelerine, bir sonraki dans maceranı burada bul."
+    keywords: '{city} {style} dans partileri nerede, {city} {style} dans sosyalleri, {city} {style} dans geceleri, {city} {style} dans etkinlikleri, {city} {style} dans buluşmaları'
+    header: "{city}'de {style} Partileri"
+    subheader: "{city}'deki canlı {style} dans sahnesini keşfet. Küratörlüğü yapılmış dans partileri listesine göz at ve Salsa, Bachata, Kizomba gibi favori stillerini filtrele."
+  classes:
+    title: "{city}'de {style} Dans Dersleri | Dans Takvimi | WeDance"
+    description: "{city}'deki çeşitli {style} dans etkinliklerini keşfet. {referenceStyle} gecelerinden bachata atölyelerine, bir sonraki dans maceranı burada bul."
+    keywords: '{city} {style} dans dersleri, {city} {style} dans kursları, {city} {style} dans atölyeleri, {city} {style} dans kampları, {city} {style} dans dersleri'
+    header: "{city}'de {style} Dersleri"
+    subheader: "{city}'deki canlı {style} dans sahnesini keşfet. Küratörlüğü yapılmış dans dersleri listesine göz at ve Salsa, Bachata, Kizomba gibi favori stillerini filtrele."
+  onlineclass:
+    title: '{style} Çevrimiçi Dans Dersleri | Dans Takvimi | WeDance'
+    description: Şahsen katılamıyor musun? Çevrimiçi ders seçeneklerimizle {style} hareketlerini bir üst seviyeye taşı.
+    keywords: '{style} çevrimiçi dans dersleri, çevrimiçi dans kursları, çevrimiçi dans atölyeleri, çevrimiçi dans kampları, çevrimiçi dans dersleri'
+    header: '{style} Çevrimiçi Dersler'
+    subheader: Şahsen katılamıyor musun? Çevrimiçi ders seçeneklerimizle {style} hareketlerini bir üst seviyeye taşı.
+  groups:
+    title: "{city}'de Dans Grupları | WeDance"
+    description: "{city}'de dans etkileyicileri ve grupları keşfet ve onlarla bağlantı kur. Salsa'dan Bachata'ya, Kizomba'ya kadar tarzına uygun WhatsApp, Telegram, Instagram, Youtube topluluklarını bul. Etkileyicilerle etkileşimde bulun ve {city}'de canlı dans ağlarına katıl."
+    keywords: '{city} dans grupları, {city} dans etkileyicileri, {city} dans toplulukları, {city} dans ağları, {city} dans kolektifleri'
+    header: "{city}'de Gruplar"
+    subheader: "{city}'de dans etkileyicileri ve grupları keşfet ve onlarla bağlantı kur. Salsa'dan Bachata'ya, Kizomba'ya kadar tarzına uygun WhatsApp, Telegram, Instagram, Youtube topluluklarını bul. Etkileyicilerle etkileşimde bulun ve {city}'de canlı dans ağlarına katıl."
+  tips:
+    title: "{city}'deki Dansçılara Sor | WeDance"
+    description: "{city}'deki dansçılardan gerçek zamanlı öneriler al ve onların yerel içgörülerini doğrudan öğren. Tercih ettiğin dans stilini seç için özelleştirilmiş ipuçları al, ya da topluluğa kişiselleştirilmiş öneriler için sor. Genellikle 48 saat içinde yanıt bekleyebilirsin."
+    keywords: '{city} dans ipuçları, {city} dans önerileri, {city} dans içgörüleri, {city} dans tavsiyeleri, {city} dans önerileri'
+    header: "{city}'deki Dansçılara Sor"
+    subheader: "{city}'deki dansçılardan gerçek zamanlı öneriler al ve onların yerel içgörülerini doğrudan öğren. Tercih ettiğin dans stilini seç için özelleştirilmiş ipuçları al, ya da topluluğa kişiselleştirilmiş öneriler için sor. Genellikle 48 saat içinde yanıt bekleyebilirsin."
+teaser:
+  profile:
+    title: Profilini Yayınla
+    description: böylece diğerleri seninle iletişim kurabilir
+    btn: Ücretsiz Katıl
+  feed:
+    title: Daha fazla etkinlik mi arıyorsun?
+    description: Birden fazla sohbetten araştırmak yerine, doğrudan web sitemizdeki yerel dans topluluğumuza sor. Herhangi bir şehirdeki etkinlikler için yerel dansçılardan kişiselleştirilmiş öneriler al.
+    btn: Yerlilere Sor
+nav:
+  search: Ara
+  events: Etkinlikler
+  festivals: Festivaller
+  partner: Partner Bul
+  dance: Dans Stilleri
+  contribute: Katkıda Bulun
+  addEvent: Etkinlik Ekle
+  addReview: Tavsiye Et
+  chat: Sohbet
+  bookmarks: Yer İmleri
+  myProfile: Profilim
+  settings: Ayarlar

@@ -1,6 +1,17 @@
 import { z } from 'zod'
 import { publicProcedure, router } from '../trpc'
 import { prisma } from '~/server/prisma'
+import { getServerSession } from '#auth'
+import { privacySettingsSchema } from '~/schemas/profile'
+
+// todo: move to profile schema
+const profileUpdateSchema = z.object({
+  bio: z.string().optional(),
+  name: z.string().optional(),
+  username: z.string().optional(),
+  photo: z.string().optional().nullable(),
+  // Add other fields as needed
+})
 
 export const profilesRouter = router({
   search: publicProcedure
@@ -36,6 +47,27 @@ export const profilesRouter = router({
         },
         take: 5,
       })
+    }),
+  isUsernameAvailable: publicProcedure
+    .input(z.object({ username: z.string() }))
+    .query(async ({ input, ctx }) => {
+      const { username } = input
+
+      const session = await getServerSession(ctx.event)
+
+      const profile = await prisma.profile.findFirst({
+        where: {
+          username: {
+            equals: username,
+            mode: 'insensitive',
+          },
+          id: {
+            not: session?.profile?.id,
+          },
+        },
+      })
+
+      return !profile
     }),
   get: publicProcedure
     .input(z.object({ username: z.string() }))
@@ -123,6 +155,29 @@ export const profilesRouter = router({
         profile,
         events: enrichedEvents,
       }
+    }),
+  update: publicProcedure
+    .input(
+      z.object({
+        id: z.string(),
+        data: profileUpdateSchema,
+      })
+    )
+    .mutation(async ({ input }) => {
+      const { id, data } = input
+      return await prisma.profile.update({ where: { id }, data })
+    }),
+  updatePrivacySettings: publicProcedure
+    .input(z.object({ id: z.string(), data: privacySettingsSchema }))
+    .mutation(async ({ input }) => {
+      const { id, data } = input
+      console.log('trpc.profiles.updatePrivacySettings', data)
+      return await prisma.profile.update({
+        where: { id },
+        data: {
+          privacySettings: data,
+        },
+      })
     }),
   list: publicProcedure
     .input(

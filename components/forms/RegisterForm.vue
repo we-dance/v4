@@ -2,12 +2,12 @@
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
-import { userSchema } from '~/schemas/user'
+import { registerSchema } from '~/schemas/user'
 
 const { login } = useAppAuth()
 
 const form = useForm({
-  validationSchema: toTypedSchema(userSchema),
+  validationSchema: toTypedSchema(registerSchema),
 })
 
 const onSubmit = form.handleSubmit(
@@ -17,7 +17,7 @@ const onSubmit = form.handleSubmit(
       toast.error(error)
     }
   },
-  () => {
+  (e) => {
     toast.error('Please fix the errors in the form.')
   }
 )
@@ -77,6 +77,7 @@ const onSubmit = form.handleSubmit(
           />
         </FormControl>
         <FormDescription />
+        <PasswordStrengthIndicator :password="form.values.password || ''" />
         <FormMessage />
       </FormItem>
     </FormField>

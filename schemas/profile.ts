@@ -1,12 +1,47 @@
 import { z } from 'zod'
 
+export const generateUniqueUsername = () => `u${Date.now()}`
+export const noMultiplePeriods = (value: string) => !value.includes('..')
+export const notEndingInPeriod = (value: string) => !value.endsWith('.')
+
+const usernameValidationCache = new Map<string, boolean>()
+
+export const usernameValidator = async (username: string) => {
+  if (!username || username.length < 2) return true
+
+  if (usernameValidationCache.has(username)) {
+    return usernameValidationCache.get(username)
+  }
+
+  const { $client } = useNuxtApp()
+  const isAvailable = await $client.profiles.isUsernameAvailable.query({
+    username,
+  })
+
+  usernameValidationCache.set(username, isAvailable)
+
+  return isAvailable
+}
+
+export const usernameSchema = z
+  .string()
+  .min(2, 'Username must be at least 2 characters.')
+  .max(30)
+  .refine(noMultiplePeriods, 'Username cannot have multiple periods in a row.')
+  .refine(notEndingInPeriod, 'Username cannot end in a period.')
+  .refine(usernameValidator, 'Username is already taken.')
+
 // Base profile schema
 export const profileSchema = z.object({
-  id: z.string(),
+  id: z.string().optional(),
   name: z.string(),
+  photo: z.string().url().nullable().default(null),
+  username: usernameSchema,
   email: z.string().email(),
   points: z.number().default(0),
-  type: z.enum(['dancer', 'artist', 'organizer', 'venue', 'community']),
+  type: z
+    .enum(['dancer', 'artist', 'organizer', 'venue', 'community'])
+    .default('dancer'),
   roles: z.array(z.string()).default([]),
   location: z.string().optional(),
   bio: z.string().optional(),
@@ -191,6 +226,26 @@ export const communityProfileSchema = profileSchema.extend({
     })
     .optional(),
 })
+
+export const privacySettingsSchema = z.object({
+  profileVisibility: z.enum(['public', 'members', 'connections']),
+  allowMessages: z.boolean().optional().default(false),
+  showEmail: z.boolean().optional().default(false),
+  showPhone: z.boolean().optional().default(false),
+  showOnlineStatus: z.boolean().optional().default(false),
+  showEventAttendance: z.boolean().optional().default(false),
+})
+
+export type PrivacySettings = z.infer<typeof privacySettingsSchema>
+
+export const defaultPrivacySettings: PrivacySettings = {
+  profileVisibility: 'public',
+  allowMessages: true,
+  showEmail: false,
+  showPhone: false,
+  showOnlineStatus: true,
+  showEventAttendance: true,
+}
 
 export type DancerProfile = z.infer<typeof dancerProfileSchema>
 export type ArtistProfile = z.infer<typeof artistProfileSchema>

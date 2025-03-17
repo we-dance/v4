@@ -7,33 +7,33 @@ import { useDialog } from '~/composables/useDialog'
 const route = useRoute()
 
 const props = defineProps<{
-  artist: ArtistProfile
+  profile: ArtistProfile
 }>()
 
 const navigation = [
   {
     label: 'Feed',
-    to: `/artists/${props.artist.id}#content`,
+    to: `/@${props.profile.username}#content`,
     icon: 'ph:newspaper',
   },
   {
     label: 'About',
-    to: `/artists/${props.artist.id}/about#content`,
+    to: `/@${props.profile.username}/about#content`,
     icon: 'ph:info',
   },
   {
     label: 'Classes',
-    to: `/artists/${props.artist.id}/classes#content`,
+    to: `/@${props.profile.username}/classes#content`,
     icon: 'ph:graduation-cap',
   },
   {
     label: 'Reviews',
-    to: `/artists/${props.artist.id}/reviews#content`,
+    to: `/@${props.profile.username}/reviews#content`,
     icon: 'ph:chat-circle',
   },
   {
     label: 'Media',
-    to: `/artists/${props.artist.id}/media#content`,
+    to: `/@${props.profile.username}/media#content`,
     icon: 'ph:image',
   },
 ]
@@ -42,14 +42,14 @@ const dialog = useDialog()
 
 // Actions
 const handleContact = () => {
-  console.log('Contact artist:', props.artist.name)
+  console.log('Contact artist:', props.profile.name)
 }
 
 const handleBook = () => {
   dialog.open({
     component: 'ArtistBookingDialog',
     props: {
-      artist: props.artist,
+      artist: props.profile,
       onSelect: (service: {
         type: string
         amount: number
@@ -58,7 +58,7 @@ const handleBook = () => {
       }) => {
         // Navigate to checkout with selected service
         navigateTo(
-          `/checkout/${props.artist.id}?type=${service.type}&instructor=${props.artist.id}`
+          `/checkout/${props.profile.id}?type=${service.type}&instructor=${props.profile.id}`
         )
         return
       },
@@ -67,7 +67,7 @@ const handleBook = () => {
 }
 
 const handleFollow = () => {
-  console.log('Follow artist:', props.artist.name)
+  console.log('Follow artist:', props.profile.name)
 }
 </script>
 
@@ -84,28 +84,29 @@ const handleFollow = () => {
             <!-- Left: Content -->
             <div class="text-center md:text-left">
               <div
+                v-if="profile.location"
                 class="flex items-center justify-center md:justify-start gap-2 text-foreground mb-4"
               >
                 <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                <span class="text-sm md:text-base">{{ artist.location }}</span>
+                <span class="text-sm md:text-base">{{ profile.location }}</span>
               </div>
               <h1
                 class="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
               >
-                {{ artist.name }}
+                {{ profile.name }}
               </h1>
               <div
                 class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-muted-foreground mb-6"
               >
                 <Badge
-                  v-if="artist.level === 'master'"
+                  v-if="profile.level === 'master'"
                   variant="secondary"
                   class="bg-warning/20 text-warning border-warning/30"
                 >
                   Master
                 </Badge>
                 <Badge
-                  v-for="role in artist.roles"
+                  v-for="role in profile.roles"
                   :key="role"
                   variant="secondary"
                   class="capitalize bg-background/10 text-foreground border-border/20"
@@ -120,13 +121,13 @@ const handleFollow = () => {
               >
                 <div>
                   <div class="text-xl font-bold text-foreground">
-                    {{ artist.stats.followers }}
+                    {{ profile.stats.followers }}
                   </div>
                   <div class="text-sm text-muted-foreground">followers</div>
                 </div>
                 <div>
                   <div class="text-xl font-bold text-foreground">
-                    {{ artist.stats.reviews }}
+                    {{ profile.stats.reviews }}
                   </div>
                   <div class="text-sm text-muted-foreground">reviews</div>
                 </div>
@@ -147,14 +148,7 @@ const handleFollow = () => {
             <div
               class="relative aspect-square rounded-xl overflow-hidden shadow-xl max-w-lg mx-auto"
             >
-              <img
-                :src="
-                  artist.portfolio?.[0]?.url ||
-                  'https://api.dicebear.com/7.x/avataaars/svg?seed=' + artist.id
-                "
-                :alt="artist.name"
-                class="w-full h-full object-cover"
-              />
+              <Avatar :profile="profile" class="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -199,13 +193,9 @@ const handleFollow = () => {
 
           <!-- Right Column: Sidebar -->
           <div class="flex-shrink-0 space-y-6 md:w-[320px]">
-            <div>
-              <ArtistCard :artist="artist" />
-            </div>
-
             <!-- Availability -->
             <div
-              v-if="artist.availability"
+              v-if="profile.availability"
               class="bg-background rounded-lg border p-6"
             >
               <h3 class="text-lg font-bold text-foreground mb-4">
@@ -214,7 +204,10 @@ const handleFollow = () => {
               <div class="space-y-4">
                 <table class="w-full">
                   <tbody class="divide-y divide-border">
-                    <tr v-if="artist.availability.privateClasses" class="group">
+                    <tr
+                      v-if="profile.availability.privateClasses"
+                      class="group"
+                    >
                       <td class="py-3">
                         <div
                           class="flex items-center gap-2 text-muted-foreground"
@@ -224,7 +217,7 @@ const handleFollow = () => {
                         </div>
                       </td>
                     </tr>
-                    <tr v-if="artist.availability.workshops" class="group">
+                    <tr v-if="profile.availability.workshops" class="group">
                       <td class="py-3">
                         <div
                           class="flex items-center gap-2 text-muted-foreground"
@@ -237,7 +230,7 @@ const handleFollow = () => {
                         </div>
                       </td>
                     </tr>
-                    <tr v-if="artist.availability.touring" class="group">
+                    <tr v-if="profile.availability.touring" class="group">
                       <td class="py-3">
                         <div
                           class="flex items-center gap-2 text-muted-foreground"
@@ -267,7 +260,7 @@ const handleFollow = () => {
 
             <!-- Social Links -->
             <div
-              v-if="artist.socialLinks.length > 0"
+              v-if="profile?.socialLinks?.length > 0"
               class="bg-background rounded-lg border p-6"
             >
               <h3 class="text-lg font-bold text-foreground mb-4">
@@ -275,7 +268,7 @@ const handleFollow = () => {
               </h3>
               <div class="space-y-3">
                 <a
-                  v-for="link in artist.socialLinks"
+                  v-for="link in profile.socialLinks"
                   :key="link.url"
                   :href="link.url"
                   target="_blank"

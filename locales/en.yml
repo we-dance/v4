@@ -1,0 +1,887 @@
+seo:
+  title: '%s • WeDance'
+common:
+  yes: 'Yes'
+  no: 'No'
+  female: Female
+  male: Male
+  other: Other
+Monday: Monday
+Tuesday: Tuesday
+Wednesday: Wednesday
+Thursday: Thursday
+Friday: Friday
+Saturday: Saturday
+Sunday: Sunday
+Edit: Edit
+Delete: Delete
+Copy: Copy
+Share: Share
+views: 'no views | 1 view | {count} views'
+subscribers: 'no subscribers | 1 subscriber | {count} subscribers'
+connections: 'no connections | 1 connection | {count} connections'
+guests: 'no guests | 1 guest | {count} guests'
+Subscribe: Subscribe
+Subscribed: Subscribed
+Unsubscribe: Unsubscribe
+Follow: Follow
+Unfollow: Unfollow
+Contact: Contact
+post:
+  report: Report
+  delete: Delete
+  edit: Edit
+  dashboard: Dashboard
+form:
+  required: This field is required
+  clear: Clear
+  delete: Delete
+  cancel: Cancel
+  copy: Copy
+  save: Save
+photo:
+  placeholder: Change photo
+  selectLabel: Upload photo
+visibility:
+  label: Visibility
+  description: '- Public: searchable in Google and can be used in social media.
+
+    - Members: only visible for logged-in users.
+
+    - Unlisted: only possible to open with exact link, but not listed anywhere.'
+  public: Public
+  members: Members
+  unlisted: Unlisted
+hero:
+  title: Do you like dancing?
+  subtitle: We help each other find interesting dance events and dance partners.
+  submotto: Salsa, Bachata, Kizomba, Urban Kiz, Raggaeton, Casino, Tango and 130 more dance styles
+  alt: People dancing bachata
+  action: Join the community
+  search: Search dancers
+icons:
+  dancers: dancers
+  cities: cities
+  events: events
+features:
+  calendar:
+    title: Event Calendar
+    description: Find dance workshops, courses, socials and parties. We fill event calendar all together as a community. Everyone can share.
+    action: Discover events
+  dancePartners:
+    title: Dance partners
+    description: Find a dance partner for your dance style and let them find you.
+    action: Find dance partner
+  cityChats:
+    title: City Chats
+    description: Find dance chat in any city. Join your city chat and invite your friends to help new dancers in the city. Think globally, act locally.
+  danceTravel:
+    title: Dance Travel
+    description: Find international dance festivals and congresses. Share a ride, an appartment and find a buddy to experience a new city together.
+    action: Discover festivals
+  volunteer:
+    title: Volunteer
+    description: We build a community, where everyone enters with mindset “I can help”, so whenever you need help you can count on it. We are one big family worldwide. We help each other.
+    action: Get Involved
+  interviews:
+    title: Interviews
+    description: Explore more about you favorite dance artists and catch their tips & tricks.
+    action: Listen to Podcast
+international:
+  title: International Community
+  description: We regularly post interviews, event announcements and introduce new members on our social media.
+auth:
+  signin: Sign in
+  signup: Sign up
+  signout: Log out
+events:
+  typelist:
+    party: Party
+    workshop: Workshop
+    course: Course
+    weekender: Weekender
+    festival: Festival
+    congress: Congress
+    concert: Concert
+    show: Show
+    other: Other
+  add: Add event
+  title: Dance Calendar
+  list:
+    empty: No events found. Would you like to add one?
+  view:
+    list: See Photos
+    covers: See list
+  filter:
+    type: Type
+    style: Any Dance
+    level: Any Level
+eventView:
+  announce: Announce
+  dropdown:
+    dashboard: Dashboard
+    edit: Edit
+    share: Share
+    copy: Copy
+  online: Online Event
+  reservation:
+    guest: Register for event
+    cancel: Cancel reservation
+  reservationPopup:
+    title: Register
+    reserve:
+      submitLabel: Register
+      label: Login
+    finish:
+      title: Almost there
+      btn: Complete registration
+      description:
+        See you soon! Don't forget to check-in by the organiser when you
+        come!
+      reminder: Check your email to finish creation of the WeDance profile.
+      calendar: Add to calendar
+  organiser: Organised by
+  venueMap: Venue Map
+  source: Event Source
+postFields:
+  username:
+    label: Username
+  type:
+    label: Type
+  title:
+    placeholder: Title
+  description:
+    placeholder: Text (markdown)
+    tips: 'Pitch yourself: Who are you? What do you offer? What do you want?\n\nTips for effective pitch:\n- Uncomplicated: It should be catchy and roll off the tongue\n- Concise: It shouldn’t take more than a minute to say or read\n- Unique: It reflects your skills, goals, and desires\n- Storyline: It covers who you are, what you offer, and where you want to be\n- Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer'
+    description: Use [widgets](https://wedance.vip/markdown), including images and videos
+  url:
+    placeholder: Link
+  styles:
+    label: Dance Styles
+filter:
+  radius: Radius
+  reset: Reset filters
+community:
+  title: Dance Community
+  description: Looking for dance partner or new dance events? Filter profiles of local dancers and contact them.
+reviews:
+  title: Reviews
+  count: 'No Reviews | 1 Review | {count} Reviews'
+profile:
+  teammembers:
+    label: Team Members
+  claim: Claim my profile
+  follow:
+    title: Follow us
+    description: Join us on social media for the latest event news
+  invite:
+    header: '{count} invites left'
+    description: '{name} invites you to get a free VIP membership for faster networking, get rewards, discover dance flashmobs and VIP events'
+    action: Accept Invitation
+  bookme: Book me
+  contactme: Contact me
+  username:
+    label: Username
+    before: Use only letters, numbers, underscores and periods.
+  community: I dance in
+  type:
+    label: Type
+    tips: |
+      Select the option that best represents your main role or contribution in the dance community:
+        -	**Venue**: You own or manage a place where dance events are held.
+        -	**Artist**: You offer skills such as teaching, DJing, or performing.
+        -	**Organiser**: You organize dance events or activities.
+        -	**Dancer**: You primarily participate in dance as an enthusiast or hobbyist.
+
+      Choose the type that aligns with your primary business or purpose on WeDance.
+  name:
+    label: Name
+    before: If you want to remain anonym use your first name.
+    placeholder: (Required)
+  bio:
+    label: Bio
+    before: Short introduction
+  birthday:
+    label: Birthday
+    description: We will show only your age
+  pronounce:
+    label: Pronounce
+  style: Dance styles
+  joined: Joined
+  languages: Languages
+  story:
+    label: About me
+    before: Tell us your story
+    placeholder: Text
+  locales: Your languages
+  skills: Non-dancing skills
+  days: Days
+  learning:
+    label: Which dance topics you are interested in?
+    description: 'For example: Musicality in Salsa, Men Styling, etc.'
+  teacher: Are you teaching?
+  partner: Are you looking for a dance partner?
+  height: Your height (cm)
+  weight:
+    label: Your weight (kg)
+    description: Leave this field blank if you think it's irrelevant.
+  partnerBio:
+    label: Question
+    description: 'What is important in your partner? Put it as a question, for example: Do you love dogs?'
+  objectives: Objectives
+  objective:
+    placeholder: Objective
+  meetingPlace: Where to meet?
+  photo: Photo
+  add: Add profile
+  title: Community
+  styles:
+    label: Dance
+    tips: |
+      **Select Dance Styles:** Start by choosing the dance styles you participate in, regardless of your proficiency level. This step is crucial for accurately representing your dance interests and abilities.
+
+      Selecting your dance styles is essential because it:
+      - **Showcases Your Range:** Highlights all the styles you are involved in, from beginner to professional levels.
+      - **Connects You with Others:** Enables better matching with dance partners, instructors, and events.
+      - **Personalizes Your Profile:** Provides a clear and detailed picture of your dance background and preferences.
+
+      **Select Level:** After selecting your styles, you can specify your proficiency level:
+      - **Beginner:** You are just starting to learn the dance style.
+      - **Intermediate:** You have a good understanding and can perform with some confidence.
+      - **Advanced:** You are highly skilled and can dance complex routines with ease.
+      - **Professional:** You have expert-level proficiency, often teaching or performing professionally.
+
+      Choose the level that accurately reflects your experience and skills for each dance style.
+
+      **Highlight Styles:** Click the heart icon to highlight the dance styles you are most passionate about or want to showcase.
+  place:
+    label: Living in
+    before: What's your permanent residence?
+    placeholder: City
+  living:
+    label: City
+    before: Where do you live?
+    placeholder: City
+  hometown:
+    label: Made in
+    before: Where were you born and raised?
+  current:
+    label: Dancing in
+    before: In which city are you currently dancing?
+  dance:
+    placeholder: Style
+  permission:
+    label: Do you want free promo?
+    description: ''
+  jobs:
+    label: I can help with
+    description: 'How can you help our community? What are you good at? For example: design, programming, marketing, social media, etc.'
+  contacts: Do you use social media?
+  email:
+    label: Email
+    placeholder: for business requests
+  website:
+    label: Website
+    placeholder: for business requests
+  meetingPlaces:
+    myPlace: My place
+    yourPlace: Your place
+    private: Somewhere private
+    public: Somewhere public
+  typeList:
+    dancer: Dancer
+    artist: Artist
+    organiser: Organiser
+    venue: Venue
+    city: City
+  objectivesList:
+    talk: Talk about dance
+    home: Share home
+    auto: Share auto
+    learn: Learn together
+    outdoors: Dance outdoors
+    indoors: Dance indoors
+    teach: Teach together
+    project: Dance project
+  profileSorts:
+    username: Username
+    registered: Registered
+    lastSeen: Last seen
+  chat:
+    label: Chat
+  partnerSearch:
+    title: I am looking for a dance partner
+radiusOptions:
+  ten: around 10km
+  twenty: around 20km
+  fifty: around 50km
+  hundred: around 100km
+  fiveHundred: around 500km
+  thousand: around 1000km
+  anywhere: Anywhere
+myprofile:
+  addEvent: Add event
+  addPost: Write a post
+  edit: Edit Profile
+  share: Share
+  intro:
+    photo: your photo
+    gender: your gender
+    styles: what do you dance
+    bio: teaser (short introduction)
+    place: your city
+    objectives: your objectives
+    title: Welcome to WeDance!
+    description1: This is your profile. A square below is a poster – your visual
+      introduction.
+    description2: Your poster is also shown in {0} among other dancers.
+    community: Community
+    description3: 'Click {0} and add:'
+  ambassador:
+    description1:
+      WeDance is represented by Ambassador in local dance communities.
+      Volunteers help Ambassador with different initiatives to unite local
+      dancers. WeDance is created and supported by volunteers. Get
+      Involved, become volunteer!
+    description2: Ambassador in {community} is
+    description3:
+      'Help us build a dance network in your city, follow and interact with
+      our local social media accounts:'
+  profile:
+    height: '{height}cm'
+    weight: '{weight}kg'
+TPostList:
+  loadMore: Load more
+TPost:
+  dropdown: report or share
+  showLess: Show less
+  showMore: Show more
+TCardActions:
+  Reason: Reason
+  options:
+    spam: spam
+    other: other
+chat:
+  title: Chat
+  empty: Start conversations and they will appear here.
+  lastMessage:
+    byYou: by you
+  receiver:
+    deleted: DELETED
+conversation:
+  userName: Chat with {username}
+  empty: Start conversation with something nice.
+  lastSeen: opened chat last time
+  unread: haven't opened this chat yet
+  newMessage:
+    placeholder: Write a message
+    submit: Send
+  welcome: Start conversation with something nice.
+  with: Chat with {username}
+  dateDiff: '{diff} ago'
+cities:
+  choose: Choose city
+settings:
+  title: Settings
+  account:
+    title: Account
+    description:
+      This information will be used for notifications and purchases. It
+      will be shared with service providers or sellers only with your agreement.
+    changepassword: Change Password
+    delete: Delete Account
+    popup:
+      delete:
+        title: Confirm account deletion
+        deleteReason: Why are you leaving?
+        usernameConfirmation: Enter username
+  passwordError: Error
+  profile:
+    title: Profile
+    description:
+      What do you want other dancers to know about you? That's a place to
+      share your passion to dance. Present yourself, don't be shy!
+  contacts:
+    title: Contacts
+    description:
+      This information will be publicly available. Share your contacts
+      only if you want to be contacted by members. It's also nice place to share
+      your social media to get some attention.
+  calendars:
+    title: Calendars
+    description: Connect your Facebook or Google Calendar to add your events automatically.
+    newCalendarUrl:
+      label: New Calendar Url
+      description: You can add your Facebook Calendar, Google Calendar, Teamup calendar, or any other calendar that supports ical format.
+    submit: Add Calendar
+city:
+  anywhere: Anywhere
+  change: Change city
+role:
+  label: Role
+account:
+  email: Email
+  password: Password
+  name: Full Name
+  phone: Phone
+  zone: Timezone
+  emailConsent: I agree to receive emails from WeDance. I can unsubscribe from non-essential emails at any time.
+  emailConsentError: Please agree to receive emails to proceed.
+  newsletter:
+    label: What kind of updated would you like to receive weekly?
+    options:
+      party: 'Social/party events'
+      class: Dance classes
+      workshop: Workshops and bootcamps
+      online: Online dance classes
+      festival: International festivals
+  comment: Comment
+  withPartner:
+    label: Do you have a partner?
+  partnerName: Partner's name
+  partnerEmail: Partner's email
+agreement: By signing in, you agree to {terms} and {privacy}.
+terms: Terms of service
+privacy: Privacy policy
+register:
+  login: Login
+  submit: Register
+signin:
+  register: Create Account
+  nopassword: Forgot password
+  submit: Login
+nopassword:
+  signin: I have a password
+  google: Sign in with Google
+  facebook: Sign in with Facebook
+  email: Sign in with Email
+  submit: Send a magic link
+contacts:
+  email: Email
+  website: Website
+share:
+  title: Share
+  copy: Copy Link
+footer:
+  about: About us
+  getInvolved: Get Involved
+  support: Support
+  privacy: Privacy
+  terms: Terms
+  impressum: Imprint
+  coc: Code of Conduct
+  faq: FAQ
+  copyright: All rights reserved.
+feed:
+  add: Add post
+  title: Feed
+  newMessage:
+    input: Ask or share something about dance...
+    intent: post a message
+    submit: Send
+  category: Choose category
+  post: Post
+  event: Event
+  needPartner: Looking for partner
+  needEvents: Looking for events
+  needInstructor: Looking for instructor
+  trip: Offering trip
+  artist: Artist
+  venue: Venue
+  app: App
+  guide: Guide / How To
+  inspiration: Inspiration
+  question: Question
+  poll: Poll
+comments:
+  empty: There are no comments yet.
+  label: Comments
+sort:
+  popular: Popular
+  newest: Newest
+  hot: Hot
+  watching: Watching
+  starred: Starred
+  archived: Archived
+  yours: Yours
+import:
+  event:
+    sourceUrl:
+      label: Add existing event
+      description: Link to Facebook, Eventbrite, go&dance, and other SEO-optimized websites to easily import events. For more convenience, [sync your events](/settings/calendars) directly from platforms like Facebook and Google Calendar.
+    add: Create new event
+event:
+  save: Save
+  saved: Saved
+  attend: Attend
+  attendCallToAction: Add this event to your profile calendar and receive notifications by clicking “Attend” to join the guest list or “Save” to track without joining.
+  attending: Attending
+  getTicket: Get Ticket
+  limitRoles: Limited to {followers} followers and {leaders} leaders
+  limitTotal: Limited to {total} attendees
+  share: Share
+  guests: Guests
+  guestsHidden: Sign in to view guest list
+  commentsHidden: Sign in to view and write comments
+  artists: Artists
+  organiser: Organiser
+  gallery:
+    label: Photo Gallery
+    placeholder: https://
+    description: Here you can include link to Shared Google Photos Album for your guests to upload photos and videos of your event
+    action: Gallery
+  playlist:
+    label: Playlist
+    placeholder: https://
+    description: Here you can include link to Shared Spotify Playlist for your guests to request songs during your event
+    action: Playlist
+  paypal:
+    label: Paypal
+    placeholder: https://
+    description: Here you can include link to gather donations after your event
+    action: Donate
+  review:
+    label: Review
+    placeholder: https://
+    description: Here you can include link to gather reviews after your event
+    action: Review
+  category:
+    meetup: Dance
+    lesson: Learn
+    online: Online
+    travel: Travel
+  role:
+    dj: DJ
+    instructor: Instructor
+    taxi: Taxi Dancer
+    photographer: Photographer
+    musician: Musician
+    organiser: Organiser
+  name:
+    placeholder: Event Name
+    label: Name
+  description:
+    label: Description
+    placeholder: What do you offer? It shouldn’t take more than a minute to say or read
+    description: We will use only first 280 symbols of this text in our social media posts. Use this field to explain why people should join. Conditions on participation in the next field.
+    tips: 'Pitch yourself: Who are you? What do you offer? What do you want?\n\nTips for effective pitch:\n- Uncomplicated: It should be catchy and roll off the tongue\n- Concise: It shouldn’t take more than a minute to say or read\n- Unique: It reflects your skills, goals, and desires\n- Storyline: It covers who you are, what you offer, and where you want to be\n- Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer'
+  startDate: When?
+  endDate: End Date
+  venue: Venue
+  cover:
+    label: Cover
+    description: Instagram post size (1024x1024px). Better use photo from the last event, show the atmosphere. Images with white background don't look good on our flyers. We will add details of your event on top of this cover to create a flyer. You can see examples of our flyers on Instagram WeDanceMunich.
+  type: Event Format
+  duration:
+    label: How long?
+    thirtyMinutes: 30 minutes
+    oneHour: 60 minutes
+    ninetyMinutes: 1.5 hour
+    twoHours: 2 hours
+    threeHours: 3 hours
+    fourHours: 4 hours
+    fiveHours: 5 hours
+    custom: Custom
+  price:
+    label: Price
+    description: Please include currency, i.e. EUR, USD
+  styles:
+    label: Dance styles
+    description: We will use it as hashtags for Instagram and Telegram. Don't use more than three.
+  org:
+    label: Organiser
+    description: Who can answer questions about the event (is it still happening, how to find entrance, etc.)
+  venueProfile:
+    label: Venue
+    description: Where is it happening?
+  online:
+    label: Online?
+    description: Streaming via Zoom, Google Meet, Instagram Live, etc.?
+  international:
+    label: International
+    description: Is it a big event with >500 guests, like festival or congress?
+  place:
+    label: Region
+    description: In which Instagram and Telegram channel shall we announce this event? Pick biggest city near the event.
+  form:
+    label: External registration?
+    before: Do you use external platform to register for your event?
+  link:
+    label: Link to get tickets
+    placeholder: https://www.tickettailor.com/events/event-example
+    description: Provide a valid link, starting with https:// where to buy ticket or register. Try [TicketTailor](https://www.tickettailor.com/?ref=wedance), Eventbrite, Google Form or TiTo. Leave it blank if you don't have one.
+  facebook:
+    label: Facebook event
+    description: Link to your facebook event. Leave empty if you don't have one.
+  promo:
+    label: Announce on social media?
+    description: ''
+  confirmation:
+    label: Confirmation
+    description: This message will be shown after people joined the guest list. Explain next steps to participate in the event (ticket, payments, dress-code, invite friends, etc.)
+    placeholder: 'Example: You are on the guest list. Take your big smile and see you at the event!'
+  limit:
+    label: Limit
+    description: How many people can join the event? Leave it blank if you don't have a limit. "3/4" means 3 followers and 4 leaders. "10" means 10 people in total.
+TInputProfile:
+  changeRole: Change Role
+  actions: Actions
+  remove: Remove
+  import: Import
+  placeholder: Search on WeDance
+popup:
+  auth:
+    title: Members only
+    body: Sign in to {action}
+    signin: Sign in
+TButton:
+  title: Login to {action}
+TDropdown:
+  title: report or share
+TReaction:
+  watch: Watch
+  star: Star
+EventDashboard:
+  noAccess: Only event owner can access this area.
+  unlink: Unlink
+  couple: Couple
+  cancel: Cancel
+  checkIn: CheckIn
+  rsvp: RSVP
+  subscribed: Subscribed
+  paid: Paid
+  notPaid: Didn't Pay
+leadersCount: no leaders | 1 leader | {count} leaders
+followersCount: no followers | 1 follower | {count} followers
+loading: Loading...
+back: Back
+faqs:
+  calendars:
+    - question: How can I find my Facebook Calendar URL?
+      answer: Open on your laptop https://www.facebook.com/events/calendar. Right-click on "Add to Calendar" and select "Copy link address" to get your Facebook Calendar URL.
+    - question: Which calendars are supported?
+      answer: We support calendars that use the iCal format. This includes most popular calendar services like Google Calendar, Apple Calendar, Facebook Events, Teamup, and others. If your calendar supports iCal, you can sync it with WeDance.
+    - question: How often are the calendars synchronized?
+      answer: Calendars are synchronized daily at 16:00 Berlin time.
+    - question: Will all my events be imported?
+      answer: Only upcoming events that align with specific criteria will be imported to WeDance. To ensure relevance to our dance-focused community, imported events must include a public Facebook event link in their description and contain [keywords](/dance/keywords) that match various dance styles. This selective approach ensures that our platform remains dedicated to dance-related events, offering our users access to the most relevant and engaging dance activities available.
+    - question: Can I modify imported events?
+      answer: Yes, you can modify the details of the imported events on WeDance. However, changes made to events on WeDance won't be reflected back in your original calendar. It's important to ensure that the most accurate and up-to-date information is maintained in both places.
+    - question: Will changes made to my Facebook event be updated on WeDance?
+      answer: Events from Facebook are imported to WeDance only once. This means that any subsequent changes made to the event on Facebook, such as date changes, cancellations, or other updates, will not be automatically reflected on WeDance. To ensure accuracy, it's important for users to manually update the event information on WeDance if there are any changes after the initial import. We encourage event organizers to regularly check and update their event details to provide the most current information to the WeDance community.
+    - question: What should I do if an event is canceled or details change after importing?
+      answer: You will need to manually update this information on WeDance. We recommend regularly checking your events to ensure all information is current and accurate.
+    - question: How can I disconnect my calendar if I no longer want to sync events?
+      answer: You can disconnect your calendar at any time from the Integrations section in your Settings. Once disconnected, no further events will be imported from that calendar.
+    - question: Is my personal information secure when I connect my calendar?
+      answer: Yes, your privacy and security are paramount to us. We only use calendar access to import events and do not store any personal information from your calendar.
+calendar:
+  title: Dance Calendar
+  empty: No events found
+  upcoming: Upcoming
+  past: Past
+  addEvent: Add
+  filters:
+    style: Dance
+    level: Level
+  levels:
+    Beginner: Beginner
+    Intermediate: Intermediate
+    Advanced: Advanced
+  share:
+    text: Text
+    embed: Embed
+mainfaqs:
+  _head:
+    title: FAQ | Your Questions Answered | WeDance
+    description: Find answers to the most common questions about WeDance
+    keywords: WeDance FAQ, WeDance, dance FAQ, dance styles, dance community
+    header: Frequently Asked Questions
+    subheader: Find answers to the most common questions about WeDance
+  _titles:
+    general: General Questions
+    calendars: Calendar Features
+    askLocals: '"Ask Locals" Feature'
+    stylesAndFilters: Styles and Filters
+    account: Account & Profile Questions
+  general:
+    - question: What is WeDance?
+      answer: WeDance is a platform that streamlines the dance event experience. Discover parties, classes, festivals, get insider tips, and manage your dance calendar – all in one place.
+
+    - question: What cities are currently supported by WeDance?
+      answer: 'WeDance is currently active in [list of supported cities](/explore).'
+
+    - question: Is WeDance free to use?
+      answer: The core features of WeDance are free to use. We may offer premium features or subscriptions in the future, providing additional benefits for power users.
+
+    - question: How does WeDance make sure events are accurate and up-to-date?
+      answer: We use a combination of automated checks and community participation to maintain accurate event listings. Event organizers can submit events directly, and our users can flag outdated or incorrect information.
+
+    - question: Do I need an account to browse events on WeDance?
+      answer: No, you can browse events on WeDance without an account. However, creating an account gives you access to additional features like calendar syncing, personalized recommendations, and the ability to ask questions within the community.
+
+  calendars:
+    - question: How do I sync my existing calendar with WeDance?
+      answer: 'The process varies slightly depending on your calendar provider. You can find detailed instructions on [calendars settings page](/settings/calendars).'
+
+    - question: Can I add events directly to WeDance?
+      answer: 'Yes! You can submit your own dance events to WeDance. To ensure events are relevant to the community, please follow our [submission guidelines](/coc).'
+
+    - question: If an imported event changes, will it automatically update on WeDance?
+      answer: This depends on your calendar source. Some calendar providers directly update synced events; with others, you may need to make changes manually on WeDance.
+
+    - question: How far in advance can I see events on WeDance?
+      answer: While there's no specific time limit, WeDance focuses on upcoming events for the best user experience.
+
+  askLocals:
+    - question: What kind of questions can I ask the community?
+      answer: Feel free to ask for dance-related recommendations, tips, and guidance! Examples include finding the best socials, workshops for your experience level, or insight into the local dance scene.
+
+    - question: Who are the "Locals" answering questions?
+      answer: '"Locals" are experienced dancers living in the city you''re asking about.  They  have firsthand knowledge of the dance community and are passionate about sharing information.'
+
+    - question: How long does it typically take to get a response?
+      answer: We aim for responses within 48 hours, though response times can vary depending on the question's complexity.
+
+  stylesAndFilters:
+    - question: Which dance styles are supported by WeDance?
+      answer: We support a wide variety of dance styles, including [list of supported styles](/dance). We're always expanding our list, so let us know if your favorite style isn't included!
+
+    - question: Can I filter events by experience level (e.g., beginner, intermediate)?
+      answer: Yes! Our filters help you find events that match your skill level.
+
+    - question: Can I search for events based on specific keywords?
+      answer: Absolutely! Use our search feature and use keywords like event type, dance style, or location to narrow your results.
+
+  account:
+    - question: What benefits does creating an account provide?
+      answer: An account lets you sync your calendar, receive personalized recommendations, ask the "Locals" questions, save your favorite events, and more!
+
+    - question: Can I connect with other dancers or organizers through WeDance?
+      answer: Yes, WeDance is building features to help you connect with other members of the dance community. Stay tuned for exciting updates!
+
+    - question: How do I edit my WeDance profile?
+      answer: You can edit your profile from your account settings page. This lets you update your location, dance interests, and other information.
+Helpful: Helpful
+'Not Helpful': Not helpful
+Connect: Connect
+Connected: Conntected
+home:
+  title: WeDance - Travel. Meet. Dance.
+  hero:
+    header: Travel. Meet. **Dance.**
+    subheader: Find bachata, salsa, kizomba, and more dance events near you. Expand your dance world with socials, classes, and festivals.
+    action: Find your city
+    bottom: 'You can also [organize events](/organize) or [promote and earn](/promoter)'
+  features:
+    explore:
+      title: Socials, Classes, Festivals
+      description: Say goodbye to chaotic chats!
+      action: Explore Events
+    travel:
+      title: Where can I dance?
+      description: Get insider tips on the best socials in any city.
+      action: Ask Locals
+    partner:
+      title: Dance Partners
+      description: Find dance partners for your dance style and let them find you.
+      action: Find Partner
+  numbers:
+    title: WeDance in Numbers
+    countries: countries
+    cities: cities
+    profiles: members
+    events: events
+  founder: "**The Problem**
+
+
+    I'm a dance fanatic, always plugged into the local scene through countless WhatsApp groups. New dancers often ask me about upcoming parties, and it got overwhelming to keep track of everything.
+
+
+    **The Solution**
+
+
+    That's why I created WeDance! It's the one-stop-shop for dance events in your city. No more juggling chats or scrambling for information.
+
+
+    **Benefits for Dancers**
+
+    - **New in town?** Find the hottest parties instantly.
+
+    - **Friends curious about your dance plans?** Just send them your WeDance profile and let them pick their favorite events to join you.
+
+
+    Sounds amazing, right? Read [about WeDance](/about) and [get involved](/get-involved)!"
+explore:
+  nav:
+    festivals: Festivals
+    online: Online
+    experts: Q&A
+    parties: Parties
+    classes: Classes
+    profiles: Members
+    tips: Ask Locals
+  blog:
+    header: Dance Blog
+    subheader: Explore more about your favorite dance styles
+  dance:
+    keywords: dance styles, dance genres, dance history, dance culture
+    header: Dance Styles
+    subheader: Discover history, culture, and dance styles from around the world. Browse through a curated list of dance styles.
+  global:
+    keywords: '{style} dance festivals, {style} dance congresses, {style} dance holidays, {style} dance weekends, {style} dance trips, {style} dance travel'
+    header: '{style} Festivals Worldwide'
+    subheader: '{style} Dance Calendar for Travelers. Plan your holidays and weekends to dance Salsa, Bachata, Kizomba, Zouk and 130 other dances around the world.'
+  parties:
+    keywords: 'Where can I dance {style} in {city}, {style} dance parties {city}, {style} dance socials {city}, {style} dance nights {city}, {style} dance events {city}, {style} dance meetups {city}'
+    header: '{style} Parties in {city}'
+    subheader: Discover {style} parties in {city}, and get notified of new events before they sell out.
+  classes:
+    keywords: '{style} dance classes {city}, {style} dance courses {city}, {style} dance workshops {city}, {style} dance bootcamps {city}, {style} dance lessons {city}'
+    header: '{style} Classes in {city}'
+    subheader: Discover {style} classes in {city}, and get notified of new events before they sell out.
+  onlineclass:
+    keywords: '{style} online dance classes, online dance courses, online dance workshops, online dance bootcamps, online dance lessons'
+    header: '{style} Online Classes'
+    subheader: Can't make it in person? Take your {style} moves to the next level with our online class selection.
+  overview:
+    keywords: dance groups {city}, dance influencers {city}, dance communities {city}, dance networks {city}, dance collectives {city}
+    header: Dance in {city}
+    subheader: Discover {style} in {city}, and get notified of new events before they sell out.
+  tips:
+    keywords: dance tips {city}, dance recommendations {city}, dance insights {city}, dance advice {city}, dance suggestions {city}
+    header: Ask {city}
+    subheader: Find real-time recommendations and get local insights directly from dancers from {city}. Choose your preferred dance style for tailored tips, or ask the community for personalized recommendations. Expect responses typically within 48 hours.
+teaser:
+  profile:
+    title: Publish your profile
+    description: so that others can contact you
+    btn: Join for free
+  feed:
+    title: Need More?
+    description: Skip the search—ask local dancers for event tips in any city!
+    btn: Ask Locals
+nav:
+  about: About
+  search: Search
+  explore: Explore
+  events: Events
+  festivals: Festivals
+  global: Global
+  local: Local
+  partner: Find Partner
+  dance: Dance Styles
+  contribute: Contribute
+  addEvent: Event
+  addReview: Recommend
+  chat: Chat
+  bookmarks: Bookmarks
+  myProfile: My Profile
+  settings: Settings
+pronounce:
+  she: She / Her
+  he: He / Him
+  they: They / Them
+landing:
+  follow:
+    description: Join us on social media for the latest news
