@@ -79,6 +79,6 @@
     "prettier-plugin-tailwindcss": "^0.5.12",
     "prisma": "^5.22.0",
     "start-server-and-test": "^2.0.10",
-    "vitest": "^3.0.4"
+    "vitest": "^3.0.5"
   }
 }
