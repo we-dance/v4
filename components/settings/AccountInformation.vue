@@ -7,9 +7,10 @@ import { userSchema, type User } from '~/schemas/user'
 
 const { data } = useAppAuth()
 
+// @todo: account settings: add timezone
 const form = useForm({
   validationSchema: toTypedSchema(userSchema),
-  initialValues: data.value?.user,
+  initialValues: userSchema.safeParse(data.value?.user).data,
 })
 
 const { $client } = useNuxtApp()
