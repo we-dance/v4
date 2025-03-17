@@ -44,7 +44,6 @@ watchEffect(async () => {
     isUpdating.value = false
   }
 })
-
 </script>
 
 <template>
