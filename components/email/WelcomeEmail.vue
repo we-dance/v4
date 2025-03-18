@@ -69,24 +69,14 @@ defineProps<{
 
       <!-- Call to Actions -->
       <div class="space-y-3">
-        <Button
-          variant="primary"
-          class="w-full"
-          :href="dashboardUrl"
-        >
+        <Button variant="primary" class="w-full" :href="dashboardUrl">
           Go to Dashboard
         </Button>
         <div class="grid grid-cols-2 gap-3">
-          <Button
-            variant="outline"
-            :href="classesUrl"
-          >
+          <Button variant="outline" :href="classesUrl">
             Find Your First Dance Class
           </Button>
-          <Button
-            variant="outline"
-            :href="profileUrl"
-          >
+          <Button variant="outline" :href="profileUrl">
             Complete Your Profile
           </Button>
         </div>
@@ -107,4 +97,4 @@ defineProps<{
       </div>
     </div>
   </div>
-</template> 
+</template>
