@@ -22,6 +22,8 @@ WeDance is a participatory network that empowers dance communities by providing 
 - [Cursor IDE](https://www.cursor.com/)
 - [Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - **Windows Users**: Use Gitbash terminal in Cursor
+- **Node.js**: Version 18 or higher (recommended: latest stable)
+- **npm**: Ensure you are using the latest version
 
 ## 🛠️ Setup
 
@@ -63,6 +65,33 @@ make import
 
 Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
+6. ⚙️ **Node & Dependency Versions**
+
+Ensure that you are using the following versions:
+
+- **Node.js**: Version 18 or higher (preferably the latest stable release)
+- **npm**: Latest version
+
+To check your Node.js and npm versions:
+
+```bash
+node -v
+npm -v
+```
+
+If you need to update them, use the following commands:
+
+- To update Node.js:
+```bash
+nvm install node
+```
+- To update npm:
+```bash
+npm install -g npm
+```
+
+
+
 ## Troubleshooting
 
 - **Error 500: Invalid `prisma.$queryRaw()` invocation**: Raw query failed. Code: `42883`. Message: `ERROR: function ll_to_earth(numeric, numeric) does not exist HINT: No function matches the given name and argument types. You might need to add explicit type casts.`
@@ -83,6 +112,25 @@ Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
   - Make sure Docker Desktop is running
   - Try restarting Docker Desktop
   - Run `docker compose down` and then `make build` again
+    
+- **File Table Overflow or Too Many Open Files**: If you encounter ENFILE: file table overflow or too many open files errors, check your system’s default file limit using the following command:
+```bash
+ulimit -n
+```
+To increase the limit to the maximum, run:
+```bash
+ulimit -n 100000
+```
+
+- **503 Error on Localhost**: If you encounter a 503 error on localhost, clear all the cache by running the following:
+```bash
+rm -rf node_modules .nuxt .vite .pnpm-store package-lock.json yarn.lock
+```
+- Then rebuild the project and restart the server:
+```bash
+make build
+make start
+```
 
 ## 📁 AI-First Development
 
@@ -111,16 +159,20 @@ AI will act like your personal secretary, answer any questions about business, d
 
 ## 📁 Project Structure
 
-- `/components` - Reusable Vue components
-- `/content` - Markdown content and documentation
-- `/docs` - Project documentation
-- `/pages` - Application routes
-- `/stores` - Pinia state stores
-- `/composables` - Vue composables
-- `/server` - Server-side code
-- `/types` - TypeScript type definitions
-- `/utils` - Utility functions
-- `/schemas` - Zod validation schemas
+```bash
+v4/
+├── components/       # Reusable Vue components  
+├── content/          # Markdown content and documentation  
+├── docs/             # Project documentation  
+├── pages/            # Application routes  
+├── stores/           # Pinia state stores  
+├── composables/      # Vue composables  
+├── server/           # Server-side code  
+├── types/            # TypeScript type definitions  
+├── utils/            # Utility functions  
+└── schemas/          # Zod validation schemas  
+
+```
 
 ## Documentation
 
