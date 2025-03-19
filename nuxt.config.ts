@@ -54,7 +54,8 @@ export default defineNuxtConfig({
   googleFonts: {
     download: true,
     families: {
-      'Noto+Sans': [300, 400, 500, 600, 700, 800],
+      'Nunito+Sans': [300, 400, 500, 600, 700, 800],
+      'Roboto+Mono': [400, 500, 600, 700],
     },
     display: 'swap',
     prefetch: true,
