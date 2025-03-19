@@ -29,4 +29,4 @@ const handleCancel = () => {
   <div class="container mx-auto py-8">
     <EventForm @submit="handleSubmit" @cancel="handleCancel" />
   </div>
-</template> 
+</template>

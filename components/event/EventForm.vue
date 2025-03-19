@@ -53,7 +53,9 @@ const { handleSubmit, values, errors } = useForm({
 const onSubmit = handleSubmit((values) => {
   try {
     emit('submit', values)
-    toast.success(props.isEdit ? 'Event updated successfully' : 'Event created successfully')
+    toast.success(
+      props.isEdit ? 'Event updated successfully' : 'Event created successfully'
+    )
   } catch (error) {
     toast.error('Something went wrong. Please try again.')
   }
@@ -62,7 +64,13 @@ const onSubmit = handleSubmit((values) => {
 const addPrice = () => {
   values.prices = [
     ...(values.prices || []),
-    { id: crypto.randomUUID(), name: '', description: '', amount: 0, currency: 'EUR' },
+    {
+      id: crypto.randomUUID(),
+      name: '',
+      description: '',
+      amount: 0,
+      currency: 'EUR',
+    },
   ]
 }
 
@@ -88,7 +96,8 @@ const removeScheduleItem = (index: number) => {
       <CardHeader>
         <CardTitle>{{ isEdit ? 'Edit Event' : 'Create New Event' }}</CardTitle>
         <CardDescription>
-          Fill in the details below to {{ isEdit ? 'update' : 'create' }} your event
+          Fill in the details below to {{ isEdit ? 'update' : 'create' }} your
+          event
         </CardDescription>
       </CardHeader>
       <CardContent class="space-y-6">
@@ -108,7 +117,11 @@ const removeScheduleItem = (index: number) => {
             <div class="space-y-2">
               <Label for="type">Event Type</Label>
               <Select v-model="values.type" :error="errors.type">
-                <option v-for="type in eventTypes" :key="type.value" :value="type.value">
+                <option
+                  v-for="type in eventTypes"
+                  :key="type.value"
+                  :value="type.value"
+                >
                   {{ type.label }}
                 </option>
               </Select>
@@ -353,4 +366,4 @@ const removeScheduleItem = (index: number) => {
       </CardFooter>
     </Card>
   </form>
-</template> 
+</template>
