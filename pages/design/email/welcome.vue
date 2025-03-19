@@ -2,7 +2,7 @@
 import WelcomeEmailDoc from '~/components/email/welcome.vue'
 
 definePageMeta({
-  layout: 'design'
+  layout: 'design',
 })
 </script>
 
