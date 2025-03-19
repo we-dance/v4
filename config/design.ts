@@ -37,6 +37,11 @@ export const designConfig = {
             label: 'Dialog',
             description: 'Modal windows and overlays',
           },
+          {
+            to: '/design/components/email',
+            label: 'Welcome Email',
+            description: 'Email templates for platform communications',
+          },
         ],
       },
       domain: {
