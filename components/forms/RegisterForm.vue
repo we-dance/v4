@@ -3,8 +3,10 @@ import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
 import { registerSchema } from '~/schemas/user'
+import { ref } from 'vue'
 
 const { login } = useAppAuth()
+const showPassword = ref(false)
 
 const form = useForm({
   validationSchema: toTypedSchema(registerSchema),
@@ -70,11 +72,26 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Password</FormLabel>
         <FormControl>
-          <Input
-            v-bind="componentField"
-            type="password"
-            autocomplete="new-password"
-          />
+          <div class="relative">
+            <Input
+              v-bind="componentField"
+              :type="showPassword ? 'text' : 'password'"
+              placeholder="Create a password"
+              autocomplete="new-password"
+            />
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              class="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
+              @click="showPassword = !showPassword"
+            >
+              <Icon 
+                :name="showPassword ? 'lucide:eye-off' : 'lucide:eye'" 
+                class="h-4 w-4 text-muted-foreground"
+              />
+            </Button>
+          </div>
         </FormControl>
         <FormDescription />
         <PasswordStrengthIndicator :password="form.values.password || ''" />
