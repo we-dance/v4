@@ -238,3 +238,13 @@ export const courseSchema = z.object({
 })
 
 export type Course = z.infer<typeof courseSchema>
+
+export const courseFormSchema = z.object({
+  title: z.string().min(3, 'Title must be at least 3 characters'),
+  description: z.string().min(10, 'Description must be at least 10 characters'),
+  price: z.number().min(0, 'Price must be a positive number'),
+  videoUrl: z.string().url('Please provide a valid video URL').optional(),
+  materials: z.array(z.string()).optional()
+})
+
+export type CourseFormData = z.infer<typeof courseFormSchema>
