@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💃 Your Dance Class Awaits! 🕺 - WeDance</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f5;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      position: relative;
+    }
+    .logo {
+      max-width: 150px;
+      height: auto;
+    }
+    .view-in-browser {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+      color: #64748b;
+      text-decoration: none;
+    }
+    .view-in-browser:hover {
+      color: #3b82f6;
+      text-decoration: underline;
+    }
+    .content {
+      padding: 30px 20px;
+    }
+    .greeting {
+      font-size: 18px;
+      color: #1e293b;
+      margin-bottom: 24px;
+    }
+    .class-details {
+      background-color: #f8fafc;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 24px 0;
+      border: 1px solid #e5e7eb;
+    }
+    .class-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 16px;
+      line-height: 1.3;
+      text-align: center;
+    }
+    .class-info-item {
+      display: flex;
+      align-items: center;
+      margin: 12px 0;
+      padding: 8px 0;
+      border-bottom: 1px solid #e5e7eb;
+      font-size: 16px;
+    }
+    .class-info-item:last-child {
+      border-bottom: none;
+    }
+    .tips-section {
+      background-color: #f0f9ff;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 24px 0;
+      border: 1px solid #bae6fd;
+    }
+    .tips-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #0369a1;
+      margin-bottom: 16px;
+    }
+    .tips-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .tips-list li {
+      margin: 12px 0;
+      padding-left: 28px;
+      position: relative;
+      color: #1e293b;
+    }
+    .tips-list li::before {
+      content: "✨";
+      position: absolute;
+      left: 0;
+      color: #0369a1;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #3b82f6;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      margin: 24px 0;
+      font-size: 16px;
+      text-align: center;
+      transition: background-color 0.2s ease;
+    }
+    .cta-button:hover {
+      background-color: #2563eb;
+    }
+    .footer {
+      text-align: center;
+      padding: 24px;
+      color: #64748b;
+      font-size: 14px;
+      border-top: 1px solid #e5e7eb;
+      background-color: #f8fafc;
+    }
+    .social-links {
+      margin: 20px 0;
+    }
+    .social-links a {
+      margin: 0 12px;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+    .signature {
+      font-size: 16px;
+      color: #1e293b;
+      margin: 24px 0;
+      font-weight: 500;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 0;
+      }
+      .header {
+        padding: 16px;
+      }
+      .view-in-browser {
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+      }
+      .content {
+        padding: 20px 16px;
+      }
+      .class-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://wedance.vip/logo.png" alt="WeDance Logo" class="logo">
+      <a href="{{viewInBrowserUrl}}" class="view-in-browser">View in Browser</a>
+    </div>
+
+    <div class="content">
+      <h1 class="class-title">💃 Your Dance Class Awaits! 🕺</h1>
+      
+      <p class="greeting">Hi {{studentName}}!</p>
+      
+      <p>Just a friendly reminder—your next exciting dance class is almost here! Get ready to groove, learn, and have a blast.</p>
+
+      <div class="class-details">
+        <div class="class-info-item">
+          <span>📅 Class #110 — {{classDate}}</span>
+        </div>
+        <div class="class-info-item">
+          <span>🕒 Time: {{classTime}}</span>
+        </div>
+        <div class="class-info-item">
+          <span>📍 Location: {{classLocation}}</span>
+        </div>
+        <div class="class-info-item">
+          <span>👟 Instructor: {{instructorName}}</span>
+        </div>
+      </div>
+
+      <div class="tips-section">
+        <h2 class="tips-title">Quick Tips for Class Success:</h2>
+        <ul class="tips-list">
+          <li>⏰ Arrive Early: Swing by 10 minutes early and get warmed up!</li>
+          <li>👟 Dance Shoes: Grab your favorite comfortable dance shoes.</li>
+          <li>💦 Stay Hydrated: Don't forget your water bottle!</li>
+          <li>👕 Comfort First: Wear clothing you can move freely in.</li>
+        </ul>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="{{classLink}}" class="cta-button">👉 View Full Class Details</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social-links">
+        <a href="https://instagram.com/wedance">Instagram</a>
+        <a href="https://facebook.com/wedance">Facebook</a>
+        <a href="https://twitter.com/wedance">Twitter</a>
+      </div>
+      <p class="signature">Let's dance!</p>
+      <p>Your WeDance Team</p>
+      <p>© 2024 WeDance. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
