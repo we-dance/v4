@@ -21,6 +21,17 @@ const sections = [
     ...designConfig.patterns,
     links: designConfig.patterns.items,
   },
+  {
+    label: 'Email Templates',
+    description: 'Email templates used throughout the application for various communications.',
+    links: [
+      {
+        label: 'Class Reminder',
+        to: '/design/emails/class-reminder',
+        description: 'Email template for class reminders sent to students',
+      },
+    ],
+  },
 ]
 </script>
 
