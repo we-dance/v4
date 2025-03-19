@@ -18,6 +18,18 @@ const sections = [
     ],
   },
   {
+    label: 'Emails',
+    description: 'Email templates for the platform',
+    links: [
+      {
+        to: '/design/email/welcome',
+        label: 'Welcome Email',
+        description:
+          'A personalized welcome email sent to new users after registration',
+      },
+    ],
+  },
+  {
     ...designConfig.patterns,
     links: designConfig.patterns.items,
   },

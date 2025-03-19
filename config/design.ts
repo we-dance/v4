@@ -37,11 +37,6 @@ export const designConfig = {
             label: 'Dialog',
             description: 'Modal windows and overlays',
           },
-          {
-            to: '/design/components/email',
-            label: 'Welcome Email',
-            description: 'Email templates for platform communications',
-          },
         ],
       },
       domain: {
@@ -70,6 +65,18 @@ export const designConfig = {
         ],
       },
     },
+  },
+  emails: {
+    label: 'Emails',
+    description: 'Email templates for the platform',
+    items: [
+      {
+        to: '/design/email/welcome',
+        label: 'Welcome Email',
+        description:
+          'A personalized welcome email sent to new users after registration',
+      },
+    ],
   },
   patterns: {
     label: 'Patterns',
