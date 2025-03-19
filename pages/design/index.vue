@@ -23,7 +23,8 @@ const sections = [
   },
   {
     label: 'Email Templates',
-    description: 'Email templates used throughout the application for various communications.',
+    description:
+      'Email templates used throughout the application for various communications.',
     links: [
       {
         label: 'Class Reminder',
