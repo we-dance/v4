@@ -17,7 +17,7 @@
                 v-for="item in navigationItems"
                 :key="item.to"
                 :to="item.to"
-                class="flex items-center gap-2 transition-colors"
+                class="flex items-center gap-2 transition-colors" 
                 :class="[
                   route.path === item.to
                     ? 'text-primary'
@@ -58,6 +58,7 @@ const navigationItems = [
   { to: '/admin/events', label: 'Events', icon: 'lucide:calendar' },
   { to: '/admin/bookings', label: 'Bookings', icon: 'lucide:ticket' },
   { to: '/admin/calendar', label: 'Calendar', icon: 'lucide:calendar-days' },
+  { to: '/admin/courses', label: 'Courses', icon: 'lucide:book-open' },
 ]
 
 const handleSignOut = async () => {
