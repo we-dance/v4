@@ -19,4 +19,4 @@ definePageMeta({
       </div>
     </div>
   </div>
-</template> 
+</template>

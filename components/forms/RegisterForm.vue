@@ -86,8 +86,8 @@ const onSubmit = form.handleSubmit(
               class="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
               @click="showPassword = !showPassword"
             >
-              <Icon 
-                :name="showPassword ? 'lucide:eye-off' : 'lucide:eye'" 
+              <Icon
+                :name="showPassword ? 'lucide:eye-off' : 'lucide:eye'"
                 class="h-4 w-4 text-muted-foreground"
               />
             </Button>

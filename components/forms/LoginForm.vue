@@ -49,8 +49,8 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Email</FormLabel>
         <FormControl>
-          <Input 
-            v-bind="componentField" 
+          <Input
+            v-bind="componentField"
             type="email"
             placeholder="Enter your email"
             :disabled="isLoading"
@@ -65,8 +65,8 @@ const onSubmit = form.handleSubmit(
         <FormLabel>Password</FormLabel>
         <FormControl>
           <div class="relative">
-            <Input 
-              v-bind="componentField" 
+            <Input
+              v-bind="componentField"
               :type="showPassword ? 'text' : 'password'"
               placeholder="Enter your password"
               :disabled="isLoading"
@@ -78,8 +78,8 @@ const onSubmit = form.handleSubmit(
               class="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
               @click="showPassword = !showPassword"
             >
-              <Icon 
-                :name="showPassword ? 'lucide:eye-off' : 'lucide:eye'" 
+              <Icon
+                :name="showPassword ? 'lucide:eye-off' : 'lucide:eye'"
                 class="h-4 w-4 text-muted-foreground"
               />
             </Button>
@@ -93,17 +93,14 @@ const onSubmit = form.handleSubmit(
       <FormField v-slot="{ componentField }" name="rememberMe">
         <FormItem class="flex flex-row items-center space-x-2 space-y-0">
           <FormControl>
-            <Checkbox 
-              v-bind="componentField" 
-              :disabled="isLoading"
-            />
+            <Checkbox v-bind="componentField" :disabled="isLoading" />
           </FormControl>
           <FormLabel class="text-sm font-normal">Remember me</FormLabel>
         </FormItem>
       </FormField>
 
-      <NuxtLink 
-        to="/forgot-password" 
+      <NuxtLink
+        to="/forgot-password"
         class="text-sm text-primary hover:text-primary/90"
         :class="{ 'pointer-events-none opacity-50': isLoading }"
       >
@@ -112,11 +109,7 @@ const onSubmit = form.handleSubmit(
     </div>
 
     <div class="space-y-4">
-      <Button 
-        type="submit" 
-        class="w-full"
-        :disabled="isLoading"
-      >
+      <Button type="submit" class="w-full" :disabled="isLoading">
         <Icon
           v-if="isLoading"
           name="lucide:loader-2"
@@ -137,20 +130,16 @@ const onSubmit = form.handleSubmit(
       </div>
 
       <div class="grid grid-cols-2 gap-4">
-        <Button 
-          type="button" 
-          variant="outline" 
+        <Button
+          type="button"
+          variant="outline"
           :disabled="isLoading"
           @click="login('facebook')"
         >
           <Icon name="lucide:facebook" class="mr-2 h-4 w-4" />
           Facebook
         </Button>
-        <Button 
-          type="button" 
-          variant="outline" 
-          :disabled="isLoading"
-        >
+        <Button type="button" variant="outline" :disabled="isLoading">
           <Icon name="lucide:google" class="mr-2 h-4 w-4" />
           Google
         </Button>

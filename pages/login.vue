@@ -16,8 +16,8 @@
 
       <div class="text-center text-sm text-muted-foreground mt-6">
         Don't have an account?
-        <NuxtLink 
-          to="/register" 
+        <NuxtLink
+          to="/register"
           class="text-primary hover:text-primary/90 font-medium"
         >
           Create one now
