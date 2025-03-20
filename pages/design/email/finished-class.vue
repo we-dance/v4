@@ -15,7 +15,7 @@ const sampleData = {
   classDate: new Date().toLocaleDateString(),
   classTime: '19:00 - 20:30',
   instructorName: 'Maria Rodriguez',
-  feedbackUrl: `${process.env.BASE_URL || 'http://localhost:3000'}/events/sample-id/feedback?userId=sample-user-id`,
+  feedbackUrl: '/events/sample-id/feedback?userId=sample-user-id',
   similarClasses: [
     {
       id: 'class-1',
@@ -28,7 +28,7 @@ const sampleData = {
       description: 'Take your Salsa skills to the next level'
     }
   ],
-  unsubscribeUrl: `${process.env.BASE_URL || 'http://localhost:3000'}/settings/notifications`
+  unsubscribeUrl: '/settings/notifications'
 }
 
 const email = generateClassFinishedEmail(sampleData)
