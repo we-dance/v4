@@ -6,7 +6,6 @@ import VenueBookingDialog from './VenueBookingDialog.vue'
 import VenueAreaDetailsDialog from './VenueAreaDetailsDialog.vue'
 import SearchDialog from './SearchDialog.vue'
 import CourseReviewDialog from './CourseReviewDialog.vue'
-import InstructorProfileDialog from './InstructorProfileDialog.vue'
 
 export const dialogs = {
   PricingOptionsDialog,
@@ -17,5 +16,4 @@ export const dialogs = {
   VenueAreaDetailsDialog,
   SearchDialog,
   CourseReviewDialog,
-  InstructorProfileDialog,
 }
