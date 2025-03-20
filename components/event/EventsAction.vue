@@ -15,7 +15,7 @@ const navigateToCreate = () => {
     setTimeout(() => {
       router.push({
         name: 'auth-signin',
-        query: { redirect: '/events/create' }
+        query: { redirect: '/events/create' },
       })
     }, 1000)
   }
@@ -29,4 +29,4 @@ const navigateToCreate = () => {
       Create Event
     </Button>
   </div>
-</template> 
+</template>
