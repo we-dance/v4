@@ -357,7 +357,7 @@ const handleSubmit = async () => {
           stripeDialog.value = true
           // to stripe checkout page (test page)
           console.log('Redirecting to stripe checkout')
-          await new Promise((resolve) => setTimeout(resolve, 5000))
+          // await new Promise((resolve) => setTimeout(resolve, 5000))
           // window.location.href = stripeData.url
         } else {
           console.error('Stripe payment URL not found')
@@ -366,12 +366,9 @@ const handleSubmit = async () => {
         stripeDialog.value = true
         currentPricingTableId.value = pricingTableId.value
         currentPublishableKey.value = publishableKey.value
-        await new Promise((resolve) => setTimeout(resolve, 5000))
+        // await new Promise((resolve) => setTimeout(resolve, 5000))
       }
-      stripeDialog.value = false
-      const baseUrl = window.location.origin
-      const successUrl = `${baseUrl}/checkout/${item.value.id}/success`
-      window.location.href = successUrl
+      // stripeDialog.value = false
       // in success.vue:
       // change lesson status to locked: true
       // Redirect to success page
@@ -387,6 +384,9 @@ const handleStripeDialogClose = () => {
   console.log('Stripe dialog closed')
   stripeDialog.value = false
   stripeUrl.value = ''
+  const baseUrl = window.location.origin
+  const successUrl = `${baseUrl}/checkout/${item.value?.id}/success`
+  window.location.href = successUrl
 }
 
 // Add at the top of the script
