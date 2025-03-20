@@ -89,7 +89,7 @@ const stripeUrl = ref<string>('')
 const uid = ref<string>('')
 const orgId = ref<string>('')
 // different stripe display options
-const isInternalPayment = ref(false)
+const isInternalPayment = ref(true)
 const currentPricingTableId = ref<string>('')
 const currentPublishableKey = ref<string>('')
 
@@ -352,13 +352,13 @@ const handleSubmit = async () => {
         // After POST req(with backend), get link from response
         const stripeData = await handleStripeCheckout(uid.value, orgId.value)
         // For now, we'll simulate a successful booking
-        // await new Promise((resolve) => setTimeout(resolve, 10000))
         if (stripeData && stripeData.url) {
           stripeUrl.value = stripeData.url
           stripeDialog.value = true
           // to stripe checkout page (test page)
           console.log('Redirecting to stripe checkout')
-          window.location.href = stripeData.url
+          await new Promise((resolve) => setTimeout(resolve, 5000))
+          // window.location.href = stripeData.url
         } else {
           console.error('Stripe payment URL not found')
         }
@@ -366,11 +366,16 @@ const handleSubmit = async () => {
         stripeDialog.value = true
         currentPricingTableId.value = pricingTableId.value
         currentPublishableKey.value = publishableKey.value
+        await new Promise((resolve) => setTimeout(resolve, 5000))
       }
+      stripeDialog.value = false
+      const baseUrl = window.location.origin
+      const successUrl = `${baseUrl}/checkout/${item.value.id}/success`
+      window.location.href = successUrl
       // in success.vue:
       // change lesson status to locked: true
       // Redirect to success page
-      // navigateTo(`/checkout/${item.value.id}/success`)
+      // navigateTo(`/checkout/${item.value.id}/success`
     }
   } catch (e) {
     console.error('Checkout failed:', e)
