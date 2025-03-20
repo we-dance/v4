@@ -7,6 +7,9 @@
     }
   ],
   "env": {
-    "BASE_URL": "https://v4-git-feature-207-finished-class-email-wedance.vercel.app"
+    "BASE_URL": "https://v4-git-feature-207-finished-class-email-wedance.vercel.app",
+    "DATABASE_URL": "postgresql://postgres:postgres@localhost:5432/wedance",
+    "COMPANY_ADDRESS": "WeDance Community",
+    "NODE_ENV": "production"
   }
 } 

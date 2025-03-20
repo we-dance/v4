@@ -109,6 +109,9 @@ const props = [
             <div class="w-3 h-3 rounded-full bg-green-500"></div>
           </div>
           <div class="p-8 bg-white">
+            <div class="mb-8 text-center">
+              <img src="https://wedance.vip/logo.svg" alt="WeDance Logo" class="h-8 mx-auto" />
+            </div>
             <div v-html="email.html"></div>
           </div>
         </div>

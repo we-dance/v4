@@ -29,7 +29,7 @@ export function generateClassFinishedEmail(data: ClassFinishedEmailData) {
     unsubscribeUrl,
   } = data
 
-  const subject = `Great Job! How Was Your ${className}?`
+  const subject = `How was your ${className} class?`
 
   const html = `
     <!DOCTYPE html>
@@ -151,7 +151,7 @@ export function generateClassFinishedEmail(data: ClassFinishedEmailData) {
           <div class="header">
             <div style="text-align: center; margin-bottom: 32px;">
               <img 
-                src="${process.env.BASE_URL}/logo.svg" 
+                src="https://wedance.vip/logo.svg"
                 alt="WeDance Logo" 
                 style="height: 32px; margin: 0 auto;"
               />
