@@ -79,6 +79,11 @@ export default defineEventHandler(async (event) => {
       id: { not: eventDetails.id },
       startDate: { gt: new Date() },
     },
+    select: {
+      id: true,
+      name: true,
+      description: true,
+    },
     take: 3,
     orderBy: { startDate: 'asc' },
   })
@@ -94,7 +99,7 @@ export default defineEventHandler(async (event) => {
         className: eventDetails.name,
         classDate: eventDetails.startDate.toLocaleDateString(),
         classTime: `${eventDetails.startDate.toLocaleTimeString()} - ${eventDetails.endDate.toLocaleTimeString()}`,
-        instructorName: `${eventDetails.organizer.name}`,
+        instructorName: eventDetails.organizer.name,
         feedbackUrl: `${process.env.BASE_URL}/events/${eventDetails.id}/feedback?userId=${guest.profile.user.id}`,
         similarClasses: similarEvents,
         unsubscribeUrl: `${process.env.BASE_URL}/settings/notifications`,
