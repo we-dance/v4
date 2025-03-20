@@ -75,9 +75,18 @@ const handleClose = () => {
 
           <!-- Alert message - moved to top for better visibility -->
           <div class="px-6 py-3 bg-warning/15 border-b border-warning/25">
-            <p class="text-warning-foreground text-sm font-medium flex items-center">
-              <Icon name="ph:warning-circle" class="w-5 h-5 mr-2 flex-shrink-0" />
-              <span>Demo mode: Please don't click anything in the pricing table. You will be redirected to the success page in a few seconds.</span>
+            <p
+              class="text-warning-foreground text-sm font-medium flex items-center"
+            >
+              <Icon
+                name="ph:warning-circle"
+                class="w-5 h-5 mr-2 flex-shrink-0"
+              />
+              <span
+                >Demo mode: Please don't click anything in the pricing table.
+                You will be redirected to the success page in a few
+                seconds.</span
+              >
             </p>
           </div>
 
