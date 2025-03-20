@@ -47,55 +47,40 @@ const handleClose = () => {
   <teleport to="body">
     <div
       v-if="isOpen"
-      class="fixed w-full h-full top-0 left-0 flex items-end md:items-center justify-center"
-      style="z-index: 100"
+      class="fixed inset-0 z-50 flex items-end md:items-center justify-center"
     >
       <!-- background overlay -->
       <div
-        class="fixed w-full h-full top-0 left-0 bg-black opacity-50 z-30"
+        class="fixed inset-0 bg-black/80 z-30 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0"
         @click="handleClose"
       ></div>
 
       <!-- dialog body -->
       <transition appear name="slide-up">
         <div
-          class="bg-background rounded-lg w-full md:w-[550px] z-40 max-h-[90vh] overflow-hidden flex flex-col"
+          class="bg-background border border-border rounded-lg w-full md:w-[550px] z-40 max-h-[90vh] overflow-hidden flex flex-col shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95"
         >
           <!-- title bar -->
-          <div class="flex justify-between items-center px-6 py-4 border-b">
+          <div class="flex justify-between items-center px-6 py-4 border-b border-border">
             <h3 class="text-lg font-semibold text-foreground">{{ title }}</h3>
             <button
               v-if="!noClose"
-              class="text-muted-foreground hover:text-foreground transition-colors"
+              class="rounded-sm text-muted-foreground hover:text-foreground hover:bg-secondary p-0.5 transition-colors"
               @click="emit('close')"
             >
-              <Icon name="ph:x" class="w-5 h-5" />
+              <Icon name="ph:x" class="w-4 h-4" />
+              <span class="sr-only">Close</span>
             </button>
           </div>
 
-          <!-- Alert message - moved to top for better visibility -->
-          <div class="px-6 py-3 bg-warning/15 border-b border-warning/25">
-            <p
-              class="text-warning-foreground text-sm font-medium flex items-center"
-            >
-              <Icon
-                name="ph:warning-circle"
-                class="w-5 h-5 mr-2 flex-shrink-0"
-              />
-              <span
-                >Demo mode: Please don't click anything in the pricing table.
-                You will be redirected to the success page in a few
-                seconds.</span
-              >
-            </p>
-          </div>
-
           <!-- Stripe Pricing Table container -->
-          <div class="flex-1 w-full p-4 overflow-auto">
-            <stripe-pricing-table
+          <div class="flex-1 w-full p-6 space-y-4 overflow-auto">
+            <!-- <stripe-pricing-table
               :pricing-table-id="pricingTableId"
               :publishable-key="publishableKey"
-            />
+            /> -->
+            <p class="text-base text-muted-foreground mb-6">Here will implemnt Stripe Pricing Table while backend is ready</p>
+            <Button variant="primary" size="lg" class="w-full mt-2" @click="handleClose">Continue</Button>
           </div>
         </div>
       </transition>
