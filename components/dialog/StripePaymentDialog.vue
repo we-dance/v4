@@ -80,6 +80,13 @@ const handleClose = () => {
               :publishable-key="publishableKey"
             />
           </div>
+          <div class="px-6 py-3 bg-amber-50 border-t border-amber-200">
+            <p class="text-amber-800 text-sm font-medium flex items-center">
+              <Icon name="ph:warning-circle" class="w-5 h-5 mr-2" />
+              Demo mode: Please don't click anything in the pricing table. You
+              will be redirected to the success page in a few seconds.
+            </p>
+          </div>
         </div>
       </transition>
     </div>
