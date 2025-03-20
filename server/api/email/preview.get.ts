@@ -7,7 +7,7 @@ export default defineEventHandler(async (event) => {
     classDate: new Date().toLocaleDateString(),
     classTime: '19:00 - 20:30',
     instructorName: 'Maria Rodriguez',
-    feedbackUrl: `${process.env.BASE_URL}/events/sample-id/feedback?userId=sample-user-id`,
+    feedbackUrl: 'https://wedance.vip/events/sample-id/feedback?userId=sample-user-id',
     similarClasses: [
       {
         id: 'class-1',
@@ -20,10 +20,11 @@ export default defineEventHandler(async (event) => {
         description: 'Take your Salsa skills to the next level'
       }
     ],
-    unsubscribeUrl: `${process.env.BASE_URL}/settings/notifications`
+    unsubscribeUrl: 'https://wedance.vip/settings/notifications'
   }
 
   const email = generateClassFinishedEmail(sampleData)
   
+  event.node.res.setHeader('Content-Type', 'text/html')
   return email.html
 }) 
