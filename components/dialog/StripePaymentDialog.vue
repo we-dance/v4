@@ -61,7 +61,9 @@ const handleClose = () => {
           class="bg-background border border-border rounded-lg w-full md:w-[550px] z-40 max-h-[90vh] overflow-hidden flex flex-col shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95"
         >
           <!-- title bar -->
-          <div class="flex justify-between items-center px-6 py-4 border-b border-border">
+          <div
+            class="flex justify-between items-center px-6 py-4 border-b border-border"
+          >
             <h3 class="text-lg font-semibold text-foreground">{{ title }}</h3>
             <button
               v-if="!noClose"
@@ -79,8 +81,16 @@ const handleClose = () => {
               :pricing-table-id="pricingTableId"
               :publishable-key="publishableKey"
             /> -->
-            <p class="text-base text-muted-foreground mb-6">Here will implemnt Stripe Pricing Table while backend is ready</p>
-            <Button variant="primary" size="lg" class="w-full mt-2" @click="handleClose">Continue</Button>
+            <p class="text-base text-muted-foreground mb-6">
+              Here will implemnt Stripe Pricing Table while backend is ready
+            </p>
+            <Button
+              variant="primary"
+              size="lg"
+              class="w-full mt-2"
+              @click="handleClose"
+              >Continue</Button
+            >
           </div>
         </div>
       </transition>
