@@ -19,7 +19,6 @@ const handleOpenCancelDialog = (subscription: any) => {
   <PasswordSettings />
   <DangerZone />
 
-  <!-- Cancellation Dialog -->
   <CancelSubscriptionDialog
     :is-open="showCancellationDialog"
     :subscription="selectedSubscription"
