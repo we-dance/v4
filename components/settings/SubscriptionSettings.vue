@@ -21,61 +21,52 @@ const hasActiveSubscription = computed(
 </script>
 
 <template>
-  <section class="space-y-6">
-    <div class="flex items-center justify-between">
-      <div>
-        <h2 class="text-lg font-medium">Subscription</h2>
-        <p class="text-sm text-muted-foreground mt-1">
-          Manage your course and membership subscriptions
-        </p>
-      </div>
-    </div>
+  <div class="bg-card rounded-lg shadow p-6 mb-6">
+    <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+      <Icon name="ph:credit-card" class="w-5 h-5" />
+      Subscription
+    </h2>
 
     <!-- Active subscription -->
-    <div v-if="hasActiveSubscription" class="space-y-4">
+    <div v-if="hasActiveSubscription" class="divide-y">
       <div
         v-for="subscription in activeSubscriptions"
         :key="subscription.id"
-        class="bg-card rounded-md border shadow-sm"
+        class="py-4 first:pt-0 last:pb-0"
       >
-        <div class="p-4 md:p-6">
-          <div class="flex flex-col md:flex-row justify-between gap-4">
-            <div>
-              <div
-                class="flex items-center gap-2 text-sm text-muted-foreground mb-1"
-              >
-                <Icon name="ph:credit-card" class="w-4 h-4" />
-                <span>Active subscription</span>
-              </div>
-              <h3 class="text-base font-medium">{{ subscription.name }}</h3>
-              <div class="text-sm space-y-1 mt-2">
-                <p class="text-foreground">
-                  {{ subscription.plan }} plan • {{ subscription.price }}
-                  {{ subscription.currency }}/{{ subscription.interval }}
-                </p>
-                <p class="text-muted-foreground">
-                  Next billing date:
-                  {{ formatDate(subscription.nextBillingDate.toISOString()) }}
-                </p>
-              </div>
+        <div class="flex flex-col md:flex-row justify-between gap-4">
+          <div>
+            <div class="text-sm text-muted-foreground mb-1">
+              Active subscription
             </div>
-            <div class="flex items-center">
-              <Button
-                variant="outline"
-                size="sm"
-                class="text-destructive border-destructive hover:bg-destructive/10"
-                @click="$emit('openCancelDialog', subscription)"
-              >
-                Cancel subscription
-              </Button>
+            <h3 class="text-base font-medium">{{ subscription.name }}</h3>
+            <div class="text-sm space-y-1 mt-2">
+              <p class="text-foreground">
+                {{ subscription.plan }} plan • {{ subscription.price }}
+                {{ subscription.currency }}/{{ subscription.interval }}
+              </p>
+              <p class="text-muted-foreground">
+                Next billing date:
+                {{ formatDate(subscription.nextBillingDate.toISOString()) }}
+              </p>
             </div>
+          </div>
+          <div class="flex items-center">
+            <Button
+              variant="outline"
+              size="sm"
+              class="text-destructive border-destructive hover:bg-destructive/10"
+              @click="$emit('openCancelDialog', subscription)"
+            >
+              Cancel subscription
+            </Button>
           </div>
         </div>
       </div>
     </div>
 
     <!-- No subscription state -->
-    <div v-else class="bg-card rounded-md border shadow-sm p-6 text-center">
+    <div v-else class="text-center py-6">
       <Icon
         name="ph:credit-card-slash"
         class="w-10 h-10 text-muted-foreground mx-auto mb-2"
@@ -88,5 +79,5 @@ const hasActiveSubscription = computed(
         <NuxtLink to="/courses"> Browse courses </NuxtLink>
       </Button>
     </div>
-  </section>
+  </div>
 </template>

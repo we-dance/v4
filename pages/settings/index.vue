@@ -11,7 +11,6 @@ const handleOpenCancelDialog = (subscription: any) => {
   selectedSubscription.value = subscription
   showCancellationDialog.value = true
 }
-
 </script>
 
 <template>
@@ -20,7 +19,7 @@ const handleOpenCancelDialog = (subscription: any) => {
   <PasswordSettings />
   <DangerZone />
 
-    <!-- Cancellation Dialog -->
+  <!-- Cancellation Dialog -->
   <CancelSubscriptionDialog
     :is-open="showCancellationDialog"
     :subscription="selectedSubscription"
