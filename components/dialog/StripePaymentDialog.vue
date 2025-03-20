@@ -59,33 +59,34 @@ const handleClose = () => {
       <!-- dialog body -->
       <transition appear name="slide-up">
         <div
-          class="bg-white rounded-lg w-full md:w-[500px] z-40 max-h-[90vh] overflow-hidden"
+          class="bg-background rounded-lg w-full md:w-[550px] z-40 max-h-[90vh] overflow-hidden flex flex-col"
         >
           <!-- title bar -->
           <div class="flex justify-between items-center px-6 py-4 border-b">
-            <h3 class="text-lg font-semibold">{{ title }}</h3>
+            <h3 class="text-lg font-semibold text-foreground">{{ title }}</h3>
             <button
               v-if="!noClose"
-              class="text-gray-400 hover:text-gray-600"
+              class="text-muted-foreground hover:text-foreground transition-colors"
               @click="emit('close')"
             >
               <Icon name="ph:x" class="w-5 h-5" />
             </button>
           </div>
 
+          <!-- Alert message - moved to top for better visibility -->
+          <div class="px-6 py-3 bg-warning/15 border-b border-warning/25">
+            <p class="text-warning-foreground text-sm font-medium flex items-center">
+              <Icon name="ph:warning-circle" class="w-5 h-5 mr-2 flex-shrink-0" />
+              <span>Demo mode: Please don't click anything in the pricing table. You will be redirected to the success page in a few seconds.</span>
+            </p>
+          </div>
+
           <!-- Stripe Pricing Table container -->
-          <div class="h-[600px] w-full p-4">
+          <div class="flex-1 w-full p-4 overflow-auto">
             <stripe-pricing-table
               :pricing-table-id="pricingTableId"
               :publishable-key="publishableKey"
             />
-          </div>
-          <div class="px-6 py-3 bg-amber-50 border-t border-amber-200">
-            <p class="text-amber-800 text-sm font-medium flex items-center">
-              <Icon name="ph:warning-circle" class="w-5 h-5 mr-2" />
-              Demo mode: Please don't click anything in the pricing table. You
-              will be redirected to the success page in a few seconds.
-            </p>
           </div>
         </div>
       </transition>
