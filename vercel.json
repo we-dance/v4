@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "nuxt.config.ts",
+      "use": "@nuxtjs/vercel-builder"
+    }
+  ],
+  "env": {
+    "BASE_URL": "https://v4-git-feature-207-finished-class-email-wedance.vercel.app"
+  }
+} 
