@@ -1,0 +1,332 @@
+'@type': Course
+'@id': salsa-lady-styling
+identifier: salsa-lady-styling-2024
+name: Salsa Lady Styling
+subscriptionControl:
+  showTrial: false
+  showMonthlyAnnualToggle: false
+  plans:
+    - regular
+    - premium
+description: >-
+  Elegance, majesty, expression. Amazing Cuban dancer Yarima Rodríguez shares her secrets 
+  for mastering Lady Styling in Son Cubano, helping you enhance your dance technique 
+  and unleash your inner grace.
+provider:
+  '@type': Organization
+  name: Zensual Art
+  description: Online dance education platform
+  url: https://zensual.art
+  logo:
+    '@type': ImageObject
+    url: https://zensual.art/logo.png
+instructor:
+  '@type': Person
+  identifier: yarima-rodriguez
+  artirstid: 17
+  name: Yarima Rodríguez
+  image: >-
+    https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media
+  jobTitle: Professional Cuban Dancer
+  knowsAbout:
+    - Salsa Cubana
+    - Son Cubano
+    - Lady Styling
+  knowsLanguage:
+    - Spanish
+    - English
+  teachingLevel: Advanced
+  location: Cuba
+  aggregateRating:
+    '@type': AggregateRating
+    ratingValue: 4.9
+    reviewCount: 150
+  experience:
+    years: 15
+    achievements:
+      - Professional Cuban Dancer
+      - International Dance Instructor
+  availableService:
+    '@type': Service
+    offers:
+      - '@type': PriceSpecification
+        price: 80
+        priceCurrency: EUR
+        duration: PT60M
+  socialMedia:
+    instagram: /zensual.art/
+educationalLevel: Intermediate
+teaches:
+  - '@type': DefinedTerm
+    termCode: lady-styling
+    name: Core Techniques of Lady Styling
+    description: >-
+      Master the fundamental movements and stylistic nuances specific to Son Cubano
+  - '@type': DefinedTerm
+    termCode: dance-mechanics
+    name: Enhanced Dance Mechanics
+    description: >-
+      Improve your body alignment, elegance in hand movements, and precision in footwork
+  - '@type': DefinedTerm
+    termCode: performance
+    name: Performance and Expression
+    description: >-
+      Elevate your dance expression, learning to convey stories and emotions seamlessly through your movements
+timeRequired: 2 hours 10 minutes
+numberOfLessons: 12
+hasPart:
+  - '@type': Chapter
+    identifier: 1
+    name: Introduction
+    learningResourceType: Module
+    hasPart:
+      - '@type': LearningResource
+        identifier: 1
+        name: Intro
+        timeRequired: 2:10 min
+        video:
+          '@type': VideoObject
+          identifier: sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI
+          playbackId: sMFZnbe01Tf9Idx01roKDhfkRX1CrgCEL2A702vA00uqUNI
+          duration: 2:10 min
+          provider: mux
+        completed: false
+        locked: false
+      - '@type': LearningResource
+        identifier: 2
+        name: Real-Time Phrase
+        timeRequired: 0:56 min
+        video:
+          '@type': VideoObject
+          identifier: sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww
+          playbackId: sDfd00Ix01fTI1SOUr4KSDlxBa7Y9Znnj01G8beV01o1Oww
+          duration: 0:56 min
+          provider: mux
+        completed: false
+        locked: false
+  - '@type': Chapter
+    identifier: 2
+    name: Warm-up
+    learningResourceType: Module
+    hasPart:
+      - '@type': LearningResource
+        identifier: 3
+        name: Warm-up (part 1)
+        timeRequired: 7:04 min
+        video:
+          '@type': VideoObject
+          identifier: qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A
+          playbackId: qtayNhaSo1ZK3f9tV4ptW6qytQJvcfjgPARgOwTdC7A
+          duration: 7:04 min
+          provider: mux
+        completed: false
+        locked: false
+      - '@type': LearningResource
+        identifier: 4
+        name: Warm-up (part 2)
+        timeRequired: 4:37 min
+        video:
+          '@type': VideoObject
+          identifier: KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4
+          playbackId: KlVsP028ljS8mCfKAYuZAZaL02svlWvps9wxqNfM6009c4
+          duration: 4:37 min
+          provider: mux
+        completed: false
+        locked: true
+  - '@type': Chapter
+    identifier: 3
+    name: Phrase
+    learningResourceType: Module
+    hasPart:
+      - '@type': LearningResource
+        identifier: 5
+        name: Phrase (segment 1)
+        timeRequired: 8:24 min
+        video:
+          '@type': VideoObject
+          identifier: bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw
+          playbackId: bXTEloChop02wryBH01llZmFSRAissSaalytIJ7BsV01sw
+          duration: 8:24 min
+          provider: mux
+        completed: false
+        locked: true
+      - '@type': LearningResource
+        identifier: 6
+        name: Phrase (segment 2)
+        timeRequired: 7:43 min
+        video:
+          '@type': VideoObject
+          identifier: fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00
+          playbackId: fClgWWmDfettXAYVyvAKFshhg22BbyeQW01s1zcissX00
+          duration: 7:43 min
+          provider: mux
+        completed: false
+        locked: true
+      - '@type': LearningResource
+        identifier: 7
+        name: Phrase (segment 3)
+        timeRequired: 7:34 min
+        video:
+          '@type': VideoObject
+          identifier: iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA
+          playbackId: iB02CO2O54L1Ey017MYfSuqAFj35p8AURFRr01CIyAmZvA
+          duration: 7:34 min
+          provider: mux
+        completed: false
+        locked: true
+      - '@type': LearningResource
+        identifier: 8
+        name: Phrase (segment 4)
+        timeRequired: 9:23 min
+        video:
+          '@type': VideoObject
+          identifier: CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ
+          playbackId: CS8o1PCs2xFoXFTZ77PuOHRYU8g00f8rXtFCJaerHCpQ
+          duration: 9:23 min
+          provider: mux
+        completed: false
+        locked: true
+      - '@type': LearningResource
+        identifier: 9
+        name: Continued Phrase (without music)
+        timeRequired: 1:35 min
+        video:
+          '@type': VideoObject
+          identifier: 8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg
+          playbackId: 8D8uVRdXY52021wWuntp8545bPjAwjv00016P2fsvh6jDg
+          duration: 1:35 min
+          provider: mux
+        completed: false
+        locked: true
+  - '@type': Chapter
+    identifier: 4
+    name: Details
+    learningResourceType: Module
+    hasPart:
+      - '@type': LearningResource
+        identifier: 10
+        name: Details of the arms
+        timeRequired: 4:23 min
+        video:
+          '@type': VideoObject
+          identifier: cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg
+          playbackId: cuPptg0000eW13qx84pv02m00IgntaKVQf8aaoKXzyolbFg
+          duration: 4:23 min
+          provider: mux
+        completed: false
+        locked: true
+      - '@type': LearningResource
+        identifier: 11
+        name: Details of the legs
+        timeRequired: 1:31 min
+        video:
+          '@type': VideoObject
+          identifier: bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM
+          playbackId: bn4U1NWEOhNCUeY3lZNUnjFkaY00ueW00qmd6P1UzFmOM
+          duration: 1:31 min
+          provider: mux
+        completed: false
+        locked: true
+  - '@type': Chapter
+    identifier: 5
+    name: Stretching
+    learningResourceType: Module
+    hasPart:
+      - '@type': LearningResource
+        identifier: 12
+        name: Stretching
+        timeRequired: 16:02 min
+        video:
+          '@type': VideoObject
+          identifier: NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q
+          playbackId: NA00aQiMyfYAs18A3ppGCogK3Q9hO0029HhYqgd3Ehe4Q
+          duration: 16:02 min
+          provider: mux
+        completed: false
+        locked: true
+offers:
+  - '@type': PriceSpecification
+    price: 60
+    priceCurrency: EUR
+    duration: P1M
+    name: regular
+  - '@type': PriceSpecification
+    price: 160
+    priceCurrency: EUR
+    duration: P1Y
+    name: regular
+  - '@type': PriceSpecification
+    price: 160
+    priceCurrency: EUR
+    duration: P1M
+    name: premium
+  - '@type': PriceSpecification
+    price: 600
+    priceCurrency: EUR
+    duration: P1Y
+    name: premium
+courseInstance:
+  - '@type': CourseInstance
+    courseMode: online
+    startDate: '2024-01-01'
+    location:
+      '@type': Place
+      name: Online Platform
+      address: https://zensual.art
+learningResources:
+  - '@type': LearningResource
+    id: 2
+    name: Son Cubano Playlist
+    learningResourceType: playlist
+    contentSize: 15 songs
+    icon: ph:music-notes
+subscriptionPlans:
+  regular:
+    features:
+      - Full course access
+      - Practice materials
+  premium:
+    features:
+      - Everything in Regular
+      - Priority support
+      - Live Q&A sessions
+aggregateRating:
+  '@type': AggregateRating
+  ratingValue: 0
+  reviewCount: 0
+  ratingCount: 0
+review:
+  - '@type': Review
+    identifier: 1
+    reviewRating:
+      '@type': Rating
+      ratingValue: 5
+      bestRating: 5
+      worstRating: 1
+    author:
+      '@type': Person
+      name: Maria G.
+    reviewBody: >-
+      Excellent course! Yarima explains everything in detail and makes it easy to follow along.
+    datePublished: '2024-01-15'
+inLanguage:
+  - en
+  - es
+dateCreated: '2024-01-01'
+dateModified: '2024-01-01'
+image:
+  '@type': ImageObject
+  url: >-
+    https://firebasestorage.googleapis.com/v0/b/wedance-4abe3.appspot.com/o/media%2FtvR012ArEpQhCJdPHh6G7sLuqoO2%2Fc3bfb7be-1dfb-4e71-b486-30754d0ddfa2?alt=media&token=f45dcae4-b2f4-4ea1-9bee-db41c89654f0
+video:
+  '@type': VideoObject
+  url: https://zensual.art/videos/lady-styling-preview
+  duration: PT2M10S
+  thumbnailUrl: https://zensual.art/images/courses/lady-styling-thumb.jpg
+stats:
+  enrolled: 0
+  completed: 0
+community:
+  discussions: 0
+  activeStudents: 0
+  nextLiveQ_A: '2024-02-15T18:00:00Z'
