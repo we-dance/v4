@@ -42,67 +42,67 @@
           <!-- Email Header -->
           <div class="relative overflow-hidden">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5"></div>
-            <div class="relative p-12 border-b">
-              <img src="/logo.svg" alt="WeDance" class="h-10 mx-auto mb-8 animate-fade-in" />
-              <h2 class="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent">
+            <div class="relative p-8 border-b">
+              <img src="/logo.svg" alt="WeDance" class="h-8 mx-auto mb-6" />
+              <h2 class="text-3xl font-bold text-center mb-2 bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent">
                 Your Course is Ready!
               </h2>
-              <p class="text-center text-lg text-muted-foreground">Start your learning journey now</p>
+              <p class="text-center text-base text-muted-foreground">Start your learning journey now</p>
             </div>
           </div>
 
           <!-- Email Body -->
-          <div class="p-12 space-y-10">
+          <div class="p-8 space-y-8">
             <div class="max-w-xl mx-auto">
-              <p class="text-2xl font-medium">Hi {{ '{' + '{ firstName }' + '}' }} 👋</p>
-              <p class="mt-4 text-lg text-muted-foreground leading-relaxed">
+              <p class="text-xl font-medium">Hi {{ '{' + '{ firstName }' + '}' }} 👋</p>
+              <p class="mt-3 text-base text-muted-foreground leading-relaxed">
                 Thank you for purchasing {{ '{' + '{ courseName }' + '}' }}! Your payment has been successfully processed, and you now have full access to all course materials.
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-muted/40 to-muted/20 p-10 rounded-2xl border shadow-sm">
-              <h3 class="font-bold text-2xl mb-8 text-center">Access Your Course</h3>
-              <div class="grid gap-8">
-                <div class="group flex items-start gap-6 hover:bg-background/80 p-4 rounded-xl transition-all duration-300">
-                  <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                    <Icon name="lucide:play" class="w-6 h-6 text-primary" />
+            <div class="bg-gradient-to-br from-muted/40 to-muted/20 p-6 rounded-xl border shadow-sm">
+              <h3 class="font-bold text-xl mb-6 text-center">Access Your Course</h3>
+              <div class="grid gap-4">
+                <div class="group flex items-start gap-4 hover:bg-background/80 p-3 rounded-lg transition-all duration-300">
+                  <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <Icon name="lucide:play" class="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p class="font-bold text-xl group-hover:text-primary transition-colors">Start Learning</p>
-                    <p class="text-muted-foreground mt-2 text-lg">
+                    <p class="font-semibold text-lg group-hover:text-primary transition-colors">Start Learning</p>
+                    <p class="text-muted-foreground mt-1 text-base">
                       Access your course content and begin your first lesson
                     </p>
-                    <Button variant="link" class="px-0 h-8 mt-2 font-semibold text-primary">
+                    <Button variant="link" class="px-0 h-7 mt-1 font-medium text-primary">
                       Go to Course →
                     </Button>
                   </div>
                 </div>
 
-                <div class="group flex items-start gap-6 hover:bg-background/80 p-4 rounded-xl transition-all duration-300">
-                  <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                    <Icon name="lucide:download" class="w-6 h-6 text-primary" />
+                <div class="group flex items-start gap-4 hover:bg-background/80 p-3 rounded-lg transition-all duration-300">
+                  <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <Icon name="lucide:download" class="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p class="font-bold text-xl group-hover:text-primary transition-colors">Course Materials</p>
-                    <p class="text-muted-foreground mt-2 text-lg">
+                    <p class="font-semibold text-lg group-hover:text-primary transition-colors">Course Materials</p>
+                    <p class="text-muted-foreground mt-1 text-base">
                       Download supplementary materials and resources
                     </p>
-                    <Button variant="link" class="px-0 h-8 mt-2 font-semibold text-primary">
+                    <Button variant="link" class="px-0 h-7 mt-1 font-medium text-primary">
                       View Materials →
                     </Button>
                   </div>
                 </div>
 
-                <div class="group flex items-start gap-6 hover:bg-background/80 p-4 rounded-xl transition-all duration-300">
-                  <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                    <Icon name="lucide:message-circle" class="w-6 h-6 text-primary" />
+                <div class="group flex items-start gap-4 hover:bg-background/80 p-3 rounded-lg transition-all duration-300">
+                  <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <Icon name="lucide:message-circle" class="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p class="font-bold text-xl group-hover:text-primary transition-colors">Join Discussion</p>
-                    <p class="text-muted-foreground mt-2 text-lg">
+                    <p class="font-semibold text-lg group-hover:text-primary transition-colors">Join Discussion</p>
+                    <p class="text-muted-foreground mt-1 text-base">
                       Connect with other students and your instructor
                     </p>
-                    <Button variant="link" class="px-0 h-8 mt-2 font-semibold text-primary">
+                    <Button variant="link" class="px-0 h-7 mt-1 font-medium text-primary">
                       Open Forum →
                     </Button>
                   </div>
@@ -110,30 +110,30 @@
               </div>
             </div>
 
-            <div class="text-center py-4">
+            <div class="text-center">
               <Button 
                 size="lg" 
-                class="w-full sm:w-auto px-8 py-5 h-auto text-lg font-semibold rounded-xl shadow-md hover:shadow-lg transition-all duration-300 bg-gradient-to-r from-primary to-primary-600 hover:scale-[1.02]"
+                class="w-full sm:w-auto px-6 py-2 text-base font-medium rounded-lg shadow-sm hover:shadow transition-all duration-300 bg-gradient-to-r from-primary to-primary-600 hover:scale-[1.01]"
               >
                 Start Learning Now
               </Button>
             </div>
 
             <div class="max-w-xl mx-auto">
-              <div class="border border-primary/10 rounded-xl p-8 bg-primary/5">
-                <p class="text-xl font-semibold mb-3">Need help with the course?</p>
-                <p class="text-lg leading-relaxed">
+              <div class="border border-primary/10 rounded-lg p-6 bg-primary/5">
+                <p class="text-lg font-semibold mb-2">Need help with the course?</p>
+                <p class="text-base leading-relaxed">
                   Our instructor support team is here to help! Contact us at
-                  <a href="mailto:support@wedance.vip" class="text-primary hover:text-primary-600 font-semibold underline decoration-2 underline-offset-4 transition-colors">
+                  <a href="mailto:support@wedance.vip" class="text-primary hover:text-primary-600 font-medium underline decoration-1 underline-offset-2 transition-colors">
                     support@wedance.vip
                   </a>
                 </p>
               </div>
             </div>
 
-            <div class="max-w-xl mx-auto bg-muted/20 rounded-xl p-8">
-              <h4 class="font-semibold text-xl mb-4">Order Summary</h4>
-              <div class="space-y-3 text-muted-foreground">
+            <div class="max-w-xl mx-auto bg-muted/20 rounded-lg p-6">
+              <h4 class="font-semibold text-lg mb-3">Order Summary</h4>
+              <div class="space-y-2 text-muted-foreground text-sm">
                 <p>Course: {{ '{' + '{ courseName }' + '}' }}</p>
                 <p>Order ID: {{ '{' + '{ orderId }' + '}' }}</p>
                 <p>Purchase Date: {{ '{' + '{ purchaseDate }' + '}' }}</p>
@@ -142,14 +142,14 @@
           </div>
 
           <!-- Email Footer -->
-          <div class="p-10 bg-muted/20 border-t">
-            <div class="max-w-xl mx-auto text-center space-y-6">
-              <img src="/logo.svg" alt="WeDance" class="h-6 mx-auto opacity-50" />
-              <p class="text-sm text-muted-foreground/80">
+          <div class="p-6 bg-muted/20 border-t">
+            <div class="max-w-xl mx-auto text-center space-y-4">
+              <img src="/logo.svg" alt="WeDance" class="h-5 mx-auto opacity-50" />
+              <p class="text-xs text-muted-foreground/80">
                 You're receiving this email because you purchased a course on WeDance.
                 <br />© 2024 WeDance. All rights reserved.
               </p>
-              <div class="flex items-center justify-center gap-4 text-sm">
+              <div class="flex items-center justify-center gap-3 text-xs">
                 <a href="#" class="text-muted-foreground hover:text-primary transition-colors">Privacy</a>
                 <span class="w-1 h-1 rounded-full bg-muted-foreground/30"></span>
                 <a href="#" class="text-muted-foreground hover:text-primary transition-colors">Terms</a>
