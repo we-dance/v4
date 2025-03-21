@@ -1,6 +1,6 @@
 /**
  * Course Importer
- * 
+ *
  * This module imports courses from YAML files into the database.
  * It handles all related entities (modules, lessons, offerings, reviews, resources).
  */
@@ -61,12 +61,12 @@ async function findInstructorId(course: Course): Promise<string | null> {
   if (!course.instructor.artirstid) {
     return null
   }
-  
+
   try {
     const profile = await prisma.profile.findFirst({
-      where: { id: String(course.instructor.artirstid) }
+      where: { id: String(course.instructor.artirstid) },
     })
-    
+
     if (profile && profile.id) {
       return profile.id
     } else {
@@ -83,16 +83,19 @@ async function findInstructorId(course: Course): Promise<string | null> {
  * @param instructorId Related instructor profile ID or null
  * @returns Created/updated course ID
  */
-async function saveCourseData(course: Course, instructorId: string | null): Promise<string> {
+async function saveCourseData(
+  course: Course,
+  instructorId: string | null
+): Promise<string> {
   const courseData = prepareCourseData(course, instructorId)
-  
+
   try {
     const result = await prisma.course.upsert({
       where: { id: course['@id'] },
       update: courseData,
-      create: { ...courseData, id: course['@id'] }
+      create: { ...courseData, id: course['@id'] },
     })
-    
+
     return result.id
   } catch (error) {
     console.error('Failed to create/update course:', course.name)
@@ -111,13 +114,13 @@ function prepareCourseData(course: Course, instructorId: string | null) {
   if (Array.isArray(course.inLanguage)) {
     languages = course.inLanguage.join(',')
   }
-  
+
   // Handle plans
   let availablePlans = ''
   if (course.subscriptionControl && course.subscriptionControl.plans) {
     availablePlans = course.subscriptionControl.plans.join(',')
   }
-  
+
   // Handle teaches data
   let teachesData: string | undefined
   try {
@@ -129,7 +132,7 @@ function prepareCourseData(course: Course, instructorId: string | null) {
   } catch {
     // Silently handle stringify failure
   }
-  
+
   // Handle subscription features
   let subscriptionFeatures: string | undefined
   try {
@@ -148,7 +151,6 @@ function prepareCourseData(course: Course, instructorId: string | null) {
   // Number of lessons
   let numberOfLessons = course.numberOfLessons
 
-
   // Provider details
   let providerName = course.provider.name
 
@@ -156,9 +158,9 @@ function prepareCourseData(course: Course, instructorId: string | null) {
 
   let providerUrl = course.provider.url
 
-  let providerLogoUrl = undefined;
+  let providerLogoUrl = undefined
   if (course.provider && course.provider.logo) {
-    providerLogoUrl = course.provider.logo.url;
+    providerLogoUrl = course.provider.logo.url
   }
 
   // Media
@@ -180,17 +182,21 @@ function prepareCourseData(course: Course, instructorId: string | null) {
   let activeStudents = course.community.activeStudents
 
   let nextLiveQA = course.community.nextLiveQ_A
-  
+
   // Subscription
-  let showTrial = false;
+  let showTrial = false
   if (course.subscriptionControl) {
-    showTrial = course.subscriptionControl.showTrial;
+    showTrial = course.subscriptionControl.showTrial
   }
 
-
   let showMonthlyAnnualToggle = false
-  if (course.subscriptionControl && course.subscriptionControl.showMonthlyAnnualToggle) {
-    showMonthlyAnnualToggle = Boolean(course.subscriptionControl.showMonthlyAnnualToggle)
+  if (
+    course.subscriptionControl &&
+    course.subscriptionControl.showMonthlyAnnualToggle
+  ) {
+    showMonthlyAnnualToggle = Boolean(
+      course.subscriptionControl.showMonthlyAnnualToggle
+    )
   }
 
   // Dates
@@ -229,44 +235,44 @@ function prepareCourseData(course: Course, instructorId: string | null) {
     numberOfLessons,
     instructorId,
     originalInstructorId: course.instructor.identifier,
-    
+
     // Provider details
     providerName,
     providerDescription,
     providerUrl,
     providerLogoUrl,
-    
+
     // Media
     imageUrl,
     videoUrl,
     videoDuration,
     videoThumbnailUrl,
-    
+
     // Stats
     enrolledCount,
     completedCount,
     discussionsCount,
     activeStudents,
     nextLiveQA,
-    
+
     // Subscription
     showTrial,
     showMonthlyAnnualToggle,
     availablePlans,
-    
+
     // Metadata
     languages,
     dateCreated,
     dateModified,
-    
+
     // Ratings
     averageRating,
     reviewCount,
     ratingCount,
-    
+
     // Serialized data
     teachesData,
-    subscriptionFeatures
+    subscriptionFeatures,
   } as any
 }
 
@@ -275,26 +281,29 @@ function prepareCourseData(course: Course, instructorId: string | null) {
  * @param courseId Parent course ID
  * @param course Course data containing modules and lessons
  */
-async function saveModulesAndLessons(courseId: string, course: Course): Promise<void> {
+async function saveModulesAndLessons(
+  courseId: string,
+  course: Course
+): Promise<void> {
   if (!course.hasPart || !course.hasPart.length) {
     return
   }
-  
+
   for (const module of course.hasPart) {
     try {
       const moduleId = `${courseId}-module-${module.identifier}`
       const moduleData = prepareModuleData(module, courseId)
-      
+
       const createdModule = await prisma.courseModule.upsert({
         where: { id: moduleId },
         update: moduleData,
-        create: { ...moduleData, id: moduleId }
+        create: { ...moduleData, id: moduleId },
       })
-      
+
       if (!module.hasPart || !module.hasPart.length) {
         continue
       }
-      
+
       await saveLessonsInBatches(module.hasPart, createdModule.id, courseId)
     } catch (error) {
       console.error(`Module save failed: ${module.name}`)
@@ -319,28 +328,34 @@ function prepareModuleData(module: any, courseId: string) {
     order: module.identifier,
     learningResourceType,
     description,
-    courseId
+    courseId,
   } as any
 }
 
-async function saveLessonsInBatches(lessons: any[], moduleId: string, courseId: string): Promise<void> {
+async function saveLessonsInBatches(
+  lessons: any[],
+  moduleId: string,
+  courseId: string
+): Promise<void> {
   for (let i = 0; i < lessons.length; i += BATCH_SIZE) {
     const batch = lessons.slice(i, i + BATCH_SIZE)
-    
-    await Promise.all(batch.map(async (lesson) => {
-      try {
-        const lessonId = `${courseId}-lesson-${lesson.identifier}`
-        const lessonData = prepareLessonData(lesson, moduleId)
-        
-        await prisma.courseLesson.upsert({
-          where: { id: lessonId },
-          update: lessonData,
-          create: { ...lessonData, id: lessonId }
-        })
-      } catch {
-        console.error(`Lesson save failed: ${lesson.name}`)
-      }
-    }))
+
+    await Promise.all(
+      batch.map(async (lesson) => {
+        try {
+          const lessonId = `${courseId}-lesson-${lesson.identifier}`
+          const lessonData = prepareLessonData(lesson, moduleId)
+
+          await prisma.courseLesson.upsert({
+            where: { id: lessonId },
+            update: lessonData,
+            create: { ...lessonData, id: lessonId },
+          })
+        } catch {
+          console.error(`Lesson save failed: ${lesson.name}`)
+        }
+      })
+    )
   }
 }
 
@@ -367,7 +382,7 @@ function prepareLessonData(lesson: any, moduleId: string) {
     completed: Boolean(lesson.completed),
     order: lesson.identifier,
     locked: Boolean(lesson.locked),
-    moduleId
+    moduleId,
   } as any
 }
 
@@ -380,25 +395,31 @@ async function saveResources(courseId: string, course: Course): Promise<void> {
   if (!course.learningResources || !course.learningResources.length) {
     return
   }
-  
+
   for (let i = 0; i < course.learningResources.length; i += BATCH_SIZE) {
     const batch = course.learningResources.slice(i, i + BATCH_SIZE)
-    
-    await Promise.all(batch.map(async (resource) => {
-      try {
-        const resourceId = `${courseId}-resource-${resource.id}`
-        const resourceUrl = determineResourceUrl(resource, courseId)
-        const resourceData = prepareResourceData(resource, resourceUrl, courseId)
-        
-        await prisma.courseResource.upsert({
-          where: { id: resourceId },
-          update: resourceData,
-          create: { ...resourceData, id: resourceId }
-        })
-      } catch {
-        console.error(`Resource save failed: ${resource.name}`)
-      }
-    }))
+
+    await Promise.all(
+      batch.map(async (resource) => {
+        try {
+          const resourceId = `${courseId}-resource-${resource.id}`
+          const resourceUrl = determineResourceUrl(resource, courseId)
+          const resourceData = prepareResourceData(
+            resource,
+            resourceUrl,
+            courseId
+          )
+
+          await prisma.courseResource.upsert({
+            where: { id: resourceId },
+            update: resourceData,
+            create: { ...resourceData, id: resourceId },
+          })
+        } catch {
+          console.error(`Resource save failed: ${resource.name}`)
+        }
+      })
+    )
   }
 }
 
@@ -406,10 +427,10 @@ function determineResourceUrl(resource: any, courseId: string): string {
   if ('url' in resource && typeof resource.url === 'string') {
     return resource.url
   }
-  
+
   const type = resource.learningResourceType
   const slug = resource.name.toLowerCase().replace(/\s+/g, '-')
-  
+
   switch (type) {
     case 'pdf':
       return `/resources/${courseId}/documents/${slug}.pdf`
@@ -435,7 +456,7 @@ function prepareResourceData(resource: any, url: string, courseId: string) {
     icon: resource.icon,
     url,
     resourceType,
-    courseId
+    courseId,
   } as any
 }
 
@@ -448,21 +469,23 @@ async function saveReviews(courseId: string, course: Course): Promise<void> {
   if (!course.review || !course.review.length) {
     return
   }
-  
-  await Promise.all(course.review.map(async (review) => {
-    try {
-      const reviewId = `${courseId}-review-${review.identifier}`
-      const reviewData = prepareReviewData(review, courseId)
-      
-      await prisma.courseReview.upsert({
-        where: { id: reviewId },
-        update: reviewData,
-        create: { ...reviewData, id: reviewId }
-      })
-    } catch {
-      console.error(`Review save failed: ${review.author.name}`)
-    }
-  }))
+
+  await Promise.all(
+    course.review.map(async (review) => {
+      try {
+        const reviewId = `${courseId}-review-${review.identifier}`
+        const reviewData = prepareReviewData(review, courseId)
+
+        await prisma.courseReview.upsert({
+          where: { id: reviewId },
+          update: reviewData,
+          create: { ...reviewData, id: reviewId },
+        })
+      } catch {
+        console.error(`Review save failed: ${review.author.name}`)
+      }
+    })
+  )
 }
 
 function prepareReviewData(review: any, courseId: string) {
@@ -483,7 +506,7 @@ function prepareReviewData(review: any, courseId: string) {
     publishedAt: review.datePublished,
     bestRating,
     worstRating,
-    courseId
+    courseId,
   } as any
 }
 
@@ -496,42 +519,50 @@ async function saveOfferings(courseId: string, course: Course): Promise<void> {
   if (!course.offers || !course.offers.length) {
     return
   }
-  
-  await Promise.all(course.offers.map(async (offer) => {
-    try {
-      let offerName = 'regular'
-      if (offer.name) {
-        offerName = offer.name
-      }
 
-      let duration = 'P1M'
-      if (offer.duration) {
-        duration = offer.duration
+  await Promise.all(
+    course.offers.map(async (offer) => {
+      try {
+        let offerName = 'regular'
+        if (offer.name) {
+          offerName = offer.name
+        }
+
+        let duration = 'P1M'
+        if (offer.duration) {
+          duration = offer.duration
+        }
+
+        const offeringId = `${courseId}-offer-${offerName}-${duration}`
+
+        const { validFrom, validThrough } = parseDates(offer)
+        const offeringData = prepareOfferingData(
+          offer,
+          validFrom,
+          validThrough,
+          duration,
+          courseId
+        )
+
+        await prisma.courseOffering.upsert({
+          where: { id: offeringId },
+          update: offeringData,
+          create: { ...offeringData, id: offeringId },
+        })
+      } catch (error) {
+        let displayName = 'regular'
+        if (offer.name) {
+          displayName = offer.name
+        }
+        console.error(`Offering save failed: ${displayName}`)
       }
-      
-      const offeringId = `${courseId}-offer-${offerName}-${duration}`
-      
-      const { validFrom, validThrough } = parseDates(offer)
-      const offeringData = prepareOfferingData(offer, validFrom, validThrough, duration, courseId)
-      
-      await prisma.courseOffering.upsert({
-        where: { id: offeringId },
-        update: offeringData,
-        create: { ...offeringData, id: offeringId }
-      })
-    } catch (error) {
-      let displayName = 'regular'
-      if (offer.name) {
-        displayName = offer.name
-      }
-      console.error(`Offering save failed: ${displayName}`)
-    }
-  }))
+    })
+  )
 }
 
-function parseDates(offer: any): { validFrom?: Date, validThrough?: Date } {
+function parseDates(offer: any): { validFrom?: Date; validThrough?: Date } {
   const result = { validFrom: undefined, validThrough: undefined } as any
-  
+
   if (offer.validFrom) {
     try {
       const date = new Date(offer.validFrom)
@@ -540,7 +571,7 @@ function parseDates(offer: any): { validFrom?: Date, validThrough?: Date } {
       }
     } catch {} // Invalid date handling
   }
-  
+
   if (offer.validThrough) {
     try {
       const date = new Date(offer.validThrough)
@@ -549,11 +580,17 @@ function parseDates(offer: any): { validFrom?: Date, validThrough?: Date } {
       }
     } catch {} // Invalid date handling
   }
-  
+
   return result
 }
 
-function prepareOfferingData(offer: any, validFrom: Date | undefined, validThrough: Date | undefined, duration: string, courseId: string) {
+function prepareOfferingData(
+  offer: any,
+  validFrom: Date | undefined,
+  validThrough: Date | undefined,
+  duration: string,
+  courseId: string
+) {
   let name = 'regular'
   if (offer.name) {
     name = offer.name
@@ -572,7 +609,7 @@ function prepareOfferingData(offer: any, validFrom: Date | undefined, validThrou
     validFrom,
     validThrough,
     offerType,
-    courseId
+    courseId,
   } as any
 }
 
@@ -583,33 +620,36 @@ function prepareOfferingData(offer: any, validFrom: Date | undefined, validThrou
  */
 export async function importCourseFromFile(filePath: string): Promise<string> {
   console.log(`Starting to import course from file: ${filePath}`)
-  
+
   try {
     const data = readYamlFile(filePath)
     const course = validateCourseData(data)
     console.log(`Course validation successful for ${course.name}`)
-    
-    return await prisma.$transaction(async () => {
-      const instructorId = await findInstructorId(course)
-      
-      console.log(`Saving course data for ${course.name}`)
-      const courseId = await saveCourseData(course, instructorId)
-      
-      console.log(`Importing modules and lessons for ${courseId}`)
-      await saveModulesAndLessons(courseId, course)
-      
-      console.log(`Importing offerings for ${courseId}`)
-      await saveOfferings(courseId, course)
-      
-      console.log(`Importing reviews for ${courseId}`)
-      await saveReviews(courseId, course)
-      
-      console.log(`Importing resources for ${courseId}`)
-      await saveResources(courseId, course)
-      
-      console.log(`Successfully completed import for course: ${courseId}`)
-      return courseId
-    }, { timeout: 120000 })
+
+    return await prisma.$transaction(
+      async () => {
+        const instructorId = await findInstructorId(course)
+
+        console.log(`Saving course data for ${course.name}`)
+        const courseId = await saveCourseData(course, instructorId)
+
+        console.log(`Importing modules and lessons for ${courseId}`)
+        await saveModulesAndLessons(courseId, course)
+
+        console.log(`Importing offerings for ${courseId}`)
+        await saveOfferings(courseId, course)
+
+        console.log(`Importing reviews for ${courseId}`)
+        await saveReviews(courseId, course)
+
+        console.log(`Importing resources for ${courseId}`)
+        await saveResources(courseId, course)
+
+        console.log(`Successfully completed import for course: ${courseId}`)
+        return courseId
+      },
+      { timeout: 120000 }
+    )
   } catch (error) {
     console.error(`Failed to import course from file: ${filePath}`)
     let errorMessage = String(error)
@@ -626,17 +666,19 @@ export async function importCourseFromFile(filePath: string): Promise<string> {
  * @param dirPath Path to directory containing YAML files
  * @returns Array of imported course IDs
  */
-export async function importCoursesFromDirectory(dirPath: string): Promise<string[]> {
+export async function importCoursesFromDirectory(
+  dirPath: string
+): Promise<string[]> {
   console.log(`Importing courses from: ${dirPath}`)
-  
+
   try {
     const fullPath = join(process.cwd(), dirPath)
-    const files = readdirSync(fullPath).filter(file => 
-      file.endsWith('.yaml') || file.endsWith('.yml')
+    const files = readdirSync(fullPath).filter(
+      (file) => file.endsWith('.yaml') || file.endsWith('.yml')
     )
-    
+
     const courseIds = []
-    
+
     for (const file of files) {
       try {
         const filePath = join(dirPath, file)
@@ -647,7 +689,7 @@ export async function importCoursesFromDirectory(dirPath: string): Promise<strin
         console.error(`Failed to import ${file}, skipping`)
       }
     }
-    
+
     return courseIds
   } catch (error) {
     console.error(`Directory read error: ${dirPath}`)
@@ -670,10 +712,10 @@ export async function handleCourseImport(): Promise<void> {
     if (args[0]) {
       dirPath = args[0]
     }
-    
+
     console.log(`Starting import from ${dirPath}...`)
     const courseIds = await importCoursesFromDirectory(dirPath)
-    
+
     console.log(`
 ===================================
 Import Summary:
@@ -697,4 +739,4 @@ Import Summary:
 // Run if called directly
 if (require.main === module) {
   handleCourseImport()
-} 
+}
