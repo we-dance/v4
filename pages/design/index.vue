@@ -21,6 +21,13 @@ const sections = [
     ...designConfig.patterns,
     links: designConfig.patterns.items,
   },
+  {
+    title: 'Email Templates',
+    items: [
+      { title: 'Welcome Email', href: '/design/email/welcome' },
+      { title: 'Regular Sign-up', href: '/design/email/regular-signup' }
+    ]
+  }
 ]
 </script>
 
