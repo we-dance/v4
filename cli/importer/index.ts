@@ -14,8 +14,11 @@ import {
 } from './profile'
 import { addAccount } from './account'
 import { addDanceStyle, clearVotes } from './style'
+import { importCourseFromFile } from './course'
 import * as cliProgress from 'cli-progress'
 import { getLogger } from '../utils/logger'
+import { join } from 'path'
+import { readdirSync } from 'fs'
 
 export async function importDanceStyles(multibar: cliProgress.MultiBar) {
   let collection = 'styles'
@@ -331,4 +334,69 @@ export async function importEvents(multibar: cliProgress.MultiBar) {
   }
 
   bar.stop()
+}
+
+export async function importCourses(multibar?: cliProgress.MultiBar, dirPath?: string) {
+  const collection = 'courses'
+  const logger = getLogger(collection)
+  logger.info('Importing courses')
+  
+  try {
+    const coursePath = dirPath || 'data/courses'
+    
+    // Get list of course files
+    const fullPath = join(process.cwd(), coursePath)
+    
+    const files = readdirSync(fullPath).filter(file => 
+      file.endsWith('.yaml') || file.endsWith('.yml')
+    )
+    logger.info(`Found ${files.length} course files for import`)
+    
+    let created = 0
+    let failed = 0
+    
+    // Create progress bar if multibar is provided
+    const bar = multibar?.create(files.length, 0, {
+      collection,
+      created,
+      failed,
+      ignored: 0,
+      updated: 0
+    })
+    
+    const courseIds = []
+    
+    for (const file of files) {
+      const filePath = join(coursePath, file)
+      
+      try {
+        logger.debug('importing course from', filePath)
+        const courseId = await importCourseFromFile(filePath)
+        courseIds.push(courseId)
+        created++
+        logger.info(`Successfully imported course: ${courseId}`)
+        
+        bar?.increment({ created, failed })
+      } catch (error) {
+        logger.error(`Failed to import course from ${file}:`, error)
+        failed++
+        
+        bar?.increment({ created, failed })
+      }
+    }
+    
+    bar?.stop()
+    
+    logger.info('Finished importing courses', {
+      total: courseIds.length,
+      created,
+      failed,
+      courseIds
+    })
+    
+    return { state: 'success', courseIds, created, failed }
+  } catch (error) {
+    logger.error('Failed to import courses', error)
+    return { state: 'failed', error }
+  }
 }

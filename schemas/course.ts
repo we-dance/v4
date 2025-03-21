@@ -1,5 +1,4 @@
 import { z } from 'zod'
-import { artistSchema } from './artist'
 
 // Basic schemas for Schema.org
 const monetaryAmountSchema = z.object({
