@@ -8,6 +8,7 @@
     "preview": "nuxt preview",
     "format": "prettier --write .",
     "lint": "prettier --check .",
+    "prepare": "simple-git-hooks install",
     "test": "pnpm lint && pnpm test:unit",
     "test:unit": "vitest run",
     "test:unit:coverage": "vitest run --coverage",
@@ -76,10 +77,20 @@
     "@vue/test-utils": "^2.4.6",
     "firebase-scrypt": "^2.2.0",
     "jsdom": "^26.0.0",
+    "lint-staged": "^15.5.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
     "prisma": "^5.22.0",
+    "simple-git-hooks": "^2.12.1",
     "start-server-and-test": "^2.0.10",
     "vitest": "^3.0.4"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,mjs,cjs,vue,json,.*rc}": [
+      "npx prettier --write ."
+    ]
   }
 }
