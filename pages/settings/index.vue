@@ -7,6 +7,7 @@ definePageMeta({
 
 <template>
   <AccountInformation />
+  <SubscriptionSettings />
   <PasswordSettings />
   <DangerZone />
 </template>
