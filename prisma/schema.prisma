@@ -77,6 +77,8 @@ model User {
   // Course relationships
   courseEnrollments CourseEnrollment[] @relation("user_enrollments")
 
+  subscriptions Subscription[]
+
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   lastLoginAt DateTime @default(now())
@@ -539,4 +541,28 @@ model CourseEnrollment {
   updatedAt DateTime @updatedAt
 
   @@unique([userId, courseId])
+}
+
+model Subscription {
+  id              String    @id @default(cuid())
+  userId          String
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name            String
+  plan            String
+  price           Float
+  currency        String
+  interval        String // 'month', 'year', etc.
+  status          String // 'active', 'canceled', 'past_due'
+  nextBillingDate DateTime?
+  canceledAt      DateTime?
+
+  // Stripe or payment processor specific fields
+  stripeCustomerId     String?
+  stripeSubscriptionId String?
+  stripePriceId        String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
 }
