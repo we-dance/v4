@@ -10,7 +10,7 @@
     secondaryLink="/events/1"
     :features="[
       { icon: 'ph:check-circle', text: '5-minute setup' },
-      { icon: 'ph:crown', text: 'Founding member benefits' },
+      { icon: 'ph:crown', text: 'Early Bird Customer Benefits' },
       { icon: 'ph:star', text: 'First month free' },
     ]"
     :cards="[
@@ -151,7 +151,7 @@
   <LandingGetStarted
     title="Ready to Start Your Dance Journey?"
     description="Join thousands of dancers in your city"
-    secondary="Founding Member Benefits"
+    secondary="Early Bird Customer Benefits"
     secondaryLink="/founding-members"
   />
 </template>
