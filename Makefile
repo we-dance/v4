@@ -83,7 +83,7 @@ check-prereqs:
 
 install-prereqs:
 	@echo "$(YELLOW)Installing missing prerequisites...$(NC)"
-	
+
 	@if [ $(call command_exists,node) -eq 0 ]; then \
 		echo "$(YELLOW)Installing Node.js via NVM...$(NC)"; \
 		if [ $(call command_exists,nvm) -eq 0 ]; then \
@@ -151,9 +151,19 @@ setup-db:
 	@echo "$(GREEN)✓ Database reset$(NC)"
 	
 	@echo "$(YELLOW)Installing database extensions...$(NC)"
-	echo "CREATE EXTENSION IF NOT EXISTS cube CASCADE;" | PGPASSWORD=password psql -U user -d db -h 127.0.0.1
-	echo "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;" | PGPASSWORD=password psql -U user -d db -h 127.0.0.1
-	@echo "$(GREEN)✓ Database extensions installed$(NC)"
+	# OLD: DIRECTLY INSTALL EXTENSIONS USING PSQL
+	# @echo "CREATE EXTENSION IF NOT EXISTS cube CASCADE;" | PGPASSWORD=password psql -U user -d db -h 127.0.0.1
+	# @echo "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;" | PGPASSWORD=password psql -U user -d db -h 127.0.0.1
+	# @echo "$(GREEN)✓ Database extensions installed$(NC)"
+	# NEW: USE DOCKER EXEC TO INSTALL EXTENSIONS
+	@if command -v docker >/dev/null 2>&1; then \
+		docker exec -it $$(docker ps -q -f name=postgres) psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;" 2>/dev/null || echo "$(YELLOW)⚠️ Could not create cube extension using Docker. Some geographic features may not work.$(NC)"; \
+		docker exec -it $$(docker ps -q -f name=postgres) psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;" 2>/dev/null || echo "$(YELLOW)⚠️ Could not create earthdistance extension using Docker. Some geographic features may not work.$(NC)"; \
+		echo "$(GREEN)✓ Database extensions installed$(NC)"; \
+	else \
+		echo "$(YELLOW)⚠️ Neither psql nor Docker available. Skipping database extensions installation.$(NC)"; \
+		echo "$(YELLOW)Some geographic features may not work.$(NC)"; \
+	fi
 	
 	@echo "$(YELLOW)Generating Prisma Client...$(NC)"
 	pnpm prisma generate
