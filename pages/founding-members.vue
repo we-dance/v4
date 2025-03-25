@@ -16,7 +16,7 @@
             <h1
               class="text-4xl lg:text-7xl font-extrabold text-foreground tracking-tight mb-6"
             >
-              Early Bird Customer benefits
+              Early Bird Customer Benefits
             </h1>
             <p class="text-xl text-foreground/80 mb-8 max-w-2xl mx-auto">
               Join WeDance as a founding member and get exclusive lifetime
