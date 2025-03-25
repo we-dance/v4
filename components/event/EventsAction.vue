@@ -2,7 +2,7 @@
 import { useRouter } from 'vue-router'
 import { useAppAuth } from '~/composables/useAppAuth'
 import { toast } from 'vue-sonner'
-// import { Plus as PlusIcon } from 'lucide-vue-next'
+import { Plus as PlusIcon } from 'lucide-vue-next'
 
 const router = useRouter()
 const { isLoggedIn } = useAppAuth()
