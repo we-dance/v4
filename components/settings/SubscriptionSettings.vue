@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { formatDate } from '~/utils/format'
 import {
   Dialog,
@@ -13,79 +13,141 @@ import { Badge } from '~/components/ui/badge'
 import { toast } from 'vue-sonner'
 import { Teleport } from 'vue'
 
-// Define a type for our subscription
+// Define the Subscription type matching our schema
 interface Subscription {
   id: string
+  userId: string
   name: string
   plan: string
   price: number
   currency: string
   interval: string
   status: 'active' | 'canceled' | 'past_due'
-  nextBillingDate?: string
-  canceledAt?: string
+  nextBillingDate: string | null
+  canceledAt: string | null
+  stripeCustomerId: string | null
+  stripeSubscriptionId: string | null
+  stripePriceId: string | null
   createdAt: string
   updatedAt: string
 }
 
-// Mock data for subscription
-const subscription = ref<Subscription | null>({
-  id: 'sub_123456',
-  name: 'Salsa Ladies Styling',
-  plan: 'Premium',
-  price: 60,
-  currency: 'EUR',
-  interval: 'month',
-  status: 'active',
-  nextBillingDate: new Date(
-    Date.now() + 14 * 24 * 60 * 60 * 1000
-  ).toISOString(), // 14 days from now
-  createdAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(), // 30 days ago
-  updatedAt: new Date().toISOString(),
-})
-
-const isLoading = ref(false)
-const cancelError = ref(null)
-
-const hasActiveSubscription = computed(
-  () => subscription.value !== null && subscription.value.status === 'active'
-)
-
+// State management
+const isLoading = ref(true)
+const subscriptions = ref<Subscription[]>([])
+const cancelError = ref<string | null>(null)
 const showCancelDialog = ref(false)
 const subscriptionToCancel = ref<Subscription | null>(null)
+const isCanceling = ref(false)
 
+// Check if user has active subscriptions
+const hasActiveSubscription = computed(() => {
+  return subscriptions.value.some((sub) => sub.status === 'active')
+})
+
+// Fetch subscriptions from the API
+const fetchSubscriptions = async () => {
+  isLoading.value = true
+
+  try {
+    // Use fetch API to call our endpoint
+    const response = await fetch('/api/trpc/subscriptions.getMySubscriptions', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      credentials: 'include', // Important for sending auth cookies
+    })
+
+    if (!response.ok) {
+      throw new Error('Failed to fetch subscriptions')
+    }
+
+    const data = await response.json()
+
+    // Extract subscriptions from the tRPC response format
+    subscriptions.value = data.result?.data?.json || []
+  } catch (error) {
+    toast.error('Failed to load subscriptions')
+  } finally {
+    isLoading.value = false
+  }
+}
+
+// Handle opening the cancel dialog
 const openCancelDialog = (sub: Subscription) => {
   subscriptionToCancel.value = sub
   showCancelDialog.value = true
 }
 
-// Mock cancellation functionality
-const isCanceling = ref(false)
-
-// Simulate cancellation process
-const confirmCancelSubscription = () => {
+// Handle subscription cancellation
+const confirmCancelSubscription = async () => {
   if (!subscriptionToCancel.value?.id) return
 
   isCanceling.value = true
+  cancelError.value = null
 
-  // Simulate API call with timeout
-  setTimeout(() => {
-    if (subscription.value) {
-      subscription.value.status = 'canceled'
-      subscription.value.canceledAt = new Date().toISOString()
+  try {
+    const payload = {
+      id: subscriptionToCancel.value.id,
+      status: 'canceled' as const,
+      canceledAt: new Date().toISOString(),
     }
 
-    isCanceling.value = false
-    showCancelDialog.value = false
+    const response = await fetch('/api/trpc/subscriptions.updateStatus', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      credentials: 'include',
+      body: JSON.stringify({
+        json: payload,
+      }),
+    })
 
-    // Show success message
+    const responseData = await response.json()
+
+    if (!response.ok) {
+      throw new Error(
+        responseData.error?.message || 'Failed to cancel subscription'
+      )
+    }
+
+    // Update local state
+    const index = subscriptions.value.findIndex(
+      (sub) => sub.id === subscriptionToCancel.value?.id
+    )
+
+    if (index !== -1) {
+      subscriptions.value[index].status = 'canceled'
+      subscriptions.value[index].canceledAt = new Date().toISOString()
+    }
+
     toast.success('Your subscription has been canceled')
-  }, 1500)
+    showCancelDialog.value = false
+  } catch (error: any) {
+    let errorMessage = 'Failed to cancel subscription. Please try again.'
+    if (error instanceof Error) {
+      errorMessage = error.message
+    } else if (error && typeof error === 'object') {
+      errorMessage = error.message || error.error?.message || errorMessage
+    }
+
+    toast.error(errorMessage)
+    cancelError.value = errorMessage
+  } finally {
+    isCanceling.value = false
+  }
 }
+
+// Load subscriptions when the component mounts
+onMounted(() => {
+  fetchSubscriptions()
+})
 </script>
 
 <template>
-  <!-- Add a loading state -->
+  <!-- Loading state while fetching data -->
   <div v-if="isLoading" class="flex justify-center py-6">
     <div
       class="animate-spin h-6 w-6 border-2 border-primary border-t-transparent rounded-full"
@@ -94,46 +156,44 @@ const confirmCancelSubscription = () => {
     </div>
   </div>
 
-  <!-- Rest of your template -->
+  <!-- Subscription content -->
   <div v-else class="bg-card rounded-lg shadow p-6 mb-6">
     <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
       <Icon name="ph:credit-card" class="w-5 h-5" />
       Subscription
     </h2>
 
-    <!-- Active subscription -->
-    <div v-if="subscription" class="divide-y">
+    <!-- Active subscriptions -->
+    <div v-if="subscriptions.length > 0" class="divide-y">
       <div
-        v-for="sub in [subscription]"
-        :key="sub?.id"
+        v-for="sub in subscriptions"
+        :key="sub.id"
         class="py-4 first:pt-0 last:pb-0"
       >
         <div class="flex flex-col md:flex-row justify-between gap-4">
           <div>
             <div class="text-sm text-muted-foreground mb-1">
               {{
-                sub?.status === 'active'
+                sub.status === 'active'
                   ? 'Active subscription'
-                  : sub?.status === 'canceled'
+                  : sub.status === 'canceled'
                     ? 'Canceled subscription'
                     : 'Subscription'
               }}
             </div>
             <div class="flex items-center gap-2">
-              <h3 class="text-base font-medium">{{ sub?.name }}</h3>
+              <h3 class="text-base font-medium">{{ sub.name }}</h3>
               <Badge
-                v-if="sub?.status === 'active'"
+                v-if="sub.status === 'active'"
                 variant="default"
                 class="bg-green-500"
                 >Active</Badge
               >
-              <Badge
-                v-else-if="sub?.status === 'canceled'"
-                variant="destructive"
+              <Badge v-else-if="sub.status === 'canceled'" variant="destructive"
                 >Canceled</Badge
               >
               <Badge
-                v-else-if="sub?.status === 'past_due'"
+                v-else-if="sub.status === 'past_due'"
                 variant="default"
                 class="bg-yellow-500"
                 >Past Due</Badge
@@ -141,21 +201,21 @@ const confirmCancelSubscription = () => {
             </div>
             <div class="text-sm space-y-1 mt-2">
               <p class="text-foreground">
-                {{ sub?.plan }} plan • {{ sub?.price }} {{ sub?.currency }}/{{
-                  sub?.interval
+                {{ sub.plan }} plan • {{ sub.price }} {{ sub.currency }}/{{
+                  sub.interval
                 }}
               </p>
-              <p class="text-muted-foreground" v-if="sub?.nextBillingDate">
+              <p class="text-muted-foreground" v-if="sub.nextBillingDate">
                 Next billing date:
                 {{ formatDate(sub.nextBillingDate) }}
               </p>
-              <p class="text-muted-foreground" v-if="sub?.canceledAt">
+              <p class="text-muted-foreground" v-if="sub.canceledAt">
                 Canceled on:
                 {{ formatDate(sub.canceledAt) }}
               </p>
             </div>
           </div>
-          <div class="flex items-center" v-if="sub?.status === 'active'">
+          <div class="flex items-center" v-if="sub.status === 'active'">
             <Button
               variant="outline"
               size="sm"
@@ -187,7 +247,7 @@ const confirmCancelSubscription = () => {
 
     <p v-if="cancelError" class="text-red-500 mt-2">{{ cancelError }}</p>
 
-    <!-- Single dialog for subscription cancellation - Completely custom implementation -->
+    <!-- Single dialog for subscription cancellation -->
     <Teleport to="body">
       <div
         v-if="showCancelDialog"

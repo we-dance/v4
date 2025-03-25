@@ -9,24 +9,29 @@ export const subscriptionSchema = z.object({
   currency: z.string(),
   interval: z.string(), // 'month', 'year', etc.
   status: z.enum(['active', 'canceled', 'past_due']),
-  nextBillingDate: z.date().nullable().optional(),
-  canceledAt: z.date().nullable().optional(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  nextBillingDate: z.coerce.date().nullable().optional(),
+  canceledAt: z.coerce.date().nullable().optional(),
+  createdAt: z.coerce.date(),
+  updatedAt: z.coerce.date(),
 })
 
 // For creating a new subscription
-export const createSubscriptionSchema = subscriptionSchema.omit({
-  id: true,
-  createdAt: true,
-  updatedAt: true,
+export const createSubscriptionSchema = z.object({
+  name: z.string(),
+  plan: z.string(),
+  price: z.number(),
+  currency: z.string(),
+  interval: z.string(),
+  status: z.enum(['active', 'canceled', 'past_due']),
+  nextBillingDate: z.coerce.date().nullable().optional(),
+  canceledAt: z.coerce.date().nullable().optional(),
 })
 
 // For updating subscription status (for cancellation)
 export const updateSubscriptionStatusSchema = z.object({
   id: z.string(),
   status: z.enum(['active', 'canceled', 'past_due']),
-  canceledAt: z.date().optional(),
+  canceledAt: z.coerce.date().optional(),
 })
 
 export type Subscription = z.infer<typeof subscriptionSchema>
