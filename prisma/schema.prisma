@@ -388,7 +388,6 @@ model Course {
   timeRequired            String
   numberOfLessons         Int
   instructorId            String?
-  originalInstructorId    String?
   providerName            String
   providerDescription     String?
   providerUrl             String?

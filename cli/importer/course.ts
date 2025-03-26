@@ -67,7 +67,33 @@ async function saveCourseData(
   course: any,
   instructor: string | null
 ): Promise<string> {
-  const courseData = prepareCourseData(course, instructor)
+  let instructorId = instructor
+  if (typeof course.instructor === 'string' && course.instructor) {
+    try {
+      const profile = await prisma.profile.findFirst({
+        where: { username: course.instructor },
+        select: { id: true },
+      })
+
+      if (profile) {
+        instructorId = profile.id
+        console.log(
+          `Found instructor profile ID ${instructorId} for username ${course.instructor}`
+        )
+      } else {
+        console.warn(
+          `No profile found for instructor username: ${course.instructor}`
+        )
+      }
+    } catch (error) {
+      console.error(
+        `Error looking up instructor profile for ${course.instructor}:`,
+        error
+      )
+    }
+  }
+
+  const courseData = prepareCourseData(course, instructorId)
 
   try {
     const result = await prisma.course.upsert({
@@ -88,7 +114,7 @@ async function saveCourseData(
   }
 }
 
-function prepareCourseData(course: any, instructor: string | null) {
+function prepareCourseData(course: any, instructorId: string | null) {
   // Handle languages array
   let languages = ''
   if (Array.isArray(course.inLanguage)) {
@@ -216,11 +242,8 @@ function prepareCourseData(course: any, instructor: string | null) {
     timeRequired: course.timeRequired,
     numberOfLessons,
 
-    // Store instructor username from the course.instructor field
-    instructorId:
-      typeof course.instructor === 'string' && course.instructor
-        ? course.instructor
-        : null,
+    // Store instructor ID based on profile lookup
+    instructorId,
 
     // Provider details
     providerName,
