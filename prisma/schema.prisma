@@ -474,3 +474,24 @@ model Subscription {
 
   @@index([userId])
 }
+
+model Subscription {
+  id                   String    @id @default(cuid())
+  userId               String
+  user                 User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name                 String
+  plan                 String
+  price                Float
+  currency             String
+  interval             String // 'month', 'year', etc.
+  status               String // 'active', 'canceled', 'past_due'
+  nextBillingDate      DateTime?
+  canceledAt           DateTime?
+  stripeCustomerId     String?
+  stripeSubscriptionId String?
+  stripePriceId        String?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+
+  @@index([userId])
+}
