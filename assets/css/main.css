@@ -4,6 +4,8 @@
 
 :root {
   --dark: 0 0% 12%;
+  --color-light: #fff;
+  --color-dark: #333;
 }
 
 @layer base {
@@ -94,14 +96,15 @@
 
 /* Dark mode color */
 .dark {
-  background-color: #333;
+  background-color: hsl(var(--background));
 }
 
-.dark .dark h1,
+.dark,
+.dark h1,
 .dark h2,
 .dark h3,
 .dark div,
 .dark svg.lucide,
 .dark label {
-  color: #fff;
+  color: hsl(var(--foreground));
 }
