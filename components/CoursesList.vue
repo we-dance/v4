@@ -147,7 +147,7 @@
                 >
               </div>
               <div class="font-medium">
-                {{ getMonthlyPrice(course) }}
+                {{ getLowestPrice(course) }}
               </div>
             </div>
           </CardContent>
@@ -230,16 +230,18 @@ const activeFiltersCount = computed(() => {
   return Object.values(filters.value).filter(Boolean).length
 })
 
-const getMonthlyPrice = (course: any) => {
-  // Check for offerings
+const getLowestPrice = (course: any) => {
   if (course.offerings?.length) {
-    const monthlyOffer = course.offerings.find(
-      (offer: any) => offer.duration === 'P1M'
+    const lowestOffering = course.offerings.reduce(
+      (lowest: any, current: any) => {
+        return !lowest || Number(current.price) < Number(lowest.price)
+          ? current
+          : lowest
+      },
+      null
     )
-    if (monthlyOffer) {
-      // Use the correct field names from the CourseOffering model
-      return `${monthlyOffer.price} ${monthlyOffer.currency || 'EUR'}`
-    }
+
+    return `${lowestOffering.price} ${lowestOffering.currency || 'EUR'}`
   }
   return 'Contact for pricing'
 }
