@@ -8,7 +8,6 @@ import { readFileSync, readdirSync } from 'fs'
 import { PrismaClient } from '@prisma/client'
 import { parse } from 'yaml'
 import { join } from 'path'
-import { courseSchema, type Course } from '../../schemas/course'
 
 // Initialize Prisma client
 const prisma = new PrismaClient()
@@ -38,56 +37,37 @@ function readYamlFile(filePath: string): unknown {
 }
 
 /**
- * Validates course data against schema
+ * Basic validation of course data
  * @param data Raw course data
- * @returns Validated course data
+ * @returns Course data
  */
-function validateCourseData(data: unknown): Course {
-  try {
-    return courseSchema.parse(data)
-  } catch (error) {
-    console.error('Course validation error:')
-    console.error(error)
-    throw new Error('Failed to validate course data against schema')
-  }
-}
-
-/**
- * Finds or resolves instructor profile
- * @param course Course data containing instructor information
- * @returns Instructor profile ID or null
- */
-async function findInstructorId(course: Course): Promise<string | null> {
-  if (!course.instructor.artirstid) {
-    return null
+function validateCourseData(data: unknown): any {
+  // Simple type check instead of full interface validation
+  if (!data || typeof data !== 'object') {
+    throw new Error('Invalid course data: not an object')
   }
 
-  try {
-    const profile = await prisma.profile.findFirst({
-      where: { id: String(course.instructor.artirstid) },
-    })
+  const course = data as any
 
-    if (profile && profile.id) {
-      return profile.id
-    } else {
-      return null
-    }
-  } catch {
-    return null
+  // Basic checks for required fields
+  if (!course['@id'] || !course.name || !course.description) {
+    throw new Error('Invalid course data: missing required fields')
   }
+
+  return course
 }
 
 /**
  * Creates or updates a course record
  * @param course Course data
- * @param instructorId Related instructor profile ID or null
+ * @param instructor Related instructor profile ID or null
  * @returns Created/updated course ID
  */
 async function saveCourseData(
-  course: Course,
-  instructorId: string | null
+  course: any,
+  instructor: string | null
 ): Promise<string> {
-  const courseData = prepareCourseData(course, instructorId)
+  const courseData = prepareCourseData(course, instructor)
 
   try {
     const result = await prisma.course.upsert({
@@ -108,7 +88,7 @@ async function saveCourseData(
   }
 }
 
-function prepareCourseData(course: Course, instructorId: string | null) {
+function prepareCourseData(course: any, instructor: string | null) {
   // Handle languages array
   let languages = ''
   if (Array.isArray(course.inLanguage)) {
@@ -226,15 +206,21 @@ function prepareCourseData(course: Course, instructorId: string | null) {
     ratingCount = course.aggregateRating.ratingCount
   }
 
-  return {
-    slug: course['@id'],
+  // Create the base data object
+  const courseData = {
+    id: course['@id'],
+    slug: course.identifier,
     name: course.name,
     description: course.description,
     educationalLevel,
     timeRequired: course.timeRequired,
     numberOfLessons,
-    instructorId,
-    originalInstructorId: course.instructor.identifier,
+
+    // Store instructor username from the course.instructor field
+    instructorId:
+      typeof course.instructor === 'string' && course.instructor
+        ? course.instructor
+        : null,
 
     // Provider details
     providerName,
@@ -274,6 +260,8 @@ function prepareCourseData(course: Course, instructorId: string | null) {
     teachesData,
     subscriptionFeatures,
   } as any
+
+  return courseData
 }
 
 /**
@@ -283,7 +271,7 @@ function prepareCourseData(course: Course, instructorId: string | null) {
  */
 async function saveModulesAndLessons(
   courseId: string,
-  course: Course
+  course: any
 ): Promise<void> {
   if (!course.hasPart || !course.hasPart.length) {
     return
@@ -391,7 +379,7 @@ function prepareLessonData(lesson: any, moduleId: string) {
  * @param courseId Parent course ID
  * @param course Course data containing resources
  */
-async function saveResources(courseId: string, course: Course): Promise<void> {
+async function saveResources(courseId: string, course: any): Promise<void> {
   if (!course.learningResources || !course.learningResources.length) {
     return
   }
@@ -400,7 +388,7 @@ async function saveResources(courseId: string, course: Course): Promise<void> {
     const batch = course.learningResources.slice(i, i + BATCH_SIZE)
 
     await Promise.all(
-      batch.map(async (resource) => {
+      batch.map(async (resource: any) => {
         try {
           const resourceId = `${courseId}-resource-${resource.id}`
           const resourceUrl = determineResourceUrl(resource, courseId)
@@ -465,13 +453,13 @@ function prepareResourceData(resource: any, url: string, courseId: string) {
  * @param courseId Parent course ID
  * @param course Course data containing reviews
  */
-async function saveReviews(courseId: string, course: Course): Promise<void> {
+async function saveReviews(courseId: string, course: any): Promise<void> {
   if (!course.review || !course.review.length) {
     return
   }
 
   await Promise.all(
-    course.review.map(async (review) => {
+    course.review.map(async (review: any) => {
       try {
         const reviewId = `${courseId}-review-${review.identifier}`
         const reviewData = prepareReviewData(review, courseId)
@@ -515,13 +503,13 @@ function prepareReviewData(review: any, courseId: string) {
  * @param courseId Parent course ID
  * @param course Course data containing offerings
  */
-async function saveOfferings(courseId: string, course: Course): Promise<void> {
+async function saveOfferings(courseId: string, course: any): Promise<void> {
   if (!course.offers || !course.offers.length) {
     return
   }
 
   await Promise.all(
-    course.offers.map(async (offer) => {
+    course.offers.map(async (offer: any) => {
       try {
         let offerName = 'regular'
         if (offer.name) {
@@ -628,10 +616,8 @@ export async function importCourseFromFile(filePath: string): Promise<string> {
 
     return await prisma.$transaction(
       async () => {
-        const instructorId = await findInstructorId(course)
-
         console.log(`Saving course data for ${course.name}`)
-        const courseId = await saveCourseData(course, instructorId)
+        const courseId = await saveCourseData(course, null)
 
         console.log(`Importing modules and lessons for ${courseId}`)
         await saveModulesAndLessons(courseId, course)

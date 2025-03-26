@@ -52,16 +52,22 @@ model VerificationToken {
 }
 
 model User {
-  id            String    @id @default(nanoid())
-  email         String    @unique
-  name          String
-  salt          String    @default("")
-  hash          String    @default("")
-  firebaseId    String    @default("")
-  emailVerified Boolean   @default(false)
-  isDeleted     Boolean   @default(false)
-  deletedAt     DateTime?
-  deletedReason String?
+  id                   String    @id @default(nanoid())
+  email                String    @unique
+  name                 String?   @default("")
+  firstName            String?   @default("")
+  lastName             String?   @default("")
+  phone                String?   @default("")
+  emailConsent         Boolean   @default(false)
+  emailConsentAt       DateTime?
+  salt                 String    @default("")
+  hash                 String    @default("")
+  firebaseId           String    @default("")
+  emailVerified        Boolean   @default(false)
+  isDeleted            Boolean   @default(false)
+  deletedAt            DateTime?
+  deletedReason        String?
+  notificationSettings Json      @default("{}")
 
   profile         Profile?  @relation("owned_by")
   profilesCreated Profile[] @relation("profile_created_by")
@@ -159,28 +165,30 @@ model Profile {
   daysUsed         Int? // Number of days used
   pwaUsed          Boolean? // PWA usage
   oldCities        Json? // Old cities structure
+  privacySettings  Json? // Privacy settings
 
-  userId              String?           @unique
-  user                User?             @relation("owned_by", fields: [userId], references: [id])
-  cityId              String?
-  city                City?             @relation("profile_city", fields: [cityId], references: [id])
-  posts               Post[]
-  eventsCreated       Event[]           @relation("event_created_by")
-  eventsOrganized     Event[]           @relation("event_organized_by")
-  eventsHosted        Event[]           @relation("event_hosted_by")
+  userId             String?           @unique
+  user               User?             @relation("owned_by", fields: [userId], references: [id])
+  cityId             String?
+  city               City?             @relation("profile_city", fields: [cityId], references: [id])
+  posts              Post[]
+  eventsCreated      Event[]           @relation("event_created_by")
+  eventsOrganized    Event[]           @relation("event_organized_by")
+  eventsHosted       Event[]           @relation("event_hosted_by")
   // Course instructor relationship
-  coursesAsinstructor Course[]          @relation("course_instructor")
-  createdBy           User?             @relation("profile_created_by", fields: [createdById], references: [id])
-  styles              Experience[]      @relation("profile_experience")
-  followers           ProfileFollower[] @relation("followers")
-  following           ProfileFollower[] @relation("following")
-  cities              CitySubscriber[]  @relation("cities")
-  eventsParticipated  Guest[]           @relation("guest_profile")
-  videosAdded         Video[]           @relation("video_created_by")
-  votes               Vote[]            @relation("vote_created_by")
+  coursesCreated     Course[]          @relation("course_created_by")
+  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
+  styles             Experience[]      @relation("profile_experience")
+  followers          ProfileFollower[] @relation("followers")
+  following          ProfileFollower[] @relation("following")
+  cities             CitySubscriber[]  @relation("cities")
+  eventsParticipated Guest[]           @relation("guest_profile")
+  videosAdded        Video[]           @relation("video_created_by")
+  votes              Vote[]            @relation("vote_created_by")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  Course    Course[]
 
   @@map("Profile")
 }
@@ -381,7 +389,6 @@ model Course {
   timeRequired            String
   numberOfLessons         Int
   instructorId            String?
-  originalInstructorId    String?
   providerName            String
   providerDescription     String?
   providerUrl             String?
@@ -411,13 +418,15 @@ model Course {
   updatedAt DateTime @updatedAt
 
   // Relations
-  instructor  Profile?           @relation("course_instructor", fields: [instructorId], references: [id])
+  instructor  Profile?           @relation("course_created_by", fields: [instructorId], references: [id])
   modules     CourseModule[]
   lessons     CourseLesson[]
   resources   CourseResource[]
   reviews     CourseReview[]
   offerings   CourseOffering[]
   enrollments CourseEnrollment[]
+  Profile     Profile?           @relation(fields: [profileId], references: [id])
+  profileId   String?
 }
 
 model CourseModule {

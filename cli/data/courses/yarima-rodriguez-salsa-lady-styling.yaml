@@ -20,41 +20,7 @@ provider:
   logo:
     '@type': ImageObject
     url: https://zensual.art/logo.png
-instructor:
-  '@type': Person
-  identifier: yarima-rodriguez
-  artirstid: 17
-  name: Yarima Rodríguez
-  image: >-
-    https://storage.googleapis.com/download/storage/v1/b/wedance-4abe3.appspot.com/o/share%2Fzensual.art.png?generation=1715599448194649&alt=media
-  jobTitle: Professional Cuban Dancer
-  knowsAbout:
-    - Salsa Cubana
-    - Son Cubano
-    - Lady Styling
-  knowsLanguage:
-    - Spanish
-    - English
-  teachingLevel: Advanced
-  location: Cuba
-  aggregateRating:
-    '@type': AggregateRating
-    ratingValue: 4.9
-    reviewCount: 150
-  experience:
-    years: 15
-    achievements:
-      - Professional Cuban Dancer
-      - International Dance Instructor
-  availableService:
-    '@type': Service
-    offers:
-      - '@type': PriceSpecification
-        price: 80
-        priceCurrency: EUR
-        duration: PT60M
-  socialMedia:
-    instagram: /zensual.art/
+instructor: zensual.art
 educationalLevel: Intermediate
 teaches:
   - '@type': DefinedTerm
