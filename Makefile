@@ -39,6 +39,56 @@ db-reset:
 sh:
 	docker compose exec app sh
 
+test-db-connection:
+	@echo "$(YELLOW)Testing database connection to Docker container...$(NC)"
+	@if [ -z "$(DB_USER)" ] || [ -z "$(DB_PASSWORD)" ] || [ -z "$(DB_NAME)" ]; then \
+		echo "$(RED)Missing database credentials in environment variables.$(NC)"; \
+		exit 1; \
+	fi
+	
+	@# Find the right container name and store it
+	@echo "$(YELLOW)Finding PostgreSQL container...$(NC)"
+	@CONTAINER_NAME=$$(docker ps --format '{{.Names}}' | grep -E 'postgres|v4-postgres'); \
+	if [ -z "$$CONTAINER_NAME" ]; then \
+		echo "$(RED)PostgreSQL container not found. Starting database container...$(NC)"; \
+		docker compose up -d; \
+		echo "$(YELLOW)Waiting for container to start...$(NC)"; \
+		sleep 10; \
+		CONTAINER_NAME=$$(docker ps --format '{{.Names}}' | grep -E 'postgres|v4-postgres'); \
+		if [ -z "$$CONTAINER_NAME" ]; then \
+			echo "$(RED)Failed to start PostgreSQL container.$(NC)"; \
+			exit 1; \
+		fi; \
+	else \
+		echo "$(GREEN)✓ Found PostgreSQL container: $$CONTAINER_NAME$(NC)"; \
+	fi; \
+	\
+	echo "$(YELLOW)Checking if container is running with correct DB setup...$(NC)"; \
+	if docker exec $$CONTAINER_NAME psql -U $(DB_USER) -d $(DB_NAME) -c "SELECT 1;" >/dev/null 2>&1; then \
+		echo "$(GREEN)✓ Database is ready and accessible$(NC)"; \
+	else \
+		echo "$(YELLOW)Database not ready yet. Waiting up to 30 seconds...$(NC)"; \
+		max_attempts=30; \
+		for i in $$(seq 1 $$max_attempts); do \
+			if docker exec $$CONTAINER_NAME psql -U $(DB_USER) -d $(DB_NAME) -c "SELECT 1;" >/dev/null 2>&1; then \
+				echo "$(GREEN)✓ Database is now ready and accessible$(NC)"; \
+				break; \
+			fi; \
+			if [ $$i -eq $$max_attempts ]; then \
+				echo "$(RED)Database still not accessible after $$max_attempts seconds.$(NC)"; \
+				echo "$(YELLOW)Try directly accessing the container:$(NC)"; \
+				echo "docker exec -it $$CONTAINER_NAME psql -U $(DB_USER) -d $(DB_NAME)"; \
+				echo "$(YELLOW)Container logs:$(NC)"; \
+				docker logs $$CONTAINER_NAME --tail 30; \
+				exit 1; \
+			fi; \
+			echo "$(YELLOW)Waiting for database... ($$i/$$max_attempts)$(NC)"; \
+			sleep 1; \
+		done; \
+	fi; \
+	\
+	echo "$(GREEN)✓ Successfully validated database connection$(NC)"
+
 import:
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
@@ -102,3 +152,12 @@ deploy:
 	cd cli && cp -r ../prisma/schema.prisma ./prisma/schema.prisma
 	cd cli && pnpm prisma
 	@echo "$(GREEN)✓ Deployment completed$(NC)"
+
+get-postgres-container:
+	@PG_CONTAINER=$$(docker ps --format '{{.Names}}' | grep -E 'postgres|v4-postgres'); \
+	if [ -z "$$PG_CONTAINER" ]; then \
+		echo "$(RED)Error: No running PostgreSQL container found.$(NC)"; \
+		echo "$(YELLOW)Make sure docker is running and containers are started.$(NC)"; \
+		exit 1; \
+	fi; \
+	echo $$PG_CONTAINER
