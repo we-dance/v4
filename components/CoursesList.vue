@@ -76,18 +76,39 @@
       </div>
     </div>
 
+    <!-- Loading State -->
+    <div
+      v-if="isLoading"
+      class="flex flex-col items-center justify-center py-16 space-y-4"
+    >
+      <div class="relative">
+        <div class="w-12 h-12 border-4 border-primary/30 rounded-full"></div>
+        <div
+          class="w-12 h-12 border-4 border-t-primary border-r-transparent border-b-transparent border-l-transparent rounded-full absolute top-0 left-0 animate-spin"
+        ></div>
+      </div>
+      <p class="text-lg font-medium text-muted-foreground">
+        Loading courses...
+      </p>
+    </div>
+
     <!-- Course Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card
-        v-for="course in filteredCourses"
-        :key="course.identifier"
-        class="group"
+    <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div
+        v-if="isRefetching"
+        class="md:col-span-3 py-2 px-4 bg-primary/10 rounded-md text-center text-sm font-medium mb-4 flex items-center justify-center gap-2"
       >
-        <NuxtLink :to="`/courses/${course.identifier}`">
+        <div
+          class="w-4 h-4 border-2 border-t-primary border-r-transparent border-b-transparent border-l-transparent rounded-full animate-spin"
+        ></div>
+        Updating results...
+      </div>
+      <Card v-for="course in filteredCourses" :key="course.id" class="group">
+        <NuxtLink :to="`/courses/${course.slug}`">
           <CardHeader class="space-y-4">
             <div class="aspect-video bg-muted rounded-lg overflow-hidden">
               <img
-                :src="course.image?.url"
+                :src="course.imageUrl"
                 :alt="course.name"
                 class="w-full h-full object-cover transition group-hover:scale-105"
               />
@@ -102,9 +123,9 @@
             </div>
           </CardHeader>
           <CardContent class="space-y-4">
-            <div class="flex items-center gap-3">
+            <div v-if="course.instructor" class="flex items-center gap-3">
               <img
-                :src="course.instructor.image"
+                :src="course.instructor.photo || '/img/default-avatar.png'"
                 :alt="course.instructor.name"
                 class="w-8 h-8 rounded-full object-cover"
               />
@@ -113,16 +134,16 @@
                   {{ course.instructor.name }}
                 </div>
                 <div class="text-xs text-muted-foreground">
-                  {{ course.instructor.jobTitle }}
+                  {{ course.educationalLevel }}
                 </div>
               </div>
             </div>
             <div class="flex items-center justify-between text-sm">
               <div class="flex items-center gap-1">
                 <Icon name="ph:star-fill" class="w-4 h-4 text-yellow-400" />
-                <span>{{ course.aggregateRating?.ratingValue }}</span>
+                <span>{{ getAverageRating(course) }}</span>
                 <span class="text-muted-foreground"
-                  >({{ course.aggregateRating?.reviewCount }})</span
+                  >({{ course.reviews?.length || 0 }})</span
                 >
               </div>
               <div class="font-medium">
@@ -136,7 +157,7 @@
 
     <!-- Empty State -->
     <div
-      v-if="filteredCourses.length === 0"
+      v-if="!isLoading && filteredCourses.length === 0"
       class="text-center py-12 space-y-4"
     >
       <div class="text-4xl">🎓</div>
@@ -149,9 +170,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-import { mockCourses } from '~/data/mockCourses'
-import type { Course } from '~/schemas/course'
+import { ref, computed, watchEffect } from 'vue'
+import { trpc } from '~/composables/trpc'
+import { useQuery } from 'vue-query'
 
 const search = ref('')
 const showFilters = ref(false)
@@ -161,6 +182,40 @@ const filters = ref({
   priceRange: '',
   rating: '',
 })
+
+const limit = ref(12)
+
+// Create a dependency array for useQuery to track
+const searchTerm = ref(search.value)
+const levelFilter = ref(filters.value.level)
+
+// Watch for changes in the search and filters
+watchEffect(() => {
+  searchTerm.value = search.value
+  levelFilter.value = filters.value.level
+})
+
+// Use direct values with useQuery
+const {
+  data: courseData,
+  isLoading,
+  isRefetching,
+} = useQuery(
+  ['courses.getAll', { search: searchTerm, level: levelFilter }],
+  () => {
+    return trpc.courses.getAll.query({
+      limit: limit.value,
+      filter: {
+        search: search.value || undefined,
+        educationalLevel: filters.value.level || undefined,
+      },
+    })
+  },
+  {
+    refetchOnWindowFocus: false,
+    staleTime: 1000 * 60 * 5, // 5 minutes
+  }
+)
 
 const resetFilters = () => {
   filters.value = {
@@ -175,47 +230,71 @@ const activeFiltersCount = computed(() => {
   return Object.values(filters.value).filter(Boolean).length
 })
 
-const getMonthlyPrice = (course: Course) => {
-  const monthlyOffer = course.offers?.find((offer) => offer.duration === 'P1M')
-  if (monthlyOffer) {
-    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
+const getMonthlyPrice = (course: any) => {
+  // Check for offerings
+  if (course.offerings?.length) {
+    const monthlyOffer = course.offerings.find(
+      (offer: any) => offer.duration === 'P1M'
+    )
+    if (monthlyOffer) {
+      // Use the correct field names from the CourseOffering model
+      return `${monthlyOffer.price} ${monthlyOffer.currency || 'EUR'}`
+    }
   }
   return 'Contact for pricing'
 }
 
+const getAverageRating = (course: any) => {
+  if (!course.reviews || course.reviews.length === 0) {
+    return 'N/A'
+  }
+
+  const totalRating = course.reviews.reduce(
+    (total: number, review: any) => total + review.rating,
+    0
+  )
+  const averageRating = totalRating / course.reviews.length
+  return averageRating.toFixed(1)
+}
+
 const filteredCourses = computed(() => {
-  let result = [...mockCourses]
+  if (!courseData.value?.courses) return []
 
-  // Apply search
-  if (search.value) {
-    const searchLower = search.value.toLowerCase()
-    result = result.filter(
-      (course) =>
-        course.name.toLowerCase().includes(searchLower) ||
-        course.description.toLowerCase().includes(searchLower) ||
-        course.instructor.name.toLowerCase().includes(searchLower)
-    )
-  }
+  let result = [...courseData.value.courses]
 
-  // Apply filters
-  if (filters.value.level) {
-    result = result.filter(
-      (course) => course.educationalLevel === filters.value.level
-    )
-  }
-
+  // Client-side filtering for fields not handled by the server
   if (filters.value.rating) {
-    const minRating = parseFloat(filters.value.rating)
-    result = result.filter(
-      (course) => (course.aggregateRating?.ratingValue || 0) >= minRating
-    )
+    const ratingStr = filters.value.rating
+    const minRating = parseFloat(ratingStr.substring(0, ratingStr.indexOf('+')))
+    result = result.filter((course) => {
+      if (!course.reviews || course.reviews.length === 0) {
+        return false
+      }
+
+      const totalRating = course.reviews.reduce(
+        (total: number, review: any) => total + review.rating,
+        0
+      )
+      const averageRating = totalRating / course.reviews.length
+
+      return averageRating >= minRating
+    })
   }
 
   if (filters.value.priceRange) {
+    // Skip price filtering if we're using mock data
+    // In a real implementation, you would check the API structure
+    // This is a temporary solution
+    if (result.length > 0 && !('offerings' in result[0])) {
+      return result
+    }
+
     const [min, max] = filters.value.priceRange.split('-').map(Number)
-    result = result.filter((course) => {
-      const monthlyOffer = course.offers?.find(
-        (offer) => offer.duration === 'P1M'
+    result = result.filter((course: any) => {
+      if (!course.offerings?.length) return false
+
+      const monthlyOffer = course.offerings.find(
+        (offer: any) => offer.duration === 'P1M'
       )
       if (!monthlyOffer) return false
 
