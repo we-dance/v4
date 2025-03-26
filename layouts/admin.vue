@@ -56,6 +56,7 @@ const auth = useAuthStore()
 const navigationItems = [
   { to: '/admin', label: 'Dashboard', icon: 'lucide:layout-dashboard' },
   { to: '/admin/events', label: 'Events', icon: 'lucide:calendar' },
+  { to: '/admin/courses', label: 'Courses', icon: 'lucide:book-open' },
   { to: '/admin/bookings', label: 'Bookings', icon: 'lucide:ticket' },
   { to: '/admin/calendar', label: 'Calendar', icon: 'lucide:calendar-days' },
 ]
