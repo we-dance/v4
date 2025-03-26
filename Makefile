@@ -17,7 +17,8 @@ endif
 DB_USER      := $(shell echo $(DATABASE_URL) | sed -E 's|.*//([^:]+):.*|\1|')
 DB_PASSWORD  := $(shell echo $(DATABASE_URL) | sed -E 's|.*//[^:]+:([^@]+)@.*|\1|')
 DB_HOST      := $(shell echo $(DATABASE_URL) | sed -E 's|.*@([^:]+):.*|\1|')
-DB_NAME      := $(shell echo $(DATABASE_URL) | sed -E 's|.*:([0-9]+)/([^?]+).*|\2|')
+DB_PORT      := $(shell echo $(DATABASE_URL) | sed -E 's|.*:([0-9]+)/.*|\1|')
+DB_NAME      := $(shell echo $(DATABASE_URL) | sed -E 's|.*/([^?]+).*|\1|')
 
 # Check if command exists
 command_exists = $(shell which $(1) > /dev/null 2>&1 && echo 1 || echo 0)
@@ -89,6 +90,12 @@ check-prereqs:
 		$(MAKE) install-prereqs; \
 	else \
 		echo "$(GREEN)✓ Node.js is installed$(NC) ($(node_version))"; \
+		node_major_version=$$(node -v | cut -d. -f1 | tr -d 'v'); \
+		if [ $$node_major_version -lt 16 ]; then \
+			echo "$(RED)Node.js version too old. Please use Node.js 16 or newer.$(NC)"; \
+			echo "$(YELLOW)You can switch versions using: nvm use 16 (or higher)$(NC)"; \
+			exit 1; \
+		fi; \
 	fi
 	
 	@if [ $(call command_exists,pnpm) -eq 0 ]; then \
@@ -193,6 +200,12 @@ check-quoted-env:
 
 check-env-docker:
 	@echo "$(YELLOW)Checking if .env DB credentials match docker setup...$(NC)"
+	@echo "DEBUG: DATABASE_URL=$(DATABASE_URL)"
+	@echo "DEBUG: Extracted DB_USER=$(DB_USER)"
+	@echo "DEBUG: Extracted DB_PASSWORD=$(DB_PASSWORD)"
+	@echo "DEBUG: Extracted DB_HOST=$(DB_HOST)"
+	@echo "DEBUG: Extracted DB_NAME=$(DB_NAME)"
+	
 	@if [ ! -f docker-compose.yml ] && [ ! -f docker-compose.yaml ]; then \
 		echo "$(RED)No docker-compose file found. Cannot validate DB credentials.$(NC)"; \
 		echo "$(YELLOW)Skipping DB credential check. Make sure your .env matches your Docker config.$(NC)"; \
