@@ -134,7 +134,7 @@
                   {{ course.instructor.name }}
                 </div>
                 <div class="text-xs text-muted-foreground">
-                  {{ course.educationalLevel }}
+                  {{ course.instructor.bio }}
                 </div>
               </div>
             </div>
