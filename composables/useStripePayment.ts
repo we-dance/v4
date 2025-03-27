@@ -1,36 +1,35 @@
 import { ref } from 'vue'
+import { trpc } from '~/composables/trpc'
 
-// for iframe payment
-const TEST_PRICING_TABLE_ID = 'prctbl_1QxRDVIGsr0sxheBPN2CufA9'
-const TEST_PUBLISHABLE_KEY = 'pk_live_51Qv4EPIGsr0sxheBeNMKXcbfEqY4yql9VVxb7Ms3xue5itVdHBL9b9k2SiyMsYa6ZNeFy6C4YlKirrKRiMmblonk00uWDONLmA'
-
-
-// for external payment
-const TEST_STRIPE_URL = 'https://buy.stripe.com/test_7sIaGYcSndFRbuMbII'
-
-const pricingTableId = ref<string>(TEST_PRICING_TABLE_ID)
-const publishableKey = ref<string>(TEST_PUBLISHABLE_KEY)
 const stripeUrl = ref<string>('')
 
 // for external payment
-const handleStripeCheckout = async (uid: string, orgId: string) => {
-  console.log('simulate stripe checkout:', { uid, orgId })
+const handleStripeCheckout = async (
+  userId: string,
+  orgId: string,
+  courseId: string
+) => {
+  // Get the base URL for constructing absolute URLs
+  const baseUrl = window.location.origin
 
-  const mockStripeLink = TEST_STRIPE_URL
+  try {
+    // Create checkout session
+    const result = await trpc.subscriptions.createCheckoutSession.mutate({
+      courseId,
+      offeringId: orgId, // Adjust this if needed
+      successUrl: `${baseUrl}/checkout/${courseId}/success`,
+      cancelUrl: `${baseUrl}/checkout/${courseId}`,
+    })
 
-  stripeUrl.value = mockStripeLink
-
-  await new Promise((resolve) => setTimeout(resolve, 1000))
-
-  console.log('Stripe checkout url:', stripeUrl.value)
-  // align with backend stripe checkout structure (instafest)
-  return { url: stripeUrl.value }
+    return result
+  } catch (err) {
+    console.error('Stripe checkout error:', err)
+    throw err
+  }
 }
 
 export const useStripeCheckout = () => {
   return {
-    pricingTableId,
-    publishableKey,
     stripeUrl,
     handleStripeCheckout
   }
