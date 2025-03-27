@@ -200,11 +200,6 @@ check-quoted-env:
 
 check-env-docker:
 	@echo "$(YELLOW)Checking if .env DB credentials match docker setup...$(NC)"
-	@echo "DEBUG: DATABASE_URL=$(DATABASE_URL)"
-	@echo "DEBUG: Extracted DB_USER=$(DB_USER)"
-	@echo "DEBUG: Extracted DB_PASSWORD=$(DB_PASSWORD)"
-	@echo "DEBUG: Extracted DB_HOST=$(DB_HOST)"
-	@echo "DEBUG: Extracted DB_NAME=$(DB_NAME)"
 	
 	@if [ ! -f docker-compose.yml ] && [ ! -f docker-compose.yaml ]; then \
 		echo "$(RED)No docker-compose file found. Cannot validate DB credentials.$(NC)"; \
