@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import '@mux/mux-player'
-
+import { formatDuration } from '~/utils/format'
 const { lesson } = defineProps<{
   lesson: any
 }>()
@@ -17,11 +17,11 @@ const { lesson } = defineProps<{
       />
     </div>
     <div class="p-4">
-      <h2 class="text-xl font-semibold mb-2">
+      <h2 class="text-xl font-semibold">
         {{ lesson.name }}
       </h2>
       <p class="text-sm text-muted-foreground">
-        Duration: {{ lesson.timeRequired }}
+        Duration: {{ formatDuration(lesson.duration) }}
       </p>
     </div>
   </div>

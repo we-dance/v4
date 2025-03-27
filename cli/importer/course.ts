@@ -67,6 +67,7 @@ export async function addCourse(course: any) {
             name: lesson.name,
             duration: lesson.duration,
             videoId: lesson.videoId,
+            locked: lesson.locked || false,
           })),
         },
       })),

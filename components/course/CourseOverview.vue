@@ -1,21 +1,32 @@
 <script setup lang="ts">
+import { formatDuration } from '~/utils/format'
+
 const { course } = defineProps<{
   course: any
 }>()
 
-const timeRequired = computed(() => {
-  return 0
+const duration = computed(() => {
+  return course.modules.reduce((acc: number, module: any) => {
+    return (
+      acc +
+      module.lessons.reduce((acc: number, lesson: any) => {
+        return acc + lesson.duration
+      }, 0)
+    )
+  }, 0)
 })
 
 const numberOfLessons = computed(() => {
-  return 0
+  return course.modules.reduce((acc: number, module: any) => {
+    return acc + module.lessons.length
+  }, 0)
 })
 </script>
 
 <template>
   <div class="bg-background border-b">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div class="flex flex-col gap-4 w-[97%]">
+      <div class="flex flex-col gap-4">
         <div class="text-sm text-muted-foreground uppercase tracking-wide">
           {{ course.subheader }}
         </div>
@@ -23,7 +34,7 @@ const numberOfLessons = computed(() => {
         <div class="flex items-center gap-4 text-sm text-muted-foreground">
           <div class="flex items-center gap-2">
             <Icon name="ph:clock" class="w-4 h-4" />
-            {{ timeRequired }}
+            {{ formatDuration(duration) }}
           </div>
           <div class="flex items-center gap-2">
             <Icon name="ph:book-open" class="w-4 h-4" />

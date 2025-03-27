@@ -42,7 +42,7 @@ watch(
   <nav
     class="bg-background/80 backdrop-blur-sm shadow-sm fixed w-full z-50 border-b border-border"
   >
-    <div class="max-w-[87%] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
