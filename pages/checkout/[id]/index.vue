@@ -8,8 +8,7 @@ import { useRegistration } from '~/composables/useRegistration'
 // import StripePaymentDialog from '~/components/dialog/StripePaymentDialog.vue'
 import { useStripeCheckout } from '~/composables/useStripePayment'
 const { mockUsers } = useRegistration()
-const { handleStripeCheckout, publishableKey, pricingTableId } =
-  useStripeCheckout()
+const { handleStripeCheckout } = useStripeCheckout()
 
 interface CoursePrice {
   amount: number
@@ -349,9 +348,13 @@ const handleSubmit = async () => {
       })
       // Need to receive an object {usl: accountLink.url} from backend as stripe link
       if (!isInternalPayment.value) {
-        // After POST req(with backend), get link from response
-        const stripeData = await handleStripeCheckout(uid.value, orgId.value)
-        // For now, we'll simulate a successful booking
+        // Pass the course ID to the handleStripeCheckout function
+        const stripeData = await handleStripeCheckout(
+          uid.value,
+          orgId.value,
+          item.value.id // Make sure to pass the course ID
+        )
+
         if (stripeData && stripeData.url) {
           stripeUrl.value = stripeData.url
           stripeDialog.value = true
@@ -362,17 +365,7 @@ const handleSubmit = async () => {
         } else {
           console.error('Stripe payment URL not found')
         }
-      } else if (isInternalPayment.value) {
-        stripeDialog.value = true
-        currentPricingTableId.value = pricingTableId.value
-        currentPublishableKey.value = publishableKey.value
-        // await new Promise((resolve) => setTimeout(resolve, 5000))
       }
-      // stripeDialog.value = false
-      // in success.vue:
-      // change lesson status to locked: true
-      // Redirect to success page
-      // navigateTo(`/checkout/${item.value.id}/success`
     }
   } catch (e) {
     console.error('Checkout failed:', e)
