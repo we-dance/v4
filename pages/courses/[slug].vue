@@ -25,6 +25,10 @@ const handleSelectLesson = (lesson: any) => {
   currentLesson.value = lesson
   scrollToPlayer()
 }
+
+const handleViewPricing = () => {
+  console.log('handleViewPricing')
+}
 </script>
 
 <template>
@@ -49,7 +53,10 @@ const handleSelectLesson = (lesson: any) => {
 
         <div class="lg:sticky lg:top-8 space-y-8">
           <CourseSidebarOverview :course="course" />
-          <CourseSidebarPricing :course="course" />
+          <CourseSidebarPricing
+            :course="course"
+            @view-pricing="handleViewPricing"
+          />
           <CourseSidebarServices :profile="course.instructor" />
         </div>
       </div>

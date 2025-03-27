@@ -1,15 +1,13 @@
 <script setup lang="ts">
+import { getMinPrice } from '~/utils/format'
+
 const { course } = defineProps<{
   course: any
 }>()
 
-const getMonthlyPrice = () => {
-  return 0
-}
-
-const handleSubscribe = () => {
-  console.log('handleSubscribe')
-}
+const emit = defineEmits<{
+  (e: 'viewPricing'): void
+}>()
 </script>
 
 <template>
@@ -19,12 +17,12 @@ const handleSubscribe = () => {
         <div>
           <h3 class="font-semibold mb-2">Starting from</h3>
           <div class="text-2xl font-bold">
-            {{ getMonthlyPrice()
-            }}<span class="text-base font-normal text-muted-foreground"></span>
+            {{ getMinPrice(course.offers) }}
+            <span class="text-base font-normal text-muted-foreground"></span>
           </div>
         </div>
 
-        <Button class="w-full" variant="primary" @click="handleSubscribe">
+        <Button class="w-full" variant="primary" @click="emit('viewPricing')">
           View Pricing Plans
         </Button>
 
