@@ -1,15 +1,3 @@
-ifneq (,$(wildcard .env))
-    include .env
-    export
-endif
-
-# Extract database credentials from DATABASE_URL
-DB_USER      := $(shell echo $(DATABASE_URL) | sed -E 's|.*//([^:]+):.*|\1|')
-DB_PASSWORD  := $(shell echo $(DATABASE_URL) | sed -E 's|.*//[^:]+:([^@]+)@.*|\1|')
-DB_HOST      := $(shell echo $(DATABASE_URL) | sed -E 's|.*@([^:]+):.*|\1|')
-DB_PORT      := $(shell echo $(DATABASE_URL) | sed -E 's|.*:([0-9]+)/.*|\1|')
-DB_NAME      := $(shell echo $(DATABASE_URL) | sed -E 's|.*/([^?]+).*|\1|')
-
 # Colors for output
 YELLOW=\033[0;33m
 GREEN=\033[0;32m
