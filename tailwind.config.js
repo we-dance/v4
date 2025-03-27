@@ -4,7 +4,6 @@ const typography = require('@tailwindcss/typography')
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ['class'],
-  safelist: ['data-[state=open]:slide-in-from-top-[48%]'],
   content: [
     './pages/**/*.{ts,tsx,vue}',
     './components/**/*.{ts,tsx,vue}',
