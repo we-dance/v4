@@ -10,7 +10,22 @@ const profileUpdateSchema = z.object({
   name: z.string().optional(),
   username: z.string().optional(),
   photo: z.string().optional().nullable(),
-  // Add other fields as needed
+  // Social links
+  couchsurfing: z.string().optional(),
+  linkedin: z.string().optional(),
+  airbnb: z.string().optional(),
+  blablacar: z.string().optional(),
+  spotify: z.string().optional(),
+  instagram: z.string().optional(),
+  facebook: z.string().optional(),
+  vk: z.string().optional(),
+  whatsapp: z.string().optional(),
+  telegram: z.string().optional(),
+  twitter: z.string().optional(),
+  tiktok: z.string().optional(),
+  youtube: z.string().optional(),
+  threads: z.string().optional(),
+  website: z.string().optional(),
 })
 
 export const profilesRouter = router({
