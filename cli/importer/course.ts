@@ -41,6 +41,7 @@ export async function addCourse(course: any) {
     slug: course.slug,
     name: course.name,
     description: course.description,
+    subheader: course.subheader,
     coverUrl: course.coverUrl,
     instructor: {
       connect: {

@@ -16,5 +16,6 @@ const course = await $client.courses.view.query({ slug })
 <template>
   <div class="min-h-screen bg-muted">
     <CourseHeader :course="course" />
+    <CourseOverview :course="course" />
   </div>
 </template>

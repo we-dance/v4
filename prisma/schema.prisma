@@ -379,7 +379,8 @@ model Course {
   id           String  @id @default(nanoid())
   slug         String  @unique
   name         String
-  description  String
+  description  String?
+  subheader    String?
   instructorId String?
   coverUrl     String?
 
