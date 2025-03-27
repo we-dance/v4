@@ -8,7 +8,6 @@
       <div class="h-16 flex items-center justify-between px-4 border-b border-border">
         <NuxtLink to="/" class="flex items-center gap-2">
           <WeDanceLogo class="h-10" />
-          <span v-if="!isCollapsed" class="font-bold">Admin</span>
         </NuxtLink>
         <Button 
           variant="ghost" 
@@ -92,13 +91,23 @@
       <!-- Header -->
       <header class="h-16 border-b border-border bg-background/80 backdrop-blur-sm">
         <div class="h-full flex items-center justify-end px-6 gap-4">
-          <Button variant="ghost" size="icon">
-            <Icon name="lucide:bell" class="h-4 w-4" />
-          </Button>
-          <Button variant="ghost" size="icon">
-            <Icon name="lucide:settings" class="h-4 w-4" />
-          </Button>
-          <Button variant="ghost" @click="handleSignOut"> Sign Out </Button>
+          <div class="flex items-center gap-2">
+            <Button
+              variant="ghost"
+              size="icon"
+              class="relative"
+              aria-label="View notifications"
+            >
+              <Icon name="lucide:bell" class="h-5 w-5" />
+              <span
+                v-if="notificationCount > 0"
+                class="absolute -right-1 -top-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] text-primary-foreground"
+              >
+                {{ notificationCount }}
+              </span>
+            </Button>
+            <UserProfileDropdown />
+          </div>
         </div>
       </header>
 
@@ -295,4 +304,7 @@ const handleSignOut = async () => {
   await auth.logout()
   navigateTo('/')
 }
+
+// Mock notification count - replace with actual count
+const notificationCount = ref(3)
 </script>
