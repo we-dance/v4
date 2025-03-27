@@ -3,7 +3,7 @@ import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '../trpc'
 
 export const coursesRouter = router({
-  getAll: publicProcedure
+  list: publicProcedure
     .input(
       z.object({
         limit: z.number().min(1).max(100).default(10),

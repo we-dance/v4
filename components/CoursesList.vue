@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
+import { Prisma } from '@prisma/client'
+const { $client } = useNuxtApp()
+const { courses } = await $client.courses.list.query({ limit: 10 })
 
 const search = ref('')
 const showFilters = ref(false)
@@ -23,17 +26,13 @@ const activeFiltersCount = computed(() => {
   return Object.values(filters.value).filter(Boolean).length
 })
 
-const getMonthlyPrice = (course: Course) => {
-  const monthlyOffer = course.offers?.find((offer) => offer.duration === 'P1M')
-  if (monthlyOffer) {
-    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
-  }
+const getMonthlyPrice = (course: Prisma.CourseGetPayload<{}>) => {
+  // const monthlyOffer = course.offers
+  // if (monthlyOffer) {
+  //   return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
+  // }
   return 'Contact for pricing'
 }
-
-const courses = computed(() => {
-  return []
-})
 </script>
 
 <template>
@@ -116,12 +115,12 @@ const courses = computed(() => {
 
     <!-- Course Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card v-for="course in courses" :key="course.identifier" class="group">
-        <NuxtLink :to="`/courses/${course.identifier}`">
+      <Card v-for="course in courses" :key="course.slug" class="group">
+        <NuxtLink :to="`/courses/${course.slug}`">
           <CardHeader class="space-y-4">
             <div class="aspect-video bg-muted rounded-lg overflow-hidden">
               <img
-                :src="course.image?.url"
+                :src="course.coverUrl"
                 :alt="course.name"
                 class="w-full h-full object-cover transition group-hover:scale-105"
               />
@@ -138,8 +137,8 @@ const courses = computed(() => {
           <CardContent class="space-y-4">
             <div class="flex items-center gap-3">
               <img
-                :src="course.instructor.image"
-                :alt="course.instructor.name"
+                :src="course.instructor?.photo"
+                :alt="course.instructor?.name"
                 class="w-8 h-8 rounded-full object-cover"
               />
               <div>
@@ -147,18 +146,24 @@ const courses = computed(() => {
                   {{ course.instructor.name }}
                 </div>
                 <div class="text-xs text-muted-foreground">
-                  {{ course.instructor.jobTitle }}
+                  {{ course.instructor.bio.slice(0, 100) }}...
                 </div>
               </div>
             </div>
             <div class="flex items-center justify-between text-sm">
-              <div class="flex items-center gap-1">
+              <div
+                v-if="course.aggregateRating?.ratingValue"
+                class="flex items-center gap-1"
+              >
                 <Icon name="ph:star-fill" class="w-4 h-4 text-yellow-400" />
                 <span>{{ course.aggregateRating?.ratingValue }}</span>
-                <span class="text-muted-foreground"
+                <span
+                  v-if="course.aggregateRating?.reviewCount"
+                  class="text-muted-foreground"
                   >({{ course.aggregateRating?.reviewCount }})</span
                 >
               </div>
+              <div></div>
               <div class="font-medium">
                 {{ getMonthlyPrice(course) }}
               </div>
