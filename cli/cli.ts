@@ -63,7 +63,7 @@ program
   .option('-b, --posts', 'Import blog posts')
   .option('-e, --events', 'Import events')
   .option('-s, --subscribers', 'Import subscribers')
-  .option('--courses', 'Import courses')
+  .option('-o, --courses', 'Import video courses')
   .action(async (options) => {
     const {
       all,

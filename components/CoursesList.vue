@@ -1,3 +1,41 @@
+<script setup lang="ts">
+import { ref, computed } from 'vue'
+
+const search = ref('')
+const showFilters = ref(false)
+const filters = ref({
+  level: '',
+  style: '',
+  priceRange: '',
+  rating: '',
+})
+
+const resetFilters = () => {
+  filters.value = {
+    level: '',
+    style: '',
+    priceRange: '',
+    rating: '',
+  }
+}
+
+const activeFiltersCount = computed(() => {
+  return Object.values(filters.value).filter(Boolean).length
+})
+
+const getMonthlyPrice = (course: Course) => {
+  const monthlyOffer = course.offers?.find((offer) => offer.duration === 'P1M')
+  if (monthlyOffer) {
+    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
+  }
+  return 'Contact for pricing'
+}
+
+const courses = computed(() => {
+  return []
+})
+</script>
+
 <template>
   <div class="space-y-8">
     <!-- Search and Filters -->
@@ -78,11 +116,7 @@
 
     <!-- Course Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card
-        v-for="course in filteredCourses"
-        :key="course.identifier"
-        class="group"
-      >
+      <Card v-for="course in courses" :key="course.identifier" class="group">
         <NuxtLink :to="`/courses/${course.identifier}`">
           <CardHeader class="space-y-4">
             <div class="aspect-video bg-muted rounded-lg overflow-hidden">
@@ -135,10 +169,7 @@
     </div>
 
     <!-- Empty State -->
-    <div
-      v-if="filteredCourses.length === 0"
-      class="text-center py-12 space-y-4"
-    >
+    <div v-if="courses.length === 0" class="text-center py-12 space-y-4">
       <div class="text-4xl">🎓</div>
       <h3 class="text-lg font-medium">No courses found</h3>
       <p class="text-muted-foreground">
@@ -147,86 +178,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref, computed } from 'vue'
-import { mockCourses } from '~/data/mockCourses'
-import type { Course } from '~/schemas/course'
-
-const search = ref('')
-const showFilters = ref(false)
-const filters = ref({
-  level: '',
-  style: '',
-  priceRange: '',
-  rating: '',
-})
-
-const resetFilters = () => {
-  filters.value = {
-    level: '',
-    style: '',
-    priceRange: '',
-    rating: '',
-  }
-}
-
-const activeFiltersCount = computed(() => {
-  return Object.values(filters.value).filter(Boolean).length
-})
-
-const getMonthlyPrice = (course: Course) => {
-  const monthlyOffer = course.offers?.find((offer) => offer.duration === 'P1M')
-  if (monthlyOffer) {
-    return `${monthlyOffer.price} ${monthlyOffer.priceCurrency}`
-  }
-  return 'Contact for pricing'
-}
-
-const filteredCourses = computed(() => {
-  let result = [...mockCourses]
-
-  // Apply search
-  if (search.value) {
-    const searchLower = search.value.toLowerCase()
-    result = result.filter(
-      (course) =>
-        course.name.toLowerCase().includes(searchLower) ||
-        course.description.toLowerCase().includes(searchLower) ||
-        course.instructor.name.toLowerCase().includes(searchLower)
-    )
-  }
-
-  // Apply filters
-  if (filters.value.level) {
-    result = result.filter(
-      (course) => course.educationalLevel === filters.value.level
-    )
-  }
-
-  if (filters.value.rating) {
-    const minRating = parseFloat(filters.value.rating)
-    result = result.filter(
-      (course) => (course.aggregateRating?.ratingValue || 0) >= minRating
-    )
-  }
-
-  if (filters.value.priceRange) {
-    const [min, max] = filters.value.priceRange.split('-').map(Number)
-    result = result.filter((course) => {
-      const monthlyOffer = course.offers?.find(
-        (offer) => offer.duration === 'P1M'
-      )
-      if (!monthlyOffer) return false
-
-      const price = monthlyOffer.price
-      if (max) {
-        return price >= min && price <= max
-      }
-      return price >= min
-    })
-  }
-
-  return result
-})
-</script>

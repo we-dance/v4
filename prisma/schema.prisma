@@ -74,9 +74,6 @@ model User {
   accounts        Account[]
   sessions        Session[]
 
-  // Course relationships
-  courseEnrollments CourseEnrollment[] @relation("user_enrollments")
-
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   lastLoginAt DateTime @default(now())
@@ -378,121 +375,57 @@ model Vote {
   createdById String
 }
 
-// Course models
 model Course {
-  id                      String  @id
-  slug                    String  @unique
-  name                    String
-  description             String
-  educationalLevel        String
-  timeRequired            String
-  numberOfLessons         Int
-  instructorId            String?
-  originalInstructorId    String?
-  providerName            String
-  providerDescription     String?
-  providerUrl             String?
-  providerLogoUrl         String?
-  imageUrl                String
-  videoUrl                String
-  videoDuration           String
-  videoThumbnailUrl       String?
-  enrolledCount           Int     @default(0)
-  completedCount          Int     @default(0)
-  discussionsCount        Int     @default(0)
-  activeStudents          Int     @default(0)
-  nextLiveQA              String?
-  showTrial               Boolean @default(false)
-  showMonthlyAnnualToggle Boolean @default(false)
-  availablePlans          String?
-  languages               String
-  dateCreated             String
-  dateModified            String
-  averageRating           Float   @default(0)
-  reviewCount             Int     @default(0)
-  ratingCount             Int     @default(0)
-  teachesData             String?
-  subscriptionFeatures    String?
+  id           String  @id @default(nanoid())
+  slug         String  @unique
+  name         String
+  description  String
+  instructorId String?
+  coverUrl     String?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  // Relations
-  instructor  Profile?           @relation("course_instructor", fields: [instructorId], references: [id])
-  modules     CourseModule[]
-  lessons     CourseLesson[]
-  resources   CourseResource[]
-  reviews     CourseReview[]
-  offerings   CourseOffering[]
-  enrollments CourseEnrollment[]
+  instructor Profile?         @relation("course_instructor", fields: [instructorId], references: [id])
+  modules    CourseModule[]
+  resources  CourseResource[]
+  offers     Offer[]
 }
 
 model CourseModule {
-  id                   String  @id
-  name                 String
-  identifier           Int
-  order                Int
-  learningResourceType String
-  description          String?
-  courseId             String
+  id          String  @id @default(nanoid())
+  name        String
+  order       Int
+  description String?
+  courseId    String
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  // Relations
   course  Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
   lessons CourseLesson[]
 }
 
 model CourseLesson {
-  id            String  @id
-  name          String
-  identifier    Int
-  timeRequired  String
-  videoId       String
-  videoProvider String
-  videoDuration String
-  playbackId    String?
-  videoType     String?
-  completed     Boolean @default(false)
-  order         Int
-  locked        Boolean @default(false)
-  moduleId      String
+  id       String  @id @default(nanoid())
+  name     String
+  duration Int
+  videoId  String
+  locked   Boolean @default(false)
+  moduleId String
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  // Relations
-  module   CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
-  course   Course?      @relation(fields: [courseId], references: [id])
-  courseId String?
+  module CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
 }
 
 model CourseResource {
-  id           String @id
-  name         String
-  type         String
-  contentSize  String
-  icon         String
-  url          String
-  resourceType String
-  courseId     String
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  // Relations
-  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
-}
-
-model CourseReview {
-  id          String @id
-  rating      Float
-  content     String
-  authorName  String
-  publishedAt String
-  bestRating  Int    @default(5)
-  worstRating Int    @default(1)
+  id          String  @id @default(nanoid())
+  name        String
+  description String
+  url         String
+  locked      Boolean @default(false)
   courseId    String
 
   createdAt DateTime @default(now())
@@ -502,41 +435,19 @@ model CourseReview {
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }
 
-model CourseOffering {
-  id           String    @id
+model Offer {
+  id           String    @id @default(nanoid())
   name         String
-  price        Float
+  price        Int
   currency     String
   duration     String
   validFrom    DateTime?
   validThrough DateTime?
-  offerType    String
   courseId     String
+  items        Json?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  // Relations
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
-}
-
-// Add this model to connect users to courses
-model CourseEnrollment {
-  id                 String    @id @default(nanoid())
-  enrollmentDate     DateTime  @default(now())
-  completionDate     DateTime?
-  lastAccessDate     DateTime  @default(now())
-  progressPercentage Float     @default(0)
-  isActive           Boolean   @default(true)
-
-  // Relations
-  userId   String
-  user     User   @relation("user_enrollments", fields: [userId], references: [id])
-  courseId String
-  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@unique([userId, courseId])
 }
