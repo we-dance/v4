@@ -16,10 +16,16 @@ GREEN=\033[0;32m
 RED=\033[0;31m
 NC=\033[0m # No Color
 
-.PHONY: build start import
+.PHONY: build start import logs
+
+logs:
+	docker compose logs -f
 
 start:
 	docker compose up -d
+	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
+	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
+	docker compose exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
 
 import:
 	@echo "$(YELLOW)Importing data...$(NC)"
