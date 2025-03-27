@@ -1,3 +1,5 @@
+import { Prisma } from '@prisma/client'
+
 export function formatDate(dateString: string): string {
   if (dateString.toLowerCase().includes('every')) {
     return dateString
@@ -25,9 +27,25 @@ export function formatCurrency(amount: number, currency: string): string {
   }).format(amount)
 }
 
+export function formatCurrencyCents(amount: number, currency: string): string {
+  return formatCurrency(amount / 100, currency)
+}
+
 export const formatDuration = (duration: number) => {
   const hours = Math.floor(duration / 3600)
   const minutes = Math.floor((duration % 3600) / 60)
   const seconds = duration % 60
   return `${hours > 0 ? `${hours}h` : ''} ${minutes > 0 ? `${minutes}m` : ''} ${seconds > 0 ? `${seconds}s` : ''}`
+}
+
+export const getMinPrice = (offers: Prisma.OfferGetPayload<{}>[]) => {
+  if (!offers?.length) {
+    return 'Contact for pricing'
+  }
+
+  const minOffer = offers.reduce((min, offer) => {
+    return offer.price < min.price ? offer : min
+  }, offers[0])
+
+  return formatCurrencyCents(minOffer.price, minOffer.currency)
 }

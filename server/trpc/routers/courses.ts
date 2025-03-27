@@ -35,7 +35,7 @@ export const coursesRouter = router({
         }
       }
 
-      const courses = await prisma.course.findMany({
+      const courses: any = await prisma.course.findMany({
         take: limit + 1,
         where,
         cursor: cursor ? { id: cursor } : undefined,
@@ -58,6 +58,18 @@ export const coursesRouter = router({
         const nextItem = courses.pop()
         nextCursor = nextItem?.id
       }
+
+      courses.forEach((course: any) => {
+        course.stats = {
+          enrolled: 0,
+          completed: 0,
+        }
+
+        course.aggregateRating = {
+          ratingValue: 0,
+          reviewCount: 0,
+        }
+      })
 
       return {
         courses,
