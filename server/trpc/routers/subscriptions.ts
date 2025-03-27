@@ -6,6 +6,7 @@ import {
   updateSubscriptionStatusSchema,
 } from '~/schemas/subscription'
 import { getServerSession } from '#auth'
+import { stripeService } from '~/server/services/stripe'
 
 export const subscriptionsRouter = router({
   // Get all subscriptions for the current user
@@ -151,5 +152,82 @@ export const subscriptionsRouter = router({
           id,
         },
       })
+    }),
+
+  // Modified checkout session creation
+  createCheckoutSession: publicProcedure
+    .input(
+      z.object({
+        courseId: z.string(),
+        offeringId: z.string(),
+        successUrl: z.string(),
+        cancelUrl: z.string(),
+      })
+    )
+    .mutation(async ({ input, ctx }) => {
+      const session = await getServerSession(ctx.event)
+
+      if (!session) {
+        throw new Error('You must be logged in to subscribe')
+      }
+
+      const { courseId, offeringId, successUrl, cancelUrl } = input
+
+      try {
+        // Create a checkout session
+        const checkoutSession = await stripeService.createCheckoutSession({
+          userId: session.user.id,
+          email: session.user.email as string,
+          courseId,
+          offeringId,
+          successUrl,
+          cancelUrl,
+        })
+
+        return { sessionId: checkoutSession.id, url: checkoutSession.url }
+      } catch (error) {
+        console.error('Error creating checkout session:', error)
+        throw new Error('Failed to create checkout session')
+      }
+    }),
+
+  cancelStripeSubscription: publicProcedure
+    .input(z.object({ subscriptionId: z.string() }))
+    .mutation(async ({ input, ctx }) => {
+      const { subscriptionId } = input
+      const session = await getServerSession(ctx.event)
+
+      if (!session) {
+        throw new Error('You must be logged in to cancel a subscription')
+      }
+
+      // Verify the subscription belongs to the user
+      const subscription = await prisma.subscription.findFirst({
+        where: {
+          stripeSubscriptionId: subscriptionId,
+          userId: session.user.id,
+        },
+      })
+
+      if (!subscription) {
+        throw new Error('Subscription not found or does not belong to you')
+      }
+
+      try {
+        // Cancel in Stripe
+        await stripeService.cancelSubscription(subscriptionId)
+
+        // Update in database
+        return await prisma.subscription.update({
+          where: { id: subscription.id },
+          data: {
+            status: 'canceled',
+            canceledAt: new Date(),
+          },
+        })
+      } catch (error) {
+        console.error('Error canceling subscription:', error)
+        throw new Error('Failed to cancel subscription')
+      }
     }),
 })
