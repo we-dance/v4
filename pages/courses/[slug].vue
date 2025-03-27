@@ -6,6 +6,7 @@ const route = useRoute()
 const slug = z.string().parse(route.params.slug)
 const course = await $client.courses.view.query({ slug })
 const currentLesson = ref(course.modules[0].lessons[0])
+const dialog = useDialog()
 
 const scrollToPlayer = () => {
   const player = document.querySelector('.player')
@@ -27,7 +28,12 @@ const handleSelectLesson = (lesson: any) => {
 }
 
 const handleViewPricing = () => {
-  console.log('handleViewPricing')
+  dialog.open({
+    component: 'CourseSubscriptionDialog',
+    props: {
+      course: course,
+    },
+  })
 }
 </script>
 
