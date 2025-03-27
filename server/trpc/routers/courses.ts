@@ -65,7 +65,7 @@ export const coursesRouter = router({
       }
     }),
 
-  getBySlug: publicProcedure
+  view: publicProcedure
     .input(
       z.object({
         slug: z.string(),
