@@ -9,6 +9,9 @@ NC=\033[0m # No Color
 logs:
 	docker compose logs -f
 
+build:
+	docker compose up --build -d
+
 start:
 	docker compose up -d
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
