@@ -4,7 +4,7 @@ import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
 
-// Update schema to include all social link fields
+// todo: move to profile schema
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
   name: z.string().optional(),
