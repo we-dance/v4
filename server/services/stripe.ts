@@ -188,7 +188,7 @@ export const stripeService = {
     // Get or create a price for this offering
     const priceId = await this.getOrCreatePrice(offering, productId)
 
-    // Create checkout session
+    // Create checkout session with proper success and cancel URLs
     const session = await stripe.checkout.sessions.create({
       customer: customerId,
       payment_method_types: ['card'],
@@ -199,7 +199,8 @@ export const stripeService = {
         },
       ],
       mode: 'subscription',
-      success_url: `${successUrl}?session_id={CHECKOUT_SESSION_ID}`,
+      // These URLs should come from the frontend and include the courseId
+      success_url: successUrl,
       cancel_url: cancelUrl,
       metadata: {
         userId,
