@@ -28,6 +28,7 @@ export const useProfile = async () => {
     result.type = profile.type as 'artist'
     result.name = profile.name
     result.points = 0
+    result.bio = profile.bio
     result.stats = {
       events: 0,
       followers: 0,
