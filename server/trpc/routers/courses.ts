@@ -75,7 +75,7 @@ export const coursesRouter = router({
       const { slug } = input
       const prisma = ctx.prisma
 
-      const course = await prisma.course.findUnique({
+      const course: any = await prisma.course.findUnique({
         where: { slug },
         include: {
           instructor: {
@@ -104,6 +104,16 @@ export const coursesRouter = router({
           code: 'NOT_FOUND',
           message: `No course with slug '${slug}'`,
         })
+      }
+
+      course.stats = {
+        enrolled: 0,
+        completed: 0,
+      }
+
+      course.aggregateRating = {
+        ratingValue: 0,
+        reviewCount: 0,
       }
 
       return course
