@@ -13,8 +13,8 @@ COPY package.json pnpm-lock.yaml ./
 
 RUN pnpm install
 
-COPY . .
-
 RUN pnpm prisma generate
+
+COPY . .
 
 CMD ["sh", "-c", "pnpm prisma db push --force-reset && pnpm dev"]
