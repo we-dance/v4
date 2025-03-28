@@ -95,6 +95,7 @@ const handleFollow = () => {
               >
                 {{ profile.name }}
               </h1>
+              {{ profile.bio }}
               <div
                 class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-muted-foreground mb-6"
               >

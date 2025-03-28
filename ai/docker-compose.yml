@@ -18,7 +18,7 @@ services:
       - .env
     networks:
       - secretary-ai-network
-    command: npm run dev
+    command: pnpm run dev
 networks:
   secretary-ai-network:
     driver: bridge

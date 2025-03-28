@@ -63,7 +63,7 @@
     <LandingGetStarted
       title="Ready to Join WeDance?"
       description="Experience the best platform built specifically for dancers"
-      secondary="Founding Member Benefits"
+      secondary="Early Bird Customer Benefits"
       secondaryLink="/founding-members"
     />
   </div>

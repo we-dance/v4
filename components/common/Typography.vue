@@ -22,27 +22,12 @@ const text = {
     </div>
 
     <div class="space-y-2">
-      <div class="font-heading">
-        <div class="text-sm text-muted-foreground">Font: Montserrat</div>
-        <div class="space-y-1">
-          <p class="font-normal">
-            Normal 400: The quick brown fox jumps over the lazy dog
-          </p>
-          <p class="font-medium">
-            Medium 500: The quick brown fox jumps over the lazy dog
-          </p>
-          <p class="font-semibold">
-            Semibold 600: The quick brown fox jumps over the lazy dog
-          </p>
-          <p class="font-bold">
-            Bold 700: The quick brown fox jumps over the lazy dog
-          </p>
-        </div>
-      </div>
-
       <div>
-        <div class="text-sm text-muted-foreground">Font: Noto Sans</div>
+        <div class="text-sm text-muted-foreground">Font: Nunito Sans</div>
         <div class="space-y-1">
+          <p class="font-light">
+            Light 300: The quick brown fox jumps over the lazy dog
+          </p>
           <p class="font-normal">
             Normal 400: The quick brown fox jumps over the lazy dog
           </p>
@@ -54,6 +39,9 @@ const text = {
           </p>
           <p class="font-bold">
             Bold 700: The quick brown fox jumps over the lazy dog
+          </p>
+          <p class="font-extrabold">
+            Extra Bold 800: The quick brown fox jumps over the lazy dog
           </p>
         </div>
       </div>

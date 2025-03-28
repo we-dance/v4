@@ -6,7 +6,7 @@
       <div class="text-center mb-8">
         <h2 class="text-3xl font-bold text-foreground">Welcome back</h2>
         <p class="mt-2 text-sm text-muted-foreground">
-          Sign in to your account to continue
+          Sign in to your account to continue.
         </p>
       </div>
 
