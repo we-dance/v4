@@ -40,7 +40,7 @@
     "moment-timezone": "^0.5.45",
     "nanoid": "^5.1.4",
     "next-auth": "4.21.1",
-    "nuxt": "^3.15.0",
+    "nuxt": "~3.15.0",
     "radix-vue": "^1.9.12",
     "reka-ui": "^2.0.2",
     "shadcn-nuxt": "0.11.3",
