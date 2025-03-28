@@ -1,10 +1,19 @@
 import CredentialsProvider from 'next-auth/providers/credentials'
-import GoogleProvider from 'next-auth/providers/google'
+import FacebookProvider from 'next-auth/providers/facebook'
 import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import { userSchema, generateUniqueUsername } from '~/schemas/user'
+import {
+  defaultNotificationsSettings,
+  getSlug,
+  registerSchema,
+} from '~/schemas/user'
+import {
+  defaultPrivacySettings,
+  generateUniqueUsername,
+} from '~/schemas/profile'
+import { nanoid } from 'nanoid'
 
 const prisma = new PrismaClient()
 
@@ -15,17 +24,21 @@ const firebaseParameters = {
   signerKey: String(process.env.FIREBASE_SIGNER_KEY),
 }
 
+// @todo upgrade to https://auth.sidebase.io/ 0.10.0
 export default NuxtAuthHandler({
   secret: process.env.AUTH_SECRET,
   session: {
     strategy: 'jwt',
     maxAge: 3000,
   },
+  // @ts-expect-error will figure out later
   adapter: PrismaAdapter(prisma),
   pages: {
-    signIn: '/signin',
+    signIn: '/login',
+    signOut: '/logout',
   },
   callbacks: {
+    // @ts-expect-error will figure out later
     session: async ({ session }) => {
       const email = session.user.email
 
@@ -35,6 +48,13 @@ export default NuxtAuthHandler({
         },
       })
 
+      if (!user) {
+        return Promise.resolve({
+          user: null,
+          profile: null,
+        })
+      }
+
       const profile = await prisma.profile.findFirst({
         where: {
           userId: user.id,
@@ -43,20 +63,14 @@ export default NuxtAuthHandler({
 
       session.user.id = user.id
       return Promise.resolve({
-        userId: user.id,
-        username: profile?.username,
-        profileId: profile?.id,
-        cityId: profile?.cityId,
-        photo: profile?.photo,
+        user,
+        profile,
+        expires: session.expires,
       })
     },
   },
   providers: [
-    GoogleProvider.default({
-      clientId: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      allowDangerousEmailAccountLinking: true,
-    }),
+    // @ts-expect-error You need to use .default here for it to work during SSR. May be fixed via Vite at some point
     CredentialsProvider.default({
       name: 'Credentials',
       credentials: {
@@ -93,6 +107,7 @@ export default NuxtAuthHandler({
         return user
       },
     }),
+    // @ts-expect-error You need to use .default here for it to work during SSR. May be fixed via Vite at some point
     CredentialsProvider.default({
       id: 'register',
       name: 'Register',
@@ -105,7 +120,7 @@ export default NuxtAuthHandler({
         emailConsent: { label: 'Email Consent', type: 'checkbox' },
       },
       async authorize(input: any) {
-        const result = userSchema.safeParse(input)
+        const result = registerSchema.safeParse(input)
 
         if (!result.success) {
           const errorMessages = result.error.errors
@@ -115,7 +130,10 @@ export default NuxtAuthHandler({
         }
 
         const data = result.data
-        const username = generateUniqueUsername()
+        const name = data.firstName + ' ' + data.lastName[0] + '.'
+        const username = getSlug(
+          data.firstName + '.' + data.lastName[0] + '.' + nanoid(5)
+        )
 
         const scrypt = new FirebaseScrypt(firebaseParameters)
         const salt = Buffer.from(String(Math.random()).slice(7)).toString(
@@ -136,6 +154,7 @@ export default NuxtAuthHandler({
               emailConsentAt: new Date(),
               hash,
               salt,
+              notificationSettings: defaultNotificationsSettings,
             },
           })
         } catch (error: any) {
@@ -149,15 +168,16 @@ export default NuxtAuthHandler({
         try {
           await prisma.profile.create({
             data: {
-              username: username,
-              name: username,
-              type: 'Dancer',
+              username,
+              name,
+              type: 'dancer',
               claimed: true,
               user: {
                 connect: {
                   id: user.id,
                 },
               },
+              privacySettings: defaultPrivacySettings,
             },
           })
         } catch (error: any) {
@@ -166,6 +186,11 @@ export default NuxtAuthHandler({
 
         return user
       },
+    }),
+    // @ts-expect-error You need to use .default here for it to work during SSR. May be fixed via Vite at some point
+    FacebookProvider.default({
+      clientId: process.env.FACEBOOK_CLIENT_ID,
+      clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
     }),
   ],
 })

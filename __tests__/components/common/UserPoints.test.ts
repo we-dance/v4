@@ -1,6 +1,10 @@
 import { describe, it, expect } from 'vitest'
-import { mount } from '@vue/test-utils'
+import { mount, config } from '@vue/test-utils'
 import UserPoints from '~/components/common/UserPoints.vue'
+
+config.global.stubs = {
+  Icon: true,
+}
 
 describe('UserPoints', () => {
   it('formats numbers correctly', () => {

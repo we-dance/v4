@@ -14,8 +14,10 @@ import {
 } from './profile'
 import { addAccount } from './account'
 import { addDanceStyle, clearVotes } from './style'
+import { addCourse } from './course'
 import * as cliProgress from 'cli-progress'
 import { getLogger } from '../utils/logger'
+import { getCourses } from '../provider/courses'
 
 export async function importDanceStyles(multibar: cliProgress.MultiBar) {
   let collection = 'styles'
@@ -312,6 +314,48 @@ export async function importEvents(multibar: cliProgress.MultiBar) {
     logger.debug('importing', event.id)
 
     const result = await addEvent(event)
+    bar.increment({ created, updated, ignored, failed })
+
+    if (result.state === 'created') {
+      created++
+    }
+    if (result.state === 'updated') {
+      updated++
+    }
+    if (result.state === 'ignored') {
+      ignored++
+    }
+    if (result.state === 'failed') {
+      failed++
+    }
+
+    logger.log(result.state === 'failed' ? 'error' : 'debug', result)
+  }
+
+  bar.stop()
+}
+
+export async function importCourses(multibar: cliProgress.MultiBar) {
+  let collection = 'courses'
+  const logger = getLogger(collection)
+
+  logger.info('Importing courses')
+
+  let created = 0
+  let updated = 0
+  let ignored = 0
+  let failed = 0
+
+  const courses = await getCourses()
+
+  const bar = multibar.create(courses.length, 0, {
+    collection,
+  })
+
+  for (const course of courses) {
+    logger.debug('importing', course.id)
+
+    const result = await addCourse(course)
     bar.increment({ created, updated, ignored, failed })
 
     if (result.state === 'created') {

@@ -19,8 +19,9 @@ export default {
   prefix: '',
   theme: {
     fontFamily: {
-      heading: ['Noto Sans', 'sans-serif'],
-      sans: ['Noto Sans', 'sans-serif'],
+      sans: ['Nunito Sans', 'sans-serif'],
+      heading: ['Nunito Sans', 'sans-serif'],
+      mono: ['Roboto Mono', 'monospace'],
     },
     container: {
       center: true,

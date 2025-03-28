@@ -7,6 +7,7 @@ import {
   importSubscribers,
   importDanceStyles,
   importPosts,
+  importCourses,
 } from './importer'
 import { getUniqueUsername } from './importer/profile'
 import { logger } from './utils/logger'
@@ -62,6 +63,7 @@ program
   .option('-b, --posts', 'Import blog posts')
   .option('-e, --events', 'Import events')
   .option('-s, --subscribers', 'Import subscribers')
+  .option('-o, --courses', 'Import video courses')
   .action(async (options) => {
     const {
       all,
@@ -72,6 +74,7 @@ program
       subscribers,
       danceStyles,
       posts,
+      courses,
     } = options
     logger.level = getLogLevel(program.opts().verbose)
 
@@ -85,6 +88,7 @@ program
       cities,
       subscribers,
       danceStyles,
+      courses,
     })
 
     const multibar = new cliProgress.MultiBar({
@@ -120,6 +124,10 @@ program
 
     if (all || posts) {
       await importPosts(multibar)
+    }
+
+    if (all || courses) {
+      await importCourses(multibar)
     }
 
     multibar.stop()

@@ -1,58 +1,79 @@
 <script lang="ts" setup>
-import PhoneInput from 'base-vue-phone-input'
+import BasePhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
+import { ref, onMounted, defineProps, defineEmits } from 'vue'
 
-const props = defineProps<{
-  value?: string
-}>()
+const props = defineProps({
+  modelValue: {
+    type: String,
+    default: '',
+  },
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+})
 
-const emit = defineEmits<{
-  change: [value: string]
-  blur: [event: FocusEvent]
-}>()
+const emit = defineEmits(['update:modelValue'])
 
 const open = ref(false)
 const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
-const res = ref()
 
-// Handle value changes from the phone input
-watch(
-  () => res.value,
-  (newValue) => {
-    if (newValue?.e164) {
-      emit('change', newValue.e164)
-    }
+// Internal value to manage the phone input
+const internalValue = ref(props.modelValue)
+
+// Track if user has interacted with the component
+const userInteracted = ref(false)
+
+// Track if the component has been initialized
+const initialized = ref(false)
+
+onMounted(() => {
+  // Delay initialization to allow auto-country selection without triggering validation
+  setTimeout(() => {
+    initialized.value = true
+  }, 300)
+})
+
+// Only emit changes after user interaction and initialization
+const handleValueChange = (value: string) => {
+  internalValue.value = value
+
+  if (initialized.value && userInteracted.value) {
+    emit('update:modelValue', value)
   }
-)
+}
 
-// Handle external value changes (from v-model or vee-validate)
-watch(
-  () => props.value,
-  (newValue) => {
-    if (newValue && !res.value?.e164) {
-      // If there's an external value but no internal value, we might need to initialize
-      // Note: This is a simple approach - a more complete solution would parse and set the phone number
-      res.value = { e164: newValue }
-    }
-  },
-  { immediate: true }
-)
+// Mark component as interacted with
+const markAsInteracted = () => {
+  userInteracted.value = true
 
-const handleBlur = (event: FocusEvent) => {
-  emit('blur', event)
+  // If we already have a value, emit it now that user has interacted
+  if (internalValue.value && initialized.value) {
+    emit('update:modelValue', internalValue.value)
+  }
 }
 </script>
 
 <template>
-  <PhoneInput fetchCountry class="flex" @update="res = $event">
+  <BasePhoneInput
+    fetchCountry
+    class="flex"
+    country-locale="en-EN"
+    :model-value="internalValue"
+    @update:model-value="handleValueChange"
+    :disabled="disabled"
+  >
     <template #selector="{ inputValue, updateInputValue, countries }">
       <Popover v-model:open="open">
         <PopoverTrigger>
           <Button
             variant="outline"
             class="flex gap-1 rounded-e-none rounded-s-lg px-3"
+            @click="markAsInteracted"
+            :disabled="disabled"
           >
             <FlagComponent :country="inputValue" />
             <ChevronsUpDown class="-mr-2 h-4 w-4 opacity-50" />
@@ -74,6 +95,7 @@ const handleBlur = (event: FocusEvent) => {
                       updateInputValue(option.iso2)
                       open = false
                       focused = true
+                      markAsInteracted()
                     }
                   "
                 >
@@ -96,10 +118,15 @@ const handleBlur = (event: FocusEvent) => {
         class="rounded-e-lg rounded-s-none"
         type="text"
         :model-value="inputValue"
-        @input="updateInputValue"
-        @blur="handleBlur"
+        @input="
+          (e: Event) => {
+            markAsInteracted()
+            updateInputValue(e)
+          }
+        "
         :placeholder="placeholder"
+        :disabled="disabled"
       />
     </template>
-  </PhoneInput>
+  </BasePhoneInput>
 </template>

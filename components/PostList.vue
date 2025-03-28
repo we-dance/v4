@@ -133,18 +133,7 @@ const showLoadMore = computed(
       @comment="handleComment(post.id)"
     />
 
-    <!-- Empty state -->
-    <div v-if="!posts.length" class="text-center py-8">
-      <Icon name="ph:note" class="mx-auto h-12 w-12 text-muted-foreground" />
-      <h3 class="mt-2 text-sm font-medium text-foreground">No posts</h3>
-      <p class="mt-1 text-sm text-muted-foreground">
-        {{
-          props.authorId
-            ? "This artist hasn't posted anything yet."
-            : 'Get started by creating a new post.'
-        }}
-      </p>
-    </div>
+    <EmptyState v-if="!posts.length" variant="no-posts" />
   </div>
 
   <!-- Load more button -->

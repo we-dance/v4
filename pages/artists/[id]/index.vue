@@ -5,11 +5,11 @@ const { artist, artistId } = useArtist()
 </script>
 
 <template>
-  <ArtistLayout v-if="artist" :artist="artist">
+  <ProfileLayout v-if="artist" :artist="artist">
     <div class="max-w-xl mx-auto">
       <PostList :type="'all'" :limit="3" :author-id="artistId" />
     </div>
-  </ArtistLayout>
+  </ProfileLayout>
 
-  <EmptyState v-else variant="artist-not-found" />
+  <EmptyState v-else variant="profile-not-found" />
 </template>

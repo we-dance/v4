@@ -1,0 +1,668 @@
+---
+common:
+  yes: 'Si'
+  no: 'No'
+  female: Mujer
+  male: Hombre
+  other: Otro
+Monday: Monday
+Tuesday: Tuesday
+Wednesday: Wednesday
+Thursday: Thursday
+Friday: Friday
+Saturday: Saturday
+Sunday: Sunday
+Edit: Editar
+Delete: Borrar
+Copy: Copiar
+Share: Compartir
+views: 'no views | 1 view | {count} views'
+Subscribe: Subscribe
+Unsubscribe: Unsubscribe
+Follow: Follow
+Unfollow: Unfollow
+Contact: Contact
+post:
+  report: Reportar
+  delete: Borrar
+  edit: Editar
+  dashboard: Panel de control
+form:
+  clear: Limpiar
+  delete: Borrar
+  cancel: Cancelar
+  copy: Copiar
+  save: Guardar
+photo:
+  placeholder: Cambiar foto
+  selectLabel: Subir la foto
+visibility:
+  label: Visibilidad
+  description: '- Pública: se puede buscar en Google y se puede utilizar en las redes sociales. - Miembros: sólo visible para usuarios conectados. - Sin lista: sólo es posible abrir con un enlace exacto, pero no aparece en ninguna parte.'
+  public: Público
+  members: Miembros
+  unlisted: Sin listar
+hero:
+  title: '¿Te gusta bailar?'
+  subtitle: Nos ayudamos mutuamente a encontrar eventos de baile interesantes y parejas de baile.
+  submotto: Salsa, Bachata, Kizomba, Kiz, Raggaeton, Casino, Tango y 130 estilos de baile más
+  alt: Bachata bailando gente
+  action: Únete a la comunidad
+  search: Buscar bailarines
+icons:
+  dancers: bailarines
+  cities: ciudades
+  events: eventos
+features:
+  calendar:
+    title: Calendário de Eventos
+    description: Encuentre talleres de baile, cursos, clases sociales y fiestas. Completamos el calendario de eventos todos juntos como comunidad. Todo el mundo puede compartir.
+    action: Descubre eventos
+  dancePartners:
+    title: Pareja de Baile
+    description: Encuentra un compañero de baile para tu estilo de baile y deja que te encuentres.
+    action: Encontrar pareja de baile
+  cityChats:
+    title: Chat de Ciudad
+    description: Encuentra un chat de baile en cualquier ciudad. Únete a tu ciudad e invita a tus amigos a ayudar a los nuevos bailarines de la ciudad. Piensa globalmente, actúa localmente.
+  danceTravel:
+    title: Viaje de Baile
+    description: Encuentre festivales y congresos de baile internacional. Comparta un viaje, un aprendiz y encuentre un amigo para experimentar juntos una nueva ciudad.
+    action: Descubre festivales
+  volunteer:
+    title: Voluntario
+    description: Construimos una comunidad, donde todos entran con mentalidad “Puedo ayudar”, así que siempre que necesites ayuda puedes contar con ella. Somos una gran familia en todo el mundo. Nos ayudamos unos a otros.
+    action: Involucrarse
+  interviews:
+    title: Entrevistas
+    description: Explora más sobre tus artistas favoritos de baile y toma sus consejos y trucos.
+    action: Escucha Podcast
+international:
+  title: Comunidad internacional
+  description: Regularmente publicamos entrevistas, anuncios de eventos e introducimos nuevos miembros en nuestras redes sociales.
+auth:
+  signin: Ingresar
+  signup: Registrarse
+  signout: Cerrar sesión
+events:
+  typelist:
+    party: Fiesta
+    workshop: Taller
+    course: Curso
+    festival: Festival
+    congress: Congreso
+    concert: Concierto
+    show: Show
+    other: Otro
+  add: Añadir
+  title: Calendario de Baile
+  list:
+    empty: No se han encontrado eventos. ¿Quieres añadir uno?
+  view:
+    list: Ver Fotos
+    covers: Ver lista
+  filter:
+    type: Tipo
+    style: Cualquier Baile
+    level: Cualquier Nivel
+eventView:
+  announce: Anunciar
+  dropdown:
+    dashboard: Panel de control
+    edit: Editar
+    share: Compartir
+    copy: Copiar
+  online: Evento en línea
+  reservation:
+    guest: Register for event
+    cancel: Cancel reservation
+  reservationPopup:
+    title: Registrarse
+    reserve:
+      submitLabel: Registrarse
+      label: Iniciar sesión
+    finish:
+      title: Almost there
+      btn: Complete registration
+      description: See you soon! Don't forget to check-in by the organiser when you come!
+      reminder: Check your email to finish creation of the WeDance profile.
+      calendar: Add to calendar
+  organiser: Organised by
+  venueMap: Venue Map
+  source: Event Source
+postFields:
+  username:
+    label: Username
+  type:
+    label: Tipo
+  title:
+    placeholder: Title
+  description:
+    placeholder: Text (markdown)
+    tips: "Pitch yourself: Who are you? What do you offer? What do you want?\n\nTips for effective pitch:\n- Uncomplicated: It should be catchy and roll off the tongue\n- Concise: It shouldn’t take more than a minute to say or read\n- Unique: It reflects your skills, goals, and desires\n- Storyline: It covers who you are, what you offer, and where you want to be\n- Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer"
+    description: Use [widgets](https://wedance.vip/markdown), including images and videos
+  url:
+    placeholder: Link
+  styles:
+    label: Dance Styles
+filter:
+  radius: Radius
+  reset: Limpiar filtros
+community:
+  title: Dance Community
+  description: Looking for dance partner or new dance events? Filter profiles of local dancers and contact them.
+profile:
+  claim: Claim my profile
+  follow:
+    title: Follow us
+    description: We regularly post event announcements and introduce new members on our social media.
+  invite:
+    header: '{count} invites left'
+    description: '{name} invites you to get a free VIP membership for faster networking, get rewards, discover dance flashmobs and VIP events'
+    action: Accept Invitation
+  bookme: Reservame
+  contactme: Contáctame
+  username:
+    label: Nombre de usuario
+    before: Utilice sólo letras, números, guiones bajos y puntos.
+  community: Yo bailo en
+  type: Tipo
+  name:
+    label: Nombre
+    before: Si desea permanecer anónimo utilice su nombre.
+    placeholder: (Obligatorio)
+  bio:
+    label: Resumen
+    before: Breve introducción en la parte superior de tu foto
+  birthday:
+    label: Cumpleaños
+    description: Sólo mostraremos tu edad
+  gender:
+    label: Género
+    placeholder: Género
+  style: Estilos de baile
+  joined: Unido
+  languages: Idiomas
+  story:
+    label: Descripción
+    before: Dile tu historia de baile. También puedes usar [widgets](https://wedance.vip/markdown), incluyendo imágenes y vídeos
+    tips: ' Apúntate a ti mismo: ¿Quién eres? ¿Qué ofreces? ¿Qué quieres? Consejos para una fosa efectiva: - Sin complicar: Debe ser pegajosa y deshacerse de la lengua - Conciencia: No debería tomar más de un minuto decir o leer - Único: Refleja tus habilidades, metas, y deseos - Historia: Cubre quiénes eres, qué ofreces, y donde quieras estar - Apelación: Su alza de ascensor es esencialmente una persuasiva piscina de ventas; el énfasis debe estar en lo que ofreces'
+    placeholder: Texto (markdown)
+  locales: Tus idiomas
+  skills: Habilidades para no bailar
+  days: Dias
+  learning:
+    label: '¿Qué temas de baile te interesan?'
+    description: 'Por ejemplo: Musicalidad en Salsa, Estilo Hombre, etc.'
+  teacher: Estas enseñando
+  partner: '¿Buscas pareja de baile?'
+  height: Tu altura (cm)
+  weight:
+    label: Tu peso (kg)
+    description: Deja este campo en blanco si crees que es irrelevante.
+  partnerBio:
+    label: Pregunta
+    description: '¿Qué es importante en tu pareja? Póngalo como una pregunta, por ejemplo: ¿Te encantan los perros?'
+  objectives: Objetivos
+  objective:
+    placeholder: Objetivo
+  meetingPlace: '¿Dónde reunirse?'
+  photo: Foto
+  add: Añadir perfil
+  title: Comunidad
+  styles:
+    label: Baile
+    tips: Marca hasta 4 danzas favoritas que serán destacadas en tu póster
+  place:
+    label: Viviendo en
+    before: '¿Cuál es tu residencia permanente?'
+    placeholder: Ciudad
+  hometown:
+    label: Hecho en
+    before: '¿Dónde naciste y levantó?'
+  current:
+    label: Bailando en
+    before: '¿En qué ciudad estás bailando actualmente?'
+  dance:
+    placeholder: Estilo
+  permission:
+    label: '¿Quieres promoción gratuita?'
+    description: 'Envíanos un enlace a tu evento en [Telegram](https://t.me/+aRIZcXpBhJkYmUy) y lo anunciaremos en nuestro Telegram, Instagram y Facebook.'
+  jobs:
+    label: Puedo ayudar con
+    description: '¿Cómo puedes ayudar a nuestra comunidad? ¿En qué estás? Por ejemplo: diseño, programación, marketing, redes sociales, etc.'
+  contacts: '¿Utilizas las redes sociales?'
+  email:
+    label: Email
+    placeholder: for business requests
+  website:
+    label: Sitio web
+    placeholder: for business requests
+  meetingPlaces:
+    myPlace: My place
+    yourPlace: Your place
+    private: Somewhere private
+    public: Somewhere public
+  typeList:
+    dancer: Dancer
+    artist: Artist
+    organiser: Organiser
+    venue: Venue
+    city: City
+  objectivesList:
+    talk: Talk about dance
+    home: Share home
+    auto: Share auto
+    learn: Learn together
+    outdoors: Dance outdoors
+    indoors: Dance indoors
+    teach: Teach together
+    project: Dance project
+  profileSorts:
+    username: Username
+    registered: Registered
+    lastSeen: Last seen
+  chat:
+    label: Conversaciones
+  partnerSearch:
+    title: I am looking for a dance partner
+radiusOptions:
+  ten: around 10km
+  twenty: around 20km
+  fifty: around 50km
+  hundred: around 100km
+  fiveHundred: around 500km
+  thousand: around 1000km
+  anywhere: En cualquier sitio
+myprofile:
+  addEvent: Añadir
+  addPost: Write a post
+  edit: Edit Profile
+  share: Compartir
+  intro:
+    photo: your photo
+    gender: your gender
+    styles: what do you dance
+    bio: teaser (short introduction)
+    place: your city
+    objectives: your objectives
+    title: Welcome to WeDance!
+    description1: This is your profile. A square below is a poster – your visual introduction.
+    description2: Your poster is also shown in {0} among other dancers.
+    community: Comunidad
+    description3: 'Click {0} and add:'
+  ambassador:
+    description1: WeDance is represented by Ambassador in local dance communities. Volunteers help Ambassador with different initiatives to unite local dancers. WeDance is created and supported by volunteers. Get Involved, become volunteer!
+    description2: Ambassador in {community} is
+    description3: 'Help us build a dance network in your city, follow and interact with our local social media accounts:'
+  profile:
+    height: '{height}cm'
+    weight: '{weight}kg'
+TPostList:
+  loadMore: Load more
+TPost:
+  dropdown: report or share
+  showLess: Show less
+  showMore: Show more
+TCardActions:
+  Reason: Reason
+  options:
+    spam: spam
+    other: other
+chat:
+  title: Conversaciones
+  empty: Start conversations and they will appear here.
+  lastMessage:
+    byYou: by you
+  receiver:
+    deleted: DELETED
+conversation:
+  userName: Chat with {username}
+  empty: Start conversation with something nice.
+  lastSeen: opened chat last time
+  unread: haven't opened this chat yet
+  newMessage:
+    placeholder: Write a message
+    submit: Send
+  welcome: Start conversation with something nice.
+  with: Chat with {username}
+  dateDiff: '{diff} ago'
+cities:
+  choose: Selecciona una ciudad
+settings:
+  title: Configuraciones
+  account:
+    title: Cuenta
+    description: Esta información se utilizará para notificaciones y compras. Se compartirá con proveedores de servicios o vendedores solo con su consentimiento.
+    changepassword: Cambia la contraseña
+    delete: Borrar cuenta
+    popup:
+      delete:
+        title: Confirm account deletion
+        deleteReason: Why are you leaving?
+        usernameConfirmation: Enter username
+  passwordError: Error
+  profile:
+    title: Perfil
+    description: '¿Qué quieres que otros bailarines sepan de ti? Ese es un lugar para compartir tu pasión por la danza. Preséntate, ¡no seas tímido!'
+  contacts:
+    title: Contactos
+    description: Esta información estará disponible públicamente. Comparta sus contactos solo si desea que los miembros se comuniquen con usted. También es un buen lugar para compartir sus redes sociales y llamar la atención.
+city:
+  anywhere: En cualquier sitio
+  change: Cambiar de ciudad
+role:
+  label: Papel
+account:
+  email: Email
+  password: Contraseña
+  name: Nombre completo
+  phone: Teléfono
+  zone: Timezone
+  newsletter:
+    label: What kind of updated would you like to receive weekly?
+    options:
+      party: 'Social/party events'
+      class: Dance classes
+      workshop: Workshops and bootcamps
+      online: Online dance classes
+      festival: International festivals
+  comment: Comment
+  withPartner:
+    label: Do you have a partner?
+  partnerName: Partner's name
+  partnerEmail: Partner's email
+agreement: Al iniciar sesión, acepta las {terms} y la {privacy}.
+terms: Términos de servicio
+privacy: Política de privacidad
+register:
+  login: Iniciar sesión
+  submit: Registrarse
+signin:
+  register: Crear una cuenta
+  nopassword: Se te olvidó tu contraseña
+  submit: Iniciar sesión
+nopassword:
+  signin: Tengo una contraseña
+  google: Inicia sesión con Google
+  facebook: Sign in with Facebook
+  email: Sign in with Email
+  submit: Envía un enlace mágico
+contacts:
+  email: Email
+  website: Sitio web
+share:
+  title: Compartir
+  copy: Copiar link
+footer:
+  about: Sobre nosotros
+  getInvolved: Involucrarse
+  support: Apoyo
+  privacy: Intimidad
+  terms: Condiciones
+  coc: Código de conducta
+  faq: Preguntas más frecuentes
+  copyright: All rights reserved.
+feed:
+  add: Add post
+  title: Comentario
+  newMessage:
+    input: Ask or share something about dance...
+    intent: post a message
+    submit: Send
+  category: Choose category
+  post: Post
+  event: Event
+  needPartner: Looking for partner
+  needEvents: Looking for events
+  needInstructor: Looking for instructor
+  trip: Offering trip
+  artist: Artist
+  venue: Venue
+  app: App
+  guide: Guide / How To
+  inspiration: Inspiration
+  question: Question
+  poll: Poll
+comments:
+  empty: There are no comments yet.
+  label: Comments
+sort:
+  popular: Popular
+  newest: Nuevo
+  hot: Hot
+  watching: Watching
+  starred: Starred
+  archived: Archived
+  yours: Yours
+event:
+  save: Guardar
+  saved: Guardado
+  attend: Asistir
+  attendCallToAction: Añade este evento a tu calendario de perfil y recibe notificaciones haciendo clic en “Asistir” para unirte a la lista de invitados o en “Guardar” para seguirlo sin unirte.
+  attending: Asistiendo
+  getTicket: Obtener entrada
+  artists: Artists
+  organiser: Organiser
+  category:
+    meetup: Baile
+    lesson: Learn
+    online: Online
+    travel: Travel
+  role:
+    dj: DJ
+    instructor: Instructor
+    taxi: Taxi Dancer
+    photographer: Photographer
+    musician: Musician
+    organiser: Organiser
+  name:
+    placeholder: Event Name
+    label: Nombre
+  description:
+    label: Announcement
+    placeholder: Unique Value Proposition
+    description: 'Use [widgets](https://wedance.vip/markdown), including images and videos'
+    tips: "Pitch yourself: Who are you? What do you offer? What do you want?\n\nTips for effective pitch:\n- Uncomplicated: It should be catchy and roll off the tongue\n- Concise: It shouldn’t take more than a minute to say or read\n- Unique: It reflects your skills, goals, and desires\n- Storyline: It covers who you are, what you offer, and where you want to be\n- Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer"
+  startDate: When?
+  endDate: End Date
+  venue: Where?
+  cover: Cover
+  type: Event Type
+  duration:
+    label: How long?
+    thirtyMinutes: 30 minutes
+    oneHour: 60 minutes
+    ninetyMinutes: 1.5 hour
+    twoHours: 2 hours
+    threeHours: 3 hours
+    fourHours: 4 hours
+    fiveHours: 5 hours
+    custom: Custom
+  price:
+    label: Price
+    description: Please include currency, i.e. EUR, USD
+  styles: Estilos de baile
+  org:
+    label: Organiser
+  online:
+    label: Online?
+    description: Streaming via Zoom, Google Meet, Instagram Live, etc.?
+  international:
+    label: International
+    description: Is it a big event with >500 guests, like festival or congress?
+  place:
+    label: Comunidad
+    description: Leave empty if you want your event to be shown in all cities
+  form:
+    label: External registration?
+    before: Do you use external platform to register for your event?
+  link:
+    label: Link
+    description: Direct booking link on ticket platform [ti.to](https://ti.to/home), Eventbrite, Google Form, etc.
+  facebook:
+    label: Facebook
+    description: Facebook event
+  promo:
+    label: Announce on social media?
+    description: ''
+  confirmation:
+    label: Confirmation email for guests
+    placeholder: 'Example: Dear guest, you are confirmed to our event.'
+TInputProfile:
+  changeRole: Change Role
+  actions: Actions
+  remove: Remove
+  import: Import
+  placeholder: Search on WeDance, Instagram or Facebook
+popup:
+  auth:
+    title: Members only
+    body: Sign in to {action}
+    signin: Ingresar
+TButton:
+  title: Login to {action}
+TDropdown:
+  title: report or share
+TReaction:
+  watch: Watch
+  star: Star
+EventDashboard:
+  noAccess: Only event owner can access this area.
+  unlink: Unlink
+  couple: Couple
+  cancel: Cancelar
+  checkIn: CheckIn
+  rsvp: RSVP
+  subscribed: Subscribed
+  paid: Paid
+  notPaid: Didn't Pay
+explore:
+  nav:
+    festivals: Festivales
+    online: Online
+    experts: Preguntar a Expertos
+    parties: Fiestas
+    classes: Clases
+    groups: Grupos
+    tips: Guía Local
+  dance:
+    title: Lista de Estilos de Baile | WeDance
+    description: Descubre la historia, cultura y estilos de baile de todo el mundo. Navega a través de una lista curada de estilos de baile.
+    keywords: estilos de baile, géneros de baile, historia del baile, cultura del baile
+    header: Estilos de Baile
+    subheader: Descubre la historia, cultura y estilos de baile de todo el mundo. Navega a través de una lista curada de estilos de baile.
+  global:
+    title: 'Festivales de Baile {style} en Todo el Mundo | Calendario de Baile | WeDance'
+    description: 'Calendario de Baile {style} para Viajeros. Planea tus vacaciones y fines de semana para bailar Salsa, Bachata, Kizomba, Zouk y otros 130 bailes en diferentes partes del mundo.'
+    keywords: 'festivales de baile {style}, congresos de baile {style}, vacaciones de baile {style}, fines de semana de baile {style}, viajes de baile {style}, viajar para bailar {style}'
+    header: 'Festivales de {style} en Todo el Mundo'
+    subheader: 'Calendario de Baile {style} para Viajeros. Planea tus vacaciones y fines de semana para bailar Salsa, Bachata, Kizomba, Zouk y otros 130 bailes en diferentes partes del mundo.'
+  parties:
+    title: Fiestas de Baile {style} en {city} Hoy | Calendario de Baile | WeDance
+    description: Explora una variedad de eventos de baile {style} que ocurren en {city}. Desde noches de {referenceStyle} hasta talleres de bachata, encuentra tu próxima aventura de baile aquí.
+    header: 'Fiestas {style} en {city}'
+    subheader: Descubre la vibrante escena de baile {style} en {city}. Navega a través de una lista curada de fiestas de baile y filtra por tus estilos favoritos como Salsa, Bachata, Kizomba y más.
+  classes:
+    title: Clases de Baile {style} en {city} | Calendario de Baile | WeDance
+    description: Explora una variedad de eventos de baile {style} que ocurren en {city}. Desde noches de {referenceStyle} hasta talleres de bachata, encuentra tu próxima aventura de baile aquí.
+    header: 'Clases {style} en {city}'
+    subheader: Descubre la vibrante escena de baile {style} en {city}. Navega a través de una lista curada de clases de baile y filtra por tus estilos favoritos como Salsa, Bachata, Kizomba y más.
+  onlineclass:
+    title: 'Clases de Baile {style} Online | Calendario de Baile | WeDance'
+    description: ¿No puedes asistir en persona? Lleva tus movimientos de {style} al siguiente nivel con nuestra selección de clases online.
+    keywords: 'clases de baile {style} online, cursos de baile online, talleres de baile online, bootcamps de baile online, lecciones de baile online'
+    header: 'Clases Online de Baile {style}'
+    subheader: ¿No puedes asistir en persona? Lleva tus movimientos de {style} al siguiente nivel con nuestra selección de clases online.
+  groups:
+    title: Grupos de Baile en {city} | WeDance
+    description: Descubre y conecta con influencers y grupos de baile en {city}. Encuentra comunidades en WhatsApp, Telegram, Instagram, Youtube adaptadas a tu estilo, desde Salsa hasta Bachata y Kizomba. Interactúa con influencers y únete a vibrantes redes de baile en {city}.
+    header: Grupos en {city}
+    subheader: Descubre y conecta con influencers y grupos de baile en {city}. Encuentra comunidades en WhatsApp, Telegram, Instagram, Youtube adaptadas a tu estilo, desde Salsa hasta Bachata y Kizomba. Interactúa con influencers y únete a vibrantes redes de baile en {city}.
+  tips:
+    title: Pregunta a Bailarines en {city} | WeDance
+    description: Encuentra recomendaciones en tiempo real y obtén perspectivas locales directamente de bailarines de {city}. Elige tu estilo de baile preferido para consejos a medida, o pregunta a la comunidad por recomendaciones personalizadas. Espera respuestas típicamente en menos de 48 horas.
+    header: Pregunta en {city}
+    subheader: Encuentra recomendaciones en tiempo real y obtén perspectivas locales directamente de bailarines de {city}. Elige tu estilo de baile preferido para consejos a medida, o pregunta a la comunidad por recomendaciones personalizadas. Espera respuestas típicamente en menos de 48 horas.
+calendar:
+  title: Calendario de Baile
+  empty: No se encontraron eventos
+  upcoming: Próximos
+  past: Pasados
+  addEvent: Añadir
+  filters:
+    style: Estilo de Baile
+    level: Nivel
+  levels:
+    Beginner: Principiante
+    Intermediate: Intermedio
+    Advanced: Avanzado
+  share:
+    text: Texto
+    embed: Incrustar
+nav:
+  search: Buscar
+  events: Eventos
+  festivals: Festivales
+  partner: Encontrar Pareja
+  dance: Estilos de Baile
+  contribute: Contribuir
+  addEvent: Evento
+  addReview: Consejo
+  chat: Chat
+  myProfile: Mi Perfil
+  settings: Ajustes
+teaser:
+  profile:
+    title: Publica tu perfil
+    description: para que otros puedan contactarte
+    btn: Únete gratis
+  feed:
+    title: ¿Buscas más eventos?
+    description: En lugar de buscar en múltiples chats, pregunta directamente a nuestra comunidad local de baile en el sitio web. Obtén recomendaciones personalizadas para eventos en cualquier ciudad de bailarines locales.
+    btn: Pregunta a Locales
+home:
+  title: WeDance - Viajar. Conocer. Bailar.
+  hero:
+    header: Viajar. Conocer. **Bailar.**
+    subheader: Encuentra eventos de bachata, salsa, kizomba y más cerca de ti. Amplía tu mundo de baile con sociales, clases y festivales.
+    action: Encuentra tu ciudad
+    bottom: 'También puedes [organizar eventos](/organize) o [promocionar y ganar](/promoter)'
+  features:
+    explore:
+      title: Sociales, Clases, Festivales
+      description: ¡Di adiós a los chats caóticos!
+      action: Explorar Eventos
+    travel:
+      title: ¿Dónde puedo bailar?
+      description: Obtén consejos de expertos sobre los mejores sociales en cualquier ciudad.
+      action: Preguntar a Locales
+    partner:
+      title: Parejas de Baile
+      description: Encuentra parejas de baile para tu estilo y permite que ellos te encuentren.
+      action: Buscar Pareja
+  numbers:
+    title: WeDance en Números
+    countries: países
+    profiles: perfiles
+    events: eventos
+  founder: '**El Problema**
+
+
+    Soy un fanático del baile, siempre conectado con la escena local a través de innumerables grupos de WhatsApp. Los nuevos bailarines a menudo me preguntan sobre las próximas fiestas, y se volvió abrumador llevar un registro de todo.
+
+
+    **La Solución**
+
+
+    ¡Por eso creé WeDance! Es la solución integral para eventos de baile en tu ciudad. No más malabares con chats o búsqueda frenética de información.
+
+
+    **Beneficios para Bailarines**
+
+    - **¿Nuevo en la ciudad?** Encuentra las fiestas más populares al instante.
+
+    - **¿Amigos curiosos sobre tus planes de baile?** Solo envíales tu perfil de WeDance y déjalos elegir sus eventos favoritos para unirse a ti.
+
+
+    ¿Suena increíble, verdad? ¡Explora WeDance hoy!'

@@ -52,21 +52,22 @@ model VerificationToken {
 }
 
 model User {
-  id             String    @id @default(nanoid())
-  email          String    @unique
-  name           String?   @default("")
-  firstName      String?   @default("")
-  lastName       String?   @default("")
-  phone          String?   @default("")
-  emailConsent   Boolean   @default(false)
-  emailConsentAt DateTime?
-  salt           String    @default("")
-  hash           String    @default("")
-  firebaseId     String    @default("")
-  emailVerified  Boolean   @default(false)
-  isDeleted      Boolean   @default(false)
-  deletedAt      DateTime?
-  deletedReason  String?
+  id                   String    @id @default(nanoid())
+  email                String    @unique
+  name                 String?   @default("")
+  firstName            String?   @default("")
+  lastName             String?   @default("")
+  phone                String?   @default("")
+  emailConsent         Boolean   @default(false)
+  emailConsentAt       DateTime?
+  salt                 String    @default("")
+  hash                 String    @default("")
+  firebaseId           String    @default("")
+  emailVerified        Boolean   @default(false)
+  isDeleted            Boolean   @default(false)
+  deletedAt            DateTime?
+  deletedReason        String?
+  notificationSettings Json      @default("{}")
 
   profile         Profile?  @relation("owned_by")
   profilesCreated Profile[] @relation("profile_created_by")
@@ -161,23 +162,26 @@ model Profile {
   daysUsed         Int? // Number of days used
   pwaUsed          Boolean? // PWA usage
   oldCities        Json? // Old cities structure
+  privacySettings  Json? // Privacy settings
 
-  userId             String?           @unique
-  user               User?             @relation("owned_by", fields: [userId], references: [id])
-  cityId             String?
-  city               City?             @relation("profile_city", fields: [cityId], references: [id])
-  posts              Post[]
-  eventsCreated      Event[]           @relation("event_created_by")
-  eventsOrganized    Event[]           @relation("event_organized_by")
-  eventsHosted       Event[]           @relation("event_hosted_by")
-  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
-  styles             Experience[]      @relation("profile_experience")
-  followers          ProfileFollower[] @relation("followers")
-  following          ProfileFollower[] @relation("following")
-  cities             CitySubscriber[]  @relation("cities")
-  eventsParticipated Guest[]           @relation("guest_profile")
-  videosAdded        Video[]           @relation("video_created_by")
-  votes              Vote[]            @relation("vote_created_by")
+  userId              String?           @unique
+  user                User?             @relation("owned_by", fields: [userId], references: [id])
+  cityId              String?
+  city                City?             @relation("profile_city", fields: [cityId], references: [id])
+  posts               Post[]
+  eventsCreated       Event[]           @relation("event_created_by")
+  eventsOrganized     Event[]           @relation("event_organized_by")
+  eventsHosted        Event[]           @relation("event_hosted_by")
+  // Course instructor relationship
+  coursesAsinstructor Course[]          @relation("course_instructor")
+  createdBy           User?             @relation("profile_created_by", fields: [createdById], references: [id])
+  styles              Experience[]      @relation("profile_experience")
+  followers           ProfileFollower[] @relation("followers")
+  following           ProfileFollower[] @relation("following")
+  cities              CitySubscriber[]  @relation("cities")
+  eventsParticipated  Guest[]           @relation("guest_profile")
+  videosAdded         Video[]           @relation("video_created_by")
+  votes               Vote[]            @relation("vote_created_by")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -369,4 +373,82 @@ model Vote {
   updatedAt   DateTime @updatedAt
   createdBy   Profile  @relation("vote_created_by", fields: [createdById], references: [id])
   createdById String
+}
+
+model Course {
+  id           String  @id @default(nanoid())
+  slug         String  @unique
+  name         String
+  description  String?
+  subheader    String?
+  instructorId String?
+  coverUrl     String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  instructor Profile?         @relation("course_instructor", fields: [instructorId], references: [id])
+  modules    CourseModule[]
+  resources  CourseResource[]
+  offers     Offer[]
+}
+
+model CourseModule {
+  id          String  @id @default(nanoid())
+  name        String
+  order       Int
+  description String?
+  courseId    String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  course  Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons CourseLesson[]
+}
+
+model CourseLesson {
+  id       String  @id @default(nanoid())
+  name     String
+  duration Int
+  videoId  String
+  locked   Boolean @default(false)
+  moduleId String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  module CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+}
+
+model CourseResource {
+  id          String  @id @default(nanoid())
+  name        String
+  description String
+  url         String
+  locked      Boolean @default(false)
+  courseId    String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+}
+
+model Offer {
+  id           String    @id @default(nanoid())
+  name         String
+  price        Int
+  currency     String
+  duration     String
+  validFrom    DateTime?
+  validThrough DateTime?
+  courseId     String
+  items        Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }

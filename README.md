@@ -159,11 +159,6 @@ AI will act like your personal secretary, answer any questions about business, d
 - [Blog](docs/content/blog/)
 - [Resources](docs/content/resources/)
 
-### Implementation
-
-- [Epics](content/epics/)
-- [User Stories](content/issues/)
-
 ## 🤝 Contributing
 
 1. Follow the Vue file organization rules:

@@ -3,19 +3,47 @@ import { mockEvents } from '@/data/mockEvents'
 import { mockCourses } from '@/data/mockCourses'
 import type { AnyEvent } from '~/schemas/event'
 import { formatDate } from '~/utils/format'
+import { useCourseProgress } from '~/composables/useCourseProgress'
+import { watchEffect, ref } from 'vue'
+const { updateLessonUnlockStatus } = useCourseProgress()
+
+const isUpdating = ref(true)
+const updateError = ref(false)
 
 const route = useRoute()
 const event = computed(() =>
-  mockEvents.find((e) => String(e.id) === String(route.params.id))
+  mockEvents.find((e) => String(e.id) === String(route.params.slug))
 )
 const course = computed(() =>
-  mockCourses.find((c) => String(c.identifier) === String(route.params.id))
+  mockCourses.find((c) => String(c.id) === String(route.params.slug))
 )
 
 // judge if input is a event or course then navigate to the correct page
 const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
+
+// check url change and update course status
+watchEffect(async () => {
+  const courseId = course.value?.identifier
+  if (!courseId) return
+  try {
+    console.log('check status:', courseId)
+    // once redirect to this page, update course status to locked: false
+    const result = await updateLessonUnlockStatus(courseId, false)
+    if (result) {
+      console.log('successfully updated')
+    } else {
+      console.log('update failed')
+      updateError.value = true
+    }
+  } catch (error) {
+    console.error('update error:', error)
+    updateError.value = true
+  } finally {
+    isUpdating.value = false
+  }
+})
 </script>
 
 <template>
