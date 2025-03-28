@@ -73,9 +73,8 @@ model User {
   profilesCreated Profile[] @relation("profile_created_by")
   accounts        Account[]
   sessions        Session[]
-
   // Course relationships
-  courseEnrollments CourseEnrollment[] @relation("user_enrollments")
+  // courseEnrollments CourseEnrollment[] @relation("user_enrollments")
 
   createdAt    DateTime       @default(now())
   updatedAt    DateTime       @updatedAt
