@@ -7,7 +7,7 @@
         <h2 class="mt-6 text-3xl font-bold text-foreground">Welcome back</h2>
         <p class="mt-2 text-sm text-muted-foreground">
           Don't have an account?
-          <NuxtLink to="/register" class="text-primary hover:text-primary/90">
+          <NuxtLink to="/register" class="text-info hover:underline">
             Sign up
           </NuxtLink>
         </p>
