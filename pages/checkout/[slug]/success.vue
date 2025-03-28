@@ -12,10 +12,10 @@ const updateError = ref(false)
 
 const route = useRoute()
 const event = computed(() =>
-  mockEvents.find((e) => String(e.id) === String(route.params.id))
+  mockEvents.find((e) => String(e.id) === String(route.params.slug))
 )
 const course = computed(() =>
-  mockCourses.find((c) => String(c.identifier) === String(route.params.id))
+  mockCourses.find((c) => String(c.id) === String(route.params.slug))
 )
 
 // judge if input is a event or course then navigate to the correct page
