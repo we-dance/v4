@@ -4,13 +4,16 @@ GREEN=\033[0;32m
 RED=\033[0;31m
 NC=\033[0m # No Color
 
-.PHONY: build start import logs sh
+.PHONY: build start import logs sh stop
 
 logs:
 	docker compose logs -f
 
 build:
 	docker compose up --build -d
+
+stop:
+	docker compose down
 
 start:
 	docker compose up -d
