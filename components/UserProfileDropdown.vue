@@ -6,20 +6,22 @@
         class="relative h-8 w-8 rounded-full"
         aria-label="Open user menu"
       >
-        <Avatar :profile="{ name: user?.name, image: user?.image }" class="h-8 w-8">
+        <Avatar
+          :profile="{ name: user?.name, image: user?.image }"
+          class="h-8 w-8"
+        >
           <AvatarImage :src="user?.image" :alt="user?.name" />
           <AvatarFallback>{{ initials }}</AvatarFallback>
         </Avatar>
       </Button>
     </DropdownMenuTrigger>
-    <DropdownMenuContent
-      class="w-56"
-      align="end"
-      :side-offset="5"
-    >
+    <DropdownMenuContent class="w-56" align="end" :side-offset="5">
       <DropdownMenuLabel class="font-normal">
         <div class="flex items-center gap-3">
-          <Avatar :profile="{ name: user?.name, image: user?.image }" class="h-10 w-10">
+          <Avatar
+            :profile="{ name: user?.name, image: user?.image }"
+            class="h-10 w-10"
+          >
             <AvatarImage :src="user?.image" :alt="user?.name" />
             <AvatarFallback>{{ initials }}</AvatarFallback>
           </Avatar>
@@ -98,7 +100,7 @@ const { signOut } = useAuth()
 const user = ref({
   name: 'John Doe',
   email: 'john@example.com',
-  image: null
+  image: null,
 })
 
 // Mock notification count - replace with actual count
@@ -108,7 +110,7 @@ const notificationCount = ref(3)
 const initials = computed(() => {
   return user.value.name
     .split(' ')
-    .map(n => n[0])
+    .map((n) => n[0])
     .join('')
     .toUpperCase()
 })
@@ -122,4 +124,4 @@ const handleSignOut = async () => {
     toast.error('Failed to log out')
   }
 }
-</script> 
+</script>

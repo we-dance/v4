@@ -60,7 +60,8 @@ const toggleOnline = () => {
       <div class="bg-background">
         <div
           style="
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            font-family:
+              -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
               'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
