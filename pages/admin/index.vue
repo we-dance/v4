@@ -4,7 +4,9 @@
     <div class="flex items-center justify-between">
       <div>
         <h1 class="text-3xl font-bold">Dashboard</h1>
-        <p class="text-muted-foreground">Welcome back! Here's what's happening today.</p>
+        <p class="text-muted-foreground">
+          Welcome back! Here's what's happening today.
+        </p>
       </div>
       <div class="flex items-center gap-2">
         <Button variant="outline" size="sm">
@@ -22,7 +24,9 @@
     <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       <!-- Total Events -->
       <Card class="hover:bg-muted/50 transition-colors">
-        <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardHeader
+          class="flex flex-row items-center justify-between space-y-0 pb-2"
+        >
           <CardTitle class="text-sm font-medium">Total Events</CardTitle>
           <Icon name="lucide:calendar" class="h-4 w-4 text-muted-foreground" />
         </CardHeader>
@@ -46,21 +50,23 @@
 
       <!-- Total Bookings -->
       <Card class="hover:bg-muted/50 transition-colors">
-        <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardHeader
+          class="flex flex-row items-center justify-between space-y-0 pb-2"
+        >
           <CardTitle class="text-sm font-medium">Total Bookings</CardTitle>
           <div class="flex items-center gap-2">
-            <Button 
-              variant="ghost" 
-              size="icon" 
+            <Button
+              variant="ghost"
+              size="icon"
               class="h-8 w-8"
               :class="{ 'bg-muted': viewMode === 'week' }"
               @click="viewMode = 'week'"
             >
               <Icon name="lucide:calendar" class="h-4 w-4" />
             </Button>
-            <Button 
-              variant="ghost" 
-              size="icon" 
+            <Button
+              variant="ghost"
+              size="icon"
               class="h-8 w-8"
               :class="{ 'bg-muted': viewMode === 'month' }"
               @click="viewMode = 'month'"
@@ -77,7 +83,9 @@
               +0%
             </div>
           </div>
-          <p class="text-xs text-muted-foreground mt-1">Across events and courses</p>
+          <p class="text-xs text-muted-foreground mt-1">
+            Across events and courses
+          </p>
           <div class="mt-2 h-8 w-full rounded-full bg-muted">
             <!-- Placeholder for mini chart -->
           </div>
@@ -86,9 +94,14 @@
 
       <!-- Revenue Generated -->
       <Card class="hover:bg-muted/50 transition-colors">
-        <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardHeader
+          class="flex flex-row items-center justify-between space-y-0 pb-2"
+        >
           <CardTitle class="text-sm font-medium">Revenue Generated</CardTitle>
-          <Icon name="lucide:dollar-sign" class="h-4 w-4 text-muted-foreground" />
+          <Icon
+            name="lucide:dollar-sign"
+            class="h-4 w-4 text-muted-foreground"
+          />
         </CardHeader>
         <CardContent>
           <div class="flex items-center justify-between">
@@ -110,7 +123,9 @@
 
       <!-- Active Courses -->
       <Card class="hover:bg-muted/50 transition-colors">
-        <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardHeader
+          class="flex flex-row items-center justify-between space-y-0 pb-2"
+        >
           <CardTitle class="text-sm font-medium">Active Courses</CardTitle>
           <Icon name="lucide:book-open" class="h-4 w-4 text-muted-foreground" />
         </CardHeader>
@@ -122,7 +137,9 @@
               +0%
             </div>
           </div>
-          <p class="text-xs text-muted-foreground mt-1">Live published courses</p>
+          <p class="text-xs text-muted-foreground mt-1">
+            Live published courses
+          </p>
           <Button variant="link" class="px-0 font-normal mt-2" asChild>
             <NuxtLink to="/admin/courses/list" class="flex items-center">
               Manage Courses
@@ -134,7 +151,9 @@
 
       <!-- New Signups -->
       <Card class="hover:bg-muted/50 transition-colors">
-        <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardHeader
+          class="flex flex-row items-center justify-between space-y-0 pb-2"
+        >
           <CardTitle class="text-sm font-medium">New Signups</CardTitle>
           <Icon name="lucide:users" class="h-4 w-4 text-muted-foreground" />
         </CardHeader>
@@ -173,7 +192,9 @@
               </div>
               <div class="flex-1">
                 <p class="text-sm font-medium">No recent notifications</p>
-                <p class="text-xs text-muted-foreground">You're all caught up!</p>
+                <p class="text-xs text-muted-foreground">
+                  You're all caught up!
+                </p>
               </div>
             </div>
           </div>

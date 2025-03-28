@@ -12,6 +12,6 @@ export const useTheme = () => {
 
   return {
     isDark,
-    toggleTheme
+    toggleTheme,
   }
-} 
+}
