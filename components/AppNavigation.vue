@@ -12,6 +12,7 @@ const navigationItems = [
   { to: '/groups', label: 'Groups', icon: 'lucide:users-2' },
   { to: '/artists', label: 'Artists', icon: 'lucide:users' },
   { to: '/venues', label: 'Venues', icon: 'lucide:map-pin' },
+  { to: '/chat', label: 'Messages', icon: 'lucide:message-square' },
 ]
 
 const toggleMobileMenu = () => {
