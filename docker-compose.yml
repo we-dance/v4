@@ -1,13 +1,44 @@
 services:
-  postgres:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    working_dir: /app
+    env_file:
+      - .env
+    networks:
+      - prisma-network
+  db:
     image: postgres
     volumes:
       - postgres-data:/var/lib/postgresql/data
+      - ./docker/db/init:/docker-entrypoint-initdb.d
     ports:
       - 5432:5432
     environment:
       POSTGRES_DB: db
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
+    networks:
+      - prisma-network
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U user -d db']
+      interval: 5s
+      timeout: 2s
+      retries: 20
+
 volumes:
   postgres-data:
+
+networks:
+  prisma-network:
+    name: prisma-network

@@ -96,7 +96,7 @@ const currentPublishableKey = ref<string>('')
 const item = computed<CheckoutItem | null>(() => {
   if (type === 'event') {
     const event = mockEvents.find(
-      (e) => String(e.id) === String(route.params.id)
+      (e) => String(e.id) === String(route.params.slug)
     )
     if (event) {
       return {
@@ -111,7 +111,7 @@ const item = computed<CheckoutItem | null>(() => {
   }
   if (type === 'course') {
     const course = mockCourses.find(
-      (c) => String(c.identifier) === String(route.params.id)
+      (c) => String(c.identifier) === String(route.params.slug)
     )
     if (course) {
       const monthlyRegularOffer = course.offers.find(
@@ -195,7 +195,7 @@ const item = computed<CheckoutItem | null>(() => {
   }
   if (type === 'private') {
     const course = mockCourses.find(
-      (c) => String(c.identifier) === String(route.params.id)
+      (c) => String(c.identifier) === String(route.params.slug)
     )
     const privateOffer = course?.instructor.availableService?.offers[0]
     if (course && privateOffer) {
@@ -334,7 +334,7 @@ const handleSubmit = async () => {
             (user) => user.email.toLowerCase() === formData.email.toLowerCase()
           )?.uid || String(mockUsers.length + 1)
         const providerName = mockCourses.find(
-          (course) => course.identifier === route.params.id
+          (course) => course.identifier === route.params.slug
         )?.provider.name
         orgId.value =
           mockOrganizers.find(
