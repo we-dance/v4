@@ -22,6 +22,9 @@ sh:
 	docker compose exec app sh
 
 import:
+	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
+	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
+	docker compose exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
 	@echo "$(YELLOW)Importing data...$(NC)"
 	cd cli && cp -r ../prisma/schema.prisma ./prisma/schema.prisma
 	cd cli && pnpm i
