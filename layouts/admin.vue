@@ -1,3 +1,20 @@
+<script setup>
+const route = useRoute()
+const { signOut } = useAppAuth()
+
+const navigationItems = [
+  { to: '/admin', label: 'Dashboard', icon: 'lucide:layout-dashboard' },
+  { to: '/admin/events', label: 'Events', icon: 'lucide:calendar' },
+  { to: '/admin/bookings', label: 'Bookings', icon: 'lucide:ticket' },
+  { to: '/admin/calendar', label: 'Calendar', icon: 'lucide:calendar-days' },
+]
+
+const handleSignOut = async () => {
+  await signOut()
+  navigateTo('/')
+}
+</script>
+
 <template>
   <div class="min-h-screen">
     <nav
@@ -48,20 +65,3 @@
     </main>
   </div>
 </template>
-
-<script setup>
-const route = useRoute()
-const auth = useAuthStore()
-
-const navigationItems = [
-  { to: '/admin', label: 'Dashboard', icon: 'lucide:layout-dashboard' },
-  { to: '/admin/events', label: 'Events', icon: 'lucide:calendar' },
-  { to: '/admin/bookings', label: 'Bookings', icon: 'lucide:ticket' },
-  { to: '/admin/calendar', label: 'Calendar', icon: 'lucide:calendar-days' },
-]
-
-const handleSignOut = async () => {
-  await auth.logout()
-  navigateTo('/')
-}
-</script>
