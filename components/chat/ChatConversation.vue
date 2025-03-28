@@ -1,3 +1,121 @@
+<script setup lang="ts">
+import { ref, computed, watch, nextTick, onMounted } from 'vue'
+
+const props = defineProps<{
+  conversationId: string
+}>()
+
+const messagesContainer = ref<HTMLElement | null>(null)
+const newMessage = ref('')
+const isSending = ref(false)
+
+const { data } = useAppAuth()
+const currentUser = computed(() => data.value?.profile)
+
+const { $client } = useNuxtApp()
+const {
+  data: conversation,
+  isLoading,
+  error,
+  refresh,
+} = useAsyncData(
+  () => `conversation-${props.conversationId}`,
+  () =>
+    $client.chat.getConversation.query({ conversationId: props.conversationId })
+)
+
+const otherParticipant = computed(() => {
+  if (!conversation.value || !currentUser.value) return null
+
+  return conversation.value.participants.find(
+    (p) => p.profileId !== currentUser.value?.id
+  )
+})
+
+// Scroll to bottom when messages change
+watch(
+  () => conversation.value?.messages,
+  () => {
+    scrollToBottom()
+  },
+  { deep: true }
+)
+
+onMounted(() => {
+  scrollToBottom()
+})
+
+function scrollToBottom() {
+  nextTick(() => {
+    if (messagesContainer.value) {
+      messagesContainer.value.scrollTop = messagesContainer.value.scrollHeight
+    }
+  })
+}
+
+// Get initials from name
+function getInitials(name: string | undefined) {
+  if (!name) return '?'
+  return name
+    .split(' ')
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase()
+    .substring(0, 2)
+}
+
+// Format timestamp
+function formatTime(timestamp: string | Date) {
+  if (!timestamp) return ''
+
+  const date = new Date(timestamp)
+  const now = new Date()
+
+  // If today, show time
+  if (date.toDateString() === now.toDateString()) {
+    return date.toLocaleTimeString(undefined, {
+      hour: '2-digit',
+      minute: '2-digit',
+    })
+  }
+
+  // If this year, show month and day
+  if (date.getFullYear() === now.getFullYear()) {
+    return date.toLocaleDateString(undefined, {
+      month: 'short',
+      day: 'numeric',
+    })
+  }
+
+  // Otherwise show date
+  return date.toLocaleDateString(undefined, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
+}
+
+async function sendMessage() {
+  if (!newMessage.value.trim() || isSending.value) return
+
+  try {
+    isSending.value = true
+
+    await $client.chat.sendMessage.mutate({
+      conversationId: props.conversationId,
+      content: newMessage.value.trim(),
+    })
+
+    newMessage.value = ''
+    await refresh()
+  } catch (err) {
+    console.error('Failed to send message:', err)
+  } finally {
+    isSending.value = false
+  }
+}
+</script>
+
 <template>
   <div class="chat-conversation flex flex-col h-full">
     <!-- Header -->
@@ -118,123 +236,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref, computed, watch, nextTick, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
-import { useAuthStore } from '~/stores/auth'
-
-const props = defineProps<{
-  conversationId: string
-}>()
-
-const route = useRoute()
-const messagesContainer = ref<HTMLElement | null>(null)
-const newMessage = ref('')
-const isSending = ref(false)
-
-const currentUser = computed(() => useAuthStore().user)
-
-const { $client } = useNuxtApp()
-const {
-  data: conversation,
-  isLoading,
-  error,
-  refresh,
-} = useAsyncData(
-  () => `conversation-${props.conversationId}`,
-  () =>
-    $client.chat.getConversation.query({ conversationId: props.conversationId })
-)
-
-const otherParticipant = computed(() => {
-  if (!conversation.value || !currentUser.value) return null
-
-  return conversation.value.participants.find(
-    (p) => p.profileId !== currentUser.value?.id
-  )
-})
-
-// Scroll to bottom when messages change
-watch(
-  () => conversation.value?.messages,
-  () => {
-    scrollToBottom()
-  },
-  { deep: true }
-)
-
-onMounted(() => {
-  scrollToBottom()
-})
-
-function scrollToBottom() {
-  nextTick(() => {
-    if (messagesContainer.value) {
-      messagesContainer.value.scrollTop = messagesContainer.value.scrollHeight
-    }
-  })
-}
-
-// Get initials from name
-function getInitials(name: string | undefined) {
-  if (!name) return '?'
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .join('')
-    .toUpperCase()
-    .substring(0, 2)
-}
-
-// Format timestamp
-function formatTime(timestamp: string | Date) {
-  if (!timestamp) return ''
-
-  const date = new Date(timestamp)
-  const now = new Date()
-
-  // If today, show time
-  if (date.toDateString() === now.toDateString()) {
-    return date.toLocaleTimeString(undefined, {
-      hour: '2-digit',
-      minute: '2-digit',
-    })
-  }
-
-  // If this year, show month and day
-  if (date.getFullYear() === now.getFullYear()) {
-    return date.toLocaleDateString(undefined, {
-      month: 'short',
-      day: 'numeric',
-    })
-  }
-
-  // Otherwise show date
-  return date.toLocaleDateString(undefined, {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  })
-}
-
-async function sendMessage() {
-  if (!newMessage.value.trim() || isSending.value) return
-
-  try {
-    isSending.value = true
-
-    await $client.chat.sendMessage.mutate({
-      conversationId: props.conversationId,
-      content: newMessage.value.trim(),
-    })
-
-    newMessage.value = ''
-    await refresh()
-  } catch (err) {
-    console.error('Failed to send message:', err)
-  } finally {
-    isSending.value = false
-  }
-}
-</script>

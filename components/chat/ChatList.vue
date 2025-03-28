@@ -1,3 +1,80 @@
+<script setup lang="ts">
+const { data } = useAppAuth()
+
+const { $client } = useNuxtApp()
+const currentUser = computed(() => data.value?.profile)
+
+// Fetch conversations
+const {
+  data: conversations,
+  isLoading,
+  error,
+  refresh,
+} = useAsyncData('conversations', () => $client.chat.getConversations.query())
+
+// Refresh conversations every minute
+onMounted(() => {
+  const interval = setInterval(() => {
+    refresh()
+  }, 60000)
+
+  onUnmounted(() => {
+    clearInterval(interval)
+  })
+})
+
+// Get the other participant in a conversation
+function getOtherParticipant(conversation: any) {
+  if (!conversation?.participants || !currentUser.value) return null
+
+  return conversation.participants.find(
+    (p: any) => p.profileId !== currentUser.value?.id
+  )
+}
+
+// Get initials from name
+function getInitials(name: string | undefined) {
+  if (!name) return '?'
+  return name
+    .split(' ')
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase()
+    .substring(0, 2)
+}
+
+// Format timestamp
+function formatTime(timestamp: string | Date) {
+  if (!timestamp) return ''
+
+  const date = new Date(timestamp)
+  const now = new Date()
+
+  // If today, show time
+  if (date.toDateString() === now.toDateString()) {
+    return date.toLocaleTimeString(undefined, {
+      hour: '2-digit',
+      minute: '2-digit',
+    })
+  }
+
+  // If this year, show month and day
+  if (date.getFullYear() === now.getFullYear()) {
+    return date.toLocaleDateString(undefined, {
+      month: 'short',
+      day: 'numeric',
+    })
+  }
+
+  // Otherwise show date
+  return date.toLocaleDateString(undefined, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
+}
+</script>
+
 <template>
   <div class="chat-list">
     <!-- Loading state -->
@@ -73,80 +150,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { useAuthStore } from '~/stores/auth'
-
-const { $client } = useNuxtApp()
-const currentUser = computed(() => useAuthStore().user)
-
-// Fetch conversations
-const {
-  data: conversations,
-  isLoading,
-  error,
-  refresh,
-} = useAsyncData('conversations', () => $client.chat.getConversations.query())
-
-// Refresh conversations every minute
-onMounted(() => {
-  const interval = setInterval(() => {
-    refresh()
-  }, 60000)
-
-  onUnmounted(() => {
-    clearInterval(interval)
-  })
-})
-
-// Get the other participant in a conversation
-function getOtherParticipant(conversation: any) {
-  if (!conversation?.participants || !currentUser.value) return null
-
-  return conversation.participants.find(
-    (p: any) => p.profileId !== currentUser.value?.id
-  )
-}
-
-// Get initials from name
-function getInitials(name: string | undefined) {
-  if (!name) return '?'
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .join('')
-    .toUpperCase()
-    .substring(0, 2)
-}
-
-// Format timestamp
-function formatTime(timestamp: string | Date) {
-  if (!timestamp) return ''
-
-  const date = new Date(timestamp)
-  const now = new Date()
-
-  // If today, show time
-  if (date.toDateString() === now.toDateString()) {
-    return date.toLocaleTimeString(undefined, {
-      hour: '2-digit',
-      minute: '2-digit',
-    })
-  }
-
-  // If this year, show month and day
-  if (date.getFullYear() === now.getFullYear()) {
-    return date.toLocaleDateString(undefined, {
-      month: 'short',
-      day: 'numeric',
-    })
-  }
-
-  // Otherwise show date
-  return date.toLocaleDateString(undefined, {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  })
-}
-</script>
