@@ -1,10 +1,20 @@
 FROM node:lts-alpine3.17
 
-WORKDIR /usr/src/app
+# Set environment variables
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+ENV SHELL="/bin/sh"
+
+WORKDIR /app
+
+RUN corepack enable && corepack prepare pnpm@latest --activate
 
 COPY package.json pnpm-lock.yaml ./
 
+RUN pnpm install
+
 COPY . .
 
-RUN npm install -g pnpm
-CMD ["sh", "-c", "pnpm install && pnpm prisma db push --force-reset && pnpm prisma generate && pnpm dev"]
+RUN pnpm prisma generate
+
+CMD ["sh", "-c", "pnpm prisma db push --force-reset && pnpm dev"]
