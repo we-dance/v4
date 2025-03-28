@@ -6,4 +6,5 @@ COPY package.json pnpm-lock.yaml ./
 
 COPY . .
 
-CMD ["sh", "-c", "npm install -g pnpm && pnpm install && pnpm prisma db push --force-reset && pnpm prisma generate && pnpm dev"]
+RUN npm install -g pnpm
+CMD ["sh", "-c", "pnpm install && pnpm prisma db push --force-reset && pnpm prisma generate && pnpm dev"]
