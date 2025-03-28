@@ -23,6 +23,11 @@ const scrollToPlayer = () => {
 }
 
 const handleSelectLesson = (lesson: any) => {
+  if (lesson.locked) {
+    handleViewPricing()
+    return
+  }
+
   currentLesson.value = lesson
   scrollToPlayer()
 }
