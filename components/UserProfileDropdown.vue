@@ -1,100 +1,9 @@
-<template>
-  <DropdownMenu>
-    <DropdownMenuTrigger as-child>
-      <Button
-        variant="ghost"
-        class="relative h-8 w-8 rounded-full"
-        aria-label="Open user menu"
-      >
-        <Avatar
-          :profile="{ name: user?.name, image: user?.image }"
-          class="h-8 w-8"
-        >
-          <AvatarImage :src="user?.image" :alt="user?.name" />
-          <AvatarFallback>{{ initials }}</AvatarFallback>
-        </Avatar>
-      </Button>
-    </DropdownMenuTrigger>
-    <DropdownMenuContent class="w-56" align="end" :side-offset="5">
-      <DropdownMenuLabel class="font-normal">
-        <div class="flex items-center gap-3">
-          <Avatar
-            :profile="{ name: user?.name, image: user?.image }"
-            class="h-10 w-10"
-          >
-            <AvatarImage :src="user?.image" :alt="user?.name" />
-            <AvatarFallback>{{ initials }}</AvatarFallback>
-          </Avatar>
-          <div class="flex flex-col space-y-1">
-            <p class="text-sm font-medium leading-none">{{ user?.name }}</p>
-            <p class="text-xs leading-none text-muted-foreground">
-              {{ user?.email }}
-            </p>
-          </div>
-        </div>
-      </DropdownMenuLabel>
-      <DropdownMenuSeparator />
-      <DropdownMenuItem as-child>
-        <NuxtLink to="/admin/profile" class="flex items-center">
-          <Icon name="lucide:user" class="mr-2 h-4 w-4" />
-          My Profile
-        </NuxtLink>
-      </DropdownMenuItem>
-      <DropdownMenuItem as-child>
-        <NuxtLink to="/admin/settings" class="flex items-center">
-          <Icon name="lucide:settings" class="mr-2 h-4 w-4" />
-          Account Settings
-        </NuxtLink>
-      </DropdownMenuItem>
-      <DropdownMenuItem as-child>
-        <NuxtLink to="/admin/notifications" class="flex items-center">
-          <Icon name="lucide:bell" class="mr-2 h-4 w-4" />
-          Notifications
-        </NuxtLink>
-      </DropdownMenuItem>
-      <DropdownMenuItem as-child>
-        <NuxtLink to="/" class="flex items-center">
-          <Icon name="lucide:eye" class="mr-2 h-4 w-4" />
-          View as User
-        </NuxtLink>
-      </DropdownMenuItem>
-      <DropdownMenuItem as-child>
-        <NuxtLink to="/help" class="flex items-center">
-          <Icon name="lucide:help-circle" class="mr-2 h-4 w-4" />
-          Help Center
-        </NuxtLink>
-      </DropdownMenuItem>
-      <DropdownMenuItem @click="toggleTheme" class="flex items-center">
-        <Icon
-          :name="isDark ? 'lucide:sun' : 'lucide:moon'"
-          class="mr-2 h-4 w-4"
-        />
-        {{ isDark ? 'Light Mode' : 'Dark Mode' }}
-      </DropdownMenuItem>
-      <DropdownMenuItem as-child>
-        <NuxtLink to="/legal" class="flex items-center">
-          <Icon name="lucide:file-text" class="mr-2 h-4 w-4" />
-          Privacy & Terms
-        </NuxtLink>
-      </DropdownMenuItem>
-      <DropdownMenuSeparator />
-      <DropdownMenuItem
-        @click="handleSignOut"
-        class="flex items-center text-destructive focus:text-destructive"
-      >
-        <Icon name="lucide:log-out" class="mr-2 h-4 w-4" />
-        Log out
-      </DropdownMenuItem>
-    </DropdownMenuContent>
-  </DropdownMenu>
-</template>
-
 <script setup lang="ts">
 import { useTheme } from '~/composables/useTheme'
 import { toast } from 'vue-sonner'
 
 const { isDark, toggleTheme } = useTheme()
-const { signOut } = useAuth()
+const { signOut, data } = useAppAuth()
 
 // Mock user data - replace with actual user data from your auth system
 const user = ref({
@@ -125,3 +34,75 @@ const handleSignOut = async () => {
   }
 }
 </script>
+
+<template>
+  <DropdownMenu>
+    <DropdownMenuTrigger as-child>
+      <Button
+        variant="ghost"
+        class="relative h-8 w-8 rounded-full"
+        aria-label="Open user menu"
+      >
+        <Avatar :profile="data?.profile" class="h-8 w-8" />
+      </Button>
+    </DropdownMenuTrigger>
+    <DropdownMenuContent class="w-56" align="end" :side-offset="5">
+      <DropdownMenuLabel class="font-normal">
+        <div class="flex items-center gap-3">
+          <Avatar :profile="data?.profile" class="h-10 w-10" />
+          <div class="flex flex-col space-y-1">
+            <p class="text-sm font-medium leading-none">
+              {{ data?.account?.firstName }} {{ data?.account?.lastName }}
+            </p>
+            <p class="text-xs leading-none text-muted-foreground">
+              {{ data?.account?.email }}
+            </p>
+          </div>
+        </div>
+      </DropdownMenuLabel>
+      <DropdownMenuSeparator />
+      <DropdownMenuItem as-child>
+        <NuxtLink
+          :to="`/@${data?.profile?.username}`"
+          class="flex items-center"
+        >
+          <Icon name="lucide:user" class="mr-2 h-4 w-4" />
+          My Profile
+        </NuxtLink>
+      </DropdownMenuItem>
+      <DropdownMenuItem as-child>
+        <NuxtLink to="/settings" class="flex items-center">
+          <Icon name="lucide:settings" class="mr-2 h-4 w-4" />
+          Account Settings
+        </NuxtLink>
+      </DropdownMenuItem>
+      <DropdownMenuItem as-child>
+        <NuxtLink to="/" class="flex items-center">
+          <Icon name="lucide:eye" class="mr-2 h-4 w-4" />
+          View as User
+        </NuxtLink>
+      </DropdownMenuItem>
+      <DropdownMenuItem as-child>
+        <NuxtLink to="/help" class="flex items-center">
+          <Icon name="lucide:help-circle" class="mr-2 h-4 w-4" />
+          Help Center
+        </NuxtLink>
+      </DropdownMenuItem>
+      <DropdownMenuItem @click="toggleTheme" class="flex items-center">
+        <Icon
+          :name="isDark ? 'lucide:sun' : 'lucide:moon'"
+          class="mr-2 h-4 w-4"
+        />
+        {{ isDark ? 'Light Mode' : 'Dark Mode' }}
+      </DropdownMenuItem>
+      <DropdownMenuSeparator />
+      <DropdownMenuItem
+        @click="handleSignOut"
+        class="flex items-center text-destructive focus:text-destructive"
+      >
+        <Icon name="lucide:log-out" class="mr-2 h-4 w-4" />
+        Log out
+      </DropdownMenuItem>
+    </DropdownMenuContent>
+  </DropdownMenu>
+</template>
