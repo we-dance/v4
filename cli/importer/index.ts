@@ -14,11 +14,10 @@ import {
 } from './profile'
 import { addAccount } from './account'
 import { addDanceStyle, clearVotes } from './style'
-import { importCourseFromFile } from './course'
+import { addCourse } from './course'
 import * as cliProgress from 'cli-progress'
 import { getLogger } from '../utils/logger'
-import { join } from 'path'
-import { readdirSync } from 'fs'
+import { getCourses } from '../provider/courses'
 
 export async function importDanceStyles(multibar: cliProgress.MultiBar) {
   let collection = 'styles'
@@ -336,70 +335,44 @@ export async function importEvents(multibar: cliProgress.MultiBar) {
   bar.stop()
 }
 
-export async function importCourses(
-  multibar?: cliProgress.MultiBar,
-  dirPath?: string
-) {
-  const collection = 'courses'
+export async function importCourses(multibar: cliProgress.MultiBar) {
+  let collection = 'courses'
   const logger = getLogger(collection)
+
   logger.info('Importing courses')
 
-  try {
-    const coursePath = dirPath || 'data/courses'
+  let created = 0
+  let updated = 0
+  let ignored = 0
+  let failed = 0
 
-    // Get list of course files
-    const fullPath = join(process.cwd(), coursePath)
+  const courses = await getCourses()
 
-    const files = readdirSync(fullPath).filter(
-      (file) => file.endsWith('.yaml') || file.endsWith('.yml')
-    )
-    logger.info(`Found ${files.length} course files for import`)
+  const bar = multibar.create(courses.length, 0, {
+    collection,
+  })
 
-    let created = 0
-    let failed = 0
+  for (const course of courses) {
+    logger.debug('importing', course.id)
 
-    // Create progress bar if multibar is provided
-    const bar = multibar?.create(files.length, 0, {
-      collection,
-      created,
-      failed,
-      ignored: 0,
-      updated: 0,
-    })
+    const result = await addCourse(course)
+    bar.increment({ created, updated, ignored, failed })
 
-    const courseIds = []
-
-    for (const file of files) {
-      const filePath = join(coursePath, file)
-
-      try {
-        logger.debug('importing course from', filePath)
-        const courseId = await importCourseFromFile(filePath)
-        courseIds.push(courseId)
-        created++
-        logger.info(`Successfully imported course: ${courseId}`)
-
-        bar?.increment({ created, failed })
-      } catch (error) {
-        logger.error(`Failed to import course from ${file}:`, error)
-        failed++
-
-        bar?.increment({ created, failed })
-      }
+    if (result.state === 'created') {
+      created++
+    }
+    if (result.state === 'updated') {
+      updated++
+    }
+    if (result.state === 'ignored') {
+      ignored++
+    }
+    if (result.state === 'failed') {
+      failed++
     }
 
-    bar?.stop()
-
-    logger.info('Finished importing courses', {
-      total: courseIds.length,
-      created,
-      failed,
-      courseIds,
-    })
-
-    return { state: 'success', courseIds, created, failed }
-  } catch (error) {
-    logger.error('Failed to import courses', error)
-    return { state: 'failed', error }
+    logger.log(result.state === 'failed' ? 'error' : 'debug', result)
   }
+
+  bar.stop()
 }

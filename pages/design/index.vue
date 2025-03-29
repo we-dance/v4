@@ -18,8 +18,32 @@ const sections = [
     ],
   },
   {
+    label: 'Emails',
+    description: 'Email templates for the platform',
+    links: [
+      {
+        to: '/design/email/welcome',
+        label: 'Welcome Email',
+        description:
+          'A personalized welcome email sent to new users after registration',
+      },
+    ],
+  },
+  {
     ...designConfig.patterns,
     links: designConfig.patterns.items,
+  },
+  {
+    label: 'Email Templates',
+    description:
+      'Email templates used throughout the application for various communications.',
+    links: [
+      {
+        label: 'Class Reminder',
+        to: '/design/emails/class-reminder',
+        description: 'Email template for class reminders sent to students',
+      },
+    ],
   },
 ]
 </script>

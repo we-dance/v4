@@ -12,6 +12,7 @@ const navigationItems = [
   { to: '/groups', label: 'Groups', icon: 'lucide:users-2' },
   { to: '/artists', label: 'Artists', icon: 'lucide:users' },
   { to: '/venues', label: 'Venues', icon: 'lucide:map-pin' },
+  { to: '/chat', label: 'Messages', icon: 'lucide:message-square' },
 ]
 
 const toggleMobileMenu = () => {
@@ -42,7 +43,7 @@ watch(
   <nav
     class="bg-background/80 backdrop-blur-sm shadow-sm fixed w-full z-50 border-b border-border"
   >
-    <div class="max-w-[87%] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
@@ -52,7 +53,7 @@ watch(
           </div>
         </div>
         <!-- Desktop Navigation -->
-        <div class="hidden sm:ml-6 mr-20 sm:flex sm:items-center gap-2">
+        <div class="hidden lg:ml-6 lg:mr-20 lg:flex lg:items-center gap-2">
           <Button
             as-child
             variant="ghost"
@@ -109,7 +110,7 @@ watch(
           </template>
         </div>
         <!-- Mobile menu button -->
-        <div class="flex justify-end items-center sm:hidden">
+        <div class="flex justify-end items-center lg:hidden">
           <Button variant="ghost" @click="handleSearch">
             <Icon name="lucide:search" class="h-4 w-4" />
           </Button>

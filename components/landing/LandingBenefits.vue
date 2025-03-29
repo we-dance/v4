@@ -156,7 +156,8 @@ defineProps({
                   Private Bookings
                 </h4>
                 <p class="text-sm text-muted-foreground">
-                  Get booked for classes and performances
+                  Get booked for workshops, classes and professional
+                  performances
                 </p>
               </div>
             </div>

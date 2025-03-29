@@ -28,6 +28,7 @@ export const useProfile = async () => {
     result.type = profile.type as 'artist'
     result.name = profile.name
     result.points = 0
+    result.bio = profile.bio
     result.stats = {
       events: 0,
       followers: 0,
@@ -36,6 +37,31 @@ export const useProfile = async () => {
     }
     result.styles = []
     result.photo = profile.photo
+    result.socialLinks = []
+    const platforms = [
+      'instagram',
+      'facebook',
+      'linkedin',
+      'airbnb',
+      'couchsurfing',
+      'blablacar',
+      'spotify',
+      'youtube',
+      'threads',
+      'tiktok',
+      'twitter',
+      'telegram',
+      'whatsapp',
+      'website',
+    ]
+    platforms.forEach((platform) => {
+      if ((profile as Record<string, any>)[platform]) {
+        result.socialLinks.push({
+          url: (profile as Record<string, any>)[platform],
+          platform: platform.charAt(0).toUpperCase() + platform.slice(1),
+        })
+      }
+    })
 
     return result
   })

@@ -165,7 +165,7 @@
   <LandingGetStarted
     title="Ready to Start Your Dance Journey?"
     description="Join thousands of dancers in your city"
-    secondary="Founding Member Benefits"
+    secondary="Early Bird Customer Benefits"
     secondaryLink="/founding-members"
   />
 </template>

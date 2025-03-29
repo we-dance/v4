@@ -10,7 +10,7 @@
     secondaryLink="/venues/1"
     :features="[
       { icon: 'ph:check-circle', text: '5-minute setup' },
-      { icon: 'ph:crown', text: 'Founding member benefits' },
+      { icon: 'ph:crown', text: 'Early Bird Customer Benefits' },
       { icon: 'ph:star', text: 'First month free' },
     ]"
     :cards="[
@@ -174,8 +174,8 @@
 
   <LandingGetStarted
     title="Be Among the First Venues"
-    description="Join now and get exclusive founding member benefits"
-    secondary="Founding Member Benefits"
+    description="Join now and get exclusive Early Bird Customer Benefits"
+    secondary="Early Bird Customer Benefits"
     secondaryLink="/founding-members"
   />
 </template>

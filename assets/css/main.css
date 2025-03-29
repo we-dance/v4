@@ -40,7 +40,7 @@
     --info-foreground: 0 0% 100%;
     --border: 0 0% 89%;
     --input: 0 0% 89%;
-    --ring: 351 98% 48%;
+    --ring: 0 0% 64%;
     --radius: 0.5rem;
 
     /* Gradient colors - Light mode */
@@ -75,7 +75,7 @@
     --info-foreground: 0 0% 98%;
     --border: 0 0% 18%;
     --input: 0 0% 18%;
-    --ring: 351 98% 48%;
+    --ring: 0 0% 64%;
 
     /* Gradient colors - Dark mode */
     --gradient-base: 288 65% 12%;
