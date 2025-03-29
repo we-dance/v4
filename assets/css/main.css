@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --dark: 0 0% 12%;
-  --color-light: #fff;
-  --color-dark: #333;
 }
 
 @layer base {
@@ -92,19 +92,4 @@
   .animation-delay-4000 {
     animation-delay: 4s;
   }
-}
-
-/* Dark mode color */
-.dark {
-  background-color: hsl(var(--background));
-}
-
-.dark,
-.dark h1,
-.dark h2,
-.dark h3,
-.dark div,
-.dark svg.lucide,
-.dark label {
-  color: hsl(var(--foreground));
 }
