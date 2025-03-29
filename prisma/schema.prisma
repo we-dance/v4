@@ -555,14 +555,8 @@ model Subscription {
   status          String // 'active', 'canceled', 'past_due'
   nextBillingDate DateTime?
   canceledAt      DateTime?
-
-  // Stripe or payment processor specific fields
-  stripeCustomerId     String?
-  stripeSubscriptionId String?
-  stripePriceId        String?
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
 
   @@index([userId])
 }

@@ -55,21 +55,18 @@ export const subscriptionsRouter = router({
   create: publicProcedure
     .input(createSubscriptionSchema)
     .mutation(async ({ input, ctx }) => {
+      console.log('input:', input)
       const session = await getServerSession(ctx.event)
+      console.log('session:', session)
 
       if (!session) {
         throw new Error('You must be logged in to create a subscription')
       }
 
-      // Ensure the userId in the input matches the current user's ID
-      if (input.userId && input.userId !== session.user.id) {
-        throw new Error('You can only create subscriptions for yourself')
-      }
-
       return await prisma.subscription.create({
         data: {
           ...input,
-          userId: session.user.id, // Always use the current user's ID
+          userId: session.user.id,
         },
       })
     }),
@@ -102,16 +99,23 @@ export const subscriptionsRouter = router({
         )
       }
 
-      // Update the subscription status
-      return await prisma.subscription.update({
-        where: {
-          id,
-        },
-        data: {
-          status,
-          canceledAt: status === 'canceled' ? canceledAt || new Date() : null,
-        },
-      })
+      try {
+        // Update the subscription status
+        const updated = await prisma.subscription.update({
+          where: {
+            id,
+          },
+          data: {
+            status,
+            canceledAt: status === 'canceled' ? canceledAt || new Date() : null,
+          },
+        })
+
+        return updated
+      } catch (error) {
+        console.error('Error updating subscription:', error)
+        throw new Error('Failed to update subscription status')
+      }
     }),
 
   // Delete a subscription (for admin purposes)
