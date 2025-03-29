@@ -1,14 +1,17 @@
 # Use Node.js LTS version
-FROM node:20-slim
+FROM node:22-slim
 
 # Create app directory
 WORKDIR /usr/src/app/ai
 
+RUN npm i -g corepack@latest && corepack enable
+
 # Copy package files
 COPY package*.json ./
+COPY pnpm-lock.yaml ./
 
 # Install dependencies
-RUN npm install
+RUN pnpm install
 
 # Copy source code
 COPY . .
@@ -17,4 +20,4 @@ COPY . .
 COPY .env.example .env
 
 # Command to run the bot
-CMD ["npm", "run", "bot"] 
+CMD ["pnpm", "run", "bot"] 

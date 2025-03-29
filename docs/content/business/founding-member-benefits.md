@@ -1,10 +1,10 @@
 ---
-title: Founding Member Benefits
+title: Early Bird Customer Benefits
 description: Special benefits and privileges for early adopters of WeDance platform
 status: proposal
 ---
 
-# Founding Member Benefits
+# Early Bird Customer Benefits
 
 ## Overview
 
