@@ -4,6 +4,6 @@ import { Toaster } from 'vue-sonner'
 
 <template>
   <div>
-    <Toaster position="bottom-right" richColors theme="dark" />
+    <Toaster position="bottom-right" />
   </div>
 </template>
