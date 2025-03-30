@@ -10,11 +10,18 @@ const currentLesson = ref(course.modules[0].lessons[0])
 const dialog = useDialog()
 
 // Use the correct structure based on your actual implementation
+<<<<<<< HEAD
 const { redirectToCheckout } = useStripeCheckout()
 // For loading state tracking
 const isCheckoutLoading = ref(false)
 const loadingStripeCourseId = ref<string | null>(null)
 const loadingCourseName = ref<string | null>(null)
+=======
+const { stripeUrl, handleStripeCheckout } = useStripeCheckout()
+// For loading state tracking
+const isCheckoutLoading = ref(false)
+const loadingStripeCourseId = ref<string | null>(null)
+>>>>>>> b0fb1295 (frontend redirect to Stripe)
 
 const scrollToPlayer = () => {
   const player = document.querySelector('.player')
@@ -46,11 +53,15 @@ const handleViewPricing = () => {
     props: {
       course: course,
       onSubscribe: handleSubscribe,
+<<<<<<< HEAD
       onSelect: () => dialog.close(),
+=======
+>>>>>>> b0fb1295 (frontend redirect to Stripe)
     },
   })
 }
 
+<<<<<<< HEAD
 const handleSubscribe = async (offeringId: string) => {
   try {
     isCheckoutLoading.value = true
@@ -63,6 +74,20 @@ const handleSubscribe = async (offeringId: string) => {
       courseName: course.name,
       offeringId: offeringId,
     })
+=======
+const handleSubscribe = async (offerId: string) => {
+  try {
+    isCheckoutLoading.value = true
+    loadingStripeCourseId.value = course.id
+
+    // Using the actual implementation structure
+    const { url } = await handleStripeCheckout(
+      // These parameters might need adjustment based on your actual needs
+      'current-user-id', // You should get this from auth
+      course.instructor?.id || 'default-org-id',
+      course.id
+    )
+>>>>>>> b0fb1295 (frontend redirect to Stripe)
 
     if (url) {
       window.location.href = url
