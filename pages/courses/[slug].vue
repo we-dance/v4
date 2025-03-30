@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { z } from 'zod'
+import { toast } from 'vue-sonner'
 
 const { $client } = useNuxtApp()
 const route = useRoute()
@@ -7,6 +8,12 @@ const slug = z.string().parse(route.params.slug)
 const course = await $client.courses.view.query({ slug })
 const currentLesson = ref(course.modules[0].lessons[0])
 const dialog = useDialog()
+
+// Use the correct structure based on your actual implementation
+const { stripeUrl, handleStripeCheckout } = useStripeCheckout()
+// For loading state tracking
+const isCheckoutLoading = ref(false)
+const loadingStripeCourseId = ref<string | null>(null)
 
 const scrollToPlayer = () => {
   const player = document.querySelector('.player')
@@ -37,8 +44,36 @@ const handleViewPricing = () => {
     component: 'CourseSubscriptionDialog',
     props: {
       course: course,
+      onSubscribe: handleSubscribe,
     },
   })
+}
+
+const handleSubscribe = async (offerId: string) => {
+  try {
+    isCheckoutLoading.value = true
+    loadingStripeCourseId.value = course.id
+
+    // Using the actual implementation structure
+    const { url } = await handleStripeCheckout(
+      // These parameters might need adjustment based on your actual needs
+      'current-user-id', // You should get this from auth
+      course.instructor?.id || 'default-org-id',
+      course.id
+    )
+
+    if (url) {
+      window.location.href = url
+    } else {
+      throw new Error('Failed to create checkout session')
+    }
+  } catch (error) {
+    console.error('Error during checkout:', error)
+    toast.error('Error initiating checkout. Please try again.')
+  } finally {
+    isCheckoutLoading.value = false
+    loadingStripeCourseId.value = null
+  }
 }
 </script>
 
