@@ -1,6 +1,7 @@
 import { useAppAuth } from './useAppAuth'
 import { ref } from 'vue'
 import { trpc } from '~/composables/trpc'
+import { toast } from 'vue-sonner'
 
 export function useStripeCheckout() {
   const { isLoggedIn } = useAppAuth()
@@ -14,8 +15,10 @@ export function useStripeCheckout() {
   async function redirectToCheckout(params: {
     courseId: string
     courseName: string
+    offerId: string
   }) {
     if (!isLoggedIn.value) {
+      toast.error('You must be logged in to subscribe')
       error.value = 'You must be logged in to subscribe'
       return
     }
@@ -28,7 +31,7 @@ export function useStripeCheckout() {
       // Create checkout session
       const result = await trpc.subscriptions.createCheckoutSession.mutate({
         courseId: params.courseId,
-        offeringId: params.courseId,
+        offeringId: params.offerId,
         successUrl: `${window.location.origin}/courses/${params.courseId}/success`,
         cancelUrl: `${window.location.origin}/courses/${params.courseId}`,
       })
@@ -41,6 +44,7 @@ export function useStripeCheckout() {
       }
     } catch (err) {
       console.error('Checkout error:', err)
+      toast.error('An error occurred during checkout. Please try again.')
       error.value = 'An error occurred during checkout. Please try again.'
     } finally {
       isLoading.value = false
@@ -53,6 +57,7 @@ export function useStripeCheckout() {
    */
   async function cancelSubscription(subscriptionId: string) {
     if (!isLoggedIn.value) {
+      toast.error('You must be logged in to cancel a subscription')
       error.value = 'You must be logged in to cancel a subscription'
       return
     }
@@ -64,9 +69,11 @@ export function useStripeCheckout() {
       await trpc.subscriptions.cancelStripeSubscription.mutate({
         subscriptionId,
       })
+      toast.success('Your subscription has been cancelled')
       return true
     } catch (err) {
       console.error('Cancellation error:', err)
+      toast.error('An error occurred while cancelling your subscription.')
       error.value = 'An error occurred while cancelling your subscription.'
       return false
     } finally {
