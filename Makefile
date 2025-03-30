@@ -10,7 +10,7 @@ logs:
 	docker compose logs -f
 
 build:
-	docker compose up --build -d
+	docker compose build
 
 stop:
 	docker compose down
@@ -20,6 +20,7 @@ start:
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
 	docker compose exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
+	docker compose logs -f
 
 sh:
 	docker compose exec app sh

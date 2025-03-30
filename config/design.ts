@@ -66,6 +66,18 @@ export const designConfig = {
       },
     },
   },
+  emails: {
+    label: 'Emails',
+    description: 'Email templates for the platform',
+    items: [
+      {
+        to: '/design/email/welcome',
+        label: 'Welcome Email',
+        description:
+          'A personalized welcome email sent to new users after registration',
+      },
+    ],
+  },
   patterns: {
     label: 'Patterns',
     description: 'Common UI patterns and solutions',

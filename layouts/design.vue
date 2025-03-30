@@ -63,6 +63,21 @@ import { designConfig } from '~/config/design'
               </div>
             </div>
 
+            <!-- Emails -->
+            <div>
+              <h4 class="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
+                {{ designConfig.emails.label }}
+              </h4>
+              <div class="grid grid-flow-row auto-rows-max text-sm">
+                <DesignNavLink
+                  v-for="item in designConfig.emails.items"
+                  :key="item.to"
+                  :to="item.to"
+                  :label="item.label"
+                />
+              </div>
+            </div>
+
             <!-- Patterns -->
             <div>
               <h4 class="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
