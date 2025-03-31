@@ -10,9 +10,6 @@ const dialog = useDialog()
 const handleCreateCourse = () => {
   dialog.open({
     component: 'CourseCreateDialog',
-    onClose: () => {
-      dialog.close()
-    },
   })
 }
 </script>

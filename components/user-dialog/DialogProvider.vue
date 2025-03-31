@@ -15,7 +15,9 @@ const currentProps = computed(() => {
 const isOpen = computed({
   get: () => dialog.isOpen.value,
   set: (value: boolean) => {
-    dialog.isOpen.value = value
+    if (!value) {
+      dialog.close()
+    }
   },
 })
 </script>
@@ -23,7 +25,12 @@ const isOpen = computed({
 <template>
   <Dialog :open="isOpen" @update:open="isOpen = $event">
     <DialogContent>
-      <component v-if="isOpen" :is="currentComponent" v-bind="currentProps" />
+      <component
+        v-if="isOpen"
+        :is="currentComponent"
+        v-bind="currentProps"
+        @close="dialog.close()"
+      />
     </DialogContent>
   </Dialog>
 </template>
