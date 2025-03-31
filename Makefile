@@ -19,6 +19,9 @@ start:
 	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
 	docker compose -f docker-compose.full.yml logs -f
 
+stop:
+	docker compose -f docker-compose.full.yml down
+
 db-start:
 	docker compose up -d
 
@@ -27,7 +30,7 @@ dev:
 	pnpm prisma generate
 	pnpm dev
 
-stop:
+db-stop:
 	docker compose down
 
 db-reset:

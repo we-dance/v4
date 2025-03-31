@@ -26,6 +26,8 @@ WeDance is a participatory network that empowers dance communities by providing 
 
 ```bash
 nvm use
+make db-start
+make db-reset # create database, use it if running for the first time
 make dev
 ```
 
