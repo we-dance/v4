@@ -11,11 +11,10 @@ WeDance is a participatory network that empowers dance communities by providing 
 
 ## 🌟 Tech Stack
 
-- **Frontend**: Nuxt 3
-- **Backend**: Node.js + Prisma + tRPC
-- **UI Components**: Vue Shadcn
-- **Styling**: TailwindCSS
-- **Form Handling**: VeeValidate + Zod
+- **Framework**: [Sidebase](https://sidebase.io/)
+- **UI Components**: [shadcn/vue](https://www.shadcn-vue.com/)
+- **Styling**: [tailwindcss](https://tailwindcss.com/)
+- **Form Handling**: [VeeValidate + Zod](https://www.shadcn-vue.com/docs/components/form.html)
 
 ## 📦 Prerequisites
 
@@ -23,43 +22,12 @@ WeDance is a participatory network that empowers dance communities by providing 
 - [Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - **Windows Users**: Use Gitbash terminal in Cursor
 
-## 🛠️ Setup
-
-1. **Clone the repository**
+## 🛠️ Local Server
 
 ```bash
-git clone git@github.com:wedance/v4.git
-cd v4
+nvm use
+make dev
 ```
-
-2. **Build the project**
-
-```bash
-make build
-```
-
-This command will:
-
-- Check for required prerequisites and install them if missing (Node.js, PNPM, etc.)
-- Set up environment files
-- Start the database
-- Install dependencies
-- Set up the database with required extensions
-- Generate Prisma client
-
-3. **Start the development server**
-
-```bash
-make start
-```
-
-4. **Import data (optional)**
-
-```bash
-make import
-```
-
-5. **Access the application**
 
 Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
