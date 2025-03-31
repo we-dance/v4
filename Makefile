@@ -10,22 +10,22 @@ logs:
 	docker compose logs -f
 
 build:
-	docker compose build
-
-stop:
-	docker compose down
+	docker compose -f docker-compose.full.yml build --no-cache
 
 start:
-	docker compose up -f docker-compose.full.yml -d
-	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
-	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
-	docker compose exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
-	docker compose logs -f
+	docker compose -f docker-compose.full.yml up -d
+	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
+	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
+	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
+	docker compose -f docker-compose.full.yml logs -f
 
 dev:
 	docker compose up -d
 	pnpm i
 	pnpm dev
+
+stop:
+	docker compose down
 
 sh:
 	docker compose exec app sh
