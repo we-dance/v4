@@ -16,11 +16,16 @@ stop:
 	docker compose down
 
 start:
-	docker compose up -d
+	docker compose up -f docker-compose.full.yml -d
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
 	docker compose exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
 	docker compose logs -f
+
+dev:
+	docker compose up -d
+	pnpm i
+	pnpm dev
 
 sh:
 	docker compose exec app sh
