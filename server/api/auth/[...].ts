@@ -9,10 +9,7 @@ import {
   getSlug,
   registerSchema,
 } from '~/schemas/user'
-import {
-  defaultPrivacySettings,
-  generateUniqueUsername,
-} from '~/schemas/profile'
+import { defaultPrivacySettings } from '~/schemas/profile'
 import { nanoid } from 'nanoid'
 
 const prisma = new PrismaClient()

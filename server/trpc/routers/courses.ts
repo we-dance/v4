@@ -2,6 +2,7 @@ import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '../trpc'
 import { getSlug } from '~/schemas/user'
+import { nanoid } from 'nanoid'
 
 export const coursesRouter = router({
   list: publicProcedure
@@ -138,7 +139,7 @@ export const coursesRouter = router({
       const { name } = input
       const prisma = ctx.prisma
 
-      const slug = getSlug(name)
+      const slug = getSlug(name) + nanoid(5)
 
       const course = await prisma.course.create({
         data: { name, slug },
