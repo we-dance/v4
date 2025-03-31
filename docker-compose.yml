@@ -10,8 +10,6 @@ services:
       POSTGRES_DB: db
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
-    networks:
-      - prisma-network
     healthcheck:
       test: ['CMD-SHELL', 'pg_isready -U user -d db']
       interval: 5s
@@ -20,7 +18,3 @@ services:
 
 volumes:
   postgres-data:
-
-networks:
-  prisma-network:
-    name: prisma-network
