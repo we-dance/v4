@@ -4,12 +4,25 @@ definePageMeta({
 })
 
 const { $client } = useNuxtApp()
-const { courses } = await $client.courses.list.query({ limit: 10 })
+
+const courses = ref<any[]>([])
+
+const getCourses = async () => {
+  const result = await $client.courses.list.query({ limit: 10 })
+  courses.value = result.courses
+}
+
+await getCourses()
 
 const dialog = useDialog()
 const handleCreateCourse = () => {
   dialog.open({
     component: 'CourseCreateDialog',
+    props: {
+      onSuccess: async () => {
+        await getCourses()
+      },
+    },
   })
 }
 </script>
