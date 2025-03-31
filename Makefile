@@ -21,11 +21,15 @@ start:
 
 dev:
 	docker compose up -d
+	pnpm prisma generate
 	pnpm i
 	pnpm dev
 
 stop:
 	docker compose down
+
+build-db:
+	pnpm prisma db push --force-reset
 
 sh:
 	docker compose exec app sh

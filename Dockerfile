@@ -17,4 +17,4 @@ RUN pnpm prisma generate
 
 COPY . .
 
-CMD ["sh", "-c", "pnpm prisma db push --force-reset && pnpm dev"]
+CMD ["sh", "-c", "pnpm dev"]
