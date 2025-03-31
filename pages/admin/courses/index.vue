@@ -52,9 +52,11 @@ const handleCreateCourse = () => {
             <TableCell>{{ course?.instructor?.name }}</TableCell>
             <TableCell>{{ course.name }}</TableCell>
             <TableCell class="text-right">
-              <Button>
-                <Icon name="ph:pencil" />
-              </Button>
+              <NuxtLink :to="`/admin/courses/${course.slug}`">
+                <Button variant="ghost" size="icon">
+                  <Icon name="ph:pencil" />
+                </Button>
+              </NuxtLink>
             </TableCell>
           </TableRow>
           <TableRow v-if="courses.length === 0">

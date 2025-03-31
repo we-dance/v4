@@ -139,10 +139,36 @@ export const coursesRouter = router({
       const { name } = input
       const prisma = ctx.prisma
 
-      const slug = getSlug(name) + nanoid(5)
+      const slug = getSlug(name) + '-' + nanoid(5)
 
       const course = await prisma.course.create({
         data: { name, slug },
+      })
+
+      return course
+    }),
+
+  update: publicProcedure
+    .input(
+      z.object({
+        slug: z.string(),
+        name: z.string().min(1),
+        description: z.string().optional(),
+        subheader: z.string().optional(),
+        coverUrl: z.string().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { slug, ...data } = input
+      const prisma = ctx.prisma
+
+      const course = await prisma.course.update({
+        where: { slug },
+        data: {
+          ...data,
+          // If name changed, generate new slug
+          ...(data.name && { slug: getSlug(data.name) + '-' + nanoid(5) }),
+        },
       })
 
       return course
