@@ -49,7 +49,7 @@
     "superjson": "^2.2.2",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "trpc-nuxt": "^0.10.22",
+    "trpc-nuxt": "^1.0.4",
     "vee-validate": "^4.15.0",
     "vue": "latest",
     "vue-query": "^1.26.0",
