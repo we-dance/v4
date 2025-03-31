@@ -190,6 +190,27 @@ const mapPins = computed(() => {
 const toggleMobileView = () => {
   showMobileMap.value = !showMobileMap.value
 }
+
+// Add sort state
+const sortBy = ref('relevance')
+
+const sortOptions = [
+  { value: 'relevance', label: 'Relevance' },
+  { value: 'rating', label: 'Rating: High → Low' },
+  { value: 'priceLow', label: 'Price: Low → High' },
+  { value: 'capacity', label: 'Capacity' },
+]
+
+watch(sortBy, (newValue) => {
+  // Implement sorting logic
+  venues.value = sortVenues(venues.value, newValue)
+})
+
+const sortVenues = (venueList: typeof venues, newValue: string) => {
+  // Implement sorting logic based on the selected option
+  // This is a placeholder and should be replaced with actual sorting logic
+  return venueList
+}
 </script>
 
 <template>
