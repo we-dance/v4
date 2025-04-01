@@ -6,7 +6,7 @@ const stripeUrl = ref<string>('')
 // for external payment
 const handleStripeCheckout = async (
   userId: string,
-  orgId: string,
+  offeringId: string,
   courseId: string
 ) => {
   // Get the base URL for constructing absolute URLs
@@ -16,7 +16,7 @@ const handleStripeCheckout = async (
     // Create checkout session
     const result = await trpc.subscriptions.createCheckoutSession.mutate({
       courseId,
-      offeringId: orgId, // Adjust this if needed
+      offeringId: offeringId, // Adjust this if needed
       successUrl: `${baseUrl}/checkout/${courseId}/success`,
       cancelUrl: `${baseUrl}/checkout/${courseId}`,
     })

@@ -186,6 +186,7 @@ export const subscriptionsRouter = router({
 
         return { sessionId: checkoutSession.id, url: checkoutSession.url }
       } catch (error) {
+        console.log(input)
         console.error('Error creating checkout session:', error)
         throw new Error('Failed to create checkout session')
       }
