@@ -167,7 +167,7 @@ export const stripeService = {
     const course = await prisma.course.findUnique({
       where: { id: courseId },
       include: {
-        offerings: {
+        offers: {
           where: { id: offeringId },
         },
       },
@@ -177,7 +177,7 @@ export const stripeService = {
       throw new Error('Course not found')
     }
 
-    const offering = course.offerings[0]
+    const offering = course.offers[0]
     if (!offering) {
       throw new Error('Course offering not found')
     }
