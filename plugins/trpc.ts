@@ -1,4 +1,4 @@
-import { createTRPCProxyClient, httpBatchLink } from '@trpc/client'
+import { createTRPCClient, httpBatchLink } from '@trpc/client'
 import type { AppRouter } from '~/server/trpc/routers'
 import superjson from 'superjson'
 
@@ -12,13 +12,13 @@ export default defineNuxtPlugin(() => {
   /**
    * Create tRPC client with properly formed URL
    */
-  const client = createTRPCProxyClient<AppRouter>({
+  const client = createTRPCClient<AppRouter>({
     links: [
       httpBatchLink({
         url: `${baseUrl}/api/trpc`,
+        transformer: superjson,
       }),
     ],
-    transformer: superjson,
   })
 
   return {
