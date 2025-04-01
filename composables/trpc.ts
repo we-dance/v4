@@ -1,17 +1,17 @@
-import { createTRPCProxyClient, httpBatchLink } from '@trpc/client'
+import { createTRPCClient, httpBatchLink } from '@trpc/client'
 import type { AppRouter } from '~/server/trpc/routers'
 import { useQuery, useMutation, useInfiniteQuery } from 'vue-query'
 import superjson from 'superjson'
 import type { CreatePost, UpdateStats } from '~/server/trpc/schemas/post'
 
 // Create tRPC client
-const client = createTRPCProxyClient<AppRouter>({
+const client = createTRPCClient<AppRouter>({
   links: [
     httpBatchLink({
       url: '/api/trpc',
+      transformer: superjson,
     }),
   ],
-  transformer: superjson,
 })
 
 // Export composables for use in components

@@ -101,7 +101,7 @@ const onSubmit = form.handleSubmit(
 
       <NuxtLink
         to="/forgot-password"
-        class="text-sm text-primary hover:text-primary/90"
+        class="text-sm text-info hover:underline"
         :class="{ 'pointer-events-none opacity-50': isLoading }"
       >
         Forgot password?
@@ -117,33 +117,6 @@ const onSubmit = form.handleSubmit(
         />
         {{ isLoading ? 'Signing in...' : 'Sign in' }}
       </Button>
-
-      <div class="relative">
-        <div class="absolute inset-0 flex items-center">
-          <span class="w-full border-t" />
-        </div>
-        <div class="relative flex justify-center text-xs uppercase">
-          <span class="bg-background px-2 text-muted-foreground">
-            Or continue with
-          </span>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-2 gap-4">
-        <Button
-          type="button"
-          variant="outline"
-          :disabled="isLoading"
-          @click="login('facebook')"
-        >
-          <Icon name="lucide:facebook" class="mr-2 h-4 w-4" />
-          Facebook
-        </Button>
-        <Button type="button" variant="outline" :disabled="isLoading">
-          <Icon name="lucide:google" class="mr-2 h-4 w-4" />
-          Google
-        </Button>
-      </div>
     </div>
 
     <TermsInfo />
