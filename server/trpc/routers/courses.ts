@@ -1,6 +1,8 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '../trpc'
+import { getSlug } from '~/schemas/user'
+import { nanoid } from 'nanoid'
 
 export const coursesRouter = router({
   list: publicProcedure
@@ -127,6 +129,47 @@ export const coursesRouter = router({
         ratingValue: 0,
         reviewCount: 0,
       }
+
+      return course
+    }),
+
+  create: publicProcedure
+    .input(z.object({ name: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { name } = input
+      const prisma = ctx.prisma
+
+      const slug = getSlug(name) + '-' + nanoid(5)
+
+      const course = await prisma.course.create({
+        data: { name, slug },
+      })
+
+      return course
+    }),
+
+  update: publicProcedure
+    .input(
+      z.object({
+        slug: z.string(),
+        name: z.string().min(1),
+        description: z.string().optional(),
+        subheader: z.string().optional(),
+        coverUrl: z.string().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { slug, ...data } = input
+      const prisma = ctx.prisma
+
+      const course = await prisma.course.update({
+        where: { slug },
+        data: {
+          ...data,
+          // If name changed, generate new slug
+          ...(data.name && { slug: getSlug(data.name) + '-' + nanoid(5) }),
+        },
+      })
 
       return course
     }),

@@ -68,11 +68,12 @@ const markAsInteracted = () => {
   >
     <template #selector="{ inputValue, updateInputValue, countries }">
       <Popover v-model:open="open">
-        <PopoverTrigger>
+        <PopoverTrigger tabindex="-1">
           <Button
             variant="outline"
             class="flex gap-1 rounded-e-none rounded-s-lg px-3"
             @click="markAsInteracted"
+            tabindex="-1"
             :disabled="disabled"
           >
             <FlagComponent :country="inputValue" />
