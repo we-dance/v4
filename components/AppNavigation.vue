@@ -12,7 +12,6 @@ const navigationItems = [
   { to: '/groups', label: 'Groups', icon: 'lucide:users-2' },
   { to: '/artists', label: 'Artists', icon: 'lucide:users' },
   { to: '/venues', label: 'Venues', icon: 'lucide:map-pin' },
-  { to: '/chat', label: 'Messages', icon: 'lucide:message-square' },
 ]
 
 const toggleMobileMenu = () => {
@@ -81,6 +80,12 @@ watch(
                   <NuxtLink :to="`/@${data?.profile?.username}`">
                     <Icon name="lucide:user" class="mr-2 h-4 w-4" />
                     {{ data?.profile?.username }}
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
+                  <NuxtLink to="/chat">
+                    <Icon name="lucide:message-square" class="mr-2 h-4 w-4" />
+                    Messages
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>

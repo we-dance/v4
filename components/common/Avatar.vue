@@ -17,5 +17,13 @@ const avatarUrl = computed(() => {
 </script>
 
 <template>
-  <img :src="avatarUrl" alt="profile avatar" class="bg-white" />
+  <img
+    v-if="avatarUrl"
+    :src="avatarUrl"
+    alt="profile avatar"
+    class="bg-white"
+  />
+  <div v-else>
+    <div class="bg-foreground h-8 w-8 rounded-full"></div>
+  </div>
 </template>

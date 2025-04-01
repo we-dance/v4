@@ -9,7 +9,7 @@ export interface DanceStyle {
 export const getDanceStyles = (): DanceStyle[] => [
   // Latin
   {
-    name: 'Casino',
+    name: 'Salsa',
     image: 'https://img.youtube.com/vi/R7E9cNydevg/hqdefault.jpg',
     to: '/dance/casino',
     members: 754,
