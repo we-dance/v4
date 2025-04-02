@@ -23,7 +23,7 @@ const getCourse = async () => {
     })
     course.value = result
   } catch (error) {
-    toast.error('Failed to load course')
+    toast.error((error as Error).message)
     router.push('/admin/courses')
   } finally {
     loading.value = false

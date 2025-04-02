@@ -166,8 +166,6 @@ export const coursesRouter = router({
         where: { slug },
         data: {
           ...data,
-          // If name changed, generate new slug
-          ...(data.name && { slug: getSlug(data.name) + '-' + nanoid(5) }),
         },
       })
 
