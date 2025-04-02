@@ -15,12 +15,13 @@ export function useStripeCheckout() {
   async function redirectToCheckout(params: {
     courseId: string
     courseName: string
-    offerId: string
-  }) {
+    offeringId: string
+  }): Promise<string | undefined> {
+    let url = ''
     if (!isLoggedIn.value) {
       toast.error('You must be logged in to subscribe')
       error.value = 'You must be logged in to subscribe'
-      return
+      return url
     }
 
     isLoading.value = true
@@ -31,14 +32,15 @@ export function useStripeCheckout() {
       // Create checkout session
       const result = await trpc.subscriptions.createCheckoutSession.mutate({
         courseId: params.courseId,
-        offeringId: params.offerId,
+        offeringId: params.offeringId,
         successUrl: `${window.location.origin}/courses/${params.courseId}/success`,
         cancelUrl: `${window.location.origin}/courses/${params.courseId}`,
       })
 
       // Redirect to checkout
       if (result?.url) {
-        window.location.href = result.url
+        // window.location.href = result.url
+        url = result.url
       } else {
         throw new Error('Failed to create checkout session')
       }
@@ -49,6 +51,7 @@ export function useStripeCheckout() {
     } finally {
       isLoading.value = false
       loadingStripeCourseId.value = null
+      return url
     }
   }
 

@@ -9,12 +9,11 @@ import {
 
 const props = defineProps<{
   course: any
-  onSubscribe: (offerId: string) => Promise<void>
+  onSubscribe: (offeringId: string) => Promise<void>
 }>()
 const emit = defineEmits(['close'])
-const { stripeUrl, handleStripeCheckout } = useStripeCheckout()
 const isLoading = ref(false)
-const loadingStripeCourseId = ref('')
+const loadingOfferingId = ref('')
 
 // Return the dialog to hide it after action
 function close() {
@@ -54,10 +53,10 @@ function close() {
             </div>
             <Button
               class="w-full mt-4"
-              :disabled="isLoading && loadingStripeCourseId === course.id"
+              :disabled="isLoading && loadingOfferingId === course.id"
               @click="onSubscribe(offer.id)"
             >
-              <template v-if="isLoading && loadingStripeCourseId === course.id">
+              <template v-if="isLoading && loadingOfferingId === course.id">
                 <Icon name="ph:spinner" class="mr-2 h-4 w-4 animate-spin" />
                 Processing...
               </template>
