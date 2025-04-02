@@ -85,21 +85,17 @@ const onSubmit = form.handleSubmit(async (values) => {
     </div>
 
     <Card v-if="loading">
-      <div class="flex justify-center items-center p-8">
-        <Spinner />
+      <div class="text-center py-12">
+        <p>Loading course...</p>
       </div>
     </Card>
 
-    <form v-else-if="course" @submit="onSubmit" class="space-y-8">
+    <div v-else-if="course" class="space-y-8">
       <CourseEditor v-model="course" />
       <CourseModulesEditor v-model="course.modules" />
       <CourseResourcesEditor v-model="course.resources" />
       <CourseOffersEditor v-model="course.offers" />
-
-      <div class="flex justify-end gap-4">
-        <Button type="submit">Save Changes</Button>
-      </div>
-    </form>
+    </div>
 
     <Card v-else>
       <div class="flex justify-center items-center p-8 text-muted-foreground">

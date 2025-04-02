@@ -88,7 +88,7 @@
   },
   "lint-staged": {
     "*.{js,ts,mjs,cjs,vue,json,.*rc}": [
-      "npx prettier --write ."
+      "prettier --write"
     ]
   }
 }

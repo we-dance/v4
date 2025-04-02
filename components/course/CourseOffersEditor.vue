@@ -3,7 +3,8 @@ const offers = defineModel()
 const dialog = useDialog()
 
 const handleAddOffer = (values) => {
-  offers.value = [...(offers.value || []), values]
+  const newOffers = [...(offers.value || []), values]
+  offers.value = newOffers
 }
 
 const handleEditOffer = (index, values) => {

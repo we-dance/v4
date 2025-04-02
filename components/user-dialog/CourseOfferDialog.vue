@@ -41,8 +41,8 @@ const emit = defineEmits<{
 const onSubmit = form.handleSubmit(
   async (values) => {
     try {
-      emit('close')
       props.onSuccess?.(values)
+      emit('close')
     } catch (error) {
       toast.error('Failed to save offer')
     }
