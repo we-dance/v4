@@ -27,6 +27,22 @@ const additionalStylesCount = computed(() => {
   }
   return props.artist.styles.length - 4
 })
+
+// Extract language codes from either languages array or locales object
+const artistLanguages = computed(() => {
+  if (props.artist.languages?.length) {
+    return props.artist.languages
+  }
+
+  if (props.artist.locales) {
+    // Extract keys where value is true
+    return Object.keys(props.artist.locales).filter(
+      (key) => props.artist.locales[key] === true
+    )
+  }
+
+  return []
+})
 </script>
 
 <template>
@@ -109,7 +125,7 @@ const additionalStylesCount = computed(() => {
             <!-- Languages -->
             <div class="flex flex-wrap items-center gap-1.5 mt-2">
               <span
-                v-for="lang in artist.languages"
+                v-for="lang in artistLanguages"
                 :key="lang"
                 class="text-xs text-muted-foreground"
               >
@@ -203,15 +219,21 @@ const additionalStylesCount = computed(() => {
       <div class="flex items-center gap-1.5 shrink-0">
         <Icon name="ph:map-pin" class="h-4 w-4" />
         <span>
-          {{ artist.availability?.currentLocation || artist.location }}
+          {{
+            artist.availability?.currentLocation ||
+            artist.city?.name ||
+            artist.location
+          }}
           <span
             v-if="
               artist.availability?.currentLocation &&
-              artist.location !== artist.availability.currentLocation
+              (artist.city?.name || artist.location) &&
+              artist.availability.currentLocation !==
+                (artist.city?.name || artist.location)
             "
             class="text-xs text-muted-foreground/70"
           >
-            (from {{ artist.location }})
+            (from {{ artist.city?.name || artist.location }})
           </span>
         </span>
       </div>

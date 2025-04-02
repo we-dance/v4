@@ -290,6 +290,7 @@ export const profilesRouter = router({
               style: true,
             },
           },
+          city: true,
         },
         skip,
         take: limit,

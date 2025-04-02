@@ -188,7 +188,10 @@ const showServices = computed(() =>
 const locationOptions = computed(() => {
   const locations = new Set(
     artists.value.map(
-      (artist) => artist.availability?.currentLocation || artist.location
+      (artist) =>
+        artist.availability?.currentLocation ||
+        artist.city?.name ||
+        artist.location
     )
   )
   return [
@@ -199,9 +202,22 @@ const locationOptions = computed(() => {
 
 // Get unique languages from artists
 const languageOptions = computed(() => {
-  const languages = new Set(
-    artists.value.flatMap((artist) => artist.languages || [])
-  )
+  const languages = new Set()
+
+  artists.value.forEach((artist) => {
+    // Add languages from languages array
+    if (artist.languages?.length) {
+      artist.languages.forEach((lang) => languages.add(lang))
+    }
+
+    // Add languages from locales object
+    if (artist.locales) {
+      Object.keys(artist.locales)
+        .filter((key) => artist.locales[key] === true)
+        .forEach((lang) => languages.add(lang))
+    }
+  })
+
   return [
     { value: 'all', label: 'All Languages' },
     ...Array.from(languages).map((lang) => ({ value: lang, label: lang })),
@@ -244,9 +260,19 @@ const filteredResults = computed(() => {
 
   // Language filter
   if (selectedLanguage.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.languages?.includes(selectedLanguage.value)
-    )
+    filtered = filtered.filter((artist) => {
+      // Check in languages array
+      if (artist.languages?.includes(selectedLanguage.value)) {
+        return true
+      }
+
+      // Check in locales object
+      if (artist.locales && artist.locales[selectedLanguage.value] === true) {
+        return true
+      }
+
+      return false
+    })
   }
 
   // Availability filter
