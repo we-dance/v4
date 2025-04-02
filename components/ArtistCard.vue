@@ -1,9 +1,32 @@
 <script setup lang="ts">
 import type { ArtistProfile } from '~/schemas/profile'
 
-defineProps<{
+const props = defineProps<{
   artist: ArtistProfile
 }>()
+
+const avatarUrl = computed(() => {
+  if (props?.artist?.photo) {
+    return props.artist.photo
+  } else {
+    return 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + props.artist.id
+  }
+})
+
+// Limit styles to the first 4, with an indicator for any additional ones
+const visibleStyles = computed(() => {
+  if (!props.artist.styles || props.artist.styles.length <= 4) {
+    return props.artist.styles || []
+  }
+  return props.artist.styles.slice(0, 4)
+})
+
+const additionalStylesCount = computed(() => {
+  if (!props.artist.styles || props.artist.styles.length <= 4) {
+    return 0
+  }
+  return props.artist.styles.length - 4
+})
 </script>
 
 <template>
@@ -15,8 +38,8 @@ defineProps<{
       <!-- Card Header with Image and Basic Info -->
       <div class="p-4 flex gap-4">
         <div class="flex-shrink-0">
-          <img
-            :src="artist.image"
+          <NuxtImg
+            :src="avatarUrl"
             :alt="artist.name"
             class="h-16 w-16 rounded-full object-cover"
             loading="lazy"
@@ -53,6 +76,36 @@ defineProps<{
               </Badge>
             </div>
 
+            <!-- Styles -->
+            <div
+              v-if="artist.styles?.length"
+              class="flex flex-wrap gap-1.5 mt-2"
+            >
+              <Badge
+                v-for="styleItem in visibleStyles"
+                :key="styleItem.styleId"
+                variant="outline"
+                class="text-xs"
+              >
+                {{ styleItem.style?.name }}
+              </Badge>
+              <Badge
+                v-if="additionalStylesCount > 0"
+                variant="outline"
+                class="text-xs bg-muted-foreground/10"
+              >
+                +{{ additionalStylesCount }} more
+              </Badge>
+            </div>
+
+            <!-- Bio -->
+            <p
+              v-if="artist.bio"
+              class="mt-2 text-sm text-muted-foreground line-clamp-2"
+            >
+              {{ artist.bio }}
+            </p>
+
             <!-- Languages -->
             <div class="flex flex-wrap items-center gap-1.5 mt-2">
               <span
@@ -65,6 +118,7 @@ defineProps<{
             </div>
 
             <!-- Specialties -->
+            <!-- TODO: Add specialties to the artist profile prisma model -->
             <p
               v-if="artist.specialties?.length"
               class="mt-2 text-sm text-muted-foreground line-clamp-2"
@@ -73,6 +127,7 @@ defineProps<{
             </p>
 
             <!-- Experience -->
+            <!-- TODO: Add experience to the artist profile prisma model -->
             <div
               v-if="artist.experience"
               class="mt-2 text-sm text-muted-foreground"

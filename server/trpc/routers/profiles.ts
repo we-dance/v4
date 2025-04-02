@@ -268,4 +268,34 @@ export const profilesRouter = router({
       take: 5,
     })
   }),
+  artists: publicProcedure
+    .input(
+      z
+        .object({
+          limit: z.number().default(10),
+          page: z.number().default(1),
+        })
+        .optional()
+    )
+    .query(async ({ input }) => {
+      const limit = input?.limit || 10
+      const page = input?.page || 1
+      const skip = (page - 1) * limit
+
+      return await prisma.profile.findMany({
+        where: { type: 'Artist' },
+        include: {
+          styles: {
+            include: {
+              style: true,
+            },
+          },
+        },
+        skip,
+        take: limit,
+        orderBy: {
+          createdAt: 'desc',
+        },
+      })
+    }),
 })

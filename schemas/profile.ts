@@ -46,7 +46,20 @@ export const profileSchema = z.object({
   location: z.string().optional(),
   bio: z.string().optional(),
   languages: z.array(z.string()).default([]),
-  styles: z.array(z.string()).default([]),
+  styles: z
+    .array(
+      z.object({
+        styleId: z.string(),
+        level: z.string(),
+        style: z
+          .object({
+            id: z.string(),
+            name: z.string(),
+          })
+          .optional(),
+      })
+    )
+    .default([]),
   level: z.enum(['beginner', 'intermediate', 'advanced', 'master']).optional(),
   verified: z.boolean().default(false),
   socialLinks: z

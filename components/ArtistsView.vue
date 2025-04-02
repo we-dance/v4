@@ -1,9 +1,76 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import ArtistCard from '@/components/ArtistCard.vue'
-import { mockArtists } from '@/data/mockArtists'
+import { trpc } from '~/composables/trpc'
 
-const artists = mockArtists
+// Reactive state for API data
+const result = ref(null)
+const loading = ref(true)
+const loadingMore = ref(false)
+const error = ref(null)
+
+// Pagination
+const limit = ref(9)
+const page = ref(1)
+const hasMore = ref(false)
+
+// Fetch artists data
+async function fetchArtists() {
+  loading.value = true
+  error.value = null
+  try {
+    const response = await trpc.profiles.artists.query({
+      limit: limit.value,
+      page: 1,
+    })
+    result.value = response
+    // If we have more items than our limit, assume there are more to load
+    hasMore.value = response.length >= limit.value
+    console.log('Artists data:', result.value)
+  } catch (e) {
+    console.error('API error:', e)
+    error.value = e?.message || 'Failed to fetch artists'
+    result.value = null
+    hasMore.value = false
+  } finally {
+    loading.value = false
+  }
+}
+
+// Load more artists
+async function loadMore() {
+  if (loadingMore.value) return
+
+  loadingMore.value = true
+  page.value++
+
+  try {
+    const nextPage = await trpc.profiles.artists.query({
+      limit: limit.value,
+      page: page.value,
+    })
+
+    if (nextPage && nextPage.length > 0) {
+      result.value = [...(result.value || []), ...nextPage]
+      hasMore.value = nextPage.length >= limit.value
+    } else {
+      hasMore.value = false
+    }
+  } catch (e) {
+    console.error('Error loading more artists:', e)
+    error.value = `Error loading more results: ${e?.message || 'Unknown error'}`
+  } finally {
+    loadingMore.value = false
+  }
+}
+
+// Fetch artists when component mounts
+onMounted(() => {
+  fetchArtists()
+})
+
+// Access artists data safely
+const artists = computed(() => result.value || [])
 
 // Primary filter states
 const searchQuery = ref('')
@@ -65,11 +132,11 @@ const serviceOptions = computed(() => {
 })
 
 const specialtiesOptions = computed(() => {
-  const roleSpecificSpecialties = artists
+  const roleSpecificSpecialties = artists.value
     .filter(
       (artist) =>
         selectedRole.value === 'all' ||
-        artist.roles.includes(selectedRole.value)
+        artist.roles?.includes(selectedRole.value)
     )
     .flatMap((artist) => artist.specialties || [])
 
@@ -82,10 +149,10 @@ const specialtiesOptions = computed(() => {
 
 const equipmentOptions = computed(() => {
   const equipment = new Set(
-    artists
+    artists.value
       .filter(
         (artist) =>
-          artist.roles.includes('dj') || artist.roles.includes('videographer')
+          artist.roles?.includes('dj') || artist.roles?.includes('videographer')
       )
       .flatMap((artist) => artist.equipment || [])
   )
@@ -97,8 +164,8 @@ const equipmentOptions = computed(() => {
 
 const instrumentOptions = computed(() => {
   const instruments = new Set(
-    artists
-      .filter((artist) => artist.roles.includes('musician'))
+    artists.value
+      .filter((artist) => artist.roles?.includes('musician'))
       .flatMap((artist) => artist.instruments || [])
   )
   return [
@@ -120,7 +187,7 @@ const showServices = computed(() =>
 // Get unique locations from artists
 const locationOptions = computed(() => {
   const locations = new Set(
-    artists.map(
+    artists.value.map(
       (artist) => artist.availability?.currentLocation || artist.location
     )
   )
@@ -132,7 +199,9 @@ const locationOptions = computed(() => {
 
 // Get unique languages from artists
 const languageOptions = computed(() => {
-  const languages = new Set(artists.flatMap((artist) => artist.languages || []))
+  const languages = new Set(
+    artists.value.flatMap((artist) => artist.languages || [])
+  )
   return [
     { value: 'all', label: 'All Languages' },
     ...Array.from(languages).map((lang) => ({ value: lang, label: lang })),
@@ -140,22 +209,22 @@ const languageOptions = computed(() => {
 })
 
 const filteredResults = computed(() => {
-  let filtered = artists
+  let filtered = artists.value
 
   if (searchQuery.value) {
     filtered = filtered.filter(
       (artist) =>
         artist.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-        artist.roles.some((role) =>
+        artist.roles?.some((role) =>
           role.includes(searchQuery.value.toLowerCase())
         ) ||
-        artist.location.toLowerCase().includes(searchQuery.value.toLowerCase())
+        artist.location?.toLowerCase().includes(searchQuery.value.toLowerCase())
     )
   }
 
   if (selectedRole.value !== 'all') {
     filtered = filtered.filter((artist) =>
-      artist.roles.includes(selectedRole.value)
+      artist.roles?.includes(selectedRole.value)
     )
   }
 
@@ -273,9 +342,11 @@ const sortBy = ref('relevance')
 const sortedArtists = computed(() => {
   let results = filteredResults.value
 
+  if (!results) return []
+
   switch (sortBy.value) {
     case 'rating':
-      return [...results].sort((a, b) => b.rating - a.rating)
+      return [...results].sort((a, b) => (b.rating || 0) - (a.rating || 0))
     case 'near':
       // Fake distances from Munich in km
       const distances = {
@@ -296,8 +367,8 @@ const sortedArtists = computed(() => {
       }
 
       return [...results].sort((a, b) => {
-        const locA = a.availability?.currentLocation || a.location
-        const locB = b.availability?.currentLocation || b.location
+        const locA = a.availability?.currentLocation || a.location || ''
+        const locB = b.availability?.currentLocation || b.location || ''
         // If location isn't in our distances map, put it at the end
         const distA = distances[locA]
         const distB = distances[locB]
@@ -517,27 +588,48 @@ const sortedArtists = computed(() => {
 
   <!-- Artists Grid -->
   <div class="p-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-    <ArtistCard
-      v-for="artist in sortedArtists"
-      :key="artist.id"
-      :artist="artist"
-    />
-
-    <!-- Empty State -->
-    <div
-      v-if="sortedArtists.length === 0"
-      class="col-span-full text-center py-12"
-    >
-      <Icon
-        name="ph:user-circle-minus"
-        class="mx-auto h-12 w-12 text-muted-foreground"
-      />
-      <h3 class="mt-2 text-sm font-semibold text-foreground">
-        No artists found
-      </h3>
-      <p class="mt-1 text-sm text-muted-foreground">
-        Try adjusting your search terms or clear the search.
-      </p>
+    <!-- Loading State -->
+    <div v-if="loading" class="col-span-full text-center py-12">
+      <p>Loading artists...</p>
     </div>
+
+    <!-- Error State -->
+    <div v-else-if="error" class="text-red-500 text-center py-4 col-span-full">
+      {{ error }}
+    </div>
+
+    <!-- Artists Display -->
+    <template v-else>
+      <ArtistCard
+        v-for="artist in sortedArtists"
+        :key="artist.id"
+        :artist="artist"
+      />
+
+      <!-- Empty State -->
+      <div
+        v-if="sortedArtists.length === 0"
+        class="col-span-full text-center py-12"
+      >
+        <Icon
+          name="ph:user-circle-minus"
+          class="mx-auto h-12 w-12 text-muted-foreground"
+        />
+        <h3 class="mt-2 text-sm font-semibold text-foreground">
+          No artists found
+        </h3>
+        <p class="mt-1 text-sm text-muted-foreground">
+          Try adjusting your search terms or clear the search.
+        </p>
+      </div>
+    </template>
+  </div>
+
+  <!-- Load More Button -->
+  <div v-if="hasMore && !loading && !error" class="text-center py-8">
+    <Button @click="loadMore" :disabled="loadingMore">
+      <span v-if="loadingMore">Loading...</span>
+      <span v-else>Load More Artists</span>
+    </Button>
   </div>
 </template>
