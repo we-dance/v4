@@ -1,16 +1,35 @@
 <script setup>
-const offers = defineModel()
+import { ref } from 'vue'
+
+const course = defineModel()
 const dialog = useDialog()
 
+const emit = defineEmits(['save'])
+
+const deletedOfferIds = ref([])
+
+const deleteOffer = (id) => {
+  if (id) {
+    deletedOfferIds.value.push(id)
+  }
+  const newOffers = [...(course.value.offers || [])].filter(
+    (offer) => offer.id !== id
+  )
+  course.value.offers = newOffers
+  emit('save', { ...course.value, deletedOfferIds: deletedOfferIds.value })
+}
+
 const handleAddOffer = (values) => {
-  const newOffers = [...(offers.value || []), values]
-  offers.value = newOffers
+  const newOffers = [...(course.value.offers || []), values]
+  course.value.offers = newOffers
+  emit('save', { ...course.value, deletedOfferIds: deletedOfferIds.value })
 }
 
 const handleEditOffer = (index, values) => {
-  const newOffers = [...(offers.value || [])]
+  const newOffers = [...(course.value.offers || [])]
   newOffers[index] = { ...newOffers[index], ...values }
-  offers.value = newOffers
+  course.value.offers = newOffers
+  emit('save', { ...course.value, deletedOfferIds: deletedOfferIds.value })
 }
 
 const openAddOfferDialog = () => {
@@ -42,9 +61,9 @@ const openEditOfferDialog = (offer, index) => {
       >
     </CardHeader>
     <CardContent>
-      <div v-if="offers?.length" class="space-y-4">
+      <div v-if="course.offers?.length" class="space-y-4">
         <div
-          v-for="(offer, index) in offers"
+          v-for="(offer, index) in course.offers"
           :key="offer.id"
           class="flex items-center justify-between"
         >
@@ -54,13 +73,12 @@ const openEditOfferDialog = (offer, index) => {
               {{ offer.price }} {{ offer.currency }} - {{ offer.duration }}
             </p>
           </div>
-          <Button
-            variant="ghost"
-            size="sm"
-            @click="openEditOfferDialog(offer, index)"
-          >
-            Edit Offer
-          </Button>
+          <div class="flex items-center gap-2">
+            <Button size="sm" @click="deleteOffer(offer.id)">Delete</Button>
+            <Button size="sm" @click="openEditOfferDialog(offer, index)">
+              Edit
+            </Button>
+          </div>
         </div>
       </div>
       <div v-else class="text-center py-4 text-muted-foreground">

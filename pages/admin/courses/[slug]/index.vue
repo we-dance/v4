@@ -39,7 +39,16 @@ const schema = z.object({
   coverUrl: z.string().optional(),
   modules: z.array(z.object({})).optional(),
   resources: z.array(z.object({})).optional(),
-  offers: z.array(z.object({})).optional(),
+  offers: z.array(
+    z.object({
+      id: z.string().optional(),
+      name: z.string().min(1),
+      price: z.number().min(0),
+      currency: z.string().min(1),
+      duration: z.string().min(1),
+    })
+  ),
+  deletedOfferIds: z.array(z.string()).optional(),
 })
 
 const form = useForm({
@@ -63,8 +72,7 @@ watch(
   },
   { immediate: true }
 )
-
-const onSubmit = form.handleSubmit(async (values) => {
+const save = async (values: any) => {
   try {
     await $client.courses.update.mutate({
       slug: route.params.slug as string,
@@ -73,9 +81,11 @@ const onSubmit = form.handleSubmit(async (values) => {
     toast.success('Course updated successfully')
     await getCourse()
   } catch (error) {
-    toast.error('Failed to update course')
+    toast.error((error as Error).message)
   }
-})
+}
+
+const onSubmit = form.handleSubmit(save)
 </script>
 
 <template>
@@ -91,10 +101,10 @@ const onSubmit = form.handleSubmit(async (values) => {
     </Card>
 
     <div v-else-if="course" class="space-y-8">
-      <CourseEditor v-model="course" />
+      <CourseEditor v-model="course" @submit="onSubmit" />
       <CourseModulesEditor v-model="course.modules" />
       <CourseResourcesEditor v-model="course.resources" />
-      <CourseOffersEditor v-model="course.offers" />
+      <CourseOffersEditor v-model="course" @save="save" />
     </div>
 
     <Card v-else>

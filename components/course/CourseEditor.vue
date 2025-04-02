@@ -1,5 +1,11 @@
 <script setup>
 const course = defineModel()
+
+const emit = defineEmits(['submit'])
+
+const onSubmit = (values) => {
+  emit('submit', values)
+}
 </script>
 
 <template>
@@ -49,6 +55,10 @@ const course = defineModel()
             <FormMessage />
           </FormItem>
         </FormField>
+
+        <div class="flex justify-end gap-4 mt-4">
+          <Button type="submit">Save Changes</Button>
+        </div>
       </form>
     </CardContent>
   </Card>
