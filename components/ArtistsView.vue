@@ -255,8 +255,9 @@ const filteredResults = computed(() => {
   if (selectedLocation.value !== 'all') {
     filtered = filtered.filter(
       (artist) =>
-        (artist.availability?.currentLocation || artist.location) ===
-        selectedLocation.value
+        (artist.availability?.currentLocation ||
+          artist.location ||
+          artist.city.name) === selectedLocation.value
     )
   }
 
