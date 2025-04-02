@@ -4,10 +4,12 @@ import { formatCurrencyCents } from '~/utils/format'
 
 const { course } = defineProps<{
   course: Course
+  onSelect?: () => void
 }>()
 
 const emit = defineEmits<{
-  (e: 'select', offer: any): void
+  (e: 'select', offer: String): void
+  (e: 'close'): void
 }>()
 
 const getItems = (offer: any) => {
@@ -24,33 +26,27 @@ const getItems = (offer: any) => {
   </DialogHeader>
 
   <div class="space-y-4 py-4">
-    <Button
-      v-for="offer in course.offers"
-      :key="offer.id"
-      variant="outline"
-      class="w-full justify-between h-auto py-4 hover:border-accent"
-      as-child
-    >
-      <NuxtLink :to="`/checkout/${course.slug}?type=course&offer=${offer.id}`">
-        <div class="flex items-center gap-3">
-          <div class="text-left flex-1">
-            <div class="font-bold">{{ offer.name }}</div>
-            <ul class="mt-2 space-y-1">
-              <li
-                v-for="(item, index) in getItems(offer)"
-                :key="index"
-                class="flex items-center gap-2 text-sm text-muted-foreground"
-              >
-                <Icon
-                  name="ph:check"
-                  class="w-3.5 h-3.5 text-accent flex-shrink-0"
-                />
-                {{ item }}
-              </li>
-            </ul>
-          </div>
+    <Button v-for="offer in course.offers" :key="offer.id" variant="outline" @click="
+      () => {
+        onSelect?.()
+        navigateTo(`/checkout/${course.slug}?type=course&offer=${offer.id}`)
+      }
+    " class="w-full h-auto p-4 text-left">
+      <div class="flex items-center justify-between w-full gap-4">
+        <!-- Left: offer details -->
+        <div class="flex-1">
+          <div class="font-bold mb-2">{{ offer.name }}</div>
+          <ul class="space-y-1">
+            <li v-for="(item, index) in offer.items" :key="index"
+              class="flex items-center gap-2 text-sm text-muted-foreground">
+              <Icon name="ph:check" class="w-3.5 h-3.5 text-accent flex-shrink-0" />
+              {{ item }}
+            </li>
+          </ul>
         </div>
-        <div class="text-right">
+
+        <!-- Right: price -->
+        <div class="text-right whitespace-nowrap">
           <div class="font-bold">
             {{ formatCurrencyCents(offer.price, offer.currency) }}
           </div>
@@ -58,7 +54,7 @@ const getItems = (offer: any) => {
             {{ offer.duration === 'P1M' ? 'Monthly' : 'Yearly' }}
           </div>
         </div>
-      </NuxtLink>
+      </div>
     </Button>
 
     <p class="text-xs text-center text-muted-foreground mt-4">

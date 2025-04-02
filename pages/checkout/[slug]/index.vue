@@ -7,6 +7,16 @@ import { useAppAuth } from '~/composables/useAppAuth'
 
 const { redirectToCheckout } = useStripeCheckout()
 const { checkEmail, createAccount, login, isLoading, error } = useRegistration()
+const { user } = useAppAuth()
+
+const { $client } = useNuxtApp()
+const route = useRoute()
+const slug = z.string().parse(route.params.slug)
+// offerId
+const offer = z.string().parse(route.query.offer)
+// find course
+const course = await $client.courses.view.query({ slug })
+const checkoutState = ref<'email' | 'login' | 'register'>('email')
 
 const { $client } = useNuxtApp()
 const route = useRoute()
@@ -82,11 +92,8 @@ const handleSubmit = async () => {
         <div class="bg-background rounded-xl border p-6">
           <div class="flex gap-6">
             <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
-              <img
-                :src="course.coverUrl || '/images/placeholder.jpg'"
-                :alt="course.name"
-                class="w-full h-full object-cover"
-              />
+              <img :src="course.coverUrl || '/images/placeholder.jpg'" :alt="course.name"
+                class="w-full h-full object-cover" />
             </div>
             <div>
               <h2 class="text-xl font-bold">{{ course.name }}</h2>
@@ -100,24 +107,14 @@ const handleSubmit = async () => {
           </div>
         </div>
 
-        <form
-          @submit.prevent="
-            checkoutState === 'email' ? handleEmailCheck() : handleSubmit()
-          "
-          class="bg-background rounded-xl border p-6"
-        >
+        <form @submit.prevent="
+          checkoutState === 'email' ? handleEmailCheck() : handleSubmit()
+          " class="bg-background rounded-xl border p-6">
           <div class="space-y-6">
             <div v-if="checkoutState === 'email'">
-              <label class="block text-sm font-medium text-foreground mb-2"
-                >Email</label
-              >
-              <input
-                v-model="formData.email"
-                type="email"
-                required
-                class="w-full px-4 py-2 border rounded-lg"
-                placeholder="Enter your email to continue"
-              />
+              <label class="block text-sm font-medium text-foreground mb-2">Email</label>
+              <input v-model="formData.email" type="email" required class="w-full px-4 py-2 border rounded-lg"
+                placeholder="Enter your email to continue" />
               <div class="mt-6">
                 <Button type="submit" :disabled="isLoading" class="w-full">
                   <template v-if="isLoading">Checking...</template>
@@ -130,15 +127,8 @@ const handleSubmit = async () => {
               <p class="text-sm text-muted-foreground">
                 Welcome back! Please log in to continue.
               </p>
-              <label class="block text-sm font-medium text-foreground mb-2"
-                >Password</label
-              >
-              <input
-                v-model="formData.password"
-                type="password"
-                required
-                class="w-full px-4 py-2 border rounded-lg"
-              />
+              <label class="block text-sm font-medium text-foreground mb-2">Password</label>
+              <input v-model="formData.password" type="password" required class="w-full px-4 py-2 border rounded-lg" />
               <Button type="submit" :disabled="isLoading" class="w-full">
                 <template v-if="isLoading">Logging in...</template>
                 <template v-else>Log in</template>
@@ -150,30 +140,13 @@ const handleSubmit = async () => {
                 Create your account to join our dance community
               </p>
               <UserTypeSelect v-model="formData.userType" />
-              <NameFields
-                v-model:firstName="formData.firstName"
-                v-model:lastName="formData.lastName"
-              />
-              <label class="block text-sm font-medium text-foreground mb-2"
-                >Phone</label
-              >
-              <input
-                v-model="formData.phone"
-                type="tel"
-                required
-                class="w-full px-4 py-2 border rounded-lg"
-                placeholder="Enter your phone number"
-              />
-              <label class="block text-sm font-medium text-foreground mb-2"
-                >Password</label
-              >
-              <input
-                v-model="formData.password"
-                type="password"
-                required
-                class="w-full px-4 py-2 border rounded-lg"
-                placeholder="Create a password"
-              />
+              <NameFields v-model:firstName="formData.firstName" v-model:lastName="formData.lastName" />
+              <label class="block text-sm font-medium text-foreground mb-2">Phone</label>
+              <input v-model="formData.phone" type="tel" required class="w-full px-4 py-2 border rounded-lg"
+                placeholder="Enter your phone number" />
+              <label class="block text-sm font-medium text-foreground mb-2">Password</label>
+              <input v-model="formData.password" type="password" required class="w-full px-4 py-2 border rounded-lg"
+                placeholder="Create a password" />
               <TermsCheckbox v-model="formData.terms" />
               <div v-if="error" class="text-destructive text-sm">
                 {{ error }}
@@ -191,10 +164,7 @@ const handleSubmit = async () => {
 
   <div v-else class="min-h-screen flex items-center justify-center">
     <div class="text-center">
-      <Icon
-        name="ph:video-camera-slash"
-        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
-      />
+      <Icon name="ph:video-camera-slash" class="w-16 h-16 text-muted-foreground mx-auto mb-4" />
       <h2 class="text-2xl font-bold text-foreground mb-2">Course Not Found</h2>
       <p class="text-muted-foreground mb-6">
         The course you're looking for doesn't exist or has been removed.
