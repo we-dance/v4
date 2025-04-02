@@ -26,7 +26,6 @@ async function fetchArtists() {
     result.value = response
     // If we have more items than our limit, assume there are more to load
     hasMore.value = response.length >= limit.value
-    console.log('Artists data:', result.value)
   } catch (e) {
     console.error('API error:', e)
     error.value = e?.message || 'Failed to fetch artists'
