@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue'
 import ArtistCard from '@/components/ArtistCard.vue'
 import { trpc } from '~/composables/trpc'
+import { toast } from 'vue-sonner'
 
 // Reactive state for API data
 const result = ref(null)
@@ -28,6 +29,7 @@ async function fetchArtists() {
     hasMore.value = response.length >= limit.value
   } catch (e) {
     console.error('API error:', e)
+    toast.error(`Failed to fetch artists: ${e?.message || 'Unknown error'}`)
     error.value = e?.message || 'Failed to fetch artists'
     result.value = null
     hasMore.value = false
@@ -57,6 +59,7 @@ async function loadMore() {
     }
   } catch (e) {
     console.error('Error loading more artists:', e)
+    toast.error(`Failed to load more artists: ${e?.message || 'Unknown error'}`)
     error.value = `Error loading more results: ${e?.message || 'Unknown error'}`
   } finally {
     loadingMore.value = false
