@@ -63,7 +63,7 @@ const artistLanguages = computed(() => {
         </div>
 
         <div class="min-w-0 flex-1">
-          <NuxtLink :to="`/artists/${artist.id}`" class="focus:outline-none">
+          <NuxtLink :to="`/@${artist.username}`" class="focus:outline-none">
             <span class="absolute inset-0" aria-hidden="true" />
 
             <!-- Name and Master Badge -->
