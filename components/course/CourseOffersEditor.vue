@@ -1,5 +1,35 @@
 <script setup>
 const offers = defineModel()
+const dialog = useDialog()
+
+const handleAddOffer = (values) => {
+  offers.value = [...(offers.value || []), values]
+}
+
+const handleEditOffer = (index, values) => {
+  const newOffers = [...(offers.value || [])]
+  newOffers[index] = { ...newOffers[index], ...values }
+  offers.value = newOffers
+}
+
+const openAddOfferDialog = () => {
+  dialog.open({
+    component: 'CourseOfferDialog',
+    props: {
+      onSuccess: handleAddOffer,
+    },
+  })
+}
+
+const openEditOfferDialog = (offer, index) => {
+  dialog.open({
+    component: 'CourseOfferDialog',
+    props: {
+      offer,
+      onSuccess: (values) => handleEditOffer(index, values),
+    },
+  })
+}
 </script>
 
 <template>
@@ -13,7 +43,7 @@ const offers = defineModel()
     <CardContent>
       <div v-if="offers?.length" class="space-y-4">
         <div
-          v-for="offer in offers"
+          v-for="(offer, index) in offers"
           :key="offer.id"
           class="flex items-center justify-between"
         >
@@ -23,14 +53,20 @@ const offers = defineModel()
               {{ offer.price }} {{ offer.currency }} - {{ offer.duration }}
             </p>
           </div>
-          <Button variant="ghost" size="sm">Edit Offer</Button>
+          <Button
+            variant="ghost"
+            size="sm"
+            @click="openEditOfferDialog(offer, index)"
+          >
+            Edit Offer
+          </Button>
         </div>
       </div>
       <div v-else class="text-center py-4 text-muted-foreground">
         No offers added yet
       </div>
       <div class="mt-4">
-        <Button variant="outline">Add Offer</Button>
+        <Button variant="outline" @click="openAddOfferDialog">Add Offer</Button>
       </div>
     </CardContent>
   </Card>
