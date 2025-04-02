@@ -28,7 +28,7 @@ const handleStripeCheckout = async (
   }
 }
 
-export const useStripeCheckout = () => {
+export const useStripePayment = () => {
   return {
     stripeUrl,
     handleStripeCheckout
