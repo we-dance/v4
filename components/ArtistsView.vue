@@ -15,7 +15,6 @@ const limit = ref(9)
 const page = ref(1)
 const hasMore = ref(false)
 
-// Fetch artists data
 async function fetchArtists() {
   loading.value = true
   error.value = null
@@ -38,7 +37,6 @@ async function fetchArtists() {
   }
 }
 
-// Load more artists
 async function loadMore() {
   if (loadingMore.value) return
 
@@ -66,12 +64,10 @@ async function loadMore() {
   }
 }
 
-// Fetch artists when component mounts
 onMounted(() => {
   fetchArtists()
 })
 
-// Access artists data safely
 const artists = computed(() => result.value || [])
 
 // Primary filter states

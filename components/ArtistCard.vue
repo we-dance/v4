@@ -35,7 +35,6 @@ const artistLanguages = computed(() => {
   }
 
   if (props.artist.locales) {
-    // Extract keys where value is true
     return Object.keys(props.artist.locales).filter(
       (key) => props.artist.locales[key] === true
     )
