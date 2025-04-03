@@ -44,9 +44,31 @@ export const profileSchema = z.object({
     .default('dancer'),
   roles: z.array(z.string()).default([]),
   location: z.string().optional(),
+  city: z
+    .object({
+      id: z.string(),
+      name: z.string(),
+      countryCode: z.string().optional(),
+      slug: z.string().optional(),
+    })
+    .optional(),
   bio: z.string().optional(),
   languages: z.array(z.string()).default([]),
-  styles: z.array(z.string()).default([]),
+  locales: z.record(z.string(), z.boolean()).optional(),
+  styles: z
+    .array(
+      z.object({
+        styleId: z.string(),
+        level: z.string(),
+        style: z
+          .object({
+            id: z.string(),
+            name: z.string(),
+          })
+          .optional(),
+      })
+    )
+    .default([]),
   level: z.enum(['beginner', 'intermediate', 'advanced', 'master']).optional(),
   verified: z.boolean().default(false),
   socialLinks: z
@@ -133,7 +155,6 @@ export const profileSchema = z.object({
     }),
   visibility: z.string().default('Public'),
   timezone: z.string().optional(),
-  locales: z.any().optional(),
   gender: z.string().optional(),
   birthday: z.date().optional(),
   objectives: z.any().optional(),
