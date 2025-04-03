@@ -10,17 +10,31 @@ logs:
 	docker compose logs -f
 
 build:
-	docker compose build
-
-stop:
-	docker compose down
+	docker compose -f docker-compose.full.yml build --no-cache
 
 start:
+	docker compose -f docker-compose.full.yml up -d
+	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
+	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
+	docker compose -f docker-compose.full.yml exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
+	docker compose -f docker-compose.full.yml logs -f
+
+stop:
+	docker compose -f docker-compose.full.yml down
+
+db-start:
 	docker compose up -d
-	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
-	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
-	docker compose exec db sh -c 'psql -U user -d db -c "SELECT * FROM pg_extension;"'
-	docker compose logs -f
+
+dev:
+	pnpm i
+	pnpm prisma generate
+	pnpm dev
+
+db-stop:
+	docker compose down
+
+db-reset:
+	pnpm prisma db push --force-reset
 
 sh:
 	docker compose exec app sh

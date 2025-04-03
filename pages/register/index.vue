@@ -14,7 +14,7 @@
 
       <div class="text-center text-sm text-muted-foreground mt-6">
         Already have an account?
-        <NuxtLink to="/login" class="text-primary hover:text-primary/80">
+        <NuxtLink to="/login" class="text-info hover:underline">
           Sign in
         </NuxtLink>
       </div>
