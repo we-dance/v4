@@ -25,7 +25,7 @@ async function fetchArtists() {
         selectedLocation.value !== 'all' ? selectedLocation.value : undefined,
       language:
         selectedLanguage.value !== 'all' ? selectedLanguage.value : undefined,
-      search: searchQuery.value || undefined,
+      query: searchQuery.value || undefined,
     }
 
     Object.keys(queryParams).forEach(
@@ -71,7 +71,7 @@ async function loadMore() {
         selectedLocation.value !== 'all' ? selectedLocation.value : undefined,
       language:
         selectedLanguage.value !== 'all' ? selectedLanguage.value : undefined,
-      search: searchQuery.value || undefined,
+      query: searchQuery.value || undefined,
     }
 
     Object.keys(queryParams).forEach(
