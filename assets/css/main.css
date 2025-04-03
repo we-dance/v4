@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --dark: 0 0% 12%;
 }
