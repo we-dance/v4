@@ -319,7 +319,7 @@ export const profilesRouter = router({
           role: z.string().optional(),
           location: z.string().optional(),
           language: z.string().optional(),
-          search: z.string().optional(),
+          query: z.string().optional(),
         })
         .optional()
     )
@@ -351,9 +351,9 @@ export const profilesRouter = router({
         }
       }
 
-      if (input?.search) {
+      if (input?.query) {
         whereConditions.name = {
-          contains: input.search,
+          contains: input.query,
           mode: 'insensitive',
         }
       }
