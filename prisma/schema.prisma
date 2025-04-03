@@ -6,12 +6,6 @@ generator client {
   previewFeatures = ["fullTextSearch", "relationJoins"]
 }
 
-generator zod {
-  provider          = "prisma-zod-generator"
-  isGenerateSelect  = true
-  isGenerateInclude = true
-}
-
 datasource db {
   // NOTE: You probably want to change this to another database later on
   provider = "postgres"
