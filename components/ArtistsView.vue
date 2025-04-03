@@ -4,13 +4,11 @@ import ArtistCard from '@/components/ArtistCard.vue'
 import { trpc } from '~/composables/trpc'
 import { toast } from 'vue-sonner'
 
-// Reactive state for API data
 const result = ref(null)
 const loading = ref(true)
 const loadingMore = ref(false)
 const error = ref(null)
 
-// Pagination
 const limit = ref(9)
 const page = ref(1)
 const hasMore = ref(false)
@@ -19,7 +17,6 @@ async function fetchArtists() {
   loading.value = true
   error.value = null
   try {
-    // Prepare query parameters with filters
     const queryParams = {
       limit: limit.value,
       page: 1,
@@ -31,7 +28,6 @@ async function fetchArtists() {
       search: searchQuery.value || undefined,
     }
 
-    // Clean undefined values
     Object.keys(queryParams).forEach(
       (key) => queryParams[key] === undefined && delete queryParams[key]
     )
@@ -40,7 +36,6 @@ async function fetchArtists() {
 
     const response = await trpc.profiles.artists.query(queryParams)
 
-    // Use the new response structure
     result.value = response.artists
     hasMore.value = response.hasMore
 
@@ -68,7 +63,6 @@ async function loadMore() {
   page.value++
 
   try {
-    // Include the same filters as the initial query
     const queryParams = {
       limit: limit.value,
       page: page.value,
@@ -80,7 +74,6 @@ async function loadMore() {
       search: searchQuery.value || undefined,
     }
 
-    // Clean undefined values
     Object.keys(queryParams).forEach(
       (key) => queryParams[key] === undefined && delete queryParams[key]
     )
@@ -113,21 +106,18 @@ async function loadMore() {
 
 onMounted(() => {
   fetchArtists()
-  fetchLocations() // Fetch all available locations separately
-  fetchLanguages() // Fetch all available languages separately
+  fetchLocations()
+  fetchLanguages()
 })
 
 const artists = computed(() => result.value || [])
 
-// Primary filter states
 const searchQuery = ref('')
-const selectedRole = ref('') // Empty string means no role filter applied
+const selectedRole = ref('')
 const selectedLocation = ref('all')
 const selectedLanguage = ref('all')
 
-// Watch filter changes to trigger refetch
 watch([selectedRole, selectedLocation, selectedLanguage], () => {
-  // Reset pagination when filters change
   page.value = 1
   console.log('Filter changed:', {
     role: selectedRole.value,
@@ -137,33 +127,27 @@ watch([selectedRole, selectedLocation, selectedLanguage], () => {
   fetchArtists()
 })
 
-// Watch search query with debounce
 let searchTimeout = null
 watch(searchQuery, () => {
-  // Clear previous timeout
   if (searchTimeout) {
     clearTimeout(searchTimeout)
   }
 
-  // Set new timeout (debounce)
   searchTimeout = setTimeout(() => {
     page.value = 1
     fetchArtists()
-  }, 300) // 300ms debounce
+  }, 300)
 })
 
-// Secondary filter states
 const selectedLevel = ref('all')
 const selectedSpecialty = ref('all')
 const showAvailable = ref(false)
 
-// Role-specific filter states
 const selectedTeachingLevel = ref('all')
 const selectedEquipment = ref('all')
 const selectedInstruments = ref('all')
 const selectedServices = ref([])
 
-// Filter options
 const roleOptions = [
   { value: 'instructor', label: 'Instructors' },
   { value: 'performer', label: 'Performers' },
@@ -186,7 +170,6 @@ const teachingLevelOptions = [
   { value: 'advanced', label: 'Advanced Classes' },
 ]
 
-// Dynamic filter options based on role
 const serviceOptions = computed(() => {
   switch (selectedRole.value) {
     case 'instructor':
@@ -246,7 +229,6 @@ const instrumentOptions = computed(() => {
   ]
 })
 
-// Show filters based on role
 const showTeachingLevels = computed(() => selectedRole.value === 'instructor')
 const showEquipment = computed(() =>
   ['dj', 'videographer'].includes(selectedRole.value)
@@ -256,7 +238,6 @@ const showServices = computed(() =>
   ['instructor', 'videographer'].includes(selectedRole.value)
 )
 
-// Get unique locations from the backend
 const allLocations = ref([])
 const locationOptions = computed(() => {
   return [
@@ -265,7 +246,6 @@ const locationOptions = computed(() => {
   ]
 })
 
-// Fetch all available locations
 const loadingLocations = ref(false)
 async function fetchLocations() {
   loadingLocations.value = true
@@ -274,14 +254,11 @@ async function fetchLocations() {
     allLocations.value = locations || []
   } catch (e) {
     console.error('Error fetching locations:', e)
-    // Don't show an error toast here to avoid overwhelming the user
-    // Just log to console
   } finally {
     loadingLocations.value = false
   }
 }
 
-// Get unique languages from the backend
 const allLanguages = ref([])
 const loadingLanguages = ref(false)
 const languageOptions = computed(() => {
@@ -291,7 +268,6 @@ const languageOptions = computed(() => {
   ]
 })
 
-// Fetch all available languages
 async function fetchLanguages() {
   loadingLanguages.value = true
   try {
@@ -299,8 +275,6 @@ async function fetchLanguages() {
     allLanguages.value = languages || []
   } catch (e) {
     console.error('Error fetching languages:', e)
-    // Don't show an error toast here to avoid overwhelming the user
-    // Just log to console
   } finally {
     loadingLanguages.value = false
   }
@@ -310,7 +284,6 @@ const filteredResults = computed(() => artists.value)
 
 const hasActiveFilters = computed(() => {
   return (
-    // Only count the filters that are actually working
     selectedRole.value ||
     selectedLocation.value !== 'all' ||
     selectedLanguage.value !== 'all' ||
@@ -320,24 +293,19 @@ const hasActiveFilters = computed(() => {
 })
 
 function clearFilters() {
-  // Only reset active filters
   selectedLocation.value = 'all'
   selectedLanguage.value = 'all'
   searchQuery.value = ''
   sortBy.value = 'relevance'
 
-  // Reset role filter
   selectedRole.value = ''
 
-  // Reset pagination and refetch
   page.value = 1
 
-  // If the search panel is open, close it
   if (showSearch.value) {
     toggleSearch()
   }
 
-  // Refetch with cleared filters
   fetchArtists()
 }
 
@@ -349,24 +317,19 @@ function toggleService(service) {
   }
 }
 
-// Toggle search visibility
 const showSearch = ref(false)
 const searchInput = ref(null)
 
-// Function to toggle search and focus the input when visible
 function toggleSearch() {
   showSearch.value = !showSearch.value
 
-  // Focus the search input when it becomes visible
   if (showSearch.value) {
-    // Use nextTick to wait for the DOM to update before focusing
     nextTick(() => {
       if (searchInput.value) {
         searchInput.value.focus()
       }
     })
   } else {
-    // Clear search when hiding
     searchQuery.value = ''
   }
 }
@@ -377,10 +340,8 @@ const sortedArtists = computed(() => filteredResults.value)
 </script>
 
 <template>
-  <!-- Add background to filters -->
   <div class="bg-muted">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
-      <!-- Role Filter with Search -->
       <div class="flex items-center gap-4 overflow-x-auto">
         <div class="flex gap-2 flex-1">
           <Button
@@ -544,13 +505,11 @@ const sortedArtists = computed(() => filteredResults.value)
         </div>
       </div>
 
-      <!-- Role-Specific Filters -->
       <div v-if="selectedRole" class="space-y-4 pt-4 border-t opacity-50">
         <div class="text-xs text-muted-foreground mb-2">
           Additional filters coming soon
         </div>
         <div class="flex flex-wrap items-center gap-3">
-          <!-- Teaching Levels -->
           <Select
             v-if="showTeachingLevels"
             v-model="selectedTeachingLevel"
@@ -571,7 +530,6 @@ const sortedArtists = computed(() => filteredResults.value)
             </SelectContent>
           </Select>
 
-          <!-- Equipment -->
           <Select v-if="showEquipment" v-model="selectedEquipment" disabled>
             <SelectTrigger class="w-[180px] cursor-not-allowed">
               <SelectValue placeholder="Equipment" />
@@ -588,7 +546,6 @@ const sortedArtists = computed(() => filteredResults.value)
             </SelectContent>
           </Select>
 
-          <!-- Instruments -->
           <Select v-if="showInstruments" v-model="selectedInstruments" disabled>
             <SelectTrigger class="w-[160px] cursor-not-allowed">
               <SelectValue placeholder="Instruments" />
@@ -605,7 +562,6 @@ const sortedArtists = computed(() => filteredResults.value)
             </SelectContent>
           </Select>
 
-          <!-- Specialties -->
           <Select v-model="selectedSpecialty" disabled>
             <SelectTrigger class="w-[180px] cursor-not-allowed">
               <SelectValue placeholder="Specialty" />
@@ -623,7 +579,6 @@ const sortedArtists = computed(() => filteredResults.value)
           </Select>
         </div>
 
-        <!-- Services Buttons -->
         <div v-if="showServices" class="flex flex-wrap gap-2">
           <Button
             v-for="service in serviceOptions"

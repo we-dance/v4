@@ -13,7 +13,6 @@ const avatarUrl = computed(() => {
   }
 })
 
-// Limit styles to the first 4, with an indicator for any additional ones
 const visibleStyles = computed(() => {
   if (!props.artist.styles || props.artist.styles.length <= 4) {
     return props.artist.styles || []
@@ -28,13 +27,11 @@ const additionalStylesCount = computed(() => {
   return props.artist.styles.length - 4
 })
 
-// Extract language codes from either languages array or locales object
 const artistLanguages = computed(() => {
   if (props.artist.languages?.length) {
     return props.artist.languages
   }
 
-  // Check if locales exists and extract language codes where value is true
   const locales = props.artist.locales
   if (locales) {
     return Object.keys(locales).filter((key) => locales[key] === true)
