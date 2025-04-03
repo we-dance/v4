@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import ArtistCard from '@/components/ArtistCard.vue'
 import { trpc } from '~/composables/trpc'
 import { toast } from 'vue-sonner'
@@ -19,13 +19,37 @@ async function fetchArtists() {
   loading.value = true
   error.value = null
   try {
-    const response = await trpc.profiles.artists.query({
+    // Prepare query parameters with filters
+    const queryParams = {
       limit: limit.value,
       page: 1,
-    })
-    result.value = response
-    // If we have more items than our limit, assume there are more to load
-    hasMore.value = response.length >= limit.value
+      role: selectedRole.value ? selectedRole.value : undefined,
+      location:
+        selectedLocation.value !== 'all' ? selectedLocation.value : undefined,
+      language:
+        selectedLanguage.value !== 'all' ? selectedLanguage.value : undefined,
+      search: searchQuery.value || undefined,
+    }
+
+    // Clean undefined values
+    Object.keys(queryParams).forEach(
+      (key) => queryParams[key] === undefined && delete queryParams[key]
+    )
+
+    console.log('Fetching artists with params:', queryParams)
+
+    const response = await trpc.profiles.artists.query(queryParams)
+
+    // Use the new response structure
+    result.value = response.artists
+    hasMore.value = response.hasMore
+
+    console.log(
+      'Received artists:',
+      response.artists.length,
+      'hasMore:',
+      response.hasMore
+    )
   } catch (e) {
     console.error('API error:', e)
     toast.error(`Failed to fetch artists: ${e?.message || 'Unknown error'}`)
@@ -44,14 +68,37 @@ async function loadMore() {
   page.value++
 
   try {
-    const nextPage = await trpc.profiles.artists.query({
+    // Include the same filters as the initial query
+    const queryParams = {
       limit: limit.value,
       page: page.value,
-    })
+      role: selectedRole.value ? selectedRole.value : undefined,
+      location:
+        selectedLocation.value !== 'all' ? selectedLocation.value : undefined,
+      language:
+        selectedLanguage.value !== 'all' ? selectedLanguage.value : undefined,
+      search: searchQuery.value || undefined,
+    }
 
-    if (nextPage && nextPage.length > 0) {
-      result.value = [...(result.value || []), ...nextPage]
-      hasMore.value = nextPage.length >= limit.value
+    // Clean undefined values
+    Object.keys(queryParams).forEach(
+      (key) => queryParams[key] === undefined && delete queryParams[key]
+    )
+
+    console.log('Loading more with params:', queryParams)
+
+    const nextPageResponse = await trpc.profiles.artists.query(queryParams)
+
+    console.log(
+      'Received more artists:',
+      nextPageResponse.artists.length,
+      'hasMore:',
+      nextPageResponse.hasMore
+    )
+
+    if (nextPageResponse && nextPageResponse.artists.length > 0) {
+      result.value = [...(result.value || []), ...nextPageResponse.artists]
+      hasMore.value = nextPageResponse.hasMore
     } else {
       hasMore.value = false
     }
@@ -66,15 +113,44 @@ async function loadMore() {
 
 onMounted(() => {
   fetchArtists()
+  fetchLocations() // Fetch all available locations separately
+  fetchLanguages() // Fetch all available languages separately
 })
 
 const artists = computed(() => result.value || [])
 
 // Primary filter states
 const searchQuery = ref('')
-const selectedRole = ref('all')
+const selectedRole = ref('') // Empty string means no role filter applied
 const selectedLocation = ref('all')
 const selectedLanguage = ref('all')
+
+// Watch filter changes to trigger refetch
+watch([selectedRole, selectedLocation, selectedLanguage], () => {
+  // Reset pagination when filters change
+  page.value = 1
+  console.log('Filter changed:', {
+    role: selectedRole.value,
+    location: selectedLocation.value,
+    language: selectedLanguage.value,
+  })
+  fetchArtists()
+})
+
+// Watch search query with debounce
+let searchTimeout = null
+watch(searchQuery, () => {
+  // Clear previous timeout
+  if (searchTimeout) {
+    clearTimeout(searchTimeout)
+  }
+
+  // Set new timeout (debounce)
+  searchTimeout = setTimeout(() => {
+    page.value = 1
+    fetchArtists()
+  }, 300) // 300ms debounce
+})
 
 // Secondary filter states
 const selectedLevel = ref('all')
@@ -89,7 +165,6 @@ const selectedServices = ref([])
 
 // Filter options
 const roleOptions = [
-  { value: 'all', label: 'All' },
   { value: 'instructor', label: 'Instructors' },
   { value: 'performer', label: 'Performers' },
   { value: 'choreographer', label: 'Choreographers' },
@@ -133,8 +208,7 @@ const specialtiesOptions = computed(() => {
   const roleSpecificSpecialties = artists.value
     .filter(
       (artist) =>
-        selectedRole.value === 'all' ||
-        artist.roles?.includes(selectedRole.value)
+        !selectedRole.value || artist.roles?.includes(selectedRole.value)
     )
     .flatMap((artist) => artist.specialties || [])
 
@@ -182,174 +256,89 @@ const showServices = computed(() =>
   ['instructor', 'videographer'].includes(selectedRole.value)
 )
 
-// Get unique locations from artists
+// Get unique locations from the backend
+const allLocations = ref([])
 const locationOptions = computed(() => {
-  const locations = new Set(
-    artists.value.map(
-      (artist) =>
-        artist.availability?.currentLocation ||
-        artist.city?.name ||
-        artist.location
-    )
-  )
   return [
     { value: 'all', label: 'All Locations' },
-    ...Array.from(locations).map((loc) => ({ value: loc, label: loc })),
+    ...allLocations.value.map((loc) => ({ value: loc, label: loc })),
   ]
 })
 
-// Get unique languages from artists
+// Fetch all available locations
+const loadingLocations = ref(false)
+async function fetchLocations() {
+  loadingLocations.value = true
+  try {
+    const locations = await trpc.profiles.artistLocations.query()
+    allLocations.value = locations || []
+  } catch (e) {
+    console.error('Error fetching locations:', e)
+    // Don't show an error toast here to avoid overwhelming the user
+    // Just log to console
+  } finally {
+    loadingLocations.value = false
+  }
+}
+
+// Get unique languages from the backend
+const allLanguages = ref([])
+const loadingLanguages = ref(false)
 const languageOptions = computed(() => {
-  const languages = new Set()
-
-  artists.value.forEach((artist) => {
-    // Add languages from languages array
-    if (artist.languages?.length) {
-      artist.languages.forEach((lang) => languages.add(lang))
-    }
-
-    // Add languages from locales object
-    if (artist.locales) {
-      Object.keys(artist.locales)
-        .filter((key) => artist.locales[key] === true)
-        .forEach((lang) => languages.add(lang))
-    }
-  })
-
   return [
     { value: 'all', label: 'All Languages' },
-    ...Array.from(languages).map((lang) => ({ value: lang, label: lang })),
+    ...allLanguages.value.map((lang) => ({ value: lang, label: lang })),
   ]
 })
 
-const filteredResults = computed(() => {
-  let filtered = artists.value
-
-  if (searchQuery.value) {
-    filtered = filtered.filter(
-      (artist) =>
-        artist.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-        artist.roles?.some((role) =>
-          role.includes(searchQuery.value.toLowerCase())
-        ) ||
-        artist.location?.toLowerCase().includes(searchQuery.value.toLowerCase())
-    )
+// Fetch all available languages
+async function fetchLanguages() {
+  loadingLanguages.value = true
+  try {
+    const languages = await trpc.profiles.artistLanguages.query()
+    allLanguages.value = languages || []
+  } catch (e) {
+    console.error('Error fetching languages:', e)
+    // Don't show an error toast here to avoid overwhelming the user
+    // Just log to console
+  } finally {
+    loadingLanguages.value = false
   }
+}
 
-  if (selectedRole.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.roles?.includes(selectedRole.value)
-    )
-  }
-
-  // Level filter
-  if (selectedLevel.value !== 'all') {
-    filtered = filtered.filter((artist) => artist.level === selectedLevel.value)
-  }
-
-  // Location filter
-  if (selectedLocation.value !== 'all') {
-    filtered = filtered.filter(
-      (artist) =>
-        (artist.availability?.currentLocation ||
-          artist.location ||
-          artist.city.name) === selectedLocation.value
-    )
-  }
-
-  // Language filter
-  if (selectedLanguage.value !== 'all') {
-    filtered = filtered.filter((artist) => {
-      // Check in languages array
-      if (artist.languages?.includes(selectedLanguage.value)) {
-        return true
-      }
-
-      // Check in locales object
-      if (artist.locales && artist.locales[selectedLanguage.value] === true) {
-        return true
-      }
-
-      return false
-    })
-  }
-
-  // Availability filter
-  if (showAvailable.value) {
-    filtered = filtered.filter(
-      (artist) =>
-        (artist.availability?.privateClasses ||
-          artist.availability?.workshops) &&
-        (!artist.availability?.touring || artist.availability?.currentLocation)
-    )
-  }
-
-  // Teaching Level filter
-  if (selectedTeachingLevel.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.experience?.teachingLevels?.includes(selectedTeachingLevel.value)
-    )
-  }
-
-  // Specialty filter
-  if (selectedSpecialty.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.specialties?.includes(selectedSpecialty.value)
-    )
-  }
-
-  // Services filter
-  if (selectedServices.value.length > 0) {
-    filtered = filtered.filter((artist) =>
-      selectedServices.value.some((service) => artist.availability?.[service])
-    )
-  }
-
-  // Equipment filter (for DJs and Videographers)
-  if (selectedEquipment.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.equipment?.includes(selectedEquipment.value)
-    )
-  }
-
-  // Instruments filter (for Musicians)
-  if (selectedInstruments.value !== 'all') {
-    filtered = filtered.filter((artist) =>
-      artist.instruments?.includes(selectedInstruments.value)
-    )
-  }
-
-  return filtered
-})
+const filteredResults = computed(() => artists.value)
 
 const hasActiveFilters = computed(() => {
   return (
-    selectedRole.value !== 'all' ||
+    // Only count the filters that are actually working
+    selectedRole.value ||
     selectedLocation.value !== 'all' ||
     selectedLanguage.value !== 'all' ||
-    selectedServices.value.length > 0 ||
-    selectedTeachingLevel.value !== 'all' ||
-    selectedSpecialty.value !== 'all' ||
-    selectedEquipment.value !== 'all' ||
-    selectedInstruments.value !== 'all' ||
-    showAvailable.value ||
     searchQuery.value !== '' ||
     sortBy.value !== 'relevance'
   )
 })
 
 function clearFilters() {
-  selectedRole.value = 'all'
+  // Only reset active filters
   selectedLocation.value = 'all'
   selectedLanguage.value = 'all'
-  selectedServices.value = []
-  selectedTeachingLevel.value = 'all'
-  selectedSpecialty.value = 'all'
-  showAvailable.value = false
   searchQuery.value = ''
-  selectedEquipment.value = 'all'
-  selectedInstruments.value = 'all'
   sortBy.value = 'relevance'
+
+  // Reset role filter
+  selectedRole.value = ''
+
+  // Reset pagination and refetch
+  page.value = 1
+
+  // If the search panel is open, close it
+  if (showSearch.value) {
+    toggleSearch()
+  }
+
+  // Refetch with cleared filters
+  fetchArtists()
 }
 
 function toggleService(service) {
@@ -360,52 +349,31 @@ function toggleService(service) {
   }
 }
 
+// Toggle search visibility
 const showSearch = ref(false)
+const searchInput = ref(null)
+
+// Function to toggle search and focus the input when visible
+function toggleSearch() {
+  showSearch.value = !showSearch.value
+
+  // Focus the search input when it becomes visible
+  if (showSearch.value) {
+    // Use nextTick to wait for the DOM to update before focusing
+    nextTick(() => {
+      if (searchInput.value) {
+        searchInput.value.focus()
+      }
+    })
+  } else {
+    // Clear search when hiding
+    searchQuery.value = ''
+  }
+}
 
 const sortBy = ref('relevance')
 
-const sortedArtists = computed(() => {
-  let results = filteredResults.value
-
-  if (!results) return []
-
-  switch (sortBy.value) {
-    case 'rating':
-      return [...results].sort((a, b) => (b.rating || 0) - (a.rating || 0))
-    case 'near':
-      // Fake distances from Munich in km
-      const distances = {
-        // German cities first
-        'Munich, Germany': 0,
-        'Berlin, Germany': 584,
-        // European cities
-        'Amsterdam, Netherlands': 840,
-        'Paris, France': 828,
-        'London, UK': 1174,
-        'Barcelona, Spain': 1352,
-        'Madrid, Spain': 1807,
-        // Other continents
-        'Havana, Cuba': 8158,
-        'Miami, USA': 7836,
-        'Mexico City, Mexico': 9623,
-        'Tokyo, Japan': 9147,
-      }
-
-      return [...results].sort((a, b) => {
-        const locA = a.availability?.currentLocation || a.location || ''
-        const locB = b.availability?.currentLocation || b.location || ''
-        // If location isn't in our distances map, put it at the end
-        const distA = distances[locA]
-        const distB = distances[locB]
-        if (distA === undefined && distB === undefined) return 0
-        if (distA === undefined) return 1
-        if (distB === undefined) return -1
-        return distA - distB
-      })
-    default:
-      return results
-  }
-})
+const sortedArtists = computed(() => filteredResults.value)
 </script>
 
 <template>
@@ -419,10 +387,15 @@ const sortedArtists = computed(() => {
             v-for="role in roleOptions"
             :key="role.value"
             :variant="selectedRole === role.value ? 'default' : 'outline'"
-            @click="selectedRole = role.value"
+            @click="
+              selectedRole = selectedRole === role.value ? '' : role.value
+            "
+            :disabled="true"
+            :class="{ 'opacity-50 cursor-not-allowed': true }"
             class="whitespace-nowrap"
           >
             {{ role.label }}
+            <span class="text-xs ml-1 text-muted-foreground"></span>
           </Button>
         </div>
 
@@ -431,20 +404,41 @@ const sortedArtists = computed(() => {
             variant="ghost"
             size="sm"
             class="text-muted-foreground"
-            @click="showSearch = !showSearch"
+            @click="toggleSearch"
           >
             <Icon
               :name="showSearch ? 'ph:x' : 'ph:magnifying-glass'"
               class="h-4 w-4"
             />
           </Button>
-          <Input
-            v-show="showSearch"
-            v-model="searchQuery"
-            placeholder="Search by name..."
-            type="search"
-            class="w-[180px] transition-all duration-200"
-          />
+          <Transition name="slide" mode="out-in">
+            <div v-if="showSearch" class="relative w-[220px] opacity-100">
+              <Input
+                ref="searchInput"
+                v-model="searchQuery"
+                placeholder="Search by name..."
+                type="search"
+                class="w-full"
+              >
+                <template #prefix>
+                  <Icon
+                    name="ph:magnifying-glass"
+                    class="h-4 w-4 text-muted-foreground"
+                  />
+                </template>
+                <template #suffix v-if="searchQuery">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    class="h-4 w-4 p-0"
+                    @click="searchQuery = ''"
+                  >
+                    <Icon name="ph:x" class="h-3 w-3" />
+                  </Button>
+                </template>
+              </Input>
+            </div>
+          </Transition>
         </div>
 
         <Select v-model="sortBy" class="w-[140px] shrink-0">
@@ -453,8 +447,8 @@ const sortedArtists = computed(() => {
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="relevance">Most Relevant</SelectItem>
-            <SelectItem value="rating">Highest Rated</SelectItem>
-            <SelectItem value="near">Nearest First</SelectItem>
+            <SelectItem value="rating" disabled>Highest Rated </SelectItem>
+            <SelectItem value="near" disabled>Nearest First </SelectItem>
           </SelectContent>
         </Select>
 
@@ -476,7 +470,15 @@ const sortedArtists = computed(() => {
             <SelectValue placeholder="Location" />
           </SelectTrigger>
           <SelectContent>
+            <div
+              v-if="loadingLocations"
+              class="flex items-center justify-center py-2"
+            >
+              <Icon name="ph:spinner-gap" class="h-4 w-4 animate-spin mr-2" />
+              <span class="text-xs">Loading locations...</span>
+            </div>
             <SelectItem
+              v-else
               v-for="option in locationOptions"
               :key="option.value"
               :value="option.value"
@@ -491,7 +493,15 @@ const sortedArtists = computed(() => {
             <SelectValue placeholder="Language" />
           </SelectTrigger>
           <SelectContent>
+            <div
+              v-if="loadingLanguages"
+              class="flex items-center justify-center py-2"
+            >
+              <Icon name="ph:spinner-gap" class="h-4 w-4 animate-spin mr-2" />
+              <span class="text-xs">Loading languages...</span>
+            </div>
             <SelectItem
+              v-else
               v-for="option in languageOptions"
               :key="option.value"
               :value="option.value"
@@ -501,15 +511,17 @@ const sortedArtists = computed(() => {
           </SelectContent>
         </Select>
 
-        <Select v-model="selectedLevel">
-          <SelectTrigger class="w-[160px]">
+        <Select v-model="selectedLevel" disabled>
+          <SelectTrigger class="w-[160px] opacity-50 cursor-not-allowed">
             <SelectValue placeholder="Experience Level" />
+            <span class="text-xs ml-1 text-muted-foreground"></span>
           </SelectTrigger>
           <SelectContent>
             <SelectItem
               v-for="option in levelOptions"
               :key="option.value"
               :value="option.value"
+              disabled
             >
               {{ option.label }}
             </SelectItem>
@@ -517,20 +529,34 @@ const sortedArtists = computed(() => {
         </Select>
 
         <!-- Availability Toggle -->
-        <div class="flex items-center gap-2">
-          <Switch v-model="showAvailable" />
+        <div class="flex items-center gap-2 opacity-50 cursor-not-allowed">
+          <Switch v-model="showAvailable" disabled />
           <span class="text-sm text-muted-foreground"
-            >Available for Booking</span
-          >
+            >Available for Booking <span class="text-xs"></span
+          ></span>
+        </div>
+
+        <div class="flex items-center ml-auto">
+          <span class="text-xs text-muted-foreground flex items-center gap-1">
+            <Icon name="ph:info" class="h-3.5 w-3.5" />
+            Other filters coming soon
+          </span>
         </div>
       </div>
 
       <!-- Role-Specific Filters -->
-      <div v-if="selectedRole !== 'all'" class="space-y-4 pt-4 border-t">
+      <div v-if="selectedRole" class="space-y-4 pt-4 border-t opacity-50">
+        <div class="text-xs text-muted-foreground mb-2">
+          Additional filters coming soon
+        </div>
         <div class="flex flex-wrap items-center gap-3">
           <!-- Teaching Levels -->
-          <Select v-if="showTeachingLevels" v-model="selectedTeachingLevel">
-            <SelectTrigger class="w-[180px]">
+          <Select
+            v-if="showTeachingLevels"
+            v-model="selectedTeachingLevel"
+            disabled
+          >
+            <SelectTrigger class="w-[180px] cursor-not-allowed">
               <SelectValue placeholder="Class Level" />
             </SelectTrigger>
             <SelectContent>
@@ -538,6 +564,7 @@ const sortedArtists = computed(() => {
                 v-for="option in teachingLevelOptions"
                 :key="option.value"
                 :value="option.value"
+                disabled
               >
                 {{ option.label }}
               </SelectItem>
@@ -545,8 +572,8 @@ const sortedArtists = computed(() => {
           </Select>
 
           <!-- Equipment -->
-          <Select v-if="showEquipment" v-model="selectedEquipment">
-            <SelectTrigger class="w-[180px]">
+          <Select v-if="showEquipment" v-model="selectedEquipment" disabled>
+            <SelectTrigger class="w-[180px] cursor-not-allowed">
               <SelectValue placeholder="Equipment" />
             </SelectTrigger>
             <SelectContent>
@@ -554,6 +581,7 @@ const sortedArtists = computed(() => {
                 v-for="option in equipmentOptions"
                 :key="option.value"
                 :value="option.value"
+                disabled
               >
                 {{ option.label }}
               </SelectItem>
@@ -561,8 +589,8 @@ const sortedArtists = computed(() => {
           </Select>
 
           <!-- Instruments -->
-          <Select v-if="showInstruments" v-model="selectedInstruments">
-            <SelectTrigger class="w-[160px]">
+          <Select v-if="showInstruments" v-model="selectedInstruments" disabled>
+            <SelectTrigger class="w-[160px] cursor-not-allowed">
               <SelectValue placeholder="Instruments" />
             </SelectTrigger>
             <SelectContent>
@@ -570,6 +598,7 @@ const sortedArtists = computed(() => {
                 v-for="option in instrumentOptions"
                 :key="option.value"
                 :value="option.value"
+                disabled
               >
                 {{ option.label }}
               </SelectItem>
@@ -577,8 +606,8 @@ const sortedArtists = computed(() => {
           </Select>
 
           <!-- Specialties -->
-          <Select v-model="selectedSpecialty">
-            <SelectTrigger class="w-[180px]">
+          <Select v-model="selectedSpecialty" disabled>
+            <SelectTrigger class="w-[180px] cursor-not-allowed">
               <SelectValue placeholder="Specialty" />
             </SelectTrigger>
             <SelectContent>
@@ -586,6 +615,7 @@ const sortedArtists = computed(() => {
                 v-for="option in specialtiesOptions"
                 :key="option.value"
                 :value="option.value"
+                disabled
               >
                 {{ option.label }}
               </SelectItem>
@@ -602,7 +632,8 @@ const sortedArtists = computed(() => {
             :variant="
               selectedServices.includes(service.value) ? 'default' : 'outline'
             "
-            @click="toggleService(service.value)"
+            disabled
+            class="cursor-not-allowed"
           >
             {{ service.label }}
           </Button>
@@ -615,12 +646,22 @@ const sortedArtists = computed(() => {
   <div class="p-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
     <!-- Loading State -->
     <div v-if="loading" class="col-span-full text-center py-12">
-      <p>Loading artists...</p>
+      <div class="flex flex-col items-center">
+        <Icon
+          name="ph:spinner-gap"
+          class="h-8 w-8 animate-spin mb-4 text-primary"
+        />
+        <p class="text-muted-foreground">Loading artists...</p>
+      </div>
     </div>
 
     <!-- Error State -->
     <div v-else-if="error" class="text-red-500 text-center py-4 col-span-full">
-      {{ error }}
+      <Icon name="ph:warning-circle" class="h-8 w-8 mb-2 mx-auto" />
+      <p>{{ error }}</p>
+      <Button variant="outline" size="sm" class="mt-4" @click="fetchArtists">
+        Try Again
+      </Button>
     </div>
 
     <!-- Artists Display -->
@@ -653,8 +694,26 @@ const sortedArtists = computed(() => {
   <!-- Load More Button -->
   <div v-if="hasMore && !loading && !error" class="text-center py-8">
     <Button @click="loadMore" :disabled="loadingMore">
-      <span v-if="loadingMore">Loading...</span>
+      <Icon
+        v-if="loadingMore"
+        name="ph:spinner-gap"
+        class="h-4 w-4 animate-spin mr-2"
+      />
+      <span v-if="loadingMore">Loading more...</span>
       <span v-else>Load More Artists</span>
     </Button>
   </div>
 </template>
+
+<style scoped>
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.3s ease;
+}
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+  width: 0;
+}
+</style>

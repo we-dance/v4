@@ -268,12 +268,69 @@ export const profilesRouter = router({
       take: 5,
     })
   }),
+  artistLocations: publicProcedure.query(async () => {
+    const artistsWithCities = await prisma.profile.findMany({
+      where: {
+        type: 'Artist',
+        city: {
+          isNot: null,
+        },
+      },
+      select: {
+        city: {
+          select: {
+            name: true,
+          },
+        },
+      },
+      distinct: ['cityId'],
+    })
+
+    const locations = artistsWithCities
+      .map((artist) => artist.city?.name)
+      .filter(Boolean) // Remove nulls
+      .sort()
+
+    return locations
+  }),
+  artistLanguages: publicProcedure.query(async () => {
+    const artists = await prisma.profile.findMany({
+      where: {
+        type: 'Artist',
+      },
+      select: {
+        locales: true,
+      },
+    })
+
+    // Extract all language codes that are marked as true
+    const languagesSet = new Set()
+
+    artists.forEach((artist) => {
+      if (artist.locales) {
+        Object.entries(artist.locales as Record<string, boolean>).forEach(
+          ([lang, isActive]) => {
+            if (isActive === true) {
+              languagesSet.add(lang)
+            }
+          }
+        )
+      }
+    })
+
+    // Convert to sorted array
+    return Array.from(languagesSet).sort()
+  }),
   artists: publicProcedure
     .input(
       z
         .object({
           limit: z.number().default(10),
           page: z.number().default(1),
+          role: z.string().optional(),
+          location: z.string().optional(),
+          language: z.string().optional(),
+          search: z.string().optional(),
         })
         .optional()
     )
@@ -282,8 +339,61 @@ export const profilesRouter = router({
       const page = input?.page || 1
       const skip = (page - 1) * limit
 
-      return await prisma.profile.findMany({
-        where: { type: 'Artist' },
+      // Define the type-safe where conditions
+      type WhereConditions = {
+        type: string
+        roles?: {
+          has: string
+        }
+        name?: {
+          contains: string
+          mode: 'insensitive'
+        }
+        city?: {
+          name?: string
+        }
+        locales?: any // For language filtering
+      }
+
+      // Start with base where condition
+      let whereConditions: WhereConditions = { type: 'Artist' }
+
+      // Role filter - only apply if provided and not 'all'
+      if (input?.role && input.role !== 'all') {
+        whereConditions.roles = {
+          has: input.role,
+        }
+      }
+
+      // Search filter
+      if (input?.search) {
+        whereConditions.name = {
+          contains: input.search,
+          mode: 'insensitive',
+        }
+      }
+
+      // Location filter - add to database query
+      if (input?.location && input.location !== 'all') {
+        whereConditions.city = {
+          name: input.location,
+        }
+      }
+
+      if (input?.language && input.language !== 'all') {
+        // Use JsonPath to check if the language key exists in the locales object
+        whereConditions.locales = {
+          path: [input.language],
+          equals: true,
+        }
+      }
+
+      const totalCount = await prisma.profile.count({
+        where: whereConditions,
+      })
+
+      const artists = await prisma.profile.findMany({
+        where: whereConditions,
         include: {
           styles: {
             include: {
@@ -298,5 +408,11 @@ export const profilesRouter = router({
           createdAt: 'desc',
         },
       })
+
+      return {
+        artists: artists,
+        totalCount,
+        hasMore: skip + artists.length < totalCount,
+      }
     }),
 })

@@ -34,10 +34,10 @@ const artistLanguages = computed(() => {
     return props.artist.languages
   }
 
-  if (props.artist.locales) {
-    return Object.keys(props.artist.locales).filter(
-      (key) => props.artist.locales[key] === true
-    )
+  // Check if locales exists and extract language codes where value is true
+  const locales = props.artist.locales
+  if (locales) {
+    return Object.keys(locales).filter((key) => locales[key] === true)
   }
 
   return []
