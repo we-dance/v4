@@ -4,13 +4,11 @@ import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
 
-// todo: move to profile schema
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
   name: z.string().optional(),
   username: z.string().optional(),
   photo: z.string().optional().nullable(),
-  // Social links
   couchsurfing: z.string().optional(),
   linkedin: z.string().optional(),
   airbnb: z.string().optional(),
@@ -209,14 +207,7 @@ export const profilesRouter = router({
       })
 
       const venues = await prisma.profile.findMany({
-        where: {
-          // id: {
-          //   equals: "ChIJW8LuYO51nkcRZqoW2f9yn8c",
-          // },
-          // city: {
-          //   slug: city,
-          // },
-        },
+        where: {},
         include: {
           eventsHosted: {
             take: 1,
@@ -288,7 +279,7 @@ export const profilesRouter = router({
 
     const locations = artistsWithCities
       .map((artist) => artist.city?.name)
-      .filter(Boolean) // Remove nulls
+      .filter(Boolean)
       .sort()
 
     return locations
@@ -303,7 +294,6 @@ export const profilesRouter = router({
       },
     })
 
-    // Extract all language codes that are marked as true
     const languagesSet = new Set()
 
     artists.forEach((artist) => {
@@ -318,7 +308,6 @@ export const profilesRouter = router({
       }
     })
 
-    // Convert to sorted array
     return Array.from(languagesSet).sort()
   }),
   artists: publicProcedure
@@ -339,7 +328,6 @@ export const profilesRouter = router({
       const page = input?.page || 1
       const skip = (page - 1) * limit
 
-      // Define the type-safe where conditions
       type WhereConditions = {
         type: string
         roles?: {
@@ -352,20 +340,17 @@ export const profilesRouter = router({
         city?: {
           name?: string
         }
-        locales?: any // For language filtering
+        locales?: any
       }
 
-      // Start with base where condition
       let whereConditions: WhereConditions = { type: 'Artist' }
 
-      // Role filter - only apply if provided and not 'all'
       if (input?.role && input.role !== 'all') {
         whereConditions.roles = {
           has: input.role,
         }
       }
 
-      // Search filter
       if (input?.search) {
         whereConditions.name = {
           contains: input.search,
@@ -373,7 +358,6 @@ export const profilesRouter = router({
         }
       }
 
-      // Location filter - add to database query
       if (input?.location && input.location !== 'all') {
         whereConditions.city = {
           name: input.location,
@@ -381,7 +365,6 @@ export const profilesRouter = router({
       }
 
       if (input?.language && input.language !== 'all') {
-        // Use JsonPath to check if the language key exists in the locales object
         whereConditions.locales = {
           path: [input.language],
           equals: true,
