@@ -163,6 +163,7 @@ export const coursesRouter = router({
             price: z.number().min(0),
             currency: z.string().min(1),
             duration: z.string().min(1),
+            items: z.string().optional(),
           })
         ),
         deletedOfferIds: z.array(z.string()).optional(),

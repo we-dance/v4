@@ -11,6 +11,7 @@ const props = defineProps<{
     price: number
     currency: string
     duration: string
+    items: string
   }
   onSuccess?: (values: any) => void
 }>()
@@ -22,6 +23,7 @@ const schema = z.object({
   price: z.number().min(0, 'Price must be a positive number'),
   currency: z.string().min(1, 'Currency is required'),
   duration: z.string().min(1, 'Duration is required'),
+  items: z.string().optional(),
 })
 
 const form = useForm({
@@ -31,6 +33,7 @@ const form = useForm({
     price: 0,
     currency: 'EUR',
     duration: '1 month',
+    items: '',
   },
 })
 
@@ -128,6 +131,23 @@ const onSubmit = form.handleSubmit(
         </FormItem>
       </FormField>
     </div>
+
+    <FormField v-slot="{ componentField }" name="items">
+      <FormItem>
+        <FormLabel>Items</FormLabel>
+        <FormDescription>
+          List the features or items included in this offer (one per line)
+        </FormDescription>
+        <FormControl>
+          <Textarea
+            v-bind="componentField"
+            placeholder="Example: Access to all basic courses&#10;Weekly group sessions&#10;Email support"
+            rows="5"
+          />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
 
     <DialogFooter>
       <Button type="button" variant="ghost" @click="dialog.close">
