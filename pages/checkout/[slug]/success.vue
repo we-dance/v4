@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { AnyEvent } from '~/schemas/event'
 import { z } from 'zod'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
@@ -8,6 +9,7 @@ const isUpdating = ref(true)
 const updateError = ref(false)
 const subscriptionCreated = ref(false)
 
+const { $client } = useNuxtApp()
 const { $client } = useNuxtApp()
 const route = useRoute()
 const slug = z.string().parse(route.params.slug)
@@ -165,14 +167,14 @@ watchEffect(async () => {
                 <Icon name="ph:calendar" class="w-4 h-4" />
                 <span>{{
                   formatDate(course?.courseInstance?.[0]?.startDate || '')
-                  }}</span>
+                }}</span>
               </div>
               <div class="flex items-center gap-2">
                 <Icon name="ph:map-pin" class="w-4 h-4" />
                 <span>{{
                   course?.courseInstance?.[0]?.location?.name ||
                   'WeDance Online Platform'
-                }}, {{ 'Online' }}</span>
+                  }}, {{ 'Online' }}</span>
               </div>
             </div>
           </div>
