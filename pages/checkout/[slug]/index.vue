@@ -30,8 +30,10 @@ const formData = reactive({
 
 const handleEmailCheck = async () => {
   if (!formData.email) return
+  // was mock Promise
   const exists = await checkEmail(formData.email)
   checkoutState.value = exists ? 'login' : 'register'
+  console.log(`checkout state: ${checkoutState.value}`)
 }
 
 const handleSubmit = async () => {
