@@ -7,7 +7,6 @@ import { useAppAuth } from '~/composables/useAppAuth'
 
 const { redirectToCheckout } = useStripeCheckout()
 const { checkEmail, createAccount, login, isLoading, error } = useRegistration()
-const { user } = useAppAuth()
 
 const { $client } = useNuxtApp()
 const route = useRoute()
@@ -54,7 +53,7 @@ const handleSubmit = async () => {
     if (success) {
       const stripeUrl = await redirectToCheckout({
         courseId: course.id,
-        courseName: course.name,
+        courseName: slug,
         offeringId: offer,
       })
 
