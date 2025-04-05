@@ -33,8 +33,8 @@ export function useStripeCheckout() {
       const result = await trpc.subscriptions.createCheckoutSession.mutate({
         courseId: params.courseId,
         offeringId: params.offeringId,
-        successUrl: `${window.location.origin}/courses/${params.courseId}/success`,
-        cancelUrl: `${window.location.origin}/courses/${params.courseId}`,
+        successUrl: `${window.location.origin}/checkout/${params.courseName}/success`,
+        cancelUrl: `${window.location.origin}/checkout/${params.courseName}`,
       })
 
       // Redirect to checkout

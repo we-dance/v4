@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { mockEvents } from '@/data/mockEvents'
-import { mockCourses } from '@/data/mockCourses'
 import type { AnyEvent } from '~/schemas/event'
+import { z } from 'zod'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { watchEffect, ref } from 'vue'
@@ -10,13 +9,12 @@ const { updateLessonUnlockStatus } = useCourseProgress()
 const isUpdating = ref(true)
 const updateError = ref(false)
 
+const { $client } = useNuxtApp()
 const route = useRoute()
-const event = computed(() =>
-  mockEvents.find((e) => String(e.id) === String(route.params.slug))
-)
-const course = computed(() =>
-  mockCourses.find((c) => String(c.id) === String(route.params.slug))
-)
+const slug = z.string().parse(route.params.slug)
+
+const event = await $client.events.getAll.query({})
+const course = await $client.courses.view.query({ slug })
 
 // judge if input is a event or course then navigate to the correct page
 const typeOfInstance = computed(() =>
@@ -25,7 +23,7 @@ const typeOfInstance = computed(() =>
 
 // check url change and update course status
 watchEffect(async () => {
-  const courseId = course.value?.identifier
+  const courseId = course.id
   if (!courseId) return
   try {
     console.log('check status:', courseId)
@@ -71,7 +69,7 @@ watchEffect(async () => {
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
             <img
-              :src="event?.image || '/images/event-placeholder.jpg'"
+              :src="event?.cover || '/images/event-placeholder.jpg'"
               :alt="event?.name"
               class="w-full h-full object-cover"
             />
@@ -130,7 +128,7 @@ watchEffect(async () => {
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
             <img
-              :src="course?.image?.url || '/images/event-placeholder.jpg'"
+              :src="course?.coverUrl || '/images/event-placeholder.jpg'"
               :alt="course?.name"
               class="w-full h-full object-cover"
             />
