@@ -14,6 +14,21 @@ const firebaseParameters = {
 }
 
 export const usersRouter = router({
+  findByEmail: publicProcedure
+    .input(
+      z.object({
+        email: z.string(),
+      })
+    )
+    .query(async ({ input }) => {
+      const { email } = input
+      return await prisma.user.findUnique({
+        where: {
+          email,
+        },
+      })
+    }),
+
   update: publicProcedure
     .input(
       z.object({
