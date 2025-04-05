@@ -1,3 +1,6 @@
+import { string } from 'zod'
+
+const { $client } = useNuxtApp()
 interface RegistrationData {
   firstName: string
   lastName: string
@@ -35,11 +38,14 @@ export const useRegistration = () => {
   const checkEmail = async (email: string): Promise<boolean> => {
     try {
       // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 500))
-      return mockUsers.some(
-        (user: { email: string }) =>
-          user.email.toLowerCase() === email.toLowerCase()
-      )
+      // await new Promise((resolve) => setTimeout(resolve, 500))
+      // modify mockUsers to object (include uid)
+      const user = await $client.users.findByEmail.query({ email })
+      // return mockUsers.some(
+      //   (user: { email: string }) =>
+      //     user.email.toLowerCase() === email.toLowerCase()
+      // )
+      return user ? true : false
     } catch (e) {
       error.value = 'Could not verify email. Please try again.'
       return false
