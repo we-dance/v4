@@ -294,4 +294,45 @@ export const coursesRouter = router({
         where: { id: lessonId },
       })
     }),
+
+  updateResource: publicProcedure
+    .input(
+      z.object({
+        courseId: z.string(),
+        resourceId: z.string().optional(),
+        name: z.string(),
+        description: z.string(),
+        url: z.string(),
+        locked: z.boolean().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { courseId, resourceId, ...data } = input
+      const prisma = ctx.prisma
+
+      if (!resourceId) {
+        const resource = await prisma.courseResource.create({
+          data: { ...data, courseId, locked: data.locked ?? false },
+        })
+        return resource
+      }
+
+      const resource = await prisma.courseResource.update({
+        where: { id: resourceId },
+        data,
+      })
+
+      return resource
+    }),
+
+  deleteResource: publicProcedure
+    .input(z.object({ resourceId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { resourceId } = input
+      const prisma = ctx.prisma
+
+      await prisma.courseResource.delete({
+        where: { id: resourceId },
+      })
+    }),
 })

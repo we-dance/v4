@@ -103,7 +103,7 @@ const onSubmit = form.handleSubmit(save)
     <div v-else-if="course" class="space-y-8">
       <CourseEditor v-model="course" @submit="onSubmit" />
       <CourseModulesEditor v-model="course" @load="loadCourse" />
-      <CourseResourcesEditor v-model="course.resources" />
+      <CourseResourcesEditor v-model="course" @load="loadCourse" />
       <CourseOffersEditor v-model="course" @save="save" />
     </div>
 
