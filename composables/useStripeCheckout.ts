@@ -37,6 +37,11 @@ export function useStripeCheckout() {
         cancelUrl: `${window.location.origin}/checkout/${params.courseName}`,
       })
 
+      // save session id to local storage
+      if (result?.sessionId) {
+        localStorage.setItem('stripe_session_id', result.sessionId)
+      }
+
       // Redirect to checkout
       if (result?.url) {
         // window.location.href = result.url

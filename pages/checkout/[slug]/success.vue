@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { AnyEvent } from '~/schemas/event'
 import { z } from 'zod'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { watchEffect, ref } from 'vue'
-const { updateLessonUnlockStatus } = useCourseProgress()
 
+const { updateLessonUnlockStatus } = useCourseProgress()
 const isUpdating = ref(true)
 const updateError = ref(false)
+const subscriptionCreated = ref(false)
 
 const { $client } = useNuxtApp()
 const route = useRoute()
@@ -16,30 +16,74 @@ const slug = z.string().parse(route.params.slug)
 const event = await $client.events.getAll.query({})
 const course = await $client.courses.view.query({ slug })
 
-// judge if input is a event or course then navigate to the correct page
 const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
 
-// check url change and update course status
 watchEffect(async () => {
-  const courseId = course.id
-  if (!courseId) return
+  if (
+    typeOfInstance.value !== 'course' ||
+    !course.id ||
+    subscriptionCreated.value
+  )
+    return
+
   try {
-    console.log('check status:', courseId)
-    // once redirect to this page, update course status to locked: false
-    const result = await updateLessonUnlockStatus(courseId, false)
+    const sessionId = localStorage.getItem('stripe_session_id')
+    if (!sessionId) {
+      console.error('Stripe sessionId not found in localStorage')
+      updateError.value = true
+      return
+    }
+    const stripeData =
+      await $client.subscriptions.getStripeSessionDetails.query({
+        sessionId,
+      })
+
+    if (!stripeData?.stripePriceId) {
+      console.error('Stripe session data not found')
+      return
+    }
+
+    const offerId = localStorage.getItem('selected_offer_id')
+    const offer = course.offers?.find(
+      (o: { id: string | null }) => o.id === offerId
+    )
+
+    if (!offer) {
+      console.error('Offer not matched with stripe price ID')
+      return
+    }
+
+    await $client.subscriptions.create.mutate({
+      name: course.name,
+      plan: offer.name,
+      price: offer.price,
+      currency: offer.currency.toUpperCase(),
+      interval: offer.duration === 'P1Y' ? 'year' : 'month',
+      status: 'active',
+      nextBillingDate: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+      stripeCustomerId: stripeData.stripeCustomerId,
+      stripeSubscriptionId: stripeData.stripeSubscriptionId,
+      stripePriceId: stripeData.stripePriceId,
+    })
+
+    subscriptionCreated.value = true
+
+    const result = await updateLessonUnlockStatus(course.id, false)
+
     if (result) {
-      console.log('successfully updated')
+      console.log('Lessons unlocked successfully')
     } else {
-      console.log('update failed')
       updateError.value = true
     }
-  } catch (error) {
-    console.error('update error:', error)
+  } catch (err) {
+    console.error('Error creating subscription or unlocking lessons:', err)
     updateError.value = true
   } finally {
     isUpdating.value = false
+    localStorage.removeItem('selected_offer_id')
+    localStorage.removeItem('stripe_session_id')
   }
 })
 </script>
@@ -162,7 +206,7 @@ watchEffect(async () => {
           <NuxtLink to="/courses">Browse More Courses</NuxtLink>
         </Button>
         <Button as-child>
-          <NuxtLink :to="`/courses/${course?.identifier}`"
+          <NuxtLink :to="`/courses/${course.slug}`"
             >View Course Details</NuxtLink
           >
         </Button>
