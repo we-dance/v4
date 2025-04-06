@@ -5,19 +5,16 @@ import { toast } from 'vue-sonner'
 import { z } from 'zod'
 import { useDialog } from '@/composables/useDialog'
 
-// Props: accept module data for editing and a success callback
 const props = defineProps<{
-  moduleData?: {
-    id?: string
-    name: string
-    description?: string | null
-  }
-  onSuccess?: (values: { name: string; description?: string | null }) => void
+  module?: any
+  onSuccess?: (
+    moduleId: string,
+    values: { name: string; description?: string | null }
+  ) => void
 }>()
 
 const dialog = useDialog()
 
-// Schema for module validation (currently just name and description)
 const moduleSchema = z.object({
   name: z
     .string()
@@ -30,33 +27,29 @@ const moduleSchema = z.object({
     .nullable(),
 })
 
-// Form setup using vee-validate
 const form = useForm({
   validationSchema: toTypedSchema(moduleSchema),
-  initialValues: props.moduleData
-    ? { ...props.moduleData }
+  initialValues: props.module
+    ? { ...props.module }
     : {
         name: '',
         description: '',
       },
 })
 
-// Handle form submission
 const onSubmit = form.handleSubmit(
   async (values) => {
     try {
-      // Call the success callback passed from the parent
-      props.onSuccess?.(values)
+      props.onSuccess?.(props.module?.id, values)
       dialog.close() // Close the dialog on success
       toast.success(
-        `Module ${props.moduleData ? 'updated' : 'added'} successfully!`
+        `Module ${props.module ? 'updated' : 'added'} successfully!`
       )
     } catch (error: any) {
       toast.error(error.message || 'An unexpected error occurred.')
     }
   },
   (e) => {
-    // Handle validation errors (optional: vee-validate shows messages automatically)
     toast.error('Please fix the errors in the form.')
     console.error('Form validation errors:', e.errors)
   }
@@ -65,10 +58,10 @@ const onSubmit = form.handleSubmit(
 
 <template>
   <DialogHeader>
-    <DialogTitle>{{ props.moduleData ? 'Edit' : 'Add' }} Module</DialogTitle>
+    <DialogTitle>{{ props.module ? 'Edit' : 'Add' }} Module</DialogTitle>
     <DialogDescription>
       {{
-        props.moduleData
+        props.module
           ? 'Edit the details of this module.'
           : 'Create a new module for your course.'
       }}
@@ -82,7 +75,7 @@ const onSubmit = form.handleSubmit(
         <FormControl>
           <Input
             v-bind="componentField"
-            placeholder="e.g., Introduction to WeDance"
+            placeholder="e.g., Introduction to Salsa"
             required
           />
         </FormControl>
