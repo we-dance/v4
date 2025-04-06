@@ -13,8 +13,8 @@ const dialog = useDialog()
 const schema = toTypedSchema(
   z.object({
     name: z.string().min(1, 'Name is required'),
-    description: z.string().optional(),
     duration: z.number().min(1, 'Duration is required'),
+    videoId: z.string().optional(),
     locked: z.boolean().optional(),
   })
 )
@@ -23,8 +23,8 @@ const form = useForm({
   validationSchema: schema,
   initialValues: {
     name: props.lesson?.name || '',
-    description: props.lesson?.description || '',
     duration: props.lesson?.duration || 0,
+    videoId: props.lesson?.videoId || '',
     locked: props.lesson?.locked || false,
   },
 })
@@ -38,82 +38,70 @@ const onSubmit = form.handleSubmit(async (values) => {
 </script>
 
 <template>
-  <DialogContent>
-    <DialogHeader>
-      <DialogTitle>{{ lesson ? 'Edit' : 'Add' }} Lesson</DialogTitle>
-      <DialogDescription>
-        {{
-          lesson ? 'Edit the lesson details' : 'Add a new lesson to the module'
-        }}
-      </DialogDescription>
-    </DialogHeader>
-    <form @submit="onSubmit" class="space-y-4">
-      <FormField name="name" v-slot="{ componentField }">
-        <FormItem>
-          <FormLabel>Name</FormLabel>
-          <FormControl>
-            <Input v-bind="componentField" placeholder="Enter lesson name" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+  <DialogHeader>
+    <DialogTitle>{{ lesson ? 'Edit' : 'Add' }} Lesson</DialogTitle>
+    <DialogDescription>
+      {{
+        lesson ? 'Edit the lesson details' : 'Add a new lesson to the module'
+      }}
+    </DialogDescription>
+  </DialogHeader>
 
-      <FormField name="description" v-slot="{ componentField }">
-        <FormItem>
-          <FormLabel>Description</FormLabel>
-          <FormControl>
-            <Textarea
-              v-bind="componentField"
-              placeholder="Enter lesson description"
-              rows="3"
-            />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+  <form @submit="onSubmit" class="space-y-4">
+    <FormField name="name" v-slot="{ componentField }">
+      <FormItem>
+        <FormLabel>Name</FormLabel>
+        <FormControl>
+          <Input v-bind="componentField" placeholder="Enter lesson name" />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
 
-      <FormField name="duration" v-slot="{ componentField }">
-        <FormItem>
-          <FormLabel>Duration (seconds)</FormLabel>
-          <FormControl>
-            <Input
-              v-bind="componentField"
-              type="number"
-              min="1"
-              placeholder="Enter lesson duration"
-            />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+    <FormField name="duration" v-slot="{ componentField }">
+      <FormItem>
+        <FormLabel>Duration (seconds)</FormLabel>
+        <FormControl>
+          <Input
+            v-bind="componentField"
+            type="number"
+            min="1"
+            placeholder="Enter lesson duration"
+          />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
 
-      <FormField name="videoId" v-slot="{ componentField }">
-        <FormItem>
-          <FormLabel>Video ID</FormLabel>
-          <FormControl>
-            <Input v-bind="componentField" placeholder="Enter video ID" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+    <FormField name="videoId" v-slot="{ componentField }">
+      <FormItem>
+        <FormLabel>Video ID</FormLabel>
+        <FormControl>
+          <Input v-bind="componentField" placeholder="Enter video ID" />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
 
-      <FormField name="locked" v-slot="{ componentField }">
-        <FormItem class="flex flex-row items-start space-x-3 space-y-0">
-          <FormControl>
-            <Checkbox v-bind="componentField" />
-          </FormControl>
-          <div class="space-y-1 leading-none">
-            <FormLabel>Locked</FormLabel>
-            <FormDescription>
-              Lock this lesson until previous lessons are completed
-            </FormDescription>
-          </div>
-        </FormItem>
-      </FormField>
+    <FormField name="locked" v-slot="{ componentField }">
+      <FormItem class="flex flex-row items-start space-x-3 space-y-0">
+        <FormControl>
+          <Checkbox v-bind="componentField" />
+        </FormControl>
+        <div class="space-y-1 leading-none">
+          <FormLabel>Locked</FormLabel>
+          <FormDescription>
+            Lock this lesson until previous lessons are completed
+          </FormDescription>
+        </div>
+      </FormItem>
+    </FormField>
 
-      <DialogFooter>
-        <Button type="submit">Save</Button>
-      </DialogFooter>
-    </form>
-  </DialogContent>
+    <DialogFooter>
+      <Button type="button" variant="ghost" @click="dialog.close">
+        Cancel
+      </Button>
+      <Button type="submit">Save</Button>
+    </DialogFooter>
+  </form>
 </template>

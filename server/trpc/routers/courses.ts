@@ -254,10 +254,10 @@ export const coursesRouter = router({
         moduleId: z.string(),
         lessonId: z.string().optional(),
         name: z.string(),
-        description: z.string().optional().nullable(),
         duration: z.number(),
         videoId: z.string().optional(),
         locked: z.boolean().optional(),
+        order: z.number().optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
