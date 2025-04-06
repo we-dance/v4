@@ -9,6 +9,10 @@ const { course } = defineProps<{
 const emit = defineEmits<{
   (e: 'select', offer: any): void
 }>()
+
+const getItems = (offer: any) => {
+  return offer.items.split('\n')
+}
 </script>
 
 <template>
@@ -33,7 +37,7 @@ const emit = defineEmits<{
             <div class="font-bold">{{ offer.name }}</div>
             <ul class="mt-2 space-y-1">
               <li
-                v-for="(item, index) in offer.items"
+                v-for="(item, index) in getItems(offer)"
                 :key="index"
                 class="flex items-center gap-2 text-sm text-muted-foreground"
               >
