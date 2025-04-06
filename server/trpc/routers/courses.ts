@@ -247,4 +247,51 @@ export const coursesRouter = router({
         where: { id: moduleId },
       })
     }),
+
+  updateLesson: publicProcedure
+    .input(
+      z.object({
+        moduleId: z.string(),
+        lessonId: z.string().optional(),
+        name: z.string(),
+        description: z.string().optional().nullable(),
+        duration: z.number(),
+        videoId: z.string().optional(),
+        locked: z.boolean().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { moduleId, lessonId, ...data } = input
+      const prisma = ctx.prisma
+
+      if (!lessonId) {
+        const lesson = await prisma.courseLesson.create({
+          data: {
+            ...data,
+            moduleId,
+            videoId: data.videoId || '',
+          },
+        })
+
+        return lesson
+      }
+
+      const lesson = await prisma.courseLesson.update({
+        where: { id: lessonId },
+        data,
+      })
+
+      return lesson
+    }),
+
+  deleteLesson: publicProcedure
+    .input(z.object({ lessonId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { lessonId } = input
+      const prisma = ctx.prisma
+
+      await prisma.courseLesson.delete({
+        where: { id: lessonId },
+      })
+    }),
 })

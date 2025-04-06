@@ -1,183 +1,119 @@
 <script setup lang="ts">
-import { useForm } from 'vee-validate'
-import { toTypedSchema } from '@vee-validate/zod'
-import { toast } from 'vue-sonner'
 import { z } from 'zod'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Switch } from '@/components/ui/switch'
-import { Label } from '@/components/ui/label'
-import {
-  DialogHeader,
-  DialogTitle,
-  DialogDescription,
-  DialogFooter,
-} from '@/components/ui/dialog'
-import {
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-  FormDescription,
-} from '@/components/ui/form'
-import { useDialog } from '@/composables/useDialog'
+import { toTypedSchema } from '@vee-validate/zod'
+import { useForm } from 'vee-validate'
 
-// Props: accept lesson data for editing and a success callback
 const props = defineProps<{
-  lessonData?: {
-    id?: string
-    name: string
-    duration?: number | null
-    videoId?: string | null
-    locked?: boolean
-  }
-  onSuccess?: (values: {
-    name: string
-    duration?: number | null
-    videoId?: string | null
-    locked?: boolean
-  }) => void
+  lesson?: any
+  onSuccess?: (lessonId: string, values: any) => void
 }>()
 
 const dialog = useDialog()
 
-// Schema for lesson validation
-const lessonSchema = z.object({
-  name: z
-    .string()
-    .min(1, 'Lesson name is required')
-    .max(150, 'Name cannot exceed 150 characters'),
-  duration: z.coerce
-    .number()
-    .int()
-    .min(0, 'Duration must be a non-negative integer (minutes)')
-    .optional()
-    .nullable(),
-  videoId: z
-    .string()
-    .max(100, 'Video ID cannot exceed 100 characters')
-    .optional()
-    .nullable(),
-  locked: z.boolean().optional().default(false),
-})
-
-// Form setup
-const form = useForm({
-  validationSchema: toTypedSchema(lessonSchema),
-  initialValues: props.lessonData
-    ? { ...props.lessonData }
-    : {
-        name: '',
-        duration: null,
-        videoId: '',
-        locked: false,
-      },
-})
-
-// Handle form submission
-const onSubmit = form.handleSubmit(
-  async (values) => {
-    try {
-      props.onSuccess?.(values)
-      dialog.close()
-      toast.success(
-        `Lesson ${props.lessonData ? 'updated' : 'added'} successfully!`
-      )
-    } catch (error: any) {
-      toast.error(
-        error.message || 'An unexpected error occurred while saving the lesson.'
-      )
-    }
-  },
-  (e) => {
-    toast.error('Please fix the errors in the form.')
-    console.error('Lesson form validation errors:', e.errors)
-  }
+const schema = toTypedSchema(
+  z.object({
+    name: z.string().min(1, 'Name is required'),
+    description: z.string().optional(),
+    duration: z.number().min(1, 'Duration is required'),
+    locked: z.boolean().optional(),
+  })
 )
+
+const form = useForm({
+  validationSchema: schema,
+  initialValues: {
+    name: props.lesson?.name || '',
+    description: props.lesson?.description || '',
+    duration: props.lesson?.duration || 0,
+    locked: props.lesson?.locked || false,
+  },
+})
+
+const onSubmit = form.handleSubmit(async (values) => {
+  if (props.onSuccess) {
+    await props.onSuccess(props.lesson?.id || '', values)
+  }
+  dialog.close()
+})
 </script>
 
 <template>
-  <DialogHeader>
-    <DialogTitle>{{ props.lessonData ? 'Edit' : 'Add' }} Lesson</DialogTitle>
-    <DialogDescription>
-      {{
-        props.lessonData
-          ? 'Edit the details of this lesson.'
-          : 'Add a new lesson to the module.'
-      }}
-    </DialogDescription>
-  </DialogHeader>
-
-  <form @submit="onSubmit" class="space-y-6 py-4">
-    <FormField v-slot="{ componentField }" name="name">
-      <FormItem>
-        <FormLabel>Lesson Name</FormLabel>
-        <FormControl>
-          <Input
-            v-bind="componentField"
-            placeholder="e.g., Warm-up exercises"
-            required
-          />
-        </FormControl>
-        <FormMessage />
-      </FormItem>
-    </FormField>
-
-    <div class="grid grid-cols-2 gap-4">
-      <FormField v-slot="{ componentField }" name="duration">
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle>{{ lesson ? 'Edit' : 'Add' }} Lesson</DialogTitle>
+      <DialogDescription>
+        {{
+          lesson ? 'Edit the lesson details' : 'Add a new lesson to the module'
+        }}
+      </DialogDescription>
+    </DialogHeader>
+    <form @submit="onSubmit" class="space-y-4">
+      <FormField name="name" v-slot="{ componentField }">
         <FormItem>
-          <FormLabel>Duration (minutes, Optional)</FormLabel>
+          <FormLabel>Name</FormLabel>
+          <FormControl>
+            <Input v-bind="componentField" placeholder="Enter lesson name" />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField name="description" v-slot="{ componentField }">
+        <FormItem>
+          <FormLabel>Description</FormLabel>
+          <FormControl>
+            <Textarea
+              v-bind="componentField"
+              placeholder="Enter lesson description"
+              rows="3"
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField name="duration" v-slot="{ componentField }">
+        <FormItem>
+          <FormLabel>Duration (seconds)</FormLabel>
           <FormControl>
             <Input
+              v-bind="componentField"
               type="number"
-              min="0"
-              step="1"
-              v-bind="componentField"
-              placeholder="e.g., 15"
+              min="1"
+              placeholder="Enter lesson duration"
             />
           </FormControl>
           <FormMessage />
         </FormItem>
       </FormField>
 
-      <FormField v-slot="{ componentField }" name="videoId">
+      <FormField name="videoId" v-slot="{ componentField }">
         <FormItem>
-          <FormLabel>Video ID (Optional)</FormLabel>
+          <FormLabel>Video ID</FormLabel>
           <FormControl>
-            <Input
-              v-bind="componentField"
-              placeholder="e.g., YouTube or Vimeo ID"
-            />
+            <Input v-bind="componentField" placeholder="Enter video ID" />
           </FormControl>
           <FormMessage />
         </FormItem>
       </FormField>
-    </div>
 
-    <FormField v-slot="{ value, handleChange }" name="locked">
-      <FormItem
-        class="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm"
-      >
-        <div class="space-y-0.5">
-          <FormLabel>Locked Lesson</FormLabel>
-          <FormDescription>
-            Require users to complete previous lessons or purchase access.
-          </FormDescription>
-        </div>
-        <FormControl>
-          <Switch :checked="value" @update:checked="handleChange" />
-        </FormControl>
-      </FormItem>
-    </FormField>
+      <FormField name="locked" v-slot="{ componentField }">
+        <FormItem class="flex flex-row items-start space-x-3 space-y-0">
+          <FormControl>
+            <Checkbox v-bind="componentField" />
+          </FormControl>
+          <div class="space-y-1 leading-none">
+            <FormLabel>Locked</FormLabel>
+            <FormDescription>
+              Lock this lesson until previous lessons are completed
+            </FormDescription>
+          </div>
+        </FormItem>
+      </FormField>
 
-    <DialogFooter>
-      <Button type="button" variant="ghost" @click="dialog.close">
-        Cancel
-      </Button>
-      <Button type="submit" :disabled="form.isSubmitting.value">
-        {{ form.isSubmitting.value ? 'Saving...' : 'Save Lesson' }}
-      </Button>
-    </DialogFooter>
-  </form>
+      <DialogFooter>
+        <Button type="submit">Save</Button>
+      </DialogFooter>
+    </form>
+  </DialogContent>
 </template>
