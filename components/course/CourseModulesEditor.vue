@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
+import { formatDuration } from '~/utils/format'
 
 const course = defineModel<any>()
 const dialog = useDialog()
@@ -154,7 +155,7 @@ function openEditModuleDialog(module?: any) {
                 <span
                   v-if="lesson.duration"
                   class="text-xs text-muted-foreground"
-                  >({{ lesson.duration }} min)</span
+                  >{{ formatDuration(lesson.duration) }}</span
                 >
               </div>
             </div>
