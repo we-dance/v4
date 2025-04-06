@@ -44,7 +44,6 @@ export const subscriptionsRouter = router({
         },
       })
 
-      // Check if the subscription belongs to the current user
       if (subscription && subscription.userId !== session.user.id) {
         throw new Error('You do not have permission to view this subscription')
       }
@@ -56,20 +55,87 @@ export const subscriptionsRouter = router({
   create: publicProcedure
     .input(createSubscriptionSchema)
     .mutation(async ({ input, ctx }) => {
-      console.log('input:', input)
       const session = await getServerSession(ctx.event)
-      console.log('session:', session)
 
       if (!session) {
         throw new Error('You must be logged in to create a subscription')
       }
 
-      return await prisma.subscription.create({
-        data: {
-          ...input,
+      const {
+        name,
+        plan,
+        price,
+        currency,
+        interval,
+        status,
+        nextBillingDate,
+        canceledAt,
+        stripeCustomerId,
+        stripeSubscriptionId,
+        stripePriceId,
+      } = input
+
+      const existing = await prisma.subscription.findFirst({
+        where: {
           userId: session.user.id,
+          status: 'active',
+          plan,
         },
       })
+
+      if (existing) {
+        throw new Error(
+          'You already have an active subscription for this plan.'
+        )
+      }
+
+      try {
+        return await prisma.subscription.create({
+          data: {
+            userId: session.user.id,
+            name,
+            plan,
+            price,
+            currency,
+            interval,
+            status,
+            nextBillingDate,
+            canceledAt,
+            stripeCustomerId,
+            stripeSubscriptionId,
+            stripePriceId,
+          },
+        })
+      } catch (error) {
+        console.error('Error creating subscription:', error)
+        throw new Error('Failed to create subscription')
+      }
+    }),
+
+  // Retrieve Stripe session details
+  getStripeSessionDetails: publicProcedure
+    .input(z.object({ sessionId: z.string() }))
+    .query(async ({ input, ctx }) => {
+      const session = await getServerSession(ctx.event)
+      if (!session) {
+        throw new Error(
+          'You must be logged in to retrieve subscription details'
+        )
+      }
+
+      try {
+        const stripeSession = await stripeService.getCheckoutSession(
+          input.sessionId
+        )
+        return {
+          stripeCustomerId: stripeSession.stripeCustomerId,
+          stripeSubscriptionId: stripeSession.stripeSubscriptionId,
+          stripePriceId: stripeSession.stripePriceId,
+        }
+      } catch (error) {
+        console.error('Error retrieving Stripe session:', error)
+        throw new Error('Failed to retrieve Stripe session details')
+      }
     }),
 
   // Update subscription status (for cancellation)
@@ -83,7 +149,6 @@ export const subscriptionsRouter = router({
         throw new Error('You must be logged in to update a subscription')
       }
 
-      // Check if the subscription exists and belongs to the current user
       const subscription = await prisma.subscription.findUnique({
         where: {
           id,
@@ -101,8 +166,7 @@ export const subscriptionsRouter = router({
       }
 
       try {
-        // Update the subscription status
-        const updated = await prisma.subscription.update({
+        return await prisma.subscription.update({
           where: {
             id,
           },
@@ -111,15 +175,13 @@ export const subscriptionsRouter = router({
             canceledAt: status === 'canceled' ? canceledAt || new Date() : null,
           },
         })
-
-        return updated
       } catch (error) {
         console.error('Error updating subscription:', error)
         throw new Error('Failed to update subscription status')
       }
     }),
 
-  // Delete a subscription (for admin purposes)
+  // Delete a subscription
   delete: publicProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ input, ctx }) => {
@@ -130,7 +192,6 @@ export const subscriptionsRouter = router({
         throw new Error('You must be logged in to delete a subscription')
       }
 
-      // Check if the subscription exists and belongs to the current user
       const subscription = await prisma.subscription.findUnique({
         where: {
           id,
@@ -174,7 +235,6 @@ export const subscriptionsRouter = router({
       const { courseId, offeringId, successUrl, cancelUrl } = input
 
       try {
-        // Create a checkout session
         const checkoutSession = await stripeService.createCheckoutSession({
           userId: session.user.id,
           email: session.user.email as string,
@@ -186,7 +246,6 @@ export const subscriptionsRouter = router({
 
         return { sessionId: checkoutSession.id, url: checkoutSession.url }
       } catch (error) {
-        console.log(input)
         console.error('Error creating checkout session:', error)
         throw new Error('Failed to create checkout session')
       }
@@ -202,7 +261,6 @@ export const subscriptionsRouter = router({
         throw new Error('You must be logged in to cancel a subscription')
       }
 
-      // Verify the subscription belongs to the user
       const subscription = await prisma.subscription.findFirst({
         where: {
           stripeSubscriptionId: subscriptionId,
@@ -215,10 +273,8 @@ export const subscriptionsRouter = router({
       }
 
       try {
-        // Cancel in Stripe
         await stripeService.cancelSubscription(subscriptionId)
 
-        // Update in database
         return await prisma.subscription.update({
           where: { id: subscription.id },
           data: {

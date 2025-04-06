@@ -97,7 +97,7 @@ async function handleCheckoutSessionCompleted(
     const course = await prisma.course.findUnique({
       where: { id: courseId },
       include: {
-        offerings: offeringId
+        offers: offeringId
           ? {
               where: { id: offeringId },
             }
@@ -111,8 +111,8 @@ async function handleCheckoutSessionCompleted(
     }
 
     const offering = offeringId
-      ? course.offerings.find((o) => o.id === offeringId)
-      : course.offerings[0]
+      ? course.offers.find((o) => o.id === offeringId)
+      : course.offers[0]
 
     if (!offering) {
       console.error(`Offering not found for course: ${courseId}`)
@@ -133,15 +133,6 @@ async function handleCheckoutSessionCompleted(
         stripeCustomerId: session.customer as string,
         stripeSubscriptionId: subscription.id,
         stripePriceId: subscription.items.data[0]?.price.id,
-      },
-    })
-
-    // Create course enrollment
-    await prisma.courseEnrollment.create({
-      data: {
-        userId: session.metadata.userId,
-        courseId: courseId,
-        isActive: true,
       },
     })
   }
