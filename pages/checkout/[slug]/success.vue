@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { AnyEvent } from '~/schemas/event'
 import { z } from 'zod'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { watchEffect, ref } from 'vue'
+
 const { updateLessonUnlockStatus } = useCourseProgress()
 const isUpdating = ref(true)
 const updateError = ref(false)
@@ -20,7 +20,7 @@ const course = await $client.courses.view.query({ slug })
 const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
-// check url change and update course status
+
 watchEffect(async () => {
   if (
     typeOfInstance.value !== 'course' ||
@@ -167,14 +167,14 @@ watchEffect(async () => {
                 <Icon name="ph:calendar" class="w-4 h-4" />
                 <span>{{
                   formatDate(course?.courseInstance?.[0]?.startDate || '')
-                }}</span>
+                  }}</span>
               </div>
               <div class="flex items-center gap-2">
                 <Icon name="ph:map-pin" class="w-4 h-4" />
                 <span>{{
                   course?.courseInstance?.[0]?.location?.name ||
                   'WeDance Online Platform'
-                  }}, {{ 'Online' }}</span>
+                }}, {{ 'Online' }}</span>
               </div>
             </div>
           </div>
