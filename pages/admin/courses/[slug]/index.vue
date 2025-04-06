@@ -15,7 +15,7 @@ const { $client } = useNuxtApp()
 const course = ref<any>(null)
 const loading = ref(true)
 
-const getCourse = async () => {
+const loadCourse = async () => {
   try {
     loading.value = true
     const result = await $client.courses.view.query({
@@ -30,7 +30,7 @@ const getCourse = async () => {
   }
 }
 
-await getCourse()
+await loadCourse()
 
 const schema = z.object({
   name: z.string().min(1),
@@ -79,7 +79,7 @@ const save = async (values: any) => {
       ...values,
     })
     toast.success('Course updated successfully')
-    await getCourse()
+    await loadCourse()
   } catch (error) {
     toast.error((error as Error).message)
   }
@@ -102,8 +102,8 @@ const onSubmit = form.handleSubmit(save)
 
     <div v-else-if="course" class="space-y-8">
       <CourseEditor v-model="course" @submit="onSubmit" />
-      <CourseModulesEditor v-model="course.modules" />
-      <CourseResourcesEditor v-model="course.resources" />
+      <CourseModulesEditor v-model="course" @load="loadCourse" />
+      <CourseResourcesEditor v-model="course" @load="loadCourse" />
       <CourseOffersEditor v-model="course" @save="save" />
     </div>
 
