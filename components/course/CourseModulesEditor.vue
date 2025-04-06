@@ -99,7 +99,6 @@ function openEditModuleDialog(module?: any) {
             </div>
           </div>
 
-          <!-- Optional: Display module description -->
           <p
             v-if="module.description"
             class="text-sm text-muted-foreground mb-3 ml-4"
@@ -175,7 +174,7 @@ function openEditModuleDialog(module?: any) {
           </div>
         </div>
       </div>
-      <!-- No Modules Message -->
+
       <div
         v-else
         class="text-center py-6 text-muted-foreground border-2 border-dashed border-border rounded-md"
