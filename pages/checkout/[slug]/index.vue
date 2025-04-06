@@ -58,6 +58,7 @@ const handleSubmit = async () => {
       })
 
       if (stripeUrl) {
+        localStorage.setItem('selected_offer_id', offer)
         window.location.href = stripeUrl
       } else {
         console.error('Stripe checkout URL not found')
