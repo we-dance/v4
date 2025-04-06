@@ -49,7 +49,13 @@ function openEditModuleDialog(module?: any) {
 <template>
   <Card>
     <CardHeader>
-      <CardTitle>Modules</CardTitle>
+      <CardTitle class="flex items-center justify-between">
+        <div>Modules</div>
+        <Button variant="outline" @click="openEditModuleDialog()">
+          <Icon name="lucide:plus" class="h-4 w-4 mr-2" />
+          Add Module
+        </Button>
+      </CardTitle>
       <CardDescription>Organize your course into modules</CardDescription>
     </CardHeader>
     <CardContent>
@@ -175,13 +181,6 @@ function openEditModuleDialog(module?: any) {
       >
         <p class="mb-2">No modules added yet.</p>
         <p>Start by adding your first module below.</p>
-      </div>
-      <!-- Add Module Button -->
-      <div class="mt-6 flex justify-center border-t pt-6">
-        <Button @click="openEditModuleDialog()">
-          <Icon name="lucide:plus" class="h-4 w-4 mr-2" />
-          Add New Module
-        </Button>
       </div>
     </CardContent>
   </Card>
