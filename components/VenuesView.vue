@@ -7,11 +7,7 @@ const showLocationFilter = ref(false)
 const search = ref('')
 const selectedLocation = ref<string | null>(null)
 const selectedStyles = ref<string[]>([])
-// const selectedFeatures = ref<string[]>([])
-// const selectedPriceRange = ref<[number, number]>([0, 200])
-// const selectedCapacityRange = ref<[number, number]>([0, 200])
 
-// Pagination state
 const page = ref(1)
 const limit = ref(9)
 const totalCount = ref(0)
@@ -23,11 +19,9 @@ const loadingTimes = ref<number[]>([])
 const allDanceStyles = ref<string[]>([])
 const loadingStyles = ref(false)
 
-// Cache configuration
 const CACHE_KEY = 'wedance_venue_dance_styles'
 const CACHE_EXPIRY = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
 
-// Load styles from cache if available
 const loadStylesFromCache = () => {
   if (process.client) {
     try {
@@ -36,7 +30,6 @@ const loadStylesFromCache = () => {
         const { styles, timestamp } = JSON.parse(cached)
         const now = Date.now()
 
-        // Check if cache is still valid
         if (now - timestamp < CACHE_EXPIRY) {
           allDanceStyles.value = styles
           return true
@@ -49,7 +42,6 @@ const loadStylesFromCache = () => {
   return false
 }
 
-// Save styles to cache
 const saveStylesToCache = (styles: string[]) => {
   if (process.client) {
     try {
@@ -67,10 +59,6 @@ const saveStylesToCache = (styles: string[]) => {
 const allStyles = computed(() =>
   Array.from(new Set(venues.value.flatMap((venue) => venue.danceStyles || [])))
 )
-
-// const allFeatures = computed(() =>
-//   Array.from(new Set(venues.value.flatMap((venue) => venue.features || [])))
-// )
 
 const updateLocation = (location: string | null) => {
   selectedLocation.value = location
@@ -93,7 +81,6 @@ const resetSearch = () => {
 async function fetchVenues() {
   isLoading.value = true
   try {
-    // Pass all filters to the server
     const result = await trpc.profiles.venues.query({
       limit: limit.value,
       page: page.value,
@@ -159,23 +146,19 @@ const debouncedReset = useDebounceFn(() => {
   resetSearch()
 }, 300)
 
-// Only apply debounce to search, not to style selection
 watch([search], () => {
   debouncedReset()
 })
 
-// Handle style selection
 const toggleStyle = (style: string) => {
   if (selectedStyles.value.includes(style)) {
     selectedStyles.value = selectedStyles.value.filter((s) => s !== style)
   } else {
     selectedStyles.value.push(style)
   }
-  // Immediately refresh venues when a style is selected
   resetSearch()
 }
 
-// Clear all selected styles
 const clearAllStyles = () => {
   selectedStyles.value = []
   resetSearch()
@@ -195,7 +178,6 @@ const getAddress = (venue: any) => {
   return venue.formattedAddress || (venue.city ? venue.city.name : '') || ''
 }
 
-// Get current styles counts from visible venues
 const currentStylesWithCount = computed(() => {
   const styleCount = new Map<string, number>()
 
@@ -212,15 +194,12 @@ const currentStylesWithCount = computed(() => {
     .map(([style, count]) => ({ style, count }))
 })
 
-// Format the dance styles with counts
 const formattedDanceStyles = computed(() => {
   if (allDanceStyles.value.length > 0) {
-    // Create a Map of style counts for quick lookup
     const countMap = new Map(
       currentStylesWithCount.value.map((item) => [item.style, item.count])
     )
 
-    // Format the cached styles with counts
     return allDanceStyles.value.map((style) => ({
       style,
       count: countMap.get(style) || 0,
@@ -229,24 +208,6 @@ const formattedDanceStyles = computed(() => {
 
   return currentStylesWithCount.value
 })
-
-// Group dance styles by category (if relevant in the future)
-// const groupedStyles = computed(() => {
-//   const groups: Record<string, Array<{style: string, count: number}>> = {}
-//
-//   formattedDanceStyles.value.forEach(styleObj => {
-//     // Logic to determine category - placeholder for future implementation
-//     const category = 'All'
-//
-//     if (!groups[category]) {
-//       groups[category] = []
-//     }
-//
-//     groups[category].push(styleObj)
-//   })
-//
-//   return groups
-// })
 </script>
 
 <template>
@@ -347,73 +308,46 @@ const formattedDanceStyles = computed(() => {
     </div>
 
     <!-- Features -->
-    <!-- <div>
-      <h3 class="font-medium mb-3">Features</h3>
-      <div class="flex flex-wrap gap-2">
-        <Button
-          v-for="feature in allFeatures"
-          :key="feature"
-          variant="outline"
-          size="sm"
-          :class="[
-            selectedFeatures.includes(feature)
-              ? 'bg-primary text-primary-foreground'
-              : '',
-          ]"
-          @click="
-            selectedFeatures.includes(feature)
-              ? (selectedFeatures = selectedFeatures.filter(
-                  (f) => f !== feature
-                ))
-              : selectedFeatures.push(feature)
-          "
-        >
-          {{ feature }}
-        </Button>
+    <div class="opacity-60 pointer-events-none">
+      <div class="flex justify-between items-center mb-3">
+        <h3 class="font-medium">Features</h3>
+        <Badge variant="outline" class="text-xs">Coming soon</Badge>
       </div>
-    </div> -->
+      <div class="flex flex-wrap gap-2">
+        <Button variant="outline" size="sm"> Parking </Button>
+        <Button variant="outline" size="sm"> Air Conditioning </Button>
+        <Button variant="outline" size="sm"> Sound System </Button>
+        <Button variant="outline" size="sm"> Stage </Button>
+      </div>
+    </div>
 
     <!-- Price Range -->
-    <!-- <div>
-      <h3 class="font-medium mb-3">Price per Hour</h3>
+    <div class="opacity-60 pointer-events-none">
+      <div class="flex justify-between items-center mb-3">
+        <h3 class="font-medium">Price per Hour</h3>
+        <Badge variant="outline" class="text-xs">Coming soon</Badge>
+      </div>
       <div class="flex items-center gap-4">
-        <Input
-          v-model="selectedPriceRange[0]"
-          type="number"
-          placeholder="Min"
-          class="w-24"
-        />
+        <Input type="number" placeholder="Min" class="w-24" disabled />
         <span>to</span>
-        <Input
-          v-model="selectedPriceRange[1]"
-          type="number"
-          placeholder="Max"
-          class="w-24"
-        />
+        <Input type="number" placeholder="Max" class="w-24" disabled />
         <span>€</span>
       </div>
-    </div> -->
+    </div>
 
     <!-- Capacity -->
-    <!-- <div>
-      <h3 class="font-medium mb-3">Capacity</h3>
+    <div class="opacity-60 pointer-events-none">
+      <div class="flex justify-between items-center mb-3">
+        <h3 class="font-medium">Capacity</h3>
+        <Badge variant="outline" class="text-xs">Coming soon</Badge>
+      </div>
       <div class="flex items-center gap-4">
-        <Input
-          v-model="selectedCapacityRange[0]"
-          type="number"
-          placeholder="Min"
-          class="w-24"
-        />
+        <Input type="number" placeholder="Min" class="w-24" disabled />
         <span>to</span>
-        <Input
-          v-model="selectedCapacityRange[1]"
-          type="number"
-          placeholder="Max"
-          class="w-24"
-        />
+        <Input type="number" placeholder="Max" class="w-24" disabled />
         <span>people</span>
       </div>
-    </div> -->
+    </div>
   </div>
 
   <!-- Loading State -->
@@ -465,19 +399,39 @@ const formattedDanceStyles = computed(() => {
         <p class="text-muted-foreground text-sm mb-2">
           {{ getAddress(venue) }}
         </p>
-        <!-- <div class="flex items-center gap-4 text-sm text-muted-foreground mb-3">
-          <div class="flex items-center gap-1">
+        <div
+          v-if="venue.areas && venue.areas.length > 0"
+          class="flex items-center gap-4 text-sm text-muted-foreground mb-3"
+        >
+          <div
+            v-if="venue.areas.some((a: any) => a.pricePerHour)"
+            class="flex items-center gap-1"
+          >
             <Icon name="ph:currency-eur" class="w-4 h-4" />
-            {{ Math.min(...venue.areas.map((a: any) => a.pricePerHour)) }}-{{
-              Math.max(...venue.areas.map((a: any) => a.pricePerHour))
+            {{
+              Math.min(
+                ...venue.areas
+                  .map((a: any) => a.pricePerHour || Infinity)
+                  .filter((p: number) => p !== Infinity)
+              )
+            }}-{{
+              Math.max(...venue.areas.map((a: any) => a.pricePerHour || 0))
             }}/hour
           </div>
-          <div class="flex items-center gap-1">
+          <div
+            v-if="venue.areas.some((a: any) => a.capacity)"
+            class="flex items-center gap-1"
+          >
             <Icon name="ph:users" class="w-4 h-4" />
-            {{ venue.areas.reduce((sum: number, area: any) => sum + area.capacity, 0) }}
+            {{
+              venue.areas.reduce(
+                (sum: number, area: any) => sum + (area.capacity || 0),
+                0
+              )
+            }}
             people
           </div>
-        </div> -->
+        </div>
         <p
           v-if="getDescription(venue)"
           class="text-foreground mb-4 line-clamp-2"
