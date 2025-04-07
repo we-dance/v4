@@ -73,6 +73,8 @@ model User {
   profilesCreated Profile[] @relation("profile_created_by")
   accounts        Account[]
   sessions        Session[]
+  // Course relationships
+  // courseEnrollments CourseEnrollment[] @relation("user_enrollments")
 
   createdAt    DateTime       @default(now())
   updatedAt    DateTime       @updatedAt
@@ -452,27 +454,6 @@ model Offer {
   updatedAt DateTime @updatedAt
 
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
-}
-
-model Subscription {
-  id                   String    @id @default(cuid())
-  userId               String
-  user                 User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  name                 String
-  plan                 String
-  price                Float
-  currency             String
-  interval             String // e.g. 'month', 'year'
-  status               String // e.g. 'active', 'canceled', 'past_due'
-  nextBillingDate      DateTime?
-  canceledAt           DateTime?
-  stripeCustomerId     String?
-  stripeSubscriptionId String?
-  stripePriceId        String?
-  createdAt            DateTime @default(now())
-  updatedAt            DateTime @updatedAt
-
-  @@index([userId])
 }
 
 model Subscription {

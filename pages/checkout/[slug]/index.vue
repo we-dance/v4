@@ -11,18 +11,7 @@ const { checkEmail, createAccount, login, isLoading, error } = useRegistration()
 const { $client } = useNuxtApp()
 const route = useRoute()
 const slug = z.string().parse(route.params.slug)
-// offerId
 const offer = z.string().parse(route.query.offer)
-// find course
-const course = await $client.courses.view.query({ slug })
-const checkoutState = ref<'email' | 'login' | 'register'>('email')
-
-const { $client } = useNuxtApp()
-const route = useRoute()
-const slug = z.string().parse(route.params.slug)
-// offerId
-const offer = z.string().parse(route.query.offer)
-// find course
 const course = await $client.courses.view.query({ slug })
 const checkoutState = ref<'email' | 'login' | 'register'>('email')
 

@@ -10,7 +10,6 @@ const updateError = ref(false)
 const subscriptionCreated = ref(false)
 
 const { $client } = useNuxtApp()
-const { $client } = useNuxtApp()
 const route = useRoute()
 const slug = z.string().parse(route.params.slug)
 
