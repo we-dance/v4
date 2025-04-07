@@ -49,15 +49,14 @@ const handleViewPricing = () => {
   })
 }
 
-const handleSubscribe = async (offeringId: string) => {
+const handleSubscribe = async (offerId: string) => {
   try {
     isCheckoutLoading.value = true
     loadingStripeCourseId.value = course.id
-    console.log(`offer: ${offeringId}`)
     const url = await redirectToCheckout({
       courseId: course.id,
       courseName: course.name,
-      offeringId: offeringId,
+      offeringId: offerId,
     })
 
     if (url) {

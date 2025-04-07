@@ -117,8 +117,8 @@ export const stripeService = {
 
     const price = await stripe.prices.create({
       product: productId,
-      unit_amount: Math.round(offering.price * 100),
-      currency: offering.currency || 'USD',
+      unit_amount: offering.price,
+      currency: offering.currency || 'EUR',
       recurring: {
         interval: interval,
       },

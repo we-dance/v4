@@ -88,7 +88,7 @@ watchEffect(async () => {
       updateError.value = true
     }
   } catch (err) {
-    toast.error('Error creating subscription or unlocking lessons:', err)
+    toast.error('Error creating subscription or unlocking lessons')
     updateError.value = true
   } finally {
     isUpdating.value = false
