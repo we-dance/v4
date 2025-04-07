@@ -17,13 +17,11 @@ const loadingRegions = ref(false)
 const cities = ref<Array<{ name: string; count: string }>>([])
 const regions = ref<Array<{ name: string; count: string }>>([])
 
-// Fetch all unique cities and regions where venues are located
 const fetchLocations = async () => {
   loadingCities.value = true
   loadingRegions.value = true
 
   try {
-    // Get venue cities from database
     const venueCities = await trpc.profiles.venueLocations.query()
     cities.value = venueCities.cities.map((city) => ({
       name: city.name,
@@ -37,7 +35,6 @@ const fetchLocations = async () => {
   } catch (error) {
     console.error('Error fetching venue locations:', error)
 
-    // Fallback to some default locations if the query fails
     cities.value = [
       { name: 'New York', count: '10+' },
       { name: 'London', count: '8+' },
