@@ -1,18 +1,5 @@
 <script setup lang="ts">
 import { useDebounceFn } from '@vueuse/core'
-// import { mockVenues } from '~/data/mockVenues'
-// const venues = mockVenues
-
-/**
- * Optimizations implemented:
- * 1. Server-side filtering instead of client filtering
- * 2. Selective field retrieval (only fetching needed fields)
- * 3. Two-phase query approach (basic venue data first, then styles separately)
- * 4. Limited event retrieval (only 100 events per venue batch)
- * 5. Performance measurement and logging
- * 6. Increased page size (12 instead of 9) to reduce requests
- * 7. NuxtImg optimization with proper sizing and format
- */
 
 const venues = ref<any[]>([])
 const showFilters = ref(false)
