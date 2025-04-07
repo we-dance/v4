@@ -548,12 +548,6 @@ export const profilesRouter = router({
               mode: 'insensitive',
             },
           },
-          {
-            bio: {
-              contains: search,
-              mode: 'insensitive',
-            },
-          },
         ]
       }
 
