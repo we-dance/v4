@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { watchEffect, ref } from 'vue'
+import { toast } from 'vue-sonner'
 
 const { updateLessonUnlockStatus } = useCourseProgress()
 const isUpdating = ref(true)
@@ -73,12 +74,12 @@ watchEffect(async () => {
     const result = await updateLessonUnlockStatus(course.id, false)
 
     if (result) {
-      console.log('Lessons unlocked successfully')
+      toast.info('Lessons unlocked successfully')
     } else {
       updateError.value = true
     }
   } catch (err) {
-    console.error('Error creating subscription or unlocking lessons:', err)
+    toast.error('Error creating subscription or unlocking lessons:', err)
     updateError.value = true
   } finally {
     isUpdating.value = false
