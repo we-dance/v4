@@ -159,9 +159,27 @@ const debouncedReset = useDebounceFn(() => {
   resetSearch()
 }, 300)
 
-watch([search, selectedStyles], () => {
+// Only apply debounce to search, not to style selection
+watch([search], () => {
   debouncedReset()
 })
+
+// Handle style selection
+const toggleStyle = (style: string) => {
+  if (selectedStyles.value.includes(style)) {
+    selectedStyles.value = selectedStyles.value.filter((s) => s !== style)
+  } else {
+    selectedStyles.value.push(style)
+  }
+  // Immediately refresh venues when a style is selected
+  resetSearch()
+}
+
+// Clear all selected styles
+const clearAllStyles = () => {
+  selectedStyles.value = []
+  resetSearch()
+}
 
 onMounted(async () => {
   await fetchVenues()
@@ -176,6 +194,59 @@ const getDescription = (venue: any) => {
 const getAddress = (venue: any) => {
   return venue.formattedAddress || (venue.city ? venue.city.name : '') || ''
 }
+
+// Get current styles counts from visible venues
+const currentStylesWithCount = computed(() => {
+  const styleCount = new Map<string, number>()
+
+  venues.value.forEach((venue) => {
+    if (venue.danceStyles && venue.danceStyles.length) {
+      venue.danceStyles.forEach((style: string) => {
+        styleCount.set(style, (styleCount.get(style) || 0) + 1)
+      })
+    }
+  })
+
+  return Array.from(styleCount.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(([style, count]) => ({ style, count }))
+})
+
+// Format the dance styles with counts
+const formattedDanceStyles = computed(() => {
+  if (allDanceStyles.value.length > 0) {
+    // Create a Map of style counts for quick lookup
+    const countMap = new Map(
+      currentStylesWithCount.value.map((item) => [item.style, item.count])
+    )
+
+    // Format the cached styles with counts
+    return allDanceStyles.value.map((style) => ({
+      style,
+      count: countMap.get(style) || 0,
+    }))
+  }
+
+  return currentStylesWithCount.value
+})
+
+// Group dance styles by category (if relevant in the future)
+// const groupedStyles = computed(() => {
+//   const groups: Record<string, Array<{style: string, count: number}>> = {}
+//
+//   formattedDanceStyles.value.forEach(styleObj => {
+//     // Logic to determine category - placeholder for future implementation
+//     const category = 'All'
+//
+//     if (!groups[category]) {
+//       groups[category] = []
+//     }
+//
+//     groups[category].push(styleObj)
+//   })
+//
+//   return groups
+// })
 </script>
 
 <template>
@@ -215,7 +286,14 @@ const getAddress = (venue: any) => {
       </div>
       <Button variant="outline" class="gap-2" @click="toggleFilters">
         <Icon name="ph:funnel" class="w-4 h-4" />
-        Filters
+        <span>Filters</span>
+        <Badge
+          v-if="selectedStyles.length > 0"
+          variant="default"
+          class="ml-1 text-xs py-0 px-2 h-5"
+        >
+          {{ selectedStyles.length }}
+        </Badge>
       </Button>
     </div>
   </div>
@@ -227,32 +305,43 @@ const getAddress = (venue: any) => {
   >
     <!-- Dance Styles -->
     <div>
-      <h3 class="font-medium mb-3">Dance Styles</h3>
+      <div class="flex justify-between items-center mb-3">
+        <h3 class="font-medium">Dance Styles</h3>
+        <Button
+          v-if="selectedStyles.length > 0"
+          variant="ghost"
+          size="sm"
+          @click="clearAllStyles"
+        >
+          Clear all
+        </Button>
+      </div>
+      <p class="text-muted-foreground text-sm mb-4">
+        Filter venues that host events with these dance styles. Each number
+        shows how many venues offer that dance style.
+      </p>
       <div v-if="loadingStyles" class="flex justify-center py-4">
         <div
           class="animate-spin h-6 w-6 border-4 border-primary border-t-transparent rounded-full"
         ></div>
       </div>
-      <div v-else class="flex flex-wrap gap-2">
+      <div
+        v-else
+        class="flex flex-wrap gap-2 max-h-[300px] overflow-y-auto p-1"
+      >
         <Button
-          v-for="style in allDanceStyles.length > 0
-            ? allDanceStyles
-            : allStyles"
-          :key="style"
+          v-for="styleObj in formattedDanceStyles"
+          :key="styleObj.style"
           variant="outline"
           size="sm"
           :class="[
-            selectedStyles.includes(style)
+            selectedStyles.includes(styleObj.style)
               ? 'bg-primary text-primary-foreground'
               : '',
           ]"
-          @click="
-            selectedStyles.includes(style)
-              ? (selectedStyles = selectedStyles.filter((s) => s !== style))
-              : selectedStyles.push(style)
-          "
+          @click="toggleStyle(styleObj.style)"
         >
-          {{ style }}
+          {{ styleObj.style }}
         </Button>
       </div>
     </div>
@@ -395,14 +484,28 @@ const getAddress = (venue: any) => {
         >
           {{ getDescription(venue) }}
         </p>
-        <div class="flex flex-wrap gap-2">
-          <Badge
-            v-for="style in venue.danceStyles?.slice(0, 3) || []"
-            :key="style"
-            variant="secondary"
-          >
-            {{ style }}
-          </Badge>
+        <div v-if="venue.danceStyles?.length" class="space-y-1">
+          <div class="flex flex-wrap gap-2 mb-1">
+            <Badge
+              v-for="style in (venue.danceStyles || []).slice(0, 3)"
+              :key="style"
+              variant="secondary"
+              class="flex items-center"
+            >
+              <span>{{ style }}</span>
+            </Badge>
+            <Badge
+              v-if="(venue.danceStyles || []).length > 3"
+              variant="outline"
+              class="text-xs"
+            >
+              +{{ venue.danceStyles.length - 3 }} more
+            </Badge>
+          </div>
+          <div class="flex items-center gap-1 text-xs text-muted-foreground">
+            <Icon name="ph:calendar-check" class="w-3 h-3" />
+            <span>Dance styles from events</span>
+          </div>
         </div>
       </div>
     </NuxtLink>
