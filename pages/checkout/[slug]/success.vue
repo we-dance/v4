@@ -4,6 +4,7 @@ import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { watchEffect, ref } from 'vue'
 import { toast } from 'vue-sonner'
+import { convertDurationToInterval } from '~/utils/format'
 
 const { updateLessonUnlockStatus } = useCourseProgress()
 const isUpdating = ref(true)
@@ -51,6 +52,14 @@ watchEffect(async () => {
       (o: { id: string | null }) => o.id === offerId
     )
 
+    const interval = convertDurationToInterval(offer.duration)
+    let nextBillingDate = new Date()
+    if (interval === 'month') {
+      nextBillingDate.setMonth(nextBillingDate.getMonth() + 1)
+    } else if (interval === 'year') {
+      nextBillingDate.setFullYear(nextBillingDate.getFullYear() + 1)
+    }
+
     if (!offer) {
       console.error('Offer not matched with stripe price ID')
       return
@@ -63,7 +72,7 @@ watchEffect(async () => {
       currency: offer.currency.toUpperCase(),
       interval: offer.duration === 'P1Y' ? 'year' : 'month',
       status: 'active',
-      nextBillingDate: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+      nextBillingDate: nextBillingDate,
       stripeCustomerId: stripeData.stripeCustomerId,
       stripeSubscriptionId: stripeData.stripeSubscriptionId,
       stripePriceId: stripeData.stripePriceId,
