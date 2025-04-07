@@ -422,11 +422,9 @@ export const profilesRouter = router({
       },
     })
 
-    // Extract all unique dance styles from all venues
     const allDanceStyles = new Set<string>()
 
     venues.forEach((venue) => {
-      // Combine all events associated with the venue
       const allEvents = [
         ...venue.eventsCreated,
         ...venue.eventsOrganized,
