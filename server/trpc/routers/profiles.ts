@@ -398,4 +398,216 @@ export const profilesRouter = router({
         hasMore: skip + artists.length < totalCount,
       }
     }),
+  allVenuesStyles: publicProcedure.query(async () => {
+    const venues = await prisma.profile.findMany({
+      where: {
+        type: 'Venue',
+      },
+      include: {
+        eventsCreated: {
+          include: {
+            styles: true,
+          },
+        },
+        eventsOrganized: {
+          include: {
+            styles: true,
+          },
+        },
+        eventsHosted: {
+          include: {
+            styles: true,
+          },
+        },
+      },
+    })
+
+    // Extract all unique dance styles from all venues
+    const allDanceStyles = new Set<string>()
+
+    venues.forEach((venue) => {
+      // Combine all events associated with the venue
+      const allEvents = [
+        ...venue.eventsCreated,
+        ...venue.eventsOrganized,
+        ...venue.eventsHosted,
+      ]
+
+      allEvents.forEach((event) => {
+        event.styles.forEach((style) => {
+          allDanceStyles.add(style.name)
+        })
+      })
+    })
+
+    return Array.from(allDanceStyles).sort()
+  }),
+  venues: publicProcedure
+    .input(
+      z
+        .object({
+          limit: z.number().default(12),
+          page: z.number().default(1),
+          search: z.string().optional(),
+          location: z.string().optional(),
+          styles: z.array(z.string()).optional(),
+        })
+        .optional()
+    )
+    .query(async ({ input }) => {
+      const limit = input?.limit || 12
+      const page = input?.page || 1
+      const skip = (page - 1) * limit
+      const search = input?.search || ''
+      const location = input?.location || ''
+      const styles = input?.styles || []
+
+      const whereCondition: any = {
+        type: 'Venue',
+      }
+
+      if (search) {
+        whereCondition.OR = [
+          {
+            name: {
+              contains: search,
+              mode: 'insensitive',
+            },
+          },
+          {
+            description: {
+              contains: search,
+              mode: 'insensitive',
+            },
+          },
+        ]
+      }
+
+      if (location) {
+        whereCondition.city = {
+          name: {
+            contains: location,
+            mode: 'insensitive',
+          },
+        }
+      }
+
+      let venueIdsWithStyles: string[] = []
+
+      if (styles.length > 0) {
+        const eventsWithStyles = await prisma.event.findMany({
+          where: {
+            styles: {
+              some: {
+                name: {
+                  in: styles,
+                },
+              },
+            },
+          },
+          select: {
+            venueId: true,
+            organizerId: true,
+          },
+        })
+
+        venueIdsWithStyles = Array.from(
+          new Set([
+            ...eventsWithStyles.map((e) => e.venueId).filter(Boolean),
+            ...eventsWithStyles.map((e) => e.organizerId).filter(Boolean),
+          ])
+        ) as string[]
+
+        if (venueIdsWithStyles.length > 0) {
+          whereCondition.id = {
+            in: venueIdsWithStyles,
+          }
+        } else if (styles.length > 0) {
+          return {
+            venues: [],
+            totalCount: 0,
+            hasMore: false,
+          }
+        }
+      }
+
+      const totalCount = await prisma.profile.count({
+        where: whereCondition,
+      })
+
+      const venues = await prisma.profile.findMany({
+        where: whereCondition,
+        select: {
+          id: true,
+          name: true,
+          username: true,
+          bio: true,
+          photo: true,
+          formattedAddress: true,
+          city: {
+            select: {
+              id: true,
+              name: true,
+            },
+          },
+          type: true,
+          createdAt: true,
+          updatedAt: true,
+        },
+        skip,
+        take: limit,
+        orderBy: {
+          name: 'asc',
+        },
+      })
+
+      const venueIds = venues.map((venue) => venue.id)
+
+      const eventsForVenues = await prisma.event.findMany({
+        where: {
+          OR: [
+            { venueId: { in: venueIds } },
+            { organizerId: { in: venueIds } },
+          ],
+        },
+        select: {
+          venueId: true,
+          organizerId: true,
+          styles: {
+            select: {
+              name: true,
+            },
+          },
+        },
+      })
+
+      const stylesByVenue = new Map<string, Set<string>>()
+
+      eventsForVenues.forEach((event) => {
+        const venueId = event.venueId || event.organizerId
+        if (!venueId) return
+
+        if (!stylesByVenue.has(venueId)) {
+          stylesByVenue.set(venueId, new Set<string>())
+        }
+
+        const venueStyles = stylesByVenue.get(venueId)!
+        event.styles.forEach((style) => {
+          venueStyles.add(style.name)
+        })
+      })
+
+      const venuesWithStyles = venues.map((venue) => {
+        return {
+          ...venue,
+          danceStyles: Array.from(stylesByVenue.get(venue.id) || []),
+        }
+      })
+
+      return {
+        venues: venuesWithStyles,
+        totalCount,
+        hasMore: skip + venues.length < totalCount,
+      }
+    }),
 })
