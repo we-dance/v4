@@ -475,7 +475,7 @@ export const profilesRouter = router({
             },
           },
           {
-            description: {
+            bio: {
               contains: search,
               mode: 'insensitive',
             },

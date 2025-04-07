@@ -13,12 +13,56 @@ const selectedStyles = ref<string[]>([])
 
 // Pagination state
 const page = ref(1)
-const limit = ref(12) // Increased from 9 to 12 to reduce number of requests
+const limit = ref(9)
 const totalCount = ref(0)
 const hasMore = ref(false)
 const isLoading = ref(false)
 const loadingMore = ref(false)
 const loadingTimes = ref<number[]>([])
+
+const allDanceStyles = ref<string[]>([])
+const loadingStyles = ref(false)
+
+// Cache configuration
+const CACHE_KEY = 'wedance_venue_dance_styles'
+const CACHE_EXPIRY = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
+
+// Load styles from cache if available
+const loadStylesFromCache = () => {
+  if (process.client) {
+    try {
+      const cached = localStorage.getItem(CACHE_KEY)
+      if (cached) {
+        const { styles, timestamp } = JSON.parse(cached)
+        const now = Date.now()
+
+        // Check if cache is still valid
+        if (now - timestamp < CACHE_EXPIRY) {
+          allDanceStyles.value = styles
+          return true
+        }
+      }
+    } catch (error) {
+      console.error('Error loading styles from cache:', error)
+    }
+  }
+  return false
+}
+
+// Save styles to cache
+const saveStylesToCache = (styles: string[]) => {
+  if (process.client) {
+    try {
+      const cacheData = {
+        styles,
+        timestamp: Date.now(),
+      }
+      localStorage.setItem(CACHE_KEY, JSON.stringify(cacheData))
+    } catch (error) {
+      console.error('Error saving styles to cache:', error)
+    }
+  }
+}
 
 const allStyles = computed(() =>
   Array.from(new Set(venues.value.flatMap((venue) => venue.danceStyles || [])))
@@ -86,12 +130,31 @@ async function loadMore() {
 }
 
 async function fetchStyles() {
-  const styles = await trpc.profiles.allVenuesStyles.query()
-  // allStyles is a computed property, so we don't need to set its value directly
-  // instead, we'll update venues ref which will automatically update allStyles
+  if (allDanceStyles.value.length > 0) return
+
+  if (loadStylesFromCache()) return
+
+  loadingStyles.value = true
+  try {
+    const styles = await trpc.profiles.allVenuesStyles.query()
+    allDanceStyles.value = styles
+
+    saveStylesToCache(styles)
+  } catch (error) {
+    console.error('Error fetching dance styles:', error)
+  } finally {
+    loadingStyles.value = false
+  }
 }
 
-// Watch for search, filters change and reset pagination
+const toggleFilters = async () => {
+  showFilters.value = !showFilters.value
+
+  if (showFilters.value) {
+    await fetchStyles()
+  }
+}
+
 const debouncedReset = useDebounceFn(() => {
   resetSearch()
 }, 300)
@@ -102,14 +165,14 @@ watch([search, selectedStyles], () => {
 
 onMounted(async () => {
   await fetchVenues()
+
+  loadStylesFromCache()
 })
 
-// Update the venue card display to handle missing properties safely
 const getDescription = (venue: any) => {
   return venue.bio || venue.description || ''
 }
 
-// Add a method to safely get address
 const getAddress = (venue: any) => {
   return venue.formattedAddress || (venue.city ? venue.city.name : '') || ''
 }
@@ -150,11 +213,7 @@ const getAddress = (venue: any) => {
           <Icon name="ph:x" class="w-4 h-4" />
         </Button>
       </div>
-      <Button
-        variant="outline"
-        class="gap-2"
-        @click="showFilters = !showFilters"
-      >
+      <Button variant="outline" class="gap-2" @click="toggleFilters">
         <Icon name="ph:funnel" class="w-4 h-4" />
         Filters
       </Button>
@@ -169,9 +228,16 @@ const getAddress = (venue: any) => {
     <!-- Dance Styles -->
     <div>
       <h3 class="font-medium mb-3">Dance Styles</h3>
-      <div class="flex flex-wrap gap-2">
+      <div v-if="loadingStyles" class="flex justify-center py-4">
+        <div
+          class="animate-spin h-6 w-6 border-4 border-primary border-t-transparent rounded-full"
+        ></div>
+      </div>
+      <div v-else class="flex flex-wrap gap-2">
         <Button
-          v-for="style in allStyles"
+          v-for="style in allDanceStyles.length > 0
+            ? allDanceStyles
+            : allStyles"
           :key="style"
           variant="outline"
           size="sm"
