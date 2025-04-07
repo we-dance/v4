@@ -505,46 +505,16 @@ export const profilesRouter = router({
       }
     }),
   allVenuesStyles: publicProcedure.query(async () => {
-    const venues = await prisma.profile.findMany({
-      where: {
-        type: 'Venue',
+    const styles = await prisma.danceStyle.findMany({
+      select: {
+        name: true,
       },
-      include: {
-        eventsCreated: {
-          include: {
-            styles: true,
-          },
-        },
-        eventsOrganized: {
-          include: {
-            styles: true,
-          },
-        },
-        eventsHosted: {
-          include: {
-            styles: true,
-          },
-        },
+      orderBy: {
+        name: 'asc',
       },
     })
 
-    const allDanceStyles = new Set<string>()
-
-    venues.forEach((venue) => {
-      const allEvents = [
-        ...venue.eventsCreated,
-        ...venue.eventsOrganized,
-        ...venue.eventsHosted,
-      ]
-
-      allEvents.forEach((event) => {
-        event.styles.forEach((style) => {
-          allDanceStyles.add(style.name)
-        })
-      })
-    })
-
-    return Array.from(allDanceStyles).sort()
+    return styles.map((style) => style.name)
   }),
   venues: publicProcedure
     .input(

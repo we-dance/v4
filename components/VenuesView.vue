@@ -19,43 +19,6 @@ const loadingTimes = ref<number[]>([])
 const allDanceStyles = ref<string[]>([])
 const loadingStyles = ref(false)
 
-const CACHE_KEY = 'wedance_venue_dance_styles'
-const CACHE_EXPIRY = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
-
-const loadStylesFromCache = () => {
-  if (process.client) {
-    try {
-      const cached = localStorage.getItem(CACHE_KEY)
-      if (cached) {
-        const { styles, timestamp } = JSON.parse(cached)
-        const now = Date.now()
-
-        if (now - timestamp < CACHE_EXPIRY) {
-          allDanceStyles.value = styles
-          return true
-        }
-      }
-    } catch (error) {
-      console.error('Error loading styles from cache:', error)
-    }
-  }
-  return false
-}
-
-const saveStylesToCache = (styles: string[]) => {
-  if (process.client) {
-    try {
-      const cacheData = {
-        styles,
-        timestamp: Date.now(),
-      }
-      localStorage.setItem(CACHE_KEY, JSON.stringify(cacheData))
-    } catch (error) {
-      console.error('Error saving styles to cache:', error)
-    }
-  }
-}
-
 const allStyles = computed(() =>
   Array.from(new Set(venues.value.flatMap((venue) => venue.danceStyles || [])))
 )
@@ -119,14 +82,10 @@ async function loadMore() {
 async function fetchStyles() {
   if (allDanceStyles.value.length > 0) return
 
-  if (loadStylesFromCache()) return
-
   loadingStyles.value = true
   try {
     const styles = await trpc.profiles.allVenuesStyles.query()
     allDanceStyles.value = styles
-
-    saveStylesToCache(styles)
   } catch (error) {
     console.error('Error fetching dance styles:', error)
   } finally {
@@ -166,8 +125,6 @@ const clearAllStyles = () => {
 
 onMounted(async () => {
   await fetchVenues()
-
-  loadStylesFromCache()
 })
 
 const getDescription = (venue: any) => {
@@ -496,7 +453,11 @@ const formattedDanceStyles = computed(() => {
     />
     <h3 class="text-lg font-medium text-foreground mb-2">No venues found</h3>
     <p class="text-muted-foreground">
-      Try adjusting your filters or search terms
+      <span v-if="selectedStyles.length > 0">
+        No venues found with events offering
+        <strong>{{ selectedStyles.join(', ') }}</strong> dance styles.
+      </span>
+      <span v-else> Try adjusting your filters or search terms </span>
     </p>
   </div>
 
