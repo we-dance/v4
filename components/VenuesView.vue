@@ -502,11 +502,11 @@ const formattedDanceStyles = computed(() => {
 
   <!-- Location Sheet -->
   <Sheet :open="showLocationFilter" @update:open="showLocationFilter = false">
-    <SheetContent side="bottom" class="h-[80vh]">
+    <SheetContent side="bottom" class="h-[80vh] flex flex-col">
       <SheetHeader>
         <SheetTitle>Filter by Location</SheetTitle>
       </SheetHeader>
-      <div class="mt-4">
+      <div class="mt-4 overflow-y-auto flex-1 pb-6">
         <LocationPanel
           :location="selectedLocation"
           @update:location="updateLocation($event)"

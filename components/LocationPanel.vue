@@ -11,29 +11,65 @@ const props = defineProps({
 })
 
 const locationSearch = ref('')
+const loadingCities = ref(false)
+const loadingRegions = ref(false)
 
-const regions = [
-  { name: 'Europe', count: '15k+' },
-  { name: 'North America', count: '12k+' },
-  { name: 'Latin America', count: '8k+' },
-  { name: 'Asia', count: '5k+' },
-]
+const cities = ref<Array<{ name: string; count: string }>>([])
+const regions = ref<Array<{ name: string; count: string }>>([])
 
-const cities = [
-  { name: 'New York', count: '2.5k+' },
-  { name: 'London', count: '2k+' },
-  { name: 'Madrid', count: '1.8k+' },
-  { name: 'Berlin', count: '1.5k+' },
-]
+// Fetch all unique cities and regions where venues are located
+const fetchLocations = async () => {
+  loadingCities.value = true
+  loadingRegions.value = true
+
+  try {
+    // Get venue cities from database
+    const venueCities = await trpc.profiles.venueLocations.query()
+    cities.value = venueCities.cities.map((city) => ({
+      name: city.name,
+      count: `${city.count}+`,
+    }))
+
+    regions.value = venueCities.regions.map((region) => ({
+      name: region.name,
+      count: `${region.count}+`,
+    }))
+  } catch (error) {
+    console.error('Error fetching venue locations:', error)
+
+    // Fallback to some default locations if the query fails
+    cities.value = [
+      { name: 'New York', count: '10+' },
+      { name: 'London', count: '8+' },
+      { name: 'Berlin', count: '5+' },
+      { name: 'Madrid', count: '3+' },
+    ]
+
+    regions.value = [
+      { name: 'Europe', count: '20+' },
+      { name: 'North America', count: '15+' },
+      { name: 'Asia', count: '5+' },
+    ]
+  } finally {
+    loadingCities.value = false
+    loadingRegions.value = false
+  }
+}
 
 const filteredRegions = computed(() => {
   const search = locationSearch.value.toLowerCase()
-  return regions.filter((region) => region.name.toLowerCase().includes(search))
+  return regions.value.filter((region) =>
+    region.name.toLowerCase().includes(search)
+  )
 })
 
 const filteredCities = computed(() => {
   const search = locationSearch.value.toLowerCase()
-  return cities.filter((city) => city.name.toLowerCase().includes(search))
+  return cities.value.filter((city) => city.name.toLowerCase().includes(search))
+})
+
+onMounted(() => {
+  fetchLocations()
 })
 </script>
 
@@ -49,9 +85,22 @@ const filteredCities = computed(() => {
     </Input>
 
     <div class="flex flex-col gap-1">
-      <div class="font-medium text-sm text-muted-foreground">
+      <div
+        class="font-medium text-sm text-muted-foreground flex items-center justify-between"
+      >
         Popular Regions
+        <span v-if="loadingRegions" class="text-xs text-muted-foreground">
+          <Icon name="ph:spinner-gap" class="w-3 h-3 animate-spin" />
+        </span>
       </div>
+
+      <div
+        v-if="!loadingRegions && filteredRegions.length === 0"
+        class="text-sm text-muted-foreground py-2 px-3"
+      >
+        No regions found
+      </div>
+
       <Button
         v-for="region in filteredRegions"
         :key="region.name"
@@ -66,22 +115,45 @@ const filteredCities = computed(() => {
         }}</span>
       </Button>
 
-      <div class="font-medium text-sm text-muted-foreground mt-2">
-        Popular Cities
-      </div>
-      <Button
-        v-for="city in filteredCities"
-        :key="city.name"
-        variant="ghost"
-        class="justify-start"
-        :class="{ 'bg-accent': props.location === city.name }"
-        @click="emit('update:location', city.name)"
+      <div
+        class="font-medium text-sm text-muted-foreground mt-2 flex items-center justify-between"
       >
-        {{ city.name }}
-        <span class="ml-auto text-sm text-muted-foreground">{{
-          city.count
-        }}</span>
-      </Button>
+        Cities with Venues
+        <span v-if="loadingCities" class="text-xs text-muted-foreground">
+          <Icon name="ph:spinner-gap" class="w-3 h-3 animate-spin" />
+        </span>
+      </div>
+
+      <div
+        v-if="!loadingCities && filteredCities.length === 0"
+        class="text-sm text-muted-foreground py-2 px-3"
+      >
+        No cities found
+      </div>
+
+      <div class="city-list">
+        <Button
+          v-for="city in filteredCities"
+          :key="city.name"
+          variant="ghost"
+          class="justify-start w-full"
+          :class="{ 'bg-accent': props.location === city.name }"
+          @click="emit('update:location', city.name)"
+        >
+          {{ city.name }}
+          <span class="ml-auto text-sm text-muted-foreground">{{
+            city.count
+          }}</span>
+        </Button>
+      </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.city-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+</style>

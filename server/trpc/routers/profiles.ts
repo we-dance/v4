@@ -310,6 +310,112 @@ export const profilesRouter = router({
 
     return Array.from(languagesSet).sort()
   }),
+  venueLocations: publicProcedure.query(async () => {
+    const citiesWithCount = await prisma.city.findMany({
+      where: {
+        profiles: {
+          some: {
+            type: 'Venue',
+          },
+        },
+      },
+      select: {
+        id: true,
+        name: true,
+        _count: {
+          select: {
+            profiles: {
+              where: {
+                type: 'Venue',
+              },
+            },
+          },
+        },
+      },
+      orderBy: {
+        profiles: {
+          _count: 'desc',
+        },
+      },
+    })
+
+    const venuesWithFormattedAddress = await prisma.profile.findMany({
+      where: {
+        type: 'Venue',
+        cityId: null,
+        formattedAddress: {
+          not: null,
+        },
+      },
+      select: {
+        formattedAddress: true,
+      },
+    })
+
+    const addressCities = new Map<string, number>()
+
+    venuesWithFormattedAddress.forEach((venue) => {
+      if (venue.formattedAddress) {
+        const parts = venue.formattedAddress.split(',').map((p) => p.trim())
+        if (parts.length > 0) {
+          const cityName = parts[0]
+          addressCities.set(cityName, (addressCities.get(cityName) || 0) + 1)
+        }
+      }
+    })
+
+    const cities = [
+      ...citiesWithCount.map((city) => ({
+        name: city.name,
+        count: city._count.profiles,
+      })),
+      ...Array.from(addressCities.entries()).map(([name, count]) => ({
+        name,
+        count,
+      })),
+    ]
+
+    const regionsWithCount = await prisma.city.findMany({
+      where: {
+        profiles: {
+          some: {
+            type: 'Venue',
+          },
+        },
+        region: {
+          not: '',
+        },
+      },
+      select: {
+        region: true,
+        _count: {
+          select: {
+            profiles: {
+              where: {
+                type: 'Venue',
+              },
+            },
+          },
+        },
+      },
+      distinct: ['region'],
+      orderBy: {
+        profiles: {
+          _count: 'desc',
+        },
+      },
+    })
+
+    const regions = regionsWithCount.map((region) => ({
+      name: region.region,
+      count: region._count.profiles,
+    }))
+
+    return {
+      cities: cities.sort((a, b) => b.count - a.count),
+      regions: regions.sort((a, b) => b.count - a.count),
+    }
+  }),
   artists: publicProcedure
     .input(
       z
@@ -482,12 +588,31 @@ export const profilesRouter = router({
       }
 
       if (location) {
-        whereCondition.city = {
-          name: {
-            contains: location,
-            mode: 'insensitive',
+        whereCondition.OR = [
+          ...(whereCondition.OR || []),
+          {
+            city: {
+              name: {
+                contains: location,
+                mode: 'insensitive',
+              },
+            },
           },
-        }
+          {
+            city: {
+              region: {
+                contains: location,
+                mode: 'insensitive',
+              },
+            },
+          },
+          {
+            formattedAddress: {
+              contains: location,
+              mode: 'insensitive',
+            },
+          },
+        ]
       }
 
       let venueIdsWithStyles: string[] = []
