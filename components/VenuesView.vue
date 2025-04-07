@@ -356,44 +356,9 @@ const formattedDanceStyles = computed(() => {
         <p class="text-muted-foreground text-sm mb-2">
           {{ getAddress(venue) }}
         </p>
-        <div
-          v-if="venue.areas && venue.areas.length > 0"
-          class="flex items-center gap-4 text-sm text-muted-foreground mb-3"
-        >
-          <div
-            v-if="venue.areas.some((a: any) => a.pricePerHour)"
-            class="flex items-center gap-1"
-          >
-            <Icon name="ph:currency-eur" class="w-4 h-4" />
-            {{
-              Math.min(
-                ...venue.areas
-                  .map((a: any) => a.pricePerHour || Infinity)
-                  .filter((p: number) => p !== Infinity)
-              )
-            }}-{{
-              Math.max(...venue.areas.map((a: any) => a.pricePerHour || 0))
-            }}/hour
-          </div>
-          <div
-            v-if="venue.areas.some((a: any) => a.capacity)"
-            class="flex items-center gap-1"
-          >
-            <Icon name="ph:users" class="w-4 h-4" />
-            {{
-              venue.areas.reduce(
-                (sum: number, area: any) => sum + (area.capacity || 0),
-                0
-              )
-            }}
-            people
-          </div>
-        </div>
-        <p
-          v-if="getDescription(venue)"
-          class="text-foreground mb-4 line-clamp-2"
-        >
-          {{ getDescription(venue) }}
+        <!-- TODO: Add price per hour and capacity -->
+        <p v-if="venue.bio" class="text-foreground mb-4 line-clamp-2">
+          {{ venue.bio }}
         </p>
         <div v-if="venue.danceStyles?.length" class="space-y-1">
           <div class="flex flex-wrap gap-2 mb-1">
