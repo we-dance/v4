@@ -84,7 +84,11 @@ const handleSubscribe = async (offeringId: string) => {
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 w-[97%]">
         <div class="lg:col-span-2 space-y-8">
           <CourseVideoPlayer class="player" :lesson="currentLesson" />
-          <CourseContent :course="course" :current-lesson="currentLesson" @select-lesson="handleSelectLesson" />
+          <CourseContent
+            :course="course"
+            :current-lesson="currentLesson"
+            @select-lesson="handleSelectLesson"
+          />
           <CourseMaterials :course="course" />
           <InstructorProfile :profile="course.instructor" />
           <Reviews :course="course" />
@@ -93,7 +97,10 @@ const handleSubscribe = async (offeringId: string) => {
 
         <div class="lg:sticky lg:top-8 space-y-8">
           <CourseSidebarOverview :course="course" />
-          <CourseSidebarPricing :course="course" @view-pricing="handleViewPricing" />
+          <CourseSidebarPricing
+            :course="course"
+            @view-pricing="handleViewPricing"
+          />
           <CourseSidebarServices :profile="course.instructor" />
         </div>
       </div>

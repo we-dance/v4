@@ -92,10 +92,15 @@ watchEffect(async () => {
 <template>
   <!-- if input is a event -->
   <!-- leave event template for event subscription -->
-  <div v-if="typeOfInstance === 'event'" class="min-h-screen bg-background-secondary py-12">
+  <div
+    v-if="typeOfInstance === 'event'"
+    class="min-h-screen bg-background-secondary py-12"
+  >
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <div class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6">
+        <div
+          class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6"
+        >
           <Icon name="ph:check-bold" class="w-8 h-8 text-success" />
         </div>
         <h1 class="text-3xl font-bold mb-4">Booking Confirmed!</h1>
@@ -108,8 +113,11 @@ watchEffect(async () => {
       <div class="bg-background rounded-xl border p-6 mb-8">
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
-            <img :src="event?.cover || '/images/event-placeholder.jpg'" :alt="event?.name"
-              class="w-full h-full object-cover" />
+            <img
+              :src="event?.cover || '/images/event-placeholder.jpg'"
+              :alt="event?.name"
+              class="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h2 class="text-xl font-bold">{{ event?.name }}</h2>
@@ -120,7 +128,9 @@ watchEffect(async () => {
               </div>
               <div class="flex items-center gap-2">
                 <Icon name="ph:map-pin" class="w-4 h-4" />
-                <span>{{ event?.location.name }}, {{ event?.location.city }}</span>
+                <span
+                  >{{ event?.location.name }}, {{ event?.location.city }}</span
+                >
               </div>
             </div>
           </div>
@@ -141,10 +151,15 @@ watchEffect(async () => {
 
   <!-- if input is a course -->
   <!-- course subscription confirmation and provide button back to course details -->
-  <div v-else-if="typeOfInstance === 'course'" class="min-h-screen bg-background-secondary py-12">
+  <div
+    v-else-if="typeOfInstance === 'course'"
+    class="min-h-screen bg-background-secondary py-12"
+  >
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <div class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6">
+        <div
+          class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6"
+        >
           <Icon name="ph:check-bold" class="w-8 h-8 text-success" />
         </div>
         <h1 class="text-3xl font-bold mb-4">Booking Confirmed!</h1>
@@ -157,8 +172,11 @@ watchEffect(async () => {
       <div class="bg-background rounded-xl border p-6 mb-8">
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
-            <img :src="course?.coverUrl || '/images/event-placeholder.jpg'" :alt="course?.name"
-              class="w-full h-full object-cover" />
+            <img
+              :src="course?.coverUrl || '/images/event-placeholder.jpg'"
+              :alt="course?.name"
+              class="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h2 class="text-xl font-bold">{{ course?.name }}</h2>
@@ -167,14 +185,16 @@ watchEffect(async () => {
                 <Icon name="ph:calendar" class="w-4 h-4" />
                 <span>{{
                   formatDate(course?.courseInstance?.[0]?.startDate || '')
-                  }}</span>
+                }}</span>
               </div>
               <div class="flex items-center gap-2">
                 <Icon name="ph:map-pin" class="w-4 h-4" />
-                <span>{{
-                  course?.courseInstance?.[0]?.location?.name ||
-                  'WeDance Online Platform'
-                }}, {{ 'Online' }}</span>
+                <span
+                  >{{
+                    course?.courseInstance?.[0]?.location?.name ||
+                    'WeDance Online Platform'
+                  }}, {{ 'Online' }}</span
+                >
               </div>
             </div>
           </div>
@@ -187,7 +207,9 @@ watchEffect(async () => {
           <NuxtLink to="/courses">Browse More Courses</NuxtLink>
         </Button>
         <Button as-child>
-          <NuxtLink :to="`/courses/${course.slug}`">View Course Details</NuxtLink>
+          <NuxtLink :to="`/courses/${course.slug}`"
+            >View Course Details</NuxtLink
+          >
         </Button>
       </div>
     </div>
@@ -195,7 +217,10 @@ watchEffect(async () => {
   <!-- Not found -->
   <div v-else class="min-h-screen flex items-center justify-center">
     <div class="text-center">
-      <Icon name="ph:calendar-x" class="w-16 h-16 text-muted-foreground mx-auto mb-4" />
+      <Icon
+        name="ph:calendar-x"
+        class="w-16 h-16 text-muted-foreground mx-auto mb-4"
+      />
       <h2 class="text-2xl font-bold text-foreground mb-2">
         Resource Not Found
       </h2>

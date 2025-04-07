@@ -100,8 +100,8 @@ async function handleCheckoutSessionCompleted(
       include: {
         offers: offeringId
           ? {
-            where: { id: offeringId },
-          }
+              where: { id: offeringId },
+            }
           : true,
       },
     })
