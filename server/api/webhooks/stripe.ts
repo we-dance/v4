@@ -1,6 +1,7 @@
 import { defineEventHandler, readBody } from 'h3'
 import Stripe from 'stripe'
 import { prisma } from '~/server/prisma'
+import { convertDurationToInterval } from '~/utils/format'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-02-24.acacia',
@@ -223,28 +224,4 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
       })
     }
   }
-}
-
-// Helper function to convert duration to Stripe interval
-function convertDurationToInterval(
-  duration: string
-): 'day' | 'week' | 'month' | 'year' {
-  if (!duration) return 'month' // Default
-
-  const durationLower = duration.toLowerCase()
-
-  if (durationLower === 'monthly' || durationLower.includes('month'))
-    return 'month'
-  if (
-    durationLower === 'yearly' ||
-    durationLower.includes('year') ||
-    durationLower === 'annual' ||
-    durationLower.includes('annual')
-  )
-    return 'year'
-  if (durationLower === 'weekly' || durationLower.includes('week'))
-    return 'week'
-  if (durationLower === 'daily' || durationLower.includes('day')) return 'day'
-
-  return 'month' // Default to monthly if no match
 }

@@ -19,6 +19,25 @@ export function formatDate(dateString: string): string {
   }
 }
 
+export function convertDurationToInterval(
+  duration: string
+): 'day' | 'week' | 'month' | 'year' {
+  if (!duration) return 'month'
+  const durationLower = duration.toLowerCase()
+  if (durationLower === 'monthly' || durationLower.includes('month'))
+    return 'month'
+  if (
+    durationLower === 'yearly' ||
+    durationLower.includes('year') ||
+    durationLower.includes('annual')
+  )
+    return 'year'
+  if (durationLower === 'weekly' || durationLower.includes('week'))
+    return 'week'
+  if (durationLower === 'daily' || durationLower.includes('day')) return 'day'
+  return 'month'
+}
+
 export function formatCurrency(amount: number, currency: string): string {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',

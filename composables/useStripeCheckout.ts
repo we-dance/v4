@@ -9,6 +9,14 @@ export function useStripeCheckout() {
   const error = ref<string | null>(null)
   const loadingStripeCourseId = ref<string | null>(null)
 
+  const normalizePlan = (name: string): 'regular' | 'premium' => {
+    const normalized = name.trim().toLowerCase()
+    if (normalized === 'regular' || normalized === 'premium') {
+      return normalized as 'regular' | 'premium'
+    }
+    throw new Error(`Unsupported plan: ${name}`)
+  }
+
   /**
    * Redirects the user to the Stripe Checkout page for subscription
    */
@@ -29,12 +37,13 @@ export function useStripeCheckout() {
     error.value = null
 
     try {
+      // const plan = normalizePlan(offering.name)
       // Create checkout session
       const result = await trpc.subscriptions.createCheckoutSession.mutate({
         courseId: params.courseId,
         offeringId: params.offeringId,
-        successUrl: `${window.location.origin}/checkout/${params.courseName}/success`,
-        cancelUrl: `${window.location.origin}/checkout/${params.courseName}`,
+        successUrl: `${window.location.origin}/checkout/${encodeURIComponent(params.courseName)}/success`,
+        cancelUrl: `${window.location.origin}/checkout/${encodeURIComponent(params.courseName)}`,
       })
 
       // save session id to local storage
