@@ -541,42 +541,47 @@ export const profilesRouter = router({
       }
 
       if (search) {
-        whereCondition.OR = [
-          {
-            name: {
-              contains: search,
-              mode: 'insensitive',
+        whereCondition.AND = whereCondition.AND || []
+        whereCondition.AND.push({
+          OR: [
+            {
+              name: {
+                contains: search,
+                mode: 'insensitive',
+              },
             },
-          },
-        ]
+          ],
+        })
       }
 
       if (location) {
-        whereCondition.OR = [
-          ...(whereCondition.OR || []),
-          {
-            city: {
-              name: {
+        whereCondition.AND = whereCondition.AND || []
+        whereCondition.AND.push({
+          OR: [
+            {
+              city: {
+                name: {
+                  contains: location,
+                  mode: 'insensitive',
+                },
+              },
+            },
+            {
+              city: {
+                region: {
+                  contains: location,
+                  mode: 'insensitive',
+                },
+              },
+            },
+            {
+              formattedAddress: {
                 contains: location,
                 mode: 'insensitive',
               },
             },
-          },
-          {
-            city: {
-              region: {
-                contains: location,
-                mode: 'insensitive',
-              },
-            },
-          },
-          {
-            formattedAddress: {
-              contains: location,
-              mode: 'insensitive',
-            },
-          },
-        ]
+          ],
+        })
       }
 
       let venueIdsWithStyles: string[] = []
