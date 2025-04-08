@@ -8,6 +8,7 @@ const search = ref('')
 const selectedLocation = ref<string | null>(null)
 const selectedStyles = ref<string[]>([])
 const styleSearch = ref('')
+const showStyleDropdown = ref(false)
 
 const page = ref(1)
 const limit = ref(9)
@@ -19,6 +20,20 @@ const loadingTimes = ref<number[]>([])
 
 const allDanceStyles = ref<string[]>([])
 const loadingStyles = ref(false)
+
+// For SearchableDropdown component
+const selectedDanceStyle = ref<string | null>(null)
+const danceStyleSearchQuery = ref('')
+
+// Format dance styles for SearchableDropdown
+const formattedDropdownStyles = computed(() => {
+  if (!allDanceStyles.value.length) return []
+
+  return allDanceStyles.value.map((style) => ({
+    id: style,
+    name: style,
+  }))
+})
 
 const updateLocation = (location: string | null) => {
   selectedLocation.value = location
@@ -115,6 +130,19 @@ const toggleStyle = (style: string) => {
   resetSearch()
 }
 
+const onSelectStyle = (style: any) => {
+  // Add the style to multi-select
+  if (!selectedStyles.value.includes(style.id)) {
+    selectedStyles.value.push(style.id)
+  } else {
+    // Remove it if already selected (toggle behavior)
+    selectedStyles.value = selectedStyles.value.filter((s) => s !== style.id)
+  }
+  resetSearch()
+  // Keep dropdown open for more selections
+  showStyleDropdown.value = true
+}
+
 const clearAllStyles = () => {
   selectedStyles.value = []
   resetSearch()
@@ -173,6 +201,11 @@ const filteredDanceStyles = computed(() => {
     item.style.toLowerCase().includes(query)
   )
 })
+
+const removeStyle = (style: string) => {
+  selectedStyles.value = selectedStyles.value.filter((s) => s !== style)
+  resetSearch()
+}
 </script>
 
 <template>
@@ -252,30 +285,59 @@ const filteredDanceStyles = computed(() => {
       </div>
       <div v-else>
         <div class="relative">
-          <Input
-            v-model="styleSearch"
-            placeholder="Search dance styles..."
-            class="mb-2 w-full"
-          />
-          <div class="max-h-[300px] overflow-y-auto border rounded-md">
-            <div
-              v-for="styleObj in filteredDanceStyles"
-              :key="styleObj.style"
-              class="px-3 py-2 hover:bg-muted border-b last:border-b-0 cursor-pointer transition-colors"
-              :class="{
-                'bg-muted font-medium': selectedStyles.includes(styleObj.style),
-              }"
-              @click="toggleStyle(styleObj.style)"
-            >
-              {{ styleObj.style }}
-            </div>
-            <div
-              v-if="filteredDanceStyles.length === 0"
-              class="p-4 text-center text-muted-foreground"
-            >
-              No dance styles found
-            </div>
-          </div>
+          <Popover v-model:open="showStyleDropdown">
+            <PopoverTrigger as-child>
+              <Button
+                variant="outline"
+                role="combobox"
+                :aria-expanded="showStyleDropdown"
+                class="w-full font-normal text-left relative"
+              >
+                <div class="flex items-center w-full">
+                  <span
+                    v-if="selectedStyles.length === 0"
+                    class="text-muted-foreground"
+                    >Any Dance Style</span
+                  >
+
+                  <div
+                    v-if="selectedStyles.length > 0"
+                    class="flex flex-wrap justify-center gap-2"
+                  >
+                    <Badge
+                      v-for="style in selectedStyles"
+                      :key="style"
+                      variant="secondary"
+                      class="flex items-center gap-1 py-1 px-2"
+                    >
+                      <span>{{ style }}</span>
+                      <button
+                        @click.stop="removeStyle(style)"
+                        class="flex items-center"
+                      >
+                        <Icon name="ph:x" class="w-3 h-3" />
+                      </button>
+                    </Badge>
+                  </div>
+                </div>
+                <Icon
+                  name="heroicons:chevron-down"
+                  class="h-4 w-4 shrink-0 opacity-50 absolute right-3 top-1/2 -translate-y-1/2"
+                />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent class="p-0">
+              <SearchableDropdown
+                :items="formattedDropdownStyles"
+                :model-value="selectedDanceStyle"
+                v-model:searchQuery="danceStyleSearchQuery"
+                placeholder="Search..."
+                itemKey="id"
+                itemLabel="name"
+                @select="onSelectStyle"
+              />
+            </PopoverContent>
+          </Popover>
         </div>
       </div>
     </div>
