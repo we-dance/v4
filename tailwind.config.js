@@ -122,11 +122,16 @@ export default {
             transform: 'translate(0px, 0px) scale(1) rotate(0deg)',
           },
         },
+        slideDown: {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0)' }
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         blob: 'blob 15s infinite cubic-bezier(0.4, 0, 0.2, 1)',
+        slideDown: 'slideDown 0.3s ease-out'
       },
       utilities: {
         '.animation-delay-2000': {
@@ -192,5 +197,9 @@ export default {
       },
     },
   },
-  plugins: [typography, animate, require('tailwindcss-animate')],
+  plugins: [
+    typography, 
+    animate, 
+    require('tailwindcss-animate')
+  ],
 }
