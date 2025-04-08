@@ -3,7 +3,7 @@ import { designConfig } from '~/config/design'
 </script>
 
 <template>
-  <div class="min-h-screen dark:bg-[hsl(--dark)] dark:text-white">
+  <div class="min-h-screen">
     <div class="border-b sticky top-0 bg-background z-50 shadow-sm">
       <div class="container flex h-16 items-center px-4 space-x-2">
         <NuxtLink to="/" class="mr-6 flex items-center">
