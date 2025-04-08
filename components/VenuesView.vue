@@ -7,6 +7,7 @@ const showLocationFilter = ref(false)
 const search = ref('')
 const selectedLocation = ref<string | null>(null)
 const selectedStyles = ref<string[]>([])
+const styleSearch = ref('')
 
 const page = ref(1)
 const limit = ref(9)
@@ -161,6 +162,17 @@ const formattedDanceStyles = computed(() => {
 
   return currentStylesWithCount.value
 })
+
+const filteredDanceStyles = computed(() => {
+  if (!styleSearch.value) {
+    return formattedDanceStyles.value
+  }
+
+  const query = styleSearch.value.toLowerCase()
+  return formattedDanceStyles.value.filter((item) =>
+    item.style.toLowerCase().includes(query)
+  )
+})
 </script>
 
 <template>
@@ -231,39 +243,47 @@ const formattedDanceStyles = computed(() => {
         </Button>
       </div>
       <p class="text-muted-foreground text-sm mb-4">
-        Filter venues that host events with these dance styles. Each number
-        shows how many venues offer that dance style.
+        Filter venues that host events with these dance styles.
       </p>
       <div v-if="loadingStyles" class="flex justify-center py-4">
         <div
           class="animate-spin h-6 w-6 border-4 border-primary border-t-transparent rounded-full"
         ></div>
       </div>
-      <div
-        v-else
-        class="flex flex-wrap gap-2 max-h-[300px] overflow-y-auto p-1"
-      >
-        <Button
-          v-for="styleObj in formattedDanceStyles"
-          :key="styleObj.style"
-          variant="outline"
-          size="sm"
-          :class="[
-            selectedStyles.includes(styleObj.style)
-              ? 'bg-primary text-primary-foreground'
-              : '',
-          ]"
-          @click="toggleStyle(styleObj.style)"
-        >
-          {{ styleObj.style }}
-        </Button>
+      <div v-else>
+        <div class="relative">
+          <Input
+            v-model="styleSearch"
+            placeholder="Search dance styles..."
+            class="mb-2 w-full"
+          />
+          <div class="max-h-[300px] overflow-y-auto border rounded-md">
+            <div
+              v-for="styleObj in filteredDanceStyles"
+              :key="styleObj.style"
+              class="px-3 py-2 hover:bg-muted border-b last:border-b-0 cursor-pointer transition-colors"
+              :class="{
+                'bg-muted font-medium': selectedStyles.includes(styleObj.style),
+              }"
+              @click="toggleStyle(styleObj.style)"
+            >
+              {{ styleObj.style }}
+            </div>
+            <div
+              v-if="filteredDanceStyles.length === 0"
+              class="p-4 text-center text-muted-foreground"
+            >
+              No dance styles found
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Features -->
+    <!-- Amenities -->
     <div class="opacity-60 pointer-events-none">
       <div class="flex justify-between items-center mb-3">
-        <h3 class="font-medium">Features</h3>
+        <h3 class="font-medium">Amenities</h3>
         <Badge variant="outline" class="text-xs">Coming soon</Badge>
       </div>
       <div class="flex flex-wrap gap-2">
@@ -271,34 +291,6 @@ const formattedDanceStyles = computed(() => {
         <Button variant="outline" size="sm"> Air Conditioning </Button>
         <Button variant="outline" size="sm"> Sound System </Button>
         <Button variant="outline" size="sm"> Stage </Button>
-      </div>
-    </div>
-
-    <!-- Price Range -->
-    <div class="opacity-60 pointer-events-none">
-      <div class="flex justify-between items-center mb-3">
-        <h3 class="font-medium">Price per Hour</h3>
-        <Badge variant="outline" class="text-xs">Coming soon</Badge>
-      </div>
-      <div class="flex items-center gap-4">
-        <Input type="number" placeholder="Min" class="w-24" disabled />
-        <span>to</span>
-        <Input type="number" placeholder="Max" class="w-24" disabled />
-        <span>€</span>
-      </div>
-    </div>
-
-    <!-- Capacity -->
-    <div class="opacity-60 pointer-events-none">
-      <div class="flex justify-between items-center mb-3">
-        <h3 class="font-medium">Capacity</h3>
-        <Badge variant="outline" class="text-xs">Coming soon</Badge>
-      </div>
-      <div class="flex items-center gap-4">
-        <Input type="number" placeholder="Min" class="w-24" disabled />
-        <span>to</span>
-        <Input type="number" placeholder="Max" class="w-24" disabled />
-        <span>people</span>
       </div>
     </div>
   </div>
