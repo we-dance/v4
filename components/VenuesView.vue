@@ -428,10 +428,6 @@ const removeStyle = (style: string) => {
               +{{ venue.danceStyles.length - 3 }} more
             </Badge>
           </div>
-          <div class="flex items-center gap-1 text-xs text-muted-foreground">
-            <Icon name="ph:calendar-check" class="w-3 h-3" />
-            <span>Dance styles from events</span>
-          </div>
         </div>
       </div>
     </NuxtLink>
