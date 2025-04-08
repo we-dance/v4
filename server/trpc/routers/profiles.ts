@@ -4,13 +4,11 @@ import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
 
-// todo: move to profile schema
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
   name: z.string().optional(),
   username: z.string().optional(),
   photo: z.string().optional().nullable(),
-  // Social links
   couchsurfing: z.string().optional(),
   linkedin: z.string().optional(),
   airbnb: z.string().optional(),
@@ -209,14 +207,7 @@ export const profilesRouter = router({
       })
 
       const venues = await prisma.profile.findMany({
-        where: {
-          // id: {
-          //   equals: "ChIJW8LuYO51nkcRZqoW2f9yn8c",
-          // },
-          // city: {
-          //   slug: city,
-          // },
-        },
+        where: {},
         include: {
           eventsHosted: {
             take: 1,
@@ -268,4 +259,143 @@ export const profilesRouter = router({
       take: 5,
     })
   }),
+  artistLocations: publicProcedure.query(async () => {
+    const artistsWithCities = await prisma.profile.findMany({
+      where: {
+        type: 'Artist',
+        city: {
+          isNot: null,
+        },
+      },
+      select: {
+        city: {
+          select: {
+            name: true,
+          },
+        },
+      },
+      distinct: ['cityId'],
+    })
+
+    const locations = artistsWithCities
+      .map((artist) => artist.city?.name)
+      .filter(Boolean)
+      .sort()
+
+    return locations
+  }),
+  artistLanguages: publicProcedure.query(async () => {
+    const artists = await prisma.profile.findMany({
+      where: {
+        type: 'Artist',
+      },
+      select: {
+        locales: true,
+      },
+    })
+
+    const languagesSet = new Set()
+
+    artists.forEach((artist) => {
+      if (artist.locales) {
+        Object.entries(artist.locales as Record<string, boolean>).forEach(
+          ([lang, isActive]) => {
+            if (isActive === true) {
+              languagesSet.add(lang)
+            }
+          }
+        )
+      }
+    })
+
+    return Array.from(languagesSet).sort()
+  }),
+  artists: publicProcedure
+    .input(
+      z
+        .object({
+          limit: z.number().default(10),
+          page: z.number().default(1),
+          role: z.string().optional(),
+          location: z.string().optional(),
+          language: z.string().optional(),
+          query: z.string().optional(),
+        })
+        .optional()
+    )
+    .query(async ({ input }) => {
+      const limit = input?.limit || 10
+      const page = input?.page || 1
+      const skip = (page - 1) * limit
+
+      type WhereConditions = {
+        type: string
+        roles?: {
+          has: string
+        }
+        name?: {
+          contains: string
+          mode: 'insensitive'
+        }
+        city?: {
+          name?: string
+        }
+        locales?: any
+      }
+
+      let whereConditions: WhereConditions = { type: 'Artist' }
+
+      if (input?.role && input.role !== 'all') {
+        whereConditions.roles = {
+          has: input.role,
+        }
+      }
+
+      if (input?.query) {
+        whereConditions.name = {
+          contains: input.query,
+          mode: 'insensitive',
+        }
+      }
+
+      if (input?.location && input.location !== 'all') {
+        whereConditions.city = {
+          name: input.location,
+        }
+      }
+
+      if (input?.language && input.language !== 'all') {
+        whereConditions.locales = {
+          path: [input.language],
+          equals: true,
+        }
+      }
+
+      const totalCount = await prisma.profile.count({
+        where: whereConditions,
+      })
+
+      const artists = await prisma.profile.findMany({
+        where: whereConditions,
+        include: {
+          styles: {
+            include: {
+              style: true,
+            },
+          },
+          city: true,
+        },
+        skip,
+        take: limit,
+        orderBy: {
+          createdAt: 'desc',
+        },
+      })
+
+      return {
+        artists: artists,
+        totalCount,
+        hasMore: skip + artists.length < totalCount,
+      }
+    }),
 })

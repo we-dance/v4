@@ -15,7 +15,7 @@ const { $client } = useNuxtApp()
 const course = ref<any>(null)
 const loading = ref(true)
 
-const getCourse = async () => {
+const loadCourse = async () => {
   try {
     loading.value = true
     const result = await $client.courses.view.query({
@@ -23,20 +23,32 @@ const getCourse = async () => {
     })
     course.value = result
   } catch (error) {
-    toast.error('Failed to load course')
+    toast.error((error as Error).message)
     router.push('/admin/courses')
   } finally {
     loading.value = false
   }
 }
 
-await getCourse()
+await loadCourse()
 
 const schema = z.object({
   name: z.string().min(1),
   description: z.string().optional(),
   subheader: z.string().optional(),
   coverUrl: z.string().optional(),
+  modules: z.array(z.object({})).optional(),
+  resources: z.array(z.object({})).optional(),
+  offers: z.array(
+    z.object({
+      id: z.string().optional(),
+      name: z.string().min(1),
+      price: z.number().min(0),
+      currency: z.string().min(1),
+      duration: z.string().min(1),
+    })
+  ),
+  deletedOfferIds: z.array(z.string()).optional(),
 })
 
 const form = useForm({
@@ -52,24 +64,28 @@ watch(
         description: newCourse.description ?? '',
         subheader: newCourse.subheader ?? '',
         coverUrl: newCourse.coverUrl ?? '',
+        modules: newCourse.modules ?? [],
+        resources: newCourse.resources ?? [],
+        offers: newCourse.offers ?? [],
       })
     }
   },
   { immediate: true }
 )
-
-const onSubmit = form.handleSubmit(async (values) => {
+const save = async (values: any) => {
   try {
     await $client.courses.update.mutate({
       slug: route.params.slug as string,
       ...values,
     })
     toast.success('Course updated successfully')
-    await getCourse()
+    await loadCourse()
   } catch (error) {
-    toast.error('Failed to update course')
+    toast.error((error as Error).message)
   }
-})
+}
+
+const onSubmit = form.handleSubmit(save)
 </script>
 
 <template>
@@ -79,168 +95,17 @@ const onSubmit = form.handleSubmit(async (values) => {
     </div>
 
     <Card v-if="loading">
-      <div class="flex justify-center items-center p-8">
-        <Spinner />
+      <div class="text-center py-12">
+        <p>Loading course...</p>
       </div>
     </Card>
 
-    <form v-else-if="course" @submit="onSubmit" class="space-y-8">
-      <Card>
-        <CardHeader>
-          <CardTitle>Basic Information</CardTitle>
-          <CardDescription>Update your course details below.</CardDescription>
-        </CardHeader>
-        <CardContent class="space-y-4">
-          <FormField v-slot="{ componentField }" name="name">
-            <FormItem>
-              <FormLabel>Name</FormLabel>
-              <FormControl>
-                <Input v-bind="componentField" />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          </FormField>
-
-          <FormField v-slot="{ componentField }" name="subheader">
-            <FormItem>
-              <FormLabel>Subheader</FormLabel>
-              <FormControl>
-                <Input v-bind="componentField" />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          </FormField>
-
-          <FormField v-slot="{ componentField }" name="description">
-            <FormItem>
-              <FormLabel>Description</FormLabel>
-              <FormControl>
-                <Textarea v-bind="componentField" />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          </FormField>
-
-          <FormField v-slot="{ componentField }" name="coverUrl">
-            <FormItem>
-              <FormLabel>Cover Image URL</FormLabel>
-              <FormControl>
-                <Input v-bind="componentField" />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          </FormField>
-        </CardContent>
-      </Card>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Course Content</CardTitle>
-          <CardDescription
-            >Manage your course modules and lessons.</CardDescription
-          >
-        </CardHeader>
-        <CardContent>
-          <div v-if="course.modules?.length" class="space-y-4">
-            <div
-              v-for="module in course.modules"
-              :key="module.id"
-              class="space-y-2"
-            >
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold">{{ module.name }}</h3>
-                <Button variant="ghost" size="sm">Edit Module</Button>
-              </div>
-              <div v-if="module.lessons?.length" class="pl-4 space-y-2">
-                <div
-                  v-for="lesson in module.lessons"
-                  :key="lesson.id"
-                  class="flex items-center justify-between"
-                >
-                  <span>{{ lesson.name }}</span>
-                  <Button variant="ghost" size="sm">Edit Lesson</Button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div v-else class="text-center py-4 text-muted-foreground">
-            No modules added yet
-          </div>
-          <div class="mt-4">
-            <Button variant="outline">Add Module</Button>
-          </div>
-        </CardContent>
-      </Card>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Course Resources</CardTitle>
-          <CardDescription
-            >Manage additional resources for your course.</CardDescription
-          >
-        </CardHeader>
-        <CardContent>
-          <div v-if="course.resources?.length" class="space-y-4">
-            <div
-              v-for="resource in course.resources"
-              :key="resource.id"
-              class="flex items-center justify-between"
-            >
-              <div>
-                <h4 class="font-medium">{{ resource.name }}</h4>
-                <p class="text-sm text-muted-foreground">
-                  {{ resource.description }}
-                </p>
-              </div>
-              <Button variant="ghost" size="sm">Edit Resource</Button>
-            </div>
-          </div>
-          <div v-else class="text-center py-4 text-muted-foreground">
-            No resources added yet
-          </div>
-          <div class="mt-4">
-            <Button variant="outline">Add Resource</Button>
-          </div>
-        </CardContent>
-      </Card>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Course Offers</CardTitle>
-          <CardDescription
-            >Manage pricing and offers for your course.</CardDescription
-          >
-        </CardHeader>
-        <CardContent>
-          <div v-if="course.offers?.length" class="space-y-4">
-            <div
-              v-for="offer in course.offers"
-              :key="offer.id"
-              class="flex items-center justify-between"
-            >
-              <div>
-                <h4 class="font-medium">{{ offer.name }}</h4>
-                <p class="text-sm text-muted-foreground">
-                  {{ offer.price }} {{ offer.currency }} - {{ offer.duration }}
-                </p>
-              </div>
-              <Button variant="ghost" size="sm">Edit Offer</Button>
-            </div>
-          </div>
-          <div v-else class="text-center py-4 text-muted-foreground">
-            No offers added yet
-          </div>
-          <div class="mt-4">
-            <Button variant="outline">Add Offer</Button>
-          </div>
-        </CardContent>
-      </Card>
-
-      <div class="flex justify-end gap-4">
-        <Button variant="outline" @click="handleBack">Cancel</Button>
-        <Button type="submit">Save Changes</Button>
-      </div>
-    </form>
+    <div v-else-if="course" class="space-y-8">
+      <CourseEditor v-model="course" @submit="onSubmit" />
+      <CourseModulesEditor v-model="course" @load="loadCourse" />
+      <CourseResourcesEditor v-model="course" @load="loadCourse" />
+      <CourseOffersEditor v-model="course" @save="save" />
+    </div>
 
     <Card v-else>
       <div class="flex justify-center items-center p-8 text-muted-foreground">

@@ -1,9 +1,44 @@
 <script setup lang="ts">
 import type { ArtistProfile } from '~/schemas/profile'
 
-defineProps<{
+const props = defineProps<{
   artist: ArtistProfile
 }>()
+
+const avatarUrl = computed(() => {
+  if (props?.artist?.photo) {
+    return props.artist.photo
+  } else {
+    return 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + props.artist.id
+  }
+})
+
+const visibleStyles = computed(() => {
+  if (!props.artist.styles || props.artist.styles.length <= 4) {
+    return props.artist.styles || []
+  }
+  return props.artist.styles.slice(0, 4)
+})
+
+const additionalStylesCount = computed(() => {
+  if (!props.artist.styles || props.artist.styles.length <= 4) {
+    return 0
+  }
+  return props.artist.styles.length - 4
+})
+
+const artistLanguages = computed(() => {
+  if (props.artist.languages?.length) {
+    return props.artist.languages
+  }
+
+  const locales = props.artist.locales
+  if (locales) {
+    return Object.keys(locales).filter((key) => locales[key] === true)
+  }
+
+  return []
+})
 </script>
 
 <template>
@@ -15,8 +50,8 @@ defineProps<{
       <!-- Card Header with Image and Basic Info -->
       <div class="p-4 flex gap-4">
         <div class="flex-shrink-0">
-          <img
-            :src="artist.image"
+          <NuxtImg
+            :src="avatarUrl"
             :alt="artist.name"
             class="h-16 w-16 rounded-full object-cover"
             loading="lazy"
@@ -24,7 +59,7 @@ defineProps<{
         </div>
 
         <div class="min-w-0 flex-1">
-          <NuxtLink :to="`/artists/${artist.id}`" class="focus:outline-none">
+          <NuxtLink :to="`/@${artist.username}`" class="focus:outline-none">
             <span class="absolute inset-0" aria-hidden="true" />
 
             <!-- Name and Master Badge -->
@@ -53,10 +88,40 @@ defineProps<{
               </Badge>
             </div>
 
+            <!-- Styles -->
+            <div
+              v-if="artist.styles?.length"
+              class="flex flex-wrap gap-1.5 mt-2"
+            >
+              <Badge
+                v-for="styleItem in visibleStyles"
+                :key="styleItem.styleId"
+                variant="outline"
+                class="text-xs"
+              >
+                {{ styleItem.style?.name }}
+              </Badge>
+              <Badge
+                v-if="additionalStylesCount > 0"
+                variant="outline"
+                class="text-xs bg-muted-foreground/10"
+              >
+                +{{ additionalStylesCount }} more
+              </Badge>
+            </div>
+
+            <!-- Bio -->
+            <p
+              v-if="artist.bio"
+              class="mt-2 text-sm text-muted-foreground line-clamp-2"
+            >
+              {{ artist.bio }}
+            </p>
+
             <!-- Languages -->
             <div class="flex flex-wrap items-center gap-1.5 mt-2">
               <span
-                v-for="lang in artist.languages"
+                v-for="lang in artistLanguages"
                 :key="lang"
                 class="text-xs text-muted-foreground"
               >
@@ -65,6 +130,7 @@ defineProps<{
             </div>
 
             <!-- Specialties -->
+            <!-- TODO: Add specialties to the artist profile prisma model -->
             <p
               v-if="artist.specialties?.length"
               class="mt-2 text-sm text-muted-foreground line-clamp-2"
@@ -73,6 +139,7 @@ defineProps<{
             </p>
 
             <!-- Experience -->
+            <!-- TODO: Add experience to the artist profile prisma model -->
             <div
               v-if="artist.experience"
               class="mt-2 text-sm text-muted-foreground"
@@ -148,15 +215,21 @@ defineProps<{
       <div class="flex items-center gap-1.5 shrink-0">
         <Icon name="ph:map-pin" class="h-4 w-4" />
         <span>
-          {{ artist.availability?.currentLocation || artist.location }}
+          {{
+            artist.availability?.currentLocation ||
+            artist.city?.name ||
+            artist.location
+          }}
           <span
             v-if="
               artist.availability?.currentLocation &&
-              artist.location !== artist.availability.currentLocation
+              (artist.city?.name || artist.location) &&
+              artist.availability.currentLocation !==
+                (artist.city?.name || artist.location)
             "
             class="text-xs text-muted-foreground/70"
           >
-            (from {{ artist.location }})
+            (from {{ artist.city?.name || artist.location }})
           </span>
         </span>
       </div>
