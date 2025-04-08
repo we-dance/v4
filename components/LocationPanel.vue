@@ -128,7 +128,7 @@ onMounted(async () => {
         No cities found
       </div>
 
-      <div class="city-list">
+      <div class="flex flex-col w-full">
         <Button
           v-for="city in filteredCities"
           :key="city.name"
@@ -146,11 +146,3 @@ onMounted(async () => {
     </div>
   </div>
 </template>
-
-<style scoped>
-.city-list {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-</style>
