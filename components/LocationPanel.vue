@@ -65,8 +65,8 @@ const filteredCities = computed(() => {
   return cities.value.filter((city) => city.name.toLowerCase().includes(search))
 })
 
-onMounted(() => {
-  fetchLocations()
+onMounted(async () => {
+  await fetchLocations()
 })
 </script>
 
