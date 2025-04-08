@@ -19,10 +19,6 @@ const loadingTimes = ref<number[]>([])
 const allDanceStyles = ref<string[]>([])
 const loadingStyles = ref(false)
 
-const allStyles = computed(() =>
-  Array.from(new Set(venues.value.flatMap((venue) => venue.danceStyles || [])))
-)
-
 const updateLocation = (location: string | null) => {
   selectedLocation.value = location
   showLocationFilter.value = false
