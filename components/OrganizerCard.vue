@@ -2,7 +2,9 @@
 interface Props {
   organizer: {
     id: string
+    photo: string
     name: string
+    username: string
     location: string
     avatar: string
     coverImage: string
@@ -10,14 +12,12 @@ interface Props {
     eventTypes: string[]
     bio: string
     eventCount: number
-    links?: {
-      whatsapp?: string
-      telegram?: string
-      instagram?: string
-      facebook?: string
-      discord?: string
-      website?: string
-    }
+    whatsapp?: string
+    telegram?: string
+    instagram?: string
+    facebook?: string
+    discord?: string
+    website?: string
   }
   view?: 'grid' | 'list'
   showImage?: boolean
@@ -50,7 +50,7 @@ function getStyleLabel(value: string) {
       view === 'list' ? 'p-4' : '',
     ]"
   >
-    <NuxtLink :to="`/groups/${organizer.id}`">
+    <NuxtLink :to="`/@${organizer.username}`">
       <!-- Grid View -->
       <template v-if="view === 'grid'">
         <div
@@ -91,89 +91,73 @@ function getStyleLabel(value: string) {
           </p>
           <div class="flex flex-wrap gap-2">
             <Button
-              v-if="organizer.links?.whatsapp"
+              v-if="organizer.whatsapp"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
-              <a
-                :href="organizer.links.whatsapp"
-                target="_blank"
-                rel="noopener"
-              >
+              <a :href="organizer.whatsapp" target="_blank" rel="noopener">
                 <Icon name="ph:whatsapp-logo" class="w-4 h-4" />
                 WhatsApp
               </a>
             </Button>
             <Button
-              v-if="organizer.links?.telegram"
+              v-if="organizer.telegram"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
-              <a
-                :href="organizer.links.telegram"
-                target="_blank"
-                rel="noopener"
-              >
+              <a :href="organizer.telegram" target="_blank" rel="noopener">
                 <Icon name="ph:telegram-logo" class="w-4 h-4" />
                 Telegram
               </a>
             </Button>
             <Button
-              v-if="organizer.links?.instagram"
+              v-if="organizer.instagram"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
-              <a
-                :href="organizer.links.instagram"
-                target="_blank"
-                rel="noopener"
-              >
+              <a :href="organizer.instagram" target="_blank" rel="noopener">
                 <Icon name="ph:instagram-logo" class="w-4 h-4" />
                 Instagram
               </a>
             </Button>
             <Button
-              v-if="organizer.links?.facebook"
+              v-if="organizer.facebook"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
-              <a
-                :href="organizer.links.facebook"
-                target="_blank"
-                rel="noopener"
-              >
+              <a :href="organizer.facebook" target="_blank" rel="noopener">
                 <Icon name="ph:facebook-logo" class="w-4 h-4" />
                 Facebook
               </a>
             </Button>
             <Button
-              v-if="organizer.links?.discord"
+              v-if="organizer.discord"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
-              <a :href="organizer.links.discord" target="_blank" rel="noopener">
+              <a :href="organizer.discord" target="_blank" rel="noopener">
                 <Icon name="ph:discord-logo" class="w-4 h-4" />
                 Discord
               </a>
             </Button>
             <Button
-              v-if="organizer.links?.website"
+              v-if="organizer.website"
               variant="outline"
               size="sm"
               class="gap-1"
               as-child
             >
-              <a :href="organizer.links.website" target="_blank" rel="noopener">
+              <a :href="organizer.website" target="_blank" rel="noopener">
                 <Icon name="ph:globe" class="w-4 h-4" />
                 Website
               </a>
@@ -216,97 +200,73 @@ function getStyleLabel(value: string) {
             </p>
             <div class="flex flex-wrap gap-2">
               <Button
-                v-if="organizer.links?.whatsapp"
+                v-if="organizer.whatsapp"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
-                <a
-                  :href="organizer.links.whatsapp"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a :href="organizer.whatsapp" target="_blank" rel="noopener">
                   <Icon name="ph:whatsapp-logo" class="w-4 h-4" />
                   WhatsApp
                 </a>
               </Button>
               <Button
-                v-if="organizer.links?.telegram"
+                v-if="organizer.telegram"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
-                <a
-                  :href="organizer.links.telegram"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a :href="organizer.telegram" target="_blank" rel="noopener">
                   <Icon name="ph:telegram-logo" class="w-4 h-4" />
                   Telegram
                 </a>
               </Button>
               <Button
-                v-if="organizer.links?.instagram"
+                v-if="organizer.instagram"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
-                <a
-                  :href="organizer.links.instagram"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a :href="organizer.instagram" target="_blank" rel="noopener">
                   <Icon name="ph:instagram-logo" class="w-4 h-4" />
                   Instagram
                 </a>
               </Button>
               <Button
-                v-if="organizer.links?.facebook"
+                v-if="organizer.facebook"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
-                <a
-                  :href="organizer.links.facebook"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a :href="organizer.facebook" target="_blank" rel="noopener">
                   <Icon name="ph:facebook-logo" class="w-4 h-4" />
                   Facebook
                 </a>
               </Button>
               <Button
-                v-if="organizer.links?.discord"
+                v-if="organizer.discord"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
-                <a
-                  :href="organizer.links.discord"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a :href="organizer.discord" target="_blank" rel="noopener">
                   <Icon name="ph:discord-logo" class="w-4 h-4" />
                   Discord
                 </a>
               </Button>
               <Button
-                v-if="organizer.links?.website"
+                v-if="organizer.website"
                 variant="outline"
                 size="sm"
                 class="gap-1"
                 as-child
               >
-                <a
-                  :href="organizer.links.website"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a :href="organizer.website" target="_blank" rel="noopener">
                   <Icon name="ph:globe" class="w-4 h-4" />
                   Website
                 </a>

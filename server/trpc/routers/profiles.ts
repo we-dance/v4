@@ -398,4 +398,50 @@ export const profilesRouter = router({
         hasMore: skip + artists.length < totalCount,
       }
     }),
+  organisers: publicProcedure.query(async () => {
+    const organizers = await prisma.profile.findMany({
+      where: {
+        type: 'Organiser',
+      },
+      include: {
+        city: true,
+        styles: true,
+      },
+    })
+
+    const styles = await prisma.experience.findMany({
+      where: {
+        profile: {
+          id: { in: organizers.map((organizer) => organizer.id) },
+        },
+      },
+      select: {
+        style: true,
+      },
+    })
+
+    // Transform data to match expected format
+    return organizers.map((organizer) => ({
+      id: organizer.id,
+      name: organizer.name || '',
+      location: organizer.city?.name || organizer.formattedAddress || '',
+      styles: styles.map((style) => style.style.name),
+      bio: organizer.bio || '',
+      eventTypes: [],
+      avatar: organizer.photo || '',
+      coverImage: '',
+      eventCount: 0,
+      privacy: 'public',
+      followers: 0,
+      following: 0,
+      rating: 0,
+      contact: {},
+      username: organizer.username || '',
+      website: organizer.website || '',
+      instagram: organizer.instagram || '',
+      facebook: organizer.facebook || '',
+      telegram: organizer.telegram || '',
+      whatsapp: organizer.whatsapp || '',
+    }))
+  }),
 })

@@ -1,12 +1,28 @@
 <script setup lang="ts">
 import EmptyState from '~/components/common/EmptyState.vue'
 import OrganizerCard from '~/components/OrganizerCard.vue'
-import { danceStyles, eventTypes, mockOrganizers } from '~/data/mockOrganizers'
+import { trpc } from '~/composables/trpc'
+
+// Mock data for styles and event types
+const danceStyles = [
+  { value: 'salsa', label: 'Salsa' },
+  { value: 'bachata', label: 'Bachata' },
+  { value: 'kizomba', label: 'Kizomba' },
+  { value: 'zouk', label: 'Brazilian Zouk' },
+]
+
+const eventTypes = [
+  { value: 'party', label: 'Party' },
+  { value: 'workshop', label: 'Workshop' },
+  { value: 'festival', label: 'Festival' },
+  { value: 'class', label: 'Class' },
+]
 
 const search = ref('')
 const showFilters = ref(false)
 const isGridView = ref(true)
 const showLocationFilter = ref(false)
+const organizers = ref<any[]>([])
 
 interface Filters {
   styles: string[]
@@ -39,8 +55,6 @@ watch(
   },
   { deep: true }
 )
-
-const organizers = ref(mockOrganizers)
 
 // Helper function to get style label
 function getStyleLabel(value: string) {
@@ -155,6 +169,23 @@ watch(selectedEventType, (newValue) => {
       filters.value.eventTypes = [...currentTypes, newValue]
     }
   }
+})
+
+async function fetchOrganizers() {
+  try {
+    const data = await trpc.profiles.organisers.query()
+    if (data && Array.isArray(data)) {
+      organizers.value = data.map((organizer) => ({
+        ...organizer,
+      }))
+    }
+  } catch (error) {
+    console.error('Error fetching organizers:', error)
+  }
+}
+
+onMounted(() => {
+  fetchOrganizers()
 })
 </script>
 
