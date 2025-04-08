@@ -368,10 +368,7 @@ export const profilesRouter = router({
       ...citiesWithCount.map((city) => ({
         name: city.name,
         count: city._count.profiles,
-      })),
-      ...Array.from(addressCities.entries()).map(([name, count]) => ({
-        name,
-        count,
+        type: 'city',
       })),
     ]
 
@@ -409,6 +406,7 @@ export const profilesRouter = router({
     const regions = regionsWithCount.map((region) => ({
       name: region.region,
       count: region._count.profiles,
+      type: 'region',
     }))
 
     return {

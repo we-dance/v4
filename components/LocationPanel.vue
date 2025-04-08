@@ -14,8 +14,8 @@ const locationSearch = ref('')
 const loadingCities = ref(false)
 const loadingRegions = ref(false)
 
-const cities = ref<Array<{ name: string; count: string }>>([])
-const regions = ref<Array<{ name: string; count: string }>>([])
+const cities = ref<Array<{ name: string; count: string; type: string }>>([])
+const regions = ref<Array<{ name: string; count: string; type: string }>>([])
 
 const fetchLocations = async () => {
   loadingCities.value = true
@@ -25,27 +25,29 @@ const fetchLocations = async () => {
     const venueCities = await trpc.profiles.venueLocations.query()
     cities.value = venueCities.cities.map((city) => ({
       name: city.name,
-      count: `${city.count}+`,
+      count: `${city.count}`,
+      type: city.type || 'address',
     }))
 
     regions.value = venueCities.regions.map((region) => ({
       name: region.name,
-      count: `${region.count}+`,
+      count: `${region.count}`,
+      type: region.type || 'region',
     }))
   } catch (error) {
     console.error('Error fetching venue locations:', error)
 
     cities.value = [
-      { name: 'New York', count: '10+' },
-      { name: 'London', count: '8+' },
-      { name: 'Berlin', count: '5+' },
-      { name: 'Madrid', count: '3+' },
+      { name: 'New York', count: '10+', type: 'city' },
+      { name: 'London', count: '8+', type: 'city' },
+      { name: 'Berlin', count: '5+', type: 'city' },
+      { name: 'Madrid', count: '3+', type: 'city' },
     ]
 
     regions.value = [
-      { name: 'Europe', count: '20+' },
-      { name: 'North America', count: '15+' },
-      { name: 'Asia', count: '5+' },
+      { name: 'Europe', count: '20+', type: 'region' },
+      { name: 'North America', count: '15+', type: 'region' },
+      { name: 'Asia', count: '5+', type: 'region' },
     ]
   } finally {
     loadingCities.value = false
@@ -63,6 +65,10 @@ const filteredRegions = computed(() => {
 const filteredCities = computed(() => {
   const search = locationSearch.value.toLowerCase()
   return cities.value.filter((city) => city.name.toLowerCase().includes(search))
+})
+
+const citiesOnly = computed(() => {
+  return filteredCities.value.filter((location) => location.type === 'city')
 })
 
 onMounted(async () => {
@@ -115,14 +121,14 @@ onMounted(async () => {
       <div
         class="font-medium text-sm text-muted-foreground mt-2 flex items-center justify-between"
       >
-        Cities with Venues
+        Cities
         <span v-if="loadingCities" class="text-xs text-muted-foreground">
           <Icon name="ph:spinner-gap" class="w-3 h-3 animate-spin" />
         </span>
       </div>
 
       <div
-        v-if="!loadingCities && filteredCities.length === 0"
+        v-if="!loadingCities && citiesOnly.length === 0"
         class="text-sm text-muted-foreground py-2 px-3"
       >
         No cities found
@@ -130,7 +136,7 @@ onMounted(async () => {
 
       <div class="flex flex-col w-full">
         <Button
-          v-for="city in filteredCities"
+          v-for="city in citiesOnly"
           :key="city.name"
           variant="ghost"
           class="justify-start w-full"
