@@ -310,7 +310,7 @@ const filteredDanceStyles = computed(() => {
     <NuxtLink
       v-for="venue in venues"
       :key="venue.id"
-      :to="`/venues/${venue.id}`"
+      :to="`/@${venue.username}`"
       class="group bg-card rounded-xl border border-border overflow-hidden hover:shadow-lg transition-all duration-300"
     >
       <div class="aspect-video relative overflow-hidden">
