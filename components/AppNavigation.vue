@@ -72,7 +72,10 @@ watch(
             <DropdownMenu>
               <DropdownMenuTrigger as-child>
                 <Button variant="ghost" size="icon">
-                  <Avatar :profile="data?.profile" class="h-4 w-4" />
+                  <Avatar
+                    :profile="data?.profile"
+                    class="h-8 w-8 rounded-full"
+                  />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>

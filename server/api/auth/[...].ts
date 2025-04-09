@@ -60,7 +60,7 @@ export default NuxtAuthHandler({
 
       return Promise.resolve({
         user,
-        profile,
+        profile: profile,
         expires: session.expires,
       })
     },
