@@ -1,6 +1,6 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
-import { publicProcedure, router } from '../trpc'
+import { publicProcedure, router } from '~/server/trpc/init'
 
 export const eventsRouter = router({
   getAll: publicProcedure

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/css/main.css'],
   build: {
-    transpile: ['vee-validate'],
+    transpile: ['vee-validate', 'trpc-nuxt'],
   },
 
   postcss: {

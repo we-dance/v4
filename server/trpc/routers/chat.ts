@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { router, publicProcedure } from '../trpc'
+import { publicProcedure, router } from '~/server/trpc/init'
 
 // Mock data for UI development
 const mockConversations = [

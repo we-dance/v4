@@ -1,4 +1,4 @@
-import { router } from '../trpc'
+import { router } from '~/server/trpc/init'
 import { postsRouter } from './posts'
 import { eventsRouter } from './events'
 import { profilesRouter } from './profiles'
