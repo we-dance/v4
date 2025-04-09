@@ -20,7 +20,9 @@ const offer = computed(() => subscription.offer)
       </p>
       <p class="text-sm text-gray-600">Status: {{ subscription.status }}</p>
       <div class="mt-4 flex space-x-2">
-        <Button variant="outline">Cancel</Button>
+        <Button variant="outline" as-child>
+          <NuxtLink :to="`/settings/billing`">Manage Subscriptions</NuxtLink>
+        </Button>
       </div>
     </div>
   </div>

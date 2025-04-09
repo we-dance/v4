@@ -460,15 +460,17 @@ model Offer {
 }
 
 model Subscription {
-  id              String    @id @default(nanoid())
-  userId          String
-  user            User      @relation(fields: [userId], references: [id])
-  offerId         String
-  offer           Offer     @relation(fields: [offerId], references: [id])
-  status          String    @default("pending") // 'active', 'canceled', 'past_due'
-  nextBillingDate DateTime?
-  canceledAt      DateTime?
+  id                   String    @id @default(nanoid())
+  userId               String
+  user                 User      @relation(fields: [userId], references: [id])
+  offerId              String
+  offer                Offer     @relation(fields: [offerId], references: [id])
+  status               String    @default("pending") // 'active', 'canceled', 'past_due'
+  nextBillingDate      DateTime?
+  stripeSubscriptionId String?
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  endAt      DateTime?
+  canceledAt DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
 }

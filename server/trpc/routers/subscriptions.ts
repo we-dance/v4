@@ -2,6 +2,7 @@ import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
+import { stripe } from '~/server/utils/stripe'
 
 export const subscriptionsRouter = router({
   view: publicProcedure
@@ -48,4 +49,77 @@ export const subscriptionsRouter = router({
 
     return subscriptions
   }),
+  cancel: publicProcedure
+    .input(z.object({ subscriptionId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { subscriptionId } = input
+
+      const subscription = await prisma.subscription.findUnique({
+        where: { id: subscriptionId },
+        include: {
+          offer: {
+            include: {
+              course: {
+                include: {
+                  instructor: {
+                    include: {
+                      user: true,
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      })
+
+      if (!subscription) {
+        throw new TRPCError({
+          code: 'NOT_FOUND',
+          message: 'Subscription not found',
+        })
+      }
+
+      if (!subscription.stripeSubscriptionId) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Subscription has no Stripe subscription ID',
+        })
+      }
+
+      const stripeAccount =
+        subscription.offer.course.instructor?.user?.stripeAccountId
+
+      if (!stripeAccount) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Instructor has no Stripe account',
+        })
+      }
+
+      const stripeSubscription = await stripe.subscriptions.cancel(
+        subscription.stripeSubscriptionId,
+        {
+          stripeAccount,
+        }
+      )
+
+      const endAt = stripeSubscription.ended_at
+        ? new Date(stripeSubscription.ended_at * 1000)
+        : undefined
+
+      await prisma.subscription.update({
+        where: { id: subscriptionId },
+        data: {
+          status: 'canceled',
+          canceledAt: new Date(),
+          endAt,
+          nextBillingDate: null,
+        },
+      })
+
+      return {
+        success: true,
+      }
+    }),
 })

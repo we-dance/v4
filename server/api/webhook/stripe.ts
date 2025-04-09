@@ -1,9 +1,5 @@
-import Stripe from 'stripe'
 import { prisma } from '~/server/prisma'
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-03-31.basil',
-})
+import { stripe } from '~/server/utils/stripe'
 
 export default eventHandler(async (event) => {
   const body = await readRawBody(event, false)
@@ -27,7 +23,7 @@ export default eventHandler(async (event) => {
       process.env.STRIPE_WEBHOOK_SECRET_KEY!
     )
   } catch (err) {
-    return { error: err }
+    return { error: (err as Error).message }
   }
 
   switch (stripeEvent.type) {
@@ -37,6 +33,18 @@ export default eventHandler(async (event) => {
       if (!checkoutSession.metadata.subscriptionId) {
         return { error: 'Subscription ID not found' }
       }
+
+      const stripeAccount = checkoutSession.metadata.stripeAccount
+
+      const stripeSubscription = await stripe.subscriptions.retrieve(
+        checkoutSession.subscription,
+        {
+          stripeAccount,
+        }
+      )
+      const nextBillingDate = new Date(
+        stripeSubscription.items.data[0].current_period_end * 1000
+      )
 
       const subscription = await prisma.subscription.findUnique({
         where: {
@@ -50,7 +58,11 @@ export default eventHandler(async (event) => {
 
       await prisma.subscription.update({
         where: { id: subscription.id },
-        data: { status: 'active' },
+        data: {
+          status: 'active',
+          nextBillingDate,
+          stripeSubscriptionId: checkoutSession.subscription,
+        },
       })
 
       break

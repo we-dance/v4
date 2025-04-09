@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
-import Stripe from 'stripe'
+import { stripe } from '~/server/utils/stripe'
 import { prisma } from '~/server/prisma'
 
 export const checkoutRouter = router({
@@ -79,8 +79,6 @@ export const checkoutRouter = router({
         },
       })
 
-      const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string)
-
       const stripeAccount = offer.course.instructor.user.stripeAccountId
 
       const customer = await stripe.customers.create(
@@ -102,6 +100,7 @@ export const checkoutRouter = router({
           cancel_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/cancel`,
           metadata: {
             subscriptionId: subscription.id,
+            stripeAccount,
           },
         },
         {

@@ -17,8 +17,14 @@ type Variant =
   | 'no-media'
   | 'no-classes'
   | 'group-not-found'
+  | 'no-subscriptions'
 
 const variants: Record<Variant, EmptyStateContent> = {
+  'no-subscriptions': {
+    icon: 'ph:credit-card',
+    title: 'No Subscriptions',
+    description: 'You are not subscribed to any offers',
+  },
   'profile-not-found': {
     icon: 'ph:user-circle-x',
     title: 'Profile Not Found',
