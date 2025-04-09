@@ -53,18 +53,37 @@ export const checkoutRouter = router({
       // }
       const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string)
 
-      // const customer = await stripe.customers.create({
-      //   email: ctx.session.user.email,
-      //   name: ctx.session.user.firstName + ' ' + ctx.session.user.lastName,
-      // })
+      const buyer = {
+        email: 'alex@razbakov.com',
+        name: 'Alex Razbakov',
+      }
 
-      const stripeSession = await stripe.checkout.sessions.create({
-        // customer: customer.id,
-        line_items: [{ price: offer.stripePriceId, quantity: 1 }],
-        mode: 'payment',
-        success_url: `${process.env.BASE_URL}/checkout/${offerId}/success`,
-        cancel_url: `${process.env.BASE_URL}/checkout/${offerId}/cancel`,
-      })
+      const seller = {
+        stripeAccountId: 'acct_1P5TyRPfAZyf4epA',
+      }
+
+      const customer = await stripe.customers.create(
+        {
+          email: buyer.email,
+          name: buyer.name,
+        },
+        {
+          stripeAccount: seller.stripeAccountId,
+        }
+      )
+
+      const stripeSession = await stripe.checkout.sessions.create(
+        {
+          customer: customer.id,
+          line_items: [{ price: offer.stripePriceId, quantity: 1 }],
+          mode: 'subscription',
+          success_url: `${process.env.BASE_URL}/checkout/${offerId}/success`,
+          cancel_url: `${process.env.BASE_URL}/checkout/${offerId}/cancel`,
+        },
+        {
+          stripeAccount: seller.stripeAccountId,
+        }
+      )
 
       if (!stripeSession?.url) {
         throw new TRPCError({
