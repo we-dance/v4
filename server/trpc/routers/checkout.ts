@@ -100,6 +100,9 @@ export const checkoutRouter = router({
           mode: 'subscription',
           success_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/success`,
           cancel_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/cancel`,
+          metadata: {
+            subscriptionId: subscription.id,
+          },
         },
         {
           stripeAccount,
