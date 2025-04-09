@@ -32,4 +32,20 @@ export const subscriptionsRouter = router({
 
       return subscription
     }),
+  list: publicProcedure.query(async ({ ctx }) => {
+    const subscriptions = await prisma.subscription.findMany({
+      where: {
+        userId: ctx.session?.user.id,
+      },
+      include: {
+        offer: {
+          include: {
+            course: true,
+          },
+        },
+      },
+    })
+
+    return subscriptions
+  }),
 })

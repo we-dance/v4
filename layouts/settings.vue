@@ -36,6 +36,22 @@ const route = useRoute()
                   </span>
                 </NuxtLink>
                 <NuxtLink
+                  to="/settings/billing"
+                  class="block px-3 py-2 rounded-md transition-colors"
+                  :class="{
+                    'bg-primary text-primary-foreground':
+                      route.path === '/settings/billing',
+                    'hover:bg-muted/50 text-foreground/80 hover:text-foreground':
+                      route.path !== '/settings/billing',
+                  }"
+                  aria-current="page"
+                >
+                  <span class="flex items-center gap-2">
+                    <Icon name="heroicons:credit-card" class="w-5 h-5" />
+                    Billing
+                  </span>
+                </NuxtLink>
+                <NuxtLink
                   to="/settings/profile"
                   class="block px-3 py-2 rounded-md transition-colors"
                   :class="{
