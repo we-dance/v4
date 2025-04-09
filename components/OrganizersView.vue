@@ -50,10 +50,6 @@ async function fetchOrganizers(isLoadMore = false) {
   }
 }
 
-function toggleView() {
-  isGridView.value = !isGridView.value
-}
-
 function loadMore() {
   if (hasMore.value) {
     page.value++
@@ -72,15 +68,6 @@ onMounted(() => {
     <div
       class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6"
     >
-      <div class="flex gap-2">
-        <Button variant="outline" @click="toggleView">
-          <Icon
-            :name="isGridView ? 'ph:grid-four' : 'ph:list'"
-            class="w-4 h-4"
-          />
-        </Button>
-      </div>
-
       <Button variant="primary" as-child class="w-full sm:w-auto">
         <NuxtLink to="/register" class="flex items-center justify-center gap-2">
           <Icon name="ph:plus-circle" class="w-5 h-5" />
@@ -89,23 +76,26 @@ onMounted(() => {
       </Button>
     </div>
 
+    <!-- Loading State (Initial) -->
+    <div
+      v-if="isLoading && !organizers.length"
+      class="py-10 flex justify-center"
+    >
+      <div
+        class="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full"
+      ></div>
+    </div>
+
     <!-- Results Grid View -->
-    <div v-if="isGridView" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div
+      v-if="isGridView && organizers.length > 0"
+      class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"
+    >
       <OrganizerCard
         v-for="organizer in organizers"
         :key="organizer.id"
         :organizer="organizer"
         view="grid"
-      />
-    </div>
-
-    <!-- Results List View -->
-    <div v-else class="space-y-4">
-      <OrganizerCard
-        v-for="organizer in organizers"
-        :key="organizer.id"
-        :organizer="organizer"
-        view="list"
       />
     </div>
 
@@ -122,15 +112,8 @@ onMounted(() => {
       </Button>
     </div>
 
-    <!-- Loading More Indicator -->
-    <div v-if="loadingMore" class="mt-8 flex justify-center">
-      <div
-        class="animate-spin h-6 w-6 border-4 border-primary border-t-transparent rounded-full"
-      ></div>
-    </div>
-
     <!-- Empty State -->
-    <div v-if="!organizers.length" class="text-center">
+    <div v-if="!organizers.length && !isLoading" class="text-center">
       <div class="max-w-md mx-auto">
         <EmptyState variant="no-results" />
         <p class="mt-4 text-muted-foreground">
