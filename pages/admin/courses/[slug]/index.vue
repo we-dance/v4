@@ -6,6 +6,7 @@ import { z } from 'zod'
 
 definePageMeta({
   layout: 'admin',
+  middleware: ['sidebase-auth'],
 })
 
 const route = useRoute()

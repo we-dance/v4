@@ -1,3 +1,14 @@
+<script setup lang="ts">
+definePageMeta({
+  layout: 'admin',
+  middleware: ['sidebase-auth'],
+})
+
+const onSubmit = () => {
+  // TODO: Implement event creation
+}
+</script>
+
 <template>
   <div class="container py-6 space-y-6">
     <div class="flex items-center gap-4">
@@ -118,13 +129,3 @@
     </form>
   </div>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  layout: 'admin',
-})
-
-const onSubmit = () => {
-  // TODO: Implement event creation
-}
-</script>

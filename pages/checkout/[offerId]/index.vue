@@ -21,7 +21,9 @@ const offer = await $client.checkout.view.query({ offerId })
     >
       <p>Please login to continue</p>
       <Button as-child>
-        <NuxtLink :to="`/login?redirect=/checkout/${offerId}`">Login</NuxtLink>
+        <NuxtLink :to="`/login?callbackUrl=/checkout/${offerId}`"
+          >Login</NuxtLink
+        >
       </Button>
     </div>
   </div>

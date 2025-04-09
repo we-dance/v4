@@ -108,11 +108,13 @@ export const coursesRouter = router({
           offers: {
             orderBy: { createdAt: 'desc' },
             include: {
-              subscriptions: {
-                where: {
-                  userId: ctx.session?.user?.id,
-                },
-              },
+              subscriptions: ctx.session?.user?.id
+                ? {
+                    where: {
+                      userId: ctx.session.user.id,
+                    },
+                  }
+                : undefined,
             },
           },
         },

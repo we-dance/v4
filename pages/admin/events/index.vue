@@ -1,3 +1,10 @@
+<script setup lang="ts">
+definePageMeta({
+  layout: 'admin',
+  middleware: ['sidebase-auth'],
+})
+</script>
+
 <template>
   <div class="container py-6 space-y-6">
     <div class="flex justify-between items-center">
@@ -49,9 +56,3 @@
     </Card>
   </div>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  layout: 'admin',
-})
-</script>
