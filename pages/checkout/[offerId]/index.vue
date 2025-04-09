@@ -2,6 +2,7 @@
 import { z } from 'zod'
 
 const { isLoggedIn } = useAppAuth()
+
 const { $client } = useNuxtApp()
 const route = useRoute()
 const offerId = z.string().parse(route.params.offerId)

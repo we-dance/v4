@@ -1,11 +1,12 @@
 import { initTRPC } from '@trpc/server'
 import type { H3Event } from 'h3'
+import { getServerSession } from '#auth'
 
 export const createTRPCContext = async (event: H3Event) => {
   /**
    * @see: https://trpc.io/docs/server/context
    */
-  return { auth: event.context.auth }
+  return { event: event }
 }
 
 // Avoid exporting the entire t-object

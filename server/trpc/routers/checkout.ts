@@ -2,14 +2,15 @@ import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import Stripe from 'stripe'
+import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 
 export const checkoutRouter = router({
   view: publicProcedure
     .input(z.object({ offerId: z.string() }))
-    .query(async ({ ctx, input }) => {
+    .query(async ({ input }) => {
       const { offerId } = input
-      const offer = await ctx.prisma.offer.findUnique({
+      const offer = await prisma.offer.findUnique({
         where: { id: offerId },
         include: {
           course: {
@@ -29,10 +30,12 @@ export const checkoutRouter = router({
   createCheckoutSession: publicProcedure
     .input(z.object({ offerId: z.string() }))
     .mutation(async ({ input, ctx }) => {
-      console.log('createCheckoutSession', { input, ctx })
+      console.log('createCheckoutSession', ctx)
+      const session = await getServerSession(ctx.event)
+      console.log('session', session)
 
       const { offerId } = input
-      const offer = await ctx.prisma.offer.findUnique({
+      const offer = await prisma.offer.findUnique({
         where: { id: offerId },
       })
 
@@ -47,20 +50,21 @@ export const checkoutRouter = router({
         })
       }
 
-      const subscription = await ctx.prisma.subscription.create({
+      if (!session) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'User not authenticated',
+        })
+      }
+
+      const subscription = await prisma.subscription.create({
         data: {
           offerId: offer.id,
-          userId: ctx.session?.user.id,
+          userId: opts.ctx.auth.user?.id,
           status: 'pending',
         },
       })
 
-      // if (!ctx.session) {
-      //   throw new TRPCError({
-      //     code: 'UNAUTHORIZED',
-      //     message: 'User not authenticated',
-      //   })
-      // }
       const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string)
 
       const buyer = {
