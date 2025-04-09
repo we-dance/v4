@@ -1,0 +1,27 @@
+<script setup lang="ts">
+import { formatDateShort } from '~/utils/format'
+
+const { subscription } = defineProps<{
+  subscription: any
+}>()
+
+const offer = computed(() => subscription.offer)
+</script>
+
+<template>
+  <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+    <div class="p-6">
+      <h2 class="text-lg font-semibold">{{ offer.name }}</h2>
+      <p class="text-sm text-gray-600 mt-1">
+        Subscribed since: {{ formatDateShort(subscription.createdAt) }}
+      </p>
+      <p v-if="subscription.nextBillingDate" class="text-sm text-gray-600">
+        Renewal Date: {{ formatDateShort(subscription.nextBillingDate) }}
+      </p>
+      <p class="text-sm text-gray-600">Status: {{ subscription.status }}</p>
+      <div class="mt-4 flex space-x-2">
+        <Button variant="outline">Cancel</Button>
+      </div>
+    </div>
+  </div>
+</template>

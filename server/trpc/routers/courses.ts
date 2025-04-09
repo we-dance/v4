@@ -107,6 +107,13 @@ export const coursesRouter = router({
           resources: true,
           offers: {
             orderBy: { createdAt: 'desc' },
+            include: {
+              subscriptions: {
+                where: {
+                  userId: ctx.session?.user?.id,
+                },
+              },
+            },
           },
         },
       })

@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { formatDuration } from '~/utils/format'
-const { course, currentLesson } = defineProps<{
+const { course, currentLesson, isUnlocked } = defineProps<{
   course: any
   currentLesson: any
+  isUnlocked: boolean
 }>()
 
 const emit = defineEmits<{
@@ -13,7 +14,7 @@ const emit = defineEmits<{
 <template>
   <div class="bg-background rounded-xl shadow-sm overflow-hidden">
     <div class="p-4 border-b">
-      <h3 class="font-semibold">Course Content</h3>
+      <h3 class="font-semibold">Course Content {{ isUnlocked }}</h3>
     </div>
     <div class="divide-y">
       <div v-for="module in course.modules" :key="module.id" class="p-4">
@@ -29,10 +30,14 @@ const emit = defineEmits<{
             }"
           >
             <Icon
-              :name="lesson.locked ? 'ph:lock-simple' : 'ph:play-circle'"
+              :name="
+                lesson.locked && !isUnlocked
+                  ? 'ph:lock-simple'
+                  : 'ph:play-circle'
+              "
               class="w-5 h-5"
               :class="
-                lesson.locked
+                lesson.locked && !isUnlocked
                   ? 'text-muted-foreground'
                   : 'text-muted-foreground'
               "

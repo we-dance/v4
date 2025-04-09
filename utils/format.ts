@@ -1,10 +1,6 @@
 import type { Prisma } from '@prisma/client'
 
 export function formatDate(dateString: string): string {
-  if (dateString.toLowerCase().includes('every')) {
-    return dateString
-  }
-
   try {
     const date = new Date(dateString)
     return new Intl.DateTimeFormat('en-US', {
@@ -13,6 +9,19 @@ export function formatDate(dateString: string): string {
       day: 'numeric',
       hour: 'numeric',
       minute: 'numeric',
+    }).format(date)
+  } catch {
+    return dateString
+  }
+}
+
+export function formatDateShort(dateString: string): string {
+  try {
+    const date = new Date(dateString)
+    return new Intl.DateTimeFormat('en-US', {
+      month: 'long',
+      year: 'numeric',
+      day: 'numeric',
     }).format(date)
   } catch {
     return dateString

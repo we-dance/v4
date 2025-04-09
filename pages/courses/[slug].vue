@@ -6,6 +6,23 @@ const route = useRoute()
 const slug = z.string().parse(route.params.slug)
 const course = await $client.courses.view.query({ slug })
 const currentLesson = ref(course.modules[0].lessons[0])
+const subscription = ref(
+  course.offers
+    .filter(
+      (offer: any) => offer.subscriptions && offer.subscriptions.length > 0
+    )
+    .flatMap((offer: any) =>
+      offer.subscriptions.map((subscription: any) => ({
+        ...subscription,
+        offer,
+      }))
+    )[0]
+)
+
+const isUnlocked = computed(() => {
+  return !subscription.value || subscription.value.status === 'active'
+})
+
 const dialog = useDialog()
 
 const scrollToPlayer = () => {
@@ -23,7 +40,7 @@ const scrollToPlayer = () => {
 }
 
 const handleSelectLesson = (lesson: any) => {
-  if (lesson.locked) {
+  if (lesson.locked && !isUnlocked.value) {
     handleViewPricing()
     return
   }
@@ -54,6 +71,7 @@ const handleViewPricing = () => {
           <CourseContent
             :course="course"
             :current-lesson="currentLesson"
+            :is-unlocked="isUnlocked"
             @select-lesson="handleSelectLesson"
           />
           <CourseMaterials :course="course" />
@@ -64,7 +82,12 @@ const handleViewPricing = () => {
 
         <div class="lg:sticky lg:top-8 space-y-8">
           <CourseSidebarOverview :course="course" />
+          <CourseSidebarSubscriptions
+            v-if="subscription"
+            :subscription="subscription"
+          />
           <CourseSidebarPricing
+            v-else
             :course="course"
             @view-pricing="handleViewPricing"
           />
