@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { z } from 'zod'
+import { toast } from 'vue-sonner'
 
 const { $client } = useNuxtApp()
 const route = useRoute()
@@ -7,6 +8,11 @@ const slug = z.string().parse(route.params.slug)
 const course = await $client.courses.view.query({ slug })
 const currentLesson = ref(course.modules[0].lessons[0])
 const dialog = useDialog()
+
+const { redirectToCheckout } = useStripeCheckout()
+const isCheckoutLoading = ref(false)
+const loadingStripeCourseId = ref<string | null>(null)
+const loadingCourseName = ref<string | null>(null)
 
 const scrollToPlayer = () => {
   const player = document.querySelector('.player')
@@ -37,8 +43,34 @@ const handleViewPricing = () => {
     component: 'CourseSubscriptionDialog',
     props: {
       course: course,
+      onSubscribe: handleSubscribe,
+      onSelect: () => dialog.close(),
     },
   })
+}
+
+const handleSubscribe = async (offerId: string) => {
+  try {
+    isCheckoutLoading.value = true
+    loadingStripeCourseId.value = course.id
+    const url = await redirectToCheckout({
+      courseId: course.id,
+      courseName: course.name,
+      offeringId: offerId,
+    })
+
+    if (url) {
+      window.location.href = url
+    } else {
+      throw new Error('Failed to create checkout session')
+    }
+  } catch (error) {
+    console.error('Error during checkout:', error)
+    toast.error('Error initiating checkout. Please try again.')
+  } finally {
+    isCheckoutLoading.value = false
+    loadingStripeCourseId.value = null
+  }
 }
 </script>
 

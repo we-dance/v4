@@ -1,4 +1,3 @@
-import type { inferAsyncReturnType } from '@trpc/server'
 import type { H3Event } from 'h3'
 
 /**
@@ -11,5 +10,3 @@ export function createContext(_event: H3Event) {
     event: _event,
   }
 }
-
-export type Context = inferAsyncReturnType<typeof createContext>

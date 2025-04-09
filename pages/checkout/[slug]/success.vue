@@ -1,47 +1,99 @@
 <script setup lang="ts">
-import { mockEvents } from '@/data/mockEvents'
-import { mockCourses } from '@/data/mockCourses'
-import type { AnyEvent } from '~/schemas/event'
+import { z } from 'zod'
 import { formatDate } from '~/utils/format'
 import { useCourseProgress } from '~/composables/useCourseProgress'
 import { watchEffect, ref } from 'vue'
-const { updateLessonUnlockStatus } = useCourseProgress()
+import { toast } from 'vue-sonner'
+import { convertDurationToInterval } from '~/utils/format'
 
+const { updateLessonUnlockStatus } = useCourseProgress()
 const isUpdating = ref(true)
 const updateError = ref(false)
+const subscriptionCreated = ref(false)
 
+const { $client } = useNuxtApp()
 const route = useRoute()
-const event = computed(() =>
-  mockEvents.find((e) => String(e.id) === String(route.params.slug))
-)
-const course = computed(() =>
-  mockCourses.find((c) => String(c.id) === String(route.params.slug))
-)
+const slug = z.string().parse(route.params.slug)
 
-// judge if input is a event or course then navigate to the correct page
+const event = await $client.events.getAll.query({})
+const course = await $client.courses.view.query({ slug })
+
 const typeOfInstance = computed(() =>
   course ? 'course' : event ? 'event' : 'notFound'
 )
 
-// check url change and update course status
 watchEffect(async () => {
-  const courseId = course.value?.identifier
-  if (!courseId) return
+  if (
+    typeOfInstance.value !== 'course' ||
+    !course.id ||
+    subscriptionCreated.value
+  )
+    return
+
   try {
-    console.log('check status:', courseId)
-    // once redirect to this page, update course status to locked: false
-    const result = await updateLessonUnlockStatus(courseId, false)
+    const sessionId = localStorage.getItem('stripe_session_id')
+    if (!sessionId) {
+      console.error('Stripe sessionId not found in localStorage')
+      updateError.value = true
+      return
+    }
+    const stripeData =
+      await $client.subscriptions.getStripeSessionDetails.query({
+        sessionId,
+      })
+
+    if (!stripeData?.stripePriceId) {
+      console.error('Stripe session data not found')
+      return
+    }
+
+    const offerId = localStorage.getItem('selected_offer_id')
+    const offer = course.offers?.find(
+      (o: { id: string | null }) => o.id === offerId
+    )
+
+    const interval = convertDurationToInterval(offer.duration)
+    let nextBillingDate = new Date()
+    if (interval === 'month') {
+      nextBillingDate.setMonth(nextBillingDate.getMonth() + 1)
+    } else if (interval === 'year') {
+      nextBillingDate.setFullYear(nextBillingDate.getFullYear() + 1)
+    }
+
+    if (!offer) {
+      console.error('Offer not matched with stripe price ID')
+      return
+    }
+
+    await $client.subscriptions.create.mutate({
+      name: course.name,
+      plan: offer.name,
+      price: offer.price,
+      currency: offer.currency.toUpperCase(),
+      interval: offer.duration === 'P1Y' ? 'year' : 'month',
+      status: 'active',
+      nextBillingDate: nextBillingDate,
+      stripeCustomerId: stripeData.stripeCustomerId,
+      stripeSubscriptionId: stripeData.stripeSubscriptionId,
+      stripePriceId: stripeData.stripePriceId,
+    })
+
+    subscriptionCreated.value = true
+
+    const result = await updateLessonUnlockStatus(course.id, false)
+
     if (result) {
-      console.log('successfully updated')
+      toast.info('Lessons unlocked successfully')
     } else {
-      console.log('update failed')
       updateError.value = true
     }
-  } catch (error) {
-    console.error('update error:', error)
+  } catch (err) {
+    toast.error('Error creating subscription or unlocking lessons')
     updateError.value = true
   } finally {
     isUpdating.value = false
+    localStorage.removeItem('selected_offer_id')
+    localStorage.removeItem('stripe_session_id')
   }
 })
 </script>
@@ -71,7 +123,7 @@ watchEffect(async () => {
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
             <img
-              :src="event?.image || '/images/event-placeholder.jpg'"
+              :src="event?.cover || '/images/event-placeholder.jpg'"
               :alt="event?.name"
               class="w-full h-full object-cover"
             />
@@ -130,7 +182,7 @@ watchEffect(async () => {
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
             <img
-              :src="course?.image?.url || '/images/event-placeholder.jpg'"
+              :src="course?.coverUrl || '/images/event-placeholder.jpg'"
               :alt="course?.name"
               class="w-full h-full object-cover"
             />
@@ -164,7 +216,7 @@ watchEffect(async () => {
           <NuxtLink to="/courses">Browse More Courses</NuxtLink>
         </Button>
         <Button as-child>
-          <NuxtLink :to="`/courses/${course?.identifier}`"
+          <NuxtLink :to="`/courses/${course.slug}`"
             >View Course Details</NuxtLink
           >
         </Button>

@@ -73,6 +73,7 @@ model User {
   profilesCreated Profile[] @relation("profile_created_by")
   accounts        Account[]
   sessions        Session[]
+  subscriptions Subscription[]
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -451,4 +452,24 @@ model Offer {
   updatedAt DateTime @updatedAt
 
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+}
+
+model Subscription {
+  id                 String   @id @default(dbgenerated("sub_" || substring(md5(random()::text), 1, 10)))
+  userId             String
+  name               String
+  plan               String         // Premium / Regular
+  price              Int
+  currency           String         // 'EUR', 'USD'...
+  interval           String         // 'month', 'year'...
+  status             String         // 'active', 'canceled', etc.
+  nextBillingDate    DateTime
+  canceledAt         DateTime?      // optional, if canceled
+  stripeCustomerId   String?        // checkout.session.customer
+  stripeSubscriptionId String?      // checkout.session.subscription
+  stripePriceId      String?        // line_items[0].price.id
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
