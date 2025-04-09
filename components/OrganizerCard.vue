@@ -41,7 +41,7 @@ const props = withDefaults(defineProps<Props>(), {
           class="aspect-w-16 aspect-h-9 rounded-t-lg overflow-hidden"
         >
           <NuxtImg
-            :src="organizer.photo"
+            :src="organizer.photo || '/images/default-cover.jpg'"
             :alt="organizer.name"
             class="object-cover"
           />
