@@ -449,31 +449,4 @@ export const profilesRouter = router({
         hasMore: skip + organizers.length < totalCount,
       }
     }),
-  organiserStyles: publicProcedure
-    .input(z.object({ organizerId: z.string() }))
-    .query(async ({ input }) => {
-      const { organizerId } = input
-
-      const organizer = await prisma.profile.findUnique({
-        where: {
-          id: organizerId,
-          type: 'Organiser',
-        },
-        include: {
-          styles: {
-            include: {
-              style: true,
-            },
-          },
-        },
-      })
-
-      if (!organizer) {
-        return []
-      }
-
-      const styleNames = organizer.styles.map((s) => s.style.name)
-
-      return styleNames.sort()
-    }),
 })
