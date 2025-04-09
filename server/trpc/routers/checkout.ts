@@ -3,7 +3,6 @@ import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import Stripe from 'stripe'
 import { prisma } from '~/server/prisma'
-import { getServerSession } from '#auth'
 
 export const checkoutRouter = router({
   view: publicProcedure
@@ -30,13 +29,21 @@ export const checkoutRouter = router({
   createCheckoutSession: publicProcedure
     .input(z.object({ offerId: z.string() }))
     .mutation(async ({ input, ctx }) => {
-      console.log('createCheckoutSession', ctx)
-      const session = await getServerSession(ctx.event)
-      console.log('session', session)
-
+      const { session } = ctx
       const { offerId } = input
       const offer = await prisma.offer.findUnique({
         where: { id: offerId },
+        include: {
+          course: {
+            include: {
+              instructor: {
+                include: {
+                  user: true,
+                },
+              },
+            },
+          },
+        },
       })
 
       if (!offer) {
@@ -50,7 +57,14 @@ export const checkoutRouter = router({
         })
       }
 
-      if (!session) {
+      if (!offer.course.instructor?.user?.stripeAccountId) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Instructor does not have a Stripe account',
+        })
+      }
+
+      if (!session?.user) {
         throw new TRPCError({
           code: 'UNAUTHORIZED',
           message: 'User not authenticated',
@@ -60,29 +74,22 @@ export const checkoutRouter = router({
       const subscription = await prisma.subscription.create({
         data: {
           offerId: offer.id,
-          userId: opts.ctx.auth.user?.id,
+          userId: session.user.id,
           status: 'pending',
         },
       })
 
       const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string)
 
-      const buyer = {
-        email: 'alex@razbakov.com',
-        name: 'Alex Razbakov',
-      }
-
-      const seller = {
-        stripeAccountId: 'acct_1P5TyRPfAZyf4epA',
-      }
+      const stripeAccount = offer.course.instructor.user.stripeAccountId
 
       const customer = await stripe.customers.create(
         {
-          email: buyer.email,
-          name: buyer.name,
+          email: session.user.email,
+          name: session.user.firstName + ' ' + session.user.lastName,
         },
         {
-          stripeAccount: seller.stripeAccountId,
+          stripeAccount,
         }
       )
 
@@ -95,7 +102,7 @@ export const checkoutRouter = router({
           cancel_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/cancel`,
         },
         {
-          stripeAccount: seller.stripeAccountId,
+          stripeAccount,
         }
       )
 
