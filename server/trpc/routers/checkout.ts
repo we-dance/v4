@@ -45,35 +45,34 @@ export const checkoutRouter = router({
         })
       }
 
-      const userSession = await getServerSession(ctx.event)
-      if (!userSession) {
-        throw new TRPCError({
-          code: 'UNAUTHORIZED',
-          message: 'User not authenticated',
-        })
-      }
+      // if (!ctx.session) {
+      //   throw new TRPCError({
+      //     code: 'UNAUTHORIZED',
+      //     message: 'User not authenticated',
+      //   })
+      // }
       const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string)
 
-      const customer = await stripe.customers.create({
-        email: userSession.user.email,
-        name: userSession.user.firstName + ' ' + userSession.user.lastName,
-      })
+      // const customer = await stripe.customers.create({
+      //   email: ctx.session.user.email,
+      //   name: ctx.session.user.firstName + ' ' + ctx.session.user.lastName,
+      // })
 
-      const session = await stripe.checkout.sessions.create({
-        customer: customer.id,
+      const stripeSession = await stripe.checkout.sessions.create({
+        // customer: customer.id,
         line_items: [{ price: offer.stripePriceId, quantity: 1 }],
         mode: 'payment',
         success_url: `${process.env.BASE_URL}/checkout/${offerId}/success`,
         cancel_url: `${process.env.BASE_URL}/checkout/${offerId}/cancel`,
       })
 
-      if (!session?.url) {
+      if (!stripeSession?.url) {
         throw new TRPCError({
           code: 'INTERNAL_SERVER_ERROR',
           message: 'Failed to create checkout session',
         })
       }
 
-      return { url: session.url }
+      return { url: stripeSession.url }
     }),
 })

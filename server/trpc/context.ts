@@ -9,6 +9,7 @@ export function createContext(_event: H3Event) {
   return {
     prisma: _event.context.prisma,
     event: _event,
+    session: _event.context.session,
   }
 }
 
