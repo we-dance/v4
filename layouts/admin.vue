@@ -50,7 +50,7 @@ const notificationCount = ref(3)
 </script>
 
 <template>
-  <div class="min-h-screen flex dark:bg-[hsl(var(--dark))] dark:text-white">
+  <div class="min-h-screen flex">
     <!-- Sidebar -->
     <aside
       class="min-h-screen bg-background border-r border-border transition-all duration-300"
@@ -171,7 +171,7 @@ const notificationCount = ref(3)
       </header>
 
       <!-- Page Content -->
-      <main class="flex-1 p-6">
+      <main class="flex-1 p-6 bg-background text-foreground">
         <div class="max-w-full">
           <slot />
         </div>

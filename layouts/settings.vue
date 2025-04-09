@@ -6,7 +6,7 @@ const route = useRoute()
 
 <template>
   <NuxtLayout name="default">
-    <div class="bg-muted dark:bg-[hsl(var(--dark))] dark:text-white">
+    <div class="bg-muted">
       <div class="container mx-auto py-4 md:py-8 px-4 max-w-6xl">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 justify-center">
           <div class="col-span-1 md:col-span-8 md:col-start-3">
@@ -85,7 +85,9 @@ const route = useRoute()
           </div>
 
           <!-- Settings Content -->
-          <div class="col-span-1 md:col-span-5 mt-6 md:mt-0">
+          <div
+            class="col-span-1 md:col-span-5 mt-6 md:mt-0 bg-background text-foreground"
+          >
             <div class="max-w-md mx-auto md:mx-0">
               <slot />
             </div>

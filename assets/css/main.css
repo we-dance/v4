@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --dark: 0 0% 12%;
 }
@@ -12,6 +11,11 @@
   ::before,
   ::after {
     @apply dark:border-border;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
   }
 
   :root {
