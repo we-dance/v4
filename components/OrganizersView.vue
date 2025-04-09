@@ -23,6 +23,13 @@ const showFilters = ref(false)
 const isGridView = ref(true)
 const showLocationFilter = ref(false)
 const organizers = ref<any[]>([])
+const isLoading = ref(false)
+const loadingMore = ref(false)
+
+const page = ref(1)
+const limit = ref(9)
+const totalCount = ref(0)
+const hasMore = ref(false)
 
 interface Filters {
   styles: string[]
@@ -61,44 +68,10 @@ function getStyleLabel(value: string) {
   return danceStyles.find((style) => style.value === value)?.label || value
 }
 
-const filteredOrganizers = computed(() => {
-  return organizers.value.filter((organizer) => {
-    // Search by name or location
-    const matchesSearch =
-      !search.value ||
-      organizer.name.toLowerCase().includes(search.value.toLowerCase()) ||
-      organizer.location.toLowerCase().includes(search.value.toLowerCase())
-
-    // Filter by styles
-    const matchesStyles =
-      filters.value.styles.includes('any') ||
-      filters.value.styles.some((style) => organizer.styles.includes(style))
-
-    // Filter by location
-    const matchesLocation =
-      !filters.value.location ||
-      organizer.location
-        .toLowerCase()
-        .includes(filters.value.location.toLowerCase())
-
-    // Filter by event types
-    const matchesEventTypes =
-      filters.value.eventTypes.includes('any') ||
-      filters.value.eventTypes.some((type) =>
-        organizer.eventTypes.includes(type)
-      )
-
-    return (
-      matchesSearch && matchesStyles && matchesLocation && matchesEventTypes
-    )
-  })
-})
-
 function toggleView() {
   isGridView.value = !isGridView.value
 }
 
-// Helper functions to get labels
 function getStylesLabel(selectedStyles: string[]) {
   if (selectedStyles.includes('any')) return 'Any Style'
   if (selectedStyles.length === 1) {
@@ -118,69 +91,47 @@ function getEventTypesLabel(selectedTypes: string[]) {
   return `${selectedTypes.length} types selected`
 }
 
-function resetFilters() {
-  filters.value = {
-    styles: [],
-    location: '',
-    eventTypes: [],
-  }
-  search.value = ''
-}
+async function fetchOrganizers(isLoadMore = false) {
+  if (isLoading.value || loadingMore.value) return
 
-const hasActiveFilters = computed(() => {
-  return (
-    filters.value.styles.length > 0 ||
-    filters.value.location.length > 0 ||
-    filters.value.eventTypes.length > 0 ||
-    search.value.length > 0
-  )
-})
-
-const selectedStyle = ref('any')
-const selectedEventType = ref('any')
-
-watch(selectedStyle, (newValue) => {
-  if (newValue === 'any') {
-    filters.value.styles = ['any']
+  if (isLoadMore) {
+    loadingMore.value = true
   } else {
-    const currentStyles = filters.value.styles.filter((s) => s !== 'any')
-    if (currentStyles.includes(newValue)) {
-      filters.value.styles = currentStyles.filter((s) => s !== newValue)
-      if (filters.value.styles.length === 0) {
-        filters.value.styles = ['any']
-      }
-    } else {
-      filters.value.styles = [...currentStyles, newValue]
-    }
+    isLoading.value = true
+    organizers.value = []
+    page.value = 1
   }
-})
 
-watch(selectedEventType, (newValue) => {
-  if (newValue === 'any') {
-    filters.value.eventTypes = ['any']
-  } else {
-    const currentTypes = filters.value.eventTypes.filter((t) => t !== 'any')
-    if (currentTypes.includes(newValue)) {
-      filters.value.eventTypes = currentTypes.filter((t) => t !== newValue)
-      if (filters.value.eventTypes.length === 0) {
-        filters.value.eventTypes = ['any']
-      }
-    } else {
-      filters.value.eventTypes = [...currentTypes, newValue]
-    }
-  }
-})
-
-async function fetchOrganizers() {
   try {
-    const data = await trpc.profiles.organisers.query()
-    if (data && Array.isArray(data)) {
-      organizers.value = data.map((organizer) => ({
-        ...organizer,
-      }))
+    const data = await trpc.profiles.organisers.query({
+      limit: limit.value,
+      page: page.value,
+    })
+
+    if (data) {
+      if (isLoadMore) {
+        organizers.value = [...organizers.value, ...data.organizers]
+      } else {
+        organizers.value = data.organizers
+      }
+      totalCount.value = data.totalCount
+      hasMore.value = data.hasMore
     }
   } catch (error) {
     console.error('Error fetching organizers:', error)
+  } finally {
+    if (isLoadMore) {
+      loadingMore.value = false
+    } else {
+      isLoading.value = false
+    }
+  }
+}
+
+function loadMore() {
+  if (hasMore.value) {
+    page.value++
+    fetchOrganizers(true)
   }
 }
 
@@ -195,23 +146,6 @@ onMounted(() => {
     <div
       class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6"
     >
-      <div class="flex gap-2">
-        <Button variant="outline" @click="showLocationFilter = true">
-          <Icon name="ph:map-pin" class="w-4 h-4 mr-2" />
-          {{ filters.location || 'Any Location' }}
-        </Button>
-        <Button variant="outline" @click="showFilters = !showFilters">
-          <Icon name="ph:funnel" class="w-4 h-4 mr-2" />
-          Filters
-        </Button>
-        <Button variant="outline" @click="toggleView">
-          <Icon
-            :name="isGridView ? 'ph:grid-four' : 'ph:list'"
-            class="w-4 h-4"
-          />
-        </Button>
-      </div>
-
       <Button variant="primary" as-child class="w-full sm:w-auto">
         <NuxtLink to="/register" class="flex items-center justify-center gap-2">
           <Icon name="ph:plus-circle" class="w-5 h-5" />
@@ -220,54 +154,10 @@ onMounted(() => {
       </Button>
     </div>
 
-    <!-- Filters -->
-    <div v-if="showFilters" class="mb-8 p-4 bg-muted rounded-lg">
-      <div class="grid sm:grid-cols-2 gap-4">
-        <div>
-          <Label>Dance Styles</Label>
-          <Select v-model="selectedStyle">
-            <SelectTrigger>
-              <SelectValue :placeholder="getStylesLabel(filters.styles)" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="any">Any Style</SelectItem>
-              <SelectItem
-                v-for="style in danceStyles"
-                :key="style.value"
-                :value="style.value"
-              >
-                {{ style.label }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-        <div>
-          <Label>Event Types</Label>
-          <Select v-model="selectedEventType">
-            <SelectTrigger>
-              <SelectValue
-                :placeholder="getEventTypesLabel(filters.eventTypes)"
-              />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="any">Any Event Type</SelectItem>
-              <SelectItem
-                v-for="type in eventTypes"
-                :key="type.value"
-                :value="type.value"
-              >
-                {{ type.label }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-      </div>
-    </div>
-
     <!-- Results Grid View -->
     <div v-if="isGridView" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <OrganizerCard
-        v-for="organizer in filteredOrganizers"
+        v-for="organizer in organizers"
         :key="organizer.id"
         :organizer="organizer"
         view="grid"
@@ -277,15 +167,35 @@ onMounted(() => {
     <!-- Results List View -->
     <div v-else class="space-y-4">
       <OrganizerCard
-        v-for="organizer in filteredOrganizers"
+        v-for="organizer in organizers"
         :key="organizer.id"
         :organizer="organizer"
         view="list"
       />
     </div>
 
+    <!-- Load More Button -->
+    <div v-if="hasMore && !isLoading" class="text-center py-8">
+      <Button @click="loadMore" :disabled="loadingMore">
+        <Icon
+          v-if="loadingMore"
+          name="ph:spinner-gap"
+          class="h-4 w-4 animate-spin mr-2"
+        />
+        <span v-if="loadingMore">Loading more...</span>
+        <span v-else>Load More Organizers</span>
+      </Button>
+    </div>
+
+    <!-- Loading More Indicator -->
+    <div v-if="loadingMore" class="mt-8 flex justify-center">
+      <div
+        class="animate-spin h-6 w-6 border-4 border-primary border-t-transparent rounded-full"
+      ></div>
+    </div>
+
     <!-- Empty State -->
-    <div v-if="!filteredOrganizers.length" class="text-center">
+    <div v-if="!organizers.length" class="text-center">
       <div class="max-w-md mx-auto">
         <EmptyState variant="no-results" />
         <p class="mt-4 text-muted-foreground">

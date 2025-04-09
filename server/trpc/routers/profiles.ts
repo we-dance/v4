@@ -398,50 +398,82 @@ export const profilesRouter = router({
         hasMore: skip + artists.length < totalCount,
       }
     }),
-  organisers: publicProcedure.query(async () => {
-    const organizers = await prisma.profile.findMany({
-      where: {
+  organisers: publicProcedure
+    .input(
+      z.object({
+        limit: z.number().default(9),
+        page: z.number().default(1),
+      })
+    )
+    .query(async ({ input }) => {
+      const { limit, page } = input
+      const skip = (page - 1) * limit
+
+      const where = {
         type: 'Organiser',
-      },
-      include: {
-        city: true,
-        styles: true,
-      },
-    })
+      }
 
-    const styles = await prisma.experience.findMany({
-      where: {
-        profile: {
-          id: { in: organizers.map((organizer) => organizer.id) },
+      const totalCount = await prisma.profile.count({ where })
+
+      const organizers = await prisma.profile.findMany({
+        where,
+        include: {
+          city: true,
+          styles: {
+            include: {
+              style: true,
+            },
+          },
         },
-      },
-      select: {
-        style: true,
-      },
-    })
+        skip,
+        take: limit,
+        orderBy: {
+          name: 'asc',
+        },
+      })
 
-    // Transform data to match expected format
-    return organizers.map((organizer) => ({
-      id: organizer.id,
-      name: organizer.name || '',
-      location: organizer.city?.name || organizer.formattedAddress || '',
-      styles: styles.map((style) => style.style.name),
-      bio: organizer.bio || '',
-      eventTypes: [],
-      avatar: organizer.photo || '',
-      coverImage: '',
-      eventCount: 0,
-      privacy: 'public',
-      followers: 0,
-      following: 0,
-      rating: 0,
-      contact: {},
-      username: organizer.username || '',
-      website: organizer.website || '',
-      instagram: organizer.instagram || '',
-      facebook: organizer.facebook || '',
-      telegram: organizer.telegram || '',
-      whatsapp: organizer.whatsapp || '',
-    }))
-  }),
+      const organizersWithMappedStyles = organizers.map((org) => {
+        const mappedStyles = org.styles
+          .map((s) => s.style?.name)
+          .filter(Boolean) as string[]
+
+        return {
+          ...org,
+          styles: mappedStyles,
+        }
+      })
+
+      return {
+        organizers: organizersWithMappedStyles,
+        totalCount,
+        hasMore: skip + organizers.length < totalCount,
+      }
+    }),
+  organiserStyles: publicProcedure
+    .input(z.object({ organizerId: z.string() }))
+    .query(async ({ input }) => {
+      const { organizerId } = input
+
+      const organizer = await prisma.profile.findUnique({
+        where: {
+          id: organizerId,
+          type: 'Organiser',
+        },
+        include: {
+          styles: {
+            include: {
+              style: true,
+            },
+          },
+        },
+      })
+
+      if (!organizer) {
+        return []
+      }
+
+      const styleNames = organizer.styles.map((s) => s.style.name)
+
+      return styleNames.sort()
+    }),
 })

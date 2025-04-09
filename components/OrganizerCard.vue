@@ -7,9 +7,7 @@ interface Props {
     username: string
     location: string
     avatar: string
-    coverImage: string
     styles: string[]
-    eventTypes: string[]
     bio: string
     eventCount: number
     whatsapp?: string
@@ -25,22 +23,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   view: 'grid',
-  showImage: false,
 })
-
-function getStyleLabel(value: string) {
-  const danceStyles = [
-    { value: 'salsa', label: 'Salsa' },
-    { value: 'bachata', label: 'Bachata' },
-    { value: 'kizomba', label: 'Kizomba' },
-    { value: 'zouk', label: 'Zouk' },
-    { value: 'swing', label: 'Swing' },
-    { value: 'tango', label: 'Tango' },
-    { value: 'ballet', label: 'Ballet' },
-    { value: 'contemporary', label: 'Contemporary' },
-  ]
-  return danceStyles.find((style) => style.value === value)?.label || value
-}
 </script>
 
 <template>
@@ -57,16 +40,16 @@ function getStyleLabel(value: string) {
           v-if="showImage"
           class="aspect-w-16 aspect-h-9 rounded-t-lg overflow-hidden"
         >
-          <img
-            :src="organizer.coverImage || '/images/default-cover.jpg'"
+          <NuxtImg
+            :src="organizer.photo"
             :alt="organizer.name"
             class="object-cover"
           />
         </div>
         <div class="p-4">
           <div class="flex items-center gap-3 mb-3">
-            <img
-              :src="organizer.avatar || '/images/default-avatar.jpg'"
+            <NuxtImg
+              :src="organizer.photo || '/images/default-avatar.jpg'"
               :alt="organizer.name"
               class="w-12 h-12 rounded-full"
             />
@@ -83,7 +66,7 @@ function getStyleLabel(value: string) {
               :key="style"
               variant="secondary"
             >
-              {{ getStyleLabel(style) }}
+              {{ style }}
             </Badge>
           </div>
           <p class="text-sm text-muted-foreground mb-4">
@@ -169,8 +152,8 @@ function getStyleLabel(value: string) {
       <!-- List View -->
       <template v-else>
         <div class="flex gap-4">
-          <img
-            :src="organizer.avatar || '/images/default-avatar.jpg'"
+          <NuxtImg
+            :src="organizer.photo || '/images/default-avatar.jpg'"
             :alt="organizer.name"
             class="w-16 h-16 rounded-full"
           />
@@ -192,7 +175,7 @@ function getStyleLabel(value: string) {
                 :key="style"
                 variant="secondary"
               >
-                {{ getStyleLabel(style) }}
+                {{ style }}
               </Badge>
             </div>
             <p class="text-sm text-muted-foreground mb-3">
