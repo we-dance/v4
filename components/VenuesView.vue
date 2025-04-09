@@ -1,77 +1,210 @@
 <script setup lang="ts">
-import { mockVenues } from '~/data/mockVenues'
-const venues = mockVenues
+import { useDebounceFn } from '@vueuse/core'
 
+const venues = ref<any[]>([])
 const showFilters = ref(false)
 const showLocationFilter = ref(false)
 const search = ref('')
 const selectedLocation = ref<string | null>(null)
 const selectedStyles = ref<string[]>([])
-const selectedFeatures = ref<string[]>([])
-const selectedPriceRange = ref<[number, number]>([0, 200])
-const selectedCapacityRange = ref<[number, number]>([0, 200])
+const styleSearch = ref('')
+const showStyleDropdown = ref(false)
 
-const allStyles = computed(() =>
-  Array.from(new Set(venues.flatMap((venue) => venue.styles)))
-)
+const page = ref(1)
+const limit = ref(9)
+const totalCount = ref(0)
+const hasMore = ref(false)
+const isLoading = ref(false)
+const loadingMore = ref(false)
+const loadingTimes = ref<number[]>([])
 
-const allFeatures = computed(() =>
-  Array.from(new Set(venues.flatMap((venue) => venue.features)))
-)
+const allDanceStyles = ref<string[]>([])
+const loadingStyles = ref(false)
+
+// For SearchableDropdown component
+const selectedDanceStyle = ref<string | null>(null)
+const danceStyleSearchQuery = ref('')
+
+// Format dance styles for SearchableDropdown
+const formattedDropdownStyles = computed(() => {
+  if (!allDanceStyles.value.length) return []
+
+  return allDanceStyles.value.map((style) => ({
+    id: style,
+    name: style,
+  }))
+})
 
 const updateLocation = (location: string | null) => {
   selectedLocation.value = location
   showLocationFilter.value = false
+  resetSearch()
 }
-
-const filteredVenues = computed(() => {
-  return venues.filter((venue) => {
-    const matchesSearch =
-      search.value === '' ||
-      venue.name.toLowerCase().includes(search.value.toLowerCase()) ||
-      venue.description.toLowerCase().includes(search.value.toLowerCase())
-
-    const matchesLocation =
-      !selectedLocation.value ||
-      venue.address.toLowerCase().includes(selectedLocation.value.toLowerCase())
-
-    const matchesStyles =
-      selectedStyles.value.length === 0 ||
-      venue.styles.some((style) => selectedStyles.value.includes(style))
-
-    const matchesFeatures =
-      selectedFeatures.value.length === 0 ||
-      venue.features.some((feature) => selectedFeatures.value.includes(feature))
-
-    const minPrice = Math.min(...venue.areas.map((area) => area.pricePerHour))
-    const maxPrice = Math.max(...venue.areas.map((area) => area.pricePerHour))
-    const totalCapacity = venue.areas.reduce(
-      (sum, area) => sum + area.capacity,
-      0
-    )
-
-    const matchesPrice =
-      maxPrice >= selectedPriceRange.value[0] &&
-      minPrice <= selectedPriceRange.value[1]
-
-    const matchesCapacity =
-      totalCapacity >= selectedCapacityRange.value[0] &&
-      totalCapacity <= selectedCapacityRange.value[1]
-
-    return (
-      matchesSearch &&
-      matchesLocation &&
-      matchesStyles &&
-      matchesFeatures &&
-      matchesPrice &&
-      matchesCapacity
-    )
-  })
-})
 
 const clearLocationFilter = () => {
   selectedLocation.value = null
   showLocationFilter.value = false
+  resetSearch()
+}
+
+const resetSearch = () => {
+  page.value = 1
+  venues.value = []
+  fetchVenues()
+}
+
+async function fetchVenues() {
+  isLoading.value = true
+  try {
+    const result = await trpc.profiles.venues.query({
+      limit: limit.value,
+      page: page.value,
+      search: search.value,
+      location: selectedLocation.value || undefined,
+      styles:
+        selectedStyles.value.length > 0 ? selectedStyles.value : undefined,
+    })
+
+    if (page.value === 1) {
+      venues.value = result.venues
+    } else {
+      venues.value = [...venues.value, ...result.venues]
+    }
+
+    totalCount.value = result.totalCount
+    hasMore.value = result.hasMore
+  } catch (error) {
+    console.error('Error fetching venues:', error)
+  } finally {
+    isLoading.value = false
+  }
+}
+
+async function loadMore() {
+  if (!hasMore.value || isLoading.value) return
+  loadingMore.value = true
+  page.value++
+  try {
+    await fetchVenues()
+  } finally {
+    loadingMore.value = false
+  }
+}
+
+async function fetchStyles() {
+  if (allDanceStyles.value.length > 0) return
+
+  loadingStyles.value = true
+  try {
+    const styles = await trpc.profiles.allVenuesStyles.query()
+    allDanceStyles.value = styles
+  } catch (error) {
+    console.error('Error fetching dance styles:', error)
+  } finally {
+    loadingStyles.value = false
+  }
+}
+
+const toggleFilters = async () => {
+  showFilters.value = !showFilters.value
+
+  if (showFilters.value) {
+    await fetchStyles()
+  }
+}
+
+const debouncedReset = useDebounceFn(() => {
+  resetSearch()
+}, 300)
+
+watch([search], () => {
+  debouncedReset()
+})
+
+const toggleStyle = (style: string) => {
+  if (selectedStyles.value.includes(style)) {
+    selectedStyles.value = selectedStyles.value.filter((s) => s !== style)
+  } else {
+    selectedStyles.value.push(style)
+  }
+  resetSearch()
+}
+
+const onSelectStyle = (style: any) => {
+  // Add the style to multi-select
+  if (!selectedStyles.value.includes(style.id)) {
+    selectedStyles.value.push(style.id)
+  } else {
+    // Remove it if already selected (toggle behavior)
+    selectedStyles.value = selectedStyles.value.filter((s) => s !== style.id)
+  }
+  resetSearch()
+  // Keep dropdown open for more selections
+  showStyleDropdown.value = true
+}
+
+const clearAllStyles = () => {
+  selectedStyles.value = []
+  resetSearch()
+}
+
+onMounted(async () => {
+  await fetchVenues()
+})
+
+const getDescription = (venue: any) => {
+  return venue.bio || venue.description || ''
+}
+
+const getAddress = (venue: any) => {
+  return venue.formattedAddress || (venue.city ? venue.city.name : '') || ''
+}
+
+const currentStylesWithCount = computed(() => {
+  const styleCount = new Map<string, number>()
+
+  venues.value.forEach((venue) => {
+    if (venue.danceStyles && venue.danceStyles.length) {
+      venue.danceStyles.forEach((style: string) => {
+        styleCount.set(style, (styleCount.get(style) || 0) + 1)
+      })
+    }
+  })
+
+  return Array.from(styleCount.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(([style, count]) => ({ style, count }))
+})
+
+const formattedDanceStyles = computed(() => {
+  if (allDanceStyles.value.length > 0) {
+    const countMap = new Map(
+      currentStylesWithCount.value.map((item) => [item.style, item.count])
+    )
+
+    return allDanceStyles.value.map((style) => ({
+      style,
+      count: countMap.get(style) || 0,
+    }))
+  }
+
+  return currentStylesWithCount.value
+})
+
+const filteredDanceStyles = computed(() => {
+  if (!styleSearch.value) {
+    return formattedDanceStyles.value
+  }
+
+  const query = styleSearch.value.toLowerCase()
+  return formattedDanceStyles.value.filter((item) =>
+    item.style.toLowerCase().includes(query)
+  )
+})
+
+const removeStyle = (style: string) => {
+  selectedStyles.value = selectedStyles.value.filter((s) => s !== style)
+  resetSearch()
 }
 </script>
 
@@ -110,130 +243,40 @@ const clearLocationFilter = () => {
           <Icon name="ph:x" class="w-4 h-4" />
         </Button>
       </div>
-      <Button
-        variant="outline"
-        class="gap-2"
-        @click="showFilters = !showFilters"
-      >
-        <Icon name="ph:funnel" class="w-4 h-4" />
-        Filters
-      </Button>
     </div>
   </div>
 
-  <!-- Filters Section -->
+  <!-- Loading State -->
   <div
-    v-if="showFilters"
-    class="bg-card border border-border rounded-lg p-6 space-y-6 mb-6"
+    v-if="isLoading && venues.length === 0"
+    class="py-10 flex justify-center"
   >
-    <!-- Dance Styles -->
-    <div>
-      <h3 class="font-medium mb-3">Dance Styles</h3>
-      <div class="flex flex-wrap gap-2">
-        <Button
-          v-for="style in allStyles"
-          :key="style"
-          variant="outline"
-          size="sm"
-          :class="[
-            selectedStyles.includes(style)
-              ? 'bg-primary text-primary-foreground'
-              : '',
-          ]"
-          @click="
-            selectedStyles.includes(style)
-              ? (selectedStyles = selectedStyles.filter((s) => s !== style))
-              : selectedStyles.push(style)
-          "
-        >
-          {{ style }}
-        </Button>
-      </div>
-    </div>
-
-    <!-- Features -->
-    <div>
-      <h3 class="font-medium mb-3">Features</h3>
-      <div class="flex flex-wrap gap-2">
-        <Button
-          v-for="feature in allFeatures"
-          :key="feature"
-          variant="outline"
-          size="sm"
-          :class="[
-            selectedFeatures.includes(feature)
-              ? 'bg-primary text-primary-foreground'
-              : '',
-          ]"
-          @click="
-            selectedFeatures.includes(feature)
-              ? (selectedFeatures = selectedFeatures.filter(
-                  (f) => f !== feature
-                ))
-              : selectedFeatures.push(feature)
-          "
-        >
-          {{ feature }}
-        </Button>
-      </div>
-    </div>
-
-    <!-- Price Range -->
-    <div>
-      <h3 class="font-medium mb-3">Price per Hour</h3>
-      <div class="flex items-center gap-4">
-        <Input
-          v-model="selectedPriceRange[0]"
-          type="number"
-          placeholder="Min"
-          class="w-24"
-        />
-        <span>to</span>
-        <Input
-          v-model="selectedPriceRange[1]"
-          type="number"
-          placeholder="Max"
-          class="w-24"
-        />
-        <span>€</span>
-      </div>
-    </div>
-
-    <!-- Capacity -->
-    <div>
-      <h3 class="font-medium mb-3">Capacity</h3>
-      <div class="flex items-center gap-4">
-        <Input
-          v-model="selectedCapacityRange[0]"
-          type="number"
-          placeholder="Min"
-          class="w-24"
-        />
-        <span>to</span>
-        <Input
-          v-model="selectedCapacityRange[1]"
-          type="number"
-          placeholder="Max"
-          class="w-24"
-        />
-        <span>people</span>
-      </div>
-    </div>
+    <div
+      class="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full"
+    ></div>
   </div>
 
   <!-- Venues Grid -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div v-else class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     <NuxtLink
-      v-for="venue in filteredVenues"
+      v-for="venue in venues"
       :key="venue.id"
-      :to="`/venues/${venue.id}`"
+      :to="`/@${venue.username}`"
       class="group bg-card rounded-xl border border-border overflow-hidden hover:shadow-lg transition-all duration-300"
     >
       <div class="aspect-video relative overflow-hidden">
-        <img
-          :src="venue.image"
+        <NuxtImg
+          :src="
+            venue.photo ||
+            'https://placehold.co/400x225/e2e8f0/334155?text=Venue'
+          "
           :alt="venue.name"
           class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          width="400"
+          height="225"
+          loading="lazy"
+          format="webp"
+          quality="80"
         />
       </div>
       <div class="p-6">
@@ -241,63 +284,74 @@ const clearLocationFilter = () => {
           <h3 class="font-bold text-lg text-foreground">
             {{ venue.name }}
           </h3>
-          <div class="flex items-center gap-1 text-amber-500">
+          <div
+            v-if="venue.rating"
+            class="flex items-center gap-1 text-amber-500"
+          >
             <Icon name="ph:star-fill" class="w-4 h-4" />
             <span class="text-sm">{{ venue.rating }}</span>
           </div>
         </div>
         <p class="text-muted-foreground text-sm mb-2">
-          {{ venue.address }}
+          {{ getAddress(venue) }}
         </p>
-        <div class="flex items-center gap-4 text-sm text-muted-foreground mb-3">
-          <div class="flex items-center gap-1">
-            <Icon name="ph:currency-eur" class="w-4 h-4" />
-            {{ Math.min(...venue.areas.map((a) => a.pricePerHour)) }}-{{
-              Math.max(...venue.areas.map((a) => a.pricePerHour))
-            }}/hour
-          </div>
-          <div class="flex items-center gap-1">
-            <Icon name="ph:users" class="w-4 h-4" />
-            {{ venue.areas.reduce((sum, area) => sum + area.capacity, 0) }}
-            people
-          </div>
-        </div>
-        <p class="text-foreground mb-4 line-clamp-2">{{ venue.description }}</p>
-        <div class="flex flex-wrap gap-2">
-          <Badge
-            v-for="feature in venue.features.slice(0, 3)"
-            :key="feature"
-            variant="secondary"
-          >
-            {{ feature }}
-          </Badge>
-        </div>
+        <!-- TODO: Add price per hour and capacity -->
+        <p v-if="venue.bio" class="text-foreground mb-4 line-clamp-2">
+          {{ venue.bio }}
+        </p>
       </div>
     </NuxtLink>
   </div>
 
+  <!-- Load More Button -->
+  <div v-if="hasMore && !isLoading" class="text-center py-8">
+    <Button @click="loadMore" :disabled="loadingMore">
+      <Icon
+        v-if="loadingMore"
+        name="ph:spinner-gap"
+        class="h-4 w-4 animate-spin mr-2"
+      />
+      <span v-if="loadingMore">Loading more...</span>
+      <span v-else>Load More Venues</span>
+    </Button>
+  </div>
+
+  <!-- Loading More Indicator -->
+  <div
+    v-if="isLoading && venues.length > 0 && !loadingMore"
+    class="mt-8 flex justify-center"
+  >
+    <div
+      class="animate-spin h-6 w-6 border-4 border-primary border-t-transparent rounded-full"
+    ></div>
+  </div>
+
   <!-- No Results -->
-  <div v-if="filteredVenues.length === 0" class="text-center py-12">
+  <div v-if="venues.length === 0 && !isLoading" class="text-center py-12">
     <Icon
       name="ph:magnifying-glass"
       class="w-12 h-12 mx-auto text-muted-foreground mb-4"
     />
     <h3 class="text-lg font-medium text-foreground mb-2">No venues found</h3>
     <p class="text-muted-foreground">
-      Try adjusting your filters or search terms
+      <span v-if="selectedStyles.length > 0">
+        No venues found with events offering
+        <strong>{{ selectedStyles.join(', ') }}</strong> dance styles.
+      </span>
+      <span v-else> Try adjusting your filters or search terms </span>
     </p>
   </div>
 
   <!-- Location Sheet -->
   <Sheet :open="showLocationFilter" @update:open="showLocationFilter = false">
-    <SheetContent side="bottom" class="h-[80vh]">
+    <SheetContent side="bottom" class="h-[80vh] flex flex-col">
       <SheetHeader>
         <SheetTitle>Filter by Location</SheetTitle>
       </SheetHeader>
-      <div class="mt-4">
+      <div class="mt-4 overflow-y-auto flex-1 pb-6">
         <LocationPanel
           :location="selectedLocation"
-          @update:location="updateLocation(selectedLocation)"
+          @update:location="updateLocation($event)"
         />
       </div>
     </SheetContent>
