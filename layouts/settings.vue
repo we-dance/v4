@@ -51,6 +51,21 @@ const route = useRoute()
                   </span>
                 </NuxtLink>
                 <NuxtLink
+                  to="/settings/subscription"
+                  class="block px-3 py-2 rounded-md transition-colors"
+                  :class="{
+                    'bg-primary text-primary-foreground':
+                      route.path === '/settings/subscription',
+                    'hover:bg-muted/50 text-foreground/80 hover:text-foreground':
+                      route.path !== '/settings/subscription',
+                  }"
+                >
+                  <span class="flex items-center gap-2">
+                    <Icon name="heroicons:credit-card" class="w-5 h-5" />
+                    Subscriptions
+                  </span>
+                </NuxtLink>
+                <NuxtLink
                   to="/settings/notifications"
                   class="block px-3 py-2 rounded-md transition-colors"
                   :class="{
