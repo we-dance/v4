@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     '@sidebase/nuxt-auth',
   ],
   auth: {
+    originEnvKey: 'AUTH_ORIGIN',
     provider: {
       type: 'authjs',
     },

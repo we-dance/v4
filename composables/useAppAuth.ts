@@ -83,6 +83,5 @@ export const useAppAuth = () => {
     authQueryLoading,
     isLoggedIn,
     data,
-    getCsrfToken,
   }
 }
