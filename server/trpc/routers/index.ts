@@ -5,7 +5,7 @@ import { profilesRouter } from './profiles'
 import { chatRouter } from './chat'
 import { usersRouter } from './users'
 import { coursesRouter } from './courses'
-import { offersRouter } from './offers'
+import { checkoutRouter } from './checkout'
 
 export const appRouter = router({
   posts: postsRouter,
@@ -14,7 +14,7 @@ export const appRouter = router({
   chat: chatRouter,
   users: usersRouter,
   courses: coursesRouter,
-  offers: offersRouter,
+  checkout: checkoutRouter,
 })
 
 export type AppRouter = typeof appRouter

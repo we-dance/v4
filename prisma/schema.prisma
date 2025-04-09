@@ -3,7 +3,7 @@
 
 generator client {
   provider        = "prisma-client-js"
-  previewFeatures = ["fullTextSearch", "relationJoins"]
+  previewFeatures = ["fullTextSearchPostgres", "relationJoins"]
 }
 
 datasource db {
@@ -437,15 +437,18 @@ model CourseResource {
 }
 
 model Offer {
-  id           String    @id @default(nanoid())
-  name         String
-  price        Int
-  currency     String
-  duration     String
-  validFrom    DateTime?
-  validThrough DateTime?
-  courseId     String
-  items        String?
+  id                String    @id @default(nanoid())
+  name              String
+  price             Int
+  currency          String
+  duration          String
+  validFrom         DateTime?
+  validThrough      DateTime?
+  courseId          String
+  items             String?
+  stripePaymentLink String?
+  stripeProductId   String?
+  stripePriceId     String?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
