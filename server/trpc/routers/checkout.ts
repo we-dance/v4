@@ -29,6 +29,8 @@ export const checkoutRouter = router({
   createCheckoutSession: publicProcedure
     .input(z.object({ offerId: z.string() }))
     .mutation(async ({ input, ctx }) => {
+      console.log('createCheckoutSession', { input, ctx })
+
       const { offerId } = input
       const offer = await ctx.prisma.offer.findUnique({
         where: { id: offerId },
@@ -44,6 +46,14 @@ export const checkoutRouter = router({
           message: 'Offer does not have a Stripe price',
         })
       }
+
+      const subscription = await ctx.prisma.subscription.create({
+        data: {
+          offerId: offer.id,
+          userId: ctx.session?.user.id,
+          status: 'pending',
+        },
+      })
 
       // if (!ctx.session) {
       //   throw new TRPCError({
@@ -77,8 +87,8 @@ export const checkoutRouter = router({
           customer: customer.id,
           line_items: [{ price: offer.stripePriceId, quantity: 1 }],
           mode: 'subscription',
-          success_url: `${process.env.BASE_URL}/checkout/${offerId}/success`,
-          cancel_url: `${process.env.BASE_URL}/checkout/${offerId}/cancel`,
+          success_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/success`,
+          cancel_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/cancel`,
         },
         {
           stripeAccount: seller.stripeAccountId,

@@ -70,10 +70,11 @@ model User {
   deletedReason        String?
   notificationSettings Json      @default("{}")
 
-  profile         Profile?  @relation("owned_by")
-  profilesCreated Profile[] @relation("profile_created_by")
+  profile         Profile?       @relation("owned_by")
+  profilesCreated Profile[]      @relation("profile_created_by")
   accounts        Account[]
   sessions        Session[]
+  subscriptions   Subscription[]
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -438,7 +439,7 @@ model CourseResource {
 }
 
 model Offer {
-  id                String    @id @default(nanoid())
+  id                String         @id @default(nanoid())
   name              String
   price             Int
   currency          String
@@ -450,9 +451,24 @@ model Offer {
   stripePaymentLink String?
   stripeProductId   String?
   stripePriceId     String?
+  subscriptions     Subscription[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+}
+
+model Subscription {
+  id              String    @id @default(nanoid())
+  userId          String
+  user            User      @relation(fields: [userId], references: [id])
+  offerId         String
+  offer           Offer     @relation(fields: [offerId], references: [id])
+  status          String    @default("pending") // 'active', 'canceled', 'past_due'
+  nextBillingDate DateTime?
+  canceledAt      DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

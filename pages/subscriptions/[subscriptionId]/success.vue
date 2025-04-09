@@ -3,8 +3,9 @@ import { z } from 'zod'
 
 const { $client } = useNuxtApp()
 const route = useRoute()
-const offerId = z.string().parse(route.params.offerId)
-const offer = await $client.checkout.view.query({ offerId })
+const subscriptionId = z.string().parse(route.params.subscriptionId)
+const subscription = await $client.subscriptions.view.query({ subscriptionId })
+const offer = subscription?.offer
 </script>
 
 <template>
