@@ -39,41 +39,7 @@ const fetchLocations = async () => {
     }))
   } catch (error) {
     console.error('Error fetching venue locations:', error)
-
-    cities.value = [
-      {
-        name: 'New York',
-        displayName: 'New York - USA',
-        country: 'USA',
-        countryCode: 'US',
-        count: '10+',
-        type: 'city',
-      },
-      {
-        name: 'London',
-        displayName: 'London - UK',
-        country: 'UK',
-        countryCode: 'GB',
-        count: '8+',
-        type: 'city',
-      },
-      {
-        name: 'Berlin',
-        displayName: 'Berlin - Germany',
-        country: 'Germany',
-        countryCode: 'DE',
-        count: '5+',
-        type: 'city',
-      },
-      {
-        name: 'Madrid',
-        displayName: 'Madrid - Spain',
-        country: 'Spain',
-        countryCode: 'ES',
-        count: '3+',
-        type: 'city',
-      },
-    ]
+    cities.value = []
   } finally {
     loadingCities.value = false
   }
