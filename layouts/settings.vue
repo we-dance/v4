@@ -85,7 +85,9 @@ const route = useRoute()
           </div>
 
           <!-- Settings Content -->
-          <div class="col-span-1 md:col-span-5 mt-6 md:mt-0">
+          <div
+            class="col-span-1 md:col-span-5 mt-6 md:mt-0 bg-background text-foreground"
+          >
             <div class="max-w-md mx-auto md:mx-0">
               <slot />
             </div>

@@ -96,7 +96,9 @@ import { designConfig } from '~/config/design'
         </div>
       </aside>
 
-      <main class="relative py-6 lg:gap-10 lg:py-8">
+      <main
+        class="relative py-6 lg:gap-10 lg:py-8 bg-background text-foreground"
+      >
         <div class="mx-auto w-full min-w-0">
           <slot />
         </div>

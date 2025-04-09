@@ -171,7 +171,7 @@ const notificationCount = ref(3)
       </header>
 
       <!-- Page Content -->
-      <main class="flex-1 p-6">
+      <main class="flex-1 p-6 bg-background text-foreground">
         <div class="max-w-full">
           <slot />
         </div>

@@ -93,7 +93,7 @@ function closeModal() {
 
   <Dialog :open="isModalOpen" @update:open="closeModal">
     <DialogContent
-      class="container max-w-xl grid-rows-[auto_minmax(0,1fr)_auto] p-0 max-h-[90dvh]"
+      class="container max-w-xl grid-rows-[auto_minmax(0,1fr)_auto] p-0 max-h-[90dvh] text-foreground"
     >
       <DialogHeader class="p-6 pb-0">
         <DialogTitle>Post</DialogTitle>
