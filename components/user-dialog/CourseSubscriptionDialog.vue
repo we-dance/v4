@@ -2,16 +2,21 @@
 import type { Course } from '~/schemas/course'
 import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
 
+const router = useRouter()
+
 const { course } = defineProps<{
   course: Course
 }>()
 
-const emit = defineEmits<{
-  (e: 'select', offer: any): void
-}>()
+const dialog = useDialog()
 
 const getItems = (offer: any) => {
   return offer.items.split('\n')
+}
+
+const handleSelect = (offer: any) => {
+  router.push(`/checkout/${offer.id}`)
+  dialog.close()
 }
 </script>
 
@@ -29,36 +34,34 @@ const getItems = (offer: any) => {
       :key="offer.id"
       variant="outline"
       class="w-full justify-between h-auto py-4 hover:border-accent"
-      as-child
+      @click="handleSelect(offer)"
     >
-      <NuxtLink :to="`/checkout/${offer.id}`">
-        <div class="flex items-center gap-3">
-          <div class="text-left flex-1">
-            <div class="font-bold">{{ offer.name }}</div>
-            <ul class="mt-2 space-y-1">
-              <li
-                v-for="(item, index) in getItems(offer)"
-                :key="index"
-                class="flex items-center gap-2 text-sm text-muted-foreground"
-              >
-                <Icon
-                  name="ph:check"
-                  class="w-3.5 h-3.5 text-accent flex-shrink-0"
-                />
-                {{ item }}
-              </li>
-            </ul>
-          </div>
+      <div class="flex items-center gap-3">
+        <div class="text-left flex-1">
+          <div class="font-bold">{{ offer.name }}</div>
+          <ul class="mt-2 space-y-1">
+            <li
+              v-for="(item, index) in getItems(offer)"
+              :key="index"
+              class="flex items-center gap-2 text-sm text-muted-foreground"
+            >
+              <Icon
+                name="ph:check"
+                class="w-3.5 h-3.5 text-accent flex-shrink-0"
+              />
+              {{ item }}
+            </li>
+          </ul>
         </div>
-        <div class="text-right">
-          <div class="font-bold">
-            {{ formatCurrencyCents(offer.price, offer.currency) }}
-          </div>
-          <div class="text-sm text-muted-foreground">
-            {{ formatSubscriptionDuration(offer.duration) }}
-          </div>
+      </div>
+      <div class="text-right">
+        <div class="font-bold">
+          {{ formatCurrencyCents(offer.price, offer.currency) }}
         </div>
-      </NuxtLink>
+        <div class="text-sm text-muted-foreground">
+          {{ formatSubscriptionDuration(offer.duration) }}
+        </div>
+      </div>
     </Button>
 
     <p class="text-xs text-center text-muted-foreground mt-4">

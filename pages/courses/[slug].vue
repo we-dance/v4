@@ -16,7 +16,8 @@ const subscription = ref(
         ...subscription,
         offer,
       }))
-    )[0]
+    )
+    .find((subscription: any) => subscription.status === 'active')
 )
 
 const isUnlocked = computed(() => {
