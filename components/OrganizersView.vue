@@ -50,6 +50,10 @@ async function fetchOrganizers(isLoadMore = false) {
   }
 }
 
+function toggleView() {
+  isGridView.value = !isGridView.value
+}
+
 function loadMore() {
   if (hasMore.value) {
     page.value++
@@ -68,6 +72,15 @@ onMounted(() => {
     <div
       class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6"
     >
+      <div class="flex gap-2">
+        <Button variant="outline" @click="toggleView">
+          <Icon
+            :name="isGridView ? 'ph:grid-four' : 'ph:list'"
+            class="w-4 h-4"
+          />
+        </Button>
+      </div>
+
       <Button variant="primary" as-child class="w-full sm:w-auto">
         <NuxtLink to="/register" class="flex items-center justify-center gap-2">
           <Icon name="ph:plus-circle" class="w-5 h-5" />
