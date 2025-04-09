@@ -3,25 +3,7 @@ import EmptyState from '~/components/common/EmptyState.vue'
 import OrganizerCard from '~/components/OrganizerCard.vue'
 import { trpc } from '~/composables/trpc'
 
-// Mock data for styles and event types
-const danceStyles = [
-  { value: 'salsa', label: 'Salsa' },
-  { value: 'bachata', label: 'Bachata' },
-  { value: 'kizomba', label: 'Kizomba' },
-  { value: 'zouk', label: 'Brazilian Zouk' },
-]
-
-const eventTypes = [
-  { value: 'party', label: 'Party' },
-  { value: 'workshop', label: 'Workshop' },
-  { value: 'festival', label: 'Festival' },
-  { value: 'class', label: 'Class' },
-]
-
-const search = ref('')
-const showFilters = ref(false)
 const isGridView = ref(true)
-const showLocationFilter = ref(false)
 const organizers = ref<any[]>([])
 const isLoading = ref(false)
 const loadingMore = ref(false)
@@ -30,66 +12,6 @@ const page = ref(1)
 const limit = ref(9)
 const totalCount = ref(0)
 const hasMore = ref(false)
-
-interface Filters {
-  styles: string[]
-  location: string
-  eventTypes: string[]
-}
-
-const filters = ref<Filters>({
-  styles: ['any'],
-  location: '',
-  eventTypes: ['any'],
-})
-
-watch(
-  () => filters.value.styles,
-  (newStyles) => {
-    if (!Array.isArray(newStyles)) {
-      filters.value.styles = ['any']
-    }
-  },
-  { deep: true }
-)
-
-watch(
-  () => filters.value.eventTypes,
-  (newTypes) => {
-    if (!Array.isArray(newTypes)) {
-      filters.value.eventTypes = ['any']
-    }
-  },
-  { deep: true }
-)
-
-// Helper function to get style label
-function getStyleLabel(value: string) {
-  return danceStyles.find((style) => style.value === value)?.label || value
-}
-
-function toggleView() {
-  isGridView.value = !isGridView.value
-}
-
-function getStylesLabel(selectedStyles: string[]) {
-  if (selectedStyles.includes('any')) return 'Any Style'
-  if (selectedStyles.length === 1) {
-    return getStyleLabel(selectedStyles[0])
-  }
-  return `${selectedStyles.length} styles selected`
-}
-
-function getEventTypesLabel(selectedTypes: string[]) {
-  if (selectedTypes.includes('any')) return 'Any Event Type'
-  if (selectedTypes.length === 1) {
-    return (
-      eventTypes.find((type) => type.value === selectedTypes[0])?.label ||
-      selectedTypes[0]
-    )
-  }
-  return `${selectedTypes.length} types selected`
-}
 
 async function fetchOrganizers(isLoadMore = false) {
   if (isLoading.value || loadingMore.value) return
@@ -206,20 +128,5 @@ onMounted(() => {
         </p>
       </div>
     </div>
-
-    <!-- Location Sheet -->
-    <Sheet :open="showLocationFilter" @update:open="showLocationFilter = false">
-      <SheetContent side="bottom" class="h-[80vh]">
-        <SheetHeader>
-          <SheetTitle>Filter by Location</SheetTitle>
-        </SheetHeader>
-        <div class="mt-4">
-          <LocationPanel
-            :location="filters.location"
-            @update:location="filters.location = $event || ''"
-          />
-        </div>
-      </SheetContent>
-    </Sheet>
   </div>
 </template>
