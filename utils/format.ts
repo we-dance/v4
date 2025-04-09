@@ -38,6 +38,17 @@ export const formatDuration = (duration: number) => {
   return `${hours > 0 ? `${hours}h` : ''} ${minutes > 0 ? `${minutes}m` : ''} ${seconds > 0 ? `${seconds}s` : ''}`
 }
 
+export const subscriptionDurations = {
+  P1M: '1 month',
+  P3M: '3 months',
+  P6M: '6 months',
+  P1Y: '1 year',
+}
+
+export const formatSubscriptionDuration = (duration: string) => {
+  return subscriptionDurations[duration as keyof typeof subscriptionDurations]
+}
+
 export const getMinPrice = (offers: Prisma.OfferGetPayload<{}>[]) => {
   if (!offers?.length) {
     return 'Contact for pricing'

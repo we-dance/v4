@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Course } from '~/schemas/course'
-import { formatCurrencyCents } from '~/utils/format'
+import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
 
 const { course } = defineProps<{
   course: Course
@@ -31,7 +31,7 @@ const getItems = (offer: any) => {
       class="w-full justify-between h-auto py-4 hover:border-accent"
       as-child
     >
-      <NuxtLink :to="`/checkout/${course.slug}?type=course&offer=${offer.id}`">
+      <NuxtLink :to="`/checkout/${offer.id}`">
         <div class="flex items-center gap-3">
           <div class="text-left flex-1">
             <div class="font-bold">{{ offer.name }}</div>
@@ -55,7 +55,7 @@ const getItems = (offer: any) => {
             {{ formatCurrencyCents(offer.price, offer.currency) }}
           </div>
           <div class="text-sm text-muted-foreground">
-            {{ offer.duration === 'P1M' ? 'Monthly' : 'Yearly' }}
+            {{ formatSubscriptionDuration(offer.duration) }}
           </div>
         </div>
       </NuxtLink>
