@@ -7,10 +7,17 @@ import {
 
 const { $client } = useNuxtApp()
 
-const subscriptions = await $client.subscriptions.list.query()
+const subscriptions = ref<any[]>([])
+
+async function loadSubscriptions() {
+  subscriptions.value = await $client.subscriptions.list.query()
+}
+
+await loadSubscriptions()
 
 async function cancelSubscription(subscriptionId: string) {
   await $client.subscriptions.cancel.mutate({ subscriptionId })
+  await loadSubscriptions()
 }
 </script>
 
