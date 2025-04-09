@@ -54,6 +54,7 @@ model VerificationToken {
 model User {
   id                   String    @id @default(nanoid())
   email                String    @unique
+  stripeAccountId      String?   @default("")
   name                 String?   @default("")
   firstName            String?   @default("")
   lastName             String?   @default("")
