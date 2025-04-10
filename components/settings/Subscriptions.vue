@@ -61,7 +61,10 @@ async function cancelSubscription(subscriptionId: string) {
           </p>
           <div class="flex flex-row gap-2 mt-2 justify-end w-full">
             <Button
-              v-if="subscription.status === 'active'"
+              v-if="
+                subscription.status === 'active' ||
+                subscription.status === 'pending'
+              "
               variant="destructive"
               @click="cancelSubscription(subscription.id)"
               >Cancel</Button
