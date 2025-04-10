@@ -80,6 +80,13 @@ export const subscriptionsRouter = router({
         })
       }
 
+      if (subscription.status === 'canceled') {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Subscription is already canceled',
+        })
+      }
+
       if (!subscription.stripeSubscriptionId) {
         throw new TRPCError({
           code: 'BAD_REQUEST',
