@@ -91,7 +91,7 @@ export const checkoutRouter = router({
         }
       )
 
-      const { appUrl } = useRuntimeConfig(event)
+      const appUrl = useRuntimeConfig(event).public.appUrl
       const stripeSession = await stripe.checkout.sessions.create(
         {
           customer: customer.id,

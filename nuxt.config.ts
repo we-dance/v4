@@ -35,11 +35,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@sidebase/nuxt-auth',
   ],
-  auth: {
-    provider: {
-      type: 'authjs',
-    },
-  },
   components: [
     {
       path: '~/components',
@@ -91,14 +86,15 @@ export default defineNuxtConfig({
       scrollBehaviorType: 'smooth',
     },
   },
+  auth: {
+    provider: {
+      type: 'authjs',
+    },
+  },
   runtimeConfig: {
     public: {
+      authOrigin: `${appUrl}/api/auth`,
       appUrl: appUrl,
-      auth: {
-        computed: {
-          origin: `${appUrl}/api/auth`,
-        },
-      },
     },
   },
 })
