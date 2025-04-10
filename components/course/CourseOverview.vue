@@ -40,6 +40,10 @@ const numberOfLessons = computed(() => {
             <Icon name="ph:book-open" class="w-4 h-4" />
             {{ numberOfLessons }} lessons
           </div>
+          <div class="flex items-center gap-1">
+            <Icon name="ph:star-fill" class="w-4 h-4 text-orange-500" />
+            5 (7 reviews)
+          </div>
         </div>
       </div>
     </div>

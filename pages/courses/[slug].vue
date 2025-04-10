@@ -71,13 +71,6 @@ const handleViewPricing = () => {
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 w-[97%]">
         <div class="lg:col-span-2 space-y-8">
           <CourseVideoPlayer class="player" :lesson="currentLesson" />
-          <CourseContent
-            :course="course"
-            :current-lesson="currentLesson"
-            :is-unlocked="isUnlocked"
-            @select-lesson="handleSelectLesson"
-          />
-          <CourseMaterials :course="course" :is-unlocked="isUnlocked" />
           <InstructorProfile :profile="course.instructor" />
           <Reviews :course="course" />
           <CourseCommunity :course="course" />
@@ -93,6 +86,13 @@ const handleViewPricing = () => {
             :course="course"
             @view-pricing="handleViewPricing"
           />
+          <CourseContent
+            :course="course"
+            :current-lesson="currentLesson"
+            :is-unlocked="isUnlocked"
+            @select-lesson="handleSelectLesson"
+          />
+          <CourseMaterials :course="course" :is-unlocked="isUnlocked" />
           <CourseSidebarServices :profile="course.instructor" />
         </div>
       </div>

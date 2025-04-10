@@ -18,10 +18,6 @@ const progress = computed(() => {
             with {{ course.instructor.name }}
           </p>
         </div>
-        <div class="text-right">
-          <div class="text-sm text-muted-foreground">Progress</div>
-          <div class="text-lg font-semibold">{{ progress }}%</div>
-        </div>
       </div>
     </div>
   </div>
