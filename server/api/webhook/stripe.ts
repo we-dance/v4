@@ -16,13 +16,13 @@ export default eventHandler(async (event) => {
     return { error: 'Invalid stripe-signature' }
   }
 
-  const stripe = getStripe(event)
+  const stripe = getStripe()
 
   try {
     stripeEvent = stripe.webhooks.constructEvent(
       body,
       signature,
-      useRuntimeConfig(event).stripeWebhookSecret
+      useRuntimeConfig().stripeWebhookSecret
     )
   } catch (err) {
     return {

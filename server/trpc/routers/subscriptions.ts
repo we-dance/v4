@@ -97,7 +97,9 @@ export const subscriptionsRouter = router({
         })
       }
 
-      const stripeSubscription = await getStripe(event).subscriptions.cancel(
+      const stripe = getStripe()
+
+      const stripeSubscription = await stripe.subscriptions.cancel(
         subscription.stripeSubscriptionId,
         {
           stripeAccount,
