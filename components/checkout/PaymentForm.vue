@@ -38,7 +38,11 @@ onMounted(async () => {
     <a class="text-blue-500 underline" :href="redirectUrl">this link</a>.
   </div>
   <div v-else>
-    <p>Error</p>
-    <pre>{{ error }}</pre>
+    <Alert variant="destructive">
+      <AlertTitle>Error</AlertTitle>
+      <AlertDescription>
+        {{ error }}
+      </AlertDescription>
+    </Alert>
   </div>
 </template>
