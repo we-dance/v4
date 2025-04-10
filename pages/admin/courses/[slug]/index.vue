@@ -75,11 +75,25 @@ const onSubmit = form.handleSubmit(save)
 </script>
 
 <template>
-  <div class="container py-6 space-y-6">
-    <div class="flex items-center gap-4">
-      <h1 class="text-3xl font-bold">Course Details</h1>
-    </div>
+  <header class="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+    <SidebarTrigger class="-ml-1" />
+    <Separator orientation="vertical" class="mr-2 h-4" />
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem class="hidden md:block">
+          <BreadcrumbLink as-child>
+            <NuxtLink to="/admin/courses"> Manage Courses </NuxtLink>
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator class="hidden md:block" />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{ course?.name }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+  </header>
 
+  <div class="container py-6 space-y-6">
     <Card v-if="!course && loading">
       <div class="text-center py-12">
         <p>Loading course...</p>

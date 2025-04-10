@@ -27,10 +27,10 @@ const items = [
 <template>
   <NuxtLayout name="default">
     <SidebarProvider :defaultOpen="defaultOpen">
-      <Sidebar>
+      <Sidebar class="md:pt-16">
         <SidebarContent>
           <SidebarGroup>
-            <SidebarGroupLabel>Projects</SidebarGroupLabel>
+            <SidebarGroupLabel>Admin Area</SidebarGroupLabel>
             <SidebarGroupContent>
               <SidebarMenu>
                 <SidebarMenuItem v-for="item in items" :key="item.to">
@@ -46,10 +46,11 @@ const items = [
           </SidebarGroup>
         </SidebarContent>
       </Sidebar>
-      <main class="flex-1">
-        <SidebarTrigger />
-        <slot />
-      </main>
+      <SidebarInset>
+        <div class="flex flex-1 flex-col gap-4">
+          <slot />
+        </div>
+      </SidebarInset>
     </SidebarProvider>
   </NuxtLayout>
 </template>
