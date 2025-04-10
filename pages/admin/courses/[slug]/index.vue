@@ -93,24 +93,18 @@ const onSubmit = form.handleSubmit(save)
     </Breadcrumb>
   </header>
 
-  <div class="container py-6 space-y-6">
-    <Card v-if="!course && loading">
-      <div class="text-center py-12">
-        <p>Loading course...</p>
+  <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">
+    <ResizablePanel :default-size="165">
+      <div class="space-y-4 p-4">
+        <CourseEditor v-model="course" @submit="onSubmit" />
+        <CourseModulesEditor v-model="course" @load="loadCourse" />
+        <CourseResourcesEditor v-model="course" @load="loadCourse" />
+        <CourseOffersEditor v-model="course" @load="loadCourse" />
       </div>
-    </Card>
-
-    <div v-else-if="course" class="space-y-8">
-      <CourseEditor v-model="course" @submit="onSubmit" />
-      <CourseModulesEditor v-model="course" @load="loadCourse" />
-      <CourseResourcesEditor v-model="course" @load="loadCourse" />
-      <CourseOffersEditor v-model="course" @load="loadCourse" />
-    </div>
-
-    <Card v-else>
-      <div class="flex justify-center items-center p-8 text-muted-foreground">
-        Course not found
-      </div>
-    </Card>
-  </div>
+    </ResizablePanel>
+    <ResizableHandle with-handle />
+    <ResizablePanel :default-size="655">
+      <CourseView :course="course" />
+    </ResizablePanel>
+  </ResizablePanelGroup>
 </template>
