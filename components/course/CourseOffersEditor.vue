@@ -77,7 +77,19 @@ const openOfferDialog = (offer = null) => {
           class="flex items-center justify-between"
         >
           <div>
-            <h4 class="font-medium">{{ offer.name }}</h4>
+            <h4 class="font-medium">
+              {{ offer.name }}
+              <Icon
+                v-if="offer.stripeProductId && offer.stripePriceId"
+                name="lucide:check"
+                class="h-4 w-4 text-green-500"
+              />
+              <Icon
+                v-else
+                name="lucide:loader"
+                class="h-4 w-4 text-muted-foreground"
+              />
+            </h4>
             <p class="text-sm text-muted-foreground">
               {{ formatCurrencyCents(offer.price, offer.currency) }} /
               {{ formatSubscriptionDuration(offer.duration) }}

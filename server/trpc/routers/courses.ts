@@ -4,6 +4,7 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { getSlug } from '~/schemas/user'
 import { nanoid } from 'nanoid'
 import { prisma } from '~/server/prisma'
+import { getStripe } from '~/server/utils/stripe'
 
 export const coursesRouter = router({
   list: publicProcedure
@@ -328,16 +329,64 @@ export const coursesRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { courseId, offerId, ...data } = input
 
+      const stripe = getStripe()
+      const { name, price, currency } = data
+
       if (!offerId) {
+        const stripeProduct = await stripe.products.create({
+          name,
+        })
+
+        const stripePrice = await stripe.prices.create({
+          unit_amount: price,
+          currency,
+          product: stripeProduct.id,
+        })
+
         const offer = await prisma.offer.create({
-          data: { ...data, courseId },
+          data: {
+            ...data,
+            courseId,
+            stripePriceId: stripePrice.id,
+            stripeProductId: stripeProduct.id,
+          },
         })
         return offer
       }
 
+      const existingOffer = await prisma.offer.findUnique({
+        where: { id: offerId },
+      })
+
+      if (!existingOffer) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Offer not found' })
+      }
+
+      let stripeProductId
+      let stripePriceId
+
+      if (!existingOffer.stripeProductId) {
+        const stripeProduct = await stripe.products.create({
+          name,
+        })
+
+        const stripePrice = await stripe.prices.create({
+          unit_amount: price,
+          currency,
+          product: stripeProduct.id,
+        })
+
+        stripeProductId = stripeProduct.id
+        stripePriceId = stripePrice.id
+      }
+
       const offer = await prisma.offer.update({
         where: { id: offerId },
-        data,
+        data: {
+          ...data,
+          stripePriceId,
+          stripeProductId,
+        },
       })
 
       return offer
