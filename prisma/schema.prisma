@@ -166,14 +166,16 @@ model Profile {
   oldCities        Json? // Old cities structure
   privacySettings  Json? // Privacy settings
 
-  userId              String?           @unique
-  user                User?             @relation("owned_by", fields: [userId], references: [id])
-  cityId              String?
-  city                City?             @relation("profile_city", fields: [cityId], references: [id])
-  posts               Post[]
-  eventsCreated       Event[]           @relation("event_created_by")
-  eventsOrganized     Event[]           @relation("event_organized_by")
-  eventsHosted        Event[]           @relation("event_hosted_by")
+  userId          String?  @unique
+  user            User?    @relation("owned_by", fields: [userId], references: [id])
+  cityId          String?
+  city            City?    @relation("profile_city", fields: [cityId], references: [id])
+  posts           Post[]
+  eventsCreated   Event[]  @relation("event_created_by")
+  eventsOrganized Event[]  @relation("event_organized_by")
+  eventsHosted    Event[]  @relation("event_hosted_by")
+  reviewsCreated  Review[] @relation("review_created_by")
+
   // Course instructor relationship
   coursesAsinstructor Course[]          @relation("course_instructor")
   createdBy           User?             @relation("profile_created_by", fields: [createdById], references: [id])
@@ -393,6 +395,25 @@ model Course {
   modules    CourseModule[]
   resources  CourseResource[]
   offers     Offer[]
+  reviews    Review[]
+}
+
+model Review {
+  id String @id @default(nanoid())
+
+  courseId String
+  course   Course @relation(fields: [courseId], references: [id])
+
+  rating Int
+  body   String?
+
+  authorId String
+  author   Profile @relation("review_created_by", fields: [authorId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([courseId, authorId])
 }
 
 model CourseModule {

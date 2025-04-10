@@ -21,6 +21,18 @@ const numberOfLessons = computed(() => {
     return acc + module.lessons.length
   }, 0)
 })
+
+const reviews = computed(() => {
+  return course.reviews.length
+})
+
+const averageRating = computed(() => {
+  return (
+    course.reviews.reduce((acc: number, review: any) => {
+      return acc + review.rating
+    }, 0) / course.reviews.length
+  )
+})
 </script>
 
 <template>
@@ -40,9 +52,9 @@ const numberOfLessons = computed(() => {
             <Icon name="ph:book-open" class="w-4 h-4" />
             {{ numberOfLessons }} lessons
           </div>
-          <div class="flex items-center gap-1">
+          <div v-if="reviews > 0" class="flex items-center gap-1">
             <Icon name="ph:star-fill" class="w-4 h-4 text-orange-500" />
-            5 (7 reviews)
+            {{ averageRating }} ({{ reviews }} reviews)
           </div>
         </div>
       </div>

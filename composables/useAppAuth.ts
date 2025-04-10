@@ -3,8 +3,6 @@ export const useAppAuth = () => {
   const authQuery = useState<string>('auth-query', () => '')
   const authQueryLoading = useState<boolean>('auth-query-loading', () => false)
 
-  const callbackUrl = '/'
-
   const { signIn, signOut, data, status } = useAuth()
 
   const isLoggedIn = computed(() => status.value === 'authenticated')
@@ -42,7 +40,6 @@ export const useAppAuth = () => {
     const { error, url } = await signIn(provider, {
       ...options,
       redirect: false,
-      callbackUrl,
     })
     if (error) {
       return signInErrors[error] ? signInErrors[error] : error

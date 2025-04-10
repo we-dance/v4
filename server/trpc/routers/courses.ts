@@ -117,6 +117,17 @@ export const coursesRouter = router({
                 : undefined,
             },
           },
+          reviews: {
+            include: {
+              author: {
+                select: {
+                  username: true,
+                  name: true,
+                  photo: true,
+                },
+              },
+            },
+          },
         },
       })
 
@@ -333,5 +344,39 @@ export const coursesRouter = router({
       await prisma.courseResource.delete({
         where: { id: resourceId },
       })
+    }),
+
+  addReview: publicProcedure
+    .input(
+      z.object({
+        courseId: z.string(),
+        rating: z.number(),
+        body: z.string().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { courseId, rating, body } = input
+
+      const authorId = ctx.session?.profile?.id
+
+      if (!authorId) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'You must be logged in to add a review',
+        })
+      }
+
+      try {
+        const newReview = await prisma.review.create({
+          data: { courseId, rating, body, authorId },
+        })
+
+        return newReview
+      } catch (error) {
+        throw new TRPCError({
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Failed to add review',
+        })
+      }
     }),
 })

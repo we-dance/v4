@@ -8,13 +8,18 @@ import { ref } from 'vue'
 const { login } = useAppAuth()
 const showPassword = ref(false)
 
+const callbackUrl = ref(useRoute().query.redirect || '/')
+
 const form = useForm({
   validationSchema: toTypedSchema(registerSchema),
 })
 
 const onSubmit = form.handleSubmit(
   async (values) => {
-    const error = await login('register', values)
+    const error = await login('register', {
+      ...values,
+      callbackUrl: callbackUrl.value,
+    })
     if (error) {
       toast.error(error)
     }
