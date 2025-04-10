@@ -5,6 +5,97 @@ import { getSlug } from '~/schemas/user'
 import { nanoid } from 'nanoid'
 import { prisma } from '~/server/prisma'
 import { getStripe } from '~/server/utils/stripe'
+import { SubscriptionDuration, getRecurring } from '~/utils/format'
+import Stripe from 'stripe'
+
+interface StripeIds {
+  stripeProductId: string
+  stripePriceId: string
+}
+
+interface OfferData {
+  name: string
+  price: number
+  currency: string
+  duration: SubscriptionDuration
+  items: string
+  stripeProductId?: string
+  stripePriceId?: string
+}
+
+async function createOrUpdateStripeProduct(
+  stripe: Stripe,
+  newOffer: OfferData,
+  oldOffer?: OfferData
+): Promise<StripeIds> {
+  if (!oldOffer?.stripeProductId) {
+    const stripeProduct = await stripe.products.create({
+      name: newOffer.name,
+      description: newOffer.items,
+    })
+    const stripePrice = await stripe.prices.create({
+      unit_amount: newOffer.price,
+      currency: newOffer.currency,
+      product: stripeProduct.id,
+      recurring: getRecurring(newOffer.duration),
+    })
+
+    return {
+      stripeProductId: stripeProduct.id,
+      stripePriceId: stripePrice.id,
+    }
+  }
+
+  if (!oldOffer.stripePriceId) {
+    const stripePrice = await stripe.prices.create({
+      unit_amount: newOffer.price,
+      currency: newOffer.currency,
+      product: oldOffer.stripeProductId,
+      recurring: getRecurring(newOffer.duration),
+    })
+
+    return {
+      stripeProductId: oldOffer.stripeProductId,
+      stripePriceId: stripePrice.id,
+    }
+  }
+
+  if (newOffer.name !== oldOffer.name || newOffer.items !== oldOffer.items) {
+    await stripe.products.update(oldOffer.stripeProductId, {
+      name: newOffer.name,
+      description: newOffer.items,
+    })
+  }
+
+  if (
+    newOffer.price !== oldOffer.price ||
+    newOffer.currency !== oldOffer.currency ||
+    newOffer.duration !== oldOffer.duration
+  ) {
+    if (oldOffer.stripePriceId) {
+      await stripe.prices.update(oldOffer.stripePriceId, {
+        active: false,
+      })
+    }
+
+    const newStripePrice = await stripe.prices.create({
+      unit_amount: newOffer.price,
+      currency: newOffer.currency,
+      product: oldOffer.stripeProductId,
+      recurring: getRecurring(newOffer.duration),
+    })
+
+    return {
+      stripeProductId: oldOffer.stripeProductId,
+      stripePriceId: newStripePrice.id,
+    }
+  }
+
+  return {
+    stripeProductId: oldOffer.stripeProductId,
+    stripePriceId: oldOffer.stripePriceId,
+  }
+}
 
 export const coursesRouter = router({
   list: publicProcedure
@@ -322,74 +413,85 @@ export const coursesRouter = router({
         name: z.string(),
         price: z.number(),
         currency: z.string(),
-        duration: z.string(),
+        duration: z.nativeEnum(SubscriptionDuration),
         items: z.string(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { courseId, offerId, ...data } = input
+      const { courseId, offerId, ...offerData } = input
 
-      const stripe = getStripe()
-      const { name, price, currency } = data
-
-      if (!offerId) {
-        const stripeProduct = await stripe.products.create({
-          name,
-        })
-
-        const stripePrice = await stripe.prices.create({
-          unit_amount: price,
-          currency,
-          product: stripeProduct.id,
-        })
-
-        const offer = await prisma.offer.create({
-          data: {
-            ...data,
-            courseId,
-            stripePriceId: stripePrice.id,
-            stripeProductId: stripeProduct.id,
+      const course = await prisma.course.findUnique({
+        where: { id: courseId },
+        include: {
+          instructor: {
+            select: {
+              user: {
+                select: {
+                  stripeAccountId: true,
+                },
+              },
+            },
           },
-        })
-        return offer
-      }
-
-      const existingOffer = await prisma.offer.findUnique({
-        where: { id: offerId },
-      })
-
-      if (!existingOffer) {
-        throw new TRPCError({ code: 'NOT_FOUND', message: 'Offer not found' })
-      }
-
-      let stripeProductId
-      let stripePriceId
-
-      if (!existingOffer.stripeProductId) {
-        const stripeProduct = await stripe.products.create({
-          name,
-        })
-
-        const stripePrice = await stripe.prices.create({
-          unit_amount: price,
-          currency,
-          product: stripeProduct.id,
-        })
-
-        stripeProductId = stripeProduct.id
-        stripePriceId = stripePrice.id
-      }
-
-      const offer = await prisma.offer.update({
-        where: { id: offerId },
-        data: {
-          ...data,
-          stripePriceId,
-          stripeProductId,
         },
       })
 
-      return offer
+      try {
+        if (!offerId) {
+          const stripe = getStripe(course?.instructor?.user?.stripeAccountId)
+          const stripeIds = await createOrUpdateStripeProduct(stripe, offerData)
+
+          return await prisma.offer.create({
+            data: {
+              ...offerData,
+              courseId,
+              ...stripeIds,
+            },
+          })
+        }
+
+        const existingOffer = await prisma.offer.findUnique({
+          where: { id: offerId },
+          include: {
+            course: {
+              include: {
+                instructor: {
+                  select: { user: { select: { stripeAccountId: true } } },
+                },
+              },
+            },
+          },
+        })
+
+        if (!existingOffer) {
+          throw new TRPCError({ code: 'NOT_FOUND', message: 'Offer not found' })
+        }
+
+        const stripe = getStripe(
+          existingOffer.course?.instructor?.user?.stripeAccountId
+        )
+
+        const stripeIds = await createOrUpdateStripeProduct(
+          stripe,
+          offerData,
+          existingOffer as OfferData
+        )
+
+        return await prisma.offer.update({
+          where: { id: offerId },
+          data: {
+            ...offerData,
+            ...stripeIds,
+          },
+        })
+      } catch (error) {
+        if (error instanceof TRPCError) throw error
+
+        throw new TRPCError({
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Failed to update offer',
+          cause: error,
+        })
+      }
     }),
 
   deleteOffer: publicProcedure
@@ -397,7 +499,55 @@ export const coursesRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { offerId } = input
 
+      const offer = await prisma.offer.findUnique({
+        where: { id: offerId },
+        include: {
+          course: {
+            include: {
+              instructor: {
+                select: {
+                  user: {
+                    select: {
+                      stripeAccountId: true,
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      })
+
+      if (!offer) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Offer not found' })
+      }
+
+      const stripeAccountId = offer.course?.instructor?.user?.stripeAccountId
+
+      if (!stripeAccountId) {
+        throw new TRPCError({
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Instructor has no Stripe account',
+        })
+      }
+
+      const stripe = getStripe(stripeAccountId)
+
+      if (offer.stripePriceId) {
+        await stripe.prices.update(offer.stripePriceId, {
+          active: false,
+        })
+      }
+
+      if (offer.stripeProductId) {
+        await stripe.products.update(offer.stripeProductId, {
+          active: false,
+        })
+      }
+
       await prisma.offer.delete({ where: { id: offerId } })
+
+      return { success: true }
     }),
 
   addReview: publicProcedure

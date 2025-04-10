@@ -1,4 +1,5 @@
 import type { Prisma } from '@prisma/client'
+import type Stripe from 'stripe'
 
 export function formatDate(dateString: string): string {
   try {
@@ -47,11 +48,56 @@ export const formatDuration = (duration: number) => {
   return `${hours > 0 ? `${hours}h` : ''} ${minutes > 0 ? `${minutes}m` : ''} ${seconds > 0 ? `${seconds}s` : ''}`
 }
 
-export const subscriptionDurations = {
-  P1M: '1 month',
-  P3M: '3 months',
-  P6M: '6 months',
-  P1Y: '1 year',
+export enum SubscriptionDuration {
+  P1M = 'P1M',
+  P3M = 'P3M',
+  P6M = 'P6M',
+  P1Y = 'P1Y',
+  P1D = 'P1D',
+  P1W = 'P1W',
+}
+
+export const SubscriptionDurationStripeRecurring: Record<
+  SubscriptionDuration,
+  Stripe.PriceCreateParams.Recurring
+> = {
+  P1D: {
+    interval: 'day',
+    interval_count: 1,
+  },
+  P1W: {
+    interval: 'week',
+    interval_count: 1,
+  },
+  P1M: {
+    interval: 'month',
+    interval_count: 1,
+  },
+  P3M: {
+    interval: 'month',
+    interval_count: 3,
+  },
+  P6M: {
+    interval: 'month',
+    interval_count: 6,
+  },
+  P1Y: {
+    interval: 'year',
+    interval_count: 1,
+  },
+}
+
+export const getRecurring = (duration: SubscriptionDuration) => {
+  return SubscriptionDurationStripeRecurring[duration]
+}
+
+export const subscriptionDurations: Record<SubscriptionDuration, string> = {
+  P1D: 'Daily',
+  P1W: 'Weekly',
+  P1M: 'Monthly',
+  P1Y: 'Yearly',
+  P3M: 'Every 3 months',
+  P6M: 'Every 6 months',
 }
 
 export const formatSubscriptionDuration = (duration: string) => {
