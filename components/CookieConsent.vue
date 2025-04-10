@@ -28,7 +28,7 @@ onMounted(() => {
 <template>
   <div
     v-if="isVisible"
-    class="fixed bottom-0 left-0 right-0 z-50 bg-background border-t border-border p-4 shadow-lg animate-in slide-in-from-bottom-4"
+    class="fixed bottom-0 left-0 right-0 z-50 bg-background border-t border-border p-4 shadow-lg animate-in slide-in-from-bottom-4 text-foreground"
   >
     <div class="container max-w-7xl mx-auto">
       <div
