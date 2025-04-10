@@ -8,17 +8,24 @@ const { offer } = defineProps<{
 const { $client } = useNuxtApp()
 
 const redirectUrl = ref('')
+const error = ref('')
 const loading = ref(true)
 
 onMounted(async () => {
   loading.value = true
-  const { url } = await $client.checkout.createCheckoutSession.mutate({
-    offerId: offer.id,
-  })
 
-  redirectUrl.value = url
-  loading.value = false
-  window.location.href = redirectUrl.value
+  try {
+    const { url } = await $client.checkout.createCheckoutSession.mutate({
+      offerId: offer.id,
+    })
+
+    redirectUrl.value = url
+    loading.value = false
+    window.location.href = redirectUrl.value
+  } catch (e) {
+    loading.value = false
+    error.value = (e as Error).message
+  }
 })
 </script>
 
@@ -29,5 +36,9 @@ onMounted(async () => {
   <div v-else-if="redirectUrl">
     You will be redirected, or you can click
     <a class="text-blue-500 underline" :href="redirectUrl">this link</a>.
+  </div>
+  <div v-else>
+    <p>Error</p>
+    <pre>{{ error }}</pre>
   </div>
 </template>
