@@ -94,6 +94,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     authOrigin: `${appUrl}/api/auth`,
+    stripeSecretKey: '',
+    stripePublicKey: '',
+    stripeWebhookSecret: '',
     public: {
       appUrl: appUrl,
     },

@@ -20,7 +20,7 @@ export default eventHandler(async (event) => {
     stripeEvent = stripe.webhooks.constructEvent(
       body,
       signature,
-      process.env.STRIPE_WEBHOOK_SECRET_KEY!
+      useRuntimeConfig().stripeWebhookSecret
     )
   } catch (err) {
     return { error: (err as Error).message }
