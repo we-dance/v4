@@ -1,5 +1,3 @@
-const appUrl = `https://${process.env.VERCEL_URL}`
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-02',
@@ -87,18 +85,16 @@ export default defineNuxtConfig({
     },
   },
   auth: {
-    originEnvKey: 'AUTH_ORIGIN',
     provider: {
       type: 'authjs',
     },
   },
   runtimeConfig: {
-    authOrigin: `${appUrl}/api/auth`,
     stripeSecretKey: '',
     stripePublicKey: '',
     stripeWebhookSecret: '',
     public: {
-      appUrl: appUrl,
+      appUrl: '',
     },
   },
 })
