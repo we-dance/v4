@@ -92,9 +92,13 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    authOrigin: `${appUrl}/api/auth`,
     public: {
       appUrl: appUrl,
+      auth: {
+        computed: {
+          origin: `${appUrl}/api/auth`,
+        },
+      },
     },
   },
 })
