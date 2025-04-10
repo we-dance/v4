@@ -24,9 +24,9 @@ const emit = defineEmits<{
             v-for="lesson in module.lessons"
             :key="lesson.id"
             @click="emit('selectLesson', lesson)"
-            class="flex items-center gap-3 p-2 rounded hover:bg-muted cursor-pointer"
+            class="flex items-center gap-3 p-2 rounded hover:bg-muted hover:text-foreground cursor-pointer border-2 border-background"
             :class="{
-              'bg-accent/10': currentLesson.id === lesson.id,
+              'border-muted-foreground': currentLesson.id === lesson.id,
             }"
           >
             <Icon
@@ -38,7 +38,7 @@ const emit = defineEmits<{
               class="w-5 h-5"
               :class="
                 lesson.locked && !isUnlocked
-                  ? 'text-muted-foreground'
+                  ? 'text-red-500'
                   : 'text-muted-foreground'
               "
             />
