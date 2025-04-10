@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
 
 const course = defineModel()
 const dialog = useDialog()
@@ -70,7 +71,8 @@ const openEditOfferDialog = (offer, index) => {
           <div>
             <h4 class="font-medium">{{ offer.name }}</h4>
             <p class="text-sm text-muted-foreground">
-              {{ offer.price }} {{ offer.currency }} - {{ offer.duration }}
+              {{ formatCurrencyCents(offer.price, offer.currency) }} /
+              {{ formatSubscriptionDuration(offer.duration) }}
             </p>
           </div>
           <div class="flex items-center gap-2">

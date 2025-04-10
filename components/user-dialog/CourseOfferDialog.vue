@@ -82,14 +82,13 @@ const onSubmit = form.handleSubmit(
     <div class="grid grid-cols-3 gap-4">
       <FormField v-slot="{ componentField }" name="price">
         <FormItem>
-          <FormLabel>Price</FormLabel>
+          <FormLabel>Price (cents)</FormLabel>
           <FormControl>
             <Input
               v-bind="componentField"
               type="number"
               min="0"
-              step="0.01"
-              placeholder="0.00"
+              placeholder="0"
             />
           </FormControl>
           <FormMessage />
@@ -125,7 +124,7 @@ const onSubmit = form.handleSubmit(
               </SelectTrigger>
               <SelectContent>
                 <SelectItem
-                  v-for="duration in subscriptionDurations"
+                  v-for="duration in Object.keys(subscriptionDurations)"
                   :key="duration"
                   :value="duration"
                   >{{ formatSubscriptionDuration(duration) }}</SelectItem
