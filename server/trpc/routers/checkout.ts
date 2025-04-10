@@ -29,8 +29,7 @@ export const checkoutRouter = router({
   createCheckoutSession: publicProcedure
     .input(z.object({ offerId: z.string() }))
     .mutation(async ({ input, ctx }) => {
-      const config = useRuntimeConfig()
-      const appUrl = config.public.appUrl
+      const appUrl = useRuntimeConfig().appUrl
 
       const { session } = ctx
       const { offerId } = input
@@ -84,7 +83,9 @@ export const checkoutRouter = router({
 
       const stripeAccount = offer.course.instructor.user.stripeAccountId
 
-      const customer = await getStripe().customers.create(
+      const stripe = getStripe(event)
+
+      const customer = await stripe.customers.create(
         {
           email: session.user.email,
           name: session.user.firstName + ' ' + session.user.lastName,
@@ -94,7 +95,7 @@ export const checkoutRouter = router({
         }
       )
 
-      const stripeSession = await getStripe().checkout.sessions.create(
+      const stripeSession = await stripe.checkout.sessions.create(
         {
           customer: customer.id,
           line_items: [{ price: offer.stripePriceId, quantity: 1 }],

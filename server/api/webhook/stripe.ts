@@ -16,14 +16,18 @@ export default eventHandler(async (event) => {
     return { error: 'Invalid stripe-signature' }
   }
 
+  const stripe = getStripe(event)
+
   try {
-    stripeEvent = getStripe().webhooks.constructEvent(
+    stripeEvent = stripe.webhooks.constructEvent(
       body,
       signature,
-      useRuntimeConfig().stripeWebhookSecret
+      useRuntimeConfig(event).stripeWebhookSecret
     )
   } catch (err) {
-    return { error: (err as Error).message }
+    return {
+      error: 'stripe.webhooks.constructEvent: ' + (err as Error).message,
+    }
   }
 
   switch (stripeEvent.type) {
@@ -36,7 +40,7 @@ export default eventHandler(async (event) => {
 
       const stripeAccount = checkoutSession.metadata.stripeAccount
 
-      const stripeSubscription = await getStripe().subscriptions.retrieve(
+      const stripeSubscription = await stripe.subscriptions.retrieve(
         checkoutSession.subscription,
         {
           stripeAccount,
