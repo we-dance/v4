@@ -1,3 +1,6 @@
+const appUrl =
+  process.env.VERCEL_URL || process.env.BASE_URL || 'http://localhost:3000'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-02',
@@ -34,6 +37,7 @@ export default defineNuxtConfig({
     '@sidebase/nuxt-auth',
   ],
   auth: {
+    baseURL: `${appUrl}/api/auth`,
     provider: {
       type: 'authjs',
     },
@@ -91,7 +95,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiHost: process.env.API_HOST || 'localhost:3000',
+      appUrl: appUrl,
     },
   },
 })

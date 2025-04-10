@@ -91,13 +91,14 @@ export const checkoutRouter = router({
         }
       )
 
+      const { appUrl } = useRuntimeConfig(event)
       const stripeSession = await stripe.checkout.sessions.create(
         {
           customer: customer.id,
           line_items: [{ price: offer.stripePriceId, quantity: 1 }],
           mode: 'subscription',
-          success_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/success`,
-          cancel_url: `${process.env.BASE_URL}/subscriptions/${subscription.id}/cancel`,
+          success_url: `${appUrl}/subscriptions/${subscription.id}/success`,
+          cancel_url: `${appUrl}/subscriptions/${subscription.id}/cancel`,
           metadata: {
             subscriptionId: subscription.id,
             stripeAccount,
