@@ -14,6 +14,10 @@ const getItems = (offer: any) => {
   return offer.items.split('\n')
 }
 
+const offers = computed(() => {
+  return course.offers.sort((a, b) => a.price - b.price)
+})
+
 const handleSelect = (offer: any) => {
   router.push(`/checkout/${offer.id}`)
   dialog.close()
@@ -30,7 +34,7 @@ const handleSelect = (offer: any) => {
 
   <div class="space-y-4 py-4">
     <Button
-      v-for="offer in course.offers"
+      v-for="offer in offers"
       :key="offer.id"
       variant="outline"
       class="w-full justify-between h-auto py-4 hover:border-accent"
