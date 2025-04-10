@@ -1,6 +1,5 @@
 <script setup>
 const route = useRoute()
-const { signOut } = useAppAuth()
 const isCollapsed = ref(false)
 const expandedItems = ref([])
 
@@ -40,18 +39,11 @@ const navigationItems = [
   },
 ]
 
-const handleSignOut = async () => {
-  await signOut()
-  navigateTo('/')
-}
-
-// Mock notification count - replace with actual count
 const notificationCount = ref(3)
 </script>
 
 <template>
   <div class="min-h-screen flex">
-    <!-- Sidebar -->
     <aside
       class="min-h-screen bg-background border-r border-border transition-all duration-300"
       :class="[isCollapsed ? 'w-16' : 'w-64']"
@@ -77,7 +69,6 @@ const notificationCount = ref(3)
       <nav class="p-4">
         <div class="space-y-1">
           <template v-for="item in navigationItems" :key="item.to">
-            <!-- Parent menu items with sub-menus -->
             <div v-if="item.children">
               <div
                 class="flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors cursor-pointer"
@@ -101,7 +92,6 @@ const notificationCount = ref(3)
                   class="h-4 w-4"
                 />
               </div>
-              <!-- Sub-menu items -->
               <div
                 v-if="expandedItems.includes(item.to) && !isCollapsed"
                 class="ml-4 mt-1 space-y-1"
@@ -123,7 +113,6 @@ const notificationCount = ref(3)
               </div>
             </div>
 
-            <!-- Single menu items without sub-menus -->
             <NuxtLink
               v-else
               :to="item.to"
@@ -143,9 +132,7 @@ const notificationCount = ref(3)
       </nav>
     </aside>
 
-    <!-- Main Content -->
     <div class="flex-1 flex flex-col">
-      <!-- Header -->
       <header
         class="h-16 border-b border-border bg-background/80 backdrop-blur-sm"
       >
@@ -170,7 +157,6 @@ const notificationCount = ref(3)
         </div>
       </header>
 
-      <!-- Page Content -->
       <main class="flex-1 p-6">
         <div class="max-w-full">
           <slot />
