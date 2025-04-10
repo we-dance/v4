@@ -87,13 +87,14 @@ export default defineNuxtConfig({
     },
   },
   auth: {
+    originEnvKey: 'AUTH_ORIGIN',
     provider: {
       type: 'authjs',
     },
   },
   runtimeConfig: {
+    authOrigin: `${appUrl}/api/auth`,
     public: {
-      authOrigin: `${appUrl}/api/auth`,
       appUrl: appUrl,
     },
   },

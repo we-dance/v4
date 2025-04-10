@@ -29,6 +29,9 @@ export const checkoutRouter = router({
   createCheckoutSession: publicProcedure
     .input(z.object({ offerId: z.string() }))
     .mutation(async ({ input, ctx }) => {
+      const config = useRuntimeConfig()
+      const appUrl = config.public.appUrl
+
       const { session } = ctx
       const { offerId } = input
       const offer = await prisma.offer.findUnique({
@@ -91,7 +94,6 @@ export const checkoutRouter = router({
         }
       )
 
-      const appUrl = useRuntimeConfig(event).public.appUrl
       const stripeSession = await stripe.checkout.sessions.create(
         {
           customer: customer.id,
