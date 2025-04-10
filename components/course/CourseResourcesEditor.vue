@@ -51,7 +51,7 @@ function openEditResourceDialog(resource?: any) {
       <CardTitle class="flex items-center justify-between">
         <div>Course Resources</div>
         <Button variant="outline" @click="openEditResourceDialog()">
-          <Icon name="lucide:plus" class="h-4 w-4 mr-2" />
+          <Icon name="lucide:plus" class="h-4 w-4" />
           Add Resource
         </Button>
       </CardTitle>

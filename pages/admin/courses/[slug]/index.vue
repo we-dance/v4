@@ -80,7 +80,7 @@ const onSubmit = form.handleSubmit(save)
       <h1 class="text-3xl font-bold">Course Details</h1>
     </div>
 
-    <Card v-if="loading">
+    <Card v-if="!course && loading">
       <div class="text-center py-12">
         <p>Loading course...</p>
       </div>

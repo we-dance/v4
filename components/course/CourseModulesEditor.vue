@@ -53,7 +53,7 @@ function openEditModuleDialog(module?: any) {
       <CardTitle class="flex items-center justify-between">
         <div>Modules</div>
         <Button variant="outline" @click="openEditModuleDialog()">
-          <Icon name="lucide:plus" class="h-4 w-4 mr-2" />
+          <Icon name="lucide:plus" class="h-4 w-4" />
           Add Module
         </Button>
       </CardTitle>

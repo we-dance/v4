@@ -51,9 +51,14 @@ const openOfferDialog = (offer = null) => {
 <template>
   <Card>
     <CardHeader>
-      <CardTitle>Course Offers</CardTitle>
+      <CardTitle class="flex items-center justify-between">
+        <div>Price List</div>
+        <Button variant="outline" @click="openOfferDialog()"
+          ><Icon name="lucide:plus" class="h-4 w-4" />Add Price</Button
+        >
+      </CardTitle>
       <CardDescription
-        >Manage pricing and offers for your course.</CardDescription
+        >Manage pricing and offers for your course</CardDescription
       >
     </CardHeader>
     <CardContent>
@@ -71,16 +76,28 @@ const openOfferDialog = (offer = null) => {
             </p>
           </div>
           <div class="flex items-center gap-2">
-            <Button size="sm" @click="deleteOffer(offer.id)">Delete</Button>
-            <Button size="sm" @click="openOfferDialog(offer)"> Edit </Button>
+            <Button
+              class="w-7 h-7"
+              variant="ghost"
+              size="icon"
+              @click="openOfferDialog(offer)"
+            >
+              <Icon name="lucide:pencil" class="h-4 w-4" />
+              <span class="sr-only">Edit Resource</span>
+            </Button>
+            <Button
+              @click="deleteOffer(offer.id)"
+              variant="ghost"
+              size="icon"
+              class="h-7 w-7 text-destructive hover:text-destructive"
+              ><Icon name="lucide:trash" class="h-4 w-4" />
+              <span class="sr-only">Delete Resource</span></Button
+            >
           </div>
         </div>
       </div>
       <div v-else class="text-center py-4 text-muted-foreground">
         No offers added yet
-      </div>
-      <div class="mt-4">
-        <Button variant="outline" @click="openOfferDialog()">Add Offer</Button>
       </div>
     </CardContent>
   </Card>
