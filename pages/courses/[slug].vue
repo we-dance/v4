@@ -84,7 +84,6 @@ const handleViewPricing = () => {
         </div>
 
         <div class="lg:sticky lg:top-8 space-y-8">
-          <CourseSidebarOverview :course="course" />
           <CourseSidebarSubscriptions
             v-if="subscription"
             :subscription="subscription"
