@@ -15,7 +15,12 @@ const items = [
 </script>
 
 <template>
-  <NuxtLayout name="default">
+  <div class="min-h-screen flex flex-col">
+    <AppNavigation />
+    <main class="flex-1 bg-background text-foreground">
+      <slot />
+    </main>
+
     <SidebarProvider :defaultOpen="defaultOpen">
       <Sidebar class="md:pt-16">
         <SidebarContent>
@@ -37,10 +42,10 @@ const items = [
         </SidebarContent>
       </Sidebar>
       <SidebarInset>
-        <div class="flex flex-1 flex-col gap-4">
+        <div class="flex flex-1 flex-col">
           <slot />
         </div>
       </SidebarInset>
     </SidebarProvider>
-  </NuxtLayout>
+  </div>
 </template>
