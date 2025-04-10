@@ -14,7 +14,7 @@ const emit = defineEmits<{
 <template>
   <div class="bg-background rounded-xl shadow-sm overflow-hidden">
     <div class="p-4 border-b">
-      <h3 class="font-semibold">Course Content {{ isUnlocked }}</h3>
+      <h3 class="font-semibold">Course Content</h3>
     </div>
     <div class="divide-y">
       <div v-for="module in course.modules" :key="module.id" class="p-4">
