@@ -1,8 +1,9 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
-import { publicProcedure, router } from '../trpc'
+import { publicProcedure, router } from '~/server/trpc/init'
 import { getSlug } from '~/schemas/user'
 import { nanoid } from 'nanoid'
+import { prisma } from '~/server/prisma'
 
 export const coursesRouter = router({
   list: publicProcedure
@@ -20,8 +21,6 @@ export const coursesRouter = router({
     )
     .query(async ({ ctx, input }) => {
       const { limit, cursor, filter } = input
-      const prisma = ctx.prisma
-
       const where: any = {}
 
       if (filter?.search) {
@@ -87,7 +86,6 @@ export const coursesRouter = router({
     )
     .query(async ({ ctx, input }) => {
       const { slug } = input
-      const prisma = ctx.prisma
 
       const course: any = await prisma.course.findUnique({
         where: { slug },
@@ -109,6 +107,15 @@ export const coursesRouter = router({
           resources: true,
           offers: {
             orderBy: { createdAt: 'desc' },
+            include: {
+              subscriptions: ctx.session?.user?.id
+                ? {
+                    where: {
+                      userId: ctx.session.user.id,
+                    },
+                  }
+                : undefined,
+            },
           },
         },
       })
@@ -137,7 +144,6 @@ export const coursesRouter = router({
     .input(z.object({ name: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const { name } = input
-      const prisma = ctx.prisma
 
       const slug = getSlug(name) + '-' + nanoid(5)
 
@@ -171,7 +177,6 @@ export const coursesRouter = router({
     )
     .mutation(async ({ ctx, input }) => {
       const { slug, deletedOfferIds = [], ...data } = input
-      const prisma = ctx.prisma
 
       const existingOffers = data.offers.filter((offer) => offer.id)
       const newOffers = data.offers
@@ -219,7 +224,6 @@ export const coursesRouter = router({
     )
     .mutation(async ({ ctx, input }) => {
       const { courseId, moduleId, name, description } = input
-      const prisma = ctx.prisma
 
       if (!moduleId) {
         const module = await prisma.courseModule.create({
@@ -241,7 +245,6 @@ export const coursesRouter = router({
     .input(z.object({ moduleId: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const { moduleId } = input
-      const prisma = ctx.prisma
 
       await prisma.courseModule.delete({
         where: { id: moduleId },
@@ -262,7 +265,6 @@ export const coursesRouter = router({
     )
     .mutation(async ({ ctx, input }) => {
       const { moduleId, lessonId, ...data } = input
-      const prisma = ctx.prisma
 
       if (!lessonId) {
         const lesson = await prisma.courseLesson.create({
@@ -288,7 +290,6 @@ export const coursesRouter = router({
     .input(z.object({ lessonId: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const { lessonId } = input
-      const prisma = ctx.prisma
 
       await prisma.courseLesson.delete({
         where: { id: lessonId },
@@ -308,7 +309,6 @@ export const coursesRouter = router({
     )
     .mutation(async ({ ctx, input }) => {
       const { courseId, resourceId, ...data } = input
-      const prisma = ctx.prisma
 
       if (!resourceId) {
         const resource = await prisma.courseResource.create({
@@ -329,7 +329,6 @@ export const coursesRouter = router({
     .input(z.object({ resourceId: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const { resourceId } = input
-      const prisma = ctx.prisma
 
       await prisma.courseResource.delete({
         where: { id: resourceId },

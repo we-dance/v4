@@ -1,6 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
   layout: 'admin',
+  middleware: ['sidebase-auth'],
 })
 
 const { $client } = useNuxtApp()

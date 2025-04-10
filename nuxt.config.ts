@@ -1,3 +1,5 @@
+const appUrl = `https://${process.env.VERCEL_URL}`
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-02',
@@ -5,13 +7,21 @@ export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/css/main.css'],
   build: {
-    transpile: ['vee-validate'],
+    transpile: ['vee-validate', 'trpc-nuxt'],
   },
 
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+
+  vite: {
+    server: {
+      allowedHosts: [
+        'a2d2-2a02-2455-17ea-2900-f8ac-182-94de-5bed.ngrok-free.app',
+      ],
     },
   },
 
@@ -25,11 +35,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@sidebase/nuxt-auth',
   ],
-  auth: {
-    provider: {
-      type: 'authjs',
-    },
-  },
   components: [
     {
       path: '~/components',
@@ -81,9 +86,19 @@ export default defineNuxtConfig({
       scrollBehaviorType: 'smooth',
     },
   },
+  auth: {
+    originEnvKey: 'AUTH_ORIGIN',
+    provider: {
+      type: 'authjs',
+    },
+  },
   runtimeConfig: {
+    authOrigin: `${appUrl}/api/auth`,
+    stripeSecretKey: '',
+    stripePublicKey: '',
+    stripeWebhookSecret: '',
     public: {
-      apiHost: process.env.API_HOST || 'localhost:3000',
+      appUrl: appUrl,
     },
   },
 })

@@ -1,3 +1,12 @@
+<script setup lang="ts">
+definePageMeta({
+  layout: 'admin',
+  middleware: ['sidebase-auth'],
+})
+
+const viewMode = ref<'week' | 'month'>('week')
+</script>
+
 <template>
   <div class="space-y-6">
     <!-- Page Header -->
@@ -233,11 +242,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  layout: 'admin',
-})
-
-const viewMode = ref<'week' | 'month'>('week')
-</script>

@@ -1,10 +1,11 @@
 import { z } from 'zod'
-import { publicProcedure, router } from '../trpc'
+import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { userSchema } from '~/schemas/user'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { getServerSession } from '#auth'
 import { notificationSettingsSchema } from '~/schemas/user'
+
 // Firebase parameters for password hashing
 const firebaseParameters = {
   memCost: 14,
