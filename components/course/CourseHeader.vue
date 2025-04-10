@@ -14,8 +14,8 @@ const progress = computed(() => {
       <div class="flex items-center justify-between w-[94%]">
         <div>
           <h1 class="text-2xl font-bold">{{ course.name }}</h1>
-          <p class="text-sm text-muted-foreground">
-            with {{ course.instructor.name }}
+          <p v-if="course.instructor" class="text-sm text-muted-foreground">
+            with {{ course.instructor?.name }}
           </p>
         </div>
       </div>

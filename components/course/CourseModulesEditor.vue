@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
-import { formatDuration } from '~/utils/format'
 
 const course = defineModel<any>()
 const dialog = useDialog()
@@ -106,7 +105,7 @@ function openEditModuleDialog(module?: any) {
 
           <CourseLessonsEditor
             :module-id="module.id"
-            :lessons="module.lessons"
+            :lessons="module?.lessons"
             @load="emit('load')"
           />
         </div>

@@ -10,6 +10,7 @@ const { lesson } = defineProps<{
   <div class="bg-background rounded-xl shadow-sm overflow-hidden">
     <div class="aspect-video">
       <mux-player
+        v-if="lesson"
         stream-type="on-demand"
         :playback-id="lesson.videoId"
         :metadata-video-title="lesson.name"
@@ -18,10 +19,10 @@ const { lesson } = defineProps<{
     </div>
     <div class="p-4">
       <h2 class="text-xl font-semibold">
-        {{ lesson.name }}
+        {{ lesson?.name }}
       </h2>
-      <p class="text-sm text-muted-foreground">
-        Duration: {{ formatDuration(lesson.duration) }}
+      <p v-if="lesson" class="text-sm text-muted-foreground">
+        Duration: {{ formatDuration(lesson?.duration) }}
       </p>
     </div>
   </div>

@@ -5,7 +5,7 @@ const { $client } = useNuxtApp()
 const route = useRoute()
 const slug = z.string().parse(route.params.slug)
 const course = await $client.courses.view.query({ slug })
-const currentLesson = ref(course.modules[0].lessons[0])
+const currentLesson = ref(course?.modules[0]?.lessons[0])
 const subscription = ref(
   course.offers
     .filter(
@@ -70,8 +70,15 @@ const handleViewPricing = () => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 w-[97%]">
         <div class="lg:col-span-2 space-y-8">
-          <CourseVideoPlayer class="player" :lesson="currentLesson" />
-          <InstructorProfile :profile="course.instructor" />
+          <CourseVideoPlayer
+            v-if="currentLesson"
+            class="player"
+            :lesson="currentLesson"
+          />
+          <InstructorProfile
+            v-if="course.instructor"
+            :profile="course.instructor"
+          />
           <Reviews :course="course" />
           <CourseCommunity :course="course" />
         </div>
@@ -87,13 +94,21 @@ const handleViewPricing = () => {
             @view-pricing="handleViewPricing"
           />
           <CourseContent
+            v-if="course.modules?.length"
             :course="course"
             :current-lesson="currentLesson"
             :is-unlocked="isUnlocked"
             @select-lesson="handleSelectLesson"
           />
-          <CourseMaterials :course="course" :is-unlocked="isUnlocked" />
-          <CourseSidebarServices :profile="course.instructor" />
+          <CourseMaterials
+            v-if="course.materials?.length"
+            :course="course"
+            :is-unlocked="isUnlocked"
+          />
+          <CourseSidebarServices
+            v-if="course.instructor"
+            :profile="course.instructor"
+          />
         </div>
       </div>
     </div>

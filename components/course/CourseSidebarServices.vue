@@ -17,7 +17,7 @@ const getPrivateClassDuration = () => {
 <template>
   <div
     class="bg-background rounded-xl shadow-sm overflow-hidden"
-    v-if="profile.availableService"
+    v-if="profile?.availableService"
   >
     <div class="p-4 border-b">
       <h3 class="font-semibold">Book Private Class</h3>
