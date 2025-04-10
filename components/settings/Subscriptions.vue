@@ -66,7 +66,7 @@ async function cancelSubscription(subscriptionId: string) {
               @click="cancelSubscription(subscription.id)"
               >Cancel</Button
             >
-            <Button class="mt-2" as-child>
+            <Button as-child>
               <NuxtLink :to="`/courses/${subscription.offer.course.slug}`">
                 View Course
               </NuxtLink>
