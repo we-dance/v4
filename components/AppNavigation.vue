@@ -180,7 +180,7 @@ watch(
               Settings
             </NuxtLink>
             <NuxtLink
-              to="/admin/"
+              to="/admin/courses"
               class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
             >
               <Icon name="lucide:shield" class="h-5 w-5" />

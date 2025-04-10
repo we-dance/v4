@@ -7,19 +7,9 @@ const defaultOpen = useCookie<boolean>('sidebar_state', {
 
 const items = [
   {
-    to: '/admin',
-    label: 'Dashboard',
-    icon: 'lucide:layout-dashboard',
-  },
-  {
     to: '/admin/courses',
     label: 'Courses',
     icon: 'lucide:book-open',
-  },
-  {
-    to: '/admin/events',
-    label: 'Events',
-    icon: 'lucide:calendar',
   },
 ]
 </script>
