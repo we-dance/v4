@@ -173,29 +173,10 @@ export const coursesRouter = router({
         description: z.string().optional(),
         subheader: z.string().optional(),
         coverUrl: z.string().optional(),
-        offers: z.array(
-          z.object({
-            id: z.string().optional(),
-            name: z.string().min(1),
-            price: z.number().min(0),
-            currency: z.string().min(1),
-            duration: z.string().min(1),
-            items: z.string().optional(),
-          })
-        ),
-        deletedOfferIds: z.array(z.string()).optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { slug, deletedOfferIds = [], ...data } = input
-
-      const existingOffers = data.offers.filter((offer) => offer.id)
-      const newOffers = data.offers
-        .filter((offer) => !offer.id)
-        .map((offer) => ({
-          ...offer,
-          id: nanoid(),
-        }))
+      const { slug, ...data } = input
 
       const course = await prisma.course.update({
         where: { slug },
@@ -204,20 +185,6 @@ export const coursesRouter = router({
           description: data.description,
           subheader: data.subheader,
           coverUrl: data.coverUrl,
-          offers: {
-            deleteMany: deletedOfferIds.length
-              ? {
-                  id: {
-                    in: deletedOfferIds,
-                  },
-                }
-              : undefined,
-            create: newOffers,
-            update: existingOffers.map((offer) => ({
-              where: { id: offer.id },
-              data: offer,
-            })),
-          },
         },
       })
 
@@ -344,6 +311,44 @@ export const coursesRouter = router({
       await prisma.courseResource.delete({
         where: { id: resourceId },
       })
+    }),
+
+  updateOffer: publicProcedure
+    .input(
+      z.object({
+        courseId: z.string(),
+        offerId: z.string().optional().nullable(),
+        name: z.string(),
+        price: z.number(),
+        currency: z.string(),
+        duration: z.string(),
+        items: z.string(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { courseId, offerId, ...data } = input
+
+      if (!offerId) {
+        const offer = await prisma.offer.create({
+          data: { ...data, courseId },
+        })
+        return offer
+      }
+
+      const offer = await prisma.offer.update({
+        where: { id: offerId },
+        data,
+      })
+
+      return offer
+    }),
+
+  deleteOffer: publicProcedure
+    .input(z.object({ offerId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { offerId } = input
+
+      await prisma.offer.delete({ where: { id: offerId } })
     }),
 
   addReview: publicProcedure

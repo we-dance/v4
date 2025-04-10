@@ -1,53 +1,48 @@
 <script setup>
-import { ref } from 'vue'
 import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
+import { toast } from 'vue-sonner'
 
 const course = defineModel()
 const dialog = useDialog()
+const emit = defineEmits(['load'])
 
-const emit = defineEmits(['save'])
+const { $client } = useNuxtApp()
 
-const deletedOfferIds = ref([])
-
-const deleteOffer = (id) => {
-  if (id) {
-    deletedOfferIds.value.push(id)
+const updateOffer = async (offerId, values) => {
+  try {
+    await $client.courses.updateOffer.mutate({
+      courseId: course.value.id,
+      offerId,
+      ...values,
+    })
+    toast.success('Offer updated successfully')
+    emit('load')
+  } catch (error) {
+    toast.error(error.message)
   }
-  const newOffers = [...(course.value.offers || [])].filter(
-    (offer) => offer.id !== id
-  )
-  course.value.offers = newOffers
-  emit('save', { ...course.value, deletedOfferIds: deletedOfferIds.value })
 }
 
-const handleAddOffer = (values) => {
-  const newOffers = [...(course.value.offers || []), values]
-  course.value.offers = newOffers
-  emit('save', { ...course.value, deletedOfferIds: deletedOfferIds.value })
+const deleteOffer = async (offerId) => {
+  try {
+    await $client.courses.deleteOffer.mutate({
+      offerId,
+    })
+    toast.success('Offer deleted successfully')
+    emit('load')
+  } catch (error) {
+    toast.error(error.message)
+  }
 }
 
-const handleEditOffer = (index, values) => {
-  const newOffers = [...(course.value.offers || [])]
-  newOffers[index] = { ...newOffers[index], ...values }
-  course.value.offers = newOffers
-  emit('save', { ...course.value, deletedOfferIds: deletedOfferIds.value })
-}
-
-const openAddOfferDialog = () => {
-  dialog.open({
-    component: 'CourseOfferDialog',
-    props: {
-      onSuccess: handleAddOffer,
-    },
-  })
-}
-
-const openEditOfferDialog = (offer, index) => {
+const openOfferDialog = (offer = null) => {
   dialog.open({
     component: 'CourseOfferDialog',
     props: {
       offer,
-      onSuccess: (values) => handleEditOffer(index, values),
+      onSuccess: (values) => {
+        const offerId = offer ? offer.id : null
+        updateOffer(offerId, values)
+      },
     },
   })
 }
@@ -77,9 +72,7 @@ const openEditOfferDialog = (offer, index) => {
           </div>
           <div class="flex items-center gap-2">
             <Button size="sm" @click="deleteOffer(offer.id)">Delete</Button>
-            <Button size="sm" @click="openEditOfferDialog(offer, index)">
-              Edit
-            </Button>
+            <Button size="sm" @click="openOfferDialog(offer)"> Edit </Button>
           </div>
         </div>
       </div>
@@ -87,7 +80,7 @@ const openEditOfferDialog = (offer, index) => {
         No offers added yet
       </div>
       <div class="mt-4">
-        <Button variant="outline" @click="openAddOfferDialog">Add Offer</Button>
+        <Button variant="outline" @click="openOfferDialog()">Add Offer</Button>
       </div>
     </CardContent>
   </Card>

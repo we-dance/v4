@@ -38,18 +38,6 @@ const schema = z.object({
   description: z.string().optional(),
   subheader: z.string().optional(),
   coverUrl: z.string().optional(),
-  modules: z.array(z.object({})).optional(),
-  resources: z.array(z.object({})).optional(),
-  offers: z.array(
-    z.object({
-      id: z.string().optional(),
-      name: z.string().min(1),
-      price: z.number().min(0),
-      currency: z.string().min(1),
-      duration: z.string().min(1),
-    })
-  ),
-  deletedOfferIds: z.array(z.string()).optional(),
 })
 
 const form = useForm({
@@ -65,9 +53,6 @@ watch(
         description: newCourse.description ?? '',
         subheader: newCourse.subheader ?? '',
         coverUrl: newCourse.coverUrl ?? '',
-        modules: newCourse.modules ?? [],
-        resources: newCourse.resources ?? [],
-        offers: newCourse.offers ?? [],
       })
     }
   },
@@ -105,7 +90,7 @@ const onSubmit = form.handleSubmit(save)
       <CourseEditor v-model="course" @submit="onSubmit" />
       <CourseModulesEditor v-model="course" @load="loadCourse" />
       <CourseResourcesEditor v-model="course" @load="loadCourse" />
-      <CourseOffersEditor v-model="course" @save="save" />
+      <CourseOffersEditor v-model="course" @load="loadCourse" />
     </div>
 
     <Card v-else>
