@@ -177,7 +177,5 @@ const notificationCount = ref(3)
         </div>
       </main>
     </div>
-    <DialogProvider />
-    <CookieConsent />
   </div>
 </template>

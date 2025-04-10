@@ -5,8 +5,5 @@
       <slot />
     </main>
     <LandingFooter />
-    <PrototypeBanner />
-    <DialogProvider />
-    <CookieConsent />
   </div>
 </template>

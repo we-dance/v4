@@ -9,29 +9,37 @@ const emit = defineEmits(['load'])
 const { $client } = useNuxtApp()
 
 const updateOffer = async (offerId, values) => {
-  try {
-    await $client.courses.updateOffer.mutate({
-      courseId: course.value.id,
-      offerId,
-      ...values,
-    })
-    toast.success('Offer updated successfully')
+  const promise = $client.courses.updateOffer.mutate({
+    courseId: course.value.id,
+    offerId,
+    ...values,
+  })
+
+  toast.promise(promise, {
+    loading: 'Updating offer...',
+    success: 'Offer updated successfully',
+    error: 'Error updating offer',
+  })
+
+  promise.then(() => {
     emit('load')
-  } catch (error) {
-    toast.error(error.message)
-  }
+  })
 }
 
 const deleteOffer = async (offerId) => {
-  try {
-    await $client.courses.deleteOffer.mutate({
-      offerId,
-    })
-    toast.success('Offer deleted successfully')
+  const promise = $client.courses.deleteOffer.mutate({
+    offerId,
+  })
+
+  toast.promise(promise, {
+    loading: 'Deleting offer...',
+    success: 'Offer deleted successfully',
+    error: 'Error deleting offer',
+  })
+
+  promise.then(() => {
     emit('load')
-  } catch (error) {
-    toast.error(error.message)
-  }
+  })
 }
 
 const openOfferDialog = (offer = null) => {
