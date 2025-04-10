@@ -23,7 +23,7 @@ const subscription = ref(
 )
 
 const isUnlocked = computed(() => {
-  return !subscription.value || subscription.value.status === 'active'
+  return subscription.value?.status === 'active'
 })
 
 const dialog = useDialog()
@@ -77,7 +77,7 @@ const handleViewPricing = () => {
             :is-unlocked="isUnlocked"
             @select-lesson="handleSelectLesson"
           />
-          <CourseMaterials :course="course" />
+          <CourseMaterials :course="course" :is-unlocked="isUnlocked" />
           <InstructorProfile :profile="course.instructor" />
           <Reviews :course="course" />
           <CourseCommunity :course="course" />
