@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
-import { stripe } from '~/server/utils/stripe'
+import { getStripe } from '~/server/utils/stripe'
 import { prisma } from '~/server/prisma'
 
 export const checkoutRouter = router({
@@ -84,7 +84,7 @@ export const checkoutRouter = router({
 
       const stripeAccount = offer.course.instructor.user.stripeAccountId
 
-      const customer = await stripe.customers.create(
+      const customer = await getStripe().customers.create(
         {
           email: session.user.email,
           name: session.user.firstName + ' ' + session.user.lastName,
@@ -94,7 +94,7 @@ export const checkoutRouter = router({
         }
       )
 
-      const stripeSession = await stripe.checkout.sessions.create(
+      const stripeSession = await getStripe().checkout.sessions.create(
         {
           customer: customer.id,
           line_items: [{ price: offer.stripePriceId, quantity: 1 }],

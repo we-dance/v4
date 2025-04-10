@@ -17,7 +17,9 @@ const subscription = ref(
         offer,
       }))
     )
-    .find((subscription: any) => subscription.status === 'active')
+    .find((subscription: any) =>
+      ['active', 'pending'].includes(subscription.status)
+    )
 )
 
 const isUnlocked = computed(() => {

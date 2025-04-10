@@ -1,5 +1,5 @@
 import { prisma } from '~/server/prisma'
-import { stripe } from '~/server/utils/stripe'
+import { getStripe } from '~/server/utils/stripe'
 
 export default eventHandler(async (event) => {
   const body = await readRawBody(event, false)
@@ -17,7 +17,7 @@ export default eventHandler(async (event) => {
   }
 
   try {
-    stripeEvent = stripe.webhooks.constructEvent(
+    stripeEvent = getStripe().webhooks.constructEvent(
       body,
       signature,
       useRuntimeConfig().stripeWebhookSecret
@@ -36,7 +36,7 @@ export default eventHandler(async (event) => {
 
       const stripeAccount = checkoutSession.metadata.stripeAccount
 
-      const stripeSubscription = await stripe.subscriptions.retrieve(
+      const stripeSubscription = await getStripe().subscriptions.retrieve(
         checkoutSession.subscription,
         {
           stripeAccount,

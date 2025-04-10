@@ -2,7 +2,7 @@ import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
-import { stripe } from '~/server/utils/stripe'
+import { getStripe } from '~/server/utils/stripe'
 
 export const subscriptionsRouter = router({
   view: publicProcedure
@@ -97,7 +97,7 @@ export const subscriptionsRouter = router({
         })
       }
 
-      const stripeSubscription = await stripe.subscriptions.cancel(
+      const stripeSubscription = await getStripe().subscriptions.cancel(
         subscription.stripeSubscriptionId,
         {
           stripeAccount,
