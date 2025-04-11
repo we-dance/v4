@@ -99,7 +99,7 @@ export const checkoutRouter = router({
         {
           customer: customer.id,
           line_items: [{ price: offer.stripePriceId, quantity: 1 }],
-          mode: 'subscription',
+          mode: offer.duration === 'ONETIME' ? 'payment' : 'subscription',
           success_url: `${appUrl}/subscriptions/${subscription.id}/success`,
           cancel_url: `${appUrl}/subscriptions/${subscription.id}/cancel`,
           metadata: {
