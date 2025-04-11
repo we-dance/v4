@@ -14,7 +14,7 @@ const dialog = computed(() => dialogProxy.currentDialog.value)
 </script>
 
 <template>
-  <AlertDialog :open="isOpen">
+  <AlertDialog v-model:open="isOpen">
     <AlertDialogContent>
       <AlertDialogHeader>
         <AlertDialogTitle>{{ dialog?.title }}</AlertDialogTitle>

@@ -66,8 +66,14 @@ const averageRating = computed(() => {
         </Button>
       </div>
       <div>
-        <h1 class="text-2xl font-bold">
+        <h1 class="text-2xl font-bold flex items-center gap-2">
           {{ course.name }}
+          <Badge v-if="course.status === 'draft'" variant="outline">
+            Draft
+          </Badge>
+          <Badge v-if="course.status === 'archived'" variant="destructive">
+            Archived
+          </Badge>
         </h1>
         <div class="flex items-center gap-4 text-sm text-muted-foreground">
           <p v-if="course.instructor" class="text-sm text-muted-foreground">

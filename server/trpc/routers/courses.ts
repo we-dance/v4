@@ -303,6 +303,7 @@ export const coursesRouter = router({
         description: z.string().optional(),
         subheader: z.string().optional(),
         coverUrl: z.string().optional(),
+        status: z.string().optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -310,12 +311,7 @@ export const coursesRouter = router({
 
       const course = await prisma.course.update({
         where: { slug },
-        data: {
-          name: data.name,
-          description: data.description,
-          subheader: data.subheader,
-          coverUrl: data.coverUrl,
-        },
+        data,
       })
 
       return course

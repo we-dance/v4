@@ -2,7 +2,7 @@
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
 import { z } from 'zod'
-
+import { useForm } from 'vee-validate'
 const { course } = defineProps({
   course: {
     type: Object,
@@ -22,9 +22,8 @@ const statusSchema = z.enum(['draft', 'published', 'archived']).default('draft')
 
 const schema = z.object({
   name: z.string().min(1),
-  description: z.string().optional(),
-  subheader: z.string().optional(),
-  coverUrl: z.string().optional(),
+  description: z.string().optional().default(''),
+  coverUrl: z.string().optional().default(''),
   status: statusSchema,
 })
 
@@ -108,10 +107,6 @@ const askToDelete = () => {
               </SelectItem>
             </SelectContent>
           </Select>
-          <FormDescription>
-            Draft courses are only visible to you. Published courses are visible
-            to everyone.
-          </FormDescription>
           <FormMessage />
         </FormItem>
       </FormField>
@@ -119,16 +114,6 @@ const askToDelete = () => {
       <FormField v-slot="{ componentField }" name="name">
         <FormItem>
           <FormLabel>Name</FormLabel>
-          <FormControl>
-            <Input v-bind="componentField" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
-
-      <FormField v-slot="{ componentField }" name="subheader">
-        <FormItem>
-          <FormLabel>Subheader</FormLabel>
           <FormControl>
             <Input v-bind="componentField" />
           </FormControl>
@@ -156,11 +141,18 @@ const askToDelete = () => {
         </FormItem>
       </FormField>
 
-      <div class="flex justify-end gap-4">
-        <Button type="button" variant="destructive" @click="askToDelete()"
-          >Delete</Button
-        >
-        <Button type="submit">Save Changes</Button>
+      <div class="flex justify-end">
+        <Button type="submit" class="rounded-r-none">Save</Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger class="rounded-l-none" as-child>
+            <Button class="rounded-l-none">
+              <Icon name="heroicons:chevron-down" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            <DropdownMenuItem @click="askToDelete()">Delete</DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </div>
   </Form>
