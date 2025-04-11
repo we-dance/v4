@@ -41,7 +41,7 @@ sh:
 	docker compose exec app sh
 
 import:
-	pnpm prisma db push
+	pnpm prisma db push --force-reset
 	pnpm prisma generate
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;"'
 	docker compose exec db sh -c 'psql -U user -d db -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;"'
