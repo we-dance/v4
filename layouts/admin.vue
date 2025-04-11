@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
-
-const defaultOpen = useCookie<boolean>('sidebar_state', {
-  default: () => true,
-})
+const route = useRoute()
+const sidebarOpen = computed(() =>
+  route.path.split('/').length > 3 ? false : true
+)
 
 const items = [
   {
@@ -23,7 +22,7 @@ const items = [
   <div class="min-h-screen flex flex-col">
     <AppNavigation />
     <main class="flex-1 bg-background text-foreground">
-      <SidebarProvider :defaultOpen="defaultOpen">
+      <SidebarProvider :open="sidebarOpen">
         <Sidebar class="md:pt-16">
           <SidebarContent>
             <SidebarGroup>

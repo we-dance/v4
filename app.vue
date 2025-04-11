@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/sonner'
 
 <template>
   <NuxtLayout>
-    <NuxtPage />
+    <NuxtPage :page-key="(route) => route.fullPath" />
     <ClientOnly>
       <PrototypeBanner />
       <DialogProvider />
