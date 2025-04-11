@@ -5,7 +5,7 @@ import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
 import { z } from 'zod'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 // Create a specific validation schema for social links
 const socialLinksSchema = z.object({
@@ -30,21 +30,21 @@ const socialLinksSchema = z.object({
 const form = useForm({
   validationSchema: toTypedSchema(socialLinksSchema),
   initialValues: {
-    couchsurfing: data.value?.profile?.couchsurfing || '',
-    linkedin: data.value?.profile?.linkedin || '',
-    airbnb: data.value?.profile?.airbnb || '',
-    blablacar: data.value?.profile?.blablacar || '',
-    spotify: data.value?.profile?.spotify || '',
-    instagram: data.value?.profile?.instagram || '',
-    facebook: data.value?.profile?.facebook || '',
-    vk: data.value?.profile?.vk || '',
-    whatsapp: data.value?.profile?.whatsapp || '',
-    telegram: data.value?.profile?.telegram || '',
-    twitter: data.value?.profile?.twitter || '',
-    tiktok: data.value?.profile?.tiktok || '',
-    youtube: data.value?.profile?.youtube || '',
-    threads: data.value?.profile?.threads || '',
-    website: data.value?.profile?.website || '',
+    couchsurfing: session.value?.profile?.couchsurfing || '',
+    linkedin: session.value?.profile?.linkedin || '',
+    airbnb: session.value?.profile?.airbnb || '',
+    blablacar: session.value?.profile?.blablacar || '',
+    spotify: session.value?.profile?.spotify || '',
+    instagram: session.value?.profile?.instagram || '',
+    facebook: session.value?.profile?.facebook || '',
+    vk: session.value?.profile?.vk || '',
+    whatsapp: session.value?.profile?.whatsapp || '',
+    telegram: session.value?.profile?.telegram || '',
+    twitter: session.value?.profile?.twitter || '',
+    tiktok: session.value?.profile?.tiktok || '',
+    youtube: session.value?.profile?.youtube || '',
+    threads: session.value?.profile?.threads || '',
+    website: session.value?.profile?.website || '',
   },
 })
 
@@ -52,7 +52,7 @@ const { $client } = useNuxtApp()
 
 const updateSocialLinksMutation = useMutation(
   async (values: any) => {
-    const profileId = data.value?.profile?.id
+    const profileId = session.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')
