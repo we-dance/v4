@@ -387,6 +387,7 @@ model Course {
   subheader    String?
   instructorId String?
   coverUrl     String?
+  status       String  @default("draft") // Values: draft, published, archived
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

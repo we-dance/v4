@@ -38,6 +38,7 @@ const schema = z.object({
   description: z.string().optional(),
   subheader: z.string().optional(),
   coverUrl: z.string().optional(),
+  status: z.enum(['draft', 'published', 'archived']).default('draft'),
 })
 
 const form = useForm({
@@ -53,6 +54,7 @@ watch(
         description: newCourse.description ?? '',
         subheader: newCourse.subheader ?? '',
         coverUrl: newCourse.coverUrl ?? '',
+        status: newCourse.status ?? 'draft',
       })
     }
   },
@@ -94,7 +96,7 @@ const onSubmit = form.handleSubmit(save)
   </header>
 
   <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">
-    <ResizablePanel :default-size="165">
+    <ResizablePanel :default-size="165" :min-size="20">
       <div class="space-y-4 p-4">
         <AdminBlock title="Basic Information">
           <CourseEditor v-model="course" @submit="onSubmit" />

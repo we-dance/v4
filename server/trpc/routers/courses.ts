@@ -128,6 +128,8 @@ export const coursesRouter = router({
         }
       }
 
+      where.status = 'published'
+
       const courses: any = await prisma.course.findMany({
         take: limit + 1,
         where,
@@ -301,6 +303,7 @@ export const coursesRouter = router({
         description: z.string().optional(),
         subheader: z.string().optional(),
         coverUrl: z.string().optional(),
+        status: z.enum(['draft', 'published', 'archived']).optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -313,6 +316,7 @@ export const coursesRouter = router({
           description: data.description,
           subheader: data.subheader,
           coverUrl: data.coverUrl,
+          status: data.status,
         },
       })
 
