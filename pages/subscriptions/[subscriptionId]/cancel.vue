@@ -13,7 +13,7 @@ const offer = subscription?.offer
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <div
-          class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6"
+          class="w-16 h-16 bg-destructive/10 rounded-full flex items-center justify-center mx-auto mb-6"
         >
           <Icon name="ph:x-bold" class="w-8 h-8 text-destructive" />
         </div>
