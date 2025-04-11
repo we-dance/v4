@@ -72,6 +72,7 @@ const save = async (values: any) => {
 }
 
 const onSubmit = form.handleSubmit(save)
+const isOpen = ref(false)
 </script>
 
 <template>
@@ -96,10 +97,18 @@ const onSubmit = form.handleSubmit(save)
   <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">
     <ResizablePanel :default-size="165">
       <div class="space-y-4 p-4">
-        <CourseEditor v-model="course" @submit="onSubmit" />
-        <CourseModulesEditor v-model="course" @load="loadCourse" />
-        <CourseResourcesEditor v-model="course" @load="loadCourse" />
-        <CourseOffersEditor v-model="course" @load="loadCourse" />
+        <AdminBlock title="Basic Information">
+          <CourseEditor v-model="course" @submit="onSubmit" />
+        </AdminBlock>
+        <AdminBlock title="Modules">
+          <CourseModulesEditor v-model="course" @load="loadCourse" />
+        </AdminBlock>
+        <AdminBlock title="Resources">
+          <CourseResourcesEditor v-model="course" @load="loadCourse" />
+        </AdminBlock>
+        <AdminBlock title="Pricing">
+          <CourseOffersEditor v-model="course" @load="loadCourse" />
+        </AdminBlock>
       </div>
     </ResizablePanel>
     <ResizableHandle with-handle />

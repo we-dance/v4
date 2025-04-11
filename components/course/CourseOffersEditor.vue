@@ -57,68 +57,56 @@ const openOfferDialog = (offer = null) => {
 </script>
 
 <template>
-  <Card>
-    <CardHeader>
-      <CardTitle class="flex items-center justify-between">
-        <div>Price List</div>
-        <Button variant="outline" @click="openOfferDialog()"
-          ><Icon name="lucide:plus" class="h-4 w-4" />Add Price</Button
-        >
-      </CardTitle>
-      <CardDescription
-        >Manage pricing and offers for your course</CardDescription
-      >
-    </CardHeader>
-    <CardContent>
-      <div v-if="course.offers?.length" class="space-y-4">
-        <div
-          v-for="(offer, index) in course.offers"
-          :key="offer.id"
-          class="flex items-center justify-between"
-        >
-          <div>
-            <h4 class="font-medium">
-              {{ offer.name }}
-              <Icon
-                v-if="offer.stripeProductId && offer.stripePriceId"
-                name="lucide:check"
-                class="h-4 w-4 text-green-500"
-              />
-              <Icon
-                v-else
-                name="lucide:loader"
-                class="h-4 w-4 text-muted-foreground"
-              />
-            </h4>
-            <p class="text-sm text-muted-foreground">
-              {{ formatCurrencyCents(offer.price, offer.currency) }} /
-              {{ formatSubscriptionDuration(offer.duration) }}
-            </p>
-          </div>
-          <div class="flex items-center gap-2">
-            <Button
-              class="w-7 h-7"
-              variant="ghost"
-              size="icon"
-              @click="openOfferDialog(offer)"
-            >
-              <Icon name="lucide:pencil" class="h-4 w-4" />
-              <span class="sr-only">Edit Resource</span>
-            </Button>
-            <Button
-              @click="deleteOffer(offer.id)"
-              variant="ghost"
-              size="icon"
-              class="h-7 w-7 text-destructive hover:text-destructive"
-              ><Icon name="lucide:trash" class="h-4 w-4" />
-              <span class="sr-only">Delete Resource</span></Button
-            >
-          </div>
-        </div>
+  <Button variant="outline" @click="openOfferDialog()" class="mb-4"
+    ><Icon name="lucide:plus" class="h-4 w-4" />Add Price</Button
+  >
+  <div v-if="course.offers?.length" class="space-y-4">
+    <div
+      v-for="(offer, index) in course.offers"
+      :key="offer.id"
+      class="flex items-center justify-between"
+    >
+      <div>
+        <h4 class="font-medium">
+          {{ offer.name }}
+          <Icon
+            v-if="offer.stripeProductId && offer.stripePriceId"
+            name="lucide:check"
+            class="h-4 w-4 text-green-500"
+          />
+          <Icon
+            v-else
+            name="lucide:loader"
+            class="h-4 w-4 text-muted-foreground"
+          />
+        </h4>
+        <p class="text-sm text-muted-foreground">
+          {{ formatCurrencyCents(offer.price, offer.currency) }} /
+          {{ formatSubscriptionDuration(offer.duration) }}
+        </p>
       </div>
-      <div v-else class="text-center py-4 text-muted-foreground">
-        No offers added yet
+      <div class="flex items-center gap-2">
+        <Button
+          class="w-7 h-7"
+          variant="ghost"
+          size="icon"
+          @click="openOfferDialog(offer)"
+        >
+          <Icon name="lucide:pencil" class="h-4 w-4" />
+          <span class="sr-only">Edit Resource</span>
+        </Button>
+        <Button
+          @click="deleteOffer(offer.id)"
+          variant="ghost"
+          size="icon"
+          class="h-7 w-7 text-destructive hover:text-destructive"
+          ><Icon name="lucide:trash" class="h-4 w-4" />
+          <span class="sr-only">Delete Resource</span></Button
+        >
       </div>
-    </CardContent>
-  </Card>
+    </div>
+  </div>
+  <div v-else class="text-center py-4 text-muted-foreground">
+    No offers added yet
+  </div>
 </template>

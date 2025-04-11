@@ -26,7 +26,7 @@ const emit = defineEmits<{
             @click="emit('selectLesson', lesson)"
             class="flex items-center gap-3 p-2 rounded hover:bg-muted hover:text-foreground cursor-pointer border-2 border-background"
             :class="{
-              'border-muted-foreground': currentLesson.id === lesson.id,
+              'border-muted-foreground': currentLesson?.id === lesson.id,
             }"
           >
             <Icon
@@ -46,7 +46,7 @@ const emit = defineEmits<{
               <div
                 class="text-sm"
                 :class="{
-                  'font-medium': currentLesson.id === lesson.id,
+                  'font-medium': currentLesson?.id === lesson.id,
                 }"
               >
                 {{ lesson.name }}
