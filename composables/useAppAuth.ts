@@ -3,23 +3,23 @@ export const useAppAuth = () => {
   const authQuery = useState<string>('auth-query', () => '')
   const authQueryLoading = useState<boolean>('auth-query-loading', () => false)
 
-  const { signIn, signOut, data, status } = useAuth()
+  const { signIn, signOut, data: session, status } = useAuth()
 
   const isLoggedIn = computed(() => status.value === 'authenticated')
 
   const auth = async (query: string) => {
     if (status.value === 'authenticated') {
-      return data.value
+      return session.value
     }
 
     return new Promise((resolve, reject) => {
       const unwatch = watch(
-        [data, authQueryLoading],
-        ([newData, inProgress]) => {
-          if (newData) {
+        [session, authQueryLoading],
+        ([newSession, inProgress]) => {
+          if (newSession) {
             unwatch()
             authQuery.value = ''
-            resolve(newData)
+            resolve(newSession)
           }
 
           if (!inProgress) {
@@ -79,6 +79,6 @@ export const useAppAuth = () => {
     authQuery,
     authQueryLoading,
     isLoggedIn,
-    data,
+    session,
   }
 }

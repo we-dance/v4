@@ -3,7 +3,7 @@ const route = useRoute()
 const dialog = useDialog()
 const isMobileMenuOpen = ref(false)
 
-const { isLoggedIn, signOut, data } = useAppAuth()
+const { isLoggedIn, signOut, session } = useAppAuth()
 
 const navigationItems = [
   { to: '/feed', label: 'Feed', icon: 'lucide:home' },
@@ -73,16 +73,16 @@ watch(
               <DropdownMenuTrigger as-child>
                 <Button variant="ghost" size="icon">
                   <Avatar
-                    :profile="data?.profile"
+                    :profile="session?.profile"
                     class="h-8 w-8 rounded-full"
                   />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem as-child>
-                  <NuxtLink :to="`/@${data?.profile?.username}`">
+                  <NuxtLink :to="`/@${session?.profile?.username}`">
                     <Icon name="lucide:user" class="mr-2 h-4 w-4" />
-                    {{ data?.profile?.username }}
+                    {{ session?.profile?.username }}
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>
@@ -166,11 +166,11 @@ watch(
           </NuxtLink>
           <template v-if="isLoggedIn">
             <NuxtLink
-              :to="`/${data?.profile?.username}`"
+              :to="`/${session?.profile?.username}`"
               class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
             >
               <Icon name="lucide:user" class="h-5 w-5" />
-              {{ data?.profile?.username }}
+              {{ session?.profile?.username }}
             </NuxtLink>
             <NuxtLink
               to="/settings"

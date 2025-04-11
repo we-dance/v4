@@ -170,6 +170,34 @@ export const coursesRouter = router({
       }
     }),
 
+  myList: publicProcedure.query(async ({ ctx }) => {
+    const courses: any = await prisma.course.findMany({
+      where: {
+        instructor: {
+          user: {
+            id: ctx.session?.user?.id,
+          },
+        },
+      },
+      orderBy: { createdAt: 'desc' },
+      include: {
+        instructor: {
+          select: {
+            username: true,
+            name: true,
+            photo: true,
+            bio: true,
+          },
+        },
+        offers: true,
+      },
+    })
+
+    return {
+      courses,
+    }
+  }),
+
   view: publicProcedure
     .input(
       z.object({
@@ -184,6 +212,7 @@ export const coursesRouter = router({
         include: {
           instructor: {
             select: {
+              id: true,
               username: true,
               name: true,
               photo: true,
@@ -248,10 +277,17 @@ export const coursesRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { name } = input
 
+      if (!ctx.session?.user?.id) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'You must be logged in to create a course',
+        })
+      }
+
       const slug = getSlug(name) + '-' + nanoid(5)
 
       const course = await prisma.course.create({
-        data: { name, slug },
+        data: { name, slug, instructorId: ctx.session?.profile?.id },
       })
 
       return course

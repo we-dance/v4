@@ -15,11 +15,7 @@ const { profile } = defineProps<{
           :to="`/@${profile.username}`"
           class="hover:text-accent flex-shrink-0"
         >
-          <img
-            :src="profile.photo"
-            :alt="profile.name"
-            class="w-24 h-24 rounded-lg object-cover"
-          />
+          <Avatar :profile="profile" class="w-24 h-24 rounded-lg" />
         </NuxtLink>
         <div>
           <h4 class="font-semibold text-lg">

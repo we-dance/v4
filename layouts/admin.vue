@@ -11,6 +11,11 @@ const items = [
     label: 'Courses',
     icon: 'lucide:book-open',
   },
+  {
+    to: '/admin/integrations',
+    label: 'Integrations',
+    icon: 'lucide:plug',
+  },
 ]
 </script>
 

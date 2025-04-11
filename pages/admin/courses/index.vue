@@ -9,7 +9,7 @@ const { $client } = useNuxtApp()
 const courses = ref<any[]>([])
 
 const getCourses = async () => {
-  const result = await $client.courses.list.query({ limit: 10 })
+  const result = await $client.courses.myList.query()
   courses.value = result.courses
 }
 
