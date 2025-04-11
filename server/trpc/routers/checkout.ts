@@ -102,6 +102,8 @@ export const checkoutRouter = router({
           mode: offer.duration === 'ONETIME' ? 'payment' : 'subscription',
           success_url: `${appUrl}/subscriptions/${subscription.id}/success`,
           cancel_url: `${appUrl}/subscriptions/${subscription.id}/cancel`,
+          discounts: [],
+          allow_promotion_codes: true,
           metadata: {
             subscriptionId: subscription.id,
             stripeAccount,
