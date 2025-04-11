@@ -139,7 +139,9 @@ const deleteCourse = async () => {
       </FormField>
 
       <div class="flex justify-end gap-4">
-        <Button variant="destructive" @click="deleteCourse()">Delete</Button>
+        <Button type="button" variant="destructive" @click="deleteCourse()"
+          >Delete</Button
+        >
         <Button type="submit">Save Changes</Button>
       </div>
     </div>
