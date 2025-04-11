@@ -46,14 +46,9 @@ const handleCreateCourse = () => {
       <Button @click="handleCreateCourse"> Create Course </Button>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <NuxtLink
-        v-for="course in courses"
-        :key="course.slug"
-        :to="`/admin/courses/${course.slug}`"
-      >
-        <CourseCard :course="course" />
-      </NuxtLink>
-    </div>
+    <CoursesGrid
+      :courses="courses"
+      :link="(course) => `/admin/courses/${course.slug}`"
+    />
   </div>
 </template>

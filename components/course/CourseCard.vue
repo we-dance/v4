@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { getMinPrice } from '~/utils/format'
+
 const { course } = defineProps<{
   course: any
 }>()

@@ -1,18 +1,14 @@
 <script setup lang="ts">
-import { getMinPrice } from '~/utils/format'
-
-const { $client } = useNuxtApp()
-const { courses } = await $client.courses.list.query({ limit: 10 })
+const { courses } = defineProps<{
+  courses: any[]
+  link: (course: any) => string
+}>()
 </script>
 
 <template>
   <div class="space-y-8">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <NuxtLink
-        v-for="course in courses"
-        :key="course.slug"
-        :to="`/courses/${course.slug}`"
-      >
+      <NuxtLink v-for="course in courses" :key="course.slug" :to="link(course)">
         <CourseCard :course="course" />
       </NuxtLink>
     </div>
