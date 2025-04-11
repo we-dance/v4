@@ -44,12 +44,18 @@ const { course } = defineProps<{
           <div class="text-sm font-medium">
             {{ course.instructor?.name }}
           </div>
-          <div class="text-xs text-muted-foreground">
+          <div
+            v-if="course.instructor?.bio"
+            class="text-xs text-muted-foreground"
+          >
             {{ course.instructor?.bio.slice(0, 100) }}...
           </div>
         </div>
       </div>
-      <div class="flex items-center justify-between text-sm">
+      <div
+        v-if="course.aggregateRating?.ratingValue"
+        class="flex items-center justify-between text-sm"
+      >
         <div
           v-if="course.aggregateRating?.ratingValue"
           class="flex items-center gap-1"

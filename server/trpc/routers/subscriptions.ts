@@ -87,35 +87,32 @@ export const subscriptionsRouter = router({
         })
       }
 
-      if (!subscription.stripeSubscriptionId) {
-        throw new TRPCError({
-          code: 'BAD_REQUEST',
-          message: 'Subscription has no Stripe subscription ID',
-        })
-      }
+      let endAt: Date | undefined
 
-      const stripeAccount =
-        subscription.offer.course.instructor?.user?.stripeAccountId
+      if (subscription.stripeSubscriptionId) {
+        const stripeAccount =
+          subscription.offer.course.instructor?.user?.stripeAccountId
 
-      if (!stripeAccount) {
-        throw new TRPCError({
-          code: 'BAD_REQUEST',
-          message: 'Instructor has no Stripe account',
-        })
-      }
-
-      const stripe = getStripe()
-
-      const stripeSubscription = await stripe.subscriptions.cancel(
-        subscription.stripeSubscriptionId,
-        {
-          stripeAccount,
+        if (!stripeAccount) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Instructor has no Stripe account',
+          })
         }
-      )
 
-      const endAt = stripeSubscription.ended_at
-        ? new Date(stripeSubscription.ended_at * 1000)
-        : undefined
+        const stripe = getStripe()
+
+        const stripeSubscription = await stripe.subscriptions.cancel(
+          subscription.stripeSubscriptionId,
+          {
+            stripeAccount,
+          }
+        )
+
+        endAt = stripeSubscription.ended_at
+          ? new Date(stripeSubscription.ended_at * 1000)
+          : undefined
+      }
 
       await prisma.subscription.update({
         where: { id: subscriptionId },

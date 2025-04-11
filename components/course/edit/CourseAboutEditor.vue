@@ -2,7 +2,6 @@
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
 import { z } from 'zod'
-import { useForm } from 'vee-validate'
 const { course } = defineProps({
   course: {
     type: Object,

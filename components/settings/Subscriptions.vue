@@ -4,6 +4,7 @@ import {
   formatCurrencyCents,
   formatSubscriptionDuration,
 } from '~/utils/format'
+import { toast } from 'vue-sonner'
 
 const { $client } = useNuxtApp()
 
@@ -15,9 +16,16 @@ async function loadSubscriptions() {
 
 await loadSubscriptions()
 
-async function cancelSubscription(subscriptionId: string) {
-  await $client.subscriptions.cancel.mutate({ subscriptionId })
-  await loadSubscriptions()
+function cancelSubscription(subscriptionId: string) {
+  const promise = $client.subscriptions.cancel.mutate({ subscriptionId })
+  toast.promise(promise, {
+    loading: 'Cancelling subscription...',
+    success: 'Subscription cancelled',
+    error: 'Failed to cancel subscription',
+  })
+  promise.then(() => {
+    loadSubscriptions()
+  })
 }
 </script>
 
