@@ -8,6 +8,7 @@ import { Toaster } from '@/components/ui/sonner'
     <ClientOnly>
       <PrototypeBanner />
       <DialogProvider />
+      <AlertDialogProvider />
       <CookieConsent />
       <Toaster />
     </ClientOnly>

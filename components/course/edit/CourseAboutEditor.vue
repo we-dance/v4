@@ -49,7 +49,9 @@ const save = async (values: any) => {
 
 const router = useRouter()
 
-const deleteCourse = async () => {
+const alertDialog = useAlertDialog()
+
+const deleteCourse = () => {
   const promise = $client.courses.delete.mutate({
     id: course.id,
   })
@@ -60,6 +62,22 @@ const deleteCourse = async () => {
   })
   promise.then(() => {
     router.push('/admin/courses')
+  })
+}
+
+const askToDelete = () => {
+  alertDialog.open({
+    title: 'Delete Course',
+    description: 'Are you sure you want to delete this course?',
+    confirmLabel: 'Delete',
+    cancelLabel: 'Cancel',
+    onConfirm: () => {
+      alertDialog.close()
+      deleteCourse()
+    },
+    onCancel: () => {
+      alertDialog.close()
+    },
   })
 }
 </script>
@@ -139,7 +157,7 @@ const deleteCourse = async () => {
       </FormField>
 
       <div class="flex justify-end gap-4">
-        <Button type="button" variant="destructive" @click="deleteCourse()"
+        <Button type="button" variant="destructive" @click="askToDelete()"
           >Delete</Button
         >
         <Button type="submit">Save Changes</Button>
