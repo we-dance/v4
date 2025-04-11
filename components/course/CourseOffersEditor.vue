@@ -8,6 +8,10 @@ const emit = defineEmits(['load'])
 
 const { $client } = useNuxtApp()
 
+const offers = computed(() =>
+  course.value?.offers.sort((a, b) => a.price - b.price)
+)
+
 const updateOffer = async (offerId, values) => {
   const promise = $client.courses.updateOffer.mutate({
     courseId: course.value.id,
@@ -60,9 +64,9 @@ const openOfferDialog = (offer = null) => {
   <Button variant="secondary" @click="openOfferDialog()" class="mb-4"
     ><Icon name="lucide:plus" class="h-4 w-4" />Add Price</Button
   >
-  <div v-if="course.offers?.length" class="space-y-4">
+  <div v-if="offers?.length" class="space-y-4">
     <div
-      v-for="(offer, index) in course.offers"
+      v-for="offer in offers"
       :key="offer.id"
       class="flex items-center justify-between"
     >

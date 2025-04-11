@@ -116,7 +116,7 @@ const onSubmit = form.handleSubmit(
 
       <FormField v-slot="{ componentField }" name="duration">
         <FormItem>
-          <FormLabel>Duration</FormLabel>
+          <FormLabel>Recurring</FormLabel>
           <FormControl>
             <Select v-bind="componentField">
               <SelectTrigger>

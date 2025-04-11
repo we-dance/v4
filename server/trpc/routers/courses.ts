@@ -31,7 +31,7 @@ async function createOrUpdateStripeProduct(
   if (!oldOffer?.stripeProductId) {
     const stripeProduct = await stripe.products.create({
       name: newOffer.name,
-      description: newOffer.items,
+      description: newOffer.items ? newOffer.items : undefined,
     })
     const stripePrice = await stripe.prices.create({
       unit_amount: newOffer.price,
@@ -63,7 +63,7 @@ async function createOrUpdateStripeProduct(
   if (newOffer.name !== oldOffer.name || newOffer.items !== oldOffer.items) {
     await stripe.products.update(oldOffer.stripeProductId, {
       name: newOffer.name,
-      description: newOffer.items,
+      description: newOffer.items ? newOffer.items : undefined,
     })
   }
 
@@ -303,7 +303,6 @@ export const coursesRouter = router({
         description: z.string().optional(),
         subheader: z.string().optional(),
         coverUrl: z.string().optional(),
-        status: z.enum(['draft', 'published', 'archived']).optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -316,7 +315,6 @@ export const coursesRouter = router({
           description: data.description,
           subheader: data.subheader,
           coverUrl: data.coverUrl,
-          status: data.status,
         },
       })
 
@@ -528,8 +526,7 @@ export const coursesRouter = router({
 
         throw new TRPCError({
           code: 'INTERNAL_SERVER_ERROR',
-          message: 'Failed to update offer',
-          cause: error,
+          message: (error as Error).message,
         })
       }
     }),

@@ -55,11 +55,12 @@ export enum SubscriptionDuration {
   P1Y = 'P1Y',
   P1D = 'P1D',
   P1W = 'P1W',
+  ONETIME = 'ONETIME',
 }
 
 export const SubscriptionDurationStripeRecurring: Record<
   SubscriptionDuration,
-  Stripe.PriceCreateParams.Recurring
+  Stripe.PriceCreateParams.Recurring | undefined
 > = {
   P1D: {
     interval: 'day',
@@ -85,6 +86,7 @@ export const SubscriptionDurationStripeRecurring: Record<
     interval: 'year',
     interval_count: 1,
   },
+  ONETIME: undefined,
 }
 
 export const getRecurring = (duration: SubscriptionDuration) => {
@@ -92,6 +94,7 @@ export const getRecurring = (duration: SubscriptionDuration) => {
 }
 
 export const subscriptionDurations: Record<SubscriptionDuration, string> = {
+  ONETIME: 'One-time',
   P1D: 'Daily',
   P1W: 'Weekly',
   P1M: 'Monthly',
