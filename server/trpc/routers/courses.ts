@@ -620,4 +620,14 @@ export const coursesRouter = router({
         })
       }
     }),
+
+  delete: publicProcedure
+    .input(z.object({ id: z.string() }))
+    .mutation(async ({ input }) => {
+      const { id } = input
+
+      await prisma.course.delete({ where: { id } })
+
+      return { success: true }
+    }),
 })

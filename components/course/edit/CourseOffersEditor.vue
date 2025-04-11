@@ -1,20 +1,27 @@
-<script setup>
-import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
+<script setup lang="ts">
 import { toast } from 'vue-sonner'
+import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
 
-const course = defineModel()
+const { course } = defineProps({
+  course: {
+    type: Object,
+    required: true,
+  },
+})
+
 const dialog = useDialog()
 const emit = defineEmits(['load'])
 
 const { $client } = useNuxtApp()
+const { session } = useAppAuth()
 
 const offers = computed(() =>
-  course.value?.offers.sort((a, b) => a.price - b.price)
+  course.offers.sort((a: any, b: any) => a.price - b.price)
 )
 
-const updateOffer = async (offerId, values) => {
+const updateOffer = async (offerId: string, values: any) => {
   const promise = $client.courses.updateOffer.mutate({
-    courseId: course.value.id,
+    courseId: course.id,
     offerId,
     ...values,
   })
@@ -30,7 +37,7 @@ const updateOffer = async (offerId, values) => {
   })
 }
 
-const deleteOffer = async (offerId) => {
+const deleteOffer = async (offerId: string) => {
   const promise = $client.courses.deleteOffer.mutate({
     offerId,
   })
@@ -46,12 +53,27 @@ const deleteOffer = async (offerId) => {
   })
 }
 
-const openOfferDialog = (offer = null) => {
+const router = useRouter()
+
+const openOfferDialog = (offer: any = null) => {
+  if (!session?.value?.user?.stripeAccountId) {
+    toast.error('Stripe not connected', {
+      description: 'Please connect your Stripe account to create offers',
+      action: {
+        label: 'Connect Stripe',
+        onClick: () => {
+          router.push('/admin/integrations')
+        },
+      },
+    })
+    return
+  }
+
   dialog.open({
     component: 'CourseOfferDialog',
     props: {
       offer,
-      onSuccess: (values) => {
+      onSuccess: (values: any) => {
         const offerId = offer ? offer.id : null
         updateOffer(offerId, values)
       },

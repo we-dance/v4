@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
 
-const course = defineModel<any>()
+const { course } = defineProps({
+  course: {
+    type: Object,
+    default: () => ({}),
+  },
+})
+
 const dialog = useDialog()
 const emit = defineEmits(['load'])
 
@@ -9,9 +15,8 @@ const { $client } = useNuxtApp()
 
 const updateModule = async (moduleId: string, values: any) => {
   try {
-    console.log('updateModule', moduleId, values)
     await $client.courses.updateModule.mutate({
-      courseId: course.value.id,
+      courseId: course.id,
       moduleId: moduleId,
       ...values,
     })

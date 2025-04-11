@@ -1,10 +1,5 @@
 <script setup lang="ts">
 const route = useRoute()
-const sidebarOpen = ref(true)
-
-watch(route, () => {
-  sidebarOpen.value = route.path.split('/').length > 3 ? false : true
-})
 
 const items = [
   {
@@ -24,7 +19,7 @@ const items = [
   <div class="min-h-screen flex flex-col">
     <AppNavigation />
     <main class="flex-1 bg-background text-foreground">
-      <SidebarProvider :open="sidebarOpen">
+      <SidebarProvider :default-open="false">
         <Sidebar class="md:pt-16">
           <SidebarContent>
             <SidebarGroup>

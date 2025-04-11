@@ -1,92 +1,59 @@
-<script setup>
-const course = defineModel()
+<script setup lang="ts">
+import type { Course } from '@prisma/client'
 
-const emit = defineEmits(['submit'])
+const { course } = defineProps<{
+  course: Course
+}>()
 
-const onSubmit = (values) => {
-  emit('submit', values)
-}
-
-const statusOptions = [
-  { label: 'Draft', value: 'draft' },
-  { label: 'Published', value: 'published' },
-  { label: 'Archived', value: 'archived' },
-]
+const emit = defineEmits(['load'])
 </script>
 
 <template>
-  <form @submit.prevent="onSubmit">
-    <div class="space-y-4">
-      <FormField v-slot="{ componentField }" name="status">
-        <FormItem>
-          <FormLabel>Status</FormLabel>
-          <Select v-bind="componentField">
-            <FormControl>
-              <SelectTrigger>
-                <SelectValue placeholder="Select course status" />
-              </SelectTrigger>
-            </FormControl>
-            <SelectContent>
-              <SelectItem
-                v-for="option in statusOptions"
-                :key="option.value"
-                :value="option.value"
-              >
-                {{ option.label }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-          <FormDescription>
-            Draft courses are only visible to you. Published courses are visible
-            to everyone.
-          </FormDescription>
-          <FormMessage />
-        </FormItem>
-      </FormField>
+  <header class="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+    <SidebarTrigger class="-ml-1" />
+    <Separator orientation="vertical" class="mr-2 h-4" />
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem class="hidden md:block">
+          <BreadcrumbLink as-child>
+            <NuxtLink to="/admin/courses"> Manage Courses </NuxtLink>
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator class="hidden md:block" />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{ course?.name }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+    <div class="flex-1" />
+    <Button variant="ghost" as-child>
+      <NuxtLink :to="`/courses/${course?.slug}`">
+        <Icon name="lucide:eye" class="w-4 h-4" />
+        Preview
+      </NuxtLink>
+    </Button>
+  </header>
 
-      <FormField v-slot="{ componentField }" name="name">
-        <FormItem>
-          <FormLabel>Name</FormLabel>
-          <FormControl>
-            <Input v-bind="componentField" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
-
-      <FormField v-slot="{ componentField }" name="subheader">
-        <FormItem>
-          <FormLabel>Subheader</FormLabel>
-          <FormControl>
-            <Input v-bind="componentField" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
-
-      <FormField v-slot="{ componentField }" name="description">
-        <FormItem>
-          <FormLabel>Description</FormLabel>
-          <FormControl>
-            <Textarea v-bind="componentField" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
-
-      <FormField v-slot="{ componentField }" name="coverUrl">
-        <FormItem>
-          <FormLabel>Cover Image URL</FormLabel>
-          <FormControl>
-            <Input v-bind="componentField" />
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
-
-      <div class="flex justify-end gap-4">
-        <Button type="submit">Save Changes</Button>
+  <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">
+    <ResizablePanel :default-size="165" :min-size="20">
+      <div class="space-y-4 p-4">
+        <AdminBlock title="Basic Information">
+          <CourseAboutEditor :course="course" @load="emit('load')" />
+        </AdminBlock>
+        <AdminBlock title="Modules">
+          <CourseModulesEditor :course="course" @load="emit('load')" />
+        </AdminBlock>
+        <AdminBlock title="Resources">
+          <CourseResourcesEditor :course="course" @load="emit('load')" />
+        </AdminBlock>
+        <AdminBlock title="Pricing">
+          <CourseOffersEditor :course="course" @load="emit('load')" />
+        </AdminBlock>
       </div>
-    </div>
-  </form>
+    </ResizablePanel>
+    <ResizableHandle with-handle />
+    <ResizablePanel :default-size="655">
+      <CourseView :course="course" />
+    </ResizablePanel>
+  </ResizablePanelGroup>
 </template>
