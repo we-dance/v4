@@ -72,7 +72,6 @@ const save = async (values: any) => {
 }
 
 const onSubmit = form.handleSubmit(save)
-const isOpen = ref(false)
 </script>
 
 <template>
