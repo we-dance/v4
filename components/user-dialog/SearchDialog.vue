@@ -211,7 +211,7 @@ onMounted(() => {
               <div class="flex-1 min-w-0">
                 <div class="flex flex-col sm:flex-row sm:items-center gap-2">
                   <Badge
-                    variant="outline"
+                    variant="secondary"
                     class="capitalize w-fit text-xs sm:text-sm"
                   >
                     {{ result.type }}
@@ -246,7 +246,7 @@ onMounted(() => {
           We couldn't find anything for "{{ searchQuery }}". Try searching for
           something else.
         </p>
-        <Button variant="outline" size="sm" @click="searchQuery = ''">
+        <Button variant="secondary" size="sm" @click="searchQuery = ''">
           Clear search
         </Button>
       </div>

@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { toast } from 'vue-sonner'
 
 const { $client } = useNuxtApp()
-const { data, signOut } = useAppAuth()
+const { session, signOut } = useAppAuth()
 
 const isDeleteDialogOpen = ref(false)
 const deleteConfirmation = ref('')
@@ -20,7 +20,7 @@ async function deleteAccount() {
 
   try {
     await $client.users.delete.mutate({
-      id: data.value?.user.id,
+      id: session.value?.user.id,
     })
 
     toast.success('Account deleted', {
@@ -99,7 +99,7 @@ async function deleteAccount() {
 
       <DialogFooter>
         <div class="flex items-center gap-3">
-          <Button variant="outline" @click="isDeleteDialogOpen = false">
+          <Button variant="secondary" @click="isDeleteDialogOpen = false">
             Cancel
           </Button>
           <Button

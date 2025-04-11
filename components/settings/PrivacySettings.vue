@@ -6,12 +6,12 @@ import { toTypedSchema } from '@vee-validate/zod'
 import { privacySettingsSchema, type PrivacySettings } from '~/schemas/profile'
 import { useMutation } from 'vue-query'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(privacySettingsSchema),
   initialValues: privacySettingsSchema.safeParse(
-    data.value?.profile?.privacySettings
+    session.value?.profile?.privacySettings
   ).data,
 })
 
@@ -19,7 +19,7 @@ const { $client } = useNuxtApp()
 
 const updatePrivacySettingsMutation = useMutation(
   async (values: PrivacySettings) => {
-    const profileId = data.value?.profile?.id
+    const profileId = session.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')

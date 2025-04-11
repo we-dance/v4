@@ -82,7 +82,7 @@ const mediaAssets = [
               {{ release.title }}
             </h3>
             <p class="text-muted-foreground mt-2">{{ release.excerpt }}</p>
-            <Button variant="link" class="px-0 mt-2">Read More</Button>
+            <Button variant="tertiary" class="px-0 mt-2">Read More</Button>
           </article>
         </div>
       </section>

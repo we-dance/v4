@@ -57,7 +57,7 @@ const levels = [
           </p>
           <div class="flex justify-center gap-4">
             <Button variant="default" size="lg">Find Classes</Button>
-            <Button variant="outline" size="lg">Watch Videos</Button>
+            <Button variant="secondary" size="lg">Watch Videos</Button>
           </div>
         </div>
       </div>

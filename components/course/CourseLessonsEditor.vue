@@ -99,7 +99,7 @@ function openEditLessonDialog(lesson?: any) {
     </div>
     <!-- Add Lesson Button -->
     <Button
-      variant="outline"
+      variant="secondary"
       size="sm"
       @click="openEditLessonDialog()"
       class="mt-2 h-8"

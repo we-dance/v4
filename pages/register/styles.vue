@@ -211,7 +211,7 @@ const removeStyle = (id: string) => {
                   v-for="style in category.styles"
                   :key="style.id"
                   type="button"
-                  variant="outline"
+                  variant="secondary"
                   @click="toggleCommunity(style.id)"
                   :class="[
                     selectedCommunities.includes(style.id)

@@ -9,8 +9,8 @@ const messagesContainer = ref<HTMLElement | null>(null)
 const newMessage = ref('')
 const isSending = ref(false)
 
-const { data } = useAppAuth()
-const currentUser = computed(() => data.value?.profile)
+const { session } = useAppAuth()
+const currentUser = computed(() => session.value?.profile)
 
 const { $client } = useNuxtApp()
 const {

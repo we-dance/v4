@@ -79,7 +79,7 @@ watch(searchQuery, async () => {
     <div v-else-if="error" class="text-red-500 text-center py-4 col-span-full">
       <Icon name="ph:warning-circle" class="h-8 w-8 mb-2 mx-auto" />
       <p>{{ error }}</p>
-      <Button variant="outline" size="sm" class="mt-4" @click="fetchArtists">
+      <Button variant="secondary" size="sm" class="mt-4" @click="fetchArtists">
         Try Again
       </Button>
     </div>

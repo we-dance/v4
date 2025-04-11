@@ -5,19 +5,19 @@ import { useForm } from 'vee-validate'
 import { useMutation } from 'vue-query'
 import { userSchema, type User } from '~/schemas/user'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 // @todo: account settings: add timezone
 const form = useForm({
   validationSchema: toTypedSchema(userSchema),
-  initialValues: userSchema.safeParse(data.value?.user).data,
+  initialValues: userSchema.safeParse(session.value?.user).data,
 })
 
 const { $client } = useNuxtApp()
 
 const updateAccountMutation = useMutation(
   async (values: User) => {
-    const userId = data.value?.user.id
+    const userId = session.value?.user.id
 
     if (!userId) {
       throw new Error('User not authenticated')

@@ -368,10 +368,10 @@
             <Button size="lg" as-child>
               <NuxtLink to="/for/artists">For Artists</NuxtLink>
             </Button>
-            <Button size="lg" variant="outline" as-child>
+            <Button size="lg" variant="secondary" as-child>
               <NuxtLink to="/for/organizers">For Organizers</NuxtLink>
             </Button>
-            <Button size="lg" variant="outline" as-child>
+            <Button size="lg" variant="secondary" as-child>
               <NuxtLink to="/for/venues">For Venues</NuxtLink>
             </Button>
           </div>

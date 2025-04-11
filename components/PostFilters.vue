@@ -81,7 +81,7 @@ const formatNumber = (num: number) => {
   <div class="md:hidden flex items-center gap-2">
     <DropdownMenu>
       <DropdownMenuTrigger as-child>
-        <Button variant="outline" class="flex items-center gap-2">
+        <Button variant="secondary" class="flex items-center gap-2">
           <Icon
             :name="
               postTypeOptions.find((t) => t.value === selectedType)?.icon ||

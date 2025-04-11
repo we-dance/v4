@@ -2,7 +2,7 @@ import { z } from 'zod'
 import type { ArtistProfile } from '~/schemas/profile'
 
 export const useProfile = async () => {
-  const { data: auth } = useAppAuth()
+  const { session } = useAppAuth()
 
   const schema = z.object({
     username: z.string(),
@@ -66,8 +66,9 @@ export const useProfile = async () => {
     return result
   })
 
+  // todo: move to backend
   const isOwner = computed(() => {
-    return auth?.value?.profile?.id === profile?.value?.id
+    return session?.value?.profile?.id === profile?.value?.id
   })
 
   return { profile, isOwner }

@@ -23,8 +23,10 @@ const handleAddReview = () => {
   <div class="bg-background rounded-xl shadow-sm overflow-hidden">
     <div class="p-4 border-b flex items-center justify-between">
       <h3 class="font-semibold">Student Reviews</h3>
-      <Button v-if="isLoggedIn" @click="handleAddReview">Review</Button>
-      <Button v-else as-child variant="outline">
+      <Button v-if="isLoggedIn" variant="secondary" @click="handleAddReview"
+        >Write a Review</Button
+      >
+      <Button v-else as-child variant="secondary">
         <NuxtLink :to="`/login?redirect=/courses/${course.slug}`">
           Sign in to review
         </NuxtLink>

@@ -300,7 +300,7 @@ const handleBook = (event: AnyEvent) => {
         </Select>
 
         <Button
-          variant="outline"
+          variant="secondary"
           size="sm"
           @click="clearFilters"
           v-if="hasActiveFilters"

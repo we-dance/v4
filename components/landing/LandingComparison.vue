@@ -54,7 +54,7 @@ defineProps({
       </div>
 
       <div class="mt-8 text-center">
-        <Button variant="outline" as-child>
+        <Button variant="secondary" as-child>
           <NuxtLink to="/vs" class="flex items-center justify-center gap-2">
             See All Comparisons
             <Icon name="ph:arrow-right" class="w-5 h-5" />

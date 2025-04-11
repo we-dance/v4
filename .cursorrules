@@ -56,7 +56,7 @@
         "Use clean code and nuxt3/vuejs composition API best practices"
       ],
       "technicalGuidelines": [
-        "Auth: const { auth, isLoggedIn, signOut, data } = useAppAuth()",
+        "Auth: const { auth, isLoggedIn, signOut, session } = useAppAuth()",
         "API: Use tRPC for API calls, all routers are in the '~/server/trpc' folder"
       ]
     }

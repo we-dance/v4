@@ -46,7 +46,7 @@ function openEditResourceDialog(resource?: any) {
 </script>
 
 <template>
-  <Button variant="outline" @click="openEditResourceDialog()" class="mb-4">
+  <Button variant="secondary" @click="openEditResourceDialog()" class="mb-4">
     <Icon name="lucide:plus" class="h-4 w-4" />
     Add Resource
   </Button>
@@ -98,11 +98,7 @@ function openEditResourceDialog(resource?: any) {
       </div>
     </div>
   </div>
-  <div
-    v-else
-    class="text-center py-6 text-muted-foreground border-2 border-dashed border-border rounded-md"
-  >
-    <p class="mb-2">No resources added yet.</p>
-    <p>Start by adding your first resource below.</p>
+  <div v-else class="text-center py-4 text-muted-foreground">
+    No resources added yet
   </div>
 </template>

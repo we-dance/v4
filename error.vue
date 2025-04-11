@@ -34,7 +34,7 @@ const handleGoHome = () => {
 
       <div class="space-x-4">
         <Button @click="handleGoHome" size="lg"> Back to Home </Button>
-        <Button @click="router.back()" variant="outline" size="lg">
+        <Button @click="router.back()" variant="secondary" size="lg">
           Go Back
         </Button>
       </div>

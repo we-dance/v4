@@ -5,18 +5,18 @@ import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
 import { profileSchema } from '~/schemas/profile'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(profileSchema),
-  initialValues: data.value?.profile,
+  initialValues: profileSchema.safeParse(session.value?.profile).data,
 })
 
 const { $client } = useNuxtApp()
 
 const updateProfileMutation = useMutation(
   async (values: any) => {
-    const profileId = data.value?.profile?.id
+    const profileId = session.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')

@@ -77,7 +77,7 @@ const onSubmit = () => {
                   </p>
                 </div>
                 <DialogFooter>
-                  <Button variant="outline" @click="isOpen = false"
+                  <Button variant="secondary" @click="isOpen = false"
                     >Cancel</Button
                   >
                   <Button @click="isOpen = false">Continue</Button>
@@ -108,7 +108,7 @@ const onSubmit = () => {
                   </DialogDescription>
                 </DialogHeader>
                 <DialogFooter>
-                  <Button variant="outline" @click="isDestructiveOpen = false"
+                  <Button variant="secondary" @click="isDestructiveOpen = false"
                     >Cancel</Button
                   >
                   <Button
@@ -157,7 +157,7 @@ const onSubmit = () => {
                   <DialogFooter>
                     <Button
                       type="button"
-                      variant="outline"
+                      variant="secondary"
                       @click="isFormOpen = false"
                       >Cancel</Button
                     >

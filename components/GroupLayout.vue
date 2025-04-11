@@ -266,7 +266,7 @@ const getEventType = (value: string) =>
             <!-- Contact -->
             <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold mb-4">Contact</h3>
-              <Button class="w-full" variant="outline" @click="handleMessage">
+              <Button class="w-full" variant="secondary" @click="handleMessage">
                 <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
                 Send Message
               </Button>

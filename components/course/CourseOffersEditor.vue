@@ -57,7 +57,7 @@ const openOfferDialog = (offer = null) => {
 </script>
 
 <template>
-  <Button variant="outline" @click="openOfferDialog()" class="mb-4"
+  <Button variant="secondary" @click="openOfferDialog()" class="mb-4"
     ><Icon name="lucide:plus" class="h-4 w-4" />Add Price</Button
   >
   <div v-if="course.offers?.length" class="space-y-4">

@@ -126,7 +126,7 @@ const handleBook = () => {
         <Badge
           v-for="amenity in area.amenities"
           :key="amenity"
-          variant="outline"
+          variant="secondary"
           class="text-xs"
         >
           {{ amenity }}
@@ -136,7 +136,7 @@ const handleBook = () => {
   </div>
 
   <DialogFooter>
-    <Button variant="outline" @click="dialog.close()">Close</Button>
+    <Button variant="secondary" @click="dialog.close()">Close</Button>
     <Button @click="handleBook">
       <Icon name="ph:calendar-check" class="w-4 h-4 mr-2" />
       Check Availability

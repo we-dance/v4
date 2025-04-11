@@ -8,12 +8,12 @@ import {
   type NotificationSettings,
 } from '~/schemas/user'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(notificationSettingsSchema),
   initialValues: notificationSettingsSchema.safeParse(
-    data.value?.user?.notificationSettings
+    session.value?.user?.notificationSettings
   ).data,
 })
 
@@ -23,12 +23,12 @@ const { $client } = useNuxtApp()
 
 const updateNotificationsMutation = useMutation(
   async (values: NotificationSettings) => {
-    if (!data.value) {
+    if (!session.value) {
       throw new Error('User not authenticated')
     }
 
     return await $client.users.updateNotificationSettings.mutate({
-      id: data.value.user.id,
+      id: session.value.user.id,
       data: values,
     })
   },

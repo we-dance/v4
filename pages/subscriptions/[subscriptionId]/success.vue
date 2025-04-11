@@ -44,7 +44,7 @@ const offer = subscription?.offer
 
       <!-- Actions -->
       <div class="flex justify-center gap-4">
-        <Button as-child variant="outline">
+        <Button as-child variant="secondary">
           <NuxtLink to="/courses">Browse More Courses</NuxtLink>
         </Button>
         <Button as-child>

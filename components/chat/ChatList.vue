@@ -1,8 +1,8 @@
 <script setup lang="ts">
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const { $client } = useNuxtApp()
-const currentUser = computed(() => data.value?.profile)
+const currentUser = computed(() => session.value?.profile)
 
 // Fetch conversations
 const {

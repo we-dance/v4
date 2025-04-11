@@ -32,7 +32,7 @@ const { course } = defineProps<{
         <p class="text-sm text-muted-foreground">
           {{ new Date(course.community.nextLiveQ_A).toLocaleString() }}
         </p>
-        <Button class="w-full mt-3" variant="outline">Join Community</Button>
+        <Button class="w-full mt-3" variant="secondary">Join Community</Button>
       </div>
     </div>
   </div>

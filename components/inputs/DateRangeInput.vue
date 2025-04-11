@@ -17,7 +17,7 @@ const value = ref<DateRange>({
   <Popover>
     <PopoverTrigger as-child>
       <Button
-        variant="outline"
+        variant="secondary"
         :class="
           cn(
             'justify-start text-left font-normal',

@@ -155,7 +155,7 @@ const selectedTab = ref('feed')
     <div class="flex gap-4 mb-6">
       <Button variant="primary">Find Events</Button>
       <Button variant="secondary">Join Community</Button>
-      <Button variant="outline">Share Style</Button>
+      <Button variant="secondary">Share Style</Button>
     </div>
 
     <!-- Community Stats -->

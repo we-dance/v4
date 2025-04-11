@@ -3,7 +3,7 @@ import { useTheme } from '~/composables/useTheme'
 import { toast } from 'vue-sonner'
 
 const { isDark, toggleTheme } = useTheme()
-const { signOut, data } = useAppAuth()
+const { signOut, session } = useAppAuth()
 
 // Mock user data - replace with actual user data from your auth system
 const user = ref({
@@ -43,19 +43,19 @@ const handleSignOut = async () => {
         class="relative h-8 w-8 rounded-full"
         aria-label="Open user menu"
       >
-        <Avatar :profile="data?.profile" class="h-8 w-8" />
+        <Avatar :profile="session?.profile" class="h-8 w-8" />
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent class="w-56" align="end" :side-offset="5">
       <DropdownMenuLabel class="font-normal">
         <div class="flex items-center gap-3">
-          <Avatar :profile="data?.profile" class="h-10 w-10" />
+          <Avatar :profile="session?.profile" class="h-10 w-10" />
           <div class="flex flex-col space-y-1">
             <p class="text-sm font-medium leading-none">
-              {{ data?.account?.firstName }} {{ data?.account?.lastName }}
+              {{ session?.user?.firstName }} {{ session?.user?.lastName }}
             </p>
             <p class="text-xs leading-none text-muted-foreground">
-              {{ data?.account?.email }}
+              {{ session?.user?.email }}
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const handleSignOut = async () => {
       <DropdownMenuSeparator />
       <DropdownMenuItem as-child>
         <NuxtLink
-          :to="`/@${data?.profile?.username}`"
+          :to="`/@${session?.profile?.username}`"
           class="flex items-center"
         >
           <Icon name="lucide:user" class="mr-2 h-4 w-4" />

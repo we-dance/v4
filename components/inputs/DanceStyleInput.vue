@@ -29,7 +29,7 @@ const onSelect = (newValue: any) => {
   <Popover v-model:open="open">
     <PopoverTrigger as-child>
       <Button
-        variant="outline"
+        variant="secondary"
         role="combobox"
         :aria-expanded="open"
         class="font-normal text-left"

@@ -73,6 +73,7 @@ const handleViewPricing = () => {
             class="player"
             :lesson="currentLesson"
           />
+          <CourseAbout :course="course" />
           <InstructorProfile
             v-if="course.instructor"
             :profile="course.instructor"

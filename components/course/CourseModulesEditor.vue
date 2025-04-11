@@ -47,7 +47,7 @@ function openEditModuleDialog(module?: any) {
 </script>
 
 <template>
-  <Button variant="outline" @click="openEditModuleDialog()" class="mb-4">
+  <Button variant="secondary" @click="openEditModuleDialog()" class="mb-4">
     <Icon name="lucide:plus" class="h-4 w-4" />
     Add Module
   </Button>
@@ -99,11 +99,7 @@ function openEditModuleDialog(module?: any) {
       />
     </div>
   </div>
-  <div
-    v-else
-    class="text-center py-6 text-muted-foreground border-2 border-dashed border-border rounded-md"
-  >
-    <p class="mb-2">No modules added yet.</p>
-    <p>Start by adding your first module below.</p>
+  <div v-else class="text-center py-4 text-muted-foreground">
+    No modules added yet
   </div>
 </template>

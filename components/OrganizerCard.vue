@@ -92,7 +92,7 @@ function getStyleLabel(value: string) {
           <div class="flex flex-wrap gap-2">
             <Button
               v-if="organizer.links?.whatsapp"
-              variant="outline"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -108,7 +108,7 @@ function getStyleLabel(value: string) {
             </Button>
             <Button
               v-if="organizer.links?.telegram"
-              variant="outline"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -124,7 +124,7 @@ function getStyleLabel(value: string) {
             </Button>
             <Button
               v-if="organizer.links?.instagram"
-              variant="outline"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -140,7 +140,7 @@ function getStyleLabel(value: string) {
             </Button>
             <Button
               v-if="organizer.links?.facebook"
-              variant="outline"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -156,7 +156,7 @@ function getStyleLabel(value: string) {
             </Button>
             <Button
               v-if="organizer.links?.discord"
-              variant="outline"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -168,7 +168,7 @@ function getStyleLabel(value: string) {
             </Button>
             <Button
               v-if="organizer.links?.website"
-              variant="outline"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -217,7 +217,7 @@ function getStyleLabel(value: string) {
             <div class="flex flex-wrap gap-2">
               <Button
                 v-if="organizer.links?.whatsapp"
-                variant="outline"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -233,7 +233,7 @@ function getStyleLabel(value: string) {
               </Button>
               <Button
                 v-if="organizer.links?.telegram"
-                variant="outline"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -249,7 +249,7 @@ function getStyleLabel(value: string) {
               </Button>
               <Button
                 v-if="organizer.links?.instagram"
-                variant="outline"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -265,7 +265,7 @@ function getStyleLabel(value: string) {
               </Button>
               <Button
                 v-if="organizer.links?.facebook"
-                variant="outline"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -281,7 +281,7 @@ function getStyleLabel(value: string) {
               </Button>
               <Button
                 v-if="organizer.links?.discord"
-                variant="outline"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -297,7 +297,7 @@ function getStyleLabel(value: string) {
               </Button>
               <Button
                 v-if="organizer.links?.website"
-                variant="outline"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child

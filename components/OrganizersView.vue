@@ -165,15 +165,15 @@ watch(selectedEventType, (newValue) => {
       class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6"
     >
       <div class="flex gap-2">
-        <Button variant="outline" @click="showLocationFilter = true">
+        <Button variant="secondary" @click="showLocationFilter = true">
           <Icon name="ph:map-pin" class="w-4 h-4 mr-2" />
           {{ filters.location || 'Any Location' }}
         </Button>
-        <Button variant="outline" @click="showFilters = !showFilters">
+        <Button variant="secondary" @click="showFilters = !showFilters">
           <Icon name="ph:funnel" class="w-4 h-4 mr-2" />
           Filters
         </Button>
-        <Button variant="outline" @click="toggleView">
+        <Button variant="secondary" @click="toggleView">
           <Icon
             :name="isGridView ? 'ph:grid-four' : 'ph:list'"
             class="w-4 h-4"
@@ -259,7 +259,7 @@ watch(selectedEventType, (newValue) => {
         <EmptyState variant="no-results" />
         <p class="mt-4 text-muted-foreground">
           Don't see your city? Help grow the community by
-          <Button variant="link" class="px-1" as-child>
+          <Button variant="tertiary" class="px-1" as-child>
             <NuxtLink to="/register">adding your local dance groups</NuxtLink>
           </Button>
         </p>

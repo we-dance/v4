@@ -36,6 +36,11 @@ const { profile } = defineProps<{
             }}
             reviews)
           </div>
+          <div class="flex justify-center md:justify-start gap-2">
+            <Button variant="primary">Subscribe</Button>
+            <Button variant="secondary">Send Message</Button>
+          </div>
+
           <div class="space-y-2">
             <div class="flex items-center gap-4 mt-4" v-if="profile.instagram">
               <a

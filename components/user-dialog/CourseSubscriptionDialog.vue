@@ -36,7 +36,7 @@ const handleSelect = (offer: any) => {
     <Button
       v-for="offer in offers"
       :key="offer.id"
-      variant="outline"
+      variant="secondary"
       class="w-full justify-between h-auto py-4 hover:border-accent"
       @click="handleSelect(offer)"
     >

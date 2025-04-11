@@ -106,7 +106,7 @@ export const formatSubscriptionDuration = (duration: string) => {
 
 export const getMinPrice = (offers: Prisma.OfferGetPayload<{}>[]) => {
   if (!offers?.length) {
-    return 'Contact for pricing'
+    return ''
   }
 
   const minOffer = offers.reduce((min, offer) => {

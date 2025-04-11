@@ -250,7 +250,7 @@
           way of connecting
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" variant="outline" class="text-lg px-12" as-child>
+          <Button size="lg" variant="secondary" class="text-lg px-12" as-child>
             <NuxtLink
               to="/events"
               class="flex items-center justify-center gap-2"

@@ -96,14 +96,14 @@ const artistLanguages = computed(() => {
               <Badge
                 v-for="styleItem in visibleStyles"
                 :key="styleItem.styleId"
-                variant="outline"
+                variant="secondary"
                 class="text-xs"
               >
                 {{ styleItem.style?.name }}
               </Badge>
               <Badge
                 v-if="additionalStylesCount > 0"
-                variant="outline"
+                variant="secondary"
                 class="text-xs bg-muted-foreground/10"
               >
                 +{{ additionalStylesCount }} more
