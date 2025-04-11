@@ -93,6 +93,13 @@ const onSubmit = form.handleSubmit(save)
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
+    <div class="flex-1" />
+    <Button variant="ghost" as-child>
+      <NuxtLink :to="`/courses/${course?.slug}`">
+        <Icon name="lucide:eye" class="w-4 h-4" />
+        Preview
+      </NuxtLink>
+    </Button>
   </header>
 
   <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">

@@ -1,8 +1,10 @@
 <script setup lang="ts">
 const route = useRoute()
-const sidebarOpen = computed(() =>
-  route.path.split('/').length > 3 ? false : true
-)
+const sidebarOpen = ref(true)
+
+watch(route, () => {
+  sidebarOpen.value = route.path.split('/').length > 3 ? false : true
+})
 
 const items = [
   {

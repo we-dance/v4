@@ -46,37 +46,14 @@ const handleCreateCourse = () => {
       <Button @click="handleCreateCourse"> Create Course </Button>
     </div>
 
-    <Card>
-      <Table>
-        <TableHeader>
-          <TableRow>
-            <TableHead>Instructor</TableHead>
-            <TableHead>Name</TableHead>
-            <TableHead class="text-right">Actions</TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          <TableRow v-for="course in courses" :key="course.id">
-            <TableCell>{{ course?.instructor?.name }}</TableCell>
-            <TableCell>{{ course.name }}</TableCell>
-            <TableCell class="text-right">
-              <NuxtLink :to="`/admin/courses/${course.slug}`">
-                <Button variant="ghost" size="icon">
-                  <Icon name="ph:pencil" />
-                </Button>
-              </NuxtLink>
-            </TableCell>
-          </TableRow>
-          <TableRow v-if="courses.length === 0">
-            <TableCell
-              colspan="3"
-              class="text-center py-6 text-muted-foreground"
-            >
-              No courses found
-            </TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
-    </Card>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <NuxtLink
+        v-for="course in courses"
+        :key="course.slug"
+        :to="`/admin/courses/${course.slug}`"
+      >
+        <CourseCard :course="course" />
+      </NuxtLink>
+    </div>
   </div>
 </template>

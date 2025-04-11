@@ -3,6 +3,16 @@ const { course } = defineProps<{
   course: any
 }>()
 
+const { session } = useAppAuth()
+const route = useRoute()
+
+const canEdit = computed(() => {
+  return (
+    session?.value?.profile?.id === course.instructor?.id &&
+    !route.path.includes('/admin')
+  )
+})
+
 const duration = computed(() => {
   return course.modules.reduce((acc: number, module: any) => {
     return (
@@ -36,14 +46,29 @@ const averageRating = computed(() => {
 <template>
   <div class="bg-background border-b">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex gap-4">
-      <div v-if="course.coverUrl" class="w-16 h-16">
+      <div class="w-16 h-16 relative">
         <NuxtImg
+          v-if="course.coverUrl"
           :src="course.coverUrl"
           class="w-full h-full object-cover rounded-lg"
         />
+        <div v-else class="w-full h-full bg-muted rounded-lg"></div>
+        <Button
+          v-if="canEdit"
+          variant="ghost"
+          size="icon"
+          class="absolute top-0 left-0"
+          as-child
+        >
+          <NuxtLink :to="`/admin/courses/${course.slug}`">
+            <Icon name="lucide:pencil" class="w-4 h-4" />
+          </NuxtLink>
+        </Button>
       </div>
       <div>
-        <h1 class="text-2xl font-bold">{{ course.name }}</h1>
+        <h1 class="text-2xl font-bold">
+          {{ course.name }}
+        </h1>
         <div class="flex items-center gap-4 text-sm text-muted-foreground">
           <p v-if="course.instructor" class="text-sm text-muted-foreground">
             with {{ course.instructor?.name }}
