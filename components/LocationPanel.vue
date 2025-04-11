@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { $client } = useNuxtApp()
+
 const emit = defineEmits<{
   (e: 'update:location', value: string | null): void
 }>()
@@ -28,7 +30,7 @@ const fetchLocations = async () => {
   loadingCities.value = true
 
   try {
-    const venueLocations = await trpc.profiles.venueLocations.query()
+    const venueLocations = await $client.profiles.venueLocations.query()
     cities.value = venueLocations.cities.map((city) => ({
       name: city.name,
       displayName: city.displayName || city.name,

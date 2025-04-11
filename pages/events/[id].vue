@@ -1,8 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { trpc } from '~/composables/trpc'
+const { $client } = useNuxtApp()
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import Post from '~/components/post/Post.vue'
 import { format, parseISO } from 'date-fns'
 
 const route = useRoute()
@@ -104,7 +103,7 @@ const fetchEvent = async () => {
 
   try {
     const id = route.params.id
-    const response = await trpc.events.byId.query(id)
+    const response = await $client.events.byId.query(id)
     console.log('Event details:', response)
     event.value = response
   } catch (e) {

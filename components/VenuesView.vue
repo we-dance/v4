@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useDebounceFn } from '@vueuse/core'
+const { $client } = useNuxtApp()
 
 const venues = ref<any[]>([])
 const showFilters = ref(false)
@@ -56,7 +57,7 @@ const resetSearch = () => {
 async function fetchVenues() {
   isLoading.value = true
   try {
-    const result = await trpc.profiles.venues.query({
+    const result = await $client.profiles.venues.query({
       limit: limit.value,
       page: page.value,
       search: search.value,
@@ -96,7 +97,7 @@ async function fetchStyles() {
 
   loadingStyles.value = true
   try {
-    const styles = await trpc.profiles.allVenuesStyles.query()
+    const styles = await $client.profiles.allVenuesStyles.query()
     allDanceStyles.value = styles
   } catch (error) {
     console.error('Error fetching dance styles:', error)

@@ -2,8 +2,7 @@
 import { ref, computed, onMounted } from 'vue'
 import type { AnyEvent } from '~/schemas/event'
 import EventCard from '~/components/event/EventCard.vue'
-import { trpc } from '~/composables/trpc'
-import { format, parseISO } from 'date-fns'
+const { $client } = useNuxtApp()
 
 // Reactive state for API data
 const result = ref<any>(null) // Replace 'any' with your event response type if available
@@ -16,16 +15,6 @@ const status = ref('upcoming')
 const type = ref('')
 const limit = ref(10)
 
-// Date formatting utility
-function formatDate(dateString: string | undefined): string {
-  if (!dateString) return 'N/A'
-  try {
-    return format(parseISO(dateString), 'PP')
-  } catch (e) {
-    return 'Invalid date'
-  }
-}
-
 // Fetch initial events
 async function fetchEvents() {
   loading.value = true
@@ -35,7 +24,7 @@ async function fetchEvents() {
     if (status.value) params.status = status.value
     if (type.value) params.type = type.value
     console.log('Fetching events with params:', params)
-    result.value = await trpc.events.getAll.query(params)
+    result.value = await $client.events.getAll.query(params)
     console.log('API result:', result.value)
     // Validate response structure
     if (!result.value || !Array.isArray(result.value.items)) {
@@ -61,7 +50,7 @@ async function loadMore() {
     }
     if (status.value) params.status = status.value
     if (type.value) params.type = type.value
-    const nextPage = await trpc.events.getAll.query(params)
+    const nextPage = await $client.events.getAll.query(params)
     if (nextPage?.items) {
       result.value = {
         items: [...result.value.items, ...nextPage.items],
