@@ -29,23 +29,7 @@ const socialLinksSchema = z.object({
 // Initialize form with existing profile data
 const form = useForm({
   validationSchema: toTypedSchema(socialLinksSchema),
-  initialValues: {
-    couchsurfing: session.value?.profile?.couchsurfing || '',
-    linkedin: session.value?.profile?.linkedin || '',
-    airbnb: session.value?.profile?.airbnb || '',
-    blablacar: session.value?.profile?.blablacar || '',
-    spotify: session.value?.profile?.spotify || '',
-    instagram: session.value?.profile?.instagram || '',
-    facebook: session.value?.profile?.facebook || '',
-    vk: session.value?.profile?.vk || '',
-    whatsapp: session.value?.profile?.whatsapp || '',
-    telegram: session.value?.profile?.telegram || '',
-    twitter: session.value?.profile?.twitter || '',
-    tiktok: session.value?.profile?.tiktok || '',
-    youtube: session.value?.profile?.youtube || '',
-    threads: session.value?.profile?.threads || '',
-    website: session.value?.profile?.website || '',
-  },
+  initialValues: socialLinksSchema.safeParse(session.value?.profile).data,
 })
 
 const { $client } = useNuxtApp()

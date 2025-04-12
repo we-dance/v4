@@ -1,18 +1,7 @@
-import { createTRPCClient, httpBatchLink } from '@trpc/client'
-import type { AppRouter } from '~/server/trpc/routers'
 import { useQuery, useMutation, useInfiniteQuery } from 'vue-query'
-import superjson from 'superjson'
 import type { CreatePost, UpdateStats } from '~/server/trpc/schemas/post'
 
-// Create tRPC client
-const client = createTRPCClient<AppRouter>({
-  links: [
-    httpBatchLink({
-      url: '/api/trpc',
-      transformer: superjson,
-    }),
-  ],
-})
+const { $client } = useNuxtApp()
 
 // Export composables for use in components
 export function usePostsList(params: {
@@ -23,7 +12,7 @@ export function usePostsList(params: {
   return useInfiniteQuery(
     ['posts.list', params],
     async ({ pageParam = 0 }) => {
-      return client.posts.list.query({ ...params, cursor: pageParam })
+      return $client.posts.list.query({ ...params, cursor: pageParam })
     },
     {
       getNextPageParam: (lastPage) => lastPage.nextCursor,
@@ -38,7 +27,7 @@ export function usePostById(id: number) {
   return useQuery(
     ['posts.byId', id],
     async () => {
-      return client.posts.byId.query(id)
+      return $client.posts.byId.query(id)
     },
     {
       refetchOnWindowFocus: false,
@@ -50,13 +39,13 @@ export function usePostById(id: number) {
 
 export function useCreatePost() {
   return useMutation(async (input: CreatePost) => {
-    return client.posts.create.mutate(input)
+    return $client.posts.create.mutate(input)
   })
 }
 
 export function useUpdateStats() {
   return useMutation(async (input: UpdateStats) => {
-    return client.posts.updateStats.mutate(input)
+    return $client.posts.updateStats.mutate(input)
   })
 }
 
@@ -64,7 +53,7 @@ export function useEventById(id: string) {
   return useQuery(
     ['events.byId', id],
     async () => {
-      return client.events.byId.query(id)
+      return $client.events.byId.query(id)
     },
     {
       refetchOnWindowFocus: false,
@@ -78,7 +67,7 @@ export function useArtists() {
   return useQuery(
     ['profiles.artists'],
     async () => {
-      return client.profiles.artists.query()
+      return $client.profiles.artists.query()
     },
     {
       refetchOnWindowFocus: false,
