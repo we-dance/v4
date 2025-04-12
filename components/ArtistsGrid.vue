@@ -46,8 +46,6 @@ useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
 
   <ErrorMessage v-if="isError" :error="error" />
 
-  <Loader v-else-if="isPending" />
-
   <div
     v-else-if="artists.length > 0"
     class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
@@ -61,7 +59,14 @@ useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
     </NuxtLink>
   </div>
 
-  <EmptyState v-else variant="no-results" />
+  <div
+    v-else-if="isFetching"
+    class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+  >
+    <Skeleton v-for="i in 9" :key="i" class="aspect-square w-full" />
+  </div>
+
+  <EmptyState v-else-if="artists.length === 0" variant="no-results" />
 
   <div ref="load-more" class="text-center py-8">
     <Button v-if="hasNextPage" @click="fetchNextPage" :disabled="isFetching">
