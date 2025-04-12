@@ -67,32 +67,26 @@ export:
 		echo "$(GREEN)✓ Using .env.prod file$(NC)"; \
 	fi
 	$(eval include .env.prod)
-	$(eval export DATABASE_URL)
-	$(eval export SUPABASE_DB_URL)
-	$(eval export SUPABASE_DB_USER)
-	$(eval export SUPABASE_DB_PASSWORD)
-	$(eval export SUPABASE_DB_HOST)
-	$(eval export SUPABASE_DB_PORT)
-	$(eval export SUPABASE_DB_NAME)
-	@echo "$(RED)WARNING: This will delete all data in the production database at $(SUPABASE_DB_HOST)$(NC)"
+	$(eval export DIRECT_URL)
+	@echo "$(RED)WARNING: This will delete all data in the prod database$(NC)"
 	@echo "$(RED)Are you sure you want to continue? [y/N]$(NC)"
 	@read -r confirm; \
 	if [ "$$confirm" != "y" ] && [ "$$confirm" != "Y" ]; then \
 		echo "$(YELLOW)Operation cancelled.$(NC)"; \
 		exit 1; \
 	fi
-	@echo "$(YELLOW)Pushing schema to Supabase and resetting database...$(NC)"
-	@echo "$(YELLOW)First, dropping all tables in the Supabase database...$(NC)"
+	@echo "$(YELLOW)Pushing schema to prod database and resetting database...$(NC)"
+	@echo "$(YELLOW)First, dropping all tables in the prod database database...$(NC)"
 	@echo "$(YELLOW)Exporting the data...$(NC)"
 	@PGPASSWORD=password pg_dump db -U user -h 127.0.0.1 --no-comments --no-owner --no-privileges > db.sql 2>/dev/null || (echo "$(RED)Error: Failed to export data$(NC)" && exit 1)
 	@echo "$(YELLOW)Cleaning up SQL dump...$(NC)"
-	@PGPASSWORD="$(SUPABASE_DB_PASSWORD)" psql -U "$(SUPABASE_DB_USER)" -h "$(SUPABASE_DB_HOST)" -p $(SUPABASE_DB_PORT) "$(SUPABASE_DB_NAME)" -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public; GRANT ALL ON SCHEMA public TO postgres; GRANT ALL ON SCHEMA public TO public;" >/dev/null 2>&1 || (echo "$(RED)Error: Failed to drop schema in Supabase$(NC)" && exit 1)
-	@echo "$(GREEN)✓ All tables dropped in Supabase database$(NC)"
+	@psql "$(DIRECT_URL)" -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public; GRANT ALL ON SCHEMA public TO postgres; GRANT ALL ON SCHEMA public TO public;" >/dev/null 2>&1 || (echo "$(RED)Error: Failed to drop schema in prod database$(NC)")
+	@echo "$(GREEN)✓ All tables dropped in prod database database$(NC)"
 	@echo "$(YELLOW)Installing database extensions...$(NC)"
-	@PGPASSWORD="$(SUPABASE_DB_PASSWORD)" psql -U "$(SUPABASE_DB_USER)" -h "$(SUPABASE_DB_HOST)" -p $(SUPABASE_DB_PORT) -d "$(SUPABASE_DB_NAME)" -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;" >/dev/null 2>&1 || echo "$(YELLOW)Note: cube extension might already exist$(NC)"
-	@PGPASSWORD="$(SUPABASE_DB_PASSWORD)" psql -U "$(SUPABASE_DB_USER)" -h "$(SUPABASE_DB_HOST)" -p $(SUPABASE_DB_PORT) -d "$(SUPABASE_DB_NAME)" -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;" >/dev/null 2>&1 || echo "$(YELLOW)Note: earthdistance extension might already exist$(NC)"
-	@echo "$(YELLOW)Uploading data to Supabase (this may take a while)...$(NC)"
-	@PGPASSWORD="$(SUPABASE_DB_PASSWORD)" psql -U "$(SUPABASE_DB_USER)" -h "$(SUPABASE_DB_HOST)" -p $(SUPABASE_DB_PORT) "$(SUPABASE_DB_NAME)" < db.sql >/dev/null 2>&1 || (echo "$(RED)Error: Failed to upload data to Supabase$(NC)" && exit 1)
+	@psql "$(DIRECT_URL)" -c "CREATE EXTENSION IF NOT EXISTS cube CASCADE;" >/dev/null 2>&1 || echo "$(YELLOW)Note: cube extension might already exist$(NC)"
+	@psql "$(DIRECT_URL)" -c "CREATE EXTENSION IF NOT EXISTS earthdistance CASCADE;" >/dev/null 2>&1 || echo "$(YELLOW)Note: earthdistance extension might already exist$(NC)"
+	@echo "$(YELLOW)Uploading data to prod database (this may take a while)...$(NC)"
+	@psql "$(DIRECT_URL)" < db.sql >/dev/null 2>&1 || (echo "$(RED)Error: Failed to upload data to prod database$(NC)" && exit 1)
 	@echo "$(GREEN)✓ Data exported and uploaded$(NC)"
 	@echo "$(YELLOW)Cleaning up temporary files...$(NC)"
 	@rm -f db.sql
