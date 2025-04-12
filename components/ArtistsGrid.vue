@@ -88,7 +88,13 @@ watch(searchQuery, async () => {
       v-else-if="artists.length > 0"
       class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
     >
-      <ArtistCard v-for="artist in artists" :key="artist.id" :artist="artist" />
+      <NuxtLink
+        v-for="artist in artists"
+        :key="artist.id"
+        :to="`/@${artist.username}`"
+      >
+        <ArtistCard :profile="artist" />
+      </NuxtLink>
     </div>
 
     <EmptyState v-else variant="no-results" />

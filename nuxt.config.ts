@@ -38,6 +38,10 @@ export default defineNuxtConfig({
       path: '~/components',
       pathPrefix: false,
     },
+    {
+      path: '~/components/common',
+      pathPrefix: false,
+    },
   ],
   colorMode: {
     classSuffix: '',
