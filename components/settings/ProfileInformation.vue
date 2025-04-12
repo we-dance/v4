@@ -9,7 +9,10 @@ const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(profileSchema),
-  initialValues: profileSchema.safeParse(session.value?.profile).data,
+})
+
+form.setValues({
+  ...session.value?.profile,
 })
 
 const { $client } = useNuxtApp()

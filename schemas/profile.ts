@@ -34,16 +34,16 @@ export const usernameSchema = z
 // Base profile schema
 export const profileSchema = z.object({
   id: z.string().optional(),
-  name: z.string(),
+  name: z.string().nullable(),
   photo: z.string().url().nullable().default(null),
   username: usernameSchema,
-  email: z.string().email(),
-  points: z.number().default(0),
+  email: z.string().email().nullable(),
+  points: z.number().default(0).nullable(),
   type: z
     .enum(['dancer', 'artist', 'organizer', 'venue', 'community'])
     .default('dancer'),
-  roles: z.array(z.string()).default([]),
-  location: z.string().optional(),
+  roles: z.array(z.string()).default([]).nullable(),
+  location: z.string().optional().nullable(),
   city: z
     .object({
       id: z.string(),
@@ -51,10 +51,11 @@ export const profileSchema = z.object({
       countryCode: z.string().optional(),
       slug: z.string().optional(),
     })
-    .optional(),
-  bio: z.string().optional(),
-  languages: z.array(z.string()).default([]),
-  locales: z.record(z.string(), z.boolean()).optional(),
+    .optional()
+    .nullable(),
+  bio: z.string().optional().nullable(),
+  languages: z.array(z.string()).default([]).nullable(),
+  locales: z.record(z.string(), z.boolean()).optional().nullable(),
   styles: z
     .array(
       z.object({

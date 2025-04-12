@@ -15,6 +15,14 @@ const firebaseParameters = {
 }
 
 export const usersRouter = router({
+  currentUser: publicProcedure.query(async ({ ctx }) => {
+    const session = await getServerSession(ctx.event)
+    return session?.user
+  }),
+  currentProfile: publicProcedure.query(async ({ ctx }) => {
+    const session = await getServerSession(ctx.event)
+    return session?.profile
+  }),
   update: publicProcedure
     .input(
       z.object({
