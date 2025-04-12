@@ -33,8 +33,11 @@
               <button
                 class="w-full text-left px-3 py-2 hover:bg-muted rounded-lg flex items-center text-foreground"
               >
-                <Icon name="ph:note" class="w-5 h-5 text-primary mr-2" />
-                <span>Message</span>
+                <Icon
+                  name="ph:chat-centered-dots"
+                  class="w-5 h-5 text-primary mr-2"
+                />
+                <span>Thread</span>
               </button>
               <button
                 class="w-full text-left px-3 py-2 hover:bg-muted rounded-lg flex items-center text-foreground"
