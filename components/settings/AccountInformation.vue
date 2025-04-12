@@ -2,7 +2,6 @@
 import { toast } from 'vue-sonner'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { userSchema, type User } from '~/schemas/user'
 
 const { session } = useAppAuth()
