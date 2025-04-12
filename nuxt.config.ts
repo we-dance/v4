@@ -32,6 +32,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/content',
     '@sidebase/nuxt-auth',
+    '@hebilicious/vue-query-nuxt',
   ],
   components: [
     {
