@@ -1,4 +1,3 @@
-import { useQuery, useMutation, useInfiniteQuery } from 'vue-query'
 import type { CreatePost, UpdateStats } from '~/server/trpc/schemas/post'
 
 const { $client } = useNuxtApp()

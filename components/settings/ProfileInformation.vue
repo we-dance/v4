@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
 import { profileSchema } from '~/schemas/profile'
 

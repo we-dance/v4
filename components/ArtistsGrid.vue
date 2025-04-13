@@ -1,58 +1,37 @@
 <script setup>
-import { toast } from 'vue-sonner'
-
+import { useIntersectionObserver } from '@vueuse/core'
 const { $client } = useNuxtApp()
 
 const searchQuery = ref('')
-const loading = ref(true)
-const error = ref(null)
-const artists = ref([])
-const hasMore = ref(true)
-const loadingMore = ref(false)
-const limit = ref(9)
-const page = ref(1)
 
-const fetchArtists = async () => {
-  try {
-    const response = await $client.profiles.artists.query({
+const {
+  isPending,
+  isFetching,
+  isError,
+  data,
+  error,
+  fetchNextPage,
+  hasNextPage,
+} = useInfiniteQuery({
+  queryKey: ['artists', searchQuery],
+  queryFn: ({ pageParam = 1 }) =>
+    $client.profiles.artists.query({
       query: searchQuery.value,
-      limit: limit.value,
-      page: page.value,
-    })
-
-    artists.value = [...artists.value, ...response.artists]
-    hasMore.value = response.hasMore
-  } catch (e) {
-    toast.error('Failed to fetch artists', {
-      description: e.message,
-    })
-  } finally {
-    loading.value = false
-  }
-}
-
-const loadMore = async () => {
-  if (loadingMore.value || !hasMore.value) return
-
-  loadingMore.value = true
-
-  try {
-    page.value++
-    await fetchArtists()
-  } finally {
-    loadingMore.value = false
-  }
-}
-
-onMounted(async () => {
-  await fetchArtists()
+      page: pageParam,
+    }),
+  getNextPageParam: (lastPage, pages) => lastPage.nextPage,
 })
 
-watch(searchQuery, async () => {
-  page.value = 1
-  artists.value = []
+const artists = computed(
+  () => data.value?.pages.flatMap((page) => page.artists) ?? []
+)
 
-  await fetchArtists()
+const loadMoreButton = useTemplateRef('load-more')
+
+useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
+  if (entry?.isIntersecting && hasNextPage.value && !isError.value) {
+    fetchNextPage()
+  }
 })
 </script>
 
@@ -65,50 +44,39 @@ watch(searchQuery, async () => {
     class="w-full"
   />
 
-  <div>
-    <div v-if="loading" class="col-span-full text-center py-12">
-      <div class="flex flex-col items-center">
-        <Icon
-          name="ph:spinner-gap"
-          class="h-8 w-8 animate-spin mb-4 text-primary"
-        />
-        <p class="text-muted-foreground">Loading artists...</p>
-      </div>
-    </div>
+  <ErrorMessage v-if="isError" :error="error" />
 
-    <div v-else-if="error" class="text-red-500 text-center py-4 col-span-full">
-      <Icon name="ph:warning-circle" class="h-8 w-8 mb-2 mx-auto" />
-      <p>{{ error }}</p>
-      <Button variant="secondary" size="sm" class="mt-4" @click="fetchArtists">
-        Try Again
-      </Button>
-    </div>
-
-    <div
-      v-else-if="artists.length > 0"
-      class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+  <div
+    v-else-if="artists.length > 0"
+    class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+  >
+    <NuxtLink
+      v-for="artist in artists"
+      :key="artist.id"
+      :to="`/@${artist.username}`"
     >
-      <NuxtLink
-        v-for="artist in artists"
-        :key="artist.id"
-        :to="`/@${artist.username}`"
-      >
-        <ArtistCard :profile="artist" />
-      </NuxtLink>
-    </div>
-
-    <EmptyState v-else variant="no-results" />
+      <ArtistCard :profile="artist" />
+    </NuxtLink>
   </div>
 
-  <div v-if="hasMore && !loading && !error" class="text-center py-8">
-    <Button @click="loadMore" :disabled="loadingMore">
+  <div
+    v-else-if="isFetching"
+    class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+  >
+    <Skeleton v-for="i in 9" :key="i" class="aspect-square w-full" />
+  </div>
+
+  <EmptyState v-else-if="artists.length === 0" variant="no-results" />
+
+  <div ref="load-more" class="text-center py-8">
+    <Button v-if="hasNextPage" @click="fetchNextPage" :disabled="isFetching">
       <Icon
-        v-if="loadingMore"
+        v-if="isFetching"
         name="ph:spinner-gap"
         class="h-4 w-4 animate-spin mr-2"
       />
-      <span v-if="loadingMore">Loading more...</span>
-      <span v-else>Load More Artists</span>
+      <span v-if="isFetching">Loading...</span>
+      <span v-else>Load More</span>
     </Button>
   </div>
 </template>

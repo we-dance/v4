@@ -3,7 +3,6 @@ import { ref, computed } from 'vue'
 import { toast } from 'vue-sonner'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { passwordSchema } from '~/schemas/user'
 
 // Setup form with validation

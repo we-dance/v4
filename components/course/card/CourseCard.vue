@@ -26,6 +26,12 @@ const { course } = defineProps<{
       <div class="space-y-2">
         <h3 class="font-semibold text-xl group-hover:text-primary">
           {{ course.name }}
+          <Badge v-if="course.status === 'draft'" variant="outline">
+            Draft
+          </Badge>
+          <Badge v-if="course.status === 'archived'" variant="destructive">
+            Archived
+          </Badge>
         </h3>
         <p class="text-sm text-muted-foreground line-clamp-2">
           {{ course.description }}

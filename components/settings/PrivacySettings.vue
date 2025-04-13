@@ -4,7 +4,6 @@ import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { privacySettingsSchema, type PrivacySettings } from '~/schemas/profile'
-import { useMutation } from 'vue-query'
 
 const { session } = useAppAuth()
 
