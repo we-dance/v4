@@ -2,7 +2,6 @@ import type { CreatePost, UpdateStats } from '~/server/trpc/schemas/post'
 
 const { $client } = useNuxtApp()
 
-// Export composables for use in components
 export function usePostsList(params: {
   type: string
   limit: number
@@ -48,15 +47,6 @@ export function useEventById(id: string) {
     queryKey: ['events.byId', id],
     queryFn: () => {
       return $client.events.byId.query(id)
-    },
-  })
-}
-
-export function useArtists() {
-  return useQuery({
-    queryKey: ['profiles.artists'],
-    queryFn: () => {
-      return $client.profiles.artists.query()
     },
   })
 }
