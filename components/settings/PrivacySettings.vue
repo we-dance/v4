@@ -16,8 +16,8 @@ const form = useForm({
 
 const { $client } = useNuxtApp()
 
-const updatePrivacySettingsMutation = useMutation(
-  async (values: PrivacySettings) => {
+const updatePrivacySettingsMutation = useMutation({
+  mutationFn: async (values: PrivacySettings) => {
     const profileId = session.value?.profile?.id
 
     if (!profileId) {
@@ -29,23 +29,20 @@ const updatePrivacySettingsMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Privacy settings updated', {
-        description: 'Your privacy preferences have been saved successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update privacy settings.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Privacy settings updated', {
+      description: 'Your privacy preferences have been saved successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage = error?.message || 'Failed to update privacy settings.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdating = computed(() => updatePrivacySettingsMutation.isLoading.value)
+const isUpdating = computed(() => updatePrivacySettingsMutation.isPending.value)
 
 const canSubmit = computed(() => {
   return form.meta.value.dirty && !isUpdating.value

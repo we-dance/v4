@@ -16,8 +16,8 @@ form.setValues({
 
 const { $client } = useNuxtApp()
 
-const updateProfileMutation = useMutation(
-  async (values: any) => {
+const updateProfileMutation = useMutation({
+  mutationFn: async (values: any) => {
     const profileId = session.value?.profile?.id
 
     if (!profileId) {
@@ -29,23 +29,21 @@ const updateProfileMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Profile updated', {
-        description: 'Your profile information has been updated successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update profile information.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Profile updated', {
+      description: 'Your profile information has been updated successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage =
+      error?.message || 'Failed to update profile information.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdatingProfile = computed(() => updateProfileMutation.isLoading.value)
+const isUpdatingProfile = computed(() => updateProfileMutation.isPending.value)
 
 const canSubmit = computed(() => {
   const isDirty = form.meta.value.dirty

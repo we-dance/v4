@@ -20,8 +20,8 @@ const notificationSettings = computed(() => form.values as NotificationSettings)
 
 const { $client } = useNuxtApp()
 
-const updateNotificationsMutation = useMutation(
-  async (values: NotificationSettings) => {
+const updateNotificationsMutation = useMutation({
+  mutationFn: async (values: NotificationSettings) => {
     if (!session.value) {
       throw new Error('User not authenticated')
     }
@@ -31,24 +31,22 @@ const updateNotificationsMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Notification settings updated', {
-        description:
-          'Your notification preferences have been saved successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update notification settings.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Notification settings updated', {
+      description:
+        'Your notification preferences have been saved successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage =
+      error?.message || 'Failed to update notification settings.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdating = computed(() => updateNotificationsMutation.isLoading.value)
+const isUpdating = computed(() => updateNotificationsMutation.isPending.value)
 
 const saveNotificationSettings = () => {
   updateNotificationsMutation.mutate(notificationSettings.value)

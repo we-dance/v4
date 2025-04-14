@@ -20,7 +20,7 @@ async function deleteAccount() {
 
   try {
     await $client.users.delete.mutate({
-      id: session.value?.user.id,
+      id: session.value?.user.id as string,
     })
 
     toast.success('Account deleted', {

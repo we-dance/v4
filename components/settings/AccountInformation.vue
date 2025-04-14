@@ -17,8 +17,8 @@ form.setValues({
   ...session.value?.user,
 })
 
-const updateAccountMutation = useMutation(
-  async (values: User) => {
+const updateAccountMutation = useMutation({
+  mutationFn: async (values: User) => {
     const userId = user?.id
 
     if (!userId) {
@@ -30,23 +30,21 @@ const updateAccountMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Account updated', {
-        description: 'Your account information has been updated successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update account information.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Account updated', {
+      description: 'Your account information has been updated successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage =
+      error?.message || 'Failed to update account information.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdatingAccount = computed(() => updateAccountMutation.isLoading.value)
+const isUpdatingAccount = computed(() => updateAccountMutation.isPending.value)
 
 const canSubmit = computed(() => {
   return form.meta.value.dirty && !isUpdatingAccount.value

@@ -33,8 +33,8 @@ const form = useForm({
 
 const { $client } = useNuxtApp()
 
-const updateSocialLinksMutation = useMutation(
-  async (values: any) => {
+const updateSocialLinksMutation = useMutation({
+  mutationFn: async (values: any) => {
     const profileId = session.value?.profile?.id
 
     if (!profileId) {
@@ -46,22 +46,20 @@ const updateSocialLinksMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Social links updated', {
-        description: 'Your social links have been updated successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage = error?.message || 'Failed to update social links.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Social links updated', {
+      description: 'Your social links have been updated successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage = error?.message || 'Failed to update social links.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdating = computed(() => updateSocialLinksMutation.isLoading.value)
+const isUpdating = computed(() => updateSocialLinksMutation.isPending.value)
 
 const canSubmit = computed(() => {
   const isDirty = form.meta.value.dirty

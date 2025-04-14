@@ -23,41 +23,42 @@ const showConfirmPassword = ref(false)
 
 const { $client } = useNuxtApp()
 
-const updatePasswordMutation = useMutation(
-  async (values: { currentPassword: string; newPassword: string }) => {
+const updatePasswordMutation = useMutation({
+  mutationFn: async (values: {
+    currentPassword: string
+    newPassword: string
+  }) => {
     return await $client.users.updatePassword.mutate({
       currentPassword: values.currentPassword,
       newPassword: values.newPassword,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Password updated', {
-        description: 'Your password has been updated successfully.',
-      })
+  onSuccess: () => {
+    toast.success('Password updated', {
+      description: 'Your password has been updated successfully.',
+    })
 
-      // Reset form
-      form.resetForm()
+    // Reset form
+    form.resetForm()
 
-      // Show success message
-      passwordUpdateSuccess.value = true
+    // Show success message
+    passwordUpdateSuccess.value = true
 
-      // Hide success message after 5 seconds
-      setTimeout(() => {
-        passwordUpdateSuccess.value = false
-      }, 5000)
-    },
-    onError: (error: any) => {
-      const errorMessage = error?.message || 'Failed to update password.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+    // Hide success message after 5 seconds
+    setTimeout(() => {
+      passwordUpdateSuccess.value = false
+    }, 5000)
+  },
+  onError: (error: any) => {
+    const errorMessage = error?.message || 'Failed to update password.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
 const isUpdatingPassword = computed(
-  () => updatePasswordMutation.isLoading.value
+  () => updatePasswordMutation.isPending.value
 )
 
 const canSubmit = computed(() => {
