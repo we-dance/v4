@@ -1,5 +1,5 @@
-const animate = require('tailwindcss-animate')
-const typography = require('@tailwindcss/typography')
+import animate from 'tailwindcss-animate'
+import typography from '@tailwindcss/typography'
 
 /** @type {import('tailwindcss').Config} */
 export default {
