@@ -37,6 +37,11 @@ export const designConfig = {
             label: 'Dialog',
             description: 'Modal windows and overlays',
           },
+          {
+            to: '/design/components/photo-input',
+            label: 'Photo Input',
+            description: 'Image upload and preview component',
+          },
         ],
       },
       domain: {
