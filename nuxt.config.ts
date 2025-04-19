@@ -99,7 +99,10 @@ export default defineNuxtConfig({
     stripePublicKey: '',
     stripeWebhookSecret: '',
     public: {
-      appUrl: '',
+      appUrl: process.env.NUXT_PUBLIC_APP_URL || '',
+      cloudinaryCloudName: process.env.NUXT_PUBLIC_CLOUDINARY_CLOUD_NAME || '',
+      cloudinaryUploadPreset:
+        process.env.NUXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || '',
     },
   },
 })
