@@ -19,11 +19,14 @@ definePageMeta({
       >
         <p class="text-sm flex items-center gap-2">
           <Icon name="ph:info" class="h-5 w-5" />
-          <span
-            >In this documentation, the component is running in
-            <strong>test mode</strong> and images are not actually uploaded to
-            Cloudinary.</span
-          >
+          <span>
+            This component requires proper Cloudinary configuration in your Nuxt
+            runtime config. Add the following to your .env file:
+            <code class="block bg-amber-100 p-1 mt-1 rounded">
+              NUXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name<br />
+              NUXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=your_upload_preset
+            </code>
+          </span>
         </p>
       </div>
     </div>

@@ -36,6 +36,7 @@ const props = defineProps({
 
 const emit = defineEmits(['update:modelValue'])
 const modelValue = useVModel(props, 'modelValue', emit)
+const runtimeConfig = useRuntimeConfig()
 
 const fileInput = ref<HTMLInputElement | null>(null)
 const isLoading = ref(false)
@@ -68,12 +69,19 @@ const uploadToCloudinary = async (file: File) => {
       return await generateTestImage(file)
     }
 
+    const cloudName = runtimeConfig.public.cloudinaryCloudName
+    const uploadPreset = runtimeConfig.public.cloudinaryUploadPreset
+
+    if (!cloudName || !uploadPreset) {
+      throw new Error('Cloudinary configuration is missing')
+    }
+
     const formData = new FormData()
     formData.append('file', file)
-    formData.append('upload_preset', 'wedance_uploads')
+    formData.append('upload_preset', uploadPreset)
 
     const response = await fetch(
-      `https://api.cloudinary.com/v1_1/${process.env.NUXT_PUBLIC_CLOUDINARY_CLOUD_NAME || 'dtvesf3up'}/image/upload`,
+      `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,
       {
         method: 'POST',
         body: formData,
