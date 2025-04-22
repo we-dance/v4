@@ -22,6 +22,7 @@
     "@nuxt/content": "3.4.0",
     "@nuxt/icon": "1.11.0",
     "@nuxt/image": "^1.10.0",
+    "@nuxtjs/cloudinary": "^2.4.2",
     "@prisma/client": "^6.5.0",
     "@tanstack/vue-query": "^5.73.3",
     "@trpc/client": "^11.0.1",
