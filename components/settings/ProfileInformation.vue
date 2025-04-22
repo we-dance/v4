@@ -70,11 +70,13 @@ function onSubmit(e: Event) {
         <FormItem>
           <FormLabel>Photo</FormLabel>
           <FormControl>
-            <Input
+            <PhotoInput
               v-bind="componentField"
-              type="url"
-              placeholder="https://example.com/your-photo.jpg"
-              class="max-w-md"
+              :modelValue="form.values.photo || ''"
+              @update:modelValue="(value) => form.setFieldValue('photo', value)"
+              :width="250"
+              :height="250"
+              placeholder="Upload profile photo"
             />
           </FormControl>
           <FormDescription />

@@ -28,9 +28,22 @@ const props = defineProps({
     type: Array as () => string[],
     default: () => ['.jpg', '.jpeg', '.png', '.gif', '.webp'],
   },
-  testMode: {
+  // Cloudinary specific options
+  cropping: {
     type: Boolean,
     default: false,
+  },
+  folder: {
+    type: String,
+    default: '',
+  },
+  multipleFiles: {
+    type: Boolean,
+    default: false,
+  },
+  tags: {
+    type: Array as () => string[],
+    default: () => [],
   },
 })
 
@@ -38,11 +51,10 @@ const emit = defineEmits(['update:modelValue'])
 const modelValue = useVModel(props, 'modelValue', emit)
 const runtimeConfig = useRuntimeConfig()
 
-const fileInput = ref<HTMLInputElement | null>(null)
 const isLoading = ref(false)
-const dragOver = ref(false)
 
-const acceptFileTypes = computed(() => props.acceptedFileTypes.join(','))
+const cloudName = computed(() => runtimeConfig.public.cloudinaryCloudName)
+const uploadPreset = computed(() => runtimeConfig.public.cloudinaryUploadPreset)
 
 const imageStyles = computed(() => ({
   width: `${props.width}px`,
@@ -50,133 +62,32 @@ const imageStyles = computed(() => ({
   maxWidth: '100%',
 }))
 
-const generateTestImage = async (file: File) => {
-  return new Promise<string>((resolve) => {
-    const reader = new FileReader()
-    reader.onload = (e) => {
-      resolve(e.target?.result as string)
-    }
-    reader.readAsDataURL(file)
-  })
-}
-
-const uploadToCloudinary = async (file: File) => {
-  try {
-    isLoading.value = true
-
-    if (props.testMode) {
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-      return await generateTestImage(file)
-    }
-
-    const cloudName = runtimeConfig.public.cloudinaryCloudName
-    const uploadPreset = runtimeConfig.public.cloudinaryUploadPreset
-
-    if (!cloudName || !uploadPreset) {
-      throw new Error('Cloudinary configuration is missing')
-    }
-
-    const formData = new FormData()
-    formData.append('file', file)
-    formData.append('upload_preset', uploadPreset)
-
-    const response = await fetch(
-      `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,
-      {
-        method: 'POST',
-        body: formData,
-      }
-    )
-
-    if (!response.ok) {
-      throw new Error('Failed to upload image')
-    }
-
-    const data = await response.json()
-    return data.secure_url
-  } catch (error) {
-    toast.error('Failed to upload image')
-    throw error
-  } finally {
-    isLoading.value = false
-  }
-}
-
-const handleFileChange = async (event: Event) => {
-  const target = event.target as HTMLInputElement
-  const files = target.files
-
-  if (!files || files.length === 0) return
-
-  const file = files[0]
-  await handleUpload(file)
-
-  if (fileInput.value) {
-    fileInput.value.value = ''
-  }
-}
-
-const handleDrop = async (event: DragEvent) => {
-  event.preventDefault()
-  dragOver.value = false
-
-  if (!event.dataTransfer?.files || event.dataTransfer.files.length === 0)
-    return
-
-  const file = event.dataTransfer.files[0]
-  await handleUpload(file)
-}
-
-const handleUpload = async (file: File) => {
-  const fileExtension = `.${file.name.split('.').pop()?.toLowerCase()}`
-  if (!props.acceptedFileTypes.includes(fileExtension)) {
-    toast.error(
-      `Invalid file type. Allowed types: ${props.acceptedFileTypes.join(', ')}`
-    )
-    return
-  }
-
-  const maxSizeInBytes = props.maxSize * 1024 * 1024
-  if (file.size > maxSizeInBytes) {
-    toast.error(`File is too large. Maximum size is ${props.maxSize}MB.`)
-    return
-  }
-
-  try {
-    const url = await uploadToCloudinary(file)
+const handleUploadSuccess = (result: any) => {
+  if (result && result.event === 'success') {
+    const url = result.info.secure_url
     modelValue.value = url
     toast.success('Image uploaded successfully')
-  } catch (error) {
-    toast.error('Failed to upload image')
   }
 }
 
-const triggerFileInput = () => {
-  fileInput.value?.click()
+const handleResult = (result: any) => {
+  if (result && result.event === 'success') {
+    handleUploadSuccess(result)
+  }
+}
+
+const handleError = (error: any) => {
+  console.error('Upload error:', error)
+  toast.error('Failed to upload image')
 }
 
 const clearImage = () => {
   modelValue.value = ''
 }
-
-const handleDragOver = (event: DragEvent) => {
-  event.preventDefault()
-  dragOver.value = true
-}
-
-const handleDragLeave = () => {
-  dragOver.value = false
-}
 </script>
 
 <template>
-  <div
-    class="relative flex flex-col items-center justify-center"
-    :class="{ 'border-2 border-dashed border-primary': dragOver }"
-    @dragover="handleDragOver"
-    @dragleave="handleDragLeave"
-    @drop="handleDrop"
-  >
+  <div class="relative flex flex-col items-center justify-center">
     <!-- Image preview -->
     <div
       v-if="modelValue"
@@ -196,51 +107,103 @@ const handleDragLeave = () => {
             <Icon name="ph:trash" class="h-4 w-4" />
             Remove
           </Button>
-          <Button variant="secondary" size="sm" @click="triggerFileInput">
-            <Icon name="ph:arrow-clockwise" class="h-4 w-4" />
-            Replace
-          </Button>
+          <CldUploadWidget
+            v-if="cloudName && uploadPreset"
+            v-slot="{ open }"
+            :uploadPreset="uploadPreset"
+            :config="{ cloud: { cloudName } }"
+            :options="{
+              folder,
+              multiple: multipleFiles,
+              tags,
+              cropping,
+              resourceType: 'image',
+            }"
+            :onSuccess="handleUploadSuccess"
+            :onError="handleError"
+            :onResult="handleResult"
+          >
+            <Button variant="secondary" size="sm" @click="open">
+              <Icon name="ph:arrow-clockwise" class="h-4 w-4" />
+              Replace
+            </Button>
+          </CldUploadWidget>
         </div>
       </div>
     </div>
 
-    <!-- Upload area -->
-    <div
-      v-else
-      class="flex cursor-pointer flex-col items-center justify-center rounded-lg border border-dashed border-muted-foreground bg-muted p-6 text-center transition-all hover:border-primary"
-      :style="imageStyles"
-      @click="triggerFileInput"
-    >
-      <div
-        v-if="isLoading"
-        class="flex flex-col items-center gap-2 text-foreground"
+    <!-- Upload area with CldUploadWidget -->
+    <div v-else>
+      <CldUploadWidget
+        v-if="cloudName && uploadPreset"
+        v-slot="{ open }"
+        :uploadPreset="uploadPreset"
+        :config="{ cloud: { cloudName } }"
+        :options="{
+          folder,
+          multiple: multipleFiles,
+          tags,
+          cropping,
+          maxFiles: 1,
+          maxFileSize: maxSize * 1024 * 1024,
+          sources: [
+            'local',
+            'url',
+            'camera',
+            'google_drive',
+            'dropbox',
+            'unsplash',
+          ],
+          resourceType: 'image',
+        }"
+        :onSuccess="handleUploadSuccess"
+        :onError="handleError"
+        :onResult="handleResult"
       >
-        <Icon name="ph:spinner" class="h-12 w-12 animate-spin" />
-        <span>Uploading...</span>
-      </div>
+        <div
+          class="flex cursor-pointer flex-col items-center justify-center rounded-lg border border-dashed border-muted-foreground bg-muted p-6 text-center transition-all hover:border-primary"
+          :style="imageStyles"
+          @click="open"
+        >
+          <div
+            v-if="isLoading"
+            class="flex flex-col items-center gap-2 text-foreground"
+          >
+            <Icon name="ph:spinner" class="h-12 w-12 animate-spin" />
+            <span>Uploading...</span>
+          </div>
+          <div
+            v-else
+            class="flex flex-col items-center gap-2 text-muted-foreground"
+          >
+            <Icon name="ph:cloud-arrow-up" class="h-12 w-12" />
+            <span class="text-lg font-medium">{{ placeholder }}</span>
+            <span class="text-sm">Click to select</span>
+            <span class="text-xs text-muted-foreground">
+              Supported formats: {{ acceptedFileTypes.join(', ') }}
+            </span>
+            <span class="text-xs text-muted-foreground">
+              Max size: {{ maxSize }}MB
+            </span>
+          </div>
+        </div>
+      </CldUploadWidget>
+
+      <!-- Fallback message when Cloudinary is not configured -->
       <div
         v-else
-        class="flex flex-col items-center gap-2 text-muted-foreground"
+        class="flex cursor-pointer flex-col items-center justify-center rounded-lg border border-dashed border-muted-foreground bg-muted p-6 text-center"
+        :style="imageStyles"
       >
-        <Icon name="ph:cloud-arrow-up" class="h-12 w-12" />
-        <span class="text-lg font-medium">{{ placeholder }}</span>
-        <span class="text-sm"> Drag and drop or click to select </span>
-        <span class="text-xs text-muted-foreground">
-          Supported formats: {{ props.acceptedFileTypes.join(', ') }}
-        </span>
-        <span class="text-xs text-muted-foreground">
-          Max size: {{ props.maxSize }}MB
-        </span>
+        <div class="flex flex-col items-center gap-2 text-amber-500">
+          <Icon name="ph:warning-circle" class="h-12 w-12" />
+          <span class="text-lg font-medium">Cloudinary not configured</span>
+          <span class="text-sm max-w-md">
+            Please ensure Cloudinary is properly configured in your .env file.
+            Check the documentation for setup instructions.
+          </span>
+        </div>
       </div>
     </div>
-
-    <!-- Hidden file input -->
-    <input
-      ref="fileInput"
-      type="file"
-      class="hidden"
-      :accept="acceptFileTypes"
-      @change="handleFileChange"
-    />
   </div>
 </template>
