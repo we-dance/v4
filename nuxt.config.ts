@@ -15,11 +15,9 @@ export default defineNuxtConfig({
     },
   },
 
-  vite: {
-    server: {
-      allowedHosts: [
-        'a2d2-2a02-2455-17ea-2900-f8ac-182-94de-5bed.ngrok-free.app',
-      ],
+  posthog: {
+    clientOptions: {
+      persistence: 'memory',
     },
   },
 

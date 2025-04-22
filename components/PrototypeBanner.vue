@@ -5,13 +5,21 @@ const isVisible = ref(true)
 
 const hide = () => {
   isVisible.value = false
+  localStorage.setItem('early-preview-banner', 'hidden')
 }
+
+onMounted(() => {
+  const hidden = localStorage.getItem('early-preview-banner')
+  if (hidden) {
+    isVisible.value = false
+  }
+})
 </script>
 
 <template>
   <div
     v-if="isVisible"
-    class="fixed bottom-4 right-4 max-w-sm bg-background rounded-lg shadow-lg border border-border p-4 animate-fade-in"
+    class="fixed bottom-4 right-4 max-w-sm bg-background rounded-lg shadow-lg border border-border p-4 animate-fade-in z-50"
   >
     <div class="flex items-start gap-3">
       <div class="flex-1">
