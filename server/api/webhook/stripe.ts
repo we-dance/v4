@@ -16,11 +16,9 @@ export default eventHandler(async (event) => {
     return { error: 'Invalid stripe-signature' }
   }
 
-  let stripe: any
+  const stripe = getStripe()
 
   try {
-    stripe = getStripe()
-
     stripeEvent = stripe.webhooks.constructEvent(
       body,
       signature,
@@ -35,10 +33,6 @@ export default eventHandler(async (event) => {
     }
   }
 
-  if (!stripeEvent) {
-    return { error: 'Invalid stripe event' }
-  }
-
   switch (stripeEvent.type) {
     case 'checkout.session.completed':
       const checkoutSession = stripeEvent.data.object
@@ -49,15 +43,20 @@ export default eventHandler(async (event) => {
 
       const stripeAccount = checkoutSession.metadata.stripeAccount
 
-      const stripeSubscription = await stripe.subscriptions.retrieve(
-        checkoutSession.subscription,
-        {
-          stripeAccount,
-        }
-      )
-      const nextBillingDate = new Date(
-        stripeSubscription.items.data[0].current_period_end * 1000
-      )
+      let nextBillingDate: Date | null = null
+
+      if (checkoutSession.subscription) {
+        const stripeSubscription = await stripe.subscriptions.retrieve(
+          checkoutSession.subscription,
+          {
+            stripeAccount,
+          }
+        )
+
+        nextBillingDate = new Date(
+          stripeSubscription.items.data[0].current_period_end * 1000
+        )
+      }
 
       const subscription = await prisma.subscription.findUnique({
         where: {
