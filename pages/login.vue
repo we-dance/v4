@@ -16,7 +16,10 @@
 
       <div class="text-center text-sm text-muted-foreground mt-6">
         Don't have an account?
-        <NuxtLink to="/register" class="text-info hover:underline font-medium">
+        <NuxtLink
+          :to="`/register?redirect=${$route.query.redirect || ''}`"
+          class="text-info hover:underline font-medium"
+        >
           Create one now
         </NuxtLink>
       </div>

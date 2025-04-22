@@ -14,7 +14,10 @@
 
       <div class="text-center text-sm text-muted-foreground mt-6">
         Already have an account?
-        <NuxtLink to="/login" class="text-info hover:underline">
+        <NuxtLink
+          :to="`/login?redirect=${$route.query.redirect || ''}`"
+          class="text-info hover:underline"
+        >
           Sign in
         </NuxtLink>
       </div>
