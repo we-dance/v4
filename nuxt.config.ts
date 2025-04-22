@@ -33,6 +33,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@sidebase/nuxt-auth',
     '@hebilicious/vue-query-nuxt',
+    'nuxt-posthog',
   ],
   components: [
     {
