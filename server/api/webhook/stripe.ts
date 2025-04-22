@@ -16,9 +16,11 @@ export default eventHandler(async (event) => {
     return { error: 'Invalid stripe-signature' }
   }
 
-  const stripe = getStripe()
+  let stripe: any
 
   try {
+    stripe = getStripe()
+
     stripeEvent = stripe.webhooks.constructEvent(
       body,
       signature,
@@ -31,6 +33,10 @@ export default eventHandler(async (event) => {
     return {
       error: errorMessage,
     }
+  }
+
+  if (!stripeEvent) {
+    return { error: 'Invalid stripe event' }
   }
 
   switch (stripeEvent.type) {
