@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import EmptyState from '~/components/common/EmptyState.vue'
 import OrganizerCard from '~/components/OrganizerCard.vue'
-import { trpc } from '~/composables/trpc'
+const { $client } = useNuxtApp()
 
 const isGridView = ref(true)
 const organizers = ref<any[]>([])
@@ -25,7 +25,7 @@ async function fetchOrganizers(isLoadMore = false) {
   }
 
   try {
-    const data = await trpc.profiles.organisers.query({
+    const data = await $client.profiles.organisers.query({
       limit: limit.value,
       page: page.value,
     })
@@ -68,22 +68,6 @@ onMounted(() => {
     <div
       class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6"
     >
-      <div class="flex gap-2">
-        <Button variant="secondary" @click="showLocationFilter = true">
-          <Icon name="ph:map-pin" class="w-4 h-4 mr-2" />
-          {{ filters.location || 'Any Location' }}
-        </Button>
-        <Button variant="secondary" @click="showFilters = !showFilters">
-          <Icon name="ph:funnel" class="w-4 h-4 mr-2" />
-          Filters
-        </Button>
-        <Button variant="secondary" @click="toggleView">
-          <Icon
-            :name="isGridView ? 'ph:grid-four' : 'ph:list'"
-            class="w-4 h-4"
-          />
-        </Button>
-      </div>
       <Button variant="primary" as-child class="w-full sm:w-auto">
         <NuxtLink to="/register" class="flex items-center justify-center gap-2">
           <Icon name="ph:plus-circle" class="w-5 h-5" />
