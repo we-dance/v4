@@ -89,9 +89,9 @@ export function getSlug(name: string, minLength = 2, maxLength = 30) {
 }
 
 export const userSchema = z.object({
-  firstName: z.string().min(1, 'First name is required.'),
-  lastName: z.string().min(1, 'Last name is required.'),
-  phone: z.string().min(1, 'Phone is required.'),
+  firstName: z.string().min(1, 'First name is required.').nullable(),
+  lastName: z.string().min(1, 'Last name is required.').nullable(),
+  phone: z.string().min(1, 'Phone is required.').nullable(),
   email: z.string().email(),
 })
 

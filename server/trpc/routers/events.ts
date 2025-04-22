@@ -1,6 +1,7 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
-import { publicProcedure, router } from '../trpc'
+import { publicProcedure, router } from '~/server/trpc/init'
+import { prisma } from '~/server/prisma'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -20,8 +21,7 @@ export const eventsRouter = router({
     )
     .query(async ({ ctx, input }) => {
       try {
-        // Fetch events from the database
-        const events = await ctx.prisma.event.findMany({
+        const events = await prisma.event.findMany({
           take: input.limit,
           skip: input.cursor ? 1 : 0,
           cursor: input.cursor ? { id: input.cursor } : undefined,
@@ -57,7 +57,7 @@ export const eventsRouter = router({
   // Add byId procedure
   byId: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
     try {
-      const event = await ctx.prisma.event.findUnique({
+      const event = await prisma.event.findUnique({
         where: { id: input },
         include: {
           venue: true,

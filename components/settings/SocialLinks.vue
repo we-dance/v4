@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
 import { z } from 'zod'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 // Create a specific validation schema for social links
 const socialLinksSchema = z.object({
@@ -29,30 +28,14 @@ const socialLinksSchema = z.object({
 // Initialize form with existing profile data
 const form = useForm({
   validationSchema: toTypedSchema(socialLinksSchema),
-  initialValues: {
-    couchsurfing: data.value?.profile?.couchsurfing || '',
-    linkedin: data.value?.profile?.linkedin || '',
-    airbnb: data.value?.profile?.airbnb || '',
-    blablacar: data.value?.profile?.blablacar || '',
-    spotify: data.value?.profile?.spotify || '',
-    instagram: data.value?.profile?.instagram || '',
-    facebook: data.value?.profile?.facebook || '',
-    vk: data.value?.profile?.vk || '',
-    whatsapp: data.value?.profile?.whatsapp || '',
-    telegram: data.value?.profile?.telegram || '',
-    twitter: data.value?.profile?.twitter || '',
-    tiktok: data.value?.profile?.tiktok || '',
-    youtube: data.value?.profile?.youtube || '',
-    threads: data.value?.profile?.threads || '',
-    website: data.value?.profile?.website || '',
-  },
+  initialValues: socialLinksSchema.safeParse(session.value?.profile).data,
 })
 
 const { $client } = useNuxtApp()
 
-const updateSocialLinksMutation = useMutation(
-  async (values: any) => {
-    const profileId = data.value?.profile?.id
+const updateSocialLinksMutation = useMutation({
+  mutationFn: async (values: any) => {
+    const profileId = session.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')
@@ -63,22 +46,20 @@ const updateSocialLinksMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Social links updated', {
-        description: 'Your social links have been updated successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage = error?.message || 'Failed to update social links.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Social links updated', {
+      description: 'Your social links have been updated successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage = error?.message || 'Failed to update social links.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdating = computed(() => updateSocialLinksMutation.isLoading.value)
+const isUpdating = computed(() => updateSocialLinksMutation.isPending.value)
 
 const canSubmit = computed(() => {
   const isDirty = form.meta.value.dirty

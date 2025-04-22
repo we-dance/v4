@@ -88,8 +88,8 @@ const benefits = [
               <CardTitle>{{ position.title }}</CardTitle>
               <CardDescription class="flex gap-4 mt-2">
                 <Badge variant="secondary">{{ position.department }}</Badge>
-                <Badge variant="outline">{{ position.location }}</Badge>
-                <Badge variant="outline">{{ position.type }}</Badge>
+                <Badge variant="secondary">{{ position.location }}</Badge>
+                <Badge variant="secondary">{{ position.type }}</Badge>
               </CardDescription>
             </CardHeader>
             <CardContent>

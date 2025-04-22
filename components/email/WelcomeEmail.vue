@@ -73,10 +73,10 @@ defineProps<{
           Go to Dashboard
         </Button>
         <div class="grid grid-cols-2 gap-3">
-          <Button variant="outline" :href="classesUrl">
+          <Button variant="secondary" :href="classesUrl">
             Find Your First Dance Class
           </Button>
-          <Button variant="outline" :href="profileUrl">
+          <Button variant="secondary" :href="profileUrl">
             Complete Your Profile
           </Button>
         </div>

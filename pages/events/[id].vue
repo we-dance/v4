@@ -1,8 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { trpc } from '~/composables/trpc'
+const { $client } = useNuxtApp()
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import Post from '~/components/post/Post.vue'
 import { format, parseISO } from 'date-fns'
 
 const route = useRoute()
@@ -104,7 +103,7 @@ const fetchEvent = async () => {
 
   try {
     const id = route.params.id
-    const response = await trpc.events.byId.query(id)
+    const response = await $client.events.byId.query(id)
     console.log('Event details:', response)
     event.value = response
   } catch (e) {
@@ -360,7 +359,11 @@ onMounted(() => {
           <!-- Guests section -->
           <div class="bg-white rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Guests</h3>
-            <Button class="w-full mb-6" variant="outline" @click="handleGoing">
+            <Button
+              class="w-full mb-6"
+              variant="secondary"
+              @click="handleGoing"
+            >
               <Icon name="ph:users" class="w-5 h-5 mr-2" />
               {{ isGoing ? 'Leave Guest List' : 'Join Guest List' }}
             </Button>

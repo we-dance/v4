@@ -1,10 +1,7 @@
 import type { Prisma } from '@prisma/client'
+import type Stripe from 'stripe'
 
 export function formatDate(dateString: string): string {
-  if (dateString.toLowerCase().includes('every')) {
-    return dateString
-  }
-
   try {
     const date = new Date(dateString)
     return new Intl.DateTimeFormat('en-US', {
@@ -13,6 +10,19 @@ export function formatDate(dateString: string): string {
       day: 'numeric',
       hour: 'numeric',
       minute: 'numeric',
+    }).format(date)
+  } catch {
+    return dateString
+  }
+}
+
+export function formatDateShort(dateString: string): string {
+  try {
+    const date = new Date(dateString)
+    return new Intl.DateTimeFormat('en-US', {
+      month: 'long',
+      year: 'numeric',
+      day: 'numeric',
     }).format(date)
   } catch {
     return dateString
@@ -38,9 +48,68 @@ export const formatDuration = (duration: number) => {
   return `${hours > 0 ? `${hours}h` : ''} ${minutes > 0 ? `${minutes}m` : ''} ${seconds > 0 ? `${seconds}s` : ''}`
 }
 
+export enum SubscriptionDuration {
+  P1M = 'P1M',
+  P3M = 'P3M',
+  P6M = 'P6M',
+  P1Y = 'P1Y',
+  P1D = 'P1D',
+  P1W = 'P1W',
+  ONETIME = 'ONETIME',
+}
+
+export const SubscriptionDurationStripeRecurring: Record<
+  SubscriptionDuration,
+  Stripe.PriceCreateParams.Recurring | undefined
+> = {
+  P1D: {
+    interval: 'day',
+    interval_count: 1,
+  },
+  P1W: {
+    interval: 'week',
+    interval_count: 1,
+  },
+  P1M: {
+    interval: 'month',
+    interval_count: 1,
+  },
+  P3M: {
+    interval: 'month',
+    interval_count: 3,
+  },
+  P6M: {
+    interval: 'month',
+    interval_count: 6,
+  },
+  P1Y: {
+    interval: 'year',
+    interval_count: 1,
+  },
+  ONETIME: undefined,
+}
+
+export const getRecurring = (duration: SubscriptionDuration) => {
+  return SubscriptionDurationStripeRecurring[duration]
+}
+
+export const subscriptionDurations: Record<SubscriptionDuration, string> = {
+  ONETIME: 'One-time',
+  P1D: 'Daily',
+  P1W: 'Weekly',
+  P1M: 'Monthly',
+  P1Y: 'Yearly',
+  P3M: 'Every 3 months',
+  P6M: 'Every 6 months',
+}
+
+export const formatSubscriptionDuration = (duration: string) => {
+  return subscriptionDurations[duration as keyof typeof subscriptionDurations]
+}
+
 export const getMinPrice = (offers: Prisma.OfferGetPayload<{}>[]) => {
   if (!offers?.length) {
-    return 'Contact for pricing'
+    return ''
   }
 
   const minOffer = offers.reduce((min, offer) => {

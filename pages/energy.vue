@@ -268,7 +268,7 @@ const badges = [
           <li>• Moderators can adjust energy for special circumstances</li>
           <li>• Energy system may be adjusted for community health</li>
         </ul>
-        <Button variant="outline" as-child>
+        <Button variant="secondary" as-child>
           <NuxtLink to="/feed" class="flex items-center justify-center gap-2">
             Start Contributing
             <Icon name="ph:arrow-right" class="w-4 h-4" />

@@ -128,14 +128,14 @@ const nextAvailable = computed(() => {
         <Badge
           v-for="amenity in area.amenities.slice(0, 3)"
           :key="amenity"
-          variant="outline"
+          variant="secondary"
           class="text-xs"
         >
           {{ amenity }}
         </Badge>
         <Badge
           v-if="area.amenities.length > 3"
-          variant="outline"
+          variant="secondary"
           class="text-xs"
         >
           +{{ area.amenities.length - 3 }} more

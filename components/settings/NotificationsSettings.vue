@@ -1,19 +1,18 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
 import {
   notificationSettingsSchema,
   type NotificationSettings,
 } from '~/schemas/user'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(notificationSettingsSchema),
   initialValues: notificationSettingsSchema.safeParse(
-    data.value?.user?.notificationSettings
+    session.value?.user?.notificationSettings
   ).data,
 })
 
@@ -21,35 +20,33 @@ const notificationSettings = computed(() => form.values as NotificationSettings)
 
 const { $client } = useNuxtApp()
 
-const updateNotificationsMutation = useMutation(
-  async (values: NotificationSettings) => {
-    if (!data.value) {
+const updateNotificationsMutation = useMutation({
+  mutationFn: async (values: NotificationSettings) => {
+    if (!session.value) {
       throw new Error('User not authenticated')
     }
 
     return await $client.users.updateNotificationSettings.mutate({
-      id: data.value.user.id,
+      id: session.value.user.id,
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Notification settings updated', {
-        description:
-          'Your notification preferences have been saved successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update notification settings.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Notification settings updated', {
+      description:
+        'Your notification preferences have been saved successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage =
+      error?.message || 'Failed to update notification settings.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdating = computed(() => updateNotificationsMutation.isLoading.value)
+const isUpdating = computed(() => updateNotificationsMutation.isPending.value)
 
 const saveNotificationSettings = () => {
   updateNotificationsMutation.mutate(notificationSettings.value)

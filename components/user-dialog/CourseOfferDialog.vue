@@ -3,6 +3,10 @@ import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
 import { z } from 'zod'
+import {
+  subscriptionDurations,
+  formatSubscriptionDuration,
+} from '~/utils/format'
 
 const props = defineProps<{
   offer?: {
@@ -32,7 +36,7 @@ const form = useForm({
     name: '',
     price: 0,
     currency: 'EUR',
-    duration: '1 month',
+    duration: 'P1M',
     items: '',
   },
 })
@@ -78,14 +82,13 @@ const onSubmit = form.handleSubmit(
     <div class="grid grid-cols-3 gap-4">
       <FormField v-slot="{ componentField }" name="price">
         <FormItem>
-          <FormLabel>Price</FormLabel>
+          <FormLabel>Price (cents)</FormLabel>
           <FormControl>
             <Input
               v-bind="componentField"
               type="number"
               min="0"
-              step="0.01"
-              placeholder="0.00"
+              placeholder="0"
             />
           </FormControl>
           <FormMessage />
@@ -113,17 +116,19 @@ const onSubmit = form.handleSubmit(
 
       <FormField v-slot="{ componentField }" name="duration">
         <FormItem>
-          <FormLabel>Duration</FormLabel>
+          <FormLabel>Recurring</FormLabel>
           <FormControl>
             <Select v-bind="componentField">
               <SelectTrigger>
                 <SelectValue placeholder="Select duration" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="1 month">1 month</SelectItem>
-                <SelectItem value="3 months">3 months</SelectItem>
-                <SelectItem value="6 months">6 months</SelectItem>
-                <SelectItem value="1 year">1 year</SelectItem>
+                <SelectItem
+                  v-for="duration in Object.keys(subscriptionDurations)"
+                  :key="duration"
+                  :value="duration"
+                  >{{ formatSubscriptionDuration(duration) }}</SelectItem
+                >
               </SelectContent>
             </Select>
           </FormControl>

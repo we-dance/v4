@@ -137,7 +137,7 @@ const sizes: Array<{ name: ButtonSize; description: string }> = [
               <Icon name="i-heroicons-plus" class="mr-2 h-4 w-4" />
               Add item
             </Button>
-            <Button variant="outline">
+            <Button variant="secondary">
               <Icon name="i-heroicons-trash" class="mr-2 h-4 w-4" />
               Delete
             </Button>
@@ -162,7 +162,7 @@ const sizes: Array<{ name: ButtonSize; description: string }> = [
         <div>
           <h3 class="text-lg font-medium mb-4">Icon Button</h3>
           <div class="flex gap-4">
-            <Button size="icon" variant="outline">
+            <Button size="icon" variant="secondary">
               <Icon name="i-heroicons-heart" class="h-4 w-4" />
             </Button>
             <Button size="icon">

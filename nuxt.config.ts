@@ -5,13 +5,21 @@ export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/css/main.css'],
   build: {
-    transpile: ['vee-validate'],
+    transpile: ['vee-validate', 'trpc-nuxt'],
   },
 
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+
+  vite: {
+    server: {
+      allowedHosts: [
+        'a2d2-2a02-2455-17ea-2900-f8ac-182-94de-5bed.ngrok-free.app',
+      ],
     },
   },
 
@@ -24,15 +32,15 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/content',
     '@sidebase/nuxt-auth',
+    '@hebilicious/vue-query-nuxt',
   ],
-  auth: {
-    provider: {
-      type: 'authjs',
-    },
-  },
   components: [
     {
       path: '~/components',
+      pathPrefix: false,
+    },
+    {
+      path: '~/components/common',
       pathPrefix: false,
     },
   ],
@@ -81,9 +89,17 @@ export default defineNuxtConfig({
       scrollBehaviorType: 'smooth',
     },
   },
+  auth: {
+    provider: {
+      type: 'authjs',
+    },
+  },
   runtimeConfig: {
+    stripeSecretKey: '',
+    stripePublicKey: '',
+    stripeWebhookSecret: '',
     public: {
-      apiHost: process.env.API_HOST || 'localhost:3000',
+      appUrl: '',
     },
   },
 })

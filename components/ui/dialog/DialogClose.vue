@@ -5,7 +5,7 @@ const props = defineProps<DialogCloseProps>()
 </script>
 
 <template>
-  <DialogClose v-bind="props">
+  <DialogClose v-bind="props" class="text-foreground">
     <slot />
   </DialogClose>
 </template>

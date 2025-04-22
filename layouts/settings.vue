@@ -6,7 +6,7 @@ const route = useRoute()
 
 <template>
   <NuxtLayout name="default">
-    <div class="bg-muted">
+    <div class="bg-muted text-foreground">
       <div class="container mx-auto py-4 md:py-8 px-4 max-w-6xl">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 justify-center">
           <div class="col-span-1 md:col-span-8 md:col-start-3">
@@ -33,6 +33,22 @@ const route = useRoute()
                   <span class="flex items-center gap-2">
                     <Icon name="heroicons:user-circle" class="w-5 h-5" />
                     Account
+                  </span>
+                </NuxtLink>
+                <NuxtLink
+                  to="/settings/billing"
+                  class="block px-3 py-2 rounded-md transition-colors"
+                  :class="{
+                    'bg-primary text-primary-foreground':
+                      route.path === '/settings/billing',
+                    'hover:bg-muted/50 text-foreground/80 hover:text-foreground':
+                      route.path !== '/settings/billing',
+                  }"
+                  aria-current="page"
+                >
+                  <span class="flex items-center gap-2">
+                    <Icon name="heroicons:credit-card" class="w-5 h-5" />
+                    Billing
                   </span>
                 </NuxtLink>
                 <NuxtLink

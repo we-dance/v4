@@ -72,7 +72,7 @@ const handleSubmit = () => {
     <DialogFooter>
       <Button
         type="button"
-        variant="outline"
+        variant="secondary"
         @click="$emit('update:open', false)"
       >
         Cancel

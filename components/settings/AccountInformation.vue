@@ -2,22 +2,24 @@
 import { toast } from 'vue-sonner'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { userSchema, type User } from '~/schemas/user'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
+const { $client } = useNuxtApp()
+const user = await $client.users.currentUser.query()
 
 // @todo: account settings: add timezone
 const form = useForm({
   validationSchema: toTypedSchema(userSchema),
-  initialValues: userSchema.safeParse(data.value?.user).data,
 })
 
-const { $client } = useNuxtApp()
+form.setValues({
+  ...session.value?.user,
+})
 
-const updateAccountMutation = useMutation(
-  async (values: User) => {
-    const userId = data.value?.user.id
+const updateAccountMutation = useMutation({
+  mutationFn: async (values: User) => {
+    const userId = user?.id
 
     if (!userId) {
       throw new Error('User not authenticated')
@@ -28,23 +30,21 @@ const updateAccountMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Account updated', {
-        description: 'Your account information has been updated successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update account information.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Account updated', {
+      description: 'Your account information has been updated successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage =
+      error?.message || 'Failed to update account information.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdatingAccount = computed(() => updateAccountMutation.isLoading.value)
+const isUpdatingAccount = computed(() => updateAccountMutation.isPending.value)
 
 const canSubmit = computed(() => {
   return form.meta.value.dirty && !isUpdatingAccount.value

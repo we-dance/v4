@@ -102,7 +102,7 @@ const handleBook = () => {
         <Button
           v-for="area in venue.areas"
           :key="area.id"
-          variant="outline"
+          variant="secondary"
           :class="{
             'border-primary': selectedArea === area.id,
             'bg-primary/5': selectedArea === area.id,
@@ -126,7 +126,7 @@ const handleBook = () => {
       <Label>Date</Label>
       <Popover>
         <PopoverTrigger as-child>
-          <Button variant="outline" class="w-full justify-start text-left">
+          <Button variant="secondary" class="w-full justify-start text-left">
             <Icon name="ph:calendar" class="mr-2 h-4 w-4" />
             {{
               selectedDate
@@ -156,7 +156,7 @@ const handleBook = () => {
         <Button
           v-for="slot in timeSlots"
           :key="slot"
-          variant="outline"
+          variant="secondary"
           :class="[
             selectedTimeSlot === slot
               ? 'bg-primary text-primary-foreground hover:bg-primary/90'
@@ -171,7 +171,7 @@ const handleBook = () => {
   </div>
 
   <DialogFooter>
-    <Button variant="outline" @click="dialog.close()">Cancel</Button>
+    <Button variant="secondary" @click="dialog.close()">Cancel</Button>
     <Button
       :disabled="!selectedDate || !selectedTimeSlot || !selectedArea"
       @click="handleBook"

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { ArtistProfile } from '~/schemas/profile'
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import ArtistCard from '~/components/ArtistCard.vue'
 import { useDialog } from '~/composables/useDialog'
 
 const route = useRoute()
@@ -124,7 +123,7 @@ const handleFollow = () => {
                   <div class="text-xl font-bold text-foreground">
                     {{ profile.stats.followers }}
                   </div>
-                  <div class="text-sm text-muted-foreground">followers</div>
+                  <div class="text-sm text-muted-foreground">subscribers</div>
                 </div>
                 <div>
                   <div class="text-xl font-bold text-foreground">
@@ -134,13 +133,12 @@ const handleFollow = () => {
                 </div>
               </div>
 
-              <!-- Action Buttons -->
               <div class="flex justify-center md:justify-start gap-4">
                 <Button variant="primary" size="lg" @click="handleBook"
                   >Book Now</Button
                 >
                 <Button variant="secondary" size="lg" @click="handleFollow"
-                  >Follow</Button
+                  >Subscribe</Button
                 >
               </div>
             </div>
@@ -259,7 +257,14 @@ const handleFollow = () => {
               </div>
             </div>
 
-            <!-- Social Links -->
+            <div class="bg-background rounded-lg border p-6">
+              <h3 class="text-lg font-bold text-foreground mb-4">Contact</h3>
+              <Button class="w-full" variant="secondary" @click="handleContact">
+                <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
+                Send Message
+              </Button>
+            </div>
+
             <div
               v-if="profile?.socialLinks?.length > 0"
               class="bg-background rounded-lg border p-6"
@@ -283,15 +288,6 @@ const handleFollow = () => {
                   {{ link.platform }}
                 </a>
               </div>
-            </div>
-
-            <!-- Contact -->
-            <div class="bg-background rounded-lg border p-6">
-              <h3 class="text-lg font-bold text-foreground mb-4">Contact</h3>
-              <Button class="w-full" variant="outline" @click="handleContact">
-                <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
-                Send Message
-              </Button>
             </div>
           </div>
         </div>

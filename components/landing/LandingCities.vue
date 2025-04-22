@@ -68,14 +68,14 @@ const cities = [
           </div>
           <div class="flex gap-3">
             <Button
-              variant="outline"
+              variant="secondary"
               class="gap-2 flex-1 sm:flex-initial"
               @click="() => {}"
             >
               <Icon name="ph:map-pin" class="w-4 h-4" />
               Near Me
             </Button>
-            <Button variant="outline" as-child class="flex-1 sm:flex-initial">
+            <Button variant="secondary" as-child class="flex-1 sm:flex-initial">
               <NuxtLink
                 to="/cities"
                 class="flex items-center justify-center gap-2"

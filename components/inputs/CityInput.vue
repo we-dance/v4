@@ -55,7 +55,7 @@ watch(query, () => {
   <Popover v-model:open="open">
     <PopoverTrigger as-child>
       <Button
-        variant="outline"
+        variant="secondary"
         role="combobox"
         :aria-expanded="open"
         class="w-full justify-between font-normal overflow-ellipsis"

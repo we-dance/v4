@@ -83,10 +83,10 @@ const onSubmit = form.handleSubmit(async (values) => {
       </FormItem>
     </FormField>
 
-    <FormField name="locked" v-slot="{ componentField }">
+    <FormField name="locked" v-slot="{ value, handleChange }">
       <FormItem class="flex flex-row items-start space-x-3 space-y-0">
         <FormControl>
-          <Checkbox v-bind="componentField" />
+          <Checkbox :checked="value" @update:checked="handleChange" />
         </FormControl>
         <div class="space-y-1 leading-none">
           <FormLabel>Locked</FormLabel>

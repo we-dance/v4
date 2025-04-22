@@ -1,6 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
   layout: 'admin',
+  middleware: ['sidebase-auth'],
 })
 
 const { $client } = useNuxtApp()
@@ -8,7 +9,7 @@ const { $client } = useNuxtApp()
 const courses = ref<any[]>([])
 
 const getCourses = async () => {
-  const result = await $client.courses.list.query({ limit: 10 })
+  const result = await $client.courses.myList.query()
   courses.value = result.courses
 }
 
@@ -28,47 +29,26 @@ const handleCreateCourse = () => {
 </script>
 
 <template>
+  <header class="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+    <SidebarTrigger class="-ml-1" />
+    <Separator orientation="vertical" class="mr-2 h-4" />
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbPage>Manage Courses</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+  </header>
   <div class="container py-6 space-y-6">
-    <div class="flex justify-between items-center">
-      <h1 class="text-3xl font-bold">Courses</h1>
+    <div class="flex items-center gap-2">
+      <Input placeholder="Search courses..." />
       <Button @click="handleCreateCourse"> Create Course </Button>
     </div>
 
-    <div class="flex items-center gap-2">
-      <Input placeholder="Search courses..." />
-    </div>
-
-    <Card>
-      <Table>
-        <TableHeader>
-          <TableRow>
-            <TableHead>Instructor</TableHead>
-            <TableHead>Name</TableHead>
-            <TableHead class="text-right">Actions</TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          <TableRow v-for="course in courses" :key="course.id">
-            <TableCell>{{ course?.instructor?.name }}</TableCell>
-            <TableCell>{{ course.name }}</TableCell>
-            <TableCell class="text-right">
-              <NuxtLink :to="`/admin/courses/${course.slug}`">
-                <Button variant="ghost" size="icon">
-                  <Icon name="ph:pencil" />
-                </Button>
-              </NuxtLink>
-            </TableCell>
-          </TableRow>
-          <TableRow v-if="courses.length === 0">
-            <TableCell
-              colspan="3"
-              class="text-center py-6 text-muted-foreground"
-            >
-              No courses found
-            </TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
-    </Card>
+    <CoursesGrid
+      :courses="courses"
+      :link="(course) => `/admin/courses/${course.slug}`"
+    />
   </div>
 </template>

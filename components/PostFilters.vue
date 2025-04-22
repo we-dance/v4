@@ -25,8 +25,8 @@ const postTypeOptions = [
   { value: 'all', label: 'All Posts', icon: 'ph:list' },
   { value: 'event', label: 'Events', icon: 'ph:calendar' },
   { value: 'meet', label: 'Meet', icon: 'ph:users' },
-  { value: 'note', label: 'Messages', icon: 'ph:note' },
-  { value: 'article', label: 'Articles', icon: 'ph:article' },
+  { value: 'note', label: 'Threads', icon: 'ph:chat-centered-dots' },
+  { value: 'article', label: 'Articles', icon: 'ph:article-medium' },
   { value: 'review', label: 'Reviews', icon: 'ph:star' },
   { value: 'gig', label: 'Gigs', icon: 'ph:music-notes' },
   { value: 'ask_locals', label: 'Ask Locals', icon: 'ph:question' },
@@ -81,7 +81,7 @@ const formatNumber = (num: number) => {
   <div class="md:hidden flex items-center gap-2">
     <DropdownMenu>
       <DropdownMenuTrigger as-child>
-        <Button variant="outline" class="flex items-center gap-2">
+        <Button variant="secondary" class="flex items-center gap-2">
           <Icon
             :name="
               postTypeOptions.find((t) => t.value === selectedType)?.icon ||

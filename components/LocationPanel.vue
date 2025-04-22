@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { $client } = useNuxtApp()
+
 const emit = defineEmits<{
   (e: 'update:location', value: string | null): void
 }>()
@@ -11,29 +13,51 @@ const props = defineProps({
 })
 
 const locationSearch = ref('')
+const loadingCities = ref(false)
 
-const regions = [
-  { name: 'Europe', count: '15k+' },
-  { name: 'North America', count: '12k+' },
-  { name: 'Latin America', count: '8k+' },
-  { name: 'Asia', count: '5k+' },
-]
+const cities = ref<
+  Array<{
+    name: string
+    displayName: string
+    country: string | null
+    countryCode: string | null
+    count: string
+    type: string
+  }>
+>([])
 
-const cities = [
-  { name: 'New York', count: '2.5k+' },
-  { name: 'London', count: '2k+' },
-  { name: 'Madrid', count: '1.8k+' },
-  { name: 'Berlin', count: '1.5k+' },
-]
+const fetchLocations = async () => {
+  loadingCities.value = true
 
-const filteredRegions = computed(() => {
-  const search = locationSearch.value.toLowerCase()
-  return regions.filter((region) => region.name.toLowerCase().includes(search))
-})
+  try {
+    const venueLocations = await $client.profiles.venueLocations.query()
+    cities.value = venueLocations.cities.map((city) => ({
+      name: city.name,
+      displayName: city.displayName || city.name,
+      country: city.country || null,
+      countryCode: city.countryCode || null,
+      count: `${city.count}`,
+      type: city.type || 'address',
+    }))
+  } catch (error) {
+    console.error('Error fetching venue locations:', error)
+    cities.value = []
+  } finally {
+    loadingCities.value = false
+  }
+}
 
 const filteredCities = computed(() => {
   const search = locationSearch.value.toLowerCase()
-  return cities.filter((city) => city.name.toLowerCase().includes(search))
+  return cities.value.filter(
+    (city) =>
+      city.displayName.toLowerCase().includes(search) ||
+      (city.country && city.country.toLowerCase().includes(search))
+  )
+})
+
+onMounted(async () => {
+  await fetchLocations()
 })
 </script>
 
@@ -49,39 +73,37 @@ const filteredCities = computed(() => {
     </Input>
 
     <div class="flex flex-col gap-1">
-      <div class="font-medium text-sm text-muted-foreground">
-        Popular Regions
-      </div>
-      <Button
-        v-for="region in filteredRegions"
-        :key="region.name"
-        variant="ghost"
-        class="justify-start"
-        :class="{ 'bg-accent': props.location === region.name }"
-        @click="emit('update:location', region.name)"
+      <div
+        class="font-medium text-sm text-muted-foreground flex items-center justify-between"
       >
-        {{ region.name }}
-        <span class="ml-auto text-sm text-muted-foreground">{{
-          region.count
-        }}</span>
-      </Button>
+        Cities
+        <span v-if="loadingCities" class="text-xs text-muted-foreground">
+          <Icon name="ph:spinner-gap" class="w-3 h-3 animate-spin" />
+        </span>
+      </div>
 
-      <div class="font-medium text-sm text-muted-foreground mt-2">
-        Popular Cities
-      </div>
-      <Button
-        v-for="city in filteredCities"
-        :key="city.name"
-        variant="ghost"
-        class="justify-start"
-        :class="{ 'bg-accent': props.location === city.name }"
-        @click="emit('update:location', city.name)"
+      <div
+        v-if="!loadingCities && filteredCities.length === 0"
+        class="text-sm text-muted-foreground py-2 px-3"
       >
-        {{ city.name }}
-        <span class="ml-auto text-sm text-muted-foreground">{{
-          city.count
-        }}</span>
-      </Button>
+        No cities found
+      </div>
+
+      <div class="flex flex-col w-full">
+        <Button
+          v-for="city in filteredCities"
+          :key="city.name"
+          variant="ghost"
+          class="justify-start w-full"
+          :class="{ 'bg-accent': props.location === city.name }"
+          @click="emit('update:location', city.name)"
+        >
+          {{ city.displayName }}
+          <span class="ml-auto text-sm text-muted-foreground">{{
+            city.count
+          }}</span>
+        </Button>
+      </div>
     </div>
   </div>
 </template>

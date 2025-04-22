@@ -1,11 +1,12 @@
 import { z } from 'zod'
-import { publicProcedure, router } from '../trpc'
+import { TRPCError } from '@trpc/server'
+import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { userSchema } from '~/schemas/user'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { getServerSession } from '#auth'
 import { notificationSettingsSchema } from '~/schemas/user'
-// Firebase parameters for password hashing
+
 const firebaseParameters = {
   memCost: 14,
   rounds: 8,
@@ -14,6 +15,14 @@ const firebaseParameters = {
 }
 
 export const usersRouter = router({
+  currentUser: publicProcedure.query(async ({ ctx }) => {
+    const session = await getServerSession(ctx.event)
+    return session?.user
+  }),
+  currentProfile: publicProcedure.query(async ({ ctx }) => {
+    const session = await getServerSession(ctx.event)
+    return session?.profile
+  }),
   update: publicProcedure
     .input(
       z.object({
@@ -79,7 +88,10 @@ export const usersRouter = router({
       const session = await getServerSession(ctx.event)
 
       if (!session) {
-        throw new Error('You must be logged in to update your password')
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'You must be logged in to update your password',
+        })
       }
 
       const user = await prisma.user.findUnique({
@@ -94,10 +106,12 @@ export const usersRouter = router({
       })
 
       if (!user) {
-        throw new Error('User not found')
+        throw new TRPCError({
+          code: 'NOT_FOUND',
+          message: 'User not found',
+        })
       }
 
-      // Verify the current password
       const scrypt = new FirebaseScrypt(firebaseParameters)
       const isValid = await scrypt.verify(
         input.currentPassword,
@@ -106,16 +120,17 @@ export const usersRouter = router({
       )
 
       if (!isValid) {
-        throw new Error('Current password is incorrect')
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Current password is incorrect',
+        })
       }
 
-      // Generate a new salt and hash the new password
       const salt = Buffer.from(String(Math.random()).slice(7)).toString(
         'base64'
       )
       const hash = await scrypt.hash(input.newPassword, salt)
 
-      // Update the user's password in the database
       await prisma.user.update({
         where: {
           id: user.id,
@@ -128,4 +143,56 @@ export const usersRouter = router({
 
       return { success: true }
     }),
+
+  connectStripe: publicProcedure.mutation(async ({ ctx }) => {
+    const session = await getServerSession(ctx.event)
+
+    if (!session) {
+      throw new TRPCError({
+        code: 'UNAUTHORIZED',
+        message: 'You must be logged in to connect your Stripe account',
+      })
+    }
+
+    const user = await prisma.user.findUnique({
+      where: {
+        id: session.user.id,
+      },
+    })
+
+    if (!user) {
+      throw new TRPCError({
+        code: 'NOT_FOUND',
+        message: 'User not found',
+      })
+    }
+
+    const stripe = getStripe()
+
+    const account = await stripe.accounts.create({
+      type: 'express',
+      country: 'DE',
+      email: user.email,
+    })
+
+    await prisma.user.update({
+      where: {
+        id: user.id,
+      },
+      data: {
+        stripeAccountId: account.id,
+      },
+    })
+
+    const appUrl = useRuntimeConfig().public.appUrl
+
+    const accountLink = await stripe.accountLinks.create({
+      account: account.id,
+      refresh_url: `${appUrl}/admin/integrations`,
+      return_url: `${appUrl}/admin/integrations`,
+      type: 'account_onboarding',
+    })
+
+    return { url: accountLink.url }
+  }),
 })

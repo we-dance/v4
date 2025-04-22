@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { usePostsList, useUpdateStats } from '~/composables/trpc'
-import { useQueryClient } from 'vue-query'
 import type { Post } from '~/schemas/post'
 import type { PropType } from 'vue'
 
@@ -138,7 +137,7 @@ const showLoadMore = computed(
 
   <!-- Load more button -->
   <div v-if="showLoadMore" class="text-center mt-8">
-    <Button variant="link" @click="loadMore" :disabled="isLoading">
+    <Button variant="tertiary" @click="loadMore" :disabled="isLoading">
       <span v-if="isLoading">Loading...</span>
       <span v-else>Load More Posts</span>
     </Button>

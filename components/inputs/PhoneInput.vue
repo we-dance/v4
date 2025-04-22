@@ -70,7 +70,7 @@ const markAsInteracted = () => {
       <Popover v-model:open="open">
         <PopoverTrigger tabindex="-1">
           <Button
-            variant="outline"
+            variant="secondary"
             class="flex gap-1 rounded-e-none rounded-s-lg px-3"
             @click="markAsInteracted"
             tabindex="-1"

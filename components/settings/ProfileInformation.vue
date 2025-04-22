@@ -1,22 +1,24 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
-import { useMutation } from 'vue-query'
 import { toTypedSchema } from '@vee-validate/zod'
 import { profileSchema } from '~/schemas/profile'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(profileSchema),
-  initialValues: data.value?.profile,
+})
+
+form.setValues({
+  ...session.value?.profile,
 })
 
 const { $client } = useNuxtApp()
 
-const updateProfileMutation = useMutation(
-  async (values: any) => {
-    const profileId = data.value?.profile?.id
+const updateProfileMutation = useMutation({
+  mutationFn: async (values: any) => {
+    const profileId = session.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')
@@ -27,23 +29,21 @@ const updateProfileMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Profile updated', {
-        description: 'Your profile information has been updated successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update profile information.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Profile updated', {
+      description: 'Your profile information has been updated successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage =
+      error?.message || 'Failed to update profile information.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdatingProfile = computed(() => updateProfileMutation.isLoading.value)
+const isUpdatingProfile = computed(() => updateProfileMutation.isPending.value)
 
 const canSubmit = computed(() => {
   const isDirty = form.meta.value.dirty

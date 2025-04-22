@@ -209,7 +209,7 @@ const resultsByType = computed(() => {
           />
           <div class="flex-1 min-w-0">
             <div class="flex flex-wrap items-center gap-2">
-              <Badge variant="outline" class="capitalize shrink-0">
+              <Badge variant="secondary" class="capitalize shrink-0">
                 {{ result.type }}
               </Badge>
               <p class="font-medium truncate">{{ result.title }}</p>

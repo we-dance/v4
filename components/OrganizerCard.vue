@@ -74,8 +74,8 @@ const props = withDefaults(defineProps<Props>(), {
           </p>
           <div class="flex flex-wrap gap-2">
             <Button
-              v-if="organizer.whatsapp"
-              variant="outline"
+              v-if="organizer.links?.whatsapp"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -86,8 +86,8 @@ const props = withDefaults(defineProps<Props>(), {
               </a>
             </Button>
             <Button
-              v-if="organizer.telegram"
-              variant="outline"
+              v-if="organizer.links?.telegram"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -98,8 +98,8 @@ const props = withDefaults(defineProps<Props>(), {
               </a>
             </Button>
             <Button
-              v-if="organizer.instagram"
-              variant="outline"
+              v-if="organizer.links?.instagram"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -110,8 +110,8 @@ const props = withDefaults(defineProps<Props>(), {
               </a>
             </Button>
             <Button
-              v-if="organizer.facebook"
-              variant="outline"
+              v-if="organizer.links?.facebook"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -122,8 +122,8 @@ const props = withDefaults(defineProps<Props>(), {
               </a>
             </Button>
             <Button
-              v-if="organizer.discord"
-              variant="outline"
+              v-if="organizer.links?.discord"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -134,8 +134,8 @@ const props = withDefaults(defineProps<Props>(), {
               </a>
             </Button>
             <Button
-              v-if="organizer.website"
-              variant="outline"
+              v-if="organizer.links?.website"
+              variant="secondary"
               size="sm"
               class="gap-1"
               as-child
@@ -183,8 +183,8 @@ const props = withDefaults(defineProps<Props>(), {
             </p>
             <div class="flex flex-wrap gap-2">
               <Button
-                v-if="organizer.whatsapp"
-                variant="outline"
+                v-if="organizer.links?.whatsapp"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -195,8 +195,8 @@ const props = withDefaults(defineProps<Props>(), {
                 </a>
               </Button>
               <Button
-                v-if="organizer.telegram"
-                variant="outline"
+                v-if="organizer.links?.telegram"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -207,8 +207,8 @@ const props = withDefaults(defineProps<Props>(), {
                 </a>
               </Button>
               <Button
-                v-if="organizer.instagram"
-                variant="outline"
+                v-if="organizer.links?.instagram"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -219,8 +219,8 @@ const props = withDefaults(defineProps<Props>(), {
                 </a>
               </Button>
               <Button
-                v-if="organizer.facebook"
-                variant="outline"
+                v-if="organizer.links?.facebook"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -231,8 +231,8 @@ const props = withDefaults(defineProps<Props>(), {
                 </a>
               </Button>
               <Button
-                v-if="organizer.discord"
-                variant="outline"
+                v-if="organizer.links?.discord"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child
@@ -243,8 +243,8 @@ const props = withDefaults(defineProps<Props>(), {
                 </a>
               </Button>
               <Button
-                v-if="organizer.website"
-                variant="outline"
+                v-if="organizer.links?.website"
+                variant="secondary"
                 size="sm"
                 class="gap-1"
                 as-child

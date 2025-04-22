@@ -4,22 +4,21 @@ import { toast } from 'vue-sonner'
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { privacySettingsSchema, type PrivacySettings } from '~/schemas/profile'
-import { useMutation } from 'vue-query'
 
-const { data } = useAppAuth()
+const { session } = useAppAuth()
 
 const form = useForm({
   validationSchema: toTypedSchema(privacySettingsSchema),
   initialValues: privacySettingsSchema.safeParse(
-    data.value?.profile?.privacySettings
+    session.value?.profile?.privacySettings
   ).data,
 })
 
 const { $client } = useNuxtApp()
 
-const updatePrivacySettingsMutation = useMutation(
-  async (values: PrivacySettings) => {
-    const profileId = data.value?.profile?.id
+const updatePrivacySettingsMutation = useMutation({
+  mutationFn: async (values: PrivacySettings) => {
+    const profileId = session.value?.profile?.id
 
     if (!profileId) {
       throw new Error('User not authenticated')
@@ -30,23 +29,20 @@ const updatePrivacySettingsMutation = useMutation(
       data: values,
     })
   },
-  {
-    onSuccess: () => {
-      toast.success('Privacy settings updated', {
-        description: 'Your privacy preferences have been saved successfully.',
-      })
-    },
-    onError: (error: any) => {
-      const errorMessage =
-        error?.message || 'Failed to update privacy settings.'
-      toast.error('Error', {
-        description: errorMessage,
-      })
-    },
-  }
-)
+  onSuccess: () => {
+    toast.success('Privacy settings updated', {
+      description: 'Your privacy preferences have been saved successfully.',
+    })
+  },
+  onError: (error: any) => {
+    const errorMessage = error?.message || 'Failed to update privacy settings.'
+    toast.error('Error', {
+      description: errorMessage,
+    })
+  },
+})
 
-const isUpdating = computed(() => updatePrivacySettingsMutation.isLoading.value)
+const isUpdating = computed(() => updatePrivacySettingsMutation.isPending.value)
 
 const canSubmit = computed(() => {
   return form.meta.value.dirty && !isUpdating.value

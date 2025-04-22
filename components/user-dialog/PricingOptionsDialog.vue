@@ -23,7 +23,7 @@ const handleSelect = (price: Price) => {
     <Button
       v-for="price in prices"
       :key="price.id"
-      variant="outline"
+      variant="secondary"
       class="w-full justify-between h-auto py-4"
       @click="handleSelect(price)"
     >

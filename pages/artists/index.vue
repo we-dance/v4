@@ -3,6 +3,6 @@
     title="Dance Artists"
     description="Find and connect with dance teachers, performers and artists"
   >
-    <ArtistsView />
+    <ArtistsGrid />
   </PageSimple>
 </template>

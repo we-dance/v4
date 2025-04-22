@@ -76,7 +76,7 @@ const steps = [
                 </div>
               </div>
               <p class="text-muted-foreground mb-4">{{ step.description }}</p>
-              <Button variant="outline" as-child>
+              <Button variant="secondary" as-child>
                 <NuxtLink :to="step.to" class="flex items-center gap-2">
                   {{ step.action }}
                   <Icon name="ph:arrow-right" class="w-4 h-4" />

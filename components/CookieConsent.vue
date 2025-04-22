@@ -45,7 +45,7 @@ onMounted(() => {
           </p>
         </div>
         <div class="flex flex-col sm:flex-row gap-2 shrink-0">
-          <Button variant="outline" size="sm" @click="acceptEssential">
+          <Button variant="secondary" size="sm" @click="acceptEssential">
             Essential Only
           </Button>
           <Button size="sm" @click="acceptAll"> Accept All </Button>

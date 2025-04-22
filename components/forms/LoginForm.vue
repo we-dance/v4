@@ -9,6 +9,8 @@ const { login } = useAppAuth()
 const isLoading = ref(false)
 const showPassword = ref(false)
 
+const callbackUrl = ref(useRoute().query.redirect || '/')
+
 const schema = z.object({
   email: z.string().email('Please enter a valid email address'),
   password: z.string().min(8, 'Password must be at least 8 characters'),
@@ -29,6 +31,7 @@ const onSubmit = form.handleSubmit(
       const error = await login('credentials', {
         email: values.email,
         password: values.password,
+        callbackUrl: callbackUrl.value,
       })
       if (error) {
         toast.error(error)

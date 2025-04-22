@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { Toaster } from '@/components/ui/sonner'
-
-const runtimeConfig = useRuntimeConfig()
-const baseUrl = runtimeConfig.public.baseUrl
 </script>
 
 <template>
   <NuxtLayout>
+    <NuxtPage :page-key="(route) => route.fullPath" />
     <ClientOnly>
+      <PrototypeBanner />
+      <DialogProvider />
+      <AlertDialogProvider />
+      <CookieConsent />
       <Toaster />
     </ClientOnly>
-    <NuxtPage />
   </NuxtLayout>
 </template>

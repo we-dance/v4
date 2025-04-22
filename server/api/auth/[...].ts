@@ -26,7 +26,7 @@ export default NuxtAuthHandler({
   secret: process.env.AUTH_SECRET,
   session: {
     strategy: 'jwt',
-    maxAge: 3000,
+    maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   // @ts-expect-error will figure out later
   adapter: PrismaAdapter(prisma),
@@ -58,10 +58,9 @@ export default NuxtAuthHandler({
         },
       })
 
-      session.user.id = user.id
       return Promise.resolve({
         user,
-        profile,
+        profile: profile,
         expires: session.expires,
       })
     },
