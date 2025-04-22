@@ -28,14 +28,10 @@ export default eventHandler(async (event) => {
     const errorMessage =
       'stripe.webhooks.constructEvent: ' + (err as Error).message
 
-    console.log('stripe webhook error:', errorMessage)
-
     return {
       error: errorMessage,
     }
   }
-
-  console.log('stripe webhook event:', stripeEvent.type)
 
   switch (stripeEvent.type) {
     case 'checkout.session.completed':
