@@ -77,7 +77,6 @@ const handleResult = (result: any) => {
 }
 
 const handleError = (error: any) => {
-  console.error('Upload error:', error)
   toast.error('Failed to upload image')
 }
 
