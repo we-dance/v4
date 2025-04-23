@@ -36,6 +36,7 @@
     "cyrillic-to-translit-js": "^3.2.1",
     "date-fns": "^4.1.0",
     "express": "^5.1.0",
+    "flag-icons": "^7.3.2",
     "lucide-vue-next": "^0.487.0",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",

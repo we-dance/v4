@@ -12,17 +12,16 @@ defineProps<{
 
 <template>
   <div class="p-4 flex items-center gap-3">
-    <NuxtLink :to="`/artists/${author.id}`">
-      <img
-        :src="author.image"
-        :alt="author.name"
+    <NuxtLink :to="`/@${author.username}`">
+      <Avatar
+        :profile="author"
         class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-primary transition-all"
       />
     </NuxtLink>
     <div class="flex-1">
       <div class="flex items-center gap-2">
         <NuxtLink
-          :to="`/artists/${author.id}`"
+          :to="`/@${author.username}`"
           class="font-medium text-foreground hover:text-primary transition-colors"
         >
           {{ author.name }}
@@ -30,9 +29,12 @@ defineProps<{
         <UserPoints :points="author.points" />
       </div>
       <div class="text-sm text-muted-foreground flex items-center gap-1">
-        <span>{{ timestamp }}</span>
-        <span>·</span>
-        <span class="text-primary">{{ author.location }}</span>
+        <TimeAgo :date="timestamp" />
+        <span v-if="author.city">·</span>
+        <span v-if="author.city" class="text-primary">
+          {{ author.city.name }}
+          <Flag :country="author.city.countryCode" />
+        </span>
       </div>
     </div>
     <div class="flex items-center gap-2">

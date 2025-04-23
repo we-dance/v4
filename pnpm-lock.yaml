@@ -68,6 +68,9 @@ importers:
       express:
         specifier: ^5.1.0
         version: 5.1.0
+      flag-icons:
+        specifier: ^7.3.2
+        version: 7.3.2
       lucide-vue-next:
         specifier: ^0.487.0
         version: 0.487.0(vue@3.5.13(typescript@5.8.2))
@@ -3245,6 +3248,9 @@ packages:
   firebase-scrypt@2.2.0:
     resolution: {integrity: sha512-36vJZVPFepErsNw+nBjb9cpM9wYPtcxk1bKN//vLdVkNPhaw1cogzwxtMs0s+dYg1gvBDakg2Q4ch8zAWAvnxA==}
     engines: {node: '>= 10'}
+
+  flag-icons@7.3.2:
+    resolution: {integrity: sha512-QkaZ6Zvai8LIjx+UNAHUJ5Dhz9OLZpBDwCRWxF6YErxIcR16jTkIFm3bFu54EkvKQy4+wicW+Gm7/0631wVQyQ==}
 
   flat-cache@4.0.1:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
@@ -10385,6 +10391,8 @@ snapshots:
   firebase-scrypt@2.2.0:
     dependencies:
       babel-runtime: 6.26.0
+
+  flag-icons@7.3.2: {}
 
   flat-cache@4.0.1:
     dependencies:

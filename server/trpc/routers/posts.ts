@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { publicProcedure, router } from '~/server/trpc/init'
+import { prisma } from '~/server/prisma'
 
 import {
   postSchema,
@@ -13,28 +14,48 @@ export const postsRouter = router({
   list: publicProcedure
     .input(
       z.object({
-        type: z.string(),
-        limit: z.number(),
-        cursor: z.number().optional(),
+        type: z.string().optional(),
+        limit: z.number().optional().default(10),
+        page: z.number().optional().default(0),
         authorId: z.string().optional(),
       })
     )
     .query(async ({ input }) => {
-      const { type, limit, cursor = 0, authorId } = input
-      const start = cursor * limit
+      const { type, limit, page = 0, authorId } = input
+      const start = page * limit
       const end = start + limit
 
-      // Filter posts by type and author
-      const filtered = mockPosts.filter((post) => {
-        const typeMatch = type === 'all' || post.type === type
-        const authorMatch =
-          typeof authorId === 'undefined' || post.author.id === authorId
-        return typeMatch && authorMatch
+      const data = await prisma.post.findMany({
+        orderBy: {
+          createdAt: 'desc',
+        },
+        include: {
+          author: {
+            include: {
+              city: true,
+            },
+          },
+        },
+        take: 5,
       })
 
+      const posts = data.map((post) => ({
+        ...post,
+        type: 'note',
+        content: {
+          text: post.title,
+        },
+        timestamp: post.createdAt,
+        stats: {
+          likes: 0,
+          shares: 0,
+          comments: 0,
+        },
+      }))
+
       return {
-        items: filtered.slice(start, end),
-        nextCursor: end < filtered.length ? cursor + 1 : undefined,
+        posts,
+        nextPage: page + 1,
       }
     }),
 
