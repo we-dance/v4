@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import type { ArticleContent } from '~/schemas/post'
+import MarkdownIt from 'markdown-it'
+
+const md = new MarkdownIt({})
+const html = (content: string) => {
+  return md.render(content)
+}
 
 defineProps<{
   content: ArticleContent
@@ -21,7 +27,7 @@ defineProps<{
       <div
         v-if="content.html"
         class="prose prose-neutral max-w-none line-clamp-3"
-        v-html="content.html"
+        v-html="html(content.html)"
       />
     </div>
   </div>

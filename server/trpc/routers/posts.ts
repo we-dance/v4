@@ -41,11 +41,12 @@ export const postsRouter = router({
 
       const posts = data.map((post) => ({
         ...post,
-        type: 'note',
+        type: 'article',
         content: {
-          text: post.title,
+          title: post.title,
+          cover: post.image,
+          html: post.content,
         },
-        timestamp: post.createdAt,
         stats: {
           likes: 0,
           shares: 0,

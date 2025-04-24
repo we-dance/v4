@@ -5,7 +5,7 @@ import UserPoints from '~/components/common/UserPoints.vue'
 
 defineProps<{
   author: PostAuthor
-  timestamp: string
+  createdAt: string
   type: PostType
 }>()
 </script>
@@ -29,7 +29,7 @@ defineProps<{
         <UserPoints :points="author.points" />
       </div>
       <div class="text-sm text-muted-foreground flex items-center gap-1">
-        <TimeAgo :date="timestamp" />
+        <TimeAgo :date="createdAt" />
         <span v-if="author.city">·</span>
         <span v-if="author.city" class="text-primary">
           {{ author.city.name }}

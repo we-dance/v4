@@ -57,7 +57,7 @@ function closeModal() {
     <ErrorBoundary>
       <PostHeader
         :author="post.author"
-        :timestamp="post.timestamp"
+        :created-at="post.createdAt"
         :type="post.type"
       />
 
