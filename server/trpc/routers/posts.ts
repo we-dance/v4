@@ -1,62 +1,73 @@
 import { z } from 'zod'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
-
-import {
-  postSchema,
-  createPostSchema,
-  updateStatsSchema,
-} from '../schemas/post'
+import { Prisma } from '@prisma/client'
+import { createPostSchema, updateStatsSchema } from '../schemas/post'
 import { mockPosts } from '~/data/mockPosts'
 
 export const postsRouter = router({
-  // Get all posts with optional filtering
   list: publicProcedure
     .input(
       z.object({
-        type: z.string().optional(),
-        limit: z.number().optional().default(10),
-        page: z.number().optional().default(0),
+        page: z.number().optional().default(1),
+        limit: z.number().optional().default(5),
         authorId: z.string().optional(),
+        pinnedFirst: z.boolean().optional().default(false),
       })
     )
     .query(async ({ input }) => {
-      const { type, limit, page = 0, authorId } = input
-      const start = page * limit
-      const end = start + limit
+      const { page, limit, authorId, pinnedFirst } = input
 
-      const data = await prisma.post.findMany({
+      const where: Prisma.PostWhereInput = {
+        authorId: authorId ?? undefined,
+      }
+
+      const orderBy: Prisma.PostOrderByWithRelationInput[] = [
+        {
+          pinned: 'desc',
+          createdAt: 'desc',
+        },
+        {
+          createdAt: 'desc',
+        },
+      ]
+
+      const posts = await prisma.post.findMany({
         orderBy: {
           createdAt: 'desc',
         },
+        where,
         include: {
-          author: {
+          style: true,
+          city: true,
+          author: true,
+          profile: true,
+          event: {
             include: {
-              city: true,
+              venue: {
+                include: {
+                  city: true,
+                },
+              },
+            },
+          },
+          course: {
+            include: {
+              instructor: true,
             },
           },
         },
-        take: 5,
+        take: limit,
+        skip: (page - 1) * limit,
+        where,
       })
 
-      const posts = data.map((post) => ({
-        ...post,
-        type: 'article',
-        content: {
-          title: post.title,
-          cover: post.image,
-          html: post.content,
-        },
-        stats: {
-          likes: 0,
-          shares: 0,
-          comments: 0,
-        },
-      }))
+      const total = await prisma.post.count()
+      const hasNextPage = page * limit < total
 
       return {
         posts,
-        nextPage: page + 1,
+        nextPage: hasNextPage ? page + 1 : null,
       }
     }),
 

@@ -1,108 +1,155 @@
 <script setup lang="ts">
-import type { Post } from '~/schemas/post'
-import { defineAsyncComponent, markRaw, type Component } from 'vue'
-import type { DefineComponent } from 'vue'
-import PostSkeleton from '../common/PostSkeleton.vue'
-import ErrorBoundary from '../common/ErrorBoundary.vue'
+import { POST_ACTIONS } from '~/constants/post'
+import MarkdownIt from 'markdown-it'
 
-const NuxtLink = resolveComponent('NuxtLink')
-
-interface Props {
-  /** The post data including author, content, and stats */
-  post: Post
-  /** Whether the post is displayed standalone or in a list */
-  standalone?: boolean
+const md = new MarkdownIt({
+  breaks: true,
+})
+const html = (content: string) => {
+  return md.render(content)
 }
 
-const props = defineProps<Props>()
-const emits = defineEmits(['like', 'share', 'comment'])
+const props = defineProps({
+  post: {
+    type: Object,
+    required: true,
+  },
+  standalone: {
+    type: Boolean,
+    default: false,
+  },
+  showPinned: {
+    type: Boolean,
+    default: false,
+  },
+})
 
-const { components, getComponentName } = usePostComponent()
-const route = useRoute()
+const video = computed(() => {
+  return props.post.attachments?.find(
+    (attachment) => attachment.type === 'video'
+  )
+})
 
-const getAsyncComponent = (type: Post['type']) => {
-  const componentName = getComponentName(type)
-  const component = components[componentName]
-
-  return defineAsyncComponent({
-    loader: async () => {
-      const comp = await component()
-      return markRaw(comp)
-    },
-    loadingComponent: PostSkeleton,
-    errorComponent: ErrorBoundary,
-  })
-}
-
-const isModalOpen = ref(false)
-
-function openModal(event: MouseEvent) {
-  if (event.metaKey || event.ctrlKey) {
-    return
-  }
-
-  event.preventDefault()
-  isModalOpen.value = true
-  history.pushState({}, '', `/post/${props.post.id}`)
-}
-
-function closeModal() {
-  isModalOpen.value = false
-  history.back()
-}
+const links = computed(() => {
+  return (
+    props.post.attachments?.filter(
+      (attachment) => attachment.type === 'link'
+    ) || []
+  )
+})
 </script>
 
 <template>
   <div class="bg-background rounded-lg shadow-sm border border-border">
-    <ErrorBoundary>
-      <PostHeader
-        :author="post.author"
-        :created-at="post.createdAt"
-        :type="post.type"
-      />
-
-      <Suspense>
-        <template #default>
-          <a
-            v-if="!standalone"
-            :href="`/post/${post.id}`"
-            @click="openModal"
-            class="block"
+    <PostHeader
+      :author="post.author"
+      :created-at="post.createdAt"
+      :community="post.style"
+      :city="post.city"
+      :pinned="showPinned && post.pinned"
+    />
+    <div class="relative">
+      <div class="px-4 pb-4 flex-1">
+        <h2 v-if="post.title" class="text-xl font-bold">
+          {{ post.title }}
+        </h2>
+        <div v-if="post.content?.rating" class="flex items-center gap-1 my-2">
+          <Icon
+            v-for="i in 5"
+            :key="i"
+            :name="i <= post.content.rating ? 'ph:star-fill' : 'ph:star'"
+            class="w-5 h-5"
+            :class="
+              i <= post.content.rating
+                ? 'text-warning'
+                : 'text-muted-foreground'
+            "
+          />
+        </div>
+        <div v-if="post.summary" class="prose prose-neutral max-w-none">
+          {{ post.summary }}
+        </div>
+        <div
+          v-if="post.content?.format === 'markdown'"
+          class="prose prose-neutral max-w-none x-line-clamp-3"
+          v-html="html(post.content)"
+        />
+      </div>
+      <div v-if="video" class="relative aspect-video bg-black">
+        <img
+          :src="video.thumbnail"
+          :alt="video.title"
+          class="w-full h-full object-cover opacity-50"
+        />
+        <Icon
+          name="heroicons:play-solid"
+          size="64"
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
+        />
+      </div>
+      <div v-else-if="post.image" class="relative aspect-video">
+        <img
+          :src="post.image"
+          :alt="post.title"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div v-else-if="links.length > 0" class="px-4 pb-4">
+        <PostLink v-for="link in links" :link="link" />
+      </div>
+      <div v-if="post.profile" class="mx-4 mb-4 border p-2 rounded-lg">
+        <ProfileCard :profile="post.profile" />
+      </div>
+      <div v-if="post.event" class="mx-4 mb-4 border rounded-lg">
+        <EventLine :event="post.event" />
+      </div>
+      <div v-if="post.course" class="mx-4 mb-4 border rounded-lg">
+        <CourseLine :course="post.course" />
+      </div>
+    </div>
+    <div class="p-4 border-t border-border">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <button
+            class="flex items-center gap-1 text-success hover:bg-success/10 rounded p-1"
           >
-            <component
-              :is="getAsyncComponent(post.type)"
-              :content="post.content as any"
-            />
-          </a>
-          <div v-else class="block">
-            <component
-              :is="getAsyncComponent(post.type)"
-              :content="post.content as any"
-            />
-          </div>
-        </template>
-        <template #fallback>
-          <PostSkeleton />
-        </template>
-      </Suspense>
+            <Icon name="ph:arrow-up" class="w-5 h-5" />
+            <span class="text-sm">{{ post.upVotes }}</span>
+          </button>
 
-      <PostTags v-if="post.content.tags" :tags="post.content.tags" />
-      <PostActions :stats="post.stats" :type="post.type" />
-    </ErrorBoundary>
-  </div>
+          <button
+            class="flex items-center gap-1 text-destructive hover:bg-destructive/10 rounded p-1"
+          >
+            <Icon name="ph:arrow-down" class="w-5 h-5" />
+            <span class="text-sm">{{ post.downVotes }}</span>
+          </button>
 
-  <Dialog :open="isModalOpen" @update:open="closeModal">
-    <DialogContent
-      class="container max-w-xl grid-rows-[auto_minmax(0,1fr)_auto] p-0 max-h-[90dvh]"
-    >
-      <DialogHeader class="p-6 pb-0">
-        <DialogTitle>Post</DialogTitle>
-      </DialogHeader>
-      <div class="grid gap-4 py-4 overflow-y-auto px-6">
-        <div class="flex flex-col justify-between">
-          <PostView :post="post" />
+          <button
+            class="flex items-center gap-1 text-muted-foreground hover:bg-muted-foreground/10 rounded p-1"
+          >
+            <Icon name="ph:bookmark-simple" class="w-5 h-5" />
+          </button>
+
+          <button
+            class="flex items-center gap-1 text-muted-foreground hover:bg-muted-foreground/10 rounded p-1"
+          >
+            <Icon name="ph:chat-circle" class="w-5 h-5" />
+            <span class="text-sm">{{ post.commentsCount }}</span>
+          </button>
+
+          <button
+            class="flex items-center gap-1 text-muted-foreground hover:bg-muted-foreground/10 rounded p-1"
+          >
+            <Icon name="ph:repeat" class="w-5 h-5" />
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <Button v-if="POST_ACTIONS[post.type]" variant="primary">
+            {{ POST_ACTIONS[post.type] }}
+          </Button>
         </div>
       </div>
-    </DialogContent>
-  </Dialog>
+    </div>
+  </div>
 </template>

@@ -2,9 +2,39 @@
 import { format, parseISO } from 'date-fns'
 import { computed } from 'vue'
 
-defineProps<{
-  event: AnyEvent
-}>()
+const props = defineProps({
+  event: {
+    type: Object,
+    required: true,
+  },
+})
+
+const formattedDate = computed(() => {
+  return format(parseISO(props.event.startDate), 'MMM d, yyyy')
+})
+
+const eventStatus = computed(() => {
+  if (props.event.status === 'upcoming') {
+    return {
+      color: 'bg-blue-600',
+      label: 'Upcoming',
+    }
+  } else if (props.event.status === 'past') {
+    return {
+      color: 'bg-gray-600',
+      label: 'Past',
+    }
+  } else if (props.event.status === 'cancelled') {
+    return {
+      color: 'bg-red-600',
+      label: 'Cancelled',
+    }
+  }
+})
+
+const eventTime = computed(() => {
+  return format(parseISO(props.event.startDate), 'h:mm a')
+})
 </script>
 
 <template>

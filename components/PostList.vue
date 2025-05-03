@@ -14,6 +14,10 @@ const props = defineProps({
     type: String as PropType<string | undefined>,
     default: undefined,
   },
+  pinnedFirst: {
+    type: Boolean,
+    default: false,
+  },
 })
 
 const {
@@ -26,8 +30,10 @@ const {
   hasNextPage,
 } = useInfiniteQuery({
   queryKey: ['posts'],
-  queryFn: ({ pageParam = 1 }) => $client.posts.list.query({}),
+  queryFn: ({ pageParam = 1 }) =>
+    $client.posts.list.query({ page: pageParam, authorId: props.authorId }),
   getNextPageParam: (lastPage, pages) => lastPage.nextPage,
+  initialPageParam: 1,
 })
 
 const posts = computed(
@@ -37,7 +43,12 @@ const posts = computed(
 
 <template>
   <div class="space-y-4">
-    <Post v-for="post in posts" :key="post.id" :post="post" />
+    <Post
+      v-for="post in posts"
+      :key="post.id"
+      :post="post"
+      :show-pinned="pinnedFirst"
+    />
 
     <EmptyState v-if="!posts.length" variant="no-posts" />
   </div>

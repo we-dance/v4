@@ -100,12 +100,13 @@ model City {
   subscribersCount Int    @default(0)
   viewsCount       Int    @default(0)
 
-  profiles Profile[] @relation("profile_city")
-  country  Country   @relation("country_cities", fields: [countryCode], references: [code])
-
-  createdAt   DateTime         @default(now())
-  updatedAt   DateTime         @updatedAt
+  profiles    Profile[]        @relation("profile_city")
+  country     Country          @relation("country_cities", fields: [countryCode], references: [code])
+  posts       Post[]           @relation("post_city")
   subscribers CitySubscriber[] @relation("subscribers")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model Profile {
@@ -151,37 +152,36 @@ model Profile {
   viewsCount       Int       @default(0)
   visibility       String    @default("Public")
   timezone         String?
-  locales          Json? // JSON for storing languages
-  gender           String? // Keep original value
+  locales          Json?
+  gender           String?
   birthday         DateTime?
-  objectives       Json? // User's objectives
-  step             String? // Step of registration
-  invitedBy        String? // ID of the user who invited the current user
-  daysUsed         Int? // Number of days used
-  pwaUsed          Boolean? // PWA usage
-  oldCities        Json? // Old cities structure
-  privacySettings  Json? // Privacy settings
+  objectives       Json?
+  step             String?
+  invitedBy        String?
+  daysUsed         Int?
+  pwaUsed          Boolean?
+  oldCities        Json?
+  privacySettings  Json?
 
-  userId          String?  @unique
-  user            User?    @relation("owned_by", fields: [userId], references: [id])
+  userId          String? @unique
+  user            User?   @relation("owned_by", fields: [userId], references: [id])
   cityId          String?
-  city            City?    @relation("profile_city", fields: [cityId], references: [id])
-  posts           Post[]
-  eventsCreated   Event[]  @relation("event_created_by")
-  eventsOrganized Event[]  @relation("event_organized_by")
-  eventsHosted    Event[]  @relation("event_hosted_by")
-  reviewsCreated  Review[] @relation("review_created_by")
+  city            City?   @relation("profile_city", fields: [cityId], references: [id])
+  posts           Post[]  @relation("post_author")
+  reviews         Post[]  @relation("reviews")
+  eventsCreated   Event[] @relation("event_created_by")
+  eventsOrganized Event[] @relation("event_organized_by")
+  eventsHosted    Event[] @relation("event_hosted_by")
 
-  // Course instructor relationship
-  coursesAsinstructor Course[]          @relation("course_instructor")
-  createdBy           User?             @relation("profile_created_by", fields: [createdById], references: [id])
-  styles              Experience[]      @relation("profile_experience")
-  followers           ProfileFollower[] @relation("followers")
-  following           ProfileFollower[] @relation("following")
-  cities              CitySubscriber[]  @relation("cities")
-  eventsParticipated  Guest[]           @relation("guest_profile")
-  videosAdded         Video[]           @relation("video_created_by")
-  votes               Vote[]            @relation("vote_created_by")
+  courses            Course[]          @relation("course_instructor")
+  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
+  styles             Experience[]      @relation("profile_experience")
+  followers          ProfileFollower[] @relation("followers")
+  following          ProfileFollower[] @relation("following")
+  cities             CitySubscriber[]  @relation("cities")
+  eventsParticipated Guest[]           @relation("guest_profile")
+  videosAdded        Video[]           @relation("video_created_by")
+  votes              Vote[]            @relation("vote_created_by")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -202,25 +202,35 @@ model Experience {
 }
 
 model Post {
-  id         String  @id @default(nanoid())
-  title      String  @default("")
-  image      String  @default("")
-  url        String  @default("")
-  content    String  @default("")
-  type       String  @default("")
-  slug       String  @unique
-  published  Boolean @default(false)
-  firebaseId String  @default("")
+  id          String  @id @default(nanoid())
+  title       String  @default("")
+  image       String  @default("")
+  summary     String  @default("")
+  type        String  @default("")
+  slug        String  @unique
+  published   Boolean @default(false)
+  firebaseId  String  @default("")
+  attachments Json?
+  content     Json?
 
-  author   Profile     @relation(fields: [authorId], references: [id])
-  authorId String
-  event    Event?      @relation("post_event", fields: [eventId], references: [id])
-  eventId  String?
-  styleId  Int?
-  style    DanceStyle? @relation("post_style", fields: [styleId], references: [id])
+  author    Profile  @relation("post_author", fields: [authorId], references: [id])
+  authorId  String
+  event     Event?   @relation("post_event", fields: [eventId], references: [id])
+  eventId   String?
+  courseId  String?
+  course    Course?  @relation("post_course", fields: [courseId], references: [id])
+  profile   Profile? @relation("reviews", fields: [profileId], references: [id])
+  profileId String?
+  cityId    String?
+  city      City?    @relation("post_city", fields: [cityId], references: [id])
 
-  upvotes       Int @default(0)
-  commentsCount Int @default(0)
+  styleId Int?
+  style   DanceStyle? @relation("post_style", fields: [styleId], references: [id])
+
+  pinned        Boolean @default(false)
+  upVotes       Int     @default(0)
+  downVotes     Int     @default(0)
+  commentsCount Int     @default(0)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -392,25 +402,7 @@ model Course {
   modules    CourseModule[]
   resources  CourseResource[]
   offers     Offer[]
-  reviews    Review[]
-}
-
-model Review {
-  id String @id @default(nanoid())
-
-  courseId String
-  course   Course @relation(fields: [courseId], references: [id])
-
-  rating Int
-  body   String?
-
-  authorId String
-  author   Profile @relation("review_created_by", fields: [authorId], references: [id])
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@unique([courseId, authorId])
+  reviews    Post[]           @relation("post_course")
 }
 
 model CourseModule {

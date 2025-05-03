@@ -6,7 +6,7 @@ const { profile, isOwner } = await useProfile()
   <ProfileLayout v-if="profile" :profile="profile">
     <div class="max-w-xl mx-auto">
       <Create v-if="isOwner" class="mb-6" />
-      <PostList :type="'all'" :limit="3" :author-id="profile.id" />
+      <PostList :author-id="profile.id" pinned-first />
     </div>
   </ProfileLayout>
 

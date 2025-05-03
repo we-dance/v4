@@ -3,11 +3,28 @@ import type { PostAuthor, PostType } from '~/schemas/post'
 import { POST_TYPE_ICONS } from '~/constants/post'
 import UserPoints from '~/components/common/UserPoints.vue'
 
-defineProps<{
-  author: PostAuthor
-  createdAt: string
-  type: PostType
-}>()
+defineProps({
+  author: {
+    type: Object,
+    required: true,
+  },
+  createdAt: {
+    type: String,
+    required: true,
+  },
+  community: {
+    type: Object,
+    required: false,
+  },
+  city: {
+    type: Object,
+    required: false,
+  },
+  pinned: {
+    type: Boolean,
+    required: false,
+  },
+})
 </script>
 
 <template>
@@ -27,27 +44,22 @@ defineProps<{
           {{ author.name }}
         </NuxtLink>
         <UserPoints :points="author.points" />
+        <span v-if="pinned" class="text-primary">Pinned</span>
       </div>
       <div class="text-sm text-muted-foreground flex items-center gap-1">
-        <TimeAgo :date="createdAt" />
-        <span v-if="author.city">·</span>
-        <span v-if="author.city" class="text-primary">
-          {{ author.city.name }}
-          <Flag :country="author.city.countryCode" />
+        <span v-if="community" class="text-primary">
+          {{ community.name }}
         </span>
+        <span v-if="community">·</span>
+        <span v-if="city" class="text-primary">
+          {{ city.name }}
+        </span>
+        <span v-if="city" class="uppercase">{{ city?.countryCode }}</span>
+        <span v-if="city">·</span>
+        <TimeAgo :date="createdAt" />
       </div>
     </div>
     <div class="flex items-center gap-2">
-      <div class="flex items-center gap-1 bg-primary/10 px-2 py-1 rounded-full">
-        <Icon
-          v-if="POST_TYPE_ICONS[type]"
-          :name="POST_TYPE_ICONS[type]"
-          class="w-4 h-4 text-primary"
-        />
-        <span class="text-sm text-primary capitalize">{{
-          type.replace('_', ' ')
-        }}</span>
-      </div>
       <Button variant="ghost" size="icon">
         <Icon name="ph:dots-three" class="w-5 h-5" />
       </Button>
