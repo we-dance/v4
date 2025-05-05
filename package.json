@@ -24,6 +24,7 @@
     "@nuxt/image": "^1.10.0",
     "@prisma/client": "^6.5.0",
     "@tanstack/vue-query": "^5.73.3",
+    "@tanstack/vue-table": "^8.21.3",
     "@trpc/client": "^11.0.1",
     "@trpc/server": "^11.0.1",
     "@types/express": "^5.0.1",

@@ -274,6 +274,69 @@ export const coursesRouter = router({
       return course
     }),
 
+  admin: publicProcedure
+    .input(
+      z.object({
+        slug: z.string(),
+      })
+    )
+    .query(async ({ ctx, input }) => {
+      const { slug } = input
+
+      const course: any = await prisma.course.findUnique({
+        where: { slug },
+        include: {
+          offers: {
+            orderBy: { createdAt: 'desc' },
+            include: {
+              subscriptions: {
+                include: {
+                  user: {
+                    include: {
+                      profile: true,
+                    },
+                  },
+                },
+                where: {
+                  status: 'active',
+                },
+              },
+            },
+          },
+          reviews: {
+            include: {
+              author: {
+                select: {
+                  username: true,
+                  name: true,
+                  photo: true,
+                },
+              },
+            },
+          },
+        },
+      })
+
+      if (!course) {
+        throw new TRPCError({
+          code: 'NOT_FOUND',
+          message: `No course with slug '${slug}'`,
+        })
+      }
+
+      course.stats = {
+        enrolled: 0,
+        completed: 0,
+      }
+
+      course.aggregateRating = {
+        ratingValue: 0,
+        reviewCount: 0,
+      }
+
+      return course
+    }),
+
   create: publicProcedure
     .input(z.object({ name: z.string() }))
     .mutation(async ({ ctx, input }) => {

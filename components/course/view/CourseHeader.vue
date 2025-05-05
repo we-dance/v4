@@ -60,7 +60,7 @@ const averageRating = computed(() => {
           class="absolute top-0 left-0"
           as-child
         >
-          <NuxtLink :to="`/admin/courses/${course.slug}`">
+          <NuxtLink :to="`/admin/courses/${course.slug}/edit`">
             <Icon name="lucide:pencil" class="w-4 h-4" />
           </NuxtLink>
         </Button>

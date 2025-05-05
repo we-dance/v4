@@ -48,7 +48,7 @@ const handleCreateCourse = () => {
 
     <CoursesGrid
       :courses="courses"
-      :link="(course) => `/admin/courses/${course.slug}`"
+      :link="(course) => `/admin/courses/${course.slug}/edit`"
     />
   </div>
 </template>
