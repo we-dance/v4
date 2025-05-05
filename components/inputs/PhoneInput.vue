@@ -37,23 +37,26 @@ onMounted(() => {
   }, 300)
 })
 
-// Only emit changes after user interaction and initialization
-const handleValueChange = (value: string) => {
-  internalValue.value = value
+const handleValueChange = (result: any) => {
+  if (result && result.nationalNumber !== undefined) {
+    internalValue.value = result.nationalNumber
+  }
 
-  if (initialized.value && userInteracted.value) {
-    emit('update:modelValue', value)
+  if (initialized.value && userInteracted.value && result) {
+    if (result.e164) {
+      emit('update:modelValue', result.e164)
+    } else if (result.countryCallingCode && internalValue.value) {
+      const phoneNumber = internalValue.value.startsWith('+')
+        ? internalValue.value
+        : `+${result.countryCallingCode}${internalValue.value}`
+      emit('update:modelValue', phoneNumber)
+    }
   }
 }
 
 // Mark component as interacted with
 const markAsInteracted = () => {
   userInteracted.value = true
-
-  // If we already have a value, emit it now that user has interacted
-  if (internalValue.value && initialized.value) {
-    emit('update:modelValue', internalValue.value)
-  }
 }
 </script>
 
@@ -63,7 +66,7 @@ const markAsInteracted = () => {
     class="flex"
     country-locale="en-EN"
     :model-value="internalValue"
-    @update:model-value="handleValueChange"
+    @update="handleValueChange"
     :disabled="disabled"
   >
     <template #selector="{ inputValue, updateInputValue, countries }">
