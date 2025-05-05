@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { toast } from 'vue-sonner'
 const { course } = defineProps<{
   course: any
 }>()
@@ -40,13 +41,18 @@ const scrollToPlayer = () => {
   }
 }
 
-const handleSelectLesson = (lesson: any) => {
-  if (lesson.locked && !isUnlocked.value) {
+const handleSelectLesson = (props: any) => {
+  if (props.isLessonLocked) {
     handleViewPricing()
     return
   }
 
-  currentLesson.value = lesson
+  if (!props.isLessonAvailable) {
+    toast.error('This lesson is not available yet')
+    return
+  }
+
+  currentLesson.value = props.lesson
   scrollToPlayer()
 }
 

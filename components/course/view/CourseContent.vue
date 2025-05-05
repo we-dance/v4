@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { formatDuration } from '~/utils/format'
+import { formatDuration, formatDate } from '~/utils/format'
 const { course, currentLesson, isUnlocked } = defineProps<{
   course: any
   currentLesson: any
@@ -9,6 +9,31 @@ const { course, currentLesson, isUnlocked } = defineProps<{
 const emit = defineEmits<{
   (e: 'selectLesson', lesson: any): void
 }>()
+
+const selectLesson = (module: any, lesson: any) => {
+  emit('selectLesson', {
+    module,
+    lesson,
+    isLessonAvailable: isLessonAvailable(module, lesson),
+    isLessonLocked: isLessonLocked(lesson),
+  })
+}
+
+const isModuleOpen = (module: any) => {
+  if (!module.startsAt) {
+    return true
+  }
+
+  return module.startsAt && module.startsAt > new Date()
+}
+
+const isLessonLocked = (lesson: any) => {
+  return lesson.locked && !isUnlocked
+}
+
+const isLessonAvailable = (module: any, lesson: any) => {
+  return isModuleOpen(module) && !isLessonLocked(lesson)
+}
 </script>
 
 <template>
@@ -18,12 +43,15 @@ const emit = defineEmits<{
     </div>
     <div class="divide-y">
       <div v-for="module in course.modules" :key="module.id" class="p-4">
-        <h4 class="font-medium mb-2">{{ module.name }}</h4>
-        <ul class="space-y-2">
+        <h4 class="font-medium">{{ module.name }}</h4>
+        <div v-if="module.startsAt" class="text-sm text-muted-foreground">
+          Opens on {{ formatDate(module.startsAt) }}
+        </div>
+        <ul class="space-y-2 mt-2">
           <li
             v-for="lesson in module.lessons"
             :key="lesson.id"
-            @click="emit('selectLesson', lesson)"
+            @click="selectLesson(module, lesson)"
             class="flex items-center gap-3 p-2 rounded hover:bg-muted hover:text-foreground cursor-pointer border-2 border-background"
             :class="{
               'border-muted-foreground': currentLesson?.id === lesson.id,
@@ -31,15 +59,15 @@ const emit = defineEmits<{
           >
             <Icon
               :name="
-                lesson.locked && !isUnlocked
-                  ? 'ph:lock-simple'
-                  : 'ph:play-circle'
+                isLessonAvailable(module, lesson)
+                  ? 'ph:play-circle'
+                  : 'ph:lock-simple'
               "
               class="w-5 h-5"
               :class="
-                lesson.locked && !isUnlocked
-                  ? 'text-red-500'
-                  : 'text-muted-foreground'
+                isLessonAvailable(module, lesson)
+                  ? 'text-muted-foreground'
+                  : 'text-red-500'
               "
             />
             <div class="flex-1">

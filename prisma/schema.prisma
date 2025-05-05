@@ -414,11 +414,12 @@ model Review {
 }
 
 model CourseModule {
-  id          String  @id @default(nanoid())
+  id          String    @id @default(nanoid())
   name        String
   order       Int
   description String?
   courseId    String
+  startsAt    DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
