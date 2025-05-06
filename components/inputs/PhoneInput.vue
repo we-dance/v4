@@ -70,10 +70,6 @@ function cleanNationalNumber(number: string): string {
 
 const handleInputChange = (e: Event, updateInputValue: Function) => {
   markAsInteracted()
-
-  const target = e.target as HTMLInputElement
-  let value = target.value
-
   updateInputValue(e)
 }
 
