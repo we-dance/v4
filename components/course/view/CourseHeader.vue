@@ -77,7 +77,7 @@ const averageRating = computed(() => {
         </div>
       </div>
       <div class="flex-1 flex justify-end">
-        <Button as-child>
+        <Button v-if="canEdit" as-child>
           <NuxtLink :to="`/admin/courses/${course.slug}`">
             <Icon name="lucide:pencil" class="w-4 h-4" />
             Edit
