@@ -42,7 +42,7 @@ watch(
   <nav
     class="bg-background/80 backdrop-blur-sm shadow-sm fixed w-full z-50 border-b border-border"
   >
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4">
       <div class="flex justify-between items-center h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
@@ -52,7 +52,7 @@ watch(
           </div>
         </div>
         <!-- Desktop Navigation -->
-        <div class="hidden lg:ml-6 lg:mr-20 lg:flex lg:items-center gap-2">
+        <div class="hidden lg:flex lg:items-center gap-2">
           <Button
             as-child
             variant="ghost"
