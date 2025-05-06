@@ -132,12 +132,7 @@ const onSubmit = form.handleSubmit(async (values) => {
             <span class="text-destructive">*</span>
           </FormLabel>
           <FormControl>
-            <Input
-              v-bind="componentField"
-              type="tel"
-              placeholder="Your phone number"
-              class="max-w-md"
-            />
+            <PhoneInput v-bind="componentField" class="max-w-md" />
           </FormControl>
           <FormMessage />
         </FormItem>
