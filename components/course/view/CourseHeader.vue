@@ -31,16 +31,16 @@ const numberOfLessons = computed(() => {
 })
 
 const reviews = computed(() => {
-  return course.reviews.length
+  return course.reviews.filter((review: any) => review.content?.rating).length
 })
 
 const averageRating = computed(() => {
   return (
     course.reviews
-      .filter((review: any) => review.rating)
+      .filter((review: any) => review.content?.rating)
       .reduce((acc: number, review: any) => {
-        return acc + review.rating
-      }, 0) / course.reviews.length
+        return acc + review.content?.rating
+      }, 0) / reviews.value
   )
 })
 </script>
