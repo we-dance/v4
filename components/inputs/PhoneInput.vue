@@ -2,7 +2,7 @@
 import BasePhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
-import { ref, onMounted, defineProps, defineEmits } from 'vue'
+import { ref, onMounted, defineProps, defineEmits, watch } from 'vue'
 
 const props = defineProps({
   modelValue: {
@@ -22,13 +22,15 @@ const phoneInput = ref(null)
 const { focused } = useFocus(phoneInput)
 
 // Internal value to manage the phone input
-const internalValue = ref(props.modelValue)
+const internalValue = ref(props.modelValue || '')
 
 // Track if user has interacted with the component
 const userInteracted = ref(false)
 
 // Track if the component has been initialized
 const initialized = ref(false)
+
+const selectedCountry = ref('')
 
 onMounted(() => {
   // Delay initialization to allow auto-country selection without triggering validation
@@ -37,19 +39,63 @@ onMounted(() => {
   }, 300)
 })
 
+function extractNationalNumber(phoneWithCode: string): string {
+  if (!phoneWithCode) return ''
+
+  if (!phoneWithCode.startsWith('+')) return phoneWithCode
+
+  return phoneWithCode.replace(/^\+\d{1,3}/, '')
+}
+
+watch(
+  () => props.modelValue,
+  (newValue) => {
+    if (
+      !userInteracted.value ||
+      !document.activeElement?.contains(phoneInput.value)
+    ) {
+      if (newValue) {
+        internalValue.value = extractNationalNumber(newValue)
+      } else {
+        internalValue.value = ''
+      }
+    }
+  },
+  { immediate: true }
+)
+
+function cleanNationalNumber(number: string): string {
+  return number.replace(/^0+/, '')
+}
+
+const handleInputChange = (e: Event, updateInputValue: Function) => {
+  markAsInteracted()
+
+  const target = e.target as HTMLInputElement
+  let value = target.value
+
+  updateInputValue(e)
+}
+
 const handleValueChange = (result: any) => {
-  if (result && result.nationalNumber !== undefined) {
-    internalValue.value = result.nationalNumber
+  if (result && result.countryCode) {
+    selectedCountry.value = result.countryCode
   }
 
   if (initialized.value && userInteracted.value && result) {
+    let nationalNumber = result.nationalNumber || ''
+
+    nationalNumber = cleanNationalNumber(nationalNumber)
+
     if (result.e164) {
       emit('update:modelValue', result.e164)
-    } else if (result.countryCallingCode && internalValue.value) {
-      const phoneNumber = internalValue.value.startsWith('+')
-        ? internalValue.value
-        : `+${result.countryCallingCode}${internalValue.value}`
+      return
+    }
+
+    if (result.countryCallingCode) {
+      const phoneNumber = `+${result.countryCallingCode}${nationalNumber}`
       emit('update:modelValue', phoneNumber)
+      return
     }
   }
 }
@@ -97,6 +143,7 @@ const markAsInteracted = () => {
                   @select="
                     () => {
                       updateInputValue(option.iso2)
+                      selectedCountry = option.iso2
                       open = false
                       focused = true
                       markAsInteracted()
@@ -122,12 +169,7 @@ const markAsInteracted = () => {
         class="rounded-e-lg rounded-s-none"
         type="text"
         :model-value="inputValue"
-        @input="
-          (e: Event) => {
-            markAsInteracted()
-            updateInputValue(e)
-          }
-        "
+        @input="(e: Event) => handleInputChange(e, updateInputValue)"
         :placeholder="placeholder"
         :disabled="disabled"
       />
