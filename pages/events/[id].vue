@@ -133,7 +133,10 @@ onMounted(() => {
 
 <template>
   <!-- Loading State -->
-  <div v-if="loading" class="min-h-screen flex items-center justify-center">
+  <div
+    v-if="loading"
+    class="min-h-screen flex items-center justify-center bg-background text-foreground"
+  >
     <div class="text-center">
       <div
         class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent align-[-0.125em]"
@@ -153,7 +156,7 @@ onMounted(() => {
   </div>
 
   <!-- Event Content -->
-  <div v-else-if="event" class="min-h-screen bg-gray-50">
+  <div v-else-if="event" class="min-h-screen">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
       <div
@@ -262,7 +265,9 @@ onMounted(() => {
     </div>
 
     <!-- Main Content -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div
+      class="bg-background text-foreground max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
+    >
       <div
         class="flex flex-col lg:flex-row justify-center gap-8 max-w-7xl mx-auto"
       >
@@ -270,13 +275,13 @@ onMounted(() => {
         <div class="space-y-8 lg:w-2/3">
           <postEventUpdate />
           <!-- Description -->
-          <div class="bg-white rounded-xl shadow-sm p-6">
+          <div class="rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">About this event</h2>
             <div class="prose max-w-none" v-html="renderedDescription"></div>
           </div>
 
           <!-- Schedule -->
-          <div v-if="event.startDate" class="bg-white rounded-xl shadow-sm p-6">
+          <div v-if="event.startDate" class="rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">Schedule</h2>
             <div class="space-y-4">
               <div class="flex items-start gap-4">
@@ -294,10 +299,7 @@ onMounted(() => {
           </div>
 
           <!-- Dance Styles -->
-          <div
-            v-if="event.styles?.length"
-            class="bg-white rounded-xl shadow-sm p-6"
-          >
+          <div v-if="event.styles?.length" class="rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">Dance Styles</h2>
             <div class="flex flex-wrap gap-2">
               <Badge
@@ -314,7 +316,7 @@ onMounted(() => {
           <!-- Organizers -->
           <div
             v-if="event.organizer || event.creator"
-            class="bg-white rounded-xl shadow-sm p-6"
+            class="rounded-xl shadow-sm p-6"
           >
             <h2 class="text-2xl font-bold mb-4">Organizers</h2>
             <div class="space-y-4">
@@ -357,7 +359,7 @@ onMounted(() => {
         <!-- Right Column: Sidebar -->
         <div class="space-y-6 lg:w-1/3">
           <!-- Guests section -->
-          <div class="bg-white rounded-xl shadow-sm p-6">
+          <div class="rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Guests</h3>
             <Button
               class="w-full mb-6"
@@ -408,7 +410,7 @@ onMounted(() => {
           </div>
 
           <!-- Location -->
-          <div v-if="event.venue" class="bg-white rounded-xl shadow-sm p-6">
+          <div v-if="event.venue" class="rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Location</h3>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
@@ -440,11 +442,9 @@ onMounted(() => {
           </div>
 
           <!-- Price Details -->
-          <div v-if="event.price" class="bg-white rounded-xl shadow-sm p-6">
+          <div v-if="event.price" class="rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Pricing</h3>
-            <div
-              class="flex items-center justify-between mb-6 p-3 bg-gray-50 rounded-lg"
-            >
+            <div class="flex items-center justify-between mb-6 p-3 rounded-lg">
               <div>
                 <div class="font-medium">Standard Ticket</div>
                 <div v-if="event.type" class="text-sm text-gray-500">
