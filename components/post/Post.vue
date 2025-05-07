@@ -4,6 +4,7 @@ import MarkdownIt from 'markdown-it'
 
 const md = new MarkdownIt({
   breaks: true,
+  linkify: true,
 })
 const html = (content: string) => {
   return md.render(content)
@@ -69,10 +70,10 @@ const links = computed(() => {
         <div v-if="post.summary" class="prose prose-neutral max-w-none">
           {{ post.summary }}
         </div>
-        <div
+        <TPreview
+          class="max-w-none x-line-clamp-3"
           v-if="post.content?.format === 'markdown'"
-          class="prose prose-neutral max-w-none x-line-clamp-3"
-          v-html="html(post.content)"
+          :content="post.content.text"
         />
       </div>
       <div v-if="video" class="relative aspect-video bg-black">

@@ -40,6 +40,9 @@ db-reset:
 sh:
 	docker compose exec app sh
 
+clean-posts:
+	docker compose exec db sh -c 'psql -U user -d db -c "DELETE FROM public.\"Post\";"'
+
 import:
 	pnpm prisma db push --force-reset
 	pnpm prisma generate

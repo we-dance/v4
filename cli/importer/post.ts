@@ -48,10 +48,13 @@ export async function addPost(post: any) {
   const data = {
     id: post.id,
     slug,
-    url: post.url,
     styleId: styleId,
     title: getNormalizedString(post.title),
-    content: post.description,
+    content: {
+      format: 'markdown',
+      text: post.description,
+    },
+    attachments: [] as any,
     image: post.cover,
     createdAt: getDateOrNow(post.createdAt),
     updatedAt: getDateOrNow(post.updatedAt),
@@ -59,6 +62,13 @@ export async function addPost(post: any) {
     published: true,
     type: post.type || '',
     firebaseId: post.id,
+  }
+
+  if (post.url) {
+    data.attachments.push({
+      url: post.url,
+      type: 'link',
+    })
   }
 
   try {

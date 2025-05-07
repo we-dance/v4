@@ -35,6 +35,7 @@
     "clsx": "^2.1.1",
     "cyrillic-to-translit-js": "^3.2.1",
     "date-fns": "^4.1.0",
+    "excerpt-html": "^1.2.2",
     "express": "^5.1.0",
     "flag-icons": "^7.3.2",
     "lucide-vue-next": "^0.487.0",

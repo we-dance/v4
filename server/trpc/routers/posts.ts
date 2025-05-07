@@ -10,7 +10,7 @@ export const postsRouter = router({
     .input(
       z.object({
         page: z.number().optional().default(1),
-        limit: z.number().optional().default(5),
+        limit: z.number().optional().default(20),
         authorId: z.string().optional(),
         pinnedFirst: z.boolean().optional().default(false),
       })
