@@ -42,6 +42,7 @@ export const postsRouter = router({
           city: true,
           author: true,
           profile: true,
+          replyToPost: true,
           event: {
             include: {
               venue: {

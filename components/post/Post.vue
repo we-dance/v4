@@ -54,6 +54,21 @@ const links = computed(() => {
         <h2 v-if="post.title" class="text-xl font-bold">
           {{ post.title }}
         </h2>
+        <div v-if="post.replyToPost" class="flex text-sm text-muted-foreground">
+          <Icon
+            name="ph:arrow-bend-down-right-fill"
+            class="w-4 h-4 flex-shrink-0"
+          />
+          <div>
+            Replying to
+            <router-link
+              :to="`/posts/${post.replyToPost.id}`"
+              class="font-bold hover:underline"
+            >
+              {{ post.replyToPost.summary }}
+            </router-link>
+          </div>
+        </div>
         <div v-if="post.content?.rating" class="flex items-center gap-1 my-2">
           <Icon
             v-for="i in 5"
