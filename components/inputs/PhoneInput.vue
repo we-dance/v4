@@ -3,7 +3,6 @@ import BasePhoneInput from 'base-vue-phone-input'
 import { useFocus } from '@vueuse/core'
 import { ChevronsUpDown } from 'lucide-vue-next'
 import { ref, onMounted, watch, computed, defineProps, defineEmits } from 'vue'
-import { toast } from 'vue-sonner'
 
 /**
  * Map of country calling codes to ISO country codes for cases
@@ -92,9 +91,7 @@ const handleValueChange = (result: any) => {
         : `+${result.countryCallingCode}${internalValue.value}`
       emit('update:modelValue', phoneNumber)
     } else if (internalValue.value && !result.countryCallingCode) {
-      toast.error('Country code required', {
-        description: 'Please select a country for your phone number',
-      })
+      markAsInteracted()
     }
   }
 }
