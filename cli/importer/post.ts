@@ -5,7 +5,7 @@ import { load } from 'cheerio'
 import axios from 'axios'
 const prisma = new PrismaClient()
 
-async function getPreview(link: string) {
+export async function getPreview(link: string) {
   const { data } = await axios.get(link)
   const $ = load(data)
 
@@ -17,17 +17,22 @@ async function getPreview(link: string) {
     )
   }
 
-  const preview = {
+  let title = $('title').first().text()
+
+  if (link.includes('chat.whatsapp.com')) {
+    title = $('#main_block h3').first().text()
+  }
+
+  return {
     url: link,
-    title: $('title').first().text(),
+    title,
     favicon:
+      $('link[rel="icon"]').attr('href') ||
       $('link[rel="shortcut icon"]').attr('href') ||
       $('link[rel="alternate icon"]').attr('href'),
     description: getMetaTag('description'),
     image: getMetaTag('image'),
   }
-
-  return preview
 }
 
 function getUrlsFromText(text: string): string[] {
@@ -46,10 +51,12 @@ function getUrlsFromText(text: string): string[] {
 
 export async function addPost(post: any) {
   let creatorId = ''
+
   if (post.createdBy) {
     const creator = await prisma.profile.findFirst({
       where: { id: post.createdBy },
     })
+
     if (!creator) {
       return {
         state: 'failed',
@@ -95,8 +102,23 @@ export async function addPost(post: any) {
     summary = post.description
   }
 
+  if (post.type === 'ask-for-recommendations') {
+    type = 'ask_locals'
+    summary = post.description
+  }
+
+  if (post.type === 'review') {
+    type = 'review'
+    summary = post.description
+    content = { rating: post.stars }
+  }
+
   if (post.url) {
     links.push(post.url)
+  }
+
+  if (post.link) {
+    links.push(post.link)
   }
 
   if (summary) {
@@ -109,9 +131,9 @@ export async function addPost(post: any) {
     summary = summary.trim()
   }
 
-  const data = {
+  const data: any = {
     id: post.id,
-    slug,
+    slug: slug || post.id,
     styleId: styleId,
     title,
     summary,
@@ -124,6 +146,37 @@ export async function addPost(post: any) {
     published: true,
     type,
     firebaseId: post.id,
+  }
+
+  if (post.receiver?.username) {
+    const receiver = await prisma.profile.findFirst({
+      where: { firebaseUsername: post.receiver.username },
+    })
+    if (receiver) {
+      data.profileId = receiver.id
+    }
+  }
+
+  if (post.question) {
+    const question = await prisma.post.findUnique({
+      where: { id: post.question },
+    })
+    if (question) {
+      data.replyTo = question.id
+    }
+  }
+
+  if (post.place) {
+    data.cityId = post.place
+  }
+
+  if (post.style) {
+    const style = await prisma.danceStyle.findUnique({
+      where: { hashtag: post.style },
+    })
+    if (style) {
+      data.styleId = style.id
+    }
   }
 
   for (const rawLink of links) {

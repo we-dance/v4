@@ -13,6 +13,7 @@ import { getUniqueUsername } from './importer/profile'
 import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
+import { getPreview } from './importer/post'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
@@ -46,6 +47,13 @@ program.command('username <name>').action(async (name) => {
 program.command('export').action(async (name) => {
   const result = await exportAccounts()
   console.log(result)
+})
+
+program.command('test').action(async (name) => {
+  const preview = await getPreview(
+    'https://chat.whatsapp.com/KruMwGxjiPYA1h0mrHzA8D'
+  )
+  console.log(preview)
 })
 
 program.command('reindex').action(async (name) => {

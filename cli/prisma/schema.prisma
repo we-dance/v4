@@ -212,6 +212,8 @@ model Post {
   firebaseId  String  @default("")
   attachments Json?
   content     Json?
+  replyTo     String?
+  replyToPost Post?   @relation("post_reply_to", fields: [replyTo], references: [id])
 
   author    Profile  @relation("post_author", fields: [authorId], references: [id])
   authorId  String
@@ -234,6 +236,7 @@ model Post {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  replies   Post[]   @relation("post_reply_to")
 }
 
 model Event {
