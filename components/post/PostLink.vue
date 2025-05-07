@@ -12,14 +12,17 @@ defineProps({
     :href="link.url"
     target="_blank"
     rel="noopener noreferrer"
-    class="block bg-muted p-3 rounded-lg hover:bg-muted/80"
+    class="flex gap-4 items-center bg-muted p-3 rounded-lg hover:bg-muted/80"
   >
-    <div class="flex items-center gap-2">
-      <Icon name="ph:link" class="w-4 h-4 text-primary" />
-      <span class="text-primary truncate">{{ link.title || link.url }}</span>
+    <img v-if="link.image" :src="link.image" class="w-8 h-8 rounded-full" />
+    <div>
+      <div class="flex items-center gap-2">
+        <Icon v-if="!link.image" name="ph:link" class="w-4 h-4 text-primary" />
+        <span class="text-primary truncate">{{ link.title || link.url }}</span>
+      </div>
+      <p v-if="link.description" class="text-sm text-muted-foreground">
+        {{ link.description }}
+      </p>
     </div>
-    <p v-if="link.description" class="text-sm text-muted-foreground mt-1">
-      {{ link.description }}
-    </p>
   </a>
 </template>

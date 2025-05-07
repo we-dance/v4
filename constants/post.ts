@@ -13,7 +13,6 @@ export const POST_TYPE_ICONS = {
 export const POST_ACTIONS = {
   article: 'Read More',
   meet: 'Send Request',
-  review: 'Different experience?',
   job: 'Apply',
   ask_locals: 'Share Info',
   ad: 'Contact',
