@@ -91,7 +91,13 @@ export function getSlug(name: string, minLength = 2, maxLength = 30) {
 export const userSchema = z.object({
   firstName: z.string().min(1, 'First name is required.').nullable(),
   lastName: z.string().min(1, 'Last name is required.').nullable(),
-  phone: z.string().min(1, 'Phone is required.').nullable(),
+  phone: z
+    .string()
+    .min(1, 'Phone is required.')
+    .refine((value) => value.startsWith('+'), {
+      message: 'Please select a country code for your phone number.',
+    })
+    .nullable(),
   email: z.string().email(),
 })
 
