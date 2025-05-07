@@ -59,7 +59,6 @@ export const postsRouter = router({
         },
         take: limit,
         skip: (page - 1) * limit,
-        where,
       })
 
       const total = await prisma.post.count()

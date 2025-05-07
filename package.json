@@ -38,6 +38,7 @@
     "excerpt-html": "^1.2.2",
     "express": "^5.1.0",
     "flag-icons": "^7.3.2",
+    "htmlparser2": "^10.0.0",
     "lucide-vue-next": "^0.487.0",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",

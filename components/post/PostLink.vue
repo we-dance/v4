@@ -16,7 +16,7 @@ defineProps({
   >
     <div class="flex items-center gap-2">
       <Icon name="ph:link" class="w-4 h-4 text-primary" />
-      <span class="text-primary">{{ link.title }}</span>
+      <span class="text-primary truncate">{{ link.title || link.url }}</span>
     </div>
     <p v-if="link.description" class="text-sm text-muted-foreground mt-1">
       {{ link.description }}

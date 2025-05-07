@@ -74,6 +74,7 @@ const links = computed(() => {
           class="max-w-none x-line-clamp-3"
           v-if="post.content?.format === 'markdown'"
           :content="post.content.text"
+          excerpt
         />
       </div>
       <div v-if="video" class="relative aspect-video bg-black">

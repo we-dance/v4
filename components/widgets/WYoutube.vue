@@ -34,6 +34,6 @@ const src = computed(() => {
     frameborder="0"
     allowfullscreen
     allow="autoplay"
-    class="w-full aspect-video max-h-[90vh]"
+    class="w-full aspect-video max-h-[90vh] my-4"
   ></iframe>
 </template>

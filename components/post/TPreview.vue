@@ -1,9 +1,18 @@
-<script>
+<script setup>
+import { defineComponent, computed, h } from 'vue'
 import MarkdownIt from 'markdown-it'
 import MarkdownContainer from 'markdown-it-container'
 import MarkdownAttrs from 'markdown-it-attrs'
 import excerptHtml from 'excerpt-html'
 import mila from 'markdown-it-link-attributes'
+
+import { parseDocument } from 'htmlparser2'
+import WYoutube from '~/components/widgets/WYoutube.vue'
+
+const props = defineProps({
+  content: String,
+  excerpt: Boolean,
+})
 
 const md = new MarkdownIt({
   html: true,
@@ -21,63 +30,49 @@ md.use(mila, {
   },
 })
 
-md.use(MarkdownContainer, 'details', {
-  validate: (params) => {
-    return params.trim().match(/^details\s+(.*)$/)
-  },
+const html = computed(() => md.render(props.content))
 
-  render: (tokens, idx) => {
-    const m = tokens[idx].info.trim().match(/^details\s+(.*)$/)
-
-    if (tokens[idx].nesting === 1) {
-      // opening tag
-      return '<details><summary>' + md.utils.escapeHtml(m[1]) + '</summary>\n'
-    } else {
-      // closing tag
-      return '</details>\n'
-    }
-  },
-})
-
-md.use(MarkdownContainer, 'hero', {
-  validate: (params) => {
-    return params.trim().match(/^hero$/)
-  },
-
-  render: (tokens, idx) => {
-    if (tokens[idx].nesting === 1) {
-      return '<div class="hero">\n'
-    } else {
-      return '</div>\n'
-    }
-  },
-})
-
-export default {
-  props: {
-    content: {
-      type: String,
-      default: '',
-    },
-    excerpt: {
-      type: Boolean,
-      default: false,
-    },
-  },
-  computed: {
-    raw() {
-      let html = md.render(this.content)
-
-      if (this.excerpt) {
-        html = excerptHtml(html)
-      }
-
-      return html
-    },
-  },
+const customComponents = {
+  'w-youtube': WYoutube,
 }
+
+function renderNode(node) {
+  if (node.type === 'text') {
+    return node.data
+  }
+
+  if (node.type === 'tag') {
+    const tagName = node.name.toLowerCase()
+    const component = customComponents[tagName] || tagName
+    const props = Object.fromEntries(
+      Object.entries(node.attribs || {}).map(([key, value]) => [key, value])
+    )
+
+    return h(component, props, node.children?.map(renderNode) || [])
+  }
+
+  return null
+}
+
+const contentTree = computed(() =>
+  props.excerpt
+    ? defineComponent({
+        name: 'DynamicMarkdownTree',
+        setup() {
+          return () => h('div', {}, excerptHtml(props.content))
+        },
+      })
+    : defineComponent({
+        name: 'DynamicMarkdownTree',
+        setup() {
+          const dom = parseDocument(html.value).children
+          const children = dom.map(renderNode)
+          return () => h('div', {}, children)
+        },
+      })
+)
 </script>
 
 <template>
-  <div class="prose" v-html="raw" />
+  <component :is="contentTree" />
 </template>
