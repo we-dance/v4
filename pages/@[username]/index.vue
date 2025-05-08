@@ -5,7 +5,7 @@ const { profile, isOwner } = await useProfile()
 <template>
   <ProfileLayout v-if="profile" :profile="profile">
     <div id="content" class="max-w-xl mx-auto">
-      <Create v-if="isOwner" class="mb-6" />
+      <PostEditor v-if="isOwner" class="mb-6" />
       <PostList :author-id="profile.id" pinned-first />
     </div>
   </ProfileLayout>
