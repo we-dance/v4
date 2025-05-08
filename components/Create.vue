@@ -31,130 +31,133 @@ const selectedCity = ref(null)
       </DialogTrigger>
       <DialogContent class="sm:max-w-xl max-h-[80vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle></DialogTitle>
-          <div class="flex items-start gap-3">
-            <Avatar
-              :profile="session?.profile"
-              class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-primary transition-all"
-            />
-            <div class="flex-1">
-              <div
-                class="font-medium text-foreground hover:text-primary transition-colors"
-              >
-                {{ session?.profile?.name }}
-              </div>
-              <div class="flex items-center gap-4 text-sm">
-                <Combobox v-model="selectedCommunity" by="label">
-                  <ComboboxAnchor as-child>
-                    <ComboboxTrigger as-child>
-                      <Button
-                        variant="outline"
-                        size="skinny"
-                        class="w-auto text-xs"
-                      >
-                        {{ selectedCommunity?.label ?? 'Community' }}
+          <DialogTitle>Create a post</DialogTitle>
+          <DialogDescription>
+            Share your dance story, ask questions, or post an event.
+          </DialogDescription>
+        </DialogHeader>
+        <div class="flex items-start gap-3">
+          <Avatar
+            :profile="session?.profile"
+            class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-primary transition-all"
+          />
+          <div class="flex-1">
+            <div
+              class="font-medium text-foreground hover:text-primary transition-colors"
+            >
+              {{ session?.profile?.name }}
+            </div>
+            <div class="flex items-center gap-2 text-sm">
+              <Combobox v-model="selectedCommunity" by="label">
+                <ComboboxAnchor as-child>
+                  <ComboboxTrigger as-child>
+                    <Button
+                      variant="outline"
+                      size="skinny"
+                      class="w-auto text-xs"
+                    >
+                      {{ selectedCommunity?.label ?? 'Community' }}
 
-                        <Icon name="ph:caret-down" class="w-4 h-4" />
-                      </Button>
-                    </ComboboxTrigger>
-                  </ComboboxAnchor>
+                      <Icon name="ph:caret-down" class="w-4 h-4" />
+                    </Button>
+                  </ComboboxTrigger>
+                </ComboboxAnchor>
 
-                  <ComboboxList>
-                    <div class="relative w-full max-w-sm items-center">
-                      <ComboboxInput
-                        class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
-                        placeholder="Search community..."
-                      />
-                      <span
-                        class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
-                      >
-                        <Search class="size-4 text-muted-foreground" />
-                      </span>
-                    </div>
+                <ComboboxList>
+                  <div class="relative w-full max-w-sm items-center">
+                    <ComboboxInput
+                      class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
+                      placeholder="Search community..."
+                    />
+                    <span
+                      class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
+                    >
+                      <Search class="size-4 text-muted-foreground" />
+                    </span>
+                  </div>
 
-                    <ComboboxEmpty> No community found. </ComboboxEmpty>
+                  <ComboboxEmpty> No community found. </ComboboxEmpty>
 
-                    <ComboboxGroup>
-                      <ComboboxItem
-                        v-for="community in communities"
-                        :key="community.value"
-                        :value="community"
-                      >
-                        {{ community.label }}
+                  <ComboboxGroup>
+                    <ComboboxItem
+                      v-for="community in communities"
+                      :key="community.value"
+                      :value="community"
+                    >
+                      {{ community.label }}
 
-                        <ComboboxItemIndicator>
-                          <Icon
-                            name="ph:check"
-                            class="ml-auto h-4 w-4"
-                            :class="
-                              selectedCommunity?.value === community.value
-                                ? 'opacity-100'
-                                : 'opacity-0'
-                            "
-                          />
-                        </ComboboxItemIndicator>
-                      </ComboboxItem>
-                    </ComboboxGroup>
-                  </ComboboxList>
-                </Combobox>
+                      <ComboboxItemIndicator>
+                        <Icon
+                          name="ph:check"
+                          class="ml-auto h-4 w-4"
+                          :class="
+                            selectedCommunity?.value === community.value
+                              ? 'opacity-100'
+                              : 'opacity-0'
+                          "
+                        />
+                      </ComboboxItemIndicator>
+                    </ComboboxItem>
+                  </ComboboxGroup>
+                </ComboboxList>
+              </Combobox>
 
-                <Combobox v-model="selectedCity" by="label">
-                  <ComboboxAnchor as-child>
-                    <ComboboxTrigger as-child>
-                      <Button
-                        variant="outline"
-                        size="skinny"
-                        class="w-auto text-xs"
-                      >
-                        {{ selectedCity?.label ?? 'City' }}
+              <Combobox v-model="selectedCity" by="label">
+                <ComboboxAnchor as-child>
+                  <ComboboxTrigger as-child>
+                    <Button
+                      variant="outline"
+                      size="skinny"
+                      class="w-auto text-xs"
+                    >
+                      {{ selectedCity?.label ?? 'City' }}
 
-                        <Icon name="ph:caret-down" class="w-4 h-4" />
-                      </Button>
-                    </ComboboxTrigger>
-                  </ComboboxAnchor>
+                      <Icon name="ph:caret-down" class="w-4 h-4" />
+                    </Button>
+                  </ComboboxTrigger>
+                </ComboboxAnchor>
 
-                  <ComboboxList>
-                    <div class="relative w-full max-w-sm items-center">
-                      <ComboboxInput
-                        class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
-                        placeholder="Search city..."
-                      />
-                      <span
-                        class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
-                      >
-                        <Search class="size-4 text-muted-foreground" />
-                      </span>
-                    </div>
+                <ComboboxList>
+                  <div class="relative w-full max-w-sm items-center">
+                    <ComboboxInput
+                      class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
+                      placeholder="Search city..."
+                    />
+                    <span
+                      class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
+                    >
+                      <Search class="size-4 text-muted-foreground" />
+                    </span>
+                  </div>
 
-                    <ComboboxEmpty> No community found. </ComboboxEmpty>
+                  <ComboboxEmpty> No community found. </ComboboxEmpty>
 
-                    <ComboboxGroup>
-                      <ComboboxItem
-                        v-for="city in cities"
-                        :key="city.value"
-                        :value="city"
-                      >
-                        {{ city.label }}
+                  <ComboboxGroup>
+                    <ComboboxItem
+                      v-for="city in cities"
+                      :key="city.value"
+                      :value="city"
+                    >
+                      {{ city.label }}
 
-                        <ComboboxItemIndicator>
-                          <Icon
-                            name="ph:check"
-                            class="ml-auto h-4 w-4"
-                            :class="
-                              selectedCity?.value === city.value
-                                ? 'opacity-100'
-                                : 'opacity-0'
-                            "
-                          />
-                        </ComboboxItemIndicator>
-                      </ComboboxItem>
-                    </ComboboxGroup>
-                  </ComboboxList>
-                </Combobox>
-              </div>
+                      <ComboboxItemIndicator>
+                        <Icon
+                          name="ph:check"
+                          class="ml-auto h-4 w-4"
+                          :class="
+                            selectedCity?.value === city.value
+                              ? 'opacity-100'
+                              : 'opacity-0'
+                          "
+                        />
+                      </ComboboxItemIndicator>
+                    </ComboboxItem>
+                  </ComboboxGroup>
+                </ComboboxList>
+              </Combobox>
             </div>
           </div>
-        </DialogHeader>
+        </div>
         <Textarea
           v-model="content"
           placeholder="Share your dance story, ask questions, or post an event..."
