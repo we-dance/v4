@@ -1,9 +1,7 @@
 import { mockEvents } from './mockEvents'
 import { eventToFeedPost } from '~/schemas/event'
-import { type Post } from '~/schemas/post'
 
-// Define mock posts data without export
-const postsData: Post[] = [
+const postsData: any[] = [
   {
     id: 1,
     type: 'note',

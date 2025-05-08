@@ -1,8 +1,20 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 import UserPoints from '~/components/common/UserPoints.vue'
+const { $client } = useNuxtApp()
 
 const selectedType = ref('all')
+
+const { data, refetch } = useInfiniteQuery({
+  queryKey: ['posts'],
+  queryFn: ({ pageParam = 1 }) => $client.posts.list.query({ page: pageParam }),
+  getNextPageParam: (lastPage, pages) => lastPage.nextPage,
+  initialPageParam: 1,
+})
+
+const posts = computed(
+  () => data.value?.pages.flatMap((page) => page.posts) ?? []
+)
 
 const energyRewards = [
   { action: 'Create Article', energy: '+10', icon: 'ph:article' },
@@ -22,12 +34,12 @@ const energyRewards = [
 
     <!-- Main Content -->
     <div class="flex-1 max-w-xl">
-      <Create class="mb-6" />
+      <PostEditor class="mb-6" @load="refetch" />
       <!-- Mobile Filters -->
       <div class="md:hidden mb-6">
         <PostFilters v-model:type="selectedType" />
       </div>
-      <PostList :type="selectedType" />
+      <PostList :type="selectedType" :posts="posts" />
     </div>
 
     <!-- Right Sidebar -->

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { $client } = useNuxtApp()
-
 const props = defineProps({
   type: {
     type: String,
@@ -18,27 +16,11 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  posts: {
+    type: Array as PropType<any[]>,
+    default: [],
+  },
 })
-
-const {
-  isPending,
-  isFetching,
-  isError,
-  data,
-  error,
-  fetchNextPage,
-  hasNextPage,
-} = useInfiniteQuery({
-  queryKey: ['posts'],
-  queryFn: ({ pageParam = 1 }) =>
-    $client.posts.list.query({ page: pageParam, authorId: props.authorId }),
-  getNextPageParam: (lastPage, pages) => lastPage.nextPage,
-  initialPageParam: 1,
-})
-
-const posts = computed(
-  () => data.value?.pages.flatMap((page) => page.posts) ?? []
-)
 </script>
 
 <template>

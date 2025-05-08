@@ -38,17 +38,61 @@ const links = computed(() => {
     ) || []
   )
 })
+
+const editing = ref(false)
 </script>
 
 <template>
-  <div class="bg-background rounded-lg shadow-sm border border-border">
-    <PostHeader
-      :author="post.author"
-      :created-at="post.createdAt"
-      :community="post.style"
-      :city="post.city"
-      :pinned="showPinned && post.pinned"
-    />
+  <PostEditor :post="post" v-if="editing" @cancel="editing = false" />
+  <div v-else class="bg-background rounded-lg shadow-sm border border-border">
+    <div class="p-4 flex items-center gap-3">
+      <NuxtLink :to="`/@${post.author.username}`">
+        <Avatar
+          :profile="post.author"
+          class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-primary transition-all"
+        />
+      </NuxtLink>
+      <div class="flex-1">
+        <div class="flex items-center gap-2">
+          <NuxtLink
+            :to="`/@${post.author.username}`"
+            class="font-medium text-foreground hover:text-primary transition-colors"
+          >
+            {{ post.author.name }}
+          </NuxtLink>
+          <UserPoints :points="post.author.points" />
+          <span v-if="post.pinned" class="text-primary">Pinned</span>
+        </div>
+        <div class="text-sm text-muted-foreground flex items-center gap-1">
+          <span v-if="post.community" class="text-primary">
+            {{ post.community.name }}
+          </span>
+          <span v-if="post.community">·</span>
+          <span v-if="post.city" class="text-primary">
+            {{ post.city.name }}
+          </span>
+          <span v-if="post.city" class="uppercase">{{
+            post.city?.countryCode
+          }}</span>
+          <span v-if="post.city">·</span>
+          <TimeAgo :date="post.createdAt" />
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <DropdownMenu>
+          <DropdownMenuTrigger as-child>
+            <Button variant="ghost" size="icon">
+              <Icon name="ph:dots-three" class="w-5 h-5" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            <DropdownMenuItem @click="editing = true">Edit</DropdownMenuItem>
+            <DropdownMenuItem>Delete</DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+    </div>
+
     <div class="relative">
       <div class="px-4 pb-4 flex-1">
         <h2 v-if="post.title" class="text-xl font-bold">

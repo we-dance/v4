@@ -1,9 +1,10 @@
 import { z } from 'zod'
+import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { Prisma } from '@prisma/client'
-import { createPostSchema, updateStatsSchema } from '../schemas/post'
-import { mockPosts } from '~/data/mockPosts'
+import { createPostSchema } from '~/schemas/postSchema'
+import { nanoid } from 'nanoid'
 
 export const postsRouter = router({
   list: publicProcedure
@@ -71,37 +72,49 @@ export const postsRouter = router({
       }
     }),
 
-  // Get a single post by ID
-  byId: publicProcedure.input(z.number()).query(async ({ input }) => {
-    const post = mockPosts.find((p) => p.id === input)
+  byId: publicProcedure.input(z.string()).query(async ({ input }) => {
+    const post = await prisma.post.findUnique({
+      where: {
+        id: input,
+      },
+      include: {
+        author: true,
+        profile: true,
+        city: true,
+        style: true,
+      },
+    })
+
     if (!post) throw new Error('Post not found')
+
     return post
   }),
 
-  // Create a new post
   create: publicProcedure
     .input(createPostSchema)
-    .mutation(async ({ input }) => {
-      return {
-        ...input,
-        id: Math.random(),
-        timestamp: new Date().toISOString(),
-        stats: { likes: 0, shares: 0, comments: 0 },
-        author: {
-          id: 'user-1',
-          name: 'John Doe',
-          image: '/avatar.png',
-          location: 'San Francisco, CA',
-        },
+    .mutation(async ({ ctx, input }) => {
+      if (!ctx.session?.user?.id) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'You must be logged in to create a course',
+        })
       }
-    }),
 
-  // Update post stats (like, comment, share)
-  updateStats: publicProcedure
-    .input(updateStatsSchema)
-    .mutation(async ({ input }) => {
-      const { postId, action } = input
-      console.log(`${action} post ${postId}`)
-      return { success: true }
+      const slug = nanoid(10)
+
+      const data = {
+        summary: input.summary,
+        type: input.type,
+        communityId: input.community?.id,
+        cityId: input.city?.id,
+        authorId: ctx.session?.profile?.id,
+        slug,
+      }
+
+      const post = await prisma.post.create({
+        data,
+      })
+
+      return post
     }),
 })
