@@ -21,6 +21,8 @@ const props = defineProps({
     default: [],
   },
 })
+
+const emit = defineEmits(['load'])
 </script>
 
 <template>
@@ -30,6 +32,7 @@ const props = defineProps({
       :key="post.id"
       :post="post"
       :show-pinned="pinnedFirst"
+      @load="emit('load')"
     />
 
     <EmptyState v-if="!posts.length" variant="no-posts" />

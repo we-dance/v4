@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { POST_ACTIONS } from '~/constants/post'
 import MarkdownIt from 'markdown-it'
+const { $client } = useNuxtApp()
+const emit = defineEmits(['load'])
 
 const md = new MarkdownIt({
   breaks: true,
@@ -40,6 +42,29 @@ const links = computed(() => {
 })
 
 const editing = ref(false)
+
+const alertDialog = useAlertDialog()
+
+const askToDelete = () => {
+  alertDialog.open({
+    title: 'Delete Post',
+    description: 'Are you sure you want to delete this post?',
+    confirmLabel: 'Delete',
+    cancelLabel: 'Cancel',
+    onConfirm: () => {
+      alertDialog.close()
+      deletePost()
+    },
+    onCancel: () => {
+      alertDialog.close()
+    },
+  })
+}
+
+const deletePost = async () => {
+  await $client.posts.delete.mutate(props.post.id)
+  emit('load')
+}
 </script>
 
 <template>
@@ -87,7 +112,7 @@ const editing = ref(false)
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuItem @click="editing = true">Edit</DropdownMenuItem>
-            <DropdownMenuItem>Delete</DropdownMenuItem>
+            <DropdownMenuItem @click="askToDelete">Delete</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>

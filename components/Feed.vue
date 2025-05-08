@@ -39,7 +39,7 @@ const energyRewards = [
       <div class="md:hidden mb-6">
         <PostFilters v-model:type="selectedType" />
       </div>
-      <PostList :type="selectedType" :posts="posts" />
+      <PostList :type="selectedType" :posts="posts" @load="refetch" />
     </div>
 
     <!-- Right Sidebar -->

@@ -1,18 +1,24 @@
 <script setup lang="ts">
+import { toTypedSchema } from '@vee-validate/zod'
 const { session } = useAppAuth()
 const { $client } = useNuxtApp()
-import { createPostSchema, type Post } from '~/schemas/postSchema'
+import { postSchema, type Post } from '~/schemas/postSchema'
 const emit = defineEmits(['load', 'cancel'])
 import { toast } from 'vue-sonner'
 
 const { post } = defineProps({
   post: {
-    type: Object,
+    type: Object as PropType<Post>,
     default: () => ({
+      summary: '',
       type: 'post',
+      style: null,
+      city: null,
     }),
   },
 })
+
+const validationSchema = toTypedSchema(postSchema)
 
 const postTypes = ref([
   {
@@ -64,6 +70,7 @@ const savePost = async (values: any) => {
   })
 
   promise.then(() => {
+    emit('cancel')
     emit('load')
   })
 }
@@ -73,7 +80,7 @@ const savePost = async (values: any) => {
   <Form
     class="flex flex-col gap-4 border shadow-sm border-border p-4 rounded-lg"
     :initial-values="post"
-    :validation-schema="createPostSchema"
+    :validation-schema="validationSchema"
     @submit="savePost"
   >
     <div class="flex items-start gap-3">

@@ -1,11 +1,23 @@
 import { z } from 'zod'
 
-export const createPostSchema = z.object({
+export const postSchema = z.object({
   id: z.string().optional(),
   summary: z.string().min(1),
   type: z.string(),
-  styleId: z.string().optional().nullable(),
-  cityId: z.string().optional().nullable(),
+  style: z
+    .object({
+      name: z.string(),
+      id: z.string(),
+    })
+    .optional()
+    .nullable(),
+  city: z
+    .object({
+      name: z.string(),
+      id: z.string(),
+    })
+    .optional()
+    .nullable(),
 })
 
-export type Post = z.infer<typeof createPostSchema>
+export type Post = z.infer<typeof postSchema>

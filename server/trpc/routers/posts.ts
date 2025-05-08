@@ -3,7 +3,7 @@ import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { Prisma } from '@prisma/client'
-import { createPostSchema } from '~/schemas/postSchema'
+import { postSchema } from '~/schemas/postSchema'
 import { nanoid } from 'nanoid'
 
 export const postsRouter = router({
@@ -90,31 +90,45 @@ export const postsRouter = router({
     return post
   }),
 
-  create: publicProcedure
-    .input(createPostSchema)
-    .mutation(async ({ ctx, input }) => {
-      if (!ctx.session?.user?.id) {
-        throw new TRPCError({
-          code: 'UNAUTHORIZED',
-          message: 'You must be logged in to create a course',
-        })
-      }
+  create: publicProcedure.input(postSchema).mutation(async ({ ctx, input }) => {
+    if (!ctx.session?.user?.id) {
+      throw new TRPCError({
+        code: 'UNAUTHORIZED',
+        message: 'You must be logged in to create a course',
+      })
+    }
 
-      const slug = nanoid(10)
+    const slug = nanoid(10)
 
-      const data = {
-        summary: input.summary,
-        type: input.type,
-        communityId: input.community?.id,
-        cityId: input.city?.id,
-        authorId: ctx.session?.profile?.id,
-        slug,
-      }
+    const data = {
+      summary: input.summary,
+      type: input.type,
+      styleId: input.style?.id,
+      cityId: input.city?.id,
+      authorId: ctx.session?.profile?.id,
+      slug,
+    }
 
-      const post = await prisma.post.create({
+    if (input.id) {
+      const updatedPost = await prisma.post.update({
+        where: { id: input.id },
         data,
       })
 
-      return post
-    }),
+      return updatedPost
+    }
+
+    const newPost = await prisma.post.create({
+      data,
+    })
+
+    return newPost
+  }),
+  delete: publicProcedure.input(z.string()).mutation(async ({ ctx, input }) => {
+    const post = await prisma.post.delete({
+      where: { id: input },
+    })
+
+    return post
+  }),
 })
