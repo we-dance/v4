@@ -98,15 +98,12 @@ export const postsRouter = router({
       })
     }
 
-    const slug = nanoid(10)
-
     const data = {
       summary: input.summary,
       type: input.type,
       styleId: input.style?.id,
       cityId: input.city?.id,
       authorId: ctx.session?.profile?.id,
-      slug,
     }
 
     if (input.id) {
@@ -118,8 +115,12 @@ export const postsRouter = router({
       return updatedPost
     }
 
+    const slug = nanoid(10)
     const newPost = await prisma.post.create({
-      data,
+      data: {
+        ...data,
+        slug,
+      },
     })
 
     return newPost

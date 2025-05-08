@@ -2,6 +2,8 @@
 import { POST_ACTIONS } from '~/constants/post'
 import MarkdownIt from 'markdown-it'
 const { $client } = useNuxtApp()
+import { toast } from 'vue-sonner'
+
 const emit = defineEmits(['load'])
 
 const md = new MarkdownIt({
@@ -62,13 +64,27 @@ const askToDelete = () => {
 }
 
 const deletePost = async () => {
-  await $client.posts.delete.mutate(props.post.id)
+  const promise = $client.posts.delete.mutate(props.post.id)
+
+  toast.promise(promise, {
+    loading: 'Deleting post...',
+    success: 'Post deleted successfully',
+    error: 'Error deleting post',
+  })
+
+  promise.then(() => {
+    emit('load')
+  })
+}
+
+const load = () => {
   emit('load')
+  editing.value = false
 }
 </script>
 
 <template>
-  <PostEditor :post="post" v-if="editing" @cancel="editing = false" />
+  <PostEditor :post="post" v-if="editing" @load="load" />
   <div v-else class="bg-background rounded-lg shadow-sm border border-border">
     <div class="p-4 flex items-center gap-3">
       <NuxtLink :to="`/@${post.author.username}`">

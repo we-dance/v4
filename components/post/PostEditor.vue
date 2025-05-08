@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 const { session } = useAppAuth()
 const { $client } = useNuxtApp()
@@ -17,8 +18,6 @@ const { post } = defineProps({
     }),
   },
 })
-
-const validationSchema = toTypedSchema(postSchema)
 
 const postTypes = ref([
   {
@@ -58,6 +57,12 @@ const cities = ref([
   { name: 'Chicago', id: 'chicago' },
 ])
 
+const validationSchema = toTypedSchema(postSchema)
+const form = useForm({
+  initialValues: post,
+  validationSchema,
+})
+
 const savePost = async (values: any) => {
   const promise = $client.posts.create.mutate({
     ...values,
@@ -70,18 +75,18 @@ const savePost = async (values: any) => {
   })
 
   promise.then(() => {
-    emit('cancel')
     emit('load')
+    form.resetForm()
   })
 }
+
+const submit = form.handleSubmit(savePost)
 </script>
 
 <template>
-  <Form
+  <form
     class="flex flex-col gap-4 border shadow-sm border-border p-4 rounded-lg"
-    :initial-values="post"
-    :validation-schema="validationSchema"
-    @submit="savePost"
+    @submit="submit"
   >
     <div class="flex items-start gap-3">
       <Avatar
@@ -257,5 +262,5 @@ const savePost = async (values: any) => {
         <Button v-else variant="primary" type="submit">Publish</Button>
       </div>
     </div>
-  </Form>
+  </form>
 </template>
