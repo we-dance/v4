@@ -127,46 +127,8 @@ const formatNumber = (num: number) => {
 
   <!-- Desktop View -->
   <div class="hidden md:flex flex-col gap-6 w-60">
-    <!-- Post Types -->
-    <div class="flex flex-col gap-1">
-      <Button
-        v-for="type in postTypeOptions"
-        :key="type.value"
-        :variant="selectedType === type.value ? 'primary' : 'ghost'"
-        @click="selectedType = type.value"
-        class="justify-start"
-      >
-        <Icon :name="type.icon" class="w-4 h-4 mr-2" />
-        {{ type.label }}
-      </Button>
-    </div>
-
-    <!-- Location -->
-    <div class="flex items-center gap-2">
-      <Button
-        variant="ghost"
-        @click="showLocationFilter = true"
-        class="flex-1 justify-start"
-        :class="{ 'text-primary': selectedLocation }"
-      >
-        <Icon name="ph:map-pin" class="w-5 h-5 mr-2" />
-        <span>{{ selectedLocation || 'Location' }}</span>
-      </Button>
-      <Button
-        v-if="selectedLocation"
-        variant="ghost"
-        size="icon"
-        @click="clearLocationFilter"
-      >
-        <Icon name="ph:x" class="w-4 h-4" />
-      </Button>
-    </div>
-
-    <!-- Dance Styles -->
     <div class="flex flex-col gap-2">
-      <div class="font-medium text-sm text-muted-foreground px-3">
-        Dance Styles
-      </div>
+      <div class="font-bold text-sm text-muted-foreground">Dance Styles</div>
       <div class="flex flex-col -mx-2">
         <button
           v-for="style in danceStyles"

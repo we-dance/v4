@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import DanceStyleLayout from '~/components/DanceStyleLayout.vue'
-import Create from '~/components/Create.vue'
 import Feed from '~/components/Feed.vue'
 
 const route = useRoute()

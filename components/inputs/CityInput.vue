@@ -9,7 +9,11 @@ defineOptions({
 const props = defineProps({
   placeholder: {
     type: String,
-    default: 'Select city',
+    default: 'City',
+  },
+  noIcon: {
+    type: Boolean,
+    default: false,
   },
 })
 
@@ -55,14 +59,15 @@ watch(query, () => {
   <Popover v-model:open="open">
     <PopoverTrigger as-child>
       <Button
-        variant="secondary"
+        v-bind="$attrs"
         role="combobox"
         :aria-expanded="open"
-        class="w-full justify-between font-normal overflow-ellipsis"
+        class="gap-2"
       >
         <Icon
+          v-if="!noIcon"
           name="heroicons:map-pin"
-          class="mr-2 h-4 w-4 shrink-0 opacity-50"
+          class="h-4 w-4 shrink-0 opacity-50"
         />
         <div class="flex-1 text-left">
           <template v-if="model?.label">
@@ -74,7 +79,7 @@ watch(query, () => {
         </div>
         <Icon
           name="heroicons:chevron-down"
-          class="ml-2 h-4 w-4 shrink-0 opacity-50"
+          class="h-4 w-4 shrink-0 opacity-50"
         />
       </Button>
     </PopoverTrigger>

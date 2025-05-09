@@ -1,9 +1,17 @@
 <script setup lang="ts">
 import '@mux/mux-player'
 import { formatDuration } from '~/utils/format'
-const { lesson } = defineProps<{
-  lesson: any
-}>()
+
+defineProps({
+  lesson: {
+    type: Object,
+    required: true,
+  },
+  poster: {
+    type: String,
+    required: false,
+  },
+})
 </script>
 
 <template>
@@ -15,6 +23,7 @@ const { lesson } = defineProps<{
         :playback-id="lesson.videoId"
         :metadata-video-title="lesson.name"
         accent-color="#F1023D"
+        :poster="poster"
       />
     </div>
     <div class="p-4">

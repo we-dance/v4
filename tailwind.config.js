@@ -168,6 +168,7 @@ export default {
             p: {
               marginTop: '0.5em',
               marginBottom: '0.5em',
+              lineHeight: '1.5',
             },
             ul: {
               marginTop: '0.125em',
