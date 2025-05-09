@@ -74,5 +74,5 @@ const contentTree = computed(() =>
 </script>
 
 <template>
-  <component :is="contentTree" />
+  <component :is="contentTree" class="prose" />
 </template>
