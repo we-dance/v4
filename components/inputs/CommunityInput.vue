@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useFilter } from 'reka-ui'
 const model = defineModel<{ placeId: string; label: string } | null>()
 
 defineOptions({
@@ -14,21 +15,29 @@ const props = defineProps({
   },
 })
 
-const communities = ref([
-  { name: 'Salsa', id: 'salsa' },
-  { name: 'Bachata', id: 'bachata' },
-  { name: 'Kizomba', id: 'kizomba' },
-  { name: 'Zouk', id: 'zouk' },
-])
+const { communities } = useCommunities()
+
+const searchTerm = ref('')
+const { startsWith } = useFilter({ sensitivity: 'base' })
+const filteredCommunities = computed(() =>
+  communities.value
+    ?.filter((p) => startsWith(p.name, searchTerm.value))
+    .slice(0, 5)
+)
+
+const selectCommunity = (community: DanceStyle) => {
+  model.value = community
+  open.value = false
+}
 </script>
 
 <template>
-  <Combobox v-model="model" v-model:open="open" by="name">
+  <Combobox v-model="model" v-model:open="open" by="name" :ignore-filter="true">
     <ComboboxAnchor as-child>
       <ComboboxTrigger as-child>
         <Button v-bind="$attrs" role="combobox">
-          <template v-if="model?.label">
-            {{ model.label }}
+          <template v-if="model?.name">
+            {{ model.name }}
           </template>
           <template v-else>
             <span class="text-muted-foreground">{{ props.placeholder }}</span>
@@ -47,6 +56,7 @@ const communities = ref([
         <ComboboxInput
           class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
           placeholder="Search community..."
+          v-model="searchTerm"
         />
         <span
           class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
@@ -62,10 +72,10 @@ const communities = ref([
 
       <ComboboxGroup>
         <ComboboxItem
-          v-for="community in communities"
+          v-for="community in filteredCommunities"
           :key="community.id"
           :value="community"
-          @select="open = false"
+          @select="selectCommunity(community)"
         >
           {{ community.name }}
         </ComboboxItem>
