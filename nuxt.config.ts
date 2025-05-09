@@ -98,6 +98,7 @@ export default defineNuxtConfig({
     stripeWebhookSecret: '',
     public: {
       appUrl: '',
+      googleMapsApiKey: '',
     },
   },
 })

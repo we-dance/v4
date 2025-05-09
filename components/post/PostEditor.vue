@@ -3,7 +3,7 @@ import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 const { session } = useAppAuth()
 const { $client } = useNuxtApp()
-import { postSchema, type Post } from '~/schemas/postSchema'
+import { postTypes, postSchema, type Post } from '~/schemas/postSchema'
 const emit = defineEmits(['load', 'cancel'])
 import { toast } from 'vue-sonner'
 
@@ -19,45 +19,8 @@ const { post } = defineProps({
   },
 })
 
-const postTypes = ref([
-  {
-    label: 'Post',
-    value: 'post',
-    description: 'Share your thoughts, ideas, or experiences.',
-  },
-  {
-    label: 'Article',
-    value: 'article',
-    description: 'Share your knowledge and insights.',
-  },
-  {
-    label: 'Ask Locals',
-    value: 'ask_locals',
-    description: 'Ask locals for advice on a specific topic.',
-  },
-  {
-    label: 'Meet',
-    value: 'meet',
-    description: 'Organize a meetup for people to get together.',
-  },
-  { label: 'Job', value: 'job', description: 'Share a job opportunity.' },
-  { label: 'Ad', value: 'ad', description: 'Share an advertisement.' },
-])
-
-const communities = ref([
-  { name: 'Salsa', id: 'salsa' },
-  { name: 'Bachata', id: 'bachata' },
-  { name: 'Kizomba', id: 'kizomba' },
-  { name: 'Zouk', id: 'zouk' },
-])
-
-const cities = ref([
-  { name: 'New York', id: 'new-york' },
-  { name: 'Los Angeles', id: 'los-angeles' },
-  { name: 'Chicago', id: 'chicago' },
-])
-
 const validationSchema = toTypedSchema(postSchema)
+
 const form = useForm({
   initialValues: post,
   validationSchema,
@@ -100,110 +63,23 @@ const submit = form.handleSubmit(savePost)
           {{ session?.profile?.name }}
         </div>
         <div class="flex items-center gap-2 text-sm">
-          <FormField name="community" v-slot="{ componentField }">
-            <Combobox v-bind="componentField" by="name">
-              <ComboboxAnchor as-child>
-                <ComboboxTrigger as-child>
-                  <Button
-                    variant="outline"
-                    size="skinny"
-                    class="w-auto text-xs"
-                  >
-                    {{ post.community?.name ?? 'Community' }}
-
-                    <Icon name="ph:caret-down" class="w-4 h-4" />
-                  </Button>
-                </ComboboxTrigger>
-              </ComboboxAnchor>
-
-              <ComboboxList>
-                <div class="relative w-full max-w-sm items-center">
-                  <ComboboxInput
-                    class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
-                    placeholder="Search community..."
-                  />
-                  <span
-                    class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
-                  >
-                    <Icon
-                      name="ph:magnifying-glass"
-                      class="size-4 text-muted-foreground"
-                    />
-                  </span>
-                </div>
-
-                <ComboboxEmpty> No community found. </ComboboxEmpty>
-
-                <ComboboxGroup>
-                  <ComboboxItem
-                    v-for="community in communities"
-                    :key="community.id"
-                    :value="community"
-                  >
-                    {{ community.name }}
-                  </ComboboxItem>
-                </ComboboxGroup>
-              </ComboboxList>
-            </Combobox>
+          <FormField name="style" v-slot="{ componentField }">
+            <CommunityInput
+              v-bind="componentField"
+              variant="outline"
+              size="skinny"
+              class="w-auto text-xs"
+            />
           </FormField>
 
           <FormField name="city" v-slot="{ componentField }">
-            <Combobox v-bind="componentField" by="name">
-              <ComboboxAnchor as-child>
-                <ComboboxTrigger as-child>
-                  <Button
-                    variant="outline"
-                    size="skinny"
-                    class="w-auto text-xs"
-                  >
-                    {{ post.city?.name ?? 'City' }}
-
-                    <Icon name="ph:caret-down" class="w-4 h-4" />
-                  </Button>
-                </ComboboxTrigger>
-              </ComboboxAnchor>
-
-              <ComboboxList>
-                <div class="relative w-full max-w-sm items-center">
-                  <ComboboxInput
-                    class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10"
-                    placeholder="Search city..."
-                  />
-                  <span
-                    class="absolute start-0 inset-y-0 flex items-center justify-center px-3"
-                  >
-                    <Icon
-                      name="ph:magnifying-glass"
-                      class="size-4 text-muted-foreground"
-                    />
-                  </span>
-                </div>
-
-                <ComboboxEmpty> No community found. </ComboboxEmpty>
-
-                <ComboboxGroup>
-                  <ComboboxItem
-                    v-for="city in cities"
-                    :key="city.id"
-                    :value="city"
-                  >
-                    {{ city.name }}
-
-                    <ComboboxItemIndicator>
-                      <Icon
-                        name="ph:check"
-                        class="ml-auto h-4 w-4"
-                        :class="
-                          post.city?.id === city.id
-                            ? 'opacity-100'
-                            : 'opacity-0'
-                        "
-                      />
-                    </ComboboxItemIndicator>
-                  </ComboboxItem>
-                </ComboboxGroup>
-              </ComboboxList>
-            </Combobox>
+            <CityInput
+              v-bind="componentField"
+              variant="outline"
+              size="skinny"
+              class="w-auto text-xs"
+              no-icon
+            />
           </FormField>
         </div>
       </div>
