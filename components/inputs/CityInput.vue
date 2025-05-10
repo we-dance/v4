@@ -17,11 +17,11 @@ const props = defineProps({
   },
 })
 
-const model = defineModel<{ placeId: string; label: string } | null>()
+const model = defineModel<{ id: string; name: string } | null>()
 
 const open = ref(false)
 const query = ref('')
-const results = ref<Array<{ placeId: string; label: string }>>([])
+const results = ref<Array<{ id: string; name: string }>>([])
 
 const getPlacePredictions = () => {
   loadGoogleMapsApi().then((google) => {
@@ -33,17 +33,18 @@ const getPlacePredictions = () => {
       },
       (predictions: any) => {
         results.value = predictions.map((prediction: any) => ({
-          placeId: prediction.place_id,
-          label: prediction.description,
+          id: prediction.place_id,
+          name: prediction.description,
         }))
       }
     )
   })
 }
 
-const onSelect = (city: { placeId: string; label: string }) => {
+const onSelect = (city: { id: string; name: string }) => {
   model.value = city
   open.value = false
+  query.value = ''
 }
 
 watch(query, () => {
@@ -70,8 +71,8 @@ watch(query, () => {
           class="h-4 w-4 shrink-0 opacity-50"
         />
         <div class="flex-1 text-left">
-          <template v-if="model?.label">
-            {{ model.label }}
+          <template v-if="model?.name">
+            {{ model.name }}
           </template>
           <template v-else>
             <span class="text-muted-foreground">{{ props.placeholder }}</span>
@@ -89,8 +90,8 @@ watch(query, () => {
         v-model="model"
         v-model:searchQuery="query"
         placeholder="Search city..."
-        itemKey="placeId"
-        itemLabel="label"
+        itemKey="id"
+        itemLabel="name"
         @select="onSelect"
       />
     </PopoverContent>

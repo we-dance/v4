@@ -1,5 +1,5 @@
 import NextAuth from 'next-auth'
-import { User, Profile } from '@prisma/client'
+import { User, Profile, City } from '@prisma/client'
 
 declare module 'next-auth' {
   /**
@@ -7,7 +7,9 @@ declare module 'next-auth' {
    */
   interface Session {
     user: User
-    profile: Profile
+    profile: Profile & {
+      city: City
+    }
     expires: Date
   }
 }

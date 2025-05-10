@@ -19,10 +19,15 @@ const { post } = defineProps({
   },
 })
 
+const initialValues = {
+  ...post,
+  city: session?.value?.profile?.city,
+}
+
 const validationSchema = toTypedSchema(postSchema)
 
 const form = useForm({
-  initialValues: post,
+  initialValues,
   validationSchema,
 })
 
@@ -78,7 +83,7 @@ const submit = form.handleSubmit(savePost)
               variant="outline"
               size="skinny"
               class="w-auto text-xs"
-              no-icon
+              placeholder="Global"
             />
           </FormField>
         </div>

@@ -56,6 +56,9 @@ export default NuxtAuthHandler({
         where: {
           userId: user.id,
         },
+        include: {
+          city: true,
+        },
       })
 
       return Promise.resolve({
