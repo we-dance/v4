@@ -631,4 +631,55 @@ export const profilesRouter = router({
         hasMore: skip + venues.length < totalCount,
       }
     }),
+  organisers: publicProcedure
+    .input(
+      z.object({
+        limit: z.number().default(9),
+        page: z.number().default(1),
+      })
+    )
+    .query(async ({ input }) => {
+      const { limit, page } = input
+      const skip = (page - 1) * limit
+
+      const where = {
+        type: 'Organiser',
+      }
+
+      const totalCount = await prisma.profile.count({ where })
+
+      const organizers = await prisma.profile.findMany({
+        where,
+        include: {
+          city: true,
+          styles: {
+            include: {
+              style: true,
+            },
+          },
+        },
+        skip,
+        take: limit,
+        orderBy: {
+          name: 'asc',
+        },
+      })
+
+      const organizersWithMappedStyles = organizers.map((org) => {
+        const mappedStyles = org.styles
+          .map((s) => s.style?.name)
+          .filter(Boolean) as string[]
+
+        return {
+          ...org,
+          styles: mappedStyles,
+        }
+      })
+
+      return {
+        organizers: organizersWithMappedStyles,
+        totalCount,
+        hasMore: skip + organizers.length < totalCount,
+      }
+    }),
 })
