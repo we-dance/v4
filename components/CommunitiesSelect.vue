@@ -1,8 +1,18 @@
 <script setup lang="ts">
 import type { Community } from '~/schemas/communitySchema'
+import type { City } from '@prisma/client'
 const { communities } = useCommunities()
-const model = defineModel<Community>({ required: false })
 
+const props = defineProps({
+  community: {
+    type: Object as PropType<Community | null>,
+    default: null,
+  },
+  city: {
+    type: Object as PropType<City | null>,
+    default: null,
+  },
+})
 const communitiesLimit = ref(5)
 
 function loadMoreCommunities() {
@@ -18,7 +28,7 @@ const filteredCommunities = computed(() => {
 })
 
 const filteredCities = computed(() => {
-  return model.value?.cities.slice(0, 5) || []
+  return props.community?.cities.slice(0, citiesLimit.value) || []
 })
 
 const citiesLimit = ref(5)
@@ -79,24 +89,45 @@ const formatNumber = (num: number) => {
           </div>
         </NuxtLink>
       </div>
-      <div v-if="model" class="flex flex-col gap-2">
-        <div class="font-bold text-sm">{{ model?.name }} Cities</div>
+      <div v-if="community" class="flex flex-col gap-2">
+        <div class="font-bold text-sm">{{ community.name }} Cities</div>
         <NuxtLink
-          v-for="city in filteredCities"
-          :key="city.id"
-          :to="`/dance/${model?.hashtag}?city=${city.id}`"
+          :to="`/dance/${community.hashtag}`"
           class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
+          :class="{ 'bg-muted': !$route.params.city }"
         >
           <div
             class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
           >
-            <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-primary" />
+            <Icon name="ph:globe" class="w-3.5 h-3.5 text-primary" />
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center justify-between">
-              <span
-                class="text-sm font-medium truncate text-muted-foreground"
-                >{{ city.name }}</span
+              <span class="text-sm font-medium truncate text-muted-foreground"
+                >Global</span
+              >
+              <span class="text-xs text-muted-foreground">{{
+                formatNumber(community.membersCount)
+              }}</span>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink
+          v-for="city in filteredCities"
+          :key="city.id"
+          :to="`/dance/${community.hashtag}/${city.slug}`"
+          class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
+          :class="{ 'bg-muted': city?.slug === $route.params.city }"
+        >
+          <div
+            class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
+          >
+            <Icon name="ph:buildings" class="w-3.5 h-3.5 text-primary" />
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium truncate text-muted-foreground"
+                >{{ city.name }}, {{ city.country.name }}</span
               >
               <span class="text-xs text-muted-foreground">{{
                 formatNumber(city._count.profiles)
@@ -114,7 +145,7 @@ const formatNumber = (num: number) => {
             :key="style.id"
             :to="`/dance/${style.hashtag}`"
             class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
-            :class="{ 'bg-muted': model?.id === style.id }"
+            :class="{ 'bg-muted': community?.id === style.id }"
           >
             <div
               class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
@@ -142,7 +173,7 @@ const formatNumber = (num: number) => {
             v-for="style in filteredCommunities"
             :key="style.id"
             class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
-            :class="{ 'bg-muted': model?.id === style.id }"
+            :class="{ 'bg-muted': community?.id === style.id }"
             :to="`/dance/${style.hashtag}`"
           >
             <div

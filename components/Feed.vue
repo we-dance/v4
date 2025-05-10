@@ -10,7 +10,11 @@ const props = defineProps({
     default: false,
   },
   community: {
-    type: Object as PropType<Community>,
+    type: Object as PropType<Community | null>,
+    default: null,
+  },
+  city: {
+    type: Object as PropType<City | null>,
     default: null,
   },
 })
@@ -24,7 +28,7 @@ const { data, refetch } = useInfiniteQuery({
     $client.posts.list.query({
       page: pageParam,
       onlySubscriptions: props.onlySubscriptions,
-      community: props.community.id,
+      community: props.community?.id,
       type: type.value,
       city: city.value?.id,
     }),
@@ -40,7 +44,7 @@ const posts = computed(
 <template>
   <div class="flex gap-8 mt-6">
     <div class="hidden md:block w-60 flex-shrink-0">
-      <CommunitiesSelect :model-value="community" />
+      <CommunitiesSelect :community="community" :city="city" />
     </div>
 
     <div class="flex-1 flex flex-col gap-4 max-w-xl">

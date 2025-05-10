@@ -2,13 +2,6 @@
 import type { Community } from '~/schemas/communitySchema'
 import GradientBackground from '~/components/common/GradientBackground.vue'
 
-const navigation = [
-  { label: 'Feed', to: '/dance/salsa#content', icon: 'ph:newspaper' },
-  { label: 'About', to: '/dance/salsa/about#content', icon: 'ph:info' },
-  { label: 'Artists', to: '/dance/salsa/artists#content', icon: 'ph:star' },
-  { label: 'Events', to: '/dance/salsa/events#content', icon: 'ph:calendar' },
-]
-
 const props = defineProps({
   community: {
     type: Object as PropType<Community>,
@@ -21,7 +14,7 @@ const stats = computed(() => {
     { label: 'Cities', value: props.community.cities.length },
     { label: 'Members', value: props.community.membersCount },
     { label: 'Events', value: props.community.eventsCount },
-    { label: 'Posts', value: props.community._count.posts },
+    { label: 'Posts', value: props.community?._count?.posts },
   ]
 })
 </script>
@@ -105,34 +98,7 @@ const stats = computed(() => {
     </div>
   </div>
 
-  <!-- Navigation and Content Wrapper -->
   <div class="relative bg-background">
-    <!-- Navigation -->
-    <div class="sticky top-16 z-10">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="border-b">
-          <div class="flex space-x-8 overflow-x-auto bg-background">
-            <NuxtLink
-              v-for="item in navigation"
-              :key="item.to"
-              :to="item.to"
-              class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
-              :class="[
-                $route.path === item.to.split('#')[0] ||
-                $route.path.endsWith(item.to.split('#')[0].split('/').pop())
-                  ? 'border-primary text-primary'
-                  : 'border-transparent text-muted-foreground hover:text-foreground',
-              ]"
-            >
-              <Icon v-if="item.icon" :name="item.icon" class="w-4 h-4" />
-              {{ item.label }}
-            </NuxtLink>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-    <!-- Content -->
     <div id="content" class="scroll-mt-32">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <slot />
@@ -140,7 +106,6 @@ const stats = computed(() => {
     </div>
   </div>
 
-  <!-- Footer -->
   <div class="py-12 bg-background">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">

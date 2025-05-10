@@ -27,9 +27,20 @@ export const communitiesRouter = router({
       isMember: userStyleIds.has(c.id),
     }))
   }),
+  index: publicProcedure.input(z.void()).query(async ({ ctx }) => {
+    const communities = await prisma.danceStyle.findMany({
+      orderBy: { membersCount: 'desc' },
+    })
+    return communities
+  }),
   byHashtag: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
-    const community = await prisma.danceStyle.findUnique({
-      where: { hashtag: input },
+    const community = await prisma.danceStyle.findFirst({
+      where: {
+        hashtag: {
+          equals: input,
+          mode: 'insensitive',
+        },
+      },
       include: {
         _count: {
           select: {
@@ -54,6 +65,8 @@ export const communitiesRouter = router({
       select: {
         id: true,
         name: true,
+        slug: true,
+        country: true,
         _count: {
           select: {
             profiles: {
