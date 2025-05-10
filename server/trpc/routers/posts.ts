@@ -14,17 +14,31 @@ export const postsRouter = router({
         limit: z.number().optional().default(20),
         authorId: z.string().optional(),
         pinnedFirst: z.boolean().optional().default(false),
-        filter: z.enum(['all', 'subscriptions']).optional().default('all'),
+        type: z.string().optional(),
+        city: z.string().optional(),
+        onlySubscriptions: z.boolean().optional().default(false),
       })
     )
     .query(async ({ ctx, input }) => {
-      const { page, limit, authorId, pinnedFirst, filter } = input
+      console.log('input', input)
+
+      const {
+        page,
+        limit,
+        authorId,
+        pinnedFirst,
+        type,
+        city,
+        onlySubscriptions,
+      } = input
 
       const where: Prisma.PostWhereInput = {
         authorId: authorId ?? undefined,
+        type: type ?? undefined,
+        cityId: city ?? undefined,
       }
 
-      if (filter === 'subscriptions' && ctx.session?.profile?.id) {
+      if (onlySubscriptions && ctx.session?.profile?.id) {
         const followedProfiles = await prisma.profileFollower.findMany({
           where: { followerId: ctx.session.profile.id },
           select: { profileId: true },

@@ -94,6 +94,15 @@ watch(query, () => {
         itemLabel="name"
         @select="onSelect"
       />
+      <Button
+        variant="outline"
+        size="sm"
+        class="w-full"
+        @click="onSelect(null)"
+      >
+        <Icon name="heroicons:map-pin" class="h-4 w-4 shrink-0 opacity-50" />
+        Anywhere
+      </Button>
     </PopoverContent>
   </Popover>
 </template>

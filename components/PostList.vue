@@ -1,17 +1,5 @@
 <script setup lang="ts">
-const props = defineProps({
-  type: {
-    type: String,
-    default: 'all',
-  },
-  limit: {
-    type: Number,
-    default: 10,
-  },
-  authorId: {
-    type: String as PropType<string | undefined>,
-    default: undefined,
-  },
+defineProps({
   pinnedFirst: {
     type: Boolean,
     default: false,
