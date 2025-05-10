@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import UserPoints from '~/components/common/UserPoints.vue'
 const { $client } = useNuxtApp()
 import type { City } from '@prisma/client'
 
@@ -11,11 +10,11 @@ const props = defineProps({
   },
 })
 
-const type = ref('')
+const type = ref('all')
 const city = ref<City | null>(null)
 
 const { data, refetch } = useInfiniteQuery({
-  queryKey: ['posts', props.onlySubscriptions, type, city],
+  queryKey: ['posts', props, type, city],
   queryFn: ({ pageParam = 1 }) =>
     $client.posts.list.query({
       page: pageParam,

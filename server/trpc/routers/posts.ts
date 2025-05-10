@@ -20,8 +20,6 @@ export const postsRouter = router({
       })
     )
     .query(async ({ ctx, input }) => {
-      console.log('input', input)
-
       const {
         page,
         limit,
@@ -34,7 +32,7 @@ export const postsRouter = router({
 
       const where: Prisma.PostWhereInput = {
         authorId: authorId ?? undefined,
-        type: type ?? undefined,
+        type: type === 'all' ? undefined : type,
         cityId: city ?? undefined,
       }
 
