@@ -17,6 +17,7 @@ export const postsRouter = router({
         type: z.string().optional(),
         city: z.string().optional(),
         onlySubscriptions: z.boolean().optional().default(false),
+        community: z.number().optional(),
       })
     )
     .query(async ({ ctx, input }) => {
@@ -28,12 +29,16 @@ export const postsRouter = router({
         type,
         city,
         onlySubscriptions,
+        community,
       } = input
+
+      console.log('posts.list', input)
 
       const where: Prisma.PostWhereInput = {
         authorId: authorId ?? undefined,
         type: type === 'all' ? undefined : type,
         cityId: city ?? undefined,
+        styleId: community ?? undefined,
       }
 
       if (onlySubscriptions && ctx.session?.profile?.id) {

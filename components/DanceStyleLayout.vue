@@ -1,4 +1,5 @@
-<script setup>
+<script setup lang="ts">
+import type { Community } from '~/schemas/communitySchema'
 import GradientBackground from '~/components/common/GradientBackground.vue'
 
 const navigation = [
@@ -8,28 +9,20 @@ const navigation = [
   { label: 'Events', to: '/dance/salsa/events#content', icon: 'ph:calendar' },
 ]
 
-defineProps({
-  title: {
-    type: String,
+const props = defineProps({
+  community: {
+    type: Object as PropType<Community>,
     required: true,
   },
-  description: {
-    type: String,
-    required: true,
-  },
-  stats: {
-    type: Array,
-    default: () => [
-      { label: 'Members', value: '1,200' },
-      { label: 'Posts', value: '500' },
-      { label: 'Projects', value: '50' },
-      { label: 'Response Rate', value: '92%' },
-    ],
-  },
-  videoUrl: {
-    type: String,
-    default: 'https://www.youtube.com/embed/R7E9cNydevg',
-  },
+})
+
+const stats = computed(() => {
+  return [
+    { label: 'Cities', value: props.community.cities.length },
+    { label: 'Members', value: props.community.membersCount },
+    { label: 'Events', value: props.community.eventsCount },
+    { label: 'Posts', value: props.community._count.posts },
+  ]
 })
 </script>
 
@@ -37,7 +30,7 @@ defineProps({
   <!-- Hero Section -->
   <div class="relative min-h-[60vh]">
     <div
-      class="relative flex items-center overflow-hidden min-h-[60vh] md:h-full py-20 md:py-0"
+      class="relative flex items-center overflow-hidden min-h-[60vh] md:h-full py-8"
     >
       <GradientBackground />
 
@@ -50,12 +43,12 @@ defineProps({
               <h1
                 class="text-4xl md:text-5xl font-bold text-foreground/90 mb-6"
               >
-                {{ title }}
+                {{ community.name }}
               </h1>
               <p
                 class="text-xl text-muted-foreground mb-8 max-w-2xl md:max-w-none mx-auto"
               >
-                {{ description }}
+                {{ community.description }}
               </p>
               <div class="flex justify-center md:justify-start gap-4">
                 <slot name="actions">
@@ -80,18 +73,11 @@ defineProps({
             </div>
 
             <!-- Right: Video -->
-            <div class="space-y-4">
+            <div v-if="community.video" class="space-y-4 py-4">
               <div
                 class="aspect-video rounded-xl overflow-hidden shadow-xl bg-background/20 backdrop-blur"
               >
-                <iframe
-                  class="w-full h-full"
-                  :src="videoUrl"
-                  :title="`${title} Video`"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+                <WYoutube :url="community.video" class="rounded-xl" />
               </div>
 
               <slot name="video-extra">
@@ -159,7 +145,7 @@ defineProps({
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <p class="text-muted-foreground">
-          &copy; 2024 WeDance. All rights reserved.
+          &copy; 2025 WeDance. All rights reserved.
         </p>
       </div>
     </div>

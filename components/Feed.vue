@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { Community } from '~/schemas/communitySchema'
 import { ref } from 'vue'
 const { $client } = useNuxtApp()
 import type { City } from '@prisma/client'
@@ -7,6 +8,10 @@ const props = defineProps({
   onlySubscriptions: {
     type: Boolean,
     default: false,
+  },
+  community: {
+    type: Object as PropType<Community>,
+    default: null,
   },
 })
 
@@ -19,6 +24,7 @@ const { data, refetch } = useInfiniteQuery({
     $client.posts.list.query({
       page: pageParam,
       onlySubscriptions: props.onlySubscriptions,
+      community: props.community.id,
       type: type.value,
       city: city.value?.id,
     }),
@@ -34,7 +40,7 @@ const posts = computed(
 <template>
   <div class="flex gap-8 mt-6">
     <div class="hidden md:block w-60 flex-shrink-0">
-      <CommunitiesSelect />
+      <CommunitiesSelect :model-value="community" />
     </div>
 
     <div class="flex-1 flex flex-col gap-4 max-w-xl">
