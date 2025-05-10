@@ -104,6 +104,11 @@ export const postsRouter = router({
       styleId: input.style?.id,
       cityId: input.city?.id,
       authorId: ctx.session?.profile?.id,
+      attachments: input.attachments,
+    }
+
+    if (input.profileId) {
+      data.profileId = input.profileId
     }
 
     if (input.id) {

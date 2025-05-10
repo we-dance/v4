@@ -15,6 +15,8 @@ const { post } = defineProps({
       type: 'post',
       style: null,
       city: null,
+      attachments: [],
+      profileId: '',
     }),
   },
 })
@@ -49,6 +51,11 @@ const savePost = async (values: any) => {
 }
 
 const submit = form.handleSubmit(savePost)
+
+const tab = ref(post.attachments?.[0]?.type || (post.profileId ? 'at' : ''))
+watch(tab, (value) => {
+  form.setFieldValue(`attachments[0].type`, value)
+})
 </script>
 
 <template>
@@ -58,14 +65,14 @@ const submit = form.handleSubmit(savePost)
   >
     <div class="flex items-start gap-3">
       <Avatar
-        :profile="session?.profile"
+        :profile="post.author || session?.profile"
         class="w-10 h-10 rounded-full object-cover hover:ring-2 hover:ring-primary transition-all"
       />
       <div class="flex-1">
         <div
           class="font-medium text-foreground hover:text-primary transition-colors"
         >
-          {{ session?.profile?.name }}
+          {{ post.author?.name || session?.profile?.name }}
         </div>
         <div class="flex items-center gap-2 text-sm">
           <FormField name="style" v-slot="{ componentField }">
@@ -122,18 +129,20 @@ const submit = form.handleSubmit(savePost)
       </FormItem>
     </FormField>
     <div class="flex justify-start">
-      <Button size="icon" variant="ghost">
-        <Icon name="ph:image-square-bold" class="w-4 h-4" />
-      </Button>
-      <Button size="icon" variant="ghost">
-        <Icon name="ph:link-simple-bold" class="w-4 h-4" />
-      </Button>
-      <Button size="icon" variant="ghost">
-        <Icon name="ph:chart-bar-horizontal" class="w-4 h-4" />
-      </Button>
-      <Button size="icon" variant="ghost">
-        <Icon name="ph:at" class="w-4 h-4" />
-      </Button>
+      <ToggleGroup type="single" v-model="tab">
+        <ToggleGroupItem value="image"
+          ><Icon name="ph:image-square-bold" class="w-4 h-4"
+        /></ToggleGroupItem>
+        <ToggleGroupItem value="video"
+          ><Icon name="ph:video-bold" class="w-4 h-4"
+        /></ToggleGroupItem>
+        <ToggleGroupItem value="link"
+          ><Icon name="ph:link-simple-bold" class="w-4 h-4"
+        /></ToggleGroupItem>
+        <ToggleGroupItem value="at"
+          ><Icon name="ph:at" class="w-4 h-4"
+        /></ToggleGroupItem>
+      </ToggleGroup>
       <div class="flex-1"></div>
       <div class="flex items-center gap-2">
         <Button v-if="post.id" variant="secondary" @click="emit('cancel')"
@@ -143,5 +152,29 @@ const submit = form.handleSubmit(savePost)
         <Button v-else variant="primary" type="submit">Publish</Button>
       </div>
     </div>
+    <FormField
+      v-if="tab === 'image'"
+      name="attachments[0].url"
+      v-slot="{ componentField }"
+    >
+      <Input v-bind="componentField" placeholder="Image URL" />
+    </FormField>
+    <FormField
+      v-if="tab === 'video'"
+      name="attachments[0].url"
+      v-slot="{ componentField }"
+    >
+      <Input v-bind="componentField" placeholder="Video URL" />
+    </FormField>
+    <FormField
+      v-if="tab === 'link'"
+      name="attachments[0].url"
+      v-slot="{ componentField }"
+    >
+      <Input v-bind="componentField" placeholder="https://example.com" />
+    </FormField>
+    <FormField v-if="tab === 'at'" name="profileId" v-slot="{ componentField }">
+      <Input v-bind="componentField" placeholder="Mention people" />
+    </FormField>
   </form>
 </template>

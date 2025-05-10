@@ -35,11 +35,15 @@ const video = computed(() => {
   )
 })
 
-const links = computed(() => {
-  return (
-    props.post.attachments?.filter(
-      (attachment) => attachment.type === 'link'
-    ) || []
+const link = computed(() => {
+  return props.post.attachments?.find(
+    (attachment) => attachment.type === 'link'
+  )
+})
+
+const image = computed(() => {
+  return props.post.attachments?.find(
+    (attachment) => attachment.type === 'image'
   )
 })
 
@@ -196,8 +200,15 @@ const load = () => {
           class="w-full h-full object-cover"
         />
       </div>
-      <div v-else-if="links.length > 0" class="px-4 pb-4">
-        <PostLink v-for="link in links" :link="link" />
+      <div v-else-if="link" class="px-4 pb-4">
+        <PostLink :link="link" />
+      </div>
+      <div v-else-if="image" class="relative aspect-video">
+        <img
+          :src="image.url"
+          :alt="image.title"
+          class="w-full h-full object-cover"
+        />
       </div>
       <div v-if="post.profile" class="mx-4 mb-4 border p-2 rounded-lg">
         <ProfileCard :profile="post.profile" />

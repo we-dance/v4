@@ -1,5 +1,13 @@
 import { z } from 'zod'
 
+const attachmentSchema = z.object({
+  type: z.string(),
+  url: z.string(),
+  title: z.string().optional().nullable(),
+  description: z.string().optional().nullable(),
+  thumbnail: z.string().optional().nullable(),
+})
+
 export const postSchema = z.object({
   id: z.string().optional(),
   summary: z.string().min(1),
@@ -18,6 +26,8 @@ export const postSchema = z.object({
     })
     .optional()
     .nullable(),
+  attachments: z.array(attachmentSchema).optional().nullable(),
+  profileId: z.string().optional().nullable(),
 })
 
 export type Post = z.infer<typeof postSchema>
