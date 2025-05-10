@@ -14,24 +14,24 @@ export const postsRouter = router({
         limit: z.number().optional().default(20),
         authorId: z.string().optional(),
         pinnedFirst: z.boolean().optional().default(false),
+        filter: z.enum(['all', 'subscriptions']).optional().default('all'),
       })
     )
-    .query(async ({ input }) => {
-      const { page, limit, authorId, pinnedFirst } = input
+    .query(async ({ ctx, input }) => {
+      const { page, limit, authorId, pinnedFirst, filter } = input
 
       const where: Prisma.PostWhereInput = {
         authorId: authorId ?? undefined,
       }
 
-      const orderBy: Prisma.PostOrderByWithRelationInput[] = [
-        {
-          pinned: 'desc',
-          createdAt: 'desc',
-        },
-        {
-          createdAt: 'desc',
-        },
-      ]
+      if (filter === 'subscriptions' && ctx.session?.profile?.id) {
+        const followedProfiles = await prisma.profileFollower.findMany({
+          where: { followerId: ctx.session.profile.id },
+          select: { profileId: true },
+        })
+        const followedIds = followedProfiles.map((fp) => fp.profileId)
+        where.authorId = { in: followedIds }
+      }
 
       const posts = await prisma.post.findMany({
         orderBy: {

@@ -43,7 +43,15 @@ function loadMoreCommunities() {
 }
 
 const filteredCommunities = computed(() => {
-  return communities.value?.slice(0, communitiesLimit.value)
+  return (
+    communities.value
+      ?.filter((community) => !community.isMember)
+      .slice(0, communitiesLimit.value) || []
+  )
+})
+
+const myCommunities = computed(() => {
+  return communities.value?.filter((community) => community.isMember) || []
 })
 
 const showLocationFilter = ref(false)
@@ -129,14 +137,50 @@ const formatNumber = (num: number) => {
   <!-- Desktop View -->
   <div class="hidden md:flex flex-col gap-6 w-60">
     <div class="flex flex-col gap-2">
-      <div class="font-bold text-sm text-muted-foreground">My Communities</div>
-      <div class="flex flex-col -mx-2">
-        <button
-          v-for="style in session?.profile?.danceStyles"
+      <NuxtLink
+        :to="`/feed`"
+        class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
+        :class="{ 'bg-muted': $route.path === '/feed' }"
+      >
+        <div
+          class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
+        >
+          <Icon name="ph:list" class="w-3.5 h-3.5 text-primary" />
+        </div>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between">
+            <span class="text-sm font-medium truncate text-muted-foreground"
+              >Latest</span
+            >
+          </div>
+        </div>
+      </NuxtLink>
+      <NuxtLink
+        :to="`/subscriptions`"
+        class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
+        :class="{ 'bg-muted': $route.path === '/subscriptions' }"
+      >
+        <div
+          class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
+        >
+          <Icon name="ph:users" class="w-3.5 h-3.5 text-primary" />
+        </div>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between">
+            <span class="text-sm font-medium truncate text-muted-foreground"
+              >Subscriptions</span
+            >
+          </div>
+        </div>
+      </NuxtLink>
+      <div class="font-bold text-sm">My Communities</div>
+      <div v-if="myCommunities.length > 0" class="flex flex-col -mx-2">
+        <NuxtLink
+          v-for="style in myCommunities"
           :key="style.id"
+          :to="`/dance/${style.hashtag}`"
           class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
           :class="{ 'bg-muted': selectedStyle === style.id }"
-          @click="selectedStyle = style.id"
         >
           <div
             class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
@@ -144,10 +188,7 @@ const formatNumber = (num: number) => {
             <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-primary" />
           </div>
           <div class="flex-1 min-w-0">
-            <NuxtLink
-              :to="`/dance/${style.hashtag}`"
-              class="flex items-center justify-between"
-            >
+            <div class="flex items-center justify-between">
               <span
                 class="text-sm font-medium truncate text-muted-foreground"
                 >{{ style.name }}</span
@@ -155,20 +196,18 @@ const formatNumber = (num: number) => {
               <span class="text-xs text-muted-foreground">{{
                 formatNumber(style.membersCount)
               }}</span>
-            </NuxtLink>
+            </div>
           </div>
-        </button>
+        </NuxtLink>
       </div>
-      <div class="font-bold text-sm text-muted-foreground">
-        Join Communities
-      </div>
+      <div class="font-bold text-sm">Join Communities</div>
       <div class="flex flex-col -mx-2">
-        <button
+        <NuxtLink
           v-for="style in filteredCommunities"
           :key="style.id"
           class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
           :class="{ 'bg-muted': selectedStyle === style.id }"
-          @click="selectedStyle = style.id"
+          :to="`/dance/${style.hashtag}`"
         >
           <div
             class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
@@ -176,10 +215,7 @@ const formatNumber = (num: number) => {
             <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-primary" />
           </div>
           <div class="flex-1 min-w-0">
-            <NuxtLink
-              :to="`/dance/${style.hashtag}`"
-              class="flex items-center justify-between"
-            >
+            <div class="flex items-center justify-between">
               <span
                 class="text-sm font-medium truncate text-muted-foreground"
                 >{{ style.name }}</span
@@ -187,9 +223,9 @@ const formatNumber = (num: number) => {
               <span class="text-xs text-muted-foreground">{{
                 formatNumber(style.membersCount)
               }}</span>
-            </NuxtLink>
+            </div>
           </div>
-        </button>
+        </NuxtLink>
       </div>
       <Button variant="secondary" @click="loadMoreCommunities">
         Load More

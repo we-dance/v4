@@ -3,11 +3,19 @@ import { ref } from 'vue'
 import UserPoints from '~/components/common/UserPoints.vue'
 const { $client } = useNuxtApp()
 
+const props = defineProps({
+  filter: {
+    type: String,
+    default: 'all',
+  },
+})
+
 const selectedType = ref('all')
 
 const { data, refetch } = useInfiniteQuery({
-  queryKey: ['posts'],
-  queryFn: ({ pageParam = 1 }) => $client.posts.list.query({ page: pageParam }),
+  queryKey: ['posts', props.filter],
+  queryFn: ({ pageParam = 1 }) =>
+    $client.posts.list.query({ page: pageParam, filter: props.filter }),
   getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   initialPageParam: 1,
 })
