@@ -61,8 +61,10 @@ export default NuxtAuthHandler({
         },
       })
 
+      const { salt, hash, ...userWithoutPassword } = user
+
       return Promise.resolve({
-        user,
+        user: userWithoutPassword,
         profile: profile,
         expires: session.expires,
       })

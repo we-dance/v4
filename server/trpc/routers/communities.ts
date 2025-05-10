@@ -10,6 +10,8 @@ export const communitiesRouter = router({
       select: {
         id: true,
         name: true,
+        membersCount: true,
+        hashtag: true,
       },
     })
 

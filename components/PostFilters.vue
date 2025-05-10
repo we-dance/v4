@@ -5,6 +5,8 @@ const emit = defineEmits<{
   (e: 'update:style', value: string | null): void
 }>()
 
+const { session } = useAppAuth()
+
 const props = defineProps({
   type: {
     type: String,
@@ -20,7 +22,6 @@ const props = defineProps({
   },
 })
 
-// Post type options
 const postTypeOptions = [
   { value: 'all', label: 'All Posts', icon: 'ph:list' },
   { value: 'event', label: 'Events', icon: 'ph:calendar' },
@@ -33,18 +34,18 @@ const postTypeOptions = [
   { value: 'video', label: 'Videos', icon: 'ph:video-camera' },
 ]
 
-// Dance styles
-const danceStyles = [
-  { id: 'salsa', name: 'Salsa', members: 12500 },
-  { id: 'bachata', name: 'Bachata', members: 10200 },
-  { id: 'kizomba', name: 'Kizomba', members: 8300 },
-  { id: 'zouk', name: 'Brazilian Zouk', members: 6100 },
-  { id: 'merengue', name: 'Merengue', members: 4500 },
-  { id: 'mambo', name: 'Mambo', members: 3800 },
-  { id: 'cha-cha', name: 'Cha Cha', members: 3200 },
-]
+const { communities } = useCommunities()
 
-// Location filter
+const communitiesLimit = ref(5)
+
+function loadMoreCommunities() {
+  communitiesLimit.value += 5
+}
+
+const filteredCommunities = computed(() => {
+  return communities.value?.slice(0, communitiesLimit.value)
+})
+
 const showLocationFilter = ref(false)
 const clearLocationFilter = () => {
   emit('update:location', null)
@@ -128,10 +129,10 @@ const formatNumber = (num: number) => {
   <!-- Desktop View -->
   <div class="hidden md:flex flex-col gap-6 w-60">
     <div class="flex flex-col gap-2">
-      <div class="font-bold text-sm text-muted-foreground">Dance Styles</div>
+      <div class="font-bold text-sm text-muted-foreground">My Communities</div>
       <div class="flex flex-col -mx-2">
         <button
-          v-for="style in danceStyles"
+          v-for="style in session?.profile?.danceStyles"
           :key="style.id"
           class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
           :class="{ 'bg-muted': selectedStyle === style.id }"
@@ -143,18 +144,56 @@ const formatNumber = (num: number) => {
             <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-primary" />
           </div>
           <div class="flex-1 min-w-0">
-            <div class="flex items-center justify-between">
+            <NuxtLink
+              :to="`/dance/${style.hashtag}`"
+              class="flex items-center justify-between"
+            >
               <span
                 class="text-sm font-medium truncate text-muted-foreground"
                 >{{ style.name }}</span
               >
               <span class="text-xs text-muted-foreground">{{
-                formatNumber(style.members)
+                formatNumber(style.membersCount)
               }}</span>
-            </div>
+            </NuxtLink>
           </div>
         </button>
       </div>
+      <div class="font-bold text-sm text-muted-foreground">
+        Join Communities
+      </div>
+      <div class="flex flex-col -mx-2">
+        <button
+          v-for="style in filteredCommunities"
+          :key="style.id"
+          class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
+          :class="{ 'bg-muted': selectedStyle === style.id }"
+          @click="selectedStyle = style.id"
+        >
+          <div
+            class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
+          >
+            <Icon name="ph:music-notes" class="w-3.5 h-3.5 text-primary" />
+          </div>
+          <div class="flex-1 min-w-0">
+            <NuxtLink
+              :to="`/dance/${style.hashtag}`"
+              class="flex items-center justify-between"
+            >
+              <span
+                class="text-sm font-medium truncate text-muted-foreground"
+                >{{ style.name }}</span
+              >
+              <span class="text-xs text-muted-foreground">{{
+                formatNumber(style.membersCount)
+              }}</span>
+            </NuxtLink>
+          </div>
+        </button>
+      </div>
+      <Button variant="secondary" @click="loadMoreCommunities">
+        Load More
+      </Button>
     </div>
   </div>
 
