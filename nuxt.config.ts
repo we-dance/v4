@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@sidebase/nuxt-auth',
     '@hebilicious/vue-query-nuxt',
+    '@nuxtjs/cloudinary',
   ],
   components: [
     {
@@ -98,6 +99,8 @@ export default defineNuxtConfig({
     stripeWebhookSecret: '',
     public: {
       appUrl: '',
+      cloudinaryCloudName: '',
+      cloudinaryUploadPreset: '',
     },
   },
 })
