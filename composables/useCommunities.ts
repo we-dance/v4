@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import { type DanceStyle } from '@prisma/client'
+import type { DanceStyle } from '@prisma/client'
 
 export function useCommunities() {
   const communities = useState('communities', () =>
