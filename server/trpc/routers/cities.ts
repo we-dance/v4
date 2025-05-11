@@ -3,6 +3,31 @@ import { prisma } from '~/server/prisma'
 import { z } from 'zod'
 
 export const citiesRouter = router({
+  popular: publicProcedure.query(async ({ ctx }) => {
+    const cities = await prisma.city.findMany({
+      include: {
+        profiles: {
+          where: {
+            photo: {
+              startsWith: 'https://',
+            },
+            userId: {
+              not: null,
+            },
+          },
+          take: 1,
+          orderBy: {
+            createdAt: 'desc',
+          },
+        },
+      },
+      orderBy: {
+        membersCount: 'desc',
+      },
+      take: 3,
+    })
+    return cities
+  }),
   bySlug: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
     const city = await prisma.city.findUnique({
       where: { slug: input },
