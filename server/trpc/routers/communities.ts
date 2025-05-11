@@ -1,6 +1,7 @@
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { z } from 'zod'
+import { TRPCError } from '@trpc/server'
 
 export const communitiesRouter = router({
   list: publicProcedure.input(z.void()).query(async ({ ctx }) => {
@@ -87,9 +88,63 @@ export const communitiesRouter = router({
       (a, b) => b._count.profiles - a._count.profiles
     )
 
+    const profileId = ctx.session?.profile?.id
+
+    const isMember = await prisma.experience.findFirst({
+      where: {
+        profileId,
+        styleId: community?.id,
+      },
+    })
+
     return {
       ...community,
       cities: sortedCities,
+      isMember,
     }
   }),
+  join: publicProcedure
+    .input(z.object({ communityId: z.number() }))
+    .mutation(async ({ ctx, input }) => {
+      const { communityId } = input
+      const profileId = ctx.session?.profile?.id
+
+      if (!profileId) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'User not authenticated',
+        })
+      }
+
+      await prisma.experience.create({
+        data: {
+          profileId,
+          styleId: communityId,
+          level: 'beginner',
+          highlighted: false,
+        },
+      })
+    }),
+  leave: publicProcedure
+    .input(z.object({ communityId: z.number() }))
+    .mutation(async ({ ctx, input }) => {
+      const { communityId } = input
+      const profileId = ctx.session?.profile?.id
+
+      if (!profileId) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'User not authenticated',
+        })
+      }
+
+      await prisma.experience.delete({
+        where: {
+          profileId_styleId: {
+            profileId,
+            styleId: communityId,
+          },
+        },
+      })
+    }),
 })

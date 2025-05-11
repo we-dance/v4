@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import type { Community } from '~/schemas/communitySchema'
 import GradientBackground from '~/components/common/GradientBackground.vue'
+import { toast } from 'vue-sonner'
+
+const { isLoggedIn } = useAppAuth()
 
 const props = defineProps({
   community: {
@@ -17,6 +20,36 @@ const stats = computed(() => {
     { label: 'Posts', value: props.community?._count?.posts },
   ]
 })
+
+const { $client } = useNuxtApp()
+
+function join() {
+  const promise = $client.communities.join.mutate({
+    communityId: props.community.id,
+  })
+
+  toast.promise(promise, {
+    loading: 'Joining community...',
+    success: 'Joined community successfully',
+    error: (error: any) => (error as Error).message,
+  })
+
+  window.location.reload()
+}
+
+function leave() {
+  const promise = $client.communities.leave.mutate({
+    communityId: props.community.id,
+  })
+
+  toast.promise(promise, {
+    loading: 'Leaving community...',
+    success: 'Left community successfully',
+    error: (error: any) => (error as Error).message,
+  })
+
+  window.location.reload()
+}
 </script>
 
 <template>
@@ -45,8 +78,23 @@ const stats = computed(() => {
               </p>
               <div class="flex justify-center md:justify-start gap-4">
                 <slot name="actions">
-                  <Button size="lg" as-child>
+                  <Button v-if="!isLoggedIn" size="lg" as-child>
                     <NuxtLink to="/register">Join Community</NuxtLink>
+                  </Button>
+                  <Button
+                    v-else-if="!community.isMember"
+                    size="lg"
+                    @click="join()"
+                  >
+                    Join Community
+                  </Button>
+                  <Button
+                    v-else-if="community.isMember"
+                    size="lg"
+                    variant="secondary"
+                    @click="leave()"
+                  >
+                    Leave Community
                   </Button>
                 </slot>
               </div>
