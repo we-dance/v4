@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
-import { loadGoogleMapsApi } from '~/lib/googleMapsApi'
+import { ref } from 'vue'
 
 defineOptions({
   inheritAttrs: false,
@@ -20,40 +19,14 @@ const props = defineProps({
 const model = defineModel<{ id: string; name: string } | null>()
 
 const open = ref(false)
-const query = ref('')
-const results = ref<Array<{ id: string; name: string }>>([])
 
-const getPlacePredictions = () => {
-  loadGoogleMapsApi().then((google) => {
-    const service = new google.maps.places.AutocompleteService()
-    service.getPlacePredictions(
-      {
-        input: query.value,
-        types: ['(cities)'],
-      },
-      (predictions: any) => {
-        results.value = predictions.map((prediction: any) => ({
-          id: prediction.place_id,
-          name: prediction.description,
-        }))
-      }
-    )
-  })
-}
+const { citySearchResults: results, cityQuery: query } = useCities()
 
 const onSelect = (city: { id: string; name: string }) => {
   model.value = city
   open.value = false
   query.value = ''
 }
-
-watch(query, () => {
-  if (query.value.length >= 2) {
-    getPlacePredictions()
-  } else {
-    results.value = []
-  }
-})
 </script>
 
 <template>
@@ -92,13 +65,13 @@ watch(query, () => {
         placeholder="Search city..."
         itemKey="id"
         itemLabel="name"
-        @select="onSelect"
+        @select="(city) => onSelect({ id: city.id, name: city.name })"
       />
       <Button
         variant="outline"
         size="sm"
         class="w-full"
-        @click="onSelect(null)"
+        @click="onSelect({ id: '', name: 'Anywhere' })"
       >
         <Icon name="heroicons:map-pin" class="h-4 w-4 shrink-0 opacity-50" />
         Anywhere

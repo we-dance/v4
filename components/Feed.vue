@@ -20,17 +20,16 @@ const props = defineProps({
 })
 
 const type = ref('all')
-const city = ref<City | null>(null)
 
 const { data, refetch } = useInfiniteQuery({
-  queryKey: ['posts', props, type, city],
+  queryKey: ['posts', props, type],
   queryFn: ({ pageParam = 1 }) =>
     $client.posts.list.query({
       page: pageParam,
       onlySubscriptions: props.onlySubscriptions,
       community: props.community?.id,
       type: type.value,
-      city: city.value?.id,
+      city: props.city?.id,
     }),
   getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   initialPageParam: 1,
@@ -49,9 +48,7 @@ const posts = computed(
 
     <div class="flex-1 flex flex-col gap-4 max-w-xl">
       <PostEditor @load="refetch" />
-      <div class="flex items-center gap-2">
-        <CityInput v-model="city" variant="secondary" placeholder="Anywhere" />
-      </div>
+      <div class="flex items-center gap-2">Filters</div>
       <PostList :posts="posts" @load="refetch" />
     </div>
 

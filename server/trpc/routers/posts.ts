@@ -32,8 +32,6 @@ export const postsRouter = router({
         community,
       } = input
 
-      console.log('posts.list', input)
-
       const where: Prisma.PostWhereInput = {
         authorId: authorId ?? undefined,
         type: type === 'all' ? undefined : type,

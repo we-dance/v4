@@ -34,36 +34,30 @@ export const communitiesRouter = router({
     })
     return communities
   }),
-  byHashtag: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
-    const community = await prisma.danceStyle.findFirst({
-      where: {
-        hashtag: {
-          equals: input,
-          mode: 'insensitive',
-        },
-      },
-      include: {
-        _count: {
-          select: {
-            posts: true,
+  find: publicProcedure
+    .input(z.object({ hashtag: z.string(), citySlug: z.string().optional() }))
+    .query(async ({ ctx, input }) => {
+      const { hashtag, citySlug } = input
+
+      const community = await prisma.danceStyle.findFirst({
+        where: {
+          hashtag: {
+            equals: hashtag,
+            mode: 'insensitive',
           },
         },
-      },
-    })
-
-    const cities = await prisma.city.findMany({
-      where: {
-        profiles: {
-          some: {
-            styles: {
-              some: {
-                styleId: community?.id,
-              },
+        include: {
+          _count: {
+            select: {
+              posts: true,
             },
           },
         },
-      },
-      select: {
+      })
+
+      let city = null
+
+      const citySelect = {
         id: true,
         name: true,
         slug: true,
@@ -81,28 +75,54 @@ export const communitiesRouter = router({
             },
           },
         },
-      },
-    })
+      }
 
-    const sortedCities = cities.sort(
-      (a, b) => b._count.profiles - a._count.profiles
-    )
+      if (citySlug) {
+        city = await prisma.city.findFirst({
+          where: {
+            slug: {
+              equals: citySlug,
+            },
+          },
+          select: citySelect,
+        })
+      }
 
-    const profileId = ctx.session?.profile?.id
+      const cities = await prisma.city.findMany({
+        where: {
+          profiles: {
+            some: {
+              styles: {
+                some: {
+                  styleId: community?.id,
+                },
+              },
+            },
+          },
+        },
+        select: citySelect,
+      })
 
-    const isMember = await prisma.experience.findFirst({
-      where: {
-        profileId,
-        styleId: community?.id,
-      },
-    })
+      const sortedCities = cities.sort(
+        (a, b) => b._count.profiles - a._count.profiles
+      )
 
-    return {
-      ...community,
-      cities: sortedCities,
-      isMember,
-    }
-  }),
+      const profileId = ctx.session?.profile?.id
+
+      const isMember = await prisma.experience.findFirst({
+        where: {
+          profileId,
+          styleId: community?.id,
+        },
+      })
+
+      return {
+        ...community,
+        cities: sortedCities,
+        isMember,
+        city,
+      }
+    }),
   join: publicProcedure
     .input(z.object({ communityId: z.number() }))
     .mutation(async ({ ctx, input }) => {

@@ -28,7 +28,16 @@ const filteredCommunities = computed(() => {
 })
 
 const filteredCities = computed(() => {
-  return props.community?.cities.slice(0, citiesLimit.value) || []
+  const allCities = props.community?.cities || []
+  const results = allCities
+    .filter((c) => c.id !== props.city?.id)
+    .slice(0, citiesLimit.value)
+
+  if (props.city) {
+    results.unshift(props.city)
+  }
+
+  return results
 })
 
 const citiesLimit = ref(5)
@@ -45,6 +54,25 @@ const formatNumber = (num: number) => {
   if (num >= 1000000) return `${(num / 1000000).toFixed(1)}M`
   if (num >= 1000) return `${(num / 1000).toFixed(1)}K`
   return num
+}
+
+const { citySearchResults, cityQuery } = useCities()
+
+const { $client } = useNuxtApp()
+
+function onSelectCity(city: any) {
+  const existingCity = props.community?.cities.find((c) => c.id === city.id)
+
+  if (existingCity) {
+    navigateTo(`/dance/${props.community?.hashtag}/${existingCity.slug}`)
+  } else {
+    const promise = $client.cities.create.mutate({
+      city,
+    })
+    promise.then((city) => {
+      navigateTo(`/dance/${props.community?.hashtag}/${city.slug}`)
+    })
+  }
 }
 </script>
 
@@ -90,11 +118,35 @@ const formatNumber = (num: number) => {
         </NuxtLink>
       </div>
       <div v-if="community" class="flex flex-col gap-2">
-        <div class="font-bold text-sm">{{ community.name }} Cities</div>
+        <div class="font-bold text-sm flex items-center justify-between gap-2">
+          {{ community.name }} Cities
+          <Popover>
+            <PopoverTrigger>
+              <Button variant="ghost" size="icon">
+                <Icon
+                  name="ph:magnifying-glass"
+                  class="w-3.5 h-3.5 text-primary"
+                />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent class="p-0">
+              <div class="flex flex-col gap-2">
+                <SearchableDropdown
+                  :items="citySearchResults"
+                  v-model:searchQuery="cityQuery"
+                  placeholder="Search city..."
+                  itemKey="id"
+                  itemLabel="name"
+                  @select="onSelectCity"
+                />
+              </div>
+            </PopoverContent>
+          </Popover>
+        </div>
         <NuxtLink
           :to="`/dance/${community.hashtag}`"
           class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
-          :class="{ 'bg-muted': !$route.params.city }"
+          :class="{ 'bg-muted': !city }"
         >
           <div
             class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
@@ -113,11 +165,11 @@ const formatNumber = (num: number) => {
           </div>
         </NuxtLink>
         <NuxtLink
-          v-for="city in filteredCities"
-          :key="city.id"
-          :to="`/dance/${community.hashtag}/${city.slug}`"
+          v-for="item in filteredCities"
+          :key="item.id"
+          :to="`/dance/${community.hashtag}/${item.slug}`"
           class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
-          :class="{ 'bg-muted': city?.slug === $route.params.city }"
+          :class="{ 'bg-muted': city?.id === item.id }"
         >
           <div
             class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"
@@ -127,10 +179,10 @@ const formatNumber = (num: number) => {
           <div class="flex-1 min-w-0">
             <div class="flex items-center justify-between">
               <span class="text-sm font-medium truncate text-muted-foreground"
-                >{{ city.name }}, {{ city.country.name }}</span
+                >{{ item.name }}, {{ item.country.name }}</span
               >
               <span class="text-xs text-muted-foreground">{{
-                formatNumber(city._count.profiles)
+                formatNumber(item._count?.profiles)
               }}</span>
             </div>
           </div>
@@ -143,7 +195,11 @@ const formatNumber = (num: number) => {
           <NuxtLink
             v-for="style in myCommunities"
             :key="style.id"
-            :to="`/dance/${style.hashtag}`"
+            :to="
+              city?.slug
+                ? `/dance/${style.hashtag}/${city.slug}`
+                : `/dance/${style.hashtag}`
+            "
             class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
             :class="{ 'bg-muted': community?.id === style.id }"
           >
@@ -174,7 +230,11 @@ const formatNumber = (num: number) => {
             :key="style.id"
             class="flex items-center gap-3 px-3 py-2 hover:bg-muted rounded-lg transition-colors"
             :class="{ 'bg-muted': community?.id === style.id }"
-            :to="`/dance/${style.hashtag}`"
+            :to="
+              city
+                ? `/dance/${style.hashtag}/${city.slug}`
+                : `/dance/${style.hashtag}`
+            "
           >
             <div
               class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center"

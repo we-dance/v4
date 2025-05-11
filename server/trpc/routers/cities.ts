@@ -1,6 +1,7 @@
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { z } from 'zod'
+import { addCity } from '~/server/utils/city'
 
 export const citiesRouter = router({
   popular: publicProcedure.query(async ({ ctx }) => {
@@ -71,4 +72,19 @@ export const citiesRouter = router({
       communities: sortedCommunities,
     }
   }),
+  create: publicProcedure
+    .input(
+      z.object({
+        city: z.object({
+          id: z.string(),
+          name: z.string(),
+          googleMapsPlace: z.any(),
+        }),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { city } = input
+
+      return await addCity(city)
+    }),
 })

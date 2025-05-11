@@ -11,7 +11,9 @@ if (!styleHashtag) {
   })
 }
 
-const community = await $client.communities.byHashtag.query(styleHashtag)
+const community = await $client.communities.find.query({
+  hashtag: styleHashtag,
+})
 
 if (!community) {
   throw createError({

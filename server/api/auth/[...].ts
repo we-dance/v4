@@ -4,11 +4,8 @@ import { PrismaAdapter } from '@auth/prisma-adapter'
 import { PrismaClient } from '@prisma/client'
 import { FirebaseScrypt } from 'firebase-scrypt'
 import { NuxtAuthHandler } from '#auth'
-import {
-  defaultNotificationsSettings,
-  getSlug,
-  registerSchema,
-} from '~/schemas/user'
+import { defaultNotificationsSettings, registerSchema } from '~/schemas/user'
+import { getSlug } from '~/utils/slug'
 import { defaultPrivacySettings } from '~/schemas/profile'
 import { nanoid } from 'nanoid'
 

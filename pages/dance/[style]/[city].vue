@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { z } from 'zod'
-const { style } = useRoute().params
+const { style, city: citySlug } = useRoute().params
 const { $client } = useNuxtApp()
 
 const styleHashtag = z.string().parse(style)
@@ -11,7 +11,12 @@ if (!styleHashtag) {
   })
 }
 
-const community = await $client.communities.byHashtag.query(styleHashtag)
+const community = await $client.communities.find.query({
+  hashtag: styleHashtag,
+  citySlug: citySlug as string,
+})
+
+const city = community.city
 
 if (!community) {
   throw createError({
@@ -22,7 +27,7 @@ if (!community) {
 </script>
 
 <template>
-  <DanceStyleLayout :community="community">
-    <Feed :community="community" />
+  <DanceStyleLayout :community="community" :city="city">
+    <Feed :community="community" :city="city" />
   </DanceStyleLayout>
 </template>

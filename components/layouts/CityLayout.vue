@@ -5,13 +5,23 @@ const props = defineProps<{
   city: City
 }>()
 
+const { isLoggedIn } = useAppAuth()
+
 const stats = computed(() => {
   return [
-    { label: 'Posts', value: props.city._count.posts },
-    { label: 'Subscribers', value: props.city.subscribersCount },
-    { label: 'Members', value: props.city.membersCount },
+    { label: 'Locals', value: props.city.membersCount },
+    { label: 'Travelers', value: props.city.subscribersCount },
+    { label: 'Posts', value: props.city?._count?.posts },
   ]
 })
+
+function planTrip() {
+  console.log('planTrip')
+}
+
+function setAsHome() {
+  console.log('setAsHome')
+}
 </script>
 
 <template>
@@ -35,12 +45,14 @@ const stats = computed(() => {
               <p
                 class="text-xl text-muted-foreground mb-8 max-w-2xl md:max-w-none mx-auto"
               >
-                {{ city.description }}
+                Discover the hottest dance events in {{ city.name }}, and get
+                notified of new events before they sell out.
               </p>
               <div class="flex justify-center md:justify-start gap-4">
                 <slot name="actions">
-                  <Button size="lg" as-child>
-                    <NuxtLink to="/register">Join Community</NuxtLink>
+                  <Button size="lg" @click="planTrip()"> Plan a Trip </Button>
+                  <Button size="lg" variant="secondary" @click="setAsHome()">
+                    Become a Local
                   </Button>
                 </slot>
               </div>

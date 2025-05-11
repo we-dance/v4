@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Community } from '~/schemas/communitySchema'
+import type { City } from '@prisma/client'
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { toast } from 'vue-sonner'
 
@@ -9,6 +10,10 @@ const props = defineProps({
   community: {
     type: Object as PropType<Community>,
     required: true,
+  },
+  city: {
+    type: Object as PropType<City | null>,
+    required: false,
   },
 })
 
