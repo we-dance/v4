@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
-import { getSlug } from '~/schemas/user'
+import { getSlug } from '~/utils/slug'
 import { nanoid } from 'nanoid'
 import { prisma } from '~/server/prisma'
 import { getStripe } from '~/server/utils/stripe'

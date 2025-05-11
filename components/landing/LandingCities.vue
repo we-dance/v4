@@ -12,35 +12,8 @@ defineProps({
   },
 })
 
-const cities = [
-  {
-    slug: 'munich',
-    name: 'Munich',
-    image:
-      'https://images.unsplash.com/photo-1595867818082-083862f3d630?w=800&h=400&fit=crop',
-    events: 120,
-    artists: 45,
-    description: 'Vibrant dance scene with regular socials and festivals',
-  },
-  {
-    slug: 'berlin',
-    name: 'Berlin',
-    image:
-      'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&h=400&fit=crop',
-    events: 200,
-    artists: 80,
-    description: "Europe's dance capital with events every night",
-  },
-  {
-    slug: 'london',
-    name: 'London',
-    image:
-      'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&h=400&fit=crop',
-    events: 180,
-    artists: 65,
-    description: 'Rich diversity of dance styles and cultures',
-  },
-]
+const { $client } = useNuxtApp()
+const cities = await $client.cities.popular.query()
 </script>
 
 <template>
@@ -96,24 +69,23 @@ const cities = [
           class="group relative aspect-video rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300"
         >
           <img
-            :src="city.image"
+            :src="city.profiles[0]?.photo"
             :alt="city.name"
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"
+            class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black"
           ></div>
-          <div class="absolute bottom-0 left-0 p-6 w-full">
-            <h3 class="text-2xl font-bold text-white mb-2">
+          <div class="absolute inset-0 p-6 w-full flex flex-col">
+            <h3 class="text-2xl font-bold text-white">
               {{ city.name }}
             </h3>
-            <p class="text-white/80 text-sm mb-3">
+            <p class="text-white/80 text-sm mb-3 flex-1">
               {{ city.description }}
             </p>
             <div class="flex gap-4">
-              <span class="text-white text-sm">{{ city.events }}+ Events</span>
               <span class="text-white text-sm"
-                >{{ city.artists }}+ Artists</span
+                >{{ city.membersCount }} Members</span
               >
             </div>
           </div>

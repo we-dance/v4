@@ -31,40 +31,23 @@ const numberOfLessons = computed(() => {
 })
 
 const reviews = computed(() => {
-  return course.reviews.length
+  return course.reviews.filter((review: any) => review.content?.rating).length
 })
 
 const averageRating = computed(() => {
   return (
-    course.reviews.reduce((acc: number, review: any) => {
-      return acc + review.rating
-    }, 0) / course.reviews.length
+    course.reviews
+      .filter((review: any) => review.content?.rating)
+      .reduce((acc: number, review: any) => {
+        return acc + review.content?.rating
+      }, 0) / reviews.value
   )
 })
 </script>
 
 <template>
   <div class="bg-background border-b">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex gap-4">
-      <div class="w-16 h-16 relative">
-        <NuxtImg
-          v-if="course.coverUrl"
-          :src="course.coverUrl"
-          class="w-full h-full object-cover rounded-lg"
-        />
-        <div v-else class="w-full h-full bg-muted rounded-lg"></div>
-        <Button
-          v-if="canEdit"
-          variant="ghost"
-          size="icon"
-          class="absolute top-0 left-0"
-          as-child
-        >
-          <NuxtLink :to="`/admin/courses/${course.slug}/edit`">
-            <Icon name="lucide:pencil" class="w-4 h-4" />
-          </NuxtLink>
-        </Button>
-      </div>
+    <div class="max-w-7xl mx-auto p-4 flex gap-4">
       <div>
         <h1 class="text-2xl font-bold flex items-center gap-2">
           {{ course.name }}
@@ -92,6 +75,14 @@ const averageRating = computed(() => {
             {{ averageRating }} ({{ reviews }} reviews)
           </div>
         </div>
+      </div>
+      <div class="flex-1 flex justify-end">
+        <Button v-if="canEdit" as-child>
+          <NuxtLink :to="`/admin/courses/${course.slug}`">
+            <Icon name="lucide:pencil" class="w-4 h-4" />
+            Edit
+          </NuxtLink>
+        </Button>
       </div>
     </div>
   </div>

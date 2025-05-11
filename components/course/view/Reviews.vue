@@ -34,10 +34,10 @@ const handleAddReview = () => {
     </div>
     <div class="divide-y">
       <div v-for="review in course.reviews" :key="review.id" class="p-4">
-        <div class="flex items-center gap-2 mb-2">
+        <div v-if="review.content?.rating" class="flex items-center gap-2 mb-2">
           <div class="flex">
             <Icon
-              v-for="i in review.rating"
+              v-for="i in review.content.rating"
               :key="i"
               name="ph:star-fill"
               class="w-4 h-4 text-warning"
@@ -51,7 +51,7 @@ const handleAddReview = () => {
           </span>
         </div>
         <p class="text-sm text-muted-foreground">
-          {{ review.body }}
+          {{ review.summary }}
         </p>
       </div>
     </div>

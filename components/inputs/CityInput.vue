@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
-import { loadGoogleMapsApi } from '~/lib/googleMapsApi'
+import { ref } from 'vue'
 
 defineOptions({
   inheritAttrs: false,
@@ -9,64 +8,44 @@ defineOptions({
 const props = defineProps({
   placeholder: {
     type: String,
-    default: 'Select city',
+    default: 'City',
+  },
+  noIcon: {
+    type: Boolean,
+    default: false,
   },
 })
 
-const model = defineModel<{ placeId: string; label: string } | null>()
+const model = defineModel<{ id: string; name: string } | null>()
 
 const open = ref(false)
-const query = ref('')
-const results = ref<Array<{ placeId: string; label: string }>>([])
 
-const getPlacePredictions = () => {
-  loadGoogleMapsApi().then((google) => {
-    const service = new google.maps.places.AutocompleteService()
-    service.getPlacePredictions(
-      {
-        input: query.value,
-        types: ['(cities)'],
-      },
-      (predictions: any) => {
-        results.value = predictions.map((prediction: any) => ({
-          placeId: prediction.place_id,
-          label: prediction.description,
-        }))
-      }
-    )
-  })
-}
+const { citySearchResults: results, cityQuery: query } = useCities()
 
-const onSelect = (city: { placeId: string; label: string }) => {
+const onSelect = (city: { id: string; name: string }) => {
   model.value = city
   open.value = false
+  query.value = ''
 }
-
-watch(query, () => {
-  if (query.value.length >= 2) {
-    getPlacePredictions()
-  } else {
-    results.value = []
-  }
-})
 </script>
 
 <template>
   <Popover v-model:open="open">
     <PopoverTrigger as-child>
       <Button
-        variant="secondary"
+        v-bind="$attrs"
         role="combobox"
         :aria-expanded="open"
-        class="w-full justify-between font-normal overflow-ellipsis"
+        class="gap-2"
       >
         <Icon
+          v-if="!noIcon"
           name="heroicons:map-pin"
-          class="mr-2 h-4 w-4 shrink-0 opacity-50"
+          class="h-4 w-4 shrink-0 opacity-50"
         />
         <div class="flex-1 text-left">
-          <template v-if="model?.label">
-            {{ model.label }}
+          <template v-if="model?.name">
+            {{ model.name }}
           </template>
           <template v-else>
             <span class="text-muted-foreground">{{ props.placeholder }}</span>
@@ -74,7 +53,7 @@ watch(query, () => {
         </div>
         <Icon
           name="heroicons:chevron-down"
-          class="ml-2 h-4 w-4 shrink-0 opacity-50"
+          class="h-4 w-4 shrink-0 opacity-50"
         />
       </Button>
     </PopoverTrigger>
@@ -84,10 +63,19 @@ watch(query, () => {
         v-model="model"
         v-model:searchQuery="query"
         placeholder="Search city..."
-        itemKey="placeId"
-        itemLabel="label"
-        @select="onSelect"
+        itemKey="id"
+        itemLabel="name"
+        @select="(city) => onSelect({ id: city.id, name: city.name })"
       />
+      <Button
+        variant="outline"
+        size="sm"
+        class="w-full"
+        @click="onSelect({ id: '', name: 'Anywhere' })"
+      >
+        <Icon name="heroicons:map-pin" class="h-4 w-4 shrink-0 opacity-50" />
+        Anywhere
+      </Button>
     </PopoverContent>
   </Popover>
 </template>

@@ -13,11 +13,7 @@ export const POST_TYPE_ICONS = {
 export const POST_ACTIONS = {
   article: 'Read More',
   meet: 'Send Request',
-  review: 'Rate',
-  gig: 'Apply',
+  job: 'Apply',
   ask_locals: 'Share Info',
   ad: 'Contact',
-  event: 'Book Now',
-  note: 'Comment',
-  video: 'Watch',
 } as const

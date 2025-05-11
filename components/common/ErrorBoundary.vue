@@ -8,7 +8,7 @@ onErrorCaptured((err) => {
   console.error('Error details:', err)
   error.value = err as Error
   hasError.value = true
-  return false // Prevent error from propagating
+  return false
 })
 </script>
 

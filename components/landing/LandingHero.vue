@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import { getDanceStyles } from '@/data/mockStyles'
 
 defineProps({
   title: {
@@ -11,12 +10,11 @@ defineProps({
   },
 })
 
-// Search state
 const searchQuery = ref('')
+const { $client } = useNuxtApp()
+const styles = await $client.communities.index.query()
 
-// Dance styles with filter
 const danceStyles = computed(() => {
-  const styles = getDanceStyles()
   if (!searchQuery.value) return styles.slice(0, 3)
 
   const query = searchQuery.value.toLowerCase()

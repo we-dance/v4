@@ -10,7 +10,7 @@ const { course } = defineProps<{
       <h3 class="font-semibold">About the Course</h3>
     </div>
     <div class="p-4">
-      {{ course.description }}
+      <TPreview :content="course.description" />
     </div>
   </div>
 </template>

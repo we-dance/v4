@@ -36,8 +36,8 @@ const onSelect = (item: Item) => {
 
 <template>
   <div class="flex flex-col">
-    <div class="flex items-center border-b px-3">
-      <Icon name="lucide:search" class="mr-2 h-4 w-4 shrink-0 opacity-50" />
+    <div class="flex items-center border-b px-3 gap-2">
+      <Icon name="lucide:search" class="h-4 w-4 shrink-0 opacity-50" />
       <input
         :value="searchQuery"
         @input="
@@ -65,13 +65,13 @@ const onSelect = (item: Item) => {
         v-for="item in filteredItems"
         :key="item[itemKey]"
         @click="() => onSelect(item)"
-        class="flex items-center p-2 cursor-pointer hover:bg-gray-100"
+        class="flex items-start p-2 gap-2 cursor-pointer hover:bg-gray-100"
       >
         <Icon
           name="heroicons:check"
           :class="
             cn(
-              'mr-2 h-4 w-4',
+              'h-4 w-4 shrink-0',
               modelValue === item[itemKey] ? 'opacity-100' : 'opacity-0'
             )
           "

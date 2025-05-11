@@ -1,43 +1,33 @@
-<script setup>
-import GradientBackground from '~/components/common/GradientBackground.vue'
+<script setup lang="ts">
+import type { City } from '@prisma/client'
 
-const navigation = [
-  { label: 'Feed', to: '/dance/salsa#content', icon: 'ph:newspaper' },
-  { label: 'About', to: '/dance/salsa/about#content', icon: 'ph:info' },
-  { label: 'Artists', to: '/dance/salsa/artists#content', icon: 'ph:star' },
-  { label: 'Events', to: '/dance/salsa/events#content', icon: 'ph:calendar' },
-]
+const props = defineProps<{
+  city: City
+}>()
 
-defineProps({
-  title: {
-    type: String,
-    required: true,
-  },
-  description: {
-    type: String,
-    required: true,
-  },
-  stats: {
-    type: Array,
-    default: () => [
-      { label: 'Members', value: '1,200' },
-      { label: 'Posts', value: '500' },
-      { label: 'Projects', value: '50' },
-      { label: 'Response Rate', value: '92%' },
-    ],
-  },
-  videoUrl: {
-    type: String,
-    default: 'https://www.youtube.com/embed/R7E9cNydevg',
-  },
+const { isLoggedIn } = useAppAuth()
+
+const stats = computed(() => {
+  return [
+    { label: 'Locals', value: props.city.membersCount },
+    { label: 'Travelers', value: props.city.subscribersCount },
+    { label: 'Posts', value: props.city?._count?.posts },
+  ]
 })
+
+function planTrip() {
+  console.log('planTrip')
+}
+
+function setAsHome() {
+  console.log('setAsHome')
+}
 </script>
 
 <template>
-  <!-- Hero Section -->
   <div class="relative min-h-[60vh]">
     <div
-      class="relative flex items-center overflow-hidden min-h-[60vh] md:h-full py-20 md:py-0"
+      class="relative flex items-center overflow-hidden min-h-[60vh] md:h-full py-8"
     >
       <GradientBackground />
 
@@ -50,17 +40,19 @@ defineProps({
               <h1
                 class="text-4xl md:text-5xl font-bold text-foreground/90 mb-6"
               >
-                {{ title }}
+                {{ city.name }}
               </h1>
               <p
                 class="text-xl text-muted-foreground mb-8 max-w-2xl md:max-w-none mx-auto"
               >
-                {{ description }}
+                Discover the hottest dance events in {{ city.name }}, and get
+                notified of new events before they sell out.
               </p>
               <div class="flex justify-center md:justify-start gap-4">
                 <slot name="actions">
-                  <Button size="lg" as-child>
-                    <NuxtLink to="/register">Join Community</NuxtLink>
+                  <Button size="lg" @click="planTrip()"> Plan a Trip </Button>
+                  <Button size="lg" variant="secondary" @click="setAsHome()">
+                    Become a Local
                   </Button>
                 </slot>
               </div>
@@ -80,18 +72,11 @@ defineProps({
             </div>
 
             <!-- Right: Video -->
-            <div class="space-y-4">
+            <div v-if="city.video" class="space-y-4 py-4">
               <div
                 class="aspect-video rounded-xl overflow-hidden shadow-xl bg-background/20 backdrop-blur"
               >
-                <iframe
-                  class="w-full h-full"
-                  :src="videoUrl"
-                  :title="`${title} Video`"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+                <WYoutube :url="city.video" class="rounded-xl" />
               </div>
 
               <slot name="video-extra">
@@ -119,34 +104,7 @@ defineProps({
     </div>
   </div>
 
-  <!-- Navigation and Content Wrapper -->
   <div class="relative bg-background">
-    <!-- Navigation -->
-    <div class="sticky top-16 z-10">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="border-b">
-          <div class="flex space-x-8 overflow-x-auto bg-background">
-            <NuxtLink
-              v-for="item in navigation"
-              :key="item.to"
-              :to="item.to"
-              class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
-              :class="[
-                $route.path === item.to.split('#')[0] ||
-                $route.path.endsWith(item.to.split('#')[0].split('/').pop())
-                  ? 'border-primary text-primary'
-                  : 'border-transparent text-muted-foreground hover:text-foreground',
-              ]"
-            >
-              <Icon v-if="item.icon" :name="item.icon" class="w-4 h-4" />
-              {{ item.label }}
-            </NuxtLink>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-    <!-- Content -->
     <div id="content" class="scroll-mt-32">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <slot />
@@ -154,12 +112,11 @@ defineProps({
     </div>
   </div>
 
-  <!-- Footer -->
   <div class="py-12 bg-background">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <p class="text-muted-foreground">
-          &copy; 2024 WeDance. All rights reserved.
+          &copy; 2025 WeDance. All rights reserved.
         </p>
       </div>
     </div>

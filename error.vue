@@ -1,13 +1,27 @@
 <script setup lang="ts">
-defineProps({
+const props = defineProps({
   error: Object,
 })
+
+console.log('error', { ...props.error })
 
 const router = useRouter()
 
 const handleGoHome = () => {
   router.push('/')
 }
+
+const message = computed(() => {
+  if (props.error?.statusMessage) {
+    return props.error.statusMessage
+  }
+
+  if (props.error?.statusCode === 404) {
+    return "Looks like this dance floor doesn't exist. Let's get you back to the rhythm!"
+  }
+
+  return "Something went wrong while we were dancing. Let's try again!"
+})
 </script>
 
 <template>
@@ -20,16 +34,10 @@ const handleGoHome = () => {
         />
       </div>
 
-      <h1 class="text-4xl font-bold text-foreground mb-4">
-        {{ error?.statusCode === 404 ? 'Lost Your Dance Partner?' : 'Oops!' }}
-      </h1>
+      <h1 class="text-4xl font-bold text-foreground mb-4">Oops!</h1>
 
       <p class="text-lg text-muted-foreground mb-8">
-        {{
-          error?.statusCode === 404
-            ? "Looks like this dance floor doesn't exist. Let's get you back to the rhythm!"
-            : "Something went wrong while we were dancing. Let's try again!"
-        }}
+        {{ message }}
       </p>
 
       <div class="space-x-4">
