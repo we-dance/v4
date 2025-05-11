@@ -5,7 +5,8 @@ const styles = await $client.communities.index.query()
 
 const visibleStyles = computed(() => {
   const query = searchQuery.value.toLowerCase()
-  return styles.value?.filter((item) => item.name.toLowerCase().includes(query))
+  if (!query) return styles
+  return styles?.filter((item) => item.name.toLowerCase().includes(query))
 })
 </script>
 
@@ -49,33 +50,12 @@ const visibleStyles = computed(() => {
           </span>
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <NuxtLink
-          v-for="style in styles"
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <StyleCard
+          v-for="style in visibleStyles"
           :key="style.id"
-          :to="`/dance/${style.hashtag}`"
-          class="rounded-md"
-        >
-          <div class="aspect-video">
-            <WYoutubeThumb
-              v-if="style.video"
-              :url="style.video"
-              class="rounded-md"
-            />
-            <div v-else class="bg-gray-200 rounded-md w-full h-full" />
-          </div>
-          <div class="p-2">
-            <div class="text-sm font-bold">
-              {{ style.name }}
-            </div>
-            <div class="text-xs text-muted-foreground">
-              {{ style.region }}
-            </div>
-            <div class="text-xs text-muted-foreground">
-              {{ style.membersCount }} members
-            </div>
-          </div>
-        </NuxtLink>
+          :style="style"
+        />
       </div>
     </section>
   </div>
