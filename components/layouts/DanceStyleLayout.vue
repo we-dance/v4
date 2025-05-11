@@ -74,7 +74,11 @@ function leave() {
               <h1
                 class="text-4xl md:text-5xl font-bold text-foreground/90 mb-6"
               >
-                {{ community.name }}
+                <span v-if="city" class="text-lg font-bold uppercase block">
+                  Where can I dance
+                </span>
+                <span>{{ community.name }}</span>
+                <span v-if="city" class="text-lg"> in {{ city.name }} </span>
               </h1>
               <p
                 class="text-xl text-muted-foreground mb-8 max-w-2xl md:max-w-none mx-auto"

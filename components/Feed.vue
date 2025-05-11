@@ -48,7 +48,6 @@ const posts = computed(
 
     <div class="flex-1 flex flex-col gap-4 max-w-xl">
       <PostEditor @load="refetch" />
-      <div class="flex items-center gap-2">Filters</div>
       <PostList :posts="posts" @load="refetch" />
     </div>
 
