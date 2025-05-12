@@ -52,6 +52,11 @@ const handleSelectLesson = (props: any) => {
     return
   }
 
+  if (props.lesson.fileUrl) {
+    window.open(props.lesson.fileUrl, '_blank')
+    return
+  }
+
   currentLesson.value = props.lesson
   scrollToPlayer()
 }
@@ -74,7 +79,7 @@ const handleViewPricing = () => {
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div class="lg:col-span-2 space-y-8">
           <CourseVideoPlayer
-            v-if="currentLesson"
+            v-if="currentLesson?.videoId"
             class="player"
             :lesson="currentLesson"
             :poster="course.coverUrl"
@@ -97,11 +102,6 @@ const handleViewPricing = () => {
             v-else
             :course="course"
             @view-pricing="handleViewPricing"
-          />
-          <CourseMaterials
-            v-if="course.resources?.length"
-            :course="course"
-            :is-unlocked="isUnlocked"
           />
           <CourseContent
             v-if="course.modules?.length"

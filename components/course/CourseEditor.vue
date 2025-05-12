@@ -37,14 +37,11 @@ const emit = defineEmits(['load'])
   <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">
     <ResizablePanel :default-size="165" :min-size="20">
       <div class="space-y-4 p-4">
-        <AdminBlock title="Basic Information">
+        <AdminBlock title="Basic Information" is-open>
           <CourseAboutEditor :course="course" @load="emit('load')" />
         </AdminBlock>
         <AdminBlock title="Modules">
           <CourseModulesEditor :course="course" @load="emit('load')" />
-        </AdminBlock>
-        <AdminBlock title="Resources">
-          <CourseResourcesEditor :course="course" @load="emit('load')" />
         </AdminBlock>
         <AdminBlock title="Pricing">
           <CourseOffersEditor :course="course" @load="emit('load')" />

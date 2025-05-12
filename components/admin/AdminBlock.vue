@@ -4,8 +4,9 @@ import { cn } from '@/lib/utils'
 
 const props = defineProps<{
   title: string
+  isOpen?: boolean
 }>()
-const isOpen = ref(false)
+const isOpen = ref(props.isOpen || false)
 </script>
 
 <template>

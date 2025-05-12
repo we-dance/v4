@@ -425,6 +425,7 @@ export const coursesRouter = router({
         lessonId: z.string().optional(),
         name: z.string(),
         duration: z.number(),
+        fileUrl: z.string().optional(),
         videoId: z.string().optional(),
         locked: z.boolean().optional(),
         order: z.number().optional(),
@@ -439,6 +440,7 @@ export const coursesRouter = router({
             ...data,
             moduleId,
             videoId: data.videoId || '',
+            fileUrl: data.fileUrl || '',
           },
         })
 

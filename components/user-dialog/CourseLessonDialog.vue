@@ -13,7 +13,8 @@ const dialog = useDialog()
 const schema = toTypedSchema(
   z.object({
     name: z.string().min(1, 'Name is required'),
-    duration: z.number().min(1, 'Duration is required'),
+    duration: z.number().optional(),
+    fileUrl: z.string().optional(),
     videoId: z.string().optional(),
     locked: z.boolean().optional(),
   })
@@ -24,8 +25,9 @@ const form = useForm({
   initialValues: {
     name: props.lesson?.name || '',
     duration: props.lesson?.duration || 0,
+    fileUrl: props.lesson?.fileUrl || '',
     videoId: props.lesson?.videoId || '',
-    locked: props.lesson?.locked || false,
+    locked: props.lesson?.locked || true,
   },
 })
 
@@ -62,12 +64,17 @@ const onSubmit = form.handleSubmit(async (values) => {
       <FormItem>
         <FormLabel>Duration (seconds)</FormLabel>
         <FormControl>
-          <Input
-            v-bind="componentField"
-            type="number"
-            min="1"
-            placeholder="Enter lesson duration"
-          />
+          <Input v-bind="componentField" placeholder="Enter lesson duration" />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
+
+    <FormField name="fileUrl" v-slot="{ componentField }">
+      <FormItem>
+        <FormLabel>File URL</FormLabel>
+        <FormControl>
+          <Input v-bind="componentField" placeholder="Enter file URL" />
         </FormControl>
         <FormMessage />
       </FormItem>
@@ -91,7 +98,8 @@ const onSubmit = form.handleSubmit(async (values) => {
         <div class="space-y-1 leading-none">
           <FormLabel>Locked</FormLabel>
           <FormDescription>
-            Lock this lesson until previous lessons are completed
+            This lesson will only be available to users with an active
+            subscription
           </FormDescription>
         </div>
       </FormItem>

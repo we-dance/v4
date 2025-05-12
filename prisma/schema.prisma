@@ -427,7 +427,8 @@ model CourseLesson {
   id       String  @id @default(nanoid())
   name     String
   duration Int
-  videoId  String
+  fileUrl  String?
+  videoId  String?
   locked   Boolean @default(false)
   moduleId String
 

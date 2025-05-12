@@ -60,7 +60,9 @@ const isLessonAvailable = (module: any, lesson: any) => {
             <Icon
               :name="
                 isLessonAvailable(module, lesson)
-                  ? 'ph:play-circle'
+                  ? lesson.fileUrl
+                    ? 'ph:download-simple'
+                    : 'ph:play-circle'
                   : 'ph:lock-simple'
               "
               class="w-5 h-5"
@@ -79,7 +81,7 @@ const isLessonAvailable = (module: any, lesson: any) => {
               >
                 {{ lesson.name }}
               </div>
-              <div class="text-xs text-muted-foreground">
+              <div v-if="lesson.duration" class="text-xs text-muted-foreground">
                 {{ formatDuration(lesson.duration) }}
               </div>
             </div>
