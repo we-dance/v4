@@ -10,13 +10,14 @@ const isOpen = ref(props.isOpen || false)
 </script>
 
 <template>
-  <Collapsible v-model:open="isOpen" class="space-y-2">
+  <Collapsible v-model:open="isOpen">
     <CollapsibleTrigger
       :class="
         cn(
           'flex w-full items-center justify-between rounded-lg border bg-card p-4 text-sm font-medium transition-all hover:bg-muted',
           'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
-          'data-[state=open]:bg-muted'
+          'data-[state=open]:bg-muted',
+          isOpen ? 'rounded-b-none border-b-0' : 'rounded-lg'
         )
       "
     >
@@ -26,8 +27,8 @@ const isOpen = ref(props.isOpen || false)
         :class="{ 'rotate-90': isOpen }"
       />
     </CollapsibleTrigger>
-    <CollapsibleContent class="pt-1">
-      <div class="rounded-lg border bg-card p-4">
+    <CollapsibleContent>
+      <div class="rounded-lg rounded-t-none border bg-card p-4">
         <slot />
       </div>
     </CollapsibleContent>

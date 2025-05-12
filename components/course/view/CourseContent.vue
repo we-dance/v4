@@ -41,9 +41,14 @@ const isLessonAvailable = (module: any, lesson: any) => {
     <div class="p-4 border-b">
       <h3 class="font-semibold">Course Content</h3>
     </div>
-    <div class="divide-y">
-      <div v-for="module in course.modules" :key="module.id" class="p-4">
-        <h4 class="font-medium">{{ module.name }}</h4>
+
+    <div class="p-4 gap-2 flex flex-col">
+      <AdminBlock
+        v-for="(module, index) in course.modules"
+        :key="module.id"
+        :title="module.name"
+        :is-open="index === 0"
+      >
         <div v-if="module.startsAt" class="text-sm text-muted-foreground">
           Opens on {{ formatDate(module.startsAt) }}
         </div>
@@ -87,7 +92,7 @@ const isLessonAvailable = (module: any, lesson: any) => {
             </div>
           </li>
         </ul>
-      </div>
+      </AdminBlock>
     </div>
   </div>
 </template>
