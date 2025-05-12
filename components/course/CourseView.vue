@@ -98,17 +98,17 @@ const handleViewPricing = () => {
             :course="course"
             @view-pricing="handleViewPricing"
           />
+          <CourseMaterials
+            v-if="course.resources?.length"
+            :course="course"
+            :is-unlocked="isUnlocked"
+          />
           <CourseContent
             v-if="course.modules?.length"
             :course="course"
             :current-lesson="currentLesson"
             :is-unlocked="isUnlocked"
             @select-lesson="handleSelectLesson"
-          />
-          <CourseMaterials
-            v-if="course.resources?.length"
-            :course="course"
-            :is-unlocked="isUnlocked"
           />
           <CourseSidebarServices
             v-if="course.instructor"
