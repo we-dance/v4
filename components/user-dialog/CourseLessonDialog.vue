@@ -17,6 +17,7 @@ const schema = toTypedSchema(
     fileUrl: z.string().optional(),
     videoId: z.string().optional(),
     locked: z.boolean().optional(),
+    order: z.number(),
   })
 )
 
@@ -28,6 +29,7 @@ const form = useForm({
     fileUrl: props.lesson?.fileUrl || '',
     videoId: props.lesson?.videoId || '',
     locked: props.lesson?.locked || true,
+    order: props.lesson?.order || 0,
   },
 })
 
@@ -85,6 +87,16 @@ const onSubmit = form.handleSubmit(async (values) => {
         <FormLabel>Video ID</FormLabel>
         <FormControl>
           <Input v-bind="componentField" placeholder="Enter video ID" />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
+
+    <FormField name="order" v-slot="{ componentField }">
+      <FormItem>
+        <FormLabel>Order</FormLabel>
+        <FormControl>
+          <Input v-bind="componentField" type="number" placeholder="Order" />
         </FormControl>
         <FormMessage />
       </FormItem>

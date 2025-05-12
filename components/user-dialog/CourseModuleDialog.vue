@@ -25,6 +25,7 @@ const moduleSchema = z.object({
     .max(500, 'Description cannot exceed 500 characters')
     .optional()
     .nullable(),
+  order: z.number(),
 })
 
 const form = useForm({
@@ -34,6 +35,7 @@ const form = useForm({
     : {
         name: '',
         description: '',
+        order: 0,
       },
 })
 
@@ -76,7 +78,6 @@ const onSubmit = form.handleSubmit(
           <Input
             v-bind="componentField"
             placeholder="e.g., Introduction to Salsa"
-            required
           />
         </FormControl>
         <FormMessage />
@@ -92,6 +93,16 @@ const onSubmit = form.handleSubmit(
             placeholder="Briefly describe the content of this module."
             rows="3"
           />
+        </FormControl>
+        <FormMessage />
+      </FormItem>
+    </FormField>
+
+    <FormField v-slot="{ componentField }" name="order">
+      <FormItem>
+        <FormLabel>Order</FormLabel>
+        <FormControl>
+          <Input v-bind="componentField" type="number" placeholder="Order" />
         </FormControl>
         <FormMessage />
       </FormItem>

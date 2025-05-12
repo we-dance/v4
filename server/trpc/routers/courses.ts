@@ -223,7 +223,9 @@ export const coursesRouter = router({
           },
           modules: {
             include: {
-              lessons: true,
+              lessons: {
+                orderBy: { order: 'asc' },
+              },
             },
             orderBy: { order: 'asc' },
           },
@@ -387,14 +389,15 @@ export const coursesRouter = router({
         moduleId: z.string().optional(),
         name: z.string(),
         description: z.string().optional().nullable(),
+        order: z.number(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { courseId, moduleId, name, description } = input
+      const { courseId, moduleId, name, description, order } = input
 
       if (!moduleId) {
         const module = await prisma.courseModule.create({
-          data: { name, description, courseId, order: 0 },
+          data: { name, description, courseId, order },
         })
 
         return module
@@ -402,7 +405,7 @@ export const coursesRouter = router({
 
       const module = await prisma.courseModule.update({
         where: { id: moduleId },
-        data: { name, description },
+        data: { name, description, order },
       })
 
       return module
@@ -441,6 +444,7 @@ export const coursesRouter = router({
             moduleId,
             videoId: data.videoId || '',
             fileUrl: data.fileUrl || '',
+            order: data.order || 0,
           },
         })
 
@@ -462,45 +466,6 @@ export const coursesRouter = router({
 
       await prisma.courseLesson.delete({
         where: { id: lessonId },
-      })
-    }),
-
-  updateResource: publicProcedure
-    .input(
-      z.object({
-        courseId: z.string(),
-        resourceId: z.string().optional(),
-        name: z.string(),
-        description: z.string(),
-        url: z.string(),
-        locked: z.boolean().optional(),
-      })
-    )
-    .mutation(async ({ ctx, input }) => {
-      const { courseId, resourceId, ...data } = input
-
-      if (!resourceId) {
-        const resource = await prisma.courseResource.create({
-          data: { ...data, courseId, locked: data.locked ?? false },
-        })
-        return resource
-      }
-
-      const resource = await prisma.courseResource.update({
-        where: { id: resourceId },
-        data,
-      })
-
-      return resource
-    }),
-
-  deleteResource: publicProcedure
-    .input(z.object({ resourceId: z.string() }))
-    .mutation(async ({ ctx, input }) => {
-      const { resourceId } = input
-
-      await prisma.courseResource.delete({
-        where: { id: resourceId },
       })
     }),
 
