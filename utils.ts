@@ -59,3 +59,7 @@ export const getDay = (val, locale) => {
 export const getDate = (val, locale) => {
   return formatDate(val, 'd MMM', locale)
 }
+
+export const getTime = (val, locale) => {
+  return formatDate(val, 'HH:mm', locale)
+}

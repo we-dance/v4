@@ -4,23 +4,16 @@ const { $client } = useNuxtApp()
 
 const searchQuery = ref('')
 
-const {
-  isPending,
-  isFetching,
-  isError,
-  data,
-  error,
-  fetchNextPage,
-  hasNextPage,
-} = useInfiniteQuery({
-  queryKey: ['artists', searchQuery],
-  queryFn: ({ pageParam = 1 }) =>
-    $client.profiles.artists.query({
-      query: searchQuery.value,
-      page: pageParam,
-    }),
-  getNextPageParam: (lastPage, pages) => lastPage.nextPage,
-})
+const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
+  useInfiniteQuery({
+    queryKey: ['artists', searchQuery],
+    queryFn: ({ pageParam = 1 }) =>
+      $client.profiles.artists.query({
+        query: searchQuery.value,
+        page: pageParam,
+      }),
+    getNextPageParam: (lastPage, pages) => lastPage.nextPage,
+  })
 
 const artists = computed(
   () => data.value?.pages.flatMap((page) => page.artists) ?? []

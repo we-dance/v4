@@ -31,6 +31,10 @@ export default {
       },
     },
     extend: {
+      gridTemplateColumns: {
+        layout: 'auto 1fr auto',
+        event: '1fr auto',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

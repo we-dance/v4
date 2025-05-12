@@ -35,6 +35,7 @@ const onSelect = (city: { id: string; name: string }) => {
       <Button
         v-bind="$attrs"
         role="combobox"
+        variant="secondary"
         :aria-expanded="open"
         class="gap-2"
       >

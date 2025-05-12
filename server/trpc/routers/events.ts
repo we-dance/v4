@@ -7,50 +7,54 @@ export const eventsRouter = router({
   getAll: publicProcedure
     .input(
       z.object({
-        type: z.string().optional(),
-        // status: z.enum(['upcoming', 'ongoing', 'past']).optional(),
-        limit: z.number().min(1).max(100).optional().default(10),
-        cursor: z.string().optional(),
-        description: z.string().optional().default(''),
-        startDate: z.string().optional(),
-        endDate: z.string().optional(),
-        published: z.boolean().optional().default(false),
-        cover: z.string().optional().default(''),
-        price: z.string().optional(),
+        query: z.string().optional(),
+        city: z.string().optional(),
+        community: z.number().optional(),
       })
     )
     .query(async ({ ctx, input }) => {
-      try {
-        const events = await prisma.event.findMany({
-          take: input.limit,
-          skip: input.cursor ? 1 : 0,
-          cursor: input.cursor ? { id: input.cursor } : undefined,
-          orderBy: { startDate: 'asc' },
-          include: {
-            venue: true,
-            styles: true,
-            organizer: true,
-            creator: true,
+      const events = await prisma.event.findMany({
+        take: 100,
+        orderBy: { startDate: 'asc' },
+        where: {
+          startDate: {
+            gte: new Date(),
           },
-        })
+          venue: {
+            cityId: input.city ?? undefined,
+          },
+          styles: {
+            some: {
+              id: input.community ?? undefined,
+            },
+          },
+          OR: [
+            {
+              name: {
+                contains: input.query,
+                mode: 'insensitive',
+              },
+            },
+            {
+              description: {
+                contains: input.query,
+                mode: 'insensitive',
+              },
+            },
+          ],
+        },
+        include: {
+          venue: {
+            include: {
+              city: true,
+            },
+          },
+          organizer: true,
+        },
+      })
 
-        // Determine the next cursor for pagination
-        let nextCursor: string | undefined = undefined
-        if (events.length === input.limit) {
-          nextCursor = events[events.length - 1].id
-        }
-
-        return {
-          items: events,
-          nextCursor,
-        }
-      } catch (error) {
-        console.error('Error in getAll events:', error)
-        throw new TRPCError({
-          code: 'INTERNAL_SERVER_ERROR',
-          message: 'Failed to fetch events',
-          cause: error,
-        })
+      return {
+        events,
       }
     }),
 
