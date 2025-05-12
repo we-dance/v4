@@ -106,7 +106,7 @@ const handleViewPricing = () => {
             @select-lesson="handleSelectLesson"
           />
           <CourseMaterials
-            v-if="course.materials?.length"
+            v-if="course.resources?.length"
             :course="course"
             :is-unlocked="isUnlocked"
           />

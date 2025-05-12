@@ -24,7 +24,7 @@ const isModuleOpen = (module: any) => {
     return true
   }
 
-  return module.startsAt && module.startsAt > new Date()
+  return module.startsAt && new Date(module.startsAt) < new Date()
 }
 
 const isLessonLocked = (lesson: any) => {
