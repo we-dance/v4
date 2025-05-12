@@ -13,7 +13,7 @@ const dialog = useDialog()
 
 const schema = z.object({
   name: z.string().min(1, 'Name is required'),
-  description: z.string().min(1, 'Description is required'),
+  description: z.string().optional(),
   url: z.string().min(1, 'URL is required'),
   locked: z.boolean().default(false),
 })
@@ -66,11 +66,7 @@ const onSubmit = form.handleSubmit(
       <FormItem>
         <FormLabel>Resource Name</FormLabel>
         <FormControl>
-          <Input
-            v-bind="componentField"
-            placeholder="e.g., Course Workbook"
-            required
-          />
+          <Input v-bind="componentField" placeholder="e.g., Course Workbook" />
         </FormControl>
         <FormMessage />
       </FormItem>
@@ -84,7 +80,6 @@ const onSubmit = form.handleSubmit(
             v-bind="componentField"
             placeholder="Describe this resource"
             rows="3"
-            required
           />
         </FormControl>
         <FormMessage />
@@ -98,7 +93,6 @@ const onSubmit = form.handleSubmit(
           <Input
             v-bind="componentField"
             placeholder="https://example.com/resource"
-            required
           />
         </FormControl>
         <FormMessage />
