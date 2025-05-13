@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Prisma } from '@prisma/client'
+import type { Prisma } from '@prisma/client'
 import { getTime } from '~/utils'
 
 type EventDetails = Prisma.EventGetPayload<{
