@@ -10,6 +10,7 @@ export const eventsRouter = router({
         query: z.string().optional(),
         city: z.string().optional(),
         community: z.number().optional(),
+        startDate: z.string().optional().nullable(),
       })
     )
     .query(async ({ ctx, input }) => {
@@ -18,7 +19,7 @@ export const eventsRouter = router({
         orderBy: { startDate: 'asc' },
         where: {
           startDate: {
-            gte: new Date(),
+            gte: input.startDate ? new Date(input.startDate) : new Date(),
           },
           venue: {
             cityId: input.city ?? undefined,

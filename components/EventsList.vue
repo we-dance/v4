@@ -6,15 +6,17 @@ const searchQuery = ref('')
 const city = ref(null)
 const community = ref(null)
 const view = ref('list')
+const startDate = ref(null)
 
 const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
-    queryKey: ['events', searchQuery, city, community],
+    queryKey: ['events', searchQuery, city, community, startDate],
     queryFn: ({ pageParam = 1 }) =>
       $client.events.getAll.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
+        startDate: startDate.value,
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   })
@@ -30,6 +32,18 @@ useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
     fetchNextPage()
   }
 })
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  })
+}
+
+const selectDate = (date) => {
+  startDate.value = date
+  scrollToTop()
+}
 </script>
 
 <template>
@@ -72,7 +86,7 @@ useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
 
   <template v-if="events.length > 0">
     <EventMasonryGrid v-if="view === 'masonry'" :events="events" />
-    <EventSchedule v-else :events="events" />
+    <EventSchedule v-else :events="events" @select-date="selectDate" />
   </template>
 
   <div

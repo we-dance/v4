@@ -16,7 +16,6 @@ const props = withDefaults(
     isEmbed?: boolean
     showRole?: boolean
     showOrganizer?: boolean
-    side: 'date' | 'time'
   }>(),
   {
     isEmbed: false,

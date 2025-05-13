@@ -1,6 +1,6 @@
-import { format } from 'date-fns'
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
+import { format, isToday, isTomorrow } from 'date-fns'
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -56,8 +56,12 @@ export const getDay = (val, locale) => {
   return formatDate(val, 'iiii', locale)
 }
 
-export const getDate = (val, locale) => {
-  return formatDate(val, 'd MMM', locale)
+export const getDate = (val: any, locale?: string): string => {
+  const date = getDateObect(val)
+  if (!date) return ''
+  if (isToday(date)) return 'Today'
+  if (isTomorrow(date)) return 'Tomorrow'
+  return formatDate(date, 'd MMM', locale)
 }
 
 export const getTime = (val, locale) => {
