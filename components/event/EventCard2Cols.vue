@@ -29,7 +29,7 @@ const props = withDefaults(
 
 <template>
   <NuxtLink
-    :to="`/e/${event.slug}-${event.shortId}`"
+    :to="`/events/${event.id}`"
     :target="isEmbed ? '_blank' : '_self'"
     class="bg-background border-solid border-2 border-background hover:border-gray-200 grid grid-cols-event p-4 gap-2 overflow-hidden whitespace-nowrap"
   >
