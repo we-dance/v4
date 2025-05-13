@@ -1,5 +1,6 @@
 <script setup>
 import { getYmd, getDate, getDay } from '~/utils'
+import { parseDate } from '@internationalized/date'
 
 const props = defineProps({
   events: Array,
@@ -54,7 +55,8 @@ const select = (day) => {
               <PopoverContent>
                 <Calendar
                   mode="single"
-                  :selected="date"
+                  :modelValue="parseDate(date)"
+                  :numberOfMonths="1"
                   @update:model-value="select"
                 />
               </PopoverContent>

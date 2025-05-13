@@ -2,6 +2,7 @@ import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
+import { addDays } from 'date-fns'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -14,12 +15,18 @@ export const eventsRouter = router({
       })
     )
     .query(async ({ ctx, input }) => {
+      const baseDate = input.startDate ? new Date(input.startDate) : new Date()
+      const startOfDay = new Date(baseDate)
+      startOfDay.setHours(0, 0, 0, 0)
+      const endOfDay = new Date(baseDate)
+      endOfDay.setHours(23, 59, 59, 999)
+
       const events = await prisma.event.findMany({
-        take: 100,
         orderBy: { startDate: 'asc' },
         where: {
           startDate: {
-            gte: input.startDate ? new Date(input.startDate) : new Date(),
+            gte: startOfDay,
+            lte: endOfDay,
           },
           venue: {
             cityId: input.city ?? undefined,
@@ -54,7 +61,11 @@ export const eventsRouter = router({
         },
       })
 
+      const nextDate = addDays(startOfDay, 2)
+      const nextPage = nextDate.toISOString().slice(0, 10)
+
       return {
+        nextPage,
         events,
       }
     }),

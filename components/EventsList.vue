@@ -11,12 +11,12 @@ const startDate = ref(null)
 const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
     queryKey: ['events', searchQuery, city, community, startDate],
-    queryFn: ({ pageParam = 1 }) =>
+    queryFn: ({ pageParam = startDate.value }) =>
       $client.events.getAll.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
-        startDate: startDate.value,
+        startDate: pageParam,
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   })
