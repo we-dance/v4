@@ -7,16 +7,18 @@ const city = ref(null)
 const community = ref(null)
 const view = ref('list')
 const startDate = ref(null)
+const type = ref('all')
 
 const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
-    queryKey: ['events', searchQuery, city, community, startDate],
+    queryKey: ['events', searchQuery, city, community, startDate, type],
     queryFn: ({ pageParam = startDate.value }) =>
       $client.events.getAll.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
         startDate: pageParam,
+        type: type.value,
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   })
@@ -65,6 +67,20 @@ const selectDate = (date) => {
         class="w-auto"
         placeholder="Dance Style"
       />
+      <Select v-model="type">
+        <SelectTrigger>
+          <SelectValue placeholder="Type" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectGroup>
+            <SelectItem value="all"> All Types </SelectItem>
+            <SelectItem value="Party"> Party </SelectItem>
+            <SelectItem value="Class"> Class </SelectItem>
+            <SelectItem value="Festival"> Festival </SelectItem>
+            <SelectItem value="Concert"> Concert </SelectItem>
+          </SelectGroup>
+        </SelectContent>
+      </Select>
       <ToggleGroup type="single" v-model="view">
         <ToggleGroupItem value="masonry">
           <Icon name="ph:grid-four" class="w-4 h-4" />

@@ -12,6 +12,7 @@ export const eventsRouter = router({
         city: z.string().optional(),
         community: z.number().optional(),
         startDate: z.string().optional().nullable(),
+        type: z.string().optional().nullable(),
       })
     )
     .query(async ({ ctx, input }) => {
@@ -36,6 +37,7 @@ export const eventsRouter = router({
               id: input.community ?? undefined,
             },
           },
+          type: input.type === 'all' ? undefined : input.type,
           OR: [
             {
               name: {
