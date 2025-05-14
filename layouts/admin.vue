@@ -3,6 +3,11 @@ const route = useRoute()
 
 const items = [
   {
+    to: '/admin/events',
+    label: 'Events',
+    icon: 'lucide:calendar',
+  },
+  {
     to: '/admin/courses',
     label: 'Courses',
     icon: 'lucide:book-open',

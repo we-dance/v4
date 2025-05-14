@@ -3,6 +3,8 @@ import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { addDays } from 'date-fns'
+import { nanoid } from 'nanoid'
+import { getSlug } from '~/utils/slug'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -72,6 +74,40 @@ export const eventsRouter = router({
       }
     }),
 
+  myList: publicProcedure
+    .input(z.object({ query: z.string().optional() }))
+    .query(async ({ ctx, input }) => {
+      const events = await prisma.event.findMany({
+        where: {
+          organizerId: ctx.session?.user.id,
+          OR: [
+            {
+              name: {
+                contains: input.query,
+                mode: 'insensitive',
+              },
+            },
+            {
+              description: {
+                contains: input.query,
+                mode: 'insensitive',
+              },
+            },
+          ],
+        },
+        include: {
+          venue: {
+            include: {
+              city: true,
+            },
+          },
+          organizer: true,
+        },
+      })
+
+      return { events }
+    }),
+
   // Add byId procedure
   byId: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
     try {
@@ -107,4 +143,53 @@ export const eventsRouter = router({
       })
     }
   }),
+
+  update: publicProcedure
+    .input(
+      z.object({
+        id: z.string(),
+        name: z.string().min(1),
+        description: z.string().optional(),
+        cover: z.string().optional(),
+        status: z.string().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { id, ...data } = input
+      const event = await prisma.event.update({
+        where: { id },
+        data,
+      })
+      return event
+    }),
+  create: publicProcedure
+    .input(
+      z.object({
+        name: z.string(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { name } = input
+      const slug = getSlug(name)
+      const event = await prisma.event.create({
+        data: {
+          name,
+          slug,
+          shortId: nanoid(5),
+          creatorId: ctx.session?.profile?.id,
+          organizerId: ctx.session?.profile?.id,
+          status: 'draft',
+        },
+      })
+      return event
+    }),
+  delete: publicProcedure
+    .input(z.object({ id: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { id } = input
+      const event = await prisma.event.delete({
+        where: { id },
+      })
+      return event
+    }),
 })
