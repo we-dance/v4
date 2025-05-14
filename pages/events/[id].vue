@@ -47,7 +47,6 @@ const formatTime = (dateString) => {
   }
 }
 
-// Display date range
 const dateRangeDisplay = computed(() => {
   if (!event.value) return ''
 
@@ -68,13 +67,11 @@ const dateRangeDisplay = computed(() => {
     : `${startDisplay} - ${endDisplay}`
 })
 
-// Get venue display
 const venueDisplay = computed(() => {
   if (!event.value?.venue) return 'Location not specified'
   return event.value.venue.name
 })
 
-// Get availability status
 const availability = computed(() => {
   if (!event.value) return null
   const capacity = event.value.capacity || 100 // Default capacity if not specified
@@ -85,7 +82,6 @@ const availability = computed(() => {
   return 'available'
 })
 
-// Action handlers
 const handleGoing = () => {
   isGoing.value = !isGoing.value
   // Add your logic to update the guest list
@@ -104,28 +100,14 @@ const fetchEvent = async () => {
   try {
     const id = route.params.id
     const response = await $client.events.byId.query(id)
-    console.log('Event details:', response)
     event.value = response
   } catch (e) {
-    console.error('API error:', e)
     error.value = e?.message || 'Failed to load event'
   } finally {
     loading.value = false
   }
 }
 
-// Markdown renderer for description
-const renderedDescription = computed(() => {
-  if (!event.value?.description) return ''
-
-  // Very basic markdown rendering for demonstration
-  // In a real app, you'd use a proper markdown library
-  return event.value.description
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/\n/g, '<br>')
-})
-
-// Fetch event data on component mount
 onMounted(() => {
   fetchEvent()
 })
@@ -277,7 +259,7 @@ onMounted(() => {
           <!-- Description -->
           <div class="rounded-xl shadow-sm p-6">
             <h2 class="text-2xl font-bold mb-4">About this event</h2>
-            <div class="prose max-w-none" v-html="renderedDescription"></div>
+            <TPreview :content="event.description" />
           </div>
 
           <!-- Schedule -->
@@ -322,10 +304,8 @@ onMounted(() => {
             <div class="space-y-4">
               <div v-if="event.organizer" class="flex items-center gap-4">
                 <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
-                  <img
-                    v-if="event.organizer.avatarUrl"
-                    :src="event.organizer.avatarUrl"
-                    :alt="event.organizer.name"
+                  <Avatar
+                    :profile="event.organizer"
                     class="w-full h-full object-cover"
                   />
                 </div>
@@ -361,14 +341,6 @@ onMounted(() => {
           <!-- Guests section -->
           <div class="rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Guests</h3>
-            <Button
-              class="w-full mb-6"
-              variant="secondary"
-              @click="handleGoing"
-            >
-              <Icon name="ph:users" class="w-5 h-5 mr-2" />
-              {{ isGoing ? 'Leave Guest List' : 'Join Guest List' }}
-            </Button>
 
             <div v-if="event.guests?.length" class="space-y-3">
               <div
@@ -428,16 +400,6 @@ onMounted(() => {
                   </div>
                 </div>
               </div>
-
-              <!-- Map placeholder -->
-              <div class="aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden">
-                <img
-                  v-if="event.venue.mapUrl"
-                  :src="event.venue.mapUrl"
-                  alt="Map"
-                  class="w-full h-full object-cover"
-                />
-              </div>
             </div>
           </div>
 
@@ -478,20 +440,3 @@ onMounted(() => {
     </div>
   </div>
 </template>
-
-<style>
-.prose {
-  max-width: 65ch;
-  line-height: 1.6;
-}
-
-.prose strong {
-  font-weight: 600;
-  color: #111827;
-}
-
-.prose p {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-}
-</style>
