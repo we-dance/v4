@@ -44,7 +44,7 @@ const emit = defineEmits(['load'])
     </ResizablePanel>
     <ResizableHandle with-handle />
     <ResizablePanel :default-size="655">
-      <!-- <EventView :event="event" /> -->
+      <EventView :event="event" />
     </ResizablePanel>
   </ResizablePanelGroup>
 </template>
