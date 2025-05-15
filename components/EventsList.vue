@@ -98,7 +98,7 @@ const selectDate = (date) => {
     </Button>
   </div>
 
-  <ErrorMessage v-if="isError" :error="error" />
+  <ErrorMessage v-if="isError" :message="error" />
 
   <template v-if="events.length > 0">
     <EventMasonryGrid v-if="view === 'masonry'" :events="events" />

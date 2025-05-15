@@ -37,7 +37,7 @@ useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
     class="w-full"
   />
 
-  <ErrorMessage v-if="isError" :error="error" />
+  <ErrorMessage v-if="isError" :message="error" />
 
   <div
     v-else-if="artists.length > 0"

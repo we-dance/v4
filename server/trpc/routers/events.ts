@@ -102,46 +102,71 @@ export const eventsRouter = router({
             },
           },
           organizer: true,
+          _count: {
+            select: {
+              guests: true,
+            },
+          },
         },
       })
 
       return { events }
     }),
 
-  // Add byId procedure
   byId: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
-    try {
-      const event = await prisma.event.findUnique({
-        where: { id: input },
-        include: {
-          venue: true,
-          styles: true,
-          organizer: true,
-          creator: true,
-          guests: {
-            include: {
-              profile: true,
+    const event = await prisma.event.findUnique({
+      where: { id: input },
+      include: {
+        venue: true,
+        styles: true,
+        organizer: true,
+        creator: true,
+        guests: {
+          include: {
+            profile: true,
+          },
+        },
+      },
+    })
+
+    if (!event) {
+      throw new TRPCError({
+        code: 'NOT_FOUND',
+        message: 'Event not found',
+      })
+    }
+
+    return event
+  }),
+
+  guests: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
+    const event = await prisma.event.findUnique({
+      where: { id: input },
+      include: {
+        venue: true,
+        styles: true,
+        organizer: true,
+        creator: true,
+        guests: {
+          include: {
+            profile: {
+              include: {
+                user: true,
+              },
             },
           },
         },
-      })
+      },
+    })
 
-      if (!event) {
-        throw new TRPCError({
-          code: 'NOT_FOUND',
-          message: `No event found with id: ${input}`,
-        })
-      }
-
-      return event
-    } catch (error) {
-      console.error('Error in event byId:', error)
+    if (!event) {
       throw new TRPCError({
-        code: 'INTERNAL_SERVER_ERROR',
-        message: 'Failed to fetch event',
-        cause: error,
+        code: 'NOT_FOUND',
+        message: 'Event not found',
       })
     }
+
+    return event
   }),
 
   update: publicProcedure

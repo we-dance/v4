@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { toast } from 'vue-sonner'
-import type { ColumnDef } from '@tanstack/vue-table'
-import { FlexRender, getCoreRowModel, useVueTable } from '@tanstack/vue-table'
+import { getDateTime } from '~/utils'
 
 definePageMeta({
   layout: 'admin',
@@ -11,77 +9,48 @@ definePageMeta({
 const route = useRoute()
 const { $client } = useNuxtApp()
 
-const course = ref<any>(null)
-const loading = ref(true)
-
-const loadCourse = async () => {
-  try {
-    loading.value = true
-    const result = await $client.courses.admin.query({
-      slug: route.params.slug as string,
-    })
-    course.value = result
-  } catch (error) {
-    toast.error((error as Error).message)
-  } finally {
-    loading.value = false
-  }
-}
-
-await loadCourse()
-
-const data = computed(() => {
-  const members = []
-
-  for (const offer of course.value.offers) {
-    for (const subscription of offer.subscriptions) {
-      members.push({ ...subscription.user, subscription, offer })
-    }
-  }
-
-  return members
+const {
+  data: event,
+  refetch,
+  isLoading,
+  isError,
+  error,
+} = useQuery<any>({
+  queryKey: ['events.byId', route.params.id],
+  queryFn: () => $client.events.guests.query(route.params.id as string),
+  retry: false,
 })
 
-const columns: ColumnDef<any>[] = [
+const columns = [
   {
-    header: 'First Name',
-    accessorKey: 'firstName',
+    header: 'Created At',
+    accessorKey: 'createdAt',
+    cell: ({ row }) => {
+      const guest = row.original
+      return getDateTime(guest.createdAt)
+    },
   },
   {
-    header: 'Last Name',
-    accessorKey: 'lastName',
+    header: 'Role',
+    accessorKey: 'role',
+  },
+  {
+    header: 'Status',
+    accessorKey: 'status',
   },
   {
     header: 'Username',
     accessorKey: 'profile.username',
   },
   {
-    header: 'Email',
-    accessorKey: 'email',
+    header: 'First Name',
+    accessorKey: 'profile.user.firstName',
   },
   {
-    header: 'Phone',
-    accessorKey: 'phone',
-  },
-  {
-    header: 'Offer',
-    accessorKey: 'offer.name',
-  },
-  {
-    header: 'Status',
-    accessorKey: 'subscription.status',
-  },
-  {
-    header: 'Created At',
-    accessorKey: 'subscription.createdAt',
+    header: 'Last Name',
+    accessorKey: 'profile.user.lastName',
   },
 ]
-
-const table = useVueTable({
-  data,
-  columns,
-  getCoreRowModel: getCoreRowModel(),
-})
 </script>
 
 <template>
@@ -92,67 +61,27 @@ const table = useVueTable({
       <BreadcrumbList>
         <BreadcrumbItem class="hidden md:block">
           <BreadcrumbLink as-child>
-            <NuxtLink to="/admin/courses"> Manage Courses </NuxtLink>
+            <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
           </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator class="hidden md:block" />
         <BreadcrumbItem>
-          <BreadcrumbPage>{{ course?.name }}</BreadcrumbPage>
+          <BreadcrumbPage>{{ event?.name }}</BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
     <div class="flex-1" />
     <Button variant="ghost" as-child>
-      <NuxtLink :to="`/admin/courses/${course?.slug}/edit`">
+      <NuxtLink :to="`/admin/events/${event?.id}/edit`">
         <Icon name="lucide:pencil" class="w-4 h-4" />
         Edit
       </NuxtLink>
     </Button>
   </header>
 
-  <div class="w-full space-y-6 p-4 mx-auto">
-    <div class="rounded-md border">
-      <Table>
-        <TableHeader>
-          <TableRow
-            v-for="headerGroup in table.getHeaderGroups()"
-            :key="headerGroup.id"
-          >
-            <TableHead v-for="header in headerGroup.headers" :key="header.id">
-              <FlexRender
-                v-if="!header.isPlaceholder"
-                :render="header.column.columnDef.header"
-                :props="header.getContext()"
-              />
-            </TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          <template v-if="table.getRowModel().rows?.length">
-            <template v-for="row in table.getRowModel().rows" :key="row.id">
-              <TableRow :data-state="row.getIsSelected() && 'selected'">
-                <TableCell v-for="cell in row.getVisibleCells()" :key="cell.id">
-                  <FlexRender
-                    :render="cell.column.columnDef.cell"
-                    :props="cell.getContext()"
-                  />
-                </TableCell>
-              </TableRow>
-              <TableRow v-if="row.getIsExpanded()">
-                <TableCell :colspan="row.getAllCells().length">
-                  {{ JSON.stringify(row.original) }}
-                </TableCell>
-              </TableRow>
-            </template>
-          </template>
-
-          <TableRow v-else>
-            <TableCell :colspan="columns.length" class="h-24 text-center">
-              No results.
-            </TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
-    </div>
+  <Loader v-if="isLoading" />
+  <ErrorMessage v-else-if="isError" :message="error?.message" />
+  <div v-else class="container py-6 space-y-6">
+    <AdminTable :data="event?.guests" :columns="columns" />
   </div>
 </template>

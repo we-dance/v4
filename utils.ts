@@ -56,7 +56,7 @@ export const getDay = (val, locale) => {
   return formatDate(val, 'iiii', locale)
 }
 
-export const getDateTime = (val, locale) => {
+export const getDateTime = (val: any, locale = 'en') => {
   return formatDate(val, 'dd MMM yyyy, HH:mm', locale)
 }
 

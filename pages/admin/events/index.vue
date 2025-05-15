@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import type { ColumnDef } from '@tanstack/vue-table'
+import EventActions from '~/components/event/EventActions.vue'
 import { getDateTime } from '~/utils'
+import { NuxtLink } from '#components'
 
 definePageMeta({
   layout: 'admin',
@@ -8,31 +11,78 @@ definePageMeta({
 
 const { $client } = useNuxtApp()
 
-const events = ref<any[]>([])
 const searchQuery = ref('')
+const { data, refetch, isLoading, isError, error } = useQuery<any>({
+  queryKey: ['events.myList', searchQuery],
+  queryFn: () => $client.events.myList.query({ query: searchQuery.value }),
+  retry: false,
+})
 
-const getEvents = async () => {
-  const result = await $client.events.myList.query({
-    query: searchQuery.value,
-  })
-  events.value = result.events
-}
-
-await getEvents()
-
-watch(searchQuery, getEvents)
+const events = computed(() => data.value?.events ?? [])
 
 const dialog = useDialog()
 const handleCreateEvent = () => {
   dialog.open({
     component: 'EventCreateDialog',
     props: {
-      onSuccess: async () => {
-        await getEvents()
-      },
+      onSuccess: () => refetch(),
     },
   })
 }
+
+const columns: ColumnDef<any>[] = [
+  {
+    header: 'Date',
+    accessorKey: 'startDate',
+    cell: ({ row }) => {
+      const event = row.original
+      if (!event?.startDate) return ''
+      return getDateTime(event?.startDate)
+    },
+  },
+  {
+    header: 'Name',
+    accessorKey: 'name',
+    cell: ({ row }) => {
+      const event = row.original
+      return h(
+        NuxtLink,
+        {
+          to: `/admin/events/${event?.id}/edit`,
+          class: 'text-blue-500 underline hover:no-underline',
+        },
+        event?.name
+      )
+    },
+  },
+  {
+    header: 'Guests',
+    accessorKey: '_count.guests',
+    cell: ({ row }) => {
+      const event = row.original
+      return h(
+        NuxtLink,
+        {
+          to: `/admin/events/${event?.id}/`,
+          class: 'text-blue-500 underline hover:no-underline',
+        },
+        event?._count?.guests
+      )
+    },
+  },
+  {
+    header: 'Status',
+    accessorKey: 'status',
+  },
+  {
+    header: 'Actions',
+    accessorKey: 'actions',
+    cell: ({ row }) => {
+      const event = row.original
+      return h(EventActions, { event })
+    },
+  },
+]
 </script>
 
 <template>
@@ -47,51 +97,14 @@ const handleCreateEvent = () => {
       </BreadcrumbList>
     </Breadcrumb>
   </header>
-  <div class="container py-6 space-y-6">
+
+  <ErrorMessage v-if="isError" :message="error?.message" />
+  <Loader v-else-if="isLoading" />
+  <div v-else class="container py-6 space-y-6">
     <div class="flex items-center gap-2">
       <Input v-model="searchQuery" placeholder="Search events..." />
       <Button @click="handleCreateEvent"> Create Event </Button>
     </div>
-
-    <div class="relative w-full overflow-auto">
-      <Table class="w-full">
-        <TableHeader>
-          <TableRow>
-            <TableHead> Date </TableHead>
-            <TableHead> Name </TableHead>
-            <TableHead> Venue </TableHead>
-            <TableHead> Status </TableHead>
-            <TableHead> Actions </TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          <TableRow
-            v-for="event in events"
-            :key="event.id"
-            class="hover:bg-muted"
-          >
-            <TableCell> {{ getDateTime(event.startDate) }} </TableCell>
-            <TableCell class="font-medium"> {{ event.name }} </TableCell>
-            <TableCell> {{ event.venue?.name }} </TableCell>
-            <TableCell> {{ event.status }} </TableCell>
-            <TableCell class="text-right flex gap-2">
-              <Button variant="outline" size="icon" as-child>
-                <NuxtLink :to="`/events/${event.id}`">
-                  <Icon name="ph:eye" />
-                </NuxtLink>
-              </Button>
-              <Button variant="outline" size="icon" as-child>
-                <NuxtLink :to="`/admin/events/${event.id}/edit`">
-                  <Icon name="ph:pencil" />
-                </NuxtLink>
-              </Button>
-              <Button variant="outline" size="icon">
-                <Icon name="ph:trash" />
-              </Button>
-            </TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
-    </div>
+    <AdminTable :data="events" :columns="columns" />
   </div>
 </template>
