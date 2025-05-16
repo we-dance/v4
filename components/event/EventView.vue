@@ -205,20 +205,14 @@ const handleBook = () => {
 
               <!-- Right: Image -->
               <div
+                v-if="event.cover"
                 class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
               >
                 <img
-                  v-if="event.cover"
                   :src="event.cover"
                   :alt="event.name"
                   class="w-full h-full object-cover"
                 />
-                <div
-                  v-else
-                  class="w-full h-full bg-gray-200 flex items-center justify-center"
-                >
-                  <span class="text-gray-400">No image available</span>
-                </div>
               </div>
             </div>
           </div>
@@ -363,41 +357,21 @@ const handleBook = () => {
           <div v-if="event.venue" class="rounded-xl shadow-sm p-6">
             <h3 class="text-lg font-bold mb-4">Location</h3>
             <div class="space-y-4">
-              <div class="flex items-start gap-3">
-                <Icon
-                  name="ph:map-pin"
-                  class="w-5 h-5 text-blue-600 flex-shrink-0 mt-1"
-                />
-                <div>
-                  <div class="font-medium">{{ event.venue.name }}</div>
-                  <div class="text-gray-500">
-                    {{ event.venue.address }}
-                    <div v-if="event.venue.city">
-                      {{ event.venue.city }}, {{ event.venue.country }}
+              <a :href="event.venue.mapUrl" target="_blank">
+                <div class="flex items-start gap-3">
+                  <Icon
+                    name="ph:map-pin"
+                    class="w-5 h-5 text-blue-600 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <div class="font-medium">{{ event.venue.name }}</div>
+                    <div class="text-gray-500">
+                      {{ event.venue.formattedAddress }}
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
-          </div>
-
-          <!-- Price Details -->
-          <div v-if="event.price" class="rounded-xl shadow-sm p-6">
-            <h3 class="text-lg font-bold mb-4">Pricing</h3>
-            <div class="flex items-center justify-between mb-6 p-3 rounded-lg">
-              <div>
-                <div class="font-medium">Standard Ticket</div>
-                <div v-if="event.type" class="text-sm text-gray-500">
-                  {{ event.type }}
-                </div>
-              </div>
-              <div class="font-bold text-lg">{{ event.price }}</div>
-            </div>
-
-            <Button class="w-full" variant="primary" @click="handleBook">
-              <Icon name="ph:ticket" class="w-5 h-5 mr-2" />
-              Book Now
-            </Button>
           </div>
         </div>
       </div>

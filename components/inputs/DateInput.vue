@@ -104,6 +104,7 @@ const mm = computed({
       <PopoverContent>
         <Calendar
           mode="single"
+          weekStartsOn="1"
           v-model="internalValue"
           :is-date-unavailable="isDateUnavailable"
         />

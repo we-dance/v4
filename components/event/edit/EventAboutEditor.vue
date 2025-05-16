@@ -29,6 +29,7 @@ const schema = z.object({
   status: statusSchema,
   startDate: z.string().optional(),
   endDate: z.string().optional(),
+  type: z.string().optional().default('Party'),
   venue: z
     .object({
       id: z.string().optional(),
@@ -124,6 +125,31 @@ const updateVenue = (v: any) => {
               </SelectItem>
             </SelectContent>
           </Select>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField v-slot="{ componentField }" name="type">
+        <FormItem>
+          <FormLabel>Type</FormLabel>
+          <FormControl>
+            <Select v-bind="componentField">
+              <FormControl>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select event type" />
+                </SelectTrigger>
+              </FormControl>
+              <SelectContent>
+                <SelectItem value="Festival">Festival</SelectItem>
+                <SelectItem value="Congress">Congress</SelectItem>
+                <SelectItem value="Concert">Concert</SelectItem>
+                <SelectItem value="Party">Party</SelectItem>
+                <SelectItem value="Workshop">Workshop</SelectItem>
+                <SelectItem value="Course">Course</SelectItem>
+                <SelectItem value="Other">Other</SelectItem>
+              </SelectContent>
+            </Select>
+          </FormControl>
           <FormMessage />
         </FormItem>
       </FormField>
