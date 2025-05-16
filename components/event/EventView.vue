@@ -289,19 +289,23 @@ const handleBook = () => {
                 </div>
               </div>
 
-              <div
-                v-if="event.creator && event.creator.id !== event.organizer?.id"
-                class="flex items-center gap-4"
-              >
-                <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
-                  <Avatar
-                    :profile="event.creator"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
+              <div class="flex items-center gap-4">
                 <div>
-                  <div class="font-bold">{{ event.creator.name }}</div>
-                  <div class="text-sm text-gray-500">Creator</div>
+                  <div class="text-sm">
+                    Added
+                    <template v-if="event.creator">
+                      by
+                      <NuxtLink
+                        :to="`/@${event.creator.username}`"
+                        class="font-bold"
+                        >{{ event.creator.name }}</NuxtLink
+                      >
+                    </template>
+                    on {{ formatDate(event.createdAt) }}
+                  </div>
+                  <div class="text-sm">
+                    Last updated on {{ formatDate(event.updatedAt) }}
+                  </div>
                 </div>
               </div>
             </div>
