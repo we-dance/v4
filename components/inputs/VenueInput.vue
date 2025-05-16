@@ -37,7 +37,6 @@ const { data } = useQuery<any>({
 watch(
   data,
   (newData) => {
-    console.log('newData', newData)
     model.value = newData
   },
   { deep: true }
