@@ -179,16 +179,23 @@ export const eventsRouter = router({
         status: z.string().optional(),
         startDate: z.string().optional(),
         endDate: z.string().optional(),
+        venue: z
+          .object({
+            id: z.string().optional(),
+          })
+          .optional()
+          .nullable(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { id, ...data } = input
+      const { id, venue, ...data } = input
       const event = await prisma.event.update({
         where: { id },
         data: {
           ...data,
           startDate: data.startDate ? new Date(data.startDate) : undefined,
           endDate: data.endDate ? new Date(data.endDate) : undefined,
+          venueId: venue?.id,
         },
       })
       return event

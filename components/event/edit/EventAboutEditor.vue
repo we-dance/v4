@@ -2,7 +2,7 @@
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
 import { z } from 'zod'
-const { event } = defineProps({
+const props = defineProps({
   event: {
     type: Object,
     default: () => ({}),
@@ -29,6 +29,15 @@ const schema = z.object({
   status: statusSchema,
   startDate: z.string().optional(),
   endDate: z.string().optional(),
+  venue: z
+    .object({
+      id: z.string().optional(),
+      name: z.string().optional(),
+      formattedAddress: z.string().optional(),
+      photo: z.string().optional().nullable(),
+    })
+    .optional()
+    .nullable(),
 })
 
 const validationSchema = toTypedSchema(schema)
@@ -37,7 +46,7 @@ const { $client } = useNuxtApp()
 
 const save = async (values: any) => {
   const promise = $client.events.update.mutate({
-    id: event.id,
+    id: props.event.id,
     ...values,
   })
   toast.promise(promise, {
@@ -56,7 +65,7 @@ const alertDialog = useAlertDialog()
 
 const deleteCourse = () => {
   const promise = $client.events.delete.mutate({
-    id: event.id,
+    id: props.event.id,
   })
   toast.promise(promise, {
     loading: 'Deleting event...',
@@ -83,11 +92,15 @@ const askToDelete = () => {
     },
   })
 }
+
+const updateVenue = (v: any) => {
+  console.log('updateVenue', v)
+}
 </script>
 
 <template>
   <Form
-    :initial-values="event"
+    :initial-values="props.event"
     :validation-schema="validationSchema"
     @submit="save"
   >
@@ -150,6 +163,19 @@ const askToDelete = () => {
           <FormLabel>End</FormLabel>
           <FormControl>
             <DateInput v-bind="componentField" :min-date="event.startDate" />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField v-slot="{ value, setValue }" name="venue">
+        <FormItem class="flex flex-col justify-start">
+          <FormLabel>Venue</FormLabel>
+          <FormControl>
+            <VenueInput
+              :model-value="value || event.venue"
+              @update:model-value="(v) => setValue(v)"
+            />
           </FormControl>
           <FormMessage />
         </FormItem>

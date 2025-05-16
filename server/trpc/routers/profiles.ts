@@ -631,4 +631,21 @@ export const profilesRouter = router({
         hasMore: skip + venues.length < totalCount,
       }
     }),
+  findVenueOrCreate: publicProcedure
+    .input(z.object({ placeId: z.string(), googleMapsPlace: z.any() }))
+    .mutation(async ({ input }) => {
+      const { placeId, googleMapsPlace } = input
+
+      const existingVenue = await prisma.profile.findFirst({
+        where: {
+          placeId,
+        },
+      })
+
+      if (existingVenue) {
+        return existingVenue
+      }
+
+      throw new Error('Venue not found')
+    }),
 })
