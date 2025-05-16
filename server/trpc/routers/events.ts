@@ -139,6 +139,31 @@ export const eventsRouter = router({
     return event
   }),
 
+  feed: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
+    const event = await prisma.event.findUnique({
+      where: { id: input },
+      include: {
+        venue: true,
+        styles: true,
+        organizer: true,
+        creator: true,
+        guests: {
+          include: {
+            profile: true,
+          },
+        },
+        posts: {
+          include: {
+            author: true,
+            style: true,
+            city: true,
+          },
+        },
+      },
+    })
+    return event
+  }),
+
   guests: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
     const event = await prisma.event.findUnique({
       where: { id: input },
@@ -235,6 +260,44 @@ export const eventsRouter = router({
       const event = await prisma.event.delete({
         where: { id },
       })
+      return event
+    }),
+  rsvp: publicProcedure
+    .input(
+      z.object({
+        eventId: z.string(),
+        status: z.enum(['registered', 'interested', 'cancelled']),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { eventId, status } = input
+      const profileId = ctx.session?.profile?.id
+
+      if (!profileId) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'You must be logged in to RSVP',
+        })
+      }
+
+      const event = await prisma.guest.upsert({
+        where: {
+          profileId_eventId: {
+            profileId,
+            eventId,
+          },
+        },
+        update: {
+          status,
+        },
+        create: {
+          eventId,
+          profileId,
+          status,
+          role: 'attendee',
+        },
+      })
+
       return event
     }),
 })

@@ -7,7 +7,7 @@ import { postTypes, postSchema, type Post } from '~/schemas/postSchema'
 const emit = defineEmits(['load', 'cancel'])
 import { toast } from 'vue-sonner'
 
-const { post } = defineProps({
+const { post, eventId } = defineProps({
   post: {
     type: Object as PropType<Post>,
     default: () => ({
@@ -19,11 +19,16 @@ const { post } = defineProps({
       profileId: '',
     }),
   },
+  eventId: {
+    type: String,
+    default: '',
+  },
 })
 
 const initialValues = {
   ...post,
   city: session?.value?.profile?.city,
+  eventId: eventId,
 }
 
 const validationSchema = toTypedSchema(postSchema)

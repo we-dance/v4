@@ -1,6 +1,7 @@
-<script setup>
+<script setup lang="ts">
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { format, parseISO } from 'date-fns'
+import { getDate } from '~/utils'
 
 const props = defineProps({
   event: {
@@ -66,11 +67,6 @@ const dateRangeDisplay = computed(() => {
     : `${startDisplay} - ${endDisplay}`
 })
 
-const venueDisplay = computed(() => {
-  if (!props.event?.venue) return 'Location not specified'
-  return props.event.venue.name
-})
-
 const availability = computed(() => {
   if (!props.event) return null
   const capacity = props.event.capacity || 100 // Default capacity if not specified
@@ -81,16 +77,32 @@ const availability = computed(() => {
   return 'available'
 })
 
-const handleGoing = () => {
-  isGoing.value = !isGoing.value
-  // Add your logic to update the guest list
+const { $client } = useNuxtApp()
+const rsvp = (status: 'registered' | 'interested' | 'cancelled') => {
+  $client.events.rsvp.mutate({
+    eventId: props.event.id,
+    status,
+  })
 }
+const { session } = useAppAuth()
+const rsvpStatus = computed(() => {
+  return props.event.guests?.find(
+    (guest) => guest.profileId === session.value?.profile?.id
+  )?.status
+})
 
-const handleBook = () => {
-  // Add your booking logic here
-  // For now, just log the action
-  console.log('Booking event:', props.event?.name)
-}
+const navigation = computed(() => [
+  {
+    label: 'About',
+    to: `/events/${props.event?.id}`,
+    icon: 'ph:info',
+  },
+  {
+    label: 'Feed',
+    to: `/events/${props.event?.id}/feed`,
+    icon: 'ph:newspaper',
+  },
+])
 </script>
 
 <template>
@@ -131,13 +143,14 @@ const handleBook = () => {
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <!-- Left: Content -->
-              <div class="text-center md:text-left">
+              <div class="text-center md:text-left text-muted-foreground">
+                <Badge>{{ event.type }}</Badge>
+
                 <div
-                  class="flex items-center justify-center md:justify-start gap-2 text-muted-foreground mb-2 md:mb-4"
+                  class="mt-4 flex items-center justify-center md:justify-start gap-2 mb-2 md:mb-4"
                 >
-                  <Icon name="ph:calendar" class="w-4 h-4 md:w-5 md:h-5" />
                   <span class="text-sm md:text-base">{{
-                    dateRangeDisplay
+                    getDate(event.startDate)
                   }}</span>
                 </div>
 
@@ -152,17 +165,14 @@ const handleBook = () => {
                 >
                   <div v-if="event.venue" class="flex items-center gap-2">
                     <Icon name="ph:map-pin" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{ venueDisplay }}</span>
+                    <span class="text-sm md:text-base">{{
+                      event.venue.name
+                    }}</span>
                   </div>
 
                   <div v-if="event.price" class="flex items-center gap-2">
                     <Icon name="ph:ticket" class="w-4 h-4 md:w-5 md:h-5" />
                     <span class="text-sm md:text-base">{{ event.price }}</span>
-                  </div>
-
-                  <div v-if="event.type" class="flex items-center gap-2">
-                    <Icon name="ph:music-notes" class="w-4 h-4 md:w-5 md:h-5" />
-                    <span class="text-sm md:text-base">{{ event.type }}</span>
                   </div>
                 </div>
 
@@ -183,10 +193,33 @@ const handleBook = () => {
                 </div>
 
                 <!-- Action Buttons -->
-                <div class="flex justify-center md:justify-start gap-4 mb-8">
-                  <Button variant="primary" size="lg" @click="handleBook">
-                    Book Now
-                  </Button>
+                <div class="mb-8">
+                  <template v-if="rsvpStatus === 'registered'">
+                    <div class="text-sm text-muted-foreground mb-2">
+                      You are going to this event
+                    </div>
+                    <Button variant="destructive" @click="rsvp('cancelled')">
+                      I can't go
+                    </Button>
+                  </template>
+                  <template v-else>
+                    <div class="flex justify-center md:justify-start gap-4">
+                      <Button
+                        variant="primary"
+                        size="lg"
+                        @click="rsvp('registered')"
+                      >
+                        Going
+                      </Button>
+                      <Button
+                        variant="secondary"
+                        size="lg"
+                        @click="rsvp('interested')"
+                      >
+                        Interested
+                      </Button>
+                    </div>
+                  </template>
                 </div>
 
                 <!-- Event Stats -->
@@ -220,103 +253,111 @@ const handleBook = () => {
       </div>
     </div>
 
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-muted">
+      <div class="flex space-x-8 overflow-x-auto">
+        <NuxtLink
+          v-for="item in navigation"
+          :key="item.to"
+          :to="item.to"
+          class="flex items-center gap-2 border-b-[3px] px-1 py-4 text-sm font-medium whitespace-nowrap -mb-[1px]"
+          :class="[
+            $route.path === item.to.split('#')[0]
+              ? 'border-primary text-primary'
+              : 'border-transparent text-muted-foreground hover:text-foreground',
+          ]"
+        >
+          <Icon v-if="item.icon" :name="item.icon" class="w-4 h-4" />
+          {{ item.label }}
+        </NuxtLink>
+      </div>
+    </nav>
     <!-- Main Content -->
     <div
-      class="bg-background text-foreground max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
+      class="bg-background text-foreground max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
     >
       <div
         class="flex flex-col lg:flex-row justify-center gap-8 max-w-7xl mx-auto"
       >
         <!-- Left Column: Details -->
-        <div class="space-y-8 lg:w-2/3">
-          <postEventUpdate />
-          <!-- Description -->
-          <div class="rounded-xl shadow-sm p-6">
-            <h2 class="text-2xl font-bold mb-4">About this event</h2>
-            <TPreview :content="event.description" />
-          </div>
+        <div class="lg:w-2/3">
+          <slot>
+            <!-- Description -->
+            <div class="p-6">
+              <h2 class="text-xs uppercase font-bold mb-4">About this event</h2>
+              <TPreview :content="event.description" />
+            </div>
 
-          <!-- Schedule -->
-          <div v-if="event.startDate" class="rounded-xl shadow-sm p-6">
-            <h2 class="text-2xl font-bold mb-4">Schedule</h2>
-            <div class="space-y-4">
-              <div class="flex items-start gap-4">
-                <div
-                  class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0"
+            <!-- Schedule -->
+            <div v-if="event.startDate" class="p-6">
+              <h2 class="text-xs uppercase font-bold mb-4">Schedule</h2>
+              <div class="space-y-4">
+                <div class="flex items-start gap-4">
+                  <div
+                    class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0"
+                  >
+                    <Icon name="ph:clock" class="w-5 h-5 text-blue-600" />
+                  </div>
+                  <div>
+                    <div class="font-medium">{{ dateRangeDisplay }}</div>
+                    <div class="text-muted-foreground">{{ event.name }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dance Styles -->
+            <div v-if="event.styles?.length" class="p-6">
+              <h2 class="text-xs uppercase font-bold mb-4">Dance Styles</h2>
+              <div class="flex flex-wrap gap-2">
+                <Badge
+                  v-for="style in event.styles"
+                  :key="style.id"
+                  variant="secondary"
+                  class="px-3 py-1 text-sm"
                 >
-                  <Icon name="ph:clock" class="w-5 h-5 text-blue-600" />
-                </div>
-                <div>
-                  <div class="font-medium">{{ dateRangeDisplay }}</div>
-                  <div class="text-muted-foreground">{{ event.name }}</div>
-                </div>
+                  {{ style.name }}
+                </Badge>
               </div>
             </div>
-          </div>
 
-          <!-- Dance Styles -->
-          <div v-if="event.styles?.length" class="rounded-xl shadow-sm p-6">
-            <h2 class="text-2xl font-bold mb-4">Dance Styles</h2>
-            <div class="flex flex-wrap gap-2">
-              <Badge
-                v-for="style in event.styles"
-                :key="style.id"
-                variant="secondary"
-                class="px-3 py-1 text-sm"
-              >
-                {{ style.name }}
-              </Badge>
-            </div>
-          </div>
+            <!-- Organizers -->
+            <div v-if="event.organizer || event.creator" class="p-6">
+              <h2 class="text-xs uppercase font-bold mb-4">Organizers</h2>
+              <div class="space-y-4">
+                <ProfileCard
+                  v-if="event.organizer"
+                  :profile="event.organizer"
+                />
 
-          <!-- Organizers -->
-          <div
-            v-if="event.organizer || event.creator"
-            class="rounded-xl shadow-sm p-6"
-          >
-            <h2 class="text-2xl font-bold mb-4">Organizers</h2>
-            <div class="space-y-4">
-              <div v-if="event.organizer" class="flex items-center gap-4">
-                <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
-                  <Avatar
-                    :profile="event.organizer"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <div class="font-bold">{{ event.organizer.name }}</div>
-                  <div class="text-sm text-gray-500">Organizer</div>
-                </div>
-              </div>
-
-              <div class="flex items-center gap-4">
-                <div>
-                  <div class="text-sm">
-                    Added
-                    <template v-if="event.creator">
-                      by
-                      <NuxtLink
-                        :to="`/@${event.creator.username}`"
-                        class="font-bold"
-                        >{{ event.creator.name }}</NuxtLink
-                      >
-                    </template>
-                    on {{ formatDate(event.createdAt) }}
-                  </div>
-                  <div class="text-sm">
-                    Last updated on {{ formatDate(event.updatedAt) }}
+                <div class="flex items-center gap-4">
+                  <div>
+                    <div class="text-sm">
+                      Added
+                      <template v-if="event.creator">
+                        by
+                        <NuxtLink
+                          :to="`/@${event.creator.username}`"
+                          class="font-bold"
+                          >{{ event.creator.name }}</NuxtLink
+                        >
+                      </template>
+                      on {{ formatDate(event.createdAt) }}
+                    </div>
+                    <div class="text-sm">
+                      Last updated on {{ formatDate(event.updatedAt) }}
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </slot>
         </div>
 
         <!-- Right Column: Sidebar -->
         <div class="space-y-6 lg:w-1/3">
           <!-- Guests section -->
           <div class="rounded-xl shadow-sm p-6">
-            <h3 class="text-lg font-bold mb-4">Guests</h3>
+            <h3 class="text-xs uppercase font-bold mb-4">Who's going?</h3>
 
             <div v-if="event.guests?.length" class="space-y-3">
               <div
@@ -340,7 +381,9 @@ const handleBook = () => {
                   <div class="font-medium">
                     {{ guest.profile?.name || 'Guest' }}
                   </div>
-                  <div class="text-sm text-gray-500">Going</div>
+                  <div class="text-sm text-gray-500">
+                    {{ guest.status }}
+                  </div>
                 </div>
               </div>
 
@@ -359,7 +402,7 @@ const handleBook = () => {
 
           <!-- Location -->
           <div v-if="event.venue" class="rounded-xl shadow-sm p-6">
-            <h3 class="text-lg font-bold mb-4">Location</h3>
+            <h3 class="text-xs uppercase font-bold mb-4">Location</h3>
             <div class="space-y-4">
               <a :href="event.venue.mapUrl" target="_blank">
                 <div class="flex items-start gap-3">
