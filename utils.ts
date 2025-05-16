@@ -68,6 +68,14 @@ export const getDate = (val: any, locale?: string): string => {
   return formatDate(date, 'd MMM', locale)
 }
 
+export const getDateFull = (val: any, locale?: string): string => {
+  const date = getDateObect(val)
+  if (!date) return ''
+  if (isToday(date)) return 'Today'
+  if (isTomorrow(date)) return 'Tomorrow'
+  return formatDate(date, 'd MMM yyyy', locale)
+}
+
 export const getTime = (val, locale) => {
   return formatDate(val, 'HH:mm', locale)
 }

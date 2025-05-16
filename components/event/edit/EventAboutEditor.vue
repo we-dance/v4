@@ -27,6 +27,8 @@ const schema = z.object({
   description: z.string().optional().default(''),
   cover: z.string().optional().default(''),
   status: statusSchema,
+  startDate: z.string().optional(),
+  endDate: z.string().optional(),
 })
 
 const validationSchema = toTypedSchema(schema)
@@ -128,6 +130,26 @@ const askToDelete = () => {
           <FormLabel>Description</FormLabel>
           <FormControl>
             <Textarea v-bind="componentField" />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField v-slot="{ componentField }" name="startDate">
+        <FormItem class="flex flex-col justify-start">
+          <FormLabel>Start</FormLabel>
+          <FormControl>
+            <DateInput v-bind="componentField" />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField v-slot="{ componentField }" name="endDate">
+        <FormItem class="flex flex-col justify-start">
+          <FormLabel>End</FormLabel>
+          <FormControl>
+            <DateInput v-bind="componentField" :min-date="event.startDate" />
           </FormControl>
           <FormMessage />
         </FormItem>

@@ -35,7 +35,7 @@ const emit = defineEmits(['load'])
   </header>
 
   <ResizablePanelGroup direction="horizontal" class="h-full items-stretch">
-    <ResizablePanel :default-size="165" :min-size="20">
+    <ResizablePanel :default-size="500" :min-size="20">
       <div class="space-y-4 p-4">
         <AdminBlock title="Basic Information" is-open>
           <EventAboutEditor :event="event" @load="emit('load')" />
@@ -43,7 +43,7 @@ const emit = defineEmits(['load'])
       </div>
     </ResizablePanel>
     <ResizableHandle with-handle />
-    <ResizablePanel :default-size="655">
+    <ResizablePanel :default-size="500">
       <EventView :event="event" />
     </ResizablePanel>
   </ResizablePanelGroup>
