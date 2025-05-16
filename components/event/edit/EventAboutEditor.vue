@@ -39,6 +39,12 @@ const schema = z.object({
     })
     .optional()
     .nullable(),
+  organizer: z.object({
+    id: z.string().optional(),
+    name: z.string().optional(),
+    username: z.string().optional(),
+    photo: z.string().optional().nullable(),
+  }),
 })
 
 const validationSchema = toTypedSchema(schema)
@@ -200,6 +206,19 @@ const updateVenue = (v: any) => {
           <FormControl>
             <VenueInput
               :model-value="value || event.venue"
+              @update:model-value="(v) => setValue(v)"
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField v-slot="{ value, setValue }" name="organizer">
+        <FormItem class="flex flex-col justify-start">
+          <FormLabel>Organizer</FormLabel>
+          <FormControl>
+            <ProfileInput
+              :model-value="value || event.organizer"
               @update:model-value="(v) => setValue(v)"
             />
           </FormControl>
