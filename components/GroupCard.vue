@@ -8,11 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div
-    :class="[
-      'bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow',
-    ]"
-  >
+  <div class="bg-muted rounded-lg">
     <NuxtLink :to="`/@${profile.username}`">
       <div class="p-4">
         <div class="flex items-center gap-3 mb-3">
