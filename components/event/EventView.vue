@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import GradientBackground from '~/components/common/GradientBackground.vue'
-import { format, parseISO } from 'date-fns'
-import { getDateFull } from '~/utils'
+import { getDateTime } from '~/utils'
 
 const props = defineProps({
   event: {
@@ -91,23 +90,6 @@ const navigation = computed(() => [
                   </div>
                 </div>
 
-                <!-- Status & Social Proof -->
-                <div class="flex items-center gap-4 text-muted-foreground mb-6">
-                  <Badge
-                    v-if="availability === 'sold-out'"
-                    variant="destructive"
-                  >
-                    Sold Out
-                  </Badge>
-                  <Badge
-                    v-else-if="availability === 'few-left'"
-                    variant="secondary"
-                  >
-                    Few Spots Left
-                  </Badge>
-                </div>
-
-                <!-- Action Buttons -->
                 <div
                   class="mb-8 flex flex-col gap-4 items-center md:items-start"
                 >
@@ -212,8 +194,23 @@ const navigation = computed(() => [
                     <Icon name="ph:clock" class="w-5 h-5 text-blue-600" />
                   </div>
                   <div>
-                    <div class="font-medium">{{ dateRangeDisplay }}</div>
-                    <div class="text-muted-foreground">{{ event.name }}</div>
+                    <div class="font-medium">
+                      {{ getDateTime(event.startDate) }}
+                    </div>
+                    <div class="text-muted-foreground">Start</div>
+                  </div>
+                </div>
+                <div class="flex items-start gap-4">
+                  <div
+                    class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0"
+                  >
+                    <Icon name="ph:clock" class="w-5 h-5 text-blue-600" />
+                  </div>
+                  <div>
+                    <div class="font-medium">
+                      {{ getDateTime(event.endDate) }}
+                    </div>
+                    <div class="text-muted-foreground">End</div>
                   </div>
                 </div>
               </div>

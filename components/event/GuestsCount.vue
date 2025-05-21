@@ -30,7 +30,7 @@ const guests = computed(() => {
 
 <template>
   <div class="flex items-center gap-2 text-xs">
-    <div class="relative flex ml-1">
+    <div v-if="guests.length > 0" class="relative flex ml-1">
       <div v-for="guest in guests" :key="guest.id" class="-ml-1">
         <Avatar :profile="guest.profile" class="w-4 h-4 rounded-full" />
       </div>
