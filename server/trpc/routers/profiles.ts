@@ -247,10 +247,12 @@ export const profilesRouter = router({
         limit: z.number().default(9),
         page: z.number().default(1),
         query: z.string().optional(),
+        city: z.string().optional(),
+        community: z.string().optional(),
       })
     )
     .query(async ({ input }) => {
-      const { limit, page, query } = input
+      const { limit, page, query, city, community } = input
       const skip = (page - 1) * limit
 
       const whereCondition: any = {
@@ -261,6 +263,18 @@ export const profilesRouter = router({
         whereCondition.name = {
           contains: query,
           mode: 'insensitive',
+        }
+      }
+
+      if (city) {
+        whereCondition.cityId = city
+      }
+
+      if (community) {
+        whereCondition.styles = {
+          some: {
+            id: community,
+          },
         }
       }
 
