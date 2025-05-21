@@ -248,7 +248,7 @@ export const profilesRouter = router({
         page: z.number().default(1),
         query: z.string().optional(),
         city: z.string().optional(),
-        community: z.string().optional(),
+        community: z.number().optional(),
       })
     )
     .query(async ({ input }) => {
@@ -273,7 +273,7 @@ export const profilesRouter = router({
       if (community) {
         whereCondition.styles = {
           some: {
-            id: community,
+            styleId: community,
           },
         }
       }
@@ -409,9 +409,10 @@ export const profilesRouter = router({
         limit: z.number().default(9),
         page: z.number().default(1),
         role: z.string().optional(),
-        location: z.string().optional(),
         language: z.string().optional(),
         query: z.string().optional(),
+        city: z.string().optional(),
+        community: z.number().optional(),
       })
     )
     .query(async ({ input }) => {
@@ -419,22 +420,7 @@ export const profilesRouter = router({
       const page = input.page
       const skip = (page - 1) * limit
 
-      type WhereConditions = {
-        type: string
-        roles?: {
-          has: string
-        }
-        name?: {
-          contains: string
-          mode: 'insensitive'
-        }
-        city?: {
-          name?: string
-        }
-        locales?: any
-      }
-
-      let whereConditions: WhereConditions = { type: 'Artist' }
+      let whereConditions: any = { type: 'Artist' }
 
       if (input?.role && input.role !== 'all') {
         whereConditions.roles = {
@@ -449,9 +435,15 @@ export const profilesRouter = router({
         }
       }
 
-      if (input?.location && input.location !== 'all') {
-        whereConditions.city = {
-          name: input.location,
+      if (input?.city) {
+        whereConditions.cityId = input.city
+      }
+
+      if (input?.community) {
+        whereConditions.styles = {
+          some: {
+            styleId: input.community,
+          },
         }
       }
 
