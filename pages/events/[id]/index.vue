@@ -1,30 +1,16 @@
-<script setup>
-const { $client } = useNuxtApp()
+<script setup lang="ts">
 const route = useRoute()
-const event = ref(null)
-const loading = ref(true)
-const error = ref(null)
+const { $client } = useNuxtApp()
 
-const fetchEvent = async () => {
-  loading.value = true
-  error.value = null
-
-  try {
-    const id = route.params.id
-    const response = await $client.events.byId.query(id)
-    event.value = response
-  } catch (e) {
-    error.value = e?.message || 'Failed to load event'
-  } finally {
-    loading.value = false
-  }
-}
-
-onMounted(() => {
-  fetchEvent()
+const { data, isLoading, isError, error } = useQuery<any>({
+  queryKey: ['events.byId', route.params.id],
+  queryFn: () => $client.events.byId.query(route.params.id as string),
+  retry: false,
 })
 </script>
 
 <template>
-  <EventView :event="event" />
+  <ErrorMessage v-if="isError" :message="error?.message" />
+  <Loader v-else-if="isLoading" />
+  <EventView v-else :event="data" />
 </template>

@@ -26,10 +26,18 @@ export const buttonVariants = cva(
         icon: 'h-10 w-10',
         skinny: 'h-8 px-2',
       },
+      color: {
+        default: '',
+        success: 'bg-success text-success-foreground hover:bg-success/90',
+        warning: 'bg-warning text-warning-foreground hover:bg-warning/90',
+        destructive:
+          'bg-destructive text-destructive-foreground hover:bg-destructive/90',
+      },
     },
     defaultVariants: {
       variant: 'primary',
       size: 'default',
+      color: 'default',
     },
   }
 )

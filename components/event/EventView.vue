@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { format, parseISO } from 'date-fns'
-import { getDate } from '~/utils'
+import { getDateFull } from '~/utils'
 
 const props = defineProps({
   event: {
@@ -10,80 +10,19 @@ const props = defineProps({
   },
 })
 
-// Format date function
-const formatDate = (dateString) => {
-  try {
-    if (!dateString) return 'Date not available'
-
-    // Handle both string and Date object
-    if (typeof dateString === 'string') {
-      return format(parseISO(dateString), 'MMMM d, yyyy')
-    } else if (dateString instanceof Date) {
-      return format(dateString, 'MMMM d, yyyy')
-    }
-
-    return 'Invalid date'
-  } catch (e) {
-    console.error('Date formatting error:', e)
-    return 'Invalid date'
-  }
-}
-
-// Format time function
-const formatTime = (dateString) => {
-  try {
-    if (!dateString) return ''
-
-    // Handle both string and Date object
-    if (typeof dateString === 'string') {
-      return format(parseISO(dateString), 'h:mm a')
-    } else if (dateString instanceof Date) {
-      return format(dateString, 'h:mm a')
-    }
-
-    return ''
-  } catch (e) {
-    return ''
-  }
-}
-
-const dateRangeDisplay = computed(() => {
-  if (!props.event) return ''
-
-  const startFormatted = formatDate(props.event.startDate)
-  const endFormatted = formatDate(props.event.endDate)
-
-  // Add time if available
-  const startTime = formatTime(props.event.startDate)
-  const endTime = formatTime(props.event.endDate)
-
-  const startDisplay = startTime
-    ? `${startFormatted} at ${startTime}`
-    : startFormatted
-  const endDisplay = endTime ? `${endFormatted} at ${endTime}` : endFormatted
-
-  return startFormatted === endFormatted
-    ? startDisplay
-    : `${startDisplay} - ${endDisplay}`
-})
-
-const availability = computed(() => {
-  if (!props.event) return null
-  const capacity = props.event.capacity || 100 // Default capacity if not specified
-  const guestsCount = props.event.guests?.length || 0
-
-  if (guestsCount >= capacity) return 'sold-out'
-  if (guestsCount >= capacity * 0.8) return 'few-left'
-  return 'available'
-})
-
 const { $client } = useNuxtApp()
-const rsvp = (status: 'registered' | 'interested' | 'cancelled') => {
-  $client.events.rsvp.mutate({
+const queryClient = useQueryClient()
+
+const rsvp = async (status: 'registered' | 'interested' | 'cancelled') => {
+  await $client.events.rsvp.mutate({
     eventId: props.event.id,
     status,
   })
+  await queryClient.invalidateQueries({
+    queryKey: ['events.byId', props.event.id],
+  })
 }
+
 const { session } = useAppAuth()
 const rsvpStatus = computed(() => {
   return props.event.guests?.find(
@@ -106,31 +45,8 @@ const navigation = computed(() => [
 </script>
 
 <template>
-  <!-- Loading State -->
-  <div
-    v-if="loading"
-    class="min-h-screen flex items-center justify-center bg-background text-foreground"
-  >
-    <div class="text-center">
-      <div
-        class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent align-[-0.125em]"
-      ></div>
-      <p class="mt-4 text-gray-600">Loading event details...</p>
-    </div>
-  </div>
-
-  <!-- Error State -->
-  <div v-else-if="error" class="min-h-screen flex items-center justify-center">
-    <div class="text-center">
-      <div class="text-red-500 text-5xl mb-4">⚠️</div>
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">Error Loading Event</h2>
-      <p class="text-gray-500 mb-6">{{ error }}</p>
-      <Button @click="fetchEvent">Try Again</Button>
-    </div>
-  </div>
-
   <!-- Event Content -->
-  <div v-else-if="event" class="min-h-screen">
+  <div class="min-h-screen">
     <!-- Hero Section -->
     <div class="relative min-h-[50vh]">
       <div
@@ -144,14 +60,13 @@ const navigation = computed(() => [
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <!-- Left: Content -->
               <div class="text-center md:text-left text-muted-foreground">
-                <Badge>{{ event.type }}</Badge>
-
-                <div
-                  class="mt-4 flex items-center justify-center md:justify-start gap-2 mb-2 md:mb-4"
-                >
-                  <span class="text-sm md:text-base">{{
-                    getDate(event.startDate)
-                  }}</span>
+                <div class="flex items-center gap-2 mb-4">
+                  <Badge>{{ event.type }}</Badge>
+                  <DateRange :start="event.startDate" :end="event.endDate" />
+                  <div class="font-bold">
+                    {{ event.venue.city.name }},
+                    {{ event.venue.city.country.name }}
+                  </div>
                 </div>
 
                 <h1
@@ -193,46 +108,45 @@ const navigation = computed(() => [
                 </div>
 
                 <!-- Action Buttons -->
-                <div class="mb-8">
-                  <template v-if="rsvpStatus === 'registered'">
-                    <div class="text-sm text-muted-foreground mb-2">
-                      You are going to this event
-                    </div>
-                    <Button variant="destructive" @click="rsvp('cancelled')">
-                      I can't go
-                    </Button>
-                  </template>
-                  <template v-else>
-                    <div class="flex justify-center md:justify-start gap-4">
-                      <Button
-                        variant="primary"
-                        size="lg"
-                        @click="rsvp('registered')"
-                      >
-                        Going
-                      </Button>
-                      <Button
-                        variant="secondary"
-                        size="lg"
-                        @click="rsvp('interested')"
-                      >
-                        Interested
-                      </Button>
-                    </div>
-                  </template>
-                </div>
-
-                <!-- Event Stats -->
                 <div
-                  v-if="event.guests"
-                  class="flex justify-center md:justify-start gap-8 text-muted-foreground"
+                  class="mb-8 flex flex-col gap-4 items-center md:items-start"
                 >
+                  <GuestsCount :event="event" />
                   <div>
-                    <div class="text-xl font-bold text-foreground">
-                      {{ event.guests.length }}
-                    </div>
-                    <div class="text-sm">guests</div>
+                    Let others know if you're planning to attend this event
                   </div>
+                  <div class="flex justify-center md:justify-start gap-2">
+                    <Button
+                      variant="secondary"
+                      :color="
+                        rsvpStatus === 'registered' ? 'success' : 'default'
+                      "
+                      @click="rsvp('registered')"
+                    >
+                      Going
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      :color="
+                        rsvpStatus === 'interested' ? 'warning' : 'default'
+                      "
+                      @click="rsvp('interested')"
+                    >
+                      Maybe
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      :color="
+                        rsvpStatus === 'cancelled' ? 'destructive' : 'default'
+                      "
+                      @click="rsvp('cancelled')"
+                    >
+                      Can't go
+                    </Button>
+                  </div>
+                  <Button v-if="event.link" size="lg"
+                    ><Icon name="ph:shopping-cart" />Buy Tickets</Button
+                  >
                 </div>
               </div>
 
@@ -354,10 +268,10 @@ const navigation = computed(() => [
         </div>
 
         <!-- Right Column: Sidebar -->
-        <div class="space-y-6 lg:w-1/3">
+        <div class="space-y-6 mt-4 lg:w-1/3">
           <!-- Guests section -->
-          <div class="rounded-xl shadow-sm p-6">
-            <h3 class="text-xs uppercase font-bold mb-4">Who's going?</h3>
+          <div class="rounded-xl border border-border shadow-sm p-6">
+            <h3 class="text-xs uppercase font-bold mb-4">Guest List</h3>
 
             <div v-if="event.guests?.length" class="space-y-3">
               <div
@@ -368,14 +282,7 @@ const navigation = computed(() => [
                 <div
                   class="w-10 h-10 rounded-full border-2 border-gray-200 overflow-hidden"
                 >
-                  <img
-                    :src="
-                      guest.profile?.avatarUrl ||
-                      `https://api.dicebear.com/7.x/avataaars/svg?seed=${guest.id}`
-                    "
-                    :alt="guest.profile?.name || 'Guest'"
-                    class="w-full h-full object-cover"
-                  />
+                  <Avatar :profile="guest.profile" />
                 </div>
                 <div>
                   <div class="font-medium">
@@ -422,20 +329,6 @@ const navigation = computed(() => [
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <!-- Empty State -->
-  <div v-else class="min-h-screen flex items-center justify-center">
-    <div class="text-center">
-      <Icon name="ph:calendar-x" class="w-16 h-16 text-gray-400 mx-auto mb-4" />
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">Event Not Found</h2>
-      <p class="text-gray-500 mb-6">
-        The event you're looking for doesn't exist or has been removed.
-      </p>
-      <Button as-child>
-        <NuxtLink to="/events">Browse Events</NuxtLink>
-      </Button>
     </div>
   </div>
 </template>
