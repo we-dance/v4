@@ -48,7 +48,7 @@ useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
       :key="group.id"
       :to="`/@${group.username}`"
     >
-      <OrganizerCard :profile="group" />
+      <GroupCard :profile="group" />
     </NuxtLink>
   </div>
 
