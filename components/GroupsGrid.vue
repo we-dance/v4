@@ -10,17 +10,18 @@ const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
     queryKey: ['groups', searchQuery, city, community],
     queryFn: ({ pageParam = 1 }) =>
-      $client.profiles.groups.query({
+      $client.profiles.grid.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
         page: pageParam,
+        type: 'Organiser',
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   })
 
 const groups = computed(
-  () => data.value?.pages.flatMap((page) => page.groups) ?? []
+  () => data.value?.pages.flatMap((page) => page.profiles) ?? []
 )
 
 const loadMoreButton = useTemplateRef('load-more')

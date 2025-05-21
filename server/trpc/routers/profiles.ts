@@ -241,7 +241,7 @@ export const profilesRouter = router({
         venues,
       }
     }),
-  groups: publicProcedure
+  grid: publicProcedure
     .input(
       z.object({
         limit: z.number().default(9),
@@ -249,14 +249,15 @@ export const profilesRouter = router({
         query: z.string().optional(),
         city: z.string().optional(),
         community: z.number().optional(),
+        type: z.string().optional(),
       })
     )
     .query(async ({ input }) => {
-      const { limit, page, query, city, community } = input
+      const { limit, page, query, city, community, type } = input
       const skip = (page - 1) * limit
 
       const whereCondition: any = {
-        type: 'Organiser',
+        type,
       }
 
       if (query) {
@@ -278,7 +279,7 @@ export const profilesRouter = router({
         }
       }
 
-      const groups = await prisma.profile.findMany({
+      const profiles = await prisma.profile.findMany({
         where: whereCondition,
         include: {
           city: {
@@ -298,374 +299,10 @@ export const profilesRouter = router({
         where: whereCondition,
       })
 
-      const hasMore = skip + groups.length < totalCount
+      const hasMore = skip + profiles.length < totalCount
       const nextPage = hasMore ? page + 1 : null
 
-      return { groups, totalCount, hasMore, nextPage }
-    }),
-  artistLocations: publicProcedure.query(async () => {
-    const artistsWithCities = await prisma.profile.findMany({
-      where: {
-        type: 'Artist',
-        city: {
-          isNot: null,
-        },
-      },
-      select: {
-        city: {
-          select: {
-            name: true,
-          },
-        },
-      },
-      distinct: ['cityId'],
-    })
-
-    const locations = artistsWithCities
-      .map((artist) => artist.city?.name)
-      .filter(Boolean)
-      .sort()
-
-    return locations
-  }),
-  artistLanguages: publicProcedure.query(async () => {
-    const artists = await prisma.profile.findMany({
-      where: {
-        type: 'Artist',
-      },
-      select: {
-        locales: true,
-      },
-    })
-
-    const languagesSet = new Set()
-
-    artists.forEach((artist) => {
-      if (artist.locales) {
-        Object.entries(artist.locales as Record<string, boolean>).forEach(
-          ([lang, isActive]) => {
-            if (isActive === true) {
-              languagesSet.add(lang)
-            }
-          }
-        )
-      }
-    })
-
-    return Array.from(languagesSet).sort()
-  }),
-  venueLocations: publicProcedure.query(async () => {
-    const citiesWithCount = await prisma.city.findMany({
-      where: {
-        profiles: {
-          some: {
-            type: 'Venue',
-          },
-        },
-      },
-      select: {
-        id: true,
-        name: true,
-        country: {
-          select: {
-            name: true,
-            code: true,
-          },
-        },
-        _count: {
-          select: {
-            profiles: {
-              where: {
-                type: 'Venue',
-              },
-            },
-          },
-        },
-      },
-      orderBy: {
-        profiles: {
-          _count: 'desc',
-        },
-      },
-    })
-
-    const cities = citiesWithCount.map((city) => ({
-      name: city.name,
-      displayName: `${city.name}${city.country ? ` - ${city.country.name}` : ''}`,
-      country: city.country ? city.country.name : null,
-      countryCode: city.country ? city.country.code : null,
-      count: city._count.profiles,
-      type: 'city',
-    }))
-
-    return {
-      cities: cities.sort((a, b) => b.count - a.count),
-      regions: [],
-    }
-  }),
-  artists: publicProcedure
-    .input(
-      z.object({
-        limit: z.number().default(9),
-        page: z.number().default(1),
-        role: z.string().optional(),
-        language: z.string().optional(),
-        query: z.string().optional(),
-        city: z.string().optional(),
-        community: z.number().optional(),
-      })
-    )
-    .query(async ({ input }) => {
-      const limit = input.limit
-      const page = input.page
-      const skip = (page - 1) * limit
-
-      let whereConditions: any = { type: 'Artist' }
-
-      if (input?.role && input.role !== 'all') {
-        whereConditions.roles = {
-          has: input.role,
-        }
-      }
-
-      if (input?.query) {
-        whereConditions.name = {
-          contains: input.query,
-          mode: 'insensitive',
-        }
-      }
-
-      if (input?.city) {
-        whereConditions.cityId = input.city
-      }
-
-      if (input?.community) {
-        whereConditions.styles = {
-          some: {
-            styleId: input.community,
-          },
-        }
-      }
-
-      if (input?.language && input.language !== 'all') {
-        whereConditions.locales = {
-          path: [input.language],
-          equals: true,
-        }
-      }
-
-      const totalCount = await prisma.profile.count({
-        where: whereConditions,
-      })
-
-      const artists = await prisma.profile.findMany({
-        where: whereConditions,
-        include: {
-          styles: {
-            include: {
-              style: true,
-            },
-          },
-          city: true,
-        },
-        skip,
-        take: limit,
-        orderBy: {
-          createdAt: 'desc',
-        },
-      })
-
-      const hasMore = skip + artists.length < totalCount
-      const nextPage = hasMore ? page + 1 : null
-
-      return {
-        artists,
-        totalCount,
-        hasMore,
-        nextPage,
-      }
-    }),
-  allVenuesStyles: publicProcedure.query(async () => {
-    const styles = await prisma.danceStyle.findMany({
-      select: {
-        name: true,
-      },
-      orderBy: {
-        name: 'asc',
-      },
-    })
-
-    return styles.map((style) => style.name)
-  }),
-  venues: publicProcedure
-    .input(
-      z
-        .object({
-          limit: z.number().default(12),
-          page: z.number().default(1),
-          search: z.string().optional(),
-          location: z.string().optional(),
-          styles: z.array(z.string()).optional(),
-        })
-        .optional()
-    )
-    .query(async ({ input }) => {
-      const limit = input?.limit || 12
-      const page = input?.page || 1
-      const skip = (page - 1) * limit
-      const search = input?.search || ''
-      const location = input?.location || ''
-      const styles = input?.styles || []
-
-      const whereCondition: any = {
-        type: 'Venue',
-      }
-
-      if (search) {
-        whereCondition.AND = whereCondition.AND || []
-        whereCondition.AND.push({
-          OR: [
-            {
-              name: {
-                contains: search,
-                mode: 'insensitive',
-              },
-            },
-          ],
-        })
-      }
-
-      if (location) {
-        const cityName = location.split(' - ')[0].trim()
-
-        whereCondition.AND = whereCondition.AND || []
-        whereCondition.AND.push({
-          city: {
-            name: {
-              equals: cityName,
-              mode: 'insensitive',
-            },
-          },
-        })
-      }
-
-      let venueIdsWithStyles: string[] = []
-
-      if (styles.length > 0) {
-        const eventsWithStyles = await prisma.event.findMany({
-          where: {
-            styles: {
-              some: {
-                name: {
-                  in: styles,
-                },
-              },
-            },
-          },
-          select: {
-            venueId: true,
-            organizerId: true,
-          },
-        })
-
-        venueIdsWithStyles = Array.from(
-          new Set([
-            ...eventsWithStyles.map((e) => e.venueId).filter(Boolean),
-            ...eventsWithStyles.map((e) => e.organizerId).filter(Boolean),
-          ])
-        ) as string[]
-
-        if (venueIdsWithStyles.length > 0) {
-          whereCondition.id = {
-            in: venueIdsWithStyles,
-          }
-        } else if (styles.length > 0) {
-          return {
-            venues: [],
-            totalCount: 0,
-            hasMore: false,
-          }
-        }
-      }
-
-      const totalCount = await prisma.profile.count({
-        where: whereCondition,
-      })
-
-      const venues = await prisma.profile.findMany({
-        where: whereCondition,
-        select: {
-          id: true,
-          name: true,
-          username: true,
-          bio: true,
-          photo: true,
-          formattedAddress: true,
-          city: {
-            select: {
-              id: true,
-              name: true,
-            },
-          },
-          type: true,
-          createdAt: true,
-          updatedAt: true,
-        },
-        skip,
-        take: limit,
-        orderBy: {
-          name: 'asc',
-        },
-      })
-
-      const venueIds = venues.map((venue) => venue.id)
-
-      const eventsForVenues = await prisma.event.findMany({
-        where: {
-          OR: [
-            { venueId: { in: venueIds } },
-            { organizerId: { in: venueIds } },
-          ],
-        },
-        select: {
-          venueId: true,
-          organizerId: true,
-          styles: {
-            select: {
-              name: true,
-            },
-          },
-        },
-      })
-
-      const stylesByVenue = new Map<string, Set<string>>()
-
-      eventsForVenues.forEach((event) => {
-        const venueId = event.venueId || event.organizerId
-        if (!venueId) return
-
-        if (!stylesByVenue.has(venueId)) {
-          stylesByVenue.set(venueId, new Set<string>())
-        }
-
-        const venueStyles = stylesByVenue.get(venueId)!
-        event.styles.forEach((style) => {
-          venueStyles.add(style.name)
-        })
-      })
-
-      const venuesWithStyles = venues.map((venue) => {
-        return {
-          ...venue,
-          danceStyles: Array.from(stylesByVenue.get(venue.id) || []),
-        }
-      })
-
-      return {
-        venues: venuesWithStyles,
-        totalCount,
-        hasMore: skip + venues.length < totalCount,
-      }
+      return { profiles, totalCount, hasMore, nextPage }
     }),
   findVenueOrCreate: publicProcedure
     .input(z.object({ placeId: z.string(), googleMapsPlace: z.any() }))

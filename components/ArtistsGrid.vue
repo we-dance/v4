@@ -10,17 +10,18 @@ const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
     queryKey: ['artists', searchQuery, city, community],
     queryFn: ({ pageParam = 1 }) =>
-      $client.profiles.artists.query({
+      $client.profiles.grid.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
         page: pageParam,
+        type: 'Artist',
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   })
 
 const artists = computed(
-  () => data.value?.pages.flatMap((page) => page.artists) ?? []
+  () => data.value?.pages.flatMap((page) => page.profiles) ?? []
 )
 
 const loadMoreButton = useTemplateRef('load-more')
