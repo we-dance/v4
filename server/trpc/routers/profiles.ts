@@ -241,24 +241,54 @@ export const profilesRouter = router({
         venues,
       }
     }),
-  hosts: publicProcedure.query(async ({ input }) => {
-    return await prisma.profile.findMany({
-      where: {
+  groups: publicProcedure
+    .input(
+      z.object({
+        limit: z.number().default(9),
+        page: z.number().default(1),
+        query: z.string().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      const { limit, page, query } = input
+      const skip = (page - 1) * limit
+
+      const whereCondition: any = {
         type: 'Organiser',
-      },
-      include: {
-        city: {
-          include: {
-            country: true,
+      }
+
+      if (query) {
+        whereCondition.name = {
+          contains: query,
+          mode: 'insensitive',
+        }
+      }
+
+      const groups = await prisma.profile.findMany({
+        where: whereCondition,
+        include: {
+          city: {
+            include: {
+              country: true,
+            },
           },
         },
-      },
-      orderBy: {
-        followersCount: 'desc',
-      },
-      take: 5,
-    })
-  }),
+        orderBy: {
+          followersCount: 'desc',
+        },
+        take: limit,
+        skip,
+      })
+
+      const totalCount = await prisma.profile.count({
+        where: whereCondition,
+      })
+
+      const hasMore = skip + groups.length < totalCount
+      const nextPage = hasMore ? page + 1 : null
+
+      return { groups, totalCount, hasMore, nextPage }
+    }),
   artistLocations: publicProcedure.query(async () => {
     const artistsWithCities = await prisma.profile.findMany({
       where: {
