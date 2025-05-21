@@ -28,6 +28,7 @@ export const postSchema = z.object({
     .nullable(),
   attachments: z.array(attachmentSchema).optional().nullable(),
   profileId: z.string().optional().nullable(),
+  eventId: z.string().optional().nullable(),
 })
 
 export type Post = z.infer<typeof postSchema>

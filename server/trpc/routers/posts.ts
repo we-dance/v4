@@ -120,6 +120,7 @@ export const postsRouter = router({
       cityId: input.city?.id,
       authorId: ctx.session?.profile?.id,
       attachments: input.attachments,
+      eventId: input.eventId,
     }
 
     if (input.profileId) {

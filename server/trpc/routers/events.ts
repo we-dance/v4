@@ -151,7 +151,15 @@ export const eventsRouter = router({
     const event = await prisma.event.findUnique({
       where: { id: input },
       include: {
-        venue: true,
+        venue: {
+          include: {
+            city: {
+              include: {
+                country: true,
+              },
+            },
+          },
+        },
         styles: true,
         organizer: true,
         creator: true,
@@ -165,6 +173,9 @@ export const eventsRouter = router({
             author: true,
             style: true,
             city: true,
+          },
+          orderBy: {
+            createdAt: 'desc',
           },
         },
       },

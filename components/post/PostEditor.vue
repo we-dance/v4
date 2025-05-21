@@ -41,6 +41,7 @@ const form = useForm({
 const savePost = async (values: any) => {
   const promise = $client.posts.create.mutate({
     ...values,
+    eventId: eventId,
   })
 
   toast.promise(promise, {
