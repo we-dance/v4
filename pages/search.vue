@@ -1,144 +1,23 @@
 <script setup lang="ts">
-import { mockPosts } from '~/data/mockPosts'
-import { mockEvents } from '~/data/mockEvents'
-import { mockArtists } from '~/data/mockArtists'
-import { mockVenues } from '~/data/mockVenues'
-import { mockCourses } from '~/data/mockCourses'
-
+const { $client } = useNuxtApp()
 const route = useRoute()
 const searchQuery = ref((route.query.q as string) || '')
 
 const categories = [
   { name: 'All', value: 'all' },
   { name: 'Events', value: 'event' },
-  { name: 'Artists', value: 'artist' },
-  { name: 'Venues', value: 'venue' },
-  { name: 'Courses', value: 'course' },
+  { name: 'Profiles', value: 'profile' },
   { name: 'Posts', value: 'post' },
 ]
 
 const selectedCategory = ref('all')
 
-const searchResults = computed(() => {
-  if (!searchQuery.value) return []
-
-  const query = searchQuery.value.toLowerCase()
-  let results = []
-
-  // Search in courses
-  results.push(
-    ...mockCourses
-      .filter(
-        (course) =>
-          course.title.toLowerCase().includes(query) ||
-          course.description.toLowerCase().includes(query)
-      )
-      .map((course) => ({
-        type: 'course',
-        title: course.title,
-        description: course.description,
-        image: course.instructor.image,
-        to: `/courses/${course.id}`,
-      }))
-  )
-
-  // Search in events
-  results.push(
-    ...mockEvents
-      .filter(
-        (event) =>
-          event.name.toLowerCase().includes(query) ||
-          event.description.toLowerCase().includes(query) ||
-          event.tags?.some((tag) => tag.toLowerCase().includes(query))
-      )
-      .map((event) => ({
-        type: 'event',
-        title: event.name,
-        description: event.description,
-        image: event.image,
-        to: `/events/${event.id}`,
-      }))
-  )
-
-  // Search in artists
-  results.push(
-    ...mockArtists
-      .filter(
-        (artist) =>
-          artist.name.toLowerCase().includes(query) ||
-          artist.specialties?.some((specialty) =>
-            specialty.toLowerCase().includes(query)
-          )
-      )
-      .map((artist) => ({
-        type: 'artist',
-        title: artist.name,
-        description: artist.specialties?.join(', '),
-        image: artist.image,
-        to: `/artists/${artist.id}`,
-      }))
-  )
-
-  // Search in venues
-  results.push(
-    ...mockVenues
-      .filter(
-        (venue) =>
-          venue.name.toLowerCase().includes(query) ||
-          venue.description.toLowerCase().includes(query)
-      )
-      .map((venue) => ({
-        type: 'venue',
-        title: venue.name,
-        description: venue.description,
-        image: venue.image,
-        to: `/venues/${venue.id}`,
-      }))
-  )
-
-  // Search in posts
-  results.push(
-    ...mockPosts
-      .filter((post) => {
-        const content = post.content
-        return (
-          ('text' in content && content.text?.toLowerCase().includes(query)) ||
-          ('title' in content &&
-            content.title?.toLowerCase().includes(query)) ||
-          ('description' in content &&
-            content.description?.toLowerCase().includes(query)) ||
-          content.tags?.some((tag) => tag.toLowerCase().includes(query))
-        )
-      })
-      .map((post) => {
-        const content = post.content
-        return {
-          type: 'post',
-          title:
-            'title' in content
-              ? content.title
-              : 'text' in content
-                ? content.text?.slice(0, 50)
-                : '',
-          description:
-            'description' in content
-              ? content.description
-              : 'text' in content
-                ? content.text
-                : '',
-          image: 'cover' in content ? content.cover : post.author.image,
-          to: `/post/${post.id}`,
-        }
-      })
-  )
-
-  // Filter by category if not 'all'
-  if (selectedCategory.value !== 'all') {
-    results = results.filter((result) => result.type === selectedCategory.value)
-  }
-
-  return results
+const { data } = useQuery({
+  queryKey: ['search', searchQuery],
+  queryFn: () => $client.search.filter.query({ query: searchQuery.value }),
 })
+
+const searchResults = computed(() => data.value || [])
 
 const resultsByType = computed(() => {
   const types = {} as Record<string, number>
@@ -146,6 +25,15 @@ const resultsByType = computed(() => {
     types[result.type] = (types[result.type] || 0) + 1
   })
   return types
+})
+
+const filteredResults = computed(() => {
+  if (!searchQuery.value) return []
+  return searchResults.value.filter((result) =>
+    selectedCategory.value === 'all'
+      ? true
+      : result.type === selectedCategory.value
+  )
 })
 </script>
 
@@ -176,7 +64,7 @@ const resultsByType = computed(() => {
         <Button
           v-for="category in categories"
           :key="category.value"
-          :variant="selectedCategory === category.value ? 'default' : 'outline'"
+          :variant="selectedCategory === category.value ? 'primary' : 'outline'"
           size="sm"
           @click="selectedCategory = category.value"
         >
@@ -196,28 +84,34 @@ const resultsByType = computed(() => {
       </div>
 
       <!-- Results -->
-      <div v-if="searchResults.length" class="grid gap-4">
+      <div v-if="filteredResults.length" class="grid gap-4">
         <NuxtLink
-          v-for="result in searchResults"
+          v-for="result in filteredResults"
           :key="result.to"
           :to="result.to"
           class="flex gap-4 items-start w-full hover:bg-muted p-4 rounded-lg"
         >
-          <img
-            :src="result.image"
-            class="w-16 h-16 object-cover rounded-lg shrink-0"
-          />
           <div class="flex-1 min-w-0">
-            <div class="flex flex-wrap items-center gap-2">
-              <Badge variant="secondary" class="capitalize shrink-0">
-                {{ result.type }}
-              </Badge>
-              <p class="font-medium truncate">{{ result.title }}</p>
-            </div>
-            <p class="text-sm text-muted-foreground line-clamp-2 mt-1">
+            <p
+              v-if="result.info"
+              class="text-xs sm:text-sm text-muted-foreground"
+            >
+              {{ result.info }}
+            </p>
+            <p
+              class="font-medium truncate text-sm sm:text-base text-foreground"
+            >
+              {{ result.title }}
+            </p>
+            <p class="text-xs sm:text-sm text-muted-foreground line-clamp-2">
               {{ result.description }}
             </p>
           </div>
+          <img
+            v-if="result.image"
+            :src="result.image"
+            class="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded-lg shrink-0"
+          />
         </NuxtLink>
       </div>
 
