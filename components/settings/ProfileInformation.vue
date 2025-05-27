@@ -70,12 +70,7 @@ function onSubmit(e: Event) {
         <FormItem>
           <FormLabel>Photo</FormLabel>
           <FormControl>
-            <Input
-              v-bind="componentField"
-              type="url"
-              placeholder="https://example.com/your-photo.jpg"
-              class="max-w-md"
-            />
+            <ImageInput v-bind="componentField" class="max-w-md" />
           </FormControl>
           <FormDescription />
           <FormMessage />

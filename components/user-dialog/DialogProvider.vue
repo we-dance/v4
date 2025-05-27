@@ -24,13 +24,13 @@ const isOpen = computed({
 
 <template>
   <Dialog :open="isOpen" @update:open="isOpen = $event">
-    <DialogContent>
+    <DialogScrollContent>
       <component
         v-if="isOpen"
         :is="currentComponent"
         v-bind="currentProps"
         @close="dialog.close()"
       />
-    </DialogContent>
+    </DialogScrollContent>
   </Dialog>
 </template>

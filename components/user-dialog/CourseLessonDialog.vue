@@ -84,9 +84,9 @@ const onSubmit = form.handleSubmit(async (values) => {
 
     <FormField name="videoId" v-slot="{ componentField }">
       <FormItem>
-        <FormLabel>Video ID</FormLabel>
+        <FormLabel>Video</FormLabel>
         <FormControl>
-          <Input v-bind="componentField" placeholder="Enter video ID" />
+          <VideoInput v-bind="componentField" />
         </FormControl>
         <FormMessage />
       </FormItem>

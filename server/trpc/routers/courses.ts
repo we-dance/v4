@@ -367,7 +367,7 @@ export const coursesRouter = router({
         name: z.string().min(1),
         description: z.string().optional(),
         subheader: z.string().optional(),
-        coverUrl: z.string().optional(),
+        coverUrl: z.string().optional().nullable(),
         status: z.string().optional(),
       })
     )

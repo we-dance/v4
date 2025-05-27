@@ -17,11 +17,11 @@ const avatarUrl = computed(() => {
 </script>
 
 <template>
-  <img
+  <NuxtImg
     v-if="avatarUrl"
     :src="avatarUrl"
     alt="profile avatar"
-    class="bg-white"
+    class="bg-white object-cover"
   />
   <div v-else>
     <div class="bg-muted w-full h-full flex items-center justify-center">

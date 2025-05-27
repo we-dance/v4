@@ -97,9 +97,14 @@ export default defineNuxtConfig({
     stripeSecretKey: '',
     stripePublicKey: '',
     stripeWebhookSecret: '',
+    cloudinaryApiKey: '',
+    cloudinaryApiSecret: '',
+    muxTokenId: '',
+    muxTokenSecret: '',
     public: {
       appUrl: '',
       googleMapsApiKey: '',
+      cloudinaryCloudName: '',
     },
   },
 })

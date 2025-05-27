@@ -22,7 +22,7 @@ const statusSchema = z.enum(['draft', 'published', 'archived']).default('draft')
 const schema = z.object({
   name: z.string().min(1),
   description: z.string().optional().default(''),
-  coverUrl: z.string().optional().default(''),
+  coverUrl: z.string().optional().nullable().default(null),
   status: statusSchema,
 })
 
@@ -134,7 +134,7 @@ const askToDelete = () => {
         <FormItem>
           <FormLabel>Cover Image URL</FormLabel>
           <FormControl>
-            <Input v-bind="componentField" />
+            <ImageInput v-bind="componentField" />
           </FormControl>
           <FormMessage />
         </FormItem>

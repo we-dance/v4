@@ -1,5 +1,3 @@
-import { ref } from 'vue'
-
 interface DialogOptions {
   component: string
   props?: Record<string, any>
