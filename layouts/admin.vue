@@ -8,6 +8,11 @@ const items = [
     icon: 'lucide:calendar',
   },
   {
+    to: '/admin/media',
+    label: 'Media',
+    icon: 'lucide:image',
+  },
+  {
     to: '/admin/courses',
     label: 'Courses',
     icon: 'lucide:book-open',

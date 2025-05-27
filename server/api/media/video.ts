@@ -1,5 +1,7 @@
-import { defineEventHandler, readMultipartFormData, createError } from 'h3'
+import { defineEventHandler } from 'h3'
 import { Mux } from '@mux/mux-node'
+import { prisma } from '~/server/prisma'
+import { getServerSession } from '#auth'
 
 const mux = new Mux({
   tokenId: useRuntimeConfig().muxTokenId,
@@ -7,21 +9,15 @@ const mux = new Mux({
 })
 
 export default defineEventHandler(async (event) => {
+  const session = await getServerSession(event)
+  if (!session) {
+    return {
+      statusCode: 401,
+      statusMessage: 'Unauthorized',
+    }
+  }
+
   try {
-    const formData = await readMultipartFormData(event)
-
-    if (!formData) {
-      throw createError({
-        statusCode: 400,
-        statusMessage: 'No form data provided',
-      })
-    }
-
-    const fileField = formData.find((f) => f.name === 'file')
-    if (!fileField || !fileField.data) {
-      throw createError({ statusCode: 400, statusMessage: 'No file uploaded' })
-    }
-
     const upload = await mux.video.uploads.create({
       new_asset_settings: {
         playback_policy: ['public'],
@@ -29,14 +25,20 @@ export default defineEventHandler(async (event) => {
       cors_origin: '*',
     })
 
+    const muxVideo = await prisma.muxVideo.create({
+      data: {
+        userId: session.user.id,
+        uploadId: upload.id,
+        status: 'waiting',
+      },
+    })
+
+    return { url: upload.url, id: muxVideo.id }
+  } catch (error) {
+    console.error('Error creating Mux upload URL:', error)
     return {
-      success: true,
-      videoId: upload.id,
-    }
-  } catch (error: any) {
-    return {
-      success: false,
-      message: error.message || 'Upload failed',
+      statusCode: 500,
+      statusMessage: 'Failed to create upload URL',
     }
   }
 })

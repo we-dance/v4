@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     transpile: ['vee-validate', 'trpc-nuxt'],
   },
 
+  vite: {
+    server: {
+      allowedHosts: true,
+    },
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -101,6 +107,7 @@ export default defineNuxtConfig({
     cloudinaryApiSecret: '',
     muxTokenId: '',
     muxTokenSecret: '',
+    muxWebhookSecret: '',
     public: {
       appUrl: '',
       googleMapsApiKey: '',

@@ -21,6 +21,7 @@
     "@internationalized/date": "^3.7.0",
     "@mux/mux-node": "^11.1.0",
     "@mux/mux-player": "^3.3.2",
+    "@mux/mux-uploader": "^1.2.0",
     "@nuxt/content": "3.4.0",
     "@nuxt/icon": "1.11.0",
     "@nuxt/image": "^1.10.0",
