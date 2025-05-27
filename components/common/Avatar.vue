@@ -26,7 +26,7 @@ const avatarUrl = computed(() => {
   <div v-else>
     <div class="bg-muted w-full h-full flex items-center justify-center">
       <Icon
-        v-if="props.profile.type === 'Venue'"
+        v-if="props.profile?.type === 'Venue'"
         name="ph:building-fill"
         class="w-16 h-16 text-muted-foreground"
       />
