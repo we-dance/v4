@@ -66,16 +66,24 @@ model User {
   deletedReason        String?
   notificationSettings Json      @default("{}")
 
-  profile         Profile?       @relation("owned_by")
-  profilesCreated Profile[]      @relation("profile_created_by")
-  accounts        Account[]
-  sessions        Session[]
-  subscriptions   Subscription[]
-  muxVideos       MuxVideo[]
+  profile             Profile?             @relation("owned_by")
+  profilesCreated     Profile[]            @relation("profile_created_by")
+  accounts            Account[]
+  sessions            Session[]
+  subscriptions       Subscription[]
+  muxVideos           MuxVideo[]
+  passwordResetTokens PasswordResetToken[]
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   lastLoginAt DateTime @default(now())
+}
+
+model PasswordResetToken {
+  token   String   @id
+  userId  String
+  user    User     @relation(fields: [userId], references: [id])
+  expires DateTime
 }
 
 model Country {

@@ -51,8 +51,6 @@ export const usersRouter = router({
     .mutation(async ({ input }) => {
       const { id, data } = input
 
-      console.log('trpc.users.updateNotificationSettings', data)
-
       return await prisma.user.update({
         where: {
           id,
