@@ -5,7 +5,9 @@ Feature: Auth
 
   Scenario: Register with valid credentials
     When I visit the register page
-    And I fill in "username" with a unique username
+    And I fill in "firstName" with "Test"
+    And I fill in "lastName" with "User"
+    And I fill in "phone" with "0123456789"
     And I fill in "email" with a valid email
     And I fill in "password" with a valid password
     And I check the email consent checkbox
