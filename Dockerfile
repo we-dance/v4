@@ -11,7 +11,7 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 
 COPY package.json pnpm-lock.yaml ./
 
-RUN pnpm install
+RUN pnpm install --frozen-lockfile
 
 RUN pnpm prisma generate
 
