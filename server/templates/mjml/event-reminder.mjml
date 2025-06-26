@@ -1,0 +1,114 @@
+<mjml>
+  <mj-head>
+    <mj-title>{{eventName}} - Event Reminder</mj-title>
+    <mj-preview>Don't forget about your upcoming dance event!</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section full-width="full-width" background-color="#7C3AED" padding="0">
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          color="#ffffff"
+          font-size="13px"
+          padding="30px 25px"
+          text-transform="uppercase"
+        >
+          Event Reminder
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#212b35"
+          font-weight="bold"
+          font-size="24px"
+          align="center"
+        >
+          {{eventName}}
+        </mj-text>
+        <mj-text color="#637381" font-size="16px" align="center">
+          Hey {{name}}, don't forget about your upcoming dance event!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0px 40px 40px 40px">
+      <mj-column width="50%">
+        <mj-text color="#212b35" font-size="16px" font-weight="bold">
+          📅 When
+        </mj-text>
+        <mj-text color="#637381" font-size="14px"> {{eventDate}} </mj-text>
+        <mj-text color="#637381" font-size="14px"> {{eventTime}} </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#212b35" font-size="16px" font-weight="bold">
+          📍 Where
+        </mj-text>
+        <mj-text color="#637381" font-size="14px"> {{venueName}} </mj-text>
+        <mj-text color="#637381" font-size="14px"> {{venueAddress}} </mj-text>
+      </mj-column>
+    </mj-section>
+
+    {{#if eventDescription}}
+    <mj-section background-color="#ffffff" padding="0px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-divider border-color="#DFE3E8" border-width="1px" />
+        <mj-text color="#212b35" font-size="16px" font-weight="bold">
+          About This Event
+        </mj-text>
+        <mj-text color="#637381" font-size="14px" line-height="22px">
+          {{eventDescription}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    {{/if}}
+
+    <mj-section background-color="#ffffff" padding="0px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-button
+          background-color="#7C3AED"
+          border-radius="6px"
+          color="#ffffff"
+          font-weight="bold"
+          font-size="14px"
+          text-transform="uppercase"
+          href="{{eventUrl}}"
+        >
+          View Event Details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F4F4F4" padding="40px 30px 30px 30px">
+      <mj-column width="100%">
+        <mj-text color="#637381" font-size="12px" align="center">
+          Can't make it?
+          <a href="{{cancelUrl}}" style="color: #7c3aed"
+            >Cancel your attendance</a
+          >
+        </mj-text>
+        <mj-text color="#637381" font-size="12px" align="center">
+          <a
+            href="{{unsubscribeUrl}}"
+            style="color: #637381; text-decoration: underline"
+            >Unsubscribe</a
+          >
+          from event reminders
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

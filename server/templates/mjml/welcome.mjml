@@ -1,0 +1,133 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to WeDance!</mj-title>
+    <mj-preview
+      >Welcome to the WeDance community - let's start dancing!</mj-preview
+    >
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(37, 44, 97,
+      0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(37, 44, 97, 0.15);
+      box-shadow: 1px 4px 11px 0px rgba(37, 44, 97, 0.15); }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section full-width="full-width" background-color="#7C3AED" padding="0">
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          color="#ffffff"
+          font-size="13px"
+          padding="30px 25px"
+          text-transform="uppercase"
+          letter-spacing="1px"
+        >
+          Welcome to WeDance
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="20px 0px"
+      css-class="body-section"
+    >
+      <mj-column width="100%">
+        <mj-text
+          color="#212b35"
+          font-weight="bold"
+          font-size="20px"
+          align="center"
+          text-transform="capitalize"
+        >
+          Hello {{name}}!
+        </mj-text>
+        <mj-text color="#637381" font-size="16px" align="center">
+          Welcome to WeDance! We're excited to have you join our vibrant
+          community of dancers.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 40px 40px 40px"
+      css-class="body-section"
+    >
+      <mj-column width="100%">
+        <mj-text color="#212b35" font-size="16px">
+          <strong>Here's what you can do with WeDance:</strong>
+        </mj-text>
+        <mj-text color="#637381" font-size="14px" line-height="22px">
+          • Discover dance events near you<br />
+          • Connect with fellow dancers<br />
+          • Book classes with amazing instructors<br />
+          • Join our community discussions<br />
+          • Share your dance journey
+        </mj-text>
+        <mj-button
+          background-color="#7C3AED"
+          border-radius="6px"
+          color="#ffffff"
+          font-weight="bold"
+          font-size="14px"
+          text-transform="uppercase"
+          letter-spacing="1px"
+          href="{{dashboardUrl}}"
+        >
+          Get Started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 40px 40px 40px"
+      css-class="body-section"
+    >
+      <mj-column width="100%">
+        <mj-divider border-color="#DFE3E8" border-width="1px" />
+        <mj-text color="#212b35" font-size="16px">
+          <strong>Need help getting started?</strong>
+        </mj-text>
+        <mj-text color="#637381" font-size="14px" line-height="22px">
+          Check out our
+          <a href="{{helpUrl}}" style="color: #7c3aed">getting started guide</a>
+          or reach out to our support team if you have any questions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F4F4F4" padding="40px 30px 30px 30px">
+      <mj-column width="100%">
+        <mj-text
+          color="#212b35"
+          font-weight="bold"
+          font-size="14px"
+          align="center"
+          text-transform="uppercase"
+        >
+          WeDance Team
+        </mj-text>
+        <mj-text color="#637381" font-size="14px" align="center">
+          Let's dance together! 💃🕺
+        </mj-text>
+        <mj-text color="#637381" font-size="12px" align="center">
+          <a
+            href="{{unsubscribeUrl}}"
+            style="color: #637381; text-decoration: underline"
+            >Unsubscribe</a
+          >
+          from these emails
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
