@@ -28,6 +28,7 @@ const onSubmit = form.handleSubmit(
           token: useRoute().query.token,
         },
       })
+      isFinished.value = true
     } catch (e) {
       console.log(e)
       toast.error(e.message)
