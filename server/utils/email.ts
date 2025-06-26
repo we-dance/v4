@@ -4,6 +4,7 @@ import Handlebars from 'handlebars'
 import mjml2html from 'mjml'
 import { readFile } from 'fs/promises'
 import path from 'path'
+import { prisma } from '~/server/prisma'
 
 const mailgun = new Mailgun(FormData)
 const mg = mailgun.client({
@@ -87,10 +88,21 @@ export async function sendEmail(template: string, params: Record<string, any>) {
     throw new Error(`Template '${template}' has no body or mjmlFile defined`)
   }
 
-  await mg.messages.create(useRuntimeConfig().mailgunDomain, {
+  const result = await mg.messages.create(useRuntimeConfig().mailgunDomain, {
     from: templateConfig.from,
     to: toAddress,
     subject: compileTemplate(templateConfig.subject, params),
     html: htmlContent,
+  })
+
+  await prisma.emailSent.create({
+    data: {
+      userId: params.userId,
+      mailgunId: result.id || '',
+      type: template,
+      subject: compileTemplate(templateConfig.subject, params),
+      params,
+      status: 'queued',
+    },
   })
 }

@@ -32,6 +32,7 @@ export default eventHandler(async (event) => {
 
   try {
     await sendEmail('forgot-password', {
+      userId: user.id,
       email: user.email,
       name: user.firstName,
       resetLink,

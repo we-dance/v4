@@ -111,6 +111,7 @@ export default defineNuxtConfig({
     mailgunApiKey: '',
     mailgunDomain: '',
     mailgunHost: '',
+    mailgunWebhookKey: '',
     public: {
       appUrl: '',
       googleMapsApiKey: '',
