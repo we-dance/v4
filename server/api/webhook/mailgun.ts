@@ -140,6 +140,8 @@ export default eventHandler(async (event) => {
       },
     })
 
+    console.log(`Updated email ${emailRecord.id} with event: ${eventType}`)
+
     if (['opened', 'clicked'].includes(newStatus)) {
       posthog.capture({
         distinctId: emailRecord.userId,
@@ -149,9 +151,8 @@ export default eventHandler(async (event) => {
           type: emailRecord.type,
         },
       })
+      await posthog.shutdown()
     }
-
-    console.log(`Updated email ${emailRecord.id} with event: ${eventType}`)
 
     return { received: true }
   } catch (error: any) {

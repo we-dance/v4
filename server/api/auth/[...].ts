@@ -107,6 +107,7 @@ export default NuxtAuthHandler({
           distinctId: user.id,
           event: 'user_logged_in',
         })
+        await posthog.shutdown()
 
         return user
       },
@@ -192,6 +193,7 @@ export default NuxtAuthHandler({
           distinctId: user.id,
           event: 'user_registered',
         })
+        await posthog.shutdown()
 
         const appUrl = useRuntimeConfig().public.appUrl
         await sendEmail('welcome', {

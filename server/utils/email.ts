@@ -115,4 +115,5 @@ export async function sendEmail(template: string, params: Record<string, any>) {
       type: template,
     },
   })
+  await posthog.shutdown()
 }
