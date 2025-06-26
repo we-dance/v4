@@ -5,6 +5,7 @@ import mjml2html from 'mjml'
 import { readFile } from 'fs/promises'
 import path from 'path'
 import { prisma } from '~/server/prisma'
+import posthog from '~/server/utils/posthog'
 
 const mailgun = new Mailgun(FormData)
 const mg = mailgun.client({
@@ -103,6 +104,15 @@ export async function sendEmail(template: string, params: Record<string, any>) {
       subject: compileTemplate(templateConfig.subject, params),
       params,
       status: 'queued',
+    },
+  })
+
+  posthog.capture({
+    distinctId: params.userId,
+    event: 'email_sent',
+    properties: {
+      mailgunId: result.id,
+      type: template,
     },
   })
 }

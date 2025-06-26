@@ -1,6 +1,7 @@
 import crypto from 'crypto'
 import { prisma } from '~/server/prisma'
 import { readBody } from 'h3'
+import posthog from '~/server/utils/posthog'
 
 export default eventHandler(async (event) => {
   try {
@@ -138,6 +139,17 @@ export default eventHandler(async (event) => {
         events: existingEvents as any,
       },
     })
+
+    if (['opened', 'clicked'].includes(newStatus)) {
+      posthog.capture({
+        distinctId: emailRecord.userId,
+        event: 'email_' + newStatus,
+        properties: {
+          mailgunId: emailRecord.mailgunId,
+          type: emailRecord.type,
+        },
+      })
+    }
 
     console.log(`Updated email ${emailRecord.id} with event: ${eventType}`)
 

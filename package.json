@@ -60,6 +60,7 @@
     "next-auth": "4.21.1",
     "nuxt": "3.16.2",
     "nuxt-posthog": "1.6.3",
+    "posthog-node": "^5.1.1",
     "radix-vue": "^1.9.17",
     "reka-ui": "^2.2.0",
     "shadcn-nuxt": "2.0.0",

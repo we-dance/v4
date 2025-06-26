@@ -8,6 +8,7 @@ import { defaultNotificationsSettings, registerSchema } from '~/schemas/user'
 import { getSlug } from '~/utils/slug'
 import { defaultPrivacySettings } from '~/schemas/profile'
 import { nanoid } from 'nanoid'
+import posthog from '~/server/utils/posthog'
 
 const prisma = new PrismaClient()
 
@@ -102,6 +103,11 @@ export default NuxtAuthHandler({
           return null
         }
 
+        posthog.capture({
+          distinctId: user.id,
+          event: 'user_logged_in',
+        })
+
         return user
       },
     }),
@@ -181,6 +187,11 @@ export default NuxtAuthHandler({
         } catch (error: any) {
           throw error
         }
+
+        posthog.capture({
+          distinctId: user.id,
+          event: 'user_registered',
+        })
 
         const appUrl = useRuntimeConfig().public.appUrl
         await sendEmail('welcome', {
