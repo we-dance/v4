@@ -14,14 +14,10 @@ const callbackUrl = ref(useRoute().query.redirect || '/')
 const schema = z.object({
   email: z.string().email('Please enter a valid email address'),
   password: z.string().min(8, 'Password must be at least 8 characters'),
-  rememberMe: z.boolean().optional(),
 })
 
 const form = useForm({
   validationSchema: toTypedSchema(schema),
-  initialValues: {
-    rememberMe: false,
-  },
 })
 
 const onSubmit = form.handleSubmit(
@@ -92,16 +88,7 @@ const onSubmit = form.handleSubmit(
       </FormItem>
     </FormField>
 
-    <div class="flex items-center justify-between">
-      <FormField v-slot="{ componentField }" name="rememberMe">
-        <FormItem class="flex flex-row items-center space-x-2 space-y-0">
-          <FormControl>
-            <Checkbox v-bind="componentField" :disabled="isLoading" />
-          </FormControl>
-          <FormLabel class="text-sm font-normal">Remember me</FormLabel>
-        </FormItem>
-      </FormField>
-
+    <div class="flex items-center justify-end">
       <NuxtLink
         to="/forgot-password"
         class="text-sm text-info hover:underline"

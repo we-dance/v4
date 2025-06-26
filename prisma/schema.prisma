@@ -66,16 +66,25 @@ model User {
   deletedReason        String?
   notificationSettings Json      @default("{}")
 
-  profile         Profile?       @relation("owned_by")
-  profilesCreated Profile[]      @relation("profile_created_by")
-  accounts        Account[]
-  sessions        Session[]
-  subscriptions   Subscription[]
-  muxVideos       MuxVideo[]
+  profile             Profile?             @relation("owned_by")
+  profilesCreated     Profile[]            @relation("profile_created_by")
+  accounts            Account[]
+  sessions            Session[]
+  subscriptions       Subscription[]
+  muxVideos           MuxVideo[]
+  passwordResetTokens PasswordResetToken[]
+  emailsSent          EmailSent[]
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   lastLoginAt DateTime @default(now())
+}
+
+model PasswordResetToken {
+  token   String   @id
+  userId  String
+  user    User     @relation(fields: [userId], references: [id])
+  expires DateTime
 }
 
 model Country {
@@ -507,4 +516,20 @@ model Subscription {
   canceledAt DateTime?
   createdAt  DateTime  @default(now())
   updatedAt  DateTime  @updatedAt
+}
+
+model EmailSent {
+  id Int @id @default(autoincrement())
+
+  mailgunId String
+  userId    String
+  user      User   @relation(fields: [userId], references: [id])
+  type      String
+  subject   String
+  params    Json
+  status    String
+  events    Json   @default("[]")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

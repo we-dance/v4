@@ -108,7 +108,13 @@ export default defineNuxtConfig({
     muxTokenId: '',
     muxTokenSecret: '',
     muxWebhookSecret: '',
+    mailgunApiKey: '',
+    mailgunDomain: '',
+    mailgunHost: '',
+    mailgunWebhookKey: '',
     public: {
+      posthogApiHost: '',
+      posthogApiKey: '',
       appUrl: '',
       googleMapsApiKey: '',
       cloudinaryCloudName: '',

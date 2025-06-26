@@ -1,0 +1,143 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to WeDance!</mj-title>
+    <mj-preview
+      >Welcome to the WeDance community - let's start dancing!</mj-preview
+    >
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F8F8" width="600px">
+    <mj-section background-color="#ffffff" padding="50px 40px 20px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="32px"
+          line-height="40px"
+          align="center"
+          padding-bottom="20px"
+        >
+          Welcome to WeDance!
+        </mj-text>
+        {{#if name}}
+        <mj-text
+          color="#737373"
+          font-size="18px"
+          line-height="28px"
+          align="center"
+          padding-bottom="10px"
+        >
+          Hello {{name}},
+        </mj-text>
+        {{/if}}
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+        >
+          We're excited to have you join our vibrant community of dancers.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+          padding-bottom="20px"
+        >
+          <strong>Here's what you can do with WeDance:</strong>
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+          padding-bottom="30px"
+        >
+          • Discover dance events near you<br />
+          • Connect with fellow dancers<br />
+          • Book classes with amazing instructors<br />
+          • Join our community discussions<br />
+          • Share your dance journey
+        </mj-text>
+        <mj-button
+          background-color="#1f1f1f"
+          border-radius="6px"
+          color="#ffffff"
+          font-weight="600"
+          font-size="16px"
+          text-transform="none"
+          href="{{getStartedUrl}}"
+          padding="20px 0px"
+          inner-padding="16px 32px"
+        >
+          Get Started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="30px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-divider
+          border-color="#E4E4E7"
+          border-width="1px"
+          padding="20px 0px"
+        />
+        <mj-text
+          color="#737373"
+          font-size="15px"
+          line-height="22px"
+          align="center"
+          padding-top="10px"
+        >
+          <strong>Ready to start dancing?</strong>
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          align="center"
+          padding-top="8px"
+        >
+          Explore events in your area and connect with the dance community near
+          you!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F8F9FA" padding="40px 30px 35px 30px">
+      <mj-column width="100%">
+        <mj-image
+          src="https://v4.wedance.vip/logo-full.png"
+          alt="WeDance Logo"
+          width="150px"
+          align="center"
+          padding-bottom="30px"
+        />
+        <mj-text
+          color="#A1A1AA"
+          font-size="12px"
+          line-height="16px"
+          align="center"
+        >
+          Let's dance together! 💃🕺
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -198,7 +198,7 @@
             <NuxtLink to="/" class="text-foreground font-bold text-xl"
               >WeDance</NuxtLink
             >
-            <span class="text-sm">© 2024 WeDance. All rights reserved.</span>
+            <span class="text-sm">© 2025 WeDance. All rights reserved.</span>
           </div>
           <div class="mt-4 md:mt-0">
             <div class="flex gap-6 text-sm">
