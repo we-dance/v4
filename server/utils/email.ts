@@ -1,9 +1,11 @@
-import * as mailgun from 'mailgun-js'
+import Mailgun from 'mailgun.js'
+import FormData from 'form-data'
 
-const mg = mailgun({
-  apiKey: useRuntimeConfig().mailgunApiKey,
-  domain: useRuntimeConfig().mailgunDomain,
-  host: useRuntimeConfig().mailgunHost,
+const mailgun = new Mailgun(FormData)
+const mg = mailgun.client({
+  username: 'api',
+  key: useRuntimeConfig().mailgunApiKey,
+  url: useRuntimeConfig().mailgunHost || 'https://api.mailgun.net',
 })
 
 const templates: Record<string, any> = {
@@ -15,7 +17,7 @@ const templates: Record<string, any> = {
 }
 
 export async function sendEmail(template: string, params: Record<string, any>) {
-  await mg.messages().send({
+  await mg.messages.create(useRuntimeConfig().mailgunDomain, {
     from: templates[template].from,
     to: `${params.name} <${params.email}>`,
     subject: templates[template].subject,
