@@ -31,7 +31,11 @@ export default eventHandler(async (event) => {
   const resetLink = `${appUrl}/reset-password?token=${token}`
 
   try {
-    await sendEmail('forgot-password', { email: user.email, resetLink })
+    await sendEmail('forgot-password', {
+      email: user.email,
+      name: user.firstName,
+      resetLink,
+    })
 
     return { success: true }
   } catch (error: any) {
