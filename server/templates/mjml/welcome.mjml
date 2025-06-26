@@ -82,32 +82,12 @@
           font-weight="600"
           font-size="16px"
           text-transform="none"
-          href="{{dashboardUrl}}"
+          href="{{getStartedUrl}}"
           padding="20px 0px"
           inner-padding="16px 32px"
         >
           Get Started
         </mj-button>
-        <mj-spacer height="30px" />
-        <mj-text
-          color="#737373"
-          font-size="14px"
-          line-height="20px"
-          align="center"
-          padding-bottom="15px"
-        >
-          Need help? Check out our getting started guide:
-        </mj-text>
-        <mj-text
-          color="#F91C70"
-          font-size="12px"
-          line-height="18px"
-          align="center"
-          background-color="#F8F9FA"
-          padding="12px 20px"
-        >
-          {{helpUrl}}
-        </mj-text>
       </mj-column>
     </mj-section>
 

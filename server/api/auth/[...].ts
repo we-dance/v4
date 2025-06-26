@@ -182,6 +182,13 @@ export default NuxtAuthHandler({
           throw error
         }
 
+        const appUrl = useRuntimeConfig().public.appUrl
+        await sendEmail('welcome', {
+          email: user.email,
+          name: user.firstName,
+          getStartedUrl: appUrl,
+        })
+
         return user
       },
     }),
