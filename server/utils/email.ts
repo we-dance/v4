@@ -16,39 +16,26 @@ const mg = mailgun.client({
 
 interface EmailTemplate {
   subject: string
-  body?: string
-  mjmlFile?: string
+  template: string
   from: string
-  type: 'simple' | 'mjml'
 }
 
 const templates: Record<string, EmailTemplate> = {
   'forgot-password': {
     subject: 'Reset Your WeDance Password',
-    mjmlFile: 'forgot-password',
+    template: 'forgot-password',
     from: 'WeDance <noreply@wedance.vip>',
-    type: 'mjml',
   },
   welcome: {
     subject: 'Welcome to WeDance!',
-    mjmlFile: 'welcome',
+    template: 'welcome',
     from: 'WeDance <noreply@wedance.vip>',
-    type: 'mjml',
   },
   'event-reminder': {
     subject: 'Event Reminder: {{eventName}}',
-    mjmlFile: 'event-reminder',
+    template: 'event-reminder',
     from: 'WeDance <noreply@wedance.vip>',
-    type: 'mjml',
   },
-}
-
-function compileTemplate(
-  template: string,
-  params: Record<string, any>
-): string {
-  const compiledTemplate = Handlebars.compile(template)
-  return compiledTemplate(params)
 }
 
 async function compileMjmlTemplate(
@@ -60,7 +47,7 @@ async function compileMjmlTemplate(
       .getItemRaw(`${mjmlFile}.mjml`)
       .then((content) => new TextDecoder().decode(content))
 
-    const compiledMjml = compileTemplate(mjmlContent, params)
+    const compiledMjml = Handlebars.compile(mjmlContent, params)
 
     const { html } = mjml2html(compiledMjml)
     return html
@@ -82,10 +69,8 @@ export async function sendEmail(template: string, params: Record<string, any>) {
 
   let htmlContent: string
 
-  if (templateConfig.type === 'mjml' && templateConfig.mjmlFile) {
-    htmlContent = await compileMjmlTemplate(templateConfig.mjmlFile, params)
-  } else if (templateConfig.body) {
-    htmlContent = compileTemplate(templateConfig.body, params)
+  if (templateConfig.template) {
+    htmlContent = await compileMjmlTemplate(templateConfig.template, params)
   } else {
     throw new Error(`Template '${template}' has no body or mjmlFile defined`)
   }
