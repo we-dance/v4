@@ -57,14 +57,12 @@ export default eventHandler(async (event) => {
       code,
     } = eventData
 
-    // Find the email record by message ID
     const messageId = message?.headers?.['message-id']
     if (!messageId) {
       console.warn('No message ID found in webhook event')
       return { received: true }
     }
 
-    // Update the email record
     const emailRecord = await prisma.emailSent.findFirst({
       where: {
         mailgunId: `<${messageId}>`,
@@ -76,12 +74,10 @@ export default eventHandler(async (event) => {
       return { received: true }
     }
 
-    // Parse existing events
     const existingEvents = Array.isArray((emailRecord as any).events)
       ? ((emailRecord as any).events as any[])
       : []
 
-    // Add new event
     const newEvent = {
       event: eventType,
       timestamp: eventTimestamp,
@@ -94,8 +90,7 @@ export default eventHandler(async (event) => {
 
     existingEvents.push(newEvent)
 
-    // Determine the new status based on the event type
-    let newStatus = emailRecord.status
+    let newStatus = eventType
     switch (eventType) {
       case 'accepted':
         newStatus = 'accepted'
@@ -129,7 +124,6 @@ export default eventHandler(async (event) => {
         break
     }
 
-    // Update the email record
     await prisma.emailSent.update({
       where: {
         id: emailRecord.id,
@@ -139,8 +133,6 @@ export default eventHandler(async (event) => {
         events: existingEvents as any,
       },
     })
-
-    console.log(`Updated email ${emailRecord.id} with event: ${eventType}`)
 
     if (['opened', 'clicked'].includes(newStatus)) {
       posthog.capture({
@@ -158,7 +150,6 @@ export default eventHandler(async (event) => {
   } catch (error: any) {
     console.error('Mailgun webhook error:', error)
 
-    // Re-throw if it's already a proper error
     if (error.statusCode) {
       throw error
     }

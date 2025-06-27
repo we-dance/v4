@@ -14,6 +14,15 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'templates',
+        dir: './templates',
+      },
+    ],
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},
