@@ -11,14 +11,7 @@ const props = defineProps({
 
 const emit = defineEmits(['select'])
 
-const { date } = toRefs(props)
-
-// persist the date value in the calendar
-const calendarValue = ref(parseDate(date.value))
-
-watch(date, (newDate) => {
-  calendarValue.value = parseDate(newDate)
-})
+const calendarValue = ref(parseDate(props.date))
 
 const handleSelect = (val) => {
   emit('select', val.toString())
@@ -35,8 +28,8 @@ const handleSelect = (val) => {
     <PopoverContent>
       <Calendar
         mode="single"
-        :v-model="parseDate(date)"
-        @update:model-value="select"
+        :modelValue="calendarValue"
+        @update:model-value="handleSelect"
       />
     </PopoverContent>
   </Popover>

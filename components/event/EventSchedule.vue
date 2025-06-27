@@ -27,7 +27,7 @@ const $i18n = {
 }
 
 const select = (day) => {
-  emit('select-date', day.toString())
+  emit('select-date', day)
 }
 </script>
 
