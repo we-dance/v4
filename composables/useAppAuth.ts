@@ -7,6 +7,20 @@ export const useAppAuth = () => {
 
   const isLoggedIn = computed(() => status.value === 'authenticated')
 
+  const { $clientPosthog } = useNuxtApp()
+  watch(
+    session,
+    () => {
+      if (process.client && session.value) {
+        $clientPosthog.identify(session.value.user.id, {
+          username: session.value.profile.username,
+          email: session.value.user.email,
+        })
+      }
+    },
+    { immediate: true }
+  )
+
   const auth = async (query: string) => {
     if (status.value === 'authenticated') {
       return session.value
