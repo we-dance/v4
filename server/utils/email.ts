@@ -56,9 +56,9 @@ async function compileMjmlTemplate(
   params: Record<string, any>
 ): Promise<string> {
   try {
-    const mjmlContent = await useStorage('assets:emails').getItem(
-      `${mjmlFile}.mjml`
-    )
+    const mjmlContent = await useStorage('assets:emails')
+      .getItemRaw(`${mjmlFile}.mjml`)
+      .then((content) => new TextDecoder().decode(content))
 
     const compiledMjml = compileTemplate(mjmlContent, params)
 
