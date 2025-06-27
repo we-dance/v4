@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { Community } from '~/schemas/communitySchema'
 import type { City } from '@prisma/client'
-const { communities } = useCommunities()
 
 const props = defineProps({
   community: {
@@ -13,6 +12,15 @@ const props = defineProps({
     default: null,
   },
 })
+
+const { $client } = useNuxtApp()
+
+const { data: communities } = useQuery<any>({
+  queryKey: ['communities.list'],
+  queryFn: () => $client.communities.list.query(),
+  staleTime: 1000 * 60 * 60 * 24, // 1 day cache
+})
+
 const communitiesLimit = ref(5)
 
 function loadMoreCommunities() {
@@ -57,8 +65,6 @@ const formatNumber = (num: number) => {
 }
 
 const { citySearchResults, cityQuery } = useCities()
-
-const { $client } = useNuxtApp()
 
 function onSelectCity(city: any) {
   const existingCity = props.community?.cities.find((c) => c.id === city.id)

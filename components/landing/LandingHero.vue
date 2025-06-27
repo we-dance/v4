@@ -17,8 +17,8 @@ const {
   isLoading,
   suspense,
 } = useQuery<any>({
-  queryKey: ['communities.index'],
-  queryFn: () => $client.communities.index.query(),
+  queryKey: ['communities.list'],
+  queryFn: () => $client.communities.list.query(),
   staleTime: 1000 * 60 * 60 * 24, // 1 day cache
 })
 
