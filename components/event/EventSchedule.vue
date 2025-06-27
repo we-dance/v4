@@ -1,6 +1,5 @@
 <script setup>
 import { getYmd, getDate, getDay } from '~/utils'
-import DateSelector from './DateSelector.vue'
 
 const props = defineProps({
   events: Array,

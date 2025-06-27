@@ -1,6 +1,5 @@
 <script setup>
-import { ref, watch, toRefs } from 'vue'
-import { parseDate, today, getLocalTimeZone } from '@internationalized/date'
+import { parseDate } from '@internationalized/date'
 
 const props = defineProps({
   date: {
