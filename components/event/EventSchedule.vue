@@ -1,6 +1,6 @@
 <script setup>
 import { getYmd, getDate, getDay } from '~/utils'
-import { parseDate } from '@internationalized/date'
+import { parseDate, today, getLocalTimeZone } from '@internationalized/date'
 
 const props = defineProps({
   events: Array,
@@ -29,6 +29,11 @@ const $i18n = {
 const select = (day) => {
   emit('select-date', day.toString())
 }
+
+const calendarValue = ref(today(getLocalTimeZone()))
+const handleMonthUpdate = (newMonth) => {
+  calendarValue.value = newMonth
+}
 </script>
 
 <template>
@@ -55,9 +60,10 @@ const select = (day) => {
               <PopoverContent>
                 <Calendar
                   mode="single"
-                  :modelValue="parseDate(date)"
+                  :modelValue="calendarValue"
                   :numberOfMonths="1"
                   @update:model-value="select"
+                  @update:month="handleMonthUpdate"
                 />
               </PopoverContent>
             </Popover>
