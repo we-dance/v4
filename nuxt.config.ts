@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     server: {
       allowedHosts: true,
     },
-    assetsInclude: ['**/*.mjml'],
   },
 
   nitro: {
