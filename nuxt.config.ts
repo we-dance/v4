@@ -12,6 +12,16 @@ export default defineNuxtConfig({
     server: {
       allowedHosts: true,
     },
+    assetsInclude: ['**/*.mjml'],
+  },
+
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'templates',
+        dir: './templates',
+      },
+    ],
   },
 
   postcss: {

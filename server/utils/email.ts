@@ -11,7 +11,7 @@ const mailgun = new Mailgun(FormData)
 const mg = mailgun.client({
   username: 'api',
   key: useRuntimeConfig().mailgunApiKey,
-  url: useRuntimeConfig().mailgunHost || 'https://api.mailgun.net',
+  url: useRuntimeConfig().mailgunHost,
 })
 
 interface EmailTemplate {
@@ -25,19 +25,19 @@ interface EmailTemplate {
 const templates: Record<string, EmailTemplate> = {
   'forgot-password': {
     subject: 'Reset Your WeDance Password',
-    mjmlFile: 'forgot-password.mjml',
+    mjmlFile: 'forgot-password',
     from: 'WeDance <noreply@wedance.vip>',
     type: 'mjml',
   },
   welcome: {
     subject: 'Welcome to WeDance!',
-    mjmlFile: 'welcome.mjml',
+    mjmlFile: 'welcome',
     from: 'WeDance <noreply@wedance.vip>',
     type: 'mjml',
   },
   'event-reminder': {
     subject: 'Event Reminder: {{eventName}}',
-    mjmlFile: 'event-reminder.mjml',
+    mjmlFile: 'event-reminder',
     from: 'WeDance <noreply@wedance.vip>',
     type: 'mjml',
   },
@@ -56,8 +56,9 @@ async function compileMjmlTemplate(
   params: Record<string, any>
 ): Promise<string> {
   try {
-    const mjmlPath = path.join(process.cwd(), 'server/templates/mjml', mjmlFile)
-    const mjmlContent = await readFile(mjmlPath, 'utf-8')
+    const mjmlContent = await useStorage('assets:templates').getItem(
+      `emails/${mjmlFile}.mjml`
+    )
 
     const compiledMjml = compileTemplate(mjmlContent, params)
 
@@ -89,10 +90,12 @@ export async function sendEmail(template: string, params: Record<string, any>) {
     throw new Error(`Template '${template}' has no body or mjmlFile defined`)
   }
 
+  const subject = compileTemplate(templateConfig.subject, params)
+
   const result = await mg.messages.create(useRuntimeConfig().mailgunDomain, {
     from: templateConfig.from,
     to: toAddress,
-    subject: compileTemplate(templateConfig.subject, params),
+    subject,
     html: htmlContent,
   })
 
@@ -101,7 +104,7 @@ export async function sendEmail(template: string, params: Record<string, any>) {
       userId: params.userId,
       mailgunId: result.id || '',
       type: template,
-      subject: compileTemplate(templateConfig.subject, params),
+      subject,
       params,
       status: 'queued',
     },
