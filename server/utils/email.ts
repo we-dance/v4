@@ -56,8 +56,8 @@ async function compileMjmlTemplate(
   params: Record<string, any>
 ): Promise<string> {
   try {
-    const mjmlContent = await useStorage('assets:templates').getItem(
-      `emails/${mjmlFile}.mjml`
+    const mjmlContent = await useStorage('assets:emails').getItem(
+      `${mjmlFile}.mjml`
     )
 
     const compiledMjml = compileTemplate(mjmlContent, params)
