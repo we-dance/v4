@@ -13,7 +13,15 @@ defineProps({
 })
 
 const { $client } = useNuxtApp()
-const cities = await $client.cities.popular.query()
+const { data: cities, suspense } = useQuery<any>({
+  queryKey: ['cities.popular'],
+  queryFn: () => $client.cities.popular.query(),
+  staleTime: 1000 * 60 * 60 * 24, // 1 day cache
+})
+
+onServerPrefetch(async () => {
+  await suspense()
+})
 </script>
 
 <template>

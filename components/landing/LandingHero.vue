@@ -12,26 +12,29 @@ defineProps({
 
 const searchQuery = ref('')
 const { $client } = useNuxtApp()
-const styles = await $client.communities.index.query()
+const {
+  data: styles,
+  isLoading,
+  suspense,
+} = useQuery<any>({
+  queryKey: ['communities.index'],
+  queryFn: () => $client.communities.index.query(),
+  staleTime: 1000 * 60 * 60 * 24, // 1 day cache
+})
+
+onServerPrefetch(async () => {
+  await suspense()
+})
 
 const danceStyles = computed(() => {
-  if (!searchQuery.value) return styles.slice(0, 3)
+  if (isLoading.value) return []
+
+  if (!searchQuery.value) return styles.value.slice(0, 3)
 
   const query = searchQuery.value.toLowerCase()
-  const filtered = styles.filter((style) =>
+  const filtered = styles.value.filter((style) =>
     style.name.toLowerCase().includes(query)
   )
-
-  if (filtered.length === 0) {
-    return [
-      {
-        name: "Can't find your style?",
-        image: '/images/dance-styles/not-found.jpg',
-        to: '/contact',
-        members: 0,
-      },
-    ]
-  }
 
   return filtered.slice(0, 3)
 })
@@ -94,6 +97,18 @@ const danceStyles = computed(() => {
                 :key="style.name"
                 :style="style"
               />
+            </div>
+
+            <div v-if="danceStyles.length === 0" class="text-center">
+              <p class="text-muted-foreground">
+                Can't find your style?
+                <NuxtLink
+                  to="/contact"
+                  class="text-foreground hover:text-primary font-medium ml-1"
+                >
+                  Contact us
+                </NuxtLink>
+              </p>
             </div>
           </div>
         </div>
