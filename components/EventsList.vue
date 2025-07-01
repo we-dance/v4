@@ -23,15 +23,49 @@ const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
   })
 
+const fetchUntilEvents = async (maxAttempts = 10) => {
+  let attempts = 0
+
+  while (attempts < maxAttempts && hasNextPage.value) {
+    console.log(`Attempt ${attempts + 1}`, { hasNextPage: hasNextPage.value })
+
+    try {
+      const result = await fetchNextPage()
+      console.log('fetchNextPage result:', result)
+
+      const latestPage = result.data?.pages?.[result.data.pages.length - 1]
+      console.log('Latest page events:', latestPage?.events?.length)
+
+      if (latestPage?.events && latestPage.events.length > 0) {
+        console.log('Found events, breaking')
+        break
+      }
+    } catch (error) {
+      break
+    }
+    attempts++
+  }
+
+  console.log('fetchUntilEvents finished', {
+    attempts,
+    hasNextPage: hasNextPage.value,
+  })
+}
+
 const events = computed(
   () => data.value?.pages.flatMap((page) => page.events) ?? []
 )
-
 const loadMoreButton = useTemplateRef('load-more')
 
 useIntersectionObserver(loadMoreButton, ([entry], observerElement) => {
-  if (entry?.isIntersecting && hasNextPage.value && !isError.value) {
-    fetchNextPage()
+  if (
+    entry?.isIntersecting &&
+    hasNextPage.value &&
+    !isError.value &&
+    !isFetching.value &&
+    events.value.length > 0
+  ) {
+    fetchUntilEvents()
   }
 })
 
@@ -112,10 +146,17 @@ const selectDate = (date) => {
     <Skeleton v-for="i in 9" :key="i" class="aspect-square w-full" />
   </div>
 
-  <EmptyState v-else-if="events.length === 0" variant="no-results" />
+  <EmptyState
+    v-else-if="!isFetching && events.length === 0"
+    variant="no-results"
+  />
 
   <div ref="load-more" class="text-center py-8">
-    <Button v-if="hasNextPage" @click="fetchNextPage" :disabled="isFetching">
+    <Button
+      v-if="hasNextPage"
+      @click="() => fetchUntilEvents()"
+      :disabled="isFetching"
+    >
       <Icon
         v-if="isFetching"
         name="ph:spinner-gap"
