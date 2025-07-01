@@ -2,7 +2,6 @@ import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
-import { addDays } from 'date-fns'
 import { nanoid } from 'nanoid'
 import { getSlug } from '~/utils/slug'
 
@@ -24,53 +23,45 @@ export const eventsRouter = router({
       const endOfDay = new Date(baseDate)
       endOfDay.setHours(23, 59, 59, 999)
 
+      //common where condition used in both events and next queries
+      const commonWhere = {
+        venue: { cityId: input.city ?? undefined },
+        styles: { some: { id: input.community ?? undefined } },
+        type: input.type === 'all' ? undefined : input.type,
+        OR: [
+          { name: { contains: input.query, mode: 'insensitive' } },
+          { description: { contains: input.query, mode: 'insensitive' } },
+        ],
+      }
       const events = await prisma.event.findMany({
-        orderBy: { startDate: 'asc' },
         where: {
-          startDate: {
-            gte: startOfDay,
-            lte: endOfDay,
-          },
-          venue: {
-            cityId: input.city ?? undefined,
-          },
-          styles: {
-            some: {
-              id: input.community ?? undefined,
-            },
-          },
-          type: input.type === 'all' ? undefined : input.type,
-          OR: [
-            {
-              name: {
-                contains: input.query,
-                mode: 'insensitive',
-              },
-            },
-            {
-              description: {
-                contains: input.query,
-                mode: 'insensitive',
-              },
-            },
-          ],
+          startDate: { gte: startOfDay, lte: endOfDay },
+          ...commonWhere,
         },
         include: {
-          venue: {
-            include: {
-              city: true,
-            },
-          },
+          venue: { include: { city: true } },
           organizer: true,
         },
+        orderBy: { startDate: 'asc' },
       })
 
-      const nextDate = addDays(startOfDay, 2)
-      const nextPage = nextDate.toISOString().slice(0, 10)
+      //fetch the earliest future event rather than fetching the next day
+      const next = await prisma.event.findFirst({
+        where: {
+          startDate: { gt: endOfDay },
+          ...commonWhere,
+        },
+        orderBy: { startDate: 'asc' },
+        select: { startDate: true },
+      })
+
+      //the legacy constants
+      // const nextDate = addDays(startOfDay, 2)
+      // const nextPage = nextDate.toISOString().slice(0, 10)
 
       return {
-        nextPage,
         events,
+        nextPage: next ? next.startDate.toISOString().slice(0, 10) : null,
       }
     }),
 
