@@ -126,9 +126,11 @@ const navigation = computed(() => [
                       Can't go
                     </Button>
                   </div>
-                  <Button v-if="event.link" size="lg"
-                    ><Icon name="ph:shopping-cart" />Buy Tickets</Button
-                  >
+                  <Button v-if="event.ticketUrl" size="lg" as-child>
+                    <a :href="event.ticketUrl" target="_blank"
+                      ><Icon name="ph:shopping-cart" />Buy Tickets</a
+                    >
+                  </Button>
                 </div>
               </div>
 

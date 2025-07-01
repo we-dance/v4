@@ -263,6 +263,7 @@ model Event {
   firebaseId  String    @default("")
   published   Boolean   @default(false)
   status      String    @default("draft") // Values: draft, published, archived, cancelled
+  ticketUrl   String?
 
   styles      DanceStyle[]
   creatorId   String
