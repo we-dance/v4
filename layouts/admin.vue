@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const route = useRoute()
-
 const items = [
   {
     to: '/admin/events',
@@ -23,13 +21,24 @@ const items = [
     icon: 'lucide:plug',
   },
 ]
+
+const isOpen = ref(false)
+
+watch(
+  () => useRouter().currentRoute.value.path,
+  () => {
+    isOpen.value = items.some(
+      (item) => item.to === useRouter().currentRoute.value.path
+    )
+  }
+)
 </script>
 
 <template>
   <div class="min-h-screen flex flex-col">
     <AppNavigation />
     <main class="flex-1 bg-background text-foreground">
-      <SidebarProvider :default-open="false">
+      <SidebarProvider :open="isOpen" @update:open="isOpen = $event">
         <Sidebar class="md:pt-16">
           <SidebarContent>
             <SidebarGroup>

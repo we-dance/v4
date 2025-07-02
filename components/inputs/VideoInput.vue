@@ -22,7 +22,7 @@ const isSelecting = ref(false)
   <div class="relative">
     <mux-player v-if="model" :playback-id="model" class="w-full h-auto" />
     <div v-else class="w-full h-auto bg-muted rounded-md" />
-    <Button @click="isSelecting = true">Select Video</Button>
+    <Button type="button" @click="isSelecting = true">Select Video</Button>
 
     <Dialog v-model:open="isSelecting">
       <DialogScrollContent>

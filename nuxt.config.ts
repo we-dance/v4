@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-02',
   // devtools: { enabled: true },
-  ssr: true,
   css: ['~/assets/css/main.css'],
   build: {
     transpile: ['vee-validate', 'trpc-nuxt'],
@@ -12,6 +11,15 @@ export default defineNuxtConfig({
     server: {
       allowedHosts: true,
     },
+  },
+
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'emails',
+        dir: './emails',
+      },
+    ],
   },
 
   postcss: {
@@ -108,7 +116,13 @@ export default defineNuxtConfig({
     muxTokenId: '',
     muxTokenSecret: '',
     muxWebhookSecret: '',
+    mailgunApiKey: '',
+    mailgunDomain: '',
+    mailgunHost: '',
+    mailgunWebhookKey: '',
     public: {
+      posthogApiHost: '',
+      posthogApiKey: '',
       appUrl: '',
       googleMapsApiKey: '',
       cloudinaryCloudName: '',

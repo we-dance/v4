@@ -15,7 +15,13 @@ const props = defineProps({
   },
 })
 
-const { communities } = useCommunities()
+const { $client } = useNuxtApp()
+
+const { data: communities } = useQuery<any>({
+  queryKey: ['communities.list'],
+  queryFn: () => $client.communities.list.query(),
+  staleTime: 1000 * 60 * 60 * 24, // 1 day cache
+})
 
 const searchTerm = ref('')
 const { startsWith } = useFilter({ sensitivity: 'base' })

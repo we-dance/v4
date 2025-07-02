@@ -1,0 +1,215 @@
+<mjml>
+  <mj-head>
+    <mj-title>{{eventName}} - Event Reminder</mj-title>
+    <mj-preview>Don't forget about your upcoming dance event!</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F8F8" width="600px">
+    <mj-section background-color="#ffffff" padding="50px 40px 20px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="32px"
+          line-height="40px"
+          align="center"
+          padding-bottom="20px"
+        >
+          Event Reminder
+        </mj-text>
+        {{#if name}}
+        <mj-text
+          color="#737373"
+          font-size="18px"
+          line-height="28px"
+          align="center"
+          padding-bottom="10px"
+        >
+          Hey {{name}},
+        </mj-text>
+        {{/if}}
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+        >
+          Don't forget about your upcoming dance event!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 40px 30px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="24px"
+          line-height="32px"
+          align="center"
+          padding-bottom="30px"
+        >
+          {{eventName}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0px 40px 40px 40px">
+      <mj-column width="50%">
+        <mj-text
+          color="#1f1f1f"
+          font-size="16px"
+          font-weight="600"
+          line-height="24px"
+          padding-bottom="10px"
+        >
+          📅 When
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          padding-bottom="5px"
+        >
+          {{eventDate}}
+        </mj-text>
+        <mj-text color="#737373" font-size="14px" line-height="20px">
+          {{eventTime}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text
+          color="#1f1f1f"
+          font-size="16px"
+          font-weight="600"
+          line-height="24px"
+          padding-bottom="10px"
+        >
+          📍 Where
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          padding-bottom="5px"
+        >
+          {{venueName}}
+        </mj-text>
+        <mj-text color="#737373" font-size="14px" line-height="20px">
+          {{venueAddress}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    {{#if eventDescription}}
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-divider
+          border-color="#E4E4E7"
+          border-width="1px"
+          padding="20px 0px"
+        />
+        <mj-text
+          color="#1f1f1f"
+          font-size="16px"
+          font-weight="600"
+          line-height="24px"
+          align="center"
+          padding-bottom="15px"
+        >
+          About This Event
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="22px"
+          align="center"
+        >
+          {{eventDescription}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    {{/if}}
+
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-button
+          background-color="#1f1f1f"
+          border-radius="6px"
+          color="#ffffff"
+          font-weight="600"
+          font-size="16px"
+          text-transform="none"
+          href="{{eventUrl}}"
+          padding="20px 0px"
+          inner-padding="16px 32px"
+        >
+          View Event Details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="30px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-divider
+          border-color="#E4E4E7"
+          border-width="1px"
+          padding="20px 0px"
+        />
+        <mj-text
+          color="#737373"
+          font-size="15px"
+          line-height="22px"
+          align="center"
+          padding-top="10px"
+        >
+          <strong>Can't make it?</strong>
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          align="center"
+          padding-top="8px"
+        >
+          <a
+            href="{{cancelUrl}}"
+            style="color: #f91c70; text-decoration: underline"
+            >Cancel your attendance</a
+          >
+          or contact the event organizer.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F8F9FA" padding="40px 30px 35px 30px">
+      <mj-column width="100%">
+        <mj-image
+          src="https://v4.wedance.vip/logo-full.png"
+          alt="WeDance Logo"
+          width="150px"
+          align="center"
+          padding-bottom="30px"
+        />
+        <mj-text
+          color="#A1A1AA"
+          font-size="12px"
+          line-height="16px"
+          align="center"
+        >
+          See you on the dance floor! 💃🕺
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

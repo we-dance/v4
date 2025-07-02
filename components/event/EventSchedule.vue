@@ -1,6 +1,5 @@
 <script setup>
 import { getYmd, getDate, getDay } from '~/utils'
-import { parseDate } from '@internationalized/date'
 
 const props = defineProps({
   events: Array,
@@ -27,7 +26,7 @@ const $i18n = {
 }
 
 const select = (day) => {
-  emit('select-date', day.toString())
+  emit('select-date', day)
 }
 </script>
 
@@ -46,21 +45,8 @@ const select = (day) => {
             <div class="w-2 h-2 bg-accent rounded-full"></div>
             <span class="font-bold text-primary">{{ getDate(date) }} </span
             ><span class="text-foreground/50">{{ getDay(date) }}</span>
-            <Popover>
-              <PopoverTrigger as-child>
-                <Button variant="ghost" size="icon" class="h-6 w-6">
-                  <Icon name="ph:caret-down" class="w-4 h-4" />
-                </Button>
-              </PopoverTrigger>
-              <PopoverContent>
-                <Calendar
-                  mode="single"
-                  :modelValue="parseDate(date)"
-                  :numberOfMonths="1"
-                  @update:model-value="select"
-                />
-              </PopoverContent>
-            </Popover>
+
+            <DateSelector :date="date" @select="select" />
           </div>
         </div>
       </h2>

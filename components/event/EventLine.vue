@@ -53,14 +53,14 @@ const eventTime = computed(() => {
         <h2 class="font-bold text-lg leading-tight line-clamp-2">
           {{ event.name }}
         </h2>
-        <div class="text-sm text-gray-500">
+        <div v-if="event.venue" class="text-sm text-gray-500">
           {{ event.venue.name }}
         </div>
-        <div class="text-sm text-gray-500">
+        <div v-if="event.venue" class="text-sm text-gray-500">
           {{ event.venue.city.name }},
           <span class="uppercase">{{ event.venue.city.countryCode }}</span>
         </div>
-        <div class="text-sm text-gray-500">
+        <div v-if="event.startDate" class="text-sm text-gray-500">
           {{ formattedDate }}
           <span v-if="eventTime">· {{ eventTime }}</span>
         </div>

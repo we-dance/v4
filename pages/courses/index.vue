@@ -1,6 +1,12 @@
 <script setup lang="ts">
 const { $client } = useNuxtApp()
-const { courses } = await $client.courses.list.query({ limit: 10 })
+
+const { data, isLoading } = useQuery<any>({
+  queryKey: ['courses.list'],
+  queryFn: () => $client.courses.list.query({ limit: 10 }),
+  retry: false,
+  staleTime: 1000 * 60 * 5, // 5 min cache
+})
 </script>
 
 <template>
@@ -8,8 +14,10 @@ const { courses } = await $client.courses.list.query({ limit: 10 })
     title="Dance Courses"
     description="Learn dance online with world-class instructors"
   >
+    <Loader v-if="isLoading" />
     <CoursesGrid
-      :courses="courses"
+      v-else
+      :courses="data?.courses"
       :link="(course) => `/courses/${course.slug}`"
     />
   </PageSimple>
