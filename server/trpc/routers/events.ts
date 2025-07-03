@@ -5,6 +5,7 @@ import { prisma } from '~/server/prisma'
 import { nanoid } from 'nanoid'
 import { getSlug } from '~/utils/slug'
 import { getStripe, createOrUpdateStripeProduct } from '~/server/utils/stripe'
+import { tasks } from '@trigger.dev/sdk/v3'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -120,18 +121,6 @@ export const eventsRouter = router({
             profile: true,
           },
         },
-        tickets: true,
-        ticketPurchases: ctx.session?.user?.id
-          ? {
-              where: {
-                userId: ctx.session.user.id,
-                // status: 'completed',
-              },
-              include: {
-                ticket: true,
-              },
-            }
-          : undefined,
       },
     })
 
@@ -273,8 +262,10 @@ export const eventsRouter = router({
           status: 'draft',
         },
       })
+      await tasks.trigger('capitalize-title', { eventId: event.id })
       return event
     }),
+
   delete: publicProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
