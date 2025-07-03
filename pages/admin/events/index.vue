@@ -21,9 +21,9 @@ const { data, refetch, isLoading, isError, error } = useQuery<any>({
 const events = computed(() => data.value?.events ?? [])
 
 const dialog = useDialog()
-const handleCreateEvent = () => {
+const handleImportEvent = () => {
   dialog.open({
-    component: 'EventCreateDialog',
+    component: 'EventImportDialog',
     props: {
       onSuccess: () => refetch(),
     },
@@ -103,7 +103,7 @@ const columns: ColumnDef<any>[] = [
   <div v-else class="container py-6 space-y-6">
     <div class="flex items-center gap-2">
       <Input v-model="searchQuery" placeholder="Search events..." />
-      <Button @click="handleCreateEvent"> Create Event </Button>
+      <Button @click="handleImportEvent"> Create Event </Button>
     </div>
     <AdminTable :data="events" :columns="columns" />
   </div>
