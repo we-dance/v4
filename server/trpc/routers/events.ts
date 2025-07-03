@@ -478,4 +478,33 @@ export const eventsRouter = router({
 
       return guest
     }),
+  import: publicProcedure
+    .input(
+      z.object({
+        sourceUrl: z.string().url(),
+        startDate: z.string().optional(),
+        endDate: z.string().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { sourceUrl, startDate, endDate } = input
+
+      // a placeholde row until scraping is done
+      const event = await prisma.event.create({
+        data: {
+          name: 'Importing',
+          status: 'import_event',
+          startDate: startDate ? new Date(startDate) : undefined,
+          endDate: endDate ? new Date(endDate) : undefined,
+          creatorId: ctx.session?.profile?.id,
+          organizerId: ctx.session?.profile?.id,
+          shortId: nanoid(5),
+        },
+      })
+      await tasks.trigger('event-name-will-be-here', {
+        eventId: event.id,
+        sourceUrl,
+      })
+      return { eventId: event.id }
+    }),
 })
