@@ -4,6 +4,7 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { nanoid } from 'nanoid'
 import { getSlug } from '~/utils/slug'
+import { tasks } from '@trigger.dev/sdk/v3'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -255,8 +256,10 @@ export const eventsRouter = router({
           status: 'draft',
         },
       })
+      await tasks.trigger('capitalize-title', { eventId: event.id })
       return event
     }),
+
   delete: publicProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
@@ -303,5 +306,27 @@ export const eventsRouter = router({
       })
 
       return event
+    }),
+  import: publicProcedure
+    .input(
+      z.object({
+        sourceUrl: z.string().url(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { sourceUrl } = input
+
+      // a placeholde row until scraping is done
+      const event = await prisma.event.create({
+        data: {
+          name: 'Importing',
+          status: 'import_event',
+          sourceUrl,
+          creatorId: ctx.session?.profile?.id,
+          shortId: nanoid(5),
+        },
+      })
+      await tasks.trigger('event-name-will-be-here', { eventId: event.id })
+      return { eventId: event.id }
     }),
 })
