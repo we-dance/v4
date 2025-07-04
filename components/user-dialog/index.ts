@@ -13,7 +13,6 @@ import CourseLessonDialog from './CourseLessonDialog.vue'
 import CourseResourceDialog from './CourseResourceDialog.vue'
 import ReviewDialog from './ReviewDialog.vue'
 import EventCreateDialog from './EventCreateDialog.vue'
-import EventImportDialog from '~/components/admin/events/Import.vue'
 
 export const dialogs = {
   PricingOptionsDialog,
@@ -31,7 +30,6 @@ export const dialogs = {
   CourseResourceDialog,
   ReviewDialog,
   EventCreateDialog,
-  EventImportDialog,
 }
 // Dynamically import all dialog Vue components
 const dialogModules = import.meta.glob('./*.vue', { eager: true })
