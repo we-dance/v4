@@ -20,14 +20,9 @@ const { data, refetch, isLoading, isError, error } = useQuery<any>({
 
 const events = computed(() => data.value?.events ?? [])
 
-const dialog = useDialog()
+const router = useRouter()
 const handleImportEvent = () => {
-  dialog.open({
-    component: 'EventImportDialog',
-    props: {
-      onSuccess: () => refetch(),
-    },
-  })
+  router.push('/admin/events/import')
 }
 
 const columns: ColumnDef<any>[] = [
