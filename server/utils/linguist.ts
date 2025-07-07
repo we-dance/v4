@@ -1,3 +1,4 @@
+import { getStyles } from './style_utils'
 export function slugify(str: string, limit = 0) {
   let $str = str
   $str = $str.replace(/^\s+|\s+$/g, '')
@@ -48,6 +49,41 @@ export function getSuggestedType(description: string) {
   }
 
   return eventType
+}
+
+export function getSuggestedStyles(description: string) {
+  if (!description) {
+    return {}
+  }
+
+  const stylesList: any = getStyles()
+  const styles: any = {}
+
+  for (const style of stylesList) {
+    if (!style.regexp) {
+      continue
+    }
+
+    let words
+
+    if (style.regexp.includes(',')) {
+      words = style.regexp.split(',')
+    } else {
+      words = [style.regexp]
+    }
+
+    for (const word of words) {
+      if (description.toLowerCase().includes(word.toLowerCase())) {
+        styles[style.id] = {
+          level: 'Interested',
+          highlighted: false,
+          selected: true,
+        }
+      }
+    }
+  }
+
+  return styles
 }
 
 export function isFacebookEvent(url?: string): boolean {
