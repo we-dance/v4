@@ -262,7 +262,6 @@ export const eventsRouter = router({
           status: 'draft',
         },
       })
-      await tasks.trigger('capitalize-title', { eventId: event.id })
       return event
     }),
 
