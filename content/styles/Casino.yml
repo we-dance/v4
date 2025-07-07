@@ -1,0 +1,93 @@
+id: Casino
+name: Casino
+video: https://www.youtube.com/watch?v=R7E9cNydevg
+synonyms: Cuban Salsa, Salsa Cubana
+regexp: timba, salsa cubana, cuban salsa
+popular: true
+popularity: 2
+description: Lively and rhythmic dance style originating from Cuba. It's typically danced in pairs but can also be performed in groups, known as "Rueda de Casino," where couples form a circle and execute synchronized moves based on a leader's calls. The style is fluid and playful, incorporating intricate partner work, dynamic footwork, and a strong connection to Afro-Cuban music and traditions.
+history: >
+  In the 1890s, Cuban danzón evolved into Cuban son in the 1920s by incorporating Afro-Cuban dance elements like hip isolation and the tornillo—a pivot on one foot with a bent leg—while dropping the descanso.
+
+
+  The mambo, popularized by Cuban musician Pérez Prado in the 1940s, emerged as a blend of son and swing. In the 1950s, the cha-cha-chá replaced the mambo, characterized by its rhythmic "1, 2, 3, 4-and-1" pattern marked by the feet.
+
+
+  By the 1980s, son casino took over Havana’s dance floors with its faster pace and intricate turning figures. It shares similarities with New York salsa, though it’s unclear which inspired the other.
+
+
+  Casino rueda later developed from casino, placing couples in a circle. In this style, women typically moved counterclockwise, men clockwise, and partners were swapped in synchronized choreographies.
+origins: Cuba
+adjectives: ''
+type: Social dance
+holding: closed-couple
+year: 1980s
+predecessors: ''
+parent: ''
+influence: ''
+family: Salsa
+region: Afro-Caribbean
+source: https://www.britannica.com/art/Latin-American-dance/The-Caribbean
+root: ''
+partner: yes
+group: ''
+related: ''
+music: Timba, Songo, Changüí, Son, Mambo, Cha-cha-chá
+timing: ''
+videos:
+  - artists:
+      - username: 'alocubanolisandra'
+        name: 'Lisandra Garcia'
+        role: 'Follower'
+    url: 'https://www.youtube.com/watch?v=R7E9cNydevg'
+
+  - artists:
+      - username: 'maykel_fonts'
+        name: 'Maykel Fonts'
+        role: 'Leader'
+      - username: 'indiramora_cueto_'
+        name: 'Indira Mora Cueto'
+        role: 'Follower'
+    url: 'https://www.youtube.com/watch?v=6ZTgUsJt5z8'
+    event:
+      name: 'Croatian Summer Salsa Festival'
+      year: 2023
+    location:
+      city: 'Rovinj'
+      country: 'Croatia'
+    videographer:
+      username: 'SocialDanceTV'
+      name: 'Social Dance TV'
+
+  - url: 'https://www.youtube.com/watch?v=UCABDb16JcM'
+    artists:
+      - username: 'seofernandez_official'
+        name: 'Seo Fernandez'
+        role: 'Leader'
+      - username: 'enerismulgado'
+        name: 'Eneris Mulgado Veitia'
+        role: 'Follower'
+    event:
+      name: 'Festival de Cuba'
+      year: 2023
+    location:
+      city: 'Stuttgart'
+      country: 'Germany'
+    videographer:
+      username: 'Cuban-Salsa-Hiro'
+      name: 'Cuban Salsa HIRO'
+
+  - url: 'https://www.youtube.com/watch?v=j3sJ0D-1lnA'
+    artists:
+      - username: 'osbanis_deakocan'
+        name: 'Osbanis'
+        role: 'Leader'
+      - username: 'anneta_deakocan'
+        name: 'Anneta'
+        role: 'Follower'
+
+  - url: 'https://www.youtube.com/watch?v=O_r4WGC4GEw'
+    artists:
+      - username: 'wilmerymariaofficial'
+        name: 'Wilmer y Maria'
+        role: 'Couple'
