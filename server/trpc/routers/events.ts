@@ -497,7 +497,7 @@ export const eventsRouter = router({
           shortId: nanoid(5),
         },
       })
-      await tasks.trigger('event-name-will-be-here', { eventId: event.id })
+      await tasks.trigger('scrape-and-fill-events', { eventId: event.id })
       return { eventId: event.id }
     }),
 })
