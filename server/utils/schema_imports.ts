@@ -4,7 +4,12 @@ import { decode } from 'html-entities'
 import axios from 'axios'
 import { getCityId, getPlace } from './google_maps'
 import { getUploadedImage } from './cloudinary'
-import { getSuggestedType, getUrlsFromText, isFacebookEvent } from './linguist'
+import {
+  getSuggestedType,
+  getUrlsFromText,
+  isFacebookEvent,
+  slugify,
+} from './linguist'
 
 async function getEvent(url: string) {
   let response
@@ -68,9 +73,11 @@ export async function getSchemaEvent(url: string) {
     }
   }
 
-  event.name = decode(event.name)
+  event.name = decode(String(event.name))
   const turndownService = new TurndownService()
-  event.description = turndownService.turndown(decode(event.description))
+  event.description = turndownService.turndown(
+    decode(String(event.description))
+  )
 
   const venueName = event.location?.name || ''
   const venueAddress = event.location?.address?.streetAddress || ''
