@@ -5,10 +5,12 @@ export async function getUploadedImage(url: string) {
     return ''
   }
 
+  const config = useRuntimeConfig()
+
   cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME as string,
-    api_key: process.env.CLOUDINARY_API_KEY as string,
-    api_secret: process.env.CLOUDINARY_API_SECRET as string,
+    cloud_name: config.public.cloudinaryCloudName,
+    api_key: config.cloudinaryApiKey,
+    api_secret: config.cloudinaryApiSecret,
   })
 
   const result = await cloudinary.uploader.upload(url)

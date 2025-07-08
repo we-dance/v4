@@ -46,14 +46,7 @@ async function getOrg(host: any, place: any) {
     if (existingProfile) {
       return {
         id: existingProfile.id,
-        username: existingProfile.username,
         name: existingProfile.name || existingProfile.username || '',
-        photo: existingProfile.photo || '',
-        bio: existingProfile.bio || '',
-        instagram: existingProfile.instagram || '',
-        facebook: existingProfile.facebook || '',
-        tiktok: existingProfile.tiktok || '',
-        youtube: existingProfile.youtube || '',
       }
     }
 
