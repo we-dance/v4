@@ -1,8 +1,8 @@
 import { logger, task, wait } from '@trigger.dev/sdk/v3'
 import { prisma } from '../server/prisma'
 import { isFacebookEvent, slugify } from '~/server/utils/linguist'
-import { getFacebookEvent } from '~/server/utils/facebook_imports'
-import { getSchemaEvent } from '~/server/utils/schema_imports'
+import { getFacebookEvent } from '~/server/utils/facebook_import'
+import { getSchemaEvent } from '~/server/utils/schema_import'
 import axios from 'axios'
 
 export const scrape = task({
