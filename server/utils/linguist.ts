@@ -51,12 +51,12 @@ export function getSuggestedType(description: string) {
   return eventType
 }
 
-export function getSuggestedStyles(description: string) {
+export async function getSuggestedStyles(description: string) {
   if (!description) {
     return {}
   }
 
-  const stylesList: any = getStyles()
+  const stylesList: any = await getStyles()
   const styles: any = {}
 
   for (const style of stylesList) {
@@ -74,7 +74,7 @@ export function getSuggestedStyles(description: string) {
 
     for (const word of words) {
       if (description.toLowerCase().includes(word.toLowerCase())) {
-        styles[style.id] = {
+        styles[style.hashtag] = {
           level: 'Interested',
           highlighted: false,
           selected: true,

@@ -11,6 +11,15 @@ import {
   slugify,
   getSuggestedStyles,
 } from './linguist'
+import { prisma } from '~/server/prisma'
+
+/**
+ * Retrieves the master list of all dance styles directly from the database.
+ */
+export async function getStyles() {
+  const styles = await prisma.danceStyle.findMany()
+  return styles
+}
 
 async function getEvent(url: string) {
   let response
@@ -115,7 +124,7 @@ export async function getSchemaEvent(url: string) {
     eventType = 'Festival'
   }
 
-  const styles = getSuggestedStyles(event.name + ' ' + event.description)
+  const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = +new Date(event.startDate) + '+' + venue?.place_id
   const eventPhoto = await getUploadedImage(event.image || '')

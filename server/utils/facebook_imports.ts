@@ -172,7 +172,7 @@ export async function getFacebookEvent(url: string) {
 
   const eventType = getSuggestedType(event.name + ' ' + event.description)
 
-  const styles = getSuggestedStyles(event.name + ' ' + event.description)
+  const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = getDate(event.startTimestamp) + '+' + venue?.place_id
   const eventPhoto = await getUploadedImage(event.photo?.imageUri || '')
