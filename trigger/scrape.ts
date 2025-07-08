@@ -39,6 +39,12 @@ export const scrape = task({
       })
       return
     }
+
+    // Get the style hashtags from the scraped data
+    const styleHashtags = scrappedData.styles
+      ? Object.keys(scrappedData.styles)
+      : []
+
     const eventDataForPrisma = {
       name: scrappedData.name,
       slug: slugify(scrappedData.name),
@@ -52,6 +58,11 @@ export const scrape = task({
       organizerId: scrappedData.org?.id || null,
       venueId: scrappedData.venue?.id || null,
       status: 'published',
+      styles: {
+        connect: styleHashtags.map((hashtag) => ({
+          hashtag: hashtag,
+        })),
+      },
     }
 
     try {

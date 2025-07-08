@@ -9,6 +9,7 @@ import {
   getUrlsFromText,
   isFacebookEvent,
   slugify,
+  getSuggestedStyles,
 } from './linguist'
 
 async function getEvent(url: string) {
@@ -114,7 +115,7 @@ export async function getSchemaEvent(url: string) {
     eventType = 'Festival'
   }
 
-  // const styles = getSuggestedStyles(event.name + ' ' + event.description)
+  const styles = getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = +new Date(event.startDate) + '+' + venue?.place_id
   const eventPhoto = await getUploadedImage(event.image || '')
@@ -139,7 +140,7 @@ export async function getSchemaEvent(url: string) {
     international: 'No',
     claimed: 'No',
     duration: 60,
-    //styles,
+    styles,
     artists: [],
     org: '', // can we get it from event.organizer
     program: [],

@@ -2,7 +2,7 @@ import { scrapeFbEventFromFbid } from 'facebook-event-scraper'
 import { prisma } from '~/server/prisma'
 import { getCityId, getPlace } from './google_maps'
 import { getUploadedImage } from './cloudinary'
-import { getSuggestedType, slugify } from './linguist'
+import { getSuggestedType, getSuggestedStyles, slugify } from './linguist'
 import axios from 'axios'
 
 function getDate(timestamp: any) {
@@ -30,20 +30,6 @@ async function getOrg(host: any, place: any) {
     const profile = await prisma.profile.findFirst({
       where: { facebook: orgUrl },
     })
-    if (profile) {
-      return {
-        id: profile?.id,
-        username: profile?.username,
-        name: profile?.name || profile?.username || '',
-        photo: profile?.photo || '',
-        bio: profile?.bio || '',
-        instagram: profile?.instagram || '',
-        facebook: profile?.facebook || '',
-        tiktok: profile?.tiktok || '',
-        youtube: profile?.youtube || '',
-      }
-    }
-
     let username = orgFacebook
     if (username.includes('people/')) {
       username = username.split('/')[1].replace('-', '')
@@ -186,8 +172,7 @@ export async function getFacebookEvent(url: string) {
 
   const eventType = getSuggestedType(event.name + ' ' + event.description)
 
-  //styles will be imported
-  // const styles = getSuggestedStyles(event.name + ' ' + event.description)
+  const styles = getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = getDate(event.startTimestamp) + '+' + venue?.place_id
   const eventPhoto = await getUploadedImage(event.photo?.imageUri || '')
@@ -210,7 +195,7 @@ export async function getFacebookEvent(url: string) {
     claimed: 'No',
     duration: 60,
     price: '',
-    // styles,
+    styles,
     artists: [],
     org,
     program: [],
