@@ -7,10 +7,6 @@ import { z } from 'zod'
 const { $client } = useNuxtApp()
 const router = useRouter()
 
-const props = defineProps<{
-  onSuccess?: () => void
-}>()
-
 const schema = z.object({
   name: z.string().min(1),
 })
@@ -26,7 +22,6 @@ const emit = defineEmits<{
 const onSubmit = form.handleSubmit(
   async (values) => {
     await $client.events.create.mutate(values)
-    props.onSuccess?.()
     emit('close')
   },
   (e) => {

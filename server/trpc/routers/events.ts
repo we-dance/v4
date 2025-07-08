@@ -499,7 +499,7 @@ export const eventsRouter = router({
           slug: placeholderSlug,
         },
       })
-      await tasks.trigger('scrape-and-fill-events', {
+      await tasks.trigger('import-event', {
         eventId: event.id,
         sourceUrl: sourceUrl,
       })

@@ -20,11 +20,6 @@ const { data, refetch, isLoading, isError, error } = useQuery<any>({
 
 const events = computed(() => data.value?.events ?? [])
 
-const router = useRouter()
-const handleImportEvent = () => {
-  router.push('/admin/events/import')
-}
-
 const columns: ColumnDef<any>[] = [
   {
     header: 'Date',
@@ -98,7 +93,9 @@ const columns: ColumnDef<any>[] = [
   <div v-else class="container py-6 space-y-6">
     <div class="flex items-center gap-2">
       <Input v-model="searchQuery" placeholder="Search events..." />
-      <Button @click="handleImportEvent"> Create Event </Button>
+      <NuxtLink to="/admin/events/import">
+        <Button> Create Event </Button>
+      </NuxtLink>
     </div>
     <AdminTable :data="events" :columns="columns" />
   </div>

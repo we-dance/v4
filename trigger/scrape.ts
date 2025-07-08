@@ -6,7 +6,7 @@ import { getSchemaEvent } from '~/server/utils/schema_import'
 import axios from 'axios'
 
 export const scrape = task({
-  id: 'scrape-and-fill-events',
+  id: 'import-event',
   run: async (payload: any, { ctx }) => {
     const { eventId, sourceUrl } = payload
     logger.log('Scraper Started')
