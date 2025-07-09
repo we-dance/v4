@@ -45,9 +45,9 @@ const onSubmit = form.handleSubmit(async (values) => {
       </FormField>
 
       <div class="flex gap-2 justify-end mt-4">
-        <Button variant="outline" type="button" @click="router.back"
-          >Cancel</Button
-        >
+        <NuxtLink to="/admin/events">
+          <Button variant="outline" type="button">Cancel</Button>
+        </NuxtLink>
         <Button type="submit">Import</Button>
       </div>
 
