@@ -1,4 +1,5 @@
-import { getStyles } from './style_utils'
+import { prisma } from '~/server/prisma'
+
 export function slugify(str: string, limit = 0) {
   let $str = str
   $str = $str.replace(/^\s+|\s+$/g, '')
@@ -49,6 +50,11 @@ export function getSuggestedType(description: string) {
   }
 
   return eventType
+}
+
+export async function getStyles() {
+  const styles = await prisma.danceStyle.findMany()
+  return styles
 }
 
 export async function getSuggestedStyles(description: string) {

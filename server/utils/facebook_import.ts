@@ -13,7 +13,7 @@ function getDate(timestamp: any) {
   return timestamp * 1000
 }
 
-async function getOrg(host: any, place: any) {
+async function getOrg(host: any, place: any, cloudinaryConfig: any) {
   let org: any = ''
 
   if (!host?.id) {
@@ -50,7 +50,10 @@ async function getOrg(host: any, place: any) {
       }
     }
 
-    const orgPhoto = await getUploadedImage(host?.photo?.imageUri)
+    const orgPhoto = await getUploadedImage(
+      host?.photo?.imageUri,
+      cloudinaryConfig
+    )
 
     const newProfile = await prisma.profile.create({
       data: {
@@ -107,7 +110,7 @@ export async function getFacebookEventId(url: string) {
   return id || ''
 }
 
-export async function getFacebookEvent(url: string) {
+export async function getFacebookEvent(url: string, cloudinaryConfig: any) {
   let event
   const facebookId = await getFacebookEventId(url)
 
@@ -153,7 +156,7 @@ export async function getFacebookEvent(url: string) {
     place = await getCityId(venue)
   }
 
-  const org = await getOrg(event.hosts[0], place)
+  const org = await getOrg(event.hosts[0], place, cloudinaryConfig)
 
   if (!venue && org) {
     venue = await getPlace(org.name, 'de')
@@ -168,7 +171,10 @@ export async function getFacebookEvent(url: string) {
   const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = getDate(event.startTimestamp) + '+' + venue?.place_id
-  const eventPhoto = await getUploadedImage(event.photo?.imageUri || '')
+  const eventPhoto = await getUploadedImage(
+    event.photo?.imageUri || '',
+    cloudinaryConfig
+  )
 
   return {
     name: event.name,

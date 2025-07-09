@@ -73,7 +73,7 @@ async function getEvent(url: string) {
   return event
 }
 
-export async function getSchemaEvent(url: string) {
+export async function getSchemaEvent(url: string, cloudinaryConfig: any) {
   const event = await getEvent(url)
   if (!event) {
     return {
@@ -127,7 +127,7 @@ export async function getSchemaEvent(url: string) {
   const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = +new Date(event.startDate) + '+' + venue?.place_id
-  const eventPhoto = await getUploadedImage(event.image || '')
+  const eventPhoto = await getUploadedImage(event.image || '', cloudinaryConfig)
 
   const offer = event.offers?.find((o: any) => o.price) || null
 
