@@ -34,12 +34,10 @@ const onSubmit = form.handleSubmit(
   <form @submit="onSubmit" class="w-[650px]">
     <FormField v-slot="{ componentField }" name="name">
       <FormItem>
-        <FormLabel>Name</FormLabel>
+        <FormLabel>Name Of Your Event</FormLabel>
         <FormControl>
           <Input v-bind="componentField" />
         </FormControl>
-        <FormDescription />
-        <FormMessage />
       </FormItem>
     </FormField>
     <div class="flex gap-2 justify-end mt-4">
