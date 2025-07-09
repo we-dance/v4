@@ -62,7 +62,13 @@ export async function getSuggestedStyles(description: string) {
     return {}
   }
 
-  const stylesList: any = await getStyles()
+  const stylesList = await prisma.danceStyle.findMany({
+    where: {
+      regexp: {
+        gt: '',
+      },
+    },
+  })
   const styles: any = {}
 
   for (const style of stylesList) {
@@ -70,13 +76,7 @@ export async function getSuggestedStyles(description: string) {
       continue
     }
 
-    let words
-
-    if (style.regexp.includes(',')) {
-      words = style.regexp.split(',')
-    } else {
-      words = [style.regexp]
-    }
+    const words = style.regexp.split(',').filter(Boolean)
 
     for (const word of words) {
       if (description.toLowerCase().includes(word.toLowerCase())) {
