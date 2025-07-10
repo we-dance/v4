@@ -3,6 +3,7 @@ import { useForm } from 'vee-validate'
 import { z } from 'zod'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useNuxtApp } from '#app'
+import { toast } from 'vue-sonner'
 
 const { $client } = useNuxtApp()
 const router = useRouter()
@@ -18,6 +19,7 @@ const onSubmit = form.handleSubmit(async (values) => {
     const { eventId } = await $client.events.import.mutate({
       sourceUrl: values.url,
     })
+    toast.success('Your import has started.')
   } catch (e: any) {
     console.log(e.message ?? 'Import Failed')
   }

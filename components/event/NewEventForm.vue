@@ -15,17 +15,13 @@ const form = useForm({
   validationSchema: toTypedSchema(schema),
 })
 
-const emit = defineEmits<{
-  (e: 'close'): void
-}>()
-
 const onSubmit = form.handleSubmit(
   async (values) => {
     await $client.events.create.mutate(values)
-    emit('close')
+    await router.push('/admin/events')
   },
   (e) => {
-    toast.error('Please fix the errors in the form.')
+    toast.error('Please fill out the name of your event.')
   }
 )
 </script>
