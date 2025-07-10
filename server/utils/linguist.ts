@@ -52,11 +52,6 @@ export function getSuggestedType(description: string) {
   return eventType
 }
 
-export async function getStyles() {
-  const styles = await prisma.danceStyle.findMany()
-  return styles
-}
-
 export async function getSuggestedStyles(description: string) {
   if (!description) {
     return {}

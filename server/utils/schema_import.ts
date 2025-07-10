@@ -1,5 +1,6 @@
 const WAE = require('web-auto-extractor').default
 const TurndownService = require('turndown')
+import { prisma } from '~/server/prisma'
 import { decode } from 'html-entities'
 import axios from 'axios'
 import { getCityId, getPlace } from './google_maps'
@@ -11,15 +12,6 @@ import {
   slugify,
   getSuggestedStyles,
 } from './linguist'
-import { prisma } from '~/server/prisma'
-
-/**
- * Retrieves the master list of all dance styles directly from the database.
- */
-export async function getStyles() {
-  const styles = await prisma.danceStyle.findMany()
-  return styles
-}
 
 async function getEvent(url: string) {
   let response
