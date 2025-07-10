@@ -41,7 +41,7 @@ const onSubmit = form.handleSubmit(
       </FormItem>
     </FormField>
     <div class="flex gap-2 justify-end mt-4">
-      <NuxtLink to="admin/events/import">
+      <NuxtLink to="/admin/events/import">
         <Button variant="outline" type="button">Back</Button>
       </NuxtLink>
       <Button type="submit"> Save</Button>
