@@ -4,22 +4,11 @@ import { isFacebookEvent } from './functions/linguist'
 import { getFacebookEvent } from './functions/facebook_import'
 import { getSchemaEvent } from './functions/schema_import'
 import axios from 'axios'
-import { loadNuxtConfig } from 'nuxt/kit'
 import { getSlug } from '~/utils/slug'
 
 export const scrape = task({
   id: 'import-event',
   run: async (payload: any, { ctx }) => {
-    //manually load nuxt config because this task runs outside of the server envorinemt
-    const nuxtConfig = await loadNuxtConfig({ cwd: process.cwd() })
-
-    //config created here to inject as a dependecy into scraper funcs
-    const cloudinaryConfig = {
-      cloud_name: nuxtConfig.runtimeConfig.public.cloudinaryCloudName,
-      api_key: nuxtConfig.runtimeConfig.cloudinaryApiKey,
-      api_secret: nuxtConfig.runtimeConfig.cloudinaryApiSecret,
-    }
-
     const { eventId, sourceUrl } = payload
     logger.log('Scraper Started')
 
@@ -40,9 +29,9 @@ export const scrape = task({
     let scrappedData: any
     if (isFacebookEvent(sourceUrl)) {
       const facebookUrl = await getRedirectedUrl(sourceUrl)
-      scrappedData = await getFacebookEvent(facebookUrl, cloudinaryConfig)
+      scrappedData = await getFacebookEvent(facebookUrl)
     } else {
-      scrappedData = await getSchemaEvent(sourceUrl, cloudinaryConfig)
+      scrappedData = await getSchemaEvent(sourceUrl)
     }
     if (scrappedData.type === 'import_error') {
       logger.error('Failed to scrape event data', {
