@@ -36,11 +36,7 @@ export async function getSuggestedStyles(description: string) {
   const styles: any = {}
 
   for (const style of stylesList) {
-    if (!style.regexp) {
-      continue
-    }
-
-    const words = style.regexp.split(',').filter(Boolean)
+    const words = (style.regexp as string).split(',').filter(Boolean)
 
     for (const word of words) {
       if (description.toLowerCase().includes(word.toLowerCase())) {
