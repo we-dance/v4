@@ -1,10 +1,11 @@
 import { logger, task, wait } from '@trigger.dev/sdk/v3'
 import { prisma } from '../server/prisma'
-import { isFacebookEvent, slugify } from '~/server/utils/linguist'
+import { isFacebookEvent } from '~/server/utils/linguist'
 import { getFacebookEvent } from '~/server/utils/facebook_import'
 import { getSchemaEvent } from '~/server/utils/schema_import'
 import axios from 'axios'
 import { loadNuxtConfig } from 'nuxt/kit'
+import { getSlug } from '~/utils/slug'
 
 export const scrape = task({
   id: 'import-event',
@@ -58,7 +59,7 @@ export const scrape = task({
 
     const eventDataForPrisma = {
       name: scrappedData.name,
-      slug: slugify(scrappedData.name),
+      slug: getSlug(scrappedData.name),
       description: scrappedData.description,
       cover: scrappedData.cover,
       startDate: new Date(scrappedData.startDate),

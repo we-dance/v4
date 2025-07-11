@@ -2,7 +2,8 @@ import { scrapeFbEventFromFbid } from 'facebook-event-scraper'
 import { prisma } from '~/server/prisma'
 import { getCityId, getPlace } from './google_maps'
 import { getUploadedImage } from './cloudinary'
-import { getSuggestedType, getSuggestedStyles, slugify } from './linguist'
+import { getSuggestedType, getSuggestedStyles } from './linguist'
+import { getSlug } from '~/utils/slug'
 import axios from 'axios'
 
 function getDate(timestamp: any) {
@@ -36,7 +37,7 @@ async function getOrg(host: any, place: any, cloudinaryConfig: any) {
     }
 
     if (username.length > 20) {
-      username = slugify(host?.name)
+      username = getSlug(host?.name)
     }
 
     const existingProfile = await prisma.profile.findUnique({

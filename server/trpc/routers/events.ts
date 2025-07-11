@@ -486,7 +486,7 @@ export const eventsRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { sourceUrl } = input
 
-      const placeholderSlug = slugify(`importing`)
+      const placeholderSlug = getSlug(`importing`)
 
       // a placeholde row until scraping is done
       const event = await prisma.event.create({
