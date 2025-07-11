@@ -63,8 +63,8 @@ const onSubmit = form.handleSubmit(async (values) => {
       </div>
     </div>
 
-    <NuxtLink to="/admin/events/new">
-      <Button variant="outline" class="w-full mt-4">Create new event</Button>
-    </NuxtLink>
+    <Button class="w-full mt-4" as-child>
+      <NuxtLink to="/admin/events/new">Create New Event</NuxtLink>
+    </Button>
   </form>
 </template>
