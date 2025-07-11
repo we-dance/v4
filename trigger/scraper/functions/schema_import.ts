@@ -9,7 +9,6 @@ import {
   getSuggestedType,
   getUrlsFromText,
   isFacebookEvent,
-  slugify,
   getSuggestedStyles,
 } from './linguist'
 
