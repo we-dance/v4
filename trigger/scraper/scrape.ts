@@ -1,6 +1,6 @@
 import { logger, task } from '@trigger.dev/sdk/v3'
 import { getEventType } from './functions/get_event_type'
-import { saveEvent } from './functions/save_event'
+import { saveEvent, deletePlaceholderEvent } from './functions/manage_event'
 
 export const scrape = task({
   id: 'import-event',
@@ -9,19 +9,26 @@ export const scrape = task({
     logger.log('Scraper Started')
 
     if (!sourceUrl) {
-      logger.error('No sourceUrl provided in payload', { eventId })
+      await deletePlaceholderEvent(eventId, 'No Source URL is provided')
       return
     }
-
-    const scrappedData = await getEventType(sourceUrl)
-
-    if (scrappedData.type === 'import_error') {
-      logger.error('Failed to scrape event data', {
+    try {
+      const scrappedData = await getEventType(sourceUrl)
+      if (scrappedData.type === 'import_error') {
+        await deletePlaceholderEvent(
+          eventId,
+          'Failed to scrape event data',
+          scrappedData.error
+        )
+        return
+      }
+      await saveEvent(eventId, scrappedData)
+    } catch (error) {
+      await deletePlaceholderEvent(
         eventId,
-        error: scrappedData.error,
-      })
-      return
+        'An Unpexpected error occured during scrape process',
+        error
+      )
     }
-    await saveEvent(eventId, scrappedData)
   },
 })

@@ -37,5 +37,20 @@ export async function saveEvent(eventId: string, scrappedData: any) {
     logger.log('Scrape was succesfull', { eventId })
   } catch (error) {
     logger.error('Failed to update event in databse', { eventId, error })
+    throw error
+  }
+}
+
+export async function deletePlaceholderEvent(
+  eventId: string,
+  reason: string,
+  error?: any
+) {
+  logger.error(reason, { eventId, error })
+  try {
+    await prisma.event.delete({ where: { id: eventId } })
+    logger.log('Placeholder event deleted', { eventId })
+  } catch (e) {
+    logger.error('Failed to delete placeholder row,', { eventId, error: e })
   }
 }
