@@ -41,16 +41,26 @@ export async function saveEvent(eventId: string, scrappedData: any) {
   }
 }
 
-export async function deletePlaceholderEvent(
+export async function handleImportFailure(
   eventId: string,
   reason: string,
   error?: any
 ) {
   logger.error(reason, { eventId, error })
   try {
-    await prisma.event.delete({ where: { id: eventId } })
-    logger.log('Placeholder event deleted', { eventId })
+    const errorMessage = error ? `${reason}: ${JSON.stringify(error)}` : reason
+    await prisma.event.update({
+      where: { id: eventId },
+      data: {
+        status: 'import_failed',
+        importError: errorMessage,
+      },
+    })
+    logger.log('Marked evet as import_failed', { eventId })
   } catch (e) {
-    logger.error('Failed to delete placeholder row,', { eventId, error: e })
+    logger.error('Failed to update event to import_failed.', {
+      eventId,
+      error: e,
+    })
   }
 }
