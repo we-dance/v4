@@ -1,10 +1,6 @@
-import { logger, task, wait } from '@trigger.dev/sdk/v3'
-import { prisma } from '../../server/prisma'
-import { isFacebookEvent } from './functions/linguist'
-import { getFacebookEvent } from './functions/facebook_import'
-import { getSchemaEvent } from './functions/schema_import'
-import axios from 'axios'
-import { getSlug } from '~/utils/slug'
+import { logger, task } from '@trigger.dev/sdk/v3'
+import { getEventType } from './functions/get_event_type'
+import { saveEvent } from './functions/save_event'
 
 export const scrape = task({
   id: 'import-event',
@@ -17,22 +13,8 @@ export const scrape = task({
       return
     }
 
-    async function getRedirectedUrl(url: string): Promise<string> {
-      try {
-        const response = await axios.get(url)
-        return response.request.res.responseUrl || url
-      } catch (error) {
-        logger.error('Failed to get redirected url', { url, error })
-        return url
-      }
-    }
-    let scrappedData: any
-    if (isFacebookEvent(sourceUrl)) {
-      const facebookUrl = await getRedirectedUrl(sourceUrl)
-      scrappedData = await getFacebookEvent(facebookUrl)
-    } else {
-      scrappedData = await getSchemaEvent(sourceUrl)
-    }
+    const scrappedData = await getEventType(sourceUrl)
+
     if (scrappedData.type === 'import_error') {
       logger.error('Failed to scrape event data', {
         eventId,
@@ -40,40 +22,6 @@ export const scrape = task({
       })
       return
     }
-
-    // Get the style hashtags from the scraped data
-    const styleHashtags = scrappedData.styles
-      ? Object.keys(scrappedData.styles)
-      : []
-
-    const eventDataForPrisma = {
-      name: scrappedData.name,
-      slug: getSlug(scrappedData.name),
-      description: scrappedData.description,
-      cover: scrappedData.cover,
-      startDate: new Date(scrappedData.startDate),
-      endDate: scrappedData.endDate ? new Date(scrappedData.endDate) : null,
-      type: scrappedData.type,
-      price: scrappedData.price,
-      sourceUrl: scrappedData.link,
-      organizerId: scrappedData.org?.id || null,
-      venueId: scrappedData.venue?.id || null,
-      status: 'published',
-      styles: {
-        connect: styleHashtags.map((hashtag) => ({
-          hashtag: hashtag,
-        })),
-      },
-    }
-
-    try {
-      await prisma.event.update({
-        where: { id: eventId },
-        data: eventDataForPrisma,
-      })
-      logger.log('Scrape was succesfull', { eventId })
-    } catch (error) {
-      logger.error('Failed to update event in databse', { eventId, error })
-    }
+    await saveEvent(eventId, scrappedData)
   },
 })
