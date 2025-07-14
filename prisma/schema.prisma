@@ -1,9 +1,6 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider        = "prisma-client-js"
-  previewFeatures = ["fullTextSearch", "relationJoins"]
+  previewFeatures = ["fullTextSearchPostgres", "relationJoins"]
 }
 
 datasource db {
@@ -18,15 +15,14 @@ model Account {
   type              String
   provider          String
   providerAccountId String
-  refresh_token     String? @db.Text
-  access_token      String? @db.Text
+  refresh_token     String?
+  access_token      String?
   expires_at        Int?
   token_type        String?
   scope             String?
-  id_token          String? @db.Text
+  id_token          String?
   session_state     String?
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
 }
@@ -48,154 +44,144 @@ model VerificationToken {
 }
 
 model User {
-  id                   String    @id @default(nanoid())
-  email                String    @unique
-  stripeAccountId      String?   @default("")
-  name                 String?   @default("")
-  firstName            String?   @default("")
-  lastName             String?   @default("")
-  phone                String?   @default("")
-  emailConsent         Boolean   @default(false)
+  id                   String               @id @default(nanoid())
+  email                String               @unique
+  stripeAccountId      String?              @default("")
+  name                 String?              @default("")
+  firstName            String?              @default("")
+  lastName             String?              @default("")
+  phone                String?              @default("")
+  emailConsent         Boolean              @default(false)
   emailConsentAt       DateTime?
-  salt                 String    @default("")
-  hash                 String    @default("")
-  firebaseId           String    @default("")
-  emailVerified        Boolean   @default(false)
-  isDeleted            Boolean   @default(false)
+  salt                 String               @default("")
+  hash                 String               @default("")
+  firebaseId           String               @default("")
+  emailVerified        Boolean              @default(false)
+  isDeleted            Boolean              @default(false)
   deletedAt            DateTime?
   deletedReason        String?
-  notificationSettings Json      @default("{}")
-
-  profile             Profile?             @relation("owned_by")
-  profilesCreated     Profile[]            @relation("profile_created_by")
-  accounts            Account[]
-  sessions            Session[]
-  subscriptions       Subscription[]
-  muxVideos           MuxVideo[]
-  passwordResetTokens PasswordResetToken[]
-  emailsSent          EmailSent[]
-  ticketPurchases     TicketPurchase[]
-
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  lastLoginAt DateTime @default(now())
+  notificationSettings Json                 @default("{}")
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
+  lastLoginAt          DateTime             @default(now())
+  accounts             Account[]
+  emailsSent           EmailSent[]
+  muxVideos            MuxVideo[]
+  passwordResetTokens  PasswordResetToken[]
+  profilesCreated      Profile[]            @relation("profile_created_by")
+  profile              Profile?             @relation("owned_by")
+  sessions             Session[]
+  subscriptions        Subscription[]
 }
 
 model PasswordResetToken {
   token   String   @id
   userId  String
-  user    User     @relation(fields: [userId], references: [id])
   expires DateTime
+  user    User     @relation(fields: [userId], references: [id])
 }
 
 model Country {
-  code String @id
-  name String
-
-  cities City[] @relation("country_cities")
-
+  code      String   @id
+  name      String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  cities    City[]   @relation("country_cities")
 }
 
 model City {
-  id               String @id
+  id               String           @id
   name             String
-  region           String @default("")
+  region           String           @default("")
   countryCode      String
-  description      String @default("")
-  slug             String @unique
+  description      String           @default("")
+  slug             String           @unique
   lat              Float
   lng              Float
-  membersCount     Int    @default(0)
-  subscribersCount Int    @default(0)
-  viewsCount       Int    @default(0)
-
-  profiles    Profile[]        @relation("profile_city")
-  country     Country          @relation("country_cities", fields: [countryCode], references: [code])
-  posts       Post[]           @relation("post_city")
-  subscribers CitySubscriber[] @relation("subscribers")
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  membersCount     Int              @default(0)
+  subscribersCount Int              @default(0)
+  viewsCount       Int              @default(0)
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  country          Country          @relation("country_cities", fields: [countryCode], references: [code])
+  subscribers      CitySubscriber[] @relation("subscribers")
+  posts            Post[]           @relation("post_city")
+  profiles         Profile[]        @relation("profile_city")
 }
 
 model Profile {
-  id               String    @id @default(nanoid())
-  username         String    @unique
-  firebaseUsername String    @default("")
-  pronounce        String    @default("they")
-  name             String
-  bio              String    @default("")
-  story            String    @default("")
-  firebaseId       String    @default("")
-  claimed          Boolean   @default(false)
-  formattedAddress String?
-  mapUrl           String?
-  lng              Float?
-  lat              Float?
-  placeId          String?
-  type             String
-  photo            String?
-  website          String?
-  instagram        String?
-  facebook         String?
-  phone            String?
-  youtube          String?
-  spotify          String?
-  tiktok           String?
-  linkedin         String?
-  whatsapp         String?
-  threads          String?
-  twitter          String?
-  vk               String?
-  telegram         String?
-  couchsurfing     String?
-  airbnb           String?
-  blablacar        String?
-  createdById      String?
-  lastLoginAt      DateTime?
-  isDeleted        Boolean   @default(false)
-  deletedAt        DateTime?
-  deletedReason    String?
-  followersCount   Int       @default(0)
-  followingCount   Int       @default(0)
-  viewsCount       Int       @default(0)
-  visibility       String    @default("Public")
-  timezone         String?
-  locales          Json?
-  gender           String?
-  birthday         DateTime?
-  objectives       Json?
-  step             String?
-  invitedBy        String?
-  daysUsed         Int?
-  pwaUsed          Boolean?
-  oldCities        Json?
-  privacySettings  Json?
-
-  userId          String? @unique
-  user            User?   @relation("owned_by", fields: [userId], references: [id])
-  cityId          String?
-  city            City?   @relation("profile_city", fields: [cityId], references: [id])
-  posts           Post[]  @relation("post_author")
-  reviews         Post[]  @relation("reviews")
-  eventsCreated   Event[] @relation("event_created_by")
-  eventsOrganized Event[] @relation("event_organized_by")
-  eventsHosted    Event[] @relation("event_hosted_by")
-
-  courses            Course[]          @relation("course_instructor")
-  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
-  styles             Experience[]      @relation("profile_experience")
-  followers          ProfileFollower[] @relation("followers")
-  following          ProfileFollower[] @relation("following")
+  id                 String            @id @default(nanoid())
+  username           String            @unique
+  firebaseUsername   String            @default("")
+  pronounce          String            @default("they")
+  name               String
+  bio                String            @default("")
+  story              String            @default("")
+  firebaseId         String            @default("")
+  claimed            Boolean           @default(false)
+  formattedAddress   String?
+  mapUrl             String?
+  lng                Float?
+  lat                Float?
+  placeId            String?
+  type               String
+  photo              String?
+  website            String?
+  instagram          String?
+  facebook           String?
+  phone              String?
+  youtube            String?
+  spotify            String?
+  tiktok             String?
+  linkedin           String?
+  whatsapp           String?
+  threads            String?
+  twitter            String?
+  vk                 String?
+  telegram           String?
+  couchsurfing       String?
+  airbnb             String?
+  blablacar          String?
+  createdById        String?
+  lastLoginAt        DateTime?
+  isDeleted          Boolean           @default(false)
+  deletedAt          DateTime?
+  deletedReason      String?
+  followersCount     Int               @default(0)
+  followingCount     Int               @default(0)
+  viewsCount         Int               @default(0)
+  visibility         String            @default("Public")
+  timezone           String?
+  locales            Json?
+  gender             String?
+  birthday           DateTime?
+  objectives         Json?
+  step               String?
+  invitedBy          String?
+  daysUsed           Int?
+  pwaUsed            Boolean?
+  oldCities          Json?
+  privacySettings    Json?
+  userId             String?           @unique
+  cityId             String?
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
   cities             CitySubscriber[]  @relation("cities")
+  courses            Course[]          @relation("course_instructor")
+  eventsCreated      Event[]           @relation("event_created_by")
+  eventsOrganized    Event[]           @relation("event_organized_by")
+  eventsHosted       Event[]           @relation("event_hosted_by")
+  styles             Experience[]      @relation("profile_experience")
   eventsParticipated Guest[]           @relation("guest_profile")
+  posts              Post[]            @relation("post_author")
+  reviews            Post[]            @relation("reviews")
+  city               City?             @relation("profile_city", fields: [cityId], references: [id])
+  createdBy          User?             @relation("profile_created_by", fields: [createdById], references: [id])
+  user               User?             @relation("owned_by", fields: [userId], references: [id])
+  following          ProfileFollower[] @relation("following")
+  followers          ProfileFollower[] @relation("followers")
   videosAdded        Video[]           @relation("video_created_by")
   votes              Vote[]            @relation("vote_created_by")
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
 
   @@map("Profile")
 }
@@ -203,51 +189,46 @@ model Profile {
 model Experience {
   level       String
   highlighted Boolean
-
-  profileId String
-  profile   Profile    @relation("profile_experience", fields: [profileId], references: [id])
-  styleId   Int
-  style     DanceStyle @relation("experience_style", fields: [styleId], references: [id])
+  profileId   String
+  styleId     Int
+  profile     Profile    @relation("profile_experience", fields: [profileId], references: [id])
+  style       DanceStyle @relation("experience_style", fields: [styleId], references: [id])
 
   @@unique([profileId, styleId])
 }
 
 model Post {
-  id          String  @id @default(nanoid())
-  title       String  @default("")
-  image       String  @default("")
-  summary     String  @default("")
-  type        String  @default("")
-  slug        String  @unique
-  published   Boolean @default(false)
-  firebaseId  String  @default("")
-  attachments Json?
-  content     Json?
-  replyTo     String?
-  replyToPost Post?   @relation("post_reply_to", fields: [replyTo], references: [id])
-
-  author    Profile  @relation("post_author", fields: [authorId], references: [id])
-  authorId  String
-  event     Event?   @relation("post_event", fields: [eventId], references: [id])
-  eventId   String?
-  courseId  String?
-  course    Course?  @relation("post_course", fields: [courseId], references: [id])
-  profile   Profile? @relation("reviews", fields: [profileId], references: [id])
-  profileId String?
-  cityId    String?
-  city      City?    @relation("post_city", fields: [cityId], references: [id])
-
-  styleId Int?
-  style   DanceStyle? @relation("post_style", fields: [styleId], references: [id])
-
-  pinned        Boolean @default(false)
-  upVotes       Int     @default(0)
-  downVotes     Int     @default(0)
-  commentsCount Int     @default(0)
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  replies   Post[]   @relation("post_reply_to")
+  id            String      @id @default(nanoid())
+  title         String      @default("")
+  image         String      @default("")
+  summary       String      @default("")
+  type          String      @default("")
+  slug          String      @unique
+  published     Boolean     @default(false)
+  firebaseId    String      @default("")
+  attachments   Json?
+  content       Json?
+  authorId      String
+  eventId       String?
+  courseId      String?
+  profileId     String?
+  cityId        String?
+  styleId       Int?
+  pinned        Boolean     @default(false)
+  upVotes       Int         @default(0)
+  downVotes     Int         @default(0)
+  commentsCount Int         @default(0)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  replyTo       String?
+  author        Profile     @relation("post_author", fields: [authorId], references: [id])
+  city          City?       @relation("post_city", fields: [cityId], references: [id])
+  course        Course?     @relation("post_course", fields: [courseId], references: [id])
+  event         Event?      @relation("post_event", fields: [eventId], references: [id])
+  profile       Profile?    @relation("reviews", fields: [profileId], references: [id])
+  replyToPost   Post?       @relation("post_reply_to", fields: [replyTo], references: [id])
+  replies       Post[]      @relation("post_reply_to")
+  style         DanceStyle? @relation("post_style", fields: [styleId], references: [id])
 }
 
 model Event {
@@ -320,14 +301,14 @@ model TicketPurchase {
 }
 
 model DanceStyle {
-  id           Int      @id @default(autoincrement())
+  id           Int          @id @default(autoincrement())
   name         String
-  hashtag      String   @unique
+  hashtag      String       @unique
   synonyms     String?
   regexp       String?
-  popular      Boolean  @default(false)
+  popular      Boolean      @default(false)
   popularity   Int?
-  familyOnly   Boolean  @default(false)
+  familyOnly   Boolean      @default(false)
   description  String?
   history      String?
   origins      String?
@@ -352,46 +333,40 @@ model DanceStyle {
   active       Boolean?
   video        String?
   intro        String?
-
-  membersCount Int @default(0)
-  eventsCount  Int @default(0)
-
-  events      Event[]
-  experiences Experience[] @relation("experience_style")
-  videos      Video[]      @relation("video_style")
-  posts       Post[]       @relation("post_style")
+  membersCount Int          @default(0)
+  eventsCount  Int          @default(0)
+  experiences  Experience[] @relation("experience_style")
+  posts        Post[]       @relation("post_style")
+  videos       Video[]      @relation("video_style")
+  events       Event[]      @relation("DanceStyleToEvent")
 }
 
 model ProfileFollower {
-  id Int @id @default(autoincrement())
-
+  id         Int      @id @default(autoincrement())
   followerId String
-  follower   Profile @relation("following", fields: [followerId], references: [id])
   profileId  String
-  profile    Profile @relation("followers", fields: [profileId], references: [id])
-
-  createdAt DateTime @default(now())
+  createdAt  DateTime @default(now())
+  follower   Profile  @relation("following", fields: [followerId], references: [id])
+  profile    Profile  @relation("followers", fields: [profileId], references: [id])
 
   @@unique([followerId, profileId])
 }
 
 model CitySubscriber {
-  id Int @id @default(autoincrement())
-
+  id        Int     @id @default(autoincrement())
   cityId    String
-  city      City    @relation("subscribers", fields: [cityId], references: [id])
   profileId String
+  city      City    @relation("subscribers", fields: [cityId], references: [id])
   profile   Profile @relation("cities", fields: [profileId], references: [id])
 
   @@unique([cityId, profileId])
 }
 
 model Redirect {
-  id   String  @id @default(nanoid())
-  from String
-  to   String
-  note String?
-
+  id        String   @id @default(nanoid())
+  from      String
+  to        String
+  note      String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
@@ -412,29 +387,28 @@ model Guest {
   cancelledAt  DateTime?
   registeredAt DateTime?
   waitlistedAt DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  event        Event     @relation("event_guests", fields: [eventId], references: [id])
+  profile      Profile   @relation("guest_profile", fields: [profileId], references: [id])
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@unique([profileId, eventId]) // Ensure a profile can only be linked to an event once
+  @@unique([profileId, eventId])
 }
 
 model Video {
-  id      String     @id @default(nanoid())
-  url     String     @unique
-  styleId Int
-  style   DanceStyle @relation("video_style", fields: [styleId], references: [id])
-
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  createdBy   Profile? @relation("video_created_by", fields: [createdById], references: [id])
+  id          String     @id @default(nanoid())
+  url         String     @unique
+  styleId     Int
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
   createdById String?
+  createdBy   Profile?   @relation("video_created_by", fields: [createdById], references: [id])
+  style       DanceStyle @relation("video_style", fields: [styleId], references: [id])
 }
 
 model MuxVideo {
-  id          String  @id @default(nanoid())
+  id          String   @id @default(nanoid())
   userId      String
-  user        User    @relation(fields: [userId], references: [id])
   uploadId    String?
   assetId     String?
   playbackId  String?
@@ -442,9 +416,9 @@ model MuxVideo {
   status      String?
   duration    Float?
   aspectRatio String?
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  user        User     @relation(fields: [userId], references: [id])
 }
 
 model Vote {
@@ -453,74 +427,65 @@ model Vote {
   loserId     String
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
-  createdBy   Profile  @relation("vote_created_by", fields: [createdById], references: [id])
   createdById String
+  createdBy   Profile  @relation("vote_created_by", fields: [createdById], references: [id])
 }
 
 model Course {
-  id           String  @id @default(nanoid())
-  slug         String  @unique
+  id           String           @id @default(nanoid())
+  slug         String           @unique
   name         String
   description  String?
   subheader    String?
   instructorId String?
   coverUrl     String?
-  status       String  @default("draft") // Values: draft, published, archived
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  instructor Profile?         @relation("course_instructor", fields: [instructorId], references: [id])
-  modules    CourseModule[]
-  resources  CourseResource[]
-  offers     Offer[]
-  reviews    Post[]           @relation("post_course")
+  status       String           @default("draft")
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+  instructor   Profile?         @relation("course_instructor", fields: [instructorId], references: [id])
+  modules      CourseModule[]
+  resources    CourseResource[]
+  offers       Offer[]
+  reviews      Post[]           @relation("post_course")
 }
 
 model CourseModule {
-  id          String    @id @default(nanoid())
+  id          String         @id @default(nanoid())
   name        String
   order       Int
   description String?
   courseId    String
   startsAt    DateTime?
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  course  Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
-  lessons CourseLesson[]
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  lessons     CourseLesson[]
+  course      Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }
 
 model CourseLesson {
-  id       String  @id @default(nanoid())
-  name     String
-  duration Int
-  fileUrl  String?
-  videoId  String?
-  locked   Boolean @default(false)
-  moduleId String
-  order    Int     @default(0)
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  module CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  id        String       @id @default(nanoid())
+  name      String
+  duration  Int
+  videoId   String?
+  locked    Boolean      @default(false)
+  moduleId  String
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+  fileUrl   String?
+  order     Int          @default(0)
+  module    CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
 }
 
 model CourseResource {
-  id          String  @id @default(nanoid())
+  id          String   @id @default(nanoid())
   name        String
   description String
   url         String
-  locked      Boolean @default(false)
+  locked      Boolean  @default(false)
   courseId    String
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  // Relations
-  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }
 
 model Offer {
@@ -536,42 +501,37 @@ model Offer {
   stripePaymentLink String?
   stripeProductId   String?
   stripePriceId     String?
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  course            Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
   subscriptions     Subscription[]
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }
 
 model Subscription {
   id                   String    @id @default(nanoid())
   userId               String
-  user                 User      @relation(fields: [userId], references: [id])
   offerId              String
-  offer                Offer     @relation(fields: [offerId], references: [id])
-  status               String    @default("pending") // 'active', 'canceled', 'past_due'
+  status               String    @default("pending")
   nextBillingDate      DateTime?
   stripeSubscriptionId String?
-
-  endAt      DateTime?
-  canceledAt DateTime?
-  createdAt  DateTime  @default(now())
-  updatedAt  DateTime  @updatedAt
+  endAt                DateTime?
+  canceledAt           DateTime?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  offer                Offer     @relation(fields: [offerId], references: [id])
+  user                 User      @relation(fields: [userId], references: [id])
 }
 
 model EmailSent {
-  id Int @id @default(autoincrement())
-
+  id        Int      @id @default(autoincrement())
   mailgunId String
   userId    String
-  user      User   @relation(fields: [userId], references: [id])
   type      String
   subject   String
   params    Json
   status    String
-  events    Json   @default("[]")
-
+  events    Json     @default("[]")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id])
 }
