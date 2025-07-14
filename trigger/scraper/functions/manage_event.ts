@@ -52,15 +52,17 @@ export async function handleImportFailure(
     await prisma.event.update({
       where: { id: eventId },
       data: {
+        name: 'Failed import',
+        slug: 'failed-import',
         status: 'import_failed',
         importError: errorMessage,
       },
     })
     logger.log('Marked evet as import_failed', { eventId })
-  } catch (e) {
+  } catch (error) {
     logger.error('Failed to update event to import_failed.', {
       eventId,
-      error: e,
+      error: error,
     })
   }
 }

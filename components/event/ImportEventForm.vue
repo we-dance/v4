@@ -21,7 +21,7 @@ const onSubmit = form.handleSubmit(async (values) => {
     })
     toast.success('Your import has started.')
   } catch (e: any) {
-    toast.error('Your impport failed, please try again later.')
+    toast.error('Your import failed, please try again later.')
     console.log(e.message ?? 'Import Failed')
   }
 })
