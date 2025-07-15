@@ -19,9 +19,9 @@ const onSubmit = form.handleSubmit(async (values) => {
     const { eventId } = await $client.events.import.mutate({
       sourceUrl: values.url,
     })
-    toast.success('Your import has started.')
+    toast.success('Event is scheduled for import.')
   } catch (e: any) {
-    toast.error('Your import failed, please try again later.')
+    toast.error('Failed to schedule event for import')
     console.log(e.message ?? 'Import Failed')
   }
 })
