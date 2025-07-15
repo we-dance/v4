@@ -263,7 +263,8 @@ model Event {
   price       String    @default("")
   firebaseId  String    @default("")
   published   Boolean   @default(false)
-  status      String    @default("draft") // Values: draft, published, archived, cancelled
+  status      String    @default("draft") // Values: draft, published, archived, cancelled, import_event, import_failed
+  importError String?   @db.Text
   ticketUrl   String?
 
   styles          DanceStyle[]
