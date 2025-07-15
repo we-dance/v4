@@ -26,7 +26,7 @@ export const scrape = task({
     } catch (error) {
       await handleImportFailure(
         eventId,
-        'An Unpexpected error occured during scrape process',
+        'An unexpected error occurred during scrape process',
         error
       )
     }

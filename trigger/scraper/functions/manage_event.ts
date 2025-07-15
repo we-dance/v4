@@ -12,9 +12,7 @@ export async function saveEvent(eventId: string, scrappedData: any) {
     slug: getSlug(scrappedData.name),
     description: scrappedData.description,
     cover: scrappedData.cover,
-    startDate: scrappedData.startDate
-      ? new Date(scrappedData.startDate)
-      : new Date(),
+    startDate: scrappedData.startDate ? new Date(scrappedData.startDate) : null,
     endDate: scrappedData.endDate ? new Date(scrappedData.endDate) : null,
     type: scrappedData.type,
     price: scrappedData.price,
@@ -48,7 +46,7 @@ export async function handleImportFailure(
 ) {
   logger.error(reason, { eventId, error })
   try {
-    const errorMessage = error ? `${reason}: ${JSON.stringify(error)}` : reason
+    const errorMessage = error ? `${reason}: ${String(error)}` : reason
     await prisma.event.update({
       where: { id: eventId },
       data: {
@@ -58,7 +56,7 @@ export async function handleImportFailure(
         importError: errorMessage,
       },
     })
-    logger.log('Marked evet as import_failed', { eventId })
+    logger.log('Marked event as import_failed', { eventId })
   } catch (error) {
     logger.error('Failed to update event to import_failed.', {
       eventId,
