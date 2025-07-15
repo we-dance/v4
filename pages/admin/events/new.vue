@@ -1,6 +1,4 @@
-<script lang="ts">
-import SidebarTrigger from '~/components/ui/sidebar/SidebarTrigger.vue'
-
+<script setup lang="ts">
 definePageMeta({
   layout: 'admin',
   middleware: ['sidebase-auth'],
