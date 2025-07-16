@@ -17,8 +17,15 @@ const form = useForm({
 
 const onSubmit = form.handleSubmit(
   async (values) => {
-    await $client.events.create.mutate(values)
-    await router.push('/admin/events')
+    const promise = $client.events.create.mutate(values)
+    toast.promise(promise, {
+      loading: 'Creating event...',
+      success: 'Event created successfully',
+      error: (error: any) => (error as Error).message,
+    })
+    promise.then(() => {
+      router.push('/admin/events')
+    })
   },
   (e) => {
     toast.error('Please fill out the name of your event.')
@@ -30,7 +37,7 @@ const onSubmit = form.handleSubmit(
   <form @submit="onSubmit" class="w-[650px]">
     <FormField v-slot="{ componentField }" name="name">
       <FormItem>
-        <FormLabel>Name Of Your Event</FormLabel>
+        <FormLabel>Event Name</FormLabel>
         <FormControl>
           <Input v-bind="componentField" />
         </FormControl>

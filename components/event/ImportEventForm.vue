@@ -2,11 +2,9 @@
 import { useForm } from 'vee-validate'
 import { z } from 'zod'
 import { toTypedSchema } from '@vee-validate/zod'
-import { useNuxtApp } from '#app'
 import { toast } from 'vue-sonner'
 
 const { $client } = useNuxtApp()
-const router = useRouter()
 
 const schema = z.object({
   url: z.string().url(),
@@ -14,16 +12,20 @@ const schema = z.object({
 
 const form = useForm({ validationSchema: toTypedSchema(schema) })
 
+const router = useRouter()
+
 const onSubmit = form.handleSubmit(async (values) => {
-  try {
-    const { eventId } = await $client.events.import.mutate({
-      sourceUrl: values.url,
-    })
-    toast.success('Event is scheduled for import.')
-  } catch (e: any) {
-    toast.error('Failed to schedule event for import')
-    console.log(e.message ?? 'Import Failed')
-  }
+  const promise = $client.events.import.mutate({
+    sourceUrl: values.url,
+  })
+  toast.promise(promise, {
+    loading: 'Scheduling event import...',
+    success: 'Event is scheduled for import.',
+    error: (error: any) => (error as Error).message,
+  })
+  promise.then(() => {
+    router.push('/admin/events')
+  })
 })
 </script>
 
