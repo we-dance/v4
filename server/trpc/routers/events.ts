@@ -92,6 +92,9 @@ export const eventsRouter = router({
           ],
         },
         take: 10,
+        orderBy: {
+          createdAt: 'desc',
+        },
         include: {
           venue: {
             include: {

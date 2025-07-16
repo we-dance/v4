@@ -22,7 +22,16 @@ const events = computed(() => data.value?.events ?? [])
 
 const columns: ColumnDef<any>[] = [
   {
-    header: 'Date',
+    header: 'Created At',
+    accessorKey: 'createdAt',
+    cell: ({ row }) => {
+      const event = row.original
+      if (!event?.createdAt) return ''
+      return getDateTime(event?.createdAt)
+    },
+  },
+  {
+    header: 'Start Date',
     accessorKey: 'startDate',
     cell: ({ row }) => {
       const event = row.original
