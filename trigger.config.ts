@@ -3,7 +3,7 @@ import { prismaExtension } from '@trigger.dev/build/extensions/prisma'
 import { puppeteer } from '@trigger.dev/build/extensions/puppeteer'
 
 export default defineConfig({
-  project: 'proj_butqoqpbkvznbmsnrtrf',
+  project: 'proj_vxbjanbirhxlqgzwzeyw',
   runtime: 'node',
   logLevel: 'log',
   build: {
