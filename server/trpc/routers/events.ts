@@ -66,19 +66,28 @@ export const eventsRouter = router({
     .query(async ({ ctx, input }) => {
       const events = await prisma.event.findMany({
         where: {
-          organizerId: ctx.session?.user.id,
-          OR: [
+          AND: [
             {
-              name: {
-                contains: input.query,
-                mode: 'insensitive',
-              },
+              OR: [
+                { organizerId: ctx.session?.profile?.id },
+                { creatorId: ctx.session?.profile?.id },
+              ],
             },
             {
-              description: {
-                contains: input.query,
-                mode: 'insensitive',
-              },
+              OR: [
+                {
+                  name: {
+                    contains: input.query,
+                    mode: 'insensitive',
+                  },
+                },
+                {
+                  description: {
+                    contains: input.query,
+                    mode: 'insensitive',
+                  },
+                },
+              ],
             },
           ],
         },

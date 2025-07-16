@@ -1,5 +1,6 @@
 import { defineConfig } from '@trigger.dev/sdk/v3'
 import { prismaExtension } from '@trigger.dev/build/extensions/prisma'
+import { puppeteer } from '@trigger.dev/build/extensions/puppeteer'
 
 export default defineConfig({
   project: 'proj_butqoqpbkvznbmsnrtrf',
@@ -11,6 +12,7 @@ export default defineConfig({
         schema: 'prisma/schema.prisma',
         version: '6.5.0',
       }),
+      puppeteer(),
     ],
   },
   // The max compute seconds a task is allowed to run. If the task run exceeds this duration, it will be stopped.
