@@ -224,6 +224,7 @@ export const eventsRouter = router({
         status: z.string().optional(),
         startDate: z.string().optional(),
         endDate: z.string().optional(),
+        type: z.string().optional(),
         venue: z
           .object({
             id: z.string().optional(),
