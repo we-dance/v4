@@ -16,7 +16,7 @@ export async function saveEvent(eventId: string, scrappedData: any) {
     endDate: scrappedData.endDate ? new Date(scrappedData.endDate) : null,
     type: scrappedData.eventType,
     price: scrappedData.price,
-    sourceUrl: scrappedData.link,
+    ticketUrl: scrappedData.link,
     organizerId:
       (typeof scrappedData.org === 'object' && scrappedData.org?.id) || null,
     venueId: scrappedData.venue?.id || null,
