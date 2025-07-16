@@ -14,7 +14,7 @@ export async function saveEvent(eventId: string, scrappedData: any) {
     cover: scrappedData.cover,
     startDate: scrappedData.startDate ? new Date(scrappedData.startDate) : null,
     endDate: scrappedData.endDate ? new Date(scrappedData.endDate) : null,
-    type: scrappedData.type,
+    type: scrappedData.eventType,
     price: scrappedData.price,
     sourceUrl: scrappedData.link,
     organizerId:
