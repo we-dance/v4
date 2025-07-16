@@ -4,6 +4,7 @@
 generator client {
   provider        = "prisma-client-js"
   previewFeatures = ["fullTextSearch", "relationJoins"]
+  binaryTargets   = ["native", "debian-openssl-3.0.x"] // Trigger.dev environment uses debian-openssl
 }
 
 datasource db {

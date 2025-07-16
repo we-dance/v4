@@ -6,9 +6,9 @@ export async function getUploadedImage(url: string) {
   }
 
   cloudinary.config({
-    cloud_name: String(process.env.CLOUDINARY_CLOUD_NAME),
-    api_key: String(process.env.CLOUDINARY_API_KEY),
-    api_secret: String(process.env.CLOUDINARY_API_SECRET),
+    cloud_name: String(process.env.NUXT_PUBLIC_CLOUDINARY_CLOUD_NAME),
+    api_key: String(process.env.NUXT_CLOUDINARY_API_KEY),
+    api_secret: String(process.env.NUXT_CLOUDINARY_API_SECRET),
   })
 
   const result = await cloudinary.uploader.upload(url)
