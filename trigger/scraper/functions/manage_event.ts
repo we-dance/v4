@@ -2,31 +2,7 @@ import { logger } from '@trigger.dev/sdk/v3'
 import { prisma } from '~/server/prisma'
 import { getSlug } from '~/cli/utils/slug'
 
-export async function saveEvent(eventId: string, scrappedData: any) {
-  const styleHashtags = scrappedData.styles
-    ? Object.keys(scrappedData.styles)
-    : []
-
-  const eventDataForPrisma = {
-    name: scrappedData.name,
-    slug: getSlug(scrappedData.name),
-    description: scrappedData.description,
-    cover: scrappedData.cover,
-    startDate: scrappedData.startDate ? new Date(scrappedData.startDate) : null,
-    endDate: scrappedData.endDate ? new Date(scrappedData.endDate) : null,
-    type: scrappedData.eventType,
-    price: scrappedData.price,
-    ticketUrl: scrappedData.link,
-    organizerId:
-      (typeof scrappedData.org === 'object' && scrappedData.org?.id) || null,
-    venueId: scrappedData.venue?.id || null,
-    status: 'published',
-    styles: {
-      connect: styleHashtags.map((hashtag) => ({
-        hashtag: hashtag,
-      })),
-    },
-  }
+export async function saveEvent(eventId: string, eventDataForPrisma: any) {
   try {
     await prisma.event.update({
       where: { id: eventId },

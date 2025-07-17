@@ -171,35 +171,28 @@ export async function getFacebookEvent(url: string) {
   const hash = getDate(event.startTimestamp) + '+' + venue?.place_id
   const eventPhoto = await getUploadedImage(event.photo?.imageUri || '')
 
+  const styleHashtags = styles ? Object.keys(styles) : []
+
   return {
     name: event.name,
+    slug: getSlug(event.name),
     description: event.description,
-    eventType,
     cover: eventPhoto,
-    startDate: getDate(event.startTimestamp),
-    endDate: getDate(event.endTimestamp),
-    venue,
-    place,
-    link: event.ticketUrl || '',
-    type: 'event',
-    visibility: 'Public',
-    form: 'No',
-    online: 'No',
-    international: 'No',
-    claimed: 'No',
-    duration: 60,
+    startDate: event.startTimestamp
+      ? new Date(getDate(event.startTimestamp))
+      : null,
+    endDate: event.endTimestamp ? new Date(getDate(event.endTimestamp)) : null,
+    type: eventType,
     price: '',
-    styles,
-    artists: [],
-    org,
-    program: [],
-    watch: {
-      count: 0,
-      usernames: [],
+    sourceUrl: url,
+    ticketUrl: event.ticketUrl || '',
+    organizerId: (typeof org === 'object' && org?.id) || null,
+    venueId: (typeof venue === 'object' && venue?.id) || null,
+    status: 'draft',
+    styles: {
+      connect: styleHashtags.map((hashtag) => ({
+        hashtag,
+      })),
     },
-    facebook: event.url,
-    facebookId: event.id,
-    hash,
-    source: 'facebook',
   }
 }
