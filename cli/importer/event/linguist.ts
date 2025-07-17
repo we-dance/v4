@@ -1,4 +1,4 @@
-import { prisma } from '~/server/prisma'
+import { prisma } from '../../../server/prisma'
 
 export function getSuggestedType(description: string) {
   let eventType = 'Party'

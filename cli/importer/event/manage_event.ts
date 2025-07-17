@@ -1,5 +1,5 @@
 import { logger } from '@trigger.dev/sdk/v3'
-import { prisma } from '~/server/prisma'
+import { prisma } from '../../../server/prisma'
 
 export async function saveEvent(eventId: string, eventDataForPrisma: any) {
   try {
