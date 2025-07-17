@@ -1,4 +1,6 @@
-import { prisma } from '../../../server/prisma'
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
 
 export function getSuggestedType(description: string) {
   let eventType = 'Party'

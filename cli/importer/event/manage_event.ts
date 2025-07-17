@@ -1,5 +1,7 @@
 import { logger } from '@trigger.dev/sdk/v3'
-import { prisma } from '../../../server/prisma'
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
 
 export async function saveEvent(eventId: string, eventDataForPrisma: any) {
   try {

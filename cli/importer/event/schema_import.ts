@@ -1,6 +1,5 @@
 const WAE = require('web-auto-extractor').default
 const TurndownService = require('turndown')
-import { prisma } from '../../../server/prisma'
 import { decode } from 'html-entities'
 import axios from 'axios'
 import { getCityId, getPlace } from './google_maps'
@@ -121,6 +120,8 @@ export async function getSchemaEvent(url: string) {
   const eventPhoto = await getUploadedImage(event.image || '')
 
   const offer = event.offers?.find((o: any) => o.price) || null
+
+  const styleHashtags = styles ? Object.keys(styles) : []
 
   return {
     name: event.name,

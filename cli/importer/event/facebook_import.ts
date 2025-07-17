@@ -1,10 +1,12 @@
 import { scrapeFbEventFromFbid } from 'facebook-event-scraper'
-import { prisma } from '../../../server/prisma'
+import { PrismaClient } from '@prisma/client'
 import { getCityId, getPlace } from './google_maps'
 import { getUploadedImage } from './cloudinary'
 import { getSuggestedType, getSuggestedStyles } from './linguist'
 import { getSlug } from '~/utils/slug'
 import axios from 'axios'
+
+const prisma = new PrismaClient()
 
 function getDate(timestamp: any) {
   if (!timestamp) {
