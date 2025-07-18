@@ -10,7 +10,7 @@ export async function saveEvent(eventId: string, eventDataForPrisma: any) {
     })
     console.log('Scrape was succesfull', { eventId })
   } catch (error) {
-    console.error('Failed to update event in databse', { eventId, error })
+    console.error('Failed to update event in database', { eventId, error })
     throw error
   }
 }
