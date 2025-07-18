@@ -1,4 +1,3 @@
-import { logger } from '@trigger.dev/sdk/v3'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
@@ -9,9 +8,9 @@ export async function saveEvent(eventId: string, eventDataForPrisma: any) {
       where: { id: eventId },
       data: eventDataForPrisma,
     })
-    logger.log('Scrape was succesfull', { eventId })
+    console.log('Scrape was succesfull', { eventId })
   } catch (error) {
-    logger.error('Failed to update event in databse', { eventId, error })
+    console.error('Failed to update event in databse', { eventId, error })
     throw error
   }
 }
@@ -21,7 +20,7 @@ export async function handleImportFailure(
   reason: string,
   error?: any
 ) {
-  logger.error(reason, { eventId, error })
+  console.error(reason, { eventId, error })
   try {
     const errorMessage = error ? `${reason}: ${String(error)}` : reason
     await prisma.event.update({
@@ -33,9 +32,9 @@ export async function handleImportFailure(
         importError: errorMessage,
       },
     })
-    logger.log('Marked event as import_failed', { eventId })
+    console.log('Marked event as import_failed', { eventId })
   } catch (error) {
-    logger.error('Failed to update event to import_failed.', {
+    console.error('Failed to update event to import_failed.', {
       eventId,
       error: error,
     })

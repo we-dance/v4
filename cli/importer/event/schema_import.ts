@@ -10,6 +10,74 @@ import {
   isFacebookEvent,
   getSuggestedStyles,
 } from './linguist'
+import { organizerProfileSchema } from '~/schemas/profile'
+import { getSlug } from '~/utils/slug'
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
+
+function getDate(timestamp: any) {
+  if (!timestamp) {
+    return ''
+  }
+
+  return timestamp * 1000
+}
+
+async function getOrg(host: any, place: any) {
+  let org: any = ''
+  if (!host?.name) {
+    return ''
+  }
+
+  let orgUrl = host.url || ''
+  if (orgUrl.startsWith('www')) {
+    orgUrl = 'https://' + orgUrl
+  }
+
+  const orgWebsite = orgUrl
+  if (orgWebsite) {
+    const profile = await prisma.profile.findFirst({
+      where: { website: orgWebsite },
+    })
+    if (profile) {
+      return profile
+    }
+  }
+
+  let username = getSlug(host?.name)
+  const existingProfile = await prisma.profile.findUnique({
+    where: { username },
+  })
+  if (existingProfile) {
+    return {
+      id: existingProfile.id,
+      name: existingProfile.name || existingProfile.username || '',
+    }
+  }
+
+  const orgPhoto = await getUploadedImage(host?.photo?.logo)
+
+  const newProfile = await prisma.profile.create({
+    data: {
+      name: host?.name,
+      username,
+      website: orgUrl,
+      photo: orgPhoto,
+      type: 'Organiser',
+      claimed: false,
+      visibility: 'Public',
+      cityId: place?.id || null,
+    },
+  })
+
+  return {
+    id: newProfile.id,
+    username: newProfile.username,
+    name: newProfile.name,
+    photo: newProfile.photo,
+  }
+}
 
 async function getEvent(url: string) {
   let response
@@ -102,6 +170,13 @@ export async function getSchemaEvent(url: string) {
   if (venue) {
     place = await getCityId(venue)
   }
+  const org = await getOrg(event.organizer, place)
+  if (!venue && org) {
+    venue = await getPlace(org.name, 'de')
+  }
+  if (venue && !place) {
+    place = await getCityId(venue)
+  }
 
   let eventType = getSuggestedType(event.name + ' ' + event.description)
 
@@ -117,7 +192,13 @@ export async function getSchemaEvent(url: string) {
   const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
   const hash = +new Date(event.startDate) + '+' + venue?.place_id
-  const eventPhoto = await getUploadedImage(event.image || '')
+
+  let image = event.image
+  if (Array.isArray(image)) {
+    image = image[0]
+  }
+
+  const eventPhoto = await getUploadedImage(image || '')
 
   const offer = event.offers?.find((o: any) => o.price) || null
 
@@ -125,35 +206,24 @@ export async function getSchemaEvent(url: string) {
 
   return {
     name: event.name,
+    slug: getSlug(event.name),
     description: event.description,
-    eventType,
     cover: eventPhoto,
-    startDate: +new Date(event.startDate),
-    endDate: +new Date(event.endDate),
-    venue,
-    place,
-    price: offer ? `${offer.price} ${offer.priceCurrency}` : '',
-    link: Array.isArray(event.url) ? event.url[0] : event.url || '',
-    type: 'event',
-    visibility: 'Public',
-    form: 'No',
-    online: 'No',
-    international: 'No',
-    claimed: 'No',
-    duration: 60,
-    styles,
-    artists: [],
-    org: '', // can we get it from event.organizer
-    program: [],
-    watch: {
-      count: 0,
-      usernames: [],
+    startDate: event.startTimestamp
+      ? new Date(getDate(event.startTimestamp))
+      : null,
+    endDate: event.endTimestamp ? new Date(getDate(event.endTimestamp)) : null,
+    type: eventType,
+    price: '',
+    sourceUrl: url,
+    ticketUrl: event.ticketUrl || '',
+    organizerId: (typeof org === 'object' && org?.id) || null,
+    venueId: (typeof venue === 'object' && venue?.id) || null,
+    status: 'draft',
+    styles: {
+      connect: styleHashtags.map((hashtag) => ({
+        hashtag,
+      })),
     },
-    hash,
-    source: 'schema',
-    facebookUrlsCount: event.facebookUrlsCount,
-    facebookUrlsList: event.facebookUrlsList,
-    schemaEventsCount: event.schemaEventsCount,
-    facebook: event.facebook,
   }
 }
