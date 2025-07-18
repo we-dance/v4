@@ -13,7 +13,7 @@ async function getRedirectedUrl(url: string): Promise<string> {
   }
 }
 
-async function getEventType(sourceUrl: string) {
+export async function getEventType(sourceUrl: string) {
   if (isFacebookEvent(sourceUrl)) {
     const facebookUrl = await getRedirectedUrl(sourceUrl)
     return getFacebookEvent(facebookUrl)
