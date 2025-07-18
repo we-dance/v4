@@ -1,5 +1,25 @@
 import { saveEvent, handleImportFailure } from './manage_event'
-import { getEventType } from './get_event_type'
+import axios from 'axios'
+import { getFacebookEvent } from './facebook_import'
+import { getSchemaEvent } from './schema_import'
+import { isFacebookEvent } from './linguist'
+
+async function getRedirectedUrl(url: string): Promise<string> {
+  try {
+    const response = await axios.get(url)
+    return response.request.res.responseUrl || url
+  } catch (error) {
+    return url
+  }
+}
+
+async function getEventType(sourceUrl: string) {
+  if (isFacebookEvent(sourceUrl)) {
+    const facebookUrl = await getRedirectedUrl(sourceUrl)
+    return getFacebookEvent(facebookUrl)
+  }
+  return getSchemaEvent(sourceUrl)
+}
 
 export async function importEvent(eventId: string, sourceUrl: string) {
   if (!sourceUrl) {
