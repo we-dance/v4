@@ -43,16 +43,15 @@ async function compileMjmlTemplate(
   params: Record<string, any>
 ): Promise<string> {
   try {
-    const mjmlContent = await useStorage('assets:emails')
+    const mjmlTemplate = await useStorage('assets:emails')
       .getItemRaw(`${mjmlFile}.mjml`)
       .then((content) => new TextDecoder().decode(content))
 
-    const compiledMjml = Handlebars.compile(mjmlContent, params)
+    const mjmlContent = Handlebars.compile(mjmlTemplate)(params)
 
-    const { html } = mjml2html(compiledMjml)
+    const { html } = mjml2html(mjmlContent)
     return html
   } catch (error) {
-    console.error('Error compiling MJML template:', error)
     throw new Error(`Failed to compile MJML template: ${mjmlFile}`)
   }
 }
@@ -75,7 +74,7 @@ export async function sendEmail(template: string, params: Record<string, any>) {
     throw new Error(`Template '${template}' has no body or mjmlFile defined`)
   }
 
-  const subject = compileTemplate(templateConfig.subject, params)
+  const subject = Handlebars.compile(templateConfig.subject)(params)
 
   const result = await mg.messages.create(useRuntimeConfig().mailgunDomain, {
     from: templateConfig.from,
