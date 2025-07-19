@@ -2,8 +2,6 @@ import Mailgun from 'mailgun.js'
 import FormData from 'form-data'
 import Handlebars from 'handlebars'
 import mjml2html from 'mjml'
-import { readFile } from 'fs/promises'
-import path from 'path'
 import { prisma } from '~/server/prisma'
 import posthog from '~/server/utils/posthog'
 
