@@ -1,8 +1,8 @@
 import { scrapeFbEventFromFbid } from 'facebook-event-scraper'
 import { PrismaClient } from '@prisma/client'
-import { getCityId, getPlace } from './google_maps'
-import { getUploadedImage } from './cloudinary'
-import { getSuggestedType, getSuggestedStyles } from './linguist'
+import { getCityId, getPlace } from '../../utils/google_maps'
+import { getUploadedImage } from '../../utils/cloudinary'
+import { getSuggestedType, getSuggestedStyles } from '../../utils/linguist'
 import { getSlug } from '~/utils/slug'
 import axios from 'axios'
 

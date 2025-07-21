@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getFacebookEvent } from './facebook_import'
 import { getSchemaEvent } from './schema_import'
-import { isFacebookEvent } from './linguist'
+import { isFacebookEvent } from '../../utils/linguist'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()

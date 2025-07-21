@@ -14,7 +14,7 @@ import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
-import { getEventType } from './importer/event/index'
+import { getEventType } from './importer/import-event/index'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
