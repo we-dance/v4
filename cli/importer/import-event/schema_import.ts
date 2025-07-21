@@ -24,10 +24,17 @@ function getDate(timestamp: any) {
   return timestamp * 1000
 }
 
-async function getOrg(host: any, place: any) {
-  let org: any = ''
+async function getOrg(
+  host: any,
+  place: any
+): Promise<null | {
+  id: string
+  name: string
+  username?: string
+  photo?: string
+}> {
   if (!host?.name) {
-    return ''
+    return null
   }
 
   let orgUrl = host.url || ''
@@ -41,7 +48,11 @@ async function getOrg(host: any, place: any) {
       where: { website: orgWebsite },
     })
     if (profile) {
-      return profile
+      return {
+        id: profile.id,
+        name: profile.name || profile.username || '',
+        photo: profile.photo || undefined,
+      }
     }
   }
 
@@ -53,6 +64,7 @@ async function getOrg(host: any, place: any) {
     return {
       id: existingProfile.id,
       name: existingProfile.name || existingProfile.username || '',
+      photo: existingProfile.photo || undefined,
     }
   }
 
@@ -75,7 +87,7 @@ async function getOrg(host: any, place: any) {
     id: newProfile.id,
     username: newProfile.username,
     name: newProfile.name,
-    photo: newProfile.photo,
+    photo: newProfile.photo || undefined,
   }
 }
 
@@ -191,16 +203,12 @@ export async function getSchemaEvent(url: string) {
 
   const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
-  const hash = +new Date(event.startDate) + '+' + venue?.place_id
-
   let image = event.image
   if (Array.isArray(image)) {
     image = image[0]
   }
 
   const eventPhoto = await getUploadedImage(image || '')
-
-  const offer = event.offers?.find((o: any) => o.price) || null
 
   const styleHashtags = styles ? Object.keys(styles) : []
 
@@ -217,8 +225,8 @@ export async function getSchemaEvent(url: string) {
     price: '',
     sourceUrl: url,
     ticketUrl: event.ticketUrl || '',
-    organizerId: (typeof org === 'object' && org?.id) || null,
-    venueId: (typeof venue === 'object' && venue?.id) || null,
+    organizerId: org?.id || null,
+    venueId: venue?.id || null,
     status: 'draft',
     styles: {
       connect: styleHashtags.map((hashtag) => ({

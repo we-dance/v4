@@ -16,14 +16,20 @@ function getDate(timestamp: any) {
   return timestamp * 1000
 }
 
-async function getOrg(host: any, place: any) {
-  let org: any = ''
-
+async function getOrg(
+  host: any,
+  place: any
+): Promise<null | {
+  id: string
+  name: string
+  username?: string
+  photo?: string
+}> {
   if (!host?.id) {
-    return ''
+    return null
   }
 
-  let orgUrl = host.url || ''
+  let orgUrl = host.url || null
   if (!orgUrl) {
     orgUrl = `https://www.facebook.com/${host?.id}`
   }
@@ -50,6 +56,7 @@ async function getOrg(host: any, place: any) {
       return {
         id: existingProfile.id,
         name: existingProfile.name || existingProfile.username || '',
+        photo: existingProfile.photo || undefined,
       }
     }
 
@@ -72,11 +79,11 @@ async function getOrg(host: any, place: any) {
       id: newProfile.id,
       username: newProfile.username,
       name: newProfile.name,
-      photo: newProfile.photo,
+      photo: newProfile.photo || undefined,
     }
   }
 
-  return ''
+  return null
 }
 
 export function getParameterByName(name: string, url: string) {
@@ -170,7 +177,6 @@ export async function getFacebookEvent(url: string) {
 
   const styles = await getSuggestedStyles(event.name + ' ' + event.description)
 
-  const hash = getDate(event.startTimestamp) + '+' + venue?.place_id
   const eventPhoto = await getUploadedImage(event.photo?.imageUri || '')
 
   const styleHashtags = styles ? Object.keys(styles) : []
@@ -188,8 +194,8 @@ export async function getFacebookEvent(url: string) {
     price: '',
     sourceUrl: url,
     ticketUrl: event.ticketUrl || '',
-    organizerId: (typeof org === 'object' && org?.id) || null,
-    venueId: (typeof venue === 'object' && venue?.id) || null,
+    organizerId: org?.id || null,
+    venueId: venue?.id || null,
     status: 'draft',
     styles: {
       connect: styleHashtags.map((hashtag) => ({
