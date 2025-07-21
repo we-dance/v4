@@ -14,6 +14,7 @@ import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
+import { getEventType } from './importer/event/index'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
@@ -59,6 +60,22 @@ program.command('test').action(async (name) => {
 program.command('reindex').action(async (name) => {
   const result = await reindex()
   console.log(result)
+})
+
+program.command('scrape <URL>').action(async (sourceUrl) => {
+  //test flag for cloudinary to return original url
+  process.env.TEST_MODE = 'true'
+  console.log('Scraping event data from:', sourceUrl)
+
+  try {
+    const eventData = await getEventType(sourceUrl)
+    console.log('--------Scraped Data----------')
+    console.log(JSON.stringify(eventData, null, 2))
+    console.log('-------End Of Data----------')
+  } catch (error) {
+    console.error('error occured during scrape', error)
+    process.exit(1)
+  }
 })
 
 program

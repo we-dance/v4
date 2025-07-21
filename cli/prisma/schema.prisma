@@ -4,6 +4,7 @@
 generator client {
   provider        = "prisma-client-js"
   previewFeatures = ["fullTextSearch", "relationJoins"]
+  binaryTargets   = ["native", "debian-openssl-3.0.x"] // Trigger.dev environment uses debian-openssl
 }
 
 datasource db {
@@ -262,8 +263,11 @@ model Event {
   price       String    @default("")
   firebaseId  String    @default("")
   published   Boolean   @default(false)
-  status      String    @default("draft") // Values: draft, published, archived, cancelled
-  ticketUrl   String?
+  status      String    @default("draft") // Values: draft, published, archived, cancelled, import_event, import_failed
+  importError String?   @db.Text
+
+  sourceUrl String?
+  ticketUrl String?
 
   styles      DanceStyle[]
   creatorId   String
