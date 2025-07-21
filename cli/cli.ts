@@ -14,7 +14,7 @@ import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
-import { getEventType } from './importer/import-event/index'
+import { fetchEvent } from './importer/import-event/index'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
@@ -68,7 +68,7 @@ program.command('scrape <URL>').action(async (sourceUrl) => {
   console.log('Scraping event data from:', sourceUrl)
 
   try {
-    const eventData = await getEventType(sourceUrl)
+    const eventData = await fetchEvent(sourceUrl)
     console.log('--------Scraped Data----------')
     console.log(JSON.stringify(eventData, null, 2))
     console.log('-------End Of Data----------')
