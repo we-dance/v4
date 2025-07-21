@@ -55,7 +55,7 @@ async function getRedirectedUrl(url: string): Promise<string> {
   }
 }
 
-export async function getEventType(sourceUrl: string) {
+export async function fetchEvent(sourceUrl: string) {
   if (isFacebookEvent(sourceUrl)) {
     const facebookUrl = await getRedirectedUrl(sourceUrl)
     return getFacebookEvent(facebookUrl)
@@ -69,7 +69,7 @@ export async function importEvent(eventId: string, sourceUrl: string) {
     return
   }
   try {
-    const scrappedData = await getEventType(sourceUrl)
+    const scrappedData = await fetchEvent(sourceUrl)
     if (scrappedData.type === 'import_error') {
       await handleImportFailure(
         eventId,
