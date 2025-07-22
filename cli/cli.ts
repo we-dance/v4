@@ -94,14 +94,11 @@ program.command('event:import <id>').action(async (eventId) => {
       console.error('No source url exists in this field')
       process.exit(1)
     }
-    await importEvent(event.id, event.sourceUrl)
+    await importEvent(event.id)
     console.log('Succesfully processed event')
-    console.log(event)
   } catch (error) {
     console.error('An Error happened while processing the event', error)
     process.exit(1)
-  } finally {
-    await prisma.$disconnect()
   }
 })
 
