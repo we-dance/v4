@@ -14,7 +14,8 @@ import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
-import { fetchEvent } from './importer/import-event/index'
+import { fetchEvent, importEvent } from './importer/import-event/index'
+import { PrismaClient } from '@prisma/client'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
@@ -62,7 +63,7 @@ program.command('reindex').action(async (name) => {
   console.log(result)
 })
 
-program.command('scrape <URL>').action(async (sourceUrl) => {
+program.command('event:import:debug <url>').action(async (sourceUrl) => {
   //test flag for cloudinary to return original url
   process.env.TEST_MODE = 'true'
   console.log('Scraping event data from:', sourceUrl)
@@ -75,6 +76,32 @@ program.command('scrape <URL>').action(async (sourceUrl) => {
   } catch (error) {
     console.error('error occured during scrape', error)
     process.exit(1)
+  }
+})
+
+program.command('event:import <id>').action(async (eventId) => {
+  const prisma = new PrismaClient()
+  try {
+    console.log('Processing event with the id: ', eventId)
+    const event = await prisma.event.findUnique({
+      where: { id: eventId },
+    })
+    if (!event) {
+      console.error('No event with the id: ', eventId)
+      process.exit(1)
+    }
+    if (!event.sourceUrl) {
+      console.error('No source url exists in this field')
+      process.exit(1)
+    }
+    await importEvent(event.id, event.sourceUrl)
+    console.log('Succesfully processed event')
+    console.log(event)
+  } catch (error) {
+    console.error('An Error happened while processing the event', error)
+    process.exit(1)
+  } finally {
+    await prisma.$disconnect()
   }
 })
 
