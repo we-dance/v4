@@ -63,13 +63,22 @@ export async function fetchEvent(sourceUrl: string) {
   return getSchemaEvent(sourceUrl)
 }
 
-export async function importEvent(eventId: string, sourceUrl: string) {
-  if (!sourceUrl) {
-    await handleImportFailure(eventId, 'No Source URL is provided')
+export async function importEvent(eventId: string) {
+  const event = await prisma.event.findUnique({
+    where: { id: eventId },
+    select: { sourceUrl: true },
+  })
+
+  if (!event || !event.sourceUrl) {
+    await handleImportFailure(
+      eventId,
+      'Event not found in the databse or it has no source URL'
+    )
     return
   }
+
   try {
-    const scrappedData = await fetchEvent(sourceUrl)
+    const scrappedData = await fetchEvent(event.sourceUrl)
     if (scrappedData.type === 'import_error') {
       await handleImportFailure(
         eventId,

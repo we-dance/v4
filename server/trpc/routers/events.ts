@@ -515,7 +515,6 @@ export const eventsRouter = router({
       })
       await tasks.trigger('import-event', {
         eventId: event.id,
-        sourceUrl: sourceUrl,
       })
       return { eventId: event.id }
     }),
