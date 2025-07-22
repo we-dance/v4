@@ -2,15 +2,15 @@ const WAE = require('web-auto-extractor').default
 const TurndownService = require('turndown')
 import { decode } from 'html-entities'
 import axios from 'axios'
-import { getCityId, getPlace } from '../../utils/google_maps'
-import { getUploadedImage } from '../../utils/cloudinary'
+import { getCityId, getPlace } from '../utils/google_maps'
+import { getUploadedImage } from '../utils/cloudinary'
 import {
   getSuggestedType,
   getUrlsFromText,
   isFacebookEvent,
   getSuggestedStyles,
-} from '../../utils/linguist'
-import { getSlug } from '../../../utils/slug'
+} from '../utils/linguist'
+import { getSlug } from '../../utils/slug'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()

@@ -14,7 +14,7 @@ import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
-import { fetchEvent, importEvent } from './importer/import-event/index'
+import { fetchEvent, importEvent } from './import-event/index'
 import { PrismaClient } from '@prisma/client'
 
 function getLogLevel(verbosity: number) {
