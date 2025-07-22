@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client'
 import { getCityId, getPlace } from '../../utils/google_maps'
 import { getUploadedImage } from '../../utils/cloudinary'
 import { getSuggestedType, getSuggestedStyles } from '../../utils/linguist'
-import { getSlug } from '~/utils/slug'
+import { getSlug } from '../../../utils/slug'
 import axios from 'axios'
 
 const prisma = new PrismaClient()

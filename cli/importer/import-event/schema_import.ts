@@ -10,8 +10,7 @@ import {
   isFacebookEvent,
   getSuggestedStyles,
 } from '../../utils/linguist'
-import { organizerProfileSchema } from '~/schemas/profile'
-import { getSlug } from '~/utils/slug'
+import { getSlug } from '../../../utils/slug'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
