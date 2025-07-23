@@ -66,9 +66,9 @@ export default eventHandler(async (event) => {
           },
         })
 
-        // Auto-create Guest record for the purchaser
+        // Auto-create Guest record for the purchaser and link to purchase
         if (ticketPurchase.user.profile) {
-          await prisma.guest.upsert({
+          const guest = await prisma.guest.upsert({
             where: {
               profileId_eventId: {
                 profileId: ticketPurchase.user.profile.id,
@@ -86,6 +86,12 @@ export default eventHandler(async (event) => {
               status: 'registered',
               registeredAt: new Date(),
             },
+          })
+
+          // Link the ticket purchase to the guest record
+          await prisma.ticketPurchase.update({
+            where: { id: ticketPurchase.id },
+            data: { guestId: guest.id },
           })
         }
 

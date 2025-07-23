@@ -196,6 +196,11 @@ export const eventsRouter = router({
                 user: true,
               },
             },
+            ticketPurchases: {
+              include: {
+                ticket: true,
+              },
+            },
           },
         },
       },
@@ -455,5 +460,27 @@ export const eventsRouter = router({
       })
 
       return { success: true }
+    }),
+
+  checkInGuest: publicProcedure
+    .input(
+      z.object({
+        guestId: z.string(),
+        status: z.enum(['checked_in', 'registered']),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { guestId, status } = input
+
+      const guest = await prisma.guest.update({
+        where: { id: guestId },
+        data: {
+          status,
+          [status === 'checked_in' ? 'confirmedAt' : 'registeredAt']:
+            new Date(),
+        },
+      })
+
+      return guest
     }),
 })

@@ -306,6 +306,8 @@ model TicketPurchase {
   ticket                  Ticket  @relation("ticket_purchases", fields: [ticketId], references: [id])
   eventId                 String
   event                   Event   @relation("event_purchases", fields: [eventId], references: [id])
+  guestId                 String?
+  guest                   Guest?  @relation(fields: [guestId], references: [id])
   status                  String  @default("pending") // 'pending', 'completed', 'failed', 'refunded'
   stripeCheckoutSessionId String?
   stripePaymentIntentId   String?
@@ -395,11 +397,12 @@ model Redirect {
 }
 
 model Guest {
-  id        String  @id @default(nanoid())
-  profileId String
-  profile   Profile @relation("guest_profile", fields: [profileId], references: [id])
-  eventId   String
-  event     Event   @relation("event_guests", fields: [eventId], references: [id])
+  id              String           @id @default(nanoid())
+  profileId       String
+  profile         Profile          @relation("guest_profile", fields: [profileId], references: [id])
+  eventId         String
+  event           Event            @relation("event_guests", fields: [eventId], references: [id])
+  ticketPurchases TicketPurchase[]
 
   role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
   status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"

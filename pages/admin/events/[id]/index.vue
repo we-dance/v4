@@ -23,7 +23,7 @@ const {
 
 const columns = [
   {
-    header: 'Created At',
+    header: 'Registered At',
     accessorKey: 'createdAt',
     cell: ({ row }) => {
       const guest = row.original
