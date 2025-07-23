@@ -171,7 +171,7 @@ const navigation = computed(() => [
                         v-for="purchase in userTicketPurchases"
                         :key="purchase.id"
                       >
-                        {{ purchase.quantity }}x {{ purchase.ticket.name }}
+                        {{ purchase.quantity }} x {{ purchase.ticket.name }}
                       </div>
                     </div>
                   </div>
