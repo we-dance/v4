@@ -9,13 +9,11 @@ definePageMeta({
 
 const route = useRoute()
 const { $client } = useNuxtApp()
+const { enableCheckInMode } = useCheckInMode()
 
 // Reactive state
 const searchQuery = ref('')
 const selectedStatusFilter = ref('all')
-const recentActions = ref<
-  Array<{ id: string; action: string; guestName: string; timestamp: Date }>
->([])
 
 // Fetch event data
 const {
@@ -29,6 +27,17 @@ const {
   queryFn: () => $client.events.guests.query(route.params.id as string),
   retry: false,
 })
+
+// Enable check-in mode when event data is loaded
+watch(
+  event,
+  (newEvent) => {
+    if (newEvent) {
+      enableCheckInMode(newEvent.id, newEvent.name)
+    }
+  },
+  { immediate: true }
+)
 
 // Check-in mutation
 const checkInMutation = useMutation({
@@ -104,80 +113,13 @@ const filteredGuests = computed(() => {
   return filtered
 })
 
-// Functions
-const getStatusBadgeVariant = (status: string) => {
-  switch (status) {
-    case 'checked_in':
-      return 'default'
-    case 'registered':
-      return 'secondary'
-    case 'confirmed':
-      return 'secondary'
-    case 'no_show':
-      return 'destructive'
-    case 'cancelled':
-      return 'outline'
-    default:
-      return 'outline'
-  }
-}
-
-const getStatusColor = (status: string) => {
-  switch (status) {
-    case 'checked_in':
-      return 'text-green-600 bg-green-50 border-green-200'
-    case 'registered':
-      return 'text-blue-600 bg-blue-50 border-blue-200'
-    case 'confirmed':
-      return 'text-blue-600 bg-blue-50 border-blue-200'
-    case 'no_show':
-      return 'text-red-600 bg-red-50 border-red-200'
-    case 'cancelled':
-      return 'text-gray-600 bg-gray-50 border-gray-200'
-    default:
-      return 'text-gray-600 bg-gray-50 border-gray-200'
-  }
-}
-
-const formatStatus = (status: string) => {
-  switch (status) {
-    case 'checked_in':
-      return 'Checked In'
-    case 'registered':
-      return 'Registered'
-    case 'confirmed':
-      return 'Confirmed'
-    case 'no_show':
-      return 'No Show'
-    case 'cancelled':
-      return 'Cancelled'
-    case 'invited':
-      return 'Invited'
-    case 'waitlisted':
-      return 'Waitlisted'
-    case 'declined':
-      return 'Declined'
-    default:
-      return status
-  }
-}
-
 const toggleCheckIn = async (guest: any) => {
   const newStatus = guest.status === 'checked_in' ? 'registered' : 'checked_in'
-  const previousStatus = guest.status
 
   try {
     await checkInMutation.mutateAsync({
       guestId: guest.id,
       status: newStatus,
-    })
-
-    // Add to recent actions
-    recentActions.value.unshift({
-      id: guest.id,
-      action: newStatus === 'checked_in' ? 'Checked in' : 'Unchecked',
-      guestName: guest.profile?.name || guest.profile?.username || 'Guest',
-      timestamp: new Date(),
     })
   } catch (error) {
     console.error('Failed to update guest status:', error)
@@ -200,12 +142,12 @@ const clearSearch = () => {
       <Separator orientation="vertical" class="mr-2 h-4" />
       <Breadcrumb>
         <BreadcrumbList>
-          <BreadcrumbItem class="hidden md:block">
+          <BreadcrumbItem>
             <BreadcrumbLink as-child>
               <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
             </BreadcrumbLink>
           </BreadcrumbItem>
-          <BreadcrumbSeparator class="hidden md:block" />
+          <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbPage>{{ event?.name }}</BreadcrumbPage>
           </BreadcrumbItem>
@@ -341,140 +283,71 @@ const clearSearch = () => {
             class="bg-white rounded-xl border shadow-sm hover:shadow-md transition-all duration-200"
           >
             <div class="p-4">
-              <!-- Mobile Layout -->
-              <div class="block sm:hidden">
-                <!-- Header Row -->
-                <div class="flex items-start gap-3 mb-3">
-                  <Avatar
-                    :profile="guest.profile"
-                    class="w-12 h-12 flex-shrink-0"
-                  />
-                  <div class="flex-1 min-w-0">
-                    <h3
-                      class="font-semibold text-gray-900 text-base leading-tight mb-1"
-                    >
-                      {{
-                        guest.profile?.name ||
-                        guest.profile?.user?.firstName +
-                          ' ' +
-                          guest.profile?.user?.lastName ||
-                        guest.profile?.username ||
-                        'Unnamed Guest'
-                      }}
-                    </h3>
-                    <div
-                      class="flex items-center gap-2 text-sm text-muted-foreground"
-                    >
-                      <span>@{{ guest.profile?.username || 'unknown' }}</span>
-                      <span>•</span>
-                      <span class="capitalize">{{ guest.role }}</span>
-                    </div>
-                  </div>
-                  <Badge
-                    :class="getStatusColor(guest.status)"
-                    class="text-xs border flex-shrink-0"
-                  >
-                    {{ formatStatus(guest.status) }}
-                  </Badge>
-                </div>
-
-                <!-- Action Button -->
-                <Button
-                  :variant="
-                    guest.status === 'checked_in' ? 'outline' : 'primary'
-                  "
-                  :class="
-                    guest.status === 'checked_in'
-                      ? 'border-green-200 text-green-700 hover:bg-green-50'
-                      : 'bg-green-600 hover:bg-green-700'
-                  "
-                  size="lg"
-                  class="w-full"
-                  @click="toggleCheckIn(guest)"
-                  :disabled="checkInMutation.isPending.value"
-                >
-                  <Icon
-                    :name="
-                      guest.status === 'checked_in'
-                        ? 'lucide:user-check'
-                        : 'lucide:user-plus'
-                    "
-                    class="w-5 h-5 mr-2"
-                  />
-                  {{
-                    guest.status === 'checked_in' ? 'Checked In' : 'Check In'
-                  }}
-                </Button>
-              </div>
-
-              <!-- Desktop Layout -->
-              <div class="hidden sm:flex items-center gap-4">
-                <!-- Avatar -->
-                <div class="flex-shrink-0">
-                  <Avatar :profile="guest.profile" class="w-12 h-12" />
-                </div>
-
-                <!-- Guest Info -->
+              <!-- Header Row -->
+              <div class="flex items-start gap-3 mb-3">
+                <Avatar
+                  :profile="guest.profile"
+                  class="w-12 h-12 flex-shrink-0"
+                />
                 <div class="flex-1 min-w-0">
-                  <div class="flex items-center gap-2 mb-1">
-                    <h3 class="font-medium text-gray-900 truncate">
-                      {{
-                        guest.profile?.name ||
-                        guest.profile?.user?.firstName +
-                          ' ' +
-                          guest.profile?.user?.lastName ||
-                        guest.profile?.username ||
-                        'Unnamed Guest'
-                      }}
-                    </h3>
-                    <Badge
-                      :class="getStatusColor(guest.status)"
-                      class="text-xs border"
-                    >
-                      {{ formatStatus(guest.status) }}
-                    </Badge>
-                  </div>
-
-                  <div class="text-sm text-muted-foreground">
-                    <div class="flex items-center gap-2">
-                      <span>@{{ guest.profile?.username || 'unknown' }}</span>
-                      <span>•</span>
-                      <span class="capitalize">{{ guest.role }}</span>
-                      <span>•</span>
-                      <span>{{ getDateTime(guest.createdAt) }}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Action Button -->
-                <div class="flex-shrink-0">
-                  <Button
-                    :variant="
-                      guest.status === 'checked_in' ? 'outline' : 'primary'
-                    "
-                    :class="
-                      guest.status === 'checked_in'
-                        ? 'border-green-200 text-green-700 hover:bg-green-50'
-                        : 'bg-green-600 hover:bg-green-700'
-                    "
-                    size="sm"
-                    @click="toggleCheckIn(guest)"
-                    :disabled="checkInMutation.isPending.value"
+                  <h3
+                    class="font-semibold text-gray-900 text-base leading-tight mb-1"
                   >
-                    <Icon
-                      :name="
-                        guest.status === 'checked_in'
-                          ? 'lucide:user-check'
-                          : 'lucide:user-plus'
-                      "
-                      class="w-4 h-4 mr-1"
-                    />
                     {{
-                      guest.status === 'checked_in' ? 'Checked In' : 'Check In'
+                      guest.profile?.name ||
+                      guest.profile?.user?.firstName +
+                        ' ' +
+                        guest.profile?.user?.lastName ||
+                      guest.profile?.username ||
+                      'Unnamed Guest'
                     }}
-                  </Button>
+                  </h3>
+                  <div
+                    class="flex items-center gap-2 text-sm text-muted-foreground"
+                  >
+                    <NuxtLink
+                      :to="`/@${guest.profile?.username}`"
+                      class="hover:underline"
+                    >
+                      @{{ guest.profile?.username || 'unknown' }}
+                    </NuxtLink>
+                    <span>•</span>
+                    <span class="capitalize">{{ guest.role }}</span>
+                  </div>
+                  <div
+                    v-for="purchase in guest.ticketPurchases"
+                    :key="purchase.id"
+                    class="text-sm text-muted-foreground"
+                  >
+                    <span class="capitalize">{{ purchase.ticket.name }}</span>
+                    <span> ({{ purchase.status }}) </span>
+                  </div>
                 </div>
+                <GuestStatus :status="guest.status" />
               </div>
+
+              <!-- Action Button -->
+              <Button
+                :variant="guest.status === 'checked_in' ? 'outline' : 'primary'"
+                :class="
+                  guest.status === 'checked_in'
+                    ? 'border-green-200 text-green-700 hover:bg-green-50'
+                    : 'bg-green-600 hover:bg-green-700'
+                "
+                class="w-full md:w-auto"
+                @click="toggleCheckIn(guest)"
+                :disabled="checkInMutation.isPending.value"
+              >
+                <Icon
+                  :name="
+                    guest.status === 'checked_in'
+                      ? 'lucide:user-check'
+                      : 'lucide:user-plus'
+                  "
+                  class="w-5 h-5 mr-2"
+                />
+                {{ guest.status === 'checked_in' ? 'Checked In' : 'Check In' }}
+              </Button>
             </div>
           </div>
         </div>
