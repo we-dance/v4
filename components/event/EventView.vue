@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { getDateTime } from '~/utils'
+import { toast } from 'vue-sonner'
+const { isLoggedIn } = useAppAuth()
 
 const props = defineProps({
   event: {
@@ -11,16 +13,42 @@ const props = defineProps({
 
 const { $client } = useNuxtApp()
 const queryClient = useQueryClient()
+const router = useRouter()
+const route = useRoute()
 
 const rsvp = async (status: 'registered' | 'interested' | 'cancelled') => {
-  await $client.events.rsvp.mutate({
+  if (!isLoggedIn.value) {
+    router.push(`/login?redirect=${window.location.pathname}?rsvp=${status}`)
+    return
+  }
+
+  const promise = $client.events.rsvp.mutate({
     eventId: props.event.id,
     status,
   })
-  await queryClient.invalidateQueries({
-    queryKey: ['events.byId', props.event.id],
+  toast.promise(promise, {
+    loading: 'Updating RSVP status...',
+    success: 'RSVP status updated',
+    error: (error: any) => error.message || 'Failed to update RSVP status',
+  })
+  promise.then(() => {
+    queryClient.invalidateQueries({
+      queryKey: ['events.byId', props.event.id],
+    })
   })
 }
+
+onMounted(() => {
+  if (route.query.rsvp) {
+    rsvp(route.query.rsvp as 'registered' | 'interested' | 'cancelled')
+    router.replace({
+      query: {
+        ...route.query,
+        rsvp: undefined,
+      },
+    })
+  }
+})
 
 const { session } = useAppAuth()
 const rsvpStatus = computed(() => {
