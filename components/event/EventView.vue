@@ -2,7 +2,7 @@
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { getDateTime } from '~/utils'
 import { toast } from 'vue-sonner'
-const { isLoggedIn } = useAppAuth()
+const { isLoggedIn, session } = useAppAuth()
 
 const props = defineProps({
   event: {
@@ -50,7 +50,6 @@ onMounted(() => {
   }
 })
 
-const { session } = useAppAuth()
 const rsvpStatus = computed(() => {
   return props.event.guests?.find(
     (guest: any) => guest.profileId === session.value?.profile?.id
