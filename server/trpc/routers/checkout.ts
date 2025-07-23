@@ -26,6 +26,29 @@ export const checkoutRouter = router({
 
       return offer
     }),
+
+  viewTicket: publicProcedure
+    .input(z.object({ ticketId: z.string() }))
+    .query(async ({ input }) => {
+      const { ticketId } = input
+      const ticket = await prisma.ticket.findUnique({
+        where: { id: ticketId },
+        include: {
+          event: {
+            include: {
+              organizer: true,
+              venue: true,
+            },
+          },
+        },
+      })
+
+      if (!ticket) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Ticket not found' })
+      }
+
+      return ticket
+    }),
   createCheckoutSession: publicProcedure
     .input(z.object({ offerId: z.string() }))
     .mutation(async ({ input, ctx }) => {
@@ -106,6 +129,97 @@ export const checkoutRouter = router({
           allow_promotion_codes: true,
           metadata: {
             subscriptionId: subscription.id,
+            stripeAccount,
+          },
+        },
+        {
+          stripeAccount,
+        }
+      )
+
+      if (!stripeSession?.url) {
+        throw new TRPCError({
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Failed to create checkout session',
+        })
+      }
+
+      return { url: stripeSession.url }
+    }),
+
+  createTicketCheckoutSession: publicProcedure
+    .input(z.object({ ticketId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const appUrl = useRuntimeConfig().public.appUrl
+
+      const { session } = ctx
+      const { ticketId } = input
+      const ticket = await prisma.ticket.findUnique({
+        where: { id: ticketId },
+        include: {
+          event: {
+            include: {
+              organizer: {
+                include: {
+                  user: true,
+                },
+              },
+            },
+          },
+        },
+      })
+
+      if (!ticket) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Ticket not found' })
+      }
+
+      if (!ticket.stripePriceId) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Ticket does not have a Stripe price',
+        })
+      }
+
+      if (!ticket.event.organizer?.user?.stripeAccountId) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Event organizer does not have a Stripe account',
+        })
+      }
+
+      if (!session?.user) {
+        throw new TRPCError({
+          code: 'UNAUTHORIZED',
+          message: 'User not authenticated',
+        })
+      }
+
+      const stripeAccount = ticket.event.organizer.user.stripeAccountId
+
+      const stripe = getStripe()
+
+      const customer = await stripe.customers.create(
+        {
+          email: session.user.email,
+          name: session.user.firstName + ' ' + session.user.lastName,
+        },
+        {
+          stripeAccount,
+        }
+      )
+
+      const stripeSession = await stripe.checkout.sessions.create(
+        {
+          customer: customer.id,
+          line_items: [{ price: ticket.stripePriceId, quantity: 1 }],
+          mode: 'payment',
+          success_url: `${appUrl}/events/${ticket.event.id}/ticket-success?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${appUrl}/events/${ticket.event.id}`,
+          discounts: [],
+          allow_promotion_codes: true,
+          metadata: {
+            ticketId: ticket.id,
+            eventId: ticket.event.id,
             stripeAccount,
           },
         },

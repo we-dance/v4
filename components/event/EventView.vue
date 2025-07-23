@@ -25,9 +25,20 @@ const rsvp = async (status: 'registered' | 'interested' | 'cancelled') => {
 const { session } = useAppAuth()
 const rsvpStatus = computed(() => {
   return props.event.guests?.find(
-    (guest) => guest.profileId === session.value?.profile?.id
+    (guest: any) => guest.profileId === session.value?.profile?.id
   )?.status
 })
+
+const dialog = useDialog()
+
+const handleBuyTickets = () => {
+  dialog.open({
+    component: 'EventTicketPurchaseDialog',
+    props: {
+      event: props.event,
+    },
+  })
+}
 
 const navigation = computed(() => [
   {
@@ -126,9 +137,16 @@ const navigation = computed(() => [
                       Can't go
                     </Button>
                   </div>
-                  <Button v-if="event.ticketUrl" size="lg" as-child>
+                  <Button
+                    v-if="event.tickets?.length"
+                    size="lg"
+                    @click="handleBuyTickets"
+                  >
+                    <Icon name="ph:shopping-cart" />Buy Ticket
+                  </Button>
+                  <Button v-else-if="event.ticketUrl" size="lg" as-child>
                     <a :href="event.ticketUrl" target="_blank"
-                      ><Icon name="ph:shopping-cart" />Buy Tickets</a
+                      ><Icon name="ph:shopping-cart" />Buy Ticket</a
                     >
                   </Button>
                 </div>

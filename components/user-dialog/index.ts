@@ -14,6 +14,7 @@ import CourseResourceDialog from './CourseResourceDialog.vue'
 import ReviewDialog from './ReviewDialog.vue'
 import EventCreateDialog from './EventCreateDialog.vue'
 import EventTicketDialog from './EventTicketDialog.vue'
+import EventTicketPurchaseDialog from './EventTicketPurchaseDialog.vue'
 
 export const dialogs = {
   PricingOptionsDialog,
@@ -32,4 +33,5 @@ export const dialogs = {
   ReviewDialog,
   EventCreateDialog,
   EventTicketDialog,
+  EventTicketPurchaseDialog,
 }
