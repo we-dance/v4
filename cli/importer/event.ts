@@ -91,16 +91,6 @@ async function addVenue(venue: any, cityId: string, creatorProfileId: string) {
 }
 
 export async function addEvent(event: any) {
-  // const existingEvent = await prisma.event.findFirst({
-  //   where: { id: event.id },
-  // })
-  // // if (existingEvent) {
-  // //   return {
-  // //     state: 'ignored',
-  // //     id: existingEvent.id,
-  // //   }
-  // // }
-
   if (!event.name) {
     return {
       state: 'failed',
