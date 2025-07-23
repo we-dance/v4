@@ -194,6 +194,18 @@ export const checkoutRouter = router({
         })
       }
 
+      // Create ticket purchase record
+      const ticketPurchase = await prisma.ticketPurchase.create({
+        data: {
+          userId: session.user.id,
+          ticketId: ticket.id,
+          eventId: ticket.event.id,
+          status: 'pending',
+          totalAmount: ticket.price,
+          currency: ticket.currency,
+        },
+      })
+
       const stripeAccount = ticket.event.organizer.user.stripeAccountId
 
       const stripe = getStripe()
@@ -220,6 +232,7 @@ export const checkoutRouter = router({
           metadata: {
             ticketId: ticket.id,
             eventId: ticket.event.id,
+            ticketPurchaseId: ticketPurchase.id,
             stripeAccount,
           },
         },

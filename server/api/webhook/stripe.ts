@@ -37,6 +37,62 @@ export default eventHandler(async (event) => {
     case 'checkout.session.completed':
       const checkoutSession = stripeEvent.data.object
 
+      // Handle ticket purchases
+      if (checkoutSession.metadata.ticketPurchaseId) {
+        const ticketPurchase = await prisma.ticketPurchase.findUnique({
+          where: {
+            id: checkoutSession.metadata.ticketPurchaseId,
+          },
+          include: {
+            event: true,
+            user: {
+              include: {
+                profile: true,
+              },
+            },
+          },
+        })
+
+        if (!ticketPurchase) {
+          return { error: 'Ticket purchase not found' }
+        }
+
+        await prisma.ticketPurchase.update({
+          where: { id: ticketPurchase.id },
+          data: {
+            status: 'completed',
+            stripeCheckoutSessionId: checkoutSession.id,
+            stripePaymentIntentId: checkoutSession.payment_intent,
+          },
+        })
+
+        // Auto-create Guest record for the purchaser
+        if (ticketPurchase.user.profile) {
+          await prisma.guest.upsert({
+            where: {
+              profileId_eventId: {
+                profileId: ticketPurchase.user.profile.id,
+                eventId: ticketPurchase.eventId,
+              },
+            },
+            update: {
+              status: 'registered',
+              registeredAt: new Date(),
+            },
+            create: {
+              profileId: ticketPurchase.user.profile.id,
+              eventId: ticketPurchase.eventId,
+              role: 'attendee',
+              status: 'registered',
+              registeredAt: new Date(),
+            },
+          })
+        }
+
+        return { received: true }
+      }
+
+      // Handle course subscriptions
       if (!checkoutSession.metadata.subscriptionId) {
         return { error: 'Subscription ID not found' }
       }
