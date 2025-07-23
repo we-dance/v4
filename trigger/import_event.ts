@@ -1,5 +1,5 @@
 import { task } from '@trigger.dev/sdk/v3'
-import { importEvent } from '~/cli/importer/import-event/index'
+import { importEvent } from '../cli/import-event/index'
 
 export const scrape = task({
   id: 'import-event',

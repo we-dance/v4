@@ -16,15 +16,7 @@ function getDate(timestamp: any) {
   return timestamp * 1000
 }
 
-async function getOrg(
-  host: any,
-  place: any
-): Promise<null | {
-  id: string
-  name: string
-  username?: string
-  photo?: string
-}> {
+async function getOrg(host: any, place: any): Promise<string | null> {
   if (!host?.id) {
     return null
   }
@@ -53,11 +45,7 @@ async function getOrg(
     })
 
     if (existingProfile) {
-      return {
-        id: existingProfile.id,
-        name: existingProfile.name || existingProfile.username || '',
-        photo: existingProfile.photo || undefined,
-      }
+      return existingProfile.id
     }
 
     const orgPhoto = await getUploadedImage(host?.photo?.imageUri)
@@ -75,12 +63,7 @@ async function getOrg(
       },
     })
 
-    return {
-      id: newProfile.id,
-      username: newProfile.username,
-      name: newProfile.name,
-      photo: newProfile.photo || undefined,
-    }
+    return newProfile.id
   }
 
   return null
@@ -163,10 +146,10 @@ export async function getFacebookEvent(url: string) {
     place = await getCityId(venue)
   }
 
-  const org = await getOrg(event.hosts[0], place)
+  const organizerId = await getOrg(event.hosts[0], place)
 
-  if (!venue && org) {
-    venue = await getPlace(org.name, 'de')
+  if (!venue && organizerId && event.hosts[0]?.name) {
+    venue = await getPlace(event.hosts[0].name, 'de')
   }
 
   if (venue && !place) {
@@ -194,7 +177,7 @@ export async function getFacebookEvent(url: string) {
     price: '',
     sourceUrl: url,
     ticketUrl: event.ticketUrl || '',
-    organizerId: org?.id || null,
+    organizerId: organizerId,
     venueId: venue?.id || null,
     status: 'draft',
     styles: {
