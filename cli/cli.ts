@@ -64,8 +64,6 @@ program.command('reindex').action(async (name) => {
 })
 
 program.command('event:import:debug <url>').action(async (sourceUrl) => {
-  //test flag for cloudinary to return original url
-  process.env.TEST_MODE = 'true'
   console.log('Scraping event data from:', sourceUrl)
 
   try {
