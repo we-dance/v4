@@ -39,9 +39,9 @@ const rsvp = async (status: 'registered' | 'interested' | 'cancelled') => {
   })
 }
 
-onMounted(() => {
+onMounted(async () => {
   if (route.query.rsvp) {
-    rsvp(route.query.rsvp as 'registered' | 'interested' | 'cancelled')
+    await rsvp(route.query.rsvp as 'registered' | 'interested' | 'cancelled')
     router.replace({
       query: {
         ...route.query,
