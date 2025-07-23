@@ -2,7 +2,7 @@
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { getDateTime } from '~/utils'
 import { toast } from 'vue-sonner'
-const { isLoggedIn, session } = useAppAuth()
+const { isLoggedIn } = useAppAuth()
 
 const props = defineProps({
   event: {
@@ -13,6 +13,7 @@ const props = defineProps({
 
 const { $client } = useNuxtApp()
 const queryClient = useQueryClient()
+
 const router = useRouter()
 const route = useRoute()
 
@@ -38,9 +39,9 @@ const rsvp = async (status: 'registered' | 'interested' | 'cancelled') => {
   })
 }
 
-onMounted(async () => {
+onMounted(() => {
   if (route.query.rsvp) {
-    await rsvp(route.query.rsvp as 'registered' | 'interested' | 'cancelled')
+    rsvp(route.query.rsvp as 'registered' | 'interested' | 'cancelled')
     router.replace({
       query: {
         ...route.query,
@@ -50,6 +51,7 @@ onMounted(async () => {
   }
 })
 
+const { session } = useAppAuth()
 const rsvpStatus = computed(() => {
   return props.event.guests?.find(
     (guest: any) => guest.profileId === session.value?.profile?.id
