@@ -119,6 +119,7 @@ export const eventsRouter = router({
             profile: true,
           },
         },
+        tickets: true,
       },
     })
 
@@ -303,5 +304,48 @@ export const eventsRouter = router({
       })
 
       return event
+    }),
+
+  updateTicket: publicProcedure
+    .input(
+      z.object({
+        eventId: z.string(),
+        ticketId: z.string().optional().nullable(),
+        name: z.string().min(1),
+        price: z.number().min(0),
+        currency: z.string().min(1),
+        items: z.string().optional(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { eventId, ticketId, ...ticketData } = input
+
+      if (ticketId) {
+        // Update existing ticket
+        const ticket = await prisma.ticket.update({
+          where: { id: ticketId },
+          data: ticketData,
+        })
+        return ticket
+      } else {
+        // Create new ticket
+        const ticket = await prisma.ticket.create({
+          data: {
+            ...ticketData,
+            eventId,
+          },
+        })
+        return ticket
+      }
+    }),
+
+  deleteTicket: publicProcedure
+    .input(z.object({ ticketId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { ticketId } = input
+      const ticket = await prisma.ticket.delete({
+        where: { id: ticketId },
+      })
+      return ticket
     }),
 })

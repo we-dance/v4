@@ -273,10 +273,26 @@ model Event {
   venueId     String?
   venue       Profile?     @relation("event_hosted_by", fields: [venueId], references: [id])
   posts       Post[]       @relation("post_event")
+  tickets     Ticket[]     @relation("event_tickets")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   guests    Guest[]  @relation("event_guests")
+}
+
+model Ticket {
+  id              String  @id @default(nanoid())
+  name            String
+  price           Int // Price in cents
+  currency        String  @default("EUR")
+  items           String?
+  stripeProductId String?
+  stripePriceId   String?
+  eventId         String
+  event           Event   @relation("event_tickets", fields: [eventId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model DanceStyle {

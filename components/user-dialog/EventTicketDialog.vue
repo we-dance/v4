@@ -3,10 +3,6 @@ import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import { toast } from 'vue-sonner'
 import { z } from 'zod'
-import {
-  subscriptionDurations,
-  formatSubscriptionDuration,
-} from '~/utils/format'
 
 const props = defineProps<{
   ticket?: {
@@ -14,7 +10,6 @@ const props = defineProps<{
     name: string
     price: number
     currency: string
-    duration: string
     items: string
   }
   onSuccess?: (values: any) => void
@@ -26,7 +21,6 @@ const schema = z.object({
   name: z.string().min(1, 'Name is required'),
   price: z.number().min(0, 'Price must be a positive number'),
   currency: z.string().min(1, 'Currency is required'),
-  duration: z.string().min(1, 'Duration is required'),
   items: z.string().optional(),
 })
 
@@ -36,7 +30,6 @@ const form = useForm({
     name: '',
     price: 0,
     currency: 'EUR',
-    duration: 'P1M',
     items: '',
   },
 })
@@ -108,28 +101,6 @@ const onSubmit = form.handleSubmit(
                 <SelectItem value="EUR">EUR</SelectItem>
                 <SelectItem value="USD">USD</SelectItem>
                 <SelectItem value="GBP">GBP</SelectItem>
-              </SelectContent>
-            </Select>
-          </FormControl>
-          <FormMessage />
-        </FormItem>
-      </FormField>
-
-      <FormField v-slot="{ componentField }" name="duration">
-        <FormItem>
-          <FormLabel>Recurring</FormLabel>
-          <FormControl>
-            <Select v-bind="componentField">
-              <SelectTrigger>
-                <SelectValue placeholder="Select duration" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem
-                  v-for="duration in Object.keys(subscriptionDurations)"
-                  :key="duration"
-                  :value="duration"
-                  >{{ formatSubscriptionDuration(duration) }}</SelectItem
-                >
               </SelectContent>
             </Select>
           </FormControl>

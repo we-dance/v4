@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
-import { formatCurrencyCents, formatSubscriptionDuration } from '~/utils/format'
+import { formatCurrencyCents } from '~/utils/format'
 
 const { event } = defineProps({
   event: {
@@ -105,8 +105,7 @@ const openTicketDialog = (ticket: any = null) => {
           />
         </h4>
         <p class="text-sm text-muted-foreground">
-          {{ formatCurrencyCents(ticket.price, ticket.currency) }} /
-          {{ formatSubscriptionDuration(ticket.duration) }}
+          {{ formatCurrencyCents(ticket.price, ticket.currency) }}
         </p>
       </div>
       <div class="flex items-center gap-2">
