@@ -4,6 +4,7 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { nanoid } from 'nanoid'
 import { getSlug } from '~/utils/slug'
+import { getStripe, createOrUpdateStripeProduct } from '~/server/utils/stripe'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -314,28 +315,76 @@ export const eventsRouter = router({
         name: z.string().min(1),
         price: z.number().min(0),
         currency: z.string().min(1),
-        items: z.string().optional(),
+        items: z.string().default(''),
       })
     )
     .mutation(async ({ ctx, input }) => {
       const { eventId, ticketId, ...ticketData } = input
 
       if (ticketId) {
-        // Update existing ticket
-        const ticket = await prisma.ticket.update({
+        const ticket = await prisma.ticket.findUnique({
           where: { id: ticketId },
-          data: ticketData,
+          include: {
+            event: {
+              include: {
+                organizer: {
+                  select: {
+                    user: {
+                      select: {
+                        stripeAccountId: true,
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
         })
-        return ticket
+
+        if (!ticket) {
+          throw new TRPCError({
+            code: 'NOT_FOUND',
+            message: 'Ticket not found',
+          })
+        }
+
+        const stripeAccountId = ticket.event?.organizer?.user?.stripeAccountId
+
+        if (!stripeAccountId) {
+          throw new TRPCError({
+            code: 'INTERNAL_SERVER_ERROR',
+            message: 'Instructor has no Stripe account',
+          })
+        }
+
+        const stripe = getStripe(stripeAccountId)
+        const stripeProduct = await createOrUpdateStripeProduct(
+          stripe,
+          ticketData
+        )
+        return await prisma.ticket.update({
+          where: { id: ticketId },
+          data: {
+            ...ticketData,
+            stripeProductId: stripeProduct.stripeProductId,
+            stripePriceId: stripeProduct.stripePriceId,
+          },
+        })
       } else {
-        // Create new ticket
-        const ticket = await prisma.ticket.create({
+        const stripe = getStripe(ctx.session?.user.stripeAccountId)
+        const stripeProduct = await createOrUpdateStripeProduct(
+          stripe,
+          ticketData
+        )
+
+        return await prisma.ticket.create({
           data: {
             ...ticketData,
             eventId,
+            stripeProductId: stripeProduct.stripeProductId,
+            stripePriceId: stripeProduct.stripePriceId,
           },
         })
-        return ticket
       }
     }),
 
@@ -343,9 +392,57 @@ export const eventsRouter = router({
     .input(z.object({ ticketId: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const { ticketId } = input
-      const ticket = await prisma.ticket.delete({
+
+      const ticket = await prisma.ticket.findUnique({
+        where: { id: ticketId },
+        include: {
+          event: {
+            include: {
+              organizer: {
+                select: {
+                  user: {
+                    select: {
+                      stripeAccountId: true,
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      })
+
+      if (!ticket) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Ticket not found' })
+      }
+
+      const stripeAccountId = ticket.event?.organizer?.user?.stripeAccountId
+
+      if (!stripeAccountId) {
+        throw new TRPCError({
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Instructor has no Stripe account',
+        })
+      }
+
+      const stripe = getStripe(stripeAccountId)
+
+      if (ticket.stripePriceId) {
+        await stripe.prices.update(ticket.stripePriceId, {
+          active: false,
+        })
+      }
+
+      if (ticket.stripeProductId) {
+        await stripe.products.update(ticket.stripeProductId, {
+          active: false,
+        })
+      }
+
+      await prisma.ticket.delete({
         where: { id: ticketId },
       })
-      return ticket
+
+      return { success: true }
     }),
 })
