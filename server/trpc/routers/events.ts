@@ -4,6 +4,7 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { nanoid } from 'nanoid'
 import { getSlug } from '~/utils/slug'
+import { getStripe, createOrUpdateStripeProduct } from '~/server/utils/stripe'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -119,6 +120,18 @@ export const eventsRouter = router({
             profile: true,
           },
         },
+        tickets: true,
+        ticketPurchases: ctx.session?.user?.id
+          ? {
+              where: {
+                userId: ctx.session.user.id,
+                // status: 'completed',
+              },
+              include: {
+                ticket: true,
+              },
+            }
+          : undefined,
       },
     })
 
@@ -181,6 +194,11 @@ export const eventsRouter = router({
             profile: {
               include: {
                 user: true,
+              },
+            },
+            ticketPurchases: {
+              include: {
+                ticket: true,
               },
             },
           },
@@ -303,5 +321,170 @@ export const eventsRouter = router({
       })
 
       return event
+    }),
+
+  updateTicket: publicProcedure
+    .input(
+      z.object({
+        eventId: z.string(),
+        ticketId: z.string().optional().nullable(),
+        name: z.string().min(1),
+        price: z.number().min(0),
+        currency: z.string().min(1),
+        items: z.string().default(''),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { eventId, ticketId, ...ticketData } = input
+
+      if (ticketId) {
+        const ticket = await prisma.ticket.findUnique({
+          where: { id: ticketId },
+          include: {
+            event: {
+              include: {
+                organizer: {
+                  select: {
+                    user: {
+                      select: {
+                        stripeAccountId: true,
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        })
+
+        if (!ticket) {
+          throw new TRPCError({
+            code: 'NOT_FOUND',
+            message: 'Ticket not found',
+          })
+        }
+
+        const stripeAccountId = ticket.event?.organizer?.user?.stripeAccountId
+
+        if (!stripeAccountId) {
+          throw new TRPCError({
+            code: 'INTERNAL_SERVER_ERROR',
+            message: 'Instructor has no Stripe account',
+          })
+        }
+
+        const stripe = getStripe(stripeAccountId)
+        const stripeProduct = await createOrUpdateStripeProduct(
+          stripe,
+          ticketData
+        )
+        return await prisma.ticket.update({
+          where: { id: ticketId },
+          data: {
+            ...ticketData,
+            stripeProductId: stripeProduct.stripeProductId,
+            stripePriceId: stripeProduct.stripePriceId,
+          },
+        })
+      } else {
+        const stripe = getStripe(ctx.session?.user.stripeAccountId)
+        const stripeProduct = await createOrUpdateStripeProduct(
+          stripe,
+          ticketData
+        )
+
+        return await prisma.ticket.create({
+          data: {
+            ...ticketData,
+            eventId,
+            stripeProductId: stripeProduct.stripeProductId,
+            stripePriceId: stripeProduct.stripePriceId,
+          },
+        })
+      }
+    }),
+
+  deleteTicket: publicProcedure
+    .input(z.object({ ticketId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const { ticketId } = input
+
+      const ticket = await prisma.ticket.findUnique({
+        where: { id: ticketId },
+        include: {
+          event: {
+            include: {
+              organizer: {
+                select: {
+                  user: {
+                    select: {
+                      stripeAccountId: true,
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      })
+
+      if (!ticket) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Ticket not found' })
+      }
+
+      const stripeAccountId = ticket.event?.organizer?.user?.stripeAccountId
+
+      if (!stripeAccountId) {
+        throw new TRPCError({
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Instructor has no Stripe account',
+        })
+      }
+
+      const stripe = getStripe(stripeAccountId)
+
+      if (ticket.stripePriceId) {
+        await stripe.prices.update(ticket.stripePriceId, {
+          active: false,
+        })
+      }
+
+      if (ticket.stripeProductId) {
+        await stripe.products.update(ticket.stripeProductId, {
+          active: false,
+        })
+      }
+
+      await prisma.ticket.delete({
+        where: { id: ticketId },
+      })
+
+      return { success: true }
+    }),
+
+  checkInGuest: publicProcedure
+    .input(
+      z.object({
+        guestId: z.string(),
+        status: z.enum(['checked_in', 'registered']),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { guestId, status } = input
+
+      const updateData: any = { status }
+
+      if (status === 'checked_in') {
+        updateData.confirmedAt = new Date()
+      } else if (status === 'registered') {
+        updateData.confirmedAt = null
+      }
+
+      const guest = await prisma.guest.update({
+        where: { id: guestId },
+        data: updateData,
+      })
+
+      return guest
     }),
 })

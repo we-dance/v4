@@ -14,7 +14,14 @@ const interested = computed(() => {
 
 const going = computed(() => {
   return props.event.guests.filter(
-    (guest: any) => guest.status === 'registered'
+    (guest: any) =>
+      guest.status === 'registered' || guest.status === 'checked_in'
+  ).length
+})
+
+const checkedIn = computed(() => {
+  return props.event.guests.filter(
+    (guest: any) => guest.status === 'checked_in'
   ).length
 })
 
@@ -22,7 +29,9 @@ const guests = computed(() => {
   return props.event.guests
     .filter(
       (guest: any) =>
-        guest.status === 'registered' || guest.status === 'interested'
+        guest.status === 'registered' ||
+        guest.status === 'interested' ||
+        guest.status === 'checked_in'
     )
     .slice(0, 5)
 })
@@ -32,10 +41,13 @@ const guests = computed(() => {
   <div class="flex items-center gap-2 text-xs">
     <div v-if="guests.length > 0" class="relative flex ml-1">
       <div v-for="guest in guests" :key="guest.id" class="-ml-1">
-        <Avatar :profile="guest.profile" class="w-4 h-4 rounded-full" />
+        <Avatar
+          :profile="guest.profile"
+          class="w-4 h-4 rounded-full overflow-hidden"
+        />
       </div>
     </div>
-    <div v-if="going > 0 || interested > 0">
+    <div v-if="going > 0 || interested > 0 || checkedIn > 0">
       {{ going }} going · {{ interested }} maybe
     </div>
     <div v-else>No guests yet</div>

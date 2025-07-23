@@ -11,6 +11,7 @@ import { communitiesRouter } from './communities'
 import { citiesRouter } from './cities'
 import { mediaRouter } from './media'
 import { searchRouter } from './search'
+import { ticketPurchasesRouter } from './ticketPurchases'
 
 export const appRouter = router({
   posts: postsRouter,
@@ -25,6 +26,7 @@ export const appRouter = router({
   cities: citiesRouter,
   media: mediaRouter,
   search: searchRouter,
+  ticketPurchases: ticketPurchasesRouter,
 })
 
 export type AppRouter = typeof appRouter

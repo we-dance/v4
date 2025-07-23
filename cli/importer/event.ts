@@ -91,16 +91,6 @@ async function addVenue(venue: any, cityId: string, creatorProfileId: string) {
 }
 
 export async function addEvent(event: any) {
-  const existingEvent = await prisma.event.findFirst({
-    where: { id: event.id },
-  })
-  if (existingEvent) {
-    return {
-      state: 'ignored',
-      id: existingEvent.id,
-    }
-  }
-
   if (!event.name) {
     return {
       state: 'failed',
@@ -191,6 +181,7 @@ export async function addEvent(event: any) {
     styles: {
       connect: connectStyles,
     },
+    ticketUrl: event.link || '',
     startDate: getDate(event.startDate),
     endDate: getDate(event.endDate),
     description: event.description || '',
@@ -204,8 +195,10 @@ export async function addEvent(event: any) {
   }
 
   try {
-    const result = await prisma.event.create({
-      data,
+    const result = await prisma.event.upsert({
+      where: { id: event.id },
+      update: data,
+      create: data,
     })
 
     if (event.artists) {

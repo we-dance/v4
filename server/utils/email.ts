@@ -34,6 +34,11 @@ const templates: Record<string, EmailTemplate> = {
     template: 'event-reminder',
     from: 'WeDance <noreply@wedance.vip>',
   },
+  'ticket-purchase-confirmation': {
+    subject: 'Ticket Confirmed: {{eventName}}',
+    template: 'ticket-purchase-confirmation',
+    from: 'WeDance <noreply@wedance.vip>',
+  },
 }
 
 async function compileMjmlTemplate(
