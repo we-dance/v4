@@ -19,6 +19,12 @@ const going = computed(() => {
   ).length
 })
 
+const checkedIn = computed(() => {
+  return props.event.guests.filter(
+    (guest: any) => guest.status === 'checked_in'
+  ).length
+})
+
 const guests = computed(() => {
   return props.event.guests
     .filter(
