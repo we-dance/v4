@@ -102,9 +102,9 @@ const columns: ColumnDef<any>[] = [
   <div v-else class="container py-6 space-y-6">
     <div class="flex items-center gap-2">
       <Input v-model="searchQuery" placeholder="Search events..." />
-      <NuxtLink to="/admin/events/import">
-        <Button> Create Event </Button>
-      </NuxtLink>
+      <Button as-child>
+        <NuxtLink to="/admin/events/import">Create Event</NuxtLink>
+      </Button>
     </div>
     <AdminTable :data="events" :columns="columns" />
   </div>

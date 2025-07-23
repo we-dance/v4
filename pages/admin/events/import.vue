@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Breadcrumb from '~/components/ui/breadcrumb/Breadcrumb.vue'
-
 definePageMeta({
   layout: 'admin',
   middleware: ['sidebase-auth'],
@@ -14,7 +12,9 @@ definePageMeta({
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
+          <BreadcrumbLink as-child>
+            <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
+          </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>

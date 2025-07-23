@@ -12,7 +12,9 @@ definePageMeta({
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
+          <BreadcrumbLink as-child>
+            <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
+          </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeperator />
         <BreadcrumbItem>
