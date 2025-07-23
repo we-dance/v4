@@ -77,7 +77,7 @@ const navigation = computed(() => [
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <!-- Left: Content -->
               <div class="text-center md:text-left text-muted-foreground">
-                <div class="flex items-center gap-2 mb-4">
+                <div class="flex justify-center md:justify-start gap-2 mb-4">
                   <Badge>{{ event.type }}</Badge>
                   <DateRange :start="event.startDate" :end="event.endDate" />
                   <div v-if="event.venue" class="font-bold">
@@ -112,38 +112,54 @@ const navigation = computed(() => [
                   class="mb-8 flex flex-col gap-4 items-center md:items-start"
                 >
                   <GuestsCount :event="event" />
-                  <div>
-                    Let others know if you're planning to attend this event
+                  <!-- Show special status for checked-in users -->
+                  <div v-if="rsvpStatus === 'checked_in'" class="space-y-2">
+                    <div
+                      class="flex justify-center md:justify-start gap-2 text-green-600"
+                    >
+                      <Icon name="ph:check-circle-fill" class="w-5 h-5" />
+                      <span class="font-medium">You're checked in!</span>
+                    </div>
+                    <div class="text-sm text-muted-foreground">
+                      Welcome to the event! Have a great time.
+                    </div>
                   </div>
-                  <div class="flex justify-center md:justify-start gap-2">
-                    <Button
-                      variant="secondary"
-                      :color="
-                        rsvpStatus === 'registered' ? 'success' : 'default'
-                      "
-                      @click="rsvp('registered')"
-                    >
-                      Going
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      :color="
-                        rsvpStatus === 'interested' ? 'warning' : 'default'
-                      "
-                      @click="rsvp('interested')"
-                    >
-                      Maybe
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      :color="
-                        rsvpStatus === 'cancelled' ? 'destructive' : 'default'
-                      "
-                      @click="rsvp('cancelled')"
-                    >
-                      Can't go
-                    </Button>
-                  </div>
+
+                  <!-- Regular RSVP for non-checked-in users -->
+                  <template v-else>
+                    <div>
+                      Let others know if you're planning to attend this event
+                    </div>
+                    <div class="flex justify-center md:justify-start gap-2">
+                      <Button
+                        variant="secondary"
+                        :color="
+                          rsvpStatus === 'registered' ? 'success' : 'default'
+                        "
+                        @click="rsvp('registered')"
+                      >
+                        Going
+                      </Button>
+                      <Button
+                        variant="secondary"
+                        :color="
+                          rsvpStatus === 'interested' ? 'warning' : 'default'
+                        "
+                        @click="rsvp('interested')"
+                      >
+                        Maybe
+                      </Button>
+                      <Button
+                        variant="secondary"
+                        :color="
+                          rsvpStatus === 'cancelled' ? 'destructive' : 'default'
+                        "
+                        @click="rsvp('cancelled')"
+                      >
+                        Can't go
+                      </Button>
+                    </div>
+                  </template>
                   <!-- Show ticket status if user has purchased tickets -->
                   <div v-if="hasTickets" class="space-y-2">
                     <div class="flex items-center gap-2 text-green-600">
@@ -179,13 +195,9 @@ const navigation = computed(() => [
               <!-- Right: Image -->
               <div
                 v-if="event.cover"
-                class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
+                class="relative rounded-xl overflow-hidden shadow-xl"
               >
-                <img
-                  :src="event.cover"
-                  :alt="event.name"
-                  class="w-full h-full object-cover"
-                />
+                <img :src="event.cover" :alt="event.name" class="w-full" />
               </div>
             </div>
           </div>

@@ -472,13 +472,17 @@ export const eventsRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { guestId, status } = input
 
+      const updateData: any = { status }
+
+      if (status === 'checked_in') {
+        updateData.confirmedAt = new Date()
+      } else if (status === 'registered') {
+        updateData.confirmedAt = null
+      }
+
       const guest = await prisma.guest.update({
         where: { id: guestId },
-        data: {
-          status,
-          [status === 'checked_in' ? 'confirmedAt' : 'registeredAt']:
-            new Date(),
-        },
+        data: updateData,
       })
 
       return guest

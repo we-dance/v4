@@ -14,7 +14,8 @@ const interested = computed(() => {
 
 const going = computed(() => {
   return props.event.guests.filter(
-    (guest: any) => guest.status === 'registered'
+    (guest: any) =>
+      guest.status === 'registered' || guest.status === 'checked_in'
   ).length
 })
 
@@ -22,7 +23,9 @@ const guests = computed(() => {
   return props.event.guests
     .filter(
       (guest: any) =>
-        guest.status === 'registered' || guest.status === 'interested'
+        guest.status === 'registered' ||
+        guest.status === 'interested' ||
+        guest.status === 'checked_in'
     )
     .slice(0, 5)
 })
@@ -35,7 +38,7 @@ const guests = computed(() => {
         <Avatar :profile="guest.profile" class="w-4 h-4 rounded-full" />
       </div>
     </div>
-    <div v-if="going > 0 || interested > 0">
+    <div v-if="going > 0 || interested > 0 || checkedIn > 0">
       {{ going }} going · {{ interested }} maybe
     </div>
     <div v-else>No guests yet</div>
