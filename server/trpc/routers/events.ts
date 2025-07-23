@@ -121,6 +121,17 @@ export const eventsRouter = router({
           },
         },
         tickets: true,
+        ticketPurchases: ctx.session?.user?.id
+          ? {
+              where: {
+                userId: ctx.session.user.id,
+                // status: 'completed',
+              },
+              include: {
+                ticket: true,
+              },
+            }
+          : undefined,
       },
     })
 

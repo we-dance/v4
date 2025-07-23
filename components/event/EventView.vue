@@ -29,6 +29,13 @@ const rsvpStatus = computed(() => {
   )?.status
 })
 
+// Check if user has purchased tickets for this event
+const userTicketPurchases = computed(() => {
+  return props.event.ticketPurchases || []
+})
+
+const hasTickets = computed(() => userTicketPurchases.value.length > 0)
+
 const dialog = useDialog()
 
 const handleBuyTickets = () => {
@@ -137,8 +144,25 @@ const navigation = computed(() => [
                       Can't go
                     </Button>
                   </div>
+                  <!-- Show ticket status if user has purchased tickets -->
+                  <div v-if="hasTickets" class="space-y-2">
+                    <div class="flex items-center gap-2 text-green-600">
+                      <Icon name="ph:check-circle" class="w-5 h-5" />
+                      <span class="font-medium">You have tickets!</span>
+                    </div>
+                    <div class="text-sm text-muted-foreground">
+                      <div
+                        v-for="purchase in userTicketPurchases"
+                        :key="purchase.id"
+                      >
+                        {{ purchase.quantity }}x {{ purchase.ticket.name }}
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Show buy button if no tickets purchased -->
                   <Button
-                    v-if="event.tickets?.length"
+                    v-else-if="event.tickets?.length"
                     size="lg"
                     @click="handleBuyTickets"
                   >

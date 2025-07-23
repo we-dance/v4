@@ -29,10 +29,15 @@ const event = await $client.events.byId.query(eventId)
         <div class="flex gap-6">
           <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
             <img
-              :src="event.cover || '/images/event-placeholder.jpg'"
+              v-if="event.cover"
+              :src="event.cover"
               :alt="event.name"
               class="w-full h-full object-cover"
             />
+            <div
+              v-else
+              class="w-full h-full bg-muted flex items-center justify-center"
+            ></div>
           </div>
           <div>
             <h2 class="text-xl font-bold">{{ event.name }}</h2>

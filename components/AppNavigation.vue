@@ -86,6 +86,12 @@ watch(
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>
+                  <NuxtLink to="/my-tickets">
+                    <Icon name="lucide:ticket" class="mr-2 h-4 w-4" />
+                    My Tickets
+                  </NuxtLink>
+                </DropdownMenuItem>
+                <DropdownMenuItem as-child>
                   <NuxtLink to="/chat">
                     <Icon name="lucide:message-square" class="mr-2 h-4 w-4" />
                     Messages
