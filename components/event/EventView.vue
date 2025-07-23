@@ -80,7 +80,7 @@ const navigation = computed(() => [
                 <div class="flex justify-center md:justify-start gap-2 mb-4">
                   <Badge>{{ event.type }}</Badge>
                   <DateRange :start="event.startDate" :end="event.endDate" />
-                  <div v-if="event.venue" class="font-bold">
+                  <div v-if="event.venue?.city" class="font-bold">
                     {{ event.venue.city.name }},
                     {{ event.venue.city.country.name }}
                   </div>
