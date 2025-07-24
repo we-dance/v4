@@ -1,6 +1,25 @@
 import { Prisma } from '@prisma/client'
 import { sendEmail } from '~/server/utils/email'
 
+// Format date and time
+const formatDate = (date: Date | null) => {
+  if (!date) return ''
+  return new Intl.DateTimeFormat('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  }).format(date)
+}
+
+const formatTime = (date: Date | null) => {
+  if (!date) return ''
+  return new Intl.DateTimeFormat('en-US', {
+    hour: '2-digit',
+    minute: '2-digit',
+  }).format(date)
+}
+
 export async function sendTicketPurchaseConfirmationEmail(
   ticketPurchase: Prisma.TicketPurchaseGetPayload<{
     include: {
@@ -27,25 +46,6 @@ export async function sendTicketPurchaseConfirmationEmail(
       style: 'currency',
       currency: currency,
     }).format(amountInCents / 100)
-  }
-
-  // Format date and time
-  const formatDate = (date: Date | null) => {
-    if (!date) return ''
-    return new Intl.DateTimeFormat('en-US', {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    }).format(date)
-  }
-
-  const formatTime = (date: Date | null) => {
-    if (!date) return ''
-    return new Intl.DateTimeFormat('en-US', {
-      hour: '2-digit',
-      minute: '2-digit',
-    }).format(date)
   }
 
   // Prepare email parameters
