@@ -56,6 +56,13 @@ const rsvpStatus = computed(() => {
   )?.status
 })
 
+const isCheckedIn = computed(() => {
+  const guest = props.event.guests?.find(
+    (guest: any) => guest.profileId === session.value?.profile?.id
+  )
+  return !!guest?.checkedInAt
+})
+
 // Check if user has purchased tickets for this event
 const userTicketPurchases = computed(() => {
   return props.event.ticketPurchases || []
@@ -140,7 +147,7 @@ const navigation = computed(() => [
                 >
                   <GuestsCount :event="event" />
                   <!-- Show special status for checked-in users -->
-                  <div v-if="rsvpStatus === 'checked_in'" class="space-y-2">
+                  <div v-if="isCheckedIn" class="space-y-2">
                     <div
                       class="flex justify-center md:justify-start gap-2 text-green-600"
                     >

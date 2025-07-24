@@ -466,18 +466,14 @@ export const eventsRouter = router({
     .input(
       z.object({
         guestId: z.string(),
-        status: z.enum(['checked_in', 'registered']),
+        checkedIn: z.boolean(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { guestId, status } = input
+      const { guestId, checkedIn } = input
 
-      const updateData: any = { status }
-
-      if (status === 'checked_in') {
-        updateData.confirmedAt = new Date()
-      } else if (status === 'registered') {
-        updateData.confirmedAt = null
+      const updateData: any = {
+        checkedInAt: checkedIn ? new Date() : null,
       }
 
       const guest = await prisma.guest.update({

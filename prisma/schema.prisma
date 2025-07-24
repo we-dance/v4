@@ -405,13 +405,14 @@ model Guest {
   ticketPurchases TicketPurchase[]
 
   role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
-  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"
+  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "interested", "declined", "no_show"
 
   invitedAt    DateTime?
   confirmedAt  DateTime?
   cancelledAt  DateTime?
   registeredAt DateTime?
   waitlistedAt DateTime?
+  checkedInAt  DateTime? // When the guest checked in to the event
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

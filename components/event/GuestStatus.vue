@@ -1,12 +1,16 @@
 <script setup lang="ts">
 const props = defineProps<{
   status: string
+  checkedInAt?: Date | string | null
 }>()
 
-const getStatusBadgeVariant = (status: string) => {
+const isCheckedIn = computed(() => !!props.checkedInAt)
+
+const getStatusBadgeVariant = (status: string, isCheckedIn: boolean) => {
+  if (isCheckedIn) {
+    return 'default'
+  }
   switch (status) {
-    case 'checked_in':
-      return 'default'
     case 'registered':
       return 'secondary'
     case 'confirmed':
@@ -20,10 +24,11 @@ const getStatusBadgeVariant = (status: string) => {
   }
 }
 
-const formatStatus = (status: string) => {
+const formatStatus = (status: string, isCheckedIn: boolean) => {
+  if (isCheckedIn) {
+    return 'Checked In'
+  }
   switch (status) {
-    case 'checked_in':
-      return 'Checked In'
     case 'registered':
       return 'Registered'
     case 'confirmed':
@@ -38,6 +43,8 @@ const formatStatus = (status: string) => {
       return 'Waitlisted'
     case 'declined':
       return 'Declined'
+    case 'interested':
+      return 'Maybe'
     default:
       return status
   }
@@ -46,9 +53,9 @@ const formatStatus = (status: string) => {
 
 <template>
   <Badge
-    :variant="getStatusBadgeVariant(props.status)"
+    :variant="getStatusBadgeVariant(props.status, isCheckedIn)"
     class="text-xs border flex-shrink-0"
   >
-    {{ formatStatus(props.status) }}
+    {{ formatStatus(props.status, isCheckedIn) }}
   </Badge>
 </template>
