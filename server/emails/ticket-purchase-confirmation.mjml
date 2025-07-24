@@ -265,5 +265,44 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-raw>
+      <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Event",
+          "name": "{{eventName}}",
+          "startDate": "{{eventStartDateTime}}",
+          {{#if eventEndDateTime}}
+          "endDate": "{{eventEndDateTime}}",
+          {{/if}}
+          "location": {
+            "@type": "Place",
+            {{#if venueName}}
+            "name": "{{venueName}}",
+            {{/if}}
+            {{#if venueAddress}}
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "{{venueAddress}}"
+            }
+            {{/if}}
+          },
+          "description": "{{eventDescription}}",
+          "url": "{{eventUrl}}",
+          "image": "{{eventImageUrl}}",
+          "organizer": {
+            "@type": "Organization",
+            "name": "{{organizerName}}",
+            "url": "{{organizerUrl}}"
+          },
+          "offers": {
+            "@type": "Offer",
+            "name": "{{ticketName}}",
+            "price": "{{ticketPrice}}",
+            "priceCurrency": "{{ticketCurrency}}"
+          }
+        }
+      </script>
+    </mj-raw>
   </mj-body>
 </mjml>
