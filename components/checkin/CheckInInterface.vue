@@ -24,10 +24,10 @@ const guest = computed(() =>
 
 // Check-in mutation
 const checkInMutation = useMutation({
-  mutationFn: (status: 'checked_in' | 'registered') =>
+  mutationFn: (checkedIn: boolean) =>
     $client.events.checkInGuest.mutate({
       guestId: guest.value?.id!,
-      status,
+      checkedIn,
     }),
   onSuccess: () => {
     refetch()
@@ -35,9 +35,8 @@ const checkInMutation = useMutation({
 })
 
 const handleCheckIn = async () => {
-  const newStatus =
-    guest.value?.status === 'checked_in' ? 'registered' : 'checked_in'
-  await checkInMutation.mutateAsync(newStatus)
+  const isCurrentlyCheckedIn = !!guest.value?.checkedInAt
+  await checkInMutation.mutateAsync(!isCurrentlyCheckedIn)
 }
 
 const backToCheckInList = () => {
@@ -102,7 +101,10 @@ const exitCheckInMode = () => {
                 @{{ guest.profile?.username || 'unknown' }}
               </p>
               <div class="flex items-center gap-2 mt-2">
-                <GuestStatus :status="guest.status" />
+                <GuestStatus
+                  :status="guest.status"
+                  :checkedInAt="guest.checkedInAt"
+                />
                 <span class="text-sm text-muted-foreground capitalize">
                   {{ guest.role }}
                 </span>
@@ -144,9 +146,9 @@ const exitCheckInMode = () => {
           <div class="flex justify-center">
             <Button
               size="lg"
-              :variant="guest.status === 'checked_in' ? 'outline' : 'primary'"
+              :variant="!!guest.checkedInAt ? 'outline' : 'primary'"
               :class="[
-                guest.status === 'checked_in'
+                !!guest.checkedInAt
                   ? 'border-green-200 text-green-700 hover:bg-green-50'
                   : 'bg-green-600 hover:bg-green-700 text-white',
                 'px-8 py-4 text-lg',
@@ -156,15 +158,11 @@ const exitCheckInMode = () => {
             >
               <Icon
                 :name="
-                  guest.status === 'checked_in'
-                    ? 'lucide:user-check'
-                    : 'lucide:user-plus'
+                  !!guest.checkedInAt ? 'lucide:user-check' : 'lucide:user-plus'
                 "
                 class="w-6 h-6 mr-3"
               />
-              {{
-                guest.status === 'checked_in' ? 'Checked In' : 'Check In Now'
-              }}
+              {{ !!guest.checkedInAt ? 'Checked In' : 'Check In Now' }}
             </Button>
           </div>
         </div>
