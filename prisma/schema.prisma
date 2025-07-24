@@ -4,7 +4,6 @@
 generator client {
   provider        = "prisma-client-js"
   previewFeatures = ["fullTextSearch", "relationJoins"]
-  binaryTargets   = ["native", "debian-openssl-3.0.x"] // Trigger.dev environment uses debian-openssl
 }
 
 datasource db {
@@ -76,10 +75,9 @@ model User {
   passwordResetTokens PasswordResetToken[]
   emailsSent          EmailSent[]
 
-  createdAt      DateTime         @default(now())
-  updatedAt      DateTime         @updatedAt
-  lastLoginAt    DateTime         @default(now())
-  TicketPurchase TicketPurchase[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  lastLoginAt DateTime @default(now())
 }
 
 model PasswordResetToken {
@@ -254,7 +252,7 @@ model Post {
 model Event {
   id          String    @id @default(nanoid())
   shortId     String    @default(nanoid(5))
-  slug        String?
+  slug        String
   name        String
   startDate   DateTime?
   endDate     DateTime?
@@ -264,63 +262,24 @@ model Event {
   price       String    @default("")
   firebaseId  String    @default("")
   published   Boolean   @default(false)
-  status      String    @default("draft") // Values: draft, published, archived, cancelled, import_event, import_failed
-  importError String?   @db.Text
+  status      String    @default("draft") // Values: draft, published, archived, cancelled
+  ticketUrl   String?
+
+  styles      DanceStyle[]
+  creatorId   String
+  creator     Profile      @relation("event_created_by", fields: [creatorId], references: [id])
+  organizerId String
+  organizer   Profile      @relation("event_organized_by", fields: [organizerId], references: [id])
+  venueId     String?
+  venue       Profile?     @relation("event_hosted_by", fields: [venueId], references: [id])
+  posts       Post[]       @relation("post_event")
+  importError String?      @db.Text
 
   sourceUrl String?
-  ticketUrl String?
-
-  styles          DanceStyle[]
-  creatorId       String
-  creator         Profile          @relation("event_created_by", fields: [creatorId], references: [id])
-  organizerId     String?
-  organizer       Profile?         @relation("event_organized_by", fields: [organizerId], references: [id])
-  venueId         String?
-  venue           Profile?         @relation("event_hosted_by", fields: [venueId], references: [id])
-  posts           Post[]           @relation("post_event")
-  tickets         Ticket[]         @relation("event_tickets")
-  guests          Guest[]          @relation("event_guests")
-  ticketPurchases TicketPurchase[] @relation("event_purchases")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-}
-
-model Ticket {
-  id              String           @id @default(nanoid())
-  name            String
-  price           Int // Price in cents
-  currency        String           @default("EUR")
-  items           String?
-  stripeProductId String?
-  stripePriceId   String?
-  eventId         String
-  event           Event            @relation("event_tickets", fields: [eventId], references: [id], onDelete: Cascade)
-  purchases       TicketPurchase[] @relation("ticket_purchases")
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
-model TicketPurchase {
-  id                      String  @id @default(nanoid())
-  userId                  String
-  user                    User    @relation(fields: [userId], references: [id])
-  ticketId                String
-  ticket                  Ticket  @relation("ticket_purchases", fields: [ticketId], references: [id])
-  eventId                 String
-  event                   Event   @relation("event_purchases", fields: [eventId], references: [id])
-  guestId                 String?
-  guest                   Guest?  @relation(fields: [guestId], references: [id])
-  status                  String  @default("pending") // 'pending', 'completed', 'failed', 'refunded'
-  stripeCheckoutSessionId String?
-  stripePaymentIntentId   String?
-  quantity                Int     @default(1)
-  totalAmount             Int // Total amount paid in cents
-  currency                String
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  guests    Guest[]  @relation("event_guests")
 }
 
 model DanceStyle {
@@ -401,12 +360,11 @@ model Redirect {
 }
 
 model Guest {
-  id              String           @id @default(nanoid())
-  profileId       String
-  profile         Profile          @relation("guest_profile", fields: [profileId], references: [id])
-  eventId         String
-  event           Event            @relation("event_guests", fields: [eventId], references: [id])
-  ticketPurchases TicketPurchase[]
+  id        String  @id @default(nanoid())
+  profileId String
+  profile   Profile @relation("guest_profile", fields: [profileId], references: [id])
+  eventId   String
+  event     Event   @relation("event_guests", fields: [eventId], references: [id])
 
   role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
   status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"
