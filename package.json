@@ -58,7 +58,7 @@
     "moment-timezone": "^0.5.48",
     "nanoid": "^5.1.5",
     "next-auth": "4.21.1",
-    "nuxt": "3.16.2",
+    "nuxt": "4.0.1",
     "nuxt-posthog": "1.6.3",
     "posthog-node": "^5.1.1",
     "radix-vue": "^1.9.17",
