@@ -100,7 +100,6 @@ export async function getFacebookEventId(url: string) {
 export async function getFacebookEvent(url: string) {
   let event
   const facebookId = await getFacebookEventId(url)
-  const failedImportSlug = getSlug(`failed-import`)
 
   try {
     event = await scrapeFbEventFromFbid(facebookId)

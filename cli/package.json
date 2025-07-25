@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "cli": "ts-node ./cli.ts",
+    "cli-tsx": "tsx ./cli.ts",
     "prisma": "prisma generate"
   },
   "devDependencies": {
