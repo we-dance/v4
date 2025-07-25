@@ -28,9 +28,6 @@ async function getOrg(host: any, place: any): Promise<string | null> {
 
   const orgFacebook = orgUrl.replace('https://www.facebook.com/', '')
   if (orgFacebook) {
-    const profile = await prisma.profile.findFirst({
-      where: { facebook: orgUrl },
-    })
     let username = decodeURIComponent(orgFacebook)
     if (username.includes('people/')) {
       username = username.split('/')[1].replace('-', '')
