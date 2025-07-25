@@ -103,22 +103,25 @@ export async function getFacebookEventId(url: string) {
 export async function getFacebookEvent(url: string) {
   let event
   const facebookId = await getFacebookEventId(url)
+  const failedImportSlug = getSlug(`failed-import`)
 
   try {
     event = await scrapeFbEventFromFbid(facebookId)
   } catch (e) {
     return {
-      type: 'import_error',
-      errorCode: 'no_event',
-      error: (e as Error).message,
+      name: 'Import Failed',
+      slug: failedImportSlug,
+      status: 'failed_import',
+      importError: 'Event was not found',
     }
   }
 
   if (!event.name || !event.startTimestamp) {
     return {
-      type: 'import_error',
-      errorCode: 'no_event',
-      error: 'Event not found',
+      name: 'Import Failed',
+      slug: failedImportSlug,
+      status: 'failed_import',
+      importError: 'Event was not found',
     }
   }
 
