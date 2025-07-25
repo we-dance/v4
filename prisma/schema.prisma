@@ -253,8 +253,8 @@ model Post {
 model Event {
   id          String    @id @default(nanoid())
   shortId     String    @default(nanoid(5))
-  slug        String
-  name        String
+  slug        String?
+  name        String?
   startDate   DateTime?
   endDate     DateTime?
   type        String    @default("Party")
@@ -265,6 +265,9 @@ model Event {
   published   Boolean   @default(false)
   status      String    @default("draft") // Values: draft, published, archived, cancelled
   ticketUrl   String?
+
+  sourceUrl   String?
+  importError String? @db.Text
 
   styles          DanceStyle[]
   creatorId       String

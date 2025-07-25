@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "cli": "ts-node ./cli.ts",
+    "cli-tsx": "tsx ./cli.ts",
     "prisma": "prisma generate"
   },
   "devDependencies": {
@@ -16,6 +17,7 @@
     "cyrillic-to-translit-js": "^3.2.1",
     "dotenv": "^16.4.7",
     "eslint": "^8.33.0",
+    "facebook-event-scraper": "^0.2.2",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "prisma": "^5.14.0",
@@ -30,6 +32,7 @@
     "cheerio": "^1.0.0",
     "country-code-lookup": "^0.1.3",
     "lodash": "^4.17.21",
+    "tsx": "^4.20.3",
     "zod": "^3.24.2"
   },
   "pnpm": {
