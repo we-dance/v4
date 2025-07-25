@@ -142,6 +142,11 @@ async function getEvent(url: string) {
   return event
 }
 
+function makeAbsoluteUrl(baseUrl: string, url: string): string {
+  if (!url) return ''
+  return new URL(url, baseUrl).href
+}
+
 export async function getSchemaEvent(url: string) {
   const event = await getEvent(url)
   if (!event) {
@@ -223,7 +228,10 @@ export async function getSchemaEvent(url: string) {
     type: eventType,
     price: offer ? `${offer.price} ${offer.priceCurrency}` : '',
     sourceUrl: url,
-    ticketUrl: Array.isArray(event.url) ? event.url[0] : event.url || '',
+    ticketUrl: makeAbsoluteUrl(
+      url,
+      Array.isArray(event.url) ? event.url[0] : event.url || ''
+    ),
     organizerId: org?.id || null,
     venueId: venue?.id || null,
     status: 'draft',
