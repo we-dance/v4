@@ -209,6 +209,7 @@ export async function getSchemaEvent(url: string) {
   const eventPhoto = await getUploadedImage(image || '')
 
   const styleHashtags = styles ? Object.keys(styles) : []
+  const offer = event.offers?.find((o: any) => o.price) || null
 
   return {
     name: event.name,
@@ -220,9 +221,9 @@ export async function getSchemaEvent(url: string) {
       : null,
     endDate: event.endTimestamp ? new Date(getDate(event.endTimestamp)) : null,
     type: eventType,
-    price: '',
+    price: offer ? `${offer.price} ${offer.priceCurrency}` : '',
     sourceUrl: url,
-    ticketUrl: event.ticketUrl || '',
+    ticketUrl: Array.isArray(event.url) ? event.url[0] : event.url || '',
     organizerId: org?.id || null,
     venueId: venue?.id || null,
     status: 'draft',
