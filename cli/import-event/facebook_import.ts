@@ -109,8 +109,6 @@ export async function getFacebookEvent(url: string) {
     event = await scrapeFbEventFromFbid(facebookId)
   } catch (e) {
     return {
-      name: 'Import Failed',
-      slug: failedImportSlug,
       status: 'failed_import',
       importError: 'Event was not found',
     }
@@ -118,8 +116,6 @@ export async function getFacebookEvent(url: string) {
 
   if (!event.name || !event.startTimestamp) {
     return {
-      name: 'Import Failed',
-      slug: failedImportSlug,
       status: 'failed_import',
       importError: 'Event was not found',
     }

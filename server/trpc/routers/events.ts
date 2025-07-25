@@ -500,17 +500,13 @@ export const eventsRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { sourceUrl } = input
 
-      const placeholderSlug = getSlug(`importing`)
-
-      // a placeholde row until scraping is done
+      // a placeholder row until scraping is done
       const event = await prisma.event.create({
         data: {
-          name: 'Importing',
           status: 'import_event',
           sourceUrl,
           creatorId: ctx.session?.profile?.id,
           shortId: nanoid(5),
-          slug: placeholderSlug,
         },
       })
       await tasks.trigger('import-event', {

@@ -15,7 +15,7 @@ export const scrape = task({
     if (!event || !event.sourceUrl) {
       throw new Error('Event not found or has no sourceUrl')
     }
-    logger.log('Found evet to be updated in database')
+    logger.log('Found event to be updated in database')
 
     const scrappedData = await fetchEvent(event.sourceUrl)
 

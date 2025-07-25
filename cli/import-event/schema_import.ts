@@ -145,10 +145,7 @@ async function getEvent(url: string) {
 export async function getSchemaEvent(url: string) {
   const event = await getEvent(url)
   if (!event) {
-    const failedImportSlug = getSlug(`failed-import`)
     return {
-      name: 'Import Failed',
-      slug: failedImportSlug,
       status: 'failed_import',
       importError: 'Event was not found',
     }

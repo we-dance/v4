@@ -253,8 +253,8 @@ model Post {
 model Event {
   id          String    @id @default(nanoid())
   shortId     String    @default(nanoid(5))
-  slug        String
-  name        String
+  slug        String?
+  name        String?
   startDate   DateTime?
   endDate     DateTime?
   type        String    @default("Party")
