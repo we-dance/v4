@@ -74,14 +74,6 @@ const columns: ColumnDef<any>[] = [
     header: 'Status',
     accessorKey: 'status',
   },
-  {
-    header: 'Actions',
-    accessorKey: 'actions',
-    cell: ({ row }) => {
-      const event = row.original
-      return h(EventActions, { event })
-    },
-  },
 ]
 </script>
 
