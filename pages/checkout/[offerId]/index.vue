@@ -15,15 +15,7 @@ const offer = await $client.checkout.view.query({ offerId })
     class="min-h-screen bg-muted py-12 flex items-center justify-center"
   >
     <PaymentForm v-if="isLoggedIn" :offer="offer" />
-    <div
-      v-else
-      class="bg-background rounded-xl border p-6 space-y-2 text-center items-center justify-center"
-    >
-      <p>Please login to continue</p>
-      <Button as-child>
-        <NuxtLink :to="`/login?redirect=/checkout/${offerId}`">Login</NuxtLink>
-      </Button>
-    </div>
+    <LoginRedirect v-else :to="`/checkout/${offerId}`" />
   </div>
 
   <EmptyState v-else variant="no-results" />
