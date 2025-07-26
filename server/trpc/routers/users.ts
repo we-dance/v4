@@ -179,6 +179,7 @@ export const usersRouter = router({
       },
       data: {
         stripeAccountId: account.id,
+        stripeConnected: false,
       },
     })
 
@@ -192,5 +193,40 @@ export const usersRouter = router({
     })
 
     return { url: accountLink.url }
+  }),
+
+  disconnectStripe: publicProcedure.mutation(async ({ ctx }) => {
+    const session = await getServerSession(ctx.event)
+
+    if (!session) {
+      throw new TRPCError({
+        code: 'UNAUTHORIZED',
+        message: 'You must be logged in to disconnect your Stripe account',
+      })
+    }
+
+    const user = await prisma.user.findUnique({
+      where: {
+        id: session.user.id,
+      },
+    })
+
+    if (!user) {
+      throw new TRPCError({
+        code: 'NOT_FOUND',
+        message: 'User not found',
+      })
+    }
+
+    await prisma.user.update({
+      where: {
+        id: user.id,
+      },
+      data: {
+        stripeAccountId: null,
+      },
+    })
+
+    return { success: true }
   }),
 })
