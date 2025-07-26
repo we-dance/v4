@@ -40,11 +40,11 @@ const emit = defineEmits(['load'])
         <AdminBlock title="Basic Information" is-open>
           <EventAboutEditor :event="event" @load="emit('load')" />
         </AdminBlock>
-        <AdminBlock title="Price" is-open>
-          <EventPriceEditor :event="event" @load="emit('load')" />
-        </AdminBlock>
         <AdminBlock title="Tickets" is-open>
           <EventTicketEditor :event="event" @load="emit('load')" />
+        </AdminBlock>
+        <AdminBlock title="External Tickets" is-open>
+          <EventPriceEditor :event="event" @load="emit('load')" />
         </AdminBlock>
       </div>
     </ResizablePanel>
