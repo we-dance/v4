@@ -51,7 +51,6 @@ model User {
   id                   String    @id @default(nanoid())
   email                String    @unique
   stripeAccountId      String?   @default("")
-  stripeConnected      Boolean   @default(false)
   name                 String?   @default("")
   firstName            String?   @default("")
   lastName             String?   @default("")
