@@ -15,9 +15,9 @@ export const ticketPurchasesRouter = router({
     const purchases = await prisma.ticketPurchase.findMany({
       where: {
         userId: ctx.session.user.id,
+        status: 'completed',
       },
       include: {
-        ticket: true,
         event: {
           include: {
             venue: {
