@@ -179,7 +179,6 @@ export const usersRouter = router({
       },
       data: {
         stripeAccountId: account.id,
-        stripeConnected: false,
       },
     })
 
