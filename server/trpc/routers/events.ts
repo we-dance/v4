@@ -459,16 +459,31 @@ export const eventsRouter = router({
 
       const stripe = getStripe(stripeAccountId)
 
-      if (ticket.stripePriceId) {
-        await stripe.prices.update(ticket.stripePriceId, {
-          active: false,
+      const ticketPurchases = await prisma.ticketPurchase.findMany({
+        where: { ticketId },
+      })
+
+      if (ticketPurchases.length > 0) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Ticket has purchases',
         })
       }
 
-      if (ticket.stripeProductId) {
-        await stripe.products.update(ticket.stripeProductId, {
-          active: false,
-        })
+      try {
+        if (ticket.stripePriceId) {
+          await stripe.prices.update(ticket.stripePriceId, {
+            active: false,
+          })
+        }
+
+        if (ticket.stripeProductId) {
+          await stripe.products.update(ticket.stripeProductId, {
+            active: false,
+          })
+        }
+      } catch (error) {
+        console.error(error)
       }
 
       await prisma.ticket.delete({
