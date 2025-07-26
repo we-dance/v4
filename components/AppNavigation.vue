@@ -104,7 +104,7 @@ watch(
                   </NuxtLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem as-child>
-                  <NuxtLink to="/admin/courses">
+                  <NuxtLink to="/admin">
                     <Icon name="lucide:shield" class="mr-2 h-4 w-4" />
                     Admin Area
                   </NuxtLink>
@@ -186,7 +186,7 @@ watch(
               Settings
             </NuxtLink>
             <NuxtLink
-              to="/admin/courses"
+              to="/admin"
               class="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-all text-muted-foreground hover:text-accent hover:bg-accent/10"
             >
               <Icon name="lucide:shield" class="h-5 w-5" />
