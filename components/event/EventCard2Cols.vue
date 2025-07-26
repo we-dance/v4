@@ -41,11 +41,11 @@ const props = withDefaults(
       </div>
       <div class="flex items-center gap-1 text-foreground/50">
         <Avatar :profile="event.organizer" class="w-4 h-4 rounded-full" />
-        <span>By {{ event.organizer.name }}</span>
+        <span>By {{ event.organizer?.name }}</span>
       </div>
       <div class="flex items-center gap-1 text-foreground/50">
         <Icon name="heroicons:map-pin" class="h-4 w-4" />
-        <span class="truncate">{{ event.venue.name }}</span>
+        <span class="truncate">{{ event.venue?.name }}</span>
       </div>
       <div v-if="event.price">
         <span
