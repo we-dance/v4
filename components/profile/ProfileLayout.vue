@@ -11,8 +11,13 @@ const props = defineProps<{
 
 const navigation = [
   {
-    label: 'Feed',
+    label: 'Schedule',
     to: `/@${props.profile.username}#content`,
+    icon: 'ph:calendar',
+  },
+  {
+    label: 'Feed',
+    to: `/@${props.profile.username}/feed#content`,
     icon: 'ph:newspaper',
   },
   {
