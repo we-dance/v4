@@ -24,6 +24,19 @@ const connectStripe = async () => {
     window.location.href = url
   })
 }
+
+const disconnectStripe = async () => {
+  const promise = $client.users.disconnectStripe.mutate()
+
+  toast.promise(promise, {
+    loading: 'Disconnecting Stripe...',
+    success: 'Stripe disconnected',
+  })
+
+  promise.then(() => {
+    window.location.reload()
+  })
+}
 </script>
 
 <template>
@@ -45,10 +58,16 @@ const connectStripe = async () => {
         <div
           class="flex flex-row items-center justify-between rounded-lg border p-4"
         >
-          <div class="space-y-0.5">
+          <div class="space-y-2">
             <div class="text-base">Stripe</div>
             <div class="text-sm text-muted-foreground">
               Connect your Stripe account to manage your payments.
+            </div>
+            <div v-if="stripeConnected">
+              <Button @click="disconnectStripe()"> Disconnect </Button>
+            </div>
+            <div v-else>
+              <Button @click="connectStripe()">Connect</Button>
             </div>
           </div>
           <div class="flex items-center">
@@ -58,7 +77,6 @@ const connectStripe = async () => {
                 class="h-8 w-8 text-green-500"
               />
             </div>
-            <Button v-else @click="connectStripe()">Connect</Button>
           </div>
         </div>
       </div>
