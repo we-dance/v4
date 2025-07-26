@@ -125,7 +125,7 @@ export const eventsRouter = router({
           ? {
               where: {
                 userId: ctx.session.user.id,
-                // status: 'completed',
+                status: 'completed',
               },
               include: {
                 ticket: true,
