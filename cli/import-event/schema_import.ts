@@ -12,6 +12,7 @@ import {
 } from '../utils/linguist'
 import { getSlug } from '../../utils/slug'
 import { PrismaClient } from '@prisma/client'
+import VenueAreaCard from '~/components/VenueAreaCard.vue'
 
 const prisma = new PrismaClient()
 
@@ -88,6 +89,32 @@ async function getOrg(
     name: newProfile.name,
     photo: newProfile.photo || undefined,
   }
+}
+
+async function getVenue(venueData: any, place: any): Promise<string | null> {
+  if (!venueData?.place_id) {
+    return null
+  }
+
+  const existingVenue = await prisma.profile.findFirst({
+    where: { placeId: venueData.place_id },
+  })
+  if (existingVenue) {
+    return existingVenue.id
+  }
+
+  const newVenue = await prisma.profile.create({
+    data: {
+      name: venueData.name,
+      username: getSlug(venueData.name || null),
+      type: 'Venue',
+      placeId: venueData.place_id,
+      claimed: false,
+      visibility: 'Public',
+      cityId: place?.id || null,
+    },
+  })
+  return newVenue.id
 }
 
 async function getEvent(url: string) {
@@ -215,6 +242,7 @@ export async function getSchemaEvent(url: string) {
 
   const styleHashtags = styles ? Object.keys(styles) : []
   const offer = event.offers?.find((o: any) => o.price) || null
+  const venueProfileId = await getVenue(venue, place)
 
   return {
     name: event.name,
@@ -233,7 +261,7 @@ export async function getSchemaEvent(url: string) {
       Array.isArray(event.url) ? event.url[0] : event.url || ''
     ),
     organizerId: org?.id || null,
-    venueId: venue?.id || null,
+    venueId: venueProfileId,
     status: 'draft',
     styles: {
       connect: styleHashtags.map((hashtag) => ({
