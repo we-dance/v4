@@ -66,6 +66,32 @@ async function getOrg(host: any, place: any): Promise<string | null> {
   return null
 }
 
+async function getVenue(venueData: any, place: any): Promise<string | null> {
+  if (!venueData?.place_id) {
+    return null
+  }
+
+  const existingVenue = await prisma.profile.findFirst({
+    where: { placeId: venueData.place_id },
+  })
+  if (existingVenue) {
+    return existingVenue.id
+  }
+
+  const newVenue = await prisma.profile.create({
+    data: {
+      name: venueData.name,
+      username: getSlug(venueData.name || null),
+      type: 'Venue',
+      placeId: venueData.place_id,
+      claimed: false,
+      visibility: 'Public',
+      cityId: place?.id || null,
+    },
+  })
+  return newVenue.id
+}
+
 export function getParameterByName(name: string, url: string) {
   const $name = name.replace(/[\[\]]/g, '\\$&')
   const regex = new RegExp('[?&]' + $name + '(=([^&#]*)|&|#|$)')
@@ -142,8 +168,9 @@ export async function getFacebookEvent(url: string) {
   }
 
   const organizerId = await getOrg(event.hosts[0], place)
+  const venueProfileId = await getVenue(venue, place)
 
-  if (!venue && organizerId && event.hosts[0]?.name) {
+  if (!venue && event.hosts[0]?.name) {
     venue = await getPlace(event.hosts[0].name, 'de')
   }
 
@@ -173,7 +200,7 @@ export async function getFacebookEvent(url: string) {
     sourceUrl: url,
     ticketUrl: event.ticketUrl || '',
     organizerId: organizerId,
-    venueId: venue?.id || null,
+    venueId: venueProfileId,
     status: 'draft',
     styles: {
       connect: styleHashtags.map((hashtag) => ({
