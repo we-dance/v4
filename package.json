@@ -17,7 +17,6 @@
     "prisma": "prisma"
   },
   "dependencies": {
-    "@googlemaps/google-maps-services-js": "^3.4.2",
     "@hebilicious/vue-query-nuxt": "^0.3.0",
     "@internationalized/date": "^3.7.0",
     "@mux/mux-node": "^11.1.0",

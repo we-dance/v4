@@ -27,9 +27,11 @@
     "yaml": "^2.2.1"
   },
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.4.2",
     "@prisma/client": "^5.14.0",
     "axios": "^1.9.0",
     "cheerio": "^1.0.0",
+    "cloudinary": "^2.6.1",
     "country-code-lookup": "^0.1.3",
     "lodash": "^4.17.21",
     "tsx": "^4.20.3",
