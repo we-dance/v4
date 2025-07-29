@@ -14,6 +14,8 @@ import { logger } from './utils/logger'
 import * as cliProgress from 'cli-progress'
 import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
+import { fetchEvent } from './import-event/index'
+import { PrismaClient } from '@prisma/client'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
@@ -59,6 +61,41 @@ program.command('test').action(async (name) => {
 program.command('reindex').action(async (name) => {
   const result = await reindex()
   console.log(result)
+})
+
+program.command('event:import:debug <url>').action(async (sourceUrl) => {
+  console.log('Scraping event data from:', sourceUrl)
+
+  try {
+    const eventData = await fetchEvent(sourceUrl)
+    console.log('--------Scraped Data----------')
+    console.log(JSON.stringify(eventData, null, 2))
+    console.log('-------End Of Data----------')
+  } catch (error) {
+    console.error('error occured during scrape', error)
+    process.exit(1)
+  }
+})
+
+program.command('event:import <id>').action(async (eventId) => {
+  const prisma = new PrismaClient()
+  const event = await prisma.event.findUnique({
+    where: { id: eventId },
+    select: { sourceUrl: true },
+  })
+
+  if (!event || !event.sourceUrl) {
+    throw new Error('Event not found or has no sourceUrl')
+  }
+  console.log('Found event to be updated in database')
+
+  const scrappedData = await fetchEvent(event.sourceUrl)
+
+  await prisma.event.update({
+    where: { id: eventId },
+    data: scrappedData,
+  })
+  console.log('Scrape was successful', eventId)
 })
 
 program

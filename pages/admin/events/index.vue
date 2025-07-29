@@ -20,19 +20,18 @@ const { data, refetch, isLoading, isError, error } = useQuery<any>({
 
 const events = computed(() => data.value?.events ?? [])
 
-const dialog = useDialog()
-const handleCreateEvent = () => {
-  dialog.open({
-    component: 'EventCreateDialog',
-    props: {
-      onSuccess: () => refetch(),
-    },
-  })
-}
-
 const columns: ColumnDef<any>[] = [
   {
-    header: 'Date',
+    header: 'Created At',
+    accessorKey: 'createdAt',
+    cell: ({ row }) => {
+      const event = row.original
+      if (!event?.createdAt) return ''
+      return getDateTime(event?.createdAt)
+    },
+  },
+  {
+    header: 'Start Date',
     accessorKey: 'startDate',
     cell: ({ row }) => {
       const event = row.original
@@ -103,7 +102,9 @@ const columns: ColumnDef<any>[] = [
   <div v-else class="container py-6 space-y-6">
     <div class="flex items-center gap-2">
       <Input v-model="searchQuery" placeholder="Search events..." />
-      <Button @click="handleCreateEvent"> Create Event </Button>
+      <Button as-child>
+        <NuxtLink to="/admin/events/import">Create Event</NuxtLink>
+      </Button>
     </div>
     <AdminTable :data="events" :columns="columns" />
   </div>

@@ -5,6 +5,7 @@ import { prisma } from '~/server/prisma'
 import { nanoid } from 'nanoid'
 import { getSlug } from '~/utils/slug'
 import { getStripe, createOrUpdateStripeProduct } from '~/server/utils/stripe'
+import { tasks } from '@trigger.dev/sdk/v3'
 
 export const eventsRouter = router({
   getAll: publicProcedure
@@ -65,21 +66,34 @@ export const eventsRouter = router({
     .query(async ({ ctx, input }) => {
       const events = await prisma.event.findMany({
         where: {
-          organizerId: ctx.session?.user.id,
-          OR: [
+          AND: [
             {
-              name: {
-                contains: input.query,
-                mode: 'insensitive',
-              },
+              OR: [
+                { organizerId: ctx.session?.profile?.id },
+                { creatorId: ctx.session?.profile?.id },
+              ],
             },
             {
-              description: {
-                contains: input.query,
-                mode: 'insensitive',
-              },
+              OR: [
+                {
+                  name: {
+                    contains: input.query,
+                    mode: 'insensitive',
+                  },
+                },
+                {
+                  description: {
+                    contains: input.query,
+                    mode: 'insensitive',
+                  },
+                },
+              ],
             },
           ],
+        },
+        take: 10,
+        orderBy: {
+          createdAt: 'desc',
         },
         include: {
           venue: {
@@ -120,18 +134,6 @@ export const eventsRouter = router({
             profile: true,
           },
         },
-        tickets: true,
-        ticketPurchases: ctx.session?.user?.id
-          ? {
-              where: {
-                userId: ctx.session.user.id,
-                // status: 'completed',
-              },
-              include: {
-                ticket: true,
-              },
-            }
-          : undefined,
       },
     })
 
@@ -226,6 +228,7 @@ export const eventsRouter = router({
         status: z.string().optional(),
         startDate: z.string().optional(),
         endDate: z.string().optional(),
+        type: z.string().optional(),
         venue: z
           .object({
             id: z.string().optional(),
@@ -275,6 +278,7 @@ export const eventsRouter = router({
       })
       return event
     }),
+
   delete: publicProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
@@ -486,5 +490,28 @@ export const eventsRouter = router({
       })
 
       return guest
+    }),
+  import: publicProcedure
+    .input(
+      z.object({
+        sourceUrl: z.string().url(),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { sourceUrl } = input
+
+      // a placeholder row until scraping is done
+      const event = await prisma.event.create({
+        data: {
+          status: 'import_event',
+          sourceUrl,
+          creatorId: ctx.session?.profile?.id,
+          shortId: nanoid(5),
+        },
+      })
+      await tasks.trigger('import-event', {
+        eventId: event.id,
+      })
+      return { eventId: event.id }
     }),
 })
