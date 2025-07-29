@@ -10,9 +10,8 @@ import {
   isFacebookEvent,
   getSuggestedStyles,
 } from '../utils/linguist'
-import { getSlug } from '../../utils/slug'
+import { getSlug } from '../utils/slug'
 import { PrismaClient } from '@prisma/client'
-import VenueAreaCard from '~/components/VenueAreaCard.vue'
 
 const prisma = new PrismaClient()
 
