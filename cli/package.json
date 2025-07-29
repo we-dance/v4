@@ -2,8 +2,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "cli": "ts-node ./cli.ts",
-    "cli-tsx": "tsx ./cli.ts",
+    "cli": "tsx ./cli.ts",
     "prisma": "prisma generate"
   },
   "devDependencies": {
