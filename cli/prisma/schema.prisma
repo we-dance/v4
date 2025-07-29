@@ -197,6 +197,8 @@ model Profile {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  calendars Calendar[] @relation("calendar_owner")
+
   @@map("Profile")
 }
 
@@ -578,4 +580,38 @@ model EmailSent {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+
+model Calendar {
+  id   String @id @default(nanoid())
+  url  String
+  name String @default("")
+
+  profileId String
+  profile   Profile @relation("calendar_owner", fields: [profileId], references: [id])
+
+  state        String    @default("pending") // pending, processing, processed, failed
+  lastSyncedAt DateTime?
+
+  events CalendarEvent[] @relation("calendar_events")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model CalendarEvent {
+  id         String   @id @default(nanoid())
+  calendarId String
+  calendar   Calendar @relation("calendar_events", fields: [calendarId], references: [id])
+
+  providerItemId String //original iCal uid
+  name           String
+  description    String   @default("")
+  startDate      DateTime
+  endDate        DateTime
+  sourceUrl      String?
+  approved       Boolean  @default(false)
+
+  @@index([startDate])
+  @@index([calendarId, startDate])
 }
