@@ -5,10 +5,27 @@ import { addCity } from '~/server/utils/city'
 
 export const citiesRouter = router({
   popular: publicProcedure.query(async ({ ctx }) => {
+    // First, get the top cities by member count
     const cities = await prisma.city.findMany({
-      include: {
-        profiles: {
+      orderBy: {
+        membersCount: 'desc',
+      },
+      take: 3,
+      select: {
+        id: true,
+        name: true,
+        slug: true,
+        description: true,
+        membersCount: true,
+      },
+    })
+
+    // Then, for each city, get one representative profile photo
+    const citiesWithProfiles = await Promise.all(
+      cities.map(async (city) => {
+        const profile = await prisma.profile.findFirst({
           where: {
+            cityId: city.id,
             photo: {
               startsWith: 'https://',
             },
@@ -16,18 +33,22 @@ export const citiesRouter = router({
               not: null,
             },
           },
-          take: 1,
+          select: {
+            photo: true,
+          },
           orderBy: {
             createdAt: 'desc',
           },
-        },
-      },
-      orderBy: {
-        membersCount: 'desc',
-      },
-      take: 3,
-    })
-    return cities
+        })
+
+        return {
+          ...city,
+          profiles: profile ? [profile] : [],
+        }
+      })
+    )
+
+    return citiesWithProfiles
   }),
   bySlug: publicProcedure.input(z.string()).query(async ({ ctx, input }) => {
     const city = await prisma.city.findUnique({

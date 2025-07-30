@@ -1,5 +1,6 @@
 import { prisma } from '~/server/prisma'
 import { getStripe } from '~/server/utils/stripe'
+import { sendTicketPurchaseConfirmationEmail } from '~/server/utils/ticket'
 
 export default eventHandler(async (event) => {
   const body = await readRawBody(event, false)
@@ -37,6 +38,82 @@ export default eventHandler(async (event) => {
     case 'checkout.session.completed':
       const checkoutSession = stripeEvent.data.object
 
+      // Handle ticket purchases
+      if (checkoutSession.metadata.ticketPurchaseId) {
+        const ticketPurchase = await prisma.ticketPurchase.findUnique({
+          where: {
+            id: checkoutSession.metadata.ticketPurchaseId,
+          },
+          include: {
+            event: {
+              include: {
+                venue: true,
+                organizer: true,
+              },
+            },
+            ticket: true,
+            user: {
+              include: {
+                profile: true,
+              },
+            },
+          },
+        })
+
+        if (!ticketPurchase) {
+          return { error: 'Ticket purchase not found' }
+        }
+
+        await prisma.ticketPurchase.update({
+          where: { id: ticketPurchase.id },
+          data: {
+            status: 'completed',
+            stripeCheckoutSessionId: checkoutSession.id,
+            stripePaymentIntentId: checkoutSession.payment_intent,
+          },
+        })
+
+        // Auto-create Guest record for the purchaser and link to purchase
+        if (ticketPurchase.user.profile) {
+          const guest = await prisma.guest.upsert({
+            where: {
+              profileId_eventId: {
+                profileId: ticketPurchase.user.profile.id,
+                eventId: ticketPurchase.eventId,
+              },
+            },
+            update: {
+              status: 'registered',
+              registeredAt: new Date(),
+            },
+            create: {
+              profileId: ticketPurchase.user.profile.id,
+              eventId: ticketPurchase.eventId,
+              role: 'attendee',
+              status: 'registered',
+              registeredAt: new Date(),
+            },
+          })
+
+          // Link the ticket purchase to the guest record
+          await prisma.ticketPurchase.update({
+            where: { id: ticketPurchase.id },
+            data: { guestId: guest.id },
+          })
+        }
+
+        // Send ticket purchase confirmation email
+        try {
+          await sendTicketPurchaseConfirmationEmail(ticketPurchase)
+        } catch (emailError) {
+          console.error('Failed to send ticket confirmation email:', emailError)
+          // Don't fail the webhook if email sending fails
+        }
+
+        return { received: true }
+      }
+
+      // Handle course subscriptions
       if (!checkoutSession.metadata.subscriptionId) {
         return { error: 'Subscription ID not found' }
       }

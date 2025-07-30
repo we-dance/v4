@@ -1,0 +1,308 @@
+<mjml>
+  <mj-head>
+    <mj-title>Ticket Purchase Confirmation - {{eventName}}</mj-title>
+    <mj-preview>Your ticket for {{eventName}} has been confirmed!</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F8F8" width="600px">
+    <mj-section background-color="#ffffff" padding="50px 40px 20px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="32px"
+          line-height="40px"
+          align="center"
+          padding-bottom="20px"
+        >
+          Ticket Confirmed!
+        </mj-text>
+        {{#if name}}
+        <mj-text
+          color="#737373"
+          font-size="18px"
+          line-height="28px"
+          align="center"
+          padding-bottom="10px"
+        >
+          Hi {{name}},
+        </mj-text>
+        {{/if}}
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+        >
+          Your ticket purchase has been confirmed! We're excited to see you at
+          the event.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Success Icon -->
+    <mj-section background-color="#ffffff" padding="20px 40px 30px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#22c55e"
+          font-size="48px"
+          line-height="48px"
+          align="center"
+          padding-bottom="20px"
+        >
+          ✅
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details -->
+    <mj-section background-color="#ffffff" padding="20px 40px 30px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="24px"
+          line-height="32px"
+          align="center"
+          padding-bottom="30px"
+        >
+          {{eventName}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Info Grid -->
+    <mj-section background-color="#ffffff" padding="0px 40px 40px 40px">
+      <mj-column width="50%">
+        <mj-text
+          color="#1f1f1f"
+          font-size="16px"
+          font-weight="600"
+          line-height="24px"
+          padding-bottom="10px"
+        >
+          📅 When
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          padding-bottom="5px"
+        >
+          {{eventDate}}
+        </mj-text>
+        {{#if eventTime}}
+        <mj-text color="#737373" font-size="14px" line-height="20px">
+          {{eventTime}}
+        </mj-text>
+        {{/if}}
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text
+          color="#1f1f1f"
+          font-size="16px"
+          font-weight="600"
+          line-height="24px"
+          padding-bottom="10px"
+        >
+          📍 Where
+        </mj-text>
+        {{#if venueName}}
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          padding-bottom="5px"
+        >
+          {{venueName}}
+        </mj-text>
+        {{/if}} {{#if venueAddress}}
+        <mj-text color="#737373" font-size="14px" line-height="20px">
+          {{venueAddress}}
+        </mj-text>
+        {{/if}}
+      </mj-column>
+    </mj-section>
+
+    <!-- Ticket Details -->
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-divider
+          border-color="#E4E4E7"
+          border-width="1px"
+          padding="20px 0px"
+        />
+        <mj-text
+          color="#1f1f1f"
+          font-size="18px"
+          font-weight="600"
+          line-height="24px"
+          align="center"
+          padding-bottom="20px"
+        >
+          Your Ticket Details
+        </mj-text>
+
+        <!-- Ticket Info Table -->
+        <mj-table>
+          <tr style="border-bottom: 1px solid #e4e4e7; text-align: left">
+            <td style="padding: 10px 0; font-weight: 600">Ticket Type:</td>
+            <td style="padding: 10px 0">{{ticketName}}</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e4e4e7; text-align: left">
+            <td style="padding: 10px 0; font-weight: 600">Quantity:</td>
+            <td style="padding: 10px 0">{{quantity}}</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e4e4e7; text-align: left">
+            <td style="padding: 10px 0; font-weight: 600">Total Paid:</td>
+            <td style="padding: 10px 0; font-weight: 600; color: #22c55e">
+              {{totalAmount}}
+            </td>
+          </tr>
+          {{#if ticketItems}}
+          <tr style="text-align: left">
+            <td style="padding: 10px 0; font-weight: 600; vertical-align: top">
+              Includes:
+            </td>
+            <td style="padding: 10px 0">
+              <div style="font-size: 14px; line-height: 20px">
+                {{ticketItems}}
+              </div>
+            </td>
+          </tr>
+          {{/if}}
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Button -->
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-button
+          background-color="#1f1f1f"
+          color="#ffffff"
+          font-size="16px"
+          font-weight="600"
+          border-radius="8px"
+          padding="12px 24px"
+          href="{{eventUrl}}"
+        >
+          View Event Details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Important Info -->
+    <mj-section background-color="#f8f9fa" padding="30px 40px 30px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-size="16px"
+          font-weight="600"
+          line-height="24px"
+          align="center"
+          padding-bottom="15px"
+        >
+          Important Information
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="22px"
+          align="center"
+        >
+          Please save this email as your ticket confirmation. You may need to
+          show this at the event entrance.
+        </mj-text>
+        {{#if organizerContact}}
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="22px"
+          align="center"
+          padding-top="10px"
+        >
+          Questions? Contact the organizer: {{organizerContact}}
+        </mj-text>
+        {{/if}}
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="40px 40px 50px 40px">
+      <mj-column width="100%">
+        <mj-divider
+          border-color="#E4E4E7"
+          border-width="1px"
+          padding="0px 0px 30px 0px"
+        />
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="22px"
+          align="center"
+        >
+          Thank you for using WeDance to discover amazing dance events!
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="12px"
+          line-height="18px"
+          align="center"
+          padding-top="20px"
+        >
+          © 2025 WeDance. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Event",
+          "name": "{{eventName}}",
+          "startDate": "{{eventStartDateTime}}",
+          {{#if eventEndDateTime}}
+          "endDate": "{{eventEndDateTime}}",
+          {{/if}}
+          "location": {
+            "@type": "Place",
+            {{#if venueName}}
+            "name": "{{venueName}}",
+            {{/if}}
+            {{#if venueAddress}}
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "{{venueAddress}}"
+            }
+            {{/if}}
+          },
+          "description": "{{eventDescription}}",
+          "url": "{{eventUrl}}",
+          "image": "{{eventImageUrl}}",
+          "organizer": {
+            "@type": "Organization",
+            "name": "{{organizerName}}",
+            "url": "{{organizerUrl}}"
+          },
+          "offers": {
+            "@type": "Offer",
+            "name": "{{ticketName}}",
+            "price": "{{ticketPrice}}",
+            "priceCurrency": "{{ticketCurrency}}"
+          }
+        }
+      </script>
+    </mj-raw>
+  </mj-body>
+</mjml>

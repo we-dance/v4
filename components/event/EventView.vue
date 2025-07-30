@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { getDateTime } from '~/utils'
+import { toast } from 'vue-sonner'
+const { isLoggedIn, session } = useAppAuth()
 
 const props = defineProps({
   event: {
@@ -12,22 +14,73 @@ const props = defineProps({
 const { $client } = useNuxtApp()
 const queryClient = useQueryClient()
 
+const router = useRouter()
+const route = useRoute()
+
 const rsvp = async (status: 'registered' | 'interested' | 'cancelled') => {
-  await $client.events.rsvp.mutate({
+  if (!isLoggedIn.value) {
+    router.push(`/login?redirect=${window.location.pathname}?rsvp=${status}`)
+    return
+  }
+
+  const promise = $client.events.rsvp.mutate({
     eventId: props.event.id,
     status,
   })
-  await queryClient.invalidateQueries({
-    queryKey: ['events.byId', props.event.id],
+  toast.promise(promise, {
+    loading: 'Updating RSVP status...',
+    success: 'RSVP status updated',
+    error: (error: any) => error.message || 'Failed to update RSVP status',
+  })
+  promise.then(() => {
+    queryClient.invalidateQueries({
+      queryKey: ['events.byId', props.event.id],
+    })
   })
 }
 
-const { session } = useAppAuth()
+onMounted(async () => {
+  if (route.query.rsvp) {
+    await rsvp(route.query.rsvp as 'registered' | 'interested' | 'cancelled')
+    router.replace({
+      query: {
+        ...route.query,
+        rsvp: undefined,
+      },
+    })
+  }
+})
+
 const rsvpStatus = computed(() => {
   return props.event.guests?.find(
-    (guest) => guest.profileId === session.value?.profile?.id
+    (guest: any) => guest.profileId === session.value?.profile?.id
   )?.status
 })
+
+const isCheckedIn = computed(() => {
+  const guest = props.event.guests?.find(
+    (guest: any) => guest.profileId === session.value?.profile?.id
+  )
+  return !!guest?.checkedInAt
+})
+
+// Check if user has purchased tickets for this event
+const userTicketPurchases = computed(() => {
+  return props.event.ticketPurchases || []
+})
+
+const hasTickets = computed(() => userTicketPurchases.value.length > 0)
+
+const dialog = useDialog()
+
+const handleBuyTickets = () => {
+  dialog.open({
+    component: 'EventTicketPurchaseDialog',
+    props: {
+      event: props.event,
+    },
+  })
+}
 
 const navigation = computed(() => [
   {
@@ -59,10 +112,10 @@ const navigation = computed(() => [
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <!-- Left: Content -->
               <div class="text-center md:text-left text-muted-foreground">
-                <div class="flex items-center gap-2 mb-4">
+                <div class="flex justify-center md:justify-start gap-2 mb-4">
                   <Badge>{{ event.type }}</Badge>
                   <DateRange :start="event.startDate" :end="event.endDate" />
-                  <div v-if="event.venue" class="font-bold">
+                  <div v-if="event.venue?.city" class="font-bold">
                     {{ event.venue.city.name }},
                     {{ event.venue.city.country.name }}
                   </div>
@@ -94,54 +147,92 @@ const navigation = computed(() => [
                   class="mb-8 flex flex-col gap-4 items-center md:items-start"
                 >
                   <GuestsCount :event="event" />
-                  <div>
-                    Let others know if you're planning to attend this event
+                  <!-- Show special status for checked-in users -->
+                  <div v-if="isCheckedIn" class="space-y-2">
+                    <div
+                      class="flex justify-center md:justify-start gap-2 text-green-600"
+                    >
+                      <Icon name="ph:check-circle-fill" class="w-5 h-5" />
+                      <span class="font-medium">You're checked in!</span>
+                    </div>
+                    <div class="text-sm text-muted-foreground">
+                      Welcome to the event! Have a great time.
+                    </div>
                   </div>
-                  <div class="flex justify-center md:justify-start gap-2">
-                    <Button
-                      variant="secondary"
-                      :color="
-                        rsvpStatus === 'registered' ? 'success' : 'default'
-                      "
-                      @click="rsvp('registered')"
-                    >
-                      Going
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      :color="
-                        rsvpStatus === 'interested' ? 'warning' : 'default'
-                      "
-                      @click="rsvp('interested')"
-                    >
-                      Maybe
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      :color="
-                        rsvpStatus === 'cancelled' ? 'destructive' : 'default'
-                      "
-                      @click="rsvp('cancelled')"
-                    >
-                      Can't go
-                    </Button>
+
+                  <!-- Regular RSVP for non-checked-in users -->
+                  <template v-else>
+                    <div>
+                      Let others know if you're planning to attend this event
+                    </div>
+                    <div class="flex justify-center md:justify-start gap-2">
+                      <Button
+                        variant="secondary"
+                        :color="
+                          rsvpStatus === 'registered' ? 'success' : 'default'
+                        "
+                        @click="rsvp('registered')"
+                      >
+                        Going
+                      </Button>
+                      <Button
+                        variant="secondary"
+                        :color="
+                          rsvpStatus === 'interested' ? 'warning' : 'default'
+                        "
+                        @click="rsvp('interested')"
+                      >
+                        Maybe
+                      </Button>
+                      <Button
+                        variant="secondary"
+                        :color="
+                          rsvpStatus === 'cancelled' ? 'destructive' : 'default'
+                        "
+                        @click="rsvp('cancelled')"
+                      >
+                        Can't go
+                      </Button>
+                    </div>
+                  </template>
+                  <!-- Show ticket status if user has purchased tickets -->
+                  <div v-if="hasTickets" class="space-y-2">
+                    <div class="flex items-center gap-2 text-green-600">
+                      <Icon name="ph:check-circle" class="w-5 h-5" />
+                      <span class="font-medium">You have tickets!</span>
+                    </div>
+                    <div class="text-sm text-muted-foreground">
+                      <div
+                        v-for="purchase in userTicketPurchases"
+                        :key="purchase.id"
+                      >
+                        {{ purchase.quantity }} x {{ purchase.ticket.name }}
+                      </div>
+                    </div>
                   </div>
-                  <Button v-if="event.link" size="lg"
-                    ><Icon name="ph:shopping-cart" />Buy Tickets</Button
+
+                  <!-- Show buy button if no tickets purchased -->
+                  <Button
+                    v-else-if="event.tickets?.length"
+                    size="lg"
+                    @click="handleBuyTickets"
                   >
+                    <Icon name="ph:shopping-cart" />Buy Ticket
+                  </Button>
+                  <Button v-else-if="event.ticketUrl" size="lg" as-child>
+                    <a :href="event.ticketUrl" target="_blank"
+                      ><Icon name="ph:shopping-cart" />Buy Ticket</a
+                    >
+                  </Button>
                 </div>
               </div>
 
               <!-- Right: Image -->
               <div
                 v-if="event.cover"
-                class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl"
+                class="relative rounded-xl overflow-hidden shadow-xl"
               >
-                <img
-                  :src="event.cover"
-                  :alt="event.name"
-                  class="w-full h-full object-cover"
-                />
+                <img :src="event.cover" :alt="event.name" class="w-full" />
               </div>
             </div>
           </div>

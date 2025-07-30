@@ -2,8 +2,6 @@ import Mailgun from 'mailgun.js'
 import FormData from 'form-data'
 import Handlebars from 'handlebars'
 import mjml2html from 'mjml'
-import { readFile } from 'fs/promises'
-import path from 'path'
 import { prisma } from '~/server/prisma'
 import posthog from '~/server/utils/posthog'
 
@@ -36,6 +34,11 @@ const templates: Record<string, EmailTemplate> = {
     template: 'event-reminder',
     from: 'WeDance <noreply@wedance.vip>',
   },
+  'ticket-purchase-confirmation': {
+    subject: 'Ticket Confirmed: {{eventName}}',
+    template: 'ticket-purchase-confirmation',
+    from: 'WeDance <noreply@wedance.vip>',
+  },
 }
 
 async function compileMjmlTemplate(
@@ -43,16 +46,15 @@ async function compileMjmlTemplate(
   params: Record<string, any>
 ): Promise<string> {
   try {
-    const mjmlContent = await useStorage('assets:emails')
+    const mjmlTemplate = await useStorage('assets:emails')
       .getItemRaw(`${mjmlFile}.mjml`)
       .then((content) => new TextDecoder().decode(content))
 
-    const compiledMjml = Handlebars.compile(mjmlContent, params)
+    const mjmlContent = Handlebars.compile(mjmlTemplate)(params)
 
-    const { html } = mjml2html(compiledMjml)
+    const { html } = mjml2html(mjmlContent)
     return html
   } catch (error) {
-    console.error('Error compiling MJML template:', error)
     throw new Error(`Failed to compile MJML template: ${mjmlFile}`)
   }
 }
@@ -75,7 +77,7 @@ export async function sendEmail(template: string, params: Record<string, any>) {
     throw new Error(`Template '${template}' has no body or mjmlFile defined`)
   }
 
-  const subject = compileTemplate(templateConfig.subject, params)
+  const subject = Handlebars.compile(templateConfig.subject)(params)
 
   const result = await mg.messages.create(useRuntimeConfig().mailgunDomain, {
     from: templateConfig.from,

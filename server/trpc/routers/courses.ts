@@ -4,98 +4,12 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { getSlug } from '~/utils/slug'
 import { nanoid } from 'nanoid'
 import { prisma } from '~/server/prisma'
-import { getStripe } from '~/server/utils/stripe'
-import { SubscriptionDuration, getRecurring } from '~/utils/format'
-import Stripe from 'stripe'
-
-interface StripeIds {
-  stripeProductId: string
-  stripePriceId: string
-}
-
-interface OfferData {
-  name: string
-  price: number
-  currency: string
-  duration: SubscriptionDuration
-  items: string
-  stripeProductId?: string
-  stripePriceId?: string
-}
-
-async function createOrUpdateStripeProduct(
-  stripe: Stripe,
-  newOffer: OfferData,
-  oldOffer?: OfferData
-): Promise<StripeIds> {
-  if (!oldOffer?.stripeProductId) {
-    const stripeProduct = await stripe.products.create({
-      name: newOffer.name,
-      description: newOffer.items ? newOffer.items : undefined,
-    })
-    const stripePrice = await stripe.prices.create({
-      unit_amount: newOffer.price,
-      currency: newOffer.currency,
-      product: stripeProduct.id,
-      recurring: getRecurring(newOffer.duration),
-    })
-
-    return {
-      stripeProductId: stripeProduct.id,
-      stripePriceId: stripePrice.id,
-    }
-  }
-
-  if (!oldOffer.stripePriceId) {
-    const stripePrice = await stripe.prices.create({
-      unit_amount: newOffer.price,
-      currency: newOffer.currency,
-      product: oldOffer.stripeProductId,
-      recurring: getRecurring(newOffer.duration),
-    })
-
-    return {
-      stripeProductId: oldOffer.stripeProductId,
-      stripePriceId: stripePrice.id,
-    }
-  }
-
-  if (newOffer.name !== oldOffer.name || newOffer.items !== oldOffer.items) {
-    await stripe.products.update(oldOffer.stripeProductId, {
-      name: newOffer.name,
-      description: newOffer.items ? newOffer.items : undefined,
-    })
-  }
-
-  if (
-    newOffer.price !== oldOffer.price ||
-    newOffer.currency !== oldOffer.currency ||
-    newOffer.duration !== oldOffer.duration
-  ) {
-    if (oldOffer.stripePriceId) {
-      await stripe.prices.update(oldOffer.stripePriceId, {
-        active: false,
-      })
-    }
-
-    const newStripePrice = await stripe.prices.create({
-      unit_amount: newOffer.price,
-      currency: newOffer.currency,
-      product: oldOffer.stripeProductId,
-      recurring: getRecurring(newOffer.duration),
-    })
-
-    return {
-      stripeProductId: oldOffer.stripeProductId,
-      stripePriceId: newStripePrice.id,
-    }
-  }
-
-  return {
-    stripeProductId: oldOffer.stripeProductId,
-    stripePriceId: oldOffer.stripePriceId,
-  }
-}
+import {
+  createOrUpdateStripeProduct,
+  OfferData,
+  getStripe,
+} from '~/server/utils/stripe'
+import { SubscriptionDuration } from '~/utils/format'
 
 export const coursesRouter = router({
   list: publicProcedure

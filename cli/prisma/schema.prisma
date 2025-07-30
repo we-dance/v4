@@ -66,15 +66,26 @@ model User {
   deletedReason        String?
   notificationSettings Json      @default("{}")
 
-  profile         Profile?       @relation("owned_by")
-  profilesCreated Profile[]      @relation("profile_created_by")
-  accounts        Account[]
-  sessions        Session[]
-  subscriptions   Subscription[]
+  profile             Profile?             @relation("owned_by")
+  profilesCreated     Profile[]            @relation("profile_created_by")
+  accounts            Account[]
+  sessions            Session[]
+  subscriptions       Subscription[]
+  muxVideos           MuxVideo[]
+  passwordResetTokens PasswordResetToken[]
+  emailsSent          EmailSent[]
+  ticketPurchases     TicketPurchase[]
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   lastLoginAt DateTime @default(now())
+}
+
+model PasswordResetToken {
+  token   String   @id
+  userId  String
+  user    User     @relation(fields: [userId], references: [id])
+  expires DateTime
 }
 
 model Country {
@@ -240,31 +251,75 @@ model Post {
 }
 
 model Event {
-  id          String   @id @default(nanoid())
-  shortId     String   @default(nanoid(5))
-  slug        String
-  name        String
-  startDate   DateTime
-  endDate     DateTime
-  type        String   @default("Party")
-  description String   @default("")
-  cover       String   @default("")
-  price       String   @default("")
-  firebaseId  String   @default("")
-  published   Boolean  @default(false)
+  id          String    @id @default(nanoid())
+  shortId     String    @default(nanoid(5))
+  slug        String?
+  name        String?
+  startDate   DateTime?
+  endDate     DateTime?
+  type        String    @default("Party")
+  description String    @default("")
+  cover       String    @default("")
+  price       String    @default("")
+  firebaseId  String    @default("")
+  published   Boolean   @default(false)
+  status      String    @default("draft") // Values: draft, published, archived, cancelled
+  ticketUrl   String?
 
-  styles      DanceStyle[]
-  creatorId   String
-  creator     Profile      @relation("event_created_by", fields: [creatorId], references: [id])
-  organizerId String
-  organizer   Profile      @relation("event_organized_by", fields: [organizerId], references: [id])
-  venueId     String
-  venue       Profile      @relation("event_hosted_by", fields: [venueId], references: [id])
-  posts       Post[]       @relation("post_event")
+  sourceUrl   String?
+  importError String? @db.Text
+
+  styles          DanceStyle[]
+  creatorId       String
+  creator         Profile          @relation("event_created_by", fields: [creatorId], references: [id])
+  organizerId     String?
+  organizer       Profile?         @relation("event_organized_by", fields: [organizerId], references: [id])
+  venueId         String?
+  venue           Profile?         @relation("event_hosted_by", fields: [venueId], references: [id])
+  posts           Post[]           @relation("post_event")
+  tickets         Ticket[]         @relation("event_tickets")
+  guests          Guest[]          @relation("event_guests")
+  ticketPurchases TicketPurchase[] @relation("event_purchases")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  guests    Guest[]  @relation("event_guests")
+}
+
+model Ticket {
+  id              String           @id @default(nanoid())
+  name            String
+  price           Int // Price in cents
+  currency        String           @default("EUR")
+  items           String?
+  stripeProductId String?
+  stripePriceId   String?
+  eventId         String
+  event           Event            @relation("event_tickets", fields: [eventId], references: [id], onDelete: Cascade)
+  purchases       TicketPurchase[] @relation("ticket_purchases")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TicketPurchase {
+  id                      String  @id @default(nanoid())
+  userId                  String
+  user                    User    @relation(fields: [userId], references: [id])
+  ticketId                String
+  ticket                  Ticket  @relation("ticket_purchases", fields: [ticketId], references: [id])
+  eventId                 String
+  event                   Event   @relation("event_purchases", fields: [eventId], references: [id])
+  guestId                 String?
+  guest                   Guest?  @relation(fields: [guestId], references: [id])
+  status                  String  @default("pending") // 'pending', 'completed', 'failed', 'refunded'
+  stripeCheckoutSessionId String?
+  stripePaymentIntentId   String?
+  quantity                Int     @default(1)
+  totalAmount             Int // Total amount paid in cents
+  currency                String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model DanceStyle {
@@ -345,20 +400,22 @@ model Redirect {
 }
 
 model Guest {
-  id        String  @id @default(nanoid())
-  profileId String
-  profile   Profile @relation("guest_profile", fields: [profileId], references: [id])
-  eventId   String
-  event     Event   @relation("event_guests", fields: [eventId], references: [id])
+  id              String           @id @default(nanoid())
+  profileId       String
+  profile         Profile          @relation("guest_profile", fields: [profileId], references: [id])
+  eventId         String
+  event           Event            @relation("event_guests", fields: [eventId], references: [id])
+  ticketPurchases TicketPurchase[]
 
   role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
-  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"
+  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "interested", "declined", "no_show"
 
   invitedAt    DateTime?
   confirmedAt  DateTime?
   cancelledAt  DateTime?
   registeredAt DateTime?
   waitlistedAt DateTime?
+  checkedInAt  DateTime? // When the guest checked in to the event
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -376,6 +433,22 @@ model Video {
   updatedAt   DateTime @updatedAt
   createdBy   Profile? @relation("video_created_by", fields: [createdById], references: [id])
   createdById String?
+}
+
+model MuxVideo {
+  id          String  @id @default(nanoid())
+  userId      String
+  user        User    @relation(fields: [userId], references: [id])
+  uploadId    String?
+  assetId     String?
+  playbackId  String?
+  title       String?
+  status      String?
+  duration    Float?
+  aspectRatio String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model Vote {
@@ -427,9 +500,11 @@ model CourseLesson {
   id       String  @id @default(nanoid())
   name     String
   duration Int
-  videoId  String
+  fileUrl  String?
+  videoId  String?
   locked   Boolean @default(false)
   moduleId String
+  order    Int     @default(0)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -487,4 +562,20 @@ model Subscription {
   canceledAt DateTime?
   createdAt  DateTime  @default(now())
   updatedAt  DateTime  @updatedAt
+}
+
+model EmailSent {
+  id Int @id @default(autoincrement())
+
+  mailgunId String
+  userId    String
+  user      User   @relation(fields: [userId], references: [id])
+  type      String
+  subject   String
+  params    Json
+  status    String
+  events    Json   @default("[]")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

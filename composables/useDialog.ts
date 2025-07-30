@@ -20,6 +20,14 @@ export function useDialog() {
     currentDialog.value = null
   }
 
+  const route = useRoute()
+  watch(
+    () => route.path,
+    () => {
+      close()
+    }
+  )
+
   return {
     isOpen,
     currentDialog,
