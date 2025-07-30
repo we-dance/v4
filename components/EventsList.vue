@@ -1,6 +1,7 @@
 <script setup>
 import { useIntersectionObserver } from '@vueuse/core'
 const { $client } = useNuxtApp()
+const { isLoggedIn } = useAppAuth()
 
 const searchQuery = ref('')
 const city = ref(null)
@@ -91,7 +92,19 @@ const selectDate = (date) => {
       </ToggleGroup>
     </div>
     <Button variant="primary" as-child class="w-full sm:w-auto">
-      <NuxtLink to="/register" class="flex items-center justify-center gap-2">
+      <NuxtLink
+        v-if="isLoggedIn"
+        to="/admin/events/import"
+        class="flex items-center justify-center gap-2"
+      >
+        <Icon name="ph:plus" class="w-5 h-5" />
+        Add Event
+      </NuxtLink>
+      <NuxtLink
+        v-else
+        to="/login?redirect=/admin/events/import"
+        class="flex items-center justify-center gap-2"
+      >
         <Icon name="ph:plus" class="w-5 h-5" />
         Add Event
       </NuxtLink>
