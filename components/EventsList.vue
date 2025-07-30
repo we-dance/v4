@@ -93,16 +93,11 @@ const selectDate = (date) => {
     </div>
     <Button variant="primary" as-child class="w-full sm:w-auto">
       <NuxtLink
-        v-if="isLoggedIn"
-        to="/admin/events/import"
-        class="flex items-center justify-center gap-2"
-      >
-        <Icon name="ph:plus" class="w-5 h-5" />
-        Add Event
-      </NuxtLink>
-      <NuxtLink
-        v-else
-        to="/login?redirect=/admin/events/import"
+        :to="
+          isLoggedIn
+            ? '/admin/events/import'
+            : '/login?redirect=/admin/events/import'
+        "
         class="flex items-center justify-center gap-2"
       >
         <Icon name="ph:plus" class="w-5 h-5" />
