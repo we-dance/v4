@@ -7,11 +7,11 @@ import { syncSingleCalendar } from '~/trigger/calendar-sync'
 
 export const calendarsRouter = router({
   getAll: publicProcedure.query(async ({ ctx }) => {
-    if (!ctx.session?.profile.id) {
+    if (!ctx.session?.profile?.id) {
       throw new TRPCError({ code: 'UNAUTHORIZED' })
     }
     const profile = await prisma.profile.findUnique({
-      where: { userId: ctx.session?.profile.id },
+      where: { userId: ctx.session.profile.id },
     })
 
     return await prisma.calendar.findMany({
@@ -28,7 +28,7 @@ export const calendarsRouter = router({
       })
     )
     .mutation(async ({ ctx, input }) => {
-      if (!ctx.session?.profile.id) {
+      if (!ctx.session?.profile?.id) {
         throw new TRPCError({ code: 'UNAUTHORIZED' })
       }
 
@@ -39,7 +39,7 @@ export const calendarsRouter = router({
       return await prisma.calendar.create({
         data: {
           url: input.url,
-          profileId: profile!.id,
+          profileId: ctx.session.profile.id,
           state: 'pending',
         },
       })
@@ -63,7 +63,7 @@ export const calendarsRouter = router({
       })
     )
     .mutation(async ({ ctx, input }) => {
-      if (!ctx.session?.profile.id) {
+      if (!ctx.session?.profile?.id) {
         throw new TRPCError({ code: 'UNAUTHORIZED' })
       }
       return await prisma.calendar.delete({
