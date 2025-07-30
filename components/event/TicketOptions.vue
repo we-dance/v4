@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import { formatCurrencyCents } from '~/utils/format'
-const props = defineProps<{
-  event: Event
-}>()
+
+const props = defineProps({
+  event: {
+    type: Object,
+    required: true,
+  },
+})
 
 const tickets = computed(() => {
   return props.event.tickets?.sort((a: any, b: any) => a.price - b.price) || []
