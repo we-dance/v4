@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.5",
+    "@types/ical": "^0.8.3",
     "@types/lodash": "^4.17.7",
     "@types/node": "^18.15.11",
     "bun-types": "^1.0.17",

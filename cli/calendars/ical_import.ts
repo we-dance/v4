@@ -114,7 +114,7 @@ export async function syncCalendar(calendarId: string) {
 
     let isNew = false
     const existingEvent = calendar.events.find(
-      (e) => e.providerItemId === vevent.uid
+      (e: any) => e.providerItemId === vevent.uid
     )
 
     if (!existingEvent) {
@@ -168,8 +168,8 @@ export async function syncCalendar(calendarId: string) {
           providerItemId: vevent.uid,
           name: vevent.summary || null,
           description: vevent.description || null,
-          startDate: new Date(vevent.start),
-          endDate: new Date(vevent.end),
+          startDate: vevent.start ? new Date(vevent.start) : new Date(),
+          endDate: vevent.end ? new Date(vevent.end) : new Date(),
           sourceUrl: facebookUrl || vevent.url || null,
           approved: approved,
         },
@@ -179,8 +179,8 @@ export async function syncCalendar(calendarId: string) {
           data: {
             name: vevent.summary,
             description: vevent.description || '',
-            startDate: new Date(vevent.start),
-            endDate: new Date(vevent.end || vevent.start),
+            startDate: vevent.start ? new Date(vevent.start) : new Date(),
+            endDate: vevent.end ? new Date(vevent.end) : new Date(),
             sourceUrl: facebookUrl || vevent.url || '',
             creatorId: calendar.profileId,
             status: 'published',
