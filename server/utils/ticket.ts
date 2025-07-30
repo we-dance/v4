@@ -78,7 +78,7 @@ export async function sendTicketPurchaseConfirmationEmail(
     eventTime: formatTime(ticketPurchase.event.startDate),
     eventUrl: `${appUrl}/events/${ticketPurchase.event.id}`,
     venueName: ticketPurchase.event.venue?.name || '',
-    venueAddress: ticketPurchase.event.venue?.name || '', // You might want to add address field to venue
+    venueAddress: ticketPurchase.event.venue?.address || '', // You might want to add address field to venue
     ticketName: ticketPurchase.ticket.name,
     quantity: ticketPurchase.quantity.toString(),
     totalAmount: formatCurrency(
