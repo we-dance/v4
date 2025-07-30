@@ -47,7 +47,7 @@ watch(
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
             <NuxtLink to="/" id="logo">
-              <WeDanceLogo class="h-10" />
+              <WeDanceLogo class="h-10 text-primary" />
             </NuxtLink>
           </div>
         </div>
