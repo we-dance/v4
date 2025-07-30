@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { profile, events } = await useProfile()
+const { profile, isOwner } = await useProfile()
 const { isCheckInMode } = useCheckInMode()
 </script>
 
@@ -13,7 +13,8 @@ const { isCheckInMode } = useCheckInMode()
   <!-- Regular profile view -->
   <ProfileLayout v-else-if="profile" :profile="profile">
     <div id="content" class="max-w-xl mx-auto">
-      <EventSchedule :events="events" />
+      <PostEditor v-if="isOwner" class="mb-6" />
+      <PostList :author-id="profile.id" pinned-first />
     </div>
   </ProfileLayout>
 

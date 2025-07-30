@@ -8,21 +8,21 @@ const { session } = useAppAuth()
 
 // Create a specific validation schema for social links
 const socialLinksSchema = z.object({
-  couchsurfing: z.string().url().optional().or(z.literal('')),
-  linkedin: z.string().url().optional().or(z.literal('')),
-  airbnb: z.string().url().optional().or(z.literal('')),
-  blablacar: z.string().url().optional().or(z.literal('')),
-  spotify: z.string().url().optional().or(z.literal('')),
-  instagram: z.string().url().optional().or(z.literal('')),
-  facebook: z.string().url().optional().or(z.literal('')),
-  vk: z.string().url().optional().or(z.literal('')),
-  whatsapp: z.string().url().optional().or(z.literal('')),
-  telegram: z.string().url().optional().or(z.literal('')),
-  twitter: z.string().url().optional().or(z.literal('')),
-  tiktok: z.string().url().optional().or(z.literal('')),
-  youtube: z.string().url().optional().or(z.literal('')),
-  threads: z.string().url().optional().or(z.literal('')),
-  website: z.string().url().optional().or(z.literal('')),
+  couchsurfing: z.string().url().optional().nullable(),
+  linkedin: z.string().url().optional().nullable(),
+  airbnb: z.string().url().optional().nullable(),
+  blablacar: z.string().url().optional().nullable(),
+  spotify: z.string().url().optional().nullable(),
+  instagram: z.string().url().optional().nullable(),
+  facebook: z.string().url().optional().nullable(),
+  vk: z.string().url().optional().nullable(),
+  whatsapp: z.string().url().optional().nullable(),
+  telegram: z.string().url().optional().nullable(),
+  twitter: z.string().url().optional().nullable(),
+  tiktok: z.string().url().optional().nullable(),
+  youtube: z.string().url().optional().nullable(),
+  threads: z.string().url().optional().nullable(),
+  website: z.string().url().optional().nullable(),
 })
 
 // Initialize form with existing profile data

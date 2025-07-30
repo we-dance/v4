@@ -15,17 +15,7 @@ const ticket = await $client.checkout.viewTicket.query({ ticketId })
     class="min-h-screen bg-muted py-12 flex items-center justify-center"
   >
     <TicketPaymentForm v-if="isLoggedIn" :ticket="ticket" />
-    <div
-      v-else
-      class="bg-background rounded-xl border p-6 space-y-2 text-center items-center justify-center"
-    >
-      <p>Please login to continue</p>
-      <Button as-child>
-        <NuxtLink :to="`/login?redirect=/checkout/ticket/${ticketId}`"
-          >Login</NuxtLink
-        >
-      </Button>
-    </div>
+    <LoginRedirect v-else :to="`/checkout/ticket/${ticketId}`" />
   </div>
 
   <EmptyState v-else variant="no-results" />

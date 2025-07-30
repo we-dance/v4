@@ -66,10 +66,14 @@ export const useProfile = async () => {
     return result
   })
 
+  const events = computed(() => {
+    return data?.events || []
+  })
+
   // todo: move to backend
   const isOwner = computed(() => {
     return session?.value?.profile?.id === profile?.value?.id
   })
 
-  return { profile, isOwner }
+  return { profile, isOwner, events }
 }

@@ -134,6 +134,18 @@ export const eventsRouter = router({
             profile: true,
           },
         },
+        tickets: true,
+        ticketPurchases: ctx.session?.user?.id
+          ? {
+              where: {
+                userId: ctx.session.user.id,
+                status: 'completed',
+              },
+              include: {
+                ticket: true,
+              },
+            }
+          : undefined,
       },
     })
 
@@ -447,16 +459,31 @@ export const eventsRouter = router({
 
       const stripe = getStripe(stripeAccountId)
 
-      if (ticket.stripePriceId) {
-        await stripe.prices.update(ticket.stripePriceId, {
-          active: false,
+      const ticketPurchases = await prisma.ticketPurchase.findMany({
+        where: { ticketId },
+      })
+
+      if (ticketPurchases.length > 0) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Ticket has purchases',
         })
       }
 
-      if (ticket.stripeProductId) {
-        await stripe.products.update(ticket.stripeProductId, {
-          active: false,
-        })
+      try {
+        if (ticket.stripePriceId) {
+          await stripe.prices.update(ticket.stripePriceId, {
+            active: false,
+          })
+        }
+
+        if (ticket.stripeProductId) {
+          await stripe.products.update(ticket.stripeProductId, {
+            active: false,
+          })
+        }
+      } catch (error) {
+        console.error(error)
       }
 
       await prisma.ticket.delete({
@@ -470,18 +497,14 @@ export const eventsRouter = router({
     .input(
       z.object({
         guestId: z.string(),
-        status: z.enum(['checked_in', 'registered']),
+        checkedIn: z.boolean(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { guestId, status } = input
+      const { guestId, checkedIn } = input
 
-      const updateData: any = { status }
-
-      if (status === 'checked_in') {
-        updateData.confirmedAt = new Date()
-      } else if (status === 'registered') {
-        updateData.confirmedAt = null
+      const updateData: any = {
+        checkedInAt: checkedIn ? new Date() : null,
       }
 
       const guest = await prisma.guest.update({

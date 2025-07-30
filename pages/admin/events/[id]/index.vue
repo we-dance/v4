@@ -43,11 +43,11 @@ watch(
 const checkInMutation = useMutation({
   mutationFn: ({
     guestId,
-    status,
+    checkedIn,
   }: {
     guestId: string
-    status: 'checked_in' | 'registered'
-  }) => $client.events.checkInGuest.mutate({ guestId, status }),
+    checkedIn: boolean
+  }) => $client.events.checkInGuest.mutate({ guestId, checkedIn }),
   onSuccess: () => {
     refetch()
   },
@@ -57,8 +57,7 @@ const checkInMutation = useMutation({
 const guests = computed(() => event.value?.guests || [])
 
 const checkedInCount = computed(
-  () =>
-    guests.value.filter((guest: any) => guest.status === 'checked_in').length
+  () => guests.value.filter((guest: any) => !!guest.checkedInAt).length
 )
 
 const statusFilters = [
@@ -105,21 +104,25 @@ const filteredGuests = computed(() => {
 
   // Filter by status
   if (selectedStatusFilter.value !== 'all') {
-    filtered = filtered.filter(
-      (guest: any) => guest.status === selectedStatusFilter.value
-    )
+    if (selectedStatusFilter.value === 'checked_in') {
+      filtered = filtered.filter((guest: any) => !!guest.checkedInAt)
+    } else {
+      filtered = filtered.filter(
+        (guest: any) => guest.status === selectedStatusFilter.value
+      )
+    }
   }
 
   return filtered
 })
 
 const toggleCheckIn = async (guest: any) => {
-  const newStatus = guest.status === 'checked_in' ? 'registered' : 'checked_in'
+  const isCurrentlyCheckedIn = !!guest.checkedInAt
 
   try {
     await checkInMutation.mutateAsync({
       guestId: guest.id,
-      status: newStatus,
+      checkedIn: !isCurrentlyCheckedIn,
     })
   } catch (error) {
     console.error('Failed to update guest status:', error)
@@ -323,14 +326,17 @@ const clearSearch = () => {
                     <span> ({{ purchase.status }}) </span>
                   </div>
                 </div>
-                <GuestStatus :status="guest.status" />
+                <GuestStatus
+                  :status="guest.status"
+                  :checkedInAt="guest.checkedInAt"
+                />
               </div>
 
               <!-- Action Button -->
               <Button
-                :variant="guest.status === 'checked_in' ? 'outline' : 'primary'"
+                :variant="!!guest.checkedInAt ? 'outline' : 'primary'"
                 :class="
-                  guest.status === 'checked_in'
+                  !!guest.checkedInAt
                     ? 'border-green-200 text-green-700 hover:bg-green-50'
                     : 'bg-green-600 hover:bg-green-700'
                 "
@@ -340,13 +346,13 @@ const clearSearch = () => {
               >
                 <Icon
                   :name="
-                    guest.status === 'checked_in'
+                    !!guest.checkedInAt
                       ? 'lucide:user-check'
                       : 'lucide:user-plus'
                   "
                   class="w-5 h-5 mr-2"
                 />
-                {{ guest.status === 'checked_in' ? 'Checked In' : 'Check In' }}
+                {{ !!guest.checkedInAt ? 'Checked In' : 'Check In' }}
               </Button>
             </div>
           </div>

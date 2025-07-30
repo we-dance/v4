@@ -14,15 +14,12 @@ const interested = computed(() => {
 
 const going = computed(() => {
   return props.event.guests.filter(
-    (guest: any) =>
-      guest.status === 'registered' || guest.status === 'checked_in'
+    (guest: any) => guest.status === 'registered' || !!guest.checkedInAt
   ).length
 })
 
 const checkedIn = computed(() => {
-  return props.event.guests.filter(
-    (guest: any) => guest.status === 'checked_in'
-  ).length
+  return props.event.guests.filter((guest: any) => !!guest.checkedInAt).length
 })
 
 const guests = computed(() => {
@@ -31,7 +28,7 @@ const guests = computed(() => {
       (guest: any) =>
         guest.status === 'registered' ||
         guest.status === 'interested' ||
-        guest.status === 'checked_in'
+        !!guest.checkedInAt
     )
     .slice(0, 5)
 })
