@@ -118,6 +118,8 @@ model City {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@index([membersCount(sort: Desc)])
 }
 
 model Profile {
@@ -197,6 +199,10 @@ model Profile {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  @@index([photo])
+  @@index([userId])
+  @@index([cityId])
+  @@index([createdAt(sort: Desc)])
   @@map("Profile")
 }
 
@@ -210,6 +216,8 @@ model Experience {
   style     DanceStyle @relation("experience_style", fields: [styleId], references: [id])
 
   @@unique([profileId, styleId])
+  @@index([profileId])
+  @@index([styleId])
 }
 
 model Post {
@@ -363,6 +371,8 @@ model DanceStyle {
   experiences Experience[] @relation("experience_style")
   videos      Video[]      @relation("video_style")
   posts       Post[]       @relation("post_style")
+
+  @@index([membersCount(sort: Desc)])
 }
 
 model ProfileFollower {
