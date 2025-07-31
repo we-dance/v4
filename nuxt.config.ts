@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     transpile: ['vee-validate', 'trpc-nuxt'],
   },
 
+  ignore: ['/cli', '/e2e', '/docs'],
+
   vite: {
     server: {
       allowedHosts: true,
