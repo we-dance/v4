@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     clientOptions: {
       persistence: 'memory',
     },
-    disabled: process.env.POSTHOG_DISABLED === 'true',
+    disabled: process.env.NUXT_PUBLIC_POSTHOG_DISABLED === 'true',
   },
 
   modules: [
@@ -124,8 +124,11 @@ export default defineNuxtConfig({
     mailgunHost: '',
     mailgunWebhookKey: '',
     public: {
-      posthogApiHost: '',
-      posthogApiKey: '',
+      posthog: {
+        publicKey: '',
+        host: '',
+      },
+      posthogDisabled: '',
       appUrl: '',
       googleMapsApiKey: '',
       cloudinaryCloudName: '',
