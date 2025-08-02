@@ -56,15 +56,6 @@ const calendarDays = computed(() => {
   }))
 })
 
-// Calendar weeks
-const calendarWeeks = computed(() => {
-  const weeks = []
-  for (let i = 0; i < calendarDays.value.length; i += 7) {
-    weeks.push(calendarDays.value.slice(i, i + 7))
-  }
-  return weeks
-})
-
 // Navigation
 const goToPreviousMonth = () => {
   currentDate.value = new Date(
