@@ -16,48 +16,61 @@ export const eventsRouter = router({
         community: z.number().optional(),
         startDate: z.string().optional().nullable(),
         type: z.string().optional().nullable(),
+        page: z.number().default(0),
+        limit: z.number().default(10),
       })
     )
     .query(async ({ ctx, input }) => {
-      const baseDate = input.startDate ? new Date(input.startDate) : new Date()
-      const startOfDay = new Date(baseDate)
-      startOfDay.setHours(0, 0, 0, 0)
-      const endOfDay = new Date(baseDate)
-      endOfDay.setHours(23, 59, 59, 999)
+      const { page, limit } = input
+      const offset = page * limit
+
+      // If startDate is provided, filter from that date onwards, otherwise show future events
+      const dateFilter = input.startDate
+        ? { gte: new Date(input.startDate) }
+        : { gte: new Date() }
 
       const commonWhere = {
+        startDate: dateFilter,
         venue: { cityId: input.city ?? undefined },
         styles: { some: { id: input.community ?? undefined } },
-        type: input.type === 'all' ? undefined : input.type,
-        OR: [
-          { name: { contains: input.query, mode: 'insensitive' } },
-          { description: { contains: input.query, mode: 'insensitive' } },
-        ],
+        ...(input.type && input.type !== 'all' && { type: input.type }),
+        ...(input.query && {
+          OR: [
+            { name: { contains: input.query, mode: 'insensitive' as const } },
+            {
+              description: {
+                contains: input.query,
+                mode: 'insensitive' as const,
+              },
+            },
+          ],
+        }),
       }
-      const events = await prisma.event.findMany({
-        where: {
-          startDate: { gte: startOfDay, lte: endOfDay },
-          ...commonWhere,
-        },
-        include: {
-          venue: { include: { city: true } },
-          organizer: true,
-        },
-        orderBy: { startDate: 'asc' },
-      })
 
-      const next = await prisma.event.findFirst({
-        where: {
-          startDate: { gt: endOfDay },
-          ...commonWhere,
-        },
-        orderBy: { startDate: 'asc' },
-        select: { startDate: true },
-      })
+      const [events, totalCount] = await Promise.all([
+        prisma.event.findMany({
+          where: commonWhere,
+          include: {
+            venue: { include: { city: true } },
+            organizer: true,
+          },
+          orderBy: { startDate: 'asc' },
+          skip: offset,
+          take: limit,
+        }),
+        prisma.event.count({
+          where: commonWhere,
+        }),
+      ])
+
+      const hasNextPage = offset + limit < totalCount
+      const nextPage = hasNextPage ? page + 1 : null
 
       return {
         events,
-        nextPage: next ? next.startDate.toISOString().slice(0, 10) : null,
+        nextPage,
+        totalCount,
+        hasNextPage,
       }
     }),
 

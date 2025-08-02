@@ -13,15 +13,18 @@ const type = ref('all')
 const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
     queryKey: ['events', searchQuery, city, community, startDate, type],
-    queryFn: ({ pageParam = startDate.value }) =>
+    queryFn: ({ pageParam = 0 }) =>
       $client.events.getAll.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
-        startDate: pageParam,
+        startDate: startDate.value,
         type: type.value,
+        page: pageParam,
+        limit: 10,
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
+    initialPageParam: 0,
   })
 
 const events = computed(
