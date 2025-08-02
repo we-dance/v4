@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     clientOptions: {
       persistence: 'memory',
     },
+    disabled: process.env.POSTHOG_DISABLED === 'true',
   },
 
   modules: [

@@ -1,6 +1,11 @@
 import { PostHog, EventMessage } from 'posthog-node'
 
 export const capture = async (properties: EventMessage) => {
+  const posthogDisabled = process.env.POSTHOG_DISABLED
+  if (posthogDisabled) {
+    return
+  }
+
   const posthogApiKey = useRuntimeConfig().public.posthogApiKey
   if (!posthogApiKey) {
     return
@@ -13,5 +18,3 @@ export const capture = async (properties: EventMessage) => {
   await posthog.capture(properties)
   await posthog.shutdown()
 }
-
-export default posthog

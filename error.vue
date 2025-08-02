@@ -4,6 +4,8 @@ const props = defineProps({
 })
 
 const message = computed(() => {
+  console.error(props.error?.message)
+
   if (props.error?.statusMessage) {
     return props.error.statusMessage
   }
