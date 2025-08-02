@@ -3,7 +3,7 @@ import FormData from 'form-data'
 import Handlebars from 'handlebars'
 import mjml2html from 'mjml'
 import { prisma } from '~/server/prisma'
-import posthog from '~/server/utils/posthog'
+import { capture } from '~/server/utils/posthog'
 
 const mailgun = new Mailgun(FormData)
 const mg = mailgun.client({
@@ -97,7 +97,7 @@ export async function sendEmail(template: string, params: Record<string, any>) {
     },
   })
 
-  posthog.capture({
+  capture({
     distinctId: params.userId,
     event: 'email_sent',
     properties: {
@@ -105,5 +105,4 @@ export async function sendEmail(template: string, params: Record<string, any>) {
       type: template,
     },
   })
-  await posthog.shutdown()
 }

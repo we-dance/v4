@@ -1,7 +1,20 @@
-import { PostHog } from 'posthog-node'
+import { PostHog, EventMessage } from 'posthog-node'
 
-const posthog = new PostHog(useRuntimeConfig().public.posthogApiKey, {
-  host: useRuntimeConfig().public.posthogApiHost,
-})
+export const capture = async (properties: EventMessage) => {
+  const posthogDisabled = useRuntimeConfig().public.posthogDisabled
+  if (posthogDisabled) {
+    return
+  }
 
-export default posthog
+  const publicKey = useRuntimeConfig().public.posthog.publicKey
+  if (!publicKey) {
+    return
+  }
+
+  const posthog = new PostHog(publicKey, {
+    host: useRuntimeConfig().public.posthog.host,
+  })
+
+  await posthog.capture(properties)
+  await posthog.shutdown()
+}

@@ -4,15 +4,15 @@ export const useAppAuth = () => {
   const authQueryLoading = useState<boolean>('auth-query-loading', () => false)
 
   const { signIn, signOut, data: session, status } = useAuth()
+  const { $clientPosthog } = useNuxtApp()
 
   const isLoggedIn = computed(() => status.value === 'authenticated')
 
-  const { $clientPosthog } = useNuxtApp()
   watch(
     session,
     () => {
       if (process.client && session.value) {
-        $clientPosthog.identify(session.value.user.id, {
+        $clientPosthog?.identify(session.value.user.id, {
           username: session.value.profile.username,
           email: session.value.user.email,
         })
