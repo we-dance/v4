@@ -18,16 +18,40 @@ export const eventsRouter = router({
         type: z.string().optional().nullable(),
         page: z.number().default(0),
         limit: z.number().default(10),
+        // Optional month/year for calendar view
+        year: z.number().optional(),
+        month: z.number().optional(), // 0-11 (JavaScript month format)
       })
     )
     .query(async ({ ctx, input }) => {
       const { page, limit } = input
       const offset = page * limit
 
-      // If startDate is provided, filter from that date onwards, otherwise show future events
-      const dateFilter = input.startDate
-        ? { gte: new Date(input.startDate) }
-        : { gte: new Date() }
+      // Determine date filter based on input
+      let dateFilter
+      if (input.year !== undefined && input.month !== undefined) {
+        // Month-based filtering for calendar view
+        const startOfMonth = new Date(input.year, input.month, 1)
+        const endOfMonth = new Date(
+          input.year,
+          input.month + 1,
+          0,
+          23,
+          59,
+          59,
+          999
+        )
+        dateFilter = {
+          gte: startOfMonth,
+          lte: endOfMonth,
+        }
+      } else if (input.startDate) {
+        // Date-based filtering for list view
+        dateFilter = { gte: new Date(input.startDate) }
+      } else {
+        // Default: show future events
+        dateFilter = { gte: new Date() }
+      }
 
       const commonWhere = {
         startDate: dateFilter,
@@ -47,6 +71,9 @@ export const eventsRouter = router({
         }),
       }
 
+      // For month-based queries, skip pagination and return all events
+      const isMonthQuery = input.year !== undefined && input.month !== undefined
+
       const [events, totalCount] = await Promise.all([
         prisma.event.findMany({
           where: commonWhere,
@@ -55,15 +82,14 @@ export const eventsRouter = router({
             organizer: true,
           },
           orderBy: { startDate: 'asc' },
-          skip: offset,
-          take: limit,
+          ...(isMonthQuery ? {} : { skip: offset, take: limit }),
         }),
         prisma.event.count({
           where: commonWhere,
         }),
       ])
 
-      const hasNextPage = offset + limit < totalCount
+      const hasNextPage = isMonthQuery ? false : offset + limit < totalCount
       const nextPage = hasNextPage ? page + 1 : null
 
       return {

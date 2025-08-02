@@ -16,10 +16,19 @@ const props = defineProps({
     type: Array,
     default: () => [],
   },
+  currentDate: {
+    type: Date,
+    default: () => new Date(),
+  },
 })
 
+const emit = defineEmits(['update:current-date'])
+
 // Current month being displayed
-const currentDate = ref(new Date())
+const currentDate = computed({
+  get: () => props.currentDate,
+  set: (value) => emit('update:current-date', value),
+})
 
 // Group events by date
 const eventsByDate = computed(() => {

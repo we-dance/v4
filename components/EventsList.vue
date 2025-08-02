@@ -6,13 +6,30 @@ const { isLoggedIn } = useAppAuth()
 const searchQuery = ref('')
 const city = ref(null)
 const community = ref(null)
-const view = ref('calendar')
+const view = ref('list')
 const startDate = ref(null)
 const type = ref('all')
 
+// Current month for calendar view
+const currentDate = ref(new Date())
+
 const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
-    queryKey: ['events', searchQuery, city, community, startDate, type],
+    queryKey: [
+      'events',
+      searchQuery,
+      city,
+      community,
+      startDate,
+      type,
+      view,
+      computed(() =>
+        view.value === 'calendar' ? currentDate.value.getFullYear() : null
+      ),
+      computed(() =>
+        view.value === 'calendar' ? currentDate.value.getMonth() : null
+      ),
+    ],
     queryFn: ({ pageParam = 0 }) =>
       $client.events.getAll.query({
         query: searchQuery.value,
@@ -22,6 +39,11 @@ const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
         type: type.value,
         page: pageParam,
         limit: 10,
+        // Add month/year for calendar view
+        ...(view.value === 'calendar' && {
+          year: currentDate.value.getFullYear(),
+          month: currentDate.value.getMonth(),
+        }),
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
     initialPageParam: 0,
@@ -112,7 +134,12 @@ const selectDate = (date) => {
   <ErrorMessage v-if="isError" :message="error" />
 
   <template v-if="events.length > 0">
-    <EventCalendar v-if="view === 'calendar'" :events="events" />
+    <EventCalendar
+      v-if="view === 'calendar'"
+      :events="events"
+      :current-date="currentDate"
+      @update:current-date="currentDate = $event"
+    />
     <EventSchedule v-else :events="events" @select-date="selectDate" />
   </template>
 
