@@ -6,7 +6,7 @@ const { isLoggedIn } = useAppAuth()
 const searchQuery = ref('')
 const city = ref(null)
 const community = ref(null)
-const view = ref('list')
+const view = ref('calendar')
 const startDate = ref(null)
 const type = ref('all')
 
@@ -86,8 +86,8 @@ const selectDate = (date) => {
         </SelectContent>
       </Select>
       <ToggleGroup type="single" v-model="view">
-        <ToggleGroupItem value="masonry">
-          <Icon name="ph:grid-four" class="w-4 h-4" />
+        <ToggleGroupItem value="calendar">
+          <Icon name="ph:calendar" class="w-4 h-4" />
         </ToggleGroupItem>
         <ToggleGroupItem value="list">
           <Icon name="ph:list" class="w-4 h-4" />
@@ -112,7 +112,7 @@ const selectDate = (date) => {
   <ErrorMessage v-if="isError" :message="error" />
 
   <template v-if="events.length > 0">
-    <EventMasonryGrid v-if="view === 'masonry'" :events="events" />
+    <EventCalendar v-if="view === 'calendar'" :events="events" />
     <EventSchedule v-else :events="events" @select-date="selectDate" />
   </template>
 
