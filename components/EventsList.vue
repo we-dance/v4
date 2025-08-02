@@ -10,18 +10,43 @@ const view = ref('list')
 const startDate = ref(null)
 const type = ref('all')
 
+// Current month for calendar view
+const currentDate = ref(new Date())
+
 const { isFetching, isError, data, error, fetchNextPage, hasNextPage } =
   useInfiniteQuery({
-    queryKey: ['events', searchQuery, city, community, startDate, type],
-    queryFn: ({ pageParam = startDate.value }) =>
+    queryKey: [
+      'events',
+      searchQuery,
+      city,
+      community,
+      startDate,
+      type,
+      view,
+      computed(() =>
+        view.value === 'calendar' ? currentDate.value.getFullYear() : null
+      ),
+      computed(() =>
+        view.value === 'calendar' ? currentDate.value.getMonth() : null
+      ),
+    ],
+    queryFn: ({ pageParam = 0 }) =>
       $client.events.getAll.query({
         query: searchQuery.value,
         city: city.value?.id,
         community: community.value?.id,
-        startDate: pageParam,
+        startDate: startDate.value,
         type: type.value,
+        page: pageParam,
+        limit: 10,
+        // Add month/year for calendar view
+        ...(view.value === 'calendar' && {
+          year: currentDate.value.getFullYear(),
+          month: currentDate.value.getMonth(),
+        }),
       }),
     getNextPageParam: (lastPage, pages) => lastPage.nextPage,
+    initialPageParam: 0,
   })
 
 const events = computed(
@@ -83,8 +108,8 @@ const selectDate = (date) => {
         </SelectContent>
       </Select>
       <ToggleGroup type="single" v-model="view">
-        <ToggleGroupItem value="masonry">
-          <Icon name="ph:grid-four" class="w-4 h-4" />
+        <ToggleGroupItem value="calendar">
+          <Icon name="ph:calendar" class="w-4 h-4" />
         </ToggleGroupItem>
         <ToggleGroupItem value="list">
           <Icon name="ph:list" class="w-4 h-4" />
@@ -109,7 +134,12 @@ const selectDate = (date) => {
   <ErrorMessage v-if="isError" :message="error" />
 
   <template v-if="events.length > 0">
-    <EventMasonryGrid v-if="view === 'masonry'" :events="events" />
+    <EventCalendar
+      v-if="view === 'calendar'"
+      :events="events"
+      :current-date="currentDate"
+      @update:current-date="currentDate = $event"
+    />
     <EventSchedule v-else :events="events" @select-date="selectDate" />
   </template>
 

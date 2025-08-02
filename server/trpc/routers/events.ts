@@ -16,48 +16,87 @@ export const eventsRouter = router({
         community: z.number().optional(),
         startDate: z.string().optional().nullable(),
         type: z.string().optional().nullable(),
+        page: z.number().default(0),
+        limit: z.number().default(10),
+        // Optional month/year for calendar view
+        year: z.number().optional(),
+        month: z.number().optional(), // 0-11 (JavaScript month format)
       })
     )
     .query(async ({ ctx, input }) => {
-      const baseDate = input.startDate ? new Date(input.startDate) : new Date()
-      const startOfDay = new Date(baseDate)
-      startOfDay.setHours(0, 0, 0, 0)
-      const endOfDay = new Date(baseDate)
-      endOfDay.setHours(23, 59, 59, 999)
+      const { page, limit } = input
+      const offset = page * limit
+
+      // Determine date filter based on input
+      let dateFilter
+      if (input.year !== undefined && input.month !== undefined) {
+        // Month-based filtering for calendar view
+        const startOfMonth = new Date(input.year, input.month, 1)
+        const endOfMonth = new Date(
+          input.year,
+          input.month + 1,
+          0,
+          23,
+          59,
+          59,
+          999
+        )
+        dateFilter = {
+          gte: startOfMonth,
+          lte: endOfMonth,
+        }
+      } else if (input.startDate) {
+        // Date-based filtering for list view
+        dateFilter = { gte: new Date(input.startDate) }
+      } else {
+        // Default: show future events
+        dateFilter = { gte: new Date() }
+      }
 
       const commonWhere = {
+        startDate: dateFilter,
         venue: { cityId: input.city ?? undefined },
         styles: { some: { id: input.community ?? undefined } },
-        type: input.type === 'all' ? undefined : input.type,
-        OR: [
-          { name: { contains: input.query, mode: 'insensitive' } },
-          { description: { contains: input.query, mode: 'insensitive' } },
-        ],
+        ...(input.type && input.type !== 'all' && { type: input.type }),
+        ...(input.query && {
+          OR: [
+            { name: { contains: input.query, mode: 'insensitive' as const } },
+            {
+              description: {
+                contains: input.query,
+                mode: 'insensitive' as const,
+              },
+            },
+          ],
+        }),
       }
-      const events = await prisma.event.findMany({
-        where: {
-          startDate: { gte: startOfDay, lte: endOfDay },
-          ...commonWhere,
-        },
-        include: {
-          venue: { include: { city: true } },
-          organizer: true,
-        },
-        orderBy: { startDate: 'asc' },
-      })
 
-      const next = await prisma.event.findFirst({
-        where: {
-          startDate: { gt: endOfDay },
-          ...commonWhere,
-        },
-        orderBy: { startDate: 'asc' },
-        select: { startDate: true },
-      })
+      // For month-based queries, skip pagination and return all events
+      const isMonthQuery = input.year !== undefined && input.month !== undefined
+
+      const [events, totalCount] = await Promise.all([
+        prisma.event.findMany({
+          where: commonWhere,
+          include: {
+            venue: { include: { city: true } },
+            organizer: true,
+          },
+          orderBy: { startDate: 'asc' },
+          ...(isMonthQuery ? {} : { skip: offset, take: limit }),
+        }),
+        prisma.event.count({
+          where: commonWhere,
+        }),
+      ])
+
+      const hasNextPage = isMonthQuery ? false : offset + limit < totalCount
+      const nextPage = hasNextPage ? page + 1 : null
 
       return {
         events,
-        nextPage: next ? next.startDate.toISOString().slice(0, 10) : null,
+        nextPage,
+        totalCount,
+        hasNextPage,
       }
     }),
 
