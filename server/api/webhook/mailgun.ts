@@ -1,7 +1,7 @@
 import crypto from 'crypto'
 import { prisma } from '~/server/prisma'
 import { readBody } from 'h3'
-import posthog from '~/server/utils/posthog'
+import { capture } from '~/server/utils/posthog'
 
 export default eventHandler(async (event) => {
   try {
@@ -135,7 +135,7 @@ export default eventHandler(async (event) => {
     })
 
     if (['opened', 'clicked'].includes(newStatus)) {
-      posthog.capture({
+      capture({
         distinctId: emailRecord.userId,
         event: 'email_' + newStatus,
         properties: {
@@ -143,7 +143,6 @@ export default eventHandler(async (event) => {
           type: emailRecord.type,
         },
       })
-      await posthog.shutdown()
     }
 
     return { received: true }
