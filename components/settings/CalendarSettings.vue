@@ -1,11 +1,21 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
-import { string } from 'zod'
+import { string, z } from 'zod'
+import { useForm } from 'vee-validate'
+import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
 //form state
 const newCalendarUrl = ref('')
+
+const form = useForm({
+  validationSchema: toTypedSchema(
+    z.object({
+      inputUrl: z.string().url(),
+    })
+  ),
+})
 
 //fetch existing calendars
 const {

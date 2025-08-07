@@ -283,8 +283,9 @@ model Event {
   guests          Guest[]          @relation("event_guests")
   ticketPurchases TicketPurchase[] @relation("event_purchases")
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  calendarEvents CalendarEvent[] @relation("calendar_event_to_event")
 }
 
 model Ticket {
@@ -361,10 +362,12 @@ model DanceStyle {
   membersCount Int @default(0)
   eventsCount  Int @default(0)
 
-  events      Event[]
-  experiences Experience[] @relation("experience_style")
-  videos      Video[]      @relation("video_style")
-  posts       Post[]       @relation("post_style")
+  events          Event[]
+  experiences     Experience[]    @relation("experience_style")
+  videos          Video[]         @relation("video_style")
+  posts           Post[]          @relation("post_style")
+  calendarEvents  CalendarEvent[] @relation("calendar_event_styles")
+  calendarEventId String?
 }
 
 model ProfileFollower {
@@ -593,6 +596,12 @@ model Calendar {
   state        String    @default("pending") // pending, processing, processed, failed
   lastSyncedAt DateTime?
 
+  newCount      Int @default(0)
+  pastCount     Int @default(0)
+  totalCount    Int @default(0)
+  approvedCount Int @default(0)
+  upcomingCount Int @default(0)
+
   events CalendarEvent[] @relation("calendar_events")
 
   createdAt DateTime @default(now())
@@ -601,16 +610,24 @@ model Calendar {
 
 model CalendarEvent {
   id         String   @id @default(nanoid())
+  eventId    String?
+  event      Event?   @relation("calendar_event_to_event", fields: [eventId], references: [id])
   calendarId String
   calendar   Calendar @relation("calendar_events", fields: [calendarId], references: [id])
 
   providerItemId String //original iCal uid
-  name           String
-  description    String   @default("")
+  name           String?
+  description    String?  @default("")
   startDate      DateTime
   endDate        DateTime
   sourceUrl      String?
   approved       Boolean  @default(false)
+
+  location   String?
+  facebookId String?
+  eventType  String?
+
+  styles DanceStyle[] @relation("calendar_event_styles")
 
   @@index([startDate])
   @@index([calendarId, startDate])
