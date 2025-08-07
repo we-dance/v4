@@ -1,18 +1,15 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
-import { string, z } from 'zod'
+import { z } from 'zod'
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
-//form state
-const newCalendarUrl = ref('')
-
 const form = useForm({
   validationSchema: toTypedSchema(
     z.object({
-      inputUrl: z.string().url(),
+      newCalendarUrl: z.string().url(),
     })
   ),
 })
@@ -31,7 +28,7 @@ const createCalendarMutation = useMutation({
   },
   onSuccess: () => {
     toast.success('Calendar Added Succesfully!')
-    newCalendarUrl.value = ''
+    form.resetForm()
     refresh()
   },
   onError: (error: any) => {
@@ -72,13 +69,6 @@ const deleteCalendarMutation = useMutation({
   },
 })
 
-const isLoading = computed(
-  () =>
-    createCalendarMutation.isPending.value ||
-    syncCalendarMutation.isPending.value ||
-    deleteCalendarMutation.isPending.value
-)
-
 function handleSync(id: string) {
   syncCalendarMutation.mutate(id)
 }
@@ -93,12 +83,13 @@ function formatDate(date: string | Date | null) {
 
 //form submission handler
 function handleSubmit() {
-  if (!newCalendarUrl.value) {
+  const values = form.values.newCalendarUrl
+  if (!values) {
     toast.error('Please enter a calendar URL')
     return
   }
 
-  createCalendarMutation.mutate(newCalendarUrl.value)
+  createCalendarMutation.mutate(values)
 }
 </script>
 
@@ -163,11 +154,14 @@ function handleSubmit() {
               variant="outline"
               size="sm"
               @click="handleSync(calendar.id)"
-              :disabled="isLoading"
+              :disabled="syncCalendarMutation.isPending.value"
             >
               <Icon
                 name="heroicons:arrow-path"
-                :class="['w-4 h-4', { 'animate-spin': isLoading }]"
+                :class="[
+                  'w-4 h-4',
+                  { 'animate-spin': syncCalendarMutation.isPending.value },
+                ]"
               />
               Sync
             </Button>
@@ -176,7 +170,7 @@ function handleSubmit() {
               variant="outline"
               size="sm"
               @click="handleDelete(calendar.id)"
-              :disabled="isLoading"
+              :disabled="deleteCalendarMutation.isPending.value"
             >
               <Icon name="heroicons:trash" class="w-4 h-4" />
               Remove
@@ -194,11 +188,11 @@ function handleSubmit() {
 
     <form @submit.prevent="handleSubmit">
       <div class="grid grid-cols-1 gap-4">
-        <FormField v-slot="{ componentField }" name="inputUrl">
+        <FormField v-slot="{ componentField }" name="newCalendarUrl">
           <FormItem>
             <FormControl>
               <Input
-                v-model="newCalendarUrl"
+                v-bind="componentField"
                 type="url"
                 placeholder="https://calendar.google.com/..."
                 required
@@ -215,16 +209,17 @@ function handleSubmit() {
           <Button
             type="submit"
             :disabled="
-              !newCalendarUrl || createCalendarMutation.isPending.value
+              !form.values.newCalendarUrl ||
+              createCalendarMutation.isPending.value
             "
             class="flex items-center gap-2"
           >
             <Icon
               v-if="createCalendarMutation.isPending.value"
               name="heroicons:arrow-path"
-              class="w-4 h4 animate-spin"
+              class="w-4 h-4 animate-spin"
             />
-            <Icon v-else name="heroicons:check" class="w4 h-4" />
+            <Icon v-else name="heroicons:check" class="w-4 h-4" />
             Add Calendar
           </Button>
         </div>
