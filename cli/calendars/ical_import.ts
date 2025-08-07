@@ -96,7 +96,15 @@ export async function syncCalendar(calendarId: string) {
       continue
     }
 
-    const styles = getSuggestedStyles(vevent.summary + ' ' + vevent.description)
+    const styles = await getSuggestedStyles(
+      vevent.summary + ' ' + vevent.description
+    )
+
+    console.log('=== DEBUGGING STYLES ===')
+    console.log('Event text:', vevent.summary + ' ' + vevent.description)
+    console.log('Styles returned:', styles)
+    console.log('Styles count:', Object.keys(styles).length)
+    console.log('=========================')
 
     let approved = false
     let eventType = ''
@@ -123,7 +131,6 @@ export async function syncCalendar(calendarId: string) {
     }
 
     const urls = getUrlsFromText(vevent.description || '')
-    const facebookUrlsList = urls.filter((u) => isFacebookEvent(u))
 
     let facebookUrl = vevent.url
     if (!facebookUrl?.includes('facebook.com/events/')) {
@@ -137,32 +144,20 @@ export async function syncCalendar(calendarId: string) {
     const event: any = {
       isNew,
       facebookId,
-      facebookUrlsList,
-      facebookUrlsCount: facebookUrlsList.length,
-      provider: `ical`,
-      createdAt: now,
-      updatedAt: now,
-      importedAt: now,
-      providerId: calendarId,
       providerItemId: vevent.uid,
       name: vevent.summary,
       description: vevent.description || '',
-      providerCreatedAt: vevent.created ? +vevent.created : '',
-      providerUpdatedAt: vevent.lastmodified ? +vevent.lastmodified : '',
       startDate: vevent.start ? +vevent.start : '',
       endDate: vevent.end ? +vevent.end : '',
-      facebook: facebookUrl || '',
       sourceUrl: facebookUrl || vevent.url || '',
       location: vevent.location || '',
-      styles,
       eventType,
       approved,
-      type: facebookId ? 'import_event' : 'event',
-      createdBy: calendar.profileId,
     }
 
     if (isNew && approved) {
-      const newCalendarEvent = await prisma.calendarEvent.create({
+      const styleHashtags = Object.keys(styles)
+      await prisma.calendarEvent.create({
         data: {
           calendarId: calendarId,
           providerItemId: vevent.uid,
@@ -172,6 +167,12 @@ export async function syncCalendar(calendarId: string) {
           endDate: vevent.end ? new Date(vevent.end) : new Date(),
           sourceUrl: facebookUrl || vevent.url || null,
           approved: approved,
+          location: vevent.location || null,
+          facebookId: facebookId || null,
+          eventType: eventType,
+          styles: {
+            connect: styleHashtags.map((hashtag) => ({ hashtag })),
+          },
         },
       })
       if (approved) {
@@ -198,40 +199,18 @@ export async function syncCalendar(calendarId: string) {
   const upcomingCount = events.length
   const state = 'processed'
 
-  const filteredEvents = events.map((event) => {
-    return {
-      providerItemId: event.providerItemId,
-      name: event.name,
-      description: event.approved ? '' : event.description,
-      startDate: event.startDate,
-      endDate: event.endDate,
-      approved: event.approved,
-      type: event.type,
-      eventId: event.eventId,
-      facebookId: event.facebookId,
-      sourceUrl: event.sourceUrl,
-    }
-  })
-
-  const data = {
-    name,
-    state,
-    lastSyncedAt: now,
-    events: filteredEvents,
-    upcomingCount,
-    approvedCount,
-    newCount,
-    pastCount,
-    totalCount,
-    url,
-  }
-
   await prisma.calendar.update({
     where: { id: calendarId },
     data: {
       name,
-      state: 'processed',
+      state,
       lastSyncedAt: new Date(now),
+      upcomingCount,
+      approvedCount,
+      newCount,
+      pastCount,
+      totalCount,
+      url,
     },
   })
 }
