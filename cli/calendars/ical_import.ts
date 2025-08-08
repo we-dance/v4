@@ -99,13 +99,6 @@ export async function syncCalendar(calendarId: string) {
     const styles = await getSuggestedStyles(
       vevent.summary + ' ' + vevent.description
     )
-
-    console.log('=== DEBUGGING STYLES ===')
-    console.log('Event text:', vevent.summary + ' ' + vevent.description)
-    console.log('Styles returned:', styles)
-    console.log('Styles count:', Object.keys(styles).length)
-    console.log('=========================')
-
     let approved = false
     let eventType = ''
     if (Object.keys(styles).length) {
