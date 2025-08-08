@@ -163,23 +163,50 @@ export async function syncCalendar(calendarId: string) {
           },
         },
       })
-      const newEvent = await prisma.event.create({
-        data: {
-          name: vevent.summary,
-          description: vevent.description || '',
-          startDate: vevent.start ? new Date(vevent.start) : new Date(),
-          endDate: vevent.end ? new Date(vevent.end) : new Date(),
-          sourceUrl: facebookUrl || vevent.url || '',
-          creatorId: calendar.profileId,
-          status: 'published',
-          slug: eventSlug,
-        },
-      })
-      await prisma.calendarEvent.update({
-        where: { id: createdCalendarEvent.id },
-        data: { eventId: newEvent.id },
-      })
-      event.eventId = newEvent.id
+      const existingByFb = facebookId
+        ? await prisma.calendarEvent.findFirst({
+            where: { facebookId, eventId: { not: null } },
+            select: { eventId: true },
+          })
+        : null
+
+      const existingBySlug = !existingByFb
+        ? await prisma.event.findFirst({
+            where: {
+              slug: eventSlug,
+              startDate: { gte: startOfDay, lte: endOfDay },
+            },
+            select: { id: true },
+          })
+        : null
+
+      const matchedEventId = existingByFb?.eventId ?? existingBySlug?.id ?? null
+
+      if (matchedEventId) {
+        await prisma.calendarEvent.update({
+          where: { id: createdCalendarEvent.id },
+          data: { eventId: matchedEventId },
+        })
+        event.eventId = matchedEventId
+      } else {
+        const newEvent = await prisma.event.create({
+          data: {
+            name: vevent.summary,
+            description: vevent.description || '',
+            startDate: vevent.start ? new Date(vevent.start) : new Date(),
+            endDate: vevent.end ? new Date(vevent.end) : new Date(),
+            sourceUrl: facebookUrl || vevent.url || '',
+            creatorId: calendar.profileId,
+            status: 'published',
+            slug: eventSlug,
+          },
+        })
+        await prisma.calendarEvent.update({
+          where: { id: createdCalendarEvent.id },
+          data: { eventId: newEvent.id },
+        })
+        event.eventId = newEvent.id
+      }
     } else {
       event.eventId = existingEvent?.eventId || null
     }
