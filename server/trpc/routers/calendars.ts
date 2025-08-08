@@ -1,8 +1,7 @@
-import { string, z } from 'zod'
+import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
-import { tasks } from '@trigger.dev/sdk/v3'
 import { syncSingleCalendar } from '~/trigger/calendar-sync'
 
 export const calendarsRouter = router({
@@ -50,7 +49,7 @@ export const calendarsRouter = router({
         id: z.string(),
       })
     )
-    .mutation(async ({ ctx, input }) => {
+    .mutation(async ({ input }) => {
       await syncSingleCalendar.trigger({ calendarId: input.id })
       return { success: true, message: 'Sync Queued' }
     }),

@@ -48,20 +48,17 @@
       </div>
 
       <div class="mt-2 flex gap-4 items-center">
-        <span
-          class="rounded text-xs text-white p-1 cursor-pointer"
+        <Button
+          size="sm"
           :class="item.approved ? 'bg-green-500' : 'bg-red-500'"
-          @click="approveItem(item)"
         >
           {{ item.approved ? 'Approved' : 'Rejected' }}
-        </span>
-        <NuxtLink
-          v-if="item.eventId"
-          :to="`/events/${item.eventId}`"
-          class="text-xs"
-          target="_blank"
-          >View Event</NuxtLink
-        >
+        </Button>
+        <Button v-if="item.eventId" as-child size="sm">
+          <NuxtLink :to="`/events/${item.eventId}`" target="_blank">
+            View Event
+          </NuxtLink>
+        </Button>
         <span
           v-if="item.isNew"
           class="p-1 rounded text-xs bg-green-500 text-white"
@@ -158,9 +155,5 @@ function getStyles(
 
   const sliced = limit ? arr.slice(start, start + limit) : arr.slice(start)
   return sliced.filter((s) => s.name)
-}
-
-async function approveItem(_item: Props['item']) {
-  // no-op for now
 }
 </script>
