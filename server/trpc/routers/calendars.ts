@@ -10,13 +10,16 @@ export const calendarsRouter = router({
     if (!ctx.session?.profile?.id) {
       throw new TRPCError({ code: 'UNAUTHORIZED' })
     }
-    const profile = await prisma.profile.findUnique({
-      where: { userId: ctx.session.profile.id },
-    })
 
     return await prisma.calendar.findMany({
       where: { profileId: ctx.session.profile.id },
-      include: { events: true },
+      include: {
+        events: {
+          include: {
+            styles: true,
+          },
+        },
+      },
       orderBy: { createdAt: 'asc' },
     })
   }),
