@@ -23,11 +23,7 @@ const form = useForm({
 })
 
 //fetch existing calendars
-const {
-  data: calendars,
-  pending,
-  refresh,
-} = await $client.calendars.getAll.useQuery()
+const { data: calendars, refresh } = await $client.calendars.getAll.useQuery()
 
 //create calendar mutation
 const createCalendarMutation = useMutation({
@@ -117,12 +113,15 @@ function handleSubmit() {
           <div class="flex-1">
             <!-- Calendar Name -->
             <h3 class="font-medium mb-2">
-              <NuxtLink
-                :to="`/admin/calendar?id=${calendar.id}`"
-                class="hover:underline cursor-pointer text-primary"
+              <Button
+                as-child
+                variant="tertiary"
+                class="h-auto p-0 font-medium"
               >
-                {{ calendar.name || 'Unnamed Calendar' }}
-              </NuxtLink>
+                <NuxtLink :to="`/admin/calendar?id=${calendar.id}`">
+                  {{ calendar.name || 'Unnamed Calendar' }}
+                </NuxtLink>
+              </Button>
             </h3>
             <!-- Status -->
             <div class="flex items-center gap-2 mb-3">
