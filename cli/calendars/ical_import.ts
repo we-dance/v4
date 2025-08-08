@@ -4,33 +4,17 @@ import {
   getSuggestedStyles,
   getSuggestedType,
   getUrlsFromText,
+  getUrlContentId,
   isFacebookEvent,
 } from '../utils/linguist'
 import { PrismaClient } from '@prisma/client'
+import { getSlug } from '../utils/slug'
 
 const prisma = new PrismaClient()
 
 function getUrlParam(url: string, param: string) {
   const match = RegExp('[?&]' + param + '=([^&]*)').exec(url)
   return match && decodeURIComponent(match[1].replace(/\+/g, ' '))
-}
-
-function getUrlContentId(url?: string): string {
-  if (!url) {
-    throw new Error('getUrlContentId: no url')
-  }
-
-  const result = url
-    .replace(/(\?.*)/, '')
-    .replace(/\/$/, '')
-    .split('/')
-    .pop()
-
-  if (!result) {
-    throw new Error('Invalid url')
-  }
-
-  return result
 }
 
 export async function syncCalendar(calendarId: string) {
@@ -63,17 +47,18 @@ export async function syncCalendar(calendarId: string) {
     res = await axios(url)
   } catch (e) {}
 
-  const name = res?.data?.split('X-WR-CALNAME:')[1]?.split('\n')[0] || ''
+  const nameCandidate =
+    res?.data?.split('X-WR-CALNAME:')[1]?.split('\n')[0]?.trim() || ''
   const ics = ical.parseICS(res?.data || '')
   const now = +new Date()
 
-  if (res?.status !== 200 || !name) {
+  if (res?.status !== 200) {
     await prisma.calendar.update({
       where: { id: calendarId },
       data: {
         state: 'failed',
         lastSyncedAt: new Date(now),
-        name: name || calendar.name,
+        name: nameCandidate || calendar.name,
       },
     })
     return
@@ -83,7 +68,7 @@ export async function syncCalendar(calendarId: string) {
   for (const id in ics) {
     const vevent = ics[id]
 
-    if (!vevent.uid) {
+    if (vevent?.type !== 'VEVENT' || !vevent.uid) {
       continue
     }
 
@@ -110,7 +95,7 @@ export async function syncCalendar(calendarId: string) {
     let facebookId = ''
 
     if (vevent.uid?.includes('@facebook.com')) {
-      facebookId = vevent.uid?.split('@')[0].replace('e', '') || ''
+      facebookId = vevent.uid?.split('@')[0].replace(/^e/, '') || ''
     }
 
     let isNew = false
@@ -131,8 +116,17 @@ export async function syncCalendar(calendarId: string) {
     }
 
     if (facebookUrl && !facebookId) {
-      facebookId = getUrlContentId(facebookUrl)
+      try {
+        facebookId = getUrlContentId(facebookUrl)
+      } catch {}
     }
+
+    const eventSlug = getSlug(vevent.summary || '')
+    const eventStart = vevent.start ? new Date(vevent.start) : new Date()
+    const startOfDay = new Date(eventStart)
+    startOfDay.setHours(0, 0, 0, 0)
+    const endOfDay = new Date(eventStart)
+    endOfDay.setHours(23, 59, 59, 999)
 
     const event: any = {
       isNew,
@@ -150,7 +144,8 @@ export async function syncCalendar(calendarId: string) {
 
     if (isNew && approved) {
       const styleHashtags = Object.keys(styles)
-      await prisma.calendarEvent.create({
+
+      const createdCalendarEvent = await prisma.calendarEvent.create({
         data: {
           calendarId: calendarId,
           providerItemId: vevent.uid,
@@ -168,22 +163,25 @@ export async function syncCalendar(calendarId: string) {
           },
         },
       })
-      if (approved) {
-        const newEvent = await prisma.event.create({
-          data: {
-            name: vevent.summary,
-            description: vevent.description || '',
-            startDate: vevent.start ? new Date(vevent.start) : new Date(),
-            endDate: vevent.end ? new Date(vevent.end) : new Date(),
-            sourceUrl: facebookUrl || vevent.url || '',
-            creatorId: calendar.profileId,
-            status: 'published',
-          },
-        })
-        event.eventId = newEvent.id
-      }
+      const newEvent = await prisma.event.create({
+        data: {
+          name: vevent.summary,
+          description: vevent.description || '',
+          startDate: vevent.start ? new Date(vevent.start) : new Date(),
+          endDate: vevent.end ? new Date(vevent.end) : new Date(),
+          sourceUrl: facebookUrl || vevent.url || '',
+          creatorId: calendar.profileId,
+          status: 'published',
+          slug: eventSlug,
+        },
+      })
+      await prisma.calendarEvent.update({
+        where: { id: createdCalendarEvent.id },
+        data: { eventId: newEvent.id },
+      })
+      event.eventId = newEvent.id
     } else {
-      event.eventId = existingEvent?.id || null
+      event.eventId = existingEvent?.eventId || null
     }
 
     events.push(event)
@@ -195,7 +193,7 @@ export async function syncCalendar(calendarId: string) {
   await prisma.calendar.update({
     where: { id: calendarId },
     data: {
-      name,
+      name: nameCandidate || calendar.name,
       state,
       lastSyncedAt: new Date(now),
       upcomingCount,
