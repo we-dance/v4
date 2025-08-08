@@ -6,6 +6,14 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
+const route = useRoute()
+const selectedCalendarId = computed(() => route.query.id as string | undefined)
+
+const selectedCalendar = computed(() => {
+  if (!selectedCalendarId.value || !calendars.value) return null
+  return calendars.value.find((c) => c.id === selectedCalendarId.value)
+})
+
 const form = useForm({
   validationSchema: toTypedSchema(
     z.object({
@@ -109,9 +117,13 @@ function handleSubmit() {
           <div class="flex-1">
             <!-- Calendar Name -->
             <h3 class="font-medium mb-2">
-              {{ calendar.name || 'Unnamed Calendar' }}
+              <NuxtLink
+                :to="`/admin/calendar?id=${calendar.id}`"
+                class="hover:underline cursor-pointer text-primary"
+              >
+                {{ calendar.name || 'Unnamed Calendar' }}
+              </NuxtLink>
             </h3>
-
             <!-- Status -->
             <div class="flex items-center gap-2 mb-3">
               <Badge
@@ -225,6 +237,10 @@ function handleSubmit() {
         </div>
       </div>
     </form>
+  </div>
+
+  <div v-for="event in selectedCalendar?.events" :key="event.id">
+    <EventImportPreview :item="event" show-date />
   </div>
 
   <!-- FAQ Section -->
