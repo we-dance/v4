@@ -102,6 +102,7 @@
     "@tailwindcss/postcss": "^4.1.1",
     "@tailwindcss/typography": "^0.5.16",
     "@trigger.dev/build": "^3.3.17",
+    "@types/ical": "^0.8.3",
     "@types/markdown-it": "^14.1.2",
     "@types/mjml": "^4.7.4",
     "@vitejs/plugin-vue": "^5.2.3",
