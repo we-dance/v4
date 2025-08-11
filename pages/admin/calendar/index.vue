@@ -19,5 +19,6 @@ definePageMeta({
   </header>
   <div>
     <CalendarSettings />
+    <FaqCalendars />
   </div>
 </template>

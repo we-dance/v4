@@ -235,9 +235,4 @@ const handleSubmit = form.handleSubmit((values) => {
   <div v-for="event in selectedCalendar?.events" :key="event.id">
     <EventImportPreview :item="event" show-date />
   </div>
-
-  <!-- FAQ Section -->
-  <div class="container py-6 space-y-6">
-    <h2>Here there will be FAQ's</h2>
-  </div>
 </template>
