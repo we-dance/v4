@@ -605,6 +605,9 @@ model Calendar {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@unique([profileId, url])
+  @@index([profileId])
 }
 
 model CalendarEvent {
@@ -612,7 +615,7 @@ model CalendarEvent {
   eventId    String?
   event      Event?   @relation("calendar_event_to_event", fields: [eventId], references: [id])
   calendarId String
-  calendar   Calendar @relation("calendar_events", fields: [calendarId], references: [id])
+  calendar   Calendar @relation("calendar_events", fields: [calendarId], references: [id], onDelete: Cascade)
 
   providerItemId String //original iCal uid
   name           String?

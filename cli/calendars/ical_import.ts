@@ -45,7 +45,9 @@ export async function syncCalendar(calendarId: string) {
   let res
   try {
     res = await axios(url)
-  } catch (e) {}
+  } catch (e) {
+    console.error('[calendar-sync] fetch failed:', e)
+  }
 
   const nameCandidate =
     res?.data?.split('X-WR-CALNAME:')[1]?.split('\n')[0]?.trim() || ''
@@ -81,13 +83,12 @@ export async function syncCalendar(calendarId: string) {
       continue
     }
 
-    const styles = await getSuggestedStyles(
-      vevent.summary + ' ' + vevent.description
-    )
+    const text = `${vevent.summary || ''} ${vevent.description || ''}`.trim()
+    const styles = await getSuggestedStyles(text)
     let approved = false
     let eventType = ''
     if (Object.keys(styles).length) {
-      eventType = getSuggestedType(vevent.summary + ' ' + vevent.description)
+      eventType = getSuggestedType(text)
       approved = true
       approvedCount++
     }

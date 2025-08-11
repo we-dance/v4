@@ -86,15 +86,9 @@ function formatDate(date: string | Date | null) {
 }
 
 //form submission handler
-function handleSubmit() {
-  const values = form.values.newCalendarUrl
-  if (!values) {
-    toast.error('Please enter a calendar URL')
-    return
-  }
-
-  createCalendarMutation.mutate(values)
-}
+const handleSubmit = form.handleSubmit((values) => {
+  createCalendarMutation.mutate(values.newCalendarUrl)
+})
 </script>
 
 <template>

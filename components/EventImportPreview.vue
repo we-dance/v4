@@ -40,10 +40,9 @@
 
       <div class="relative pl-3 pr-4">
         <Expand>
-          <div
-            class="pt-2 text-xs whitespace-pre-wrap break-words leading-5"
-            v-html="item.description"
-          />
+          <div class="pt-2 text-xs whitespace-pre-wrap break-words leading-5">
+            {{ item.description }}
+          </div>
         </Expand>
       </div>
 

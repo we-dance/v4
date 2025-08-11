@@ -12,11 +12,20 @@ export const syncSingleCalendar = task({
       where: { id: payload.calendarId },
       data: { state: 'processing' },
     })
-    await syncCalendar(payload.calendarId)
-    await prisma.calendar.update({
-      where: { id: payload.calendarId },
-      data: { state: 'processed' },
-    })
+    try {
+      await syncCalendar(payload.calendarId)
+      await prisma.calendar.update({
+        where: { id: payload.calendarId },
+        data: { state: 'processed' },
+      })
+    } catch (error) {
+      logger.error(String(error))
+      await prisma.calendar.update({
+        where: { id: payload.calendarId },
+        data: { state: 'failed' },
+      })
+      throw error
+    }
     return { calendarId: payload.calendarId, status: 'completed' }
   },
 })

@@ -49,7 +49,14 @@ export const calendarsRouter = router({
         id: z.string(),
       })
     )
-    .mutation(async ({ input }) => {
+    .mutation(async ({ ctx, input }) => {
+      const calendar = await prisma.calendar.findUnique({
+        where: { id: input.id },
+        select: { profileId: true },
+      })
+      if (!calendar || calendar.profileId !== ctx.session?.profile?.id) {
+        throw new TRPCError({ code: 'UNAUTHORIZED' })
+      }
       await syncSingleCalendar.trigger({ calendarId: input.id })
       return { success: true, message: 'Sync Queued' }
     }),
@@ -61,7 +68,11 @@ export const calendarsRouter = router({
       })
     )
     .mutation(async ({ ctx, input }) => {
-      if (!ctx.session?.profile?.id) {
+      const calendar = await prisma.calendar.findUnique({
+        where: { id: input.id },
+        select: { profileId: true },
+      })
+      if (!calendar || calendar.profileId !== ctx.session?.profile?.id) {
         throw new TRPCError({ code: 'UNAUTHORIZED' })
       }
       return await prisma.calendar.delete({
