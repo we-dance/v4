@@ -1,3 +1,5 @@
+import { resolve } from 'path'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-02',
@@ -49,7 +51,26 @@ export default defineNuxtConfig({
     '@sidebase/nuxt-auth',
     '@hebilicious/vue-query-nuxt',
     'nuxt-posthog',
+    '@nuxtjs/i18n',
   ],
+  i18n: {
+    defaultLocale: 'en',
+    langDir: resolve('./locales'),
+    locales: [
+      { code: 'en', name: 'English', file: 'en.yml' },
+      { code: 'de', name: 'Deutsch', file: 'de.yml' },
+      { code: 'es', name: 'Español', file: 'es.yml' },
+      { code: 'fr', name: 'Français', file: 'fr.yml' },
+      { code: 'it', name: 'Italiano', file: 'it.yml' },
+      { code: 'pl', name: 'Polski', file: 'pl.yml' },
+      { code: 'pt', name: 'Português', file: 'pt.yml' },
+      { code: 'ro', name: 'Română', file: 'ro.yml' },
+      { code: 'ru', name: 'Русский', file: 'ru.yml' },
+      { code: 'sr', name: 'Srpski', file: 'sr.yml' },
+      { code: 'tr', name: 'Türkçe', file: 'tr.yml' },
+    ],
+    debug: true,
+  },
   components: [
     {
       path: '~/components',
