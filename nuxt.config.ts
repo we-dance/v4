@@ -1,5 +1,3 @@
-import { resolve } from 'path'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-02',
@@ -54,8 +52,9 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
   i18n: {
+    restructureDir: './',
     defaultLocale: 'en',
-    langDir: resolve('./locales'),
+    langDir: 'locales',
     locales: [
       { code: 'en', name: 'English', file: 'en.yml' },
       { code: 'de', name: 'Deutsch', file: 'de.yml' },
