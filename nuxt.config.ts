@@ -68,7 +68,6 @@ export default defineNuxtConfig({
       { code: 'sr', name: 'Srpski', file: 'sr.yml' },
       { code: 'tr', name: 'Türkçe', file: 'tr.yml' },
     ],
-    debug: true,
   },
   components: [
     {

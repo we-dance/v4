@@ -54,7 +54,11 @@
           {{ item.approved ? 'Approved' : 'Rejected' }}
         </Button>
         <Button v-if="item.eventId" as-child size="sm">
-          <NuxtLink :to="`/events/${item.eventId}`" target="_blank">
+          <NuxtLink
+            :to="`/events/${item.eventId}`"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View Event
           </NuxtLink>
         </Button>
@@ -77,7 +81,7 @@
 </template>
 
 <script setup lang="ts">
-import { format } from 'date-fns'
+import { format, isValid, parseISO } from 'date-fns'
 
 type StyleObj = {
   id?: string | number
@@ -117,8 +121,8 @@ withDefaults(defineProps<Props>(), {
 
 function formatDate(date: string | Date | null | undefined, fmt: string) {
   if (!date) return ''
-  const d = typeof date === 'string' ? new Date(date) : date
-  return format(d, fmt)
+  const d = typeof date === 'string' ? parseISO(date) : date
+  return isValid(d as Date) ? format(d as Date, fmt) : ''
 }
 
 const eventTypeLabels: Record<string, string> = {

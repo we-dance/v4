@@ -49,22 +49,21 @@ export async function syncCalendar(calendarId: string) {
     console.error('[calendar-sync] fetch failed:', e)
   }
 
-  const nameCandidate =
-    res?.data?.split('X-WR-CALNAME:')[1]?.split('\n')[0]?.trim() || ''
-  const ics = ical.parseICS(res?.data || '')
   const now = +new Date()
-
   if (res?.status !== 200) {
     await prisma.calendar.update({
       where: { id: calendarId },
       data: {
         state: 'failed',
         lastSyncedAt: new Date(now),
-        name: nameCandidate || calendar.name,
+        name: calendar.name,
       },
     })
     return
   }
+  const ics = ical.parseICS(res?.data || '')
+  const nameCandidate =
+    res?.data?.split('X-WR-CALNAME:')[1]?.split('\n')[0]?.trim() || ''
 
   const events: any[] = []
   for (const id in ics) {
