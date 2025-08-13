@@ -7,6 +7,7 @@ import { toTypedSchema } from '@vee-validate/zod'
 const { $client } = useNuxtApp()
 
 const syncingCalendars = ref<Set<string>>(new Set())
+const deletingCalendars = ref<Set<string>>(new Set())
 
 const route = useRoute()
 const selectedCalendarId = computed(() => route.query.id as string | undefined)
@@ -32,36 +33,18 @@ const createCalendarMutation = useMutation({
   mutationFn: async (url: string) => {
     return await $client.calendars.create.mutate({ url })
   },
-  onSuccess: () => {
-    toast.success('Calendar Added Succesfully!')
-    form.resetForm()
-    refresh()
-  },
-  onError: (error: any) => {
-    toast.error('Could not import the calendar.', {
-      description: error?.message || 'Failed to add calendar.',
-    })
-  },
 })
 
 //sync calendar mutation
 const syncCalendarMutation = useMutation({
   mutationFn: async (id: string) => {
+    return await $client.calendars.sync.mutate({ id })
+  },
+  onMutate: (id: string) => {
     syncingCalendars.value.add(id)
-    try {
-      return await $client.calendars.sync.mutate({ id })
-    } finally {
-      syncingCalendars.value.delete(id)
-    }
   },
-  onSuccess: () => {
-    toast.success('Sync Started!')
-    refresh()
-  },
-  onError: (error: any) => {
-    toast.error('Sync Failed', {
-      description: error?.message || 'Failed to sync calendar.',
-    })
+  onSettled: (_data, _error, id) => {
+    syncingCalendars.value.delete(id)
   },
 })
 
@@ -69,22 +52,35 @@ const deleteCalendarMutation = useMutation({
   mutationFn: async (id: string) => {
     return await $client.calendars.delete.mutate({ id })
   },
-  onSuccess: () => {
-    toast.success('Calendar Removed!')
-    refresh()
+  onMutate: (id: string) => {
+    deletingCalendars.value.add(id)
   },
-  onError: (error: any) => {
-    toast.error('Delete Failed', {
-      description: error?.message || 'Failed to remove calendar.',
-    })
+  onSettled: (_data, _error, id) => {
+    deletingCalendars.value.delete(id)
   },
 })
 
 function handleSync(id: string) {
-  syncCalendarMutation.mutate(id)
+  const promise = syncCalendarMutation.mutateAsync(id)
+  toast.promise(promise, {
+    loading: 'Syncing Calendar.',
+    success: 'Calendar sync started!',
+    error: (error: any) => error?.message || 'Failed to sync calendar.',
+  })
+  promise.then(() => {
+    refresh()
+  })
 }
 function handleDelete(id: string) {
-  deleteCalendarMutation.mutate(id)
+  const promise = deleteCalendarMutation.mutateAsync(id)
+  toast.promise(promise, {
+    loading: 'Removing Calendar.',
+    success: 'Calendar removed successfully!',
+    error: (error: any) => error?.message || 'Failed to remove calendar.',
+  })
+  promise.then(() => {
+    refresh()
+  })
 }
 
 function formatDate(date: string | Date | null) {
@@ -94,7 +90,26 @@ function formatDate(date: string | Date | null) {
 
 //form submission handler
 const handleSubmit = form.handleSubmit((values) => {
-  createCalendarMutation.mutate(values.newCalendarUrl)
+  const promise = createCalendarMutation.mutateAsync(values.newCalendarUrl)
+  toast.promise(promise, {
+    loading: 'Adding Calendar.',
+    success: 'Calendar added successfully!',
+    error: (error: any) => error?.message || 'Failed to add calendar.',
+  })
+  promise.then((createdCalendar) => {
+    form.resetForm()
+    refresh()
+    //sync calendar to show events right away,
+    const syncPromise = syncCalendarMutation.mutateAsync(createdCalendar.id)
+    toast.promise(syncPromise, {
+      loading: 'Syncing new calendar.',
+      success: 'Calendar synced started!',
+      error: (error: any) => error?.message || 'Failed to sync calendar.',
+    })
+    syncPromise.then(() => {
+      refresh()
+    })
+  })
 })
 </script>
 
@@ -182,7 +197,7 @@ const handleSubmit = form.handleSubmit((values) => {
               variant="outline"
               size="sm"
               @click="handleDelete(calendar.id)"
-              :disabled="deleteCalendarMutation.isPending.value"
+              :disabled="deletingCalendars.has(calendar.id)"
             >
               <Icon name="heroicons:trash" class="w-4 h-4" />
               Remove
