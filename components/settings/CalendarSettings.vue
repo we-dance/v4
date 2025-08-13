@@ -6,6 +6,8 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
+const syncingCalendars = ref<Set<string>>(new Set())
+
 const route = useRoute()
 const selectedCalendarId = computed(() => route.query.id as string | undefined)
 
@@ -45,7 +47,12 @@ const createCalendarMutation = useMutation({
 //sync calendar mutation
 const syncCalendarMutation = useMutation({
   mutationFn: async (id: string) => {
-    return await $client.calendars.sync.mutate({ id })
+    syncingCalendars.value.add(id)
+    try {
+      return await $client.calendars.sync.mutate({ id })
+    } finally {
+      syncingCalendars.value.delete(id)
+    }
   },
   onSuccess: () => {
     toast.success('Sync Started!')
@@ -159,13 +166,13 @@ const handleSubmit = form.handleSubmit((values) => {
               variant="outline"
               size="sm"
               @click="handleSync(calendar.id)"
-              :disabled="syncCalendarMutation.isPending.value"
+              :disabled="syncingCalendars.has(calendar.id)"
             >
               <Icon
                 name="heroicons:arrow-path"
                 :class="[
                   'w-4 h-4',
-                  { 'animate-spin': syncCalendarMutation.isPending.value },
+                  { 'animate-spin': syncingCalendars.has(calendar.id) },
                 ]"
               />
               Sync
