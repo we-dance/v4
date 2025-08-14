@@ -22,7 +22,10 @@ export const syncSingleCalendar = task({
       logger.error(String(error))
       await prisma.calendar.update({
         where: { id: payload.calendarId },
-        data: { state: 'failed' },
+        data: {
+          state: 'failed',
+          lastSyncedAt: new Date(),
+        },
       })
       throw error
     }

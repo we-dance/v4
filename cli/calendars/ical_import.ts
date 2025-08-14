@@ -52,15 +52,7 @@ export async function syncCalendar(calendarId: string) {
 
   const now = +new Date()
   if (res?.status !== 200) {
-    await prisma.calendar.update({
-      where: { id: calendarId },
-      data: {
-        state: 'failed',
-        lastSyncedAt: new Date(now),
-        name: calendar.name,
-      },
-    })
-    return
+    throw new Error(`HTTP ${res?.status}: Failed to fetch calendar from ${url}`)
   }
   const ics = ical.parseICS(res?.data || '')
   const nameCandidate =
@@ -217,7 +209,7 @@ export async function syncCalendar(calendarId: string) {
             data: { eventId: newEvent.id },
           })
           event.eventId = newEvent.id
-          console.log('createed facebook event  in db with id: ', newEvent.id)
+          console.log('createed facebook event in db with id: ', newEvent.id)
         } else {
           console.log('Failed to import facebook event for: ', facebookUrl)
         }
