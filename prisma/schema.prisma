@@ -628,4 +628,5 @@ model CalendarEvent {
   @@unique([calendarId, providerItemId])
   @@index([startDate])
   @@index([calendarId, startDate])
+  @@index([facebookId])
 }
