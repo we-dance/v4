@@ -45,7 +45,10 @@ export async function syncCalendar(calendarId: string) {
 
   let res
   try {
-    res = await axios(url)
+    res = await axios.get(url, {
+      timeout: 15000,
+      headers: { 'User-Agent': 'WeDance/CalendarSync (+https://we.dance)' },
+    })
   } catch (e) {
     console.error('[calendar-sync] fetch failed:', e)
   }
@@ -138,9 +141,16 @@ export async function syncCalendar(calendarId: string) {
     if (isNew && approved) {
       const styleHashtags = Object.keys(styles)
 
-      const createdCalendarEvent = await prisma.calendarEvent.create({
-        data: {
-          calendarId: calendarId,
+      const createdCalendarEvent = await prisma.calendarEvent.upsert({
+        where: {
+          calendarId_providerItemId: {
+            calendarId: calendarId,
+            providerItemId: vevent.uid,
+          },
+        },
+
+        create: {
+          calendarId,
           providerItemId: vevent.uid,
           name: vevent.summary || null,
           description: vevent.description || null,
@@ -148,6 +158,20 @@ export async function syncCalendar(calendarId: string) {
           endDate: vevent.end ? new Date(vevent.end) : new Date(),
           sourceUrl: facebookUrl || vevent.url || null,
           approved: approved,
+          location: vevent.location || null,
+          facebookId: facebookId || null,
+          eventType: eventType,
+          styles: {
+            connect: styleHashtags.map((hashtag) => ({ hashtag })),
+          },
+        },
+        update: {
+          name: vevent.summary || null,
+          description: vevent.description || null,
+          startDate: vevent.start ? new Date(vevent.start) : new Date(),
+          endDate: vevent.end ? new Date(vevent.end) : new Date(),
+          sourceUrl: facebookUrl || vevent.url || null,
+          approved,
           location: vevent.location || null,
           facebookId: facebookId || null,
           eventType: eventType,
@@ -196,43 +220,48 @@ export async function syncCalendar(calendarId: string) {
         const facebookEventData = await getFacebookEvent(facebookUrl)
         if (facebookEventData.status !== 'failed_import') {
           console.log('Facebook import succesfull', facebookEventData.name)
-          const newEvent = await prisma.event.create({
+          const newEvent = await prisma.$transaction(async (tx) => {
+            const event = await tx.event.create({
+              data: {
+                ...facebookEventData,
+                creatorId: calendar.profileId,
+                status: 'published',
+                slug: eventSlug,
+              },
+            })
+            await tx.calendarEvent.update({
+              where: { id: createdCalendarEvent.id },
+              data: { eventId: event.id },
+            })
+            return event
+          })
+
+          event.eventId = newEvent.id
+          console.log('created facebook event in db with id: ', newEvent.id)
+        }
+      } else {
+        //Event doesnt exist  and not facebook, create a basic event
+        console.log(
+          `[CALENDAR-SYNC] Creating basic event: ${vevent.summary} (sourceUrl: ${facebookUrl || vevent.url || 'none'})`
+        )
+        const newEvent = await prisma.$transaction(async (tx) => {
+          const event = await tx.event.create({
             data: {
-              ...facebookEventData,
+              name: vevent.summary,
+              description: vevent.description || '',
+              startDate: vevent.start ? new Date(vevent.start) : new Date(),
+              endDate: vevent.end ? new Date(vevent.end) : new Date(),
+              sourceUrl: facebookUrl || vevent.url || '',
               creatorId: calendar.profileId,
               status: 'published',
               slug: eventSlug,
             },
           })
-          await prisma.calendarEvent.update({
+          await tx.calendarEvent.update({
             where: { id: createdCalendarEvent.id },
-            data: { eventId: newEvent.id },
+            data: { eventId: event.id },
           })
-          event.eventId = newEvent.id
-          console.log('createed facebook event in db with id: ', newEvent.id)
-        } else {
-          console.log('Failed to import facebook event for: ', facebookUrl)
-        }
-      } else {
-        console.log(
-          `[CALENDAR-SYNC] Creating basic event: ${vevent.summary} (sourceUrl: ${facebookUrl || vevent.url || 'none'})`
-        )
-        const newEvent = await prisma.event.create({
-          //Event doesnt exist  and not facebook, create a basic event
-          data: {
-            name: vevent.summary,
-            description: vevent.description || '',
-            startDate: vevent.start ? new Date(vevent.start) : new Date(),
-            endDate: vevent.end ? new Date(vevent.end) : new Date(),
-            sourceUrl: facebookUrl || vevent.url || '',
-            creatorId: calendar.profileId,
-            status: 'published',
-            slug: eventSlug,
-          },
-        })
-        await prisma.calendarEvent.update({
-          where: { id: createdCalendarEvent.id },
-          data: { eventId: newEvent.id },
+          return event
         })
         event.eventId = newEvent.id
         console.log(
@@ -242,7 +271,6 @@ export async function syncCalendar(calendarId: string) {
     } else {
       event.eventId = existingEvent?.eventId || null
     }
-
     events.push(event)
   }
 

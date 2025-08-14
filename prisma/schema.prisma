@@ -365,10 +365,11 @@ model DanceStyle {
   membersCount Int @default(0)
   eventsCount  Int @default(0)
 
-  events      Event[]
-  experiences Experience[] @relation("experience_style")
-  videos      Video[]      @relation("video_style")
-  posts       Post[]       @relation("post_style")
+  events         Event[]
+  experiences    Experience[]    @relation("experience_style")
+  videos         Video[]         @relation("video_style")
+  posts          Post[]          @relation("post_style")
+  calendarEvents CalendarEvent[] @relation("calendar_event_styles")
 
   @@index([membersCount(sort: Desc)])
 }
@@ -618,6 +619,13 @@ model CalendarEvent {
   sourceUrl      String?
   approved       Boolean  @default(false)
 
+  location   String?
+  facebookId String?
+  eventType  String?
+
+  styles DanceStyle[] @relation("calendar_event_styles")
+
+  @@unique([calendarId, providerItemId])
   @@index([startDate])
   @@index([calendarId, startDate])
 }
