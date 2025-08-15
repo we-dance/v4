@@ -254,7 +254,16 @@ const handleSubmit = form.handleSubmit((values) => {
     </form>
   </div>
 
-  <div v-for="event in selectedCalendar?.events" :key="event.id">
-    <EventImportPreview :item="event" show-date />
+  <div v-if="selectedCalendar?.events?.length" class="container py-6 space-y-6">
+    <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+      <Icon name="heroicons:calendar" class="w-5 h-5" />
+      Events from {{ selectedCalendar.name || 'Selected Calendar' }}
+    </h2>
+
+    <div class="space-y-4">
+      <div v-for="event in selectedCalendar?.events" :key="event.id">
+        <EventImportPreview :item="event" show-date />
+      </div>
+    </div>
   </div>
 </template>
