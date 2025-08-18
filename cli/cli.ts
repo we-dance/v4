@@ -16,7 +16,7 @@ import { exportAccounts, reindex } from './importer/account'
 import { getPreview } from './importer/post'
 import { fetchEvent } from './import-event/index'
 import { PrismaClient } from '@prisma/client'
-import { fetchCalendarData } from './calendars/ical_import'
+import { fetchCalendarData, saveCalendarData } from './calendars/ical_import'
 
 function getLogLevel(verbosity: number) {
   switch (verbosity) {
@@ -127,6 +127,55 @@ program.command('calendar:fetch:debug <url>').action(async (url) => {
     console.error('error occured while fetching calendar details ', error)
   }
 })
+
+program
+  .command('calendar:sync <url> <profileId>')
+  .option('--cleanup', 'Delete the test calendar after sync')
+  .action(async (url, profileId, options) => {
+    const prisma = new PrismaClient()
+    console.log('Creating test calendar wirh URL: ', url)
+    console.log('Profile ID:', profileId)
+
+    const testCalendar = await prisma.calendar.create({
+      data: {
+        url: url,
+        profileId: profileId,
+        name: `Test Calendar ${Date.now()}`,
+        state: 'pending',
+      },
+    })
+    console.log('Created the test calendar with ID: ', testCalendar.id)
+
+    const calendarData = await fetchCalendarData(url)
+    console.log(`Fetched ${calendarData.events.length} events`)
+
+    const calendarWithEvents = await prisma.calendar.findUnique({
+      where: { id: testCalendar.id },
+      include: { events: true },
+    })
+
+    await saveCalendarData(testCalendar.id, calendarData, calendarWithEvents)
+
+    const results = await prisma.calendar.findUnique({
+      where: { id: testCalendar.id },
+      include: { events: true },
+    })
+    console.log('--------Sync Complete----------')
+    console.log(`Calendar: ${results.name}`)
+    console.log(`Total events: ${results.totalCount}`)
+    console.log(`Calendar events created: ${results.events.length}`)
+    console.log(`Approved: ${results.approvedCount}`)
+
+    if (options.cleanup) {
+      await prisma.calendarEvent.deleteMany({
+        where: { calendarId: testCalendar.id },
+      })
+      await prisma.calendar.delete({ where: { id: testCalendar.id } })
+      console.log('Cleaned up test calendar')
+    } else {
+      console.log(`Test calendar id: ${testCalendar.id}`)
+    }
+  })
 
 program
   .command('import')
