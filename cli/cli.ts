@@ -102,26 +102,30 @@ program.command('event:import <id>').action(async (eventId) => {
 program.command('calendar:fetch:debug <url>').action(async (url) => {
   console.log('Testing calendar fetch')
 
-  const calendarData = await fetchCalendarData(url)
+  try {
+    const calendarData = await fetchCalendarData(url)
 
-  console.log('--------Parse Results----------')
-  console.log(`Total events found: ${calendarData.totalCount}`)
-  console.log(`Past events (skipped): ${calendarData.pastCount}`)
-  console.log(`Upcoming events: ${calendarData.upcomingCount}`)
-  console.log(`Approved events: ${calendarData.approvedCount}`)
-  console.log(`Calendar name: ${calendarData.nameCandidate || 'Unknown'}`)
+    console.log('--------Parse Results----------')
+    console.log(`Total events found: ${calendarData.totalCount}`)
+    console.log(`Past events (skipped): ${calendarData.pastCount}`)
+    console.log(`Upcoming events: ${calendarData.upcomingCount}`)
+    console.log(`Approved events: ${calendarData.approvedCount}`)
+    console.log(`Calendar name: ${calendarData.nameCandidate || 'Unknown'}`)
 
-  console.log('--------Event Details----------')
-  calendarData.events.forEach((event, index) => {
-    console.log(`${index + 1}. ${event.name}`)
-    console.log(`   Start: ${new Date(event.startDate)}`)
-    console.log(`   Approved: ${event.approved}`)
-    console.log(`   Type: ${event.eventType || 'unknown'}`)
-    console.log(`   Location: ${event.location || 'none'}`)
-    console.log(`   Facebook ID: ${event.facebookId || 'none'}`)
-    console.log(`   Styles: ${event.styleHashtags?.join(', ') || 'none'}`)
-    console.log('---')
-  })
+    console.log('--------Event Details----------')
+    calendarData.events.forEach((event, index) => {
+      console.log(`${index + 1}. ${event.name}`)
+      console.log(`   Start: ${new Date(event.startDate)}`)
+      console.log(`   Approved: ${event.approved}`)
+      console.log(`   Type: ${event.eventType || 'unknown'}`)
+      console.log(`   Location: ${event.location || 'none'}`)
+      console.log(`   Facebook ID: ${event.facebookId || 'none'}`)
+      console.log(`   Styles: ${event.styleHashtags?.join(', ') || 'none'}`)
+      console.log('---')
+    })
+  } catch (error) {
+    console.error('error occured while fetching calendar details ', error)
+  }
 })
 
 program

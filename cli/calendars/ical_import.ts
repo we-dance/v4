@@ -129,11 +129,11 @@ export async function fetchCalendarData(url: string) {
       facebookId,
       providerItemId: vevent.uid,
       name: vevent.summary,
-      description: vevent.description || '',
-      startDate: vevent.start ? +vevent.start : '',
-      endDate: vevent.end ? +vevent.end : '',
-      sourceUrl: facebookUrl || vevent.url || '',
-      location: vevent.location || '',
+      description: vevent.description || null,
+      startDate: vevent.start ? +vevent.start : null,
+      endDate: vevent.end ? +vevent.end : null,
+      sourceUrl: facebookUrl || vevent.url || null,
+      location: vevent.location || null,
       eventType,
       approved,
       styleHashtags,
@@ -167,7 +167,7 @@ export async function saveCalendarData(
 
     let isNew = false
     const eventSlug = getSlug(event.name || null)
-    const eventStart = new Date(event.startDate)
+    const eventStart = event.startDate ? new Date(event.startDate) : new Date()
     const startOfDay = new Date(eventStart)
     startOfDay.setHours(0, 0, 0, 0)
     const endOfDay = new Date(eventStart)
@@ -199,8 +199,8 @@ export async function saveCalendarData(
           providerItemId: event.providerItemId,
           name: event.name || null,
           description: event.description || null,
-          startDate: new Date(event.startDate) || new Date(),
-          endDate: new Date(event.endDate) || new Date(),
+          startDate: event.startDate ? new Date(event.startDate) : new Date(),
+          endDate: event.endDate ? new Date(event.endDate) : new Date(),
           sourceUrl: event.sourceUrl || null,
           approved: event.approved,
           location: event.location || null,
@@ -213,8 +213,8 @@ export async function saveCalendarData(
         update: {
           name: event.name || null,
           description: event.description || null,
-          startDate: new Date(event.startDate) || new Date(),
-          endDate: new Date(event.endDate) || new Date(),
+          startDate: event.startDate ? new Date(event.startDate) : new Date(),
+          endDate: event.endDate ? new Date(event.endDate) : new Date(),
           sourceUrl: event.sourceUrl || null,
           approved: event.approved,
           location: event.location || null,
@@ -294,8 +294,10 @@ export async function saveCalendarData(
             data: {
               name: event.name,
               description: event.description || '',
-              startDate: new Date(event.startDate) || new Date(),
-              endDate: new Date(event.endDate) || new Date(),
+              startDate: event.startDate
+                ? new Date(event.startDate)
+                : new Date(),
+              endDate: event.endDate ? new Date(event.endDate) : new Date(),
               sourceUrl: facebookUrl || event.sourceUrl || '',
               creatorId: calendar.profileId,
               status: 'published',
