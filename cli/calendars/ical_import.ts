@@ -24,10 +24,13 @@ export async function syncCalendar(calendarId: string) {
     include: { events: true },
   })
   if (!calendar) {
-    throw new Error(`Calendar ${calendarId} not found`)
+    throw new Error('Calendar Not Found')
   }
+  const calendarData = await fetchCalendarData(calendar.url)
+  await saveCalendarData(calendarId, calendarData, calendar)
+}
 
-  let url = calendar.url
+export async function fetchCalendarData(url: string) {
   let pastCount = 0
   let newCount = 0
   let totalCount = 0
@@ -88,19 +91,16 @@ export async function syncCalendar(calendarId: string) {
       approvedCount++
     }
 
+    const styleHashtags = Object.keys(styles)
+
     let facebookId = ''
 
     if (vevent.uid?.includes('@facebook.com')) {
       facebookId = vevent.uid?.split('@')[0].replace(/^e/, '') || ''
     }
 
-    let isNew = false
-    const existingEvent = calendar.events.find(
-      (e: any) => e.providerItemId === vevent.uid
-    )
-
-    if (!existingEvent) {
-      isNew = true
+    let isNew = approved
+    if (isNew) {
       newCount++
     }
 
@@ -136,51 +136,96 @@ export async function syncCalendar(calendarId: string) {
       location: vevent.location || '',
       eventType,
       approved,
+      styleHashtags,
+    }
+    events.push(event)
+  }
+  return {
+    nameCandidate,
+    events,
+    totalCount,
+    pastCount,
+    newCount: approvedCount, // Only approved events count as "new" for this function
+    approvedCount,
+    upcomingCount: events.length,
+  }
+}
+
+export async function saveCalendarData(
+  calendarId: string,
+  calendarData: any,
+  calendar: any
+) {
+  const now = +new Date()
+  let newCount = 0
+  const processedEvents: any[] = []
+
+  for (const event of calendarData.events) {
+    const existingEvent = calendar.events.find(
+      (e: any) => e.providerItemId === event.providerItemId
+    )
+
+    let isNew = false
+    const eventSlug = getSlug(event.name || null)
+    const eventStart = new Date(event.startDate)
+    const startOfDay = new Date(eventStart)
+    startOfDay.setHours(0, 0, 0, 0)
+    const endOfDay = new Date(eventStart)
+    endOfDay.setHours(23, 59, 59, 999)
+
+    const facebookUrl =
+      event.sourceUrl && event.sourceUrl.includes('facebook.com')
+        ? event.sourceUrl
+        : null
+    const facebookId = event.facebookId
+
+    if (!existingEvent) {
+      isNew = true
+      newCount++
     }
 
-    if (isNew && approved) {
-      const styleHashtags = Object.keys(styles)
-
+    if (isNew && event.approved) {
+      const styleHashtags = event.styleHashtags || []
       const createdCalendarEvent = await prisma.calendarEvent.upsert({
         where: {
           calendarId_providerItemId: {
             calendarId: calendarId,
-            providerItemId: vevent.uid,
+            providerItemId: event.providerItemId,
           },
         },
 
         create: {
           calendarId,
-          providerItemId: vevent.uid,
-          name: vevent.summary || null,
-          description: vevent.description || null,
-          startDate: vevent.start ? new Date(vevent.start) : new Date(),
-          endDate: vevent.end ? new Date(vevent.end) : new Date(),
-          sourceUrl: facebookUrl || vevent.url || null,
-          approved: approved,
-          location: vevent.location || null,
-          facebookId: facebookId || null,
-          eventType: eventType,
+          providerItemId: event.providerItemId,
+          name: event.name || null,
+          description: event.description || null,
+          startDate: new Date(event.startDate) || new Date(),
+          endDate: new Date(event.endDate) || new Date(),
+          sourceUrl: event.sourceUrl || null,
+          approved: event.approved,
+          location: event.location || null,
+          facebookId: event.facebookId || null,
+          eventType: event.eventType,
           styles: {
-            connect: styleHashtags.map((hashtag) => ({ hashtag })),
+            connect: styleHashtags.map((hashtag: string) => ({ hashtag })),
           },
         },
         update: {
-          name: vevent.summary || null,
-          description: vevent.description || null,
-          startDate: vevent.start ? new Date(vevent.start) : new Date(),
-          endDate: vevent.end ? new Date(vevent.end) : new Date(),
-          sourceUrl: facebookUrl || vevent.url || null,
-          approved,
-          location: vevent.location || null,
-          facebookId: facebookId || null,
-          eventType: eventType,
+          name: event.name || null,
+          description: event.description || null,
+          startDate: new Date(event.startDate) || new Date(),
+          endDate: new Date(event.endDate) || new Date(),
+          sourceUrl: event.sourceUrl || null,
+          approved: event.approved,
+          location: event.location || null,
+          facebookId: event.facebookId || null,
+          eventType: event.eventType,
           styles: {
-            connect: styleHashtags.map((hashtag) => ({ hashtag })),
+            connect: styleHashtags.map((hashtag: string) => ({ hashtag })),
           },
         },
       })
-      const existingByFb = facebookId
+      const existingByFb = event.facebookId
         ? await prisma.calendarEvent.findFirst({
             where: { facebookId, eventId: { not: null } },
             select: { eventId: true },
@@ -242,16 +287,16 @@ export async function syncCalendar(calendarId: string) {
       } else {
         //Event doesnt exist  and not facebook, create a basic event
         console.log(
-          `[CALENDAR-SYNC] Creating basic event: ${vevent.summary} (sourceUrl: ${facebookUrl || vevent.url || 'none'})`
+          `[CALENDAR-SYNC] Creating basic event: ${event.name} (sourceUrl: ${facebookUrl || event.sourceUrl || 'none'})`
         )
         const newEvent = await prisma.$transaction(async (tx) => {
-          const event = await tx.event.create({
+          const newEventRecord = await tx.event.create({
             data: {
-              name: vevent.summary,
-              description: vevent.description || '',
-              startDate: vevent.start ? new Date(vevent.start) : new Date(),
-              endDate: vevent.end ? new Date(vevent.end) : new Date(),
-              sourceUrl: facebookUrl || vevent.url || '',
+              name: event.name,
+              description: event.description || '',
+              startDate: new Date(event.startDate) || new Date(),
+              endDate: new Date(event.endDate) || new Date(),
+              sourceUrl: facebookUrl || event.sourceUrl || '',
               creatorId: calendar.profileId,
               status: 'published',
               slug: eventSlug,
@@ -259,9 +304,9 @@ export async function syncCalendar(calendarId: string) {
           })
           await tx.calendarEvent.update({
             where: { id: createdCalendarEvent.id },
-            data: { eventId: event.id },
+            data: { eventId: newEventRecord.id },
           })
-          return event
+          return newEventRecord
         })
         event.eventId = newEvent.id
         console.log(
@@ -271,24 +316,24 @@ export async function syncCalendar(calendarId: string) {
     } else {
       event.eventId = existingEvent?.eventId || null
     }
-    events.push(event)
+    processedEvents.push(event)
   }
 
-  const upcomingCount = events.length
+  const upcomingCount = processedEvents.length
   const state = 'processed'
 
   await prisma.calendar.update({
     where: { id: calendarId },
     data: {
-      name: nameCandidate || calendar.name,
+      name: calendarData.nameCandidate || calendar.name,
       state,
       lastSyncedAt: new Date(now),
       upcomingCount,
-      approvedCount,
+      approvedCount: calendarData.approvedCount,
       newCount,
-      pastCount,
-      totalCount,
-      url,
+      pastCount: calendarData.pastCount,
+      totalCount: calendarData.totalCount,
+      url: calendar.url,
     },
   })
 }
