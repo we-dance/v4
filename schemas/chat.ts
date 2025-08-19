@@ -61,3 +61,20 @@ export const sendMessageSchema = z.object({
 })
 
 export type SendMessageInput = z.infer<typeof sendMessageSchema>
+
+export const chatEventSchema = z.discriminatedUnion('type', [
+  z.object({
+    type: z.literal('message.created'),
+    conversationId: z.string(),
+    messageId: z.string(),
+  }),
+  z.object({
+    type: z.literal('conversation.updated'),
+    conversationId: z.string(),
+    lastMessageId: z.string(),
+  }),
+])
+
+export type ChatEvent = z.infer<typeof chatEventSchema>
+
+export type ChatChannel = `conversation:${string}` | `inbox:${string}`
