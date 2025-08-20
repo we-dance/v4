@@ -142,25 +142,4 @@ export const chatRouter = router({
       } as ChatEvent)
       return msg
     }),
-
-  markSeen: publicProcedure
-    .input(z.object({ conversationId: z.string() }))
-    .mutation(async ({ ctx, input }) => {
-      const me = requireProfileId(ctx)
-      const conv = await prisma.conversation.findUnique({
-        where: { id: input.conversationId },
-        select: { aId: true, bId: true },
-      })
-      if (!conv || (conv.aId !== me && conv.bId !== me)) {
-        throw new TRPCError({ code: 'FORBIDDEN' })
-      }
-      await prisma.conversation.update({
-        where: { id: input.conversationId },
-        data:
-          conv.aId === me
-            ? { aLastSeenAt: new Date() }
-            : { bLastSeenAt: new Date() },
-      })
-      return { ok: true }
-    }),
 })
