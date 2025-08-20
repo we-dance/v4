@@ -49,7 +49,7 @@ export type ConversationWithDetails = z.infer<
 export const createConversationSchema = z.object({
   participantIds: z
     .array(z.string())
-    .min(1, 'At least one participant is required'),
+    .length(1, 'One participantis required for 1:1 chat'),
 })
 
 export type CreateConversationInput = z.infer<typeof createConversationSchema>
@@ -57,7 +57,7 @@ export type CreateConversationInput = z.infer<typeof createConversationSchema>
 // Input for sending a message
 export const sendMessageSchema = z.object({
   conversationId: z.string(),
-  content: z.string().min(1, 'Message cannot be empty'),
+  content: z.string().trim().min(1).max(500),
 })
 
 export type SendMessageInput = z.infer<typeof sendMessageSchema>
@@ -75,6 +75,11 @@ export const chatEventSchema = z.discriminatedUnion('type', [
   }),
 ])
 
-export type ChatEvent = z.infer<typeof chatEventSchema>
+export type ChatEvent = {
+  type: 'message.created' | 'conversation.updated'
+  conversationId: string
+  messageId?: string
+  lastMessageId?: string
+}
 
 export type ChatChannel = `conversation:${string}` | `inbox:${string}`
