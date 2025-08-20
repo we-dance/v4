@@ -8,8 +8,9 @@ import {
   type ChatEvent,
 } from '~/schemas/chat'
 import { publish } from '~/server/utils/sse'
+import type { Session } from 'next-auth'
 
-const requireProfileId = (ctx: { session?: { profile?: { id?: string } } }) => {
+const requireProfileId = (ctx: { session?: Session }) => {
   const id = ctx.session?.profile?.id
   if (!id) throw new TRPCError({ code: 'UNAUTHORIZED' })
   return id

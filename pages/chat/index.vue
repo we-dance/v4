@@ -169,7 +169,6 @@ function searchUsers() {
       // Replace with your actual API call to search users
       const results = await $client.profiles.search.query({
         query: searchQuery.value.trim(),
-        limit: 10,
       })
 
       searchResults.value = results

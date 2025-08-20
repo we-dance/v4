@@ -13,23 +13,39 @@ const { session } = useAppAuth()
 const currentUser = computed(() => session.value?.profile)
 
 const { $client } = useNuxtApp()
+
+interface ConversationData {
+  id: string
+  aId: string
+  bId: string
+  a: { id: string; name?: string; photo?: string }
+  b: { id: string; name?: string; photo?: string }
+  messages: Array<{
+    id: string
+    senderId: string
+    content: string
+    createdAt: string
+    sender: { id: string; name?: string; photo?: string }
+  }>
+}
+
 const {
   data: conversation,
-  isLoading,
+  pending: isLoading,
   error,
   refresh,
-} = useAsyncData(
-  () => `conversation-${props.conversationId}`,
-  () =>
-    $client.chat.getConversation.query({ conversationId: props.conversationId })
+} = useAsyncData(`conversation-${props.conversationId}`, () =>
+  $client.chat.getConversation.query({ conversationId: props.conversationId })
 )
 
 const otherParticipant = computed(() => {
   if (!conversation.value || !currentUser.value) return null
 
-  return conversation.value.participants.find(
-    (p) => p.profileId !== currentUser.value?.id
-  )
+  const conv = conversation.value as ConversationData
+  const currentUserId = currentUser.value?.id
+
+  // Return the participant that's not the current user
+  return conv.aId === currentUserId ? conv.b : conv.a
 })
 
 // Scroll to bottom when messages change

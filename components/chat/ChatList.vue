@@ -7,7 +7,7 @@ const currentUser = computed(() => session.value?.profile)
 // Fetch conversations
 const {
   data: conversations,
-  isLoading,
+  pending: isLoading,
   error,
   refresh,
 } = useAsyncData('conversations', () => $client.chat.getConversations.query())
@@ -25,11 +25,10 @@ onMounted(() => {
 
 // Get the other participant in a conversation
 function getOtherParticipant(conversation: any) {
-  if (!conversation?.participants || !currentUser.value) return null
+  if (!conversation?.receiver || !currentUser.value) return null
 
-  return conversation.participants.find(
-    (p: any) => p.profileId !== currentUser.value?.id
-  )
+  // Your backend already provides the 'receiver' which is the other participant
+  return conversation.receiver
 }
 
 // Get initials from name
