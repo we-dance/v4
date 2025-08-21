@@ -5,13 +5,13 @@ type Sink = NodeJS.WritableStream
 const channels = new Map<ChatChannel, Set<Sink>>()
 
 export function setupSSE(event: H3Event) {
-  const res = event.node.res
-  res.setHeader('Content-Type', 'text/event-stream')
-  res.setHeader('Cache-Control', 'no-cache, no-transform')
-  res.setHeader('Connection', 'keep-alive')
-
-  res.flushHeaders?.()
-  return res
+  setResponseHeaders(event, {
+    'Content-Type': 'text/event-stream',
+    'Cache-Control': 'no-cache, no-transform',
+    Connection: 'keep-alive',
+    'X-Accel-Buffering': 'no',
+  })
+  return event.node.res
 }
 
 export function subscribe(channel: ChatChannel, sink: Sink) {
@@ -22,8 +22,12 @@ export function subscribe(channel: ChatChannel, sink: Sink) {
 
 export function publish(channel: ChatChannel, evt: ChatEvent) {
   const sinks = channels.get(channel)
-  if (!sinks) return 0
+  if (!sinks) {
+    return 0
+  }
+
   const payload = `data: ${JSON.stringify(evt)}\n\n`
+  console.log(`Publishing to ${channel}:`, payload)
   for (const s of sinks) s.write(payload)
   return sinks.size
 }

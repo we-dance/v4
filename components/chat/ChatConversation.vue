@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref, computed, watch, nextTick, onMounted } from 'vue'
-
 const props = defineProps<{
   conversationId: string
 }>()
@@ -13,6 +11,36 @@ const { session } = useAppAuth()
 const currentUser = computed(() => session.value?.profile)
 
 const { $client } = useNuxtApp()
+let eventSource: EventSource | null = null
+onMounted(() => {
+  scrollToBottom()
+
+  eventSource = new EventSource(
+    `/api/chat/stream?conversationId=${props.conversationId}`
+  )
+
+  eventSource.onmessage = (event) => {
+    const data = JSON.parse(event.data)
+
+    if (
+      data.type === `message.created` &&
+      data.conversationId === props.conversationId
+    ) {
+      refresh()
+    }
+  }
+
+  eventSource.onerror = (error) => {
+    console.error('SSE CONNECTION ERROR:', error)
+  }
+})
+onUnmounted(() => {
+  if (eventSource) {
+    console.log('🔌 Closing ChatList SSE connection')
+    eventSource.close()
+    eventSource = null
+  }
+})
 
 interface ConversationData {
   id: string
@@ -56,10 +84,6 @@ watch(
   },
   { deep: true }
 )
-
-onMounted(() => {
-  scrollToBottom()
-})
 
 function scrollToBottom() {
   nextTick(() => {

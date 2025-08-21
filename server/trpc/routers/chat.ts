@@ -128,6 +128,7 @@ export const chatRouter = router({
             : { bLastSeenAt: new Date() }),
         },
       })
+      console.log('Publishing to conversation:', conv.id)
       publish(`conversation:${conv.id}`, {
         type: 'message.created',
         conversationId: conv.id,
@@ -135,6 +136,7 @@ export const chatRouter = router({
       } as ChatEvent)
 
       const other = conv.aId === me ? conv.bId : conv.aId
+      console.log('Publishing to inbox:', other)
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
         conversationId: conv.id,
