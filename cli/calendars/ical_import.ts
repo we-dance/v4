@@ -50,7 +50,7 @@ export async function fetchCalendarData(url: string) {
   try {
     res = await axios.get(url, {
       timeout: 15000,
-      headers: { 'User-Agent': 'WeDance/CalendarSync (+https://we.dance)' },
+      headers: { 'User-Agent': 'WeDance/CalendarSync (+https://wedance.vip/)' },
     })
   } catch (e) {
     console.error('[calendar-sync] fetch failed:', e)
