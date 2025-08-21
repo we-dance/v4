@@ -1,3 +1,19 @@
+<script setup lang="ts">
+interface Props {
+  show?: string
+  hide?: string
+  expanded?: boolean
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  show: 'Show more',
+  hide: 'Show less',
+  expanded: false,
+})
+
+const expandedValue = ref(props.expanded)
+</script>
+
 <template>
   <div :class="expandedValue ? '' : 'h-20 overflow-y-hidden relative'">
     <slot />
@@ -16,19 +32,3 @@
     </Button>
   </div>
 </template>
-
-<script setup lang="ts">
-interface Props {
-  show?: string
-  hide?: string
-  expanded?: boolean
-}
-
-const props = withDefaults(defineProps<Props>(), {
-  show: 'Show more',
-  hide: 'Show less',
-  expanded: false,
-})
-
-const expandedValue = ref(props.expanded)
-</script>

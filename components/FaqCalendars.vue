@@ -1,3 +1,36 @@
+<script setup lang="ts">
+const { tm } = useI18n()
+
+interface FaqItem {
+  question: string
+  answer: string
+}
+
+const title = ref('FAQs')
+
+const faqs = computed((): FaqItem[] => {
+  const result = tm('faqs.calendars') as any[]
+
+  if (!Array.isArray(result)) return []
+  return result.map((faq: any) => ({
+    question:
+      typeof faq?.question === 'string'
+        ? faq.question
+        : (faq?.question?.loc?.source ?? ''),
+    answer:
+      typeof faq?.answer === 'string'
+        ? faq.answer
+        : (faq?.answer?.loc?.source ?? ''),
+  }))
+})
+
+const open = ref<Record<number, boolean>>({})
+
+function toggle(index: number) {
+  open.value[index] = !open.value[index]
+}
+</script>
+
 <template>
   <div class="container py-6 space-y-6">
     <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
@@ -46,36 +79,3 @@
     </dl>
   </div>
 </template>
-
-<script setup lang="ts">
-const { tm } = useI18n()
-
-interface FaqItem {
-  question: string
-  answer: string
-}
-
-const title = ref('FAQs')
-
-const faqs = computed((): FaqItem[] => {
-  const result = tm('faqs.calendars') as any[]
-
-  if (!Array.isArray(result)) return []
-  return result.map((faq: any) => ({
-    question:
-      typeof faq?.question === 'string'
-        ? faq.question
-        : (faq?.question?.loc?.source ?? ''),
-    answer:
-      typeof faq?.answer === 'string'
-        ? faq.answer
-        : (faq?.answer?.loc?.source ?? ''),
-  }))
-})
-
-const open = ref<Record<number, boolean>>({})
-
-function toggle(index: number) {
-  open.value[index] = !open.value[index]
-}
-</script>

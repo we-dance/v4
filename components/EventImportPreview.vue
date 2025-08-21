@@ -1,3 +1,84 @@
+<script setup lang="ts">
+import { format, isValid, parseISO } from 'date-fns'
+
+type StyleObj = {
+  id?: string | number
+  name?: string | null
+  hashtag?: string | null
+}
+
+interface Item {
+  id?: string
+  name?: string | null
+  description?: string | null
+  startDate?: string | Date | null
+  endDate?: string | Date | null
+  eventType?: string | null
+  styles?: Record<string, any> | StyleObj[] | null
+  eventId?: string | null
+  approved?: boolean | null
+  isNew?: boolean | null
+  role?: string | null
+  location?: string | null
+  venue?: { name?: string | null } | null
+  org?: { username?: string | null } | null
+  online?: 'Yes' | 'No' | null
+  cover?: string | null
+}
+
+interface Props {
+  item: Item
+  isEmbed?: boolean
+  showDate?: boolean
+}
+
+withDefaults(defineProps<Props>(), {
+  isEmbed: false,
+  showDate: false,
+})
+
+function formatDate(date: string | Date | null | undefined, fmt: string) {
+  if (!date) return ''
+  const d = typeof date === 'string' ? parseISO(date) : date
+  return isValid(d as Date) ? format(d as Date, fmt) : ''
+}
+
+const eventTypeLabels: Record<string, string> = {
+  Party: 'Party',
+  Workshop: 'Workshop',
+  Course: 'Course',
+  Weekender: 'Weekender',
+  Festival: 'Festival',
+  Congress: 'Congress',
+  Concert: 'Concert',
+  Show: 'Show',
+  Other: 'Other',
+}
+function getEventTypeLabel(t?: string | null) {
+  if (!t) return ''
+  return eventTypeLabels[t] || t
+}
+
+function getStyles(
+  styles: Props['item']['styles'],
+  start = 0,
+  _highlighted = false,
+  limit = 0
+): Array<{ name: string }> {
+  if (!styles) return []
+  let arr: Array<{ name: string }> = []
+
+  if (Array.isArray(styles)) {
+    arr = styles.map((s) => ({ name: (s?.name ?? s?.hashtag ?? '') as string }))
+  } else {
+    arr = Object.keys(styles).map((key) => ({ name: key }))
+  }
+
+  const sliced = limit ? arr.slice(start, start + limit) : arr.slice(start)
+  return sliced.filter((s) => s.name)
+}
+</script>
+
 <template>
   <div class="flex border-b px-6 py-4 gap-6">
     <div class="w-12 flex-shrink-0 text-center">
@@ -79,84 +160,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { format, isValid, parseISO } from 'date-fns'
-
-type StyleObj = {
-  id?: string | number
-  name?: string | null
-  hashtag?: string | null
-}
-
-interface Item {
-  id?: string
-  name?: string | null
-  description?: string | null
-  startDate?: string | Date | null
-  endDate?: string | Date | null
-  eventType?: string | null
-  styles?: Record<string, any> | StyleObj[] | null
-  eventId?: string | null
-  approved?: boolean | null
-  isNew?: boolean | null
-  role?: string | null
-  location?: string | null
-  venue?: { name?: string | null } | null
-  org?: { username?: string | null } | null
-  online?: 'Yes' | 'No' | null
-  cover?: string | null
-}
-
-interface Props {
-  item: Item
-  isEmbed?: boolean
-  showDate?: boolean
-}
-
-withDefaults(defineProps<Props>(), {
-  isEmbed: false,
-  showDate: false,
-})
-
-function formatDate(date: string | Date | null | undefined, fmt: string) {
-  if (!date) return ''
-  const d = typeof date === 'string' ? parseISO(date) : date
-  return isValid(d as Date) ? format(d as Date, fmt) : ''
-}
-
-const eventTypeLabels: Record<string, string> = {
-  Party: 'Party',
-  Workshop: 'Workshop',
-  Course: 'Course',
-  Weekender: 'Weekender',
-  Festival: 'Festival',
-  Congress: 'Congress',
-  Concert: 'Concert',
-  Show: 'Show',
-  Other: 'Other',
-}
-function getEventTypeLabel(t?: string | null) {
-  if (!t) return ''
-  return eventTypeLabels[t] || t
-}
-
-function getStyles(
-  styles: Props['item']['styles'],
-  start = 0,
-  _highlighted = false,
-  limit = 0
-): Array<{ name: string }> {
-  if (!styles) return []
-  let arr: Array<{ name: string }> = []
-
-  if (Array.isArray(styles)) {
-    arr = styles.map((s) => ({ name: (s?.name ?? s?.hashtag ?? '') as string }))
-  } else {
-    arr = Object.keys(styles).map((key) => ({ name: key }))
-  }
-
-  const sliced = limit ? arr.slice(start, start + limit) : arr.slice(start)
-  return sliced.filter((s) => s.name)
-}
-</script>
