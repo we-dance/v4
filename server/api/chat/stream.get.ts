@@ -2,6 +2,21 @@ import { defineEventHandler, getQuery, setResponseStatus } from '#imports'
 import { getServerSession } from '#auth'
 import type { ChatChannel } from '~/schemas/chat'
 import { setupSSE, subscribe } from '#imports'
+import { prisma } from '~/server/prisma'
+
+async function hasAccessToConversation(
+  conversationId: string,
+  profileId: string
+) {
+  const conversation = await prisma.conversation.findUnique({
+    where: { id: conversationId },
+    select: { aId: true, bId: true },
+  })
+  return (
+    !!conversation &&
+    (conversation.aId === profileId || conversation.bId === profileId)
+  )
+}
 
 export default defineEventHandler(async (event) => {
   console.log('SSE Connection started')
@@ -14,6 +29,13 @@ export default defineEventHandler(async (event) => {
 
   const convId =
     typeof q.conversationId === 'string' ? q.conversationId : undefined
+
+  if (!session) {
+    setResponseStatus(event, 401)
+    res.end()
+    return
+  }
+
   const channel: ChatChannel | undefined = convId
     ? (`conversation:${convId}` as const)
     : profileId
@@ -26,6 +48,15 @@ export default defineEventHandler(async (event) => {
     setResponseStatus(event, 401)
     res.end()
     return
+  }
+
+  if (convId) {
+    const ok = await hasAccessToConversation(convId, profileId!)
+    if (!ok) {
+      setResponseStatus(event, 403)
+      res.end()
+      return
+    }
   }
 
   const unsubscribe = subscribe(channel, res)

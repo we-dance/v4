@@ -653,7 +653,7 @@ model Conversation {
   bId           String
   aLastSeenAt   DateTime @default(now())
   bLastSeenAt   DateTime @default(now())
-  lastMessageId String?
+  lastMessageId String?  @unique
   lastMessage   Message? @relation("LastMessage", fields: [lastMessageId], references: [id])
 
   messages Message[] @relation("ConversationMessages")
@@ -680,7 +680,7 @@ model Message {
   conversation Conversation @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
   sender       Profile      @relation(fields: [senderId], references: [id])
 
-  lastMessageFor Conversation[] @relation("LastMessage")
+  lastMessageFor Conversation? @relation("LastMessage")
 
   @@index([conversationId, createdAt])
 }

@@ -94,8 +94,7 @@ export const chatRouter = router({
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
         conversationId: created.id,
-        lastMessageId: '',
-      } as ChatEvent)
+      })
       return created
     }),
 
@@ -110,30 +109,33 @@ export const chatRouter = router({
       })
       if (!conv) throw new TRPCError({ code: 'FORBIDDEN' })
 
-      const msg = await prisma.message.create({
-        data: {
-          conversationId: conv.id,
-          senderId: me,
-          content: input.content.trim(),
-        },
-        include: { sender: true },
+      const msg = await prisma.$transaction(async (tx) => {
+        const createdMessage = await tx.message.create({
+          data: {
+            conversationId: conv.id,
+            senderId: me,
+            content: input.content.trim(),
+          },
+          include: { sender: true },
+        })
+        await tx.conversation.update({
+          where: { id: conv.id },
+          data: {
+            lastMessageId: createdMessage.id,
+            ...(conv.aId === me
+              ? { aLastSeenAt: new Date() }
+              : { bLastSeenAt: new Date() }),
+          },
+        })
+        return createdMessage
       })
 
-      await prisma.conversation.update({
-        where: { id: conv.id },
-        data: {
-          lastMessageId: msg.id,
-          ...(conv.aId === me
-            ? { aLastSeenAt: new Date() }
-            : { bLastSeenAt: new Date() }),
-        },
-      })
       console.log('Publishing to conversation:', conv.id)
       publish(`conversation:${conv.id}`, {
         type: 'message.created',
         conversationId: conv.id,
         messageId: msg.id,
-      } as ChatEvent)
+      })
 
       const other = conv.aId === me ? conv.bId : conv.aId
       console.log('Publishing to inbox:', other)
@@ -141,7 +143,7 @@ export const chatRouter = router({
         type: 'conversation.updated',
         conversationId: conv.id,
         lastMessageId: msg.id,
-      } as ChatEvent)
+      })
       return msg
     }),
 })

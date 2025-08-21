@@ -57,8 +57,25 @@ export type CreateConversationInput = z.infer<typeof createConversationSchema>
 // Input for sending a message
 export const sendMessageSchema = z.object({
   conversationId: z.string(),
-  content: z.string().trim().min(1).max(500),
+  content: z
+    .string()
+    .transform((s) => s.trim())
+    .refine(
+      (s) => graphemeCount(s) >= 1 && graphemeCount(s) <= 500,
+      'Message must be 1–500 characters.'
+    ),
 })
+
+const segmenter =
+  typeof Intl !== 'undefined' && (Intl as any).Segmenter
+    ? new Intl.Segmenter(undefined, { granularity: 'grapheme' })
+    : undefined
+
+export function graphemeCount(s: string) {
+  if (segmenter) return Array.from(segmenter.segment(s)).length
+  // Fallback: code point length (not perfect for complex clusters but better than code units)
+  return Array.from(s).length
+}
 
 export type SendMessageInput = z.infer<typeof sendMessageSchema>
 
@@ -71,15 +88,10 @@ export const chatEventSchema = z.discriminatedUnion('type', [
   z.object({
     type: z.literal('conversation.updated'),
     conversationId: z.string(),
-    lastMessageId: z.string(),
+    lastMessageId: z.string().optional(),
   }),
 ])
 
-export type ChatEvent = {
-  type: 'message.created' | 'conversation.updated'
-  conversationId: string
-  messageId?: string
-  lastMessageId?: string
-}
+export type ChatEvent = z.infer<typeof chatEventSchema>
 
 export type ChatChannel = `conversation:${string}` | `inbox:${string}`

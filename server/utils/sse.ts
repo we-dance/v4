@@ -1,4 +1,4 @@
-import type { H3Event } from 'h3'
+import { setResponseHeaders, type H3Event } from 'h3'
 import type { ChatChannel, ChatEvent } from '~/schemas/chat'
 
 type Sink = NodeJS.WritableStream
