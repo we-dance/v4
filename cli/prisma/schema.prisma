@@ -199,7 +199,10 @@ model Profile {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  calendars Calendar[] @relation("calendar_owner")
+  calendars       Calendar[]     @relation("calendar_owner")
+  ConversationAsA Conversation[] @relation("AProfile")
+  ConversationAsB Conversation[] @relation("BProfile")
+  messages        Message[]
 
   @@index([photo])
   @@index([userId])
@@ -291,9 +294,8 @@ model Event {
   guests          Guest[]          @relation("event_guests")
   ticketPurchases TicketPurchase[] @relation("event_purchases")
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
   calendarEvents CalendarEvent[] @relation("calendar_event_to_event")
 }
 
@@ -423,14 +425,13 @@ model Guest {
   ticketPurchases TicketPurchase[]
 
   role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
-  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "interested", "declined", "no_show"
+  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"
 
   invitedAt    DateTime?
   confirmedAt  DateTime?
   cancelledAt  DateTime?
   registeredAt DateTime?
   waitlistedAt DateTime?
-  checkedInAt  DateTime? // When the guest checked in to the event
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -649,4 +650,43 @@ model CalendarEvent {
   @@index([startDate])
   @@index([calendarId, startDate])
   @@index([facebookId])
+}
+
+model Conversation {
+  id            String   @id @default(cuid())
+  pairKey       String   @unique // `${min(aId,bId)}-${max(aId,bId)}`
+  aId           String
+  bId           String
+  aLastSeenAt   DateTime @default(now())
+  bLastSeenAt   DateTime @default(now())
+  lastMessageId String?
+  lastMessage   Message? @relation("LastMessage", fields: [lastMessageId], references: [id])
+
+  messages Message[] @relation("ConversationMessages")
+
+  a Profile @relation("AProfile", fields: [aId], references: [id])
+  b Profile @relation("BProfile", fields: [bId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([aId])
+  @@index([bId])
+}
+
+model Message {
+  id             String   @id @default(cuid())
+  conversationId String
+  senderId       String
+  content        String
+  isDeleted      Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  conversation Conversation @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
+  sender       Profile      @relation(fields: [senderId], references: [id])
+
+  lastMessageFor Conversation[] @relation("LastMessage")
+
+  @@index([conversationId, createdAt])
 }
