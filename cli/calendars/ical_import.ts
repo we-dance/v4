@@ -117,7 +117,6 @@ export async function fetchCalendarData(url: string) {
       } catch {}
     }
 
-    const eventSlug = getSlug(vevent.summary || '')
     const eventStart = vevent.start ? new Date(vevent.start) : new Date()
     const startOfDay = new Date(eventStart)
     startOfDay.setHours(0, 0, 0, 0)
@@ -166,7 +165,7 @@ export async function saveCalendarData(
     )
 
     let isNew = false
-    const eventSlug = getSlug(event.name || null)
+    const eventSlug = getSlug(event.name || '')
     const eventStart = event.startDate ? new Date(event.startDate) : new Date()
     const startOfDay = new Date(eventStart)
     startOfDay.setHours(0, 0, 0, 0)

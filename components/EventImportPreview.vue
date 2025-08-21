@@ -28,12 +28,10 @@ interface Item {
 
 interface Props {
   item: Item
-  isEmbed?: boolean
   showDate?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
-  isEmbed: false,
   showDate: false,
 })
 
