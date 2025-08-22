@@ -2,11 +2,7 @@ import { z } from 'zod'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { TRPCError } from '@trpc/server'
 import { prisma } from '~/server/prisma'
-import {
-  createConversationSchema,
-  sendMessageSchema,
-  type ChatEvent,
-} from '~/schemas/chat'
+import { createConversationSchema, sendMessageSchema } from '~/schemas/chat'
 import { publish } from '~/server/utils/sse'
 import type { Session } from 'next-auth'
 
@@ -16,8 +12,7 @@ const requireProfileId = (ctx: { session?: Session }) => {
   return id
 }
 
-const pairKeyFor = (a: string, b: string) =>
-  [a, b].sort((x, y) => ('' + x).localeCompare(y)).join('-')
+const pairKeyFor = (a: string, b: string) => (a < b ? `${a}-${b}` : `${b}-${a}`)
 
 export const chatRouter = router({
   // Get all conversations for the current user
@@ -30,8 +25,6 @@ export const chatRouter = router({
     })
     return convs.map((c) => {
       const iAmA = c.aId === me
-      const lastSeen = iAmA ? c.aLastSeenAt : c.bLastSeenAt
-      const unread = c.lastMessage ? c.lastMessage.createdAt > lastSeen : false
       const receiver = iAmA ? c.b : c.a
       return {
         id: c.id,
@@ -39,7 +32,6 @@ export const chatRouter = router({
         updatedAt: c.updatedAt,
         participants: [{ profileId: c.aId }, { profileId: c.bId }],
         lastMessage: c.lastMessage ?? null,
-        unread,
         receiver,
       }
     })
@@ -75,6 +67,14 @@ export const chatRouter = router({
       const other = input.participantIds[0]
       if (!other || other === me) throw new TRPCError({ code: 'BAD_REQUEST' })
 
+      const otherProfile = await prisma.profile.findUnique({
+        where: { id: other },
+        select: { id: true },
+      })
+      if (!otherProfile) {
+        throw new TRPCError({ code: 'NOT_FOUND' })
+      }
+
       const key = pairKeyFor(me, other)
       const existing = await prisma.conversation.findUnique({
         where: { pairKey: key },
@@ -107,7 +107,7 @@ export const chatRouter = router({
         where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
         select: { id: true, aId: true, bId: true },
       })
-      if (!conv) throw new TRPCError({ code: 'FORBIDDEN' })
+      if (!conv) throw new TRPCError({ code: 'NOT_FOUND' })
 
       const msg = await prisma.$transaction(async (tx) => {
         const createdMessage = await tx.message.create({

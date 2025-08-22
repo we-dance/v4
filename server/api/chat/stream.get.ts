@@ -61,13 +61,21 @@ export default defineEventHandler(async (event) => {
 
   const unsubscribe = subscribe(channel, res)
   console.log('Subscribed to channel:', channel)
-  const close = () => {
-    unsubscribe()
-    res.end()
-  }
-  event.node.req.on('close', close)
-  event.node.req.on('aborted', close)
   const hb = setInterval(() => res.write(':hb\n\n'), 25000)
-  event.node.req.on('close', () => clearInterval(hb))
+
+  let cleaned = false
+  const cleanup = () => {
+    if (cleaned) return
+    cleaned = true
+    clearInterval(hb)
+    try {
+      unsubscribe()
+    } catch {}
+    try {
+      res.end()
+    } catch {}
+  }
+  event.node.req.on('close', cleanup)
+  event.node.req.on('aborted', cleanup)
   return new Promise(() => {})
 })

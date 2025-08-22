@@ -49,7 +49,7 @@ export type ConversationWithDetails = z.infer<
 export const createConversationSchema = z.object({
   participantIds: z
     .array(z.string())
-    .length(1, 'One participantis required for 1:1 chat'),
+    .length(1, 'Exactly one participant is required for 1:1 chat'),
 })
 
 export type CreateConversationInput = z.infer<typeof createConversationSchema>

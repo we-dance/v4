@@ -16,8 +16,17 @@ export function setupSSE(event: H3Event) {
 
 export function subscribe(channel: ChatChannel, sink: Sink) {
   if (!channels.has(channel)) channels.set(channel, new Set())
-  channels.get(channel)!.add(sink)
-  return () => channels.get(channel)?.delete(sink)
+  const set = channels.get(channel)!
+  set.add(sink)
+  const cleanup = () => {
+    set.delete(sink)
+    if (set.size === 0) channels.delete(channel)
+  }
+  // Best-effort cleanup
+  sink.on?.('close', cleanup)
+  //ts-expect-error
+  sink.on?.('error', cleanup)
+  return cleanup
 }
 
 export function publish(channel: ChatChannel, evt: ChatEvent) {
@@ -25,9 +34,16 @@ export function publish(channel: ChatChannel, evt: ChatEvent) {
   if (!sinks) {
     return 0
   }
-
   const payload = `data: ${JSON.stringify(evt)}\n\n`
-  console.log(`Publishing to ${channel}:`, payload)
-  for (const s of sinks) s.write(payload)
-  return sinks.size
+  let delivered = 0
+  for (const s of Array.from(sinks)) {
+    try {
+      s.write(payload)
+      delivered++
+    } catch {
+      sinks.delete(s)
+    }
+  }
+  if (sinks.size === 0) channels.delete(channel)
+  return delivered
 }

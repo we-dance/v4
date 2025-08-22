@@ -12,35 +12,42 @@ const currentUser = computed(() => session.value?.profile)
 
 const { $client } = useNuxtApp()
 let eventSource: EventSource | null = null
-onMounted(() => {
-  scrollToBottom()
 
-  eventSource = new EventSource(
-    `/api/chat/stream?conversationId=${props.conversationId}`
-  )
+function setupEventSource(id: string) {
+  eventSource?.close()
+  eventSource = new EventSource(`/api/chat/stream?conversationId=${id}`)
 
   eventSource.onmessage = (event) => {
     const data = JSON.parse(event.data)
-
-    if (
-      data.type === `message.created` &&
-      data.conversationId === props.conversationId
-    ) {
+    if (data.type === `message.created` && data.conversationId === id) {
       refresh()
     }
   }
-
   eventSource.onerror = (error) => {
     console.error('SSE CONNECTION ERROR:', error)
   }
+}
+
+onMounted(() => {
+  scrollToBottom()
+  setupEventSource(props.conversationId)
 })
 onUnmounted(() => {
   if (eventSource) {
-    console.log('🔌 Closing ChatList SSE connection')
+    console.log('Closing ChatConversation SSE connection')
     eventSource.close()
     eventSource = null
   }
 })
+
+watch(
+  () => props.conversationId,
+  (newId, oldId) => {
+    if (newId && newId !== oldId) {
+      setupEventSource(newId)
+    }
+  }
+)
 
 interface ConversationData {
   id: string
@@ -78,11 +85,10 @@ const otherParticipant = computed(() => {
 
 // Scroll to bottom when messages change
 watch(
-  () => conversation.value?.messages,
+  () => conversation.value?.messages?.length,
   () => {
     scrollToBottom()
-  },
-  { deep: true }
+  }
 )
 
 function scrollToBottom() {
@@ -136,18 +142,20 @@ function formatTime(timestamp: string | Date) {
 }
 
 async function sendMessage() {
-  if (!newMessage.value.trim() || isSending.value) return
-
+  const content = newMessage.value.trim()
+  if (!content || isSending.value) return
+  if (content.length > 500) {
+    //optionally surface a toast here for use
+    return
+  }
   try {
     isSending.value = true
-
     await $client.chat.sendMessage.mutate({
       conversationId: props.conversationId,
-      content: newMessage.value.trim(),
+      content,
     })
-
     newMessage.value = ''
-    await refresh()
+    //The SSE listener will handle refreshing the conversation data
   } catch (err) {
     console.error('Failed to send message:', err)
   } finally {
@@ -259,6 +267,7 @@ async function sendMessage() {
           placeholder="Type a message..."
           class="flex-1 border rounded-l-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary dark:bg-gray-800 dark:border-gray-700"
           :disabled="isSending"
+          :maxlength="500"
         />
         <button
           type="submit"
@@ -273,6 +282,9 @@ async function sendMessage() {
           <span v-else>Send</span>
         </button>
       </form>
+      <div class="mt-1 text-xs text-gray-500 text-right">
+        {{ newMessage.length }}/500
+      </div>
     </div>
   </div>
 </template>

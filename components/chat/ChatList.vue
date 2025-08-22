@@ -12,23 +12,27 @@ const {
   refresh,
 } = useAsyncData('conversations', () => $client.chat.getConversations.query())
 
-// Refresh conversations every minute
+let inboxEs: EventSource | null = null
+
+// Refresh conversations based on real time updates
 onMounted(() => {
-  const interval = setInterval(() => {
-    refresh()
-  }, 60000)
+  if (currentUser.value?.id) {
+    inboxEs = new EventSource('/api/chat/stream')
+
+    inboxEs.addEventListener('conversation.updated', () => {
+      refresh()
+    })
+  }
 
   onUnmounted(() => {
-    clearInterval(interval)
+    inboxEs?.close()
+    inboxEs = null
   })
 })
 
 // Get the other participant in a conversation
 function getOtherParticipant(conversation: any) {
-  if (!conversation?.receiver || !currentUser.value) return null
-
-  // Your backend already provides the 'receiver' which is the other participant
-  return conversation.receiver
+  return conversation?.receiver ?? null
 }
 
 // Get initials from name
@@ -85,7 +89,7 @@ function formatTime(timestamp: string | Date) {
 
     <!-- Error state -->
     <div v-else-if="error" class="p-4 text-red-500">
-      {{ error }}
+      {{ (error as any)?.message || 'Failed to load conversations.' }}
     </div>
 
     <!-- Empty state -->
@@ -113,7 +117,7 @@ function formatTime(timestamp: string | Date) {
             <img
               v-if="getOtherParticipant(conversation)?.photo"
               :src="getOtherParticipant(conversation)?.photo"
-              alt="Profile"
+              :alt="`Profile photo of ${getOtherParticipant(conversation)?.name || 'user'}`"
               class="h-12 w-12 rounded-full object-cover"
             />
             <div
