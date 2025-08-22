@@ -21,7 +21,15 @@ export const chatRouter = router({
     const convs = await prisma.conversation.findMany({
       where: { OR: [{ aId: me }, { bId: me }] },
       orderBy: { updatedAt: 'desc' },
-      include: { lastMessage: true, a: true, b: true },
+      include: {
+        a: true,
+        b: true,
+        messages: {
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+          include: { sender: true },
+        },
+      },
     })
     return convs.map((c) => {
       const iAmA = c.aId === me
@@ -31,7 +39,7 @@ export const chatRouter = router({
         createdAt: c.createdAt,
         updatedAt: c.updatedAt,
         participants: [{ profileId: c.aId }, { profileId: c.bId }],
-        lastMessage: c.lastMessage ?? null,
+        messages: c.messages,
         receiver,
       }
     })
@@ -43,19 +51,21 @@ export const chatRouter = router({
     .query(async ({ ctx, input }) => {
       const me = requireProfileId(ctx)
       const c = await prisma.conversation.findFirst({
-        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
+        where: { id: input.conversationId },
         include: {
           messages: {
             orderBy: { createdAt: 'asc' },
             take: 200,
             include: { sender: true },
           },
-          lastMessage: true,
           a: true,
           b: true,
         },
       })
       if (!c) throw new TRPCError({ code: 'NOT_FOUND' })
+      if (c.aId !== me && c.bId !== me) {
+        throw new TRPCError({ code: 'UNAUTHORIZED' })
+      }
       return c
     }),
 
@@ -78,7 +88,7 @@ export const chatRouter = router({
       const key = pairKeyFor(me, other)
       const existing = await prisma.conversation.findUnique({
         where: { pairKey: key },
-        include: { lastMessage: true, a: true, b: true },
+        include: { a: true, b: true },
       })
       if (existing) return existing
 
@@ -88,7 +98,7 @@ export const chatRouter = router({
           aId: key.startsWith(me) ? me : other,
           bId: key.startsWith(me) ? other : me,
         },
-        include: { lastMessage: true, a: true, b: true },
+        include: { a: true, b: true },
       })
 
       publish(`inbox:${other}`, {
@@ -121,7 +131,6 @@ export const chatRouter = router({
         await tx.conversation.update({
           where: { id: conv.id },
           data: {
-            lastMessageId: createdMessage.id,
             ...(conv.aId === me
               ? { aLastSeenAt: new Date() }
               : { bLastSeenAt: new Date() }),
@@ -142,7 +151,6 @@ export const chatRouter = router({
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
         conversationId: conv.id,
-        lastMessageId: msg.id,
       })
       return msg
     }),

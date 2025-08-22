@@ -44,8 +44,8 @@ export default defineEventHandler(async (event) => {
   console.log('Channel:', channel)
 
   if (!channel) {
-    console.log('No channel, returning 401')
-    setResponseStatus(event, 401)
+    console.log('No channel, returning 400')
+    setResponseStatus(event, 400)
     res.end()
     return
   }

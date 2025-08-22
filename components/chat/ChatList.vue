@@ -4,6 +4,12 @@ const { session } = useAppAuth()
 const { $client } = useNuxtApp()
 const currentUser = computed(() => session.value?.profile)
 
+//get the last Message from messages array
+const getLastMessage = (conversation: any) => {
+  if (!conversation.messages?.length) return null
+  return conversation.messages[0]
+}
+
 // Fetch conversations
 const {
   data: conversations,
@@ -137,15 +143,15 @@ function formatTime(timestamp: string | Date) {
                 {{ getOtherParticipant(conversation)?.name || 'Unknown User' }}
               </h3>
               <span
-                v-if="conversation.lastMessage?.createdAt"
+                v-if="getLastMessage(conversation)?.createdAt"
                 class="text-xs text-gray-500"
               >
-                {{ formatTime(conversation.lastMessage.createdAt) }}
+                {{ formatTime(getLastMessage(conversation).createdAt) }}
               </span>
             </div>
 
             <p class="text-sm text-gray-500 truncate mt-1">
-              {{ conversation.lastMessage?.content || 'No messages yet' }}
+              {{ getLastMessage(conversation)?.content || 'No messages yet' }}
             </p>
           </div>
         </div>
