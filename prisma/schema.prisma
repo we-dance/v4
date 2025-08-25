@@ -602,10 +602,19 @@ model Calendar {
   state        String    @default("pending") // pending, processing, processed, failed
   lastSyncedAt DateTime?
 
+  newCount      Int @default(0)
+  pastCount     Int @default(0)
+  totalCount    Int @default(0)
+  approvedCount Int @default(0)
+  upcomingCount Int @default(0)
+
   events CalendarEvent[] @relation("calendar_events")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@unique([profileId, url])
+  @@index([profileId])
 }
 
 model CalendarEvent {
@@ -613,7 +622,7 @@ model CalendarEvent {
   eventId    String?
   event      Event?   @relation("calendar_event_to_event", fields: [eventId], references: [id], onDelete: SetNull)
   calendarId String
-  calendar   Calendar @relation("calendar_events", fields: [calendarId], references: [id])
+  calendar   Calendar @relation("calendar_events", fields: [calendarId], references: [id], onDelete: Cascade)
 
   providerItemId String //original iCal uid
   name           String?
