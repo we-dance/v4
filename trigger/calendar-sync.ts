@@ -2,7 +2,6 @@ import { task, logger, schedules } from '@trigger.dev/sdk/v3'
 import { prisma } from '~/server/prisma'
 import { syncCalendar } from '~/cli/calendars/ical_import'
 
-//replaces onCalendarUpdate (event-based)
 export const syncSingleCalendar = task({
   id: 'sync-single-calendar',
   run: async (payload: { calendarId: string }) => {
@@ -16,7 +15,10 @@ export const syncSingleCalendar = task({
       await syncCalendar(payload.calendarId)
       await prisma.calendar.update({
         where: { id: payload.calendarId },
-        data: { state: 'processed' },
+        data: {
+          state: 'processed',
+          lastSyncedAt: new Date(),
+        },
       })
     } catch (error) {
       logger.error(String(error))
@@ -29,7 +31,7 @@ export const syncSingleCalendar = task({
       })
       throw error
     }
-    return { calendarId: payload.calendarId, status: 'completed' }
+    return { calendarId: payload.calendarId, status: 'processed' }
   },
 })
 
@@ -46,8 +48,7 @@ export const syncCalendars = schedules.task({
         prisma.calendar.update({
           where: { id: calendar.id },
           data: {
-            state: 'queued',
-            lastSyncedAt: new Date(),
+            state: 'pending',
           },
         })
       )

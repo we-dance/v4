@@ -58,7 +58,7 @@ export const calendarsRouter = router({
         throw new TRPCError({ code: 'UNAUTHORIZED' })
       }
       await syncSingleCalendar.trigger({ calendarId: input.id })
-      return { success: true, message: 'Sync Queued' }
+      return { success: true, message: 'Sync Pending' }
     }),
 
   delete: publicProcedure
