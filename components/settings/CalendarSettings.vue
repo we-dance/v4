@@ -6,7 +6,6 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
-const syncingCalendars = ref<Set<string>>(new Set())
 const deletingCalendars = ref<Set<string>>(new Set())
 
 const route = useRoute()
@@ -39,12 +38,6 @@ const createCalendarMutation = useMutation({
 const syncCalendarMutation = useMutation({
   mutationFn: async (id: string) => {
     return await $client.calendars.sync.mutate({ id })
-  },
-  onMutate: (id: string) => {
-    syncingCalendars.value.add(id)
-  },
-  onSettled: (_data, _error, id) => {
-    syncingCalendars.value.delete(id)
   },
 })
 
@@ -181,13 +174,19 @@ const handleSubmit = form.handleSubmit((values) => {
               variant="outline"
               size="sm"
               @click="handleSync(calendar.id)"
-              :disabled="syncingCalendars.has(calendar.id)"
+              :disabled="
+                calendar.state === 'pending' || calendar.state === 'processing'
+              "
             >
               <Icon
                 name="heroicons:arrow-path"
                 :class="[
                   'w-4 h-4',
-                  { 'animate-spin': syncingCalendars.has(calendar.id) },
+                  {
+                    'animate-spin':
+                      calendar.state === 'pending' ||
+                      calendar.state === 'processing',
+                  },
                 ]"
               />
               Sync

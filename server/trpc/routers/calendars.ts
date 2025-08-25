@@ -57,6 +57,11 @@ export const calendarsRouter = router({
       if (!calendar || calendar.profileId !== ctx.session?.profile?.id) {
         throw new TRPCError({ code: 'UNAUTHORIZED' })
       }
+      await prisma.calendar.update({
+        where: { id: input.id },
+        data: { state: 'pending' },
+      })
+
       await syncSingleCalendar.trigger({ calendarId: input.id })
       return { success: true, message: 'Sync Pending' }
     }),
