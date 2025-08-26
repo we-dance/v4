@@ -6,7 +6,9 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
-const deletingCalendars = reactive(new Set<String>())
+//moved to backend as soruce-oftruth however for better UX and to disbale request being set multiple times
+const syncingCalendars = reactive(new Set<string>())
+const deletingCalendars = reactive(new Set<string>())
 
 const route = useRoute()
 const selectedCalendarId = computed(() => route.query.id as string | undefined)
@@ -38,6 +40,12 @@ const createCalendarMutation = useMutation({
 const syncCalendarMutation = useMutation({
   mutationFn: async (id: string) => {
     return await $client.calendars.sync.mutate({ id })
+  },
+  onMutate: (id: string) => {
+    syncingCalendars.add(id)
+  },
+  onSettled: (_data, _error, id: string) => {
+    syncingCalendars.delete(id)
   },
 })
 
@@ -127,7 +135,7 @@ const handleSubmit = form.handleSubmit((values) => {
                 variant="tertiary"
                 class="h-auto p-0 font-medium"
               >
-                <NuxtLink :to="`/admin/calendar?id=${calendar.id}`">
+                <NuxtLink :to="`/admin/calendar/${calendar.id}`">
                   {{ calendar.name || 'Unnamed Calendar' }}
                 </NuxtLink>
               </Button>
@@ -175,7 +183,9 @@ const handleSubmit = form.handleSubmit((values) => {
               size="sm"
               @click="handleSync(calendar.id)"
               :disabled="
-                calendar.state === 'pending' || calendar.state === 'processing'
+                calendar.state === 'pending' ||
+                calendar.state === 'processing' ||
+                syncingCalendars.has(calendar.id)
               "
             >
               <Icon
@@ -185,7 +195,8 @@ const handleSubmit = form.handleSubmit((values) => {
                   {
                     'animate-spin':
                       calendar.state === 'pending' ||
-                      calendar.state === 'processing',
+                      calendar.state === 'processing' ||
+                      syncingCalendars.has(calendar.id),
                   },
                 ]"
               />
@@ -251,18 +262,5 @@ const handleSubmit = form.handleSubmit((values) => {
         </div>
       </div>
     </form>
-  </div>
-
-  <div v-if="selectedCalendar?.events?.length" class="container py-6 space-y-6">
-    <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
-      <Icon name="heroicons:calendar" class="w-5 h-5" />
-      Events from {{ selectedCalendar.name || 'Selected Calendar' }}
-    </h2>
-
-    <div class="space-y-4">
-      <div v-for="event in selectedCalendar?.events" :key="event.id">
-        <EventImportPreview :item="event" show-date />
-      </div>
-    </div>
   </div>
 </template>
