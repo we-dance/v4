@@ -601,7 +601,7 @@ model Calendar {
   name String @default("")
 
   profileId String
-  profile   Profile @relation("calendar_owner", fields: [profileId], references: [id])
+  profile   Profile @relation("calendar_owner", fields: [profileId], references: [id], onDelete: Cascade)
 
   state        String    @default("pending") // pending, processing, processed, failed
   lastSyncedAt DateTime?
@@ -643,7 +643,7 @@ model CalendarEvent {
   styles DanceStyle[] @relation("calendar_event_styles")
 
   createdAt DateTime @default(now())
-  updatedAt DateTime @default(now()) @updatedAt
+  updatedAt DateTime @updatedAt
 
   @@unique([calendarId, providerItemId])
   @@index([startDate])

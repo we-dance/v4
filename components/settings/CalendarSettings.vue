@@ -6,7 +6,7 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
-const deletingCalendars = ref<Set<string>>(new Set())
+const deletingCalendars = reactive(new Set<String>())
 
 const route = useRoute()
 const selectedCalendarId = computed(() => route.query.id as string | undefined)
@@ -46,10 +46,10 @@ const deleteCalendarMutation = useMutation({
     return await $client.calendars.delete.mutate({ id })
   },
   onMutate: (id: string) => {
-    deletingCalendars.value.add(id)
+    deletingCalendars.add(id)
   },
   onSettled: (_data, _error, id) => {
-    deletingCalendars.value.delete(id)
+    deletingCalendars.delete(id)
   },
 })
 
@@ -60,7 +60,7 @@ function handleSync(id: string) {
     success: 'Calendar sync started!',
     error: (error: any) => error?.message || 'Failed to sync calendar.',
   })
-  promise.then(() => {
+  promise.finally(() => {
     refresh()
   })
 }
@@ -71,7 +71,7 @@ function handleDelete(id: string) {
     success: 'Calendar removed successfully!',
     error: (error: any) => error?.message || 'Failed to remove calendar.',
   })
-  promise.then(() => {
+  promise.finally(() => {
     refresh()
   })
 }
