@@ -96,7 +96,7 @@ const handleSubmit = form.handleSubmit((values) => {
     const syncPromise = syncCalendarMutation.mutateAsync(createdCalendar.id)
     toast.promise(syncPromise, {
       loading: 'Syncing new calendar.',
-      success: 'Calendar synced started!',
+      success: 'Calendar sync started!',
       error: (error: any) => error?.message || 'Failed to sync calendar.',
     })
     syncPromise.then(() => {

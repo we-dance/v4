@@ -118,6 +118,8 @@ model City {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@index([membersCount(sort: Desc)])
 }
 
 model Profile {
@@ -199,6 +201,10 @@ model Profile {
 
   calendars Calendar[] @relation("calendar_owner")
 
+  @@index([photo])
+  @@index([userId])
+  @@index([cityId])
+  @@index([createdAt(sort: Desc)])
   @@map("Profile")
 }
 
@@ -212,6 +218,8 @@ model Experience {
   style     DanceStyle @relation("experience_style", fields: [styleId], references: [id])
 
   @@unique([profileId, styleId])
+  @@index([profileId])
+  @@index([styleId])
 }
 
 model Post {
@@ -283,8 +291,9 @@ model Event {
   guests          Guest[]          @relation("event_guests")
   ticketPurchases TicketPurchase[] @relation("event_purchases")
 
-  createdAt      DateTime        @default(now())
-  updatedAt      DateTime        @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
   calendarEvents CalendarEvent[] @relation("calendar_event_to_event")
 }
 
@@ -367,6 +376,8 @@ model DanceStyle {
   videos         Video[]         @relation("video_style")
   posts          Post[]          @relation("post_style")
   calendarEvents CalendarEvent[] @relation("calendar_event_styles")
+
+  @@index([membersCount(sort: Desc)])
 }
 
 model ProfileFollower {

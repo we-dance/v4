@@ -7,10 +7,19 @@ export const syncSingleCalendar = task({
   run: async (payload: { calendarId: string }) => {
     logger.log(`Syncing calendar: ${payload.calendarId}`)
 
-    await prisma.calendar.update({
-      where: { id: payload.calendarId },
+    const { count } = await prisma.calendar.updateMany({
+      where: { id: payload.calendarId, NOT: { state: 'processing' } },
       data: { state: 'processing' },
     })
+    if (count === 0) {
+      logger.log(
+        `Calendar ${payload.calendarId} is already processing. Skipping duplicate run.`
+      )
+      return {
+        calendarId: payload.calendarId,
+        status: 'already-processing' as const,
+      }
+    }
     try {
       await syncCalendar(payload.calendarId)
       await prisma.calendar.update({
@@ -26,7 +35,6 @@ export const syncSingleCalendar = task({
         where: { id: payload.calendarId },
         data: {
           state: 'failed',
-          lastSyncedAt: new Date(),
         },
       })
       throw error
@@ -40,21 +48,18 @@ export const syncCalendars = schedules.task({
   id: 'sync-calendars',
   cron: '0 16 * * *',
   run: async () => {
-    const calendars = await prisma.calendar.findMany()
+    const calendars = await prisma.calendar.findMany({
+      where: { NOT: { state: 'processing' } },
+    })
 
-    // Update all states first
-    await Promise.all(
-      calendars.map((calendar) =>
-        prisma.calendar.update({
-          where: { id: calendar.id },
-          data: {
-            state: 'pending',
-          },
-        })
-      )
-    )
-
-    // Then trigger all syncs
+    // Batch update for efficency
+    if (calendars.length > 0) {
+      await prisma.calendar.updateMany({
+        where: { id: { in: calendars.map((c) => c.id) } },
+        data: { state: 'pending' },
+      })
+    }
+    // Fan out tasks for the filtered set
     await Promise.all(
       calendars.map((calendar) =>
         syncSingleCalendar.trigger({ calendarId: calendar.id })

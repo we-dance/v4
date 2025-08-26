@@ -201,6 +201,10 @@ model Profile {
 
   calendars Calendar[] @relation("calendar_owner")
 
+  @@index([photo])
+  @@index([userId])
+  @@index([cityId])
+  @@index([createdAt(sort: Desc)])
   @@map("Profile")
 }
 
