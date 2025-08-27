@@ -12,7 +12,7 @@ const deletingCalendars = reactive(new Set<string>())
 const urlSchema = z
   .string()
   .trim()
-  .transform((v) => v.replace(/^webcal:\/\//i, 'https://'))
+  .transform((v) => v.replace(/^webcals?:\/\//i, 'https://'))
   .pipe(z.string().url())
 
 const form = useForm({
