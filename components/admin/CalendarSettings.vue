@@ -6,22 +6,19 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
-//moved to backend as soruce-oftruth however for better UX and to disbale request being set multiple times
 const syncingCalendars = reactive(new Set<string>())
 const deletingCalendars = reactive(new Set<string>())
 
-const route = useRoute()
-const selectedCalendarId = computed(() => route.query.id as string | undefined)
-
-const selectedCalendar = computed(() => {
-  if (!selectedCalendarId.value || !calendars.value) return null
-  return calendars.value.find((c) => c.id === selectedCalendarId.value)
-})
+const urlSchema = z
+  .string()
+  .trim()
+  .transform((v) => v.replace(/^webcal:\/\//i, 'https://'))
+  .pipe(z.string().url())
 
 const form = useForm({
   validationSchema: toTypedSchema(
     z.object({
-      newCalendarUrl: z.string().url(),
+      newCalendarUrl: urlSchema,
     })
   ),
 })

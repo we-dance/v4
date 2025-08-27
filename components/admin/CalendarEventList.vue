@@ -1,7 +1,8 @@
 <script setup lang="ts">
 const { $client } = useNuxtApp()
-const route = useRoute()
-const id = computed(() => route.params.id as string)
+
+const props = defineProps<{ id: string }>()
+const id = toRef(props, 'id')
 
 const { data: calendars } = await $client.calendars.getAll.useQuery()
 const calendar = computed(
