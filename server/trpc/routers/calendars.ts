@@ -23,6 +23,27 @@ export const calendarsRouter = router({
     })
   }),
 
+  getById: publicProcedure
+    .input(z.object({ id: z.string() }))
+    .query(async ({ ctx, input }) => {
+      if (!ctx.session?.profile?.id) {
+        throw new TRPCError({ code: 'UNAUTHORIZED' })
+      }
+      return await prisma.calendar.findFirst({
+        where: {
+          id: input.id,
+          profileId: ctx.session.profile.id,
+        },
+        include: {
+          events: {
+            include: {
+              styles: true,
+            },
+          },
+        },
+      })
+    }),
+
   create: publicProcedure
     .input(
       z.object({

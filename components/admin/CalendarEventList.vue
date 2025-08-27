@@ -4,10 +4,9 @@ const { $client } = useNuxtApp()
 const props = defineProps<{ id: string }>()
 const id = toRef(props, 'id')
 
-const { data: calendars } = await $client.calendars.getAll.useQuery()
-const calendar = computed(
-  () => (calendars.value ?? []).find((c: any) => c.id === id.value) ?? null
-)
+const { data: calendar } = await $client.calendars.getById.useQuery({
+  id: id.value,
+})
 </script>
 
 <template>
@@ -17,7 +16,7 @@ const calendar = computed(
       Events from {{ calendar.name || 'Selected Calendar' }}
     </h2>
 
-    <div v-if="calendar.events?.length" class="space-y-4">
+    <div v-if="calendar && calendar.events?.length" class="space-y-4">
       <div v-for="event in calendar.events" :key="event.id">
         <EventImportPreview :item="event" show-date />
       </div>
