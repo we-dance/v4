@@ -53,7 +53,7 @@ const deleteCalendarMutation = useMutation({
   onMutate: (id: string) => {
     deletingCalendars.add(id)
   },
-  onSettled: (_data, _error, id) => {
+  onSettled: (_data, _error, id: string) => {
     deletingCalendars.delete(id)
   },
 })
@@ -83,7 +83,8 @@ function handleDelete(id: string) {
 
 function formatDate(date: string | Date | null) {
   if (!date) return 'Never'
-  return new Date(date).toLocaleString()
+  const d = new Date(date)
+  return Number.isNaN(d.getTime()) ? 'Never' : d.toLocaleString()
 }
 
 //form submission handler
@@ -104,7 +105,7 @@ const handleSubmit = form.handleSubmit((values) => {
       success: 'Calendar sync started!',
       error: (error: any) => error?.message || 'Failed to sync calendar.',
     })
-    syncPromise.then(() => {
+    syncPromise.finally(() => {
       refresh()
     })
   })
@@ -204,7 +205,11 @@ const handleSubmit = form.handleSubmit((values) => {
               variant="outline"
               size="sm"
               @click="handleDelete(calendar.id)"
-              :disabled="deletingCalendars.has(calendar.id)"
+              :disabled="
+                deletingCalendars.has(calendar.id) ||
+                calendar.state === 'processing' ||
+                syncingCalendars.has(calendar.id)
+              "
             >
               <Icon name="heroicons:trash" class="w-4 h-4" />
               Remove
