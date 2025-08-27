@@ -6,7 +6,7 @@ const id = toRef(props, 'id')
 
 const { data: calendars } = await $client.calendars.getAll.useQuery()
 const calendar = computed(
-  () => (calendars.value ?? []).find((c) => c.id === id.value) ?? null
+  () => (calendars.value ?? []).find((c: any) => c.id === id.value) ?? null
 )
 </script>
 
@@ -16,10 +16,22 @@ const calendar = computed(
       <Icon name="heroicons:calendar" class="w-5 h-5" />
       Events from {{ calendar.name || 'Selected Calendar' }}
     </h2>
-    <div class="space-y-4">
-      <div v-for="event in calendar.events || []" :key="event.id">
+
+    <div v-if="calendar.events?.length" class="space-y-4">
+      <div v-for="event in calendar.events" :key="event.id">
         <EventImportPreview :item="event" show-date />
       </div>
+    </div>
+
+    <div v-else class="text-center py-12">
+      <Icon
+        name="heroicons:calendar"
+        class="w-12 h-12 mx-auto text-muted-foreground mb-4"
+      />
+      <h3 class="text-lg font-medium mb-2">No upcoming events</h3>
+      <p class="text-muted-foreground">
+        This calendar doesn't have any upcoming events yet.
+      </p>
     </div>
   </div>
 </template>
