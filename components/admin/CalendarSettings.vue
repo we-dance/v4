@@ -20,15 +20,21 @@ const isAnyCalendarSyncing = computed(() =>
 
 let pollingInterval: NodeJS.Timeout | null = null
 
-watch(isAnyCalendarSyncing, (syncing) => {
-  if (syncing && !pollingInterval) {
-    pollingInterval = setInterval(() => {
-      refresh()
-    }, 3000)
-  } else if (!syncing && pollingInterval) {
-    clearInterval(pollingInterval)
-    pollingInterval = null
-  }
+onMounted(() => {
+  watch(
+    isAnyCalendarSyncing,
+    (syncing) => {
+      if (syncing && !pollingInterval) {
+        pollingInterval = setInterval(() => {
+          refresh()
+        }, 3000)
+      } else if (!syncing && pollingInterval) {
+        clearInterval(pollingInterval)
+        pollingInterval = null
+      }
+    },
+    { immediate: true }
+  )
 })
 
 onUnmounted(() => {
