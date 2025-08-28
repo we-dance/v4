@@ -13,11 +13,7 @@ export const calendarsRouter = router({
     return await prisma.calendar.findMany({
       where: { profileId: ctx.session.profile.id },
       include: {
-        events: {
-          include: {
-            styles: true,
-          },
-        },
+        events: true,
       },
       orderBy: { createdAt: 'asc' },
     })
@@ -29,19 +25,20 @@ export const calendarsRouter = router({
       if (!ctx.session?.profile?.id) {
         throw new TRPCError({ code: 'UNAUTHORIZED' })
       }
-      return await prisma.calendar.findFirst({
+      const calendar = await prisma.calendar.findFirst({
         where: {
           id: input.id,
           profileId: ctx.session.profile.id,
         },
         include: {
-          events: {
-            include: {
-              styles: true,
-            },
-          },
+          events: true,
         },
+        orderBy: { createdAt: 'asc' },
       })
+      if (!calendar) {
+        throw new TRPCError({ code: 'NOT_FOUND' })
+      }
+      return calendar
     }),
 
   create: publicProcedure

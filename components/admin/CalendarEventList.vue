@@ -4,9 +4,7 @@ const { $client } = useNuxtApp()
 const props = defineProps<{ id: string }>()
 const id = toRef(props, 'id')
 
-const { data: calendar } = await $client.calendars.getById.useQuery({
-  id: id.value,
-})
+const calendar = await $client.calendars.getById.query({ id: id.value })
 </script>
 
 <template>
