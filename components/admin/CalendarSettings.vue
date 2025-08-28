@@ -6,8 +6,36 @@ import { toTypedSchema } from '@vee-validate/zod'
 
 const { $client } = useNuxtApp()
 
+//fetch existing calendars
+const { data: calendars, refresh } = await $client.calendars.getAll.useQuery()
+
 const syncingCalendars = reactive(new Set<string>())
 const deletingCalendars = reactive(new Set<string>())
+
+const isAnyCalendarSyncing = computed(() =>
+  calendars.value?.some(
+    (c) => c.state === 'pending' || c.state === 'processing'
+  )
+)
+
+let pollingInterval: NodeJS.Timeout | null = null
+
+watch(isAnyCalendarSyncing, (syncing) => {
+  if (syncing && !pollingInterval) {
+    pollingInterval = setInterval(() => {
+      refresh()
+    }, 3000)
+  } else if (!syncing && pollingInterval) {
+    clearInterval(pollingInterval)
+    pollingInterval = null
+  }
+})
+
+onUnmounted(() => {
+  if (pollingInterval) {
+    clearInterval(pollingInterval)
+  }
+})
 
 const urlSchema = z
   .string()
@@ -22,9 +50,6 @@ const form = useForm({
     })
   ),
 })
-
-//fetch existing calendars
-const { data: calendars, refresh } = await $client.calendars.getAll.useQuery()
 
 //create calendar mutation
 const createCalendarMutation = useMutation({
