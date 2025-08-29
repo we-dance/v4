@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { graphemeCount } from '~/schemas/chat'
 const props = defineProps<{
   conversationId: string
 }>()
@@ -9,6 +10,7 @@ const isSending = ref(false)
 
 const { session } = useAppAuth()
 const currentUser = computed(() => session.value?.profile)
+const charCount = computed(() => graphemeCount(newMessage.value))
 
 const { $client } = useNuxtApp()
 let eventSource: EventSource | null = null
@@ -144,7 +146,7 @@ function formatTime(timestamp: string | Date) {
 async function sendMessage() {
   const content = newMessage.value.trim()
   if (!content || isSending.value) return
-  if (content.length > 500) {
+  if (graphemeCount(content) > 500) {
     //optionally surface a toast here for use
     return
   }
@@ -267,7 +269,6 @@ async function sendMessage() {
           placeholder="Type a message..."
           class="flex-1 border rounded-l-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary dark:bg-gray-800 dark:border-gray-700"
           :disabled="isSending"
-          :maxlength="500"
         />
         <button
           type="submit"
@@ -283,7 +284,7 @@ async function sendMessage() {
         </button>
       </form>
       <div class="mt-1 text-xs text-gray-500 text-right">
-        {{ newMessage.length }}/500
+        {{ charCount }}/500
       </div>
     </div>
   </div>

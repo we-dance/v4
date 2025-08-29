@@ -92,11 +92,12 @@ export const chatRouter = router({
       })
       if (existing) return existing
 
+      const [aId, bId] = me < other ? [me, other] : [other, me]
       const created = await prisma.conversation.create({
         data: {
           pairKey: key,
-          aId: key.startsWith(me) ? me : other,
-          bId: key.startsWith(me) ? other : me,
+          aId,
+          bId,
         },
         include: { a: true, b: true },
       })

@@ -425,7 +425,7 @@ model Guest {
   ticketPurchases TicketPurchase[]
 
   role   String // "artist", "attendee", "VIP", "organizer", "staff", "sponsor", "media"
-  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "checked_in", "declined", "no_show"
+  status String // "invited", "confirmed", "waitlisted", "cancelled", "registered", "interested", "declined", "no_show"
 
   invitedAt    DateTime?
   confirmedAt  DateTime?
@@ -653,14 +653,12 @@ model CalendarEvent {
 }
 
 model Conversation {
-  id            String   @id @default(cuid())
-  pairKey       String   @unique // `${min(aId,bId)}-${max(aId,bId)}`
-  aId           String
-  bId           String
-  aLastSeenAt   DateTime @default(now())
-  bLastSeenAt   DateTime @default(now())
-  lastMessageId String?  @unique
-  lastMessage   Message? @relation("LastMessage", fields: [lastMessageId], references: [id])
+  id          String   @id @default(cuid())
+  pairKey     String   @unique // `${min(aId,bId)}-${max(aId,bId)}`
+  aId         String
+  bId         String
+  aLastSeenAt DateTime @default(now())
+  bLastSeenAt DateTime @default(now())
 
   messages Message[] @relation("ConversationMessages")
 
@@ -685,8 +683,6 @@ model Message {
 
   conversation Conversation @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
   sender       Profile      @relation(fields: [senderId], references: [id])
-
-  lastMessageFor Conversation? @relation("LastMessage")
 
   @@index([conversationId, createdAt])
 }

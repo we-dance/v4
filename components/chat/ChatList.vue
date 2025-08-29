@@ -20,20 +20,37 @@ const {
 
 let inboxEs: EventSource | null = null
 
-// Refresh conversations based on real time updates
-onMounted(() => {
-  if (currentUser.value?.id) {
-    inboxEs = new EventSource('/api/chat/stream')
-
-    inboxEs.addEventListener('conversation.updated', () => {
-      refresh()
-    })
-  }
-
-  onUnmounted(() => {
-    inboxEs?.close()
+watch(
+  () => currentUser.value?.id,
+  (id) => {
+    if (inboxEs) {
+      inboxEs.close()
+      inboxEs = null
+    }
+    if (id) {
+      inboxEs = new EventSource('/api/chat/stream')
+      inboxEs.onmessage = (event) => {
+        try {
+          const data = JSON.parse(event.data)
+          if (data?.type === 'conversation.updated') {
+            refresh()
+          }
+        } catch (error) {
+          console.warn('Invalid SSE Payload', error)
+        }
+      }
+      inboxEs.onerror = (error) => {
+        console.error('Inbox SSE connection error:', error)
+      }
+    }
+  },
+  { immediate: true }
+)
+onUnmounted(() => {
+  if (inboxEs) {
+    inboxEs.close()
     inboxEs = null
-  })
+  }
 })
 
 // Get the other participant in a conversation
