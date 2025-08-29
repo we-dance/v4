@@ -24,10 +24,10 @@ export const chatRouter = router({
       include: {
         a: { select: { id: true, name: true, photo: true } },
         b: { select: { id: true, name: true, photo: true } },
-        messages: {
-          orderBy: { createdAt: 'desc' },
-          take: 1,
-          include: { sender: true },
+        lastMessage: {
+          include: {
+            sender: { select: { id: true, name: true, photo: true } },
+          },
         },
       },
     })
@@ -39,7 +39,7 @@ export const chatRouter = router({
         createdAt: c.createdAt,
         updatedAt: c.updatedAt,
         participants: [{ profileId: c.aId }, { profileId: c.bId }],
-        messages: c.messages,
+        messages: c.lastMessage ? [c.lastMessage] : [],
         receiver,
       }
     })
@@ -56,7 +56,9 @@ export const chatRouter = router({
           messages: {
             orderBy: { createdAt: 'asc' },
             take: 200,
-            include: { sender: true },
+            include: {
+              sender: { select: { id: true, name: true, photo: true } },
+            },
           },
           a: { select: { id: true, name: true, photo: true } },
           b: { select: { id: true, name: true, photo: true } },
@@ -124,11 +126,14 @@ export const chatRouter = router({
             senderId: me,
             content: input.content.trim(),
           },
-          include: { sender: true },
+          include: {
+            sender: { select: { id: true, name: true, photo: true } },
+          },
         })
         await tx.conversation.update({
           where: { id: conv.id },
           data: {
+            lastMessageId: createdMessage.id,
             ...(conv.aId === me
               ? { aLastSeenAt: new Date() }
               : { bLastSeenAt: new Date() }),

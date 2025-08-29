@@ -647,12 +647,14 @@ model CalendarEvent {
 }
 
 model Conversation {
-  id          String   @id @default(cuid())
-  pairKey     String   @unique // `${min(aId,bId)}-${max(aId,bId)}`
-  aId         String
-  bId         String
-  aLastSeenAt DateTime @default(now())
-  bLastSeenAt DateTime @default(now())
+  id            String   @id @default(cuid())
+  pairKey       String   @unique // `${min(aId,bId)}-${max(aId,bId)}`
+  aId           String
+  bId           String
+  aLastSeenAt   DateTime @default(now())
+  bLastSeenAt   DateTime @default(now())
+  lastMessageId String?  @unique
+  lastMessage   Message? @relation("LastMessage", fields: [lastMessageId], references: [id])
 
   messages Message[] @relation("ConversationMessages")
 
@@ -662,8 +664,9 @@ model Conversation {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@index([aId])
-  @@index([bId])
+  @@unique([aId, bId])
+  @@index([aId, updatedAt])
+  @@index([bId, updatedAt])
 }
 
 model Message {
@@ -675,8 +678,9 @@ model Message {
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 
-  conversation Conversation @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
-  sender       Profile      @relation(fields: [senderId], references: [id])
+  conversation   Conversation  @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
+  sender         Profile       @relation(fields: [senderId], references: [id])
+  lastMessageFor Conversation? @relation("LastMessage")
 
   @@index([conversationId, createdAt])
 }
