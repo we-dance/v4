@@ -3,6 +3,8 @@ definePageMeta({
   layout: 'admin',
   middleware: ['sidebase-auth'],
 })
+const route = useRoute()
+const id = computed(() => String(route.params.id))
 </script>
 
 <template>
@@ -13,17 +15,17 @@ definePageMeta({
       <BreadcrumbList>
         <BreadcrumbItem>
           <BreadcrumbLink as-child>
-            <NuxtLink to="/admin/events"> Manage Events </NuxtLink>
+            <NuxtLink to="/admin/calendar"> Manage Calendar </NuxtLink>
           </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbPage>Add New Event</BreadcrumbPage>
+          <BreadcrumbPage> Calendar Events</BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
   </header>
-  <div class="min-h-screen flex items-center justify-center ml-8 mr-8">
-    <AddEventForm />
+  <div class="flex items-center justify-center ml-8 mr-8">
+    <CalendarEventList :id="id" />
   </div>
 </template>

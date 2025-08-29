@@ -20,6 +20,11 @@ const items = [
     label: 'Integrations',
     icon: 'lucide:plug',
   },
+  {
+    to: '/admin/calendar',
+    label: 'Calendars',
+    icon: 'lucide:calendar-days',
+  },
 ]
 
 const isOpen = ref(false)
