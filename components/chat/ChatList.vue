@@ -13,7 +13,7 @@ const getLastMessage = (conversation: any) => {
 // Fetch conversations
 const {
   data: conversations,
-  pending: isLoading,
+  status,
   error,
   refresh,
 } = useAsyncData('conversations', () => $client.chat.getConversations.query())
@@ -23,11 +23,14 @@ let inboxEs: EventSource | null = null
 watch(
   () => currentUser.value?.id,
   (id) => {
+    if (!import.meta.client) return
     if (inboxEs) {
       inboxEs.close()
       inboxEs = null
     }
     if (id) {
+      //ensure list is for the current user before opening sse
+      refresh()
       inboxEs = new EventSource('/api/chat/stream')
       inboxEs.onmessage = (event) => {
         try {
@@ -104,7 +107,10 @@ function formatTime(timestamp: string | Date) {
 <template>
   <div class="chat-list">
     <!-- Loading state -->
-    <div v-if="isLoading" class="flex justify-center items-center py-8">
+    <div
+      v-if="status === 'pending'"
+      class="flex justify-center items-center py-8"
+    >
       <div
         class="animate-spin h-8 w-8 border-2 border-primary rounded-full border-t-transparent"
       ></div>

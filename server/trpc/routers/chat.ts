@@ -4,9 +4,9 @@ import { TRPCError } from '@trpc/server'
 import { prisma } from '~/server/prisma'
 import { createConversationSchema, sendMessageSchema } from '~/schemas/chat'
 import { publish } from '~/server/utils/sse'
-import type { Session } from 'next-auth'
 
-const requireProfileId = (ctx: { session?: Session }) => {
+type CtxWithProfile = { session?: { profile?: { id?: string } } }
+const requireProfileId = (ctx: CtxWithProfile) => {
   const id = ctx.session?.profile?.id
   if (!id) throw new TRPCError({ code: 'UNAUTHORIZED' })
   return id
@@ -22,8 +22,8 @@ export const chatRouter = router({
       where: { OR: [{ aId: me }, { bId: me }] },
       orderBy: { updatedAt: 'desc' },
       include: {
-        a: true,
-        b: true,
+        a: { select: { id: true, name: true, photo: true } },
+        b: { select: { id: true, name: true, photo: true } },
         messages: {
           orderBy: { createdAt: 'desc' },
           take: 1,
@@ -51,21 +51,18 @@ export const chatRouter = router({
     .query(async ({ ctx, input }) => {
       const me = requireProfileId(ctx)
       const c = await prisma.conversation.findFirst({
-        where: { id: input.conversationId },
+        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
         include: {
           messages: {
             orderBy: { createdAt: 'asc' },
             take: 200,
             include: { sender: true },
           },
-          a: true,
-          b: true,
+          a: { select: { id: true, name: true, photo: true } },
+          b: { select: { id: true, name: true, photo: true } },
         },
       })
       if (!c) throw new TRPCError({ code: 'NOT_FOUND' })
-      if (c.aId !== me && c.bId !== me) {
-        throw new TRPCError({ code: 'UNAUTHORIZED' })
-      }
       return c
     }),
 
