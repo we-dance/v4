@@ -2,11 +2,9 @@
 import type { ArtistProfile } from '~/schemas/profile'
 import GradientBackground from '~/components/common/GradientBackground.vue'
 import { useDialog } from '~/composables/useDialog'
-import { toast } from 'vue-sonner'
+import { useContact } from '~/composables/useContact'
 
-const { $client } = useNuxtApp()
-const { session } = useAppAuth()
-const currentUser = computed(() => session.value?.profile)
+const { pending, startConversation } = useContact()
 
 const route = useRoute()
 
@@ -50,35 +48,8 @@ const navigation = [
 const dialog = useDialog()
 
 // Actions
-const handleContact = async () => {
-  if (!props.profile.claimed) {
-    console.error('This profile is not clalimed')
-    toast.error(`You can't message this profile yet.`)
-    return
-  }
-
-  // Check if a user is logged in
-  if (!currentUser.value) {
-    return navigateTo('/login')
-  }
-
-  // Check if the user is trying to message themself
-  if (currentUser.value.id === props.profile.id) {
-    console.error("You can't message yourself.")
-    return
-  }
-
-  //else start a conversation
-  try {
-    const conversation = await $client.chat.createConversation.mutate({
-      participantIds: [props.profile.id],
-    })
-    if (conversation?.id) {
-      navigateTo(`/chat/${conversation.id}`)
-    }
-  } catch (error) {
-    console.error('Failed to create or get conversation', error)
-  }
+const handleContact = () => {
+  startConversation(props.profile)
 }
 
 const handleBook = () => {
@@ -296,10 +267,19 @@ const handleFollow = () => {
 
             <div class="bg-background rounded-lg border p-6">
               <h3 class="text-lg font-bold text-foreground mb-4">Contact</h3>
-              <Button class="w-full" variant="secondary" @click="handleContact">
+              <Button
+                v-if="profile.claimed"
+                class="w-full"
+                variant="secondary"
+                :disabled="pending"
+                @click="handleContact"
+              >
                 <Icon name="ph:envelope" class="w-5 h-5 mr-2" />
                 Send Message
               </Button>
+              <p v-else class="text-xs text-muted-foreground">
+                Messaging unavaliable until this profile is claimed.
+              </p>
             </div>
 
             <div

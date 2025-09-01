@@ -29,7 +29,7 @@ export const useProfile = async () => {
     result.name = profile.name
     result.points = 0
     result.bio = profile.bio
-    result.claimed = profile.claimed
+    result.claimed = Boolean(profile.claimed)
     result.stats = {
       events: 0,
       followers: 0,
