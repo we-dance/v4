@@ -2,6 +2,7 @@ import { z } from 'zod'
 import { publicProcedure, router } from '~/server/trpc/init'
 import { TRPCError } from '@trpc/server'
 import { prisma } from '~/server/prisma'
+import { Prisma } from '@prisma/client'
 import { createConversationSchema, sendMessageSchema } from '~/schemas/chat'
 import { publish } from '~/server/utils/sse'
 
@@ -93,15 +94,25 @@ export const chatRouter = router({
         if (existing) return existing
 
         const [aId, bId] = me < other ? [me, other] : [other, me]
-        const created = await tx.conversation.create({
-          data: {
-            pairKey: key,
-            aId,
-            bId,
-          },
-          include: { a: true, b: true },
-        })
-        return created
+        try {
+          const created = await tx.conversation.create({
+            data: { pairKey: key, aId, bId },
+            include: { a: true, b: true },
+          })
+          return created
+        } catch (error) {
+          if (
+            error instanceof Prisma.PrismaClientKnownRequestError &&
+            error.code === 'P2002'
+          ) {
+            const winner = await tx.conversation.findUnique({
+              where: { pairKey: key },
+              include: { a: true, b: true },
+            })
+            if (winner) return winner
+          }
+          throw error
+        }
       })
 
       publish(`inbox:${other}`, {
@@ -127,7 +138,7 @@ export const chatRouter = router({
           data: {
             conversationId: conv.id,
             senderId: me,
-            content: input.content.trim(),
+            content: input.content,
           },
           include: {
             sender: { select: { id: true, name: true, photo: true } },
@@ -145,7 +156,6 @@ export const chatRouter = router({
         return createdMessage
       })
 
-      console.log('Publishing to conversation:', conv.id)
       publish(`conversation:${conv.id}`, {
         type: 'message.created',
         conversationId: conv.id,
@@ -153,10 +163,10 @@ export const chatRouter = router({
       })
 
       const other = conv.aId === me ? conv.bId : conv.aId
-      console.log('Publishing to inbox:', other)
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
         conversationId: conv.id,
+        lastMessageId: msg.id,
       })
       return msg
     }),
