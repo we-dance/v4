@@ -278,7 +278,7 @@ const handleFollow = () => {
                 Send Message
               </Button>
               <p v-else class="text-xs text-muted-foreground">
-                Messaging unavaliable until this profile is claimed.
+                Messaging unavailable until this profile is claimed.
               </p>
             </div>
 

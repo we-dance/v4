@@ -84,28 +84,31 @@ export const chatRouter = router({
         throw new TRPCError({ code: 'NOT_FOUND' })
       }
 
-      const key = pairKeyFor(me, other)
-      const existing = await prisma.conversation.findUnique({
-        where: { pairKey: key },
-        include: { a: true, b: true },
-      })
-      if (existing) return existing
+      const conversation = await prisma.$transaction(async (tx) => {
+        const key = pairKeyFor(me, other)
+        const existing = await tx.conversation.findUnique({
+          where: { pairKey: key },
+          include: { a: true, b: true },
+        })
+        if (existing) return existing
 
-      const [aId, bId] = me < other ? [me, other] : [other, me]
-      const created = await prisma.conversation.create({
-        data: {
-          pairKey: key,
-          aId,
-          bId,
-        },
-        include: { a: true, b: true },
+        const [aId, bId] = me < other ? [me, other] : [other, me]
+        const created = await tx.conversation.create({
+          data: {
+            pairKey: key,
+            aId,
+            bId,
+          },
+          include: { a: true, b: true },
+        })
+        return created
       })
 
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
-        conversationId: created.id,
+        conversationId: conversation.id,
       })
-      return created
+      return conversation
     }),
 
   // Send a message in a conversation

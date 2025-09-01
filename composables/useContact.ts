@@ -4,6 +4,7 @@ import type { Profile } from '~/schemas/profile'
 export function useContact() {
   const { $client } = useNuxtApp()
   const { session } = useAppAuth()
+  const route = useRoute()
   const currentUser = computed(() => session.value?.profile)
   const pending = ref(false)
 
@@ -16,12 +17,13 @@ export function useContact() {
 
     // Check if a user is logged in
     if (!currentUser.value) {
-      return navigateTo('/login')
+      await navigateTo({ path: '/login', query: { next: route.fullPath } })
+      return
     }
 
     // Check if the user is trying to message themself
     if (currentUser.value.id === profile.id) {
-      console.error("You can't message yourself.")
+      toast.info("You can't message yourself.")
       return
     }
 
@@ -32,10 +34,12 @@ export function useContact() {
         participantIds: [profile.id],
       })
       if (conversation?.id) {
-        navigateTo(`/chat/${conversation.id}`)
+        await navigateTo(`/chat/${conversation.id}`)
+      } else {
+        toast.error('Could not start the conversation. Please try again.')
       }
     } catch (error) {
-      console.error('Failed to create or get conversation', error)
+      toast.error('Failed to start the conversation. Please try again.')
     } finally {
       pending.value = false
     }
