@@ -1,3 +1,81 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const { $client } = useNuxtApp()
+
+const showNewConversationModal = ref(false)
+const searchQuery = ref('')
+const searchResults = ref<any[]>([])
+const selectedUser = ref<any>(null)
+const isSearching = ref(false)
+const isCreating = ref(false)
+
+// Search users with debounce
+let searchTimeout: NodeJS.Timeout | null = null
+function searchUsers() {
+  if (searchTimeout) clearTimeout(searchTimeout)
+
+  if (!searchQuery.value.trim()) {
+    searchResults.value = []
+    return
+  }
+
+  isSearching.value = true
+
+  searchTimeout = setTimeout(async () => {
+    try {
+      // Replace with your actual API call to search users
+      const results = await $client.profiles.search.query({
+        query: searchQuery.value.trim(),
+      })
+
+      searchResults.value = results
+    } catch (error) {
+      console.error('Error searching users:', error)
+    } finally {
+      isSearching.value = false
+    }
+  }, 300)
+}
+
+function selectUser(user: any) {
+  selectedUser.value = user
+  searchQuery.value = user.name
+  searchResults.value = []
+}
+
+async function createConversation() {
+  if (!selectedUser.value || isCreating.value) return
+
+  try {
+    isCreating.value = true
+
+    const conversation = await $client.chat.createConversation.mutate({
+      participantIds: [selectedUser.value.id],
+    })
+
+    showNewConversationModal.value = false
+    router.push(`/chat/${conversation.id}`)
+  } catch (error) {
+    console.error('Error creating conversation:', error)
+  } finally {
+    isCreating.value = false
+  }
+}
+
+// Get initials from name
+function getInitials(name: string) {
+  return name
+    .split(' ')
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase()
+    .substring(0, 2)
+}
+</script>
+
 <template>
   <div class="container mx-auto px-4 py-8">
     <div class="max-w-4xl mx-auto">
@@ -137,81 +215,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
-
-const router = useRouter()
-const { $client } = useNuxtApp()
-
-const showNewConversationModal = ref(false)
-const searchQuery = ref('')
-const searchResults = ref<any[]>([])
-const selectedUser = ref<any>(null)
-const isSearching = ref(false)
-const isCreating = ref(false)
-
-// Search users with debounce
-let searchTimeout: NodeJS.Timeout | null = null
-function searchUsers() {
-  if (searchTimeout) clearTimeout(searchTimeout)
-
-  if (!searchQuery.value.trim()) {
-    searchResults.value = []
-    return
-  }
-
-  isSearching.value = true
-
-  searchTimeout = setTimeout(async () => {
-    try {
-      // Replace with your actual API call to search users
-      const results = await $client.profiles.search.query({
-        query: searchQuery.value.trim(),
-      })
-
-      searchResults.value = results
-    } catch (error) {
-      console.error('Error searching users:', error)
-    } finally {
-      isSearching.value = false
-    }
-  }, 300)
-}
-
-function selectUser(user: any) {
-  selectedUser.value = user
-  searchQuery.value = user.name
-  searchResults.value = []
-}
-
-async function createConversation() {
-  if (!selectedUser.value || isCreating.value) return
-
-  try {
-    isCreating.value = true
-
-    const conversation = await $client.chat.createConversation.mutate({
-      participantIds: [selectedUser.value.id],
-    })
-
-    showNewConversationModal.value = false
-    router.push(`/chat/${conversation.id}`)
-  } catch (error) {
-    console.error('Error creating conversation:', error)
-  } finally {
-    isCreating.value = false
-  }
-}
-
-// Get initials from name
-function getInitials(name: string) {
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .join('')
-    .toUpperCase()
-    .substring(0, 2)
-}
-</script>
