@@ -199,7 +199,6 @@ model Profile {
 
   calendars Calendar[] @relation("calendar_owner")
 
-  calendars       Calendar[]     @relation("calendar_owner")
   ConversationAsA Conversation[] @relation("AProfile")
   ConversationAsB Conversation[] @relation("BProfile")
   messages        Message[]
