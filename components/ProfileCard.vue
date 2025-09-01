@@ -1,7 +1,42 @@
 <script setup lang="ts">
+import { toast } from 'vue-sonner'
 const { profile } = defineProps<{
   profile: any
 }>()
+const { $client } = useNuxtApp()
+const { session } = useAppAuth()
+const currentUser = computed(() => session.value?.profile)
+
+const handleContact = async () => {
+  if (!profile.claimed) {
+    console.error('This profile is not clalimed')
+    toast.error(`You can't message this profile yet.`)
+    return
+  }
+
+  // Check if a user is logged in
+  if (!currentUser.value) {
+    return navigateTo('/login')
+  }
+
+  // Check if the user is trying to message themself
+  if (currentUser.value.id === profile.id) {
+    console.error("You can't message yourself.")
+    return
+  }
+
+  //else start a conversation
+  try {
+    const conversation = await $client.chat.createConversation.mutate({
+      participantIds: [profile.id],
+    })
+    if (conversation?.id) {
+      navigateTo(`/chat/${conversation.id}`)
+    }
+  } catch (error) {
+    console.error('Failed to create or get conversation', error)
+  }
+}
 </script>
 
 <template>
@@ -33,7 +68,7 @@ const { profile } = defineProps<{
       </div>
       <div class="flex justify-center md:justify-start gap-2">
         <Button variant="primary">Subscribe</Button>
-        <Button variant="secondary">Send Message</Button>
+        <Button variant="secondary" @click="handleContact">Send Message</Button>
       </div>
 
       <div class="space-y-2">
