@@ -20,11 +20,23 @@ function setupEventSource(id: string) {
   eventSource = new EventSource(`/api/chat/stream?conversationId=${id}`)
 
   eventSource.onmessage = (event) => {
-    const data = JSON.parse(event.data)
-    if (data.type === `message.created` && data.conversationId === id) {
-      if (data.message) {
-        conversation.value?.messages.push(data.message)
+    try {
+      const data = JSON.parse(event.data)
+      if (
+        data.type === `message.created` &&
+        data.conversationId === id &&
+        data.message
+      ) {
+        const messages = conversation.value?.messages
+        if (
+          Array.isArray(messages) &&
+          !messages.some((m) => m.id === data.message.id)
+        ) {
+          messages.push(data.message)
+        }
       }
+    } catch (error) {
+      console.warn('SSE parse error:', error)
     }
   }
   eventSource.onerror = (error) => {
@@ -72,8 +84,13 @@ const {
   pending: isLoading,
   error,
   refresh,
-} = useAsyncData(`conversation-${props.conversationId}`, () =>
-  $client.chat.getConversation.query({ conversationId: props.conversationId })
+} = useAsyncData(
+  `conversation-${props.conversationId}`,
+  () =>
+    $client.chat.getConversation.query({
+      conversationId: props.conversationId,
+    }),
+  { watch: [() => props.conversationId] }
 )
 
 const otherParticipant = computed(() => {
@@ -234,7 +251,7 @@ async function sendMessage() {
         </div>
       </div>
       <div v-else-if="error" class="p-4 text-red-500">
-        {{ error }}
+        {{ error?.message || 'Failed to load conversation' }}
       </div>
       <div
         v-else-if="!conversation?.messages?.length"

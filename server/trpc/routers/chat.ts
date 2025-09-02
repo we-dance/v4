@@ -89,7 +89,10 @@ export const chatRouter = router({
         const key = pairKeyFor(me, other)
         const existing = await tx.conversation.findUnique({
           where: { pairKey: key },
-          include: { a: true, b: true },
+          include: {
+            a: { select: { id: true, name: true, photo: true } },
+            b: { select: { id: true, name: true, photo: true } },
+          },
         })
         if (existing) return existing
 
@@ -97,7 +100,10 @@ export const chatRouter = router({
         try {
           const created = await tx.conversation.create({
             data: { pairKey: key, aId, bId },
-            include: { a: true, b: true },
+            include: {
+              a: { select: { id: true, name: true, photo: true } },
+              b: { select: { id: true, name: true, photo: true } },
+            },
           })
           return created
         } catch (error) {
@@ -107,7 +113,10 @@ export const chatRouter = router({
           ) {
             const winner = await tx.conversation.findUnique({
               where: { pairKey: key },
-              include: { a: true, b: true },
+              include: {
+                a: { select: { id: true, name: true, photo: true } },
+                b: { select: { id: true, name: true, photo: true } },
+              },
             })
             if (winner) return winner
           }
