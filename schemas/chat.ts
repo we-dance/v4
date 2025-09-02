@@ -84,6 +84,9 @@ export const chatEventSchema = z.discriminatedUnion('type', [
     type: z.literal('message.created'),
     conversationId: z.string(),
     messageId: z.string(),
+    message: messageSchema.extend({
+      sender: conversationParticipantSchema,
+    }),
   }),
   z.object({
     type: z.literal('conversation.updated'),

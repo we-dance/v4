@@ -156,10 +156,19 @@ export const chatRouter = router({
         return createdMessage
       })
 
+      const messageForEvent = {
+        ...msg,
+        sender: {
+          profileId: msg.sender.id,
+          name: msg.sender.name,
+          photo: msg.sender.photo,
+        },
+      }
       publish(`conversation:${conv.id}`, {
         type: 'message.created',
         conversationId: conv.id,
         messageId: msg.id,
+        message: messageForEvent,
       })
 
       const other = conv.aId === me ? conv.bId : conv.aId

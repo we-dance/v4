@@ -15,6 +15,7 @@ const isCreating = ref(false)
 // Search users with debounce
 let searchTimeout: NodeJS.Timeout | null = null
 function searchUsers() {
+  selectedUser.value = null
   if (searchTimeout) clearTimeout(searchTimeout)
 
   if (!searchQuery.value.trim()) {
@@ -183,7 +184,7 @@ function getInitials(name: string) {
             </div>
 
             <div
-              v-else-if="searchQuery && !isSearching"
+              v-else-if="searchQuery && !isSearching && !selectedUser"
               class="mt-2 p-3 text-center text-gray-500 border rounded-lg dark:border-gray-700"
             >
               No users found

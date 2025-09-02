@@ -22,7 +22,9 @@ function setupEventSource(id: string) {
   eventSource.onmessage = (event) => {
     const data = JSON.parse(event.data)
     if (data.type === `message.created` && data.conversationId === id) {
-      refresh()
+      if (data.message) {
+        conversation.value?.messages.push(data.message)
+      }
     }
   }
   eventSource.onerror = (error) => {
