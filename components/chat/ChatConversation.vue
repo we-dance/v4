@@ -188,10 +188,10 @@ async function sendMessage() {
           />
         </svg>
       </NuxtLink>
-      <div v-if="isLoading" class="flex-1">
-        <div
-          class="h-4 w-24 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"
-        ></div>
+      <div v-if="isLoading" class="flex items-center gap-3 flex-1">
+        <div class="space-y-1">
+          <Skeleton class="h-4 w-24" />
+        </div>
       </div>
       <div v-else-if="conversation" class="flex items-center flex-1">
         <div class="flex-shrink-0">
@@ -220,10 +220,18 @@ async function sendMessage() {
 
     <!-- Messages -->
     <div class="flex-1 overflow-y-auto p-4 space-y-4" ref="messagesContainer">
-      <div v-if="isLoading" class="flex justify-center">
+      <div v-if="isLoading" class="space-y-4">
         <div
-          class="animate-spin h-6 w-6 border-2 border-primary rounded-full border-t-transparent"
-        ></div>
+          v-for="i in 5"
+          :key="i"
+          class="flex items-end gap-2 max-w-[75%]"
+          :class="[i % 2 === 0 ? 'ml-auto flex-row-reverse' : 'mr-auto']"
+        >
+          <Skeleton
+            class="h-14 rounded-lg"
+            :class="i === 2 ? 'w-32' : 'w-48'"
+          />
+        </div>
       </div>
       <div v-else-if="error" class="p-4 text-red-500">
         {{ error }}
