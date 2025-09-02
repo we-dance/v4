@@ -36,7 +36,6 @@ onMounted(() => {
 })
 onUnmounted(() => {
   if (eventSource) {
-    console.log('Closing ChatConversation SSE connection')
     eventSource.close()
     eventSource = null
   }

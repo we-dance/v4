@@ -19,13 +19,10 @@ async function hasAccessToConversation(
 }
 
 export default defineEventHandler(async (event) => {
-  console.log('SSE Connection started')
   const res = setupSSE(event)
   const q = getQuery(event)
   const session = await getServerSession(event)
   const profileId = session?.profile?.id
-  console.log('👤 Profile ID:', profileId)
-  console.log('📝 Query:', q)
 
   const convId =
     typeof q.conversationId === 'string' ? q.conversationId : undefined
@@ -41,10 +38,8 @@ export default defineEventHandler(async (event) => {
     : profileId
       ? (`inbox:${profileId}` as const)
       : undefined
-  console.log('Channel:', channel)
 
   if (!channel) {
-    console.log('No channel, returning 400')
     setResponseStatus(event, 400)
     res.end()
     return
@@ -60,7 +55,6 @@ export default defineEventHandler(async (event) => {
   }
 
   const unsubscribe = subscribe(channel, res)
-  console.log('Subscribed to channel:', channel)
   const hb = setInterval(() => res.write(':hb\n\n'), 25000)
 
   let cleaned = false
