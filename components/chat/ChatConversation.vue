@@ -58,6 +58,11 @@ onUnmounted(() => {
     eventSource.close()
     eventSource = null
   }
+
+  if (markAsReadTimer) {
+    clearTimeout(markAsReadTimer)
+    markAsReadTimer = null
+  }
 })
 
 watch(
