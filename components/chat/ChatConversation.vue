@@ -68,16 +68,17 @@ interface ConversationData {
   id: string
   aId: string
   bId: string
-  a: { id: string; name?: string; photo?: string }
-  b: { id: string; name?: string; photo?: string }
+  a: { id: string; name?: string; photo?: string | null }
+  b: { id: string; name?: string; photo?: string | null }
   messages: Array<{
     id: string
     senderId: string
     content: string
     createdAt: string
-    sender: { id: string; name?: string; photo?: string }
+    sender: { id: string; name?: string; photo?: string | null }
   }>
 }
+const conversationKey = computed(() => `conversation-${props.conversationId}`)
 
 const {
   data: conversation,
@@ -85,7 +86,7 @@ const {
   error,
   refresh,
 } = useAsyncData(
-  `conversation-${props.conversationId}`,
+  conversationKey.value,
   () =>
     $client.chat.getConversation.query({
       conversationId: props.conversationId,
@@ -299,7 +300,7 @@ async function sendMessage() {
         <button
           type="submit"
           class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary"
-          :disabled="!newMessage.trim() || isSending"
+          :disabled="charCount === 0 || charCount > 500 || isSending"
         >
           <span v-if="isSending">
             <div

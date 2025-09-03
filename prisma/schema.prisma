@@ -118,6 +118,8 @@ model City {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@index([membersCount(sort: Desc)])
 }
 
 model Profile {
@@ -203,6 +205,10 @@ model Profile {
   ConversationAsB Conversation[] @relation("BProfile")
   messages        Message[]
 
+  @@index([photo])
+  @@index([userId])
+  @@index([cityId])
+  @@index([createdAt(sort: Desc)])
   @@map("Profile")
 }
 
@@ -216,6 +222,8 @@ model Experience {
   style     DanceStyle @relation("experience_style", fields: [styleId], references: [id])
 
   @@unique([profileId, styleId])
+  @@index([profileId])
+  @@index([styleId])
 }
 
 model Post {
