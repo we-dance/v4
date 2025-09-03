@@ -679,7 +679,6 @@ model Message {
   conversationId String
   senderId       String
   content        String   @db.Text
-  isDeleted      Boolean  @default(false)
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 

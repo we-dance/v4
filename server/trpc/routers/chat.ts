@@ -147,6 +147,10 @@ export const chatRouter = router({
         type: 'conversation.updated',
         conversationId: conversation.id,
       })
+      publish(`inbox:${me}`, {
+        type: 'conversation.updated',
+        conversationId: conversation.id,
+      })
       return conversation
     }),
 
@@ -200,6 +204,10 @@ export const chatRouter = router({
 
       const other = conv.aId === me ? conv.bId : conv.aId
       publish(`inbox:${other}`, {
+        type: 'conversation.updated',
+        conversationId: conv.id,
+      })
+      publish(`inbox:${me}`, {
         type: 'conversation.updated',
         conversationId: conv.id,
       })

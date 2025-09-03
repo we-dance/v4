@@ -8,7 +8,6 @@ export const messageSchema = z.object({
   content: z.string().min(1, 'Message cannot be empty'),
   createdAt: z.date().or(z.string()),
   updatedAt: z.date().or(z.string()),
-  isDeleted: z.boolean().default(false),
 })
 
 export type Message = z.infer<typeof messageSchema>
@@ -38,7 +37,6 @@ export type Conversation = z.infer<typeof conversationSchema>
 // Conversation with messages and last message
 export const conversationWithDetailsSchema = conversationSchema.extend({
   messages: z.array(messageSchema).optional(),
-  lastMessage: messageSchema.nullable().optional(),
 })
 
 export type ConversationWithDetails = z.infer<
@@ -91,7 +89,6 @@ export const chatEventSchema = z.discriminatedUnion('type', [
   z.object({
     type: z.literal('conversation.updated'),
     conversationId: z.string(),
-    lastMessageId: z.string().optional(),
   }),
 ])
 
