@@ -162,18 +162,32 @@ function formatTime(timestamp: string | Date) {
           <!-- Content -->
           <div class="flex-1 min-w-0">
             <div class="flex justify-between items-baseline">
-              <h3 class="text-sm font-medium truncate">
+              <h3
+                class="text-sm font-medium truncate"
+                :class="{ 'font-bold': conversation.hasUnread }"
+              >
                 {{ getOtherParticipant(conversation)?.name || 'Unknown User' }}
               </h3>
               <span
                 v-if="getLastMessage(conversation)?.createdAt"
-                class="text-xs text-gray-500"
+                class="text-xs text-gray-500 flex items-center shrink-0 ml-2"
               >
+                <span
+                  v-if="conversation.hasUnread"
+                  class="w-2 h-2 bg-primary rounded-full mr-2"
+                ></span>
                 {{ formatTime(getLastMessage(conversation).createdAt) }}
               </span>
             </div>
 
-            <p class="text-sm text-gray-500 truncate mt-1">
+            <p
+              class="text-sm truncate mt-1"
+              :class="
+                conversation.hasUnread
+                  ? 'text-gray-900 dark:text-white font-semibold'
+                  : 'text-gray-500'
+              "
+            >
               {{ getLastMessage(conversation)?.content || 'No messages yet' }}
             </p>
           </div>

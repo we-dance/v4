@@ -25,7 +25,9 @@ export const chatRouter = router({
       include: {
         a: { select: { id: true, name: true, photo: true } },
         b: { select: { id: true, name: true, photo: true } },
-        lastMessage: {
+        messages: {
+          orderBy: { createdAt: 'desc' },
+          take: 1,
           include: {
             sender: { select: { id: true, name: true, photo: true } },
           },
@@ -35,13 +37,23 @@ export const chatRouter = router({
     return convs.map((c) => {
       const iAmA = c.aId === me
       const receiver = iAmA ? c.b : c.a
+      const myLastSeenAt = iAmA ? c.aLastSeenAt : c.bLastSeenAt
+      const lastMessage = c.messages[0]
+
+      let hasUnread = false
+      if (lastMessage && lastMessage.senderId !== me) {
+        if (!myLastSeenAt || lastMessage.createdAt > myLastSeenAt) {
+          hasUnread = true
+        }
+      }
       return {
         id: c.id,
         createdAt: c.createdAt,
         updatedAt: c.updatedAt,
         participants: [{ profileId: c.aId }, { profileId: c.bId }],
-        messages: c.lastMessage ? [c.lastMessage] : [],
+        messages: c.messages,
         receiver,
+        hasUnread,
       }
     })
   }),
@@ -99,7 +111,14 @@ export const chatRouter = router({
         const [aId, bId] = me < other ? [me, other] : [other, me]
         try {
           const created = await tx.conversation.create({
-            data: { pairKey: key, aId, bId },
+            data: {
+              pairKey: key,
+              aId,
+              bId,
+              ...(aId === me
+                ? { aLastSeenAt: new Date() }
+                : { bLastSeenAt: new Date() }),
+            },
             include: {
               a: { select: { id: true, name: true, photo: true } },
               b: { select: { id: true, name: true, photo: true } },
@@ -156,7 +175,6 @@ export const chatRouter = router({
         await tx.conversation.update({
           where: { id: conv.id },
           data: {
-            lastMessageId: createdMessage.id,
             ...(conv.aId === me
               ? { aLastSeenAt: new Date() }
               : { bLastSeenAt: new Date() }),
@@ -184,8 +202,29 @@ export const chatRouter = router({
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
         conversationId: conv.id,
-        lastMessageId: msg.id,
       })
       return msg
+    }),
+
+  markAsRead: publicProcedure
+    .input(z.object({ conversationId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const me = requireProfileId(ctx)
+      const conv = await prisma.conversation.findFirst({
+        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
+        select: { id: true, aId: true },
+      })
+      if (!conv) {
+        throw new TRPCError({ code: 'NOT_FOUND' })
+      }
+      await prisma.conversation.update({
+        where: { id: conv.id },
+        data: {
+          ...(conv.aId === me
+            ? { aLastSeenAt: new Date() }
+            : { bLastSeenAt: new Date() }),
+        },
+      })
+      return { success: true }
     }),
 })

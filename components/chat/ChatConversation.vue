@@ -47,6 +47,7 @@ function setupEventSource(id: string) {
 onMounted(() => {
   scrollToBottom()
   setupEventSource(props.conversationId)
+  markConversationRead(props.conversationId)
 })
 onUnmounted(() => {
   if (eventSource) {
@@ -60,6 +61,7 @@ watch(
   (newId, oldId) => {
     if (newId && newId !== oldId) {
       setupEventSource(newId)
+      markConversationRead(newId)
     }
   }
 )
@@ -182,6 +184,16 @@ async function sendMessage() {
   } finally {
     isSending.value = false
   }
+}
+
+async function markConversationRead(id: string) {
+  setTimeout(async () => {
+    try {
+      await $client.chat.markAsRead.mutate({ conversationId: id })
+    } catch (error) {
+      console.error('Failed to mark conversation as read', error)
+    }
+  }, 2000)
 }
 </script>
 
