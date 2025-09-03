@@ -14,6 +14,7 @@ const charCount = computed(() => graphemeCount(newMessage.value))
 
 const { $client } = useNuxtApp()
 let eventSource: EventSource | null = null
+let markAsReadTimer: ReturnType<typeof setTimeout> | null = null
 
 function setupEventSource(id: string) {
   eventSource?.close()
@@ -33,6 +34,9 @@ function setupEventSource(id: string) {
           !messages.some((m) => m.id === data.message.id)
         ) {
           messages.push(data.message)
+          if (data.message.senderId !== currentUser.value?.id) {
+            markAsRead(id)
+          }
         }
       }
     } catch (error) {
@@ -47,7 +51,7 @@ function setupEventSource(id: string) {
 onMounted(() => {
   scrollToBottom()
   setupEventSource(props.conversationId)
-  markConversationRead(props.conversationId)
+  markAsRead(props.conversationId)
 })
 onUnmounted(() => {
   if (eventSource) {
@@ -61,7 +65,7 @@ watch(
   (newId, oldId) => {
     if (newId && newId !== oldId) {
       setupEventSource(newId)
-      markConversationRead(newId)
+      markAsRead(newId)
     }
   }
 )
@@ -185,9 +189,9 @@ async function sendMessage() {
     isSending.value = false
   }
 }
-
-async function markConversationRead(id: string) {
-  setTimeout(async () => {
+function markAsRead(id: string) {
+  if (markAsReadTimer) clearTimeout(markAsReadTimer)
+  markAsReadTimer = setTimeout(async () => {
     try {
       await $client.chat.markAsRead.mutate({ conversationId: id })
     } catch (error) {

@@ -40,12 +40,11 @@ export const chatRouter = router({
       const myLastSeenAt = iAmA ? c.aLastSeenAt : c.bLastSeenAt
       const lastMessage = c.messages[0]
 
-      let hasUnread = false
-      if (lastMessage && lastMessage.senderId !== me) {
-        if (!myLastSeenAt || lastMessage.createdAt > myLastSeenAt) {
-          hasUnread = true
-        }
-      }
+      const hasUnread =
+        !!lastMessage &&
+        lastMessage.senderId !== me &&
+        (!myLastSeenAt || lastMessage.createdAt > myLastSeenAt)
+
       return {
         id: c.id,
         createdAt: c.createdAt,
