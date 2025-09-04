@@ -8,8 +8,7 @@ const { $client } = useNuxtApp()
 const { data: allDanceStyles } = await $client.styles.list.useQuery()
 
 const selectedStyles = defineModel<DanceStyle[]>({
-  required: true,
-  default: () => [],
+  default: () => [] as DanceStyle[],
 })
 
 const open = ref(false)
@@ -17,20 +16,20 @@ const searchQuery = ref('')
 
 const filteredStyles = computed(() => {
   const items = allDanceStyles.value ?? []
-  const q = searchQuery.value.trim().toLocaleLowerCase()
+  const q = searchQuery.value.trim().toLowerCase()
   if (!q) return items
-  return items.filter((style) => style.name.toLocaleLowerCase().includes(q))
+  return items.filter((style) => style.name.toLowerCase().includes(q))
+})
+
+watch(open, (isOpen) => {
+  if (!isOpen) searchQuery.value = ''
 })
 
 function toggleStyle(style: DanceStyle) {
-  const index = selectedStyles.value.findIndex((s) => s.id === style.id)
-  if (index > -1) {
-    const newSelection = [...selectedStyles.value]
-    newSelection.splice(index, 1)
-    selectedStyles.value = newSelection
-  } else {
-    selectedStyles.value = [...selectedStyles.value, style]
-  }
+  const exists = selectedStyles.value.some((s) => s.id === style.id)
+  selectedStyles.value = exists
+    ? selectedStyles.value.filter((s) => s.id !== style.id)
+    : [...selectedStyles.value, style]
 }
 </script>
 
