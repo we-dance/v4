@@ -24,9 +24,10 @@ const emit = defineEmits<{
 
 const filteredItems = computed(() => {
   const query = props.searchQuery.toLowerCase()
-  return props.items
-    .filter((item) => item[props.itemLabel].toLowerCase().includes(query))
-    .slice(0, 10)
+  return props.items.filter((item) =>
+    item[props.itemLabel].toLowerCase().includes(query)
+  )
+  //.slice(0, 10)
 })
 
 const onSelect = (item: Item) => {

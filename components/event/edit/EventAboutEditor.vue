@@ -214,7 +214,7 @@ const askToDelete = () => {
                 @update:model-value="(v) => setValue(v)"
               />
               <template #fallback>
-                <div>Loading Styles</div>
+                <div>Loading Styles...</div>
               </template>
             </Suspense>
           </FormControl>
