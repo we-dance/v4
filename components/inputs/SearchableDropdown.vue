@@ -24,10 +24,9 @@ const emit = defineEmits<{
 
 const filteredItems = computed(() => {
   const query = props.searchQuery.toLowerCase()
-  return props.items.filter((item) =>
-    item[props.itemLabel].toLowerCase().includes(query)
-  )
-  //.slice(0, 10)
+  return props.items
+    .filter((item) => item[props.itemLabel].toLowerCase().includes(query))
+    .slice(0, 10)
 })
 
 const onSelect = (item: Item) => {
@@ -73,7 +72,7 @@ const onSelect = (item: Item) => {
           :class="
             cn(
               'h-4 w-4 shrink-0',
-              selection?.some((s) => s.id === item.id)
+              selection?.some((s) => s[itemKey] === item[itemKey])
                 ? 'opacity-100'
                 : 'opacity-0'
             )

@@ -50,7 +50,7 @@ function toggleStyle(style: DanceStyle) {
     <div v-if="selectedStyles.length > 0" class="flex flex-wrap gap-2 mb-2">
       <Badge
         v-for="style in selectedStyles"
-        :ket="style.id"
+        :key="style.id"
         variant="secondary"
         class="flex items-center gap-x-1.5"
       >
@@ -87,7 +87,7 @@ function toggleStyle(style: DanceStyle) {
           :selection="selectedStyles"
           v-model:searchQuery="searchQuery"
           placeholder="Search dance style..."
-          itemKey="hashtag"
+          itemKey="id"
           itemLabel="name"
           @select="toggleStyle"
         />

@@ -304,10 +304,7 @@ export const eventsRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { id, venue, organizer, styles, ...data } = input
       const stylesData = styles
-        ? {
-            set: [],
-            connect: styles.map((style) => ({ id: style.id })),
-          }
+        ? { set: styles.map((style) => ({ id: style.id })) }
         : undefined
       const event = await prisma.event.update({
         where: { id },

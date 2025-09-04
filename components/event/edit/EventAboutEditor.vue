@@ -210,8 +210,8 @@ const askToDelete = () => {
           <FormControl>
             <Suspense>
               <DanceStyleInput
-                :model-value="value || event.styles"
-                @update:model-value="(v) => setValue(v)"
+                :model-value="value ?? event.styles ?? []"
+                @update:model-value="setValue"
               />
               <template #fallback>
                 <div>Loading Styles...</div>

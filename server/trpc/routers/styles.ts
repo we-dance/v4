@@ -1,4 +1,4 @@
-import { publicProcedure, router } from '../init'
+import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 
 export const stylesRouter = router({
