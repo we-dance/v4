@@ -52,6 +52,27 @@ export default defineEventHandler(async (event) => {
       res.end()
       return
     }
+    const conversation = await prisma.conversation.findFirst({
+      where: { id: convId, OR: [{ aId: profileId }, { bId: profileId }] },
+      include: {
+        messages: {
+          orderBy: { createdAt: 'asc' },
+          take: 200,
+          include: {
+            sender: { select: { id: true, name: true, photo: true } },
+          },
+        },
+        a: { select: { id: true, name: true, photo: true } },
+        b: { select: { id: true, name: true, photo: true } },
+      },
+    })
+    if (conversation) {
+      const initialEvent = {
+        type: 'conversation.init',
+        conversation,
+      }
+      res.write(`data: ${JSON.stringify(initialEvent)}\n\n`)
+    }
   }
 
   const unsubscribe = subscribe(channel, res)

@@ -1,12 +1,22 @@
 <script setup lang="ts">
-import { graphemeCount } from '~/schemas/chat'
+import { graphemeCount, type ChatEvent } from '~/schemas/chat'
 const props = defineProps<{
   conversationId: string
 }>()
 
+type ConversationData = Extract<
+  ChatEvent,
+  { type: 'conversation.init' }
+>['conversation']
+
+const conversation = ref<ConversationData | null>(null)
+
 const messagesContainer = ref<HTMLElement | null>(null)
 const newMessage = ref('')
 const isSending = ref(false)
+
+const isLoading = ref(true)
+const error = ref<Error | null>(null)
 
 const { session } = useAppAuth()
 const currentUser = computed(() => session.value?.profile)
@@ -22,8 +32,15 @@ function setupEventSource(id: string) {
 
   eventSource.onmessage = (event) => {
     try {
-      const data = JSON.parse(event.data)
-      if (
+      const data = JSON.parse(event.data) as ChatEvent
+      if (data.type === 'conversation.init') {
+        conversation.value = data.conversation
+        isLoading.value = false
+        // Wait for the DOM to update with the messages before scrolling
+        nextTick(() => {
+          scrollToBottom()
+        })
+      } else if (
         data.type === `message.created` &&
         data.conversationId === id &&
         data.message
@@ -39,17 +56,21 @@ function setupEventSource(id: string) {
           }
         }
       }
-    } catch (error) {
-      console.warn('SSE parse error:', error)
+    } catch (err) {
+      console.warn('SSE parse error:', err)
+      error.value =
+        err instanceof Error ? err : new Error('Failed to parse SSE event')
+      isLoading.value = false
     }
   }
-  eventSource.onerror = (error) => {
-    console.error('SSE CONNECTION ERROR:', error)
+  eventSource.onerror = (err) => {
+    console.error('SSE CONNECTION ERROR:', err)
+    error.value = new Error('Connection to chat server failed.')
+    isLoading.value = false
   }
 }
 
 onMounted(() => {
-  scrollToBottom()
   setupEventSource(props.conversationId)
   markAsRead(props.conversationId)
 })
@@ -69,46 +90,19 @@ watch(
   () => props.conversationId,
   (newId, oldId) => {
     if (newId && newId !== oldId) {
+      isLoading.value = true
+      conversation.value = null
+      error.value = null
       setupEventSource(newId)
       markAsRead(newId)
     }
   }
 )
 
-interface ConversationData {
-  id: string
-  aId: string
-  bId: string
-  a: { id: string; name?: string; photo?: string | null }
-  b: { id: string; name?: string; photo?: string | null }
-  messages: Array<{
-    id: string
-    senderId: string
-    content: string
-    createdAt: string
-    sender: { id: string; name?: string; photo?: string | null }
-  }>
-}
-const conversationKey = computed(() => `conversation-${props.conversationId}`)
-
-const {
-  data: conversation,
-  pending: isLoading,
-  error,
-  refresh,
-} = useAsyncData(
-  conversationKey.value,
-  () =>
-    $client.chat.getConversation.query({
-      conversationId: props.conversationId,
-    }),
-  { watch: [() => props.conversationId] }
-)
-
 const otherParticipant = computed(() => {
   if (!conversation.value || !currentUser.value) return null
 
-  const conv = conversation.value as ConversationData
+  const conv = conversation.value
   const currentUserId = currentUser.value?.id
 
   // Return the participant that's not the current user
@@ -132,7 +126,7 @@ function scrollToBottom() {
 }
 
 // Get initials from name
-function getInitials(name: string | undefined) {
+function getInitials(name: string | null | undefined) {
   if (!name) return '?'
   return name
     .split(' ')
@@ -244,9 +238,9 @@ function markAsRead(id: string) {
             v-else
             class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
           >
-            <span class="text-gray-500 dark:text-gray-400">{{
-              getInitials(otherParticipant?.name)
-            }}</span>
+            <span class="text-gray-500 dark:text-gray-400">
+              {{ getInitials(otherParticipant?.name) }}
+            </span>
           </div>
         </div>
         <div class="ml-3">

@@ -1,4 +1,5 @@
 import { z } from 'zod'
+import { profileSchema } from './profile'
 
 // Message schema
 export const messageSchema = z.object({
@@ -12,36 +13,16 @@ export const messageSchema = z.object({
 
 export type Message = z.infer<typeof messageSchema>
 
-// Conversation participant schema
-export const conversationParticipantSchema = z.object({
-  profileId: z.string(),
-  name: z.string().optional(),
-  username: z.string().optional(),
-  photo: z.string().nullable().optional(),
-})
-
-export type ConversationParticipant = z.infer<
-  typeof conversationParticipantSchema
->
-
 // Basic conversation schema
 export const conversationSchema = z.object({
   id: z.string(),
-  participants: z.array(conversationParticipantSchema),
+  aId: z.string(),
+  bId: z.string(),
   createdAt: z.date().or(z.string()),
   updatedAt: z.date().or(z.string()),
 })
 
 export type Conversation = z.infer<typeof conversationSchema>
-
-// Conversation with messages and last message
-export const conversationWithDetailsSchema = conversationSchema.extend({
-  messages: z.array(messageSchema).optional(),
-})
-
-export type ConversationWithDetails = z.infer<
-  typeof conversationWithDetailsSchema
->
 
 // Input for creating a new conversation
 export const createConversationSchema = z.object({
@@ -83,7 +64,19 @@ export const chatEventSchema = z.discriminatedUnion('type', [
     conversationId: z.string(),
     messageId: z.string(),
     message: messageSchema.extend({
-      sender: conversationParticipantSchema,
+      sender: profileSchema,
+    }),
+  }),
+  z.object({
+    type: z.literal('conversation.init'),
+    conversation: conversationSchema.extend({
+      messages: z.array(
+        messageSchema.extend({
+          sender: profileSchema,
+        })
+      ),
+      a: profileSchema,
+      b: profileSchema,
     }),
   }),
   z.object({
