@@ -1,36 +1,25 @@
 <script setup lang="ts">
 import type { DanceStyle } from '@prisma/client'
 import { computed, ref } from 'vue'
-import { Check, X } from 'lucide-vue-next'
-import { cn } from '@/utils'
+import { X } from 'lucide-vue-next'
 
 const { $client } = useNuxtApp()
 
 const { data: allDanceStyles } = await $client.styles.list.useQuery()
 
-const props = defineProps<{
-  modelValue: DanceStyle[]
-}>()
-
-const emit = defineEmits<{
-  (e: 'update:modelValue', value: DanceStyle[]): void
-}>()
+const selectedStyles = defineModel<DanceStyle[]>({
+  required: true,
+  default: () => [],
+})
 
 const open = ref(false)
 const searchQuery = ref('')
 
 const filteredStyles = computed(() => {
-  if (!searchQuery.value) {
-    return allDanceStyles.value ?? []
-  }
-  return (allDanceStyles.value ?? []).filter((style) =>
-    style.name.toLowerCase().includes(searchQuery.value.toLowerCase())
-  )
-})
-
-const selectedStyles = computed({
-  get: () => props.modelValue || [],
-  set: (newValue) => emit('update:modelValue', newValue),
+  const items = allDanceStyles.value ?? []
+  const q = searchQuery.value.trim().toLocaleLowerCase()
+  if (!q) return items
+  return items.filter((style) => style.name.toLocaleLowerCase().includes(q))
 })
 
 function toggleStyle(style: DanceStyle) {
@@ -55,7 +44,11 @@ function toggleStyle(style: DanceStyle) {
         class="flex items-center gap-x-1.5"
       >
         {{ style.name }}
-        <button type="button" @click="toggleStyle(style)">
+        <button
+          type="button"
+          :aria-label="`Remove ${style.name}`"
+          @click="toggleStyle(style)"
+        >
           <X class="h-3 w-3" />
         </button>
       </Badge>
@@ -66,13 +59,15 @@ function toggleStyle(style: DanceStyle) {
           variant="secondary"
           role="combobox"
           :aria-expanded="open"
+          aria-haspopup="listbox"
+          :aria-controls="'dance-style-dropdown'"
           class="font-normal text-left"
         >
-          <span class="truncate-1">
+          <span class="truncate">
             {{
               selectedStyles.length > 0
                 ? `${selectedStyles.length} selected`
-                : 'Select Dance Styles..'
+                : 'Select dance styles…'
             }}
           </span>
           <Icon
@@ -81,7 +76,7 @@ function toggleStyle(style: DanceStyle) {
           />
         </Button>
       </PopoverTrigger>
-      <PopoverContent class="p-0">
+      <PopoverContent id="dance-style-dropdown" class="p-0">
         <SearchableDropdown
           :items="filteredStyles"
           :selection="selectedStyles"
