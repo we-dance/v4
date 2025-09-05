@@ -1,30 +1,83 @@
 <script setup lang="ts">
 import { graphemeCount, type ChatEvent } from '~/schemas/chat'
+
+// Props
 const props = defineProps<{
   conversationId: string
 }>()
 
+//State Management
 type ConversationData = Extract<
   ChatEvent,
   { type: 'conversation.init' }
 >['conversation']
 
 const conversation = ref<ConversationData | null>(null)
-
 const messagesContainer = ref<HTMLElement | null>(null)
 const newMessage = ref('')
 const isSending = ref(false)
-
 const isLoading = ref(true)
 const error = ref<Error | null>(null)
 
-const { session } = useAppAuth()
-const currentUser = computed(() => session.value?.profile)
-const charCount = computed(() => graphemeCount(newMessage.value))
-
-const { $client } = useNuxtApp()
 let eventSource: EventSource | null = null
 let markAsReadTimer: ReturnType<typeof setTimeout> | null = null
+
+// Composables
+const { $client } = useNuxtApp()
+const { session } = useAppAuth()
+
+// Computed Properties
+const currentUser = computed(() => session.value?.profile)
+const charCount = computed(() => graphemeCount(newMessage.value))
+const otherParticipant = computed(() => {
+  if (!conversation.value || !currentUser.value) return null
+
+  const conv = conversation.value
+  const currentUserId = currentUser.value?.id
+
+  // Return the participant that's not the current user
+  return conv.aId === currentUserId ? conv.b : conv.a
+})
+
+//Lifecycle Hooks
+onMounted(() => {
+  setupEventSource(props.conversationId)
+  markAsRead(props.conversationId)
+})
+
+onUnmounted(() => {
+  if (eventSource) {
+    eventSource.close()
+    eventSource = null
+  }
+
+  if (markAsReadTimer) {
+    clearTimeout(markAsReadTimer)
+    markAsReadTimer = null
+  }
+})
+
+watch(
+  () => props.conversationId,
+  (newId, oldId) => {
+    if (newId && newId !== oldId) {
+      isLoading.value = true
+      conversation.value = null
+      error.value = null
+      setupEventSource(newId)
+      markAsRead(newId)
+    }
+  }
+)
+
+watch(
+  () => conversation.value?.messages?.length,
+  () => {
+    scrollToBottom()
+  }
+)
+
+//Core Logic Functions
 
 function setupEventSource(id: string) {
   eventSource?.close()
@@ -70,53 +123,40 @@ function setupEventSource(id: string) {
   }
 }
 
-onMounted(() => {
-  setupEventSource(props.conversationId)
-  markAsRead(props.conversationId)
-})
-onUnmounted(() => {
-  if (eventSource) {
-    eventSource.close()
-    eventSource = null
+async function sendMessage() {
+  const content = newMessage.value.trim()
+  if (!content || isSending.value) return
+  if (graphemeCount(content) > 500) {
+    //optionally surface a toast here for use
+    return
   }
-
-  if (markAsReadTimer) {
-    clearTimeout(markAsReadTimer)
-    markAsReadTimer = null
+  try {
+    isSending.value = true
+    await $client.chat.sendMessage.mutate({
+      conversationId: props.conversationId,
+      content,
+    })
+    newMessage.value = ''
+    //The SSE listener will handle refreshing the conversation data
+  } catch (err) {
+    console.error('Failed to send message:', err)
+  } finally {
+    isSending.value = false
   }
-})
+}
 
-watch(
-  () => props.conversationId,
-  (newId, oldId) => {
-    if (newId && newId !== oldId) {
-      isLoading.value = true
-      conversation.value = null
-      error.value = null
-      setupEventSource(newId)
-      markAsRead(newId)
+function markAsRead(id: string) {
+  if (markAsReadTimer) clearTimeout(markAsReadTimer)
+  markAsReadTimer = setTimeout(async () => {
+    try {
+      await $client.chat.markAsRead.mutate({ conversationId: id })
+    } catch (error) {
+      console.error('Failed to mark conversation as read', error)
     }
-  }
-)
+  }, 2000)
+}
 
-const otherParticipant = computed(() => {
-  if (!conversation.value || !currentUser.value) return null
-
-  const conv = conversation.value
-  const currentUserId = currentUser.value?.id
-
-  // Return the participant that's not the current user
-  return conv.aId === currentUserId ? conv.b : conv.a
-})
-
-// Scroll to bottom when messages change
-watch(
-  () => conversation.value?.messages?.length,
-  () => {
-    scrollToBottom()
-  }
-)
-
+// Helper and Utility Functions
 function scrollToBottom() {
   nextTick(() => {
     if (messagesContainer.value) {
@@ -165,38 +205,6 @@ function formatTime(timestamp: string | Date) {
     month: 'short',
     day: 'numeric',
   })
-}
-
-async function sendMessage() {
-  const content = newMessage.value.trim()
-  if (!content || isSending.value) return
-  if (graphemeCount(content) > 500) {
-    //optionally surface a toast here for use
-    return
-  }
-  try {
-    isSending.value = true
-    await $client.chat.sendMessage.mutate({
-      conversationId: props.conversationId,
-      content,
-    })
-    newMessage.value = ''
-    //The SSE listener will handle refreshing the conversation data
-  } catch (err) {
-    console.error('Failed to send message:', err)
-  } finally {
-    isSending.value = false
-  }
-}
-function markAsRead(id: string) {
-  if (markAsReadTimer) clearTimeout(markAsReadTimer)
-  markAsReadTimer = setTimeout(async () => {
-    try {
-      await $client.chat.markAsRead.mutate({ conversationId: id })
-    } catch (error) {
-      console.error('Failed to mark conversation as read', error)
-    }
-  }, 2000)
 }
 </script>
 

@@ -47,9 +47,10 @@ export const chatRouter = router({
 
       return {
         id: c.id,
+        aId: c.aId,
+        bId: c.bId,
         createdAt: c.createdAt,
         updatedAt: c.updatedAt,
-        participants: [{ profileId: c.aId }, { profileId: c.bId }],
         messages: c.messages,
         receiver,
         hasUnread,
@@ -57,35 +58,12 @@ export const chatRouter = router({
     })
   }),
 
-  // Get a single conversation by ID
-  getConversation: publicProcedure
-    .input(z.object({ conversationId: z.string() }))
-    .query(async ({ ctx, input }) => {
-      const me = requireProfileId(ctx)
-      const c = await prisma.conversation.findFirst({
-        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
-        include: {
-          messages: {
-            orderBy: { createdAt: 'asc' },
-            take: 200,
-            include: {
-              sender: { select: { id: true, name: true, photo: true } },
-            },
-          },
-          a: { select: { id: true, name: true, photo: true } },
-          b: { select: { id: true, name: true, photo: true } },
-        },
-      })
-      if (!c) throw new TRPCError({ code: 'NOT_FOUND' })
-      return c
-    }),
-
   // Create a new conversation
   createConversation: publicProcedure
     .input(createConversationSchema)
     .mutation(async ({ ctx, input }) => {
       const me = requireProfileId(ctx)
-      const other = input.participantIds[0]
+      const other = input.otherUserId
       if (!other || other === me) throw new TRPCError({ code: 'BAD_REQUEST' })
 
       const otherProfile = await prisma.profile.findUnique({
@@ -189,7 +167,7 @@ export const chatRouter = router({
       const messageForEvent = {
         ...msg,
         sender: {
-          profileId: msg.sender.id,
+          id: msg.sender.id,
           name: msg.sender.name,
           photo: msg.sender.photo,
         },
