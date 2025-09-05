@@ -25,7 +25,13 @@ export const messageSchema = z.object({
   id: z.string(),
   conversationId: z.string(),
   senderId: z.string(),
-  content: z.string().min(1, 'Message cannot be empty'),
+  content: z
+    .string()
+    .transform((s) => s.trim())
+    .refine(
+      (s) => graphemeCount(s) >= 1 && graphemeCount(s) <= 500,
+      'Message must be 1–500 characters.'
+    ),
   createdAt: z.date().or(z.string()),
   updatedAt: z.date().or(z.string()),
 })

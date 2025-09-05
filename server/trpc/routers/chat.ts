@@ -210,6 +210,10 @@ export const chatRouter = router({
             : { bLastSeenAt: new Date() }),
         },
       })
+      publish(`inbox:${me}`, {
+        type: 'conversation.updated',
+        conversationId: conv.id,
+      })
       return { success: true }
     }),
 })

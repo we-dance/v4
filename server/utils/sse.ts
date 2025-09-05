@@ -24,7 +24,7 @@ export function subscribe(channel: ChatChannel, sink: Sink) {
   }
   // Best-effort cleanup
   sink.on?.('close', cleanup)
-  //ts-expect-error
+  // ts-expect-error
   sink.on?.('error', cleanup)
   return cleanup
 }

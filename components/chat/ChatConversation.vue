@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { graphemeCount, type ChatEvent } from '~/schemas/chat'
+import { graphemeCount, chatEventSchema, type ChatEvent } from '~/schemas/chat'
 
 // Props
 const props = defineProps<{
@@ -28,7 +28,7 @@ const { session } = useAppAuth()
 
 // Computed Properties
 const currentUser = computed(() => session.value?.profile)
-const charCount = computed(() => graphemeCount(newMessage.value))
+const charCount = computed(() => graphemeCount(newMessage.value.trim()))
 const otherParticipant = computed(() => {
   if (!conversation.value || !currentUser.value) return null
 
@@ -39,7 +39,7 @@ const otherParticipant = computed(() => {
   return conv.aId === currentUserId ? conv.b : conv.a
 })
 
-//Lifecycle Hooks
+// Lifecycle Hooks
 onMounted(() => {
   setupEventSource(props.conversationId)
   markAsRead(props.conversationId)
@@ -70,22 +70,25 @@ watch(
   }
 )
 
-watch(
-  () => conversation.value?.messages?.length,
-  () => {
-    scrollToBottom()
-  }
-)
-
-//Core Logic Functions
-
+// Core Logic Functions
 function setupEventSource(id: string) {
   eventSource?.close()
   eventSource = new EventSource(`/api/chat/stream?conversationId=${id}`)
 
   eventSource.onmessage = (event) => {
     try {
-      const data = JSON.parse(event.data) as ChatEvent
+      // Parse the raw text data
+      const rawData = JSON.parse(event.data)
+      // Validate the data against the schema
+      const parsed = chatEventSchema.safeParse(rawData)
+      // If validation fails stop
+      if (!parsed.success) {
+        console.warn('Recieved invalid SSE event:', parsed.error)
+        return
+      }
+      // If succeeds use the validated data
+      const data = parsed.data
+
       if (data.type === 'conversation.init') {
         conversation.value = data.conversation
         isLoading.value = false
@@ -94,7 +97,7 @@ function setupEventSource(id: string) {
           scrollToBottom()
         })
       } else if (
-        data.type === `message.created` &&
+        data.type === 'message.created' &&
         data.conversationId === id &&
         data.message
       ) {
@@ -104,6 +107,7 @@ function setupEventSource(id: string) {
           !messages.some((m) => m.id === data.message.id)
         ) {
           messages.push(data.message)
+          scrollToBottom()
           if (data.message.senderId !== currentUser.value?.id) {
             markAsRead(id)
           }
@@ -127,7 +131,7 @@ async function sendMessage() {
   const content = newMessage.value.trim()
   if (!content || isSending.value) return
   if (graphemeCount(content) > 500) {
-    //optionally surface a toast here for use
+    // Optionally surface a toast here for use
     return
   }
   try {
@@ -137,7 +141,7 @@ async function sendMessage() {
       content,
     })
     newMessage.value = ''
-    //The SSE listener will handle refreshing the conversation data
+    // The SSE listener will handle refreshing the conversation data
   } catch (err) {
     console.error('Failed to send message:', err)
   } finally {

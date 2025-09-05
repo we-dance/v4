@@ -27,7 +27,6 @@ function searchUsers() {
 
   searchTimeout = setTimeout(async () => {
     try {
-      // Replace with your actual API call to search users
       const results = await $client.profiles.search.query({
         query: searchQuery.value.trim(),
       })
@@ -54,7 +53,7 @@ async function createConversation() {
     isCreating.value = true
 
     const conversation = await $client.chat.createConversation.mutate({
-      participantIds: [selectedUser.value.id],
+      otherUserId: selectedUser.value.id,
     })
 
     showNewConversationModal.value = false

@@ -4,7 +4,7 @@ const { session } = useAppAuth()
 const { $client } = useNuxtApp()
 const currentUser = computed(() => session.value?.profile)
 
-//get the last Message from messages array
+// Get the last Message from messages array
 const getLastMessage = (conversation: any) => {
   if (!conversation.messages?.length) return null
   return conversation.messages[0]
@@ -29,7 +29,7 @@ watch(
       inboxEs = null
     }
     if (id) {
-      //ensure list is for the current user before opening sse
+      // Ensure list is for the current user before opening sse
       refresh()
       inboxEs = new EventSource('/api/chat/stream')
       inboxEs.onmessage = (event) => {
