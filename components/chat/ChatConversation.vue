@@ -41,7 +41,7 @@ const otherParticipant = computed(() => {
 
 // Lifecycle Hooks
 onMounted(() => {
-  setupEventSource(props.conversationId)
+  subscribeToConversation(props.conversationId)
   markAsRead(props.conversationId)
 })
 
@@ -64,14 +64,14 @@ watch(
       isLoading.value = true
       conversation.value = null
       error.value = null
-      setupEventSource(newId)
+      subscribeToConversation(newId)
       markAsRead(newId)
     }
   }
 )
 
 // Core Logic Functions
-function setupEventSource(id: string) {
+function subscribeToConversation(id: string) {
   eventSource?.close()
   eventSource = new EventSource(`/api/chat/stream?conversationId=${id}`)
 
@@ -83,7 +83,7 @@ function setupEventSource(id: string) {
       const parsed = chatEventSchema.safeParse(rawData)
       // If validation fails stop
       if (!parsed.success) {
-        console.warn('Recieved invalid SSE event:', parsed.error)
+        console.warn('Received invalid SSE event:', parsed.error)
         return
       }
       // If succeeds use the validated data

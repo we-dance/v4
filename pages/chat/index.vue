@@ -1,44 +1,59 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
+type SearchUser = {
+  id: string
+  name: string
+  username: string
+  photo: string | null
+}
 
 const router = useRouter()
 const { $client } = useNuxtApp()
 
 const showNewConversationModal = ref(false)
 const searchQuery = ref('')
-const searchResults = ref<any[]>([])
-const selectedUser = ref<any>(null)
+const searchResults = ref<SearchUser[]>([])
+const selectedUser = ref<SearchUser | null>(null)
 const isSearching = ref(false)
 const isCreating = ref(false)
 
 // Search users with debounce
-let searchTimeout: NodeJS.Timeout | null = null
+let searchTimeout: ReturnType<typeof setTimeout> | null = null
+let lastRequestToken = 0
 function searchUsers() {
-  selectedUser.value = null
   if (searchTimeout) clearTimeout(searchTimeout)
-
-  if (!searchQuery.value.trim()) {
+  const q = searchQuery.value.trim()
+  if (selectedUser.value && q !== selectedUser.value.name) {
+    selectedUser.value = null
+  }
+  if (!q) {
+    lastRequestToken++
     searchResults.value = []
+    isSearching.value = false
     return
   }
-
   isSearching.value = true
 
   searchTimeout = setTimeout(async () => {
+    const token = ++lastRequestToken
     try {
-      const results = await $client.profiles.search.query({
-        query: searchQuery.value.trim(),
-      })
-
+      const results = await $client.profiles.search.query({ query: q })
+      if (token !== lastRequestToken) return
       searchResults.value = results
     } catch (error) {
-      console.error('Error searching users:', error)
+      if (token === lastRequestToken)
+        console.error('Error searching users:', error)
     } finally {
-      isSearching.value = false
+      if (token === lastRequestToken) isSearching.value = false
     }
   }, 300)
 }
+
+onUnmounted(() => {
+  if (searchTimeout) clearTimeout(searchTimeout)
+  lastRequestToken++
+})
 
 function selectUser(user: any) {
   selectedUser.value = user
