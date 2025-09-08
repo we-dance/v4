@@ -196,7 +196,7 @@ export const chatRouter = router({
       const me = requireProfileId(ctx)
       const conv = await prisma.conversation.findFirst({
         where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
-        select: { id: true, aId: true },
+        select: { id: true, aId: true, bId: true },
       })
       if (!conv) {
         throw new TRPCError({ code: 'NOT_FOUND' })
@@ -213,6 +213,13 @@ export const chatRouter = router({
         type: 'conversation.updated',
         conversationId: conv.id,
       })
+      const other = conv.aId === me ? conv.bId : conv.aId
+      if (other && other !== me) {
+        publish(`inbox:${other}`, {
+          type: 'conversation.updated',
+          conversationId: conv.id,
+        })
+      }
       return { success: true }
     }),
 })

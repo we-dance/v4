@@ -95,6 +95,7 @@ function subscribeToConversation(id: string) {
       if (data.type === 'conversation.init') {
         conversation.value = data.conversation
         isLoading.value = false
+        error.value = null
         scrollToBottom()
       } else if (
         data.type === 'message.created' &&
@@ -120,6 +121,10 @@ function subscribeToConversation(id: string) {
       isLoading.value = false
     }
   }
+  eventSource.onopen = () => {
+    error.value = null
+  }
+
   eventSource.onerror = (err) => {
     console.error('SSE CONNECTION ERROR:', err)
     error.value = new Error('Connection to chat server failed.')
@@ -131,7 +136,7 @@ async function sendMessage() {
   const content = newMessage.value.trim()
   if (!content || isSending.value) return
   if (charCount.value > 500) {
-    toast.error('Message can not be longer than 500 characters.')
+    toast.error('Message cannot be longer than 500 characters.')
     return
   }
   try {
