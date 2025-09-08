@@ -31,7 +31,7 @@ export function useContact() {
     try {
       pending.value = true
       const conversation = await $client.chat.createConversation.mutate({
-        participantIds: [profile.id],
+        otherUserId: profile.id,
       })
       if (conversation?.id) {
         await navigateTo(`/chat/${conversation.id}`)

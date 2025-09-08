@@ -35,8 +35,8 @@ export const messageSchema = z.object({
   conversationId: z.string(),
   senderId: z.string(),
   content: contentSchema,
-  createdAt: z.date().or(z.string()),
-  updatedAt: z.date().or(z.string()),
+  createdAt: z.coerce.date(),
+  updatedAt: z.coerce.date(),
 })
 
 export type Message = z.infer<typeof messageSchema>
@@ -46,8 +46,8 @@ export const conversationSchema = z.object({
   id: z.string(),
   aId: z.string(),
   bId: z.string(),
-  createdAt: z.date().or(z.string()),
-  updatedAt: z.date().or(z.string()),
+  createdAt: z.coerce.date(),
+  updatedAt: z.coerce.date(),
 })
 
 export type Conversation = z.infer<typeof conversationSchema>
@@ -71,7 +71,6 @@ export const chatEventSchema = z.discriminatedUnion('type', [
   z.object({
     type: z.literal('message.created'),
     conversationId: z.string(),
-    messageId: z.string(),
     message: messageSchema.extend({
       sender: chatProfileSchema,
     }),

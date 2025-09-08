@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { graphemeCount, chatEventSchema, type ChatEvent } from '~/schemas/chat'
+import { toast } from 'vue-sonner'
 
 // Props
 const props = defineProps<{
@@ -73,7 +74,9 @@ watch(
 // Core Logic Functions
 function subscribeToConversation(id: string) {
   eventSource?.close()
-  eventSource = new EventSource(`/api/chat/stream?conversationId=${id}`)
+  eventSource = new EventSource(
+    `/api/chat/stream?conversationId=${encodeURIComponent(id)}`
+  )
 
   eventSource.onmessage = (event) => {
     try {
@@ -92,10 +95,7 @@ function subscribeToConversation(id: string) {
       if (data.type === 'conversation.init') {
         conversation.value = data.conversation
         isLoading.value = false
-        // Wait for the DOM to update with the messages before scrolling
-        nextTick(() => {
-          scrollToBottom()
-        })
+        scrollToBottom()
       } else if (
         data.type === 'message.created' &&
         data.conversationId === id &&
@@ -130,8 +130,8 @@ function subscribeToConversation(id: string) {
 async function sendMessage() {
   const content = newMessage.value.trim()
   if (!content || isSending.value) return
-  if (graphemeCount(content) > 500) {
-    // Optionally surface a toast here for use
+  if (charCount.value > 500) {
+    toast.error('Message can not be longer than 500 characters.')
     return
   }
   try {
@@ -327,7 +327,7 @@ function formatTime(timestamp: string | Date) {
         <button
           type="submit"
           class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary"
-          :disabled="charCount === 0 || charCount > 500 || isSending"
+          :disabled="charCount === 0 || isSending"
         >
           <span v-if="isSending">
             <div

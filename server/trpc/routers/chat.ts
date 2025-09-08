@@ -175,7 +175,6 @@ export const chatRouter = router({
       publish(`conversation:${conv.id}`, {
         type: 'message.created',
         conversationId: conv.id,
-        messageId: msg.id,
         message: messageForEvent,
       })
 
