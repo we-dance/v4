@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import type { DanceStyle } from '@prisma/client'
-import { computed, ref } from 'vue'
-import { X } from 'lucide-vue-next'
+import { computed, ref, watch } from 'vue'
+import { nanoid } from 'nanoid'
 
 const { $client } = useNuxtApp()
 
 const { data: allDanceStyles } = await $client.styles.list.useQuery()
+const dropdownId = `dance-style-dropdown${nanoid(6)}`
 
 const selectedStyles = defineModel<DanceStyle[]>({
   default: () => [] as DanceStyle[],
@@ -48,7 +49,7 @@ function toggleStyle(style: DanceStyle) {
           :aria-label="`Remove ${style.name}`"
           @click="toggleStyle(style)"
         >
-          <X class="h-3 w-3" />
+          <Icon name="lucide:x" class="h-3 w-3" />
         </button>
       </Badge>
     </div>
@@ -59,7 +60,7 @@ function toggleStyle(style: DanceStyle) {
           role="combobox"
           :aria-expanded="open"
           aria-haspopup="listbox"
-          :aria-controls="'dance-style-dropdown'"
+          :aria-controls="dropdownId"
           class="font-normal text-left"
         >
           <span class="truncate">
@@ -75,7 +76,7 @@ function toggleStyle(style: DanceStyle) {
           />
         </Button>
       </PopoverTrigger>
-      <PopoverContent id="dance-style-dropdown" class="p-0">
+      <PopoverContent :id="dropdownId" class="p-0">
         <SearchableDropdown
           :items="filteredStyles"
           :selection="selectedStyles"
