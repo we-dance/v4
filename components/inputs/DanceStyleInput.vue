@@ -14,11 +14,14 @@ const selectedStyles = defineModel<DanceStyle[]>({
 const open = ref(false)
 const searchQuery = ref('')
 
+const normalize = (s: string) =>
+  s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+
 const filteredStyles = computed(() => {
   const items = allDanceStyles.value ?? []
-  const q = searchQuery.value.trim().toLowerCase()
+  const q = normalize(searchQuery.value.trim())
   if (!q) return items
-  return items.filter((style) => style.name.toLowerCase().includes(q))
+  return items.filter((style) => normalize(style.name).includes(q))
 })
 
 watch(open, (isOpen) => {
@@ -80,7 +83,7 @@ function toggleStyle(style: DanceStyle) {
           :items="filteredStyles"
           :selection="selectedStyles"
           v-model:searchQuery="searchQuery"
-          placeholder="Search dance style..."
+          placeholder="Search dance styles…"
           itemKey="id"
           itemLabel="name"
           @select="toggleStyle"
