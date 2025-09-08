@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import type { DanceStyle } from '@prisma/client'
-import { computed, ref, watch } from 'vue'
-import { nanoid } from 'nanoid'
+import { computed, ref, watch, useId } from 'vue'
 
 const { $client } = useNuxtApp()
 
 const { data: allDanceStyles } = await $client.styles.list.useQuery()
-const dropdownId = `dance-style-dropdown${nanoid(6)}`
+const dropdownId = `dance-style-dropdown${useId()}`
 
 const selectedStyles = defineModel<DanceStyle[]>({
   default: () => [] as DanceStyle[],
