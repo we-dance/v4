@@ -654,12 +654,14 @@ model CalendarEvent {
 }
 
 model Conversation {
-  id          String    @id @default(cuid())
-  pairKey     String    @unique // `${min(aId,bId)}-${max(aId,bId)}`
-  aId         String
-  bId         String
-  aLastSeenAt DateTime?
-  bLastSeenAt DateTime?
+  id            String    @id @default(cuid())
+  pairKey       String    @unique // `${min(aId,bId)}-${max(aId,bId)}`
+  aId           String
+  bId           String
+  aLastSeenAt   DateTime?
+  bLastSeenAt   DateTime?
+  lastMessageId String?   @unique
+  lastMessage   Message?  @relation("LastMessage", fields: [lastMessageId], references: [id])
 
   messages Message[] @relation("ConversationMessages")
 
@@ -675,12 +677,13 @@ model Conversation {
 }
 
 model Message {
-  id             String   @id @default(cuid())
+  id             String        @id @default(cuid())
   conversationId String
   senderId       String
-  content        String   @db.Text
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  content        String        @db.Text
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  lastMessageFor Conversation? @relation("LastMessage")
 
   conversation Conversation @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
   sender       Profile      @relation(fields: [senderId], references: [id])

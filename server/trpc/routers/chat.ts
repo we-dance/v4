@@ -21,13 +21,11 @@ export const chatRouter = router({
     const me = requireProfileId(ctx)
     const convs = await prisma.conversation.findMany({
       where: { OR: [{ aId: me }, { bId: me }] },
-      orderBy: { updatedAt: 'desc' },
+      orderBy: { lastMessage: { createdAt: 'desc' } },
       include: {
         a: { select: { id: true, name: true, photo: true } },
         b: { select: { id: true, name: true, photo: true } },
-        messages: {
-          orderBy: { createdAt: 'desc' },
-          take: 1,
+        lastMessage: {
           include: {
             sender: { select: { id: true, name: true, photo: true } },
           },
@@ -38,7 +36,7 @@ export const chatRouter = router({
       const iAmA = c.aId === me
       const receiver = iAmA ? c.b : c.a
       const myLastSeenAt = iAmA ? c.aLastSeenAt : c.bLastSeenAt
-      const lastMessage = c.messages[0]
+      const lastMessage = c.lastMessage
 
       const hasUnread =
         !!lastMessage &&
@@ -51,7 +49,7 @@ export const chatRouter = router({
         bId: c.bId,
         createdAt: c.createdAt,
         updatedAt: c.updatedAt,
-        messages: c.messages,
+        messages: c.lastMessage ? [c.lastMessage] : [],
         receiver,
         hasUnread,
       }
@@ -156,6 +154,7 @@ export const chatRouter = router({
         await tx.conversation.update({
           where: { id: conv.id },
           data: {
+            lastMessageId: createdMessage.id,
             ...(conv.aId === me
               ? { aLastSeenAt: new Date() }
               : { bLastSeenAt: new Date() }),
