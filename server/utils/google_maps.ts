@@ -4,14 +4,14 @@ import {
   type PlaceData,
 } from '@googlemaps/google-maps-services-js'
 
+const mapsClient = new Client({})
+
 export async function getCityIdFromGooglePlace(
   place: Partial<PlaceData>
 ): Promise<string> {
   if (!place?.address_components?.length) {
     return ''
   }
-
-  const client = new Client({})
 
   const cityComponent = place.address_components.find(
     (c) =>
@@ -35,7 +35,7 @@ export async function getCityIdFromGooglePlace(
     throw new Error('Google Maps server API key is missing')
   }
   try {
-    const response = await client.textSearch({
+    const response = await mapsClient.textSearch({
       params: {
         query: cityName,
         key: apiKey,
@@ -56,24 +56,29 @@ export async function getPlaceDetails(placeId: string) {
   const config = useRuntimeConfig()
   if (!config.googleMapsServerApiKey)
     throw new Error('Missing Google Maps server key')
-  const client = new Client({})
-  const resp = await client.placeDetails({
-    params: {
-      place_id: placeId,
-      key: config.googleMapsServerApiKey,
-      fields: [
-        'place_id',
-        'name',
-        'formatted_address',
-        'types',
-        'website',
-        'international_phone_number',
-        'url',
-        'geometry/location',
-        'address_component',
-      ],
-    },
-    timeout: 5000,
-  })
-  return resp.data.result
+
+  try {
+    const resp = await mapsClient.placeDetails({
+      params: {
+        place_id: placeId,
+        key: config.googleMapsServerApiKey,
+        fields: [
+          'place_id',
+          'name',
+          'formatted_address',
+          'types',
+          'website',
+          'international_phone_number',
+          'url',
+          'geometry/location',
+          'address_components',
+        ],
+      },
+      timeout: 5000,
+    })
+    return resp.data.result
+  } catch (error) {
+    console.error('getPlaceDetails failed for placeId:', placeId, error)
+    return null
+  }
 }

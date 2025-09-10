@@ -78,6 +78,9 @@ const getAddressFromPlaceId = async (placeId: string) => {
 
 export async function addCity(city: any) {
   const address = await getAddressFromPlaceId(city.id)
+  if (!address || !address.locality) {
+    throw new Error(`Could not find city details for id: ${city.id}`)
+  }
 
   const existingCity = await prisma.city.findUnique({
     where: { id: city.id },
