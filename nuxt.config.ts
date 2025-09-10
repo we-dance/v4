@@ -130,6 +130,7 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
+    googleMapsServerApiKey: process.env.GOOGLE_MAPS_API_KEY_SERVER || '',
     stripeSecretKey: '',
     stripePublicKey: '',
     stripeWebhookSecret: '',
@@ -149,7 +150,7 @@ export default defineNuxtConfig({
       },
       posthogDisabled: '',
       appUrl: '',
-      googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
+      googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY_PUBLIC,
       cloudinaryCloudName: '',
     },
   },

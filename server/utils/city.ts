@@ -60,16 +60,16 @@ const getAddress = (places: any) => {
 
 const getAddressFromPlaceId = async (placeId: string) => {
   if (!placeId) {
-    return {}
+    return null
   }
 
-  const apiKey = useRuntimeConfig().public.googleMapsApiKey
+  const apiKey = useRuntimeConfig().googleMapsServerApiKey
   const url = `https://maps.googleapis.com/maps/api/geocode/json?place_id=${placeId}&key=${apiKey}`
   const res = await fetch(url)
   const data = await res.json()
 
   if (data.status !== 'OK') {
-    return []
+    return null
   }
 
   return getAddress(data.results)
@@ -125,13 +125,6 @@ export async function addCity(city: any) {
 }
 
 export async function findOrCreateCity(placeId: string) {
-  const existingCity = await prisma.city.findUnique({
-    where: { id: placeId },
-  })
-  if (existingCity) {
-    return existingCity
-  }
-
   const address = await getAddressFromPlaceId(placeId)
 
   if (!address || !address.locality) {
@@ -145,16 +138,20 @@ export async function findOrCreateCity(placeId: string) {
     slug = getSlug([region, locality].join('-'))
   }
   const countryCode = await getCountryCode(country)
-  const newCity = await prisma.city.create({
-    data: {
-      id: placeId,
-      name: locality,
-      region: region || '',
-      slug,
-      countryCode,
-      lat,
-      lng,
-    },
+  const cityData = {
+    id: placeId,
+    name: locality,
+    region: region || '',
+    slug,
+    countryCode,
+    lat: lat || 0,
+    lng: lng || 0,
+  }
+
+  const newCity = await prisma.city.upsert({
+    where: { id: placeId },
+    create: cityData,
+    update: cityData,
   })
 
   return newCity

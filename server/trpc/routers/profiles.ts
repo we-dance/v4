@@ -335,46 +335,50 @@ export const profilesRouter = router({
       if (existingVenue) {
         return existingVenue
       }
-      try {
-        // Get the city's unique Place ID from the venue's data.
-        const cityPlaceId = await getCityIdFromGooglePlace(googleMapsPlace)
+      return await prisma.$transaction(async (tx) => {
+        try {
+          // Get the city's unique Place ID from the venue's data.
+          const cityPlaceId = await getCityIdFromGooglePlace(googleMapsPlace)
 
-        let city = null
-        if (cityPlaceId) {
-          city = await findOrCreateCity(cityPlaceId)
-        } else {
-          console.log('Could not determine city.')
+          if (!cityPlaceId) {
+            throw new TRPCError({
+              code: 'BAD_REQUEST',
+              message: 'Could not determine a city for the selected venue.',
+            })
+          }
+          const city = await findOrCreateCity(cityPlaceId)
+
+          // Generate a unique username for the venue to avoid conflicts.
+          const baseSlug = getSlug(googleMapsPlace.name)
+          let username = baseSlug
+          let counter = 1
+          while (await tx.profile.findUnique({ where: { username } })) {
+            username = `${baseSlug}-${counter}`
+            counter++
+          }
+
+          // Create the new venue profile in the database.
+          const newVenue = await tx.profile.create({
+            data: {
+              name: googleMapsPlace.name,
+              username,
+              type: 'Venue',
+              placeId,
+              // We know `city` will not be null here, so we can safely use `city.id`
+              cityId: city.id,
+              formattedAddress: googleMapsPlace.formatted_address,
+              website: googleMapsPlace.website,
+              phone: googleMapsPlace.international_phone_number,
+              lat: googleMapsPlace.geometry?.location?.lat,
+              lng: googleMapsPlace.geometry?.location?.lng,
+              mapUrl: googleMapsPlace.url,
+            },
+          })
+          return newVenue
+        } catch (error) {
+          console.error('Error creating venue:', error)
+          throw error
         }
-
-        // Generate a unique username for the venue to avoid conflicts.
-        const baseSlug = getSlug(googleMapsPlace.name)
-        let username = baseSlug
-        let counter = 1
-        while (await prisma.profile.findUnique({ where: { username } })) {
-          username = `${baseSlug}-${counter}`
-          counter++
-        }
-
-        // Create the new venue profile in the database.
-        const newVenue = await prisma.profile.create({
-          data: {
-            name: googleMapsPlace.name,
-            username,
-            type: 'Venue',
-            placeId,
-            cityId: city?.id || null, // Allow null if city is not found
-            formattedAddress: googleMapsPlace.formatted_address,
-            website: googleMapsPlace.website,
-            phone: googleMapsPlace.international_phone_number,
-            lat: googleMapsPlace.geometry?.location?.lat,
-            lng: googleMapsPlace.geometry?.location?.lng,
-            mapUrl: googleMapsPlace.url,
-          },
-        })
-        return newVenue
-      } catch (error) {
-        console.error('Error creating venue:', error)
-        throw error
-      }
+      })
     }),
 })
