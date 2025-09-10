@@ -24,7 +24,6 @@ function getVenue(address: any) {
 
   return $client.profiles.findVenueOrCreate.mutate({
     placeId: address.place_id,
-    googleMapsPlace: address,
   })
 }
 

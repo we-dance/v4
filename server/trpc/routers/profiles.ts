@@ -3,10 +3,15 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
-import { getCityIdFromGooglePlace } from '~/server/utils/google_maps'
+import {
+  getCityIdFromGooglePlace,
+  getPlaceDetails,
+} from '~/server/utils/google_maps'
 import { TRPCError } from '@trpc/server'
 import { findOrCreateCity } from '~/server/utils/city'
 import { getSlug } from '~/utils/slug'
+import { AddressType } from '@googlemaps/google-maps-services-js'
+import { toCalendar } from '@internationalized/date'
 
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
@@ -309,76 +314,91 @@ export const profilesRouter = router({
       return { profiles, totalCount, hasMore, nextPage }
     }),
   findVenueOrCreate: publicProcedure
-    .input(z.object({ placeId: z.string(), googleMapsPlace: z.any() }))
+    .input(z.object({ placeId: z.string() }))
     .mutation(async ({ input }) => {
-      const { placeId, googleMapsPlace } = input
-
-      const placeTypes = googleMapsPlace.types || []
-      console.log('Place types:', placeTypes)
+      const { placeId } = input
+      const place = await getPlaceDetails(placeId)
+      if (!place || !place.name) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Invalid Google Place ID or place has no name.',
+        })
+      }
+      const placeTypes = place.types || []
       if (
-        placeTypes.includes('locality') ||
-        placeTypes.includes('administrative_area_level_1') ||
-        placeTypes.includes('country')
+        placeTypes.includes(AddressType.locality) ||
+        placeTypes.includes(AddressType.administrative_area_level_1) ||
+        placeTypes.includes(AddressType.country)
       ) {
         throw new TRPCError({
           code: 'BAD_REQUEST',
           message: 'Please select a specific venue, not a city or region.',
         })
       }
-
-      const existingVenue = await prisma.profile.findFirst({
-        where: {
-          placeId,
-        },
-      })
-
-      if (existingVenue) {
-        return existingVenue
-      }
       return await prisma.$transaction(async (tx) => {
-        try {
-          // Get the city's unique Place ID from the venue's data.
-          const cityPlaceId = await getCityIdFromGooglePlace(googleMapsPlace)
-
-          if (!cityPlaceId) {
-            throw new TRPCError({
-              code: 'BAD_REQUEST',
-              message: 'Could not determine a city for the selected venue.',
-            })
-          }
-          const city = await findOrCreateCity(cityPlaceId)
-
-          // Generate a unique username for the venue to avoid conflicts.
-          const baseSlug = getSlug(googleMapsPlace.name)
-          let username = baseSlug
-          let counter = 1
-          while (await tx.profile.findUnique({ where: { username } })) {
-            username = `${baseSlug}-${counter}`
-            counter++
-          }
-
-          // Create the new venue profile in the database.
-          const newVenue = await tx.profile.create({
-            data: {
-              name: googleMapsPlace.name,
-              username,
-              type: 'Venue',
-              placeId,
-              // We know `city` will not be null here, so we can safely use `city.id`
-              cityId: city.id,
-              formattedAddress: googleMapsPlace.formatted_address,
-              website: googleMapsPlace.website,
-              phone: googleMapsPlace.international_phone_number,
-              lat: googleMapsPlace.geometry?.location?.lat,
-              lng: googleMapsPlace.geometry?.location?.lng,
-              mapUrl: googleMapsPlace.url,
-            },
-          })
-          return newVenue
-        } catch (error) {
-          console.error('Error creating venue:', error)
-          throw error
+        const existingVenue = await tx.profile.findFirst({
+          where: { placeId },
+        })
+        if (existingVenue) {
+          return existingVenue
         }
+
+        // Get the city's unique Place ID from the venue's data.
+        const cityPlaceId = await getCityIdFromGooglePlace(place)
+
+        if (!cityPlaceId) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Could not determine a city for the selected venue.',
+          })
+        }
+        const city = await findOrCreateCity(cityPlaceId)
+
+        // Generate a unique username for the venue to avoid conflicts.
+        const baseSlug = getSlug(place.name!)
+        let username = baseSlug
+        let counter = 1
+
+        // Create the new venue profile in the database.
+        for (let attempt = 0; attempt < 5; attempt++) {
+          try {
+            const newVenue = await tx.profile.create({
+              data: {
+                name: place.name!,
+                username,
+                type: 'Venue',
+                placeId,
+                cityId: city.id,
+                formattedAddress: place.formatted_address,
+                website: place.website || null,
+                phone: place.international_phone_number || null,
+                lat: place.geometry?.location?.lat || null,
+                lng: place.geometry?.location?.lng || null,
+                mapUrl: place.url || null,
+              },
+            })
+            return newVenue
+          } catch (error: any) {
+            if (error?.code === 'P2002') {
+              const target = (error.meta && error.meta.target) || ''
+              if (String(target).includes('username')) {
+                username = `${baseSlug}-${counter++}`
+                continue
+              }
+              if (String(target).includes('placeId')) {
+                const concurrent = await tx.profile.findFirst({
+                  where: { placeId },
+                })
+                if (concurrent) return concurrent
+              }
+            }
+            throw error
+          }
+        }
+        throw new TRPCError({
+          code: 'CONFLICT',
+          message: 'Could not allocate a unique username.',
+        })
       })
     }),
 })

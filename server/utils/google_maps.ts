@@ -3,7 +3,6 @@ import {
   Client,
   type PlaceData,
 } from '@googlemaps/google-maps-services-js'
-import { citiesRouter } from '../trpc/routers/cities'
 
 export async function getCityIdFromGooglePlace(
   place: Partial<PlaceData>
@@ -51,4 +50,30 @@ export async function getCityIdFromGooglePlace(
     console.error('getCityIdFromGooglePlace textSearch failed:', err)
     return ''
   }
+}
+
+export async function getPlaceDetails(placeId: string) {
+  const config = useRuntimeConfig()
+  if (!config.googleMapsServerApiKey)
+    throw new Error('Missing Google Maps server key')
+  const client = new Client({})
+  const resp = await client.placeDetails({
+    params: {
+      place_id: placeId,
+      key: config.googleMapsServerApiKey,
+      fields: [
+        'place_id',
+        'name',
+        'formatted_address',
+        'types',
+        'website',
+        'international_phone_number',
+        'url',
+        'geometry/location',
+        'address_component',
+      ],
+    },
+    timeout: 5000,
+  })
+  return resp.data.result
 }

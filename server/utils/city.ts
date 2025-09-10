@@ -20,7 +20,7 @@ const addressPart = (result: any, type: string) => {
 
 const getAddress = (places: any) => {
   if (!places || !places.length) {
-    return {}
+    return null
   }
 
   // The first result is the most accurate for a place ID lookup.
@@ -64,7 +64,8 @@ const getAddressFromPlaceId = async (placeId: string) => {
   }
 
   const apiKey = useRuntimeConfig().googleMapsServerApiKey
-  const url = `https://maps.googleapis.com/maps/api/geocode/json?place_id=${placeId}&key=${apiKey}`
+  if (!apiKey) throw new Error('Google Maps server API key is missing')
+  const url = `https://maps.googleapis.com/maps/api/geocode/json?place_id=${encodeURIComponent(placeId)}&key=${apiKey}`
   const res = await fetch(url)
   const data = await res.json()
 
@@ -128,7 +129,7 @@ export async function findOrCreateCity(placeId: string) {
   const address = await getAddressFromPlaceId(placeId)
 
   if (!address || !address.locality) {
-    throw new Error('Couldnt find city')
+    throw new Error("Couldn't determine city from Google data")
   }
   const { locality, region, country, lat, lng } = address
 
