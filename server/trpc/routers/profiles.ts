@@ -3,6 +3,10 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
+import { getCityIdFromGooglePlace } from '~/server/utils/google_maps'
+import { TRPCError } from '@trpc/server'
+import { findOrCreateCity } from '~/server/utils/city'
+import { getSlug } from '~/utils/slug'
 
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
@@ -309,6 +313,19 @@ export const profilesRouter = router({
     .mutation(async ({ input }) => {
       const { placeId, googleMapsPlace } = input
 
+      const placeTypes = googleMapsPlace.types || []
+      console.log('Place types:', placeTypes)
+      if (
+        placeTypes.includes('locality') ||
+        placeTypes.includes('administrative_area_level_1') ||
+        placeTypes.includes('country')
+      ) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Please select a specific venue, not a city or region.',
+        })
+      }
+
       const existingVenue = await prisma.profile.findFirst({
         where: {
           placeId,
@@ -318,7 +335,46 @@ export const profilesRouter = router({
       if (existingVenue) {
         return existingVenue
       }
+      try {
+        // Get the city's unique Place ID from the venue's data.
+        const cityPlaceId = await getCityIdFromGooglePlace(googleMapsPlace)
 
-      throw new Error('Venue not found')
+        let city = null
+        if (cityPlaceId) {
+          city = await findOrCreateCity(cityPlaceId)
+        } else {
+          console.log('Could not determine city.')
+        }
+
+        // Generate a unique username for the venue to avoid conflicts.
+        const baseSlug = getSlug(googleMapsPlace.name)
+        let username = baseSlug
+        let counter = 1
+        while (await prisma.profile.findUnique({ where: { username } })) {
+          username = `${baseSlug}-${counter}`
+          counter++
+        }
+
+        // Create the new venue profile in the database.
+        const newVenue = await prisma.profile.create({
+          data: {
+            name: googleMapsPlace.name,
+            username,
+            type: 'Venue',
+            placeId,
+            cityId: city?.id || null, // Allow null if city is not found
+            formattedAddress: googleMapsPlace.formatted_address,
+            website: googleMapsPlace.website,
+            phone: googleMapsPlace.international_phone_number,
+            lat: googleMapsPlace.geometry?.location?.lat,
+            lng: googleMapsPlace.geometry?.location?.lng,
+            mapUrl: googleMapsPlace.url,
+          },
+        })
+        return newVenue
+      } catch (error) {
+        console.error('Error creating venue:', error)
+        throw error
+      }
     }),
 })

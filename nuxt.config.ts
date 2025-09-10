@@ -149,7 +149,7 @@ export default defineNuxtConfig({
       },
       posthogDisabled: '',
       appUrl: '',
-      googleMapsApiKey: '',
+      googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
       cloudinaryCloudName: '',
     },
   },

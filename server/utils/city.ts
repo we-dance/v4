@@ -19,17 +19,32 @@ const addressPart = (result: any, type: string) => {
 }
 
 const getAddress = (places: any) => {
-  if (!places) {
+  if (!places || !places.length) {
     return {}
   }
 
-  const place =
-    places.find((p: any) => p.types.includes('locality')) || places[0]
+  // The first result is the most accurate for a place ID lookup.
+  const place = places[0]
 
   const result: any = {}
 
-  result.establishment = addressPart(place, 'establishment')
-  result.locality = addressPart(place, 'locality')
+  // Find the most specific name for the locality by checking multiple types.
+  const nameComponent =
+    place.address_components.find((c: any) => c.types.includes('locality')) ||
+    place.address_components.find((c: any) =>
+      c.types.includes('sublocality_level_1')
+    ) ||
+    place.address_components.find((c: any) =>
+      c.types.includes('neighborhood')
+    ) ||
+    place.address_components.find((c: any) =>
+      c.types.includes('administrative_area_level_2')
+    ) ||
+    place.address_components.find((c: any) =>
+      c.types.includes('administrative_area_level_1')
+    )
+
+  result.locality = nameComponent?.long_name || ''
   result.country = addressPart(place, 'country')
   result.region = addressPart(place, 'administrative_area_level_1')
 
@@ -104,6 +119,42 @@ export async function addCity(city: any) {
 
   const newCity = await prisma.city.create({
     data: result,
+  })
+
+  return newCity
+}
+
+export async function findOrCreateCity(placeId: string) {
+  const existingCity = await prisma.city.findUnique({
+    where: { id: placeId },
+  })
+  if (existingCity) {
+    return existingCity
+  }
+
+  const address = await getAddressFromPlaceId(placeId)
+
+  if (!address || !address.locality) {
+    throw new Error('Couldnt find city')
+  }
+  const { locality, region, country, lat, lng } = address
+
+  let slug = getSlug(locality)
+  const cityWithSameSlug = await prisma.city.findFirst({ where: { slug } })
+  if (cityWithSameSlug) {
+    slug = getSlug([region, locality].join('-'))
+  }
+  const countryCode = await getCountryCode(country)
+  const newCity = await prisma.city.create({
+    data: {
+      id: placeId,
+      name: locality,
+      region: region || '',
+      slug,
+      countryCode,
+      lat,
+      lng,
+    },
   })
 
   return newCity
