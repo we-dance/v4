@@ -1,7 +1,7 @@
 import { getCountryCode } from '~/utils/country'
 import { getSlug } from '~/utils/slug'
 import { prisma } from '~/server/prisma'
-import fetch from 'node-fetch'
+import { Prisma } from '@prisma/client'
 
 const addressPart = (result: any, type: string) => {
   if (!result || !result.address_components) {
@@ -32,19 +32,13 @@ const getAddress = (places: any) => {
   const nameComponent =
     place.address_components.find((c: any) => c.types.includes('locality')) ||
     place.address_components.find((c: any) =>
-      c.types.includes('sublocality_level_1')
-    ) ||
-    place.address_components.find((c: any) =>
-      c.types.includes('neighborhood')
-    ) ||
-    place.address_components.find((c: any) =>
       c.types.includes('administrative_area_level_2')
     ) ||
     place.address_components.find((c: any) =>
       c.types.includes('administrative_area_level_1')
     )
 
-  result.locality = nameComponent?.long_name || ''
+  result.locality = (nameComponent?.long_name || '').trim()
   result.country = addressPart(place, 'country')
   result.region = addressPart(place, 'administrative_area_level_1')
 
@@ -66,19 +60,33 @@ const getAddressFromPlaceId = async (placeId: string) => {
   const apiKey = useRuntimeConfig().googleMapsServerApiKey
   if (!apiKey) throw new Error('Google Maps server API key is missing')
   const url = `https://maps.googleapis.com/maps/api/geocode/json?place_id=${encodeURIComponent(placeId)}&key=${apiKey}`
-  const res = await fetch(url)
-  const data = await res.json()
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), 5000)
 
-  if (data.status !== 'OK') {
+  try {
+    const res = await fetch(url, { signal: controller.signal })
+    if (!res.ok) {
+      return null
+    }
+    const data = await res.json()
+    if (
+      data.status != 'OK' ||
+      !Array.isArray(data.results) ||
+      !data.results.length
+    ) {
+      return null
+    }
+    return getAddress(data.results)
+  } catch {
     return null
+  } finally {
+    clearTimeout(timer)
   }
-
-  return getAddress(data.results)
 }
 
 export async function addCity(city: any) {
   const address = await getAddressFromPlaceId(city.id)
-  if (!address || !address.locality) {
+  if (!address || !address.locality || !address.country) {
     throw new Error(`Could not find city details for id: ${city.id}`)
   }
 
@@ -131,32 +139,65 @@ export async function addCity(city: any) {
 export async function findOrCreateCity(placeId: string) {
   const address = await getAddressFromPlaceId(placeId)
 
-  if (!address || !address.locality) {
+  if (!address || !address.locality || !address.country) {
     throw new Error("Couldn't determine city from Google data")
   }
   const { locality, region, country, lat, lng } = address
 
-  let slug = getSlug(locality)
-  const cityWithSameSlug = await prisma.city.findFirst({ where: { slug } })
-  if (cityWithSameSlug) {
-    slug = getSlug([region, locality].join('-'))
+  // 1. Create candidate slugs.
+  const baseSlug = getSlug(locality)
+  const candidates = [baseSlug]
+  if (region) {
+    candidates.push(getSlug(`${region} ${locality}`))
   }
+
+  // 2. Find the first available slug from the candidates.
+  let slugToTry = candidates[0]
+  for (const candidate of candidates) {
+    const exists = await prisma.city.findFirst({
+      where: { slug: candidate },
+      select: { id: true },
+    })
+    if (!exists) {
+      slugToTry = candidate
+      break
+    }
+  }
+
   const countryCode = await getCountryCode(country)
-  const cityData = {
-    id: placeId,
-    name: locality,
-    region: region || '',
-    slug,
-    countryCode,
-    lat: lat || 0,
-    lng: lng || 0,
+
+  let attempt = 0
+  while (true) {
+    const cityData = {
+      id: placeId,
+      name: locality,
+      region: region || '',
+      slug: slugToTry,
+      countryCode,
+      lat: lat ?? 0,
+      lng: lng ?? 0,
+    }
+
+    try {
+      const city = await prisma.city.upsert({
+        where: { id: placeId },
+        create: cityData,
+        update: cityData,
+      })
+      return city
+    } catch (error) {
+      if (
+        error instanceof Prisma.PrismaClientKnownRequestError &&
+        error.code === 'P2002' &&
+        attempt < 3
+      ) {
+        attempt++
+        slugToTry = getSlug(
+          `${baseSlug}-${Date.now().toString().slice(-4)}-${attempt}`
+        )
+        continue
+      }
+      throw error
+    }
   }
-
-  const newCity = await prisma.city.upsert({
-    where: { id: placeId },
-    create: cityData,
-    update: cityData,
-  })
-
-  return newCity
 }
