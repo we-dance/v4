@@ -32,6 +32,9 @@ const getAddress = (places: any) => {
   const nameComponent =
     place.address_components.find((c: any) => c.types.includes('locality')) ||
     place.address_components.find((c: any) =>
+      c.types.includes('postal_town')
+    ) ||
+    place.address_components.find((c: any) =>
       c.types.includes('administrative_area_level_2')
     ) ||
     place.address_components.find((c: any) =>
@@ -168,7 +171,7 @@ export async function findOrCreateCity(placeId: string) {
 
   let attempt = 0
   while (true) {
-    const cityData = {
+    const createData = {
       id: placeId,
       name: locality,
       region: region || '',
@@ -177,12 +180,19 @@ export async function findOrCreateCity(placeId: string) {
       lat: lat ?? 0,
       lng: lng ?? 0,
     }
+    const updateData = {
+      name: locality,
+      region: region || '',
+      countryCode,
+      lat: lat ?? 0,
+      lng: lng ?? 0,
+    }
 
     try {
       const city = await prisma.city.upsert({
         where: { id: placeId },
-        create: cityData,
-        update: cityData,
+        create: createData,
+        update: updateData,
       })
       return city
     } catch (error) {
