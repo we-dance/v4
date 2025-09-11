@@ -3,7 +3,7 @@ import { extractInstagramUsername } from './index'
 
 export type InstagramProfileData = {
   username: string
-  fullname: string
+  fullName: string
   biogrpahy: string
   photoUrl?: string
   externalUrl?: string
@@ -22,7 +22,7 @@ export async function getInstagramProfile(
 
   try {
     await instagram.account.login(
-      process.env.INSRAGRAM_USERNAME!,
+      process.env.INSTRAGRAM_USERNAME!,
       process.env.INSTAGRAM_PASSWORD!
     )
     console.log('Succesfully logged in')
@@ -31,7 +31,7 @@ export async function getInstagramProfile(
 
     return {
       username: userInfo.username,
-      fullname: userInfo.full_name || username,
+      fullName: userInfo.full_name || username,
       biogrpahy: userInfo.biography || '',
       photoUrl: userInfo.hd_profile_pic_url_info?.url || '',
       externalUrl: userInfo.external_url || '',

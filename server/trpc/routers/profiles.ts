@@ -3,6 +3,7 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
+import { tasks } from '@trigger.dev/sdk/v3'
 
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
@@ -320,5 +321,41 @@ export const profilesRouter = router({
       }
 
       throw new Error('Venue not found')
+    }),
+
+  createFromInstagram: publicProcedure
+    .input(
+      z.object({
+        InstagramUrl: z.string().url(),
+      })
+    )
+    .mutation(async ({ input }) => {
+      const { extractInstagramUsername } = await import(
+        '~/cli/import-organizer'
+      )
+      const username = extractInstagramUsername(input.InstagramUrl)
+
+      const existingProfile = await prisma.profile.findFirst({
+        where: {
+          OR: [{ username }, { instagram: input.InstagramUrl }],
+        },
+      })
+
+      if (existingProfile) return existingProfile
+
+      const newProfile = await prisma.profile.create({
+        data: {
+          username,
+          name: username,
+          instagram: input.InstagramUrl,
+          type: 'Organizer',
+          importStatus: 'requested',
+          visibility: 'Public',
+        },
+      })
+      // Trigger the import job here
+      await tasks.trigger('import-instagram-profile', {
+        profileId: newProfile.id,
+      })
     }),
 })
