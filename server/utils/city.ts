@@ -87,59 +87,12 @@ const getAddressFromPlaceId = async (placeId: string) => {
   }
 }
 
-export async function addCity(city: any) {
-  const address = await getAddressFromPlaceId(city.id)
-  if (!address || !address.locality || !address.country) {
-    throw new Error(`Could not find city details for id: ${city.id}`)
-  }
-
-  const existingCity = await prisma.city.findUnique({
-    where: { id: city.id },
-  })
-
-  if (!!existingCity) {
-    return existingCity
-  }
-
-  const { locality, region, country } = address
-
-  let slug = getSlug(locality)
-
-  let existingLocality = await prisma.city.findFirst({
-    where: { slug },
-  })
-
-  if (!!existingLocality) {
-    slug = getSlug([region, locality].join('-'))
-  }
-
-  let existingRegion = await prisma.city.findFirst({
-    where: { slug },
-  })
-
-  if (!!existingRegion) {
-    throw new Error(`city: region-locality slug already exists: ${slug}`)
-  }
-
-  const result = {
-    id: city.id,
-    name: locality,
-    region,
-    slug,
-    countryCode: await getCountryCode(country),
-    description: '',
-    lat: address.lat,
-    lng: address.lng,
-  }
-
-  const newCity = await prisma.city.create({
-    data: result,
-  })
-
-  return newCity
-}
-
 export async function findOrCreateCity(placeId: string) {
+  const existing = await prisma.city.findUnique({
+    where: { id: placeId },
+  })
+  if (existing) return existing
+
   const address = await getAddressFromPlaceId(placeId)
 
   if (!address || !address.locality || !address.country) {
@@ -202,9 +155,7 @@ export async function findOrCreateCity(placeId: string) {
         attempt < 3
       ) {
         attempt++
-        slugToTry = getSlug(
-          `${baseSlug}-${Date.now().toString().slice(-4)}-${attempt}`
-        )
+        slugToTry = getSlug(`${baseSlug}-${attempt + 1}`)
         continue
       }
       throw error
