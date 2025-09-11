@@ -326,18 +326,18 @@ export const profilesRouter = router({
   createFromInstagram: publicProcedure
     .input(
       z.object({
-        InstagramUrl: z.string().url(),
+        instagramUrl: z.string().url(),
       })
     )
     .mutation(async ({ input }) => {
       const { extractInstagramUsername } = await import(
         '~/cli/import-organizer'
       )
-      const username = extractInstagramUsername(input.InstagramUrl)
+      const username = extractInstagramUsername(input.instagramUrl)
 
       const existingProfile = await prisma.profile.findFirst({
         where: {
-          OR: [{ username }, { instagram: input.InstagramUrl }],
+          OR: [{ username }, { instagram: input.instagramUrl }],
         },
       })
 
@@ -347,7 +347,7 @@ export const profilesRouter = router({
         data: {
           username,
           name: username,
-          instagram: input.InstagramUrl,
+          instagram: input.instagramUrl,
           type: 'Organizer',
           importStatus: 'requested',
           visibility: 'Public',

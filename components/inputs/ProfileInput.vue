@@ -11,6 +11,34 @@ const { data } = useQuery<any>({
 })
 
 const isOpen = ref(false)
+
+const isInstagramUrl = computed(() => {
+  return searchQuery.value.includes('instagram.com/')
+})
+
+const instagramUsername = computed(() => {
+  if (!isInstagramUrl.value) return ''
+  return searchQuery.value
+    .replace(/https?:\/\/(www\.)?instagram\.com\//, '')
+    .replace(/\/$/, '')
+    .split('/')[0]
+})
+
+const importFromInstagram = async () => {
+  if (!isInstagramUrl.value) return
+  try {
+    const newProfile = await $client.profiles.createFromInstagram.mutate({
+      instagramUrl: searchQuery.value,
+    })
+    // Set the newly created profile asthe selected one
+    model.value = newProfile
+    isOpen.value = false
+    searchQuery.value = ''
+  } catch (error) {
+    console.error('Filed to imort instagram profile: ', error)
+    //toast ccan be added for failure
+  }
+}
 </script>
 
 <template>
@@ -59,7 +87,22 @@ const isOpen = ref(false)
         </ComboboxAnchor>
 
         <ComboboxList class="w-[260px]">
-          <ComboboxEmpty> No profiles found. </ComboboxEmpty>
+          <ComboboxGroup v-if="isInstagramUrl">
+            <ComboboxItem
+              value="import-instagram"
+              class="cursor-pointer"
+              @select.prevent="importFromInstagram"
+            >
+              <div class="flex items-center gap-2">
+                <Icon name="heroicons:link" class="h-4 w-4" />
+                <span>Import @{{ instagramUsername }}</span>
+              </div>
+            </ComboboxItem>
+          </ComboboxGroup>
+
+          <ComboboxEmpty v-if="!isInstagramUrl && !data?.length">
+            No profiles found.
+          </ComboboxEmpty>
 
           <ComboboxGroup>
             <ComboboxItem
