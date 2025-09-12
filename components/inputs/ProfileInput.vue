@@ -87,18 +87,15 @@ const importFromInstagram = async () => {
         </ComboboxAnchor>
 
         <ComboboxList class="w-[260px]">
-          <ComboboxGroup v-if="isInstagramUrl">
-            <ComboboxItem
-              value="import-instagram"
-              class="cursor-pointer"
-              @select.prevent="importFromInstagram"
+          <div v-if="isInstagramUrl">
+            <div
+              class="cursor-pointer p-2 flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
+              @click="importFromInstagram"
             >
-              <div class="flex items-center gap-2">
-                <Icon name="heroicons:link" class="h-4 w-4" />
-                <span>Import @{{ instagramUsername }}</span>
-              </div>
-            </ComboboxItem>
-          </ComboboxGroup>
+              <Icon name="heroicons:link" class="h-4 w-4" />
+              <span>Import @{{ instagramUsername }}</span>
+            </div>
+          </div>
 
           <ComboboxEmpty v-if="!isInstagramUrl && !data?.length">
             No profiles found.
