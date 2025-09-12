@@ -1,10 +1,10 @@
-import { IgApiClient } from 'instagram-private-api'
+import { IgApiClient, IgCheckpointError } from 'instagram-private-api'
 import { extractInstagramUsername } from './index'
 
 export type InstagramProfileData = {
   username: string
   fullName: string
-  biogrpahy: string
+  biography: string
   photoUrl?: string
   externalUrl?: string
   followerCount: number
@@ -20,26 +20,19 @@ export async function getInstagramProfile(
 
   instagram.state.generateDevice(process.env.INSTAGRAM_USERNAME!)
 
-  try {
-    await instagram.account.login(
-      process.env.INSTRAGRAM_USERNAME!,
-      process.env.INSTAGRAM_PASSWORD!
-    )
-    console.log('Succesfully logged in')
-    const userInfo = await instagram.user.usernameinfo(username)
-    console.log('Successfully fetched data')
-
-    return {
-      username: userInfo.username,
-      fullName: userInfo.full_name || username,
-      biogrpahy: userInfo.biography || '',
-      photoUrl: userInfo.hd_profile_pic_url_info?.url || '',
-      externalUrl: userInfo.external_url || '',
-      followerCount: userInfo.follower_count || 0,
-      isVerified: userInfo.is_verified || false,
-    }
-  } catch (error) {
-    console.log('Failed to fetch Instagram profile')
-    throw new Error('Failed to fetch instagram profile')
+  await instagram.account.login(
+    process.env.INSTAGRAM_USERNAME!,
+    process.env.INSTAGRAM_PASSWORD!
+  )
+  const userInfo = await instagram.user.usernameinfo(username)
+  console.log(`Successfully fetched data for @${username}`)
+  return {
+    username: userInfo.username,
+    fullName: userInfo.full_name || username,
+    biography: userInfo.biography || '',
+    photoUrl: userInfo.profile_pic_url || '',
+    externalUrl: userInfo.external_url || '',
+    followerCount: userInfo.follower_count || 0,
+    isVerified: userInfo.is_verified || false,
   }
 }

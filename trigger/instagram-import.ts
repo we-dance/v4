@@ -39,7 +39,7 @@ export const importInstagramProfile = task({
         where: { id: payload.profileId },
         data: {
           name: instagramData.fullName,
-          bio: instagramData.biogrpahy,
+          bio: instagramData.biography,
           website: instagramData.externalUrl,
           photo: photoUrl,
           followersCount: instagramData.followerCount,
