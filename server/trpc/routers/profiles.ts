@@ -357,5 +357,6 @@ export const profilesRouter = router({
       await tasks.trigger('import-instagram-profile', {
         profileId: newProfile.id,
       })
+      return newProfile
     }),
 })

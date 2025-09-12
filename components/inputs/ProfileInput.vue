@@ -18,10 +18,16 @@ const isInstagramUrl = computed(() => {
 
 const instagramUsername = computed(() => {
   if (!isInstagramUrl.value) return ''
-  return searchQuery.value
-    .replace(/https?:\/\/(www\.)?instagram\.com\//, '')
+  const s = searchQuery.value.replace(
+    /https?:\/\/(www\.)?instagram\.com\//i,
+    ''
+  )
+  return s
+    .split('?')[0]
+    .split('#')[0]
     .replace(/\/$/, '')
     .split('/')[0]
+    .replace(/^@/, '')
 })
 
 const importFromInstagram = async () => {
@@ -31,12 +37,12 @@ const importFromInstagram = async () => {
       instagramUrl: searchQuery.value,
     })
     // Set the newly created profile asthe selected one
-    model.value = newProfile
+    if (newProfile) model.value = newProfile
     isOpen.value = false
     searchQuery.value = ''
   } catch (error) {
-    console.error('Filed to imort instagram profile: ', error)
-    //toast ccan be added for failure
+    console.error('Failed to import Instagram profile:', error)
+    // TODO: add toast for failure
   }
 }
 </script>
@@ -93,7 +99,7 @@ const importFromInstagram = async () => {
               @click="importFromInstagram"
             >
               <Icon name="heroicons:link" class="h-4 w-4" />
-              <span>Import @{{ instagramUsername }}</span>
+              <span>Import {{ instagramUsername }}</span>
             </div>
           </div>
 

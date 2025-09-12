@@ -1,9 +1,8 @@
-//import will be here for  instagram improt function
+import { getInstagramProfile } from './instagram'
 
-export async function fetchOrganizer(soruceUrl: string) {
-  if (isInstagramUrl(soruceUrl)) {
-    // retrun getInstagramProfile(sourceUrl)
-  }
+export async function fetchOrganizer(sourceUrl: string) {
+  if (!isInstagramUrl(sourceUrl)) return null
+  return getInstagramProfile(sourceUrl)
 }
 
 function isInstagramUrl(url: string): boolean {
@@ -11,8 +10,11 @@ function isInstagramUrl(url: string): boolean {
 }
 
 export function extractInstagramUsername(url: string): string {
-  return url
-    .replace(/https?:\/\/(www\.)?instagram\.com\//, '')
+  const s = url.replace(/https?:\/\/(www\.)?instagram\.com\//i, '')
+  return s
+    .split('?')[0]
+    .split('#')[0]
     .replace(/\/$/, '')
     .split('/')[0]
+    .replace(/^@/, '')
 }

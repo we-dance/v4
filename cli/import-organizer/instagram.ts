@@ -18,13 +18,16 @@ export async function getInstagramProfile(
   console.log(`Fetching instagram profile for ${username}`)
   const instagram = new IgApiClient()
 
-  instagram.state.generateDevice(process.env.INSTAGRAM_USERNAME!)
+  const IG_USER = process.env.INSTAGRAM_USERNAME
+  const IG_PASS = process.env.INSTAGRAM_PASSWORD
+  if (!IG_USER || !IG_PASS) {
+    throw new Error('INSTAGRAM_USERNAME and INSTAGRAM_PASSWORD must be set')
+  }
 
-  await instagram.account.login(
-    process.env.INSTAGRAM_USERNAME!,
-    process.env.INSTAGRAM_PASSWORD!
-  )
+  instagram.state.generateDevice(IG_USER)
+  await instagram.account.login(IG_USER, IG_PASS)
   const userInfo = await instagram.user.usernameinfo(username)
+
   console.log(`Successfully fetched data for @${username}`)
   return {
     username: userInfo.username,

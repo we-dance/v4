@@ -1,6 +1,7 @@
 import { task, logger } from '@trigger.dev/sdk/v3'
 import { prisma } from '~/server/prisma'
 import { getInstagramProfile } from '~/cli/import-organizer/instagram'
+import { fetchOrganizer } from '~/cli/import-organizer'
 import { getUploadedImage } from '~/cli/utils/cloudinary'
 
 export const importInstagramProfile = task({
@@ -26,7 +27,13 @@ export const importInstagramProfile = task({
       logger.log(`Fetching Instagram Data for ${profile.username}`)
 
       //Scrape here
-      const instagramData = await getInstagramProfile(profile.instagram)
+      const instagramData = await fetchOrganizer(profile.instagram)
+
+      if (!instagramData) {
+        throw new Error(
+          `FetchOrganizer returned null for instagra m URL: ${profile.instagram}`
+        )
+      }
 
       logger.log('Succesfull scrpaed insta data')
 
