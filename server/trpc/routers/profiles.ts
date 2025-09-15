@@ -330,12 +330,19 @@ export const profilesRouter = router({
       })
     )
     .mutation(async ({ input }) => {
-      if (!input.instagramUrl.includes('instagram.com/')) {
+      if (
+        !input.instagramUrl.includes('instagram.com/') &&
+        !input.instagramUrl.includes('instagr.am/')
+      ) {
         throw new Error('Only Instagram profile URLs are supported')
       }
-      const { extractInstagramUsername } = await import(
+      const { extractInstagramUsername, isInstagramUrl } = await import(
         '~/cli/import-organizer/parse'
       )
+      // Validate the URL and extract username
+      if (!isInstagramUrl(input.instagramUrl)) {
+        throw new Error('Invalid Instagram profile URL')
+      }
       const username = extractInstagramUsername(input.instagramUrl)
       const instagramUrl = `https://www.instagram.com/${username}/`
 

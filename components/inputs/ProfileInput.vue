@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { extractInstagramUsername } from '~/cli/import-organizer'
 const model = defineModel() as Ref<any>
 
 const { $client } = useNuxtApp()
@@ -12,31 +13,17 @@ const { data } = useQuery<any>({
 
 const isOpen = ref(false)
 
-const isInstagramUrl = computed(() => {
-  return searchQuery.value.includes('instagram.com/')
-})
-
 const instagramUsername = computed(() => {
-  if (!isInstagramUrl.value) return ''
-  const s = searchQuery.value.replace(
-    /https?:\/\/(www\.)?instagram\.com\//i,
-    ''
-  )
-  return s
-    .split('?')[0]
-    .split('#')[0]
-    .replace(/\/$/, '')
-    .split('/')[0]
-    .replace(/^@/, '')
+  return extractInstagramUsername(searchQuery.value)
 })
 
 const importFromInstagram = async () => {
-  if (!isInstagramUrl.value) return
+  // The guard now correctly checks if a valid username was extracted
+  if (!instagramUsername.value) return
   try {
     const newProfile = await $client.profiles.createFromInstagram.mutate({
       instagramUrl: searchQuery.value,
     })
-    // Set the newly created profile asthe selected one
     if (newProfile) model.value = newProfile
     isOpen.value = false
     searchQuery.value = ''
@@ -93,7 +80,7 @@ const importFromInstagram = async () => {
         </ComboboxAnchor>
 
         <ComboboxList class="w-[260px]">
-          <div v-if="isInstagramUrl">
+          <div v-if="instagramUsername">
             <div
               class="cursor-pointer p-2 flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
               @click="importFromInstagram"
@@ -103,7 +90,7 @@ const importFromInstagram = async () => {
             </div>
           </div>
 
-          <ComboboxEmpty v-if="!isInstagramUrl && !data?.length">
+          <ComboboxEmpty v-if="!data?.length">
             No profiles found.
           </ComboboxEmpty>
 

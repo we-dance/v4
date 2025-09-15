@@ -1,4 +1,4 @@
-import { IgApiClient, IgCheckpointError } from 'instagram-private-api'
+import { IgApiClient } from 'instagram-private-api'
 import { extractInstagramUsername } from './parse'
 
 export type InstagramProfileData = {
@@ -15,6 +15,9 @@ export async function getInstagramProfile(
   instagramUrl: string
 ): Promise<InstagramProfileData> {
   const username = extractInstagramUsername(instagramUrl)
+  if (!username) {
+    throw new Error('Invalid Instagram URL: could not extract valid username')
+  }
   console.log(`Fetching instagram profile for ${username}`)
   const instagram = new IgApiClient()
 
