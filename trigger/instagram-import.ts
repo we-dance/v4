@@ -31,7 +31,7 @@ export const importInstagramProfile = task({
 
       if (!instagramData) {
         throw new Error(
-          `FetchOrganizer returned null for instagra m URL: ${profile.instagram}`
+          `fetchOrganizer returned null for Instagram URL: ${profile.instagram}`
         )
       }
 
@@ -39,7 +39,8 @@ export const importInstagramProfile = task({
 
       let photoUrl: string | undefined
       if (instagramData.photoUrl) {
-        photoUrl = await getUploadedImage(instagramData.photoUrl)
+        const uploaded = await getUploadedImage(instagramData.photoUrl)
+        if (uploaded) photoUrl = uploaded
       }
 
       const updateProfile = await prisma.profile.update({
@@ -52,6 +53,7 @@ export const importInstagramProfile = task({
           followersCount: instagramData.followerCount,
           importStatus: 'success',
           source: 'instagram',
+          importError: null,
         },
       })
       logger.log('Successfully imported profile')

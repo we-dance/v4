@@ -1,5 +1,5 @@
 import { IgApiClient, IgCheckpointError } from 'instagram-private-api'
-import { extractInstagramUsername } from './index'
+import { extractInstagramUsername } from './parse'
 
 export type InstagramProfileData = {
   username: string

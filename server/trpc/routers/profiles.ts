@@ -330,14 +330,21 @@ export const profilesRouter = router({
       })
     )
     .mutation(async ({ input }) => {
+      if (!input.instagramUrl.includes('instagram.com/')) {
+        throw new Error('Only Instagram profile URLs are supported')
+      }
       const { extractInstagramUsername } = await import(
-        '~/cli/import-organizer'
+        '~/cli/import-organizer/parse'
       )
       const username = extractInstagramUsername(input.instagramUrl)
+      const instagramUrl = `https://www.instagram.com/${username}/`
 
       const existingProfile = await prisma.profile.findFirst({
         where: {
-          OR: [{ username }, { instagram: input.instagramUrl }],
+          OR: [
+            { username: { equals: username, mode: 'insensitive' } },
+            { instagram: { equals: instagramUrl, mode: 'insensitive' } },
+          ],
         },
       })
 
@@ -347,9 +354,10 @@ export const profilesRouter = router({
         data: {
           username,
           name: username,
-          instagram: input.instagramUrl,
-          type: 'Organizer',
+          instagram: instagramUrl,
+          type: 'Organiser',
           importStatus: 'requested',
+          source: 'instagram',
           visibility: 'Public',
         },
       })
