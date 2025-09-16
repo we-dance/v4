@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
 
-const model = defineModel() as Ref<any>
+const model = defineModel<any>()
 const { $client } = useNuxtApp()
 const searchQuery = ref('')
 const queryKey = computed(() => ['profiles.search', searchQuery.value.trim()])
 const { data } = useQuery<any>({
   queryKey,
-  queryFn: ({ queryKey }) =>
-    $client.profiles.search.query({ query: queryKey[1] as string }),
+  queryFn: ({ queryKey: [, term] }) =>
+    $client.profiles.search.query({ query: term as string }),
   enabled: computed(() => !!(queryKey.value[1] as string)),
   retry: false,
 })
@@ -22,13 +22,13 @@ const importFromInstagram = async () => {
   if (!instagramUsername.value) return
 
   const promise = $client.profiles.createFromInstagram.mutate({
-    instagramUrl: searchQuery.value,
+    instagramUrl: `https://instagram.com/${instagramUsername.value}`,
   })
 
   toast.promise(promise, {
     loading: 'Scheduling profile import...',
-    success: (data: any) => {
-      if (data) model.value = data
+    success: (profile: any) => {
+      if (profile) model.value = profile
       isOpen.value = false
       searchQuery.value = ''
       return 'Profile import scheduled successfully!'
@@ -120,11 +120,13 @@ function extractInstagramUsername(input: string): string {
               @click="importFromInstagram"
             >
               <Icon name="heroicons:link" class="h-4 w-4" />
-              <span>Import {{ instagramUsername }}</span>
+              <span>Import @{{ instagramUsername }} from Instagram</span>
             </div>
           </div>
 
-          <ComboboxEmpty v-if="!data?.length">
+          <ComboboxEmpty
+            v-if="!data?.length && !instagramUsername && searchQuery"
+          >
             No profiles found.
           </ComboboxEmpty>
 
