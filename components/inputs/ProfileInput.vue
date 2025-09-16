@@ -28,10 +28,13 @@ const importFromInstagram = async () => {
   toast.promise(promise, {
     loading: 'Scheduling profile import...',
     success: (profile: any) => {
-      if (profile) model.value = profile
-      isOpen.value = false
-      searchQuery.value = ''
-      return 'Profile import scheduled successfully!'
+      if (profile) {
+        model.value = profile
+        isOpen.value = false
+        searchQuery.value = ''
+        return 'Profile import scheduled successfully!'
+      }
+      return 'Profile import scheduled but no profile returned'
     },
     error: (error: any) => (error as Error).message,
   })
