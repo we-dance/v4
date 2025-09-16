@@ -45,6 +45,14 @@ const schema = z.object({
     username: z.string().optional(),
     photo: z.string().optional().nullable(),
   }),
+  styles: z
+    .array(
+      z.object({
+        id: z.number(),
+        name: z.string(),
+      })
+    )
+    .optional(),
 })
 
 const validationSchema = toTypedSchema(schema)
@@ -193,6 +201,23 @@ const askToDelete = () => {
             <DateInput v-bind="componentField" :min-date="event.startDate" />
           </FormControl>
           <FormMessage />
+        </FormItem>
+      </FormField>
+
+      <FormField v-slot="{ value, setValue }" name="styles">
+        <FormItem>
+          <FormLabel> Dance Styles </FormLabel>
+          <FormControl>
+            <Suspense>
+              <DanceStyleInput
+                :model-value="value ?? event.styles ?? []"
+                @update:model-value="setValue"
+              />
+              <template #fallback>
+                <div>Loading Styles...</div>
+              </template>
+            </Suspense>
+          </FormControl>
         </FormItem>
       </FormField>
 

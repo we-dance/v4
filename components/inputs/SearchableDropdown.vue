@@ -8,7 +8,8 @@ interface Item {
 
 const props = defineProps<{
   items: Item[]
-  modelValue: any
+  modelValue?: any
+  selection?: Item[]
   searchQuery: string
   placeholder: string
   itemKey: string
@@ -18,7 +19,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: 'update:modelValue', value: any): void
   (e: 'update:searchQuery', value: string): void
-  (e: 'select', item: Item): void
+  (e: 'select', item: any): void
 }>()
 
 const filteredItems = computed(() => {
@@ -29,7 +30,6 @@ const filteredItems = computed(() => {
 })
 
 const onSelect = (item: Item) => {
-  emit('update:modelValue', item[props.itemKey])
   emit('select', item)
 }
 </script>
@@ -72,7 +72,9 @@ const onSelect = (item: Item) => {
           :class="
             cn(
               'h-4 w-4 shrink-0',
-              modelValue === item[itemKey] ? 'opacity-100' : 'opacity-0'
+              selection?.some((s) => s[itemKey] === item[itemKey])
+                ? 'opacity-100'
+                : 'opacity-0'
             )
           "
         />

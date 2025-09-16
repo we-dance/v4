@@ -292,10 +292,20 @@ export const eventsRouter = router({
           })
           .optional()
           .nullable(),
+        styles: z
+          .array(
+            z.object({
+              id: z.number(),
+            })
+          )
+          .optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { id, venue, organizer, ...data } = input
+      const { id, venue, organizer, styles, ...data } = input
+      const stylesData = styles
+        ? { set: styles.map((style) => ({ id: style.id })) }
+        : undefined
       const event = await prisma.event.update({
         where: { id },
         data: {
@@ -304,6 +314,7 @@ export const eventsRouter = router({
           endDate: data.endDate ? new Date(data.endDate) : undefined,
           venueId: venue?.id,
           organizerId: organizer?.id,
+          styles: stylesData,
         },
       })
       return event
@@ -312,11 +323,21 @@ export const eventsRouter = router({
     .input(
       z.object({
         name: z.string(),
+        styles: z
+          .array(
+            z.object({
+              id: z.number(),
+            })
+          )
+          .optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const { name } = input
+      const { name, styles } = input
       const slug = getSlug(name)
+      const stylesData = styles
+        ? { connect: styles.map((style) => ({ id: style.id })) }
+        : undefined
       const event = await prisma.event.create({
         data: {
           name,
@@ -325,6 +346,7 @@ export const eventsRouter = router({
           creatorId: ctx.session?.profile?.id,
           organizerId: ctx.session?.profile?.id,
           status: 'draft',
+          styles: stylesData,
         },
       })
       return event
