@@ -4,32 +4,61 @@ const { session } = useAppAuth()
 const { $client } = useNuxtApp()
 const currentUser = computed(() => session.value?.profile)
 
+// Get the last Message from messages array
+const getLastMessage = (conversation: any) => {
+  if (!conversation.messages?.length) return null
+  return conversation.messages[0]
+}
+
 // Fetch conversations
 const {
   data: conversations,
-  isLoading,
+  status,
   error,
   refresh,
 } = useAsyncData('conversations', () => $client.chat.getConversations.query())
 
-// Refresh conversations every minute
-onMounted(() => {
-  const interval = setInterval(() => {
-    refresh()
-  }, 60000)
+let inboxEs: EventSource | null = null
 
-  onUnmounted(() => {
-    clearInterval(interval)
-  })
+watch(
+  () => currentUser.value?.id,
+  (id) => {
+    if (!import.meta.client) return
+    if (inboxEs) {
+      inboxEs.close()
+      inboxEs = null
+    }
+    if (id) {
+      // Ensure list is for the current user before opening sse
+      refresh()
+      inboxEs = new EventSource('/api/chat/stream')
+      inboxEs.onmessage = (event) => {
+        try {
+          const data = JSON.parse(event.data)
+          if (data?.type === 'conversation.updated') {
+            refresh()
+          }
+        } catch (error) {
+          console.warn('Invalid SSE Payload', error)
+        }
+      }
+      inboxEs.onerror = (error) => {
+        console.error('Inbox SSE connection error:', error)
+      }
+    }
+  },
+  { immediate: true }
+)
+onUnmounted(() => {
+  if (inboxEs) {
+    inboxEs.close()
+    inboxEs = null
+  }
 })
 
 // Get the other participant in a conversation
 function getOtherParticipant(conversation: any) {
-  if (!conversation?.participants || !currentUser.value) return null
-
-  return conversation.participants.find(
-    (p: any) => p.profileId !== currentUser.value?.id
-  )
+  return conversation?.receiver ?? null
 }
 
 // Get initials from name
@@ -78,7 +107,10 @@ function formatTime(timestamp: string | Date) {
 <template>
   <div class="chat-list">
     <!-- Loading state -->
-    <div v-if="isLoading" class="flex justify-center items-center py-8">
+    <div
+      v-if="status === 'pending'"
+      class="flex justify-center items-center py-8"
+    >
       <div
         class="animate-spin h-8 w-8 border-2 border-primary rounded-full border-t-transparent"
       ></div>
@@ -86,7 +118,7 @@ function formatTime(timestamp: string | Date) {
 
     <!-- Error state -->
     <div v-else-if="error" class="p-4 text-red-500">
-      {{ error }}
+      {{ (error as any)?.message || 'Failed to load conversations.' }}
     </div>
 
     <!-- Empty state -->
@@ -114,7 +146,7 @@ function formatTime(timestamp: string | Date) {
             <img
               v-if="getOtherParticipant(conversation)?.photo"
               :src="getOtherParticipant(conversation)?.photo"
-              alt="Profile"
+              :alt="`Profile photo of ${getOtherParticipant(conversation)?.name || 'user'}`"
               class="h-12 w-12 rounded-full object-cover"
             />
             <div
@@ -130,19 +162,33 @@ function formatTime(timestamp: string | Date) {
           <!-- Content -->
           <div class="flex-1 min-w-0">
             <div class="flex justify-between items-baseline">
-              <h3 class="text-sm font-medium truncate">
+              <h3
+                class="text-sm font-medium truncate"
+                :class="{ 'font-bold': conversation.hasUnread }"
+              >
                 {{ getOtherParticipant(conversation)?.name || 'Unknown User' }}
               </h3>
               <span
-                v-if="conversation.lastMessage?.createdAt"
-                class="text-xs text-gray-500"
+                v-if="getLastMessage(conversation)?.createdAt"
+                class="text-xs text-gray-500 flex items-center shrink-0 ml-2"
               >
-                {{ formatTime(conversation.lastMessage.createdAt) }}
+                <span
+                  v-if="conversation.hasUnread"
+                  class="w-2 h-2 bg-primary rounded-full mr-2"
+                ></span>
+                {{ formatTime(getLastMessage(conversation).createdAt) }}
               </span>
             </div>
 
-            <p class="text-sm text-gray-500 truncate mt-1">
-              {{ conversation.lastMessage?.content || 'No messages yet' }}
+            <p
+              class="text-sm truncate mt-1"
+              :class="
+                conversation.hasUnread
+                  ? 'text-gray-900 dark:text-white font-semibold'
+                  : 'text-gray-500'
+              "
+            >
+              {{ getLastMessage(conversation)?.content || 'No messages yet' }}
             </p>
           </div>
         </div>

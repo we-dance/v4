@@ -1,50 +1,171 @@
 <script setup lang="ts">
-import { ref, computed, watch, nextTick, onMounted } from 'vue'
+import { graphemeCount, chatEventSchema, type ChatEvent } from '~/schemas/chat'
+import { toast } from 'vue-sonner'
 
+// Props
 const props = defineProps<{
   conversationId: string
 }>()
 
+//State Management
+type ConversationData = Extract<
+  ChatEvent,
+  { type: 'conversation.init' }
+>['conversation']
+
+const conversation = ref<ConversationData | null>(null)
 const messagesContainer = ref<HTMLElement | null>(null)
 const newMessage = ref('')
 const isSending = ref(false)
+const isLoading = ref(true)
+const error = ref<Error | null>(null)
 
-const { session } = useAppAuth()
-const currentUser = computed(() => session.value?.profile)
+let eventSource: EventSource | null = null
+let markAsReadTimer: ReturnType<typeof setTimeout> | null = null
 
+// Composables
 const { $client } = useNuxtApp()
-const {
-  data: conversation,
-  isLoading,
-  error,
-  refresh,
-} = useAsyncData(
-  () => `conversation-${props.conversationId}`,
-  () =>
-    $client.chat.getConversation.query({ conversationId: props.conversationId })
-)
+const { session } = useAppAuth()
 
+// Computed Properties
+const currentUser = computed(() => session.value?.profile)
+const charCount = computed(() => graphemeCount(newMessage.value.trim()))
 const otherParticipant = computed(() => {
   if (!conversation.value || !currentUser.value) return null
 
-  return conversation.value.participants.find(
-    (p) => p.profileId !== currentUser.value?.id
-  )
+  const conv = conversation.value
+  const currentUserId = currentUser.value?.id
+
+  // Return the participant that's not the current user
+  return conv.aId === currentUserId ? conv.b : conv.a
 })
 
-// Scroll to bottom when messages change
+// Lifecycle Hooks
+onMounted(() => {
+  subscribeToConversation(props.conversationId)
+  markAsRead(props.conversationId)
+})
+
+onUnmounted(() => {
+  if (eventSource) {
+    eventSource.close()
+    eventSource = null
+  }
+
+  if (markAsReadTimer) {
+    clearTimeout(markAsReadTimer)
+    markAsReadTimer = null
+  }
+})
+
 watch(
-  () => conversation.value?.messages,
-  () => {
-    scrollToBottom()
-  },
-  { deep: true }
+  () => props.conversationId,
+  (newId, oldId) => {
+    if (newId && newId !== oldId) {
+      isLoading.value = true
+      conversation.value = null
+      error.value = null
+      subscribeToConversation(newId)
+      markAsRead(newId)
+    }
+  }
 )
 
-onMounted(() => {
-  scrollToBottom()
-})
+// Core Logic Functions
+function subscribeToConversation(id: string) {
+  eventSource?.close()
+  eventSource = new EventSource(
+    `/api/chat/stream?conversationId=${encodeURIComponent(id)}`
+  )
 
+  eventSource.onmessage = (event) => {
+    try {
+      // Parse the raw text data
+      const rawData = JSON.parse(event.data)
+      // Validate the data against the schema
+      const parsed = chatEventSchema.safeParse(rawData)
+      // If validation fails stop
+      if (!parsed.success) {
+        console.warn('Received invalid SSE event:', parsed.error)
+        return
+      }
+      // If succeeds use the validated data
+      const data = parsed.data
+
+      if (data.type === 'conversation.init') {
+        conversation.value = data.conversation
+        isLoading.value = false
+        error.value = null
+        scrollToBottom()
+      } else if (
+        data.type === 'message.created' &&
+        data.conversationId === id &&
+        data.message
+      ) {
+        const messages = conversation.value?.messages
+        if (
+          Array.isArray(messages) &&
+          !messages.some((m) => m.id === data.message.id)
+        ) {
+          messages.push(data.message)
+          scrollToBottom()
+          if (data.message.senderId !== currentUser.value?.id) {
+            markAsRead(id)
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('SSE parse error:', err)
+      error.value =
+        err instanceof Error ? err : new Error('Failed to parse SSE event')
+      isLoading.value = false
+    }
+  }
+  eventSource.onopen = () => {
+    error.value = null
+  }
+
+  eventSource.onerror = (err) => {
+    console.error('SSE CONNECTION ERROR:', err)
+    error.value = new Error('Connection to chat server failed.')
+    isLoading.value = false
+  }
+}
+
+async function sendMessage() {
+  const content = newMessage.value.trim()
+  if (!content || isSending.value) return
+  if (charCount.value > 500) {
+    toast.error('Message cannot be longer than 500 characters.')
+    return
+  }
+  try {
+    isSending.value = true
+    await $client.chat.sendMessage.mutate({
+      conversationId: props.conversationId,
+      content,
+    })
+    newMessage.value = ''
+    // The SSE listener will handle refreshing the conversation data
+  } catch (err) {
+    console.error('Failed to send message:', err)
+  } finally {
+    isSending.value = false
+  }
+}
+
+function markAsRead(id: string) {
+  if (markAsReadTimer) clearTimeout(markAsReadTimer)
+  markAsReadTimer = setTimeout(async () => {
+    try {
+      await $client.chat.markAsRead.mutate({ conversationId: id })
+    } catch (error) {
+      console.error('Failed to mark conversation as read', error)
+    }
+  }, 2000)
+}
+
+// Helper and Utility Functions
 function scrollToBottom() {
   nextTick(() => {
     if (messagesContainer.value) {
@@ -54,7 +175,7 @@ function scrollToBottom() {
 }
 
 // Get initials from name
-function getInitials(name: string | undefined) {
+function getInitials(name: string | null | undefined) {
   if (!name) return '?'
   return name
     .split(' ')
@@ -94,26 +215,6 @@ function formatTime(timestamp: string | Date) {
     day: 'numeric',
   })
 }
-
-async function sendMessage() {
-  if (!newMessage.value.trim() || isSending.value) return
-
-  try {
-    isSending.value = true
-
-    await $client.chat.sendMessage.mutate({
-      conversationId: props.conversationId,
-      content: newMessage.value.trim(),
-    })
-
-    newMessage.value = ''
-    await refresh()
-  } catch (err) {
-    console.error('Failed to send message:', err)
-  } finally {
-    isSending.value = false
-  }
-}
 </script>
 
 <template>
@@ -137,10 +238,10 @@ async function sendMessage() {
           />
         </svg>
       </NuxtLink>
-      <div v-if="isLoading" class="flex-1">
-        <div
-          class="h-4 w-24 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"
-        ></div>
+      <div v-if="isLoading" class="flex items-center gap-3 flex-1">
+        <div class="space-y-1">
+          <Skeleton class="h-4 w-24" />
+        </div>
       </div>
       <div v-else-if="conversation" class="flex items-center flex-1">
         <div class="flex-shrink-0">
@@ -154,9 +255,9 @@ async function sendMessage() {
             v-else
             class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
           >
-            <span class="text-gray-500 dark:text-gray-400">{{
-              getInitials(otherParticipant?.name)
-            }}</span>
+            <span class="text-gray-500 dark:text-gray-400">
+              {{ getInitials(otherParticipant?.name) }}
+            </span>
           </div>
         </div>
         <div class="ml-3">
@@ -169,13 +270,21 @@ async function sendMessage() {
 
     <!-- Messages -->
     <div class="flex-1 overflow-y-auto p-4 space-y-4" ref="messagesContainer">
-      <div v-if="isLoading" class="flex justify-center">
+      <div v-if="isLoading" class="space-y-4">
         <div
-          class="animate-spin h-6 w-6 border-2 border-primary rounded-full border-t-transparent"
-        ></div>
+          v-for="i in 5"
+          :key="i"
+          class="flex items-end gap-2 max-w-[75%]"
+          :class="[i % 2 === 0 ? 'ml-auto flex-row-reverse' : 'mr-auto']"
+        >
+          <Skeleton
+            class="h-14 rounded-lg"
+            :class="i === 2 ? 'w-32' : 'w-48'"
+          />
+        </div>
       </div>
       <div v-else-if="error" class="p-4 text-red-500">
-        {{ error }}
+        {{ error?.message || 'Failed to load conversation' }}
       </div>
       <div
         v-else-if="!conversation?.messages?.length"
@@ -223,7 +332,7 @@ async function sendMessage() {
         <button
           type="submit"
           class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary"
-          :disabled="!newMessage.trim() || isSending"
+          :disabled="charCount === 0 || isSending"
         >
           <span v-if="isSending">
             <div
@@ -233,6 +342,9 @@ async function sendMessage() {
           <span v-else>Send</span>
         </button>
       </form>
+      <div class="mt-1 text-xs text-gray-500 text-right">
+        {{ charCount }}/500
+      </div>
     </div>
   </div>
 </template>

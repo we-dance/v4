@@ -33,7 +33,7 @@ export const usernameSchema = z
 
 // Base profile schema
 export const profileSchema = z.object({
-  id: z.string().optional(),
+  id: z.string(),
   name: z.string().nullable(),
   photo: z.string().url().nullable().default(null),
   username: usernameSchema,
@@ -42,6 +42,7 @@ export const profileSchema = z.object({
   type: z
     .enum(['dancer', 'artist', 'organizer', 'venue', 'community'])
     .default('dancer'),
+  claimed: z.boolean().default(false),
   roles: z.array(z.string()).default([]).nullable(),
   location: z.string().optional().nullable(),
   city: z

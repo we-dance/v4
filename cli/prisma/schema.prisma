@@ -201,6 +201,10 @@ model Profile {
 
   calendars Calendar[] @relation("calendar_owner")
 
+  ConversationAsA Conversation[] @relation("AProfile")
+  ConversationAsB Conversation[] @relation("BProfile")
+  messages        Message[]
+
   @@index([photo])
   @@index([userId])
   @@index([cityId])
@@ -291,9 +295,8 @@ model Event {
   guests          Guest[]          @relation("event_guests")
   ticketPurchases TicketPurchase[] @relation("event_purchases")
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
   calendarEvents CalendarEvent[] @relation("calendar_event_to_event")
 }
 
@@ -430,7 +433,6 @@ model Guest {
   cancelledAt  DateTime?
   registeredAt DateTime?
   waitlistedAt DateTime?
-  checkedInAt  DateTime? // When the guest checked in to the event
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -643,10 +645,46 @@ model CalendarEvent {
   styles DanceStyle[] @relation("calendar_event_styles")
 
   createdAt DateTime @default(now())
-  updatedAt DateTime @default(now()) @updatedAt
+  updatedAt DateTime @updatedAt
 
   @@unique([calendarId, providerItemId])
   @@index([startDate])
   @@index([calendarId, startDate])
   @@index([facebookId])
+}
+
+model Conversation {
+  id          String    @id @default(cuid())
+  pairKey     String    @unique // `${min(aId,bId)}-${max(aId,bId)}`
+  aId         String
+  bId         String
+  aLastSeenAt DateTime?
+  bLastSeenAt DateTime?
+
+  messages Message[] @relation("ConversationMessages")
+
+  a Profile @relation("AProfile", fields: [aId], references: [id])
+  b Profile @relation("BProfile", fields: [bId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([aId, bId])
+  @@index([aId, updatedAt])
+  @@index([bId, updatedAt])
+}
+
+model Message {
+  id             String   @id @default(cuid())
+  conversationId String
+  senderId       String
+  content        String   @db.Text
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  conversation Conversation @relation("ConversationMessages", fields: [conversationId], references: [id], onDelete: Cascade)
+  sender       Profile      @relation(fields: [senderId], references: [id])
+
+  @@index([conversationId, createdAt])
+  @@index([senderId, createdAt])
 }

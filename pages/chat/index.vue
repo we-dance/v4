@@ -1,3 +1,96 @@
+<script setup lang="ts">
+import { ref, onUnmounted } from 'vue'
+import { useRouter } from 'vue-router'
+type SearchUser = {
+  id: string
+  name: string
+  username: string
+  photo: string | null
+}
+
+const router = useRouter()
+const { $client } = useNuxtApp()
+
+const showNewConversationModal = ref(false)
+const searchQuery = ref('')
+const searchResults = ref<SearchUser[]>([])
+const selectedUser = ref<SearchUser | null>(null)
+const isSearching = ref(false)
+const isCreating = ref(false)
+
+// Search users with debounce
+let searchTimeout: ReturnType<typeof setTimeout> | null = null
+let lastRequestToken = 0
+function searchUsers() {
+  if (searchTimeout) clearTimeout(searchTimeout)
+  const q = searchQuery.value.trim()
+  if (selectedUser.value && q !== selectedUser.value.name) {
+    selectedUser.value = null
+  }
+  if (!q) {
+    lastRequestToken++
+    searchResults.value = []
+    isSearching.value = false
+    return
+  }
+  isSearching.value = true
+
+  searchTimeout = setTimeout(async () => {
+    const token = ++lastRequestToken
+    try {
+      const results = await $client.profiles.search.query({ query: q })
+      if (token !== lastRequestToken) return
+      searchResults.value = results
+    } catch (error) {
+      if (token === lastRequestToken)
+        console.error('Error searching users:', error)
+    } finally {
+      if (token === lastRequestToken) isSearching.value = false
+    }
+  }, 300)
+}
+
+onUnmounted(() => {
+  if (searchTimeout) clearTimeout(searchTimeout)
+  lastRequestToken++
+})
+
+function selectUser(user: any) {
+  selectedUser.value = user
+  searchQuery.value = user.name
+  searchResults.value = []
+}
+
+async function createConversation() {
+  if (!selectedUser.value || isCreating.value) return
+
+  try {
+    isCreating.value = true
+
+    const conversation = await $client.chat.createConversation.mutate({
+      otherUserId: selectedUser.value.id,
+    })
+
+    showNewConversationModal.value = false
+    router.push(`/chat/${conversation.id}`)
+  } catch (error) {
+    console.error('Error creating conversation:', error)
+  } finally {
+    isCreating.value = false
+  }
+}
+
+// Get initials from name
+function getInitials(name: string) {
+  return name
+    .split(' ')
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase()
+    .substring(0, 2)
+}
+</script>
+
 <template>
   <div class="container mx-auto px-4 py-8">
     <div class="max-w-4xl mx-auto">
@@ -105,7 +198,7 @@
             </div>
 
             <div
-              v-else-if="searchQuery && !isSearching"
+              v-else-if="searchQuery && !isSearching && !selectedUser"
               class="mt-2 p-3 text-center text-gray-500 border rounded-lg dark:border-gray-700"
             >
               No users found
@@ -137,82 +230,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
-
-const router = useRouter()
-const { $client } = useNuxtApp()
-
-const showNewConversationModal = ref(false)
-const searchQuery = ref('')
-const searchResults = ref<any[]>([])
-const selectedUser = ref<any>(null)
-const isSearching = ref(false)
-const isCreating = ref(false)
-
-// Search users with debounce
-let searchTimeout: NodeJS.Timeout | null = null
-function searchUsers() {
-  if (searchTimeout) clearTimeout(searchTimeout)
-
-  if (!searchQuery.value.trim()) {
-    searchResults.value = []
-    return
-  }
-
-  isSearching.value = true
-
-  searchTimeout = setTimeout(async () => {
-    try {
-      // Replace with your actual API call to search users
-      const results = await $client.profiles.search.query({
-        query: searchQuery.value.trim(),
-        limit: 10,
-      })
-
-      searchResults.value = results
-    } catch (error) {
-      console.error('Error searching users:', error)
-    } finally {
-      isSearching.value = false
-    }
-  }, 300)
-}
-
-function selectUser(user: any) {
-  selectedUser.value = user
-  searchQuery.value = user.name
-  searchResults.value = []
-}
-
-async function createConversation() {
-  if (!selectedUser.value || isCreating.value) return
-
-  try {
-    isCreating.value = true
-
-    const conversation = await $client.chat.createConversation.mutate({
-      participantIds: [selectedUser.value.id],
-    })
-
-    showNewConversationModal.value = false
-    router.push(`/chat/${conversation.id}`)
-  } catch (error) {
-    console.error('Error creating conversation:', error)
-  } finally {
-    isCreating.value = false
-  }
-}
-
-// Get initials from name
-function getInitials(name: string) {
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .join('')
-    .toUpperCase()
-    .substring(0, 2)
-}
-</script>

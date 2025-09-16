@@ -2,6 +2,13 @@
 const { profile } = defineProps<{
   profile: any
 }>()
+import { useContact } from '~/composables/useContact'
+
+const { pending, startConversation } = useContact()
+
+const handleContact = async () => {
+  startConversation(profile)
+}
 </script>
 
 <template>
@@ -33,7 +40,17 @@ const { profile } = defineProps<{
       </div>
       <div class="flex justify-center md:justify-start gap-2">
         <Button variant="primary">Subscribe</Button>
-        <Button variant="secondary">Send Message</Button>
+        <Button
+          v-if="profile.claimed"
+          variant="secondary"
+          @click="handleContact"
+          :disabled="pending"
+        >
+          Send Message
+        </Button>
+        <Button v-else variant="secondary" @click="handleContact">
+          Messaging Unavaliable
+        </Button>
       </div>
 
       <div class="space-y-2">

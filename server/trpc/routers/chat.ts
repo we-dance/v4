@@ -1,187 +1,224 @@
 import { z } from 'zod'
 import { publicProcedure, router } from '~/server/trpc/init'
+import { TRPCError } from '@trpc/server'
+import { prisma } from '~/server/prisma'
+import { Prisma } from '@prisma/client'
+import { createConversationSchema, sendMessageSchema } from '~/schemas/chat'
+import { publish } from '~/server/utils/sse'
 
-// Mock data for UI development
-const mockConversations = [
-  {
-    id: '1',
-    createdAt: new Date('2023-03-15T10:30:00Z'),
-    updatedAt: new Date('2023-03-15T14:45:00Z'),
-    participants: [
-      {
-        profileId: 'user-1',
-        name: 'Current User',
-        username: 'currentuser',
-        photo: null,
-      },
-      {
-        profileId: 'user-2',
-        name: 'Jane Smith',
-        username: 'janesmith',
-        photo: null,
-      },
-    ],
-    messages: [
-      {
-        id: 'm1',
-        conversationId: '1',
-        senderId: 'user-2',
-        content: 'Hi there! How are you doing?',
-        createdAt: new Date('2023-03-15T10:30:00Z'),
-        updatedAt: new Date('2023-03-15T10:30:00Z'),
-        isDeleted: false,
-      },
-      {
-        id: 'm2',
-        conversationId: '1',
-        senderId: 'user-1',
-        content: "I'm good, thanks! How about you?",
-        createdAt: new Date('2023-03-15T10:35:00Z'),
-        updatedAt: new Date('2023-03-15T10:35:00Z'),
-        isDeleted: false,
-      },
-      {
-        id: 'm3',
-        conversationId: '1',
-        senderId: 'user-2',
-        content:
-          'Doing well! Just wanted to check in about the dance event next week.',
-        createdAt: new Date('2023-03-15T10:40:00Z'),
-        updatedAt: new Date('2023-03-15T10:40:00Z'),
-        isDeleted: false,
-      },
-    ],
-    lastMessage: {
-      id: 'm3',
-      conversationId: '1',
-      senderId: 'user-2',
-      content:
-        'Doing well! Just wanted to check in about the dance event next week.',
-      createdAt: new Date('2023-03-15T10:40:00Z'),
-      updatedAt: new Date('2023-03-15T10:40:00Z'),
-      isDeleted: false,
-    },
-  },
-  {
-    id: '2',
-    createdAt: new Date('2023-03-10T08:20:00Z'),
-    updatedAt: new Date('2023-03-14T16:30:00Z'),
-    participants: [
-      {
-        profileId: 'user-1',
-        name: 'Current User',
-        username: 'currentuser',
-        photo: null,
-      },
-      {
-        profileId: 'user-3',
-        name: 'Alex Johnson',
-        username: 'alexj',
-        photo: null,
-      },
-    ],
-    messages: [
-      {
-        id: 'm4',
-        conversationId: '2',
-        senderId: 'user-1',
-        content: 'Hey Alex, are you coming to the salsa workshop?',
-        createdAt: new Date('2023-03-14T16:20:00Z'),
-        updatedAt: new Date('2023-03-14T16:20:00Z'),
-        isDeleted: false,
-      },
-      {
-        id: 'm5',
-        conversationId: '2',
-        senderId: 'user-3',
-        content: "Yes, I'll be there! Looking forward to it.",
-        createdAt: new Date('2023-03-14T16:30:00Z'),
-        updatedAt: new Date('2023-03-14T16:30:00Z'),
-        isDeleted: false,
-      },
-    ],
-    lastMessage: {
-      id: 'm5',
-      conversationId: '2',
-      senderId: 'user-3',
-      content: "Yes, I'll be there! Looking forward to it.",
-      createdAt: new Date('2023-03-14T16:30:00Z'),
-      updatedAt: new Date('2023-03-14T16:30:00Z'),
-      isDeleted: false,
-    },
-  },
-]
+type CtxWithProfile = { session?: { profile?: { id?: string } } }
+const requireProfileId = (ctx: CtxWithProfile) => {
+  const id = ctx.session?.profile?.id
+  if (!id) throw new TRPCError({ code: 'UNAUTHORIZED' })
+  return id
+}
+
+const pairKeyFor = (a: string, b: string) => (a < b ? `${a}-${b}` : `${b}-${a}`)
 
 export const chatRouter = router({
   // Get all conversations for the current user
-  getConversations: publicProcedure.query(async () => {
-    // For UI development, return mock data
-    return mockConversations
-  }),
+  getConversations: publicProcedure.query(async ({ ctx }) => {
+    const me = requireProfileId(ctx)
+    const convs = await prisma.conversation.findMany({
+      where: { OR: [{ aId: me }, { bId: me }] },
+      orderBy: { lastMessage: { createdAt: 'desc' } },
+      include: {
+        a: { select: { id: true, name: true, photo: true } },
+        b: { select: { id: true, name: true, photo: true } },
+        lastMessage: {
+          include: {
+            sender: { select: { id: true, name: true, photo: true } },
+          },
+        },
+      },
+    })
+    return convs.map((c) => {
+      const iAmA = c.aId === me
+      const receiver = iAmA ? c.b : c.a
+      const myLastSeenAt = iAmA ? c.aLastSeenAt : c.bLastSeenAt
+      const lastMessage = c.lastMessage
 
-  // Get a single conversation by ID
-  getConversation: publicProcedure
-    .input(z.object({ conversationId: z.string() }))
-    .query(async ({ input }) => {
-      // For UI development, return mock data
-      const conversation = mockConversations.find(
-        (c) => c.id === input.conversationId
-      )
-      if (!conversation) throw new Error('Conversation not found')
-      return conversation
-    }),
+      const hasUnread =
+        !!lastMessage &&
+        lastMessage.senderId !== me &&
+        (!myLastSeenAt || lastMessage.createdAt > myLastSeenAt)
+
+      return {
+        id: c.id,
+        aId: c.aId,
+        bId: c.bId,
+        createdAt: c.createdAt,
+        updatedAt: c.updatedAt,
+        messages: c.lastMessage ? [c.lastMessage] : [],
+        receiver,
+        hasUnread,
+      }
+    })
+  }),
 
   // Create a new conversation
   createConversation: publicProcedure
-    .input(z.object({ participantIds: z.array(z.string()) }))
-    .mutation(async ({ input }) => {
-      // For UI development, return a mock conversation
-      const newId = (mockConversations.length + 1).toString()
-      const newConversation = {
-        id: newId,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        participants: [
-          {
-            profileId: 'user-1',
-            name: 'Current User',
-            username: 'currentuser',
-            photo: null,
-          },
-          {
-            profileId: input.participantIds[0],
-            name: 'New Contact',
-            username: 'newcontact',
-            photo: null,
-          },
-        ],
-        messages: [],
-        lastMessage: null,
+    .input(createConversationSchema)
+    .mutation(async ({ ctx, input }) => {
+      const me = requireProfileId(ctx)
+      const other = input.otherUserId
+      if (!other || other === me) throw new TRPCError({ code: 'BAD_REQUEST' })
+
+      const otherProfile = await prisma.profile.findUnique({
+        where: { id: other },
+        select: { id: true },
+      })
+      if (!otherProfile) {
+        throw new TRPCError({ code: 'NOT_FOUND' })
       }
 
-      return newConversation
+      const conversation = await prisma.$transaction(async (tx) => {
+        const key = pairKeyFor(me, other)
+        const existing = await tx.conversation.findUnique({
+          where: { pairKey: key },
+          include: {
+            a: { select: { id: true, name: true, photo: true } },
+            b: { select: { id: true, name: true, photo: true } },
+          },
+        })
+        if (existing) return existing
+
+        const [aId, bId] = me < other ? [me, other] : [other, me]
+        try {
+          const created = await tx.conversation.create({
+            data: {
+              pairKey: key,
+              aId,
+              bId,
+              ...(aId === me
+                ? { aLastSeenAt: new Date() }
+                : { bLastSeenAt: new Date() }),
+            },
+            include: {
+              a: { select: { id: true, name: true, photo: true } },
+              b: { select: { id: true, name: true, photo: true } },
+            },
+          })
+          return created
+        } catch (error) {
+          if (
+            error instanceof Prisma.PrismaClientKnownRequestError &&
+            error.code === 'P2002'
+          ) {
+            const winner = await tx.conversation.findUnique({
+              where: { pairKey: key },
+              include: {
+                a: { select: { id: true, name: true, photo: true } },
+                b: { select: { id: true, name: true, photo: true } },
+              },
+            })
+            if (winner) return winner
+          }
+          throw error
+        }
+      })
+
+      publish(`inbox:${other}`, {
+        type: 'conversation.updated',
+        conversationId: conversation.id,
+      })
+      publish(`inbox:${me}`, {
+        type: 'conversation.updated',
+        conversationId: conversation.id,
+      })
+      return conversation
     }),
 
   // Send a message in a conversation
   sendMessage: publicProcedure
-    .input(
-      z.object({
-        conversationId: z.string(),
-        content: z.string().min(1),
+    .input(sendMessageSchema)
+    .mutation(async ({ ctx, input }) => {
+      const me = requireProfileId(ctx)
+      const conv = await prisma.conversation.findFirst({
+        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
+        select: { id: true, aId: true, bId: true },
       })
-    )
-    .mutation(async ({ input }) => {
-      // For UI development, return a mock message
-      const newMessage = {
-        id: `m${Date.now()}`,
-        conversationId: input.conversationId,
-        senderId: 'user-1', // Current user
-        content: input.content,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        isDeleted: false,
-      }
+      if (!conv) throw new TRPCError({ code: 'NOT_FOUND' })
 
-      return newMessage
+      const msg = await prisma.$transaction(async (tx) => {
+        const createdMessage = await tx.message.create({
+          data: {
+            conversationId: conv.id,
+            senderId: me,
+            content: input.content,
+          },
+          include: {
+            sender: { select: { id: true, name: true, photo: true } },
+          },
+        })
+        await tx.conversation.update({
+          where: { id: conv.id },
+          data: {
+            lastMessageId: createdMessage.id,
+            ...(conv.aId === me
+              ? { aLastSeenAt: new Date() }
+              : { bLastSeenAt: new Date() }),
+          },
+        })
+        return createdMessage
+      })
+
+      const messageForEvent = {
+        ...msg,
+        sender: {
+          id: msg.sender.id,
+          name: msg.sender.name,
+          photo: msg.sender.photo,
+        },
+      }
+      publish(`conversation:${conv.id}`, {
+        type: 'message.created',
+        conversationId: conv.id,
+        message: messageForEvent,
+      })
+
+      const other = conv.aId === me ? conv.bId : conv.aId
+      publish(`inbox:${other}`, {
+        type: 'conversation.updated',
+        conversationId: conv.id,
+      })
+      publish(`inbox:${me}`, {
+        type: 'conversation.updated',
+        conversationId: conv.id,
+      })
+      return msg
+    }),
+
+  markAsRead: publicProcedure
+    .input(z.object({ conversationId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const me = requireProfileId(ctx)
+      const conv = await prisma.conversation.findFirst({
+        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
+        select: { id: true, aId: true, bId: true },
+      })
+      if (!conv) {
+        throw new TRPCError({ code: 'NOT_FOUND' })
+      }
+      await prisma.conversation.update({
+        where: { id: conv.id },
+        data: {
+          ...(conv.aId === me
+            ? { aLastSeenAt: new Date() }
+            : { bLastSeenAt: new Date() }),
+        },
+      })
+      publish(`inbox:${me}`, {
+        type: 'conversation.updated',
+        conversationId: conv.id,
+      })
+      const other = conv.aId === me ? conv.bId : conv.aId
+      if (other && other !== me) {
+        publish(`inbox:${other}`, {
+          type: 'conversation.updated',
+          conversationId: conv.id,
+        })
+      }
+      return { success: true }
     }),
 })
