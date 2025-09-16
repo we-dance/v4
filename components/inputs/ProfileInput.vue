@@ -1,10 +1,15 @@
 <script setup lang="ts">
+import { toast } from 'vue-sonner'
+
 const model = defineModel() as Ref<any>
 const { $client } = useNuxtApp()
 const searchQuery = ref('')
+const queryKey = computed(() => ['profiles.search', searchQuery.value.trim()])
 const { data } = useQuery<any>({
-  queryKey: ['profiles.search', searchQuery],
-  queryFn: () => $client.profiles.search.query({ query: searchQuery.value }),
+  queryKey,
+  queryFn: ({ queryKey }) =>
+    $client.profiles.search.query({ query: queryKey[1] as string }),
+  enabled: computed(() => !!(queryKey.value[1] as string)),
   retry: false,
 })
 const isOpen = ref(false)
@@ -14,19 +19,22 @@ const instagramUsername = computed(() => {
 })
 
 const importFromInstagram = async () => {
-  // The guard now correctly checks if a valid username was extracted
   if (!instagramUsername.value) return
-  try {
-    const newProfile = await $client.profiles.createFromInstagram.mutate({
-      instagramUrl: searchQuery.value,
-    })
-    if (newProfile) model.value = newProfile
-    isOpen.value = false
-    searchQuery.value = ''
-  } catch (error) {
-    console.error('Failed to import Instagram profile:', error)
-    // TODO: add toast for failure
-  }
+
+  const promise = $client.profiles.createFromInstagram.mutate({
+    instagramUrl: searchQuery.value,
+  })
+
+  toast.promise(promise, {
+    loading: 'Scheduling profile import...',
+    success: (data: any) => {
+      if (data) model.value = data
+      isOpen.value = false
+      searchQuery.value = ''
+      return 'Profile import scheduled successfully!'
+    },
+    error: (error: any) => (error as Error).message,
+  })
 }
 
 // Browser-safe duplication of the backend parsing logic.
@@ -43,51 +51,20 @@ function isValidInstagramUsername(username: string): boolean {
 function extractInstagramUsername(input: string): string {
   const raw = input.trim()
 
-  // Quick path: "@user" → "user"
   if (raw.startsWith('@')) {
-    const username = raw.replace(/^@+/, '').split(/[/?#]/, 1)[0]
+    const username = raw.replace(/^@+/, '').split(/[/?#]/, 1)[0].toLowerCase()
     return isValidInstagramUsername(username) ? username : ''
   }
+  const match = raw.match(/instagram\.com\/([a-zA-Z0-9_.]+)/)
+  const candidate = match ? match[1] : ''
 
-  try {
-    // Add https:// if no protocol present
-    const urlString = /^[a-z]+:\/\//i.test(raw) ? raw : `https://${raw}`
-    const u = new URL(urlString)
-    const host = u.hostname
-
-    // Check if it's an Instagram domain
-    const isIg =
-      /(^|\.)instagram\.com$/i.test(host) || /(^|\.)instagr\.am$/i.test(host)
-    if (!isIg) return ''
-
-    // Parse pathname
-    const parts = u.pathname
-      .replace(/^\/+|\/+$/g, '')
-      .split('/')
-      .filter(Boolean)
-    let candidate = (parts[0] || '').replace(/^@+/, '')
-
-    // Handle /_u/username deep-links
-    if (/^_u$/i.test(candidate) && parts.length > 1) {
-      candidate = parts[1].replace(/^@+/, '')
-    }
-
-    // Guard against reserved routes
-    if (
-      !candidate ||
-      /^(p|reel|reels|tv|stories|explore|accounts|tags|about|help|legal|privacy|terms|challenge|web|directory|login|developer)$/i.test(
-        candidate
-      )
-    ) {
-      return ''
-    }
-
-    return isValidInstagramUsername(candidate) ? candidate : ''
-  } catch {
-    // Fallback: treat as bare username
-    const username = raw.replace(/^@+/, '').split(/[/?#]/, 1)[0]
-    return isValidInstagramUsername(username) ? username : ''
+  // A guard for the most common non-profile routes
+  if (/^(p|reel|stories)$/i.test(candidate)) {
+    return ''
   }
+
+  const normalized = candidate.toLowerCase()
+  return isValidInstagramUsername(normalized) ? normalized : ''
 }
 </script>
 
