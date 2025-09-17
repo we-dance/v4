@@ -19,6 +19,9 @@ const newMessage = ref('')
 const isSending = ref(false)
 const isLoading = ref(true)
 const error = ref<Error | null>(null)
+const connectionAttempts = ref(0)
+const maxAttempts = 50
+const reconnectDelay = ref(2000)
 
 let eventSource: EventSource | null = null
 let markAsReadTimer: ReturnType<typeof setTimeout> | null = null
@@ -122,13 +125,28 @@ function subscribeToConversation(id: string) {
     }
   }
   eventSource.onopen = () => {
+    console.log('SSE Connected')
+    connectionAttempts.value = 0
+    reconnectDelay.value = 2000
     error.value = null
   }
 
   eventSource.onerror = (err) => {
     console.error('SSE CONNECTION ERROR:', err)
-    error.value = new Error('Connection to chat server failed.')
-    isLoading.value = false
+    eventSource?.close()
+    if (connectionAttempts.value < maxAttempts) {
+      connectionAttempts.value++
+      const delay = Math.min(reconnectDelay.value, 10000)
+      reconnectDelay.value = Math.min(delay * 1.5, 10000)
+
+      console.log(`Reconnecting in ${delay} ms`)
+      setTimeout(() => {
+        subscribeToConversation(props.conversationId)
+      }, delay)
+    } else {
+      error.value = new Error('Connection to chat server failed.')
+      isLoading.value = false
+    }
   }
 }
 
