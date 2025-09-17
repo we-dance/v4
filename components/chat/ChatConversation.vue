@@ -130,7 +130,6 @@ function subscribeToConversation(id: string) {
     }
   }
   eventSource.onopen = () => {
-    console.log('SSE Connected')
     connectionAttempts.value = 0
     reconnectDelay.value = 2000
     error.value = null
@@ -139,7 +138,6 @@ function subscribeToConversation(id: string) {
 
     reconnectTimer = setTimeout(() => {
       if (eventSource && eventSource.readyState === 1) {
-        console.log('Proactive reconnect before timeout')
         eventSource.close()
         subscribeToConversation(props.conversationId)
       }
@@ -158,8 +156,6 @@ function subscribeToConversation(id: string) {
       connectionAttempts.value++
       const delay = Math.min(reconnectDelay.value, 10000)
       reconnectDelay.value = Math.min(delay * 1.5, 10000)
-
-      console.log(`Reconnecting in ${delay} ms`)
       setTimeout(() => {
         subscribeToConversation(props.conversationId)
       }, delay)
