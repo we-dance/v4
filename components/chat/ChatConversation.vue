@@ -25,6 +25,7 @@ const reconnectDelay = ref(2000)
 
 let eventSource: EventSource | null = null
 let markAsReadTimer: ReturnType<typeof setTimeout> | null = null
+let reconnectTimer: ReturnType<typeof setTimeout> | null = null
 
 // Composables
 const { $client } = useNuxtApp()
@@ -58,6 +59,10 @@ onUnmounted(() => {
   if (markAsReadTimer) {
     clearTimeout(markAsReadTimer)
     markAsReadTimer = null
+  }
+  if (reconnectTimer) {
+    clearTimeout(reconnectTimer)
+    reconnectTimer = null
   }
 })
 
@@ -129,10 +134,25 @@ function subscribeToConversation(id: string) {
     connectionAttempts.value = 0
     reconnectDelay.value = 2000
     error.value = null
+
+    if (reconnectTimer) clearTimeout(reconnectTimer)
+
+    reconnectTimer = setTimeout(() => {
+      if (eventSource && eventSource.readyState === 1) {
+        console.log('Proactive reconnect before timeout')
+        eventSource.close()
+        subscribeToConversation(props.conversationId)
+      }
+    }, 8000)
   }
 
   eventSource.onerror = (err) => {
     console.error('SSE CONNECTION ERROR:', err)
+
+    if (reconnectTimer) {
+      clearTimeout(reconnectTimer)
+      reconnectTimer = null
+    }
     eventSource?.close()
     if (connectionAttempts.value < maxAttempts) {
       connectionAttempts.value++
