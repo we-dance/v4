@@ -130,7 +130,6 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    googleMapsServerApiKey: '',
     stripeSecretKey: '',
     stripePublicKey: '',
     stripeWebhookSecret: '',

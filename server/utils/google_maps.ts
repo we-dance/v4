@@ -29,10 +29,10 @@ export async function getCityIdFromGooglePlace(
   const cityName = cityComponent.long_name
 
   const config = useRuntimeConfig()
-  const apiKey = config.googleMapsServerApiKey
+  const apiKey = config.public.googleMapsApiKey
 
   if (!apiKey) {
-    throw new Error('Google Maps server API key is missing')
+    throw new Error('Google Maps API key is missing')
   }
   try {
     const response = await mapsClient.textSearch({
@@ -54,14 +54,15 @@ export async function getCityIdFromGooglePlace(
 
 export async function getPlaceDetails(placeId: string) {
   const config = useRuntimeConfig()
-  if (!config.googleMapsServerApiKey)
-    throw new Error('Missing Google Maps server key')
+  const apiKey = config.public.googleMapsApiKey
+
+  if (!apiKey) throw new Error('Missing public Google Maps API key.')
 
   try {
     const resp = await mapsClient.placeDetails({
       params: {
         place_id: placeId,
-        key: config.googleMapsServerApiKey,
+        key: apiKey,
         fields: [
           'place_id',
           'name',
