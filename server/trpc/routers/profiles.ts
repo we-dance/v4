@@ -3,6 +3,7 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
+import { tasks } from '@trigger.dev/sdk/v3'
 
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
@@ -320,5 +321,58 @@ export const profilesRouter = router({
       }
 
       throw new Error('Venue not found')
+    }),
+
+  createFromInstagram: publicProcedure
+    .input(
+      z.object({
+        instagramUrl: z.string().url(),
+      })
+    )
+    .mutation(async ({ input }) => {
+      if (
+        !input.instagramUrl.includes('instagram.com/') &&
+        !input.instagramUrl.includes('instagr.am/')
+      ) {
+        throw new Error('Only Instagram profile URLs are supported')
+      }
+      const username = input.instagramUrl
+        .replace('https://', '')
+        .replace('http://', '')
+        .replace('www.', '')
+        .replace('instagram.com/', '')
+        .replace('instagr.am/', '')
+        .replace(/\/$/, '')
+        .split('/')[0]
+        .split('?')[0]
+      const instagramUrl = `https://www.instagram.com/${username}/`
+
+      const existingProfile = await prisma.profile.findFirst({
+        where: {
+          OR: [
+            { username: { equals: username, mode: 'insensitive' } },
+            { instagram: { equals: instagramUrl, mode: 'insensitive' } },
+          ],
+        },
+      })
+
+      if (existingProfile) return existingProfile
+
+      const newProfile = await prisma.profile.create({
+        data: {
+          username,
+          name: username,
+          instagram: instagramUrl,
+          type: 'Organiser',
+          importStatus: 'requested',
+          source: 'instagram',
+          visibility: 'Public',
+        },
+      })
+      // Trigger the import job here
+      await tasks.trigger('import-instagram-profile', {
+        profileId: newProfile.id,
+      })
+      return newProfile
     }),
 })
