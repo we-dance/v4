@@ -1,7 +1,6 @@
 import { getCountryCode } from '~/utils/country'
 import { getSlug } from '~/utils/slug'
 import { prisma } from '~/server/prisma'
-import { Prisma } from '@prisma/client'
 
 const addressPart = (result: any, type: string) => {
   if (!result || !result.address_components) {
@@ -19,29 +18,17 @@ const addressPart = (result: any, type: string) => {
 }
 
 const getAddress = (places: any) => {
-  if (!places || !places.length) {
-    return null
+  if (!places) {
+    return {}
   }
 
-  // The first result is the most accurate for a place ID lookup.
-  const place = places[0]
+  const place =
+    places.find((p: any) => p.types.includes('locality')) || places[0]
 
   const result: any = {}
 
-  // Find the most specific name for the locality by checking multiple types.
-  const nameComponent =
-    place.address_components.find((c: any) => c.types.includes('locality')) ||
-    place.address_components.find((c: any) =>
-      c.types.includes('postal_town')
-    ) ||
-    place.address_components.find((c: any) =>
-      c.types.includes('administrative_area_level_2')
-    ) ||
-    place.address_components.find((c: any) =>
-      c.types.includes('administrative_area_level_1')
-    )
-
-  result.locality = (nameComponent?.long_name || '').trim()
+  result.establishment = addressPart(place, 'establishment')
+  result.locality = addressPart(place, 'locality')
   result.country = addressPart(place, 'country')
   result.region = addressPart(place, 'administrative_area_level_1')
 
@@ -60,31 +47,16 @@ const getAddressFromPlaceId = async (placeId: string) => {
     return null
   }
 
-  const apiKey = useRuntimeConfig().googleMapsServerApiKey
-  if (!apiKey) throw new Error('Google Maps server API key is missing')
-  const url = `https://maps.googleapis.com/maps/api/geocode/json?place_id=${encodeURIComponent(placeId)}&key=${apiKey}`
-  const controller = new AbortController()
-  const timer = setTimeout(() => controller.abort(), 5000)
+  const apiKey = useRuntimeConfig().public.googleMapsApiKey
+  const url = `https://maps.googleapis.com/maps/api/geocode/json?place_id=${placeId}&key=${apiKey}`
+  const res = await fetch(url)
+  const data = await res.json()
 
-  try {
-    const res = await fetch(url, { signal: controller.signal })
-    if (!res.ok) {
-      return null
-    }
-    const data = await res.json()
-    if (
-      data.status != 'OK' ||
-      !Array.isArray(data.results) ||
-      !data.results.length
-    ) {
-      return null
-    }
-    return getAddress(data.results)
-  } catch {
-    return null
-  } finally {
-    clearTimeout(timer)
+  if (data.status !== 'OK') {
+    return []
   }
+
+  return getAddress(data.results)
 }
 
 export async function findOrCreateCity(placeId: string) {
@@ -100,65 +72,50 @@ export async function findOrCreateCity(placeId: string) {
   }
   const { locality, region, country, lat, lng } = address
 
-  // 1. Create candidate slugs.
-  const baseSlug = getSlug(locality)
-  const candidates = [baseSlug]
-  if (region) {
-    candidates.push(getSlug(`${region} ${locality}`))
-  }
+  let slug = getSlug(locality)
+  const existingLocality = await prisma.city.findFirst({
+    where: { slug },
+  })
 
-  // 2. Find the first available slug from the candidates.
-  let slugToTry = candidates[0]
-  for (const candidate of candidates) {
-    const exists = await prisma.city.findFirst({
-      where: { slug: candidate },
-      select: { id: true },
-    })
-    if (!exists) {
-      slugToTry = candidate
-      break
-    }
+  if (existingLocality) {
+    slug = getSlug(`${region} ${locality}`)
+  }
+  const existingRegion = await prisma.city.findFirst({
+    where: { slug },
+  })
+  if (existingRegion) {
+    throw new Error(
+      `City slug conflict: A city with slug "${slug}" already exists.`
+    )
   }
 
   const countryCode = await getCountryCode(country)
 
-  let attempt = 0
-  while (true) {
-    const createData = {
-      id: placeId,
-      name: locality,
-      region: region || '',
-      slug: slugToTry,
-      countryCode,
-      lat: lat ?? 0,
-      lng: lng ?? 0,
-    }
-    const updateData = {
-      name: locality,
-      region: region || '',
-      countryCode,
-      lat: lat ?? 0,
-      lng: lng ?? 0,
-    }
+  const createData = {
+    id: placeId,
+    name: locality,
+    region: region || '',
+    slug: slug,
+    countryCode,
+    lat: address.lat ?? 0,
+    lng: address.lng ?? 0,
+  }
+  const updateData = {
+    name: locality,
+    region: region || '',
+    countryCode,
+    lat: address.lat ?? 0,
+    lng: address.lng ?? 0,
+  }
 
-    try {
-      const city = await prisma.city.upsert({
-        where: { id: placeId },
-        create: createData,
-        update: updateData,
-      })
-      return city
-    } catch (error) {
-      if (
-        error instanceof Prisma.PrismaClientKnownRequestError &&
-        error.code === 'P2002' &&
-        attempt < 3
-      ) {
-        attempt++
-        slugToTry = getSlug(`${baseSlug}-${attempt + 1}`)
-        continue
-      }
-      throw error
-    }
+  try {
+    const city = await prisma.city.upsert({
+      where: { id: placeId },
+      create: createData,
+      update: updateData,
+    })
+    return city
+  } catch (error) {
+    throw error
   }
 }

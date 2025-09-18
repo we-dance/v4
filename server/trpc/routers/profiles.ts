@@ -313,6 +313,7 @@ export const profilesRouter = router({
 
       return { profiles, totalCount, hasMore, nextPage }
     }),
+
   findVenueOrCreate: publicProcedure
     .input(z.object({ placeId: z.string() }))
     .mutation(async ({ input }) => {
@@ -352,53 +353,55 @@ export const profilesRouter = router({
             message: 'Could not determine a city for the selected venue.',
           })
         }
-        const city = await findOrCreateCity(cityPlaceId)
+
+        let city
+        try {
+          city = await findOrCreateCity(cityPlaceId)
+        } catch (error) {
+          console.error('Error in findOrCreateCity', error)
+          throw new TRPCError({
+            code: 'INTERNAL_SERVER_ERROR',
+            message: `Failed to create city: ${error}`,
+          })
+        }
 
         // Generate a unique username for the venue to avoid conflicts.
         const baseSlug = getSlug(place.name!)
         let username = baseSlug
-        let counter = 1
-
-        // Create the new venue profile in the database.
-        for (let attempt = 0; attempt < 5; attempt++) {
-          try {
-            const newVenue = await tx.profile.create({
-              data: {
-                name: place.name!,
-                username,
-                type: 'Venue',
-                placeId,
-                cityId: city.id,
-                formattedAddress: place.formatted_address,
-                website: place.website || null,
-                phone: place.international_phone_number || null,
-                lat: place.geometry?.location?.lat || null,
-                lng: place.geometry?.location?.lng || null,
-                mapUrl: place.url || null,
-              },
-            })
-            return newVenue
-          } catch (error: any) {
-            if (error?.code === 'P2002') {
-              const target = (error.meta && error.meta.target) || ''
-              if (String(target).includes('username')) {
-                username = `${baseSlug}-${counter++}`
-                continue
-              }
-              if (String(target).includes('placeId')) {
-                const concurrent = await tx.profile.findFirst({
-                  where: { placeId },
-                })
-                if (concurrent) return concurrent
-              }
-            }
-            throw error
+        const existingProfile = await tx.profile.findFirst({
+          where: { username },
+        })
+        if (existingProfile) {
+          username = getSlug(`${place.name!}-${city.name}`)
+          const anotherExisting = await tx.profile.findFirst({
+            where: { username },
+          })
+          if (anotherExisting) {
+            throw new Error(
+              `Could not generate a unique username for this venue.`
+            )
           }
         }
-        throw new TRPCError({
-          code: 'CONFLICT',
-          message: 'Could not allocate a unique username.',
-        })
+        try {
+          const newVenue = await tx.profile.create({
+            data: {
+              name: place.name!,
+              username,
+              type: 'Venue',
+              placeId,
+              cityId: city.id,
+              formattedAddress: place.formatted_address,
+              website: place.website || null,
+              phone: place.international_phone_number || null,
+              lat: place.geometry?.location?.lat || null,
+              lng: place.geometry?.location?.lng || null,
+              mapUrl: place.url || null,
+            },
+          })
+          return newVenue
+        } catch (error) {
+          throw error
+        }
       })
     }),
 })
