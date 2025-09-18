@@ -19,9 +19,13 @@ const newMessage = ref('')
 const isSending = ref(false)
 const isLoading = ref(true)
 const error = ref<Error | null>(null)
+const connectionAttempts = ref(0)
+const maxAttempts = 50
+const reconnectDelay = ref(2000)
 
 let eventSource: EventSource | null = null
 let markAsReadTimer: ReturnType<typeof setTimeout> | null = null
+let reconnectTimer: ReturnType<typeof setTimeout> | null = null
 
 // Composables
 const { $client } = useNuxtApp()
@@ -55,6 +59,10 @@ onUnmounted(() => {
   if (markAsReadTimer) {
     clearTimeout(markAsReadTimer)
     markAsReadTimer = null
+  }
+  if (reconnectTimer) {
+    clearTimeout(reconnectTimer)
+    reconnectTimer = null
   }
 })
 
@@ -122,13 +130,39 @@ function subscribeToConversation(id: string) {
     }
   }
   eventSource.onopen = () => {
+    connectionAttempts.value = 0
+    reconnectDelay.value = 2000
     error.value = null
+
+    if (reconnectTimer) clearTimeout(reconnectTimer)
+
+    reconnectTimer = setTimeout(() => {
+      if (eventSource && eventSource.readyState === 1) {
+        eventSource.close()
+        subscribeToConversation(props.conversationId)
+      }
+    }, 8000)
   }
 
   eventSource.onerror = (err) => {
     console.error('SSE CONNECTION ERROR:', err)
-    error.value = new Error('Connection to chat server failed.')
-    isLoading.value = false
+
+    if (reconnectTimer) {
+      clearTimeout(reconnectTimer)
+      reconnectTimer = null
+    }
+    eventSource?.close()
+    if (connectionAttempts.value < maxAttempts) {
+      connectionAttempts.value++
+      const delay = Math.min(reconnectDelay.value, 10000)
+      reconnectDelay.value = Math.min(delay * 1.5, 10000)
+      setTimeout(() => {
+        subscribeToConversation(props.conversationId)
+      }, delay)
+    } else {
+      error.value = new Error('Connection to chat server failed.')
+      isLoading.value = false
+    }
   }
 }
 

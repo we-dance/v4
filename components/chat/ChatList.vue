@@ -4,6 +4,11 @@ const { session } = useAppAuth()
 const { $client } = useNuxtApp()
 const currentUser = computed(() => session.value?.profile)
 
+const connectionAttempts = ref(0)
+const maxAttempts = 50
+const reconnectDelay = ref(2000)
+let reconnectTimer: ReturnType<typeof setTimeout> | null = null
+
 // Get the last Message from messages array
 const getLastMessage = (conversation: any) => {
   if (!conversation.messages?.length) return null
@@ -20,6 +25,56 @@ const {
 
 let inboxEs: EventSource | null = null
 
+function setupInboxConnection() {
+  if (!currentUser.value?.id) return
+
+  inboxEs = new EventSource('/api/chat/stream')
+
+  inboxEs.onmessage = (event) => {
+    try {
+      const data = JSON.parse(event.data)
+      if (data?.type === 'conversation.updated') {
+        refresh()
+      }
+    } catch (error) {
+      console.warn('Invalid SSE Payload', error)
+    }
+  }
+
+  inboxEs.onopen = () => {
+    connectionAttempts.value = 0
+    reconnectDelay.value = 2000
+
+    if (reconnectTimer) clearTimeout(reconnectTimer)
+    reconnectTimer = setTimeout(() => {
+      if (inboxEs && inboxEs.readyState === 1) {
+        inboxEs.close()
+        refresh()
+        setupInboxConnection()
+      }
+    }, 8000)
+  }
+  inboxEs.onerror = (error) => {
+    console.error('Inbox SSE connection error:', error)
+
+    if (reconnectTimer) {
+      clearTimeout(reconnectTimer)
+      reconnectTimer = null
+    }
+    inboxEs?.close()
+
+    if (connectionAttempts.value < maxAttempts) {
+      connectionAttempts.value++
+      const delay = Math.min(reconnectDelay.value, 10000)
+      reconnectDelay.value = Math.min(delay * 1.5, 10000)
+      setTimeout(() => {
+        refresh()
+        setupInboxConnection()
+      }, delay)
+    }
+  }
+}
+
 watch(
   () => currentUser.value?.id,
   (id) => {
@@ -29,30 +84,21 @@ watch(
       inboxEs = null
     }
     if (id) {
-      // Ensure list is for the current user before opening sse
       refresh()
-      inboxEs = new EventSource('/api/chat/stream')
-      inboxEs.onmessage = (event) => {
-        try {
-          const data = JSON.parse(event.data)
-          if (data?.type === 'conversation.updated') {
-            refresh()
-          }
-        } catch (error) {
-          console.warn('Invalid SSE Payload', error)
-        }
-      }
-      inboxEs.onerror = (error) => {
-        console.error('Inbox SSE connection error:', error)
-      }
+      setupInboxConnection()
     }
   },
   { immediate: true }
 )
+
 onUnmounted(() => {
   if (inboxEs) {
     inboxEs.close()
     inboxEs = null
+  }
+  if (reconnectTimer) {
+    clearTimeout(reconnectTimer)
+    reconnectTimer = null
   }
 })
 
