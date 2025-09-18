@@ -336,14 +336,15 @@ export const profilesRouter = router({
       ) {
         throw new Error('Only Instagram profile URLs are supported')
       }
-      const { extractInstagramUsername, isInstagramUrl } = await import(
-        '~/cli/import-organizer/parse'
-      )
-      // Validate the URL and extract username
-      if (!isInstagramUrl(input.instagramUrl)) {
-        throw new Error('Invalid Instagram profile URL')
-      }
-      const username = extractInstagramUsername(input.instagramUrl)
+      const username = input.instagramUrl
+        .replace('https://', '')
+        .replace('http://', '')
+        .replace('www.', '')
+        .replace('instagram.com/', '')
+        .replace('instagr.am/', '')
+        .replace(/\/$/, '')
+        .split('/')[0]
+        .split('?')[0]
       const instagramUrl = `https://www.instagram.com/${username}/`
 
       const existingProfile = await prisma.profile.findFirst({

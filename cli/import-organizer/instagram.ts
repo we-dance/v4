@@ -1,5 +1,4 @@
 import { IgApiClient } from 'instagram-private-api'
-import { extractInstagramUsername } from './parse'
 
 export type InstagramProfileData = {
   username: string
@@ -14,7 +13,16 @@ export type InstagramProfileData = {
 export async function getInstagramProfile(
   instagramUrl: string
 ): Promise<InstagramProfileData> {
-  const username = extractInstagramUsername(instagramUrl)
+  const username = instagramUrl
+    .replace('https://', '')
+    .replace('http://', '')
+    .replace('www.', '')
+    .replace('instagram.com/', '')
+    .replace('instagr.am/', '')
+    .replace(/\/$/, '')
+    .split('/')[0]
+    .split('?')[0]
+
   if (!username) {
     throw new Error('Invalid Instagram URL: could not extract valid username')
   }

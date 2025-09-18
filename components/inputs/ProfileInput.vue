@@ -115,6 +115,9 @@ function extractInstagramUsername(input: string): string {
             </span>
           </div>
         </ComboboxAnchor>
+        <p class="text-xs text-muted-foregorund mt-1 px-1">
+          Or paste a link for an Instagram profile
+        </p>
 
         <ComboboxList class="w-[260px]">
           <div v-if="instagramUsername">
