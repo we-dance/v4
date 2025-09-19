@@ -20,7 +20,9 @@ export const chatRouter = router({
   getConversations: publicProcedure.query(async ({ ctx }) => {
     const me = requireProfileId(ctx)
     const convs = await prisma.conversation.findMany({
-      where: { OR: [{ aId: me }, { bId: me }] },
+      where: {
+        OR: [{ aId: me }, { bId: me }],
+      },
       orderBy: { lastMessage: { createdAt: 'desc' } },
       include: {
         a: { select: { id: true, name: true, photo: true } },
@@ -134,16 +136,58 @@ export const chatRouter = router({
     .input(sendMessageSchema)
     .mutation(async ({ ctx, input }) => {
       const me = requireProfileId(ctx)
-      const conv = await prisma.conversation.findFirst({
-        where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
-        select: { id: true, aId: true, bId: true },
-      })
-      if (!conv) throw new TRPCError({ code: 'NOT_FOUND' })
+      let conversation: { id: string; aId: string; bId: string }
+      if (input.conversationId) {
+        // Existing conversation
+        const conv = await prisma.conversation.findFirst({
+          where: { id: input.conversationId, OR: [{ aId: me }, { bId: me }] },
+          select: { id: true, aId: true, bId: true },
+        })
+        if (!conv) throw new TRPCError({ code: 'NOT_FOUND' })
+        conversation = conv
+      } else {
+        // New conversation
+        const other = input.recipientId!
+        if (other === me) throw new TRPCError({ code: 'BAD_REQUEST' })
+
+        // Verify recipient exists
+        const otherProfile = await prisma.profile.findUnique({
+          where: { id: other },
+          select: { id: true },
+        })
+        if (!otherProfile) {
+          throw new TRPCError({ code: 'NOT_FOUND' })
+        }
+        // Check if conversation already exists
+        const key = pairKeyFor(me, other)
+        const existing = await prisma.conversation.findUnique({
+          where: { pairKey: key },
+          select: { id: true, aId: true, bId: true },
+        })
+
+        if (existing) {
+          conversation = existing
+        } else {
+          // Create new conversation
+          const [aId, bId] = me < other ? [me, other] : [other, me]
+          conversation = await prisma.conversation.create({
+            data: {
+              pairKey: key,
+              aId,
+              bId,
+              ...(aId === me
+                ? { aLastSeenAt: new Date() }
+                : { bLastSeenAt: new Date() }),
+            },
+            select: { id: true, aId: true, bId: true },
+          })
+        }
+      }
 
       const msg = await prisma.$transaction(async (tx) => {
         const createdMessage = await tx.message.create({
           data: {
-            conversationId: conv.id,
+            conversationId: conversation.id,
             senderId: me,
             content: input.content,
           },
@@ -152,10 +196,10 @@ export const chatRouter = router({
           },
         })
         await tx.conversation.update({
-          where: { id: conv.id },
+          where: { id: conversation.id },
           data: {
             lastMessageId: createdMessage.id,
-            ...(conv.aId === me
+            ...(conversation.aId === me
               ? { aLastSeenAt: new Date() }
               : { bLastSeenAt: new Date() }),
           },
@@ -171,22 +215,23 @@ export const chatRouter = router({
           photo: msg.sender.photo,
         },
       }
-      publish(`conversation:${conv.id}`, {
+      publish(`conversation:${conversation.id}`, {
         type: 'message.created',
-        conversationId: conv.id,
+        conversationId: conversation.id,
         message: messageForEvent,
       })
 
-      const other = conv.aId === me ? conv.bId : conv.aId
+      const other =
+        conversation.aId === me ? conversation.bId : conversation.aId
       publish(`inbox:${other}`, {
         type: 'conversation.updated',
-        conversationId: conv.id,
+        conversationId: conversation.id,
       })
       publish(`inbox:${me}`, {
         type: 'conversation.updated',
-        conversationId: conv.id,
+        conversationId: conversation.id,
       })
-      return msg
+      return { ...msg, conversationId: conversation.id }
     }),
 
   markAsRead: publicProcedure
@@ -220,5 +265,23 @@ export const chatRouter = router({
         })
       }
       return { success: true }
+    }),
+
+  findConversationByUserId: publicProcedure
+    .input(z.object({ otherUserId: z.string() }))
+    .query(async ({ ctx, input }) => {
+      const me = requireProfileId(ctx)
+      const other = input.otherUserId
+      if (!other || other === me) {
+        return null
+      }
+
+      const key = pairKeyFor(me, other)
+      const conversation = await prisma.conversation.findUnique({
+        where: { pairKey: key },
+        select: { id: true },
+      })
+
+      return conversation
     }),
 })
