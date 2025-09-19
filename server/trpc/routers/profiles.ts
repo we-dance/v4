@@ -169,6 +169,18 @@ export const profilesRouter = router({
         events: enrichedEvents,
       }
     }),
+  getById: publicProcedure.input(z.string()).query(async ({ input }) => {
+    const profile = await prisma.profile.findUnique({
+      where: { id: input },
+      select: {
+        id: true,
+        name: true,
+        photo: true,
+        username: true,
+      },
+    })
+    return profile
+  }),
   update: publicProcedure
     .input(
       z.object({

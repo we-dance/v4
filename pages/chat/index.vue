@@ -67,14 +67,11 @@ async function createConversation() {
   try {
     isCreating.value = true
 
-    const conversation = await $client.chat.createConversation.mutate({
-      otherUserId: selectedUser.value.id,
-    })
-
+    // Navigate to new conversation URL instead of creating empty conversation
     showNewConversationModal.value = false
-    router.push(`/chat/${conversation.id}`)
+    await router.push(`/chat/new-${selectedUser.value.id}`)
   } catch (error) {
-    console.error('Error creating conversation:', error)
+    console.error('Error navigating to conversation:', error)
   } finally {
     isCreating.value = false
   }

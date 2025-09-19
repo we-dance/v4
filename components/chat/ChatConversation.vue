@@ -4,7 +4,8 @@ import { toast } from 'vue-sonner'
 
 // Props
 const props = defineProps<{
-  conversationId: string
+  conversationId?: string | null
+  recipientId?: string | null
 }>()
 
 //State Management
@@ -31,23 +32,64 @@ let reconnectTimer: ReturnType<typeof setTimeout> | null = null
 const { $client } = useNuxtApp()
 const { session } = useAppAuth()
 
+const route = useRoute()
+const router = useRouter()
+
 // Computed Properties
 const currentUser = computed(() => session.value?.profile)
 const charCount = computed(() => graphemeCount(newMessage.value.trim()))
+// Fetch recipient profile for new conversations
+const { data: recipientProfile } = useAsyncData(
+  `profile-${props.recipientId}`,
+  () => {
+    if (!props.recipientId) return Promise.resolve(null)
+    return $client.profiles.getById.query(props.recipientId)
+  },
+  {
+    watch: [() => props.recipientId],
+  }
+)
 const otherParticipant = computed(() => {
-  if (!conversation.value || !currentUser.value) return null
+  if (conversation.value && currentUser.value) {
+    const conv = conversation.value
+    const currentUserId = currentUser.value?.id
+    return conv.aId === currentUserId ? conv.b : conv.a
+  }
 
-  const conv = conversation.value
-  const currentUserId = currentUser.value?.id
+  // For new conversations, use recipient profile
+  if (recipientProfile.value) {
+    return {
+      id: recipientProfile.value.id,
+      name: recipientProfile.value.name,
+      photo: recipientProfile.value.photo,
+    }
+  }
 
-  // Return the participant that's not the current user
-  return conv.aId === currentUserId ? conv.b : conv.a
+  // For new conversations, show minimal info
+  if (props.recipientId) {
+    return {
+      id: props.recipientId,
+      name: 'User',
+      photo: null,
+    }
+  }
+
+  return null
 })
+
+const isNewConversation = computed(
+  () => !!props.recipientId && !props.conversationId
+)
 
 // Lifecycle Hooks
 onMounted(() => {
-  subscribeToConversation(props.conversationId)
-  markAsRead(props.conversationId)
+  if (props.conversationId) {
+    subscribeToConversation(props.conversationId)
+    markAsRead(props.conversationId)
+  } else {
+    // New conversation - no subscription needed yet
+    isLoading.value = false
+  }
 })
 
 onUnmounted(() => {
@@ -137,7 +179,7 @@ function subscribeToConversation(id: string) {
     if (reconnectTimer) clearTimeout(reconnectTimer)
 
     reconnectTimer = setTimeout(() => {
-      if (eventSource && eventSource.readyState === 1) {
+      if (eventSource && eventSource.readyState === 1 && props.conversationId) {
         eventSource.close()
         subscribeToConversation(props.conversationId)
       }
@@ -157,7 +199,9 @@ function subscribeToConversation(id: string) {
       const delay = Math.min(reconnectDelay.value, 10000)
       reconnectDelay.value = Math.min(delay * 1.5, 10000)
       setTimeout(() => {
-        subscribeToConversation(props.conversationId)
+        if (props.conversationId) {
+          subscribeToConversation(props.conversationId)
+        }
       }, delay)
     } else {
       error.value = new Error('Connection to chat server failed.')
@@ -173,16 +217,32 @@ async function sendMessage() {
     toast.error('Message cannot be longer than 500 characters.')
     return
   }
+
   try {
     isSending.value = true
-    await $client.chat.sendMessage.mutate({
-      conversationId: props.conversationId,
-      content,
-    })
+
+    if (props.conversationId) {
+      // Existing conversation
+      await $client.chat.sendMessage.mutate({
+        conversationId: props.conversationId,
+        content,
+      })
+    } else if (props.recipientId) {
+      // New conversation - create it with first message
+      const result = await $client.chat.sendMessage.mutate({
+        recipientId: props.recipientId,
+        content,
+      })
+
+      // Replace URL with real conversation ID
+      await router.replace(`/chat/${result.conversationId}`)
+    }
+
     newMessage.value = ''
     // The SSE listener will handle refreshing the conversation data
   } catch (err) {
     console.error('Failed to send message:', err)
+    toast.error('Failed to send message. Please try again.')
   } finally {
     isSending.value = false
   }
@@ -277,7 +337,20 @@ function formatTime(timestamp: string | Date) {
           <Skeleton class="h-4 w-24" />
         </div>
       </div>
-      <div v-else-if="conversation" class="flex items-center flex-1">
+      <!-- New conversation loading state -->
+      <div
+        v-else-if="isNewConversation && !otherParticipant"
+        class="flex items-center gap-3 flex-1"
+      >
+        <Skeleton class="h-8 w-8 rounded-full" />
+        <Skeleton class="h-4 w-24" />
+      </div>
+
+      <!-- Loaded state for both existing and new conversations -->
+      <div
+        v-else-if="conversation || otherParticipant"
+        class="flex items-center flex-1"
+      >
         <div class="flex-shrink-0">
           <img
             v-if="otherParticipant?.photo"
@@ -320,6 +393,15 @@ function formatTime(timestamp: string | Date) {
       <div v-else-if="error" class="p-4 text-red-500">
         {{ error?.message || 'Failed to load conversation' }}
       </div>
+      <!-- Empty state for new conversations -->
+      <div v-else-if="isNewConversation" class="text-center text-gray-500 py-8">
+        <p>Start a new conversation</p>
+        <p class="text-sm mt-2">
+          Send a message to {{ otherParticipant?.name || 'this user' }} below.
+        </p>
+      </div>
+
+      <!-- Empty state for existing conversations -->
       <div
         v-else-if="!conversation?.messages?.length"
         class="text-center text-gray-500 py-8"
