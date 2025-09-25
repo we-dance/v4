@@ -3,7 +3,7 @@
 
 generator client {
   provider        = "prisma-client-js"
-  previewFeatures = ["fullTextSearch", "relationJoins"]
+  previewFeatures = ["fullTextSearchPostgres", "relationJoins"]
 }
 
 datasource db {
@@ -208,6 +208,14 @@ model Profile {
   @@index([photo])
   @@index([userId])
   @@index([cityId])
+  @@index([type])
+  @@index([followersCount(sort: Desc)])
+  @@index([name])
+  @@index([bio])
+  @@index([username])
+  @@index([type, cityId])
+  @@index([type, followersCount(sort: Desc)])
+  @@index([cityId, followersCount(sort: Desc)])
   @@index([createdAt(sort: Desc)])
   @@map("Profile")
 }
@@ -262,6 +270,18 @@ model Post {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   replies   Post[]   @relation("post_reply_to")
+
+  @@index([type])
+  @@index([cityId])
+  @@index([authorId])
+  @@index([title])
+  @@index([summary])
+  @@index([published])
+  @@index([type, cityId])
+  @@index([authorId, createdAt(sort: Desc)])
+  @@index([cityId, createdAt(sort: Desc)])
+  @@index([published, createdAt(sort: Desc)])
+  @@index([type, published, createdAt(sort: Desc)])
 }
 
 model Event {
@@ -298,6 +318,22 @@ model Event {
   createdAt      DateTime        @default(now())
   updatedAt      DateTime        @updatedAt
   calendarEvents CalendarEvent[] @relation("calendar_event_to_event")
+
+  @@index([type])
+  @@index([published])
+  @@index([status])
+  @@index([name])
+  @@index([description])
+  @@index([startDate])
+  @@index([endDate])
+  @@index([venueId])
+  @@index([creatorId])
+  @@index([organizerId])
+  @@index([type, published])
+  @@index([published, startDate])
+  @@index([status, startDate])
+  @@index([venueId, startDate])
+  @@index([type, published, startDate])
 }
 
 model Ticket {
@@ -381,6 +417,12 @@ model DanceStyle {
   calendarEvents CalendarEvent[] @relation("calendar_event_styles")
 
   @@index([membersCount(sort: Desc)])
+  @@index([name])
+  @@index([hashtag])
+  @@index([popular])
+  @@index([type])
+  @@index([eventsCount(sort: Desc)])
+  @@index([popular, membersCount(sort: Desc)])
 }
 
 model ProfileFollower {
