@@ -60,10 +60,16 @@ export const createConversationSchema = z.object({
 export type CreateConversationInput = z.infer<typeof createConversationSchema>
 
 // Input for sending a message
-export const sendMessageSchema = z.object({
-  conversationId: z.string(),
-  content: contentSchema,
-})
+export const sendMessageSchema = z
+  .object({
+    conversationId: z.string().optional(),
+    recipientId: z.string().optional(),
+    content: contentSchema,
+  })
+  .refine(
+    (data) => !!data.conversationId !== !!data.recipientId,
+    'Either conversationId or recipientId must be provided, but not both.'
+  )
 
 export type SendMessageInput = z.infer<typeof sendMessageSchema>
 
