@@ -32,6 +32,8 @@ export default defineNuxtConfig({
   },
 
   posthog: {
+    publicKey: 'phc_N7rtjDNLzyAGTOkhwhPBrEPybpxBwLlMpfPI9j1xZWB',
+    host: 'https://eu.i.posthog.com',
     clientOptions: {
       persistence: 'memory',
     },
