@@ -146,8 +146,8 @@ export default defineNuxtConfig({
     mailgunWebhookKey: '',
     public: {
       posthog: {
-        publicKey: '',
-        host: '',
+        publicKey: 'phc_N7rtjDNLzyAGTOkhwhPBrEPybpxBwLlMpfPI9j1xZWB',
+        host: 'https://eu.i.posthog.com',
       },
       posthogDisabled: '',
       appUrl: '',
