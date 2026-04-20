@@ -176,6 +176,10 @@ model Profile {
   oldCities        Json?
   privacySettings  Json?
 
+  importStatus String? // 'requested', 'importing', 'success', 'failed'
+  importError  String? // Store error messages if import fails
+  source       String? //'instagram' to track where data came from
+
   userId          String? @unique
   user            User?   @relation("owned_by", fields: [userId], references: [id])
   cityId          String?
