@@ -28,7 +28,7 @@ const schema = z.object({
   cover: z.string().optional().default(''),
   status: statusSchema,
   startDate: z.string().optional(),
-  endDate: z.string().optional(),
+  endDate: z.string().optional().nullable(),
   type: z.string().optional().default('Party'),
   venue: z
     .object({
@@ -186,7 +186,7 @@ const askToDelete = () => {
 
       <FormField v-slot="{ componentField }" name="startDate">
         <FormItem class="flex flex-col justify-start">
-          <FormLabel>Start</FormLabel>
+          <FormLabel>Start Date</FormLabel>
           <FormControl>
             <DateInput v-bind="componentField" />
           </FormControl>
@@ -194,12 +194,31 @@ const askToDelete = () => {
         </FormItem>
       </FormField>
 
-      <FormField v-slot="{ componentField }" name="endDate">
-        <FormItem class="flex flex-col justify-start">
-          <FormLabel>End</FormLabel>
-          <FormControl>
-            <DateInput v-bind="componentField" :min-date="event.startDate" />
-          </FormControl>
+      <FormField v-slot="{ value: endDateValue, setValue: setEndDate }" name="endDate">
+        <FormItem class="flex flex-col justify-start space-y-3">
+          <div class="flex items-center gap-2">
+            <Checkbox
+              :id="'open-end-' + event?.id"
+              :checked="endDateValue == null || endDateValue === ''"
+              @update:checked="(checked) => setEndDate(checked ? null : undefined)"
+            />
+            <FormLabel
+              :for="'open-end-' + event?.id"
+              class="text-sm font-normal cursor-pointer"
+            >
+              Open end party (no end date/time)
+            </FormLabel>
+          </div>
+          <template v-if="endDateValue != null && endDateValue !== ''">
+            <FormLabel>End date</FormLabel>
+            <FormControl>
+              <DateInput
+                :model-value="endDateValue"
+                @update:model-value="setEndDate"
+                :min-date="event.startDate"
+              />
+            </FormControl>
+          </template>
           <FormMessage />
         </FormItem>
       </FormField>

@@ -278,7 +278,7 @@ export const eventsRouter = router({
         cover: z.string().optional(),
         status: z.string().optional(),
         startDate: z.string().optional(),
-        endDate: z.string().optional(),
+        endDate: z.string().optional().nullable(),
         type: z.string().optional(),
         venue: z
           .object({
@@ -311,7 +311,12 @@ export const eventsRouter = router({
         data: {
           ...data,
           startDate: data.startDate ? new Date(data.startDate) : undefined,
-          endDate: data.endDate ? new Date(data.endDate) : undefined,
+          endDate:
+            data.endDate === null || data.endDate === ''
+              ? null
+              : data.endDate
+                ? new Date(data.endDate)
+                : undefined,
           venueId: venue?.id,
           organizerId: organizer?.id,
           styles: stylesData,

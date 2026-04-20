@@ -299,9 +299,11 @@ const navigation = computed(() => [
                   </div>
                   <div>
                     <div class="font-medium">
-                      {{ getDateTime(event.endDate) }}
+                      {{ event.endDate ? getDateTime(event.endDate) : 'Open end' }}
                     </div>
-                    <div class="text-muted-foreground">End</div>
+                    <div class="text-muted-foreground">
+                      {{ event.endDate ? 'End' : 'No end time' }}
+                    </div>
                   </div>
                 </div>
               </div>
