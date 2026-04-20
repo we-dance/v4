@@ -3,6 +3,15 @@ import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { getServerSession } from '#auth'
 import { privacySettingsSchema } from '~/schemas/profile'
+import {
+  getCityIdFromGooglePlace,
+  getPlaceDetails,
+} from '~/server/utils/google_maps'
+import { TRPCError } from '@trpc/server'
+import { findOrCreateCity } from '~/server/utils/city'
+import { getSlug } from '~/utils/slug'
+import { AddressType } from '@googlemaps/google-maps-services-js'
+import { toCalendar } from '@internationalized/date'
 
 const profileUpdateSchema = z.object({
   bio: z.string().optional(),
@@ -304,21 +313,95 @@ export const profilesRouter = router({
 
       return { profiles, totalCount, hasMore, nextPage }
     }),
+
   findVenueOrCreate: publicProcedure
-    .input(z.object({ placeId: z.string(), googleMapsPlace: z.any() }))
+    .input(z.object({ placeId: z.string() }))
     .mutation(async ({ input }) => {
-      const { placeId, googleMapsPlace } = input
-
-      const existingVenue = await prisma.profile.findFirst({
-        where: {
-          placeId,
-        },
-      })
-
-      if (existingVenue) {
-        return existingVenue
+      const { placeId } = input
+      const place = await getPlaceDetails(placeId)
+      if (!place || !place.name) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Invalid Google Place ID or place has no name.',
+        })
       }
+      const placeTypes = place.types || []
+      if (
+        placeTypes.includes(AddressType.locality) ||
+        placeTypes.includes(AddressType.administrative_area_level_1) ||
+        placeTypes.includes(AddressType.country)
+      ) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Please select a specific venue, not a city or region.',
+        })
+      }
+      return await prisma.$transaction(async (tx) => {
+        const existingVenue = await tx.profile.findFirst({
+          where: { placeId },
+        })
+        if (existingVenue) {
+          return existingVenue
+        }
 
-      throw new Error('Venue not found')
+        // Get the city's unique Place ID from the venue's data.
+        const cityPlaceId = await getCityIdFromGooglePlace(place)
+
+        if (!cityPlaceId) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Could not determine a city for the selected venue.',
+          })
+        }
+
+        let city
+        try {
+          city = await findOrCreateCity(cityPlaceId)
+        } catch (error) {
+          console.error('Error in findOrCreateCity', error)
+          throw new TRPCError({
+            code: 'INTERNAL_SERVER_ERROR',
+            message: `Failed to create city: ${error}`,
+          })
+        }
+
+        // Generate a unique username for the venue to avoid conflicts.
+        const baseSlug = getSlug(place.name!)
+        let username = baseSlug
+        const existingProfile = await tx.profile.findFirst({
+          where: { username },
+        })
+        if (existingProfile) {
+          username = getSlug(`${place.name!}-${city.name}`)
+          const anotherExisting = await tx.profile.findFirst({
+            where: { username },
+          })
+          if (anotherExisting) {
+            throw new Error(
+              `Could not generate a unique username for this venue.`
+            )
+          }
+        }
+        try {
+          const newVenue = await tx.profile.create({
+            data: {
+              name: place.name!,
+              username,
+              type: 'Venue',
+              placeId,
+              cityId: city.id,
+              formattedAddress: place.formatted_address,
+              website: place.website || null,
+              phone: place.international_phone_number || null,
+              lat: place.geometry?.location?.lat || null,
+              lng: place.geometry?.location?.lng || null,
+              mapUrl: place.url || null,
+            },
+          })
+          return newVenue
+        } catch (error) {
+          throw error
+        }
+      })
     }),
 })

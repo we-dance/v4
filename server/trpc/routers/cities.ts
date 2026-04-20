@@ -1,7 +1,7 @@
 import { publicProcedure, router } from '~/server/trpc/init'
 import { prisma } from '~/server/prisma'
 import { z } from 'zod'
-import { addCity } from '~/server/utils/city'
+import { findOrCreateCity } from '~/server/utils/city'
 
 export const citiesRouter = router({
   popular: publicProcedure.query(async ({ ctx }) => {
@@ -106,6 +106,6 @@ export const citiesRouter = router({
     .mutation(async ({ ctx, input }) => {
       const { city } = input
 
-      return await addCity(city)
+      return await findOrCreateCity(city.id)
     }),
 })
