@@ -30,14 +30,7 @@ export function useContact() {
     //else start a conversation
     try {
       pending.value = true
-      const conversation = await $client.chat.createConversation.mutate({
-        otherUserId: profile.id,
-      })
-      if (conversation?.id) {
-        await navigateTo(`/chat/${conversation.id}`)
-      } else {
-        toast.error('Could not start the conversation. Please try again.')
-      }
+      await navigateTo(`/chat/new-${profile.id}`)
     } catch (error) {
       toast.error('Failed to start the conversation. Please try again.')
     } finally {
