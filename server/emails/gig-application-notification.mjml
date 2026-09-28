@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+    <mj-title>New Application - {{position}}</mj-title>
+    <mj-preview>New application received for {{position}} position</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F8F8" width="600px">
+    <mj-section background-color="#ffffff" padding="50px 40px 20px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="28px"
+          line-height="36px"
+          align="center"
+          padding-bottom="20px"
+        >
+          New Application Received
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="18px"
+          line-height="28px"
+          align="center"
+          padding-bottom="10px"
+        >
+          Position: <strong>{{position}}</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="600"
+          font-size="16px"
+          line-height="24px"
+          padding-bottom="10px"
+        >
+          Applicant Details:
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          padding-bottom="5px"
+        >
+          <strong>Name:</strong> {{name}}
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          padding-bottom="20px"
+        >
+          <strong>Email:</strong> <a href="mailto:{{email}}">{{email}}</a>
+        </mj-text>
+
+        <mj-divider
+          border-color="#E4E4E7"
+          border-width="1px"
+          padding="20px 0px"
+        />
+
+        <mj-text
+          color="#1f1f1f"
+          font-weight="600"
+          font-size="16px"
+          line-height="24px"
+          padding-bottom="10px"
+          padding-top="10px"
+        >
+          Application Message:
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          padding-bottom="20px"
+        >
+          {{message}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F8F9FA" padding="40px 30px 35px 30px">
+      <mj-column width="100%">
+        <mj-text
+          color="#737373"
+          font-size="14px"
+          line-height="20px"
+          align="center"
+        >
+          Review and respond to this application on your platform.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

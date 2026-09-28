@@ -14,6 +14,7 @@ import { searchRouter } from './search'
 import { ticketPurchasesRouter } from './ticketPurchases'
 import { calendarsRouter } from './calendars'
 import { stylesRouter } from './styles'
+import { applicationsRouter } from './applications'
 
 export const appRouter = router({
   posts: postsRouter,
@@ -31,6 +32,7 @@ export const appRouter = router({
   ticketPurchases: ticketPurchasesRouter,
   calendars: calendarsRouter,
   styles: stylesRouter,
+  applications: applicationsRouter,
 })
 
 export type AppRouter = typeof appRouter

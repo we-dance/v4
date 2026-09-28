@@ -1,0 +1,114 @@
+<mjml>
+  <mj-head>
+    <mj-title>Application Received</mj-title>
+    <mj-preview
+      >Thank you for applying to WeDance! We've received your
+      application.</mj-preview
+    >
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F8F8" width="600px">
+    <mj-section background-color="#ffffff" padding="50px 40px 20px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#1f1f1f"
+          font-weight="700"
+          font-size="32px"
+          line-height="40px"
+          align="center"
+          padding-bottom="20px"
+        >
+          Application Received! ✓
+        </mj-text>
+        {{#if name}}
+        <mj-text
+          color="#737373"
+          font-size="18px"
+          line-height="28px"
+          align="center"
+          padding-bottom="10px"
+        >
+          Hi {{name}},
+        </mj-text>
+        {{/if}}
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+        >
+          Thank you for applying to the <strong>{{position}}</strong> position
+          at WeDance!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 40px 40px 40px">
+      <mj-column width="100%">
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+          padding-bottom="20px"
+        >
+          We've received your application and our team is reviewing it
+          carefully. We'll be in touch soon with next steps.
+        </mj-text>
+        <mj-text
+          color="#737373"
+          font-size="16px"
+          line-height="24px"
+          align="center"
+          padding-bottom="30px"
+        >
+          In the meantime, feel free to explore the WeDance platform and join
+          our community!
+        </mj-text>
+        <mj-button
+          background-color="#1f1f1f"
+          border-radius="6px"
+          color="#ffffff"
+          font-weight="600"
+          font-size="16px"
+          text-transform="none"
+          href="https://v4.wedance.vip"
+          padding="20px 0px"
+          inner-padding="16px 32px"
+        >
+          Explore WeDance
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F8F9FA" padding="40px 30px 35px 30px">
+      <mj-column width="100%">
+        <mj-image
+          src="https://v4.wedance.vip/logo-full.png"
+          alt="WeDance Logo"
+          width="150px"
+          align="center"
+          padding-bottom="30px"
+        />
+        <mj-text
+          color="#A1A1AA"
+          font-size="12px"
+          line-height="16px"
+          align="center"
+        >
+          Let's dance together! 💃🕺
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
