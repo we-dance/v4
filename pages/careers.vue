@@ -1,4 +1,7 @@
 <script setup lang="ts">
+const dialog = useDialog()
+const { $clientPosthog } = useNuxtApp()
+
 const positions = [
   {
     title: 'Full Stack Developer',
@@ -52,6 +55,19 @@ const benefits = [
     description: 'Free access to dance events and premium features',
   },
 ]
+
+const handleApplyClick = (positionTitle: string) => {
+  $clientPosthog?.capture('gig_cta_click', {
+    position: positionTitle,
+    action: 'apply_dialog_opened',
+  })
+  dialog.open({
+    component: 'ApplyToGigDialog',
+    props: {
+      position: positionTitle,
+    },
+  })
+}
 </script>
 
 <template>
@@ -96,7 +112,9 @@ const benefits = [
               <p class="text-muted-foreground">{{ position.description }}</p>
             </CardContent>
             <CardFooter>
-              <Button>Apply Now</Button>
+              <Button @click="handleApplyClick(position.title)"
+                >Apply Now</Button
+              >
             </CardFooter>
           </Card>
         </div>

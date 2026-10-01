@@ -39,6 +39,16 @@ const templates: Record<string, EmailTemplate> = {
     template: 'ticket-purchase-confirmation',
     from: 'WeDance <noreply@wedance.vip>',
   },
+  'gig-application-received': {
+    subject: 'We Received Your Application',
+    template: 'gig-application-received',
+    from: 'WeDance <noreply@wedance.vip>',
+  },
+  'gig-application-notification': {
+    subject: 'New Application for {{position}} Position',
+    template: 'gig-application-notification',
+    from: 'WeDance Careers <careers@wedance.vip>',
+  },
 }
 
 async function compileMjmlTemplate(
