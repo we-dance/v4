@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { usePostHog } from '#imports'
-
 const dialog = useDialog()
-const posthog = usePostHog()
+const { $clientPosthog } = useNuxtApp()
 
 const positions = [
   {
@@ -59,7 +57,7 @@ const benefits = [
 ]
 
 const handleApplyClick = (positionTitle: string) => {
-  posthog?.capture('gig_cta_click', {
+  $clientPosthog?.capture('gig_cta_click', {
     position: positionTitle,
     action: 'apply_dialog_opened',
   })
